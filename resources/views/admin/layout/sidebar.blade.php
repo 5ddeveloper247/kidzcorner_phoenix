@@ -27,6 +27,23 @@
 						</li>
 					</ul> --}}
 				</li>
+@if(Auth::user()->role_id == 2)
+					<li>
+					<a href="javascript:;" 
+					{{-- class="has-arrow" --}}
+					>
+						<div class="parent-icon icon-color-1"><i class='bx  bx-slideshow'  ></i> 
+						</div>
+						<div class="menu-title">Slides</div>
+					</a>
+					{{-- <ul>
+						<li> <a href="index.html"><i class="bx bx-right-arrow-alt"></i>Analytics</a>
+						</li>
+						<li> <a href="index2.html"><i class="bx bx-right-arrow-alt"></i>Sales</a>
+						</li>
+					</ul> --}}
+				</li>
+				@endif
 				{{-- <li class="menu-label">Web Apps</li> --}}
 
 				{{-- <li class="menu-label">Forms & Tables</li>
