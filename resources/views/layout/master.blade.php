@@ -27,7 +27,7 @@
         <div class=" board w-[1267px] h-[734px] flex flex-col justify-center items-center bg-[url('/assets/images/pptimages/stoneboard.png')] bg-no-repeat bg-cover bg-center ">
 
             <!-- Dynamic slide content -->
-            <div class=" flex items-center justify-center text-center px-4 row-gap-5 max-w-[1200px]  m-auto">
+            <div class=" flex items-center justify-center text-center px-4 row-gap-5 max-w-[1100px]  m-auto">
                 @yield('content')
             </div>
 
