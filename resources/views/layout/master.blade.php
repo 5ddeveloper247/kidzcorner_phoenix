@@ -24,10 +24,10 @@
     <section class="w-screen h-screen relative flex items-center justify-center bg-orange-200 overflow-hidden">
 
 
-        <div class=" board w-[1267px] h-[734px] flex flex-col justify-center items-center bg-[url('/assets/images/pptimages/stoneboard.png')] bg-no-repeat bg-cover bg-center ">
+        <div id="ajax-content"  class="board w-[1267px] h-[734px] flex flex-col justify-center items-center bg-[url('/assets/images/pptimages/stoneboard.png')] bg-no-repeat bg-cover bg-center ">
 
             <!-- Dynamic slide content -->
-            <div class=" flex items-center justify-center text-center px-4 row-gap-5 max-w-[1100px]  m-auto">
+            <div id="ajax-section" class="flex items-center justify-center text-center px-4 row-gap-5 max-w-[1100px]  m-auto">
                 @yield('content')
             </div>
 
