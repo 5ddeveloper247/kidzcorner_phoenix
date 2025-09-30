@@ -27,9 +27,9 @@
         <div>
             <h2 class="  font-bold">Children will be able to:</h2>
             <ul class="list-disc ">
-                <li>Explore and learn about the characteristics of wheels and axles - a simple machine</li>
-                <li>Know some examples of things with wheel and axle around us</li>
-                <li>Build a pinwheel based on a pictorial guide</li>
+                <li>Explore and learn about different uses of wheels and axles - a simple machine</li>
+                <li>Build a spinning top and a launcher based on a pictorial guide</li>
+                <li>Learn how to test and get answers through comparison</li>
                 <li>Answer some questions based on the hands-on experience</li>
                 <li>Develop fine motor and eye-hand coordination skills</li>
                 <li>Develop understanding through observation and inquiry</li>
@@ -40,10 +40,9 @@
             <div>
                 <h2 class="text-[33px] font-bold">Keywords:</h2>
                 <ul class="list-disc ">
+                    <li>Simple Machine</li>
                     <li>Wheel</li>
                     <li>Axle</li>
-                    <li>Simple Machine</li>
-
                 </ul>
             </div>
             <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" />
@@ -52,22 +51,84 @@
 
 
 
-    {{-- slide 24 --}}
+    {{-- slide 2 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start w-[75%]">
         <div>
-            <h2 class="font-bold">Preparations for Class Activity I:</h2>
+            <h2 class="font-bold">Preparations:</h2>
             <ul class="list-disc ">
                 <li>Each group have a set of building bricks (parts and quantity as shown)</li>
             </ul>
         </div>
-   <div class="flex items-center">
-            <img src="{{ asset('assets/images/N2/a8.png') }}" class="w-[536px]" />
+        <div class="flex items-center">
+            <img src="{{ asset('assets/images/N2/a49.png') }}" class="w-[636px]" />
             <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt=""
                 class="h-[350xp] object-contain" />
         </div>
     </div>
 
-    {{-- slide 25 --}}
+
+
+    {{-- slide 3 --}}
+    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start w-[75%]">
+        <div>
+            <h2 class="font-bold">Preparations:</h2>
+            <ul class="list-disc ">
+                <li> A timer <br>
+                    [Note: You'll help each group of children to time how long their spinning
+                    top spins; each group have 2 chances and they'll record down the longest
+                    time in their learning journals.]</li>
+            </ul>
+        </div>
+        <div>
+            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt=""
+                class="h-[350xp] object-contain float-right" />
+        </div>
+
+    </div>
+
+
+    {{-- slide 4 --}}
+    <div class="text-white flex flex-col text-start text-2xl slide hidden">
+        <div>
+            <h2 class="font-bold underline">What you need to do before the lesson:</h2>
+            <ul class="list-disc">
+                <li>Be familiar with the name of the parts in the lego set.</li>
+            </ul>
+        </div>
+        <div class="flex items-center">
+            <img src="{{ asset('assets/images/N2/at1.png') }}" class="w-[536px]" />
+            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt=""
+                class="h-[350xp] object-contain" />
+        </div>
+    </div>
+
+
+    {{-- slide 5 --}}
+    <div class="text-white flex flex-col text-start text-2xl slide hidden">
+        <div>
+            <h2 class="font-bold underline">What you need to do before the lesson:</h2>
+            <ul class="list-disc">
+                <li>Encourage children to always discuss and make decisions as a group to complete the mission.</li>
+                <li>Always encourage children to attempt on their own before prompting.</li>
+                <li>For a fair test (hands-on session 2), get children to:
+                    <ul>
+                        <li>Test all the spinning tops on the same surface</li>
+                        <li>Turn the handle of the launcher at the same speed</li>
+                        <li>Use the same number of times to turn the handle before lifting up the launcher</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt=""
+                class="h-[350xp] object-contain float-right" />
+        </div>
+
+    </div>
+
+
+
+    {{-- slide 6 --}}
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
@@ -78,7 +139,7 @@
                         <span
                             class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
                             <!-- Decorative Vector -->
-                            <img src="assets/images/pptimages/Vector4.png"
+                            <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
                                 class="absolute top-[4px] left-[6px] h-6 w-[80%]" />
                             <div class="absolute top-[7px] left-[12px] h-2.5 w-3.5 rounded-sm bg-white"></div>
                             <img src="{{ asset('assets/images/pptimages/play.png') }}"
@@ -90,7 +151,7 @@
                         If you see
                         <span
                             class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-amber-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-                            <img src="assets/images/pptimages/Vector4.png"
+                            <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
                                 class="absolute top-[4px] left-[6px] h-6 w-[80%]" />
                             <div class="absolute top-[7px] left-[12px] h-2.5 w-3.5 rounded-sm bg-white"></div>
                             <img src="{{ asset('assets/images/pptimages/info.png') }}"
@@ -108,7 +169,7 @@
                         Click on this <span class="font-bold">shortcut icon</span>
                         <span
                             class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-                            <img src="assets/images/pptimages/Vector4.png"
+                            <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
                                 class="absolute top-[4px] left-[6px] h-6 w-[80%]" />
                             <div class="absolute top-[7px] left-[12px] h-2.5 w-3.5 rounded-sm bg-white"></div>
                             <img src="{{ asset('assets/images/pptimages/home-icon.png') }}"
@@ -125,40 +186,19 @@
     </div>
 
 
-    {{--  slide 26 --}}
-    <div class=" slide text-white flex flex-col justify-start text-start text-2xl">
-        <h1 class="stroke font-bold">Let’s sort!</h1>
-        <div>
-            <h2 class="font-bold">Preparations for Class Activity I:</h2>
-            <p>Place pictures of various items such as pot of plant, bottle, shoe, sock, box, elephant, lamp, light
-                bulb,
-                sun, stars, lightning, firefly, ceiling light, handphone, TV.</p>
-        </div>
 
-        <div class="flex w-[100%] items-center justify-between">
-            <div>
-                <h2 class="font-bold">What to do:</h2>
-                <ul>
-                    <li>
-                        <strong>*</strong> Invite children to pick up pictures and sort them into groups:
-                        <ul class="mt-2 list-[lower-alpha] space-y-1 pl-6">
-                            <li>Gives light or Does not give light</li>
-                            <li>Natural light or Man-made light</li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" />
 
-        </div>
-    </div>
 
+
+
+    {{-- Done Button --}}
     <div class="absolute bottom-0">
         <button
             class="cursor-pointer doneButton w-66 h-[75px] relative bg-[#F8A23A] rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
                     outline outline-1 outline-yellow-700 overflow-hidden">
             <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
-            <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" />
+            <div class="absolute left-[8.22px] top-[3.17px] "> <img
+                    src="/{{ asset('assets/images/pptimages/Vector4.png') }}" />
             </div>
             <span
                 class="absolute left-[80px] top-[18px] flex items-center  text-white text-5xl font-bold stroke">DONE</span>
@@ -176,7 +216,8 @@
         <!-- Return Button -->
         <a class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
             id="returnButton">
-            <img class="absolute top-[6px] left-[8px] w-20 h-10" src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
+            <img class="absolute top-[6px] left-[8px] w-20 h-10"
+                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
             <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
             <img class="absolute top-[24px] left-[22px] w-14 h-14"
                 src="{{ asset('assets/images/pptimages/reverse-icon.png') }}" />

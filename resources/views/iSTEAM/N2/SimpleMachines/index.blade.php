@@ -44,7 +44,7 @@
 
         <h2 class="text-[45px] text-[#F7B94A] font-extrabold stroke ">SimpleMachines</h2>
 
-        <div class="grid grid-cols-1 gap-8 text-center sm:grid-cols-2 lg:grid-cols-3">
+        <div class="grid grid-cols-1 gap-5 text-center sm:grid-cols-2 lg:grid-cols-4">
             <!-- Card 1-->
             <a href="{{ route('Wagon') }}"
                 class=" bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[300px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
@@ -71,27 +71,43 @@
             </a>
 
             <!-- Card 4 -->
-            <a href="{{route('Shape-around')}}"
+            <a href="{{route('MeasuringCar')}}"
                 class=" bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[300px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="text-2xl text-[#7D6F71]">Shapes Around Us</h2>
+                <h2 class="text-2xl text-[#7D6F71]">A Measuring Car-1</h2>
                 <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">4</span>
 
             </a>
 
             <!-- Card 5 -->
-            <a href="{{route('Build-Structure')}}"
+            <a href="{{route('MeasuringCar2')}}"
                 class=" bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[300px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="text-2xl text-[#7D6F71]">Building Structures</h2>
+                <h2 class="text-2xl text-[#7D6F71]">A Measuring Car-1</h2>
                 <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">5</span>
 
             </a>
             <!-- Card 6 -->
-            <a href="{{route('Creations')}}"
+            <a href="{{route('Push')}}"
                 class=" bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[300px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="text-2xl text-[#7D6F71]">My Creation</h2>
+                <h2 class="text-2xl text-[#7D6F71]">Push it Up</h2>
                 <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">6</span>
 
             </a>
+                            <!-- Card 7 -->
+            <a href="{{route('Seasaw')}}"
+                class=" bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[300px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
+                <h2 class="text-2xl text-[#7D6F71]">A Seesaw</h2>
+                <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">6</span>
+
+            </a>
+
+                <!-- Card 8 -->
+            <a href="{{route('RaceCar')}}"
+                class=" bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[300px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
+                <h2 class="text-2xl text-[#7D6F71]">Design A <br> Race Car</h2>
+                <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">6</span>
+
+            </a>
+
 
         </div>
 

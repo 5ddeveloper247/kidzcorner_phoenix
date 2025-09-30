@@ -484,3 +484,181 @@ Route::get('/SimpleMachines/spinningTop/lesson', function () {
 Route::get('/SimpleMachines/spinningTop/teacher', function () {
     return view('iSTEAM.N2.SimpleMachines.spinningTop.teacher');
 })->name('spinningTopTeacher');
+
+
+// N2 -> SimpleMachines -> MeasuringCar
+Route::get('/SimpleMachines/MeasuringCar', function () {
+    return view('iSTEAM.N2.SimpleMachines.MeasuringCar.index');
+})->name('MeasuringCar');
+
+// N2 -> SimpleMachines -> MeasuringCar -> select
+Route::get('/MeasuringCarchoice', function () {
+    return view('iSTEAM.N2.SimpleMachines.MeasuringCar.selection');
+})->name('MeasuringCarSelection');
+
+// N2 -> SimpleMachines -> MeasuringCar -> lesson
+Route::get('/SimpleMachines/MeasuringCar/lesson', function () {
+    return view('iSTEAM.N2.SimpleMachines.MeasuringCar.lesson');
+})->name('MeasuringCarLesson');
+
+// N2 -> SimpleMachines -> MeasuringCar -> teacher
+Route::get('/SimpleMachines/MeasuringCar/teacher', function () {
+    return view('iSTEAM.N2.SimpleMachines.MeasuringCar.teacher');
+})->name('MeasuringCarTeacher');
+
+
+// N2 -> SimpleMachines -> MeasuringCar2
+Route::get('/SimpleMachines/MeasuringCar2', function () {
+    return view('iSTEAM.N2.SimpleMachines.MeasuringCar2.index');
+})->name('MeasuringCar2');
+
+// N2 -> SimpleMachines -> MeasuringCar2 -> select
+Route::get('/MeasuringCar2choice', function () {
+    return view('iSTEAM.N2.SimpleMachines.MeasuringCar2.selection');
+})->name('MeasuringCar2Selection');
+
+// N2 -> SimpleMachines -> MeasuringCar2 -> lesson
+Route::get('/SimpleMachines/MeasuringCar2/lesson', function () {
+    return view('iSTEAM.N2.SimpleMachines.MeasuringCar2.lesson');
+})->name('MeasuringCar2Lesson');
+
+// N2 -> SimpleMachines -> MeasuringCar2 -> teacher
+Route::get('/SimpleMachines/MeasuringCar2/teacher', function () {
+    return view('iSTEAM.N2.SimpleMachines.MeasuringCar2.teacher');
+})->name('MeasuringCar2Teacher');
+
+
+// N2 -> SimpleMachines -> Push
+Route::get('/SimpleMachines/Push', function () {
+    return view('iSTEAM.N2.SimpleMachines.Push.index');
+})->name('Push');
+
+// N2 -> SimpleMachines -> Push -> select
+Route::get('/Pushchoice', function () {
+    return view('iSTEAM.N2.SimpleMachines.Push.selection');
+})->name('PushSelection');
+
+// N2 -> SimpleMachines -> Push -> lesson
+Route::get('/SimpleMachines/Push/lesson', function () {
+    return view('iSTEAM.N2.SimpleMachines.Push.lesson');
+})->name('PushLesson');
+
+// N2 -> SimpleMachines -> Push -> teacher
+Route::get('/SimpleMachines/Push/teacher', function () {
+    return view('iSTEAM.N2.SimpleMachines.Push.teacher');
+})->name('PushTeacher');
+
+
+
+// N2 -> SimpleMachines -> RaceCar
+Route::get('/SimpleMachines/RaceCar', function () {
+    return view('iSTEAM.N2.SimpleMachines.RaceCar.index');
+})->name('RaceCar');
+
+// N2 -> SimpleMachines -> RaceCar -> select
+Route::get('/RaceCarchoice', function () {
+    return view('iSTEAM.N2.SimpleMachines.RaceCar.selection');
+})->name('RaceCarSelection');
+
+// N2 -> SimpleMachines -> RaceCar -> lesson
+Route::get('/SimpleMachines/RaceCar/lesson', function () {
+    return view('iSTEAM.N2.SimpleMachines.RaceCar.lesson');
+})->name('RaceCarLesson');
+
+// N2 -> SimpleMachines -> RaceCar -> teacher
+Route::get('/SimpleMachines/RaceCar/teacher', function () {
+    return view('iSTEAM.N2.SimpleMachines.RaceCar.teacher');
+})->name('RaceCarTeacher');
+
+
+
+// N2 -> SimpleMachines -> Seasaw
+Route::get('/SimpleMachines/Seasaw', function () {
+    return view('iSTEAM.N2.SimpleMachines.Seasaw.index');
+})->name('Seasaw');
+
+// N2 -> SimpleMachines -> Seasaw -> select
+Route::get('/Seasawchoice', function () {
+    return view('iSTEAM.N2.SimpleMachines.Seasaw.selection');
+})->name('SeasawSelection');
+
+// N2 -> SimpleMachines -> Seasaw -> lesson
+Route::get('/SimpleMachines/Seasaw/lesson', function () {
+    return view('iSTEAM.N2.SimpleMachines.Seasaw.lesson');
+})->name('SeasawLesson');
+
+// N2 -> SimpleMachines -> Seasaw -> teacher
+Route::get('/SimpleMachines/Seasaw/teacher', function () {
+    return view('iSTEAM.N2.SimpleMachines.Seasaw.teacher');
+})->name('SeasawTeacher');
+
+
+
+
+// ========================
+// N2 LivingThings
+Route::get('/LivingThings', function () {
+    return view('iSTEAM.N2.LivingThings.index');
+})->name('LivingThings');
+
+// N2 -> LivingThings -> Animals
+Route::get('/LivingThings/Animals', function () {
+    return view('iSTEAM.N2.LivingThings.Animals.index');
+})->name('Animals');
+
+// N2 -> LivingThings -> Animals -> select
+Route::get('/AnimalsChoice', function () {
+    return view('iSTEAM.N2.LivingThings.Animals.selection');
+})->name('AnimalsSelection');
+
+// N2 -> LivingThings -> Animals -> lesson
+Route::get('/LivingThings/Animals/lesson', function () {
+    return view('iSTEAM.N2.LivingThings.Animals.lesson');
+})->name('AnimalsLesson');
+
+// N2 -> LivingThings -> Animals -> teacher
+Route::get('/LivingThings/Animals/teacher', function () {
+    return view('iSTEAM.N2.LivingThings.Animals.teacher');
+})->name('AnimalsTeacher');
+
+
+// N2 -> LivingThings -> Growth
+Route::get('/LivingThings/Growth', function () {
+    return view('iSTEAM.N2.LivingThings.Growth.index');
+})->name('Growth');
+
+// N2 -> LivingThings -> Growth -> select
+Route::get('/GrowthChoice', function () {
+    return view('iSTEAM.N2.LivingThings.Growth.selection');
+})->name('GrowthSelection');
+
+// N2 -> LivingThings -> Growth -> lesson
+Route::get('/LivingThings/Growth/lesson', function () {
+    return view('iSTEAM.N2.LivingThings.Growth.lesson');
+})->name('GrowthLesson');
+
+// N2 -> LivingThings -> Growth -> teacher
+Route::get('/LivingThings/Growth/teacher', function () {
+    return view('iSTEAM.N2.LivingThings.Growth.teacher');
+})->name('GrowthTeacher');
+
+
+// N2 -> LivingThings -> StageOfGrowth
+Route::get('/LivingThings/StageOfGrowth', function () {
+    return view('iSTEAM.N2.LivingThings.StageOfGrowth.index');
+})->name('StageOfGrowth');
+
+// N2 -> LivingThings -> StageOfGrowth -> select
+Route::get('/StageOfGrowthChoice', function () {
+    return view('iSTEAM.N2.LivingThings.StageOfGrowth.selection');
+})->name('StageOfGrowthSelection');
+
+// N2 -> LivingThings -> StageOfGrowth -> lesson
+Route::get('/LivingThings/StageOfGrowth/lesson', function () {
+    return view('iSTEAM.N2.LivingThings.StageOfGrowth.lesson');
+})->name('StageOfGrowthLesson');
+
+// N2 -> LivingThings -> StageOfGrowth -> teacher
+Route::get('/LivingThings/StageOfGrowth/teacher', function () {
+    return view('iSTEAM.N2.LivingThings.StageOfGrowth.teacher');
+})->name('StageOfGrowthTeacher');
