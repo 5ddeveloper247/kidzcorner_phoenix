@@ -974,3 +974,16 @@ Route::get('/BasicCoding/Robot5/lesson', function () {
 Route::get('/BasicCoding/Robot5/teacher', function () {
     return view('iSTEAM.N2.BasicCoding.Robot5.teacher');
 })->name('Robot5Teacher');
+
+
+
+// K1
+Route::get('/K1',function(){
+    return view('iSTEAM.K1.index');
+});
+
+// K1 -> SampleMachines
+
+Route::get('/simpleMachines/index', function () {
+    return view('iSTEAM.K1.simpleMachines.Robot5.teacher');
+})->name('Robot5Teacher');
