@@ -74,13 +74,6 @@
                             <div class="absolute top-[7px] left-[12px] h-2.5 w-3.5 rounded-sm bg-white"></div>
                             <img src="{{ asset('assets/images/pptimages/info.png') }}"
                                 class="absolute top-[16px] left-[16px] h-8 w-8" />
-                            <!-- Tooltip -->
-                            <div
-                                class="absolute left-1/2 top-[70px] -translate-x-1/2 
-                             whitespace-nowrap rounded bg-gray-800 px-2 py-1 text-xs text-white 
-                                     opacity-0 transition-opacity group-hover:opacity-100 z-[99]">
-                                THis is for info
-                            </div>
                         </span>
                         <input type="checkbox" class="chkbox" id="">
                     </div>

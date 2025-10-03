@@ -27,9 +27,8 @@
         <div>
             <h2 class="  font-bold">Children will be able to:</h2>
             <ul class="list-disc ">
-                <li>Learn about the stages of growth of a butterfly</li>
-                <li>Talk about the changes that occur between the different stages of growth</li>
-                <li>Learn how to take care of a caterpillar</li>
+                <li>Understand what the stem does for the plant</li>
+                <li>Develop observation skills</li>
                 <li>Develop understanding through inquiry</li>
             </ul>
         </div>
@@ -38,19 +37,12 @@
             <div>
                 <h2 class="text-[33px] font-bold">Keywords:</h2>
                 <div class="flex  gap-10">
-
                     <ul class="list-disc ">
-                        <li>Egg</li>
-                        <li>Caterpillar</li>
-                        <li>Pupa</li>
-                        <li>Butterfly</li>
+                        <li>Plant</li>
+                        <li>Flower</li>
+                        <li>Stem</li>
+                        <li>Leaf</li>
                     </ul>
-                    <ul class="list-disc ">
-                        <li>Stage of Growth</li>
-                        <li>Living Thing</li>
-
-                    </ul>
-
                 </div>
             </div>
             <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" />
@@ -62,80 +54,54 @@
     {{-- slide 2 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start w-[75%]">
         <div>
-            <h2 class="font-bold">Preparations for Individual Activity:</h2>
+            <h2 class="font-bold">Preparations for Class Activity:</h2>
             <ul class="list-disc ">
-                <li>Caterpillar Kit (from Oh Farm)</li>
-                <li>Leaves for caterpillar (from Oh Farm)</li>
-                <li>Empty Container</li>
-                <li>Clean paper cut to the size of the caterpillar's container</li>
+                <li>White flowers, plastic cups, food colouring and water.</li>
+                <li>Cut the stems such that the flowers are taller than the cups.</li>
             </ul>
         </div>
-        <div class="flex flex-col gap-8 border-4 border-white border">
-            <h2 class="text-[30px]">Preparations for Individual Activity:</h2>
-
-            <ul>
-
-                <li>Prepare the photos of the stages of growth of a butterfly</li>
-                <li>Cut them out before the lesson so that children can use it in their learning journal</li>
-
+        <div class="flex flex-col">
+            <h2 class="text-[30px]">Preparations for Class Activity:</h2>
+            <ul class="list-disc">
+                <li>Add a generous amount food colouring (at least 10 drops) into the
+                    water. If not, you will not be able to see the change in colour
+                    on the flowers.</li>
+                <li>You should see the change after one day.</li>
             </ul>
-
+        </div>
+        <div class="flex items-center justify-between">
+            <img src="{{ asset('assets/images/N2/Livingthings/lt37.png') }}" alt="Teacher" class="w-[400px]" />
+            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" />
         </div>
     </div>
 
 
 
     {{-- slide 3 --}}
-    <div class=" slide flex text-2xl text-white justify-start gap-y-10 text-start w-[75%] relative">
+    <div class=" slide flex text-2xl text-white flex-col justify-start text-start w-[75%]">
         <div>
-            <h2 class="font-bold">Things to consider during hands-on sessions:</h2>
+            <h2 class="font-bold">Things to consider Class Activity</h2>
             <ul class="list-disc ">
-                <li>Teacher please print the children's photo based on the size as
-                    provided in the resource - photo template.</li>
-                <li> Cut out the photos before the lesson.</li>
-                <li>Optional, 3 photos of a teacher (as a baby, child and adult) - as a
-                    sample to show children the stages of growth of a teacher.</li>
+                <li>You can encourage children to mix the colours as an extended activity
+                    <div class="flex items-center ">
+                        <img src="{{ asset('assets/images/N2/Livingthings/lt41.png') }}" alt="Teacher" class="w-[200px]" />
+                        <img src="{{ asset('assets/images/N2/Livingthings/lt42.png') }}" alt="Teacher"class="w-[200px]" />
+                    </div>
+                </li>
+                <li>Take photos of the flowers when you spot changes. You may
+                    also prepare picture of the flower for the children to
+                    colour according to what they see.</li>
+                <li>For example: daisy</li>
             </ul>
         </div>
-
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="h-[300px]" />
-
-
+        <div class="flex items-center justify-between">
+            <img src="{{ asset('assets/images/N2/Livingthings/lt40.png') }}" alt="Teacher" class="w-[400px]" />
+            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" />
+        </div>
     </div>
 
 
     {{-- slide 4 --}}
-    <div class="text-white flex text-start text-2xl slide hidden">
-        <div>
-            <h2 class="font-bold underline">Things to consider during discussion:</h2>
-            <ul class="list-disc">
-                <li>
-                    Prompt children to share how Emma/Oliver have changed over time.
-                    Encourage children to describe the visible size and appearance of the person in each picture.
-                </li>
-                <li>
-                    <span class="font-semibold">Some possible questions during Class Activity:</span>
-                    How have you changed since you were born?Guide children in pointing out the changes in their sizes and
-                    appearances. If there is indication of their ages (e.g. photos of them celebrating birthday), teacher
-                    can point out
-                    that their ages change too.
-                </li>
-            </ul>
-            <br>
-            <h2 class="font-bold underline">Additional information:</h2>
-            <ul class="list-disc">
-                <li>All living things go through similar stages of growth.
-                    However, some start from an egg and some are born.</li>
-            </ul>
-
-        </div>
-
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="h-[350px] object-contain" />
-    </div>
-
-
-    {{-- slide 5 --}}
-
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
@@ -193,60 +159,29 @@
     </div>
 
 
-    {{-- slide 6 --}}
-    <div class="text-white flex text-start text-2xl slide hidden">
-        <div>
-
-            <h2 class="!text-white title stroke">Learning Centre Idea</h2>
-
-            <div>
-                <h2 class="!text-white title stroke">Stages of Growth of a Person</h2>
+    {{-- slide 5 --}}
+    <div class="text-white flex flex-col items-center justify-center gap-y-10 text-start text-2xl slide hidden">
+        <h2 class="!text-white title stroke">Learning Centre Idea</h2>
+        <div class="flex">
+         <div>
+                <h2 class="!text-white title stroke">Making Colourful Flower</h2>
                 <h2 class="font-bold underline">What and how to set up:</h2>
                 <ul class="list-disc">
                     <li>
-                        Place pictures of the different stages of growth of a person (e.g.
-                        teacher's photo) here - include baby, young and adult (current)
-                        photos. Prepare text labels of the stages.
+                        Provide white flowers and different food colouring colours in
+                        different cups.
                     </li>
                 </ul>
                 <br>
                 <h2 class="font-bold underline">What to do:</h2>
                 <ul class="list-decimal">
-                    <li>Invite children to arrange the photos in the correct order.</li>
-                    <li> Then, invite children to match each photo to its label.</li>
+                    <li>Encourage children to experiment putting the flowers in
+                        the different coloured water each day.</li>
+                    <li>Observe how the colours formed on the flowers.</li>
                 </ul>
-
-            </div>
+            </div> 
+            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="h-[350px] object-contain" />
         </div>
-
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="h-[350px] object-contain" />
-    </div>
-
-    {{-- slide 7 --}}
-    <div class="text-white flex  text-start text-2xl slide hidden">
-        <div>
-
-            <h2 class="!text-white title stroke">Learning Centre Idea</h2>
-
-            <div>
-                <h2 class="!text-white title stroke">Stages of Growth of a Person</h2>
-                <h2 class="font-bold underline">What and how to set up:</h2>
-                <p>Place pictures of the different stages of growth of an animal (e.g.
-                    cat or chicken) here - include egg, baby, young and adult photos.
-                    Prepare text labels of the stages.
-                </p>
-                <br>
-                <h2 class="font-bold underline">What to do:</h2>
-                <ul class="list-decimal">
-                    <li>Invite children to arrange the photos in the correct order.</li>
-                    <li> Then, invite children to match each photo to its label.</li>
-                </ul>
-
-            </div>
-        </div>
-
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt=""
-            class="h-[350px] object-contain float-right" />
     </div>
 
 
