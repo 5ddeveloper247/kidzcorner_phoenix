@@ -416,7 +416,10 @@ Route::get('/basicStructure/Creations/teacher', function () {
 
 
 
-
+// N1
+Route::get('/N2',function(){
+    return view('iSTEAM.N2.index');
+});
 // ========================
 // N2 SimpleMachines
 Route::get('/SimpleMachines', function () {
@@ -983,7 +986,266 @@ Route::get('/K1',function(){
 });
 
 // K1 -> SampleMachines
+Route::get('K1/simpleMachines', function () {
+    return view('iSTEAM.K1.simpleMachines.index');
+})->name('K1simpleMachines');
 
-Route::get('/simpleMachines/index', function () {
-    return view('iSTEAM.K1.simpleMachines.Robot5.teacher');
-})->name('Robot5Teacher');
+// K1 -> simpleMachines -> Bell
+Route::get('/simpleMachines/Bell', function () {
+    return view('iSTEAM.K1.simpleMachines.Bell.index');
+})->name('Bell');
+
+// K1 -> simpleMachines -> Bell -> select
+Route::get('/BellChoice', function () {
+    return view('iSTEAM.K1.simpleMachines.Bell.selection');
+})->name('BellSelection');
+
+// K1 -> simpleMachines -> Bell -> lesson
+Route::get('/simpleMachines/Bell/lesson', function () {
+    return view('iSTEAM.K1.simpleMachines.Bell.lesson');
+})->name('BellLesson');
+
+// K1 -> simpleMachines -> Bell -> teacher
+Route::get('/simpleMachines/Bell/teacher', function () {
+    return view('iSTEAM.K1.simpleMachines.Bell.teacher');
+})->name('BellTeacher');
+
+
+
+// K1 -> simpleMachines -> Plane
+Route::get('/simpleMachines/Plane', function () {
+    return view('iSTEAM.K1.simpleMachines.Plane.index');
+})->name('Plane');
+
+// K1 -> simpleMachines -> Plane -> select
+Route::get('/PlaneChoice', function () {
+    return view('iSTEAM.K1.simpleMachines.Plane.selection');
+})->name('PlaneSelection');
+
+// K1 -> simpleMachines -> Plane -> lesson
+Route::get('/simpleMachines/Plane/lesson', function () {
+    return view('iSTEAM.K1.simpleMachines.Plane.lesson');
+})->name('PlaneLesson');
+
+// K1 -> simpleMachines -> Plane -> teacher
+Route::get('/simpleMachines/Plane/teacher', function () {
+    return view('iSTEAM.K1.simpleMachines.Plane.teacher');
+})->name('PlaneTeacher');
+
+
+
+// K1 -> simpleMachines -> Balloon
+Route::get('/simpleMachines/Balloon', function () {
+    return view('iSTEAM.K1.simpleMachines.Balloon.index');
+})->name('Balloon');
+
+// K1 -> simpleMachines -> Balloon -> select
+Route::get('/BalloonChoice', function () {
+    return view('iSTEAM.K1.simpleMachines.Balloon.selection');
+})->name('BalloonSelection');
+
+// K1 -> simpleMachines -> Balloon -> lesson
+Route::get('/simpleMachines/Balloon/lesson', function () {
+    return view('iSTEAM.K1.simpleMachines.Balloon.lesson');
+})->name('BalloonLesson');
+
+// K1 -> simpleMachines -> Balloon -> teacher
+Route::get('/simpleMachines/Balloon/teacher', function () {
+    return view('iSTEAM.K1.simpleMachines.Balloon.teacher');
+})->name('BalloonTeacher');
+
+
+// K1 -> simpleMachines -> Wedge
+Route::get('/simpleMachines/Wedge', function () {
+    return view('iSTEAM.K1.simpleMachines.Wedge.index');
+})->name('Wedge');
+
+// K1 -> simpleMachines -> Wedge -> select
+Route::get('/WedgeChoice', function () {
+    return view('iSTEAM.K1.simpleMachines.Wedge.selection');
+})->name('WedgeSelection');
+
+// K1 -> simpleMachines -> Wedge -> lesson
+Route::get('/simpleMachines/Wedge/lesson', function () {
+    return view('iSTEAM.K1.simpleMachines.Wedge.lesson');
+})->name('WedgeLesson');
+
+// K1 -> simpleMachines -> Wedge -> teacher
+Route::get('/simpleMachines/Wedge/teacher', function () {
+    return view('iSTEAM.K1.simpleMachines.Wedge.teacher');
+})->name('WedgeTeacher');
+
+
+
+// K1 -> simpleMachines -> Rubbish
+Route::get('/simpleMachines/Rubbish', function () {
+    return view('iSTEAM.K1.simpleMachines.Rubbish.index');
+})->name('Rubbish');
+
+// K1 -> simpleMachines -> Rubbish -> select
+Route::get('/RubbishChoice', function () {
+    return view('iSTEAM.K1.simpleMachines.Rubbish.selection');
+})->name('RubbishSelection');
+
+// K1 -> simpleMachines -> Rubbish -> lesson
+Route::get('/simpleMachines/Rubbish/lesson', function () {
+    return view('iSTEAM.K1.simpleMachines.Rubbish.lesson');
+})->name('RubbishLesson');
+
+// K1 -> simpleMachines -> Rubbish -> teacher
+Route::get('/simpleMachines/Rubbish/teacher', function () {
+    return view('iSTEAM.K1.simpleMachines.Rubbish.teacher');
+})->name('RubbishTeacher');
+
+
+
+// K1 -> simpleMachines -> Wheels
+Route::get('/simpleMachines/Wheels', function () {
+    return view('iSTEAM.K1.simpleMachines.Wheels.index');
+})->name('Wheels');
+
+// K1 -> simpleMachines -> Wheels -> select
+Route::get('/WheelsChoice', function () {
+    return view('iSTEAM.K1.simpleMachines.Wheels.selection');
+})->name('WheelsSelection');
+
+// K1 -> simpleMachines -> Wheels -> lesson
+Route::get('/simpleMachines/Wheels/lesson', function () {
+    return view('iSTEAM.K1.simpleMachines.Wheels.lesson');
+})->name('WheelsLesson');
+
+// K1 -> simpleMachines -> Wheels -> teacher
+Route::get('/simpleMachines/Wheels/teacher', function () {
+    return view('iSTEAM.K1.simpleMachines.Wheels.teacher');
+})->name('WheelsTeacher');
+
+
+
+// K1 -> simpleMachines -> PlantsMachine
+Route::get('/simpleMachines/PlantsMachine', function () {
+    return view('iSTEAM.K1.simpleMachines.PlantsMachine.index');
+})->name('PlantsMachine');
+
+// K1 -> simpleMachines -> PlantsMachine -> select
+Route::get('/PlantsMachineChoice', function () {
+    return view('iSTEAM.K1.simpleMachines.PlantsMachine.selection');
+})->name('PlantsMachineSelection');
+
+// K1 -> simpleMachines -> PlantsMachine -> lesson
+Route::get('/simpleMachines/PlantsMachine/lesson', function () {
+    return view('iSTEAM.K1.simpleMachines.PlantsMachine.lesson');
+})->name('PlantsMachineLesson');
+
+// K1 -> simpleMachines -> PlantsMachine -> teacher
+Route::get('/simpleMachines/PlantsMachine/teacher', function () {
+    return view('iSTEAM.K1.simpleMachines.PlantsMachine.teacher');
+})->name('PlantsMachineTeacher');
+
+
+// K1 -> simpleMachines -> Pulleys
+Route::get('/simpleMachines/Pulleys', function () {
+    return view('iSTEAM.K1.simpleMachines.Pulleys.index');
+})->name('Pulleys');
+
+// K1 -> simpleMachines -> Pulleys -> select
+Route::get('/PulleysChoice', function () {
+    return view('iSTEAM.K1.simpleMachines.Pulleys.selection');
+})->name('PulleysSelection');
+
+// K1 -> simpleMachines -> Pulleys -> lesson
+Route::get('/simpleMachines/Pulleys/lesson', function () {
+    return view('iSTEAM.K1.simpleMachines.Pulleys.lesson');
+})->name('PulleysLesson');
+
+// K1 -> simpleMachines -> Pulleys -> teacher
+Route::get('/simpleMachines/Pulleys/teacher', function () {
+    return view('iSTEAM.K1.simpleMachines.Pulleys.teacher');
+})->name('PulleysTeacher');
+
+
+
+
+// K1 -> simpleMachines -> Punching
+Route::get('/simpleMachines/Punching', function () {
+    return view('iSTEAM.K1.simpleMachines.Punching.index');
+})->name('Punching');
+
+// K1 -> simpleMachines -> Punching -> select
+Route::get('/PunchingChoice', function () {
+    return view('iSTEAM.K1.simpleMachines.Punching.selection');
+})->name('PunchingSelection');
+
+// K1 -> simpleMachines -> Punching -> lesson
+Route::get('/simpleMachines/Punching/lesson', function () {
+    return view('iSTEAM.K1.simpleMachines.Punching.lesson');
+})->name('PunchingLesson');
+
+// K1 -> simpleMachines -> Punching -> teacher
+Route::get('/simpleMachines/Punching/teacher', function () {
+    return view('iSTEAM.K1.simpleMachines.Punching.teacher');
+})->name('PunchingTeacher');
+
+
+
+// K1 -> simpleMachines -> Screw
+Route::get('/simpleMachines/Screw', function () {
+    return view('iSTEAM.K1.simpleMachines.Screw.index');
+})->name('Screw');
+
+// K1 -> simpleMachines -> Screw -> select
+Route::get('/ScrewChoice', function () {
+    return view('iSTEAM.K1.simpleMachines.Screw.selection');
+})->name('ScrewSelection');
+
+// K1 -> simpleMachines -> Screw -> lesson
+Route::get('/simpleMachines/Screw/lesson', function () {
+    return view('iSTEAM.K1.simpleMachines.Screw.lesson');
+})->name('ScrewLesson');
+
+// K1 -> simpleMachines -> Screw -> teacher
+Route::get('/simpleMachines/Screw/teacher', function () {
+    return view('iSTEAM.K1.simpleMachines.Screw.teacher');
+})->name('ScrewTeacher');
+
+
+
+// K1 -> simpleMachines -> Ball
+Route::get('/simpleMachines/Ball', function () {
+    return view('iSTEAM.K1.simpleMachines.Ball.index');
+})->name('Ball');
+
+// K1 -> simpleMachines -> Ball -> select
+Route::get('/BallChoice', function () {
+    return view('iSTEAM.K1.simpleMachines.Ball.selection');
+})->name('BallSelection');
+
+// K1 -> simpleMachines -> Ball -> lesson
+Route::get('/simpleMachines/Ball/lesson', function () {
+    return view('iSTEAM.K1.simpleMachines.Ball.lesson');
+})->name('BallLesson');
+
+// K1 -> simpleMachines -> Ball -> teacher
+Route::get('/simpleMachines/Ball/teacher', function () {
+    return view('iSTEAM.K1.simpleMachines.Ball.teacher');
+})->name('BallTeacher');
+
+
+// K1 -> simpleMachines -> Levers
+Route::get('/simpleMachines/Levers', function () {
+    return view('iSTEAM.K1.simpleMachines.Levers.index');
+})->name('Levers');
+
+// K1 -> simpleMachines -> Levers -> select
+Route::get('/LeversChoice', function () {
+    return view('iSTEAM.K1.simpleMachines.Levers.selection');
+})->name('LeversSelection');
+
+// K1 -> simpleMachines -> Levers -> lesson
+Route::get('/simpleMachines/Levers/lesson', function () {
+    return view('iSTEAM.K1.simpleMachines.Levers.lesson');
+})->name('LeversLesson');
+
+// K1 -> simpleMachines -> Levers -> teacher
+Route::get('/simpleMachines/Levers/teacher', function () {
+    return view('iSTEAM.K1.simpleMachines.Levers.teacher');
+})->name('LeversTeacher');

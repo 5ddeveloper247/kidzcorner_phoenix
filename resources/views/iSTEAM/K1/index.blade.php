@@ -35,7 +35,7 @@
 
     <div class=" flex flex-wrap items-center justify-center text-center z-[999] px-4 row-gap-5 max-w-[1000px]  m-auto">
 
-        <a href="{{ route('SimpleMachines') }}"
+        <a href="{{ route('K1simpleMachines') }}"
             class="bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[400px] h-[300px] relative flex justify-center items-center transition hover:brightness-110 ">
             <img src="/assets/images/N2/a1.png" alt="" class="w-[100px] absolute top-10 left-10">
             <h2 class="text-3xl text-[#534444]">
@@ -45,24 +45,23 @@
 
         <a href="{{ route('LivingThings') }}"
             class="bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[400px] h-[300px] relative flex justify-center items-center  transition hover:brightness-110 ">
-            <img src="/assets/images/N2/a2.png" alt="" class="w-[100px] absolute top-10 left-10">
+            <img src="/assets/images/N2/a5.png" alt="" class="w-[100px] absolute bottom-10 left-0">
             <h2 class="text-3xl text-[#534444]">
-               Living Things
-            </h2>
+                Compound Machines </h2>
         </a>
 
         <a href="{{ route('basicStructure') }}"
             class="bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[400px] h-[300px] relative flex justify-center items-center  transition hover:brightness-110 ">
             <img src="/assets/images/N2/a3.png" alt="" class="w-[100px] absolute top-10 left-10">
             <h2 class="text-3xl text-[#534444]">
-                Basic Coding 
+                Coding and Robotics
             </h2>
         </a>
 
-    
+
         <a href="{{ route('basicStructure') }}"
             class="bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[400px] h-[300px] relative flex justify-center items-center  transition hover:brightness-110 ">
-            <img src="/assets/images/N2/a4.png" alt="" class="w-[100px] absolute top-10 left-10">
+            <img src="/assets/images/N2/a4.png" alt="" class="w-[100px] absolute top-10 right-0">
             <h2 class="text-3xl text-[#534444]">
                 Structures
             </h2>
