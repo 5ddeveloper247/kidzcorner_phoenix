@@ -27,11 +27,13 @@
         <div>
             <h2 class="  font-bold">Children will be able to:</h2>
             <ul class="list-disc ">
-                <li>Programme a robot to move from a starting point to an end point</li>
-                <li>Enjoy the fun of programming a robot</li>
-                <li>Develop understanding through observation and inquiry</li>
-                <li>Learn to share and take turns</li>
-                <li>Learn to cooperate with friends to complete a task</li>
+                <li>Create a simple story together with friends</li>
+  <li>Turn a story into a programming game together with friends</li>
+  <li>Programme a robot to move based on a story</li>
+  <li>Develop creativity and innovation</li>
+  <li>Develop problem-solving skills</li>
+  <li>Learn to share and take turns</li>
+  <li>Learn to cooperate with friends to complete a task</li>
             </ul>
         </div>
 
@@ -50,6 +52,8 @@
                         <li>Programming Cards</li>
                         <li>Record Card</li>
                         <li>Play Card</li>
+                        <li>Story</li>
+                        <li>Game</li>
                     </ul>
                 </div>
             </div>
@@ -64,16 +68,16 @@
         <div class="flex flex-col gap-y-20">
             <ul class="list-disc">
                 <h2 class="font-bold ">Preparations:</h2>
-                <li>Each group a robot and a pen controller, a set of directional programming
-                    cards, a record card, a play card</li>
+                <li>Each group a robot and a pen controller, a set of directional and facial
+     expression programming cards, a record card, a play card and the mats.</li>
             </ul>
         </div>
         <div class="flex justify-center items-center gap-10">
-            <img src="{{ asset('assets/images/N2/BasicCoding/rb18.png') }}" />
+            <img src="{{ asset('assets/images/N2/BasicCoding/rb19.png') }}" />
             <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" />
         </div>
-        <p class="note">Note: Refer to the teacher’s mode of Lesson 1 for guide on what you need to know
-            and do before the lesson.</p>
+        <p class="note">Note: Refer to the teacher’s mode of Lesson 1 for guide on what you need to know 
+and do before the lesson.</p>
     </div>
 
 
@@ -83,12 +87,12 @@
         <div class="flex flex-col gap-y-20">
             <ul class="list-disc">
                 <h2 class="font-bold ">Preparations:</h2>
-                <li>For hands-on session 1, each group a character mat, 4 picture mats and
-                    6 lawn mats (as shown)</li>
+                <li>You may get children to decorate the animal characters with the masks
+     provided in the kit.</li>
             </ul>
         </div>
         <div class="flex justify-center items-center gap-10">
-            <img src="{{ asset('assets/images/N2/BasicCoding/rb15.png') }}" />
+            <img src="{{ asset('assets/images/N2/BasicCoding/rb21.png') }}" />
             <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" />
         </div>
     </div>
