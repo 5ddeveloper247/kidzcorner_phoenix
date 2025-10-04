@@ -1249,3 +1249,78 @@ Route::get('/simpleMachines/Levers/lesson', function () {
 Route::get('/simpleMachines/Levers/teacher', function () {
     return view('iSTEAM.K1.simpleMachines.Levers.teacher');
 })->name('LeversTeacher');
+
+
+
+
+
+// K1 -> SampleMachines
+Route::get('K1/CompoundMachines', function () {
+    return view('iSTEAM.K1.CompoundMachines.index');
+})->name('K1CompoundMachines');
+
+
+// K1 -> CompoundMachines -> DominoFun
+Route::get('/CompoundMachines/DominoFun', function () {
+    return view('iSTEAM.K1.CompoundMachines.DominoFun.index');
+})->name('DominoFun');
+
+// K1 -> CompoundMachines -> DominoFun -> select
+Route::get('/DominoFunChoice', function () {
+    return view('iSTEAM.K1.CompoundMachines.DominoFun.selection');
+})->name('DominoFunSelection');
+
+// K1 -> CompoundMachines -> DominoFun -> lesson
+Route::get('/CompoundMachines/DominoFun/lesson', function () {
+    return view('iSTEAM.K1.CompoundMachines.DominoFun.lesson');
+})->name('DominoFunLesson');
+
+// K1 -> CompoundMachines -> DominoFun -> teacher
+Route::get('/CompoundMachines/DominoFun/teacher', function () {
+    return view('iSTEAM.K1.CompoundMachines.DominoFun.teacher');
+})->name('DominoFunTeacher');
+
+
+// K1 -> CompoundMachines -> Patterns
+Route::get('/CompoundMachines/Patterns', function () {
+    return view('iSTEAM.K1.CompoundMachines.Patterns.index');
+})->name('Patterns');
+
+// K1 -> CompoundMachines -> Patterns -> select
+Route::get('/PatternsChoice', function () {
+    return view('iSTEAM.K1.CompoundMachines.Patterns.selection');
+})->name('PatternsSelection');
+
+// K1 -> CompoundMachines -> Patterns -> lesson
+Route::get('/CompoundMachines/Patterns/lesson', function () {
+    return view('iSTEAM.K1.CompoundMachines.Patterns.lesson');
+})->name('PatternsLesson');
+
+// K1 -> CompoundMachines -> Patterns -> teacher
+Route::get('/CompoundMachines/Patterns/teacher', function () {
+    return view('iSTEAM.K1.CompoundMachines.Patterns.teacher');
+})->name('PatternsTeacher');
+
+
+
+
+
+// K1 -> CompoundMachines -> SmartIdeas
+Route::get('/CompoundMachines/SmartIdeas', function () {
+    return view('iSTEAM.K1.CompoundMachines.SmartIdeas.index');
+})->name('SmartIdeas');
+
+// K1 -> CompoundMachines -> SmartIdeas -> select
+Route::get('/SmartIdeasChoice', function () {
+    return view('iSTEAM.K1.CompoundMachines.SmartIdeas.selection');
+})->name('SmartIdeasSelection');
+
+// K1 -> CompoundMachines -> SmartIdeas -> lesson
+Route::get('/CompoundMachines/SmartIdeas/lesson', function () {
+    return view('iSTEAM.K1.CompoundMachines.SmartIdeas.lesson');
+})->name('SmartIdeasLesson');
+
+// K1 -> CompoundMachines -> SmartIdeas -> teacher
+Route::get('/CompoundMachines/SmartIdeas/teacher', function () {
+    return view('iSTEAM.K1.CompoundMachines.SmartIdeas.teacher');
+})->name('SmartIdeasTeacher');
