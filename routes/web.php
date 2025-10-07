@@ -1324,3 +1324,232 @@ Route::get('/CompoundMachines/SmartIdeas/lesson', function () {
 Route::get('/CompoundMachines/SmartIdeas/teacher', function () {
     return view('iSTEAM.K1.CompoundMachines.SmartIdeas.teacher');
 })->name('SmartIdeasTeacher');
+
+
+
+
+
+// K1 -> CompoundMachines -> Machines
+Route::get('/CompoundMachines/Machines', function () {
+    return view('iSTEAM.K1.CompoundMachines.Machines.index');
+})->name('Machines');
+
+// K1 -> CompoundMachines -> Machines -> select
+Route::get('/MachinesChoice', function () {
+    return view('iSTEAM.K1.CompoundMachines.Machines.selection');
+})->name('MachinesSelection');
+
+// K1 -> CompoundMachines -> Machines -> lesson
+Route::get('/CompoundMachines/Machines/lesson', function () {
+    return view('iSTEAM.K1.CompoundMachines.Machines.lesson');
+})->name('MachinesLesson');
+
+// K1 -> CompoundMachines -> Machines -> teacher
+Route::get('/CompoundMachines/Machines/teacher', function () {
+    return view('iSTEAM.K1.CompoundMachines.Machines.teacher');
+})->name('MachinesTeacher');
+
+
+
+// K1 -> CompoundMachines -> Innovation
+Route::get('/CompoundMachines/Innovation', function () {
+    return view('iSTEAM.K1.CompoundMachines.Innovation.index');
+})->name('Innovation');
+
+// K1 -> CompoundMachines -> Innovation -> select
+Route::get('/InnovationChoice', function () {
+    return view('iSTEAM.K1.CompoundMachines.Innovation.selection');
+})->name('InnovationSelection');
+
+// K1 -> CompoundMachines -> Innovation -> lesson
+Route::get('/CompoundMachines/Innovation/lesson', function () {
+    return view('iSTEAM.K1.CompoundMachines.Innovation.lesson');
+})->name('InnovationLesson');
+
+// K1 -> CompoundMachines -> Innovation -> teacher
+Route::get('/CompoundMachines/Innovation/teacher', function () {
+    return view('iSTEAM.K1.CompoundMachines.Innovation.teacher');
+})->name('InnovationTeacher');
+
+
+
+// K1 -> structure 
+Route::get('/K1structure', function () {
+    return view('iSTEAM.K1.structure.index');
+})->name('K1structure');
+
+// K1 -> structure -> building
+Route::get('/structure/building', function () {
+    return view('iSTEAM.K1.structure.building.index');
+})->name('building');
+
+// K1 -> structure -> building -> select
+Route::get('/buildingChoice', function () {
+    return view('iSTEAM.K1.structure.building.selection');
+})->name('buildingSelection');
+
+// K1 -> structure -> building -> lesson
+Route::get('/structure/building/lesson', function () {
+    return view('iSTEAM.K1.structure.building.lesson');
+})->name('buildingLesson');
+
+// K1 -> structure -> building -> teacher
+Route::get('/structure/building/teacher', function () {
+    return view('iSTEAM.K1.structure.building.teacher');
+})->name('buildingTeacher');
+
+
+// K1 -> structure -> umbrella
+Route::get('/structure/umbrella', function () {
+    return view('iSTEAM.K1.structure.umbrella.index');
+})->name('umbrella');
+
+// K1 -> structure -> umbrella -> select
+Route::get('/umbrellaChoice', function () {
+    return view('iSTEAM.K1.structure.umbrella.selection');
+})->name('umbrellaSelection');
+
+// K1 -> structure -> umbrella -> lesson
+Route::get('/structure/umbrella/lesson', function () {
+    return view('iSTEAM.K1.structure.umbrella.lesson');
+})->name('umbrellaLesson');
+
+// K1 -> structure -> umbrella -> teacher
+Route::get('/structure/umbrella/teacher', function () {
+    return view('iSTEAM.K1.structure.umbrella.teacher');
+})->name('umbrellaTeacher');
+
+
+
+// K1 -> structure -> dome
+Route::get('/structure/dome', function () {
+    return view('iSTEAM.K1.structure.dome.index');
+})->name('dome');
+
+// K1 -> structure -> dome -> select
+Route::get('/domeChoice', function () {
+    return view('iSTEAM.K1.structure.dome.selection');
+})->name('domeSelection');
+
+// K1 -> structure -> dome -> lesson
+Route::get('/structure/dome/lesson', function () {
+    return view('iSTEAM.K1.structure.dome.lesson');
+})->name('domeLesson');
+
+// K1 -> structure -> dome -> teacher
+Route::get('/structure/dome/teacher', function () {
+    return view('iSTEAM.K1.structure.dome.teacher');
+})->name('domeTeacher');
+
+
+
+// K1 -> structure -> bridge
+Route::get('/structure/bridge', function () {
+    return view('iSTEAM.K1.structure.bridge.index');
+})->name('bridge');
+
+// K1 -> structure -> bridge -> select
+Route::get('/bridgeChoice', function () {
+    return view('iSTEAM.K1.structure.bridge.selection');
+})->name('bridgeSelection');
+
+// K1 -> structure -> bridge -> lesson
+Route::get('/structure/bridge/lesson', function () {
+    return view('iSTEAM.K1.structure.bridge.lesson');
+})->name('bridgeLesson');
+
+// K1 -> structure -> bridge -> teacher
+Route::get('/structure/bridge/teacher', function () {
+    return view('iSTEAM.K1.structure.bridge.teacher');
+})->name('bridgeTeacher');
+
+
+
+
+
+// K1 -> structure -> giant
+Route::get('/structure/giant', function () {
+    return view('iSTEAM.K1.structure.giant.index');
+})->name('giant');
+
+// K1 -> structure -> giant -> select
+Route::get('/giantChoice', function () {
+    return view('iSTEAM.K1.structure.giant.selection');
+})->name('giantSelection');
+
+// K1 -> structure -> giant -> lesson
+Route::get('/structure/giant/lesson', function () {
+    return view('iSTEAM.K1.structure.giant.lesson');
+})->name('giantLesson');
+
+// K1 -> structure -> giant -> teacher
+Route::get('/structure/giant/teacher', function () {
+    return view('iSTEAM.K1.structure.giant.teacher');
+})->name('giantTeacher');
+
+
+
+// K1 -> structure -> unique
+Route::get('/structure/unique', function () {
+    return view('iSTEAM.K1.structure.unique.index');
+})->name('unique');
+
+// K1 -> structure -> unique -> select
+Route::get('/uniqueChoice', function () {
+    return view('iSTEAM.K1.structure.unique.selection');
+})->name('uniqueSelection');
+
+// K1 -> structure -> unique -> lesson
+Route::get('/structure/unique/lesson', function () {
+    return view('iSTEAM.K1.structure.unique.lesson');
+})->name('uniqueLesson');
+
+// K1 -> structure -> unique -> teacher
+Route::get('/structure/unique/teacher', function () {
+    return view('iSTEAM.K1.structure.unique.teacher');
+})->name('uniqueTeacher');
+
+
+
+
+// K1 -> structure -> city
+Route::get('/structure/city', function () {
+    return view('iSTEAM.K1.structure.city.index');
+})->name('city');
+
+// K1 -> structure -> city -> select
+Route::get('/cityChoice', function () {
+    return view('iSTEAM.K1.structure.city.selection');
+})->name('citySelection');
+
+// K1 -> structure -> city -> lesson
+Route::get('/structure/city/lesson', function () {
+    return view('iSTEAM.K1.structure.city.lesson');
+})->name('cityLesson');
+
+// K1 -> structure -> city -> teacher
+Route::get('/structure/city/teacher', function () {
+    return view('iSTEAM.K1.structure.city.teacher');
+})->name('cityTeacher');
+
+
+
+// K1 -> structure -> roller
+Route::get('/structure/roller', function () {
+    return view('iSTEAM.K1.structure.roller.index');
+})->name('roller');
+
+// K1 -> structure -> roller -> select
+Route::get('/rollerChoice', function () {
+    return view('iSTEAM.K1.structure.roller.selection');
+})->name('rollerSelection');
+
+// K1 -> structure -> roller -> lesson
+Route::get('/structure/roller/lesson', function () {
+    return view('iSTEAM.K1.structure.roller.lesson');
+})->name('rollerLesson');
+
+// K1 -> structure -> roller -> teacher
+Route::get('/structure/roller/teacher', function () {
+    return view('iSTEAM.K1.structure.roller.teacher');
+})->name('rollerTeacher');

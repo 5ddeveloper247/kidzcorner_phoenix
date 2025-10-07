@@ -67,14 +67,14 @@
             </a>
 
             <!-- Card 4 -->
-            <a href="{{ route('Wedge') }}"
+            <a href="{{ route('Machines') }}"
                 class=" bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
                 <h2 class="text-2xl text-[#7D6F71]">What are <br> Compound <br> Machines?</h2>
                 <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">4</span>
             </a>
 
             <!-- Card 5 -->
-            <a href="{{ route('Rubbish') }}"
+            <a href="{{ route('Innovation') }}"
                 class=" bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
                 <h2 class="text-2xl text-[#7D6F71]">An Innovation</h2>
                 <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">5</span>

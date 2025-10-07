@@ -183,7 +183,7 @@
     <div class=" slide hidden flex flex-col items-center justify-center gap-1">
         <img src="/assets/images/K1/cm/cm29.png" />
         <h2 class="title stroke">When the first domino is pushed, it falls and makes the
-other dominoes fall one after another.</h2>
+            other dominoes fall one after another.</h2>
     </div>
 
 
@@ -191,12 +191,12 @@ other dominoes fall one after another.</h2>
     <div class=" slide hidden flex flex-col items-center justify-center gap-1">
         <img src="/assets/images/K1/cm/cm29.png" />
         <h2 class="title stroke">When the last domino pushes the ice cream stick, the ice cream
-stick moves away and lets the ball roll down the slanted track.</h2>
+            stick moves away and lets the ball roll down the slanted track.</h2>
     </div>
 
 
     {{-- slide 16 --}}
-   <div class=" slide hidden flex flex-col items-center justify-center gap-1">
+    <div class=" slide hidden flex flex-col items-center justify-center gap-1">
         <img src="/assets/images/K1/cm/cm30.png" />
         <h2 class="title stroke">What <span class="text-white">simple machines</span> is used here?</h2>
     </div>
@@ -214,115 +214,206 @@ stick moves away and lets the ball roll down the slanted track.</h2>
     <div class="slide  hidden flex flex-col items-center justify-center gap-y-20">
         <h2 class=" title stroke !text-white">Individual Activity</h2>
         <h2 class="text-start title stroke">Now, we’ll learn to do this Ball Roll idea and
-have fun making it work!</h2>
+            have fun making it work!</h2>
     </div>
 
 
     {{-- slide 19 --}}
     <div class=" slide hidden flex flex-col items-center justify-center gap-1">
-        <img src="/assets/images/K1/cm/cm10.png" />
-        <h2 class="title stroke">What do you see?
-            What do you think this arrangement is called?</h2>
+        <img src="/assets/images/K1/cm/cm31.png" />
+        <h2 class="title stroke">Place some dominoes under a track to form
+            an inclined plane.</h2>
     </div>
 
 
 
     {{-- slide 20  --}}
     <div class=" slide hidden flex flex-col items-center justify-center gap-1">
-        <img src="/assets/images/K1/cm/cm11.png" />
-        <h2 class="title stroke">This arrangement is called curved line.
-            Let’s try to form it.</h2>
-        <p class="note">Note: Give children enough time to form and show this domino arrangement.</p>
+        <img src="/assets/images/K1/cm/cm32.png" />
+        <h2 class="title stroke">Place four dominoes beside the track at some distance from it.</h2>
     </div>
 
 
     {{-- slide 21  --}}
     <div class=" slide hidden flex flex-col items-center justify-center gap-1">
-        <img src="/assets/images/K1/cm/cm12.png" />
-        <h2 class="title stroke">What do you see?
-            What do you think this arrangement is called?</h2>
+        <img src="/assets/images/K1/cm/cm30.png" />
+        <h2 class="title stroke">Place an ice cream stick on the last domino and
+            rest it on the track to hold a ball in place.</h2>
     </div>
 
 
 
     {{-- sldie 22 --}}
     <div class=" slide hidden flex flex-col items-center justify-center gap-1">
-        <img src="/assets/images/K1/cm/cm13.png" />
-        <h2 class="title stroke">This arrangement is called turn.
-            Let’s try to form it.</h2>
-        <p class="note">Note: Give children enough time to form and show this domino arrangement.</p>
+        <img src="/assets/images/K1/cm/cm29.png" />
+        <h2 class="title stroke">Push the first domino.</h2>
     </div>
+
+
 
     {{-- sldie 23 --}}
     <div class=" slide hidden flex flex-col items-center justify-center gap-1">
-        <img src="/assets/images/K1/cm/cm14.png" />
-        <h2 class="title stroke">What do you see?
-            What do you think this arrangement is called?</h2>
+        <img src="/assets/images/K1/cm/cm29.png" />
+        <h2 class="title stroke">Do the dominoes fall one after another? Does the ice-cream
+            stick move away and make the ball roll down the inclined plane?</h2>
     </div>
 
 
     {{-- slide 24 --}}
     <div class=" slide hidden flex flex-col items-center justify-center gap-1">
-        <img src="/assets/images/K1/cm/cm15.png" />
-        <h2 class="title stroke">This arrangement is called split.
-            Let’s try to form it.</h2>
-        <p class="note">Note: Give children enough time to form and show this domino arrangement.</p>
+        <h2 class="title stroke">Are you able to do this Ball Roll?
+            Let’s do it one more time!</h2>
     </div>
 
 
     {{-- sldie 25 --}}
     <div class=" slide hidden flex flex-col items-center justify-center gap-1">
-        <img src="/assets/images/K1/cm/cm16.png" />
-        <h2 class="title stroke">Let’s see another way to do a split.
-            How many lines are there after the split?</h2>
+        <img src="/assets/images/K1/cm/cm33.png" />
+        <h2 class="title stroke">Let’s watch another video! What do you see?</h2>
+        <p class="note">Note: Let children share what they see.</p>
+        <!-- Video Trigger Button -->
+        <div data-property-1="Default"
+            class="absolute top-1/2 right-0 z-30 h-24 w-24 -translate-y-1/2 cursor-pointer h-24 w-24 rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
+            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-[80%] " />
+            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
+            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+        </div>
     </div>
 
 
     {{-- slide 26 --}}
     <div class=" slide hidden flex flex-col items-center justify-center gap-1">
-        <img src="/assets/images/K1/cm/cm17.png" />
-        <h2 class="title stroke">Let’s try to form it.</h2>
-        <p class="note">Note: Give children enough time to form and show this domino arrangement.</p>
+        <img src="/assets/images/K1/cm/cm33.png" />
+        <h2 class="title stroke">The ball rolls down a slanted track into a cup. The cup turns
+            and the ball rolls down the book onto another track.</h2>
+        <!-- Video Trigger Button -->
+        <div data-property-1="Default"
+            class="absolute top-1/2 right-0 z-30 h-24 w-24 -translate-y-1/2 cursor-pointer h-24 w-24 rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
+            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-[80%] " />
+            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
+            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+        </div>
     </div>
-
 
     {{-- slide 27 --}}
     <div class=" slide hidden flex flex-col items-center justify-center gap-1">
-        <img src="/assets/images/K1/cm/cm18.png" />
-        <h2 class="title stroke">What do you see?
-            What do you think this arrangement is called?</h2>
+        <img src="/assets/images/K1/cm/cm33.png" />
+        <h2 class="title stroke">The ball then rolls down this slanted track and pushes
+            the dominoes and so they fall one after another.</h2>
+        <!-- Video Trigger Button -->
+        <div data-property-1="Default"
+            class="absolute top-1/2 right-0 z-30 h-24 w-24 -translate-y-1/2 cursor-pointer h-24 w-24 rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
+            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-[80%] " />
+            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
+            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+        </div>
     </div>
 
 
     {{-- slide 28 --}}
     <div class=" slide hidden flex flex-col items-center justify-center gap-1">
-        <img src="/assets/images/K1/cm/cm19.png" />
-        <h2 class="title stroke">This arrangement is called a spiral.
-            Let’s try to form it.</h2>
-        <p class="note">Note: Give children enough time to form and show this domino arrangement.</p>
+        <img src="/assets/images/K1/cm/cm34.png" />
+        <h2 class="title stroke">What simple machine is used here?</h2>
     </div>
 
 
+
     {{-- slide 29 --}}
-    <div class="slide  hidden flex flex-col items-center justify-center gap-y-20">
-        <h2 class=" title stroke !text-white">Small Group Activity</h2>
-        <h2 class="text-start title stroke">Now, let's create a domino pattern that has some of
-            the basic domino arrangements you have learnt!</h2>
-        <p class="note">Note: Organise children into a few small groups. Have them use their creativity to form and show
-            a
-            domino pattern. If children need help, guide them to combine a few basic domino
-            arrangements together to form a pattern.</p>
+    <div class=" slide hidden flex flex-col items-center justify-center gap-1">
+        <img src="/assets/images/K1/cm/cm34.png" />
+        <h2 class="title stroke">The big book and the two slanted tracks are
+            the <span class="text-white">inclined planes</span> used here.</h2>
     </div>
 
 
     {{-- slide 30 --}}
+    <div class="slide  hidden flex flex-col items-center justify-center gap-y-20">
+        <h2 class=" title stroke !text-white">Individual Activity</h2>
+        <h2 class="text-start title stroke">Now, we’ll learn to do this Cup Turn idea and have
+            fun making it work!</h2>
+    </div>
+
+
+    {{-- slide 31 --}}
+    <div class=" slide hidden flex flex-col items-center justify-center gap-1">
+        <img src="/assets/images/K1/cm/cm35.png" />
+        <h2 class="title stroke">First, set up an inclined plane with some books. Also make a
+            platform of books next to the inclined plane.</h2>
+    </div>
+
+
+    {{-- slide 32 --}}
+    <div class=" slide hidden flex flex-col items-center justify-center gap-1">
+        <img src="/assets/images/K1/cm/cm35.png" />
+        <h2 class="title stroke">Now, set up a higher slanted track and rest
+            it on the book.</h2>
+    </div>
+
+
+    {{-- slide 33 --}}
+    <div class=" slide hidden flex flex-col items-center justify-center gap-1">
+        <img src="/assets/images/K1/cm/cm36.png" />
+        <h2 class="title stroke">Place a cup on the edge of the book such that
+            it faces this track.</h2>
+    </div>
+
+
+    {{-- slide 34 --}}
+    <div class=" slide hidden flex flex-col items-center justify-center gap-1">
+        <img src="/assets/images/K1/cm/cm34.png" />
+        <h2 class="title stroke">Place another track for the ball to roll onto after the cup
+            turns. Use some dominoes to make this track slanted.</h2>
+    </div>
+
+
+    {{-- slide 35 --}}
+    <div class=" slide hidden flex flex-col items-center justify-center gap-1">
+        <img src="/assets/images/K1/cm/cm37.png" />
+        <h2 class="title stroke">Keep wooden blocks near this track so that the ball
+            does not roll off this track.</h2>
+    </div>
+
+
+    {{-- slide 36 --}}
+    <div class=" slide hidden flex flex-col items-center justify-center gap-1">
+        <img src="/assets/images/K1/cm/cm38.png" />
+        <h2 class="title stroke">Place five dominoes at the end of this track and
+            a ball on the higher slanted track.</h2>
+    </div>
+
+
+    {{-- slide 37 --}}
+    <div class=" slide hidden flex flex-col items-center justify-center gap-1">
+        <img src="/assets/images/K1/cm/cm39.png" />
+        <h2 class="title stroke">Push a ping pong ball down the higher slanted track.</h2>
+    </div>
+
+
+
+    {{-- slide 38 --}}
+    <div class=" slide hidden flex flex-col items-center justify-center gap-1">
+        <img src="/assets/images/K1/cm/cm33.png" />
+        <h2 class="title stroke">Does the cup turn? Does the ball roll onto the other
+            track and push the dominoes?</h2>
+    </div>
+
+
+    {{-- slide 39 --}}
+    <div class=" slide hidden flex flex-col items-center justify-center gap-1">
+        <h2 class="title stroke">Are you able to do this Cup Turn?
+            Let’s do it one more time!</h2>
+    </div>
+
+
+    {{-- slide 40 --}}
     <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
         <div class="w-[836px] h-[536px] bg-cover bg-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
-            <p>What domino pattern did you create together with your friends? Draw it.</p>
+            <p>Which idea did you like doing the most? Draw how you set up this idea.</p>
         </div>
     </div>
+
 
 
 
