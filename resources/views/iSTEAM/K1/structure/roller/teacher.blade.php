@@ -23,10 +23,8 @@
         <div>
             <h2 class="  font-bold">Children will be able to:</h2>
             <ul class="list-disc ">
-                <li>Know that buildings are common structures around us</li>
-                <li>Know how tall buildings are built</li>
-                <li>Know that architects and engineers are two main designers of buildings</li>
-                <li>Design and build a tall building</li>
+                <li>Know that a roller coaster is an elevated track with turns and slopes for open cars</li>
+                <li>Learn to build a ball roller coaster</li>
                 <li>Develop fine motor and eye-hand coordination skills</li>
                 <li>Develop creativity and imagination</li>
                 <li>Develop understanding through inquiry</li>
@@ -36,19 +34,11 @@
         <div class="flex w-[100%] items-center justify-between">
             <div>
                 <h2 class="text-[33px] font-bold">Keywords:</h2>
-
-                <div class="flex gap-20">
-                    <ul class="list-disc ">
-                        <li>Structures</li>
-                        <li>Giant wheels</li>
-                        <li>Carriages</li>
-
-                    </ul>
-                    <ul class="list-disc">
-                        <li>Wheel</li>
-                        <li>Axle</li>
-                    </ul>
-                </div>
+                <ul class="list-disc ">
+                    <li>Structures</li>
+                    <li>Roller Coasters</li>
+                    <li>Track</li>
+                </ul>
             </div>
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
@@ -60,26 +50,14 @@
     {{-- slide 2 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Information of a standard beam bridge:</h2>
+            <h2 class="font-bold">Preparations for the making of the track:</h2>
             <ul class="list-disc ">
-                <li>
-                    Each group a set of straws of different lengths — 11 long, 26 medium-length,
-                    and 6 short straws (use a different colour for 12 of the medium-length straws)
-                </li>
-                <li>
-                    Each group 2 fat straws (sample’s measurement: 2cm long)
-                </li>
-                <li>
-                    Each group 22 long and 6 short pipe cleaners
-                </li>
-                <li>
-                    Each child a pair of scissors (remind children to use them carefully)
-                </li>
+                <li>Each group a set of straws of different lengths - 15 long, 4 medium-length, and 36 short straws</li>
+                <li>Each group 20 pipe cleaners (sample's measurement: 30cm long)</li>
+                <li>Each child a pair of scissors (remind children to use them carefully)</li>
             </ul>
         </div>
-
-
-        <img src="{{ asset('assets/images/K1/str/gw15.png') }}" alt="Teacher" class="w-[600px]" />
+        <img src="{{ asset('assets/images/K1/str/r17.png') }}" alt="Teacher" class="w-[600px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
         <p class="note !text-amber-300">Suggestion: Pre-pack these two materials in a bag for each child or group before
@@ -89,31 +67,41 @@
     {{-- sldie 3 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Preparations:</h2>
+            <h2 class="font-bold">Preparations for the making of the track supports (pyramids):</h2>
             <ul class="list-disc">
-                <li>A premade sample of umbrella (refer to the lesson on how to make it)</li>
+                <li>Each group a set of straws (colour different from the track)</li>
+                <li>Each group 50 pipe cleaners (sample's measurement: 30cm long)</li>
+                <li>Each child a pair of scissors (remind children to use them carefully)</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K1/str/gw4.png') }}" alt="Teacher" class="w-[600px]" />
+        <img src="{{ asset('assets/images/K1/str/r18.png') }}" alt="Teacher" class="w-[600px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
+        <p class="note !textiamber-300">Suggestion: Pre-pack these two materials in a bag for each child or group before
+            each lesson.</p>
     </div>
 
 
     {{-- slide 4 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Preparations for Activity 2:</h2>
+            <h2 class="font-bold">Preparations for the testing of the ball roller coaster:</h2>
             <ul class="list-disc">
-                <li>Each child a pair of scissors (remind children to use them carefully)</li>
-                <li>Art and craft materials (anything suitable to build carriages of giant wheels)</li>
-                <li>White glue</li>
-                <li>Rulers</li>
+                <li>Each group a ping pong ball</li>
+                <li>Each group a suitable container</li>
+                <li>Adhesive tape (for fixing the position of the pyramids)</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K1/str/gw16.png') }}" alt="Teacher" class="w-[600px]" />
+        <img src="{{ asset('assets/images/K1/str/r4.png') }}" alt="Teacher" class="w-[600px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
+        <!-- Video Trigger Button -->
+        <div data-property-1="Default"
+            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
+            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
+            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
+            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+        </div>
     </div>
 
 
@@ -127,20 +115,18 @@
                     Some possible questions are listed in the lesson; you may add on questions
                     based on children's responses.
                 </li>
-                <li>
-                    During hands-on session 1, display the premade sample of a giant wheel and guide
-                    children to name the shapes that form the giant wheel. After that, invite children
-                    to follow the step-by-step videos on how to make a structure of the giant wheel.
-                    Have them describe and then learn to do each step in groups. After the showcase,
-                    guide them to reflect and share things they learned from this engineering activity
-                    (refer to the next page).
-                </li>
-                <li>
-                    During hands-on session 2, have them design the look of their carriages creatively
-                    in the learning journals. Advise them to choose suitable art and craft materials
-                    based on their design ideas to start building the carriages of their giant wheels.
-                    During the showcase, have them share their design ideas with the class.
-                </li>
+                <li>During hands-on session, have children observe a sample ball roller coaster from a
+                    video and guide them to identify the characteristics of the sample roller coaster.
+                    After that, invite children to follow the step-by-step videos on how to make the
+                    track and track supports of a ball roller coaster. Have them describe and then
+                    learn to do each step in groups. When they start forming their roller coasters,
+                    remind them to arrange their supports in the sequence according to the sample
+                    shown. When they start testing of their ball roller coasters, encourage them to
+                    try their own ways to solve the problems encountered. After the showcase, guide
+                    them to reflect and share things they learn from this engineering activity (refer
+                    to the next page).</li>
+                <li>If time allowed, you may get children work as a class to build pyramids of
+                    different heights and arrange them into a new design of roller coaster.</li>
             </ul>
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
@@ -154,23 +140,16 @@
         <div>
             <h2 class="font-bold">Possible questions for reflection:</h2>
             <ul class="list-disc ">
-                <li>
-                    Why do you think we built a big stand for the wheel?
-                </li>
-                <li>
-                    What happens if we build a smaller stand for the wheel?
-                </li>
-                <li>
-                    What problems did you encounter during the process of engineering
-                    (constructing the giant wheel)? How did you overcome the problems?
-                </li>
-                <li>
-                    If you get a chance to design and build a new giant wheel, how would you
-                    modify the current design? Why?
-                </li>
+                <li>Do you think the arrangement of the pyramids of different heights is important in
+                    making a successful ball roller coaster? Why? [Yes, the ball may fail to complete
+                    a ride due to lack of strength.]</li>
+                <li>What problems did you encounter during the process of engineering (constructing
+                    the ball roller coaster)? How did you overcome the problems?</li>
 
                 <li>-----------------------------------------------------------------------</li>
-                <li> At the end of the lesson, display all the giant wheels created in the classroom.</li>
+                <li>At the end of the lesson, display all the ball roller coasters created in the
+                    classroom.</li>
+
             </ul>
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
@@ -179,38 +158,6 @@
 
 
     {{-- sldie 7 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
-        <div>
-            <h2 class="font-bold">Useful information:</h2>
-            <ul class="list-disc ">
-                <li>
-                    A giant wheel is a non-building structure that rotates about a central axis. It is
-                    an example of wheel and axle (a simple machine).
-                </li>
-                <li>
-                    A giant wheel consists of a rotating upright wheel with multiple passenger
-                    carriages (commonly called cabins, capsules or gondolas) attached to the rim in
-                    such a way that as the wheel turns, the carriages are kept upright/always hang
-                    downwards by gravity.
-                </li>
-            </ul>
-        </div>
-        <div class="flex items-center gap-10">
-            <img src="{{ asset('assets/images/K1/str/gw16.png') }}" alt="Teacher" class="w-[600px]" />
-            <p class="note w-[160px]">The simplest way
-                to build the
-                carriages - think
-                of how a swing
-                works!
-            </p>
-        </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
-    </div>
-
-
-
-    {{-- slide 8 --}}
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>

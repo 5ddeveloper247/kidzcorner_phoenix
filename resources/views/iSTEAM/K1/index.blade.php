@@ -50,11 +50,11 @@
                 Compound Machines </h2>
         </a>
 
-        <a href="{{ route('basicStructure') }}"
+        <a href="{{ route('coding') }}"
             class="bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[400px] h-[300px] relative flex justify-center items-center  transition hover:brightness-110 ">
             <img src="/assets/images/N2/a3.png" alt="" class="w-[100px] absolute top-10 left-10">
             <h2 class="text-3xl text-[#534444]">
-                Coding and Robotics
+                Coding and <br> Robotics
             </h2>
         </a>
 

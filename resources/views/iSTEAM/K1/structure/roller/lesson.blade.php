@@ -83,7 +83,7 @@
             <li>1. Observe the structure of a roller coaster and answer some
                 questions.</li>
         </ol>
-        <img src="/assets/images//K1/str/r3.png" />
+        <img src="/assets/images//K1/str/r4.png" />
         <p class="note text-center">Note: <a href="" class="text-amber-300">Click here</a>Click here for questions.
             Guide children to identify the characteristics of a roller coaster.</p>
 
@@ -91,7 +91,7 @@
     {{-- step 1 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <h2 class="text-center title stroke">Where are the starting and end of this roller coaster?</h2>
-        <img src="/assets/images//K1/str/r4.png" />
+        <img src="/assets/images//K1/str/r5.png" />
         <p class="note text-center">Note: Guide children to spot the start and end of this roller coaster.</p>
 
         <!-- Video Trigger Button -->
@@ -105,7 +105,7 @@
     {{-- step 2 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <h2 class="text-center title stroke">Where kind of structures are built to make the track elevated?</h2>
-        <img src="/assets/images//K1/str/r4.png" />
+        <img src="/assets/images//K1/str/r5.png" />
         <p class="note text-center">Note: Guide children to talk about the shape and size of the support structures of this
             roller coaster - pyramids</p>
 
@@ -121,7 +121,7 @@
     {{-- step 3 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <h2 class="text-center title stroke">Where are the turns an slopes of the track?</h2>
-        <img src="/assets/images//K1/str/r4.png" />
+        <img src="/assets/images//K1/str/r5.png" />
         <p class="note text-center">Note: Guide children to spot the turns and slopes of the track of this roller coaster.
         </p>
 
@@ -136,7 +136,7 @@
     {{-- step 4 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <h2 class="text-center title stroke">How to set up the turns and slopes of the track?</h2>
-        <img src="/assets/images//K1/str/r4.png" />
+        <img src="/assets/images//K1/str/r5.png" />
         <p class="note text-center">Note: Guide children to understand that supports of different heights allow us to create
             turns and slopes.</p>
 
@@ -156,7 +156,7 @@
         <ol class="title stroke">
             <li>2. Learn how to build the track of a ball roller coaster.</li>
         </ol>
-        <img src="/assets/images//K1/str/r5.png" />
+        <img src="/assets/images//K1/str/r6.png" />
         <p class="note text-center">Give each group a set of materials to work on. <a href=""
                 class="text-amber-300">Click here</a> to follow the step-by-step guide.</p>
     </div>
@@ -166,7 +166,7 @@
         <h2 class="text-center title stroke">How to build the track of a ball roller coaster? <br>
             i. Make 2 short pieces of tracks.</h2>
         <div class="flex items-center gap-10">
-            <img src="/assets/images//K1/str/r6.png" />
+            <img src="/assets/images//K1/str/r7.png" />
             <p class="note w-[100px]">Repeat for
                 the second
                 piece!</p>
@@ -190,7 +190,7 @@
         <h2 class="text-center title stroke">How to build the track of a ball roller coaster? <br>
             ii. Make 7 long pieces of tracks</h2>
         <div class="flex items-center gap-10">
-            <img src="/assets/images//K1/str/r7.png" />
+            <img src="/assets/images//K1/str/r8.png" />
             <p class="note w-[100px]">Repeat for
                 the other
                 pieces!</p>
@@ -213,7 +213,7 @@
         <h2 class="text-start title stroke">How to build the track of a ball roller coaster? <br>
             iii. Join all the long pieces of tracks together as a long track</h2>
         <div class="flex items-center gap-10">
-            <img src="/assets/images//K1/str/r8.png" />
+            <img src="/assets/images//K1/str/r9.png" />
             <p class="note w-[100px]">Repeat for
                 the other
                 pieces!</p>
@@ -232,11 +232,12 @@
     </div>
     {{-- step 4 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <h2 class="text-center title stroke">How to build the structure of a giant wheel? - Step 4 of 8</h2>
-        <img src="/assets/images//K1/str/gw8.png" />
+        <h2 class="text-start title stroke">How to build the track of a ball roller coaster? <br>
+            iv. Join all the short pieces of track to each end of the long track</h2>
+        <img src="/assets/images//K1/str/r10.png" />
         <p class="note text-center">Note: Have children observe the video and talk about how to do the step. Guide them to
             figure out all
-            the sub-steps. Then have them work together in groups to complete the sub-steps..</p>
+            the sub-steps. Then have them work together in groups to complete the step.</p>
 
         <!-- Video Trigger Button -->
         <div data-property-1="Default"
@@ -246,13 +247,33 @@
             <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
         </div>
     </div>
-    {{-- step 5 --}}
+
+
+
+
+
+    {{-- slide 9 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <h2 class="text-center title stroke">How to build the structure of a giant wheel? - Step 5 of 8</h2>
-        <img src="/assets/images//K1/str/gw9.png" />
+        <div class="title stroke text-start">
+            <h2>Steps:</h2>
+            <ol>
+                <li>3. Learn how to build supports for the track of a ball roller coaster.</li>
+            </ol>
+        </div>
+        <img src="/assets/images//K1/str/r11.png" />
+        <p class="note text-center">Note: Give each group a set of materials to work on. Click here to follow the step-by
+            step guide.</p>
+    </div>
+    {{-- step 1 --}}
+    <div class="slide hidden  flex flex-col justify-start  ">
+        <h2 class="text-start title stroke">How to build support for the track of a ball roller coaster? <br>
+            i. Make a pyramid.</h2>
+        <div class="flex items-center gap-10">
+            <img src="/assets/images//K1/str/r12.png" />
+        </div>
         <p class="note text-center">Note: Have children observe the video and talk about how to do the step. Guide them to
             figure out all
-            the sub-steps. Then have them work together in groups to complete the sub-steps..</p>
+            the sub-steps. Then have them work together in groups to complete the step.</p>
 
         <!-- Video Trigger Button -->
         <div data-property-1="Default"
@@ -262,13 +283,14 @@
             <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
         </div>
     </div>
-    {{-- step 6 --}}
+    {{-- step 2 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <h2 class="text-center title stroke">How to build the structure of a giant wheel? - Step 6 of 8</h2>
-        <img src="/assets/images//K1/str/gw10.png" />
+        <h2 class="text-start title stroke">How to build support for the track of a ball roller coaster? <br>
+            i. Make a total of 10 pyramids of different heights.</h2>
+        <img src="/assets/images//K1/str/r13.png" />
         <p class="note text-center">Note: Have children observe the video and talk about how to do the step. Guide them to
             figure out all
-            the sub-steps. Then have them work together in groups to complete the sub-steps..</p>
+            the sub-steps. Then have them work together in groups to complete the step.</p>
 
         <!-- Video Trigger Button -->
         <div data-property-1="Default"
@@ -278,43 +300,6 @@
             <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
         </div>
     </div>
-
-    {{-- step 7 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <h2 class="text-center title stroke">How to build the structure of a giant wheel? - Step 7 of 8</h2>
-        <img src="/assets/images//K1/str/gw11.png" />
-        <p class="note text-center">Note: Have children observe the video and talk about how to do the step. Guide them to
-            figure out all
-            the sub-steps. Then have them work together in groups to complete the sub-steps..</p>
-
-        <!-- Video Trigger Button -->
-        <div data-property-1="Default"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
-            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
-        </div>
-    </div>
-
-
-    {{-- step 8 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <h2 class="text-center title stroke">How to build the structure of a giant wheel? - Step 8 of 8</h2>
-        <img src="/assets/images//K1/str/gw12.png" />
-        <p class="note text-center">Note: Have children observe the video and talk about how to do the step. Guide them to
-            figure out all
-            the sub-steps. Then have them work together in groups to complete the sub-steps..</p>
-
-        <!-- Video Trigger Button -->
-        <div data-property-1="Default"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
-            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
-        </div>
-    </div>
-
-
 
 
 
@@ -324,97 +309,87 @@
         <div class="title stroke text-start">
             <h2>Steps:</h2>
             <ol>
-                <li>3. Showcase your work.</li>
+                <li>4. Use your track and supports to form a roller coaster.</li>
             </ol>
         </div>
-        <img src="/assets/images//K1/str/gw4.png" />
-        <p class="note text-center">Note: After the showcase, guide children to reflect and share things they learn from
-            this engineering activity (refer to the possible questions for reflection in the teacher's mode).</p>
+        <img src="/assets/images//K1/str/r4.png" />
+        <p class="note text-center">Note: Give each group a set of materials to work on. <a href="">Click here</a>
+            to follow the step-by
+            step guide.</p>
     </div>
+    {{-- step 1 --}}
+    <div class="slide hidden  flex flex-col justify-start  ">
+        <h2 class="text-start title stroke">How to fix the track on a support?</h2>
+        <div class="flex items-center gap-10">
+            <img src="/assets/images//K1/str/r14.png" />
+        </div>
+        <p class="note text-center">Note: Have children observe the video and talk about how to do the step. Guide them to
+            figure out all
+            the sub-steps. Then have them work together in groups to complete the step.</p>
 
+        <!-- Video Trigger Button -->
+        <div data-property-1="Default"
+            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
+            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
+            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
+            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+        </div>
+    </div>
 
 
 
     {{-- slide 11 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <img src="/assets/images/K1/str/gw13.png" />
-        <h2 class="title stroke">Different giant wheels have different designs of carriages
-            but all carriages always hang downwards as the wheels spin.</h2>
+    <div class="slide hidden  flex flex-col items-center justify-start  ">
+        <div class="title stroke text-start">
+            <h2>Steps:</h2>
+            <ol>
+                <li>5. How do you make sure that a ball can always roll from the
+                    start to the end of your roller coaster?</li>
+            </ol>
+        </div>
+        <img src="/assets/images//K1/str/r15.png" />
+        <p class="note text-center">Note: Give each group a set of materials to work on. <a href="">Click here</a>
+            to follow the step-by
+            step guide.</p>
     </div>
+    {{-- step 1 --}}
+    <div class="slide hidden  flex flex-col justify-start  ">
+        <h2 class="text-start title stroke">How to make a ball roll down the track smoothly?</h2>
+        <div class="flex items-center gap-10">
+            <img src="/assets/images//K1/str/r16.png" />
+        </div>
+        <p class="note text-center">Note: Have children observe the video and talk about how to do so.
+            Then have them work together in groups to make a successful ball roller coaster.</p>
+
+        <!-- Video Trigger Button -->
+        <div data-property-1="Default"
+            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
+            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
+            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
+            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+        </div>
+    </div>
+
+
+
 
 
 
     {{-- slide 12 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <img src="/assets/images/K1/str/gw14.png" />
-        <h2 class="text-start title stroke">It means that when the wheel is spinning, the riders in the
-            carriages will remain balanced at all times.</h2>
-        <!-- Video Trigger Button -->
-        <div data-property-1="Default"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
-            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+    <div class="slide hidden  flex flex-col items-center justify-start gap-30  ">
+        <div class="title stroke text-start">
+            <h2>Steps:</h2>
+            <ol>
+                <li>6. Showcase your work.</li>
+            </ol>
         </div>
-    </div>
-
-    {{-- slide 13 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <h2 class="text-center justify-start text-[45px] text-white stroke">Small Group Activity 2</h2>
-        <h2 class="text-start title stroke">Mission: <br>
-            Design and build carriages for your giant wheel.</h2>
+        <p class="note text-center">Note: After the showcase, guide children to reflect and share things they learn from
+            this engineering
+            activity (refer to the possible questions for reflection in the teacher's mode).</p>
     </div>
 
 
-    {{-- slide 14 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <h2 class="text-start title stroke">Steps:</h2>
-        <ol class="title stroke list-decimal">
-            <li>
-                Design carriages for your giant wheel. Draw your design in
-                the learning journal.
-            </li>
-            <li>
-                Choose the materials based on your design idea and start
-                building the carriages.
-            </li>
-            <li>
-                Showcase your work.
-            </li>
-
-        </ol>
-        <p class="note text-center">Note: Encourage children to design the look of their carriages creatively in the
-            learning journal and
-            then choose suitable art and craft materials to build the carriages. <a href=""
-                class="text-amber-300">Click here</a> to see one example.
-            During the showcase, have each group share their design ideas to the class.</p>
-    </div>
-
-    {{-- sclik slde --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="/assets/images//K1/str/gw4.png" />
-        <p class="note text-center">Note: Give children more times to explore and learn their own building techniques.
-            Pause the class for once or twice to point out good building techniques.</p>
-        <!-- Video Trigger Button -->
-        <div data-property-1="Default"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
-            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
-        </div>
-    </div>
-
-
-
-    {{-- slide 15 --}}
-    <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
-        <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[836px] h-[536px] bg-cover bg-center flex flex-col justify-start items-center"
-            style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
-            <p>Draw your design of a carriage or carriages for your giant wheel here.</p>
-        </div>
-    </div>
-
+    
 
 
 

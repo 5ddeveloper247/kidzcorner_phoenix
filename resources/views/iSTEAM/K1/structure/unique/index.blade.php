@@ -31,10 +31,11 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col  h-[90%] items-center ">
-        <div class="  text-amber-300 text-[65px] font-extrabold stroke">Buildings are Structures</div>
+        <div class="  text-amber-300 text-[65px] font-extrabold stroke">Unique Buildings</div>
         <h2 class="text-2xl sm:text-3xl lg:text-6xl text-white stroke ">
-            Explore how buildings are designed and built
-            as a kind of structure; design and build a tall building</h2>
+        Explore and learn about some buildings 
+around the world;
+design and build a unique building</h2>
 
         <button
             class="cursor-pointer nextButton w-66 h-[120px] relative bg-[#F8A23A]  rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
@@ -96,7 +97,7 @@
 
             if (nextButton) {
                 nextButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('buildingSelection') }}";
+                    window.location.href = "{{ route('uniqueSelection') }}";
                 });
             }
         });
