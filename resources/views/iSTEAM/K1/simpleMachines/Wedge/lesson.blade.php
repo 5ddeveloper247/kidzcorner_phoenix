@@ -23,380 +23,756 @@
     {{-- Slide 1 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
         <div class="flex flex-col items-center justify-center">
-            <h2 class="title stroke">What do you see in this picture?</h2>
-            <img src="/assets/images/pptimages/light1.png" class="max-w-[500px] sm:max-w-[600px] lg:max-w-[536px]" />
+            <h2 class="title stroke !text-white">Class Activity 1</h2>
+            <br>
+            <br>
+            <img src="/assets/images/K1/sm/wedge/w1.png" />
         </div>
-        <!-- Note -->
-        <div class="note">Note: Guide children to share their answers.</div>
-
+        <ul class="title stroke !text-start tracking-tighter">
+            <li>Let’s find out:</li>
+            <li>How would a triangular block go easily into the moist sand?</li>
+        </ul>
     </div>
 
 
 
     {{-- Slide 2 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 hidden ">
-        <div class="flex flex-col items-center justify-center gap-1">
-            <!-- Question -->
-            <h2 class="title stroke">
-                <span class="text-amber-300">Can you see the </span>
-                <span class="text-white">SUN</span>
-                <span class="text-amber-300">?</span>
-            </h2>
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+        <div class="flex gap-1.5">
+            <img src="/assets/images/K1/sm/wedge/w2.png" />
+            <img src="/assets/images/K1/sm/wedge/w3.png" />
 
-            <img src="/assets/images/pptimages/light2.png"
-                class=" w-[536px] outline outline-[6px] outline-offset-[-3px] outline-orange-400" />
         </div>
-
-        <div class="note">Note: Point out the sun to the children.</div>
-
+        <ul class="  title !text-start">
+            <li class=" !text-white">What do you think (Prediction):</li>
+            <li class="title stroke">Is it easier to push the flat side or pointed side of a <br>
+                triangular block through moist sand?</li>
+        </ul>
     </div>
+
 
     {{-- Slide3 --}}
 
-    <div class="slide hidden flex flex-col items-center justify-center gap-1">
-        <!-- Question -->
-        <h2 class="title stroke">
-            The <span class="text-5xl text-white">sun</span>is so <span class="text-5xl text-white">Bright !</span> </br>It
-            gives <span class="text-5xl text-white">light</span> during the day! </h2>
-        <img class=" w-[500px] outline outline-[6px] outline-offset-[-3px] outline-orange-400"
-            src="/assets/images/pptimages/light1.png" alt="Light Example" />
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+        <div class="flex flex-col items-center justify-center align-middle">
+            <ul class="title stroke !text-start  list-none tracking-tighter">
+                <li class="!text-white ">Let’s do (Experiment Procedure):</li>
+                <li>1.Press the flat side of a triangular block onto a heap of <br> moist sand.</li>
 
+            </ul>
+            <div class="flex justify-center align-middle">
+
+                <img src="/assets/images/K1/sm/wedge/w2.png" />
+            </div>
+        </div>
     </div>
 
+
+
     {{-- Slide 4 --}}
-    <div class=" slide hidden flex flex-col items-center justify-center gap-2">
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+        <div class="flex flex-col items-center justify-center align-middle">
+            <ul class="title stroke !text-start  list-none tracking-tighter">
+                <li class="!text-white ">Let’s do (Experiment Procedure):</li>
+                <li>2.Press the pointed end of the triangular block onto the <br>
+                    heap of moist sand.</li>
 
-        <h2 class="text-2xl sm:text-3xl lg:text-5xl text-white max-w-4xl leading-snug stroke">
-            The <span class="text-amber-300">sun</span> is so <span class="text-amber-300">bright!</span></br>
-            It gives <span class="text-amber-300">light</span> during the day!
-        </h2>
+            </ul>
+            <div class="flex justify-center align-middle">
 
-        <img class="w-[300px] sm:w-[500px] lg:w-[436px] h-auto  outline-offset-[-3px]  mb-8"
-            src="/assets/images/pptimages/sun.png" />
-
+                <img src="/assets/images/K1/sm/wedge/w3.png" />
+            </div>
+        </div>
     </div>
 
     {{-- Slide 5  --}}
-    <div class="slide hidden flex flex-col items-center justify-center px-4 text-center">
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+        <div class="flex gap-1.5">
+            <img src="/assets/images/K1/sm/wedge/w2.png" />
+            <img src="/assets/images/K1/sm/wedge/w3.png" />
 
-        <div class="flex flex-col items-center justify-center">
-            <h2 class="title stroke">What do you see in this video?</h2>
-
-            <img class="mb-6 h-auto w-[300px] sm:w-[500px] lg:w-[536px]" src="/assets/images/pptimages/galaxy.png" />
         </div>
-
-        <div class="note text-ellipsis">Note: Encourage children to share. Teacher to lead to sing along the song twinkle
-            twinkle stars.</div>
-
-        <!-- Video Trigger Button -->
-        <div data-property-1="Default"
-            class="absolute top-1/2 right-0 z-30 h-24 w-24 -translate-y-1/2 cursor-pointer h-24 w-24 rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-[80%] " />
-            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
-        </div>
+        <ul class="  title !text-start">
+            <li class=" !text-white">What do you observe (result):</li>
+            <li class="title stroke">Which side of the triangular block goes easily into the moist
+                sand?</li>
+        </ul>
     </div>
 
 
     {{-- slide 6 --}}
     <div class=" slide hidden flex flex-col items-center justify-center gap-1">
-        <h2 class="title stroke">These are
-            <span class="text-white">stars</span> ! The stars give out
-            <span class="text-white">light</span>
-            and they shine
-            <span class="text-white">brightly </span>
-            at night!
-        </h2>
 
-        <img class="mb-10 h-auto w-[300px] outline outline-[6px] outline-offset-[-3px] outline-orange-400 sm:w-[500px] lg:w-[536px]"
-            src="/assets/images/pptimages/galaxy.png" />
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <h2 class="title !text-white ">What do you learn (Conclusion): </h2>
+        <h2 class="title stroke  tracking-tight">How would a triangular block go easily into the moist sand? </h2>
 
 
 
-        <!-- Video Trigger Button -->
-        <div data-property-1="Default"
-            class="absolute top-1/2 right-0 z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
-            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
-        </div>
     </div>
 
 
     {{-- Slide 7 --}}
-    <div class="slide hidden flex flex-col items-center justify-center px-4 text-center">
-        <div class="flex flex-col items-center justify-center gap-1.5">
-            <h2 class="text-4xl text-amber-300 sm:text-5xl lg:text-6xl" style="-webkit-text-stroke: 3px #533705;">Let us
-                Sing!</h2>
-
-            <!-- Center Illustration -->
-            <img class="h-auto w-[400px] sm:w-[600px] lg:w-[534px]" src="/assets/images/pptimages/star.png" />
-        </div>
-
-        <div class="text-[55px] text-white" style="-webkit-text-stroke: 3px #533705;">Twinkle Twinkle Little Star</div>
-
-        <div class="note leading-snug text-wrap">Note: Teacher to lead the song and encourage children to sing together.
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+        <div class="flex flex-col items-center justify-center">
+            <img src="/assets/images/K1/sm/wedge/w4.png" />
+            <br>
+            <h2 class="title stroke">The flat side of a triangular block cannot be easily
+                pushed into the moist sand.</h2>
         </div>
 
     </div>
 
 
-
     {{-- slide 8 --}}
-    <div class="slide hidden  flex flex-col items-center justify-center gap-1.5">
-        <div class="text-4xl text-amber-300 sm:text-5xl lg:text-6xl" style="-webkit-text-stroke: 3px #533705;">Do you know
-            what this is?</div>
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+        <div class="flex flex-col items-center justify-center">
+            <img src="/assets/images/K1/sm/wedge/w4.png" />
+            <br>
+            <h2 class="title stroke">The pointed side of a triangular block can be easily
+                pushed into the moist sand.</h2>
+        </div>
 
-        <!-- Center Illustration -->
-        <img class="h-auto w-[400px] sm:w-[600px] lg:w-[534px]" src="/assets/images/pptimages/candle.png" />
-
-
-        <div class="note leading-snug text-wrap">Note: Encourage children to share their answers.</div>
     </div>
 
 
     {{-- slide 9 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-1.5">
-        <div class="text-4xl text-amber-300 sm:text-5xl lg:text-6xl" style="-webkit-text-stroke: 3px #533705;">The <span
-                class="text-white">fire</span> in the candle gives <span class="text-white">light</span> too!</div>
-        <img class="h-auto w-[400px] sm:w-[600px] lg:w-[534px]" src="/assets/images/pptimages/candle.png" />
-
-
-        <!-- Song Note -->
-        <div class="note leading-snug text-wrap">Note: Ask children if they have seen candles on birthday cakes and what
-            </br>
-            happen when the candles are blown out.</div>
-
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+        <div class="flex flex-col items-center justify-center">
+            <img src="/assets/images/K1/sm/wedge/w5.png" />
+            <br>
+            <h2 class="title stroke tracking-tight">The triangular block is, in fact, an example of
+                a <span class="!text-white">simple machine</span> called <span class="!text-white">wedge</span> .</h2>
+        </div>
 
     </div>
 
 
     {{-- slide 10 --}}
-    <div class="slide hidden flex flex-col items-center ">
-        <div class="flex flex-col items-center justify-center gap-5">
-            <h2 class="text-center justify-start title stroke">The <span class="text-white ">sun</span>,
-                <span class="text-white ">stars</span> and <span class="text-white ">fire</span> are natural sources of
-                <span class="text-white ">light</span>.<span class="text-white ">Light</span> help us to see things
-                around us.
-            </h2>
-
-            <img src="/assets/images/pptimages/three1.png" class="h-fit" />
-
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+        <div class="flex flex-col items-center justify-center">
+            <img src="/assets/images/K1/sm/wedge/w5.png" />
+            <br>
+            <h2 class="title stroke tracking-tight">A <span class="!text-white">wedge</span> is an object which is thick at
+                one edge,
+                thin and tapering at the other edge.</h2>
         </div>
 
-        <div class="note leading-snug text-wrap">Note: Ask children if they have seen candles on birthday cakes and
-            what </br> happen when the candles are blown out.</div>
-
     </div>
+
 
 
     {{-- slide 11 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-5">
-        <h2 class="text-center justify-start text-[50px] text-amber-300 stroke">Switch
-            off the <span class="text white">light</span>in the room and draw the curtains. How do you feel? Do you see
-            clearly?
-        </h2>
-        <img class="h-auto w-[400px] sm:w-[600px] lg:w-[534px]" src="/assets/images/pptimages/blacklight.png" />
-
-        <div class="note leading-snug text-wrap">Note: Encourage children to share their answers.</div>
-
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+        <div class="flex flex-col items-center justify-center">
+            <img src="/assets/images/K1/sm/wedge/w5.png" />
+            <br>
+            <h2 class="title stroke tracking-tight">A <span class="!text-white">wedge</span> is a type of <span
+                    class="!text-white">simple machine</span>.</h2>
+        </div>
+        <br>
+        <p class=" note">Note: Let children share what they think a simple machine is.</p>
 
     </div>
 
+
     {{-- slide 12 --}}
-    <div class="slide hidden  flex flex-col items-center justify-center gap-5">
-        <h2 class="text-center justify-start title stroke">Without any <span class="text white">light</span>, the room
-            would be dark and it would be hard to see things around us. </h2>
+    <div class=" slide hidden flex flex-col items-center justify-center gap-1">
 
-        <img class="h-auto w-[400px] sm:w-[600px] lg:w-[534px]" src="/assets/images/pptimages/blacklight.png" />
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
 
+        <h2 class="title stroke "><span class="!text-white">simple machine</span> are basic tools that help us
+            to do work easily.</h2>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <p class=" note">Note: Explain that there are many types of simple machines and wedge is on type of simple machine.
+        </p>
     </div>
 
 
     {{-- slide 13 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <h2 class="text-center justify-start text-[45px] text-white stroke">CLASS ACTIVITY 1 </h2>
-        <div class="flex gap-10 flex-wrap justify-center w-[90%] h-[70%]">
+    <div class=" slide hidden flex flex-col items-center justify-center gap-1">
 
-            <img class="w-60 h-44" src="/assets/images/pptimages/football.png" />
-            <img class="w-60 h-44" src="/assets/images/pptimages/pencil.png" />
-            <img class="w-60 h-44" src="/assets/images/pptimages/books.png" />
-            <img class="w-60 h-44" src="/assets/images/pptimages/torch.png" />
-            <img class="w-60 h-44" src="/assets/images/pptimages/tdBear.png" />
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
 
-        </div>
+        <h2 class="title stroke ">Do you know how a <span class="!text-white">wedge</span> helps us
+            to do work easily?</h2>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
 
-        <h2 class="text-center justify-start text-[40px] text-amber-300 stroke">Look at these items, which items have
-            light? </h2>
-
-        <div class="note leading-snug text-wrap">Note: Teacher to prepare more additional items too like light stick,
-            anything that creates light.</div>
-
+        <p class=" note">Note: Let children share what they know.</p>
     </div>
 
 
     {{-- slide 14 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <h2 class="text-center justify-start text-[55px] text-white stroke">Let’s do:</h2>
-        <div class=" justify-start title font-normal mb-20">
-            <ol class="list-decimal list-inside space-y-2 text-start stroke">
-                <li>
-                    Explore the items provided. Which item lights up?
-
-                </li>
-                <li>
-                    Are there any other things that light up in the class?
-                </li>
-                <li>
-                    Point them out to your friends.
-                </li>
-            </ol>
-
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+        <div class="flex flex-col items-center justify-center">
+            <img src="/assets/images/K1/sm/wedge/w4.png" />
+            <br>
+            <h2 class="title stroke">A wedge helps us to go through things and cut things easily.</h2>
         </div>
-
-        <p class="note leading-snug text-wrap w-[80%]">
-            Note: Ensure children’s safety while doing this activity. Make sure the room is not
-            too dark and do not let the children shine light directly into their eyes. You may let children
-            find items that light up in the class if there’s any.
-        </p>
+        <br>
+        <p class=" note">Note: Guide children to understand that a wedge is a simple machine as it helps us to do our work
+            easily.</p>
 
     </div>
 
 
     {{-- slide 15 --}}
-    <div class="slide hidden  flex flex-col items-center justify-center gap-y-3">
-        <h2 class="text-center justify-start text-[45px] text-white">CLASS
-            ACTIVITY 2</h2>
-
-        <img class="h-auto w-[400px] sm:w-[600px] lg:w-[534px]" src="/assets/images/pptimages/torch.png" />
-
-        <h2 class="text-center justify-start title stroke">The flashlight light up when it is switched on.</h2>
-
-
+    <div class=" slide hidden flex flex-col items-center justify-center gap-[20rem]">
+        <h2 class="title stroke ">Can you name some things which are wedges?</h2>
+        <p class=" note">Note: Have children name some things in their surroundings which are wedges.</p>
     </div>
 
+
     {{-- slide 16 --}}
-    <div class="slide  hidden flex flex-col items-center justify-center gap-y-3">
-        <div class="flex items-center gap-x-10">
-
-            <img class="w-[494px] h-80 border-[6px] border-orange-400" src="/assets/images/pptimages/roof-light.png" />
-            <img class="w-[494px] h-80 border-[6px] border-orange-400" src="/assets/images/pptimages/lamp.png" />
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+        <div class="flex flex-col items-center justify-center">
+            <img src="/assets/images/K1/sm/wedge/w6.png" />
+            <br>
+            <h2 class="title stroke">What is this? Where is the wedge? <br>
+                What does it do?</h2>
         </div>
-
-        <h2 class="text-center justify-start title stroke">The <span class="text-white ">ceiling light</span> and<span
-                class="text-white ">table lamp</span> light up when they are being switched on.</h2>
-
-        <div class="note leading-snug text-wrap">Note: Encourage children to point out the lights in the room.</div>
-
 
 
     </div>
 
 
     {{-- slide 17 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-3">
-        <div class="flex items-center gap-x-10">
-
-            <img class="w-[494px] h-80 border-[6px] border-orange-400" src="/assets/images/pptimages/street.png" />
-            <img class="w-[494px] h-80 border-[6px] border-orange-400" src="/assets/images/pptimages/car.png" />
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+        <div class="flex flex-col items-center justify-center">
+            <img src="/assets/images/K1/sm/wedge/w6.png" />
+            <br>
+            <h2 class="title stroke">The axe is a <span class="!text-white">wedge</span>. <br>
+                It is thick at one edge, thin at the other edge.</h2>
         </div>
-
-        <h2 class="text-center justify-start stroke title">The <span class="text-white ">streetlights</span> and <span
-                class="text-white "> vehicle headlights</span> help
-            people to see better at night.
-        </h2>
-
-        <p class="note leading-snug text-wrap">Note: Encourage children to point out the lights they can see at night.</p>
-
     </div>
 
 
     {{-- slide 18 --}}
 
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-3">
-
-        <img src="/assets/images/pptimages/strlight.png" />
-
-
-        <h2 class="text-center justify-start title stroke">The flashlight, streetlights, table lamps are <span
-                class="text-white"> man-made lights</span>. </h2>
-
-        <h2 class=" text-wrap text-[40px] text-amber-300 stroke">These items need batteries or electricity to give light.
-        </h2>
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+        <img src="/assets/images/K1/sm/wedge/w7.png" />
+        <br>
+        <h2 class="title stroke">The axe helps the man to cut through wood and <br>
+            break it easily.</h2>
     </div>
 
 
     {{-- slide 19 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-3">
-        <h2 class="text-center justify-start text-[53px] text-white stroke">CLASS ACTIVITY 2</h2>
-
-        <div class="flex gap-10 flex-wrap justify-center w-[80%] h-[70%]">
-
-            <img class="w-[31rem] h-auto" src="/assets/images/pptimages/dedective.png" />
-
-        </div>
-
-        <h2 class="text-center justify-start title stroke"> What kind of lights are there around us?</h2>
-
-        <p class="note leading-snug text-wrap">Note: Teacher to prepare camera to capture children looking for different
-            light sources.</p>
-
-
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+        <img src="/assets/images/K1/sm/wedge/w8.png" />
+        <br>
+        <h2 class="title stroke">What is this? Where is the wedge? <br>
+            What does it do?</h2>
     </div>
 
 
     {{-- slide 20  --}}
-    <div class="slide hidden flex flex-col items-center justify-start ">
-        <h2 class="justify-start text-center text-[55px] text-white stroke">Let’s do:</h2>
-
-        <div class="justify-start title px-5 mb-20">
-            <ol class="stroke list-inside list-decimal space-y-2 text-start">
-                <li>Take a walk around the school or outdoors.</li>
-                <li>Identify all the light sources.</li>
-                <li>Take photos and discuss as a class why is light needed on that place.</li>
-            </ol>
-        </div>
-
-        <p class="note">Note: Look out for light sources and take photos using the ipad for
-            the discussion in class. Challenge children to think of reasons why a light source is placed in that area. E.g.
-            park, to light up the path at night.</p>
+    <div class="slide hidden flex flex-col items-center justify-center gap-y-3">
+        <img src="/assets/images/K1/sm/wedge/w8.png" />
+        <br>
+        <h2 class="title stroke">A knife is <span class="!text-white">wedge</span>. <br>
+            It is thick at one edge, thin at the other edge.</h2>
     </div>
 
 
     {{-- slide 21  --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-5">
-
-        <h2 class="text-center title stroke">The <span class="text-white">sun</span>,<span
-                class="text-white">stars</span> and <span class="text-white">fire</span> are natural light
-        </h2>
-
-
-        <img src="/assets/images/pptimages/three1.png" />
-
-        <p class="note text-center text-xl text-white leading-snug max-w-2xl">Note: Ask children if they have seen candles
-            on birthday cakes
-            and what happens when the candles are blown out.</p>
+    <div class="slide hidden flex flex-col items-center justify-center gap-y-3">
+        <img src="/assets/images/K1/sm/wedge/w9.png" />
+        <br>
+        <h2 class="title stroke">A knife helps to cut through food easily.</h2>
     </div>
 
 
     {{-- sldie 22 --}}
     <div class="slide hidden flex flex-col items-center justify-center gap-y-3">
-        <img src="/assets/images/pptimages/strlight.png" />
+        <img src="/assets/images/K1/sm/wedge/w10.png" />
+        <br>
+        <h2 class="title stroke">What is this? Where is the wedge? <br>
+            What does it do?</h2>
+    </div>
 
-        <h2 class="w-[80%] justify-start text-center title stroke ">The flashlight, streetlights, table lamps are <span
-                class="text-white"> man-made lights</span>.</h2>
+    {{-- sldie 23 --}}
+    <div class="slide hidden flex flex-col items-center justify-center gap-y-3">
+        <img src="/assets/images/K1/sm/wedge/w10.png" />
+        <br>
+        <h2 class="title stroke">The blades of a scissor are <span class="!text-white">wedges</span>. They are thick at
+            one
+            edge, thin at the other edge.</h2>
+    </div>
 
+    {{-- sldie 24 --}}
+    <div class="slide hidden flex flex-col items-center justify-center gap-y-3">
+        <img src="/assets/images/K1/sm/wedge/w11.png" />
+        <br>
+        <h2 class="title stroke">These blades help to cut through paper easily.</h2>
+    </div>
+
+    {{-- sldie 25 --}}
+    <div class="slide hidden flex flex-col items-center justify-center gap-y-3">
+        <img src="/assets/images/K1/sm/wedge/w12.png" />
+        <br>
+        <h2 class="title stroke">What is this? Where is the wedge? <br>
+            What does it do?</h2>
+    </div>
+
+
+
+    {{-- sldie 26 --}}
+    <div class="slide hidden flex flex-col items-center justify-center gap-y-3">
+        <img src="/assets/images/K1/sm/wedge/w12.png" />
+        <br>
+        <h2 class="title stroke">Teeth are wedges too! They are thick at one edge,
+            thin and tapering at the other edge.</h2>
+    </div>
+
+
+
+    {{-- sldie 27 --}}
+    <div class="slide hidden flex flex-col items-center justify-center gap-y-3">
+        <img src="/assets/images/K1/sm/wedge/w12.png" />
+        <br>
+        <h2 class="title stroke">Teeth help to bite and cut through food easily.</h2>
+    </div>
+
+    {{-- sldie 28 --}}
+    <div class="slide hidden flex flex-col items-center justify-center gap-y-3">
+        <img src="/assets/images/K1/sm/wedge/w13.png" />
+        <br>
+        <h2 class="title stroke">What is this? Where is the wedge? <br>
+            What does it do?</h2>
+    </div>
+
+
+    {{-- sldie 29 --}}
+    <div class="slide hidden flex flex-col items-center justify-center gap-y-3">
+        <img src="/assets/images/K1/sm/wedge/w13.png" />
+        <br>
+        <h2 class="title stroke">This is a fighter aircraft. The front part is a wedge. It is
+            thick at one edge, thin and tapering at the other edge.</h2>
+    </div>
+
+
+
+
+    {{-- sldie 30 --}}
+    <div class="slide hidden flex flex-col items-center justify-center gap-y-3">
+        <img src="/assets/images/K1/sm/wedge/w14.png" />
+        <br>
+        <h2 class="title stroke">The wedge helps the fighter aircraft to cut through air
+            and fly very fast easily.</h2>
+    </div>
+
+
+    {{-- sldie 31 --}}
+    <div class=" slide hidden flex flex-col items-center justify-center gap-[20rem]">
+        <h2 class="title stroke ">A <span class="!text-white">wedges</span> also helps to hold things together easily.
+            <br>
+            A <span class="!text-white">wedges</span> helps to keep things in place too.
+        </h2>
+        <p class=" note">Note: Guide children to understand that a wedge is a simple machine with many uses.</p>
+    </div>
+
+
+
+    {{-- sldie 32 --}}
+    <div class="slide hidden flex flex-col items-center justify-center gap-y-3">
+        <img src="/assets/images/K1/sm/wedge/w15.png" />
+        <br>
+        <h2 class="title stroke">What is this? Where is the wedge? <br>
+            What does it do?</h2>
+    </div>
+
+
+    {{-- sldie 33 --}}
+    <div class="slide hidden flex flex-col items-center justify-center gap-y-3">
+        <img src="/assets/images/K1/sm/wedge/w15.png" />
+        <br>
+        <h2 class="title stroke">The nails is a <span class="!text-white">wedge</span>. <br>
+            It is thick at one edge, thin and pointed at the other edge.</h2>
+    </div>
+
+
+    {{-- sldie 34 --}}
+    <div class="slide hidden flex flex-col items-center justify-center gap-y-3">
+        <img src="/assets/images/K1/sm/wedge/w15.png" />
+        <br>
+        <h2 class="title stroke">This helps us to easily push the nail into the wood with a
+            hammer, This nail holds the wood pieces together.</h2>
+    </div>
+
+
+    {{-- sldie 35 --}}
+    <div class="slide hidden flex flex-col items-center justify-center gap-y-3">
+        <img src="/assets/images/K1/sm/wedge/w16.png" />
+        <br>
+        <h2 class="title stroke">What is this? Where is the wedge? <br>
+            What does it do?</h2>
+    </div>
+
+
+
+    {{-- sldie 36  --}}
+    <div class="slide hidden flex flex-col items-center justify-center gap-y-3">
+        <img src="/assets/images/K1/sm/wedge/w16.png" />
+        <br>
+        <h2 class="title stroke">A needle is a <span class="!text-white">wedge</span> too! <br>
+            It is thick at one edge, thin and tapering at the other edge.</h2>
+    </div>
+
+
+
+    {{-- sldie 37 --}}
+    <div class="slide hidden flex flex-col items-center justify-center gap-y-3">
+        <img src="/assets/images/K1/sm/wedge/w16.png" />
+        <br>
+        <h2 class="title stroke">A needle helps to join and sew the wool together.</h2>
+    </div>
+
+
+
+
+    {{-- sldie 38 --}}
+    <div class="slide hidden flex flex-col items-center justify-center gap-y-3">
+        <img src="/assets/images/K1/sm/wedge/w17.png" />
+        <br>
+        <h2 class="title stroke">What is this? Where is the wedge? <br>
+            What does it do?</h2>
+    </div>
+
+
+    {{-- sldie 39 --}}
+    <div class="slide hidden flex flex-col items-center justify-center gap-y-3">
+        <img src="/assets/images/K1/sm/wedge/w17.png" />
+        <br>
+        <h2 class="title stroke">A thumbtack is a <span class="!text-white">wedge</span>. <br>
+            It is thick at one edge, thin and tapering at the other edge.</h2>
+    </div>
+
+    {{-- sldie 40 --}}
+    <div class="slide hidden flex flex-col items-center justify-center gap-y-3">
+        <img src="/assets/images/K1/sm/wedge/w17.png" />
+        <br>
+        <h2 class="title stroke">A thumbtack helps to hold a paper onto a board.</h2>
+    </div>
+
+
+    {{-- sldie 41 --}}
+    <div class="slide hidden flex flex-col items-center justify-center gap-y-3">
+        <img src="/assets/images/K1/sm/wedge/w18.png" />
+        <br>
+        <h2 class="title stroke">What is this? Where is the wedge? <br>
+            What does it do?</h2>
+    </div>
+
+
+    {{-- sldie 42         --}}
+    <div class="slide hidden flex flex-col items-center justify-center gap-y-3">
+        <img src="/assets/images/K1/sm/wedge/w18.png" />
+        <br>
+        <h2 class="title stroke">The doorstopper is a <span class="!text-white">wedge</span>. <br>
+            It is thick at one edge, thin and tapering at the other edge.</h2>
+    </div>
+
+
+    {{-- sldie 43        --}}
+    <div class="slide hidden flex flex-col items-center justify-center gap-y-3">
+        <img src="/assets/images/K1/sm/wedge/w18.png" />
+        <br>
+        <h2 class="title stroke">A door stopper helps to hold the door in place.</h2>
+    </div>
+
+    {{-- sldie 44        --}}
+    <div class="slide hidden flex flex-col items-center justify-center gap-y-3">
+        <h2 class="!text-white !text-center title">Class Activity 2</h2>
+        <img src="/assets/images/K1/sm/wedge/w18.png" />
+
+        <ul class="title stroke  !text-start">
+            <li>Let’s find out:</li>
+            <li>Let’s find out:
+                How does a triangular block move forward easily in moist sand?</li>
+        </ul>
+    </div>
+
+
+    {{-- sldie 45       --}}
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+        <div class="flex gap-1.5">
+            <img src="/assets/images/K1/sm/wedge/w19.png" />
+            <img src="/assets/images/K1/sm/wedge/w20.png" />
+
+        </div>
+        <ul class="  title !text-start">
+            <li class=" !text-white">What do you think (Prediction):</li>
+            <li class="title stroke">Is it easier to move this block forward with its pointed side or
+                its flat side?</li>
+        </ul>
+    </div>
+
+
+    {{-- sldie 46       --}}
+    <div class=" slide hidden flex flex-col items-center align-middle justify-center gap-5">
+        <h2 class="title stroke ">Is it easier to move this block forward with its pointed side or its flat side?</h2>
+        <img src="/assets/images/K1/sm/wedge/w21.png" />
+        <p class=" note">Note: Plot children's prediction on the graph. At the end, put a star to mark the final result.
+        </p>
+    </div>
+
+
+
+
+    {{-- sldie 47       --}}
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+        <ul class="title stroke !text-start  list-none tracking-tighter">
+            <li class="!text-white ">Let’s do (Experiment Procedure):</li>
+            <li>1.Push a triangular block forward with its pointed side through
+                moist sand. How does it feel to push this block forward?</li>
+
+        </ul>
+        <div class="flex justify-center align-middle">
+
+            <img src="/assets/images/K1/sm/wedge/w19.png" />
+        </div>
+
+    </div>
+
+
+    {{-- sldie 48       --}}
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+        <ul class="title stroke !text-start  list-none tracking-tighter">
+            <li class="!text-white ">Let’s do (Experiment Procedure):</li>
+            <li>2.Push a triangular block forward with its flat side through
+                moist sand. How does it feel to push this block forward?</li>
+
+        </ul>
+        <div class="flex justify-center align-middle">
+
+            <img src="/assets/images/K1/sm/wedge/w20.png" />
+        </div>
+
+    </div>
+
+
+
+
+    {{-- sldie 49       --}}
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+        <div class="flex gap-1.5">
+            <img src="/assets/images/K1/sm/wedge/w19.png" />
+            <img src="/assets/images/K1/sm/wedge/w20.png" />
+
+        </div>
+        <ul class="  title !text-start">
+            <li class=" !text-white">What do you observe (Result):</li>
+            <li class="title stroke">
+                Is it easier to move a triangular block with its pointed
+                or flat side?</li>
+        </ul>
+
+
+        <p class=" note">Note: Put a star to mark the result on the graph.</p>
+    </div>
+
+
+
+    {{-- sldie 50       --}}
+    <div class="slide hidden flex flex-col items-center justify-center gap-y-3">
+        <h2 class="title stroke"> <span class="!text-white">What do you learn (Conclusion):</span><br>
+            When does the triangular block move forward<br>
+            easily in moist sand?
+        </h2>
+    </div>
+
+
+
+     {{-- sldie 51      --}}
+    <div class=" slide hidden flex flex-col items-center align-middle justify-center gap-5">
+        <img src="/assets/images/K1/sm/wedge/w22.png" />
+        <h2 class="title stroke ">Through this activity we learn that the triangular block moves
+forward easily with its pointed side in moist sand.</h2>
+       
+    </div>
+
+     {{-- sldie 52     --}}
+    <div class=" slide hidden flex flex-col items-center align-middle justify-center gap-5">
+        <img src="/assets/images/K1/sm/wedge/w23.png" />
+        <h2 class="title stroke ">The pointed side of the triangular block is a  <span class="!text-white">wedge</span>  and so
+cuts through sand and separates it easily.</h2>
+       
+    </div>
+
+     {{-- sldie 53     --}}
+     <div class=" slide hidden flex flex-col items-center align-middle justify-center gap-5">
+         <img src="/assets/images/K1/sm/wedge/w24.png" />
+         <h2 class="title stroke ">The flat side of the block is not a wedge.
+             So it is not easy to cut through sand and move forward easily.</h2>
+             
             </div>
-            <div class="absolute bottom-[85px]">
-                <button class="cursor-pointer doneButton w-66 h-[75px] relative bg-[#F8A23A] rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
-                    outline outline-1 outline-yellow-700 overflow-hidden">
-                    <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
-                    <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" />
-                    </div>
-                    <span class="absolute left-[80px] top-[18px] flex items-center  text-white text-5xl font-bold stroke">DONE</span>
-                </button>
-            </div>
+            
+            
+            {{-- sldie 54     --}}
+    <div class="slide flex flex-col items-center justify-center gap-3 ">
+            <h2 class="title stroke !text-white">Class Activity 3</h2>
+            <br>
+              <div class="flex gap-1.5">
 
+                  <img src="/assets/images/K1/sm/wedge/w25.png" />
+                  <img src="/assets/images/K1/sm/wedge/w26.png" />
+                </div>
+        
+        <ul class="title stroke !text-start tracking-tighter">
+            <li>Let’s find out:</li>
+            <li>Which side of the triangular block can be pushed easily into water?</li>
+        </ul>
+        <p class=" note">Note: Ask children to make predictions and find out through experiment.
+        </p>
+    </div>
+
+     {{-- sldie 55     --}}
+    <div class=" slide hidden flex flex-col items-center align-middle justify-center gap-5">
+        <img src="/assets/images/K1/sm/wedge/w27.png" />
+        <h2 class="title stroke ">The pointed side of the triangular block is a <span class="!text-white">wedge</span> and so cuts 
+through water and is easily push into water.</h2>
+       
+    </div>
+
+
+     {{-- sldie 56     --}}
+    <div class=" slide hidden flex flex-col items-center align-middle justify-center gap-5">
+        <img src="/assets/images/K1/sm/wedge/w28.png" />
+        <h2 class="title stroke ">The flat side of the block is not a wedge.
+So it is not easy to cut through water and move in easily.</h2>
+       
+    </div>
+
+
+
+           {{-- sldie 57     --}}
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+            <h2 class="title stroke !text-white">Class Activity 4</h2>
+            <br>
+              <div class="flex gap-1.5">
+                  <img src="/assets/images/K1/sm/wedge/w29.png" />
+                  <img src="/assets/images/K1/sm/wedge/w30.png" />
+                </div>
+        
+        <ul class="title stroke !text-start tracking-tighter">
+            <li>Let’s find out:</li>
+            <li>Which block is easier to push into play dough?</li>
+        </ul>
+        <p class=" note">Note: Ask children to make predictions and find out through experiment.
+        </p>
+    </div>
+
+
+      {{-- sldie 58    --}}
+    <div class=" slide hidden flex flex-col items-center align-middle justify-center gap-5">
+        <img src="/assets/images/K1/sm/wedge/w31.png" />
+        <h2 class="title stroke ">The pointed side of the triangular block is a <span class="!text-white">wedge</span>
+and so cuts into play dough easily.</h2>
+       
+    </div>
+
+
+     {{-- sldie 59    --}}
+    <div class=" slide hidden flex flex-col items-center align-middle justify-center gap-5">
+        <img src="/assets/images/K1/sm/wedge/w31.png" />
+        <h2 class="title stroke ">The triangular block is flat and is not a <span class="!text-white">wedge.</span>
+It therefore does not cut into play dough easily.</h2>
+       
+    </div>
+
+
+            {{-- sldie 60     --}}
+    <div class="slide flex flex-col items-center justify-center gap-3 ">
+            <h2 class="title stroke !text-white">Class Activity 5</h2>
+            <br>
+              <div class="flex gap-1.5">
+                  <img src="/assets/images/K1/sm/wedge/w32.png" />
+                  <img src="/assets/images/K1/sm/wedge/w33.png" />
+                </div>
+        
+        <ul class="title stroke !text-start tracking-tighter">
+            <li>Let’s find out:</li>
+            <li>How do we move this cardboard easily in air?</li>
+        </ul>
+        <p class=" note">Note: Ask children to make predictions and find out through experiment. <br>
+Let children move the cardboard at different speeds to find out when the wedge is most effective.
+        </p>
+    </div>
+
+     {{-- sldie 61    --}}
+    <div class=" slide hidden flex flex-col items-center align-middle justify-center gap-5">
+        <img src="/assets/images/K1/sm/wedge/w34.png" />
+        <h2 class="title stroke ">When the cardboard is moved with its side edge facing forward,
+it acts as a <span class="!text-white">wedge.</span> and so cuts through air easily.</h2>
+       
+    </div>
+
+     {{-- sldie 62    --}}
+    <div class=" slide hidden flex flex-col items-center align-middle justify-center gap-5">
+        <img src="/assets/images/K1/sm/wedge/w35.png" />
+        <h2 class="title stroke ">The flat side of the cardboard is not a wedge.
+Therefore it does not cut through air easily.</h2>
+       
+    </div>
+
+
+      {{-- sldie 63   --}}
+    <div class=" slide hidden flex flex-col items-center align-middle justify-center gap-5">
+        <img src="/assets/images/K1/sm/wedge/w36.png" />
+        <h2 class="title stroke ">In fact, the <span class="!text-white">wedge.</span> is able to cut through air very easily
+when the object is moving fast.</h2>
+       
+    </div>
+
+       {{-- sldie 64  --}}
+    <div class=" slide hidden flex flex-col items-center align-middle justify-center gap-5">
+        <img src="/assets/images/K1/sm/wedge/w14.png" />
+        <h2 class="title stroke ">Therefore, the <span class="!text-white">wedge.</span> helps the fighter aircraft to cut
+through air and fly very fast easily.</h2>
+       
+    </div>
+
+
+     {{-- sldie 65--}}
+        <div class="slide  hidden flex flex-col  justify-center ">
+        <h2 class=" title stroke !text-white">Learning Journal</h2>
+        <div class="w-[836px] h-[536px] bg-cover bg-center flex flex-col p-[40px] "
+            style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
+            <h2 class=" !text-center">Name some things around you that are wedges. Draw them.
+            </h2>
+        </div>
+    </div>
 
 
 
@@ -447,7 +823,8 @@
             class="cursor-pointer nextButton w-66 h-[75px] relative bg-[#F8A23A]  rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
         outline outline-1 outline-yellow-700 overflow-hidden">
             <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
-            <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" /> </div>
+            <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" />
+            </div>
             <span class="absolute left-[80px] top-[18px] flex items-center  text-white text-5xl font-bold stroke">NEXT
             </span>
         </button>
@@ -462,54 +839,54 @@
 @push('script')
     <script>
         document.addEventListener("DOMContentLoaded", () => {
-        const slides = document.querySelectorAll(".slide");
-        const nextButtons = document.querySelectorAll(".nextButton");
-        const returnButton = document.getElementById("returnButton");
-        const doneButton = document.querySelector(".doneButton"); // ✅ DONE button
+            const slides = document.querySelectorAll(".slide");
+            const nextButtons = document.querySelectorAll(".nextButton");
+            const returnButton = document.getElementById("returnButton");
+            const doneButton = document.querySelector(".doneButton"); // ✅ DONE button
 
-        let currentSlide = 0;
+            let currentSlide = 0;
 
-        function showSlide(index) {
-            slides.forEach((slide, i) => {
-                slide.classList.toggle("hidden", i !== index);
+            function showSlide(index) {
+                slides.forEach((slide, i) => {
+                    slide.classList.toggle("hidden", i !== index);
+                });
+
+                // ✅ Agar last slide hai → NEXT button hide, DONE show
+                if (index === slides.length - 1) {
+                    nextButtons.forEach(btn => btn.classList.add("hidden"));
+                    if (doneButton) doneButton.classList.remove("hidden");
+                } else {
+                    nextButtons.forEach(btn => btn.classList.remove("hidden"));
+                    if (doneButton) doneButton.classList.add("hidden");
+                }
+            }
+
+            // ✅ NEXT buttons listener
+            nextButtons.forEach((btn) => {
+                btn.addEventListener("click", () => {
+                    if (currentSlide < slides.length - 1) {
+                        currentSlide++;
+                        showSlide(currentSlide);
+                    }
+                });
             });
 
-            // ✅ Agar last slide hai → NEXT button hide, DONE show
-            if (index === slides.length - 1) {
-                nextButtons.forEach(btn => btn.classList.add("hidden"));
-                if (doneButton) doneButton.classList.remove("hidden");
-            } else {
-                nextButtons.forEach(btn => btn.classList.remove("hidden"));
-                if (doneButton) doneButton.classList.add("hidden");
-            }
-        }
-
-        // ✅ NEXT buttons listener
-        nextButtons.forEach((btn) => {
-            btn.addEventListener("click", () => {
-                if (currentSlide < slides.length - 1) {
-                    currentSlide++;
+            // ✅ Return button
+            returnButton.addEventListener("click", () => {
+                if (currentSlide > 0) {
+                    currentSlide--;
                     showSlide(currentSlide);
                 }
             });
-        });
 
-        // ✅ Return button
-        returnButton.addEventListener("click", () => {
-            if (currentSlide > 0) {
-                currentSlide--;
-                showSlide(currentSlide);
+            if (doneButton) {
+                doneButton.addEventListener("click", () => {
+                    window.location.href = "{{ route('WedgeSelection') }}";
+                });
             }
-        });
-        
-             if (doneButton) {
-            doneButton.addEventListener("click", () => {
-                window.location.href = "{{ route('WedgeSelection') }}";
-            });
-        }
 
-        // ✅ Start with first slide
-        showSlide(currentSlide);
-    });
+            // ✅ Start with first slide
+            showSlide(currentSlide);
+        });
     </script>
 @endpush

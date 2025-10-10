@@ -18,18 +18,18 @@
 
 
 @section('content')
-
-
-
-
-    {{-- sldie 23  --}}
+    {{-- sldie 1  --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="  font-bold">Children will be able to:</h2>
+            <h2 class="  font-bold">Children will be able :</h2>
             <ul class="list-disc ">
-                <li>Explore items with lights</li>
-                <li>Develop awareness of natural and man-made light sources</li>
-                <li>Understand how lights are useful to us and where lights can be found</li>
+                <li>Explore and learn about the characteristics of a simple machine – wedge</li>
+                <li>Understand the uses of a wedge</li>
+                <li>Understand that the wedge shape of a triangular block helps it to go into moist sand, play dough, and
+                    water easily</li>
+                <li>Understand that the wedge shape of a triangular block helps it to cut through moist sand and move
+                    forward easily</li>
+                <li>Understand that the wedge is more effective to cut through air when an object is moving fast</li>
                 <li>Develop understanding through inquiry</li>
             </ul>
         </div>
@@ -37,73 +37,127 @@
         <div class="flex w-[100%] items-center justify-between">
             <div>
                 <h2 class="text-[33px] font-bold">Keywords:</h2>
-                <ul class="list-disc ">
-                    <li>Sun</li>
-                    <li>Bright / Brightly</li>
-                    <li>Light</li>
-                    <li>Stars</li>
-                    <li>Fire</li>
-                    <li>Natural</li>
-                    <li>Natural Lights</li>
-                    <li>Man-made Lights</li>
-                </ul>
+
+                <div class="flex gap-20">
+                    <ul class="list-disc ">
+                        <li>Simple Machine</li>
+                        <li>Wedge</li>
+                    </ul>
+                </div>
             </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" />
         </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute right-[250px] bottom-[150px]" />
     </div>
 
 
 
-    {{-- slide 24 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start w-[75%]">
+    {{-- slide 2 --}}
+    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Preparations for Class Activity I:</h2>
-            <ul class="list-disc ">
-                <li>iPad (make sure children handle with care)</li>
-                <li>Torch lights or any other battery-operated lights</li>
-                <li>Table lamp or night light (teacher can plug them into the socket and demonstrate how these light up, do
-                    not let children handle these)</li>
-            </ul>
-        </div>
-
-        <div class="flex w-[100%] items-center justify-between">
+            <h2 class="font-bold  !text-white">Preparations for Activity 1 and 2:</h2>
             <div>
-                <h2 class="font-bold">Links to Songs:</h2>
                 <ul class="list-disc ">
-                    <li>
-                        <strong>Mr Golden Sun</strong>
-                        <ul class="list-disc space-y-1 pl-6">
-                            <li>Sun: <a href="https://youtu.be/pIrC_OhEHJM" target="_blank"
-                                    class="text-blue-600 underline">Watch here</a></li>
-                            <li>Mr Golden Sun: <a href="https://youtu.be/hlzvrEfyL2Y" target="_blank"
-                                    class="text-blue-600 underline">Watch here</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <strong>Twinkle Twinkle Little Star</strong>
-                        <a href="https://www.youtube.com/watch?v=NiRf84t4i5I" target="_blank"
-                            class="text-blue-600 underline">Watch here</a>
-                    </li>
-                </ul>
+                    <li>1 large and shallow container filled with sand</li>
+                    <li>1 triangular block</li>
+
+                </ul> <br>
+                <img src="/assets/images/K1/sm/wedge/w1.png" />
+
+
             </div>
-
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" />
-
         </div>
+
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute right-[250px] bottom-[150px]" />
     </div>
 
-    {{-- slide 25 --}}
+    {{-- sldie 3 --}}
+    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+        <div>
+            <h2 class="font-bold  !text-white">Preparations for Activity 3:</h2>
+            <div>
+                <ul class="list-disc ">
+                    <li>1 large container filled with water</li>
+                    <li>1 triangular block</li>
+
+                </ul> <br>
+                <img src="/assets/images/K1/sm/wedge/w25.png" />
+
+
+            </div>
+        </div>
+
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute right-[250px] bottom-[150px]" />
+    </div>
+
+
+    {{-- sldie 4 --}}
+    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+        <div>
+            <h2 class="font-bold  !text-white">Preparations for Activity 4:</h2>
+            <div>
+                <ul class="list-disc ">
+                    <li>Play dough</li>
+                    <li>1 triangular block, rectangular block and circular block</li>
+
+                </ul> <br>
+                <img src="/assets/images/K1/sm/wedge/w29.png" />
+
+
+            </div>
+        </div>
+
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute right-[250px] bottom-[150px]" />
+    </div>
+
+
+
+    {{-- slide 5 --}}
+
+    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+        <div>
+            <h2 class="font-bold  !text-white">Preparations for Activity 5:</h2>
+            <div>
+                <ul class="list-disc ">
+                    <li>1 cardboard</li>
+
+                </ul> <br>
+                <img src="/assets/images/K1/sm/wedge/w32.png" />
+
+
+            </div>
+        </div>
+
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute right-[250px] bottom-[150px]" />
+    </div>
+
+
+
+
+
+    {{-- sldie 4 --}}
+    <div class=" slide hidden flex flex-col items-center align-middle justify-center gap-5">
+        <h2 class="title stroke ">Is it easier to move this block forward with its pointed side or its flat side?</h2>
+        <img src="/assets/images/K1/sm/wedge/w21.png" />
+        <p class=" note">Note: Plot children's prediction on the graph. At the end, put a star to mark the final result.
+        </p>
+    </div>
+    {{-- sldie 5 --}}
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
                 <h2 class="font-bold">Notes:</h2>
-                <ul class="list-disc leading-relaxed">
+                <ul class="list-disc ">
                     <li>
                         If you see
                         <span
                             class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
                             <!-- Decorative Vector -->
-                            <img src="assets/images/pptimages/Vector4.png"
+                            <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
                                 class="absolute top-[4px] left-[6px] h-6 w-[80%]" />
                             <div class="absolute top-[7px] left-[12px] h-2.5 w-3.5 rounded-sm bg-white"></div>
                             <img src="{{ asset('assets/images/pptimages/play.png') }}"
@@ -111,65 +165,25 @@
                         </span>
                         next to a picture, click on the picture to watch the video.
                     </li>
-                    <li>
-                        If you see
-                        <span
-                            class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-amber-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-                            <img src="assets/images/pptimages/Vector4.png"
-                                class="absolute top-[4px] left-[6px] h-6 w-[80%]" />
-                            <div class="absolute top-[7px] left-[12px] h-2.5 w-3.5 rounded-sm bg-white"></div>
-                            <img src="{{ asset('assets/images/pptimages/info.png') }}"
-                                class="absolute top-[16px] left-[16px] h-8 w-8" />
-                        </span>
-                        , click on it for additional information or activity.
+                    <li>Always ask questions to encourage children to think and share their
+                        ideas first before giving out any information.</li>
+                    <li>Emphasise and use the keywords during hands-on sessions.
                     </li>
-                    <li>Always ask questions to encourage children to think and share their ideas first before giving
-                        out
-                        any information.</li>
-                    <li>Emphasise and use the <strong>keywords</strong> during hands-on sessions.</li>
-                    <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
-                    </li>
-                    <li>
-                        Click on this <span class="font-bold">shortcut icon</span>
-                        <span
-                            class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-                            <img src="assets/images/pptimages/Vector4.png"
-                                class="absolute top-[4px] left-[6px] h-6 w-[80%]" />
-                            <div class="absolute top-[7px] left-[12px] h-2.5 w-3.5 rounded-sm bg-white"></div>
-                            <img src="{{ asset('assets/images/pptimages/home-icon.png') }}"
-                                class="absolute top-[16px] left-[16px] h-8 w-8" />
-                        </span>
-                        if you need to go to some parts of the lesson quickly.
-                    </li>
-                </ul>
-            </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" />
+                    <li>Print out the Learning Journal (if any) for every <br>
+                        child to complete at the end of the lesson.</li>
 
-        </div>
-
-    </div>
-
-
-    {{--  slide 26 --}}
-    <div class=" slide text-white flex flex-col justify-start text-start text-2xl">
-        <h1 class="stroke font-bold">Let’s sort!</h1>
-        <div>
-            <h2 class="font-bold">Preparations for Class Activity I:</h2>
-            <p>Place pictures of various items such as pot of plant, bottle, shoe, sock, box, elephant, lamp, light
-                bulb,
-                sun, stars, lightning, firefly, ceiling light, handphone, TV.</p>
-        </div>
-
-        <div class="flex w-[100%] items-center justify-between">
-            <div>
-                <h2 class="font-bold">What to do:</h2>
-                <ul>
-                    <li>
-                        <strong>*</strong> Invite children to pick up pictures and sort them into groups:
-                        <ul class="mt-2 list-[lower-alpha] space-y-1 pl-6">
-                            <li>Gives light or Does not give light</li>
-                            <li>Natural light or Man-made light</li>
-                        </ul>
+                    <li>Click on this shortcut icon if you need to go to some <br>
+                        parts of the lesson quickly.</li>
+                    Click on this <span class="font-bold">shortcut icon</span>
+                    <span
+                        class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
+                        <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
+                            class="absolute top-[4px] left-[6px] h-6 w-[80%]" />
+                        <div class="absolute top-[7px] left-[12px] h-2.5 w-3.5 rounded-sm bg-white"></div>
+                        <img src="{{ asset('assets/images/pptimages/home-icon.png') }}"
+                            class="absolute top-[16px] left-[16px] h-8 w-8" />
+                    </span>
+                    if you need to go to some parts of the lesson quickly.
                     </li>
                 </ul>
             </div>
@@ -178,8 +192,55 @@
         </div>
     </div>
 
+
+
+    {{-- sldie 6 --}}
+    <div class=" slide flex text-2xl text-white flex-col justify-center gap-[3rem] text-start">
+
+
+        <h2 class="font-bold  title stroke flex justify-center mb-2">Learning Centre Idea</h2>
+
+        <ul class=!text-white>
+            <h2 class="  font-bold  title !text-white  !text-start">Fun with Wedges</h2>
+
+            <li class=" !text-white">What and how to set up:</li>
+            <li class=" !text-white">Place things as listed in preparations and some other things such as</li>
+            <li class=" !text-white">plastic knives, safety scissors and blocks with different shapes.</li>
+
+        </ul>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute right-[250px] bottom-[150px]" />
+    </div>
+
+
+
+    {{-- slide 7 --}}
+    <div class=" slide flex text-2xl text-white flex-col justify-start gap-[5rem] text-start">
+        <h2 class="font-bold  title stroke !text-center">Learning Centre Idea</h2>
+        <ul  class="!text-start">
+            <h2 class="  font-bold  title !text-white  !text-start">Fun with Wedges</h2>
+            <li class="  font-bold   !text-white  !text-start">What to do:</li>
+            <li class=" !text-white">1. Test out which block can be easily pushed into sand, water and <br> play dough</li>
+            <li class=" !text-white">2. Test out which block can easily move through sand and water.</li>
+            <li class=" !text-white">3. Test out how you can move a cardboard easily in air.</li>
+            <li class=" !text-white">4. Have fun cutting play dough with plastic knives and safety <br>scissors</li>
+        </ul>
+
+    <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+        class="absolute right-[250px] bottom-[150px]" />
+    </div>
+
+
+
+
+
+
+
+    {{-- ========================================================== --}}
+    {{-- Buttons --}}
     <div class="absolute bottom-0">
-        <button class="cursor-pointer doneButton w-66 h-[75px] relative bg-[#F8A23A] rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
+        <button
+            class="cursor-pointer doneButton w-66 h-[75px] relative bg-[#F8A23A] rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
                     outline outline-1 outline-yellow-700 overflow-hidden">
             <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
             <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" />
@@ -189,18 +250,13 @@
         </button>
     </div>
 
-
-
-
-
-
-    {{-- Buttons --}}
     <div id="buttons" class="absolute top-0 right-[60px] flex flex-row gap-6 z-90">
 
         <!-- Return Button -->
         <a class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
             id="returnButton">
-            <img class="absolute top-[6px] left-[8px] w-20 h-10" src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
+            <img class="absolute top-[6px] left-[8px] w-20 h-10"
+                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
             <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
             <img class="absolute top-[24px] left-[22px] w-14 h-14"
                 src="{{ asset('assets/images/pptimages/reverse-icon.png') }}" />
@@ -239,7 +295,8 @@
             class="cursor-pointer nextButton w-66 h-[75px] relative bg-[#F8A23A]  rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
         outline outline-1 outline-yellow-700 overflow-hidden">
             <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
-            <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" /> </div>
+            <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" />
+            </div>
             <span class="absolute left-[80px] top-[18px] flex items-center  text-white text-5xl font-bold stroke">NEXT
             </span>
         </button>

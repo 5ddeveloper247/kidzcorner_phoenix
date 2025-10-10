@@ -21,385 +21,288 @@
 
 
     {{-- Slide 1 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <div class="flex flex-col items-center justify-center">
-            <h2 class="title stroke">What do you see in this picture?</h2>
-            <img src="/assets/images/pptimages/light1.png" class="max-w-[500px] sm:max-w-[600px] lg:max-w-[536px]" />
-        </div>
-        <!-- Note -->
-        <div class="note">Note: Guide children to share their answers.</div>
-
+    <div class="slide flex flex-col items-center justify-center gap-[12rem]">
+        <h2 class="title stroke">Children, today we are going to build another <br>
+            Rube Goldberg Machine!</h2>
+        <p class="note ">Note: Have children recall and say what a Rube Goldberg Machine is,
+            why is it called so and why people created different Rube Goldberg Machines.</p>
     </div>
 
 
 
     {{-- Slide 2 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 hidden ">
-        <div class="flex flex-col items-center justify-center gap-1">
-            <!-- Question -->
-            <h2 class="title stroke">
-                <span class="text-amber-300">Can you see the </span>
-                <span class="text-white">SUN</span>
-                <span class="text-amber-300">?</span>
-            </h2>
-
-            <img src="/assets/images/pptimages/light2.png"
-                class=" w-[536px] outline outline-[6px] outline-offset-[-3px] outline-orange-400" />
-        </div>
-
-        <div class="note">Note: Point out the sun to the children.</div>
-
+    <div class="slide flex flex-col items-center justify-center gap-5">
+        <img src="/assets/images/K1/sm/punching/pn1.png" />
+        <h2 class="title stroke">Let’s watch a video!</h2>
+        <p class="note ">Note: Turn to next page to watch the video in slow motion.</p>
     </div>
+
 
     {{-- Slide3 --}}
-
-    <div class="slide hidden flex flex-col items-center justify-center gap-1">
-        <!-- Question -->
-        <h2 class="title stroke">
-            The <span class="text-5xl text-white">sun</span>is so <span class="text-5xl text-white">Bright !</span> </br>It
-            gives <span class="text-5xl text-white">light</span> during the day! </h2>
-        <img class=" w-[500px] outline outline-[6px] outline-offset-[-3px] outline-orange-400"
-            src="/assets/images/pptimages/light1.png" alt="Light Example" />
-
+    <div class="slide flex flex-col items-center justify-center gap-5">
+        <img src="/assets/images/K1/sm/punching/pn2.png" />
+        <h2 class="title stroke">Now, let’s watch the video in slow motion!</h2>
+        <p class="note ">Note: Have children freely talk about what they see. Do not correct them on the terms used.</p>
     </div>
+
+
 
     {{-- Slide 4 --}}
-    <div class=" slide hidden flex flex-col items-center justify-center gap-2">
-
-        <h2 class="text-2xl sm:text-3xl lg:text-5xl text-white max-w-4xl leading-snug stroke">
-            The <span class="text-amber-300">sun</span> is so <span class="text-amber-300">bright!</span></br>
-            It gives <span class="text-amber-300">light</span> during the day!
-        </h2>
-
-        <img class="w-[300px] sm:w-[500px] lg:w-[436px] h-auto  outline-offset-[-3px]  mb-8"
-            src="/assets/images/pptimages/sun.png" />
-
+    <div class="slide flex flex-col items-center justify-center gap-5">
+        <img src="/assets/images/K1/sm/punching/pn3.png" />
+        <h2 class="title stroke">This is the full view of the machine.</h2>
     </div>
+
+
 
     {{-- Slide 5  --}}
-    <div class="slide hidden flex flex-col items-center justify-center px-4 text-center">
-
-        <div class="flex flex-col items-center justify-center">
-            <h2 class="title stroke">What do you see in this video?</h2>
-
-            <img class="mb-6 h-auto w-[300px] sm:w-[500px] lg:w-[536px]" src="/assets/images/pptimages/galaxy.png" />
-        </div>
-
-        <div class="note text-ellipsis">Note: Encourage children to share. Teacher to lead to sing along the song twinkle
-            twinkle stars.</div>
-
-        <!-- Video Trigger Button -->
-        <div data-property-1="Default"
-            class="absolute top-1/2 right-0 z-30 h-24 w-24 -translate-y-1/2 cursor-pointer h-24 w-24 rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-[80%] " />
-            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
-        </div>
+    <div class="slide flex flex-col items-center justify-center gap-5">
+        <img src="/assets/images/K1/sm/punching/pn4.png" />
+        <h2 class="title stroke">What are the things used in this machine?</h2>
     </div>
+
+
 
 
     {{-- slide 6 --}}
-    <div class=" slide hidden flex flex-col items-center justify-center gap-1">
-        <h2 class="title stroke">These are
-            <span class="text-white">stars</span> ! The stars give out
-            <span class="text-white">light</span>
-            and they shine
-            <span class="text-white">brightly </span>
-            at night!
-        </h2>
-
-        <img class="mb-10 h-auto w-[300px] outline outline-[6px] outline-offset-[-3px] outline-orange-400 sm:w-[500px] lg:w-[536px]"
-            src="/assets/images/pptimages/galaxy.png" />
-
-
-
-        <!-- Video Trigger Button -->
-        <div data-property-1="Default"
-            class="absolute top-1/2 right-0 z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
-            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
-        </div>
+    <div class="slide flex flex-col items-center justify-center gap-5">
+        <img src="/assets/images/K1/sm/punching/pn4.png" />
+        <h2 class="title stroke">What are the things used in this machine?</h2>
     </div>
 
 
-    {{-- Slide 7 --}}
-    <div class="slide hidden flex flex-col items-center justify-center px-4 text-center">
-        <div class="flex flex-col items-center justify-center gap-1.5">
-            <h2 class="text-4xl text-amber-300 sm:text-5xl lg:text-6xl" style="-webkit-text-stroke: 3px #533705;">Let us
-                Sing!</h2>
 
-            <!-- Center Illustration -->
-            <img class="h-auto w-[400px] sm:w-[600px] lg:w-[534px]" src="/assets/images/pptimages/star.png" />
-        </div>
+    {{-- sldie 7 --}}
+    <div class="slide flex flex-col items-center justify-center gap-5">
+        <img src="/assets/images/K1/sm/punching/pn1.png" />
+        <h2 class="title stroke">What is the use of the machine?</h2>
+        <p class="note">Note: Have children watch and talk about what happens in the last part of the video <br>
+            (What does the machine do?).</p>
+    </div>
 
-        <div class="text-[55px] text-white" style="-webkit-text-stroke: 3px #533705;">Twinkle Twinkle Little Star</div>
-
-        <div class="note leading-snug text-wrap">Note: Teacher to lead the song and encourage children to sing together.
-        </div>
+    {{-- sldie 8 --}}
+    <div class="slide flex flex-col items-center justify-center gap-5">
+        <img src="/assets/images/K1/sm/punching/pn1.png" />
+        <h2 class="title stroke">Yes, this is a Rube Goldberg Machine to punch holes in <br>
+            a paper, just for fun!</h2>
 
     </div>
 
 
 
-    {{-- slide 8 --}}
-    <div class="slide hidden  flex flex-col items-center justify-center gap-1.5">
-        <div class="text-4xl text-amber-300 sm:text-5xl lg:text-6xl" style="-webkit-text-stroke: 3px #533705;">Do you know
-            what this is?</div>
+    {{-- sldie 9 --}}
+    <div class="slide flex flex-col items-center justify-start gap-5 ">
+        <h2 class="title stroke !text-white">Class Activity</h2>
 
-        <!-- Center Illustration -->
-        <img class="h-auto w-[400px] sm:w-[600px] lg:w-[534px]" src="/assets/images/pptimages/candle.png" />
+        <ul class="title stroke !text-start">
+            <li>Mission:</li>
+            <li>Build a Rube Goldberg Machine to punch holes in <br> a sheet of paper.</li>
 
-
-        <div class="note leading-snug text-wrap">Note: Encourage children to share their answers.</div>
+            <br><br>
+            <li>Steps:</li>
+            <li>1. Put things together to set up the machine.</li>
+            <li>2. Test the machine.</li>
+        </ul>
     </div>
 
 
-    {{-- slide 9 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-1.5">
-        <div class="text-4xl text-amber-300 sm:text-5xl lg:text-6xl" style="-webkit-text-stroke: 3px #533705;">The <span
-                class="text-white">fire</span> in the candle gives <span class="text-white">light</span> too!</div>
-        <img class="h-auto w-[400px] sm:w-[600px] lg:w-[534px]" src="/assets/images/pptimages/candle.png" />
+    {{-- sldie 10 --}}
+    <div class="slide flex flex-col items-center justify-start gap-[10rem]">
 
 
-        <!-- Song Note -->
-        <div class="note leading-snug text-wrap">Note: Ask children if they have seen candles on birthday cakes and what
-            </br>
-            happen when the candles are blown out.</div>
+        <ul class="title stroke !text-start list-decimal">
+            <h2 class="title stroke">Possible questions during hands-on session:</h2>
+            <li>What do we turn?</li>
+            <li>What happens when we turn the bolt? What does this nut do?</li>
+            <li>Why does the ball roll down?</li>
+            <li>What should you do to make the last book always fall on the hole punch?</li>
+        </ul>
 
-
+        <p class="note">
+            Note: Have children freely share their ideas and encourage them to try out the ideas.
+            After hands-on session, continue with reflection on the following pages.</p>
     </div>
 
 
-    {{-- slide 10 --}}
-    <div class="slide hidden flex flex-col items-center ">
-        <div class="flex flex-col items-center justify-center gap-5">
-            <h2 class="text-center justify-start title stroke">The <span class="text-white ">sun</span>,
-                <span class="text-white ">stars</span> and <span class="text-white ">fire</span> are natural sources of
-                <span class="text-white ">light</span>.<span class="text-white ">Light</span> help us to see things
-                around us.
-            </h2>
 
-            <img src="/assets/images/pptimages/three1.png" class="h-fit" />
+    {{-- sldie 11 --}}
+   <div class="slide flex flex-col items-center justify-start gap-5 ">
+        <h2 class="title stroke !text-white">Reflection </h2>
+        
+                <img src="/assets/images/K1/sm/punching/pn5.png" />
 
-        </div>
-
-        <div class="note leading-snug text-wrap">Note: Ask children if they have seen candles on birthday cakes and
-            what </br> happen when the candles are blown out.</div>
-
+        
+        <h2 class="title stroke">What happens first?</h2>
     </div>
 
 
-    {{-- slide 11 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-5">
-        <h2 class="text-center justify-start text-[50px] text-amber-300 stroke">Switch
-            off the <span class="text white">light</span>in the room and draw the curtains. How do you feel? Do you see
-            clearly?
-        </h2>
-        <img class="h-auto w-[400px] sm:w-[600px] lg:w-[534px]" src="/assets/images/pptimages/blacklight.png" />
 
-        <div class="note leading-snug text-wrap">Note: Encourage children to share their answers.</div>
+    {{-- sldie 12 --}}
+    <div class="slide flex flex-col items-center justify-start gap-5 ">
+       
+        
+                <img src="/assets/images/K1/sm/punching/pn5.png" />
 
-
-    </div>
-
-    {{-- slide 12 --}}
-    <div class="slide hidden  flex flex-col items-center justify-center gap-5">
-        <h2 class="text-center justify-start title stroke">Without any <span class="text white">light</span>, the room
-            would be dark and it would be hard to see things around us. </h2>
-
-        <img class="h-auto w-[400px] sm:w-[600px] lg:w-[534px]" src="/assets/images/pptimages/blacklight.png" />
-
+        
+        <h2 class="title stroke">We turn the bolt, which moves forward and pushes the ball.</h2>
     </div>
 
 
-    {{-- slide 13 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <h2 class="text-center justify-start text-[45px] text-white stroke">CLASS ACTIVITY 1 </h2>
-        <div class="flex gap-10 flex-wrap justify-center w-[90%] h-[70%]">
+    {{-- sldie 13 --}}
+     <div class="slide flex flex-col items-center justify-start gap-5 ">
+       
+        
+                <img src="/assets/images/K1/sm/punching/pn6.png" />
 
-            <img class="w-60 h-44" src="/assets/images/pptimages/football.png" />
-            <img class="w-60 h-44" src="/assets/images/pptimages/pencil.png" />
-            <img class="w-60 h-44" src="/assets/images/pptimages/books.png" />
-            <img class="w-60 h-44" src="/assets/images/pptimages/torch.png" />
-            <img class="w-60 h-44" src="/assets/images/pptimages/tdBear.png" />
-
-        </div>
-
-        <h2 class="text-center justify-start text-[40px] text-amber-300 stroke">Look at these items, which items have
-            light? </h2>
-
-        <div class="note leading-snug text-wrap">Note: Teacher to prepare more additional items too like light stick,
-            anything that creates light.</div>
-
+        
+        <h2 class="title stroke">This is a <span class="!text-white">nut and bolt</span>. <br>    
+It has a spiral groove on it called thread.</h2>
     </div>
 
 
-    {{-- slide 14 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <h2 class="text-center justify-start text-[55px] text-white stroke">Let’s do:</h2>
-        <div class=" justify-start title font-normal mb-20">
-            <ol class="list-decimal list-inside space-y-2 text-start stroke">
-                <li>
-                    Explore the items provided. Which item lights up?
 
-                </li>
-                <li>
-                    Are there any other things that light up in the class?
-                </li>
-                <li>
-                    Point them out to your friends.
-                </li>
-            </ol>
+    {{-- sldie 14 --}}
+      <div class="slide flex flex-col items-center justify-start gap-5 ">
+       
+        
+                <img src="/assets/images/K1/sm/punching/pn7.png" />
 
-        </div>
-
-        <p class="note leading-snug text-wrap w-[80%]">
-            Note: Ensure children’s safety while doing this activity. Make sure the room is not
-            too dark and do not let the children shine light directly into their eyes. You may let children
-            find items that light up in the class if there’s any.
-        </p>
-
+        
+        <h2 class="title stroke">A nut and bold is an example of a   <span class="!text-white">simple machine</span>
+called <span class="!text-white">screw</span>.</h2>
     </div>
 
 
-    {{-- slide 15 --}}
-    <div class="slide hidden  flex flex-col items-center justify-center gap-y-3">
-        <h2 class="text-center justify-start text-[45px] text-white">CLASS
-            ACTIVITY 2</h2>
+    {{-- sldie 15 --}}
+    <div class="slide flex flex-col items-center justify-start gap-5 ">
+       
+        
+                <img src="/assets/images/K1/sm/punching/pn8.png" />
 
-        <img class="h-auto w-[400px] sm:w-[600px] lg:w-[534px]" src="/assets/images/pptimages/torch.png" />
-
-        <h2 class="text-center justify-start title stroke">The flashlight light up when it is switched on.</h2>
-
-
-    </div>
-
-    {{-- slide 16 --}}
-    <div class="slide  hidden flex flex-col items-center justify-center gap-y-3">
-        <div class="flex items-center gap-x-10">
-
-            <img class="w-[494px] h-80 border-[6px] border-orange-400" src="/assets/images/pptimages/roof-light.png" />
-            <img class="w-[494px] h-80 border-[6px] border-orange-400" src="/assets/images/pptimages/lamp.png" />
-        </div>
-
-        <h2 class="text-center justify-start title stroke">The <span class="text-white ">ceiling light</span> and<span
-                class="text-white ">table lamp</span> light up when they are being switched on.</h2>
-
-        <div class="note leading-snug text-wrap">Note: Encourage children to point out the lights in the room.</div>
-
-
-
+        
+        <h2 class="title stroke">These are different <span class="!text-white">screw</span>.</h2>
     </div>
 
 
-    {{-- slide 17 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-3">
-        <div class="flex items-center gap-x-10">
+    {{-- sldie 16 --}}
+     <div class="slide flex flex-col items-center justify-start gap-5 ">
+       
+        
+                <img src="/assets/images/K1/sm/punching/pn9.png" />
 
-            <img class="w-[494px] h-80 border-[6px] border-orange-400" src="/assets/images/pptimages/street.png" />
-            <img class="w-[494px] h-80 border-[6px] border-orange-400" src="/assets/images/pptimages/car.png" />
-        </div>
-
-        <h2 class="text-center justify-start stroke title">The <span class="text-white ">streetlights</span> and <span
-                class="text-white "> vehicle headlights</span> help
-            people to see better at night.
-        </h2>
-
-        <p class="note leading-snug text-wrap">Note: Encourage children to point out the lights they can see at night.</p>
-
+        
+        <h2 class="title stroke">Why does the ball roll down?.</h2>
     </div>
 
 
-    {{-- slide 18 --}}
+    {{-- sldie 17 --}}
+   <div class="slide flex flex-col items-center justify-start gap-5 ">
+       
+        
+                <img src="/assets/images/K1/sm/punching/pn9.png" />
 
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-3">
-
-        <img src="/assets/images/pptimages/strlight.png" />
-
-
-        <h2 class="text-center justify-start title stroke">The flashlight, streetlights, table lamps are <span
-                class="text-white"> man-made lights</span>. </h2>
-
-        <h2 class=" text-wrap text-[40px] text-amber-300 stroke">These items need batteries or electricity to give light.
-        </h2>
+        
+        <h2 class="title stroke">When the ball gets pushed by the bolt, it rolls down a
+slope. A slope is an inclined plane.</h2>
     </div>
 
 
-    {{-- slide 19 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-3">
-        <h2 class="text-center justify-start text-[53px] text-white stroke">CLASS ACTIVITY 2</h2>
+    {{-- sldie 18 --}}
+  <div class="slide flex flex-col items-center justify-start gap-5 ">
+       
+        
+                <img src="/assets/images/K1/sm/punching/pn10.png" />
 
-        <div class="flex gap-10 flex-wrap justify-center w-[80%] h-[70%]">
-
-            <img class="w-[31rem] h-auto" src="/assets/images/pptimages/dedective.png" />
-
-        </div>
-
-        <h2 class="text-center justify-start title stroke"> What kind of lights are there around us?</h2>
-
-        <p class="note leading-snug text-wrap">Note: Teacher to prepare camera to capture children looking for different
-            light sources.</p>
-
-
+        
+        <h2 class="title stroke">How do you make the books always fall one after another?</h2>
     </div>
 
 
-    {{-- slide 20  --}}
-    <div class="slide hidden flex flex-col items-center justify-start ">
-        <h2 class="justify-start text-center text-[55px] text-white stroke">Let’s do:</h2>
 
-        <div class="justify-start title px-5 mb-20">
-            <ol class="stroke list-inside list-decimal space-y-2 text-start">
-                <li>Take a walk around the school or outdoors.</li>
-                <li>Identify all the light sources.</li>
-                <li>Take photos and discuss as a class why is light needed on that place.</li>
-            </ol>
-        </div>
+    {{-- sldie 19 --}}
+  <div class="slide flex flex-col items-center justify-start gap-5 ">
+       
+        
+                <img src="/assets/images/K1/sm/punching/pn11.png" />
 
-        <p class="note">Note: Look out for light sources and take photos using the ipad for
-            the discussion in class. Challenge children to think of reasons why a light source is placed in that area. E.g.
-            park, to light up the path at night.</p>
+        
+        <h2 class="title stroke">Position the books such that they always <br>
+fall one after another and create a <span class="!text-white">domino effect</span>.</h2>  
     </div>
 
 
-    {{-- slide 21  --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-5">
+    {{-- sldie 20 --}}
+     <div class="slide flex flex-col items-center justify-start gap-5 ">
+       
+        
+                <img src="/assets/images/K1/sm/punching/pn3.png" />
 
-        <h2 class="text-center title stroke">The <span class="text-white">sun</span>,<span
-                class="text-white">stars</span> and <span class="text-white">fire</span> are natural light
-        </h2>
+        
+        <h2 class="title stroke">How do you (always) get holes punched in the paper?</h2>  
+    </div>
 
 
-        <img src="/assets/images/pptimages/three1.png" />
 
-        <p class="note text-center text-xl text-white leading-snug max-w-2xl">Note: Ask children if they have seen candles
-            on birthday cakes
-            and what happens when the candles are blown out.</p>
+    {{-- sldie 21 --}}
+     <div class="slide flex flex-col items-center justify-start gap-5 ">
+       
+        
+                <img src="/assets/images/K1/sm/punching/pn10.png" />
+
+        
+        <h2 class="title stroke">Arrange the books from small to big.</h2>  
     </div>
 
 
     {{-- sldie 22 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-3">
-        <img src="/assets/images/pptimages/strlight.png" />
+  <div class="slide flex flex-col items-center justify-start gap-5 ">
+       
+        
+                <img src="/assets/images/K1/sm/punching/pn12.png" />
 
-        <h2 class="w-[80%] justify-start text-center title stroke ">The flashlight, streetlights, table lamps are <span
-                class="text-white"> man-made lights</span>.</h2>
+        
+        <h2 class="title stroke">Place the hole punch with the paper near the last book so that
+the book fall on the hole punch and presses onto it.</h2>  
+    </div>
 
-            </div>
-            <div class="absolute bottom-[85px]">
-                <button class="cursor-pointer doneButton w-66 h-[75px] relative bg-[#F8A23A] rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
+
+
+    {{-- sldie 23 --}}
+   
+   <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
+        <h2 class=" title stroke !text-white">Learning Journal</h2>
+        <div class="w-[950px] h-[550px] bg-cover bg-center flex flex-col p-[40px] justify-around"
+            style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
+            <p class=" ">Draw the Rube Goldberg Machine that you have created to punch holes <br> in
+a sheet of paper.
+            </p> 
+
+
+
+         
+        </div>
+    </div>
+   
+    
+
+
+   
+
+
+
+
+    {{-- Complete button --}}
+    <div class="absolute bottom-[85px]">
+        <button
+            class="cursor-pointer doneButton w-66 h-[75px] relative bg-[#F8A23A] rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
                     outline outline-1 outline-yellow-700 overflow-hidden">
-                    <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
-                    <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" />
-                    </div>
-                    <span class="absolute left-[80px] top-[18px] flex items-center  text-white text-5xl font-bold stroke">DONE</span>
-                </button>
+            <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
+            <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" />
             </div>
-
-
-
-
+            <span
+                class="absolute left-[80px] top-[18px] flex items-center  text-white text-5xl font-bold stroke">DONE</span>
+        </button>
+    </div>
 
     {{-- Buttons --}}
     <div id="buttons" class="absolute top-[24px] right-[60px] flex flex-row gap-6 z-40">
@@ -407,8 +310,7 @@
         <!-- Return Button -->
         <a class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
             id="returnButton">
-            <img class="absolute top-[6px] left-[8px] w-20 h-10"
-                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
+            <img class="absolute top-[6px] left-[8px] w-20 h-10" src="{{ asset('assets/images/K1/cm/Vector4.png') }}" />
             <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
             <img class="absolute top-[24px] left-[22px] w-14 h-14"
                 src="{{ asset('assets/images/pptimages/reverse-icon.png') }}" />
@@ -437,9 +339,7 @@
                 class="absolute top-[16px] left-[30px] w-11 h-16 text-white text-6xl font-normal font-['Jua']">X
             </div>
         </button>
-
     </div>
-
     {{-- next Button --}}
     <div class="absolute bottom-[85px]">
 
@@ -454,62 +354,60 @@
     </div>
 
 
-
-
 @endsection
 
 
 @push('script')
     <script>
         document.addEventListener("DOMContentLoaded", () => {
-        const slides = document.querySelectorAll(".slide");
-        const nextButtons = document.querySelectorAll(".nextButton");
-        const returnButton = document.getElementById("returnButton");
-        const doneButton = document.querySelector(".doneButton"); // ✅ DONE button
+            const slides = document.querySelectorAll(".slide");
+            const nextButtons = document.querySelectorAll(".nextButton");
+            const returnButton = document.getElementById("returnButton");
+            const doneButton = document.querySelector(".doneButton"); // ✅ DONE button
 
-        let currentSlide = 0;
+            let currentSlide = 0;
 
-        function showSlide(index) {
-            slides.forEach((slide, i) => {
-                slide.classList.toggle("hidden", i !== index);
+            function showSlide(index) {
+                slides.forEach((slide, i) => {
+                    slide.classList.toggle("hidden", i !== index);
+                });
+
+                // ✅ Agar last slide hai → NEXT button hide, DONE show
+                if (index === slides.length - 1) {
+                    nextButtons.forEach(btn => btn.classList.add("hidden"));
+                    if (doneButton) doneButton.classList.remove("hidden");
+                } else {
+                    nextButtons.forEach(btn => btn.classList.remove("hidden"));
+                    if (doneButton) doneButton.classList.add("hidden");
+                }
+            }
+
+            // ✅ NEXT buttons listener
+            nextButtons.forEach((btn) => {
+                btn.addEventListener("click", () => {
+                    if (currentSlide < slides.length - 1) {
+                        currentSlide++;
+                        showSlide(currentSlide);
+                    }
+                });
             });
 
-            // ✅ Agar last slide hai → NEXT button hide, DONE show
-            if (index === slides.length - 1) {
-                nextButtons.forEach(btn => btn.classList.add("hidden"));
-                if (doneButton) doneButton.classList.remove("hidden");
-            } else {
-                nextButtons.forEach(btn => btn.classList.remove("hidden"));
-                if (doneButton) doneButton.classList.add("hidden");
-            }
-        }
-
-        // ✅ NEXT buttons listener
-        nextButtons.forEach((btn) => {
-            btn.addEventListener("click", () => {
-                if (currentSlide < slides.length - 1) {
-                    currentSlide++;
+            // ✅ Return button
+            returnButton.addEventListener("click", () => {
+                if (currentSlide > 0) {
+                    currentSlide--;
                     showSlide(currentSlide);
                 }
             });
-        });
 
-        // ✅ Return button
-        returnButton.addEventListener("click", () => {
-            if (currentSlide > 0) {
-                currentSlide--;
-                showSlide(currentSlide);
+            if (doneButton) {
+                doneButton.addEventListener("click", () => {
+                    window.location.href = "{{ route('PunchingSelection') }}";
+                });
             }
-        });
-        
-             if (doneButton) {
-            doneButton.addEventListener("click", () => {
-                window.location.href = "{{ route('PunchingSelection') }}";
-            });
-        }
 
-        // ✅ Start with first slide
-        showSlide(currentSlide);
-    });
+            // ✅ Start with first slide
+            showSlide(currentSlide);
+        });
     </script>
 @endpush
