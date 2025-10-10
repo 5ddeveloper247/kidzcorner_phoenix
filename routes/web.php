@@ -416,7 +416,10 @@ Route::get('/basicStructure/Creations/teacher', function () {
 
 
 
-
+// N1
+Route::get('/N2',function(){
+    return view('iSTEAM.N2.index');
+});
 // ========================
 // N2 SimpleMachines
 Route::get('/SimpleMachines', function () {
@@ -595,7 +598,7 @@ Route::get('/SimpleMachines/Seasaw/teacher', function () {
 
 
 
-// ========================
+// ==============================================
 // N2 LivingThings
 Route::get('/LivingThings', function () {
     return view('iSTEAM.N2.LivingThings.index');
@@ -643,6 +646,7 @@ Route::get('/LivingThings/Growth/teacher', function () {
 })->name('GrowthTeacher');
 
 
+
 // N2 -> LivingThings -> StageOfGrowth
 Route::get('/LivingThings/StageOfGrowth', function () {
     return view('iSTEAM.N2.LivingThings.StageOfGrowth.index');
@@ -662,3 +666,1135 @@ Route::get('/LivingThings/StageOfGrowth/lesson', function () {
 Route::get('/LivingThings/StageOfGrowth/teacher', function () {
     return view('iSTEAM.N2.LivingThings.StageOfGrowth.teacher');
 })->name('StageOfGrowthTeacher');
+
+
+// N2 -> LivingThings -> PlantsGrowth
+Route::get('/LivingThings/PlantsGrowth', function () {
+    return view('iSTEAM.N2.LivingThings.PlantsGrowth.index');
+})->name('PlantsGrowth');
+
+// N2 -> LivingThings -> PlantsGrowth -> select
+Route::get('/PlantsGrowthChoice', function () {
+    return view('iSTEAM.N2.LivingThings.PlantsGrowth.selection');
+})->name('PlantsGrowthSelection');
+
+// N2 -> LivingThings -> PlantsGrowth -> lesson
+Route::get('/LivingThings/PlantsGrowth/lesson', function () {
+    return view('iSTEAM.N2.LivingThings.PlantsGrowth.lesson');
+})->name('PlantsGrowthLesson');
+
+// N2 -> LivingThings -> PlantsGrowth -> teacher
+Route::get('/LivingThings/PlantsGrowth/teacher', function () {
+    return view('iSTEAM.N2.LivingThings.PlantsGrowth.teacher');
+})->name('PlantsGrowthTeacher');
+
+
+// N2 -> LivingThings -> PartsOfPlants
+Route::get('/LivingThings/PartsOfPlants', function () {
+    return view('iSTEAM.N2.LivingThings.PartsOfPlants.index');
+})->name('PartsOfPlants');
+
+// N2 -> LivingThings -> PartsOfPlants -> select
+Route::get('/PartsOfPlantsChoice', function () {
+    return view('iSTEAM.N2.LivingThings.PartsOfPlants.selection');
+})->name('PartsOfPlantsSelection');
+
+// N2 -> LivingThings -> PartsOfPlants -> lesson
+Route::get('/LivingThings/PartsOfPlants/lesson', function () {
+    return view('iSTEAM.N2.LivingThings.PartsOfPlants.lesson');
+})->name('PartsOfPlantsLesson');
+
+// N2 -> LivingThings -> PartsOfPlants -> teacher
+Route::get('/LivingThings/PartsOfPlants/teacher', function () {
+    return view('iSTEAM.N2.LivingThings.PartsOfPlants.teacher');
+})->name('PartsOfPlantsTeacher');
+
+
+// N2 -> LivingThings -> Plants
+Route::get('/LivingThings/Plants', function () {
+    return view('iSTEAM.N2.LivingThings.Plants.index');
+})->name('Plants');
+
+// N2 -> LivingThings -> Plants -> select
+Route::get('/PlantsChoice', function () {
+    return view('iSTEAM.N2.LivingThings.Plants.selection');
+})->name('PlantsSelection');
+
+// N2 -> LivingThings -> Plants -> lesson
+Route::get('/LivingThings/Plants/lesson', function () {
+    return view('iSTEAM.N2.LivingThings.Plants.lesson');
+})->name('PlantsLesson');
+
+// N2 -> LivingThings -> Plants -> teacher
+Route::get('/LivingThings/Plants/teacher', function () {
+    return view('iSTEAM.N2.LivingThings.Plants.teacher');
+})->name('PlantsTeacher');
+
+
+
+
+// N2 -> LivingThings -> Drinking
+Route::get('/LivingThings/Drinking', function () {
+    return view('iSTEAM.N2.LivingThings.Drinking.index');
+})->name('Drinking');
+
+// N2 -> LivingThings -> Drinking -> select
+Route::get('/DrinkingChoice', function () {
+    return view('iSTEAM.N2.LivingThings.Drinking.selection');
+})->name('DrinkingSelection');
+
+// N2 -> LivingThings -> Drinking -> lesson
+Route::get('/LivingThings/Drinking/lesson', function () {
+    return view('iSTEAM.N2.LivingThings.Drinking.lesson');
+})->name('DrinkingLesson');
+
+// N2 -> LivingThings -> Drinking -> teacher
+Route::get('/LivingThings/Drinking/teacher', function () {
+    return view('iSTEAM.N2.LivingThings.Drinking.teacher');
+})->name('DrinkingTeacher');
+
+
+
+// ========================================================
+Route::get('/Structures', function () {
+    return view('iSTEAM.N2.Structures.index');
+})->name('Structures');
+
+Route::get('/BasicCoding', function () {
+    return view('iSTEAM.N2.BasicCoding.index');
+})->name('BasicCoding');
+
+// N2 -> BasicCoding -> Directions
+Route::get('/BasicCoding/Directions', function () {
+    return view('iSTEAM.N2.BasicCoding.Directions.index');
+})->name('Directions');
+
+// N2 -> BasicCoding -> Directions -> select
+Route::get('/DirectionsChoice', function () {
+    return view('iSTEAM.N2.BasicCoding.Directions.selection');
+})->name('DirectionsSelection');
+
+// N2 -> BasicCoding -> Directions -> lesson
+Route::get('/BasicCoding/Directions/lesson', function () {
+    return view('iSTEAM.N2.BasicCoding.Directions.lesson');
+})->name('DirectionsLesson');
+
+// N2 -> BasicCoding -> Directions -> teacher
+Route::get('/BasicCoding/Directions/teacher', function () {
+    return view('iSTEAM.N2.BasicCoding.Directions.teacher');
+})->name('DirectionsTeacher');
+
+
+
+// N2 -> BasicCoding -> DifferentDirections
+Route::get('/BasicCoding/DifferentDirections', function () {
+    return view('iSTEAM.N2.BasicCoding.DifferentDirections.index');
+})->name('DifferentDirections');
+
+// N2 -> BasicCoding -> DifferentDirections -> select
+Route::get('/DifferentDirectionsChoice', function () {
+    return view('iSTEAM.N2.BasicCoding.DifferentDirections.selection');
+})->name('DifferentDirectionsSelection');
+
+// N2 -> BasicCoding -> DifferentDirections -> lesson
+Route::get('/BasicCoding/DifferentDirections/lesson', function () {
+    return view('iSTEAM.N2.BasicCoding.DifferentDirections.lesson');
+})->name('DifferentDirectionsLesson');
+
+// N2 -> BasicCoding -> DifferentDirections -> teacher
+Route::get('/BasicCoding/DifferentDirections/teacher', function () {
+    return view('iSTEAM.N2.BasicCoding.DifferentDirections.teacher');
+})->name('DifferentDirectionsTeacher');
+
+
+// N2 -> BasicCoding -> Instructions
+Route::get('/BasicCoding/Instructions', function () {
+    return view('iSTEAM.N2.BasicCoding.Instructions.index');
+})->name('Instructions');
+
+// N2 -> BasicCoding -> Instructions -> select
+Route::get('/InstructionsChoice', function () {
+    return view('iSTEAM.N2.BasicCoding.Instructions.selection');
+})->name('InstructionsSelection');
+
+// N2 -> BasicCoding -> Instructions -> lesson
+Route::get('/BasicCoding/Instructions/lesson', function () {
+    return view('iSTEAM.N2.BasicCoding.Instructions.lesson');
+})->name('InstructionsLesson');
+
+// N2 -> BasicCoding -> Instructions -> teacher
+Route::get('/BasicCoding/Instructions/teacher', function () {
+    return view('iSTEAM.N2.BasicCoding.Instructions.teacher');
+})->name('InstructionsTeacher');
+
+
+// N2 -> BasicCoding -> LetsProgram
+Route::get('/BasicCoding/LetsProgram', function () {
+    return view('iSTEAM.N2.BasicCoding.LetsProgram.index');
+})->name('LetsProgram');
+
+// N2 -> BasicCoding -> LetsProgram -> select
+Route::get('/LetsProgramChoice', function () {
+    return view('iSTEAM.N2.BasicCoding.LetsProgram.selection');
+})->name('LetsProgramSelection');
+
+// N2 -> BasicCoding -> LetsProgram -> lesson
+Route::get('/BasicCoding/LetsProgram/lesson', function () {
+    return view('iSTEAM.N2.BasicCoding.LetsProgram.lesson');
+})->name('LetsProgramLesson');
+
+// N2 -> BasicCoding -> LetsProgram -> teacher
+Route::get('/BasicCoding/LetsProgram/teacher', function () {
+    return view('iSTEAM.N2.BasicCoding.LetsProgram.teacher');
+})->name('LetsProgramTeacher');
+
+
+
+
+// N2 -> BasicCoding -> LetsProgram2
+Route::get('/BasicCoding/LetsProgram2', function () {
+    return view('iSTEAM.N2.BasicCoding.LetsProgram2.index');
+})->name('LetsProgram2');
+
+// N2 -> BasicCoding -> LetsProgram2 -> select
+Route::get('/LetsProgram2Choice', function () {
+    return view('iSTEAM.N2.BasicCoding.LetsProgram2.selection');
+})->name('LetsProgram2Selection');
+
+// N2 -> BasicCoding -> LetsProgram2 -> lesson
+Route::get('/BasicCoding/LetsProgram2/lesson', function () {
+    return view('iSTEAM.N2.BasicCoding.LetsProgram2.lesson');
+})->name('LetsProgram2Lesson');
+
+// N2 -> BasicCoding -> LetsProgram2 -> teacher
+Route::get('/BasicCoding/LetsProgram2/teacher', function () {
+    return view('iSTEAM.N2.BasicCoding.LetsProgram2.teacher');
+})->name('LetsProgram2Teacher');
+
+
+// N2 -> BasicCoding -> Robot1
+Route::get('/BasicCoding/Robot1', function () {
+    return view('iSTEAM.N2.BasicCoding.Robot1.index');
+})->name('Robot1');
+
+// N2 -> BasicCoding -> Robot1 -> select
+Route::get('/Robot1Choice', function () {
+    return view('iSTEAM.N2.BasicCoding.Robot1.selection');
+})->name('Robot1Selection');
+
+// N2 -> BasicCoding -> Robot1 -> lesson
+Route::get('/BasicCoding/Robot1/lesson', function () {
+    return view('iSTEAM.N2.BasicCoding.Robot1.lesson');
+})->name('Robot1Lesson');
+
+// N2 -> BasicCoding -> Robot1 -> teacher
+Route::get('/BasicCoding/Robot1/teacher', function () {
+    return view('iSTEAM.N2.BasicCoding.Robot1.teacher');
+})->name('Robot1Teacher');
+
+
+
+// N2 -> BasicCoding -> Robot2
+Route::get('/BasicCoding/Robot2', function () {
+    return view('iSTEAM.N2.BasicCoding.Robot2.index');
+})->name('Robot2');
+
+// N2 -> BasicCoding -> Robot2 -> select
+Route::get('/Robot2Choice', function () {
+    return view('iSTEAM.N2.BasicCoding.Robot2.selection');
+})->name('Robot2Selection');
+
+// N2 -> BasicCoding -> Robot2 -> lesson
+Route::get('/BasicCoding/Robot2/lesson', function () {
+    return view('iSTEAM.N2.BasicCoding.Robot2.lesson');
+})->name('Robot2Lesson');
+
+// N2 -> BasicCoding -> Robot2 -> teacher
+Route::get('/BasicCoding/Robot2/teacher', function () {
+    return view('iSTEAM.N2.BasicCoding.Robot2.teacher');
+})->name('Robot2Teacher');
+
+
+// N2 -> BasicCoding -> Robot3
+Route::get('/BasicCoding/Robot3', function () {
+    return view('iSTEAM.N2.BasicCoding.Robot3.index');
+})->name('Robot3');
+
+// N2 -> BasicCoding -> Robot3 -> select
+Route::get('/Robot3Choice', function () {
+    return view('iSTEAM.N2.BasicCoding.Robot3.selection');
+})->name('Robot3Selection');
+
+// N2 -> BasicCoding -> Robot3 -> lesson
+Route::get('/BasicCoding/Robot3/lesson', function () {
+    return view('iSTEAM.N2.BasicCoding.Robot3.lesson');
+})->name('Robot3Lesson');
+
+// N2 -> BasicCoding -> Robot3 -> teacher
+Route::get('/BasicCoding/Robot3/teacher', function () {
+    return view('iSTEAM.N2.BasicCoding.Robot3.teacher');
+})->name('Robot3Teacher');
+
+
+
+// N2 -> BasicCoding -> Robot4
+Route::get('/BasicCoding/Robot4', function () {
+    return view('iSTEAM.N2.BasicCoding.Robot4.index');
+})->name('Robot4');
+
+// N2 -> BasicCoding -> Robot4 -> select
+Route::get('/Robot4Choice', function () {
+    return view('iSTEAM.N2.BasicCoding.Robot4.selection');
+})->name('Robot4Selection');
+
+// N2 -> BasicCoding -> Robot4 -> lesson
+Route::get('/BasicCoding/Robot4/lesson', function () {
+    return view('iSTEAM.N2.BasicCoding.Robot4.lesson');
+})->name('Robot4Lesson');
+
+// N2 -> BasicCoding -> Robot4 -> teacher
+Route::get('/BasicCoding/Robot4/teacher', function () {
+    return view('iSTEAM.N2.BasicCoding.Robot4.teacher');
+})->name('Robot4Teacher');
+
+
+// N2 -> BasicCoding -> Robot5
+Route::get('/BasicCoding/Robot5', function () {
+    return view('iSTEAM.N2.BasicCoding.Robot5.index');
+})->name('Robot5');
+
+// N2 -> BasicCoding -> Robot5 -> select
+Route::get('/Robot5Choice', function () {
+    return view('iSTEAM.N2.BasicCoding.Robot5.selection');
+})->name('Robot5Selection');
+
+// N2 -> BasicCoding -> Robot5 -> lesson
+Route::get('/BasicCoding/Robot5/lesson', function () {
+    return view('iSTEAM.N2.BasicCoding.Robot5.lesson');
+})->name('Robot5Lesson');
+
+// N2 -> BasicCoding -> Robot5 -> teacher
+Route::get('/BasicCoding/Robot5/teacher', function () {
+    return view('iSTEAM.N2.BasicCoding.Robot5.teacher');
+})->name('Robot5Teacher');
+
+
+
+// K1
+Route::get('/K1',function(){
+    return view('iSTEAM.K1.index');
+});
+
+// K1 -> SampleMachines
+Route::get('K1/simpleMachines', function () {
+    return view('iSTEAM.K1.simpleMachines.index');
+})->name('K1simpleMachines');
+
+// K1 -> simpleMachines -> Bell
+Route::get('/simpleMachines/Bell', function () {
+    return view('iSTEAM.K1.simpleMachines.Bell.index');
+})->name('Bell');
+
+// K1 -> simpleMachines -> Bell -> select
+Route::get('/BellChoice', function () {
+    return view('iSTEAM.K1.simpleMachines.Bell.selection');
+})->name('BellSelection');
+
+// K1 -> simpleMachines -> Bell -> lesson
+Route::get('/simpleMachines/Bell/lesson', function () {
+    return view('iSTEAM.K1.simpleMachines.Bell.lesson');
+})->name('BellLesson');
+
+// K1 -> simpleMachines -> Bell -> teacher
+Route::get('/simpleMachines/Bell/teacher', function () {
+    return view('iSTEAM.K1.simpleMachines.Bell.teacher');
+})->name('BellTeacher');
+
+
+
+// K1 -> simpleMachines -> Plane
+Route::get('/simpleMachines/Plane', function () {
+    return view('iSTEAM.K1.simpleMachines.Plane.index');
+})->name('Plane');
+
+// K1 -> simpleMachines -> Plane -> select
+Route::get('/PlaneChoice', function () {
+    return view('iSTEAM.K1.simpleMachines.Plane.selection');
+})->name('PlaneSelection');
+
+// K1 -> simpleMachines -> Plane -> lesson
+Route::get('/simpleMachines/Plane/lesson', function () {
+    return view('iSTEAM.K1.simpleMachines.Plane.lesson');
+})->name('PlaneLesson');
+
+// K1 -> simpleMachines -> Plane -> teacher
+Route::get('/simpleMachines/Plane/teacher', function () {
+    return view('iSTEAM.K1.simpleMachines.Plane.teacher');
+})->name('PlaneTeacher');
+
+
+
+// K1 -> simpleMachines -> Balloon
+Route::get('/simpleMachines/Balloon', function () {
+    return view('iSTEAM.K1.simpleMachines.Balloon.index');
+})->name('Balloon');
+
+// K1 -> simpleMachines -> Balloon -> select
+Route::get('/BalloonChoice', function () {
+    return view('iSTEAM.K1.simpleMachines.Balloon.selection');
+})->name('BalloonSelection');
+
+// K1 -> simpleMachines -> Balloon -> lesson
+Route::get('/simpleMachines/Balloon/lesson', function () {
+    return view('iSTEAM.K1.simpleMachines.Balloon.lesson');
+})->name('BalloonLesson');
+
+// K1 -> simpleMachines -> Balloon -> teacher
+Route::get('/simpleMachines/Balloon/teacher', function () {
+    return view('iSTEAM.K1.simpleMachines.Balloon.teacher');
+})->name('BalloonTeacher');
+
+
+// K1 -> simpleMachines -> Wedge
+Route::get('/simpleMachines/Wedge', function () {
+    return view('iSTEAM.K1.simpleMachines.Wedge.index');
+})->name('Wedge');
+
+// K1 -> simpleMachines -> Wedge -> select
+Route::get('/WedgeChoice', function () {
+    return view('iSTEAM.K1.simpleMachines.Wedge.selection');
+})->name('WedgeSelection');
+
+// K1 -> simpleMachines -> Wedge -> lesson
+Route::get('/simpleMachines/Wedge/lesson', function () {
+    return view('iSTEAM.K1.simpleMachines.Wedge.lesson');
+})->name('WedgeLesson');
+
+// K1 -> simpleMachines -> Wedge -> teacher
+Route::get('/simpleMachines/Wedge/teacher', function () {
+    return view('iSTEAM.K1.simpleMachines.Wedge.teacher');
+})->name('WedgeTeacher');
+
+
+
+// K1 -> simpleMachines -> Rubbish
+Route::get('/simpleMachines/Rubbish', function () {
+    return view('iSTEAM.K1.simpleMachines.Rubbish.index');
+})->name('Rubbish');
+
+// K1 -> simpleMachines -> Rubbish -> select
+Route::get('/RubbishChoice', function () {
+    return view('iSTEAM.K1.simpleMachines.Rubbish.selection');
+})->name('RubbishSelection');
+
+// K1 -> simpleMachines -> Rubbish -> lesson
+Route::get('/simpleMachines/Rubbish/lesson', function () {
+    return view('iSTEAM.K1.simpleMachines.Rubbish.lesson');
+})->name('RubbishLesson');
+
+// K1 -> simpleMachines -> Rubbish -> teacher
+Route::get('/simpleMachines/Rubbish/teacher', function () {
+    return view('iSTEAM.K1.simpleMachines.Rubbish.teacher');
+})->name('RubbishTeacher');
+
+
+
+// K1 -> simpleMachines -> Wheels
+Route::get('/simpleMachines/Wheels', function () {
+    return view('iSTEAM.K1.simpleMachines.Wheels.index');
+})->name('Wheels');
+
+// K1 -> simpleMachines -> Wheels -> select
+Route::get('/WheelsChoice', function () {
+    return view('iSTEAM.K1.simpleMachines.Wheels.selection');
+})->name('WheelsSelection');
+
+// K1 -> simpleMachines -> Wheels -> lesson
+Route::get('/simpleMachines/Wheels/lesson', function () {
+    return view('iSTEAM.K1.simpleMachines.Wheels.lesson');
+})->name('WheelsLesson');
+
+// K1 -> simpleMachines -> Wheels -> teacher
+Route::get('/simpleMachines/Wheels/teacher', function () {
+    return view('iSTEAM.K1.simpleMachines.Wheels.teacher');
+})->name('WheelsTeacher');
+
+
+
+// K1 -> simpleMachines -> PlantsMachine
+Route::get('/simpleMachines/PlantsMachine', function () {
+    return view('iSTEAM.K1.simpleMachines.PlantsMachine.index');
+})->name('PlantsMachine');
+
+// K1 -> simpleMachines -> PlantsMachine -> select
+Route::get('/PlantsMachineChoice', function () {
+    return view('iSTEAM.K1.simpleMachines.PlantsMachine.selection');
+})->name('PlantsMachineSelection');
+
+// K1 -> simpleMachines -> PlantsMachine -> lesson
+Route::get('/simpleMachines/PlantsMachine/lesson', function () {
+    return view('iSTEAM.K1.simpleMachines.PlantsMachine.lesson');
+})->name('PlantsMachineLesson');
+
+// K1 -> simpleMachines -> PlantsMachine -> teacher
+Route::get('/simpleMachines/PlantsMachine/teacher', function () {
+    return view('iSTEAM.K1.simpleMachines.PlantsMachine.teacher');
+})->name('PlantsMachineTeacher');
+
+
+// K1 -> simpleMachines -> Pulleys
+Route::get('/simpleMachines/Pulleys', function () {
+    return view('iSTEAM.K1.simpleMachines.Pulleys.index');
+})->name('Pulleys');
+
+// K1 -> simpleMachines -> Pulleys -> select
+Route::get('/PulleysChoice', function () {
+    return view('iSTEAM.K1.simpleMachines.Pulleys.selection');
+})->name('PulleysSelection');
+
+// K1 -> simpleMachines -> Pulleys -> lesson
+Route::get('/simpleMachines/Pulleys/lesson', function () {
+    return view('iSTEAM.K1.simpleMachines.Pulleys.lesson');
+})->name('PulleysLesson');
+
+// K1 -> simpleMachines -> Pulleys -> teacher
+Route::get('/simpleMachines/Pulleys/teacher', function () {
+    return view('iSTEAM.K1.simpleMachines.Pulleys.teacher');
+})->name('PulleysTeacher');
+
+
+
+
+// K1 -> simpleMachines -> Punching
+Route::get('/simpleMachines/Punching', function () {
+    return view('iSTEAM.K1.simpleMachines.Punching.index');
+})->name('Punching');
+
+// K1 -> simpleMachines -> Punching -> select
+Route::get('/PunchingChoice', function () {
+    return view('iSTEAM.K1.simpleMachines.Punching.selection');
+})->name('PunchingSelection');
+
+// K1 -> simpleMachines -> Punching -> lesson
+Route::get('/simpleMachines/Punching/lesson', function () {
+    return view('iSTEAM.K1.simpleMachines.Punching.lesson');
+})->name('PunchingLesson');
+
+// K1 -> simpleMachines -> Punching -> teacher
+Route::get('/simpleMachines/Punching/teacher', function () {
+    return view('iSTEAM.K1.simpleMachines.Punching.teacher');
+})->name('PunchingTeacher');
+
+
+
+// K1 -> simpleMachines -> Screw
+Route::get('/simpleMachines/Screw', function () {
+    return view('iSTEAM.K1.simpleMachines.Screw.index');
+})->name('Screw');
+
+// K1 -> simpleMachines -> Screw -> select
+Route::get('/ScrewChoice', function () {
+    return view('iSTEAM.K1.simpleMachines.Screw.selection');
+})->name('ScrewSelection');
+
+// K1 -> simpleMachines -> Screw -> lesson
+Route::get('/simpleMachines/Screw/lesson', function () {
+    return view('iSTEAM.K1.simpleMachines.Screw.lesson');
+})->name('ScrewLesson');
+
+// K1 -> simpleMachines -> Screw -> teacher
+Route::get('/simpleMachines/Screw/teacher', function () {
+    return view('iSTEAM.K1.simpleMachines.Screw.teacher');
+})->name('ScrewTeacher');
+
+
+
+// K1 -> simpleMachines -> Ball
+Route::get('/simpleMachines/Ball', function () {
+    return view('iSTEAM.K1.simpleMachines.Ball.index');
+})->name('Ball');
+
+// K1 -> simpleMachines -> Ball -> select
+Route::get('/BallChoice', function () {
+    return view('iSTEAM.K1.simpleMachines.Ball.selection');
+})->name('BallSelection');
+
+// K1 -> simpleMachines -> Ball -> lesson
+Route::get('/simpleMachines/Ball/lesson', function () {
+    return view('iSTEAM.K1.simpleMachines.Ball.lesson');
+})->name('BallLesson');
+
+// K1 -> simpleMachines -> Ball -> teacher
+Route::get('/simpleMachines/Ball/teacher', function () {
+    return view('iSTEAM.K1.simpleMachines.Ball.teacher');
+})->name('BallTeacher');
+
+
+// K1 -> simpleMachines -> Levers
+Route::get('/simpleMachines/Levers', function () {
+    return view('iSTEAM.K1.simpleMachines.Levers.index');
+})->name('Levers');
+
+// K1 -> simpleMachines -> Levers -> select
+Route::get('/LeversChoice', function () {
+    return view('iSTEAM.K1.simpleMachines.Levers.selection');
+})->name('LeversSelection');
+
+// K1 -> simpleMachines -> Levers -> lesson
+Route::get('/simpleMachines/Levers/lesson', function () {
+    return view('iSTEAM.K1.simpleMachines.Levers.lesson');
+})->name('LeversLesson');
+
+// K1 -> simpleMachines -> Levers -> teacher
+Route::get('/simpleMachines/Levers/teacher', function () {
+    return view('iSTEAM.K1.simpleMachines.Levers.teacher');
+})->name('LeversTeacher');
+
+
+
+
+
+// K1 -> SampleMachines
+Route::get('K1/CompoundMachines', function () {
+    return view('iSTEAM.K1.CompoundMachines.index');
+})->name('K1CompoundMachines');
+
+
+// K1 -> CompoundMachines -> DominoFun
+Route::get('/CompoundMachines/DominoFun', function () {
+    return view('iSTEAM.K1.CompoundMachines.DominoFun.index');
+})->name('DominoFun');
+
+// K1 -> CompoundMachines -> DominoFun -> select
+Route::get('/DominoFunChoice', function () {
+    return view('iSTEAM.K1.CompoundMachines.DominoFun.selection');
+})->name('DominoFunSelection');
+
+// K1 -> CompoundMachines -> DominoFun -> lesson
+Route::get('/CompoundMachines/DominoFun/lesson', function () {
+    return view('iSTEAM.K1.CompoundMachines.DominoFun.lesson');
+})->name('DominoFunLesson');
+
+// K1 -> CompoundMachines -> DominoFun -> teacher
+Route::get('/CompoundMachines/DominoFun/teacher', function () {
+    return view('iSTEAM.K1.CompoundMachines.DominoFun.teacher');
+})->name('DominoFunTeacher');
+
+
+// K1 -> CompoundMachines -> Patterns
+Route::get('/CompoundMachines/Patterns', function () {
+    return view('iSTEAM.K1.CompoundMachines.Patterns.index');
+})->name('Patterns');
+
+// K1 -> CompoundMachines -> Patterns -> select
+Route::get('/PatternsChoice', function () {
+    return view('iSTEAM.K1.CompoundMachines.Patterns.selection');
+})->name('PatternsSelection');
+
+// K1 -> CompoundMachines -> Patterns -> lesson
+Route::get('/CompoundMachines/Patterns/lesson', function () {
+    return view('iSTEAM.K1.CompoundMachines.Patterns.lesson');
+})->name('PatternsLesson');
+
+// K1 -> CompoundMachines -> Patterns -> teacher
+Route::get('/CompoundMachines/Patterns/teacher', function () {
+    return view('iSTEAM.K1.CompoundMachines.Patterns.teacher');
+})->name('PatternsTeacher');
+
+
+
+
+
+// K1 -> CompoundMachines -> SmartIdeas
+Route::get('/CompoundMachines/SmartIdeas', function () {
+    return view('iSTEAM.K1.CompoundMachines.SmartIdeas.index');
+})->name('SmartIdeas');
+
+// K1 -> CompoundMachines -> SmartIdeas -> select
+Route::get('/SmartIdeasChoice', function () {
+    return view('iSTEAM.K1.CompoundMachines.SmartIdeas.selection');
+})->name('SmartIdeasSelection');
+
+// K1 -> CompoundMachines -> SmartIdeas -> lesson
+Route::get('/CompoundMachines/SmartIdeas/lesson', function () {
+    return view('iSTEAM.K1.CompoundMachines.SmartIdeas.lesson');
+})->name('SmartIdeasLesson');
+
+// K1 -> CompoundMachines -> SmartIdeas -> teacher
+Route::get('/CompoundMachines/SmartIdeas/teacher', function () {
+    return view('iSTEAM.K1.CompoundMachines.SmartIdeas.teacher');
+})->name('SmartIdeasTeacher');
+
+
+
+
+
+// K1 -> CompoundMachines -> Machines
+Route::get('/CompoundMachines/Machines', function () {
+    return view('iSTEAM.K1.CompoundMachines.Machines.index');
+})->name('Machines');
+
+// K1 -> CompoundMachines -> Machines -> select
+Route::get('/MachinesChoice', function () {
+    return view('iSTEAM.K1.CompoundMachines.Machines.selection');
+})->name('MachinesSelection');
+
+// K1 -> CompoundMachines -> Machines -> lesson
+Route::get('/CompoundMachines/Machines/lesson', function () {
+    return view('iSTEAM.K1.CompoundMachines.Machines.lesson');
+})->name('MachinesLesson');
+
+// K1 -> CompoundMachines -> Machines -> teacher
+Route::get('/CompoundMachines/Machines/teacher', function () {
+    return view('iSTEAM.K1.CompoundMachines.Machines.teacher');
+})->name('MachinesTeacher');
+
+
+
+// K1 -> CompoundMachines -> Innovation
+Route::get('/CompoundMachines/Innovation', function () {
+    return view('iSTEAM.K1.CompoundMachines.Innovation.index');
+})->name('Innovation');
+
+// K1 -> CompoundMachines -> Innovation -> select
+Route::get('/InnovationChoice', function () {
+    return view('iSTEAM.K1.CompoundMachines.Innovation.selection');
+})->name('InnovationSelection');
+
+// K1 -> CompoundMachines -> Innovation -> lesson
+Route::get('/CompoundMachines/Innovation/lesson', function () {
+    return view('iSTEAM.K1.CompoundMachines.Innovation.lesson');
+})->name('InnovationLesson');
+
+// K1 -> CompoundMachines -> Innovation -> teacher
+Route::get('/CompoundMachines/Innovation/teacher', function () {
+    return view('iSTEAM.K1.CompoundMachines.Innovation.teacher');
+})->name('InnovationTeacher');
+
+
+
+// K1 -> structure 
+Route::get('/K1structure', function () {
+    return view('iSTEAM.K1.structure.index');
+})->name('K1structure');
+
+// K1 -> structure -> building
+Route::get('/structure/building', function () {
+    return view('iSTEAM.K1.structure.building.index');
+})->name('building');
+
+// K1 -> structure -> building -> select
+Route::get('/buildingChoice', function () {
+    return view('iSTEAM.K1.structure.building.selection');
+})->name('buildingSelection');
+
+// K1 -> structure -> building -> lesson
+Route::get('/structure/building/lesson', function () {
+    return view('iSTEAM.K1.structure.building.lesson');
+})->name('buildingLesson');
+
+// K1 -> structure -> building -> teacher
+Route::get('/structure/building/teacher', function () {
+    return view('iSTEAM.K1.structure.building.teacher');
+})->name('buildingTeacher');
+
+
+// K1 -> structure -> umbrella
+Route::get('/structure/umbrella', function () {
+    return view('iSTEAM.K1.structure.umbrella.index');
+})->name('umbrella');
+
+// K1 -> structure -> umbrella -> select
+Route::get('/umbrellaChoice', function () {
+    return view('iSTEAM.K1.structure.umbrella.selection');
+})->name('umbrellaSelection');
+
+// K1 -> structure -> umbrella -> lesson
+Route::get('/structure/umbrella/lesson', function () {
+    return view('iSTEAM.K1.structure.umbrella.lesson');
+})->name('umbrellaLesson');
+
+// K1 -> structure -> umbrella -> teacher
+Route::get('/structure/umbrella/teacher', function () {
+    return view('iSTEAM.K1.structure.umbrella.teacher');
+})->name('umbrellaTeacher');
+
+
+
+// K1 -> structure -> dome
+Route::get('/structure/dome', function () {
+    return view('iSTEAM.K1.structure.dome.index');
+})->name('dome');
+
+// K1 -> structure -> dome -> select
+Route::get('/domeChoice', function () {
+    return view('iSTEAM.K1.structure.dome.selection');
+})->name('domeSelection');
+
+// K1 -> structure -> dome -> lesson
+Route::get('/structure/dome/lesson', function () {
+    return view('iSTEAM.K1.structure.dome.lesson');
+})->name('domeLesson');
+
+// K1 -> structure -> dome -> teacher
+Route::get('/structure/dome/teacher', function () {
+    return view('iSTEAM.K1.structure.dome.teacher');
+})->name('domeTeacher');
+
+
+
+// K1 -> structure -> bridge
+Route::get('/structure/bridge', function () {
+    return view('iSTEAM.K1.structure.bridge.index');
+})->name('bridge');
+
+// K1 -> structure -> bridge -> select
+Route::get('/bridgeChoice', function () {
+    return view('iSTEAM.K1.structure.bridge.selection');
+})->name('bridgeSelection');
+
+// K1 -> structure -> bridge -> lesson
+Route::get('/structure/bridge/lesson', function () {
+    return view('iSTEAM.K1.structure.bridge.lesson');
+})->name('bridgeLesson');
+
+// K1 -> structure -> bridge -> teacher
+Route::get('/structure/bridge/teacher', function () {
+    return view('iSTEAM.K1.structure.bridge.teacher');
+})->name('bridgeTeacher');
+
+
+
+
+
+// K1 -> structure -> giant
+Route::get('/structure/giant', function () {
+    return view('iSTEAM.K1.structure.giant.index');
+})->name('giant');
+
+// K1 -> structure -> giant -> select
+Route::get('/giantChoice', function () {
+    return view('iSTEAM.K1.structure.giant.selection');
+})->name('giantSelection');
+
+// K1 -> structure -> giant -> lesson
+Route::get('/structure/giant/lesson', function () {
+    return view('iSTEAM.K1.structure.giant.lesson');
+})->name('giantLesson');
+
+// K1 -> structure -> giant -> teacher
+Route::get('/structure/giant/teacher', function () {
+    return view('iSTEAM.K1.structure.giant.teacher');
+})->name('giantTeacher');
+
+
+
+// K1 -> structure -> unique
+Route::get('/structure/unique', function () {
+    return view('iSTEAM.K1.structure.unique.index');
+})->name('unique');
+
+// K1 -> structure -> unique -> select
+Route::get('/uniqueChoice', function () {
+    return view('iSTEAM.K1.structure.unique.selection');
+})->name('uniqueSelection');
+
+// K1 -> structure -> unique -> lesson
+Route::get('/structure/unique/lesson', function () {
+    return view('iSTEAM.K1.structure.unique.lesson');
+})->name('uniqueLesson');
+
+// K1 -> structure -> unique -> teacher
+Route::get('/structure/unique/teacher', function () {
+    return view('iSTEAM.K1.structure.unique.teacher');
+})->name('uniqueTeacher');
+
+
+
+
+// K1 -> structure -> city
+Route::get('/structure/city', function () {
+    return view('iSTEAM.K1.structure.city.index');
+})->name('city');
+
+// K1 -> structure -> city -> select
+Route::get('/cityChoice', function () {
+    return view('iSTEAM.K1.structure.city.selection');
+})->name('citySelection');
+
+// K1 -> structure -> city -> lesson
+Route::get('/structure/city/lesson', function () {
+    return view('iSTEAM.K1.structure.city.lesson');
+})->name('cityLesson');
+
+// K1 -> structure -> city -> teacher
+Route::get('/structure/city/teacher', function () {
+    return view('iSTEAM.K1.structure.city.teacher');
+})->name('cityTeacher');
+
+
+
+// K1 -> structure -> roller
+Route::get('/structure/roller', function () {
+    return view('iSTEAM.K1.structure.roller.index');
+})->name('roller');
+
+// K1 -> structure -> roller -> select
+Route::get('/rollerChoice', function () {
+    return view('iSTEAM.K1.structure.roller.selection');
+})->name('rollerSelection');
+
+// K1 -> structure -> roller -> lesson
+Route::get('/structure/roller/lesson', function () {
+    return view('iSTEAM.K1.structure.roller.lesson');
+})->name('rollerLesson');
+
+// K1 -> structure -> roller -> teacher
+Route::get('/structure/roller/teacher', function () {
+    return view('iSTEAM.K1.structure.roller.teacher');
+})->name('rollerTeacher');
+
+
+
+
+// ======
+// K1 -> coding
+Route::get('/coding', function () {
+    return view('iSTEAM.K1.coding.index');
+})->name('coding');
+
+
+// K1 -> coding -> wCoding
+Route::get('/coding/wCoding', function () {
+    return view('iSTEAM.K1.coding.wCoding.index');
+})->name('wCoding');
+
+// K1 -> coding -> wCoding -> select
+Route::get('/wCodingChoice', function () {
+    return view('iSTEAM.K1.coding.wCoding.selection');
+})->name('wCodingSelection');
+
+// K1 -> coding -> wCoding -> lesson
+Route::get('/coding/wCoding/lesson', function () {
+    return view('iSTEAM.K1.coding.wCoding.lesson');
+})->name('wCodingLesson');
+
+// K1 -> coding -> wCoding -> teacher
+Route::get('/coding/wCoding/teacher', function () {
+    return view('iSTEAM.K1.coding.wCoding.teacher');
+})->name('wCodingTeacher');
+
+
+// K1 -> coding -> go1
+Route::get('/coding/go1', function () {
+    return view('iSTEAM.K1.coding.go1.index');
+})->name('go1');
+
+// K1 -> coding -> go1 -> select
+Route::get('/go1Choice', function () {
+    return view('iSTEAM.K1.coding.go1.selection');
+})->name('go1Selection');
+
+// K1 -> coding -> go1 -> lesson
+Route::get('/coding/go1/lesson', function () {
+    return view('iSTEAM.K1.coding.go1.lesson');
+})->name('go1Lesson');
+
+// K1 -> coding -> go1 -> teacher
+Route::get('/coding/go1/teacher', function () {
+    return view('iSTEAM.K1.coding.go1.teacher');
+})->name('go1Teacher');
+
+
+// K1 -> coding -> go2
+Route::get('/coding/go2', function () {
+    return view('iSTEAM.K1.coding.go2.index');
+})->name('go2');
+
+// K1 -> coding -> go2 -> select
+Route::get('/go2Choice', function () {
+    return view('iSTEAM.K1.coding.go2.selection');
+})->name('go2Selection');
+
+// K1 -> coding -> go2 -> lesson
+Route::get('/coding/go2/lesson', function () {
+    return view('iSTEAM.K1.coding.go2.lesson');
+})->name('go2Lesson');
+
+// K1 -> coding -> go2 -> teacher
+Route::get('/coding/go2/teacher', function () {
+    return view('iSTEAM.K1.coding.go2.teacher');
+})->name('go2Teacher');
+
+
+// K1 -> coding -> fast
+Route::get('/coding/fast', function () {
+    return view('iSTEAM.K1.coding.fast.index');
+})->name('fast');
+
+// K1 -> coding -> fast -> select
+Route::get('/fastChoice', function () {
+    return view('iSTEAM.K1.coding.fast.selection');
+})->name('fastSelection');
+
+// K1 -> coding -> fast -> lesson
+Route::get('/coding/fast/lesson', function () {
+    return view('iSTEAM.K1.coding.fast.lesson');
+})->name('fastLesson');
+
+// K1 -> coding -> fast -> teacher
+Route::get('/coding/fast/teacher', function () {
+    return view('iSTEAM.K1.coding.fast.teacher');
+})->name('fastTeacher');
+
+
+
+// K1 -> coding -> soundL
+Route::get('/coding/soundL', function () {
+    return view('iSTEAM.K1.coding.soundL.index');
+})->name('soundL');
+
+// K1 -> coding -> soundL -> select
+Route::get('/soundLChoice', function () {
+    return view('iSTEAM.K1.coding.soundL.selection');
+})->name('soundLSelection');
+
+// K1 -> coding -> soundL -> lesson
+Route::get('/coding/soundL/lesson', function () {
+    return view('iSTEAM.K1.coding.soundL.lesson');
+})->name('soundLLesson');
+
+// K1 -> coding -> soundL -> teacher
+Route::get('/coding/soundL/teacher', function () {
+    return view('iSTEAM.K1.coding.soundL.teacher');
+})->name('soundLTeacher');
+
+
+
+// K1 -> coding -> challenge1
+Route::get('/coding/challenge1', function () {
+    return view('iSTEAM.K1.coding.challenge1.index');
+})->name('challenge1');
+
+// K1 -> coding -> challenge1 -> select
+Route::get('/challenge1Choice', function () {
+    return view('iSTEAM.K1.coding.challenge1.selection');
+})->name('challenge1Selection');
+
+// K1 -> coding -> challenge1 -> lesson
+Route::get('/coding/challenge1/lesson', function () {
+    return view('iSTEAM.K1.coding.challenge1.lesson');
+})->name('challenge1Lesson');
+
+// K1 -> coding -> challenge1 -> teacher
+Route::get('/coding/challenge1/teacher', function () {
+    return view('iSTEAM.K1.coding.challenge1.teacher');
+})->name('challenge1Teacher');
+
+
+// K1 -> coding -> challenge2
+Route::get('/coding/challenge2', function () {
+    return view('iSTEAM.K1.coding.challenge2.index');
+})->name('challenge2');
+
+// K1 -> coding -> challenge2 -> select
+Route::get('/challenge2Choice', function () {
+    return view('iSTEAM.K1.coding.challenge2.selection');
+})->name('challenge2Selection');
+
+// K1 -> coding -> challenge2 -> lesson
+Route::get('/coding/challenge2/lesson', function () {
+    return view('iSTEAM.K1.coding.challenge2.lesson');
+})->name('challenge2Lesson');
+
+// K1 -> coding -> challenge2 -> teacher
+Route::get('/coding/challenge2/teacher', function () {
+    return view('iSTEAM.K1.coding.challenge2.teacher');
+})->name('challenge2Teacher');
+
+
+
+// K1 -> coding -> challenge3
+Route::get('/coding/challenge3', function () {
+    return view('iSTEAM.K1.coding.challenge3.index');
+})->name('challenge3');
+
+// K1 -> coding -> challenge3 -> select
+Route::get('/challenge3Choice', function () {
+    return view('iSTEAM.K1.coding.challenge3.selection');
+})->name('challenge3Selection');
+
+// K1 -> coding -> challenge3 -> lesson
+Route::get('/coding/challenge3/lesson', function () {
+    return view('iSTEAM.K1.coding.challenge3.lesson');
+})->name('challenge3Lesson');
+
+// K1 -> coding -> challenge3 -> teacher
+Route::get('/coding/challenge3/teacher', function () {
+    return view('iSTEAM.K1.coding.challenge3.teacher');
+})->name('challenge3Teacher');
+
+
+// K1 -> coding -> challenge4
+Route::get('/coding/challenge4', function () {
+    return view('iSTEAM.K1.coding.challenge4.index');
+})->name('challenge4');
+
+// K1 -> coding -> challenge4 -> select
+Route::get('/challenge4Choice', function () {
+    return view('iSTEAM.K1.coding.challenge4.selection');
+})->name('challenge4Selection');
+
+// K1 -> coding -> challenge4 -> lesson
+Route::get('/coding/challenge4/lesson', function () {
+    return view('iSTEAM.K1.coding.challenge4.lesson');
+})->name('challenge4Lesson');
+
+// K1 -> coding -> challenge4 -> teacher
+Route::get('/coding/challenge4/teacher', function () {
+    return view('iSTEAM.K1.coding.challenge4.teacher');
+})->name('challenge4Teacher');
+
+
+
+// K1 -> coding -> challenge5
+Route::get('/coding/challenge5', function () {
+    return view('iSTEAM.K1.coding.challenge5.index');
+})->name('challenge5');
+
+// K1 -> coding -> challenge5 -> select
+Route::get('/challenge5Choice', function () {
+    return view('iSTEAM.K1.coding.challenge5.selection');
+})->name('challenge5Selection');
+
+// K1 -> coding -> challenge5 -> lesson
+Route::get('/coding/challenge5/lesson', function () {
+    return view('iSTEAM.K1.coding.challenge5.lesson');
+})->name('challenge5Lesson');
+
+// K1 -> coding -> challenge5 -> teacher
+Route::get('/coding/challenge5/teacher', function () {
+    return view('iSTEAM.K1.coding.challenge5.teacher');
+})->name('challenge5Teacher');
+
+
+
+// K1 -> coding -> final
+Route::get('/coding/final', function () {
+    return view('iSTEAM.K1.coding.final.index');
+})->name('final');
+
+// K1 -> coding -> final -> select
+Route::get('/finalChoice', function () {
+    return view('iSTEAM.K1.coding.final.selection');
+})->name('finalSelection');
+
+// K1 -> coding -> final -> lesson
+Route::get('/coding/final/lesson', function () {
+    return view('iSTEAM.K1.coding.final.lesson');
+})->name('finalLesson');
+
+// K1 -> coding -> final -> teacher
+Route::get('/coding/final/teacher', function () {
+    return view('iSTEAM.K1.coding.final.teacher');
+})->name('finalTeacher');
