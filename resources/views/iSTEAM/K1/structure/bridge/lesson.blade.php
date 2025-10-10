@@ -233,13 +233,13 @@
         </ol>
         <img src="/assets/images//K1/str/br18.png" />
         <p class="note text-center">Note: Have children work in groups to complete the mission. <a href=""
-                class="text-amber-300">Click Here</a> to follow the step-by-step guide.</p>
+                class="text-amber-300 click-btn1">Click Here</a> to follow the step-by-step guide.</p>
     </div>
 
     {{-- ==== --}}
     {{-- click slides --}}
     {{-- step 1 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
+    <div class="slide hidden click1  flex flex-col items-center justify-start  ">
         <h2 class="text-center title stroke">How to make the structure of a beam bridge? - Step 1 of 9</h2>
         <img src="/assets/images//K1/str/br19.png" />
         <p class="note text-center">Note: Have children observe the video and talk about how to do the step. Guide them to
@@ -255,7 +255,7 @@
         </div>
     </div>
     {{-- step 2 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
+    <div class="slide hidden click2  flex flex-col items-center justify-start  ">
         <h2 class="text-center title stroke">How to make the structure of a beam bridge? - Step 2 of 9</h2>
         <img src="/assets/images//K1/str/br20.png" />
         <p class="note text-center">Note: Have children observe the video and talk about how to do the step. Guide them to
@@ -271,7 +271,7 @@
     </div>
 
     {{-- step 3 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
+    <div class="slide hidden click1  flex flex-col items-center justify-start  ">
         <h2 class="text-center title stroke">How to make the structure of a beam bridge? - Step 3 of 9</h2>
         <img src="/assets/images//K1/str/br21.png" />
         <p class="note text-center">Note: Have children observe the video and talk about how to do the step. Guide them to
@@ -286,7 +286,7 @@
         </div>
     </div>
     {{-- step 4 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
+    <div class="slide hidden click1  flex flex-col items-center justify-start  ">
         <h2 class="text-center title stroke">How to make the structure of a beam bridge? - Step 4 of 9</h2>
         <img src="/assets/images//K1/str/br22.png" />
         <p class="note text-center">Note: Have children observe the video and talk about how to do the step. Guide them to
@@ -301,7 +301,7 @@
         </div>
     </div>
     {{-- step 5 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
+    <div class="slide hidden click1  flex flex-col items-center justify-start  ">
         <h2 class="text-center title stroke">How to make the structure of a beam bridge? - Step 5 of 9</h2>
         <img src="/assets/images//K1/str/br23.png" />
         <p class="note text-center">Note: Have children observe the video and talk about how to do the step. Guide them to
@@ -316,7 +316,7 @@
         </div>
     </div>
     {{-- step 6 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
+    <div class="slide hidden click1  flex flex-col items-center justify-start  ">
         <h2 class="text-center title stroke">How to make the structure of a beam bridge? - Step 6 of 9</h2>
         <img src="/assets/images//K1/str/br24.png" />
         <p class="note text-center">Note: Have children observe the video and talk about how to do the step. Guide them to
@@ -332,7 +332,7 @@
     </div>
 
     {{-- step 7 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
+    <div class="slide hidden click1  flex flex-col items-center justify-start  ">
         <h2 class="text-center title stroke">How to make the structure of a beam bridge? - Step 7 of 9</h2>
         <img src="/assets/images//K1/str/br25.png" />
         <p class="note text-center">Note: Have children observe the video and talk about how to do the step. Guide them to
@@ -349,7 +349,7 @@
 
 
     {{-- step 8 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
+    <div class="slide hidden click1  flex flex-col items-center justify-start  ">
         <h2 class="text-center title stroke">How to make the structure of a beam bridge? - Step 8 of 9</h2>
         <img src="/assets/images//K1/str/br26.png" />
         <p class="note text-center">Note: Have children observe the video and talk about how to do the step. Guide them to
@@ -366,7 +366,7 @@
 
 
     {{-- step 9 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
+    <div class="slide hidden click1  flex flex-col items-center justify-start  ">
         <h2 class="text-center title stroke">How to make the structure of a beam bridge? - Step 9 of 9</h2>
         <img src="/assets/images//K1/str/br27.png" />
         <p class="note text-center">Note: Have children observe the video and talk about how to do the step. Guide them to
@@ -592,55 +592,168 @@
 
 @push('script')
     <script>
-        document.addEventListener("DOMContentLoaded", () => {
-            const slides = document.querySelectorAll(".slide");
-            const nextButtons = document.querySelectorAll(".nextButton");
-            const returnButton = document.getElementById("returnButton");
-            const doneButton = document.querySelector(".doneButton"); // ✅ DONE button
+      document.addEventListener("DOMContentLoaded", () => {
+    const slides = document.querySelectorAll(".slide");
+    const nextButtons = document.querySelectorAll(".nextButton");
+    const returnButton = document.getElementById("returnButton");
+    const doneButton = document.querySelector(".doneButton");
+    
+    // Get all click buttons (click-btn1, click-btn2, etc.)
+    const clickButtons = document.querySelectorAll("[class*='click-btn']");
 
-            let currentSlide = 0;
+    let currentSlide = 0;
+    let parentSlideIndex = null;
+    let isViewingClickSlides = false;
+    let currentClickClass = null; // Track which click class we're viewing (click1, click2, etc.)
 
-            function showSlide(index) {
-                slides.forEach((slide, i) => {
-                    slide.classList.toggle("hidden", i !== index);
-                });
+    function showSlide(index) {
+        slides.forEach((slide, i) => {
+            slide.classList.toggle("hidden", i !== index);
+        });
 
-                // ✅ Agar last slide hai → NEXT button hide, DONE show
-                if (index === slides.length - 1) {
-                    nextButtons.forEach(btn => btn.classList.add("hidden"));
-                    if (doneButton) doneButton.classList.remove("hidden");
-                } else {
-                    nextButtons.forEach(btn => btn.classList.remove("hidden"));
-                    if (doneButton) doneButton.classList.add("hidden");
+        // Check if last slide OR last click slide
+        const isLastSlide = index === slides.length - 1;
+        const isLastClickSlide = isViewingClickSlides && !hasNextClickSlide(index);
+
+        if (isLastSlide || isLastClickSlide) {
+            nextButtons.forEach(btn => btn.classList.add("hidden"));
+            if (doneButton) doneButton.classList.remove("hidden");
+        } else {
+            nextButtons.forEach(btn => btn.classList.remove("hidden"));
+            if (doneButton) doneButton.classList.add("hidden");
+        }
+    }
+
+    // Check if there's another click slide with same class after current one
+    function hasNextClickSlide(currentIndex) {
+        if (!currentClickClass) return false;
+        
+        for (let i = currentIndex + 1; i < slides.length; i++) {
+            if (slides[i].classList.contains(currentClickClass)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    // Get click class from button (click-btn1 → click1, click-btn2 → click2)
+    function getClickClassFromButton(button) {
+        const classList = Array.from(button.classList);
+        const clickBtnClass = classList.find(cls => cls.startsWith('click-btn'));
+        if (clickBtnClass) {
+            // Extract number from click-btn1, click-btn2, etc.
+            const number = clickBtnClass.replace('click-btn', '');
+            return 'click' + number;
+        }
+        return null;
+    }
+
+    // Click button handlers
+    clickButtons.forEach((btn) => {
+        btn.addEventListener("click", (e) => {
+            e.preventDefault(); // Prevent default anchor behavior
+            
+            parentSlideIndex = currentSlide;
+            isViewingClickSlides = true;
+            currentClickClass = getClickClassFromButton(btn);
+
+            // Find the first slide with matching click class
+            for (let i = 0; i < slides.length; i++) {
+                if (slides[i].classList.contains(currentClickClass)) {
+                    currentSlide = i;
+                    showSlide(currentSlide);
+                    break;
                 }
             }
+        });
+    });
 
-            // ✅ NEXT buttons listener
-            nextButtons.forEach((btn) => {
-                btn.addEventListener("click", () => {
-                    if (currentSlide < slides.length - 1) {
+    // NEXT button - skip click slides if not viewing them
+    nextButtons.forEach((btn) => {
+        btn.addEventListener("click", () => {
+            if (currentSlide < slides.length - 1) {
+                currentSlide++;
+                
+                // Skip click slides if not viewing them
+                while (!isViewingClickSlides && 
+                       currentSlide < slides.length && 
+                       isClickSlide(slides[currentSlide])) {
+                    currentSlide++;
+                }
+                
+                // If viewing click slides, only show slides with current click class
+                if (isViewingClickSlides) {
+                    while (currentSlide < slides.length && 
+                           !slides[currentSlide].classList.contains(currentClickClass)) {
                         currentSlide++;
-                        showSlide(currentSlide);
                     }
-                });
-            });
-
-            // ✅ Return button
-            returnButton.addEventListener("click", () => {
-                if (currentSlide > 0) {
-                    currentSlide--;
+                }
+                
+                if (currentSlide < slides.length) {
                     showSlide(currentSlide);
                 }
-            });
-
-            if (doneButton) {
-                doneButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('bridgeSelection') }}";
-                });
             }
-
-            // ✅ Start with first slide
-            showSlide(currentSlide);
         });
+    });
+
+    // Check if slide is any click slide (click1, click2, etc.)
+    function isClickSlide(slide) {
+        return Array.from(slide.classList).some(cls => cls.startsWith('click') && cls.match(/^click\d+$/));
+    }
+
+    // Return button
+    returnButton.addEventListener("click", () => {
+        if (isViewingClickSlides && currentSlide > 0) {
+            // Check if previous slide is also same click class
+            let prevSlide = currentSlide - 1;
+            
+            // Find previous slide with same click class
+            while (prevSlide >= 0 && !slides[prevSlide].classList.contains(currentClickClass)) {
+                prevSlide--;
+            }
+            
+            if (prevSlide >= 0 && slides[prevSlide].classList.contains(currentClickClass)) {
+                currentSlide = prevSlide;
+                showSlide(currentSlide);
+            } else {
+                // No more click slides, return to parent
+                currentSlide = parentSlideIndex;
+                isViewingClickSlides = false;
+                currentClickClass = null;
+                parentSlideIndex = null;
+                showSlide(currentSlide);
+            }
+        } else if (currentSlide > 0) {
+            currentSlide--;
+            
+            // Skip click slides when going back
+            while (currentSlide > 0 && isClickSlide(slides[currentSlide])) {
+                currentSlide--;
+            }
+            
+            showSlide(currentSlide);
+        }
+    });
+
+    // DONE button handler
+    if (doneButton) {
+        doneButton.addEventListener("click", () => {
+            if (isViewingClickSlides && parentSlideIndex !== null) {
+                // Return to parent slide
+                currentSlide = parentSlideIndex;
+                isViewingClickSlides = false;
+                currentClickClass = null;
+                parentSlideIndex = null;
+                showSlide(currentSlide);
+            } else {
+                // Navigate to route
+                window.location.href = "{{ route('go1Selection') }}";
+            }
+        });
+    }
+
+    // Start with first slide
+    showSlide(currentSlide);
+});
     </script>
 @endpush

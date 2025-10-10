@@ -379,12 +379,12 @@
         </div>
         <img src="/assets/images//K1/coding/go/go22.png" class="w-[400px]" />
         <p class="note">Note: Select Drive > place programming block of Forward > turn on the programme so that the
-            robot moves accordingly; <a href="" class="text-amber-400">click here</a> for visual guide.</p>
+            robot moves accordingly; <a href="" class="text-amber-400 click-btn1">click here</a> for visual guide.</p>
     </div>
 
     {{-- clik slides  --}}
     {{-- slide 1 --}}
-    <div class=" slide hidden flex flex-col items-center justify-center gap-1">
+    <div class=" slide click1 hidden flex flex-col items-center justify-center gap-1">
         <img src="/assets/images/K1/coding/go/go16.png" />
         <h2 class="title stroke">How do you programme a robot to move forward 50 cm?</h2>
         <p class="note text-center">Note: Encourage children to share based on the clues (Select Drive > place programming
@@ -392,7 +392,7 @@
     </div>
 
     {{-- sldie 2 --}}
-    <div class=" slide hidden flex flex-col items-center justify-center gap-1">
+    <div class=" slide click1 hidden flex flex-col items-center justify-center gap-1">
         <img src="/assets/images/K1/coding/go/go17.png" />
         <h2 class="title stroke">How do you programme a robot to move forward 90cm?</h2>
         <p class="note text-center">Note: Encourage children to share based on the clues (select Drive>place programming
@@ -401,7 +401,7 @@
     </div>
 
     {{-- slide 3 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
+    <div class="slide click1 hidden flex flex-col items-center justify-center gap-y-2">
         <h2 class="text-center title !text-white stroke">Hands-on Time</h2>
         <h2 class="text-start title stroke">Mission: <br>
             Let's use a measuring tape to find out the lengths of the two
@@ -425,13 +425,13 @@
         </div>
         <img src="/assets/images//K1/coding/go/go23.png" class="w-[400px]" />
         <p class="note">Note: Select Drive>place programming block of Forward>select Forward>change distance to 90cm>turn
-            on the programme so that the robot moves accordingly; <a href="" class="text-amber-400">click here</a>
+            on the programme so that the robot moves accordingly; <a href="" class="text-amber-400 click-btn2">click here</a>
             for visual guide.</p>
     </div>
 
     {{-- click slides  --}}
     {{-- slide 1 --}}
-    <div class=" slide hidden flex flex-col items-center justify-center gap-1">
+    <div class=" slide click2  hidden flex flex-col items-center justify-center gap-1">
         <img src="/assets/images/K1/coding/go/go17.png" />
         <h2 class="title stroke">How do you programme a robot to move forward 90cm?</h2>
         <p class="note text-center">Note: Encourage children to share based on the clues (select Drive>place programming
@@ -440,7 +440,7 @@
     </div>
 
     {{-- slide 2 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
+    <div class="slide click2  hidden flex flex-col items-center justify-center gap-y-2">
         <h2 class="text-center title !text-white stroke">Hands-on Time</h2>
         <h2 class="text-start title stroke">Mission: <br>
             Let's use a measuring tape to find out the lengths of the two
@@ -452,24 +452,13 @@
 
 
     {{-- slide 30 --}}
-    <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
+    <div class="slide   hidden flex flex-col items-center justify-center gap-y-4">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
         <div class="w-[836px] h-[536px] bg-cover bg-center flex  justify-between items-start"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>What can be used to measure a distance between two objects? Draw them.</p>
         </div>
     </div>
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -547,55 +536,168 @@
 
 @push('script')
     <script>
-        document.addEventListener("DOMContentLoaded", () => {
-            const slides = document.querySelectorAll(".slide");
-            const nextButtons = document.querySelectorAll(".nextButton");
-            const returnButton = document.getElementById("returnButton");
-            const doneButton = document.querySelector(".doneButton"); // ✅ DONE button
+       document.addEventListener("DOMContentLoaded", () => {
+    const slides = document.querySelectorAll(".slide");
+    const nextButtons = document.querySelectorAll(".nextButton");
+    const returnButton = document.getElementById("returnButton");
+    const doneButton = document.querySelector(".doneButton");
+    
+    // Get all click buttons (click-btn1, click-btn2, etc.)
+    const clickButtons = document.querySelectorAll("[class*='click-btn']");
 
-            let currentSlide = 0;
+    let currentSlide = 0;
+    let parentSlideIndex = null;
+    let isViewingClickSlides = false;
+    let currentClickClass = null; // Track which click class we're viewing (click1, click2, etc.)
 
-            function showSlide(index) {
-                slides.forEach((slide, i) => {
-                    slide.classList.toggle("hidden", i !== index);
-                });
+    function showSlide(index) {
+        slides.forEach((slide, i) => {
+            slide.classList.toggle("hidden", i !== index);
+        });
 
-                // ✅ Agar last slide hai → NEXT button hide, DONE show
-                if (index === slides.length - 1) {
-                    nextButtons.forEach(btn => btn.classList.add("hidden"));
-                    if (doneButton) doneButton.classList.remove("hidden");
-                } else {
-                    nextButtons.forEach(btn => btn.classList.remove("hidden"));
-                    if (doneButton) doneButton.classList.add("hidden");
+        // Check if last slide OR last click slide
+        const isLastSlide = index === slides.length - 1;
+        const isLastClickSlide = isViewingClickSlides && !hasNextClickSlide(index);
+
+        if (isLastSlide || isLastClickSlide) {
+            nextButtons.forEach(btn => btn.classList.add("hidden"));
+            if (doneButton) doneButton.classList.remove("hidden");
+        } else {
+            nextButtons.forEach(btn => btn.classList.remove("hidden"));
+            if (doneButton) doneButton.classList.add("hidden");
+        }
+    }
+
+    // Check if there's another click slide with same class after current one
+    function hasNextClickSlide(currentIndex) {
+        if (!currentClickClass) return false;
+        
+        for (let i = currentIndex + 1; i < slides.length; i++) {
+            if (slides[i].classList.contains(currentClickClass)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    // Get click class from button (click-btn1 → click1, click-btn2 → click2)
+    function getClickClassFromButton(button) {
+        const classList = Array.from(button.classList);
+        const clickBtnClass = classList.find(cls => cls.startsWith('click-btn'));
+        if (clickBtnClass) {
+            // Extract number from click-btn1, click-btn2, etc.
+            const number = clickBtnClass.replace('click-btn', '');
+            return 'click' + number;
+        }
+        return null;
+    }
+
+    // Click button handlers
+    clickButtons.forEach((btn) => {
+        btn.addEventListener("click", (e) => {
+            e.preventDefault(); // Prevent default anchor behavior
+            
+            parentSlideIndex = currentSlide;
+            isViewingClickSlides = true;
+            currentClickClass = getClickClassFromButton(btn);
+
+            // Find the first slide with matching click class
+            for (let i = 0; i < slides.length; i++) {
+                if (slides[i].classList.contains(currentClickClass)) {
+                    currentSlide = i;
+                    showSlide(currentSlide);
+                    break;
                 }
             }
+        });
+    });
 
-            // ✅ NEXT buttons listener
-            nextButtons.forEach((btn) => {
-                btn.addEventListener("click", () => {
-                    if (currentSlide < slides.length - 1) {
+    // NEXT button - skip click slides if not viewing them
+    nextButtons.forEach((btn) => {
+        btn.addEventListener("click", () => {
+            if (currentSlide < slides.length - 1) {
+                currentSlide++;
+                
+                // Skip click slides if not viewing them
+                while (!isViewingClickSlides && 
+                       currentSlide < slides.length && 
+                       isClickSlide(slides[currentSlide])) {
+                    currentSlide++;
+                }
+                
+                // If viewing click slides, only show slides with current click class
+                if (isViewingClickSlides) {
+                    while (currentSlide < slides.length && 
+                           !slides[currentSlide].classList.contains(currentClickClass)) {
                         currentSlide++;
-                        showSlide(currentSlide);
                     }
-                });
-            });
-
-            // ✅ Return button
-            returnButton.addEventListener("click", () => {
-                if (currentSlide > 0) {
-                    currentSlide--;
+                }
+                
+                if (currentSlide < slides.length) {
                     showSlide(currentSlide);
                 }
-            });
-
-            if (doneButton) {
-                doneButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('go1Selection') }}";
-                });
             }
-
-            // ✅ Start with first slide
-            showSlide(currentSlide);
         });
+    });
+
+    // Check if slide is any click slide (click1, click2, etc.)
+    function isClickSlide(slide) {
+        return Array.from(slide.classList).some(cls => cls.startsWith('click') && cls.match(/^click\d+$/));
+    }
+
+    // Return button
+    returnButton.addEventListener("click", () => {
+        if (isViewingClickSlides && currentSlide > 0) {
+            // Check if previous slide is also same click class
+            let prevSlide = currentSlide - 1;
+            
+            // Find previous slide with same click class
+            while (prevSlide >= 0 && !slides[prevSlide].classList.contains(currentClickClass)) {
+                prevSlide--;
+            }
+            
+            if (prevSlide >= 0 && slides[prevSlide].classList.contains(currentClickClass)) {
+                currentSlide = prevSlide;
+                showSlide(currentSlide);
+            } else {
+                // No more click slides, return to parent
+                currentSlide = parentSlideIndex;
+                isViewingClickSlides = false;
+                currentClickClass = null;
+                parentSlideIndex = null;
+                showSlide(currentSlide);
+            }
+        } else if (currentSlide > 0) {
+            currentSlide--;
+            
+            // Skip click slides when going back
+            while (currentSlide > 0 && isClickSlide(slides[currentSlide])) {
+                currentSlide--;
+            }
+            
+            showSlide(currentSlide);
+        }
+    });
+
+    // DONE button handler
+    if (doneButton) {
+        doneButton.addEventListener("click", () => {
+            if (isViewingClickSlides && parentSlideIndex !== null) {
+                // Return to parent slide
+                currentSlide = parentSlideIndex;
+                isViewingClickSlides = false;
+                currentClickClass = null;
+                parentSlideIndex = null;
+                showSlide(currentSlide);
+            } else {
+                // Navigate to route
+                window.location.href = "{{ route('go1Selection') }}";
+            }
+        });
+    }
+
+    // Start with first slide
+    showSlide(currentSlide);
+});
     </script>
 @endpush

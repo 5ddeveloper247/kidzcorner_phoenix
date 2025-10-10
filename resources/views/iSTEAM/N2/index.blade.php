@@ -69,4 +69,34 @@
         </a>
     </div>
 
+       <div id="buttons" class="absolute top-[30px] right-[60px] flex flex-row gap-6 z-90">
+
+        <!-- Return Button (hidden initially) -->
+        <a href="{{ route('isteam') }}" class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
+            id="returnButton">
+            <img class="absolute top-[6px] left-[8px] w-20 h-10"
+                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
+            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
+            <img class="absolute top-[24px] left-[22px] w-14 h-14"
+                src="{{ asset('assets/images/pptimages/reverse-icon.png') }}" />
+        </a>
+
+        <!-- Home Button -->
+        <a href="{{ route('isteam') }}"
+            class="relative w-24 h-24 button-fade-in bg-sky-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
+            id="homeButton">
+            <img class="absolute top-[6px] left-[8px] w-20 h-10"
+                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
+            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
+            <img class="absolute top-[24px] left-[22px] w-14 h-14"
+                src="{{ asset('assets/images/pptimages/home-icon.png') }}" />
+    </a>
+
+        <!-- Close Button -->
+        <button class="relative w-24 h-24 button-fade-in cursor-pointer flex justify-center items-center bg-red-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-red-900" id="closeButton">
+            <img class="absolute top-[6px] left-[8px] w-20 h-10" src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
+            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
+            <img class=" w-[35px] h-[49px] z-[999]" src="{{ asset('assets/images/pptimages/x.png') }}" />
+        </button>
+    </div>
 @endsection

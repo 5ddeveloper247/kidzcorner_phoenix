@@ -161,3 +161,90 @@
 
     <script src="{{ asset('assets/js/slides1.js') }}"></script>
 @endpush --}}
+
+
+
+@extends('layout.master')
+@section('title', 'Dynamic Presentation')
+
+@push('styles')
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+    <style>
+        .slide-container {
+            transition: opacity 0.3s ease-in-out;
+        }
+
+        .button-hidden {
+            display: none !important;
+        }
+
+        .button-disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        /* Custom animations for buttons */
+        .button-fade-in {
+            animation: fadeIn 0.3s ease-in-out;
+        }
+
+
+
+        a {
+            cursor: pointer;
+
+        }
+    </style>
+@endpush
+
+@section('content')
+
+    <div class=" flex flex-wrap items-center justify-center text-center z-[999] px-4 row-gap-5 max-w-[1000px]  m-auto">
+
+        <a href="{{ route('N1') }}"
+            class="bg-[url('/assets/images/pptimages/n1.png')] bg-no-repeat bg-contain bg-center w-[400px] h-[300px] relative transition hover:brightness-110 ">
+            <p class="text-[#AF6E39] text-[50px] absolute top-[40px] right-[60px]">N1</p>
+        </a>
+
+        <a href="{{ route('N2') }}"
+            class="bg-[url('/assets/images/pptimages/n2.png')] bg-no-repeat bg-contain bg-center w-[400px] h-[300px] relative transition hover:brightness-110 ">
+            <p class="text-[#AF6E39] text-[50px] absolute top-[75px] left-[120px]">N2</p>
+        </a>
+
+        <a href="{{ route('K1') }}"
+            class="bg-[url('/assets/images/pptimages/k1.png')] bg-no-repeat bg-contain bg-center w-[400px] h-[300px] relative transition hover:brightness-110 ">
+            <p class="text-[#AF6E39] text-[50px] absolute top-[55px] right-[60px]">K1</p>
+        </a>
+
+
+        <a href="{{ route('K2') }}"
+            class="bg-[url('/assets/images/pptimages/k2.png')] bg-no-repeat bg-contain bg-center w-[400px] h-[300px] relative transition hover:brightness-110 ">
+            <p class="text-[#AF6E39] text-[50px] absolute top-[75px] left-[115px]">K2</p>
+        </a>
+    </div>
+
+
+
+    <div id="buttons" class="absolute top-[30px] right-[60px] flex flex-row gap-6 z-90">
+
+        <!-- Home Button -->
+        <button
+            class="relative w-24 h-24 button-fade-in bg-sky-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
+            id="homeButton">
+            <img class="absolute top-[6px] left-[8px] w-20 h-10" src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
+            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
+            <img class="absolute top-[24px] left-[22px] w-14 h-14"
+                src="{{ asset('assets/images/pptimages/home-icon.png') }}" />
+        </button>
+
+        <!-- Close Button -->
+        <button class="relative w-24 h-24 button-fade-in cursor-pointer flex justify-center items-center" id="closeButton">
+            <div
+                class="absolute inset-0 bg-red-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-red-900">
+            </div>
+            <img class="absolute top-[6px] left-[8px] w-20 h-10" src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
+            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
+            <img class=" w-[35px] h-[49px] z-[999]" src="{{ asset('assets/images/pptimages/x.png') }}" />
+        </button>
+    </div>
+@endsection
