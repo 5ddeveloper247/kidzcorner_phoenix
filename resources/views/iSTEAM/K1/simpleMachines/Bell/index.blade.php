@@ -32,12 +32,11 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col  h-[90%] items-center ">
-        <div class="  text-amber-300 text-[65px] font-extrabold stroke">What is light?</div>
+        <div class="  text-amber-300 text-[65px] font-extrabold stroke">Ring a Bell Machine</div>
         <div
             class="text-2xl sm:text-3xl lg:text-6xl text-white max-w-5xl leading-snug flex flex-col items-center space-x-[30px]">
-            Explorenatural and man-made lights<br />
-            Develop awareness and knowledge<br />
-            of different light forms
+            Build a Rube Goldberg Machine that includes
+a simple machine - Inclined Plane
 
      <button class="cursor-pointer nextButton w-66 h-[75px] relative bg-[#F8A23A]  rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
         outline outline-1 outline-yellow-700 overflow-hidden">

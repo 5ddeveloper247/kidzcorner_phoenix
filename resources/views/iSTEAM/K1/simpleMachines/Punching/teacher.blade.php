@@ -27,9 +27,8 @@
         <div>
             <h2 class="  font-bold">Children will be able to:</h2>
             <ul class="list-disc ">
-                <li>Explore items with lights</li>
-                <li>Develop awareness of natural and man-made light sources</li>
-                <li>Understand how lights are useful to us and where lights can be found</li>
+                <li>Set up a Rube Goldberg Machine that includes a simple machine - <br> screw</li>
+                <li>Learn about an example of screw - the nut and bolt</li>
                 <li>Develop understanding through inquiry</li>
             </ul>
         </div>
@@ -38,14 +37,11 @@
             <div>
                 <h2 class="text-[33px] font-bold">Keywords:</h2>
                 <ul class="list-disc ">
-                    <li>Sun</li>
-                    <li>Bright / Brightly</li>
-                    <li>Light</li>
-                    <li>Stars</li>
-                    <li>Fire</li>
-                    <li>Natural</li>
-                    <li>Natural Lights</li>
-                    <li>Man-made Lights</li>
+                    <li>Rube Goldberg Machine</li>
+                    <li>Screw</li>
+                    <li>Force (push)</li>
+                    <li>Domino Effect</li>
+                    <li>Inclined Plane</li>
                 </ul>
             </div>
             <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" />
@@ -55,41 +51,31 @@
 
 
     {{-- slide 24 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start w-[75%]">
-        <div>
-            <h2 class="font-bold">Preparations for Class Activity I:</h2>
-            <ul class="list-disc ">
-                <li>iPad (make sure children handle with care)</li>
-                <li>Torch lights or any other battery-operated lights</li>
-                <li>Table lamp or night light (teacher can plug them into the socket and demonstrate how these light up, do
-                    not let children handle these)</li>
-            </ul>
-        </div>
+    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
 
-        <div class="flex w-[100%] items-center justify-between">
+
+        <div class="flex gap-3">
+
             <div>
-                <h2 class="font-bold">Links to Songs:</h2>
-                <ul class="list-disc ">
-                    <li>
-                        <strong>Mr Golden Sun</strong>
-                        <ul class="list-disc space-y-1 pl-6">
-                            <li>Sun: <a href="https://youtu.be/pIrC_OhEHJM" target="_blank"
-                                    class="text-blue-600 underline">Watch here</a></li>
-                            <li>Mr Golden Sun: <a href="https://youtu.be/hlzvrEfyL2Y" target="_blank"
-                                    class="text-blue-600 underline">Watch here</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <strong>Twinkle Twinkle Little Star</strong>
-                        <a href="https://www.youtube.com/watch?v=NiRf84t4i5I" target="_blank"
-                            class="text-blue-600 underline">Watch here</a>
-                    </li>
+                <h2 class="  font-bold">Preparations:</h2>
+                <ul>
+                    <li>1 nut and bolt</li>
+                    <li>1 ball</li>
+                    <li>1 inclined track <br></li>
+                    <li>Books of different sizes</li>
                 </ul>
             </div>
-
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" />
-
+            <div>
+                <ul>
+                    <li>1 hole punch</li>
+                    <li>Paper</li>
+                    <li>Blu Tack, cardboard <br> and adhesive tape</li>
+                </ul>
+            </div>
         </div>
+
+
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" />
     </div>
 
     {{-- slide 25 --}}
@@ -179,7 +165,8 @@
     </div>
 
     <div class="absolute bottom-0">
-        <button class="cursor-pointer doneButton w-66 h-[75px] relative bg-[#F8A23A] rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
+        <button
+            class="cursor-pointer doneButton w-66 h-[75px] relative bg-[#F8A23A] rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
                     outline outline-1 outline-yellow-700 overflow-hidden">
             <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
             <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" />
