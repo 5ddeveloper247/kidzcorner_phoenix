@@ -22,370 +22,319 @@
 
     {{-- Slide 1 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <div class="flex flex-col items-center justify-center">
-            <h2 class="title stroke">Children, today we are going to learn about a machine!</h2>
-            <img src="/assets/images/K1/sm/light1.png" class="max-w-[500px] sm:max-w-[600px] lg:max-w-[536px]" />
-        </div>
-        <!-- Note -->
-        <div class="note">Note:Have children discuss what a machine is, name some machines around us and say their uses.
-            Tell them that a machine is a tool to do a task or action.</div>
-
+        <h2 class="title stroke">Children, today we are going to learn about a machine!</h2>
+        <p class="note ">Note: Have children discuss what a machine is, name some machines around us and say their uses.
+            Tell them that a machine is a tool to do a task or action.</p>
     </div>
 
 
 
     {{-- Slide 2 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 hidden ">
-        <div class="flex flex-col items-center justify-center gap-1">
-            <img src="/assets/images/K1/sm/sm2.png"
-                class=" w-[536px] outline outline-[6px] outline-offset-[-3px] outline-orange-400" />
-            <!-- Question -->
-            <h2 class="title stroke">Let’s watch a video!
-                <span class="text-amber-300">Can you see the </span>
-                <span class="text-white">SUN</span>
-                <span class="text-amber-300">?</span>
-            </h2>
-
-        </div>
-
-        <div class="note">Note:Turn to next page to watch the video in slow motion.</div>
-
+    <div class="slide flex flex-col items-center justify-center gap-0">
+        <img src="/assets/images/K1/sm/bell/bell1.png" />
+        <h2 class="title stroke">Let’s watch a video!</h2>
+        <p class="note">Note: Turn to next page to watch the video in slow motion.</p>
     </div>
 
+
     {{-- Slide3 --}}
-
-    <div class="slide hidden flex flex-col items-center justify-center gap-1">
-        <img class=" w-[500px] outline outline-[6px] outline-offset-[-3px] outline-orange-400"
-            src="/assets/images/K1/sm/sm1.png" alt="Light Example" />
-        <!-- Question -->
-        <h2 class="title stroke">Now, let’s watch the video in slow motion!
-            The <span class="text-5xl text-white">sun</span>is so <span class="text-5xl text-white">Bright !</span> </br>It
-            gives <span class="text-5xl text-white">light</span> during the day! </h2>
-
-
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+        <img src="/assets/images/K1/sm/bell/bell.2.png" />
+        <h2 class="title stroke">Now, let’s watch the video in slow motion!</h2>
+        <p class="note">Note: Have children freely talk about what they see. Do not correct them on the terms used.</p>
     </div>
     <div class="note">Note: Have children freely talk about what they see. Do not correct them on the terms used.</div>
 
-    {{-- Slide 4 --}}
-    <div class=" slide hidden flex flex-col items-center justify-center gap-2">
-        <img class="w-[300px] sm:w-[500px] lg:w-[436px] h-auto  outline-offset-[-3px]  mb-8"
-            src="/assets/images/K1/sm/sm3.png" />
 
-        <h2 class="text-2xl sm:text-3xl lg:text-5xl text-white max-w-4xl leading-snug stroke">This is a Rube Goldberg
-            Machine.
-            It is named after its creator, Rube Goldberg
-            The <span class="text-amber-300">sun</span> is so <span class="text-amber-300">bright!</span></br>
-            It gives <span class="text-amber-300">light</span> during the day!
-        </h2>
+
+    {{-- Slide 4 --}}
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+        <img src="/assets/images/K1/sm/bell/bell.2.png" />
+        <h2 class="title stroke">This is a Rube Goldberg Machine.
+            It is named after its creator, Rube Goldberg.</h2>
+
     </div>
+
+
 
     {{-- Slide 5  --}}
-    <div class="slide hidden flex flex-col items-center justify-center px-4 text-center">
-        <img class="mb-6 h-auto w-[300px] sm:w-[500px] lg:w-[536px]" src="/assets/images/K1/sm/sm4.png" />
-    </div>
-
-    <div class="flex flex-col items-center justify-center">
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+        <img src="/assets/images/K1/sm/bell/bell.3.png" />
         <h2 class="title stroke">Rube Goldberg was a cartoonist.
             His cartoons were very funny because they showed
             complicated machines that did simple tasks.</h2>
 
-        <img class="mb-6 h-auto w-[300px] sm:w-[500px] lg:w-[536px]" src="/assets/images/K1/sm/sm4.png" />
     </div>
 
-    <!-- Video Trigger Button -->
-    <div data-property-1="Default"
-        class="absolute top-1/2 right-0 z-30 h-24 w-24 -translate-y-1/2 cursor-pointer h-24 w-24 rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-        <img src="/assets/images/K1/sm/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-[80%] " />
-        <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-        <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/K1/sm/play.png" />
-    </div>
-    </div>
+
 
 
     {{-- slide 6 --}}
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+        <img src="/assets/images/K1/sm/bell/bell.2.png" />
+        <h2 class="title stroke">What are the things used in this machine?</h2>
+
+    </div>
+
+
+
+    {{-- sldie 7 --}}
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+        <img src="/assets/images/K1/sm/bell/bell.2.png" />
+
+    </div>
+
+
+    {{-- sldie 8 --}}
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+        <img src="/assets/images/K1/sm/bell/bell1.png" />
+        <h2 class="title stroke">What is the use of this machine?</h2>
+        <p class="note">Note: Have children watch and talk about what happens at the last part of the video
+            (What does the machine do).</p>
+    </div>
+
+
+
+    {{-- sldie 9 --}}
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+        <img src="/assets/images/K1/sm/bell/bell.2.png" />
+        <h2 class="title stroke">So, a Rube Goldberg Machine is made up of
+            many different things. It helps to do a simple task,
+            such as ringing a bell, just for fun!</h2>
+
+    </div>
+
+
+    {{-- sldie 10 --}}
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+        <h2 class="!text-white title stroke"> Class Activity</h2>
+        <h2 class="title stroke">Mission:
+            Build a Rube Goldberg Machine to ring a bell.
+
+            Steps:
+            Put things together to set up the machine.
+            Test the machine.</h2>
+
+    </div>
+
+
+
+    {{-- sldie 11 --}}
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+
+        <h2 class="!text-white title stroke"> Class Activity</h2>
+        <h2 class="title stroke">Possible questions during hands-on session:
+            How do you make the ball roll down?
+            How do you make the ball (always) hit the first domino?
+            How do you make the dominoes (always) fall one after
+            another?
+            How do you make the last domino (always) hit the bell?</h2>
+        <p class="note">Note: Have children freely share their ideas and encourage them to try out the ideas.
+            After hands-on session, continue with reflection on the following pages.</p>
+
+    </div>
+
+
+
+    {{-- sldie 12 --}}
+    <div class=" slide hidden flex flex-col items-center justify-center gap-7">
+        <h2 class="!text-white title stroke"> Reflection</h2>
+        <img src="/assets/images/K1/sm/bell/bell1.png" />
+        <h2 class="title stroke">Why do you think the ball rolls down?
+            What if the book is placed flat? Will the ball roll?</h2>
+    </div>
+
+
+    {{-- sldie 13 --}}
     <div class=" slide hidden flex flex-col items-center justify-center gap-1">
-        <img class="mb-10 h-auto w-[300px] outline outline-[6px] outline-offset-[-3px] outline-orange-400 sm:w-[500px] lg:w-[536px]"
-            src="/assets/images/K1/sm/sm5.png" />
-        <h2 class="title stroke">What are the things used in this machine?
-            <span class="text-white">stars</span> ! The stars give out
-            <span class="text-white">light</span>
-            and they shine
-            <span class="text-white">brightly </span>
-            at night!
-        </h2>
-
-
-        <!-- Video Trigger Button -->
-        <div data-property-1="Default"
-            class="absolute top-1/2 right-0 z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-            <img src="/assets/images/K1/sm/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
-            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/K1/sm/sm5.png" />
-        </div>
-    </div>
-
-
-    {{-- Slide 7 --}}
-    <div class="slide hidden flex flex-col items-center justify-center px-4 text-center">
-        <div class="flex flex-col items-center justify-center gap-1.5">
-            <h2 class="text-4xl text-amber-300 sm:text-5xl lg:text-6xl" style="-webkit-text-stroke: 3px #533705;"></h2>
-
-            <!-- Center Illustration -->
-            <img class="h-auto w-[400px] sm:w-[600px] lg:w-[534px]" src="/assets/images/K1/sm/sm6.png" />
-        </div>
-
-        <div class="text-[55px] text-white" style="-webkit-text-stroke: 3px #533705;"></div>
-
-        <div class="note leading-snug text-wrap"></div>
-
+        <img src="/assets/images/K1/sm/bell/bell1.png" />
+        <h2 class="title stroke">The ball rolls down because of the slope.
+            The slope is commonly known as a ramp.</h2>
     </div>
 
 
 
-    {{-- slide 8 --}}
-    <div class="slide hidden  flex flex-col items-center justify-center gap-1.5">
-        <!-- Center Illustration -->
-        <img class="h-auto w-[400px] sm:w-[600px] lg:w-[534px]" src="/assets/images/K1/sm/sm7.png" />
-        <div class="text-4xl text-amber-300 sm:text-5xl lg:text-6xl" style="-webkit-text-stroke: 3px #533705;">What is the
-            use of this machine?</div>
+    {{-- sldie 14 --}}
+    <div class=" slide hidden flex flex-col items-center justify-center gap-1">
 
-        <!-- Center Illustration -->
-        <img class="h-auto w-[400px] sm:w-[600px] lg:w-[534px]" src="/assets/images/K1/sm/candle.png" />
-
-
-        <div class="note leading-snug text-wrap">Note: Have children watch and talk about what happens at the last part of
-            the video
-            (What does the machine do).</div>
-    </div>
-
-
-    {{-- slide 9 --}}
-    <img class="h-auto w-[400px] sm:w-[600px] lg:w-[534px]" src="/assets/images/K1/sm/sm8.png" />
-    <div class="slide hidden flex flex-col items-center justify-center gap-1.5">So, a Rube Goldberg Machine is made up of
-        many different things. It helps to do a simple task,
-        such as ringing a bell, just for fun!
-        <div class="text-4xl text-amber-300 sm:text-5xl lg:text-6xl" style="-webkit-text-stroke: 3px #533705;">The <span
-                class="text-white">fire</span> in the candle <span class="text-white">light</span> too!</div>
-        <!-- Song Note -->
-        <div class="note leading-snug text-wrap"></div>
-    </div>
-
-
-    {{-- slide 10 --}}
-    <div class="slide hidden flex flex-col items-center ">
-        <div class="flex flex-col items-center justify-center gap-5">
-            <h2 class="text-center justify-start title stroke"> Mission:
-                Build a Rube Goldberg Machine to ring a bell.
-                Steps:
-                <span class="text-white ">
-                    <ul>
-                        <li>Put things together to set up the machine.</li>
-                        <li>Test the machine.</li>
-                    </ul>
-                </span>,
-                <span class="text-white ">stars</span> and <span class="text-white ">fire</span> are natural sources of
-                <span class="text-white ">light</span>.<span class="text-white ">Light</span> help us to see things
-                around us.
-            </h2>
-
-        </div>
-    </div>
-
-
-    {{-- slide 11 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-5">
-        <h2 class="text-center justify-start text-[50px] text-amber-300 stroke">Possible questions during hands-on session:
-            <span class="text white">
-                <ul>
-                    <li>How do you make the ball roll down?</li>
-                    <li>How do you make the ball (always) hit the first domino?</li>
-                    <li>How do you make the dominoes (always) fall one after another?</li>
-                    <li>How do you make the last domino (always) hit the bell?</li>
-                </ul>
-            </span>
-        </h2>
-
-        <div class="note leading-snug text-wrap">Note: Have children freely share their ideas and encourage them to try out
-            the ideas.
-            After hands-on session, continue with reflection on the following pages.</div>
-
-
-    </div>
-
-    {{-- slide 12 --}}
-    <div class="slide hidden  flex flex-col items-center justify-center gap-5">
-        <h2 class="text-center justify-start text-[45px] text-white stroke">Reflection</h2>
-        <img class="h-auto w-[400px] sm:w-[600px] lg:w-[534px]" src="/assets/images/K1/sm/sm9.png" />
-        <h2 class="text-center justify-start title stroke">Why do you think the ball rolls down? What if the book is placed
-            flat? Will the ball roll? <span class="text white">light</span>, the room
-            would be dark and it would be hard to see things around us. </h2>
-
-    </div>
-
-
-    {{-- slide 13 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <h2 class="text-center justify-start text-[45px] text-white stroke"></h2>
-        <div class="flex gap-10 flex-wrap justify-center w-[90%] h-[70%]">
-
-            <img class="w-60 h-44" src="/assets/images/K1/sm/sm10.png" />
-
-        </div>
-
-        <h2 class="text-center justify-start text-[40px] text-amber-300 stroke">Why do you think the ball rolls down?
-            What if the book is placed flat? Will the ball roll? </h2>
-
-    </div>
-
-
-    {{-- slide 14 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img class="h-auto w-[400px] sm:w-[600px] lg:w-[534px]" src="/assets/images/K1/sm/sm11.png" />
-        <h2 class="text-center justify-start text-[55px] text-white stroke">A ramp is the slanting surface with one end
+        <img src="/assets/images/K1/sm/bell/bell.2.png" />
+        <h2 class="title stroke">A ramp is the slanting surface with one end
             higher than the other end.</h2>
+    </div>
+
+
+    {{-- sldie 15 --}}
+    <div class=" slide hidden flex flex-col items-center justify-center gap-1">
+        <img src="/assets/images/K1/sm/bell/bell.2.png" />
+        <h2 class="title stroke">Inclined plane is another name for a ramp.</h2>
+    </div>
+
+
+    {{-- sldie 16 --}}
+    <div class=" slide hidden flex flex-col items-center justify-center gap-1">
+        <img src="/assets/images/K1/sm/bell/bell.2.png" />
+        <h2 class="title stroke">What can you do to make sure that the ball
+            will always hit the target?</h2>
 
     </div>
 
 
-    {{-- slide 15 --}}
-    <div class="slide hidden  flex flex-col items-center justify-center gap-y-3">
-        <h2 class="text-center justify-start text-[45px] text-white">CLASS
-            ACTIVITY 2</h2>
-
-        <img class="h-auto w-[400px] sm:w-[600px] lg:w-[534px]" src="/assets/images/K1/sm/torch.png" />
-
-        <h2 class="text-center justify-start title stroke">The flashlight light up when it is switched on.</h2>
-
-
-    </div>
-
-    {{-- slide 16 --}}
-    <div class="slide  hidden flex flex-col items-center justify-center gap-y-3">
-        <div class="flex items-center gap-x-10">
-
-            <img class="w-[494px] h-80 border-[6px] border-orange-400" src="/assets/images/K1/sm/roof-light.png" />
-            <img class="w-[494px] h-80 border-[6px] border-orange-400" src="/assets/images/K1/sm/lamp.png" />
-        </div>
-
-        <h2 class="text-center justify-start title stroke">The <span class="text-white ">ceiling light</span> and<span
-                class="text-white ">table lamp</span> light up when they are being switched on.</h2>
-
-        <div class="note leading-snug text-wrap">Note: Encourage children to point out the lights in the room.</div>
-
-
-
+    {{-- sldie 17 --}}
+    <div class=" slide hidden flex flex-col items-center justify-center gap-1">
+        <img src="/assets/images/K1/sm/bell/bell4.png" />
+        <h2 class="title stroke">What can you do to make sure that the ball
+            will always hit the target?</h2>
     </div>
 
 
-    {{-- slide 17 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-3">
-        <div class="flex items-center gap-x-10">
+    {{-- sldie 18 --}}
+    <div class=" slide hidden flex flex-col items-center justify-center gap-1">
+        <img src="/assets/images/K1/sm/bell/bell5.png" />
+        <h2 class="title stroke">Why does the first domino fall?</h2>
 
-            <img class="w-[494px] h-80 border-[6px] border-orange-400" src="/assets/images/K1/sm/street.png" />
-            <img class="w-[494px] h-80 border-[6px] border-orange-400" src="/assets/images/K1/sm/car.png" />
-        </div>
-
-        <h2 class="text-center justify-start stroke title">The <span class="text-white ">streetlights</span> and <span
-                class="text-white "> vehicle headlights</span> help
-            people to see better at night.
-        </h2>
-
-        <p class="note leading-snug text-wrap">Note: Encourage children to point out the lights they can see at night.</p>
-
-    </div>
-
-
-    {{-- slide 18 --}}
-
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-3">
-
-        <img src="/assets/images/K1/sm/strlight.png" />
-
-
-        <h2 class="text-center justify-start title stroke">The flashlight, streetlights, table lamps are <span
-                class="text-white"> man-made lights</span>. </h2>
-
-        <h2 class=" text-wrap text-[40px] text-amber-300 stroke">These items need batteries or electricity to give light.
-        </h2>
-    </div>
-
-
-    {{-- slide 19 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-3">
-        <h2 class="text-center justify-start text-[53px] text-white stroke">CLASS ACTIVITY 2</h2>
-
-        <div class="flex gap-10 flex-wrap justify-center w-[80%] h-[70%]">
-
-            <img class="w-[31rem] h-auto" src="/assets/images/K1/sm/dedective.png" />
-
-        </div>
-
-        <h2 class="text-center justify-start title stroke"> What kind of lights are there around us?</h2>
-
-        <p class="note leading-snug text-wrap">Note: Teacher to prepare camera to capture children looking for different
-            light sources.</p>
 
 
     </div>
 
 
-    {{-- slide 20  --}}
-    <div class="slide hidden flex flex-col items-center justify-start ">
-        <h2 class="justify-start text-center text-[55px] text-white stroke">Let’s do:</h2>
 
-        <div class="justify-start title px-5 mb-20">
-            <ol class="stroke list-inside list-decimal space-y-2 text-start">
-                <li>Take a walk around the school or outdoors.</li>
-                <li>Identify all the light sources.</li>
-                <li>Take photos and discuss as a class why is light needed on that place.</li>
-            </ol>
-        </div>
+    {{-- sldie 19 --}}
+    <div class=" slide hidden flex flex-col items-center justify-center gap-1">
 
-        <p class="note">Note: Look out for light sources and take photos using the ipad for
-            the discussion in class. Challenge children to think of reasons why a light source is placed in that area. E.g.
-            park, to light up the path at night.</p>
+        <img src="/assets/images/K1/sm/bell/bell5.png" />
+        <h2 class="title stroke">The first domino falls because of
+            the push from the moving ball.</h2>
+
+
     </div>
 
 
-    {{-- slide 21  --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-5">
+    {{-- sldie 20 --}}
+    <div class=" slide hidden flex flex-col items-center justify-center gap-1">
+        <img src="/assets/images/K1/sm/bell/bell1.png" />
+        <h2 class="title stroke">When you push an object, you use force.
+            So the force from the ball makes the first fall.</h2>
 
-        <h2 class="text-center title stroke">The <span class="text-white">sun</span>,<span
-                class="text-white">stars</span> and <span class="text-white">fire</span> are natural light
-        </h2>
+
+    </div>
 
 
-        <img src="/assets/images/K1/sm/three1.png" />
 
-        <p class="note text-center text-xl text-white leading-snug max-w-2xl">Note: Ask children if they have seen candles
-            on birthday cakes
-            and what happens when the candles are blown out.</p>
+    {{-- sldie 21 --}}
+    <div class=" slide hidden flex flex-col items-center justify-center gap-1">
+        <img src="/assets/images/K1/sm/bell/bell6.png" />
+        <h2 class="title stroke">Why do all the dominoes fall one after another?</h2>
+
     </div>
 
 
     {{-- sldie 22 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-3">
-        <img src="/assets/images/K1/sm/strlight.png" />
+    <div class=" slide hidden flex flex-col items-center justify-center gap-1">
+        <img src="/assets/images/K1/sm/bell/bell1.png" />
+        <h2 class="title stroke">The first domino falls and pushes the second one.
+            The second domino falls and pushes the third one, and so on.</h2>
+    </div>
 
-        <h2 class="w-[80%] justify-start text-center title stroke ">The flashlight, streetlights, table lamps are <span
-                class="text-white"> man-made lights</span>.</h2>
+
+
+    {{-- sldie 23 --}}
+    <div class=" slide hidden flex flex-col items-center justify-center gap-1">
+        <img src="/assets/images/K1/sm/bell/bell7.png" />
+        <h2 class="title stroke">When one action causes the next action, which in turn causes
+            the next action, and so on, we call it a domino effect.</h2>
+    </div>
+
+
+    {{-- sldie 24 --}}
+    <div class=" slide hidden flex flex-col items-center justify-center gap-1">
+        <img src="/assets/images/K1/sm/bell/bell7.png" />
+        <h2 class="title stroke">How do you make sure that the dominoes
+            will always fall one after another?</h2>
+
 
     </div>
+
+
+    {{-- sldie 25 --}}
+    <div class=" slide hidden flex flex-col items-center justify-center gap-1">
+        <img src="/assets/images/K1/sm/bell/bell8.png" />
+        <h2 class="title stroke">When the dominoes are placed too far apart,
+            no domino effect will be seen.</h2>
+
+    </div>
+
+
+    {{-- sldie 26 --}}
+    <div class=" slide hidden flex flex-col items-center justify-center gap-1">
+        <img src="/assets/images/K1/sm/bell/bell9.png" />
+        <h2 class="title stroke">So, the positioning of dominoes is important
+            to create a domino effect.</h2>
+
+
+    </div>
+
+
+    {{-- sldie 27 --}}
+    <div class=" slide hidden flex flex-col items-center justify-center gap-1">
+        <img src="/assets/images/K1/sm/bell/bell6.png" />
+        <h2 class="title stroke">How do you make sure that the bell will always ring?</h2>
+
+    </div>
+
+
+
+    {{-- sldie 28 --}}
+    <div class=" slide hidden flex flex-col items-center justify-center gap-1">
+        <img src="/assets/images/K1/sm/bell/bell10.png" />
+        <h2 class="title stroke">If the bell is hung too high,
+            the last domino will not hit the bell too.</h2>
+    </div>
+
+    {{-- sldie 29 --}}
+    <div class=" slide hidden flex flex-col items-center justify-center gap-1">
+
+        <img src="/assets/images/K1/sm/bell/bell8.png" />
+        <h2 class="title stroke">If the bell is placed too far,
+            the last domino will not hit the bell.</h2>
+
+
+    </div>
+
+
+    {{-- sldie 30 --}}
+    <div class="slide  hidden flex flex-col items-center justify-center gap-y-20">
+        <img src="/assets/images/K1/sm/bell/bell1.png" />
+        <h2 class="text-center title stroke">So, the positioning of the bell from the dominoes is very
+            important to ring the bell always.</h2>
+
+    </div>
+
+
+    {{-- sldie 31 --}}
+    <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
+        <h2 class=" title stroke !text-white">Learning Journal</h2>
+        <div class="w-[836px] h-[536px] bg-cover bg-center"
+            style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
+            <p class="text-center">Draw the Rube Goldberg Machine that you have created to ring a bell.
+            </p>
+        </div>
+    </div>
+
+
+
+
+    {{-- Complete button --}}
     <div class="absolute bottom-[85px]">
         <button
-            class="cursor-pointer doneButton w-66 h-[75px] relative bg-[#F8A23A] rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
+            class="cursor-pointer doneButton w-66 h-[75px] relative bg-[#F8A23A] rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_next0px_rgba(0,0,0,0.25)] 
                     outline outline-1 outline-yellow-700 overflow-hidden">
             <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
-            <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/K1/sm/Vector4.png" />
+            <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" />
             </div>
             <span
                 class="absolute left-[80px] top-[18px] flex items-center  text-white text-5xl font-bold stroke">DONE</span>
         </button>
     </div>
-
-
-
-
 
     {{-- Buttons --}}
     <div id="buttons" class="absolute top-[24px] right-[60px] flex flex-row gap-6 z-40">
@@ -393,8 +342,7 @@
         <!-- Return Button -->
         <a class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
             id="returnButton">
-            <img class="absolute top-[6px] left-[8px] w-20 h-10"
-                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
+            <img class="absolute top-[6px] left-[8px] w-20 h-10" src="{{ asset('assets/images/K1/cm/Vector4.png') }}" />
             <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
             <img class="absolute top-[24px] left-[22px] w-14 h-14"
                 src="{{ asset('assets/images/pptimages/reverse-icon.png') }}" />
@@ -423,9 +371,7 @@
                 class="absolute top-[16px] left-[30px] w-11 h-16 text-white text-6xl font-normal font-['Jua']">X
             </div>
         </button>
-
     </div>
-
     {{-- next Button --}}
     <div class="absolute bottom-[85px]">
 
@@ -438,8 +384,6 @@
             </span>
         </button>
     </div>
-
-
 
 
 @endsection

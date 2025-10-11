@@ -164,7 +164,8 @@
             <li>1. Observe a geodesic dome and answer some questions.</li>
         </ol>
         <img src="/assets/images//K1/str/st33.png" />
-        <p class="note text-center">Note: <a href="" class="text-amber-300">Click here</a> for questions. Guide
+        <p class="note text-center">Note: <a href="" class="text-amber-300 click-btn1">Click here</a> for questions.
+            Guide
             children to identify the characteristics of a geodesic dome.</p>
 
         <!-- Video Trigger Button -->
@@ -177,7 +178,7 @@
     </div>
 
     {{-- click slides --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
+    <div class="slide hidden click1  flex flex-col items-center justify-start  ">
         <h2 class="text-center title stroke">What shapes do you see from a geodesic dome?</h2>
         <img src="/assets/images//K1/str/st33.png" />
         <p class="note text-center">Note: Guide children to spot the shapes (Hemisphere, triangles) from the premade sample.
@@ -192,7 +193,7 @@
         </div>
     </div>
     {{-- sldie==2 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
+    <div class="slide hidden click1  flex flex-col items-center justify-start  ">
         <h2 class="text-center title stroke">Can you find pentagons in this geodesic dome?
             How many are there?</h2>
         <img src="/assets/images//K1/str/st33.png" />
@@ -209,7 +210,7 @@
     </div>
 
     {{-- sldie==3 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
+    <div class="slide hidden click1  flex flex-col items-center justify-start  ">
         <h2 class="text-center title stroke">How many triangles made up a pentagon here?</h2>
         <img src="/assets/images//K1/str/st33.png" />
         <p class="note text-center">Note: Guide children to count the number of triangles in each pentagon.</p>
@@ -224,7 +225,7 @@
     </div>
 
     {{-- sldie==4 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
+    <div class="slide hidden  click1 flex flex-col items-center justify-start  ">
         <h2 class="text-center title stroke">How many triangles made up this geodesic dome?</h2>
         <img src="/assets/images//K1/str/st33.png" />
         <p class="note text-center">Note: Guide children to count the number of triangles in this geodesic [(5x5)+5].</p>
@@ -248,7 +249,8 @@
         </ol>
         <img src="/assets/images//K1/str/st34.png" />
         <p class="note text-center">Note: Give each group a set of materials to work on.
-            <a href="" class="text-amber-300">Click here</a> to have all children learn how to make a pentagon.
+            <a href="" class="text-amber-300 click-btn2">Click here</a> to have all children learn how to make a
+            pentagon.
         </p>
 
         <!-- Video Trigger Button -->
@@ -262,7 +264,7 @@
     {{-- ==== --}}
     {{-- click slides --}}
     {{-- step 1 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
+    <div class="slide hidden click2  flex flex-col items-center justify-start  ">
         <h2 class="text-center title stroke">How to make a pentagon? - Step 1 of 7</h2>
         <img src="/assets/images//K1/str/st35.png" />
         <p class="note text-center">Note: Have children observe the video, talk about how to do the step and then learn how
@@ -278,7 +280,7 @@
         </div>
     </div>
     {{-- step 2 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
+    <div class="slide hidden click2  flex flex-col items-center justify-start  ">
         <h2 class="text-center title stroke">How to make a pentagon? - Step 2 of 7</h2>
         <img src="/assets/images//K1/str/st36.png" />
         <p class="note text-center">Note: Have children observe the video, talk about how to do the step and then learn how
@@ -294,7 +296,7 @@
     </div>
 
     {{-- step 3 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
+    <div class="slide hidden click2  flex flex-col items-center justify-start  ">
         <h2 class="text-center title stroke">How to make a pentagon? - Step 3 of 7</h2>
         <img src="/assets/images//K1/str/st37.png" />
         <p class="note text-center">Note: Have children observe the video, talk about how to do the step and then learn how
@@ -309,7 +311,7 @@
         </div>
     </div>
     {{-- step 4 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
+    <div class="slide hidden click2  flex flex-col items-center justify-start  ">
         <h2 class="text-center title stroke">How to make a pentagon? - Step 4 of 7</h2>
         <img src="/assets/images//K1/str/st38.png" />
         <p class="note text-center">Note: Have children observe the video, talk about how to do the step and then learn how
@@ -324,7 +326,7 @@
         </div>
     </div>
     {{-- step 5 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
+    <div class="slide hidden click2  flex flex-col items-center justify-start  ">
         <h2 class="text-center title stroke">How to make a pentagon? - Step 5 of 7</h2>
         <img src="/assets/images//K1/str/st39.png" />
         <p class="note text-center">Note: Have children observe the video, talk about how to do the step and then learn how
@@ -339,7 +341,7 @@
         </div>
     </div>
     {{-- step 6 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
+    <div class="slide hidden click2  flex flex-col items-center justify-start  ">
         <h2 class="text-center title stroke">How to make a pentagon? - Step 6 of 7</h2>
         <img src="/assets/images//K1/str/st40.png" />
         <p class="note text-center">Note: Have children observe the video, talk about how to do the step and then learn how
@@ -355,7 +357,7 @@
     </div>
 
     {{-- step 7 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
+    <div class="slide hidden click2  flex flex-col items-center justify-start  ">
         <h2 class="text-center title stroke">How to make a pentagon? - Step 7 of 7</h2>
         <img src="/assets/images//K1/str/st41.png" />
         <p class="note text-center">Note: Have children observe the video, talk about how to do the step and then learn how
@@ -396,13 +398,13 @@
         </ol>
         <img src="/assets/images//K1/str/st43.png" />
         <p class="note text-center">Note: Have children work in groups to complete the step. <a href=""
-                class="text-amber-300">Click here</a> to see a way to join them together.</p>
+                class="text-amber-300 click-btn3">Click here</a> to see a way to join them together.</p>
     </div>
 
 
 
-    {{-- slide 19 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
+    {{-- slide 19 click --}}
+    <div class="slide hidden click3  flex flex-col items-center justify-start  ">
         <img src="/assets/images//K1/str/st44.png" />
         <p class="note text-center">Note: Have children observe the video, talk about how to do the step and then learn how
             to do so.</p>
@@ -417,8 +419,8 @@
     </div>
 
 
-    {{-- slide 20  --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
+    {{-- slide 20  click --}}
+    <div class="slide hidden click3  flex flex-col items-center justify-start  ">
         <img src="/assets/images//K1/str/st45.png" />
         <p class="note text-center">Note: Have children observe the video, talk about how to do the step and then learn how
             to do so. </p>
@@ -434,13 +436,13 @@
         </ol>
         <img src="/assets/images//K1/str/st46.png" />
         <p class="note text-center">Note: Have children work in groups to complete the step. <a href=""
-                class="text-amber-300">Click here</a> to see a way to join them together.</p>
+                class="text-amber-300 click-btn4">Click here</a> to see a way to join them together.</p>
     </div>
 
 
 
-    {{-- sldie 22 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
+    {{-- sldie 22 click slide  --}}
+    <div class="slide hidden click4  flex flex-col items-center justify-start  ">
         <img src="/assets/images//K1/str/st47.png" />
         <p class="note text-center">Note: Have children observe the video, talk about how to do the step and then learn how
             to do so.</p>
@@ -509,12 +511,13 @@
                 building the look of your tall building. </li>
         </ol>
         <img src="/assets/images//K1/str/st18.png" />
-        <p class="note text-center">Note: Encourage children to try to find their own building techniques. Click here to
+        <p class="note text-center">Note: Encourage children to try to find their own building techniques. <a
+                href=""class="text-amber-300 click-btn5">Click here</a> to
             see a way to build.</p>
     </div>
 
-    {{-- slide --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
+    {{--  click slide --}}
+    <div class="slide hidden click5  flex flex-col items-center justify-start  ">
         <img src="/assets/images//K1/str/st50.png" />
         <p class="note text-center">Note: Give children more time to explore and learn their own building techniques.Pause
             once or twice to point out good building techniques.</p>
@@ -657,17 +660,26 @@
             const slides = document.querySelectorAll(".slide");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
-            const doneButton = document.querySelector(".doneButton"); // ✅ DONE button
+            const doneButton = document.querySelector(".doneButton");
+
+            // Get all click buttons (click-btn1, click-btn2, etc.)
+            const clickButtons = document.querySelectorAll("[class*='click-btn']");
 
             let currentSlide = 0;
+            let parentSlideIndex = null;
+            let isViewingClickSlides = false;
+            let currentClickClass = null; // Track which click class we're viewing (click1, click2, etc.)
 
             function showSlide(index) {
                 slides.forEach((slide, i) => {
                     slide.classList.toggle("hidden", i !== index);
                 });
 
-                // ✅ Agar last slide hai → NEXT button hide, DONE show
-                if (index === slides.length - 1) {
+                // Check if last slide OR last click slide
+                const isLastSlide = index === slides.length - 1;
+                const isLastClickSlide = isViewingClickSlides && !hasNextClickSlide(index);
+
+                if (isLastSlide || isLastClickSlide) {
                     nextButtons.forEach(btn => btn.classList.add("hidden"));
                     if (doneButton) doneButton.classList.remove("hidden");
                 } else {
@@ -676,31 +688,135 @@
                 }
             }
 
-            // ✅ NEXT buttons listener
-            nextButtons.forEach((btn) => {
-                btn.addEventListener("click", () => {
-                    if (currentSlide < slides.length - 1) {
-                        currentSlide++;
-                        showSlide(currentSlide);
+            // Check if there's another click slide with same class after current one
+            function hasNextClickSlide(currentIndex) {
+                if (!currentClickClass) return false;
+
+                for (let i = currentIndex + 1; i < slides.length; i++) {
+                    if (slides[i].classList.contains(currentClickClass)) {
+                        return true;
+                    }
+                }
+                return false;
+            }
+
+            // Get click class from button (click-btn1 → click1, click-btn2 → click2)
+            function getClickClassFromButton(button) {
+                const classList = Array.from(button.classList);
+                const clickBtnClass = classList.find(cls => cls.startsWith('click-btn'));
+                if (clickBtnClass) {
+                    // Extract number from click-btn1, click-btn2, etc.
+                    const number = clickBtnClass.replace('click-btn', '');
+                    return 'click' + number;
+                }
+                return null;
+            }
+
+            // Click button handlers
+            clickButtons.forEach((btn) => {
+                btn.addEventListener("click", (e) => {
+                    e.preventDefault(); // Prevent default anchor behavior
+
+                    parentSlideIndex = currentSlide;
+                    isViewingClickSlides = true;
+                    currentClickClass = getClickClassFromButton(btn);
+
+                    // Find the first slide with matching click class
+                    for (let i = 0; i < slides.length; i++) {
+                        if (slides[i].classList.contains(currentClickClass)) {
+                            currentSlide = i;
+                            showSlide(currentSlide);
+                            break;
+                        }
                     }
                 });
             });
 
-            // ✅ Return button
+            // NEXT button - skip click slides if not viewing them
+            nextButtons.forEach((btn) => {
+                btn.addEventListener("click", () => {
+                    if (currentSlide < slides.length - 1) {
+                        currentSlide++;
+
+                        // Skip click slides if not viewing them
+                        while (!isViewingClickSlides &&
+                            currentSlide < slides.length &&
+                            isClickSlide(slides[currentSlide])) {
+                            currentSlide++;
+                        }
+
+                        // If viewing click slides, only show slides with current click class
+                        if (isViewingClickSlides) {
+                            while (currentSlide < slides.length &&
+                                !slides[currentSlide].classList.contains(currentClickClass)) {
+                                currentSlide++;
+                            }
+                        }
+
+                        if (currentSlide < slides.length) {
+                            showSlide(currentSlide);
+                        }
+                    }
+                });
+            });
+
+            // Check if slide is any click slide (click1, click2, etc.)
+            function isClickSlide(slide) {
+                return Array.from(slide.classList).some(cls => cls.startsWith('click') && cls.match(/^click\d+$/));
+            }
+
+            // Return button
             returnButton.addEventListener("click", () => {
-                if (currentSlide > 0) {
+                if (isViewingClickSlides && currentSlide > 0) {
+                    // Check if previous slide is also same click class
+                    let prevSlide = currentSlide - 1;
+
+                    // Find previous slide with same click class
+                    while (prevSlide >= 0 && !slides[prevSlide].classList.contains(currentClickClass)) {
+                        prevSlide--;
+                    }
+
+                    if (prevSlide >= 0 && slides[prevSlide].classList.contains(currentClickClass)) {
+                        currentSlide = prevSlide;
+                        showSlide(currentSlide);
+                    } else {
+                        // No more click slides, return to parent
+                        currentSlide = parentSlideIndex;
+                        isViewingClickSlides = false;
+                        currentClickClass = null;
+                        parentSlideIndex = null;
+                        showSlide(currentSlide);
+                    }
+                } else if (currentSlide > 0) {
                     currentSlide--;
+
+                    // Skip click slides when going back
+                    while (currentSlide > 0 && isClickSlide(slides[currentSlide])) {
+                        currentSlide--;
+                    }
+
                     showSlide(currentSlide);
                 }
             });
 
+            // DONE button handler
             if (doneButton) {
                 doneButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('buildingSelection') }}";
+                    if (isViewingClickSlides && parentSlideIndex !== null) {
+                        // Return to parent slide
+                        currentSlide = parentSlideIndex;
+                        isViewingClickSlides = false;
+                        currentClickClass = null;
+                        parentSlideIndex = null;
+                        showSlide(currentSlide);
+                    } else {
+                        // Navigate to route
+                        window.location.href = "{{ route('go1Selection') }}";
+                    }
                 });
             }
 
-            // ✅ Start with first slide
+            // Start with first slide
             showSlide(currentSlide);
         });
     </script>

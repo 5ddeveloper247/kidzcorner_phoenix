@@ -84,12 +84,12 @@
                 questions.</li>
         </ol>
         <img src="/assets/images//K1/str/r4.png" />
-        <p class="note text-center">Note: <a href="" class="text-amber-300">Click here</a>Click here for questions.
+        <p class="note text-center">Note: <a href="" class="text-amber-300 click-btn1">Click here</a> for questions.
             Guide children to identify the characteristics of a roller coaster.</p>
 
     </div>
     {{-- step 1 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
+    <div class="slide hidden click1  flex flex-col items-center justify-start  ">
         <h2 class="text-center title stroke">Where are the starting and end of this roller coaster?</h2>
         <img src="/assets/images//K1/str/r5.png" />
         <p class="note text-center">Note: Guide children to spot the start and end of this roller coaster.</p>
@@ -103,7 +103,7 @@
         </div>
     </div>
     {{-- step 2 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
+    <div class="slide hidden click1  flex flex-col items-center justify-start  ">
         <h2 class="text-center title stroke">Where kind of structures are built to make the track elevated?</h2>
         <img src="/assets/images//K1/str/r5.png" />
         <p class="note text-center">Note: Guide children to talk about the shape and size of the support structures of this
@@ -119,7 +119,7 @@
     </div>
 
     {{-- step 3 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
+    <div class="slide hidden click1  flex flex-col items-center justify-start  ">
         <h2 class="text-center title stroke">Where are the turns an slopes of the track?</h2>
         <img src="/assets/images//K1/str/r5.png" />
         <p class="note text-center">Note: Guide children to spot the turns and slopes of the track of this roller coaster.
@@ -134,7 +134,7 @@
         </div>
     </div>
     {{-- step 4 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
+    <div class="slide hidden click1  flex flex-col items-center justify-start  ">
         <h2 class="text-center title stroke">How to set up the turns and slopes of the track?</h2>
         <img src="/assets/images//K1/str/r5.png" />
         <p class="note text-center">Note: Guide children to understand that supports of different heights allow us to create
@@ -158,11 +158,11 @@
         </ol>
         <img src="/assets/images//K1/str/r6.png" />
         <p class="note text-center">Give each group a set of materials to work on. <a href=""
-                class="text-amber-300">Click here</a> to follow the step-by-step guide.</p>
+                class="text-amber-300 click-btn2">Click here</a> to follow the step-by-step guide.</p>
     </div>
 
     {{-- step 1 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
+    <div class="slide hidden click2  flex flex-col items-center justify-start  ">
         <h2 class="text-center title stroke">How to build the track of a ball roller coaster? <br>
             i. Make 2 short pieces of tracks.</h2>
         <div class="flex items-center gap-10">
@@ -186,7 +186,7 @@
 
 
     {{-- step 2 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
+    <div class="slide hidden click2  flex flex-col items-center justify-start  ">
         <h2 class="text-center title stroke">How to build the track of a ball roller coaster? <br>
             ii. Make 7 long pieces of tracks</h2>
         <div class="flex items-center gap-10">
@@ -209,7 +209,7 @@
     </div>
 
     {{-- step 3 --}}
-    <div class="slide hidden  flex flex-col justify-start  ">
+    <div class="slide hidden click2  flex flex-col justify-start  ">
         <h2 class="text-start title stroke">How to build the track of a ball roller coaster? <br>
             iii. Join all the long pieces of tracks together as a long track</h2>
         <div class="flex items-center gap-10">
@@ -231,7 +231,7 @@
         </div>
     </div>
     {{-- step 4 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
+    <div class="slide hidden click2  flex flex-col items-center justify-start  ">
         <h2 class="text-start title stroke">How to build the track of a ball roller coaster? <br>
             iv. Join all the short pieces of track to each end of the long track</h2>
         <img src="/assets/images//K1/str/r10.png" />
@@ -261,11 +261,12 @@
             </ol>
         </div>
         <img src="/assets/images//K1/str/r11.png" />
-        <p class="note text-center">Note: Give each group a set of materials to work on. Click here to follow the step-by
+        <p class="note text-center">Note: Give each group a set of materials to work on. <a href=""
+                class="text-amber-300 click-btn3">Click here</a> to follow the step-by
             step guide.</p>
     </div>
     {{-- step 1 --}}
-    <div class="slide hidden  flex flex-col justify-start  ">
+    <div class="slide hidden click3  flex flex-col justify-start  ">
         <h2 class="text-start title stroke">How to build support for the track of a ball roller coaster? <br>
             i. Make a pyramid.</h2>
         <div class="flex items-center gap-10">
@@ -284,7 +285,7 @@
         </div>
     </div>
     {{-- step 2 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
+    <div class="slide hidden click3  flex flex-col items-center justify-start  ">
         <h2 class="text-start title stroke">How to build support for the track of a ball roller coaster? <br>
             i. Make a total of 10 pyramids of different heights.</h2>
         <img src="/assets/images//K1/str/r13.png" />
@@ -313,12 +314,13 @@
             </ol>
         </div>
         <img src="/assets/images//K1/str/r4.png" />
-        <p class="note text-center">Note: Give each group a set of materials to work on. <a href="">Click here</a>
+        <p class="note text-center">Note: Give each group a set of materials to work on. <a href=""
+                class="text-amber-300 click-btn4">Click here</a>
             to follow the step-by
             step guide.</p>
     </div>
     {{-- step 1 --}}
-    <div class="slide hidden  flex flex-col justify-start  ">
+    <div class="slide hidden  click4 flex flex-col justify-start  ">
         <h2 class="text-start title stroke">How to fix the track on a support?</h2>
         <div class="flex items-center gap-10">
             <img src="/assets/images//K1/str/r14.png" />
@@ -348,12 +350,13 @@
             </ol>
         </div>
         <img src="/assets/images//K1/str/r15.png" />
-        <p class="note text-center">Note: Give each group a set of materials to work on. <a href="">Click here</a>
+        <p class="note text-center">Note: Give each group a set of materials to work on. <a href=""
+                class="text-amber-300 click-btn5">Click here</a>
             to follow the step-by
             step guide.</p>
     </div>
     {{-- step 1 --}}
-    <div class="slide hidden  flex flex-col justify-start  ">
+    <div class="slide hidden click5  flex flex-col justify-start  ">
         <h2 class="text-start title stroke">How to make a ball roll down the track smoothly?</h2>
         <div class="flex items-center gap-10">
             <img src="/assets/images//K1/str/r16.png" />
@@ -371,10 +374,6 @@
     </div>
 
 
-
-
-
-
     {{-- slide 12 --}}
     <div class="slide hidden  flex flex-col items-center justify-start gap-30  ">
         <div class="title stroke text-start">
@@ -387,19 +386,6 @@
             this engineering
             activity (refer to the possible questions for reflection in the teacher's mode).</p>
     </div>
-
-
-    
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -482,17 +468,26 @@
             const slides = document.querySelectorAll(".slide");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
-            const doneButton = document.querySelector(".doneButton"); // ✅ DONE button
+            const doneButton = document.querySelector(".doneButton");
+
+            // Get all click buttons (click-btn1, click-btn2, etc.)
+            const clickButtons = document.querySelectorAll("[class*='click-btn']");
 
             let currentSlide = 0;
+            let parentSlideIndex = null;
+            let isViewingClickSlides = false;
+            let currentClickClass = null; // Track which click class we're viewing (click1, click2, etc.)
 
             function showSlide(index) {
                 slides.forEach((slide, i) => {
                     slide.classList.toggle("hidden", i !== index);
                 });
 
-                // ✅ Agar last slide hai → NEXT button hide, DONE show
-                if (index === slides.length - 1) {
+                // Check if last slide OR last click slide
+                const isLastSlide = index === slides.length - 1;
+                const isLastClickSlide = isViewingClickSlides && !hasNextClickSlide(index);
+
+                if (isLastSlide || isLastClickSlide) {
                     nextButtons.forEach(btn => btn.classList.add("hidden"));
                     if (doneButton) doneButton.classList.remove("hidden");
                 } else {
@@ -501,31 +496,135 @@
                 }
             }
 
-            // ✅ NEXT buttons listener
-            nextButtons.forEach((btn) => {
-                btn.addEventListener("click", () => {
-                    if (currentSlide < slides.length - 1) {
-                        currentSlide++;
-                        showSlide(currentSlide);
+            // Check if there's another click slide with same class after current one
+            function hasNextClickSlide(currentIndex) {
+                if (!currentClickClass) return false;
+
+                for (let i = currentIndex + 1; i < slides.length; i++) {
+                    if (slides[i].classList.contains(currentClickClass)) {
+                        return true;
+                    }
+                }
+                return false;
+            }
+
+            // Get click class from button (click-btn1 → click1, click-btn2 → click2)
+            function getClickClassFromButton(button) {
+                const classList = Array.from(button.classList);
+                const clickBtnClass = classList.find(cls => cls.startsWith('click-btn'));
+                if (clickBtnClass) {
+                    // Extract number from click-btn1, click-btn2, etc.
+                    const number = clickBtnClass.replace('click-btn', '');
+                    return 'click' + number;
+                }
+                return null;
+            }
+
+            // Click button handlers
+            clickButtons.forEach((btn) => {
+                btn.addEventListener("click", (e) => {
+                    e.preventDefault(); // Prevent default anchor behavior
+
+                    parentSlideIndex = currentSlide;
+                    isViewingClickSlides = true;
+                    currentClickClass = getClickClassFromButton(btn);
+
+                    // Find the first slide with matching click class
+                    for (let i = 0; i < slides.length; i++) {
+                        if (slides[i].classList.contains(currentClickClass)) {
+                            currentSlide = i;
+                            showSlide(currentSlide);
+                            break;
+                        }
                     }
                 });
             });
 
-            // ✅ Return button
+            // NEXT button - skip click slides if not viewing them
+            nextButtons.forEach((btn) => {
+                btn.addEventListener("click", () => {
+                    if (currentSlide < slides.length - 1) {
+                        currentSlide++;
+
+                        // Skip click slides if not viewing them
+                        while (!isViewingClickSlides &&
+                            currentSlide < slides.length &&
+                            isClickSlide(slides[currentSlide])) {
+                            currentSlide++;
+                        }
+
+                        // If viewing click slides, only show slides with current click class
+                        if (isViewingClickSlides) {
+                            while (currentSlide < slides.length &&
+                                !slides[currentSlide].classList.contains(currentClickClass)) {
+                                currentSlide++;
+                            }
+                        }
+
+                        if (currentSlide < slides.length) {
+                            showSlide(currentSlide);
+                        }
+                    }
+                });
+            });
+
+            // Check if slide is any click slide (click1, click2, etc.)
+            function isClickSlide(slide) {
+                return Array.from(slide.classList).some(cls => cls.startsWith('click') && cls.match(/^click\d+$/));
+            }
+
+            // Return button
             returnButton.addEventListener("click", () => {
-                if (currentSlide > 0) {
+                if (isViewingClickSlides && currentSlide > 0) {
+                    // Check if previous slide is also same click class
+                    let prevSlide = currentSlide - 1;
+
+                    // Find previous slide with same click class
+                    while (prevSlide >= 0 && !slides[prevSlide].classList.contains(currentClickClass)) {
+                        prevSlide--;
+                    }
+
+                    if (prevSlide >= 0 && slides[prevSlide].classList.contains(currentClickClass)) {
+                        currentSlide = prevSlide;
+                        showSlide(currentSlide);
+                    } else {
+                        // No more click slides, return to parent
+                        currentSlide = parentSlideIndex;
+                        isViewingClickSlides = false;
+                        currentClickClass = null;
+                        parentSlideIndex = null;
+                        showSlide(currentSlide);
+                    }
+                } else if (currentSlide > 0) {
                     currentSlide--;
+
+                    // Skip click slides when going back
+                    while (currentSlide > 0 && isClickSlide(slides[currentSlide])) {
+                        currentSlide--;
+                    }
+
                     showSlide(currentSlide);
                 }
             });
 
+            // DONE button handler
             if (doneButton) {
                 doneButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('rollerSelection') }}";
+                    if (isViewingClickSlides && parentSlideIndex !== null) {
+                        // Return to parent slide
+                        currentSlide = parentSlideIndex;
+                        isViewingClickSlides = false;
+                        currentClickClass = null;
+                        parentSlideIndex = null;
+                        showSlide(currentSlide);
+                    } else {
+                        // Navigate to route
+                        window.location.href = "{{ route('go1Selection') }}";
+                    }
                 });
             }
 
-            // ✅ Start with first slide
+            // Start with first slide
             showSlide(currentSlide);
         });
     </script>

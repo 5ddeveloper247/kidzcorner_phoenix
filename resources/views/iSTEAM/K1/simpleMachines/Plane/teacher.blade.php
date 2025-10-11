@@ -18,18 +18,15 @@
 
 
 @section('content')
-
-
-
-
-    {{-- sldie 23  --}}
+    {{-- sldie 1  --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
             <h2 class="  font-bold">Children will be able to:</h2>
             <ul class="list-disc ">
-                <li>Explore items with lights</li>
-                <li>Develop awareness of natural and man-made light sources</li>
-                <li>Understand how lights are useful to us and where lights can be found</li>
+                <li>Learn what a simple machine is</li>
+                <li>Explore and learn about the characteristics of a simple machine - inclined plane</li>
+                <li>Understand the uses of an inclined plane</li>
+                <li>Understand that the steepness of an inclined plane affects how far a car will go</li>
                 <li>Develop understanding through inquiry</li>
             </ul>
         </div>
@@ -37,62 +34,144 @@
         <div class="flex w-[100%] items-center justify-between">
             <div>
                 <h2 class="text-[33px] font-bold">Keywords:</h2>
-                <ul class="list-disc ">
-                    <li>Sun</li>
-                    <li>Bright / Brightly</li>
-                    <li>Light</li>
-                    <li>Stars</li>
-                    <li>Fire</li>
-                    <li>Natural</li>
-                    <li>Natural Lights</li>
-                    <li>Man-made Lights</li>
-                </ul>
+
+                <div class="flex gap-20">
+                    <ul class="list-disc ">
+                        <li>Simple Machine</li>
+                        <li>Ramp</li>
+                        <li>Inclined Plane</li>
+
+                    </ul>
+                </div>
             </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" />
         </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute right-[250px] bottom-[150px]" />
     </div>
 
 
 
-    {{-- slide 24 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start w-[75%]">
+    {{-- slide 2 --}}
+    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Preparations for Class Activity I:</h2>
-            <ul class="list-disc ">
-                <li>iPad (make sure children handle with care)</li>
-                <li>Torch lights or any other battery-operated lights</li>
-                <li>Table lamp or night light (teacher can plug them into the socket and demonstrate how these light up, do
-                    not let children handle these)</li>
-            </ul>
-        </div>
-
-        <div class="flex w-[100%] items-center justify-between">
-            <div>
-                <h2 class="font-bold">Links to Songs:</h2>
+            <h2 class="font-bold">Preparations:</h2>
+            <div class="flex   justify-between">
                 <ul class="list-disc ">
-                    <li>
-                        <strong>Mr Golden Sun</strong>
-                        <ul class="list-disc space-y-1 pl-6">
-                            <li>Sun: <a href="https://youtu.be/pIrC_OhEHJM" target="_blank"
-                                    class="text-blue-600 underline">Watch here</a></li>
-                            <li>Mr Golden Sun: <a href="https://youtu.be/hlzvrEfyL2Y" target="_blank"
-                                    class="text-blue-600 underline">Watch here</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <strong>Twinkle Twinkle Little Star</strong>
-                        <a href="https://www.youtube.com/watch?v=NiRf84t4i5I" target="_blank"
-                            class="text-blue-600 underline">Watch here</a>
-                    </li>
+                    <li>1 height adjustable inclined plane (set up with any suitable items; can form with a board or
+                        cardboard and 3 boxes of same heights)</li>
+                    <li>1 measuring mat</li>
+                    <li>1 toy car</li>
+                    <li>1 sticky note pad</li>
                 </ul>
+
             </div>
-
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" />
-
+            <img src="/assets/images/K1/sm/plane/plane9.png" />
         </div>
+
+
+
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute right-[250px] bottom-[150px]" />
     </div>
 
-    {{-- slide 25 --}}
+    {{-- sldie 3 --}}
+    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+
+        <div>
+            <h2 class="font-bold">how to do the experiment and things to consider:</h2>
+            <div class="flex   justify-between">
+                <ul class="list-decimal ">
+                    <li>Have children roll a car down an inclined plane to see how far it goes.
+                        Use a sticky note to mark the result on the measuring mat.</li>
+
+                </ul>
+
+            </div>
+            <img src="/assets/images/K1/sm/plane/plane11.png" />
+        </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute right-[250px] bottom-[150px]" />
+    </div>
+
+
+    {{-- sldie 4 --}}
+    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+
+        <div>
+            <h2 class="font-bold">how to do the experiment and things to consider:</h2>
+            <div class="flex   justify-between">
+                <ul class="list-none">
+                    <li>
+                        2.Let children adjust the height of the inclined plane and test again.
+                        [Guide children to count and compare results.]</li>
+
+                </ul>
+
+            </div>
+            <div class="flex justify-around gap-1">
+
+                <img class="w-[300px] h-[200px]   pt-3" src=" /assets/images/K1/sm/plane/plane13.png" />
+                <img class="w-[300px] h-[200px]  pt-3" src="/assets/images/K1/sm/plane/plane13.png" />
+                <img class="w-[300px] h-[200px]   pt-3" src="/assets/images/K1/sm/plane/plane13.png" />
+            </div>
+        </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute right-[250px] bottom-[150px]" />
+    </div>
+
+
+
+
+    {{-- sldie 5 --}}
+    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+
+        <div>
+            <h2 class="font-bold">how to do the experiment and things to consider:</h2>
+            <div class="flex   justify-between">
+                <ul class="list-none ">
+                    <li>
+                        3.Guide children to make conclusions based on their experiment results</li>
+
+                </ul>
+
+            </div>
+            <img src="/assets/images/K1/sm/plane/plane14.png" />
+        </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute right-[250px] bottom-[150px]" />
+    </div>
+
+
+    {{-- sldie 6 --}}
+    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+        <div>
+            <h2 class="font-bold">To carry out this experiment successfully, you may consider:</h2>
+            <div class="flex   justify-between">
+                <ul class="list-disc ">
+
+                    <li>Paste the first unit of the measuring mat on the lower end of the inclined plane, so that the car
+                        will move smoothly from the inclined plane to the floor.</li>
+                    <li>If the length of the prepared inclined plane (e.g. board) is not very long, the steepness of the
+                        inclined plane (e.g. height of the 3 boxes) should not be too much (too high) because the car might
+                        crash on the floor and slow down before continuing to move on.</li>
+                    <li>Use different toy cars to do a test run and choose one that is suitable for the experiment
+                        beforehand.</li>
+
+
+                </ul>
+
+            </div>
+        </div>
+
+
+
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute right-[250px] bottom-[150px]" />
+    </div>
+
+
+
+    {{-- slide 7 --}}
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
@@ -103,7 +182,7 @@
                         <span
                             class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
                             <!-- Decorative Vector -->
-                            <img src="assets/images/pptimages/Vector4.png"
+                            <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
                                 class="absolute top-[4px] left-[6px] h-6 w-[80%]" />
                             <div class="absolute top-[7px] left-[12px] h-2.5 w-3.5 rounded-sm bg-white"></div>
                             <img src="{{ asset('assets/images/pptimages/play.png') }}"
@@ -115,7 +194,7 @@
                         If you see
                         <span
                             class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-amber-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-                            <img src="assets/images/pptimages/Vector4.png"
+                            <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
                                 class="absolute top-[4px] left-[6px] h-6 w-[80%]" />
                             <div class="absolute top-[7px] left-[12px] h-2.5 w-3.5 rounded-sm bg-white"></div>
                             <img src="{{ asset('assets/images/pptimages/info.png') }}"
@@ -133,7 +212,7 @@
                         Click on this <span class="font-bold">shortcut icon</span>
                         <span
                             class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-                            <img src="assets/images/pptimages/Vector4.png"
+                            <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
                                 class="absolute top-[4px] left-[6px] h-6 w-[80%]" />
                             <div class="absolute top-[7px] left-[12px] h-2.5 w-3.5 rounded-sm bg-white"></div>
                             <img src="{{ asset('assets/images/pptimages/home-icon.png') }}"
@@ -144,42 +223,87 @@
                 </ul>
             </div>
             <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" />
-
         </div>
-
     </div>
 
+    {{-- slide 8 --}}
 
-    {{--  slide 26 --}}
-    <div class=" slide text-white flex flex-col justify-start text-start text-2xl">
-        <h1 class="stroke font-bold">Let’s sort!</h1>
+
+    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Preparations for Class Activity I:</h2>
-            <p>Place pictures of various items such as pot of plant, bottle, shoe, sock, box, elephant, lamp, light
-                bulb,
-                sun, stars, lightning, firefly, ceiling light, handphone, TV.</p>
-        </div>
+            <h2 class="font-bold title stroke !text-center">Which height of the inclined plane do you think <br>
+                will make the car go the longest distance?</h2>
 
-        <div class="flex w-[100%] items-center justify-between">
-            <div>
-                <h2 class="font-bold">What to do:</h2>
-                <ul>
-                    <li>
-                        <strong>*</strong> Invite children to pick up pictures and sort them into groups:
-                        <ul class="mt-2 list-[lower-alpha] space-y-1 pl-6">
-                            <li>Gives light or Does not give light</li>
-                            <li>Natural light or Man-made light</li>
-                        </ul>
-                    </li>
-                </ul>
+
+            <div class="flex justify-center align-middle">
+
+                <img class="!text-center" src="/assets/images/K1/sm/plane/plane10.png" />
             </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" />
-
+            <p class="!text-white"> Note: Plot children's prediction on the graph. At the end, put a star to mark the final
+                result.</p>
         </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute right-[250px] bottom-[150px]" />
     </div>
 
+
+    {{-- slide 9 --}}
+    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+        <div>
+            <div class="!text-center">
+
+                <h2 class="font-bold title stroke  mb-3">Learning Centre Idea
+                </h2>
+            </div>
+            <br>
+            <h2 class="font-bold  !text-white">How to make the car move to the place that you want? </h2>
+
+            <ul class="list-none">
+                <li>What and how to set up: </li>
+                <li>Place things as listed in preparations and some other things like
+                    boxes of different heights here.</li>
+            </ul>
+
+<br>
+<br>
+<br>
+
+            <h2 class="font-bold !text-white ">What to do: </h2>
+
+            <ul class="list-none">
+
+                <li>1.Think of how far you want the car to move to. Use a sticky note
+     to mark it on the measuring mat.</li>
+                <li>2.Change the height of the inclined plane and test if the car will
+                    roll down the inclined plane and reach the place that you want. </li>
+
+            </ul>
+
+
+
+
+
+
+
+
+        </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute right-[250px] bottom-[150px]" />
+    </div>
+
+
+
+
+
+
+
+
+
+    {{-- ========================================================== --}}
+    {{-- Buttons --}}
     <div class="absolute bottom-0">
-        <button class="cursor-pointer doneButton w-66 h-[75px] relative bg-[#F8A23A] rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
+        <button
+            class="cursor-pointer doneButton w-66 h-[75px] relative bg-[#F8A23A] rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
                     outline outline-1 outline-yellow-700 overflow-hidden">
             <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
             <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" />
@@ -189,18 +313,13 @@
         </button>
     </div>
 
-
-
-
-
-
-    {{-- Buttons --}}
     <div id="buttons" class="absolute top-0 right-[60px] flex flex-row gap-6 z-90">
 
         <!-- Return Button -->
         <a class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
             id="returnButton">
-            <img class="absolute top-[6px] left-[8px] w-20 h-10" src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
+            <img class="absolute top-[6px] left-[8px] w-20 h-10"
+                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
             <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
             <img class="absolute top-[24px] left-[22px] w-14 h-14"
                 src="{{ asset('assets/images/pptimages/reverse-icon.png') }}" />

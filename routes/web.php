@@ -122,15 +122,14 @@ Route::get('/debug-routes', function () {
 
 
 // iSTEAM
-Route::get('/item-component',function(){
+Route::get('/ISTEAM',function(){
     return view('iSTEAM.index');
-
-});
+})->name('isteam');
 
 // N1
 Route::get('/N1',function(){
     return view('iSTEAM.N1.index');
-});
+})->name('N1');
 
 // N1 LIghtforms
 Route::get('/lightForms', function () {
@@ -419,7 +418,7 @@ Route::get('/basicStructure/Creations/teacher', function () {
 // N1
 Route::get('/N2',function(){
     return view('iSTEAM.N2.index');
-});
+})->name('N2');
 // ========================
 // N2 SimpleMachines
 Route::get('/SimpleMachines', function () {
@@ -983,7 +982,7 @@ Route::get('/BasicCoding/Robot5/teacher', function () {
 // K1
 Route::get('/K1',function(){
     return view('iSTEAM.K1.index');
-});
+})->name('K1');
 
 // K1 -> SampleMachines
 Route::get('K1/simpleMachines', function () {
@@ -1798,3 +1797,150 @@ Route::get('/coding/final/lesson', function () {
 Route::get('/coding/final/teacher', function () {
     return view('iSTEAM.K1.coding.final.teacher');
 })->name('finalTeacher');
+
+
+
+
+// ======
+// K2
+Route::get('/K2', function () {
+    return view('iSTEAM.K2.index');
+})->name('K2');
+
+
+
+// ======
+// K2 -> livingthings
+Route::get('/k2LivingThings', function () {
+    return view('iSTEAM.K2.livingthings.index');
+})->name('k2livingthings');
+
+
+// K2 -> livingthings -> Pgrow
+Route::get('/livingthings/Plantsgrowth', function () {
+    return view('iSTEAM.K2.livingthings.Pgrow.index');
+})->name('Pgrow');
+
+// K2 -> livingthings -> Plantsgrowth -> select
+Route::get('/PlantsgrowthChoice', function () {
+    return view('iSTEAM.K2.livingthings.Pgrow.selection');
+})->name('PgrowSelection');
+
+// K2 -> livingthings -> Plantsgrowth -> lesson
+Route::get('/livingthings/Plantsgrowth/lesson', function () {
+    return view('iSTEAM.K2.livingthings.Pgrow.lesson');
+})->name('PgrowLesson');
+
+// K2 -> livingthings -> Plantsgrowth -> teacher
+Route::get('/livingthings/Plantsgrowth/teacher', function () {
+    return view('iSTEAM.K2.livingthings.Pgrow.teacher');
+})->name('PgrowTeacher');
+
+
+// K2 -> livingthings -> things
+Route::get('/WhhatareLivingThings', function () {
+    return view('iSTEAM.K2.livingthings.things.index');
+})->name('K2things');
+
+// K2 -> livingthings -> LivingThings? -> select
+Route::get('/LivingThingsChoice', function () {
+    return view('iSTEAM.K2.livingthings.things.selection');
+})->name('K2thingsSelection');
+
+// K2 -> livingthings -> LivingThings? -> lesson
+Route::get('/LivingThings/lesson', function () {
+    return view('iSTEAM.K2.livingthings.things.lesson');
+})->name('thingsLesson');
+
+// K2 -> livingthings -> LivingThings? -> teacher
+Route::get('/LivingThings/teacher', function () {
+    return view('iSTEAM.K2.livingthings.things.teacher');
+})->name('thingsTeacher');
+
+
+
+
+// K2 -> livingthings -> bacteria
+Route::get('/livingthings/Bacteria', function () {
+    return view('iSTEAM.K2.livingthings.bacteria.index');
+})->name('bacteria');
+
+// K2 -> livingthings -> Bacteria -> select
+Route::get('/BacteriaChoice', function () {
+    return view('iSTEAM.K2.livingthings.bacteria.selection');
+})->name('bacteriaSelection');
+
+// K2 -> livingthings -> Bacteria -> lesson
+Route::get('/livingthings/Bacteria/lesson', function () {
+    return view('iSTEAM.K2.livingthings.bacteria.lesson');
+})->name('bacteriaLesson');
+
+// K2 -> livingthings -> Bacteria -> teacher
+Route::get('/livingthings/Bacteria/teacher', function () {
+    return view('iSTEAM.K2.livingthings.bacteria.teacher');
+})->name('bacteriaTeacher');
+
+// K2 -> livingthings -> helix
+Route::get('/livingthings/doubleDNA', function () {
+    return view('iSTEAM.K2.livingthings.helix.index');
+})->name('helix');
+
+// K2 -> livingthings -> doubleDNA -> select
+Route::get('/doubleDNAChoice', function () {
+    return view('iSTEAM.K2.livingthings.helix.selection');
+})->name('helixSelection');
+
+// K2 -> livingthings -> doubleDNA -> lesson
+Route::get('/livingthings/doubleDNA/lesson', function () {
+    return view('iSTEAM.K2.livingthings.helix.lesson');
+})->name('helixLesson');
+
+// K2 -> livingthings -> doubleDNA -> teacher
+Route::get('/livingthings/doubleDNA/teacher', function () {
+    return view('iSTEAM.K2.livingthings.helix.teacher');
+})->name('helixTeacher');
+
+
+
+
+
+
+
+// ======
+// K2 -> sustainability
+Route::get('/k2sustainability', function () {
+    return view('iSTEAM.K2.sustainability.index');
+})->name('k2sustainability');
+
+
+// ======
+// K2 -> Aerodynamics
+Route::get('/k2Aerodynamics', function () {
+    return view('iSTEAM.K2.Aerodynamics.index');
+})->name('k2Aerodynamics');
+
+
+// ======
+// K2 -> coding
+Route::get('/k2coding', function () {
+    return view('iSTEAM.K2.coding.index');
+})->name('k2coding');
+
+
+// ======
+// K2 -> ElectronicCircuits
+Route::get('/k2ElectronicCircuits', function () {
+    return view('iSTEAM.K2.ElectronicCircuits.index');
+})->name('k2ElectronicCircuits');
+
+
+// ======
+// K2 -> FinalProject
+Route::get('/k2FinalProject', function () {
+    return view('iSTEAM.K2.FinalProject.index');
+})->name('k2FinalProject');
+
+
+
+
+
