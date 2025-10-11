@@ -107,7 +107,7 @@
     <div id="buttons" class="absolute top-[24px] right-[60px] flex flex-row gap-6 z-40">
 
         <!-- Return Button -->
-        <a href="{{ route('things') }}"
+        <a href="{{ route('K2things') }}"
             class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
             id="returnButton">
             <img class="absolute top-[6px] left-[8px] w-20 h-10" src="{{ asset('assets/images/pptimages/Vector4.png') }}" />

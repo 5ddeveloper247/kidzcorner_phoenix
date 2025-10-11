@@ -1838,22 +1838,22 @@ Route::get('/livingthings/Plantsgrowth/teacher', function () {
 
 
 // K2 -> livingthings -> things
-Route::get('/livingthings/LivingThings', function () {
+Route::get('/WhhatareLivingThings', function () {
     return view('iSTEAM.K2.livingthings.things.index');
-})->name('things');
+})->name('K2things');
 
 // K2 -> livingthings -> LivingThings? -> select
 Route::get('/LivingThingsChoice', function () {
     return view('iSTEAM.K2.livingthings.things.selection');
-})->name('thingsSelection');
+})->name('K2thingsSelection');
 
 // K2 -> livingthings -> LivingThings? -> lesson
-Route::get('/livingthings/LivingThings/lesson', function () {
+Route::get('/LivingThings/lesson', function () {
     return view('iSTEAM.K2.livingthings.things.lesson');
 })->name('thingsLesson');
 
 // K2 -> livingthings -> LivingThings? -> teacher
-Route::get('/livingthings/LivingThings/teacher', function () {
+Route::get('/LivingThings/teacher', function () {
     return view('iSTEAM.K2.livingthings.things.teacher');
 })->name('thingsTeacher');
 
@@ -1899,16 +1899,6 @@ Route::get('/livingthings/doubleDNA/lesson', function () {
 Route::get('/livingthings/doubleDNA/teacher', function () {
     return view('iSTEAM.K2.livingthings.helix.teacher');
 })->name('helixTeacher');
-
-
-
-
-
-
-
-
-
-
 
 
 

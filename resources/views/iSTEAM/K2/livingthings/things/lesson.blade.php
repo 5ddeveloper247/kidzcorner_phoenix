@@ -204,140 +204,128 @@
 
 
 
-
-
-
     {{-- Slide 7  --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <ol class="text-start title stroke">
-            <h2>Steps:</h2>
-            <li>3.Use coding cards to lay out the steps needed for a robot to
-                move according to the planned route.</li>
-        </ol>
-        <div class="flex items-center gap-10">
-            <img src="/assets/images//K2/livingthings/things/ch4.png" />
-            <div class="flex flex-col items-start gap-5">
-                <div class="flex items-center gap-5">
-                    <img src="/assets/images//K2/livingthings/things/ch5.png" />
-                    <img src="/assets/images//K2/livingthings/things/ch4.png" />
-                    <img src="/assets/images//K2/livingthings/things/ch6.png" />
-                </div>
-                <img src="/assets/images//K2/livingthings/things/ch7.png" />
+    <div class="slide hidden flex flex-col items-center">
+        <div class="flex items-center  ">
+            <div class="title stroke text-start">
+                <h2>Living things are things that...:</h2>
+                <ul class="!text-white">
+                    <li class="flex items-center gap-5"> <img
+                            src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" />
+                        <p> Move on their own</p>
+                    </li>
+                    <li class="flex items-center gap-5"> <img
+                            src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" />
+                        <p> Drink</p>
+                    </li>
+                    <li class="flex items-center gap-5"> <img
+                            src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" />
+                        <p>Eat</p>
+                    </li>
+                    <li class="flex items-center gap-5"> <img
+                            src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" />
+                        <p> Breath (need air)</p>
+                    </li>
+                    <li class="flex items-center gap-5"> <img
+                            src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" />
+                        <p> Grow (get bigger)</p>
+                    </li>
+
+                </ul>
             </div>
+            <img src="{{ asset('assets/images/N2/LivingThings/an15.png') }}" />
         </div>
-        <p class="note text-center">Note: Have children lay out the steps on the floor. Check the steps and advise if
-            incorrect.</p>
+        <p class="note">Note: Make sure that children understand the meaning of “”produce young””.</p>
     </div>
 
 
     {{-- Slide 8 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <ol class="text-start title stroke">
-            <h2>Steps:</h2>
-            <li>4. Use Blockly to programme a robot to move according to the
-                planned route.</li>
-        </ol>
-        <div class="flex items-center gap-10">
-            <img src="/assets/images//K2/livingthings/things/ch4.png" />
-            <img src="/assets/images//K2/livingthings/things/ch8.png" />
-        </div>
-        <p class="note text-center">Note: Have children work out the programming steps in Blockly and show the rest.</p>
+    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
+        <h2 class="text-center justify-start text-[45px] text-white stroke">Class Activity 2</h2>
+        <img src="{{ asset('assets/images/K2/livingthings/things/t7.png') }}" />
+        <h2 class="title stroke">Let’s find out: <br>
+            Which are living things? Which are non living things?</h2>
     </div>
 
 
     {{-- Slide 9 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <ol class="text-start title stroke">
-            <h2>Steps:</h2>
-            <li>5. The robot will name each shape it finds. How do you add in
-                the sound?</li>
-        </ol>
-        <div class="flex items-center gap-10">
-            <img src="/assets/images//K2/livingthings/things/ch4.png" />
-            <img src="/assets/images//K2/livingthings/things/ch8.png" />
+        <h2 class="title stroke">What do you think (Prediction):</h2>
+        <img src="{{ asset('assets/images/K2/livingthings/things/t8.png') }}" />
+        <p class="note text-center">Note: Have children use the learning journal to fill in their prediction; <br>
+            have them tick or cross to complete the table.</p>
+    </div>
+
+
+    {{-- Slide 10 --}}
+    <div class="slide hidden  flex flex-col items-center justify-start  ">
+        <div class="relative text-start">
+            <h2 class="title stroke">Let’s do:</h2>
+            <img src="{{ asset('assets/images/K2/livingthings/things/t9.png') }}" />
+            <span
+                class="info-btn4 !absolute top-[120px] left-[55%] relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-amber-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
+                <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
+                    class="absolute top-[4px] left-[6px] h-6 w-[80%]" />
+                <div class="absolute top-[7px] left-[12px] h-2.5 w-3.5 rounded-sm bg-white"></div>
+                <img src="{{ asset('assets/images/pptimages/info.png') }}"
+                    class="absolute top-[16px] left-[16px] h-8 w-8" />
+            </span>
+            </td>
         </div>
-        <p class="note text-center">Note: Remind children that they need to first record the names of different shapes and
-            then think of where <br>
-            to insert the programming block of each sound into their programme (what is the order of steps).</p>
-    </div>
-
-    {{-- slide 10 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <img src="/assets/images//K2/livingthings/things/ch5.png" />
-        <h2 class="title stroke">The robot is going to hunt the shapes based on an order of
-            colours. Can you plan a new route for it?</h2>
-        <p class="note">Note: If needed, reduce the number of coloured shapes on the mat to adjust the level of
-            difficulty.</p>
-    </div>
-
-
-    {{-- slide 11 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <h2 class="text-center justify-start text-[45px] text-white stroke">Hands-on Time 2</h2>
-        <h2 class="text-start title stroke">Mission: <br>
-            Plan a new route for a robot to hunt for all shapes. Use Blockly
-            to programme the robot to move according to the planned route.</h2>
-        <p class="note">Note: Divide children into groups. Have them take turns to complete the mission.</p>
-    </div>
-
-    {{-- Slide 12 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <ol class="text-start title stroke">
-            <h2>Steps:</h2>
-            <li>1.What is the arrangement of shapes on your coding mat? Plot them in your learning journal.</li>
-        </ol>
-        <img src="/assets/images/K2/livingthings/things/ch4.png" />
-        <p class="note text-center">Note: Have children copy the arrangement of shapes in their learning journal.</p>
-    </div>
-
-
-    {{-- Slide 13 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <ol class="text-start title stroke">
-            <h2>Steps:</h2>
-            <li>2. What is the hunting order based on colours? Record them in your learning journal.</li>
-        </ol>
-        <img src="/assets/images/K2/livingthings/things/ch6.png" />
-        <p class="note text-center">Note: Tell children the shape hunting order based on colours and have them record the
-            order in the learning journal.</p>
-    </div>
-
-
-    {{-- Slide 14 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <ol class="text-start title stroke">
-            <h2>Steps:</h2>
-            <li>3. How do you plan the route? Draw arrows to show the route
-                in your learning journal.</li>
-        </ol>
-        <img src="/assets/images//K2/livingthings/things/ch7.png" />
-        <p class="note text-center">Note: Have children plan a route by drawing arrows in their learning journal.</p>
+        <p class="note text-center">Note: Guide children to discuss each point and check if their prediction is correct;
+            if wrong, correct with a red crayon.</p>
     </div>
 
 
 
-    {{-- Slide 15 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <ol class="text-start title stroke">
-            <h2>Steps:</h2>
-            <li>4. Use coding cards to lay out the steps needed for a robot to
-                move according to the planned route.</li>
-        </ol>
-        <div class="flex items-center gap-10">
-            <img src="/assets/images//K2/livingthings/things/ch8.png" />
-            <div class="flex flex-col items-start gap-5">
-                <div class="flex items-center gap-5">
-                    <img src="/assets/images//K2/livingthings/things/ch5.png" />
-                    <img src="/assets/images//K2/livingthings/things/ch4.png" />
-                    <img src="/assets/images//K2/livingthings/things/ch6.png" />
-                </div>
-                <img src="/assets/images//K2/livingthings/things/ch7.png" />
-            </div>
+    {{-- click slides --}}
+    {{-- =====1 --}}
+    <div class="slide hidden info-slide4   flex flex-col items-center justify-start  ">
+        <img src="/assets/images//K2/livingthings/things/t10.png" />
+        <h2 class="title storke">Fish breathe through gills on both sides of their head. <br>
+            Do you know how do fish breathe in the water?</h2>
+        <!-- Video Trigger Button -->
+        <div data-property-1="Default"
+            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
+            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
+            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
+            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
         </div>
-        <p class="note text-center">Note: Have children lay out the steps in their learning journal. Check the steps and
-            advise if incorrect.</p>
     </div>
 
+    {{-- =====2 --}}
+    <div class="slide hidden info-slide4  flex flex-col items-center justify-start  ">
+        <img src="/assets/images//K2/livingthings/things/t10.png" />
+        <h2 class="title storke">When a fish breathes, it takes in water through its mouth. The
+            gills obtain air from the water and then force the water to go out.</h2>
+        <!-- Video Trigger Button -->
+        <div data-property-1="Default"
+            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
+            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
+            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
+            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+        </div>
+    </div>
+
+
+    {{-- Slide 11 --}}
+    <div class="slide hidden  flex flex-col items-center justify-start  ">
+        <h2 class="title stroke">Let’s do:</h2>
+        <div class="relative">
+            <img src="{{ asset('assets/images/K2/livingthings/things/t11.png') }}" />
+            <span
+                class="info-btn4 !absolute top-[80px] left-[55%] relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-amber-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
+                <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
+                    class="absolute top-[4px] left-[6px] h-6 w-[80%]" />
+                <div class="absolute top-[7px] left-[12px] h-2.5 w-3.5 rounded-sm bg-white"></div>
+                <img src="{{ asset('assets/images/pptimages/info.png') }}"
+                    class="absolute top-[16px] left-[16px] h-8 w-8" />
+            </span>
+            </td>
+        </div>
+        <p class="note text-center">Note: Guide children to discuss each point and check if their prediction is correct;
+            if wrong, correct with a red crayon.</p>
+    </div>
 
     {{-- Slide 16 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
@@ -407,20 +395,6 @@
             </div>
         </div>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -498,24 +472,26 @@
 
 @push('script')
     <script>
-        //   document.addEventListener("DOMContentLoaded", () => {
         document.addEventListener("DOMContentLoaded", () => {
             const slides = document.querySelectorAll(".slide");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
             const doneButton = document.querySelector(".doneButton");
-            const infoButtons = document.querySelectorAll("[class*='info-btn']");
+
+            // Get all info/click buttons (info-btn1, info-btn2, click-btn1, click-btn2, etc.)
+            const infoButtons = document.querySelectorAll("[class*='info-btn'], [class*='click-btn']");
 
             let currentSlide = 0;
-            let parentSlideIndex = null; // Track which slide has the info button
+            let parentSlideIndex = null;
             let isViewingInfoSlides = false;
+            let currentInfoClass = null; // Track which info/click class we're viewing
 
             function showSlide(index) {
                 slides.forEach((slide, i) => {
                     slide.classList.toggle("hidden", i !== index);
                 });
 
-                // Check if last slide OR last info slide
+                // Check if last slide OR last info/click slide
                 const isLastSlide = index === slides.length - 1;
                 const isLastInfoSlide = isViewingInfoSlides && !hasNextInfoSlide(index);
 
@@ -528,25 +504,51 @@
                 }
             }
 
-            // Check if there's another info slide after current one
+            // Check if there's another info/click slide with same class after current one
             function hasNextInfoSlide(currentIndex) {
+                if (!currentInfoClass) return false;
+
                 for (let i = currentIndex + 1; i < slides.length; i++) {
-                    if (slides[i].classList.contains("info-slide")) {
+                    if (slides[i].classList.contains(currentInfoClass)) {
                         return true;
                     }
                 }
                 return false;
             }
 
-            // Info button click handler
-            infoButtons.forEach((btn) => {
-                btn.addEventListener("click", () => {
-                    parentSlideIndex = currentSlide; // Save current slide
-                    isViewingInfoSlides = true;
+            // Get info/click class from button (info-btn1 → info-slide1, click-btn1 → click1)
+            function getInfoClassFromButton(button) {
+                const classList = Array.from(button.classList);
 
-                    // Find the first info-slide after current slide
-                    for (let i = currentSlide + 1; i < slides.length; i++) {
-                        if (slides[i].classList.contains("info-slide")) {
+                // Check for info-btn pattern
+                const infoBtnClass = classList.find(cls => cls.startsWith('info-btn'));
+                if (infoBtnClass) {
+                    const number = infoBtnClass.replace('info-btn', '');
+                    return 'info-slide' + number;
+                }
+
+                // Check for click-btn pattern
+                const clickBtnClass = classList.find(cls => cls.startsWith('click-btn'));
+                if (clickBtnClass) {
+                    const number = clickBtnClass.replace('click-btn', '');
+                    return 'click' + number;
+                }
+
+                return null;
+            }
+
+            // Info/Click button handlers
+            infoButtons.forEach((btn) => {
+                btn.addEventListener("click", (e) => {
+                    e.preventDefault(); // Prevent default anchor behavior
+
+                    parentSlideIndex = currentSlide;
+                    isViewingInfoSlides = true;
+                    currentInfoClass = getInfoClassFromButton(btn);
+
+                    // Find the first slide with matching info/click class
+                    for (let i = 0; i < slides.length; i++) {
+                        if (slides[i].classList.contains(currentInfoClass)) {
                             currentSlide = i;
                             showSlide(currentSlide);
                             break;
@@ -555,17 +557,25 @@
                 });
             });
 
-            // NEXT button - skip info slides if not viewing them
+            // NEXT button - skip info/click slides if not viewing them
             nextButtons.forEach((btn) => {
                 btn.addEventListener("click", () => {
                     if (currentSlide < slides.length - 1) {
                         currentSlide++;
 
-                        // Skip info slides if not viewing them
+                        // Skip info/click slides if not viewing them
                         while (!isViewingInfoSlides &&
                             currentSlide < slides.length &&
-                            slides[currentSlide].classList.contains("info-slide")) {
+                            isInfoSlide(slides[currentSlide])) {
                             currentSlide++;
+                        }
+
+                        // If viewing info/click slides, only show slides with current class
+                        if (isViewingInfoSlides) {
+                            while (currentSlide < slides.length &&
+                                !slides[currentSlide].classList.contains(currentInfoClass)) {
+                                currentSlide++;
+                            }
                         }
 
                         if (currentSlide < slides.length) {
@@ -575,27 +585,41 @@
                 });
             });
 
+            // Check if slide is any info/click slide (info-slide1, info-slide2, click1, click2, etc.)
+            function isInfoSlide(slide) {
+                return Array.from(slide.classList).some(cls =>
+                    (cls.startsWith('info-slide') && cls.match(/^info-slide\d+$/)) ||
+                    (cls.startsWith('click') && cls.match(/^click\d+$/))
+                );
+            }
+
             // Return button
             returnButton.addEventListener("click", () => {
                 if (isViewingInfoSlides && currentSlide > 0) {
-                    // Check if previous slide is also info-slide
+                    // Check if previous slide is also same info/click class
                     let prevSlide = currentSlide - 1;
-                    if (slides[prevSlide].classList.contains("info-slide")) {
+
+                    // Find previous slide with same info/click class
+                    while (prevSlide >= 0 && !slides[prevSlide].classList.contains(currentInfoClass)) {
+                        prevSlide--;
+                    }
+
+                    if (prevSlide >= 0 && slides[prevSlide].classList.contains(currentInfoClass)) {
                         currentSlide = prevSlide;
                         showSlide(currentSlide);
                     } else {
-                        // Return to parent slide
+                        // No more info/click slides, return to parent
                         currentSlide = parentSlideIndex;
                         isViewingInfoSlides = false;
+                        currentInfoClass = null;
                         parentSlideIndex = null;
                         showSlide(currentSlide);
                     }
                 } else if (currentSlide > 0) {
                     currentSlide--;
 
-                    // Skip info slides when going back
-                    while (currentSlide > 0 &&
-                        slides[currentSlide].classList.contains("info-slide")) {
+                    // Skip info/click slides when going back
+                    while (currentSlide > 0 && isInfoSlide(slides[currentSlide])) {
                         currentSlide--;
                     }
 
@@ -610,11 +634,12 @@
                         // Return to parent slide
                         currentSlide = parentSlideIndex;
                         isViewingInfoSlides = false;
+                        currentInfoClass = null;
                         parentSlideIndex = null;
                         showSlide(currentSlide);
                     } else {
                         // Navigate to route
-                        window.location.href = "{{ route('thingsSelection') }}";
+                        window.location.href = "{{ route('K2thingsSelection') }}";
                     }
                 });
             }

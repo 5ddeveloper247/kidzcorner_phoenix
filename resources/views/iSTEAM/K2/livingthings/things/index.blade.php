@@ -97,7 +97,7 @@
 
             if (nextButton) {
                 nextButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('thingsSelection') }}";
+                    window.location.href = "{{ route('K2thingsSelection') }}";
                 });
             }
         });
