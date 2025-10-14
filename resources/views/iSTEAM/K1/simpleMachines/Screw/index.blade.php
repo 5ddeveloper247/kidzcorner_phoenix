@@ -30,27 +30,23 @@
 
 @section('content')
 
-    <div id="topDiv" class="flex flex-col  h-[90%] items-center  gap-[15rem] ">
+    <div id="topDiv" class="flex flex-col  h-[90%] justify-between items-center ">
         <div class="  text-amber-300 text-[65px] font-extrabold stroke">How Does a Screw Work?</div>
-        <div
-            class="text-2xl sm:text-3xl lg:text-4xl text-white max-w-5xl leading-snug flex flex-col items-center space-x-[30px] gap-[3rem]">
-            Explore a Rube Goldberg Machine and uses <br>
-            of a simple machine - Screw
-            
+        <h2
+            class="text-2xl sm:text-3xl lg:text-6xl text-white max-w-5xl leading-snug flex flex-col items-center space-x-[30px]">
+            Explore a Rube Goldberg Machine and uses
+            of a simple machine - Screw</h2>
 
-            <button
-                class="cursor-pointer nextButton w-66 h-[75px] relative bg-[#F8A23A]  rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
+        <button
+            class="cursor-pointer nextButton w-66 h-[75px] relative bg-[#F8A23A]  rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
         outline outline-1 outline-yellow-700 overflow-hidden">
-                <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
-                <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" /> </div>
-                <span class="absolute left-[80px] top-[18px] flex items-center  text-white text-5xl font-bold stroke">NEXT
-                </span>
-            </button>
+            <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
+            <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" /> </div>
+            <span class="absolute left-[80px] top-[18px] flex items-center  text-white text-5xl font-bold stroke">NEXT
+            </span>
+        </button>
 
-        </div>
     </div>
-
-
 
 
 
@@ -97,7 +93,7 @@
     <script>
         document.addEventListener("DOMContentLoaded", () => {
             const nextButton = document.querySelector(".nextButton");
-            const returnButton = document.querySelector(".returnButton");
+            const returnButton = document.querySelector("#returnButton");
 
             if (nextButton) {
                 nextButton.addEventListener("click", () => {

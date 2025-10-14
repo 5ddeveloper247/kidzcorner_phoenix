@@ -2029,6 +2029,27 @@ Route::get('/livingthings/Fingerprintspatterns/teacher', function () {
     return view('iSTEAM.K2.livingthings.patterns.teacher');
 })->name('FingerprintpatternsTeacher');
 
+// ====
+// K2 -> livingthings -> UseofFingerprints
+Route::get('/livingthings/UseofFingerprints', function () {
+    return view('iSTEAM.K2.livingthings.usage.index');
+})->name('usage');
+
+// K2 -> livingthings -> UseofFingerprints -> select
+Route::get('/UseofFingerprintsChoice', function () {
+    return view('iSTEAM.K2.livingthings.usage.selection');
+})->name('usageSelection');
+
+// K2 -> livingthings -> UseofFingerprints -> lesson
+Route::get('/livingthings/UseofFingerprints/lesson', function () {
+    return view('iSTEAM.K2.livingthings.usage.lesson');
+})->name('usageLesson');
+
+// K2 -> livingthings -> UseofFingerprints -> teacher
+Route::get('/livingthings/UseofFingerprints/teacher', function () {
+    return view('iSTEAM.K2.livingthings.usage.teacher');
+})->name('usageTeacher');
+
 
 
 
@@ -2039,12 +2060,316 @@ Route::get('/k2sustainability', function () {
     return view('iSTEAM.K2.sustainability.index');
 })->name('k2sustainability');
 
+//1 ====
+// K2 -> sustainability -> GlobalWarming
+Route::get('/sustainability/GlobalWarming', function () {
+    return view('iSTEAM.K2.sustainability.warming.index');
+})->name('warming');
+
+// K2 -> sustainability -> GlobalWarming -> select
+Route::get('/GlobalWarmingChoice', function () {
+    return view('iSTEAM.K2.sustainability.warming.selection');
+})->name('warmingSelection');
+
+// K2 -> sustainability -> GlobalWarming -> lesson
+Route::get('/sustainability/GlobalWarming/lesson', function () {
+    return view('iSTEAM.K2.sustainability.warming.lesson');
+})->name('warmingLesson');
+
+// K2 -> sustainability -> GlobalWarming -> teacher
+Route::get('/sustainability/GlobalWarming/teacher', function () {
+    return view('iSTEAM.K2.sustainability.warming.teacher');
+})->name('warmingTeacher');
+
+
+//2 ====
+// K2 -> sustainability -> WhatisSustainability
+Route::get('/sustainability/WhatisSustainability', function () {
+    return view('iSTEAM.K2.sustainability.sustain.index');
+})->name('sustain');
+
+// K2 -> sustainability -> WhatisSustainability -> select
+Route::get('/WhatisSustainabilityChoice', function () {
+    return view('iSTEAM.K2.sustainability.sustain.selection');
+})->name('sustainSelection');
+
+// K2 -> sustainability -> WhatisSustainability -> lesson
+Route::get('/sustainability/WhatisSustainability/lesson', function () {
+    return view('iSTEAM.K2.sustainability.sustain.lesson');
+})->name('sustainLesson');
+
+// K2 -> sustainability -> WhatisSustainability -> teacher
+Route::get('/sustainability/WhatisSustainability/teacher', function () {
+    return view('iSTEAM.K2.sustainability.sustain.teacher');
+})->name('sustainTeacher');
+
+
+//3 ====
+// K2 -> sustainability -> CleanEnergy1
+Route::get('/sustainability/CleanEnergy1', function () {
+    return view('iSTEAM.K2.sustainability.energy1.index');
+})->name('energy1');
+
+// K2 -> sustainability -> CleanEnergy1 -> select
+Route::get('/CleanEnergy1Choice', function () {
+    return view('iSTEAM.K2.sustainability.energy1.selection');
+})->name('energy1Selection');
+
+// K2 -> sustainability -> CleanEnergy1 -> lesson
+Route::get('/sustainability/CleanEnergy1/lesson', function () {
+    return view('iSTEAM.K2.sustainability.energy1.lesson');
+})->name('energy1Lesson');
+
+// K2 -> sustainability -> CleanEnergy1 -> teacher
+Route::get('/sustainability/CleanEnergy1/teacher', function () {
+    return view('iSTEAM.K2.sustainability.energy1.teacher');
+})->name('energy1Teacher');
+
+//4====
+// K2 -> sustainability -> CleanEnergy2
+Route::get('/sustainability/CleanEnergy2', function () {
+    return view('iSTEAM.K2.sustainability.energy2.index');
+})->name('energy2');
+
+// K2 -> sustainability -> CleanEnergy2 -> select
+Route::get('/CleanEnergy2Choice', function () {
+    return view('iSTEAM.K2.sustainability.energy2.selection');
+})->name('energy2Selection');
+
+// K2 -> sustainability -> CleanEnergy2 -> lesson
+Route::get('/sustainability/CleanEnergy2/lesson', function () {
+    return view('iSTEAM.K2.sustainability.energy2.lesson');
+})->name('energy2Lesson');
+
+// K2 -> sustainability -> CleanEnergy2 -> teacher
+Route::get('/sustainability/CleanEnergy2/teacher', function () {
+    return view('iSTEAM.K2.sustainability.energy2.teacher');
+})->name('energy2Teacher');
+
+
+//5====
+// K2 -> sustainability -> Pollution
+Route::get('/sustainability/Pollution', function () {
+    return view('iSTEAM.K2.sustainability.pollution.index');
+})->name('pollution');
+
+// K2 -> sustainability -> Pollution -> select
+Route::get('/PollutionChoice', function () {
+    return view('iSTEAM.K2.sustainability.pollution.selection');
+})->name('pollutionSelection');
+
+// K2 -> sustainability -> Pollution -> lesson
+Route::get('/sustainability/Pollution/lesson', function () {
+    return view('iSTEAM.K2.sustainability.pollution.lesson');
+})->name('pollutionLesson');
+
+// K2 -> sustainability -> Pollution -> teacher
+Route::get('/sustainability/Pollution/teacher', function () {
+    return view('iSTEAM.K2.sustainability.pollution.teacher');
+})->name('pollutionTeacher');
+
+
+//6====
+// K2 -> sustainability -> Reduce&Reuse
+Route::get('/sustainability/Reduce&Reuse', function () {
+    return view('iSTEAM.K2.sustainability.reduce.index');
+})->name('reduce');
+
+// K2 -> sustainability -> Reduce&Reuse -> select
+Route::get('/Reduce&ReuseChoice', function () {
+    return view('iSTEAM.K2.sustainability.reduce.selection');
+})->name('reduceSelection');
+
+// K2 -> sustainability -> Reduce&Reuse -> lesson
+Route::get('/sustainability/Reduce&Reuse/lesson', function () {
+    return view('iSTEAM.K2.sustainability.reduce.lesson');
+})->name('reduceLesson');
+
+// K2 -> sustainability -> Reduce&Reuse -> teacher
+Route::get('/sustainability/Reduce&Reuse/teacher', function () {
+    return view('iSTEAM.K2.sustainability.reduce.teacher');
+})->name('reduceTeacher');
+
+
+//7====
+// K2 -> sustainability -> letsRecycle
+Route::get('/sustainability/letsRecycle', function () {
+    return view('iSTEAM.K2.sustainability.recycle.index');
+})->name('recycle');
+
+// K2 -> sustainability -> letsRecycle -> select
+Route::get('/letsRecycleChoice', function () {
+    return view('iSTEAM.K2.sustainability.recycle.selection');
+})->name('recycleSelection');
+
+// K2 -> sustainability -> letsRecycle -> lesson
+Route::get('/sustainability/letsRecycle/lesson', function () {
+    return view('iSTEAM.K2.sustainability.recycle.lesson');
+})->name('recycleLesson');
+
+// K2 -> sustainability -> letsRecycle -> teacher
+Route::get('/sustainability/letsRecycle/teacher', function () {
+    return view('iSTEAM.K2.sustainability.recycle.teacher');
+})->name('recycleTeacher');
+
+
+
+//8====
+// K2 -> sustainability -> Self-Sufficient
+Route::get('/sustainability/Self-Sufficient', function () {
+    return view('iSTEAM.K2.sustainability.self.index');
+})->name('self');
+
+// K2 -> sustainability -> Self-Sufficient -> select
+Route::get('/Self-SufficientChoice', function () {
+    return view('iSTEAM.K2.sustainability.self.selection');
+})->name('selfSelection');
+
+// K2 -> sustainability -> Self-Sufficient -> lesson
+Route::get('/sustainability/Self-Sufficient/lesson', function () {
+    return view('iSTEAM.K2.sustainability.self.lesson');
+})->name('selfLesson');
+
+// K2 -> sustainability -> Self-Sufficient -> teacher
+Route::get('/sustainability/Self-Sufficient/teacher', function () {
+    return view('iSTEAM.K2.sustainability.self.teacher');
+})->name('selfTeacher');
+
+
+//9====
+// K2 -> sustainability -> CarbonFootprint
+Route::get('/sustainability/CarbonFootprint', function () {
+    return view('iSTEAM.K2.sustainability.carbon.index');
+})->name('carbon');
+
+// K2 -> sustainability -> CarbonFootprint -> select
+Route::get('/CarbonFootprintChoice', function () {
+    return view('iSTEAM.K2.sustainability.carbon.selection');
+})->name('carbonSelection');
+
+// K2 -> sustainability -> CarbonFootprint -> lesson
+Route::get('/sustainability/CarbonFootprint/lesson', function () {
+    return view('iSTEAM.K2.sustainability.carbon.lesson');
+})->name('carbonLesson');
+
+// K2 -> sustainability -> CarbonFootprint -> teacher
+Route::get('/sustainability/CarbonFootprint/teacher', function () {
+    return view('iSTEAM.K2.sustainability.carbon.teacher');
+})->name('carbonTeacher');
+
 
 // ======
 // K2 -> Aerodynamics
 Route::get('/k2Aerodynamics', function () {
     return view('iSTEAM.K2.Aerodynamics.index');
 })->name('k2Aerodynamics');
+
+// ====
+// K2 -> Aerodynamics -> WhatisAerodynamic1
+Route::get('/Aerodynamics/WhatisAerodynamic1', function () {
+    return view('iSTEAM.K2.Aerodynamics.Aerodynamics1.index');
+})->name('Aerodynamics1');
+
+// K2 -> Aerodynamics -> WhatisAerodynamic1 -> select
+Route::get('/WhatisAerodynamic1/Choice', function () {
+    return view('iSTEAM.K2.Aerodynamics.Aerodynamics1.selection');
+})->name('Aerodynamics1Selection');
+
+// K2 -> Aerodynamics -> WhatisAerodynamic1 -> lesson
+Route::get('/Aerodynamics/WhatisAerodynamic1/lesson', function () {
+    return view('iSTEAM.K2.Aerodynamics.Aerodynamics1.lesson');
+})->name('Aerodynamics1Lesson');
+
+// K2 -> Aerodynamics -> WhatisAerodynamic1 -> teacher
+Route::get('/Aerodynamics/WhatisAerodynamic1/teacher', function () {
+    return view('iSTEAM.K2.Aerodynamics.Aerodynamics1.teacher');
+})->name('Aerodynamics1Teacher');
+
+// ====
+// K2 -> Aerodynamics -> WhatisAerodynamic2
+Route::get('/Aerodynamics/WhatisAerodynamic2', function () {
+    return view('iSTEAM.K2.Aerodynamics.Aerodynamics2.index');
+})->name('Aerodynamics2');
+
+// K2 -> Aerodynamics -> WhatisAerodynamic2 -> select
+Route::get('/WhatisAerodynamic2/Choice', function () {
+    return view('iSTEAM.K2.Aerodynamics.Aerodynamics2.selection');
+})->name('Aerodynamics2Selection');
+
+// K2 -> Aerodynamics -> WhatisAerodynamic2 -> lesson
+Route::get('/Aerodynamics/WhatisAerodynamic2/lesson', function () {
+    return view('iSTEAM.K2.Aerodynamics.Aerodynamics2.lesson');
+})->name('Aerodynamics2Lesson');
+
+// K2 -> Aerodynamics -> WhatisAerodynamic2 -> teacher
+Route::get('/Aerodynamics/WhatisAerodynamic2/teacher', function () {
+    return view('iSTEAM.K2.Aerodynamics.Aerodynamics2.teacher');
+})->name('Aerodynamics2Teacher');
+
+
+// ====
+// K2 -> Aerodynamics -> Evolution
+Route::get('/Aerodynamics/Evolution', function () {
+    return view('iSTEAM.K2.Aerodynamics.Evolution.index');
+})->name('Evolution');
+
+// K2 -> Aerodynamics -> Evolution -> select
+Route::get('/Evolution/Choice', function () {
+    return view('iSTEAM.K2.Aerodynamics.Evolution.selection');
+})->name('EvolutionSelection');
+
+// K2 -> Aerodynamics -> Evolution -> lesson
+Route::get('/Aerodynamics/Evolution/lesson', function () {
+    return view('iSTEAM.K2.Aerodynamics.Evolution.lesson');
+})->name('EvolutionLesson');
+
+// K2 -> Aerodynamics -> Evolution -> teacher
+Route::get('/Aerodynamics/Evolution/teacher', function () {
+    return view('iSTEAM.K2.Aerodynamics.Evolution.teacher');
+})->name('EvolutionTeacher');
+
+
+// ====
+// K2 -> Aerodynamics -> Hydrodynamics
+Route::get('/Aerodynamics/Hydrodynamics', function () {
+    return view('iSTEAM.K2.Aerodynamics.Hydrodynamics.index');
+})->name('Hydrodynamics');
+
+// K2 -> Aerodynamics -> Hydrodynamics -> select
+Route::get('/Hydrodynamics/Choice', function () {
+    return view('iSTEAM.K2.Aerodynamics.Hydrodynamics.selection');
+})->name('HydrodynamicsSelection');
+
+// K2 -> Aerodynamics -> Hydrodynamics -> lesson
+Route::get('/Aerodynamics/Hydrodynamics/lesson', function () {
+    return view('iSTEAM.K2.Aerodynamics.Hydrodynamics.lesson');
+})->name('HydrodynamicsLesson');
+
+// K2 -> Aerodynamics -> Hydrodynamics -> teacher
+Route::get('/Aerodynamics/Hydrodynamics/teacher', function () {
+    return view('iSTEAM.K2.Aerodynamics.Hydrodynamics.teacher');
+})->name('HydrodynamicsTeacher');
+
+// ====
+// K2 -> Aerodynamics -> FlyingMachines
+Route::get('/Aerodynamics/FlyingMachines', function () {
+    return view('iSTEAM.K2.Aerodynamics.Flying.index');
+})->name('Flying');
+
+// K2 -> Aerodynamics -> FlyingMachines -> select
+Route::get('/FlyingMachines/Choice', function () {
+    return view('iSTEAM.K2.Aerodynamics.Flying.selection');
+})->name('FlyingSelection');
+
+// K2 -> Aerodynamics -> FlyingMachines -> lesson
+Route::get('/Aerodynamics/FlyingMachines/lesson', function () {
+    return view('iSTEAM.K2.Aerodynamics.Flying.lesson');
+})->name('FlyingLesson');
+
+// K2 -> Aerodynamics -> FlyingMachines -> teacher
+Route::get('/Aerodynamics/FlyingMachines/teacher', function () {
+    return view('iSTEAM.K2.Aerodynamics.Flying.teacher');
+})->name('FlyingTeacher');
 
 
 // ======
