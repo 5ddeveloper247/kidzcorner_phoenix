@@ -9,7 +9,6 @@
     <!--favicon-->
     <link rel="icon" href="{{ asset('assets/images/favicon-32x32.png') }}" type="image/png" />
     {{-- Fonts --}}
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
@@ -299,7 +298,7 @@
 
                 <!-- Dynamic slide content -->
                 <div id="ajax-section"
-                    class="flex items-center justify-center text-center px-2 sm:px-4 md:px-6 lg:px-8 row-gap-5 w-full max-w-[1100px] m-auto">
+                    class="flex items-center justify-center text-center px-2 sm:px-4 md:px-6 lg:px-8 row-gap-5 w-full h-[567px] max-w-[1100px] m-auto">
                     @yield('content')
                 </div>
 

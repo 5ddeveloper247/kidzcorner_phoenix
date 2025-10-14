@@ -22,196 +22,342 @@
 
     {{-- Slide 1 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <div class="flex items-center gap-5">
-            <img src="/assets/images/K1/coding/challenge4/ch1.png" />
-            <img src="/assets/images/K1/coding/challenge4/ch2.png" />
+        <div class="title stroke">
+            <h2>What are the common points of <span class="text-white">living things</span>?</h2>
+            <h2>Can you name some examples of <span class="text-white">living things</span>?</h2>
         </div>
-        <h2 class="title stroke">Children, what are these? Have you seen these before?</h2>
-        <p class="note">Note: Have children discuss where they have seen these being used before.</p>
+        <p class="note text-center">Note: Encourage children to recall and share the six basic characteristics of living
+            things; have them name some examples of living things around them.</p>
     </div>
 
 
 
     {{-- Slide 2 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <img src="/assets/images/K1/coding/challenge4/ch3.png" />
-        <h2 class="title stroke">What about this? What is this for?</h2>
-        <p class="note">Note: Have children discuss the uses of a map.</p>
+    <div class="slide hidden flex flex-col items-center">
+        <div class="flex items-center  ">
+            <div class="title stroke text-start">
+                <h2>Living things are things that...:</h2>
+                <ul class="!text-white">
+                    <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" />
+                        <p> Move on their own</p>
+                    </li>
+                    <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" />
+                        <p> Drink</p>
+                    </li>
+                    <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" />
+                        <p>Eat</p>
+                    </li>
+                    <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" />
+                        <p> Breath (need air)</p>
+                    </li>
+                    <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" />
+                        <p> Grow (get bigger)</p>
+                    </li>
+
+                </ul>
+            </div>
+            <img src="{{ asset('assets/images/N2/LivingThings/an15.png') }}" />
+        </div>
+        <p class="note">Note: Invite children to sing “”It is Living”” song together.</p>
     </div>
 
 
     {{-- Slide3 --}}
     <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <div class="flex items-center gap-5">
-            <img src="/assets/images/K1/coding/challenge4/ch4.png" class="w-[400px]" />
-            <img src="/assets/images/K1/coding/challenge4/ch3.png" class="w-[400px]" />
-        </div>
-        <h2 class="text-center title stroke">These are maps. A map is a drawing of a place. It shows us <br>
-            the surroundings of a place. What do you see from these maps?</h2>
+        <img src="{{ asset('assets/images/K2/livingthings/pthings/p24.png') }}" />
+        <h2 class="text-center title stroke">Animals and plants are groups of living things.</h2>
     </div>
+
 
     {{-- slide 4 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <img src="/assets/images/K1/coding/challenge4/ch3.png" />
-        <h2 class="title stroke">We can use a map to help us find directions to reach a destination.</h2>
+    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
+        <h2 class="text-start title stroke">Today, we’ll find out another common point
+            of <span class="text-white">living thing</span> called <span class="text-white">DNA</span>!</h2>
     </div>
 
-    {{-- slide 5 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <div class="flex items-end">
-            <div class="flex">
-                <p class="note">Home </p>
-                <img src="/assets/images/K1/coding/challenge4/ch5.png" />
 
-            </div>
-            <img src="/assets/images/K1/coding/challenge4/ch3.png" />
-        </div>
-        <h2 class="title stroke">We can use a map to help us find directions to reach a destination.</h2>
+    {{-- Slide 5 --}}
+    <div class="slide hidden  flex flex-col items-center justify-start  ">
+        <img src="{{ asset('assets/images/K2/livingthings/dna/d1.png') }}" class="w-[400px]" />
+        <h2 class="title stroke">What is this? <br>
+            Have you ever played it? How do you play it?</h2>
     </div>
 
 
     {{-- slide 6 --}}
-    <div class="slide flex flex-col items-center justify-center gap-20 ">
-        <h2 class="title stroke">Is it easy or difficult to find directions and plan a route
-            from a map? Let's find out!</h2>
-        <p class="note">Note: Have children share their views and feelings if they have ever used a map to find
-            directions.</p>
+    <div class="slide  hidden  flex flex-col items-center justify-start  ">
+        <div class="flex items-center gap-5">
+            <img src="{{ asset('assets/images/K2/livingthings/dna/d1.png') }}" class="w-[400px]" />
+            <img src="{{ asset('assets/images/K2/livingthings/dna/d2.png') }}" class="w-[400px]" />
+        </div>
+        <h2 class="title stroke">A set of building bricks can be joined together
+            to form an object.</h2>
     </div>
 
 
     {{-- slide 7 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <img src="/assets/images/K1/coding/challenge4/ch6.png" />
-        <h2 class="title stroke">Faith, Simon, Mimi and Billy are good friends.
-            They always play together.</h2>
+    <div class="slide  hidden  flex flex-col items-center justify-start  ">
+        <img src="{{ asset('assets/images/K2/livingthings/dna/d3.png') }}" />
+        <h2 class="title stroke">Different sets of bricks can build different objects.</h2>
+        <p class="note">Note: Have children name the different objects that can be constructed.</p>
     </div>
 
 
     {{-- slide 8 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <img src="/assets/images/K1/coding/challenge4/ch7.png" />
-        <h2 class="title stroke">It’s Billy’s birthday today! <br>
-            He has invited all his friends to his birthday party.</h2>
-    </div>
-
-
-    {{-- slide 9 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <img src="/assets/images/K1/coding/challenge4/ch8.png" />
-        <h2 class="title stroke">Faith is going to meet her friends one by one. <br>
-            They promised to go to Billy’s house together.</h2>
+    <div class="slide  hidden  flex flex-col items-center justify-start  ">
+        <div>
+            <img src="{{ asset('assets/images/K2/livingthings/dna/d4.png') }}" />
+        </div>
+        <h2 class="title stroke">This set of bricks can build a car.</h2>
     </div>
 
 
 
-    {{-- slide 10 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <img src="/assets/images/K1/coding/challenge4/ch9.png" />
-        <h2 class="title stroke">Faith is going to use this map to plan her route. <br>
-            Can you help her?</h2>
+    {{-- Slide 9  --}}
+    <div class="slide  hidden  flex flex-col items-center justify-start  ">
+        <div>
+            <img src="{{ asset('assets/images/K2/livingthings/dna/d5.png') }}" />
+        </div>
+        <h2 class="title stroke">This set of bricks can build a dinosaur.</h2>
     </div>
 
 
-    {{-- slide 11 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <h2 class="text-center justify-start text-[45px] text-white stroke">Hands-on Time </h2>
-        <h2 class="text-start title stroke">Mission: <br>
-            Help Faith to plan a route to meet up with her friends to go
-            to Billy's house together. Use Blockly to programme a robot to move according to the planned route.</h2>
-        <p class="note">Note: Divide children into groups and have them work in groups to complete the mission.</p>
+    {{-- Slide 10 --}}
+    <div class="slide  hidden  flex flex-col items-center justify-start  ">
+        <div>
+            <img src="{{ asset('assets/images/K2/livingthings/dna/d6.png') }}" />
+        </div>
+        <h2 class="title stroke">So how do you know the correct way to build each object?</h2>
+        <p class="note">Note: Encourage children to share their prior knowledge and experience.</p>
+    </div>
+
+
+    {{-- Slide 11 --}}
+    <div class="slide  hidden  flex flex-col items-center justify-start  ">
+        <img src="{{ asset('assets/images/K2/livingthings/dna/d7.png') }}" />
+        <h2 class="title stroke">Do you think the seeds that you have planted
+            go through the similar growing process?</h2>
     </div>
 
 
     {{-- Slide 12 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <ol class="text-start title stroke">
-            <h2>Steps:</h2>
-            <li>1. How do you plan the route for Faith? Draw arrows to show
-                the route in your learning journal.</li>
-        </ol>
+    <div class="slide  hidden  flex flex-col items-center justify-start  ">
         <div class="flex items-center gap-5">
-            <img src="/assets/images//K1/coding/challenge4/ch8.png" class="w-[300px]" />
-            <img src="/assets/images//K1/coding/challenge4/ch9.png" class="w-[500px]" />
+            <img src="{{ asset('assets/images/K2/livingthings/dna/d8.png') }}" />
+            <img src="{{ asset('assets/images/K2/livingthings/dna/d9.png') }}" />
         </div>
-        <p class="note text-center">Note: Have children plan a route by drawing arrows in their learning journal.
-        </p>
+        <h2 class="title stroke">Different instruction manuals will show <br>
+            how to build different objects correctly.</h2>
     </div>
 
-
-
-    {{-- Slide 13  --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <ol class="text-start title stroke">
-            <h2>Steps:</h2>
-            <li>2. What would Faith and her friends say when they meet?</li>
-        </ol>
-        <img src="/assets/images//K1/coding/challenge4/ch10.png" class="w-[500px]" />
-        <p class="note text-center">Note: Encourage children to discuss in groups and think of what sound to add in.</p>
+    {{-- Slide 13 --}}
+    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
+        <img src="{{ asset('assets/images/K2/livingthings/pthings/p24.png') }}" />
+        <h2 class="text-center title stroke">Similarly, every living things has its own
+            instruction manual called DNA!</h2>
     </div>
-
 
     {{-- Slide 14 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <ol class="text-start title stroke">
-            <h2>Steps:</h2>
-            <li>3. Use coding cards to lay out the steps needed for a robot to move according to the planned route.</li>
-        </ol>
-        <div class="flex items-end gap-5">
-            <img src="/assets/images//K1/coding/challenge4/ch9.png" class="w-[400px]" />
-            <img src="/assets/images//K1/coding/challenge4/ch11.png" class="w-[400px]" />
-        </div>
-        <p class="note text-center">Note: Have children lay out the steps in their learning journal. Check the steps and
-            advise if incorrect.</p>
+    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
+        <img src="{{ asset('assets/images/K2/livingthings/dna/d10.png') }}" />
+        <h2 class="text-center title stroke">DNA gives instruction to every living thing
+            on how to form and work correctly.</h2>
     </div>
-
 
     {{-- Slide 15 --}}
+    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
+        <h1 class="text-8xl stroke">
+            <span class="text-white">DNA</span>
+            <br>
+            <span class="text-red-600">deoxyribonucleic <br>
+                acid</span>
+        </h1>
+        <!-- sound Button -->
+        <div data-property-1="Default"
+            class="absolute top-1/2 right-[80px] z-30 h-18 w-18 -translate-y-1/2 cursor-pointer flex justify-center items-center rounded-[30px] bg-[#F8A23A]">
+            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-fit" />
+            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
+            <img class=" h-10 w-10" src="/assets/images/pptimages/sound-icon.png" />
+        </div>
+        <h2 class="text-center title stroke">DNA stands for deoxyribonucleic acid. Can you pronounce it?
+            Where do you think our DNA is in our body?</h2>
+    </div>
+
+    {{-- Slide 16 --}}
+    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
+        <div class="flex items-center gap-5">
+            <img src="{{ asset('assets/images/K2/livingthings/dna/d2.png') }}" class="w-[400px]" />
+            <img src="{{ asset('assets/images/K2/livingthings/dna/d10.png') }}" class="w-[600px]" />
+        </div>
+        <h2 class="text-center title stroke">Like this car is made up of different bricks, every living thing
+            is made up of different tiny <span class="text-white">cells</span>.</h2>
+    </div>
+
+    {{-- Slide 17 --}}
+    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
+        <h2 class="text-center title stroke">Now we'll learn how to take out DNA from our body.
+            We'll see what does DNA really look like!</h2>
+    </div>
+
+    {{-- Slide 18 --}}
+    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
+        <img src="{{ asset('assets/images/K2/livingthings/dna/d10.png') }}" />
+        <h2 class="text-center title stroke"><span class="text-white">DNA</span> is located in every cell.
+            So every cell has an <span class="text-white">instruction manual</span>.</h2>
+    </div>
+
+    {{-- Slide 19 --}}
+    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
+        <h2 class="text-center justify-start text-[45px] text-white stroke">Class Activity</h2>
+        <img src="{{ asset('assets/images/K2/livingthings/dna/d11.png') }}" class="w-[400px]" />
+        <h2 class="title stroke">Let's find out: <br>
+            How to extract DNA from one's mouth? What does it look like?</h2>
+    </div>
+
+
+    {{-- Slide 20 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <ol class="text-start title stroke">
-            <h2>Steps:</h2>
-            <li>4. Use Blockly to programme a robot to move according to
-                the planned route.</li>
-        </ol>
-        <div class="flex items-center gap-10">
-            <img src="/assets/images//K1/coding/challenge4/ch9.png" class="w-[500px]" />
-            <img src="/assets/images//K1/coding/challenge1/ch8.png" class="w-[500px]" />
-        </div>
+        <h2 class="title stroke">Let's do: <br>
+            1. Mix together 100ml distilled water and half a teaspoon of salt in a cup.</h2>
+        <img src="{{ asset('assets/images/K2/livingthings/dna/d12.png') }}" />
+        <p class="note text-center">Note: Guide children to measure and prepare the salt water; stir until salt is
+            dissolved.</p>
+    </div>
 
-        <p class="note text-center">Note: Have children decide a route and work in groups to work out the programming steps
-            in
-            Blockly.
-            After that, have the groups take turns to show their plan to the class.</p>
+    {{-- Slide 21 --}}
+    <div class="slide hidden  flex flex-col items-center justify-start  ">
+        <h2 class="title stroke">Let's do: <br>
+            2. Transfer 4 tablespoons of the salt water into another cup.</h2>
+        <img src="{{ asset('assets/images/K2/livingthings/dna/d13.png') }}" />
+        <p class="note text-center">Note: Invite a child to do the step; can be 4 tablespoons or 30ml.</p>
+    </div>
+
+    {{-- Slide 22 --}}
+    <div class="slide hidden  flex flex-col items-center justify-start  ">
+        <h2 class="title stroke">Let's do: <br>
+            3. Gargle the salt water for one minute. Try hard and don't swallow it!</h2>
+        <img src="{{ asset('assets/images/K2/livingthings/dna/d14.png') }}" />
+        <p class="note text-center">Note: Teacher to do the step; for better result, clean your mouth beforehand to remove
+            any food residue.</p>
     </div>
 
 
+    {{-- Slide 24 --}}
+    <div class="slide hidden  flex flex-col items-center justify-start  ">
+        <h2 class="title stroke">Let's do: <br>
+            4. Spit the water back into the cup.</h2>
+        <img src="{{ asset('assets/images/K2/livingthings/dna/d15.png') }}" />
+    </div>
 
-    {{-- sldie 16 --}}
-    <div class="slide  hidden flex flex-col items-center justify-start gap-y-4">
-        <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[836px] h-[536px] bg-cover bg-center flex flex-col gap-10 justify-center items-center"
-            style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
-            <p>How do you plan the route for Faith? Draw arrows to show the route.</p>
-            <div class="flex items-center gap-5">
-                <img src="/assets/images/K1/coding/challenge4/ch12.png" />
+
+    {{-- Slide 25 --}}
+    <div class="slide hidden  flex flex-col items-center justify-start  ">
+        <h2 class="title stroke">Let's do: <br>
+            5. Add one drop of clear liquid dish soap to the cup. Stir
+            gently to avoid making bubbles.</h2>
+        <img src="{{ asset('assets/images/K2/livingthings/dna/d16.png') }}" />
+    </div>
+
+    {{-- Slide 26 --}}
+    <div class="slide hidden  flex flex-col items-center justify-start  ">
+        <h2 class="title stroke">Let's do: <br>
+            6. Mix together 30ml cold rubbing alcohol and 3 drops food colouring in another cup.</h2>
+        <img src="{{ asset('assets/images/K2/livingthings/dna/d17.png') }}" />
+        <p class="note">Note: Guide children to measure and prepare the alcohol mixture.</p>
+    </div>
+
+
+    {{-- Slide 27 --}}
+    <div class="slide hidden  flex flex-col items-center justify-start  ">
+        <h2 class="title stroke">Let's do: <br>
+            7.Gently pour the alcohol mixture from the side into the cup with gargled water.</h2>
+        <img src="{{ asset('assets/images/K2/livingthings/dna/d18.png') }}" />
+        <p class="note">Note: Teacher to do the step; do not mix or stir.</p>
+    </div>
+
+    {{-- Slide 28 --}}
+    <div class="slide hidden  flex flex-col items-center justify-start  ">
+        <h2 class="title stroke">Let's do: <br>
+            8. Observe what happens in the cup.</h2>
+        <img src="{{ asset('assets/images/K2/livingthings/dna/d19.png') }}" />
+        <p class="note">Note: Advise observation from the top view. Take a photo of the result for use in the next
+            lesson.</p>
+    </div>
+
+
+    {{-- Slide 29 --}}
+    <div class="slide hidden  flex flex-col items-center justify-start  ">
+        <img src="{{ asset('assets/images/K2/livingthings/dna/d20.png') }}" />
+        <h2 class="title stroke">What do you observe? <br>
+            What happens in the cup?</h2>
+    </div>
+
+    {{-- Slide 30 --}}
+    <div class="slide hidden  flex flex-col items-center justify-start  ">
+        <h2 class="title stroke">What do you learn: <br>
+            What are the white strings and clumps in the cup?</h2>
+        <img src="{{ asset('assets/images/K2/livingthings/dna/d21.png') }}" />
+    </div>
+
+    {{-- Slide 31 --}}
+    <div class="slide hidden  flex flex-col items-center justify-start  ">
+        <img src="{{ asset('assets/images/K2/livingthings/dna/d21.png') }}" />
+        <h2 class="title stroke text-center">Through the activity, we know that the white strings and
+            clumps are DNA strands from the mouth.</h2>
+    </div>
+
+    {{-- Slide 32 --}}
+    <div class="slide hidden  flex flex-col items-center justify-start  ">
+        <img src="{{ asset('assets/images/K2/livingthings/dna/d22.png') }}" />
+        <h2 class="title stroke text-center">In fact, a strand of DNA is a long string <br>
+            but too small to be visible to our eyes.</h2>
+    </div>
+
+
+    {{-- Slide 33 --}}
+    <div class="slide hidden  flex flex-col items-center justify-start  ">
+        <img src="{{ asset('assets/images/K2/livingthings/dna/d21.png') }}" />
+        <h2 class="title stroke text-center">The reason we are able to see DNA in this activity is that
+            there are so many of them clumped together at the end.</h2>
+    </div>
+
+
+    {{-- Slide 34 --}}
+    <div class="slide hidden  flex flex-col items-center justify-start  ">
+        <img src="{{ asset('assets/images/K2/livingthings/dna/d21.png') }}" />
+        <h2 class="title stroke text-center">Do you know why are these DNA strands clumped together?
+            Where do they come from?</h2>
+    </div>
+
+
+    {{-- Slide 35 --}}
+    <div class="slide hidden  flex flex-col items-center justify-start  ">
+        <img src="{{ asset('assets/images/K2/livingthings/dna/d14.png') }}" />
+        <h2 class="title stroke text-center">When one gargle with salt water vigorously and spit it back
+            out, cheek cells will be collected in the salt water.</h2>
+    </div>
+
+
+    {{-- Slide 36 --}}
+    <div class="slide hidden  flex flex-col items-center justify-start  ">
+        <img src="{{ asset('assets/images/K2/livingthings/dna/d23.png') }}" />
+        <h2 class="title stroke text-center">For better understanding, this is the scientific drawing of our
+            cheek. DNA is stored in the cells.</h2>
+    </div>
+
+
+    {{-- Slide 37 --}}
+    <div class="slide hidden  flex flex-col items-center justify-start  ">
+        <div class="flex items-center gap-5">
+            <div class="flex flex-col items-center gap-5">
+                <img src="{{ asset('assets/images/K2/livingthings/dna/d12.png') }}" class="w-[500px]" />
+                <img src="{{ asset('assets/images/K2/livingthings/dna/d18.png') }}" class="w-[500px]" />
             </div>
+            <img src="{{ asset('assets/images/K2/livingthings/dna/d21.png') }}" class="w-[550px]" />
         </div>
+        <h2 class="title stroke text-center">The chemicals used in the process break down the outer
+            covering of cheek cells and release <span class="text-white">DNA</span> from the cells.</h2>
     </div>
-
-    {{-- sldie 17 --}}
-    <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
-        <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[836px] h-[536px] bg-cover bg-center flex flex-col justify-start items-center"
-            style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
-            <p>How does a robot move according to the planned route? Use coding cards to
-                lay out the steps.</p>
-        </div>
-    </div>
-
-
-
-
-
-
 
 
 
@@ -235,7 +381,8 @@
         <!-- Return Button -->
         <a class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
             id="returnButton">
-            <img class="absolute top-[6px] left-[8px] w-20 h-10" src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
+            <img class="absolute top-[6px] left-[8px] w-20 h-10"
+                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
             <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
             <img class="absolute top-[24px] left-[22px] w-14 h-14"
                 src="{{ asset('assets/images/pptimages/reverse-icon.png') }}" />
@@ -292,17 +439,26 @@
             const slides = document.querySelectorAll(".slide");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
-            const doneButton = document.querySelector(".doneButton"); // ✅ DONE button
+            const doneButton = document.querySelector(".doneButton");
+
+            // Get all info/click buttons (info-btn1, info-btn2, click-btn1, click-btn2, etc.)
+            const infoButtons = document.querySelectorAll("[class*='info-btn'], [class*='click-btn']");
 
             let currentSlide = 0;
+            let parentSlideIndex = null;
+            let isViewingInfoSlides = false;
+            let currentInfoClass = null; // Track which info/click class we're viewing
 
             function showSlide(index) {
                 slides.forEach((slide, i) => {
                     slide.classList.toggle("hidden", i !== index);
                 });
 
-                // ✅ Agar last slide hai → NEXT button hide, DONE show
-                if (index === slides.length - 1) {
+                // Check if last slide OR last info/click slide
+                const isLastSlide = index === slides.length - 1;
+                const isLastInfoSlide = isViewingInfoSlides && !hasNextInfoSlide(index);
+
+                if (isLastSlide || isLastInfoSlide) {
                     nextButtons.forEach(btn => btn.classList.add("hidden"));
                     if (doneButton) doneButton.classList.remove("hidden");
                 } else {
@@ -311,31 +467,147 @@
                 }
             }
 
-            // ✅ NEXT buttons listener
-            nextButtons.forEach((btn) => {
-                btn.addEventListener("click", () => {
-                    if (currentSlide < slides.length - 1) {
-                        currentSlide++;
-                        showSlide(currentSlide);
+            // Check if there's another info/click slide with same class after current one
+            function hasNextInfoSlide(currentIndex) {
+                if (!currentInfoClass) return false;
+
+                for (let i = currentIndex + 1; i < slides.length; i++) {
+                    if (slides[i].classList.contains(currentInfoClass)) {
+                        return true;
+                    }
+                }
+                return false;
+            }
+
+            // Get info/click class from button (info-btn1 → , click-btn1 → click1)
+            function getInfoClassFromButton(button) {
+                const classList = Array.from(button.classList);
+
+                // Check for info-btn pattern
+                const infoBtnClass = classList.find(cls => cls.startsWith('info-btn'));
+                if (infoBtnClass) {
+                    const number = infoBtnClass.replace('info-btn', '');
+                    return 'info-slide' + number;
+                }
+
+                // Check for click-btn pattern
+                const clickBtnClass = classList.find(cls => cls.startsWith('click-btn'));
+                if (clickBtnClass) {
+                    const number = clickBtnClass.replace('click-btn', '');
+                    return 'click' + number;
+                }
+
+                return null;
+            }
+
+            // Info/Click button handlers
+            infoButtons.forEach((btn) => {
+                btn.addEventListener("click", (e) => {
+                    e.preventDefault(); // Prevent default anchor behavior
+
+                    parentSlideIndex = currentSlide;
+                    isViewingInfoSlides = true;
+                    currentInfoClass = getInfoClassFromButton(btn);
+
+                    // Find the first slide with matching info/click class
+                    for (let i = 0; i < slides.length; i++) {
+                        if (slides[i].classList.contains(currentInfoClass)) {
+                            currentSlide = i;
+                            showSlide(currentSlide);
+                            break;
+                        }
                     }
                 });
             });
 
-            // ✅ Return button
+            // NEXT button - skip info/click slides if not viewing them
+            nextButtons.forEach((btn) => {
+                btn.addEventListener("click", () => {
+                    if (currentSlide < slides.length - 1) {
+                        currentSlide++;
+
+                        // Skip info/click slides if not viewing them
+                        while (!isViewingInfoSlides &&
+                            currentSlide < slides.length &&
+                            isInfoSlide(slides[currentSlide])) {
+                            currentSlide++;
+                        }
+
+                        // If viewing info/click slides, only show slides with current class
+                        if (isViewingInfoSlides) {
+                            while (currentSlide < slides.length &&
+                                !slides[currentSlide].classList.contains(currentInfoClass)) {
+                                currentSlide++;
+                            }
+                        }
+
+                        if (currentSlide < slides.length) {
+                            showSlide(currentSlide);
+                        }
+                    }
+                });
+            });
+
+            // Check if slide is any info/click slide (info-slide1, info-slide2, click1, click2, etc.)
+            function isInfoSlide(slide) {
+                return Array.from(slide.classList).some(cls =>
+                    (cls.startsWith('info-slide') && cls.match(/^info-slide\d+$/)) ||
+                    (cls.startsWith('click') && cls.match(/^click\d+$/))
+                );
+            }
+
+            // Return button
             returnButton.addEventListener("click", () => {
-                if (currentSlide > 0) {
+                if (isViewingInfoSlides && currentSlide > 0) {
+                    // Check if previous slide is also same info/click class
+                    let prevSlide = currentSlide - 1;
+
+                    // Find previous slide with same info/click class
+                    while (prevSlide >= 0 && !slides[prevSlide].classList.contains(currentInfoClass)) {
+                        prevSlide--;
+                    }
+
+                    if (prevSlide >= 0 && slides[prevSlide].classList.contains(currentInfoClass)) {
+                        currentSlide = prevSlide;
+                        showSlide(currentSlide);
+                    } else {
+                        // No more info/click slides, return to parent
+                        currentSlide = parentSlideIndex;
+                        isViewingInfoSlides = false;
+                        currentInfoClass = null;
+                        parentSlideIndex = null;
+                        showSlide(currentSlide);
+                    }
+                } else if (currentSlide > 0) {
                     currentSlide--;
+
+                    // Skip info/click slides when going back
+                    while (currentSlide > 0 && isInfoSlide(slides[currentSlide])) {
+                        currentSlide--;
+                    }
+
                     showSlide(currentSlide);
                 }
             });
 
+            // DONE button handler
             if (doneButton) {
                 doneButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('challenge4Selection') }}";
+                    if (isViewingInfoSlides && parentSlideIndex !== null) {
+                        // Return to parent slide
+                        currentSlide = parentSlideIndex;
+                        isViewingInfoSlides = false;
+                        currentInfoClass = null;
+                        parentSlideIndex = null;
+                        showSlide(currentSlide);
+                    } else {
+                        // Navigate to route
+                        window.location.href = "{{ route('DnaSelection') }}";
+                    }
                 });
             }
 
-            // ✅ Start with first slide
+            // Start with first slide
             showSlide(currentSlide);
         });
     </script>

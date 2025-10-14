@@ -60,35 +60,35 @@
             </a>
 
             <!-- Card 3 -->
-            <a href="{{ route('Balloon') }}"
+            <a href="{{ route('pthings') }}"
                 class=" bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
                 <h2 class="text-2xl text-[#7D6F71]">Are Plants <br> Living <br> Things?</h2>
                 <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">3</span>
             </a>
 
             <!-- Card 4 -->
-            <a href="{{ route('Wedge') }}"
+            <a href="{{ route('Dna') }}"
                 class=" bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
                 <h2 class="text-2xl text-[#7D6F71]">What is <br> DNA?</h2>
                 <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">4</span>
             </a>
 
             <!-- Card 5 -->
-            <a href="{{ route('Rubbish') }}"
+            <a href="{{ route('tomatoDna') }}"
                 class=" bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
                 <h2 class="text-2xl text-[#7D6F71]">Tomato <br> DNA</h2>
                 <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">5</span>
             </a>
 
             <!-- Card 6 -->
-            <a href="{{ route('Wheels') }}"
+            <a href="{{ route('helix') }}"
                 class=" bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
                 <h2 class="text-2xl text-[#7D6F71]">DNA <br> Double <br> Helix</h2>
                 <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">6</span>
             </a>
 
             <!-- Card 7 -->
-            <a href="{{ route('PlantsMachine') }}"
+            <a href="{{ route('Fingerprints') }}"
                 class=" bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
                 <h2 class="text-2xl text-[#7D6F71]">Fingerprints</h2>
                 <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">7</span>

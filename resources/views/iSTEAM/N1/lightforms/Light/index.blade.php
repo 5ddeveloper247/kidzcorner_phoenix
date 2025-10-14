@@ -103,6 +103,11 @@ document.addEventListener("DOMContentLoaded", () => {
             window.location.href = "{{ route('choose') }}";
         });
     }
+     if (returnButton) {
+                returnButton.addEventListener("click", () => {
+                    window.location.href = "{{ route('lightforms') }}";
+                });
+            }
 });
 </script>
 @endpush

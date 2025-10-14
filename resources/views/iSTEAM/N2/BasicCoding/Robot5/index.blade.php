@@ -33,7 +33,7 @@
     <div id="topDiv" class="flex flex-col items-center ">
         <div class="  text-amber-300 text-[65px] font-extrabold stroke">Programme A Robot 5</div>
         <h2 class=" lg:text-6xl !text-white stroke">Create a simple story and turn it into a
-programming game; programme a robot to move based on a story</h2>
+            programming game; programme a robot to move based on a story</h2>
         <button
             class="cursor-pointer nextButton w-66 h-[75px] relative bg-[#F8A23A]  rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] outline outline-1 outline-yellow-700 overflow-hidden">
             <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
@@ -44,11 +44,7 @@ programming game; programme a robot to move based on a story</h2>
     </div>
 
 
-
-
-
     <div id="buttons" class="absolute top-[24px] right-[60px] flex flex-row gap-6 z-40">
-
         <!-- Return Button -->
         <button
             class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
@@ -80,10 +76,7 @@ programming game; programme a robot to move based on a story</h2>
                 class="absolute top-[16px] left-[30px] w-11 h-16 text-white text-6xl font-normal font-['Jua']">X
             </div>
         </button>
-
     </div>
-
-
 @endsection
 
 @push('script')
@@ -94,6 +87,11 @@ programming game; programme a robot to move based on a story</h2>
             if (nextButton) {
                 nextButton.addEventListener("click", () => {
                     window.location.href = "{{ route('Robot5Selection') }}";
+                });
+            }
+            if (returnButton) {
+                returnButton.addEventListener("click", () => {
+                    window.location.href = "{{ route('BasicCoding') }}";
                 });
             }
         });

@@ -23,10 +23,10 @@
         <div>
             <h2 class="  font-bold">Children will be able to:</h2>
             <ul class="list-disc ">
-                <li>Plan a route for a purpose</li>
-                <li>Programme a robot to move according to the planned route</li>
-                <li>Programme a robot to produce sound and light</li>
-                <li>Develop problem-solving skills</li>
+                <li>Know that DNA is the instruction manual of all living things</li>
+                <li>Know that living things are made up of cells and DNA is stored in the cells</li>
+                <li>Learn how to extract DNA from one's mouth</li>
+                <li>Know that a strand of DNA is a long string</li>
                 <li>Develop understanding through inquiry</li>
             </ul>
         </div>
@@ -35,15 +35,11 @@
             <h2 class="text-[33px] font-bold">Keywords:</h2>
             <div class="flex gap-20">
                 <ul class="list-disc ">
-                    <li>Programming Block</li>
-                    <li>Forward</li>
-                    <li>Backward</li>
-                    <li>Turn Left</li>
-                    <li>Turn Right</li>
-                </ul>
-                <ul class="list-disc">
-                    <li>Sound </li>
-                    <li>Light</li>
+                    <li>Living Thing</li>
+                    <li>DNA</li>
+                    <li>Instruction Manual</li>
+                    <li>Cell</li>
+                    <li>String</li>
                 </ul>
             </div>
         </div>
@@ -58,13 +54,19 @@
         <div>
             <h2 class="font-bold">Preparations:</h2>
             <ul class="list-disc ">
-                <li>Coding mats and obstacle cards</li>
+                <li>1 bottle of distilled water (normally sold in 500ml bottles; will use 100ml)</li>
+                <li>Some salt</li>
+                <li>3 clear plastic cups or glasses</li>
+                <li>1 bottle of clear liquid dish soap</li>
+                <li>
+                    1 bottle of rubbing alcohol (for better results, try to find 90% isopropyl alcohol; use 30ml ice-cold
+                    alcohol —
+                    put the alcohol in the freezer one day before the activity) </li>
+                <li>1 bottle of food colouring (preferably blue or green)</li>
+                <li>1 eyedropper</li>
+                <li>1 teaspoon and 1 tablespoon</li>
+                <li>1 measuring cup (at least 100ml)</li>
             </ul>
-        </div>
-        <div class="flex gap-5">
-            <img src="{{ asset('assets/images/K1/coding/challenge1/ch9.png') }}" alt="Teacher" class="h-[300px]" />
-            <img src="{{ asset('assets/images/K1/coding/challenge1/ch12.png') }}" alt="Teacher" class="h-[300px]" />
-            <img src="{{ asset('assets/images/K1/coding/challenge1/ch11.png') }}" alt="Teacher" class="h-[300px]" />
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
@@ -73,13 +75,14 @@
     {{-- sldie 3 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Preparations:</h2>
-            <ul class="list-disc">
-                <li>Pictures of the 4 characters (cut from coloured papers; size not more than 10cm)</li>
-                <li>Blu Tack (for fixing graphic cards on the coding mat)</li>
+            <h2 class="font-bold">How to extract DNA from one's mouth and things to consider:</h2>
+            <ul class="list-decimal">
+                <li>Mix together 100ml distilled water and half a teaspoon of salt in a cup . [Guide children to measure and
+                    prepare the salt water with a measuring cup and a teaspoon; have them stir until salt is dissolved .]
+                </li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K1/coding/challenge4/ch6.png') }}" class="w-[600px]" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/d12.png') }}" class="w-[650px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
     </div>
@@ -88,79 +91,109 @@
     {{-- slide 4 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Preparations for the testing of the ball roller coaster:</h2>
-            <ul class="list-disc">
-                <li>Coding cards</li>
-                <li>Whiteboard marker pens</li>
+            <h2 class="font-bold">How to extract DNA from one's mouth and things to consider:</h2>
+            <ul>
+                <li>2. Transfer 4 tablespoons of the salt water into another cup . [Invite a child to do the step; can be 4
+                    tablespoons or 30ml . As the final result will be displayed at the learning corner, you may consider
+                    using a clear plastic container with lid instead.]</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K1/coding/challenge2/ch9.png') }}" class="w-[800px]" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/d13.png') }}" class="w-[700px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
     </div>
 
 
     {{-- slide 5 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Preparations:</h2>
-            <ul class="list-disc">
-                <li>The robots and tablets (refer to the teacher’s mode of Lesson 1 for guide on
-                    what you need to know and do before the lesson)</li>
-                <li>Tender Loving Care Poster (refer to the teacher’s mode of Lesson 1)</li>
+            <h2 class="font-bold">How to extract DNA from one's mouth and things to consider:</h2>
+            <ul>
+                <li>3. Gargle the salt water for one minute. Try hard and don't swallow it! [Teacher to do the step; for
+                    better result, clean your mouth beforehand to remove any food residue.]</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K1/coding/cd/cd13.png') }}" alt="Teacher" class="w-[600px]" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/d14.png') }}" class="w-[700px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
     </div>
 
+
     {{-- sldie 6 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Preparations:</h2>
-            <ul class="list-disc">
-                <li>Mini coding cards (print and cut out before the lesson)</li>
+            <h2 class="font-bold">How to extract DNA from one's mouth and things to consider:</h2>
+            <ul>
+                <li>4. Spit the water back into the cup . [Make sure you gargle the salt water for the full 1 minute, so
+                    that more cheek cells will be collected .]</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K1/coding/challenge1/ch13.png') }}" alt="Teacher" class="w-[500px]" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/d15.png') }}" class="w-[700px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
     </div>
 
 
     {{-- sldie 7 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
-        <p class="note">When the hands-on session starts, guide each group of children to set up the mat
-            accordingly (as shown). Advise them to discuss as a group to complete the mission.</p>
-        <img src="{{ asset('assets/images/K1/coding/challenge4/ch9.png') }}" alt="Teacher" class="w-[600px]" />
+    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+        <div>
+            <h2 class="font-bold">How to extract DNA from one's mouth and things to consider:</h2>
+            <ul>
+                <li>5. Add one drop of clear liquid dish soap to the cup. Stir gently to avoid making bubbles. [Preferably
+                    teacher to do the step .]</li>
+            </ul>
+        </div>
+        <img src="{{ asset('assets/images/K2/livingthings/dna/d16.png') }}" class="w-[700px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
     </div>
-
 
     {{-- sldie 8 --}}
-    <div class=" slide flex text-2xl text-white flex-col  justify-start gap-y-10 text-start">
-
-        <h2 class="font-bold">When the hands-on session starts, guide each group of children to:</h2>
-        <ul class="list-disc">
-            <li>Discuss and decide whose name they want to spell out individually (their own
-                name or a group member's name). If needed, guide them to use short form or
-                only the initials for names that are long (e.g. Katherine - Kath; Song Ji Hyo
-                - SJH).)</li>
-            <li>Set up the mat by placing the letters on the mat randomly and fix a
-                starting point for the robot.</li>
-            <li>Use the learning journals to plot and plan their route before
-                working out the programming steps in Blockly.</li>
-        </ul>
-
+    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+        <div>
+            <h2 class="font-bold">How to extract DNA from one's mouth and things to consider:</h2>
+            <ul>
+                <li>6. Mix together 30ml cold rubbing alcohol and 3 drops food colouring in another cup [Guide children to
+                    measure and prepare the alcohol mixture with a measuring cup, an eyedropper and a tablespoon .]</li>
+            </ul>
+        </div>
+        <img src="{{ asset('assets/images/K2/livingthings/dna/d17.png') }}" class="w-[700px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
     </div>
-
 
 
     {{-- sldie 9 --}}
+    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+        <div>
+            <h2 class="font-bold">How to extract DNA from one's mouth and things to consider:</h2>
+            <ul>
+                <li>7. Gently pour the alcohol mixture from the side into the cup with gargled water. [Teacher to do the
+                    step; do not mix or stir .]</li>
+            </ul>
+        </div>
+        <img src="{{ asset('assets/images/K2/livingthings/dna/d18.png') }}" class="w-[700px]" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute right-[250px] bottom-[150px]" />
+    </div>
+
+
+    {{-- sldie 10 --}}
+    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+        <div>
+            <h2 class="font-bold">How to extract DNA from one's mouth and things to consider:</h2>
+            <ul>
+                <li>8. Observe what happens in the cup . [Advise children to observe from the top view .Take a photo of the
+                    result for use in the next lesson.]</li>
+            </ul>
+        </div>
+        <img src="{{ asset('assets/images/K2/livingthings/dna/d19.png') }}" class="w-[700px]" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute right-[250px] bottom-[150px]" />
+    </div>
+
+
+    {{-- slide 11 --}}
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
@@ -180,14 +213,6 @@
                         next to a picture, class="text-amber-400" click on the picture to watch the video.
                     </li>
                     <li>Emphasise and use the <strong>keywords</strong> during hands-on sessions.</li>
-                    <li class="text-amber-400">The fundamental skill of coding or programming is ability to
-                        differentiate and navigate self to move forward, backward, turn left
-                        and turn right. If children are not ready, play more related games to
-                        improve the skill.</li>
-                    <li class="text-amber-400">It is important to inculcate the habit of always laying out the steps
-                        using coding cards before working on the Blockly because it's not easy
-                        for children to remember all the steps when they use Blockly to
-                        programme.</li>
                     <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
                     </li>
                     <li>
@@ -210,24 +235,20 @@
     </div>
 
 
-    {{-- slide 11 --}}
+    {{-- slide 12 --}}
     <div class="text-white flex flex-col items-center justify-center gap-y-10 text-start text-2xl slide hidden">
         <h2 class=" title stroke">Learning Centre Idea</h2>
-        <div class="flex">
-            <div class="space-y-20">
-                <ul>
-                    <h2 class="!text-white title stroke">Story Coding Challenge</h2>
-                    <h2>What and how to set up:</h2>
-                    <li>Create a short story for children to code based on a storyline (e.g .:
-                        a day itinerary at zoo, picking up things in a supermarket based on a shopping list).</li>
-                </ul>
-
-                <ul>
-                    <h2>What to do:</h2>
-                    <li>Guide children to plan a route for a robot to find matching cards
-                        on the mat. After that, programming a robot to move according to the planned route.</li>
-                </ul>
-            </div>
+        <div>
+            <ul>
+                <h2 class="!text-white title stroke">Our DNA</h2>
+                <h2>What and how to set up:</h2>
+                <li>Put the final result of the activity (the gargled water with alcohol
+                    mixture) here as a display for children. Use cling wrap to tightly
+                    seal the cup and fix the position of the cup. As long as you don't
+                    shake the cup, the alcohol in the cup can keep the DNA last for a
+                    period of time. Put up a label (DNA from cheek cells) next to the
+                    cup.</li>
+            </ul>
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute right-[250px] bottom-[150px]" />
     </div>
@@ -349,7 +370,7 @@
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('coding') }}";
+                    window.location.href = "{{ route('k2livingthings') }}";
                 });
             }
 

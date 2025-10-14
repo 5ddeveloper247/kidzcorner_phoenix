@@ -759,6 +759,27 @@ Route::get('/Structures', function () {
     return view('iSTEAM.N2.Structures.index');
 })->name('Structures');
 
+// N2 -> Structures -> structure
+Route::get('/Structures/structure', function () {
+    return view('iSTEAM.N2.Structures.structure.index');
+})->name('structure');
+
+// N2 -> Structures -> structure -> select
+Route::get('/structureChoice', function () {
+    return view('iSTEAM.N2.Structures.structure.selection');
+})->name('structureSelection');
+
+// N2 -> Structures -> structure -> lesson
+Route::get('/Structures/structure/lesson', function () {
+    return view('iSTEAM.N2.Structures.structure.lesson');
+})->name('structureLesson');
+
+// N2 -> Structures -> structure -> teacher
+Route::get('/Structures/structure/teacher', function () {
+    return view('iSTEAM.N2.Structures.structure.teacher');
+})->name('structureTeacher');
+
+
 Route::get('/BasicCoding', function () {
     return view('iSTEAM.N2.BasicCoding.index');
 })->name('BasicCoding');
@@ -1807,8 +1828,6 @@ Route::get('/K2', function () {
     return view('iSTEAM.K2.index');
 })->name('K2');
 
-
-
 // ======
 // K2 -> livingthings
 Route::get('/k2LivingThings', function () {
@@ -1859,6 +1878,27 @@ Route::get('/LivingThings/teacher', function () {
 
 
 
+// K2 -> livingthings -> pthings
+Route::get('/PlantsAreLivingthings', function () {
+    return view('iSTEAM.K2.livingthings.pthings.index');
+})->name('pthings');
+
+// K2 -> livingthings -> PlantsAreLivingthings? -> select
+Route::get('/PlantsAreLivingthingsChoice', function () {
+    return view('iSTEAM.K2.livingthings.pthings.selection');
+})->name('pthingsSelection');
+
+// K2 -> livingthings -> PlantsAreLivingthings? -> lesson
+Route::get('/PlantsAreLivingthings/lesson', function () {
+    return view('iSTEAM.K2.livingthings.pthings.lesson');
+})->name('pthingsLesson');
+
+// K2 -> livingthings -> PlantsAreLivingthings? -> teacher
+Route::get('/PlantsAreLivingthings/teacher', function () {
+    return view('iSTEAM.K2.livingthings.pthings.teacher');
+})->name('pthingsTeacher');
+
+
 
 // K2 -> livingthings -> bacteria
 Route::get('/livingthings/Bacteria', function () {
@@ -1880,27 +1920,114 @@ Route::get('/livingthings/Bacteria/teacher', function () {
     return view('iSTEAM.K2.livingthings.bacteria.teacher');
 })->name('bacteriaTeacher');
 
+
+// K2 -> livingthings -> Dna
+Route::get('/livingthings/WhatisDNA', function () {
+    return view('iSTEAM.K2.livingthings.Dna.index');
+})->name('Dna');
+
+// K2 -> livingthings -> WhatisDNA? -> select
+Route::get('/WhatisDNAChoice', function () {
+    return view('iSTEAM.K2.livingthings.Dna.selection');
+})->name('DnaSelection');
+
+// K2 -> livingthings -> WhatisDNA? -> lesson
+Route::get('/livingthings/WhatisDNA/lesson', function () {
+    return view('iSTEAM.K2.livingthings.Dna.lesson');
+})->name('DnaLesson');
+
+// K2 -> livingthings -> WhatisDNA -> teacher
+Route::get('/livingthings/WhatisDNA/teacher', function () {
+    return view('iSTEAM.K2.livingthings.Dna.teacher');
+})->name('DnaTeacher');
+
+
+// K2 -> livingthings -> tomatoDna
+Route::get('/livingthings/TomatoDNA', function () {
+    return view('iSTEAM.K2.livingthings.tomatoDna.index');
+})->name('tomatoDna');
+
+// K2 -> livingthings -> TomatoDNA? -> select
+Route::get('/TomatoDNAChoice', function () {
+    return view('iSTEAM.K2.livingthings.tomatoDna.selection');
+})->name('tomatoDnaSelection');
+
+// K2 -> livingthings -> TomatoDNA? -> lesson
+Route::get('/livingthings/TomatoDNA/lesson', function () {
+    return view('iSTEAM.K2.livingthings.tomatoDna.lesson');
+})->name('tomatoDnaLesson');
+
+// K2 -> livingthings -> TomatoDNA -> teacher
+Route::get('/livingthings/TomatoDNA/teacher', function () {
+    return view('iSTEAM.K2.livingthings.tomatoDna.teacher');
+})->name('tomatoDnaTeacher');
+
+
+// =====
 // K2 -> livingthings -> helix
-Route::get('/livingthings/doubleDNA', function () {
+Route::get('/livingthings/doubleDNAhelix', function () {
     return view('iSTEAM.K2.livingthings.helix.index');
 })->name('helix');
 
-// K2 -> livingthings -> doubleDNA -> select
-Route::get('/doubleDNAChoice', function () {
+// K2 -> livingthings -> doubleDNAhelix -> select
+Route::get('/doubleDNAhelixChoice', function () {
     return view('iSTEAM.K2.livingthings.helix.selection');
 })->name('helixSelection');
 
-// K2 -> livingthings -> doubleDNA -> lesson
-Route::get('/livingthings/doubleDNA/lesson', function () {
+// K2 -> livingthings -> doubleDNAhelix -> lesson
+Route::get('/livingthings/doubleDNAhelix/lesson', function () {
     return view('iSTEAM.K2.livingthings.helix.lesson');
 })->name('helixLesson');
 
-// K2 -> livingthings -> doubleDNA -> teacher
-Route::get('/livingthings/doubleDNA/teacher', function () {
+// K2 -> livingthings -> doubleDNAhelix -> teacher
+Route::get('/livingthings/doubleDNAhelix/teacher', function () {
     return view('iSTEAM.K2.livingthings.helix.teacher');
 })->name('helixTeacher');
 
 
+// ======
+// K2 -> livingthings -> Fingerprints
+Route::get('/livingthings/Fingerprints', function () {
+    return view('iSTEAM.K2.livingthings.Fingerprints.index');
+})->name('Fingerprints');
+
+// K2 -> livingthings -> Fingerprints -> select
+Route::get('/FingerprintsChoice', function () {
+    return view('iSTEAM.K2.livingthings.Fingerprints.selection');
+})->name('FingerprintsSelection');
+
+// K2 -> livingthings -> Fingerprints -> lesson
+Route::get('/livingthings/Fingerprints/lesson', function () {
+    return view('iSTEAM.K2.livingthings.Fingerprints.lesson');
+})->name('FingerprintsLesson');
+
+// K2 -> livingthings -> Fingerprints -> teacher
+Route::get('/livingthings/Fingerprints/teacher', function () {
+    return view('iSTEAM.K2.livingthings.Fingerprints.teacher');
+})->name('FingerprintsTeacher');
+
+
+
+// ====
+// K2 -> livingthings -> Fingerprintspatterns
+Route::get('/livingthings/Fingerprintpatterns', function () {
+    return view('iSTEAM.K2.livingthings.patterns.index');
+})->name('Fingerprintpatterns');
+
+// K2 -> livingthings -> Fingerprintspatterns -> select
+Route::get('/FingerprintspatternsChoice', function () {
+    return view('iSTEAM.K2.livingthings.patterns.selection');
+})->name('FingerprintpatternsSelection');
+
+// K2 -> livingthings -> Fingerprintspatterns -> lesson
+Route::get('/livingthings/Fingerprintspattern/lesson', function () {
+    return view('iSTEAM.K2.livingthings.patterns.lesson');
+})->name('FingerprintpatternsLesson');
+
+// K2 -> livingthings -> Fingerprintspatterns -> teacher
+Route::get('/livingthings/Fingerprintspatterns/teacher', function () {
+    return view('iSTEAM.K2.livingthings.patterns.teacher');
+})->name('FingerprintpatternsTeacher');
 
 
 

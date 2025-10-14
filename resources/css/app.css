@@ -8,6 +8,9 @@ body {
     -webkit-text-stroke: 1px #533705;
 }
 
+a, button{
+    cursor: pointer;
+}
 .note {
     font-size: 20px;
     font-weight: 400;

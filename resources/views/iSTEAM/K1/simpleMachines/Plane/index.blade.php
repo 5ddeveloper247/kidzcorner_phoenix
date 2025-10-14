@@ -104,6 +104,11 @@
                     window.location.href = "{{ route('PlaneSelection') }}";
                 });
             }
+             if (returnButton) {
+                returnButton.addEventListener("click", () => {
+                    window.location.href = "{{ route('K1simpleMachines') }}";
+                });
+            }
         });
     </script>
 @endpush

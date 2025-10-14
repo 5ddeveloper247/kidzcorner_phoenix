@@ -78,7 +78,7 @@
         <div class="flex items-center justify-between">
 
             {{-- Lesson Button --}}
-            <a href="{{ route('fastLesson') }}" id="Lesson" class="flex flex-col gap-0">
+            <a href="{{ route('helixLesson') }}" id="Lesson" class="flex flex-col gap-0">
                 <img src="/assets/images/pptimages/Lesson1.png" class="h-auto w-[200px] sm:w-[250px] lg:w-[300px]" />
 
                 <button id="nextButton" class="lesson-btn  !z-10 !bg-[#2D9CDB]">
@@ -89,7 +89,7 @@
 
             </a>
             {{-- Teacher Button --}}
-            <a href="{{ route('fastTeacher') }}" id="Lesson" class="flex flex-col gap-0">
+            <a href="{{ route('helixTeacher') }}" id="Lesson" class="flex flex-col gap-0">
                 <img src="/assets/images/pptimages/teacher1.png" class="h-auto w-[200px] sm:w-[250px] lg:w-[300px]" />
 
                 <button id="nextButton" class="lesson-btn  !z-10 !bg-[#0E502A]">
@@ -107,7 +107,7 @@
     <div id="buttons" class="absolute top-[24px] right-[60px] flex flex-row gap-6 z-40">
 
         <!-- Return Button -->
-        <a href="{{ route('fast') }}"
+        <a href="{{ route('helix') }}"
             class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
             id="returnButton">
             <img class="absolute top-[6px] left-[8px] w-20 h-10" src="{{ asset('assets/images/pptimages/Vector4.png') }}" />

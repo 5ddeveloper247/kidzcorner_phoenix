@@ -100,6 +100,11 @@
                     window.location.href = "{{ route('MeasuringCarSelection') }}";
                 });
             }
+              if (returnButton) {
+                returnButton.addEventListener("click", () => {
+                    window.location.href = "{{ route('SimpleMachines') }}";
+                });
+            }
         });
     </script>
 @endpush

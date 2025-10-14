@@ -175,6 +175,7 @@
             </div>
         </button>
     </div>
+
     {{--  Next Button --}}
     <div class="absolute bottom-[85px]">
         <button
@@ -191,7 +192,7 @@
 
 @push('script')
     <script>
-        document.addEventListener("DOMContentLoaded", () => {
+          document.addEventListener("DOMContentLoaded", () => {
             const slides = document.querySelectorAll(".slide");
             const nextButton = document.querySelector(".nextButton");
             const returnButton = document.getElementById("returnButton");
@@ -237,6 +238,6 @@
 
             // Start with first slide
             showSlide(currentSlide);
-        })
+        });
     </script>
 @endpush

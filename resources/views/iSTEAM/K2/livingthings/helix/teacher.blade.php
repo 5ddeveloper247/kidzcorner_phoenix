@@ -18,41 +18,33 @@
 
 
 @section('content')
-
-
-
-
     {{-- sldie 1  --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
             <h2 class="  font-bold">Children will be able to:</h2>
             <ul class="list-disc ">
-                <li>Know that speed is a rate that tells us how fast or slow someone or something is moving</li>
-                <li>Learn how to use Blockly to programme a robot to move through a circuit with different speeds</li>
-                <li>Use creativity to design a circuit together with friends</li>
+                <li>Know that a DNA double helix looks like a twisted ladder</li>
+                <li>Know that a DNA double helix is composed of long sequences of the four bases</li>
+                <li>Learn how to make a model of a DNA double helix</li>
+                <li>Know that every living thing has different orders of the bases in DNA that make it unique</li>
+                <li>Know that DNA determines our traits</li>
                 <li>Develop understanding through inquiry</li>
             </ul>
         </div>
 
-        <div class="flex w-[100%] items-center justify-between">
-            <div>
-                <h2 class="text-[33px] font-bold">Keywords:</h2>
-
-                <div class="flex gap-20">
-                    <ul class="list-disc ">
-                        <li>Programming Block</li>
-                        <li>Forward</li>
-                        <li>Backward</li>
-                        <li>Turn Left</li>
-                        <li>Turn Right</li>
-                    </ul>
-                    <ul class="list-disc">
-                        <li>Circuit</li>
-                        <li>Speed</li>
-                        <li>Fast</li>
-                        <li>Slow</li>
-                    </ul>
-                </div>
+        <div class="flex flex-col  items-start justify-between">
+            <h2 class="text-[33px] font-bold">Keywords:</h2>
+            <div class="flex gap-20">
+                <ul class="list-disc ">
+                    <li>Living Thing</li>
+                    <li>DNA</li>
+                    <li>Double Helix</li>
+                </ul>
+                <ul class="list-disc ">
+                    <li>Twisted Ladder</li>
+                    <li>Base</li>
+                    <li>Trait</li>
+                </ul>
             </div>
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
@@ -66,13 +58,25 @@
         <div>
             <h2 class="font-bold">Preparations:</h2>
             <ul class="list-disc ">
-                <li>50cm and 90cm measuring strips (made from black craft paper with label of measurement pasted at the
-                    middle of the strip; kindly use standard font - Comic Sans MS)</li>
-                <li>Blu Tack (to fix the measuring strips on the floor)</li>
-                <li>Measuring tapes (you may get children to check the accuracy of the measuring strips prepared)</li>
+                <li>
+                    1 pipe cleaner for each child
+                    (sample shown: cut a 30cm long pipe cleaner in half to obtain two 15cm long pieces)
+                </li>
+                <li>
+                    8 twist ties for each child
+                    (sample shown: cut four 12cm long twist ties in half to obtain eight 6cm long pieces;
+                    the pipe cleaners and twist ties should be the same colour)
+                </li>
+                <li>
+                    4 different colours of craft beads in separate containers with labels
+                    (decide which coloured bead represents which base and add labels to the containers beforehand)
+                </li>
+                <li>
+                    1 strap for each child (sample shown: strap with a hook)
+                </li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K1/coding/go/go38.png') }}" alt="Teacher" class="w-[600px]" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h19.png') }}" class="w-[500px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
     </div>
@@ -81,160 +85,98 @@
     {{-- sldie 3 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Preparations:</h2>
-            <ul class="list-disc ">
-                <li>4 types of coding cards (print and laminate so that they are reusable)</li>
-                <li>Whiteboard marker pens</li>
+            <h2 class="font-bold">How to make a model of DNA double helix and things to consider:</h2>
+            <ul class="list-decimal">
+                <li>Have children find out the colour representation of each bead . [Display the beads with labels. Guide
+                    children to understand which coloured bead represent which base.]</li>
             </ul>
         </div>
-        <div class="flex items-center gap-10">
-            <img src="/assets/images/K1/coding/go/go25.png" class="w-[400px]" />
-            <img src="/assets/images/K1/coding/go/go26.png" class="w-[400px]" />
-        </div>
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h7.png') }}" class="w-[500px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
     </div>
 
 
-    {{-- /slide 4 --}}
+    {{-- slide 4 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Preparations:</h2>
-            <ul class="list-disc ">
-                <li>4 types of coding cards (print and laminate so that they are reusable)</li>
-                <li>Whiteboard marker pens</li>
+            <h2 class="font-bold">How to make a model of DNA double helix and things to consider:</h2>
+            <ul>
+                <li>2.Have children create base pairs by hooking AT or CG beads together in the middle of the twist tie.
+                    [Tell children how many base pairs is needed (this sample needs 10 pairs in total) and it is up to them
+                    to have equal or unequal numbers of AT and CG base pairs. Help if needed.]</li>
             </ul>
         </div>
-        <div class="flex items-center gap-10">
-            <img src="/assets/images/K1/coding/go/go39.png" class="w-[400px]" />
-            <img src="/assets/images/K1/coding/go/go40.png" class="w-[400px]" />
-        </div>
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h8.png') }}" class="w-[500px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
     </div>
 
 
-
-    {{-- /slide 5  --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
-        <div>
-            <h2 class="font-bold">Preparations:</h2>
-            <ul class="list-disc ">
-                <li>Start coding cards (print and laminate so that they are reusable) - use
-                    it during hands-on session to mark the starting point of a circuit.</li>
-            </ul>
-        </div>
-        <img src="/assets/images/K1/coding/go/go41.png" class="w-[400px]" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
-    </div>
-
-    {{-- /slide 6  --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
-        <div>
-            <h2 class="font-bold">Preparations:</h2>
-            <ul class="list-disc ">
-                <li>The robots and tablets (refer to the teacher’s mode of Lesson 1 for guide on
-                    what you need to know and do before the lesson)</li>
-                <li>Tender Loving Care Poster (refer to the teacher’s mode of Lesson 1)</li>
-            </ul>
-        </div>
-        <img src="/assets/images/K1/coding/cd/cd13.png" class="w-[500px]" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
-    </div>
-
-
-    {{-- /slide 7 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
-        <div>
-            <h2 class="font-bold">Preparations:</h2>
-            <ul class="list-disc ">
-                <li>Mini measuring strips (print and cut out before the lesson)</li>
-            </ul>
-        </div>
-        <img src="/assets/images/K1/coding/cd/cd13.png" class="w-[500px]" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
-    </div>
-
-
-
-    {{-- /slide 8 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
-        <div>
-            <h2 class="font-bold">Preparations:</h2>
-            <ul class="list-disc ">
-                <li>Mini coding strips (print and cut out before the lesson)</li>
-            </ul>
-        </div>
-        <img src="/assets/images/K1/coding/cd/cd13.png" class="w-[500px]" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
-    </div>
-
-
-
-    {{-- slide 9 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
-        <div>
-            <p class="note">When the hands-on session 1 starts, guide each group of children to lay the
-                circuit on the floor using the measuring strips, blu tack and a Start card (as shown)</p>
-        </div>
-        <img src="/assets/images/K1/coding/cd/cd13.png" class="w-[500px]" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
-    </div>
-
-
-
-    {{-- sldie 10 --}}
+    {{-- slide 5 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">For the hands-on session 2:</h2>
-            <ul class="list-disc ">
-                <li>Remember to provide mini measuring strips and coding cards for children.</li>
-                <li>You may set rules such as using not more than 6 measuring strips to form your design.</li>
-                <li>Guide children to alter their design if it is too complicated or requires more advanced programming
-                    skills than they have yet learnt.</li>
-                <li>If help is needed, remind them of the different circuits learnt in the previous lesson (e.g., L-shaped,
-                    U-shaped, Z-shaped).</li>
-                <li>After a design is confirmed, guide each group of children to lay the circuit on the floor using the
-                    measuring strips, Blu Tack, and a Start card.</li>
+            <h2 class="font-bold">How to make a model of DNA double helix and things to consider:</h2>
+            <ul>
+                <li>3. Have children attach the base pairs to the pipe cleaners by twisting the free ends of twist ties
+                    around the pipe cleaners . [Advise children to space the base pairs as evenly as possible on the pipe
+                    cleaners (around 1cm gap). Tell them that it is up to them to create the order of the base pairs . Help
+                    if needed.]</li>
             </ul>
         </div>
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h9.png') }}" class="w-[500px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
     </div>
 
 
-    {{-- sldie 11 --}}
+    {{-- sldie 6 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Reminders or advice during hands-on session:</h2>
-            <ul class="list-disc ">
-                <li>Always hold a robot or a tablet with both your hands (to show your care and prevent the tools from
-                    spoiling easily).</li>
-                <li>Never place your hands on the wheels of the robot (prevent yourself from getting hurt).</li>
-                <li>Never hold the robot by its head (prevent it from spoiling easily).</li>
-                <li>Never push and stop the robot from moving once you turn on a programme (prevent it from spoiling
-                    easily).</li>
-                <li>Be patient and take turns when using the different tools.</li>
+            <h2 class="font-bold">How to make a model of DNA double helix and things to consider:</h2>
+            <ul>
+                <li>4. Have children display and observe the ladder made . [Have them place all ladders made together for
+                    observations. Guide them to compare and find out if many of them have the same base pattern. Guide them
+                    to count and record how many base patterns have been designed by the class. ]</li>
             </ul>
         </div>
-        <div>
-            <h2 class="font-bold">Possible questions during hands-on sessions:</h2>
-            <ul class="list-disc ">
-                <li>If you want to move your robot through a circuit and aim to win in a competition, what is your choice of
-                    speed for the programming?</li>
-            </ul>
-        </div>
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h10.png') }}" class="w-[500px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
     </div>
 
 
-    {{-- slide 12 --}}
+    {{-- sldie 7 --}}
+    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+        <div>
+            <h2 class="font-bold">How to make a model of DNA double helix and things to consider:</h2>
+            <ul>
+                <li>5. Have children twist the ladder to form the shape of DNA double helix . [Help each child to adjust the
+                    shape and tidy up one end of the DNA model (twist two free ends together and fold the sharp point around
+                    the edge) .]</li>
+            </ul>
+        </div>
+        <img src="{{ asset('assets/images/K2/livingthings/dna/td4.png') }}" class="w-[500px]" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute right-[250px] bottom-[150px]" />
+    </div>
+
+    {{-- sldie 8 --}}
+    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+        <div>
+            <h2 class="font-bold">How to make a model of DNA double helix and things to consider:</h2>
+            <ul>
+                <li>6. Have children attach a strap over the DNA double helix . [Tell children that they can use the DNA
+                    model as a charm to hang on their belongings .]</li>
+            </ul>
+        </div>
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h12.png') }}" class="w-[500px]" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute right-[250px] bottom-[150px]" />
+    </div>
+
+
+    {{-- sldie 9 --}}
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
@@ -251,17 +193,9 @@
                             <img src="{{ asset('assets/images/pptimages/play.png') }}"
                                 class="absolute top-[16px] left-[16px] h-8 w-8" />
                         </span>
-                        next to a picture, click on the picture to watch the video.
+                        next to a picture, class="text-amber-400" click on the picture to watch the video.
                     </li>
                     <li>Emphasise and use the <strong>keywords</strong> during hands-on sessions.</li>
-                    <li class="text-amber-400">The fundamental skill of coding or programming is ability to
-                        differentiate and navigate self to move forward, backward, turn left
-                        and turn right. If children are not ready, play more related games to
-                        improve the skill.</li>
-                    <li class="text-amber-400">It is important to inculcate the habit of always laying out the steps
-                        using coding cards before working on the Blockly because it's not easy
-                        for children to remember all the steps when they use Blockly to
-                        programme.</li>
                     <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
                     </li>
                     <li>
@@ -278,33 +212,176 @@
                     </li>
                 </ul>
             </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute right-[250px] bottom-[150px]" alt="Teacher" />
+            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute right-[250px] bottom-[150px]"
+                alt="Teacher" />
         </div>
+    </div>
+
+
+    {{-- slide 10 --}}
+    <div class="text-white flex flex-col items-center justify-center gap-y-10 text-start text-2xl slide hidden">
+        <h2 class=" title stroke">Learning Centre Idea</h2>
+        <div class="flex flex-col gap-10">
+            <ul>
+                <h2 class="!text-white title stroke">DNA Charm</h2>
+                <h2>What and how to set up:</h2>
+                <li>Place things as listed in preparations and an instruction sheet (refer
+                    to the attachment on the next page) here.</li>
+            </ul>
+
+            <div>
+                <h2>What to do:</h2>
+                <ul class="list-decimal">
+                    <li>Make a DNA charm as a gift for your family member.</li>
+                    <li>If needed, you may refer to the instruction sheet while making the charm.</li>
+                </ul>
+
+            </div>
+        </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute right-[250px] bottom-[150px]" />
+    </div>
+
+
+    {{-- slide 11 --}}
+    <div class="text-white flex flex-col items-center justify-center gap-y-10 text-start text-2xl slide hidden">
+        <h2 class=" title stroke">Learning Centre Idea</h2>
+        <div>
+            <ul class="list-disc">
+                <h2 class="!text-white title stroke">DNA Charm</h2>
+                <h2>How to make a DNA charm:</h2>
+                <li>Create base pairs by hooking A-T or C-G beads together in the middle of the twist tie.</li>
+                <li>Attach the base pairs to the pipe cleaners by twisting the free ends of the twist ties around the pipe
+                    cleaners.</li>
+                <li>Twist the ladder to form the shape of a DNA double helix.</li>
+                <li>Attach a strap over the DNA double helix.</li>
+            </ul>
+            <img src="{{ asset('assets/images/K2/livingthings/dna/h20.png') }}" />
+        </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute right-[250px] bottom-[150px]" />
+    </div>
+
+
+    {{-- slide 12 --}}
+    <div class="text-white flex flex-col items-center justify-center gap-y-10 text-start text-2xl slide hidden">
+        <h2 class=" title stroke">Learning Centre Idea</h2>
+        <div class="space-y-20">
+            <div>
+                <h2 class="!text-white title stroke">Fun Facts</h2>
+                <h2>What and how to set up:</h2>
+                <p>Use your creativity to design graphic fact sheet for every fun fact
+                    below. Guide children to understand the facts.</p>
+            </div>
+
+            <div>
+                <ul class="list-disc">
+                    <li>A parent and child share 99.5% of the same DNA.</li>
+                    <li>Fraternal twins each have their own DNA, while identical twins
+                        share their DNA.</li>
+                    <li>DNA can be used to identify us. Crime investigators use DNA to
+                        find criminals!</li>
+                </ul>
+            </div>
+        </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute right-[250px] bottom-[150px]" />
     </div>
 
     {{-- slide 13 --}}
     <div class="text-white flex flex-col items-center justify-center gap-y-10 text-start text-2xl slide hidden">
-        <h2 class=" title stroke">Learning Centre Idea</h2>
-        <div class="flex">
+        <h2 class=" title stroke">Extension Class Activity 1</h2>
+        <div class="space-y-20">
             <div>
-                <h2 class="!text-white title stroke">Design And Move Through A Circuit</h2>
-                <h2>What and how to set up:</h2>
-                <ul class="list-disc">
-                    <li>Place some coding cards and different measuring strips here.</li>
-                </ul>
-
+                <h2 class="!text-white title stroke">Let's Sing A Song</h2>
                 <h2>What to do:</h2>
-                <ul>
-                    <li>Design a circ\uit. Move yourself through this circuit. Use coding
-                        cards to lay out the steps and then share with your teacher.</li>
+                <ul class="list-decimal">
+                    <li> Prepare lyrics poster for the song on the next page.</li>
+                    <li>Guide children learn to sing the song to the tune of "She'll Be
+                        Coming Round The Mountain".</li>
                 </ul>
             </div>
-
         </div>
-        <p class="note">Note: Remind children that programming a robot to move through a circuit
-            is the same as how we move ourselves through the same circuit.</p>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt=""
-            class="absolute right-[250px] bottom-[150px]" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute right-[250px] bottom-[150px]" />
+    </div>
+
+
+    {{-- slide 14 --}}
+    <div class="text-white flex flex-col items-center justify-center gap-y-10 text-start text-2xl slide hidden">
+        <h2 class=" title stroke">Extension Class Activity 1</h2>
+        <h2 class="!text-white title stroke">Let's Sing A Song</h2>
+        <div class="text-center">
+            <p>DNA Song <br>
+                DNA is deoxyribonucleic acid. <br>
+                It has a special shape called a double helix. <br>
+                It tells every living thing on how to form and work correctly. <br>
+                It's the key for making everything in me.</p>
+        </div>
+
+        <p class="note">Note: Sing to the tune of "She'll Be Coming Round The Mountain".</p>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute right-[250px] bottom-[150px]" />
+    </div>
+
+
+    {{-- slide 15 --}}
+    <div class="text-white flex flex-col items-center justify-center gap-y-10 text-start text-2xl slide hidden">
+        <h2 class=" title stroke">Extension Class Activity 2</h2>
+        <div class="space-y-20">
+            <div>
+                <h2 class="!text-white title stroke">Which Traits Of You Are Inherited?</h2>
+                <h2>What to prepare:</h2>
+                <ul>
+                    <li> Give each child a record sheet (see Appendix 1), explain the
+                        meaning (see Appendix 2 for some photo references) and get them
+                        to fill up together with their parents at home. Fix a date for
+                        children to bring the record sheet, as well as photos of their
+                        father, mother and themselves back to the class for show and tell.</li>
+                </ul>
+            </div>
+        </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute right-[250px] bottom-[150px]" />
+    </div>
+
+
+    {{-- slide 16 --}}
+    <div class="text-white flex flex-col items-center justify-center gap-y-10 text-start text-2xl slide hidden">
+        <h2 class=" title stroke">Extension Class Activity 2</h2>
+        <div class="space-y-20">
+            <div>
+                <h2 class="!text-white title stroke">Which Traits Of You Are Inherited?</h2>
+                <h2>What to do:</h2>
+                <ul>
+                    <li> Show and tell - Have children take turns to show their record
+                        sheets and family photos. Have them share their findings: Which
+                        traits did you inherit from your father? Which traits did you
+                        inherit from your mother?</li>
+                </ul>
+            </div>
+        </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute right-[250px] bottom-[150px]" />
+    </div>
+
+
+    {{-- slide 17 --}}
+    <div class="text-white flex flex-col items-center justify-center gap-y-10 text-start text-2xl slide hidden">
+        <h2 class=" title stroke">Extension Class Activity 2</h2>
+        <h2 class="!text-white title stroke">Appendix 1: Which Traits Of You Are Inherited?</h2>
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h21.png') }}" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute right-[250px] bottom-[150px]" />
+    </div>
+
+
+    {{-- slide 18 --}}
+    <div class="text-white flex flex-col items-center justify-center gap-y-10 text-start text-2xl slide hidden">
+        <h2 class=" title stroke">Extension Class Activity 2</h2>
+        <h2 class="!text-white title stroke">Appendix 1: Which Traits Of You Are Inherited?</h2>
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h22.png') }}" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute right-[250px] bottom-[150px]" />
+    </div>
+
+       {{-- slide 19 --}}
+    <div class="text-white flex flex-col items-center justify-center gap-y-10 text-start text-2xl slide hidden">
+        <h2 class=" title stroke">Extension Class Activity 2</h2>
+        <h2 class="!text-white title stroke">Appendix 2: Which Traits Of You Are Inherited?</h2>
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h23.png') }}" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute right-[250px] bottom-[150px]" />
     </div>
 
 
@@ -425,11 +502,9 @@
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('coding') }}";
+                    window.location.href = "{{ route('k2livingthings') }}";
                 });
             }
-
-
             showSlide(currentSlide);
         });
     </script>

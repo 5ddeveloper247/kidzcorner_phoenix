@@ -102,6 +102,11 @@ document.addEventListener("DOMContentLoaded", () => {
             window.location.href = "{{ route('BalloonSelection') }}";
         });
     }
+     if (returnButton) {
+                returnButton.addEventListener("click", () => {
+                    window.location.href = "{{ route('K1simpleMachines') }}";
+                });
+            }
 });
 </script>
 @endpush

@@ -48,21 +48,21 @@
             <div class="flex flex-wrap gap-3 justify-center items-center">
                 <!-- Card 1 -->
                 <a href="{{ route('Animals') }}"
-                    class="bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[290px] h-[290px] relative flex justify-center items-center transition hover:brightness-110">
+                    class="bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[280px] h-[280px] relative flex justify-center items-center transition hover:brightness-110">
                     <h2 class="text-2xl text-[#7D6F71] text-center leading-tight">Animals <br> are Living <br> Things</h2>
                     <span class="text-3xl text-[#AF6E39] absolute top-[70px] right-[30px]">1</span>
                 </a>
 
                 <!-- Card 2 -->
                 <a href="{{ route('Growth') }}"
-                    class="bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[290px] h-[290px] relative flex justify-center items-center transition hover:brightness-110">
+                    class="bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[280px] h-[280px] relative flex justify-center items-center transition hover:brightness-110">
                     <h2 class="text-2xl text-[#7D6F71] text-center leading-tight">How <br> do Animals <br> Grow?</h2>
                     <span class="text-3xl text-[#AF6E39] absolute top-[70px] right-[30px]">2</span>
                 </a>
 
                 <!-- Card 3 -->
                 <a href="{{ route('StageOfGrowth') }}"
-                    class="bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[290px] h-[290px] relative flex justify-center items-center transition hover:brightness-110">
+                    class="bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[280px] h-[280px] relative flex justify-center items-center transition hover:brightness-110">
                     <h2 class="text-2xl text-[#7D6F71] text-center leading-tight">The Stages of <br> Growth of <br> a
                         Butterfly</h2>
                     <span class="text-3xl text-[#AF6E39] absolute top-[70px] right-[30px]">3</span>
@@ -70,21 +70,21 @@
 
                 <!-- Card 4 -->
                 <a href="{{ route('PlantsGrowth') }}"
-                    class="bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[290px] h-[290px] relative flex justify-center items-center transition hover:brightness-110">
+                    class="bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[280px] h-[280px] relative flex justify-center items-center transition hover:brightness-110">
                     <h2 class="text-2xl text-[#7D6F71] text-center leading-tight">How do <br> Plants <br> Grow?</h2>
                     <span class="text-3xl text-[#AF6E39] absolute top-[70px] right-[30px]">4</span>
                 </a>
 
                 <!-- Card 5 -->
                 <a href="{{ route('PartsOfPlants') }}"
-                    class="bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[290px] h-[290px] relative flex justify-center items-center transition hover:brightness-110">
+                    class="bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[280px] h-[280px] relative flex justify-center items-center transition hover:brightness-110">
                     <h2 class="text-2xl text-[#7D6F71] text-center leading-tight">Parts of a <br> Plant</h2>
                     <span class="text-3xl text-[#AF6E39] absolute top-[70px] right-[30px]">5</span>
                 </a>
 
                 <!-- Card 6 -->
                 <a href="{{ route('Drinking') }}"
-                    class="bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[290px] h-[290px] relative flex justify-center items-center transition hover:brightness-110">
+                    class="bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[280px] h-[280px] relative flex justify-center items-center transition hover:brightness-110">
                     <h2 class="text-2xl text-[#7D6F71] text-center leading-tight">How Does a <br> Plant Drink <br> Water?
                     </h2>
                     <span class="text-3xl text-[#AF6E39] absolute top-[70px] right-[30px]">6</span>
@@ -92,7 +92,7 @@
 
                 <!-- Card 7 -->
                 <a href="{{ route('Plants') }}"
-                    class="bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[290px] h-[290px] relative flex justify-center items-center transition hover:brightness-110">
+                    class="bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[280px] h-[280px] relative flex justify-center items-center transition hover:brightness-110">
                     <h2 class="text-2xl text-[#7D6F71] text-center leading-tight">Are Plants <br> Living <br> Things?</h2>
                     <span class="text-3xl text-[#AF6E39] absolute top-[70px] right-[30px]">7</span>
                 </a>

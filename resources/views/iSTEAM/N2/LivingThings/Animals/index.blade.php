@@ -97,6 +97,11 @@ analyze and identify living and non- living things.</h2>
                     window.location.href = "{{ route('AnimalsSelection') }}";
                 });
             }
+              if (returnButton) {
+                returnButton.addEventListener("click", () => {
+                    window.location.href = "{{ route('LivingThings') }}";
+                });
+            }
         });
     </script>
 @endpush

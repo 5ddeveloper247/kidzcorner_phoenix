@@ -96,6 +96,11 @@
                     window.location.href = "{{ route('PartsOfPlantsSelection') }}";
                 });
             }
+            if (returnButton) {
+                returnButton.addEventListener("click", () => {
+                    window.location.href = "{{ route('LivingThings') }}";
+                });
+            }
         });
     </script>
 @endpush

@@ -23,10 +23,10 @@
         <div>
             <h2 class="  font-bold">Children will be able to:</h2>
             <ul class="list-disc ">
-                <li>Plan a route for a purpose</li>
-                <li>Programme a robot to move according to the planned route</li>
-                <li>Programme a robot to produce sound and light</li>
-                <li>Develop problem-solving skills</li>
+                <li>Explore and learn about the basic characteristics of living things</li>
+                <li>Analyse and sort things into living and non-living things</li>
+                <li>Talk about the differences between living and non-living things</li>
+                <li>Know that all animals are living things</li>
                 <li>Develop understanding through inquiry</li>
             </ul>
         </div>
@@ -35,15 +35,18 @@
             <h2 class="text-[33px] font-bold">Keywords:</h2>
             <div class="flex gap-20">
                 <ul class="list-disc ">
-                    <li>Programming Block</li>
-                    <li>Forward</li>
-                    <li>Backward</li>
-                    <li>Turn Left</li>
-                    <li>Turn Right</li>
+                    <li>Living Thing</li>
+                    <li>Non-living Thing</li>
+                    <li>Move</li>
+                    <li>Water</li>
+                    <li>Food</li>
                 </ul>
                 <ul class="list-disc">
-                    <li>Sound </li>
-                    <li>Light</li>
+                    <li>Air</li>
+                    <li>Grow</li>
+                    <li>Produce Young</li>
+                    <li>Animals</li>
+                    <li>Plants</li>
                 </ul>
             </div>
         </div>
@@ -56,16 +59,29 @@
     {{-- slide 2 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Preparations:</h2>
+            <h2 class="font-bold">Possible questions during hands-on session:</h2>
             <ul class="list-disc ">
-                <li>Coding mats and obstacle cards</li>
+                <li>Would you like to find out if things that you like (pets, cartoon characters, etc.) are living or
+                    non-living things?</li>
+                <li>Is there anything around that you are not sure of if they are living or non-living things?</li>
+                <li>Is there anything that you think could be both living and non-living things? Why?</li>
+                <li>
+                    A hamburger is made up of meat from a cow, vegetables from plants, and bread made from other plants.
+                    Would you call it a living thing? Why?
+                    [No, because it has no characteristics of a living thing.]
+                </li>
+                <li>
+                    Can a living thing ever become a non-living thing?
+                    [Yes, after it dies and no longer has the characteristics of a living
+                    thing.]
+                </li>
+                <li>
+                    Can a non-living thing ever become a living thing?
+                    [No.]
+                </li>
             </ul>
         </div>
-        <div class="flex gap-5">
-            <img src="{{ asset('assets/images/K1/coding/challenge1/ch9.png') }}" alt="Teacher" class="h-[300px]" />
-            <img src="{{ asset('assets/images/K1/coding/challenge1/ch12.png') }}" alt="Teacher" class="h-[300px]" />
-            <img src="{{ asset('assets/images/K1/coding/challenge1/ch11.png') }}" alt="Teacher" class="h-[300px]" />
-        </div>
+
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
     </div>
@@ -73,13 +89,27 @@
     {{-- sldie 3 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Preparations:</h2>
+            <h2 class="font-bold">Additional information:</h2>
             <ul class="list-disc">
-                <li>a-z letter cards (size not more than 10cm; need many sets)</li>
-                <li>Blu Tack (for fixing graphic cards on the coding mat)</li>
+                <li>
+                    Many things have one or more characteristics of living things, but a living thing must have
+                    <strong>all</strong> of the characteristics of living things.
+                </li>
+                <li>
+                    Many things that move — like cars, fans, and windmills — are non-living things. These objects move by
+                    external power such as fuel, battery, electricity, or wind.
+                </li>
+                <li>
+                    All human-made things are non-living things. However, some natural things around us like rocks, water,
+                    air, and clouds are also non-living things.
+                </li>
+                <li>
+                    A living thing can become a non-living thing if it has been changed from its natural form into something
+                    new and no longer has the characteristics of a living thing.For example: cotton plant → a piece of
+                    cotton fabric; vegetables → salad.
+                </li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K1/coding/challenge3/ch5.png') }}" class="w-[500px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
     </div>
@@ -88,13 +118,14 @@
     {{-- slide 4 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Preparations for the testing of the ball roller coaster:</h2>
+            <h2 class="font-bold">Preparations - if you do the experiment of Plants Do Breathe Air:</h2>
             <ul class="list-disc">
-                <li>Coding cards</li>
-                <li>Whiteboard marker pens</li>
+                <li>A large clear bowl with lukewarm water</li>
+                <li>A big leaf freshly pluck from a plant</li>
+                <li>A stone or marble</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K1/coding/challenge2/ch9.png') }}" class="w-[800px]" />
+        <img src="{{ asset('assets/images/K2/livingthings/pthings/p15.png') }}" class="w-[500px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
     </div>
@@ -103,14 +134,14 @@
     {{-- slide 5 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Preparations:</h2>
-            <ul class="list-disc">
-                <li>The robots and tablets (refer to the teacher’s mode of Lesson 1 for guide on
-                    what you need to know and do before the lesson)</li>
-                <li>Tender Loving Care Poster (refer to the teacher’s mode of Lesson 1)</li>
+            <h2 class="font-bold">How to do the experiment of Plants Do Breathe Air:</h2>
+            <ul class="list-decimal">
+                <li>Fill a large clear bowl with lukewarm water.</li>
+                <li>Pluck a big leaf from a plant and put it inside the bowl.</li>
+                <li>ut a stone or marble on top of the leaf so that the leaf is fully submerged under the water.</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K1/coding/cd/cd13.png') }}" alt="Teacher" class="w-[600px]" />
+        <img src="{{ asset('assets/images/K2/livingthings/pthings/p15.png') }}" class="w-[500px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
     </div>
@@ -118,57 +149,49 @@
     {{-- sldie 6 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Preparations:</h2>
-            <ul class="list-disc">
-                <li>Mini coding cards (print and cut out before the lesson)</li>
+            <h2 class="font-bold">How to do the experiment of Plants Do Breathe Air:</h2>
+            <ul>
+                <li>4. Place the bowl at a sunny spot.</li>
+                <li>5. Check and observe the leaf every hour for a few times.</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K1/coding/challenge1/ch13.png') }}" alt="Teacher" class="w-[500px]" />
+        <img src="{{ asset('assets/images/K2/livingthings/pthings/p27.png') }}" class="w-[500px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
     </div>
 
 
+
     {{-- sldie 7 --}}
-    <div class=" slide flex text-2xl text-white flex-col  justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+        <div>
+            <p class="note text-center">As a reference, some bubbles form around this sample leaf once it was placed in the
+                water. After 2 hours, many more bubbles form around the leaf.</p>
+        </div>
+        <div class="flex items-center gap-5">
+            <img src="{{ asset('assets/images/K2/livingthings/pthings/p28.png') }}" class="w-[500px]" />
+            <img src="{{ asset('assets/images/K2/livingthings/pthings/p29.png') }}" class="w-[500px]" />
+        </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute right-[250px] bottom-[150px]" />
+    </div>
 
-        <h2 class="font-bold">When the hands-on session starts, guide each group of children to:</h2>
-        <ul class="list-disc">
-            <li>Discuss and decide whose name they want to spell out individually (their own
-                name or a group member's name). If needed, guide them to use short form or
-                only the initials for names that are long (e.g. Katherine - Kath; Song Ji Hyo
-                - SJH).)</li>
-            <li>Set up the mat by placing the letters on the mat randomly and fix a
-                starting point for the robot.</li>
-            <li>Use the learning journals to plot and plan their route before
-                working out the programming steps in Blockly.</li>
-        </ul>
 
+
+
+    {{-- sldie 7 --}}
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+        <p class="note">When the hands-on sessions 1 or 2 start, guide each group of children to set up
+            the mat accordingly (as shown). Advise them to discuss as a group to complete the
+            mission. <span class="text-amber-300"> If needed, adjust the level of difficulty by reducing the number of
+                colour cards on the mat for different groups.</span></p>
+        <img src="{{ asset('assets/images/K1/coding/challenge2/ch3.png') }}" alt="Teacher" class="w-[400px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
     </div>
 
 
     {{-- sldie 8 --}}
-    <div class=" slide flex text-2xl text-white flex-col  justify-start gap-y-10 text-start">
-
-        <h2 class="font-bold">When the hands-on session starts, guide each group of children to:</h2>
-        <ul class="list-disc">
-            <li>Always hold a robot or a tablet with both your hands (to show your care and
-                prevent the tools from spoiling easily).</li>
-            <li>Never place your hands on the wheels of the robot (prevent yourself from getting hurt).</li>
-            <li>Never hold the robot by its head (prevent it from spoiling easily).</li>
-            <li>Never push and stop the robot from moving once you turn on a programme
-                (prevent it from spoiling easily).</li>
-            <li>Be patient and take turns when using the different tools.</li>
-        </ul>
-
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
-    </div>
-
-
-    {{-- sldie 9 --}}
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
@@ -218,27 +241,51 @@
     </div>
 
 
-    {{-- slide 11 --}}
+    {{-- slide 9 --}}
     <div class="text-white flex flex-col items-center justify-center gap-y-10 text-start text-2xl slide hidden">
         <h2 class=" title stroke">Learning Centre Idea</h2>
         <div class="flex">
             <div class="space-y-20">
                 <ul>
-                    <h2 class="!text-white title stroke">Ordering Coding Challenge</h2>
+                    <h2 class="!text-white title stroke">Living or Non-Living</h2>
                     <h2>What and how to set up:</h2>
-                    <li>Reuse the materials prepared for the hands-on session to practice
-                        spelling of other words.</li>
+                    <li>Place pictures of living (different animals) and non-living things
+                        (toys, transportation, household items, etc) here.</li>
                 </ul>
 
                 <ul>
                     <h2>What to do:</h2>
-                    <li>Guide children to plan a route for a robot to find matching cards
-                        on the mat. After that, programming a robot to move according to the planned route.</li>
+                    <li>1. Name the thing in each picture.</li>
+                    <li>2. Sort the pictures into living and non-living things.</li>
                 </ul>
             </div>
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute right-[250px] bottom-[150px]" />
     </div>
+
+
+    {{-- slide 10 --}}
+    <div class="text-white flex flex-col items-center justify-center gap-y-10 text-start text-2xl slide hidden">
+        <h2 class=" title stroke">Learning Centre Idea</h2>
+        <div class="flex">
+            <div class="space-y-20">
+                <ul>
+                    <h2 class="!text-white title stroke">Living Things And Non-living Things</h2>
+                    <h2>What and how to set up:</h2>
+                    <li>Provide a display board (can be wall), some arts and crafts
+                        materials and pictures of things as prepared at the learning centre here.</li>
+                </ul>
+
+                <ul>
+                    <h2>What to do:</h2>
+                    <li> Have children work together to make a pretty living things and
+                        non-living things display board.</li>
+                </ul>
+            </div>
+        </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute right-[250px] bottom-[150px]" />
+    </div>
+
 
 
     {{-- ========================================================== --}}
@@ -357,7 +404,7 @@
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('coding') }}";
+                    window.location.href = "{{ route('k2livingthings') }}";
                 });
             }
 

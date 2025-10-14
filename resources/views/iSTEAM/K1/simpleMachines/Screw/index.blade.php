@@ -96,10 +96,17 @@
     <script>
         document.addEventListener("DOMContentLoaded", () => {
             const nextButton = document.querySelector(".nextButton");
+            const returnButton = document.querySelector(".returnButton");
 
             if (nextButton) {
                 nextButton.addEventListener("click", () => {
                     window.location.href = "{{ route('ScrewSelection') }}";
+                });
+            }
+
+            if (returnButton) {
+                returnButton.addEventListener("click", () => {
+                    window.location.href = "{{ route('K1simpleMachines') }}";
                 });
             }
         });
