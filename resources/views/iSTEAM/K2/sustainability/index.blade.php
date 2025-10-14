@@ -42,102 +42,84 @@
     {{--  First Slide --}}
     <div class="board w-[1267px] h-[734px] flex flex-col justify-center items-center slide">
 
-        <h2 class="text-[45px] text-[#F7B94A] font-extrabold stroke ">Living Things</h2>
+        <h2 class="text-[45px] text-[#F7B94A] font-extrabold stroke ">Sustainability</h2>
 
         <div class="flex flex-wrap justify-center items-center " style="width: inherit">
             <!-- Card 1-->
-            <a href="{{ route('Bell') }}"
+            <a href="{{ route('warming') }}"
                 class=" bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="text-2xl text-[#7D6F71]">How Plants <br> Grow?</h2>
+                <h2 class="text-2xl text-[#7D6F71]">Global <br> Warming</h2>
                 <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">1</span>
             </a>
 
             <!-- Card 2 -->
-            <a href="{{ route('Plane') }}"
+            <a href="{{ route('sustain') }}"
                 class=" bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="text-2xl text-[#7D6F71]">What are <br> Living <br> Things?</h2>
+                <h2 class="text-2xl text-[#7D6F71]">What is <br> Sustainability?</h2>
                 <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">2</span>
             </a>
 
             <!-- Card 3 -->
-            <a href="{{ route('Balloon') }}"
+            <a href="{{ route('energy1') }}"
                 class=" bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="text-2xl text-[#7D6F71]">Are Plants <br> Living <br> Things?</h2>
+                <h2 class="text-2xl text-[#7D6F71]">Clean <br> Energy <br>1</h2>
                 <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">3</span>
             </a>
 
             <!-- Card 4 -->
-            <a href="{{ route('Wedge') }}"
+            <a href="{{ route('energy2') }}"
                 class=" bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="text-2xl text-[#7D6F71]">What is <br> DNA?</h2>
+                <h2 class="text-2xl text-[#7D6F71]">Clean <br> Energy <br>2</h2>
                 <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">4</span>
             </a>
 
             <!-- Card 5 -->
-            <a href="{{ route('Rubbish') }}"
+            <a href="{{ route('pollution') }}"
                 class=" bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="text-2xl text-[#7D6F71]">Tomato <br> DNA</h2>
+                <h2 class="text-2xl text-[#7D6F71]">Pollution <br> and Its <br> Effects</h2>
                 <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">5</span>
             </a>
 
             <!-- Card 6 -->
-            <a href="{{ route('Wheels') }}"
+            <a href="{{ route('reduce') }}"
                 class=" bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="text-2xl text-[#7D6F71]">DNA <br> Double <br> Helix</h2>
+                <h2 class="text-2xl text-[#7D6F71]">Reduce and <br> Reuse</h2>
                 <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">6</span>
             </a>
 
             <!-- Card 7 -->
-            <a href="{{ route('PlantsMachine') }}"
+            <a href="{{ route('recycle') }}"
                 class=" bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="text-2xl text-[#7D6F71]">Fingerprints</h2>
+                <h2 class="text-2xl text-[#7D6F71]">Let’s <br> Recycle</h2>
                 <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">7</span>
             </a>
 
-            <!-- Card 8 -->
-            <a href="{{ route('Pulleys') }}"
-                class=" bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="text-2xl text-[#7D6F71]">Fingerprint <br> Patterns</h2>
-                <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">8</span>
-            </a>
+           
         </div>
     </div>
 
     {{--  Second Slide (Initially Hidden) --}}
-    <div class="board w-[1267px] h-[734px] flex flex-col justify-center items-center slide hidden">
-        <h2 class="text-[45px] text-[#F7B94A] font-extrabold stroke">Living Things</h2>
+    <div class="board w-[1267px] h-[734px] flex flex-col justify-center items-center relative slide hidden">
+        <h2 class="text-[45px] text-[#F7B94A] font-extrabold stroke absolute top-[33px]">Sustainability</h2>
         <div class="flex items-center flex-wrap justify-center max-w-[600px] ">
             <!-- Card 1-->
-            <a href="{{ route('Punching') }}"
+            <a href="{{ route('self') }}"
                 class=" bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="text-2xl text-[#7D6F71]">The Uses of <br> Fingerprints</h2>
-                <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">9</span>
+                <h2 class="text-2xl text-[#7D6F71]">Being Self- <br>sufficient</h2>
+                <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">8</span>
             </a>
 
             <!-- Card 2 -->
-            <a href="{{ route('Screw') }}"
+            <a href="{{ route('carbon') }}"
                 class=" bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="text-2xl text-[#7D6F71]">What are <br> Bacteria?</h2>
-                <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">10</span>
-            </a>
-
-            <!-- Card 3 -->
-            <a href="{{ route('Ball') }}"
-                class=" bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="text-2xl text-[#7D6F71]">Do they Kill <br> Bacteria?</h2>
-                <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">11</span>
-            </a>
-            <!-- Card 3 -->
-            <a href="{{ route('Levers') }}"
-                class=" bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="text-2xl text-[#7D6F71]">Do <br> Bacteria <br> Grow?</h2>
-                <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">12</span>
+                <h2 class="text-2xl text-[#7D6F71]">Carbon <br> Footprint and <br> the Future of <br> Food</h2>
+                <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">9</span>
             </a>
         </div>
     </div>
 
     {{--  Top Buttons --}}
-    <div id="buttons" class="absolute top-0 right-[60px] flex flex-row gap-6 z-90">
+    <div id="buttons" class="absolute top-[30px] right-[60px] flex flex-row gap-6 z-90">
 
         <!-- Return Button (hidden initially) -->
         <a class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"

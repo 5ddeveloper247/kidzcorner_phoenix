@@ -253,7 +253,7 @@
         <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u13.png') }}" />
         <p class="note text-center">Note: Demonstrate how to do it by wearing gloves and a mask. Explain to children that
             dusting for a fingerprint using a brush with overloaded powder may smear the print.</p>
-        <!-- Video Trigger Button -->
+        <!-- Video Trig ger Button -->
         <div data-property-1="Default"
             class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
             <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
