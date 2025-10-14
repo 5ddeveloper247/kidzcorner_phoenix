@@ -23,10 +23,8 @@
         <div>
             <h2 class="  font-bold">Children will be able to:</h2>
             <ul class="list-disc ">
-                <li>Learn what a Rube Goldberg Machine is</li>
-                <li>Set up a Rube Goldberg Machine that includes a simple machine - inclined plane</li>
-                <li>Explore and learn about inclined planes and the domino effect</li>
-                <li>Learn about the basic concept of force (push)</li>
+                <li>Set up a Rube Goldberg Machine that includes a simple machine - <br> lever</li>
+                <li>Learn about an example of screw - the nut and bolt</li>
                 <li>Develop understanding through inquiry</li>
             </ul>
         </div>
@@ -38,10 +36,11 @@
                 <div class="flex gap-20">
                     <ul class="list-disc ">
                         <li>Rube Goldberg Machine</li>
-                        <li>Ramp</li>
-                        <li>Inclined Plane</li>
+                        <li>Lever</li>
                         <li>Force (push)</li>
                         <li>Domino Effect</li>
+                        <li>Inclined Plane</li>
+                        <li>Fulcrum</li>
                     </ul>
                 </div>
             </div>
@@ -53,145 +52,113 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
-        <div>
-            <h2 class="font-bold">Preparations:</h2>
+    <div class=" slide flex text-2xl text-white flex-col justify-start items-center gap-y-10 text-start">
+
+
+        <div class="flex gap-[5rem] ">
             <div>
-                <ul class="list-disc ">
-                    <li>1 Rubber ball</li>
-                    <li>20 books (some hardcover)</li>
-                    <li>10 dominoes</li>
-                    <li>2 blocks</li>
+                <ul>
+                    <h2 class="  font-bold">Preparations:</h2>
+
+                    <li>1 rubber ball and 1 ping pong ball</li>
+                    <li>1 track</li>
+                    <li>7 books of different sizes and <br>
+                        weights</li>
                 </ul>
-                <ul class="list-disc ">
-                    <li>1 ice cream stick</li>
-                    <li>1 string</li>
-                    <li>1 bell</li>
-                </ul>
+                </li>
+            </div>
+
+
+            <div>
+
+                <ul class="list-disc">
+                    <li>1 long wooden ruler</li>
+                    <li>1 plastic spoon</li>
+                    <li>5 dominoes</li>
+                    <li>Some rubber bands</li>
                 </ul>
             </div>
         </div>
 
 
-        <img src="{{ asset('assets/images/K1/str/br29.png') }}" alt="Teacher" class="w-[600px]" />
+        <img src="/assets/images/K1/sm/ball/ba16.png" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
     </div>
 
     {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
-        <div>
-            <li>Each group 20 straws (you may use another colour of straws)</li>
-            <li>Each group 25 pipe cleaners (30cm long)</li>
-            <li>Each child a pair of scissors (remind children to use them carefully)</li>
-            <li>Rulers</li>
-            <li>Test items such as marbles, stones, sandbags, blocks</li>
-            <li>A weighing scale</li>
-            <li>Coloured transparent wrappers (tracing papers, cellophane wraps or
-                any transparent materials that allow us to see the structure of a
-                building after wrapped)</li>
-            <li>White glue or adhesive tape (single and double-sided)</li>
+    <div class=" slide flex text-2xl text-white flex-col justify-start items-center gap-y-10 text-start">
+        <ul class="list-disc">
+            <h2 class="  font-bold">Things to consider for preparations:</h2>
+            <li>Before the lesson, form a lever: use some rubber bands to tie 5 dominoes
+                together, fix them at the middle below a wooden ruler and fix a plastic
+                spoon on one end of the ruler.</li>
+        </ul>
 
-            </ul>
-        </div>
+        <img src="/assets/images/K1/sm/ball/ba17.png" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
     </div>
 
 
     {{-- sldie 4 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
-        <div>
-            <h2 class="font-bold">Things to consider during hands-on sessions:</h2>
-            <ul class="list-disc ">
-                <li>Ask questions to prompt children share and try out their ideas. Some possible
-                    questions are listed in the lesson, you may add on questions based on children's
-                    response.</li>
-                <li>During hands-on session 1, advise each group of children to work hand-in-hand to
-                    build the structure of a beam bridge by following through a step-by-step video
-                    guide. Once all groups complete the making of their bridges, have them set up the
-                    bridge for the test. Remind them that the bridge must sit on a gap of 25 cm for
-                    the test and test items must be placed at the middle of the bridge.</li>
-                <li>During hands-on session 2, have children discuss in groups to come out with a
-                    design idea that will make a bridge stronger. Have them draw their design ideas in
-                    the learning journal before starting to build the designs. Once they complete the
-                    making of their new bridges, have them conduct the bridge test once again. Have
-                    them modify their designs and repeat the test until the new bridges can support
-                    more weight. At last, have them draw their final design of a stronger bridge in
-                    the learning journal, use transparent wrappers to build the roadway of their
-                    bridges and showcase their bridges. Have them share their design ideas with the
-                    class.</li>
-            </ul>
-        </div>
+    <div class=" slide flex text-2xl text-white flex-col justify-start items-center gap-y-10 text-start">
+        <ul class="list-disc">
+            <h2 class="  font-bold">Things to consider for preparations:</h2>
+            <li>Before the lesson, fix the lever on one end of the table (or the activity area).
+                The fulcrum of the lever should not move, so you may use a very sticky double
+                sided adhesive tape or other suitable items to help you fix its position.</li>
+        </ul>
+
+        <img src="/assets/images/K1/sm/ball/ba17.png" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
     </div>
 
 
-
     {{-- sldie 4 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
-        <div>
-            <h2 class="font-bold">Possible questions for reflection:</h2>
-            <ul class="list-disc ">
-                <li>Did you succeed in building a bridge that can hold up more weight? How much
-                    weight can the bridge hold up before and after you built the structure above or
-                    below the bridge?</li>
-                <li>What problems did you encounter during the process of engineering (constructing
-                    the bridge)? How did you overcome the problems?</li>
-                <li>What shapes did you find useful in designing a strong bridge?</li>
-                <li>Do you think your design worked well? If you get a chance to modify your bridge,
-                    which parts would you improve? Why?</li>
-                <li>If you get a chance to design and build a new bridge to hold up more weight,
-                    would you do it differently? Why?</li>
+    <div class=" slide flex text-2xl text-white flex-col justify-start items-center gap-y-8 text-start">
+        <ul class="list-disc">
+            <h2 class="  font-bold">Things to consider for preparations:</h2>
+            <li>You may provide a toy track or handmade track for children to set up the
+                machine, as long as the track is sturdy enough to support the weight and size of
+                the rubber ball.</li>
+            <li>You may use a shelf or other things instead of a chair and a box to guide
+                children form the inclined track.</li>
+        </ul>
 
-                <li>-----------------------------------------------------------------------</li>
-                <li>At the end of the lesson, display all the bridges created in the classroom.</li>
-            </ul>
-        </div>
+        <img src="/assets/images/K1/sm/ball/ba16.png" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
     </div>
 
 
     {{-- sldie 5 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
-        <div>
-            <h2 class="font-bold">Useful information:</h2>
-            <ul class="list-disc ">
-                <li>Bridges bridge a gap between the banks of a river or span the distance between
-                    two sides of a valley.</li>
-                <li>Bridges can carry people, cars, lorries, railways and even rivers.</li>
-                <li> A bridge must be able to support its own weight, as well as the weight of people
-                    and things travelling on it.</li>
-                <li>A truss bridge is a bridge using a truss design to support weight, and a truss is
-                    composed of straight lines (beams) that form triangular units. The truss can be
-                    built on top or below the deck of the bridge.</li>
-                <li> An arch bridge is a bridge using an arch design to support weight, and the arch
-                    can be built on top or below the deck of the bridge. Early arch bridges were
-                    made by placing stones around a wooden frame. Nowadays, arch bridges are made
-                    from steel.</li>
-                <li>A suspension bridge is a long bridge using cables to form an upside-down arch to
-                    support weight. It is called a suspension bridge because the road is suspended in
-                    mid-air by the cables. The cables that support a suspension bridge must suspend
-                    between towers (columns) and be anchored at both ends of the bridge.</li>
-            </ul>
-        </div>
+    <div class=" slide flex text-2xl text-white flex-col justify-start items-center gap-y-8 text-start">
+        <ul class="list-disc">
+            <h2 class="  font-bold">Things to consider for preparations:</h2>
+            <li>As a reference, the track used in the lesson is formed with a vanguard
+                sheet. The edge is folded and two tracks are put together to make it sturdy</li>
+        </ul>
+
+        <img src="/assets/images/K1/sm/ball/ba18.png" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
     </div>
 
 
     {{-- sldie 6 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
-        <div>
-            <h2 class="font-bold">Useful information:</h2>
-            <ul class="list-disc ">
-                <li>A cable-stayed bridge is a kind of suspension bridge, It is a long bridge using
-                    cables to form triangles to support weight. The cables that supporting a cable-
-                    stayed bridge must span out from a tower (column) and form different triangles.</li>
-            </ul>
-        </div>
+    <div class=" slide flex text-2xl text-white flex-col justify-flex-start items-start  gap-y-8 text-start">
+        <ul class="list-disc">
+            <h2 class="  font-bold">Things to consider during hands-on session:</h2>
+            <li>
+                Ask questions to prompt children share and try out their ideas. Some possible
+                questions are listed in the lesson, you may add on questions based on children's
+                response.</li>
+            <li>Remember to continue with reflection part after hands-on session.</li>
+        </ul>
+
+     
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
     </div>
@@ -237,6 +204,52 @@
         </div>
 
     </div>
+
+
+  {{-- slide 8 --}}
+    <div class=" slide flex text-2xl text-white flex-col justify-start  items-start gap-y-8 text-start">
+        <h2 class="title stroke">Learning Centre Idea</h2>
+        <ul >
+            <h2 class="  font-bold">The Best Launch a Ball Machine</h2>
+            <li>
+               What and how to set up:</li>
+            <li>Place things as listed in preparations here.</li>
+            <br><br>
+            <li>What to do:</li>
+            <li>Set up a Rube Goldberg Machine that will always launch a <br>
+ball successfully.</li>
+        </ul>
+
+     
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute right-[250px] bottom-[150px]" />
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

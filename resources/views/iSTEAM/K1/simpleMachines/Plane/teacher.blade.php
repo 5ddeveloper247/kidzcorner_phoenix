@@ -280,12 +280,6 @@
             </ul>
 
 
-
-
-
-
-
-
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />

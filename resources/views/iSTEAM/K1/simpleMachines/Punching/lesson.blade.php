@@ -273,7 +273,7 @@ the book fall on the hole punch and presses onto it.</h2>
         <h2 class=" title stroke !text-white">Learning Journal</h2>
         <div class="w-[950px] h-[550px] bg-cover bg-center flex flex-col p-[40px] justify-around"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
-            <p class=" ">Draw the Rube Goldberg Machine that you have created to punch holes <br> in
+            <p class=  >Draw the Rube Goldberg Machine that you have created to punch holes <br> in
 a sheet of paper.
             </p> 
 

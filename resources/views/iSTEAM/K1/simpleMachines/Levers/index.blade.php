@@ -31,13 +31,13 @@
 
 @section('content')
 
-    <div id="topDiv" class="flex flex-col  h-[90%] items-center ">
-        <div class="  text-amber-300 text-[65px] font-extrabold stroke">What is light?</div>
+   <div id="topDiv" class="flex flex-col  h-[90%] items-center  gap-[10rem]">
+        <div class="  text-amber-300 text-[65px] font-extrabold stroke">How do Levers Work?</div>
         <div
-            class="text-2xl sm:text-3xl lg:text-6xl text-white max-w-5xl leading-snug flex flex-col items-center space-x-[30px]">
-            Explorenatural and man-made lights<br />
-            Develop awareness and knowledge<br />
-            of different light forms
+            class="text-2xl sm:text-3xl lg:text-4xl text-white max-w-5xl leading-snug flex flex-col items-center space-x-[30px]">
+      Explore the characteristics and uses <br>
+of a simple machine - Lever
+<br><br><br>
 
      <button class="cursor-pointer nextButton w-66 h-[75px] relative bg-[#F8A23A]  rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
         outline outline-1 outline-yellow-700 overflow-hidden">
@@ -49,7 +49,6 @@
 
         </div>
     </div>
-
 
 
 

@@ -43,6 +43,7 @@
         <h2 class="title stroke">Now, let’s watch the video in slow motion!</h2>
         <p class="note">Note: Have children freely talk about what they see. Do not correct them on the terms used.</p>
     </div>
+    <div class="note">Note: Have children freely talk about what they see. Do not correct them on the terms used.</div>
 
 
 
@@ -149,7 +150,6 @@
         <img src="/assets/images/K1/sm/bell/bell1.png" />
         <h2 class="title stroke">The ball rolls down because of the slope.
             The slope is commonly known as a ramp.</h2>
-
     </div>
 
 
@@ -233,9 +233,6 @@
         <img src="/assets/images/K1/sm/bell/bell1.png" />
         <h2 class="title stroke">The first domino falls and pushes the second one.
             The second domino falls and pushes the third one, and so on.</h2>
-
-
-
     </div>
 
 
@@ -245,9 +242,6 @@
         <img src="/assets/images/K1/sm/bell/bell7.png" />
         <h2 class="title stroke">When one action causes the next action, which in turn causes
             the next action, and so on, we call it a domino effect.</h2>
-
-
-
     </div>
 
 
