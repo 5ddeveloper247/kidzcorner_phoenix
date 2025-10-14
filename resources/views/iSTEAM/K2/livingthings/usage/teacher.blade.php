@@ -18,81 +18,285 @@
 
 
 @section('content')
-
-
-
-
-    {{-- sldie 23  --}}
+    {{-- sldie 1  --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
             <h2 class="  font-bold">Children will be able to:</h2>
             <ul class="list-disc ">
-                <li>Explore items with lights</li>
-                <li>Develop awareness of natural and man-made light sources</li>
-                <li>Understand how lights are useful to us and where lights can be found</li>
+                <li>Understand that the uniqueness of fingerprints make them ideal for
+                    personal identification</li>
+                <li>Understand the uses of fingerprint</li>
+                <li>Learn how to dust and lift a fingerprint</li>
+                <li>Learn to analyse the evidence found and solve a case</li>
                 <li>Develop understanding through inquiry</li>
             </ul>
         </div>
 
-        <div class="flex w-[100%] items-center justify-between">
-            <div>
-                <h2 class="text-[33px] font-bold">Keywords:</h2>
+        <div class="flex flex-col  items-start justify-between">
+            <h2 class="text-[33px] font-bold">Keywords:</h2>
+            <div class="flex gap-20">
                 <ul class="list-disc ">
-                    <li>Sun</li>
-                    <li>Bright / Brightly</li>
-                    <li>Light</li>
-                    <li>Stars</li>
-                    <li>Fire</li>
-                    <li>Natural</li>
-                    <li>Natural Lights</li>
-                    <li>Man-made Lights</li>
+                    <li>Fingerprint</li>
+                    <li>Personal Identification</li>
                 </ul>
+
             </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" />
         </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute right-[250px] bottom-[150px]" />
     </div>
 
 
 
-    {{-- slide 24 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start w-[75%]">
+    {{-- slide 2 --}}
+    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Preparations for Class Activity I:</h2>
-            <ul class="list-disc ">
-                <li>iPad (make sure children handle with care)</li>
-                <li>Torch lights or any other battery-operated lights</li>
-                <li>Table lamp or night light (teacher can plug them into the socket and demonstrate how these light up, do
-                    not let children handle these)</li>
+            <h2 class="font-bold">Preparations for Mini Mobile Phone Activity:</h2>
+            <div class="flex items-center gap-10">
+                <ul class="list-disc ">
+                    <li>A mobile phone</li>
+                    <li>Plain papers</li>
+                    <li>A suitable screen wipe</li>
+                </ul>
+                <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u8.png') }}" class="w-[150px] h-[150px]" />
+            </div>
+        </div>
+        <div>
+            <h2 class="font-bold">How to carry out Mini Mobile Phone Activity and things to consider:</h2>
+            <ul class="list-decimal">
+                <li>Wipe the screen of a mobile phone and then use a finger to leave a mark on the screen. Have children
+                    face the phone and ask if they see anything on the screen.</li>
+                <li>Tilt the phone to a certain angle, guide children to discover the fingerprint mark on the screen. Have
+                    them guess why the fingerprint appears on the phone screen when the teacher's hand is clean.</li>
             </ul>
         </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute right-[250px] bottom-[150px]" />
+    </div>
 
-        <div class="flex w-[100%] items-center justify-between">
-            <div>
-                <h2 class="font-bold">Links to Songs:</h2>
-                <ul class="list-disc ">
-                    <li>
-                        <strong>Mr Golden Sun</strong>
-                        <ul class="list-disc space-y-1 pl-6">
-                            <li>Sun: <a href="https://youtu.be/pIrC_OhEHJM" target="_blank"
-                                    class="text-blue-600 underline">Watch here</a></li>
-                            <li>Mr Golden Sun: <a href="https://youtu.be/hlzvrEfyL2Y" target="_blank"
-                                    class="text-blue-600 underline">Watch here</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <strong>Twinkle Twinkle Little Star</strong>
-                        <a href="https://www.youtube.com/watch?v=NiRf84t4i5I" target="_blank"
-                            class="text-blue-600 underline">Watch here</a>
-                    </li>
-                </ul>
-            </div>
 
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" />
+    {{-- sldie 3 --}}
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-center gap-y-10 text-start">
+        <div>
+            <h2 class="font-bold">Preparations for Individual Activity - Practice of Dusting and Lifting A Fingerprint:</h2>
+            <ul class="list-disc">
+                <li>Small mirrors (replaceable with anything that has a smooth surface and tested to leave fingerprint
+                    marks; normally easier on items made from glass or metal like glass panel, bottle, vase, plate, or cup;
+                    one for each child and teacher)</li>
+                <li>Masks and gloves (a set for each child and teacher)</li>
+                <li>A bottle of lotion</li>
+                <li>Fingerprint powder (any fine powder like corn flour, talcum powder, or cocoa powder; ideally, use white
+                    powder if the fingerprint is on a dark surface and dark powder if the fingerprint is on a light surface;
+                    put them in a few small containers with lids for sharing; sample shown: talcum powder in a recycled
+                    cosmetic container)</li>
+                <li>Soft brushes (preferably cosmetic or paint brushes with fibre bristles; one for each child and teacher)
+                </li>
+                <li>Adhesive clear tapes (for a better outcome, 3M Scotch Tape is recommended)</li>
+                <li>Black papers (sample shown: cut an A4 size paper with smooth texture into 4 equal pieces; one for each
+                    child and teacher)</li>
+                <li>Individual Fingerprint Record (from the previous lesson)</li>
+            </ul>
+        </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute right-[250px] bottom-[150px]" />
+    </div>
 
+
+    {{-- slide 4 --}}
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+        <div>
+            <h2 class="font-bold">How to dust and lift a fingerprint and things to consider:</h2>
+            <ul class="list-decimal">
+                <li>Press your thumb firmly on a mirror. Can you see your fingerprint? [ Demonstrate
+                    how to do it. Explain to children that we'll apply lotion on hands to make sure that
+                    the print is easier to see after dusting (press after 1-2 minutes so that the hand
+                    is not too moist and slippery). Can also get children to make a few of the same
+                    thumbprint on the mirror and develop only those that are clear. ]</li>
+            </ul>
+            <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u12.png') }}" class="w-[600px]" />
+        </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute right-[250px] bottom-[150px]" />
+    </div>
+
+
+    {{-- slide 5 --}}
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+        <div>
+            <h2 class="font-bold">How to dust and lift a fingerprint and things to consider:</h2>
+            <ul>
+                <li>2. Dab the brush carefully into powder and tap the brush on its side to remove
+                    excess powder. [Demonstrate how to do it by wearing gloves and a mask.
+                    Explain to children that dusting for a fingerprint using a brush with overloaded
+                    powder may smear the print.]</li>
+            </ul>
+        </div>
+        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u13.png') }}" class="w-[500px]" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute right-[250px] bottom-[150px]" />
+
+        <!-- Video Trigger Button -->
+        <div data-property-1="Default"
+            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
+            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
+            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
+            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
         </div>
     </div>
 
-    {{-- slide 25 --}}
+
+    {{-- sldie 6 --}}
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+        <div>
+            <h2 class="font-bold">How to dust and lift a fingerprint and things to consider:</h2>
+            <ul>
+                <li>3. Gently sweep the brush over the area where you put your fingerprint. Can you see
+                    a fingerprint developing? [Demonstrate how to do it. Remind children not to apply
+                    too much pressure when they sweep the brush so that the print will not be wiped
+                    away (only the bristle tips of the brush will touch the fingerprint surface).]</li>
+            </ul>
+        </div>
+        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u14.png') }}" class="w-[500px]" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute right-[250px] bottom-[150px]" />
+
+        <!-- Video Trigger Button -->
+        <div data-property-1="Default"
+            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
+            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
+            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
+            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+        </div>
+    </div>
+
+    {{-- sldie 7 --}}
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+        <div>
+            <h2 class="font-bold">How to dust and lift a fingerprint and things to consider:</h2>
+            <ul>
+                <li>4.Gently blow off excess powder and check your result. Can you make out the
+                    fingerprint pattern? [For safety, teacher to do the step. Be sure that you don't
+                    blow towards anyone. If the print gets smeared, encourage children to clean the
+                    mirror and redo the activity from step 1.] </li>
+            </ul>
+        </div>
+        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u15.png') }}" class="w-[500px]" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute right-[250px] bottom-[150px]" />
+    </div>
+
+
+    {{-- sldie 8 --}}
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+        <div>
+            <h2 class="font-bold">How to dust and lift a fingerprint and things to consider:</h2>
+            <ul>
+                <li>5. Carefully press down a piece of clear tape on top of the developed fingerprint.
+                    [Demonstrate how to do it. Remind children to hold only the edges of the tape.]</li>
+            </ul>
+        </div>
+        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u16.png') }}" class="w-[500px]" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute right-[250px] bottom-[150px]" />
+
+        <!-- Video Trigger Button -->
+        <div data-property-1="Default"
+            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
+            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
+            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
+            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+        </div>
+    </div>
+
+
+
+
+    {{-- slide 9 --}}
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+        <div>
+            <h2 class="font-bold">How to dust and lift a fingerprint and things to consider:</h2>
+            <ul>
+                <li>6. Lift the tape and paste it on a paper. Did you successfully transfer your
+                    fingerprint? [Demonstrate how to do it. If the print gets smeared, encourage
+                    children to clean the mirror and redo the activity from step 1.]</li>
+            </ul>
+        </div>
+        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u17.png') }}" class="w-[500px]" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute right-[250px] bottom-[150px]" />
+    </div>
+
+
+    {{-- slide 10 --}}
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+        <div>
+            <h2 class="font-bold">How to dust and lift a fingerprint and things to consider:</h2>
+            <ul>
+                <li>7. Compare the fingerprint collected to yours in the fingerprint record. [Have
+                    children check if they manage to lift up clear fingerprint. If not, encourage them
+                    to repeat the activity to practise dusting and lifting skills.]</li>
+            </ul>
+        </div>
+        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u18.png') }}" class="w-[500px]" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute right-[250px] bottom-[150px]" />
+    </div>
+
+
+    {{-- slide 11 --}}
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+        <div>
+            <h2 class="font-bold">How to dust and lift a fingerprint and things to consider:</h2>
+            <ul class="list-disc">
+                <li>At the end, have children discuss and share their activity experience.</li>
+                <li>Explain to children that:
+                    <ul>
+                        <li>- Lotion contains lots of oil and fat. When you apply it, your fingertips become
+                            much stickier and this lead to a much more pronounced print</li>
+                        <li> - Fingerprints tend to stick very well on a smooth surface such as glass or metal.
+                            Just a little talcum or cocoa powder applied with a brush should be enough to
+                            reveal your fingerprint.</li>
+                        <li> - If you apply too much powder, the fine details of your print might be lost.
+                            When you press too hard onto the surface with the brush, the fingerprint will be
+                            wiped away. Therefore, you have to be careful when treating the surface with
+                            the powder.</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute right-[250px] bottom-[150px]" />
+    </div>
+
+
+
+        {{-- slide 12 --}}
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+        <div>
+            <h2 class="font-bold">How to dust and lift a fingerprint and things to consider:</h2>
+            <ul class="list-disc">
+                <li>At the end, have children discuss and share their activity experience.</li>
+                <li>Explain to children that:
+                    <ul>
+                        <li>- Lotion contains lots of oil and fat. When you apply it, your fingertips become
+                            much stickier and this lead to a much more pronounced print</li>
+                        <li> - Fingerprints tend to stick very well on a smooth surface such as glass or metal.
+                            Just a little talcum or cocoa powder applied with a brush should be enough to
+                            reveal your fingerprint.</li>
+                        <li> - If you apply too much powder, the fine details of your print might be lost.
+                            When you press too hard onto the surface with the brush, the fingerprint will be
+                            wiped away. Therefore, you have to be careful when treating the surface with
+                            the powder.</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute right-[250px] bottom-[150px]" />
+    </div>
+
+
+    {{-- sldie 12 --}}
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
@@ -103,29 +307,14 @@
                         <span
                             class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
                             <!-- Decorative Vector -->
-                            <img src="assets/images/pptimages/Vector4.png"
+                            <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
                                 class="absolute top-[4px] left-[6px] h-6 w-[80%]" />
                             <div class="absolute top-[7px] left-[12px] h-2.5 w-3.5 rounded-sm bg-white"></div>
                             <img src="{{ asset('assets/images/pptimages/play.png') }}"
                                 class="absolute top-[16px] left-[16px] h-8 w-8" />
                         </span>
-                        next to a picture, click on the picture to watch the video.
+                        next to a picture, class="text-amber-400" click on the picture to watch the video.
                     </li>
-                    <li>
-                        If you see
-                        <span
-                            class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-amber-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-                            <img src="assets/images/pptimages/Vector4.png"
-                                class="absolute top-[4px] left-[6px] h-6 w-[80%]" />
-                            <div class="absolute top-[7px] left-[12px] h-2.5 w-3.5 rounded-sm bg-white"></div>
-                            <img src="{{ asset('assets/images/pptimages/info.png') }}"
-                                class="absolute top-[16px] left-[16px] h-8 w-8" />
-                        </span>
-                        , click on it for additional information or activity.
-                    </li>
-                    <li>Always ask questions to encourage children to think and share their ideas first before giving
-                        out
-                        any information.</li>
                     <li>Emphasise and use the <strong>keywords</strong> during hands-on sessions.</li>
                     <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
                     </li>
@@ -133,7 +322,7 @@
                         Click on this <span class="font-bold">shortcut icon</span>
                         <span
                             class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-                            <img src="assets/images/pptimages/Vector4.png"
+                            <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
                                 class="absolute top-[4px] left-[6px] h-6 w-[80%]" />
                             <div class="absolute top-[7px] left-[12px] h-2.5 w-3.5 rounded-sm bg-white"></div>
                             <img src="{{ asset('assets/images/pptimages/home-icon.png') }}"
@@ -143,43 +332,64 @@
                     </li>
                 </ul>
             </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" />
-
+            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute right-[250px] bottom-[150px]"
+                alt="Teacher" />
         </div>
-
     </div>
 
 
-    {{--  slide 26 --}}
-    <div class=" slide text-white flex flex-col justify-start text-start text-2xl">
-        <h1 class="stroke font-bold">Let’s sort!</h1>
-        <div>
-            <h2 class="font-bold">Preparations for Class Activity I:</h2>
-            <p>Place pictures of various items such as pot of plant, bottle, shoe, sock, box, elephant, lamp, light
-                bulb,
-                sun, stars, lightning, firefly, ceiling light, handphone, TV.</p>
-        </div>
+    {{-- slide 13 --}}
+    <div class="text-white flex flex-col items-center justify-center gap-y-10 text-start text-2xl slide hidden">
+        <h2 class=" title stroke">Learning Centre Idea</h2>
+        <div class="flex flex-col gap-10">
+            <ul>
+                <h2 class="!text-white title stroke">Fingerprints Art</h2>
+                <h2>What and how to set up:</h2>
+                <li>Put some paints, sponges, coloured pencils and drawing papers here.</li>
+            </ul>
 
-        <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold">What to do:</h2>
-                <ul>
-                    <li>
-                        <strong>*</strong> Invite children to pick up pictures and sort them into groups:
-                        <ul class="mt-2 list-[lower-alpha] space-y-1 pl-6">
-                            <li>Gives light or Does not give light</li>
-                            <li>Natural light or Man-made light</li>
-                        </ul>
-                    </li>
+                <h2>What to do:</h2>
+                <ul class="list-decimal">
+                    <li>Turn your fingerprints into art! Put your fingerprints on the
+                        drawing paper.</li>
+                    <li>Use your imagination to turn it into a creative drawing by adding
+                        details with coloured pencils.</li>
+                    <li>Show it to your teacher and friends!</li>
                 </ul>
-            </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" />
 
+            </div>
         </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute right-[250px] bottom-[150px]" />
     </div>
 
+
+    {{-- slide 14 --}}
+    <div class="text-white flex flex-col items-center justify-center gap-y-10 text-start text-2xl slide hidden">
+        <h2 class=" title stroke">Learning Centre Idea</h2>
+        <div>
+            <ul class="list-disc">
+                <h2 class="!text-white title stroke">Fun Facts</h2>
+                <h2>What and how to set up:</h2>
+                <p>Use your creativity to design graphic fact sheet for every fun fact
+                    below. Guide children to understand the facts.</p>
+                <li>Fingerprints actually help you to grasp an object. Without them,
+                    your fingers will be slippery and you will not be able to write or
+                    paint properly.</li>
+                <li>Adermatoglyphia is a genetic disease where people are born
+                    without fingerprints.</li>
+            </ul>
+        </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute right-[250px] bottom-[150px]" />
+    </div>
+
+
+
+    {{-- ========================================================== --}}
+    {{-- Buttons --}}
     <div class="absolute bottom-0">
-        <button class="cursor-pointer doneButton w-66 h-[75px] relative bg-[#F8A23A] rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
+        <button
+            class="cursor-pointer doneButton w-66 h-[75px] relative bg-[#F8A23A] rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
                     outline outline-1 outline-yellow-700 overflow-hidden">
             <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
             <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" />
@@ -189,18 +399,13 @@
         </button>
     </div>
 
-
-
-
-
-
-    {{-- Buttons --}}
     <div id="buttons" class="absolute top-0 right-[60px] flex flex-row gap-6 z-90">
 
         <!-- Return Button -->
         <a class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
             id="returnButton">
-            <img class="absolute top-[6px] left-[8px] w-20 h-10" src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
+            <img class="absolute top-[6px] left-[8px] w-20 h-10"
+                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
             <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
             <img class="absolute top-[24px] left-[22px] w-14 h-14"
                 src="{{ asset('assets/images/pptimages/reverse-icon.png') }}" />
@@ -296,11 +501,9 @@
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('K1simpleMachines') }}";
+                    window.location.href = "{{ route('k2livingthings') }}";
                 });
             }
-
-
             showSlide(currentSlide);
         });
     </script>

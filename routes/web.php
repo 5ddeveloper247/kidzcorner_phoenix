@@ -2029,6 +2029,27 @@ Route::get('/livingthings/Fingerprintspatterns/teacher', function () {
     return view('iSTEAM.K2.livingthings.patterns.teacher');
 })->name('FingerprintpatternsTeacher');
 
+// ====
+// K2 -> livingthings -> UseofFingerprints
+Route::get('/livingthings/UseofFingerprints', function () {
+    return view('iSTEAM.K2.livingthings.usage.index');
+})->name('usage');
+
+// K2 -> livingthings -> UseofFingerprints -> select
+Route::get('/UseofFingerprintsChoice', function () {
+    return view('iSTEAM.K2.livingthings.usage.selection');
+})->name('usageSelection');
+
+// K2 -> livingthings -> UseofFingerprints -> lesson
+Route::get('/livingthings/UseofFingerprints/lesson', function () {
+    return view('iSTEAM.K2.livingthings.usage.lesson');
+})->name('usageLesson');
+
+// K2 -> livingthings -> UseofFingerprints -> teacher
+Route::get('/livingthings/UseofFingerprints/teacher', function () {
+    return view('iSTEAM.K2.livingthings.usage.teacher');
+})->name('usageTeacher');
+
 
 
 
