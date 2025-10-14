@@ -95,7 +95,7 @@
             </a>
 
             <!-- Card 8 -->
-            <a href="{{ route('Pulleys') }}"
+            <a href="{{ route('Fingerprintpatterns') }}"
                 class=" bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
                 <h2 class="text-2xl text-[#7D6F71]">Fingerprint <br> Patterns</h2>
                 <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">8</span>
@@ -108,7 +108,7 @@
         <h2 class="text-[45px] text-[#F7B94A] font-extrabold stroke">Living Things</h2>
         <div class="flex items-center flex-wrap justify-center max-w-[600px] ">
             <!-- Card 1-->
-            <a href="{{ route('Punching') }}"
+            <a href="{{ route('usage') }}"
                 class=" bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
                 <h2 class="text-2xl text-[#7D6F71]">The Uses of <br> Fingerprints</h2>
                 <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">9</span>

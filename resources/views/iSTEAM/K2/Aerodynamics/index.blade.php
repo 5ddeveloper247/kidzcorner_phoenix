@@ -1,82 +1,45 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
 
-@push('style')
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-    <style>
-        .slide-container {
-            transition: opacity 0.3s ease-in-out;
-        }
-
-        .button-hidden {
-            display: none !important;
-        }
-
-        .button-disabled {
-            opacity: 0.5;
-            cursor: not-allowed;
-        }
-
-        /* Custom animations for buttons */
-        .button-fade-in {
-            animation: fadeIn 0.3s ease-in-out;
-        }
-
-        .stroke {
-            -webkit-text-stroke: 2px #533705;
-        }
-
-        .note {
-            font-size: 24px;
-            font-weight: 400;
-            color: white;
-        }
-
-        a {
-            cursor: pointer;
-        }
-    </style>
-@endpush
-
 @section('content')
     {{--  First Slide --}}
-    <div class="board w-[1267px] h-[734px] flex flex-col justify-center items-center slide">
+    <div class="board w-[1267px] h-[734px] flex flex-col justify-center  items-center slide">
 
-        <h2 class="text-[45px] text-[#F7B94A] font-extrabold stroke ">Compound Machines</h2>
+        <h2 class="text-[45px] text-[#F7B94A] font-extrabold stroke ">Aerodynamics</h2>
 
-        <div class="flex flex-wrap justify-center items-center " style="width: inherit">
+        <div class="flex flex-wrap justify-center items-center w-[80%] ">
             <!-- Card 1-->
-            <a href="{{ route('DominoFun') }}"
+            <a href="{{ route('Aerodynamics1') }}"
                 class=" bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="text-2xl text-[#7D6F71]">Domino Fun</h2>
+                <h2 class="text-2xl text-[#7D6F71]">What is <br> Aerodynamics? <br> 1</h2>
                 <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">1</span>
             </a>
 
             <!-- Card 2 -->
-            <a href="{{ route('Patterns') }}"
+            <a href="{{ route('Aerodynamics2') }}"
                 class=" bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="text-2xl text-[#7D6F71]">Pretty Domino <br> Patterns</h2>
+                <h2 class="text-2xl text-[#7D6F71]">What is <br> Aerodynamics? <br> 2</h2>
                 <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">2</span>
             </a>
 
             <!-- Card 3 -->
-            <a href="{{ route('SmartIdeas') }}"
+            <a href="{{ route('Hydrodynamics') }}"
                 class=" bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="text-2xl text-[#7D6F71]">Smart Ideas <br> for my <br> Machine</h2>
+                <h2 class="text-2xl text-[#7D6F71]">Hydrodynamics</h2>
                 <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">3</span>
             </a>
-
+<br>
             <!-- Card 4 -->
-            <a href="{{ route('Machines') }}"
+            <a href="{{ route('Evolution') }}"
                 class=" bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="text-2xl text-[#7D6F71]">What are <br> Compound <br> Machines?</h2>
+                <h2 class="text-2xl text-[#7D6F71]">Evolution of <br> Aeroplanes</h2>
                 <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">4</span>
             </a>
 
             <!-- Card 5 -->
-            <a href="{{ route('Innovation') }}"
+            <a href="{{ route('Flying') }}"
                 class=" bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="text-2xl text-[#7D6F71]">An Innovation</h2>
+                <h2 class="text-2xl text-[#7D6F71]">Flying <br> Machines</h2>
                 <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">5</span>
             </a>
 
@@ -86,7 +49,7 @@
   
 
     {{--  Top Buttons --}}
-    <div id="buttons" class="absolute top-0 right-[60px] flex flex-row gap-6 z-90">
+    <div id="buttons" class="absolute top-[30px] right-[60px] flex flex-row gap-6 z-90">
 
         <!-- Return Button (hidden initially) -->
         <a class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
@@ -123,63 +86,16 @@
         </button>
     </div>
 
-    {{--  Next Button --}}
-    <div class="absolute bottom-[85px]">
-        <button
-            class="cursor-pointer nextButton w-66 h-[75px] relative bg-[#F8A23A]  rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
-        outline outline-1 outline-yellow-700 overflow-hidden">
-            <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
-            <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" />
-            </div>
-            <span class="absolute left-[80px] top-[18px] flex items-center  text-white text-5xl font-bold stroke">NEXT
-            </span>
-        </button>
-    </div>
 @endsection
 
 @push('script')
 <script>
     document.addEventListener("DOMContentLoaded", () => {
-        const slides = document.querySelectorAll(".slide");
-        const nextButton = document.querySelector(".nextButton");
-        const returnButton = document.getElementById("returnButton");
-
-        let currentSlide = 0;
-
-        function showSlide(index) {
-            slides.forEach((slide, i) => {
-                slide.classList.toggle("hidden", i !== index);
-            });
-
-            //  First slide → show NEXT, hide RETURN
-            if (index === 0) {
-                nextButton.classList.remove("hidden");
+  if (returnButton) {
+                returnButton.addEventListener("click", () => {
+                    window.location.href = "{{ route('K2') }}";
+                });
             }
-            //  Second slide → hide NEXT, show RETURN
-            else if (index === 1) {
-                nextButton.classList.add("hidden");
-                returnButton.classList.remove("hidden");
-            }
-        }
-
-        //  NEXT button → go to 2nd slide
-        nextButton.addEventListener("click", () => {
-            if (currentSlide < slides.length - 1) {
-                currentSlide++;
-                showSlide(currentSlide);
-            }
-        });
-
-        //  RETURN button → go back to 1st slide
-        returnButton.addEventListener("click", () => {
-            if (currentSlide > 0) {
-                currentSlide--;
-                showSlide(currentSlide);
-            }
-        });
-
-        //  Start with first slide
-        showSlide(currentSlide);
     });
 </script>
 @endpush

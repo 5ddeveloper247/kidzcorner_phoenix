@@ -54,7 +54,7 @@
             text-align: center;
             font-size: 60px;
             color: white;
-
+        }
             .note {
                 font-size: 24px;
                 font-weight: 400;
@@ -73,8 +73,8 @@
 @section('content')
 
 
-    <div class=" flex items-center flex-col justify-center text-center z-[999]  max-w-[1000px]  m-auto">
-        <h2 class="text-[50px] text-[#F7B94A]"> What is Light?</h2>
+    <div class=" flex items-center flex-col justify-center text-center z-[999] gap-y-[50px]  max-w-[1000px]  m-auto">
+        <h2 class="text-[50px] text-[#F7B94A]">How Does a Screw Work?</h2>
         <div class="flex items-center justify-between">
 
             {{-- Lesson Button --}}
