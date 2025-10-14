@@ -99,6 +99,11 @@
                     window.location.href = "{{ route('fastSelection') }}";
                 });
             }
+            if (returnButton) {
+                returnButton.addEventListener("click", () => {
+                    window.location.href = "{{ route('coding') }}";
+                });
+            }
         });
     </script>
 @endpush

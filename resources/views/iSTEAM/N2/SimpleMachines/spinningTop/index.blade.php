@@ -94,6 +94,11 @@
                     window.location.href = "{{ route('spinningTopSelection') }}";
                 });
             }
+              if (returnButton) {
+                returnButton.addEventListener("click", () => {
+                    window.location.href = "{{ route('SimpleMachines') }}";
+                });
+            }
         });
     </script>
 @endpush

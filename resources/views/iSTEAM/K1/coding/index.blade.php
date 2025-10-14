@@ -1,42 +1,7 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
 
-@push('style')
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-    <style>
-        .slide-container {
-            transition: opacity 0.3s ease-in-out;
-        }
 
-        .button-hidden {
-            display: none !important;
-        }
-
-        .button-disabled {
-            opacity: 0.5;
-            cursor: not-allowed;
-        }
-
-        /* Custom animations for buttons */
-        .button-fade-in {
-            animation: fadeIn 0.3s ease-in-out;
-        }
-
-        .stroke {
-            -webkit-text-stroke: 2px #533705;
-        }
-
-        .note {
-            font-size: 24px;
-            font-weight: 400;
-            color: white;
-        }
-
-        a {
-            cursor: pointer;
-        }
-    </style>
-@endpush
 
 @section('content')
     {{--  First Slide --}}
@@ -136,8 +101,7 @@
     <div id="buttons" class="absolute top-[30px] right-[60px] flex flex-row gap-6 z-90">
 
         <!-- Return Button (hidden initially) -->
-        <a
-            class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
+        <a class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
             id="returnButton">
             <img class="absolute top-[6px] left-[8px] w-20 h-10"
                 src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
@@ -171,7 +135,7 @@
         </button>
     </div>
 
-    
+
     {{--  Next Button --}}
     <div class="absolute bottom-[85px]">
         <button
@@ -188,52 +152,52 @@
 
 @push('script')
     <script>
-       document.addEventListener("DOMContentLoaded", () => {
-    const slides = document.querySelectorAll(".slide");
-    const nextButton = document.querySelector(".nextButton");
-    const returnButton = document.getElementById("returnButton");
+        document.addEventListener("DOMContentLoaded", () => {
+            const slides = document.querySelectorAll(".slide");
+            const nextButton = document.querySelector(".nextButton");
+            const returnButton = document.getElementById("returnButton");
 
-    let currentSlide = 0;
+            let currentSlide = 0;
 
-    function showSlide(index) {
-        slides.forEach((slide, i) => {
-            slide.classList.toggle("hidden", i !== index);
-        });
+            function showSlide(index) {
+                slides.forEach((slide, i) => {
+                    slide.classList.toggle("hidden", i !== index);
+                });
 
-        // First slide → show NEXT button
-        if (index === 0) {
-            nextButton.classList.remove("hidden");
-        }
-        // Second slide → hide NEXT button
-        else if (index === 1) {
-            nextButton.classList.add("hidden");
-        }
-    }
+                // First slide → show NEXT button
+                if (index === 0) {
+                    nextButton.classList.remove("hidden");
+                }
+                // Second slide → hide NEXT button
+                else if (index === 1) {
+                    nextButton.classList.add("hidden");
+                }
+            }
 
-    // NEXT button → go to 2nd slide
-    nextButton.addEventListener("click", () => {
-        if (currentSlide < slides.length - 1) {
-            currentSlide++;
+            // NEXT button → go to 2nd slide
+            nextButton.addEventListener("click", () => {
+                if (currentSlide < slides.length - 1) {
+                    currentSlide++;
+                    showSlide(currentSlide);
+                }
+            });
+
+            // RETURN button → conditional behavior
+            returnButton.addEventListener("click", (e) => {
+                e.preventDefault(); // Prevent default link behavior
+
+                if (currentSlide > 0) {
+                    // If on slide 2 (or higher), go back to previous slide
+                    currentSlide--;
+                    showSlide(currentSlide);
+                } else {
+                    // If on slide 1 (currentSlide === 0), redirect to K1
+                    window.location.href = "{{ route('K1') }}";
+                }
+            });
+
+            // Start with first slide
             showSlide(currentSlide);
-        }
-    });
-
-    // RETURN button → conditional behavior
-    returnButton.addEventListener("click", (e) => {
-        e.preventDefault(); // Prevent default link behavior
-        
-        if (currentSlide > 0) {
-            // If on slide 2 (or higher), go back to previous slide
-            currentSlide--;
-            showSlide(currentSlide);
-        } else {
-            // If on slide 1 (currentSlide === 0), redirect to K1
-            window.location.href = "{{ route('K1') }}";
-        }
-    });
-
-    // Start with first slide
-    showSlide(currentSlide);
-})
+        })
     </script>
 @endpush

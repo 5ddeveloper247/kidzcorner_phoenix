@@ -98,6 +98,11 @@
                     window.location.href = "{{ route('PinWheelSelection') }}";
                 });
             }
+           if (returnButton) {
+                returnButton.addEventListener("click", () => {
+                    window.location.href = "{{ route('SimpleMachines') }}";
+                });
+            }
         });
     </script>
 @endpush

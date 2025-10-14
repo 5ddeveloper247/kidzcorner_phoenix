@@ -314,7 +314,7 @@
         <div class="relative">
             <img src="{{ asset('assets/images/K2/livingthings/things/t11.png') }}" />
             <span
-                class="info-btn4 !absolute top-[80px] left-[55%] relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-amber-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
+                class="info-btn5 !absolute top-[150px] left-[55%] relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-amber-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
                 <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
                     class="absolute top-[4px] left-[6px] h-6 w-[80%]" />
                 <div class="absolute top-[7px] left-[12px] h-2.5 w-3.5 rounded-sm bg-white"></div>
@@ -327,72 +327,181 @@
             if wrong, correct with a red crayon.</p>
     </div>
 
+    {{-- click slide  --}}
+    {{-- =====1 --}}
+    <div class="slide hidden info-slide5  flex flex-col items-center justify-start  ">
+        <img src="/assets/images//K2/livingthings/things/t13.png" />
+        <h2 class="title storke">Most balls need to be filled with air in order to bounce and roll.</h2>
+        <p class="note">Note: Explain to children that we need air to stay alive but not for balls.</p>
+        <!-- Video Trigger Button -->
+        <div data-property-1="Default"
+            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
+            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
+            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
+            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+        </div>
+    </div>
+
+
+    {{-- Slide 12 --}}
+    <div class="slide hidden  flex flex-col items-center justify-start  ">
+        <h2 class="title stroke">Let’s do:</h2>
+        <div class="relative">
+            <img src="{{ asset('assets/images/K2/livingthings/things/t12.png') }}" />
+            <span
+                class="info-btn6 !absolute top-[220px] left-[18%] relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-amber-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
+                <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
+                    class="absolute top-[4px] left-[6px] h-6 w-[80%]" />
+                <div class="absolute top-[7px] left-[12px] h-2.5 w-3.5 rounded-sm bg-white"></div>
+                <img src="{{ asset('assets/images/pptimages/info.png') }}"
+                    class="absolute top-[16px] left-[16px] h-8 w-8" />
+            </span>
+            </td>
+        </div>
+        <p class="note text-center">Note: Guide children to discuss each point and check if their prediction is correct;
+            if wrong, correct with a red crayon.</p>
+    </div>
+
+    {{-- click slide  --}}
+    {{-- =====1 --}}
+    <div class="slide hidden info-slide6  flex flex-col items-center justify-start  ">
+        <img src="/assets/images//K2/livingthings/things/t15.png" />
+        <h2 class="title storke">This toy train moves on its own. Why?</h2>
+        <p class="note">Note: Have children think and share their views.</p>
+        <!-- Video Trigger Button -->
+        <div data-property-1="Default"
+            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
+            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
+            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
+            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+        </div>
+    </div>
+
+    {{-- =====2 --}}
+    <div class="slide hidden info-slide6  flex flex-col items-center justify-start  ">
+        <img src="/assets/images//K2/livingthings/things/t16.png" />
+        <h2 class="title storke">It has batteries! <br>
+            The battery power enables it to move on its own.</h2>
+        <!-- Video Trigger Button -->
+        <div data-property-1="Default"
+            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
+            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
+            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
+            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+        </div>
+    </div>
+
+
+    {{-- Slide 13 --}}
+    <div class="slide hidden  flex flex-col items-center justify-start  ">
+        <h2 class="title stroke">Let’s do:</h2>
+        <img src="{{ asset('assets/images/K2/livingthings/things/t14.png') }}" />
+        <p class="note text-center">Note: Guide children to discuss each point and check if their prediction is correct;
+            if wrong, correct with a red crayon.</p>
+    </div>
+
+
+    {{-- Slide 14 --}}
+    <div class="slide hidden  flex flex-col items-center justify-start  ">
+        <h2 class="title stroke">Let’s do:</h2>
+        <img src="{{ asset('assets/images/K2/livingthings/things/t17.png') }}" />
+        <p class="note text-center">Note: Guide children to discuss each point and check if their prediction is correct;
+            if wrong, correct with a red crayon.</p>
+    </div>
+
+
+    {{-- Slide 15 --}}
+    <div class="slide hidden  flex flex-col items-center justify-start  ">
+        <h2 class="title stroke">Let’s do:</h2>
+        <img src="{{ asset('assets/images/K2/livingthings/things/t18.png') }}" />
+        <p class="note text-center">Note: Guide children to discuss each point and check if their prediction is correct;
+            if wrong, correct with a red crayon.</p>
+    </div>
+
     {{-- Slide 16 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <ol class="text-start title stroke">
-            <h2>Steps:</h2>
-            <li>5. Use Blockly to programme a robot to move according to
-                the planned route.</li>
-        </ol>
-        <div class="flex items-center gap-10">
-            <img src="/assets/images//K2/livingthings/things/ch8.png"class="w-[500px]" />
-            <img src="/assets/images//K2/livingthings/things/ch8.png"class="w-[500px]" />
-        </div>
-        <p class="note text-center">Note: Have children decide a route and work in groups to work out the programming steps
-            in Blockly.</p>
+        <h2 class="title stroke">What do you learn: <br>
+            Which are living things? Which are non-living things?</h2>
+        <img src="{{ asset('assets/images/K2/livingthings/things/t7.png') }}" />
+        <p class="note text-center">Note: Encourage children to answer based on their conclusions.</p>
     </div>
+
 
 
     {{-- Slide 17 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <ol class="text-start title stroke">
-            <h2>Steps:</h2>
-            <li>6. Add in the sound and light each time the robot finds a coloured shape.</li>
-        </ol>
-        <div class="flex items-center gap-10">
-            <img src="/assets/images//K2/livingthings/things/ch8.png" class="w-[500px]" />
-            <img src="/assets/images//K2/livingthings/things/ch8.png" class="w-[500px]" />
-        </div>
-        <p class="note text-center">Note: Remind children that they need to first record the names of different coloured
-            shapes and then think of where to insert the programming block of each sound and light into their programme
-            (what is the order of steps).</p>
+        <img src="{{ asset('assets/images/K2/livingthings/things/t19.png') }}" />
+        <h2 class="title stroke">People and fish are members of the same group.
+            What is the name of the group?</h2>
     </div>
+
 
 
     {{-- sldie 18 --}}
-    <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
-        <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[836px] h-[536px] bg-cover bg-center flex flex-col justify-center items-center"
-            style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
-            <p>What is the arrangement of colours on your coding mat? Plot them here. How do you plan
-                the route for a robot to hunt for all the shapes? Draw arrows to show the route.</p>
-            <img src="/assets/images/K2/livingthings/things/ch2.png" />
+    <div class="slide hidden  flex flex-col items-center justify-start  ">
+        <img src="{{ asset('assets/images/K2/livingthings/things/t19.png') }}" />
+        <h2 class="title stroke">Yes, these are animals!</h2>
+        <p class="note">Note: Have children name the animals and talk about the basic characteristics of each.</p>
+    </div>
+
+
+
+    {{-- sldie 19 --}}
+    <div class="slide hidden  flex flex-col items-center justify-start  ">
+        <img src="{{ asset('assets/images/K2/livingthings/things/t19.png') }}" />
+        <h2 class="title stroke">Do you think all animals are living things? Why?</h2>
+        <p class="note">Note: Encourage children to share their views boldly.</p>
+    </div>
+
+
+    {{-- sldie 19 --}}
+    <div class="slide hidden  flex flex-col items-center justify-start  ">
+        <img src="{{ asset('assets/images/K2/livingthings/things/t19.png') }}" />
+        <h2 class="title stroke">Do you think all animals are living things? Why?</h2>
+        <p class="note">Note: Encourage children to share their views boldly.</p>
+    </div>
+
+
+    {{-- sldie 20 --}}
+    <div class="slide hidden flex flex-col items-center">
+        <div class="flex items-center  ">
+            <div class="title stroke text-start">
+                <h2>All <span class="text-white">animals</span>....</h2>
+                <ul class="!text-white">
+                    <li class="flex items-center gap-5"> <img
+                            src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" />
+                        <p> Move on their own</p>
+                    </li>
+                    <li class="flex items-center gap-5"> <img
+                            src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" />
+                        <p> Drink</p>
+                    </li>
+                    <li class="flex items-center gap-5"> <img
+                            src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" />
+                        <p>Eat</p>
+                    </li>
+                    <li class="flex items-center gap-5"> <img
+                            src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" />
+                        <p> Breath (need air)</p>
+                    </li>
+                    <li class="flex items-center gap-5"> <img
+                            src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" />
+                        <p> Grow (get bigger)</p>
+                    </li>
+
+                </ul>
+                <h2>So, <span class="text-white">animals</span> are <span class="text-white">living things</span>.</h2>
+            </div>
+            <img src="{{ asset('assets/images/K2/livingthings/things/t20.png') }}" />
         </div>
     </div>
 
-    {{-- sldie 19 --}}
-    <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
-        <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[836px] h-[536px] bg-cover bg-center flex flex-col justify-start items-center"
-            style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
-            <p>How does a robot move according to the planned route? Use coding cards to
-                lay out the steps.</p>
-        </div>
-    </div>
 
     {{-- slide 20  --}}
     <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[836px] h-[536px] bg-cover bg-center flex flex-col justify-center items-center gap-10"
-            style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
-            <p>What is the arrangement of shapes on your coding mat? Plot them here. What is the
-                hunting order based on colours? Record them. How do you plan the route for a robot to
-                hunt for all the shapes? Draw arrows to show the route.</p>
-            <div class="flex items-center gap-5">
-                <div class="justify-start ">What is the hunting order<br />based
-                    on colours?<br /> 1 - <br /> 2 - <br /> 3 - </div>
-                <img src="/assets/images/K2/livingthings/things/ch2.png" class="w-[400px]" />
-            </div>
+        <div class="w-[836px] h-[536px] bg-cover bg-center flex flex-col justify-center items-center gap-10">
+            <img src="/assets/images/K2/livingthings/things/t21.png" class="w-[400px]" />
         </div>
     </div>
 

@@ -32,9 +32,8 @@
 
     <div id="topDiv" class="flex flex-col items-center ">
         <div class="  text-amber-300 text-[65px] font-extrabold stroke">Directional Signs</div>
-        <h2
-            class="text-2xl sm:text-3xl lg:text-6xl text-white stroke">Explore and learn about directional
-signs and directions</h2>
+        <h2 class="text-2xl sm:text-3xl lg:text-6xl text-white stroke">Explore and learn about directional
+            signs and directions</h2>
         <button
             class="cursor-pointer nextButton w-66 h-[75px] relative bg-[#F8A23A]  rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] outline outline-1 outline-yellow-700 overflow-hidden">
             <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
@@ -95,6 +94,11 @@ signs and directions</h2>
             if (nextButton) {
                 nextButton.addEventListener("click", () => {
                     window.location.href = "{{ route('DirectionsSelection') }}";
+                });
+            }
+            if (returnButton) {
+                returnButton.addEventListener("click", () => {
+                    window.location.href = "{{ route('BasicCoding') }}";
                 });
             }
         });

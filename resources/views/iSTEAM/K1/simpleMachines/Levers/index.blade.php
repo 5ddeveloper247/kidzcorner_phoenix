@@ -103,6 +103,11 @@ document.addEventListener("DOMContentLoaded", () => {
             window.location.href = "{{ route('LeversSelection') }}";
         });
     }
+     if (returnButton) {
+                returnButton.addEventListener("click", () => {
+                    window.location.href = "{{ route('K1simpleMachines') }}";
+                });
+            }
 });
 </script>
 @endpush

@@ -2,7 +2,6 @@
 @section('title', 'Dynamic Presentation')
 
 @push('styles')
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
     <style>
         .slide-container {
             transition: opacity 0.3s ease-in-out;

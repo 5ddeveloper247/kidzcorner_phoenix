@@ -1,8 +1,7 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
 
-@push('style')
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+@push('styles')
     <style>
         /* Base Styles */
         button {
@@ -211,11 +210,7 @@
     </style>
 @endpush
 
-
-
 @section('content')
-
-
     {{-- Slide 1 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
         <img src="/assets/images/K2/livingthings/pgrow/p1.png" alt="Plants Introduction" />

@@ -22,258 +22,355 @@
 
     {{-- Slide 1 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <img src="/assets/images/K1/coding/fast/fs1.png" />
-        <h2 class="title stroke">Children, do you remember what a circuit is?
-            What are the names of these circuits?</h2>
-        <p class="note">Note: Encourage children to recall and share what they have learnt (a track/path)</p>
+        <img src="{{ asset('assets/images/K2/livingthings/dna/td16.png') }}" />
+        <div class="title stroke">
+            <h2>Children, do you still remember what does DNA look like?
+                Is it possible to see a strand of DNA with our naked eyes?</h2>
+        </div>
     </div>
 
 
 
     {{-- Slide 2 --}}
-    <div class="slide flex items-center justify-center">
-        <h2 class="title stroke">We are going to learn how to programme a robot <br>
-            to move at different speeds today, <br>
-            so we’ll first find out what speed is!</h2>
+    <div class="slide hidden flex flex-col items-center">
+        <img src="{{ asset('assets/images/K2/livingthings/dna/d22.png') }}" />
+        <h2 class="title stroke">A strand of DNA is a long string
+            but too small to be visible to our eyes.</h2>
     </div>
 
 
     {{-- Slide3 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <img src="/assets/images/K1/coding/fast/fs2.png" />
-        <h2 class="title stroke">Let’s watch a video!</h2>
-        <p class="note">Note: Have children follow through the lesson. At the end, have them recap what speed is.</p>
-        <!-- Video Trigger Button -->
-        <div data-property-1="Default"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
-            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
-        </div>
+    <div class="slide hidden  flex flex-col items-center justify-start  ">
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h2.png') }}" />
+        <h2 class="title stroke text-center">Thanks to the efforts of some scientists,
+            the structure of DNA was discovered in 1953.</h2>
+    </div>
+
+    {{-- slide 4 --}}
+    <div class="slide hidden  flex flex-col items-center justify-start  ">
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h1.png') }}" />
+        <h2 class="title stroke text-center">This is the scientific drawing of DNA in close-up.
+            It has a special shape that is called a double helix.</h2>
     </div>
 
 
-    {{-- Slide 4 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <img src="/assets/images/K1/coding/fast/fs3.png" />
-        <h2 class="title stroke">Speed is a rate that tells us how fast or slow
-            someone or something is moving.</h2>
+    {{-- Slide 5 --}}
+    <div class="slide hidden  flex flex-col items-center justify-start  ">
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h1.png') }}" />
+        <h2 class="title stroke">What does <span class="text-white">DNA</span> look like?</h2>
     </div>
-
-
-    {{-- Slide 5  --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <img src="/assets/images/K1/coding/fast/fs4.png" />
-        <h2 class="title stroke">Let’s watch another video!</h2>
-        <p class="note">Note: Have children follow through the lesson.</p>
-        <!-- Video Trigger Button -->
-        <div data-property-1="Default"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
-            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
-        </div>
-    </div>
-
 
 
     {{-- slide 6 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <img src="/assets/images/K1/coding/fast/fs5.png" />
-        <h2 class="title stroke">When two robots move through the same distance with different <span
-                class="text-white">speeds</span>, the one moving at a high <span class="text-white">speed</span> will reach
-            the ending point faster than the other one moving at a low <span class="text-white">speed</span>.
+    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h1.png') }}" />
+        <h2 class="title stroke">DNA actually looks like a twisted ladder.</h2>
+    </div>
+
+
+
+    {{-- slide 7 --}}
+    <div class="slide hidden  flex flex-col items-center justify-start  ">
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h1.png') }}" />
+        <h2 class="title stroke">Its is made up of two long twisted rails and many rungs.</h2>
+    </div>
+
+
+    {{-- slide 8 --}}
+    <div class="slide hidden  flex flex-col items-center justify-start  ">
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h1.png') }}" />
+        <h2 class="title stroke">The rungs are special. Each one formed by a pair of bases.</h2>
+        <p class="note">Note: Have children guess how many bases are there (count the number of colours that formed
+            rungs).</p>
+    </div>
+
+
+
+    {{-- Slide 9  --}}
+    <div class="slide hidden  flex flex-col items-center justify-start  ">
+        <div class="flex items-center gap-5 relative">
+            <img src="{{ asset('assets/images/K2/livingthings/dna/h3.png') }}" />
+            <div class="flex flex-col gap-3 items-center">
+                <!-- sound Button -->
+                <div data-property-1="Default"
+                    class=" z-30 h-18 w-18 -translate-y-1/2 cursor-pointer flex justify-center items-center rounded-[30px] bg-[#F8A23A]">
+                    {{-- <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px]  w-fit" /> --}}
+                    <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
+                    <img class=" h-10 w-10" src="/assets/images/pptimages/sound-icon.png" />
+                </div>
+                <!-- sound Button -->
+                <div data-property-2="Default"
+                    class=" z-30 h-18 w-18 -translate-y-1/2 cursor-pointer flex justify-center items-center rounded-[30px] bg-[#F8A23A]">
+                    {{-- <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] " /> --}}
+                    <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
+                    <img class=" h-10 w-10" src="/assets/images/pptimages/sound-icon.png" />
+                </div> <!-- sound Button -->
+                <div data-property-1="Default"
+                    class=" z-30 h-18 w-18 -translate-y-1/2 cursor-pointer flex justify-center items-center rounded-[30px] bg-[#F8A23A]">
+                    {{-- <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] " /> --}}
+                    <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
+                    <img class=" h-10 w-10" src="/assets/images/pptimages/sound-icon.png" />
+                </div> <!-- sound Button -->
+                <div data-property-1="Default"
+                    class=" z-30 h-18 w-18 -translate-y-1/2 cursor-pointer flex justify-center items-center rounded-[30px] bg-[#F8A23A]">
+                    {{-- <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] " /> --}}
+                    <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
+                    <img class=" h-10 w-10" src="/assets/images/pptimages/sound-icon.png" />
+                </div>
+            </div>
+        </div>
+        <h2 class="title stroke text-center">The four bases have names, <br>
+            but they prefer to be called by their initials.</h2>
+        <p class="note text-center">Note: Have children name the initials and try to pronounce the names of the four bases.
+        </p>
+    </div>
+
+
+    {{-- Slide 10 --}}
+    <div class="slide hidden  flex flex-col items-center justify-start  ">
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h3.png') }}" />
+        <div class="self-start text-start">
+            <h2 class="title stroke">The bases don't like to be alone, so they always pair up with a
+                friend. A always pair with T and C always pair with G.</h2>
+        </div>
+        <p class="note text-center">Note: Have children check if A always pair with T and C always pair with G.</p>
+    </div>
+
+
+
+    {{-- Slide 11 --}}
+    <div class="slide hidden  flex flex-col items-center justify-start  ">
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h4.png') }}" />
+        <h2 class="title stroke">In short, a DNA double helix is composed of
+            long sequences of the four bases.</h2>
+        <p class="note text-center">Note: Have children talk about the differences between the two DNA.</p>
+    </div>
+
+
+
+    {{-- Slide 12 --}}
+    <div class="slide hidden  flex flex-col items-center justify-start  ">
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h5.png') }}" />
+        <h2 class="title stroke">We look so different from a tomato, thanks to the different
+            orders of the bases in DNA!</h2>
+    </div>
+
+
+    {{-- Slide 13 --}}
+    <div class="slide hidden  flex flex-col items-center justify-center  ">
+        <h2 class="title stroke">Now we’ll learn how to make a model of <span class="text-white">DNA Double Helix</span>!
         </h2>
     </div>
 
 
-
-    {{-- Slide 7 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <img src="/assets/images/K1/coding/fast/fs6.png" />
-        <h2 class="title stroke">Now, let’s see how to programme a robot
-            to move at different speeds!</h2>
-        <!-- Video Trigger Button -->
-        <div data-property-1="Default"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
-            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+    {{-- Slide 14 --}}
+    <div class="slide hidden  flex flex-col items-center justify-start  ">
+        <h2 class="title stroke !text-white">Individual Activity</h2>
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h6.png') }}" />
+        <div class="self-start text-start">
+            <h2 class="title stroke">Let's find out: <br>
+                How to make a model of DNA double helix?</h2>
         </div>
+        <p class="note text-center">Note: Display all the things needed. Have children name each and then
+            give each child a set of things needed.</p>
     </div>
 
 
-
-    {{-- slide 8 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <img src="/assets/images/K1/coding/fast/fs7.png" />
-        <h2 class="title stroke">How do you programme a robot to move 50cm at a higher speed?</h2>
-        <p class="note">Note: Encourage children to share based on the clues (select Drive>place programming block of
-            Forward>select Forward>change to a higher speed>turn on the programme so that the robot moves accordingly).</p>
-    </div>
-
-
-
-    {{-- slide 9 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <img src="/assets/images/K1/coding/fast/fs8.png" class="w-[500px]" />
-        <h2 class="title stroke">How many choices of speed are there in Blockly?</h2>
-    </div>
-
-
-
-    {{-- slide 10 --}}
-    <div class=" slide hidden flex flex-col items-center justify-center gap-1">
-        <img src="/assets/images/K1/coding/fast/fs9.png" />
-        <h2 class="title stroke">Let’s watch another video!</h2>
-        <p class="note">Note: Have children follow through the lesson.</p>
-        <!-- Video Trigger Button -->
-        <div data-property-1="Default"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
-            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+    {{-- Slide 15 --}}
+    <div class="slide hidden  flex flex-col items-center justify-start  ">
+        <div class="self-start text-start">
+            <h2 class="title stroke">Let's do: <br>
+                1. Find out the colour representation of each bead.</h2>
         </div>
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h7.png') }}" />
+        <p class="note text-center">Note: Display the beads with labels. Guide children to understand which
+            coloured bead represent which base.</p>
     </div>
 
 
-    {{-- slide 11 --}}
+    {{-- Slide 16 --}}
+    <div class="slide hidden  flex flex-col items-center justify-start  ">
+        <div class="self-start text-start">
+            <h2 class="title stroke">Let's do: <br>
+                2. Create base pairs by hooking AT or CG beads together in
+                the middle of the twist tie.</h2>
+        </div>
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h8.png') }}" />
+        <p class="note text-center">Note: Tell children how many base pairs is needed (this sample needs 10 pairs in total)
+            and it is up to them to have equal or unequal numbers of AT and CG base pairs.</p>
+    </div>
+
+
+    {{-- Slide 17 --}}
+    <div class="slide hidden  flex flex-col items-center justify-start  ">
+        <div class="self-start text-start">
+            <h2 class="title stroke">Let's do: <br>
+                3. Attach the base pairs to the pipe cleaners by twisting the
+                free ends of twist ties around the pipe cleaners.</h2>
+        </div>
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h9.png') }}" />
+        <p class="note text-center">Note: Advise children to space the base pairs as evenly as possible on the pipe cleaners
+            (around 1cm gap) Tell them that it is up to them to create the order of the base pairs..</p>
+    </div>
+
+
+    {{-- Slide 18 --}}
+    <div class="slide hidden  flex flex-col items-center justify-start  ">
+        <div class="self-start text-start">
+            <h2 class="title stroke">Let's do: <br>
+                4. Display and observe the ladder made.</h2>
+        </div>
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h10.png') }}" />
+        <p class="note text-center">Note: Have children place all ladders made together for observations.</p>
+    </div>
+
+
+    {{-- Slide 19 --}}
+    <div class="slide hidden flex flex-col items-center justify-center">
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h10.png') }}" />
+        <h2 class="title stroke">What do you observe: <br>
+            Do you find many friends have the same base pattern like yours?</h2>
+        <p class="note">Note: Guide children to compare base arrangements of different ladders.</p>
+    </div>
+
+
+    {{-- Slide 20 --}}
     <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <h2 class="text-center justify-start text-[45px] text-white stroke">Hands-on Time 1</h2>
-        <h2 class="text-start title stroke">Mission: <br>
-            Use Blockly to programme a robot to move through the circuit with different speeds.</h2>
-        <p class="note text-center">Note: Divide children into groups. Have them take turns to complete the mission.</p>
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h10.png') }}" />
+        <h2 class="title stroke">What do you observe: <br>
+            How many base patterns have been designed by the class?</h2>
+        <p class="note">Note: Guide children to count and record the number.</p>
     </div>
 
-
-    {{-- slide 12 --}}
+    {{-- Slide 21 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <h2 class="text-center title stroke">Steps:</h2>
-        <ol class="title stroke">
-            <li>1. Use coding cards to lay out the steps needed for a robot
-                to move through this circuit.</li>
-        </ol>
-        <img src="/assets/images//K1/coding/fast/fs10.png" />
-        <p class="note text-center">Note: Guide children individually if needed.</p>
+        <div class="self-start text-start">
+            <h2 class="title stroke">Let's do: <br>
+                5. Twist the ladder to form the shape of DNA double helix.</h2>
+        </div>
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h11.png') }}" />
+        <p class="note text-center">Note: Adjust the shape and tidy up one end of DNA model for each child
+            (refer to teacher resource).</p>
     </div>
 
-    {{-- slide 13 --}}
+
+    {{-- Slide 22 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <h2 class="text-center title stroke">Steps:</h2>
-        <ol class="title stroke">
-            <li>2. Turn on a robot and make sure that Blockly finds the robot.</li>
-        </ol>
-        <img src="/assets/images//K1/coding/fast/fs11.png" />
-        <p class="note text-center">Note: Otherwise remind children to make Blockly and the robot in sync
-            (sync based on the nametag on the robot).</p>
+        <div class="self-start text-start">
+            <h2 class="title stroke">Let's do: <br>
+                6. Attach a strap over the DNA double helix.</h2>
+        </div>
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h12.png') }}" />
+        <p class="note">Note: Tell children that they can use the DNA model as a charm to hang on their
+            belongings.</p>
     </div>
 
-    {{-- slide 14 --}}
+
+    {{-- Slide 24 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <h2 class="text-center title stroke">Steps:</h2>
-        <ol class="title stroke">
-            <li>3. Programme the robot to move through this circuit with different speeds.</li>
-        </ol>
-        <img src="/assets/images//K1/coding/fast/fs10.png" />
-        <p class="note text-center">Note: Guide children individually if needed.</p>
+        <h2 class="title stroke">What do you learn: <br>
+            How many base patterns of DNA double helix have been designed by the class?</h2>
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h13.png') }}" />
+        <p class="note">Note: Have children refer to their record for the answer.</p>
     </div>
 
-    {{-- slide 15 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <h2 class="text-center justify-start text-[45px] text-white stroke">Hands-on Time 1</h2>
-        <h2 class="text-start title stroke">Mission: <br>
-            Design a circuit with measuring strips. Use Blockly to programme
-            a robot to move through the circuit with different speeds.
-            At the end, show and tell about your circuit.</h2>
-        <p class="note">Note: Divide children into groups. Have them take turns to complete the mission.</p>
-    </div>
 
-    {{-- slide 16 --}}
+    {{-- Slide 25 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <h2 class="text-center title stroke">Steps:</h2>
-        <ol class="title stroke">
-            <li>1. Design a circuit with measuring strips.</li>
-        </ol>
-        <img src="/assets/images//K1/coding/fast/fs12.png" />
-        <p class="note text-center">Note: Let children design the circuit using the Learning Journal before laying the
-            actual one on the floor.
-            Guide them to alter their design if it's too complicated or requires more
-            advance programming skills that they have yet learnt.</p>
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h13.png') }}" />
+        <h2 class="title stroke">Through the activity, we know that the shape of different
+            DNA is the same but the order of the bases is different.</h2>
     </div>
 
-
-    {{-- slide 16 --}}
+    {{-- Slide 26 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <h2 class="text-center title stroke">Steps:</h2>
-        <ol class="title stroke">
-            <li>2. Use coding cards to lay out the steps needed for a robot to move through your circuit.</li>
-        </ol>
-        <img src="/assets/images//K1/coding/fast/fs13.png" />
-        <p class="note text-center">Note: Let children use the Learning Journal to lay out the steps.
-            Check on the steps for each group and advice them to change if incorrect.</p>
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h13.png') }}" />
+        <h2 class="title stroke">Due to the different orders of the bases, <br>
+            different DNA have different building instructions!</h2>
     </div>
 
 
-    {{-- slide 17 --}}
+    {{-- Slide 27 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <h2 class="text-center title stroke">Steps:</h2>
-        <ol class="title stroke">
-            <li>3. Turn on a robot and make sure that Blockly finds the robot.</li>
-        </ol>
-        <img src="/assets/images//K1/coding/fast/fs11.png" />
-        <p class="note text-center">Note: Otherwise remind children to make Blockly and the robot in sync
-            (sync based on the nametag on the robot).</p>
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h14.png') }}" />
+        <h2 class="title stroke">That's why every living thing, either an animal or a plant,
+            has its own unique look.</h2>
     </div>
 
-
-
-    {{-- slide 17 --}}
+    {{-- Slide 28 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <h2 class="text-center title stroke">Steps:</h2>
-        <ol class="title stroke">
-            <li>4. Programme the robot to move through your circuit wit different speeds.</li>
-        </ol>
-        <img src="/assets/images//K1/coding/fast/fs13.png" />
-        <p class="note text-center">Note: Check on the program in Blockly for each group and advice them to change if
-            incorrect.</p>
+        <div class="text-start self-start">
+            <h2 class="!text-white title stroke">Let's look at ourselves!</h2>
+            <ul class="list-decimal title stroke">
+                <h2>Have you ever wondered:</h2>
+                <li>Why is my hair straight or curly?</li>
+                <li>Why is my eye colour brown, blue, green, or another colour?</li>
+                <li>Why am I left-handed or right-handed?</li>
+                <li>Why do I have attached or unattached earlobes?</li>
+                <li>Why can I roll my tongue — or why can’t I?</li>
+            </ul>
+        </div>
+        <p class="note">Note: Guide children to compare their physical look (if possible, in front of a big mirror).</p>
     </div>
 
 
-
-
-    {{-- slide 18 --}}
+    {{-- Slide 29 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <h2 class="text-center title stroke">Steps:</h2>
-        <ol class="title stroke">
-            <li>5. Show and tell about your circuit.</li>
-        </ol>
-        <img src="/assets/images//K1/coding/fast/fs13.png" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h15.png') }}" />
+        <h2 class="title stroke">DNA determines our traits like hair type, facial feature,
+            height, body shape and handedness.</h2>
     </div>
 
 
+    {{-- Slide 30 --}}
+    <div class="slide hidden  flex flex-col items-center justify-start  ">
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h16.png') }}" />
+        <h2 class="title stroke">As we get part of our DNA from father and part from
+            mother, so we often hear of the term "family resemblance".</h2>
+        <p class="note">Note: Guide children to understand the meaning of family resemblance (similarities between family
+            members).</p>
+    </div>
 
-    {{-- slide 19 --}}
+    {{-- Slide 31 --}}
+    <div class="slide hidden  flex flex-col items-center justify-start  ">
+        <div class="flex items-center gap-5">
+            <img src="{{ asset('assets/images/K2/livingthings/dna/h17.png') }}" class="w-[500px]" />
+            <img src="{{ asset('assets/images/K2/livingthings/dna/h16.png') }}" class="w-[500px]" />
+        </div>
+        <h2 class="title stroke">As a matter of fact. <br>
+            we share some traits with people around.</h2>
+    </div>
+
+
+    {{-- Slide 32 --}}
+    <div class="slide hidden  flex flex-col items-center justify-start  ">
+        <div class="flex items-center gap-5">
+            <img src="{{ asset('assets/images/K2/livingthings/dna/h17.png') }}" class="w-[500px]" />
+            <img src="{{ asset('assets/images/K2/livingthings/dna/h16.png') }}" class="w-[500px]" />
+        </div>
+        <h2 class="title stroke">However, every one of us has a unique combination of traits
+            that is different from anyone else! Do you know why?</h2>
+    </div>
+
+    {{-- Slide 32 --}}
+    <div class="slide hidden  flex flex-col items-center justify-start  ">
+        <div class="flex items-center gap-5">
+            <img src="{{ asset('assets/images/K2/livingthings/dna/h17.png') }}" class="w-[500px]" />
+            <img src="{{ asset('assets/images/K2/livingthings/dna/h16.png') }}" class="w-[500px]" />
+        </div>
+        <h2 class="title stroke">We are all unique <br>
+            because the bases in our DNA are arranged differently!</h2>
+    </div>
+
+    {{-- sldie 33 --}}
     <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[836px] h-[536px] bg-cover bg-center flex flex-col justify-between items-start"
+        <div class="w-[836px] h-fit bg-cover bg-center p-[20px] flex flex-col justify-center items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
-            <p>Design a circuit. Use measuring strips to form it.</p>
+            <img src="{{ asset('assets/images/K2/livingthings/dna/h18.png') }}" />
+
         </div>
     </div>
-
-
-    
-    {{-- slide 20 --}}
-    <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
-        <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[836px] h-[536px] bg-cover bg-center flex flex-col justify-between items-start"
-            style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
-            <p>How does a robot move through the circuit? Use coding cards to lay out the steps.</p>
-        </div>
-    </div>
-
-
-
 
 
     {{-- ====================================== --}}
@@ -354,17 +451,26 @@
             const slides = document.querySelectorAll(".slide");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
-            const doneButton = document.querySelector(".doneButton"); // ✅ DONE button
+            const doneButton = document.querySelector(".doneButton");
+
+            // Get all info/click buttons (info-btn1, info-btn2, click-btn1, click-btn2, etc.)
+            const infoButtons = document.querySelectorAll("[class*='info-btn'], [class*='click-btn']");
 
             let currentSlide = 0;
+            let parentSlideIndex = null;
+            let isViewingInfoSlides = false;
+            let currentInfoClass = null; // Track which info/click class we're viewing
 
             function showSlide(index) {
                 slides.forEach((slide, i) => {
                     slide.classList.toggle("hidden", i !== index);
                 });
 
-                // ✅ Agar last slide hai → NEXT button hide, DONE show
-                if (index === slides.length - 1) {
+                // Check if last slide OR last info/click slide
+                const isLastSlide = index === slides.length - 1;
+                const isLastInfoSlide = isViewingInfoSlides && !hasNextInfoSlide(index);
+
+                if (isLastSlide || isLastInfoSlide) {
                     nextButtons.forEach(btn => btn.classList.add("hidden"));
                     if (doneButton) doneButton.classList.remove("hidden");
                 } else {
@@ -373,31 +479,147 @@
                 }
             }
 
-            // ✅ NEXT buttons listener
-            nextButtons.forEach((btn) => {
-                btn.addEventListener("click", () => {
-                    if (currentSlide < slides.length - 1) {
-                        currentSlide++;
-                        showSlide(currentSlide);
+            // Check if there's another info/click slide with same class after current one
+            function hasNextInfoSlide(currentIndex) {
+                if (!currentInfoClass) return false;
+
+                for (let i = currentIndex + 1; i < slides.length; i++) {
+                    if (slides[i].classList.contains(currentInfoClass)) {
+                        return true;
+                    }
+                }
+                return false;
+            }
+
+            // Get info/click class from button (info-btn1 → , click-btn1 → click1)
+            function getInfoClassFromButton(button) {
+                const classList = Array.from(button.classList);
+
+                // Check for info-btn pattern
+                const infoBtnClass = classList.find(cls => cls.startsWith('info-btn'));
+                if (infoBtnClass) {
+                    const number = infoBtnClass.replace('info-btn', '');
+                    return 'info-slide' + number;
+                }
+
+                // Check for click-btn pattern
+                const clickBtnClass = classList.find(cls => cls.startsWith('click-btn'));
+                if (clickBtnClass) {
+                    const number = clickBtnClass.replace('click-btn', '');
+                    return 'click' + number;
+                }
+
+                return null;
+            }
+
+            // Info/Click button handlers
+            infoButtons.forEach((btn) => {
+                btn.addEventListener("click", (e) => {
+                    e.preventDefault(); // Prevent default anchor behavior
+
+                    parentSlideIndex = currentSlide;
+                    isViewingInfoSlides = true;
+                    currentInfoClass = getInfoClassFromButton(btn);
+
+                    // Find the first slide with matching info/click class
+                    for (let i = 0; i < slides.length; i++) {
+                        if (slides[i].classList.contains(currentInfoClass)) {
+                            currentSlide = i;
+                            showSlide(currentSlide);
+                            break;
+                        }
                     }
                 });
             });
 
-            // ✅ Return button
+            // NEXT button - skip info/click slides if not viewing them
+            nextButtons.forEach((btn) => {
+                btn.addEventListener("click", () => {
+                    if (currentSlide < slides.length - 1) {
+                        currentSlide++;
+
+                        // Skip info/click slides if not viewing them
+                        while (!isViewingInfoSlides &&
+                            currentSlide < slides.length &&
+                            isInfoSlide(slides[currentSlide])) {
+                            currentSlide++;
+                        }
+
+                        // If viewing info/click slides, only show slides with current class
+                        if (isViewingInfoSlides) {
+                            while (currentSlide < slides.length &&
+                                !slides[currentSlide].classList.contains(currentInfoClass)) {
+                                currentSlide++;
+                            }
+                        }
+
+                        if (currentSlide < slides.length) {
+                            showSlide(currentSlide);
+                        }
+                    }
+                });
+            });
+
+            // Check if slide is any info/click slide (info-slide1, info-slide2, click1, click2, etc.)
+            function isInfoSlide(slide) {
+                return Array.from(slide.classList).some(cls =>
+                    (cls.startsWith('info-slide') && cls.match(/^info-slide\d+$/)) ||
+                    (cls.startsWith('click') && cls.match(/^click\d+$/))
+                );
+            }
+
+            // Return button
             returnButton.addEventListener("click", () => {
-                if (currentSlide > 0) {
+                if (isViewingInfoSlides && currentSlide > 0) {
+                    // Check if previous slide is also same info/click class
+                    let prevSlide = currentSlide - 1;
+
+                    // Find previous slide with same info/click class
+                    while (prevSlide >= 0 && !slides[prevSlide].classList.contains(currentInfoClass)) {
+                        prevSlide--;
+                    }
+
+                    if (prevSlide >= 0 && slides[prevSlide].classList.contains(currentInfoClass)) {
+                        currentSlide = prevSlide;
+                        showSlide(currentSlide);
+                    } else {
+                        // No more info/click slides, return to parent
+                        currentSlide = parentSlideIndex;
+                        isViewingInfoSlides = false;
+                        currentInfoClass = null;
+                        parentSlideIndex = null;
+                        showSlide(currentSlide);
+                    }
+                } else if (currentSlide > 0) {
                     currentSlide--;
+
+                    // Skip info/click slides when going back
+                    while (currentSlide > 0 && isInfoSlide(slides[currentSlide])) {
+                        currentSlide--;
+                    }
+
                     showSlide(currentSlide);
                 }
             });
 
+            // DONE button handler
             if (doneButton) {
                 doneButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('fastSelection') }}";
+                    if (isViewingInfoSlides && parentSlideIndex !== null) {
+                        // Return to parent slide
+                        currentSlide = parentSlideIndex;
+                        isViewingInfoSlides = false;
+                        currentInfoClass = null;
+                        parentSlideIndex = null;
+                        showSlide(currentSlide);
+                    } else {
+                        // Navigate to route
+                        window.location.href = "{{ route('helixSelection') }}";
+                    }
                 });
             }
 
-            // ✅ Start with first slide
+            // Start with first slide
             showSlide(currentSlide);
         });
     </script>

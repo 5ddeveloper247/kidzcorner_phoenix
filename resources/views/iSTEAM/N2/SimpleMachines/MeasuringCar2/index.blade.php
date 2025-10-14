@@ -97,6 +97,11 @@ inclined planes - a sample machine. </h2>
                     window.location.href = "{{ route('MeasuringCar2Selection') }}";
                 });
             }
+              if (returnButton) {
+                returnButton.addEventListener("click", () => {
+                    window.location.href = "{{ route('SimpleMachines') }}";
+                });
+            }
         });
     </script>
 @endpush

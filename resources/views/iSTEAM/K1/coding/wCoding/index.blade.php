@@ -3,27 +3,6 @@
 
 @push('style')
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-    <style>
-        button {
-            cursor: pointer;
-        }
-
-        .stroke {
-
-            -webkit-text-stroke: 2px #533705;
-        }
-
-        .note {
-            font-size: 24px;
-            font-weight: 400;
-            color: white;
-        }
-
-        a {
-            cursor: pointer;
-
-        }
-    </style>
 @endpush
 
 
@@ -33,7 +12,7 @@
     <div id="topDiv" class="flex flex-col  h-[90%] items-center ">
         <div class="  text-amber-300 text-[65px] font-extrabold stroke">What is Coding?</div>
         <h2 class="text-2xl sm:text-3xl lg:text-6xl text-white stroke ">Explore and learn about basic coding;
-learn how to handle a robot and a tablet with care</h2>
+            learn how to handle a robot and a tablet with care</h2>
 
         <button
             class="cursor-pointer nextButton w-66 h-[120px] relative bg-[#F8A23A]  rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
@@ -96,6 +75,11 @@ learn how to handle a robot and a tablet with care</h2>
             if (nextButton) {
                 nextButton.addEventListener("click", () => {
                     window.location.href = "{{ route('wCodingSelection') }}";
+                });
+            }
+            if (returnButton) {
+                returnButton.addEventListener("click", () => {
+                    window.location.href = "{{ route('coding') }}";
                 });
             }
         });

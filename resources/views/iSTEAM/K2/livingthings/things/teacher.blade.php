@@ -361,7 +361,7 @@
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('coding') }}";
+                    window.location.href = "{{ route('K2livinthings') }}";
                 });
             }
 

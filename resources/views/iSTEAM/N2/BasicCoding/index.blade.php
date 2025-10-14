@@ -129,8 +129,7 @@
     <div id="buttons" class="absolute top-[30px] right-[60px] flex flex-row gap-6 z-90">
 
         <!-- Return Button (hidden initially) -->
-        <a
-            class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
+        <a class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
             id="returnButton">
             <img class="absolute top-[6px] left-[8px] w-20 h-10"
                 src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
@@ -219,7 +218,7 @@
                     showSlide(currentSlide);
                 } else {
                     // If on slide 1 (currentSlide === 0), redirect to K1
-                    window.location.href = "{{ route('K1') }}";
+                    window.location.href = "{{ route('N2') }}";
                 }
             });
 

@@ -44,9 +44,6 @@
     </div>
 
 
-
-
-
     <div id="buttons" class="absolute top-[24px] right-[60px] flex flex-row gap-6 z-40">
 
         <!-- Return Button -->
@@ -94,6 +91,11 @@
             if (nextButton) {
                 nextButton.addEventListener("click", () => {
                     window.location.href = "{{ route('Robot2Selection') }}";
+                });
+            }
+            if (returnButton) {
+                returnButton.addEventListener("click", () => {
+                    window.location.href = "{{ route('BasicCoding') }}";
                 });
             }
         });
