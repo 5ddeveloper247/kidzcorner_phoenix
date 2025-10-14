@@ -38,17 +38,14 @@
             <div>
                 <h2 class="text-[33px] font-bold">Keywords:</h2>
                 <ul class="list-disc ">
-                    <li>Sun</li>
-                    <li>Bright / Brightly</li>
-                    <li>Light</li>
-                    <li>Stars</li>
-                    <li>Fire</li>
-                    <li>Natural</li>
-                    <li>Natural Lights</li>
-                    <li>Man-made Lights</li>
+                    <li>Simple Machine</li>
+                    <li>Screw</li>
+                    <li>Thread</li>
+                    <li>Archimedes'screw</li>
                 </ul>
             </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" />
+            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute bottom-[150px] right-[250px]"
+                alt="Teacher" />
         </div>
     </div>
 
@@ -57,40 +54,47 @@
     {{-- slide 24 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start w-[75%]">
         <div>
-            <h2 class="font-bold">Preparations for Class Activity I:</h2>
+            <h2 class="font-bold">Preparations</h2>
             <ul class="list-disc ">
-                <li>iPad (make sure children handle with care)</li>
-                <li>Torch lights or any other battery-operated lights</li>
-                <li>Table lamp or night light (teacher can plug them into the socket and demonstrate how these light up, do
-                    not let children handle these)</li>
+                <li>1 large, plastic and transparent container</li>
+                <li>1 small, plastic and transparent container</li>
+                <li>1 cardboard tube covered with coloured paper</li>
+                <li> Further cover it with transparent cling wrap</li>
+                <li>Clear plastic tubing</li>
+                <li>Food colouring</li>
+                <li>Clear tape</li>
+                <li> Water</li>
             </ul>
+            <img src="{{ asset('assets/images/pptimages/a1.png') }}" alt="Teacher" />
         </div>
-
-        <div class="flex w-[100%] items-center justify-between">
-            <div>
-                <h2 class="font-bold">Links to Songs:</h2>
-                <ul class="list-disc ">
-                    <li>
-                        <strong>Mr Golden Sun</strong>
-                        <ul class="list-disc space-y-1 pl-6">
-                            <li>Sun: <a href="https://youtu.be/pIrC_OhEHJM" target="_blank"
-                                    class="text-blue-600 underline">Watch here</a></li>
-                            <li>Mr Golden Sun: <a href="https://youtu.be/hlzvrEfyL2Y" target="_blank"
-                                    class="text-blue-600 underline">Watch here</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <strong>Twinkle Twinkle Little Star</strong>
-                        <a href="https://www.youtube.com/watch?v=NiRf84t4i5I" target="_blank"
-                            class="text-blue-600 underline">Watch here</a>
-                    </li>
-                </ul>
-            </div>
-
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" />
-
-        </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute bottom-[150px] right-[250px]"
+            alt="Teacher" />
     </div>
+
+
+    {{-- Slide 25 --}}
+    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start ">
+        <div>
+            <p class="note ">How to make an Archimedes’ screw and things to consider:<br>
+                1.Wrap the plastic tubing around the tube and secure with tape.</p>
+            <img src="{{ asset('assets/images/pptimages/a2.png') }}" alt="Teacher" />
+        </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute bottom-[150px] right-[250px]"
+            alt="Teacher" />
+    </div>
+
+
+    {{-- Slide 25 --}}
+    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-5 text-start w-[75%]">
+        <p class="note ">How to make an Archimedes’ screw and things to consider:<br>
+            2. Put some water in a large container and add food colouring</p><br>
+        <img src="{{ asset('assets/images/pptimages/a3.png') }}" alt="Teacher" />
+
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute bottom-[150px] right-[250px]"
+            alt="Teacher" />
+    </div>
+
+
 
     {{-- slide 25 --}}
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
@@ -143,7 +147,8 @@
                     </li>
                 </ul>
             </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" />
+            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute bottom-[150px] right-[250px]"
+                alt="Teacher" />
 
         </div>
 
@@ -152,7 +157,7 @@
 
     {{--  slide 26 --}}
     <div class=" slide text-white flex flex-col justify-start text-start text-2xl">
-        <h1 class="stroke font-bold">Let’s sort!</h1>
+        <h1 class=" font-bold">Let’s sort!</h1>
         <div>
             <h2 class="font-bold">Preparations for Class Activity I:</h2>
             <p>Place pictures of various items such as pot of plant, bottle, shoe, sock, box, elephant, lamp, light
@@ -173,13 +178,15 @@
                     </li>
                 </ul>
             </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" />
+            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute bottom-[150px] right-[250px]"
+                alt="Teacher" />
 
         </div>
     </div>
 
     <div class="absolute bottom-0">
-        <button class="cursor-pointer doneButton w-66 h-[75px] relative bg-[#F8A23A] rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
+        <button
+            class="cursor-pointer doneButton w-66 h-[75px] relative bg-[#F8A23A] rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
                     outline outline-1 outline-yellow-700 overflow-hidden">
             <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
             <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" />
@@ -200,7 +207,8 @@
         <!-- Return Button -->
         <a class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
             id="returnButton">
-            <img class="absolute top-[6px] left-[8px] w-20 h-10" src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
+            <img class="absolute top-[6px] left-[8px] w-20 h-10"
+                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
             <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
             <img class="absolute top-[24px] left-[22px] w-14 h-14"
                 src="{{ asset('assets/images/pptimages/reverse-icon.png') }}" />
