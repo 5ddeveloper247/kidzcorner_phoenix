@@ -335,7 +335,7 @@
                 src="{{ asset('assets/images/pptimages/Vector2.png') }}" style="pointer-events: none" />
             <img id="vector1" class="absolute right-0 bottom-0 w-[150px] sm:w-[200px] md:w-[300px] lg:w-auto z-30"
                 style="display: none" src="{{ asset('assets/images/pptimages/Vector3.png') }}" />
-            <img id="vector2" class="absolute right-0 bottom-0 w-[150px] sm:w-[200px] md:w-[300px] lg:w-auto z-30"
+            <img class="absolute right-0 bottom-0 w-[150px] sm:w-[200px] md:w-[300px] lg:w-auto z-30"
                 style="display: none" src="{{ asset('assets/images/pptimages/Vector5.png') }}" />
         </div>
     </section>

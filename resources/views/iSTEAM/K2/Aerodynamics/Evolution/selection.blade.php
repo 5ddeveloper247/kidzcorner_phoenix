@@ -73,9 +73,9 @@
 @section('content')
 
 
-    <div class=" flex items-center flex-col justify-center text-center z-[999]  max-w-[1000px]  m-auto">
-        <h2 class="text-[50px] text-[#F7B94A]"> What is Light?</h2>
-        <div class="flex items-center justify-between">
+    <div class=" flex items-center flex-col justify-center relative text-center z-[999] h-full  max-w-[1000px]  m-auto">
+        <h2 class="text-[50px] text-[#F7B94A] absolute top-[-25px] stroke">Evolution of Aeroplanes</h2>
+        <div class="flex items-center justify-between gap-[20rem]">
 
             {{-- Lesson Button --}}
             <a href="{{ route('EvolutionLesson') }}" id="Lesson" class="flex flex-col gap-0">
