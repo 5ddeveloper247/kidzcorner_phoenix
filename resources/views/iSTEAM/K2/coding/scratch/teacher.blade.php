@@ -23,11 +23,12 @@
         <div>
             <h2 class="  font-bold">Children will be able to:</h2>
             <ul class="list-disc ">
-                <li>Learn how to make their own set of fingerprints for analysis</li>
-                <li>Know that fingerprints are ridges on the tips of our thumbs and fingers</li>
-                <li>Know that no two fingerprints are exactly alike</li>
-                <li>Know that individual fingerprints are unique and no two people have the same fingerprints</li>
+                <li>Know that ScratchJr is an application that allows us to create our <br> own interactive stories and
+                    games</li>
+                <li>Learn how to use ScratchJr to create a story by selecting a <br>background and two characters</li>
                 <li>Develop understanding through inquiry</li>
+                <li>Develop problem-solving skills</li>
+                <li>Learn to share and take turns</li>
             </ul>
         </div>
 
@@ -35,10 +36,10 @@
             <h2 class="text-[33px] font-bold">Keywords:</h2>
             <div class="flex gap-20">
                 <ul class="list-disc ">
-                    <li>Fingerprint</li>
-                    <li>Ridge</li>
-                    <li>Thumb</li>
-                    <li>Finger</li>
+                    <li>ScratchJr (Application)</li>
+                    <li>Story</li>
+                    <li>Background</li>
+                    <li>Character</li>
                 </ul>
 
             </div>
@@ -50,168 +51,79 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
-        <div>
+    <div class=" slide flex text-2xl text-white flex-col justify-start  items-center gap-y-10  text-start">
+        <ul class="list-disc  ">
             <h2 class="font-bold">Preparations:</h2>
-            <ul class="list-disc ">
-                <li>
-                    Pencils (for a better outcome, 8B pencil is recommended)
-                </li>
-                <li>Plain papers</li>
-                <li>
-                    Adhesive clear tapes (for a better outcome, 3M Scotch Tape is recommended)
-                </li>
-                <li>Scissors</li>
-                <li>
-                    Wet towels (can be replaced with wet rags)
-                </li>
-                <li>
-                    A few magnifying glasses (optional)
-                </li>
-            </ul>
-        </div>
+            <li>
+                The tablets (download ScratchJr application from App Store or Google Play for each tablet; charge all the
+                tablets before you start each lesson)
+            </li>
+        </ul>
+        <img class="w-[780px]" src="/assets/images/K2/coding/s6.png" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
     </div>
 
 
     {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-center gap-y-10 text-start">
-        <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
-            <ul class="list-disc">
-                <li>This is a small group activity. Organise children into groups of 3 and have them take turns to play role
-                    A, B & C. Before the activity, have them clean and dry their hands first to remove dirt that may obscure
-                    the fingerprints.</li>
-            </ul>
+    <div class=" slide flex text-2xl text-white flex-col justify-start  items-center gap-y-8.5 text-start">
+        <ul class="list-disc  ">
+            <h2 class="font-bold">What you need to know or explore before the lesson:</h2>
+            <li>
+                Go through the Interface Guide in the application of ScratchJr to understand the
+                basic features of ScratchJr.
+            </li>
+        </ul>
+
+        <div class="flex gap-3  items-center justify-center">
+
+            <img class="w-[700px]" src="/assets/images/K2/coding/s35.png" />
+
+            <div>
+                <ul class="text-1xl !text-white text-start">
+                    <li>While going through the guide </li>
+                    <li>in the app, you may tap on </li>
+                    <li>each number to understand the </li>
+                    <li>use of each part.</li> <br>
+                    <li>You may <span class="title stroke !text-3xl">print out the
+                            guide </span> if you need it.</li>
+
+                </ul>
+            </div>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f13.png') }}" class="w-[600px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
     </div>
 
 
     {{-- slide 4 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col  justify-start gap-y-10 text-start gap-[5rem]">
+
         <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
-            <ul class="list-decimal">
-                <li>(A) Use a pencil to make a patch of dark mark on a paper. [ Have all the A do the step. Advise A to
-                    darken the patch by shading the patch again and again. ]</li>
+            <ul class="list-disc !text-white">
+
+                <h2>Reminders or advice during hands-on session:</h2>
+                <li>Always hold a tablet with both your hands (to show your care and prevent the
+                    tools from spoiling easily).</li>
+                <li>Be patient and take turns when using the tablets.</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f3.png') }}" class="w-[600px]" />
+
+        <div>
+            <ul class="!text-start list-disc">
+                <h2>Possible questions during hands-on sessions:</h2>
+                <li>What is the name of this application?</li>
+                <li>How do you add or change a background on your working stage?</li>
+                <li>How do you add or delete a character on your working stage?</li>
+            </ul>
+        </div>
+
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
     </div>
 
 
     {{-- slide 5 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
-        <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
-            <ul>
-                <li>2. (B) Rub a fingertip over the pencil mark to stain it. [Have all the B do the step.]</li>
-            </ul>
-        </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f4.png') }}" class="w-[600px]" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
-    </div>
-
-
-    {{-- sldie 6 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
-        <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
-            <ul>
-                <li>3. (C) Cut and stick a piece of clear tape on the stained fingertip (of B). [Have all the C do the step.
-                    Advise C to hold only an edge of the tape and stick the tape flat on the fingertip of B. ]</li>
-            </ul>
-        </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f5.png') }}" class="w-[600px]" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
-    </div>
-
-
-    {{-- sldie 7 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
-        <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
-            <ul>
-                <li>4. (C) Carefully remove the tape from the fingertip (of B) and paste it on the learning journal (of B).
-                    [Have all the C do the step. Remind C to paste the tape in the correct place of B's fingerprint record.]
-                </li>
-            </ul>
-        </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f6.png') }}" class="w-[600px]" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
-    </div>
-
-    {{-- sldie 8 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
-        <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
-            <ul>
-                <li>5. (A) Use a wet towel to clean the fingertip (of B). [ Have all the A do the step. Explain to children
-                    that this is to avoid possible messiness when taking prints of other fingers. ]</li>
-            </ul>
-        </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f7.png') }}" class="w-[600px]" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
-    </div>
-
-
-
-    {{-- slide 9 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
-        <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
-            <ul>
-                <li>6. (A, B & C) Repeat the steps for other fingers. [Have all the A, B & C repeat steps 1-5 to complete
-                    the fingerprint record of B. After that, have them change their roles to help one another complete the
-                    fingerprint record. ]</li>
-            </ul>
-        </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f8.png') }}" class="w-[700px]" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
-    </div>
-
-    {{-- slide 10 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
-        <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
-            <ul>
-                <li>7. Observe your fingerprints. [ Have children observe and compare their own set of fingerprints on the
-                    record. Then have them share their views. ]</li>
-            </ul>
-        </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f2.png') }}" class="w-[600px]" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
-    </div>
-
-    {{-- slide 11 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
-        <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
-            <ul>
-                <li>8. Compare your fingerprints with friends. [ Have children observe and compare their fingerprints with
-                    friends. Then have them share their views. ]</li>
-            </ul>
-        </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f9.png') }}" class="w-[700px]" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
-    </div>
-
-
-
-    {{-- sldie 12 --}}
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
@@ -228,11 +140,14 @@
                             <img src="{{ asset('assets/images/pptimages/play.png') }}"
                                 class="absolute top-[16px] left-[16px] h-8 w-8" />
                         </span>
-                        next to a picture, class="text-amber-400" click on the picture to watch the video.
+                       a picture, click on the picture to watch the video
                     </li>
-                    <li>Emphasise and use the <strong>keywords</strong> during hands-on sessions.</li>
-                    <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
+                    <li>Always ask questions to encourage children to think and share their ideas first 
+     before giving out any information.</li>
+                    <li>Emphasise and use the keywords during hands-on sessions.
                     </li>
+                    <li>Print out the Learning Journal (if any) for every  <br>
+     child to complete at the end of the lesson.</li>
                     <li>
                         Click on this <span class="font-bold">shortcut icon</span>
                         <span
@@ -253,53 +168,9 @@
     </div>
 
 
-    {{-- slide 13 --}}
-    <div class="text-white flex flex-col items-center justify-center gap-y-10 text-start text-2xl slide hidden">
-        <h2 class=" title stroke">Learning Centre Idea</h2>
-        <div class="flex flex-col gap-10">
-            <ul>
-                <h2 class="!text-white title stroke">Fingerprints Art</h2>
-                <h2>What and how to set up:</h2>
-                <li>Put some paints, sponges, coloured pencils and drawing papers here.</li>
-            </ul>
-
-            <div>
-                <h2>What to do:</h2>
-                <ul class="list-decimal">
-                    <li>Turn your fingerprints into art! Put your fingerprints on the
-                        drawing paper.</li>
-                    <li>Use your imagination to turn it into a creative drawing by adding
-                        details with coloured pencils.</li>
-                    <li>Show it to your teacher and friends!</li>
-                </ul>
-
-            </div>
-        </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute right-[250px] bottom-[150px]" />
-    </div>
 
 
-    {{-- slide 14 --}}
-    <div class="text-white flex flex-col items-center justify-center gap-y-10 text-start text-2xl slide hidden">
-        <h2 class=" title stroke">Learning Centre Idea</h2>
-        <div>
-            <ul class="list-disc">
-                <h2 class="!text-white title stroke">Fun Facts</h2>
-                <h2>What and how to set up:</h2>
-                <p>Use your creativity to design graphic fact sheet for every fun fact
-                    below. Guide children to understand the facts.</p>
-                <li>Fingerprints actually help you to grasp an object. Without them,
-                    your fingers will be slippery and you will not be able to write or
-                    paint properly.</li>
-                <li>Adermatoglyphia is a genetic disease where people are born
-                    without fingerprints.</li>
-            </ul>
-        </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute right-[250px] bottom-[150px]" />
-    </div>
 
-
-  
     {{-- ========================================================== --}}
     {{-- Buttons --}}
     <div class="absolute bottom-0">
