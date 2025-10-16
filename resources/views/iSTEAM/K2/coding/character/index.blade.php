@@ -3,12 +3,12 @@
 
 @section('content')
 
-    <div id="topDiv" class="flex flex-col  gap-20 items-center ">
-        <div class="  text-amber-300 text-[65px] font-extrabold stroke">character</div>
-        <h2 class="text-2xl sm:text-3xl lg:text-6xl text-white stroke ">
-            Explore fingerprints; <br>
-            learn to make own set of fingerprints <br>
-            for analysis</h2>
+    <div id="topDiv" class="flex flex-col  gap-20 items-center gap-[8rem] ">
+        <div class="  text-amber-300 text-[65px] font-extrabold stroke">Animate the Character</div>
+        <h2 class="text-2xl sm:text-3xl lg:text-4xl text-white stroke ">
+          Learn how to programme a character to move at different <br>
+speeds; create programmes to animate characters <br>
+based on the samples provided</h2>
 
         <button
             class="nextButton w-66 h-[90px] relative bg-[#F8A23A]  rounded-[30px] outline outline-1 outline-yellow-700 overflow-hidden">

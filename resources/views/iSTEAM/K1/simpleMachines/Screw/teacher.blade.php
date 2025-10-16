@@ -75,8 +75,11 @@
     {{-- Slide 25 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start ">
         <div>
-            <p class="note ">How to make an Archimedes’ screw and things to consider:<br>
-                1.Wrap the plastic tubing around the tube and secure with tape.</p>
+            <ul>
+                <h2>How to make an Archimedes’ screw and things to consider:</h2>
+                <li>1.Wrap the plastic tubing around the tube and secure with tape.</li>
+            </ul>
+
             <img src="{{ asset('assets/images/pptimages/a2.png') }}" alt="Teacher" />
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute bottom-[150px] right-[250px]"
@@ -86,8 +89,11 @@
 
     {{-- Slide 25 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-5 text-start w-[75%]">
-        <p class="note ">How to make an Archimedes’ screw and things to consider:<br>
-            2. Put some water in a large container and add food colouring</p><br>
+
+        <ul>
+            <h2>How to make an Archimedes’ screw and things to consider:</h2>
+            <li> 2. Put some water in a large container and add food colouring</li>
+        </ul>
         <img src="{{ asset('assets/images/pptimages/a3.png') }}" alt="Teacher" />
 
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute bottom-[150px] right-[250px]"
@@ -162,6 +168,7 @@
             <h2 class="font-bold">Preparations for Class Activity I:</h2>
             <p>Place pictures of various items such as pot of plant, bottle, shoe, sock, box, elephant, lamp, light
                 bulb,
+                
                 sun, stars, lightning, firefly, ceiling light, handphone, TV.</p>
         </div>
 

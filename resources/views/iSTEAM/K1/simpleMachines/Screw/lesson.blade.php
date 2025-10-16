@@ -265,7 +265,7 @@
     {{-- Slide 23 --}}
     <div class="slide hidden flex flex-col items-center justify-center gap-y-4">
         <h2 class="title stroke !text-white">Learning Journal</h2>
-        <div class="w-[950px] h-[550px] bg-cover bg-center flex flex-col p-[40px] justify-around"
+        <div class="w-[950px] h-[550px] bg-cover bg-center flex flex-col p-[40px] justify-flex-start"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>Draw the Rube Goldberg Machine that you have created to punch holes in a sheet of paper.</p>
         </div>
