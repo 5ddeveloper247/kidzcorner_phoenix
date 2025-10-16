@@ -5,10 +5,8 @@
 
     <div id="topDiv" class="flex flex-col  gap-20 items-center ">
         <div class="  text-amber-300 text-[65px] font-extrabold stroke">Hydrodynamics</div>
-        <h2 class="text-2xl sm:text-3xl lg:text-6xl text-white stroke ">
-            Explore fingerprints; <br>
-            learn to make own set of fingerprints <br>
-            for analysis</h2>
+        <h2 class="text-2xl sm:text-3xl lg:text-5xl text-white">
+           Understand hydrodynamics and how objects move in water</h2>
 
         <button
             class="nextButton w-66 h-[90px] relative bg-[#F8A23A]  rounded-[30px] outline outline-1 outline-yellow-700 overflow-hidden">

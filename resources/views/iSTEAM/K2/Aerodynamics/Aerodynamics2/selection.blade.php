@@ -74,8 +74,8 @@
 
 
     <div class=" flex items-center flex-col justify-center text-center z-[999]  max-w-[1000px]  m-auto">
-        <h2 class="text-[50px] text-[#F7B94A]"> What is Light?</h2>
-        <div class="flex items-center justify-between">
+        <h2 class="text-[50px] text-[#F7B94A] absolute top-[140px] stroke">What is Aerodynamics? 2</h2>
+        <div class="flex items-center justify-between gap-x-[10rem]">
 
             {{-- Lesson Button --}}
             <a href="{{ route('Aerodynamics2Lesson') }}" id="Lesson" class="flex flex-col gap-0">

@@ -22,274 +22,475 @@
 
     {{-- Slide 1 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <div class="flex items-center gap-5">
-            <img src="{{ asset('assets/images/K2/livingthings/dna/h17.png') }}" class="w-[500px]" />
-            <img src="{{ asset('assets/images/K2/livingthings/dna/h16.png') }}" class="w-[500px]" />
-        </div>
+        <img src="{{ asset('assets/images/K2/aero/hydro/h1.png') }}" />
         <div class="title stroke">
-            <h2>Children, do you still remember what determines our traits?
-                What makes each one of us unique?</h2>
+            <h2>Do you remember what helps an aeroplane fly?</h2>
         </div>
+        <p class="note">Note: Guide children to recall and share their answers.</p>
     </div>
 
 
 
     {{-- Slide 2 --}}
     <div class="slide hidden flex flex-col items-center">
-        <div class="flex items-end gap-2 justify-center">
-            <img src="{{ asset('assets/images/K2/livingthings/dna/h1.png') }}" />
-            <img src="{{ asset('assets/images/K2/livingthings/dna/h17.png') }}" class="w-[500px]" />
-            <img src="{{ asset('assets/images/K2/livingthings/dna/h1.png') }}" />
-        </div>
-        <h2 class="title stroke">DNA determines our traits. We are all unique
-            because the bases in our DNA are arranged differently!</h2>
+        <img src="{{ asset('assets/images/K2/aero/hydro/h4.png') }}" />
+        <h2 class="title stroke">Aeroplanes can fly because of aerodynamics.
+            Can you name the four aerodynamic forces?</h2>
+        <p class="note">Note: Guide the children to name the forces.</p>
     </div>
 
 
     {{-- Slide 3 --}}
-    <div class="slide hidden  flex flex-col items-center justify-between h-[50%] ">
-        <h2 class="title stroke text-center">Find a friend and compare your physical look!
-            What are the common traits you have?</h2>
-        <p class="note">Note: Encourage children to find at least two shared traits and show the rest.</p>
+    <div class="slide hidden  flex flex-col items-center">
+        <img src="{{ asset('assets/images/K2/aero/hydro/h4.png') }}" />
+        <h2 class="title stroke text-center">These four <span class="text-white">aerodynamic</span> forces affect the way
+            an aeroplane moves.</h2>
     </div>
 
     {{-- slide 4 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/livingthings/dna/h17.png') }}" />
-        <h2 class="title stroke text-center">Most of the time we compare just the obvious traits
-            like hair type, facial feature, height and body shape.</h2>
+    <div class="slide hidden  flex flex-col items-center">
+        <img src="{{ asset('assets/images/K2/aero/hydro/h4.png') }}" />
+        <h2 class="title stroke text-center">These four <span class="text-white">aerodynamic</span> forces affect the way
+            an aeroplane moves.</h2>
     </div>
-
 
     {{-- Slide 5 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f1.png') }}" />
-        <h2 class="title stroke">What about something small like <span class="text-white">fingerprints</span>?
-            Do you think our <span class="text-white">fingerprints</span> look the same?</h2>
+        <img src="{{ asset('assets/images/K2/aero/hydro/h5.png') }}" />
+        <h2 class="title stroke">Weight comes from the force of gravity pulling down objects.</h2>
     </div>
 
 
     {{-- slide 6 --}}
-    <div class="slide hidden flex flex-col items-center justify-center">
-        <h2 class="title stroke">Now we'll learn how to make our own set of <span class="text-white">fingerprints</span>.
-            We'll compare and see if we all have the same <span class="text-white">fingerprints</span>!</h2>
+    <div class="slide hidden flex flex-col items-center gap-y-3">
+        <img src="{{ asset('assets/images/K2/aero/hydro/h6.png') }}" />
+        <h2 class="title stroke">Lift is a force that pushes something up.</h2>
     </div>
 
 
-
     {{-- slide 7 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <h2 class="!text-white title stroke">Small Group Activity</h2>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f2.png') }}" />
-        <h2 class="title stroke">Let's find out: <br>
-            How to make our own set of fingerprints?
-            Do we have the same fingerprints?</h2>
-        <p class="text-center note">Note: Organise children into groups of 3 to do the activity (role A, B & C).
-            Have them clean and dry their hands first.</p>
+    <div class="slide hidden flex flex-col items-center gap-y-3">
+        <img src="{{ asset('assets/images/K2/aero/hydro/h7.png') }}" />
+        <h2 class="title stroke">Thrust is the force that pushes the aeroplane forward.</h2>
     </div>
 
 
     {{-- slide 8 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <div class="self-start text-start">
-            <h2 class="title stroke">Let's do: <br>
-                1. (A) Use a pencil to make a patch of dark mark on a paper.</h2>
+    <div class="slide hidden flex flex-col items-center gap-y-3">
+        <img src="{{ asset('assets/images/K2/aero/hydro/h8.png') }}" />
+        <h2 class="title stroke"><span class="text-white">Drag</span> is the opposing force of <span
+                class="text-white">thrust</span> that slows down the aeroplane.</h2>
+    </div>
+
+    {{-- slide 9 --}}
+    <div class="slide hidden flex flex-col items-center gap-y-3">
+        <img src="{{ asset('assets/images/K2/aero/hydro/h4.png') }}" />
+        <h2 class="title stroke">Which force has to be higher for the aeroplane to take off?</h2>
+        <p class="note">Note: Guide children to share their answers.</p>
+    </div>
+
+
+    {{-- slide 10 --}}
+    <div class="slide hidden flex flex-col items-center gap-y-3">
+        <img src="{{ asset('assets/images/K2/aero/hydro/h21.png') }}" />
+        <h2 class="title stroke">The aeroplane can only take off into the sky
+            when the lift is higher than the weight.</h2>
+    </div>
+
+
+    {{-- slide 11 --}}
+    <div class="slide hidden flex flex-col items-center h-[60%] justify-between">
+        <h2 class="title stroke">Are you able to recall part of the aeroplane
+            that helps to generate lift?</h2>
+        <p class="note">Note: Encourage children to share their answers.</p>
+    </div>
+
+
+    {{-- slide 12 --}}
+    <div class="slide hidden flex flex-col items-center gap-y-3">
+        <img src="{{ asset('assets/images/K2/aero/aero1/a44.png') }}" />
+        <h2 class="title stroke">Aeroplane wings are designed in the shape of an <span class="text-white">aerofoil</span>.
+        </h2>
+    </div>
+
+    {{-- slide 13 --}}
+    <div class="slide hidden flex flex-col items-center gap-y-3">
+        <img src="{{ asset('assets/images/K2/aero/aero1/a52.png') }}" />
+        <h2 class="title stroke">When the air moves along this shape, it generates more lift.</h2>
+    </div>
+
+
+    {{-- slide 14 --}}
+    <div class="slide hidden flex flex-col items-center gap-y-3">
+        <img src="{{ asset('assets/images/K2/aero/aero1/a17.png') }}" />
+        <h2 class="title stroke">Therefore, the aerofoil shape of the aeroplane wings helps to
+            generate lift for the aeroplane to take off into the sky.</h2>
+    </div>
+
+
+    {{-- slide 15 --}}
+    <div class="slide hidden flex flex-col items-center gap-y-3">
+        <img src="{{ asset('assets/images/K2/aero/hydro/h4.png') }}" />
+        <h2 class="title stroke">Which force has to be less for the aeroplane to keep moving
+            forward during flight?</h2>
+    </div>
+
+
+    {{-- slide 16 --}}
+    <div class="slide hidden flex flex-col items-center gap-y-3">
+        <img src="{{ asset('assets/images/K2/aero/hydro/h8.png') }}" />
+        <h2 class="title stroke">Drag has to be less than thrust for the aeroplane to keep
+            moving forward.</h2>
+    </div>
+
+
+    {{-- slide 17 --}}
+    <div class="slide hidden flex flex-col items-center gap-y-3">
+        <img src="{{ asset('assets/images/K2/aero/hydro/h8.png') }}" />
+        <h2 class="title stroke">The engine generates thrust for the aeroplane to keep moving
+            forward. But what helps to reduce drag?</h2>
+        <p class="note">Note: Guide children to share their answers.</p>
+    </div>
+
+
+
+    {{-- slide 18 --}}
+    <div class="slide hidden flex flex-col items-center gap-y-3">
+        <img src="{{ asset('assets/images/K2/aero/aero1/a29.png') }}" />
+        <h2 class="title stroke">The shape of the aeroplane nose is designed to reduce drag
+            as it moves through air.</h2>
+    </div>
+
+
+    {{-- slide 19 --}}
+    <div class="slide hidden flex flex-col items-center gap-y-3">
+        <div class="flex items-center gap-5">
+            <img src="{{ asset('assets/images/K2/aero/evo/e12.png') }}" class="w-[450px]" />
+            <img src="{{ asset('assets/images/K2/aero/evo/e19.png') }}" class="w-[450px]" />
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f3.png') }}" />
-        <p class="note text-center">Note: Advise A to darken the patch by shading the patch again and again.</p>
-        <!-- Video Trigger Button -->
-        <div data-property-1="Default"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
-            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+        <h2 class="title stroke">Aerodynamics also affect the movement of other vehicles.</h2>
+    </div>
+
+
+    {{-- slide 20 --}}
+    <div class="slide hidden flex flex-col items-center gap-y-3">
+        <img src="{{ asset('assets/images/K2/aero/evo/e12.png') }}" />
+        <h2 class="title stroke">The head of the bullet train is designed in a pointed shape to
+            reduce <span class="text-white">drag</span>. This helps the train to move at a faster speed.</h2>
+    </div>
+
+
+    {{-- slide 21 --}}
+    <div class="slide hidden flex flex-col items-center gap-y-3">
+        <img src="{{ asset('assets/images/K2/aero/evo/e10.png') }}" />
+        <h2 class="title stroke">Formula 1 cars have <span class="text-white">front wings</span> in this shape. How is it
+            different from the aerofoil shape of the <span class="text-white">aeroplane</span> wings?</h2>
+        <p class="note">Note: Encourage children to discuss and share their answers.</p>
+    </div>
+
+
+    {{-- slide 22 --}}
+    <div class="slide hidden flex flex-col items-center gap-y-3">
+        <img src="{{ asset('assets/images/K2/aero/evo/e10.png') }}" />
+        <h2 class="title stroke">The <span class="text-white">front wings</span> of the racing car is shaped this way to
+            create <span class="text-white">downforce</span>. This enables the car to stay on the ground instead
+            of lifting up when it moves fast.
+        </h2>
+    </div>
+
+    {{-- slide 23 --}}
+    <div class="slide hidden flex flex-col items-center gap-y-3">
+        <img src="{{ asset('assets/images/K2/aero/evo/e17.png') }}" />
+        <h2 class="title stroke">Aerodynamics also play an important part in sports.
+            How do cyclists overcome drag?</h2>
+        <p class="note">Note: Encourage children to discuss and share their answers.</p>
+    </div>
+
+
+    {{-- slide 24 --}}
+    <div class="slide hidden flex flex-col items-center gap-y-3">
+        <img src="{{ asset('assets/images/K2/aero/evo/e17.png') }}" />
+        <h2 class="title stroke">Professional cyclists curve their body and put on tight clothing
+            to reduce <span class="text-white">drag</span> so that they can move at a higher speed with
+            less effort.</h2>
+    </div>
+
+
+    {{-- slide 25 --}}
+    <div class="slide hidden flex flex-col items-center justify-between h-[60%]">
+        <div class="space-y-10 title stroke">
+            <h2>Other than aeroplanes and vehicles, there are also other
+                flying machines that use aerodynamic forces to help them fly.</h2>
+            <h2>
+                Can you name a few flying machines?</h2>
         </div>
+        <p class="note">Note: Encourage children to share their answers.</p>
     </div>
 
 
-    {{-- Slide 16 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <div class="self-start text-start">
-            <h2 class="title stroke">Let's do: <br>
-                2. (B) Rub a fingertip over the pencil mark to stain it.</h2>
-        </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f4.png') }}" />
-        <p class="note text-center">Note: Advise B to ensure that their fingertips have an even dark mark.</p>
-        <!-- Video Trigger Button -->
-        <div data-property-1="Default"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
-            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
-        </div>
+    {{-- slide 26 --}}
+    <div class="slide hidden flex flex-col items-center gap-y-3">
+        <img src="{{ asset('assets/images/K2/aero/evo/e20.png') }}" />
+        <h2 class="title stroke">What is this? What does it do?</h2>
+        <p class="note">Note: Encourage children to share their answers.</p>
+    </div>
+
+    {{-- slide 27 --}}
+    <div class="slide hidden flex flex-col items-center gap-y-3">
+        <img src="{{ asset('assets/images/K2/aero/evo/e20.png') }}" />
+        <h2 class="title stroke">A rocket helps to carry satellite or space shuttles into space.
+            How do rockets shoot up into the sky?</h2>
+        <p class="note">Note: Encourage children to share their answers based on aerodynamic forces.</p>
     </div>
 
 
-    {{-- Slide 17 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <div class="self-start text-start">
-            <h2 class="title stroke">Let's do: <br>
-                3. (C) Cut and stick a piece of clear tape on the stained fingertip (of B).</h2>
-        </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f5.png') }}" />
-        <p class="note text-center">Note: Advise C to hold only an edge of the tape and stick the tape flat on the fingertip
-            of B.</p>
-        <!-- Video Trigger Button -->
-        <div data-property-1="Default"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
-            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
-        </div>
+    {{-- slide 28 --}}
+    <div class="slide hidden flex flex-col items-center gap-y-3">
+        <img src="{{ asset('assets/images/K2/aero/evo/e24.png') }}" />
+        <h2 class="title stroke">Thrust is the force that helps a rocket shoot up into the sky.
+            How do rockets generate enough thrust to do so?</h2>
+        <p class="note">Note: Encourage children to share their answers based on aerodynamic forces.</p>
     </div>
 
 
-    {{-- Slide 18 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <div class="self-start text-start">
-            <h2 class="title stroke">Let's do: <br>
-                4. (C) Carefully remove the tape from the fingertip (of B)
-                and paste it on the learning journal (of B).</h2>
-        </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f6.png') }}" />
-        <p class="note text-center">Note: Remind C to paste the tape in the correct place of B's fingerprint record.</p>
-        <!-- Video Trigger Button -->
-        <div data-property-1="Default"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
-            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
-        </div>
+    {{-- slide 29 --}}
+    <div class="slide hidden flex flex-col items-center gap-y-3">
+        <img src="{{ asset('assets/images/K2/aero/evo/e24.png') }}" />
+        <h2 class="title stroke">The <span class="text-white">rocket</span> engine burns fuel to generate <span
+                class="text-white">thrust</span> for the
+            <span class="text-white">rocket</span> to shoot into the sky.
+        </h2>
     </div>
 
-
-    {{-- Slide 18 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <div class="self-start text-start">
-            <h2 class="title stroke">Let's do: <br>
-                5. (A) Use a wet towel to clean the fingertip (of B).</h2>
-        </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f7.png') }}" />
-        <p class="note text-center">Note: Explain to children that this is to avoid possible messiness when taking prints of
-            other fingers.</p>
-        <!-- Video Trigger Button -->
-        <div data-property-1="Default"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
-            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
-        </div>
-    </div>
-
-    {{-- Slide 18 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <div class="self-start text-start">
-            <h2 class="title stroke">Let's do: <br>
-                6. (A, B & C) Repeat the steps for other fingers.</h2>
-        </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f8.png') }}" />
-        <p class="note text-center">Note: Have children change their roles to help one another complete the fingerprint
-            record.</p>
-    </div>
-
-
-    {{-- Slide 19 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <div class="self-start text-start">
-            <h2 class="title stroke">Let's do: <br>
-                7. Observe your fingerprints.</h2>
-        </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f2.png') }}" />
-        <p class="note text-center">Note: Have children observe and compare their own set of fingerprints on the record.
-        </p>
-    </div>
-
-
-
-
-    {{-- Slide 20 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f2.png') }}" />
-        <h2 class="title stroke">What do you observe: <br>
-            Are there similarities between your fingerprints?</h2>
-    </div>
-
-
-    {{-- Slide 21 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f2.png') }}" />
-        <h2 class="title stroke">What do you observe: <br>
-            Do your left and right hands’ fingerprints look alike?</h2>
-    </div>
-
-
-
-    {{-- Slide 22 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <div class="self-start text-start">
-            <h2 class="title stroke">Let's do: <br>
-                8. Observe your fingerprints with friends.</h2>
-        </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f9.png') }}" />
-        <p class="note">Note: Have children observe and compare their fingerprints with friends.</p>
-    </div>
-
-
-    {{-- Slide 24 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f9.png') }}" />
-        <h2 class="title stroke text-start">What do you observe: <br>
-            Do you find anyone with the same fingerprints as yours?</h2>
-    </div>
-
-
-    {{-- Slide 25 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <h2 class="title stroke text-start">What do you learn: <br>
-            What are the similarities between different fingerprints?</h2>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f9.png') }}" />
-        <p class="note">Note: Explain to children that the lines on the tips of our fingers or thumbs are called ridges.
-        </p>
-    </div>
-
-
-    {{-- Slide 26 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <h2 class="title stroke text-start">What do you learn: <br>
-            Do you find any two fingerprints are exactly same?</h2>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f9.png') }}" />
-    </div>
-
-
-    {{-- Slide 27 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f10.png') }}" />
-        <h2 class="title stroke">Through the activity, we know that fingerprints
-            are ridges on the tips of our fingers and thumbs.</h2>
-    </div>
-
-    {{-- Slide 28 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f11.png') }}" />
-        <h2 class="title stroke">We also know that no two fingerprints are exactly alike.</h2>
-    </div>
-
-    {{-- Slide 29 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f11.png') }}" />
-        <h2 class="title stroke">Therefore, individual fingerprints are unique
-            and no two people have the same fingerprints.</h2>
-    </div>
 
     {{-- slide 30 --}}
-    <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
-        <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[836px] h-fit bg-cover bg-center p-[20px] flex flex-col justify-center items-center"
-            style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
-            <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f12.png') }}" />
+    <div class="slide hidden flex flex-col items-center gap-y-3">
+        <img src="{{ asset('assets/images/K2/aero/evo/e21.png') }}" />
+        <h2 class="title stroke">The narrow shape of the <span class="text-white">rocket's</span> nose helps to reduce
+            drag as it moves through air.</h2>
+    </div>
+
+
+
+    {{-- slide 31 --}}
+    <div class="slide hidden flex flex-col items-center gap-y-3">
+        <img src="{{ asset('assets/images/K2/aero/evo/e22.png') }}" />
+        <h2 class="title stroke">How does a rocket carry a space shuttle into space?</h2>
+        <p class="note">Note: Encourage children to share their answers.</p>
+    </div>
+
+    {{-- slide 32 --}}
+    <div class="slide hidden flex flex-col items-center gap-y-3">
+        <img src="{{ asset('assets/images/K2/aero/evo/e23.png') }}" />
+        <h2 class="title stroke">To carry a <span class="text-white">space shuttle</span> into space, more <span
+                class="text-white">thrust</span> is needed.
+            These <span class="text-white">rocket</span> boosters help to generate extra <span
+                class="text-white">thrust</span>.</h2>
+    </div>
+
+    {{-- slide 33 --}}
+    <div class="slide hidden  flex flex-col items-center justify-start  ">
+        <video id="video1" class="w-full max-w-4xl pointer-events-none">
+            <source src="{{ asset('assets/images/K2/aero/evo/220.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <h2 class="title stroke">Let’s see how this rocket launches and shoots into the sky.</h2>
+        <!-- Video Trigger Button -->
+        <div onclick="toggleVideo('video1')"
+            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
+            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
+            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
+            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
         </div>
     </div>
 
+    {{-- slide 34 --}}
+    <div class="slide hidden  flex flex-col items-center justify-start  ">
+        <video id="video2" class="w-full max-w-4xl pointer-events-none">
+            <source src="{{ asset('assets/images/K2/aero/evo/221.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <h2 class="title stroke">Two minutes after launch, the boosters will detach from the
+            main rocket and drop into the ocean.</h2>
+        <!-- Video Trigger Button -->
+        <div onclick="toggleVideo('video2')"
+            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
+            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
+            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
+            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+        </div>
+    </div>
+
+    {{-- slide 35 --}}
+    <div class="slide hidden  flex flex-col items-center justify-start  ">
+        <video id="video3" class="w-full max-w-4xl pointer-events-none">
+            <source src="{{ asset('assets/images/K2/aero/evo/222.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <h2 class="title stroke">When the space shuttle has successfully entered space,
+            the main rocket will detach from the space shuttle.</h2>
+        <p class="note">Note: <a href="" class="text-amber-300 click-btn1">Click Here</a> for a sample illustration of the
+            launch of a rocket.</p>
+        <!-- Video Trigger Button -->
+        <div onclick="toggleVideo('video3')"
+            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
+            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
+            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
+            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+        </div>
+    </div>
+    {{-- sloide click --}}
+    <div class="slide click1 hidden flex items-center gap-3">
+        <h2 class="title stroke text-wrap w-[250px] text-end">A Sample
+            Illustration:
+            the launch of
+            a rocket that
+            carries a space
+            shuttle</h2>
+        <img src="{{ asset('assets/images/K2/aero/evo/e25.png') }}" class="w-[550px]" />
+    </div>
+
+    {{-- Slide 36 --}}
+    <div class="slide hidden  flex flex-col items-center justify-between h-[60%] ">
+        <h2 class="title stroke">But how does a space shuttle return to Earth?</h2>
+        <p class="note">Note: Encourage children to share their answers.</p>
+    </div>
+
+
+    {{-- Slide 37 --}}
+    <div class="slide hidden  flex flex-col items-center   ">
+        <img src="{{ asset('assets/images/K2/aero/evo/e26.png') }}" />
+        <h2 class="title stroke">The space shuttle re-enters Earth at a very high speed. The
+            force of gravity also pulls the space shuttle to the ground.</h2>
+    </div>
+
+
+    {{-- Slide 38 --}}
+    <div class="slide hidden  flex flex-col items-center   ">
+        <img src="{{ asset('assets/images/K2/aero/evo/e26.png') }}" />
+        <h2 class="title stroke">How do you think a space shuttle lands smoothly instead of
+            crashing onto the ground?</h2>
+    </div>
+
+    {{-- Slide 39 --}}
+    <div class="slide hidden  flex flex-col items-center   ">
+        <img src="{{ asset('assets/images/K2/aero/evo/e27.png') }}" />
+        <h2 class="title stroke">The wings generate lift as the space shuttle re-enters Earth.
+            This helps to slow down the speed of descent for the space
+            shuttle.</h2>
+    </div>
+
+    {{-- Slide 40 --}}
+    <div class="slide hidden  flex flex-col items-center   ">
+        <img src="{{ asset('assets/images/K2/aero/evo/e28.png') }}" />
+        <h2 class="title stroke">As the space shuttle touches down to the ground, the brakes
+            help to increase drag and slow down the shuttle.</h2>
+    </div>
+
+    {{-- slide 41 --}}
+    <div class="slide hidden  flex flex-col items-center justify-start  ">
+        <video id="video4" class="w-full max-w-4xl pointer-events-none">
+            <source src="{{ asset('assets/images/K2/aero/evo/223.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <h2 class="title stroke">A parachute is also deployed from the back of the space
+            shuttle to increase drag and help stop the space shuttle.</h2>
+        <!-- Video Trigger Button -->
+        <div onclick="toggleVideo('video4')"
+            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
+            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
+            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
+            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+        </div>
+    </div>
+
+    {{-- slide 42 --}}
+    <div class="slide hidden  flex flex-col items-center justify-start  ">
+        <video id="video5" class="w-full max-w-4xl pointer-events-none">
+            <source src="{{ asset('assets/images/K2/aero/evo/223.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <h2 class="title stroke">A parachute is also deployed from the back of the space
+            shuttle to increase drag and help stop the space shuttle.</h2>
+        <!-- Video Trigger Button -->
+        <div onclick="toggleVideo('video5')"
+            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
+            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
+            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
+            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+        </div>
+    </div>
+
+    {{-- Slide 43 --}}
+    <div class="slide hidden  flex flex-col items-center justify-between h-[60%] ">
+        <div class="title stroke space-y-10">
+            <h2>Now, it's your turn to design and create your own flying machine!</h2>
+
+            <h2>Remember to apply the aerodynamic forces in your design
+                to help your machine fly as far as possible!</h2>
+        </div>
+        <p class="note">Note: Encourage children to share their answers.</p>
+    </div>
+
+    {{-- slide 44 --}}
+    <div class="flex flex-col items-center justify-between h-[80%] slide hidden">
+        <h2 class="title !text-white stroke">Final Project</h2>
+        <div class="text-start self-start title stroke">
+            <h2>Mission: <br>
+                Let's design and create your own flying machine!</h2>
+        </div>
+        <p class="note">Note: Have children discuss and work in groups to complete the final project.</p>
+    </div>
+
+    {{-- Slide 45 --}}
+    <div class="slide hidden  flex flex-col items-center   ">
+        <div class="self-start text-start title stroke">
+            <ul class="list-decimal">
+                <h2>Steps:</h2>
+                <li>In a small group, discuss the type of flying machine you
+                    want to create. Draw the design of your flying machine
+                    based on the aerodynamic forces.</li>
+                <li>List down the materials you need to build this flying
+                    machine.</li>
+                <li>Gather the materials you need to build your flying
+                    machine based on your design</li>
+                <li>Build your flying machine and test it out.</li>
+            </ul>
+        </div>
+    </div>
+
+    {{-- Slide 46 --}}
+    <div class="slide hidden  flex flex-col items-center   ">
+        <div class="self-start text-start title stroke">
+            <ul>
+                <h2>Steps:</h2>
+                <li>5. Tweak the design of your flying machine to make it fly
+                    further if needed.</li>
+                <li>6. Challenge your friends to see whose flying machine can
+                    fly the furthest!</li>
+            </ul>
+        </div>
+    </div>
+
+    {{-- slide 47 --}}
+    <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
+        <h2 class=" title stroke !text-white">Learning Journal</h2>
+        <div class="w-[836px] h-[500px] bg-cover bg-center p-[20px] text-start"
+            style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
+            <p>Name your flying machine: _____________________________________ <br>
+                How will your flying machine look like? Draw the design here.</p>
+        </div>
+    </div>
+
+    {{-- sldie 48 --}}
+    <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
+        <h2 class=" title stroke !text-white">Learning Journal</h2>
+        <div class="w-[836px] h-[500px] bg-cover bg-center p-[20px]  text-start"
+            style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
+            <p>Name your flying machine: __________________________________ <br>
+                Materials needed:</p>
+        </div>
+    </div>
 
     {{-- ====================================== --}}
     {{-- Buttons --}}
@@ -365,6 +566,14 @@
 
 @push('script')
     <script>
+        function toggleVideo(videoId) {
+            const video = document.getElementById(videoId);
+            if (video.paused) {
+                video.play();
+            } else {
+                video.pause();
+            }
+        }
         document.addEventListener("DOMContentLoaded", () => {
             const slides = document.querySelectorAll(".slide");
             const nextButtons = document.querySelectorAll(".nextButton");

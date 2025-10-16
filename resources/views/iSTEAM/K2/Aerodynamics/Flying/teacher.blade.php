@@ -21,24 +21,32 @@
     {{-- sldie 1  --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="  font-bold">Children will be able to:</h2>
+            <h2 class="font-bold">Children will be able to:</h2>
             <ul class="list-disc ">
-                <li>Learn how to make their own set of fingerprints for analysis</li>
-                <li>Know that fingerprints are ridges on the tips of our thumbs and fingers</li>
-                <li>Know that no two fingerprints are exactly alike</li>
-                <li>Know that individual fingerprints are unique and no two people have the same fingerprints</li>
-                <li>Develop understanding through inquiry</li>
+                <li>Recall the use of aerodynamics in aeroplanes and other vehicles</li>
+                <li>Learn how rockets and space shuttles use aerodynamics to help them move</li>
+                <li>Design and build a flying machine</li>
+                <li>Develop understanding through inquiry and experiment</li>
             </ul>
         </div>
 
         <div class="flex flex-col  items-start justify-between">
             <h2 class="text-[33px] font-bold">Keywords:</h2>
-            <div class="flex gap-20">
+            <div class="flex gap-[10rem]">
                 <ul class="list-disc ">
-                    <li>Fingerprint</li>
-                    <li>Ridge</li>
-                    <li>Thumb</li>
-                    <li>Finger</li>
+                    <li>Aerodynamics</li>
+                    <li>Aerodynamic Forces</li>
+                    <li>Weight</li>
+                    <li>Lift</li>
+                    <li>Thrust</li>
+                    <li>Drag</li>
+                </ul>
+                <ul class="list-disc ">
+                    <li>Aerofoil</li>
+                    <li>Front Wings</li>
+                    <li>Downforce</li>
+                    <li>Rocket</li>
+                    <li>Space Shuttle</li>
                 </ul>
 
             </div>
@@ -51,24 +59,45 @@
 
     {{-- slide 2 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
-        <div>
-            <h2 class="font-bold">Preparations:</h2>
+        <div class="space-y-10">
             <ul class="list-disc ">
-                <li>
-                    Pencils (for a better outcome, 8B pencil is recommended)
-                </li>
-                <li>Plain papers</li>
-                <li>
-                    Adhesive clear tapes (for a better outcome, 3M Scotch Tape is recommended)
-                </li>
-                <li>Scissors</li>
-                <li>
-                    Wet towels (can be replaced with wet rags)
-                </li>
-                <li>
-                    A few magnifying glasses (optional)
-                </li>
+                <h2 class="font-bold">Preparations:</h2>
+                <h2>Final Project</h2>
+                <li>Materials you can prepare (this is not an exhaustive list):</li>
             </ul>
+            <div class="flex gap-[10rem] items-center">
+                <ul class="list-disc">
+                    <li>Cardboard</li>
+                    <li>Empty plastic bottles</li>
+                    <li>Glue gun</li>
+                    <li>Newspapers</li>
+                    <li>Tape</li>
+                </ul>
+                <ul class="list-disc">
+                    <li>Scissors</li>
+                    <li>Tongue depressors</li>
+                    <li>Rubber bands</li>
+                    <li>Straws</li>
+                </ul>
+            </div>
+            <ul class="list-disc ">
+                <li>Use recycled materials as much as possible for the making of the flying machines.</li>
+            </ul>
+        </div>
+        <div class="space-y-10">
+            <div class="flex gap-[10rem] items-center">
+                <ul class="list-disc text-amber-300">
+                    <h2>Some reference for ideas:</h2>
+                    <li><a href="https://viewsfromastepstool.com/flying-machine-stem-challenge/"
+                            target="_blank">https://viewsfromastepstool.com/flying-machine-stem-challenge/</a></li>
+                    <li><a href="https://www.youtube.com/watch?y=jo_M4vDqaAw"
+                            target="_blank">https://www.youtube.com/watch?y=jo_M4vDqaAw</a></li>
+                    <li><a href="https://www.instructables.com/Squeeze-Bottle-Rockets/"
+                            target="_blank">https://www.instructables.com/Squeeze-Bottle-Rockets/</a></li>
+                    <li><a href="https://www.youtube.com/watch?y=-jm81EDnFMU"
+                            target="_blank">https://www.youtube.com/watch?y=-jm81EDnFMU</a></li>
+                </ul>
+            </div>
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
@@ -76,142 +105,27 @@
 
 
     {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-center gap-y-10 text-start">
+    <div class=" slide text-start text-2xl text-white">
         <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
-            <ul class="list-disc">
-                <li>This is a small group activity. Organise children into groups of 3 and have them take turns to play role
-                    A, B & C. Before the activity, have them clean and dry their hands first to remove dirt that may obscure
-                    the fingerprints.</li>
+            <h2 class="font-bold">Additional info on rocket launch:</h2>
+            <ul class="list-disc text-amber-300 space-y-10">
+                <li>
+                    <a href="https://www.youtube.com/watch?v=oMeXcBk1x-c">
+                        https://www.youtube.com/watch?v=oMeXcBk1x-c</a>
+                </li>
+                <li>
+                    <a href="https://spaceplace.nasa.gov/launching-into-space/en/">
+                        https://spaceplace.nasa.gov/launching-into-space/en/</a>
+                </li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f13.png') }}" class="w-[600px]" />
+
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
     </div>
 
 
     {{-- slide 4 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
-        <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
-            <ul class="list-decimal">
-                <li>(A) Use a pencil to make a patch of dark mark on a paper. [ Have all the A do the step. Advise A to
-                    darken the patch by shading the patch again and again. ]</li>
-            </ul>
-        </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f3.png') }}" class="w-[600px]" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
-    </div>
-
-
-    {{-- slide 5 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
-        <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
-            <ul>
-                <li>2. (B) Rub a fingertip over the pencil mark to stain it. [Have all the B do the step.]</li>
-            </ul>
-        </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f4.png') }}" class="w-[600px]" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
-    </div>
-
-
-    {{-- sldie 6 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
-        <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
-            <ul>
-                <li>3. (C) Cut and stick a piece of clear tape on the stained fingertip (of B). [Have all the C do the step.
-                    Advise C to hold only an edge of the tape and stick the tape flat on the fingertip of B. ]</li>
-            </ul>
-        </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f5.png') }}" class="w-[600px]" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
-    </div>
-
-
-    {{-- sldie 7 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
-        <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
-            <ul>
-                <li>4. (C) Carefully remove the tape from the fingertip (of B) and paste it on the learning journal (of B).
-                    [Have all the C do the step. Remind C to paste the tape in the correct place of B's fingerprint record.]
-                </li>
-            </ul>
-        </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f6.png') }}" class="w-[600px]" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
-    </div>
-
-    {{-- sldie 8 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
-        <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
-            <ul>
-                <li>5. (A) Use a wet towel to clean the fingertip (of B). [ Have all the A do the step. Explain to children
-                    that this is to avoid possible messiness when taking prints of other fingers. ]</li>
-            </ul>
-        </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f7.png') }}" class="w-[600px]" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
-    </div>
-
-
-
-    {{-- slide 9 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
-        <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
-            <ul>
-                <li>6. (A, B & C) Repeat the steps for other fingers. [Have all the A, B & C repeat steps 1-5 to complete
-                    the fingerprint record of B. After that, have them change their roles to help one another complete the
-                    fingerprint record. ]</li>
-            </ul>
-        </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f8.png') }}" class="w-[700px]" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
-    </div>
-
-    {{-- slide 10 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
-        <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
-            <ul>
-                <li>7. Observe your fingerprints. [ Have children observe and compare their own set of fingerprints on the
-                    record. Then have them share their views. ]</li>
-            </ul>
-        </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f2.png') }}" class="w-[600px]" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
-    </div>
-
-    {{-- slide 11 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
-        <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
-            <ul>
-                <li>8. Compare your fingerprints with friends. [ Have children observe and compare their fingerprints with
-                    friends. Then have them share their views. ]</li>
-            </ul>
-        </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f9.png') }}" class="w-[700px]" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
-    </div>
-
-
-
-    {{-- sldie 12 --}}
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
@@ -228,7 +142,7 @@
                             <img src="{{ asset('assets/images/pptimages/play.png') }}"
                                 class="absolute top-[16px] left-[16px] h-8 w-8" />
                         </span>
-                        next to a picture, class="text-amber-400" click on the picture to watch the video.
+                        next to a picture, click on the picture to watch the video.
                     </li>
                     <li>Emphasise and use the <strong>keywords</strong> during hands-on sessions.</li>
                     <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
@@ -251,55 +165,6 @@
                 alt="Teacher" />
         </div>
     </div>
-
-
-    {{-- slide 13 --}}
-    <div class="text-white flex flex-col items-center justify-center gap-y-10 text-start text-2xl slide hidden">
-        <h2 class=" title stroke">Learning Centre Idea</h2>
-        <div class="flex flex-col gap-10">
-            <ul>
-                <h2 class="!text-white title stroke">Fingerprints Art</h2>
-                <h2>What and how to set up:</h2>
-                <li>Put some paints, sponges, coloured pencils and drawing papers here.</li>
-            </ul>
-
-            <div>
-                <h2>What to do:</h2>
-                <ul class="list-decimal">
-                    <li>Turn your fingerprints into art! Put your fingerprints on the
-                        drawing paper.</li>
-                    <li>Use your imagination to turn it into a creative drawing by adding
-                        details with coloured pencils.</li>
-                    <li>Show it to your teacher and friends!</li>
-                </ul>
-
-            </div>
-        </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute right-[250px] bottom-[150px]" />
-    </div>
-
-
-    {{-- slide 14 --}}
-    <div class="text-white flex flex-col items-center justify-center gap-y-10 text-start text-2xl slide hidden">
-        <h2 class=" title stroke">Learning Centre Idea</h2>
-        <div>
-            <ul class="list-disc">
-                <h2 class="!text-white title stroke">Fun Facts</h2>
-                <h2>What and how to set up:</h2>
-                <p>Use your creativity to design graphic fact sheet for every fun fact
-                    below. Guide children to understand the facts.</p>
-                <li>Fingerprints actually help you to grasp an object. Without them,
-                    your fingers will be slippery and you will not be able to write or
-                    paint properly.</li>
-                <li>Adermatoglyphia is a genetic disease where people are born
-                    without fingerprints.</li>
-            </ul>
-        </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute right-[250px] bottom-[150px]" />
-    </div>
-
-
-  
     {{-- ========================================================== --}}
     {{-- Buttons --}}
     <div class="absolute bottom-0">
@@ -319,8 +184,7 @@
         <!-- Return Button -->
         <a class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
             id="returnButton">
-            <img class="absolute top-[6px] left-[8px] w-20 h-10"
-                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
+            <img class="absolute top-[6px] left-[8px] w-20 h-10" src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
             <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
             <img class="absolute top-[24px] left-[22px] w-14 h-14"
                 src="{{ asset('assets/images/pptimages/reverse-icon.png') }}" />
@@ -328,7 +192,7 @@
 
         <!-- Home Button -->
         <button
-            class="relative w-24 h-24 button-fade-in bg-sky-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
+            class="relative w-24 h-24 button-fade-in bg-sky-500 rounded-[30px]  cursor-pointer"
             id="homeButton">
             <img class="absolute top-[6px] left-[8px] w-20 h-10"
                 src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
@@ -340,7 +204,7 @@
         <!-- Close Button -->
         <button class="relative w-24 h-24 button-fade-in cursor-pointer" id="closeButton">
             <div
-                class="absolute inset-0 bg-red-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-red-900">
+                class="absolute inset-0 bg-red-500 rounded-[30px]" >
             </div>
             <img class="absolute top-[6px] left-[8px] w-20 h-10"
                 src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
@@ -356,8 +220,7 @@
     <div class="absolute bottom-0">
 
         <button
-            class="cursor-pointer nextButton w-66 h-[75px] relative bg-[#F8A23A]  rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
-        outline outline-1 outline-yellow-700 overflow-hidden">
+            class="cursor-pointer nextButton w-66 h-[75px] relative bg-[#F8A23A]  rounded-[30px] overflow-hidden">
             <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
             <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" /> </div>
             <span class="absolute left-[80px] top-[18px] flex items-center  text-white text-5xl font-bold stroke">NEXT
