@@ -23,11 +23,12 @@
         <div>
             <h2 class="  font-bold">Children will be able to:</h2>
             <ul class="list-disc ">
-                <li>Learn how to make their own set of fingerprints for analysis</li>
-                <li>Know that fingerprints are ridges on the tips of our thumbs and fingers</li>
-                <li>Know that no two fingerprints are exactly alike</li>
-                <li>Know that individual fingerprints are unique and no two people have the same fingerprints</li>
-                <li>Develop understanding through inquiry</li>
+                <li>Understand the meaning of clean energy</li>
+                <li>Learn about how clean energy can be used</li>
+                <li>Develop awareness of environmental issues</li>
+                <li>Develop curiosity and understanding through inquiry
+</li>
+
             </ul>
         </div>
 
@@ -35,10 +36,17 @@
             <h2 class="text-[33px] font-bold">Keywords:</h2>
             <div class="flex gap-20">
                 <ul class="list-disc ">
-                    <li>Fingerprint</li>
-                    <li>Ridge</li>
-                    <li>Thumb</li>
-                    <li>Finger</li>
+                    <li>Coal</li>
+                    <li>Natural Resources</li>
+                    <li>Fuel</li>
+                    <li>Sustainable</li>
+                      <li>Pollution</li>
+                        <li>Clean Energy</li>
+                          <li>Solar Energy</li>
+                          <li>Nature</li>
+                          <li>Electricity</li>
+                          <li>Heat</li>
+                          
                 </ul>
 
             </div>
@@ -52,21 +60,22 @@
     {{-- slide 2 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Preparations:</h2>
+            <h2 class="note">Things to note for Class Activity 1</h2>
             <ul class="list-disc ">
                 <li>
-                    Pencils (for a better outcome, 8B pencil is recommended)
+                   Use food items that are easy to see the changes when heated. Example: chocolate, marshmallow, cheese. These items will melt.
                 </li>
-                <li>Plain papers</li>
+                <li>You may do this experiment twice with other food choices such as egg or bread. If it doesn't cook, you can explain<br>
+                     that the DIY solar oven doesn't heat up enough to cook such food.</li>
                 <li>
-                    Adhesive clear tapes (for a better outcome, 3M Scotch Tape is recommended)
+                   This activity can only be successful when the weather is hot and sunny.
                 </li>
-                <li>Scissors</li>
+                <li>Please remind children not to eat the food items due to hygiene reasons.</li>
                 <li>
-                    Wet towels (can be replaced with wet rags)
+                   Please note that the reflective side of the aluminium foil must face outwards when wrapping the box.
                 </li>
                 <li>
-                    A few magnifying glasses (optional)
+                  Set up the solar oven by following the steps in the following slides before the day of the activity.
                 </li>
             </ul>
         </div>
@@ -78,19 +87,135 @@
     {{-- sldie 3 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-center gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
-            <ul class="list-disc">
-                <li>This is a small group activity. Organise children into groups of 3 and have them take turns to play role
-                    A, B & C. Before the activity, have them clean and dry their hands first to remove dirt that may obscure
-                    the fingerprints.</li>
+           <p class="note">Preparation For Class Activity 1:<br>
+1. Cut the cover of the box such that a flap is created.
+2. Wrap the flap with the reflective side of the aluminium foil facing out.
+3. Paste aluminium foil on the inner portions of the box such that the reflective side is shown.
+           </p>
+        </div>
+   <img src="{{ asset('assets/images/K2/sustain/energy1/e11.png') }}"  />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute right-[250px] bottom-[150px]" />
+    </div>
+    {{-- sldie 3 --}}
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-center gap-y-10 text-start">
+        <div>
+           <p class="note">Preparation For Class Activity 1:<br>
+
+4. Place a piece of black paper in the box.
+5. Paste a piece of cling wrap to cover the hole on the cover. Ensure all sides are
+     sealed.
+           </p>
+        </div>
+   <img src="{{ asset('assets/images/K2/sustain/energy1/e11.png') }}"  />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute right-[250px] bottom-[150px]" />
+    </div>
+    {{-- sldie 3 --}}
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-center gap-y-10 text-start">
+        <div>
+           <p class="note">Preparation For Class Activity 1:<br>
+
+6. This is how it should look like after top is sealed with the cling wrap.
+           </p>
+        </div>
+   <img src="{{ asset('assets/images/K2/sustain/energy1/e13.png') }}"  />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute right-[250px] bottom-[150px]" />
+    </div>
+     {{-- sldie 3 --}}
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-center gap-y-10 text-start">
+        <div>
+           <p class="note">Preparation For Class Activity 1:<br>
+
+7. Now use the cling wrap to wrap another layer around the cover of the box. Use tape to seal the sides.
+           </p>
+        </div>
+   <img src="{{ asset('assets/images/K2/sustain/energy1/e14.png') }}"  />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute right-[250px] bottom-[150px]" />
+    </div>
+    {{-- sldie 3 --}}
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-center gap-y-10 text-start">
+        <div>
+           <p class="note">Preparation For Class Activity 1:<br>
+
+8. Make a hole at the side of the box.
+9. This is for the thermometer. You can check the temperature of the solar oven
+     easily.
+
+           </p>
+        </div>
+   <img src="{{ asset('assets/images/K2/sustain/energy1/e15.png') }}"  />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute right-[250px] bottom-[150px]" />
+    </div>
+{{-- sldie 3 --}}
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-center gap-y-10 text-start">
+        <div>
+           <p class="note">Preparation For Class Activity 1:<br>
+
+10. Place the food item on a plate and put it inside the box.
+11. Close the cover tightly and lift up the flap. Use a stick to hold the flap open such that sunlight is able to shine on it.
+
+           </p>
+        </div>
+   <img src="{{ asset('assets/images/K2/sustain/energy1/e16.png') }}"  />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute right-[250px] bottom-[150px]" />
+    </div>
+ {{-- sldie 8 --}}
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+        <div>
+            <h2 class="note">Things to note for Class Activity 2</h2>
+            <ul>
+                <li>Purchase a solar-powered light or toy.</li>
+                    <li>This activity needs to be conducted on a sunny day. Alternatively, you can use light bulbs but 
+                        it may not work with all types of solar-powered light/toy.</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f13.png') }}" class="w-[600px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
     </div>
 
+    {{-- slide 9 --}}
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+ <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
+           <ul>
+                <li>If you see <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s27.png') }}" /> next to a picture, click on the picture to watch the video
+Always ask questions to encourage children to think and share their ideas first 
+     before giving out any information.
+                </li>
+  <li>Emphasise and use the keywords during hands-on sessions.
+</li>
+<li>Print out the Learning Journal (if any) for every 
+     child to complete at the end of the lesson.
+</li>
+  <li>Click on this shortcut icon<img src="{{ asset('assets/images/K2/sustain/Globalwarming/s28.png') }}" />if you need to go to some 
+     parts of the lesson quickly.
+                </li>
+     
+      
+            </ul>
+        </div>
+{{-- slide 9 --}}
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+        <div>
+            <h2 class="font-bold">Learning Centre Idea</h2><br><br>
+            <h2 class="note">Solar Powered Toy/Light</h2><br>
+            <p class="note">What and how to set up:<br>
+Place the solar-powered toy/light at the learning corner and
+encourage children to explore with it.<br>
 
+What to do:<br>
+1. Guide children to use different lights to shine on the solar panel
+      and observe if the light or toy will react.<br>
+2. Provide paper to cover up part of the panel and put the
+     toy/light in the sun. Does the size of the panel affect the toy/light?<br>
+            </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute right-[250px] bottom-[150px]" />
+    </div>
     {{-- slide 4 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
@@ -150,36 +275,9 @@
             class="absolute right-[250px] bottom-[150px]" />
     </div>
 
-    {{-- sldie 8 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
-        <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
-            <ul>
-                <li>5. (A) Use a wet towel to clean the fingertip (of B). [ Have all the A do the step. Explain to children
-                    that this is to avoid possible messiness when taking prints of other fingers. ]</li>
-            </ul>
-        </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f7.png') }}" class="w-[600px]" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
-    </div>
+   
 
-
-
-    {{-- slide 9 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
-        <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
-            <ul>
-                <li>6. (A, B & C) Repeat the steps for other fingers. [Have all the A, B & C repeat steps 1-5 to complete
-                    the fingerprint record of B. After that, have them change their roles to help one another complete the
-                    fingerprint record. ]</li>
-            </ul>
-        </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f8.png') }}" class="w-[700px]" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
-    </div>
+    
 
     {{-- slide 10 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">

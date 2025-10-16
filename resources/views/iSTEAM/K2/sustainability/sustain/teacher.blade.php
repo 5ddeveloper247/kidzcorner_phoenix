@@ -35,10 +35,18 @@
             <h2 class="text-[33px] font-bold">Keywords:</h2>
             <div class="flex gap-20">
                 <ul class="list-disc ">
-                    <li>Fingerprint</li>
-                    <li>Ridge</li>
-                    <li>Thumb</li>
-                    <li>Finger</li>
+                    <li>Global Warming</li>
+                    <li>Sustainability</li>
+                    <li>Earth</li>
+                    <li>Temperature</li>
+                      <li>Greenhouse Gases</li>
+                        <li>Coal</li>
+                           <li>Natural Resoursce</li>
+                              <li>Fuel</li>
+                                 <li>Atmosphere</li>
+                                  <li>Glacier</li> 
+                                  <li>Oxygen</li>
+                                    <li>Carbon Dioxide</li>
                 </ul>
 
             </div>
@@ -55,21 +63,12 @@
             <h2 class="font-bold">Preparations:</h2>
             <ul class="list-disc ">
                 <li>
-                    Pencils (for a better outcome, 8B pencil is recommended)
-                </li>
-                <li>Plain papers</li>
-                <li>
-                    Adhesive clear tapes (for a better outcome, 3M Scotch Tape is recommended)
-                </li>
-                <li>Scissors</li>
-                <li>
-                    Wet towels (can be replaced with wet rags)
-                </li>
-                <li>
-                    A few magnifying glasses (optional)
+3 bottles of the same size - cut out one side of the bottle to create an<br>
+     opening for all the 3 bottles (as shown)
                 </li>
             </ul>
         </div>
+           <img src="{{ asset('assets/images/K2/sustain/sustainability/a15.png') }}" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
     </div>
@@ -78,14 +77,19 @@
     {{-- sldie 3 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-center gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
+            <h2 class="font-bold">Preparations:</h2>
             <ul class="list-disc">
-                <li>This is a small group activity. Organise children into groups of 3 and have them take turns to play role
-                    A, B & C. Before the activity, have them clean and dry their hands first to remove dirt that may obscure
-                    the fingerprints.</li>
-            </ul>
+                <li>For bottle A, plant some seeds 2-3 weeks before the activity</li>
+                <div class="flex gap-2 items-center">
+                   <img src="{{ asset('assets/images/K2/sustain/sustainability/a16.png') }}" />
+                      <img src="{{ asset('assets/images/K2/sustain/sustainability/a17.png') }}" />
+                </div>
+                       <li>For the example above, green beans and cat grass were planted about 1-2 weeks before the experiment.
+                         Please soak seeds before planting for higher success rates.</li>
+             <li>t is important that the plants grow from the soil so that the roots will hold onto the soil for the experiment to be successful.</li>
+              <li>You may want to drill some holes for the excess water to sip out to avoid drowning your seeds/plants.</li>
+                        </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f13.png') }}" class="w-[600px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
     </div>
@@ -94,13 +98,26 @@
     {{-- slide 4 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
+            <h2 class="font-bold">Preparations:</h2>
             <ul class="list-decimal">
-                <li>(A) Use a pencil to make a patch of dark mark on a paper. [ Have all the A do the step. Advise A to
-                    darken the patch by shading the patch again and again. ]</li>
+                <li>For bottle B, fill half the bottle with soil and add dried leaves and twigs on
+     top of the soil (do not put too much such that water cannot reach the soil
+     at all)</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f3.png') }}" class="w-[600px]" />
+       <img src="{{ asset('assets/images/K2/sustain/sustainability/a18.png') }}" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute right-[250px] bottom-[150px]" />
+    </div>
+{{-- slide 4 --}}
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+        <div>
+            <h2 class="font-bold">Preparations:</h2>
+            <ul class="list-decimal">
+                <li>For bottle C, just fill half the bottle with soil.</li>
+            </ul>
+        </div>
+       <img src="{{ asset('assets/images/K2/sustain/sustainability/a.png') }}" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
     </div>
@@ -109,12 +126,20 @@
     {{-- slide 5 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
+            <h2 class="font-bold">Things to take note prior the class activity:</h2>
             <ul>
-                <li>2. (B) Rub a fingertip over the pencil mark to stain it. [Have all the B do the step.]</li>
-            </ul>
+                <li>If you have drilled holes in the first bottle for the plants, please tape it up with masking tapes to 
+                    avoid water sipping through the holes during the experiment.</li>
+                    <li>Place a block at end of the bottles to elevate so that the water can flow easily towards the mouth of the bottle.</li>
+                    <li>Secure the cups below the mouth of the bottles to avoid spillage.</li>
+                    <li>Do try pouring water into the first bottle first before showing the experiment to the children.<br>
+                         This is to test if your plants have grown enough roots to hold onto the soil. In real life, trees<br>
+                          grow over a long time and their roots will hold firmly to the ground. But our plants are small and <br>
+                          the roots may not be as strong over such a short period of time.</li>
+            <li>Do place cloth or paper towels under the first bottle as some leakage from the holes is<br>
+                 expected even though masking tape has been used.</li>
+                        </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f4.png') }}" class="w-[600px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
     </div>
@@ -123,48 +148,67 @@
     {{-- sldie 6 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
+            <h2 class="font-bold">Things to take note prior the class activity:</h2>
             <ul>
-                <li>3. (C) Cut and stick a piece of clear tape on the stained fingertip (of B). [Have all the C do the step.
-                    Advise C to hold only an edge of the tape and stick the tape flat on the fingertip of B. ]</li>
+                <li>Do expect muddy coloured water to flow out from the first bottle.</li>
+                  <li>When comparing, you will see that there are some soil/dirt that flows into cup 2.
+                     Cup 3 has the most soil.</li>
+                    <li>This can be used to conclude that the roots were able to hold on to most of the soil as compared
+                         to the other two bottles.</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f5.png') }}" class="w-[600px]" />
+       <img src="{{ asset('assets/images/K2/sustain/sustainability/a19.png') }}" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
     </div>
-
 
     {{-- sldie 7 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
             <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
-            <ul>
-                <li>4. (C) Carefully remove the tape from the fingertip (of B) and paste it on the learning journal (of B).
-                    [Have all the C do the step. Remind C to paste the tape in the correct place of B's fingerprint record.]
+           <ul>
+                <li>If you see <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s27.png') }}" /> next to a picture, click on the picture to watch the video
+Always ask questions to encourage children to think and share their ideas first 
+     before giving out any information.
                 </li>
+  <li>Emphasise and use the keywords during hands-on sessions.
+</li>
+<li>Print out the Learning Journal (if any) for every 
+     child to complete at the end of the lesson.
+</li>
+  <li>Click on this shortcut icon<img src="{{ asset('assets/images/K2/sustain/Globalwarming/s28.png') }}" />if you need to go to some 
+     parts of the lesson quickly.
+                </li>
+     
+      
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f6.png') }}" class="w-[600px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
     </div>
 
-    {{-- sldie 8 --}}
+
+
+    {{-- sldie 7 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
-            <ul>
-                <li>5. (A) Use a wet towel to clean the fingertip (of B). [ Have all the A do the step. Explain to children
-                    that this is to avoid possible messiness when taking prints of other fingers. ]</li>
-            </ul>
+            <h2 class="font-bold">When Glaciers Melt</h2><br>
+           <p class="note">What and how to set up:<br>
+Print out pictures of natural resources such as tree, coal, cow, fish,<br>
+stone, iron etc. Print items that are not natural resources such as<br>
+plastic bag, shoe, straws, toy, water bottles etc.<br>
+
+What to do:<br>
+Invite children to look at each picture and sort them out if the<br>
+     item is from nature or not.<br>
+Encourage children to think what can the natural resources be<br>
+     made into.</p>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f7.png') }}" class="w-[600px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
     </div>
 
-
+    
 
     {{-- slide 9 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
