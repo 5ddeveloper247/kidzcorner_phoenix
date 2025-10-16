@@ -42,98 +42,69 @@
     {{--  First Slide --}}
     <div class="board w-[1267px] h-[734px] flex flex-col justify-center items-center slide">
 
-        <h2 class="text-[45px] text-[#F7B94A] font-extrabold stroke ">Coding and Robotics</h2>
+        <h2 class="text-[45px] text-[#F7B94A] font-extrabold stroke ">Coding and Animation</h2>
 
         <div class="flex flex-wrap justify-center items-center " style="width: inherit">
             <!-- Card 1-->
-            <a href="{{ route('wCoding') }}"
+            <a href="{{ route('scratch') }}"
                 class=" bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="text-2xl text-[#7D6F71]">What is Coding?</h2>
+                <h2 class="text-2xl text-[#7D6F71]">What is <br> Scratch <br> Jr?</h2>
                 <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">1</span>
             </a>
 
             <!-- Card 2 -->
-            <a href="{{ route('go1') }}"
+            <a href="{{ route('animate1') }}"
                 class=" bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="text-2xl text-[#7D6F71]">Go! Go! Go! <br>1</h2>
+                <h2 class="text-2xl text-[#7D6F71]">Animate a <br> Character <br>1</h2>
                 <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">2</span>
             </a>
 
             <!-- Card 3 -->
-            <a href="{{ route('go2') }}"
+            <a href="{{ route('animate2') }}"
                 class=" bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="text-2xl text-[#7D6F71]">Go! Go! Go! <br>2</h2>
+                <h2 class="text-2xl text-[#7D6F71]">Animate a <br> Character <br>2</h2>
                 <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">3</span>
             </a>
 
             <!-- Card 4 -->
-            <a href="{{ route('fast') }}"
+            <a href="{{ route('animate3') }}"
                 class=" bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="text-2xl text-[#7D6F71]">Fast and <br> Slow</h2>
+                <h2 class="text-2xl text-[#7D6F71]">Animate a <br> Character <br>3</h2>
                 <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">4</span>
             </a>
 
             <!-- Card 5 -->
-            <a href="{{ route('soundL') }}"
+            <a href="{{ route('animate4') }}"
                 class=" bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="text-2xl text-[#7D6F71]">Sound and <br> Light</h2>
+                <h2 class="text-2xl text-[#7D6F71]">Animate a <br> Character <br>4</h2>
                 <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">5</span>
             </a>
 
             <!-- Card 6 -->
-            <a href="{{ route('challenge1') }}"
+            <a href="{{ route('animate5') }}"
                 class=" bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="text-2xl text-[#7D6F71]">Coding <br> Challenge 1</h2>
+                <h2 class="text-2xl text-[#7D6F71]">Animate a <br> Character <br>5</h2>
                 <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">6</span>
             </a>
 
             <!-- Card 7 -->
-            <a href="{{ route('challenge2') }}"
+            <a href="{{ route('character') }}"
                 class=" bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="text-2xl text-[#7D6F71]">Coding <br> Challenge 2</h2>
+                <h2 class="text-2xl text-[#7D6F71]">Animate the <br> Characters</h2>
                 <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">7</span>
             </a>
 
              <!-- Card 8 -->
-            <a href="{{ route('challenge3') }}"
+            <a href="{{ route('story') }}"
                 class=" bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="text-2xl text-[#7D6F71]">Coding <br> Challenge 3</h2>
+                <h2 class="text-2xl text-[#7D6F71]">Our <br> Animated <br> Stories</h2>
                 <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">8</span>
             </a>
         </div>
     </div>
 
-    {{--  Second Slide (Initially Hidden) --}}
-    <div class="board w-[1267px] h-[734px] flex flex-col justify-center items-center slide hidden">
-
-        <h2 class="text-[45px] text-[#F7B94A] font-extrabold stroke ">Coding and Robotics</h2>
-
-        <div class="flex items-center flex-wrap justify-center max-w-[600px] ">
-            <!-- Card 1-->
-            <a href="{{ route('challenge4') }}"
-                class=" bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="text-2xl text-[#7D6F71]">Coding <br> Challenge 4</h2>
-                <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">9</span>
-            </a>
-
-            <!-- Card 2 -->
-            <a href="{{ route('challenge5') }}"
-                class=" bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="text-2xl text-[#7D6F71]">Coding <br> Challenge 5</h2>
-                <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">10</span>
-            </a>
-
-            <!-- Card 3 -->
-            <a href="{{ route('final') }}"
-                class=" bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="text-2xl text-[#7D6F71]">Final <br> Project</h2>
-                <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">11</span>
-            </a>
-        </div>
-    </div>
-
     {{--  Top Buttons --}}
-    <div id="buttons" class="absolute top-0 right-[60px] flex flex-row gap-6 z-90">
+    <div id="buttons" class="absolute top-[30px] right-[60px] flex flex-row gap-6 z-90">
 
         <!-- Return Button (hidden initially) -->
         <a class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
@@ -170,63 +141,16 @@
         </button>
     </div>
 
-    {{--  Next Button --}}
-    <div class="absolute bottom-[85px]">
-        <button
-            class="cursor-pointer nextButton w-66 h-[75px] relative bg-[#F8A23A]  rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
-        outline outline-1 outline-yellow-700 overflow-hidden">
-            <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
-            <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" />
-            </div>
-            <span class="absolute left-[80px] top-[18px] flex items-center  text-white text-5xl font-bold stroke">NEXT
-            </span>
-        </button>
-    </div>
 @endsection
 
 @push('script')
 <script>
     document.addEventListener("DOMContentLoaded", () => {
-        const slides = document.querySelectorAll(".slide");
-        const nextButton = document.querySelector(".nextButton");
         const returnButton = document.getElementById("returnButton");
 
-        let currentSlide = 0;
-
-        function showSlide(index) {
-            slides.forEach((slide, i) => {
-                slide.classList.toggle("hidden", i !== index);
-            });
-
-            //  First slide → show NEXT, hide RETURN
-            if (index === 0) {
-                nextButton.classList.remove("hidden");
-            }
-            //  Second slide → hide NEXT, show RETURN
-            else if (index === 1) {
-                nextButton.classList.add("hidden");
-                returnButton.classList.remove("hidden");
-            }
-        }
-
-        //  NEXT button → go to 2nd slide
-        nextButton.addEventListener("click", () => {
-            if (currentSlide < slides.length - 1) {
-                currentSlide++;
-                showSlide(currentSlide);
-            }
-        });
-
-        //  RETURN button → go back to 1st slide
-        returnButton.addEventListener("click", () => {
-            if (currentSlide > 0) {
-                currentSlide--;
-                showSlide(currentSlide);
-            }
-        });
-
-        //  Start with first slide
-        showSlide(currentSlide);
+         returnButton.addEventListener("click", function(){
+            window.location.href = "{{ route('K2') }}";
+         })
     });
 </script>
 @endpush

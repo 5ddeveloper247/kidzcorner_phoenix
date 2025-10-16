@@ -2379,6 +2379,193 @@ Route::get('/k2coding', function () {
 })->name('k2coding');
 
 
+// ====
+// K2 -> coding -> AnimateaCharacter1
+Route::get('/coding/AnimateaCharacter1', function () {
+    return view('iSTEAM.K2.coding.animate1.index');
+})->name('animate1');
+
+// K2 -> coding -> AnimateaCharacter1 -> select
+Route::get('/AnimateaCharacter1/Choice', function () {
+    return view('iSTEAM.K2.coding.animate1.selection');
+})->name('animate1Selection');
+
+// K2 -> coding -> AnimateaCharacter1 -> lesson
+Route::get('/coding/AnimateaCharacter1/lesson', function () {
+    return view('iSTEAM.K2.coding.animate1.lesson');
+})->name('animate1Lesson');
+
+// K2 -> coding -> AnimateaCharacter1 -> teacher
+Route::get('/coding/AnimateaCharacter1/teacher', function () {
+    return view('iSTEAM.K2.coding.animate1.teacher');
+})->name('animate1Teacher');
+
+
+// ====
+// K2 -> coding -> AnimateaCharacter2
+Route::get('/coding/AnimateaCharacter2', function () {
+    return view('iSTEAM.K2.coding.animate2.index');
+})->name('animate2');
+
+// K2 -> coding -> AnimateaCharacter2 -> select
+Route::get('/AnimateaCharacter2/Choice', function () {
+    return view('iSTEAM.K2.coding.animate2.selection');
+})->name('animate2Selection');
+
+// K2 -> coding -> AnimateaCharacter2 -> lesson
+Route::get('/coding/AnimateaCharacter2/lesson', function () {
+    return view('iSTEAM.K2.coding.animate2.lesson');
+})->name('animate2Lesson');
+
+// K2 -> coding -> AnimateaCharacter2 -> teacher
+Route::get('/coding/AnimateaCharacter2/teacher', function () {
+    return view('iSTEAM.K2.coding.animate2.teacher');
+})->name('animate2Teacher');
+
+
+// ====
+// K2 -> coding -> AnimateaCharacter3
+Route::get('/coding/AnimateaCharacter3', function () {
+    return view('iSTEAM.K2.coding.animate3.index');
+})->name('animate3');
+
+// K2 -> coding -> AnimateaCharacter3 -> select
+Route::get('/AnimateaCharacter3/Choice', function () {
+    return view('iSTEAM.K2.coding.animate3.selection');
+})->name('animate3Selection');
+
+// K2 -> coding -> AnimateaCharacter3 -> lesson
+Route::get('/coding/AnimateaCharacter3/lesson', function () {
+    return view('iSTEAM.K2.coding.animate3.lesson');
+})->name('animate3Lesson');
+
+// K2 -> coding -> AnimateaCharacter3 -> teacher
+Route::get('/coding/AnimateaCharacter3/teacher', function () {
+    return view('iSTEAM.K2.coding.animate3.teacher');
+})->name('animate3Teacher');
+
+
+// ====
+// K2 -> coding -> AnimateaCharacter4
+Route::get('/coding/AnimateaCharacter4', function () {
+    return view('iSTEAM.K2.coding.animate4.index');
+})->name('animate4');
+
+// K2 -> coding -> AnimateaCharacter4 -> select
+Route::get('/AnimateaCharacter4/Choice', function () {
+    return view('iSTEAM.K2.coding.animate4.selection');
+})->name('animate4Selection');
+
+// K2 -> coding -> AnimateaCharacter4 -> lesson
+Route::get('/coding/AnimateaCharacter4/lesson', function () {
+    return view('iSTEAM.K2.coding.animate4.lesson');
+})->name('animate4Lesson');
+
+// K2 -> coding -> AnimateaCharacter4 -> teacher
+Route::get('/coding/AnimateaCharacter4/teacher', function () {
+    return view('iSTEAM.K2.coding.animate4.teacher');
+})->name('animate4Teacher');
+
+
+// ====
+// K2 -> coding -> AnimateaCharacter5
+Route::get('/coding/AnimateaCharacter5', function () {
+    return view('iSTEAM.K2.coding.animate5.index');
+})->name('animate5');
+
+// K2 -> coding -> AnimateaCharacter5 -> select
+Route::get('/AnimateaCharacter5/Choice', function () {
+    return view('iSTEAM.K2.coding.animate5.selection');
+})->name('animate5Selection');
+
+// K2 -> coding -> AnimateaCharacter5 -> lesson
+Route::get('/coding/AnimateaCharacter5/lesson', function () {
+    return view('iSTEAM.K2.coding.animate5.lesson');
+})->name('animate5Lesson');
+
+// K2 -> coding -> AnimateaCharacter5 -> teacher
+Route::get('/coding/AnimateaCharacter5/teacher', function () {
+    return view('iSTEAM.K2.coding.animate5.teacher');
+})->name('animate5Teacher');
+
+
+// ====
+// K2 -> coding -> AnimatetheCharacters
+Route::get('/coding/AnimatetheCharacters', function () {
+    return view('iSTEAM.K2.coding.character.index');
+})->name('character');
+
+// K2 -> coding -> AnimatetheCharacters -> select
+Route::get('/AnimatetheCharacters/Choice', function () {
+    return view('iSTEAM.K2.coding.character.selection');
+})->name('characterSelection');
+
+// K2 -> coding -> AnimatetheCharacters -> lesson
+Route::get('/coding/AnimatetheCharacters/lesson', function () {
+    return view('iSTEAM.K2.coding.character.lesson');
+})->name('characterLesson');
+
+// K2 -> coding -> AnimatetheCharacters -> teacher
+Route::get('/coding/AnimatetheCharacters/teacher', function () {
+    return view('iSTEAM.K2.coding.character.teacher');
+})->name('characterTeacher');
+
+
+// ====
+// K2 -> coding -> WhatisScratchJr
+Route::get('/coding/WhatisScratchJr', function () {
+    return view('iSTEAM.K2.coding.scratch.index');
+})->name('scratch');
+
+// K2 -> coding -> WhatisScratchJr -> select
+Route::get('/WhatisScratchJr/Choice', function () {
+    return view('iSTEAM.K2.coding.scratch.selection');
+})->name('scratchSelection');
+
+// K2 -> coding -> WhatisScratchJr -> lesson
+Route::get('/coding/WhatisScratchJr/lesson', function () {
+    return view('iSTEAM.K2.coding.scratch.lesson');
+})->name('scratchLesson');
+
+// K2 -> coding -> WhatisScratchJr -> teacher
+Route::get('/coding/WhatisScratchJr/teacher', function () {
+    return view('iSTEAM.K2.coding.scratch.teacher');
+})->name('scratchTeacher');
+
+
+// ====
+// K2 -> coding -> OurStories
+Route::get('/coding/OurStories', function () {
+    return view('iSTEAM.K2.coding.story.index');
+})->name('story');
+
+// K2 -> coding -> OurStories -> select
+Route::get('/OurStories/Choice', function () {
+    return view('iSTEAM.K2.coding.story.selection');
+})->name('storySelection');
+
+// K2 -> coding -> OurStories -> lesson
+Route::get('/coding/OurStories/lesson', function () {
+    return view('iSTEAM.K2.coding.story.lesson');
+})->name('storyLesson');
+
+// K2 -> coding -> OurStories -> teacher
+Route::get('/coding/OurStories/teacher', function () {
+    return view('iSTEAM.K2.coding.story.teacher');
+})->name('storyTeacher');
+
+
+
+
+
+
+
+
+
+
+
+
+
 // ======
 // K2 -> ElectronicCircuits
 Route::get('/k2ElectronicCircuits', function () {
