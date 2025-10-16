@@ -73,9 +73,9 @@
 @section('content')
 
 
-    <div class=" flex items-center flex-col justify-center text-center z-[999]  max-w-[1000px]  m-auto">
-        <h2 class="text-[50px] text-[#F7B94A]"> What is Light?</h2>
-        <div class="flex items-center justify-between">
+    <div class=" flex items-center flex-col relative justify-center text-center z-[999]  max-w-[1000px]  m-auto">
+        <h2 class="title stroke absolute top-[-100px]">Different Types of Shadows</h2>
+        <div class="flex items-center justify-between gap-[15rem]">
 
             {{-- Lesson Button --}}
             <a href="{{ route('typesLesson') }}" id="Lesson" class="flex flex-col gap-0">

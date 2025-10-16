@@ -2,26 +2,12 @@
 
 @section('title', 'Dynamic Presentation')
 
-@push('style')
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-    <style>
-        button {
-            cursor: pointer !important;
-        }
-
-        a {
-            cursor: pointer;
-
-        }
-    </style>
-@endpush
-
 
 @section('content')
 
     {{-- slide 0 --}}
     <div class="flex flex-col items-center justify-center gap-5 slide hidden">
-        <h2 class="title">Do you remember these glow-in-the-dark toys?</h2>
+        <h2 class="title stroke">Do you remember these glow-in-the-dark toys?</h2>
         <img src="{{ asset('assets/images/pptimages/dark1.png') }}" class="max-w-[500px] sm:max-w-[600px] lg:max-w-[536px]" />
         <p class="note">Note: Encourage children to share their answers.</p>
     </div>
@@ -29,7 +15,7 @@
     {{-- slide 1 --}}
     <div class="flex flex-col items-center justify-center gap-5 slide hidden">
         <div class="flex flex-col items-center justify-center">
-            <h2 class="title">These toys store light energy and glow when
+            <h2 class="title stroke">These toys store light energy and glow when
                 they are in a dark palce.</h2>
             <img src="{{ asset('assets/images/pptimages/dark2.png') }}"
                 class="max-w-[500px] sm:max-w-[600px] lg:max-w-[536px]" />
@@ -39,7 +25,7 @@
 
     {{-- slide 2 --}}
     <div class="flex flex-col items-center justify-center gap-2 slide hidden">
-        <h2 class="title">Look at these items, they are bright in
+        <h2 class="title stroke">Look at these items, they are bright in
             colours. Do they look like they are glowing?</h2>
 
         <img src="{{ asset('assets/images/pptimages/bl1.png') }}" class="max-w-[500px] sm:max-w-[600px] lg:max-w-[536px]" />
@@ -47,7 +33,7 @@
 
     {{-- slide 3 --}}
     <div class="flex flex-col items-center justify-center gap-2 slide hidden">
-        <h2 class="title">These bright colours are known as neon colours.</h2>
+        <h2 class="title stroke">These bright colours are known as neon colours.</h2>
         <img src="{{ asset('assets/images/pptimages/bl1.png') }}" class="max-w-[500px] sm:max-w-[600px] lg:max-w-[536px]" />
     </div>
 

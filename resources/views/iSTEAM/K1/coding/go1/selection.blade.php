@@ -55,10 +55,11 @@
             font-size: 60px;
             color: white;
         }
-            a {
-                cursor: pointer;
 
-            }
+        a {
+            cursor: pointer;
+
+        }
     </style>
 @endpush
 
@@ -67,8 +68,8 @@
 @section('content')
 
 
-    <div class=" flex items-center flex-col justify-center text-center z-[999]  max-w-[1000px]  m-auto">
-        <h2 class="text-[50px] text-[#F7B94A]"> What is Light?</h2>
+    <div class=" flex items-center flex-col justify-center text-center z-[999]  w-full">
+        <h2 class="text-[50px] text-[#F7B94A]">Go! Go! Go! 1</h2>
         <div class="flex items-center justify-between">
 
             {{-- Lesson Button --}}

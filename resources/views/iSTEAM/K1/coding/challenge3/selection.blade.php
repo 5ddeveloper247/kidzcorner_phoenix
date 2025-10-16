@@ -73,8 +73,8 @@
 @section('content')
 
 
-    <div class=" flex items-center flex-col justify-center text-center z-[999]  max-w-[1000px]  m-auto">
-        <h2 class="text-[50px] text-[#F7B94A]"> What is Light?</h2>
+    <div class=" flex items-center flex-col justify-center text-center z-[999]  w-full  ">
+        <h2 class="text-[50px] text-[#F7B94A]">Coding Challenge 3</h2>
         <div class="flex items-center justify-between">
 
             {{-- Lesson Button --}}

@@ -55,7 +55,7 @@
             </ul>
         </div>
         <div class="flex items-center">
-            <img src="{{ asset('assets/images/N2/a7.png') }}" class="w-[536px]" />
+            <img src="{{ asset('assets/images/N2/SimpleMachines/a7.png') }}" class="w-[536px]" />
             <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt=""
                 class="h-[350xp] object-contain" />
         </div>
@@ -71,7 +71,7 @@
             </ul>
         </div>
         <div class="flex items-center">
-            <img src="{{ asset('assets/images/N2/a8.png') }}" class="w-[536px]" />
+            <img src="{{ asset('assets/images/N2/SimpleMachines/a8.png') }}" class="w-[536px]" />
             <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt=""
                 class="h-[350xp] object-contain" />
         </div>
@@ -88,7 +88,7 @@
             </ul>
         </div>
         <div class="flex items-center">
-            <img src="{{ asset('assets/images/N2/a56.png') }}" class="w-[536px]" />
+            <img src="{{ asset('assets/images/N2/SimpleMachines/a56.png') }}" class="w-[536px]" />
             <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt=""
                 class="h-[350xp] object-contain" />
         </div>
@@ -104,7 +104,7 @@
             </ul>
         </div>
         <div class="flex items-center">
-            <img src="{{ asset('assets/images/N2/at1.png') }}" class="w-[536px]" />
+            <img src="{{ asset('assets/images/N2/SimpleMachines/at1.png') }}" class="w-[536px]" />
             <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt=""
                 class="h-[350xp] object-contain" />
         </div>

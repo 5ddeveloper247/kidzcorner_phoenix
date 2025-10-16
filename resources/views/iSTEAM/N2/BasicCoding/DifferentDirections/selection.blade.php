@@ -75,8 +75,8 @@
 
 
     <div class=" flex items-center flex-col justify-center text-center z-[999]  max-w-[1000px]  m-auto">
-        <h2 class="text-[50px] text-[#F7B94A]"> What is Light?</h2>
-        <div class="flex items-center justify-between">
+        <h2 class="text-[50px] text-[#F7B94A]">Different Directions</h2>
+        <div class="flex items-center justify-between gap-[15rem]">
 
             {{-- Lesson Button --}}
             <a href="{{ route('DifferentDirectionsLesson') }}" id="Lesson" class="flex flex-col gap-0">
@@ -105,8 +105,7 @@
 
 
 
-    <div id="buttons" class="absolute top-[24px] right-[60px] flex flex-row gap-6 z-40">
-
+    <div id="buttons" class="absolute top-[30px] right-[60px] flex flex-row gap-6 z-40">
         <!-- Return Button -->
         <a href="{{ url('DifferentDirections') }}"
             class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"

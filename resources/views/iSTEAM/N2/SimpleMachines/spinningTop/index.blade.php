@@ -1,36 +1,10 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
 
-@push('style')
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-    <style>
-        button {
-            cursor: pointer;
-        }
-
-        .stroke {
-
-            -webkit-text-stroke: 2px #533705;
-        }
-
-        .note {
-            font-size: 24px;
-            font-weight: 400;
-            color: white;
-        }
-
-        a {
-            cursor: pointer;
-
-        }
-    </style>
-@endpush
-
-
 
 @section('content')
 
-    <div id="topDiv" class="flex flex-col items-center ">
+    <div id="topDiv" class="flex flex-col items-center h-full justify-between ">
         <div class="  text-amber-300 text-[65px] font-extrabold stroke">A Spinning Top</div>
         <h2 class="text-2xl sm:text-3xl lg:text-6xl text-white max-w-5xl leading-snug flex flex-col items-center space-x-[30px]">
            Explore the characteristics and uses of wheel and axles - a simple machine; build a pinwheel based on a pictorial guide.</h2>
@@ -42,10 +16,6 @@
             </span>
         </button>
     </div>
-
-
-
-
 
     <div id="buttons" class="absolute top-[24px] right-[60px] flex flex-row gap-6 z-40">
 

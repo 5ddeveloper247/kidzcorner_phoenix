@@ -1,28 +1,8 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
 
-@push('style')
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-    <style>
-        button {
-            cursor: pointer !important;
-        }
-
-        a {
-            cursor: pointer;
-
-        }
-    </style>
-@endpush
-
-
-
 @section('content')
-
-
-
-
-    {{-- sldie 23  --}}
+    {{-- sldie 1 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
             <h2 class="  font-bold">Children will be able to:</h2>
@@ -61,7 +41,7 @@
             </ul>
         </div>
         <div class="flex items-center">
-            <img src="{{ asset('assets/images/N2/s24.png') }}" class="w-[636px]" />
+            <img src="{{ asset('assets/images/N2/SimpleMachines/s24.png') }}" class="w-[636px]" />
             <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt=""
                 class="h-[350xp] object-contain" />
         </div>
@@ -79,7 +59,7 @@
             </ul>
         </div>
         <div class="flex items-center">
-            <img src="{{ asset('assets/images/N2/s25.png') }}" class="w-[636px]" />
+            <img src="{{ asset('assets/images/N2/SimpleMachines/s25.png') }}" class="w-[636px]" />
             <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt=""
                 class="h-[350xp] object-contain" />
         </div>
@@ -95,7 +75,7 @@
             </ul>
         </div>
         <div class="flex items-center">
-            <img src="{{ asset('assets/images/N2/at1.png') }}" class="w-[536px]" />
+            <img src="{{ asset('assets/images/N2/SimpleMachines/at1.png') }}" class="w-[536px]" />
             <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt=""
                 class="h-[350xp] object-contain" />
         </div>

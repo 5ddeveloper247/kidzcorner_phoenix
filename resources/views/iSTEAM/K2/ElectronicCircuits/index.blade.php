@@ -94,7 +94,7 @@
                 <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">7</span>
             </a>
 
-             <!-- Card 8 -->
+            <!-- Card 8 -->
             <a href="{{ route('city') }}"
                 class=" bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
                 <h2 class="text-2xl text-[#7D6F71]">Our <br> Amazing <br> City</h2>
@@ -106,13 +106,11 @@
 
 
     {{--  Top Buttons --}}
-    <div id="buttons" class="absolute top-0 right-[60px] flex flex-row gap-6 z-90">
-
+    <div id="buttons" class="absolute top-[30px] right-[60px] flex flex-row gap-6 z-90">
         <!-- Return Button (hidden initially) -->
         <a class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
             id="returnButton">
-            <img class="absolute top-[6px] left-[8px] w-20 h-10"
-                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
+            <img class="absolute top-[6px] left-[8px] w-20 h-10" src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
             <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
             <img class="absolute top-[24px] left-[22px] w-14 h-14"
                 src="{{ asset('assets/images/pptimages/reverse-icon.png') }}" />
@@ -146,48 +144,14 @@
 @endsection
 
 @push('script')
-<script>
-    document.addEventListener("DOMContentLoaded", () => {
-        const slides = document.querySelectorAll(".slide");
-        const nextButton = document.querySelector(".nextButton");
-        const returnButton = document.getElementById("returnButton");
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const returnButton = document.getElementById("returnButton");
 
-        let currentSlide = 0;
-
-        function showSlide(index) {
-            slides.forEach((slide, i) => {
-                slide.classList.toggle("hidden", i !== index);
+            //  RETURN button → go back to 1st slide
+            returnButton.addEventListener("click", () => {
+                window.location.href = "{{ route('K2') }}";
             });
-
-            //  First slide → show NEXT, hide RETURN
-            if (index === 0) {
-                nextButton.classList.remove("hidden");
-            }
-            //  Second slide → hide NEXT, show RETURN
-            else if (index === 1) {
-                nextButton.classList.add("hidden");
-                returnButton.classList.remove("hidden");
-            }
-        }
-
-        //  NEXT button → go to 2nd slide
-        nextButton.addEventListener("click", () => {
-            if (currentSlide < slides.length - 1) {
-                currentSlide++;
-                showSlide(currentSlide);
-            }
         });
-
-        //  RETURN button → go back to 1st slide
-        returnButton.addEventListener("click", () => {
-            if (currentSlide > 0) {
-                currentSlide--;
-                showSlide(currentSlide);
-            }
-        });
-
-        //  Start with first slide
-        showSlide(currentSlide);
-    });
-</script>
+    </script>
 @endpush

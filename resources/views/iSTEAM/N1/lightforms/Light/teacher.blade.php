@@ -152,7 +152,7 @@
 
     {{--  slide 26 --}}
     <div class=" slide text-white flex flex-col justify-start text-start text-2xl">
-        <h1 class="stroke font-bold">Let’s sort!</h1>
+        <h1 class="font-bold">Let’s sort!</h1>
         <div>
             <h2 class="font-bold">Preparations for Class Activity I:</h2>
             <p>Place pictures of various items such as pot of plant, bottle, shoe, sock, box, elephant, lamp, light
@@ -178,8 +178,18 @@
         </div>
     </div>
 
-    <div class="absolute bottom-0">
-        <button class="cursor-pointer doneButton w-66 h-[75px] relative bg-[#F8A23A] rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
+
+
+
+
+
+
+
+    {{-- Buttons --}}
+    {{-- done button --}}
+    <div class="absolute  bottom-[90px] z-[999]">
+        <button
+            class="cursor-pointer doneButton w-66 h-[75px] relative bg-[#F8A23A] rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
                     outline outline-1 outline-yellow-700 overflow-hidden">
             <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
             <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" />
@@ -189,14 +199,8 @@
         </button>
     </div>
 
-
-
-
-
-
-    {{-- Buttons --}}
-    <div id="buttons" class="absolute top-0 right-[60px] flex flex-row gap-6 z-90">
-
+    {{-- top Button --}}
+    <div id="buttons" class="absolute top-[30px] right-[60px] flex flex-row gap-6 z-[999]">
         <!-- Return Button -->
         <a class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
             id="returnButton">
@@ -205,7 +209,6 @@
             <img class="absolute top-[24px] left-[22px] w-14 h-14"
                 src="{{ asset('assets/images/pptimages/reverse-icon.png') }}" />
         </a>
-
         <!-- Home Button -->
         <button
             class="relative w-24 h-24 button-fade-in bg-sky-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
@@ -233,8 +236,7 @@
     </div>
 
     {{-- next Button --}}
-    <div class="absolute bottom-0">
-
+    <div class="absolute bottom-[90px] z-[999]">
         <button
             class="cursor-pointer nextButton w-66 h-[75px] relative bg-[#F8A23A]  rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
         outline outline-1 outline-yellow-700 overflow-hidden">
@@ -244,9 +246,6 @@
             </span>
         </button>
     </div>
-
-
-
 
 @endsection
 

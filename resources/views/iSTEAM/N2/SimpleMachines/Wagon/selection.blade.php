@@ -74,8 +74,8 @@
 
 
     <div class=" flex items-center flex-col justify-center text-center z-[999]  max-w-[1000px]  m-auto">
-        <h2 class="text-[50px] text-[#F7B94A]"> A Wagon</h2>
-        <div class="flex items-center justify-between">
+        <h2 class="text-[50px] text-[#F7B94A] stroke">A Wagon</h2>
+        <div class="flex items-center justify-between gap-[15rem]">
 
             {{-- Lesson Button --}}
             <a href="{{ route('WagonLesson') }}" id="Lesson" class="flex flex-col gap-0">

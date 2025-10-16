@@ -30,19 +30,18 @@
 
 @section('content')
 
-    <div id="topDiv" class="flex flex-col  h-[90%] items-center ">
-        <h2 class="  text-amber-300 text-[65px] font-extrabold stroke">Rainbow</h2>
-        <div class="text-2xl sm:text-3xl lg:text-6xl text-white mb-20">
-            Develop awareness of different types of shadows;
+    <div id="topDiv" class="flex flex-col h-full justify-between items-center ">
+        <h2 class="title !text-[55px] stroke">Rainbow</h2>
+        <div class="text-2xl sm:text-3xl lg:text-4xl text-white">
+            Develop awareness of different types of shadows; <br>
             explore materials and their shadows
         </div>
 
         <button
-            class="cursor-pointer nextButton w-62 h-[130px] relative bg-[#F8A23A]  rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
-        outline outline-1 outline-yellow-700 overflow-hidden">
+            class="cursor-pointer nextButton w-62 h-[80px] flex justify-center items-center  relative bg-[#F8A23A]  rounded-[30px] overflow-hidden">
             <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
             <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" /> </div>
-            <span class="absolute left-[80px] top-[18px] flex items-center  text-white text-5xl font-bold stroke">NEXT
+            <span class="flex items-center  text-white text-5xl font-bold stroke">NEXT
             </span>
         </button>
 

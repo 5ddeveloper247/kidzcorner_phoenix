@@ -73,9 +73,9 @@
 @section('content')
 
 
-    <div class=" flex items-center flex-col justify-center text-center z-[999]  max-w-[1000px]  m-auto">
-        <h2 class="text-[50px] text-[#F7B94A]"> What is Light?</h2>
-        <div class="flex items-center justify-between">
+<div class=" flex items-center flex-col justify-center relative text-center z-[999]  max-w-[1000px]  m-auto">
+        <h2 class="text-[50px] text-[#F7B94A] absolute stroke top-[-120px]">Black Light</h2>
+        <div class="flex items-center gap-[15rem]">
 
             {{-- Lesson Button --}}
             <a href="{{ route('blacklightLesson') }}" id="Lesson" class="flex flex-col gap-0">
@@ -104,11 +104,10 @@
 
 
 
-    <div id="buttons" class="absolute top-[24px] right-[60px] flex flex-row gap-6 z-40">
-
+    <div id="buttons" class="absolute top-[30px] right-[60px] flex flex-row gap-6 z-40">
         <!-- Return Button -->
-        <a href="{{ route('types') }}"
-            class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
+        <a href="{{ route('blacklight') }}"
+            class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] cursor-pointer"
             id="returnButton">
             <img class="absolute top-[6px] left-[8px] w-20 h-10" src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
             <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
@@ -118,7 +117,7 @@
 
         <!-- Home Button -->
         <button
-            class="relative w-24 h-24 button-fade-in bg-sky-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
+            class="relative w-24 h-24 button-fade-in bg-sky-500 rounded-[30px]  cursor-pointer"
             id="homeButton">
             <img class="absolute top-[6px] left-[8px] w-20 h-10" src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
             <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>

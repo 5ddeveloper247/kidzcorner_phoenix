@@ -30,15 +30,15 @@
 
 @section('content')
 
-    <div id="topDiv" class="flex flex-col  h-[90%] items-center ">
+    <div id="topDiv" class="flex flex-col h-full justify-between items-center ">
         <h2 class="  text-amber-300 text-[65px] font-extrabold stroke">Different Types of Shadows</h2>
-        <div class="text-2xl sm:text-3xl lg:text-6xl text-white mb-20">
+        <div class="text-2xl sm:text-3xl lg:text-5xl text-white mb-20">
             Develop awareness of different types of shadows;
             explore materials and their shadows
         </div>
 
         <button
-            class="cursor-pointer nextButton w-62 h-[130px] relative bg-[#F8A23A]  rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
+            class="cursor-pointer nextButton w-62 h-[80px] relative bg-[#F8A23A]  rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
         outline outline-1 outline-yellow-700 overflow-hidden">
             <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
             <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" /> </div>

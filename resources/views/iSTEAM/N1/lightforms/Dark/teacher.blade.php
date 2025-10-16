@@ -1,22 +1,6 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
 
-@push('style')
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-    <style>
-        button {
-            cursor: pointer !important;
-        }
-
-        a {
-            cursor: pointer;
-
-        }
-    </style>
-@endpush
-
-
-
 @section('content')
 
     {{-- slide 1 --}}
@@ -134,18 +118,18 @@
 
     {{-- slide 4 --}}
     <div class="text-white flex  flex-col justify-start gap-y-10 text-start text-2xl slide hidden">
-        <h1 class="title  text-center">Learning Centre Idea</h1>
+        <h1 class="title  text-center stroke">Learning Centre Idea</h1>
         <div>
-            <h2 class="font-bold stroke">Glow in the box</h2>
+            <h2 class="font-bold">Glow in the box</h2>
             <h2>What and how to set up:</h2>
-            <p>Provide materials such as black box, cubes, pom pom balls, manipulative 
-toys and other glow-in-dark toys and materials</p>
+            <p>Provide materials such as black box, cubes, pom pom balls, manipulative
+                toys and other glow-in-dark toys and materials</p>
         </div>
         <div class="flex w-[100%] items-center justify-between">
             <div>
                 <h2 class="font-bold">What to do:</h2>
                 <ul class="mt-2 list-decimal space-y-1 pl-6">
-                    <li>  Invite children to explore with the materials provided</li>
+                    <li> Invite children to explore with the materials provided</li>
                     <li> Put a toy in the black box and see if it glows in the dark.</li>
                 </ul>
             </div>
@@ -158,14 +142,14 @@ toys and other glow-in-dark toys and materials</p>
 
 
     {{-- done Button --}}
-    <div class="absolute bottom-0">
+    <div class="absolute bottom-[80px] z-[99]">
         <button
             class="cursor-pointer doneButton w-66 h-[75px] relative bg-[#F8A23A] rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
                     outline outline-1 outline-yellow-700 overflow-hidden">
             <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
             <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" />
             </div>
-            <span class="absolute left-[80px] top-[18px] flex items-center  text-white text-5xl font-bold ">DONE</span>
+            <span class="absolute left-[80px] top-[18px] flex items-center stroke  text-white text-5xl font-bold ">DONE</span>
         </button>
     </div>
 
@@ -209,14 +193,14 @@ toys and other glow-in-dark toys and materials</p>
     </div>
 
     {{-- next Button --}}
-    <div class="absolute bottom-0">
+    <div class="absolute bottom-[80px] z-[99]">
 
         <button
             class="cursor-pointer nextButton w-66 h-[75px] relative bg-[#F8A23A]  rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
         outline outline-1 outline-yellow-700 overflow-hidden">
             <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
             <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" /> </div>
-            <span class="absolute left-[80px] top-[18px] flex items-center  text-white text-5xl font-bold ">NEXT
+            <span class="absolute left-[80px] top-[18px] stroke flex items-center  text-white text-5xl font-bold ">NEXT
             </span>
         </button>
     </div>

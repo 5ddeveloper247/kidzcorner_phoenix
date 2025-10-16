@@ -2,26 +2,12 @@
 
 @section('title', 'Dynamic Presentation')
 
-@push('style')
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-    <style>
-        button {
-            cursor: pointer !important;
-        }
-
-        a {
-            cursor: pointer;
-
-        }
-    </style>
-@endpush
-
 
 @section('content')
 
     {{-- slide 0 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <h2 class="title">Children, do you remember how were these shapes formed?</h2>
+        <h2 class="title stroke">Children, do you remember how were these shapes formed?</h2>
             <img src="{{ asset('assets/images/pptimages/cshapes.png') }}"
                 class="max-w-[500px] sm:max-w-[600px] lg:max-w-[736px]" />
             <p class="note">Note: Guide children to share their answers.</p>
@@ -30,35 +16,35 @@
     {{-- slide 1 --}}
     <div class="flex flex-col items-center justify-center gap-5 slide hidden">
         <div class="flex flex-col items-center justify-center">
-            <h2 class="title">These shapes are formed by joining lines together.</h2>
+            <h2 class="title stroke">These shapes are formed by joining lines together.</h2>
             <img src="{{ asset('assets/images/pptimages/shapess.png') }}" class="max-w-[500px] sm:max-w-[600px] lg:max-w-[736px]" />
         </div>
     </div>
 
     {{-- slide 2 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <h2 class="title">When the ice cream sticks are joined together,it formed a structure in the shape of a square.
+        <h2 class="title stroke">When the ice cream sticks are joined together,it formed a structure in the shape of a square.
         </h2>
         <img src="{{ asset('assets/images/pptimages/shape2.png') }}"  class="w-[736px]" />
     </div>
 
     {{-- slide 3 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <h2 class="title">Similarly, the ice cream sticks and straws were joined together to form the triangular and
+        <h2 class="title stroke">Similarly, the ice cream sticks and straws were joined together to form the triangular and
             rectangular structures. </h2>
         <img src="{{ asset('assets/images/pptimages/s1.png') }}"  class="w-[636px]" />
     </div>
 
     {{-- slide 4 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <h2 class="title">The structure of an object gives its shapes.</h2>
+        <h2 class="title stroke">The structure of an object gives its shapes.</h2>
         <img src="{{ asset('assets/images/pptimages/s5.png') }}"  class="w-[636px]" />
         <p class="note">Note: Teacher can explain that ice cream sticks and straws were used to make the strcutures.</p>
     </div>
 
     {{-- slide 5 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <h2 class="title">Look at these magnetics tiles, they are structure of different shapes too.</h2>
+        <h2 class="title stroke">Look at these magnetics tiles, they are structure of different shapes too.</h2>
         <div class="flex gap-10 ">
             <img src="{{ asset('assets/images/pptimages/s18.png') }}" class="w-[436px]" />
             <img src="{{ asset('assets/images/pptimages/s17.png') }}" class="w-[436px]"/>
@@ -68,34 +54,34 @@
 
     {{-- slide 6 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <h2 class="title">Shapes can be used to create images.What do you think this is?</h2>
+        <h2 class="title stroke">Shapes can be used to create images.What do you think this is?</h2>
         <img src="{{ asset('assets/images/pptimages/s2.png') }}"  class="w-[536px]" />
         <p class="note">Note: Encourage the children to share their answers.</p>
     </div>
 
     {{-- slide 7 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <h2 class="title">This is a house! It can be made using one square and one triangle.</h2>
+        <h2 class="title stroke">This is a house! It can be made using one square and one triangle.</h2>
         <img src="{{ asset('assets/images/pptimages/s2.png') }}" class="w-[536px]"  />
     </div>
 
     {{-- slide 8 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
 
-        <h2 class="title">Look at this house. What shapes are needed to make it?</h2>
+        <h2 class="title stroke">Look at this house. What shapes are needed to make it?</h2>
         <img src="{{ asset('assets/images/pptimages/s3.png') }}" class="w-[436px]"  />
         <p class="note">Note: Encourage the children to identify and point out the shapes.</p>
     </div>
 
     {{-- slide 9 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <h2 class="title">A bigger house can be created by putting more triangles and squares together.</h2>
+        <h2 class="title stroke">A bigger house can be created by putting more triangles and squares together.</h2>
         <img src="{{ asset('assets/images/pptimages/s3.png') }}" class="w-[436px]"  />
     </div>
 
     {{-- slide 10 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <h2 class="title">A bigger house can be created by putting more triangles and squares together.</h2>
+        <h2 class="title stroke">A bigger house can be created by putting more triangles and squares together.</h2>
         <img src="{{ asset('assets/images/pptimages/s4.png') }}"   class="w-[436px]" />
         <p class="note">Note: Encourage the children share what do they see.</p>
     </div>
@@ -103,7 +89,7 @@
 
     {{-- slide 11 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <h2 class="title">This is a van! It is made up of squares and circles.</h2>
+        <h2 class="title stroke">This is a van! It is made up of squares and circles.</h2>
         <img src="{{ asset('assets/images/pptimages/s4.png') }}" class="w-[436px]"  />
         <p class="note">Note: guide the children to identify the shapes.</p>
     </div>
@@ -148,7 +134,7 @@
             <img src="{{ asset('assets/images/pptimages/s7.png') }}" class="w-[436px]"  />
             <img src="{{ asset('assets/images/pptimages/s6.png') }}" class="w-[436px]"  />
         </div>
-        <h2 class="title">Many other images can be created by using the shapes.</h2>
+        <h2 class="titl strokee">Many other images can be created by using the shapes.</h2>
         <p class="note  text-center">Note: Point out the images created above.</p>
 
     </div>
@@ -190,7 +176,7 @@
 
     {{-- slide 17 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <h2 class="title">When lines are put together, they form a structure. The structures can be of different shapes.
+        <h2 class="title stroke">When lines are put together, they form a structure. The structures can be of different shapes.
         </h2>
         <img src="{{ asset('assets/images/pptimages/s5.png') }}" class="w-[436px]"  />
     </div>
@@ -199,7 +185,7 @@
 
     {{-- slide 18 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <h2 class="title">The structure of an object gives it its shape.</h2>
+        <h2 class="titl strokee">The structure of an object gives it its shape.</h2>
         <img src="{{ asset('assets/images/pptimages/s5.png') }}" class="w-[436px]"  />
         <p class="note  text-center">Note: Teacher can explain that ice cream sticks and straws were used to make the
             structures.</p>
@@ -211,7 +197,7 @@
             <img src="{{ asset('assets/images/pptimages/s7.png') }}" class="w-[436px]"  />
             <img src="{{ asset('assets/images/pptimages/s6.png') }}" class="w-[436px]"  />
         </div>
-        <h2 class="title">When shapes are put together, different images can be created.</h2>
+        <h2 class="title stroke">When shapes are put together, different images can be created.</h2>
 
     </div>
 

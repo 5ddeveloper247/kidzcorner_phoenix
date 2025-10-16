@@ -1,27 +1,12 @@
 @extends('layout.master')
-
-@section('title', 'Dynamic Presentation')
-
-@push('style')
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-    <style>
-        button {
-            cursor: pointer !important;
-        }
-
-        a {
-            cursor: pointer;
-
-        }
-    </style>
-@endpush
+@section('title stroke', 'Dynamic Presentation')
 
 
 @section('content')
 
     {{-- slide 0 --}}
     <div class="flex flex-col items-center justify-center gap-5 slide hidden">
-        <h2 class="title">What do you see in this picture?</h2>
+        <h2 class="title stroke">What do you see in this picture?</h2>
         <img src="{{ asset('assets/images/pptimages/dark1.png') }}" class="max-w-[500px] sm:max-w-[600px] lg:max-w-[536px]" />
         <p class="note">Note: Guide children to share their answers.</p>
     </div>
@@ -29,7 +14,7 @@
     {{-- slide 1 --}}
     <div class="flex flex-col items-center justify-center gap-5 slide hidden">
         <div class="flex flex-col items-center justify-center">
-            <h2 class="title">Do you see toys that are shaped like
+            <h2 class="title stroke">Do you see toys that are shaped like
                 the moon and stars?</h2>
             <img src="{{ asset('assets/images/pptimages/dark1.png') }}"
                 class="max-w-[500px] sm:max-w-[600px] lg:max-w-[536px]" />
@@ -39,7 +24,7 @@
 
     {{-- slide 2 --}}
     <div class="flex flex-col items-center justify-center gap-5 slide hidden">
-        <h2 class="title">These toys are able to store light energy when
+        <h2 class="title stroke">These toys are able to store light energy when
             they are in a bright place.</h2>
         <img src="{{ asset('assets/images/pptimages/dark1.png') }}"
             class="max-w-[500px] sm:max-w-[600px] lg:max-w-[536px]" />
@@ -50,23 +35,23 @@
 
     {{-- slide 3 --}}
     <div class="flex flex-col items-center justify-center gap-2 slide hidden">
-        <h2 class="title">When these toys are place in the dark,
+        <h2 class="title stroke">When these toys are place in the dark,
             they glow!</h2>
         <img src="{{ asset('assets/images/pptimages/dark2.png') }}" />
 
-        <h2 class="title !text--[30px]">They will stop glowing when they have used up the
+        <h2 class="title stroke !text--[30px]">They will stop glowing when they have used up the
             light energy in them.</h2>
     </div>
 
     {{-- slide 4 --}}
     <div class="flex flex-col justify-center gap-5 slide hidden">
         <div class="flex flex-col items-center justify-center">
-            <h2 class="title !text-white">CLASS ACTIVITY </h2>
+            <h2 class="title stroke !text-white">CLASS ACTIVITY </h2>
             <img src="{{ asset('assets/images/pptimages/dark3.png') }}" />
         </div>
         <div class="flex items-start">
 
-            <h2 class="title text-start">Let's try: <br> Can it glow?</h2>
+            <h2 class="title stroke text-start">Let's try: <br> Can it glow?</h2>
         </div>
         <p class="note ">Note: Teacher to include toys that do not glow in the group. Encourage children to choose toys .
         </p>
@@ -76,7 +61,7 @@
 
     {{-- slide 5 --}}
     <div class="flex flex-col items-center justify-center space-y-20 slide hidden">
-        <div class="title text-start px-4">
+        <div class="title stroke text-start px-4">
             <h2>let's do:</h2>
             <ul class="list-decimal">
                 <li>Look at the toys and make a guess which one will glow in the dark.</li>
@@ -87,17 +72,18 @@
     </div>
 
     {{-- slide 6 --}}
-    <div class="flex flex-col items-center justify-center gap-5 slide hidden">
+    <div class="flex flex-col items-center justify-center gap-3 slide hidden">
 
-        <div class="title text-start">
+        <div class="title stroke text-start">
             <h2>let's do:</h2>
             <ul>
                 <li>4. Draw the toys that glow in the dark on the learning journal.</li>
             </ul>
         </div>
-       <div class=" relative ">
-            <p class="absolute top-0 left-0 text-[24px] ">Draw the items that glow in the dark!</p>
-            <img class="w-[536px]" src="{{ asset('assets/images/pptimages/dark4.png') }}"/>
+        <div class="w-[836px] h-[450px] bg-cover bg-center "
+            style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
+            <p class="text-[20px] ">Draw the items that glow in the dark!</p>
+
         </div>
 
     </div>
@@ -106,15 +92,15 @@
     <div class="flex flex-col items-center justify-center gap-3 slide hidden">
         <div class=" flex gap-10  ">
             <div class="flex flex-col items-center justify-center">
-                <h2 class="title !text-[35px]">Clcok</h2>
+                <h2 class="title stroke !text-[35px]">Clcok</h2>
                 <img src="{{ asset('assets/images/pptimages/d5.png') }}" class="w-[430px]" />
             </div>
             <div class="flex flex-col items-center justify-center">
-                <h2 class="title !text-[35px]">Watch</h2>
+                <h2 class="title stroke !text-[35px]">Watch</h2>
                 <img src="{{ asset('assets/images/pptimages/d6.png') }} " class="w-[430px]" />
             </div>
         </div>
-        <h2 class="title">Some clocks and watches have parts that glow in the dark.</h2>
+        <h2 class="title stroke">Some clocks and watches have parts that glow in the dark.</h2>
         <p class="note ">Note: Teacher can show children such clocks and watches too.</p>
     </div>
 
@@ -123,15 +109,15 @@
     <div class="flex flex-col items-center justify-center gap-3 slide hidden">
         <div class=" flex gap-10  ">
             <div class="flex flex-col items-center justify-center">
-                <h2 class="title !text-[35px]">Clcok</h2>
+                <h2 class="title stroke !text-[35px]">Clcok</h2>
                 <img src="{{ asset('assets/images/pptimages/d7.png') }}" class="w-[430px]" />
             </div>
             <div class="flex flex-col items-center justify-center">
-                <h2 class="title !text-[35px]">Watch</h2>
+                <h2 class="title stroke !text-[35px]">Watch</h2>
                 <img src="{{ asset('assets/images/pptimages/d8.png') }} " class="w-[430px]" />
             </div>
         </div>
-        <h2 class="title">With the glow-in-the-dark parts, it is easy to tell the
+        <h2 class="title stroke">With the glow-in-the-dark parts, it is easy to tell the
             items in the dark.</h2>
     </div>
 
@@ -142,7 +128,7 @@
             <img src="{{ asset('assets/images/pptimages/d10.png') }} " class="w-[430px]" />
             <img src="{{ asset('assets/images/pptimages/d9.png') }}" class="w-[430px]" />
         </div>
-        <h2 class="title">Look at the pictures. What are they?</h2>
+        <h2 class="title stroke">Look at the pictures. What are they?</h2>
         <p class="note ">Note: Encourage children to share their answers.</p>
     </div>
 
@@ -150,42 +136,42 @@
     <div class="flex flex-col items-center justify-center gap-3 slide hidden">
         <div class=" flex gap-10  ">
             <div class="flex flex-col items-center justify-center">
-                <h2 class="title !text-[35px]">FireFly</h2>
+                <h2 class="title stroke !text-[35px]">FireFly</h2>
                 <img src="{{ asset('assets/images/pptimages/d10.png') }}" class="w-[430px]" />
             </div>
             <div class="flex flex-col items-center justify-center">
-                <h2 class="title !text-[35px]">Jellyfish</h2>
+                <h2 class="title stroke !text-[35px]">Jellyfish</h2>
                 <img src="{{ asset('assets/images/pptimages/d9.png') }} " class="w-[430px]" />
             </div>
         </div>
-        <h2 class="title">The firefly and the jellyfish can glow in the dark too.</h2>
+        <h2 class="title stroke">The firefly and the jellyfish can glow in the dark too.</h2>
     </div>
 
     {{-- slide 11 --}}
     <div class="flex flex-col items-center justify-center gap-3 slide hidden">
         <div class=" flex gap-10  ">
             <div class="flex flex-col items-center justify-center">
-                <h2 class="title !text-[35px]">FireFly</h2>
+                <h2 class="title stroke !text-[35px]">FireFly</h2>
                 <img src="{{ asset('assets/images/pptimages/d12.png') }}" class="w-[430px]" />
             </div>
             <div class="flex flex-col items-center justify-center">
-                <h2 class="title !text-[35px]">Jellyfish</h2>
+                <h2 class="title stroke !text-[35px]">Jellyfish</h2>
                 <img src="{{ asset('assets/images/pptimages/d11.png') }} " class="w-[430px]" />
             </div>
         </div>
-        <h2 class="title">The firefly and the jellyfish can glow in the dark too.</h2>
+        <h2 class="title stroke">The firefly and the jellyfish can glow in the dark too.</h2>
     </div>
 
 
     {{-- slide 12 --}}
     <div class="flex flex-col justify-center gap-5 slide hidden">
         <div class="flex flex-col items-center justify-center">
-            <h2 class="title !text-white">Individual Activity </h2>
+            <h2 class="title stroke !text-white">Individual Activity </h2>
             <img src="{{ asset('assets/images/pptimages/d13.png') }}" />
         </div>
         <div class="flex items-start">
 
-            <h2 class="title text-start">Let's try: <br>
+            <h2 class="title stroke text-start">Let's try: <br>
                 Make a glow in the dark jar/bottle</h2>
         </div>
         <p class="note ">Note: Teacher to assist children in creating the craft. </p>
@@ -194,7 +180,7 @@
 
     {{-- slide 13 --}}
     <div class="flex flex-col items-center justify-center space-y-20 slide hidden">
-        <div class="title text-start px-4">
+        <div class="title stroke text-start px-4">
             <h2>let's do:</h2>
             <ul class="list-decimal">
                 <li>Make a glow in the dark jar/bottle with the stickers and paint.</li>
@@ -208,7 +194,7 @@
 
     {{-- slide 14 --}}
     <div class="flex flex-col items-center justify-center space-y-20 slide hidden">
-        <div class="title text-start px-4">
+        <div class="title stroke text-start px-4">
             <h2>let's do:</h2>
             <ul>
                 <li>3. Close the jar/bottle.</li>
@@ -226,7 +212,7 @@
             <img src="{{ asset('assets/images/pptimages/dark1.png') }} " class="w-[430px]" />
             <img src="{{ asset('assets/images/pptimages/d14.png') }}" class="w-[430px]" />
         </div>
-        <h2 class="title"> <span class="text-white">Glow-in-the-dark</span> items store
+        <h2 class="title stroke"> <span class="text-white">Glow-in-the-dark</span> items store
             <span class="text-white">light energy</span> when they are placed in a bright
             <span class="text-white">place</span>.
         </h2>
@@ -239,7 +225,7 @@
             <img src="{{ asset('assets/images/pptimages/dark2.png') }} " class="w-[430px]" />
             <img src="{{ asset('assets/images/pptimages/d15.png') }}" class="w-[430px]" />
         </div>
-        <h2 class="title"> When it’s dark, the Glow-in-the-dark items will glow brightly
+        <h2 class="title stroke"> When it’s dark, the Glow-in-the-dark items will glow brightly
             until all the light energy is used up.</h2>
     </div>
 
@@ -249,18 +235,18 @@
             <img src="{{ asset('assets/images/pptimages/d10.png') }} " class="w-[430px]" />
             <img src="{{ asset('assets/images/pptimages/d9.png') }}" class="w-[430px]" />
         </div>
-        <h2 class="title">Besides toys, fireflies and jellyfish can glow in the
+        <h2 class="title stroke">Besides toys, fireflies and jellyfish can glow in the
             dark too!h2>
     </div>
 
 
- {{-- slide 18 --}}
+    {{-- slide 18 --}}
     <div class="flex flex-col items-center justify-center gap-5 slide hidden">
 
-  <h2 class="title stroke">Learning Journal </h2>
+        <h2 class="title stroke stroke">Learning Journal </h2>
         <div class=" relative ">
             <p class="absolute top-0 left-0 text-[24px] ">Draw the items that glow in the dark!</p>
-            <img src="{{ asset('assets/images/pptimages/dark4.png') }}"/>
+            <img src="{{ asset('assets/images/pptimages/dark4.png') }}" />
         </div>
 
     </div>

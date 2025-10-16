@@ -74,8 +74,8 @@
 
 
     <div class=" flex items-center flex-col justify-center text-center z-[999]  max-w-[1000px]  m-auto">
-        <h2 class="text-[50px] text-[#F7B94A]"> What is Light?</h2>
-        <div class="flex items-center justify-between">
+        <h2 class="text-[50px] text-[#F7B94A] stroke">Shapes around us</h2>
+        <div class="flex items-center gap-[15rem]">
 
             {{-- Lesson Button --}}
             <a href="{{ route('Shape-aroundLesson') }}" id="Lesson" class="flex flex-col gap-0">
@@ -86,7 +86,6 @@
                     <div class="lesson-btn-shape"></div>
                     <div class="lesson-btn-text stroke">Lesson </div>
                 </button>
-
             </a>
             {{-- Teacher Button --}}
             <a href="{{ route('Shape-aroundTeacher') }}" id="Lesson" class="flex flex-col gap-0">
@@ -97,17 +96,15 @@
                     <div class="lesson-btn-shape"></div>
                     <div class="lesson-btn-text stroke">Teacher</div>
                 </button>
-
             </a>
         </div>
     </div>
 
 
 
-    <div id="buttons" class="absolute top-[24px] right-[60px] flex flex-row gap-6 z-40">
-
+    <div id="buttons" class="absolute top-[30px] right-[60px] flex flex-row gap-6 z-40">
         <!-- Return Button -->
-        <a href="{{ route('types') }}"
+        <a href="{{ route('Shape-around') }}"
             class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
             id="returnButton">
             <img class="absolute top-[6px] left-[8px] w-20 h-10" src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
@@ -137,8 +134,5 @@
                 class="absolute top-[16px] left-[30px] w-11 h-16 text-white text-6xl font-normal font-['Jua']">X
             </div>
         </button>
-
     </div>
-
-
 @endsection

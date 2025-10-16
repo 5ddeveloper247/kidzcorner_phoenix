@@ -475,7 +475,7 @@
     {{-- slide 47 --}}
     <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[836px] h-[500px] bg-cover bg-center p-[20px] text-start"
+        <div class="w-[836px] h-[500px] bg-cover bg-center p-[20px] text-startphp"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>Name your flying machine: _____________________________________ <br>
                 How will your flying machine look like? Draw the design here.</p>
@@ -485,7 +485,7 @@
     {{-- sldie 48 --}}
     <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[836px] h-[500px] bg-cover bg-center p-[20px]  text-start"
+        <div class="w-[836px] h-[500px] bg-cover bg-center p-[20px]  text-startphp"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>Name your flying machine: __________________________________ <br>
                 Materials needed:</p>

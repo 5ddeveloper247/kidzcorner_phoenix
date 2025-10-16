@@ -1,6 +1,6 @@
 @extends('layout.master')
 
-@section('title', 'Dynamic Presentation')
+@section('title  stroke', 'Dynamic Presentation')
 
 @push('style')
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
@@ -21,7 +21,7 @@
 
     {{-- slide 0 --}}
     <div class="flex flex-col items-center justify-center gap-5 slide hidden">
-        <h2 class="title">What do you see in this picture?</h2>
+        <h2 class="title  stroke">What do you see in this picture?</h2>
         <img src="{{ asset('assets/images/pptimages/rainbow.png') }}"
             class="max-w-[500px] sm:max-w-[600px] lg:max-w-[536px]" />
         <p class="note">Note: Guide children to share their answers.</p>
@@ -30,7 +30,7 @@
     {{-- slide 1 --}}
     <div class="flex flex-col items-center justify-center gap-5 slide hidden">
         <div class="flex flex-col items-center justify-center">
-            <h2 class="title">There's a <span class="text-white">rainbow</span> in the sky! Do you know how are <span
+            <h2 class="title  stroke">There's a <span class="text-white">rainbow</span> in the sky! Do you know how are <span
                     class="text-white">rainbows</span> formed?</h2>
             <img src="{{ asset('assets/images/pptimages/rainbow.png') }}"
                 class="max-w-[500px] sm:max-w-[600px] lg:max-w-[536px]" />
@@ -41,7 +41,7 @@
 
     {{-- slide 2 --}}
     <div class="flex flex-col items-center justify-center gap-5 slide hidden">
-        <h2 class="title">Rainbows are formed when <span class="text-white">light</span> shines through water droplets
+        <h2 class="title  stroke">Rainbows are formed when <span class="text-white">light</span> shines through water droplets
             forming a <span class="text-white">rainbow</span></h2>
         <div class="flex items-center justify-around">
             <img src="{{ asset('assets/images/pptimages/suny.png') }}" />
@@ -52,7 +52,7 @@
 
     {{-- slide 3 --}}
     <div class="flex flex-col items-center justify-center gap-5 slide hidden">
-        <h2 class="title">The water droplet separates the <span class="text-white">white light</span> into <span
+        <h2 class="title  stroke">The water droplet separates the <span class="text-white">white light</span> into <span
                 class="text-white">seven colours</span></h2>
         <div class="flex items-center justify-around">
             <img src="{{ asset('assets/images/pptimages/suny.png') }}" />
@@ -63,7 +63,7 @@
 
     {{-- slide 4 --}}
     <div class="flex flex-col items-center justify-center gap-3 slide hidden">
-        <h2 class="title">The seven colours are <span style="color:red;">red</span>, <span
+        <h2 class="title  stroke">The seven colours are <span style="color:red;">red</span>, <span
                 style="color:orange;">orange</span>, <span style="color:yellow;">yellow</span>, <span
                 style="color:green;">green</span>, <span style="color:blue;">blue</span>, <span
                 style="color:indigo;">indigo</span> and <span style="color:violet;">violet</span>.</h2>
@@ -77,7 +77,7 @@
 
     {{-- slide 5 --}}
     <div class="flex flex-col items-center justify-center gap-3 slide hidden">
-        <h2 class="title">This is how the <span class="text-white">rainbows</span> are formed!</h2>
+        <h2 class="title  stroke">This is how the <span class="text-white">rainbows</span> are formed!</h2>
         <div class="relative flex items-center justify-center w-[25%]">
             <img src="{{ asset('assets/images/pptimages/suny.png') }}" />
             <img src="{{ asset('assets/images/pptimages/arrow2.png') }}" />
@@ -89,7 +89,7 @@
     {{-- slide 6 --}}
     <div class="flex flex-col items-center justify-center gap-5 slide hidden">
         <div class="flex flex-col items-center justify-center">
-            <h2 class="title"><span style="color:white;">Rainbows</span> can form whenever there's <span
+            <h2 class="title  stroke"><span style="color:white;">Rainbows</span> can form whenever there's <span
                     style="color:white;">light</span> and water! Sometimes <span style="color:white;">rainbows</span> appear
                 at the fountains on a sunny day.</h2>
             <img src="{{ asset('assets/images/pptimages/reflect.png') }}"
@@ -101,18 +101,18 @@
     {{-- slide 7 --}}
     <div class="flex flex-col items-center justify-center gap-5 slide hidden">
         <div class="flex flex-col items-center justify-center">
-            <h2 class="title text-white">CLASS ACTIVITY 1</h2>
+            <h2 class="title  stroke text-white">CLASS ACTIVITY 1</h2>
             <img src="{{ asset('assets/images/pptimages/bottle.png') }}"
                 class="max-w-[500px] sm:max-w-[600px] lg:max-w-[536px]" />
         </div>
-        <h2 class="title text-start">Let's try: Create a raibow in the sun</h2>
+        <h2 class="title  stroke text-start">Let's try: Create a raibow in the sun</h2>
         <p class="note">Note: Teacher recap with children what are the main things needed to create a <br>rainbow (light
             and water). This should be done on a sunny day.</p>
     </div>
 
     {{-- slide 8 --}}
     <div class="flex flex-col items-center justify-center space-y-20 slide hidden">
-        <div class="title text-start px-4">
+        <div class="title  stroke text-start px-4">
             <h2>let's do:</h2>
             <ul class="list-decimal">
                 <li>Place white paper on the floor in the outdoors.</li>
@@ -127,7 +127,7 @@
     {{-- slide 9 --}}
     <div class="flex flex-col items-center justify-center gap-5 slide hidden">
         <div class="flex flex-col items-center justify-center">
-            <div class="title text-start">
+            <div class="title  stroke text-start">
                 <h2>let's do:</h2>
                 <ul>
                     <li>4. Place white paper on the floor in the outdoors.</li>
@@ -141,18 +141,18 @@
     {{-- slide 10 --}}
     <div class="flex flex-col items-center justify-center gap-5 slide hidden">
         <div class="flex flex-col items-center justify-center">
-            <h2 class="title text-white">CLASS ACTIVITY 2</h2>
+            <h2 class="title  stroke text-white">CLASS ACTIVITY 2</h2>
             <img src="{{ asset('assets/images/pptimages/bowl.png') }}"
                 class="max-w-[500px] sm:max-w-[600px] lg:max-w-[536px]" />
         </div>
-        <h2 class="title text-start">Let's try: Create a raibow using a mirror, water and flashlight!</h2>
+        <h2 class="title  stroke text-start">Let's try: Create a raibow using a mirror, water and flashlight!</h2>
         <p class="note">Note: Teacher recap with children what are the main things needed to create a rainbow (light and
             water).</p>
     </div>
 
     {{-- slide 11 --}}
     <div class="flex  flex-col items-center justify-center space-y-10 slide hidden">
-        <div class="title text-start px-4">
+        <div class="title  stroke text-start px-4">
             <h2>let's do:</h2>
             <ul class="list-decimal">
                 <li>Fill half the container with water and place a mirror in it.</li>
@@ -168,7 +168,7 @@
     {{-- slide 12 --}}
     <div class="flex flex-col items-center justify-center gap-5 slide hidden">
         <div class="flex flex-col items-center justify-center">
-            <div class="title text-start">
+            <div class="title  stroke text-start">
                 <h2>let's do:</h2>
                 <ul>
                     <li>4. Move the flashlight and explore how a rainbow can be reformed</li>
@@ -184,7 +184,7 @@
         <div class="flex flex-col items-center justify-center">
             <img src="{{ asset('assets/images/pptimages/cds.png') }}"
                 class="max-w-[500px] sm:max-w-[600px] lg:max-w-[536px]" />
-            <h2 class="title">Do you know what these are?</h2>
+            <h2 class="title  stroke">Do you know what these are?</h2>
             <p class="note">Note: Encourage children to share their answers.</p>
         </div>
     </div>
@@ -192,10 +192,10 @@
     {{-- slide 14 --}}
     <div class="flex flex-col items-center justify-center gap-5 slide hidden">
         <div class="flex flex-col items-center justify-center">
-            <h2 class="title">These are disc. They are shiny and reflective!</h2>
+            <h2 class="title  stroke">These are disc. They are shiny and reflective!</h2>
             <img src="{{ asset('assets/images/pptimages/cds.png') }}"
                 class="max-w-[500px] sm:max-w-[600px] lg:max-w-[536px]" />
-            <h2 class="title">Like water, the shiny disc separates light into seven colours.</h2>
+            <h2 class="title  stroke">Like water, the shiny disc separates light into seven colours.</h2>
             <p class="note">Note: Teacher can pass a few CDs around the class and let children have a closer look at it.
             </p>
         </div>
@@ -206,14 +206,14 @@
         <div class="flex flex-col items-center justify-center">
             <img src="{{ asset('assets/images/pptimages/cds.png') }}"
                 class="max-w-[500px] sm:max-w-[600px] lg:max-w-[536px]" />
-            <h2 class="title">Can you see rainbows on the disc?</h2>
+            <h2 class="title  stroke">Can you see rainbows on the disc?</h2>
             <p class="note">Note: Teacher can guide children to observe and share what colours they see on the disc.</p>
         </div>
     </div>
 
     {{-- slide 16 --}}
     <div class="flex flex-col items-center justify-center space-y-10 slide hidden">
-        <div class="title text-start px-4">
+        <div class="title  stroke text-start px-4">
             <h2>let's do:</h2>
             <ul class="list-decimal">
                 <li>Place white paper on the floor in the outdoors.</li>
@@ -228,18 +228,18 @@
     {{-- slide 17 --}}
     <div class="flex flex-col items-center justify-center gap-5 slide hidden">
         <div class="flex flex-col items-center justify-center">
-            <h2 class="title text-white">CLASS ACTIVITY 2</h2>
+            <h2 class="title  stroke text-white">CLASS ACTIVITY 2</h2>
             <img src="{{ asset('assets/images/pptimages/paper.png') }}"
                 class="max-w-[500px] sm:max-w-[600px] lg:max-w-[536px]" />
         </div>
-        <h2 class="title text-start">Let's try: Create a raibow using a disc!</h2>
+        <h2 class="title  stroke text-start">Let's try: Create a raibow using a disc!</h2>
         <p class="note">Note: Teacher can try to do this activity both indoors and outdoors.</p>
     </div>
 
     {{-- slide 18 --}}
     <div class="flex flex-col items-center justify-center gap-5 slide hidden">
         <div class="flex flex-col items-center justify-center">
-            <h2 class="title">This is shadow puppetry. They are putting up a show using the shadows of the puppets.</h2>
+            <h2 class="title  stroke">This is shadow puppetry. They are putting up a show using the shadows of the puppets.</h2>
             <img src="{{ asset('assets/images/pptimages/girls.png') }}"
                 class="max-w-[500px] sm:max-w-[600px] lg:max-w-[536px]" />
         </div>
@@ -248,7 +248,7 @@
     {{-- slide 19 --}}
     <div class="flex flex-col items-center justify-center gap-5 slide hidden">
         <div class="flex flex-col items-center justify-center">
-            <h2 class="title">What shadows do you see?</h2>
+            <h2 class="title  stroke">What shadows do you see?</h2>
             <img src="{{ asset('assets/images/pptimages/girls.png') }}"
                 class="max-w-[500px] sm:max-w-[600px] lg:max-w-[536px]" />
         </div>
@@ -259,7 +259,7 @@
     {{-- slide 20 --}}
     <div class="flex flex-col items-center justify-center gap-5 slide hidden">
         <div class="flex flex-col items-center justify-center">
-            <h2 class="title">When light shines on the puppets, shadows are formed. The shape of the shadows show what
+            <h2 class="title  stroke">When light shines on the puppets, shadows are formed. The shape of the shadows show what
                 characters they are.</h2>
             <img src="{{ asset('assets/images/pptimages/girls.png') }}"
                 class="max-w-[500px] sm:max-w-[600px] lg:max-w-[536px]" />
@@ -269,17 +269,17 @@
     {{-- slide 21 --}}
     <div class="flex flex-col items-center justify-center gap-5 slide hidden">
         <div class="flex flex-col items-center justify-center">
-            <h2 class="title text-white">CLASS ACTIVITY 2</h2>
+            <h2 class="title  stroke text-white">CLASS ACTIVITY 2</h2>
             <img src="{{ asset('assets/images/pptimages/act.png') }}"
                 class="max-w-[500px] sm:max-w-[600px] lg:max-w-[536px]" />
         </div>
-        <h2 class="title text-start">Let's try: Make puppets for shadow play.</h2>
+        <h2 class="title  stroke text-start">Let's try: Make puppets for shadow play.</h2>
         <p class="note">Note: Teacher to provide some templates for children to choose. E.g. House, shapes, animals.</p>
     </div>
 
     {{-- slide 22 --}}
     <div class="flex flex-col items-center justify-center space-y-10 slide hidden">
-        <div class="title text-start px-4">
+        <div class="title  stroke text-start px-4">
             <h2>let's do: </h2>
             <ul class="list-decimal text-4xl">
                 <li>Explore the items and with flashlights.</li>
@@ -298,7 +298,7 @@
 
     {{-- slide 23 --}}
     <div class="flex flex-col items-center justify-center px-4 text-start slide hidden">
-        <div class="title">
+        <div class="title  stroke">
             <h2>Let's do:</h2>
             <ul>
                 <li>3. Use a flashlight and shine it on your puppet. Look at the shadow of your puppet.</li>
@@ -314,7 +314,7 @@
 
     {{-- slide 24 --}}
     <div class="flex flex-col items-center justify-center space-y-20 w-[90%] slide hidden">
-        <div class="title text-start px-4">
+        <div class="title  stroke text-start px-4">
             <h2>let's do: </h2>
             <ul>
                 <li>4. Continue to add more materials until you are satisfied with the outcome of the shadow.</li>
@@ -328,7 +328,7 @@
     {{-- slide 25 --}}
     <div class="flex flex-col items-center justify-center gap-5 slide hidden">
 
-        <h2 class="title">Look at the shadow of the house. The holes allow light to pass through them.</h2>
+        <h2 class="title  stroke">Look at the shadow of the house. The holes allow light to pass through them.</h2>
         <img src="{{ asset('assets/images/pptimages/house.png') }}"
             class="max-w-[500px] sm:max-w-[600px] lg:max-w-[536px]" />
 
@@ -337,7 +337,7 @@
     {{-- slide 26 --}}
     <div class="flex flex-col items-center justify-center gap-5 slide hidden">
 
-        <h2 class="title">Coloured shadows are formed when cellophane paper used.</h2>
+        <h2 class="title  stroke">Coloured shadows are formed when cellophane paper used.</h2>
         <img src="{{ asset('assets/images/pptimages/article.png') }}"
             class="max-w-[500px] sm:max-w-[600px] lg:max-w-[536px]" />
 
@@ -346,7 +346,7 @@
     {{-- slide 27 --}}
     <div class="flex flex-col items-center justify-center gap-5 slide hidden">
 
-        <h2 class="title"> <span class="text-white">Translucent</span> things, such as the cellophane paper, allow some
+        <h2 class="title  stroke"> <span class="text-white">Translucent</span> things, such as the cellophane paper, allow some
             light to pass through them.</h2>
         <img src="{{ asset('assets/images/pptimages/article.png') }}"
             class="max-w-[500px] sm:max-w-[600px] lg:max-w-[536px]" />
@@ -356,7 +356,7 @@
     {{-- slide 28 --}}
     <div class="flex flex-col items-center justify-center gap-5 slide hidden">
 
-        <h2 class="title"><span class="text-white">Translucent</span> things allow light to pass through them and they do
+        <h2 class="title  stroke"><span class="text-white">Translucent</span> things allow light to pass through them and they do
             not form any shadows.</h2>
         <img src="{{ asset('assets/images/pptimages/window.png') }}"
             class="max-w-[500px] sm:max-w-[600px] lg:max-w-[536px]" />

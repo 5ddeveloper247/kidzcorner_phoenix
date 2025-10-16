@@ -144,17 +144,17 @@ Route::get('/lightform/Light', function () {
 // N1 -> lightforms ->ligth ->select
 Route::get('/choice', function () {
     return view('iSTEAM.N1.lightforms.light.selection');
-})->name('choose');
+})->name('n1lightchoose');
 
 // N1 -> lightforms ->ligth->lesson
 Route::get('/lightform/Light/lesson', function () {
     return view('iSTEAM.N1.lightforms.Light.lesson');
-})->name('lesson');
+})->name('n1lightlesson');
 
 // N1 -> lightforms ->ligth->teacher
 Route::get('/lightform/Light/teacher', function () {
     return view('iSTEAM.N1.lightforms.Light.teacher');
-})->name('teacher');
+})->name('n1lightteacher');
 
 
 // =========================
@@ -2578,6 +2578,27 @@ Route::get('/k2ElectronicCircuits', function () {
 Route::get('/k2FinalProject', function () {
     return view('iSTEAM.K2.FinalProject.index');
 })->name('k2FinalProject');
+
+// ======
+// K2 -> FinalProject
+Route::get('/FinalProject', function () {
+    return view('iSTEAM.K2.FinalProject.final.index');
+})->name('final2');
+
+// K2 -> FinalProject -> final -> select
+Route::get('/final/Choice', function () {
+    return view('iSTEAM.K2.FinalProject.final.selection');
+})->name('final2Selection');
+
+// K2 -> FinalProject -> final -> lesson
+Route::get('/FinalProject/final/lesson', function () {
+    return view('iSTEAM.K2.FinalProject.final.lesson');
+})->name('final2Lesson');
+
+// K2 -> FinalProject -> final -> teacher
+Route::get('/FinalProject/final/teacher', function () {
+    return view('iSTEAM.K2.FinalProject.final.teacher');
+})->name('final2Teacher');
 
 
 
