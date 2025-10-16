@@ -23,11 +23,11 @@
         <div>
             <h2 class="  font-bold">Children will be able to:</h2>
             <ul class="list-disc ">
-                <li>Learn how to make their own set of fingerprints for analysis</li>
-                <li>Know that fingerprints are ridges on the tips of our thumbs and fingers</li>
-                <li>Know that no two fingerprints are exactly alike</li>
-                <li>Know that individual fingerprints are unique and no two people have the same fingerprints</li>
-                <li>Develop understanding through inquiry</li>
+                <li>Understand the meaning of sustainability</li>
+                <li>Learn about how sustainability can help earth</li>
+                <li>Develop awareness of environmental issues</li>
+                <li>Develop curiosity and understanding through inquiry</li>
+                
             </ul>
         </div>
 

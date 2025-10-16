@@ -23,12 +23,11 @@
     {{-- Slide 1 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
         <div class="flex items-center gap-5">
-            <img src="{{ asset('assets/images/K2/livingthings/dna/h17.png') }}" class="w-[500px]" />
-            <img src="{{ asset('assets/images/K2/livingthings/dna/h16.png') }}" class="w-[500px]" />
+             <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s2.png') }}" />
         </div>
         <div class="title stroke">
-            <h2>Children, do you still remember what determines our traits?
-                What makes each one of us unique?</h2>
+            <h2>Children, do you remember what global warming is?</h2>
+            <p class="note">Note: Encourage children to share what their answers.</p>
         </div>
     </div>
 
@@ -37,59 +36,304 @@
     {{-- Slide 2 --}}
     <div class="slide hidden flex flex-col items-center">
         <div class="flex items-end gap-2 justify-center">
-            <img src="{{ asset('assets/images/K2/livingthings/dna/h1.png') }}" />
-            <img src="{{ asset('assets/images/K2/livingthings/dna/h17.png') }}" class="w-[500px]" />
-            <img src="{{ asset('assets/images/K2/livingthings/dna/h1.png') }}" />
+           <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s2.png') }}" />
         </div>
-        <h2 class="title stroke">DNA determines our traits. We are all unique
-            because the bases in our DNA are arranged differently!</h2>
+        <h2 class="title stroke">Global warming is the process of Earth getting warmer
+and the increase in temperature.</h2><br>
+<p class="note">Note: Explain that climate means the weather over a longer period of time.</p>
     </div>
 
-
-    {{-- Slide 3 --}}
-    <div class="slide hidden  flex flex-col items-center justify-between h-[50%] ">
-        <h2 class="title stroke text-center">Find a friend and compare your physical look!
-            What are the common traits you have?</h2>
-        <p class="note">Note: Encourage children to find at least two shared traits and show the rest.</p>
-    </div>
 
     {{-- slide 4 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/livingthings/dna/h17.png') }}" />
-        <h2 class="title stroke text-center">Most of the time we compare just the obvious traits
-            like hair type, facial feature, height and body shape.</h2>
+           <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s10.png') }}" />
+        <h2 class="title stroke text-center">Global warming is caused by the increase in greenhouse gases<br>
+trapped in the atmosphere.</h2>
+<p class="note">Note: Encourage children to share their thoughts with the class.</p>
     </div>
-
+    {{-- slide 4 --}}
+    <div class="slide hidden  flex flex-col items-center justify-start  ">
+           <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s10.png') }}" />
+        <h2 class="title stroke text-center">This is known as global warming.
+Make a guess - What causes Earth's temperature to rise?</h2>
+ <p class="note">Note: Encourage children to share their thoughts with the class.</p>
+    </div>
+{{-- Slide 2 --}}
+    <div class="slide hidden flex flex-col items-center">
+        <div class="flex items-end gap-2 justify-center">
+           <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s2.png') }}" />
+        </div>
+        <h2 class="title stroke">Global warming is the process of Earth getting warmer
+and the increase in temperature.</h2><br>
+<p class="note">Note: Explain that climate means the weather over a longer period of time.</p>
+    </div>
+    {{-- Slide 2 --}}
+    <div class="slide hidden flex flex-col items-center">
+        <div class="flex items-end gap-2 justify-center">
+           <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s16.png') }}" />
+           <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s18.png') }}" />
+           <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s23.png') }}" />
+        </div>
+        <h2 class="title stroke">With the increased temperature, it affects the land, animals
+and plants. When glaciers melt, we will be affected too.</h2>
+    </div>
 
     {{-- Slide 5 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f1.png') }}" />
-        <h2 class="title stroke">What about something small like <span class="text-white">fingerprints</span>?
-            Do you think our <span class="text-white">fingerprints</span> look the same?</h2>
+        <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s1.png') }}" />
+        <h2 class="title stroke">Do you know that besides the increasing greenhouse gases,
+Earth is facing another major problem?</h2>
+<p class="note">Note: Encourage children to brainstorm.</p>
     </div>
 
 
     {{-- slide 6 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <h2 class="title stroke">Now we'll learn how to make our own set of <span class="text-white">fingerprints</span>.
-            We'll compare and see if we all have the same <span class="text-white">fingerprints</span>!</h2>
+             <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s1.png') }}" />
+        <h2 class="title stroke">Earth’s natural resources are running out!</h2>
+    </div>
+     {{-- slide 6 --}}
+    <div class="slide hidden flex flex-col items-center justify-center">
+            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s1.png') }}" />
+        <h2 class="title stroke">Do you know what natural resources are?
+Can you name some examples of natural resources?</h2>
+<p class="note">Note: Encourage children to share their answers.</p>
     </div>
 
 
 
     {{-- slide 7 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <h2 class="!text-white title stroke">Small Group Activity</h2>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f2.png') }}" />
-        <h2 class="title stroke">Let's find out: <br>
-            How to make our own set of fingerprints?
-            Do we have the same fingerprints?</h2>
-        <p class="text-center note">Note: Organise children into groups of 3 to do the activity (role A, B & C).
-            Have them clean and dry their hands first.</p>
+        <img src="{{ asset('assets/images/K2/sustain/sustainability/a1.png') }}" />
+        <h2 class="title stroke">Natural resources are things found in nature
+which can be used by people.</h2>
+    </div>
+    {{-- slide 7 --}}
+    <div class="slide hidden  flex flex-col items-center justify-start  ">
+        <img src="{{ asset('assets/images/K2/sustain/sustainability/a1.png') }}" />
+        <h2 class="title stroke">Trees, sun, coal, fish, water, plants and animals
+are examples of natural resources.</h2>
     </div>
 
-
-    {{-- slide 8 --}}
+     {{-- slide 7 --}}
+    <div class="slide hidden  flex flex-col items-center justify-start  ">
+        <img src="{{ asset('assets/images/K2/sustain/sustainability/a2.png') }}" />
+        <h2 class="title stroke">People need natural resources to stay alive.</h2>
+        <p class="note">Note: Teacher can share that people need air, water and food to stay alive.
+Food comes from animals and plants.</p>
+    </div>
+ {{-- slide 7 --}}
+    <div class="slide hidden  flex flex-col items-center justify-start  ">
+        <img src="{{ asset('assets/images/K2/sustain/sustainability/a1.png') }}" />
+        <h2 class="title stroke">However, natural resources are running out.
+People are using them faster than they can recover.</h2>
+    </div>
+    {{-- slide 6 --}}
+    <div class="slide hidden flex flex-col items-center justify-center">
+            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s1.png') }}" />
+        <h2 class="title stroke">When all the natural resources run out,
+no one can live on Earth anymore.</h2>
+<p class="note">Note: Teacher can explain that the lives of animals, plants and humans will be affected due to
+the lack of clean water, clean air and food.</p>
+    </div>
+    {{-- slide 6 --}}
+    <div class="slide hidden flex flex-col items-center justify-center">
+            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s1.png') }}" />
+        <h2 class="title stroke">We need to make the natural resources sustainable..</h2>
+    </div>
+    {{-- slide 6 --}}
+    <div class="slide hidden flex flex-col items-center justify-center">
+        <h2 class="title stroke">Do you know what is the meaning of
+sustainable?.</h2><br>
+        <p class="note">Note: Encourage children to share their thoughts.</p>
+    </div>
+{{-- slide 6 --}}
+    <div class="slide hidden flex flex-col items-center justify-center">
+            <img src="{{ asset('assets/images/K2/sustain/sustainability/a3.png') }}" />
+        <h2 class="title stroke">Imagine that you have a jar of cookies in class.</h2>
+    </div>
+    {{-- slide 6 --}}
+    <div class="slide hidden flex flex-col items-center justify-center">
+            <img src="{{ asset('assets/images/K2/sustain/sustainability/a3.png') }}" />
+        <h2 class="title stroke">Whenever children take cookies from the jar,
+the cookie jar refills itself.</h2>
+    </div>
+ {{-- slide 6 --}}
+    <div class="slide hidden flex flex-col items-center justify-center">
+            <img src="{{ asset('assets/images/K2/sustain/sustainability/a3.png') }}" />
+        <h2 class="title stroke">The cookies will never run out! It’s like magic!</h2>
+    </div>
+ {{-- slide 6 --}}
+    <div class="slide hidden flex flex-col items-center justify-center">
+            <img src="{{ asset('assets/images/K2/sustain/sustainability/a3.png') }}" />
+        <h2 class="title stroke">In this case, the cookies are sustainable. This means that
+there will still be cookies after a long time.</h2>
+    </div>
+    {{-- slide 6 --}}
+    <div class="slide hidden flex flex-col items-center justify-center">
+            <img src="{{ asset('assets/images/K2/sustain/sustainability/a4.png') }}" />
+        <h2 class="title stroke">But in the real world, there isn't any magic cookie jars. The<br>
+number of cookies in the jar will decrease when we take them.</h2>
+    </div>
+    {{-- slide 6 --}}
+    <div class="slide hidden flex flex-col items-center justify-center">
+            <img src="{{ asset('assets/images/K2/sustain/sustainability/a4.png') }}" />
+        <h2 class="title stroke">The jar will be empty if we continue to take the<br>
+cookies and no one refills it..</h2>
+    </div>
+    {{-- slide 6 --}}
+    <div class="slide hidden flex flex-col items-center justify-center">
+            <img src="{{ asset('assets/images/K2/sustain/sustainability/a1.png') }}" />
+        <h2 class="title stroke">Just like the cookies, natural resources will run out
+if we don’t do anything to ‘refill’ them.</h2>
+    </div>
+     {{-- slide 6 --}}
+    <div class="slide hidden flex flex-col items-center justify-center">
+            <img src="{{ asset('assets/images/K2/sustain/sustainability/a2.png') }}" />
+        <h2 class="title stroke">We need to make natural resources sustainable
+so that people can continue to live on Earth.</h2>
+    </div>
+      {{-- slide 6 --}}
+    <div class="slide hidden flex flex-col items-center justify-center">
+        <h2 class="title stroke">Let’s find out why natural resources are important to us.</h2>
+    </div>
+  {{-- slide 6 --}}
+    <div class="slide hidden flex flex-col items-center justify-center">
+            <img class="w-140"src="{{ asset('assets/images/K2/sustain/sustainability/a5.png') }}" />
+        <h2 class="title stroke">Let's look at one of the natural resources - trees. How will
+Earth be affected when trees are being chopped down?</h2><br>
+  <p class="note">Note: Encourage children to share their thoughts.</p>
+    </div>
+{{-- slide 6 --}}
+    <div class="slide hidden flex flex-col items-center justify-center">
+        <h2 class="note">Class Activity 1</h2><br>
+            <img src="{{ asset('assets/images/K2/sustain/sustainability/a6.png') }}" />
+        <h2 class="title stroke">Let's find out:
+What do you think happens when trees are chopped down?</h2>
+    </div>
+    {{-- slide 6 --}}
+    <div class="slide hidden flex flex-col items-center justify-center">
+  <h2 class="title stroke">Let's do:<br>
+1. Set up as shown. Label the bottles as A, B and C from left
+to right.</h2>
+            <img src="{{ asset('assets/images/K2/sustain/sustainability/a6.png') }}" /><br>
+             <p class="note">Note: Click on each bottle label to explain to children what each represents.</p>
+    </div>
+     {{-- slide 6 --}}
+    <div class="slide hidden flex flex-col items-center justify-center">
+        <h2 class="title stroke">Let's do:<br>
+2. Prepare 3 cups of water.<br>
+3. Observe the water which is being collected below each<br>
+    bottle.<br>
+4. Pour the cup of water at the end of bottle one by one.<br>
+5. Observe the colour of the water collected and make<br>
+    comparisons.<br>
+6. Draw your observations in the learning journal.</h2>
+    </div>
+    {{-- slide 6 --}}
+    <div class="slide hidden flex flex-col items-center justify-center">
+            <img class="w-140"src="{{ asset('assets/images/K2/sustain/sustainability/a7.png') }}" />
+        <h2 class="title stroke">As seen in the experiment, the water collect from bottle C is
+dirtier compared to the water collected from bottle A.</h2><br>
+  <p class="note">Note: Teacher can prompt children to think of reasons why the water collected is different and why.</p>
+    </div>
+    {{-- slide 6 --}}
+    <div class="slide hidden flex flex-col items-center justify-center">
+            <img src="{{ asset('assets/images/K2/sustain/sustainability/a8.png') }}" />
+        <h2 class="title stroke">Trees and plants haves roots that hold onto the soil.</h2>
+    </div>
+        {{-- slide 6 --}}
+    <div class="slide hidden flex flex-col items-center justify-center">
+            <img src="{{ asset('assets/images/K2/sustain/sustainability/a8.png') }}" />
+        <h2 class="title stroke">Whenever it’s raining, soil will not be washed away..</h2>
+    </div>
+     {{-- slide 6 --}}
+    <div class="slide hidden flex flex-col items-center justify-center">
+            <img src="{{ asset('assets/images/K2/sustain/sustainability/a9.png') }}" />
+        <h2 class="title stroke">Similarly, for places with some trees,<br>
+the roots of the trees hold on to the soil.</h2>
+    </div>
+     {{-- slide 6 --}}
+    <div class="slide hidden flex flex-col items-center justify-center">
+            <img src="{{ asset('assets/images/K2/sustain/sustainability/a9.png') }}" />
+        <h2 class="title stroke">The fallen leaves and twigs also helps to reduce<br>
+the amount of soil being washed away during rainy days.</h2>
+    </div>
+     {{-- slide 6 --}}
+    <div class="slide hidden flex flex-col items-center justify-center">
+            <img src="{{ asset('assets/images/K2/sustain/sustainability/a10.png') }}" />
+        <h2 class="title stroke">When there are no trees,<br>
+there is nothing to hold on to the soil.</h2>
+    </div>
+     {{-- slide 6 --}}
+    <div class="slide hidden flex flex-col items-center justify-center">
+            <img src="{{ asset('assets/images/K2/sustain/sustainability/a10.png') }}" />
+        <h2 class="title stroke">When it rains, the rainwater carries the soil into the sea.<br>
+This causes the sea to be dirty.</h2>
+    </div>
+     {{-- slide 6 --}}
+    <div class="slide hidden flex flex-col items-center justify-center">
+            <img src="{{ asset('assets/images/K2/sustain/sustainability/a11.png') }}" />
+        <h2 class="title stroke">The lives of the sea creatures and animals<br>
+will be affected by dirty water.</h2>
+    </div>
+    {{-- slide 6 --}}
+    <div class="slide hidden flex flex-col items-center justify-center">
+            <img class="w-140"src="{{ asset('assets/images/K2/sustain/sustainability/a2.png') }}" />
+        <h2 class="title stroke">This will affect us as we need water and food to live.</h2><br>
+  <p class="note">Note: Teacher can explain that the dirty water may cause the fishes and animals to be sick.<br>
+Then it may cause a decrease in the amount of food available for us. Dirty water<br>
+also affect our lives as we need water too.</p>
+    </div>
+     {{-- slide 6 --}}
+    <div class="slide hidden flex flex-col items-center justify-center">
+            <img src="{{ asset('assets/images/K2/sustain/sustainability/a12.png') }}" />
+        <h2 class="title stroke">Trees also help to clean up the air.<br>
+Trees take in the carbon dioxide, one of the greenhouse gases,<br>
+and covert them into healthier air, oxygen.</h2>
+    </div>
+      {{-- slide 6 --}}
+    <div class="slide hidden flex flex-col items-center justify-center">
+            <img src="{{ asset('assets/images/K2/sustain/sustainability/a12.png') }}" />
+        <h2 class="title stroke">Therefore, trees are important to Earth.</h2>
+    </div>
+     {{-- slide 6 --}}
+    <div class="slide hidden flex flex-col items-center justify-center">
+            <img src="{{ asset('assets/images/K2/sustain/sustainability/a1.png') }}" />
+        <h2 class="title stroke">Similarly, other natural resources also play important
+roles on Earth.</h2>
+    </div>
+     {{-- slide 6 --}}
+    <div class="slide hidden flex flex-col items-center justify-center">
+            <img src="{{ asset('assets/images/K2/sustain/sustainability/a13.png') }}" />
+        <h2 class="title stroke">Coal needs a very long time to be formed.<br>
+If people keep using coal, it will run out very soon.</h2>
+    </div>
+     {{-- slide 6 --}}
+    <div class="slide hidden flex flex-col items-center justify-center">
+            <img src="{{ asset('assets/images/K2/sustain/sustainability/a1.png') }}" />
+        <h2 class="title stroke">Similarly, if people consume food faster than nature can
+replenish, there will not be any food left in the future.</h2>
+    </div>
+     {{-- slide 6 --}}
+    <div class="slide hidden flex flex-col items-center justify-center">
+            <img src="{{ asset('assets/images/K2/sustain/sustainability/a1.png') }}" />
+        <h2 class="title stroke">It is important to use these natural resources carefully<br>
+so that they will be sustainable and available<br>
+even after a long time.</h2>
+    </div>
+    {{-- slide 6 --}}
+    <div class="slide hidden flex flex-col items-center justify-center">
+            <img src="{{ asset('assets/images/K2/sustain/sustainability/a1.png') }}" />
+        <h2 class="title stroke">In the next lesson, we will look at how we can do our part in
+making natural resources sustainable.</h2>
+    </div>
+      {{-- slide 6 --}}
+    <div class="slide hidden flex flex-col items-center justify-center">
+           <h2 class="note">Learning Journal</h2><br>
+            <img src="{{ asset('assets/images/K2/sustain/sustainability/a14.png') }}" />
+    </div>
+        {{-- slide 8 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <div class="self-start text-start">
             <h2 class="title stroke">Let's do: <br>

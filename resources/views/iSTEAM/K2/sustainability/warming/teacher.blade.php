@@ -23,10 +23,10 @@
         <div>
             <h2 class="  font-bold">Children will be able to:</h2>
             <ul class="list-disc ">
-                <li>Learn how to make their own set of fingerprints for analysis</li>
-                <li>Know that fingerprints are ridges on the tips of our thumbs and fingers</li>
-                <li>Know that no two fingerprints are exactly alike</li>
-                <li>Know that individual fingerprints are unique and no two people have the same fingerprints</li>
+                <li>Understand the meaning of global warming</li>
+                <li>Learn about the causes of global warming and how it affects earth</li>
+                <li>Develop awareness of environmental issues</li>
+                <li>Develop curiosity and understanding through inquiry</li>
                 <li>Develop understanding through inquiry</li>
             </ul>
         </div>
@@ -35,10 +35,13 @@
             <h2 class="text-[33px] font-bold">Keywords:</h2>
             <div class="flex gap-20">
                 <ul class="list-disc ">
-                    <li>Fingerprint</li>
-                    <li>Ridge</li>
-                    <li>Thumb</li>
-                    <li>Finger</li>
+                    <li>Global Warming</li>
+                    <li>Climate</li>
+                    <li>Temperature</li>
+                    <li>Earth</li>
+                    <li>Heat</li>
+                    <li>Atmosphere</li>
+                    <li>Greenhouse Gases</li>
                 </ul>
 
             </div>
@@ -47,28 +50,46 @@
             class="absolute right-[250px] bottom-[150px]" />
     </div>
 
-
+{{-- slide 2 --}}
+    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+        <div>
+            <h2 class="font-bold">Preparations:</h2><br>
+            <h2 class="font-bold">Class Activity 1:</h2>
+            <ul class="list-disc ">
+                <li>
+                  1 glass jar with a hole lid
+                </li>
+                <li>2 thermometers (glass thermometers or kitchen thermometers)</li>
+                <li>
+                   1 small piece of paper
+                </li>
+                <li>Adhesive tape</li>
+            </ul>
+             <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s24.png') }}" />
+        </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute right-[250px] bottom-[150px]" />
+    </div>
 
     {{-- slide 2 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Preparations:</h2>
+            <h2 class="font-bold">Preparations:</h2><br>
+            <h2 class="font-bold">Class Activity 2:</h2>
             <ul class="list-disc ">
                 <li>
-                    Pencils (for a better outcome, 8B pencil is recommended)
+                   1 big transparent container (size around the same as the example below)
                 </li>
-                <li>Plain papers</li>
+                <li>Some clay or dough (represents land to fill up one side of the big container)</li>
                 <li>
-                    Adhesive clear tapes (for a better outcome, 3M Scotch Tape is recommended)
+                    1 cup of blue coloured water (represents sea)
                 </li>
-                <li>Scissors</li>
+                <li>1 block of ice (represents the glacier, preferable big in size)</li>
                 <li>
-                    Wet towels (can be replaced with wet rags)
-                </li>
-                <li>
-                    A few magnifying glasses (optional)
+                   1 marker pen
                 </li>
             </ul>
+             <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s25.png') }}" />
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
@@ -78,14 +99,25 @@
     {{-- sldie 3 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-center gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
+            <h2 class="font-bold">Things to note for Class Activity 1:</h2>
             <ul class="list-disc">
-                <li>This is a small group activity. Organise children into groups of 3 and have them take turns to play role
-                    A, B & C. Before the activity, have them clean and dry their hands first to remove dirt that may obscure
-                    the fingerprints.</li>
+                <li>The glass jar and the glass thermometer may be hot after being out in the sun.<br>
+                     Please ensure that children do not touch the glass jar and glass thermometer.</li>
+                      <li>
+                 Do not leave the glass thermometer outside unattended over a long period <br>
+                 of time as the high temperature may cause it to crack/explode.
+                </li>
+                 <li>
+                 Do not take out the thermometer from the glass bottle to take the readings as it will be inaccurate.
+                </li>
+                 <li>
+               If it's a rainy day, you can try conducting the experiment with a lamp in between both thermometers.<br>
+                But bear in mind that this may take a longer time for you to see the significant differences of the<br> 
+                temperature on the thermometers.
+                </li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f13.png') }}" class="w-[600px]" />
+        
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
     </div>
@@ -94,13 +126,14 @@
     {{-- slide 4 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
+            <h2 class="font-bold">Things to note for Class Activity 1:</h2>
             <ul class="list-decimal">
-                <li>(A) Use a pencil to make a patch of dark mark on a paper. [ Have all the A do the step. Advise A to
-                    darken the patch by shading the patch again and again. ]</li>
+                <li>If you are using a kitchen thermometer, you may see the numbers change within seconds. <br>
+                    This type of thermometer is also easier for children to read the values.</li>
+                     <li>Remind children of safety as the other side of the thermometer is sharp like a needle.</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f3.png') }}" class="w-[600px]" />
+ <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s26.png') }}" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
     </div>
@@ -109,12 +142,18 @@
     {{-- slide 5 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
+            <h2 class="font-bold">Things to note for Class Activity 2:</h2>
             <ul>
-                <li>2. (B) Rub a fingertip over the pencil mark to stain it. [Have all the B do the step.]</li>
+                <li>Prepare sufficient ice for your class the day before the experiment. <br>
+                    It will depend on the size of the container and number of groups that will be doing the experiment.
+</li>
+ <li>Each group need to have a big block of ice that enable you to<br>
+     see the change in water level when the ice melts into the water.
+</li>
+<li>Remember to put the ice on the land (dough/clay) and let it melt into the s
+</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f4.png') }}" class="w-[600px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
     </div>
@@ -123,13 +162,21 @@
     {{-- sldie 6 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
+            <h2 class="font-bold">Useful information:</h2><br>
             <ul>
-                <li>3. (C) Cut and stick a piece of clear tape on the stained fingertip (of B). [Have all the C do the step.
-                    Advise C to hold only an edge of the tape and stick the tape flat on the fingertip of B. ]</li>
+                <li>What is a glacier?
+     A glacier is a thick mass of ice that covers a large area of land. Around ten
+     percent of the world's land area is covered by glaciers. Most glaciers are
+     located near the North or South Poles, but glaciers also exist high in mountain
+     ranges such as the Himalayas and the Andes.
+</li><br>
+  <li>How do glaciers form?
+     Glaciers form from snow that doesn't melt even during the summer. When
+     enough snow builds up the weight of the snow will compress and turn into solid
+     ice. It can take hundreds of years for a large glacier to form.
+</li><br>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f5.png') }}" class="w-[600px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
     </div>
@@ -138,14 +185,24 @@
     {{-- sldie 7 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
+            <h2 class="font-bold">Notes</h2>
             <ul>
-                <li>4. (C) Carefully remove the tape from the fingertip (of B) and paste it on the learning journal (of B).
-                    [Have all the C do the step. Remind C to paste the tape in the correct place of B's fingerprint record.]
+                <li>If you see <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s27.png') }}" /> next to a picture, click on the picture to watch the video
+Always ask questions to encourage children to think and share their ideas first 
+     before giving out any information.
                 </li>
+  <li>Emphasise and use the keywords during hands-on sessions.
+</li>
+<li>Print out the Learning Journal (if any) for every 
+     child to complete at the end of the lesson.
+</li>
+  <li>Click on this shortcut icon<img src="{{ asset('assets/images/K2/sustain/Globalwarming/s28.png') }}" />if you need to go to some 
+     parts of the lesson quickly.
+                </li>
+     
+      
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f6.png') }}" class="w-[600px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
     </div>
@@ -153,13 +210,20 @@
     {{-- sldie 8 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
-            <ul>
-                <li>5. (A) Use a wet towel to clean the fingertip (of B). [ Have all the A do the step. Explain to children
-                    that this is to avoid possible messiness when taking prints of other fingers. ]</li>
-            </ul>
+            <h2 class="font-bold">When Glaciers Melt</h2>
+            <p class="note">What and how to set up:<br>
+Use clay or dough to create an island in a tray on one side. Decorate it with<br><br>
+animals toys, cars, people and houses. Fill up the other side with water which <br><br>
+will act as the sea. Place huge pieces of ice on top of the island.<br>
+
+What to do:<br>
+1. Invite children to observe the setting in the beginning when island is not
+   flooded.<br>
+2. Let the ice melt and encourage children to observe what happens.<br><br>
+3. Teacher can encourage children to make different landforms such as<br><br>
+    mountains or create a city with tall buildings. Encourage children to relate <br><br>
+    how the melting of glaciers will affect people in the world.</p>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f7.png') }}" class="w-[600px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
     </div>
