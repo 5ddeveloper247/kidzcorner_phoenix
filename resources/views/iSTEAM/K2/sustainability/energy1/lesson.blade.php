@@ -23,12 +23,11 @@
     {{-- Slide 1 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
         <div class="flex items-center gap-5">
-            <img src="{{ asset('assets/images/K2/livingthings/dna/h17.png') }}" class="w-[500px]" />
-            <img src="{{ asset('assets/images/K2/livingthings/dna/h16.png') }}" class="w-[500px]" />
+            <img src="{{ asset('assets/images/K2/sustain/sustainability/a1.png') }}"  />
         </div>
         <div class="title stroke">
-            <h2>Children, do you still remember what determines our traits?
-                What makes each one of us unique?</h2>
+            <h2>Children, what do you see in the pictures above?</h2><br>
+            <p class="note">Note: Encourage children to share.</p>
         </div>
     </div>
 
@@ -37,58 +36,340 @@
     {{-- Slide 2 --}}
     <div class="slide hidden flex flex-col items-center">
         <div class="flex items-end gap-2 justify-center">
-            <img src="{{ asset('assets/images/K2/livingthings/dna/h1.png') }}" />
-            <img src="{{ asset('assets/images/K2/livingthings/dna/h17.png') }}" class="w-[500px]" />
-            <img src="{{ asset('assets/images/K2/livingthings/dna/h1.png') }}" />
+            <img src="{{ asset('assets/images/K2/sustain/sustainability/a1.png') }}"  />
         </div>
-        <h2 class="title stroke">DNA determines our traits. We are all unique
-            because the bases in our DNA are arranged differently!</h2>
+        <h2 class="title stroke">Trees, sun, coal, fish, water, plants and animals are examples
+of natural resources on earth.</h2>
     </div>
 
 
     {{-- Slide 3 --}}
-    <div class="slide hidden  flex flex-col items-center justify-between h-[50%] ">
-        <h2 class="title stroke text-center">Find a friend and compare your physical look!
-            What are the common traits you have?</h2>
-        <p class="note">Note: Encourage children to find at least two shared traits and show the rest.</p>
+     <div class="slide hidden flex flex-col items-center">
+          <div class="flex items-end gap-2 justify-center">
+            <img src="{{ asset('assets/images/K2/sustain/sustainability/a2.png') }}"  />
+        </div>
+        <h2 class="title stroke text-center">People need natural resources to stay alive.</h2><br>
+        <p class="note">Note: Teacher can share that people need air, water and food to stay alive.<br>
+Food comes from animals and plants.</p>
+    </div>
+    
+    {{-- Slide 2 --}}
+    <div class="slide hidden flex flex-col items-center">
+        <div class="flex items-end gap-2 justify-center">
+            <img src="{{ asset('assets/images/K2/sustain/sustainability/a1.png') }}"  />
+        </div>
+        <h2 class="title stroke">Therefore, it is important to make natural resources
+sustainable, so that they will be available for a long time.</h2>
+    </div>
+      {{-- Slide 2 --}}
+    <div class="slide hidden flex flex-col items-center">
+        <div class="flex items-end gap-2 justify-center">
+            <img src="{{ asset('assets/images/K2/sustain/energy1/e1.png') }}"  />
+        </div>
+        <h2 class="title stroke">Wood and coal are often used as fuels
+in factories and vehicles.</h2>
+    </div>
+  {{-- Slide 2 --}}
+    <div class="slide hidden flex flex-col items-center">
+        <div class="flex items-end gap-2 justify-center">
+            <img src="{{ asset('assets/images/K2/sustain/energy1/e1.png') }}"  />
+        </div>
+        <h2 class="title stroke">The usage of wood and coal not only uses up Earth's natural
+resources quickly, it also causes air pollution which leads to
+global warming.</h2>
+    </div>
+  {{-- Slide 2 --}}
+    <div class="slide hidden flex flex-col items-center">
+        <div class="flex items-end gap-2 justify-center">
+            <img src="{{ asset('assets/images/K2/sustain/energy1/e1.png') }}"  />
+        </div>
+        <h2 class="title stroke">To avoid using up natural resources and causing global
+warming, clean energy can be used.</h2>
     </div>
 
-    {{-- slide 4 --}}
+    {{-- Slide 4 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/livingthings/dna/h17.png') }}" />
-        <h2 class="title stroke text-center">Most of the time we compare just the obvious traits
-            like hair type, facial feature, height and body shape.</h2>
+        <h2 class="title stroke">To avoid using up natural resources and causing global
+warming, clean energy can be used.</h2><br>
+<p class="note">Note: Encourage children to share their thoughts.</p>
     </div>
-
-
-    {{-- Slide 5 --}}
+    {{-- slide 5 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f1.png') }}" />
-        <h2 class="title stroke">What about something small like <span class="text-white">fingerprints</span>?
-            Do you think our <span class="text-white">fingerprints</span> look the same?</h2>
+            <img src="{{ asset('assets/images/K2/sustain/energy1/e2.png') }}"  />
+        <h2 class="title stroke text-center">Clean energy is generated from natural sources or processes
+that are continually replenished.</h2>
     </div>
-
+ {{-- slide 4 --}}
+    <div class="slide hidden  flex flex-col items-center justify-start  ">
+        <img src="{{ asset('assets/images/K2/sustain/energy1/e2.png') }}"  />
+        <h2 class="title stroke text-center">The energy generated do not cause pollution to Earth, that's
+why they are called clean energy.</h2><br>
+<p class="note">Note: Teacher can explain what pollution means.</p>
+    </div>
+      {{-- Slide 3 --}}
+     <div class="slide hidden flex flex-col items-center">
+          <div class="flex items-end gap-2 justify-center">
+             <img src="{{ asset('assets/images/K2/sustain/energy1/e3.png') }}"  />
+        </div>
+        <h2 class="title stroke text-center">Energy from the sun is known as solar energy.</h2><br>
+        </div>
+ {{-- Slide 3 --}}
+     <div class="slide hidden flex flex-col items-center">
+          <div class="flex items-end gap-2 justify-center">
+             <img src="{{ asset('assets/images/K2/sustain/energy1/e3.png') }}"  />
+        </div>
+        <h2 class="title stroke text-center">How do you feel when you stand under the sun?</h2><br>
+        <p class="note">Note: Encourage children to share their answers.
+        </div>
+        {{-- Slide 3 --}}
+     <div class="slide hidden flex flex-col items-center">
+          <div class="flex items-end gap-2 justify-center">
+             <img src="{{ asset('assets/images/K2/sustain/energy1/e3.png') }}"  />
+        </div>
+        <h2 class="title stroke text-center">The sun gives off heat and light.</h2><br>
+        </div>
+{{-- Slide 4 --}}
+    <div class="slide hidden  flex flex-col items-center justify-start  ">
+        <h2 class="title stroke">Children, what can the sun’s heat be used for?</h2><br>
+<p class="note">Note: Encourage children to share their thoughts.</p>
+    </div>
+  {{-- Slide 3 --}}
+     <div class="slide hidden flex flex-col items-center">
+          <div class="flex items-end gap-2 justify-center">
+             <img src="{{ asset('assets/images/K2/sustain/energy1/e4.png') }}"  />
+        </div>
+        <h2 class="title stroke text-center">This is a solar oven. It is made from a box and wrapped up
+with aluminium foil and cling wrap.</h2><br>
+        </div>
 
     {{-- slide 6 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <h2 class="title stroke">Now we'll learn how to make our own set of <span class="text-white">fingerprints</span>.
-            We'll compare and see if we all have the same <span class="text-white">fingerprints</span>!</h2>
+        <h2 class="title stroke">1. What materials are used in creating the solar oven?  <img src="{{ asset('assets/images/K2/sustain/energy1/information.png') }}"  /><br>
+2. Why do you think these materials are used?</h2><img src="{{ asset('assets/images/K2/sustain/energy1/information.png') }}"  /><br><br>
+<p class="note">Note: Teacher to pass the solar oven around to let children have a closer look.</p>
     </div>
-
-
-
+{{-- Slide 3 --}}
+     <div class="slide hidden flex flex-col items-center">
+          <div class="flex items-end gap-2 justify-center">
+             <img src="{{ asset('assets/images/K2/sustain/energy1/e4.png') }}"  />
+        </div>
+        <h2 class="title stroke text-center">A box with cover, aluminum foil, cling wrap and black paper.</h2><br>
+        </div>
+        {{-- pivtut --}}
+        {{-- Slide 3 --}}
+     <div class="slide hidden flex flex-col items-center">
+          <div class="flex items-end gap-2 justify-center">
+             <img src="{{ asset('assets/images/K2/sustain/energy1/e0a.png') }}"  />
+        </div>
+        <h2 class="title stroke text-center">The box gives the solar oven the structure like an oven.</h2><br>
+        </div>
+{{-- Slide 3 --}}
+     <div class="slide hidden flex flex-col items-center">
+          <div class="flex items-end gap-2 justify-center">
+                <img src="{{ asset('assets/images/K2/sustain/energy1/ab.png') }}"  />
+        </div>
+        <h2 class="title stroke text-center">The aluminum foil on the cover helps to reflect light
+into and within the box.</h2><br>
+        </div>
+        {{-- Slide 3 --}}
+     <div class="slide hidden flex flex-col items-center">
+          <div class="flex items-end gap-2 justify-center">
+             <img src="{{ asset('assets/images/K2/sustain/energy1/e13.png') }}"  />
+        </div>
+        <h2 class="title stroke text-center">The colour black absorbs heat. Putting a piece of black paper
+in the box helps to absorb heat from the sun.</h2><br>
+        </div>
+          {{-- Slide 3 --}}
+     <div class="slide hidden flex flex-col items-center">
+          <div class="flex items-end gap-2 justify-center">
+             <img src="{{ asset('assets/images/K2/sustain/energy1/e13.png') }}"  />
+        </div>
+        <h2 class="title stroke text-center">The black paper absorbs heat into the box and helps to
+increase the temperature in the box.</h2><br>
+        </div>
+           {{-- Slide 3 --}}
+     <div class="slide hidden flex flex-col items-center">
+          <div class="flex items-end gap-2 justify-center">
+             <img src="{{ asset('assets/images/K2/sustain/energy1/e13.png') }}"  />
+        </div>
+        <h2 class="title stroke text-center">Wrapping the cover with cling wraps prevents heat from
+escaping from the box.</h2><br>
+        </div>
+        {{-- Slide 3 --}}
+     <div class="slide hidden flex flex-col items-center">
+        <h2 class="note">Class Activity 1</h2>
+          <div class="flex items-end gap-2 justify-center">
+             <img src="{{ asset('assets/images/K2/sustain/energy1/e0a.png') }}"  />
+        </div>
+        <h2 class="title stroke text-center">Let's find out:<br>
+Create a solar oven and find out if the sun's heat <br>
+can cook food.</h2><br>
+        </div>
+ {{-- Slide 3 --}}
+     <div class="slide hidden flex flex-col items-center">
+         <h2 class="title stroke text-center">Let's do:<br>
+1. Set up the oven and put the thermometer inside as shown.<br>
+2. Write down the temperature of the oven before putting
+    under the sun.</h2><br>
+          <div class="flex items-end gap-2 justify-center">
+             <img src="{{ asset('assets/images/K2/sustain/energy1/e0a.png') }}"  />
+        </div>
+        </div>
+       {{-- Slide 3 --}}
+     <div class="slide hidden flex flex-col items-center">
+         <h2 class="title stroke text-center">Let's do:<br>
+3. Discuss as a class on the kind of food to try and cook in the
+    solar oven.<br>
+4. Draw how the food item looks like before putting in the
+    oven.</h2><br>
+          <div class="flex items-end gap-2 justify-center">
+             <img src="{{ asset('assets/images/K2/sustain/energy1/e5.png') }}"  />
+        </div>
+        </div>
     {{-- slide 7 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <h2 class="!text-white title stroke">Small Group Activity</h2>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f2.png') }}" />
-        <h2 class="title stroke">Let's find out: <br>
-            How to make our own set of fingerprints?
-            Do we have the same fingerprints?</h2>
-        <p class="text-center note">Note: Organise children into groups of 3 to do the activity (role A, B & C).
-            Have them clean and dry their hands first.</p>
+        <h2 class="title stroke">Let's do:
+5. Place the food item in the box, close it tight and lift up the
+   top panel to let the sunlight shine into it.<br>
+6. Place the solar oven outdoors under the sun.<br>
+7. Observe the temperature reading on the thermometer.<br>
+8. Check the temperature reading and the food item after one<br>
+    hour.
+9. Draw and record the temperature reading on the learning
+   journal.</h2>
+        <p class="text-center note">Note: The experiment outcome will vary base on the weather.</p>
     </div>
-
-
+ {{-- Slide 3 --}}
+     <div class="slide hidden flex flex-col items-center">
+         <h2 class="title stroke text-center">Let's do:<br>
+10. Discuss as a class, share observations and conclusions based
+     on the activity.</h2><br>
+          <div class="flex items-end gap-2 justify-center">
+             <img src="{{ asset('assets/images/K2/sustain/energy1/e5.png') }}"  />
+        </div>
+    </div>
+    {{-- Slide 3 --}}
+     <div class="slide hidden flex flex-col items-center">
+          <div class="flex items-end gap-2 justify-center">
+             <img src="{{ asset('assets/images/K2/sustain/energy1/e6.png') }}"  />
+        </div>
+        <h2 class="title stroke text-center">Solar panels are used to absorb the energy from the sun.</h2>
+        </div>
+         {{-- Slide 3 --}}
+     <div class="slide hidden flex flex-col items-center">
+          <div class="flex items-end gap-2 justify-center">
+             <img src="{{ asset('assets/images/K2/sustain/energy1/e6.png') }}"  />
+        </div>
+        <h2 class="title stroke text-center">When the sun shines on the panels, the panels use the
+energy and create electricity.</h2>
+        </div>
+         {{-- Slide 3 --}}
+     <div class="slide hidden flex flex-col items-center">
+          <div class="flex items-end gap-2 justify-center">
+             <img src="{{ asset('assets/images/K2/sustain/energy1/e6a.png') }}"  />
+        </div>
+        <h2 class="title stroke text-center">The electricity generated can be used to power up lights,
+water heaters and other electrical devices.</h2>
+        </div>
+         {{-- Slide 3 --}}
+     <div class="slide hidden flex flex-col items-center">
+         <h2 class="note">Class Activity 2</h2><br>
+          <div class="flex items-end gap-2 justify-center">
+             <img src="{{ asset('assets/images/K2/sustain/energy1/e7.png') }}"  />
+        </div>
+        <h2 class="title stroke text-center">Let's find out:
+How does a solar-powered light work?</h2>
+        </div>
+         {{-- Slide 3 --}}
+     <div class="slide hidden flex flex-col items-center">
+          <h2 class="title stroke text-center">Let's do:<br>
+1. Put the solar-powered light near a window or outdoors
+   where the solar panel faces the sun.</h2>
+          <div class="flex gap-2 items-center">
+             <img src="{{ asset('assets/images/K2/sustain/energy1/e8.png') }}"  />
+               <img src="{{ asset('assets/images/K2/sustain/energy1/e9.png') }}"  />
+        </div>
+        </div>
+        {{-- slide 7 --}}
+    <div class="slide hidden  flex flex-col items-center justify-start  ">
+        <h2 class="title stroke">Let's do:<br>
+2. Leave the solar-powered light in the sun for 15 minutes.<br>
+3. Bring the solar-powered light into the class and switch off
+   the lights in the class.<br>
+4. Did the solar-powered light light up? Why?</h2><br><br><br>
+        <p class="text-center note">Note: You can cover the solar panel to make the solar powered light light up too.<br> Encourage children
+            to discuss how did the solar powered light light up even when there's not batteries in it.</p>
+    </div>
+       {{-- slide 7 --}}
+    <div class="slide hidden  flex flex-col items-center justify-start  ">
+        <h2 class="title stroke">Let's do:
+5. Put the solar-powered light in a cupboard for a few hours
+   until the energy has been used up.<br>
+6. Switch off the lights in the classroom and see if the solar-
+    powered light lights up.<br>
+7. Share and discuss observation as a class.</h2>
+        <p class="text-center note">Note: Teacher to prompt children to share their observations and draw conclusions from it.
+Do encourage children to think of others ways to make the solar power light light up.</p>
+    </div>
+         {{-- Slide 3 --}}
+     <div class="slide hidden flex flex-col items-center">
+          <div class="flex items-end gap-2 justify-center">
+             <img src="{{ asset('assets/images/K2/sustain/energy1/e10.png') }}"  />
+        </div>
+        <h2 class="title stroke text-center">The solar-powered light lights up when the classroom is dark.<br>
+Energy from the sun is stored in the solar panel and lights up
+the light bulb when it's dark.</h2>
+        </div>
+         {{-- Slide 3 --}}
+     <div class="slide hidden flex flex-col items-center">
+          <div class="flex items-end gap-2 justify-center">
+             <img src="{{ asset('assets/images/K2/sustain/energy1/e7.png') }}"  />
+        </div>
+        <h2 class="title stroke text-center">The solar-powered light does not light up when the classroom
+is bright. The solar panel detects light when it's bright and it
+does not light up the light bulb.</h2>
+        </div>
+          {{-- Slide 3 --}}
+     <div class="slide hidden flex flex-col items-center">
+          <div class="flex items-end gap-2 justify-center">
+             <img src="{{ asset('assets/images/K2/sustain/energy1/e7.png') }}"  />
+        </div>
+        <h2 class="title stroke text-center">Why didn't the solar-powered light light up after being placed
+in the cupboard for a long time?</h2><br>
+<p class="note">Note: Encourage children to share their thoughts.</p>
+        </div>
+ {{-- Slide 3 --}}
+     <div class="slide hidden flex flex-col items-center">
+          <div class="flex items-end gap-2 justify-center">
+             <img src="{{ asset('assets/images/K2/sustain/energy1/e7.png') }}"  />
+        </div>
+        <h2 class="title stroke text-center">This is because the solar panel did not get any energy from
+the sun when it was in the cupboard.
+Without energy, it has no power to light up..</h2>
+        </div>
+        {{-- Slide 3 --}}
+     <div class="slide hidden flex flex-col items-center">
+          <div class="flex items-end gap-2 justify-center">
+             <img src="{{ asset('assets/images/K2/sustain/energy1/e3.png') }}"  />
+        </div>
+        <h2 class="title stroke text-center">The sun gives us heat and light which can be converted into
+useful clean energy.</h2>
+        </div>
+         {{-- Slide 3 --}}
+     <div class="slide hidden flex flex-col items-center">
+          <div class="flex items-end gap-2 justify-center">
+             <img src="{{ asset('assets/images/K2/sustain/energy1/e6.png') }}"  />
+        </div>
+        <h2 class="title stroke text-center">Solar energy is one of the clean energies that can be used
+to replaced coal and wood.</h2>
+        </div>
+        {{-- Slide 3 --}}
+     <div class="slide hidden flex flex-col items-center">
+         <h2 class="note">Learning Journal</h2>
+          <div class="flex items-end gap-2 justify-center">
+             <img src="{{ asset('assets/images/K2/sustain/energy1/e5.png') }}"  />
+        </div>
+        </div>
     {{-- slide 8 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <div class="self-start text-start">

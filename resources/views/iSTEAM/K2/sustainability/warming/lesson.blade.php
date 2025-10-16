@@ -23,12 +23,15 @@
     {{-- Slide 1 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
         <div class="flex items-center gap-5">
-            <img src="{{ asset('assets/images/K2/livingthings/dna/h17.png') }}" class="w-[500px]" />
-            <img src="{{ asset('assets/images/K2/livingthings/dna/h16.png') }}" class="w-[500px]" />
+            {{-- <img src="{{ asset('assets/images/K2/livingthings/dna/h17.png') }}" class="w-[500px]" />
+            <img src="{{ asset('assets/images/K2/livingthings/dna/h16.png') }}" class="w-[500px]" /> --}}
+            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s1.png') }}" class="w-[500px]" />
         </div>
         <div class="title stroke">
-            <h2>Children, do you still remember what determines our traits?
-                What makes each one of us unique?</h2>
+
+            <h2>Children, what do you see in the picture?</h2>
+            <p class="note">Note: Encourage children to share what they see in the picture.
+            </p>
         </div>
     </div>
 
@@ -37,58 +40,378 @@
     {{-- Slide 2 --}}
     <div class="slide hidden flex flex-col items-center">
         <div class="flex items-end gap-2 justify-center">
-            <img src="{{ asset('assets/images/K2/livingthings/dna/h1.png') }}" />
-            <img src="{{ asset('assets/images/K2/livingthings/dna/h17.png') }}" class="w-[500px]" />
-            <img src="{{ asset('assets/images/K2/livingthings/dna/h1.png') }}" />
+            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s1.png') }}" />
+
         </div>
-        <h2 class="title stroke">DNA determines our traits. We are all unique
-            because the bases in our DNA are arranged differently!</h2>
+        <h2 class="title stroke">This is our planet, Earth.</h2>
     </div>
 
 
-    {{-- Slide 3 --}}
-    <div class="slide hidden  flex flex-col items-center justify-between h-[50%] ">
-        <h2 class="title stroke text-center">Find a friend and compare your physical look!
-            What are the common traits you have?</h2>
-        <p class="note">Note: Encourage children to find at least two shared traits and show the rest.</p>
+
+    {{-- Slide 2 --}}
+    <div class="slide hidden flex flex-col items-center">
+        <div class="flex items-end gap-2 justify-center">
+            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s1.png') }}" />
+
+        </div>
+        <h2 class="title stroke">Do you know that Earth is sick?</h2>
+        <p class="note">Note: Encourage children to guess how Earth is sick.
+        </p>
     </div>
+    {{-- Slide 2 --}}
+    <div class="slide hidden flex flex-col items-center">
+        <div class="flex items-end gap-2 justify-center">
+            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s2.png') }}" />
+
+        </div>
+        <h2 class="title stroke text-center">Earth's climate has been changing.<br>
+            Earth is getting warmer.</h2>
+        <p class="note">Note: Explain that climate means the weather over a longer period of time.
+        </p>
+    </div>
+    {{-- Slide 2 --}}
+    <div class="slide hidden flex flex-col items-center">
+        <div class="flex items-end gap-2 justify-center">
+            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s2.png') }}" />
+
+        </div>
+        <h2 class="title stroke text-center">This is known as global warming.
+            Make a guess - What causes Earth's temperature to rise?</h2>
+        <p class="note">Note: Encourage children to share their thoughts with the class.
+        </p>
+    </div>
+
+
 
     {{-- slide 4 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/livingthings/dna/h17.png') }}" />
-        <h2 class="title stroke text-center">Most of the time we compare just the obvious traits
-            like hair type, facial feature, height and body shape.</h2>
+    <div class="slide hidden flex flex-col items-center">
+        <div class="flex items-end gap-2 justify-center">
+            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s2.png') }}" />
+
+        </div>
+        <h2 class="title stroke text-center">This is known as global warming.
+            Make a guess - What causes Earth's temperature to rise?</h2>
+        <p class="note">Note: Encourage children to share their thoughts with the class.
+        </p>
     </div>
 
 
     {{-- Slide 5 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f1.png') }}" />
-        <h2 class="title stroke">What about something small like <span class="text-white">fingerprints</span>?
-            Do you think our <span class="text-white">fingerprints</span> look the same?</h2>
+    <div class="slide hidden flex flex-col items-center">
+        <div class="flex items-end gap-2 justify-center">
+            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s3.png') }}" />
+            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s3.png') }}" />
+            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s3.png') }}" />
+        </div>
+        <h2 class="title stroke text-center">The increase of greenhouse gases causes
+            Earth's temperature to rise!</h2>
     </div>
+    {{-- Slide 5 --}}
+    <div class="slide hidden flex flex-col items-center">
+        <div class="flex items-end gap-2 justify-center">
+            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s3.png') }}" />
+            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s3.png') }}" />
+            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s3.png') }}" />
+        </div>
+        <h2 class="title stroke text-center">Carbon dioxide, methane and nitrous oxide are
+            known as greenhouse gases.</h2>
+    </div>
+    {{-- slide 5 --}}
+    <div class="slide hidden flex flex-col items-center">
+        <div class="flex items-end gap-2 justify-center">
+            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s4.png') }}" />
 
+        </div>
+        <h2 class="title stroke text-center">Greenhouse gases are produced when fuels such as wood and
+            coal are burned in factories and vehicles.</h2>
+    </div>
+    {{-- slide 5 --}}
+    <div class="slide hidden flex flex-col items-center">
+        <div class="flex items-end gap-2 justify-center">
+            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s5.png') }}" />
+
+        </div>
+        <h2 class="title stroke text-center">Farm animals also give out greenhouse gases.</h2>
+    </div>
 
     {{-- slide 6 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <h2 class="title stroke">Now we'll learn how to make our own set of <span class="text-white">fingerprints</span>.
-            We'll compare and see if we all have the same <span class="text-white">fingerprints</span>!</h2>
+        <h2 class="title stroke">How do these greenhouse gases affect
+            Earth's temperature?</h2><br><br><br><br><br><br><br><br>
+        <p class="note">Note: Encourage children to share their thoughts with the class.
+        </p>
+    </div>
+    {{-- slide 6 --}}
+    <div class="slide hidden flex flex-col items-center">
+        <div class="flex items-end gap-2 justify-center">
+            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s6.png') }}" />
+
+        </div>
+        <h2 class="title stroke text-center">During the day, the sun shines through the atmosphere and
+            warms up Earth's surface.</h2>
+    </div>
+    {{-- slide 6 --}}
+    <div class="slide hidden flex flex-col items-center">
+        <div class="flex items-end gap-2 justify-center">
+            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s7.png') }}" />
+
+        </div>
+        <h2 class="title stroke text-center">During the night, Earth’s surface cools down.
+            Heat escapes into the air.</h2>
+    </div>
+    {{-- slide 6 --}}
+    <div class="slide hidden flex flex-col items-center">
+        <div class="flex items-end gap-2 justify-center">
+            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s8.png') }}" />
+
+        </div>
+        <h2 class="title stroke text-center">Some of the heat escapes into space, while some are trapped
+            by the greenhouse gases.</h2>
+    </div>
+    {{-- slide 6 --}}
+    <div class="slide hidden flex flex-col items-center">
+        <div class="flex items-end gap-2 justify-center">
+            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s9.png') }}" />
+
+        </div>
+        <h2 class="title stroke text-center">The heat trapped in the atmosphere
+            keeps Earth warm.</h2>
+    </div>
+    {{-- slide 6 --}}
+    <div class="slide hidden flex flex-col items-center">
+        <div class="flex items-end gap-2 justify-center">
+            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s10.png') }}" />
+
+        </div>
+        <h2 class="title stroke text-center">The increase in greenhouse gases stops most of the heat from
+            escaping and heat gets trapped in the atmosphere.</h2>
+    </div>
+    {{-- slide 6 --}}
+    <div class="slide hidden flex flex-col items-center">
+        <div class="flex items-end gap-2 justify-center">
+            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s10.png') }}" />
+
+        </div>
+        <h2 class="title stroke text-center">The heat trapped in the atmosphere causes Earth's
+            temperature to increase.</h2>
+    </div>
+    {{-- slide 6 --}}
+    <div class="slide hidden flex flex-col items-center justify-center">
+        <h2 class="title stroke">Let's work on an experiment to observe what happens to the
+            temperature when air is being trapped.</h2><br><br><br><br><br><br><br><br>
+        <p class="note">Note: Remind children on safety rules when using the thermometer and the glass container.
+        </p>
     </div>
 
-
+    {{-- slide 6 --}}
+    <div class="slide hidden flex flex-col items-center justify-start">
+        <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s11.png') }}" />
+        <h2 class="title stroke text-center">Let's find out:<br>
+            How does the temperature change when heat/air is unable to<br>
+            escape from an enclosed container?</h2>
+    </div>
+    {{-- slide 6 --}}
+    <div class="slide hidden flex flex-col items-center justify-start ">
+        <h2 class="title stroke text-center">Let's do:<br>
+            Get two thermometers and a glass jar with a lid.</h2>
+        <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s11.png') }}" />
+        <p class="note">Note: Teacher to remind children to be careful when using the glass jar and glass thermometers.
+        </p>
+    </div>
 
     {{-- slide 7 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <h2 class="!text-white title stroke">Small Group Activity</h2>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f2.png') }}" />
-        <h2 class="title stroke">Let's find out: <br>
-            How to make our own set of fingerprints?
-            Do we have the same fingerprints?</h2>
-        <p class="text-center note">Note: Organise children into groups of 3 to do the activity (role A, B & C).
-            Have them clean and dry their hands first.</p>
+        <h2 class="title stroke text-center">Let's do:<br>
+            2. Paste a piece of paper underneath the hole on the lid.</h2>
+        <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s12.png') }}" />
+        <p class="text-center note">Note: Seal the hole with a paper because it's easier for children to poke a thermometer
+            through it later.</p>
     </div>
-
-
+    {{-- slide 7 --}}
+    <div class="slide hidden  flex flex-col items-center">
+        <h2 class="title stroke">Let's do:<br>
+            3. Poke a thermometer through the hole into the glass jar and<br>
+            cover it. Use tape to seal up any gaps to ensure that<br>
+            heat/air cannot escape from the jar. The glass jar acts as<br>
+            the greenhouse gases which prevent the heat from escaping.</h2>
+        <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s13.png') }}" />
+    </div>
+    {{-- slide 7 --}}
+    <div class="slide hidden  flex flex-col items-center justify-start">
+        <h2 class="title stroke">Let's do:<br>
+            5. The thermometer outside the glass jar will measure the<br>
+            temperature of the environment.<br>
+            6. The thermometer inside the glass jar will measure the<br>
+            temperature of the air being trapped, just like how the<br>
+            greenhouse gases were trapped in the atmosphere.</h2><br><br><br>
+        <p class="text-center note">Note: Teacher to help to read out the temperature on each thermometer.</p>
+    </div>
+    {{-- slide 7 --}}
+    <div class="slide hidden  flex flex-col items-center">
+        <h2 class="title stroke">Let's do:<br>
+            7. After setting up, record the temperature readings of both<br>
+            thermometers in the learning journal.<br>
+            8. Wait 5 minutes and 10 minutes later to record the second
+            and third readings.<br>
+            9. As a class, discuss the observations.
+        </h2><br>
+        <p class="note">Note: Teacher to ask questions to guide them in concluding their findings.</p>
+    </div>
+    {{-- slide 7 --}}
+    <div class="slide hidden flex flex-col items-center">
+        <div class="flex items-end gap-2 justify-center">
+            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s14.png') }}" />
+        </div>
+        <h2 class="title stroke text-center">What happens when Earth's temperature keeps increasing?</h2>
+        <p class="note">Note: Encourage children to share their thoughts.</p>
+    </div>
+    {{-- slide 7 --}}
+    <div class="slide hidden flex flex-col items-center">
+        <div class="flex gap-2 items-center">
+            <img class="w-[500px]" src="{{ asset('assets/images/K2/sustain/Globalwarming/s15a.png') }}" />
+            <img class="w-[300px]" src="{{ asset('assets/images/K2/sustain/Globalwarming/s15b.png') }}" />
+        </div>
+        <h2 class="title stroke text-center">When temperature increases, we feel hot!</h2>
+        <p class="note">Note: Teacher can help children to relate to how they feel when they are under
+            the hot sun during outdoors.</p>
+    </div>
+    {{-- slide 7 --}}
+    <div class="slide hidden flex flex-col items-center">
+        <div class="flex items-end gap-2 justify-center">
+            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s16.png') }}" />
+        </div>
+        <h2 class="title stroke text-center">Ice and snow on the ice cap mountains will melt.</h2>
+        <p class="note">Note: Teacher to explain that hot weather affects the plants.</p>
+    </div>
+    {{-- slide 7 --}}
+    <div class="slide hidden flex flex-col items-center">
+        <div class="flex items-end gap-2 justify-center">
+            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s17.png') }}" />
+        </div>
+        <h2 class="title stroke text-center">Ice and snow on the ice cap mountains will melt.</h2>
+    </div>
+    {{-- slide 7 --}}
+    <div class="slide hidden flex flex-col items-center">
+        <div class="flex items-end gap-1 justify-center">
+            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s18.png') }}" />
+        </div>
+        <h2 class="title stroke text-center">Glaciers will melt too!</h2>
+        <p class="note">Note: Teacher to explain that aglacier is a large piece of ice on top of land.<br>
+            Glacier is formed by the accumulation and compaction of snow.</p>
+    </div>
+    {{-- slide 7 --}}
+    <div class="slide hidden flex flex-col items-center justify-start">
+        <h2 class="title stroke ">What do you think will happen
+            when glaciers melt?</h2>
+        <p class="note">Note: Encourage children to share their thoughts.</p>
+    </div>
+    {{-- slide 7 --}}
+    <div class="slide hidden flex flex-col items-center">
+        <div class="flex items-end gap-1 justify-center">
+            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s19.png') }}" />
+        </div>
+        <h2 class="title stroke text-center">Let’s find out:<br>
+            What happens when glaciers melt?</h2>
+    </div>
+    {{-- slide 7 --}}
+    <div class="slide hidden flex flex-col items-center">
+        <h2 class="title stroke text-center">Let's do:<br>
+            1. Use clay or dough to form land on one side of a container.</h2>
+        <div class="flex items-end gap-1 justify-center">
+            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s20.png') }}" />
+        </div>
+        <p class="note">Note: Teacher may get children to work in small groups</p>
+    </div>
+    {{-- slide 7 --}}
+    <div class="slide hidden flex flex-col items-center">
+        <h2 class="title stroke text-center">Let's do:<br>
+            2. Fill the other side of the container with water, <br>to represent
+            the sea.<br>
+            3. Place a block of ice on top of the land. Explain that this is
+            glacier, where the top part of the land is ice.</h2>
+        <div class="flex items-end gap-1 justify-center">
+            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s21.png') }}" />
+        </div>
+    </div>
+    {{-- slide 7 --}}
+    <div class="slide hidden flex flex-col items-center">
+        <h2 class="title stroke text-center">Let's do:<br>
+            4. Use a marker and mark the water level on the side of the
+            container.</h2>
+        <div class="flex items-end gap-1 justify-center">
+            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s22.png') }}" />
+        </div>
+        <p class="note">Note: Teacher to ensure that the ice stays on top of the land at the start of the experiment.</p>
+    </div>
+    {{-- slide 7 --}}
+    <div class="slide hidden flex flex-col items-center justify-center">
+        <h2 class="title stroke">Let's do:<br>
+            5. Glaciers will melt due to global warming. Guess what will<br>
+            happen when the block of ice melts into the sea.<br>
+            6. Leave it in the outdoors or near a light source to <br>
+            represent the sun.<br>
+            7. Check the level again when all the ice has melted.<br></h2><br><br><br>
+        <p class="note">Note: Teacher to guide children in observing the change in water level.
+        </p>
+    </div>
+    {{-- slide 7 --}}
+    <div class="slide hidden flex flex-col items-center justify-center gap-5">
+        <h2 class="title stroke">Let's do:<br>
+            8. Discuss as a class what you have observed.<br>
+            9. Imagine if the water was the sea, what would have<br>
+            happened? </h2><br>
+        <p class="note">Note: Teacher to ask questions to guide them in concluding their findings.</p>
+        </p>
+    </div>
+    {{-- slide 7 --}}
+    <div class="slide hidden flex flex-col items-center">
+        <div class="flex items-end gap-1 justify-center">
+            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s18.png') }}" />
+        </div>
+        <h2 class="title stroke text-center">When the glaciers melt, the sea level will increase<br>
+            and islands may be flooded.</h2>
+    </div>
+    {{-- slide 7 --}}
+    <div class="slide hidden flex flex-col items-center">
+        <div class="flex items-end gap-1 justify-center">
+            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s23.png') }}" />
+        </div>
+        <h2 class="title stroke text-center">Our houses and the roads will be flooded too.</h2>
+        <p class="note">Note: Teacher to talk about how the flood will affect people.</p>
+    </div>
+    {{-- slide 7 --}}
+    <div class="slide hidden flex flex-col items-center justify-center gap-5">
+        <h2 class="title stroke">What have you learned about global warming?</h2>
+        <p class="note">Note: Encourage children to share.</p>
+        </p>
+    </div>
+    {{-- slide 7 --}}
+    <div class="slide hidden flex flex-col items-center">
+        <div class="flex items-end gap-1 justify-center">
+            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s2.png') }}" />
+        </div>
+        <h2 class="title stroke text-center">Global warming is the process of Earth getting warmer<br>
+            and the temperature increases.</h2>
+        <p class="note">Note: Explain that climate means the weather over a longer period of time.</p>
+    </div>
+    {{-- slide 7 --}}
+    <div class="slide hidden flex flex-col items-center">
+        <div class="flex items-end gap-1 justify-center">
+            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s10.png') }}" />
+        </div>
+        <h2 class="title stroke text-center">Global warming is caused by the increase in greenhouse gases<br>
+            trapped in the atmosphere.</h2>
+    </div>
+    {{-- slide 7 --}}
+    <div class="slide hidden flex flex-col items-center">
+        <div class="flex items-end gap-1 justify-center">
+            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s16.png') }}" />
+            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s18.png') }}" />
+            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s23.png') }}" />
+        </div>
+        <h2 class="title stroke text-center">With the increased temperature, it affects the land, animals
+            and plants. When glaciers melt, we will be affected too.</h2>
+    </div>
     {{-- slide 8 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <div class="self-start text-start">
@@ -132,7 +455,8 @@
                 3. (C) Cut and stick a piece of clear tape on the stained fingertip (of B).</h2>
         </div>
         <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f5.png') }}" />
-        <p class="note text-center">Note: Advise C to hold only an edge of the tape and stick the tape flat on the fingertip
+        <p class="note text-center">Note: Advise C to hold only an edge of the tape and stick the tape flat on the
+            fingertip
             of B.</p>
         <!-- Video Trigger Button -->
         <div data-property-1="Default"
@@ -170,7 +494,8 @@
                 5. (A) Use a wet towel to clean the fingertip (of B).</h2>
         </div>
         <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f7.png') }}" />
-        <p class="note text-center">Note: Explain to children that this is to avoid possible messiness when taking prints of
+        <p class="note text-center">Note: Explain to children that this is to avoid possible messiness when taking prints
+            of
             other fingers.</p>
         <!-- Video Trigger Button -->
         <div data-property-1="Default"
