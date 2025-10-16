@@ -92,7 +92,6 @@
 
         <img class="w-[800px] h-[100px]" src="/assets/images/K2/coding/s5.png" />
 
-
         <img class="w-[300px] h-[100px]" src="/assets/images/K2/coding/s4.png" />
 
 

@@ -174,7 +174,7 @@
 
     {{-- Slide 18 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <div class="flex  gap-30">
+        <div class="flex  gap-40">
             <div>
 
                 <h2 class="title stroke">Blockly</h2>
