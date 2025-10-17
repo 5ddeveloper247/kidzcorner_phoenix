@@ -53,7 +53,7 @@
             <h2 class="font-bold">An example of a toy structure: <br>Teddy bear image and 3D head.</h2>
             <img src="{{ asset('assets/images/pptimages/tr4.png') }}" alt="" class=" object-contain" />
         </div>
-        <div class="flex items-center justify-between">
+        <div class="flex items-center justify-around w-full">
             <div>
 
                 <h2 class="font-bold">Teddy bear 3D structure</h2>

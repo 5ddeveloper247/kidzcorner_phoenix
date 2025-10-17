@@ -67,7 +67,7 @@
 
             </ul>
         </div>
-        <div class="flex items-center justify-between">
+        <div class="flex items-center justify-around w-full">
 
             <ul class="list-disc">
                 <h2 class="font-bold">Things to consider Class Activity:</h2>

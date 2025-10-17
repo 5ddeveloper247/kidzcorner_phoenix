@@ -123,7 +123,7 @@
                 <li>Allow children to freely paste the materials on their template and let them discover the shadow formed
                     with the materials.</li>
             </ul>
-            <div class="flex items-center justify-between">
+            <div class="flex items-center justify-around w-full">
                 <ul class="list-disc pl-6">
                     <h3 class="font-semibold mt-4">Notes:</h3>
                     <li>Teacher to assist children to glue/tape the materials.</li>

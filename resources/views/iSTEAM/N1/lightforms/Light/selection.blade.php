@@ -73,7 +73,7 @@
 @section('content')
 
 
-    <div class=" flex items-center flex-col justify-center text-center relative z-[999] h-full  max-w-[1000px]  m-auto">
+    <div class=" flex items-center flex-col justify-center text-center relative z-[99]h-full  w-full">
         <h2 class="text-[50px] text-[#F7B94A] absolute top-[-30px]"> What is Light?</h2>
         <div class="flex items-center justify-between gap-[15rem]">
 
@@ -104,7 +104,7 @@
 
 
 
-    <div id="buttons" class="absolute top-[24px] right-[60px] flex flex-row gap-6 z-40">
+ <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
 
         <!-- Return Button -->
         <a href="{{ route('light') }}"

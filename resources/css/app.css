@@ -22,13 +22,14 @@ button {
     justify-content: space-between !important;
 }
 
+
 .nextButton span, .doneButton span{
  -webkit-text-stroke: 1px #533705;
 }
 
 .nextButton,.doneButton{
-    bottom: 30px !important;
     z-index: 99 !important;
+    height: 80px !important;
 
 }
 .note {

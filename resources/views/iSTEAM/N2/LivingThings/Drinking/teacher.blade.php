@@ -69,7 +69,7 @@
                 <li>You should see the change after one day.</li>
             </ul>
         </div>
-        <div class="flex items-center justify-between">
+        <div class="flex items-center justify-around w-full">
             <img src="{{ asset('assets/images/N2/Livingthings/lt37.png') }}" alt="Teacher" class="w-[400px]" />
             <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" />
         </div>
@@ -94,7 +94,7 @@
                 <li>For example: daisy</li>
             </ul>
         </div>
-        <div class="flex items-center justify-between">
+        <div class="flex items-center justify-around w-full">
             <img src="{{ asset('assets/images/N2/Livingthings/lt40.png') }}" alt="Teacher" class="w-[400px]" />
             <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" />
         </div>

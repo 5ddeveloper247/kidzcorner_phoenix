@@ -60,7 +60,7 @@
 
             <!-- Dynamic slide content -->
             <div id="container_test"
-                class="absolute inset-0 flex flex-col items-center justify-center text-center z-[999] px-4 row-gap-5 max-w-[1000px]  m-auto">
+                class="absolute inset-0 flex flex-col items-center justify-center text-center z-[99]px-4 row-gap-5 w-full">
             </div>
             <!-- Next button -->
         <button id="nextButton" class="lesson-btn relative !z-[99]">
@@ -199,26 +199,26 @@
 
 @section('content')
 
-    <div class=" flex flex-wrap items-center justify-center text-center z-[999] px-4 row-gap-5 max-w-[1000px]  m-auto">
+    <div class=" flex flex-wrap items-center justify-center text-center z-[99]px-4 row-gap-5 w-full">
 
-        <a href="{{ route('N1') }}"
-            class="bg-[url('/assets/images/pptimages/n1.png')] bg-no-repeat bg-contain bg-center w-[400px] h-[300px] relative transition hover:brightness-110 ">
+        <a href="{{ route('N1') }}" style="background-image: url('{{asset('/assets/images/pptimages/n1.png')}}');"
+            class=" bg-no-repeat bg-contain bg-center w-[400px] h-[300px] relative transition hover:brightness-110 ">
             <p class="text-[#AF6E39] text-[50px] absolute top-[40px] right-[60px]">N1</p>
         </a>
 
-        <a href="{{ route('N2') }}"
-            class="bg-[url('/assets/images/pptimages/n2.png')] bg-no-repeat bg-contain bg-center w-[400px] h-[300px] relative transition hover:brightness-110 ">
+        <a href="{{ route('N2') }}" style="background-image: url('{{asset('/assets/images/pptimages/n2.png')}}');"
+            class="bg-no-repeat bg-contain bg-center w-[400px] h-[300px] relative transition hover:brightness-110 ">
             <p class="text-[#AF6E39] text-[50px] absolute top-[75px] left-[120px]">N2</p>
         </a>
 
-        <a href="{{ route('K1') }}"
-            class="bg-[url('/assets/images/pptimages/k1.png')] bg-no-repeat bg-contain bg-center w-[400px] h-[300px] relative transition hover:brightness-110 ">
+        <a href="{{ route('K1') }}" style="background-image: url('{{asset('/assets/images/pptimages/k1.png')}}');"
+            class="bg-no-repeat bg-contain bg-center w-[400px] h-[300px] relative transition hover:brightness-110 ">
             <p class="text-[#AF6E39] text-[50px] absolute top-[55px] right-[60px]">K1</p>
         </a>
 
 
-        <a href="{{ route('K2') }}"
-            class="bg-[url('/assets/images/pptimages/k2.png')] bg-no-repeat bg-contain bg-center w-[400px] h-[300px] relative transition hover:brightness-110 ">
+        <a href="{{ route('K2') }}" style="background-image: url('{{asset('/assets/images/pptimages/k2.png')}}');"
+            class="bg-no-repeat bg-contain bg-center w-[400px] h-[300px] relative transition hover:brightness-110 ">
             <p class="text-[#AF6E39] text-[50px] absolute top-[75px] left-[115px]">K2</p>
         </a>
     </div>
