@@ -14,9 +14,6 @@
         }
     </style>
 @endpush
-
-
-
 @section('content')
     {{-- sldie 1  --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-3 text-start">
@@ -33,29 +30,21 @@
                 <li>Learn to cooperate with friends to complete a task</li>
             </ul>
         </div>
-
-
         <h2 class=" font-bold">Keywords:</h2>
         <div class="flex gap-1 justify-around">
             <ul class="list-disc ">
-
                 <li>Programme</li>
                 <li>Programming/Coding</li>
                 <li>Command</li>
                 <li>Animated Story</li>
             </ul>
-
-
             <ul class="list-disc ">
                 <li>Programming Block</li>
                 <li>Programming Area</li>
                 <li>Character</li>
                 <li>Speed</li>
             </ul>
-
-
         </div>
-
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
     </div>
@@ -68,15 +57,11 @@
             <h2 class="">Preparations:</h2>
             <li>The tablets (download ScratchJr application from App Store or Google Play for each tablet; charge all the
                 tablets before you start each lesson)</li>
-
         </ul>
-
         <div class="flex justify-center items-center">
             <div>
-
                 <img class="w-[800px]" src="/assets/images/K2/animate1/a50.png" />
             </div>
-
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
@@ -85,13 +70,10 @@
 
     {{-- sldie 3 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start  gap-y-10 text-start">
-
-
         <ul class="list-disc">
             <h2 class="">Preparations:</h2>
             <li>Grid Card (print and laminate so that they are reusable)</li>
             <li>Whiteboard marker pens</li>
-
         </ul>
         <div class="flex justify-center items-center">
             <div>
@@ -102,55 +84,26 @@
             class="absolute right-[250px] bottom-[150px]" />
     </div>
 
-
-
-
-
-     {{-- Slide 4 --}}
-     {{-- audio icon missing  --}}
-
-     {{-- audio  --}}
-
-     <div class=" slide flex text-2xl text-white flex-col justify-start  gap-[12rem] text-start">
-
-
+    {{-- Slide 4 --}}
+    {{--  Audio -- https://drive.google.com/file/d/1218KSH8ScV7Zp49d6BqE2XrO8syg3X5q/view?usp=drive_link --}}
+    <div class=" slide flex text-2xl text-white flex-col justify-start  gap-[11rem] text-start">
         <ul class="list-disc">
             <h2 class="">Preparations:</h2>
             <li>Underwater sound (let children search online or use this)</li>
-
         </ul>
-        <div class="flex  items-center justify-center items-center ">
-
-            <div>
-                <button class=" !text-white w-[60px] h-[60px] bg-[#F8A23A] rounded-[15px]"> audio</button>
-            </div>
-
-        </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
     </div>
-
-
-
-   
-
-
-
     {{-- sldie 7 --}}
-
-
     <div class=" slide flex text-2xl text-white flex-col  justify-start items-start text-start gap-[5rem]">
-
         <div>
             <ul class="list-disc !text-white">
-
                 <h2 class="">Reminders or advice during hands-on session:</h2>
                 <li>Always hold a tablet with both your hands (to show your care and prevent the
                     tools from spoiling easily).</li>
                 <li>Be patient and take turns when using the tablets.</li>
             </ul>
         </div>
-
         <div>
             <ul class="!text-start list-disc">
                 <h2 class="">Possible questions during hands-on sessions:</h2>
@@ -159,13 +112,9 @@
                 <li>Which programming block allows you to set the speed of a character?</li>
             </ul>
         </div>
-
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
     </div>
-
-
-
     {{-- sldie 7 --}}
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
@@ -209,12 +158,6 @@
                 alt="Teacher" />
         </div>
     </div>
-
-
-
-
-
-
     {{-- ========================================================== --}}
     {{-- Buttons --}}
     <div class="absolute bottom-0">
