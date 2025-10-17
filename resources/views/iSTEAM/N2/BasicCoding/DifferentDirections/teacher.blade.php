@@ -1,27 +1,8 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
 
-@push('style')
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-    <style>
-        button {
-            cursor: pointer !important;
-        }
-
-        a {
-            cursor: pointer;
-
-        }
-    </style>
-@endpush
-
-
 
 @section('content')
-
-
-
-
     {{-- sldie 1  --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
@@ -178,13 +159,8 @@
         </div>
     </div>
 
-
-
-
-
-
     {{-- Done Button --}}
-    <div class="absolute bottom-0">
+    <div class="absolute">
         <button
             class="cursor-pointer doneButton w-66 h-[75px] relative bg-[#F8A23A] rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
                     outline outline-1 outline-yellow-700 overflow-hidden">

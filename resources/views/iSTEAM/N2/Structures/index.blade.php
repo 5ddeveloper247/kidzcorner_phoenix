@@ -54,42 +54,42 @@
 
 
             <!-- Card 2 -->
-            <a href="{{ route('Growth') }}"
+            <a href="{{ route('Structureshapes') }}"
                 class=" bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[290px] h-[290px] relative flex justify-center items-center transition hover:brightness-110">
                 <h2 class="text-2xl text-[#7D6F71]">Shapes in <br> Structures</h2>
                 <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">2</span>
             </a>
 
             <!-- Card 3 -->
-            <a href="{{ route('StageOfGrowth') }}"
+            <a href="{{ route('building') }}"
                 class=" bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[290px] h-[290px] relative flex justify-center items-center transition hover:brightness-110">
                 <h2 class="text-2xl text-[#7D6F71]">Buildings <br>around us</h2>
                 <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">3</span>
             </a>
 
             <!-- Card 4 -->
-            <a href="{{ route('PlantsGrowth') }}"
+            <a href="{{ route('Triangularstructure') }}"
                 class=" bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[290px] h-[290px] relative flex justify-center items-center transition hover:brightness-110">
                 <h2 class="text-2xl text-[#7D6F71]">Triangular <br> Structures</h2>
                 <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">4</span>
             </a>
 
             <!-- Card 5 -->
-            <a href="{{ route('PartsOfPlants') }}"
+            <a href="{{ route('Carstructure') }}"
                 class=" bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[290px] h-[290px] relative flex justify-center items-center transition hover:brightness-110">
                 <h2 class="text-2xl text-[#7D6F71]">Structure <br> of a Car</h2>
                 <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">5</span>
             </a>
 
             <!-- Card 6 -->
-            <a href="{{ route('Drinking') }}"
+            <a href="{{ route('Bigstructure') }}"
                 class=" bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[290px] h-[290px] relative flex justify-center items-center transition hover:brightness-110">
                 <h2 class="text-2xl text-[#7D6F71]">Structure of <br> Big Vehicles</h2>
                 <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">6</span>
             </a>
 
             <!-- Card 7 -->
-            <a href="{{ route('Plants') }}"
+            <a href="{{ route('Citystructure') }}"
                 class=" bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[290px] h-[290px] relative flex justify-center items-center transition hover:brightness-110">
                 <h2 class="text-2xl text-[#7D6F71]">Structures <br> in a City</h2>
                 <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">7</span>

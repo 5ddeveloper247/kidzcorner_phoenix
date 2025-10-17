@@ -135,36 +135,6 @@
             class="absolute right-[250px] bottom-[150px]" />
     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     {{-- sldie 6 --}}
 
 

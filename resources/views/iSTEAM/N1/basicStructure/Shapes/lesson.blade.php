@@ -1,27 +1,11 @@
 @extends('layout.master')
-
 @section('title', 'Dynamic Presentation')
-
-@push('style')
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-    <style>
-        button {
-            cursor: pointer !important;
-        }
-
-        a {
-            cursor: pointer;
-
-        }
-    </style>
-@endpush
-
 
 @section('content')
 
     {{-- slide 0 --}}
     <div class="flex flex-col items-center justify-center gap-20 slide hidden">
-        <h2 class="title">Children, what do you see here?</h2>
+        <h2 class="title stroke">Children, what do you see here?</h2>
         <img src="{{ asset('assets/images/pptimages/cshapes.png') }}"
             class="max-w-[500px] sm:max-w-[600px] lg:max-w-[536px]" />
         <p class="note">Note: Guide children to share their answers.</p>
@@ -30,7 +14,7 @@
     {{-- slide 1 --}}
     <div class="flex flex-col items-center justify-center gap-5 slide hidden">
         <div class="flex flex-col items-center justify-center">
-            <h2 class="title">There is a square, triangle and a rectangle.</h2>
+            <h2 class="title stroke">There is a square, triangle and a rectangle.</h2>
             <img src="{{ asset('assets/images/pptimages/cshapes.png') }}"
                 class="max-w-[500px] sm:max-w-[600px] lg:max-w-[536px]" />
         </div>
@@ -39,7 +23,7 @@
 
     {{-- slide 2 --}}
     <div class="flex flex-col items-center justify-center gap-2 slide hidden">
-        <h2 class="title">Shapes can be formed using lines.</h2>
+        <h2 class="title stroke">Shapes can be formed using lines.</h2>
 
         <img src="{{ asset('assets/images/pptimages/cshapes.png') }}"
             class="max-w-[500px] sm:max-w-[600px] lg:max-w-[536px]" />
@@ -47,7 +31,7 @@
 
     {{-- slide 3 --}}
     <div class="flex flex-col items-center justify-center gap-2 slide hidden">
-        <h2 class="title">A Square is formed using <span class="text-white">4 straight lines</span> of the same length.
+        <h2 class="title stroke">A Square is formed using <span class="text-white">4 straight lines</span> of the same length.
         </h2>
         <img src="{{ asset('assets/images/pptimages/box.png') }}" class="max-w-[500px] sm:max-w-[600px] lg:max-w-[536px]" />
         <p class="note">Note: Point out to the children and count the lines together.</p>
@@ -55,34 +39,34 @@
 
     {{-- slide 4 --}}
     <div class="flex flex-col items-center justify-center gap-2 slide hidden">
-        <h2 class="title">A Square is formed when the lines join together.</h2>
+        <h2 class="title stroke">A Square is formed when the lines join together.</h2>
         <img src="{{ asset('assets/images/pptimages/box2.png') }}" />
     </div>
 
     {{-- slide 5 --}}
     <div class="flex flex-col items-center justify-center gap-2 slide hidden">
-        <h2 class="title">make threre and triangle in span of tect-whiteA triangle needs three lines</h2>
+        <h2 class="title stroke">make threre and triangle in span of tect-whiteA triangle needs three lines</h2>
         <img src="{{ asset('assets/images/pptimages/triangle.png') }}" />
         <p class="note">Note: Point out to the children and count the lines together.</p>
     </div>
 
     {{-- slide 6 --}}
     <div class="flex flex-col items-center justify-center gap-2 slide hidden">
-        <h2 class="title">A triangle is formed when the three lines join together.</h2>
+        <h2 class="title stroke">A triangle is formed when the three lines join together.</h2>
         <img src="{{ asset('assets/images/pptimages/triangle2.png') }}" />
         <p class="note">Note: Point out to the children on the parts where the lines are joined.</p>
     </div>
 
     {{-- slide 7 --}}
     <div class="flex flex-col items-center justify-center gap-2 slide hidden">
-        <h2 class="title">A rectangle is formed using 5 straight lines too.</h2>
+        <h2 class="title stroke">A rectangle is formed using 5 straight lines too.</h2>
         <img src="{{ asset('assets/images/pptimages/rect3.png') }}" />
         <p class="note">Note: Point out to the children and count the lines together.</p>
     </div>
 
     {{-- slide 8 --}}
     <div class="flex flex-col items-center justify-center gap-2 slide hidden">
-        <h2 class="title">A rectangle is formed using 5 straight
+        <h2 class="title stroke">A rectangle is formed using 5 straight
             lines too.</h2>
         <img src="{{ asset('assets/images/pptimages/rect3.png') }}" />
         <p class="note">Note: Point out to the children and count the lines together.</p>
@@ -90,7 +74,7 @@
 
     {{-- slide 9 --}}
     <div class="flex flex-col items-center justify-center gap-2 slide hidden">
-        <h2 class="title">Two long lines and two short lines are
+        <h2 class="title stroke">Two long lines and two short lines are
             used to form a rectangle.</h2>
         <img src="{{ asset('assets/images/pptimages/rect3.png') }}" />
 
@@ -98,7 +82,7 @@
 
     {{-- slide 10 --}}
     <div class="flex flex-col items-center justify-center gap-2 slide hidden">
-        <h2 class="title">This is another way of forming a rectangle.</h2>
+        <h2 class="title stroke">This is another way of forming a rectangle.</h2>
         <img src="{{ asset('assets/images/pptimages/rect5.png') }}" />
         <p class="note">Note: Point out to the children that this is also a rectangle.</p>
     </div>
@@ -175,21 +159,21 @@
 
     {{-- slide 16 --}}
     <div class="flex flex-col items-center justify-center gap-2 slide hidden">
-        <h2 class="title">This is how these shapes are formed.</h2>
+        <h2 class="title stroke ">This is how these shapes are formed.</h2>
         <img src="{{ asset('assets/images/pptimages/shapess.png') }}" />
 
     </div>
 
     {{-- slide 17 --}}
     <div class="flex flex-col items-center justify-center gap-2 slide hidden">
-        <h2 class="title">Shapes can be formed putting lines together.</h2>
+        <h2 class="title stroke ">Shapes can be formed putting lines together.</h2>
         <img src="{{ asset('assets/images/pptimages/cshapes.png') }}" />
 
     </div>
 
     {{-- slide 18 --}}
     <div class="flex flex-col items-center justify-center gap-10 slide hidden">
-        <h2 class="title">Learning Journal</h2>
+        <h2 class="title stroke ">Learning Journal</h2>
         <div class="relative">
             <p class="absolute top-0 left-0">Create a square and paste it here.</p>
             <img src="{{ asset('assets/images/pptimages/dark4.png') }}" class="w-[900px]" />
@@ -198,7 +182,7 @@
 
      {{-- slide 19 --}}
     <div class="flex flex-col items-center justify-center gap-10 slide hidden">
-        <h2 class="title">Learning Journal</h2>
+        <h2 class="title stroke ">Learning Journal</h2>
         <div class="relative">
             <p class="absolute top-0 left-0">Create a triangle and paste it here.</p>
             <img src="{{ asset('assets/images/pptimages/dark4.png') }}" class="w-[900px]" />
@@ -207,7 +191,7 @@
 
      {{-- slide 20 --}}
     <div class="flex flex-col items-center justify-center gap-10 slide hidden">
-        <h2 class="title">Learning Journal</h2>
+        <h2 class="title stroke ">Learning Journal</h2>
         <div class="relative">
             <p class="absolute top-0 left-0">Create a rectangle and paste it here.</p>
             <img src="{{ asset('assets/images/pptimages/dark4.png') }}" class="w-[900px]" />
@@ -228,7 +212,7 @@
     </div>
 
     {{-- Buttons --}}
-    <div id="buttons" class="absolute top-[24px] right-[60px] flex flex-row gap-6 z-40">
+ <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
 
         <!-- Return Button -->
         <a class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"

@@ -1,21 +1,5 @@
 @extends('layout.master')
-
 @section('title', 'Dynamic Presentation')
-
-@push('style')
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-    <style>
-        button {
-            cursor: pointer !important;
-        }
-
-        a {
-            cursor: pointer;
-
-        }
-    </style>
-@endpush
-
 
 @section('content')
 
@@ -24,10 +8,9 @@
         <h2 class="title stroke">Develop awareness that all things have shapes and structures; explore and create different
             structures using shapes.</h2>
         <div class="flex">
-
-            <img src="{{ asset('assets/images/pptimages/s7.png') }}" class="lg:max-w-[336px]" />
-            <img src="{{ asset('assets/images/pptimages/s6.png') }}" class="lg:max-w-[336px]" />
-            <img src="{{ asset('assets/images/pptimages/s4.png') }}" class="lg:max-w-[336px]" />
+            <img src="{{ asset('assets/images/pptimages/s7.png') }}" class="!max-w-[336px]" />
+            <img src="{{ asset('assets/images/pptimages/s6.png') }}" class="!max-w-[336px]" />
+            <img src="{{ asset('assets/images/pptimages/s4.png') }}" class="!max-w-[336px]" />
         </div>
 
         <p class="note">Note: Recap with children the shapes used.</p>
@@ -365,7 +348,7 @@
 
 
     {{-- Complete/Done Butttom --}}
-    <div class="absolute bottom-[85px]">
+    <div class="absolute bottom-[80px]">
         <button
             class="cursor-pointer doneButton w-66 h-[75px] relative bg-[#F8A23A] rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
                     outline outline-1 outline-yellow-700 overflow-hidden">
@@ -378,7 +361,7 @@
     </div>
 
     {{-- Buttons --}}
-    <div id="buttons" class="absolute top-[24px] right-[60px] flex flex-row gap-6 z-40">
+    <div id="buttons" class="absolute top-[30px] right-[60px] flex flex-row gap-6 z-40">
 
         <!-- Return Button -->
         <a class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
@@ -417,7 +400,7 @@
     </div>
 
     {{-- next Button --}}
-    <div class="absolute bottom-[85px]">
+    <div class="absolute bottom-[80px]">
 
         <button
             class="cursor-pointer nextButton w-66 h-[75px] relative bg-[#F8A23A]  rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
@@ -428,10 +411,6 @@
             </span>
         </button>
     </div>
-
-
-
-
 @endsection
 
 

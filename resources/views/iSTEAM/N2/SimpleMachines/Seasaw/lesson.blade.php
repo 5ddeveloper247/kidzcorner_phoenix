@@ -23,7 +23,7 @@
     {{-- Slide 1 --}}
     <div class="flex flex-col items-center justify-center gap-10 slide hidden">
 
-        <img src="/assets/images/N2/a16.png" class="w-[436px]" />
+        <img src="/assets/images/N2/SimpleMachines/a16.png" class="w-[436px]" />
         <h2 class="stroke title"><span class="text-white">Simple machines</span> are tools that help us to do
             work<br />easily. What <span class="text-white">simple machine</span> is this?</h2>
     </div>
@@ -33,7 +33,7 @@
 
     {{-- Slide 2 --}}
     <div class="flex flex-col items-center justify-center gap-10 slide hidden">
-        <img src="/assets/images/N2/s1.png" class="w-[436px]" />
+        <img src="/assets/images/N2/SimpleMachines/s1.png" class="w-[436px]" />
         <h2 class="stroke title">What about this?<br />What<span class="text-white"> simple machine</span> can you see?</h2>
     </div>
 
@@ -63,7 +63,7 @@
                 <li>1. Make sure you have all these parts.</li>
             </ul>
         </div>
-        <img src="/assets/images/N2/s2.png" class="w-[436px]" />
+        <img src="/assets/images/N2/SimpleMachines/s2.png" class="w-[436px]" />
         <p class="note">Note: Have each group of children work together to complete the mission. <a href="">Click
                 <span class="text-amber-300">here</span></a> for the guide.</p>
     </div>
@@ -77,7 +77,7 @@
                 <li>2. Build a Seasaw.</li>
             </ul>
         </div>
-        <img src="/assets/images/N2/s3.png" class="w-[436px]" />
+        <img src="/assets/images/N2/SimpleMachines/s3.png" class="w-[436px]" />
         <p class="note">Note: Have each group of children work together to complete the mission. <a href="">Click
                 <span class="text-amber-300">here</span></a> for the guide.</p>
     </div>
@@ -88,7 +88,7 @@
     {{-- slide 7 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="title stroke">How to build a seesaw? Step 1 of 7</h2>
-        <img src="{{ asset('assets/images/N2/s4.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/s4.png') }}" />
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
     </div>
 
@@ -96,7 +96,7 @@
     {{-- slide 8 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="title stroke">How to build a seesaw? Step 2 of 7</h2>
-        <img src="{{ asset('assets/images/N2/s5.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/s5.png') }}" />
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
     </div>
 
@@ -104,21 +104,21 @@
     {{-- slide 9 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="title stroke">How to build a seesaw? Step 3 of 7</h2>
-        <img src="{{ asset('assets/images/N2/s6.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/s6.png') }}" />
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
     </div>
 
     {{-- slide 10 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="title stroke">How to build a seesaw? Step 4 of 7</h2>
-        <img src="{{ asset('assets/images/N2/s7.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/s7.png') }}" />
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
     </div>
 
     {{-- slide 11 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="title stroke">How to build a seesaw? Step 5 of 7</h2>
-        <img src="{{ asset('assets/images/N2/s8.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/s8.png') }}" />
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
     </div>
 
@@ -126,32 +126,32 @@
     {{-- slide 12 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="title stroke">How to build a seesaw? Step 6 of 7</h2>
-        <img src="{{ asset('assets/images/N2/s9.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/s9.png') }}" />
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
     </div>
 
     {{-- slide 13 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="title stroke">How to build a seesaw? Step 7 of 7</h2>
-        <img src="{{ asset('assets/images/N2/s10.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/s10.png') }}" />
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
     </div>
 
     {{-- slide 14 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/s11.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/s11.png') }}" />
         <h2 class="title stroke"> How do you play with a seesaw? Would you play it on your own?</h2>
     </div>
 
     {{-- slide 15 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/s12.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/s12.png') }}" />
         <h2 class="title stroke">A seesaw is a long board rested on a fixed part in the middle.</h2>
     </div>
 
     {{-- slide 16 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/s13.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/s13.png') }}" />
         <h2 class="title stroke">To play it, you and a friend each sit on one end. When one end of it goes up, the other end
             goes down.</h2>
     </div>
@@ -159,7 +159,7 @@
 
     {{-- slide 17 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/s11.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/s11.png') }}" />
         <h2 class="stroke title">A seesaw is made with a<span class="text-white"> simple machine</span> <br />called a <span
                 class="text-white">lever</span>.</h2>
     </div>
@@ -167,20 +167,20 @@
 
     {{-- slide 18 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/se1.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/se1.png') }}" />
       <h2 class="stroke title">A <span class="text-white">lever</span> is a bar supported on a fixed part called<br/>the <span class="text-white">fulcrum</span>. The bar moves around the <span class="text-white">fulcrum</span>.</h2>
     </div>
 
      {{-- slide 19 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/se2.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/se2.png') }}" />
     <h2 class="stroke title">With the help of <span class="text-white">fulcrum</span>, one end of the <span class="text-white">lever</span> will<br/>move up when you push down the other end.</h2>
     </div>
 
 
          {{-- slide 20 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/se3.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/se3.png') }}" />
    <h2 class="stroke title">Many people use a <span class="text-white">lever</span> to lift heavy things.</h2>
     </div>
 
@@ -188,13 +188,13 @@
     
          {{-- slide 21--}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/s11.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/s11.png') }}" />
    <h2 class="stroke title">Where is the lever and fulcrum of this seesaw? What does the lever do?</h2>
     </div>
 
           {{-- slide 22--}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/s14.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/s14.png') }}" />
   <h2 class="stroke title">The long board is the <span class="text-white">lever</span> of a seesaw.<br/>The <span class="text-white">fulcrum</span> of this <span class="text-white">lever</span> is in the middle.</h2>
     </div>
 
@@ -202,13 +202,13 @@
     
           {{-- slide 23--}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/s13.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/s13.png') }}" />
    <h2 class="stroke title">This lever lets us easily lift each other up and down a seesaw during play.</h2>
     </div>
 
        {{-- slide 24--}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/s3.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/s3.png') }}" />
    <h2 class="stroke title">A seesaw can also be a balancing scale.
 You can use it to compare weight of different things.</h2>
     </div>
@@ -217,21 +217,21 @@ You can use it to compare weight of different things.</h2>
     
        {{-- slide 25--}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/s15.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/s15.png') }}" />
    <h2 class="stroke title">Look at this seesaw! Who is lighter? Who is heavier?</h2>
    <p class="note ">Note: Have all children think and answer. Guide them to understand the meaning of lighter and heavier.</p>
     </div>
      
        {{-- slide 26--}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/s15.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/s15.png') }}" />
    <h2 class="stroke title">Based on this, you know that the girl is heavier than the boy.</h2>
     </div>
 
 
     {{-- .slide 27 --}}
         <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/s16.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/s16.png') }}" />
    <h2 class="stroke title">What about this? Which car is lighter? Which car is heavier?</h2>
    <p class="note">Note: Have all children think and answer. Guide them to understand the meaning of lighter and heavier.</p>
      </div>
@@ -239,7 +239,7 @@ You can use it to compare weight of different things.</h2>
 
      {{-- slide 28 --}}
             <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/s17.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/s17.png') }}" />
    <h2 class="stroke title">Which car is lighter? Which car is heavier?</h2>
    <p class="note">Note: Have all children think and answer. Guide them to understand the meaning of lighter and heavier.</p>
      </div>
@@ -249,8 +249,8 @@ You can use it to compare weight of different things.</h2>
           {{-- slide 29 --}}
             <div class="flex flex-col items-center justify-center slide hidden">
                 <div>
-                    <img src="{{ asset('assets/images/N2/s16.png') }}" />
-                    <img src="{{ asset('assets/images/N2/s17.png') }}" />
+                    <img src="{{ asset('assets/images/N2/SimpleMachines/s16.png') }}" />
+                    <img src="{{ asset('assets/images/N2/SimpleMachines/s17.png') }}" />
                 </div>
    <h2 class="stroke title">Based on these, you know that the red car is the lightest and the green car is the heaviest amongst the three cars!</h2>
      </div>
@@ -277,7 +277,7 @@ You can use it to compare weight of different things.</h2>
                 <li>1. Put a boy on the seesaw.</li>
             </ul>
         </div>
-        <img src="/assets/images/N2/s18.png" class="w-[436px]" />
+        <img src="/assets/images/N2/SimpleMachines/s18.png" class="w-[436px]" />
         <p class="note">Note: Have each group of children copy the same setup.</p>
     </div>
 
@@ -291,8 +291,8 @@ You can use it to compare weight of different things.</h2>
             </ul>
         </div>
         <div class="flex items-center">
-            <img src="/assets/images/N2/s18.png"  />
-            <img src="/assets/images/N2/s19.png"  />
+            <img src="/assets/images/N2/SimpleMachines/s18.png"  />
+            <img src="/assets/images/N2/SimpleMachines/s19.png"  />
         </div>
         <p class="note">Note: Have children work in groups to complete the challenge and show the teacher.</p>
     </div>
@@ -306,7 +306,7 @@ You can use it to compare weight of different things.</h2>
                 <li>3. Now, put a girl on the seesaw.</li>
             </ul>
         </div>
-            <img src="/assets/images/N2/s20.png"  />
+            <img src="/assets/images/N2/SimpleMachines/s20.png"  />
       
         <p class="note">Note: Have each group of children copy the same setup.</p>
     </div>
@@ -321,8 +321,8 @@ You can use it to compare weight of different things.</h2>
             </ul>
         </div>
         <div class="flex items-center">
-            <img src="/assets/images/N2/s20.png"  />
-            <img src="/assets/images/N2/s19.png"  />
+            <img src="/assets/images/N2/SimpleMachines/s20.png"  />
+            <img src="/assets/images/N2/SimpleMachines/s19.png"  />
         </div>
         <p class="note">Note: Have each group of children copy the same setup.</p>
     </div>
@@ -336,7 +336,7 @@ You can use it to compare weight of different things.</h2>
                 <li>5. Put a boy and a girl on one end of the seesaw.</li>
             </ul>
         </div>
-            <img src="/assets/images/N2/s21.png"  />
+            <img src="/assets/images/N2/SimpleMachines/s21.png"  />
       
         <p class="note">Note: Have each group of children copy the same setup.</p>
     </div>
@@ -351,8 +351,8 @@ You can use it to compare weight of different things.</h2>
             </ul>
         </div>
         <div class="flex items-center">
-            <img src="/assets/images/N2/s21.png"  />
-            <img src="/assets/images/N2/s19.png"  />
+            <img src="/assets/images/N2/SimpleMachines/s21.png"  />
+            <img src="/assets/images/N2/SimpleMachines/s19.png"  />
         </div>
         <p class="note">Note: Have children work in groups to complete the challenge and show the teacher.</p>
     </div>
@@ -366,14 +366,14 @@ You can use it to compare weight of different things.</h2>
 
     {{-- slide 38 --}}
      <div class="flex flex-col items-center justify-center slide hidden">
-         <img src="{{ asset('assets/images/N2/s22.png') }}" />
+         <img src="{{ asset('assets/images/N2/SimpleMachines/s22.png') }}" />
          <h2 class="stroke title">You can balance a seesaw when you put two things<br/>of the same <span class="text-white">weight</span> on one end of the seesaw.</h2>
     </div>
 
 
     {{-- slide 39 --}}
       <div class="flex flex-col items-center justify-center slide hidden">
-         <img src="{{ asset('assets/images/N2/s23.png') }}" />
+         <img src="{{ asset('assets/images/N2/SimpleMachines/s23.png') }}" />
       <h2 class="stroke title">You can also balance a seesaw when you put two things<br/>of different <span class="text-white">weights</span> each on different parts<br/>of the two ends of the seesaw.</h2>
     </div>
 
@@ -392,7 +392,7 @@ You can use it to compare weight of different things.</h2>
     </div>
 
     {{-- Buttons --}}
-    <div id="buttons" class="absolute top-[24px] right-[60px] flex flex-row gap-6 z-40">
+ <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
 
         <!-- Return Button -->
         <a class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"

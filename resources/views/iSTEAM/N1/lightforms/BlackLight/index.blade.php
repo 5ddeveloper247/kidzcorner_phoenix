@@ -1,58 +1,25 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
 
-@push('style')
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-    <style>
-        button {
-            cursor: pointer;
-        }
-
-        .stroke {
-
-            -webkit-text-stroke: 2px #533705;
-        }
-
-        .note {
-            font-size: 24px;
-            font-weight: 400;
-            color: white;
-        }
-
-        a {
-            cursor: pointer;
-
-        }
-    </style>
-@endpush
-
-
-
 @section('content')
 
-    <div id="topDiv" class="flex flex-col items-center gap-[7rem] ">
-        <h2 class="  text-amber-300 text-[65px] font-extrabold stroke">Black Light</h2>
+    <div id="topDiv" class="flex flex-col items-center h-full justify-between">
+        <h2 class="  text-amber-300 text-[55px] font-extrabold stroke">Black Light</h2>
         <h2 class="!text-white title">
-            Develop awareness of what black light is;
-            explore varius materials and the
+            Develop awareness of what black light is; <br>
+            explore varius materials and the <br>
             effects under back light.
         </h2>
 
-            <button  class="cursor-pointer nextButton w-62 !h-[85px] relative bg-[#F8A23A]  rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
-        outline outline-1 outline-yellow-700 overflow-hidden">
+            <button  class="cursor-pointer nextButton w-62 !h-[80px] flex justify-center items-center relative bg-[#F8A23A]  rounded-[30px] overflow-hidden">
                 <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
                 <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" /> </div>
-                <span class="absolute left-[75px] top-[18px] flex items-center text-white text-5xl font-bold stroke">NEXT
+                <span class=" text-white text-5xl font-bold stroke">NEXT
                 </span>
             </button>
-
     </div>
 
-
-
-
-   <div id="buttons" class="absolute top-[24px] right-[60px] flex flex-row gap-6 z-40">
-
+   <div id="buttons" class="absolute top-[30px] right-[60px] flex flex-row gap-6 z-40">
         <!-- Return Button -->
         <button
             class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
@@ -86,7 +53,6 @@
         </button>
 
     </div>
-
 
 @endsection
 

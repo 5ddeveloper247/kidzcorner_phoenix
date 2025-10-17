@@ -21,274 +21,399 @@
 
 
     {{-- Slide 1 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <div class="flex items-center gap-5">
-            <img src="{{ asset('assets/images/K2/livingthings/dna/h17.png') }}" class="w-[500px]" />
-            <img src="{{ asset('assets/images/K2/livingthings/dna/h16.png') }}" class="w-[500px]" />
-        </div>
-        <div class="title stroke">
-            <h2>Children, do you still remember what determines our traits?
-                What makes each one of us unique?</h2>
-        </div>
-    </div>
+    <div class="slide flex flex-col items-center justify-center gap-[2rem] ">
 
+
+        <img src="/assets/images/K2/animate5/a1.png" />
+
+
+        <h2 class="title stroke">Children, let's look at this story!</h2>
+        <p class="note">Note: Have children talk about what they see and guess what the story is about (no right or wrong).
+        </p>
+
+
+
+    </div>
 
 
     {{-- Slide 2 --}}
-    <div class="slide hidden flex flex-col items-center">
-        <div class="flex items-end gap-2 justify-center">
-            <img src="{{ asset('assets/images/K2/livingthings/dna/h1.png') }}" />
-            <img src="{{ asset('assets/images/K2/livingthings/dna/h17.png') }}" class="w-[500px]" />
-            <img src="{{ asset('assets/images/K2/livingthings/dna/h1.png') }}" />
-        </div>
-        <h2 class="title stroke">DNA determines our traits. We are all unique
-            because the bases in our DNA are arranged differently!</h2>
+    <div class="slide flex flex-col items-center justify-center gap-[1rem] ">
+
+
+        <img src="/assets/images/K2/animate5/a1.png" />
+
+
+        <h2 class="title stroke">Why do you think there are two backgrounds in this story?</h2>
+        <p class="note">Note: Encourage children to boldly share their views.</p>
+
+
+
     </div>
 
-
     {{-- Slide 3 --}}
-    <div class="slide hidden  flex flex-col items-center justify-between h-[50%] ">
-        <h2 class="title stroke text-center">Find a friend and compare your physical look!
-            What are the common traits you have?</h2>
-        <p class="note">Note: Encourage children to find at least two shared traits and show the rest.</p>
+    <div class="slide flex flex-col items-center justify-center gap-[2rem] ">
+
+
+        <img src="/assets/images/K2/animate5/a2.png" />
+
+
+        <h2 class="title stroke">This story has two pages!</h2>
+        <p class="note">Note: Encourage children to guess which feature in the app allows us to add pages.</p>
+
+
+
     </div>
 
     {{-- slide 4 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/livingthings/dna/h17.png') }}" />
-        <h2 class="title stroke text-center">Most of the time we compare just the obvious traits
-            like hair type, facial feature, height and body shape.</h2>
+    <div class="slide flex flex-col items-center justify-center gap-[18rem] ">
+
+
+
+
+        <h2 class="title stroke">Now, let's find out how to create second page of a story and
+            how to programme the story to auto play from page to page!</h2>
+        <p class="note">Note: Use tablets to show children the following part.</p>
+
+
+
     </div>
 
 
     {{-- Slide 5 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f1.png') }}" />
-        <h2 class="title stroke">What about something small like <span class="text-white">fingerprints</span>?
-            Do you think our <span class="text-white">fingerprints</span> look the same?</h2>
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+
+
+        <img src="/assets/images/K2/animate5/a3.png" />
+
+
+        <h2 class="title stroke">What is the name and use of this command?</h2>
+        <p class="note">Note: Guide children to recall and talk about the use of End Blocks command (ways to end a
+            programme).</p>
+
+
+
     </div>
 
 
     {{-- slide 6 --}}
-    <div class="slide hidden flex flex-col items-center justify-center">
-        <h2 class="title stroke">Now we'll learn how to make our own set of <span class="text-white">fingerprints</span>.
-            We'll compare and see if we all have the same <span class="text-white">fingerprints</span>!</h2>
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+
+
+        <img src="/assets/images/K2/animate5/a4.png" />
+
+
+        <h2 class="title stroke">What are the two programming blocks here?</h2>
+        <p class="note">Note: Guide children to recall and name the two programming blocks under End Blocks command.</p>
+
+
+
     </div>
 
 
 
     {{-- slide 7 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <h2 class="!text-white title stroke">Small Group Activity</h2>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f2.png') }}" />
-        <h2 class="title stroke">Let's find out: <br>
-            How to make our own set of fingerprints?
-            Do we have the same fingerprints?</h2>
-        <p class="text-center note">Note: Organise children into groups of 3 to do the activity (role A, B & C).
-            Have them clean and dry their hands first.</p>
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+
+
+        <img src="/assets/images/K2/animate5/a5.png" />
+
+
+        <h2 class="title stroke">Usually, there are two programming blocks under End Blocks.
+            Each block here represents a way to end a programme.</h2>
+        <p class="note">Note: Show and name each programming block here.</p>
+
+
+
     </div>
+
 
 
     {{-- slide 8 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <div class="self-start text-start">
-            <h2 class="title stroke">Let's do: <br>
-                1. (A) Use a pencil to make a patch of dark mark on a paper.</h2>
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+        <div class="flex  gap-2">
+            <div>
+
+                <h2 class="title stroke">Sample 1</h2>
+                <img src="/assets/images/K2/animate5/a6.png" />
+            </div>
+            <div>
+
+                <h2 class="title stroke">Sample 2</h2>
+                <img src="/assets/images/K2/animate5/a7.png" />
+            </div>
+
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f3.png') }}" />
-        <p class="note text-center">Note: Advise A to darken the patch by shading the patch again and again.</p>
-        <!-- Video Trigger Button -->
-        <div data-property-1="Default"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
-            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
-        </div>
+
+        <h2 class="title stroke">What is the use of the "End" block?</h2>
+
+        <p class="note">Note: Guide children to recall and talk about the use of "End "block (it marks the end of a
+            programme; we can add
+            or don't add it to a programme because it does not affect the programme in any way).</p>
+
+
     </div>
+
 
 
     {{-- Slide 16 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <div class="self-start text-start">
-            <h2 class="title stroke">Let's do: <br>
-                2. (B) Rub a fingertip over the pencil mark to stain it.</h2>
-        </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f4.png') }}" />
-        <p class="note text-center">Note: Advise B to ensure that their fingertips have an even dark mark.</p>
-        <!-- Video Trigger Button -->
-        <div data-property-1="Default"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
-            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
-        </div>
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+
+
+        <img src="/assets/images/K2/animate5/a7.png" />
+
+
+        <h2 class="title stroke">What is the use of the "Repeat Forever" block?</h2>
+        <p class="note">Note: Guide children to recall and talk about the use of "Repeat Forever" block
+            (it runs a programme over and over again until we stop it).</p>
+
+
+
     </div>
+
 
 
     {{-- Slide 17 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <div class="self-start text-start">
-            <h2 class="title stroke">Let's do: <br>
-                3. (C) Cut and stick a piece of clear tape on the stained fingertip (of B).</h2>
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+        <div class="flex  gap-2">
+            <div>
+
+
+                <img src="/assets/images/K2/animate5/a7.png" />
+            </div>
+            <div>
+
+                <img src="/assets/images/K2/animate5/a7.png" />
+            </div>
+
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f5.png') }}" />
-        <p class="note text-center">Note: Advise C to hold only an edge of the tape and stick the tape flat on the fingertip
-            of B.</p>
-        <!-- Video Trigger Button -->
-        <div data-property-1="Default"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
-            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
-        </div>
+
+        <h2 class="title stroke">There isn't a need to add "Repeat Forever" block at the end
+            of every programme. We add it only when we want to see
+            certain animation effects on the stage.</h2>
+
+
+
     </div>
 
 
     {{-- Slide 18 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <div class="self-start text-start">
-            <h2 class="title stroke">Let's do: <br>
-                4. (C) Carefully remove the tape from the fingertip (of B)
-                and paste it on the learning journal (of B).</h2>
-        </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f6.png') }}" />
-        <p class="note text-center">Note: Remind C to paste the tape in the correct place of B's fingerprint record.</p>
-        <!-- Video Trigger Button -->
-        <div data-property-1="Default"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
-            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
-        </div>
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+
+
+        <img src="/assets/images/K2/animate5/a8.png" />
+
+
+        <h2 class="title stroke">Now, let's see how to create a story with two pages.</h2>
+        <p class="note">Note: Guide children to talk about what they see. Then have them guess what the
+            story is about (no right or wrong).</p>
+
+
+
     </div>
 
 
     {{-- Slide 18 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <div class="self-start text-start">
-            <h2 class="title stroke">Let's do: <br>
-                5. (A) Use a wet towel to clean the fingertip (of B).</h2>
-        </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f7.png') }}" />
-        <p class="note text-center">Note: Explain to children that this is to avoid possible messiness when taking prints of
-            other fingers.</p>
-        <!-- Video Trigger Button -->
-        <div data-property-1="Default"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
-            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
-        </div>
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+
+
+        <img src="/assets/images/K2/animate5/a9.png" />
+
+
+        <h2 class="title stroke">Let's see how to programme the story to auto play.</h2>
+        <p class="note">Note: Guide children to talk about what they see.</p>
+
+
+
     </div>
 
     {{-- Slide 18 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <div class="self-start text-start">
-            <h2 class="title stroke">Let's do: <br>
-                6. (A, B & C) Repeat the steps for other fingers.</h2>
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+        <div class="flex  gap-2  items-end">
+            <div>
+
+
+                <img src="/assets/images/K2/animate5/a10.png" />
+            </div>
+            <div>
+
+                <img src="/assets/images/K2/animate5/a11.png" />
+            </div>
+
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f8.png') }}" />
-        <p class="note text-center">Note: Have children change their roles to help one another complete the fingerprint
-            record.</p>
+
+        <h2 class="title stroke">Once a second page is created, a programming block called
+            "Go To Page" will appear under the End Blocks command.</h2>
+        <p class="note">Note: Show children how to do so.</p>
+
+
+
     </div>
 
 
     {{-- Slide 19 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <div class="self-start text-start">
-            <h2 class="title stroke">Let's do: <br>
-                7. Observe your fingerprints.</h2>
-        </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f2.png') }}" />
-        <p class="note text-center">Note: Have children observe and compare their own set of fingerprints on the record.
-        </p>
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+
+        <img src="/assets/images/K2/animate5/a12.png" />
+
+        <h2 class="title stroke">The "Go To Page" block allows us to link up different pages.</h2>
+        <p class="note">Note: Create a story with 2 pages and show children how to link page 1 to 2 and page 2 to 1 by
+            adding Go To Page
+            block at the end of a programme. Have them take note of the number on "Go To Page" block at different pages.</p>
+
+
+
     </div>
 
 
 
 
     {{-- Slide 20 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f2.png') }}" />
-        <h2 class="title stroke">What do you observe: <br>
-            Are there similarities between your fingerprints?</h2>
+    <div class="slide flex flex-col items-center justify-center gap-[5rem] ">
+        <h2 class="title stroke !text-white">Hands-on Time</h2>
+        <ul class="title stroke !text-start">
+            <li>Mission: <br>
+
+                Let's use ScratchJr to create a story about the adventure of <br>
+                a butterfly. Your story must at least have two pages and can <br>
+                auto play from page to page. What happens in the story? <br>
+                Share your story with the class.</li>
+        </ul>
+
+        <p class="note">Note: Divide children into groups. Have them take turns to complete the mission.</p>
     </div>
 
 
     {{-- Slide 21 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f2.png') }}" />
-        <h2 class="title stroke">What do you observe: <br>
-            Do your left and right hands’ fingerprints look alike?</h2>
+    <div class="slide flex flex-col  justify-start gap-[1rem] ">
+
+        <div>
+
+            <ul class="title stroke !text-start !text-4xl">
+                <li>Steps: <br>
+                    1. Choose the correct character for your story.</li>
+            </ul>
+        </div>
+
+
+        <div class="flex  gap-2 items-center ">
+
+            <img src="/assets/images/K2/animate5/a13.png" />
+            <img class="h-[30px] w-[30px]" src="/assets/images/K2/animate2/a16.png" />
+            <img src="/assets/images/K2/animate5/a14.png" />
+
+
+        </div>
+
+
+        <p class="note">Note: Remind children that it's a story about the adventure of a butterfly.</p>
+
+
     </div>
 
 
 
     {{-- Slide 22 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <div class="self-start text-start">
-            <h2 class="title stroke">Let's do: <br>
-                8. Observe your fingerprints with friends.</h2>
+    <div class="slide flex flex-col  justify-start gap-[1rem] ">
+
+        <div>
+
+            <ul class="title stroke !text-start !text-4xl">
+                <li>Steps: <br>
+                    2. Choose suitable backgrounds for your story.</li>
+            </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f9.png') }}" />
-        <p class="note">Note: Have children observe and compare their fingerprints with friends.</p>
+
+
+        <div class="flex  gap-2 items-center ">
+
+            <img src="/assets/images/K2/animate5/a16.png" />
+            <img class="h-[30px] w-[30px]" src="/assets/images/K2/animate2/a16.png" />
+            <img src="/assets/images/K2/animate5/a15.png" />
+
+
+        </div>
+
+
+        <p class="note">Note: Have children think what kind of adventure would the butterfly go on.</p>
+
+
     </div>
 
 
     {{-- Slide 24 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f9.png') }}" />
-        <h2 class="title stroke text-start">What do you observe: <br>
-            Do you find anyone with the same fingerprints as yours?</h2>
+    <div class="slide flex flex-col  justify-start gap-[18rem] ">
+
+        <div>
+
+            <ul class="title stroke !text-start !text-4xl">
+                <li>Steps: <br>
+                    3. Use your creativity to animate your character on different <br>
+                    pages.</li>
+            </ul>
+        </div>
+
+
+
+
+
+        <p class="note">Note: Have children create programmes for their characters. Guide them if needed.</p>
+
+
     </div>
 
 
     {{-- Slide 25 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <h2 class="title stroke text-start">What do you learn: <br>
-            What are the similarities between different fingerprints?</h2>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f9.png') }}" />
-        <p class="note">Note: Explain to children that the lines on the tips of our fingers or thumbs are called ridges.
-        </p>
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+
+
+        <div>
+
+            <ul class="title stroke !text-start !text-4xl">
+                <li>Steps: <br>
+                    4. Make your story auto play from page to page.</li>
+            </ul>
+        </div>
+        <div class="flex  gap-2  items-center">
+            <div>
+
+
+                <img src="/assets/images/K2/animate5/a10.png" />
+            </div>
+            <div>
+
+                <img src="/assets/images/K2/animate5/a17.png" />
+            </div>
+
+        </div>
+
+        <h2 class="title stroke">Once a second page is created, a programming block called
+            "Go To Page" will appear under the End Blocks command.</h2>
+        <p class="note">Note: Remind children to add the Go To Page" block at the end of a programme for linking up
+            different pages.</p>
+
+
+
     </div>
 
 
     {{-- Slide 26 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <h2 class="title stroke text-start">What do you learn: <br>
-            Do you find any two fingerprints are exactly same?</h2>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f9.png') }}" />
-    </div>
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+        <ul class="title stroke !text-start !text-4xl">
+            <li>Steps: <br>
+                5. Share your story.</li>
+        </ul>
+        <div class="flex  gap-2  items-center">
+            <img src="/assets/images/K2/animate5/a18.png" />
+            <img src="/assets/images/K2/animate5/a19.png" />
 
 
-    {{-- Slide 27 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f10.png') }}" />
-        <h2 class="title stroke">Through the activity, we know that fingerprints
-            are ridges on the tips of our fingers and thumbs.</h2>
-    </div>
-
-    {{-- Slide 28 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f11.png') }}" />
-        <h2 class="title stroke">We also know that no two fingerprints are exactly alike.</h2>
-    </div>
-
-    {{-- Slide 29 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f11.png') }}" />
-        <h2 class="title stroke">Therefore, individual fingerprints are unique
-            and no two people have the same fingerprints.</h2>
-    </div>
-
-    {{-- slide 30 --}}
-    <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
-        <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[836px] h-fit bg-cover bg-center p-[20px] flex flex-col justify-center items-center"
-            style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
-            <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f12.png') }}" />
         </div>
+
+        <p class="note">Note: Have children share their stories with the class using the presentation mode.</p>
     </div>
+
+
+
 
 
     {{-- ====================================== --}}
@@ -306,7 +431,7 @@
     </div>
 
 
-    <div id="buttons" class="absolute top-[24px] right-[60px] flex flex-row gap-6 z-40">
+ <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
 
         <!-- Return Button -->
         <a class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"

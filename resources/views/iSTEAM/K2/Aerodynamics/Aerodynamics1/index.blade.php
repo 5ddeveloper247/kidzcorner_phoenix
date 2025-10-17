@@ -4,11 +4,9 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col  gap-20 items-center ">
-        <div class="  text-amber-300 text-[65px] font-extrabold stroke">Fingerprints</div>
+        <div class="  text-amber-300 text-[65px] font-extrabold stroke">What is Aerodynamics? 1</div>
         <h2 class="text-2xl sm:text-3xl lg:text-6xl text-white stroke ">
-            Explore fingerprints; <br>
-            learn to make own set of fingerprints <br>
-            for analysis</h2>
+            Understanding the concept of Weight and Lift</h2>
 
         <button
             class="nextButton w-66 h-[90px] relative bg-[#F8A23A]  rounded-[30px] outline outline-1 outline-yellow-700 overflow-hidden">
@@ -21,7 +19,7 @@
 
 
 
-    
+
     <div id="buttons" class="absolute top-[30px] right-[60px] flex flex-row gap-6 z-40">
         <!-- Return Button -->
         <button class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] " id="returnButton">

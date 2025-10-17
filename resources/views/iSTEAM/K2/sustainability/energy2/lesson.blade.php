@@ -37,20 +37,19 @@
     {{-- Slide 2 --}}
     <div class="slide hidden flex flex-col items-center">
         <div class="flex items-end gap-2 justify-center">
-            <img src="{{ asset('assets/images/K2/livingthings/dna/h1.png') }}" />
-            <img src="{{ asset('assets/images/K2/livingthings/dna/h17.png') }}" class="w-[500px]" />
-            <img src="{{ asset('assets/images/K2/livingthings/dna/h1.png') }}" />
+              <h2 class="title stroke">Children, do you remember
+                what clean energy is?</h2>
         </div>
-        <h2 class="title stroke">DNA determines our traits. We are all unique
-            because the bases in our DNA are arranged differently!</h2>
+     <p class="note">Note: Encourage children to share their thoughts.</p>
+
     </div>
 
 
     {{-- Slide 3 --}}
     <div class="slide hidden  flex flex-col items-center justify-between h-[50%] ">
-        <h2 class="title stroke text-center">Find a friend and compare your physical look!
-            What are the common traits you have?</h2>
-        <p class="note">Note: Encourage children to find at least two shared traits and show the rest.</p>
+        <img src="{{ asset('assets/images/K2/sustain/energy2/e1.png') }}" />
+        <h2 class="title stroke text-center">Clean energy does not cause pollution and is generated from
+natural sources or processes that are constantly replenished.</h2>
     </div>
 
     {{-- slide 4 --}}
@@ -306,7 +305,7 @@
     </div>
 
 
-    <div id="buttons" class="absolute top-[24px] right-[60px] flex flex-row gap-6 z-40">
+ <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
 
         <!-- Return Button -->
         <a class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"

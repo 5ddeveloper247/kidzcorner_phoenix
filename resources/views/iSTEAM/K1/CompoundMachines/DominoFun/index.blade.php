@@ -30,14 +30,14 @@
 
 @section('content')
 
-    <div id="topDiv" class="flex flex-col  h-[90%] items-center ">
-        <div class="  text-amber-300 text-[65px] font-extrabold stroke">Domino Fun</div>
-        <h2 class="text-2xl sm:text-3xl lg:text-6xl text-white stroke ">
+    <div id="topDiv" class="flex flex-col   items-center ">
+        <div class="  text-amber-300 text-[50px] font-extrabold stroke">Domino Fun</div>
+        <h2 class="text-2xl sm:text-3xl lg:text-5xl text-white stroke ">
             Explore domino effects and basic domino
             arrangements that create domino effects </h2>
 
         <button
-            class="cursor-pointer nextButton w-66 h-[120px] relative bg-[#F8A23A]  rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
+            class="cursor-pointer nextButton w-66 h-[80px] relative bg-[#F8A23A]  rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
         outline outline-1 outline-yellow-700 overflow-hidden">
             <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
             <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" /> </div>
@@ -50,7 +50,7 @@
 
 
 
-    <div id="buttons" class="absolute top-[24px] right-[60px] flex flex-row gap-6 z-40">
+ <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
 
         <!-- Return Button -->
         <button

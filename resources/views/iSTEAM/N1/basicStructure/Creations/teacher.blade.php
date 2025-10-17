@@ -1,22 +1,6 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
 
-@push('style')
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-    <style>
-        button {
-            cursor: pointer !important;
-        }
-
-        a {
-            cursor: pointer;
-
-        }
-    </style>
-@endpush
-
-
-
 @section('content')
     {{-- slide 1 --}}
     <div class="flex flex-col justify-start gap-y-10 text-start text-2xl text-white slide hidden">
@@ -64,12 +48,12 @@
 
 
     {{-- slide 3 --}}
-     <div class="text-white flex flex-col text-start text-2xl slide hidden">
+    <div class="text-white flex flex-col text-start text-2xl slide hidden">
         <div>
             <h2 class="font-bold">An example of a toy structure: <br>Teddy bear image and 3D head.</h2>
             <img src="{{ asset('assets/images/pptimages/tr4.png') }}" alt="" class=" object-contain" />
         </div>
-        <div class="flex items-center justify-between">
+        <div class="flex items-center justify-around w-full">
             <div>
 
                 <h2 class="font-bold">Teddy bear 3D structure</h2>
@@ -81,7 +65,7 @@
         </div>
     </div>
 
-    
+
 
     {{-- slide 4 --}}
     <div class="text-white flex flex-col text-start text-2xl slide hidden">
@@ -97,8 +81,8 @@
     </div>
 
     {{-- slide 5 --}}
- 
-      <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
+
+    <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
                 <h2 class="font-bold">Notes:</h2>
@@ -157,19 +141,20 @@
 
 
     {{-- done Button --}}
-    <div class="absolute bottom-0">
+    <div class="absolute bottom-[80px] z-[99]">
         <button
             class="cursor-pointer doneButton w-66 h-[75px] relative bg-[#F8A23A] rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
                     outline outline-1 outline-yellow-700 overflow-hidden">
             <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
             <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" />
             </div>
-            <span class="absolute left-[80px] top-[18px] flex items-center  text-white text-5xl font-bold ">DONE</span>
+            <span
+                class="absolute left-[80px] top-[18px] stroke flex items-center  text-white text-5xl font-bold ">DONE</span>
         </button>
     </div>
 
     {{-- Buttons --}}
-    <div id="buttons" class="absolute top-0 right-[60px] flex flex-row gap-6 z-90">
+    <div id="buttons" class="absolute top-[30px] right-[60px] flex flex-row gap-6 z-90">
 
         <!-- Return Button -->
         <a class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
@@ -208,21 +193,17 @@
     </div>
 
     {{-- next Button --}}
-    <div class="absolute bottom-0">
+    <div class="absolute bottom-[80px] z-[99]">
 
         <button
             class="cursor-pointer nextButton w-66 h-[75px] relative bg-[#F8A23A]  rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
         outline outline-1 outline-yellow-700 overflow-hidden">
             <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
             <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" /> </div>
-            <span class="absolute left-[80px] top-[18px] flex items-center  text-white text-5xl font-bold ">NEXT
+            <span class="absolute left-[80px] top-[18px] stroke flex items-center  text-white text-5xl font-bold ">NEXT
             </span>
         </button>
     </div>
-
-
-
-
 @endsection
 
 

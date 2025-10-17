@@ -22,7 +22,7 @@
             animation: fadeIn 0.3s ease-in-out;
         }
 
-    
+
 
         a {
             cursor: pointer;
@@ -33,10 +33,11 @@
 
 @section('content')
 
-    <div class=" flex items-center justify-center text-center z-[999] px-4 row-gap-5 max-w-[1000px]  m-auto">
+    <div class=" flex items-center justify-center text-center z-[99]px-4 row-gap-5 w-full">
 
         <a href="{{ route('lightforms') }}"
-            class="bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[400px] h-[300px] relative flex justify-center items-center transition hover:brightness-110 ">
+            style="background-image: url('{{ asset('assets/images/pptimages/Property1.png') }}')"
+            class=" bg-no-repeat bg-contain bg-center w-[400px] h-[300px] relative flex justify-center items-center transition hover:brightness-110 ">
             <img src="/assets/images/pptimages/light-bulb1.png" alt="" class="w-[100px] absolute top-10 left-10">
             <h2 class="text-3xl text-[#534444]">
                 Light forms
@@ -44,7 +45,8 @@
 
         </a>
         <a href="{{ route('basicStructure') }}"
-            class="bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[400px] h-[300px] relative flex justify-center items-center  transition hover:brightness-110 ">
+            style="background-image: url('{{ asset('assets/images/pptimages/Property1.png') }}')"
+            class=" bg-no-repeat bg-contain bg-center w-[400px] h-[300px] relative flex justify-center items-center  transition hover:brightness-110 ">
             <img src="/assets/images/pptimages/light-bulb2.png" alt="" class="w-[100px] absolute top-10 left-10">
             <h2 class="text-3xl text-[#534444]">
                 Basic <br> Structure
@@ -53,13 +55,13 @@
         </a>
     </div>
 
-    <div id="buttons" class="absolute top-[30px] right-[60px] flex flex-row gap-6 z-90">
+    <div id="buttons" class="absolute top-[30px] right-[60px] flex flex-row gap-6 z-[999]">
 
         <!-- Return Button (hidden initially) -->
-        <a href="{{ route('isteam') }}" class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
+        <a href="{{ route('isteam') }}"
+            class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
             id="returnButton">
-            <img class="absolute top-[6px] left-[8px] w-20 h-10"
-                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
+            <img class="absolute top-[6px] left-[8px] w-20 h-10" src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
             <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
             <img class="absolute top-[24px] left-[22px] w-14 h-14"
                 src="{{ asset('assets/images/pptimages/reverse-icon.png') }}" />
@@ -69,19 +71,20 @@
         <a href="{{ route('isteam') }}"
             class="relative w-24 h-24 button-fade-in bg-sky-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
             id="homeButton">
-            <img class="absolute top-[6px] left-[8px] w-20 h-10"
-                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
+            <img class="absolute top-[6px] left-[8px] w-20 h-10" src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
             <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
             <img class="absolute top-[24px] left-[22px] w-14 h-14"
                 src="{{ asset('assets/images/pptimages/home-icon.png') }}" />
-    </a>
+        </a>
 
         <!-- Close Button -->
-        <button class="relative w-24 h-24 button-fade-in cursor-pointer flex justify-center items-center bg-red-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-red-900" id="closeButton">
-            <img class="absolute top-[6px] left-[8px] w-20 h-10" src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
+        <button
+            class="relative w-24 h-24 button-fade-in cursor-pointer flex justify-center items-center bg-red-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-red-900"
+            id="closeButton">
+            <img class="absolute top-[6px] left-[8px] w-20 h-10"
+                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
             <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <img class=" w-[35px] h-[49px] z-[999]" src="{{ asset('assets/images/pptimages/x.png') }}" />
+            <img class=" w-[35px] h-[49px] " src="{{ asset('assets/images/pptimages/x.png') }}" />
         </button>
     </div>
 @endsection
-

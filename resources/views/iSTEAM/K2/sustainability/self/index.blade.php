@@ -66,7 +66,7 @@
             }
             if (returnButton) {
                 returnButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('k2sustainability) }}";
+                    window.location.href = "{{ route('k2sustainability') }}";
                 });
             }
         });

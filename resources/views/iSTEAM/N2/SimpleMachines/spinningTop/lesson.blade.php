@@ -1,34 +1,16 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
 
-@push('style')
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-    <style>
-        button {
-            cursor: pointer !important;
-        }
-
-        a {
-            cursor: pointer;
-
-        }
-    </style>
-@endpush
-
-
 
 @section('content')
 
 
     {{-- Slide 1 --}}
-        <div class="flex flex-col items-center justify-center gap-10 slide hidden">
-            <h2 class="stroke title"><span class="text-white">Simple machines</span> are tools that help us to do<br />work
-                easily. What <span class="text-white">simple machine </span>is this?</h2>
-            <img src="/assets/images/N2/a57.png" class="w-[829px]" />
-        </div>
-
-
-
+    <div class="flex flex-col items-center justify-center gap-10 slide hidden">
+        <h2 class="stroke title"><span class="text-white">Simple machines</span> are tools that help us to do<br />work
+            easily. What <span class="text-white">simple machine </span>is this?</h2>
+        <img src="/assets/images/N2/SimpleMachines/a57.png" class="w-[829px]" />
+    </div>
 
     {{-- Slide 2 --}}
     <div class="slide flex flex-col items-center justify-center gap-10 ">
@@ -36,14 +18,14 @@
         <h2 class="stroke title">This <span class="text-white">wheel</span> and <span class="text-white">axle</span> lets us
             move people and<br />heavy things around easily when we pull the wagon.</h2>
         <div class="flex items-center gap-10">
-            <img src="/assets/images/N2/a14.png" class="w-[436px]" />
-            <img src="/assets/images/N2/a15.png" class="w-[436px]" />
+            <img src="/assets/images/N2/SimpleMachines/a14.png" class="w-[436px]" />
+            <img src="/assets/images/N2/SimpleMachines/a15.png" class="w-[436px]" />
         </div>
     </div>
 
     {{-- Slide 3 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <img src="/assets/images/N2/a25.png" class="w-[482px] h-[481px]" />
+        <img src="/assets/images/N2/SimpleMachines/a25.png" class="w-[482px] h-[481px]" />
         <h2 class="stroke title">This <span class="text-white">wheel</span> and <span class="text-white">axle</span> lets us
             easily bring along things<br />to buy when we push the shopping cart.</h2>
     </div>
@@ -51,7 +33,7 @@
 
     {{-- Slide 4 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <img src="/assets/images/N2/a27.png" />
+        <img src="/assets/images/N2/SimpleMachines/a27.png" />
         <h2 class="stroke title">This <span class="text-white">wheel</span> and <span class="text-white">axle</span> lets us
             have fun moving around<br />easily when we ride a scooter.</h2>
     </div>
@@ -60,7 +42,7 @@
 
     {{-- Slide 5 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <img src="/assets/images/N2/a29.png" />
+        <img src="/assets/images/N2/SimpleMachines/a29.png" />
         <h2 class="stroke title">This <span class="text-white">wheel</span> and <span class="text-white">axle</span> lets us
             easily view the scenery<br />when we take a ride on a giant wheel.</h2>
     </div>
@@ -68,7 +50,7 @@
 
     {{-- Slide 6 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <img src="/assets/images/N2/a31.png" />
+        <img src="/assets/images/N2/SimpleMachines/a31.png" />
         <h2 class="stroke title">This <span class="text-white">wheel</span> and <span class="text-white">axle</span>lets us
             have fun seeing the blades
             as the wind blows on a pinwheel.</h2>
@@ -91,7 +73,7 @@
                 <li>1. Make sure you have all these parts.</li>
             </ul>
         </div>
-        <img src="/assets/images/N2/a49.png" />
+        <img src="/assets/images/N2/SimpleMachines/a49.png" />
         <p class="note">Note: Have each group of children check to ensure they have all the parts,</p>
     </div>
 
@@ -105,8 +87,8 @@
             </ul>
         </div>
         <div class="flex items-center gap-10">
-            <img src="/assets/images/N2/a44.png" class="w-[436px]" />
-            <img src="/assets/images/N2/a51.png" class="w-[436px]" />
+            <img src="/assets/images/N2/SimpleMachines/a44.png" class="w-[436px]" />
+            <img src="/assets/images/N2/SimpleMachines/a51.png" class="w-[436px]" />
         </div>
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
     </div>
@@ -141,8 +123,8 @@
             </ul>
         </div>
         <div class="flex items-center gap-10">
-            <img src="/assets/images/N2/a44.png" class="w-[436px]" />
-            <img src="/assets/images/N2/a51.png" class="w-[436px]" />
+            <img src="/assets/images/N2/SimpleMachines/a44.png" class="w-[436px]" />
+            <img src="/assets/images/N2/SimpleMachines/a51.png" class="w-[436px]" />
         </div>
         <p class="note">Note: Have each group of children work together to complete the mission. <a href="">Click
                 <span class="text-amber-300">here</span></a>for the guide.</p>
@@ -152,14 +134,14 @@
     {{-- slide  12 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="title stroke">How to build a launcher? Step 1 of 3 </h2>
-        <img src="{{ asset('assets/images/N2/a34.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/a34.png') }}" />
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
     </div>
 
     {{-- slide 13 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="title stroke">How to build a launcher? Step 2 of 3</h2>
-        <img src="{{ asset('assets/images/N2/a35.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/a35.png') }}" />
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
     </div>
 
@@ -167,7 +149,7 @@
     {{-- slide 14 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="title stroke">How to build a launcher? Step 3 of 3</h2>
-        <img src="{{ asset('assets/images/N2/a36.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/a36.png') }}" />
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
     </div>
 
@@ -176,13 +158,13 @@
     <div class="slide flex flex-col items-center justify-center gap-5 ">
         <h2 class="stroke title">This is the <span class="text-white">wheel </span>(the two gears) and <span
                 class="text-white">axle<br /></span>of the spinning top.</h2>
-        <img src="/assets/images/N2/a58.png" />
+        <img src="/assets/images/N2/SimpleMachines/a58.png" />
         <p class="note">Note: Guide each group of children to point out the wheel and axle of their spinning tops.</p>
     </div>
 
     {{-- slide 16 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <img src="/assets/images/N2/a59.png" />
+        <img src="/assets/images/N2/SimpleMachines/a59.png" />
         <h2 class="stroke title">When you make the <span class="text-white">axle</span> of the spinning top spin,<br />its
             <span class="text-white">wheel </span>spins together.
         </h2>
@@ -205,7 +187,7 @@
     <div class="flex flex-col items-center justify-center slide hidden">
 
         <h2 class="title stroke !text-white">Hands-on Time 2</h2>
-        <img src="/assets/images/N2/a52.png" class="w-[550xp]" />
+        <img src="/assets/images/N2/SimpleMachines/a52.png" class="w-[550xp]" />
         <div class="text-start">
 
             <h2 class="title stroke">Mission: <br>
@@ -224,7 +206,7 @@
                     spins.</li>
             </ul>
         </div>
-        <img src="/assets/images/N2/a60.png" class="w-[600px]" />
+        <img src="/assets/images/N2/SimpleMachines/a60.png" class="w-[600px]" />
         <p class="note">Note: Teacher to time and record how long the spinning top of each group spins (each group 2
             chances)</p>
     </div>
@@ -240,7 +222,7 @@
                     spins.</li>
             </ul>
         </div>
-        <img src="/assets/images/N2/a60.png" class="w-[600px]" />
+        <img src="/assets/images/N2/SimpleMachines/a60.png" class="w-[600px]" />
         <p class="note">Note: Teacher to time and record how long the spinning top of each group spins (each group 2
             chances)</p>
     </div>
@@ -255,7 +237,7 @@
                     spins. </li>
             </ul>
         </div>
-        <img src="/assets/images/N2/a60.png" class="w-[600px]" />
+        <img src="/assets/images/N2/SimpleMachines/a60.png" class="w-[600px]" />
         <p class="note">Note: Teacher to time and record how long the spinning top of each group spins (each group 2
             chances)</p>
     </div>
@@ -276,14 +258,15 @@
     {{-- slide 23 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
         <h2 class="stroke title">Learning Journal</h2>
-        <div class="w-[736px] h-[508px] bg-cover bg-center " style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
+        <div class="w-[736px] h-[508px] bg-cover bg-center "
+            style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
 
             <div class="flex flex-col justify-center items-center gap-20">
                 <p>Which way makes the spinning top spin longer? Circle it.</p>
 
                 <div class="flex items-center gap-x-10">
-                    <img src="/assets/images/N2/a54.png" />
-                    <img src="/assets/images/N2/a55.png" />
+                    <img src="/assets/images/N2/SimpleMachines/a54.png" />
+                    <img src="/assets/images/N2/SimpleMachines/a55.png" />
                 </div>
             </div>
         </div>
@@ -293,17 +276,16 @@
     {{-- slide 24 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
         <h2 class="stroke title">Learning Journal</h2>
-        <div class="w-[736px] h-[508px] bg-cover bg-center " style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
+        <div class="w-[736px] h-[508px] bg-cover bg-center "
+            style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
 
             <div class="flex flex-col justify-center items-center gap-20">
                 <p>Which spinning top spins the longest time using a launcher? Circle it.</p>
-                <img src="/assets/images/N2/a52.png" />
+                <img src="/assets/images/N2/SimpleMachines/a52.png" />
             </div>
         </div>
 
     </div>
-
-
 
 
     {{-- Complete button --}}
@@ -320,11 +302,8 @@
     </div>
 
 
-
-
-
     {{-- Buttons --}}
-    <div id="buttons" class="absolute top-[24px] right-[60px] flex flex-row gap-6 z-40">
+ <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
 
         <!-- Return Button -->
         <a class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
@@ -374,10 +353,6 @@
             </span>
         </button>
     </div>
-
-
-
-
 @endsection
 
 

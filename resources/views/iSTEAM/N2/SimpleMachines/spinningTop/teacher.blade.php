@@ -1,27 +1,9 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
 
-@push('style')
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-    <style>
-        button {
-            cursor: pointer !important;
-        }
-
-        a {
-            cursor: pointer;
-
-        }
-    </style>
-@endpush
-
 
 
 @section('content')
-
-
-
-
     {{-- sldie 23  --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
@@ -60,7 +42,7 @@
             </ul>
         </div>
         <div class="flex items-center">
-            <img src="{{ asset('assets/images/N2/a49.png') }}" class="w-[636px]" />
+            <img src="{{ asset('assets/images/N2/SimpleMachines/a49.png') }}" class="w-[636px]" />
             <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt=""
                 class="h-[350xp] object-contain" />
         </div>
@@ -96,7 +78,7 @@
             </ul>
         </div>
         <div class="flex items-center">
-            <img src="{{ asset('assets/images/N2/at1.png') }}" class="w-[536px]" />
+            <img src="{{ asset('assets/images/N2/SimpleMachines/at1.png') }}" class="w-[536px]" />
             <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt=""
                 class="h-[350xp] object-contain" />
         </div>
@@ -187,10 +169,6 @@
 
 
 
-
-
-
-
     {{-- Done Button --}}
     <div class="absolute bottom-0">
         <button
@@ -204,11 +182,6 @@
                 class="absolute left-[80px] top-[18px] flex items-center  text-white text-5xl font-bold stroke">DONE</span>
         </button>
     </div>
-
-
-
-
-
 
     {{-- Buttons --}}
     <div id="buttons" class="absolute top-0 right-[60px] flex flex-row gap-6 z-90">
@@ -261,9 +234,6 @@
             </span>
         </button>
     </div>
-
-
-
 
 @endsection
 

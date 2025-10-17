@@ -4,11 +4,12 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col  gap-20 items-center ">
-        <div class="  text-amber-300 text-[65px] font-extrabold stroke">animate3</div>
-        <h2 class="text-2xl sm:text-3xl lg:text-6xl text-white stroke ">
-            Explore fingerprints; <br>
-            learn to make own set of fingerprints <br>
-            for analysis</h2>
+        <div class="  text-amber-300 text-[65px] font-extrabold stroke">Animate a Character (3)</div>
+        <h2 class="text-2xl sm:text-3xl lg:text-4xl text-white stroke ">
+          Explore and learn how to create animated stories using 
+ScratchJr; learn how to programme a character to have  <br>
+sound; try to time sounds to match the movements <br>
+of a character</h2>
 
         <button
             class="nextButton w-66 h-[90px] relative bg-[#F8A23A]  rounded-[30px] outline outline-1 outline-yellow-700 overflow-hidden">

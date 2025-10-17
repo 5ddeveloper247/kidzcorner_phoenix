@@ -22,13 +22,10 @@
 
     {{-- Slide 1 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <div class="flex items-center gap-5">
-            <img src="{{ asset('assets/images/K2/livingthings/dna/h17.png') }}" class="w-[500px]" />
-            <img src="{{ asset('assets/images/K2/livingthings/dna/h16.png') }}" class="w-[500px]" />
-        </div>
+        <img src="{{ asset('assets/images/K2/aero/hydro/h1.png') }}" />
         <div class="title stroke">
-            <h2>Children, do you still remember what determines our traits?
-                What makes each one of us unique?</h2>
+            <h2>Aerodynamics is the way air moves around things.
+                Anything that moves through air is affected by aerodynamics.</h2>
         </div>
     </div>
 
@@ -36,260 +33,277 @@
 
     {{-- Slide 2 --}}
     <div class="slide hidden flex flex-col items-center">
-        <div class="flex items-end gap-2 justify-center">
-            <img src="{{ asset('assets/images/K2/livingthings/dna/h1.png') }}" />
-            <img src="{{ asset('assets/images/K2/livingthings/dna/h17.png') }}" class="w-[500px]" />
-            <img src="{{ asset('assets/images/K2/livingthings/dna/h1.png') }}" />
-        </div>
-        <h2 class="title stroke">DNA determines our traits. We are all unique
-            because the bases in our DNA are arranged differently!</h2>
+        <img src="{{ asset('assets/images/K2/aero/hydro/h3.png') }}" />
+        <h2 class="title stroke">Can you name the <span class="text-white">four aerodynamic forces?</span></h2>
+        <p class="text-white">Can you name the four aerodynamic forces?</p>
     </div>
 
 
     {{-- Slide 3 --}}
-    <div class="slide hidden  flex flex-col items-center justify-between h-[50%] ">
-        <h2 class="title stroke text-center">Find a friend and compare your physical look!
-            What are the common traits you have?</h2>
-        <p class="note">Note: Encourage children to find at least two shared traits and show the rest.</p>
+    <div class="slide hidden  flex flex-col items-center ">
+        <img src="{{ asset('assets/images/K2/aero/hydro/h4.png') }}" />
+        <h2 class="title stroke text-center">These four aerodynamic forces affect the way an aeroplane
+            moves.</h2>
     </div>
 
     {{-- slide 4 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/livingthings/dna/h17.png') }}" />
-        <h2 class="title stroke text-center">Most of the time we compare just the obvious traits
-            like hair type, facial feature, height and body shape.</h2>
+        <img src="{{ asset('assets/images/K2/aero/hydro/h5.png') }}" />
+        <h2 class="title stroke text-center">Weight comes from the force of gravity pulling down objects.</h2>
     </div>
 
 
     {{-- Slide 5 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f1.png') }}" />
-        <h2 class="title stroke">What about something small like <span class="text-white">fingerprints</span>?
-            Do you think our <span class="text-white">fingerprints</span> look the same?</h2>
+        <img src="{{ asset('assets/images/K2/aero/hydro/h6.png') }}" />
+        <h2 class="title stroke">Lift is a force that pushes something up.</h2>
     </div>
 
 
     {{-- slide 6 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <h2 class="title stroke">Now we'll learn how to make our own set of <span class="text-white">fingerprints</span>.
-            We'll compare and see if we all have the same <span class="text-white">fingerprints</span>!</h2>
+        <img src="{{ asset('assets/images/K2/aero/hydro/h7.png') }}" />
+        <h2 class="title stroke">Thrust is the force that pushes the aeroplane forward.</h2>
     </div>
 
-
-
     {{-- slide 7 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <h2 class="!text-white title stroke">Small Group Activity</h2>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f2.png') }}" />
-        <h2 class="title stroke">Let's find out: <br>
-            How to make our own set of fingerprints?
-            Do we have the same fingerprints?</h2>
-        <p class="text-center note">Note: Organise children into groups of 3 to do the activity (role A, B & C).
-            Have them clean and dry their hands first.</p>
+    <div class="slide hidden flex flex-col items-center justify-center">
+        <img src="{{ asset('assets/images/K2/aero/hydro/h8.png') }}" />
+        <h2 class="title stroke">Drag is the opposing force of thrust that slows down the
+            aeroplane.</h2>
     </div>
 
 
     {{-- slide 8 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <div class="self-start text-start">
-            <h2 class="title stroke">Let's do: <br>
-                1. (A) Use a pencil to make a patch of dark mark on a paper.</h2>
+    <div class="slide hidden flex flex-col items-center justify-center">
+        <img src="{{ asset('assets/images/K2/aero/hydro/h4.png') }}" />
+        <h2 class="title stroke">Which force has to be higher for the aeroplane to take off?</h2>
+        <p class="note">Note: Guide children to share their answers.</p>
+    </div>
+
+    {{-- slide 9 --}}
+    <div class="slide hidden flex flex-col items-center justify-center">
+        <img src="{{ asset('assets/images/K2/aero/hydro/h21.png') }}" />
+        <h2 class="title stroke">The aeroplane can only take off into the sky when the lift is
+            higher than the weight.</h2>
+    </div>
+
+    {{-- slide 10 --}}
+    <div class="slide hidden flex flex-col items-center justify-center">
+        <img src="{{ asset('assets/images/K2/aero/hydro/h4.png') }}" />
+        <h2 class="title stroke">Which force has to be less for the aeroplane to keep moving
+            forward during flight?</h2>
+        <p class="note">Note: Guide children to share their answers.</p>
+    </div>
+
+
+    {{-- slide 11 --}}
+    <div class="slide hidden flex flex-col items-center justify-center">
+        <img src="{{ asset('assets/images/K2/aero/hydro/h8.png') }}" />
+        <h2 class="title stroke">When there is less drag, the aeroplane will be able to keep
+            moving forward.</h2>
+    </div>
+
+    {{-- slide 12 --}}
+    <div class="slide hidden flex flex-col items-center justify-between h-[50%]">
+        <h2 class="title stroke">Now you have learned about aerodynamics,
+            what do you think is hydrodynamics?</h2>
+        <p class="note">Note: Encourage children to discuss and share their answers.</p>
+    </div>
+
+
+    {{-- slide 13 --}}
+    <div class="slide hidden flex flex-col items-center">
+        <img src="{{ asset('assets/images/K2/aero/hydro/h2.png') }}" />
+        <h2 class="title stroke">Hydrodynamics comes from the word hydro (water) and
+            dynamic (movement).</h2>
+    </div>
+
+    {{-- slide 14 --}}
+    <div class="slide hidden flex flex-col items-center">
+        <img src="{{ asset('assets/images/K2/aero/hydro/h2.png') }}" />
+        <h2 class="title stroke">Hydrodynamics is the way water or liquid moves around things.</h2>
+    </div>
+
+
+    {{-- slide 15 --}}
+    <div class="slide hidden flex flex-col items-center relative">
+        <div class="flex items-center gap-[5rem]">
+            <div>
+                <!-- Video Trigger Button -->
+                <div onclick="toggleVideo('video1')"
+                    class="absolute top-1/2 left-0  z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
+                    <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
+                    <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
+                    <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+                </div>
+                <video id="video1" class="w-full max-w-4xl pointer-events-none">
+                    <source src="{{ asset('assets/images/K2/aero/hydro/215.mp4') }}" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div>
+                <!-- Video Trigger Button -->
+                <div onclick="toggleVideo('video2')"
+                    class="absolute top-1/2 right-0 z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
+                    <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
+                    <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
+                    <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+                </div>
+                <video id="video2" class="w-full max-w-4xl pointer-events-none">
+                    <source src="{{ asset('assets/images/K2/aero/hydro/216.mp4') }}" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f3.png') }}" />
-        <p class="note text-center">Note: Advise A to darken the patch by shading the patch again and again.</p>
-        <!-- Video Trigger Button -->
-        <div data-property-1="Default"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
-            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+        <h2 class="title stroke">Hydrodynamics is the way water or liquid moves around things.</h2>
+    </div>
+
+
+    {{-- slide 16 --}}
+    <div class="slide hidden  flex flex-col items-center justify-between h-[50%] ">
+        <h2 class="!text-white title stroke">Hands-on Time 1</h2>
+        <div class="slef-start text-start">
+            <h2 class="title stroke">Let's find out: <br>
+                Let's find out what affects the movement of an object in water.</h2>
         </div>
     </div>
 
 
-    {{-- Slide 16 --}}
+    {{-- slide 17 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <div class="self-start text-start">
-            <h2 class="title stroke">Let's do: <br>
-                2. (B) Rub a fingertip over the pencil mark to stain it.</h2>
+            <h2 class="title stroke">Steps: <br>
+                1. Prepare a flat board/container lid, a tub of water and a peg.</h2>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f4.png') }}" />
-        <p class="note text-center">Note: Advise B to ensure that their fingertips have an even dark mark.</p>
-        <!-- Video Trigger Button -->
-        <div data-property-1="Default"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
-            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
-        </div>
-    </div>
-
-
-    {{-- Slide 17 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <div class="self-start text-start">
-            <h2 class="title stroke">Let's do: <br>
-                3. (C) Cut and stick a piece of clear tape on the stained fingertip (of B).</h2>
-        </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f5.png') }}" />
-        <p class="note text-center">Note: Advise C to hold only an edge of the tape and stick the tape flat on the fingertip
-            of B.</p>
-        <!-- Video Trigger Button -->
-        <div data-property-1="Default"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
-            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
-        </div>
+        <img src="{{ asset('assets/images/K2/aero/hydro/h11.png') }}" />
     </div>
 
 
     {{-- Slide 18 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <div class="self-start text-start">
-            <h2 class="title stroke">Let's do: <br>
-                4. (C) Carefully remove the tape from the fingertip (of B)
-                and paste it on the learning journal (of B).</h2>
+            <h2 class="title stroke">Steps: <br>
+                2. Push the board/lid forward in the water with the flat surface
+                in front</h2>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f6.png') }}" />
-        <p class="note text-center">Note: Remind C to paste the tape in the correct place of B's fingerprint record.</p>
-        <!-- Video Trigger Button -->
-        <div data-property-1="Default"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
-            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
-        </div>
-    </div>
-
-
-    {{-- Slide 18 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <div class="self-start text-start">
-            <h2 class="title stroke">Let's do: <br>
-                5. (A) Use a wet towel to clean the fingertip (of B).</h2>
-        </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f7.png') }}" />
-        <p class="note text-center">Note: Explain to children that this is to avoid possible messiness when taking prints of
-            other fingers.</p>
-        <!-- Video Trigger Button -->
-        <div data-property-1="Default"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
-            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
-        </div>
-    </div>
-
-    {{-- Slide 18 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <div class="self-start text-start">
-            <h2 class="title stroke">Let's do: <br>
-                6. (A, B & C) Repeat the steps for other fingers.</h2>
-        </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f8.png') }}" />
-        <p class="note text-center">Note: Have children change their roles to help one another complete the fingerprint
-            record.</p>
+        <img src="{{ asset('assets/images/K2/aero/hydro/h12.png') }}" />
+        <p class="note">Note: Submerge the board/lid at least 3/4 deep into the water and push it forward slowly.</p>
     </div>
 
 
     {{-- Slide 19 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <div class="self-start text-start">
-            <h2 class="title stroke">Let's do: <br>
-                7. Observe your fingerprints.</h2>
+            <h2 class="title stroke">Steps: <br>
+                3. Turn the board/lid sideways (as shown) and push it through
+                the water.</h2>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f2.png') }}" />
-        <p class="note text-center">Note: Have children observe and compare their own set of fingerprints on the record.
-        </p>
+        <img src="{{ asset('assets/images/K2/aero/hydro/h13.png') }}" />
+        <p class="note text-center">Note: Submerge the board/lid at least 3/4 deep into the water and push it forward
+            slowly.</p>
     </div>
 
 
-
-
     {{-- Slide 20 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f2.png') }}" />
-        <h2 class="title stroke">What do you observe: <br>
-            Are there similarities between your fingerprints?</h2>
+    <div class="slide hidden  flex flex-col items-center justify-between h-[50%]  ">
+        <h2 class="title stroke">Which way is easier to push the board/lid through the water?
+            Why?</h2>
+        <p class="note text-center">Note: Encourage children to discuss and share their answers.</p>
     </div>
 
 
     {{-- Slide 21 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f2.png') }}" />
-        <h2 class="title stroke">What do you observe: <br>
-            Do your left and right hands’ fingerprints look alike?</h2>
+    <div class="slide hidden  flex flex-col items-center justify-start  ">
+        <video id="video3" class="w-full max-w-4xl pointer-events-none">
+            <source src="{{ asset('assets/images/K2/aero/hydro/217.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <h2 class="title stroke">It is harder to push the board forward this way because the
+            force of drag is higher due to the shape.</h2>
+        <!-- Video Trigger Button -->
+        <div onclick="toggleVideo('video3')"
+            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
+            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
+            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
+            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+        </div>
     </div>
-
-
 
     {{-- Slide 22 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <div class="self-start text-start">
-            <h2 class="title stroke">Let's do: <br>
-                8. Observe your fingerprints with friends.</h2>
+        <video id="video4" class="w-full max-w-4xl pointer-events-none">
+            <source src="{{ asset('assets/images/K2/aero/hydro/218.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <h2 class="title stroke">On the other hand, it is easier to push the board/lid forward
+            this way as this shape creates less drag.</h2>
+        <!-- Video Trigger Button -->
+        <div onclick="toggleVideo('video4')"
+            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
+            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
+            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
+            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f9.png') }}" />
-        <p class="note">Note: Have children observe and compare their fingerprints with friends.</p>
+    </div>
+
+
+    {{-- Slide 23 --}}
+    <div class="slide hidden  flex flex-col items-center justify-start  ">
+        <img src="{{ asset('assets/images/K2/aero/hydro/h17.png') }}" />
+        <h2 class="title stroke">Similarly, a person will experience more drag while walking in
+            water with their body facing forward.</h2>
     </div>
 
 
     {{-- Slide 24 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f9.png') }}" />
-        <h2 class="title stroke text-start">What do you observe: <br>
-            Do you find anyone with the same fingerprints as yours?</h2>
+    <div class="slide hidden flex flex-col items-center justify-center ">
+        <img src="{{ asset('assets/images/K2/aero/hydro/h18.png') }}" />
+        <h2 class="title stroke">Look at these pictures. How are boats and ships designed to
+            reduce drag in water?</h2>
     </div>
 
 
     {{-- Slide 25 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <h2 class="title stroke text-start">What do you learn: <br>
-            What are the similarities between different fingerprints?</h2>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f9.png') }}" />
-        <p class="note">Note: Explain to children that the lines on the tips of our fingers or thumbs are called ridges.
-        </p>
+    <div class="slide hidden flex flex-col items-center justify-center ">
+        <img src="{{ asset('assets/images/K2/aero/hydro/h18.png') }}" />
+        <h2 class="title stroke">The V-shaped hull of the boats and ships is designed to reduce
+            drag as they move through water.</h2>
     </div>
 
 
+
     {{-- Slide 26 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <h2 class="title stroke text-start">What do you learn: <br>
-            Do you find any two fingerprints are exactly same?</h2>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f9.png') }}" />
+    <div class="slide hidden  flex flex-col items-center justify-start  ">
+        <img src="{{ asset('assets/images/K2/aero/hydro/h19.png') }}" />
+        <h2 class="title stroke">Look at these pictures. Have you seen these before? <br>
+            How are they different from normal boats?</h2>
+        <p class="note">Note: Encourage children to discuss and share their answers.</p>
     </div>
 
 
     {{-- Slide 27 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f10.png') }}" />
-        <h2 class="title stroke">Through the activity, we know that fingerprints
-            are ridges on the tips of our fingers and thumbs.</h2>
+    <div class="slide hidden flex flex-col items-center justify-center ">
+        <img src="{{ asset('assets/images/K2/aero/hydro/h19.png') }}" />
+        <h2 class="title stroke text-start">Do you think these will move faster or slower as compared to
+            normal boats? Why?</h2>
+        <p class="note">Note: Encourage children to discuss and share their answers.</p>
     </div>
 
+
     {{-- Slide 28 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f11.png') }}" />
-        <h2 class="title stroke">We also know that no two fingerprints are exactly alike.</h2>
+    <div class="slide hidden flex flex-col items-center justify-center ">
+        <img src="{{ asset('assets/images/K2/aero/hydro/h19.png') }}" />
+        <h2 class="title stroke">These are <span class="text-white">hydrofoil</span> boats. <br>
+            They have underwater wings called hydrofoils.</h2>
     </div>
 
     {{-- Slide 29 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f11.png') }}" />
-        <h2 class="title stroke">Therefore, individual fingerprints are unique
-            and no two people have the same fingerprints.</h2>
+    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
+        <img src="{{ asset('assets/images/K2/aero/hydro/h20.png') }}" />
+        <h2 class="title stroke text-start">The hydrofoils can lift the boat's hull above water, which
+            reduces drag and help the boat moves faster.</h2>
     </div>
-
-    {{-- slide 30 --}}
-    <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
-        <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[836px] h-fit bg-cover bg-center p-[20px] flex flex-col justify-center items-center"
-            style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
-            <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f12.png') }}" />
-        </div>
-    </div>
-
 
     {{-- ====================================== --}}
     {{-- Buttons --}}
@@ -306,7 +320,7 @@
     </div>
 
 
-    <div id="buttons" class="absolute top-[24px] right-[60px] flex flex-row gap-6 z-40">
+ <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
 
         <!-- Return Button -->
         <a class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
@@ -365,6 +379,14 @@
 
 @push('script')
     <script>
+        function toggleVideo(videoId) {
+            const video = document.getElementById(videoId);
+            if (video.paused) {
+                video.play();
+            } else {
+                video.pause();
+            }
+        }
         document.addEventListener("DOMContentLoaded", () => {
             const slides = document.querySelectorAll(".slide");
             const nextButtons = document.querySelectorAll(".nextButton");

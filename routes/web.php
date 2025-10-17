@@ -144,17 +144,17 @@ Route::get('/lightform/Light', function () {
 // N1 -> lightforms ->ligth ->select
 Route::get('/choice', function () {
     return view('iSTEAM.N1.lightforms.light.selection');
-})->name('choose');
+})->name('n1lightchoose');
 
 // N1 -> lightforms ->ligth->lesson
 Route::get('/lightform/Light/lesson', function () {
     return view('iSTEAM.N1.lightforms.Light.lesson');
-})->name('lesson');
+})->name('n1lightlesson');
 
 // N1 -> lightforms ->ligth->teacher
 Route::get('/lightform/Light/teacher', function () {
     return view('iSTEAM.N1.lightforms.Light.teacher');
-})->name('teacher');
+})->name('n1lightteacher');
 
 
 // =========================
@@ -780,6 +780,142 @@ Route::get('/Structures/structure/teacher', function () {
 })->name('structureTeacher');
 
 
+// N2 -> Structures -> building
+Route::get('/Structures/building', function () {
+    return view('iSTEAM.N2.Structures.building.index');
+})->name('building');
+
+// N2 -> Structures -> building -> select
+Route::get('/buildingChoice', function () {
+    return view('iSTEAM.N2.Structures.building.selection');
+})->name('buildingSelection');
+
+// N2 -> Structures -> building -> lesson
+Route::get('/Structures/building/lesson', function () {
+    return view('iSTEAM.N2.Structures.building.lesson');
+})->name('buildingLesson');
+
+// N2 -> Structures -> building -> teacher
+Route::get('/Structures/building/teacher', function () {
+    return view('iSTEAM.N2.Structures.building.teacher');
+})->name('buildingTeacher');
+
+
+// N2 -> Structures -> Structureshapes
+Route::get('/Structures/Structureshapes', function () {
+    return view('iSTEAM.N2.Structures.Structureshapes.index');
+})->name('Structureshapes');
+
+// N2 -> Structures -> Structureshapes -> select
+Route::get('/StructureshapesChoice', function () {
+    return view('iSTEAM.N2.Structures.Structureshapes.selection');
+})->name('StructureshapesSelection');
+
+// N2 -> Structures -> Structureshapes -> lesson
+Route::get('/Structures/Structureshapes/lesson', function () {
+    return view('iSTEAM.N2.Structures.Structureshapes.lesson');
+})->name('StructureshapesLesson');
+
+// N2 -> Structures -> Structureshapes -> teacher
+Route::get('/Structures/Structureshapes/teacher', function () {
+    return view('iSTEAM.N2.Structures.Structureshapes.teacher');
+})->name('StructureshapesTeacher');
+
+
+// N2 -> Structures -> Carstructure
+Route::get('/Structures/Carstructure', function () {
+    return view('iSTEAM.N2.Structures.Carstructure.index');
+})->name('Carstructure');
+
+// N2 -> Structures -> Carstructure -> select
+Route::get('/CarstructureChoice', function () {
+    return view('iSTEAM.N2.Structures.Carstructure.selection');
+})->name('CarstructureSelection');
+
+// N2 -> Structures -> Carstructure -> lesson
+Route::get('/Structures/Carstructure/lesson', function () {
+    return view('iSTEAM.N2.Structures.Carstructure.lesson');
+})->name('CarstructureLesson');
+
+// N2 -> Structures -> Carstructure -> teacher
+Route::get('/Structures/Carstructure/teacher', function () {
+    return view('iSTEAM.N2.Structures.Carstructure.teacher');
+})->name('CarstructureTeacher');
+
+
+
+// N2 -> Structures -> Bigstructure
+Route::get('/Structures/Bigstructure', function () {
+    return view('iSTEAM.N2.Structures.Bigstructure.index');
+})->name('Bigstructure');
+
+// N2 -> Structures -> Bigstructure -> select
+Route::get('/BigstructureChoice', function () {
+    return view('iSTEAM.N2.Structures.Bigstructure.selection');
+})->name('BigstructureSelection');
+
+// N2 -> Structures -> Bigstructure -> lesson
+Route::get('/Structures/Bigstructure/lesson', function () {
+    return view('iSTEAM.N2.Structures.Bigstructure.lesson');
+})->name('BigstructureLesson');
+
+// N2 -> Structures -> Bigstructure -> teacher
+Route::get('/Structures/Bigstructure/teacher', function () {
+    return view('iSTEAM.N2.Structures.Bigstructure.teacher');
+})->name('BigstructureTeacher');
+
+
+// N2 -> Structures -> Triangularstructure
+Route::get('/Structures/Triangularstructure', function () {
+    return view('iSTEAM.N2.Structures.Triangularstructure.index');
+})->name('Triangularstructure');
+
+// N2 -> Structures -> Triangularstructure -> select
+Route::get('/TriangularstructureChoice', function () {
+    return view('iSTEAM.N2.Structures.Triangularstructure.selection');
+})->name('TriangularstructureSelection');
+
+// N2 -> Structures -> Triangularstructure -> lesson
+Route::get('/Structures/Triangularstructure/lesson', function () {
+    return view('iSTEAM.N2.Structures.Triangularstructure.lesson');
+})->name('TriangularstructureLesson');
+
+// N2 -> Structures -> Triangularstructure -> teacher
+Route::get('/Structures/Triangularstructure/teacher', function () {
+    return view('iSTEAM.N2.Structures.Triangularstructure.teacher');
+})->name('TriangularstructureTeacher');
+
+
+// N2 -> Structures -> Citystructure
+Route::get('/Structures/Citystructure', function () {
+    return view('iSTEAM.N2.Structures.Citystructure.index');
+})->name('Citystructure');
+
+// N2 -> Structures -> Citystructure -> select
+Route::get('/CitystructureChoice', function () {
+    return view('iSTEAM.N2.Structures.Citystructure.selection');
+})->name('CitystructureSelection');
+
+// N2 -> Structures -> Citystructure -> lesson
+Route::get('/Structures/Citystructure/lesson', function () {
+    return view('iSTEAM.N2.Structures.Citystructure.lesson');
+})->name('CitystructureLesson');
+
+// N2 -> Structures -> Citystructure -> teacher
+Route::get('/Structures/Citystructure/teacher', function () {
+    return view('iSTEAM.N2.Structures.Citystructure.teacher');
+})->name('CitystructureTeacher');
+
+
+
+
+
+
+
+
+
+
+// =======================================
 Route::get('/BasicCoding', function () {
     return view('iSTEAM.N2.BasicCoding.index');
 })->name('BasicCoding');
@@ -2578,6 +2714,27 @@ Route::get('/k2ElectronicCircuits', function () {
 Route::get('/k2FinalProject', function () {
     return view('iSTEAM.K2.FinalProject.index');
 })->name('k2FinalProject');
+
+// ======
+// K2 -> FinalProject
+Route::get('/FinalProject', function () {
+    return view('iSTEAM.K2.FinalProject.final.index');
+})->name('final2');
+
+// K2 -> FinalProject -> final -> select
+Route::get('/final/Choice', function () {
+    return view('iSTEAM.K2.FinalProject.final.selection');
+})->name('final2Selection');
+
+// K2 -> FinalProject -> final -> lesson
+Route::get('/FinalProject/final/lesson', function () {
+    return view('iSTEAM.K2.FinalProject.final.lesson');
+})->name('final2Lesson');
+
+// K2 -> FinalProject -> final -> teacher
+Route::get('/FinalProject/final/teacher', function () {
+    return view('iSTEAM.K2.FinalProject.final.teacher');
+})->name('final2Teacher');
 
 
 

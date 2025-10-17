@@ -1,27 +1,12 @@
 @extends('layout.master')
-
 @section('title', 'Dynamic Presentation')
-
-@push('style')
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-    <style>
-        button {
-            cursor: pointer !important;
-        }
-
-        a {
-            cursor: pointer;
-
-        }
-    </style>
-@endpush
 
 
 @section('content')
 
     {{-- slide 0 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <h2 class="title">Children, do you remember these shapes?</h2>
+        <h2 class="title stroke">Children, do you remember these shapes?</h2>
         <img src="{{ asset('assets/images/pptimages/cshapes.png') }}"
             class="max-w-[500px] sm:max-w-[600px] lg:max-w-[536px]" />
         <p class="note">Note: Guide children to share their answers.</p>
@@ -30,7 +15,7 @@
     {{-- slide 1 --}}
     <div class="flex flex-col items-center justify-center gap-5 slide hidden">
         <div class="flex flex-col items-center justify-center">
-            <h2 class="title">These are square, triangle and rectangle.</h2>
+            <h2 class="title stroke">These are square, triangle and rectangle.</h2>
             <img src="{{ asset('assets/images/pptimages/cshapes.png') }}"
                 class="max-w-[500px] sm:max-w-[600px] lg:max-w-[536px]" />
         </div>
@@ -39,7 +24,7 @@
 
     {{-- slide 2 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <h2 class="title">These shapes are formed by joining lines together.</h2>
+        <h2 class="title stroke">These shapes are formed by joining lines together.</h2>
 
         <img src="{{ asset('assets/images/pptimages/cshapes.png') }}"
             class="max-w-[500px] sm:max-w-[600px] lg:max-w-[536px]" />
@@ -47,7 +32,7 @@
 
     {{-- slide 3 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <h2 class="title">Look at these shapes. What shape are these?
+        <h2 class="title stroke">Look at these shapes. What shape are these?
         </h2>
         <img src="{{ asset('assets/images/pptimages/box.png') }}" class="max-w-[500px] sm:max-w-[600px] lg:max-w-[536px]" />
         <p class="note">Note: Guide children to share their answers.</p>
@@ -55,28 +40,28 @@
 
     {{-- slide 4 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <h2 class="title">These are squares of different sizes!</h2>
+        <h2 class="title stroke">These are squares of different sizes!</h2>
         <img src="{{ asset('assets/images/pptimages/box2.png') }}" />
         <p class="note">Note: Guide children to point out which is big and which is small.</p>
     </div>
 
     {{-- slide 5 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <h2 class="title">Look at these shapes. What are they?</h2>
+        <h2 class="title stroke">Look at these shapes. What are they?</h2>
         <img src="{{ asset('assets/images/pptimages/triangle.png') }}" />
         <p class="note">Note: Guide children to answer.</p>
     </div>
 
     {{-- slide 6 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <h2 class="title">These triangles are of different types and sizes.</h2>
+        <h2 class="title stroke">These triangles are of different types and sizes.</h2>
         <img src="{{ asset('assets/images/pptimages/triangle2.png') }}" />
         <p class="note">Note: Guide children to compare them.</p>
     </div>
 
     {{-- slide 7 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <h2 class="title">Each of them is formed using three lines.</h2>
+        <h2 class="title stroke">Each of them is formed using three lines.</h2>
         <img src="{{ asset('assets/images/pptimages/rect3.png') }}" />
         <p class="note">Note: Guide children to count the lines.</p>
     </div>
@@ -85,21 +70,21 @@
     <div class="flex flex-col items-center justify-center  slide hidden">
 
         <img src="{{ asset('assets/images/pptimages/rect3.png') }}" />
-        <h2 class="title">Rectangles come in different sizes too.</h2>
+        <h2 class="title stroke">Rectangles come in different sizes too.</h2>
         <p class="note">Note: Guide children to point out which is big and which is small.</p>
     </div>
 
     {{-- slide 9 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
         <img src="{{ asset('assets/images/pptimages/rect3.png') }}" />
-        <h2 class="title">Some are big and some are small.</h2>
+        <h2 class="title stroke">Some are big and some are small.</h2>
         <p class="note">Note: Guide children to point out which is big and which is small.</p>
     </div>
 
     {{-- slide 10 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
         <img src="{{ asset('assets/images/pptimages/rect5.png') }}" />
-        <h2 class="title">Look at these toys. Do you know what shapes are they?</h2>
+        <h2 class="title stroke">Look at these toys. Do you know what shapes are they?</h2>
         <p class="note">Note: Encourage children to asnwer.</p>
     </div>
 
@@ -135,7 +120,7 @@
 
     {{-- slide 13 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <h2 class="title">Look at these. There are not squares, triangles or
+        <h2 class="title stroke">Look at these. There are not squares, triangles or
             rectangles. But they are shapes too.</h2>
         <img src="{{ asset('assets/images/pptimages/rect3.png') }}" />
 
@@ -143,14 +128,14 @@
 
     {{-- slide 14 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <h2 class="title">This is a circle! It is formed with one curved line.</h2>
+        <h2 class="title stroke">This is a circle! It is formed with one curved line.</h2>
         <img src="{{ asset('assets/images/pptimages/rect3.png') }}" />
         <p class="note">Note: Point out to the children that it has no straight lines.</p>
     </div>
 
     {{-- slide 15 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <h2 class="title">Some of these shapes are formed by joining
+        <h2 class="title stroke">Some of these shapes are formed by joining
             straight lines together.</h2>
         <img src="{{ asset('assets/images/pptimages/rect3.png') }}" />
         <p class="note">Note: Point out to the children that it has no straight lines.</p>
@@ -158,7 +143,7 @@
 
     {{-- slide 16 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <h2 class="title">This is a circle! It is formed with one curved line.</h2>
+        <h2 class="title stroke">This is a circle! It is formed with one curved line.</h2>
         <img src="{{ asset('assets/images/pptimages/rect3.png') }}" />
         <p class="title stroke">Pentagon, hexagon, trapezium and rhombus are
             formed using straight lines.</p>
@@ -167,21 +152,21 @@
     {{-- slide 17 --}}
 
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <h2 class="title">These shapes are formed by putting curve and
+        <h2 class="title stroke">These shapes are formed by putting curve and
             straight lines together.</h2>
         <img src="{{ asset('assets/images/pptimages/rect3.png') }}" />
     </div>
 
     {{-- slide 18 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <h2 class="title">A semi-circle is half a circle. It is formed
+        <h2 class="title stroke">A semi-circle is half a circle. It is formed
             using a curve and a straight line.</h2>
         <img src="{{ asset('assets/images/pptimages/rect3.png') }}" />
     </div>
 
     {{-- slide 19 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <h2 class="title">This is a quadrant. It is half semi-circle..</h2>
+        <h2 class="title stroke">This is a quadrant. It is half semi-circle..</h2>
         <img src="{{ asset('assets/images/pptimages/rect3.png') }}" />
         <p class="note">Note: Teacher to use the tiles to show children when two quadrants are put together
             it forms a semi circle.</p>
@@ -189,7 +174,7 @@
 
     {{-- slide 20 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <h2 class="title">This shape is called a pie shape as it looks
+        <h2 class="title stroke">This shape is called a pie shape as it looks
             like a piece of a pie.</h2>
         <img src="{{ asset('assets/images/pptimages/rect3.png') }}" />
     </div>
@@ -197,7 +182,7 @@
 
     {{-- slide 21 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <h2 class="title">Look at these shapes, do they look like bridges?</h2>
+        <h2 class="title stroke">Look at these shapes, do they look like bridges?</h2>
         <img src="{{ asset('assets/images/pptimages/rect3.png') }}" />
         <p class="note">Note: Point out to the children that it has no straight lines.</p>
     </div>
@@ -206,7 +191,7 @@
 
     {{-- slide 22 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <h2 class="title">They are known as arches. They looked like bridges going over a river.</h2>
+        <h2 class="title stroke">They are known as arches. They looked like bridges going over a river.</h2>
         <img src="{{ asset('assets/images/pptimages/rect3.png') }}" />
     </div>
 
@@ -214,11 +199,11 @@
     {{-- slide 23 --}}
     <div class="flex flex-col justify-center  slide hidden">
         <div class="flex flex-col items-center justify-center">
-            <h2 class="title !text-white stroke">Class Activity 2</h2>
+            <h2 class="title stroke !text-white stroke">Class Activity 2</h2>
             <img src="{{ asset('assets/images/pptimages/shape2.png') }}" />
         </div>
         <div class="flex items-start">
-            <h2 class="title stroke text-start !text-[48px]">Let's do:<br> Match the shapes.</h2>
+            <h2 class="title stroke stroke text-start !text-[48px]">Let's do:<br> Match the shapes.</h2>
         </div>
 
     </div>
@@ -226,7 +211,7 @@
 
     {{-- slide 24 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <h2 class="title">Shapes can be formed using straight lines
+        <h2 class="title stroke">Shapes can be formed using straight lines
             and curve lines. There are many different
             types of shapes.</h2>
         <div class="flex ">
@@ -238,7 +223,7 @@
 
 
     {{-- Complete/Done Butttom --}}
-    <div class="absolute bottom-[85px]">
+    <div class="absolute bottom-[80px] z-[99]">
         <button
             class="cursor-pointer doneButton w-66 h-[75px] relative bg-[#F8A23A] rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
                     outline outline-1 outline-yellow-700 overflow-hidden">
@@ -251,7 +236,7 @@
     </div>
 
     {{-- Buttons --}}
-    <div id="buttons" class="absolute top-[24px] right-[60px] flex flex-row gap-6 z-40">
+    <div id="buttons" class="absolute top-[30px] right-[60px] flex flex-row gap-6 z-40">
 
         <!-- Return Button -->
         <a class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
@@ -286,12 +271,9 @@
                 class="absolute top-[16px] left-[30px] w-11 h-16 text-white text-6xl font-normal font-['Jua']">X
             </div>
         </button>
-
     </div>
-
     {{-- next Button --}}
     <div class="absolute bottom-[85px]">
-
         <button
             class="cursor-pointer nextButton w-66 h-[75px] relative bg-[#F8A23A]  rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
         outline outline-1 outline-yellow-700 overflow-hidden">
@@ -301,10 +283,6 @@
             </span>
         </button>
     </div>
-
-
-
-
 @endsection
 
 

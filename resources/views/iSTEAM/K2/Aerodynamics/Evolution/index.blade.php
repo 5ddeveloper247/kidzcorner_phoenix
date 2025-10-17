@@ -4,11 +4,10 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col  gap-20 items-center ">
-        <div class="  text-amber-300 text-[65px] font-extrabold stroke">Evolution</div>
-        <h2 class="text-2xl sm:text-3xl lg:text-6xl text-white stroke ">
-            Explore fingerprints; <br>
-            learn to make own set of fingerprints <br>
-            for analysis</h2>
+        <div class="  text-amber-300 text-[65px] font-extrabold stroke">Evolution of Aeroplanes</div>
+        <h2 class="text-2xl sm:text-3xl lg:text-5xl text-white stroke ">
+           Learn about the history of aeroplane invention; <br>
+learn about aerodynamics in vehicles and sports</h2>
 
         <button
             class="nextButton w-66 h-[90px] relative bg-[#F8A23A]  rounded-[30px] outline outline-1 outline-yellow-700 overflow-hidden">
