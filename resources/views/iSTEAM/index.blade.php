@@ -60,7 +60,7 @@
 
             <!-- Dynamic slide content -->
             <div id="container_test"
-                class="absolute inset-0 flex flex-col items-center justify-center text-center z-[999] px-4 row-gap-5 max-w-[1000px]  m-auto">
+                class="absolute inset-0 flex flex-col items-center justify-center text-center z-[99]px-4 row-gap-5 w-full">
             </div>
             <!-- Next button -->
         <button id="nextButton" class="lesson-btn relative !z-[99]">
@@ -199,7 +199,7 @@
 
 @section('content')
 
-    <div class=" flex flex-wrap items-center justify-center text-center z-[999] px-4 row-gap-5 max-w-[1000px]  m-auto">
+    <div class=" flex flex-wrap items-center justify-center text-center z-[99]px-4 row-gap-5 w-full">
 
         <a href="{{ route('N1') }}" style="background-image: url('{{asset('/assets/images/pptimages/n1.png')}}');"
             class=" bg-no-repeat bg-contain bg-center w-[400px] h-[300px] relative transition hover:brightness-110 ">

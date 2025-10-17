@@ -73,7 +73,7 @@
 @section('content')
 
 
-<div class=" flex items-center flex-col justify-center relative text-center z-[999]  max-w-[1000px]  m-auto">
+<div class=" flex items-center flex-col justify-center relative text-center z-[99] w-full">
         <h2 class="text-[50px] text-[#F7B94A] absolute stroke top-[-120px]">Black Light</h2>
         <div class="flex items-center gap-[15rem]">
 

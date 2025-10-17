@@ -33,7 +33,7 @@
 
 @section('content')
 
-    <div class=" flex flex-wrap items-center justify-center text-center z-[999] px-4 row-gap-5 max-w-[1000px]  m-auto">
+    <div class=" flex flex-wrap items-center justify-center text-center z-[99]px-4 row-gap-5 w-full">
 
         <a href="{{ route('SimpleMachines') }}"
             class="bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[400px] h-[300px] relative flex justify-center items-center transition hover:brightness-110 ">

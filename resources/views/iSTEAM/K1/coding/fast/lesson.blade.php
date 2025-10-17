@@ -45,7 +45,7 @@
         <p class="note">Note: Have children follow through the lesson. At the end, have them recap what speed is.</p>
         <!-- Video Trigger Button -->
         <div data-property-1="Default"
-            class="absolute top-1/2 flex justify-center items-center right-[80px] z-[999] h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500">
+            class="absolute top-1/2 flex justify-center items-center right-[80px] z-[99]h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500">
             <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
             <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
             <img class=" h-14 w-14" src="/assets/images/pptimages/play.png" />
@@ -291,7 +291,7 @@
     </div>
 
 
-    <div id="buttons" class="absolute top-[24px] right-[60px] flex flex-row gap-6 z-40">
+ <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
 
         <!-- Return Button -->
         <a class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"

@@ -73,7 +73,7 @@
 @section('content')
 
 
-    <div class=" flex items-center flex-col justify-center text-center z-[999] w-full">
+    <div class=" flex items-center flex-col justify-center text-center z-[99]w-full">
         <h2 class="text-[50px] text-[#F7B94A] stroke">Launch a Ball Machine</h2>
         <div class="flex items-center justify-around w-full">
 
@@ -104,7 +104,7 @@
 
 
 
-    <div id="buttons" class="absolute top-[24px] right-[60px] flex flex-row gap-6 z-40">
+ <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
 
         <!-- Return Button -->
         <a href="{{ route('Ball') }}"

@@ -12,48 +12,50 @@
 
             -webkit-text-stroke: 2px #533705;
         }
-.lesson-btn {
-  position: relative;
-  z-index: -1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 250px;
-  height: 80px;
-  cursor: pointer;
-  border-radius: 30px;
-  background-color: #fb923c;
 
-  outline: 1px solid #a16207;
-  box-shadow:
-    3px 4px 7.8px rgba(0, 0, 0, 0.25),
-    inset 3px -4px 4px rgba(0, 0, 0, 0.25);
-}
+        .lesson-btn {
+            position: relative;
+            z-index: -1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 250px;
+            height: 80px;
+            cursor: pointer;
+            border-radius: 30px;
+            background-color: #fb923c;
 
-.lesson-btn-vector {
-  position: absolute;
-  top: 2px;
-  left: 6px;
-  width: 14.5rem;
-}
+            outline: 1px solid #a16207;
+            box-shadow:
+                3px 4px 7.8px rgba(0, 0, 0, 0.25),
+                inset 3px -4px 4px rgba(0, 0, 0, 0.25);
+        }
 
-.lesson-btn-shape {
-  position: absolute;
-  top: 6px;
-  left: 14px;
-  width: 12px;
-  height: 8px;
-  background: white;
-  border-radius: 30px 19px 20px 10px;
-}
+        .lesson-btn-vector {
+            position: absolute;
+            top: 2px;
+            left: 6px;
+            width: 14.5rem;
+        }
 
-.lesson-btn-text {
-  position: relative;
-  z-index: 30;
-  text-align: center;
-  font-size: 60px;
-  color: white;
-}
+        .lesson-btn-shape {
+            position: absolute;
+            top: 6px;
+            left: 14px;
+            width: 12px;
+            height: 8px;
+            background: white;
+            border-radius: 30px 19px 20px 10px;
+        }
+
+        .lesson-btn-text {
+            position: relative;
+            z-index: 30;
+            text-align: center;
+            font-size: 60px;
+            color: white;
+        }
+
         .note {
             font-size: 24px;
             font-weight: 400;
@@ -64,7 +66,6 @@
             cursor: pointer;
 
         }
-
     </style>
 @endpush
 
@@ -73,48 +74,48 @@
 @section('content')
 
 
-    <div class=" flex items-center flex-col justify-center text-center z-[999]  max-w-[1000px]  m-auto">
-       <h2 class="text-[50px] text-[#F7B94A]"> What is Light?</h2>
-       <div class="flex items-center justify-between">
+    <div class=" flex items-center flex-col justify-center text-center z-[99] w-full">
+        <h2 class="text-[50px] text-[#F7B94A] stroke">Animals are Living Things</h2>
+        <div class="flex items-center justify-around w-full">
 
-           {{-- Lesson Button --}}
-           <a href="{{ route('AnimalsLesson') }}" id="Lesson" class="flex flex-col gap-0">
-            <img src="/assets/images/pptimages/Lesson1.png" class="h-auto w-[200px] sm:w-[250px] lg:w-[300px]" />
-            
-            <button id="nextButton" class="lesson-btn  !z-10 !bg-[#2D9CDB]">
-                <img src="/assets/images/pptimages/Vector4.png" class="lesson-btn-vector" />
-                <div class="lesson-btn-shape"></div>
-                <div class="lesson-btn-text stroke">Lesson </div>
-            </button>
-            
-        </a>
-        {{-- Teacher Button --}}
-        <a href="{{ route('AnimalsTeacher') }}" id="Lesson" class="flex flex-col gap-0">
-            <img src="/assets/images/pptimages/teacher1.png" class="h-auto w-[200px] sm:w-[250px] lg:w-[300px]" />
-            
-            <button id="nextButton" class="lesson-btn  !z-10 !bg-[#0E502A]">
-                <img src="/assets/images/pptimages/Vector4.png" class="lesson-btn-vector" />
-                <div class="lesson-btn-shape"></div>
-                <div class="lesson-btn-text stroke">Teacher</div>
-            </button>
-            
-        </a>
+            {{-- Lesson Button --}}
+            <a href="{{ route('AnimalsLesson') }}" id="Lesson" class="flex flex-col gap-0">
+                <img src="/assets/images/pptimages/Lesson1.png" class="h-auto w-[200px] sm:w-[250px] lg:w-[300px]" />
+
+                <button id="nextButton" class="lesson-btn  !z-10 !bg-[#2D9CDB]">
+                    <img src="/assets/images/pptimages/Vector4.png" class="lesson-btn-vector" />
+                    <div class="lesson-btn-shape"></div>
+                    <div class="lesson-btn-text stroke">Lesson </div>
+                </button>
+
+            </a>
+            {{-- Teacher Button --}}
+            <a href="{{ route('AnimalsTeacher') }}" id="Lesson" class="flex flex-col gap-0">
+                <img src="/assets/images/pptimages/teacher1.png" class="h-auto w-[200px] sm:w-[250px] lg:w-[300px]" />
+
+                <button id="nextButton" class="lesson-btn  !z-10 !bg-[#0E502A]">
+                    <img src="/assets/images/pptimages/Vector4.png" class="lesson-btn-vector" />
+                    <div class="lesson-btn-shape"></div>
+                    <div class="lesson-btn-text stroke">Teacher</div>
+                </button>
+
+            </a>
+        </div>
     </div>
-    </div>
 
 
 
-    <div id="buttons" class="absolute top-[24px] right-[60px] flex flex-row gap-6 z-40">
+ <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
 
         <!-- Return Button -->
-        <a href="{{route('Animals')}}"
+        <a href="{{ route('Animals') }}"
             class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
             id="returnButton">
             <img class="absolute top-[6px] left-[8px] w-20 h-10" src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
             <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
             <img class="absolute top-[24px] left-[22px] w-14 h-14"
                 src="{{ asset('assets/images/pptimages/reverse-icon.png') }}" />
-    </a>
+        </a>
 
         <!-- Home Button -->
         <button
@@ -142,5 +143,3 @@
 
 
 @endsection
-
-
