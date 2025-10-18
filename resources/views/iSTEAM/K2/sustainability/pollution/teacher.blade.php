@@ -23,11 +23,13 @@
         <div>
             <h2 class="  font-bold">Children will be able to:</h2>
             <ul class="list-disc ">
-                <li>Learn how to make their own set of fingerprints for analysis</li>
-                <li>Know that fingerprints are ridges on the tips of our thumbs and fingers</li>
-                <li>Know that no two fingerprints are exactly alike</li>
-                <li>Know that individual fingerprints are unique and no two people have the same fingerprints</li>
-                <li>Develop understanding through inquiry</li>
+                <li>Understand the meaning of pollution</li>
+                <li>Understand the meaning of biodegradable and non-biodegradable
+     materials</li>
+                <li>Learn and discover the harmful effects of pollution on earth</li>
+                <li>Develop awareness of environmental issues</li>
+                <li>Develop curiosity and understanding through inquiry
+</li>
             </ul>
         </div>
 
@@ -35,10 +37,20 @@
             <h2 class="text-[33px] font-bold">Keywords:</h2>
             <div class="flex gap-20">
                 <ul class="list-disc ">
-                    <li>Fingerprint</li>
-                    <li>Ridge</li>
-                    <li>Thumb</li>
-                    <li>Finger</li>
+                    <li>Natural</li>
+                    <li>ZSOlar Energy</li>
+                    <li>HydroPower/li>
+                    <li>Clean Energy</li>
+                     <li>Pollution</li>
+                      <li>Chemicals</li>
+                        <li>Clean Energy</li>
+                          <li>Biodegradable</li>
+                        <li>Non-biodegradable</li>
+                        <li>Cotton</li>
+                         <li>Bacteria</li>
+                          <li>Air Pollution</li>
+                           <li>Filter</li>
+                            <li>Liquid</li>
                 </ul>
 
             </div>
@@ -52,24 +64,18 @@
     {{-- slide 2 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Preparations:</h2>
+            <h2 class="font-bold">Preparations For Class Activity 1:</h2>
             <ul class="list-disc ">
                 <li>
-                    Pencils (for a better outcome, 8B pencil is recommended)
+                  Prepare a piece of mahjong paper or A3 sized paper for the brainstorming session.
                 </li>
-                <li>Plain papers</li>
+                <li>Pre-cut a few 500 ml water bottles of the same type like this. Teacher will need to prepare two sets for the experiment.</li>
                 <li>
-                    Adhesive clear tapes (for a better outcome, 3M Scotch Tape is recommended)
-                </li>
-                <li>Scissors</li>
-                <li>
-                    Wet towels (can be replaced with wet rags)
-                </li>
-                <li>
-                    A few magnifying glasses (optional)
+                  Prepare a few more for the children. (depends on how many groups you would want to have)
                 </li>
             </ul>
         </div>
+           <img src="{{ asset('assets/images/K2/sustain/pollution/p32.png') }}" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
     </div>
@@ -78,14 +84,18 @@
     {{-- sldie 3 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-center gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
+            <h2 class="font-bold">Preparations For Class Activity 1:</h2>
             <ul class="list-disc">
-                <li>This is a small group activity. Organise children into groups of 3 and have them take turns to play role
-                    A, B & C. Before the activity, have them clean and dry their hands first to remove dirt that may obscure
-                    the fingerprints.</li>
+                <li>Prepare a spoon to scoop the filter materials into each bottle during the activity. 
+                    Ensure each group has the same amount.</li>
+                     <li>Please get the following materials required for the activity: activated charcoal <br>
+                        powder, sand, small stones/gravel and bigger stones/pebbles and coffee filter paper.</li>
+                     <li>Children may suggest materials such as towel, paper, soap, salt which may not help in filtering <br>
+                        but do prepare them and let children choose those materials as well. This helps children to analyze<br>
+                         and see the results. Encourage children to experiment, observe and analyze the results.</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f13.png') }}" class="w-[600px]" />
+       <img src="{{ asset('assets/images/K2/sustain/pollution/p33.png') }}" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
     </div>
@@ -94,13 +104,19 @@
     {{-- slide 4 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
+            <h2 class="font-bold">Preparations For Class Activity 1:</h2>
             <ul class="list-decimal">
-                <li>(A) Use a pencil to make a patch of dark mark on a paper. [ Have all the A do the step. Advise A to
-                    darken the patch by shading the patch again and again. ]</li>
+                <li>You can plan such that different groups have a different set of filter materials or place 
+                    materials in different order.</li>
+                    <li>Teacher will need to set up 2 sets accordingly to the guideline below.</li>
+<br>
+
+   <li>1. Teacher's Bottle:
+Put two coffee filter paper together and tie them at the mouth of the bottle with a rubber band.<br>
+ (Do assist the children to tie if they want to do this)</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f3.png') }}" class="w-[600px]" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p34.png') }}" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
     </div>
@@ -109,43 +125,87 @@
     {{-- slide 5 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
+            <h2 class="font-bold">Preparations For Class Activity 1:</h2>
             <ul>
-                <li>2. (B) Rub a fingertip over the pencil mark to stain it. [Have all the B do the step.]</li>
+                <li>2. Scoop the filter materials and add them in layer by layer in this order <br>
+<h3 class="title-stroke">Bottle 1 </h3> : Activated charcoal , sand , gravel and pebbles</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f4.png') }}" class="w-[600px]" />
+         <img src="{{ asset('assets/images/K2/sustain/pollution/p35.png') }}" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
+            <ul>
+                <li>
+<h3 class="title-stroke">Bottle 2 </h3>:Do the same preparations with the coffee filter paper. But you will
+only add sand , gravel and pebbles layer by layer in this order.</li>
+            </ul>
     </div>
+        
+ {{-- slide 5 --}}
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+        <div>
+            <h2 class="font-bold">Preparations For Class Activity 1:</h2>
+            <ul>
+                <li>3. Pour half the dirty mixture into the water filter.<br>
+4. It may take more than 30 minutes to one hour to have some liquid being filtered out.</li>
+            </ul>
+        </div>
+         <img src="{{ asset('assets/images/K2/sustain/pollution/p36.png') }}" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute right-[250px] bottom-[150px]" />
+            <ul>
+<li>5. Encourage children to observe what happens and compare the results
+     from the two bottles.</li>
+            </ul>
+    </div>
+       
+
+
 
 
     {{-- sldie 6 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
+            <h2 class="font-bold">Preparations for Class Activity 2 :</h2>
             <ul>
-                <li>3. (C) Cut and stick a piece of clear tape on the stained fingertip (of B). [Have all the C do the step.
-                    Advise C to hold only an edge of the tape and stick the tape flat on the fingertip of B. ]</li>
+                <li>
+Two 500ml water bottles of the same type
+Prepare a piece of plastic cut out from the plastic bag. Ensure same size as the toilet paper.
+You may have a third bottle to compare newspaper too. But note that newspaper will take a longer time to break down as compared to the toilet paper. You need to shake it more vigorously.
+If children find it hard to see the results of the materials in the bottles, you can ask children to put the bottle against a black paper so that it is easier to see the whitetoilet paper pieces.
+</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f5.png') }}" class="w-[600px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
-    </div>
+            </div>
 
 
     {{-- sldie 7 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
+            <h2 class="font-bold">Useful information:</h2>
             <ul>
-                <li>4. (C) Carefully remove the tape from the fingertip (of B) and paste it on the learning journal (of B).
-                    [Have all the C do the step. Remind C to paste the tape in the correct place of B's fingerprint record.]
+                <li>
+
+Oil destroys the insulating ability of fur-bearing mammals, such as sea otters, and
+the water repellency of a bird's feathers, thus exposing these creatures to the
+harsh elements. Without the ability to repel water and insulate from the cold
+water, birds and mammals will die from hypothermia.
+Juvenile sea turtles can also become trapped in oil and mistake it for food.
+Dolphins and whales can inhale oil, which can affect lungs, immune function and
+reproduction. Many birds and animals also ingest oil when they try to clean
+themselves, which can poison them.
+Fish, shellfish, and corals may not be exposed immediately, but can come into
+contact with oil if it is mixed into the water column - shellfish can also be
+exposed in the intertidal zone. When exposed to oil, adult fish may experience
+reduced growth, enlarged livers, changes in heart and respiration rates, fin
+erosion, and reproduction impairment. Fish eggs and larvae can be especially
+sensitive to lethal and sublethal impacts. Even when lethal impacts are not
+observed, oil can make fish and shellfish unsafe for humans to eat.
                 </li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f6.png') }}" class="w-[600px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
     </div>
@@ -153,6 +213,7 @@
     {{-- sldie 8 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
+          <h2 class="title-stroke" > Learning Centre Idea
             <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
             <ul>
                 <li>5. (A) Use a wet towel to clean the fingertip (of B). [ Have all the A do the step. Explain to children
