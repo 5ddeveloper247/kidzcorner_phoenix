@@ -18,132 +18,114 @@
 
 
 @section('content')
-
-
-
-
     {{-- sldie 1  --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
             <h2 class="  font-bold">Children will be able to:</h2>
             <ul class="list-disc ">
-                <li>Know that buildings are common structures around us</li>
-                <li>Know how tall buildings are built</li>
-                <li>Know that architects and engineers are two main designers of buildings</li>
-                <li>Design and build a tall building</li>
+                <li>Explore how block structures are created</li>
+                <li>Create structures using shapes.</li>
                 <li>Develop fine motor and eye-hand coordination skills</li>
                 <li>Develop creativity and imagination</li>
                 <li>Develop understanding through inquiry</li>
             </ul>
         </div>
 
-        <div class="flex w-[100%] items-center justify-between">
-            <div>
+        <div class="flex justify-between items-center">
+            <ul class="list-disc ">
                 <h2 class="text-[33px] font-bold">Keywords:</h2>
-
-                <div class="flex gap-20">
-                    <ul class="list-disc ">
-                        <li>Structures</li>
-                        <li>Buildings</li>
-
-                    </ul>
-                    <ul class="list-disc">
-                        <li>Architects</li>
-                        <li>Engineers</li>
-                        <li>Tall Buildings</li>
-                    </ul>
-                </div>
-            </div>
+                <li>Structures</li>
+                <li>Buildings</li>
+                <li>Tall</li>
+                <li>Office</li>
+            </ul>
+            <ul class="list-disc ">
+                <li>Triangle</li>
+                <li>Shape</li>
+                <li>Short</li>
+                <li>Rectangle</li>
+            </ul>
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
     </div>
+
 
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-start justify-start gap-[3rem] text-start">
         <div>
             <h2 class="font-bold">Preparations:</h2>
             <ul class="list-disc ">
-                <li>Each child 18 long and 24 short straws (cut twelve long straws into half to
-                    obtain the short straws)</li>
-                <li>Each child 18 long, 24 medium-length and 5 short pipe cleaners (cut pipe
-                    cleaners into three suitable lengths with reference to their specific use in the lesson)</li>
+                <li>Put aside the following parts from the DDQ blocks set until the later
+                    lessons to avoid distraction to the children,</li>
             </ul>
         </div>
+        <div class="flex items-center gap-5">
+            <img src="/assets/images/N2/structure/str2/s26.png" />
 
+        </div>
+        <ul class="list-disc ">
+            <li>Print out the learning journals required.</li>
+        </ul>
 
-        <img src="{{ asset('assets/images/K1/str/st20.png') }}" alt="Teacher" class="w-[600px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
-        <p class="note !text-amber-300">Suggestion: Pre-pack these two materials in a bag for each child or group before
-            each lesson.</p>
     </div>
 
-    {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+
+    {{-- slide 3 --}}
+    <div class=" slide flex text-2xl text-white flex-col items-baseline  justify-start gap-y-10 text-start">
         <div>
             <h2 class="font-bold">Preparations:</h2>
             <ul class="list-disc ">
-                <li>Each child a pair of scissors (remind children to use them carefully)</li>
-                <li>Coloured transparent wrappers (tracing papers, cellophane wraps or any
-                    transparent material that allow us to see the structure of a building after
-                    it is wrapped)</li>
-                <li>White glue or adhesive tape (single and double-sided)</li>
-                <li>Long rulers and/or measuring tapes</li>
-                <li>Labels (to indicate the name of a building)</li>
+                <li>Prepare one set of the following for each child. You can pack 10 sets with
+                    one box of DDQ blocks (using all three colour cubes)</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K1/str/st18.png') }}" alt="Teacher" class="w-[600px]" />
+
+        <img src="/assets/images/N2/structure/str3/s32.png" />
+
+
+        <ul class="list-disc ">
+            <li>For the group work, it is advisable for you to assist only 2-3 children as
+                there may not be enough blocks to explore to build a structure.</li>
+        </ul>
+
+
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
-        <p class="note !text-amber-300">Suggestion: Cut the wrappers (if big size) into reasonable sizes of basic shapes for
-            children to use.</p>
     </div>
 
 
     {{-- sldie 4 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start items-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Preparations:</h2>
+            <h2 class="font-bold">Things to consider during Individual Activities:</h2>
             <ul class="list-disc ">
-                <li>Each child a pair of scissors (remind children to use them carefully)</li>
-                <li>Coloured transparent wrappers (tracing papers, cellophane wraps or any
-                    transparent material that allow us to see the structure of a building after
-                    it is wrapped)</li>
-                <li>White glue or adhesive tape (single and double-sided)</li>
-                <li>Long rulers and/or measuring tapes</li>
-                <li>Labels (to indicate the name of a building)</li>
-            </ul>
-        </div>
-        <img src="{{ asset('assets/images/K1/str/st18.png') }}" alt="Teacher" class="w-[600px]" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
-        <p class="note !text-amber-300">Suggestion: Cut the wrappers (if big size) into reasonable sizes of basic shapes for
-            children to use.</p>
-    </div>
-
-
-
-    {{-- sldie 4 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
-        <div>
-            <h2 class="font-bold">Things to consider during hands-on sessions:</h2>
-            <ul class="list-disc ">
-                <li>Ask questions to prompt children to share and try out their ideas. Some possible
-                    questions are listed in the lesson, you may add on questions based on children's
-                    responses.</li>
-                <li>During hands-on session I, have children observe and talk about the video
-                    examples on how to join straws together using the pipe cleaners. Encourage them
-                    to try out the methods when they start building their structures. Give them extra
-                    time to explore and learn their own building techniques. If they need help, advise
-                    them to first build some basic shapes (e.g .: cube, cuboid, pyramid, prism) and
-                    then join the shapes together. Pause once or twice to point out good building
-                    techniques or good building designs. At the end, guide them to measure the height
-                    of their buildings and record the result in their learning journals. After the
-                    showcase, guide them to reflect and share things they learned from this
-                    engineering activity (refer to the next page).</li>
+                <li>
+                    Do demonstrate to the children how they can connect the pieces together. <br>
+                    It may be hard to click the pieces to the connector in the beginning, teachers <br>
+                    please guide and assist the children.
+                </li>
+                <li>
+                    Ask questions to prompt children to share and try out their ideas. Some <br>
+                    possible questions are listed in the lesson, you may add on questions <br>
+                    based on children's responses.
+                </li> <br><br>
+                <h2 class="font-bold">Things to consider during Class Activity:</h2>
+                <li>
+                    Encourage children to manipulate with the different pieces and <br>
+                    explore how they can fix the pieces together. Encourage children to <br>
+                    observe the shapes of the different pieces and how the pieces can be <br>
+                    attached together.
+                </li>
+                <li>
+                    Encourage children to observe difference between the different types of <br>
+                    connectors and what shapes/pattern they can create with the different <br>
+                    connectors.
+                </li>
             </ul>
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
@@ -151,164 +133,65 @@
     </div>
 
 
-    {{-- sldie 5 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
-        <div>
-            <h2 class="font-bold">Possible questions for reflection:</h2>
-            <ul class="list-disc ">
-                <li>How did you join straws together using the pipe cleaners? Which way is more firm
-                    and effective? Which way is safer?</li>
-                <li>Did you succeed in building the tallest building you can? How tall is your building?
-                    Who has created the tallest building in the class? What kind of design made it
-                    the tallest building in the class?</li>
-                <li>What problems did you encounter during the process of engineering (constructing
-                    the building)? How did you overcome the problems?</li>
-                <li>Do you see any shapes in your building? How do shapes help you in the process of
-                    engineering? What shape did you use more in your construction?</li>
-                <li>If you get a chance to modify your building's design, what parts would you improve?
-                    Why?</li>
-            </ul>
-        </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
-    </div>
 
 
-    {{-- sldie 6 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
-        <div>
-            <h2 class="font-bold">Things to consider during hands-on sessions:</h2>
-            <ul class="list-disc ">
-                <li>During hands-on session 2, guide children to discuss uses of a tall building (house,
-                    office, factory, hotel, hospital, etc) and then decide a use for their own buildings.
-                    After that, have them design the look of their tall buildings creatively in the
-                    learning journals. Advise them to choose the wrappers based on their design ideas.
-                    If possible, demonstrate how to create and fix a piece of wrapper to a part of
-                    the building structure by: I) measuring the size of that shape of the structure; 2)
-                    cutting the shape out from a wrapper; 3) fixing the shape to the structure using
-                    adhesive tape or glue. When they start building the look of their tall buildings,
-                    remember to give them extra time to explore and learn their own building
-                    techniques. If you want, allow children to minimally use some other art and craft
-                    materials to add certain features to complete their design (eg. their own drawing
-                    of a cross at the top for a hospital building). At the end, have them name and
-                    label their buildings. During the showcase, have them share their design ideas to
-                    the class.</li>
-            </ul>
-        </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
-    </div>
+  
+
+
+
 
 
     {{-- sldie 7 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
-        <div>
-            <h2 class="font-bold">Things to consider during hands-on sessions:</h2>
-            <ul class="list-disc ">
-                <li>At the end of the lesson, display all the tall buildings created in the classroom.</li>
-                <li>If you want, guide children to create a neighbourhood or business district by
-                    arranging their tall buildings on the coding mats. You may use the obstacle cards
-                    to decorate the place!</li>
-            </ul>
-        </div>
-        <div class="flex justify-center gap-5">
-            <img src="{{ asset('assets/images/K1/str/st21.png') }}" alt="Teacher" />
-            <img src="{{ asset('assets/images/K1/str/st22.png') }}" alt="Teacher" />
-            <img src="{{ asset('assets/images/K1/str/st23.png') }}" alt="Teacher" />
-
-
-        </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
-    </div>
-
-
-
-    {{-- slide 8 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
-        <div>
-            <h2 class="font-bold">Useful information:</h2>
-            <ul class="list-disc ">
-                <li>A structure is something that has been built.</li>
-                <li>The structure of something is the way in which something is built or the way in
-                    which parts of something are connected together.</li>
-                <li>The structure of a building refers to the frame that is formed by the connected
-                    beams and columns (the wooden or metal bars), which gives the building its shape
-                    and strength (to stand on its own and support weight).</li>
-                <li>How are tall buildings built? Who are involved in the construction process? The
-                    two main designers of a building are the architects and the engineers. Architects
-                    draw a plan (called a blueprint) to design the look and space of a building.
-                    Engineers go through the plan to make the design functional and safe by figuring
-                    out the right building structures to support the design and deciding what materials
-                    must be used to make bring the architect's design to completion. Construction
-                    workers construct the building from the ground up floor by floor based on the
-                    finalized plan.</li>
-                <li>While both architects and engineers might be involved in the design and
-                    construction of a building, they tend to focus on different aspects of the job.</li>
-            </ul>
-        </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
-    </div>
-
-
-    {{-- slide 9 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
-        <div>
-            <h2 class="font-bold">Useful information:</h2>
-            <ul class="list-disc ">
-                <li>Architects concentrate on the artistic creativity of designs, while engineers
-                    focus on the scientific innovations that will bring those designs to life. So
-                    engineers might design and build a wide variety of things, including machines.
-                    Engineers can also specialize in a number of different areas, such as civil,
-                    electrical, mechanical, structural, industrial, sound and chemical engineering.</li>
-                <li>What are the key differences between architects and engineers? Read the
-                    infographic at <span class="text-amber-300"> https://newschoolarch.edu/academics/school-of-
-                        architecture/infographic-architecture-vs-engineering/</span></li>
-                <li>Engineering is a way of problem solving using science and math. Engineers are
-                    people who use their creativity and knowledge of science and math to design things
-                    that solve problems.</li>
-                <li>The process of engineering is fun and teaches good life lessons: there is not
-                    always just one right answer to solve a problem; it is okay to try out any idea you
-                    have; it is normal to repeat the process of designing, testing, redesigning and
-                    retesting: it is okay to learn from other's designs and solutions.</li>
-            </ul>
-        </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
-    </div>
-
-
-
-    {{-- slide 10 --}}
-    <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
+    <div class="slide hidden flex flex-col justify-start gap-y-5 text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold">Notes:</h2>
+                <!-- Notes -->
+                <h2 class="font-bold ">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
                     <li>
                         If you see
                         <span
                             class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
                             <!-- Decorative Vector -->
-                            <img src="{{ asset('assets/images/pptimages/Vector4.png')}}"
+                            <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
                                 class="absolute top-[4px] left-[6px] h-6 w-[80%]" />
+                            <!-- White Shape -->
                             <div class="absolute top-[7px] left-[12px] h-2.5 w-3.5 rounded-sm bg-white"></div>
+                            <!-- Play Icon -->
                             <img src="{{ asset('assets/images/pptimages/play.png') }}"
                                 class="absolute top-[16px] left-[16px] h-8 w-8" />
                         </span>
                         next to a picture, click on the picture to watch the video.
                     </li>
-                    <li>Emphasise and use the <strong>keywords</strong> during hands-on sessions.</li>
-                    <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
+                    <li>
+                        If you see
+                        <span
+                            class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-amber-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
+                            <!-- Decorative Vector -->
+                            <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
+                                class="absolute top-[4px] left-[6px] h-6 w-[80%]" />
+                            <!-- White Shape -->
+                            <div class="absolute top-[7px] left-[12px] h-2.5 w-3.5 rounded-sm bg-white"></div>
+                            <!-- Play Icon -->
+                            <img src="{{ asset('assets/images/pptimages/info.png') }}"
+                                class="absolute top-[16px] left-[16px] h-8 w-8" />
+                        </span>
+                        , click on it for additional information or activity.
                     </li>
+                    <li>Always ask questions to encourage children to think and share their ideas first before giving out
+                        any information.</li>
+                    <li>Emphasise and use the <strong>keywords</strong> during hands-on sessions.</li>
+                    <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.</li>
                     <li>
                         Click on this <span class="font-bold">shortcut icon</span>
                         <span
                             class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-                            <img  src="{{ asset('assets/images/pptimages/Vector4.png')}}"
+                            <!-- Decorative Vector -->
+                            <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
                                 class="absolute top-[4px] left-[6px] h-6 w-[80%]" />
+                            <!-- White Shape -->
                             <div class="absolute top-[7px] left-[12px] h-2.5 w-3.5 rounded-sm bg-white"></div>
+                            <!-- Play Icon -->
                             <img src="{{ asset('assets/images/pptimages/home-icon.png') }}"
                                 class="absolute top-[16px] left-[16px] h-8 w-8" />
                         </span>
@@ -316,10 +199,34 @@
                     </li>
                 </ul>
             </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" />
-
+            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute right-[250px] bottom-[150px]"
+                alt="" />
         </div>
+    </div>
 
+
+    {{-- sldie 8 --}}
+    <div class="text-white flex flex-col items-center justify-center gap-y-10 text-start text-2xl slide hidden">
+        <h2 class=" title stroke">Learning Centre Idea</h2>
+        <div class="flex">
+            <div class="space-y-20">
+                <ul>
+                    <h2 class="!text-white title stroke">Let’s Create a Shape</h2>
+                    <h2>What and how to set up:</h2>
+                    <li>Place a sample of a square structure at the corner. Put a poster of
+                        a square to show that square has 4 equal sides. Challenge children to build a square bigger than the
+                        displayed structure.</li>
+                </ul>
+
+                <ul class="list-decimal">
+                    <h2>What to do:</h2>
+                    <li>Invite children to choose one of the pictures.</li>
+                    <li>Encourage children to use the construction set to create a shape
+                        structure like the one in the picture.</li>
+                </ul>
+            </div>
+        </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute right-[250px] bottom-[150px]" />
     </div>
 
 

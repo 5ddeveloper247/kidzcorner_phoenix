@@ -23,8 +23,8 @@
         <div>
             <h2 class="  font-bold">Children will be able to:</h2>
             <ul class="list-disc ">
-                <li>Understand the meaning of structures</li>
-                <li>Learn that structures have shapes and are made up of small parts</li>
+                <li>Explore how block structures are created</li>
+                <li>Create structures using shapes.</li>
                 <li>Develop fine motor and eye-hand coordination skills</li>
                 <li>Develop creativity and imagination</li>
                 <li>Develop understanding through inquiry</li>
@@ -52,7 +52,7 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center  justify-start gap-y-10 text-start">
         <div>
             <h2 class="font-bold">Preparations:</h2>
             <ul class="list-disc ">
@@ -63,55 +63,67 @@
             </ul>
         </div>
         <div class="flex items-center gap-5">
-            <img src="/assets/images/N2/structure/str/st13.png" class="w-[600px]" />
-            <p>5 sets for square structure per
-                set of DDQ blocks.</p>
+            <img src="/assets/images/N2/structure/str2/s25.png" />
+
         </div>
+        <ul class="list-disc ">
+            <li>3-5 children can work together comfortably with 1 box of DDQ blocks.</li>
+        </ul>
+
+
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
     </div>
 
 
     {{-- slide 3 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-start  justify-start gap-[3rem] text-start">
         <div>
             <h2 class="font-bold">Preparations:</h2>
             <ul class="list-disc ">
                 <li>Put aside the following parts from the DDQ blocks set until the later
                     lessons to avoid distraction to the children,</li>
-                <img src="/assets/images/N2/structure/str/st37.png" />
                 <li>Print out the learning journals required.</li>
             </ul>
         </div>
+        <div class="flex items-center gap-5">
+            <img src="/assets/images/N2/structure/str2/s26.png" />
+
+        </div>
+        <ul class="list-disc ">
+            <li>Print out the learning journals required.</li>
+        </ul>
 
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
     </div>
 
     {{-- sldie 4 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start items-start gap-y-10 text-start">
         <div>
             <h2 class="font-bold">Things to consider during hands-on sessions:</h2>
             <ul class="list-disc ">
                 <li>
-                    Do demonstrate to the children how they can connect the pieces together.
-                    It may be hard to click the pieces to the connector in the beginning, so please guide and assist the
-                    children.
+                    Do demonstrate to the children how they can connect the pieces together. <br>
+                    It may be hard to click the pieces to the connector in the beginning, teachers <br>
+                    please guide and assist the children.
                 </li>
                 <li>
-                    Encourage children to arrange the pieces to form a square first.
-                    Highlight to them the property of a square: it has four equal sides.
-                    You can also let children compare the lengths of the rectangle pieces.
+                    Ask questions to prompt children to share and try out their ideas. Some <br>
+                    possible questions are listed in the lesson, you may add on questions <br>
+                    based on children's responses.
+                </li> <br><br>
+                <h2 class="font-bold">Things to consider during Class Activity:</h2>
+                <li>
+                    Encourage children to manipulate with the different pieces and <br>
+                    explore how they can fix the pieces together. Encourage children to <br>
+                    observe the shapes of the different pieces and how the pieces can be <br>
+                    attached together.
                 </li>
                 <li>
-                    For children who are more advanced, challenge them to form a square using other pieces
-                    (e.g., the red and yellow rectangle pieces) or even allow them to combine the rectangles and square
-                    pieces.
-                </li>
-                <li>
-                    For children who need more guidance, provide a square piece of paper and show them that the four sides
-                    are equal.
-                    You may use ice cream sticks to help children see the equal lengths.
+                    Encourage children to observe difference between the different types of <br>
+                    connectors and what shapes/pattern they can create with the different <br>
+                    connectors.
                 </li>
             </ul>
         </div>
@@ -140,22 +152,17 @@
                     to stand on its own and support weight.
                 </li>
                 <li>
-                    How are tall buildings built? Who are involved in the construction process?
-                    The two main designers of a building are the architects and the engineers.
-                </li>
-                <li>
-                    Architects draw a plan (called a <span class="italic">blueprint</span>) to design the look and space of
-                    a building.
-                </li>
-                <li>
-                    Engineers review the plan to make the design functional and safe by determining
-                    the right building structures to support the design and deciding which materials
-                    must be used to bring the architect's design to completion.
-                </li>
-                <li>
-                    Construction workers build the structure from the ground up, floor by floor,
+                    How are tall buildings built? Who are involved in the construction
+                    process? The two main designers of a building are the architects and the
+                    engineers. Architects draw a plan (called a blueprint) to design the look and
+                    space of a building. <br>
+                    Engineers go through the plan to make the design functional and safe by
+                    figuring out the right building structures to support the design and deciding
+                    what materials must be used to make bring the architect's design to completion.
+                    Construction workers construct the building from the ground up floor by floor
                     based on the finalized plan.
                 </li>
+
             </ul>
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
@@ -171,15 +178,14 @@
                 <li>
                     Architects concentrate on the artistic creativity of designs, while engineers focus on the scientific
                     innovations that bring those designs to life.
-                </li>
-                <li>
                     Engineers design and build a wide variety of things, including machines. They can also specialize in
                     different areas such as civil, electrical, mechanical, structural, industrial, sound, and chemical
                     engineering.
                 </li>
                 <li>
-                    To learn more about the key differences between architects and engineers, read the infographic at:
-                    <a href="https://newschoolarch.edu/academics/school-of-architecture/infographic-architecture-vs-engineering/"
+                    What are the key differences between architects and engineers? Read the
+                    infographic at
+                    <a href="https://newschoolarch.edu/academics/school-of- architecture/infographic-architecture-vs-engineering/"
                         class="text-amber-300" target="_blank">
                         https://newschoolarch.edu/academics/school-of-architecture/infographic-architecture-vs-engineering/
                     </a>
@@ -189,13 +195,10 @@
                     knowledge of these subjects to design solutions to real-world problems.
                 </li>
                 <li>
-                    The process of engineering is fun and teaches valuable life lessons:
-                    <ul class="list-disc pl-6 mt-1 space-y-1">
-                        <li>There is not always just one right answer to a problem.</li>
-                        <li>It is okay to try out any idea you have.</li>
-                        <li>It is normal to repeat the process of designing, testing, redesigning, and retesting.</li>
-                        <li>It is okay to learn from others’ designs and solutions.</li>
-                    </ul>
+                    The process of engineering is fun and teaches good life lessons: there is not
+                    always just one right answer to solve a problem; it is okay to try out any idea
+                    you have; it is normal to repeat the process of designing, testing, redesigning
+                    and retesting: it is okay to learn from other's designs and solutions.
                 </li>
             </ul>
         </div>
@@ -274,7 +277,7 @@
         <div class="flex">
             <div class="space-y-20">
                 <ul>
-                    <h2 class="!text-white title stroke">Square Challenge</h2>
+                    <h2 class="!text-white title stroke">Let’s Create a Shape</h2>
                     <h2>What and how to set up:</h2>
                     <li>Place a sample of a square structure at the corner. Put a poster of
                         a square to show that square has 4 equal sides. Challenge children to build a square bigger than the
@@ -283,10 +286,9 @@
 
                 <ul class="list-decimal">
                     <h2>What to do:</h2>
-                    <li>Invite children to find the pieces to form a square shape.</li>
-                    <li>Encourage children to use the connectors to connect the
-                        pieces and display their square.</li>
-                    <li>Take photos to see which group had created the biggest square!</li>
+                    <li>Invite children to choose one of the pictures.</li>
+                    <li>Encourage children to use the construction set to create a shape
+                        structure like the one in the picture.</li>
                 </ul>
             </div>
         </div>
