@@ -1,299 +1,506 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
- 
+
 @section('content')
 
 
     {{-- Slide 1 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <img src="/assets/images/N2/structure/str/st1.png" />
-        <h2 class="title stroke">Children, what do you see in the pictures?</h2>
-        <p class="note">Note: Guide children to share their answers.</p>
+        <img src="/assets/images/N2/structure/c-str/s1.png" />
+        <h2 class="title stroke">Children, what do you see in this picture?</h2>
+        <p class="note">Note: Encourage children to share their answers.</p>
     </div>
 
 
     {{-- Slide 2 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <img src="/assets/images/N2/structure/str/st3.png" />
-        <h2 class="title stroke">These are tall buildings, an observation wheel and a tower.</h2>
-        <p class="note">Note: Guide children to share what they see and describe the look and shape of these building
-            structures.</p>
+        <img src="/assets/images/N2/structure/c-str/s1.png" />
+        <h2 class="title stroke">Do you know that a car is a structure?</h2>
+        <p class="note">Note: Encourage children to share their answers.</p>
     </div>
 
 
     {{-- Slide3 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <img src="/assets/images/N2/structure/str/st1.png" />
-        <h2 class="title stroke">These are different types of <span class="text-white">structures</span>.</h2>
-        <p class="note">Note: Tell the children that tall buildings are called skyscrapers.</p>
+        <img src="/assets/images/N2/structure/c-str/s1.png" />
+        <h2 class="title stroke">A car is made up of many smaller parts! <br>
+            What <span class="text-white">shapes</span> do you see on the car?</h2>
+        <p class="note">Note: Encourage children to share their answers.</p>
     </div>
 
 
     {{-- Slide 4 --}}
-    <div class="slide flex flex-col items-center justify-center ">
-        <img src="/assets/images/N2/structure/str/st2.png" />
-        <h2 class="title stroke">House and bridges are <span class="text-white">structures</span> too.</h2>
-        <p class="note">Note: Encourage children to think of other building structures that they know of e.g. muesum,
-            schools etc.</p>
-
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+        <img src="/assets/images/N2/structure/c-str/s2.png" />
+        <h2 class="title stroke">The <span class="text-white">body</span> of the car is made up of one short
+            <span class="text-white">rectangle</span> and one long <span class="text-white">rectangle</span>.
+        </h2>
+        <p class="note">Note: Encourage children to share their answers.</p>
     </div>
 
 
     {{-- Slide 5  --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <h2 class="text-start title stroke">A <span class="text-white">structures</span> is something made by putting small
-            parts together. When the parts are put together, <br>forms a <span class="text-white">shape</span>.</h2>
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+        <img src="/assets/images/N2/structure/c-str/s3.png" />
+        <h2 class="title stroke">Two <span class="text-white">triangles</span> can be found on the car.</h2>
+        <p class="note">Note: Encourage children to share their answers.</p>
     </div>
 
 
 
     {{-- slide 6 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <img src="/assets/images/N2/structure/str/st1.png" />
-        <h2 class="text-start title stroke">What shapes do you see in these structures?</h2>
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+        <img src="/assets/images/N2/structure/c-str/s4.png" />
+        <h2 class="title stroke">The <span class="text-white">wheel</span> are in the <span class="text-white">shape</span>
+            of a circle.</h2>
         <p class="note">Note: Encourage children to share their answers.</p>
     </div>
 
     {{-- Slide 7 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="/assets/images//N2/structure/str/st4.png" />
-        <h2 class="text-start title stroke">The tall buildings are shaped like rectangles. Some are tall
-            and some are short.</h2>
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+        <h2 class="title stroke">Let’s make a car using the construction set!</h2>
     </div>
 
 
     {{-- Slide 8 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="/assets/images//N2/structure/str/st5.png" />
-        <h2 class="text-start title stroke">The observation wheel is like a circle.</h2>
+    <div class="slide hidden  flex flex-col items-center justify-start gap-5 ">
+        <h2 class="title stroke !text-white font-bold">Individual Activity 1</h2>
+
+        <img src="/assets/images/N2/structure/c-str/s1.png" />
+
+        <h2 class="title stroke !text-start">Mission: <br>
+            Make a car similar to the one in the picture using <br>
+            the construction set.</h2>
     </div>
 
 
     {{-- slide 9 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="/assets/images//N2/structure/str/st6.png" />
-        <h2 class="text-start title stroke">This tower is shaped like a triangle. The bottom of the
-            tower is bigger than the top!</h2>
+    <div class="slide hidden  flex flex-col justify-start items-center  gap-5 ">
+        <h2 class="title stroke font-bold !text-start">Steps: <br>
+            1.Get the following parts from the construction set.</h2>
+
+        <div class="flex gap-1 justify-center items-end">
+
+            <img src="/assets/images/N2/structure/c-str/s5.png" />
+            <p class= " note !text-white !text-start">small prism X 2 <br>
+                cube X 6 <br>
+                block connector X 10<br>
+                pair of small wheels X 2</p>
+
+        </div>
+
+
+
+        <p class="note">Note: Encourage children to work together in small group and pick out the parts needed.</p>
     </div>
 
 
     {{-- slide 10 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="/assets/images//N2/structure/str/st2.png" />
-        <h2 class="text-start title stroke">What shapes can you see here?</h2>
-        <p class="note">Note: Encourage children to share their answers.</p>
+    <div class="slide hidden  flex flex-col justify-start items-center  gap-5 ">
+        <h2 class="title stroke font-bold !text-start">Steps: <br>
+            2.Take 6 cubes and 5 connectors to form the long <br>
+            rectangle for the car’s body.</h2>
+
+        <div class="flex gap-1 justify-center items-center">
+
+            <img src="/assets/images/N2/structure/c-str/s6.png" />
+
+            <img src="/assets/images/N2/structure/c-str/s7.png" />
+
+
+        </div>
+
+
+
+        <p class="note">Note: Encourage and guide the children to try to connect the pieces.</p>
     </div>
 
 
     {{-- slide 11 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="/assets/images//N2/structure/str/st7.png" />
-        <h2 class="text-start title stroke">Triangles and rectangles can be found in the shape of a house.</h2>
-        <p class="note">Note: Encourage children to point out the shapes.</p>
+    <div class="slide hidden  flex flex-col justify-start items-center  gap-5 ">
+        <h2 class="title stroke font-bold !text-start">Steps: <br>
+            3.Use a block connector to connect the cubes together <br>
+            one by one.</h2>
+
+
+        <img src="/assets/images/N2/structure/c-str/s8.png" />
+
+
+
+
+
+        <p class="note">Note: Encourage and assist the children to connect the pieces as it may be
+            hard for them to fix the pieces.</p>
     </div>
 
-
     {{-- slide 12 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="/assets/images//N2/structure/str/st8.png" />
-        <h2 class="text-start title stroke">The bridge looks like long rectangle.</h2>
-        <p class="note">Note: Encourage children to point out the shape.</p>
+    <div class="slide hidden  flex flex-col justify-start items-center  gap-5 ">
+        <h2 class="title stroke font-bold !text-start">Steps: <br>
+            5.Take 2 cubes, 2 small prism and 3 block connector to <br>
+            form the top part of the car.</h2>
+
+        <div class="flex gap-1 justify-center items-center">
+
+            <img src="/assets/images/N2/structure/c-str/s9.png" />
+
+            <img src="/assets/images/N2/structure/c-str/s10.png" />
+
+
+        </div>
+
+
+
+        <p class="note">Note: Assist children in fixing the pieces if required.</p>
     </div>
 
 
     {{-- slide 13 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="/assets/images//N2/structure/str/st9.png" />
-        <h2 class="text-start title stroke">The different structures are made up of many small
-            parts. Construction workers put these parts together.</h2>
+    <div class="slide hidden  flex flex-col justify-start items-center  gap-5 ">
+        <h2 class="title stroke font-bold !text-start">Steps: <br>
+            6.Connect the prism to the cube using the connector</h2>
+
+        <div class="flex gap-1 justify-center items-center">
+
+            <img src="/assets/images/N2/structure/c-str/s11.png" />
+
+            <img src="/assets/images/N2/structure/c-str/s12.png" />
+
+
+        </div>
+
+
+
+        <p class="note">Note: Assist children in fixing the pieces if required.</p>
     </div>
 
     {{-- slide 14 --}}
-    <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="/assets/images//N2/structure/str/st9.png" />
-        <h2 class="title stroke">When the parts are placed together, it forms
-            the shape of the structure.</h2>
+    <div class="slide hidden  flex flex-col justify-start items-center  gap-5 ">
+        <h2 class="title stroke font-bold !text-start">Steps: <br>
+            7.Continue to connect another cube and prism to form <br>
+            the shape as shown.</h2>
+
+        <div class="flex gap-1 justify-center items-center">
+
+            <img src="/assets/images/N2/structure/c-str/s13.png" />
+
+            <img src="/assets/images/N2/structure/c-str/s14.png" />
+
+
+        </div>
+
+
+
+        <p class="note">Note: Assist children in fixing the pieces if required.</p>
     </div>
 
 
     {{-- slide 15 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="/assets/images//N2/structure/str/st10.png" />
-        <h2 class="title stroke">Look at this construction set!
-            There are many different small parts.</h2>
+    <div class="slide hidden  flex flex-col justify-start items-center  gap-5 ">
+        <h2 class="title stroke font-bold !text-start">Steps: <br>
+            8.Connect two connectors on the prisms as shown.</h2>
+
+        <div class="flex gap-1 justify-center items-center">
+
+            <img src="/assets/images/N2/structure/c-str/s15.png" />
+
+            <img src="/assets/images/N2/structure/c-str/s16.png" />
+
+
+        </div>
+
+
+
+        <p class="note">Note: Assist children in fixing the pieces if required.</p>
     </div>
 
 
     {{-- slide 16 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="/assets/images//N2/structure/str/st11.png" />
-        <h2 class="title stroke">These are the different <span class="text-white">connectors</span>.</h2>
+    <div class="slide hidden  flex flex-col justify-start items-center  gap-5 ">
+        <h2 class="title stroke font-bold !text-start">Steps: <br>
+            9.Now connect the two parts together to form the <br>
+            shape of the car.</h2>
+
+        <div class="flex gap-1 justify-center items-center">
+
+            <img src="/assets/images/N2/structure/c-str/s17.png" />
+
+            <img src="/assets/images/N2/structure/c-str/s18.png" />
+
+
+        </div>
+
+
+
+        <p class="note">Note: Assist children in fixing the pieces if required.</p>
     </div>
 
+
     {{-- slide 17 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="/assets/images//N2/structure/str/st12.png" />
-        <h2 class="title stroke">These are the different pieces for construction.</h2>
+    <div class="slide hidden  flex flex-col justify-start items-center  gap-5 ">
+        <h2 class="title stroke font-bold !text-start">Steps: <br>
+            10.Turn the structure upside down and connect the wheels. <br>
+            11.Connect one pair on the second cube and the other on
+            the fifth cube.</h2>
+
+
+
+        <img src="/assets/images/N2/structure/c-str/s19.png" />
+
+
+
+
+
+        <p class="note">Note: Assist children in fixing the pieces if required.</p>
     </div>
 
 
     {{-- slide 18 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="/assets/images//N2/structure/str/st13.png" />
-        <h2 class="title stroke">Let’s use these pieces to create a square structure!</h2>
-        <p class="note">Note: Ask the children how a square looks like; <br>
-            explain that a square has 4 equal sides and hence the 4 rectangles used must be the same size.</p>
+    <div class="slide hidden  flex flex-col justify-start items-center  gap-5 ">
+        <h2 class="title stroke font-bold !text-start ">Steps: <br>
+            Steps:
+            12.The car is completed!</h2>
+
+
+
+        <img src="/assets/images/N2/structure/c-str/s20.png" />
+
+
+
+
+
+        <p class="note">Note: Assist children in fixing the pieces if required.</p>
     </div>
 
 
     {{-- slide 19 --}}
-    <div class="slide hidden  flex flex-col items-center justify-between h-full  ">
-        <h2 class="title stroke !text-white">Individual Activity - Make a Square 1</h2>
-        <h2 class="title stroke">Create a square structure using the
-            parts provided.</h2>
-        <p class="note">Note: Give each child a set of materials to carry out this activity.</p>
+    <div class="slide hidden  flex flex-col justify-start items-center  gap-5 ">
+
+
+
+        <img src="/assets/images/N2/structure/c-str/s21.png" />
+
+
+        <h2 class="title stroke ">Most cars have similar structures and look similar in <span
+                class="!text-white">shape</span> .</h2>
+
+
+
     </div>
 
 
     {{-- slide 20 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <div class="text-start">
-            <h2 class="title stroke ">Let's do: <br>
-                1. Gather the following parts needed for making a square.
-            </h2>
+    <div class="slide hidden  flex flex-col justify-start items-center  gap-5 ">
+        <div class="flex gap-1 justify-center items-center">
+
+            <img src="/assets/images/N2/structure/c-str/s22.png" />
+
+            <img src="/assets/images/N2/structure/c-str/s23.png" />
+
+
         </div>
-        <img src="/assets/images//N2/structure/str/st14.png" />
-        <p class="note">Note: Encourage children to count the pieces needed. <br>
-            Teachers please take note of the type of connectors used.</p>
+        <h2 class="title stroke ">Some cars have special <span class="!text-white">designs</span> and their
+            <span class="!text-white">shape</span> structure looks different.
+        </h2>
+
+
+
+
+        <p class="note">Note: Encourage children to point out the shapes they see or describe how the cars look.</p>
     </div>
 
-
     {{-- slide 21 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <div class="text-start">
-            <h2 class="title stroke ">Let's do: <br>
-                2. Arrange the long rectangle pieces in a shape of a square. </h2>
+    <div class="slide hidden  flex flex-col justify-start items-center  gap-5 ">
+        <div class="flex gap-1 justify-center items-center">
+
+            <img src="/assets/images/N2/structure/c-str/s24.png" />
+
+            <img src="/assets/images/N2/structure/c-str/s25.png" />
+
+
         </div>
-        <img src="/assets/images//N2/structure/str/st15.png" />
-        <p class="note">Note: Encourage and guide the children to try.</p>
+        <h2 class="title stroke ">This is a convertible. <br>
+            This car can fold its roof and keep it hidden.</h2>
+
+
+
+
+        <p class="note">Note: Encourage children to point out the shapes they see or describe how the cars look.</p>
     </div>
 
     {{-- slide 22 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <div class="text-start">
-            <h2 class="title stroke ">Let's do: <br>
-                3. Use the connectors to fix the rectangle pieces together at each connecting point. </h2>
-        </div>
-        <img src="/assets/images//N2/structure/str/st16.png" />
-        <p class="note">Note: Teacher to assist if children are unable to connect the parts together.</p>
+    <div class="slide hidden  flex flex-col justify-start items-center  gap-5 ">
+
+        <img src="/assets/images/N2/structure/c-str/s26.png" />
+
+
+        <h2 class="title stroke ">Watch how the <span class="!text-white">roof</span> appears from the back of the car,
+            opens up and covers the car.</h2>
+
+
+
+
     </div>
 
 
     {{-- slide 23 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <div class="text-start">
-            <h2 class="title stroke ">Let's do: <br>
-                4. Join the rectangle pieces with the one direction connectors. </h2>
+    <div class="slide hidden  flex flex-col justify-start items-center  gap-5 ">
+        <div class="flex gap-1 justify-center items-center">
+
+            <img src="/assets/images/N2/structure/c-str/s27.png" />
+
+            <img src="/assets/images/N2/structure/c-str/s28.png" />
+
+
         </div>
-        <div class="flex items-center gap-5">
-            <img src="/assets/images//N2/structure/str/st17.png" />
-            <img src="/assets/images//N2/structure/str/st18.png" />
-        </div>
-        <p class="note">Note: Teacher to assist if children are unable to connect the parts together.</p>
+        <h2 class="title stroke ">Vans and trucks are structures too! <br>
+            Can you spot the <span class="!text-white">shapes</span> on them?</h2>
+
+
+
+
+        <p class="note">Note: Encourage children to point out the shapes they see on the vehicles.</p>
     </div>
 
     {{-- slide 24 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <div class="text-start">
-            <h2 class="title stroke ">Let's do: <br>
-                5. Join the four rectangle pieces together to form the square. </h2>
-        </div>
-        <div class="flex items-center gap-5">
-            <img src="/assets/images//N2/structure/str/st19.png" class="w-[300px]" />
-            <img src="/assets/images//N2/structure/str/st20.png" class="w-[300px]" />
-            <img src="/assets/images//N2/structure/str/st21.png" class="w-[300px]" />
-        </div>
-        <p class="note">Note: Teacher to assist if children are unable to connect the parts together.</p>
+    <div class="slide hidden  flex flex-col items-center justify-start gap-5 ">
+        <h2 class="title stroke !text-white font-bold">Individual Activity </h2>
+
+        <img src="/assets/images/N2/structure/c-str/s29.png" />
+
+        <h2 class="title stroke !text-start">Mission: <br>
+            Let’s build a small vehicle using the construction set.</h2>
+
+        <p class="note">Note: Children can choose from the pictures above or any other small vehicles they like.
+            You may assign 5-6 children to a set a DDQ blocks for this activity.</p>
+
+
+
     </div>
 
     {{-- slide 25 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <div class="text-start">
-            <h2 class="title stroke ">Let's do: <br>
-                6. Your square structure is completed. Can your structure
-                stand on its own?</h2>
-        </div>
-        <img src="/assets/images//N2/structure/str/st22.png" />
-        <p class="note">Note: Teacher to assist if children are unable to connect the parts together.</p>
+    <div class="slide hidden  flex flex-col items-center justify-start gap-[6rem]  ">
+
+
+        <ul class="title stroke list-decimal !text-start">
+            <li>Choose a picture of the small vehicle you like.</li>
+            <li>Look at the shapes on the vehicle.</li>
+            <li>Find the pieces/blocks needed to form the shapes.</li>
+            <li>Combine the parts together.</li>
+            <li>Present your creation to your friends.</li>
+
+        </ul>
+
+
+
+        <p class="note">Note: Small vehicles means car, lorry, van, taxi, motorcycle etc. Teacher to assist children
+            in connecting if they are unable to do it. <a class="stroke title " href="">Click here</a> if you need
+            to show some examples.
+        </p>
     </div>
 
 
 
     {{-- slide 26 --}}
-    <div class="slide hidden  flex flex-col items-center justify-center  ">
-        <h2 class="title stroke">Children, why do you think the <span class="text-white">structure</span> is
-            unable to stand on its own?</h2>
+    {{-- click here --}}
+    <div class="slide hidden  flex flex-col items-center justify-start gap-5 ">
+
+        <img src="/assets/images/N2/structure/c-str/s30.png" />
+
+        <h2 class="title stroke ">This is an example of the car with a rounded top.</h2>
+
+
+
+
+
     </div>
 
 
     {{-- slide 27 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="/assets/images//N2/structure/str/st23.png" />
-        <h2 class="title stroke ">Let’s stand up and tiptoe. <br>
-            Is it easy to stand on your toes?</h2>
-        <p class="note">Note: Encourage children to share how they feel. Was it hard to balance? Did they wobble?</p>
+    <div class="slide hidden  flex flex-col items-center justify-start gap-5 ">
+
+        <img src="/assets/images/N2/structure/c-str/s31.png" />
+
+        <h2 class="title stroke ">This is an example of the convertible.</h2>
+
+
+
+
+
     </div>
 
 
     {{-- slide 28 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="/assets/images//N2/structure/str/st24.png" />
-        <h2 class="title stroke ">Similar to you, the structure cannot stand on its own because
-            its base is narrow and it is hard for it to support its body.</h2>
+    <div class="slide hidden  flex flex-col items-center justify-start gap-5 ">
+
+        <img src="/assets/images/N2/structure/c-str/s32.png" />
+
+        <h2 class="title stroke ">This is an example of a small truck.</h2>
+
+
+
+
+
     </div>
 
 
     {{-- slide 29 --}}
-    <div class="slide hidden  flex flex-col items-center justify-between h-full  ">
-        <h2 class="title stroke !text-white">Individual Activity - Make a Square 2</h2>
-        <h2 class="title stroke">Using the same parts provided,
-            make a square that can stand on its own.</h2>
-        <p class="note">Note: Prompt children to think how they can make the base bigger.
-            Get children to try on their own first before showing them to the next slide.</p>
+    <div class="slide hidden  flex flex-col items-center justify-start gap-5 ">
+
+        <img src="/assets/images/N2/structure/c-str/s33.png" />
+
+        <h2 class="title stroke ">This is an example of a van.</h2>
+
+
+
+
+
     </div>
 
+
     {{-- slide 30 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <div class="text-start">
-            <h2 class="title stroke ">Let's do: <br>
-                1. Look at the square below. This square can stand on its own!</h2>
-        </div>
-        <img src="/assets/images//N2/structure/str/st25.png" />
-        <p class="note">Note: Teacher to point out that the parts used to make this square are
-            the same as the previous square.</p>
+    <div class="slide hidden  flex flex-col items-center justify-start gap-[6rem]  ">
+
+        <ul class="title stroke list-decimal !text-start">
+            <h2 class="title stroke !text-start">Guided Questions During Presentation</h2>
+            <li>What vehicle did you choose? Why?</li>
+            <li>What shapes do you see on the vehicle? Can you
+                point out the shapes?</li>
+            <li>How did you build the shapes?</li>
+            <li>Can you share what you like most about your vehicle?</li>
+
+        </ul>
+
+
+
+        <p class="note">Note: Small vehicles means car, lorry, van, taxi, motorcycle etc.
+            Teacher to assist children in connecting if they are unable to do it.
+
+        </p>
     </div>
 
 
 
     {{-- slide 31 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <div class="text-start">
-            <h2 class="title stroke ">Let's do: <br>
-                2. Gather the following parts needed for making a square.</h2>
-        </div>
-        <img src="/assets/images//N2/structure/str/st26.png" />
-        <p class="note">Note: Encourage children to count the pieces needed. Teachers please take
-            note of the type of connectors used.</p>
+    <div class="slide hidden  flex flex-col items-center justify-start gap-5 ">
+
+        <img src="/assets/images/N2/structure/c-str/s1.png" />
+
+        <h2 class="title stroke ">We learned that cars are structures!
+            They are made up of many smaller parts.</h2>
+
     </div>
 
     {{-- slide 32 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <div class="text-start">
-            <h2 class="title stroke ">Let's do: <br>
-                3. Arrange the long rectangle pieces in a shape of a square.</h2>
-        </div>
-        <img src="/assets/images//N2/structure/str/st27.png" />
-        <p class="note">Note: Encourage and guide the children to try.</p>
+   <div class="slide hidden  flex flex-col items-center justify-start gap-5 ">
+<div class="flex gap-1">
+
+    <img src="/assets/images/N2/structure/c-str/s1.png" />
+    <img src="/assets/images/N2/structure/c-str/s20.png" />
+</div>
+
+        <h2 class="title stroke ">The shape structure of this car is made up
+of triangles and rectangles.</h2>
+
     </div>
 
     {{-- slide 33 --}}
@@ -357,7 +564,7 @@
 
     {{-- slide 37 --}}
     <div class="slide hidden  flex flex-col items-center gap-5 ">
-        <img src="/assets/images/N2/structure/str/st34.png"  />
+        <img src="/assets/images/N2/structure/str/st34.png" />
         <h2 class="title stroke ">This structure can stand on its own because
             its base is wider and it can support its body.</h2>
     </div>
@@ -365,7 +572,7 @@
 
     {{-- slide 38 --}}
     <div class="slide hidden  flex flex-col items-center gap-5 ">
-        <img src="/assets/images/N2/structure/str/st35.png"  />
+        <img src="/assets/images/N2/structure/str/st35.png" />
         <h2 class="title stroke ">It is like when you stand on your feet.
             You can stand still and you do not wobble.</h2>
         <p class="note">Note: Teacher can get children to compare how they feel when stand on tiptoes and on their feet.
@@ -375,7 +582,7 @@
 
     {{-- slide 39 --}}
     <div class="slide hidden  flex flex-col items-center gap-5 ">
-        <img src="/assets/images/N2/structure/str/st35.png"  />
+        <img src="/assets/images/N2/structure/str/st35.png" />
         <h2 class="title stroke ">It is like when you stand on your feet.
             You can stand still and you do not wobble.</h2>
         <p class="note">Note: Teacher can get children to compare how they feel when stand on tiptoes and on their feet.
@@ -385,7 +592,7 @@
 
     {{-- slide 40 --}}
     <div class="slide hidden  flex flex-col items-center gap-5 ">
-        <img src="/assets/images/N2/structure/str/st36.png"  />
+        <img src="/assets/images/N2/structure/str/st36.png" />
         <h2 class="title stroke ">Similarly, all these structures have a base that helps
             them stand firmly on the ground.</h2>
     </div>
@@ -393,7 +600,7 @@
 
     {{-- slide 41 --}}
     <div class="slide hidden  flex flex-col items-center gap-5 ">
-        <img src="/assets/images/N2/structure/str/st36.png"  />
+        <img src="/assets/images/N2/structure/str/st36.png" />
         <h2 class="title stroke ">All the different structures are made up of smaller parts
             giving them their shape.</h2>
     </div>

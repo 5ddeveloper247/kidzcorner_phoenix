@@ -1,14 +1,15 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
- 
+
 @section('content')
     {{-- sldie 1  --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
             <h2 class="  font-bold">Children will be able to:</h2>
             <ul class="list-disc ">
-                <li>Understand the meaning of structures</li>
-                <li>Learn that structures have shapes and are made up of small parts</li>
+                <li>Plan and design a city</li>
+                <li>Design and build structures for the city</li>
+                <li>Develop interpersonal skills through discussion with peers</li>
                 <li>Develop fine motor and eye-hand coordination skills</li>
                 <li>Develop creativity and imagination</li>
                 <li>Develop understanding through inquiry</li>
@@ -18,15 +19,15 @@
         <div class="flex justify-between w-[50%] items-center">
             <ul class="list-disc ">
                 <h2 class="text-[33px] font-bold">Keywords:</h2>
-                <li>Structures</li>
+                <li>Building</li>
+                <li>Vehicle</li>
+                <li>Pyramid</li>
                 <li>Shapes</li>
-                <li>Square</li>
-                <li>Rectangle</li>
             </ul>
             <ul class="list-disc ">
-                <li>Triangle</li>
-                <li>Circle</li>
-                <li>Base</li>
+                <li>City</li>
+                <li>Design</li>
+
             </ul>
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
@@ -35,157 +36,48 @@
 
 
 
-    {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
-        <div>
-            <h2 class="font-bold">Preparations:</h2>
-            <ul class="list-disc ">
-                <li>Please note the following number of sets for each type of activity is based
-                    on 1 box of DDQ blocks. If you are planning of asking two groups of children
-                    to do two different activities at the same, the following guide will not be
-                    accurate.</li>
-            </ul>
-        </div>
-        <div class="flex items-center gap-5">
-            <img src="/assets/images/N2/structure/str/st13.png" class="w-[600px]" />
-            <p>5 sets for square structure per
-                set of DDQ blocks.</p>
-        </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
-    </div>
 
-
-    {{-- slide 3 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
-        <div>
-            <h2 class="font-bold">Preparations:</h2>
-            <ul class="list-disc ">
-                <li>Put aside the following parts from the DDQ blocks set until the later
-                    lessons to avoid distraction to the children,</li>
-                <img src="/assets/images/N2/structure/str/st37.png" />
-                <li>Print out the learning journals required.</li>
-            </ul>
-        </div>
-
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
-    </div>
 
     {{-- sldie 4 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start items-end  text-start">
         <div>
-            <h2 class="font-bold">Things to consider during hands-on sessions:</h2>
+            <h2 class="font-bold">Things to note:</h2>
             <ul class="list-disc ">
-                <li>
-                    Do demonstrate to the children how they can connect the pieces together.
-                    It may be hard to click the pieces to the connector in the beginning, so please guide and assist the
-                    children.
-                </li>
-                <li>
-                    Encourage children to arrange the pieces to form a square first.
-                    Highlight to them the property of a square: it has four equal sides.
-                    You can also let children compare the lengths of the rectangle pieces.
-                </li>
-                <li>
-                    For children who are more advanced, challenge them to form a square using other pieces
-                    (e.g., the red and yellow rectangle pieces) or even allow them to combine the rectangles and square
-                    pieces.
-                </li>
-                <li>
-                    For children who need more guidance, provide a square piece of paper and show them that the four sides
-                    are equal.
-                    You may use ice cream sticks to help children see the equal lengths.
-                </li>
+                <li>Print out pictures of various part of Singapore to inspire children in their <br>
+                    planning and creation of their city.</li>
+                <li>You may want to draw a blue print of their ideas on a big piece of paper to <br>
+                    section out the areas that they want in their city. You may want to <br>
+                    divide children into groups and each group to work on one area. For example</li>
+                <ul>
+
+                    <li> -Central area with more tall office buildings</li>
+                    <li> -Recreation area with more parks and entertainments such as playground, <br>
+                        pavilions, museum or malls</li>
+                    <li> -Neighborhood with fire engines and fire station, police cars and police stations etc</li>
+                    <li> -Transportation such as roads with vehicles / Mrt station with mrt</li>
+                    <li> -Constructions sites with dump truck or cranes</li>
+                </ul>
+                <li>Print out the learning journals required</li>
+                <li>Encourage children to explore how they can attach the <br>
+                    different parts together using the different <br>
+                    types of connectors</li>
             </ul>
         </div>
+        <div class="flex flex-col gap-2 justify-center items-end  mr-10 ">
+            <img    src="/assets/images/N2/structure/ci-str/s17.png"  />
+            <p class="note">small wheels connector</p>
+
+
+        </div>
+
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
+            class="absolute right-[350px] bottom-[150px]" />
     </div>
 
 
 
 
-    {{-- sldie 5 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
-        <div>
-            <h2 class="font-bold">Useful Information:</h2>
-            <ul class="list-disc ">
-                <li>
-                    A structure is something that has been built using smaller parts.
-                </li>
-                <li>
-                    The structure of something refers to the way in which something is built or the way different parts are
-                    connected together.
-                </li>
-                <li>
-                    The structure of a building refers to the frame that is formed by the connected beams and columns
-                    (the wooden or metal bars), which gives the building its shape and strength
-                    to stand on its own and support weight.
-                </li>
-                <li>
-                    How are tall buildings built? Who are involved in the construction process?
-                    The two main designers of a building are the architects and the engineers.
-                </li>
-                <li>
-                    Architects draw a plan (called a <span class="italic">blueprint</span>) to design the look and space of
-                    a building.
-                </li>
-                <li>
-                    Engineers review the plan to make the design functional and safe by determining
-                    the right building structures to support the design and deciding which materials
-                    must be used to bring the architect's design to completion.
-                </li>
-                <li>
-                    Construction workers build the structure from the ground up, floor by floor,
-                    based on the finalized plan.
-                </li>
-            </ul>
-        </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
-    </div>
 
-
-    {{-- sldie 6 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
-        <div>
-            <h2 class="font-bold">Useful Information:</h2>
-            <ul class="list-disc ">
-                <li>
-                    Architects concentrate on the artistic creativity of designs, while engineers focus on the scientific
-                    innovations that bring those designs to life.
-                </li>
-                <li>
-                    Engineers design and build a wide variety of things, including machines. They can also specialize in
-                    different areas such as civil, electrical, mechanical, structural, industrial, sound, and chemical
-                    engineering.
-                </li>
-                <li>
-                    To learn more about the key differences between architects and engineers, read the infographic at:
-                    <a href="https://newschoolarch.edu/academics/school-of-architecture/infographic-architecture-vs-engineering/"
-                        class="text-amber-300" target="_blank">
-                        https://newschoolarch.edu/academics/school-of-architecture/infographic-architecture-vs-engineering/
-                    </a>
-                </li>
-                <li>
-                    Engineering is a way of problem-solving using science and math. Engineers use creativity and their
-                    knowledge of these subjects to design solutions to real-world problems.
-                </li>
-                <li>
-                    The process of engineering is fun and teaches valuable life lessons:
-                    <ul class="list-disc pl-6 mt-1 space-y-1">
-                        <li>There is not always just one right answer to a problem.</li>
-                        <li>It is okay to try out any idea you have.</li>
-                        <li>It is normal to repeat the process of designing, testing, redesigning, and retesting.</li>
-                        <li>It is okay to learn from others’ designs and solutions.</li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
-    </div>
 
 
     {{-- sldie 7 --}}
@@ -258,19 +150,19 @@
         <div class="flex">
             <div class="space-y-20">
                 <ul>
-                    <h2 class="!text-white title stroke">Square Challenge</h2>
+                    <h2 class="!text-white title stroke font-bold">My Creation</h2>
                     <h2>What and how to set up:</h2>
-                    <li>Place a sample of a square structure at the corner. Put a poster of
-                        a square to show that square has 4 equal sides. Challenge children to build a square bigger than the
-                        displayed structure.</li>
+                    <li>Display pictures of various types buildings, vehicles and any special
+                        structures to inspire children in their creations. Children can design
+                        their house or a special vehicle.</li>
                 </ul>
 
                 <ul class="list-decimal">
                     <h2>What to do:</h2>
-                    <li>Invite children to find the pieces to form a square shape.</li>
-                    <li>Encourage children to use the connectors to connect the
-                        pieces and display their square.</li>
-                    <li>Take photos to see which group had created the biggest square!</li>
+                    <li>Encourage children to explore with all types of materials in the
+                        construction set.</li>
+                    <li>Encourage children to design their house or any vehicles they
+                        want.</li>
                 </ul>
             </div>
         </div>

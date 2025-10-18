@@ -1,12 +1,13 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
- 
+
 @section('content')
 
     <div id="topDiv" class="flex flex-col items-center gap-[7rem] ">
-        <h2 class="  text-amber-300 text-[65px] font-extrabold stroke">city</h2>
-        <h2 class="!text-white title">Understand the meaning of structures; <br>
-            Learn that structures have shapes</h2>
+        <h2 class="  text-amber-300 text-[65px] font-extrabold stroke">Structures in a City</h2>
+        <h2 class="!text-white title">Plan and design a city; <br>
+            create buildings and vehicles of various <br>
+            structures.</h2>
 
         <button
             class="cursor-pointer nextButton w-62 !h-[85px] relative bg-[#F8A23A]  rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
@@ -22,7 +23,7 @@
 
 
 
- <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
+    <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
         <!-- Return Button -->
         <button
             class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
