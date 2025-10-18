@@ -73,7 +73,7 @@
 @section('content')
 
 
-    <div class=" flex items-center flex-col justify-center relative h-full text-center z-[999]  max-w-[1000px]  m-auto">
+    <div class=" flex items-center flex-col justify-center relative h-full text-center z-[99] w-full">
         <h2 class="!text-[50px] text-[#F7B94A] absolute top-[-30px] stroke">Light and Shadow</h2>
         <div class="flex items-center gap-[15rem]">
 
@@ -103,7 +103,7 @@
 
 
 
-    <div id="buttons" class="absolute top-[24px] right-[60px] flex flex-row gap-6 z-40">
+ <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
 
         <!-- Return Button -->
         <a href="{{ route('shadows') }}"

@@ -23,35 +23,27 @@
         <div>
             <h2 class="  font-bold">Children will be able to:</h2>
             <ul class="list-disc ">
-                <li>Learn how to use Blockly to programme the sound and light of a robot</li>
-                <li>Use creativity to create a story based on a pictorial circuit together with friends</li>
-                <li>Work out the programming steps that allow a robot to move through a pictorial circuit together with
-                    friends</li>
-                <li>Develop problem-solving skills</li>
+                <li>Understand the meaning of structures</li>
+                <li>Learn that structures have shapes and are made up of small parts</li>
+                <li>Develop fine motor and eye-hand coordination skills</li>
+                <li>Develop creativity and imagination</li>
                 <li>Develop understanding through inquiry</li>
             </ul>
         </div>
 
-        <div class="flex w-[100%] items-center justify-between">
-            <div>
+        <div class="flex justify-between w-[50%] items-center">
+            <ul class="list-disc ">
                 <h2 class="text-[33px] font-bold">Keywords:</h2>
-
-                <div class="flex gap-20">
-                    <ul class="list-disc ">
-                        <li>Programming Block</li>
-                        <li>Forward</li>
-                        <li>Backward</li>
-                        <li>Turn Left</li>
-
-                    </ul>
-                    <ul class="list-disc">
-                        <li>Sound </li>
-                        <li>Light
-                        <li>Turn Light</li>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+                <li>Structures</li>
+                <li>Shapes</li>
+                <li>Square</li>
+                <li>Rectangle</li>
+            </ul>
+            <ul class="list-disc ">
+                <li>Triangle</li>
+                <li>Circle</li>
+                <li>Base</li>
+            </ul>
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
@@ -64,152 +56,63 @@
         <div>
             <h2 class="font-bold">Preparations:</h2>
             <ul class="list-disc ">
-                <li>Sound and Light coding cards (print and laminate so that they are reusable)
-                    - use it during hands-on session to show at which part of a circuit sound or
-                    light has been inserted</li>
-            </ul>
-        </div>
-        <img src="{{ asset('assets/images/K1/coding/sound/s31.png') }}" class="w-[600px]" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
-    </div>
-
-    {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
-        <div>
-            <h2 class="font-bold">Preparations:</h2>
-            <ul class="list-disc">
-                <li>50cm and 90cm measuring strips (made from black craft paper with label of
-                    measurement pasted at the middle of the strip; kindly use standard font -
-                    Comic Sans MS)</li>
-                <li>Blu Tack (to fix the measuring strips on the floor)</li>
-                <li>Measuring tapes (you may get children to check the accuracy of the
-                    measuring strips prepared)</li>
-            </ul>
-        </div>
-        <img src="{{ asset('assets/images/K1/coding/go/go38.png') }}" alt="Teacher" class="w-[600px]" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
-    </div>
-
-
-    {{-- slide 4 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
-        <div>
-            <h2 class="font-bold">Preparations:</h2>
-            <ul class="list-disc">
-                <li>4 types of coding cards (print and laminate so that they are reusable)</li>
-                <li>Whiteboard marker pens</li>
+                <li>Please note the following number of sets for each type of activity is based
+                    on 1 box of DDQ blocks. If you are planning of asking two groups of children
+                    to do two different activities at the same, the following guide will not be
+                    accurate.</li>
             </ul>
         </div>
         <div class="flex items-center gap-5">
-            <img src="{{ asset('assets/images/K1/coding/go/go25.png') }}" alt="Teacher" class="w-[400px]" />
-            <img src="{{ asset('assets/images/K1/coding/go/go26.png') }}" alt="Teacher" class="w-[400px]" />
+            <img src="/assets/images/N2/structure/str/st13.png" class="w-[600px]" />
+            <p>5 sets for square structure per
+                set of DDQ blocks.</p>
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
     </div>
 
 
-    {{-- slide 5 --}}
+    {{-- slide 3 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
             <h2 class="font-bold">Preparations:</h2>
-            <ul class="list-disc">
-                <li>4 types of coding cards (print and laminate so that they are reusable)</li>
-                <li>Whiteboard marker pens</li>
-            </ul>
-        </div>
-        <div class="flex items-center gap-5">
-            <img src="{{ asset('assets/images/K1/coding/go/go39.png') }}" alt="Teacher" class="w-[400px]" />
-            <img src="{{ asset('assets/images/K1/coding/go/go40.png') }}" alt="Teacher" class="w-[400px]" />
-        </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
-    </div>
-
-
-    {{-- slide 6 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
-        <div>
-            <h2 class="font-bold">Preparations:</h2>
-            <ul class="list-disc">
-                <li>Start coding cards (print and laminate so that they are reusable) - use
-                    it during hands-on session to mark the starting point of a circuit.</li>
-            </ul>
-        </div>
-        <img src="{{ asset('assets/images/K1/coding/go/go41.png') }}" alt="Teacher" class="w-[400px]" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
-    </div>
-
-
-
-    {{-- slide 7 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
-        <div>
-            <h2 class="font-bold">Preparations:</h2>
-            <ul class="list-disc">
-                <li>The robots and tablets (refer to the teacher’s mode of Lesson 1 for guide on
-                    what you need to know and do before the lesson)</li>
-                <li>Tender Loving Care Poster (refer to the teacher’s mode of Lesson 1)</li>
-            </ul>
-        </div>
-        <img src="{{ asset('assets/images/K1/coding/cd/cd13.png') }}" alt="Teacher" class="w-[600px]" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
-    </div>
-
-
-
-    {{-- slide 8 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
-        <div>
-            <p class="note">When the hands-on session 1 starts, guide each group of children to lay the
-                circuit on the floor using the measuring strip, blu tack and a Start card (as shown).</p>
-            <img src="{{ asset('assets/images/K1/coding/sound/s32.png') }}" alt="Teacher" class="w-[440px]" />
-        </div>
-        <div>
-            <p class="note">Suggestion: You may create props to represent Sound and Light for
-                children to form pictorial circuit (example as shown).</p>
-            <img src="{{ asset('assets/images/K1/coding/sound/s33.png') }}" alt="Teacher" class="w-[440px]" />
-        </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
-    </div>
-
-    {{-- slide 9 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
-        <p class="note">When the hands-on session 2 starts, guide each group of children to lay the
-            circuit on the floor using the measuring strip, blu tack and a Start card (as shown).</p>
-        <img src="{{ asset('assets/images/K1/coding/sound/s34.png') }}" alt="Teacher" class="w-[600px]" />
-
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
-    </div>
-
-
-
-    {{-- sldie 10 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
-        <div>
-            <h2 class="font-bold">Reminders or advice during hands-on session:</h2>
             <ul class="list-disc ">
-                <li>Always hold a robot or a tablet with both your hands (to show your care and prevent the tools from
-                    spoiling easily).</li>
-                <li>Never place your hands on the wheels of the robot (prevent yourself from getting hurt).</li>
-                <li>Never hold the robot by its head (prevent it from spoiling easily).</li>
-                <li>Never push and stop the robot from moving once you turn on a programme (prevent it from spoiling
-                    easily).</li>
-                <li>Be patient and take turns when using the different tools.</li>
+                <li>Put aside the following parts from the DDQ blocks set until the later
+                    lessons to avoid distraction to the children,</li>
+                <img src="/assets/images/N2/structure/str/st37.png" />
+                <li>Print out the learning journals required.</li>
             </ul>
         </div>
+
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute right-[250px] bottom-[150px]" />
+    </div>
+
+    {{-- sldie 4 --}}
+    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Possible questions during hands-on sessions:</h2>
+            <h2 class="font-bold">Things to consider during hands-on sessions:</h2>
             <ul class="list-disc ">
-                <li>Which command in Blockly allows you to programme a robot to have sound?</li>
-                <li>Which command in Blockly allows you to programme a robot to have different lights on the different body
-                    parts?</li>
+                <li>
+                    Do demonstrate to the children how they can connect the pieces together.
+                    It may be hard to click the pieces to the connector in the beginning, so please guide and assist the
+                    children.
+                </li>
+                <li>
+                    Encourage children to arrange the pieces to form a square first.
+                    Highlight to them the property of a square: it has four equal sides.
+                    You can also let children compare the lengths of the rectangle pieces.
+                </li>
+                <li>
+                    For children who are more advanced, challenge them to form a square using other pieces
+                    (e.g., the red and yellow rectangle pieces) or even allow them to combine the rectangles and square
+                    pieces.
+                </li>
+                <li>
+                    For children who need more guidance, provide a square piece of paper and show them that the four sides
+                    are equal.
+                    You may use ice cream sticks to help children see the equal lengths.
+                </li>
             </ul>
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
@@ -217,11 +120,96 @@
     </div>
 
 
-    {{-- slide 11 --}}
-    <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
+
+
+    {{-- sldie 5 --}}
+    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+        <div>
+            <h2 class="font-bold">Useful Information:</h2>
+            <ul class="list-disc ">
+                <li>
+                    A structure is something that has been built using smaller parts.
+                </li>
+                <li>
+                    The structure of something refers to the way in which something is built or the way different parts are
+                    connected together.
+                </li>
+                <li>
+                    The structure of a building refers to the frame that is formed by the connected beams and columns
+                    (the wooden or metal bars), which gives the building its shape and strength
+                    to stand on its own and support weight.
+                </li>
+                <li>
+                    How are tall buildings built? Who are involved in the construction process?
+                    The two main designers of a building are the architects and the engineers.
+                </li>
+                <li>
+                    Architects draw a plan (called a <span class="italic">blueprint</span>) to design the look and space of
+                    a building.
+                </li>
+                <li>
+                    Engineers review the plan to make the design functional and safe by determining
+                    the right building structures to support the design and deciding which materials
+                    must be used to bring the architect's design to completion.
+                </li>
+                <li>
+                    Construction workers build the structure from the ground up, floor by floor,
+                    based on the finalized plan.
+                </li>
+            </ul>
+        </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute right-[250px] bottom-[150px]" />
+    </div>
+
+
+    {{-- sldie 6 --}}
+    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+        <div>
+            <h2 class="font-bold">Useful Information:</h2>
+            <ul class="list-disc ">
+                <li>
+                    Architects concentrate on the artistic creativity of designs, while engineers focus on the scientific
+                    innovations that bring those designs to life.
+                </li>
+                <li>
+                    Engineers design and build a wide variety of things, including machines. They can also specialize in
+                    different areas such as civil, electrical, mechanical, structural, industrial, sound, and chemical
+                    engineering.
+                </li>
+                <li>
+                    To learn more about the key differences between architects and engineers, read the infographic at:
+                    <a href="https://newschoolarch.edu/academics/school-of-architecture/infographic-architecture-vs-engineering/"
+                        class="text-amber-300" target="_blank">
+                        https://newschoolarch.edu/academics/school-of-architecture/infographic-architecture-vs-engineering/
+                    </a>
+                </li>
+                <li>
+                    Engineering is a way of problem-solving using science and math. Engineers use creativity and their
+                    knowledge of these subjects to design solutions to real-world problems.
+                </li>
+                <li>
+                    The process of engineering is fun and teaches valuable life lessons:
+                    <ul class="list-disc pl-6 mt-1 space-y-1">
+                        <li>There is not always just one right answer to a problem.</li>
+                        <li>It is okay to try out any idea you have.</li>
+                        <li>It is normal to repeat the process of designing, testing, redesigning, and retesting.</li>
+                        <li>It is okay to learn from others’ designs and solutions.</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute right-[250px] bottom-[150px]" />
+    </div>
+
+
+    {{-- sldie 7 --}}
+    <div class="slide hidden flex flex-col justify-start gap-y-5 text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold">Notes:</h2>
+                <!-- Notes -->
+                <h2 class="font-bold ">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
                     <li>
                         If you see
@@ -230,63 +218,81 @@
                             <!-- Decorative Vector -->
                             <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
                                 class="absolute top-[4px] left-[6px] h-6 w-[80%]" />
+                            <!-- White Shape -->
                             <div class="absolute top-[7px] left-[12px] h-2.5 w-3.5 rounded-sm bg-white"></div>
+                            <!-- Play Icon -->
                             <img src="{{ asset('assets/images/pptimages/play.png') }}"
                                 class="absolute top-[16px] left-[16px] h-8 w-8" />
                         </span>
                         next to a picture, click on the picture to watch the video.
                     </li>
-                    <li>Emphasise and use the <strong>keywords</strong> during hands-on sessions.</li>
-                    <li class="text-amber-400">The fundamental skill of coding or programming is ability to
-                        differentiate and navigate self to move forward, backward, turn left
-                        and turn right. If children are not ready, play more related games to
-                        improve the skill.</li>
-                    <li class="text-amber-400">It is important to inculcate the habit of always laying out the steps
-                        using coding cards before working on the Blockly because it's not easy
-                        for children to remember all the steps when they use Blockly to
-                        programme.</li>
-                    <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
+                    <li>
+                        If you see
+                        <span
+                            class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-amber-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
+                            <!-- Decorative Vector -->
+                            <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
+                                class="absolute top-[4px] left-[6px] h-6 w-[80%]" />
+                            <!-- White Shape -->
+                            <div class="absolute top-[7px] left-[12px] h-2.5 w-3.5 rounded-sm bg-white"></div>
+                            <!-- Play Icon -->
+                            <img src="{{ asset('assets/images/pptimages/info.png') }}"
+                                class="absolute top-[16px] left-[16px] h-8 w-8" />
+                        </span>
+                        , click on it for additional information or activity.
                     </li>
+                    <li>Always ask questions to encourage children to think and share their ideas first before giving out
+                        any information.</li>
+                    <li>Emphasise and use the <strong>keywords</strong> during hands-on sessions.</li>
+                    <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.</li>
                     <li>
                         Click on this <span class="font-bold">shortcut icon</span>
                         <span
                             class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
+                            <!-- Decorative Vector -->
                             <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
                                 class="absolute top-[4px] left-[6px] h-6 w-[80%]" />
+                            <!-- White Shape -->
                             <div class="absolute top-[7px] left-[12px] h-2.5 w-3.5 rounded-sm bg-white"></div>
+                            <!-- Play Icon -->
                             <img src="{{ asset('assets/images/pptimages/home-icon.png') }}"
                                 class="absolute top-[16px] left-[16px] h-8 w-8" />
                         </span>
                         if you need to go to some parts of the lesson quickly.
                     </li>
                 </ul>
-            </div> 
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}"  class="absolute right-[250px] bottom-[150px]" alt="Teacher" />
+            </div>
+            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute right-[250px] bottom-[150px]"
+                alt="" />
         </div>
     </div>
 
-    {{-- slide 12 --}}
+
+    {{-- sldie 8 --}}
     <div class="text-white flex flex-col items-center justify-center gap-y-10 text-start text-2xl slide hidden">
         <h2 class=" title stroke">Learning Centre Idea</h2>
         <div class="flex">
             <div class="space-y-20">
-                <ul class="list-disc">
-                <h2 class="!text-white title stroke">Recording</h2>
-                <h2>What and how to set up:</h2>
-                    Reuse the materials prepared for the hands-on session 1.
+                <ul>
+                    <h2 class="!text-white title stroke">Square Challenge</h2>
+                    <h2>What and how to set up:</h2>
+                    <li>Place a sample of a square structure at the corner. Put a poster of
+                        a square to show that square has 4 equal sides. Challenge children to build a square bigger than the
+                        displayed structure.</li>
                 </ul>
 
-                <ul>
+                <ul class="list-decimal">
                     <h2>What to do:</h2>
-                    <li>Guide children to learn how to record own voice using the Blockly
-                        (on the next page). After that, guide them to programme a robot
-                        to move through the circuit where the robot will play the voice
-                        recorded.</li>
+                    <li>Invite children to find the pieces to form a square shape.</li>
+                    <li>Encourage children to use the connectors to connect the
+                        pieces and display their square.</li>
+                    <li>Take photos to see which group had created the biggest square!</li>
                 </ul>
             </div>
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute right-[250px] bottom-[150px]" />
     </div>
+
 
 
     {{-- ========================================================== --}}
@@ -405,7 +411,7 @@
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('coding') }}";
+                    window.location.href = "{{ route('Structures') }}";
                 });
             }
 

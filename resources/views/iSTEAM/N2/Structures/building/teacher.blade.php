@@ -440,7 +440,7 @@
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('K1structure') }}";
+                    window.location.href = "{{ route('Structures') }}";
                 });
             }
 

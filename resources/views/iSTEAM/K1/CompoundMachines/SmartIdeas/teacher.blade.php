@@ -53,7 +53,7 @@
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start w-[75%]">
         <div>
             <h2 class="font-bold">Preparations for Class Activity I:</h2>
-            <div class="flex items-center justify-between">
+            <div class="flex items-center justify-around w-full">
                 <ul class="list-disc ">
                     <li>Dominoes</li>
                     <li>Ice cream sticks</li>
@@ -132,7 +132,7 @@
                     firmly on the book. You can also fix the track to the book with adhesive tape.</li>
             </ul>
         </div>
-        <div class="flex items-center justify-between">
+        <div class="flex items-center justify-around w-full">
             <div class="flex items-center ">
                 <img src="/assets/images/K1/cm/cm39.png" class="w-[350px]"/>
                 <img src="/assets/images/K1/cm/cm42.png" class="w-[350px]"/>

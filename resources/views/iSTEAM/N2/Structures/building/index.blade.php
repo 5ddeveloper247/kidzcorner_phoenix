@@ -1,37 +1,14 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
 
-@push('style')
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-    <style>
-        button {
-            cursor: pointer;
-        }
-
-        .stroke {
-
-            -webkit-text-stroke: 2px #533705;
-        }
-
-        .note {
-            font-size: 24px;
-            font-weight: 400;
-            color: white;
-        }
-
-        a {
-            cursor: pointer;
-
-        }
-    </style>
-@endpush
+ 
 
 
 
 @section('content')
 
     <div id="topDiv" class="flex flex-col items-center gap-[7rem] ">
-        <h2 class="  text-amber-300 text-[65px] font-extrabold stroke">What are Structures?</h2>
+        <h2 class="  text-amber-300 text-[65px] font-extrabold stroke">building</h2>
         <h2 class="!text-white title">Understand the meaning of structures; <br>
             Learn that structures have shapes</h2>
 
@@ -49,7 +26,7 @@
 
 
 
-    <div id="buttons" class="absolute top-[24px] right-[60px] flex flex-row gap-6 z-40">
+ <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
         <!-- Return Button -->
         <button
             class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
@@ -90,7 +67,7 @@
 
             if (nextButton) {
                 nextButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('structureSelection') }}";
+                    window.location.href = "{{ route('buildingSelection') }}";
                 });
             }
             if (returnButton) {

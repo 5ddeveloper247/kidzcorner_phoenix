@@ -33,7 +33,7 @@
 
 @section('content')
 
-    <div class=" flex items-center justify-center text-center z-[999] px-4 row-gap-5 max-w-[1000px]  m-auto">
+    <div class=" flex items-center justify-center text-center z-[99]px-4 row-gap-5 w-full">
 
         <a href="{{ route('lightforms') }}"
             style="background-image: url('{{ asset('assets/images/pptimages/Property1.png') }}')"
