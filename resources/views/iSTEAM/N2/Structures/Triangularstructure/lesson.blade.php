@@ -309,79 +309,105 @@
 
 
     {{-- slide 21 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <div class="text-start">
-            <h2 class="title stroke ">Let's do: <br>
-                2. Arrange the long rectangle pieces in a shape of a square. </h2>
-        </div>
-        <img src="/assets/images//N2/structure/str/st15.png" />
-        <p class="note">Note: Encourage and guide the children to try.</p>
+
+    {{-- click here --}}
+    <div class="slide hidden  flex flex-col justify-start items-center  gap-5 ">
+        <h2 class="title stroke font-bold !text-start">Steps: <br>
+            1.Find the pieces required to make the tower taller.</h2>
+
+
+        <img src="/assets/images/N2/structure/tr-str/s21.png" />
+
+
+
+
     </div>
 
     {{-- slide 22 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <div class="text-start">
-            <h2 class="title stroke ">Let's do: <br>
-                3. Use the connectors to fix the rectangle pieces together at each connecting point. </h2>
-        </div>
-        <img src="/assets/images//N2/structure/str/st16.png" />
-        <p class="note">Note: Teacher to assist if children are unable to connect the parts together.</p>
+    <div class="slide hidden  flex flex-col justify-start items-center  gap-5 ">
+        <h2 class="title stroke font-bold !text-start">Steps: <br>
+            2.Connect the 3-directions connectors on two opposite
+            rectangle pieces as shown.</h2>
+
+
+        <img src="/assets/images/N2/structure/tr-str/s22.png" />
+
+
+
+
     </div>
 
 
     {{-- slide 23 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <div class="text-start">
-            <h2 class="title stroke ">Let's do: <br>
-                4. Join the rectangle pieces with the one direction connectors. </h2>
-        </div>
-        <div class="flex items-center gap-5">
-            <img src="/assets/images//N2/structure/str/st17.png" />
-            <img src="/assets/images//N2/structure/str/st18.png" />
-        </div>
-        <p class="note">Note: Teacher to assist if children are unable to connect the parts together.</p>
+    <div class="slide hidden  flex flex-col justify-start items-center  gap-5 ">
+        <h2 class="title stroke font-bold !text-start">Steps: <br>
+            3.Connect one long rectangle pieces to the connectors.</h2>
+
+
+        <img src="/assets/images/N2/structure/tr-str/s23.png" />
+
+
+
+
     </div>
 
     {{-- slide 24 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <div class="text-start">
-            <h2 class="title stroke ">Let's do: <br>
-                5. Join the four rectangle pieces together to form the square. </h2>
-        </div>
-        <div class="flex items-center gap-5">
-            <img src="/assets/images//N2/structure/str/st19.png" class="w-[300px]" />
-            <img src="/assets/images//N2/structure/str/st20.png" class="w-[300px]" />
-            <img src="/assets/images//N2/structure/str/st21.png" class="w-[300px]" />
-        </div>
-        <p class="note">Note: Teacher to assist if children are unable to connect the parts together.</p>
+   <div class="slide hidden  flex flex-col justify-start items-center  gap-5 ">
+        <h2 class="title stroke font-bold !text-start">Steps: <br>
+            4.Connect one square piece using the 3-directions <br>
+     connector as shown.</h2>
+
+
+        <img src="/assets/images/N2/structure/tr-str/s24.png" />
+
+
+
+
     </div>
 
     {{-- slide 25 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <div class="text-start">
-            <h2 class="title stroke ">Let's do: <br>
-                6. Your square structure is completed. Can your structure
-                stand on its own?</h2>
-        </div>
-        <img src="/assets/images//N2/structure/str/st22.png" />
-        <p class="note">Note: Teacher to assist if children are unable to connect the parts together.</p>
+    <div class="slide hidden  flex flex-col justify-start items-center  gap-5 ">
+        <h2 class="title stroke font-bold !text-start">Steps: <br>
+            5.Use a 2-directions connector to fix the square piece
+     to the centre piece..</h2>
+
+
+        <img src="/assets/images/N2/structure/tr-str/s25.png" />
+
+
+
+
     </div>
 
 
 
     {{-- slide 26 --}}
-    <div class="slide hidden  flex flex-col items-center justify-center  ">
-        <h2 class="title stroke">Children, why do you think the <span class="text-white">structure</span> is
-            unable to stand on its own?</h2>
+    <div class="slide hidden  flex flex-col justify-start items-center  gap-5 ">
+        <h2 class="title stroke font-bold !text-start">Steps: <br>
+            6.Connect a square piece on the other side in the same way.</h2>
+
+
+        <img src="/assets/images/N2/structure/tr-str/s26.png" />
+
+
+
+
     </div>
 
-
     {{-- slide 27 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="/assets/images//N2/structure/str/st23.png" />
-        <h2 class="title stroke ">Let’s stand up and tiptoe. <br>
-            Is it easy to stand on your toes?</h2>
-        <p class="note">Note: Encourage children to share how they feel. Was it hard to balance? Did they wobble?</p>
+   <div class="slide hidden  flex flex-col justify-start items-center  gap-5 ">
+        <h2 class="title stroke font-bold !text-start">Steps: <br>
+            7.Connect a long rectangle at each of the connectors.</h2>
+
+<div class="flex gap-2">
+
+    <img src="/assets/images/N2/structure/tr-str/s27.png" />
+    <img src="/assets/images/N2/structure/tr-str/s28.png" />
+</div>
+
+
+
+
     </div>
 
 
