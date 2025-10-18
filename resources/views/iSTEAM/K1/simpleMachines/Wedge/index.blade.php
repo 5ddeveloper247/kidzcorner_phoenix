@@ -1,14 +1,10 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
-
  
-
-
-
 @section('content')
 
     <div id="topDiv" class="flex flex-col  h-[90%] items-center ">
-        <div class="  text-amber-300 text-[65px] font-extrabold stroke">What is a Wedge?</div>
+        <div class="  title !text-[55px]  stroke">What is a Wedge?</div>
         <br>
         <br>
         <br>

@@ -4,8 +4,8 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col  gap-20 items-center ">
-        <div class="  text-amber-300 text-[65px] font-extrabold stroke">What are Living Things?</div>
-        <h2 class="text-2xl sm:text-3xl lg:text-6xl text-white stroke ">
+        <div class="  title !text-[55px]  stroke">What are Living Things?</div>
+        <h2 class="text-2xl sm:text-3xl lg:text-5xl text-white stroke ">
             Learn about the characteristics of <br>
             living things; analyse and sort things into
             living and non-living things</h2>
@@ -23,7 +23,7 @@
 
 
 
-    <div id="buttons" class="absolute top-[30px] right-[60px] flex flex-row gap-6 z-40">
+    <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
 
         <!-- Return Button -->
         <button class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] " id="returnButton">

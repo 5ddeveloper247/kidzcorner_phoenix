@@ -1,14 +1,10 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
-
  
-
-
-
 @section('content')
 
     <div id="topDiv" class="flex flex-col items-center ">
-        <div class="  text-amber-300 text-[65px] font-extrabold stroke">How do Plants Grow?</div>
+        <div class="  title !text-[55px]  stroke">How do Plants Grow?</div>
         <h2 class="text-2xl sm:text-3xl lg:text-6xl text-white stroke">Learn how to grow a plant from a seed;
             observe how a plant grows</h2>
         <button

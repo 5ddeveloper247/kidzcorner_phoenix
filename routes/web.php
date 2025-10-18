@@ -783,22 +783,22 @@ Route::get('/Structures/structure/teacher', function () {
 // N2 -> Structures -> building
 Route::get('/Structures/building', function () {
     return view('iSTEAM.N2.Structures.building.index');
-})->name('building');
+})->name('n2building');
 
 // N2 -> Structures -> building -> select
-Route::get('/buildingChoice', function () {
+Route::get('Structures/buildingChoice', function () {
     return view('iSTEAM.N2.Structures.building.selection');
-})->name('buildingSelection');
+})->name('n2buildingSelection');
 
 // N2 -> Structures -> building -> lesson
 Route::get('/Structures/building/lesson', function () {
     return view('iSTEAM.N2.Structures.building.lesson');
-})->name('buildingLesson');
+})->name('n2buildingLesson');
 
 // N2 -> Structures -> building -> teacher
 Route::get('/Structures/building/teacher', function () {
     return view('iSTEAM.N2.Structures.building.teacher');
-})->name('buildingTeacher');
+})->name('n2buildingTeacher');
 
 
 // N2 -> Structures -> Structureshapes
@@ -1537,22 +1537,22 @@ Route::get('/K1structure', function () {
 // K1 -> structure -> building
 Route::get('/structure/building', function () {
     return view('iSTEAM.K1.structure.building.index');
-})->name('building');
+})->name('buildings');
 
 // K1 -> structure -> building -> select
 Route::get('/buildingChoice', function () {
     return view('iSTEAM.K1.structure.building.selection');
-})->name('buildingSelection');
+})->name('buildingsSelection');
 
 // K1 -> structure -> building -> lesson
 Route::get('/structure/building/lesson', function () {
     return view('iSTEAM.K1.structure.building.lesson');
-})->name('buildingLesson');
+})->name('buildingsLesson');
 
 // K1 -> structure -> building -> teacher
 Route::get('/structure/building/teacher', function () {
     return view('iSTEAM.K1.structure.building.teacher');
-})->name('buildingTeacher');
+})->name('buildingsTeacher');
 
 
 // K1 -> structure -> umbrella
@@ -2693,20 +2693,96 @@ Route::get('/coding/OurStories/teacher', function () {
 
 
 
-
-
-
-
-
-
-
-
-
 // ======
 // K2 -> ElectronicCircuits
 Route::get('/k2ElectronicCircuits', function () {
     return view('iSTEAM.K2.ElectronicCircuits.index');
 })->name('k2ElectronicCircuits');
+
+
+// K2 -> electricty
+Route::get('/Mchines-Electricity', function () {
+    return view('iSTEAM.K2.ElectronicCircuits.electricity.index');
+})->name('electricity');
+
+// K2 -> ElectronicCircuits -> electricity -> select
+Route::get('/Mchines-Electricity/Choice', function () {
+    return view('iSTEAM.K2.ElectronicCircuits.electricity.selection');
+})->name('electricitySelection');
+
+// K2 -> ElectronicCircuits -> electricity -> lesson
+Route::get('/Mchines-Electricity/lesson', function () {
+    return view('iSTEAM.K2.ElectronicCircuits.electricity.lesson');
+})->name('electricityLesson');
+
+// K2 -> ElectronicCircuits -> electricity -> teacher
+Route::get('/ElectronicCircuits/Mchines-Electricity/teacher', function () {
+    return view('iSTEAM.K2.ElectronicCircuits.electricity.teacher');
+})->name('electricityTeacher');
+
+
+
+// K2 -> FinalProject
+Route::get('/Circuit', function () {
+    return view('iSTEAM.K2.ElectronicCircuits.circuit.index');
+})->name('circuit');
+
+// K2 -> ElectronicCircuits -> circuit -> select
+Route::get('/Circuit/Choice', function () {
+    return view('iSTEAM.K2.ElectronicCircuits.circuit.selection');
+})->name('circuitSelection');
+
+// K2 -> ElectronicCircuits -> circuit -> lesson
+Route::get('/Circuit/lesson', function () {
+    return view('iSTEAM.K2.ElectronicCircuits.circuit.lesson');
+})->name('circuitLesson');
+
+// K2 -> ElectronicCircuits -> circuit -> teacher
+Route::get('/ElectronicCircuits/Circuit/teacher', function () {
+    return view('iSTEAM.K2.ElectronicCircuits.circuit.teacher');
+})->name('circuitTeacher');
+
+
+// K2 -> FinalProject
+Route::get('/Playdough-Circuits', function () {
+    return view('iSTEAM.K2.ElectronicCircuits.circuit2.index');
+})->name('circuit2');
+
+// K2 -> ElectronicCircuits -> circuit2 -> select
+Route::get('/Playdough-Circuits/Choice', function () {
+    return view('iSTEAM.K2.ElectronicCircuits.circuit2.selection');
+})->name('circuit2Selection');
+
+// K2 -> ElectronicCircuits -> circuit2 -> lesson
+Route::get('/Playdough-Circuits/lesson', function () {
+    return view('iSTEAM.K2.ElectronicCircuits.circuit2.lesson');
+})->name('circuit2Lesson');
+
+// K2 -> ElectronicCircuits -> circuit2 -> teacher
+Route::get('/ElectronicCircuits/Playdough-Circuits/teacher', function () {
+    return view('iSTEAM.K2.ElectronicCircuits.circuit2.teacher');
+})->name('circuit2Teacher');
+
+
+// K2 -> FinalProject
+Route::get('/Makey1', function () {
+    return view('iSTEAM.K2.ElectronicCircuits.makey1.index');
+})->name('makey1');
+
+// K2 -> ElectronicCircuits -> makey1 -> select
+Route::get('/Makey1/Choice', function () {
+    return view('iSTEAM.K2.ElectronicCircuits.makey1.selection');
+})->name('makey1Selection');
+
+// K2 -> ElectronicCircuits -> makey1 -> lesson
+Route::get('/Makey1/lesson', function () {
+    return view('iSTEAM.K2.ElectronicCircuits.makey1.lesson');
+})->name('makey1Lesson');
+
+// K2 -> ElectronicCircuits -> makey1 -> teacher
+Route::get('/ElectronicCircuits/Makey1/teacher', function () {
+    return view('iSTEAM.K2.ElectronicCircuits.makey1.teacher');
+})->name('makey1Teacher');
 
 
 // ======

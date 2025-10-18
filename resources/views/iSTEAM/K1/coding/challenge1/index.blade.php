@@ -6,8 +6,8 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col items-center ">
-        <div class="  text-amber-300 text-[65px] font-extrabold stroke">Coding Challenge (1)</div>
-        <h2 class="text-2xl sm:text-3xl lg:text-6xl text-white stroke ">
+        <div class="  title !text-[55px]  stroke">Coding Challenge (1)</div>
+        <h2 class="text-2xl sm:text-3xl lg:text-5xl text-white stroke ">
             Plan a route for a purpose; <br>
             programme a robot to move according <br>
             to the planned route</h2>

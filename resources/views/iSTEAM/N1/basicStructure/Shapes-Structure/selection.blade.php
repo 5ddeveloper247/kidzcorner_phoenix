@@ -101,7 +101,7 @@
 
 
 
-    <div id="buttons" class="absolute top-[30px] right-[60px] flex flex-row gap-6 z-40">
+    <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
 
         <!-- Return Button -->
         <a href="{{ route('Shapes-Structure') }}"

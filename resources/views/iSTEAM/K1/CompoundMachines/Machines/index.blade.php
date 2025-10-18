@@ -1,15 +1,11 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
-
  
-
-
-
 @section('content')
 
     <div id="topDiv" class="flex flex-col  items-center ">
         <div class="  text-amber-300 text-[50px] font-extrabold stroke">What are Compound Machines?</div>
-        <h2 class="text-2xl sm:text-3xl lg:text-6xl text-white stroke ">Learn about compound machines and identify
+        <h2 class="text-2xl sm:text-3xl lg:text-5xl text-white stroke ">Learn about compound machines and identify
             simple machines in some common compound machines</h2>
 
         <button

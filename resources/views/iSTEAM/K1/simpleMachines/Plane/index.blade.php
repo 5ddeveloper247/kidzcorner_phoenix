@@ -1,14 +1,10 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
-
  
-
-
-
 @section('content')
 
     <div id="topDiv" class="flex flex-col  h-[90%] items-center ">
-        <div class="  text-amber-300 text-[65px] font-extrabold stroke">The Power of an Inclined Plane</div>
+        <div class="  title !text-[55px]  stroke">The Power of an Inclined Plane</div>
         <div
             class="text-2xl sm:text-3xl lg:text-6xl text-white max-w-5xl leading-snug flex flex-col items-center space-x-[34px]">
             Explore the characteristics and uses of <br>

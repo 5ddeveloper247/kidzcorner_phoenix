@@ -1,42 +1,6 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
 
-@push('style')
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-    <style>
-        .slide-container {
-            transition: opacity 0.3s ease-in-out;
-        }
-
-        .button-hidden {
-            display: none !important;
-        }
-
-        .button-disabled {
-            opacity: 0.5;
-            cursor: not-allowed;
-        }
-
-        /* Custom animations for buttons */
-        .button-fade-in {
-            animation: fadeIn 0.3s ease-in-out;
-        }
-
-        .stroke {
-            -webkit-text-stroke: 2px #533705;
-        }
-
-        .note {
-            font-size: 24px;
-            font-weight: 400;
-            color: white;
-        }
-
-        a {
-            cursor: pointer;
-        }
-    </style>
-@endpush
 
 @section('content')
     <div class="board w-[1267px] h-[734px] flex flex-col justify-center items-center">

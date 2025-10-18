@@ -104,7 +104,7 @@
 
 
 
-    <div id="buttons" class="absolute top-[30px] right-[60px] flex flex-row gap-6 z-40">
+    <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
         <!-- Return Button -->
         <a href="{{ route('blacklight') }}"
             class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] cursor-pointer"

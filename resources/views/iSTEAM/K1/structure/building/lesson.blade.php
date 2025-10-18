@@ -1,22 +1,6 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
-
-@push('style')
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-    <style>
-        button {
-            cursor: pointer !important;
-        }
-
-        a {
-            cursor: pointer;
-
-        }
-    </style>
-@endpush
-
-
-
+ 
 @section('content')
 
 
@@ -67,16 +51,37 @@
 
 
     {{-- slide 6 --}}
-    <div class=" slide hidden flex flex-col items-center justify-center gap-1">
-        <img src="/assets/images//K1/str/st5.png" />
+    <div class="slide hidden flex flex-col items-center justify-center gap-1">
+        <video id="video1" class="w-full max-w-[42rem] pointer-events-none">
+            <source src="{{ asset('assets/images/K1/str/103.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
         <h2 class="title stroke">Finally, construction workers construct the building
             from the ground up floor by floor.</h2>
         <!-- Video Trigger Button -->
-        <div data-property-1="Default"
+        <div onclick="toggleVideo('video1')"
             class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
             <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
             <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images//K1/str/play.png" />
+            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+        </div>
+    </div>
+
+
+        {{-- slide 6 --}}
+    <div class="slide hidden flex flex-col items-center justify-center gap-1">
+        <video id="video12" class="w-full max-w-[42rem] pointer-events-none">
+            <source src="{{ asset('assets/images/K1/str/104.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <h2 class="title stroke">Finally, construction workers construct the building
+            from the ground up floor by floor.</h2>
+        <!-- Video Trigger Button -->
+        <div onclick="toggleVideo('video12')"
+            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
+            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
+            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
+            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
         </div>
     </div>
 
@@ -107,16 +112,19 @@
 
 
     {{-- slide 10 --}}
-    <div class=" slide hidden flex flex-col items-center justify-center gap-1">
-        <img src="/assets/images//K1/str/st9.png" />
+    <div class="slide hidden flex flex-col items-center justify-center gap-1">
+        <video id="video2" class="w-full max-w-[42rem] pointer-events-none">
+            <source src="{{ asset('assets/images/K1/str/105.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
         <h2 class="title stroke">What will happen if we tear down parts of the structure
             from the ground floor of a <span class="text-white">tall building</span>?</h2>
         <!-- Video Trigger Button -->
-        <div data-property-1="Default"
+        <div onclick="toggleVideo('video2')"
             class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
             <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
             <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images//K1/str/play.png" />
+            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
         </div>
     </div>
 
@@ -124,12 +132,15 @@
 
 
     {{-- slide 11 --}}
-    <div class=" slide hidden flex flex-col items-center justify-center gap-1">
-        <img src="/assets/images//K1/str/st9.png" />
+    <div class="slide hidden flex flex-col items-center justify-center gap-1">
+        <video id="video3" class="w-full max-w-[42rem] pointer-events-none">
+            <source src="{{ asset('assets/images/K1/str/105.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
         <h2 class="title stroke">When we tear down the structure of beams and columns from
             the bottom of a tall building, the building collapses.</h2>
         <!-- Video Trigger Button -->
-        <div data-property-1="Default"
+        <div onclick="toggleVideo('video3')"
             class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
             <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
             <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
@@ -141,13 +152,13 @@
 
     {{-- slide 12 --}}
     <div class="slide hidden  flex flex-col items-center justify-center gap-5">
-        <h2 class="text-center title stroke">Now, can you design and build a tall building
+        <h2 class="text-start title stroke">Now, can you design and build a tall building
             that can stand on its own?</h2>
     </div>
 
 
     {{-- slide 13 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
+    <div class="slide hidden flex flex-col items-center justify-between h-full gap-y-2">
         <h2 class="text-center justify-start text-[45px] text-white stroke">Individual Activity 1</h2>
 
         <h2 class="text-start title stroke">Mission: <br>
@@ -158,19 +169,22 @@
 
 
     {{-- slide 14 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <h2 class="text-center title stroke">Steps:</h2>
-        <ol class="title stroke">
+    <div class="slide hidden  flex flex-col items-center justify-start gap-3  ">
+        <ol class="text-start title stroke">
+            <h2 class="title stroke">Steps:</h2>
             <li>I. Find ways to join straws together using the pipe cleaners.</li>
         </ol>
-        <img src="/assets/images//K1/str/st10.png" />
+        <video id="video4" class="w-full max-w-[42rem] pointer-events-none">
+            <source src="{{ asset('assets/images/K1/str/106.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
         <p class="note text-center">
             Note: Have children observe the video and talk about how to do so (there are a total of 6 examples on
             different pages). Encourage them to try using the method when they start building their structures.
         </p>
 
         <!-- Video Trigger Button -->
-        <div data-property-1="Default"
+        <div onclick="toggleVideo('video4')"
             class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
             <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
             <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
@@ -180,19 +194,22 @@
 
 
     {{-- slide 15 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <h2 class="text-center title stroke">Steps:</h2>
-        <ol class="title stroke">
+    <div class="slide hidden  flex flex-col items-center justify-start gap-3  ">
+        <ol class="title stroke text-start">
+            <h2 class="text-start title stroke">Steps:</h2>
             <li>I. Find ways to join straws together using the pipe cleaners.</li>
         </ol>
-        <img src="/assets/images//K1/str/st11.png" />
+        <video id="video5" class="w-full max-w-[42rem] pointer-events-none">
+            <source src="{{ asset('assets/images/K1/str/107.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
         <p class="note text-center">
             Note: Have children observe the video and talk about how to do so (there are a total of 6 examples on
             different pages). Encourage them to try using the method when they start building their structures.
         </p>
 
         <!-- Video Trigger Button -->
-        <div data-property-1="Default"
+        <div onclick="toggleVideo('video5')"
             class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
             <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
             <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
@@ -203,19 +220,22 @@
 
 
     {{-- slide 16 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <h2 class="text-center title stroke">Steps:</h2>
-        <ol class="title stroke">
+    <div class="slide hidden  flex flex-col items-center justify-start gap-3  ">
+        <ol class="title stroke text-start">
+            <h2 class="text-start title stroke">Steps:</h2>
             <li>I. Find ways to join straws together using the pipe cleaners.</li>
         </ol>
-        <img src="/assets/images//K1/str/st12.png" />
+        <video id="video6" class="w-full max-w-[42rem] pointer-events-none">
+            <source src="{{ asset('assets/images/K1/str/108.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
         <p class="note text-center">
             Note: Have children observe the video and talk about how to do so (there are a total of 6 examples on
             different pages). Encourage them to try using the method when they start building their structures.
         </p>
 
         <!-- Video Trigger Button -->
-        <div data-property-1="Default"
+        <div onclick="toggleVideo('video6')"
             class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
             <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
             <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
@@ -226,19 +246,22 @@
 
 
     {{-- slide 17 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <h2 class="text-center title stroke">Steps:</h2>
-        <ol class="title stroke">
+    <div class="slide hidden  flex flex-col items-center justify-start gap-3  ">
+        <ol class="title stroke text-start">
+            <h2 class="text-start title stroke">Steps:</h2>
             <li>I. Find ways to join straws together using the pipe cleaners.</li>
         </ol>
-        <img src="/assets/images//K1/str/st13.png" />
+        <video id="video7" class="w-full max-w-[42rem] pointer-events-none">
+            <source src="{{ asset('assets/images/K1/str/109.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
         <p class="note text-center">
             Note: Have children observe the video and talk about how to do so (there are a total of 6 examples on
             different pages). Encourage them to try using the method when they start building their structures.
         </p>
 
         <!-- Video Trigger Button -->
-        <div data-property-1="Default"
+        <div onclick="toggleVideo('video7')"
             class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
             <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
             <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
@@ -247,19 +270,22 @@
     </div>
 
     {{-- slide 18 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <h2 class="text-center title stroke">Steps:</h2>
-        <ol class="title stroke">
+    <div class="slide hidden  flex flex-col items-center justify-start gap-3  ">
+        <ol class="title stroke text-start">
+            <h2 class="text-start title stroke">Steps:</h2>
             <li>I. Find ways to join straws together using the pipe cleaners.</li>
         </ol>
-        <img src="/assets/images//K1/str/st14.png" />
+        <video id="video8" class="w-full max-w-[42rem] pointer-events-none">
+            <source src="{{ asset('assets/images/K1/str/110.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
         <p class="note text-center">
             Note: Have children observe the video and talk about how to do so (there are a total of 6 examples on
             different pages). Encourage them to try using the method when they start building their structures.
         </p>
 
         <!-- Video Trigger Button -->
-        <div data-property-1="Default"
+        <div onclick="toggleVideo('video8')"
             class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
             <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
             <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
@@ -269,19 +295,22 @@
 
 
     {{-- slide 19 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <h2 class="text-center title stroke">Steps:</h2>
-        <ol class="title stroke">
+    <div class="slide hidden  flex flex-col items-center justify-start gap-3  ">
+        <ol class="title stroke text-start">
+            <h2 class="text-start title stroke">Steps:</h2>
             <li>I. Find ways to join straws together using the pipe cleaners.</li>
         </ol>
-        <img src="/assets/images//K1/str/st15.png" />
+        <video id="video9" class="w-full max-w-[42rem] pointer-events-none">
+            <source src="{{ asset('assets/images/K1/str/111.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
         <p class="note text-center">
             Note: Have children observe the video and talk about how to do so (there are a total of 6 examples on
             different pages). Encourage them to try using the method when they start building their structures.
         </p>
 
         <!-- Video Trigger Button -->
-        <div data-property-1="Default"
+        <div onclick="toggleVideo('video9')"
             class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
             <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
             <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
@@ -291,8 +320,8 @@
 
 
     {{-- slide 20  --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <ol class="title stroke">
+    <div class="slide hidden  flex flex-col items-center justify-start gap-3  ">
+        <ol class="title stroke text-start">
             <h2 class="text-start title stroke">Steps:</h2>
             <li>2. Build the structure of a building as tall as you can.</li>
         </ol>
@@ -339,7 +368,7 @@
     </div>
 
     {{-- slide 23 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
+    <div class="slide hidden flex flex-col items-center justify-between h-full gap-y-2">
         <h2 class="text-center justify-start text-[45px] text-white stroke">Individual Activity 2</h2>
 
         <h2 class="text-start title stroke">Mission: <br>
@@ -349,9 +378,9 @@
     </div>
 
     {{-- slide 24 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
+    <div class="slide hidden  flex flex-col items-center justify-start gap-3  ">
         <div class="text-start">
-            <h2 class="text-center title stroke">Steps:</h2>
+            <h2 class="text-start title stroke">Steps:</h2>
             <ul class="title stroke">
                 <li>1. What is the use of your tall building? Design the look based
                     on its use. Draw it in the learning journal. </li>
@@ -364,7 +393,7 @@
 
 
     {{-- slide 25 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
+    <div class="slide hidden  flex flex-col items-center justify-start gap-3  ">
         <div class="text-start title stroke">
             <h2>Steps:</h2>
             <ul>
@@ -379,11 +408,14 @@
 
     {{-- sldie 26 --}}
     <div class="slide hidden click1 flex flex-col items-center justify-start  ">
-        <img src="/assets/images//K1/str/st19.png" />
+        <video id="video10" class="w-full max-w-[42rem] pointer-events-none">
+            <source src="{{ asset('assets/images/K1/str/112.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
         <p class="note text-center">Note: Give children more time to explore and learn their own building techniques.
             Pause once or twice to point out good building techniques.</p>
         <!-- Video Trigger Button -->
-        <div data-property-1="Default"
+        <div onclick="toggleVideo('video10')"
             class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
             <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
             <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
@@ -427,16 +459,6 @@
             <p>What is the name of your building?___________________________________________________</p>
         </div>
     </div>
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -514,169 +536,201 @@
 
 
 @push('script')
-    <script>
-        document.addEventListener("DOMContentLoaded", () => {
-            const slides = document.querySelectorAll(".slide");
-            const nextButtons = document.querySelectorAll(".nextButton");
-            const returnButton = document.getElementById("returnButton");
-            const doneButton = document.querySelector(".doneButton");
+  <script>
+    // Video toggle function
+    function toggleVideo(videoId) {
+        const video = document.getElementById(videoId);
+        if (video.paused) {
+            video.play();
+        } else {
+            video.pause();
+        }
+    }
 
-            // Get all click buttons (click-btn1, click-btn2, etc.)
-            const clickButtons = document.querySelectorAll("[class*='click-btn']");
+    document.addEventListener("DOMContentLoaded", () => {
+        const slides = document.querySelectorAll(".slide");
+        const nextButtons = document.querySelectorAll(".nextButton");
+        const returnButton = document.getElementById("returnButton");
+        const doneButton = document.querySelector(".doneButton");
 
-            let currentSlide = 0;
-            let parentSlideIndex = null;
-            let isViewingClickSlides = false;
-            let currentClickClass = null; // Track which click class we're viewing (click1, click2, etc.)
+        // Get all click buttons (click-btn1, click-btn2, etc.)
+        const clickButtons = document.querySelectorAll("[class*='click-btn']");
 
-            function showSlide(index) {
-                slides.forEach((slide, i) => {
-                    slide.classList.toggle("hidden", i !== index);
-                });
+        let currentSlide = 0;
+        let parentSlideIndex = null;
+        let isViewingClickSlides = false;
+        let currentClickClass = null; // Track which click class we're viewing (click1, click2, etc.)
 
-                // Check if last slide OR last click slide
-                const isLastSlide = index === slides.length - 1;
-                const isLastClickSlide = isViewingClickSlides && !hasNextClickSlide(index);
+        // DEFINE YOUR RETURN ROUTE HERE - This is the route to navigate when on slide 1 and clicking return
+        const returnRouteFromFirstSlide = "{{ route('buildingsSelection') }}"; // Change 'buildingsSelection' to your desired route name
 
-                if (isLastSlide || isLastClickSlide) {
-                    nextButtons.forEach(btn => btn.classList.add("hidden"));
-                    if (doneButton) doneButton.classList.remove("hidden");
-                } else {
-                    nextButtons.forEach(btn => btn.classList.remove("hidden"));
-                    if (doneButton) doneButton.classList.add("hidden");
+        // Function to pause all videos
+        function pauseAllVideos() {
+            const videos = document.querySelectorAll('video');
+            videos.forEach(video => {
+                if (!video.paused) {
+                    video.pause();
                 }
-            }
+            });
+        }
 
-            // Check if there's another click slide with same class after current one
-            function hasNextClickSlide(currentIndex) {
-                if (!currentClickClass) return false;
+        function showSlide(index) {
+            // Pause all videos before changing slides
+            pauseAllVideos();
 
-                for (let i = currentIndex + 1; i < slides.length; i++) {
-                    if (slides[i].classList.contains(currentClickClass)) {
-                        return true;
-                    }
-                }
-                return false;
-            }
-
-            // Get click class from button (click-btn1 → click1, click-btn2 → click2)
-            function getClickClassFromButton(button) {
-                const classList = Array.from(button.classList);
-                const clickBtnClass = classList.find(cls => cls.startsWith('click-btn'));
-                if (clickBtnClass) {
-                    // Extract number from click-btn1, click-btn2, etc.
-                    const number = clickBtnClass.replace('click-btn', '');
-                    return 'click' + number;
-                }
-                return null;
-            }
-
-            // Click button handlers
-            clickButtons.forEach((btn) => {
-                btn.addEventListener("click", (e) => {
-                    e.preventDefault(); // Prevent default anchor behavior
-
-                    parentSlideIndex = currentSlide;
-                    isViewingClickSlides = true;
-                    currentClickClass = getClickClassFromButton(btn);
-
-                    // Find the first slide with matching click class
-                    for (let i = 0; i < slides.length; i++) {
-                        if (slides[i].classList.contains(currentClickClass)) {
-                            currentSlide = i;
-                            showSlide(currentSlide);
-                            break;
-                        }
-                    }
-                });
+            slides.forEach((slide, i) => {
+                slide.classList.toggle("hidden", i !== index);
             });
 
-            // NEXT button - skip click slides if not viewing them
-            nextButtons.forEach((btn) => {
-                btn.addEventListener("click", () => {
-                    if (currentSlide < slides.length - 1) {
-                        currentSlide++;
+            // Check if last slide OR last click slide
+            const isLastSlide = index === slides.length - 1;
+            const isLastClickSlide = isViewingClickSlides && !hasNextClickSlide(index);
 
-                        // Skip click slides if not viewing them
-                        while (!isViewingClickSlides &&
-                            currentSlide < slides.length &&
-                            isClickSlide(slides[currentSlide])) {
+            if (isLastSlide || isLastClickSlide) {
+                nextButtons.forEach(btn => btn.classList.add("hidden"));
+                if (doneButton) doneButton.classList.remove("hidden");
+            } else {
+                nextButtons.forEach(btn => btn.classList.remove("hidden"));
+                if (doneButton) doneButton.classList.add("hidden");
+            }
+        }
+
+        // Check if there's another click slide with same class after current one
+        function hasNextClickSlide(currentIndex) {
+            if (!currentClickClass) return false;
+
+            for (let i = currentIndex + 1; i < slides.length; i++) {
+                if (slides[i].classList.contains(currentClickClass)) {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        // Get click class from button (click-btn1 → click1, click-btn2 → click2)
+        function getClickClassFromButton(button) {
+            const classList = Array.from(button.classList);
+            const clickBtnClass = classList.find(cls => cls.startsWith('click-btn'));
+            if (clickBtnClass) {
+                // Extract number from click-btn1, click-btn2, etc.
+                const number = clickBtnClass.replace('click-btn', '');
+                return 'click' + number;
+            }
+            return null;
+        }
+
+        // Click button handlers
+        clickButtons.forEach((btn) => {
+            btn.addEventListener("click", (e) => {
+                e.preventDefault(); // Prevent default anchor behavior
+
+                parentSlideIndex = currentSlide;
+                isViewingClickSlides = true;
+                currentClickClass = getClickClassFromButton(btn);
+
+                // Find the first slide with matching click class
+                for (let i = 0; i < slides.length; i++) {
+                    if (slides[i].classList.contains(currentClickClass)) {
+                        currentSlide = i;
+                        showSlide(currentSlide);
+                        break;
+                    }
+                }
+            });
+        });
+
+        // NEXT button - skip click slides if not viewing them
+        nextButtons.forEach((btn) => {
+            btn.addEventListener("click", () => {
+                if (currentSlide < slides.length - 1) {
+                    currentSlide++;
+
+                    // Skip click slides if not viewing them
+                    while (!isViewingClickSlides &&
+                        currentSlide < slides.length &&
+                        isClickSlide(slides[currentSlide])) {
+                        currentSlide++;
+                    }
+
+                    // If viewing click slides, only show slides with current click class
+                    if (isViewingClickSlides) {
+                        while (currentSlide < slides.length &&
+                            !slides[currentSlide].classList.contains(currentClickClass)) {
                             currentSlide++;
                         }
-
-                        // If viewing click slides, only show slides with current click class
-                        if (isViewingClickSlides) {
-                            while (currentSlide < slides.length &&
-                                !slides[currentSlide].classList.contains(currentClickClass)) {
-                                currentSlide++;
-                            }
-                        }
-
-                        if (currentSlide < slides.length) {
-                            showSlide(currentSlide);
-                        }
-                    }
-                });
-            });
-
-            // Check if slide is any click slide (click1, click2, etc.)
-            function isClickSlide(slide) {
-                return Array.from(slide.classList).some(cls => cls.startsWith('click') && cls.match(/^click\d+$/));
-            }
-
-            // Return button
-            returnButton.addEventListener("click", () => {
-                if (isViewingClickSlides && currentSlide > 0) {
-                    // Check if previous slide is also same click class
-                    let prevSlide = currentSlide - 1;
-
-                    // Find previous slide with same click class
-                    while (prevSlide >= 0 && !slides[prevSlide].classList.contains(currentClickClass)) {
-                        prevSlide--;
                     }
 
-                    if (prevSlide >= 0 && slides[prevSlide].classList.contains(currentClickClass)) {
-                        currentSlide = prevSlide;
-                        showSlide(currentSlide);
-                    } else {
-                        // No more click slides, return to parent
-                        currentSlide = parentSlideIndex;
-                        isViewingClickSlides = false;
-                        currentClickClass = null;
-                        parentSlideIndex = null;
+                    if (currentSlide < slides.length) {
                         showSlide(currentSlide);
                     }
-                } else if (currentSlide > 0) {
-                    currentSlide--;
-
-                    // Skip click slides when going back
-                    while (currentSlide > 0 && isClickSlide(slides[currentSlide])) {
-                        currentSlide--;
-                    }
-
-                    showSlide(currentSlide);
                 }
             });
+        });
 
-            // DONE button handler
-            if (doneButton) {
-                doneButton.addEventListener("click", () => {
-                    if (isViewingClickSlides && parentSlideIndex !== null) {
-                        // Return to parent slide
-                        currentSlide = parentSlideIndex;
-                        isViewingClickSlides = false;
-                        currentClickClass = null;
-                        parentSlideIndex = null;
-                        showSlide(currentSlide);
-                    } else {
-                        // Navigate to route
-                        window.location.href = "{{ route('go1Selection') }}";
-                    }
-                });
+        // Check if slide is any click slide (click1, click2, etc.)
+        function isClickSlide(slide) {
+            return Array.from(slide.classList).some(cls => cls.startsWith('click') && cls.match(/^click\d+$/));
+        }
+
+        // Return button with route navigation on first slide
+        returnButton.addEventListener("click", () => {
+            // If on first slide (slide 0) and not viewing click slides, navigate to return route
+            if (currentSlide === 0 && !isViewingClickSlides) {
+                window.location.href = returnRouteFromFirstSlide;
+                return;
             }
 
-            // Start with first slide
-            showSlide(currentSlide);
+            if (isViewingClickSlides && currentSlide > 0) {
+                // Check if previous slide is also same click class
+                let prevSlide = currentSlide - 1;
+
+                // Find previous slide with same click class
+                while (prevSlide >= 0 && !slides[prevSlide].classList.contains(currentClickClass)) {
+                    prevSlide--;
+                }
+
+                if (prevSlide >= 0 && slides[prevSlide].classList.contains(currentClickClass)) {
+                    currentSlide = prevSlide;
+                    showSlide(currentSlide);
+                } else {
+                    // No more click slides, return to parent
+                    currentSlide = parentSlideIndex;
+                    isViewingClickSlides = false;
+                    currentClickClass = null;
+                    parentSlideIndex = null;
+                    showSlide(currentSlide);
+                }
+            } else if (currentSlide > 0) {
+                currentSlide--;
+
+                // Skip click slides when going back
+                while (currentSlide > 0 && isClickSlide(slides[currentSlide])) {
+                    currentSlide--;
+                }
+
+                showSlide(currentSlide);
+            }
         });
-    </script>
+
+        // DONE button handler
+        if (doneButton) {
+            doneButton.addEventListener("click", () => {
+                if (isViewingClickSlides && parentSlideIndex !== null) {
+                    // Return to parent slide
+                    currentSlide = parentSlideIndex;
+                    isViewingClickSlides = false;
+                    currentClickClass = null;
+                    parentSlideIndex = null;
+                    showSlide(currentSlide);
+                } else {
+                    // Navigate to route
+                    window.location.href = "{{ route('buildingsSelection') }}";
+                }
+            });
+        }
+
+        // Start with first slide
+        showSlide(currentSlide);
+    });
+</script>
 @endpush

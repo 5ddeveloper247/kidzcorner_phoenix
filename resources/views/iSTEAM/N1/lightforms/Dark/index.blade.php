@@ -1,10 +1,6 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
-
  
-
-
-
 @section('content')
 
     <div id="topDiv" class="flex flex-col items-center justify-between h-full">
@@ -28,7 +24,7 @@
 
 
 
-    <div id="buttons" class="absolute top-[30px] right-[60px] flex flex-row gap-6 z-40">
+    <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
 
         <!-- Return Button -->
         <button

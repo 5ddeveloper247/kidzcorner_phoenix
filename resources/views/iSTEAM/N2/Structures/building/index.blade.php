@@ -1,10 +1,6 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
-
  
-
-
-
 @section('content')
 
     <div id="topDiv" class="flex flex-col items-center gap-[7rem] ">
@@ -67,7 +63,7 @@
 
             if (nextButton) {
                 nextButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('buildingSelection') }}";
+                    window.location.href = "{{ route('n2buildingSelection') }}";
                 });
             }
             if (returnButton) {

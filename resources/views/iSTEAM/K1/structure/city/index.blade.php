@@ -1,15 +1,11 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
-
  
-
-
-
 @section('content')
 
     <div id="topDiv" class="flex flex-col  h-[90%] items-center ">
-        <div class="  text-amber-300 text-[65px] font-extrabold stroke">Our Amazing City</div>
-        <h2 class="text-2xl sm:text-3xl lg:text-6xl text-white stroke ">Design and build a city</h2>
+        <div class="  title !text-[55px]  stroke">Our Amazing City</div>
+        <h2 class="text-2xl sm:text-3xl lg:text-5xl text-white stroke ">Design and build a city</h2>
 
         <button
             class="cursor-pointer nextButton w-66 h-[120px] relative bg-[#F8A23A]  rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 

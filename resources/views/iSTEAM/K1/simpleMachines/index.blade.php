@@ -1,42 +1,6 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
 
-@push('style')
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-    <style>
-        .slide-container {
-            transition: opacity 0.3s ease-in-out;
-        }
-
-        .button-hidden {
-            display: none !important;
-        }
-
-        .button-disabled {
-            opacity: 0.5;
-            cursor: not-allowed;
-        }
-
-        /* Custom animations for buttons */
-        .button-fade-in {
-            animation: fadeIn 0.3s ease-in-out;
-        }
-
-        .stroke {
-            -webkit-text-stroke: 2px #533705;
-        }
-
-        .note {
-            font-size: 24px;
-            font-weight: 400;
-            color: white;
-        }
-
-        a {
-            cursor: pointer;
-        }
-    </style>
-@endpush
 
 @section('content')
     {{--  First Slide --}}
@@ -47,56 +11,64 @@
         <div class="flex flex-wrap justify-center items-center " style="width: inherit">
             <!-- Card 1-->
             <a href="{{ route('Bell') }}"
-                class=" bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
+                  style="background-image: url('{{asset('/assets/images/pptimages/Property1.png')}}');"
+            class=" bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
                 <h2 class="text-2xl text-[#7D6F71]">Ring a Bell <br> Machine</h2>
                 <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">1</span>
             </a>
 
             <!-- Card 2 -->
             <a href="{{ route('Plane') }}"
-                class=" bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
+                  style="background-image: url('{{asset('/assets/images/pptimages/Property1.png')}}');"
+            class=" bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
                 <h2 class="text-2xl text-[#7D6F71]">The Power of <br> an Inclinced <br> Plane</h2>
                 <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">2</span>
             </a>
 
             <!-- Card 3 -->
             <a href="{{ route('Balloon') }}"
-                class=" bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
+                  style="background-image: url('{{asset('/assets/images/pptimages/Property1.png')}}');"
+            class=" bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
                 <h2 class="text-2xl text-[#7D6F71]">Pop a <br> Balloon <br> Machine</h2>
                 <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">3</span>
             </a>
 
             <!-- Card 4 -->
             <a href="{{ route('Wedge') }}"
-                class=" bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
+                  style="background-image: url('{{asset('/assets/images/pptimages/Property1.png')}}');"
+            class=" bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
                 <h2 class="text-2xl text-[#7D6F71]">What is a <br>wedge?</h2>
                 <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">4</span>
             </a>
 
             <!-- Card 5 -->
             <a href="{{ route('Rubbish') }}"
-                class=" bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
+                  style="background-image: url('{{asset('/assets/images/pptimages/Property1.png')}}');"
+            class=" bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
                 <h2 class="text-2xl text-[#7D6F71]">Throw a <br> Rubbish <br> Machine</h2>
                 <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">5</span>
             </a>
 
             <!-- Card 6 -->
             <a href="{{ route('Wheels') }}"
-                class=" bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
+                  style="background-image: url('{{asset('/assets/images/pptimages/Property1.png')}}');"
+            class=" bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
                 <h2 class="text-2xl text-[#7D6F71]">What are <br> Wheels and <br> Axles</h2>
                 <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">6</span>
             </a>
 
             <!-- Card 7 -->
             <a href="{{ route('PlantsMachine') }}"
-                class=" bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
+                  style="background-image: url('{{asset('/assets/images/pptimages/Property1.png')}}');"
+            class=" bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
                 <h2 class="text-2xl text-[#7D6F71]">Water a <br> Plant <br> Machine</h2>
                 <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">7</span>
             </a>
 
             <!-- Card 8 -->
             <a href="{{ route('Pulleys') }}"
-                class=" bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
+                  style="background-image: url('{{asset('/assets/images/pptimages/Property1.png')}}');"
+            class=" bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
                 <h2 class="text-2xl text-[#7D6F71]">Pulleys to <br>the Rescue</h2>
                 <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">8</span>
             </a>
@@ -111,27 +83,31 @@
         <div class="flex items-center flex-wrap justify-center max-w-[600px] ">
             <!-- Card 1-->
             <a href="{{ route('Punching') }}"
-                class=" bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
+                  style="background-image: url('{{asset('/assets/images/pptimages/Property1.png')}}');"
+            class=" bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
                 <h2 class="text-2xl text-[#7D6F71]">Hole <br> Punching <br> Machine</h2>
                 <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">9</span>
             </a>
 
             <!-- Card 2 -->
             <a href="{{ route('Screw') }}"
-                class=" bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
+                  style="background-image: url('{{asset('/assets/images/pptimages/Property1.png')}}');"
+            class=" bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
                 <h2 class="text-2xl text-[#7D6F71]">How does a <br> Screw <br> Work?</h2>
                 <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">10</span>
             </a>
 
             <!-- Card 3 -->
             <a href="{{ route('Ball') }}"
-                class=" bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
+                  style="background-image: url('{{asset('/assets/images/pptimages/Property1.png')}}');"
+            class=" bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
                 <h2 class="text-2xl text-[#7D6F71]">Lunch a <br> Ball <br> Machine</h2>
                 <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">11</span>
             </a>
             <!-- Card 3 -->
             <a href="{{ route('Levers') }}"
-                class=" bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
+                  style="background-image: url('{{asset('/assets/images/pptimages/Property1.png')}}');"
+            class=" bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
                 <h2 class="text-2xl text-[#7D6F71]">How do <br> Levers <br> Work?</h2>
                 <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">12</span>
             </a>

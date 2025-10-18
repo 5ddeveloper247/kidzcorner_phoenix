@@ -35,7 +35,8 @@
     <div class=" flex flex-wrap items-center justify-center text-center z-[99]px-4 row-gap-5 w-full">
 
         <a href="{{ route('K1simpleMachines') }}"
-            class="bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[400px] h-[300px] relative flex justify-center items-center transition hover:brightness-110 ">
+            style="background-image: url('{{asset('/assets/images/pptimages/Property1.png')}}');"
+            class=" bg-no-repeat bg-contain bg-center w-[400px] h-[300px] relative flex justify-center items-center transition hover:brightness-110 ">
             <img src="/assets/images/N2/a1.png" alt="" class="w-[100px] absolute top-10 left-10">
             <h2 class="text-3xl text-[#534444]">
                 Simple Machines
@@ -43,14 +44,16 @@
         </a>
 
         <a href="{{ route('K1CompoundMachines') }}"
-            class="bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[400px] h-[300px] relative flex justify-center items-center  transition hover:brightness-110 ">
+            style="background-image: url('{{asset('/assets/images/pptimages/Property1.png')}}');"
+            class=" bg-no-repeat bg-contain bg-center w-[400px] h-[300px] relative flex justify-center items-center  transition hover:brightness-110 ">
             <img src="/assets/images/N2/a5.png" alt="" class="w-[100px] absolute bottom-10 left-0">
             <h2 class="text-3xl text-[#534444]">
                 Compound Machines </h2>
         </a>
 
         <a href="{{ route('coding') }}"
-            class="bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[400px] h-[300px] relative flex justify-center items-center  transition hover:brightness-110 ">
+            style="background-image: url('{{asset('/assets/images/pptimages/Property1.png')}}');"
+            class=" bg-no-repeat bg-contain bg-center w-[400px] h-[300px] relative flex justify-center items-center  transition hover:brightness-110 ">
             <img src="/assets/images/N2/a3.png" alt="" class="w-[100px] absolute top-10 left-10">
             <h2 class="text-3xl text-[#534444]">
                 Coding and <br> Robotics
@@ -59,7 +62,8 @@
 
 
         <a href="{{ route('K1structure') }}"
-            class="bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[400px] h-[300px] relative flex justify-center items-center  transition hover:brightness-110 ">
+            style="background-image: url('{{asset('/assets/images/pptimages/Property1.png')}}');"
+            class=" bg-no-repeat bg-contain bg-center w-[400px] h-[300px] relative flex justify-center items-center  transition hover:brightness-110 ">
             <img src="/assets/images/N2/a4.png" alt="" class="w-[100px] absolute top-10 right-0">
             <h2 class="text-3xl text-[#534444]">
                 Structures

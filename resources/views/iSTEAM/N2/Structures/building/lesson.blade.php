@@ -1,22 +1,6 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
-
-@push('style')
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-    <style>
-        button {
-            cursor: pointer !important;
-        }
-
-        a {
-            cursor: pointer;
-
-        }
-    </style>
-@endpush
-
-
-
+ 
 @section('content')
 
 
@@ -670,7 +654,7 @@
                         showSlide(currentSlide);
                     } else {
                         // Navigate to route
-                        window.location.href = "{{ route('buildingSelection') }}";
+                        window.location.href = "{{ route('n2buildingSelection') }}";
                     }
                 });
             }

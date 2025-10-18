@@ -34,7 +34,8 @@
     <div class=" flex flex-wrap items-center justify-center text-center z-[99]px-4 row-gap-5 max-w-[1267px]  m-auto">
 
         <a href="{{ route('k2livingthings') }}"
-            class="bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[300px] h-[300px] relative flex justify-center items-center transition hover:brightness-110 ">
+            style="background-image: url('{{asset('/assets/images/pptimages/Property1.png')}}');"
+            class=" bg-no-repeat bg-contain bg-center w-[300px] h-[300px] relative flex justify-center items-center transition hover:brightness-110 ">
             <img src="/assets/images/K2/k1.png" alt="" class="w-[100px] absolute top-10 left-[10px]">
             <h2 class="text-3xl text-[#534444]">
                 Living <br> Things
@@ -42,14 +43,16 @@
         </a>
 
         <a href="{{ route('k2sustainability') }}"
-            class="bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[300px] h-[300px] relative flex justify-center items-center  transition hover:brightness-110 ">
+            style="background-image: url('{{asset('/assets/images/pptimages/Property1.png')}}');"
+            class=" bg-no-repeat bg-contain bg-center w-[300px] h-[300px] relative flex justify-center items-center  transition hover:brightness-110 ">
             <img src="/assets/images/k2/k2.png" alt="" class="w-[100px] absolute top-[15px] right-0">
             <h2 class="text-3xl text-[#534444]">
                 Sustainability </h2>
         </a>
 
         <a href="{{ route('k2Aerodynamics') }}"
-            class="bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[300px] h-[300px] relative flex justify-center items-center  transition hover:brightness-110 ">
+            style="background-image: url('{{asset('/assets/images/pptimages/Property1.png')}}');"
+            class=" bg-no-repeat bg-contain bg-center w-[300px] h-[300px] relative flex justify-center items-center  transition hover:brightness-110 ">
             <img src="/assets/images/k2/k3.png" alt="" class="w-[100px] absolute top-[15px] right-[15px]">
             <h2 class="text-3xl text-[#534444]">
                 Aerodynamics
@@ -58,7 +61,8 @@
 
 
         <a href="{{ route('k2coding') }}"
-            class="bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[300px] h-[300px] relative flex justify-center items-center  transition hover:brightness-110 ">
+            style="background-image: url('{{asset('/assets/images/pptimages/Property1.png')}}');"
+            class=" bg-no-repeat bg-contain bg-center w-[300px] h-[300px] relative flex justify-center items-center  transition hover:brightness-110 ">
             <img src="/assets/images/N2/a3.png" alt="" class="w-[70px] absolute bottom-[50px] left-0">
             <h2 class="text-3xl text-[#534444]">
                 Coding and <br> Animation
@@ -67,7 +71,8 @@
 
 
         <a href="{{ route('k2ElectronicCircuits') }}"
-            class="bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[300px] h-[300px] relative flex justify-center items-center  transition hover:brightness-110 ">
+            style="background-image: url('{{asset('/assets/images/pptimages/Property1.png')}}');"
+            class=" bg-no-repeat bg-contain bg-center w-[300px] h-[300px] relative flex justify-center items-center  transition hover:brightness-110 ">
             <img src="/assets/images/N2/a1.png" alt="" class="w-[100px] absolute top-[15px] left-[10px]">
             <h2 class="text-3xl text-[#534444]">
                 Electronic <br> Circuits
@@ -76,7 +81,8 @@
 
 
         <a href="{{ route('k2FinalProject') }}"
-            class="bg-[url('/assets/images/pptimages/Property1.png')] bg-no-repeat bg-contain bg-center w-[300px] h-[300px] relative flex justify-center items-center  transition hover:brightness-110 ">
+            style="background-image: url('{{asset('/assets/images/pptimages/Property1.png')}}');"
+            class=" bg-no-repeat bg-contain bg-center w-[300px] h-[300px] relative flex justify-center items-center  transition hover:brightness-110 ">
             <img src="/assets/images/pptimages/light-bulb1.png" alt=""
                 class="w-[100px] absolute top-10 left-[15px]">
             <h2 class="text-3xl text-[#534444]">

@@ -1,14 +1,10 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
-
  
-
-
-
 @section('content')
 
     <div id="topDiv" class="flex flex-col  h-full justify-between items-center ">
-        <div class="  text-amber-300 text-[65px] font-extrabold stroke">What is light?</div>
+        <div class="  title !text-[55px]  stroke">What is light?</div>
         <h2
             class="text-2xl sm:text-3xl lg:text-6xl text-white max-w-5xl leading-snug flex flex-col items-center space-x-[30px]">
             Explorenatural and man-made lights<br />
