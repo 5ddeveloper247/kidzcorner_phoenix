@@ -37,7 +37,6 @@
                     <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" />
                         <p> Grow (get bigger)</p>
                     </li>
-
                 </ul>
             </div>
             <img src="{{ asset('assets/images/N2/LivingThings/an15.png') }}" />

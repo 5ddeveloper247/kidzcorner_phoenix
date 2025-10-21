@@ -1,452 +1,355 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
- 
+
 @section('content')
 
 
     {{-- Slide 1 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <img src="/assets/images/K1/coding/cd/cd1.png" />
-        <h2 class="title stroke">Children, let’s watch a video!</h2>
-        <p class="note">Note: Have children recall and talk about the name and uses of the six simple machines.</p>
-
-        <!-- Video Trigger Button -->
-        <div data-property-1="Default"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
-            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
-        </div>
+    <div class="slide flex flex-col items-center justify-center gap-y-[5rem]">
+        <h2 class="title stroke">Children, do you still remember what <span class="!text-white">living things?</span> are?
+            What are the common points of <span class="!text-white">living things?</span>
+            What are the two groups of <span class="!text-white">living things?</span> ?</h2>
+        <p class="note">Note: Encourage children to recall and share the basic characteristics
+            and examples of living things.</p>
     </div>
-
-
 
     {{-- Slide 2 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <img src="/assets/images/K1/coding/cd/cd2.png" />
-        <h2 class="title stroke">How do MRT trains move from station to station without drivers?</h2>
-        <p class="note">Note: Have children boldly share their views.</p>
-
-        <!-- Video Trigger Button -->
-        <div data-property-1="Default"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
-            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+        <div class="flex gap-1">
+            <img src="{{ asset('assets/images/k2/livingthings/bacteria/b1.png') }}" />
+            <img src="{{ asset('assets/images/k2/LivingThings/bacteria/b2.png') }}" />
         </div>
-    </div>
-
-    {{-- Slide3 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <img src="/assets/images/K1/coding/cd/cd3.png" />
-        <h2 class="title stroke">How do traffic lights change colours without anyone controlling them?</h2>
-        <p class="note">Note: Have children boldly share their views.</p>
+        <p class="note">Note: Invite children to sing “”It is Living”” song together, get them share what they know about
+            DNA.</p>
     </div>
 
 
-    {{-- Slide 4 --}}
+    {{-- Slide 3 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
         <div class="flex items-center gap-10">
-            <img src="/assets/images/K1/coding/cd/cd4.png" />
-            <img src="/assets/images/K1/coding/cd/cd25.png" />
+            <img src="/assets/images/K2/livingthings/dna/h5.png" />
         </div>
-        <h2 class="title stroke">Many things around us are controlled by
-            different programmes.</h2>
+        <h2 class="title stroke">DNA is the instruction manual of all living things.
+            It tells every living thing how to form and work correctly.</h2>
     </div>
 
 
-    {{-- Slide 5  --}}
+    {{-- Slide 4  --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <img src="/assets/images/K1/coding/cd/cd5.png" />
-        <h2 class="title stroke">WA programme is a set of step-by-step instructions that tell a
-            machine what to do and how to do it, somewhat like a recipe.</h2>
+        <div class="flex items-center gap-10">
+            <img src="/assets/images/K2/livingthings/dna/h5.png" />
+        </div>
+        <h2 class="title stroke">Living things are made up of cells and
+            DNA is stored in the cells.</h2>
     </div>
 
 
 
-    {{-- slide 6 --}}
+    {{-- slide 5 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <img src="/assets/images/K1/coding/cd/cd6.png" />
-        <h2 class="title stroke">So when a programme is turned on, a machine will do a
-            specific task in a specific way by itself.</h2>
+        <div class="flex items-center gap-10">
+            <img src="/assets/images/K2/livingthings/bacteria/b3.png" />
+        </div>
+        <h2 class="title stroke"><span class="!text-white">Animals</span> and <span class="!text-white">plants</span> are
+            two groups of <span class="!text-white">living things?</span>.</h2>
     </div>
 
 
 
-    {{-- Slide 7 --}}
-    <div class="slide flex flex-col items-center justify-center ">
-        <img src="/assets/images/K1/coding/cd/cd7.png" />
-        <h2 class="title stroke">When someone is creating a programme for a machine,
-            it is a task called programming or coding.</h2>
+    {{-- Slide 6 --}}
+    <div class="slide flex flex-col items-center justify-center gap-[5rem] ">
+        <h2 class="title stroke">Today, we'll learn about another group <br>
+            of <span class="!text-white">living things</span> called <span class="!text-white">bacteria</span>!</h2>
+        <p class="note">Note: Have children share what they know about bacteria.</p>
+    </div>
+
+
+
+    {{-- slide 7 --}}
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+        <img src="/assets/images/K2/livingthings/bacteria/b4.png" />
+        <h2 class="title stroke">Bacteria are tiny living things around us.</h2>
+        <p class="note">Note: Explain to children that bacterium is the singular of bacteria.</p>
     </div>
 
 
 
     {{-- slide 8 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <div class="flex items-center gap-10">
-            <img src="/assets/images/K1/coding/cd/cd4.png" class="w-[450px]" />
-            <img src="/assets/images/K1/coding/cd/cd7.png" class="w-[450px]" />
-        </div>
-        <h2 class="title stroke">Do you think programming or coding is important? Why?</h2>
-        <p class="note">Note: Have children boldly share their views.</p>
+        <img src="/assets/images/K2/livingthings/bacteria/b35.png" />
+        <h2 class="title stroke">Bacteria are too tiny to be seen with our eyes.
+            We can only see them under a microscope.</h2>
     </div>
 
 
 
     {{-- slide 9 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <h2 class="title stroke">Now, let’s find out together the machine that we are
-            going to learn how to code or programme for
-            this whole term!</h2>
+        <img src="/assets/images/K2/livingthings/bacteria/b5.png" />
+        <h2 class="title stroke">Bacteria can be found everywhere!
+            They are on the doorknobs, tables and even our skins.</h2>
     </div>
+
 
 
 
     {{-- slide 10 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <img src="/assets/images/K1/coding/cd/cd8.png" />
-        <h2 class="title stroke">This is a robot. A robot is a machine. </h2>
-        <p class="note">Note: Display a robot. Have children talk about it’s physical look.</p>
+        <img src="/assets/images/K2/livingthings/bacteria/b6.png" />
+        <h2 class="title stroke">They are in the water, soil and even plants.</h2>
     </div>
-
 
 
 
     {{-- slide 11 --}}
-    <div class="slide flex flex-col items-center justify-center gap-30 ">
-        <h2 class="title stroke">Before learning how to programme a robot,
-            let's learn how to handle the tools!</h2>
-        <p class="note">Note: Explain to children that we need to know the correct ways of handling a robot and a tablet,
-            so that we show our cares to them and prevent them from spoiling easily.</p>
-    </div>
-
-
-
-    {{-- slide 12 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <img src="/assets/images/K1/coding/cd/cd9.png" />
-        <h2 class="title stroke">Let’s watch a video!</h2>
-        <p class="note">Note: Have children talk about the advice from the video.
-            After that, have them take turns to show the correct ways of holding a robot and a tablet.</p>
-        <!-- Video Trigger Button -->
-        <div data-property-1="Default"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
-            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
-        </div>
+        <img src="/assets/images/K2/livingthings/bacteria/b7.png" />
+        <h2 class="title stroke">They live even inside out bodies!</h2>
     </div>
 
 
 
-    {{-- .slide 13 --}}
+    {{-- .slide 12 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <img src="/assets/images/K1/coding/cd/cd10.png" />
-        <h2 class="title stroke">Now, let’s find out how to use Blockly!</h2>
-        <p class="note">Note: Remember to stop the video from time to time for explanation of each feature in Blockly.
-        </p>
-        <!-- Video Trigger Button -->
-        <div data-property-1="Default"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
-            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
-        </div>
+        <img src="/assets/images/K2/livingthings/bacteria/b8.png" />
+        <h2 class="title stroke">Bacteria come in all sorts of shapes. Scientists group them
+            into three basic shapes - spheres, rods and spirals.</h2>
     </div>
 
 
 
-    {{-- slide 14 --}}
+    {{-- slide 13 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <img src="/assets/images/K1/coding/cd/cd10.png" />
-        <h2 class="title stroke">Now, let’s find out how to use Blockly!</h2>
-        <p class="note">Note: Remember to stop the video from time to time for explanation of each feature in Blockly.
-        </p>
-        <!-- Video Trigger Button -->
-        <div data-property-1="Default"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
-            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
-        </div>
+        <img src="/assets/images/K2/livingthings/bacteria/b9.png" />
+        <h2 class="title stroke">Some people call bacteria as germs because they can make us
+            sick. In fact, there are good and bad bacteria.</h2>
     </div>
 
-    {{-- sldie 15 --}}
+    {{-- sldie 14 --}}
+
     <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <div class="flex items-center gap-10">
-            <div class="flex flex-col items-center justify-center">
-                <img src="/assets/images/K1/coding/cd/cd20.png" class="w-[500px]" />
-                <button
-                    class="relative w-20 h-20 button-fade-in bg-[#F8A23A] rounded-[30px] flex justify-center items-center cursor-pointer"
-                    id="homeButton">
-                    <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-                    <img class="absolute top-[6px] left-[8px] w-15 h-10"
-                        src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-                    <img class=" w-10 h-10" src="{{ asset('assets/images/pptimages/sound-icon.png') }}" />
-                </button>
-            </div>
-            <div class="flex flex-col items-center justify-center">
-                <img src="/assets/images/K1/coding/cd/cd29.png" class="w-[500px]" />
-                <button
-                    class="relative w-20 h-20 button-fade-in bg-[#F8A23A] rounded-[30px] flex justify-center items-center cursor-pointer"
-                    id="homeButton">
-                    <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-                    <img class="absolute top-[6px] left-[8px] w-15 h-10"
-                        src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-                    <img class=" w-10 h-10" src="{{ asset('assets/images/pptimages/sound-icon.png') }}" />
-                </button>
-            </div>
-        </div>
-        <h2 class="title stroke">What are these? What should you do?</h2>
-        <p class="note">Note: Encourage children to talk about the different features in Blockly.</p>
+        <img src="/assets/images/K2/livingthings/bacteria/b10.png" />
+        <h2 class="title stroke">Bad bacteria are called pathogens.
+            Pathogens can cause and spread diseases in animals and plants.</h2>
     </div>
 
+
+
+    {{-- slide 15 --}}
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+        <img src="/assets/images/K2/livingthings/bacteria/b11.png" />
+        <h2 class="title stroke">Nowadays we can use antibiotics, antiseptics and some cleaning
+            products to fight against the bad pathogens.</h2>
+        <p class="note">Note: Guide children to understand the meaning of the 2 terms
+            (refer to the definitions in teacher resources).</p>
+    </div>
 
 
     {{-- slide 16 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <div class="flex items-center gap-10">
-            <div class="flex flex-col items-center justify-center">
-                <img src="/assets/images/K1/coding/cd/cd26.png" class="w-[500px]" />
-                <button
-                    class="relative w-20 h-20 button-fade-in bg-[#F8A23A] rounded-[30px] flex justify-center items-center cursor-pointer"
-                    id="homeButton">
-                    <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-                    <img class="absolute top-[6px] left-[8px] w-15 h-10"
-                        src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-                    <img class=" w-10 h-10" src="{{ asset('assets/images/pptimages/sound-icon.png') }}" />
-                </button>
-            </div>
-            <div class="flex flex-col items-center justify-center">
-                <img src="/assets/images/K1/coding/cd/cd28.png" class="w-[500px]" />
-                <button
-                    class="relative w-20 h-20 button-fade-in bg-[#F8A23A] rounded-[30px] flex justify-center items-center cursor-pointer"
-                    id="homeButton">
-                    <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-                    <img class="absolute top-[6px] left-[8px] w-15 h-10"
-                        src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-                    <img class=" w-10 h-10" src="{{ asset('assets/images/pptimages/sound-icon.png') }}" />
-                </button>
-            </div>
-            <div class="flex flex-col items-center justify-center">
-                <img src="/assets/images/K1/coding/cd/cd30.png" class="w-[500px]" />
-                <button
-                    class="relative w-20 h-20 button-fade-in bg-[#F8A23A] rounded-[30px] flex justify-center items-center cursor-pointer"
-                    id="homeButton">
-                    <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-                    <img class="absolute top-[6px] left-[8px] w-15 h-10"
-                        src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-                    <img class=" w-10 h-10" src="{{ asset('assets/images/pptimages/sound-icon.png') }}" />
-                </button>
-            </div>
-        </div>
-        <h2 class="title stroke">What are these? What should you do?</h2>
-        <p class="note">Note: Encourage children to talk about the different features in Blockly.</p>
+        <img src="/assets/images/K2/livingthings/bacteria/b4.png" />
+        <h2 class="title stroke">Most bacteria around us are actually good.
+            They are very helpful to us.</h2>
     </div>
 
 
     {{-- slide 17 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <h2 class="text-center justify-start text-[45px] text-white stroke">Hands-on Time 1</h2>
-        <h2 class="text-start title stroke">Mission: <br>
-            Let's use Blockly to place a programming block from Drive
-            Command to the scripting area. After that, throw away the
-            programming block!</h2>
-        <p class="note text-center">Note: Divide children into groups. Have them take turns to complete the mission.</p>
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+        <div class="flex">
+            <img src="/assets/images/K2/livingthings/bacteria/b12.png" />
+            <img src="/assets/images/K2/livingthings/bacteria/b13.png" />
+        </div>
+        <h2 class="title stroke">Most of our food come from plants.
+            Bacteria in the soil work hard to help plants grow.</h2>
     </div>
 
 
     {{-- slide 18 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <h2 class="text-center title stroke">Steps:</h2>
-        <ol class="title stroke">
-            <li>1. Tap on the icon of Blockly to open the application.</li>
-        </ol>
-        <div class="flex items-center gap-10">
-            <img src="/assets/images/K1/coding/cd/cd20.png" class="w-[450px]" />
-            <img src="/assets/images/K1/coding/cd/cd29.png" class="w-[450px]" />
-        </div>
-        <p class="note text-center">Note: Have children observe the video, talk about how to do the step and then learn how
-            to do so.</p>
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+        <img src="/assets/images/K2/livingthings/bacteria/b14.png" />
+        <h2 class="title stroke">Do you like to eat yogurt or cheese?
+            Do you know that bacteria are used to make them?.</h2>
     </div>
 
-
     {{-- slide 19 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <h2 class="text-center title stroke">Steps:</h2>
-        <ol class="title stroke">
-            <li>2. Tap on the orange arrow button to start using the application.</li>
-        </ol>
-
-        <img src="/assets/images/K1/coding/cd/cd29.png" class="w-[450px]" />
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+        <img src="/assets/images/K2/livingthings/bacteria/b15.png" />
+        <h2 class="title stroke">Besides yogurt and cheese, bacteria also been used to make
+            food like butters, chocolates and soya sauces.</h2>
     </div>
 
     {{-- slide 20 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <h2 class="text-center title stroke">Steps:</h2>
-        <ol class="title stroke">
-            <li>3. Tap on the Drive Command for the choice of programming blocks.</li>
-        </ol>
-        <div class="flex items-center gap-8">
-            <img src="/assets/images/K1/coding/cd/cd32.png" class="w-[450px]" />
-            <img src="/assets/images/K1/coding/cd/arow.png" />
-            <img src="/assets/images/K1/coding/cd/cd35.png" class="w-[450px]" />
-        </div>
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+        <img src="/assets/images/K2/livingthings/bacteria/b16.png" />
+        <h2 class="title stroke">There are many good bacteria in our bodies. The main use of
+            these bacteria is to help us digest and break down our food.</h2>
     </div>
-
-
 
     {{-- slide 21 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <h2 class="text-center title stroke">Steps:</h2>
-        <ol class="title stroke">
-            <li>4. Choose a programming block by tapping, dragging and placing
-                it at the scripting area (must connect with Start).</li>
-        </ol>
-        <div class="flex items-center gap-8">
-            <img src="/assets/images/K1/coding/cd/cd35.png" class="w-[450px]" />
-            <img src="/assets/images/K1/coding/cd/arow.png" />
-            <img src="/assets/images/K1/coding/cd/cd31.png" class="w-[450px]" />
-        </div>
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+        <img src="/assets/images/K2/livingthings/bacteria/b4.png" />
+        <h2 class="title stroke">Therefore, there are actually more good bacteria
+            than bad bacteria around us.</h2>
     </div>
 
+
     {{-- slide 22 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <h2 class="text-center title stroke">Steps:</h2>
-        <ol class="title stroke">
-            <li>5. Throw away a programming block by tapping, dragging and
-                trashing it to the dustbin.</li>
-        </ol>
-        <div class="flex items-center gap-8">
-            <img src="/assets/images/K1/coding/cd/cd31.png" class="w-[450px]" />
-            <img src="/assets/images/K1/coding/cd/arow.png" />
-            <img src="/assets/images/K1/coding/cd/cd34.png" class="w-[450px]" />
-        </div>
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+        <img src="/assets/images/K2/livingthings/bacteria/b17.png" />
+        <h2 class="title stroke">This is a Petri dish. It is a flat dish with lid.
+            To study bacteria, scientists actually collect and grow them in
+            a Petri dish. How is it done? Let's find out!.</h2>
     </div>
 
 
     {{-- slide 23 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="/assets/images//K1/coding/cd/cd11.png" />
-        <h2 class="title stroke">Let’s find out how to make Blockly find a robot!</h2>
-        <p class="note text-center">Note: Have children follow through the lesson.</p>
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+        <img src="/assets/images/K2/livingthings/bacteria/b18.png" />
+        <h2 class="title stroke">First, scientists fill the dish with agar to make agar plate.
+            The hardened jelly-like agar contains nutrients that help
+            bacteria to grow.</h2>
     </div>
 
 
-
-
-    {{-- slide 24 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <h2 class="text-center justify-start text-[45px] text-white stroke">Hands-on Time 2</h2>
-        <h2 class="text-start title stroke">Mission: <br>
-            How do you make Blockly find the correct robot? Show your teacher!</h2>
-        <p class="note text-center">Note: Divide children into groups. Have them take turns to complete the mission.</p>
+    {{-- sldie 24 --}}
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+        <img src="/assets/images/K2/livingthings/bacteria/b19.png" />
+        <h2 class="title stroke">Next, scientists use a cotton bud to pick up
+            sample bacteria from anything.</h2>
     </div>
 
 
     {{-- sldie 25 --}}
-    <div class="slide hidden  flex flex-col  justify-start  ">
-        <div class="text-start title stroke">
-            <h2>Steps:</h2>
-            <ol class=" list-decimal">
-                <li> Turn on a robot.</li>
-            </ol>
-        </div>
-        <div class="flex items-center gap-8">
-            <img src="/assets/images/K1/coding/cd/cd37.png" class="w-[450px]" />
-            <img src="/assets/images/K1/coding/cd/arow.png" />
-            <img src="/assets/images/K1/coding/cd/cd18.png" class="w-[450px]" />
-        </div>
-        <p class="note text-center">Note: Remind children to take note of the name of the robot (refer to the nametag on
-            the robot).</p>
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+        <img src="/assets/images/K2/livingthings/bacteria/b20.png" />
+        <h2 class="title stroke">Then, scientists use the cotton bud to lightly draw
+            lines on the agar in the dish.</h2>
     </div>
 
 
 
-    {{-- sldie 26 --}}
-    <div class="slide hidden  flex flex-col  justify-start  ">
-        <div class="text-start title stroke">
-            <h2>Steps:</h2>
-            <ol>
-                <li>2. Tap to open the application of Blockly.</li>
-            </ol>
-        </div>
-        <div class="flex items-center gap-8">
-            <img src="/assets/images/K1/coding/cd/cd20.png" class="w-[250px]" />
-            <img src="/assets/images/K1/coding/cd/arow.png" class="w-[50px]" />
-            <img src="/assets/images/K1/coding/cd/cd29.png" class="w-[250px]" />
-            <img src="/assets/images/K1/coding/cd/arow.png" class="w-[50px]" />
-            <img src="/assets/images/K1/coding/cd/cd38.png" class="w-[250px]" />
-        </div>
-        <p class="note text-center">Note: Remind children to take note 2f the name of the robot (refer to the nametag on
-            the robot).</p>
+    {{-- slide 26 --}}
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+        <img src="/assets/images/K2/livingthings/bacteria/b21.png" />
+        <h2 class="title stroke">Lastly, scientists keep the sampled dish in a
+            cooling place to allow bacteria to grow.</h2>
     </div>
 
 
 
-    {{-- slide 27 --}}
-    <div class="slide hidden  flex flex-col items-start justify-start gap-5  ">
-        <div class="text-start title stroke">
-            <h2>Steps:</h2>
-            <ul>
-                <li>3. Tap to make Blockly find the correct robot.</li>
-            </ul>
-        </div>
-        <img src="/assets/images/K1/coding/cd/cd36.png" />
+    {{-- sldie 27 --}}
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+        <img src="/assets/images/K2/livingthings/bacteria/b22.png" />
+        <h2 class="title stroke">Finally, scientists observe bacteria grown in the dish
+            and conduct tests to study them in details.</h2>
     </div>
 
 
-
-    {{-- sldie 28 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="/assets/images//K1/coding/cd/cd12.png" />
-        <h2 class="title stroke">Lastly, let’s learn to sing a song together!</h2>
-        <p class="note text-center">Note: Have children first watch the video and then learn to sing the song together
-            (lyrics on the next page).</p>
-        <!-- Video Trigger Button -->
-        <div data-property-1="Default"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
-            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
-        </div>
+    {{-- slide 28 --}}
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+        <h2 class="title stroke">Now, we'll learn how to use this scientific method <br>
+            for growing bacteria. <br>
+            We'll test if disinfectant sprays help to kill bacteria.</h2>
     </div>
-
-
 
 
     {{-- slide 29 --}}
-    <div class="slide  hidden flex flex-col items-center justify-between gap-y-4">
-        <h2 class=" title stroke !text-[40px] ">Show me your right. Show me your left. <br>
-            Show me your right. Show me your left. <br>
-            You do the hokey pokey and you turn yourself around. <br>
-            That's what it's all about. <br>
-            You move forward two steps. You move backward two steps. <br>
-            You move forward two steps. You move backward two steps. <br>
-            You do the hokey pokey and you turn yourself around. <br>
-            That's what it's all about. <br>
-            Turn to your right. Turn to your left. <br>
-            Turn to your right. Turn to your left. <br>
-            You do the hokey pokey and you turn yourself around. <br>
-            That's what it's all about.</h2>
-        <p class="note">Note: Sing to the tune of "Hokey Pokey".</p>
+    <div class="slide flex flex-col items-center justify-center gap-5   ">
+        <h2 class="title stroke font-bold !text-white">Class Activity</h2>
+        <img src="/assets/images/K2/livingthings/bacteria/b36.png" />
+        <h2 class="title stroke !text-start">Let's find out: <br>
+            Do disinfectant sprays really kill bacteria?</h2>
+        <p class="note">Note: Display all the things needed. Guide children to name the things and know their use.</p>
     </div>
 
 
-    {{-- slide 30--}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="/assets/images//K1/coding/cd/cd12.png" />
-        <h2 class="title stroke">Lastly, let’s learn to sing a song together!</h2>
-        <p class="note text-center">Note: Have children first watch the video and then learn to sing the song together
-            (lyrics on the next page).</p>
-        <!-- Video Trigger Button -->
-        <div data-property-1="Default"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
-            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+    {{-- slide 30 --}}
+    <div class="slide flex flex-col items-center justify-center gap-5   ">
+        <img src="/assets/images/K2/livingthings/bacteria/b25.png" />
+        <h2 class="title stroke !text-start">What do you think (Prediction): <br>
+            Do disinfectant sprays kill some or all the bacteria?</h2>
+        <p class="note">Note: Have children vote for their choice and record the result in a graph
+            (refer to the sample on the next page).</p>
+    </div>
+
+
+    {{-- slide 31 --}}
+    <div class="slide flex flex-col items-center justify-center gap-5   ">
+        <img src="/assets/images/K2/livingthings/bacteria/b26.png" />
+        <p class="note">Note: Plot children's prediction on the graph. At the end, put a star <span
+                class="text-yellow-300 text-xl">⭐</span>
+            to mark the final result.</p>
+    </div>
+
+
+    {{-- slide 32 --}}
+    <div class="slide flex flex-col items-center justify-center gap-5   ">
+        <h2 class="title stroke !text-start">
+            Let's do: <br>
+            1.Use a cotton bud to go through surface of a dirty shoe to
+            pick up sample bacteria.</h2>
+        <img src="/assets/images/K2/livingthings/bacteria/b27.png" />
+        <p class="note">Note: Invite a child to do the step with hands wearing gloves.</p>
+    </div>
+
+
+    {{-- slide 33 --}}
+    <div class="slide flex flex-col items-center justify-center gap-5   ">
+        <h2 class="title stroke !text-start">
+            Let's do: <br>
+            2.
+            Remove the lid of a petri dish, use the cotton bud to lightly
+            draw many lines on the agar and close the lid again.</h2>
+        <div class="flex gap-1 items-start">
+            <img src="/assets/images/K2/livingthings/bacteria/b28.png" />
+            <img src="/assets/images/K2/livingthings/bacteria/b29.png" />
         </div>
+
+        <p class="note">Note: Invite another child to do the step with hands wearing gloves.
+            Once done, throw away the used cotton bud.</p>
+    </div>
+
+
+    {{-- slide 34 --}}
+    <div class="slide flex flex-col  justify- items-center gap-5   ">
+        <h2 class="title stroke !text-start">
+            Let's do: <br>
+            3. Label the sampled petri dish.</h2>
+        <img src="/assets/images/K2/livingthings/bacteria/b30.png" />
+        <p class="note">Note: Invite another child to do the step.</p>
+    </div>
+
+
+    {{-- slide 35 --}}
+    <div class="slide flex flex-col justify-start items-center gap-5   ">
+        <h2 class="title stroke !text-start">
+            Let's do: <br>
+            4. Spray on the surface of the shoe.</h2>
+        <img src="/assets/images/K2/livingthings/bacteria/b31.png" />
+        <p class="note">Note: Invite another child to do the step.</p>
+    </div>
+
+
+
+    {{-- slide 36 --}}
+    <div class="slide flex flex-col justify-start items-center gap-5   ">
+        <h2 class="title stroke !text-start">
+            Let's do: <br>
+            5.Use a new cotton bud to repeat step 1-3.</h2>
+        <img src="/assets/images/K2/livingthings/bacteria/b32.png" />
+    </div>
+
+
+    {{-- slide 37 --}}
+    <div class="slide flex flex-col justify-start items-center gap-5   ">
+        <h2 class="title stroke !text-start">Let's do: <br>
+            6.Put both the sampled petri dishes in a box and keep the box
+            at a cooling place.</h2>
+        <img src="/assets/images/K2/livingthings/bacteria/b33.png" />
+        <p class="note">Note:Teacher to do the step; use tape to seal all the petri dishes to prevent children from
+            opening them
+            Tell children that bacteria need time to grow, so we'll check the results at least 10 days later.
+        </p>
     </div>
 
 
@@ -479,7 +382,7 @@
     </div>
 
 
- <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
+    <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
 
         <!-- Return Button -->
         <a class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
@@ -581,7 +484,7 @@
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('wCodingSelection') }}";
+                    window.location.href = "{{ route('bacteriaSelection') }}";
                 });
             }
 

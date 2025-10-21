@@ -1,13 +1,14 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
- 
+
 @section('content')
 
     <div id="topDiv" class="flex flex-col  h-[90%] items-center ">
-        <div class="  title !text-[55px]  stroke">What is Coding?</div>
-        <h2 class="text-2xl sm:text-3xl lg:text-5xl text-white stroke ">Explore and learn about basic coding;
-learn how to handle a robot and a tablet with care</h2>
-
+        <div class="  title !text-[55px]  stroke">What are Bacteria??</div>
+        <h2 class="text-2xl sm:text-3xl lg:text-5xl text-white stroke ">Learn about the characteristics of bacteria;
+            learn to use scientific method for growing bacteria
+            and test if disinfectant sprays
+            help to kill bacteria</h2>
         <button
             class="cursor-pointer nextButton w-66 h-[120px] relative bg-[#F8A23A]  rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
         outline outline-1 outline-yellow-700 overflow-hidden">
@@ -22,7 +23,7 @@ learn how to handle a robot and a tablet with care</h2>
 
 
 
- <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
+    <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
 
         <!-- Return Button -->
         <button
@@ -68,7 +69,7 @@ learn how to handle a robot and a tablet with care</h2>
 
             if (nextButton) {
                 nextButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('wCodingSelection') }}";
+                    window.location.href = "{{ route('bacteriaSelection') }}";
                 });
             }
         });

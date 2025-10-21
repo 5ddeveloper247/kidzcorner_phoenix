@@ -88,7 +88,7 @@
             </a>
 
             <!-- Card 2 -->
-            <a href="{{ route('Screw') }}"
+            <a href="{{ route('bacteria') }}"
                   style="background-image: url('{{asset('/assets/images/pptimages/Property1.png')}}');"
             class=" bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
                 <h2 class="text-2xl text-[#7D6F71]">What are <br> Bacteria?</h2>
@@ -96,14 +96,14 @@
             </a>
 
             <!-- Card 3 -->
-            <a href="{{ route('Ball') }}"
+            <a href="{{ route('killing') }}"
                   style="background-image: url('{{asset('/assets/images/pptimages/Property1.png')}}');"
             class=" bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
                 <h2 class="text-2xl text-[#7D6F71]">Do they Kill <br> Bacteria?</h2>
                 <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">11</span>
             </a>
             <!-- Card 3 -->
-            <a href="{{ route('Levers') }}"
+            <a href="{{ route('Bgrow') }}"
                   style="background-image: url('{{asset('/assets/images/pptimages/Property1.png')}}');"
             class=" bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
                 <h2 class="text-2xl text-[#7D6F71]">Do <br> Bacteria <br> Grow?</h2>

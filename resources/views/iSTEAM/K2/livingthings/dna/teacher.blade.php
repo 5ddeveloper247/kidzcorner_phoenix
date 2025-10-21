@@ -140,7 +140,8 @@
                 <li>6. Mix together 30ml cold rubbing alcohol and 3 drops food colouring in another cup [Guide children to
                     measure and prepare the alcohol mixture with a measuring cup, an eyedropper and a tablespoon .]</li>
             </ul>
-        </div>
+        </div> 
+        
         <img src="{{ asset('assets/images/K2/livingthings/dna/d17.png') }}" class="w-[700px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />

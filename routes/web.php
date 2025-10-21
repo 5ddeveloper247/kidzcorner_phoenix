@@ -1992,6 +1992,27 @@ Route::get('/livingthings/Plantsgrowth/teacher', function () {
 })->name('PgrowTeacher');
 
 
+// K2 -> livingthings -> Bgrow
+Route::get('/livingthings/Bacteriagrow', function () {
+    return view('iSTEAM.K2.livingthings.Bgrow.index');
+})->name('Bgrow');
+
+// K2 -> livingthings -> Bacteriagrow -> select
+Route::get('/BacteriagrowChoice', function () {
+    return view('iSTEAM.K2.livingthings.Bgrow.selection');
+})->name('BgrowSelection');
+
+// K2 -> livingthings -> Bacteriagrow -> lesson
+Route::get('/livingthings/Bacteriagrow/lesson', function () {
+    return view('iSTEAM.K2.livingthings.Bgrow.lesson');
+})->name('BgrowLesson');
+
+// K2 -> livingthings -> Bacteriagrow -> teacher
+Route::get('/livingthings/Bacteriagrow/teacher', function () {
+    return view('iSTEAM.K2.livingthings.Bgrow.teacher');
+})->name('BgrowTeacher');
+
+
 // K2 -> livingthings -> things
 Route::get('/WhhatareLivingThings', function () {
     return view('iSTEAM.K2.livingthings.things.index');
@@ -2055,6 +2076,27 @@ Route::get('/livingthings/Bacteria/lesson', function () {
 Route::get('/livingthings/Bacteria/teacher', function () {
     return view('iSTEAM.K2.livingthings.bacteria.teacher');
 })->name('bacteriaTeacher');
+
+
+// K2 -> livingthings -> killing
+Route::get('/livingthings/killing', function () {
+    return view('iSTEAM.K2.livingthings.killing.index');
+})->name('killing');
+
+// K2 -> livingthings -> killing -> select
+Route::get('/killingChoice', function () {
+    return view('iSTEAM.K2.livingthings.killing.selection');
+})->name('killingSelection');
+
+// K2 -> livingthings -> killing -> lesson
+Route::get('/livingthings/killing/lesson', function () {
+    return view('iSTEAM.K2.livingthings.killing.lesson');
+})->name('killingLesson');
+
+// K2 -> livingthings -> killing -> teacher
+Route::get('/livingthings/killing/teacher', function () {
+    return view('iSTEAM.K2.livingthings.killing.teacher');
+})->name('killingTeacher');
 
 
 // K2 -> livingthings -> Dna

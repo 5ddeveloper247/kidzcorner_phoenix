@@ -1,6 +1,6 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
- 
+
 @section('content')
     {{-- sldie 1  --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
@@ -226,26 +226,69 @@
             class="absolute right-[250px] bottom-[150px]" />
     </div>
 
+    {{-- slide 10 --}}
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+        <div>
+            <ul class="list-disc !text-start">
+                <h2 class="font-bold">How to dust and lift a fingerprint and things to consider:</h2>
+                <li>At the end, have children discuss and share their activity experience.</li>
+                <li>Explain to children that:</li>
+                <li class="list-none">- Lotion contains lots of oil and fat. When you apply it, your fingertips become
+                    much stickier and this lead to a much more pronounced print.</li>
+                <li class="list-none"> - Fingerprints tend to stick very well on a smooth surface such as glass or metal.
+                    Just a little talcum or cocoa powder applied with a brush should be enough to
+                    reveal your fingerprint.</li>
+                <li class="list-none">- If you apply too much powder, the fine details of your print might be lost.
+                    When you press too hard onto the surface with the brush, the fingerprint will be
+                    wiped away. Therefore, you have to be careful when treating the surface with
+                    the powder.</li>
+
+            </ul>
+        </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute right-[250px] bottom-[150px]" />
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     {{-- slide 11 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to dust and lift a fingerprint and things to consider:</h2>
-            <ul class="list-disc">
-                <li>At the end, have children discuss and share their activity experience.</li>
-                <li>Explain to children that:
-                    <ul>
-                        <li>- Lotion contains lots of oil and fat. When you apply it, your fingertips become
-                            much stickier and this lead to a much more pronounced print</li>
-                        <li> - Fingerprints tend to stick very well on a smooth surface such as glass or metal.
-                            Just a little talcum or cocoa powder applied with a brush should be enough to
-                            reveal your fingerprint.</li>
-                        <li> - If you apply too much powder, the fine details of your print might be lost.
-                            When you press too hard onto the surface with the brush, the fingerprint will be
-                            wiped away. Therefore, you have to be careful when treating the surface with
-                            the powder.</li>
-                    </ul>
-                </li>
+            <ul class="list-disc !text-start">
+                <h2 class="font-bold">Preparations for Class Activity - Solve A Case:</h2>
+                <li>A folder</li> <br>
+                <h2 class="font-bold">How to carry out Solve A Case activity and things to consider:</h2>
+                <li>Note: Print out all the details of the case beforehand and put them in a folder
+                    (total of 10 pages from next page onwards).</li>
+                <li>Brief children on the mission of the activity - study a case, analyse the evidence,
+                    record their findings in the learning journal and solve the case.</li>
+                <li>At the end, guide children to answer the questions in the lesson: 1) Who messed
+                    up the room ?; 2) Who spilled the paints on the floor ?; 3) Who left the playdough
+                    on the shelf ?; 4) Who left the half-eaten muffin and the broken plate on the
+                    floor ?.</li>
+                <li>If you want, you may refer to the details of the case and create a more
+                    challenging case for children to solve. For examples, you may add in a part where</li>
+                <li>children have to dust and lift fingerprints (if they are ready) or include all 10
+                    fingerprints for every suspect of the case</li>
             </ul>
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
@@ -254,30 +297,129 @@
 
 
 
-        {{-- slide 12 --}}
+    {{-- slide 11 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to dust and lift a fingerprint and things to consider:</h2>
-            <ul class="list-disc">
-                <li>At the end, have children discuss and share their activity experience.</li>
-                <li>Explain to children that:
-                    <ul>
-                        <li>- Lotion contains lots of oil and fat. When you apply it, your fingertips become
-                            much stickier and this lead to a much more pronounced print</li>
-                        <li> - Fingerprints tend to stick very well on a smooth surface such as glass or metal.
-                            Just a little talcum or cocoa powder applied with a brush should be enough to
-                            reveal your fingerprint.</li>
-                        <li> - If you apply too much powder, the fine details of your print might be lost.
-                            When you press too hard onto the surface with the brush, the fingerprint will be
-                            wiped away. Therefore, you have to be careful when treating the surface with
-                            the powder.</li>
-                    </ul>
-                </li>
+            <ul class=" !text-start">
+                <h2 class="font-bold">Solve A Case:</h2>
+                <li>What happened?</li> <br>
+                <li>Teacher Sue walked into the art and craft room this morning, and was shocked to see that the room was in
+                    <br>
+                    a mess.
+                </li> <br>
+                <li>She noticed that some paints were spilled on the floor, some playdough was <br> left on the shelf and a
+                    half-eaten muffin together with a broken plate were <br> left on the floor next to the activity table
+                </li> <br>
+                <li>Who did it? Teacher Sue quickly gather the evidence around
+                    the room.</li>
+
             </ul>
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
     </div>
+
+
+
+    {{-- slide 12 --}}
+    <div class=" slide flex text-2xl  flex-col items-center justify-start gap-y-10 text-start">
+        <div>
+            <h2 class=" !text-start title stroke"> <span class="!text-white font bold">Evidence 1:</span> Based on the
+                statements of other teachers, 6 <br>
+                children below entered the art and craft room while waiting
+                for their parents to pick them up yesterday evening.</h2>
+        </div>
+        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u20.png') }}" />
+
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute right-[250px] bottom-[150px]" />
+    </div>
+    {{-- slide 12 --}}
+    <div class=" slide flex text-2xl  flex-col items-center justify-start gap-y-10 text-start">
+        <div>
+            <h2 class=" !text-start title stroke"> <span class="!text-white font bold">Evidence 2:</span> 3 shoe prints as
+                shown were found on the floor
+                near the door.</h2>
+        </div>
+        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u21.png') }}" />
+
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute right-[250px] bottom-[150px]" />
+    </div>
+    {{-- slide 12 --}}
+    <div class=" slide flex text-2xl  flex-col items-center justify-start gap-y-10 text-start">
+        <div>
+            <h2 class=" !text-start title stroke"> <span class="!text-white font bold">Evidence 3:</span> 3 right
+                thumbprints as shown were found at
+                different parts of the room</h2>
+        </div>
+        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u22.png') }}" />
+
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute right-[250px] bottom-[150px]" />
+    </div>
+    {{-- slide 12 --}}
+    <div class=" slide flex text-2xl  flex-col justify-start items-center gap-y-10 text-start">
+        <div>
+            <h2 class=" !text-start title stroke">Profile of the suspect 1:</h2> <br>
+            <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u23.png') }}" />
+        </div>
+
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute right-[250px] bottom-[150px]" />
+    </div>
+    {{-- slide 12 --}}
+    <div class=" slide flex text-2xl  flex-col justify-start items-center gap-y-10 text-start">
+        <div>
+            <h2 class=" !text-start title stroke">Profile of the suspect 2:</h2><br>
+            <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u24.png') }}" />
+        </div>
+
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute right-[250px] bottom-[150px]" />
+    </div>
+    {{-- slide 12 --}}
+    <div class=" slide flex text-2xl  flex-col justify-start items-center gap-y-10 text-start">
+        <div>
+            <h2 class=" !text-start title stroke">Profile of the suspect 3:</h2><br>
+            <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u25.png') }}" />
+        </div>
+
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute right-[250px] bottom-[150px]" />
+    </div>
+    {{-- slide 12 --}}
+    <div class=" slide flex text-2xl  flex-col justify-start items-center gap-y-10 text-start">
+        <div>
+            <h2 class=" !text-start title stroke">Profile of the suspect 4:</h2><br>
+            <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u26.png') }}" />
+        </div>
+
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute right-[250px] bottom-[150px]" />
+    </div>
+    {{-- slide 12 --}}
+    <div class=" slide flex text-2xl  flex-col justify-start items-center gap-y-10 text-start">
+        <div>
+            <h2 class=" !text-start title stroke">Profile of the suspect 5:</h2><br>
+            <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u27.png') }}" />
+        </div>
+
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute right-[250px] bottom-[150px]" />
+    </div>
+    {{-- slide 12 --}}
+    <div class=" slide flex text-2xl  flex-col justify-start items-center gap-y-10 text-start">
+        <div>
+            <h2 class=" !text-start title stroke">Profile of the suspect 6:</h2><br>
+            <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u28.png') }}" />
+        </div>
+
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute right-[250px] bottom-[150px]" />
+    </div>
+
+
 
 
     {{-- sldie 12 --}}
@@ -329,17 +471,17 @@
             <ul>
                 <h2 class="!text-white title stroke">Fingerprints Art</h2>
                 <h2>What and how to set up:</h2>
-                <li>Put some paints, sponges, coloured pencils and drawing papers here.</li>
+                <li>Place masks, gloves, brushes, fingerprint powder and a few things
+                    with different surface texture and material like glass, metal, paper,
+                    textile and wood here.</li>
             </ul>
 
             <div>
                 <h2>What to do:</h2>
                 <ul class="list-decimal">
-                    <li>Turn your fingerprints into art! Put your fingerprints on the
-                        drawing paper.</li>
-                    <li>Use your imagination to turn it into a creative drawing by adding
-                        details with coloured pencils.</li>
-                    <li>Show it to your teacher and friends!</li>
+                    <li>Press your thumb firmly on the surface of different things.</li>
+                    <li>With mask and gloves on, dust for your prints to find out what</li>
+                    <li>Share the findings with your teacher and friends!</li>
                 </ul>
 
             </div>
@@ -357,11 +499,10 @@
                 <h2>What and how to set up:</h2>
                 <p>Use your creativity to design graphic fact sheet for every fun fact
                     below. Guide children to understand the facts.</p>
-                <li>Fingerprints actually help you to grasp an object. Without them,
-                    your fingers will be slippery and you will not be able to write or
-                    paint properly.</li>
-                <li>Adermatoglyphia is a genetic disease where people are born
-                    without fingerprints.</li>
+                <li>Identical twins are indistinguishable via DNA testing, but
+                    fingerprints can still tell them apart.</li>
+                <li>Just like fingerprints, our tongue prints and retinal print are also
+                    unique and cannot be forged by anyone.</li>
             </ul>
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute right-[250px] bottom-[150px]" />
