@@ -5,7 +5,7 @@
     {{-- sldie 1  --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Children will be able to:</h2>
+            <h2 class="t-title font-bold">Children will be able to:</h2>
             <ul class="list-disc ">
                 <li>Invent things that help to solve problems or challenges using previously learnt knowledge</li>
                 <li>Use design thinking to solve problems together with friends</li>
@@ -16,7 +16,7 @@
         </div>
 
         <div class="flex flex-col  items-start justify-between">
-            <h2 class="text-[33px] font-bold">Keywords:</h2>
+            <h2 class="t-title font-bold">Keywords:</h2>
             <ul class="list-disc ">
                 <li>Simple Machines</li>
                 <li>Coding/Programming</li>
@@ -25,7 +25,7 @@
             </ul>
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
+            class="absolute teacher-img1" />
     </div>
 
 
@@ -48,7 +48,7 @@
             </ul>
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
+            class="absolute teacher-img1" />
     </div>
 
 
@@ -59,7 +59,7 @@
             <img src="{{ asset('assets/images/K2/final/f15.png') }}" />
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
+            class="absolute teacher-img1" />
     </div>
 
     {{-- sldie 4 --}}
@@ -69,7 +69,7 @@
             <img src="{{ asset('assets/images/K2/final/f16.png') }}" />
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
+            class="absolute teacher-img1" />
     </div>
 
     {{-- sldie 5 --}}
@@ -80,7 +80,7 @@
                 <h2>For the invention challenge 10, you may:</h2>
                 <li>Invite children to watch the following video: <br>
                     <a href="https://www.youtube.com/watch?v=XiuU1mlFeEc"
-                        class="text-amber-300">https://www.youtube.com/watch?v=XiuU1mlFeEc</a>
+                        class="text-[#F7B94A]">https://www.youtube.com/watch?v=XiuU1mlFeEc</a>
                 </li>
                 <li>Guide children to discuss and find a problem to solve</li>
             </ul>
@@ -90,17 +90,17 @@
                 <li>Get children to incorporate either Dash or mTiny into the game</li>
             </ul>
         </div>
-        Note: <a class="click-btn1 text-amber-300">Click here</a> only if you have problem connecting to
+        Note: <a class="click-btn1 text-[#F7B94A]">Click here</a> only if you have problem connecting to
         the webpage.
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
+            class="absolute teacher-img1" />
     </div>
 
     {{-- click slide  --}}
     <div class=" slide click1 text-start text-2xl items-center text-white">
         <div class="flex flex-col items-center justify-center">
             <h2>11 Kid Inventors Break Down Their Greatest Inventions | The New Yorker <br>
-                <a href="https://www.youtube.com/watch?v=Xiul/1mlFeEc" class="text-amber-300"></a>
+                <a href="https://www.youtube.com/watch?v=Xiul/1mlFeEc" class="text-[#F7B94A]"></a>
                 [https://www.youtube.com/watch?v=Xiul/1mlFeEc]
             </h2>
             <video id="video1" class="w-full max-w-4xl pointer-events-none">
@@ -117,7 +117,7 @@
             <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
+            class="absolute teacher-img1" />
     </div>
 
 
@@ -144,7 +144,7 @@
             </ul>
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
+            class="absolute teacher-img1" />
     </div>
 
     {{-- slide 7 --}}
@@ -158,7 +158,7 @@
 
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
+            class="absolute teacher-img1" />
     </div>
 
     {{-- slide 8 --}}
@@ -205,28 +205,19 @@
 
     {{-- ========================================================== --}}
     {{-- Buttons --}}
-    <div class="absolute bottom-0">
+    <div class="down-btn-container">
         <button
-            class="cursor-pointer doneButton w-66 h-[75px] relative bg-[#F8A23A] rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
-                    outline outline-1 outline-yellow-700 overflow-hidden">
-            <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
-            <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" />
-            </div>
-            <span
-                class="absolute left-[80px] top-[18px] flex items-center  text-white text-5xl font-bold stroke">DONE</span>
+         class="doneButton">
+ <img src="{{ asset('assets/images/pptimages/done.png') }}" />
         </button>
     </div>
 
     <div id="buttons" class="absolute top-0 right-[60px] flex flex-row gap-6 z-90">
 
         <!-- Return Button -->
-        <a class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
-            id="returnButton">
-            <img class="absolute top-[6px] left-[8px] w-20 h-10"
-                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] w-14 h-14"
-                src="{{ asset('assets/images/pptimages/reverse-icon.png') }}" />
+        <a id="returnButton">
+ <img
+    src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
 
         <!-- Home Button -->
@@ -234,33 +225,24 @@
             <img class="absolute top-[6px] left-[8px] w-20 h-10"
                 src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
             <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] w-14 h-14"
-                src="{{ asset('assets/images/pptimages/home-icon.png') }}" />
+            <img class=" w-14 h-14"
+                src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
-        <button class="relative w-24 h-24 button-fade-in cursor-pointer" id="closeButton">
-            <div class="absolute inset-0 bg-red-500 rounded-[30px]">
-            </div>
-            <img class="absolute top-[6px] left-[8px] w-20 h-10"
-                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <div id="closeButtonText"
-                class="absolute top-[16px] left-[30px] w-11 h-16 text-white text-6xl font-normal font-['Jua']">X
-            </div>
+        <button  id="closeButton">
+                        <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
+
         </button>
 
     </div>
 
     {{-- next Button --}}
-    <div class="absolute bottom-0">
+    <div class="down-btn-container">
 
         <button class="cursor-pointer nextButton w-66 h-[75px] relative bg-[#F8A23A]  rounded-[30px] overflow-hidden">
-            <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
-            <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" />
-            </div>
-            <span class="absolute left-[80px] top-[18px] flex items-center  text-white text-5xl font-bold stroke">NEXT
-            </span>
+                        <img src="{{ asset('assets/images/pptimages/return.png') }}" />
+
         </button>
     </div>
 

@@ -1,33 +1,40 @@
 @extends('layout.master')
-@section('title stroke', 'Dynamic Presentation')
+@section('title', 'Dynamic Presentation')
 
 
 @section('content')
+    {{-- title --}}
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">Glow in the Dark</h2>
 
     {{-- slide 0 --}}
     <div class="flex flex-col items-center justify-center gap-5 slide hidden">
         <h2 class="title stroke">What do you see in this picture?</h2>
-        <img src="{{ asset('assets/images/pptimages/dark1.png') }}" class="max-w-[500px] sm:max-w-[600px] lg:max-w-[536px]" />
+        <img src="{{ asset('assets/images/pptimages/dark1.png') }}" class="large-img2" />
         <p class="note">Note: Guide children to share their answers.</p>
     </div>
 
     {{-- slide 1 --}}
     <div class="flex flex-col items-center justify-center gap-5 slide hidden">
-        <div class="flex flex-col items-center justify-center">
-            <h2 class="title stroke">Do you see toys that are shaped like
-                the moon and stars?</h2>
-            <img src="{{ asset('assets/images/pptimages/dark1.png') }}"
-                class="max-w-[500px] sm:max-w-[600px] lg:max-w-[536px]" />
-        </div>
+        <h2 class="title stroke">Do you see toys that are shaped like
+            the moon and stars?</h2>
+        <img src="{{ asset('assets/images/pptimages/dark1.png') }}" class="large-img2" />
         <p class="note">Note: Ask children if they have played with such toys and share their experience.</p>
     </div>
 
     {{-- slide 2 --}}
     <div class="flex flex-col items-center justify-center gap-5 slide hidden">
+        <h2 class="title stroke">These are <span class="text-white">glow-in-the-dark</span> toys! <br>
+            Have you seen such toys before?</h2>
+        <img src="{{ asset('assets/images/pptimages/dark1.png') }}" class="large-img2" />
+
+        <p class="note">Note: Ask children if they have played with such toys and share their experience.</p>
+    </div>
+
+    {{-- slide 3 --}}
+    <div class="flex flex-col items-center justify-center gap-5 slide hidden">
         <h2 class="title stroke">These toys are able to store light energy when
             they are in a bright place.</h2>
-        <img src="{{ asset('assets/images/pptimages/dark1.png') }}"
-            class="max-w-[500px] sm:max-w-[600px] lg:max-w-[536px]" />
+        <img src="{{ asset('assets/images/pptimages/dark1.png') }}" class="large-img2" />
 
         <p class="note">Note: Ask children if they have played with such toys and share their experience.</p>
     </div>
@@ -37,17 +44,19 @@
     <div class="flex flex-col items-center justify-center gap-2 slide hidden">
         <h2 class="title stroke">When these toys are place in the dark,
             they glow!</h2>
-        <img src="{{ asset('assets/images/pptimages/dark2.png') }}" />
+        <img src="{{ asset('assets/images/pptimages/dark2.png') }}" class="large-img2" />
 
         <h2 class="title stroke !text--[30px]">They will stop glowing when they have used up the
             light energy in them.</h2>
     </div>
 
+
+
     {{-- slide 4 --}}
     <div class="flex flex-col justify-center gap-5 slide hidden">
         <div class="flex flex-col items-center justify-center">
             <h2 class="title stroke !text-white">CLASS ACTIVITY </h2>
-            <img src="{{ asset('assets/images/pptimages/dark3.png') }}" />
+            <img src="{{ asset('assets/images/pptimages/dark3.png') }}" class="large-img2" />
         </div>
         <div class="flex items-start">
 
@@ -60,7 +69,7 @@
 
 
     {{-- slide 5 --}}
-    <div class="flex flex-col items-center justify-center space-y-20 slide hidden">
+    <div class="flex flex-col items-center justify-center slide hidden">
         <div class="title stroke text-start px-4">
             <h2>let's do:</h2>
             <ul class="list-decimal">
@@ -80,12 +89,10 @@
                 <li>4. Draw the toys that glow in the dark on the learning journal.</li>
             </ul>
         </div>
-        <div class="w-[836px] h-[450px] bg-cover bg-center "
+        <div class="w-[40vw] h-[40vh] bg-cover bg-center bg-size-[35vw] "
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
-            <p class="text-[20px] ">Draw the items that glow in the dark!</p>
-
+            <p class="text-[1vw] ">Draw the items that glow in the dark!</p>
         </div>
-
     </div>
 
     {{-- slide 7 --}}
@@ -93,11 +100,11 @@
         <div class=" flex gap-10  ">
             <div class="flex flex-col items-center justify-center">
                 <h2 class="title stroke !text-[35px]">Clcok</h2>
-                <img src="{{ asset('assets/images/pptimages/d5.png') }}" class="w-[430px]" />
+                <img src="{{ asset('assets/images/pptimages/d5.png') }}" class="large-img" />
             </div>
             <div class="flex flex-col items-center justify-center">
                 <h2 class="title stroke !text-[35px]">Watch</h2>
-                <img src="{{ asset('assets/images/pptimages/d6.png') }} " class="w-[430px]" />
+                <img src="{{ asset('assets/images/pptimages/d6.png') }} " class="large-img" />
             </div>
         </div>
         <h2 class="title stroke">Some clocks and watches have parts that glow in the dark.</h2>
@@ -110,11 +117,11 @@
         <div class=" flex gap-10  ">
             <div class="flex flex-col items-center justify-center">
                 <h2 class="title stroke !text-[35px]">Clcok</h2>
-                <img src="{{ asset('assets/images/pptimages/d7.png') }}" class="w-[430px]" />
+                <img src="{{ asset('assets/images/pptimages/d7.png') }}" class="large-img" />
             </div>
             <div class="flex flex-col items-center justify-center">
                 <h2 class="title stroke !text-[35px]">Watch</h2>
-                <img src="{{ asset('assets/images/pptimages/d8.png') }} " class="w-[430px]" />
+                <img src="{{ asset('assets/images/pptimages/d8.png') }} " class="large-img" />
             </div>
         </div>
         <h2 class="title stroke">With the glow-in-the-dark parts, it is easy to tell the
@@ -125,8 +132,8 @@
     {{-- slide 9 --}}
     <div class="flex flex-col items-center justify-center gap-3 slide hidden">
         <div class=" flex gap-10  ">
-            <img src="{{ asset('assets/images/pptimages/d10.png') }} " class="w-[430px]" />
-            <img src="{{ asset('assets/images/pptimages/d9.png') }}" class="w-[430px]" />
+            <img src="{{ asset('assets/images/pptimages/d10.png') }} " class="large-img" />
+            <img src="{{ asset('assets/images/pptimages/d9.png') }}" class="large-img" />
         </div>
         <h2 class="title stroke">Look at the pictures. What are they?</h2>
         <p class="note ">Note: Encourage children to share their answers.</p>
@@ -137,11 +144,11 @@
         <div class=" flex gap-10  ">
             <div class="flex flex-col items-center justify-center">
                 <h2 class="title stroke !text-[35px]">FireFly</h2>
-                <img src="{{ asset('assets/images/pptimages/d10.png') }}" class="w-[430px]" />
+                <img src="{{ asset('assets/images/pptimages/d10.png') }}" class="large-img" />
             </div>
             <div class="flex flex-col items-center justify-center">
                 <h2 class="title stroke !text-[35px]">Jellyfish</h2>
-                <img src="{{ asset('assets/images/pptimages/d9.png') }} " class="w-[430px]" />
+                <img src="{{ asset('assets/images/pptimages/d9.png') }} " class="large-img" />
             </div>
         </div>
         <h2 class="title stroke">The firefly and the jellyfish can glow in the dark too.</h2>
@@ -152,11 +159,11 @@
         <div class=" flex gap-10  ">
             <div class="flex flex-col items-center justify-center">
                 <h2 class="title stroke !text-[35px]">FireFly</h2>
-                <img src="{{ asset('assets/images/pptimages/d12.png') }}" class="w-[430px]" />
+                <img src="{{ asset('assets/images/pptimages/d12.png') }}" class="large-img" />
             </div>
             <div class="flex flex-col items-center justify-center">
                 <h2 class="title stroke !text-[35px]">Jellyfish</h2>
-                <img src="{{ asset('assets/images/pptimages/d11.png') }} " class="w-[430px]" />
+                <img src="{{ asset('assets/images/pptimages/d11.png') }} " class="large-img" />
             </div>
         </div>
         <h2 class="title stroke">The firefly and the jellyfish can glow in the dark too.</h2>
@@ -167,7 +174,7 @@
     <div class="flex flex-col justify-center gap-5 slide hidden">
         <div class="flex flex-col items-center justify-center">
             <h2 class="title stroke !text-white">Individual Activity </h2>
-            <img src="{{ asset('assets/images/pptimages/d13.png') }}" />
+            <img src="{{ asset('assets/images/pptimages/d13.png') }}" class="large-img2" />
         </div>
         <div class="flex items-start">
 
@@ -179,28 +186,28 @@
 
 
     {{-- slide 13 --}}
-    <div class="flex flex-col items-center justify-center space-y-20 slide hidden">
+    <div class="flex flex-col items-center justify-center slide hidden">
         <div class="title stroke text-start px-4">
             <h2>let's do:</h2>
             <ul class="list-decimal">
                 <li>Make a glow in the dark jar/bottle with the stickers and paint.</li>
                 <li>Paint on the inside of the bottle and paste stickers on the outside.</li>
             </ul>
-            <img src="{{ asset('assets/images/pptimages/d14.png') }}" class="w-[336px] float-right" />
+            <img src="{{ asset('assets/images/pptimages/d14.png') }}" class="large-img float-right" />
         </div>
         <p class="note ">Note: Teacher to assist children with the materials, especially if glass jars are used.</p>
     </div>
 
 
     {{-- slide 14 --}}
-    <div class="flex flex-col items-center justify-center space-y-20 slide hidden">
+    <div class="flex flex-col items-center justify-center slide hidden">
         <div class="title stroke text-start px-4">
             <h2>let's do:</h2>
             <ul>
                 <li>3. Close the jar/bottle.</li>
                 <li>4. Switch off the lights in the class and get look at everyone’s jar/bottles.</li>
             </ul>
-            <img src="{{ asset('assets/images/pptimages/d15.png') }}" class="w-[336px] float-right" />
+            <img src="{{ asset('assets/images/pptimages/d15.png') }}" class="large-img float-right" />
         </div>
         <p class="note ">Note: Teacher to assist children with the materials, especially if glass jars are used.</p>
     </div>
@@ -209,8 +216,8 @@
     {{-- slide 15 --}}
     <div class="flex flex-col items-center justify-center gap-3 slide hidden">
         <div class=" flex gap-10  ">
-            <img src="{{ asset('assets/images/pptimages/dark1.png') }} " class="w-[430px]" />
-            <img src="{{ asset('assets/images/pptimages/d14.png') }}" class="w-[430px]" />
+            <img src="{{ asset('assets/images/pptimages/dark1.png') }} " class="large-img" />
+            <img src="{{ asset('assets/images/pptimages/d14.png') }}" class="large-img" />
         </div>
         <h2 class="title stroke"> <span class="text-white">Glow-in-the-dark</span> items store
             <span class="text-white">light energy</span> when they are placed in a bright
@@ -222,8 +229,8 @@
     {{-- slide 16 --}}
     <div class="flex flex-col items-center justify-center gap-3 slide hidden">
         <div class=" flex gap-10  ">
-            <img src="{{ asset('assets/images/pptimages/dark2.png') }} " class="w-[430px]" />
-            <img src="{{ asset('assets/images/pptimages/d15.png') }}" class="w-[430px]" />
+            <img src="{{ asset('assets/images/pptimages/dark2.png') }} " class="large-img" />
+            <img src="{{ asset('assets/images/pptimages/d15.png') }}" class="large-img" />
         </div>
         <h2 class="title stroke"> When it’s dark, the Glow-in-the-dark items will glow brightly
             until all the light energy is used up.</h2>
@@ -232,11 +239,11 @@
     {{-- slide 17 --}}
     <div class="flex flex-col items-center justify-center gap-3 slide hidden">
         <div class=" flex gap-10  ">
-            <img src="{{ asset('assets/images/pptimages/d10.png') }} " class="w-[430px]" />
-            <img src="{{ asset('assets/images/pptimages/d9.png') }}" class="w-[430px]" />
+            <img src="{{ asset('assets/images/pptimages/d10.png') }} " class="large-img" />
+            <img src="{{ asset('assets/images/pptimages/d9.png') }}" class="large-img" />
         </div>
         <h2 class="title stroke">Besides toys, fireflies and jellyfish can glow in the
-            dark too!h2>
+            dark too!<h2>
     </div>
 
 
@@ -244,9 +251,10 @@
     <div class="flex flex-col items-center justify-center gap-5 slide hidden">
 
         <h2 class="title stroke stroke">Learning Journal </h2>
-        <div class=" relative ">
-            <p class="absolute top-0 left-0 text-[24px] ">Draw the items that glow in the dark!</p>
-            <img src="{{ asset('assets/images/pptimages/dark4.png') }}" />
+        <div class="w-[40vw] h-[40vh] bg-cover bg-center bg-size-[35vw] "
+            style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
+            <p class="text-[1vw] ">Draw the items that glow in the dark!</p>
+
         </div>
 
     </div>
@@ -256,67 +264,39 @@
 
 
     {{-- Complete/Done Butttom --}}
-    <div class="absolute bottom-[85px]">
-        <button
-            class="cursor-pointer doneButton w-66 h-[75px] relative bg-[#F8A23A] rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
-                    outline outline-1 outline-yellow-700 overflow-hidden">
-            <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
-            <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" />
-            </div>
-            <span
-                class="absolute left-[80px] top-[18px] flex items-center  text-white text-5xl font-bold stroke">DONE</span>
+    <div class="down-btn-container">
+        <button class="doneButton">
+            <img src="{{ asset('assets/images/pptimages/done.png') }}" />
         </button>
     </div>
 
     {{-- Buttons --}}
- <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
+    <div id="buttons" class="absolute  flex flex-row ">
 
         <!-- Return Button -->
-        <a class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
-            id="returnButton">
-            <img class="absolute top-[6px] left-[8px] w-20 h-10"
-                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] w-14 h-14"
-                src="{{ asset('assets/images/pptimages/reverse-icon.png') }}" />
+        <a id="returnButton">
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
 
         <!-- Home Button -->
-        <button
-            class="relative w-24 h-24 button-fade-in bg-sky-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
-            id="homeButton">
-            <img class="absolute top-[6px] left-[8px] w-20 h-10"
-                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] w-14 h-14"
-                src="{{ asset('assets/images/pptimages/home-icon.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
-        <button class="relative w-24 h-24 button-fade-in cursor-pointer" id="closeButton">
-            <div
-                class="absolute inset-0 bg-red-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-red-900">
-            </div>
-            <img class="absolute top-[6px] left-[8px] w-20 h-10"
-                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <div id="closeButtonText"
-                class="absolute top-[16px] left-[30px] w-11 h-16 text-white text-6xl font-normal font-['Jua']">X
-            </div>
+        <button id="closeButton">
+
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
+
         </button>
 
     </div>
 
     {{-- next Button --}}
-    <div class="absolute bottom-[85px]">
+    <div class="down-btn-container">
 
-        <button
-            class="cursor-pointer nextButton w-66 h-[75px] relative bg-[#F8A23A]  rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
-        outline outline-1 outline-yellow-700 overflow-hidden">
-            <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
-            <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" /> </div>
-            <span class="absolute left-[80px] top-[18px] flex items-center  text-white text-5xl font-bold stroke">NEXT
-            </span>
+        <button class="nextButton">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
         </button>
     </div>
 
@@ -330,54 +310,65 @@
 @push('script')
     <script>
         document.addEventListener("DOMContentLoaded", () => {
+            // Get all elements
             const slides = document.querySelectorAll(".slide");
-            const nextButtons = document.querySelectorAll(".nextButton");
-            const returnButton = document.getElementById("returnButton");
-            const doneButton = document.querySelector(".doneButton");
+            const nextBtn = document.querySelector(".nextButton");
+            const returnBtn = document.getElementById("returnButton");
+            const doneBtn = document.querySelector(".doneButton");
 
-            let currentSlide = 0;
+            // Current slide position
+            let currentIndex = 0;
 
+            // Show slide and update buttons
             function showSlide(index) {
-                slides.forEach((slide, i) => {
-                    slide.classList.toggle("hidden", i !== index);
-                });
-                if (index === slides.length - 1) {
-                    nextButtons.forEach(btn => btn.classList.add("hidden"));
-                    if (doneButton) doneButton.classList.remove("hidden");
+                // Hide all slides
+                slides.forEach(slide => slide.classList.add("hidden"));
+
+                // Show current slide
+                slides[index].classList.remove("hidden");
+
+                // Update index
+                currentIndex = index;
+
+                // Check if last slide
+                const isLastSlide = (index === slides.length - 1);
+
+                if (isLastSlide) {
+                    // Last slide: hide Next, show Done
+                    nextBtn.style.display = "none";
+                    doneBtn.style.display = "block";
                 } else {
-                    nextButtons.forEach(btn => btn.classList.remove("hidden"));
-                    if (doneButton) doneButton.classList.add("hidden");
+                    // Not last slide: show Next, hide Done
+                    nextBtn.style.display = "block";
+                    doneBtn.style.display = "none";
                 }
             }
 
-            // ✅ prevent reload on all buttons
-            document.querySelectorAll("button").forEach(btn => {
-                btn.addEventListener("click", e => e.preventDefault());
-            });
-
-            nextButtons.forEach((btn) => {
-                btn.addEventListener("click", () => {
-                    if (currentSlide < slides.length - 1) {
-                        currentSlide++;
-                        showSlide(currentSlide);
-                    }
-                });
-            });
-
-            returnButton.addEventListener("click", () => {
-                if (currentSlide > 0) {
-                    currentSlide--;
-                    showSlide(currentSlide);
+            // Next button
+            nextBtn.addEventListener("click", () => {
+                if (currentIndex < slides.length - 1) {
+                    showSlide(currentIndex + 1);
                 }
             });
 
-            if (doneButton) {
-                doneButton.addEventListener("click", () => {
+            // Return button
+            returnBtn.addEventListener("click", () => {
+                if (currentIndex === 0) {
+                    // On first slide: redirect to route
                     window.location.href = "{{ route('darkSelection') }}";
-                });
-            }
+                } else {
+                    // Not first slide: go back
+                    showSlide(currentIndex - 1);
+                }
+            });
 
-            showSlide(currentSlide);
+            // Done button
+            doneBtn.addEventListener("click", () => {
+                window.location.href = "{{ route('darkSelection') }}";
+            });
+
+            // Start at first slide
+            showSlide(0);
         });
     </script>
 @endpush

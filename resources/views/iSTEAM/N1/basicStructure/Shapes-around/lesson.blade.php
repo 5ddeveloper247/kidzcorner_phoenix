@@ -2,17 +2,14 @@
 @section('title', 'Dynamic Presentation')
 
 @section('content')
+    {{-- title --}}
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">Shapes Around Us</h2>
 
     {{-- slide 0 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="title stroke">Develop awareness that all things have shapes and structures; explore and create different
             structures using shapes.</h2>
-        <div class="flex">
-            <img src="{{ asset('assets/images/pptimages/s7.png') }}" class="!max-w-[336px]" />
-            <img src="{{ asset('assets/images/pptimages/s6.png') }}" class="!max-w-[336px]" />
-            <img src="{{ asset('assets/images/pptimages/s4.png') }}" class="!max-w-[336px]" />
-        </div>
-
+        <img src="{{ asset('assets/images/pptimages/gl10.png') }}">
         <p class="note">Note: Recap with children the shapes used.</p>
     </div>
 
@@ -21,8 +18,7 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="title stroke">This is a van created using the<br />squares and circles.</h2>
 
-        <img src="{{ asset('assets/images/pptimages/s4.png') }}"
-            class="max-w-[500px] sm:max-w-[600px] lg:max-w-[536px] border-[5px] border-amber-300" />
+        <img src="{{ asset('assets/images/pptimages/s4.png') }}" class="large-img2" />
 
         <p class="note">Note: Encourage the children share what do they see.</p>
     </div>
@@ -32,15 +28,14 @@
         <h2 class="title stroke">These shapes form the outline of a van,<br />like a drawing of a van on a piece of paper.
         </h2>
 
-        <img src="{{ asset('assets/images/pptimages/s4.png') }}"
-            class="max-w-[500px] sm:max-w-[600px] lg:max-w-[536px] border-[5px] border-amber-300" />
+        <img src="{{ asset('assets/images/pptimages/s4.png') }}" class="large-img2" />
     </div>
 
 
     {{-- slide 3 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
         <h2 class="title">This image is two-dimensional, it is flat. </h2>
-        <img src="{{ asset('assets/images/pptimages/s4.png') }}" class="max-w-[500px] sm:max-w-[600px] lg:max-w-[536px]" />
+        <img src="{{ asset('assets/images/pptimages/s4.png') }}" class="large-img2" />
         <p class="note">Note: Guide children to share their answers.</p>
     </div>
 
@@ -55,50 +50,55 @@
     {{-- slide 5 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
         <h2 class="stroke title">Look at this gift box. What <span class="text-white">shape</span> do you see?</h2>
-        <img src="{{ asset('assets/images/pptimages/r31.png') }}" />
+        <img src="{{ asset('assets/images/pptimages/r31.png') }}" class="large-img2" />
         <p class="note">Note: Encourage children to answer.</p>
     </div>
 
     {{-- slide 6 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
         <h2 class="stroke title">It looks like a<span class="text-white"> square!</span></h2>
-        <div class="flex items-center">
-            <img src="{{ asset('assets/images/pptimages/r31.png') }}" class="w-[4360x]" />
-
-            <div class="w-[336px] h-[336px] border border-4 border-red-500"></div>
-        </div>
+        <img src="{{ asset('assets/images/pptimages/gl11.png') }}">
     </div>
 
     {{-- slide 7 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
         <h2 class="stroke title">But this gift box is not <span class="text-white">flat</span>.</h2>
-        <div class="flex items-center">
-            <img src="{{ asset('assets/images/pptimages/r31.png') }}" class="w-[4360x]" />
-
-            <div class="w-[336px] h-[336px] border border-4 border-red-500"></div>
-        </div>
+        <img src="{{ asset('assets/images/pptimages/gl11.png') }}">
     </div>
 
 
     {{-- slide 8 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-
         <h2 class="title">The gift box takes up space and it has many sides.</h2>
-        <img src="{{ asset('assets/images/pptimages/r33.png') }}" />
+        <img src="{{ asset('assets/images/pptimages/r33.png') }}" class="large-img2" />
     </div>
 
     {{-- slide 9 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
 
-        <img src="{{ asset('assets/images/pptimages/B-box.png') }}" />
+        <img src="{{ asset('assets/images/pptimages/B-box.png') }}" class="large-img2" />
 
         <h2 class="title">Each side of the giftbox is like a square! Let’s count how many squares are needed.</h2>
+        <!-- Video Trigger Button -->
+        <div onclick="toggleVideo('video1')"
+            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
+            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
+            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
+            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+        </div>
     </div>
 
     {{-- slide 10 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <img src="{{ asset('assets/images/pptimages/B-box.png') }}" />
+        <img src="{{ asset('assets/images/pptimages/B-box.png') }}" class="large-img2" />
         <h2 class="title">The gift box has 6 sides.</h2>
+        <!-- Video Trigger Button -->
+        <div onclick="toggleVideo('video1')"
+            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
+            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
+            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
+            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+        </div>
     </div>
 
 
@@ -106,85 +106,86 @@
     <div class="flex flex-col justify-center  slide hidden">
         <div class="flex flex-col items-center justify-center">
             <h2 class="title !text-white stroke">individual Activity 1</h2>
-            <img src="{{ asset('assets/images/pptimages/r32.png') }}" />
+            <img src="{{ asset('assets/images/pptimages/r32.png') }}" class="large-img" />
         </div>
         <div class="flex items-start">
-            <h2 class="title stroke text-start !text-[48px]">Let's do:<br> Let’s make a box! </h2>
+            <h2 class="title stroke text-start ">Let's do:<br> Let’s make a box! </h2>
         </div>
         <p class="note">Note: Teacher to pack 6 pieces of square tiles for each child and work in small groups.</p>
     </div>
 
     {{-- slide 13 --}}
-    <div class="flex flex-col  slide hidden">
+    <div class="flex flex-col items-center  slide hidden">
         <div class="title stroke text-start">
             <h2>let's do:</h2>
             <ul class="list-decimal list-inside ">
                 <li>Put three square tiles like this.</li>
             </ul>
-            <img src="{{ asset('assets/images/pptimages/r34.png') }}" />
         </div>
+        <img src="{{ asset('assets/images/pptimages/r34.png') }}" class="large-img2" />
         <p class="note  text-center">Note: Teacher will demonstrate this in class with a real box.</p>
     </div>
 
 
 
     {{-- slide 14 --}}
-    <div class="flex flex-col  slide hidden">
+    <div class="flex flex-col items-center  slide hidden">
         <div class="title stroke text-start">
             <h2>let's do:</h2>
             <ul class="list-decimal list-inside ">
                 <li>2. Lift up the two squares at the side and let them stick together.</li>
             </ul>
-            <img src="{{ asset('assets/images/pptimages/r35.png') }}" />
         </div>
+        <img src="{{ asset('assets/images/pptimages/r35.png') }}" class="large-img2" />
         <p class="note  text-center">Note: Teacher to guide the children and assist them.</p>
     </div>
 
     {{-- slide 15 --}}
-    <div class="flex flex-col  slide hidden">
+    <div class="flex flex-col items-center slide hidden">
         <div class="title stroke text-start">
             <h2>let's do:</h2>
             <ul class="list-decimal list-inside ">
                 <li>3. Attach one square tile on the side as shown below.</li>
             </ul>
-            <img src="{{ asset('assets/images/pptimages/r36.png') }}" />
         </div>
+        <img src="{{ asset('assets/images/pptimages/r36.png') }}" class="large-img2" />
         <p class="note  text-center">Note: Teacher to guide the children and assist them.</p>
     </div>
 
     {{-- slide 16 --}}
-    <div class="flex flex-col  slide hidden">
+    <div class="flex flex-col items-center slide hidden">
         <div class="title stroke text-start">
             <h2>let's do:</h2>
             <ul class="list-decimal list-inside ">
                 <li>4. Place one more square tile on the other side.</li>
             </ul>
-            <img src="{{ asset('assets/images/pptimages/r37.png') }}" />
         </div>
+        <img src="{{ asset('assets/images/pptimages/r37.png') }}" class="large-img2" />
         <p class="note  text-center">Note: Teacher to guide the children and assist them. You may wish to prepare
             the 6 pieces of square this beforehand.</p>
     </div>
 
     {{-- slide 17 --}}
-    <div class="flex flex-col  slide hidden">
+    <div class="flex flex-col items-center slide hidden">
         <div class="title stroke text-start">
             <h2>let's do:</h2>
             <ul class="list-decimal list-inside ">
                 <li>5. Attach one square tile on the top to complete the box.</li>
                 <li>6. The structure the box is completed.</li>
             </ul>
-            <img src="{{ asset('assets/images/pptimages/r38.png') }}" />
         </div>
+        <img src="{{ asset('assets/images/pptimages/r38.png') }}" class="large-img2" />
         <p class="note  text-center">Note: Teacher to guide the children and assist them.</p>
     </div>
 
 
     {{-- slide 18 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <h2 class="stroke title">When pieces of <span class="text-white">shapes</span> are placed together like this,<br />a
+        <h2 class="stroke title">When pieces of <span class="text-white">shapes</span> are placed together like
+            this,<br />a
             <span class="text-white">structure</span> of a box is created.
         </h2>
-        <img src="{{ asset('assets/images/pptimages/r39.png') }}" />
+        <img src="{{ asset('assets/images/pptimages/r39.png') }}" class="large-img2" />
     </div>
 
 
@@ -193,7 +194,7 @@
     <div class="flex flex-col items-center justify-center  slide hidden">
         <h2 class="stroke title">This <span class="text-white">structure</span> is not flat!<br />It is three dimensional
             just like the box.</h2>
-        <img src="{{ asset('assets/images/pptimages/r39.png') }}" />
+        <img src="{{ asset('assets/images/pptimages/r39.png') }}" class="large-img2" />
     </div>
 
 
@@ -201,7 +202,7 @@
     <div class="flex flex-col items-center justify-center  slide hidden">
         <h2 class="stroke title">Look at these <span class="text-white">structures</span>. They are not <span
                 class="text-white">flat</span>!</h2>
-        <img src="{{ asset('assets/images/pptimages/r40.png') }}" />
+        <img src="{{ asset('assets/images/pptimages/r40.png') }}" class="large-img2" />
     </div>
 
     {{-- slide 19 --}}
@@ -263,10 +264,10 @@
     <div class="flex flex-col justify-center  slide hidden">
         <div class="flex flex-col items-center justify-center">
             <h2 class="title !text-white stroke">Class Activity 2</h2>
-            <img src="{{ asset('assets/images/pptimages/r40.png') }}" />
+            <img src="{{ asset('assets/images/pptimages/r40.png') }}" class="large-img2" />
         </div>
         <div class="flex items-start">
-            <h2 class="title stroke text-start !text-[48px]">Let's do:<br>Create a structure using the magnetic tiles.</h2>
+            <h2 class="title stroke text-start ">Let's do:<br>Create a structure using the magnetic tiles.</h2>
         </div>
         <p class="note">Note: Encourage children to explore how the tiles can be attached to create different structures.
             There is no right or wrong creations, encourage children to explore and work on the materials freely.</p>
@@ -275,7 +276,7 @@
 
 
     {{-- slide 27 --}}
-     <div class="flex flex-col  slide hidden">
+    <div class="flex flex-col  slide hidden">
         <div class="title stroke text-start">
             <h2>let's do:</h2>
             <ul class="list-decimal list-inside ">
@@ -311,12 +312,8 @@
     {{-- slide 29 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="title stroke">Images are two dimensional and they are flat.</h2>
-        <div class="flex">
+        <img src="{{ asset('assets/images/pptimages/gl10.png') }}" />
 
-            <img src="{{ asset('assets/images/pptimages/s7.png') }}" class="lg:max-w-[336px]" />
-            <img src="{{ asset('assets/images/pptimages/s6.png') }}" class="lg:max-w-[336px]" />
-            <img src="{{ asset('assets/images/pptimages/s4.png') }}" class="lg:max-w-[336px]" />
-        </div>
     </div>
 
     {{-- slide 30 --}}
@@ -324,8 +321,8 @@
         <h2 class="title stroke">Things around us are not flat.They are three dimensional and they take up space.</h2>
         <div class="flex">
 
-            <img src="{{ asset('assets/images/pptimages/r33.png') }}" class="lg:max-w-[336px]" />
-            <img src="{{ asset('assets/images/pptimages/r30.png') }}" class="lg:max-w-[336px]" />
+            <img src="{{ asset('assets/images/pptimages/r33.png') }}" class="large-img" />
+            <img src="{{ asset('assets/images/pptimages/r30.png') }}" class="large-img" />
         </div>
     </div>
 
@@ -348,15 +345,9 @@
 
 
     {{-- Complete/Done Butttom --}}
-    <div class="absolute bottom-[80px]">
-        <button
-            class="cursor-pointer doneButton w-66 h-[75px] relative bg-[#F8A23A] rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
-                    outline outline-1 outline-yellow-700 overflow-hidden">
-            <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
-            <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" />
-            </div>
-            <span
-                class="absolute left-[80px] top-[18px] flex items-center  text-white text-5xl font-bold stroke">DONE</span>
+    <div class="down-btn-container">
+        <button class="doneButton">
+            <img src="{{ asset('assets/images/pptimages/done.png') }}" />
         </button>
     </div>
 
@@ -364,51 +355,29 @@
     <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
 
         <!-- Return Button -->
-        <a class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
-            id="returnButton">
-            <img class="absolute top-[6px] left-[8px] w-20 h-10"
-                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] w-14 h-14"
-                src="{{ asset('assets/images/pptimages/reverse-icon.png') }}" />
+        <a id="returnButton">
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
 
         <!-- Home Button -->
-        <button
-            class="relative w-24 h-24 button-fade-in bg-sky-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
-            id="homeButton">
-            <img class="absolute top-[6px] left-[8px] w-20 h-10"
-                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] w-14 h-14"
-                src="{{ asset('assets/images/pptimages/home-icon.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
-        <button class="relative w-24 h-24 button-fade-in cursor-pointer" id="closeButton">
-            <div
-                class="absolute inset-0 bg-red-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-red-900">
-            </div>
-            <img class="absolute top-[6px] left-[8px] w-20 h-10"
-                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <div id="closeButtonText"
-                class="absolute top-[16px] left-[30px] w-11 h-16 text-white text-6xl font-normal font-['Jua']">X
-            </div>
+        <button id="closeButton">
+
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
+
         </button>
 
     </div>
 
     {{-- next Button --}}
-    <div class="absolute bottom-[80px]">
+    <div class="down-btn-container">
 
-        <button
-            class="cursor-pointer nextButton w-66 h-[75px] relative bg-[#F8A23A]  rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
-        outline outline-1 outline-yellow-700 overflow-hidden">
-            <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
-            <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" /> </div>
-            <span class="absolute left-[80px] top-[18px] flex items-center  text-white text-5xl font-bold stroke">NEXT
-            </span>
+        <button class="nextButton">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
         </button>
     </div>
 @endsection
@@ -418,52 +387,65 @@
 @push('script')
     <script>
         document.addEventListener("DOMContentLoaded", () => {
+            // Get all elements
             const slides = document.querySelectorAll(".slide");
-            const nextButtons = document.querySelectorAll(".nextButton");
-            const returnButton = document.getElementById("returnButton");
-            const doneButton = document.querySelector(".doneButton"); // ✅ DONE button
+            const nextBtn = document.querySelector(".nextButton");
+            const returnBtn = document.getElementById("returnButton");
+            const doneBtn = document.querySelector(".doneButton");
 
-            let currentSlide = 0;
+            // Current slide position
+            let currentIndex = 0;
 
+            // Show slide and update buttons
             function showSlide(index) {
-                slides.forEach((slide, i) => {
-                    slide.classList.toggle("hidden", i !== index);
-                });
-                if (index === slides.length - 1) {
-                    nextButtons.forEach(btn => btn.classList.add("hidden"));
-                    if (doneButton) doneButton.classList.remove("hidden");
+                // Hide all slides
+                slides.forEach(slide => slide.classList.add("hidden"));
+
+                // Show current slide
+                slides[index].classList.remove("hidden");
+
+                // Update index
+                currentIndex = index;
+
+                // Check if last slide
+                const isLastSlide = (index === slides.length - 1);
+
+                if (isLastSlide) {
+                    // Last slide: hide Next, show Done
+                    nextBtn.style.display = "none";
+                    doneBtn.style.display = "block";
                 } else {
-                    nextButtons.forEach(btn => btn.classList.remove("hidden"));
-                    if (doneButton) doneButton.classList.add("hidden");
+                    // Not last slide: show Next, hide Done
+                    nextBtn.style.display = "block";
+                    doneBtn.style.display = "none";
                 }
             }
 
-            //  NEXT buttons listener
-            nextButtons.forEach((btn) => {
-                btn.addEventListener("click", () => {
-                    if (currentSlide < slides.length - 1) {
-                        currentSlide++;
-                        showSlide(currentSlide);
-                    }
-                });
-            });
-
-            //  Return button
-            returnButton.addEventListener("click", () => {
-                if (currentSlide > 0) {
-                    currentSlide--;
-                    showSlide(currentSlide);
+            // Next button
+            nextBtn.addEventListener("click", () => {
+                if (currentIndex < slides.length - 1) {
+                    showSlide(currentIndex + 1);
                 }
             });
 
-            if (doneButton) {
-                doneButton.addEventListener("click", () => {
+            // Return button
+            returnBtn.addEventListener("click", () => {
+                if (currentIndex === 0) {
+                    // On first slide: redirect to route
                     window.location.href = "{{ route('Shape-aroundSelection') }}";
-                });
-            }
+                } else {
+                    // Not first slide: go back
+                    showSlide(currentIndex - 1);
+                }
+            });
 
-            //  Start with first slide
-            showSlide(currentSlide);
+            // Done button
+            doneBtn.addEventListener("click", () => {
+                window.location.href = "{{ route('Shape-aroundSelection') }}";
+            });
+
+            // Start at first slide
+            showSlide(0);
         });
     </script>
 @endpush

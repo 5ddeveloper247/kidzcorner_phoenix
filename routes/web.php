@@ -2722,7 +2722,7 @@ Route::get('/ElectronicCircuits/Mchines-Electricity/teacher', function () {
 
 
 
-// K2 -> FinalProject
+// K2 -> electroniccircuit
 Route::get('/Circuit', function () {
     return view('iSTEAM.K2.ElectronicCircuits.circuit.index');
 })->name('circuit');
@@ -2743,7 +2743,7 @@ Route::get('/ElectronicCircuits/Circuit/teacher', function () {
 })->name('circuitTeacher');
 
 
-// K2 -> FinalProject
+// K2 -> electroniccircuit
 Route::get('/Playdough-Circuits', function () {
     return view('iSTEAM.K2.ElectronicCircuits.circuit2.index');
 })->name('circuit2');
@@ -2764,7 +2764,7 @@ Route::get('/ElectronicCircuits/Playdough-Circuits/teacher', function () {
 })->name('circuit2Teacher');
 
 
-// K2 -> FinalProject
+// K2 -> electroniccircuit
 Route::get('/Makey1', function () {
     return view('iSTEAM.K2.ElectronicCircuits.makey1.index');
 })->name('makey1');
@@ -2783,6 +2783,49 @@ Route::get('/Makey1/lesson', function () {
 Route::get('/ElectronicCircuits/Makey1/teacher', function () {
     return view('iSTEAM.K2.ElectronicCircuits.makey1.teacher');
 })->name('makey1Teacher');
+
+// K2 -> electroniccircuit
+Route::get('/Makey2', function () {
+    return view('iSTEAM.K2.ElectronicCircuits.makey2.index');
+})->name('makey2');
+
+// K2 -> ElectronicCircuits -> makey2 -> select
+Route::get('/Makey2/Choice', function () {
+    return view('iSTEAM.K2.ElectronicCircuits.makey2.selection');
+})->name('makey2Selection');
+
+// K2 -> ElectronicCircuits -> makey2 -> lesson
+Route::get('/Makey2/lesson', function () {
+    return view('iSTEAM.K2.ElectronicCircuits.makey2.lesson');
+})->name('makey2Lesson');
+
+// K2 -> ElectronicCircuits -> makey2 -> teacher
+Route::get('/ElectronicCircuits/Makey2/teacher', function () {
+    return view('iSTEAM.K2.ElectronicCircuits.makey2.teacher');
+})->name('makey2Teacher');
+
+
+// K2 -> electroniccircuit
+Route::get('/Makey3', function () {
+    return view('iSTEAM.K2.ElectronicCircuits.makey3.index');
+})->name('makey3');
+
+// K2 -> ElectronicCircuits -> makey3 -> select
+Route::get('/Makey3/Choice', function () {
+    return view('iSTEAM.K2.ElectronicCircuits.makey3.selection');
+})->name('makey3Selection');
+
+// K2 -> ElectronicCircuits -> makey3 -> lesson
+Route::get('/Makey3/lesson', function () {
+    return view('iSTEAM.K2.ElectronicCircuits.makey3.lesson');
+})->name('makey3Lesson');
+
+// K2 -> ElectronicCircuits -> makey3 -> teacher
+Route::get('/ElectronicCircuits/Makey3/teacher', function () {
+    return view('iSTEAM.K2.ElectronicCircuits.makey3.teacher');
+})->name('makey3Teacher');
+
+
 
 
 // ======
