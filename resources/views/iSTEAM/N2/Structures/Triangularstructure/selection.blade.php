@@ -73,8 +73,8 @@
 @section('content')
 
 
-    <div class=" flex items-center flex-col justify-center text-center z-[99] w-full">
-        <h2 class="text-[50px] text-[#F7B94A] stroke">What are Structures?</h2>
+    <div class=" flex items-center flex-col justify-center text-center z-[99] w-full gap-5">
+        <h2 class="text-[50px] text-[#F7B94A] stroke">Triangular Structures</h2>
         <div class="flex items-center justify-around w-full">
 
             {{-- Lesson Button --}}

@@ -1,33 +1,13 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
-
-@push('style')
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-    <style>
-        button {
-            cursor: pointer !important;
-        }
-
-        a {
-            cursor: pointer;
-
-        }
-    </style>
-@endpush
-
-
-
+ 
 @section('content')
-
-
     {{-- Slide 1 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
         <img src="/assets/images/K1/coding/challenge3/ch1.png" />
         <h2 class="title stroke">Children, do you know how to spell your name?</h2>
         <p class="note">Note: Have children spell their names.</p>
     </div>
-
-
 
     {{-- Slide 2 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">

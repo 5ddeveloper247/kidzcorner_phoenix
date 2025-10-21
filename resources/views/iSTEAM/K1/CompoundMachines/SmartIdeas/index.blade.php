@@ -1,15 +1,11 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
-
  
-
-
-
 @section('content')
 
     <div id="topDiv" class="flex flex-col  h-[90%] items-center ">
-        <div class="  text-amber-300 text-[65px] font-extrabold stroke">Smart Ideas for my Machine</div>
-        <h2 class="text-2xl sm:text-3xl lg:text-6xl text-white stroke ">Explore and learn how to set up
+        <div class="  title !text-[55px]  stroke">Smart Ideas for my Machine</div>
+        <h2 class="text-2xl sm:text-3xl lg:text-5xl text-white stroke ">Explore and learn how to set up
             different parts of a Rube Goldberg Machine creatively</h2>
 
         <button

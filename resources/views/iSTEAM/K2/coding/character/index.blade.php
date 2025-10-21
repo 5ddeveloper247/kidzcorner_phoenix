@@ -4,7 +4,7 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col  gap-20 items-center gap-[8rem] ">
-        <div class="  text-amber-300 text-[65px] font-extrabold stroke">Animate the Character</div>
+        <div class="  title !text-[55px]  stroke">Animate the Character</div>
         <h2 class="text-2xl sm:text-3xl lg:text-4xl text-white stroke ">
           Learn how to programme a character to move at different <br>
 speeds; create programmes to animate characters <br>
@@ -22,7 +22,7 @@ based on the samples provided</h2>
 
 
     
-    <div id="buttons" class="absolute top-[30px] right-[60px] flex flex-row gap-6 z-40">
+    <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
         <!-- Return Button -->
         <button class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] " id="returnButton">
             <img class="absolute top-[6px] left-[8px] w-20 h-10" src="{{ asset('assets/images/pptimages/Vector4.png') }}" />

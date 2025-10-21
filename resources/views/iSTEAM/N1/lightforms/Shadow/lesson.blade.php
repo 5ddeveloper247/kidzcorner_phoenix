@@ -1,23 +1,7 @@
 @extends('layout.master')
 
 @section('title', 'Dynamic Presentation')
-
-@push('style')
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-    <style>
-        button {
-            cursor: pointer !important;
-        }
-
-        a {
-            cursor: pointer;
-
-        }
-    </style>
-@endpush
-
-
-@section('content')
+ @section('content')
 
 {{-- title --}}
 <h2 class="title !text-[55px] stroke absolute top-[30px] z-[100]">Light and Shadow</h2>

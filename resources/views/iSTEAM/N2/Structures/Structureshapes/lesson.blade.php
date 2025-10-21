@@ -1,428 +1,390 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
-
-@push('style')
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-    <style>
-        button {
-            cursor: pointer !important;
-        }
-
-        a {
-            cursor: pointer;
-
-        }
-    </style>
-@endpush
-
-
-
+ 
 @section('content')
 
 
     {{-- Slide 1 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <img src="/assets/images/N2/structure/str/st1.png" />
-        <h2 class="title stroke">Children, what do you see in the pictures?</h2>
+    <div class="slide flex flex-col items-center justify-center gap-6 ">
+        <div class="flex flex-col gap-1 justify-center items-center">
+            <img src="/assets/images/N2/structure/str2/s1.png" />
+            <img src="/assets/images/N2/structure/str2/s2.png" />
+        </div>
+        <h2 class="title stroke">Children, do you remember what these are?</h2>
         <p class="note">Note: Guide children to share their answers.</p>
     </div>
 
 
     {{-- Slide 2 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <img src="/assets/images/N2/structure/str/st3.png" />
-        <h2 class="title stroke">These are tall buildings, an observation wheel and a tower.</h2>
-        <p class="note">Note: Guide children to share what they see and describe the look and shape of these building
-            structures.</p>
+    <div class="slide flex flex-col items-center justify-center gap-6 ">
+        <div class="flex flex-col gap-1 justify-center items-center">
+            <img src="/assets/images/N2/structure/str2/s1.png" />
+            <img src="/assets/images/N2/structure/str2/s2.png" />
+        </div>
+        <h2 class="title stroke">These are different <span class="text-white">structures</span> with different <span
+                class="text-white">shapes</span>.</h2>
+        <p class="note">Note: Guide children to point out the shapes they see.</p>
     </div>
 
 
     {{-- Slide3 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <img src="/assets/images/N2/structure/str/st1.png" />
-        <h2 class="title stroke">These are different types of <span class="text-white">structures</span>.</h2>
-        <p class="note">Note: Tell the children that tall buildings are called skyscrapers.</p>
+    <div class="slide flex flex-col items-center justify-center gap-6 ">
+        <div class="flex flex-col gap-1 justify-center items-center">
+            <img src="/assets/images/N2/structure/str2/s1.png" />
+            <img src="/assets/images/N2/structure/str2/s2.png" />
+        </div>
+        <h2 class="title stroke">The <span class="text-white">structures</span> have a base that helps them
+            stand firmly on the ground.</h2>
     </div>
 
 
     {{-- Slide 4 --}}
-    <div class="slide flex flex-col items-center justify-center ">
-        <img src="/assets/images/N2/structure/str/st2.png" />
-        <h2 class="title stroke">House and bridges are <span class="text-white">structures</span> too.</h2>
-        <p class="note">Note: Encourage children to think of other building structures that they know of e.g. muesum,
-            schools etc.</p>
-
+    <div class="slide flex flex-col items-center justify-center gap-6 ">
+        <div class="flex  justify-center items-center">
+            <img src="/assets/images/N2/structure/str2/s3.png" />
+            <img src="/assets/images/N2/structure/str2/s4.png" />
+        </div>
+        <h2 class="title stroke">Children, do you remember the two <span class="text-white">structures</span> you
+            had made in the last lesson?</h2>
     </div>
 
 
     {{-- Slide 5  --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <h2 class="text-start title stroke">A <span class="text-white">structures</span> is something made by putting small
-            parts together. When the parts are put together, <br>forms a <span class="text-white">shape</span>.</h2>
+    <div class="slide flex flex-col items-center justify-center gap-6 ">
+        <div class="flex  gap-3 justify-center items-center">
+            <img src="/assets/images/N2/structure/str2/s5.png" />
+            <img src="/assets/images/N2/structure/str2/s6.png" />
+        </div>
+        <h2 class="title stroke">We learned that the <span class="text-white">structure</span> with a <span
+                class="text-white">thin base</span>
+            cannot stand on its own.</h2>
     </div>
 
 
 
     {{-- slide 6 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <img src="/assets/images/N2/structure/str/st1.png" />
-        <h2 class="text-start title stroke">What shapes do you see in these structures?</h2>
-        <p class="note">Note: Encourage children to share their answers.</p>
+    <div class="slide flex flex-col items-center justify-center gap-6 ">
+        <img src="/assets/images/N2/structure/str2/s7.png" />
+
+        <h2 class="title stroke">But the <span class="text-white">structure</span> with a <span class="text-white">wider
+                base</span> can support its
+            structure and is able to stand on its own.</h2>
     </div>
 
     {{-- Slide 7 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="/assets/images//N2/structure/str/st4.png" />
-        <h2 class="text-start title stroke">The tall buildings are shaped like rectangles. Some are tall
-            and some are short.</h2>
+    <div class="slide flex flex-col items-center justify-center gap-6 ">
+        <img src="/assets/images/N2/structure/str2/s8.png" />
+
+        <h2 class="title stroke">Similarly, there are also parts in this construction set
+            that can stand on their own.</h2>
     </div>
 
 
     {{-- Slide 8 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="/assets/images//N2/structure/str/st5.png" />
-        <h2 class="text-start title stroke">The observation wheel is like a circle.</h2>
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+
+
+        <img src="/assets/images/N2/structure/str2/s9.png" />
+
+
+
+        <h2 class="title stroke">These are blocks. These blocks can stand on their own.</h2>
     </div>
 
 
     {{-- slide 9 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="/assets/images//N2/structure/str/st6.png" />
-        <h2 class="text-start title stroke">This tower is shaped like a triangle. The bottom of the
-            tower is bigger than the top!</h2>
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+
+
+        <img src="/assets/images/N2/structure/str2/s10.png" />
+
+
+
+        <h2 class="title stroke">In fact, these blocks are <span class="text-white">structures</span> made
+            from the smaller pieces.</h2>
     </div>
 
 
     {{-- slide 10 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="/assets/images//N2/structure/str/st2.png" />
-        <h2 class="text-start title stroke">What shapes can you see here?</h2>
-        <p class="note">Note: Encourage children to share their answers.</p>
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+
+
+        <img src="/assets/images/N2/structure/str2/s11.png" />
+
+
+
+        <h2 class="title stroke">The <span class="text-white">square</span> pieces forms a <span
+                class="text-white">square</span> block.
+            This shape is known as a cube.</h2>
     </div>
 
 
     {{-- slide 11 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="/assets/images//N2/structure/str/st7.png" />
-        <h2 class="text-start title stroke">Triangles and rectangles can be found in the shape of a house.</h2>
-        <p class="note">Note: Encourage children to point out the shapes.</p>
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+
+
+        <img src="/assets/images/N2/structure/str2/s12.png" />
+
+
+
+        <h2 class="title stroke">Similarly, these pieces form a <span class="text-white"> triangular shaped</span>
+            block, called prism.</h2>
     </div>
 
 
     {{-- slide 12 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="/assets/images//N2/structure/str/st8.png" />
-        <h2 class="text-start title stroke">The bridge looks like long rectangle.</h2>
-        <p class="note">Note: Encourage children to point out the shape.</p>
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+
+
+        <img src="/assets/images/N2/structure/str2/s13.png" />
+
+
+
+        <h2 class="title stroke">These pieces forms a <span class="text-white"> rectangular</span> block.
+            It is call a cuboid.</h2>
     </div>
 
 
     {{-- slide 13 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="/assets/images//N2/structure/str/st9.png" />
-        <h2 class="text-start title stroke">The different structures are made up of many small
-            parts. Construction workers put these parts together.</h2>
+    <div class="slide hidden  flex flex-col items-center justify-start gap-[8rem] ">
+        <h2 class="title stroke !text-white !font-bold">Individual Activity 1</h2>
+        <h2 class="title stroke ">Create a block structure using the <br>
+parts from the construction set.</h2>
+        <p class="note">Note: Give each child a set of materials to carry out the activity.</p>
     </div>
 
     {{-- slide 14 --}}
-    <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="/assets/images//N2/structure/str/st9.png" />
-        <h2 class="title stroke">When the parts are placed together, it forms
-            the shape of the structure.</h2>
+    <div class="slide hidden  flex flex-col items-center justify-start  gap-7 ">
+        <div class="text-start">
+            <h2 class="title stroke ">Let’s do: <br>
+                1. Choose one of the following blocks that you would
+                like to make.
+            </h2>
+        </div>
+        <img src="/assets/images//N2/structure/str2/s14.png" />
+        <p class="note">Note: Give the children the set of materials according to their choices. Encourage the children
+            to try on their own first before showing them how the pieces can be fixed together.
+            Teacher can click on the labels to view the steps.</p>
     </div>
 
 
     {{-- slide 15 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="/assets/images//N2/structure/str/st10.png" />
-        <h2 class="title stroke">Look at this construction set!
-            There are many different small parts.</h2>
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+
+
+        <img src="/assets/images/N2/structure/str2/s15.png" />
+
+
+
+        <h2 class="title stroke">Besides using the pieces to create the block
+            structures, what other shapes can you create?</h2>
+        <p class="note">Note: Encourage children to share their answers.</p>
     </div>
 
 
     {{-- slide 16 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="/assets/images//N2/structure/str/st11.png" />
-        <h2 class="title stroke">These are the different <span class="text-white">connectors</span>.</h2>
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+
+
+        <img src="/assets/images/N2/structure/str2/s16.png" />
+
+
+
+        <h2 class="title stroke">In the last lesson, the square structure created is
+            similar to a picture frame.</h2>
+        <p class="note">Note: Encourage children to identify the similarities.</p>
     </div>
 
     {{-- slide 17 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="/assets/images//N2/structure/str/st12.png" />
-        <h2 class="title stroke">These are the different pieces for construction.</h2>
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+
+
+        <img src="/assets/images/N2/structure/str2/s17.png" />
+
+
+
+        <h2 class="title stroke">The clothes hanger is in the shape of a triangle. Three
+            rectangle pieces can be put together to create a
+            triangular structure that looks like it.</h2>
     </div>
 
 
     {{-- slide 18 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="/assets/images//N2/structure/str/st13.png" />
-        <h2 class="title stroke">Let’s use these pieces to create a square structure!</h2>
-        <p class="note">Note: Ask the children how a square looks like; <br>
-            explain that a square has 4 equal sides and hence the 4 rectangles used must be the same size.</p>
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+
+
+        <img src="/assets/images/N2/structure/str2/s18.png" />
+
+
+
+        <h2 class="title stroke">Using more rectangle pieces, a rectangular structure
+            can be created to look like a wooden crate.</h2>
+        <p class="note">Note: Encourage children to identify the similarities.</p>
     </div>
 
 
     {{-- slide 19 --}}
-    <div class="slide hidden  flex flex-col items-center justify-between h-full  ">
-        <h2 class="title stroke !text-white">Individual Activity - Make a Square 1</h2>
-        <h2 class="title stroke">Create a square structure using the
-            parts provided.</h2>
-        <p class="note">Note: Give each child a set of materials to carry out this activity.</p>
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+
+
+        <img src="/assets/images/N2/structure/str2/s19.png" />
+
+
+
+        <h2 class="title stroke">Different shaped <span class="!text-white">structures</span> can be made with the
+            different pieces in the construction set.</h2>
     </div>
 
 
     {{-- slide 20 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <div class="text-start">
-            <h2 class="title stroke ">Let's do: <br>
-                1. Gather the following parts needed for making a square.
-            </h2>
-        </div>
-        <img src="/assets/images//N2/structure/str/st14.png" />
-        <p class="note">Note: Encourage children to count the pieces needed. <br>
-            Teachers please take note of the type of connectors used.</p>
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+
+
+        <img src="/assets/images/N2/structure/str2/s20.png" />
+
+
+
+        <h2 class="title stroke">Special shapes and designs can be created using
+            the construction set too.</h2>
     </div>
 
 
     {{-- slide 21 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <div class="text-start">
-            <h2 class="title stroke ">Let's do: <br>
-                2. Arrange the long rectangle pieces in a shape of a square. </h2>
-        </div>
-        <img src="/assets/images//N2/structure/str/st15.png" />
-        <p class="note">Note: Encourage and guide the children to try.</p>
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+
+
+        <img src="/assets/images/N2/structure/str2/s21.png" />
+
+
+
+        <h2 class="title stroke">Many different shapes can be created using
+            the construction set.</h2>
+        <p class="note">Note: Encourage children to identify the shapes.</p>
     </div>
 
     {{-- slide 22 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <div class="text-start">
-            <h2 class="title stroke ">Let's do: <br>
-                3. Use the connectors to fix the rectangle pieces together at each connecting point. </h2>
-        </div>
-        <img src="/assets/images//N2/structure/str/st16.png" />
-        <p class="note">Note: Teacher to assist if children are unable to connect the parts together.</p>
+    <div class="slide hidden  flex flex-col items-center justify-start gap-[8rem] ">
+        <h2 class="title stroke !text-white">Class Activity</h2>
+        <h2 class="title stroke ">Design a structure using the different shapes.
+            Build it with the construction set.</h2>
+        <p class="note">Note: Group 3-4 children in a group and encourage them to create a structure that they like.</p>
     </div>
 
 
     {{-- slide 23 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <div class="text-start">
-            <h2 class="title stroke ">Let's do: <br>
-                4. Join the rectangle pieces with the one direction connectors. </h2>
+    <div class="slide hidden  flex flex-col items-center justify-start gap-[7rem] ">
+        <div class="flex justify start">
+            <div>
+                <h2 class="title stroke !text-start">Steps: <br>
+                    1. In your group, discuss how your structure will look. <br>
+                    2. Draw your design in your learning journal.</h2>
+            </div>
         </div>
-        <div class="flex items-center gap-5">
-            <img src="/assets/images//N2/structure/str/st17.png" />
-            <img src="/assets/images//N2/structure/str/st18.png" />
-        </div>
-        <p class="note">Note: Teacher to assist if children are unable to connect the parts together.</p>
+        <img src="/assets/images/N2/structure/str2/s22.png" />
     </div>
 
     {{-- slide 24 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <div class="text-start">
-            <h2 class="title stroke ">Let's do: <br>
-                5. Join the four rectangle pieces together to form the square. </h2>
+    <div class="slide hidden  flex flex-col items-center justify-start gap-[15rem] ">
+        <div class="flex justify start">
+
+            <h2 class="title stroke !text-start">Steps: <br>
+                3. Work together as a group to create the shape of <br>
+                the structure you have drawn.
+                4. Present your creation as a group. Tell your friends <br>
+                how you created each part.</h2>
+
         </div>
-        <div class="flex items-center gap-5">
-            <img src="/assets/images//N2/structure/str/st19.png" class="w-[300px]" />
-            <img src="/assets/images//N2/structure/str/st20.png" class="w-[300px]" />
-            <img src="/assets/images//N2/structure/str/st21.png" class="w-[300px]" />
-        </div>
-        <p class="note">Note: Teacher to assist if children are unable to connect the parts together.</p>
+        <p class="note">Note: Teachers to ask guiding questions to help children with their presentations.</p>
     </div>
 
     {{-- slide 25 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <div class="text-start">
-            <h2 class="title stroke ">Let's do: <br>
-                6. Your square structure is completed. Can your structure
-                stand on its own?</h2>
+    <div class="slide hidden  flex flex-col items-center justify-start gap-[3rem] ">
+        <div class="flex justify start">
+            <div>
+                <h2 class="title stroke !text-start">Steps: <br>
+                    5. Take a photo and taste it on the learning journal.
+                    6. Showcase your work.</h2>
+            </div>
         </div>
-        <img src="/assets/images//N2/structure/str/st22.png" />
-        <p class="note">Note: Teacher to assist if children are unable to connect the parts together.</p>
+        <div class="h-[354px] w-[728px] border border-2 border-white justify-center items-start ">
+            <p class="note mt-2">Paste a photo of the structure you have created.</p>
+
+        </div>
+
+        <p class="note">Note: Teachers to help to take photos of the group and the structure.</p>
+
     </div>
 
 
 
     {{-- slide 26 --}}
-    <div class="slide hidden  flex flex-col items-center justify-center  ">
-        <h2 class="title stroke">Children, why do you think the <span class="text-white">structure</span> is
-            unable to stand on its own?</h2>
+    <div class="slide hidden  flex flex-col items-center justify-start gap-[8rem] ">
+        <div class="flex justify start">
+            <h2 class="title stroke !text-start">Possible questions during hands-on : <br>
+                1.What shapes can be found in your design?<br>
+                2.Which pieces/blocks can you use to make the shape you <br>
+                want? <br><br>
+                Possible questions during presentation: <br>
+                1.What is the shape of your structure? <br>
+                2.Which part did you make? Was it hard to make?<br>
+                3.Share how you made the structure.</h2>
+        </div>
+        <p class="note">Note: Have children share their ideas with the class. Do point out how each team had form the
+            shapes.</p>
     </div>
 
 
     {{-- slide 27 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="/assets/images//N2/structure/str/st23.png" />
-        <h2 class="title stroke ">Let’s stand up and tiptoe. <br>
-            Is it easy to stand on your toes?</h2>
-        <p class="note">Note: Encourage children to share how they feel. Was it hard to balance? Did they wobble?</p>
+     <div class="slide flex flex-col items-center justify-center gap-5 ">
+
+
+        <img src="/assets/images/N2/structure/str2/s23.png" />
+
+
+
+        <h2 class="title stroke">Different shaped structures can be created by putting
+smaller parts together.</h2>
     </div>
 
 
     {{-- slide 28 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="/assets/images//N2/structure/str/st24.png" />
-        <h2 class="title stroke ">Similar to you, the structure cannot stand on its own because
-            its base is narrow and it is hard for it to support its body.</h2>
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+
+
+        <img src="/assets/images/N2/structure/str2/s24.png" />
+
+
+
+        <h2 class="title stroke">There are shapes in all structures around us.</h2>
     </div>
-
-
+    
     {{-- slide 29 --}}
-    <div class="slide hidden  flex flex-col items-center justify-between h-full  ">
-        <h2 class="title stroke !text-white">Individual Activity - Make a Square 2</h2>
-        <h2 class="title stroke">Using the same parts provided,
-            make a square that can stand on its own.</h2>
-        <p class="note">Note: Prompt children to think how they can make the base bigger.
-            Get children to try on their own first before showing them to the next slide.</p>
+    <div class="slide hidden  flex flex-col items-center justify-start gap-[1rem] ">
+        
+        <h2 class="title stroke !text-white !font-bold">Learning Journal</h2>
+        <div class="h-[518px] w-[927px] border border-2 border-white justify-center items-start ">
+            <p class="note mt-2">Use shapes to design the structure that you would like to create.</p>
+            
+        </div>
+
+
     </div>
 
     {{-- slide 30 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <div class="text-start">
-            <h2 class="title stroke ">Let's do: <br>
-                1. Look at the square below. This square can stand on its own!</h2>
+   <div class="slide hidden  flex flex-col items-center justify-start gap-[1rem] ">
+       
+       <h2 class="title stroke !text-white !font-bold">Learning Journal</h2>
+        <div class="h-[518px] w-[927px] border border-2 border-white justify-center items-start ">
+            <p class="note mt-2">Paste a photo of the structure you have created.</p>
+
         </div>
-        <img src="/assets/images//N2/structure/str/st25.png" />
-        <p class="note">Note: Teacher to point out that the parts used to make this square are
-            the same as the previous square.</p>
+
+
     </div>
 
 
 
-    {{-- slide 31 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <div class="text-start">
-            <h2 class="title stroke ">Let's do: <br>
-                2. Gather the following parts needed for making a square.</h2>
-        </div>
-        <img src="/assets/images//N2/structure/str/st26.png" />
-        <p class="note">Note: Encourage children to count the pieces needed. Teachers please take
-            note of the type of connectors used.</p>
-    </div>
-
-    {{-- slide 32 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <div class="text-start">
-            <h2 class="title stroke ">Let's do: <br>
-                3. Arrange the long rectangle pieces in a shape of a square.</h2>
-        </div>
-        <img src="/assets/images//N2/structure/str/st27.png" />
-        <p class="note">Note: Encourage and guide the children to try.</p>
-    </div>
-
-    {{-- slide 33 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <div class="text-start">
-            <h2 class="title stroke ">Let's do: <br>
-                4. Use the connectors to fix the rectangle pieces together
-                as shown:</h2>
-        </div>
-        <div class="flex items-center gap-5">
-            <img src="/assets/images//N2/structure/str/st28.png" />
-            <img src="/assets/images//N2/structure/str/st29.png" />
-        </div>
-        <p class="note">Note: Encourage and guide the children to try.</p>
-    </div>
-
-
-    {{-- slide 34 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <div class="text-start">
-            <h2 class="title stroke ">Let's do: <br>
-                5. Continue to use the connectors to join the rectangle pieces as shown:</h2>
-        </div>
-        <div class="flex items-center justify-center gap-5">
-            <img src="/assets/images//N2/structure/str/st30.png" class="w-[300px]" />
-            <img src="/assets/images//N2/structure/str/st31.png" class="w-[300px]" />
-            <img src="/assets/images//N2/structure/str/st32.png" class="w-[300px]" />
-        </div>
-        <p class="note">Note: Encourage and guide the children to try.</p>
-    </div>
-
-
-    {{-- slide 35 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <div class="text-start">
-            <h2 class="title stroke ">Let's do: <br>
-                6. Put your square upright. Can it stand on its own?</h2>
-        </div>
-        <img src="/assets/images//N2/structure/str/st33.png" class="w-[400px]" />
-        <p class="note">Note: Encourage and guide the children to try.</p>
-        <!-- Video Trigger Button -->
-        <div data-property-1="Default"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
-            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
-        </div>
-    </div>
-
-
-    {{-- slide 36 --}}
-    <div class="slide hidden  flex flex-col items-center justify-between h-full ">
-        <div class="text-start">
-            <h2 class="title stroke ">Children, why do you think the structure is
-                now able to stand on its own?</h2>
-        </div>
-        {{-- <img src="/assets/images//N2/structure/str/st33.png" class="w-[400px]" /> --}}
-        <p class="note">Note: Encourage children to share their answers.</p>
-    </div>
-
-
-    {{-- slide 37 --}}
-    <div class="slide hidden  flex flex-col items-center gap-5 ">
-        <img src="/assets/images/N2/structure/str/st34.png"  />
-        <h2 class="title stroke ">This structure can stand on its own because
-            its base is wider and it can support its body.</h2>
-    </div>
-
-
-    {{-- slide 38 --}}
-    <div class="slide hidden  flex flex-col items-center gap-5 ">
-        <img src="/assets/images/N2/structure/str/st35.png"  />
-        <h2 class="title stroke ">It is like when you stand on your feet.
-            You can stand still and you do not wobble.</h2>
-        <p class="note">Note: Teacher can get children to compare how they feel when stand on tiptoes and on their feet.
-        </p>
-    </div>
-
-
-    {{-- slide 39 --}}
-    <div class="slide hidden  flex flex-col items-center gap-5 ">
-        <img src="/assets/images/N2/structure/str/st35.png"  />
-        <h2 class="title stroke ">It is like when you stand on your feet.
-            You can stand still and you do not wobble.</h2>
-        <p class="note">Note: Teacher can get children to compare how they feel when stand on tiptoes and on their feet.
-        </p>
-    </div>
-
-
-    {{-- slide 40 --}}
-    <div class="slide hidden  flex flex-col items-center gap-5 ">
-        <img src="/assets/images/N2/structure/str/st36.png"  />
-        <h2 class="title stroke ">Similarly, all these structures have a base that helps
-            them stand firmly on the ground.</h2>
-    </div>
-
-
-    {{-- slide 41 --}}
-    <div class="slide hidden  flex flex-col items-center gap-5 ">
-        <img src="/assets/images/N2/structure/str/st36.png"  />
-        <h2 class="title stroke ">All the different structures are made up of smaller parts
-            giving them their shape.</h2>
-    </div>
-
-    {{-- slide 16 --}}
-    {{-- <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
-        <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[836px] h-[536px] bg-cover bg-center flex flex-col justify-between items-start"
-            style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
-            <p>Design a unique building. Draw it.</p>
-            <p>What is the name of your building?___________________________________________________</p>
-        </div>
-    </div> --}}
+   
 
 
 
@@ -444,7 +406,7 @@
         </button>
     </div>
 
-    <div id="buttons" class="absolute top-[30px] right-[60px] flex flex-row gap-6 z-40">
+    <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
         <!-- Return Button -->
         <a class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
             id="returnButton">

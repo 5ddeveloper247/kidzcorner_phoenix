@@ -1,15 +1,12 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
 
- 
-
-
 
 @section('content')
 
     <div id="topDiv" class="flex flex-col  h-[90%] items-center ">
-        <div class="  text-amber-300 text-[65px] font-extrabold stroke">Buildings are Structures</div>
-        <h2 class="text-2xl sm:text-3xl lg:text-6xl text-white stroke ">
+        <div class="  title !text-[55px]  stroke">Buildings are Structures</div>
+        <h2 class="text-2xl sm:text-3xl lg:text-5xl text-white stroke ">
             Explore how buildings are designed and built
             as a kind of structure; design and build a tall building</h2>
 
@@ -22,8 +19,6 @@
             </span>
         </button>
     </div>
-
-
 
 
 
@@ -73,7 +68,7 @@
 
             if (nextButton) {
                 nextButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('buildingSelection') }}";
+                    window.location.href = "{{ route('buildingsSelection') }}";
                 });
             }
         });

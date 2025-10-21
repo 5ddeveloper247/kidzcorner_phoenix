@@ -1,14 +1,10 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
-
  
-
-
-
 @section('content')
 
     <div id="topDiv" class="flex flex-col items-center ">
-        <div class="  text-amber-300 text-[65px] font-extrabold stroke">Programme A Robot 5</div>
+        <div class="  title !text-[55px]  stroke">Programme A Robot 5</div>
         <h2 class=" lg:text-6xl !text-white stroke">Create a simple story and turn it into a
             programming game; programme a robot to move based on a story</h2>
         <button

@@ -4,7 +4,7 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col  gap-20 items-center gap-[8rem] ">
-        <div class="  text-amber-300 text-[65px] font-extrabold stroke">Animate a Character (1)</div>
+        <div class="  title !text-[55px]  stroke">Animate a Character (1)</div>
         <h2 class="text-2xl sm:text-3xl lg:text-4xl text-white stroke ">
             Explore and learn how to create animated stories using 
 ScratchJr; learn how to programme a character to move</h2>
@@ -17,11 +17,7 @@ ScratchJr; learn how to programme a character to move</h2>
             </span>
         </button>
     </div>
-
-
-
-    
-    <div id="buttons" class="absolute top-[30px] right-[60px] flex flex-row gap-6 z-40">
+    <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
         <!-- Return Button -->
         <button class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] " id="returnButton">
             <img class="absolute top-[6px] left-[8px] w-20 h-10" src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
@@ -29,7 +25,6 @@ ScratchJr; learn how to programme a character to move</h2>
             <img class="absolute top-[24px] left-[22px] w-14 h-14"
                 src="{{ asset('assets/images/pptimages/reverse-icon.png') }}" />
         </button>
-
         <!-- Home Button -->
         <button class="relative w-24 h-24 button-fade-in bg-sky-500 rounded-[30px] " id="homeButton">
             <img class="absolute top-[6px] left-[8px] w-20 h-10" src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
@@ -37,7 +32,6 @@ ScratchJr; learn how to programme a character to move</h2>
             <img class="absolute top-[24px] left-[22px] w-14 h-14"
                 src="{{ asset('assets/images/pptimages/home-icon.png') }}" />
         </button>
-
         <!-- Close Button -->
         <button class="relative w-24 h-24 bg-red-500 rounded-[30px] button-fade-in" id="closeButton">
             <img class="absolute top-[6px] left-[8px] w-20 h-10" src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
@@ -46,7 +40,6 @@ ScratchJr; learn how to programme a character to move</h2>
                 class="absolute top-[16px] left-[30px] w-11 h-16 text-white text-6xl font-normal font-['Jua']">X
             </div>
         </button>
-
     </div>
 
 

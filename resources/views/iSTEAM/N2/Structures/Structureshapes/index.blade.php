@@ -1,16 +1,12 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
-
  
-
-
-
 @section('content')
 
     <div id="topDiv" class="flex flex-col items-center gap-[7rem] ">
-        <h2 class="  text-amber-300 text-[65px] font-extrabold stroke">shapes</h2>
-        <h2 class="!text-white title">Understand the meaning of structures; <br>
-            Learn that structures have shapes</h2>
+        <h2 class="  text-amber-300 text-[65px] font-extrabold stroke">Shapes in Structures</h2>
+        <h2 class="!text-white title">Explore how block structures are created;
+create structures with shapes</h2>
 
         <button
             class="cursor-pointer nextButton w-62 !h-[85px] relative bg-[#F8A23A]  rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 

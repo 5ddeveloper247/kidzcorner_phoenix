@@ -1,14 +1,10 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
-
  
-
-
-
 @section('content')
 
     <div id="topDiv" class="flex flex-col items-center ">
-        <div class="  text-amber-300 text-[65px] font-extrabold stroke">Let’s Programme 2</div>
+        <div class="  title !text-[55px]  stroke">Let’s Programme 2</div>
         <h2 class="text-2xl sm:text-3xl lg:text-6xl !text-white stroke">Learn how to follow and create step-by-step
             instructions to move through a grid maze; learn to create new programming challenges.</h2>
         <button
