@@ -2307,22 +2307,22 @@ Route::get('/sustainability/Pollution/teacher', function () {
 
 //6====
 // K2 -> sustainability -> Reduce&Reuse
-Route::get('/sustainability/Reduce&Reuse', function () {
+Route::get('/sustainability/Reduce-Reuse', function () {
     return view('iSTEAM.K2.sustainability.reduce.index');
 })->name('reduce');
 
-// K2 -> sustainability -> Reduce&Reuse -> select
-Route::get('/Reduce&ReuseChoice', function () {
+// K2 -> sustainability -> Reduce-Reuse -> select
+Route::get('/Reduce-ReuseChoice', function () {
     return view('iSTEAM.K2.sustainability.reduce.selection');
 })->name('reduceSelection');
 
-// K2 -> sustainability -> Reduce&Reuse -> lesson
-Route::get('/sustainability/Reduce&Reuse/lesson', function () {
+// K2 -> sustainability -> Reduce-Reuse -> lesson
+Route::get('/sustainability/Reduce-Reuse/lesson', function () {
     return view('iSTEAM.K2.sustainability.reduce.lesson');
 })->name('reduceLesson');
 
-// K2 -> sustainability -> Reduce&Reuse -> teacher
-Route::get('/sustainability/Reduce&Reuse/teacher', function () {
+// K2 -> sustainability -> Reduce-Reuse -> teacher
+Route::get('/sustainability/Reduce-Reuse/teacher', function () {
     return view('iSTEAM.K2.sustainability.reduce.teacher');
 })->name('reduceTeacher');
 

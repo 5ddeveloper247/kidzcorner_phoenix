@@ -404,10 +404,10 @@
     </div>
     {{-- slide 7 --}}
     <div class="slide hidden flex flex-col items-center">
-        <div class="flex items-end gap-1 justify-center">
-            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s16.png') }}" />
-            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s18.png') }}" />
-            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s23.png') }}" />
+        <div class="flex gap-1 items-center">
+            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s16.png') }}" class="w-90"  />
+            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s18.png') }}" class="w-90" />
+            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s23.png') }}" class="w-90"  />
         </div>
         <h2 class="title stroke text-center">With the increased temperature, it affects the land, animals
             and plants. When glaciers melt, we will be affected too.</h2>

@@ -128,7 +128,7 @@ Put two coffee filter paper together and tie them at the mouth of the bottle wit
             <h2 class="font-bold">Preparations For Class Activity 1:</h2>
             <ul>
                 <li>2. Scoop the filter materials and add them in layer by layer in this order <br>
-<h3 class="title-stroke">Bottle 1 </h3> : Activated charcoal , sand , gravel and pebbles</li>
+<h3 class="title stroke">Bottle 1 </h3> : Activated charcoal , sand , gravel and pebbles</li>
             </ul>
         </div>
          <img src="{{ asset('assets/images/K2/sustain/pollution/p35.png') }}" />
@@ -136,7 +136,7 @@ Put two coffee filter paper together and tie them at the mouth of the bottle wit
             class="absolute right-[250px] bottom-[150px]" />
             <ul>
                 <li>
-<h3 class="title-stroke">Bottle 2 </h3>:Do the same preparations with the coffee filter paper. But you will
+<h3 class="title stroke">Bottle 2 </h3>:Do the same preparations with the coffee filter paper. But you will
 only add sand , gravel and pebbles layer by layer in this order.</li>
             </ul>
     </div>
@@ -210,17 +210,55 @@ observed, oil can make fish and shellfish unsafe for humans to eat.
             class="absolute right-[250px] bottom-[150px]" />
     </div>
 
+{{-- sldie 7 --}}
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+        <div>
+            <h2 class="font-bold">Notes</h2>
+            <ul>
+                <li>If you see <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s27.png') }}" /> next to a picture, click on the picture to watch the video
+                </li>
+                 <li>If you see <img src="{{ asset('assets/images/K2/sustain/energy1/information.png') }}" /> next to a picture, click on tit foe additional information
+                 </li>
+                    <li> Always ask questions to encourage children to think and share their ideas first 
+     before giving out any information.s
+                </li>
+  <li>Emphasise and use the keywords during hands-on sessions.
+</li>
+<li>Print out the Learning Journal (if any) for every 
+     child to complete at the end of the lesson.
+</li>
+  <li>Click on this shortcut icon<img src="{{ asset('assets/images/K2/sustain/Globalwarming/s28.png') }}" />if you need to go to some 
+     parts of the lesson quickly.
+                </li>
+     
+      
+            </ul>
+        </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute right-[250px] bottom-[150px]" />
+    </div>
+
     {{-- sldie 8 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-          <h2 class="title-stroke" > Learning Centre Idea
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
+          <h2 class="title stroke justify-center" > Learning Centre Idea </h2>
+            <h2 class="text-white">Biodegradable Vs Non-biodegradable</h2>
             <ul>
-                <li>5. (A) Use a wet towel to clean the fingertip (of B). [ Have all the A do the step. Explain to children
-                    that this is to avoid possible messiness when taking prints of other fingers. ]</li>
+                <li>What and how to set up:<br>
+Set up two trays. One tray to contain biodegradable items such as slice of fruit, leaves, parts of vegetable waste.<br>
+ The other tray to contain non-biodegradable items like plastic bottles, plastic toys and plastic bags.<br>
+
+What to do:<br>
+1. Get children to draw and note how each item looks like at different stages
+(beginning, after 3/5/7 days etc) Do take photos for children to refer and
+compare.<br>
+2. Tell the children to observe the changes on the items. Does it smell? Did the colours change?<br>
+3. Tell children not to touch the items as the biodegradable items may become
+rotten. Please dispose the items once they have rot badly.
+
+</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f7.png') }}" class="w-[600px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
     </div>

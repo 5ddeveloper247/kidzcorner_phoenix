@@ -180,7 +180,7 @@
 
     {{-- slide 9 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
- <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
+ <h2 class="font-bold">Notes:</h2>
            <ul>
                 <li>If you see <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s27.png') }}" /> next to a picture, click on the picture to watch the video
 Always ask questions to encourage children to think and share their ideas first 
