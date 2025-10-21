@@ -1,36 +1,41 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
- 
+
 @section('content')
 
 
     {{-- Slide 1 --}}
     <div class="flex flex-col items-center justify-center gap-10 slide hidden">
         <div class="flex items-center justify-center">
-            <img src="/assets/iamges/N2/b2.png" alt="">
-            <img src="/assets/iamges/N2/b17.png" alt="">
+            <img class="w-[500px]" src="{{ asset('assets/images/N2/SimpleMachines/b2.png ') }}" alt="">
+            <img class="w-[500px]" src="{{ asset('assets/images/N2/SimpleMachines/b17.png') }}" alt="">
         </div>
         <h2 class="stroke title">Children, what did you build in the last lesson? How did you play with it? What can you use
             it for?</h2>
     </div>
 
 
-
-
     {{-- Slide 2 --}}
     <div class="slide flex flex-col items-center justify-center gap-10 ">
-
-        <img src="/assets/images/N2/b19.png" class="w-[436px]" />
+        <img class="w-[500px]" src="{{ asset('assets/images/N2/SimpleMachines/b19.png') }}" class="w-[436px]" />
         <h2 class="stroke title">You pushed the car to make it go forward.
             You read the scale to know how far it went forward. </h2>
+        <!-- Video Trigger Button -->
+        <div onclick="toggleVideo('video1')"
+            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
+            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
+            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
+            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+        </div>
+
     </div>
 
 
     {{-- Slide 3 --}}
     <div class="flex flex-col items-center justify-center gap-10 slide hidden">
         <div class="flex items-center justify-center">
-            <img src="/assets/iamges/N2/b2.png" alt="">
-            <img src="/assets/iamges/N2/b17.png" alt="">
+            <img class="w-[500px]" src="{{ asset('assets/images/N2/SimpleMachines/b2.png ') }}" alt="">
+            <img class="w-[500px]" src="{{ asset('assets/images/N2/SimpleMachines/b17.png') }}" alt="">
         </div>
         <h2 class="stroke title">It is measuring car. <br>
             You can use it to count how many units it goes forward.</h2>
@@ -46,14 +51,14 @@
 
     {{-- slide 5 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/b20.png') }}" />
+        <img class="w-[500px]" src="{{ asset('assets/images/N2/SimpleMachines/b20.png') }}" />
         <h2 class="title stroke">This is way to make a measuring car go very far when you give it a push.</h2>
     </div>
 
 
     {{-- slide 6 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/b20.png') }}" />
+        <img class="w-[500px]" src="{{ asset('assets/images/N2/SimpleMachines/b20.png') }}" />
         <h2 class="title stroke">Do you know what this is?</h2>
         <p class="note">Note: Encourage children to boldly share their views.</p>
     </div>
@@ -61,13 +66,13 @@
 
     {{-- slide 7 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/b20.png') }}" />
+        <img class="w-[500px]" src="{{ asset('assets/images/N2/SimpleMachines/b20.png') }}" />
         <h2 class="title stroke">This is a ramp. It is a slanting surface with one end higher than the other end.</h2>
     </div>
 
     {{-- slide 8 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/b20.png') }}" />
+        <img class="w-[500px]" src="{{ asset('assets/images/N2/SimpleMachines/b20.png') }}" />
         <h2 class="stroke title">The <span class="text-white">ramp</span> looks like a shape.<br />It is a <span
                 class="text-white">simple machine</span> called an <span class="text-white">inclined plane</span>.</h2>
     </div>
@@ -75,7 +80,7 @@
 
     {{-- slide 9 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/b20.png') }}" />
+        <img class="w-[500px]" src="{{ asset('assets/images/N2/SimpleMachines/b20.png') }}" />
         <h2 class="stroke title"><span class="text-white">Simple machines </span>are tools that help us to do work
             easily.<br />Let’s find out more about <span class="text-white">inclined planes!</span></h2>
     </div>
@@ -101,7 +106,7 @@
                     reading.</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/N2/b21.png') }}" />
+        <img class="w-[500px]" src="{{ asset('assets/images/N2/SimpleMachines/b21.png') }}" />
         <p class="note">Note: Have children work in groups to complete the mission. Have them record the reading in their
             learning journal.</p>
 
@@ -116,7 +121,7 @@
                 <li>2. Change the height of the inclined plane and test again. Read the scale and record your reading.</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/N2/b21.png') }}" />
+        <img class="w-[500px]" src="{{ asset('assets/images/N2/SimpleMachines/b21.png') }}" />
         <p class="note">Note: Have children work in groups to complete the mission.Have them record the reading in their
             learning journal.</p>
 
@@ -130,7 +135,7 @@
                 <li>2. Change the height of the inclined plane and test again. Read the scale and record your reading,</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/N2/b22.png') }}" />
+        <img class="w-[500px]" src="{{ asset('assets/images/N2/SimpleMachines/b22.png') }}" />
         <p class="note">Note: Have children work in groups to complete the mission.Have them record the reading in their
             learning journal.</p>
 
@@ -150,73 +155,45 @@
     {{-- sldie 15 --}}
     <div class="flex flex-col  slide hidden">
         <h2 class="stroke title">Learning Journal</h2>
-        <img src="{{ asset('assets/images/N2/bb1.png') }}" />
+        <img class="w-[500px]" src="{{ asset('assets/images/N2/SimpleMachines/bb1.png') }}" />
     </div>
 
 
 
     {{-- Complete button --}}
-    <div class="absolute bottom-[85px]">
-        <button
-            class="cursor-pointer doneButton w-66 h-[75px] relative bg-[#F8A23A] rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
-                    outline outline-1 outline-yellow-700 overflow-hidden">
-            <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
-            <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" />
-            </div>
-            <span
-                class="absolute left-[80px] top-[18px] flex items-center  text-white text-5xl font-bold stroke">DONE</span>
+    <div class="down-btn-container">
+        <button class="doneButton">
+            <img src="{{ asset('assets/images/pptimages/done.png') }}" />
         </button>
     </div>
 
     {{-- Buttons --}}
- <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
+    <div id="buttons" class="absolute  flex flex-row ">
 
         <!-- Return Button -->
-        <a class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
-            id="returnButton">
-            <img class="absolute top-[6px] left-[8px] w-20 h-10"
-                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] w-14 h-14"
-                src="{{ asset('assets/images/pptimages/reverse-icon.png') }}" />
+        <a id="returnButton">
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
 
         <!-- Home Button -->
-        <button
-            class="relative w-24 h-24 button-fade-in bg-sky-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
-            id="homeButton">
-            <img class="absolute top-[6px] left-[8px] w-20 h-10"
-                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] w-14 h-14"
-                src="{{ asset('assets/images/pptimages/home-icon.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
-        <button class="relative w-24 h-24 button-fade-in cursor-pointer" id="closeButton">
-            <div
-                class="absolute inset-0 bg-red-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-red-900">
-            </div>
-            <img class="absolute top-[6px] left-[8px] w-20 h-10"
-                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <div id="closeButtonText"
-                class="absolute top-[16px] left-[30px] w-11 h-16 text-white text-6xl font-normal font-['Jua']">X
-            </div>
+        <button id="closeButton">
+
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
+
         </button>
 
     </div>
 
     {{-- next Button --}}
-    <div class="absolute bottom-[85px]">
+    <div class="down-btn-container">
 
-        <button
-            class="cursor-pointer nextButton w-66 h-[75px] relative bg-[#F8A23A]  rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
-        outline outline-1 outline-yellow-700 overflow-hidden">
-            <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
-            <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" /> </div>
-            <span class="absolute left-[80px] top-[18px] flex items-center  text-white text-5xl font-bold stroke">NEXT
-            </span>
+        <button class="nextButton">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
         </button>
     </div>
 @endsection
@@ -225,54 +202,85 @@
 @push('script')
     <script>
         document.addEventListener("DOMContentLoaded", () => {
+            // Get all elements
             const slides = document.querySelectorAll(".slide");
-            const nextButtons = document.querySelectorAll(".nextButton");
-            const returnButton = document.getElementById("returnButton");
-            const doneButton = document.querySelector(".doneButton"); // ✅ DONE button
+            const nextBtn = document.querySelector(".nextButton");
+            const returnBtn = document.getElementById("returnButton");
+            const doneBtn = document.querySelector(".doneButton");
 
-            let currentSlide = 0;
+            let currentIndex = 0;
 
+            // Pause all videos in current slide
+            function pauseAllVideos() {
+                if (slides[currentIndex]) {
+                    const videos = slides[currentIndex].querySelectorAll("video");
+                    videos.forEach(video => {
+                        if (!video.paused) {
+                            video.pause();
+                        }
+                    });
+                }
+            }
+
+            // Show slide and update buttons
             function showSlide(index) {
-                slides.forEach((slide, i) => {
-                    slide.classList.toggle("hidden", i !== index);
-                });
+                pauseAllVideos();
 
-                // ✅ Agar last slide hai → NEXT button hide, DONE show
-                if (index === slides.length - 1) {
-                    nextButtons.forEach(btn => btn.classList.add("hidden"));
-                    if (doneButton) doneButton.classList.remove("hidden");
+                // Hide all slides
+                slides.forEach(slide => slide.classList.add("hidden"));
+
+                // Show current slide
+                slides[index].classList.remove("hidden");
+
+                currentIndex = index;
+
+                // Update button visibility
+                const isLastSlide = (index === slides.length - 1);
+
+                if (isLastSlide) {
+                    nextBtn.style.display = "none";
+                    doneBtn.style.display = "block";
                 } else {
-                    nextButtons.forEach(btn => btn.classList.remove("hidden"));
-                    if (doneButton) doneButton.classList.add("hidden");
+                    nextBtn.style.display = "block";
+                    doneBtn.style.display = "none";
                 }
             }
 
-            // ✅ NEXT buttons listener
-            nextButtons.forEach((btn) => {
-                btn.addEventListener("click", () => {
-                    if (currentSlide < slides.length - 1) {
-                        currentSlide++;
-                        showSlide(currentSlide);
-                    }
-                });
-            });
-
-            // ✅ Return button
-            returnButton.addEventListener("click", () => {
-                if (currentSlide > 0) {
-                    currentSlide--;
-                    showSlide(currentSlide);
+            // Next button
+            nextBtn.addEventListener("click", () => {
+                if (currentIndex < slides.length - 1) {
+                    showSlide(currentIndex + 1);
                 }
             });
 
-            if (doneButton) {
-                doneButton.addEventListener("click", () => {
+            // Return button
+            returnBtn.addEventListener("click", () => {
+                if (currentIndex === 0) {
                     window.location.href = "{{ route('MeasuringCar2Selection') }}";
-                });
-            }
+                } else {
+                    showSlide(currentIndex - 1);
+                }
+            });
 
-            // ✅ Start with first slide
-            showSlide(currentSlide);
+            // Done button
+            doneBtn.addEventListener("click", () => {
+                window.location.href = "{{ route('MeasuringCar2Selection') }}";
+            });
+
+            // Initialize
+            showSlide(0);
         });
+
+        // Video toggle function
+        function toggleVideo(videoId) {
+            const video = document.getElementById(videoId);
+            if (video) {
+                if (video.paused) {
+                    video.play();
+                } else {
+                    video.pause();
+                }
+            }
+        }
     </script>
 @endpush

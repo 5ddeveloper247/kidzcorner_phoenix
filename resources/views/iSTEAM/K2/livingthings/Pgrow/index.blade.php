@@ -31,7 +31,7 @@
     @section('content')
 
         <div id="topDiv" class="flex flex-col  h-[90%] items-center ">
-            <div class="  title !text-[55px]  stroke">How Plants Grow?</div>
+            <div class="indexTitle  text-[55px]  stroke">How Plants Grow?</div>
             <h2 class="text-2xl sm:text-3xl lg:text-5xl text-white stroke ">
                 Learn how to grow a plant from a see; <br>
                 how to regrow green onions; <br>
@@ -51,7 +51,7 @@
 
 
 
-     <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
+     <div id="buttons" class="absolute  flex flex-row ">
 
             <!-- Return Button -->
             <button
@@ -70,7 +70,7 @@
                 <img class="absolute top-[6px] left-[8px] w-20 h-10" src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
                 <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
                 <img class="absolute top-[24px] left-[22px] w-14 h-14"
-                    src="{{ asset('assets/images/pptimages/home-icon.png') }}" />
+                    src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
             </button>
 
             <!-- Close Button -->
@@ -81,7 +81,7 @@
                 <img class="absolute top-[6px] left-[8px] w-20 h-10" src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
                 <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
                 <div id="closeButtonText"
-                    class="absolute top-[16px] left-[30px] w-11 h-16 text-white text-6xl font-normal font-['Jua']">X
+                    class=" w-11 h-16 text-white text-6xl">X
                 </div>
             </button>
 

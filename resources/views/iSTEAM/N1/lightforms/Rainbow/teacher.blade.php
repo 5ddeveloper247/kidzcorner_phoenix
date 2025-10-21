@@ -1,164 +1,195 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
- 
+
 @section('content')
     {{-- slide 1 --}}
-    <div class="flex flex-col justify-start gap-y-10 text-start text-2xl text-white slide hidden">
+    <div class="flex flex-col text-start text-2xl text-white slide hidden t-slide">
         <div>
-            <h2 class="font-bold">Children will be able to:</h2>
+            <h2 class="t-title">Children will be able to:</h2>
             <ul class="list-disc">
-                <li>Develop awareness of different types of shadows</li>
-                <li>Explore materials and their shadows</li>
-                <li>Create a shadow puppet with mix of materials</li>
+                <li>Develop awareness of how rainbows are formed</li>
+                <li>Explore with materials to create a rainbow with flashlight/sunlight</li>
                 <li>Develop curiosity in exploring various types of items</li>
                 <li>Develop observation and understanding through hands-on activities</li>
             </ul>
         </div>
         <div class="flex w-[100%] justify-between">
             <div>
-                <h2 class="text-[33px] font-bold">Keywords:</h2>
+                <h2 class="t-title">Keywords:</h2>
                 <div class="flex items-center gap-x-10">
                     <ul class="list-disc">
-                        <li>Black</li>
-                        <li>Shadow</li>
+                        <li>Rainbow</li>
+                        <li>Orange</li>
+                        <li>Indigo</li>
                         <li>Light</li>
-                        <li>Block</li>
-                        <li>Translucent</li>
+                        <li>Yellow</li>
+                        <li>Violet</li>
+                        <li>White</li>
+                        <li>Green</li>
                     </ul>
                     <ul class="list-disc">
-                        <li>Transparent</li>
-                        <li>Shadow Puppetry</li>
-                        <li>Puppet</li>
+                        <li>Disc</li>
+                        <li>Colours</li>
+                        <li>Blue</li>
+                        <li>Flashlight</li>
+                        <li>Red</li>
                     </ul>
                 </div>
             </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" />
+            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="" />
         </div>
     </div>
 
     {{-- slide 2 --}}
-    <div class="text-white relative flex w-[75%] gap-y-20 flex-col text-start text-2xl slide hidden">
+    <div class="text-white  flex flex-col text-start text-2xl slide hidden t-slide">
         <div>
-            <h2 class="font-bold">Preparations for Class Activity I:</h2>
+            <h2 class=" t-title">Preparations for Class Activity I:</h2>
             <ul class="list-disc">
                 <li>
                     The following items for each group:
                     <ul class="list-decimal">
-                        <li>Flashlights</li>
-                        <li>Items that can form shadows such as Solid toy figurines Blocks Books Construction/coloured paper
-                            or card</li>
+                        <li>Teachers need to test out the plastic containers that you have prior to the lesson.</li>
+                        <li>Containers must be transparent.</li>
+                        <li>Rainbows formed may not be obvious, so do point them out to the children.</li>
+                        <li>It <strong>MUST</strong> be a sunny day.</li>
                     </ul>
                 </li>
             </ul>
-            <img src="{{ asset('assets/images/pptimages/fish.png') }}" alt="" class="w-[50%]" />
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt=""
-            class="absolute right-0 bottom-[-50px]" />
-        <div class="h-fit w-[60%]">
-            <p>Teacher can point out about the shape of the shadows when children are working on the activity.</p>
+
+        <div>
+            <h2 class=" t-title">Preparations for Class Activity 2:</h2>
+            <ul class="list-disc">
+                <li>
+                    The following items for each group:
+                    <ul class="list-decimal">
+                        <li>Teacher to remind children not to shine light directly into their eyes or their friend's eyes.
+                            Explain that it can damage their eyes.</li>
+                        <li>Shine the light into the submerged portion of the mirror.</li>
+                        <li>The rainbow will be more obvious when the flashlight used is bright.</li>
+                        <li>The light must be white to show the rainbow.</li>
+                        <li>Flashlight with orange light is <strong>not advisable</strong>.</li>
+                    </ul>
+                </li>
+            </ul>
         </div>
+        <img src="{{ asset('assets/ images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
+
     </div>
 
     {{-- slide 3 --}}
-    <div class="text-white relative flex w-[75%] gap-y-20 flex-col text-start text-2xl slide hidden">
+    <div class="text-white  flex  gap-y-30 flex-col text-start text-2xl slide hidden t-slide">
         <div>
-            <h2 class="font-bold">Preparations for Class Activity I:</h2>
+            <h2 class=" t-title">Preparations for Class Activity 3:</h2>
             <ul class="list-disc">
-                <li>3) Translucent items that forms coloured shadows such as coloured plastic cups, translucent toys,
-                    red/yellow plastic bags, coloured plastic sheets, cellophane paper etc.</li>
+                <li>Can be pair work or individual.</li>
+                <li>Guide children to look for the reflected rainbows.</li>
+                <li>Encourage children to identify the colours on the rainbow.</li>
             </ul>
-            <img src="{{ asset('assets/images/pptimages/glass.png') }}" alt="" class="w-[50%]" />
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt=""
-            class="absolute right-0 bottom-[-50px]" />
-        <div class="h-fit w-[60%]">
-            <p>Teacher can point out on the coloured shadows to the children when they are exploring.</p>
+        <div>
+            <h2 class=" t-title">Link for song :</h2>
+            <ul class="list-disc">
+                <li>
+                    Rainbow Rainbow –
+                    <a href="https://youtu.be/aME-JWXvPds" target="_blank" class="text-blue-600 underline">
+                        https://youtu.be/aME-JWXvPds
+                    </a>
+                </li>
+            </ul>
         </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
     </div>
 
     {{-- slide 4 --}}
-    <div class="text-white relative flex w-[75%] gap-y-20 flex-col text-start text-2xl slide hidden">
-        <div>
-            <h2 class="font-bold">Preparations for Class Activity I:</h2>
-            <ul class="list-disc">
-                <li>4. Transparent items such as transparent plastic cups, water bottles, goggles, magnifying glass or
-                    ziplock bag etc. Teacher to point out which parts do not have shadows as light is able to shine through.
-                </li>
-            </ul>
-            <img src="{{ asset('assets/images/pptimages/lens.png') }}" alt="" class="w-[50%]" />
-        </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt=""
-            class="absolute right-0 bottom-[-50px]" />
-        <div class="h-fit w-[60%]">
-            <p>Important Notes: </br>Teacher to remind children not to shine light directly into their eyes or their
-                friend's eyes. Explain to them that it will damage their eyes. Teacher can use simple words to explain
-                translucent and transparent.</p>
-        </div>
-    </div>
+    <div class="slide flex t-slide  flex-col  text-2xl text-start text-white">
+            <div>
+                <h2 class="t-title">Notes:</h2>
+                <ul class="list-disc">
+                    <li class="flex">
+                        If you see
+                        <span class="info-btn">
 
-    {{-- slide 5 --}}
-    <div class="flex w-[75%] flex-col text-start text-2xl text-white slide hidden">
-        <div>
-            <h2 class="font-bold">Preparations for Class Activity II:</h2>
-            <p>Do these for the children before the activity:</p>
-            <ul class="list-decimal pl-6">
-                <li>Pre-cut puppet templates of a face <span class="block text-lg">(You may use paper plates for the head
-                        and cut out the eyes and mouth portion)</span></li>
-                <li>Allow children to freely paste the materials on their template and let them discover the shadow formed
-                    with the materials.</li>
-            </ul>
-            <div class="flex items-center justify-around w-full">
-                <ul class="list-disc pl-6">
-                    <h3 class="font-semibold mt-4">Notes:</h3>
-                    <li>Teacher to assist children to glue/tape the materials.</li>
-                    <li>
-                        Provide a variety of items such as:
-                        <ul class="list-disc pl-6">
-                            <li>Strings</li>
-                            <li>Pipe cleaners</li>
-                            <li>Cut-out shapes using paper</li>
-                            <li>Cellophane paper</li>
-                        </ul>
+                            <img src="{{ asset('assets/images/pptimages/video.png') }}" />
+                        </span>
+                        next to a picture, click on the picture to watch the video.
+                    </li>
+                    <li class="flex">
+                        If you see
+                        <span> <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="video-btn" />
+                        </span>
+                        , click on it for additional information or activity.
+                    </li>
+                    <li>Always ask questions to encourage children to think and share their ideas first before giving
+                        out
+                        any information.</li>
+                    <li>Emphasise and use the <strong>keywords</strong> during hands-on sessions.</li>
+                    <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
+                    </li>
+                    <li class="flex">
+                        Click on this shortcut icon
+                        <span> <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" class="home-btn" />
+                        </span>
+                        if you need to go to some parts of the lesson quickly.
                     </li>
                 </ul>
-                <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" />
             </div>
-        </div>
+            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
-    {{-- slide 6 --}}
-    <div class="text-white flex w-[75%] flex-col justify-start gap-y-10 text-start text-2xl slide hidden">
-        <h1 class="title text-amber-300 text-[45px] text-center stroke">Learning Center Idea</h1>
+
+    {{-- slide 5 --}}
+    <div class="text-white flex text-start flex-col text-2xl slide hidden t-slide">
+        <h1 class="title text-center stroke">Learning Center Idea</h1>
         <div>
-            <h2 class="font-bold">Matching shadow</h2>
+            <h2 class=" t-title">Colours on the Rainbow</h2>
             <h2>What and how to setup:</h2>
-            <p>Prepare some flashlights and some toys such as cars, dinosaurs, animal figurines etc. Print out shadows of
-                the objects for children to match. The shadows can be taller/bigger/smaller/shorter, depending on how the
-                light was positioned.</p>
+            <p>Provide materials such as cubes, pom pom balls, manipulative toys and
+                printed template of a rainbow in black and white.</p>
         </div>
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold">What to do:</h2>
+                <h2 class=" t-title">What to do:</h2>
                 <ul class="mt-2 list-decimal space-y-1 pl-6">
-                    <li>Invite children to pick up a picture and find the item that will cast the shadow.</li>
-                    <li>Ask children to use the lights to create the same shadow.</li>
+                    <li>Show children the rainbow and ask them what is missing.</li>
+                    <li>Invite children to put the coloured toys on
+                        the template.</li>
+                    <li>Guide them on the correct sequence of the colours
+                        (for those who are more advanced). </li>
                 </ul>
             </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" />
+            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="" />
+        </div>
+    </div>
+
+
+    {{-- slide 6 --}}
+    <div class="text-white flex text-start flex-col text-2xl slide hidden t-slide">
+        <h1 class="title text-center stroke">Learning Center Idea</h1>
+        <div>
+            <h2 class=" t-title">My Rainbow</h2>
+            <h2>What and how to setup:</h2>
+            <p>Put bottles of water in transparent containers (tightly sealed), disc
+                and flashlights.</p>
+        </div>
+        <div class="flex w-[100%] items-center justify-between">
+            <div>
+                <h2 class=" t-title">What to do:</h2>
+                <ul class="  space-y-1 pl-6">
+                    <p>* Invite children to explore how they can form
+                        rainbows using the materials provided</p>
+                </ul>
+            </div>
+            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="" />
         </div>
     </div>
 
 
 
     {{-- done Button --}}
-    <div class="absolute bottom-[80px] z-[999]">
-        <button
-            class="cursor-pointer doneButton w-66 h-[75px] relative bg-[#F8A23A] rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
-                    outline outline-1 outline-yellow-700 overflow-hidden">
-            <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
-            <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" />
-            </div>
-            <span class="absolute left-[80px] top-[18px] flex items-center  text-white text-5xl stroke font-bold ">DONE</span>
+    <div class="down-btn-container">
+        <button class="cursor-pointer doneButton ">
+            <img src="{{ asset('assets/images/pptimages/done.png') }}" />
         </button>
     </div>
 
@@ -166,50 +197,30 @@
     <div id="buttons" class="absolute top-0 right-[60px] flex flex-row gap-6 z-90">
 
         <!-- Return Button -->
-        <a class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
-            id="returnButton">
-            <img class="absolute top-[6px] left-[8px] w-20 h-10"
-                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] w-14 h-14"
-                src="{{ asset('assets/images/pptimages/reverse-icon.png') }}" />
+        <a id="returnButton">
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
 
         <!-- Home Button -->
-        <button
-            class="relative w-24 h-24 button-fade-in bg-sky-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
-            id="homeButton">
-            <img class="absolute top-[6px] left-[8px] w-20 h-10"
-                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] w-14 h-14"
-                src="{{ asset('assets/images/pptimages/home-icon.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
-        <button class="relative w-24 h-24 button-fade-in cursor-pointer" id="closeButton">
-            <div
-                class="absolute inset-0 bg-red-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-red-900">
-            </div>
-            <img class="absolute top-[6px] left-[8px] w-20 h-10"
-                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <div id="closeButtonText"
-                class="absolute top-[16px] left-[30px] w-11 h-16 text-white text-6xl font-normal font-['Jua']">X
-            </div>
+        <button id="closeButton">
+
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
+
         </button>
 
     </div>
 
     {{-- next Button --}}
-    <div class="absolute bottom-[80px] z-[999]">
+    <div class="down-btn-container">
 
-        <button
-            class="cursor-pointer nextButton w-66 h-[75px] relative bg-[#F8A23A]  rounded-[30px]  overflow-hidden">
-            <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
-            <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" /> </div>
-            <span class="absolute left-[80px] top-[18px] flex items-center stroke text-white text-5xl font-bold ">NEXT
-            </span>
+        <button class="cursor-pointer nextButton">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
+
         </button>
     </div>
 @endsection
@@ -218,54 +229,65 @@
 @push('script')
     <script>
         document.addEventListener("DOMContentLoaded", () => {
+            // Get all elements
             const slides = document.querySelectorAll(".slide");
-            const nextButtons = document.querySelectorAll(".nextButton");
-            const returnButton = document.getElementById("returnButton");
-            const doneButton = document.querySelector(".doneButton"); // ✅ DONE button
+            const nextBtn = document.querySelector(".nextButton");
+            const returnBtn = document.getElementById("returnButton");
+            const doneBtn = document.querySelector(".doneButton");
 
-            let currentSlide = 0;
+            // Current slide position
+            let currentIndex = 0;
 
+            // Show slide and update buttons
             function showSlide(index) {
-                slides.forEach((slide, i) => {
-                    slide.classList.toggle("hidden", i !== index);
-                });
+                // Hide all slides
+                slides.forEach(slide => slide.classList.add("hidden"));
 
-                // ✅ Agar last slide hai → NEXT button hide, DONE show
-                if (index === slides.length - 1) {
-                    nextButtons.forEach(btn => btn.classList.add("hidden"));
-                    if (doneButton) doneButton.classList.remove("hidden");
+                // Show current slide
+                slides[index].classList.remove("hidden");
+
+                // Update index
+                currentIndex = index;
+
+                // Check if last slide
+                const isLastSlide = (index === slides.length - 1);
+
+                if (isLastSlide) {
+                    // Last slide: hide Next, show Done
+                    nextBtn.style.display = "none";
+                    doneBtn.style.display = "block";
                 } else {
-                    nextButtons.forEach(btn => btn.classList.remove("hidden"));
-                    if (doneButton) doneButton.classList.add("hidden");
+                    // Not last slide: show Next, hide Done
+                    nextBtn.style.display = "block";
+                    doneBtn.style.display = "none";
                 }
             }
 
-            // ✅ NEXT buttons listener
-            nextButtons.forEach((btn) => {
-                btn.addEventListener("click", () => {
-                    if (currentSlide < slides.length - 1) {
-                        currentSlide++;
-                        showSlide(currentSlide);
-                    }
-                });
-            });
-
-            // ✅ Return button
-            returnButton.addEventListener("click", () => {
-                if (currentSlide > 0) {
-                    currentSlide--;
-                    showSlide(currentSlide);
+            // Next button
+            nextBtn.addEventListener("click", () => {
+                if (currentIndex < slides.length - 1) {
+                    showSlide(currentIndex + 1);
                 }
             });
 
-            if (doneButton) {
-                doneButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('lightforms') }}";
-                });
-            }
+            // Return button
+            returnBtn.addEventListener("click", () => {
+                if (currentIndex === 0) {
+                    // On first slide: redirect to route
+                    window.location.href = "{{ route('rainbowSelection') }}";
+                } else {
+                    // Not first slide: go back
+                    showSlide(currentIndex - 1);
+                }
+            });
 
+            // Done button
+            doneBtn.addEventListener("click", () => {
+                window.location.href = "{{ route('lightforms') }}";
+            });
 
-            showSlide(currentSlide);
+            // Start at first slide
+            showSlide(0);
         });
     </script>
 @endpush

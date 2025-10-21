@@ -5,31 +5,39 @@
     {{-- sldie 1  --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Children will be able to:</h2>
+            <h2 class="t-title font-bold">Children will be able to:</h2>
             <ul class="list-disc ">
-                <li>
-                    Know that conductors are things that allow electricity to pass through them and insulators are things
-                    that do not allow electricity to pass through them.
-                </li>
-                <li>Know that playdough is a conductor and modelling clay is an insulator.</li>
-                <li>Use creativity to create sculptures that light up.</li>
+                <li>Know that a Makey Makey Board is a circuit board that uses electricity to do work.</li>
+                <li>Know that a computer is needed in order to set up and an application is needed in order to "see" the use
+                    of a Makey Makey Board.</li>
+                <li>Know that people can be part of a complete circuit that makes a Makey Makey Board work.</li>
+                <li>Know that people are conductors.</li>
                 <li>Develop understanding through observation and inquiry.</li>
             </ul>
         </div>
 
         <div class="flex flex-col  items-start justify-between">
-            <h2 class="text-[33px] font-bold">Keywords:</h2>
-            <div class="flex items-center gap-[30px]">
+            <h2 class="t-title font-bold">Keywords:</h2>
+            <div class="flex items-start gap-[60px]">
                 <ul class="list-disc ">
                     <li>Circuit</li>
                     <li>Electricity</li>
+                    <li>Electronic Machines</li>
+                    <li>Electronics</li>
+                </ul>
+                <ul class="list-disc ">
+                    <li>Circuit Board (Makey Makey Board)</li>
+                    <li>Computer</li>
+                    <li>Application</li>
+                </ul>
+                <ul class="list-disc ">
+                    <li>Complete Circuit</li>
                     <li>Conductor</li>
-                    <li>Insulator</li>
                 </ul>
             </div>
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
+            class="absolute teacher-img1" />
     </div>
 
 
@@ -39,58 +47,53 @@
         <div class="space-y-10">
             <ul class="list-disc ">
                 <h2 class="font-bold">Preparations:</h2>
-                <li>
-                    Each group a set of materials below (to create a sculpture that lights up):
-                    <ul>
-                        <li>>A pencil and some papers (to draw their design of a sculpture)</li>
-                        <li>>Playdough of different colours (except white)</li>
-                        <li>>White modelling clay</li>
-                        <li>>A battery</li>
-                        <li>>A battery connector</li>
-                        <li>>5 LEDs</li>
-                    </ul>
-                </li>
+                <li>A computer</li>
+                <li>A set of Makey Makey</li>
             </ul>
         </div>
+        <img src="{{ asset('assets/images/K2/circuit/makey/m13.png') }}" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
+            class="absolute teacher-img1" />
     </div>
 
 
     {{-- sldie 3 --}}
     <div class=" slide text-start text-2xl text-white space-y-10">
         <div>
-            <h2 class="font-bold">Things to note during hands-on session:</h2>
+            <h2 class="font-bold">What you need to know or do before the lesson:</h2>
             <ul class="list-disc pl-[50px]">
-                <li>Remind children not to touch any circuit parts when their hands are wet.</li>
-                <li>Remind children to handle the materials with care and not to put them into their mouths.</li>
-                <li>
-                    Remind children not to connect the LED directly to the battery without using playdough
-                    because this will make the battery very hot and burn the LED out.
-                </li>
-                <li>Remind children to be patient and take turns when using the materials provided.</li>
-                <li>Encourage children to always discuss and make decisions as a group to complete each mission.</li>
-                <li>Always encourage children to attempt on their own before prompting.</li>
-                <li>Remember to take photos and videos for documentation purposes.</li>
+                <li>Makey Makey is a set of electronic toy that allows you to create alternative keyboard for any computer
+                    programme or application that accepts keyboard or mouse click inputs.</li>
+                <li>When you connect a Makey Makey Board to a computer, the computer may ask you to install drivers or do
+                    other setup. Just close the pop up window.</li>
             </ul>
-        </div>
-        <div>
-            <ul class="list-disc pl-[50px]">
-                <li>Take photos of all the playdough circuits created, as well as the design drawings.</li>
-                <li>Display the photos in the classroom.</li>
-                <li>
-                    If you want, let every child have a chance to create a sculpture that lights up on
-                    his or her own during free time.
-                </li>
-            </ul>
+            <img src="{{ asset('assets/images/K2/circuit/makey/m14.png') }}" />
         </div>
 
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
+            class="absolute teacher-img1" />
     </div>
 
 
     {{-- slide 4 --}}
+    <div class=" slide text-start text-2xl text-white space-y-10">
+        <div>
+            <h2 class="font-bold">Things to note during hands-on session:</h2>
+            <ul class="list-disc pl-[50px]">
+                <li>Remind children not to touch any circuit parts when their hands are wet.</li>
+                <li>Remind children to handle the materials with care.</li>
+                <li>Remind children to be patient and take turns in using the materials provided.</li>
+                <li>Always encourage children to attempt on their own before prompting.</li>
+                <li>Remember to take photos and videos for documentation purpose.</li>
+            </ul>
+        </div>
+
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute teacher-img1" />
+    </div>
+
+
+    {{-- sldie 5 --}}
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white w-[80%]">
         <div class="flex w-[100%] items-center justify-between">
             <div>
@@ -132,64 +135,43 @@
     </div>
     {{-- ========================================================== --}}
     {{-- Buttons --}}
-    <div class="absolute bottom-0">
+    <div class="down-btn-container">
         <button
-            class="cursor-pointer doneButton w-66 h-[75px] relative bg-[#F8A23A] rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
-                    outline outline-1 outline-yellow-700 overflow-hidden">
-            <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
-            <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" />
-            </div>
-            <span
-                class="absolute left-[80px] top-[18px] flex items-center  text-white text-5xl font-bold stroke">DONE</span>
+         class="doneButton">
+ <img src="{{ asset('assets/images/pptimages/done.png') }}" />
         </button>
     </div>
 
     <div id="buttons" class="absolute top-0 right-[60px] flex flex-row gap-6 z-90">
 
         <!-- Return Button -->
-        <a class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
-            id="returnButton">
-            <img class="absolute top-[6px] left-[8px] w-20 h-10" src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] w-14 h-14"
-                src="{{ asset('assets/images/pptimages/reverse-icon.png') }}" />
+        <a id="returnButton">
+ <img
+    src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
 
         <!-- Home Button -->
         <button
-            class="relative w-24 h-24 button-fade-in bg-sky-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
-            id="homeButton">
-            <img class="absolute top-[6px] left-[8px] w-20 h-10"
-                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] w-14 h-14"
-                src="{{ asset('assets/images/pptimages/home-icon.png') }}" />
+     id="homeButton">
+            <img 
+                src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
-        <button class="relative w-24 h-24 button-fade-in cursor-pointer" id="closeButton">
-            <div
-                class="absolute inset-0 bg-red-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-red-900">
-            </div>
-            <img class="absolute top-[6px] left-[8px] w-20 h-10"
-                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <div id="closeButtonText"
-                class="absolute top-[16px] left-[30px] w-11 h-16 text-white text-6xl font-normal font-['Jua']">X
-            </div>
+        <button id="closeButton">
+           
+            <img 
+                src="{{ asset('assets/images/pptimages/cancel.png') }}" />
+    
         </button>
 
     </div>
 
     {{-- next Button --}}
-    <div class="absolute bottom-0">
+    <div class="down-btn-container">
         <button
-            class="cursor-pointer nextButton w-66 h-[75px] relative bg-[#F8A23A]  rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
-        outline outline-1 outline-yellow-700 overflow-hidden">
-            <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
-            <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" /> </div>
-            <span class="absolute left-[80px] top-[18px] flex items-center  text-white text-5xl font-bold stroke">NEXT
-            </span>
+            class="nextButton">
+ <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
         </button>
     </div>
 @endsection

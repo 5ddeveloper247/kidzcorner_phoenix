@@ -4,55 +4,57 @@
 
 
 @section('content')
+ {{-- title --}}
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">Back Light</h2>
 
     {{-- slide 0 --}}
-    <div class="flex flex-col items-center justify-center gap-5 slide hidden">
+    <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="title stroke">Do you remember these glow-in-the-dark toys?</h2>
-        <img src="{{ asset('assets/images/pptimages/dark1.png') }}" class="max-w-[500px] sm:max-w-[600px] lg:max-w-[536px]" />
+        <img src="{{ asset('assets/images/pptimages/dark1.png') }}" class="large-img2" />
         <p class="note">Note: Encourage children to share their answers.</p>
     </div>
 
     {{-- slide 1 --}}
-    <div class="flex flex-col items-center justify-center gap-5 slide hidden">
+    <div class="flex flex-col items-center justify-center slide hidden">
         <div class="flex flex-col items-center justify-center">
             <h2 class="title stroke">These toys store light energy and glow when
                 they are in a dark palce.</h2>
             <img src="{{ asset('assets/images/pptimages/dark2.png') }}"
-                class="max-w-[500px] sm:max-w-[600px] lg:max-w-[536px]" />
+                class="large-img2" />
         </div>
         <p class="note">Note: Encourage children to recap what they did previously.</p>
     </div>
 
     {{-- slide 2 --}}
-    <div class="flex flex-col items-center justify-center gap-2 slide hidden">
+    <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="title stroke">Look at these items, they are bright in
             colours. Do they look like they are glowing?</h2>
 
-        <img src="{{ asset('assets/images/pptimages/bl1.png') }}" class="max-w-[500px] sm:max-w-[600px] lg:max-w-[536px]" />
+        <img src="{{ asset('assets/images/pptimages/bl1.png') }}" class="large-img2" />
     </div>
 
     {{-- slide 3 --}}
-    <div class="flex flex-col items-center justify-center gap-2 slide hidden">
+    <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="title stroke">These bright colours are known as neon colours.</h2>
-        <img src="{{ asset('assets/images/pptimages/bl1.png') }}" class="max-w-[500px] sm:max-w-[600px] lg:max-w-[536px]" />
+        <img src="{{ asset('assets/images/pptimages/bl1.png') }}" class="large-img2" />
     </div>
 
     {{-- slide 4 --}}
-    <div class="flex flex-col justify-center gap-2 slide hidden">
+    <div class="flex flex-col justify-center slide hidden">
         <div class="flex flex-col items-center justify-center">
             <h2 class="title !text-white">CLASS ACTIVITY 1</h2>
             <img src="{{ asset('assets/images/pptimages/bl1.png') }}"
-                class="max-w-[500px] sm:max-w-[600px] lg:max-w-[536px]" />
+                class="large-img2" />
         </div>
         <div class="flex items-start">
-            <h2 class="title stroke text-start !text-[48px]">Let's try:<br> Will the neon coloured items glow in the dark?
+            <h2 class="title stroke text-start">Let's try:<br> Will the neon coloured items glow in the dark?
             </h2>
         </div>
         <p class="note ">Note: Encourage children to share their views and findings after trying this short activity.</p>
     </div>
 
     {{-- slide 5 --}}
-    <div class="flex flex-col gap-20 slide hidden">
+    <div class="flex flex-col  slide hidden">
         <div class="title stroke text-start">
             <h2>let's do:</h2>
             <ul class="list-decimal list-inside ">
@@ -66,55 +68,54 @@
             </ul>
         </div>
         <p class="note  text-center">Note: Teacher to explain that these neon coloured items are not the same as the glow
-            <br>
             in the dark items.
         </p>
     </div>
 
     {{-- slide 6 --}}
-    <div class="flex flex-col items-center justify-center gap-2 slide hidden">
+    <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="title stroke">Although the neon coloured items look like
             they are glowing, they do not glow in the dark.</h2>
-        <img src="{{ asset('assets/images/pptimages/bl2.png') }}" class="max-w-[500px] sm:max-w-[600px] lg:max-w-[536px]" />
+        <img src="{{ asset('assets/images/pptimages/bl2.png') }}" class="large-img2" />
     </div>
 
     {{-- slide 7 --}}
-    <div class="flex flex-col items-center justify-center gap-2 slide hidden">
+    <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="title stroke">This special flashlight can make the neon
             coloured items look like they are glowing in the dark.</h2>
-        <img src="{{ asset('assets/images/pptimages/bl3.png') }}" class="max-w-[500px] sm:max-w-[600px] lg:max-w-[536px]" />
+        <img src="{{ asset('assets/images/pptimages/bl3.png') }}" class="large-img2" />
     </div>
 
     {{-- slide 8 --}}
-    <div class="flex flex-col items-center justify-center gap-2 slide hidden">
+    <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="title stroke">This is a black light flashlight. the light is blue
             in colour. It is different from the usual flashlight.</h2>
-        <img src="{{ asset('assets/images/pptimages/bl3.png') }}" class="max-w-[500px] sm:max-w-[600px] lg:max-w-[536px]" />
+        <img src="{{ asset('assets/images/pptimages/bl3.png') }}" class="large-img2" />
     </div>
 
     {{-- slide 9 --}}
-    <div class="flex flex-col items-center justify-center gap-2 slide hidden">
+    <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="title stroke">When the neon coloured items are placed
             under black light, they glow brightly.</h2>
-        <img src="{{ asset('assets/images/pptimages/bl4.png') }}" class="max-w-[500px] sm:max-w-[600px] lg:max-w-[536px]" />
+        <img src="{{ asset('assets/images/pptimages/bl4.png') }}" class="large-img2" />
     </div>
 
 
 
     {{-- slide 10 --}}
-    <div class="flex flex-col justify-center gap-2 slide hidden">
+    <div class="flex flex-col justify-center slide hidden">
         <div class="flex flex-col items-center justify-center">
             <h2 class="title !text-white">CLASS ACTIVITY 2</h2>
             <img src="{{ asset('assets/images/pptimages/bl5.png') }}"
-                class="max-w-[500px] sm:max-w-[600px] lg:max-w-[536px]" />
+                class="large-img2" />
         </div>
         <div class="flex items-start">
-            <h2 class="title stroke text-start !text-[48px]">Let's try:<br> Make a black light flashlight.</h2>
+            <h2 class="title stroke text-start">Let's try:<br> Make a black light flashlight.</h2>
         </div>
     </div>
 
     {{-- slide 11 --}}
-    <div class="flex flex-col gap-20 slide hidden">
+    <div class="flex flex-col slide hidden">
         <div class="title stroke text-start">
             <h2>let's do:</h2>
             <ul class="list-decimal list-inside ">
@@ -130,7 +131,7 @@
     </div>
 
     {{-- slide 12 --}}
-    <div class="flex flex-col gap-20 slide hidden">
+    <div class="flex flex-col slide hidden">
         <div class="title stroke text-start">
             <h2>let's do:</h2>
             <ul class="list-decimal list-inside ">
@@ -146,32 +147,32 @@
 
 
     {{-- slide 13 --}}
-    <div class="flex flex-col items-center justify-center gap-2 slide hidden">
+    <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="title stroke">Look at these Halloween crafts! Neon
             coloured materials are often used for Halloween crafts.</h2>
         <img src="{{ asset('assets/images/pptimages/bl6.png') }}"
-            class="max-w-[500px] sm:max-w-[600px] lg:max-w-[536px]" />
+            class="large-img2" />
     </div>
 
     {{-- slide 14 --}}
-    <div class="flex flex-col items-center justify-center gap-2 slide hidden">
+    <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="title stroke">Black light are often used during Halloween!
             The lights make the Halloween decorations glow brightly.</h2>
         <img src="{{ asset('assets/images/pptimages/bl7.png') }}"
-            class="max-w-[500px] sm:max-w-[600px] lg:max-w-[536px]" />
+            class="large-img2" />
     </div>
 
 
 
     {{-- slide 15 --}}
-    <div class="flex flex-col justify-center gap-2 slide hidden">
+    <div class="flex flex-col justify-center slide hidden">
         <div class="flex flex-col items-center justify-center">
             <h2 class="title !text-white">CLASS ACTIVITY 2</h2>
             <img src="{{ asset('assets/images/pptimages/bl6.png') }}"
-                class="max-w-[500px] sm:max-w-[600px] lg:max-w-[536px]" />
+                class="large-img2" />
         </div>
         <div class="flex items-start">
-            <h2 class="title stroke text-start !text-[48px]">Let's try:<br>Prepare for Halloweeen</h2>
+            <h2 class="title stroke text-start">Let's try:<br>Prepare for Halloweeen</h2>
         </div>
         <p class="note  text-center">Note: Encourage children to decide what to create. This activity spreads over 2-3
             lessons.</p>
@@ -179,7 +180,7 @@
 
 
     {{-- slide 16 --}}
-    <div class="flex flex-col gap-20 slide hidden">
+    <div class="flex flex-col slide hidden">
         <div class="title stroke text-start">
             <h2>let's do:</h2>
             <ul class="list-decimal list-inside ">
@@ -197,7 +198,7 @@
 
 
     {{-- slide 17 --}}
-    <div class="flex flex-col gap-20 slide hidden">
+    <div class="flex flex-col slide hidden">
         <div class="title stroke text-start">
             <h2>let's do:</h2>
             <ul class=" list-inside ">
@@ -212,76 +213,48 @@
 
 
     {{-- slide 18 --}}
-    <div class="flex flex-col items-center justify-center gap-2 slide hidden">
+    <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="title stroke">Black light helps neon colour items
             glow in the dark.</h2>
         <img src="{{ asset('assets/images/pptimages/bl4.png') }}"
-            class="max-w-[500px] sm:max-w-[600px] lg:max-w-[536px]" />
+            class="large-img2" />
     </div>
 
 
     {{-- Complete/Done Butttom --}}
-    <div class="absolute bottom-[85px]">
-        <button
-            class="cursor-pointer doneButton w-66 h-[75px] relative bg-[#F8A23A] rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
-                    outline outline-1 outline-yellow-700 overflow-hidden">
-            <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
-            <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" />
-            </div>
-            <span
-                class="absolute left-[80px] top-[18px] flex items-center  text-white text-5xl font-bold stroke">DONE</span>
+    <div class="down-btn-container">
+        <button class="doneButton">
+            <img src="{{ asset('assets/images/pptimages/done.png') }}" />
         </button>
     </div>
 
     {{-- Buttons --}}
- <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
+    <div id="buttons" class="absolute  flex flex-row ">
 
         <!-- Return Button -->
-        <a class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
-            id="returnButton">
-            <img class="absolute top-[6px] left-[8px] w-20 h-10"
-                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] w-14 h-14"
-                src="{{ asset('assets/images/pptimages/reverse-icon.png') }}" />
+        <a id="returnButton">
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
 
         <!-- Home Button -->
-        <button
-            class="relative w-24 h-24 button-fade-in bg-sky-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
-            id="homeButton">
-            <img class="absolute top-[6px] left-[8px] w-20 h-10"
-                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] w-14 h-14"
-                src="{{ asset('assets/images/pptimages/home-icon.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
-        <button class="relative w-24 h-24 button-fade-in cursor-pointer" id="closeButton">
-            <div
-                class="absolute inset-0 bg-red-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-red-900">
-            </div>
-            <img class="absolute top-[6px] left-[8px] w-20 h-10"
-                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <div id="closeButtonText"
-                class="absolute top-[16px] left-[30px] w-11 h-16 text-white text-6xl font-normal font-['Jua']">X
-            </div>
+        <button id="closeButton">
+
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
+
         </button>
 
     </div>
 
     {{-- next Button --}}
-    <div class="absolute bottom-[85px]">
+    <div class="down-btn-container">
 
-        <button
-            class="cursor-pointer nextButton w-66 h-[75px] relative bg-[#F8A23A]  rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
-        outline outline-1 outline-yellow-700 overflow-hidden">
-            <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
-            <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" /> </div>
-            <span class="absolute left-[80px] top-[18px] flex items-center  text-white text-5xl font-bold stroke">NEXT
-            </span>
+        <button class="nextButton">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
         </button>
     </div>
 
@@ -295,52 +268,65 @@
 @push('script')
     <script>
         document.addEventListener("DOMContentLoaded", () => {
+            // Get all elements
             const slides = document.querySelectorAll(".slide");
-            const nextButtons = document.querySelectorAll(".nextButton");
-            const returnButton = document.getElementById("returnButton");
-            const doneButton = document.querySelector(".doneButton"); // ✅ DONE button
+            const nextBtn = document.querySelector(".nextButton");
+            const returnBtn = document.getElementById("returnButton");
+            const doneBtn = document.querySelector(".doneButton");
 
-            let currentSlide = 0;
+            // Current slide position
+            let currentIndex = 0;
 
+            // Show slide and update buttons
             function showSlide(index) {
-                slides.forEach((slide, i) => {
-                    slide.classList.toggle("hidden", i !== index);
-                });
-                if (index === slides.length - 1) {
-                    nextButtons.forEach(btn => btn.classList.add("hidden"));
-                    if (doneButton) doneButton.classList.remove("hidden");
+                // Hide all slides
+                slides.forEach(slide => slide.classList.add("hidden"));
+
+                // Show current slide
+                slides[index].classList.remove("hidden");
+
+                // Update index
+                currentIndex = index;
+
+                // Check if last slide
+                const isLastSlide = (index === slides.length - 1);
+
+                if (isLastSlide) {
+                    // Last slide: hide Next, show Done
+                    nextBtn.style.display = "none";
+                    doneBtn.style.display = "block";
                 } else {
-                    nextButtons.forEach(btn => btn.classList.remove("hidden"));
-                    if (doneButton) doneButton.classList.add("hidden");
+                    // Not last slide: show Next, hide Done
+                    nextBtn.style.display = "block";
+                    doneBtn.style.display = "none";
                 }
             }
 
-            //  NEXT buttons listener
-            nextButtons.forEach((btn) => {
-                btn.addEventListener("click", () => {
-                    if (currentSlide < slides.length - 1) {
-                        currentSlide++;
-                        showSlide(currentSlide);
-                    }
-                });
-            });
-
-            //  Return button
-            returnButton.addEventListener("click", () => {
-                if (currentSlide > 0) {
-                    currentSlide--;
-                    showSlide(currentSlide);
+            // Next button
+            nextBtn.addEventListener("click", () => {
+                if (currentIndex < slides.length - 1) {
+                    showSlide(currentIndex + 1);
                 }
             });
 
-            if (doneButton) {
-                doneButton.addEventListener("click", () => {
+            // Return button
+            returnBtn.addEventListener("click", () => {
+                if (currentIndex === 0) {
+                    // On first slide: redirect to route
                     window.location.href = "{{ route('blacklightSelection') }}";
-                });
-            }
+                } else {
+                    // Not first slide: go back
+                    showSlide(currentIndex - 1);
+                }
+            });
 
-            //  Start with first slide
-            showSlide(currentSlide);
+            // Done button
+            doneBtn.addEventListener("click", () => {
+                window.location.href = "{{ route('blacklightSelection') }}";
+            });
+
+            // Start at first slide
+            showSlide(0);
         });
     </script>
 @endpush

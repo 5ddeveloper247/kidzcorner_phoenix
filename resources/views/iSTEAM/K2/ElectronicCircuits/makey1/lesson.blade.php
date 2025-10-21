@@ -124,10 +124,13 @@
             <li>2. Connect a Makey Makey Board to a computer using a USB
                 cable. What happens to the board?</li>
         </ul>
-        <video id="video2" class="w-full max-w-[42rem] pointer-events-none">
-            <source src="{{ asset('assets/images/K2/circuit/makey/315.mp4') }}" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
+        <div class="flex">
+            <a class=" click-btn1"><img src="{{ asset('assets/images/K2/circuit/makey/btn.png') }}" /> </a>
+            <video id="video2" class="w-full max-w-[42rem] pointer-events-none">
+                <source src="{{ asset('assets/images/K2/circuit/makey/315.mp4') }}" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
         <p class="note">Note: Demo how to connect a Makey Makey Board to a computer using a USB cable. <br>
             Have children observe the set up process and the board when it's connected to the computer.</p>
         <!-- Video Trigger Button -->
@@ -139,169 +142,244 @@
         </div>
     </div>
 
+    {{-- click slide --}}
 
     {{-- slide 13 --}}
-    <div class="slide hidden flex flex-col items-center gap-3 ">
-        <img src="{{ asset('assets/images/K2/circuit/makey/e23.png') }}" />
-        <h2 class="title stroke">Have you ever played with playdough and modelling clay?
-            Are they same or different?</h2>
-        <p class="note">Note: Display a ball of playdough and a ball of modelling clay. Have children touch and compare
-            them.</p>
+    <div class="slide hidden click1 flex flex-col items-center  h-full justify-around">
+        <h2 class="title stroke">Do you see blinking lights at the back of the board?</h2>
+        <video id="video3" class="w-full max-w-[42rem] pointer-events-none">
+            <source src="{{ asset('assets/images/K2/circuit/makey/316.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <p class="note">Note: Guide children to spot all the blinking lights.</p>
+        <!-- Video Trigger Button -->
+        <div onclick="toggleVideo('video3')"
+            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
+            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
+            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
+            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+        </div>
     </div>
+
 
     {{-- slide 14 --}}
-    <div class="slide hidden flex flex-col items-center ">
-        <img src="{{ asset('assets/images/K2/circuit/makey/e24.png') }}" />
-        <h2 class="title stroke">Both playdough and modelling clay can be used to make
-            sculptures although they have different textures.</h2>
-        <p class="note">Note: Guide children to describe the texture of playdough and modelling clay.</p>
+    <div class="slide hidden click1 flex flex-col items-center  h-full justify-around">
+        <h2 class="title stroke">This is how the lights blink or light up in slow motion.</h2>
+        <video id="video4" class="w-full max-w-[42rem] pointer-events-none">
+            <source src="{{ asset('assets/images/K2/circuit/makey/317.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <p class="note">Note: Guide children to spot all the blinking lights.</p>
+        <!-- Video Trigger Button -->
+        <div onclick="toggleVideo('video4')"
+            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
+            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
+            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
+            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+        </div>
     </div>
 
-
     {{-- slide 15 --}}
-    <div class="slide hidden flex flex-col items-center ">
-        <img src="{{ asset('assets/images/K2/circuit/makey/e22.png') }}" />
-        <h2 class="title stroke">These things can form a complete circuit. <br>
-            What happens if you replace the playdough of this circuit <br>
-            with modelling clay? Let's find out.</h2>
-        <p class="note">Note: Have children form the circuit by changing the playdough to modelling clay to observe the
-            outcome.</p>
+    <div class="slide hidden click1 flex flex-col items-center ">
+        <h2 class="title stroke">Which tiny small things on the board are light bulbs?</h2>
+        <img src="{{ asset('assets/images/K2/circuit/makey/m10.png') }}" />
+        <p class="note">Note: Replay the video on the last page, have children point out all the light bulbs on the
+            board.
+            Tell them that the tiny light bulb on a circuit board is called LED (ight-emitting diode);
+            these LED bulbs are much smaller than what we use in the previous lessons</p>
     </div>
 
     {{-- slide 16 --}}
-    <div class="slide hidden flex flex-col items-center ">
-        <img src="{{ asset('assets/images/K2/circuit/makey/e25.png') }}" />
-        <h2 class="title stroke">The LED will not light up no matter how you change the
-            connection between the wires and the LED.</h2>
+    <div class="slide hidden click1 flex flex-col items-center ">
+        <h2 class="title stroke">Which bulb is the power indicator of the board?
+            What does it means?</h2>
+        <img src="{{ asset('assets/images/K2/circuit/makey/m10.png') }}" />
+        <p class="note">Note: Have children point out the power indicator of the board.
+            Explain that when the power indicator is on, it means that the board is ready for use.</p>
     </div>
 
 
     {{-- slide 17 --}}
-    <div class="slide hidden flex flex-col items-center ">
-        <img src="{{ asset('assets/images/K2/circuit/makey/e25.png') }}" />
-        <h2 class="title stroke">This means electricity cannot flow through modelling clay to
-            provide power for the LED to light up.</h2>
+    <div class="slide hidden click1 flex flex-col items-center ">
+        <h class="title stroke">Do you remember this simple circuit?</h>
+        <img src="{{ asset('assets/images/K2/circuit/ecity/e13.png') }}" />
+        <h2 class="title stroke">When there is electricity, the light bulb in this simple circuit
+            will light up.</h2>
     </div>
 
 
     {{-- slide 18 --}}
-    <div class="slide hidden flex flex-col items-center ">
-        <img src="{{ asset('assets/images/K2/circuit/makey/e25.png') }}" />
-        <h2 class="title stroke">Things that do not allow <span class="text-white">electrici</span>.y to flow through them
-            are
-            called <span class="text-white">insulator</span>.. Modelling clay is an <span
-                class="text-white">insulator</span>.</h2>
+    <div class="slide hidden click1 flex flex-col items-center  h-full justify-around">
+        <h2 class="title stroke">When there is electricity, the light bulbs on a Makey Makey
+            Board will blink or light up.</h2>
+        <video id="video5" class="w-full max-w-[42rem] pointer-events-none">
+            <source src="{{ asset('assets/images/K2/circuit/makey/317.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <h2 class="title stroke">Doesn't this show that the board has a complicated circuit?</h2>
+        <!-- Video Trigger Button -->
+        <div onclick="toggleVideo('video5')"
+            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
+            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
+            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
+            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+        </div>
     </div>
+    {{-- ===== --}}
 
 
     {{-- slide 19 --}}
-    <div class="slide hidden flex flex-col items-center ">
-        <img src="{{ asset('assets/images/K2/circuit/makey/e26.png') }}" />
-        <h2 class="title stroke">Do you remember this? The LED is not lighted up when the
-            two playdough balls are stuck together.</h2>
+    <div class="slide hidden flex flex-col items-center  h-full justify-around">
+        <ul class="text-start title stroke">
+            <h2>Steps:</h2>
+            <li>3. Open up the Microsoft Word application. Use keyboard to
+                create a document as shown.</li>
+        </ul>
+        <div class="flex items-start gsp-5">
+            <img src="{{ asset('assets/images/K2/circuit/makey/m7.png') }}" />
+            <p class="note w-[140px] !text-start">Use big font
+                size (e.g.100)
+                to key in the
+                letters.</p>
+        </div>
+        <p class="note">Note: Have children observe the demo. Have them pay attention to the keys (on the keyboard) used.
+            At the end, make sure that the cursor is in between the first 2 letters.</p>
     </div>
 
     {{-- sldie 20 --}}
-    <div class="slide hidden flex flex-col items-center ">
-        <img src="{{ asset('assets/images/K2/circuit/makey/e27.png') }}" />
-        <h2 class="title stroke">This is how modelling clay helps to solve the problem.</h2>
-        <p class="note">Note: Form the circuit on the previous page and this page. Have children observe the outcome.</p>
+    <div class="slide hidden flex flex-col items-center  h-full justify-around">
+        <ul class="text-start title stroke">
+            <h2>Steps:</h2>
+            <li>4. Connect one end of an alligator clip to the EARTH at the
+                bottom of the board.</li>
+        </ul>
+        <video id="video6" class="w-full max-w-[42rem] pointer-events-none">
+            <source src="{{ asset('assets/images/K2/circuit/makey/318.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <p class="note">Note: Have children observe the demo.</p>
+        <!-- Video Trigger Button -->
+        <div onclick="toggleVideo('video6')"
+            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
+            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
+            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
+            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+        </div>
     </div>
 
 
     {{-- sldie 21 --}}
-    <div class="slide hidden flex flex-col items-center h-[60%] justify-between">
-        <h2 class="title stroke">Now you know how to form a complete circuit, <br>
-            do you think the idea can be used <br>
-            to create a sculpture that lights up?</h2>
-        <p class="note">Note: Encourage children to boldly imagine and share their views.</p>
+    <div class="slide hidden flex flex-col items-center  h-full justify-around">
+        <ul class="text-start title stroke">
+            <h2>Steps:</h2>
+            <li>5. Use the fingers of a hand to hold the metal part of the
+                other end of the alligator clip.</li>
+        </ul>
+        <div class="flex items-start gsp-5">
+            <img src="{{ asset('assets/images/K2/circuit/makey/m8.png') }}" />
+        </div>
+        <p class="note">Note: Have children observe the demo.</p>
     </div>
 
 
     {{-- sldie 22 --}}
-    <div class="slide hidden flex flex-col items-center ">
-        <img src="{{ asset('assets/images/K2/circuit/makey/d1.png') }}" />
-        <h2 class="title stroke">What sculpture is this? Why do you think the lights are there?
-            How do you form it?</h2>
-        <p class="note">Note: Have children observe the sculpture and answer the questions.</p>
-    </div>
-
-    {{-- sldie 23 --}}
-    <div class="slide hidden flex flex-col items-center ">
-        <img src="{{ asset('assets/images/K2/circuit/makey/d2.png') }}" />
-        <h2 class="title stroke">What sculpture is this? Why do you think the lights are there?
-            How do you form it?</h2>
-        <p class="note">Note: Have children observe the sculpture and answer the questions.</p>
-    </div>
-
-
-    {{-- sldie 24 --}}
-    <div class="slide hidden flex flex-col items-center ">
-        <img src="{{ asset('assets/images/K2/circuit/makey/d3.png') }}" />
-        <h2 class="title stroke">What sculpture is this? Why do you think the lights are there?
-            How do you form it?</h2>
-        <p class="note">Note: Have children observe the sculpture and answer the questions.</p>
-    </div>
-
-
-    {{-- slide 25 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-full  ">
-        <h2 class="!text-white title stroke">Hands-on Time </h2>
-        <h2 class="title stroke text-start">Mission: <br>
-            Let's use our creativity to create a sculpture that lights up
-            and show the class!</h2>
-        <p class="text-center note">Note: Divide children into groups. Give each group a set of materials needed.</p>
-    </div>
-
-    {{-- slide 26 --}}
     <div class="slide hidden flex flex-col items-center  h-full justify-around">
-        <ul class="text-start title stroke list-decimal">
+        <ul class="text-start title stroke">
             <h2>Steps:</h2>
-            <li>
-                What kind of sculpture would you like to make? Where do you think the light or lights should be?
-                Draw it in the learning journal.
-            </li>
-            <li>
-                Use playdough, modelling clay and the circuit parts provided to create the sculpture based on your design.
-            </li>
-            <li>Showcase your work.</li>
+            <li>6. Use the fingers of another hand to touch on the SPACE and
+                different ARROWS. What happens?</li>
         </ul>
-        <p class="note">Note: Have children work in groups to complete the steps.</p>
-    </div>
-
-    {{-- slide 27 --}}
-    <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
-        <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[836px] h-[536px] bg-cover bg-center flex flex-col justify-start items-center"
-            style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
-            <p>What kind of sculpture would you like to make? Where do you think the light or lights
-                should be? Draw it.</p>
+        <video id="video7" class="w-full max-w-[42rem] pointer-events-none">
+            <source src="{{ asset('assets/images/K2/circuit/makey/319.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <p class="note">Note: Have children observe the demo, take turns to try this step and talk about what they see.
+        </p>
+        <!-- Video Trigger Button -->
+        <div onclick="toggleVideo('video7')"
+            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
+            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
+            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
+            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
         </div>
     </div>
 
-    {{-- ====================================== --}}
-    {{-- Buttons --}}
-    <div class="absolute bottom-[85px]">
-        <button
-            class="cursor-pointer doneButton w-66 h-[75px] relative bg-[#F8A23A] rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
-                    outline outline-1 outline-yellow-700 overflow-hidden">
-            <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
-            <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" />
-            </div>
-            <span
-                class="absolute left-[80px] top-[18px] flex items-center  text-white text-5xl font-bold stroke">DONE</span>
-        </button>
+
+    {{-- sldie 23 --}}
+    <div class="slide hidden flex flex-col items-center  h-full justify-around">
+        <ul class="text-start title stroke">
+            <h2>Steps:</h2>
+            <li>7. Let go of this hand and use another hand to touch on the
+                SPACE and different ARROWS. What happens?</li>
+        </ul>
+        <div class="flex items-start gsp-5">
+            <img src="{{ asset('assets/images/K2/circuit/makey/m9.png') }}" />
+        </div>
+        <p class="note">Note: Have children observe the demo, take turns to try this step and talk about what they see.
+        </p>
     </div>
 
 
-    <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
+
+    {{-- sldie 24 --}}
+    <div class="slide hidden flex flex-col items-center  h-full justify-between">
+        <ul class="text-start title stroke list-disc ">
+            <h2>Do you realise that:</h2>
+            <li>You need a computer to set up a Makey Makey Board.</li>
+            <li>The board is only ready for use when it gets electricity
+                from the computer.</li>
+            <li>You get to "see" the use of a Makey Makey Board with the
+                help of the Microsoft Word application.</li>
+            <li>The use of the SPACE on the board is just like the use of
+                the space key on a keyboard.</li>
+        </ul>
+
+        <p class="note">Note: Guide children to understand these points. Demo to convince children on some points.</p>
+    </div>
+
+
+
+    {{-- slide 25 --}}
+    <div class="slide hidden flex flex-col items-center  h-full justify-between">
+        <ul class="text-start title stroke list-disc ">
+            <h2>Do you realise that:</h2>
+            <li>The use of the different ARROWS on the board is just like the use of the arrow (up, down, left, right) keys
+                on a keyboard.</li>
+            <li>The SPACE or different ARROWS of the board is not working when one of your hand is not connected to the
+                EARTH of the board.</li>
+            <li>You are a conductor because you let electricity pass through you to provide electricity for the board to do
+                work.</li>
+        </ul>
+
+        <p class="note">Note: Guide children to understand these points. Demo to convince children on some points.</p>
+    </div>
+
+
+    {{-- slide 26 --}}
+    <div class="slide hidden flex flex-col items-center gap-5">
+        <img src="{{ asset('assets/images/K2/circuit/makey/m11.png') }}" />
+        <h2 class="title stroke">You are actually part of this complete circuit that makes the
+            Makey Makey Board work!</h2>
+        <p class="note">Note: Guide children to "see" how electricity flow in a circuit with reference to the drawing.
+        </p>
+    </div>
+
+
+    {{-- ====================================== --}}
+    {{-- Buttons --}}
+    <div class="down-btn-container">
+        <button class="doneButton">
+            <img src="{{ asset('assets/images/pptimages/done.png') }}" />
+        </button>
+    </div>
+
+    <div id="buttons" class="absolute  flex flex-row ">
         <!-- Return Button -->
         <a class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] " id="returnButton">
             <img class="absolute top-[6px] left-[8px] w-20 h-10"
                 src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
             <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] w-14 h-14"
-                src="{{ asset('assets/images/pptimages/reverse-icon.png') }}" />
+            <img class=" w-14 h-14" src="{{ asset('assets/images/pptimages/reverse-icon.png') }}" />
         </a>
 
         <!-- Home Button -->
@@ -309,29 +387,24 @@
             <img class="absolute top-[6px] left-[8px] w-20 h-10"
                 src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
             <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] w-14 h-14"
-                src="{{ asset('assets/images/pptimages/home-icon.png') }}" />
+           <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
-        <button class="relative w-24 h-24 button-fade-in cursor-pointer" id="closeButton">
-            <div class="absolute inset-0 bg-red-500 rounded-[30px]">
-            </div>
-            <img class="absolute top-[6px] left-[8px] w-20 h-10"
-                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <div id="closeButtonText"
-                class="absolute top-[16px] left-[30px] w-11 h-16 text-white text-6xl font-normal font-['Jua']">X
-            </div>
+        <button
+            
+            id="closeButton">
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
+
         </button>
     </div>
 
     {{-- next Button --}}
-    <div class="absolute bottom-[85px]">
+    <div class="down-btn-container">
         <button class="cursor-pointer nextButton w-66 h-[75px] relative bg-[#F8A23A]  rounded-[30px]">
             <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
             <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" /> </div>
-            <span class="absolute left-[80px] top-[18px] flex items-center  text-white text-5xl font-bold stroke">NEXT
+            <span class="flex items-center  text-white text-5xl font-bold stroke">NEXT
             </span>
         </button>
     </div>
@@ -356,9 +429,13 @@
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
             const doneButton = document.querySelector(".doneButton");
+            const clickButtons = document.querySelectorAll("[class*='click-btn']");
 
             // Keep track of which slide we're currently viewing
             let currentSlide = 0;
+            let parentSlideIndex = null;
+            let isViewingClickSlides = false;
+            let currentClickClass = null;
 
             // CONFIGURE YOUR ROUTES HERE
             const returnRouteFromFirstSlide = "{{ route('makey1Selection') }}";
@@ -374,6 +451,34 @@
                 });
             }
 
+            // Check if slide is any click slide (click1, click2, etc.)
+            function isClickSlide(slide) {
+                return Array.from(slide.classList).some(cls => cls.startsWith('click') && cls.match(/^click\d+$/));
+            }
+
+            // Check if there's another click slide with same class after current one
+            function hasNextClickSlide(currentIndex) {
+                if (!currentClickClass) return false;
+
+                for (let i = currentIndex + 1; i < slides.length; i++) {
+                    if (slides[i].classList.contains(currentClickClass)) {
+                        return true;
+                    }
+                }
+                return false;
+            }
+
+            // Get click class from button (click-btn1 → click1, click-btn2 → click2)
+            function getClickClassFromButton(button) {
+                const classList = Array.from(button.classList);
+                const clickBtnClass = classList.find(cls => cls.startsWith('click-btn'));
+                if (clickBtnClass) {
+                    const number = clickBtnClass.replace('click-btn', '');
+                    return 'click' + number;
+                }
+                return null;
+            }
+
             // Show a specific slide and hide all others
             function showSlide(index) {
                 // Pause all videos before switching
@@ -384,10 +489,11 @@
                     slide.classList.toggle("hidden", i !== index);
                 });
 
-                // Show "Done" button on last slide, otherwise show "Next" button
+                // Check if last slide OR last click slide
                 const isLastSlide = index === slides.length - 1;
+                const isLastClickSlide = isViewingClickSlides && !hasNextClickSlide(index);
 
-                if (isLastSlide) {
+                if (isLastSlide || isLastClickSlide) {
                     nextButtons.forEach(btn => btn.classList.add("hidden"));
                     if (doneButton) doneButton.classList.remove("hidden");
                 } else {
@@ -396,33 +502,107 @@
                 }
             }
 
-            // NEXT button - go to next slide
+            // Click button handlers
+            clickButtons.forEach((btn) => {
+                btn.addEventListener("click", (e) => {
+                    e.preventDefault(); // Prevent default anchor behavior
+
+                    parentSlideIndex = currentSlide;
+                    isViewingClickSlides = true;
+                    currentClickClass = getClickClassFromButton(btn);
+
+                    // Find the first slide with matching click class
+                    for (let i = 0; i < slides.length; i++) {
+                        if (slides[i].classList.contains(currentClickClass)) {
+                            currentSlide = i;
+                            showSlide(currentSlide);
+                            break;
+                        }
+                    }
+                });
+            });
+
+            // NEXT button - skip click slides if not viewing them
             nextButtons.forEach((btn) => {
                 btn.addEventListener("click", () => {
                     if (currentSlide < slides.length - 1) {
                         currentSlide++;
-                        showSlide(currentSlide);
+
+                        // Skip click slides if not viewing them
+                        while (!isViewingClickSlides &&
+                            currentSlide < slides.length &&
+                            isClickSlide(slides[currentSlide])) {
+                            currentSlide++;
+                        }
+
+                        // If viewing click slides, only show slides with current click class
+                        if (isViewingClickSlides) {
+                            while (currentSlide < slides.length &&
+                                !slides[currentSlide].classList.contains(currentClickClass)) {
+                                currentSlide++;
+                            }
+                        }
+
+                        if (currentSlide < slides.length) {
+                            showSlide(currentSlide);
+                        }
                     }
                 });
             });
 
             // RETURN button - go to previous slide or navigate back
             returnButton.addEventListener("click", () => {
-                // If on first slide, navigate to the return route
-                if (currentSlide === 0) {
+                // If on first slide and not viewing click slides, navigate to return route
+                if (currentSlide === 0 && !isViewingClickSlides) {
                     window.location.href = returnRouteFromFirstSlide;
                     return;
                 }
 
-                // Otherwise, go to previous slide
-                currentSlide--;
-                showSlide(currentSlide);
+                if (isViewingClickSlides) {
+                    // Find previous slide with same click class
+                    let prevSlide = currentSlide - 1;
+
+                    while (prevSlide >= 0 && !slides[prevSlide].classList.contains(currentClickClass)) {
+                        prevSlide--;
+                    }
+
+                    if (prevSlide >= 0 && slides[prevSlide].classList.contains(currentClickClass)) {
+                        currentSlide = prevSlide;
+                        showSlide(currentSlide);
+                    } else {
+                        // No more click slides, return to parent
+                        currentSlide = parentSlideIndex;
+                        isViewingClickSlides = false;
+                        currentClickClass = null;
+                        parentSlideIndex = null;
+                        showSlide(currentSlide);
+                    }
+                } else if (currentSlide > 0) {
+                    currentSlide--;
+
+                    // Skip click slides when going back
+                    while (currentSlide > 0 && isClickSlide(slides[currentSlide])) {
+                        currentSlide--;
+                    }
+
+                    showSlide(currentSlide);
+                }
             });
 
-            // DONE button - navigate to completion route
+            // DONE button - navigate to completion route or return to parent
             if (doneButton) {
                 doneButton.addEventListener("click", () => {
-                    window.location.href = doneButtonRoute;
+                    if (isViewingClickSlides && parentSlideIndex !== null) {
+                        // Return to parent slide
+                        currentSlide = parentSlideIndex;
+                        isViewingClickSlides = false;
+                        currentClickClass = null;
+                        parentSlideIndex = null;
+                        showSlide(currentSlide);
+                    } else {
+                        // Navigate to route
+                        window.location.href = doneButtonRoute;
+                    }
                 });
             }
 

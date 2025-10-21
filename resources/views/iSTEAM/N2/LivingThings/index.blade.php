@@ -1,43 +1,7 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
 
-@push('style')
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-    <style>
-        .slide-container {
-            transition: opacity 0.3s ease-in-out;
-        }
 
-        .button-hidden {
-            display: none !important;
-        }
-
-        .button-disabled {
-            opacity: 0.5;
-            cursor: not-allowed;
-        }
-
-        /* Custom animations for buttons */
-        .button-fade-in {
-            animation: fadeIn 0.3s ease-in-out;
-        }
-
-        .stroke {
-
-            -webkit-text-stroke: 2px #533705;
-        }
-
-        .note {
-            font-size: 24px;
-            font-weight: 400;
-            color: white;
-        }
-
-        a {
-            cursor: pointer;
-        }
-    </style>
-@endpush
 
 @section('content')
     <div class="flex justify-center items-center min-h-screen ">
@@ -47,61 +11,44 @@
 
             <div class="flex flex-wrap gap-3 justify-center items-center">
                 <!-- Card 1 -->
-                <a href="{{ route('Animals') }}"
-                    style="background-image: url('{{asset('/assets/images/pptimages/Property1.png')}}');"
-            class=" bg-no-repeat bg-contain bg-center w-[280px] h-[280px] relative flex justify-center items-center transition hover:brightness-110">
-                    <h2 class="text-2xl text-[#7D6F71] text-center leading-tight">Animals <br> are Living <br> Things</h2>
-                    <span class="text-3xl text-[#AF6E39] absolute top-[70px] right-[30px]">1</span>
+                <a href="{{ route('Animals') }}" class=" transition hover:brightness-110">
+                    <img src="{{ asset('/assets/images/N2/LivingThings/cl1.png') }}" alt="">
                 </a>
 
                 <!-- Card 2 -->
-                <a href="{{ route('Growth') }}"
-                    style="background-image: url('{{asset('/assets/images/pptimages/Property1.png')}}');"
-            class=" bg-no-repeat bg-contain bg-center w-[280px] h-[280px] relative flex justify-center items-center transition hover:brightness-110">
-                    <h2 class="text-2xl text-[#7D6F71] text-center leading-tight">How <br> do Animals <br> Grow?</h2>
-                    <span class="text-3xl text-[#AF6E39] absolute top-[70px] right-[30px]">2</span>
+                <a href="{{ route('Growth') }}" class=" transition hover:brightness-110">
+                    <img src="{{ asset('/assets/images/N2/LivingThings/cl2.png') }}" alt="">
+
                 </a>
 
                 <!-- Card 3 -->
-                <a href="{{ route('StageOfGrowth') }}"
-                    style="background-image: url('{{asset('/assets/images/pptimages/Property1.png')}}');"
-            class=" bg-no-repeat bg-contain bg-center w-[280px] h-[280px] relative flex justify-center items-center transition hover:brightness-110">
-                    <h2 class="text-2xl text-[#7D6F71] text-center leading-tight">The Stages of <br> Growth of <br> a
-                        Butterfly</h2>
-                    <span class="text-3xl text-[#AF6E39] absolute top-[70px] right-[30px]">3</span>
+                <a href="{{ route('StageOfGrowth') }}" class=" transition hover:brightness-110">
+                    <img src="{{ asset('/assets/images/N2/LivingThings/cl3.png') }}" alt="">
+
                 </a>
 
                 <!-- Card 4 -->
-                <a href="{{ route('PlantsGrowth') }}"
-                    style="background-image: url('{{asset('/assets/images/pptimages/Property1.png')}}');"
-            class=" bg-no-repeat bg-contain bg-center w-[280px] h-[280px] relative flex justify-center items-center transition hover:brightness-110">
-                    <h2 class="text-2xl text-[#7D6F71] text-center leading-tight">How do <br> Plants <br> Grow?</h2>
-                    <span class="text-3xl text-[#AF6E39] absolute top-[70px] right-[30px]">4</span>
+                <a href="{{ route('PlantsGrowth') }}" class=" transition hover:brightness-110">
+                    <img src="{{ asset('/assets/images/N2/LivingThings/cl4.png') }}" alt="">
+
                 </a>
 
                 <!-- Card 5 -->
-                <a href="{{ route('PartsOfPlants') }}"
-                    style="background-image: url('{{asset('/assets/images/pptimages/Property1.png')}}');"
-            class=" bg-no-repeat bg-contain bg-center w-[280px] h-[280px] relative flex justify-center items-center transition hover:brightness-110">
-                    <h2 class="text-2xl text-[#7D6F71] text-center leading-tight">Parts of a <br> Plant</h2>
-                    <span class="text-3xl text-[#AF6E39] absolute top-[70px] right-[30px]">5</span>
+                <a href="{{ route('PartsOfPlants') }}" class=" transition hover:brightness-110">
+                    <img src="{{ asset('/assets/images/N2/LivingThings/cl5.png') }}" alt="">
+
                 </a>
 
                 <!-- Card 6 -->
-                <a href="{{ route('Drinking') }}"
-                    style="background-image: url('{{asset('/assets/images/pptimages/Property1.png')}}');"
-            class=" bg-no-repeat bg-contain bg-center w-[280px] h-[280px] relative flex justify-center items-center transition hover:brightness-110">
-                    <h2 class="text-2xl text-[#7D6F71] text-center leading-tight">How Does a <br> Plant Drink <br> Water?
-                    </h2>
-                    <span class="text-3xl text-[#AF6E39] absolute top-[70px] right-[30px]">6</span>
+                <a href="{{ route('Drinking') }}" class=" transition hover:brightness-110">
+                    <img src="{{ asset('/assets/images/N2/LivingThings/cl6.png') }}" alt="">
+
                 </a>
 
                 <!-- Card 7 -->
-                <a href="{{ route('Plants') }}"
-                    style="background-image: url('{{asset('/assets/images/pptimages/Property1.png')}}');"
-            class=" bg-no-repeat bg-contain bg-center w-[280px] h-[280px] relative flex justify-center items-center transition hover:brightness-110">
-                    <h2 class="text-2xl text-[#7D6F71] text-center leading-tight">Are Plants <br> Living <br> Things?</h2>
-                    <span class="text-3xl text-[#AF6E39] absolute top-[70px] right-[30px]">7</span>
+                <a href="{{ route('Plants') }}" class=" transition hover:brightness-110">
+                    <img src="{{ asset('/assets/images/N2/LivingThings/cl7.png') }}" alt="">
+
                 </a>
             </div>
 
@@ -114,37 +61,20 @@
     <div id="buttons" class="absolute top-[30px] right-[60px] flex flex-row gap-6 z-90">
 
         <!-- Return Button (hidden initially) -->
-        <a href="{{ route('N2') }}"
-            class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
-            id="returnButton">
-            <img class="absolute top-[6px] left-[8px] w-20 h-10" src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] w-14 h-14"
-                src="{{ asset('assets/images/pptimages/reverse-icon.png') }}" />
-        </a>
+        <a href="{{ route('N2') }}" id="returnButton">
 
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
+        </a>
         <!-- Home Button -->
-        <button
-            class="relative w-24 h-24 button-fade-in bg-sky-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
-            id="homeButton">
-            <img class="absolute top-[6px] left-[8px] w-20 h-10"
-                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] w-14 h-14"
-                src="{{ asset('assets/images/pptimages/home-icon.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
-        <button class="relative w-24 h-24 button-fade-in cursor-pointer" id="closeButton">
-            <div
-                class="absolute inset-0 bg-red-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-red-900">
-            </div>
-            <img class="absolute top-[6px] left-[8px] w-20 h-10"
-                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <div id="closeButtonText"
-                class="absolute top-[16px] left-[30px] w-11 h-16 text-white text-6xl font-normal font-['Jua']">X
-            </div>
+        <button id="closeButton">
+
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
+
         </button>
     </div>
 @endsection

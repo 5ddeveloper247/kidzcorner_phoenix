@@ -55,12 +55,12 @@
             <img src="{{ asset('assets/images/N2/SimpleMachines/a8.png') }}" />
         </div>
         <p class="note  text-center">Note: Have each group of children work together to complete the mission. <a
-                href="">Click <span class="text-amber-300">Here</span></a> for the guide.</p>
+                class="click-btn1">Click <span class="text-[#F7B94A]">Here</span></a> for the guide.</p>
     </div>
 
 
     {{-- slide 5 --}}
-    <div class="flex flex-col items-center justify-center slide hidden">
+    <div class="flex  flex-col click1 items-center justify-center slide hidden">
         <h2 class="title stroke">How to build a wagon? Step 1 of 7 </h2>
         <img src="{{ asset('assets/images/N2/SimpleMachines/a18.png') }}" />
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
@@ -69,7 +69,7 @@
 
 
     {{-- slide 6 --}}
-    <div class="flex flex-col items-center justify-center slide hidden">
+    <div class="flex flex-col click1 items-center justify-center slide hidden">
         <h2 class="title stroke">How to build a wagon? Step 2 of 7</h2>
         <img src="{{ asset('assets/images/N2/SimpleMachines/a19.png') }}" />
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
@@ -77,7 +77,7 @@
 
 
     {{-- slide 7 --}}
-    <div class="flex flex-col items-center justify-center slide hidden">
+    <div class="flex flex-col click1 items-center justify-center slide hidden">
         <h2 class="title stroke">How to build a wagon? Step 3 of 7</h2>
         <img src="{{ asset('assets/images/N2/SimpleMachines/a20.png') }}" />
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
@@ -86,7 +86,7 @@
 
 
     {{-- slide 8 --}}
-    <div class="flex flex-col items-center justify-center slide hidden">
+    <div class="flex flex-col click1 items-center justify-center slide hidden">
         <h2 class="title stroke">How to build a wagon? Step 4 of 7</h2>
         <img src="{{ asset('assets/images/N2/SimpleMachines/a21.png') }}" />
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
@@ -95,14 +95,14 @@
 
 
     {{-- slide 9 --}}
-    <div class="flex flex-col items-center justify-center slide hidden">
+    <div class="flex flex-col click1 items-center justify-center slide hidden">
         <h2 class="title stroke">How to build a wagon? Step 5 of 7</h2>
         <img src="{{ asset('assets/images/N2/SimpleMachines/a22.png') }}" />
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
     </div>
 
     {{-- slide 10 --}}
-    <div class="flex flex-col items-center justify-center slide hidden">
+    <div class="flex flex-col click1 items-center justify-center slide hidden">
         <h2 class="title stroke">How to build a wagon? Step 6 of 7</h2>
         <img src="{{ asset('assets/images/N2/SimpleMachines/a23.png') }}" />
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
@@ -110,7 +110,7 @@
 
 
     {{-- slide 11 --}}
-    <div class="flex flex-col items-center justify-center slide hidden">
+    <div class="flex flex-col click1 items-center justify-center slide hidden">
         <h2 class="title stroke">How to build a wagon? Step 7 of 7</h2>
         <img src="{{ asset('assets/images/N2/SimpleMachines/a24.png') }}" />
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
@@ -135,7 +135,7 @@
 
 
     {{-- slide 13 --}}
-   <div class="flex flex-col items-center justify-center slide hidden">
+    <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="title stroke">What happens when you pull the string?</h2>
         <img src="{{ asset('assets/images/N2/SimpleMachines/a8.png') }}" />
         <p class="note">Note: Encourage children to share their hands-on experiences.</p>
@@ -143,118 +143,157 @@
 
 
     {{-- slide 14 --}}
-     <div class="flex flex-col items-center justify-center slide hidden">
-         <img src="{{ asset('assets/images/N2/SimpleMachines/a9.png') }}" />
-         <h2 class="title stroke">When you pull the string,the wagon that is tied to the string moves.</h2>
+    <div class="flex flex-col items-center justify-center slide hidden">
+        <video id="video1" class="w-full max-w-[42rem] pointer-events-none">
+            <source src="{{ asset('assets/images/N2/SimpleMachines/1.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <h2 class="title stroke">When you pull the string,the wagon that is tied to the string moves.</h2>
+        <!-- Video Trigger Button -->
+        <div onclick="toggleVideo('video1')"
+            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
+            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
+            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
+            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+        </div>
     </div>
 
     {{-- slide 15 --}}
-     <div class="flex flex-col items-center justify-center slide hidden">
-         <img src="{{ asset('assets/images/N2/SimpleMachines/a9.png') }}" />
-         <h2 class="title stroke">Why do you think the wagon moves easily? What does it have?</h2>
+    <div class="flex flex-col items-center justify-center slide hidden">
+        <video id="video2" class="w-full max-w-[42rem] pointer-events-none">
+            <source src="{{ asset('assets/images/N2/SimpleMachines/1.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <h2 class="title stroke">Why do you think the wagon moves easily? What does it have?</h2>
+        <!-- Video Trigger Button -->
+        <div onclick="toggleVideo('video2')"
+            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
+            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
+            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
+            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+        </div>
     </div>
 
-  
-{{-- slide 16 --}}
-     <div class="flex flex-col items-center justify-center slide hidden">
-         <img src="{{ asset('assets/images/N2/SimpleMachines/a10.png') }}" />
-         <h2 class="title stroke">Yes, the wagon moves easily because it has <span class="text-white">wheels</span> and axles that turn together.</h2>
+
+    {{-- slide 16 --}}
+    <div class="flex flex-col items-center justify-center slide hidden">
+        <video id="video3" class="w-full max-w-[42rem] pointer-events-none">
+            <source src="{{ asset('assets/images/N2/SimpleMachines/2.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <h2 class="title stroke">Yes, the wagon moves easily because it has <span class="text-white">wheels</span> and axles
+            that turn together.</h2>
+        <!-- Video Trigger Button -->
+        <div onclick="toggleVideo('video3')"
+            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
+            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
+            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
+            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+        </div>
     </div>
-  
+
 
     {{-- slide 17 --}}
-     <div class="flex flex-col items-center justify-center slide hidden">
-         <img src="{{ asset('assets/images/N2/SimpleMachines/a11.png') }}" />
-         <h2 class="title stroke">An <span class="text-white">axle</span> is a rod that joins the two front or back wheels of the wagon.</h2>
+    <div class="flex flex-col items-center justify-center slide hidden">
+        <img src="{{ asset('assets/images/N2/SimpleMachines/a11.png') }}" />
+        <h2 class="title stroke">An <span class="text-white">axle</span> is a rod that joins the two front or back wheels
+            of
+            the wagon.</h2>
     </div>
 
 
-       {{-- slide 18 --}}
-     <div class="flex flex-col items-center justify-center slide hidden">
-         <img src="{{ asset('assets/images/N2/SimpleMachines/a12.png') }}" />
-       <h2 class="stroke title">The<span class="text-white"> wheels</span> and <span class="text-white">axles</span> turn together to help<br/>the wagon move.</h2>
-          <p class="note">Note: Have children pay attention to the turning axle (from the hole) when the wheel is turned.</p>
+    {{-- slide 18 --}}
+    <div class="flex flex-col items-center justify-center slide hidden">
+        <video id="video4" class="w-full max-w-[42rem] pointer-events-none">
+            <source src="{{ asset('assets/images/N2/SimpleMachines/2.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <h2 class="stroke title">The<span class="text-white"> wheels</span> and <span class="text-white">axles</span>
+            turn
+            together to help<br />the wagon move.</h2>
+        <p class="note">Note: Have children pay attention to the turning axle (from the hole) when the wheel is turned.
+        </p>
+        <!-- Video Trigger Button -->
+        <div onclick="toggleVideo('video4')"
+            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
+            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
+            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
+            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+        </div>
     </div>
 
- {{-- slide 19 --}}
-     <div class="flex flex-col items-center justify-center  slide hidden">
-         <img src="{{ asset('assets/images/N2/SimpleMachines/a13.png') }}" />
-       <h2 class="stroke title">What can you use the wagon for?</h2>
-          <p class="note">Note: Encourage children to boldly share their views.</p>
+    {{-- slide 19 --}}
+    <div class="flex flex-col items-center justify-center  slide hidden">
+        <video id="video5" class="w-full max-w-[42rem] pointer-events-none">
+            <source src="{{ asset('assets/images/N2/SimpleMachines/1.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <h2 class="stroke title">What can you use the wagon for?</h2>
+        <p class="note">Note: Encourage children to boldly share their views.</p>
+        <!-- Video Trigger Button -->
+        <div onclick="toggleVideo('video5')"
+            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
+            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
+            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
+            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+        </div>
     </div>
 
 
- {{-- slide 19 --}}
-     <div class="flex flex-col items-center justify-center slide hidden">
-         <img src="{{ asset('assets/images/N2/SimpleMachines/a14.png') }}" />
-       <h2 class="stroke title">You can use it to move things around easily.</h2>
-          <p class="note">Note: Invite chilren to use their wagons to transport things of different sizes and weights around.</p>
+    {{-- slide 19 --}}
+    <div class="flex flex-col items-center justify-center slide hidden">
+        <video id="video6" class="w-full max-w-[42rem] pointer-events-none">
+            <source src="{{ asset('assets/images/N2/SimpleMachines/3.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <h2 class="stroke title">You can use it to move things around easily.</h2>
+        <p class="note">Note: Invite chilren to use their wagons to transport things of different sizes and weights
+            around.</p>
+        <!-- Video Trigger Button -->
+        <div onclick="toggleVideo('video6')"
+            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
+            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
+            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
+            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+        </div>
     </div>
 
 
 
-{{-- Complete/Done Butttom --}}
-    <div class="absolute bottom-[85px]">
-        <button
-            class="cursor-pointer doneButton w-66 h-[75px] relative bg-[#F8A23A] rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
-                    outline outline-1 outline-yellow-700 overflow-hidden">
-            <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
-            <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" />
-            </div>
-            <span
-                class="absolute left-[80px] top-[18px] flex items-center  text-white text-5xl font-bold stroke">DONE</span>
+    {{-- Complete/Done Butttom --}}
+    <div class="down-btn-container">
+        <button class="doneButton">
+            <img src="{{ asset('assets/images/pptimages/done.png') }}" />
         </button>
     </div>
 
-{{-- Buttons --}}
- <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
+    {{-- Buttons --}}
+    <div id="buttons" class="absolute  flex flex-row ">
 
         <!-- Return Button -->
-        <a class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
-            id="returnButton">
-            <img class="absolute top-[6px] left-[8px] w-20 h-10"
-                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] w-14 h-14"
-                src="{{ asset('assets/images/pptimages/reverse-icon.png') }}" />
+        <a id="returnButton">
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
 
         <!-- Home Button -->
-        <button
-            class="relative w-24 h-24 button-fade-in bg-sky-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
-            id="homeButton">
-            <img class="absolute top-[6px] left-[8px] w-20 h-10"
-                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] w-14 h-14"
-                src="{{ asset('assets/images/pptimages/home-icon.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
-        <button class="relative w-24 h-24 button-fade-in cursor-pointer" id="closeButton">
-            <div
-                class="absolute inset-0 bg-red-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-red-900">
-            </div>
-            <img class="absolute top-[6px] left-[8px] w-20 h-10"
-                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <div id="closeButtonText"
-                class="absolute top-[16px] left-[30px] w-11 h-16 text-white text-6xl font-normal font-['Jua']">X
-            </div>
+        <button id="closeButton">
+
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
+
         </button>
 
     </div>
 
     {{-- next Button --}}
-    <div class="absolute bottom-[85px]">
+    <div class="down-btn-container">
 
-        <button
-            class="cursor-pointer nextButton w-66 h-[75px] relative bg-[#F8A23A]  rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
-        outline outline-1 outline-yellow-700 overflow-hidden">
-            <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
-            <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" /> </div>
-            <span class="absolute left-[80px] top-[18px] flex items-center  text-white text-5xl font-bold stroke">NEXT
-            </span>
+        <button class="nextButton">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
         </button>
     </div>
 
@@ -268,52 +307,219 @@
 @push('script')
     <script>
         document.addEventListener("DOMContentLoaded", () => {
+            // ===== GET ALL ELEMENTS =====
             const slides = document.querySelectorAll(".slide");
-            const nextButtons = document.querySelectorAll(".nextButton");
-            const returnButton = document.getElementById("returnButton");
-            const doneButton = document.querySelector(".doneButton"); // ✅ DONE button
+            const nextBtn = document.querySelector(".nextButton");
+            const returnBtn = document.getElementById("returnButton");
+            const doneBtn = document.querySelector(".doneButton");
+            const infoButtons = document.querySelectorAll("[class*='info-btn'], [class*='click-btn']");
 
-            let currentSlide = 0;
+            // ===== STATE VARIABLES =====
+            let currentIndex = 0; // Current slide index
+            let parentSlideIndex = null; // Where to return after info slides
+            let isViewingInfoSlides = false; // Are we viewing info/click slides?
+            let currentInfoClass = null; // Which info/click group (e.g., "info-slide1")
 
-            function showSlide(index) {
-                slides.forEach((slide, i) => {
-                    slide.classList.toggle("hidden", i !== index);
-                });
-                if (index === slides.length - 1) {
-                    nextButtons.forEach(btn => btn.classList.add("hidden"));
-                    if (doneButton) doneButton.classList.remove("hidden");
-                } else {
-                    nextButtons.forEach(btn => btn.classList.remove("hidden"));
-                    if (doneButton) doneButton.classList.add("hidden");
+            // ===== HELPER FUNCTIONS =====
+
+            // Pause all videos in the current slide
+            function pauseAllVideos() {
+                if (slides[currentIndex]) {
+                    const videos = slides[currentIndex].querySelectorAll("video");
+                    videos.forEach(video => {
+                        if (!video.paused) {
+                            video.pause();
+                        }
+                    });
                 }
             }
 
-            //  NEXT buttons listener
-            nextButtons.forEach((btn) => {
-                btn.addEventListener("click", () => {
-                    if (currentSlide < slides.length - 1) {
-                        currentSlide++;
-                        showSlide(currentSlide);
+            // Check if a slide is an info/click slide
+            function isInfoSlide(slide) {
+                return Array.from(slide.classList).some(cls =>
+                    (cls.startsWith('info-slide') && cls.match(/^info-slide\d+$/)) ||
+                    (cls.startsWith('click') && cls.match(/^click\d+$/))
+                );
+            }
+
+            // Get info/click class from button (e.g., "info-btn1" → "info-slide1")
+            function getInfoClassFromButton(button) {
+                const classList = Array.from(button.classList);
+
+                // Check for info-btn pattern
+                const infoBtnClass = classList.find(cls => cls.startsWith('info-btn'));
+                if (infoBtnClass) {
+                    const number = infoBtnClass.replace('info-btn', '');
+                    return 'info-slide' + number;
+                }
+
+                // Check for click-btn pattern
+                const clickBtnClass = classList.find(cls => cls.startsWith('click-btn'));
+                if (clickBtnClass) {
+                    const number = clickBtnClass.replace('click-btn', '');
+                    return 'click' + number;
+                }
+
+                return null;
+            }
+
+            // Check if there's another info/click slide after current one
+            function hasNextInfoSlide(currentIndex) {
+                if (!currentInfoClass) return false;
+
+                for (let i = currentIndex + 1; i < slides.length; i++) {
+                    if (slides[i].classList.contains(currentInfoClass)) {
+                        return true;
+                    }
+                }
+                return false;
+            }
+
+            // ===== MAIN DISPLAY FUNCTION =====
+            function showSlide(index) {
+                // Pause videos before switching slides
+                pauseAllVideos();
+
+                // Hide all slides
+                slides.forEach(slide => slide.classList.add("hidden"));
+
+                // Show current slide
+                slides[index].classList.remove("hidden");
+
+                // Update current index
+                currentIndex = index;
+
+                // Determine if we're on the last slide
+                const isLastSlide = index === slides.length - 1;
+                const isLastInfoSlide = isViewingInfoSlides && !hasNextInfoSlide(index);
+
+                // Update button visibility
+                if (isLastSlide || isLastInfoSlide) {
+                    // Last slide: hide Next, show Done
+                    nextBtn.style.display = "none";
+                    doneBtn.style.display = "block";
+                } else {
+                    // Not last slide: show Next, hide Done
+                    nextBtn.style.display = "block";
+                    doneBtn.style.display = "none";
+                }
+            }
+
+            // ===== EVENT LISTENERS =====
+
+            // Info/Click button handlers - enter info slide mode
+            infoButtons.forEach((btn) => {
+                btn.addEventListener("click", (e) => {
+                    e.preventDefault();
+
+                    // Remember where we came from
+                    parentSlideIndex = currentIndex;
+                    isViewingInfoSlides = true;
+                    currentInfoClass = getInfoClassFromButton(btn);
+
+                    // Find and show the first matching info/click slide
+                    for (let i = 0; i < slides.length; i++) {
+                        if (slides[i].classList.contains(currentInfoClass)) {
+                            showSlide(i);
+                            break;
+                        }
                     }
                 });
             });
 
-            //  Return button
-            returnButton.addEventListener("click", () => {
-                if (currentSlide > 0) {
-                    currentSlide--;
-                    showSlide(currentSlide);
+            // NEXT button handler
+            nextBtn.addEventListener("click", () => {
+                if (currentIndex >= slides.length - 1) return;
+
+                currentIndex++;
+
+                if (isViewingInfoSlides) {
+                    // In info mode: only show slides with current info class
+                    while (currentIndex < slides.length &&
+                        !slides[currentIndex].classList.contains(currentInfoClass)) {
+                        currentIndex++;
+                    }
+                } else {
+                    // Normal mode: skip all info/click slides
+                    while (currentIndex < slides.length &&
+                        isInfoSlide(slides[currentIndex])) {
+                        currentIndex++;
+                    }
+                }
+
+                if (currentIndex < slides.length) {
+                    showSlide(currentIndex);
                 }
             });
 
-            if (doneButton) {
-                doneButton.addEventListener("click", () => {
+            // RETURN button handler
+            returnBtn.addEventListener("click", () => {
+                if (currentIndex === 0) {
+                    // On first slide: redirect to route
                     window.location.href = "{{ route('WagonSelection') }}";
-                });
-            }
+                    return;
+                }
 
-            //  Start with first slide
-            showSlide(currentSlide);
+                if (isViewingInfoSlides) {
+                    // In info mode: go to previous slide with same info class
+                    let prevSlide = currentIndex - 1;
+
+                    // Find previous slide with matching info class
+                    while (prevSlide >= 0 &&
+                        !slides[prevSlide].classList.contains(currentInfoClass)) {
+                        prevSlide--;
+                    }
+
+                    if (prevSlide >= 0) {
+                        // Found previous info slide
+                        showSlide(prevSlide);
+                    } else {
+                        // No more info slides - return to parent
+                        isViewingInfoSlides = false;
+                        currentInfoClass = null;
+                        showSlide(parentSlideIndex);
+                        parentSlideIndex = null;
+                    }
+                } else {
+                    // Normal mode: go back one slide, skip info slides
+                    currentIndex--;
+
+                    while (currentIndex > 0 && isInfoSlide(slides[currentIndex])) {
+                        currentIndex--;
+                    }
+
+                    showSlide(currentIndex);
+                }
+            });
+
+            // DONE button handler
+            doneBtn.addEventListener("click", () => {
+                if (isViewingInfoSlides && parentSlideIndex !== null) {
+                    // Return to parent slide
+                    isViewingInfoSlides = false;
+                    currentInfoClass = null;
+                    showSlide(parentSlideIndex);
+                    parentSlideIndex = null;
+                } else {
+                    // Go to selection page
+                    window.location.href = "{{ route('WagonSelection') }}";
+                }
+            });
+
+            // ===== INITIALIZE =====
+            showSlide(0);
         });
+
+        // ===== VIDEO TOGGLE FUNCTION =====
+        function toggleVideo(videoId) {
+            const video = document.getElementById(videoId);
+            if (video) {
+                if (video.paused) {
+                    video.play();
+                } else {
+                    video.pause();
+                }
+            }
+        }
     </script>
 @endpush
