@@ -18,7 +18,8 @@
         </div>
         <div class="flex w-[100%] items-center justify-between ">
             <div>
-                <h2 class="text-[33px] font-bold">Keywords:</h2>
+                <h2 class="t-title font-bold">Keywords:</h2>
+
                 <div class="flex gap-20">
                     <ul class="list-disc ">
                         <li>Living Thing</li>
@@ -34,7 +35,7 @@
             </div>
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
+            class="absolute teacher-img1" />
     </div>
 
     {{-- slide 2 --}}
@@ -59,7 +60,7 @@
             </ul>
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
+            class="absolute teacher-img1" />
     </div>
 
 
@@ -73,7 +74,7 @@
         </ul>
         <img src="/assets/images/K2/livingthings/bacteria/b27.png" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
+            class="absolute teacher-img1" />
     </div>
 
 
@@ -91,7 +92,7 @@
             <img src="/assets/images/K2/livingthings/bacteria/b29.png" />
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
+            class="absolute teacher-img1" />
     </div>
 
 
@@ -105,7 +106,7 @@
 
         <img src="/assets/images/K2/livingthings/bacteria/b30.png" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
+            class="absolute teacher-img1" />
     </div>
 
     {{-- slide  6 --}}
@@ -117,7 +118,7 @@
         </ul>
         <img src="/assets/images/K2/livingthings/bacteria/b31.png" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
+            class="absolute teacher-img1" />
     </div>
 
     {{-- slide 7 --}}
@@ -130,24 +131,193 @@
         </ul>
         <img src="/assets/images/K2/livingthings/bacteria/b34.png" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
+            class="absolute teacher-img1" />
     </div>
 
 
-    {{-- slide 8 --}}
-    <div class="slide flex flex-col  items-baseline justify-start gap-5   ">
-        <ul class="!text-white !text-2xl !text-start">
-            <li>How to grow bacteria and things to consider: <br> 6.Put both the sampled petri dishes in a box and keep the
-                box at a cooling place . [Teacher to do the step. For safety reason, use tape to seal the sides of all the
-                petri dishes to prevent children from opening them . Tell children that bacteria need time to grow, so we'll
-                check the results at least 10 days later. keep the box at a place with temperature between 24-29 C.]
-                <img src="/assets/images/K2/livingthings/bacteria/b33.png" />
-                <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-                    class="absolute right-[250px] bottom-[150px]" />
+    {{-- sldie 8 --}}
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+        <div>
+            <h2 class="font-bold">What you need to know or do before the lesson:</h2>
+            <ul class="list-disc ">
+                <li>Name each robot with a unique identifier (preferably short). Label each robot
+                    and a matching tablet with a nametag (sample shown: the nametag is pasted at
+                    the back of the robot and on the cover of a tablet). </li>
+            </ul>
+        </div>
+
+        <img src="{{ asset('assets/images/K1/coding/cd/cd19.png') }}" alt="Teacher" class="w-[400px]" />
+
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute teacher-img1" />
     </div>
 
 
-    {{-- slide 9 --}}
+
+    {{-- sldie 9 --}}
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+        <div>
+            <h2 class="font-bold">What you need to know or do before the lesson:</h2>
+            <ul class="list-disc ">
+                <li>Download Blockly Application from App Store (or Google Play) for each tablet.</li>
+            </ul>
+        </div>
+
+        <img src="{{ asset('assets/images/K1/coding/cd/cd20.png') }}" alt="Teacher" class="w-[400px]" />
+
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute teacher-img1" />
+    </div>
+
+
+    {{-- sldie 10 --}}
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+        <div>
+            <h2 class="font-bold">What you need to know or do before the lesson:</h2>
+            <ul class="list-disc ">
+                <li>Blockly is a drag-and-drop basic programming application. Here are the
+                    different features in Blockly.</li>
+            </ul>
+        </div>
+
+        <img src="{{ asset('assets/images/K1/coding/cd/cd21.png') }}" alt="Teacher" class="w-[400px]" />
+
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute teacher-img1" />
+    </div>
+
+
+    {{-- sldie 11 --}}
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+        <div>
+            <h2 class="font-bold">What you need to know or do before the lesson:</h2>
+            <ul class="list-disc ">
+                <li>Configure each robot using Blockly on its matching tablet with these steps:
+                    <ul class="list-decimal">
+                        <li>Turn on the robot.</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <img src="{{ asset('assets/images/K1/coding/cd/cd22.png') }}" alt="Teacher" class="w-[400px]" />
+
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute teacher-img1" />
+    </div>
+
+
+    {{-- sldie 11 --}}
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+        <div>
+            <h2 class="font-bold">What you need to know or do before the lesson:</h2>
+            <ul class="list-disc ">
+                <li>Configure each robot using Blockly on its matching tablet with these steps:
+                    <ul>
+                        <li>2. Synchronize the robot with Blockly (visual guide: 2 steps). </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <img src="{{ asset('assets/images/K1/coding/cd/cd27.png') }}" alt="Teacher" />
+
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute teacher-img1" />
+    </div>
+
+
+    {{-- sldie 12 --}}
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+        <div>
+            <h2 class="font-bold">What you need to know or do before the lesson:</h2>
+            <ul class="list-disc ">
+                <li>Configure each robot using Blockly on its matching tablet with these steps:
+                    <ul>
+                        <li>3. Update the name of the robot (visual guide: 3 steps). </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <img src="{{ asset('assets/images/K1/coding/cd/cd23.png') }}" alt="Teacher" />
+
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute teacher-img1" />
+    </div>
+
+
+    {{-- sldie 13 --}}
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+        <div>
+            <h2 class="font-bold">What you need to know or do before the lesson:</h2>
+            <ul class="list-disc ">
+                <li>Configure each robot using Blockly on its matching tablet with these steps:
+                    <ul>
+                        <li>4. Disconnect the robot from Blockly (visual guide: 3 steps). [Note: Do this
+                            step every time you want children to practise on how to synchronise a robot
+                            with Blockly, especially during hands-on session 2 of Lesson 1. Without this
+                            step, Blockly will auto sync with its matching robot every time you turn on
+                            the robot.]</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <img src="{{ asset('assets/images/K1/coding/cd/cd24.png') }}" alt="Teacher" />
+
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute teacher-img1" />
+    </div>
+
+
+    {{-- sldie 14 --}}
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+        <div>
+            <h2 class="font-bold">What you need to know or do before the lesson:</h2>
+            <ul class="list-disc ">
+                <li>If a robot keeps moving on its own, it means that it's yet to be synchronised </li>
+                <li>To find out how to take care or clean the robot, kindly watch this video:
+                    <a href="" class="text-[#F7B94A]">
+                        https://www.youtube.com/watch?v=zXlp_mzMxLO&index=2&list=PLXSgvv3NnVuQhv
+                        8Yp2ryTcQaqie6-EmLP</a>
+                </li>
+                <li>For additional information, go to <a href=""
+                        class="text-[#F7B94A]">https://www.makewonder.com/start/products</a>.</li>
+            </ul>
+        </div>
+
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute teacher-img1" />
+    </div>
+
+
+    {{-- sldie 15 --}}
+    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-15 text-start">
+        <div>
+            <h2 class="font-bold">Reminders or advice during hands-on session:</h2>
+            <ul class="list-disc ">
+                <li>Always hold a robot or a tablet with both your hands (to show your care and prevent the tools from
+                    spoiling easily).</li>
+                <li>Never place your hands on the wheels of the robot (prevent yourself from getting hurt).</li>
+                <li>Never hold the robot by its head (prevent it from spoiling easily).</li>
+                <li>Never push and stop the robot from moving once you turn on a programme (prevent it from spoiling
+                    easily).</li>
+                <li>Be patient and take turns when using the different tools.</li>
+            </ul>
+        </div>
+        <div>
+            <h2 class="font-bold">Possible questions during hands-on sessions:</h2>
+            <ul class="list-disc ">
+                <li>What is the application used to programme the robot?</li>
+                <li>How do you make sure that Blockly finds the correct robot?</li>
+            </ul>
+        </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute teacher-img1" />
+    </div>
+
+    {{-- slide 16 --}}
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
@@ -183,7 +353,7 @@
                     </li>
                 </ul>
             </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" />
+            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1"  />
 
         </div>
 
@@ -234,66 +404,44 @@
 
     {{-- ========================================================== --}}
     {{-- Buttons --}}
-    <div class="absolute bottom-0">
+    <div class="down-btn-container">
         <button
-            class="cursor-pointer doneButton w-66 h-[75px] relative bg-[#F8A23A] rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
-                    outline outline-1 outline-yellow-700 overflow-hidden">
-            <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
-            <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" />
-            </div>
-            <span
-                class="absolute left-[80px] top-[18px] flex items-center  text-white text-5xl font-bold stroke">DONE</span>
+         class="doneButton">
+ <img src="{{ asset('assets/images/pptimages/done.png') }}" />
         </button>
     </div>
 
     <div id="buttons" class="absolute top-0 right-[60px] flex flex-row gap-6 z-90">
 
         <!-- Return Button -->
-        <a class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
-            id="returnButton">
-            <img class="absolute top-[6px] left-[8px] w-20 h-10"
-                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] w-14 h-14"
-                src="{{ asset('assets/images/pptimages/reverse-icon.png') }}" />
+        <a id="returnButton">
+ <img
+    src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
 
         <!-- Home Button -->
         <button
-            class="relative w-24 h-24 button-fade-in bg-sky-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
-            id="homeButton">
-            <img class="absolute top-[6px] left-[8px] w-20 h-10"
-                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] w-14 h-14"
-                src="{{ asset('assets/images/pptimages/home-icon.png') }}" />
+     id="homeButton">
+            <img 
+                src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
-        <button class="relative w-24 h-24 button-fade-in cursor-pointer" id="closeButton">
-            <div
-                class="absolute inset-0 bg-red-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-red-900">
-            </div>
-            <img class="absolute top-[6px] left-[8px] w-20 h-10"
-                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <div id="closeButtonText"
-                class="absolute top-[16px] left-[30px] w-11 h-16 text-white text-6xl font-normal font-['Jua']">X
-            </div>
+        <button id="closeButton">
+           
+            <img 
+                src="{{ asset('assets/images/pptimages/cancel.png') }}" />
+    
         </button>
 
     </div>
 
     {{-- next Button --}}
-    <div class="absolute bottom-0">
+    <div class="down-btn-container">
 
         <button
-            class="cursor-pointer nextButton w-66 h-[75px] relative bg-[#F8A23A]  rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
-        outline outline-1 outline-yellow-700 overflow-hidden">
-            <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
-            <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" /> </div>
-            <span class="absolute left-[80px] top-[18px] flex items-center  text-white text-5xl font-bold stroke">NEXT
-            </span>
+            class="nextButton">
+ <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
         </button>
     </div>
 

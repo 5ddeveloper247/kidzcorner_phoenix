@@ -7,28 +7,34 @@
         <div>
             <h2 class="  font-bold">Children will be able to:</h2>
             <ul class="list-disc ">
-                <li>Learn how to make their own set of fingerprints for analysis</li>
-                <li>Know that fingerprints are ridges on the tips of our thumbs and fingers</li>
-                <li>Know that no two fingerprints are exactly alike</li>
-                <li>Know that individual fingerprints are unique and no two people have the same fingerprints</li>
-                <li>Develop understanding through inquiry</li>
+                <li>Understand the meaning of carbon footprint</li>
+                <li>Learn how to protect Earth by reducing our carbon footprint</li>
+                <li>Learn about the future of food</li>
+                <li>Develop awareness of environmental issues/li>
+                <li>Develop curiosity and understanding through inquiry</li>
             </ul>
         </div>
 
         <div class="flex flex-col  items-start justify-between">
-            <h2 class="text-[33px] font-bold">Keywords:</h2>
+            <h2 class="t-title font-bold">Keywords:</h2>
             <div class="flex gap-20">
                 <ul class="list-disc ">
-                    <li>Fingerprint</li>
-                    <li>Ridge</li>
-                    <li>Thumb</li>
-                    <li>Finger</li>
+                    <li>Earth</li>
+                    <li>Global warming</li>
+                    <li>Greenhouse-gases</li>
+                    <li>Carbon dioxide</li>
+                      <li>Carbon Footprint</li>
+                        <li>Sustainable Future</li>
+                          <li>Population Growth</li>
+                            <li>Future Food</li>
+                              <li>Plant-Based Meat</li>
+                               <li>Lab-Grown Meat/Cultured Meat</li>
                 </ul>
 
             </div>
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
+            class="absolute teacher-img1" />
     </div>
 
 
@@ -39,39 +45,52 @@
             <h2 class="font-bold">Preparations:</h2>
             <ul class="list-disc ">
                 <li>
-                    Pencils (for a better outcome, 8B pencil is recommended)
+                   If you have no idea what carbon footprint is, go through this video 
+     <span class="title stroke">(https://www.youtube.com/watch?v=8q7_aV8eLUE )</span>.
                 </li>
-                <li>Plain papers</li>
+                <li>Go through the online carbon footprint calculator 
+      <span class="title stroke"> (https://mycarbonfootprint.spgroup.com.sg/ or your desired website)</span> to
+     know what information is needed for the demo in class.</li>
                 <li>
-                    Adhesive clear tapes (for a better outcome, 3M Scotch Tape is recommended)
+                    For class activity 1, you need to prepare and send parents a notice that
+     includes the link as mentioned above to get them assist their children to
+     calculate their carbon footprint at home; record the result and share in the
+     class.
                 </li>
-                <li>Scissors</li>
+                <li>Papers and drawing tools (for plotting graph)</li>
                 <li>
-                    Wet towels (can be replaced with wet rags)
+                   Go through the video about Singapore's plan in building future farms
+       <span class="title stroke"> (https://www.youtube.com/watch?v=2ueVw83Plec ) </span> know how you can
+     explain it to children in simple terms.
                 </li>
                 <li>
-                    A few magnifying glasses (optional)
+                   Go through the vegan ground beef recipe and video
+        <span class="title stroke"> (https://passtheplants.com/vegan-ground-beef/) </span> help you visually
+     understand the steps of making plant-based meat in Class Activity 2.
                 </li>
             </ul>
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
+            class="absolute teacher-img1" />
     </div>
 
 
     {{-- sldie 3 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-center gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
+            <h2 class="font-bold">Preparations:</h2>
             <ul class="list-disc">
-                <li>This is a small group activity. Organise children into groups of 3 and have them take turns to play role
-                    A, B & C. Before the activity, have them clean and dry their hands first to remove dirt that may obscure
-                    the fingerprints.</li>
+                <li>For class activity 2, you need cauliflowers, eggplants, carrots, onion, garlic, basil, 
+                    crushed pumpkin seeds, cinnamon powder and cumin (refer to the vegan ground beef recipe 
+                    to decide the quantity needed for each ingredient).</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f13.png') }}" class="w-[600px]" />
+        <img src="{{ asset('assets/images/K2/sustain/carbon/c21.png') }}" />
+         <ul class="list-disc">
+                <li>Crushed the pumpkin seeds and clean the ingredients beforehand.</li>
+            </ul>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
+            class="absolute teacher-img1" />
     </div>
 
 
@@ -86,37 +105,65 @@
         </div>
         <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f3.png') }}" class="w-[600px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
+            class="absolute teacher-img1" />
     </div>
 
 
     {{-- slide 5 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
-            <ul>
-                <li>2. (B) Rub a fingertip over the pencil mark to stain it. [Have all the B do the step.]</li>
+            <h2 class="font-bold">Preparations:</h2>
+            <ul class="list-disc ">
+                <li>If you want, you may choose other recipes for Class Activity 2. Just remember to use natural
+                     ingredients to make up the taste of the plant- based meat; avoid ingredients that may trigger 
+                     food allergy and food intolerance.</li>
+            </ul>
+            <br>
+             <h2 class="font-bold">Support:</h2>
+            <ul class="list-disc ">
+                <li>In case you encounter difficulty in accessing the online video about carbon footprint, click here to view.</li>
+                 <li>In case you encounter difficulty in accessing the online video about Singapore's plan in building future farms,
+                     click here to view.</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f4.png') }}" class="w-[600px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
+            class="absolute teacher-img1" />
     </div>
 
 
     {{-- sldie 6 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
-            <ul>
-                <li>3. (C) Cut and stick a piece of clear tape on the stained fingertip (of B). [Have all the C do the step.
-                    Advise C to hold only an edge of the tape and stick the tape flat on the fingertip of B. ]</li>
+            <h2 class="font-bold">Notes</h2>
+             <ul class="list-disc ">
+                <li>If you see <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s27.png') }}" /> next to a picture, click on the picture to watch the video
+                </li>
+                    <li>Always ask questions to encourage children to think and share their ideas first 
+     before giving out any information.
+                </li>
+  <li>Emphasise and use the keywords during hands-on sessions.
+</li>
+<li>Print out the Learning Journal (if any) for every 
+     child to complete at the end of the lesson.
+</li>
+  <li>Click on this shortcut icon<img src="{{ asset('assets/images/K2/sustain/Globalwarming/s28.png') }}" />if you need to go to some 
+     parts of the lesson quickly.
+                </li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f5.png') }}" class="w-[600px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
+            class="absolute teacher-img1" />
     </div>
+
+
+
+
+
+
+
+
+
+
 
 
     {{-- sldie 7 --}}
@@ -131,7 +178,7 @@
         </div>
         <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f6.png') }}" class="w-[600px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
+            class="absolute teacher-img1" />
     </div>
 
     {{-- sldie 8 --}}
@@ -145,7 +192,7 @@
         </div>
         <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f7.png') }}" class="w-[600px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
+            class="absolute teacher-img1" />
     </div>
 
 
@@ -162,7 +209,7 @@
         </div>
         <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f8.png') }}" class="w-[700px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
+            class="absolute teacher-img1" />
     </div>
 
     {{-- slide 10 --}}
@@ -176,7 +223,7 @@
         </div>
         <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f2.png') }}" class="w-[600px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
+            class="absolute teacher-img1" />
     </div>
 
     {{-- slide 11 --}}
@@ -190,7 +237,7 @@
         </div>
         <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f9.png') }}" class="w-[700px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
+            class="absolute teacher-img1" />
     </div>
 
 
@@ -259,7 +306,7 @@
 
             </div>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute right-[250px] bottom-[150px]" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" />
     </div>
 
 
@@ -279,73 +326,51 @@
                     without fingerprints.</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute right-[250px] bottom-[150px]" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" />
     </div>
 
 
   
     {{-- ========================================================== --}}
     {{-- Buttons --}}
-    <div class="absolute bottom-0">
+    <div class="down-btn-container">
         <button
-            class="cursor-pointer doneButton w-66 h-[75px] relative bg-[#F8A23A] rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
-                    outline outline-1 outline-yellow-700 overflow-hidden">
-            <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
-            <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" />
-            </div>
-            <span
-                class="absolute left-[80px] top-[18px] flex items-center  text-white text-5xl font-bold stroke">DONE</span>
+         class="doneButton">
+ <img src="{{ asset('assets/images/pptimages/done.png') }}" />
         </button>
     </div>
 
     <div id="buttons" class="absolute top-0 right-[60px] flex flex-row gap-6 z-90">
 
         <!-- Return Button -->
-        <a class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
-            id="returnButton">
-            <img class="absolute top-[6px] left-[8px] w-20 h-10"
-                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] w-14 h-14"
-                src="{{ asset('assets/images/pptimages/reverse-icon.png') }}" />
+        <a id="returnButton">
+ <img
+    src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
 
         <!-- Home Button -->
         <button
-            class="relative w-24 h-24 button-fade-in bg-sky-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
-            id="homeButton">
-            <img class="absolute top-[6px] left-[8px] w-20 h-10"
-                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] w-14 h-14"
-                src="{{ asset('assets/images/pptimages/home-icon.png') }}" />
+     id="homeButton">
+            <img 
+                src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
-        <button class="relative w-24 h-24 button-fade-in cursor-pointer" id="closeButton">
-            <div
-                class="absolute inset-0 bg-red-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-red-900">
-            </div>
-            <img class="absolute top-[6px] left-[8px] w-20 h-10"
-                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <div id="closeButtonText"
-                class="absolute top-[16px] left-[30px] w-11 h-16 text-white text-6xl font-normal font-['Jua']">X
-            </div>
+        <button id="closeButton">
+           
+            <img 
+                src="{{ asset('assets/images/pptimages/cancel.png') }}" />
+    
         </button>
 
     </div>
 
     {{-- next Button --}}
-    <div class="absolute bottom-0">
+    <div class="down-btn-container">
 
         <button
-            class="cursor-pointer nextButton w-66 h-[75px] relative bg-[#F8A23A]  rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
-        outline outline-1 outline-yellow-700 overflow-hidden">
-            <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
-            <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" /> </div>
-            <span class="absolute left-[80px] top-[18px] flex items-center  text-white text-5xl font-bold stroke">NEXT
-            </span>
+            class="nextButton">
+ <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
         </button>
     </div>
 

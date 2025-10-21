@@ -7,28 +7,32 @@
         <div>
             <h2 class="  font-bold">Children will be able to:</h2>
             <ul class="list-disc ">
-                <li>Learn how to make their own set of fingerprints for analysis</li>
-                <li>Know that fingerprints are ridges on the tips of our thumbs and fingers</li>
-                <li>Know that no two fingerprints are exactly alike</li>
-                <li>Know that individual fingerprints are unique and no two people have the same fingerprints</li>
-                <li>Develop understanding through inquiry</li>
+                <li>Understand the meaning of self-sufficient</li>
+                <li>Learn about how being self-sufficient helps the environment</li>
+                <li>Develop awareness of environmental issues</li>
+                <li>Develop curiosity and understanding through inquiry</li>
             </ul>
         </div>
 
         <div class="flex flex-col  items-start justify-between">
-            <h2 class="text-[33px] font-bold">Keywords:</h2>
+            <h2 class="t-title font-bold">Keywords:</h2>
             <div class="flex gap-20">
                 <ul class="list-disc ">
-                    <li>Fingerprint</li>
-                    <li>Ridge</li>
-                    <li>Thumb</li>
-                    <li>Finger</li>
+                    <li>Reduce</li>
+                    <li>Reuse</li>
+                    <li>Recycle</li>
+                    <li>Pollution</li>
+                    <li>Earth</li>
+                    <li>Import</li>
+                    <li>Export</li>
+                    <li>self-sufficient</li>
+                    <li>Greenhouse-gases</li>
                 </ul>
 
             </div>
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
+            class="absolute teacher-img1" />
     </div>
 
 
@@ -39,83 +43,129 @@
             <h2 class="font-bold">Preparations:</h2>
             <ul class="list-disc ">
                 <li>
-                    Pencils (for a better outcome, 8B pencil is recommended)
+                  The vertical gardening system would have been set up already. If you do not have a
+     gardening system, set up a small indoor garden.
                 </li>
-                <li>Plain papers</li>
+                <li>An application - Smart Living, would have been downloaded on the school's phone.</li>
                 <li>
-                    Adhesive clear tapes (for a better outcome, 3M Scotch Tape is recommended)
+                    Use the school phone to control the looping timer for the light and water.
+                     Refer to the manual page 6 and 7 for the instructions.
                 </li>
-                <li>Scissors</li>
-                <li>
-                    Wet towels (can be replaced with wet rags)
-                </li>
-                <li>
-                    A few magnifying glasses (optional)
-                </li>
+                <li>You need to get seeds and the growing cubes for the children to start planting</li>
             </ul>
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
+            class="absolute teacher-img1" />
     </div>
 
 
     {{-- sldie 3 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-center gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
+            <h2 class="font-bold">Things to note in maintaining the vertical garden system:</h2><br>
+            <h3  class="font-bold"> Mixing the plant nutrients</h3>
             <ul class="list-disc">
-                <li>This is a small group activity. Organise children into groups of 3 and have them take turns to play role
-                    A, B & C. Before the activity, have them clean and dry their hands first to remove dirt that may obscure
-                    the fingerprints.</li>
+                <li>Mix one litre of water with the packet of nutrients A into bottle A.</li>
+                <li>Mix one litre of water with the packet of nutrients B into bottle B.</li>
+                <li>Upon set up, pour 75 litres of water into the system.</li>
+                <li>Add 300 ml of A and 300 ml of B into the system.</li>
+                      <li>Adjust the green valve to set the speed of the water flow.</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f13.png') }}" class="w-[600px]" />
+        <div class="flex gap-2 items-center">
+        <img src="{{ asset('assets/images/K2/sustain/self/s18.png') }}"/>
+       <p class="note">When the plants are small, set
+the flow to be slow.
+When the plants have grown
+bigger, change the flow to be
+faster.</p>
+        </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
+            class="absolute teacher-img1" />
     </div>
 
 
     {{-- slide 4 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
+            <h2 class="font-bold">Things to note in maintaining the vertical garden system:</h2>
             <ul class="list-decimal">
-                <li>(A) Use a pencil to make a patch of dark mark on a paper. [ Have all the A do the step. Advise A to
-                    darken the patch by shading the patch again and again. ]</li>
+                <li>To attach the hose, push the hose into the centre of the vertical 
+                    system inside the water tank. Push up until you hear a click.</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f3.png') }}" class="w-[600px]" />
+  <img src="{{ asset('assets/images/K2/sustain/self/s20.png') }}"/>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
+            class="absolute teacher-img1" />
     </div>
 
 
     {{-- slide 5 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
+            <h2 class="font-bold">Things to note in maintaining the vertical garden system:</h2>
             <ul>
-                <li>2. (B) Rub a fingertip over the pencil mark to stain it. [Have all the B do the step.]</li>
+                <li>To remove the hose, push the yellow part to release the catch.</li>
+                 
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f4.png') }}" class="w-[600px]" />
+         <img src="{{ asset('assets/images/K2/sustain/self/s19.png') }}"/>
+         <ul>
+            <li>Attach a green knob on the top of this hose to drain out water from the tank</li>
+                  <li>For more details on the maintenance of the vertical garden go to
+     <span class="title stroke" >https://aerospinggardens.com </span> faq and download the FAW guide.</li>
+         </ul>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute teacher-img1" />
+    </div>
+
+ {{-- sldie 7 --}}
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+        <div>
+           <ul>
+                <li>If you see <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s27.png') }}" /> next to a picture, click on the picture to watch the video
+Always ask questions to encourage children to think and share their ideas first 
+     before giving out any information.
+                </li>
+  <li>Emphasise and use the keywords during hands-on sessions.
+</li>
+<li>Print out the Learning Journal (if any) for every 
+     child to complete at the end of the lesson.
+</li>
+  <li>Click on this shortcut icon<img src="{{ asset('assets/images/K2/sustain/Globalwarming/s28.png') }}" />if you need to go to some 
+     parts of the lesson quickly.
+                </li>
+     
+      
+        </div>
+
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
     </div>
 
 
+
+
+
     {{-- sldie 6 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
+            <h2 class="title stroke text-center">Learning Centre Idea</h2><br>
+            <h2 class="font-bold">Diary Of Our Vegetable Garden</h2>
             <ul>
-                <li>3. (C) Cut and stick a piece of clear tape on the stained fingertip (of B). [Have all the C do the step.
-                    Advise C to hold only an edge of the tape and stick the tape flat on the fingertip of B. ]</li>
+                <li>What and how to set up:<br>
+Provide papers and writing materials for children to draw and
+record down the growth of the plants.<br>
+
+What to do:<br>
+1. Guide children to write the date and measure the size of the
+     leaves or count the number of leaves.<br>
+2. Children can also observe and record down the changes in colour
+     of the fruits or leaves.</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f5.png') }}" class="w-[600px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
+            class="absolute teacher-img1" />
     </div>
 
 
@@ -131,7 +181,7 @@
         </div>
         <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f6.png') }}" class="w-[600px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
+            class="absolute teacher-img1" />
     </div>
 
     {{-- sldie 8 --}}
@@ -145,7 +195,7 @@
         </div>
         <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f7.png') }}" class="w-[600px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
+            class="absolute teacher-img1" />
     </div>
 
 
@@ -162,7 +212,7 @@
         </div>
         <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f8.png') }}" class="w-[700px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
+            class="absolute teacher-img1" />
     </div>
 
     {{-- slide 10 --}}
@@ -176,7 +226,7 @@
         </div>
         <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f2.png') }}" class="w-[600px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
+            class="absolute teacher-img1" />
     </div>
 
     {{-- slide 11 --}}
@@ -190,7 +240,7 @@
         </div>
         <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f9.png') }}" class="w-[700px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
+            class="absolute teacher-img1" />
     </div>
 
 
@@ -259,7 +309,7 @@
 
             </div>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute right-[250px] bottom-[150px]" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" />
     </div>
 
 
@@ -279,73 +329,51 @@
                     without fingerprints.</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute right-[250px] bottom-[150px]" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" />
     </div>
 
 
   
     {{-- ========================================================== --}}
     {{-- Buttons --}}
-    <div class="absolute bottom-0">
+    <div class="down-btn-container">
         <button
-            class="cursor-pointer doneButton w-66 h-[75px] relative bg-[#F8A23A] rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
-                    outline outline-1 outline-yellow-700 overflow-hidden">
-            <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
-            <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" />
-            </div>
-            <span
-                class="absolute left-[80px] top-[18px] flex items-center  text-white text-5xl font-bold stroke">DONE</span>
+         class="doneButton">
+ <img src="{{ asset('assets/images/pptimages/done.png') }}" />
         </button>
     </div>
 
     <div id="buttons" class="absolute top-0 right-[60px] flex flex-row gap-6 z-90">
 
         <!-- Return Button -->
-        <a class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
-            id="returnButton">
-            <img class="absolute top-[6px] left-[8px] w-20 h-10"
-                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] w-14 h-14"
-                src="{{ asset('assets/images/pptimages/reverse-icon.png') }}" />
+        <a id="returnButton">
+ <img
+    src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
 
         <!-- Home Button -->
         <button
-            class="relative w-24 h-24 button-fade-in bg-sky-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
-            id="homeButton">
-            <img class="absolute top-[6px] left-[8px] w-20 h-10"
-                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] w-14 h-14"
-                src="{{ asset('assets/images/pptimages/home-icon.png') }}" />
+     id="homeButton">
+            <img 
+                src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
-        <button class="relative w-24 h-24 button-fade-in cursor-pointer" id="closeButton">
-            <div
-                class="absolute inset-0 bg-red-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-red-900">
-            </div>
-            <img class="absolute top-[6px] left-[8px] w-20 h-10"
-                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <div id="closeButtonText"
-                class="absolute top-[16px] left-[30px] w-11 h-16 text-white text-6xl font-normal font-['Jua']">X
-            </div>
+        <button id="closeButton">
+           
+            <img 
+                src="{{ asset('assets/images/pptimages/cancel.png') }}" />
+    
         </button>
 
     </div>
 
     {{-- next Button --}}
-    <div class="absolute bottom-0">
+    <div class="down-btn-container">
 
         <button
-            class="cursor-pointer nextButton w-66 h-[75px] relative bg-[#F8A23A]  rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
-        outline outline-1 outline-yellow-700 overflow-hidden">
-            <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
-            <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" /> </div>
-            <span class="absolute left-[80px] top-[18px] flex items-center  text-white text-5xl font-bold stroke">NEXT
-            </span>
+            class="nextButton">
+ <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
         </button>
     </div>
 

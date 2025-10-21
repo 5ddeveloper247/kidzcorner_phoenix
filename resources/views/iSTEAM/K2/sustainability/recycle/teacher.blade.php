@@ -7,28 +7,34 @@
         <div>
             <h2 class="  font-bold">Children will be able to:</h2>
             <ul class="list-disc ">
-                <li>Learn how to make their own set of fingerprints for analysis</li>
-                <li>Know that fingerprints are ridges on the tips of our thumbs and fingers</li>
-                <li>Know that no two fingerprints are exactly alike</li>
-                <li>Know that individual fingerprints are unique and no two people have the same fingerprints</li>
-                <li>Develop understanding through inquiry</li>
+                <li>Understand the meaning of recycling</li>
+                <li>Learn about the process of recycling</li>
+                <li>Develop curiosity and understanding of recycling paper through hands</li>
+                <li>Know that individual fingerprints are unique and no two people have the same fingerprints on activity</li>
+                <li>Develop awareness of environmental issues</li>
             </ul>
         </div>
 
         <div class="flex flex-col  items-start justify-between">
-            <h2 class="text-[33px] font-bold">Keywords:</h2>
+            <h2 class="t-title font-bold">Keywords:</h2>
             <div class="flex gap-20">
                 <ul class="list-disc ">
-                    <li>Fingerprint</li>
-                    <li>Ridge</li>
-                    <li>Thumb</li>
-                    <li>Finger</li>
+                    <li>Reuse</li>
+                    <li>Reduce</li>
+                    <li>Recycle</li>
+                    <li>Earth</li>
+                      <li>Environment</li>
+                        <li>Metal</li>
+                          <li>Plastic</li>
+                            <li>Molten</li>
+                              <li>Recyclable</li>
+                                <li>Pollution</li>
                 </ul>
 
             </div>
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
+            class="absolute teacher-img1" />
     </div>
 
 
@@ -36,42 +42,68 @@
     {{-- slide 2 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Preparations:</h2>
+            <h2 class="font-bold">Preparations:</h2><br>
             <ul class="list-disc ">
-                <li>
-                    Pencils (for a better outcome, 8B pencil is recommended)
+                <li>Please prepare the materials as stated in the video for the recycle paper activity.
+
                 </li>
-                <li>Plain papers</li>
-                <li>
-                    Adhesive clear tapes (for a better outcome, 3M Scotch Tape is recommended)
-                </li>
-                <li>Scissors</li>
-                <li>
-                    Wet towels (can be replaced with wet rags)
-                </li>
-                <li>
-                    A few magnifying glasses (optional)
-                </li>
+                <li>If you do not have blender, you can tear the paper into small pieces of paper and soak it overnight. You will
+                     need to tear the paper into smaller pieces and soak for another few hours so that it will be easier to form the
+                      recycled paper.</li>
+                
             </ul>
         </div>
+            <img src="{{ asset('assets/images/K2/sustain/recycle/s12.png') }}" class="w-120"/>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute right-[250px] bottom-[150px]" />
     </div>
+ {{-- sldie 7 --}}
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+        <div>
+            <h2 class="font-bold">Notes</h2>
+            <ul>
+                <li>If you see <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s27.png') }}" /> next to a picture, click on the picture to watch the video
+Always ask questions to encourage children to think and share their ideas first 
+     before giving out any information.
+                </li>
+  <li>Emphasise and use the keywords during hands-on sessions.
+</li>
+<li>Print out the Learning Journal (if any) for every 
+     child to complete at the end of the lesson.
+</li>
+  <li>Click on this shortcut icon<img src="{{ asset('assets/images/K2/sustain/Globalwarming/s28.png') }}" />if you need to go to some 
+     parts of the lesson quickly.
+                </li>
+     
+      
+            </ul>
+        </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+            class="absolute teacher-img1" />
+    </div>
+
+
 
 
     {{-- sldie 3 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-center gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
+            <h2 class="title stroke text-center">Learning Centre Idea</h2>
+            <h2 class="font-bold">Let's Sort!</h2>
             <ul class="list-disc">
-                <li>This is a small group activity. Organise children into groups of 3 and have them take turns to play role
-                    A, B & C. Before the activity, have them clean and dry their hands first to remove dirt that may obscure
-                    the fingerprints.</li>
+                <li>What and how to set up:<br>
+Print pictures of recyclable materials or put actual materials at
+the learning corner with five containers with the labels (glass,
+metal, paper, plastic and other waste).<br>
+
+What to do:<br>
+1. Guide children sort them accordingly.<br>
+2. You may include items such as a set meal with can drinks with straw
+ and burger in a box to get children to think how they sort the rubbish properly.</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f13.png') }}" class="w-[600px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
+            class="absolute teacher-img1" />
     </div>
 
 
@@ -86,7 +118,7 @@
         </div>
         <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f3.png') }}" class="w-[600px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
+            class="absolute teacher-img1" />
     </div>
 
 
@@ -100,7 +132,7 @@
         </div>
         <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f4.png') }}" class="w-[600px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
+            class="absolute teacher-img1" />
     </div>
 
 
@@ -115,7 +147,7 @@
         </div>
         <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f5.png') }}" class="w-[600px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
+            class="absolute teacher-img1" />
     </div>
 
 
@@ -131,7 +163,7 @@
         </div>
         <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f6.png') }}" class="w-[600px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
+            class="absolute teacher-img1" />
     </div>
 
     {{-- sldie 8 --}}
@@ -145,7 +177,7 @@
         </div>
         <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f7.png') }}" class="w-[600px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
+            class="absolute teacher-img1" />
     </div>
 
 
@@ -162,7 +194,7 @@
         </div>
         <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f8.png') }}" class="w-[700px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
+            class="absolute teacher-img1" />
     </div>
 
     {{-- slide 10 --}}
@@ -176,7 +208,7 @@
         </div>
         <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f2.png') }}" class="w-[600px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
+            class="absolute teacher-img1" />
     </div>
 
     {{-- slide 11 --}}
@@ -190,7 +222,7 @@
         </div>
         <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f9.png') }}" class="w-[700px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
+            class="absolute teacher-img1" />
     </div>
 
 
@@ -259,7 +291,7 @@
 
             </div>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute right-[250px] bottom-[150px]" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" />
     </div>
 
 
@@ -279,73 +311,51 @@
                     without fingerprints.</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute right-[250px] bottom-[150px]" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" />
     </div>
 
 
   
     {{-- ========================================================== --}}
     {{-- Buttons --}}
-    <div class="absolute bottom-0">
+    <div class="down-btn-container">
         <button
-            class="cursor-pointer doneButton w-66 h-[75px] relative bg-[#F8A23A] rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
-                    outline outline-1 outline-yellow-700 overflow-hidden">
-            <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
-            <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" />
-            </div>
-            <span
-                class="absolute left-[80px] top-[18px] flex items-center  text-white text-5xl font-bold stroke">DONE</span>
+         class="doneButton">
+ <img src="{{ asset('assets/images/pptimages/done.png') }}" />
         </button>
     </div>
 
     <div id="buttons" class="absolute top-0 right-[60px] flex flex-row gap-6 z-90">
 
         <!-- Return Button -->
-        <a class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
-            id="returnButton">
-            <img class="absolute top-[6px] left-[8px] w-20 h-10"
-                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] w-14 h-14"
-                src="{{ asset('assets/images/pptimages/reverse-icon.png') }}" />
+        <a id="returnButton">
+ <img
+    src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
 
         <!-- Home Button -->
         <button
-            class="relative w-24 h-24 button-fade-in bg-sky-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
-            id="homeButton">
-            <img class="absolute top-[6px] left-[8px] w-20 h-10"
-                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] w-14 h-14"
-                src="{{ asset('assets/images/pptimages/home-icon.png') }}" />
+     id="homeButton">
+            <img 
+                src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
-        <button class="relative w-24 h-24 button-fade-in cursor-pointer" id="closeButton">
-            <div
-                class="absolute inset-0 bg-red-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-red-900">
-            </div>
-            <img class="absolute top-[6px] left-[8px] w-20 h-10"
-                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <div id="closeButtonText"
-                class="absolute top-[16px] left-[30px] w-11 h-16 text-white text-6xl font-normal font-['Jua']">X
-            </div>
+        <button id="closeButton">
+           
+            <img 
+                src="{{ asset('assets/images/pptimages/cancel.png') }}" />
+    
         </button>
 
     </div>
 
     {{-- next Button --}}
-    <div class="absolute bottom-0">
+    <div class="down-btn-container">
 
         <button
-            class="cursor-pointer nextButton w-66 h-[75px] relative bg-[#F8A23A]  rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
-        outline outline-1 outline-yellow-700 overflow-hidden">
-            <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
-            <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" /> </div>
-            <span class="absolute left-[80px] top-[18px] flex items-center  text-white text-5xl font-bold stroke">NEXT
-            </span>
+            class="nextButton">
+ <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
         </button>
     </div>
 

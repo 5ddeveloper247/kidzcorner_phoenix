@@ -1,6 +1,6 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
- 
+
 @section('content')
 
 
@@ -19,7 +19,7 @@
 
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="text-[33px] font-bold">Keywords:</h2>
+                <h2 class="t-title font-bold">Keywords:</h2>
                 <ul class="list-disc ">
                     <li>Rube Goldberg Machine</li>
                     <li>Wheel</li>
@@ -80,7 +80,7 @@
 
         </ul>
 
-    <img class=" h-[300px] w-[700px]" src="/assets/images/K1/sm/rubbish-machine/r13.png" />
+        <img class=" h-[300px] w-[700px]" src="/assets/images/K1/sm/rubbish-machine/r13.png" />
 
 
 
@@ -91,59 +91,59 @@
 
 
     {{--  slide 26 --}}
-   <div class=" slide flex text-2xl text-white flex-col justify-center items-center  gap-[0.5rem] ">
-       <ul class="list-disc !text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-center items-center  gap-[0.5rem] ">
+        <ul class="list-disc !text-start">
             <h2 class="!text-start !text-white">Things to consider for preparation:</h2>
 
             <li>Things to consider for preparation:
-As a reference, the track used in the lesson is formed with a vanguard sheet.
-     The edge is folded and two tracks are put together to make it sturdy.</li>
+                As a reference, the track used in the lesson is formed with a vanguard sheet.
+                The edge is folded and two tracks are put together to make it sturdy.</li>
 
         </ul>
 
 
-   <img class=" h-[300px] w-[700px]" src="/assets/images/K1/sm/rubbish-machine/r14.png" />
+        <img class=" h-[300px] w-[700px]" src="/assets/images/K1/sm/rubbish-machine/r14.png" />
 
-    <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute right-[250px] bottom-[150px]"
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute right-[250px] bottom-[150px]"
             alt="Teacher" />
     </div>
 
 
 
 
-     {{--  slide 27--}}
-     <div class=" slide flex text-2xl text-white flex-col justify-center align-middle  text-center">
-         <h2 class="!text-start !text-white">Things to consider during hands-on session:</h2>
-         <ul class="list-disc !text-start">
-             
-             <li>Ask questions to prompt children share and try out their ideas. Some possible <br>
+    {{--  slide 27 --}}
+    <div class=" slide flex text-2xl text-white flex-col justify-center align-middle  text-center">
+        <h2 class="!text-start !text-white">Things to consider during hands-on session:</h2>
+        <ul class="list-disc !text-start">
+
+            <li>Ask questions to prompt children share and try out their ideas. Some possible <br>
                 questions are listed in the lesson, you may add on questions based on children's <br>
                 response.</li>
-                <li>The steepness and length of an inclined track will affect how fast and <br>
-                    how far a car will go. If the inclined track is steep and long, the car will  <br>
-     go very fast and very far; as a result, the car will hit the newspaper <br>
-     ball and drop into the dustbin together with the newspaper ball. If you  <br>
-     think children can take on another challenge, get them to set up the <br> 
-     machine in such a way that the car will not drop into the dustbin after  <br>
-     hit on the target.</li>
-     <li>Remember to continue with reflection part after hands-on session.</li>
+            <li>The steepness and length of an inclined track will affect how fast and <br>
+                how far a car will go. If the inclined track is steep and long, the car will <br>
+                go very fast and very far; as a result, the car will hit the newspaper <br>
+                ball and drop into the dustbin together with the newspaper ball. If you <br>
+                think children can take on another challenge, get them to set up the <br>
+                machine in such a way that the car will not drop into the dustbin after <br>
+                hit on the target.</li>
+            <li>Remember to continue with reflection part after hands-on session.</li>
 
         </ul>
 
 
 
-    <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute right-[250px] bottom-[150px]"
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute right-[250px] bottom-[150px]"
             alt="Teacher" />
     </div>
-    
 
-    
-    
-    
-    {{--  slide 27--}}
-     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
-         <div class="flex w-[100%] items-center justify-between">
-             <div>
+
+
+
+
+    {{--  slide 27 --}}
+    <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
+        <div class="flex w-[100%] items-center justify-between">
+            <div>
                 <h2 class="font-bold">Notes:</h2>
                 <ul class="list-disc ">
                     <li>
@@ -181,14 +181,14 @@ As a reference, the track used in the lesson is formed with a vanguard sheet.
                     </li>
                 </ul>
             </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" />
+            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1"  />
 
         </div>
     </div>
 
 
-{{-- slide 28 --}}
-     <div class=" slide flex text-2xl text-white flex-col justify-center gap-[3rem] text-start">
+    {{-- slide 28 --}}
+    <div class=" slide flex text-2xl text-white flex-col justify-center gap-[3rem] text-start">
 
 
         <h2 class="font-bold  title stroke flex justify-center mb-2">Learning Centre Idea</h2>
@@ -198,23 +198,23 @@ As a reference, the track used in the lesson is formed with a vanguard sheet.
 
             <li class=" !text-white">What and how to set up:</li>
             <li class=" !text-white">Place things as listed in preparations here.</li>
-          
+
 
         </ul>
         <ul>
             <li>What to do:</li>
             <li>Set up a Rube Goldberg Machine that will always throw rubbish <br>
-successfully.</li>
+                successfully.</li>
         </ul>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
+            class="absolute teacher-img1" />
     </div>
 
 
 
 
-    {{-- slide 29--}}
-     <div class=" slide flex text-2xl text-white flex-col justify-center gap-[3rem] text-start">
+    {{-- slide 29 --}}
+    <div class=" slide flex text-2xl text-white flex-col justify-center gap-[3rem] text-start">
 
 
         <h2 class="font-bold  title stroke flex justify-center mb-2">Learning Centre Idea</h2>
@@ -224,39 +224,33 @@ successfully.</li>
 
             <li class=" !text-white">What and how to set up:</li>
             <li class=" !text-white">Place a box filled with a variety of toys and an empty box here.</li>
-          
+
 
         </ul>
         <ul>
             <li>What to do:</li>
             <li>1. Check on each toy and place all the toys with wheels and
-     axles in the empty box.</li>
-     <li>2. Show where the wheel and axle of each toy are.</li>
+                axles in the empty box.</li>
+            <li>2. Show where the wheel and axle of each toy are.</li>
         </ul>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
+            class="absolute teacher-img1" />
     </div>
 
 
 
 
 
-        
-
-   
 
 
 
 
-    <div class="absolute bottom-0">
-        <button
-            class="cursor-pointer doneButton w-66 h-[75px] relative bg-[#F8A23A] rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
-                    outline outline-1 outline-yellow-700 overflow-hidden">
-            <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
-            <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" />
-            </div>
-            <span
-                class="absolute left-[80px] top-[18px] flex items-center  text-white text-5xl font-bold stroke">DONE</span>
+
+
+
+    <div class="down-btn-container">
+        <button class="doneButton">
+            <img src="{{ asset('assets/images/pptimages/done.png') }}" />
         </button>
     </div>
 
@@ -269,48 +263,29 @@ successfully.</li>
     <div id="buttons" class="absolute top-0 right-[60px] flex flex-row gap-6 z-90">
 
         <!-- Return Button -->
-        <a class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
-            id="returnButton">
-            <img class="absolute top-[6px] left-[8px] w-20 h-10" src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] w-14 h-14"
-                src="{{ asset('assets/images/pptimages/reverse-icon.png') }}" />
-        </a>
+        <a id="returnButton">
 
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
+        </a>
         <!-- Home Button -->
-        <button
-            class="relative w-24 h-24 button-fade-in bg-sky-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
-            id="homeButton">
-            <img class="absolute top-[6px] left-[8px] w-20 h-10" src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] w-14 h-14"
-                src="{{ asset('assets/images/pptimages/home-icon.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
-        <button class="relative w-24 h-24 button-fade-in cursor-pointer" id="closeButton">
-            <div
-                class="absolute inset-0 bg-red-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-red-900">
-            </div>
-            <img class="absolute top-[6px] left-[8px] w-20 h-10" src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <div id="closeButtonText"
-                class="absolute top-[16px] left-[30px] w-11 h-16 text-white text-6xl font-normal font-['Jua']">X
-            </div>
+        <button id="closeButton">
+
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
+
         </button>
 
     </div>
 
     {{-- next Button --}}
-    <div class="absolute bottom-0">
+    <div class="down-btn-container">
 
-        <button
-            class="cursor-pointer nextButton w-66 h-[75px] relative bg-[#F8A23A]  rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
-        outline outline-1 outline-yellow-700 overflow-hidden">
-            <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
-            <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" /> </div>
-            <span class="absolute left-[80px] top-[18px] flex items-center  text-white text-5xl font-bold stroke">NEXT
-            </span>
+        <button class="nextButton">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
         </button>
     </div>
 
