@@ -2,7 +2,8 @@
 @section('title', 'Dynamic Presentation')
 
 @section('content')
-
+{{-- title --}}
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">A Measuring Car (1)</h2>
 
     {{-- Slide 1 --}}
     <div class="flex flex-col items-center h-[50vh] justify-between slide hidden">
@@ -126,7 +127,7 @@
         <h2 class="title stroke">When you give the car a push, its <span class="text-white "> wheels </span> and <span
                 class="text-white "> axles</span> turn together.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30  -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video')" class="absolute top-1/2 right-[-10vw] z-30  -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
 
@@ -135,16 +136,15 @@
 
     {{-- sldie 15 --}}
     <div class="flex flex-col  slide hidden items-center">
-        <img src="/assets/images/N2/SimpleMachines/b12.png" />
+        <img src="/assets/images/N2/SimpleMachines/b12.png" class="large-img2" />
         <h2 class="stroke title">These <span class="text-white">wheels</span> and <span class="text-white">axles</span> let
             the car moves forwards.</h2>
         <p class="note">Note: Guide children to point out these four pairs of wheels and axles on the car.</p>
     </div>
 
-
     {{-- slide 16 --}}
     <div class="flex flex-col  slide hidden items-center">
-        <img src="/assets/images/N2/SimpleMachines/b13.png" />
+        <img src="/assets/images/N2/SimpleMachines/b13.png" class="large-img" />
         <h2 class="title stroke">These wheels and axles let the handle behind the car turn as the car is moving forward.
         </h2>
 
@@ -154,21 +154,11 @@
 
     {{-- slide 17 --}}
     <div class="flex flex-col  slide hidden items-center">
-
-        <div class="flex items-center justify-center ">
-            <div class="w-[400px]">
-                <img src="/assets/images/N2/SimpleMachines/b12.png" />
-                <p class="note">When you push a car, these turning wheels and axles (at the bottom) make the car move
-                    forward.</p>
-            </div>
-            <div>
-                <img src="/assets/images/N2/SimpleMachines/b15.png" />
-            </div>
-        </div>
+        <img src="/assets/images/N2/SimpleMachines/gl3.png" />
         <h2 class="title stroke">Let’s watch this video!</h2>
         <p class="note">Note: Demo using a car and guide children to “see” this point (what makes what to turn/move)</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30  -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video')" class="absolute top-1/2 right-[-10vw] z-30  -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
 
@@ -177,21 +167,11 @@
 
     {{-- slide  18 --}}
     <div class="flex flex-col  slide hidden items-center">
-
-        <div class="flex items-center justify-center ">
-            <div>
-                <img src="/assets/images/N2/SimpleMachines/b13.png" />
-                <p class="note">As the blue wheel and axle turns, it makes the red wheel and axle that is connected on top
-                    of it turn as well.</p>
-            </div>
-            <div>
-                <img src="/assets/images/N2/SimpleMachines/b15.png" />
-            </div>
-        </div>
+        <img src="/assets/images/N2/SimpleMachines/gl4.png" />
         <h2 class="title stroke">Let’s watch this video!</h2>
         <p class="note">Note: Demo using a car and guide children to “see” this point (what makes what to turn/move)</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30  -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video')" class="absolute top-1/2 right-[-10vw] z-30  -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
 
@@ -201,20 +181,12 @@
     {{-- slide 19 --}}
     <div class="flex flex-col  slide hidden items-center">
 
-        <div class="flex items-center justify-center ">
-            <div>
-                <img src="/assets/images/N2/SimpleMachines/b13.png" />
-                <p class="note">As the red wheel and axle turns, it makes the blue wheel and axle that is connected next
-                    to it turn as well.</p>
-            </div>
-            <div>
-                <img src="/assets/images/N2/SimpleMachines/b15.png" />
-            </div>
-        </div>
+        <img src="/assets/images/N2/SimpleMachines/gl5.png" />
+
         <h2 class="title stroke">Let’s watch this video!</h2>
         <p class="note">Note: Demo using a car and guide children to “see” this point (what makes what to turn/move)</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30  -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video')" class="absolute top-1/2 right-[-10vw] z-30  -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
 
@@ -223,21 +195,11 @@
     {{-- slide 20 --}}
     <div class="flex flex-col  slide hidden items-center">
 
-        <div class="flex items-center justify-center ">
-            <div>
-                <img src="/assets/images/N2/SimpleMachines/b13.png" />
-                <p class="note">As the blue wheel and axle turns, it makes the red wheel and axle that is connected on
-                    top
-                    of it turn as well.</p>
-            </div>
-            <div>
-                <img src="/assets/images/N2/SimpleMachines/b15.png" />
-            </div>
-        </div>
+        <img src="/assets/images/N2/SimpleMachines/gl6.png" />
         <h2 class="title stroke">Let’s watch this video!</h2>
         <p class="note">Note: Demo using a car and guide children to “see” this point (what makes what to turn/move)</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30  -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video')" class="absolute top-1/2 right-[-10vw] z-30  -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
 
@@ -247,20 +209,11 @@
     {{-- slide 21 --}}
     <div class="flex flex-col  slide hidden items-center">
 
-        <div class="flex items-center justify-center ">
-            <div>
-                <img src="/assets/images/N2/SimpleMachines/b13.png" />
-                <p class="note">As the red wheel and axle turns, the handle that is connected to the axle turn as well.
-                </p>
-            </div>
-            <div>
-                <img src="/assets/images/N2/SimpleMachines/b15.png" />
-            </div>
-        </div>
+        <img src="/assets/images/N2/SimpleMachines/gl7.png" />
         <h2 class="title stroke">Let’s watch this video!</h2>
         <p class="note">Note: Demo using a car and guide children to “see” this point (what makes what to turn/move)</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30  -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video')" class="absolute top-1/2 right-[-10vw] z-30  -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
 
@@ -273,7 +226,7 @@
         <h2 class="stroke title">As the car goes forward, the handle behind it will turn.</h2>
         <p class="note"> Note: Demo using a car and guide children to understand this point.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30  -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video')" class="absolute top-1/2 right-[-10vw] z-30  -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
 
@@ -286,7 +239,7 @@
         <h2 class="stroke title">The handle is in front of a scale with numbers.</h2>
         <p class="note"> Note: Guide children to name the numbers on the scale.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30  -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video')" class="absolute top-1/2 right-[-10vw] z-30  -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
 
@@ -308,7 +261,7 @@
         <h2 class="stroke title">When you give this car a push, it will show you
             how far it moves forward.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30  -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video')" class="absolute top-1/2 right-[-10vw] z-30  -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
 

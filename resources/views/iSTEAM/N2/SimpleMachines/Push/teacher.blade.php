@@ -46,7 +46,7 @@
         <div class="flex items-center">
             <img src="{{ asset('assets/images/N2/SimpleMachines/set1.png') }}" class="w-[636px]" />
             <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt=""
-                class="h-[350xp] object-contain" />
+                class="absolute teacher-img1" />
         </div>
     </div>
 
@@ -63,7 +63,7 @@
         <div class="flex items-center">
             <img src="{{ asset('assets/images/N2/SimpleMachines/set2.png') }}" class="w-[636px]" />
             <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt=""
-                class="h-[350xp] object-contain" />
+                class="absolute teacher-img1" />
         </div>
     </div>
 
@@ -79,7 +79,7 @@
         <div class="flex items-center">
             <img src="{{ asset('assets/images/N2/SimpleMachines/set3.png') }}" class="w-[636px]" />
             <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt=""
-                class="h-[350xp] object-contain" />
+                class="absolute teacher-img1" />
         </div>
     </div>
 
@@ -98,7 +98,7 @@
         <div class="flex items-center">
             <img src="{{ asset('assets/images/N2/SimpleMachines/b29.png') }}" class="w-[636px]" />
             <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt=""
-                class="h-[350xp] object-contain" />
+                class="absolute teacher-img1" />
         </div>
     </div>
 
@@ -114,7 +114,7 @@
         <div class="flex items-center">
             <img src="{{ asset('assets/images/N2/SimpleMachines/b33.png') }}" class="w-[636px]" />
             <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt=""
-                class="h-[350xp] object-contain" />
+                class="absolute teacher-img1" />
         </div>
     </div>
 
@@ -130,7 +130,7 @@
         <div class="flex items-center">
             <img src="{{ asset('assets/images/N2/SimpleMachines/at1.png') }}" class="w-[536px]" />
             <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt=""
-                class="h-[350xp] object-contain" />
+                class="absolute teacher-img1" />
         </div>
     </div>
 
@@ -152,7 +152,7 @@
         </div>
         <div>
             <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt=""
-                class="h-[350xp] object-contain float-right" />
+                class="absolute teacher-img1 float-right" />
         </div>
 
     </div>

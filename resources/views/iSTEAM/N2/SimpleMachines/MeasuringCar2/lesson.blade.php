@@ -2,46 +2,40 @@
 @section('title', 'Dynamic Presentation')
 
 @section('content')
-
+    {{-- title --}}
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">A Measuring Car (2)</h2>
 
     {{-- Slide 1 --}}
-    <div class="flex flex-col items-center justify-center gap-10 slide hidden">
-        <div class="flex items-center justify-center">
-            <img class="w-[500px]" src="{{ asset('assets/images/N2/SimpleMachines/b2.png ') }}" alt="">
-            <img class="w-[500px]" src="{{ asset('assets/images/N2/SimpleMachines/b17.png') }}" alt="">
-        </div>
+    <div class="flex flex-col items-center justify-center slide hidden">
+        <img src="{{ asset('assets/images/N2/SimpleMachines/gl8.png') }}" alt="">
         <h2 class="stroke title">Children, what did you build in the last lesson? How did you play with it? What can you use
             it for?</h2>
     </div>
 
 
     {{-- Slide 2 --}}
-    <div class="slide flex flex-col items-center justify-center gap-10 ">
-        <img class="w-[500px]" src="{{ asset('assets/images/N2/SimpleMachines/b19.png') }}" class="w-[436px]" />
+    <div class="slide flex flex-col items-center justify-center ">
+        <img src="{{ asset('assets/images/N2/SimpleMachines/b19.png') }}" />
         <h2 class="stroke title">You pushed the car to make it go forward.
             You read the scale to know how far it went forward. </h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2">
-      <img src="/assets/images/pptimages/video.png" />
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30  -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
 
     </div>
 
 
     {{-- Slide 3 --}}
-    <div class="flex flex-col items-center justify-center gap-10 slide hidden">
-        <div class="flex items-center justify-center">
-            <img class="w-[500px]" src="{{ asset('assets/images/N2/SimpleMachines/b2.png ') }}" alt="">
-            <img class="w-[500px]" src="{{ asset('assets/images/N2/SimpleMachines/b17.png') }}" alt="">
-        </div>
+    <div class="flex flex-col items-center justify-center slide hidden">
+        <img src="{{ asset('assets/images/N2/SimpleMachines/gl8.png') }}" alt="">
         <h2 class="stroke title">It is measuring car. <br>
             You can use it to count how many units it goes forward.</h2>
     </div>
 
 
     {{-- slide 4 --}}
-    <div class="flex flex-col items-center justify-center slide hidden">
+    <div class="flex flex-col items-center justify-between h-[50vh] slide hidden">
         <h2 class="title stroke">How do you make a measuring car go very far?
             How many ways can you make it go very far?</h2>
         <p class="note">Note: Encourage children to share their hands-on experiences.</p>
@@ -49,14 +43,14 @@
 
     {{-- slide 5 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img class="w-[500px]" src="{{ asset('assets/images/N2/SimpleMachines/b20.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/b20.png') }}" />
         <h2 class="title stroke">This is way to make a measuring car go very far when you give it a push.</h2>
     </div>
 
 
     {{-- slide 6 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img class="w-[500px]" src="{{ asset('assets/images/N2/SimpleMachines/b20.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/gl10.png') }}" />
         <h2 class="title stroke">Do you know what this is?</h2>
         <p class="note">Note: Encourage children to boldly share their views.</p>
     </div>
@@ -64,13 +58,13 @@
 
     {{-- slide 7 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img class="w-[500px]" src="{{ asset('assets/images/N2/SimpleMachines/b20.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/gl9.png') }}" />
         <h2 class="title stroke">This is a ramp. It is a slanting surface with one end higher than the other end.</h2>
     </div>
 
     {{-- slide 8 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img class="w-[500px]" src="{{ asset('assets/images/N2/SimpleMachines/b20.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/gl9.png') }}" />
         <h2 class="stroke title">The <span class="text-white">ramp</span> looks like a shape.<br />It is a <span
                 class="text-white">simple machine</span> called an <span class="text-white">inclined plane</span>.</h2>
     </div>
@@ -78,13 +72,14 @@
 
     {{-- slide 9 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img class="w-[500px]" src="{{ asset('assets/images/N2/SimpleMachines/b20.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/gl9.png') }}" />
         <h2 class="stroke title"><span class="text-white">Simple machines </span>are tools that help us to do work
             easily.<br />Let’s find out more about <span class="text-white">inclined planes!</span></h2>
     </div>
 
     {{-- slide 10 --}}
-    <div class="flex flex-col  slide hidden">
+    <div class="flex flex-col  slide hidden justify-between h-[50vh] items-center">
+        <h2 class="title stroke !text-white">Hands-on Time</h2>
         <div class="title stroke text-start">
             <h2>Mission:</h2>
             <ul>
@@ -96,7 +91,7 @@
 
 
     {{-- slide 11 --}}
-    <div class="flex flex-col  slide hidden">
+    <div class="flex flex-col  slide hidden items-center">
         <div class="title stroke text-start">
             <h2>Steps:</h2>
             <ul>
@@ -104,7 +99,7 @@
                     reading.</li>
             </ul>
         </div>
-        <img class="w-[500px]" src="{{ asset('assets/images/N2/SimpleMachines/b21.png') }}" />
+        <img class="large-img" src="{{ asset('assets/images/N2/SimpleMachines/b21.png') }}" />
         <p class="note">Note: Have children work in groups to complete the mission. Have them record the reading in their
             learning journal.</p>
 
@@ -112,36 +107,36 @@
 
 
     {{-- slide 12 --}}
-    <div class="flex flex-col  slide hidden">
+    <div class="flex flex-col  slide hidden items-center">
         <div class="title stroke text-start">
             <h2>Steps:</h2>
             <ul>
                 <li>2. Change the height of the inclined plane and test again. Read the scale and record your reading.</li>
             </ul>
         </div>
-        <img class="w-[500px]" src="{{ asset('assets/images/N2/SimpleMachines/b21.png') }}" />
+        <img class="large-img" src="{{ asset('assets/images/N2/SimpleMachines/b21.png') }}" />
         <p class="note">Note: Have children work in groups to complete the mission.Have them record the reading in their
             learning journal.</p>
 
     </div>
 
     {{-- slide 13 --}}
-    <div class="flex flex-col  slide hidden">
+    <div class="flex flex-col  slide hidden items-center">
         <div class="title stroke text-start">
             <h2>Steps:</h2>
             <ul>
                 <li>2. Change the height of the inclined plane and test again. Read the scale and record your reading,</li>
             </ul>
         </div>
-        <img class="w-[500px]" src="{{ asset('assets/images/N2/SimpleMachines/b22.png') }}" />
+        <img class="large-img" src="{{ asset('assets/images/N2/SimpleMachines/b22.png') }}" />
         <p class="note">Note: Have children work in groups to complete the mission.Have them record the reading in their
             learning journal.</p>
 
     </div>
 
     {{-- sldie 14 --}}
-    <div class="flex flex-col  slide hidden gap-20">
-        <h2 class="title storke">Based on your record, which height of inclined plane makes the car go very far? How many
+    <div class="flex flex-col  slide hidden items-center  h-[50vh] justify-between">
+        <h2 class="title stroke">Based on your record, which height of inclined plane makes the car go very far? How many
             units does the car go? What do you find out from the test?</h2>
         <p class="note">Note: Have each group of children share their findings based on the record in their learning
             journal.
@@ -151,13 +146,15 @@
 
 
     {{-- sldie 15 --}}
-    <div class="flex flex-col  slide hidden">
+    <div class="flex flex-col  slide hidden items-center">
         <h2 class="stroke title">Learning Journal</h2>
-        <img class="w-[500px]" src="{{ asset('assets/images/N2/SimpleMachines/bb1.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/bb1.png') }}" />
     </div>
 
 
 
+    {{-- ======= --}}
+    {{-- Buttons --}}
     {{-- Complete button --}}
     <div class="down-btn-container">
         <button class="doneButton">
@@ -165,14 +162,11 @@
         </button>
     </div>
 
-    {{-- Buttons --}}
     <div id="buttons" class="absolute  flex flex-row ">
-
         <!-- Return Button -->
         <a id="returnButton">
             <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
-
         <!-- Home Button -->
         <button id="homeButton">
             <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
@@ -180,11 +174,8 @@
 
         <!-- Close Button -->
         <button id="closeButton">
-
-            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-
+        <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
         </button>
-
     </div>
 
     {{-- next Button --}}

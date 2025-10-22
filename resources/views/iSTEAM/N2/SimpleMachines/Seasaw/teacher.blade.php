@@ -43,7 +43,7 @@
         <div class="flex items-center">
             <img src="{{ asset('assets/images/N2/SimpleMachines/s24.png') }}" class="w-[636px]" />
             <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt=""
-                class="h-[350xp] object-contain" />
+                class="absolute teacher-img1" />
         </div>
     </div>
 
@@ -61,7 +61,7 @@
         <div class="flex items-center">
             <img src="{{ asset('assets/images/N2/SimpleMachines/s25.png') }}" class="w-[636px]" />
             <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt=""
-                class="h-[350xp] object-contain" />
+                class="absolute teacher-img1" />
         </div><!-- Video Trigger Button -->
         <div onclick="toggleVideo('video1')"
             class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2">
@@ -81,7 +81,7 @@
         <div class="flex items-center">
             <img src="{{ asset('assets/images/N2/SimpleMachines/at1.png') }}" class="w-[536px]" />
             <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt=""
-                class="h-[350xp] object-contain" />
+                class="absolute teacher-img1" />
         </div>
     </div>
 
@@ -101,7 +101,7 @@
         </div>
         <div>
             <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt=""
-                class="h-[350xp] object-contain float-right" />
+                class="absolute teacher-img1 float-right" />
         </div>
 
     </div>
