@@ -143,7 +143,7 @@ Route::get('/lightform/Light', function () {
 
 // N1 -> lightforms ->ligth ->select
 Route::get('/choice', function () {
-    return view('iSTEAM.N1.lightforms.light.selection');
+    return view('iSTEAM.N1.lightforms.Light.selection');
 })->name('n1lightchoose');
 
 // N1 -> lightforms ->ligth->lesson
