@@ -32,8 +32,6 @@
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
     </div>
-    </div>
-
 
     {{-- slide 2 --}}
     <div class="text-white flex text-start text-2xl slide hidden t-slide">
@@ -194,7 +192,7 @@
             returnBtn.addEventListener("click", () => {
                 if (currentIndex === 0) {
                     // On first slide: redirect to route
-                    window.location.href = "{{ route('build-StructureSelection') }}";
+                    window.location.href = "{{ route('Build-StructureSelection') }}";
                 } else {
                     // Not first slide: go back
                     showSlide(currentIndex - 1);
@@ -203,7 +201,7 @@
 
             // Done button
             doneBtn.addEventListener("click", () => {
-                window.location.href = "{{ route('build-StructureSelection') }}";
+                window.location.href = "{{ route('basicStructure') }}";
             });
 
             // Start at first slide

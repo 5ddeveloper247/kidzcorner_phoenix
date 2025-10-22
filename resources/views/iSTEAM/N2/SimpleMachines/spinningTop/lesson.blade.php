@@ -4,12 +4,14 @@
 
 @section('content')
 
+    {{-- title --}}
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">A Spinning Top</h2>
 
     {{-- Slide 1 --}}
     <div class="flex flex-col items-center justify-center gap-10 slide hidden">
         <h2 class="stroke title"><span class="text-white">Simple machines</span> are tools that help us to do<br />work
             easily. What <span class="text-white">simple machine </span>is this?</h2>
-        <img src="/assets/images/N2/SimpleMachines/a57.png" class="w-[829px]" />
+        <img src="{{ asset('/assets/images/N2/SimpleMachines/a57.png') }}" />
     </div>
 
     {{-- Slide 2 --}}
@@ -18,14 +20,14 @@
         <h2 class="stroke title">This <span class="text-white">wheel</span> and <span class="text-white">axle</span> lets us
             move people and<br />heavy things around easily when we pull the wagon.</h2>
         <div class="flex items-center gap-10">
-            <img src="/assets/images/N2/SimpleMachines/a14.png" class="w-[436px]" />
-            <img src="/assets/images/N2/SimpleMachines/a15.png" class="w-[436px]" />
+            <img src="{{ asset('/assets/images/N2/SimpleMachines/a14.png') }}" class="large-img" />
+            <img src="{{ asset('/assets/images/N2/SimpleMachines/a15.png') }}" class="large-img" />
         </div>
     </div>
 
     {{-- Slide 3 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <img src="/assets/images/N2/SimpleMachines/a25.png" class="w-[482px] h-[481px]" />
+        <img src="{{ asset('/assets/images/N2/SimpleMachines/a25.png') }}" class="large-img3" />
         <h2 class="stroke title">This <span class="text-white">wheel</span> and <span class="text-white">axle</span> lets us
             easily bring along things<br />to buy when we push the shopping cart.</h2>
     </div>
@@ -33,7 +35,7 @@
 
     {{-- Slide 4 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <img src="/assets/images/N2/SimpleMachines/a27.png" />
+        <img src="{{ asset('/assets/images/N2/SimpleMachines/a27.png') }}" />
         <h2 class="stroke title">This <span class="text-white">wheel</span> and <span class="text-white">axle</span> lets us
             have fun moving around<br />easily when we ride a scooter.</h2>
     </div>
@@ -42,30 +44,27 @@
 
     {{-- Slide 5 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <img src="/assets/images/N2/SimpleMachines/a29.png" />
+        <img src="{{ asset('/assets/images/N2/SimpleMachines/a29.png') }}" />
         <h2 class="stroke title">This <span class="text-white">wheel</span> and <span class="text-white">axle</span> lets us
-            easily view the scenery<br />when we take a ride on a giant wheel.</h2>
+            easily view the scenery<br />when we take a ride on a giant heel.</h2>
     </div>
 
 
     {{-- Slide 6 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <img src="/assets/images/N2/SimpleMachines/a31.png" />
+        <img src="{{ asset('/assets/images/N2/SimpleMachines/a31.png') }}" />
         <h2 class="stroke title">This <span class="text-white">wheel</span> and <span class="text-white">axle</span> lets us
             have fun seeing the blades
             as the wind blows on a pinwheel.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
-            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
 
     {{-- slide 7 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start gap-20  ">
+    <div class="slide hidden  flex flex-col items-center justify-between h-[50vh] ">
         <h2 class="title stroke">Mission: <br>
             Let’s follow the instructions to build a spinning top and then play with it.</h2>
 
@@ -73,37 +72,37 @@
     </div>
 
     {{-- sldie 8 --}}
-    <div class="flex flex-col  slide hidden">
-        <div class="title stroke text-start">
+    <div class="flex flex-col  slide hidden items-center">
+        <div class="title stroke text-start self-start">
             <h2>Steps:</h2>
             <ul>
                 <li>1. Make sure you have all these parts.</li>
             </ul>
         </div>
-        <img src="/assets/images/N2/SimpleMachines/a49.png" />
+        <img src="{{ asset('/assets/images/N2/SimpleMachines/a49.png') }}" />
         <p class="note">Note: Have each group of children check to ensure they have all the parts,</p>
     </div>
 
 
     {{-- sldie 9 --}}
-    <div class="flex flex-col  slide hidden">
-        <div class="title stroke text-start">
+    <div class="flex flex-col  slide hidden items-center">
+        <div class="title stroke text-start self-start">
             <h2>Steps:</h2>
             <ul>
                 <li>2. Build a spinning top.</li>
             </ul>
         </div>
         <div class="flex items-center gap-10">
-            <img src="/assets/images/N2/SimpleMachines/a44.png" class="w-[436px]" />
-            <img src="/assets/images/N2/SimpleMachines/a51.png" class="w-[436px]" />
+            <img src="{{ asset('/assets/images/N2/SimpleMachines/a44.png') }}" class="large-img" />
+            <img src="{{ asset('/assets/images/N2/SimpleMachines/a51.png') }}" class="large-img" />
         </div>
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
     </div>
 
 
     {{-- slide 10 --}}
-    <div class="flex flex-col  slide hidden">
-        <div class="title stroke text-start">
+    <div class="flex flex-col  slide hidden items-center">
+        <div class="title stroke text-start self-start">
             <h2>Steps:</h2>
             <ul>
                 <li>3. Play with the spinning top and answer some questions.
@@ -122,16 +121,16 @@
 
 
     {{-- slide 11 --}}
-    <div class="flex flex-col  slide hidden">
-        <div class="title stroke text-start">
+    <div class="flex flex-col  slide hidden items-center">
+        <div class="title stroke text-start self-start">
             <h2>Steps:</h2>
             <ul>
                 <li>4. Build a launcher for the spinning top.</li>
             </ul>
         </div>
-        <img src="/assets/images/N2/SimpleMachines/a45.png" />
+        <img src="{{ asset('/assets/images/N2/SimpleMachines/a45.png') }}" />
 
-        <p class="note">Note: Have each group of children work together to complete the mission. <a
+        <p class="note z-[99]">Note: Have each group of children work together to complete the mission. <a
                 class="click-btn1">Click
                 <span class="text-[#F7B94A]">here</span></a>for the guide.</p>
     </div>
@@ -160,8 +159,8 @@
     </div>
 
     {{-- slide --}}
-    <div class="flex flex-col  slide hidden">
-        <div class="title stroke text-start">
+    <div class="flex flex-col  slide hidden items-center">
+        <div class="title stroke text-start self-start">
             <h2>Steps:</h2>
             <ul>
                 <li>5. See how to use the launcher to play with
@@ -169,23 +168,20 @@
             </ul>
         </div>
         <div class="flex items-center gap-10">
-            <img src="/assets/images/N2/SimpleMachines/a50.png" class="w-[336px]" />
-            <img src="/assets/images/N2/SimpleMachines/a45.png" class="w-[436px]" />
+            <img src="{{ asset('/assets/images/N2/SimpleMachines/a50.png') }}" class="w-[336px]" />
+            <img src="{{ asset('/assets/images/N2/SimpleMachines/a45.png') }}" class="large-img" />
         </div>
         <p class="note">Note: Demo to show children how to use the launcher. Have them practise using it in their
             groups.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
-            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
     {{-- slide  --}}
-    <div class="flex flex-col  slide hidden">
-        <div class="title stroke text-start">
+    <div class="flex flex-col  slide hidden items-center">
+        <div class="title stroke text-start self-start">
             <h2>Steps:</h2>
             <ul>
                 <li>6. Use the launcher to play with the pinwheel and
@@ -207,28 +203,26 @@
     <div class="slide flex flex-col items-center justify-center gap-5 ">
         <h2 class="stroke title">This is the <span class="text-white">wheel </span>(the two gears) and <span
                 class="text-white">axle<br /></span>of the spinning top.</h2>
-        <img src="/assets/images/N2/SimpleMachines/a58.png" />
+        <img src="{{ asset('/assets/images/N2/SimpleMachines/a58.png') }}" class="large-img2" />
         <p class="note">Note: Guide each group of children to point out the wheel and axle of their spinning tops.</p>
-        <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
-            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
-        </div>
+
     </div>
 
     {{-- slide 16 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <img src="/assets/images/N2/SimpleMachines/a59.png" />
+        <img src="{{ asset('/assets/images/N2/SimpleMachines/a59.png') }}" />
         <h2 class="stroke title">When you make the <span class="text-white">axle</span> of the spinning top spin,<br />its
             <span class="text-white">wheel </span>spins together.
         </h2>
+        <!-- Video Trigger Button -->
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
+        </div>
     </div>
 
 
     {{-- slide 17  --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
+    <div class="slide flex flex-col items-center justify-between h-[50vh] ">
 
         <h2 class="stroke title">Based on your record, which way do you find it
             easier to make the spinning top spin longer:using your fingers or using a launcher?.</h2>
@@ -243,7 +237,7 @@
     <div class="flex flex-col items-center justify-center slide hidden">
 
         <h2 class="title stroke !text-white">Hands-on Time 2</h2>
-        <img src="/assets/images/N2/SimpleMachines/a52.png" class="w-[550xp]" />
+        <img src="{{ asset('/assets/images/N2/SimpleMachines/a52.png') }}" class="w-[550xp]" />
         <div class="text-start">
 
             <h2 class="title stroke">Mission: <br>
@@ -254,74 +248,65 @@
 
 
     {{-- slide 19 --}}
-    <div class="flex flex-col  slide hidden">
-        <div class="title stroke text-start">
+    <div class="flex flex-col  slide hidden items-center">
+        <div class="title stroke text-start self-start">
             <h2>Steps:</h2>
             <ul>
                 <li>1. Use a launcher to play with the spinning top A. How long does it spin? Record the longest time it
                     spins.</li>
             </ul>
         </div>
-        <img src="/assets/images/N2/SimpleMachines/a60.png" class="w-[600px]" />
+        <img src="{{ asset('/assets/images/N2/SimpleMachines/a60.png') }}" />
         <p class="note">Note: Teacher to time and record how long the spinning top of each group spins (each group 2
             chances)</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
-            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
 
 
     {{-- slide 20 --}}
-    <div class="flex flex-col  slide hidden">
-        <div class="title stroke text-start">
+    <div class="flex flex-col  slide hidden items-center">
+        <div class="title stroke text-start self-start">
             <h2>Steps:</h2>
             <ul>
                 <li>2. Use a launcher to play with the spinning top B. How long does it spin? Record the longest time it
                     spins.</li>
             </ul>
         </div>
-        <img src="/assets/images/N2/SimpleMachines/a60.png" class="w-[600px]" />
+        <img src="{{ asset('/assets/images/N2/SimpleMachines/a60.png') }}" />
         <p class="note">Note: Teacher to time and record how long the spinning top of each group spins (each group 2
             chances)</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
-            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
 
     {{-- slide 21 --}}
-    <div class="flex flex-col  slide hidden">
-        <div class="title stroke text-start">
+    <div class="flex flex-col  slide hidden items-center">
+        <div class="title stroke text-start self-start">
             <h2>Steps:</h2>
             <ul>
                 <li>3. Use a launcher to play with the spinning top C. How long does it spin? Record the longest time it
                     spins. </li>
             </ul>
         </div>
-        <img src="/assets/images/N2/SimpleMachines/a60.png" class="w-[600px]" />
+        <img src="{{ asset('/assets/images/N2/SimpleMachines/a60.png') }}" />
         <p class="note">Note: Teacher to time and record how long the spinning top of each group spins (each group 2
             chances)</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
-            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
 
     {{-- slide 22 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
+    <div class="slide flex flex-col items-center justify-between h-[50vh]">
 
         <h2 class="stroke title">Based on your record, which design of spinning top do you find spins the longest using a
             launcher: A, B, C or D?</h2>
@@ -335,15 +320,15 @@
     {{-- slide 23 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
         <h2 class="stroke title">Learning Journal</h2>
-        <div class="w-[736px] h-[508px] bg-cover bg-center "
+        <div class="w-[50vw] h-[45vh] bg-cover bg-center "
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
 
-            <div class="flex flex-col justify-center items-center gap-20">
+            <div class="flex flex-col justify-center items-center ">
                 <p>Which way makes the spinning top spin longer? Circle it.</p>
 
                 <div class="flex items-center gap-x-10">
-                    <img src="/assets/images/N2/SimpleMachines/a54.png" />
-                    <img src="/assets/images/N2/SimpleMachines/a55.png" />
+                    <img src="{{ asset('/assets/images/N2/SimpleMachines/a54.png') }}" class="large-img4" />
+                    <img src="{{ asset('/assets/images/N2/SimpleMachines/a55.png') }}" class="large-img4" />
                 </div>
             </div>
         </div>
@@ -353,12 +338,12 @@
     {{-- slide 24 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
         <h2 class="stroke title">Learning Journal</h2>
-        <div class="w-[736px] h-[508px] bg-cover bg-center "
+        <div class="w-[50vw] h-[45vh] bg-cover bg-center "
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
 
             <div class="flex flex-col justify-center items-center gap-20">
                 <p>Which spinning top spins the longest time using a launcher? Circle it.</p>
-                <img src="/assets/images/N2/SimpleMachines/a52.png" />
+                <img src="{{ asset('/assets/images/N2/SimpleMachines/a52.png') }}" />
             </div>
         </div>
 

@@ -3,6 +3,9 @@
 
 @section('content')
 
+    {{-- title --}}
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">A Wagon</h2>
+
     {{-- slide 0 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="stroke title">Children, what are these? What can you do with them?</h2>
@@ -20,9 +23,9 @@
     </div>
 
     {{-- slide 2 --}}
-    <div class="flex flex-col items-center justify-center gap-20 slide hidden">
+    <div class="flex flex-col items-center h-[50vh] justify-between slide hidden">
 
-        <h2 class="title stroke !text-white">Hands-on Time</h2>
+        <h2 class="title stroke self-start !text-white">Hands-on Time</h2>
         <div class="text-start">
 
             <h2 class="title stroke">Mission: <br>
@@ -33,29 +36,29 @@
 
 
     {{-- slide 3 --}}
-    <div class="flex flex-col  slide hidden">
+    <div class="flex flex-col  items-center slide hidden">
         <div class="title stroke text-start">
             <h2>Steps:</h2>
             <ul class="list-decimal list-inside ">
                 <li>Make sure you have all these parts.</li>
             </ul>
-            <img src="{{ asset('assets/images/N2/SimpleMachines/a7.png') }}" />
         </div>
+        <img src="{{ asset('assets/images/N2/SimpleMachines/a7.png') }}" />
         <p class="note  text-center">Note: Have each group of children check to ensure they have all the parts.</p>
     </div>
 
 
     {{-- slide 4 --}}
-    <div class="flex flex-col  slide hidden">
-        <div class="title stroke text-start">
+    <div class="flex flex-col items-center  slide hidden">
+        <div class="title stroke self-start text-start">
             <h2>Steps:</h2>
             <ul>
                 <li>2. Build a wagon</li>
             </ul>
-            <img src="{{ asset('assets/images/N2/SimpleMachines/a8.png') }}" />
         </div>
-        <p class="note  text-center">Note: Have each group of children work together to complete the mission. <a
-                class="click-btn1">Click <span class="text-[#F7B94A]">Here</span></a> for the guide.</p>
+        <img src="{{ asset('assets/images/N2/SimpleMachines/a8.png') }}" />
+        <p class="note z-[99] text-center">Note: Have each group of children work together to complete the mission. <a
+                class="click-btn1 ">Click <span class="text-[#F7B94A]">Here</span></a> for the guide.</p>
     </div>
 
 
@@ -150,11 +153,8 @@
         </video>
         <h2 class="title stroke">When you pull the string,the wagon that is tied to the string moves.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
-            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+        <div onclick="toggleVideo('video1')" class="absolute cursor-pointer top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
@@ -166,11 +166,8 @@
         </video>
         <h2 class="title stroke">Why do you think the wagon moves easily? What does it have?</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video2')"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
-            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+        <div onclick="toggleVideo('video2')" class="absolute cursor-pointer top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
@@ -184,11 +181,8 @@
         <h2 class="title stroke">Yes, the wagon moves easily because it has <span class="text-white">wheels</span> and axles
             that turn together.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video3')"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
-            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+        <div onclick="toggleVideo('video3')" class="absolute cursor-pointer top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
@@ -214,11 +208,8 @@
         <p class="note">Note: Have children pay attention to the turning axle (from the hole) when the wheel is turned.
         </p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video4')"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
-            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+        <div onclick="toggleVideo('video4')" class="absolute cursor-pointer top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
@@ -231,11 +222,8 @@
         <h2 class="stroke title">What can you use the wagon for?</h2>
         <p class="note">Note: Encourage children to boldly share their views.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video5')"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
-            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+        <div onclick="toggleVideo('video5')" class="absolute cursor-pointer top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
@@ -250,11 +238,8 @@
         <p class="note">Note: Invite chilren to use their wagons to transport things of different sizes and weights
             around.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video6')"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
-            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+        <div onclick="toggleVideo('video6')" class="absolute cursor-pointer top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 

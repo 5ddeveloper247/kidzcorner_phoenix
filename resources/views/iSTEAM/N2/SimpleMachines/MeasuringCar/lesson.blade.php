@@ -5,33 +5,30 @@
 
 
     {{-- Slide 1 --}}
-    <div class="flex flex-col items-center justify-center gap-10 slide hidden">
+    <div class="flex flex-col items-center h-[50vh] justify-between slide hidden">
         <h2 class="stroke title !text-white ">Hands-on Time 1</h2>
-        <h2 class="stroke title">Mission: <br>
+        <h2 class="stroke title text-start">Mission: <br>
             Let’s follow the instructions to build a measuring carand then play with it.</h2>
         <p class="note">Note: Divide children into groups and give each group a set of building bricks.</p>
     </div>
 
-
-
-
     {{-- Slide 2 --}}
     <div class="slide flex flex-col items-center justify-center gap-10 ">
 
-        <h2 class="stroke title">Steps: <br>
+        <h2 class="stroke title text-start">Steps: <br>
             1. Make sure you have all these parts</h2>
-        <img src="/assets/images/N2/SimpleMachines/b1.png" class="w-[436px]" />
+        <img src="/assets/images/N2/SimpleMachines/b1.png" />
     </div>
 
 
     {{-- Slide 3 --}}
     <div class="slide flex flex-col items-center justify-center gap-10 ">
 
-        <h2 class="stroke title">Steps: <br>
+        <h2 class="stroke title text-start">Steps: <br>
             2. Build a measuring car.</h2>
-        <img src="/assets/images/N2/SimpleMachines/b2.png" class="w-[436px]" />
+        <img src="/assets/images/N2/SimpleMachines/b2.png" class="large-img2" />
 
-        <p class="note">Note: Have each group of children work together to complete the mission. <a
+        <p class="note z-[99]">Note: Have each group of children work together to complete the mission. <a
                 class="click-btn1">Click <span class="text-[#F7B94A]">Here</span></a> for the guide.</p>
     </div>
 
@@ -106,7 +103,7 @@
 
 
     {{-- slide 13 --}}
-    <div class="flex flex-col  slide hidden">
+    <div class="flex flex-col  slide hidden items-center">
         <div class="title stroke text-start">
             <h2>Steps:</h2>
             <ul>
@@ -124,23 +121,20 @@
 
 
     {{-- sldie 14 --}}
-    <div class="flex flex-col  slide hidden">
+    <div class="flex flex-col  slide hidden items-center">
         <img src="/assets/images/N2/SimpleMachines/b14.png" />
-        <h2 class="title storke">When you give the car a push, its <span class="text-white "> wheels </span> and <span
+        <h2 class="title stroke">When you give the car a push, its <span class="text-white "> wheels </span> and <span
                 class="text-white "> axles</span> turn together.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
-            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30  -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
 
     </div>
 
 
     {{-- sldie 15 --}}
-    <div class="flex flex-col  slide hidden">
+    <div class="flex flex-col  slide hidden items-center">
         <img src="/assets/images/N2/SimpleMachines/b12.png" />
         <h2 class="stroke title">These <span class="text-white">wheels</span> and <span class="text-white">axles</span> let
             the car moves forwards.</h2>
@@ -149,9 +143,9 @@
 
 
     {{-- slide 16 --}}
-    <div class="flex flex-col  slide hidden">
+    <div class="flex flex-col  slide hidden items-center">
         <img src="/assets/images/N2/SimpleMachines/b13.png" />
-        <h2 class="title storke">These wheels and axles let the handle behind the car turn as the car is moving forward.
+        <h2 class="title stroke">These wheels and axles let the handle behind the car turn as the car is moving forward.
         </h2>
 
     </div>
@@ -159,7 +153,7 @@
 
 
     {{-- slide 17 --}}
-    <div class="flex flex-col  slide hidden">
+    <div class="flex flex-col  slide hidden items-center">
 
         <div class="flex items-center justify-center ">
             <div class="w-[400px]">
@@ -171,21 +165,18 @@
                 <img src="/assets/images/N2/SimpleMachines/b15.png" />
             </div>
         </div>
-        <h2 class="title storke">Let’s watch this video!</h2>
+        <h2 class="title stroke">Let’s watch this video!</h2>
         <p class="note">Note: Demo using a car and guide children to “see” this point (what makes what to turn/move)</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
-            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30  -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
 
     </div>
 
 
     {{-- slide  18 --}}
-    <div class="flex flex-col  slide hidden">
+    <div class="flex flex-col  slide hidden items-center">
 
         <div class="flex items-center justify-center ">
             <div>
@@ -197,21 +188,18 @@
                 <img src="/assets/images/N2/SimpleMachines/b15.png" />
             </div>
         </div>
-        <h2 class="title storke">Let’s watch this video!</h2>
+        <h2 class="title stroke">Let’s watch this video!</h2>
         <p class="note">Note: Demo using a car and guide children to “see” this point (what makes what to turn/move)</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
-            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30  -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
 
     </div>
 
 
     {{-- slide 19 --}}
-    <div class="flex flex-col  slide hidden">
+    <div class="flex flex-col  slide hidden items-center">
 
         <div class="flex items-center justify-center ">
             <div>
@@ -223,20 +211,17 @@
                 <img src="/assets/images/N2/SimpleMachines/b15.png" />
             </div>
         </div>
-        <h2 class="title storke">Let’s watch this video!</h2>
+        <h2 class="title stroke">Let’s watch this video!</h2>
         <p class="note">Note: Demo using a car and guide children to “see” this point (what makes what to turn/move)</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
-            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30  -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
 
     </div>
 
     {{-- slide 20 --}}
-    <div class="flex flex-col  slide hidden">
+    <div class="flex flex-col  slide hidden items-center">
 
         <div class="flex items-center justify-center ">
             <div>
@@ -249,21 +234,18 @@
                 <img src="/assets/images/N2/SimpleMachines/b15.png" />
             </div>
         </div>
-        <h2 class="title storke">Let’s watch this video!</h2>
+        <h2 class="title stroke">Let’s watch this video!</h2>
         <p class="note">Note: Demo using a car and guide children to “see” this point (what makes what to turn/move)</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
-            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30  -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
 
     </div>
 
 
     {{-- slide 21 --}}
-    <div class="flex flex-col  slide hidden">
+    <div class="flex flex-col  slide hidden items-center">
 
         <div class="flex items-center justify-center ">
             <div>
@@ -275,14 +257,11 @@
                 <img src="/assets/images/N2/SimpleMachines/b15.png" />
             </div>
         </div>
-        <h2 class="title storke">Let’s watch this video!</h2>
+        <h2 class="title stroke">Let’s watch this video!</h2>
         <p class="note">Note: Demo using a car and guide children to “see” this point (what makes what to turn/move)</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
-            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30  -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
 
     </div>
@@ -294,11 +273,8 @@
         <h2 class="stroke title">As the car goes forward, the handle behind it will turn.</h2>
         <p class="note"> Note: Demo using a car and guide children to understand this point.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
-            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30  -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
 
     </div>
@@ -310,11 +286,8 @@
         <h2 class="stroke title">The handle is in front of a scale with numbers.</h2>
         <p class="note"> Note: Guide children to name the numbers on the scale.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
-            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30  -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
 
     </div>
@@ -335,18 +308,15 @@
         <h2 class="stroke title">When you give this car a push, it will show you
             how far it moves forward.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
-            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30  -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
 
     </div>
 
 
     {{-- slide 26 --}}
-    <div class="flex flex-col  slide hidden">
+    <div class="flex flex-col  slide hidden items-center">
         <div class="title stroke text-start">
             <h2>Mission:</h2>
             <ul>

@@ -3,20 +3,20 @@
 
 @section('content')
     {{-- slide 1 --}}
-    <div class="flex flex-col justify-start gap-y-10 text-start text-2xl text-white slide hidden">
+    <div class="flex flex-col justify-start gap-y-10 text-start text-2xl text-white slide hidden t-slide">
         <div>
-            <h2 class="t-title font-bold">Children will be able to:</h2>
+            <h2 class="t-title >Children will be able to:</h2>
             <ul class="list-disc">
                 <li>Learn how to identify shapes of an item</li>
                 <li>Explore and create shape templates and structures for an item</li>
                 <li>Explore how to create a three-dimensional structure</li>
                 <li>Develop fine motor and eye-hand coordination skills</li>
                 <li>Develop creativity and spatial intelligence</li>
-            </ul>
+                </ul>
         </div>
         <div class="flex w-[100%] justify-between">
             <div>
-                <h2 class="t-title font-bold">Keywords:</h2>
+                <h2 class="t-title >Keywords:</h2>
                 <div class="flex items-center gap-x-10">
                     <ul class="list-disc">
                         <li>Shapes</li>
@@ -26,17 +26,17 @@
                         <li>Lines</li>
                         <li>Structure</li>
                     </ul>
-                </div>
             </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt=""   class="absolute teacher-img1"/>
         </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
     </div>
 
 
+
     {{-- slide 2 --}}
-    <div class="text-white flex text-start text-2xl slide hidden">
+    <div class="text-white flex text-start text-2xl slide hidden t-slide">
         <div>
-            <h2 class="font-bold underline">Preparations:</h2>
+            <h2 class="t-title">Preparations:</h2>
             <ul class="list-disc">
                 <li><strong>Materials:</strong> Cut paper into shapes of various sizes for the learning journal.</li>
                 <li>Include shapes that are in the magnetic tile set.</li>
@@ -48,94 +48,67 @@
 
 
     {{-- slide 3 --}}
-    <div class="text-white flex flex-col text-start text-2xl slide hidden">
+    <div class="text-white flex flex-col text-start text-2xl items-start slide hidden t-slide">
         <div>
-            <h2 class="font-bold">An example of a toy structure: <br>Teddy bear image and 3D head.</h2>
+            <h2 class="t-title">An example of a toy structure: <br>Teddy bear image and 3D head.</h2>
             <img src="{{ asset('assets/images/pptimages/tr4.png') }}" alt="" class=" object-contain" />
         </div>
-        <div class="flex items-center justify-around w-full">
-            <div>
 
-                <h2 class="font-bold">Teddy bear 3D structure</h2>
-                <img src="{{ asset('assets/images/pptimages/tr3.png') }}" alt="" />
+        <div>
+            <h2 class="t-title">Teddy bear 3D structure</h2>
+            <img src="{{ asset('assets/images/pptimages/tr3.png') }}" alt="" />
 
-            </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt=""
-                class="h-[350xp] object-contain" />
         </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
     </div>
 
 
 
     {{-- slide 4 --}}
-    <div class="text-white flex flex-col text-start text-2xl slide hidden">
+    <div class="text-white flex flex-col text-start text-2xl slide hidden t-slide">
         <div>
-            <h2 class="font-bold">Here are some examples of toys that you can make into 3D Structures. <br>
+            <h2 class="t-title">Here are some examples of toys that you can make into 3D Structures. <br>
                 Sailboat</h2>
         </div>
-        <div class="flex items-center">
-            <img src="{{ asset('assets/images/pptimages/tr2.png') }}" alt="" class="w-[750px] object-contain" />
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt=""
-                class="h-[350xp] object-contain" />
-        </div>
+        <img src="{{ asset('assets/images/pptimages/tr2.png') }}" alt="" class="large-img2" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
     </div>
 
     {{-- slide 5 --}}
 
-    <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
-        <div class="flex w-[100%] items-center justify-between">
-            <div>
-                <h2 class="font-bold">Notes:</h2>
-                <ul class="list-disc leading-relaxed">
-                    <li>
-                        If you see
-                        <span
-                            class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-                            <!-- Decorative Vector -->
-                            <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
-                                class="absolute top-[4px] left-[6px] h-6 w-[80%]" />
-                            <div class="absolute top-[7px] left-[12px] h-2.5 w-3.5 rounded-sm bg-white"></div>
-                            <img src="{{ asset('assets/images/pptimages/play.png') }}"
-                                class="absolute top-[16px] left-[16px] h-8 w-8" />
-                        </span>
-                        next to a picture, click on the picture to watch the video.
-                    </li>
-                    <li>
-                        If you see
-                        <span
-                            class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-amber-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-                            <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
-                                class="absolute top-[4px] left-[6px] h-6 w-[80%]" />
-                            <div class="absolute top-[7px] left-[12px] h-2.5 w-3.5 rounded-sm bg-white"></div>
-                            <img src="{{ asset('assets/images/pptimages/info.png') }}"
-                                class="absolute top-[16px] left-[16px] h-8 w-8" />
-                        </span>
-                        , click on it for additional information or activity.
-                    </li>
-                    <li>Always ask questions to encourage children to think and share their ideas first before giving
-                        out
-                        any information.</li>
-                    <li>Emphasise and use the <strong>keywords</strong> during hands-on sessions.</li>
-                    <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
-                    </li>
-                    <li>
-                        Click on this <span class="font-bold">shortcut icon</span>
-                        <span
-                            class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-                            <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
-                                class="absolute top-[4px] left-[6px] h-6 w-[80%]" />
-                            <div class="absolute top-[7px] left-[12px] h-2.5 w-3.5 rounded-sm bg-white"></div>
-                            <img src="{{ asset('assets/images/pptimages/home-icon.png') }}"
-                                class="absolute top-[16px] left-[16px] h-8 w-8" />
-                        </span>
-                        if you need to go to some parts of the lesson quickly.
-                    </li>
-                </ul>
-            </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1"  />
+    <div class="slide flex t-slide  flex-col  text-2xl text-start text-white">
+        <div>
+            <h2 class="t-title">Notes:</h2>
+            <ul class="list-disc">
+                <li class="flex">
+                    If you see
+                    <span class="info-btn">
 
+                        <img src="{{ asset('assets/images/pptimages/video.png') }}" />
+                    </span>
+                    next to a picture, click on the picture to watch the video.
+                </li>
+                <li class="flex">
+                    If you see
+                    <span> <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="video-btn" />
+                    </span>
+                    , click on it for additional information or activity.
+                </li>
+                <li>Always ask questions to encourage children to think and share their ideas first before giving
+                    out
+                    any information.</li>
+                <li>Emphasise and use the <strong>keywords</strong> during hands-on sessions.</li>
+                <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
+                </li>
+                <li class="flex">
+                    Click on this shortcut icon
+                    <span> <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" class="home-btn" />
+                    </span>
+                    if you need to go to some parts of the lesson quickly.
+                </li>
+            </ul>
         </div>
-
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 

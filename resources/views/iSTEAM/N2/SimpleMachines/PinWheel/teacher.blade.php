@@ -6,10 +6,10 @@
 
 
 
-    {{-- sldie 23  --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    {{-- sldie 1 --}}
+    <div class=" slide flex text-2xl text-white flex-col justify-start t-slide text-start">
         <div>
-            <h2 class="  font-bold">Children will be able to:</h2>
+            <h2 class=" t-title font-bold">Children will be able to:</h2>
             <ul class="list-disc ">
                 <li>Explore and learn about the characteristics of wheels and axles - a simple machine</li>
                 <li>Know some examples of things with wheel and axle around us</li>
@@ -30,114 +30,128 @@
 
                 </ul>
             </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1"  />
+            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
         </div>
     </div>
 
 
 
-    {{-- slide 24 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start w-[75%]">
+    {{-- slide 2 --}}
+    <div class=" slide flex text-2xl text-white flex-col justify-start t-slide text-start w-[75%]">
         <div>
-            <h2 class="font-bold">Preparations for Class Activity I:</h2>
+            <h2 class="font-bold t-title">Preparations for Class Activity I:</h2>
             <ul class="list-disc ">
                 <li>Each group have a set of building bricks (parts and quantity as shown)</li>
             </ul>
         </div>
-        <div class="flex items-center">
-            <img src="{{ asset('assets/images/N2/a8.png') }}" class="w-[536px]" />
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt=""
-                class="h-[350xp] object-contain" />
-        </div>
+        <img src="{{ asset('assets/images/N2/SimpleMachines/a32.png') }}" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
     </div>
 
-    {{-- slide 25 --}}
-    <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
-        <div class="flex w-[100%] items-center justify-between">
-            <div>
-                <h2 class="font-bold">Notes:</h2>
-                <ul class="list-disc leading-relaxed">
-                    <li>
-                        If you see
-                        <span
-                            class="info-btn">
-    
-                          <img src="{{ asset('assets/images/pptimages/video.png') }}"
-                             />
-                        </span>
-                        next to a picture, click on the picture to watch the video.
-                    </li>
-                    <li>
-                        If you see
-                        <span
-                           <img src="{{ asset('assets/images/pptimages/info-btn.png') }}"
-                                class="video-btn" />
-                        </span>
-                        , click on it for additional information or activity.
-                    </li>
-                    <li>Always ask questions to encourage children to think and share their ideas first before giving
-                        out
-                        any information.</li>
-                    <li>Emphasise and use the <strong>keywords</strong> during hands-on sessions.</li>
-                    <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
-                    </li>
-                    <li>
-                        Click on this <span class="font-bold">shortcut icon</span>
-                        <span
-                            ><img src="{{ asset('assets/images/pptimages/home-btn.png') }}"
-                                class="home-btn" />
-                        </span>
-                        if you need to go to some parts of the lesson quickly.
-                    </li>
-                </ul>
-            </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1"  />
-
-        </div>
-
-    </div>
-
-
-    {{--  slide 26 --}}
-    <div class=" slide text-white flex flex-col justify-start text-start text-2xl">
-        <h1 class="stroke font-bold">Let’s sort!</h1>
+    {{-- slide 3 --}}
+    <div class=" slide flex text-2xl text-white flex-col justify-start t-slide text-start w-[75%]">
         <div>
-            <h2 class="font-bold">Preparations for Class Activity I:</h2>
-            <p>Place pictures of various items such as pot of plant, bottle, shoe, sock, box, elephant, lamp, light
-                bulb,
-                sun, stars, lightning, firefly, ceiling light, handphone, TV.</p>
+            <h2 class="font-bold t-title">Preparations:</h2>
+            <ul class="list-disc ">
+                <li>A standing fan for all children or each group a portable fan (set to the
+                    lowest speed throughout the hands-on sessions)</li>
+            </ul>
         </div>
-
-        <div class="flex w-[100%] items-center justify-between">
-            <div>
-                <h2 class="font-bold">What to do:</h2>
-                <ul>
-                    <li>
-                        <strong>*</strong> Invite children to pick up pictures and sort them into groups:
-                        <ul class="mt-2 list-[lower-alpha] space-y-1 pl-6">
-                            <li>Gives light or Does not give light</li>
-                            <li>Natural light or Man-made light</li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1"  />
-
-        </div>
+        <img src="{{ asset('assets/images/N2/SimpleMachines/at2.png') }}" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
     </div>
 
+    {{-- slide 4 --}}
+    <div class=" slide flex text-2xl text-white flex-col justify-start t-slide text-start w-[75%]">
+        <div>
+            <h2 class="font-bold t-title">What you need to do before the lesson:</h2>
+            <ul class="list-disc ">
+                <li>Bend each of the small size blades to the same angles for the class.</li>
+            </ul>
+        </div>
+        <img src="{{ asset('assets/images/N2/SimpleMachines/at.png') }}" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
+    </div>
+
+
+    {{-- slide 5 --}}
+    <div class=" slide flex text-2xl text-white flex-col justify-start t-slide text-start w-[75%]">
+        <div>
+            <h2 class="font-bold t-title">What you need to do before the lesson:</h2>
+            <ul class="list-disc ">
+                <li>Be familiar with the name of the parts in the lego set.</li>
+            </ul>
+        </div>
+        <img src="{{ asset('assets/images/N2/SimpleMachines/at1.png') }}" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
+    </div>
+
+    {{-- slide 6 --}}
+    <div class=" slide flex text-2xl text-white flex-col justify-start t-slide text-start w-[75%]">
+        <div>
+            <h2 class="font-bold t-title">Things to note during hands-on sessions:</h2>
+            <ul class="list-disc ">
+                <li>Encourage children to always discuss and make decisions as a group to complete the mission.</li>
+                <li>Fans are potentially dangerous. Make sure that children handle them with great care with adult
+                    supervision at all times!</li>
+                <li>Always encourage children to attempt on their own before prompting.</li>
+                <li>The pinwheel may not turn after a while — adjust the angle (to be the same) or the position (move
+                    forward slightly) of the blades to solve the problem.</li>
+                <li>If time allows, provide paper blades (trace from the plastic blades) for children to compare the
+                    performance of the pinwheel.</li>
+            </ul>
+        </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
+    </div>
+
+
+
+    {{-- slide 7 --}}
+    <div class="slide flex t-slide  flex-col  text-2xl text-start text-white">
+        <div>
+            <h2 class="t-title">Notes:</h2>
+            <ul class="list-disc">
+                <li class="flex">
+                    If you see
+                    <span class="info-btn">
+
+                        <img src="{{ asset('assets/images/pptimages/video.png') }}" />
+                    </span>
+                    next to a picture, click on the picture to watch the video.
+                </li>
+                <li class="flex">
+                    If you see
+                    <span> <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="video-btn" />
+                    </span>
+                    , click on it for additional information or activity.
+                </li>
+                <li>Always ask questions to encourage children to think and share their ideas first before giving
+                    out
+                    any information.</li>
+                <li>Emphasise and use the <strong>keywords</strong> during hands-on sessions.</li>
+                <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
+                </li>
+                <li class="flex">
+                    Click on this shortcut icon
+                    <span> <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" class="home-btn" />
+                    </span>
+                    if you need to go to some parts of the lesson quickly.
+                </li>
+            </ul>
+        </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
+    </div>
+
+
+
+
+    {{-- Buttons --}}
     <div class="down-btn-container">
         <button class="doneButton">
             <img src="{{ asset('assets/images/pptimages/done.png') }}" />
         </button>
     </div>
 
-
-
-
-
-
-    {{-- Buttons --}}
     <div id="buttons" class="absolute top-0 right-[60px] flex flex-row gap-6 z-90">
 
         <!-- Return Button -->

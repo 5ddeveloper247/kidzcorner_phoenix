@@ -33,27 +33,27 @@
 
 @section('content')
 
-    <div class=" panel panel-f flex flex-wrap items-center justify-center text-center z-[99] px-4 row-gap-5 w-full">
+    <div class=" panel panel-f flex flex-wrap items-center justify-center text-center z-[99] w-[50vw]">
 
         <a href="{{ route('SimpleMachines') }}"
-            class="w-[400px] h-[300px] flex justify-center items-center transition hover:brightness-110 ">
-            <img src="{{ asset('/assets/images/pptimages/n2-1.png') }}" alt="" >
+            class="flex justify-center items-center transition hover:brightness-110 ">
+            <img src="{{ asset('/assets/images/pptimages/n2-1.png') }}" alt="" class="w-[18vw]" >
         </a>
 
         <a href="{{ route('LivingThings') }}"
-            class="w-[400px] h-[300px] flex justify-center items-center  transition hover:brightness-110 ">
-            <img src="{{ asset('/assets/images/pptimages/n2-4.png') }}" alt="" >
+            class="flex justify-center items-center  transition hover:brightness-110 ">
+            <img src="{{ asset('/assets/images/pptimages/n2-4.png') }}" alt="" class="w-[18vw]" >
         </a>
 
         <a href="{{ route('BasicCoding') }}"
-            class="w-[400px] h-[300px] flex justify-center items-center  transition hover:brightness-110 ">
-            <img src="{{ asset('/assets/images/pptimages/n2-3.png') }}" alt="" >
+            class="flex justify-center items-center  transition hover:brightness-110 ">
+            <img src="{{ asset('/assets/images/pptimages/n2-3.png') }}" alt="" class="w-[18vw]" >
         </a>
 
 
         <a href="{{ route('Structures') }}"
-            class="w-[400px] h-[300px] flex justify-center items-center  transition hover:brightness-110 ">
-            <img src="{{ asset('/assets/images/pptimages/n2-2.png') }}" alt="" >
+            class="flex justify-center items-center  transition hover:brightness-110 ">
+            <img src="{{ asset('/assets/images/pptimages/n2-2.png') }}" alt="" class="w-[18vw]" >
         </a>
     </div>
 

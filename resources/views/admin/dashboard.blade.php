@@ -20,9 +20,9 @@
         .action-buttons .btn:last-child {
             margin-right: 0;
         }
-
-
-        
+        h2{
+            font-size: 16px !important;
+        }
     </style>
 @endpush
 
@@ -39,68 +39,103 @@
                     <div class="page-content">
                         <div class="row">
                             <div class="col-12 col-lg-3">
-                                <div class="card radius-15 overflow-hidden" style="min-height: 170px;">
-                                    <div class="card-body d-flex justify-content-center align-items-center">
-                                        <h2 class="mb-0">Sessions</h2>
+                                <a href="{{ route('isteam') }}">
+                                    <div class="card radius-15 overflow-hidden" style="min-height: 170px;">
+                                        <div class="card-body d-flex justify-content-center align-items-center">
+                                            <h2 class="mb-0">iSTEAM</h2>
+                                        </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
 
                             <div class="col-12 col-lg-3">
-                                <div class="card radius-15 overflow-hidden" style="min-height: 170px;">
-                                    <div class="card-body d-flex justify-content-center align-items-center">
-                                        <h2 class="mb-0">Page Views</h2>
+                                <a>
+                                    <div class="card radius-15 overflow-hidden" style="min-height: 170px;">
+                                        <div class="card-body d-flex justify-content-center align-items-center">
+                                            <h2 class="mb-0">MICET</h2>
+                                        </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
 
                             <div class="col-12 col-lg-3">
-                                <div class="card radius-15 overflow-hidden" style="min-height: 170px;">
-                                    <div class="card-body d-flex justify-content-center align-items-center">
-                                        <h2 class="mb-0">Visitors</h2>
+                                <a>
+                                    <div class="card radius-15 overflow-hidden" style="min-height: 170px;">
+                                        <div class="card-body d-flex justify-content-center align-items-center">
+                                            <h2 class="mb-0">PHIONICS L1</h2>
+                                        </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
 
                             <div class="col-12 col-lg-3">
-                                <div class="card radius-15 overflow-hidden" style="min-height: 170px;">
-                                    <div class="card-body d-flex justify-content-center align-items-center">
-                                        <h2 class="mb-0">Devices</h2>
+                                <a>
+                                    <div class="card radius-15 overflow-hidden" style="min-height: 170px;">
+                                        <div class="card-body d-flex justify-content-center align-items-center">
+                                            <h2 class="mb-0">PHIONICS L2</h2>
+                                        </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
 
 
                             <div class="col-12 col-lg-3">
-                                <div class="card radius-15 overflow-hidden" style="min-height: 170px;">
-                                    <div class="card-body d-flex justify-content-center align-items-center">
-                                        <h2 class="mb-0">Sessions</h2>
+                                  <a >
+                                    <div class="card radius-15 overflow-hidden" style="min-height: 170px;">
+                                        <div class="card-body d-flex justify-content-center align-items-center">
+                                            <h2 class="mb-0">MICET APPLET</h2>
+                                        </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
 
                             <div class="col-12 col-lg-3">
-                                <div class="card radius-15 overflow-hidden" style="min-height: 170px;">
-                                    <div class="card-body d-flex justify-content-center align-items-center">
-                                        <h2 class="mb-0">Page Views</h2>
+                                 <a >
+                                    <div class="card radius-15 overflow-hidden" style="min-height: 170px;">
+                                        <div class="card-body d-flex justify-content-center align-items-center">
+                                            <h2 class="mb-0">SCIENCE EN</h2>
+                                        </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
 
                             <div class="col-12 col-lg-3">
-                                <div class="card radius-15 overflow-hidden" style="min-height: 170px;">
-                                    <div class="card-body d-flex justify-content-center align-items-center">
-                                        <h2 class="mb-0">Visitors</h2>
+                                  <a >
+                                    <div class="card radius-15 overflow-hidden" style="min-height: 170px;">
+                                        <div class="card-body d-flex justify-content-center align-items-center">
+                                            <h2 class="mb-0">SCIENCE CN</h2>
+                                        </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
 
                             <div class="col-12 col-lg-3">
+                                <a >
                                 <div class="card radius-15 overflow-hidden" style="min-height: 170px;">
                                     <div class="card-body d-flex justify-content-center align-items-center">
-                                        <h2 class="mb-0">Devices</h2>
+                                        <h2 class="mb-0">SCIENCE APPLET</h2>
                                     </div>
                                 </div>
+                                </a>
+                            </div>
+
+                            <div class="col-12 col-lg-3">
+                                <a >
+                                    <div class="card radius-15 overflow-hidden" style="min-height: 170px;">
+                                        <div class="card-body d-flex justify-content-center align-items-center">
+                                            <h2 class="mb-0">CRWR</h2>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-12 col-lg-3">
+                                 <a >
+                                    <div class="card radius-15 overflow-hidden" style="min-height: 170px;">
+                                        <div class="card-body d-flex justify-content-center align-items-center">
+                                            <h2 class="mb-0">HanYu - PinYin</h2>
+                                        </div>
+                                    </div>
+                                </a>
                             </div>
 
                         </div>

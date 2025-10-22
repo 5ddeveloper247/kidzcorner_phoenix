@@ -1,8 +1,10 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
 
-
 @section('content')
+
+    {{-- title --}}
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">My Creations</h2>
 
     {{-- slide 0 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
@@ -16,7 +18,7 @@
     {{-- slide 1 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
 
-        <img src="{{ asset('assets/images/pptimages/r18.png') }}" />
+        <img src="{{ asset('assets/images/pptimages/r18.png') }}" class="large-img4" />
         <h2 class="stroke title">Look at this <span class="text-white">house</span>! What <span
                 class="text-white">shapes</span> does it look like?</h2>
         <p class="note">Note: Encourage the children to share answers.</p>
@@ -27,7 +29,7 @@
         <h2 class="stroke title">The <span class="text-white">top</span> looks like a <span
                 class="text-white">triangle</span> and the<span class="text-white"> bottom<br /></span>looks like a <span
                 class="text-white">square</span>.</h2>
-        <img src="{{ asset('assets/images/pptimages/B-house3.png') }}" />
+        <img src="{{ asset('assets/images/pptimages/gl14.png') }}" />
         <p class="note">Note: Point out the shape to the children.</p>
     </div>
 
@@ -35,14 +37,14 @@
     {{-- slide 3 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="stroke title">Shapes can be put together to form an image.</h2>
-        <img src="{{ asset('assets/images/pptimages/B-house3.png') }}" />
+        <img src="{{ asset('assets/images/pptimages/gl14.png') }}" />
         <p class="note">Note: Point out the shape to the children.</p>
     </div>
 
     {{-- slide 4 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
         <h2 class="stroke title">This is how an image of a house can be made.</h2>
-        <img src="{{ asset('assets/images/pptimages/s2.png') }}" />
+        <img src="{{ asset('assets/images/pptimages/s2.png') }}" class="large-img" />
         <p class="note">Note: Point out the shape to the children.</p>
     </div>
 
@@ -51,11 +53,9 @@
     {{-- slide 5 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
         <h2 class="stroke title">Shapes are put together to make images like a van or a flower.</h2>
-        <div class="flex items-center">
-            <img src="{{ asset('assets/images/pptimages/s6.png') }}"
-                class="max-w-[500px] sm:max-w-[600px] lg:max-w-[536px]" />
-            <img src="{{ asset('assets/images/pptimages/s4.png') }}"
-                class="max-w-[500px] sm:max-w-[600px] lg:max-w-[536px]" />
+        <div class="flex items-center gap-2">
+            <img src="{{ asset('assets/images/pptimages/s6.png') }}" class="large-img4" />
+            <img src="{{ asset('assets/images/pptimages/s4.png') }}" class="large-img4" />
         </div>
         <p class="note">Note: Point out the shape to the children.</p>
     </div>
@@ -63,15 +63,15 @@
 
     {{-- slide 6 --}}
 
-    <div class="flex flex-col justify-center gap-20  slide hidden">
+    <div class="flex flex-col justify-between !h-[50vh] slide hidden">
 
         <h2 class="title !text-white stroke">individual Activity 1</h2>
-        <h2 class="title stroke text-start !text-[48px]">Let’s use the shapes and create an image of a toy.</h2>
+        <h2 class="title stroke text-start ">Let’s use the shapes and create an image of a toy.</h2>
         <p class="note">Note: Teacher to pack 6 pieces of square tiles for each child and work in small groups.</p>
     </div>
 
     {{-- slide 7 --}}
-    <div class="flex flex-col  slide hidden">
+    <div class="flex flex-col h-[50vh] justify-between slide hidden">
         <div class="title stroke text-start">
             <h2>let's do:</h2>
             <ul class="list-decimal list-inside ">
@@ -86,7 +86,7 @@
 
 
     {{-- slide 8 --}}
-    <div class="flex flex-col  slide hidden">
+    <div class="flex flex-col h-[50vh] justify-between slide hidden">
         <div class="title stroke text-start">
             <h2>let's do:</h2>
             <ul class=" list-inside ">
@@ -103,7 +103,7 @@
     </div>
 
     {{-- slide 9 --}}
-    <div class="flex flex-col  slide hidden">
+    <div class="flex flex-col h-[50vh] justify-between items-center slide hidden">
         <div class="title stroke text-start">
             <h2>let's do:</h2>
             <ul class=" list-inside ">
@@ -111,15 +111,15 @@
                     learning journals.</li>
             </ul>
         </div>
-        <div class="w-[736px] h-[336px] bg-cover bg-center"
+        <div class="w-[40vw] h-[30vh] bg-cover bg-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
-            <p>My Creations</p>
+            <p class="text-[1vw]">My Creations</p>
             <div class="flex w-full">
-                <div class="border-2 border-black h-[313px] w-[39%]">
-                    <p>Place the photo of the toy on this side</p>
+                <div class="border-2 border-black h-[27vh] w-[15vw]">
+                    <p class="text-[1vw]">Place the photo of the toy on this side</p>
                 </div>
-                <div class="border-2 border-black h-[313px] w-[62%]">
-                    <p>Look at the toy and create the shape template here. </p>
+                <div class="border-2 border-black h-[27vh] w-[25vw]">
+                    <p class="text-[1vw]">Look at the toy and create the shape template here. </p>
                 </div>
             </div>
         </div>
@@ -127,7 +127,7 @@
     </div>
 
     {{-- slide 10 --}}
-    <div class="flex flex-col  slide hidden">
+    <div class="flex flex-col h-[50vh] justify-between  slide hidden">
         <div class="title stroke text-start">
             <h2>let's do:</h2>
             <ul class="list-decimal list-inside ">
@@ -146,7 +146,7 @@
     <div class="flex flex-col items-center justify-center  slide hidden">
         <h2 class="stroke title">The image of a house is <span class="text-white">flat </span>but it can be made<br />into
             these dimensional <span class="text-white">structure.</span></h2>
-        <img src="{{ asset('assets/images/pptimages/s2.png') }}" />
+        <img src="{{ asset('assets/images/pptimages/s2.png') }}" class="large-img" />
     </div>
 
 
@@ -154,14 +154,8 @@
     <div class="flex flex-col items-center justify-center  slide hidden">
         <h2 class="stroke title">The three dimensional structure of a house can be created by putting the shape structure of
             each side together.</h2>
-        <div class="flex flex-wrap items-center justify-center gap-10">
-            <img src="{{ asset('assets/images/pptimages/r47.png') }}" class="w-[236px]" />
-            <img src="{{ asset('assets/images/pptimages/r50.png') }}" class="w-[236px]" />
-            <img src="{{ asset('assets/images/pptimages/r51.png') }}" class="w-[236px]" />
-            <img src="{{ asset('assets/images/pptimages/r25.png') }}" class="w-[236px]" />
-            <img src="{{ asset('assets/images/pptimages/r27.png') }}" class="w-[236px]" />
-            <img src="{{ asset('assets/images/pptimages/r29.png') }}" class="w-[236px]" />
-        </div>
+
+        <img src="{{ asset('assets/images/pptimages/gl15.png') }}" />
         <p class="note  text-center">Note: Teacher show children using the house structure created the previous lesson</p>
     </div>
 
@@ -169,19 +163,19 @@
     {{-- slide 19 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
         <h2 class="stroke title">Similarly, a three dimensional structure of the toy can be created too!</h2>
-        <img src="{{ asset('assets/images/pptimages/r29.png') }}" />
+        <img src="{{ asset('assets/images/pptimages/r29.png') }}" class="large-img" />
     </div>
 
 
     {{-- slide 20 --}}
-    <div class="flex flex-col justify-center gap-20  slide hidden">
+    <div class="flex flex-col slide hidden">
 
-        <h2 class="title !text-white stroke">individual Activity 1</h2>
-        <h2 class="title stroke text-start !text-[48px]">Create structures of toys!.</h2>
+        <h2 class="title !text-white stroke">individual Activity 2</h2>
+        <h2 class="title stroke text-start ">Create structures of toys!.</h2>
     </div>
 
     {{-- slide 21 --}}
-    <div class="flex flex-col  slide hidden">
+    <div class="flex flex-col h-[50vh] justify-between slide hidden">
         <div class="title stroke text-start">
             <h2>let's do:</h2>
             <ul class="list-decimal list-inside ">
@@ -194,7 +188,7 @@
     </div>
 
     {{-- slide 22 --}}
-    <div class="flex flex-col  slide hidden">
+    <div class="flex flex-col h-[50vh] justify-between  slide hidden">
         <div class="title stroke text-start">
             <h2>let's do:</h2>
             <ul class=" list-inside ">
@@ -209,7 +203,7 @@
     </div>
 
     {{-- slide 23 --}}
-    <div class="flex flex-col  slide hidden">
+    <div class="flex flex-col h-[50vh] justify-between  slide hidden">
         <div class="title stroke text-start">
             <h2>let's do:</h2>
             <ul class="list-inside ">
@@ -226,7 +220,7 @@
 
 
     {{-- slide 24 --}}
-    <div class="flex flex-col  slide hidden">
+    <div class="flex flex-col  h-[50vh] justify-between slide hidden">
         <div class="title stroke text-start">
             <h2>Suggested questions for show and tell:</h2>
             <ul class="list-inside list-decimal">
@@ -235,7 +229,7 @@
                 <li>Which part did you start building first?</li>
             </ul>
         </div>
-        <p class="note  text-center">Note: Guided questions to help the children with their show and tell.</p>
+        <p class="note text-center">Note: Guided questions to help the children with their show and tell.</p>
     </div>
 
 
@@ -245,8 +239,8 @@
 
         <h2 class="stroke title">Many images can be created using <span class="text-white">shapes</span>.</h2>
         <div class="flex gap-10 items-center">
-            <img src="{{ asset('assets/images/pptimages/s6.png') }}" class="w-[336px]" />
-            <img src="{{ asset('assets/images/pptimages/s4.png') }}" class="w-[336px]" />
+            <img src="{{ asset('assets/images/pptimages/s6.png') }}" class="large-img" />
+            <img src="{{ asset('assets/images/pptimages/s4.png') }}" class="large-img" />
         </div>
         <p class="note  text-center">Note: Guide the children to identify the shapes.</p>
     </div>
@@ -256,20 +250,20 @@
         <h2 class="title">Different shapes can be combined to form three dimensional structures.</h2>
 
 
-        <img src="{{ asset('assets/images/pptimages/r440.png') }}" />
+        <img src="{{ asset('assets/images/pptimages/r440.png') }}" aria-valuemax="large-img" />
     </div>
 
 
     {{-- slide 27 --}}
     <div class="flex flex-col  slide hidden">
-        <div class="w-[736px] h-[336px] bg-cover bg-center"
+        <div class="w-[45vw] h-[35vh] bg-cover bg-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>Learning Journal</p>
             <div class="flex w-full">
-                <div class="border-2 border-black h-[313px] w-[39%]">
+                <div class="border-2 border-black h-[32vh] w-[20vw]">
                     <p>Place the photo of the toy on this side</p>
                 </div>
-                <div class="border-2 border-black h-[313px] w-[62%]">
+                <div class="border-2 border-black h-[32vh] w-[25vw]">
                     <p>Look at the toy and create the shape template here. </p>
                 </div>
             </div>
@@ -282,9 +276,8 @@
 
     {{-- Complete/Done Butttom --}}
     <div class="down-btn-container">
-        <button
-            class="cursor-pointer doneButton">
-                      <img src="{{ asset('assets/images/pptimages/done.png') }}" />
+        <button class="cursor-pointer doneButton">
+            <img src="{{ asset('assets/images/pptimages/done.png') }}" />
         </button>
     </div>
 
@@ -313,7 +306,7 @@
     {{-- next Button --}}
     <div class="down-btn-container">
 
-        <button class="nextButton"> 
+        <button class="nextButton">
             <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
 
         </button>
@@ -323,7 +316,7 @@
 
 
 @push('script')
-   <script>
+    <script>
         document.addEventListener("DOMContentLoaded", () => {
             // Get all elements
             const slides = document.querySelectorAll(".slide");
@@ -386,5 +379,4 @@
             showSlide(0);
         });
     </script>
-
 @endpush
