@@ -37,7 +37,7 @@
     <div class="flex flex-col items-center justify-center  slide hidden">
         <div class="flex items-center">
             <img src="{{ asset('assets/images/pptimages/r33.png') }}" class="large-img" />
-            <img src="{{ asset('assets/images/pptimages/r32.png') }}" class="large-img" />
+            <img src="{{ asset('assets/images/pptimages/r32.png') }}" class="large-img3" />
 
         </div>
         <h2 class="stroke title">Each side of the gift box is a <span class="text-white">square</span>.<br />The <span
@@ -47,7 +47,7 @@
     {{-- slide 4 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
         <div class="flex items-center">
-            <img src="{{ asset('assets/images/pptimages/r4.png') }}" class="large-img" />
+            <img src="{{ asset('assets/images/pptimages/r4.png') }}" class="large-img3" />
             <img src="{{ asset('assets/images/pptimages/r3.png') }}" class="large-img" />
 
         </div>
@@ -60,7 +60,7 @@
     {{-- slide 5 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
         <div class="flex items-center">
-            <img src="{{ asset('assets/images/pptimages/r4.png') }}" class="large-img" />
+            <img src="{{ asset('assets/images/pptimages/r4.png') }}" class="large-img3" />
             <img src="{{ asset('assets/images/pptimages/r3.png') }}" class="large-img" />
 
         </div>
@@ -72,7 +72,7 @@
 
     {{-- slide 6 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <img src="{{ asset('assets/images/pptimages/r4.png') }}" />
+        <img src="{{ asset('assets/images/pptimages/r4.png') }}" class="large-img3" />
         <h2 class="stroke title">This is an office <span class="text-white">building</span>. What <span
                 class="text-white">shape</span> is the <span class="text-white">building</span>?</h2>
         <p class="note">Note: Encourage children to share answer.</p>
@@ -80,7 +80,7 @@
 
     {{-- slide 7 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <img src="{{ asset('assets/images/pptimages/r4.png') }}" />
+        <img src="{{ asset('assets/images/pptimages/r4.png') }}" class="large-img3" />
         <h2 class="stroke title">This part of the building looks like a rectangle.</span>?</h2>
         <p class="note">Note: Point out the rectangle to the children.</p>
 
@@ -90,7 +90,7 @@
     {{-- slide 8 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
 
-        <img src="{{ asset('assets/images/pptimages/r4.png') }}" />
+        <img src="{{ asset('assets/images/pptimages/r4.png') }}" class="large-img3" />
         <h2 class="stroke title">The side of the <span class="text-white">building</span> also looks like a <span
                 class="text-white">rectangle</span>.</h2>
         <p class="note">Note: Point out the rectangle to the children.</p>
@@ -100,16 +100,16 @@
 
     {{-- slide 9 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <img src="{{ asset('assets/images/pptimages/r4.png') }}" />
+        <img src="{{ asset('assets/images/pptimages/r4.png') }}" class="large-img3" />
         <h2 class="stroke title">The building is not flat.Its sides are rectangular in shape.</h2>
 
     </div>
 
     {{-- slide 10 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <div class="flex items-center">
-            <img src="{{ asset('assets/images/pptimages/r6.png') }}" class="large-img" />
-            <img src="{{ asset('assets/images/pptimages/r5.png') }}" class="large-img" />
+        <div class="flex items-center gap-4">
+            <img src="{{ asset('assets/images/pptimages/r6.png') }}" class="large-img3" />
+            <img src="{{ asset('assets/images/pptimages/r5.png') }}" class="large-img3" />
         </div>
         <h2 class="stroke title">Both the<span class="text-white"> top</span> and <span class="text-white">bottom</span> of
             the <span class="text-white">building</span> are <span class="text-white">shaped</span> like <span
@@ -119,7 +119,7 @@
 
     {{-- slide 11 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <img src="{{ asset('assets/images/pptimages/r4.png') }}" />
+        <img src="{{ asset('assets/images/pptimages/r4.png') }}" class="large-img3" />
         <h2 class="stroke title">The building is not flat.Its sides are rectangular in shape.</h2>
 
     </div>
@@ -144,7 +144,7 @@
                 <li>Take two pieces of square tiles and create a rectangle as shown below.</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/pptimages/r8.png') }}" />
+        <img src="{{ asset('assets/images/pptimages/r8.png') }}" class="large-img" />
         <p class="note  text-center">Note: This can be done individually. Each child can build his/her building.</p>
     </div>
 
@@ -154,7 +154,7 @@
     <div class="flex flex-col items-center  slide hidden">
         <div class="title stroke text-start">
             <h2>let's do:</h2>
-            <ul class="list-decimal list-inside ">
+            <ul>
                 <li>2. Make three more rectangles.</li>
                 <li>3. Place the four rectangles together as shown</li>
 
@@ -171,7 +171,7 @@
     <div class="flex flex-col items-center slide hidden">
         <div class="title stroke text-start">
             <h2>let's do:</h2>
-            <ul class="list-decimal list-inside ">
+            <ul>
                 <li>4. Lift up the rectangles and attached the rectangles as shown.</li>
             </ul>
         </div>
@@ -186,7 +186,7 @@
     <div class="flex flex-col items-center slide hidden">
         <div class="title stroke text-start">
             <h2>let's do:</h2>
-            <ul class="list-decimal list-inside ">
+            <ul>
                 <li>5. Take one square and place it on the top. Take one more and put it at the bottom.</li>
             </ul>
         </div>
@@ -202,12 +202,12 @@
     <div class="flex flex-col  slide hidden">
         <div class="title stroke text-start">
             <h2>let's do:</h2>
-            <ul class="list-decimal list-inside ">
+            <ul>
                 <li>6. Put squares surrounding the building to make the building structure look like the one in the picture!
                 </li>
             </ul>
         </div>
-        <div class="flex items-center gap-5">
+        <div class="flex items-center gap-2">
             <img src="{{ asset('assets/images/pptimages/r15.png') }}" class="large-img" />
             <img src="{{ asset('assets/images/pptimages/r16.png') }}" class="large-img" />
             <img src="{{ asset('assets/images/pptimages/r17.png') }}" class="large-img" />
@@ -220,7 +220,7 @@
     <div class="flex flex-col  slide hidden">
         <div class="title stroke text-start">
             <h2>let's do:</h2>
-            <ul class="list-decimal list-inside ">
+            <ul>
                 <li>7. Build a taller/bigger building as a class. Put all the buildings together and see what structure can
                     be created.</li>
             </ul>
@@ -231,14 +231,12 @@
     </div>
 
 
-
     {{-- slide 19 --}}
-
     <div class="flex flex-col items-center justify-center  slide hidden">
         <h2 class="stroke title">Look at this <span class="text-white">house</span>! What <span
                 class="text-white">shapes</span> are put together to form the <span class="text-white">structure</span>?
         </h2>
-        <img src="{{ asset('assets/images/pptimages/r18.png') }}" />
+        <img src="{{ asset('assets/images/pptimages/r18.png') }}" class="large-img" />
         <p class="note  text-center">Note: Encourage children to share answer.</p>
     </div>
 
@@ -249,18 +247,17 @@
                 class="text-white">triangle</span> and the<span class="text-white"> bottom
             </span>looks like a <span class="text-white">square</span>.</h2>
         <div class="flex items-center gap-5">
-            <img src="{{ asset('assets/images/pptimages/r18.png') }}" />
-            <img src="{{ asset('assets/images/pptimages/r18.png') }}" />
+            <img src="{{ asset('assets/images/pptimages/r18.png') }}" class="large-img" />
+            <img src="{{ asset('assets/images/pptimages/r18.png') }}" class="large-img" />
         </div>
         <p class="note  text-center">Note: Point out the shape to the children..</p>
     </div>
 
-    {{-- ================= --}}
     {{-- slide 21 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
         <h2 class="stroke title">What about this side? What <span class="text-white">shapes</span> are used from the <span
                 class="text-white">structure</span> on the side?</h2>
-        <img src="{{ asset('assets/images/pptimages/r19.png') }}" />
+        <img src="{{ asset('assets/images/pptimages/r19.png') }}" class="large-img" />
         <p class="note">Note: Encourage children to share their answers.</p>
     </div>
 
@@ -293,7 +290,7 @@
 
     {{-- slide 25 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <img src="{{ asset('assets/images/pptimages/r20.png') }}" />
+        <img src="{{ asset('assets/images/pptimages/r20.png') }}" class="large-img3" />
         <h2 class="stroke title">The bottom of the house is in a shape of a rectangle.</h2>
         <p class="note">Note: Teacher can use two pieces of rectangles (paper/cardboards) to demonstrate.</p>
     </div>
@@ -312,7 +309,7 @@
     <div class="flex flex-col justify-center  slide hidden">
         <div class="flex flex-col items-center justify-center">
             <h2 class="title !text-white stroke">Class Activity 2</h2>
-            <img src="{{ asset('assets/images/pptimages/r21.png') }}" />
+            <img src="{{ asset('assets/images/pptimages/r21.png') }}" class="large-img" />
         </div>
         <div class="flex items-start">
             <h2 class="title stroke text-start !text-[48px]">Let's do:<br>Create the structure of a house!</h2>
@@ -323,7 +320,7 @@
 
 
     {{-- slide 28 --}}
-    <div class="flex flex-col  slide hidden">
+    <div class="flex flex-col items-center slide hidden">
         <div class="title stroke text-start">
             <h2>let's do:</h2>
             <ul class="list-decimal list-inside ">
@@ -343,7 +340,7 @@
 
 
     {{-- slide 29 --}}
-    <div class="flex flex-col  slide hidden">
+    <div class="flex flex-col items-center slide hidden">
         <div class="title stroke text-start">
             <h2>let's do:</h2>
             <ul class="list-decimal list-inside ">
@@ -359,7 +356,7 @@
 
 
     {{-- slide 30 --}}
-    <div class="flex flex-col  slide hidden">
+    <div class="flex flex-col items-center slide hidden">
         <div class="title stroke text-start">
             <h2>let's do:</h2>
             <ul class="list-decimal list-inside ">
@@ -367,7 +364,7 @@
 
             </ul>
         </div>
-        <img src="{{ asset('assets/images/pptimages/r23.png') }}" />
+        <img src="{{ asset('assets/images/pptimages/r23.png') }}" class="large-img" />
 
         <p class="note  text-center">Note: Teacher to guide the children and assist them.</p>
     </div>
@@ -375,7 +372,7 @@
 
 
     {{-- slide 31 --}}
-    <div class="flex flex-col  slide hidden">
+    <div class="flex flex-col items-center slide hidden">
         <div class="title stroke text-start">
             <h2>let's do:</h2>
             <ul class="list-decimal list-inside ">
@@ -384,15 +381,15 @@
             </ul>
         </div>
         <div class="flex items-center gap-5">
-            <img src="{{ asset('assets/images/pptimages/r24.png') }}" />
-            <img src="{{ asset('assets/images/pptimages/r25.png') }}" />
+            <img src="{{ asset('assets/images/pptimages/r24.png') }}" class="large-img" />
+            <img src="{{ asset('assets/images/pptimages/r25.png') }}" class="large-img" />
         </div>
         <p class="note  text-center">Note: Teacher to guide the children and assist them.</p>
     </div>
 
 
     {{-- slide 32 --}}
-    <div class="flex flex-col  slide hidden">
+    <div class="flex flex-col items-center slide hidden">
         <div class="title stroke text-start">
             <h2>let's do:</h2>
             <ul class="list-decimal list-inside ">
@@ -401,15 +398,15 @@
             </ul>
         </div>
         <div class="flex items-center gap-5">
-            <img src="{{ asset('assets/images/pptimages/r27.png') }}" />
-            <img src="{{ asset('assets/images/pptimages/r26.png') }}" />
+            <img src="{{ asset('assets/images/pptimages/r26.png') }}" class="large-img" />
+            <img src="{{ asset('assets/images/pptimages/r27.png') }}" class="large-img" />
         </div>
         <p class="note  text-center">Note: Teacher to guide the children and assist them.</p>
     </div>
 
 
     {{-- slide 33 --}}
-    <div class="flex flex-col  slide hidden">
+    <div class="flex flex-col items-center slide hidden">
         <div class="title stroke text-start">
             <h2>let's do:</h2>
             <ul class="list-decimal list-inside ">
@@ -418,8 +415,8 @@
             </ul>
         </div>
         <div class="flex items-center gap-5">
-            <img src="{{ asset('assets/images/pptimages/r28.png') }}" />
-            <img src="{{ asset('assets/images/pptimages/r29.png') }}" />
+            <img src="{{ asset('assets/images/pptimages/r28.png') }}" class="large-img" />
+            <img src="{{ asset('assets/images/pptimages/r29.png') }}" class="large-img" />
         </div>
         <p class="note  text-center">Note: Teacher to guide the children and assist them.</p>
     </div>
@@ -430,9 +427,9 @@
         <h2 class="stroke title"><span class="text-white">Structures</span> are made up of <span
                 class="text-white">shapes</span>.</h2>
         <div class="flex ">
-            <img src="{{ asset('assets/images/pptimages/r17.png') }}" class="w-[300px]" />
+            <img src="{{ asset('assets/images/pptimages/r17.png') }}" class="large-img" />
 
-            <img src="{{ asset('assets/images/pptimages/r29.png') }}" class="w-[300px]" />
+            <img src="{{ asset('assets/images/pptimages/r29.png') }}" class="large-img" />
         </div>
     </div>
 
@@ -442,9 +439,9 @@
         <h2 class="stroke title">The <span class="text-white">structure</span> of the buildings can be created by building
             the <span class="text-white">structure</span> one side at a time.</h2>
         <div class="flex ">
-            <img src="{{ asset('assets/images/pptimages/r17.png') }}" class="w-[300px]" />
+            <img src="{{ asset('assets/images/pptimages/r17.png') }}" class="large-img" />
 
-            <img src="{{ asset('assets/images/pptimages/r29.png') }}" class="w-[300px]" />
+            <img src="{{ asset('assets/images/pptimages/r29.png') }}" class="large-img" />
         </div>
     </div>
 
@@ -454,9 +451,9 @@
         <h2 class="stroke title">Different pieces of <span class="text-white">shapes</span> can be combined to create
             different <span class="text-white">structures</span>.</h2>
         <div class="flex ">
-            <img src="{{ asset('assets/images/pptimages/r17.png') }}" class="w-[300px]" />
+            <img src="{{ asset('assets/images/pptimages/r17.png') }}" class="large-img" />
 
-            <img src="{{ asset('assets/images/pptimages/r29.png') }}" class="w-[300px]" />
+            <img src="{{ asset('assets/images/pptimages/r29.png') }}" class="large-img" />
         </div>
     </div>
 

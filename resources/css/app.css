@@ -26,14 +26,14 @@ body {
     }
 
     .large-img {
-        max-width: 20vw;
+        max-width: 20vw !important;
     }
-     .large-img {
-        max-width: 20vw;
-        max-height: 40vh;
+     .large-img3 {
+        max-width: 20vw !important;
+        max-height: 35vh !important;
     }
-    .large-img2 {
-        max-width: 25vw;
+    .large-img2{
+        max-width: 25vw !important;
     }
 }
 
