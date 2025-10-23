@@ -5,7 +5,7 @@
     {{-- sldie 1  --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="  font-bold">Children will be able to:</h2>
+            <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
                 <li>Plan and design a city</li>
                 <li>Design and build structures for the city</li>
@@ -37,7 +37,7 @@
     {{-- slide 2 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Preparations:</h2>
+            <h2 class="font-bold t-title">Preparations:</h2>
             <ul class="list-disc ">
                 <li>Please note the following number of sets for each type of activity is based
                     on 1 box of DDQ blocks. If you are planning of asking two groups of children
@@ -58,7 +58,7 @@
     {{-- slide 3 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Preparations:</h2>
+            <h2 class="font-bold t-title">Preparations:</h2>
             <ul class="list-disc ">
                 <li>Put aside the following parts from the DDQ blocks set until the later
                     lessons to avoid distraction to the children,</li>
@@ -74,7 +74,7 @@
     {{-- sldie 4 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start items-end  text-start">
         <div>
-            <h2 class="font-bold">Things to note:</h2>
+            <h2 class="font-bold t-title">Things to note:</h2>
             <ul class="list-disc ">
                 <li>Print out pictures of various part of Singapore to inspire children in their <br>
                     planning and creation of their city.</li>
@@ -113,7 +113,7 @@
     {{-- sldie 5 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Useful Information:</h2>
+            <h2 class="font-bold t-title">Useful Information:</h2>
             <ul class="list-disc ">
                 <li>
                     A structure is something that has been built using smaller parts.
@@ -154,7 +154,7 @@
     {{-- sldie 6 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Useful Information:</h2>
+            <h2 class="font-bold t-title">Useful Information:</h2>
             <ul class="list-disc ">
                 <li>
                     Architects concentrate on the artistic creativity of designs, while engineers focus on the scientific
@@ -197,7 +197,7 @@
         <div class="flex w-[100%] items-center justify-between">
             <div>
                 <!-- Notes -->
-                <h2 class="font-bold ">Notes:</h2>
+                <h2 class="font-bold t-title ">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
                     <li>
                         If you see
@@ -234,7 +234,7 @@
                     <li>Emphasise and use the <strong>keywords</strong> during hands-on sessions.</li>
                     <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.</li>
                     <li>
-                        Click on this <span class="font-bold">shortcut icon</span>
+                        Click on this <span class="font-bold t-title">shortcut icon</span>
                         <span
                             class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
                             <!-- Decorative Vector -->
@@ -367,13 +367,16 @@
                 });
             });
 
-            // ✅ Return button
-            returnButton.addEventListener("click", () => {
-                if (currentSlide > 0) {
-                    currentSlide--;
-                    showSlide(currentSlide);
-                }
-            });
+           // ✅ Return button - redirect if on first slide
+returnButton.addEventListener("click", () => {
+    if (currentSlide === 0) {
+        // Redirect to route when on first slide
+        window.location.href = "{{ route('YourRouteName') }}";  
+    } else if (currentSlide > 0) {
+        currentSlide--;
+        showSlide(currentSlide);
+    }
+});
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {

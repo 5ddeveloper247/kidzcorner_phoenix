@@ -5,7 +5,7 @@
     {{-- sldie 1  --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="  font-bold">Children will be able to:</h2>
+            <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
                 <li>Understand the meaning of global warming</li>
                 <li>Learn about the causes of global warming and how it affects earth</li>
@@ -37,8 +37,8 @@
 {{-- slide 2 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Preparations:</h2><br>
-            <h2 class="font-bold">Class Activity 1:</h2>
+            <h2 class="font-bold t-title">Preparations:</h2><br>
+            <h2 class="font-bold t-title">Class Activity 1:</h2>
             <ul class="list-disc ">
                 <li>
                   1 glass jar with a hole lid
@@ -58,8 +58,8 @@
     {{-- slide 2 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Preparations:</h2><br>
-            <h2 class="font-bold">Class Activity 2:</h2>
+            <h2 class="font-bold t-title">Preparations:</h2><br>
+            <h2 class="font-bold t-title">Class Activity 2:</h2>
             <ul class="list-disc ">
                 <li>
                    1 big transparent container (size around the same as the example below)
@@ -83,7 +83,7 @@
     {{-- sldie 3 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-center gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Things to note for Class Activity 1:</h2>
+            <h2 class="font-bold t-title">Things to note for Class Activity 1:</h2>
             <ul class="list-disc">
                 <li>The glass jar and the glass thermometer may be hot after being out in the sun.<br>
                      Please ensure that children do not touch the glass jar and glass thermometer.</li>
@@ -110,7 +110,7 @@
     {{-- slide 4 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Things to note for Class Activity 1:</h2>
+            <h2 class="font-bold t-title">Things to note for Class Activity 1:</h2>
             <ul class="list-decimal">
                 <li>If you are using a kitchen thermometer, you may see the numbers change within seconds. <br>
                     This type of thermometer is also easier for children to read the values.</li>
@@ -126,7 +126,7 @@
     {{-- slide 5 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Things to note for Class Activity 2:</h2>
+            <h2 class="font-bold t-title">Things to note for Class Activity 2:</h2>
             <ul>
                 <li>Prepare sufficient ice for your class the day before the experiment. <br>
                     It will depend on the size of the container and number of groups that will be doing the experiment.
@@ -146,7 +146,7 @@
     {{-- sldie 6 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Useful information:</h2><br>
+            <h2 class="font-bold t-title">Useful information:</h2><br>
             <ul>
                 <li>What is a glacier?
      A glacier is a thick mass of ice that covers a large area of land. Around ten
@@ -169,7 +169,7 @@
     {{-- sldie 7 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Notes</h2>
+            <h2 class="font-bold t-title">Notes</h2>
             <ul>
                 <li>If you see <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s27.png') }}" /> next to a picture, click on the picture to watch the video
 Always ask questions to encourage children to think and share their ideas first 
@@ -194,7 +194,7 @@ Always ask questions to encourage children to think and share their ideas first
     {{-- sldie 8 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">When Glaciers Melt</h2>
+            <h2 class="font-bold t-title">When Glaciers Melt</h2>
             <p class="note">What and how to set up:<br>
 Use clay or dough to create an island in a tray on one side. Decorate it with<br><br>
 animals toys, cars, people and houses. Fill up the other side with water which <br><br>
@@ -217,7 +217,7 @@ What to do:<br>
     {{-- slide 9 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
+            <h2 class="font-bold t-title">How to make own set of fingerprints and things to consider:</h2>
             <ul>
                 <li>6. (A, B & C) Repeat the steps for other fingers. [Have all the A, B & C repeat steps 1-5 to complete
                     the fingerprint record of B. After that, have them change their roles to help one another complete the
@@ -232,7 +232,7 @@ What to do:<br>
     {{-- slide 10 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
+            <h2 class="font-bold t-title">How to make own set of fingerprints and things to consider:</h2>
             <ul>
                 <li>7. Observe your fingerprints. [ Have children observe and compare their own set of fingerprints on the
                     record. Then have them share their views. ]</li>
@@ -246,7 +246,7 @@ What to do:<br>
     {{-- slide 11 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
+            <h2 class="font-bold t-title">How to make own set of fingerprints and things to consider:</h2>
             <ul>
                 <li>8. Compare your fingerprints with friends. [ Have children observe and compare their fingerprints with
                     friends. Then have them share their views. ]</li>
@@ -263,7 +263,7 @@ What to do:<br>
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold">Notes:</h2>
+                <h2 class="font-bold t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
                     <li>
                         If you see
@@ -282,7 +282,7 @@ What to do:<br>
                     <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
                     </li>
                     <li>
-                        Click on this <span class="font-bold">shortcut icon</span>
+                        Click on this <span class="font-bold t-title">shortcut icon</span>
                         <span
                             class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
                             <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
@@ -432,13 +432,16 @@ What to do:<br>
                 });
             });
 
-            // ✅ Return button
-            returnButton.addEventListener("click", () => {
-                if (currentSlide > 0) {
-                    currentSlide--;
-                    showSlide(currentSlide);
-                }
-            });
+           // ✅ Return button - redirect if on first slide
+returnButton.addEventListener("click", () => {
+    if (currentSlide === 0) {
+        // Redirect to route when on first slide
+        window.location.href = "{{ route('YourRouteName') }}";  
+    } else if (currentSlide > 0) {
+        currentSlide--;
+        showSlide(currentSlide);
+    }
+});
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {

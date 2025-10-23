@@ -1,10 +1,11 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
 
- 
+
 
 @section('content')
-
+    {{-- title --}}
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">Programme A Robot 3</h2>
 
     {{-- Slide 1 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
@@ -17,7 +18,7 @@
 
     {{-- Slide 2 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="{{ asset('assets/images/N2/BasicCoding/rb1.png') }}" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/rb1.png') }}" class="large-img2" />
         <h2 class="stroke title">Children, what are these? What do you use them for?</h2>
         <p class="note">Note: Guide children to name the cards and talk about their uses.</p>
     </div>
@@ -55,14 +56,18 @@
         <img src="{{ asset('assets/images/N2/BasicCoding/rb2.png') }}" />
         <h2 class="title stroke text-center">This programme tells the robot to move through
             the maze and show a facial expression in the end.</h2>
+        <!-- Video Trigger Button -->
+        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
+        </div>
     </div>
 
 
     {{-- slide 7 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <div class="flex items-center justify-center gap-x-10">
-            <img src="{{ asset('assets/images/N2/BasicCoding/rb4.png') }}" />
-            <img src="{{ asset('assets/images/N2/BasicCoding/rb5.png') }}" />
+        <div class="flex items-center justify-center gap-x-[1vw]">
+            <img src="{{ asset('assets/images/N2/BasicCoding/rb4.png') }}" class="large-img3"  />
+            <img src="{{ asset('assets/images/N2/BasicCoding/rb5.png') }}" class="large-img3" />
         </div>
         <h2 class="title stroke text-center">These are mats are designed with pictures for a reason.
             Let’s find out!</h2>
@@ -86,7 +91,7 @@
     <div class="slide flex flex-col items-center justify-center  ">
         <h2 class="title stroke text-center">Help the robot move from the mat with its picture
             to the mat with a <span class="text-white">fish</span>.</h2>
-        <img src="{{ asset('assets/images/N2/BasicCoding/rb6.png') }}" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/rb6.png') }}" class="large-img2" />
         <p class="note">Note: Have children lay out the maze, use programming cards to plan the steps,
             record and play the programme to see how the robot move from the starting point to the end point.
             Ask them what happens to the robot.</p>
@@ -99,7 +104,7 @@
         <h2 class="title stroke text-center">Help the robot move from the mat with its picture
             to the mat with a <span class="text-white">piece of meat</span>.</h2>
 
-        <img src="{{ asset('assets/images/N2/BasicCoding/rb6.png') }}" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/rb6.png') }}" class="large-img2" />
 
         <p class="note text-center">Note: Have children lay out the maze, use programming cards to plan the steps,
             record and play the programme to see how the robot move from the starting point to the end point.
@@ -111,7 +116,7 @@
     <div class="slide flex flex-col items-center justify-center  ">
         <h2 class="title stroke text-center">Help the robot move from the mat with its picture
             to the mat with a <span class="text-white">corn</span>.</h2>
-        <img src="{{ asset('assets/images/N2/BasicCoding/rb6.png') }}" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/rb6.png') }}" class="large-img2" />
         <p class="note text-center">Note: Have children lay out the maze, use programming cards to plan the steps,
             record and play the programme to see how the robot move from the starting point to the end point.
             Ask them what happens to the robot.</p>
@@ -122,7 +127,7 @@
     <div class="slide flex flex-col items-center justify-center  ">
         <h2 class="title stroke text-center">Help the robot move from the mat with its picture
             to the mat with a <span class="text-white">bamboos</span>.</h2>
-        <img src="{{ asset('assets/images/N2/BasicCoding/rb6.png') }}" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/rb6.png') }}" class="large-img2" />
         <p class="note">Note: Duplicate he set-up in class. Encourage children to name the things used in this set-up.</p>
     </div>
 
@@ -132,7 +137,7 @@
     <div class="slide flex flex-col items-center justify-center  ">
         <h2 class="title stroke text-center">Help the robot move from the mat with its picture
             to the mat with a <span class="text-white">fish</span>.</h2>
-        <img src="{{ asset('assets/images/N2/BasicCoding/rb7.png') }}" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/rb7.png') }}" class="large-img2" />
         <p class="note">Note: Have children lay out the maze, use programming cards to plan the steps,
             record and play the programme to see how the robot move from the starting point to the end point.
             Ask them what happens to the robot.</p>
@@ -145,7 +150,7 @@
         <h2 class="title stroke text-center">Help the robot move from the mat with its picture
             to the mat with a <span class="text-white">piece of meat</span>.</h2>
 
-        <img src="{{ asset('assets/images/N2/BasicCoding/rb7.png') }}" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/rb7.png') }}" class="large-img2" />
 
         <p class="note text-center">Note: Have children lay out the maze, use programming cards to plan the steps,
             record and play the programme to see how the robot move from the starting point to the end point.
@@ -157,7 +162,7 @@
     <div class="slide flex flex-col items-center justify-center  ">
         <h2 class="title stroke text-center">Help the robot move from the mat with its picture
             to the mat with a <span class="text-white">corn</span>.</h2>
-        <img src="{{ asset('assets/images/N2/BasicCoding/rb7.png') }}" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/rb7.png') }}" class="large-img2" />
         <p class="note text-center">Note: Have children lay out the maze, use programming cards to plan the steps,
             record and play the programme to see how the robot move from the starting point to the end point.
             Ask them what happens to the robot.</p>
@@ -168,7 +173,7 @@
     <div class="slide flex flex-col items-center justify-center  ">
         <h2 class="title stroke text-center">Help the robot move from the mat with its picture
             to the mat with a <span class="text-white">bamboos</span>.</h2>
-        <img src="{{ asset('assets/images/N2/BasicCoding/rb7.png') }}" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/rb7.png') }}" class="large-img2" />
         <p class="note">Note: Duplicate he set-up in class. Encourage children to name the things used in this set-up.</p>
     </div>
 
@@ -177,7 +182,7 @@
     <div class="slide flex flex-col items-center justify-center  ">
         <h2 class="title stroke text-center">Help the robot move from the mat with its picture
             to the mat with a <span class="text-white">fish</span>.</h2>
-        <img src="{{ asset('assets/images/N2/BasicCoding/rb8.png') }}" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/rb8.png') }}" class="large-img2" />
         <p class="note">Note: Have children lay out the maze, use programming cards to plan the steps,
             record and play the programme to see how the robot move from the starting point to the end point.
             Ask them what happens to the robot.</p>
@@ -190,7 +195,7 @@
         <h2 class="title stroke text-center">Help the robot move from the mat with its picture
             to the mat with a <span class="text-white">piece of meat</span>.</h2>
 
-        <img src="{{ asset('assets/images/N2/BasicCoding/rb8.png') }}" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/rb8.png') }}" class="large-img2" />
 
         <p class="note text-center">Note: Have children lay out the maze, use programming cards to plan the steps,
             record and play the programme to see how the robot move from the starting point to the end point.
@@ -202,7 +207,7 @@
     <div class="slide flex flex-col items-center justify-center  ">
         <h2 class="title stroke text-center">Help the robot move from the mat with its picture
             to the mat with a <span class="text-white">corn</span>.</h2>
-        <img src="{{ asset('assets/images/N2/BasicCoding/rb8.png') }}" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/rb8.png') }}" class="large-img2" />
         <p class="note text-center">Note: Have children lay out the maze, use programming cards to plan the steps,
             record and play the programme to see how the robot move from the starting point to the end point.
             Ask them what happens to the robot.</p>
@@ -213,7 +218,7 @@
     <div class="slide flex flex-col items-center justify-center  ">
         <h2 class="title stroke text-center">Help the robot move from the mat with its picture
             to the mat with a <span class="text-white">bamboos</span>.</h2>
-        <img src="{{ asset('assets/images/N2/BasicCoding/rb8.png') }}" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/rb8.png') }}" class="large-img2" />
         <p class="note">Note: Duplicate he set-up in class. Encourage children to name the things used in this set-up.
         </p>
     </div>
@@ -223,7 +228,7 @@
     <div class="slide flex flex-col items-center justify-center  ">
         <h2 class="title stroke text-center">Help the robot move from the mat with its picture
             to the mat with a <span class="text-white">fish</span>.</h2>
-        <img src="{{ asset('assets/images/N2/BasicCoding/rb9.png') }}" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/rb9.png') }}" class="large-img2" />
         <p class="note">Note: Have children lay out the maze, use programming cards to plan the steps,
             record and play the programme to see how the robot move from the starting point to the end point.
             Ask them what happens to the robot.</p>
@@ -236,7 +241,7 @@
         <h2 class="title stroke text-center">Help the robot move from the mat with its picture
             to the mat with a <span class="text-white">piece of meat</span>.</h2>
 
-        <img src="{{ asset('assets/images/N2/BasicCoding/rb9.png') }}" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/rb9.png') }}" class="large-img2" />
 
         <p class="note text-center">Note: Have children lay out the maze, use programming cards to plan the steps,
             record and play the programme to see how the robot move from the starting point to the end point.
@@ -248,7 +253,7 @@
     <div class="slide flex flex-col items-center justify-center  ">
         <h2 class="title stroke text-center">Help the robot move from the mat with its picture
             to the mat with a <span class="text-white">corn</span>.</h2>
-        <img src="{{ asset('assets/images/N2/BasicCoding/rb9.png') }}" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/rb9.png') }}" class="large-img2" />
         <p class="note text-center">Note: Have children lay out the maze, use programming cards to plan the steps,
             record and play the programme to see how the robot move from the starting point to the end point.
             Ask them what happens to the robot.</p>
@@ -259,7 +264,7 @@
     <div class="slide flex flex-col items-center justify-center  ">
         <h2 class="title stroke text-center">Help the robot move from the mat with its picture
             to the mat with a <span class="text-white">bamboos</span>.</h2>
-        <img src="{{ asset('assets/images/N2/BasicCoding/rb9.png') }}" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/rb9.png') }}" class="large-img2" />
         <p class="note">Note: Duplicate he set-up in class. Encourage children to name the things used in this set-up.
         </p>
     </div>
@@ -268,8 +273,8 @@
     {{-- slide 13 --}}
     <div class="slide flex flex-col items-center justify-center  ">
         <div class="flex items-center justify-center gap-x-10">
-            <img src="{{ asset('assets/images/N2/BasicCoding/rb4.png') }}" />
-            <img src="{{ asset('assets/images/N2/BasicCoding/rb5.png') }}" />
+            <img src="{{ asset('assets/images/N2/BasicCoding/rb4.png') }}" class="large-img3" />
+            <img src="{{ asset('assets/images/N2/BasicCoding/rb5.png') }}" class="large-img3" />
         </div>
         <h2 class="title stroke text-center">What are the uses of these mats?
             Let’s discuss and share!</h2>
@@ -277,14 +282,14 @@
 
     {{-- slide 14 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <div class="flex items-center gap-x-10">
-            <div class="flex flex-col items-center justify-center gap-y-10">
-                <img src="{{ asset('assets/images/N2/BasicCoding/rb6.png') }}" class="w-[400px]" />
-                <img src="{{ asset('assets/images/N2/BasicCoding/rb8.png') }}" class="w-[400px]" />
+        <div class="flex items-center gap-x-[1vw]">
+            <div class="flex flex-col items-center justify-center gap-y-[1vw]">
+                <img src="{{ asset('assets/images/N2/BasicCoding/rb6.png') }}" class="large-img4" />
+                <img src="{{ asset('assets/images/N2/BasicCoding/rb8.png') }}" class="large-img4" />
             </div>
-            <div class="flex flex-col items-center justify-center gap-y-10">
-                <img src="{{ asset('assets/images/N2/BasicCoding/rb7.png') }}" class="w-[400px]" />
-                <img src="{{ asset('assets/images/N2/BasicCoding/rb9.png') }}" class="w-[400px]" />
+            <div class="flex flex-col items-center justify-center gap-y-[1vw]">
+                <img src="{{ asset('assets/images/N2/BasicCoding/rb7.png') }}" class="large-img4" />
+                <img src="{{ asset('assets/images/N2/BasicCoding/rb9.png') }}" class="large-img4" />
             </div>
         </div>
         <h2 class="title stroke text-center">These mats are the starting points of the robot in different mazes.</h2>
@@ -293,14 +298,14 @@
 
     {{-- sldie 15 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="{{ asset('assets/images/N2/BasicCoding/rb4.png') }}" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/rb4.png') }}" class="large-img3" />
         <h2 class="title stroke text-center">These mats are in special shapes.</h2>
         <p class="note">Note: Display the mats. Guide children to compare their shapes with other mats.</p>
     </div>
 
     {{-- slide 16 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="{{ asset('assets/images/N2/BasicCoding/rb10.png') }}" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/rb10.png') }}" class="large-img2" />
         <h2 class="stroke title text-center">When you place a <span class="text-white">robot</span> on one of the
             character
             <span class="text-white">mats</span>,
@@ -311,7 +316,7 @@
 
     {{-- slide 17 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="{{ asset('assets/images/N2/BasicCoding/rb5.png') }}" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/rb5.png') }}" class="large-img3" />
         <h2 class="stroke title text-center">These mats have pictures of different food.
             Can you name the food?</h2>
     </div>
@@ -319,14 +324,14 @@
 
     {{-- slide 18 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <div class="flex items-center gap-x-10">
-            <div class="flex flex-col items-center justify-center gap-y-10">
-                <img src="{{ asset('assets/images/N2/BasicCoding/rb6.png') }}" class="w-[400px]" />
-                <img src="{{ asset('assets/images/N2/BasicCoding/rb8.png') }}" class="w-[400px]" />
+        <div class="flex items-center gap-x-[1vw]">
+            <div class="flex flex-col items-center justify-center gap-y-[1vw]">
+                <img src="{{ asset('assets/images/N2/BasicCoding/rb6.png') }}" class="large-img4" />
+                <img src="{{ asset('assets/images/N2/BasicCoding/rb8.png') }}" class="large-img4" />
             </div>
-            <div class="flex flex-col items-center justify-center gap-y-10">
-                <img src="{{ asset('assets/images/N2/BasicCoding/rb7.png') }}" class="w-[400px]" />
-                <img src="{{ asset('assets/images/N2/BasicCoding/rb9.png') }}" class="w-[400px]" />
+            <div class="flex flex-col items-center justify-center gap-y-[1vw]">
+                <img src="{{ asset('assets/images/N2/BasicCoding/rb7.png') }}" class="large-img4" />
+                <img src="{{ asset('assets/images/N2/BasicCoding/rb9.png') }}" class="large-img4" />
             </div>
         </div>
         <h2 class="stroke title text-center">When you <span class="text-white">programme</span> a <span
@@ -341,34 +346,29 @@
     {{-- =================================================================== --}}
     {{-- Complete button --}}
     <div class="down-btn-container">
-        <button
-         class="doneButton">
- <img src="{{ asset('assets/images/pptimages/done.png') }}" />
+        <button class="doneButton">
+            <img src="{{ asset('assets/images/pptimages/done.png') }}" />
         </button>
     </div>
 
     {{-- Buttons --}}
- <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
+    <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
 
         <!-- Return Button -->
         <a id="returnButton">
- <img
-    src="{{ asset('assets/images/pptimages/return.png') }}" />
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
 
         <!-- Home Button -->
-        <button
-     id="homeButton">
-            <img 
-                src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
         <button id="closeButton">
-           
-            <img 
-                src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-    
+
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
+
         </button>
 
     </div>
@@ -376,9 +376,8 @@
     {{-- next Button --}}
     <div class="down-btn-container">
 
-        <button
-            class="nextButton ">
-                        <img src="{{ asset('assets/images/pptimages/return.png') }}" />
+        <button class="nextButton ">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
 
         </button>
     </div>
@@ -420,9 +419,12 @@
                 });
             });
 
-            // ✅ Return button
+            // ✅ Return button - redirect if on first slide
             returnButton.addEventListener("click", () => {
-                if (currentSlide > 0) {
+                if (currentSlide === 0) {
+                    // Redirect to route when on first slide
+                    window.location.href = "{{ route('Robot3Selection') }}";
+                } else if (currentSlide > 0) {
                     currentSlide--;
                     showSlide(currentSlide);
                 }

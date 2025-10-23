@@ -81,22 +81,14 @@
            <a href="{{ route('PlaneLesson') }}" id="Lesson" class="flex flex-col gap-0">
             <img src="/assets/images/pptimages/lesson-btn.png" />
             
-            <button id="nextButton" class="lesson-btn  !z-10 !bg-[#2D9CDB]">
-                <img src="/assets/images/pptimages/Vector4.png" class="lesson-btn-vector" />
-                <div class="lesson-btn-shape"></div>
-                <div class="lesson-btn-text stroke">Lesson </div>
-            </button>
+             
             
         </a>
         {{-- Teacher Button --}}
         <a href="{{ route('PlaneTeacher') }}" id="Lesson" class="flex flex-col gap-0">
             <img src="/assets/images/pptimages/teacher-btn.png" />
             
-            <button id="nextButton" class="lesson-btn  !z-10 !bg-[#0E502A]">
-                <img src="/assets/images/pptimages/Vector4.png" class="lesson-btn-vector" />
-                <div class="lesson-btn-shape"></div>
-                <div class="lesson-btn-text stroke">Teacher</div>
-            </button>
+            
             
         </a>
     </div>

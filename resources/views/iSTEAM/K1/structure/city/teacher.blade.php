@@ -5,7 +5,7 @@
     {{-- sldie 1  --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="  font-bold">Children will be able to:</h2>
+            <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
                 <li>Know that a city has many types of structures</li>
                 <li>Design and build a unique building</li>
@@ -33,7 +33,7 @@
     {{-- slide 2 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Preparations:</h2>
+            <h2 class="font-bold t-title">Preparations:</h2>
             <ul class="list-disc ">
                 <li>Straws</li>
                 <li>Pipe cleaners</li>
@@ -56,7 +56,7 @@
     {{-- sldie 3 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Things to consider during hands-on sessions:</h2>
+            <h2 class="font-bold t-title">Things to consider during hands-on sessions:</h2>
             <ul class="list-disc ">
                 <li>Ask questions to prompt children to share and try out their ideas. You may add on questions based on
                     children's responses.</li>
@@ -85,7 +85,7 @@
     {{-- sldie 4 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Things to consider during hands-on sessions:</h2>
+            <h2 class="font-bold t-title">Things to consider during hands-on sessions:</h2>
             <ul class="list-disc ">
                 <li>During hands-on session:
                     <ul type="i">
@@ -107,7 +107,7 @@
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold">Notes:</h2>
+                <h2 class="font-bold t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
                     <li>
                         If you see
@@ -126,7 +126,7 @@
                     <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
                     </li>
                     <li>
-                        Click on this <span class="font-bold">shortcut icon</span>
+                        Click on this <span class="font-bold t-title">shortcut icon</span>
                         <span
                             class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
                             <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"

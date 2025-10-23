@@ -5,7 +5,7 @@
     {{-- sldie 1  --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="  font-bold">Children will be able to:</h2>
+            <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
                 <li>Know that a roller coaster is an elevated track with turns and slopes for open cars</li>
                 <li>Learn to build a ball roller coaster</li>
@@ -34,7 +34,7 @@
     {{-- slide 2 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Preparations for the making of the track:</h2>
+            <h2 class="font-bold t-title">Preparations for the making of the track:</h2>
             <ul class="list-disc ">
                 <li>Each group a set of straws of different lengths - 15 long, 4 medium-length, and 36 short straws</li>
                 <li>Each group 20 pipe cleaners (sample's measurement: 30cm long)</li>
@@ -51,7 +51,7 @@
     {{-- sldie 3 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Preparations for the making of the track supports (pyramids):</h2>
+            <h2 class="font-bold t-title">Preparations for the making of the track supports (pyramids):</h2>
             <ul class="list-disc">
                 <li>Each group a set of straws (colour different from the track)</li>
                 <li>Each group 50 pipe cleaners (sample's measurement: 30cm long)</li>
@@ -69,7 +69,7 @@
     {{-- slide 4 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Preparations for the testing of the ball roller coaster:</h2>
+            <h2 class="font-bold t-title">Preparations for the testing of the ball roller coaster:</h2>
             <ul class="list-disc">
                 <li>Each group a ping pong ball</li>
                 <li>Each group a suitable container</li>
@@ -81,7 +81,7 @@
             class="absolute teacher-img1" />
         <!-- Video Trigger Button -->
         <div data-property-1="Default"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2">
+            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
       <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -90,7 +90,7 @@
     {{-- sldie 5 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Things to consider during hands-on sessions:</h2>
+            <h2 class="font-bold t-title">Things to consider during hands-on sessions:</h2>
             <ul class="list-disc ">
                 <li>
                     Ask questions to prompt children to share and try out their ideas.
@@ -120,7 +120,7 @@
     {{-- sldie 6 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Possible questions for reflection:</h2>
+            <h2 class="font-bold t-title">Possible questions for reflection:</h2>
             <ul class="list-disc ">
                 <li>Do you think the arrangement of the pyramids of different heights is important in
                     making a successful ball roller coaster? Why? [Yes, the ball may fail to complete
@@ -143,7 +143,7 @@
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold">Notes:</h2>
+                <h2 class="font-bold t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
                     <li>
                         If you see
@@ -162,7 +162,7 @@
                     <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
                     </li>
                     <li>
-                        Click on this <span class="font-bold">shortcut icon</span>
+                        Click on this <span class="font-bold t-title">shortcut icon</span>
                         <span
                             class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
                             <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"

@@ -5,7 +5,7 @@
     {{-- sldie 1  --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="  font-bold">Children will be able to:</h2>
+            <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
                 <li>Learn how to make their own set of fingerprints for analysis</li>
                 <li>Know that fingerprints are ridges on the tips of our thumbs and fingers</li>
@@ -36,7 +36,7 @@
     {{-- slide 2 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Preparations:</h2>
+            <h2 class="font-bold t-title">Preparations:</h2>
             <ul class="list-disc ">
                 <li>
                     Pencils (for a better outcome, 8B pencil is recommended)
@@ -62,7 +62,7 @@
     {{-- sldie 3 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-center gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
+            <h2 class="font-bold t-title">How to make own set of fingerprints and things to consider:</h2>
             <ul class="list-disc">
                 <li>This is a small group activity. Organise children into groups of 3 and have them take turns to play role
                     A, B & C. Before the activity, have them clean and dry their hands first to remove dirt that may obscure
@@ -78,7 +78,7 @@
     {{-- slide 4 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
+            <h2 class="font-bold t-title">How to make own set of fingerprints and things to consider:</h2>
             <ul class="list-decimal">
                 <li>(A) Use a pencil to make a patch of dark mark on a paper. [ Have all the A do the step. Advise A to
                     darken the patch by shading the patch again and again. ]</li>
@@ -93,7 +93,7 @@
     {{-- slide 5 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
+            <h2 class="font-bold t-title">How to make own set of fingerprints and things to consider:</h2>
             <ul>
                 <li>2. (B) Rub a fingertip over the pencil mark to stain it. [Have all the B do the step.]</li>
             </ul>
@@ -107,7 +107,7 @@
     {{-- sldie 6 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
+            <h2 class="font-bold t-title">How to make own set of fingerprints and things to consider:</h2>
             <ul>
                 <li>3. (C) Cut and stick a piece of clear tape on the stained fingertip (of B). [Have all the C do the step.
                     Advise C to hold only an edge of the tape and stick the tape flat on the fingertip of B. ]</li>
@@ -122,7 +122,7 @@
     {{-- sldie 7 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
+            <h2 class="font-bold t-title">How to make own set of fingerprints and things to consider:</h2>
             <ul>
                 <li>4. (C) Carefully remove the tape from the fingertip (of B) and paste it on the learning journal (of B).
                     [Have all the C do the step. Remind C to paste the tape in the correct place of B's fingerprint record.]
@@ -137,7 +137,7 @@
     {{-- sldie 8 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
+            <h2 class="font-bold t-title">How to make own set of fingerprints and things to consider:</h2>
             <ul>
                 <li>5. (A) Use a wet towel to clean the fingertip (of B). [ Have all the A do the step. Explain to children
                     that this is to avoid possible messiness when taking prints of other fingers. ]</li>
@@ -153,7 +153,7 @@
     {{-- slide 9 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
+            <h2 class="font-bold t-title">How to make own set of fingerprints and things to consider:</h2>
             <ul>
                 <li>6. (A, B & C) Repeat the steps for other fingers. [Have all the A, B & C repeat steps 1-5 to complete
                     the fingerprint record of B. After that, have them change their roles to help one another complete the
@@ -168,7 +168,7 @@
     {{-- slide 10 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
+            <h2 class="font-bold t-title">How to make own set of fingerprints and things to consider:</h2>
             <ul>
                 <li>7. Observe your fingerprints. [ Have children observe and compare their own set of fingerprints on the
                     record. Then have them share their views. ]</li>
@@ -182,7 +182,7 @@
     {{-- slide 11 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
+            <h2 class="font-bold t-title">How to make own set of fingerprints and things to consider:</h2>
             <ul>
                 <li>8. Compare your fingerprints with friends. [ Have children observe and compare their fingerprints with
                     friends. Then have them share their views. ]</li>
@@ -199,7 +199,7 @@
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold">Notes:</h2>
+                <h2 class="font-bold t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
                     <li>
                         If you see
@@ -218,7 +218,7 @@
                     <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
                     </li>
                     <li>
-                        Click on this <span class="font-bold">shortcut icon</span>
+                        Click on this <span class="font-bold t-title">shortcut icon</span>
                         <span
                             class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
                             <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"

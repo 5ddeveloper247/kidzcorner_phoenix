@@ -9,7 +9,7 @@
     {{-- sldie 1  --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="  font-bold">Children will be able to:</h2>
+            <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
                 <li>Learn how to take sample bacteria from ourselves</li>
                 <li>Test if hand sanitizers, hand soaps and toothpastes help to kill bacteria</li>
@@ -42,7 +42,7 @@
     {{-- slide 2 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Preparations:</h2>
+            <h2 class="font-bold t-title">Preparations:</h2>
             <ul class="list-disc ">
                 <li>2 Petri dishes with nutrient agar</li>
                 <li>Cotton buds</li>
@@ -52,7 +52,7 @@
                 <li>1 disinfectant spray</li>
                 <li>1 dirty shoe (a sandal or slipper is easier for preparation of test samples)</li>
                 <br>
-                <h2 class="font-bold">Definition of some words:</h2>
+                <h2 class="font-bold t-title">Definition of some words:</h2>
                 <li>Antibiotics - medicine used to kill bacteria and treat infections</li>
                 <li>Antiseptics - things used to kill bacteria by applying on the skin</li>
                 <li>Petri dish - a flat dish with lid that scientists use to grow tiny living things such as bacteria</li>
@@ -161,7 +161,7 @@
     {{-- <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold">Notes:</h2>
+                <h2 class="font-bold t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
                     <li>
                         If you see
@@ -180,7 +180,7 @@
                     <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
                     </li>
                     <li>
-                        Click on this <span class="font-bold">shortcut icon</span>
+                        Click on this <span class="font-bold t-title">shortcut icon</span>
                         <span
                             class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
                             <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
@@ -245,7 +245,7 @@
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold">Notes:</h2>
+                <h2 class="font-bold t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
                     <li>
                         If you see
@@ -272,7 +272,7 @@
                     <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
                     </li>
                     <li>
-                        Click on this <span class="font-bold">shortcut icon</span>
+                        Click on this <span class="font-bold t-title">shortcut icon</span>
                         <span
                             ><img src="{{ asset('assets/images/pptimages/home-btn.png') }}"
                                 class="home-btn" />
@@ -293,7 +293,7 @@
 
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold">What to do:</h2>
+                <h2 class="font-bold t-title">What to do:</h2>
                 <ul>
                     <li>
                         <strong>*</strong> Invite children to pick up pictures and sort them into groups:

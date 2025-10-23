@@ -5,7 +5,7 @@
     {{-- sldie 1  --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="  font-bold">Children will be able to:</h2>
+            <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
                 <li>Learn how to use Blockly to programme the sound and light of a robot</li>
                 <li>Use creativity to create a story based on a pictorial circuit together with friends</li>
@@ -46,7 +46,7 @@
     {{-- slide 2 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Preparations:</h2>
+            <h2 class="font-bold t-title">Preparations:</h2>
             <ul class="list-disc ">
                 <li>Sound and Light coding cards (print and laminate so that they are reusable)
                     - use it during hands-on session to show at which part of a circuit sound or
@@ -61,7 +61,7 @@
     {{-- sldie 3 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Preparations:</h2>
+            <h2 class="font-bold t-title">Preparations:</h2>
             <ul class="list-disc">
                 <li>50cm and 90cm measuring strips (made from black craft paper with label of
                     measurement pasted at the middle of the strip; kindly use standard font -
@@ -80,7 +80,7 @@
     {{-- slide 4 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Preparations:</h2>
+            <h2 class="font-bold t-title">Preparations:</h2>
             <ul class="list-disc">
                 <li>4 types of coding cards (print and laminate so that they are reusable)</li>
                 <li>Whiteboard marker pens</li>
@@ -98,7 +98,7 @@
     {{-- slide 5 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Preparations:</h2>
+            <h2 class="font-bold t-title">Preparations:</h2>
             <ul class="list-disc">
                 <li>4 types of coding cards (print and laminate so that they are reusable)</li>
                 <li>Whiteboard marker pens</li>
@@ -116,7 +116,7 @@
     {{-- slide 6 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Preparations:</h2>
+            <h2 class="font-bold t-title">Preparations:</h2>
             <ul class="list-disc">
                 <li>Start coding cards (print and laminate so that they are reusable) - use
                     it during hands-on session to mark the starting point of a circuit.</li>
@@ -132,7 +132,7 @@
     {{-- slide 7 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Preparations:</h2>
+            <h2 class="font-bold t-title">Preparations:</h2>
             <ul class="list-disc">
                 <li>The robots and tablets (refer to the teacher’s mode of Lesson 1 for guide on
                     what you need to know and do before the lesson)</li>
@@ -177,7 +177,7 @@
     {{-- sldie 10 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Reminders or advice during hands-on session:</h2>
+            <h2 class="font-bold t-title">Reminders or advice during hands-on session:</h2>
             <ul class="list-disc ">
                 <li>Always hold a robot or a tablet with both your hands (to show your care and prevent the tools from
                     spoiling easily).</li>
@@ -189,7 +189,7 @@
             </ul>
         </div>
         <div>
-            <h2 class="font-bold">Possible questions during hands-on sessions:</h2>
+            <h2 class="font-bold t-title">Possible questions during hands-on sessions:</h2>
             <ul class="list-disc ">
                 <li>Which command in Blockly allows you to programme a robot to have sound?</li>
                 <li>Which command in Blockly allows you to programme a robot to have different lights on the different body
@@ -205,7 +205,7 @@
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold">Notes:</h2>
+                <h2 class="font-bold t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
                     <li>
                         If you see
@@ -232,7 +232,7 @@
                     <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
                     </li>
                     <li>
-                        Click on this <span class="font-bold">shortcut icon</span>
+                        Click on this <span class="font-bold t-title">shortcut icon</span>
                         <span
                             class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
                             <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"

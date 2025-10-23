@@ -28,15 +28,18 @@ body {
     .large-img {
         max-width: 20vw !important;
     }
-     .large-img3 {
-        max-width: 20vw !important;
-        max-height: 35vh !important;
-    }
-    .large-img2{
+    .large-img2 {
         max-width: 25vw !important;
     }
-    .large-img4{
+    .large-img3 {
+        max-width: 20vw !important;
+        max-height: 32vh !important;
+    }
+    .large-img4 {
         max-width: 15vw !important;
+    }
+    .large-img5 {
+        max-width: 43vw !important;
     }
 }
 
@@ -49,8 +52,8 @@ button {
     top: 30px;
     z-index: 1000;
 }
-.video-btn img{
-    cursor:pointer;
+.video-btn img, .ans-btn img {
+    cursor: pointer;
     width: 5vw !important;
 }
 #topDiv {
@@ -136,9 +139,10 @@ video {
 
 .slide {
     gap: 1.7vw !important;
-    
-    ul,ol{
-        font-size: 2vw;    
+
+    ul,
+    ol {
+        font-size: 2vw;
         padding-left: 2vw;
     }
 }
@@ -155,11 +159,12 @@ video {
 }
 
 .t-slide {
-    width: 50vw ;
+    width: 50vw;
     padding: 3vw;
-    ul,p {
+    ul,
+    p {
         padding-left: 1vw;
-        font-size: 1.3vw;
+        font-size: 1.2vw;
     }
 }
 
@@ -167,6 +172,11 @@ span {
     img {
         width: 3vw;
     }
+}
+.chkbox {
+    width: 3vw;
+    height: 3vw;
+    border: 1px solid black;
 }
 
 /* @media (min-height: 900px) {

@@ -5,7 +5,7 @@
     {{-- sldie 1  --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="  font-bold">Children will be able to:</h2>
+            <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
                 <li>Know that buildings are common structures around us</li>
                 <li>Know how tall buildings are built</li>
@@ -45,7 +45,7 @@
     {{-- slide 2 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Information of a standard beam bridge:</h2>
+            <h2 class="font-bold t-title">Information of a standard beam bridge:</h2>
             <ul class="list-disc ">
                 <li>The bridge spans at least 35cm with a width of around 10cm.</li>
                 <li>The bridge will sit on a gap of 25cm for the bridge test.</li>
@@ -84,7 +84,7 @@
     {{-- sldie 4 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Things to consider during hands-on sessions:</h2>
+            <h2 class="font-bold t-title">Things to consider during hands-on sessions:</h2>
             <ul class="list-disc ">
                 <li>Ask questions to prompt children share and try out their ideas. Some possible
                     questions are listed in the lesson, you may add on questions based on children's
@@ -114,7 +114,7 @@
     {{-- sldie 4 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Possible questions for reflection:</h2>
+            <h2 class="font-bold t-title">Possible questions for reflection:</h2>
             <ul class="list-disc ">
                 <li>Did you succeed in building a bridge that can hold up more weight? How much
                     weight can the bridge hold up before and after you built the structure above or
@@ -139,7 +139,7 @@
     {{-- sldie 5 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Useful information:</h2>
+            <h2 class="font-bold t-title">Useful information:</h2>
             <ul class="list-disc ">
                 <li>Bridges bridge a gap between the banks of a river or span the distance between
                     two sides of a valley.</li>
@@ -167,7 +167,7 @@
     {{-- sldie 6 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Useful information:</h2>
+            <h2 class="font-bold t-title">Useful information:</h2>
             <ul class="list-disc ">
                 <li>A cable-stayed bridge is a kind of suspension bridge, It is a long bridge using
                     cables to form triangles to support weight. The cables that supporting a cable-
@@ -182,7 +182,7 @@
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold">Notes:</h2>
+                <h2 class="font-bold t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
                     <li>
                         If you see
@@ -201,7 +201,7 @@
                     <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
                     </li>
                     <li>
-                        Click on this <span class="font-bold">shortcut icon</span>
+                        Click on this <span class="font-bold t-title">shortcut icon</span>
                         <span
                             class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
                             <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"

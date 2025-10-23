@@ -9,7 +9,7 @@
     {{-- sldie 23  --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="  font-bold">Children will be able to:</h2>
+            <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
                 <li>Explore and learn about the characteristics of a simple machine - <br>lever</li>
                 <li>Understand the uses of a lever</li>
@@ -38,7 +38,7 @@
     {{-- slide 24 --}}
     {{-- <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start w-[75%]">
         <div>
-            <h2 class="font-bold">Preparations for Class Activity I:</h2>
+            <h2 class="font-bold t-title">Preparations for Class Activity I:</h2>
             <ul class="list-disc ">
                 <li>iPad (make sure children handle with care)</li>
                 <li>Torch lights or any other battery-operated lights</li>
@@ -49,7 +49,7 @@
 
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold">Links to Songs:</h2>
+                <h2 class="font-bold t-title">Links to Songs:</h2>
                 <ul class="list-disc ">
                     <li>
                         <strong>Mr Golden Sun</strong>
@@ -76,7 +76,7 @@
 
 
         <ul class="list-disc  !text-start">
-            <h2 class="font-bold  !text-white">Preparations: </h2>
+            <h2 class="font-bold t-title  !text-white">Preparations: </h2>
             <li>Each child: 1 long wooden ruler, 5 dominoes, some rubber bands, 1 <br>
                 eraser</li>
             <li>Thread or other suitable items (to measure distance tossed) and a <br>
@@ -98,7 +98,7 @@
 
 
         <ul class="list-disc  !text-start">
-            <h2 class="font-bold  !text-white">Things to consider for preparations:</h2>
+            <h2 class="font-bold t-title  !text-white">Things to consider for preparations:</h2>
             <li>As shown in the video, this experiment needs space. Find a spacious place to
                 conduct this experiment so that every child will have enough space to do his/her
                 experiment.</li>
@@ -117,7 +117,7 @@
 
 
         <ul class="list-disc  !text-start">
-            <h2 class="font-bold  !text-white">Things to consider for preparations:</h2>
+            <h2 class="font-bold t-title  !text-white">Things to consider for preparations:</h2>
             <li>Before the lesson, prepare a lever for each child: use some rubber bands to tie <br>
                 5dominoes together, fix them at the middle below a wooden ruler. Try to use <br>
                 a few rubber bands to do so, so that the dominoes will not move around easily. <br>
@@ -135,7 +135,7 @@
 
 
         <ul class="list-disc  !text-start">
-            <h2 class="font-bold  !text-white">How to do the experiment and things to consider:</h2>
+            <h2 class="font-bold t-title  !text-white">How to do the experiment and things to consider:</h2>
             <li>
                 1. Have children put an eraser on one end of his/her lever. [This experiment
                 can be done on the floor. ]</li>
@@ -152,7 +152,7 @@
 
 
         <ul class="list-disc  !text-start">
-            <h2 class="font-bold  !text-white">How to do the experiment and things to consider:</h2>
+            <h2 class="font-bold t-title  !text-white">How to do the experiment and things to consider:</h2>
             <li>
                 2. Have children push down the other end of his/her lever to see how far the
                 eraser will be tossed. [The fulcrum of the lever should not move, so you may
@@ -171,7 +171,7 @@
 
 
         <ul class="list-disc  !text-start">
-            <h2 class="font-bold  !text-white">How to do the experiment and things to consider:</h2>
+            <h2 class="font-bold t-title  !text-white">How to do the experiment and things to consider:</h2>
             <li>
                 3. Have children change the position of the fulcrum and test again. [Show them
                 how to adjust the fulcrum. Encourage them try to achieve the longest
@@ -188,7 +188,7 @@
 
 
         <ul class="list-disc  !text-start">
-            <h2 class="font-bold  !text-white">How to do the experiment and things to consider:</h2>
+            <h2 class="font-bold t-title  !text-white">How to do the experiment and things to consider:</h2>
             <li>
                 4.
                 After most children roughly get the answer from their hands-on experiences,
@@ -207,7 +207,7 @@
 
 
         <ul class="list-disc  !text-start">
-            <h2 class="font-bold  !text-white">How to do the experiment and things to consider:</h2>
+            <h2 class="font-bold t-title  !text-white">How to do the experiment and things to consider:</h2>
             <li>
                 5.
                 Have them repeat steps 1-2 by placing the fulcrum far from the eraser. Guide
@@ -225,7 +225,7 @@
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold">Notes:</h2>
+                <h2 class="font-bold t-title">Notes:</h2>
                 <ul class="list-disc ">
                     <li>
                         If you see
@@ -249,7 +249,7 @@
 
                     <li>Click on this shortcut icon if you need to go to some <br>
                         parts of the lesson quickly.</li>
-                    Click on this <span class="font-bold">shortcut icon</span>
+                    Click on this <span class="font-bold t-title">shortcut icon</span>
                     <span
                         class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
                         <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
@@ -295,7 +295,7 @@
        
 
             <ul class="  !text-start !text-white">
-                <li  class="font-bold">Things with Levers</li>
+                <li  class="font-bold t-title">Things with Levers</li>
                 <li>What and how to set up:</li>
                 <li>
                     Place a variety of common things with levers here. Some examples <br>
@@ -328,7 +328,7 @@
        
 
             <ul class="  !text-start !text-white">
-                <li  class="font-bold">How do you balance the lever?</li>
+                <li  class="font-bold t-title">How do you balance the lever?</li>
                 <li>What and how to set up:</li>
                 <li>
                     Place some levers (refer to the preparations) and small objects like <br>

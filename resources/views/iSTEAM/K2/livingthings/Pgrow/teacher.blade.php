@@ -5,7 +5,7 @@
     {{-- sldie 1  --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="  font-bold">Children will be able to:</h2>
+            <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
                 <li>Learn how to grow a plant from a seed</li>
                 <li>Learn how to regrow green onions</li>
@@ -32,7 +32,7 @@
     {{-- slide 2 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <ul class="list-disc">
-            <h2 class="font-bold">Preparations for Individual Activity - growing plants from seeds:</h2>
+            <h2 class="font-bold t-title">Preparations for Individual Activity - growing plants from seeds:</h2>
             <li>A type of fast growing seed (preferably not too small), such as:
                 Radish seeds (sprout in 3–10 days) Sunflower seeds (sprout in 1 week) Melon seeds (sprout in 5–10 days)
                 Green beans and peas</li>
@@ -59,7 +59,7 @@
     {{-- sldie 3 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Things to consider for preparations - growing plants from seeds:</h2>
+            <h2 class="font-bold t-title">Things to consider for preparations - growing plants from seeds:</h2>
             <ul class="list-disc">
                 <li>If you want to use seeds from fresh melons or squash like watermelon and pumpkin for this activity, you
                     should clean the seeds thoroughly and allow them dry indoors for a week beforehand. To help the seeds
@@ -76,7 +76,7 @@
     {{-- slide 4 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to grow plants from seeds and things to consider:</h2>
+            <h2 class="font-bold t-title">How to grow plants from seeds and things to consider:</h2>
             <ul class="list-decimal">
                 <li>Have children write the name of the seed, date of activity and his/her name on a label. [Help to apply 2
                     dots of glue with a of the paper towel for each child .]</li>
@@ -91,7 +91,7 @@
     {{-- slide 5 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to grow plants from seeds and things to consider:</h2>
+            <h2 class="font-bold t-title">How to grow plants from seeds and things to consider:</h2>
             <ul>
                 <li>2.Have children put a seed on each of the glue dot on his/her paper towel and allow the glue dry.
                     [Make sure that the glue dries before continue with the next step.]</li>
@@ -105,7 +105,7 @@
     {{-- sldie 6 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to grow plants from seeds and things to consider:</h2>
+            <h2 class="font-bold t-title">How to grow plants from seeds and things to consider:</h2>
             <ul>
                 <li>3.Have children put his/her paper towel into a zipper storage bag and spray water to wet the paper
                     towel.</li>
@@ -120,7 +120,7 @@
     {{-- sldie 7 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to grow plants from seeds and things to consider:</h2>
+            <h2 class="font-bold t-title">How to grow plants from seeds and things to consider:</h2>
             <ul>
                 <li>4.Have children leave about 1cm extra water at the bottom of his/her bag and seal the bag.</li>
             </ul>
@@ -134,7 +134,7 @@
     {{-- sldie 8 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to grow plants from seeds and things to consider:</h2>
+            <h2 class="font-bold t-title">How to grow plants from seeds and things to consider:</h2>
             <ul>
                 <li>5.Have children label his/her bag and tape it to a sunny window.</li>
             </ul>
@@ -148,7 +148,7 @@
     {{-- slide 9 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to grow plants from seeds and things to consider:</h2>
+            <h2 class="font-bold t-title">How to grow plants from seeds and things to consider:</h2>
             <ul>
                 <li>6. Have children use the learning journal to record his/her observations. [Let them draw the current
                     look of the seeds and write down the date. Remind them to check on the seeds every day for at least a
@@ -164,7 +164,7 @@
 
     {{-- sldie 10 --}}
     <div class=" slide flex text-2xl text-white flex-col items-start justify-start gap-y-5 text-start">
-        <h2 class="font-bold">Sample Learning Journal 1:</h2>
+        <h2 class="font-bold t-title">Sample Learning Journal 1:</h2>
         <img src="{{ asset('assets/images/K2/livingthings/pgrow/p18.png') }}" alt="Teacher" class="w-[600px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute teacher-img1" />
@@ -173,7 +173,7 @@
 
     {{-- sldie 11 --}}
     <div class=" slide flex text-2xl text-white flex-col items-start justify-start gap-y-5 text-start">
-        <h2 class="font-bold">Sample Learning Journal 2:</h2>
+        <h2 class="font-bold t-title">Sample Learning Journal 2:</h2>
         <img src="{{ asset('assets/images/K2/livingthings/pgrow/p19.png') }}" alt="Teacher" class="w-[600px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute teacher-img1" />
@@ -181,7 +181,7 @@
 
     {{-- sldie 12 --}}
     <div class=" slide flex text-2xl text-white flex-col items-start justify-start gap-y-5 text-start">
-        <h2 class="font-bold">Sample seed’s growth 1:</h2>
+        <h2 class="font-bold t-title">Sample seed’s growth 1:</h2>
         <div class="flex items-start gap-5">
             <img src="{{ asset('assets/images/K2/livingthings/pgrow/p20.png') }}" alt="Teacher" class="w-[600px]" />
             <p class="w-[130px] note">For your info, this seed sprouted after 2 days and showed signs of growth each day
@@ -193,7 +193,7 @@
 
     {{-- sldie 13 --}}
     <div class=" slide flex text-2xl text-white flex-col items-start justify-start gap-y-5 text-start">
-        <h2 class="font-bold">Sample seed’s growth 2:</h2>
+        <h2 class="font-bold t-title">Sample seed’s growth 2:</h2>
         <div class="flex items-start gap-5">
             <img src="{{ asset('assets/images/K2/livingthings/pgrow/p21.png') }}" alt="Teacher" class="w-[600px]" />
             <p class="w-[130px] note">For your info, this seed sprouted after 3 days and showed signs of growth each day.
@@ -206,7 +206,7 @@
 
     {{-- sldie 14 --}}
     <div class=" slide flex text-2xl text-white flex-col items-start justify-start gap-y-5 text-start">
-        <h2 class="font-bold">Sample seed’s growth 3:</h2>
+        <h2 class="font-bold t-title">Sample seed’s growth 3:</h2>
         <div class="flex items-start gap-5">
             <img src="{{ asset('assets/images/K2/livingthings/pgrow/p22.png') }}" alt="Teacher" class="w-[600px]" />
             <p class="w-[130px] note">For your info, this seed sprouted after 3 days. Its stem and roots could be clearly
@@ -219,7 +219,7 @@
 
     {{-- sldie 15 --}}
     <div class=" slide flex text-2xl text-white flex-col items-start justify-start gap-y-5 text-start">
-        <h2 class="font-bold">Sample seed’s growth 4:</h2>
+        <h2 class="font-bold t-title">Sample seed’s growth 4:</h2>
         <div class="flex items-start gap-5">
             <img src="{{ asset('assets/images/K2/livingthings/pgrow/p21.png') }}" alt="Teacher" class="w-[600px]" />
             <p class="w-[130px] note">For your info, this seed sprouted after 3 days and showed signs of growth each day
@@ -233,7 +233,7 @@
     {{-- slide16 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to regrow green onions and things to consider:</h2>
+            <h2 class="font-bold t-title">How to regrow green onions and things to consider:</h2>
             <ul>
                 <li>1.Cut off the green leaves of the green onions. [You may keep only the white stems and roots. Tell
                     children that the green leaves will be used to garnish their food today.]</li>
@@ -248,7 +248,7 @@
     {{-- slide17 --}}
     <div class=" slide flex text-2xl text-white flex-col items-start justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to regrow green onions and things to consider:</h2>
+            <h2 class="font-bold t-title">How to regrow green onions and things to consider:</h2>
             <ul>
                 <li>2. Place the remaining green onions with roots in a transparent container filled with some water. [Use
                     clear plastic container or glass as we want to observe the roots of the plants. Be sure that only roots
@@ -265,7 +265,7 @@
     {{-- slide18 --}}
     <div class="slide flex text-2xl text-white flex-col items-start justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to regrow green onions and things to consider:</h2>
+            <h2 class="font-bold t-title">How to regrow green onions and things to consider:</h2>
             <ul>
                 <li>3. Place the container near a sunny window.</li>
             </ul>
@@ -279,7 +279,7 @@
     {{-- slide19 --}}
     <div class=" slide flex text-2xl text-white flex-col items-start justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to regrow green onions and things to consider:</h2>
+            <h2 class="font-bold t-title">How to regrow green onions and things to consider:</h2>
             <ul>
                 <li>4. Have children use the learning journal to record his/her observations. [Let them draw the current
                     look of the green onions (length of the roots and leaves) and write down present date. Remind them to
@@ -295,7 +295,7 @@
 
     {{-- sldie 20 --}}
     <div class=" slide flex text-2xl text-white flex-col items-start justify-start gap-y-5 text-start">
-        <h2 class="font-bold">Sample Learning Journal:</h2>
+        <h2 class="font-bold t-title">Sample Learning Journal:</h2>
         <img src="{{ asset('assets/images/K2/livingthings/pgrow/p23.png') }}" alt="Teacher" class="w-[600px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute teacher-img1" />
@@ -304,7 +304,7 @@
 
     {{-- sldie 21 --}}
     <div class=" slide flex text-2xl text-white flex-col items-start justify-start gap-y-5 text-start">
-        <h2 class="font-bold">Sample green onion’s growth:</h2>
+        <h2 class="font-bold t-title">Sample green onion’s growth:</h2>
         <div class="flex items-start gap-5">
             <img src="{{ asset('assets/images/K2/livingthings/pgrow/p24.png') }}" alt="Teacher" class="w-[600px]" />
             <p class="w-[250px]">For
@@ -356,7 +356,7 @@
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold">Notes:</h2>
+                <h2 class="font-bold t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
                     <li>
                         If you see
@@ -375,7 +375,7 @@
                     <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
                     </li>
                     <li>
-                        Click on this <span class="font-bold">shortcut icon</span>
+                        Click on this <span class="font-bold t-title">shortcut icon</span>
                         <span
                             class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
                             <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"

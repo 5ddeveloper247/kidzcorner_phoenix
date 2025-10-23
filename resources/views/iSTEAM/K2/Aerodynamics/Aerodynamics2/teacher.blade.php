@@ -11,7 +11,7 @@
     {{-- sldie 1  --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="  font-bold">Children will be able to:</h2>
+            <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
                 <li>Recall the concepts of weight and lift</li>
                 <li>Understand the concept of thrust and drag</li>
@@ -50,7 +50,7 @@
     <div class=" slide flex text-2xl text-white flex-col justify-start text-start">
         <div class="space-y-[30px]">
             <div>
-                <h2 class="font-bold">Preparations:</h2>
+                <h2 class="font-bold t-title">Preparations:</h2>
                 <ul class="list-disc">
                     <li>The teacher will have to prepare the items and build the setups needed for the 2 hands-on sessions
                         prior the lesson.</li>
@@ -107,7 +107,7 @@
     {{-- sldie 3 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-center gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to build the setup A for Hands-on Session 1:</h2>
+            <h2 class="font-bold t-title">How to build the setup A for Hands-on Session 1:</h2>
             <ul class="list-decimal">
                 <li>Tie a string from one chair/table to the other chair/table. The chairs/tables
                     should be at least 2 metres apart for best result.</li>
@@ -123,7 +123,7 @@
     {{-- slide 4 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start text-start">
         <div>
-            <h2 class="font-bold">How to build the setup A for Hands-on Session 1:</h2>
+            <h2 class="font-bold t-title">How to build the setup A for Hands-on Session 1:</h2>
             <ul>
                 <li>2. Before tying the string to the second chair/table, insert the string through the straw.</li>
             </ul>
@@ -137,7 +137,7 @@
     {{-- slide 5 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to build the setup A for Hands-on Session 1:</h2>
+            <h2 class="font-bold t-title">How to build the setup A for Hands-on Session 1:</h2>
             <ul>
                 <li>3. Inflate a balloon. Use a binder clip to secure the mouth of the balloon.</li>
             </ul>
@@ -151,7 +151,7 @@
     {{-- sldie 6 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start text-start">
         <div>
-            <h2 class="font-bold">How to build the setup A for Hands-on Session 1:</h2>
+            <h2 class="font-bold t-title">How to build the setup A for Hands-on Session 1:</h2>
             <ul>
                 <li>4. Tape the balloon to the straw to complete the setup.</li>
             </ul>
@@ -165,7 +165,7 @@
     {{-- sldie 7 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to build the setup B for Hands-on Session 2:</h2>
+            <h2 class="font-bold t-title">How to build the setup B for Hands-on Session 2:</h2>
             <ul>
                 <li>1. Tie 2 strings from one chair/table to the other chair/table. The chairs/tables
                     should be at least 2 metres apart for best result.</li>
@@ -179,7 +179,7 @@
     {{-- sldie 8 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to build the setup B for Hands-on Session 2:</h2>
+            <h2 class="font-bold t-title">How to build the setup B for Hands-on Session 2:</h2>
             <ul>
                 <li>2. Before tying the string to the second chair/table, insert the string through the
                     straw.</li>
@@ -195,7 +195,7 @@
     {{-- slide 9 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to build the setup B for Hands-on Session 2:</h2>
+            <h2 class="font-bold t-title">How to build the setup B for Hands-on Session 2:</h2>
             <ul>
                 <li>3. Tape the balloons to the straws to complete the set-up. Trim the paper plate if
                     the edge is pushing against the string.</li>
@@ -213,7 +213,7 @@
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold">Notes:</h2>
+                <h2 class="font-bold t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
                     <li>
                         If you see
@@ -232,7 +232,7 @@
                     <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
                     </li>
                     <li>
-                        Click on this <span class="font-bold">shortcut icon</span>
+                        Click on this <span class="font-bold t-title">shortcut icon</span>
                         <span
                             class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
                             <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"

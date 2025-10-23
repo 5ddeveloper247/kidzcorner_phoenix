@@ -33,34 +33,34 @@
 
 @section('content')
 
-    <div class=" panel panel-f flex flex-wrap items-center justify-center text-center z-[99] w-[50vw]">
+    <div class=" panel panel-f flex flex-wrap items-center justify-center text-center z-[99] w-[40vw] gap-[1.5vw]">
 
         <a href="{{ route('SimpleMachines') }}"
             class="flex justify-center items-center transition hover:brightness-110 ">
-            <img src="{{ asset('/assets/images/pptimages/n2-1.png') }}" alt="" class="w-[18vw]" >
+            <img src="{{ asset('/assets/images/pptimages/n2-1.png') }}" alt="" class="w-[15vw]" >
         </a>
 
         <a href="{{ route('LivingThings') }}"
             class="flex justify-center items-center  transition hover:brightness-110 ">
-            <img src="{{ asset('/assets/images/pptimages/n2-4.png') }}" alt="" class="w-[18vw]" >
+            <img src="{{ asset('/assets/images/pptimages/n2-4.png') }}" alt="" class="w-[15vw]" >
         </a>
 
         <a href="{{ route('BasicCoding') }}"
             class="flex justify-center items-center  transition hover:brightness-110 ">
-            <img src="{{ asset('/assets/images/pptimages/n2-3.png') }}" alt="" class="w-[18vw]" >
+            <img src="{{ asset('/assets/images/pptimages/n2-3.png') }}" alt="" class="w-[15vw]" >
         </a>
 
 
         <a href="{{ route('Structures') }}"
             class="flex justify-center items-center  transition hover:brightness-110 ">
-            <img src="{{ asset('/assets/images/pptimages/n2-2.png') }}" alt="" class="w-[18vw]" >
+            <img src="{{ asset('/assets/images/pptimages/n2-2.png') }}" alt="" class="w-[15vw]" >
         </a>
     </div>
 
 
 
 
-    <div id="buttons" class="absolute top-[30px] right-[60px] flex flex-row gap-6 z-90">
+    <div id="buttons" class="absolute flex flex-row gap-6 z-90">
         <!-- Return Button (hidden initially) -->
         <a href="{{ route('isteam') }}" id="returnButton">
             <img src="{{ asset('assets/images/pptimages/return.png') }}" />
@@ -73,7 +73,7 @@
 
         <!-- Close Button -->
         <button id="closeButton">
-            <img class=" w-[35px] h-[49px] z-[999]" src="{{ asset('assets/images/pptimages/cancel.png') }}" />
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
         </button>
     </div>
 @endsection

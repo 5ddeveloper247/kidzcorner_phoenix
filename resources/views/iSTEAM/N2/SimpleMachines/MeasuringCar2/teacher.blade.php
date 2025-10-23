@@ -37,7 +37,7 @@
     {{-- slide 2 --}}
     <div class=" slide flex text-2xl text-white flex-col t-slide justify-start text-start">
         <div>
-            <h2 class="font-bold t-title">Preparations:</h2>
+            <h2 class="font-bold t-title t-title">Preparations:</h2>
             <ul class="list-disc ">
                 <li>Each group a measuring car (from the last lesson)</li>
             </ul>
@@ -51,7 +51,7 @@
     {{-- slide 3 --}}
     <div class=" slide flex text-2xl text-white flex-col t-slide justify-start text-start">
         <div>
-            <h2 class="font-bold t-title">What you need to do before the lesson:</h2>
+            <h2 class="font-bold t-title t-title">What you need to do before the lesson:</h2>
             <ul class="list-disc ">
                 <li> A height adjustable inclined plane for all children or each group (set up with any
                     suitable items; can form with a board or plank and 3 boxes of same heights)
@@ -62,7 +62,7 @@
         <div class="flex items-center">
             <img src="{{ asset('assets/images/N2/SimpleMachines/b22.png') }}" class="w-[636px]" />
             <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt=""
-                class="absolute teacher-img1 float-right" />
+                class="absolute teacher-img1" />
         </div>
 
     </div>
@@ -71,7 +71,7 @@
     {{-- slide 4 --}}
     <div class="text-white flex flex-col t-slide text-start text-2xl slide hidden">
         <div>
-            <h2 class="font-bold t-title ">What you need to do before the lesson:</h2>
+            <h2 class="font-bold t-title t-title ">What you need to do before the lesson:</h2>
             <ul class="list-disc">
                 <li>Be familiar with the name of the parts in the lego set.</li>
             </ul>
@@ -86,7 +86,7 @@
     {{-- slide 5 --}}
     <div class="text-white flex flex-col t-slide text-start text-2xl slide hidden">
         <div>
-            <h2 class="font-bold t-title ">Things to note during hands-on sessions:</h2>
+            <h2 class="font-bold t-title t-title ">Things to note during hands-on sessions:</h2>
             <ul class="list-disc">
                 <li>Encourage children to always discuss and make decisions as a group to complete the mission.</li>
                 <li>Always encourage children to attempt on their own before prompting.</li>

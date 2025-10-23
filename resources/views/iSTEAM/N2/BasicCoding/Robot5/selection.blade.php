@@ -79,17 +79,17 @@
         <div class="flex items-center justify-around w-full">
 
             {{-- Lesson Button --}}
-            <a href="{{ route('Robot4Lesson') }}" id="Lesson" class="flex flex-col gap-0">
+            <a href="{{ route('Robot5Lesson') }}" id="Lesson" class="flex flex-col gap-0">
                 <img src="/assets/images/pptimages/lesson-btn.png" />
 
-                 
+
 
             </a>
             {{-- Teacher Button --}}
-            <a href="{{ route('Robot4Teacher') }}" id="Lesson" class="flex flex-col gap-0">
+            <a href="{{ route('Robot5Teacher') }}" id="Lesson" class="flex flex-col gap-0">
                 <img src="/assets/images/pptimages/teacher-btn.png" />
 
-                 
+
 
             </a>
         </div>
@@ -97,31 +97,21 @@
 
 
 
- <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
+    <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
 
         <!-- Return Button -->
-        <a href="{{ url('Robot4') }}"
-         
-    id="returnButton">
-
-            <img 
-                src="{{ asset('assets/images/pptimages/return.png') }}" />
+        <a href="{{ route('Robot5') }}" id="returnButton">
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
         <!-- Home Button -->
-        <button
-          id="homeButton">
-            <img 
-                src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
         <button id="closeButton">
-           
-<img  src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-   
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
         </button>
 
     </div>
-
-
 @endsection

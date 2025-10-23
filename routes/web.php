@@ -252,22 +252,22 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
     // =========================
     // Blacklight
     Route::get('/lightform/blacklight', function () {
-        return view('iSTEAM.N1.lightforms.Blacklight.index');
+        return view('iSTEAM.N1.lightforms.BlackLight.index');
     })->name('blacklight');
 
-    // Blacklight Choice
+    // BlackLight Choice
     Route::get('/blacklightSelection', function () {
-        return view('iSTEAM.N1.lightforms.Blacklight.selection');
+        return view('iSTEAM.N1.lightforms.BlackLight.selection');
     })->name('blacklightSelection');
 
-    // Blacklight Lesson
+    // BlackLight Lesson
     Route::get('/lightform/blacklight/lesson', function () {
-        return view('iSTEAM.N1.lightforms.Blacklight.lesson');
+        return view('iSTEAM.N1.lightforms.BlackLight.lesson');
     })->name('blacklightLesson');
 
-    // Blacklight Teacher
+    // BlackLight Teacher
     Route::get('/lightform/blacklight/teacher', function () {
-        return view('iSTEAM.N1.lightforms.Blacklight.teacher');
+        return view('iSTEAM.N1.lightforms.BlackLight.teacher');
     })->name('blacklightTeacher');
 
 
@@ -306,22 +306,22 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
     // =========================
     // Identify Shapes
     Route::get('/basicStructure/identifyShapes', function () {
-        return view('iSTEAM.N1.basicStructure.IdentifyShapes.index');
+        return view('iSTEAM.N1.basicStructure.identifyShapes.index');
     })->name('identifyShapes');
 
     // Identify Shapes Choice
     Route::get('/identifyShapesSelection', function () {
-        return view('iSTEAM.N1.basicStructure.IdentifyShapes.selection');
+        return view('iSTEAM.N1.basicStructure.identifyShapes.selection');
     })->name('identifyShapesSelection');
 
     // Identify Shapes Lesson
     Route::get('/basicStructure/identifyShapes/lesson', function () {
-        return view('iSTEAM.N1.basicStructure.IdentifyShapes.lesson');
+        return view('iSTEAM.N1.basicStructure.identifyShapes.lesson');
     })->name('identifyShapesLesson');
 
     // Identify Shapes Teacher
     Route::get('/basicStructure/identifyShapes/teacher', function () {
-        return view('iSTEAM.N1.basicStructure.IdentifyShapes.teacher');
+        return view('iSTEAM.N1.basicStructure.identifyShapes.teacher');
     })->name('identifyShapesTeacher');
 
 

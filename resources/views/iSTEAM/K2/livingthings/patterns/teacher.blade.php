@@ -5,7 +5,7 @@
     {{-- sldie 1  --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="  font-bold">Children will be able to:</h2>
+            <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
                 <li>Know that fingerprints are unique because they are formed based on individual growing experience while
                     still in the mother's womb</li>
@@ -44,7 +44,7 @@
     {{-- slide 2 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Preparations for Individual Activity - Which fingerprint pattern do you have on each
+            <h2 class="font-bold t-title">Preparations for Individual Activity - Which fingerprint pattern do you have on each
                 finger? :</h2>
             <ul class="list-disc ">
                 <li>A few magnifying glasses (optional; use in case children cannot
@@ -62,7 +62,7 @@
     {{-- sldie 3 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-center gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Preparations for Group Activity - Fingerprint Patterns Of The Class:</h2>
+            <h2 class="font-bold t-title">Preparations for Group Activity - Fingerprint Patterns Of The Class:</h2>
             <ul class="list-disc">
                 <li>2 sheets of big papers (based on the number of children in the class,
                     draw a table as shown below in a paper beforehand; you are going to
@@ -80,7 +80,7 @@
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold">Notes:</h2>
+                <h2 class="font-bold t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
                     <li>
                         If you see
@@ -99,7 +99,7 @@
                     <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
                     </li>
                     <li>
-                        Click on this <span class="font-bold">shortcut icon</span>
+                        Click on this <span class="font-bold t-title">shortcut icon</span>
                         <span
                             class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
                             <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"

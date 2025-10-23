@@ -432,7 +432,7 @@
         <p class="note">Note: Encourage children to describe how a big plant grow from a small seed.</p>
         <!-- Video Trigger Button -->
         <div data-property-1="Default"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2">
+            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
       <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -448,7 +448,7 @@
         <h2 class="title stroke">This is the growing process of a sample seed.</h2>
         <!-- Video Trigger Button -->
         <div data-property-1="Default"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2">
+            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
       <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -482,7 +482,7 @@
         <p class="note">Note: Encourage children to describe the life cycle of an apple tree.</p>
         <!-- Video Trigger Button -->
         <div data-property-1="Default"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2">
+            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
       <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -493,7 +493,7 @@
             which will grow into new plants.</h2>
         <!-- Video Trigger Button -->
         <div data-property-1="Default"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2">
+            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
       <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>

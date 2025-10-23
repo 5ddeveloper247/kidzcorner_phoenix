@@ -6,7 +6,7 @@
 
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="  font-bold">Children will be able to:</h2>
+            <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
                 <li>Know the basic characteristics of bacteria</li>
                 <li>Know that there are good and bad bacteria</li>
@@ -41,7 +41,7 @@
     {{-- slide 2 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Preparations:</h2>
+            <h2 class="font-bold t-title">Preparations:</h2>
             <ul class="list-disc ">
                 <li>2 Petri dishes with nutrient agar</li>
                 <li>Cotton buds</li>
@@ -51,7 +51,7 @@
                 <li>1 disinfectant spray</li>
                 <li>1 dirty shoe (a sandal or slipper is easier for preparation of test samples)</li>
                 <br>
-                <h2 class="font-bold">Definition of some words:</h2>
+                <h2 class="font-bold t-title">Definition of some words:</h2>
                 <li>Antibiotics - medicine used to kill bacteria and treat infections</li>
                 <li>Antiseptics - things used to kill bacteria by applying on the skin</li>
                 <li>Petri dish - a flat dish with lid that scientists use to grow tiny living things such as bacteria</li>
@@ -138,7 +138,7 @@
     {{-- sldie 8 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">What you need to know or do before the lesson:</h2>
+            <h2 class="font-bold t-title">What you need to know or do before the lesson:</h2>
             <ul class="list-disc ">
                 <li>Name each robot with a unique identifier (preferably short). Label each robot
                     and a matching tablet with a nametag (sample shown: the nametag is pasted at
@@ -157,7 +157,7 @@
     {{-- sldie 9 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">What you need to know or do before the lesson:</h2>
+            <h2 class="font-bold t-title">What you need to know or do before the lesson:</h2>
             <ul class="list-disc ">
                 <li>Download Blockly Application from App Store (or Google Play) for each tablet.</li>
             </ul>
@@ -173,7 +173,7 @@
     {{-- sldie 10 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">What you need to know or do before the lesson:</h2>
+            <h2 class="font-bold t-title">What you need to know or do before the lesson:</h2>
             <ul class="list-disc ">
                 <li>Blockly is a drag-and-drop basic programming application. Here are the
                     different features in Blockly.</li>
@@ -190,7 +190,7 @@
     {{-- sldie 11 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">What you need to know or do before the lesson:</h2>
+            <h2 class="font-bold t-title">What you need to know or do before the lesson:</h2>
             <ul class="list-disc ">
                 <li>Configure each robot using Blockly on its matching tablet with these steps:
                     <ul class="list-decimal">
@@ -210,7 +210,7 @@
     {{-- sldie 11 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">What you need to know or do before the lesson:</h2>
+            <h2 class="font-bold t-title">What you need to know or do before the lesson:</h2>
             <ul class="list-disc ">
                 <li>Configure each robot using Blockly on its matching tablet with these steps:
                     <ul>
@@ -230,7 +230,7 @@
     {{-- sldie 12 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">What you need to know or do before the lesson:</h2>
+            <h2 class="font-bold t-title">What you need to know or do before the lesson:</h2>
             <ul class="list-disc ">
                 <li>Configure each robot using Blockly on its matching tablet with these steps:
                     <ul>
@@ -250,7 +250,7 @@
     {{-- sldie 13 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">What you need to know or do before the lesson:</h2>
+            <h2 class="font-bold t-title">What you need to know or do before the lesson:</h2>
             <ul class="list-disc ">
                 <li>Configure each robot using Blockly on its matching tablet with these steps:
                     <ul>
@@ -274,7 +274,7 @@
     {{-- sldie 14 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">What you need to know or do before the lesson:</h2>
+            <h2 class="font-bold t-title">What you need to know or do before the lesson:</h2>
             <ul class="list-disc ">
                 <li>If a robot keeps moving on its own, it means that it's yet to be synchronised </li>
                 <li>To find out how to take care or clean the robot, kindly watch this video:
@@ -295,7 +295,7 @@
     {{-- sldie 15 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-15 text-start">
         <div>
-            <h2 class="font-bold">Reminders or advice during hands-on session:</h2>
+            <h2 class="font-bold t-title">Reminders or advice during hands-on session:</h2>
             <ul class="list-disc ">
                 <li>Always hold a robot or a tablet with both your hands (to show your care and prevent the tools from
                     spoiling easily).</li>
@@ -307,7 +307,7 @@
             </ul>
         </div>
         <div>
-            <h2 class="font-bold">Possible questions during hands-on sessions:</h2>
+            <h2 class="font-bold t-title">Possible questions during hands-on sessions:</h2>
             <ul class="list-disc ">
                 <li>What is the application used to programme the robot?</li>
                 <li>How do you make sure that Blockly finds the correct robot?</li>
@@ -321,7 +321,7 @@
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold">Notes:</h2>
+                <h2 class="font-bold t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
                     <li>
                         If you see
@@ -340,7 +340,7 @@
                     <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
                     </li>
                     <li>
-                        Click on this <span class="font-bold">shortcut icon</span>
+                        Click on this <span class="font-bold t-title">shortcut icon</span>
                         <span
                             class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
                             <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"

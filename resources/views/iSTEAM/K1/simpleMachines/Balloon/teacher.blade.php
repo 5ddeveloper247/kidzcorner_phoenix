@@ -5,7 +5,7 @@
     {{-- sldie 1  --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="  font-bold">Children will be able to:</h2>
+            <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
                 <li>Set up a Rube Goldberg Machine that includes a simple machine – <strong>wedge</strong></li>
                 <li>Learn about the basic concept of force (<strong>push</strong>)</li>
@@ -37,7 +37,7 @@
     {{-- slide 2 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold  !text-white">Preparations:</h2>
+            <h2 class="font-bold t-title  !text-white">Preparations:</h2>
             <div>
                 <ul class="list-disc ">
                     <li>Some dominoes</li>
@@ -64,7 +64,7 @@
     {{-- sldie 3 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-middle align-middle gap-y-10 text-start">
         <div>
-            <h2 class="font-bold !text-start !text-white">Things to consider for preparation:</h2>
+            <h2 class="font-bold t-title !text-start !text-white">Things to consider for preparation:</h2>
             <div>
                 <ul class="list-disc ">
                     <li>You may provide a toy track or handmade track for children to set up the
@@ -89,7 +89,7 @@
     {{-- sldie 4 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-middle align-middle gap-y-10 text-start">
         <div>
-            <h2 class="font-bold !text-start !text-white">Things to consider for preparation:</h2>
+            <h2 class="font-bold t-title !text-start !text-white">Things to consider for preparation:</h2>
             <div>
                 <ul class="list-disc ">
                     <li>As a reference, the track used in the lesson is formed with a vanguard sheet.
@@ -114,7 +114,7 @@
 
     <div class=" slide flex text-2xl text-white flex-col justify-middle align-middle gap-y-10 text-start">
         <div>
-            <h2 class="font-bold !text-start !text-white">Things to consider for preparation:</h2>
+            <h2 class="font-bold t-title !text-start !text-white">Things to consider for preparation:</h2>
             <div>
                 <ul class="list-disc ">
                     <li>Stuff crushed newspaper in a paper roll to make it sturdy. Make sure the needle is
@@ -144,7 +144,7 @@
     {{-- <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start"> --}}
     <div class=" slide flex text-2xl text-white flex-col justify-middle align-middle gap-y-10 text-start">
         <div>
-            <h2 class="font-bold !text-start !text-white tracking-wide leading-loose">Things to consider for preparation:
+            <h2 class="font-bold t-title !text-start !text-white tracking-wide leading-loose">Things to consider for preparation:
             </h2>
             <div>
                 <ul class="list-disc  tracking-wide leading-loose">
@@ -167,7 +167,7 @@
     {{-- sldie 5 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-middle align-middle gap-y-10 text-start">
         <div>
-            <h2 class="font-bold !text-start !text-white">Things to consider during hands-on session:</h2>
+            <h2 class="font-bold t-title !text-start !text-white">Things to consider during hands-on session:</h2>
             <div>
                 <ul class="list-disc ">
                     <li>Guide children to use a big box or other suitable materials to create a platform for
@@ -192,7 +192,7 @@
     {{-- sldie 6 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-middle align-middle gap-y-10 text-start">
         <div>
-            <h2 class="font-bold !text-start !text-white">Things to consider during hands-on session:</h2>
+            <h2 class="font-bold t-title !text-start !text-white">Things to consider during hands-on session:</h2>
             <div>
                 <ul class="list-disc ">
                     <li>Guide children to fix the balloon in a suitable container with tape. Ensure that
@@ -217,7 +217,7 @@
     {{-- slide 7 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-middle align-middle gap-y-10 text-start">
         <div>
-            <h2 class="font-bold !text-start !text-white">Things to consider during hands-on session:</h2>
+            <h2 class="font-bold t-title !text-start !text-white">Things to consider during hands-on session:</h2>
             <div>
                 <ul class="list-disc ">
                     <li>Guide children to raise the rod (if needed) with the help of dominoes, so that
@@ -244,7 +244,7 @@
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold">Notes:</h2>
+                <h2 class="font-bold t-title">Notes:</h2>
                 <ul class="list-disc ">
                     <li>
                         If you see
@@ -268,7 +268,7 @@
 
                     <li>Click on this shortcut icon if you need to go to some <br>
                         parts of the lesson quickly.</li>
-                    Click on this <span class="font-bold">shortcut icon</span>
+                    Click on this <span class="font-bold t-title">shortcut icon</span>
                     <span
                         class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
                         <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
@@ -292,14 +292,14 @@
         <h2 class="title stroke ">Learning Centre Idea</h2>
         <div class="text-start flex flex-col gap-10">
             <ul>
-                <h2 class="font-bold  !text-white">Poke a Play Dough Ball Machine</h2>
+                <h2 class="font-bold t-title  !text-white">Poke a Play Dough Ball Machine</h2>
                 <li>Guide children to raise the rod (if needed) with the help of dominoes, so that
                     the needle is aimed at the middle of the balloon
                 </li>
             </ul>
 
             <ul>
-                <h2 class="font-bold  !text-white">What to do:</h2>
+                <h2 class="font-bold t-title  !text-white">What to do:</h2>
                 <li>Set up a Rube Goldberg Machine that will always poke a ball of
                     play dough successfully.</li>
             </ul>
@@ -352,7 +352,7 @@
 
         <button
             class="nextButton ">
-                        <img src="{{ asset('assets/images/pptimages/return.png') }}" />
+                        <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
 
         </button>
     </div>

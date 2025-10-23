@@ -792,7 +792,7 @@ through air and fly very fast easily.</h2>
 
         <button
             class="nextButton ">
-                        <img src="{{ asset('assets/images/pptimages/return.png') }}" />
+                        <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
 
         </button>
     </div>

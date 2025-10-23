@@ -3,7 +3,7 @@
 
 
 @section('content')
-    <div class="board w-[1267px] h-[734px] flex flex-col justify-center items-center">
+    <div class="board w-[55vw]   flex flex-col justify-center items-center">
 
         <h2 class="text-[45px] text-[#F7B94A] font-extrabold stroke">Basic Structures</h2>
 
@@ -59,7 +59,7 @@
     </div>
 
     {{-- Top Buttons --}}
-    <div id="buttons" class="absolute top-[30px] right-[60px] flex flex-row gap-6 z-90">
+    <div id="buttons" class="absolute flex flex-row gap-6 z-90">
 
         <!-- Return Button -->
         <a href="{{ route('N1') }}" id="returnButton">

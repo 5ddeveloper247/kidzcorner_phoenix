@@ -270,7 +270,7 @@
             Do you know how do fish breathe in the water?</h2>
         <!-- Video Trigger Button -->
         <div data-property-1="Default"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2">
+            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
       <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -282,7 +282,7 @@
             gills obtain air from the water and then force the water to go out.</h2>
         <!-- Video Trigger Button -->
         <div data-property-1="Default"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2">
+            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
       <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -315,7 +315,7 @@
         <p class="note">Note: Explain to children that we need air to stay alive but not for balls.</p>
         <!-- Video Trigger Button -->
         <div data-property-1="Default"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2">
+            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
       <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -348,7 +348,7 @@
         <p class="note">Note: Have children think and share their views.</p>
         <!-- Video Trigger Button -->
         <div data-property-1="Default"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2">
+            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
       <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -360,7 +360,7 @@
             The battery power enables it to move on its own.</h2>
         <!-- Video Trigger Button -->
         <div data-property-1="Default"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2">
+            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
       <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>

@@ -239,7 +239,7 @@
             dusting for a fingerprint using a brush with overloaded powder may smear the print.</p>
         <!-- Video Trig ger Button -->
         <div data-property-1="Default"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2">
+            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
       <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -258,7 +258,7 @@
             the print will not be wiped away (only the bristle tips of the brush will touch the fingerprint surface).</p>
         <!-- Video Trigger Button -->
         <div data-property-1="Default"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2">
+            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
       <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -288,7 +288,7 @@
         <p class="note text-center">Note: Demonstrate how to do it. Remind children to hold only the edges of the tape.</p>
         <!-- Video Trigger Button -->
         <div data-property-1="Default"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2">
+            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
       <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -305,7 +305,7 @@
             If the print gets smeared, encourage children to clean the mirror and redo the activity from step 1.</p>
         <!-- Video Trigger Button -->
         <div data-property-1="Default"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2">
+            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
       <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -360,7 +360,7 @@
             to the oils of fingerprints making the prints visible.</h2>
         <!-- Video Trigger Button -->
         <div data-property-1="Default"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2">
+            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
       <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>

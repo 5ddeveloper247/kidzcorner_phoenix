@@ -9,7 +9,7 @@
     {{-- sldie 1 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="  font-bold">Children will be able to:</h2>
+            <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
                 <li>Further explore and learn about domino effects (chain reaction)</li>
                 <li>Learn about the basic concept of force (push)</li>
@@ -34,7 +34,7 @@
     {{-- slide 2 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start w-[75%]">
         <div>
-            <h2 class="font-bold">Preparations for Class Activity I:</h2>
+            <h2 class="font-bold t-title">Preparations for Class Activity I:</h2>
             <ul class="list-disc ">
                 <li>Each child: 25 dominoes</li>
             </ul>
@@ -50,7 +50,7 @@
     {{-- slide 3 --}}
     <div class=" slide flex text-2xl text-white justify-start gap-y-10 text-start ">
         <div>
-            <h2 class="font-bold">Preparations for Class Activity I:</h2>
+            <h2 class="font-bold t-title">Preparations for Class Activity I:</h2>
             <ul class="list-disc ">
                 <li> Domino toppling game requires a lot of patience, hard work, dedication, and perseverance.
                     Always praise children for their effort. When they fail, compliment the work they did and
@@ -72,7 +72,7 @@
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold">Notes:</h2>
+                <h2 class="font-bold t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
                     <li>
                         If you see
@@ -89,7 +89,7 @@
                     <li>Emphasise and use the keywords during hands-on sessions.</li>
                     <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.</li>
                     <li>
-                        Click on this <span class="font-bold">shortcut icon</span>
+                        Click on this <span class="font-bold t-title">shortcut icon</span>
                         <span
                             ><img src="{{ asset('assets/images/pptimages/home-btn.png') }}"
                                 class="home-btn" />

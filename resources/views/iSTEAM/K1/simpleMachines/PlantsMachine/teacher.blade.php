@@ -9,14 +9,14 @@
     {{-- sldie 23  --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-3 text-start">
 
-        <h2 class="font-bold  !text-white">Children will be able to:</h2>
+        <h2 class="font-bold t-title  !text-white">Children will be able to:</h2>
 
         <ul class="list-disc">
             <li>Set up a Rube Goldberg Machine that includes a simple machine - <br>pulley</li>
             <li>Explore and Learn about wheel and axle</li>
             <li>Develop understanding through inquiry</li>
             <br><br>
-            <h2 class="font-bold  !text-white">Keywords:</h2>
+            <h2 class="font-bold t-title  !text-white">Keywords:</h2>
             <li>Rube Goldberg Machine</li>
             <li>Pulley</li>
             <li>Inclined Plane</li>
@@ -131,7 +131,7 @@
         
 
         <ul class="list-disc">
-            <h2 class="font-bold  !text-white">Things to consider for preparations:</h2>
+            <h2 class="font-bold t-title  !text-white">Things to consider for preparations:</h2>
             <li>You may provide a toy track or handmade track for children to set up the <br>
       machine, as long as the track is sturdy enough to support the weight <br> 
       and size of the marble. Alternatively, you may add support such as a <br>
@@ -152,7 +152,7 @@
         
 
         <ul class="list-disc ">
-            <h2 class="font-bold  !text-white">Things to consider during hands-on session:</h2>
+            <h2 class="font-bold t-title  !text-white">Things to consider during hands-on session:</h2>
             <li>Ask questions to prompt children share and try out their ideas. Some possible <br>
      questions are listed in the lesson, you may add on questions based on children's</li>
      <li>Fix the pulley to a strong support. Be careful of safety at all times.</li>
@@ -170,7 +170,7 @@
         
 
         <ul class="list-disc">
-            <h2 class="font-bold  !text-white">Things to consider during hands-on session:</h2>
+            <h2 class="font-bold t-title  !text-white">Things to consider during hands-on session:</h2>
             <li>Guide children to use a tissue box and some books to raise the height and <br>
      create inclined tracks with a paper roll and a track.</li>
     </ul> <br>
@@ -190,7 +190,7 @@
         
 
         <ul class="list-disc">
-            <h2 class="font-bold  !text-white">Things to consider during hands-on session:</h2>
+            <h2 class="font-bold t-title  !text-white">Things to consider during hands-on session:</h2>
             <li>Guide children to do these: to position the container, consider the height of the</li>
             <li>container and its distance from the table such that the marbles would fall in it;</li>
             <li>place the plant under the cup such that water would pour on it when the cup tilts.</li>
@@ -210,7 +210,7 @@
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold">Notes:</h2>
+                <h2 class="font-bold t-title">Notes:</h2>
                 <ul class="list-disc ">
                     <li>
                         If you see
@@ -234,7 +234,7 @@
 
                     <li>Click on this shortcut icon if you need to go to some <br>
                         parts of the lesson quickly.</li>
-                    Click on this <span class="font-bold">shortcut icon</span>
+                    Click on this <span class="font-bold t-title">shortcut icon</span>
                     <span
                         class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
                         <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
@@ -260,15 +260,15 @@
     {{--  slide 33 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start items-center gap-[5rem] text-start">
 
-        <h2 class="font-bold  title stroke ">Learning Centre Idea
+        <h2 class="font-bold t-title  title stroke ">Learning Centre Idea
         </h2>
 
         <ul class="!text-start">
-            <h2 class="font-bold  !text-white">Tilt a Cup Machine</h2>
+            <h2 class="font-bold t-title  !text-white">Tilt a Cup Machine</h2>
             <li>What and how to set up:</li>
             <li>Place things as listed in preparations here. Replace the potted plant <br>with an empty container and the water will small pom-poms.</li>
             <br> <br>
-            <h2 class="font-bold  !text-white">What to do:</h2>
+            <h2 class="font-bold t-title  !text-white">What to do:</h2>
             <li>Set up a Rube Goldberg Machine that will always tilt a cup <br>
 successfully.</li>
         </ul>

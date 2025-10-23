@@ -5,7 +5,7 @@
     {{-- sldie 1  --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="  font-bold">Children will be able to:</h2>
+            <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
                 <li>Learn what a simple machine is</li>
                 <li>Explore and learn about the characteristics of a simple machine - inclined plane</li>
@@ -38,7 +38,7 @@
     {{-- slide 2 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Preparations:</h2>
+            <h2 class="font-bold t-title">Preparations:</h2>
             <div class="flex   justify-between">
                 <ul class="list-disc ">
                     <li>1 height adjustable inclined plane (set up with any suitable items; can form with a board or
@@ -62,7 +62,7 @@
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
 
         <div>
-            <h2 class="font-bold">how to do the experiment and things to consider:</h2>
+            <h2 class="font-bold t-title">how to do the experiment and things to consider:</h2>
             <div class="flex   justify-between">
                 <ul class="list-decimal ">
                     <li>Have children roll a car down an inclined plane to see how far it goes.
@@ -82,7 +82,7 @@
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
 
         <div>
-            <h2 class="font-bold">how to do the experiment and things to consider:</h2>
+            <h2 class="font-bold t-title">how to do the experiment and things to consider:</h2>
             <div class="flex   justify-between">
                 <ul class="list-none">
                     <li>
@@ -110,7 +110,7 @@
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
 
         <div>
-            <h2 class="font-bold">how to do the experiment and things to consider:</h2>
+            <h2 class="font-bold t-title">how to do the experiment and things to consider:</h2>
             <div class="flex   justify-between">
                 <ul class="list-none ">
                     <li>
@@ -129,7 +129,7 @@
     {{-- sldie 6 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">To carry out this experiment successfully, you may consider:</h2>
+            <h2 class="font-bold t-title">To carry out this experiment successfully, you may consider:</h2>
             <div class="flex   justify-between">
                 <ul class="list-disc ">
 
@@ -159,7 +159,7 @@
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold">Notes:</h2>
+                <h2 class="font-bold t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
                     <li>
                         If you see
@@ -193,7 +193,7 @@
                     <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
                     </li>
                     <li>
-                        Click on this <span class="font-bold">shortcut icon</span>
+                        Click on this <span class="font-bold t-title">shortcut icon</span>
                         <span
                             class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
                             <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
@@ -215,7 +215,7 @@
 
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold title stroke !text-center">Which height of the inclined plane do you think <br>
+            <h2 class="font-bold t-title title stroke !text-center">Which height of the inclined plane do you think <br>
                 will make the car go the longest distance?</h2>
 
 
@@ -236,11 +236,11 @@
         <div>
             <div class="!text-center">
 
-                <h2 class="font-bold title stroke  mb-3">Learning Centre Idea
+                <h2 class="font-bold t-title title stroke  mb-3">Learning Centre Idea
                 </h2>
             </div>
             <br>
-            <h2 class="font-bold  !text-white">How to make the car move to the place that you want? </h2>
+            <h2 class="font-bold t-title  !text-white">How to make the car move to the place that you want? </h2>
 
             <ul class="list-none">
                 <li>What and how to set up: </li>
@@ -252,7 +252,7 @@
 <br>
 <br>
 
-            <h2 class="font-bold !text-white ">What to do: </h2>
+            <h2 class="font-bold t-title !text-white ">What to do: </h2>
 
             <ul class="list-none">
 

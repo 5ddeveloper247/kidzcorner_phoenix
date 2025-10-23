@@ -5,7 +5,7 @@
     {{-- sldie 1  --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="  font-bold">Children will be able to:</h2>
+            <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
                 <li>Understand the meaning of forward, backward, left and right</li>
                 <li>Know that distance is a length of space between two points</li>
@@ -43,7 +43,7 @@
     {{-- slide 2 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Preparations:</h2>
+            <h2 class="font-bold t-title">Preparations:</h2>
             <ul class="list-disc ">
                 <li>Ropes (for the mini activity to show distance between 2 people)</li>
                 <li>Measuring tapes (sample shown: tapes with colour decimetre divisions)</li>
@@ -59,7 +59,7 @@
     {{-- sldie 3 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Preparations:</h2>
+            <h2 class="font-bold t-title">Preparations:</h2>
             <ul class="list-disc ">
                 <li>Each group: a 50cm and a 90cm measuring strips (made from black craft
                     paper); Blu Tack (to fix the measuring strips on the floor)
@@ -77,7 +77,7 @@
     {{-- slide 4 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Preparations:</h2>
+            <h2 class="font-bold t-title">Preparations:</h2>
             <ul class="list-disc ">
                 <li>2 types of coding cards (print and laminate so that they are reusable)</li>
                 <li>Whiteboard marker pens</li>
@@ -95,7 +95,7 @@
     {{-- sldie 5 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Preparations:</h2>
+            <h2 class="font-bold t-title">Preparations:</h2>
             <ul class="list-disc ">
                 <li>The robots and tablets (refer to the teacher’s mode of Lesson 1 for guide on
                     what you need to know and do before the lesson)</li>
@@ -115,7 +115,7 @@
     {{-- sldie 6 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-15 text-start">
         <div>
-            <h2 class="font-bold">Reminders or advice during hands-on session:</h2>
+            <h2 class="font-bold t-title">Reminders or advice during hands-on session:</h2>
             <ul class="list-disc ">
                 <li>Always hold a robot or a tablet with both your hands (to show your care and prevent the tools from
                     spoiling easily).</li>
@@ -127,7 +127,7 @@
             </ul>
         </div>
         <div>
-            <h2 class="font-bold">Possible questions during hands-on sessions:</h2>
+            <h2 class="font-bold t-title">Possible questions during hands-on sessions:</h2>
             <ul class="list-disc ">
                 <li>What is distance?</li>
                 <li>What is the unit of measurement used in Blockly?</li>
@@ -141,7 +141,7 @@
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold">Notes:</h2>
+                <h2 class="font-bold t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
                     <li>
                         If you see
@@ -164,7 +164,7 @@
                     <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
                     </li>
                     <li>
-                        Click on this <span class="font-bold">shortcut icon</span>
+                        Click on this <span class="font-bold t-title">shortcut icon</span>
                         <span
                             class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
                             <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"

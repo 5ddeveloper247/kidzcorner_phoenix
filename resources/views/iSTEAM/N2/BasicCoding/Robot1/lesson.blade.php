@@ -1,9 +1,11 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
 
- 
+
 
 @section('content')
+    {{-- title --}}
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">Programme a Robot 1</h2>
 
 
     {{-- Slide 1 --}}
@@ -53,7 +55,7 @@
 
     {{-- slide 7 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="{{ asset('assets/images/N2/BasicCoding/br1.png') }}" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/br1.png') }}" class="large-img2" />
         <h2 class="title stroke text-center"> This is a <span class="text-white">robot</span>.
             A <span class="text-white">robot</span> is a <span class="text-white">machine</span>.</h2>
         <p class="note">Note: Display a robot. Guide children to talk about it’s physical look.</p>
@@ -61,7 +63,7 @@
 
     {{-- slide 8 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="{{ asset('assets/images/N2/BasicCoding/br2.png') }}" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/br2.png') }}" class="large-img2" />
         <h2 class="title stroke text-center"> This <span class="text-white">robot</span>
             can be programmed using its<span class="text-white"> pen controller</span>.</h2>
         <p class="note">Note: Display a pen controller. Guide children to count how many buttons are there on the pen.</p>
@@ -70,23 +72,31 @@
 
     {{-- slide 9 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="{{ asset('assets/images/N2/BasicCoding/br1.png') }}" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/br1.png') }}" class="large-img2" />
         <h2 class="title stroke text-center">This is the way to turn the robot on or off.</h2>
         <p class="note">Note: Demonstrate and then guide children to describe how to do so.</p>
+        <!-- Video Trigger Button -->
+        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
+        </div>
     </div>
 
 
     {{-- sldie 10 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="{{ asset('assets/images/N2/BasicCoding/br2.png') }}" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/br3.png') }}" class="large-img2" />
         <h2 class="title stroke text-center">This is the way to turn the pen controller on or off.</h2>
         <p class="note">Note: Demonstrate and then guide children to describe how to do so.</p>
+        <!-- Video Trigger Button -->
+        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
+        </div>
     </div>
 
 
     {{-- sldie 11 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="{{ asset('assets/images/N2/BasicCoding/br3.png') }}" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/br4.png') }}" class="large-img3" />
         <h2 class="title stroke text-center">These are facial expression <span class="text-white">programming
             </span> <span class="text-white">cards</span>.
             Each card tells the <span class="text-white">robot</span> what facial expression to show.
@@ -96,10 +106,14 @@
 
     {{-- slide 12 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="{{ asset('assets/images/N2/BasicCoding/br4.png') }}" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/br5.png') }}" class="large-img2" />
         <h2 class="title stroke text-center">This is how to use a pen controller to programme a robot
             to show a facial expression.</h2>
         <p class="note">Note: Demonstrate and then guide children to describe how to do so (use the pen to tap on a card).
+            <!-- Video Trigger Button -->
+        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
+        </div>
         </p>
     </div>
 
@@ -133,16 +147,21 @@
 
     {{-- sldie 15 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="{{ asset('assets/images/N2/BasicCoding/br18.png') }}" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/br18.png') }}" class="large-img2" />
         <h2 class="title stroke text-center">If you want the robot to show different facial expressions
             in an order, this is the way to programme.</h2>
+
         <p class="note">Note: Demonstrate and then guide children to describe how to do so.</p>
+        <!-- Video Trigger Button -->
+        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
+        </div>
     </div>
 
 
     {{-- sldie 16 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="{{ asset('assets/images/N2/BasicCoding/br6.png') }}" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/br6.png') }}" class="large-img2"/>
         <h2 class="title stroke text-center">You use this card to record a programme,
             so you may call it a record card.</h2>
     </div>
@@ -150,7 +169,7 @@
 
     {{-- sldie 17 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="{{ asset('assets/images/N2/BasicCoding/br7.png') }}" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/br7.png') }}" class="large-img2"/>
         <h2 class="title stroke text-center">You use this card to play a programme recorded,
             so you may call it a play card.</h2>
     </div>
@@ -172,14 +191,14 @@
     {{-- slide 19 --}}
     <div class="slide flex flex-col items-center justify-center  ">
         <h2 class="title stroke text-center">Learning Journal</h2>
-        <div class="w-[836px] h-[536px] bg-cover bg-center flex flex-col items-start justify-center"
+        <div class="w-[45vw] h-[45vh] bg-cover bg-center flex flex-col items-center justify-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
 
             <div class="text-start">
                 <p>Group Name:</p>
                 <p>Programmes created to tell a robot to show different facial expressions:</p>
             </div>
-            <img src="{{ asset('assets/images/N2/BasicCoding/br8.png') }}" />
+            <img src="{{ asset('assets/images/N2/BasicCoding/br8.png') }}" class="large-img2" />
         </div>
     </div>
 
@@ -190,34 +209,29 @@
     {{-- =================================================================== --}}
     {{-- Complete button --}}
     <div class="down-btn-container">
-        <button
-         class="doneButton">
- <img src="{{ asset('assets/images/pptimages/done.png') }}" />
+        <button class="doneButton">
+            <img src="{{ asset('assets/images/pptimages/done.png') }}" />
         </button>
     </div>
 
     {{-- Buttons --}}
- <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
+    <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
 
         <!-- Return Button -->
         <a id="returnButton">
- <img
-    src="{{ asset('assets/images/pptimages/return.png') }}" />
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
 
         <!-- Home Button -->
-        <button
-     id="homeButton">
-            <img 
-                src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
         <button id="closeButton">
-           
-            <img 
-                src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-    
+
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
+
         </button>
 
     </div>
@@ -225,9 +239,8 @@
     {{-- next Button --}}
     <div class="down-btn-container">
 
-        <button
-            class="nextButton ">
-                        <img src="{{ asset('assets/images/pptimages/return.png') }}" />
+        <button class="nextButton ">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
 
         </button>
     </div>
@@ -269,9 +282,12 @@
                 });
             });
 
-            // ✅ Return button
+            // ✅ Return button - redirect if on first slide
             returnButton.addEventListener("click", () => {
-                if (currentSlide > 0) {
+                if (currentSlide === 0) {
+                    // Redirect to route when on first slide
+                    window.location.href = "{{ route('Robot1Selection') }}";
+                } else if (currentSlide > 0) {
                     currentSlide--;
                     showSlide(currentSlide);
                 }

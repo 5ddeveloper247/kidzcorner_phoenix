@@ -9,7 +9,7 @@
     {{-- sldie 1 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="  font-bold">Children will be able to:</h2>
+            <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
                 <li>Create a Rube Goldberg Machine that includes at least three simple
                     machines together with friends</li>
@@ -41,7 +41,7 @@
     {{-- slide 2 --}}
     <div class=" slide flex flex-col text-2xl text-white justify-start gap-y-10 text-start w-[75%]">
         <div>
-            <h2 class="font-bold">Preparations:</h2>
+            <h2 class="font-bold t-title">Preparations:</h2>
             <div class="flex justify-center gap-20">
                 <ul class="list-disc ">
                     <li>Bells and toy animals</li>
@@ -82,7 +82,7 @@
     {{-- SLIDE 3 --}}
     <div class=" slide flex flex-col text-2xl text-white justify-start gap-y-10 text-start w-[75%]">
 
-        <h2 class="font-bold">Sample Rube Goldberg Machine 1 - raise a flag machine:</h2>
+        <h2 class="font-bold t-title">Sample Rube Goldberg Machine 1 - raise a flag machine:</h2>
         <img src="/assets/images/K1/cm/cm76.png" />
 
 
@@ -102,7 +102,7 @@
     {{-- SLIDE 4 --}}
     <div class=" slide flex flex-col text-2xl text-white justify-start gap-y-10 text-start w-[75%]">
 
-        <h2 class="font-bold">3 simple machines in the raise a flag machine:</h2>
+        <h2 class="font-bold t-title">3 simple machines in the raise a flag machine:</h2>
         <img src="/assets/images/K1/cm/cm79.png" />
 
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute right-[250px] bottom-[150px]"
@@ -113,7 +113,7 @@
     {{-- SLIDE 5 --}}
     <div class=" slide flex flex-col text-2xl text-white justify-start gap-y-10 text-start w-[75%]">
 
-        <h2 class="font-bold">Sample Rube Goldberg Machine 2 - bottle recycling machine:</h2>
+        <h2 class="font-bold t-title">Sample Rube Goldberg Machine 2 - bottle recycling machine:</h2>
         <img src="/assets/images/K1/cm/cm77.png" />
 
 
@@ -133,7 +133,7 @@
     {{-- SLIDE 6 --}}
     <div class=" slide flex flex-col text-2xl text-white justify-start gap-y-10 text-start w-[75%]">
 
-        <h2 class="font-bold">5 simple machines in the bottle recycling machine:</h2>
+        <h2 class="font-bold t-title">5 simple machines in the bottle recycling machine:</h2>
 
         <div class="flex justify-center">
             <img src="/assets/images/K1/cm/cm80.png" />
@@ -148,7 +148,7 @@
 
     {{-- SLIDE 7 --}}
     <div class=" slide flex flex-col text-2xl text-white justify-start gap-y-10 text-start w-[75%]">
-        <h2 class="font-bold">Sample Rube Goldberg Machine 3 - trap a lizard/gecko machine:</h2>
+        <h2 class="font-bold t-title">Sample Rube Goldberg Machine 3 - trap a lizard/gecko machine:</h2>
         <img src="/assets/images/K1/cm/cm78.png" />
 
 
@@ -168,7 +168,7 @@
 
     {{-- SLIDE 8 --}}
     <div class=" slide flex flex-col text-2xl text-white justify-start gap-y-10 text-start w-[75%]">
-        <h2 class="font-bold">5 simple machines in the trap a gecko/lizard machine:</h2>
+        <h2 class="font-bold t-title">5 simple machines in the trap a gecko/lizard machine:</h2>
         <img src="/assets/images/K1/cm/cm83.png" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute right-[250px] bottom-[150px]"
             alt="Teacher" />
@@ -177,7 +177,7 @@
 
     {{-- SLIDE 8 --}}
     <div class=" slide flex flex-col text-2xl text-white justify-start gap-y-10 text-start w-[75%]">
-        <h2 class="font-bold">Things to consider during hands-on session:</h2>
+        <h2 class="font-bold t-title">Things to consider during hands-on session:</h2>
         <ul class="list-disc">
             <li>
                 Encourage children to generate ideas through discussion; respect each other's
@@ -219,7 +219,7 @@
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold">Notes:</h2>
+                <h2 class="font-bold t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
                     <li>
                         If you see
@@ -239,7 +239,7 @@
                     <li>Emphasise and use the keywords during hands-on sessions.</li>
                     <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.</li>
                     <li>
-                        Click on this <span class="font-bold">shortcut icon</span>
+                        Click on this <span class="font-bold t-title">shortcut icon</span>
                         <span
                             class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
                             <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"

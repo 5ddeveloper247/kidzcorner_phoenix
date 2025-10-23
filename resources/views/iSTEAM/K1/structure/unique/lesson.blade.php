@@ -239,7 +239,7 @@
 
         <button
             class="nextButton ">
-                        <img src="{{ asset('assets/images/pptimages/return.png') }}" />
+                        <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
 
         </button>
     </div>

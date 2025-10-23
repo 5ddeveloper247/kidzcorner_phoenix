@@ -543,7 +543,7 @@ of triangles and rectangles.</h2>
         <p class="note">Note: Encourage and guide the children to try.</p>
         <!-- Video Trigger Button -->
         <div data-property-1="Default"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2">
+            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
       <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -657,7 +657,7 @@ of triangles and rectangles.</h2>
 
         <button
             class="nextButton ">
-                        <img src="{{ asset('assets/images/pptimages/return.png') }}" />
+                        <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
 
         </button>
     </div>
@@ -703,13 +703,16 @@ of triangles and rectangles.</h2>
                 });
             });
 
-            // ✅ Return button
-            returnButton.addEventListener("click", () => {
-                if (currentSlide > 0) {
-                    currentSlide--;
-                    showSlide(currentSlide);
-                }
-            });
+           // ✅ Return button - redirect if on first slide
+returnButton.addEventListener("click", () => {
+    if (currentSlide === 0) {
+        // Redirect to route when on first slide
+        window.location.href = "{{ route('YourRouteName') }}";  
+    } else if (currentSlide > 0) {
+        currentSlide--;
+        showSlide(currentSlide);
+    }
+});
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {

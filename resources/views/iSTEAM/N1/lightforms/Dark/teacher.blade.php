@@ -35,7 +35,7 @@
     {{-- slide 2 --}}
     <div class="text-white flex text-start text-2xl slide hidden t-slide">
         <div>
-            <h2 class="font-bold t-title">Preparations for Class Activity I:</h2>
+            <h2 class="font-bold t-title t-title">Preparations for Class Activity I:</h2>
             <ul class="list-disc">
                 <li>Teachers need prepare a black box for children to use.</li>
                 <li>Suggested items for glow in the dark - stickers, stars, toy figurines or clock with the glow-in-the-dark
@@ -46,7 +46,7 @@
             </ul>
             <br>
             </ul>
-            <h2 class="font-bold t-title">Preparations for Class Activity II:</h2>
+            <h2 class="font-bold t-title t-title">Preparations for Class Activity II:</h2>
             <ul class="list-disc">
                 <li>Collect plastic transparent jars or bottles to make this glow jar/bottle.</li>
                 <li>Provide glow-in-the-dark stickers, figurines, stars or other toys.</li>
@@ -98,14 +98,14 @@
     <div class="text-white flex  flex-col justify-start gap-y-10 text-start text-2xl slide hidden t-slide">
         <h1 class="title  text-center stroke">Learning Centre Idea</h1>
         <div>
-            <h2 class="font-bold t-title">Glow in the box</h2>
+            <h2 class="font-bold t-title t-title">Glow in the box</h2>
             <h2>What and how to set up:</h2>
             <p>Provide materials such as black box, cubes, pom pom balls, manipulative
                 toys and other glow-in-dark toys and materials</p>
         </div>
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold t-title">What to do:</h2>
+                <h2 class="font-bold t-title t-title">What to do:</h2>
                 <ul class="mt-2 list-decimal space-y-1 pl-6">
                     <li> Invite children to explore with the materials provided</li>
                     <li> Put a toy in the black box and see if it glows in the dark.</li>

@@ -60,7 +60,7 @@
         </div>
         <div>
             <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt=""
-                class="absolute teacher-img1 float-right" />
+                class="absolute teacher-img1" />
         </div>
 
     </div>

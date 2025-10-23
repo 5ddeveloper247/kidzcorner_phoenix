@@ -81,7 +81,7 @@
         <h2 class="title">Each side of the giftbox is like a square! Let’s count how many squares are needed.</h2>
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video1')"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2">
+            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
       <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -92,7 +92,7 @@
         <h2 class="title">The gift box has 6 sides.</h2>
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video1')"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2">
+            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
       <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>

@@ -75,7 +75,7 @@
             the negative end (black wire) of the battery.</h2>
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video5')"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2">
+            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
       <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>

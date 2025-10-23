@@ -41,7 +41,7 @@
     {{-- slide 2 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div class="space-y-10">
-            <h2 class="font-bold">Preparations:</h2>
+            <h2 class="font-bold t-title">Preparations:</h2>
             <ul class="list-disc ">
                 <h2>Monoplane</h2>
                 <li>The propeller provides thrust for the plane to move forward.</li>
@@ -74,7 +74,7 @@
     {{-- sldie 3 --}}
     <div class=" slide text-start text-2xl text-white">
         <div>
-            <h2 class="font-bold">Additional info on wind tunnel test:</h2>
+            <h2 class="font-bold t-title">Additional info on wind tunnel test:</h2>
             <ul class="list-disc text-[#F7B94A] space-y-10">
                 <li>
                     <a href="https://news.cgtn.com/news/2022-01-05/How-China-uses-wind-tunnels-to-train-
@@ -97,7 +97,7 @@
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold">Notes:</h2>
+                <h2 class="font-bold t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
                     <li>
                         If you see
@@ -116,7 +116,7 @@
                     <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
                     </li>
                     <li>
-                        Click on this <span class="font-bold">shortcut icon</span>
+                        Click on this <span class="font-bold t-title">shortcut icon</span>
                         <span
                             class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
                             <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"

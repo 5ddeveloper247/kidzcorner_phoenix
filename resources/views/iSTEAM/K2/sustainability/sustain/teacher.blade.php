@@ -5,7 +5,7 @@
     {{-- sldie 1  --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="  font-bold">Children will be able to:</h2>
+            <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
                 <li>Understand the meaning of sustainability</li>
                 <li>Learn about how sustainability can help earth</li>
@@ -44,7 +44,7 @@
     {{-- slide 2 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Preparations:</h2>
+            <h2 class="font-bold t-title">Preparations:</h2>
             <ul class="list-disc ">
                 <li>
 3 bottles of the same size - cut out one side of the bottle to create an<br>
@@ -61,7 +61,7 @@
     {{-- sldie 3 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-center gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Preparations:</h2>
+            <h2 class="font-bold t-title">Preparations:</h2>
             <ul class="list-disc">
                 <li>For bottle A, plant some seeds 2-3 weeks before the activity</li>
                 <div class="flex gap-2 items-center">
@@ -82,7 +82,7 @@
     {{-- slide 4 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Preparations:</h2>
+            <h2 class="font-bold t-title">Preparations:</h2>
             <ul class="list-decimal">
                 <li>For bottle B, fill half the bottle with soil and add dried leaves and twigs on
      top of the soil (do not put too much such that water cannot reach the soil
@@ -96,7 +96,7 @@
 {{-- slide 4 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Preparations:</h2>
+            <h2 class="font-bold t-title">Preparations:</h2>
             <ul class="list-decimal">
                 <li>For bottle C, just fill half the bottle with soil.</li>
             </ul>
@@ -110,7 +110,7 @@
     {{-- slide 5 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Things to take note prior the class activity:</h2>
+            <h2 class="font-bold t-title">Things to take note prior the class activity:</h2>
             <ul>
                 <li>If you have drilled holes in the first bottle for the plants, please tape it up with masking tapes to 
                     avoid water sipping through the holes during the experiment.</li>
@@ -132,7 +132,7 @@
     {{-- sldie 6 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Things to take note prior the class activity:</h2>
+            <h2 class="font-bold t-title">Things to take note prior the class activity:</h2>
             <ul>
                 <li>Do expect muddy coloured water to flow out from the first bottle.</li>
                   <li>When comparing, you will see that there are some soil/dirt that flows into cup 2.
@@ -149,7 +149,7 @@
     {{-- sldie 7 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
+            <h2 class="font-bold t-title">How to make own set of fingerprints and things to consider:</h2>
            <ul>
                 <li>If you see <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s27.png') }}" /> next to a picture, click on the picture to watch the video
 Always ask questions to encourage children to think and share their ideas first 
@@ -176,7 +176,7 @@ Always ask questions to encourage children to think and share their ideas first
     {{-- sldie 7 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">When Glaciers Melt</h2><br>
+            <h2 class="font-bold t-title">When Glaciers Melt</h2><br>
            <p class="note">What and how to set up:<br>
 Print out pictures of natural resources such as tree, coal, cow, fish,<br>
 stone, iron etc. Print items that are not natural resources such as<br>
@@ -197,7 +197,7 @@ Encourage children to think what can the natural resources be<br>
     {{-- slide 9 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
+            <h2 class="font-bold t-title">How to make own set of fingerprints and things to consider:</h2>
             <ul>
                 <li>6. (A, B & C) Repeat the steps for other fingers. [Have all the A, B & C repeat steps 1-5 to complete
                     the fingerprint record of B. After that, have them change their roles to help one another complete the
@@ -212,7 +212,7 @@ Encourage children to think what can the natural resources be<br>
     {{-- slide 10 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
+            <h2 class="font-bold t-title">How to make own set of fingerprints and things to consider:</h2>
             <ul>
                 <li>7. Observe your fingerprints. [ Have children observe and compare their own set of fingerprints on the
                     record. Then have them share their views. ]</li>
@@ -226,7 +226,7 @@ Encourage children to think what can the natural resources be<br>
     {{-- slide 11 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
+            <h2 class="font-bold t-title">How to make own set of fingerprints and things to consider:</h2>
             <ul>
                 <li>8. Compare your fingerprints with friends. [ Have children observe and compare their fingerprints with
                     friends. Then have them share their views. ]</li>
@@ -243,7 +243,7 @@ Encourage children to think what can the natural resources be<br>
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold">Notes:</h2>
+                <h2 class="font-bold t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
                     <li>
                         If you see
@@ -262,7 +262,7 @@ Encourage children to think what can the natural resources be<br>
                     <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
                     </li>
                     <li>
-                        Click on this <span class="font-bold">shortcut icon</span>
+                        Click on this <span class="font-bold t-title">shortcut icon</span>
                         <span
                             class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
                             <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
@@ -412,13 +412,16 @@ Encourage children to think what can the natural resources be<br>
                 });
             });
 
-            // ✅ Return button
-            returnButton.addEventListener("click", () => {
-                if (currentSlide > 0) {
-                    currentSlide--;
-                    showSlide(currentSlide);
-                }
-            });
+           // ✅ Return button - redirect if on first slide
+returnButton.addEventListener("click", () => {
+    if (currentSlide === 0) {
+        // Redirect to route when on first slide
+        window.location.href = "{{ route('YourRouteName') }}";  
+    } else if (currentSlide > 0) {
+        currentSlide--;
+        showSlide(currentSlide);
+    }
+});
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {

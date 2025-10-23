@@ -15,7 +15,7 @@
         </div>
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video1')"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2">
+            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
       <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -140,7 +140,7 @@
         <p class="note">Note: Demo. Then have children take turns to try the step and share their views.</p>
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video2')"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2">
+            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
       <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -179,7 +179,7 @@
         <p class="note">Note: Demo. Then have children take turns to try the step and share their views.</p>
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video3')"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2">
+            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
       <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -275,7 +275,7 @@
         </p>
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video4')"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2">
+            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
       <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>

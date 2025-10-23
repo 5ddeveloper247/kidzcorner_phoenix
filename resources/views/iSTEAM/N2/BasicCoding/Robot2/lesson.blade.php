@@ -1,9 +1,11 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
 
- 
+
 
 @section('content')
+    {{-- title --}}
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">Programme A Robot 2</h2>
 
 
     {{-- Slide 1 --}}
@@ -26,13 +28,23 @@
     <div class="slide flex flex-col items-center justify-center  ">
         <img src="{{ asset('assets/images/N2/BasicCoding/br1.png') }}" />
         <h2 class="stroke title">This is the way to turn the robot on ot off.</h2>
+        <!-- Video Trigger Button -->
+        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
+        </div>
+
     </div>
 
     {{-- sldie 4 --}}
     <div class="slide flex flex-col items-center justify-center  ">
         <img src="{{ asset('assets/images/N2/BasicCoding/br3.png') }}" />
         <h2 class="stroke title">This is the way to turn the pen controller on ot off.</h2>
+        <!-- Video Trigger Button -->
+        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
+        </div>
     </div>
+
 
 
     {{-- sldie 5 --}}
@@ -74,6 +86,10 @@
         <h2 class="title stroke text-center">This <span class="text-white">programme</span> tells the <span
                 class="text-white">robot</span> to show different facial
             expressions based on the order of the <span class="text-white">programming cards</span>.</h2>
+        <!-- Video Trigger Button -->
+        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
+        </div>
     </div>
 
 
@@ -101,6 +117,10 @@
         <h2 class="title stroke text-center">Let’s use the <span class="text-white">pen controller</span> to record and play
             the <span class="text-white">programme</span> to see how the <span class="text-white">robot</span> move. </h2>
         <p class="note">Note: Duplicate he set-up in class. Encourage children to name the things used in this set-up.</p>
+        <!-- Video Trigger Button -->
+        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
+        </div>
     </div>
 
 
@@ -134,12 +154,10 @@
     {{-- slide 14 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="!text-white title stroke">Hands-on Time 1</h2>
-        <div class="flex items-center justify-center gap-x-10">
-            <img src="{{ asset('assets/images/N2/BasicCoding/sb8.png') }}" />
-            <div class="flex gap-0">
-                <p class="rotate-[90deg] max-w-fit">Graphic Guide (Start View)</p>
-                <img src="{{ asset('assets/images/N2/BasicCoding/sb9.png') }}" />
-            </div>
+        <div class="flex items-center justify-center gap-x-2">
+            <img src="{{ asset('assets/images/N2/BasicCoding/sb8.png') }}" class="large-img2" />
+
+            <img src="{{ asset('assets/images/N2/BasicCoding/sb9.png') }}" class="large-img3" />
         </div>
         <p class="note">Note: Have children layout the maze, use programming cards to plan the steps, record and play
             the programme to see how the robot move from the starting point to the end point.</p>
@@ -148,9 +166,9 @@
     {{-- sldie 15 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <div class="flex items-center justify-center gap-x-10">
-            <img src="{{ asset('assets/images/N2/BasicCoding/sb10.png') }}" />
+            <img src="{{ asset('assets/images/N2/BasicCoding/sb10.png') }}" class="large-img2" />
             <div class="flex gap-0">
-                <img src="{{ asset('assets/images/N2/BasicCoding/sb11.png') }}" />
+                <img src="{{ asset('assets/images/N2/BasicCoding/sb11.png') }}" class="large-img3" />
             </div>
         </div>
         <p class="note">Note: Have children layout the maze, use programming cards to plan the steps, record and play
@@ -161,9 +179,9 @@
     {{-- sldie 16 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <div class="flex items-center justify-center gap-x-10">
-            <img src="{{ asset('assets/images/N2/BasicCoding/sb12.png') }}" />
+            <img src="{{ asset('assets/images/N2/BasicCoding/sb12.png') }}" class="large-img2" />
             <div class="flex gap-0">
-                <img src="{{ asset('assets/images/N2/BasicCoding/sb13.png') }}" />
+                <img src="{{ asset('assets/images/N2/BasicCoding/sb13.png') }}" class="large-img3" />
             </div>
         </div>
         <p class="note">Note: Have children layout the maze, use programming cards to plan the steps, record and play
@@ -174,9 +192,9 @@
     {{-- sldie 17 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <div class="flex items-center justify-center gap-x-10">
-            <img src="{{ asset('assets/images/N2/BasicCoding/sb14.png') }}" />
+            <img src="{{ asset('assets/images/N2/BasicCoding/sb14.png') }}" class="large-img3" />
             <div class="flex gap-0">
-                <img src="{{ asset('assets/images/N2/BasicCoding/sb15.png') }}" />
+                <img src="{{ asset('assets/images/N2/BasicCoding/sb15.png') }}" class="large-img3" />
             </div>
         </div>
         <p class="note">Note: Have children layout the maze, use programming cards to plan the steps, record and play
@@ -187,9 +205,9 @@
     {{-- sldie 18 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <div class="flex items-center justify-center gap-x-10">
-            <img src="{{ asset('assets/images/N2/BasicCoding/sb16.png') }}" />
+            <img src="{{ asset('assets/images/N2/BasicCoding/sb16.png') }}" class="large-img3" />
             <div class="flex gap-0">
-                <img src="{{ asset('assets/images/N2/BasicCoding/sb17.png') }}" />
+                <img src="{{ asset('assets/images/N2/BasicCoding/sb17.png') }}" class="large-img3" />
             </div>
         </div>
         <p class="note">Note: Have children layout the maze, use programming cards to plan the steps, record and play
@@ -200,9 +218,9 @@
     {{-- sldie 19 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <div class="flex items-center justify-center gap-x-10">
-            <img src="{{ asset('assets/images/N2/BasicCoding/sb18.png') }}" />
+            <img src="{{ asset('assets/images/N2/BasicCoding/sb18.png') }}" class="large-img2" />
             <div class="flex gap-0">
-                <img src="{{ asset('assets/images/N2/BasicCoding/sb19.png') }}" />
+                <img src="{{ asset('assets/images/N2/BasicCoding/sb19.png') }}" class="large-img3" />
             </div>
         </div>
         <p class="note">Note: Have children layout the maze, use programming cards to plan the steps, record and play
@@ -212,9 +230,9 @@
     {{-- sldie 20 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <div class="flex items-center justify-center gap-x-10">
-            <img src="{{ asset('assets/images/N2/BasicCoding/sb20.png') }}" />
+            <img src="{{ asset('assets/images/N2/BasicCoding/sb20.png') }}" class="large-img2" />
             <div class="flex gap-0">
-                <img src="{{ asset('assets/images/N2/BasicCoding/sb21.png') }}" />
+                <img src="{{ asset('assets/images/N2/BasicCoding/sb21.png') }}" class="large-img3" />
             </div>
         </div>
         <p class="note">Note: Have children layout the maze, use programming cards to plan the steps, record and play
@@ -224,9 +242,9 @@
     {{-- sldie 21 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <div class="flex items-center justify-center gap-x-10">
-            <img src="{{ asset('assets/images/N2/BasicCoding/sb22.png') }}" />
+            <img src="{{ asset('assets/images/N2/BasicCoding/sb22.png') }}" class="large-img3" />
             <div class="flex gap-0">
-                <img src="{{ asset('assets/images/N2/BasicCoding/sb23.png') }}" />
+                <img src="{{ asset('assets/images/N2/BasicCoding/sb23.png') }}" class="large-img3" />
             </div>
         </div>
         <p class="note">Note: Have children layout the maze, use programming cards to plan the steps, record and play
@@ -237,9 +255,9 @@
     {{-- sldie 22 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <div class="flex items-center justify-center gap-x-10">
-            <img src="{{ asset('assets/images/N2/BasicCoding/sb24.png') }}" />
+            <img src="{{ asset('assets/images/N2/BasicCoding/sb24.png') }}" class="large-img3" />
             <div class="flex gap-0">
-                <img src="{{ asset('assets/images/N2/BasicCoding/sb25.png') }}" />
+                <img src="{{ asset('assets/images/N2/BasicCoding/sb25.png') }}" class="large-img3" />
             </div>
         </div>
         <p class="note">Note: Have children layout the maze, use programming cards to plan the steps, record and play
@@ -266,34 +284,29 @@
     {{-- =================================================================== --}}
     {{-- Complete button --}}
     <div class="down-btn-container">
-        <button
-         class="doneButton">
- <img src="{{ asset('assets/images/pptimages/done.png') }}" />
+        <button class="doneButton">
+            <img src="{{ asset('assets/images/pptimages/done.png') }}" />
         </button>
     </div>
 
     {{-- Buttons --}}
- <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
+    <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
 
         <!-- Return Button -->
         <a id="returnButton">
- <img
-    src="{{ asset('assets/images/pptimages/return.png') }}" />
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
 
         <!-- Home Button -->
-        <button
-     id="homeButton">
-            <img 
-                src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
         <button id="closeButton">
-           
-            <img 
-                src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-    
+
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
+
         </button>
 
     </div>
@@ -301,9 +314,8 @@
     {{-- next Button --}}
     <div class="down-btn-container">
 
-        <button
-            class="nextButton ">
-                        <img src="{{ asset('assets/images/pptimages/return.png') }}" />
+        <button class="nextButton ">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
 
         </button>
     </div>
@@ -345,9 +357,12 @@
                 });
             });
 
-            // ✅ Return button
+            // ✅ Return button - redirect if on first slide
             returnButton.addEventListener("click", () => {
-                if (currentSlide > 0) {
+                if (currentSlide === 0) {
+                    // Redirect to route when on first slide
+                    window.location.href = "{{ route('Robot2Selection') }}";
+                } else if (currentSlide > 0) {
                     currentSlide--;
                     showSlide(currentSlide);
                 }

@@ -32,7 +32,7 @@
             the ridges on your fingers and thumbs started forming.</h2>
         <!-- Video Trigger Button -->
         <div data-property-1="Default"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2">
+            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
       <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -44,7 +44,7 @@
             in the mother's womb.</h2>
         <!-- Video Trigger Button -->
         <div data-property-1="Default"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2">
+            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
       <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -360,7 +360,7 @@
 
         <button
             class="nextButton ">
-                        <img src="{{ asset('assets/images/pptimages/return.png') }}" />
+                        <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
 
         </button>
     </div>

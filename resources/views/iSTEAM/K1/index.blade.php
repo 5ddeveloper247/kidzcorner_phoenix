@@ -32,30 +32,30 @@
 
 @section('content')
 
-    <div class=" panel panel-f flex flex-wrap items-center justify-center text-center z-[99]px-4 row-gap-5 w-full">
+    <div class=" panel panel-f flex flex-wrap items-center justify-center text-center z-[99] px-4 gap-[2vw] w-[35vw]">
 
         <a href="{{ route('K1simpleMachines') }}"
             style="background-image: url('{{ asset('/assets/images/pptimages/Property1.png') }}');"
-            class=" bg-no-repeat bg-contain bg-center w-[400px] h-[300px] relative flex justify-center items-center transition hover:brightness-110 ">
-            <img src="/assets/images/N2/a1.png" alt="" class="w-[100px] absolute top-10 left-10">
-            <h2 class="text-3xl text-[#534444]">
-                Simple Machines
+            class=" bg-no-repeat bg-contain bg-center w-[15vw] h-[12vw] relative flex justify-center items-center transition hover:brightness-110 ">
+            <img src="/assets/images/N2/a1.png" alt="" class="w-[5vw] absolute top-[1vw] left-[.5vw]">
+            <h2 class="!text-[1.5vw] text-[#534444]">
+                Simple <br> Machines
             </h2>
         </a>
 
         <a href="{{ route('K1CompoundMachines') }}"
             style="background-image: url('{{ asset('/assets/images/pptimages/Property1.png') }}');"
-            class=" bg-no-repeat bg-contain bg-center w-[400px] h-[300px] relative flex justify-center items-center  transition hover:brightness-110 ">
-            <img src="/assets/images/N2/a5.png" alt="" class="w-[100px] absolute bottom-10 left-0">
-            <h2 class="text-3xl text-[#534444]">
-                Compound Machines </h2>
+            class=" bg-no-repeat bg-contain bg-center w-[15vw] h-[12vw] relative flex justify-center items-center  transition hover:brightness-110 ">
+            <img src="/assets/images/N2/a5.png" alt="" class="w-[4vw] absolute bottom-[1vw] left-0">
+            <h2 class="!text-[1.5vw] text-[#534444]">
+                Compound <br> Machines </h2>
         </a>
 
         <a href="{{ route('coding') }}"
             style="background-image: url('{{ asset('/assets/images/pptimages/Property1.png') }}');"
-            class=" bg-no-repeat bg-contain bg-center w-[400px] h-[300px] relative flex justify-center items-center  transition hover:brightness-110 ">
-            <img src="/assets/images/N2/a3.png" alt="" class="w-[100px] absolute top-10 left-10">
-            <h2 class="text-3xl text-[#534444]">
+            class=" bg-no-repeat bg-contain bg-center w-[15vw] h-[12vw] relative flex justify-center items-center  transition hover:brightness-110 ">
+            <img src="/assets/images/N2/a3.png" alt="" class="w-[3vw] absolute top-[1vw] left-[.5vw]">
+            <h2 class="!text-[1.5vw] text-[#534444]">
                 Coding and <br> Robotics
             </h2>
         </a>
@@ -63,9 +63,9 @@
 
         <a href="{{ route('K1structure') }}"
             style="background-image: url('{{ asset('/assets/images/pptimages/Property1.png') }}');"
-            class=" bg-no-repeat bg-contain bg-center w-[400px] h-[300px] relative flex justify-center items-center  transition hover:brightness-110 ">
-            <img src="/assets/images/N2/a4.png" alt="" class="w-[100px] absolute top-10 right-0">
-            <h2 class="text-3xl text-[#534444]">
+            class=" bg-no-repeat bg-contain bg-center w-[15vw] h-[12vw] relative flex justify-center items-center  transition hover:brightness-110 ">
+            <img src="/assets/images/N2/a4.png" alt="" class="w-[5vw] absolute top-[0vw] right-[0vw]">
+            <h2 class="!text-[1.5vw] text-[#534444]">
                 Structures
             </h2>
         </a>
@@ -73,7 +73,7 @@
 
 
 
-    <div id="buttons" class="absolute top-[30px] right-[60px] flex flex-row gap-6 z-90">
+    <div id="buttons" class="absolute flex flex-row gap-6 z-90">
 
         <!-- Return Button (hidden initially) -->
         <a href="{{ route('isteam') }}" id="returnButton">

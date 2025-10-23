@@ -256,7 +256,7 @@
         </video>
         <h2 class="title stroke">This shape does not lift up as the air moves around it.</h2>
         <!-- Video Trigger Button -->
-        <div class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 "
+        <div class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn cursor-pointer rounded-[30px] bg-sky-500 "
             onclick="toggleVideo('video1')">
             <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
             <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
@@ -275,7 +275,7 @@
             it. This shape is called aerofoil.</h2>
         <!-- Video Trigger Button -->
         <div  onclick="toggleVideo('video2')"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500">
+            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn cursor-pointer rounded-[30px] bg-sky-500">
             <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
             <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
             <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />

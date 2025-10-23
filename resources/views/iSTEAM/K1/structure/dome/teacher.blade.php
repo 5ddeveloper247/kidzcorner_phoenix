@@ -9,7 +9,7 @@
     {{-- sldie 1  --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="  font-bold">Children will be able to:</h2>
+            <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
                 <li>Know that buildings are common structures around us</li>
                 <li>Know how tall buildings are built</li>
@@ -48,7 +48,7 @@
     {{-- slide 2 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Preparations:</h2>
+            <h2 class="font-bold t-title">Preparations:</h2>
             <ul class="list-disc ">
                 <li>Each child 18 long and 24 short straws (cut twelve long straws into half to
                     obtain the short straws)</li>
@@ -68,7 +68,7 @@
     {{-- sldie 3 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Preparations:</h2>
+            <h2 class="font-bold t-title">Preparations:</h2>
             <ul class="list-disc ">
                 <li>Each child a pair of scissors (remind children to use them carefully)</li>
                 <li>Coloured transparent wrappers (tracing papers, cellophane wraps or any
@@ -90,7 +90,7 @@
     {{-- sldie 4 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Preparations:</h2>
+            <h2 class="font-bold t-title">Preparations:</h2>
             <ul class="list-disc ">
                 <li>Each child a pair of scissors (remind children to use them carefully)</li>
                 <li>Coloured transparent wrappers (tracing papers, cellophane wraps or any
@@ -113,7 +113,7 @@
     {{-- sldie 4 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Things to consider during hands-on sessions:</h2>
+            <h2 class="font-bold t-title">Things to consider during hands-on sessions:</h2>
             <ul class="list-disc ">
                 <li>Ask questions to prompt children to share and try out their ideas. Some possible
                     questions are listed in the lesson, you may add on questions based on children's
@@ -138,7 +138,7 @@
     {{-- sldie 5 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Possible questions for reflection:</h2>
+            <h2 class="font-bold t-title">Possible questions for reflection:</h2>
             <ul class="list-disc ">
                 <li>How did you join straws together using the pipe cleaners? Which way is more firm
                     and effective? Which way is safer?</li>
@@ -161,7 +161,7 @@
     {{-- sldie 6 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Things to consider during hands-on sessions:</h2>
+            <h2 class="font-bold t-title">Things to consider during hands-on sessions:</h2>
             <ul class="list-disc ">
                 <li>During hands-on session 2, guide children to discuss uses of a tall building (house,
                     office, factory, hotel, hospital, etc) and then decide a use for their own buildings.
@@ -187,7 +187,7 @@
     {{-- sldie 7 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Things to consider during hands-on sessions:</h2>
+            <h2 class="font-bold t-title">Things to consider during hands-on sessions:</h2>
             <ul class="list-disc ">
                 <li>At the end of the lesson, display all the tall buildings created in the classroom.</li>
                 <li>If you want, guide children to create a neighbourhood or business district by
@@ -211,7 +211,7 @@
     {{-- slide 8 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Useful information:</h2>
+            <h2 class="font-bold t-title">Useful information:</h2>
             <ul class="list-disc ">
                 <li>A structure is something that has been built.</li>
                 <li>The structure of something is the way in which something is built or the way in
@@ -239,7 +239,7 @@
     {{-- slide 9 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Useful information:</h2>
+            <h2 class="font-bold t-title">Useful information:</h2>
             <ul class="list-disc ">
                 <li>Architects concentrate on the artistic creativity of designs, while engineers
                     focus on the scientific innovations that will bring those designs to life. So
@@ -268,7 +268,7 @@
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold">Notes:</h2>
+                <h2 class="font-bold t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
                     <li>
                         If you see
@@ -287,7 +287,7 @@
                     <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
                     </li>
                     <li>
-                        Click on this <span class="font-bold">shortcut icon</span>
+                        Click on this <span class="font-bold t-title">shortcut icon</span>
                         <span
                             class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
                             <img  src="{{ asset('assets/images/pptimages/Vector4.png')}}"

@@ -1,15 +1,15 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
- 
+
 @section('content')
-
-
+    {{-- title --}}
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">Programme A Robot 1</h2>
 
 
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start items-center text-start t-slide">
         <div>
-            <h2 class="  font-bold">Children will be able to:</h2>
+            <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
                 <li>Know that a programme is the step-by-step instructions that tell the machine what to do</li>
                 <li>Recognise some tools that are used to programme a robot</li>
@@ -23,7 +23,7 @@
         <div class="flex w-[100%] items-center justify-between">
             <div>
                 <!-- Keywords -->
-                <h2 class="text-[33px] font-bold ">Keywords:</h2>
+                <h2 class="t-title">Keywords:</h2>
                 <div class="flex gap-x-10">
                     <ul class="list-disc">
                         <li>Machine/Robot</li>
@@ -38,26 +38,24 @@
                     </ul>
                 </div>
             </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt=""   class="absolute teacher-img1"/>
+            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
         </div>
     </div>
 
 
 
     {{-- slide 2 --}}
-    <div class="slide hidden flex flex-col w-[80%] justify-start gap-y-10 text-start text-2xl text-white">
-        <div class="flex flex-col gap-y-20">
+    <div class="slide hidden flex flex-col  justify-start items-center text-start t-slide text-2xl text-white">
+        <div class="flex flex-col  items-start">
+            <h2 class=" t-title ">Preparations:</h2>
             <ul class="list-disc">
-                <h2 class="font-bold ">Preparations:</h2>
                 <li>Each group a robot and a pen controller (refer to the guide at the back on
                     what you need to know and do before the lesson)</li>
             </ul>
         </div>
-        <div class="flex justify-center items-center gap-10">
-            <img src="{{ asset('assets/images/N2/BasicCoding/br19.png') }}" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/br19.png') }}" class="large-img" />
 
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt=""   class="absolute teacher-img1"/>
-        </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
         <p class="note !text-red-400">Note: You’ll see steady blue lights when both tools are turned on and it means they
             are ready to
             use.</p>
@@ -65,25 +63,23 @@
 
 
     {{-- slide 3 --}}
-    <div class="slide hidden flex flex-col w-[80%] justify-start gap-y-10 text-start text-2xl text-white">
-        <div class="flex flex-col gap-y-20">
+    <div class="slide hidden flex flex-col  justify-start items-center text-start t-slide text-2xl text-white">
+        <div class="flex flex-col  items-start">
             <ul>
                 <li>Each group a set of facial expressions programming cards, a record card,
                     a play card and a lawn mat (without pictures)</li>
             </ul>
         </div>
-        <div class="flex justify-center items-center gap-10">
-            <img src="{{ asset('assets/images/N2/BasicCoding/br18.png') }}" class="w-[500px]" />
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt=""   class="absolute teacher-img1"/>
-        </div>
+            <img src="{{ asset('assets/images/N2/BasicCoding/br18.png') }}" class="large-img" />
+            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
     </div>
 
 
     {{-- slide 4 --}}
-    <div class="slide hidden flex w-[80%] justify-start gap-y-10 text-start text-2xl text-white">
+    <div class="slide hidden flex  justify-start items-center text-start t-slide text-2xl text-white">
         <div class="space-y-10">
             <ul class="list-disc">
-                <h2 class="font-bold ">Things to note during hands-on sessions:</h2>
+                <h2 class=" t-title ">Things to note during hands-on sessions:</h2>
                 <li>Conduct the hands-on sessions on the floor (to prevent the tools damage by
                     falling).</li>
                 <li>Hold the robot and the pen controller firmly when you use them (to prevent the
@@ -96,100 +92,82 @@
                 <li>Repeat the hands-on session 2 for children that need further practise.</li>
             </ul>
             <ul class="list-disc">
-                <h2 class="font-bold ">Possible questions during hands-on sessions:</h2>
+                <h2 class=" t-title ">Possible questions during hands-on sessions:</h2>
                 <li>What facial expression comes first/next?</li>
             </ul>
         </div>
-        <div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt=""   class="absolute teacher-img1"/>
-        </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
     </div>
 
 
     {{-- slide 5 --}}
-    <div class="slide hidden flex flex-col w-[80%] justify-start gap-y-10 text-start text-2xl text-white">
-        <div class="flex flex-col gap-y-20">
+    <div class="slide hidden flex flex-col  justify-start items-center text-start t-slide text-2xl text-white">
+        <div class="flex flex-col  items-start">
+            <h2 class=" t-title ">What you need to know or do before the lesson:</h2>
             <ul class="list-disc">
-                <h2 class="font-bold ">What you need to know or do before the lesson:</h2>
                 <li>These are the parts in a box of mTiny Coding Kit. For easy keeping, only take out
                     parts you need for each hands-on session.</li>
             </ul>
         </div>
-        <div class="flex justify-center items-center gap-10">
-            <div class="flex flex-col items-center">
-                <img src="{{ asset('assets/images/N2/BasicCoding/br10.png') }}" />
-            </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt=""   class="absolute teacher-img1"/>
-        </div>
+        <img src="{{ asset('assets/images/N2/BasicCoding/br10.png') }}" class="large-img" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
         <p class="note">Note: The names of certain parts have been modified to suit children’s level, kindly use them
             consistently.</p>
     </div>
 
 
     {{-- slide 6 --}}
-    <div class="slide hidden flex flex-col w-[80%] justify-start gap-y-10 text-start text-2xl text-white">
-        <div class="flex flex-col gap-y-20">
+    <div class="slide hidden flex flex-col  justify-start items-center text-start t-slide text-2xl text-white">
+        <div class="flex flex-col  items-start">
+            <h2 class=" t-title ">What you need to know or do before the lesson:</h2>
             <ul class="list-disc">
-                <h2 class="font-bold ">What you need to know or do before the lesson:</h2>
                 <li>Label each set of robot and pen controller to avoid confusion, especially
                     when you are going to use a few sets of robots and pen controllers at one
                     go. Suggest to paste the labels at the back of the robot and the pen
                     controller (by colour,number, name, etc).</li>
             </ul>
         </div>
-        <div class="flex justify-center items-center gap-10">
-            <div class="flex flex-col items-center">
-                <img src="{{ asset('assets/images/N2/BasicCoding/br11.png') }}" />
-            </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt=""   class="absolute teacher-img1"/>
-        </div>
+        <img src="{{ asset('assets/images/N2/BasicCoding/br11.png') }}" class="large-img" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
     </div>
 
 
     {{-- /sldie 7 --}}
-    <div class="slide hidden flex flex-col w-[80%] justify-start gap-y-10 text-start text-2xl text-white">
-        <div class="flex flex-col gap-y-20">
+    <div class="slide hidden flex flex-col  justify-start items-center text-start t-slide text-2xl text-white">
+        <div class="flex flex-col  items-start">
+            <h2 class=" t-title ">What you need to know or do before the lesson:</h2>
             <ul class="list-disc">
-                <h2 class="font-bold ">What you need to know or do before the lesson:</h2>
                 <li>How to turn on the robot and adjust its sound? - Turn the knob behind
                     it clockwise until you hear a click sound. After the robot is on, you can
                     rotate the knob to adjust the volume of the robot. Use the same way
                     to turn it off.</li>
             </ul>
         </div>
-        <div class="flex justify-center items-center gap-10">
-            <div class="flex flex-col items-center">
-                <img src="{{ asset('assets/images/N2/BasicCoding/br12.png') }}" />
-            </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt=""   class="absolute teacher-img1"/>
-        </div>
+        <img src="{{ asset('assets/images/N2/BasicCoding/br12.png') }}" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
     </div>
 
 
     {{-- sldie 8 --}}
-    <div class="slide hidden flex flex-col w-[80%] justify-start gap-y-10 text-start text-2xl text-white">
-        <div class="flex flex-col gap-y-20">
+    <div class="slide hidden flex flex-col  justify-start items-center text-start t-slide text-2xl text-white">
+        <div class="flex flex-col  items-start">
+            <h2 class=" t-title ">What you need to know or do before the lesson:</h2>
             <ul class="list-disc">
-                <h2 class="font-bold ">What you need to know or do before the lesson:</h2>
                 <li>How to turn on the robot and adjust its sound? - Press and hold the
                     power button for 2 seconds until all its indicator lights are on. Use
                     the same way to turn it off.</li>
             </ul>
         </div>
-        <div class="flex justify-center items-center gap-10">
-            <div>
-                <img src="{{ asset('assets/images/N2/BasicCoding/br13.png') }}" />
-            </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt=""   class="absolute teacher-img1"/>
-        </div>
+        <img src="{{ asset('assets/images/N2/BasicCoding/br13.png') }}" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
     </div>
 
 
     {{-- sldie 9 --}}
-    <div class="slide hidden flex flex-col w-[80%] justify-start gap-y-10 text-start text-2xl text-white">
-        <div class="flex flex-col gap-y-20">
+    <div class="slide hidden flex flex-col  justify-start items-center text-start t-slide text-2xl text-white">
+        <div class="flex flex-col items-start">
+            <h2 class=" t-title ">What you need to know or do before the lesson:</h2>
             <ul class="list-disc">
-                <h2 class="font-bold ">What you need to know or do before the lesson:</h2>
                 <li>How to charge the robot and the pen controller? - Connect them to the
                     2-in-1 micro USB cable and plug the cable into a power source. To charge
                     using an adapter, recommended adaptor is 5V/2A. It takes about 60-90
@@ -197,73 +175,59 @@
                     Make sure that you charge all the machines before each lesson.</li>
             </ul>
         </div>
-        <div class="flex justify-center items-center gap-10">
-            <div>
-                <img src="{{ asset('assets/images/N2/BasicCoding/br14.png') }}" />
-            </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt=""   class="absolute teacher-img1"/>
-        </div>
+        <img src="{{ asset('assets/images/N2/BasicCoding/br14.png') }}" class="large-img3" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
     </div>
 
 
     {{-- sldie 10 --}}
-    <div class="slide hidden flex flex-col w-[80%] justify-start gap-y-10 text-start text-2xl text-white">
-        <div class="flex flex-col gap-y-20">
+    <div class="slide hidden flex flex-col  justify-start items-center text-start t-slide text-2xl text-white">
+        <div class="flex flex-col  items-start">
             <ul class="list-disc">
-                <h2 class="font-bold ">What you need to know or do before the lesson:</h2>
+                <h2 class=" t-title ">What you need to know or do before the lesson:</h2>
                 <li>What is the use of each button on a pen controller?</li>
             </ul>
         </div>
-        <div class="flex justify-center items-center gap-10">
-            <div>
-                <img src="{{ asset('assets/images/N2/BasicCoding/br15.png') }}" />
-            </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt=""   class="absolute teacher-img1"/>
-        </div>
+        <img src="{{ asset('assets/images/N2/BasicCoding/br15.png') }}" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
     </div>
 
 
     {{-- slide 11 --}}
-    <div class="slide hidden flex flex-col w-[80%] justify-start gap-y-10 text-start text-2xl text-white">
-        <div class="flex flex-col gap-y-20">
+    <div class="slide hidden flex flex-col  justify-start items-center text-start t-slide text-2xl text-white">
+        <div class="flex flex-col  items-start">
             <ul class="list-disc">
-                <h2 class="font-bold ">What you need to know or do before the lesson:</h2>
+                <h2 class=" t-title ">What you need to know or do before the lesson:</h2>
                 <li>Follow these steps in case you need to manually pair up a robot and a pen
                     controller.</li>
             </ul>
         </div>
-        <div class="flex justify-center items-center gap-10">
-            <div>
-                <img src="{{ asset('assets/images/N2/BasicCoding/br16.png') }}" />
-            </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt=""   class="absolute teacher-img1"/>
-        </div>
+        <img src="{{ asset('assets/images/N2/BasicCoding/br16.png') }}" />
+
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
     </div>
 
 
     {{-- slide 12 --}}
-    <div class="slide hidden flex flex-col w-[80%] justify-start gap-y-10 text-start text-2xl text-white">
-        <div class="flex flex-col gap-y-20">
+    <div class="slide hidden flex flex-col  justify-start items-center text-start t-slide text-2xl text-white">
+        <div class="flex flex-col  items-start">
             <ul class="list-disc">
-                <h2 class="font-bold ">What you need to know or do before the lesson:</h2>
+                <h2 class=" t-title ">What you need to know or do before the lesson:</h2>
                 <li>The joystick might misbehave after used for a long term, follow these steps
                     to calibrate it to maintain precise control.</li>
             </ul>
         </div>
-        <div class="flex justify-center items-center gap-10">
-            <div>
-                <img src="{{ asset('assets/images/N2/BasicCoding/br17.png') }}" />
-            </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt=""   class="absolute teacher-img1"/>
-        </div>
+        <img src="{{ asset('assets/images/N2/BasicCoding/br17.png') }}" />
+
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
     </div>
 
 
     {{-- slide 13 --}}
-    <div class="slide hidden flex flex-col w-[80%] justify-start gap-y-10 text-start text-2xl text-white">
-        <div class="flex flex-col gap-y-20">
+    <div class="slide hidden flex flex-col  justify-start items-center text-start t-slide text-2xl text-white">
+        <div class="flex flex-col  items-start">
             <ul class="list-disc">
-                <h2 class="font-bold ">What you need to know or do before the lesson:</h2>
+                <h2 class=" t-title ">What you need to know or do before the lesson:</h2>
                 <li>Do not throw away any item from the coding kit, including the frames that hold
                     the programming cards.</li>
                 <li>Do not put or expose the product to a damp or high temperature environment to
@@ -278,56 +242,45 @@
                 </li>
             </ul>
         </div>
-        <div class="flex justify-center">
+        <ul class="list-disc">
+            <h2 class=" t-title ">Possible questions during hands-on sessions:</h2>
+            <li>What comes first/next?</li>
+            <li>Do you (go forward/go backward/turn right/turn left) now?</li>
+        </ul>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
+    </div>
+
+
+    {{-- slide 14 --}}
+    <div class="slide flex t-slide  flex-col  text-2xl text-start text-white">
+        <div>
+            <h2 class="t-title">Notes:</h2>
             <ul class="list-disc">
-                <h2 class="font-bold ">Possible questions during hands-on sessions:</h2>
-                <li>What comes first/next?</li>
-                <li>Do you (go forward/go backward/turn right/turn left) now?</li>
+                <li class="flex">
+                    If you see
+                    <span class="info-btn">
+
+                        <img src="{{ asset('assets/images/pptimages/video.png') }}" />
+                    </span>
+                    next to a picture, click on the picture to watch the video.
+                </li>
+                <li>Always ask questions to encourage children to think and share their ideas first before giving
+                    out
+                    any information.</li>
+                <li>Emphasise and use the <strong>keywords</strong> during hands-on sessions.</li>
+                <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
+                </li>
+                <li class="flex">
+                    Click on this shortcut icon
+                    <span> <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" class="home-btn" />
+                    </span>
+                    if you need to go to some parts of the lesson quickly.
+                </li>
             </ul>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt=""   class="absolute teacher-img1"/>
         </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
-
-    {{-- slide 8 --}}
-    <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
-        <div class="flex w-[100%] items-center justify-between">
-            <div>
-                <h2 class="font-bold">Notes:</h2>
-                <ul class="list-disc leading-relaxed">
-                    <li>
-                        If you see
-                        <span
-                            class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-                            <!-- Decorative Vector -->
-                            <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
-                                class="absolute top-[4px] left-[6px] h-6 w-[80%]" />
-                            <div class="absolute top-[7px] left-[12px] h-2.5 w-3.5 rounded-sm bg-white"></div>
-                            <img src="{{ asset('assets/images/pptimages/play.png') }}"
-                                class="absolute top-[16px] left-[16px] h-8 w-8" />
-                        </span>
-                        next to a picture, click on the picture to watch the video.
-                    </li>
-                    <li>Always ask questions to encourage children to think and share their
-                        ideas first before giving out any information</li>
-                    <li>Emphasise and use the keywords during hands-on sessions.</li>
-                    <li>
-                        Click on this <span class="font-bold">shortcut icon</span>
-                        <span
-                            class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-                            <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
-                                class="absolute top-[4px] left-[6px] h-6 w-[80%]" />
-                            <div class="absolute top-[7px] left-[12px] h-2.5 w-3.5 rounded-sm bg-white"></div>
-                            <img src="{{ asset('assets/images/pptimages/home-icon.png') }}"
-                                class="absolute top-[16px] left-[16px] h-8 w-8" />
-                        </span>
-                        if you need to go to some parts of the lesson quickly.
-                    </li>
-                </ul>
-            </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1"  />
-        </div>
-    </div>
 
 
 
@@ -336,14 +289,8 @@
     {{-- =================================================================================== --}}
     {{-- Done Button --}}
     <div class="down-btn-container">
-        <button
-            class=" doneButton ">
-            <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
-            <div class="absolute left-[8.22px] top-[3.17px] "> <img
-                    src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-            </div>
-            <span
-                class="absolute left-[80px] top-[18px] flex items-center  text-white text-5xl font-bold stroke">DONE</span>
+        <button class=" doneButton ">
+            <img src="{{ asset('assets/images/pptimages/done.png') }}" />
         </button>
     </div>
 
@@ -353,39 +300,27 @@
 
         <!-- Return Button -->
         <a id="returnButton">
- <img
-    src="{{ asset('assets/images/pptimages/return.png') }}" />
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
 
         <!-- Home Button -->
-        <button
-     id="homeButton">
-            <img 
-                src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
         <button id="closeButton">
-           
-            <img 
-                src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-    
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
         </button>
 
     </div>
 
     {{-- next Button --}}
     <div class="down-btn-container">
-
-        <button
-            class="nextButton">
- <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
+        <button class="nextButton">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
         </button>
     </div>
-
-
-
-
 @endsection
 
 
@@ -424,9 +359,12 @@
                 });
             });
 
-            // ✅ Return button
+            // ✅ Return button - redirect if on first slide
             returnButton.addEventListener("click", () => {
-                if (currentSlide > 0) {
+                if (currentSlide === 0) {
+                    // Redirect to route when on first slide
+                    window.location.href = "{{ route('Robot1Selection') }}";
+                } else if (currentSlide > 0) {
                     currentSlide--;
                     showSlide(currentSlide);
                 }

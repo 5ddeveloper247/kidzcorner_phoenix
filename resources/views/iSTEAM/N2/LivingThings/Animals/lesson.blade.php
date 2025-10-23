@@ -3,7 +3,7 @@
 
 @section('content')
     {{-- title --}}
-    <h2 class="title stroke top-title absolute top-[30px]">Animals are Living Things</h2>
+   <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">Animals are Living Things</h2>
 
 
     {{-- Slide 1 --}}
@@ -32,8 +32,9 @@
 
     {{-- slide 4 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/LivingThings/an2.png') }}" />
-        <h2 class="stroke title">Let’s find out:<br />How are you (<span class="text-white">living things</span>) and a doll
+        <img src="{{ asset('assets/images/N2/LivingThings/an2.png') }}" class="large-img2" />
+        <h2 class="stroke title text-start">Let’s find out:<br />How are you (<span class="text-white">living things</span>)
+            and a doll
             <br />(<span class="text-white">non-living thing</span>) different?
         </h2>
         <p class="note">Note: Display a doll. Guide children to make comparison.</p>
@@ -44,9 +45,9 @@
         <h2 class="title stroke">What do you observe?</h2>
         <div class="flex items-center gap-3">
 
-            <ul class="text-start">
+            <ul class="text-start !text-[1.5vw] text-white">
                 <li class="flex items-center w-[100%] justify-between ">
-                    <p class="text-4xl text-white">Do you move on you own?</p>
+                    <p>Do you move on you own?</p>
                     <div class="flex items-center ">
                         <button class="info-btn1">
                             <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" />
@@ -55,7 +56,7 @@
                     </div>
                 </li>
                 <li class="flex items-center w-[100%] justify-between ">
-                    <p class="text-4xl text-white">Do you drink?</p>
+                    <p>Do you drink?</p>
                     <div class="flex items-center ">
                         <button class="info-btn2">
                             <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" />
@@ -64,7 +65,7 @@
                     </div>
                 </li>
                 <li class="flex items-center w-[100%] justify-between ">
-                    <p class="text-4xl text-white">Do you eat?</p>
+                    <p>Do you eat?</p>
                     <div class="flex items-center">
                         <button class="info-btn3">
                             <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" />
@@ -73,7 +74,7 @@
                     </div>
                 </li>
                 <li class="flex items-center w-[100%] justify-between ">
-                    <p class="text-4xl text-white">Do you breath?</p>
+                    <p>Do you breath?</p>
                     <div class="flex items-center">
                         <button class="info-btn3">
                             <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" />
@@ -82,7 +83,7 @@
                     </div>
                 </li>
                 <li class="flex items-center w-[100%] justify-between ">
-                    <p class="text-4xl text-white">Do you grow (get bigger)?</p>
+                    <p>Do you grow (get bigger)?</p>
                     <div class="flex items-center">
                         <button class="info-btn5">
                             <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" />
@@ -93,25 +94,25 @@
 
             </ul>
 
-            <ul class="space-y-5 scul text-start">
+            <ul class="space-y-5 scul text-start !text-[1.5vw] text-white">
                 <li class="flex items-center w-[100%] justify-between ">
-                    <p class="text-4xl text-white">Does you move on you own?</p>
+                    <p>Does you move on you own?</p>
                     <input type="checkbox" class="chkbox" id="">
                 </li>
                 <li class="flex items-center w-[100%] justify-between ">
-                    <p class="text-4xl text-white">Does you drink?</p>
+                    <p>Does you drink?</p>
                     <input type="checkbox" class="chkbox" id="">
                 </li>
                 <li class="flex items-center w-[100%] justify-between ">
-                    <p class="text-4xl text-white">Does you eat?</p>
+                    <p>Does you eat?</p>
                     <input type="checkbox" class="chkbox" id="">
                 </li>
                 <li class="flex items-center w-[100%] justify-between ">
-                    <p class="text-4xl text-white">Does you breath?</p>
+                    <p>Does you breath?</p>
                     <input type="checkbox" class="chkbox" id="">
                 </li>
                 <li class="flex items-center w-[100%] justify-between ">
-                    <p class="text-4xl text-white">Does you grow (get bigger)?</p>
+                    <p>Does you grow (get bigger)?</p>
                     <input type="checkbox" class="chkbox" id="">
 
             </ul>
@@ -121,14 +122,12 @@
 
     {{-- slide 6 --}}
     <div class="flex flex-col info-slide1 items-center justify-center slide hidden">
-        <div>
-            <img src="{{ asset('assets/images/N2/LivingThings/an3.png') }}" />
-            <h2 class="title stroke">Let's <span class="text-white">move</span> like the girl!</h2>
-            <p class="note">Note: Display a doll. Guide children to make comparison.</p>
-        </div>
+        <img src="{{ asset('assets/images/N2/LivingThings/an3.png') }}" class="large-img2" />
+        <h2 class="title stroke">Let's <span class="text-white">move</span> like the girl!</h2>
+        <p class="note">Note: Display a doll. Guide children to make comparison.</p>
         <!-- Video Trigger Button -->
-        <div data-property-1="Default" class="absolute top-1/2 right-[80px] z-[99] -translate-y-1/2">
-            <img class=" h-14 w-14" src="{{ asset('/assets/images/pptimages/video.png') }}" />
+        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
+            <img src="{{ asset('/assets/images/pptimages/video.png') }}" />
         </div>
     </div>
 
@@ -196,8 +195,8 @@
     {{-- slide 14 --}}
     <div class="flex flex-col info-slide3 items-center justify-center slide hidden">
         <div class="flex items-center gap-4">
-            <img src="{{ asset('assets/images/N2/LivingThings/an5.png') }}" class="w-[536px]" />
-            <img src="{{ asset('assets/images/N2/LivingThings/an9.png') }}" class="w-[536px]" />
+            <img src="{{ asset('assets/images/N2/LivingThings/an5.png') }}" class="large-img2" />
+            <img src="{{ asset('assets/images/N2/LivingThings/an9.png') }}" class="large-img2" />
         </div>
         <h2 class="stroke title">As we grow, we eat different types of food.
             Food has all the nutrients our body needs to live and grow.</h2>
@@ -290,14 +289,14 @@
     </div>
 
     {{-- slide 22 --}}
-    <div class="flex flex-col  slide hidden">
+    <div class="flex flex-col  slide hidden items-center">
         <div class="title stroke text-start">
             <h2>What do you learn?</h2>
             <ul>
                 <li>How are living things and non-living things different?</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/N2/LivingThings/an2.png') }}" class="w-[536px]" />
+        <img src="{{ asset('assets/images/N2/LivingThings/an2.png') }}" class="large-img2" />
         <p class="note">Note: Guide children to conclude from the table.</p>
     </div>
 
@@ -325,7 +324,7 @@
 
             </ul>
         </div>
-        <img src="{{ asset('assets/images/N2/LivingThings/an15.png') }}" />
+        <img src="{{ asset('assets/images/N2/LivingThings/an15.png') }}" class="large-img4" />
     </div>
 
     {{-- slide 24\ --}}
@@ -340,17 +339,17 @@
     {{-- slide 25 --}}
     <div class="flex flex-col items-center slide hidden">
         <h2 class="title stroke ">What do you think (Prediction):</h2>
-        <img src="{{ asset('assets/images/N2/LivingThings/g2.png') }}" />
+        <img src="{{ asset('assets/images/N2/LivingThings/g2.png') }}" class="large-img5" />
         <p class="note">Note: Have children use the learning journal to fill in their prediction; have them circle the
             correct answers.</p>
     </div>
 
     {{-- slide 26 --}}
-    <div class="flex flex-col  slide hidden justify-around h-full">
+    <div class="flex flex-col  slide hidden items-center justify-around h-[50vh]">
         <div class="title stroke text-start relative">
             <h2>Let's do:</h2>
-            <img src="{{ asset('assets/images/N2/LivingThings/g3.png') }}" />
-            <button class="info-btn6 absolute right-[125px] top-[64px]">
+            <img src="{{ asset('assets/images/N2/LivingThings/g3.png') }}" class="large-img5" />
+            <button class="info-btn6 absolute right-[13.5vw] top-[5vw]">
                 <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" />
             </button>
         </div>
@@ -380,10 +379,10 @@
 
 
     {{-- slide 27 --}}
-    <div class="flex flex-col items-center slide hidden justify-around">
+    <div class="flex flex-col items-center slide hidden justify-between h-[50vh]">
         <div class="title stroke text-start">
             <h2>Let's do:</h2>
-            <img src="{{ asset('assets/images/N2/LivingThings/g4.png') }}" />
+            <img src="{{ asset('assets/images/N2/LivingThings/g4.png') }}" class="large-img5" />
 
         </div>
         <p class="note">Note: Guide children to discuss each point and check if their prediction is correct;
@@ -391,10 +390,10 @@
     </div>
 
     {{-- slde 28 --}}
-    <div class="flex flex-col  slide hidden justify-around ">
+    <div class="flex flex-col  slide hidden items-center justify-between h-[50vh] ">
         <div class="title stroke text-start">
             <h2>Let's do:</h2>
-            <img src="{{ asset('assets/images/N2/LivingThings/g5.png') }}" />
+            <img src="{{ asset('assets/images/N2/LivingThings/g5.png') }}" class="large-img5" />
 
         </div>
         <p class="note">Note: Guide children to discuss each point and check if their prediction is correct;
@@ -402,12 +401,15 @@
     </div>
 
     {{-- sslide 29 --}}
-    <div class="flex flex-col  slide hidden justify-around">
-        <div class="title stroke text-start relative">
+    <div class="flex flex-col  slide hidden items-center justify-between h-[60vh]">
+        <div class="title stroke text-center  relative">
             <h2>Let's do:</h2>
-            <img src="{{ asset('assets/images/N2/LivingThings/g6.png') }}" />
+            <img src="{{ asset('assets/images/N2/LivingThings/g6.png') }}" class="large-img5" />
 
-            <button class="info-btn7 absolute right-[140px] bottom-[-47px]">
+            <button class="info-btn7 absolute right-[7.5vw] bottom-[-5vh]">
+                <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" />
+            </button>
+            <button class="info-btn8 absolute right-[19vw] bottom-[-5vh]">
                 <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" />
             </button>
         </div>
@@ -431,141 +433,38 @@
 
     {{-- end --}}
     {{-- slide 30  --}}
-    <div class="flex flex-col  slide hidden justify-between gap-20">
-        <div class="title stroke text-start">
+    <div class="flex flex-col  slide hidden items-center justify-between gap-20">
+        <div class="title stroke text-center">
             <h2>Let's do:</h2>
-            <table class="w-full border border-white border-collapse text-center text-[30px] text-white">
-                <tbody>
-                    <tr class="border border-white">
-                        <td class="px-2 py-2 text-left">Which can move on its own?</td>
-                        <td class="border border-4 border-red-500 rounded-[50%]"> <img
-                                src="{{ asset('assets/images/N2/LivingThings/an37.png') }}" class="w-[90px]" /></td>
-                        <td class="border border-4 border-red-500 rounded-[50%]"> <img
-                                src="{{ asset('assets/images/N2/LivingThings/an35.png') }}" class="w-[90px]" /></td>
-                        <td class="border border-4 border-red-500 rounded-[50%]"> <img
-                                src="{{ asset('assets/images/N2/LivingThings/an66.png') }}" class="w-[90px]" /></td>
-                        <td> <img src="{{ asset('assets/images/N2/LivingThings/an40.png') }}" class="w-[90px]" /></td>
-                        <td> <img src="{{ asset('assets/images/N2/LivingThings/an36.png') }}" class="w-[90px]" /></td>
-                    </tr>
-                    <tr class="border border-white">
-                        <td class="px-2 py-2 text-left">Which needs to drink?</td>
-                        <td class="border border-4 border-red-500 rounded-[50%]"> <img
-                                src="{{ asset('assets/images/N2/LivingThings/an37.png') }}" class="w-[90px]" /></td>
-                        <td class="border border-4 border-red-500 rounded-[50%]"> <img
-                                src="{{ asset('assets/images/N2/LivingThings/an35.png') }}" class="w-[90px]" /></td>
-                        <td> <img src="{{ asset('assets/images/N2/LivingThings/an66.png') }}" class="w-[90px]" /></td>
-                        <td> <img src="{{ asset('assets/images/N2/LivingThings/an40.png') }}" class="w-[90px]" /></td>
-                        <td> <img src="{{ asset('assets/images/N2/LivingThings/an36.png') }}" class="w-[90px]" /></td>
-                    </tr>
-                    <tr class="border border-white">
-                        <td class="px-2 py-2 text-left">Which needs to eat?</td>
-                        <td class="border border-4 border-red-500 rounded-[50%]"> <img
-                                src="{{ asset('assets/images/N2/LivingThings/an37.png') }}" class="w-[90px]" /></td>
-                        <td class="border border-4 border-red-500 rounded-[50%]"> <img
-                                src="{{ asset('assets/images/N2/LivingThings/an35.png') }}" class="w-[90px]" /></td>
-                        <td> <img src="{{ asset('assets/images/N2/LivingThings/an66.png') }}" class="w-[90px]" /></td>
-                        <td> <img src="{{ asset('assets/images/N2/LivingThings/an40.png') }}" class="w-[90px]" /></td>
-                        <td> <img src="{{ asset('assets/images/N2/LivingThings/an36.png') }}" class="w-[90px]" /></td>
-                    </tr>
-                    <tr class="border border-white">
-                        <td class="px-2 py-2 text-left">Which needs to breath?</td>
-                        <td class="border border-4 border-red-500 rounded-[50%]"> <img
-                                src="{{ asset('assets/images/N2/LivingThings/an37.png') }}" class="w-[90px]" /></td>
-                        <td class="border border-4 border-red-500 rounded-[50%]"> <img
-                                src="{{ asset('assets/images/N2/LivingThings/an35.png') }}" class="w-[90px]" /> </td>
-                        <td> <img src="{{ asset('assets/images/N2/LivingThings/an66.png') }}" class="w-[90px]" /></td>
-                        <td> <img src="{{ asset('assets/images/N2/LivingThings/an40.png') }}" class="w-[90px]" /></td>
-                        <td> <img src="{{ asset('assets/images/N2/LivingThings/an36.png') }}" class="w-[90px]" /></td>
-                    </tr>
-                    <tr class="border border-white">
-                        <td class="px-2 py-2 text-left">Which can grow (get bigger)?</td>
-                        <td> <img src="{{ asset('assets/images/N2/LivingThings/an37.png') }}" class="w-[90px]" /></td>
-                        <td> <img src="{{ asset('assets/images/N2/LivingThings/an35.png') }}" class="w-[90px]" /> </td>
-                        <td> <img src="{{ asset('assets/images/N2/LivingThings/an66.png') }}" class="w-[90px]" /></td>
-                        <td> <img src="{{ asset('assets/images/N2/LivingThings/an40.png') }}" class="w-[90px]" /></td>
-                        <td> <img src="{{ asset('assets/images/N2/LivingThings/an36.png') }}" class="w-[90px]" /></td>
-                    </tr>
-                </tbody>
-            </table>
+
+            <img src="{{ asset('assets/images/N2/LivingThings/g7.png') }}" class="large-img5" />
         </div>
+
         <p class="note">Note: Guide children to discuss each point and check if their prediction is correct;
             if wrong, correct with a red crayon.</p>
     </div>
 
     {{-- slide 31 --}}
-    <div class="flex flex-col  slide hidden justify-between gap-20">
-        <div class="title stroke text-start">
+    <div class="flex flex-col  slide hidden items-center justify-between gap-20">
+        <div class="title stroke text-center">
             <h2>Let's do:</h2>
-            <table class="w-full border border-white border-collapse text-center text-[30px] text-white">
-                <tbody>
-                    <tr class="border border-white">
-                        <td class="px-2 py-2 text-left">Which can move on its own?</td>
-                        <td class="border border-4 border-red-500 rounded-[50%]"> <img
-                                src="{{ asset('assets/images/N2/LivingThings/an37.png') }}" class="w-[90px]" /></td>
-                        <td class="border border-4 border-red-500 rounded-[50%]"> <img
-                                src="{{ asset('assets/images/N2/LivingThings/an35.png') }}" class="w-[90px]" /></td>
-                        <td class="border border-4 border-red-500 rounded-[50%]"> <img
-                                src="{{ asset('assets/images/N2/LivingThings/an66.png') }}" class="w-[90px]" /></td>
-                        <td> <img src="{{ asset('assets/images/N2/LivingThings/an40.png') }}" class="w-[90px]" /></td>
-                        <td> <img src="{{ asset('assets/images/N2/LivingThings/an36.png') }}" class="w-[90px]" /></td>
-                    </tr>
-                    <tr class="border border-white">
-                        <td class="px-2 py-2 text-left">Which needs to drink?</td>
-                        <td class="border border-4 border-red-500 rounded-[50%]"> <img
-                                src="{{ asset('assets/images/N2/LivingThings/an37.png') }}" class="w-[90px]" /></td>
-                        <td class="border border-4 border-red-500 rounded-[50%]"> <img
-                                src="{{ asset('assets/images/N2/LivingThings/an35.png') }}" class="w-[90px]" /></td>
-                        <td> <img src="{{ asset('assets/images/N2/LivingThings/an66.png') }}" class="w-[90px]" /></td>
-                        <td> <img src="{{ asset('assets/images/N2/LivingThings/an40.png') }}" class="w-[90px]" /></td>
-                        <td> <img src="{{ asset('assets/images/N2/LivingThings/an36.png') }}" class="w-[90px]" /></td>
-                    </tr>
-                    <tr class="border border-white">
-                        <td class="px-2 py-2 text-left">Which needs to eat?</td>
-                        <td class="border border-4 border-red-500 rounded-[50%]"> <img
-                                src="{{ asset('assets/images/N2/LivingThings/an37.png') }}" class="w-[90px]" /></td>
-                        <td class="border border-4 border-red-500 rounded-[50%]"> <img
-                                src="{{ asset('assets/images/N2/LivingThings/an35.png') }}" class="w-[90px]" /></td>
-                        <td> <img src="{{ asset('assets/images/N2/LivingThings/an66.png') }}" class="w-[90px]" /></td>
-                        <td> <img src="{{ asset('assets/images/N2/LivingThings/an40.png') }}" class="w-[90px]" /></td>
-                        <td> <img src="{{ asset('assets/images/N2/LivingThings/an36.png') }}" class="w-[90px]" /></td>
-                    </tr>
-                    <tr class="border border-white">
-                        <td class="px-2 py-2 text-left">Which needs to breath?</td>
-                        <td class="border border-4 border-red-500 rounded-[50%]"> <img
-                                src="{{ asset('assets/images/N2/LivingThings/an37.png') }}" class="w-[90px]" /></td>
-                        <td class="border border-4 border-red-500 rounded-[50%]"> <img
-                                src="{{ asset('assets/images/N2/LivingThings/an35.png') }}" class="w-[90px]" /> </td>
-                        <td> <img src="{{ asset('assets/images/N2/LivingThings/an66.png') }}" class="w-[90px]" /></td>
-                        <td> <img src="{{ asset('assets/images/N2/LivingThings/an40.png') }}" class="w-[90px]" /></td>
-                        <td> <img src="{{ asset('assets/images/N2/LivingThings/an36.png') }}" class="w-[90px]" /></td>
-                    </tr>
-                    <tr class="border border-white">
-                        <td class="px-2 py-2 text-left">Which can grow (get bigger)?</td>
-                        <td class="border border-4 border-red-500 rounded-[50%]"> <img
-                                src="{{ asset('assets/images/N2/LivingThings/an37.png') }}" class="w-[90px]" /></td>
-                        <td class="border border-4 border-red-500 rounded-[50%]"> <img
-                                src="{{ asset('assets/images/N2/LivingThings/an35.png') }}" class="w-[90px]" /> </td>
-                        <td> <img src="{{ asset('assets/images/N2/LivingThings/an66.png') }}" class="w-[90px]" /></td>
-                        <td> <img src="{{ asset('assets/images/N2/LivingThings/an40.png') }}" class="w-[90px]" /></td>
-                        <td> <img src="{{ asset('assets/images/N2/LivingThings/an36.png') }}" class="w-[90px]" /></td>
-                    </tr>
-                </tbody>
-            </table>
+            <img src="{{ asset('assets/images/N2/LivingThings/g6.png') }}" class="large-img5" />
         </div>
+
         <p class="note">Note: Guide children to discuss each point and check if their prediction is correct;
             if wrong, correct with a red crayon.</p>
     </div>
 
     {{-- slide 32 --}}
 
-    <div class="flex flex-col  slide hidden">
+    <div class="flex flex-col  slide hidden items-center">
         <div class="title stroke text-start">
             <h2>What do you learn?</h2>
             <ul>
                 <li>Which are living things? Which are non-living things?</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/N2/b22.png') }}" />
+        <img src="{{ asset('assets/images/N2/LivingThings/g1.png') }}" />
         <p class="note">Note: Encourage children to answer based on their conclusions.</p>
 
     </div>
@@ -573,41 +472,27 @@
 
 
     {{-- slide 33 --}}
-    <div class="flex flex-col  slide hidden">
+    <div class="flex flex-col  slide hidden items-center">
         <h2 class="title stroke">Through the activities, we know that a person,
             a dog and a fish are living things.</h2>
-        <div class="flex items-center justify-center">
-            <img src="{{ asset('assets/images/N2/LivingThings/an38.png') }}" />
-            <img src="{{ asset('assets/images/N2/LivingThings/an35.png') }}" />
-            <img src="{{ asset('assets/images/N2/LivingThings/an37.png') }}" />
-        </div>
+        <img src="{{ asset('assets/images/N2/LivingThings/g9.png') }}" />
+
     </div>
 
 
     {{-- slide 34 --}}
-    <div class="flex flex-col  slide hidden">
+    <div class="flex flex-col  slide hidden items-center">
         <h2 class="title stroke">People, dogs and fishes belong to the same group
             of living things. Do you know what is the name of this group?</h2>
-        <div class="flex items-center">
-            <img src="{{ asset('assets/images/N2/LivingThings/an38.png') }}" />
-            <img src="{{ asset('assets/images/N2/LivingThings/an35.png') }}" />
-            <img src="{{ asset('assets/images/N2/LivingThings/an37.png') }}" />
-        </div>
+        <img src="{{ asset('assets/images/N2/LivingThings/g9.png') }}" />
+
     </div>
 
 
     {{-- slide 35 --}}
-    <div class="flex flex-col  slide hidden">
+    <div class="flex flex-col  slide hidden items-center">
         <h2 class="title stroke">Yes, all these are animals!</h2>
-
-        <div class="flex items-center justify-center">
-            <img src="{{ asset('assets/images/N2/LivingThings/an39.png') }}" />
-            <div>
-                <img src="{{ asset('assets/images/N2/LivingThings/an35.png') }}" />
-                <img src="{{ asset('assets/images/N2/LivingThings/an41.png') }}" />
-            </div>
-            <img src="{{ asset('assets/images/N2/LivingThings/an37.png') }}" />
-        </div>
+        <img src="{{ asset('assets/images/N2/LivingThings/g10.png') }}" />
     </div>
 
     {{-- slide 36 --}}
@@ -634,74 +519,13 @@
             <h2>So <span class="!text-white">animals</span> are <span class="!text-white">living things</span></h2>
 
         </div>
-        <div class="flex flex-wrap items-center justify-center">
-            <img src="{{ asset('assets/images/N2/LivingThings/an39.png') }}" />
-            <div>
-
-                <img src="{{ asset('assets/images/N2/LivingThings/an37.png') }}" />
-                <img src="{{ asset('assets/images/N2/LivingThings/an35.png') }}" />
-            </div>
-            <img src="{{ asset('assets/images/N2/LivingThings/an41.png') }}" />
-        </div>
+        <img src="{{ asset('assets/images/N2/LivingThings/g11.png') }}" class="large-img2" />
     </div>
 
     {{-- slide 37 --}}
-    <div class="flex flex-col  slide hidden">
-        <h2 class="title stroke !text-white">Class Activity 2</h2>
-
-        <table class="w-full border border-white border-collapse text-center text-[30px] text-white">
-            <thead>
-                <tr>
-                    <td class="px-2 py-2 text-left">Circle the correct pictures to answer the following questions</td>
-                </tr>
-            </thead>
-            <tbody>
-                <tr class="border border-white">
-                    <td class="px-2 py-2 text-left">Which can move on its own?</td>
-                    <td> <img src="{{ asset('assets/images/N2/LivingThings/an37.png') }}" class="w-[90px]" /></td>
-                    <td> <img src="{{ asset('assets/images/N2/LivingThings/an35.png') }}" class="w-[90px]" /></td>
-                    <td> <img src="{{ asset('assets/images/N2/LivingThings/an66.png') }}" class="w-[90px]" /></td>
-                    <td> <img src="{{ asset('assets/images/N2/LivingThings/an40.png') }}" class="w-[90px]" /></td>
-                    <td> <img src="{{ asset('assets/images/N2/LivingThings/an36.png') }}" class="w-[90px]" /></td>
-                </tr>
-                <tr class="border border-white">
-                    <td class="px-2 py-2 text-left">Which need to drink?</td>
-                    <td> <img src="{{ asset('assets/images/N2/LivingThings/an37.png') }}" class="w-[90px]" /></td>
-                    <td> <img src="{{ asset('assets/images/N2/LivingThings/an35.png') }}" class="w-[90px]" /></td>
-                    <td> <img src="{{ asset('assets/images/N2/LivingThings/an66.png') }}" class="w-[90px]" /></td>
-                    <td> <img src="{{ asset('assets/images/N2/LivingThings/an40.png') }}" class="w-[90px]" /></td>
-                    <td> <img src="{{ asset('assets/images/N2/LivingThings/an36.png') }}" class="w-[90px]" /></td>
-                </tr>
-                <tr class="border border-white">
-                    <td class="px-2 py-2 text-left">Which need to eat?</td>
-                    <td> <img src="{{ asset('assets/images/N2/LivingThings/an37.png') }}" class="w-[90px]" /></td>
-                    <td> <img src="{{ asset('assets/images/N2/LivingThings/an35.png') }}" class="w-[90px]" /></td>
-                    <td> <img src="{{ asset('assets/images/N2/LivingThings/an66.png') }}" class="w-[90px]" /></td>
-                    <td> <img src="{{ asset('assets/images/N2/LivingThings/an40.png') }}" class="w-[90px]" /></td>
-                    <td> <img src="{{ asset('assets/images/N2/LivingThings/an36.png') }}" class="w-[90px]" /></td>
-                </tr>
-                <tr class="border border-white">
-                    <td class="px-2 py-2 text-left">Which need to breathe?</td>
-                    <td> <img src="{{ asset('assets/images/N2/LivingThings/an37.png') }}" class="w-[90px]" /></td>
-                    <td> <img src="{{ asset('assets/images/N2/LivingThings/an35.png') }}" class="w-[90px]" /></td>
-                    <td> <img src="{{ asset('assets/images/N2/LivingThings/an66.png') }}" class="w-[90px]" /></td>
-                    <td> <img src="{{ asset('assets/images/N2/LivingThings/an40.png') }}" class="w-[90px]" /></td>
-                    <td> <img src="{{ asset('assets/images/N2/LivingThings/an36.png') }}" class="w-[90px]" /></td>
-                </tr>
-                <tr class="border border-white">
-                    <td class="px-2 py-2 text-left">Which can grow (get bigger)?</td>
-                    <td> <img src="{{ asset('assets/images/N2/LivingThings/an37.png') }}" class="w-[90px]" /></td>
-                    <td> <img src="{{ asset('assets/images/N2/LivingThings/an35.png') }}" class="w-[90px]" /></td>
-                    <td> <img src="{{ asset('assets/images/N2/LivingThings/an66.png') }}" class="w-[90px]" /></td>
-                    <td> <img src="{{ asset('assets/images/N2/LivingThings/an40.png') }}" class="w-[90px]" /></td>
-                    <td> <img src="{{ asset('assets/images/N2/LivingThings/an36.png') }}" class="w-[90px]" /></td>
-                </tr>
-                <tr class="border border-white">
-                    <td class="px-2 py-2 text-left">Which of the above are living things? Which of the above are non-living
-                        things? Discuss and share your answers in class.</td>
-                </tr>
-            </tbody>
-        </table>
+    <div class="flex flex-col  slide hidden items-center">
+        <h2 class="title stroke !text-white">Learning Journal</h2>
+        <img src="{{ asset('assets/images/N2/LivingThings/g2.png') }}" class="large-img5" />
     </div>
 
 
@@ -945,7 +769,7 @@
                     parentSlideIndex = null;
                 } else {
                     // Go to selection page
-                    window.location.href = "{{ route('LivingThings') }}";
+                    window.location.href = "{{ route('AnimalsSelection') }}";
                 }
             });
 

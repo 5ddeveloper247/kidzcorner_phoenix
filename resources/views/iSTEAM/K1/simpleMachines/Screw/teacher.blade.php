@@ -9,7 +9,7 @@
     {{-- sldie 23  --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="  font-bold">Children will be able to:</h2>
+            <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
                 <li>Explore items with lights</li>
                 <li>Develop awareness of natural and man-made light sources</li>
@@ -38,7 +38,7 @@
     {{-- slide 24 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start w-[75%]">
         <div>
-            <h2 class="font-bold">Preparations</h2>
+            <h2 class="font-bold t-title">Preparations</h2>
             <ul class="list-disc ">
                 <li>1 large, plastic and transparent container</li>
                 <li>1 small, plastic and transparent container</li>
@@ -90,7 +90,7 @@
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold">Notes:</h2>
+                <h2 class="font-bold t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
                     <li>
                         If you see
@@ -117,7 +117,7 @@
                     <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
                     </li>
                     <li>
-                        Click on this <span class="font-bold">shortcut icon</span>
+                        Click on this <span class="font-bold t-title">shortcut icon</span>
                         <span
                             ><img src="{{ asset('assets/images/pptimages/home-btn.png') }}"
                                 class="home-btn" />
@@ -138,7 +138,7 @@
     <div class=" slide text-white flex flex-col justify-start text-start text-2xl">
         <h1 class=" font-bold">Let’s sort!</h1>
         <div>
-            <h2 class="font-bold">Preparations for Class Activity I:</h2>
+            <h2 class="font-bold t-title">Preparations for Class Activity I:</h2>
             <p>Place pictures of various items such as pot of plant, bottle, shoe, sock, box, elephant, lamp, light
                 bulb,
                 
@@ -147,7 +147,7 @@
 
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold">What to do:</h2>
+                <h2 class="font-bold t-title">What to do:</h2>
                 <ul>
                     <li>
                         <strong>*</strong> Invite children to pick up pictures and sort them into groups:

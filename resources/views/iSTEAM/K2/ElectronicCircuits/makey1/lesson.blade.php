@@ -34,7 +34,7 @@
             to programme the robot to do certain tasks.</h2>
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video1')"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2">
+            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
       <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -133,7 +133,7 @@
             Have children observe the set up process and the board when it's connected to the computer.</p>
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video2')"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2">
+            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
       <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -150,7 +150,7 @@
         <p class="note">Note: Guide children to spot all the blinking lights.</p>
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video3')"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2">
+            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
       <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -166,7 +166,7 @@
         <p class="note">Note: Guide children to spot all the blinking lights.</p>
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video4')"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2">
+            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
       <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -211,7 +211,7 @@
         <h2 class="title stroke">Doesn't this show that the board has a complicated circuit?</h2>
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video5')"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2">
+            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
       <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -250,7 +250,7 @@
         <p class="note">Note: Have children observe the demo.</p>
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video6')"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2">
+            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
       <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -285,7 +285,7 @@
         </p>
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video7')"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2">
+            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
       <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>

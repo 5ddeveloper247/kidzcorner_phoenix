@@ -9,7 +9,7 @@
     {{-- sldie 1 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="  font-bold">Children will be able to:</h2>
+            <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
                 <li>Explore and learn some ideas to set up different parts of the Rube
                     Goldberg Machine creatively</li>
@@ -36,7 +36,7 @@
     {{-- slide 2 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start w-[75%]">
         <div>
-            <h2 class="font-bold">Preparations for Class Activity I:</h2>
+            <h2 class="font-bold t-title">Preparations for Class Activity I:</h2>
             <div class="flex items-center justify-around w-full">
                 <ul class="list-disc ">
                     <li>Dominoes</li>
@@ -61,7 +61,7 @@
     {{-- slide 3 --}}
     <div class=" slide flex flex-col text-2xl text-white justify-start gap-y-10 text-start ">
         <div>
-            <h2 class="font-bold">Things to consider for preparations:</h2>
+            <h2 class="font-bold t-title">Things to consider for preparations:</h2>
             <ul class="list-disc ">
                 <li> You may provide toy tracks or handmade tracks for children to set up the
                     machine, as long as the tracks are sturdy enough to set up the ideas.</li>
@@ -79,7 +79,7 @@
     {{-- slide 4 --}}
     <div class=" slide flex flex-col text-2xl text-white justify-start gap-y-10 text-start ">
         <div>
-            <h2 class="font-bold">Things to consider during hands-on session for Ball Roll activity:</h2>
+            <h2 class="font-bold t-title">Things to consider during hands-on session for Ball Roll activity:</h2>
             <ul class="list-disc ">
                 <li> Guide children to place the dominoes at a distance from the inclined plane so
                     that the ice cream stick on the last domino just touches the ball.</li>
@@ -95,7 +95,7 @@
     {{-- slide 5 --}}
     <div class=" slide flex flex-col text-2xl text-white justify-start gap-y-10 text-start ">
         <div>
-            <h2 class="font-bold">Things to consider during hands-on session for Ball Roll activity:</h2>
+            <h2 class="font-bold t-title">Things to consider during hands-on session for Ball Roll activity:</h2>
             <ul class="list-disc ">
                 <li> Guide children to adjust the slope of the big book with more/less books so
                     that the cup can turn and make the ball roll down into the lower track</li>
@@ -110,7 +110,7 @@
     {{-- slide 6 --}}
     <div class=" slide flex flex-col text-2xl text-white justify-start gap-y-10 text-start ">
         <div>
-            <h2 class="font-bold">Things to consider during hands-on session for Ball Roll activity:</h2>
+            <h2 class="font-bold t-title">Things to consider during hands-on session for Ball Roll activity:</h2>
             <ul class="list-disc ">
                 <li> A flap on the cardstock track was inserted in the book to hold the track
                     firmly on the book. You can also fix the track to the book with adhesive tape.</li>
@@ -131,7 +131,7 @@
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold">Notes:</h2>
+                <h2 class="font-bold t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
                     <li>
                         If you see
@@ -151,7 +151,7 @@
                     <li>Emphasise and use the keywords during hands-on sessions.</li>
                     <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.</li>
                     <li>
-                        Click on this <span class="font-bold">shortcut icon</span>
+                        Click on this <span class="font-bold t-title">shortcut icon</span>
                         <span
                             class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
                             <img src="{{asset('assets/images/pptimages/Vector4.png')}}"

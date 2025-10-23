@@ -1,12 +1,13 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
- 
-@section('content')
 
+@section('content')
+{{-- title --}}
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">What are Strcutures?</h2>
 
     {{-- Slide 1 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <img src="/assets/images/N2/structure/str/st1.png" />
+        <img src="{{asset('/assets/images/N2/structure/str/st1.png')}}" />
         <h2 class="title stroke">Children, what do you see in the pictures?</h2>
         <p class="note">Note: Guide children to share their answers.</p>
     </div>
@@ -14,7 +15,7 @@
 
     {{-- Slide 2 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <img src="/assets/images/N2/structure/str/st3.png" />
+        <img src="{{asset('/assets/images/N2/structure/str/st3.png')}}" />
         <h2 class="title stroke">These are tall buildings, an observation wheel and a tower.</h2>
         <p class="note">Note: Guide children to share what they see and describe the look and shape of these building
             structures.</p>
@@ -23,7 +24,7 @@
 
     {{-- Slide3 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <img src="/assets/images/N2/structure/str/st1.png" />
+        <img src="{{asset('/assets/images/N2/structure/str/st1.png')}}" />
         <h2 class="title stroke">These are different types of <span class="text-white">structures</span>.</h2>
         <p class="note">Note: Tell the children that tall buildings are called skyscrapers.</p>
     </div>
@@ -31,7 +32,7 @@
 
     {{-- Slide 4 --}}
     <div class="slide flex flex-col items-center justify-center ">
-        <img src="/assets/images/N2/structure/str/st2.png" />
+        <img src="{{asset('/assets/images/N2/structure/str/st2.png')}}" />
         <h2 class="title stroke">House and bridges are <span class="text-white">structures</span> too.</h2>
         <p class="note">Note: Encourage children to think of other building structures that they know of e.g. muesum,
             schools etc.</p>
@@ -49,14 +50,14 @@
 
     {{-- slide 6 --}}
     <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <img src="/assets/images/N2/structure/str/st1.png" />
+        <img src="{{asset('/assets/images/N2/structure/str/st1.png')}}" />
         <h2 class="text-start title stroke">What shapes do you see in these structures?</h2>
         <p class="note">Note: Encourage children to share their answers.</p>
     </div>
 
     {{-- Slide 7 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="/assets/images//N2/structure/str/st4.png" />
+        <img src="{{asset('/assets/images//N2/structure/str/st4.png')}}" />
         <h2 class="text-start title stroke">The tall buildings are shaped like rectangles. Some are tall
             and some are short.</h2>
     </div>
@@ -64,14 +65,14 @@
 
     {{-- Slide 8 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="/assets/images//N2/structure/str/st5.png" />
+        <img src="{{asset('/assets/images//N2/structure/str/st5.png')}}" />
         <h2 class="text-start title stroke">The observation wheel is like a circle.</h2>
     </div>
 
 
     {{-- slide 9 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="/assets/images//N2/structure/str/st6.png" />
+        <img src="{{asset('/assets/images//N2/structure/str/st6.png')}}" />
         <h2 class="text-start title stroke">This tower is shaped like a triangle. The bottom of the
             tower is bigger than the top!</h2>
     </div>
@@ -79,7 +80,7 @@
 
     {{-- slide 10 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="/assets/images//N2/structure/str/st2.png" />
+        <img src="{{asset('/assets/images//N2/structure/str/st2.png')}}" />
         <h2 class="text-start title stroke">What shapes can you see here?</h2>
         <p class="note">Note: Encourage children to share their answers.</p>
     </div>
@@ -87,7 +88,7 @@
 
     {{-- slide 11 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="/assets/images//N2/structure/str/st7.png" />
+        <img src="{{asset('/assets/images//N2/structure/str/st7.png')}}" />
         <h2 class="text-start title stroke">Triangles and rectangles can be found in the shape of a house.</h2>
         <p class="note">Note: Encourage children to point out the shapes.</p>
     </div>
@@ -95,7 +96,7 @@
 
     {{-- slide 12 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="/assets/images//N2/structure/str/st8.png" />
+        <img src="{{asset('/assets/images//N2/structure/str/st8.png')}}" />
         <h2 class="text-start title stroke">The bridge looks like long rectangle.</h2>
         <p class="note">Note: Encourage children to point out the shape.</p>
     </div>
@@ -103,14 +104,14 @@
 
     {{-- slide 13 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="/assets/images//N2/structure/str/st9.png" />
+        <img src="{{asset('/assets/images//N2/structure/str/st9.png')}}" />
         <h2 class="text-start title stroke">The different structures are made up of many small
             parts. Construction workers put these parts together.</h2>
     </div>
 
     {{-- slide 14 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="/assets/images//N2/structure/str/st9.png" />
+        <img src="{{asset('/assets/images//N2/structure/str/st9.png')}}" />
         <h2 class="title stroke">When the parts are placed together, it forms
             the shape of the structure.</h2>
     </div>
@@ -118,7 +119,7 @@
 
     {{-- slide 15 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="/assets/images//N2/structure/str/st10.png" />
+        <img src="{{asset('/assets/images//N2/structure/str/st10.png')}}" />
         <h2 class="title stroke">Look at this construction set!
             There are many different small parts.</h2>
     </div>
@@ -126,20 +127,20 @@
 
     {{-- slide 16 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="/assets/images//N2/structure/str/st11.png" />
+        <img src="{{asset('/assets/images//N2/structure/str/st11.png')}}" />
         <h2 class="title stroke">These are the different <span class="text-white">connectors</span>.</h2>
     </div>
 
     {{-- slide 17 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="/assets/images//N2/structure/str/st12.png" />
+        <img src="{{asset('/assets/images//N2/structure/str/st12.png')}}" />
         <h2 class="title stroke">These are the different pieces for construction.</h2>
     </div>
 
 
     {{-- slide 18 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="/assets/images//N2/structure/str/st13.png" />
+        <img src="{{asset('/assets/images//N2/structure/str/st13.png')}}" />
         <h2 class="title stroke">Let’s use these pieces to create a square structure!</h2>
         <p class="note">Note: Ask the children how a square looks like; <br>
             explain that a square has 4 equal sides and hence the 4 rectangles used must be the same size.</p>
@@ -162,7 +163,7 @@
                 1. Gather the following parts needed for making a square.
             </h2>
         </div>
-        <img src="/assets/images//N2/structure/str/st14.png" />
+        <img src="{{asset('/assets/images//N2/structure/str/st14.png')}}" />
         <p class="note">Note: Encourage children to count the pieces needed. <br>
             Teachers please take note of the type of connectors used.</p>
     </div>
@@ -174,7 +175,7 @@
             <h2 class="title stroke ">Let's do: <br>
                 2. Arrange the long rectangle pieces in a shape of a square. </h2>
         </div>
-        <img src="/assets/images//N2/structure/str/st15.png" />
+        <img src="{{asset('/assets/images//N2/structure/str/st15.png')}}" class="large-img"/>
         <p class="note">Note: Encourage and guide the children to try.</p>
     </div>
 
@@ -184,7 +185,7 @@
             <h2 class="title stroke ">Let's do: <br>
                 3. Use the connectors to fix the rectangle pieces together at each connecting point. </h2>
         </div>
-        <img src="/assets/images//N2/structure/str/st16.png" />
+        <img src="{{asset('/assets/images//N2/structure/str/st16.png')}}" class="large-img" />
         <p class="note">Note: Teacher to assist if children are unable to connect the parts together.</p>
     </div>
 
@@ -195,9 +196,9 @@
             <h2 class="title stroke ">Let's do: <br>
                 4. Join the rectangle pieces with the one direction connectors. </h2>
         </div>
-        <div class="flex items-center gap-5">
-            <img src="/assets/images//N2/structure/str/st17.png" />
-            <img src="/assets/images//N2/structure/str/st18.png" />
+        <div class="flex items-center gap-[1vw]">
+            <img src="{{asset('/assets/images//N2/structure/str/st17.png')}}" class="large-img" />
+            <img src="{{asset('/assets/images//N2/structure/str/st18.png')}}" class="large-img" />
         </div>
         <p class="note">Note: Teacher to assist if children are unable to connect the parts together.</p>
     </div>
@@ -209,9 +210,9 @@
                 5. Join the four rectangle pieces together to form the square. </h2>
         </div>
         <div class="flex items-center gap-5">
-            <img src="/assets/images//N2/structure/str/st19.png" class="w-[300px]" />
-            <img src="/assets/images//N2/structure/str/st20.png" class="w-[300px]" />
-            <img src="/assets/images//N2/structure/str/st21.png" class="w-[300px]" />
+            <img src="{{asset('/assets/images//N2/structure/str/st19.png')}}" class="large-img4" />
+            <img src="{{asset('/assets/images//N2/structure/str/st20.png')}}" class="large-img4" />
+            <img src="{{asset('/assets/images//N2/structure/str/st21.png')}}" class="large-img4" />
         </div>
         <p class="note">Note: Teacher to assist if children are unable to connect the parts together.</p>
     </div>
@@ -223,7 +224,7 @@
                 6. Your square structure is completed. Can your structure
                 stand on its own?</h2>
         </div>
-        <img src="/assets/images//N2/structure/str/st22.png" />
+        <img src="{{asset('/assets/images//N2/structure/str/st22.png')}}" />
         <p class="note">Note: Teacher to assist if children are unable to connect the parts together.</p>
     </div>
 
@@ -238,7 +239,7 @@
 
     {{-- slide 27 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="/assets/images//N2/structure/str/st23.png" />
+        <img src="{{asset('/assets/images//N2/structure/str/st23.png')}}" />
         <h2 class="title stroke ">Let’s stand up and tiptoe. <br>
             Is it easy to stand on your toes?</h2>
         <p class="note">Note: Encourage children to share how they feel. Was it hard to balance? Did they wobble?</p>
@@ -247,7 +248,7 @@
 
     {{-- slide 28 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="/assets/images//N2/structure/str/st24.png" />
+        <img src="{{asset('/assets/images//N2/structure/str/st24.png')}}" />
         <h2 class="title stroke ">Similar to you, the structure cannot stand on its own because
             its base is narrow and it is hard for it to support its body.</h2>
     </div>
@@ -268,7 +269,7 @@
             <h2 class="title stroke ">Let's do: <br>
                 1. Look at the square below. This square can stand on its own!</h2>
         </div>
-        <img src="/assets/images//N2/structure/str/st25.png" />
+        <img src="{{asset('/assets/images//N2/structure/str/st25.png')}}" class="large-img" />
         <p class="note">Note: Teacher to point out that the parts used to make this square are
             the same as the previous square.</p>
     </div>
@@ -281,7 +282,7 @@
             <h2 class="title stroke ">Let's do: <br>
                 2. Gather the following parts needed for making a square.</h2>
         </div>
-        <img src="/assets/images//N2/structure/str/st26.png" />
+        <img src="{{asset('/assets/images//N2/structure/str/st26.png')}}" class="large-img" />
         <p class="note">Note: Encourage children to count the pieces needed. Teachers please take
             note of the type of connectors used.</p>
     </div>
@@ -292,7 +293,7 @@
             <h2 class="title stroke ">Let's do: <br>
                 3. Arrange the long rectangle pieces in a shape of a square.</h2>
         </div>
-        <img src="/assets/images//N2/structure/str/st27.png" />
+        <img src="{{asset('/assets/images//N2/structure/str/st27.png')}}" class="large-img" />
         <p class="note">Note: Encourage and guide the children to try.</p>
     </div>
 
@@ -303,9 +304,9 @@
                 4. Use the connectors to fix the rectangle pieces together
                 as shown:</h2>
         </div>
-        <div class="flex items-center gap-5">
-            <img src="/assets/images//N2/structure/str/st28.png" />
-            <img src="/assets/images//N2/structure/str/st29.png" />
+        <div class="flex items-center gap-[1vw]">
+            <img src="{{asset('/assets/images//N2/structure/str/st28.png')}}" class="large-img4" />
+            <img src="{{asset('/assets/images//N2/structure/str/st29.png')}}" class="large-img4" />
         </div>
         <p class="note">Note: Encourage and guide the children to try.</p>
     </div>
@@ -318,9 +319,9 @@
                 5. Continue to use the connectors to join the rectangle pieces as shown:</h2>
         </div>
         <div class="flex items-center justify-center gap-5">
-            <img src="/assets/images//N2/structure/str/st30.png" class="w-[300px]" />
-            <img src="/assets/images//N2/structure/str/st31.png" class="w-[300px]" />
-            <img src="/assets/images//N2/structure/str/st32.png" class="w-[300px]" />
+            <img src="{{asset('/assets/images//N2/structure/str/st30.png')}}" class="large-img4" />
+            <img src="{{asset('/assets/images//N2/structure/str/st31.png')}}" class="large-img4" />
+            <img src="{{asset('/assets/images//N2/structure/str/st32.png')}}" class="large-img4" />
         </div>
         <p class="note">Note: Encourage and guide the children to try.</p>
     </div>
@@ -332,12 +333,11 @@
             <h2 class="title stroke ">Let's do: <br>
                 6. Put your square upright. Can it stand on its own?</h2>
         </div>
-        <img src="/assets/images//N2/structure/str/st33.png" class="w-[400px]" />
+        <img src="{{asset('/assets/images//N2/structure/str/st33.png')}}" class="large-img" />
         <p class="note">Note: Encourage and guide the children to try.</p>
         <!-- Video Trigger Button -->
-        <div data-property-1="Default"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2">
-      <img src="/assets/images/pptimages/video.png" />
+        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
@@ -348,14 +348,14 @@
             <h2 class="title stroke ">Children, why do you think the structure is
                 now able to stand on its own?</h2>
         </div>
-        {{-- <img src="/assets/images//N2/structure/str/st33.png" class="w-[400px]" /> --}}
+        {{-- <img src="{{asset('/assets/images//N2/structure/str/st33.png')}}" class="w-[400px]" /> --}}
         <p class="note">Note: Encourage children to share their answers.</p>
     </div>
 
 
     {{-- slide 37 --}}
     <div class="slide hidden  flex flex-col items-center gap-5 ">
-        <img src="/assets/images/N2/structure/str/st34.png"  />
+        <img src="{{asset('/assets/images/N2/structure/str/st34.png')}}" />
         <h2 class="title stroke ">This structure can stand on its own because
             its base is wider and it can support its body.</h2>
     </div>
@@ -363,7 +363,7 @@
 
     {{-- slide 38 --}}
     <div class="slide hidden  flex flex-col items-center gap-5 ">
-        <img src="/assets/images/N2/structure/str/st35.png"  />
+        <img src="{{asset('/assets/images/N2/structure/str/st35.png')}}" />
         <h2 class="title stroke ">It is like when you stand on your feet.
             You can stand still and you do not wobble.</h2>
         <p class="note">Note: Teacher can get children to compare how they feel when stand on tiptoes and on their feet.
@@ -373,7 +373,7 @@
 
     {{-- slide 39 --}}
     <div class="slide hidden  flex flex-col items-center gap-5 ">
-        <img src="/assets/images/N2/structure/str/st35.png"  />
+        <img src="{{asset('/assets/images/N2/structure/str/st35.png')}}" />
         <h2 class="title stroke ">It is like when you stand on your feet.
             You can stand still and you do not wobble.</h2>
         <p class="note">Note: Teacher can get children to compare how they feel when stand on tiptoes and on their feet.
@@ -383,7 +383,7 @@
 
     {{-- slide 40 --}}
     <div class="slide hidden  flex flex-col items-center gap-5 ">
-        <img src="/assets/images/N2/structure/str/st36.png"  />
+        <img src="{{asset('/assets/images/N2/structure/str/st36.png')}}" />
         <h2 class="title stroke ">Similarly, all these structures have a base that helps
             them stand firmly on the ground.</h2>
     </div>
@@ -391,7 +391,7 @@
 
     {{-- slide 41 --}}
     <div class="slide hidden  flex flex-col items-center gap-5 ">
-        <img src="/assets/images/N2/structure/str/st36.png"  />
+        <img src="{{asset('/assets/images/N2/structure/str/st36.png')}}" />
         <h2 class="title stroke ">All the different structures are made up of smaller parts
             giving them their shape.</h2>
     </div>
@@ -415,32 +415,27 @@
     {{-- ====================================== --}}
     {{-- Buttons --}}
     <div class="down-btn-container">
-        <button
-         class="doneButton">
- <img src="{{ asset('assets/images/pptimages/done.png') }}" />
+        <button class="doneButton">
+            <img src="{{ asset('assets/images/pptimages/done.png') }}" />
         </button>
     </div>
 
     <div id="buttons" class="absolute  flex flex-row ">
         <!-- Return Button -->
         <a id="returnButton">
- <img
-    src="{{ asset('assets/images/pptimages/return.png') }}" />
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
 
         <!-- Home Button -->
-        <button
-     id="homeButton">
-            <img 
-                src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
         <button id="closeButton">
-           
-            <img 
-                src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-    
+
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
+
         </button>
 
     </div>
@@ -448,9 +443,8 @@
     {{-- next Button --}}
     <div class="down-btn-container">
 
-        <button
-            class="nextButton ">
-                        <img src="{{ asset('assets/images/pptimages/return.png') }}" />
+        <button class="nextButton ">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
 
         </button>
     </div>
@@ -496,9 +490,12 @@
                 });
             });
 
-            // ✅ Return button
+            // ✅ Return button - redirect if on first slide
             returnButton.addEventListener("click", () => {
-                if (currentSlide > 0) {
+                if (currentSlide === 0) {
+                    // Redirect to route when on first slide
+                    window.location.href = "{{ route('structureSelection') }}";
+                } else if (currentSlide > 0) {
                     currentSlide--;
                     showSlide(currentSlide);
                 }

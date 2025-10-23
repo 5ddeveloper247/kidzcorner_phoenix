@@ -5,7 +5,7 @@
     {{-- sldie 1  --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="  font-bold">Children will be able to:</h2>
+            <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
                 <li>Explore how block structures are created</li>
                 <li>Create structures using shapes.</li>
@@ -40,7 +40,7 @@
     {{-- slide 2 --}}
     <div class=" slide flex text-2xl text-white flex-col items-start justify-start gap-[3rem] text-start">
         <div>
-            <h2 class="font-bold">Preparations:</h2>
+            <h2 class="font-bold t-title">Preparations:</h2>
             <ul class="list-disc ">
                 <li>Put aside the following parts from the DDQ blocks set until the later
                     lessons to avoid distraction to the children,</li>
@@ -62,7 +62,7 @@
     {{-- slide 3 --}}
     <div class=" slide flex text-2xl text-white flex-col items-baseline  justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Preparations:</h2>
+            <h2 class="font-bold t-title">Preparations:</h2>
             <ul class="list-disc ">
                 <li>Prepare one set of the following for each child. You can pack 10 sets with
                     one box of DDQ blocks (using all three colour cubes)</li>
@@ -86,7 +86,7 @@
     {{-- sldie 4 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start items-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Things to consider during Individual Activities:</h2>
+            <h2 class="font-bold t-title">Things to consider during Individual Activities:</h2>
             <ul class="list-disc ">
                 <li>
                     Do demonstrate to the children how they can connect the pieces together. <br>
@@ -98,7 +98,7 @@
                     possible questions are listed in the lesson, you may add on questions <br>
                     based on children's responses.
                 </li> <br><br>
-                <h2 class="font-bold">Things to consider during Class Activity:</h2>
+                <h2 class="font-bold t-title">Things to consider during Class Activity:</h2>
                 <li>
                     Encourage children to manipulate with the different pieces and <br>
                     explore how they can fix the pieces together. Encourage children to <br>
@@ -130,7 +130,7 @@
         <div class="flex w-[100%] items-center justify-between">
             <div>
                 <!-- Notes -->
-                <h2 class="font-bold ">Notes:</h2>
+                <h2 class="font-bold t-title ">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
                     <li>
                         If you see
@@ -167,7 +167,7 @@
                     <li>Emphasise and use the <strong>keywords</strong> during hands-on sessions.</li>
                     <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.</li>
                     <li>
-                        Click on this <span class="font-bold">shortcut icon</span>
+                        Click on this <span class="font-bold t-title">shortcut icon</span>
                         <span
                             class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
                             <!-- Decorative Vector -->
@@ -299,13 +299,16 @@
                 });
             });
 
-            // ✅ Return button
-            returnButton.addEventListener("click", () => {
-                if (currentSlide > 0) {
-                    currentSlide--;
-                    showSlide(currentSlide);
-                }
-            });
+           // ✅ Return button - redirect if on first slide
+returnButton.addEventListener("click", () => {
+    if (currentSlide === 0) {
+        // Redirect to route when on first slide
+        window.location.href = "{{ route('YourRouteName') }}";  
+    } else if (currentSlide > 0) {
+        currentSlide--;
+        showSlide(currentSlide);
+    }
+});
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {

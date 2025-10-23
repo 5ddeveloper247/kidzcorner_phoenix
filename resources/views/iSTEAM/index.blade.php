@@ -27,10 +27,53 @@
             cursor: pointer;
 
         }
+
+        #preloader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            z-index: 9999;
+            opacity: 1;
+            transition: opacity 1s ease-in-out;
+        }
+
+        #preloader.hidden {
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        #preloader video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* --- Fade in main page after preloader --- */
+        .page-content {
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+        }
+
+        .page-content.visible {
+            opacity: 1;
+        }
     </style>
 @endpush
 
 @section('content')
+    <div id="preloader">
+        <video id="preloaderVideo" autoplay playsinline>
+            <source src="{{ asset('assets/images/pptimages/preloader.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
 
     <div class="grid grid-cols-2 gap-[3vw]">
 
@@ -58,7 +101,7 @@
 
 
 
-    <div id="buttons" class="absolute top-[30px] right-[60px] flex flex-row gap-6 z-90">
+    <div id="buttons" class="absolute flex flex-row gap-6 z-90">
 
         <!-- Home Button -->
         <button id="homeButton">
@@ -72,3 +115,19 @@
         </button>
     </div>
 @endsection
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const preloader = document.getElementById("preloader");
+        const pageContent = document.querySelector(".page-content");
+
+        // ⏱ Hide preloader after 2 seconds
+        setTimeout(() => {
+            preloader.classList.add("hidden");
+            setTimeout(() => {
+                pageContent.classList.add("visible");
+            }, 800);
+        }, 5000);
+    });
+</script>

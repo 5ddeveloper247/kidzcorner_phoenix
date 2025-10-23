@@ -281,7 +281,7 @@
         <h2 class="title stroke">Let’s see how this rocket launches and shoots into the sky.</h2>
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video1')"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2">
+            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
       <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -296,7 +296,7 @@
             main rocket and drop into the ocean.</h2>
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video2')"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2">
+            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
       <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -313,7 +313,7 @@
             launch of a rocket.</p>
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video3')"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2">
+            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
       <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -375,7 +375,7 @@
             shuttle to increase drag and help stop the space shuttle.</h2>
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video4')"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2">
+            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
       <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -390,7 +390,7 @@
             shuttle to increase drag and help stop the space shuttle.</h2>
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video5')"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2">
+            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
       <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>

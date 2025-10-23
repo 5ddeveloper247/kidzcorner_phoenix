@@ -4,15 +4,15 @@
 
 @section('content')
     {{--  First Slide --}}
-    <div class="board w-[1267px] h-[734px] flex flex-col justify-center items-center slide">
+    <div class="board w-[55vw]   flex flex-col justify-center items-center slide">
         <h2 class="text-[45px] text-[#F7B94A] font-extrabold stroke ">Final Project</h2>
         <div class="flex flex-wrap justify-center items-center " style="width: inherit">
             <!-- Card 1-->
             <a href="{{ route('final2') }}"
-                  style="background-image: url('{{asset('/assets/images/pptimages/Property1.png')}}');"
-            class=" bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="text-2xl text-[#7D6F71]">Final Project</h2>
-                <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">1</span>
+                style="background-image: url('{{ asset('/assets/images/pptimages/Property1.png') }}');"
+                class=" bg-no-repeat bg-contain bg-center w-[13vw] h-[10vw] relative flex justify-center items-center transition hover:brightness-110">
+                <h2 class="!text-[1.5vw] text-[#7D6F71]">Final Project</h2>
+                <span class="text-[2vw] text-[#AF6E39] absolute  top-[1vw] right-[1vw]">1</span>
             </a>
         </div>
     </div>
@@ -21,24 +21,20 @@
     <div id="buttons" class="absolute top-0 right-[60px] flex flex-row gap-6 z-90">
 
         <!-- Return Button (hidden initially) -->
-        <a 
-    id="returnButton">
+        <a id="returnButton" href="{{route('K2')}}">
 
-            <img 
-                src="{{ asset('assets/images/pptimages/return.png') }}" />
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
         <!-- Home Button -->
-        <button
-          id="homeButton">
-            <img 
-                src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
         <button id="closeButton">
-           
-<img  src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-   
+
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
+
         </button>
     </div>
     </div>

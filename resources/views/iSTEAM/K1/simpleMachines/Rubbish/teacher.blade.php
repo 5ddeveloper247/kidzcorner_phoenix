@@ -9,7 +9,7 @@
     {{-- sldie 23  --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="  font-bold">Children will be able to:</h2>
+            <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
                 <li>Set up a Rube Goldberg Machine that includes a simple machine - wheel and axle</li>
                 <li>Explore and learn about wheel and axle</li>
@@ -144,7 +144,7 @@
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold">Notes:</h2>
+                <h2 class="font-bold t-title">Notes:</h2>
                 <ul class="list-disc ">
                     <li>
                         If you see
@@ -168,7 +168,7 @@
 
                     <li>Click on this shortcut icon if you need to go to some <br>
                         parts of the lesson quickly.</li>
-                    Click on this <span class="font-bold">shortcut icon</span>
+                    Click on this <span class="font-bold t-title">shortcut icon</span>
                     <span
                         class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
                         <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
@@ -191,7 +191,7 @@
     <div class=" slide flex text-2xl text-white flex-col justify-center gap-[3rem] text-start">
 
 
-        <h2 class="font-bold  title stroke flex justify-center mb-2">Learning Centre Idea</h2>
+        <h2 class="font-bold t-title  title stroke flex justify-center mb-2">Learning Centre Idea</h2>
 
         <ul class=!text-white>
             <h2 class="  font-bold  !text-white  !text-start">The Best Throw a Rubbish Machine</h2>
@@ -217,7 +217,7 @@
     <div class=" slide flex text-2xl text-white flex-col justify-center gap-[3rem] text-start">
 
 
-        <h2 class="font-bold  title stroke flex justify-center mb-2">Learning Centre Idea</h2>
+        <h2 class="font-bold t-title  title stroke flex justify-center mb-2">Learning Centre Idea</h2>
 
         <ul class=!text-white>
             <h2 class="  font-bold  !text-white  !text-start">Which toys have wheels and axles?</h2>

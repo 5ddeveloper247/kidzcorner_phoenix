@@ -108,7 +108,7 @@
                 <li>2. Build the second car.</li>
             </ul>
         </div>
-        <img src="{{ asset('/assets/images/N2/SimpleMachines/bcar2.png') }}" />
+        <img src="{{ asset('/assets/images/N2/SimpleMachines/bcar2.png') }}" class="large-img2" />
         <p class="note  z-[99]">Note: Have each group of children work together to complete the mission. <a
                 class="click-btn2">Click
                 <span class="text-[#F7B94A]">here</span></a> for the guide.</p>
@@ -174,7 +174,7 @@
                 <li>3. Build a launcher.</li>
             </ul>
         </div>
-        <img src="{{ asset('/assets/images/N2/SimpleMachines/bcar2.p') }}ng" />
+        <img src="{{ asset('/assets/images/N2/SimpleMachines/bcar2.png') }}" class="large-img2" />
         <p class="note">Note: Have each group of children work together to complete the mission. <a
                 class="click-btn3">Click
                 <span class="text-[#F7B94A]">here</span></a> for the guide.</p>
@@ -213,7 +213,7 @@
 
 
     {{-- slide 26 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
+    <div class="slide flex flex-col items-center justify-center ">
         <img src="{{ asset('/assets/images/N2/SimpleMachines/l4.png') }}" />
         <h2 class="stroke title">See how we
             can use a launcher to push a car forward.</h2>
@@ -228,7 +228,7 @@
 
 
     {{-- slide  27 --}}
-    <div class="flex flex-col h-[50vh] justify-between  slide hidden items-center">
+    <div class="flex flex-col h-[50vh] justify-between slide hidden items-center">
 
         <h2 class="title stroke !text-white">Hands-on Time 2</h2>
         <div class="text-start">
@@ -249,7 +249,7 @@
                 </li>
             </ul>
         </div>
-        <img src="{{ asset('/assets/images/N2/SimpleMachines/b29.png') }}" class="large-img" />
+        <img src="{{ asset('/assets/images/N2/SimpleMachines/b29.png') }}" class="large-img2" />
         <p class="note">Note: Have children take turns to try the step.</p>
     </div>
 
@@ -262,13 +262,13 @@
                     so.</li>
             </ul>
         </div>
-        <img src="{{ asset('/assets/images/N2/SimpleMachines/b29.png') }}" />
+        <img src="{{ asset('/assets/images/N2/SimpleMachines/b29.png') }}" class="large-img2" />
         <p class="note">Note: Have children take turns to try the step.</p>
     </div>
 
 
     {{-- slide 30 --}}
-    <div class="flex flex-col  slide hidden items-center">
+    <div class="flex flex-col h-[50vh] justify-between slide hidden items-center">
 
         <h2 class="title stroke">Based on your experience. which car is easier to move up the inclined plane: first or
             second? Why? What do you find out from the test?</h2>
@@ -278,14 +278,14 @@
 
 
     {{-- slide 31 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
+    <div class="slide flex flex-col items-center justify-center ">
         <h2 class="stroke title"><span class="text-white">Inclined planes</span> are around us.<br />Let’s see if you can
             find them!</h2>
     </div>
 
 
     {{-- slide 32  --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
+    <div class="slide flex flex-col items-center justify-center ">
         <img src="{{ asset('/assets/images/N2/SimpleMachines/b30.png') }}" />
         <h2 class="stroke title">What is this? Where is the <span class="text-white">inclined plane</span>?</h2>
         <p class="note"> Note: Guide children to name and point out the inclined plane.</p>
@@ -293,7 +293,7 @@
 
 
     {{-- slide 33 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
+    <div class="slide flex flex-col items-center justify-center ">
         <img src="{{ asset('/assets/images/N2/SimpleMachines/new3.png') }}" />
         <h2 class="stroke title">This <span class="text-white">inclined plane</span> lets us move down the
             slide<br />smoothly during play.</h2>
@@ -301,7 +301,7 @@
 
 
     {{-- slide 34 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
+    <div class="slide flex flex-col items-center justify-center ">
         <img src="{{ asset('/assets/images/N2/SimpleMachines/b31.png') }}" />
         <h2 class="stroke title">What is this? Where is the <span class="text-white">inclined plane</span>?</h2>
         <p class="note"> Note: Guide children to name and point out the inclined plane.</p>
@@ -309,7 +309,7 @@
 
 
     {{-- slide 35 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
+    <div class="slide flex flex-col items-center justify-center ">
         <img src="{{ asset('/assets/images/N2/SimpleMachines/b31.png') }}" />
         <h2 class="stroke title">This <span class="text-white">inclined plane</span> lets us move passengers
             in<br />wheelchairs up or down a bus easily.</h2>
@@ -317,16 +317,16 @@
 
 
     {{-- slide 36 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <img src="{{ asset('/assets/images/N2/SimpleMachines/b32.png') }}" />
+    <div class="slide flex flex-col items-center justify-center ">
+        <img src="{{ asset('/assets/images/N2/SimpleMachines/b32.png') }}" class="large-img3" />
         <h2 class="stroke title">What is this? Where is the <span class="text-white">inclined plane</span>?</h2>
         <p class="note"> Note: Guide children to name and point out the inclined plane.</p>
     </div>
 
 
     {{-- slide 37 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <img src="{{ asset('/assets/images/N2/SimpleMachines/new4.png') }}" />
+    <div class="slide flex flex-col items-center justify-center ">
+        <img src="{{ asset('/assets/images/N2/SimpleMachines/new4.png') }}"  class="large-img3"/>
         <h2 class="stroke title">This <span class="text-white">inclined plane</span> lets us move heavy things up or
             down<br />a truck easily.</h2>
     </div>

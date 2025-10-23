@@ -44,7 +44,7 @@
             to create music using this Makey Makey music maker.</h2>
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video1')"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2">
+            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
       <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -63,7 +63,7 @@
             to create music using this Makey Makey music maker.</h2>
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video2')"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2">
+            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
       <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -80,7 +80,7 @@
             connected to the Earth of the board while creating music.</h2>
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video3')"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2">
+            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
       <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -97,7 +97,7 @@
             creating music easier and smoother.</h2>
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video4')"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2">
+            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
       <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>

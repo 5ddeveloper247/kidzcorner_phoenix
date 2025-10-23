@@ -1,9 +1,11 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
 
- 
+
 
 @section('content')
+    {{-- title --}}
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">Following Instructions</h2>
 
 
     {{-- Slide 1 --}}
@@ -75,7 +77,7 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <div class="flex flex-col items-center">
             <img src="{{ asset('assets/images/N2/BasicCoding/bs14.png') }}" />
-            <div class="flex text-white text-[26px] gap-[15rem]">
+            <div class="flex text-white text-[1.5vw] gap-[2vw]">
                 <p>forwar</p>
                 <p>bakcward</p>
                 <p>turn left</p>
@@ -90,7 +92,7 @@
     {{-- slide 10 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="!text-white title stroke">Hands-on Time </h2>
-        <h2 class="title stroke">Mission: <br>
+        <h2 class="title stroke text-start">Mission: <br>
             Let’s follow the instructions of the directional cards and move accordingly in sequence.</h2>
         <p class="note">Note: Have children stand with enough space to move.</p>
     </div>
@@ -125,14 +127,14 @@
 
 
     {{-- slide 15 --}}
-      <div class="flex flex-col items-center justify-center slide hidden">
+    <div class="flex flex-col items-center justify-center slide hidden">
         <img src="{{ asset('assets/images/N2/BasicCoding/bs18.png') }}" />
         <p class="note">Note: Guide children to name each card and move accordingly.</p>
     </div>
 
 
     {{-- slide 16 --}}
-   <div class="flex flex-col items-center justify-center slide hidden">
+    <div class="flex flex-col items-center justify-center slide hidden">
         <img src="{{ asset('assets/images/N2/BasicCoding/bs19.png') }}" />
         <p class="note">Note: Guide children to name each card and move accordingly.</p>
     </div>
@@ -154,44 +156,35 @@
     {{-- =================================================================== --}}
     {{-- Complete button --}}
     <div class="down-btn-container">
-        <button
-         class="doneButton">
- <img src="{{ asset('assets/images/pptimages/done.png') }}" />
+        <button class="doneButton">
+            <img src="{{ asset('assets/images/pptimages/done.png') }}" />
         </button>
     </div>
 
     {{-- Buttons --}}
- <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
+    <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
 
         <!-- Return Button -->
         <a id="returnButton">
- <img
-    src="{{ asset('assets/images/pptimages/return.png') }}" />
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
 
         <!-- Home Button -->
-        <button
-     id="homeButton">
-            <img 
-                src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
         <button id="closeButton">
-           
-            <img 
-                src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-    
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
         </button>
 
     </div>
 
     {{-- next Button --}}
     <div class="down-btn-container">
-
-        <button
-            class="nextButton ">
-                        <img src="{{ asset('assets/images/pptimages/return.png') }}" />
+        <button class="nextButton ">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
 
         </button>
     </div>
@@ -233,9 +226,12 @@
                 });
             });
 
-            // ✅ Return button
+            // ✅ Return button - redirect if on first slide
             returnButton.addEventListener("click", () => {
-                if (currentSlide > 0) {
+                if (currentSlide === 0) {
+                    // Redirect to route when on first slide
+                    window.location.href = "{{ route('InstructionsSelection') }}";  
+                } else if (currentSlide > 0) {
                     currentSlide--;
                     showSlide(currentSlide);
                 }

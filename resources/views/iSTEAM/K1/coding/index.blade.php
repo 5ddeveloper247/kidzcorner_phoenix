@@ -5,79 +5,79 @@
 
 @section('content')
     {{--  First Slide --}}
-    <div class="board w-[1267px] h-[734px] flex flex-col justify-center items-center slide">
+    <div class="board w-[55vw] flex flex-col justify-center items-center slide">
 
-        <h2 class="text-[45px] text-[#F7B94A] font-extrabold stroke ">Coding and Robotics</h2>
+        <h2 class="text-[45px] text-[#c39c5a] font-extrabold stroke ">Coding and Robotics</h2>
 
         <div class="flex flex-wrap justify-center items-center " style="width: inherit">
             <!-- Card 1-->
             <a href="{{ route('wCoding') }}"
                   style="background-image: url('{{asset('/assets/images/pptimages/Property1.png')}}');"
-            class=" bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="text-2xl text-[#7D6F71]">What is Coding?</h2>
-                <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">1</span>
+            class=" bg-no-repeat bg-contain bg-center w-[13vw] h-[10vw] relative flex justify-center items-center transition hover:brightness-110">
+                <h2 class="!text-[1.5vw] text-[#7D6F71]">What is Coding?</h2>
+                <span class="text-[2vw] text-[#AF6E39] absolute  top-[1vw] right-[1vw]">1</span>
             </a>
 
             <!-- Card 2 -->
             <a href="{{ route('go1') }}"
                   style="background-image: url('{{asset('/assets/images/pptimages/Property1.png')}}');"
-            class=" bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="text-2xl text-[#7D6F71]">Go! Go! Go! <br>1</h2>
-                <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">2</span>
+            class=" bg-no-repeat bg-contain bg-center w-[13vw] h-[10vw] relative flex justify-center items-center transition hover:brightness-110">
+                <h2 class="!text-[1.5vw] text-[#7D6F71]">Go! Go! Go! <br>1</h2>
+                <span class="text-[2vw] text-[#AF6E39] absolute  top-[1vw] right-[1vw]">2</span>
             </a>
 
             <!-- Card 3 -->
             <a href="{{ route('go2') }}"
                   style="background-image: url('{{asset('/assets/images/pptimages/Property1.png')}}');"
-            class=" bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="text-2xl text-[#7D6F71]">Go! Go! Go! <br>2</h2>
-                <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">3</span>
+            class=" bg-no-repeat bg-contain bg-center w-[13vw] h-[10vw] relative flex justify-center items-center transition hover:brightness-110">
+                <h2 class="!text-[1.5vw] text-[#7D6F71]">Go! Go! Go! <br>2</h2>
+                <span class="text-[2vw] text-[#AF6E39] absolute  top-[1vw] right-[1vw]">3</span>
             </a>
 
             <!-- Card 4 -->
             <a href="{{ route('fast') }}"
                   style="background-image: url('{{asset('/assets/images/pptimages/Property1.png')}}');"
-            class=" bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="text-2xl text-[#7D6F71]">Fast and <br> Slow</h2>
-                <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">4</span>
+            class=" bg-no-repeat bg-contain bg-center w-[13vw] h-[10vw] relative flex justify-center items-center transition hover:brightness-110">
+                <h2 class="!text-[1.5vw] text-[#7D6F71]">Fast and <br> Slow</h2>
+                <span class="text-[2vw] text-[#AF6E39] absolute  top-[1vw] right-[1vw]">4</span>
             </a>
 
             <!-- Card 5 -->
             <a href="{{ route('soundL') }}"
                   style="background-image: url('{{asset('/assets/images/pptimages/Property1.png')}}');"
-            class=" bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="text-2xl text-[#7D6F71]">Sound and <br> Light</h2>
-                <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">5</span>
+            class=" bg-no-repeat bg-contain bg-center w-[13vw] h-[10vw] relative flex justify-center items-center transition hover:brightness-110">
+                <h2 class="!text-[1.5vw] text-[#7D6F71]">Sound and <br> Light</h2>
+                <span class="text-[2vw] text-[#AF6E39] absolute  top-[1vw] right-[1vw]">5</span>
             </a>
 
             <!-- Card 6 -->
             <a href="{{ route('challenge1') }}"
                   style="background-image: url('{{asset('/assets/images/pptimages/Property1.png')}}');"
-            class=" bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="text-2xl text-[#7D6F71]">Coding <br> Challenge 1</h2>
-                <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">6</span>
+            class=" bg-no-repeat bg-contain bg-center w-[13vw] h-[10vw] relative flex justify-center items-center transition hover:brightness-110">
+                <h2 class="!text-[1.5vw] text-[#7D6F71]">Coding <br> Challenge 1</h2>
+                <span class="text-[2vw] text-[#AF6E39] absolute  top-[1vw] right-[1vw]">6</span>
             </a>
 
             <!-- Card 7 -->
             <a href="{{ route('challenge2') }}"
                   style="background-image: url('{{asset('/assets/images/pptimages/Property1.png')}}');"
-            class=" bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="text-2xl text-[#7D6F71]">Coding <br> Challenge 2</h2>
-                <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">7</span>
+            class=" bg-no-repeat bg-contain bg-center w-[13vw] h-[10vw] relative flex justify-center items-center transition hover:brightness-110">
+                <h2 class="!text-[1.5vw] text-[#7D6F71]">Coding <br> Challenge 2</h2>
+                <span class="text-[2vw] text-[#AF6E39] absolute  top-[1vw] right-[1vw]">7</span>
             </a>
 
             <!-- Card 8 -->
             <a href="{{ route('challenge3') }}"
                   style="background-image: url('{{asset('/assets/images/pptimages/Property1.png')}}');"
-            class=" bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="text-2xl text-[#7D6F71]">Coding <br> Challenge 3</h2>
-                <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">8</span>
+            class=" bg-no-repeat bg-contain bg-center w-[13vw] h-[10vw] relative flex justify-center items-center transition hover:brightness-110">
+                <h2 class="!text-[1.5vw] text-[#7D6F71]">Coding <br> Challenge 3</h2>
+                <span class="text-[2vw] text-[#AF6E39] absolute  top-[1vw] right-[1vw]">8</span>
             </a>
         </div>
     </div>
 
     {{--  Second Slide (Initially Hidden) --}}
-    <div class="board w-[1267px] h-[734px] flex flex-col justify-center items-center slide hidden">
+    <div class="board w-[35vw] flex flex-col justify-center items-center slide hidden">
 
         <h2 class="text-[45px] text-[#F7B94A] font-extrabold stroke ">Coding and Robotics</h2>
 
@@ -85,31 +85,31 @@
             <!-- Card 1-->
             <a href="{{ route('challenge4') }}"
                   style="background-image: url('{{asset('/assets/images/pptimages/Property1.png')}}');"
-            class=" bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="text-2xl text-[#7D6F71]">Coding <br> Challenge 4</h2>
-                <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">9</span>
+            class=" bg-no-repeat bg-contain bg-center w-[13vw] h-[10vw] relative flex justify-center items-center transition hover:brightness-110">
+                <h2 class="!text-[1.5vw] text-[#7D6F71]">Coding <br> Challenge 4</h2>
+                <span class="text-[2vw] text-[#AF6E39] absolute  top-[1vw] right-[1vw]">9</span>
             </a>
 
             <!-- Card 2 -->
             <a href="{{ route('challenge5') }}"
                   style="background-image: url('{{asset('/assets/images/pptimages/Property1.png')}}');"
-            class=" bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="text-2xl text-[#7D6F71]">Coding <br> Challenge 5</h2>
-                <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">10</span>
+            class=" bg-no-repeat bg-contain bg-center w-[13vw] h-[10vw] relative flex justify-center items-center transition hover:brightness-110">
+                <h2 class="!text-[1.5vw] text-[#7D6F71]">Coding <br> Challenge 5</h2>
+                <span class="text-[2vw] text-[#AF6E39] absolute  top-[1vw] right-[1vw]">10</span>
             </a>
 
             <!-- Card 3 -->
             <a href="{{ route('final') }}"
                   style="background-image: url('{{asset('/assets/images/pptimages/Property1.png')}}');"
-            class=" bg-no-repeat bg-contain bg-center w-[270px] h-[300px] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="text-2xl text-[#7D6F71]">Final <br> Project</h2>
-                <span class="text-3xl text-[#AF6E39] absolute  top-[70px] right-[30px]">11</span>
+            class=" bg-no-repeat bg-contain bg-center w-[13vw] h-[10vw] relative flex justify-center items-center transition hover:brightness-110">
+                <h2 class="!text-[1.5vw] text-[#7D6F71]">Final <br> Project</h2>
+                <span class="text-[2vw] text-[#AF6E39] absolute  top-[1vw] right-[1vw]">11</span>
             </a>
         </div>
     </div>
 
     {{--  Top Buttons --}}
-    <div id="buttons" class="absolute top-[30px] right-[60px] flex flex-row gap-6 z-90">
+    <div id="buttons" class="absolute flex flex-row gap-6 z-90">
 
         <!-- Return Button (hidden initially) -->
         <a id="returnButton">
@@ -138,7 +138,7 @@
     <div class="down-btn-container">
         <button
             class="nextButton ">
-                        <img src="{{ asset('assets/images/pptimages/return.png') }}" />
+                        <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
 
         </button>
     </div>

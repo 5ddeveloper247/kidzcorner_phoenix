@@ -9,7 +9,7 @@
     {{-- sldie 23  --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="  font-bold">Children will be able to:</h2>
+            <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
                 <li>Explore and learn about the characteristics of a simple machine - <br> wheel and axle</li>
                 <li>Understand the uses of the wheel and axle</li>
@@ -39,7 +39,7 @@
 
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-3 text-start">
 
-        <h2 class="font-bold  !text-white">Preparations:</h2>
+        <h2 class="font-bold t-title  !text-white">Preparations:</h2>
 
         <ul class="list-disc ">
             <li>1 big container</li>
@@ -60,7 +60,7 @@
 
 
         <ul class="list-disc">
-            <h2 class="font-bold  !text-white">Preparations:</h2>
+            <h2 class="font-bold t-title  !text-white">Preparations:</h2>
             <li>Each child: 1 Styrofoam disc, 6 plastic spoons, 1 long stick and 1
                 circular template [refer to the next page]</li>
             <li>1 roll of packing film or adhesive tape</li>
@@ -80,7 +80,7 @@
 
 
         <ul>
-            <h2 class="font-bold  !text-white">How to make a spoon water wheel and things to consider:</h2>
+            <h2 class="font-bold t-title  !text-white">How to make a spoon water wheel and things to consider:</h2>
             <li>i. Mark 6 even points on the rim of a styrofoam disc with the help of a circular<br>
                 template. [Print out the circular template on the next page, one for each child.<br>
                 To do this step successfully, put the circular template at the bottom of the disc<br>
@@ -117,7 +117,7 @@
 
 
         <ul>
-            <h2 class="font-bold  !text-white">How to make a spoon water wheel and things to consider:</h2>
+            <h2 class="font-bold t-title  !text-white">How to make a spoon water wheel and things to consider:</h2>
             <li>ii. Put 6 spoons into the rim of the disc by referring to the markings made. <br>
                 [To dothis step successfully, please use spoons with a small handle and <br>
                 supervise children to do it carefully. For the sample done here, around 1 <br>
@@ -141,7 +141,7 @@
 
 
         <ul>
-            <h2 class="font-bold  !text-white">How to make a spoon water wheel and things to consider:</h2>
+            <h2 class="font-bold t-title  !text-white">How to make a spoon water wheel and things to consider:</h2>
             <li>iii. Put a stick through the centre of the disc with the help of the circular <br>
                 template. [To do this step successfully, put the circular template on top <br>
                 of the disc (match with the inner circle) and aim at the centre point when <br>
@@ -164,7 +164,7 @@
 
 
         <ul>
-            <h2 class="font-bold  !text-white">How to make a spoon water wheel and things to consider:</h2>
+            <h2 class="font-bold t-title  !text-white">How to make a spoon water wheel and things to consider:</h2>
             <li>iv. Use packing film or adhesive tape to firm up the design. [To do this step <br>
                 successfully, have each child work together with a friend and help each other <br>
                 to do so.]</li>
@@ -187,7 +187,7 @@
 
 
         <ul class="list-disc">
-            <h2 class="font-bold  !text-white">Things to consider for the test of the water wheel:</h2>
+            <h2 class="font-bold t-title  !text-white">Things to consider for the test of the water wheel:</h2>
             <li>The size of all the materials shown are as below. If you need to use other
                 sizes, please scale accordingly.</li>
             <li>The binder clips are used as stoppers to prevent the axle (stick) of the
@@ -208,7 +208,7 @@
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold">Notes:</h2>
+                <h2 class="font-bold t-title">Notes:</h2>
                 <ul class="list-disc ">
                     <li>
                         If you see
@@ -232,7 +232,7 @@
 
                     <li>Click on this shortcut icon if you need to go to some <br>
                         parts of the lesson quickly.</li>
-                    Click on this <span class="font-bold">shortcut icon</span>
+                    Click on this <span class="font-bold t-title">shortcut icon</span>
                     <span
                         class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
                         <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
@@ -258,17 +258,17 @@
     {{--  slide 33 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start items-center gap-[5rem] text-start">
 
-        <h2 class="font-bold  title stroke ">Learning Centre Idea
+        <h2 class="font-bold t-title  title stroke ">Learning Centre Idea
         </h2>
 
         <ul  class="!text-start">
-            <h2 class="font-bold  !text-white">Where is the wheel and axle?</h2>
+            <h2 class="font-bold t-title  !text-white">Where is the wheel and axle?</h2>
             <li>What and how to set up:</li>
             <li>Place a variety of common things with wheel and axle here. Some
                 examples are scooter, stroller fan, paint roller, clock, pizza cutter,
                 tap, door knob and screwdriver.</li>
                 <br> <br>
-                <h2 class="font-bold  !text-white">What to do:</h2>
+                <h2 class="font-bold t-title  !text-white">What to do:</h2>
                 <li>Look at each item. Show where the wheel and axle of each item are.</li>
         </ul>
 

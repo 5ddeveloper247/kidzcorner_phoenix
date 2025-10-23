@@ -5,7 +5,7 @@
     {{-- sldie 1  --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="  font-bold">Children will be able :</h2>
+            <h2 class=" t-title">Children will be able :</h2>
             <ul class="list-disc ">
                 <li>Explore and learn about the characteristics of a simple machine – wedge</li>
                 <li>Understand the uses of a wedge</li>
@@ -39,7 +39,7 @@
     {{-- slide 2 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold  !text-white">Preparations for Activity 1 and 2:</h2>
+            <h2 class="font-bold t-title  !text-white">Preparations for Activity 1 and 2:</h2>
             <div>
                 <ul class="list-disc ">
                     <li>1 large and shallow container filled with sand</li>
@@ -59,7 +59,7 @@
     {{-- sldie 3 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold  !text-white">Preparations for Activity 3:</h2>
+            <h2 class="font-bold t-title  !text-white">Preparations for Activity 3:</h2>
             <div>
                 <ul class="list-disc ">
                     <li>1 large container filled with water</li>
@@ -80,7 +80,7 @@
     {{-- sldie 4 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold  !text-white">Preparations for Activity 4:</h2>
+            <h2 class="font-bold t-title  !text-white">Preparations for Activity 4:</h2>
             <div>
                 <ul class="list-disc ">
                     <li>Play dough</li>
@@ -103,7 +103,7 @@
 
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold  !text-white">Preparations for Activity 5:</h2>
+            <h2 class="font-bold t-title  !text-white">Preparations for Activity 5:</h2>
             <div>
                 <ul class="list-disc ">
                     <li>1 cardboard</li>
@@ -134,7 +134,7 @@
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold">Notes:</h2>
+                <h2 class="font-bold t-title">Notes:</h2>
                 <ul class="list-disc ">
                     <li>
                         If you see
@@ -158,7 +158,7 @@
 
                     <li>Click on this shortcut icon if you need to go to some <br>
                         parts of the lesson quickly.</li>
-                    Click on this <span class="font-bold">shortcut icon</span>
+                    Click on this <span class="font-bold t-title">shortcut icon</span>
                     <span
                         class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
                         <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
@@ -182,7 +182,7 @@
     <div class=" slide flex text-2xl text-white flex-col justify-center gap-[3rem] text-start">
 
 
-        <h2 class="font-bold  title stroke flex justify-center mb-2">Learning Centre Idea</h2>
+        <h2 class="font-bold t-title  title stroke flex justify-center mb-2">Learning Centre Idea</h2>
 
         <ul class=!text-white>
             <h2 class="  font-bold  title !text-white  !text-start">Fun with Wedges</h2>
@@ -200,7 +200,7 @@
 
     {{-- slide 7 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-[5rem] text-start">
-        <h2 class="font-bold  title stroke !text-center">Learning Centre Idea</h2>
+        <h2 class="font-bold t-title  title stroke !text-center">Learning Centre Idea</h2>
         <ul  class="!text-start">
             <h2 class="  font-bold  title !text-white  !text-start">Fun with Wedges</h2>
             <li class="  font-bold   !text-white  !text-start">What to do:</li>
@@ -259,7 +259,7 @@
 
         <button
             class="nextButton ">
-                        <img src="{{ asset('assets/images/pptimages/return.png') }}" />
+                        <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
 
         </button>
     </div>

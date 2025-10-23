@@ -1,7 +1,10 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
- 
+
 @section('content')
+
+ {{-- title --}}
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">Parts 0f a Plant</h2>
 
 
     {{-- Slide 1 --}}
@@ -13,24 +16,8 @@
 
     {{-- Slide 2 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <div class="flex items-end ">
-            <div class="w-[200px]">
-                <img src="{{ asset('assets/images/N2/LivingThings/lt11.png') }}" />
-                <p class="note">Seed</p>
-            </div>
-            <div class="w-[250px]">
-                <img src="{{ asset('assets/images/N2/LivingThings/lt12.png') }}" />
-                <p class="note">Sprout</p>
-            </div>
-            <div class="w-[300px]">
-                <img src="{{ asset('assets/images/N2/LivingThings/lt13.png') }}" />
-                <p class="note">Seedling</p>
-            </div>
-            <div class="w-[400px]">
-                <img src="{{ asset('assets/images/N2/LivingThings/lt14.png') }}" />
-                <p class="note">Plant</p>
-            </div>
-        </div>
+       
+                <img src="{{ asset('assets/images/N2/LivingThings/gl15.png') }}" />
         <h2 class="stroke title">The seed would have grown and gotten bigger in size.
             Its look would have changed as it grew.</h2>
         <p class="note">Note: The plants may look different depending on the type of seeds planted.</p>
@@ -54,7 +41,7 @@
 
     {{-- slide 5 --}}
     <div class="flex items-center flex-col slide hidden">
-        <img src="{{ asset('assets/images/N2/LivingThings/lt32p.png') }}" />
+        <img src="{{ asset('assets/images/N2/LivingThings/lt32p.png') }}" class="large-img3" />
         <h2 class="title stroke">What is this? What does it do?</h2>
         <p class="note">Note: Encourage children to describe what they see and guess what does the leaves do.</p>
     </div>
@@ -70,34 +57,30 @@
 
     {{-- slide 7 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/LivingThings/lt23.png') }}" class="w-[300px]" />
+        <img src="{{ asset('assets/images/N2/LivingThings/lt23.png') }}"  />
         <h2 class="stroke title">The<span class="text-white"> leaves</span> use water, nutrients from the soil,<br />air and
             sunlight to make food.</h2>
     </div>
 
     {{-- slide 8 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/LivingThings/lt33p.png') }}" class="h-[400px]" />
+        <img src="{{ asset('assets/images/N2/LivingThings/lt33p.png') }}" />
         <h2 class="stroke title">What is this? What does it do?</h2>
         <p class="note">Note: Encourage children to describe what they see and guess what the stem does.</p>
     </div>
 
     {{-- slide 9 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/LivingThings/lt33p.png') }}" class="h-[400px]" />
+        <img src="{{ asset('assets/images/N2/LivingThings/lt33p.png') }}" />
         <h2 class="stroke title">This is a stem.</h2>
     </div>
 
 
     {{-- slide 10 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <div class="flex items-center justify-center flex-wrap ">
-            <div class="w-[400px]">
-                <img src="{{ asset('assets/images/N2/LivingThings/lt24.png') }}" />
-            </div>
-            <div class="w-[400px]">
-                <img src="{{ asset('assets/images/N2/LivingThings/lt31.png') }}" />
-            </div>
+        <div class="flex items-center justify-center gap-3">
+                <img src="{{ asset('assets/images/N2/LivingThings/lt24.png') }}" class="large-img4" />
+                <img src="{{ asset('assets/images/N2/LivingThings/lt31.png') }}" class="large-img4" />
         </div>
         <h2 class="stroke title">The<span class="text-white"> stem</span> helps the plant to grow tall. When the
             plant<br />is tall, its <span class="text-white">leaves</span> can get enough sunlight to make food.</h2>
@@ -106,7 +89,7 @@
 
     {{-- slide 11 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/LivingThings/lt25.png') }}" />
+        <img src="{{ asset('assets/images/N2/LivingThings/lt25.png') }}" class="large-img2" />
         <h2 class="stroke title">The<span class="text-white"> stem</span> also helps to <span class="text-white">carry
             </span>water to the<br /><span class="text-white">leaves</span> and <span class="text-white">flower</span>.</h2>
     </div>
@@ -136,17 +119,17 @@
 
     {{-- slide 15 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-            <img src="{{ asset('assets/images/N2/LivingThings/lt35p.png') }}" />
+        <img src="{{ asset('assets/images/N2/LivingThings/lt35p.png') }}" />
         <h2 class="stroke title">Children, do you know what these are?</h2>
     </div>
 
     {{-- slide 16 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <div class="flex items-center justify-center">
-            <img src="{{ asset('assets/images/N2/LivingThings/lt26.png') }}" class="w-[250px]" />
-            <img src="{{ asset('assets/images/N2/LivingThings/lt46.png') }}" class="w-[250px]" />
-            <img src="{{ asset('assets/images/N2/LivingThings/lt47.png') }}" class="w-[250px]" />
-            <img src="{{ asset('assets/images/N2/LivingThings/lt48.png') }}" class="w-[250px]" />
+            <img src="{{ asset('assets/images/N2/LivingThings/lt26.png') }}" class="large-img3" />
+            <img src="{{ asset('assets/images/N2/LivingThings/lt46.png') }}" class="large-img3" />
+            <img src="{{ asset('assets/images/N2/LivingThings/lt47.png') }}" class="large-img3" />
+            <img src="{{ asset('assets/images/N2/LivingThings/lt48.png') }}" class="large-img3" />
         </div>
         <h2 class="stroke title">These are plants with <span class="text-white">flowers</span>.<br />Plants will need time
             to grow before they have <span class="text-white">flowers</span>.</h2>
@@ -179,10 +162,11 @@
     {{-- slide 17 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="title !text-white stroke">Individual Activity</h2>
-       <div class="w-[536px] h-[450px] bg-cover bg-center flex flex-col items-center" style="background-image: url('{{ asset('assets/images/N2/LivingThings/lt54.png') }}');">   
-       <p>Record the changes you see in your flower (draw and paste photos).</p>
-       <img src="{{ asset('assets/images/N2/LivingThings/lt52.png') }}" />
-       </div>
+        <div class="w-[40vw] h-[40vh] bg-cover bg-center flex flex-col items-center"
+            style="background-image: url('{{ asset('assets/images/N2/LivingThings/lt54.png') }}');">
+            <p>Record the changes you see in your flower (draw and paste photos).</p>
+            <img src="{{ asset('assets/images/N2/LivingThings/lt52.png') }}" class="large-img3" />
+        </div>
         <div class="title stroke text-start">
             <h2>Let’s do:</h2>
             <ul>
@@ -197,58 +181,54 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <img src="{{ asset('assets/images/N2/LivingThings/lt53.png') }}" />
         <h2 class="title stroke">How do you name each part of the plant?</h2>
-      <p class="note">Note: Encourage children to point and name the different parts of the plant.</p>
+        <p class="note">Note: Encourage children to point and name the different parts of the plant.</p>
     </div>
 
 
     {{-- slide 19 --}}
-  <div class="flex flex-col items-center justify-center slide hidden">
+    <div class="flex flex-col items-center justify-center slide hidden">
         <img src="{{ asset('assets/images/N2/LivingThings/lt36p.png') }}" />
         <h2 class="title stroke">These are the parts of the plant.</h2>
     </div>
 
 
     {{-- slide 20 --}}
-   <div class="flex flex-col items-center justify-center slide hidden">
+    <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="title !text-white stroke">Learning Journal</h2>
-        <div class="w-[536px] h-[450px] bg-cover bg-center flex flex-col items-center" style="background-image: url('{{ asset('assets/images/N2/LivingThings/lt54.png') }}');">   
-       <p>Record the changes you see in your flower (draw and paste photos).</p>
-       <img src="{{ asset('assets/images/N2/LivingThings/lt52.png') }}" />
-       </div>
+        <div class="w-[40vw] h-[45vh] bg-cover bg-center flex flex-col items-center"
+            style="background-image: url('{{ asset('assets/images/N2/LivingThings/lt54.png') }}');">
+            <p>Record the changes you see in your flower (draw and paste photos).</p>
+            <img src="{{ asset('assets/images/N2/LivingThings/lt52.png') }}" class="large-img3" />
+        </div>
     </div>
 
 
 
     {{-- Complete button --}}
     <div class="down-btn-container">
-        <button
-         class="doneButton">
- <img src="{{ asset('assets/images/pptimages/done.png') }}" />
+        <button class="doneButton">
+            <img src="{{ asset('assets/images/pptimages/done.png') }}" />
         </button>
     </div>
 
     {{-- Buttons --}}
- <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
+    <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
 
         <!-- Return Button -->
         <a id="returnButton">
- <img
-    src="{{ asset('assets/images/pptimages/return.png') }}" />
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
 
         <!-- Home Button -->
-        <button
-     id="homeButton">
-            <img 
-                src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
         <button id="closeButton">
-           
-            <img 
-                src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-    
+
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
+
         </button>
 
     </div>
@@ -256,9 +236,8 @@
     {{-- next Button --}}
     <div class="down-btn-container">
 
-        <button
-            class="nextButton ">
-                        <img src="{{ asset('assets/images/pptimages/return.png') }}" />
+        <button class="nextButton ">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
 
         </button>
     </div>
@@ -300,9 +279,13 @@
                 });
             });
 
-            // ✅ Return button
+            // ✅ Return button - redirect if on first slide
             returnButton.addEventListener("click", () => {
-                if (currentSlide > 0) {
+                if (currentSlide === 0) {
+                    // Redirect to route when on first slide
+                    window.location.href =
+                    "{{ route('PartsOfPlantsSelection') }}";  
+                } else if (currentSlide > 0) {
                     currentSlide--;
                     showSlide(currentSlide);
                 }

@@ -9,7 +9,7 @@
     {{-- sldie 23  --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="  font-bold">Children will be able to:</h2>
+            <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
                 <li>Set up a Rube Goldberg Machine that includes a simple machine - <br> screw</li>
                 <li>Learn about an example of screw - the nut and bolt</li>
@@ -40,7 +40,7 @@
         <div class="flex gap-5 justify-between">
 
             <div>
-                <h2 class="  font-bold">Preparations:</h2>
+                <h2 class=" t-title">Preparations:</h2>
                 <ul>
                     <li>1 nut and bolt</li>
                     <li>1 ball</li>
@@ -67,7 +67,7 @@
     {{-- <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold">Notes:</h2>
+                <h2 class="font-bold t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
                     <li>
                         If you see
@@ -94,7 +94,7 @@
                     <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
                     </li>
                     <li>
-                        Click on this <span class="font-bold">shortcut icon</span>
+                        Click on this <span class="font-bold t-title">shortcut icon</span>
                         <span
                             ><img src="{{ asset('assets/images/pptimages/home-btn.png') }}"
                                 class="home-btn" />
@@ -114,7 +114,7 @@
 
 
         <div>
-            <h2 class="  font-bold">Things to consider for preparations:</h2>
+            <h2 class=" t-title">Things to consider for preparations:</h2>
             <ul class="list-disc">
                 <li>You may provide a toy track or handmade track for children to set up the
                     machine, as long as the track is sturdy enough to support the weight and
@@ -135,7 +135,7 @@
 
 
         <div>
-            <h2 class="  font-bold">Things to consider during hands-on session:</h2>
+            <h2 class=" t-title">Things to consider during hands-on session:</h2>
             <ul class="list-disc">
                 <li>Ask questions to prompt children share and try out their ideas. Some possible <br> questions are listed
                     in the lesson, you may add on questions based on children's</li>
@@ -158,7 +158,7 @@
 
 
         <div>
-            <h2 class="  font-bold">Things to consider during hands-on session:</h2>
+            <h2 class=" t-title">Things to consider during hands-on session:</h2>
             <ul class="list-disc">
                 <li>Guide children to place the track on the box as shown to create <br>
                     an inclined plane.</li>
@@ -182,7 +182,7 @@
 
 
         <div>
-            <h2 class="  font-bold">Things to consider during hands-on session:</h2>
+            <h2 class=" t-title">Things to consider during hands-on session:</h2>
             <ul class="list-disc">
                 <li>Guide children to make a hole with a sharp object in the cardboard. <br>
                     Fix a nut with double sided tape on the whole at the other side of <br>
@@ -205,7 +205,7 @@
 
 
         <div>
-            <h2 class="  font-bold">Things to consider during hands-on session:</h2>
+            <h2 class=" t-title">Things to consider during hands-on session:</h2>
             <ul class="list-disc">
                 <li>Guide children to place the cardboard such that the bolt is near <br>
                     to the ball. Fix the cardboard on the box with Blu Tack.</li>
@@ -229,7 +229,7 @@
 
 
         <div>
-            <h2 class="  font-bold">Things to consider during hands-on session:</h2>
+            <h2 class=" t-title">Things to consider during hands-on session:</h2>
             <ul class="list-disc">
                 <li>Guide children to arrange books from small to big. The last book should be <br>
                     heavy (you can also place two books together as shown). Place the hole <br>
@@ -253,7 +253,7 @@
       <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold">Notes:</h2>
+                <h2 class="font-bold t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
                     <li>
                         If you see
@@ -280,7 +280,7 @@
                     <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
                     </li>
                     <li>
-                        Click on this <span class="font-bold">shortcut icon</span>
+                        Click on this <span class="font-bold t-title">shortcut icon</span>
                         <span
                             ><img src="{{ asset('assets/images/pptimages/home-btn.png') }}"
                                 class="home-btn" />
@@ -305,11 +305,11 @@
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div   class="leading-normal tracking-wide">
             <div class="!text-center">
-                <h2 class="font-bold title stroke  mb-3">Learning Centre Idea
+                <h2 class="font-bold t-title title stroke  mb-3">Learning Centre Idea
                 </h2>
             </div>
             <br>
-            <h2 class="font-bold  !text-white">The Best Hole Punching Machine </h2>
+            <h2 class="font-bold t-title  !text-white">The Best Hole Punching Machine </h2>
             <ul class="list-none">
                 <li>What and how to set up: </li>
                 <li>Place things as listed in preparations here.</li>

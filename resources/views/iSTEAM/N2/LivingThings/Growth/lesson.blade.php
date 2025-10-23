@@ -1,11 +1,11 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
- 
-@section('content')
 
+@section('content')
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">How do Animal Grow</h2>
 
     {{-- Slide 1 --}}
-    <div class="flex flex-col items-center justify-center gap-10 slide hidden">
+    <div class="flex flex-col items-center justify-between h-[50vh] slide hidden">
         <h2 class="stroke title">Children, do you still remember what a <span class="text-white">living things<br /></span>is
             and what a <span class="text-white">non-living things</span> is?</h2>
         <p class="note">Note: Encourage children to share what they know about living things and non-living things.</p>
@@ -13,7 +13,7 @@
 
 
     {{-- Slide 2 --}}
-    <div class="slide flex flex-col items-center justify-center gap-10 ">
+    <div class="slide flex flex-col items-center justify-center  ">
 
         <img src="{{ asset('assets/images/N2/LivingThings/an2.png') }}" class="w-[436px]" />
         <h2 class="stroke title">Between you and a doll, which is a <span class="text-white">living thing</span>?<br />Which
@@ -22,7 +22,7 @@
 
 
     {{-- Slide 3 --}}
-    <div class="flex flex-col items-center justify-center gap-10 slide hidden">
+    <div class="flex flex-col items-center justify-center  slide hidden">
         <img src="{{ asset('assets/images/N2/LivingThings/an2.png') }}" class="w-[436px]" />
         <h2 class="stroke title">Which are <span class="text-white">living things</span>? Which are <span
                 class="text-white">non-living things</span>?</h2>
@@ -35,11 +35,7 @@
         <h2 class="stroke title">A person, a dog and a fish move on its own, drink, eat,<br />breathe and grow. So they are
             <span class="text-white">living things</span>.
         </h2>
-        <div class="flex items-center">
-            <img src="{{ asset('assets/images/N2/LivingThings/an38.png') }}" />
-            <img src="{{ asset('assets/images/N2/LivingThings/an35.png') }}" />
-            <img src="{{ asset('assets/images/N2/LivingThings/an37.png') }}" />
-        </div>
+        <img src="{{ asset('assets/images/N2/LivingThings/g9.png') }}" />
     </div>
 
     {{-- slide 5 --}}
@@ -66,15 +62,7 @@
             <h2>So <span class="!text-white">animals</span> are <span class="!text-white">living things</span></h2>
 
         </div>
-        <div class="flex flex-wrap items-center justify-center">
-            <img src="{{ asset('assets/images/N2/LivingThings/an39.png') }}" />
-            <div>
-
-                <img src="{{ asset('assets/images/N2/LivingThings/an37.png') }}" />
-                <img src="{{ asset('assets/images/N2/LivingThings/an35.png') }}" />
-            </div>
-            <img src="{{ asset('assets/images/N2/LivingThings/an41.png') }}" />
-        </div>
+        <img src="{{ asset('assets/images/N2/LivingThings/g11.png') }}" class="large-img2" />
     </div>
 
 
@@ -86,12 +74,8 @@
 
     {{-- slide 7 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <div class="flex items-center">
-            <img src="{{ asset('assets/images/N2/LivingThings/an12.png') }}" class="h-[400px]" />
-            <img src="{{ asset('assets/images/N2/LivingThings/an23.png') }}" class="h-[400px]" />
-            <img src="{{ asset('assets/images/N2/LivingThings/an29.png') }}" class="h-[400px]" />
-            <img src="{{ asset('assets/images/N2/LivingThings/an33.png') }}" class="h-[400px]" />
-        </div>
+
+        <img src="{{ asset('assets/images/N2/LivingThings/gl1.png') }}" />
         <h2 class="title stroke">This is Emma. <br>
             See how she has grown and changed over time.</h2>
         <p class="note">Note: Encourage children to describe the difference the see in the pictures.</p>
@@ -99,30 +83,16 @@
 
     {{-- slide 8 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <div class="flex items-center">
-            <div>
-                <img src="{{ asset('assets/images/N2/LivingThings/an12.png') }}" class="h-[400px]" />
-                <h2 class="text-white text-[30px]">Baby</h2>
-            </div>
-            <img src="{{ asset('assets/images/N2/LivingThings/an23.png') }}" class="h-[400px]" />
-            <img src="{{ asset('assets/images/N2/LivingThings/an29.png') }}" class="h-[400px]" />
-            <img src="{{ asset('assets/images/N2/LivingThings/an33.png') }}" class="h-[400px]" />
-        </div>
+        <img src="{{ asset('assets/images/N2/LivingThings/gl2.png') }}" />
+
         <h2 class="title stroke">This is the photo of Emma when she was a baby.</h2>
         <p class="note">Note: Introduce the stages of growth to children. Have them name each stage.</p>
     </div>
 
     {{-- slide 9 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <div class="flex items-center">
-            <img src="{{ asset('assets/images/N2/LivingThings/an12.png') }}" class="h-[400px]" />
-            <div>
-                <img src="{{ asset('assets/images/N2/LivingThings/an23.png') }}" class="h-[400px]" />
-                <h2 class="text-white text-[30px]">Young/child</h2>
-            </div>
-            <img src="{{ asset('assets/images/N2/LivingThings/an29.png') }}" class="h-[400px]" />
-            <img src="{{ asset('assets/images/N2/LivingThings/an33.png') }}" class="h-[400px]" />
-        </div>
+        <img src="{{ asset('assets/images/N2/LivingThings/gl3.png') }}" />
+
         <h2 class="stroke title">This is the photo of Emma when she was <span class="text-white">young</span>.<br />A young
             person is also called a <span class="text-white">child</span>.</h2>
         <p class="note">Note: Introduce the stages of growth to children. Have them name each stage.</p>
@@ -130,15 +100,8 @@
 
     {{-- slide 10 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <div class="flex items-center">
-            <img src="{{ asset('assets/images/N2/LivingThings/an12.png') }}" class="h-[400px]" />
-            <img src="{{ asset('assets/images/N2/LivingThings/an23.png') }}" class="h-[400px]" />
-            <div>
-                <img src="{{ asset('assets/images/N2/LivingThings/an29.png') }}" class="h-[400px]" />
-                <h2 class="text-white text-[30px]">Adult</h2>
-            </div>
-            <img src="{{ asset('assets/images/N2/LivingThings/an33.png') }}" class="h-[400px]" />
-        </div>
+        <img src="{{ asset('assets/images/N2/LivingThings/gl4.png') }}" />
+
         <h2 class="title stroke">This is the photo of Emma when she became an adult.</h2>
         <p class="note">Note: Introduce the stages of growth to children. Have them name each stage.</p>
     </div>
@@ -146,15 +109,8 @@
 
     {{-- slide 11 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <div class="flex items-center">
-            <img src="{{ asset('assets/images/N2/LivingThings/an12.png') }}" class="h-[400px]" />
-            <img src="{{ asset('assets/images/N2/LivingThings/an23.png') }}" class="h-[400px]" />
-            <img src="{{ asset('assets/images/N2/LivingThings/an29.png') }}" class="h-[400px]" />
-            <div>
-                <img src="{{ asset('assets/images/N2/LivingThings/an33.png') }}" class="h-[400px]" />
-                <h2 class="text-white text-[30px]">Elderly Person</h2>
-            </div>
-        </div>
+        <img src="{{ asset('assets/images/N2/LivingThings/gl5.png') }}" />
+
         <h2 class="stroke title">This is the photo of Emma now.<br />She has grown much <span
                 class="text-white">older</span>. She is now an elderly <span class="text-white">person</span>.</h2>
         <p class="note">Note: Introduce the stages of growth to children. Have them name each stage.</p>
@@ -163,24 +119,7 @@
 
     {{-- slide 12 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <div class="flex items-center">
-            <div>
-                <img src="{{ asset('assets/images/N2/LivingThings/an12.png') }}" class="h-[400px]" />
-                <h2 class="text-white text-[30px]">Baby</h2>
-            </div>
-            <div>
-                <img src="{{ asset('assets/images/N2/LivingThings/an23.png') }}" class="h-[400px]" />
-                <h2 class="text-white text-[30px]">Young/child</h2>
-            </div>
-            <div>
-                <img src="{{ asset('assets/images/N2/LivingThings/an29.png') }}" class="h-[400px]" />
-                <h2 class="text-white text-[30px]">Adult</h2>
-            </div>
-            <div>
-                <img src="{{ asset('assets/images/N2/LivingThings/an33.png') }}" class="h-[400px]" />
-                <h2 class="text-white text-[30px]">Elderly Person</h2>
-            </div>
-        </div>
+        <img src="{{ asset('assets/images/N2/LivingThings/gl6.png') }}" />
         <h2 class="stroke title">These are the stages of growth of a girl.</h2>
         <p class="note">Note: Explain to children that every girl goes through these stages of growth.</p>
     </div>
@@ -189,12 +128,7 @@
 
     {{-- slide 13 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <div class="flex items-center">
-            <img src="{{ asset('assets/images/N2/LivingThings/an20.png') }}" class="h-[400px]" />
-            <img src="{{ asset('assets/images/N2/LivingThings/an24.png') }}" class="h-[400px]" />
-            <img src="{{ asset('assets/images/N2/LivingThings/an30.png') }}" class="h-[400px]" />
-            <img src="{{ asset('assets/images/N2/LivingThings/an34.png') }}" class="h-[400px]" />
-        </div>
+        <img src="{{ asset('assets/images/N2/LivingThings/bl1.png') }}" />
         <h2 class="title stroke">This is Oliver. <br>
             See how he has grown and changed over time.</h2>
         <p class="note">Note: Encourage children to describe the difference the see in the pictures.</p>
@@ -202,30 +136,14 @@
 
     {{-- slide 14 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <div class="flex items-center">
-            <div>
-                <img src="{{ asset('assets/images/N2/LivingThings/an20.png') }}" class="h-[400px]" />
-                <h2 class="text-white text-[30px]">Baby</h2>
-            </div>
-            <img src="{{ asset('assets/images/N2/LivingThings/an24.png') }}" class="h-[400px]" />
-            <img src="{{ asset('assets/images/N2/LivingThings/an30.png') }}" class="h-[400px]" />
-            <img src="{{ asset('assets/images/N2/LivingThings/an34.png') }}" class="h-[400px]" />
-        </div>
+        <img src="{{ asset('assets/images/N2/LivingThings/bl2.png') }}" />
         <h2 class="title stroke">This is the photo of Oliver when he was a baby.</h2>
         <p class="note">Note: Explain to children that every boy goes through these stages of growth.</p>
     </div>
 
     {{-- slide 15 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <div class="flex items-center">
-            <img src="{{ asset('assets/images/N2/LivingThings/an12.png') }}" class="h-[400px]" />
-            <div>
-                <img src="{{ asset('assets/images/N2/LivingThings/an23.png') }}" class="h-[400px]" />
-                <h2 class="text-white text-[30px]">Young/child</h2>
-            </div>
-            <img src="{{ asset('assets/images/N2/LivingThings/an29.png') }}" class="h-[400px]" />
-            <img src="{{ asset('assets/images/N2/LivingThings/an33.png') }}" class="h-[400px]" />
-        </div>
+        <img src="{{ asset('assets/images/N2/LivingThings/bl3.png') }}" />
         <h2 class="stroke title">This is the photo of Oliver when he was <span class="text-white">young</span>.<br />A
             young person is also called a <span class="text-white">child</span>.</h2>
         <p class="note">Note: Explain to children that every boy goes through these stages of growth.</p>
@@ -233,15 +151,7 @@
 
     {{-- slide 16 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <div class="flex items-center">
-            <img src="{{ asset('assets/images/N2/LivingThings/an12.png') }}" class="h-[400px]" />
-            <img src="{{ asset('assets/images/N2/LivingThings/an23.png') }}" class="h-[400px]" />
-            <div>
-                <img src="{{ asset('assets/images/N2/LivingThings/an29.png') }}" class="h-[400px]" />
-                <h2 class="text-white text-[30px]">Adult</h2>
-            </div>
-            <img src="{{ asset('assets/images/N2/LivingThings/an33.png') }}" class="h-[400px]" />
-        </div>
+        <img src="{{ asset('assets/images/N2/LivingThings/bl4.png') }}" />
         <h2 class="title stroke">This is the photo of Oliver when he became an adult.</h2>
         <p class="note">Note: Explain to children that every boy goes through these stages of growth.</p>
     </div>
@@ -249,15 +159,7 @@
 
     {{-- slide 17 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <div class="flex items-center">
-            <img src="{{ asset('assets/images/N2/LivingThings/an12.png') }}" class="h-[400px]" />
-            <img src="{{ asset('assets/images/N2/LivingThings/an23.png') }}" class="h-[400px]" />
-            <img src="{{ asset('assets/images/N2/LivingThings/an29.png') }}" class="h-[400px]" />
-            <div>
-                <img src="{{ asset('assets/images/N2/LivingThings/an33.png') }}" class="h-[400px]" />
-                <h2 class="text-white text-[30px]">Elderly Person</h2>
-            </div>
-        </div>
+        <img src="{{ asset('assets/images/N2/LivingThings/bl5.png') }}" />
         <h2 class="stroke title">This is the photo of Oliver now.
             He has grown much older. He is now an elderly person.</h2>
         <p class="note">Note: Explain to children that every boy goes through these stages of growth.</p>
@@ -266,24 +168,7 @@
 
     {{-- slide 18 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <div class="flex items-center">
-            <div>
-                <img src="{{ asset('assets/images/N2/LivingThings/an12.png') }}" class="h-[400px]" />
-                <h2 class="text-white text-[30px]">Baby</h2>
-            </div>
-            <div>
-                <img src="{{ asset('assets/images/N2/LivingThings/an23.png') }}" class="h-[400px]" />
-                <h2 class="text-white text-[30px]">Young/child</h2>
-            </div>
-            <div>
-                <img src="{{ asset('assets/images/N2/LivingThings/an29.png') }}" class="h-[400px]" />
-                <h2 class="text-white text-[30px]">Adult</h2>
-            </div>
-            <div>
-                <img src="{{ asset('assets/images/N2/LivingThings/an33.png') }}" class="h-[400px]" />
-                <h2 class="text-white text-[30px]">Elderly Person</h2>
-            </div>
-        </div>
+        <img src="{{ asset('assets/images/N2/LivingThings/bl6.png') }}" />
         <h2 class="stroke title">These are the stages of growth of a boy.</h2>
         <p class="note">Note: Explain to children that every boy goes through these stages of growth.</p>
     </div>
@@ -294,13 +179,7 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="title !text-white stroke">Class Activity</h2>
         <p class="note">Paste your photos in the correct order to show how you have grown over time.</p>
-        <div class="flex items-center gap-10">
-            <img src="{{ asset('assets/images/N2/LivingThings/an31.png') }}" class="h-[400px]" />
-            <img src="{{ asset('assets/images/N2/LivingThings/an69.png') }}" />
-            <img src="{{ asset('assets/images/N2/LivingThings/an31.png') }}" class="h-[400px]" />
-            <img src="{{ asset('assets/images/N2/LivingThings/an69.png') }}" />
-            <img src="{{ asset('assets/images/N2/LivingThings/an31.png') }}" class="h-[400px]" />
-        </div>
+        <img src="{{ asset('assets/images/N2/LivingThings/bl7.png') }}" />
         <h2 class="title stroke text-start">Let’s find out: <br>
             How have you grown and changed over time?</h2>
     </div>
@@ -316,13 +195,7 @@
             </ul>
         </div>
         <p class="note">Paste your photos in the correct order to show how you have grown over time.</p>
-        <div class="flex items-center gap-10">
-            <img src="{{ asset('assets/images/N2/LivingThings/an31.png') }}" class="h-[400px]" />
-            <img src="{{ asset('assets/images/N2/LivingThings/an69.png') }}" />
-            <img src="{{ asset('assets/images/N2/LivingThings/an31.png') }}" class="h-[400px]" />
-            <img src="{{ asset('assets/images/N2/LivingThings/an69.png') }}" />
-            <img src="{{ asset('assets/images/N2/LivingThings/an31.png') }}" class="h-[400px]" />
-        </div>
+        <img src="{{ asset('assets/images/N2/LivingThings/bl8.png') }}" />
         <p class="note">Note: Guide children to arrange and paste their photos in the learning journal.</p>
     </div>
 
@@ -336,31 +209,14 @@
             </ul>
         </div>
         <p class="note">Paste your photos in the correct order to show how you have grown over time.</p>
-        <div class="flex items-center gap-10">
-            <img src="{{ asset('assets/images/N2/LivingThings/an31.png') }}" class="h-[400px]" />
-            <img src="{{ asset('assets/images/N2/LivingThings/an69.png') }}" />
-            <img src="{{ asset('assets/images/N2/LivingThings/an31.png') }}" class="h-[400px]" />
-            <img src="{{ asset('assets/images/N2/LivingThings/an69.png') }}" />
-            <img src="{{ asset('assets/images/N2/LivingThings/an31.png') }}" class="h-[400px]" />
-        </div>
+        <img src="{{ asset('assets/images/N2/LivingThings/bl8.png') }}" />
         <p class="note">Note: Invite children take turns to share their changes over time.</p>
     </div>
 
 
     {{-- slide 19 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <div class="flex items-center">
-            <img src="{{ asset('assets/images/N2/LivingThings/an12.png') }}" class="h-[200px]" />
-            <img src="{{ asset('assets/images/N2/LivingThings/an23.png') }}" class="h-[200px]" />
-            <img src="{{ asset('assets/images/N2/LivingThings/an29.png') }}" class="h-[200px]" />
-            <img src="{{ asset('assets/images/N2/LivingThings/an33.png') }}" class="h-[200px]" />
-        </div>
-        <div class="flex items-center">
-            <img src="{{ asset('assets/images/N2/LivingThings/an20.png') }}" class="h-[200px]" />
-            <img src="{{ asset('assets/images/N2/LivingThings/an24.png') }}" class="h-[200px]" />
-            <img src="{{ asset('assets/images/N2/LivingThings/an30.png') }}" class="h-[200px]" />
-            <img src="{{ asset('assets/images/N2/LivingThings/an34.png') }}" class="h-[200px]" />
-        </div>
+        <img src="{{ asset('assets/images/N2/LivingThings/gl7.png') }}" />
         <h2 class="title stroke">Note: Invite children take turns to share their changes over time.</h2>
 
     </div>
@@ -369,13 +225,14 @@
 
     {{-- slide 20 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <div class="flex items-center justify-center gap-10">
-            <img src="{{ asset('assets/images/N2/LivingThings/an70.png') }}" />
-            <img src="{{ asset('assets/images/N2/LivingThings/an71.png') }}" />
+        <div class="flex items-center justify-center ">
+            <img src="{{ asset('assets/images/N2/LivingThings/an70.png') }}" class="large-img" />
+            <img src="{{ asset('assets/images/N2/LivingThings/an71.png') }}" class="large-img" />
         </div>
         <h2 class="stroke title">As we <span class="text-white">grow</span>, we <span class="text-white">eat</span> and
             <span class="text-white">drink</span>. Food has all <br />the <span class="text-white">nutrients</span> our
-            body needs to live and <span class="text-white">grow</span>.</h2>
+            body needs to live and <span class="text-white">grow</span>.
+        </h2>
     </div>
 
 
@@ -395,21 +252,21 @@
         <img src="{{ asset('assets/images/N2/LivingThings/an26.png') }}" />
 
         <h2 class="stroke title">This is a young dog. You can call it a puppy..</h2>
-        
-    <p class="note">Note: Encourage children to share what they see in the picture.</p>
+
+        <p class="note">Note: Encourage children to share what they see in the picture.</p>
     </div>
 
     {{-- slide 23 --}}
- <div class="flex flex-col items-center justify-center slide hidden">
+    <div class="flex flex-col items-center justify-center slide hidden">
 
         <img src="{{ asset('assets/images/N2/LivingThings/an27.png') }}" />
 
         <h2 class="stroke title">When a puppy grows up, it becomes an adult dog.</h2>
-          <p class="note">Note: Encourage children to share what they see in the picture.</p>
+        <p class="note">Note: Encourage children to share what they see in the picture.</p>
     </div>
 
     {{-- slide 24 --}}
-   <div class="flex flex-col items-center justify-center slide hidden">
+    <div class="flex flex-col items-center justify-center slide hidden">
         <div class="flex items-center">
             <div>
                 <img src="{{ asset('assets/images/N2/LivingThings/an25.png') }}" class="w-[200px]" />
@@ -425,75 +282,35 @@
             </div>
 
         </div>
-       <h2 class="stroke title">Similar to you, these are the <span class="text-white">stages of growth</span> of a dog.<br/>As a dog<span class="text-white"> grows</span>, it becomes bigger in size and its look changes.</h2>
+        <h2 class="stroke title">Similar to you, these are the <span class="text-white">stages of growth</span> of a
+            dog.<br />As a dog<span class="text-white"> grows</span>, it becomes bigger in size and its look changes.</h2>
         <p class="note">Note: Encourage children to share what they see in the picture.</p>
     </div>
 
 
-
-
     {{-- slide 25 --}}
-   <div class="flex flex-col items-center justify-center slide hidden">
-        <div class="flex items-center justify-center gap-10">
-            <img src="{{ asset('assets/images/N2/LivingThings/an32.png') }}" />
-            <img src="{{ asset('assets/images/N2/LivingThings/an38.png') }}" />
+    <div class="flex flex-col items-center justify-center slide hidden">
+        <div class="flex items-center justify-center ">
+            <img src="{{ asset('assets/images/N2/LivingThings/an32.png') }}" class="large-img" />
+            <img src="{{ asset('assets/images/N2/LivingThings/an28.png') }}" class="large-img" />
         </div>
-       <h2 class="stroke title">Similar to you, dogs <span class="text-white">eat</span> and <span class="text-white">drink</span> as they <span class="text-white">grow</span>.<br/>Food has the <span class="text-white">nutrients</span> that dogs need to live and <span class="text-white">grow</span>.</h2>
+        <h2 class="stroke title">Similar to you, dogs <span class="text-white">eat</span> and <span
+                class="text-white">drink</span> as they <span class="text-white">grow</span>.<br />Food has the <span
+                class="text-white">nutrients</span> that dogs need to live and <span class="text-white">grow</span>.</h2>
     </div>
-
-
 
 
     {{-- slide 26 --}}
-       <div class="flex flex-col  slide hidden">
-           
-           <div class="flex items-center justify-center">
-               <img src="{{ asset('assets/images/N2/LivingThings/an39.png') }}" />
-               <div>
-                   <img src="{{ asset('assets/images/N2/LivingThings/an35.png') }}" />
-                   <img src="{{ asset('assets/images/N2/LivingThings/an41.png') }}" />
-                </div>
-                <img src="{{ asset('assets/images/N2/LivingThings/an37.png') }}" />
-            </div>
-            <h2 class="stroke title">We know that people and dogs are <span class="text-white">animals</span>.<br/>We also know that <span class="text-white">animals</span> are <span class="text-white">living things</span>.</h2>
+    <div class="flex flex-col items-center slide hidden">
+        <img src="{{ asset('assets/images/N2/LivingThings/g10.png') }}" />
+        <h2 class="stroke title">We know that people and dogs are <span class="text-white">animals</span>.<br />We also
+            know that <span class="text-white">animals</span> are <span class="text-white">living things</span>.</h2>
     </div>
 
 
-
     {{-- slide 27 --}}
-     <div class="flex flex-col items-center justify-center slide hidden">
-        <div class="flex items-center">
-                  <div>
-                <img src="{{ asset('assets/images/N2/LivingThings/an12.png') }}" class="h-[200px]" />
-                <h2 class="text-white text-[30px]">Baby</h2>
-            </div>
-            <div>
-                <img src="{{ asset('assets/images/N2/LivingThings/an23.png') }}" class="h-[200px]" />
-                <h2 class="text-white text-[30px]">Young/child</h2>
-            </div>
-            <div>
-                <img src="{{ asset('assets/images/N2/LivingThings/an29.png') }}" class="h-[200px]" />
-                <h2 class="text-white text-[30px]">Adult</h2>
-            </div>
-            <div>
-                <img src="{{ asset('assets/images/N2/LivingThings/an33.png') }}" class="h-[200px]" />
-                <h2 class="text-white text-[30px]">Elderly Person</h2>
-            </div>
-        </div>
-        <div class="flex items-center">
-             <div>
-                <img src="{{ asset('assets/images/N2/LivingThings/an25.png') }}" class="w-[200px]" />
-                <h2 class="text-white text-[30px]">Baby</h2>
-            </div>
-            <div>
-                <img src="{{ asset('assets/images/N2/LivingThings/an26.png') }}" class="w-[200px]" />
-                <h2 class="text-white text-[30px]">Young/puppy</h2>
-            </div>
-            <div>
-                <img src="{{ asset('assets/images/N2/LivingThings/an27.png') }}" class="w-[200px]" />
-                <h2 class="text-white text-[30px]">Adult</h2>
-            </div>
-        </div>
+    <div class="flex flex-col items-center justify-center slide hidden">
+        <img src="{{ asset('assets/images/N2/LivingThings/gl8.png') }}" />
         <h2 class="title stroke">Note: Invite children take turns to share their changes over time.</h2>
 
     </div>
@@ -502,16 +319,10 @@
 
 
     {{-- slde 28 --}}
-       <div class="flex flex-col items-center justify-center slide hidden">
+    <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="title !text-white stroke">Learning Journal</h2>
         <p class="note">Paste your photos in the correct order to show how you have grown over time.</p>
-        <div class="flex items-center gap-10">
-            <img src="{{ asset('assets/images/N2/LivingThings/an31.png') }}" class="h-[400px]" />
-            <img src="{{ asset('assets/images/N2/LivingThings/an69.png') }}" />
-            <img src="{{ asset('assets/images/N2/LivingThings/an31.png') }}" class="h-[400px]" />
-            <img src="{{ asset('assets/images/N2/LivingThings/an69.png') }}" />
-            <img src="{{ asset('assets/images/N2/LivingThings/an31.png') }}" class="h-[400px]" />
-        </div>
+        <img src="{{ asset('assets/images/N2/LivingThings/bl7.png') }}" />
     </div>
 
 
@@ -519,45 +330,37 @@
 
     {{-- Complete button --}}
     <div class="down-btn-container">
-        <button
-         class="doneButton">
- <img src="{{ asset('assets/images/pptimages/done.png') }}" />
+        <button class="doneButton">
+            <img src="{{ asset('assets/images/pptimages/done.png') }}" />
         </button>
     </div>
 
     {{-- Buttons --}}
- <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
+    <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
 
         <!-- Return Button -->
         <a id="returnButton">
- <img
-    src="{{ asset('assets/images/pptimages/return.png') }}" />
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
 
         <!-- Home Button -->
-        <button
-     id="homeButton">
-            <img 
-                src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
         <button id="closeButton">
-           
-            <img 
-                src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-    
+
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
+
         </button>
 
     </div>
 
     {{-- next Button --}}
     <div class="down-btn-container">
-
-        <button
-            class="nextButton ">
-                        <img src="{{ asset('assets/images/pptimages/return.png') }}" />
-
+        <button class="nextButton ">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
         </button>
     </div>
 @endsection
@@ -598,13 +401,16 @@
                 });
             });
 
-            // ✅ Return button
-            returnButton.addEventListener("click", () => {
-                if (currentSlide > 0) {
-                    currentSlide--;
-                    showSlide(currentSlide);
-                }
-            });
+           // ✅ Return button - redirect if on first slide
+returnButton.addEventListener("click", () => {
+    if (currentSlide === 0) {
+        // Redirect to route when on first slide
+        window.location.href = "{{ route('YourRouteName') }}";  
+    } else if (currentSlide > 0) {
+        currentSlide--;
+        showSlide(currentSlide);
+    }
+});
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {

@@ -2,31 +2,34 @@
 @section('title', 'Dynamic Presentation')
 
 @section('content')
-    {{-- Slide 1 --}}
-    <div class="flex flex-col items-center justify-center gap-10 slide hidden">
+    {{-- title --}}
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">A Seasaw</h2>
 
-        <img src="/assets/images/N2/SimpleMachines/a16.png" class="w-[436px]" />
+    {{-- Slide 1 --}}
+    <div class="flex flex-col items-center justify-center slide hidden">
+
+        <img src="/assets/images/N2/SimpleMachines/a16.png" />
         <h2 class="stroke title"><span class="text-white">Simple machines</span> are tools that help us to do
             work<br />easily. What <span class="text-white">simple machine</span> is this?</h2>
     </div>
 
 
     {{-- Slide 2 --}}
-    <div class="flex flex-col items-center justify-center gap-10 slide hidden">
-        <img src="/assets/images/N2/SimpleMachines/s1.png" class="w-[436px]" />
+    <div class="flex flex-col items-center justify-center slide hidden">
+        <img src="/assets/images/N2/SimpleMachines/s1.png" />
         <h2 class="stroke title">What about this?<br />What<span class="text-white"> simple machine</span> can you see?</h2>
     </div>
 
 
     {{-- Slide 3 --}}
-    <div class="slide flex flex-col items-center justify-center gap-10 ">
+    <div class="slide flex flex-col items-center justify-center ">
         <h2 class="stroke title">Today, we are going to learn about<span class="text-white"> levers<br /></span>-another
             type of <span class="text-white">simple machine</span>.<br /><br />Let’s find out more!</h2>
     </div>
 
 
     {{-- slide 4 --}}
-    <div class="slide flex flex-col items-center justify-center gap-10 ">
+    <div class="slide flex flex-col items-center justify-between h-[50vh] ">
         <h2 class="!text-white title stroke">Hands-on Time 1</h2>
 
         <h2 class="stroke title">Mission: <br>
@@ -36,29 +39,28 @@
 
 
     {{-- slide 5 --}}
-    <div class="flex flex-col  slide hidden">
-        <div class="title stroke text-start">
+    <div class="flex flex-col  slide hidden items-center">
+        <div class="title stroke text-start self-start">
             <h2>Steps:</h2>
             <ul>
                 <li>1. Make sure you have all these parts.</li>
             </ul>
         </div>
-        <img src="/assets/images/N2/SimpleMachines/s2.png" class="w-[436px]" />
-        <p class="note">Note: Have each group of children work together to complete the mission. <a href="">Click
-                <span class="text-[#F7B94A]">here</span></a> for the guide.</p>
+        <img src="/assets/images/N2/SimpleMachines/s2.png" />
+        <p class="note">Note: Have each group of children check to ensure they have all the parts.</p>
     </div>
 
 
     {{-- slide 6 --}}
-    <div class="flex flex-col  slide hidden">
-        <div class="title stroke text-start">
+    <div class="flex flex-col  slide hidden items-center">
+        <div class="title stroke text-start self-start">
             <h2>Steps:</h2>
             <ul>
                 <li>2. Build a Seasaw.</li>
             </ul>
         </div>
-        <img src="/assets/images/N2/SimpleMachines/s3.png" class="w-[436px]" />
-        <p class="note">Note: Have each group of children work together to complete the mission. <a
+        <img src="/assets/images/N2/SimpleMachines/s3.png" />
+        <p class="note z-[99]">Note: Have each group of children work together to complete the mission. <a
                 class="click-btn1">Click
                 <span class="text-[#F7B94A]">here</span></a> for the guide.</p>
     </div>
@@ -134,9 +136,8 @@
         <h2 class="title stroke">To play it, you and a friend each sit on one end. When one end of it goes up, the other end
             goes down.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2">
-      <img src="/assets/images/pptimages/video.png" />
+        <div onclick="toggleVideo('video')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
 
     </div>
@@ -182,7 +183,7 @@
 
     {{-- slide 22 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/SimpleMachines/s14.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/gl14.png') }}" />
         <h2 class="stroke title">The long board is the <span class="text-white">lever</span> of a seesaw.<br />The <span
                 class="text-white">fulcrum</span> of this <span class="text-white">lever</span> is in the middle.</h2>
     </div>
@@ -192,12 +193,10 @@
     {{-- slide 23 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <img src="{{ asset('assets/images/N2/SimpleMachines/s13.png') }}" />
-        <h2 class="stroke title">This lever lets us eas
-            ily lift each other up and down a seesaw during play.</h2>
-            <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2">
-      <img src="/assets/images/pptimages/video.png" />
+        <h2 class="stroke title">This lever lets us easily lift each other up and down a seesaw during play.</h2>
+        <!-- Video Trigger Button -->
+        <div onclick="toggleVideo('video')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
@@ -247,8 +246,8 @@
     {{-- slide 29 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <div class="flex items-center gap-3">
-            <img src="{{ asset('assets/images/N2/SimpleMachines/s16.png') }}" class="w-[550px]" />
-            <img src="{{ asset('assets/images/N2/SimpleMachines/s17.png') }}" class="w-[550px]" />
+            <img src="{{ asset('assets/images/N2/SimpleMachines/s16.png') }}" class="large-img" />
+            <img src="{{ asset('assets/images/N2/SimpleMachines/s17.png') }}" class="large-img" />
         </div>
         <h2 class="stroke title">Based on these, you know that the red car is the lightest and the green car is the
             heaviest amongst the three cars!</h2>
@@ -257,12 +256,12 @@
 
 
     {{-- slide 30 --}}
-    <div class="flex flex-col  slide hidden">
+    <div class="flex flex-col h-[50vh] justify-between  slide hidden items-center">
 
-        <h2 class="title storke !text-white">Hands-on Time 2</h2>
+        <h2 class="title stroke !text-white">Hands-on Time 2</h2>
         <div class="text-start">
 
-            <h2 class="title storke">Mission: <br>
+            <h2 class="title stroke">Mission: <br>
                 Let’s put on your thinking cap to play a balancing game!</h2>
         </div>
         <p class="note">Note: Give each group a set of materials needed. Have children work in groups to complete the
@@ -270,37 +269,34 @@
     </div>
 
     {{-- slide 31 --}}
-    <div class="flex flex-col  slide hidden">
-        <div class="title stroke text-start">
+    <div class="flex flex-col  slide hidden items-center">
+        <div class="title stroke text-start self-start">
             <h2>Steps:</h2>
             <ul>
                 <li>1. Put a boy on the seesaw.</li>
             </ul>
         </div>
-        <img src="/assets/images/N2/SimpleMachines/s18.png" class="w-[436px]" />
+        <img src="/assets/images/N2/SimpleMachines/s18.png" />
         <p class="note">Note: Have each group of children copy the same setup.</p>
     </div>
 
 
     {{-- slide 32 --}}
-    <div class="flex flex-col  slide hidden">
-        <div class="title stroke text-start">
+    <div class="flex flex-col  slide hidden items-center">
+        <div class="title stroke text-start self-start">
             <h2>Steps:</h2>
             <ul>
                 <li>2. How do you balance the seesaw using these square bricks?</li>
             </ul>
         </div>
-        <div class="flex items-center">
-            <img src="/assets/images/N2/SimpleMachines/s18.png" />
-            <img src="/assets/images/N2/SimpleMachines/s19.png" />
-        </div>
+        <img src="/assets/images/N2/SimpleMachines/gl11.png" />
         <p class="note">Note: Have children work in groups to complete the challenge and show the teacher.</p>
     </div>
 
 
     {{-- slide 33 --}}
-    <div class="flex flex-col  slide hidden">
-        <div class="title stroke text-start">
+    <div class="flex flex-col  slide hidden items-center">
+        <div class="title stroke text-start self-start">
             <h2>Steps:</h2>
             <ul>
                 <li>3. Now, put a girl on the seesaw.</li>
@@ -313,24 +309,21 @@
 
 
     {{-- slide 34 --}}
-    <div class="flex flex-col  slide hidden">
-        <div class="title stroke text-start">
+    <div class="flex flex-col  slide hidden items-center">
+        <div class="title stroke text-start self-start">
             <h2>Steps:</h2>
             <ul>
                 <li>4. How do you balance the seesaw using these square bricks?</li>
             </ul>
         </div>
-        <div class="flex items-center">
-            <img src="/assets/images/N2/SimpleMachines/s20.png" />
-            <img src="/assets/images/N2/SimpleMachines/s19.png" />
-        </div>
+        <img src="/assets/images/N2/SimpleMachines/gl12.png" />
         <p class="note">Note: Have each group of children copy the same setup.</p>
     </div>
 
 
     {{-- slide 35 --}}
-    <div class="flex flex-col  slide hidden">
-        <div class="title stroke text-start">
+    <div class="flex flex-col  slide hidden items-center">
+        <div class="title stroke text-start self-start">
             <h2>Steps:</h2>
             <ul>
                 <li>5. Put a boy and a girl on one end of the seesaw.</li>
@@ -343,22 +336,19 @@
 
 
     {{-- slide 36 --}}
-    <div class="flex flex-col  slide hidden">
-        <div class="title stroke text-start">
+    <div class="flex flex-col  slide hidden items-center">
+        <div class="title stroke text-start self-start">
             <h2>Steps:</h2>
             <ul>
                 <li>6. How do you balance the seesaw using these square bricks?</li>
             </ul>
         </div>
-        <div class="flex items-center">
-            <img src="/assets/images/N2/SimpleMachines/s21.png" />
-            <img src="/assets/images/N2/SimpleMachines/s19.png" />
-        </div>
+        <img src="/assets/images/N2/SimpleMachines/gl13.png" />
         <p class="note">Note: Have children work in groups to complete the challenge and show the teacher.</p>
     </div>
 
     {{-- slide 37 --}}
-    <div class="flex flex-col items-center justify-center slide hidden">
+    <div class="flex flex-col items-center justify-between h-[50vh] slide hidden">
         <h2 class="title stroke">Based on the game,do you always balance a seesaw by putting the square bricks at the same
             part of an end of the seesaw?</h2>
         <p class="note">Note: Encourage children to share their hands-on experiences and views.</p>

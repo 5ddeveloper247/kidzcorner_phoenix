@@ -5,7 +5,7 @@
     {{-- sldie 1  --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="  font-bold">Children will be able to:</h2>
+            <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
                 <li>Set up a Rube Goldberg Machine that includes a simple machine - <br> lever</li>
                 <li>Learn about an example of screw - the nut and bolt</li>
@@ -42,7 +42,7 @@
         <div class="flex gap-[5rem] ">
             <div>
                 <ul>
-                    <h2 class="  font-bold">Preparations:</h2>
+                    <h2 class=" t-title">Preparations:</h2>
 
                     <li>1 rubber ball and 1 ping pong ball</li>
                     <li>1 track</li>
@@ -73,7 +73,7 @@
     {{-- sldie 3 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start items-center gap-y-10 text-start">
         <ul class="list-disc">
-            <h2 class="  font-bold">Things to consider for preparations:</h2>
+            <h2 class=" t-title">Things to consider for preparations:</h2>
             <li>Before the lesson, form a lever: use some rubber bands to tie 5 dominoes
                 together, fix them at the middle below a wooden ruler and fix a plastic
                 spoon on one end of the ruler.</li>
@@ -88,7 +88,7 @@
     {{-- sldie 4 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start items-center gap-y-10 text-start">
         <ul class="list-disc">
-            <h2 class="  font-bold">Things to consider for preparations:</h2>
+            <h2 class=" t-title">Things to consider for preparations:</h2>
             <li>Before the lesson, fix the lever on one end of the table (or the activity area).
                 The fulcrum of the lever should not move, so you may use a very sticky double
                 sided adhesive tape or other suitable items to help you fix its position.</li>
@@ -103,7 +103,7 @@
     {{-- sldie 4 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start items-center gap-y-8 text-start">
         <ul class="list-disc">
-            <h2 class="  font-bold">Things to consider for preparations:</h2>
+            <h2 class=" t-title">Things to consider for preparations:</h2>
             <li>You may provide a toy track or handmade track for children to set up the
                 machine, as long as the track is sturdy enough to support the weight and size of
                 the rubber ball.</li>
@@ -120,7 +120,7 @@
     {{-- sldie 5 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start items-center gap-y-8 text-start">
         <ul class="list-disc">
-            <h2 class="  font-bold">Things to consider for preparations:</h2>
+            <h2 class=" t-title">Things to consider for preparations:</h2>
             <li>As a reference, the track used in the lesson is formed with a vanguard
                 sheet. The edge is folded and two tracks are put together to make it sturdy</li>
         </ul>
@@ -134,7 +134,7 @@
     {{-- sldie 6 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-flex-start items-start  gap-y-8 text-start">
         <ul class="list-disc">
-            <h2 class="  font-bold">Things to consider during hands-on session:</h2>
+            <h2 class=" t-title">Things to consider during hands-on session:</h2>
             <li>
                 Ask questions to prompt children share and try out their ideas. Some possible
                 questions are listed in the lesson, you may add on questions based on children's
@@ -151,7 +151,7 @@
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold">Notes:</h2>
+                <h2 class="font-bold t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
                     <li>
                         If you see
@@ -170,7 +170,7 @@
                     <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
                     </li>
                     <li>
-                        Click on this <span class="font-bold">shortcut icon</span>
+                        Click on this <span class="font-bold t-title">shortcut icon</span>
                         <span
                             class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
                             <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
@@ -194,7 +194,7 @@
     <div class=" slide flex text-2xl text-white flex-col justify-start  items-start gap-y-8 text-start">
         <h2 class="title stroke">Learning Centre Idea</h2>
         <ul >
-            <h2 class="  font-bold">The Best Launch a Ball Machine</h2>
+            <h2 class=" t-title">The Best Launch a Ball Machine</h2>
             <li>
                What and how to set up:</li>
             <li>Place things as listed in preparations here.</li>

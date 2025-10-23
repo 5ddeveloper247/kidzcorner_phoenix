@@ -5,7 +5,7 @@
     {{-- sldie 1  --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="  font-bold">Children will be able to:</h2>
+            <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
                 <li>Explore and learn about the basic characteristics of living things</li>
                 <li>Analyse and sort things into living and non-living things</li>
@@ -43,7 +43,7 @@
     {{-- slide 2 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Possible questions during hands-on session:</h2>
+            <h2 class="font-bold t-title">Possible questions during hands-on session:</h2>
             <ul class="list-disc ">
                 <li>Would you like to find out if things that you like (pets, cartoon characters, etc.) are living or
                     non-living things?</li>
@@ -73,7 +73,7 @@
     {{-- sldie 3 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Additional information:</h2>
+            <h2 class="font-bold t-title">Additional information:</h2>
             <ul class="list-disc">
                 <li>
                     Many things have one or more characteristics of living things, but a living thing must have
@@ -102,7 +102,7 @@
     {{-- slide 4 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Preparations - if you do the experiment of Plants Do Breathe Air:</h2>
+            <h2 class="font-bold t-title">Preparations - if you do the experiment of Plants Do Breathe Air:</h2>
             <ul class="list-disc">
                 <li>A large clear bowl with lukewarm water</li>
                 <li>A big leaf freshly pluck from a plant</li>
@@ -118,7 +118,7 @@
     {{-- slide 5 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to do the experiment of Plants Do Breathe Air:</h2>
+            <h2 class="font-bold t-title">How to do the experiment of Plants Do Breathe Air:</h2>
             <ul class="list-decimal">
                 <li>Fill a large clear bowl with lukewarm water.</li>
                 <li>Pluck a big leaf from a plant and put it inside the bowl.</li>
@@ -133,7 +133,7 @@
     {{-- sldie 6 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to do the experiment of Plants Do Breathe Air:</h2>
+            <h2 class="font-bold t-title">How to do the experiment of Plants Do Breathe Air:</h2>
             <ul>
                 <li>4. Place the bowl at a sunny spot.</li>
                 <li>5. Check and observe the leaf every hour for a few times.</li>
@@ -179,7 +179,7 @@
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold">Notes:</h2>
+                <h2 class="font-bold t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
                     <li>
                         If you see
@@ -206,7 +206,7 @@
                     <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
                     </li>
                     <li>
-                        Click on this <span class="font-bold">shortcut icon</span>
+                        Click on this <span class="font-bold t-title">shortcut icon</span>
                         <span
                             class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
                             <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"

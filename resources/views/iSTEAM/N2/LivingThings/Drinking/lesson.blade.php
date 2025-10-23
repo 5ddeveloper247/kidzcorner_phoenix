@@ -1,11 +1,14 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
- 
+
 @section('content')
+    {{-- title --}}
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">How Does Plants drink Water?</h2>
+
 
 
     {{-- Slide 1 --}}
-    <div class="flex flex-col items-center justify-center gap-10 slide hidden">
+    <div class="flex flex-col items-center justify-between h-[50vh] slide hidden">
         <h2 class="stroke title">Children, do you remember what the <span class="text-white">stem</span> does?</h2>
         <p class="note">Note: Encourage children to share that they had learned.</p>
     </div>
@@ -13,10 +16,10 @@
 
     {{-- Slide 2 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <div class="flex items-center">
+        <div class="flex items-center gap-[1.5vw]">
 
-            <img src="{{ asset('assets/images/N2/LivingThings/lt24.png') }}" class="h-[400px]" />
-            <img src="{{ asset('assets/images/N2/LivingThings/lt31.png') }}" class="h-[400px]" />
+            <img src="{{ asset('assets/images/N2/LivingThings/lt24.png') }}" class="large-img3" />
+            <img src="{{ asset('assets/images/N2/LivingThings/lt31.png') }}" class="large-img3" />
 
         </div>
         <h2 class="stroke title">That’s right! The <span class="text-white">stem</span> helps the <span
@@ -28,46 +31,47 @@
     {{-- Slide 3 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
 
-        <img src="{{ asset('assets/images/N2/LivingThings/lt25.png') }}" class="h-[200px]" />
+        <img src="{{ asset('assets/images/N2/LivingThings/lt25.png') }}" class="large-img2" />
 
-      <h2 class="stroke title">The<span class="text-white"> stem</span> also helps to <span class="text-white">carry </span>water to the<br/><span class="text-white">leaves</span> and <span class="text-white">flower</span>.</h2>
+        <h2 class="stroke title">The<span class="text-white"> stem</span> also helps to <span class="text-white">carry
+            </span>water to the<br /><span class="text-white">leaves</span> and <span class="text-white">flower</span>.</h2>
 
     </div>
 
 
     {{-- slide 4 --}}
-    <div class="flex flex-col items-center justify-center slide hidden">
-      <h2 class="stroke title">Let’s observe how <span class="text-white">flowers</span> drink water.</h2>
-<p class="note">Note: Divide children into small groups for the activity.</p>
+    <div class="flex flex-col items-center justify-between h-[50vh] slide hidden">
+        <h2 class="stroke title">Let’s observe how <span class="text-white">flowers</span> drink water.</h2>
+        <p class="note">Note: Divide children into small groups for the activity.</p>
     </div>
 
     {{-- slide 5 --}}
-      <div class="flex flex-col items-center justify-center slide hidden">
+    <div class="flex flex-col items-center justify-center slide hidden">
         <div class="title stroke text-start">
             <h2>Let’s do:</h2>
             <ul>
                 <li>1. Take a stalk of flower from a bouquet.</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/N2/LivingThings/lt34.png') }}" />
+        <img src="{{ asset('assets/images/N2/LivingThings/lt34.png') }}" class="large-img2" />
         <p class="note">Note: Assist the children in cutting the flowers.</p>
     </div>
 
 
     {{-- slide 6 --}}
-         <div class="flex flex-col items-center justify-center slide hidden">
+    <div class="flex flex-col items-center justify-center slide hidden">
         <div class="title stroke text-start">
             <h2>Let’s do:</h2>
             <ul>
                 <li>2. Take a stalk of flower from a bouquet.</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/N2/LivingThings/lt35.png') }}" />
-        </div>
+        <img src="{{ asset('assets/images/N2/LivingThings/lt35.png') }}" class="large-img2" />
+    </div>
 
 
     {{-- slide 7 --}}
-           <div class="flex flex-col items-center justify-center slide hidden">
+    <div class="flex flex-col items-center justify-center slide hidden">
         <div class="title stroke text-start">
             <h2>Let’s do:</h2>
             <ul>
@@ -80,7 +84,7 @@
 
 
     {{-- slide 8 --}}
-          <div class="flex flex-col items-center justify-center slide hidden">
+    <div class="flex flex-col items-center justify-center slide hidden">
         <div class="title stroke text-start">
             <h2>Let’s do:</h2>
             <ul>
@@ -93,78 +97,72 @@
 
 
     {{-- slide 9 --}}
-        <div class="flex flex-col items-center justify-center slide hidden">
+    <div class="flex flex-col items-center justify-center slide hidden">
         <div class="title stroke text-start">
             <h2>Let’s do:</h2>
             <ul>
                 <li>5. Observe for any changes and record your observation
-     in the learning journal.</li>
+                    in the learning journal.</li>
             </ul>
         </div>
-     <div class="w-[736px] h-[336px] bg-cover bg-center" style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">   
-       <p>Record the changes you see in your flower (draw and paste photos).</p>
-       </div>
+        <div class="w-[40vw] h-[40vh] bg-cover bg-center"
+            style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
+            <p>Record the changes you see in your flower (draw and paste photos).</p>
+        </div>
     </div>
 
 
     {{-- slide 10 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <img src="{{ asset('assets/images/N2/LivingThings/lt38.png') }}" />
-     <h2 class="stroke title">As the <span class="text-white">stem </span>carried coloured water to the <span class="text-white">leaves</span> and<br/><span class="text-white">flowers</span>, the white flower <span class="text-white">petals</span> now have same <br/>colours on them.</h2>
+        <h2 class="stroke title">As the <span class="text-white">stem </span>carried coloured water to the <span
+                class="text-white">leaves</span> and<br /><span class="text-white">flowers</span>, the white flower <span
+                class="text-white">petals</span> now have same <br />colours on them.</h2>
     </div>
 
 
 
     {{-- slide 11 --}}
-     <div class="flex flex-col  slide hidden">
-      <h2 class="title !text-white stroke">Learning Journal</h2>
-        <div class="w-[736px] h-[336px] bg-cover bg-center" style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">   
-       <p>Record the changes you see in your flower (draw and paste photos).</p>
-       </div> 
+    <div class="flex flex-col  slide hidden">
+        <h2 class="title !text-white stroke">Learning Journal</h2>
+        <div class="w-[40vw] h-[40vh] bg-cover bg-center"
+            style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
+            <p>Record the changes you see in your flower (draw and paste photos).</p>
+        </div>
     </div>
 
 
     {{-- Complete button --}}
     <div class="down-btn-container">
-        <button
-         class="doneButton">
- <img src="{{ asset('assets/images/pptimages/done.png') }}" />
+        <button class="doneButton">
+            <img src="{{ asset('assets/images/pptimages/done.png') }}" />
         </button>
     </div>
 
     {{-- Buttons --}}
- <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
+    <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
 
         <!-- Return Button -->
         <a id="returnButton">
- <img
-    src="{{ asset('assets/images/pptimages/return.png') }}" />
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
 
         <!-- Home Button -->
-        <button
-     id="homeButton">
-            <img 
-                src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
         <button id="closeButton">
-           
-            <img 
-                src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-    
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
         </button>
 
     </div>
 
     {{-- next Button --}}
     <div class="down-btn-container">
-
-        <button
-            class="nextButton ">
-                        <img src="{{ asset('assets/images/pptimages/return.png') }}" />
-
+        <button class="nextButton ">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
         </button>
     </div>
 @endsection
@@ -205,9 +203,12 @@
                 });
             });
 
-            // ✅ Return button
+            // ✅ Return button - redirect if on first slide
             returnButton.addEventListener("click", () => {
-                if (currentSlide > 0) {
+                if (currentSlide === 0) {
+                    // Redirect to route when on first slide
+                    window.location.href ="{{ route('DrinkingSelection') }}";  
+                } else if (currentSlide > 0) {
                     currentSlide--;
                     showSlide(currentSlide);
                 }

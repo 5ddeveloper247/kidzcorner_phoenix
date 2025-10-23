@@ -5,7 +5,7 @@
     {{-- sldie 1  --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="  font-bold">Children will be able to:</h2>
+            <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
                 <li>Understand the meaning of self-sufficient</li>
                 <li>Learn about how being self-sufficient helps the environment</li>
@@ -40,7 +40,7 @@
     {{-- slide 2 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Preparations:</h2>
+            <h2 class="font-bold t-title">Preparations:</h2>
             <ul class="list-disc ">
                 <li>
                   The vertical gardening system would have been set up already. If you do not have a
@@ -62,8 +62,8 @@
     {{-- sldie 3 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-center gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Things to note in maintaining the vertical garden system:</h2><br>
-            <h3  class="font-bold"> Mixing the plant nutrients</h3>
+            <h2 class="font-bold t-title">Things to note in maintaining the vertical garden system:</h2><br>
+            <h3  class="font-bold t-title"> Mixing the plant nutrients</h3>
             <ul class="list-disc">
                 <li>Mix one litre of water with the packet of nutrients A into bottle A.</li>
                 <li>Mix one litre of water with the packet of nutrients B into bottle B.</li>
@@ -88,7 +88,7 @@ faster.</p>
     {{-- slide 4 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Things to note in maintaining the vertical garden system:</h2>
+            <h2 class="font-bold t-title">Things to note in maintaining the vertical garden system:</h2>
             <ul class="list-decimal">
                 <li>To attach the hose, push the hose into the centre of the vertical 
                     system inside the water tank. Push up until you hear a click.</li>
@@ -103,7 +103,7 @@ faster.</p>
     {{-- slide 5 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Things to note in maintaining the vertical garden system:</h2>
+            <h2 class="font-bold t-title">Things to note in maintaining the vertical garden system:</h2>
             <ul>
                 <li>To remove the hose, push the yellow part to release the catch.</li>
                  
@@ -151,7 +151,7 @@ Always ask questions to encourage children to think and share their ideas first
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
             <h2 class="title stroke text-center">Learning Centre Idea</h2><br>
-            <h2 class="font-bold">Diary Of Our Vegetable Garden</h2>
+            <h2 class="font-bold t-title">Diary Of Our Vegetable Garden</h2>
             <ul>
                 <li>What and how to set up:<br>
 Provide papers and writing materials for children to draw and
@@ -172,7 +172,7 @@ What to do:<br>
     {{-- sldie 7 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
+            <h2 class="font-bold t-title">How to make own set of fingerprints and things to consider:</h2>
             <ul>
                 <li>4. (C) Carefully remove the tape from the fingertip (of B) and paste it on the learning journal (of B).
                     [Have all the C do the step. Remind C to paste the tape in the correct place of B's fingerprint record.]
@@ -187,7 +187,7 @@ What to do:<br>
     {{-- sldie 8 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
+            <h2 class="font-bold t-title">How to make own set of fingerprints and things to consider:</h2>
             <ul>
                 <li>5. (A) Use a wet towel to clean the fingertip (of B). [ Have all the A do the step. Explain to children
                     that this is to avoid possible messiness when taking prints of other fingers. ]</li>
@@ -203,7 +203,7 @@ What to do:<br>
     {{-- slide 9 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
+            <h2 class="font-bold t-title">How to make own set of fingerprints and things to consider:</h2>
             <ul>
                 <li>6. (A, B & C) Repeat the steps for other fingers. [Have all the A, B & C repeat steps 1-5 to complete
                     the fingerprint record of B. After that, have them change their roles to help one another complete the
@@ -218,7 +218,7 @@ What to do:<br>
     {{-- slide 10 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
+            <h2 class="font-bold t-title">How to make own set of fingerprints and things to consider:</h2>
             <ul>
                 <li>7. Observe your fingerprints. [ Have children observe and compare their own set of fingerprints on the
                     record. Then have them share their views. ]</li>
@@ -232,7 +232,7 @@ What to do:<br>
     {{-- slide 11 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to make own set of fingerprints and things to consider:</h2>
+            <h2 class="font-bold t-title">How to make own set of fingerprints and things to consider:</h2>
             <ul>
                 <li>8. Compare your fingerprints with friends. [ Have children observe and compare their fingerprints with
                     friends. Then have them share their views. ]</li>
@@ -249,7 +249,7 @@ What to do:<br>
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold">Notes:</h2>
+                <h2 class="font-bold t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
                     <li>
                         If you see
@@ -268,7 +268,7 @@ What to do:<br>
                     <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
                     </li>
                     <li>
-                        Click on this <span class="font-bold">shortcut icon</span>
+                        Click on this <span class="font-bold t-title">shortcut icon</span>
                         <span
                             class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
                             <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
@@ -418,13 +418,16 @@ What to do:<br>
                 });
             });
 
-            // ✅ Return button
-            returnButton.addEventListener("click", () => {
-                if (currentSlide > 0) {
-                    currentSlide--;
-                    showSlide(currentSlide);
-                }
-            });
+           // ✅ Return button - redirect if on first slide
+returnButton.addEventListener("click", () => {
+    if (currentSlide === 0) {
+        // Redirect to route when on first slide
+        window.location.href = "{{ route('YourRouteName') }}";  
+    } else if (currentSlide > 0) {
+        currentSlide--;
+        showSlide(currentSlide);
+    }
+});
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {

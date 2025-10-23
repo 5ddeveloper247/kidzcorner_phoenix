@@ -46,7 +46,7 @@
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div class="space-y-10">
             <ul class="list-disc ">
-                <h2 class="font-bold">Preparations:</h2>
+                <h2 class="font-bold t-title">Preparations:</h2>
                 <li>A computer</li>
                 <li>A set of Makey Makey</li>
             </ul>
@@ -60,7 +60,7 @@
     {{-- sldie 3 --}}
     <div class=" slide text-start text-2xl text-white space-y-10">
         <div>
-            <h2 class="font-bold">What you need to know or do before the lesson:</h2>
+            <h2 class="font-bold t-title">What you need to know or do before the lesson:</h2>
             <ul class="list-disc pl-[50px]">
                 <li>Makey Makey is a set of electronic toy that allows you to create alternative keyboard for any computer
                     programme or application that accepts keyboard or mouse click inputs.</li>
@@ -78,7 +78,7 @@
     {{-- slide 4 --}}
     <div class=" slide text-start text-2xl text-white space-y-10">
         <div>
-            <h2 class="font-bold">Things to note during hands-on session:</h2>
+            <h2 class="font-bold t-title">Things to note during hands-on session:</h2>
             <ul class="list-disc pl-[50px]">
                 <li>Remind children not to touch any circuit parts when their hands are wet.</li>
                 <li>Remind children to handle the materials with care.</li>
@@ -97,7 +97,7 @@
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white w-[80%]">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold">Notes:</h2>
+                <h2 class="font-bold t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
                     <li>
                         If you see
@@ -116,7 +116,7 @@
                     <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
                     </li>
                     <li>
-                        Click on this <span class="font-bold">shortcut icon</span>
+                        Click on this <span class="font-bold t-title">shortcut icon</span>
                         <span
                             class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
                             <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"

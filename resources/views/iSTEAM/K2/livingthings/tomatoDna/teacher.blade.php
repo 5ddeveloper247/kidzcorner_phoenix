@@ -5,7 +5,7 @@
     {{-- sldie 1  --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="  font-bold">Children will be able to:</h2>
+            <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
                 <li>Learn how to extract DNA from a tomato</li>
                 <li>Know that the same chemicals can be used to extract DNA from different living things</li>
@@ -40,7 +40,7 @@
     {{-- slide 2 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Preparations:</h2>
+            <h2 class="font-bold t-title">Preparations:</h2>
             <ul class="list-disc ">
                 <li>1 tomato</li>
                 <li>1 snack-size zipper storage bag</li>
@@ -63,7 +63,7 @@
     {{-- sldie 3 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to extract DNA from a tomato and things to consider:</h2>
+            <h2 class="font-bold t-title">How to extract DNA from a tomato and things to consider:</h2>
             <ul class="list-decimal">
                 <li>Put a tomato into a zipper storage bag and seal it . [Invite a child to do the step .]</li>
             </ul>
@@ -77,7 +77,7 @@
     {{-- slide 4 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to extract DNA from a tomato and things to consider:</h2>
+            <h2 class="font-bold t-title">How to extract DNA from a tomato and things to consider:</h2>
             <ul>
                 <li>2.Smash and crush the tomato. [Invite children take turns to do so .]</li>
             </ul>
@@ -91,7 +91,7 @@
     {{-- slide 5 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to extract DNA from a tomato and things to consider:</h2>
+            <h2 class="font-bold t-title">How to extract DNA from a tomato and things to consider:</h2>
             <ul>
                 <li>3. Mix together 100ml distilled water, 10ml clear liquid dish soap and half a teaspoon of salt in a
                     clear cup. [Guide children to measure and prepare the mixture with a measuring cup and a teaspoon; stir
@@ -107,7 +107,7 @@
     {{-- sldie 6 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to extract DNA from a tomato and things to consider:</h2>
+            <h2 class="font-bold t-title">How to extract DNA from a tomato and things to consider:</h2>
             <ul>
                 <li>4. Add 10ml of the mixture prepared into the bag with tomato . [Guide children to measure with a
                     measuring cup and add the mixture into the bag .]</li>
@@ -122,7 +122,7 @@
     {{-- sldie 7 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to extract DNA from a tomato and things to consider:</h2>
+            <h2 class="font-bold t-title">How to extract DNA from a tomato and things to consider:</h2>
             <ul>
                 <li>5. Reseal the bag and gently smash for another minute . [Advise children try to avoid making too many
                     soap bubbles .]</li>
@@ -136,7 +136,7 @@
     {{-- sldie 8 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to extract DNA from a tomato and things to consider:</h2>
+            <h2 class="font-bold t-title">How to extract DNA from a tomato and things to consider:</h2>
             <ul>
                 <li>6. Put a strainer on top of another clear up. [Invite a child to do the step.]</li>
             </ul>
@@ -150,7 +150,7 @@
     {{-- sldie 9 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to extract DNA from a tomato and things to consider:</h2>
+            <h2 class="font-bold t-title">How to extract DNA from a tomato and things to consider:</h2>
             <ul>
                 <li>7. Pour the tomato liquid into the strainer to separate the liquid from the flesh . [Guide children to
                     gently do so with a teaspoon .]</li>
@@ -165,7 +165,7 @@
     {{-- sldie 10 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to extract DNA from a tomato and things to consider:</h2>
+            <h2 class="font-bold t-title">How to extract DNA from a tomato and things to consider:</h2>
             <ul>
                 <li>8. Take 30ml of the filtrated liquid into another clear cup . [Guide children to do the step. As the
                     final result will be displayed at the learning corner, you may consider using a clear plastic container
@@ -181,7 +181,7 @@
     {{-- sldie 11 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to extract DNA from a tomato and things to consider:</h2>
+            <h2 class="font-bold t-title">How to extract DNA from a tomato and things to consider:</h2>
             <ul>
                 <li>9. Pour 30ml of cold rubbing alcohol from the side into the cup . [Teacher to do the step; do not mix or
                     stir .]</li>
@@ -195,7 +195,7 @@
     {{-- sldie 12 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to extract DNA from a tomato and things to consider:</h2>
+            <h2 class="font-bold t-title">How to extract DNA from a tomato and things to consider:</h2>
             <ul>
                 <li>10. Observe what happens in the cup . [Advise children to observe from the top view . Take a photo of
                     the
@@ -211,7 +211,7 @@
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold">Notes:</h2>
+                <h2 class="font-bold t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
                     <li>
                         If you see
@@ -230,7 +230,7 @@
                     <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
                     </li>
                     <li>
-                        Click on this <span class="font-bold">shortcut icon</span>
+                        Click on this <span class="font-bold t-title">shortcut icon</span>
                         <span
                             class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
                             <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"

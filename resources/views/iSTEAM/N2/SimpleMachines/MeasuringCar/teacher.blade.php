@@ -65,7 +65,7 @@
             </video>
 
             <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt=""
-                class="absolute teacher-img1 float-right" />
+                class="absolute teacher-img1" />
         </div>
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30  -translate-y-1/2 video-btn">
@@ -105,7 +105,7 @@
         </div>
         <div>
             <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt=""
-                class="absolute teacher-img1 float-right" />
+                class="absolute teacher-img1" />
         </div>
 
     </div>

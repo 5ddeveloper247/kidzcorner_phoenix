@@ -5,7 +5,7 @@
     {{-- sldie 1  --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="  font-bold">Children will be able to:</h2>
+            <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
                 <li>Understand the concept of weight and lift</li>
                 <li>Identify the function of weight and lift in the movement of aeroplane</li>
@@ -35,7 +35,7 @@
     {{-- slide 2 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div class="space-y-10">
-            <h2 class="font-bold">Preparations:</h2>
+            <h2 class="font-bold t-title">Preparations:</h2>
             <div>
                 <h2>Hands-on Session 2</h2>
                 <ul class="list-disc">
@@ -67,7 +67,7 @@
     {{-- sldie 3 --}}
     <div class="slide flex text-2xl text-white flex-col items-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to make a model of aeroplane wing for Hands-on Session 3:</h2>
+            <h2 class="font-bold t-title">How to make a model of aeroplane wing for Hands-on Session 3:</h2>
             <ul class="list-decimal">
                 <li>Prepare an A4 paper.</li>
                 <li>Fold in one side of the paper, so that one side of the fold is slightly longer than
@@ -85,7 +85,7 @@
     {{-- slide 4 --}}
     <div class="slide flex text-2xl text-white flex-col items-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">How to make a model of aeroplane model for Hands-on Session 3:</h2>
+            <h2 class="font-bold t-title">How to make a model of aeroplane model for Hands-on Session 3:</h2>
             <ul>
                 <li>4. Make a mark halfway along the shape, about 1 inch from the front.</li>
                 <li>5. Make a hole through the mark and push a straw through it.</li>
@@ -102,7 +102,7 @@
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold">Notes:</h2>
+                <h2 class="font-bold t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
                     <li>
                         If you see
@@ -121,7 +121,7 @@
                     <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
                     </li>
                     <li>
-                        Click on this <span class="font-bold">shortcut icon</span>
+                        Click on this <span class="font-bold t-title">shortcut icon</span>
                         <span
                             class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
                             <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"

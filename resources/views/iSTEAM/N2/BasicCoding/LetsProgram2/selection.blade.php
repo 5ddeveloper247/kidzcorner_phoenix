@@ -100,7 +100,7 @@
  <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
 
         <!-- Return Button -->
-        <a href="{{ url('LetsProgram2') }}"
+        <a href="{{ route('LetsProgram2') }}"
          
     id="returnButton">
 

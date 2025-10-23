@@ -5,7 +5,7 @@
     {{-- sldie 1  --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="  font-bold">Children will be able to:</h2>
+            <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
                 <li>Plan a route for a purpose</li>
                 <li>Programme a robot to move according to the planned route</li>
@@ -40,15 +40,15 @@
     {{-- slide 2 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Preparations:</h2>
+            <h2 class="font-bold t-title">Preparations:</h2>
             <ul class="list-disc ">
                 <li>Coding mats and obstacle cards</li>
             </ul>
         </div>
         <div class="flex gap-5">
-            <img src="{{ asset('assets/images/K1/coding/challenge1/ch9.png') }}" alt="Teacher" class="h-[300px]" />
-            <img src="{{ asset('assets/images/K1/coding/challenge1/ch12.png') }}" alt="Teacher" class="h-[300px]" />
-            <img src="{{ asset('assets/images/K1/coding/challenge1/ch11.png') }}" alt="Teacher" class="h-[300px]" />
+            <img src="{{ asset('assets/images/K1/coding/challenge1/ch9.png') }}" alt="Teacher" class="absolute teacher-img1" />
+            <img src="{{ asset('assets/images/K1/coding/challenge1/ch12.png') }}" alt="Teacher" class="absolute teacher-img1" />
+            <img src="{{ asset('assets/images/K1/coding/challenge1/ch11.png') }}" alt="Teacher" class="absolute teacher-img1" />
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute teacher-img1" />
@@ -57,7 +57,7 @@
     {{-- sldie 3 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start items-center gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Preparations:</h2>
+            <h2 class="font-bold t-title">Preparations:</h2>
             <ul class="list-disc">
                 <li>Pictures of a cat (size not more than 10cm)</li>
                 <li>Blu Tack (for fixing graphic cards on the coding mat)</li>
@@ -73,7 +73,7 @@
     {{-- slide 4 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Preparations for the testing of the ball roller coaster:</h2>
+            <h2 class="font-bold t-title">Preparations for the testing of the ball roller coaster:</h2>
             <ul class="list-disc">
                 <li>Coding cards</li>
                 <li>Whiteboard marker pens</li>
@@ -88,7 +88,7 @@
     {{-- slide 5 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Preparations:</h2>
+            <h2 class="font-bold t-title">Preparations:</h2>
             <ul class="list-disc">
                 <li>The robots and tablets (refer to the teacher’s mode of Lesson 1 for guide on
                     what you need to know and do before the lesson)</li>
@@ -103,7 +103,7 @@
     {{-- sldie 6 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Preparations:</h2>
+            <h2 class="font-bold t-title">Preparations:</h2>
             <ul class="list-disc">
                 <li>Mini coding cards (print and cut out before the lesson)</li>
             </ul>
@@ -127,7 +127,7 @@
     {{-- sldie 8 --}}
     <div class=" slide flex text-2xl text-white flex-col  justify-start text-start">
 
-        <h2 class="font-bold">When the hands-on session starts, guide each group of children to:</h2>
+        <h2 class="font-bold t-title">When the hands-on session starts, guide each group of children to:</h2>
         <ul class="list-disc">
             <li>Use the learning journals to each plan 1 or 2 routes that enable a robot to find
                 all the cats as soon as possible.</li>
@@ -139,7 +139,7 @@
         </ul>
 
         <br><br><br>
-        <h2 class="font-bold">At the end of the hands-on session:</h2>
+        <h2 class="font-bold t-title">At the end of the hands-on session:</h2>
         <ul class="list-disc">
             <li>Guide children to conclude from their findings - the most efficient route
                 for a robot to complete the mission in the class.</li>
@@ -154,7 +154,7 @@
     {{-- sldie 9 --}}
     <div class=" slide flex text-2xl text-white flex-col  justify-start  text-start">
 
-        <h2 class="font-bold">Reminders or advice during hands-on session:</h2>
+        <h2 class="font-bold t-title">Reminders or advice during hands-on session:</h2>
         <ul class="list-disc">
             <li>Always hold a robot or a tablet with both your hands (to show your care and prevent the tools from spoiling
                 easily).</li>
@@ -176,7 +176,7 @@
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold">Notes:</h2>
+                <h2 class="font-bold t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
                     <li>
                         If you see
@@ -203,7 +203,7 @@
                     <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
                     </li>
                     <li>
-                        Click on this <span class="font-bold">shortcut icon</span>
+                        Click on this <span class="font-bold t-title">shortcut icon</span>
                         <span
                             class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
                             <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"

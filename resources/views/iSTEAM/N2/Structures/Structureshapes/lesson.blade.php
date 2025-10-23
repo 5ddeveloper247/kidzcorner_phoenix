@@ -1,14 +1,15 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
- 
-@section('content')
 
+@section('content')
+    {{-- title --}}
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">Shapes in Strcutures</h2>
 
     {{-- Slide 1 --}}
     <div class="slide flex flex-col items-center justify-center gap-6 ">
         <div class="flex flex-col gap-1 justify-center items-center">
-            <img src="/assets/images/N2/structure/str2/s1.png" />
-            <img src="/assets/images/N2/structure/str2/s2.png" />
+            <img src="{{ asset('/assets/images/N2/structure/str2/s1.png') }}" class="large-img2" />
+            <img src="{{ asset('/assets/images/N2/structure/str2/s2.png') }}" class="large-img2" />
         </div>
         <h2 class="title stroke">Children, do you remember what these are?</h2>
         <p class="note">Note: Guide children to share their answers.</p>
@@ -18,8 +19,8 @@
     {{-- Slide 2 --}}
     <div class="slide flex flex-col items-center justify-center gap-6 ">
         <div class="flex flex-col gap-1 justify-center items-center">
-            <img src="/assets/images/N2/structure/str2/s1.png" />
-            <img src="/assets/images/N2/structure/str2/s2.png" />
+            <img src="{{ asset('/assets/images/N2/structure/str2/s1.png') }}" class="large-img2" />
+            <img src="{{ asset('/assets/images/N2/structure/str2/s2.png') }}" class="large-img2" />
         </div>
         <h2 class="title stroke">These are different <span class="text-white">structures</span> with different <span
                 class="text-white">shapes</span>.</h2>
@@ -30,8 +31,8 @@
     {{-- Slide3 --}}
     <div class="slide flex flex-col items-center justify-center gap-6 ">
         <div class="flex flex-col gap-1 justify-center items-center">
-            <img src="/assets/images/N2/structure/str2/s1.png" />
-            <img src="/assets/images/N2/structure/str2/s2.png" />
+            <img src="{{ asset('/assets/images/N2/structure/str2/s1.png') }}" class="large-img2" />
+            <img src="{{ asset('/assets/images/N2/structure/str2/s2.png') }}" class="large-img2" />
         </div>
         <h2 class="title stroke">The <span class="text-white">structures</span> have a base that helps them
             stand firmly on the ground.</h2>
@@ -41,8 +42,8 @@
     {{-- Slide 4 --}}
     <div class="slide flex flex-col items-center justify-center gap-6 ">
         <div class="flex  justify-center items-center">
-            <img src="/assets/images/N2/structure/str2/s3.png" />
-            <img src="/assets/images/N2/structure/str2/s4.png" />
+            <img src="{{ asset('/assets/images/N2/structure/str2/s3.png') }}" class="large-img4" />
+            <img src="{{ asset('/assets/images/N2/structure/str2/s4.png') }}" class="large-img4" />
         </div>
         <h2 class="title stroke">Children, do you remember the two <span class="text-white">structures</span> you
             had made in the last lesson?</h2>
@@ -52,8 +53,8 @@
     {{-- Slide 5  --}}
     <div class="slide flex flex-col items-center justify-center gap-6 ">
         <div class="flex  gap-3 justify-center items-center">
-            <img src="/assets/images/N2/structure/str2/s5.png" />
-            <img src="/assets/images/N2/structure/str2/s6.png" />
+            <img src="{{ asset('/assets/images/N2/structure/str2/s5.png') }}" class="large-img4" />
+            <img src="{{ asset('/assets/images/N2/structure/str2/s6.png') }}" class="large-img3" />
         </div>
         <h2 class="title stroke">We learned that the <span class="text-white">structure</span> with a <span
                 class="text-white">thin base</span>
@@ -64,7 +65,7 @@
 
     {{-- slide 6 --}}
     <div class="slide flex flex-col items-center justify-center gap-6 ">
-        <img src="/assets/images/N2/structure/str2/s7.png" />
+        <img src="{{ asset('/assets/images/N2/structure/str2/s7.png') }}" />
 
         <h2 class="title stroke">But the <span class="text-white">structure</span> with a <span class="text-white">wider
                 base</span> can support its
@@ -73,7 +74,7 @@
 
     {{-- Slide 7 --}}
     <div class="slide flex flex-col items-center justify-center gap-6 ">
-        <img src="/assets/images/N2/structure/str2/s8.png" />
+        <img src="{{ asset('/assets/images/N2/structure/str2/s8.png') }}" />
 
         <h2 class="title stroke">Similarly, there are also parts in this construction set
             that can stand on their own.</h2>
@@ -84,7 +85,7 @@
     <div class="slide flex flex-col items-center justify-center gap-5 ">
 
 
-        <img src="/assets/images/N2/structure/str2/s9.png" />
+        <img src="{{ asset('/assets/images/N2/structure/str2/s9.png') }}" />
 
 
 
@@ -96,7 +97,7 @@
     <div class="slide flex flex-col items-center justify-center gap-5 ">
 
 
-        <img src="/assets/images/N2/structure/str2/s10.png" />
+        <img src="{{ asset('/assets/images/N2/structure/str2/s10.png') }}" />
 
 
 
@@ -109,7 +110,7 @@
     <div class="slide flex flex-col items-center justify-center gap-5 ">
 
 
-        <img src="/assets/images/N2/structure/str2/s11.png" />
+        <img src="{{ asset('/assets/images/N2/structure/str2/s11.png') }}" />
 
 
 
@@ -123,7 +124,7 @@
     <div class="slide flex flex-col items-center justify-center gap-5 ">
 
 
-        <img src="/assets/images/N2/structure/str2/s12.png" />
+        <img src="{{ asset('/assets/images/N2/structure/str2/s12.png') }}" />
 
 
 
@@ -136,7 +137,7 @@
     <div class="slide flex flex-col items-center justify-center gap-5 ">
 
 
-        <img src="/assets/images/N2/structure/str2/s13.png" />
+        <img src="{{ asset('/assets/images/N2/structure/str2/s13.png') }}" />
 
 
 
@@ -146,10 +147,10 @@
 
 
     {{-- slide 13 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start gap-[8rem] ">
-        <h2 class="title stroke !text-white !font-bold">Individual Activity 1</h2>
+    <div class="slide hidden  flex flex-col items-center justify-between h-[50vh] ">
+        <h2 class="title  stroke !text-white !font-bold">Individual Activity 1</h2>
         <h2 class="title stroke ">Create a block structure using the <br>
-parts from the construction set.</h2>
+            parts from the construction set.</h2>
         <p class="note">Note: Give each child a set of materials to carry out the activity.</p>
     </div>
 
@@ -172,7 +173,7 @@ parts from the construction set.</h2>
     <div class="slide flex flex-col items-center justify-center gap-5 ">
 
 
-        <img src="/assets/images/N2/structure/str2/s15.png" />
+        <img src="{{ asset('/assets/images/N2/structure/str2/s15.png') }}" />
 
 
 
@@ -186,7 +187,7 @@ parts from the construction set.</h2>
     <div class="slide flex flex-col items-center justify-center gap-5 ">
 
 
-        <img src="/assets/images/N2/structure/str2/s16.png" />
+        <img src="{{ asset('/assets/images/N2/structure/str2/s16.png') }}" />
 
 
 
@@ -199,7 +200,7 @@ parts from the construction set.</h2>
     <div class="slide flex flex-col items-center justify-center gap-5 ">
 
 
-        <img src="/assets/images/N2/structure/str2/s17.png" />
+        <img src="{{ asset('/assets/images/N2/structure/str2/s17.png') }}" />
 
 
 
@@ -213,7 +214,7 @@ parts from the construction set.</h2>
     <div class="slide flex flex-col items-center justify-center gap-5 ">
 
 
-        <img src="/assets/images/N2/structure/str2/s18.png" />
+        <img src="{{ asset('/assets/images/N2/structure/str2/s18.png') }}" />
 
 
 
@@ -227,7 +228,7 @@ parts from the construction set.</h2>
     <div class="slide flex flex-col items-center justify-center gap-5 ">
 
 
-        <img src="/assets/images/N2/structure/str2/s19.png" />
+        <img src="{{ asset('/assets/images/N2/structure/str2/s19.png') }}" />
 
 
 
@@ -240,7 +241,7 @@ parts from the construction set.</h2>
     <div class="slide flex flex-col items-center justify-center gap-5 ">
 
 
-        <img src="/assets/images/N2/structure/str2/s20.png" />
+        <img src="{{ asset('/assets/images/N2/structure/str2/s20.png') }}" />
 
 
 
@@ -253,7 +254,7 @@ parts from the construction set.</h2>
     <div class="slide flex flex-col items-center justify-center gap-5 ">
 
 
-        <img src="/assets/images/N2/structure/str2/s21.png" />
+        <img src="{{ asset('/assets/images/N2/structure/str2/s21.png') }}" />
 
 
 
@@ -263,7 +264,7 @@ parts from the construction set.</h2>
     </div>
 
     {{-- slide 22 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start gap-[8rem] ">
+    <div class="slide hidden  flex flex-col items-center justify-between h-[50vh]">
         <h2 class="title stroke !text-white">Class Activity</h2>
         <h2 class="title stroke ">Design a structure using the different shapes.
             Build it with the construction set.</h2>
@@ -280,11 +281,11 @@ parts from the construction set.</h2>
                     2. Draw your design in your learning journal.</h2>
             </div>
         </div>
-        <img src="/assets/images/N2/structure/str2/s22.png" />
+        <img src="{{ asset('/assets/images/N2/structure/str2/s22.png') }}" />
     </div>
 
     {{-- slide 24 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start gap-[15rem] ">
+    <div class="slide hidden  flex flex-col items-center justify-between h-[50vh]">
         <div class="flex justify start">
 
             <h2 class="title stroke !text-start">Steps: <br>
@@ -306,7 +307,7 @@ parts from the construction set.</h2>
                     6. Showcase your work.</h2>
             </div>
         </div>
-        <div class="h-[354px] w-[728px] border border-2 border-white justify-center items-start ">
+        <div class="h-[38vh] w-[45vw] border border-2 border-white justify-center items-start ">
             <p class="note mt-2">Paste a photo of the structure you have created.</p>
 
         </div>
@@ -318,7 +319,7 @@ parts from the construction set.</h2>
 
 
     {{-- slide 26 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start gap-[8rem] ">
+    <div class="slide hidden  flex flex-col items-center justify-start  ">
         <div class="flex justify start">
             <h2 class="title stroke !text-start">Possible questions during hands-on : <br>
                 1.What shapes can be found in your design?<br>
@@ -335,56 +336,40 @@ parts from the construction set.</h2>
 
 
     {{-- slide 27 --}}
-     <div class="slide flex flex-col items-center justify-center gap-5 ">
-
-
-        <img src="/assets/images/N2/structure/str2/s23.png" />
-
-
-
+    <div class="slide flex flex-col items-center justify-center gap-5 ">
+        <img src="{{ asset('/assets/images/N2/structure/str2/s23.png') }}" class="large-img5" />
         <h2 class="title stroke">Different shaped structures can be created by putting
-smaller parts together.</h2>
+            smaller parts together.</h2>
     </div>
 
 
     {{-- slide 28 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
-
-
-        <img src="/assets/images/N2/structure/str2/s24.png" />
-
-
-
+        <img src="{{ asset('/assets/images/N2/structure/str2/s24.png') }}" class="large-img5" />
         <h2 class="title stroke">There are shapes in all structures around us.</h2>
     </div>
-    
+
     {{-- slide 29 --}}
     <div class="slide hidden  flex flex-col items-center justify-start gap-[1rem] ">
-        
+
         <h2 class="title stroke !text-white !font-bold">Learning Journal</h2>
-        <div class="h-[518px] w-[927px] border border-2 border-white justify-center items-start ">
+        <div class="h-[38vh] w-[45vw] border border-2 border-white justify-center items-start ">
             <p class="note mt-2">Use shapes to design the structure that you would like to create.</p>
-            
         </div>
-
-
     </div>
 
     {{-- slide 30 --}}
-   <div class="slide hidden  flex flex-col items-center justify-start gap-[1rem] ">
-       
-       <h2 class="title stroke !text-white !font-bold">Learning Journal</h2>
-        <div class="h-[518px] w-[927px] border border-2 border-white justify-center items-start ">
+    <div class="slide hidden  flex flex-col items-center justify-start gap-[1rem] ">
+
+        <h2 class="title stroke !text-white !font-bold">Learning Journal</h2>
+        <div class="h-[38vh] w-[45vw] border border-2 border-white justify-center items-start ">
             <p class="note mt-2">Paste a photo of the structure you have created.</p>
-
         </div>
-
-
     </div>
 
 
 
-   
+
 
 
 
@@ -395,32 +380,27 @@ smaller parts together.</h2>
     {{-- ====================================== --}}
     {{-- Buttons --}}
     <div class="down-btn-container">
-        <button
-         class="doneButton">
- <img src="{{ asset('assets/images/pptimages/done.png') }}" />
+        <button class="doneButton">
+            <img src="{{ asset('assets/images/pptimages/done.png') }}" />
         </button>
     </div>
 
     <div id="buttons" class="absolute  flex flex-row ">
         <!-- Return Button -->
         <a id="returnButton">
- <img
-    src="{{ asset('assets/images/pptimages/return.png') }}" />
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
 
         <!-- Home Button -->
-        <button
-     id="homeButton">
-            <img 
-                src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
         <button id="closeButton">
-           
-            <img 
-                src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-    
+
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
+
         </button>
 
     </div>
@@ -428,9 +408,8 @@ smaller parts together.</h2>
     {{-- next Button --}}
     <div class="down-btn-container">
 
-        <button
-            class="nextButton ">
-                        <img src="{{ asset('assets/images/pptimages/return.png') }}" />
+        <button class="nextButton ">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
 
         </button>
     </div>
@@ -476,9 +455,12 @@ smaller parts together.</h2>
                 });
             });
 
-            // ✅ Return button
+            // ✅ Return button - redirect if on first slide
             returnButton.addEventListener("click", () => {
-                if (currentSlide > 0) {
+                if (currentSlide === 0) {
+                    // Redirect to route when on first slide
+                    window.location.href = "{{ route('StructureshapesSelection') }}";
+                } else if (currentSlide > 0) {
                     currentSlide--;
                     showSlide(currentSlide);
                 }

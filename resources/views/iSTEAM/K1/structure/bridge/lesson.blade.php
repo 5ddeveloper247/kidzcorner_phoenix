@@ -1,6 +1,6 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
- 
+
 @section('content')
 
 
@@ -231,9 +231,8 @@
         </p>
 
         <!-- Video Trigger Button -->
-        <div data-property-1="Default"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2">
-      <img src="/assets/images/pptimages/video.png" />
+        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
     {{-- step 2 --}}
@@ -244,9 +243,8 @@
             figure out all the sub-steps. Then have them work together in groups to complete the sub-steps.</p>
 
         <!-- Video Trigger Button -->
-        <div data-property-1="Default"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2">
-      <img src="/assets/images/pptimages/video.png" />
+        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
@@ -258,9 +256,8 @@
             figure out all the sub-steps. Then have them work together in groups to complete the sub-steps.</p>
 
         <!-- Video Trigger Button -->
-        <div data-property-1="Default"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2">
-      <img src="/assets/images/pptimages/video.png" />
+        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
     {{-- step 4 --}}
@@ -271,9 +268,8 @@
             figure out all the sub-steps. Then have them work together in groups to complete the sub-steps.</p>
 
         <!-- Video Trigger Button -->
-        <div data-property-1="Default"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2">
-      <img src="/assets/images/pptimages/video.png" />
+        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
     {{-- step 5 --}}
@@ -284,9 +280,8 @@
             figure out all the sub-steps. Then have them work together in groups to complete the sub-steps.</p>
 
         <!-- Video Trigger Button -->
-        <div data-property-1="Default"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2">
-      <img src="/assets/images/pptimages/video.png" />
+        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
     {{-- step 6 --}}
@@ -297,9 +292,8 @@
             figure out all the sub-steps. Then have them work together in groups to complete the sub-steps.</p>
 
         <!-- Video Trigger Button -->
-        <div data-property-1="Default"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2">
-      <img src="/assets/images/pptimages/video.png" />
+        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
@@ -311,9 +305,8 @@
             figure out all the sub-steps. Then have them work together in groups to complete the sub-steps.</p>
 
         <!-- Video Trigger Button -->
-        <div data-property-1="Default"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2">
-      <img src="/assets/images/pptimages/video.png" />
+        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
@@ -326,9 +319,8 @@
             figure out all the sub-steps. Then have them work together in groups to complete the sub-steps.</p>
 
         <!-- Video Trigger Button -->
-        <div data-property-1="Default"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2">
-      <img src="/assets/images/pptimages/video.png" />
+        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
@@ -341,9 +333,8 @@
             figure out all the sub-steps. Then have them work together in groups to complete the sub-steps.</p>
 
         <!-- Video Trigger Button -->
-        <div data-property-1="Default"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2">
-      <img src="/assets/images/pptimages/video.png" />
+        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
@@ -487,34 +478,29 @@
     {{-- ====================================== --}}
     {{-- Buttons --}}
     <div class="down-btn-container">
-        <button
-         class="doneButton">
- <img src="{{ asset('assets/images/pptimages/done.png') }}" />
+        <button class="doneButton">
+            <img src="{{ asset('assets/images/pptimages/done.png') }}" />
         </button>
     </div>
 
 
- <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
+    <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
 
         <!-- Return Button -->
         <a id="returnButton">
- <img
-    src="{{ asset('assets/images/pptimages/return.png') }}" />
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
 
         <!-- Home Button -->
-        <button
-     id="homeButton">
-            <img 
-                src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
         <button id="closeButton">
-           
-            <img 
-                src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-    
+
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
+
         </button>
 
     </div>
@@ -522,9 +508,8 @@
     {{-- next Button --}}
     <div class="down-btn-container">
 
-        <button
-            class="nextButton">
- <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
+        <button class="nextButton">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
         </button>
     </div>
 
@@ -536,168 +521,168 @@
 
 @push('script')
     <script>
-      document.addEventListener("DOMContentLoaded", () => {
-    const slides = document.querySelectorAll(".slide");
-    const nextButtons = document.querySelectorAll(".nextButton");
-    const returnButton = document.getElementById("returnButton");
-    const doneButton = document.querySelector(".doneButton");
-    
-    // Get all click buttons (click-btn1, click-btn2, etc.)
-    const clickButtons = document.querySelectorAll("[class*='click-btn']");
+        document.addEventListener("DOMContentLoaded", () => {
+            const slides = document.querySelectorAll(".slide");
+            const nextButtons = document.querySelectorAll(".nextButton");
+            const returnButton = document.getElementById("returnButton");
+            const doneButton = document.querySelector(".doneButton");
 
-    let currentSlide = 0;
-    let parentSlideIndex = null;
-    let isViewingClickSlides = false;
-    let currentClickClass = null; // Track which click class we're viewing (click1, click2, etc.)
+            // Get all click buttons (click-btn1, click-btn2, etc.)
+            const clickButtons = document.querySelectorAll("[class*='click-btn']");
 
-    function showSlide(index) {
-        slides.forEach((slide, i) => {
-            slide.classList.toggle("hidden", i !== index);
-        });
+            let currentSlide = 0;
+            let parentSlideIndex = null;
+            let isViewingClickSlides = false;
+            let currentClickClass = null; // Track which click class we're viewing (click1, click2, etc.)
 
-        // Check if last slide OR last click slide
-        const isLastSlide = index === slides.length - 1;
-        const isLastClickSlide = isViewingClickSlides && !hasNextClickSlide(index);
+            function showSlide(index) {
+                slides.forEach((slide, i) => {
+                    slide.classList.toggle("hidden", i !== index);
+                });
 
-        if (isLastSlide || isLastClickSlide) {
-            nextButtons.forEach(btn => btn.classList.add("hidden"));
-            if (doneButton) doneButton.classList.remove("hidden");
-        } else {
-            nextButtons.forEach(btn => btn.classList.remove("hidden"));
-            if (doneButton) doneButton.classList.add("hidden");
-        }
-    }
+                // Check if last slide OR last click slide
+                const isLastSlide = index === slides.length - 1;
+                const isLastClickSlide = isViewingClickSlides && !hasNextClickSlide(index);
 
-    // Check if there's another click slide with same class after current one
-    function hasNextClickSlide(currentIndex) {
-        if (!currentClickClass) return false;
-        
-        for (let i = currentIndex + 1; i < slides.length; i++) {
-            if (slides[i].classList.contains(currentClickClass)) {
-                return true;
-            }
-        }
-        return false;
-    }
-
-    // Get click class from button (click-btn1 → click1, click-btn2 → click2)
-    function getClickClassFromButton(button) {
-        const classList = Array.from(button.classList);
-        const clickBtnClass = classList.find(cls => cls.startsWith('click-btn'));
-        if (clickBtnClass) {
-            // Extract number from click-btn1, click-btn2, etc.
-            const number = clickBtnClass.replace('click-btn', '');
-            return 'click' + number;
-        }
-        return null;
-    }
-
-    // Click button handlers
-    clickButtons.forEach((btn) => {
-        btn.addEventListener("click", (e) => {
-            e.preventDefault(); // Prevent default anchor behavior
-            
-            parentSlideIndex = currentSlide;
-            isViewingClickSlides = true;
-            currentClickClass = getClickClassFromButton(btn);
-
-            // Find the first slide with matching click class
-            for (let i = 0; i < slides.length; i++) {
-                if (slides[i].classList.contains(currentClickClass)) {
-                    currentSlide = i;
-                    showSlide(currentSlide);
-                    break;
+                if (isLastSlide || isLastClickSlide) {
+                    nextButtons.forEach(btn => btn.classList.add("hidden"));
+                    if (doneButton) doneButton.classList.remove("hidden");
+                } else {
+                    nextButtons.forEach(btn => btn.classList.remove("hidden"));
+                    if (doneButton) doneButton.classList.add("hidden");
                 }
             }
-        });
-    });
 
-    // NEXT button - skip click slides if not viewing them
-    nextButtons.forEach((btn) => {
-        btn.addEventListener("click", () => {
-            if (currentSlide < slides.length - 1) {
-                currentSlide++;
-                
-                // Skip click slides if not viewing them
-                while (!isViewingClickSlides && 
-                       currentSlide < slides.length && 
-                       isClickSlide(slides[currentSlide])) {
-                    currentSlide++;
-                }
-                
-                // If viewing click slides, only show slides with current click class
-                if (isViewingClickSlides) {
-                    while (currentSlide < slides.length && 
-                           !slides[currentSlide].classList.contains(currentClickClass)) {
-                        currentSlide++;
+            // Check if there's another click slide with same class after current one
+            function hasNextClickSlide(currentIndex) {
+                if (!currentClickClass) return false;
+
+                for (let i = currentIndex + 1; i < slides.length; i++) {
+                    if (slides[i].classList.contains(currentClickClass)) {
+                        return true;
                     }
                 }
-                
-                if (currentSlide < slides.length) {
+                return false;
+            }
+
+            // Get click class from button (click-btn1 → click1, click-btn2 → click2)
+            function getClickClassFromButton(button) {
+                const classList = Array.from(button.classList);
+                const clickBtnClass = classList.find(cls => cls.startsWith('click-btn'));
+                if (clickBtnClass) {
+                    // Extract number from click-btn1, click-btn2, etc.
+                    const number = clickBtnClass.replace('click-btn', '');
+                    return 'click' + number;
+                }
+                return null;
+            }
+
+            // Click button handlers
+            clickButtons.forEach((btn) => {
+                btn.addEventListener("click", (e) => {
+                    e.preventDefault(); // Prevent default anchor behavior
+
+                    parentSlideIndex = currentSlide;
+                    isViewingClickSlides = true;
+                    currentClickClass = getClickClassFromButton(btn);
+
+                    // Find the first slide with matching click class
+                    for (let i = 0; i < slides.length; i++) {
+                        if (slides[i].classList.contains(currentClickClass)) {
+                            currentSlide = i;
+                            showSlide(currentSlide);
+                            break;
+                        }
+                    }
+                });
+            });
+
+            // NEXT button - skip click slides if not viewing them
+            nextButtons.forEach((btn) => {
+                btn.addEventListener("click", () => {
+                    if (currentSlide < slides.length - 1) {
+                        currentSlide++;
+
+                        // Skip click slides if not viewing them
+                        while (!isViewingClickSlides &&
+                            currentSlide < slides.length &&
+                            isClickSlide(slides[currentSlide])) {
+                            currentSlide++;
+                        }
+
+                        // If viewing click slides, only show slides with current click class
+                        if (isViewingClickSlides) {
+                            while (currentSlide < slides.length &&
+                                !slides[currentSlide].classList.contains(currentClickClass)) {
+                                currentSlide++;
+                            }
+                        }
+
+                        if (currentSlide < slides.length) {
+                            showSlide(currentSlide);
+                        }
+                    }
+                });
+            });
+
+            // Check if slide is any click slide (click1, click2, etc.)
+            function isClickSlide(slide) {
+                return Array.from(slide.classList).some(cls => cls.startsWith('click') && cls.match(/^click\d+$/));
+            }
+
+            // Return button
+            returnButton.addEventListener("click", () => {
+                if (isViewingClickSlides && currentSlide > 0) {
+                    // Check if previous slide is also same click class
+                    let prevSlide = currentSlide - 1;
+
+                    // Find previous slide with same click class
+                    while (prevSlide >= 0 && !slides[prevSlide].classList.contains(currentClickClass)) {
+                        prevSlide--;
+                    }
+
+                    if (prevSlide >= 0 && slides[prevSlide].classList.contains(currentClickClass)) {
+                        currentSlide = prevSlide;
+                        showSlide(currentSlide);
+                    } else {
+                        // No more click slides, return to parent
+                        currentSlide = parentSlideIndex;
+                        isViewingClickSlides = false;
+                        currentClickClass = null;
+                        parentSlideIndex = null;
+                        showSlide(currentSlide);
+                    }
+                } else if (currentSlide > 0) {
+                    currentSlide--;
+
+                    // Skip click slides when going back
+                    while (currentSlide > 0 && isClickSlide(slides[currentSlide])) {
+                        currentSlide--;
+                    }
+
                     showSlide(currentSlide);
                 }
-            }
-        });
-    });
+            });
 
-    // Check if slide is any click slide (click1, click2, etc.)
-    function isClickSlide(slide) {
-        return Array.from(slide.classList).some(cls => cls.startsWith('click') && cls.match(/^click\d+$/));
-    }
+            // DONE button handler
+            if (doneButton) {
+                doneButton.addEventListener("click", () => {
+                    if (isViewingClickSlides && parentSlideIndex !== null) {
+                        // Return to parent slide
+                        currentSlide = parentSlideIndex;
+                        isViewingClickSlides = false;
+                        currentClickClass = null;
+                        parentSlideIndex = null;
+                        showSlide(currentSlide);
+                    } else {
+                        // Navigate to route
+                        window.location.href = "{{ route('go1Selection') }}";
+                    }
+                });
+            }
 
-    // Return button
-    returnButton.addEventListener("click", () => {
-        if (isViewingClickSlides && currentSlide > 0) {
-            // Check if previous slide is also same click class
-            let prevSlide = currentSlide - 1;
-            
-            // Find previous slide with same click class
-            while (prevSlide >= 0 && !slides[prevSlide].classList.contains(currentClickClass)) {
-                prevSlide--;
-            }
-            
-            if (prevSlide >= 0 && slides[prevSlide].classList.contains(currentClickClass)) {
-                currentSlide = prevSlide;
-                showSlide(currentSlide);
-            } else {
-                // No more click slides, return to parent
-                currentSlide = parentSlideIndex;
-                isViewingClickSlides = false;
-                currentClickClass = null;
-                parentSlideIndex = null;
-                showSlide(currentSlide);
-            }
-        } else if (currentSlide > 0) {
-            currentSlide--;
-            
-            // Skip click slides when going back
-            while (currentSlide > 0 && isClickSlide(slides[currentSlide])) {
-                currentSlide--;
-            }
-            
+            // Start with first slide
             showSlide(currentSlide);
-        }
-    });
-
-    // DONE button handler
-    if (doneButton) {
-        doneButton.addEventListener("click", () => {
-            if (isViewingClickSlides && parentSlideIndex !== null) {
-                // Return to parent slide
-                currentSlide = parentSlideIndex;
-                isViewingClickSlides = false;
-                currentClickClass = null;
-                parentSlideIndex = null;
-                showSlide(currentSlide);
-            } else {
-                // Navigate to route
-                window.location.href = "{{ route('go1Selection') }}";
-            }
         });
-    }
-
-    // Start with first slide
-    showSlide(currentSlide);
-});
     </script>
 @endpush

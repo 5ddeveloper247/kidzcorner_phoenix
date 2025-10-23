@@ -5,7 +5,7 @@
     {{-- sldie 1  --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="  font-bold">Children will be able to:</h2>
+            <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
                 <li>Learn what a Rube Goldberg Machine is</li>
                 <li>Set up a Rube Goldberg Machine that includes a simple machine - inclined plane</li>
@@ -39,7 +39,7 @@
     {{-- slide 2 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Preparations:</h2>
+            <h2 class="font-bold t-title">Preparations:</h2>
             <div class="flex   justify-between">
                 <ul class="list-disc ">
                     <li>1 Rubber ball</li>
@@ -65,7 +65,7 @@
     {{-- sldie 3 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div >
-            <h2 class="font-bold ">Things to consider during hands-on session:</h2>
+            <h2 class="font-bold t-title ">Things to consider during hands-on session:</h2>
             <ul class="list-disc ">
                 <li>Ask questions to prompt children to share and try out their ideas. Some possible questions are listed in
                     the
@@ -84,7 +84,7 @@
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold">Notes:</h2>
+                <h2 class="font-bold t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
                     <li>
                         If you see
@@ -103,7 +103,7 @@
                     <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
                     </li>
                     <li>
-                        Click on this <span class="font-bold">shortcut icon</span>
+                        Click on this <span class="font-bold t-title">shortcut icon</span>
                         <span
                             class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
                             <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
@@ -129,7 +129,7 @@
             <h2 class="  font-bold text-center title stroke ">Learning Centre Idea</h2>
             <ul class="list-disc ">
 
-                <h2 class="  font-bold">The Best Ring a Bell Machine</h2>
+                <h2 class=" t-title">The Best Ring a Bell Machine</h2>
                 <li>What and how to set up:</li>
 
 
@@ -161,7 +161,7 @@
     {{-- sldie 6 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
 
-        <h2 class="font-bold text-center">The Best Ring a Bell Machine:</h2>
+        <h2 class="font-bold t-title text-center">The Best Ring a Bell Machine:</h2>
         <div class="border-4 w-[920px] h-[532px] p-[2rem]">
             <ul class="list-decimal ">
                 <p class="!text-white">Find out the answers for these questions while setting up the machine:</p>

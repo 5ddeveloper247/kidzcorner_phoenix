@@ -1,15 +1,14 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
- 
+
 @section('content')
-
-
-
+    {{-- title --}}
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">The Stages of Growth of a Butterfly</h2>
 
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start">
         <div>
-            <h2 class="  font-bold">Children will be able to:</h2>
+            <h2 class="  ">Children will be able to:</h2>
             <ul class="list-disc ">
                 <li>Learn about the stages of growth of a butterfly</li>
                 <li>Talk about the changes that occur between the different stages of growth</li>
@@ -20,7 +19,7 @@
 
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="t-title font-bold">Keywords:</h2>
+                <h2 class="t-title ">Keywords:</h2>
                 <div class="flex  gap-10">
 
                     <ul class="list-disc ">
@@ -37,16 +36,16 @@
 
                 </div>
             </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1"  />
+            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
         </div>
     </div>
 
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start w-[75%]">
+    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start ">
         <div>
-            <h2 class="font-bold">Preparations for Individual Activity:</h2>
+            <h2 class=" t-title">Preparations for Individual Activity:</h2>
             <ul class="list-disc ">
                 <li>Caterpillar Kit (from Oh Farm)</li>
                 <li>Leaves for caterpillar (from Oh Farm)</li>
@@ -54,8 +53,8 @@
                 <li>Clean paper cut to the size of the caterpillar's container</li>
             </ul>
         </div>
-        <div class="flex flex-col gap-8 border-4 border-white border">
-            <h2 class="text-[30px]">Preparations for Individual Activity:</h2>
+        <div class="flex flex-col  gap-[1vw] border-4 border-white border">
+            <h2 class="t-title">Preparations for Individual Activity:</h2>
 
             <ul>
 
@@ -70,9 +69,9 @@
 
 
     {{-- slide 3 --}}
-    <div class=" slide flex text-2xl text-white justify-start gap-y-10 text-start w-[75%] relative">
+    <div class=" slide flex text-2xl text-white justify-start  text-start t-slide">
         <div>
-            <h2 class="font-bold">Things to consider during hands-on sessions:</h2>
+            <h2 class=" t-title">Things to consider during hands-on sessions:</h2>
             <ul class="list-disc ">
                 <li>Teacher please print the children's photo based on the size as
                     provided in the resource - photo template.</li>
@@ -82,16 +81,16 @@
             </ul>
         </div>
 
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="h-[300px]" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
 
 
     </div>
 
 
     {{-- slide 4 --}}
-    <div class="text-white flex text-start text-2xl slide hidden">
+    <div class="text-white flex text-start text-2xl slide hidden t-slide">
         <div>
-            <h2 class="font-bold underline">Things to consider during discussion:</h2>
+            <h2 class=" t-title ">Things to consider during discussion:</h2>
             <ul class="list-disc">
                 <li>
                     Prompt children to share how Emma/Oliver have changed over time.
@@ -106,7 +105,7 @@
                 </li>
             </ul>
             <br>
-            <h2 class="font-bold underline">Additional information:</h2>
+            <h2 class=" t-title ">Additional information:</h2>
             <ul class="list-disc">
                 <li>All living things go through similar stages of growth.
                     However, some start from an egg and some are born.</li>
@@ -114,137 +113,101 @@
 
         </div>
 
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="h-[350px] object-contain absolute right-[250px] bottom-[150px] teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
     </div>
 
 
     {{-- slide 5 --}}
+    <div class="slide flex t-slide  flex-col  text-2xl text-start text-white">
+        <div>
+            <h2 class="t-title">Notes:</h2>
+            <ul class="list-disc">
+                <li class="flex">
+                    If you see
+                    <span class="info-btn">
 
-    <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
-        <div class="flex w-[100%] items-center justify-between">
-            <div>
-                <h2 class="font-bold">Notes:</h2>
-                <ul class="list-disc leading-relaxed">
-                    <li>
-                        If you see
-                        <span
-                            class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-                            <!-- Decorative Vector -->
-                            <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
-                                class="absolute top-[4px] left-[6px] h-6 w-[80%]" />
-                            <div class="absolute top-[7px] left-[12px] h-2.5 w-3.5 rounded-sm bg-white"></div>
-                            <img src="{{ asset('assets/images/pptimages/play.png') }}"
-                                class="absolute top-[16px] left-[16px] h-8 w-8" />
-                        </span>
-                        next to a picture, click on the picture to watch the video.
-                    </li>
-                    <li>
-                        If you see
-                        <span
-                            class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-amber-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-                            <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
-                                class="absolute top-[4px] left-[6px] h-6 w-[80%]" />
-                            <div class="absolute top-[7px] left-[12px] h-2.5 w-3.5 rounded-sm bg-white"></div>
-                            <img src="{{ asset('assets/images/pptimages/info.png') }}"
-                                class="absolute top-[16px] left-[16px] h-8 w-8" />
-                        </span>
-                        , click on it for additional information or activity.
-                    </li>
-                    <li>Always ask questions to encourage children to think and share their ideas first before giving
-                        out
-                        any information.</li>
-                    <li>Emphasise and use the <strong>keywords</strong> during hands-on sessions.</li>
-                    <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
-                    </li>
-                    <li>
-                        Click on this <span class="font-bold">shortcut icon</span>
-                        <span
-                            class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-                            <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
-                                class="absolute top-[4px] left-[6px] h-6 w-[80%]" />
-                            <div class="absolute top-[7px] left-[12px] h-2.5 w-3.5 rounded-sm bg-white"></div>
-                            <img src="{{ asset('assets/images/pptimages/home-icon.png') }}"
-                                class="absolute top-[16px] left-[16px] h-8 w-8" />
-                        </span>
-                        if you need to go to some parts of the lesson quickly.
-                    </li>
-                </ul>
-            </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1"  />
-
+                        <img src="{{ asset('assets/images/pptimages/video.png') }}" />
+                    </span>
+                    next to a picture, click on the picture to watch the video.
+                </li>
+                <li class="flex">
+                    If you see
+                    <span> <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="video-btn" />
+                    </span>
+                    , click on it for additional information or activity.
+                </li>
+                <li>Always ask questions to encourage children to think and share their ideas first before giving
+                    out
+                    any information.</li>
+                <li>Emphasise and use the <strong>keywords</strong> during hands-on sessions.</li>
+                <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
+                </li>
+                <li class="flex">
+                    Click on this shortcut icon
+                    <span> <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" class="home-btn" />
+                    </span>
+                    if you need to go to some parts of the lesson quickly.
+                </li>
+            </ul>
         </div>
-
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- slide 6 --}}
-    <div class="text-white flex text-start text-2xl slide hidden">
-        <div>
+    <div class="text-white flex flex-col text-2xl slide hidden t-slide">
+        <h2 class="!text-white text-center title stroke">Learning Centre Idea</h2>
 
-            <h2 class="!text-white title stroke">Learning Centre Idea</h2>
+        <div class="text-start">
+            <h2 class="!text-white title stroke">Stages of Growth of a Person</h2>
+            <h2 class=" t-title ">What and how to set up:</h2>
+            <ul class="list-disc">
+                <li>
+                    Place pictures of the different stages of growth of a person (e.g.
+                    teacher's photo) here - include baby, young and adult (current)
+                    photos. Prepare text labels of the stages.
+                </li>
+            </ul>
+            <br>
+            <h2 class=" t-title ">What to do:</h2>
+            <ul class="list-decimal">
+                <li>Invite children to arrange the photos in the correct order.</li>
+                <li> Then, invite children to match each photo to its label.</li>
+            </ul>
 
-            <div>
-                <h2 class="!text-white title stroke">Stages of Growth of a Person</h2>
-                <h2 class="font-bold underline">What and how to set up:</h2>
-                <ul class="list-disc">
-                    <li>
-                        Place pictures of the different stages of growth of a person (e.g.
-                        teacher's photo) here - include baby, young and adult (current)
-                        photos. Prepare text labels of the stages.
-                    </li>
-                </ul>
-                <br>
-                <h2 class="font-bold underline">What to do:</h2>
-                <ul class="list-decimal">
-                    <li>Invite children to arrange the photos in the correct order.</li>
-                    <li> Then, invite children to match each photo to its label.</li>
-                </ul>
-
-            </div>
         </div>
 
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="h-[350px] object-contain absolute right-[250px] bottom-[150px] teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
     </div>
 
     {{-- slide 7 --}}
-    <div class="text-white flex  text-start text-2xl slide hidden">
-        <div>
+    <div class="text-white flex  flex-col text-2xl slide hidden t-slide">
+        <h2 class="!text-white text-cneter title stroke">Learning Centre Idea</h2>
+        <div class="text-start">
+            <h2 class="!text-white title stroke">Stages of Growth of a Person</h2>
+            <h2 class=" t-title ">What and how to set up:</h2>
+            <p>Place pictures of the different stages of growth of an animal (e.g.
+                cat or chicken) here - include egg, baby, young and adult photos.
+                Prepare text labels of the stages.
+            </p>
+            <br>
+            <h2 class=" t-title ">What to do:</h2>
+            <ul class="list-decimal">
+                <li>Invite children to arrange the photos in the correct order.</li>
+                <li> Then, invite children to match each photo to its label.</li>
+            </ul>
 
-            <h2 class="!text-white title stroke">Learning Centre Idea</h2>
-
-            <div>
-                <h2 class="!text-white title stroke">Stages of Growth of a Person</h2>
-                <h2 class="font-bold underline">What and how to set up:</h2>
-                <p>Place pictures of the different stages of growth of an animal (e.g.
-                    cat or chicken) here - include egg, baby, young and adult photos.
-                    Prepare text labels of the stages.
-                </p>
-                <br>
-                <h2 class="font-bold underline">What to do:</h2>
-                <ul class="list-decimal">
-                    <li>Invite children to arrange the photos in the correct order.</li>
-                    <li> Then, invite children to match each photo to its label.</li>
-                </ul>
-
-            </div>
         </div>
 
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt=""
-            class="h-[350px] object-contain absolute right-[250px] bottom-[150px] teacher-img1 float-right" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
     </div>
 
 
 
     {{-- Done Button --}}
     <div class="down-btn-container">
-        <button
-            class=" doneButton ">
-            <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
-            <div class="absolute left-[8.22px] top-[3.17px] "> <img
-                    src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-            </div>
-            <span
-                class="absolute left-[80px] top-[18px] flex items-center  text-white text-5xl font-bold stroke">DONE</span>
+        <button class=" doneButton ">
+            <img src="{{ asset('assets/images/pptimages/done.png') }}" />
         </button>
     </div>
 
@@ -254,33 +217,25 @@
 
         <!-- Return Button -->
         <a id="returnButton">
- <img
-    src="{{ asset('assets/images/pptimages/return.png') }}" />
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
 
         <!-- Home Button -->
-        <button
-     id="homeButton">
-            <img 
-                src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
         <button id="closeButton">
-           
-            <img 
-                src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-    
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
         </button>
 
     </div>
 
     {{-- next Button --}}
     <div class="down-btn-container">
-
-        <button
-            class="nextButton">
- <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
+        <button class="nextButton">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
         </button>
     </div>
 
@@ -325,9 +280,12 @@
                 });
             });
 
-            // ✅ Return button
+            // ✅ Return button - redirect if on first slide
             returnButton.addEventListener("click", () => {
-                if (currentSlide > 0) {
+                if (currentSlide === 0) {
+                    // Redirect to route when on first slide
+                    window.location.href = "{{ route('StageOfGrowthSelection') }}"; /
+                } else if (currentSlide > 0) {
                     currentSlide--;
                     showSlide(currentSlide);
                 }

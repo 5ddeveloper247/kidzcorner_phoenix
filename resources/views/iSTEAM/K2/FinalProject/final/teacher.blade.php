@@ -34,7 +34,7 @@
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
             <ul class="list-disc ">
-                <h2 class="font-bold">Preparations:</h2>
+                <h2 class="font-bold t-title">Preparations:</h2>
                 <li>Common art and craft materials (ice cream sticks, rubber bands, different strings, ruler, coloured
                     pencils, adhesive tape, glue, scissors, etc)</li>
                 <li>Recycled materials (tissue boxes, plastic bottles, empty cans, etc)</li>
@@ -55,7 +55,7 @@
     {{-- sldie 3 --}}
     <div class=" slide text-start text-2xl text-white">
         <div>
-            <h2 class="font-bold">Possible iSTEAM concepts for each problem/challenge:</h2>
+            <h2 class="font-bold t-title">Possible iSTEAM concepts for each problem/challenge:</h2>
             <img src="{{ asset('assets/images/K2/final/f15.png') }}" />
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
@@ -65,7 +65,7 @@
     {{-- sldie 4 --}}
     <div class=" slide text-start text-2xl text-white">
         <div>
-            <h2 class="font-bold">Possible iSTEAM concepts for each problem/challenge:</h2>
+            <h2 class="font-bold t-title">Possible iSTEAM concepts for each problem/challenge:</h2>
             <img src="{{ asset('assets/images/K2/final/f16.png') }}" />
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
@@ -111,7 +111,7 @@
 
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video1')"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2">
+            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
       <img src="/assets/images/pptimages/video.png" />
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
@@ -163,7 +163,7 @@
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold">Notes:</h2>
+                <h2 class="font-bold t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
                     <li>
                         If you see
@@ -182,7 +182,7 @@
                     <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
                     </li>
                     <li>
-                        Click on this <span class="font-bold">shortcut icon</span>
+                        Click on this <span class="font-bold t-title">shortcut icon</span>
                         <span
                             class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
                             <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"

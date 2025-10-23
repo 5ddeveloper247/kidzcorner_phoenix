@@ -5,7 +5,7 @@
     {{-- sldie 1  --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="  font-bold">Children will be able to:</h2>
+            <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
                 <li>Learn about the structure of cars</li>
                 <li>Explore the structural designs of cars</li>
@@ -39,7 +39,7 @@
     {{-- slide 3 --}}
     <div class=" slide flex text-2xl text-white flex-col items-start  justify-start gap-[3rem] text-start">
         <div>
-            <h2 class="font-bold">Preparations:</h2>
+            <h2 class="font-bold t-title">Preparations:</h2>
             <ul class="list-disc ">
                 <li>Put aside the following parts from the DDQ blocks set until the later
                     lessons to avoid distraction to the children,</li>
@@ -60,7 +60,7 @@
     {{-- slide 2 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center  justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold">Things to note for Group Activity:</h2>
+            <h2 class="font-bold t-title">Things to note for Group Activity:</h2>
             <ul class="list-disc ">
                 <li>Prepare one set of the following for each group of children (3-5). One box
                     of DDQ blocks can only make one Eiffel Tower ( taller version)</li>
@@ -101,7 +101,7 @@
         <div class="flex w-[100%] items-center justify-between">
             <div>
                 <!-- Notes -->
-                <h2 class="font-bold ">Notes:</h2>
+                <h2 class="font-bold t-title ">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
                     <li>
                         If you see
@@ -138,7 +138,7 @@
                     <li>Emphasise and use the <strong>keywords</strong> during hands-on sessions.</li>
                     <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.</li>
                     <li>
-                        Click on this <span class="font-bold">shortcut icon</span>
+                        Click on this <span class="font-bold t-title">shortcut icon</span>
                         <span
                             class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
                             <!-- Decorative Vector -->
@@ -275,13 +275,16 @@
                 });
             });
 
-            // ✅ Return button
-            returnButton.addEventListener("click", () => {
-                if (currentSlide > 0) {
-                    currentSlide--;
-                    showSlide(currentSlide);
-                }
-            });
+           // ✅ Return button - redirect if on first slide
+returnButton.addEventListener("click", () => {
+    if (currentSlide === 0) {
+        // Redirect to route when on first slide
+        window.location.href = "{{ route('YourRouteName') }}";  
+    } else if (currentSlide > 0) {
+        currentSlide--;
+        showSlide(currentSlide);
+    }
+});
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {

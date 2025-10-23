@@ -68,9 +68,8 @@
             a socket and the switch is turned on.</h2>
         <p class="note">Note: A socket is a common power source . Most sockets are fixed on the wall.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2">
-      <img src="/assets/images/pptimages/video.png" />
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
@@ -144,9 +143,8 @@
         <h2 class="title stroke">Children, what is this? What is it for? <br>
             Does it use electricity to work?</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video2')"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2">
-      <img src="/assets/images/pptimages/video.png" />
+        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
@@ -160,9 +158,8 @@
         <h2 class="title stroke">How about this? What is it for? <br>
             Does it use electricity to work?</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video3')"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2">
-      <img src="/assets/images/pptimages/video.png" />
+        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
@@ -227,9 +224,8 @@
             to recharge the battery.</h2>
         <p class="note">Note: Guide children to watch the video and describe what they see.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video4')"
-            class="absolute top-1/2 right-[80px] z-30 h-24 w-24 -translate-y-1/2">
-      <img src="/assets/images/pptimages/video.png" />
+        <div onclick="toggleVideo('video4')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
@@ -320,9 +316,8 @@
     {{-- ====================================== --}}
     {{-- Buttons --}}
     <div class="down-btn-container">
-        <button
-         class="doneButton">
- <img src="{{ asset('assets/images/pptimages/done.png') }}" />
+        <button class="doneButton">
+            <img src="{{ asset('assets/images/pptimages/done.png') }}" />
         </button>
     </div>
 
@@ -333,8 +328,7 @@
             <img class="absolute top-[6px] left-[8px] w-20 h-10"
                 src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
             <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <img class=" w-14 h-14"
-                src="{{ asset('assets/images/pptimages/reverse-icon.png') }}" />
+            <img class=" w-14 h-14" src="{{ asset('assets/images/pptimages/reverse-icon.png') }}" />
         </a>
 
         <!-- Home Button -->
@@ -342,13 +336,12 @@
             <img class="absolute top-[6px] left-[8px] w-20 h-10"
                 src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
             <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <img class=" w-14 h-14"
-                src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+            <img class=" w-14 h-14" src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
-        <button  id="closeButton">
-                        <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
+        <button id="closeButton">
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
 
         </button>
     </div>
@@ -366,201 +359,201 @@
 
 
 @push('script')
- <script>
-    // Video toggle function
-    function toggleVideo(videoId) {
-        const video = document.getElementById(videoId);
-        if (video.paused) {
-            video.play();
-        } else {
-            video.pause();
-        }
-    }
-
-    document.addEventListener("DOMContentLoaded", () => {
-        const slides = document.querySelectorAll(".slide");
-        const nextButtons = document.querySelectorAll(".nextButton");
-        const returnButton = document.getElementById("returnButton");
-        const doneButton = document.querySelector(".doneButton");
-
-        // Get all click buttons (click-btn1, click-btn2, etc.)
-        const clickButtons = document.querySelectorAll("[class*='click-btn']");
-
-        let currentSlide = 0;
-        let parentSlideIndex = null;
-        let isViewingClickSlides = false;
-        let currentClickClass = null; // Track which click class we're viewing (click1, click2, etc.)
-
-        // DEFINE YOUR RETURN ROUTE HERE - This is the route to navigate when on slide 1 and clicking return
-        const returnRouteFromFirstSlide = "{{ route('electricitySelection') }}"; 
-
-        // Function to pause all videos
-        function pauseAllVideos() {
-            const videos = document.querySelectorAll('video');
-            videos.forEach(video => {
-                if (!video.paused) {
-                    video.pause();
-                }
-            });
-        }
-
-        function showSlide(index) {
-            // Pause all videos before changing slides
-            pauseAllVideos();
-
-            slides.forEach((slide, i) => {
-                slide.classList.toggle("hidden", i !== index);
-            });
-
-            // Check if last slide OR last click slide
-            const isLastSlide = index === slides.length - 1;
-            const isLastClickSlide = isViewingClickSlides && !hasNextClickSlide(index);
-
-            if (isLastSlide || isLastClickSlide) {
-                nextButtons.forEach(btn => btn.classList.add("hidden"));
-                if (doneButton) doneButton.classList.remove("hidden");
+    <script>
+        // Video toggle function
+        function toggleVideo(videoId) {
+            const video = document.getElementById(videoId);
+            if (video.paused) {
+                video.play();
             } else {
-                nextButtons.forEach(btn => btn.classList.remove("hidden"));
-                if (doneButton) doneButton.classList.add("hidden");
+                video.pause();
             }
         }
 
-        // Check if there's another click slide with same class after current one
-        function hasNextClickSlide(currentIndex) {
-            if (!currentClickClass) return false;
+        document.addEventListener("DOMContentLoaded", () => {
+            const slides = document.querySelectorAll(".slide");
+            const nextButtons = document.querySelectorAll(".nextButton");
+            const returnButton = document.getElementById("returnButton");
+            const doneButton = document.querySelector(".doneButton");
 
-            for (let i = currentIndex + 1; i < slides.length; i++) {
-                if (slides[i].classList.contains(currentClickClass)) {
-                    return true;
+            // Get all click buttons (click-btn1, click-btn2, etc.)
+            const clickButtons = document.querySelectorAll("[class*='click-btn']");
+
+            let currentSlide = 0;
+            let parentSlideIndex = null;
+            let isViewingClickSlides = false;
+            let currentClickClass = null; // Track which click class we're viewing (click1, click2, etc.)
+
+            // DEFINE YOUR RETURN ROUTE HERE - This is the route to navigate when on slide 1 and clicking return
+            const returnRouteFromFirstSlide = "{{ route('electricitySelection') }}";
+
+            // Function to pause all videos
+            function pauseAllVideos() {
+                const videos = document.querySelectorAll('video');
+                videos.forEach(video => {
+                    if (!video.paused) {
+                        video.pause();
+                    }
+                });
+            }
+
+            function showSlide(index) {
+                // Pause all videos before changing slides
+                pauseAllVideos();
+
+                slides.forEach((slide, i) => {
+                    slide.classList.toggle("hidden", i !== index);
+                });
+
+                // Check if last slide OR last click slide
+                const isLastSlide = index === slides.length - 1;
+                const isLastClickSlide = isViewingClickSlides && !hasNextClickSlide(index);
+
+                if (isLastSlide || isLastClickSlide) {
+                    nextButtons.forEach(btn => btn.classList.add("hidden"));
+                    if (doneButton) doneButton.classList.remove("hidden");
+                } else {
+                    nextButtons.forEach(btn => btn.classList.remove("hidden"));
+                    if (doneButton) doneButton.classList.add("hidden");
                 }
             }
-            return false;
-        }
 
-        // Get click class from button (click-btn1 → click1, click-btn2 → click2)
-        function getClickClassFromButton(button) {
-            const classList = Array.from(button.classList);
-            const clickBtnClass = classList.find(cls => cls.startsWith('click-btn'));
-            if (clickBtnClass) {
-                // Extract number from click-btn1, click-btn2, etc.
-                const number = clickBtnClass.replace('click-btn', '');
-                return 'click' + number;
-            }
-            return null;
-        }
+            // Check if there's another click slide with same class after current one
+            function hasNextClickSlide(currentIndex) {
+                if (!currentClickClass) return false;
 
-        // Click button handlers
-        clickButtons.forEach((btn) => {
-            btn.addEventListener("click", (e) => {
-                e.preventDefault(); // Prevent default anchor behavior
-
-                parentSlideIndex = currentSlide;
-                isViewingClickSlides = true;
-                currentClickClass = getClickClassFromButton(btn);
-
-                // Find the first slide with matching click class
-                for (let i = 0; i < slides.length; i++) {
+                for (let i = currentIndex + 1; i < slides.length; i++) {
                     if (slides[i].classList.contains(currentClickClass)) {
-                        currentSlide = i;
-                        showSlide(currentSlide);
-                        break;
+                        return true;
                     }
                 }
-            });
-        });
+                return false;
+            }
 
-        // NEXT button - skip click slides if not viewing them
-        nextButtons.forEach((btn) => {
-            btn.addEventListener("click", () => {
-                if (currentSlide < slides.length - 1) {
-                    currentSlide++;
+            // Get click class from button (click-btn1 → click1, click-btn2 → click2)
+            function getClickClassFromButton(button) {
+                const classList = Array.from(button.classList);
+                const clickBtnClass = classList.find(cls => cls.startsWith('click-btn'));
+                if (clickBtnClass) {
+                    // Extract number from click-btn1, click-btn2, etc.
+                    const number = clickBtnClass.replace('click-btn', '');
+                    return 'click' + number;
+                }
+                return null;
+            }
 
-                    // Skip click slides if not viewing them
-                    while (!isViewingClickSlides &&
-                        currentSlide < slides.length &&
-                        isClickSlide(slides[currentSlide])) {
-                        currentSlide++;
-                    }
+            // Click button handlers
+            clickButtons.forEach((btn) => {
+                btn.addEventListener("click", (e) => {
+                    e.preventDefault(); // Prevent default anchor behavior
 
-                    // If viewing click slides, only show slides with current click class
-                    if (isViewingClickSlides) {
-                        while (currentSlide < slides.length &&
-                            !slides[currentSlide].classList.contains(currentClickClass)) {
-                            currentSlide++;
+                    parentSlideIndex = currentSlide;
+                    isViewingClickSlides = true;
+                    currentClickClass = getClickClassFromButton(btn);
+
+                    // Find the first slide with matching click class
+                    for (let i = 0; i < slides.length; i++) {
+                        if (slides[i].classList.contains(currentClickClass)) {
+                            currentSlide = i;
+                            showSlide(currentSlide);
+                            break;
                         }
                     }
+                });
+            });
 
-                    if (currentSlide < slides.length) {
+            // NEXT button - skip click slides if not viewing them
+            nextButtons.forEach((btn) => {
+                btn.addEventListener("click", () => {
+                    if (currentSlide < slides.length - 1) {
+                        currentSlide++;
+
+                        // Skip click slides if not viewing them
+                        while (!isViewingClickSlides &&
+                            currentSlide < slides.length &&
+                            isClickSlide(slides[currentSlide])) {
+                            currentSlide++;
+                        }
+
+                        // If viewing click slides, only show slides with current click class
+                        if (isViewingClickSlides) {
+                            while (currentSlide < slides.length &&
+                                !slides[currentSlide].classList.contains(currentClickClass)) {
+                                currentSlide++;
+                            }
+                        }
+
+                        if (currentSlide < slides.length) {
+                            showSlide(currentSlide);
+                        }
+                    }
+                });
+            });
+
+            // Check if slide is any click slide (click1, click2, etc.)
+            function isClickSlide(slide) {
+                return Array.from(slide.classList).some(cls => cls.startsWith('click') && cls.match(/^click\d+$/));
+            }
+
+            // Return button with route navigation on first slide
+            returnButton.addEventListener("click", () => {
+                // If on first slide (slide 0) and not viewing click slides, navigate to return route
+                if (currentSlide === 0 && !isViewingClickSlides) {
+                    window.location.href = returnRouteFromFirstSlide;
+                    return;
+                }
+
+                if (isViewingClickSlides && currentSlide > 0) {
+                    // Check if previous slide is also same click class
+                    let prevSlide = currentSlide - 1;
+
+                    // Find previous slide with same click class
+                    while (prevSlide >= 0 && !slides[prevSlide].classList.contains(currentClickClass)) {
+                        prevSlide--;
+                    }
+
+                    if (prevSlide >= 0 && slides[prevSlide].classList.contains(currentClickClass)) {
+                        currentSlide = prevSlide;
+                        showSlide(currentSlide);
+                    } else {
+                        // No more click slides, return to parent
+                        currentSlide = parentSlideIndex;
+                        isViewingClickSlides = false;
+                        currentClickClass = null;
+                        parentSlideIndex = null;
                         showSlide(currentSlide);
                     }
-                }
-            });
-        });
-
-        // Check if slide is any click slide (click1, click2, etc.)
-        function isClickSlide(slide) {
-            return Array.from(slide.classList).some(cls => cls.startsWith('click') && cls.match(/^click\d+$/));
-        }
-
-        // Return button with route navigation on first slide
-        returnButton.addEventListener("click", () => {
-            // If on first slide (slide 0) and not viewing click slides, navigate to return route
-            if (currentSlide === 0 && !isViewingClickSlides) {
-                window.location.href = returnRouteFromFirstSlide;
-                return;
-            }
-
-            if (isViewingClickSlides && currentSlide > 0) {
-                // Check if previous slide is also same click class
-                let prevSlide = currentSlide - 1;
-
-                // Find previous slide with same click class
-                while (prevSlide >= 0 && !slides[prevSlide].classList.contains(currentClickClass)) {
-                    prevSlide--;
-                }
-
-                if (prevSlide >= 0 && slides[prevSlide].classList.contains(currentClickClass)) {
-                    currentSlide = prevSlide;
-                    showSlide(currentSlide);
-                } else {
-                    // No more click slides, return to parent
-                    currentSlide = parentSlideIndex;
-                    isViewingClickSlides = false;
-                    currentClickClass = null;
-                    parentSlideIndex = null;
-                    showSlide(currentSlide);
-                }
-            } else if (currentSlide > 0) {
-                currentSlide--;
-
-                // Skip click slides when going back
-                while (currentSlide > 0 && isClickSlide(slides[currentSlide])) {
+                } else if (currentSlide > 0) {
                     currentSlide--;
-                }
 
-                showSlide(currentSlide);
-            }
-        });
+                    // Skip click slides when going back
+                    while (currentSlide > 0 && isClickSlide(slides[currentSlide])) {
+                        currentSlide--;
+                    }
 
-        // DONE button handler
-        if (doneButton) {
-            doneButton.addEventListener("click", () => {
-                if (isViewingClickSlides && parentSlideIndex !== null) {
-                    // Return to parent slide
-                    currentSlide = parentSlideIndex;
-                    isViewingClickSlides = false;
-                    currentClickClass = null;
-                    parentSlideIndex = null;
                     showSlide(currentSlide);
-                } else {
-                    // Navigate to route
-                    window.location.href = "{{ route('electricitySelection') }}";
                 }
             });
-        }
 
-        // Start with first slide
-        showSlide(currentSlide);
-    });
-</script>
+            // DONE button handler
+            if (doneButton) {
+                doneButton.addEventListener("click", () => {
+                    if (isViewingClickSlides && parentSlideIndex !== null) {
+                        // Return to parent slide
+                        currentSlide = parentSlideIndex;
+                        isViewingClickSlides = false;
+                        currentClickClass = null;
+                        parentSlideIndex = null;
+                        showSlide(currentSlide);
+                    } else {
+                        // Navigate to route
+                        window.location.href = "{{ route('electricitySelection') }}";
+                    }
+                });
+            }
+
+            // Start with first slide
+            showSlide(currentSlide);
+        });
+    </script>
 @endpush

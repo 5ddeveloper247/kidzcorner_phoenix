@@ -7,7 +7,7 @@
     <div class="slide t-slide hidden flex flex-col justify-start text-start text-white">
         <div>
             <!-- Learning Outcomes -->
-            <h2 class="font-bold  t-title ">Children will be able to:</h2>
+            <h2 class="font-bold t-title  t-title ">Children will be able to:</h2>
             <ul class="list-disc">
                 <li>Understand how shadows are made</li>
                 <li>Explore how the position of light sources affect the shadows</li>
@@ -18,7 +18,7 @@
         <div class="flex items-center justify-between">
             <div>
                 <!-- Keywords -->
-                <h2 class="font-bold  t-title ">Keywords:</h2>
+                <h2 class="font-bold t-title  t-title ">Keywords:</h2>
                 <div class="flex items-center gap-x-10">
                     <ul class="list-disc">
                         <li>Black</li>
@@ -48,7 +48,7 @@
     <div class="slide t-slide hidden flex flex-col justify-start  text-start text-white">
         <div>
             <!-- Preparations -->
-            <h2 class="font-bold  t-title ">Preparations for Class Activity I:</h2>
+            <h2 class="font-bold t-title  t-title ">Preparations for Class Activity I:</h2>
             <ul class="list-disc">
                 <li>Need to have a flashlight and a space to work with the activities.</li>
                 <li>Ensure enough space for children to try out their hand shadows.</li>
@@ -59,7 +59,7 @@
         <div class="flex w-[100%] items-center justify-between">
             <div>
                 <!-- Links to Songs -->
-                <h2 class="font-bold  t-title ">Preparations for Class Activity 2:</h2>
+                <h2 class="font-bold t-title  t-title ">Preparations for Class Activity 2:</h2>
                 <ul class="list-disc">
                     <li>
                         <ul class="list-disc space-y-1">
@@ -132,7 +132,7 @@
         <h2 class=" font-bold title text-center stroke">Learning Center Idea</h2>
         <div>
             <!-- Preparations -->
-            <h2 class="font-bold  t-title ">Matching shadow</h2>
+            <h2 class="font-bold t-title  t-title ">Matching shadow</h2>
             <h2 class="t-title">What and how to setup:</h2>
             <p>Prepare some flashlights and some toys such as cars, dinosaurs, animal figurines etc. Print out shadows of
                 the objects for children to match. The shadows can be taller/bigger/smaller/shorter, depending on how the
@@ -140,7 +140,7 @@
         </div>
         <div>
                 <!-- What to do -->
-                <h2 class="font-bold  t-title ">What to do:</h2>
+                <h2 class="font-bold t-title  t-title ">What to do:</h2>
                 <ul class="mt-2 list-decimal space-y-1 pl-6">
                     <li>Invite children to pick up a picture and find the item that will cast the shadow.</li>
                     <li>Ask children to use the lights to create the same shadow.</li>
