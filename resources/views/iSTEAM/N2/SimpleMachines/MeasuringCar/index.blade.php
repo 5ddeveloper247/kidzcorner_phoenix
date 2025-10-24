@@ -6,7 +6,7 @@
     <div id="topDiv" class="flex flex-col items-center ">
         <div class="indexTitle  text-[55px]  stroke">A Measuring Car (1)</div>
         <h2
-            class="text-2xl sm:text-3xl lg:text-6xl text-white max-w-5xl leading-snug flex flex-col items-center space-x-[30px]">
+            class="text-2xl sm:text-3xl lg:text-6xl text-white    flex flex-col items-center space-x-[30px]">
             Build a measuring car based on wa pictorial
             guide; explore and learn how connected
             pairs of wheels and axles make a

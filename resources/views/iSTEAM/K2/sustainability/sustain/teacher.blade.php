@@ -17,7 +17,7 @@
 
         <div class="flex flex-col  items-start justify-between">
             <h2 class="t-title font-bold">Keywords:</h2>
-            <div class="flex gap-20">
+            <div >
                 <ul class="list-disc ">
                     <li>Global Warming</li>
                     <li>Sustainability</li>
@@ -275,7 +275,7 @@ Encourage children to think what can the natural resources be<br>
                     </li>
                 </ul>
             </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute right-[250px] bottom-[150px]"
+            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1"
                 alt="Teacher" />
         </div>
     </div>
@@ -287,12 +287,12 @@ Encourage children to think what can the natural resources be<br>
         <div class="flex flex-col gap-10">
             <ul>
                 <h2 class="!text-white title stroke">Fingerprints Art</h2>
-                <h2>What and how to set up:</h2>
+                <h2 class="t-title">What and how to set up:</h2>
                 <li>Put some paints, sponges, coloured pencils and drawing papers here.</li>
             </ul>
 
             <div>
-                <h2>What to do:</h2>
+                <h2 class="t-title">What to do:</h2>
                 <ul class="list-decimal">
                     <li>Turn your fingerprints into art! Put your fingerprints on the
                         drawing paper.</li>
@@ -313,7 +313,7 @@ Encourage children to think what can the natural resources be<br>
         <div>
             <ul class="list-disc">
                 <h2 class="!text-white title stroke">Fun Facts</h2>
-                <h2>What and how to set up:</h2>
+                <h2 class="t-title">What and how to set up:</h2>
                 <p>Use your creativity to design graphic fact sheet for every fun fact
                     below. Guide children to understand the facts.</p>
                 <li>Fingerprints actually help you to grasp an object. Without them,
@@ -337,7 +337,7 @@ Encourage children to think what can the natural resources be<br>
         </button>
     </div>
 
-    <div id="buttons" class="absolute top-0 right-[60px] flex flex-row gap-6 z-90">
+    <div id="buttons" class="absolute  flex flex-row gap-6 z-90">
 
         <!-- Return Button -->
         <a id="returnButton">
@@ -383,7 +383,7 @@ Encourage children to think what can the natural resources be<br>
             const slides = document.querySelectorAll(".slide");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
-            const doneButton = document.querySelector(".doneButton"); // ✅ DONE button
+            const doneButton = document.querySelector(".doneButton"); //   DONE button
 
             let currentSlide = 0;
 
@@ -392,7 +392,7 @@ Encourage children to think what can the natural resources be<br>
                     slide.classList.toggle("hidden", i !== index);
                 });
 
-                // ✅ Agar last slide hai → NEXT button hide, DONE show
+                //   Agar last slide hai → NEXT button hide, DONE show
                 if (index === slides.length - 1) {
                     nextButtons.forEach(btn => btn.classList.add("hidden"));
                     if (doneButton) doneButton.classList.remove("hidden");
@@ -402,7 +402,7 @@ Encourage children to think what can the natural resources be<br>
                 }
             }
 
-            // ✅ NEXT buttons listener
+            //   NEXT buttons listener
             nextButtons.forEach((btn) => {
                 btn.addEventListener("click", () => {
                     if (currentSlide < slides.length - 1) {
@@ -412,7 +412,7 @@ Encourage children to think what can the natural resources be<br>
                 });
             });
 
-           // ✅ Return button - redirect if on first slide
+           //   Return button - redirect if on first slide
 returnButton.addEventListener("click", () => {
     if (currentSlide === 0) {
         // Redirect to route when on first slide

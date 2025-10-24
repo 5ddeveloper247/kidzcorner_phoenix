@@ -88,11 +88,9 @@
 
 
 
-    <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
-
+ <div id="buttons" class="absolute  flex flex-row gap-6 ">
         <!-- Return Button -->
         <a href="{{ route('Build-Structure') }}" id="returnButton">
-
             <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
         <!-- Home Button -->
@@ -102,11 +100,8 @@
 
         <!-- Close Button -->
         <button id="closeButton">
-
             <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-
         </button>
-
     </div>
 
 

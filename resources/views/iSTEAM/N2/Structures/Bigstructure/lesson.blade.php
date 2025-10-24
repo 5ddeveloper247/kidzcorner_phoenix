@@ -2,11 +2,13 @@
 @section('title', 'Dynamic Presentation')
 
 @section('content')
+    {{-- title --}}
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">Structure of Big Vehicle</h2>
 
 
     {{-- Slide 1 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <img src="/assets/images/N2/structure/c-str/s1.png" />
+    <div class="slide flex flex-col items-center justify-center ">
+        <img src="{{ asset('assets/images/N2/structure/c-str/s1.png') }}" />
         <h2 class="title stroke">In the last lesson, we learned that cars are structures
             made up by many small parts.</h2>
 
@@ -14,23 +16,17 @@
 
 
     {{-- Slide 2 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start gap-5 ">
-
-        <img src="/assets/images/N2/structure/c-str/s29.png" />
-
+    <div class="slide hidden  flex flex-col items-center justify-start ">
+        <img src="{{ asset('assets/images/N2/structure/c-str/s29.png') }}" />
         <h2 class="title stroke ">Cars, vans and trucks are structures with different designs.
             Therefore, they have different shapes.</h2>
-
-
-
-
     </div>
 
 
     {{-- Slide3 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start gap-5 ">
+    <div class="slide hidden  flex flex-col items-center justify-start ">
 
-        <img src="/assets/images/N2/structure/c-str/s29.png" />
+        <img src="{{ asset('assets/images/N2/structure/c-str/s29.png') }}" />
 
         <h2 class="title stroke ">In fact, all <span class="text-white">vehicles</span> are structures.
             Cars, vans and pickup trucks are examples of small <span class="text-white">vehicles</span> .</h2>
@@ -43,7 +39,7 @@
 
 
     {{-- Slide 4 --}}
-    <div class="slide flex flex-col items-center justify-center gap-[10rem] ">
+    <div class="slide flex flex-col items-center justify-center ">
         <h2 class="title stroke">Today, we are going to look at big vehicles! <br>
             Can you name some big vehicles?</h2>
         <p class="note">Note: Encourage children to brainstorm on the different types of vehicles.</p>
@@ -51,8 +47,8 @@
 
 
     {{-- Slide 5  --}}
-    <div class="slide flex flex-col items-center justify-center gap-5">
-        <img src="/assets/images/N2/structure/b-str/s1.png" />
+    <div class="slide flex flex-col items-center justify-center">
+        <img src="{{ asset('assets/images/N2/structure/b-str/s1.png') }}" />
 
         <h2 class="title stroke">Coaches and buses are big <span class="text-white">vehicles</span>. <br>
             These <span class="text-white">vehicles</span> can carry up to 40 people!</h2>
@@ -62,8 +58,8 @@
 
 
     {{-- slide 6 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5">
-        <img src="/assets/images/N2/structure/b-str/s2.png" />
+    <div class="slide flex flex-col items-center justify-center">
+        <img src="{{ asset('assets/images/N2/structure/b-str/s2.png') }}" />
 
         <h2 class="title stroke">Double-decker buses are even bigger! <br>
             Can you see how big the bus us compared to the man?</h2>
@@ -72,8 +68,8 @@
     </div>
 
     {{-- Slide 7 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5">
-        <img src="/assets/images/N2/structure/b-str/s3.png" />
+    <div class="slide flex flex-col items-center justify-center">
+        <img src="{{ asset('assets/images/N2/structure/b-str/s3.png') }}" />
 
         <h2 class="title stroke">This is an open top double-decker bus.
             There are many people on the upper deck of the bus!</h2>
@@ -83,8 +79,8 @@
 
 
     {{-- Slide 8 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5">
-        <img src="/assets/images/N2/structure/b-str/s4.png" />
+    <div class="slide flex flex-col items-center justify-center">
+        <img src="{{ asset('assets/images/N2/structure/b-str/s4.png') }}" />
         <h2 class="title stroke">This is a semi trailer. It can be attached to another part to
             <span class="!text-white">transport heavy</span> items from one place to another.
         </h2>
@@ -95,8 +91,8 @@
 
 
     {{-- slide 9 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5">
-        <img src="/assets/images/N2/structure/b-str/s5.png" />
+    <div class="slide flex flex-col items-center justify-center">
+        <img src="{{ asset('assets/images/N2/structure/b-str/s5.png') }}" />
         <h2 class="title stroke">The semi trailer truck can <span class="!text-white">transport</span> many cars at a time.
         </h2>
 
@@ -105,8 +101,8 @@
 
 
     {{-- slide 10 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5">
-        <img src="/assets/images/N2/structure/b-str/s6.png" />
+    <div class="slide flex flex-col items-center justify-center">
+        <img src="{{ asset('assets/images/N2/structure/b-str/s6.png') }}" />
         <h2 class="title stroke">The semi trailer truck <span class="!text-white">transports fuel</span> to petrol stations.
         </h2>
 
@@ -115,8 +111,8 @@
 
 
     {{-- slide 11 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5">
-        <img src="/assets/images/N2/structure/b-str/s7.png" />
+    <div class="slide flex flex-col items-center justify-center">
+        <img src="{{ asset('assets/images/N2/structure/b-str/s7.png') }}" />
         <h2 class="title stroke">Some semi trailer trucks <span class="!text-white">transport</span> huge and
             <span class="!text-white">heavy</span> items in containers.
         </h2>
@@ -125,8 +121,8 @@
     </div>
 
     {{-- slide 12 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5">
-        <img src="/assets/images/N2/structure/b-str/s8.png" />
+    <div class="slide flex flex-col items-center justify-center">
+        <img src="{{ asset('assets/images/N2/structure/b-str/s8.png') }}" />
         <h2 class="title stroke">Look at the size of these semi trailer trucks and the cars.
         </h2>
 
@@ -137,8 +133,8 @@
 
 
     {{-- slide 13 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5">
-        <img src="/assets/images/N2/structure/b-str/s9.png" />
+    <div class="slide flex flex-col items-center justify-center">
+        <img src="{{ asset('assets/images/N2/structure/b-str/s9.png') }}" class="large-img5" />
         <h2 class="title stroke">Fire engines are big vehicles too! Look at the <span class="!text-white">wheel</span>!
             Can you count how many <span class="!text-white">wheel</span> there are on each of them?
         </h2>
@@ -150,8 +146,8 @@
     </div>
 
     {{-- slide 14 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5">
-        <img src="/assets/images/N2/structure/b-str/s9.png" />
+    <div class="slide flex flex-col items-center justify-center">
+        <img src="{{ asset('assets/images/N2/structure/b-str/s9.png') }}" class="large-img5" />
         <h2 class="title stroke">Fire engines have many <span class="!text-white">wheels</span> because they are <span
                 class="!text-white">heavy</span>. They
             carry many equipment that is needed to put out a fire.
@@ -164,8 +160,8 @@
 
 
     {{-- slide 15 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5">
-        <img src="/assets/images/N2/structure/b-str/s9.png" />
+    <div class="slide flex flex-col items-center justify-center">
+        <img src="{{ asset('assets/images/N2/structure/b-str/s9.png') }}" />
         <h2 class="title stroke">Fire engines have many <span class="!text-white">wheels</span> because they are <span
                 class="!text-white">heavy</span>. They
             carry many equipment that is needed to put out a fire.
@@ -178,18 +174,18 @@
 
 
     {{-- slide 16 --}}
-    <div class="slide hidden  flex flex-col justify-start items-center  gap-5 ">
+    <div class="slide hidden  flex flex-col justify-start items-center  ">
 
 
         <div class="flex gap-1 justify-center items-center">
             <div class="flex flex-col gap-1 justify-center items-center">
-                <img src="/assets/images/N2/structure/b-str/s10.png" />
+                <img src="{{ asset('assets/images/N2/structure/b-str/s10.png') }}" class="large-img" />
                 <h2 class="title stroke  !text-white">front end loader</h2>
             </div>
 
 
             <div class="flex flex-col gap-1 justify-center items-center">
-                <img src="/assets/images/N2/structure/b-str/s11.png" />
+                <img src="{{ asset('assets/images/N2/structure/b-str/s11.png') }}" class="large-img" />
                 <h2 class="title stroke  !text-white">dump truck</h2>
             </div>
         </div>
@@ -203,10 +199,10 @@
 
 
     {{-- slide 17 --}}
-    <div class="slide hidden  flex flex-col justify-start items-center  gap-5 ">
+    <div class="slide hidden  flex flex-col justify-start items-center  ">
 
 
-        <img src="/assets/images/N2/structure/b-str/s12.png" />
+        <img src="{{ asset('assets/images/N2/structure/b-str/s12.png') }}" />
 
         <h2 class="title stroke">Big <span class="!text-white">vehicles</span> are huge in size and carry <span
                 class="!text-white">heavy</span> loads. <br>
@@ -215,10 +211,10 @@
 
 
     {{-- slide 18 --}}
-    <div class="slide hidden  flex flex-col justify-start items-center  gap-5 ">
+    <div class="slide hidden  flex flex-col justify-start items-center  ">
 
 
-        <img src="/assets/images/N2/structure/b-str/s12.png" />
+        <img src="{{ asset('assets/images/N2/structure/b-str/s12.png') }}" />
 
         <h2 class="title stroke">Big <span class="!text-white">vehicles</span> have their own shape structures too!
             Can you spot the shapes on these <span class="!text-white">vehicles</span>?</h2>
@@ -228,10 +224,10 @@
 
 
     {{-- slide 19 --}}
-    <div class="slide hidden  flex flex-col justify-start items-center  gap-5 ">
+    <div class="slide hidden  flex flex-col justify-start items-center  ">
 
 
-        <img src="/assets/images/N2/structure/b-str/s13.png" />
+        <img src="{{ asset('assets/images/N2/structure/b-str/s13.png') }}" />
 
         <h2 class="title stroke">They are made up of rectangles and circles!</h2>
 
@@ -241,22 +237,23 @@
 
 
     {{-- slide 20 --}}
-    <div class="slide hidden  flex flex-col justify-start items-center  gap-5 ">
+    <div class="slide hidden  flex flex-col justify-start items-center  ">
 
 
-        <img src="/assets/images/N2/structure/b-str/s14.png" />
+        <img src="{{ asset('assets/images/N2/structure/b-str/s14.png') }}" />
 
-        <h2 class="title stroke">Let’s use these big <span class="!text-white">wheels</span> in the construction set to <br>
+        <h2 class="title stroke">Let’s use these big <span class="!text-white">wheels</span> in the construction set to
+            <br>
             build some big <span class="!text-white">vehicles</span>!</h2>
 
         <p class="note">Note: Teacher you may let children compare the two different types of wheels.</p>
     </div>
 
     {{-- slide 21 --}}
-    <div class="slide hidden  flex flex-col justify-start items-center  gap-5 ">
+    <div class="slide hidden  flex flex-col justify-start items-center  ">
 
 
-        <img src="/assets/images/N2/structure/b-str/s15.png" />
+        <img src="{{ asset('assets/images/N2/structure/b-str/s15.png') }}" />
 
         <h2 class="title stroke">This is a <span class="!text-white">wheel</span> connector. It is different from the
             other
@@ -266,10 +263,10 @@
     </div>
 
     {{-- slide 22 --}}
-    <div class="slide hidden  flex flex-col justify-start items-center  gap-[5rem] ">
+    <div class="slide hidden  flex flex-col justify-start items-center  ">
 
         <h2 class="title stroke !text-white">Class Activity 1</h2>
-        <img src="/assets/images/N2/structure/c-str/s14.png" />
+        <img src="{{ asset('assets/images/N2/structure/c-str/s14.png') }}" />
 
 
         <h2 class="title stroke !text-start">Mission: <br>
@@ -279,14 +276,14 @@
 
 
     {{-- slide 23 --}}
-    <div class="slide hidden  flex flex-col justify-start items-center  gap-5 ">
+    <div class="slide hidden  flex flex-col justify-start items-center  ">
 
         <h2 class="stroke title !text-start">Steps: <br>
             1.Take one wheel connector and a big wheel. <br>
             2.Fix the connector on the inside of the big wheel. <br>
             3.The big wheel is done.</h2>
 
-        <img src="/assets/images/N2/structure/b-str/s16.png" />
+        <img src="{{ asset('assets/images/N2/structure/b-str/s16.png') }}" />
 
 
         <p class="note">Note: Encourage all children to attach to attach the wheels and explore fixing
@@ -295,7 +292,7 @@
     </div>
 
     {{-- slide 24 --}}
-    <div class="slide hidden  flex flex-col justify-start items-center  gap-[7rem] ">
+    <div class="slide hidden  flex flex-col justify-start items-center   ">
 
         <h2 class="stroke title !text-start">Let’s build a big vehicle!</h2>
 
@@ -309,11 +306,11 @@
     </div>
 
     {{-- slide 25 --}}
-    <div class="slide hidden  flex flex-col justify-start items-center  gap-5 ">
+    <div class="slide hidden  flex flex-col justify-start items-center  ">
 
         <h2 class="stroke title !text-white">Group Activity 1</h2>
 
-        <img src="/assets/images/N2/structure/b-str/s17.png" />
+        <img src="{{ asset('assets/images/N2/structure/b-str/s17.png') }}" />
 
 
         <h2 class="title stroke !text-start">Mission: <br>
@@ -324,17 +321,13 @@
 
 
     {{-- slide 26 --}}
-    <div class="slide hidden  flex flex-col justify-start items-center  gap-4 ">
-
-
-
+    <div class="slide hidden  flex flex-col justify-start items-center  ">
+        <h2 class="title stroke !text-start">Let’s do: <br>
+            1.Gather the follow parts.</h2>
 
         <div class="flex gap-1 items-end">
             <div>
-
-                <h2 class="title stroke !text-start">Let’s do: <br>
-                    1.Gather the follow parts.</h2>
-                <img src="/assets/images/N2/structure/b-str/s18.png" />
+                <img src="{{ asset('assets/images/N2/structure/b-str/s18.png') }}" class="large-img" />
             </div>
             <p class="note !text-start">rectangle block X 5 <br>
                 cube X 4 <br>
@@ -352,24 +345,18 @@
 
 
     {{-- slide 27 --}}
-    <div class="slide hidden  flex flex-col justify-start items-center  gap-4 ">
-
-
+    <div class="slide hidden  flex flex-col justify-start items-center  ">
 
         <h2 class="title stroke !text-start">Let’s do: <br>
             2.Take the following parts to build the rectangular body <br>
             of the fire truck.</h2>
-
-
-        <img src="/assets/images/N2/structure/b-str/s19.png" />
-
-
+        <img src="{{ asset('assets/images/N2/structure/b-str/s19.png') }}" />
         <p class="note">Note: Encourage and guide the children to try to connect the pieces.</p>
     </div>
 
 
     {{-- slide 28 --}}
-    <div class="slide hidden  flex flex-col justify-start items-center  gap-4 ">
+    <div class="slide hidden  flex flex-col justify-start items-center  ">
 
 
 
@@ -378,7 +365,7 @@
             together using the block connectors.</h2>
 
 
-        <img src="/assets/images/N2/structure/b-str/s20.png" />
+        <img src="{{ asset('assets/images/N2/structure/b-str/s20.png') }}" />
 
 
         <p class="note">Note: The blocks are arranged such that when the wheels can be fixed on the square
@@ -387,7 +374,7 @@
 
 
     {{-- slide 29 --}}
-    <div class="slide hidden  flex flex-col justify-start items-center  gap-4 ">
+    <div class="slide hidden  flex flex-col justify-start items-center  ">
 
 
 
@@ -396,7 +383,7 @@
             for the fire engine’s body.</h2>
 
 
-        <img src="/assets/images/N2/structure/b-str/s21.png" />
+        <img src="{{ asset('assets/images/N2/structure/b-str/s21.png') }}" />
 
 
         <p class="note">Note: The blocks are arranged such that when the wheels can be fixed on the square
@@ -405,7 +392,7 @@
 
 
     {{-- slide 30 --}}
-    <div class="slide hidden  flex flex-col justify-start items-center  gap-4 ">
+    <div class="slide hidden  flex flex-col justify-start items-center  ">
 
 
 
@@ -414,7 +401,7 @@
             positions as shown.</h2>
 
 
-        <img src="/assets/images/N2/structure/b-str/s22.png" />
+        <img src="{{ asset('assets/images/N2/structure/b-str/s22.png') }}" />
 
 
         <p class="note">Note: Encourage and assist the children to connect the pieces as it may be
@@ -424,7 +411,7 @@
 
 
     {{-- slide 31 --}}
-    <div class="slide hidden  flex flex-col justify-start items-center  gap-4 ">
+    <div class="slide hidden  flex flex-col justify-start items-center  ">
 
 
 
@@ -433,14 +420,14 @@
             of the wheels to the other side.</h2>
 
 
-        <img src="/assets/images/N2/structure/b-str/s23.png" />
+        <img src="{{ asset('assets/images/N2/structure/b-str/s23.png') }}" />
 
 
         <p class="note">Note: Encourage and assist the children to match the positions of the wheels.</p>
     </div>
 
     {{-- slide 32 --}}
-    <div class="slide hidden  flex flex-col justify-start items-center  gap-4 ">
+    <div class="slide hidden  flex flex-col justify-start items-center  ">
 
 
 
@@ -449,7 +436,7 @@
             on top of the fire engine’s body.</h2>
 
 
-        <img src="/assets/images/N2/structure/b-str/s24.png" />
+        <img src="{{ asset('assets/images/N2/structure/b-str/s24.png') }}" />
 
 
         <p class="note">Note: Explain that the wheel connector is used because it can turn.
@@ -457,7 +444,7 @@
     </div>
 
     {{-- slide 33 --}}
-    <div class="slide hidden  flex flex-col justify-start items-center  gap-4 ">
+    <div class="slide hidden  flex flex-col justify-start items-center  ">
 
 
 
@@ -466,14 +453,14 @@
             two directions connectors to form the ladder.</h2>
 
 
-        <img src="/assets/images/N2/structure/b-str/s25.png" />
+        <img src="{{ asset('assets/images/N2/structure/b-str/s25.png') }}" />
 
 
         <p class="note">Note: Teacher to point out the order of the pieces and assist children as it may
             be hard to connect parts.</p>
     </div>
     {{-- slide 34 --}}
-    <div class="slide hidden  flex flex-col justify-start items-center  gap-4 ">
+    <div class="slide hidden  flex flex-col justify-start items-center  ">
 
 
 
@@ -481,14 +468,14 @@
             9.Connect the ladder to the rectangle block on the top.</h2>
 
 
-        <img src="/assets/images/N2/structure/b-str/s26.png" />
+        <img src="{{ asset('assets/images/N2/structure/b-str/s26.png') }}" />
 
 
         <p class="note">Note: Encourage and assist the children to connect the pieces as it may
             be hard for them to fix the pieces.</p>
     </div>
     {{-- slide 35 --}}
-    <div class="slide hidden  flex flex-col justify-start items-center  gap-4 ">
+    <div class="slide hidden  flex flex-col justify-start items-center  ">
 
 
 
@@ -497,30 +484,23 @@
             it and fold it back when you are done!</h2>
 
 
-        <img src="/assets/images/N2/structure/b-str/s27.png" />
+        <img src="{{ asset('assets/images/N2/structure/b-str/s27.png') }}" />
 
 
         <p class="note">Note: The fire engine’s ladder is called a turntable ladder.</p>
     </div>
     {{-- slide 36 --}}
-    <div class="slide hidden  flex flex-col justify-start items-center  gap-[10rem] ">
-
-
-
+    <div class="slide hidden  flex flex-col justify-between h-[50vh] items-center  ">
         <h2 class="title stroke !text-white">Group Activity 2</h2>
         <h2 class="title stroke !text-start ">Mission: <br>
             Make another big vehicle.</h2>
-
-
-
-
         <p class="note">Note: Children can choose any big vehicles they like.
             Assist children in identifying the shapes on the vehicles and picking out the parts for the shapes.</p>
     </div>
 
 
     {{-- slide 37 --}}
-    <div class="slide hidden  flex flex-col justify-start items-center  gap-5 ">
+    <div class="slide hidden  flex flex-col justify-start items-center  ">
 
 
 
@@ -529,31 +509,23 @@
             to create in your learning journal.</h2>
 
 
-        <img src="/assets/images/N2/structure/b-str/s28.png" />
+        <img src="{{ asset('assets/images/N2/structure/b-str/s28.png') }}" />
 
 
     </div>
     {{-- slide 38 --}}
-    <div class="slide hidden  flex flex-col justify-start items-center  gap-5 ">
-
-
-
+    <div class="slide hidden  flex flex-col justify-start items-center  ">
         <h2 class="title stroke !text-start">Steps: <br>
             2.Identify the shapes on the vehicle. <br>
             3.Find the pieces/blocks needed to form the shapes. <br>
             4.Combine the parts together. <br>
             5.Take a photo of your creation. <br>
             6.Paste it in your learning journal.</h2>
-
-
-
-
     </div>
+
+
     {{-- slide 39 --}}
-    <div class="slide hidden  flex flex-col justify-start items-center  gap-[10rem] ">
-
-
-
+    <div class="slide hidden  flex flex-col justify-between h-[50vh] items-center  ">
         <h2 class="title stroke !text-start">Guided Questions During Group Activity
             1. What vehicle did you choose?<br>
             2.What shapes do you see on the vehicle? Can you point out<br>
@@ -563,22 +535,18 @@
 
         <p class="note">Note: Teacher can encourage children to build a bigger structure of their vehicle
             by using more pieces of the contraction set.</p>
-
-
-
-
     </div>
 
     {{-- sldie 40  --}}
 
 
-     <div class="slide hidden  flex flex-col justify-start items-center  gap-5 ">
+    <div class="slide hidden  flex flex-col justify-start items-center  ">
 
 
-         <img src="/assets/images/N2/structure/b-str/s12.png" />
+        <img src="{{ asset('assets/images/N2/structure/b-str/s12.png') }}" />
 
         <h2 class="title stroke ">We learned that big <span class="!text-white">vehicles</span> have big wheels
-and they can carry <span class="!text-white">heavy</span> loads.</h2>
+            and they can carry <span class="!text-white">heavy</span> loads.</h2>
 
 
 
@@ -587,13 +555,13 @@ and they can carry <span class="!text-white">heavy</span> loads.</h2>
     {{-- sldie 40  --}}
 
 
-     <div class="slide hidden  flex flex-col justify-start items-center  gap-5 ">
+    <div class="slide hidden  flex flex-col justify-start items-center  ">
 
 
-         <img src="/assets/images/N2/structure/b-str/s12.png" />
+        <img src="{{ asset('assets/images/N2/structure/b-str/s12.png') }}" />
 
         <h2 class="title stroke ">Big <span class="!text-white">vehicle</span> are structures too.
-They have their own designs and shape structures.</h2>
+            They have their own designs and shape structures.</h2>
 
 
 
@@ -601,98 +569,43 @@ They have their own designs and shape structures.</h2>
     </div>
 
 
-     {{-- slide 37 --}}
-    <div class="slide hidden  flex flex-col justify-start items-center  gap-5 ">
+    {{-- slide 37 --}}
+    <div class="slide hidden  flex flex-col justify-start items-center  ">
 
 
 
         <h2 class="title stroke !text-white font-bold">Learning Journal </h2>
 
 
-        <img src="/assets/images/N2/structure/b-str/s29.png" />
-
+        <img src="{{ asset('assets/images/N2/structure/b-str/s29.png') }}" />
 
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     {{-- ====================================== --}}
     {{-- Buttons --}}
     <div class="down-btn-container">
-        <button
-         class="doneButton">
- <img src="{{ asset('assets/images/pptimages/done.png') }}" />
+        <button class="doneButton">
+            <img src="{{ asset('assets/images/pptimages/done.png') }}" />
         </button>
     </div>
 
     <div id="buttons" class="absolute  flex flex-row ">
         <!-- Return Button -->
         <a id="returnButton">
- <img
-    src="{{ asset('assets/images/pptimages/return.png') }}" />
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
 
         <!-- Home Button -->
-        <button
-     id="homeButton">
-            <img 
-                src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
         <button id="closeButton">
-           
-            <img 
-                src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-    
+
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
+
         </button>
 
     </div>
@@ -700,9 +613,8 @@ They have their own designs and shape structures.</h2>
     {{-- next Button --}}
     <div class="down-btn-container">
 
-        <button
-            class="nextButton ">
-                        <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
+        <button class="nextButton ">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
 
         </button>
     </div>
@@ -719,7 +631,7 @@ They have their own designs and shape structures.</h2>
             const slides = document.querySelectorAll(".slide");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
-            const doneButton = document.querySelector(".doneButton"); // ✅ DONE button
+            const doneButton = document.querySelector(".doneButton"); //   DONE button
 
             let currentSlide = 0;
 
@@ -728,7 +640,7 @@ They have their own designs and shape structures.</h2>
                     slide.classList.toggle("hidden", i !== index);
                 });
 
-                // ✅ Agar last slide hai → NEXT button hide, DONE show
+                //   Agar last slide hai → NEXT button hide, DONE show
                 if (index === slides.length - 1) {
                     nextButtons.forEach(btn => btn.classList.add("hidden"));
                     if (doneButton) doneButton.classList.remove("hidden");
@@ -738,7 +650,7 @@ They have their own designs and shape structures.</h2>
                 }
             }
 
-            // ✅ NEXT buttons listener
+            //   NEXT buttons listener
             nextButtons.forEach((btn) => {
                 btn.addEventListener("click", () => {
                     if (currentSlide < slides.length - 1) {
@@ -748,24 +660,24 @@ They have their own designs and shape structures.</h2>
                 });
             });
 
-           // ✅ Return button - redirect if on first slide
-returnButton.addEventListener("click", () => {
-    if (currentSlide === 0) {
-        // Redirect to route when on first slide
-        window.location.href = "{{ route('YourRouteName') }}";  
-    } else if (currentSlide > 0) {
-        currentSlide--;
-        showSlide(currentSlide);
-    }
-});
+            //   Return button - redirect if on first slide
+            returnButton.addEventListener("click", () => {
+                if (currentSlide === 0) {
+                    // Redirect to route when on first slide
+                    window.location.href = "{{ route('BigstructureSelection') }}";
+                } else if (currentSlide > 0) {
+                    currentSlide--;
+                    showSlide(currentSlide);
+                }
+            });
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('CarstructureSelection') }}";
+                    window.location.href = "{{ route('BigstructureSelection') }}";
                 });
             }
 
-            // ✅ Start with first slide
+            //   Start with first slide
             showSlide(currentSlide);
         });
     </script>

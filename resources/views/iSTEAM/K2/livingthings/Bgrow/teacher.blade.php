@@ -23,7 +23,7 @@
         <div class="flex w-[100%] items-center justify-between ">
             <div>
                 <h2 class="text-[33px] font-bold">Keywords:</h2>
-                <div class="flex gap-20">
+                <div >
                     <ul class="list-disc ">
                         <li>Living Thing</li>
                         <li>Bacteria</li>
@@ -121,7 +121,7 @@
                     mingles with it and produces body odour.</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute right-[250px] bottom-[150px]" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" />
     </div>
 
 
@@ -144,7 +144,7 @@
 
 
     {{-- Buttons --}}
-    <div id="buttons" class="absolute top-0 right-[60px] flex flex-row gap-6 z-90">
+    <div id="buttons" class="absolute  flex flex-row gap-6 z-90">
 
         <!-- Return Button -->
         <a class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
@@ -206,7 +206,7 @@
             const slides = document.querySelectorAll(".slide");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
-            const doneButton = document.querySelector(".doneButton"); // ✅ DONE button
+            const doneButton = document.querySelector(".doneButton"); //   DONE button
 
             let currentSlide = 0;
 
@@ -215,7 +215,7 @@
                     slide.classList.toggle("hidden", i !== index);
                 });
 
-                // ✅ Agar last slide hai → NEXT button hide, DONE show
+                //   Agar last slide hai → NEXT button hide, DONE show
                 if (index === slides.length - 1) {
                     nextButtons.forEach(btn => btn.classList.add("hidden"));
                     if (doneButton) doneButton.classList.remove("hidden");
@@ -225,7 +225,7 @@
                 }
             }
 
-            // ✅ NEXT buttons listener
+            //   NEXT buttons listener
             nextButtons.forEach((btn) => {
                 btn.addEventListener("click", () => {
                     if (currentSlide < slides.length - 1) {
@@ -235,13 +235,17 @@
                 });
             });
 
-            // ✅ Return button
-            returnButton.addEventListener("click", () => {
-                if (currentSlide > 0) {
-                    currentSlide--;
-                    showSlide(currentSlide);
-                }
-            });
+              //   Return button - redirect if on first slide, otherwise go back
+        returnButton.addEventListener("click", () => {
+            if (currentSlide === 0) {
+                //   First slide pe hai →  
+                window.location.href = "{{ route('YourRouteNameHere') }}";
+            } else {
+                //   Previous slide pe jao
+                currentSlide--;
+                showSlide(currentSlide);
+            }
+        });
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {

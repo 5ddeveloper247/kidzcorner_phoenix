@@ -17,7 +17,7 @@
 
         <div class="flex flex-col  items-start justify-between">
             <h2 class="t-title font-bold">Keywords:</h2>
-            <div class="flex gap-20">
+            <div >
                 <ul class="list-disc ">
                     <li>Programming Block</li>
                     <li>Forward</li>
@@ -188,7 +188,7 @@
                     </li>
                 </ul>
             </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute right-[250px] bottom-[150px]"
+            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1"
                 alt="Teacher" />
         </div>
     </div>
@@ -201,13 +201,13 @@
             <div class="space-y-20">
                 <ul>
                     <h2 class="!text-white title stroke">Story Coding Challenge</h2>
-                    <h2>What and how to set up:</h2>
+                    <h2 class="t-title">What and how to set up:</h2>
                     <li>Create a short story for children to code based on a storyline (e.g .:
                         a day itinerary at zoo, picking up things in a supermarket based on a shopping list).</li>
                 </ul>
 
                 <ul>
-                    <h2>What to do:</h2>
+                    <h2 class="t-title">What to do:</h2>
                     <li>Guide children to plan a route for a robot to find matching cards
                         on the mat. After that, programming a robot to move according to the planned route.</li>
                 </ul>
@@ -226,7 +226,7 @@
         </button>
     </div>
 
-    <div id="buttons" class="absolute top-0 right-[60px] flex flex-row gap-6 z-90">
+    <div id="buttons" class="absolute  flex flex-row gap-6 z-90">
 
         <!-- Return Button -->
         <a id="returnButton">
@@ -272,7 +272,7 @@
             const slides = document.querySelectorAll(".slide");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
-            const doneButton = document.querySelector(".doneButton"); // ✅ DONE button
+            const doneButton = document.querySelector(".doneButton"); //   DONE button
 
             let currentSlide = 0;
 
@@ -281,7 +281,7 @@
                     slide.classList.toggle("hidden", i !== index);
                 });
 
-                // ✅ Agar last slide hai → NEXT button hide, DONE show
+                //   Agar last slide hai → NEXT button hide, DONE show
                 if (index === slides.length - 1) {
                     nextButtons.forEach(btn => btn.classList.add("hidden"));
                     if (doneButton) doneButton.classList.remove("hidden");
@@ -291,7 +291,7 @@
                 }
             }
 
-            // ✅ NEXT buttons listener
+            //   NEXT buttons listener
             nextButtons.forEach((btn) => {
                 btn.addEventListener("click", () => {
                     if (currentSlide < slides.length - 1) {
@@ -301,13 +301,17 @@
                 });
             });
 
-            // ✅ Return button
-            returnButton.addEventListener("click", () => {
-                if (currentSlide > 0) {
-                    currentSlide--;
-                    showSlide(currentSlide);
-                }
-            });
+              //   Return button - redirect if on first slide, otherwise go back
+        returnButton.addEventListener("click", () => {
+            if (currentSlide === 0) {
+                //   First slide pe hai →  
+                window.location.href = "{{ route('YourRouteNameHere') }}";
+            } else {
+                //   Previous slide pe jao
+                currentSlide--;
+                showSlide(currentSlide);
+            }
+        });
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {

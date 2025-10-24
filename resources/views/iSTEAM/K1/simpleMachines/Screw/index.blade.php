@@ -1,45 +1,39 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
- 
+
 @section('content')
 
-    <div id="topDiv" class="flex flex-col  h-[90%] justify-between items-center ">
+    <div id="topDiv" class="flex flex-col   justify-between items-center ">
         <div class="indexTitle  text-[55px]  stroke">How Does a Screw Work?</div>
-        <h2
-            class="text-2xl sm:text-3xl lg:text-6xl text-white max-w-5xl leading-snug flex flex-col items-center space-x-[30px]">
+        <h2 class=" text-white ">
             Explore a Rube Goldberg Machine and uses
             of a simple machine - Screw</h2>
 
-        <button
-            class="nextButton">
- <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
+        <button class="nextButton">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
         </button>
 
     </div>
 
 
 
- <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
+    <div id="buttons" class="absolute  flex flex-row gap-6 ">
 
         <!-- Return Button -->
-        <button
-        id="returnButton">
-            <img 
-                src="{{ asset('assets/images/pptimages/return.png') }}" />
+        <button id="returnButton">
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </button>
 
         <!-- Home Button -->
-        <button
-          id="homeButton">
-            <img 
-                src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
         <button id="closeButton">
-           
-<img  src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-   
+
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
+
         </button>
 
     </div>

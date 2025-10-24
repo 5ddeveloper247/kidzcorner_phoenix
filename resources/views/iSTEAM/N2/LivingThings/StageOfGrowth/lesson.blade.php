@@ -51,7 +51,7 @@
 
     {{-- slide 6 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <video id="video1" class="w-full max-w-4xl pointer-events-none">
+        <video id="video1" class="pointer-events-none">
             <source src="{{ asset('assets/images/N2/LivingThings/1.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -75,7 +75,7 @@
 
     {{-- slide 8 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <video id="video2" class="w-full max-w-4xl pointer-events-none">
+        <video id="video2" class="pointer-events-none">
             <source src="{{ asset('assets/images/N2/LivingThings/2.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -90,7 +90,7 @@
 
     {{-- slide 9 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <video id="video3" class="w-full max-w-4xl pointer-events-none">
+        <video id="video3" class="pointer-events-none">
             <source src="{{ asset('assets/images/N2/LivingThings/3.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -106,7 +106,7 @@
     {{-- slide 10 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="title stroke">Third Stage</h2>
-        <video id="video4" class="w-full max-w-4xl pointer-events-none">
+        <video id="video4" class="pointer-events-none">
             <source src="{{ asset('assets/images/N2/LivingThings/4.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -122,7 +122,7 @@
     {{-- slide 11 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="title stroke">Forth Stage</h2>
-        <video id="video5" class="w-full max-w-4xl pointer-events-none">
+        <video id="video5" class="pointer-events-none">
             <source src="{{ asset('assets/images/N2/LivingThings/5.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -145,7 +145,7 @@
 
     {{-- slide 13 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <video id="video6" class="w-full max-w-4xl pointer-events-none">
+        <video id="video6" class="pointer-events-none">
             <source src="{{ asset('assets/images/N2/LivingThings/6.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -287,7 +287,7 @@
                 <li>9. Put the stalk of the leaf into the hole on the cover.</li>
             </ul>
         </div>
-        <video id="video7" class="w-full max-w-4xl pointer-events-none">
+        <video id="video7" class="pointer-events-none">
             <source src="{{ asset('assets/images/N2/LivingThings/7.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -429,7 +429,7 @@
     </div>
 
     {{-- Buttons --}}
-    <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
+    <div id="buttons" class="absolute  flex flex-row gap-6 ">
 
         <!-- Return Button -->
         <a id="returnButton">

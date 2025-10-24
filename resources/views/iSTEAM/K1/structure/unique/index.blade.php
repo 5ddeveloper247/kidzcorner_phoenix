@@ -3,7 +3,7 @@
  
 @section('content')
 
-    <div id="topDiv" class="flex flex-col  h-[90%] items-center ">
+    <div id="topDiv" class="flex flex-col   items-center ">
         <div class="indexTitle  text-[55px]  stroke">Unique Buildings</div>
         <h2 class="text-2xl sm:text-3xl lg:text-5xl text-white stroke ">
         Explore and learn about some buildings 
@@ -24,7 +24,7 @@ design and build a unique building</h2>
 
 
 
- <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
+ <div id="buttons" class="absolute  flex flex-row gap-6 ">
 
         <!-- Return Button -->
         <button

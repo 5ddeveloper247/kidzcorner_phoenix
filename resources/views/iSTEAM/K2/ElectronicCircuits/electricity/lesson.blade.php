@@ -215,7 +215,7 @@
     <div class="slide hidden flex flex-col items-center gap-3 ">
         <div class="flex items-center gap-3">
             <img src="{{ asset('assets/images/K2/circuit/ecity/e8.png') }}" />
-            <video id="video4" class="w-full max-w-4xl pointer-events-none">
+            <video id="video4" class="pointer-events-none">
                 <source src="{{ asset('assets/images/K2/circuit/ecity/310.mp4') }}" type="video/mp4">
                 Your browser does not support the video tag.
             </video>

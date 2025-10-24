@@ -3,10 +3,10 @@
 
 @section('content')
 
-    <div id="topDiv" class="flex flex-col items-center gap-[7rem] ">
+    <div id="topDiv" class="flex flex-col items-center  ">
         <h2 class="  text-amber-300 text-[65px] font-extrabold stroke">Structures in a City</h2>
         <h2 class="!text-white title">Plan and design a city; <br>
-            create buildings and vehicles of various <br>
+            create buildings and vehicles of various
             structures.</h2>
 
         <button
@@ -20,7 +20,7 @@
 
 
 
-    <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
+    <div id="buttons" class="absolute  flex flex-row gap-6 ">
         <!-- Return Button -->
         <button
         id="returnButton">

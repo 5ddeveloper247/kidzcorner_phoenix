@@ -196,7 +196,7 @@
 
     {{-- slide 24 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <video id="video1" class="w-full max-w-4xl pointer-events-none">
+        <video id="video1" class="pointer-events-none">
             <source src="{{ asset('assets/images/K2/aero/evo/219.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -277,7 +277,7 @@
     </div>
 
 
- <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
+ <div id="buttons" class="absolute  flex flex-row gap-6 ">
         <!-- Return Button -->
         <a class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] " id="returnButton">
             <img class="absolute top-[6px] left-[8px] w-20 h-10"

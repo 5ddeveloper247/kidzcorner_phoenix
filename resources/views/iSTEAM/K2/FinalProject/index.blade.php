@@ -18,7 +18,7 @@
     </div>
 
     {{--  Top Buttons --}}
-    <div id="buttons" class="absolute top-0 right-[60px] flex flex-row gap-6 z-90">
+    <div id="buttons" class="absolute  flex flex-row gap-6 z-90">
 
         <!-- Return Button (hidden initially) -->
         <a id="returnButton" href="{{route('K2')}}">

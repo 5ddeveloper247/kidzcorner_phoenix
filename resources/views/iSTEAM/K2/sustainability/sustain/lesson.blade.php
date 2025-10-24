@@ -519,7 +519,7 @@ making natural resources sustainable.</h2>
     </div>
 
 
- <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
+ <div id="buttons" class="absolute  flex flex-row gap-6 ">
 
         <!-- Return Button -->
         <a id="returnButton">

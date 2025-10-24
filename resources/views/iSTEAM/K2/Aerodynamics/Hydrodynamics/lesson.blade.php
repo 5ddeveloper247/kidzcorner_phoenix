@@ -121,7 +121,7 @@
                     <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
                     <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
                 </div>
-                <video id="video1" class="w-full max-w-4xl pointer-events-none">
+                <video id="video1" class="pointer-events-none">
                     <source src="{{ asset('assets/images/K2/aero/hydro/215.mp4') }}" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
@@ -134,7 +134,7 @@
                     <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
                     <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
                 </div>
-                <video id="video2" class="w-full max-w-4xl pointer-events-none">
+                <video id="video2" class="pointer-events-none">
                     <source src="{{ asset('assets/images/K2/aero/hydro/216.mp4') }}" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
@@ -199,7 +199,7 @@
 
     {{-- Slide 21 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <video id="video3" class="w-full max-w-4xl pointer-events-none">
+        <video id="video3" class="pointer-events-none">
             <source src="{{ asset('assets/images/K2/aero/hydro/217.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -214,7 +214,7 @@
 
     {{-- Slide 22 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <video id="video4" class="w-full max-w-4xl pointer-events-none">
+        <video id="video4" class="pointer-events-none">
             <source src="{{ asset('assets/images/K2/aero/hydro/218.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -295,7 +295,7 @@
     </div>
 
 
- <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
+ <div id="buttons" class="absolute  flex flex-row gap-6 ">
 
         <!-- Return Button -->
         <a id="returnButton">

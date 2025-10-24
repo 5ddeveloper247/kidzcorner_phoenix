@@ -153,7 +153,7 @@
             How are the shadows different?
         </h2>
         <img src="{{ asset('assets/images/pptimages/gl5.png') }}" />
-        <p class="note leading-snug text-wrap">Note: Guide and encourage children to answer.</p>
+        <p class="note   text-wrap">Note: Guide and encourage children to answer.</p>
     </div>
 
     <!-- Slide 16 -->
@@ -169,7 +169,7 @@
     <div class="slide hidden flex flex-col items-center justify-center">
         <h2 class="stroke justify-start text-center title">Why are the shadows different?</h2>
         <img src="{{ asset('assets/images/pptimages/gl5.png') }}" />
-        <p class="note leading-snug text-wrap">Note: Guide and encourage children to share their thoughts.</p>
+        <p class="note   text-wrap">Note: Guide and encourage children to share their thoughts.</p>
     </div>
 
     <!-- Slide 18 -->
@@ -181,7 +181,7 @@
             Let's find out: <br />
             What changes the size of the shadows?
         </h2>
-        <p class="note leading-snug text-wrap">Note: Teacher to prepapre materials for each group to explore.</p>
+        <p class="note   text-wrap">Note: Teacher to prepapre materials for each group to explore.</p>
     </div>
 
     <!-- Slide 19 -->

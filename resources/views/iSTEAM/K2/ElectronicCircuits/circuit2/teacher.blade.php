@@ -126,7 +126,7 @@
                     </li>
                 </ul>
             </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute right-[250px] bottom-[150px]"
+            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1"
                 alt="Teacher" />
         </div>
     </div>
@@ -139,7 +139,7 @@
         </button>
     </div>
 
-    <div id="buttons" class="absolute top-0 right-[60px] flex flex-row gap-6 z-90">
+    <div id="buttons" class="absolute  flex flex-row gap-6 z-90">
 
         <!-- Return Button -->
         <a 
@@ -185,7 +185,7 @@
 
             let currentSlide = 0;
 
-            // ✅ Configure your return route here (when on first slide)
+            //   Configure your return route here (when on first slide)
             const returnRouteFromFirstSlide = "{{ route('circuit2Selection') }}";
 
             function showSlide(index) {
@@ -193,7 +193,7 @@
                     slide.classList.toggle("hidden", i !== index);
                 });
 
-                // ✅ If last slide → hide NEXT, show DONE
+                //   If last slide → hide NEXT, show DONE
                 if (index === slides.length - 1) {
                     nextButtons.forEach(btn => btn.classList.add("hidden"));
                     if (doneButton) doneButton.classList.remove("hidden");
@@ -203,7 +203,7 @@
                 }
             }
 
-            // ✅ NEXT button - go to next slide
+            //   NEXT button - go to next slide
             nextButtons.forEach((btn) => {
                 btn.addEventListener("click", () => {
                     if (currentSlide < slides.length - 1) {
@@ -213,7 +213,7 @@
                 });
             });
 
-            // ✅ RETURN button - go back OR navigate to route if on first slide
+            //   RETURN button - go back OR navigate to route if on first slide
             returnButton.addEventListener("click", () => {
                 // If on first slide (slide 0), navigate to return route
                 if (currentSlide === 0) {
@@ -226,7 +226,7 @@
                 showSlide(currentSlide);
             });
 
-            // ✅ DONE button - navigate to completion route
+            //   DONE button - navigate to completion route
             if (doneButton) {
                 doneButton.addEventListener("click", () => {
                     window.location.href = "{{ route('k2ElectronicCircuits') }}";

@@ -6,7 +6,7 @@
     <div id="topDiv" class="flex flex-col items-center ">
         <div class="indexTitle  text-[55px]  stroke">The Stages of Growth of a Butterfly</div>
         <h2
-            class="text-2xl sm:text-3xl lg:text-6xl text-white max-w-5xl leading-snug flex flex-col items-center space-x-[30px]">
+            class="text-2xl sm:text-3xl lg:text-6xl text-white    flex flex-col items-center space-x-[30px]">
             Learn about the stages of growth of animals</h2>
         <button
                class="nextButton" >       <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
@@ -18,7 +18,7 @@
 
 
 
- <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
+ <div id="buttons" class="absolute  flex flex-row gap-6 ">
 
         <!-- Return Button -->
         <button

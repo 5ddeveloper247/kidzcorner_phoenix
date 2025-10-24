@@ -676,7 +676,7 @@
 
             // Done button
             doneBtn.addEventListener("click", () => {
-                window.location.href = "{{ route('Structures') }}";
+                window.location.href = "{{ route('n2buildingSelection') }}";
             });
 
             // Start at first slide

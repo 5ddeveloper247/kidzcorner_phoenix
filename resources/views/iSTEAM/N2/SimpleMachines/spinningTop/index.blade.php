@@ -7,7 +7,7 @@
     <div id="topDiv" class="flex flex-col items-center h-full justify-between ">
         <div class="indexTitle  text-[55px]  stroke">A Spinning Top</div>
         <h2
-            class="text-2xl sm:text-3xl lg:text-6xl text-white max-w-5xl leading-snug flex flex-col items-center space-x-[30px]">
+            class="text-2xl sm:text-3xl lg:text-6xl text-white    flex flex-col items-center space-x-[30px]">
             Explore the characteristics and uses of wheel and axles - a simple machine; build a pinwheel based on a
             pictorial guide.</h2>
         <button class="nextButton">

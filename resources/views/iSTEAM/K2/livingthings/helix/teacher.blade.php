@@ -18,7 +18,7 @@
 
         <div class="flex flex-col  items-start justify-between">
             <h2 class="t-title font-bold">Keywords:</h2>
-            <div class="flex gap-20">
+            <div >
                 <ul class="list-disc ">
                     <li>Living Thing</li>
                     <li>DNA</li>
@@ -196,7 +196,7 @@
                     </li>
                 </ul>
             </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute right-[250px] bottom-[150px]"
+            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1"
                 alt="Teacher" />
         </div>
     </div>
@@ -208,13 +208,13 @@
         <div class="flex flex-col gap-10">
             <ul>
                 <h2 class="!text-white title stroke">DNA Charm</h2>
-                <h2>What and how to set up:</h2>
+                <h2 class="t-title">What and how to set up:</h2>
                 <li>Place things as listed in preparations and an instruction sheet (refer
                     to the attachment on the next page) here.</li>
             </ul>
 
             <div>
-                <h2>What to do:</h2>
+                <h2 class="t-title">What to do:</h2>
                 <ul class="list-decimal">
                     <li>Make a DNA charm as a gift for your family member.</li>
                     <li>If needed, you may refer to the instruction sheet while making the charm.</li>
@@ -251,7 +251,7 @@
         <div class="space-y-20">
             <div>
                 <h2 class="!text-white title stroke">Fun Facts</h2>
-                <h2>What and how to set up:</h2>
+                <h2 class="t-title">What and how to set up:</h2>
                 <p>Use your creativity to design graphic fact sheet for every fun fact
                     below. Guide children to understand the facts.</p>
             </div>
@@ -275,7 +275,7 @@
         <div class="space-y-20">
             <div>
                 <h2 class="!text-white title stroke">Let's Sing A Song</h2>
-                <h2>What to do:</h2>
+                <h2 class="t-title">What to do:</h2>
                 <ul class="list-decimal">
                     <li> Prepare lyrics poster for the song on the next page.</li>
                     <li>Guide children learn to sing the song to the tune of "She'll Be
@@ -330,7 +330,7 @@
         <div class="space-y-20">
             <div>
                 <h2 class="!text-white title stroke">Which Traits Of You Are Inherited?</h2>
-                <h2>What to do:</h2>
+                <h2 class="t-title">What to do:</h2>
                 <ul>
                     <li> Show and tell - Have children take turns to show their record
                         sheets and family photos. Have them share their findings: Which
@@ -379,7 +379,7 @@
         </button>
     </div>
 
-    <div id="buttons" class="absolute top-0 right-[60px] flex flex-row gap-6 z-90">
+    <div id="buttons" class="absolute  flex flex-row gap-6 z-90">
 
         <!-- Return Button -->
         <a id="returnButton">
@@ -425,7 +425,7 @@
             const slides = document.querySelectorAll(".slide");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
-            const doneButton = document.querySelector(".doneButton"); // ✅ DONE button
+            const doneButton = document.querySelector(".doneButton"); //   DONE button
 
             let currentSlide = 0;
 
@@ -434,7 +434,7 @@
                     slide.classList.toggle("hidden", i !== index);
                 });
 
-                // ✅ Agar last slide hai → NEXT button hide, DONE show
+                //   Agar last slide hai → NEXT button hide, DONE show
                 if (index === slides.length - 1) {
                     nextButtons.forEach(btn => btn.classList.add("hidden"));
                     if (doneButton) doneButton.classList.remove("hidden");
@@ -444,7 +444,7 @@
                 }
             }
 
-            // ✅ NEXT buttons listener
+            //   NEXT buttons listener
             nextButtons.forEach((btn) => {
                 btn.addEventListener("click", () => {
                     if (currentSlide < slides.length - 1) {
@@ -454,13 +454,17 @@
                 });
             });
 
-            // ✅ Return button
-            returnButton.addEventListener("click", () => {
-                if (currentSlide > 0) {
-                    currentSlide--;
-                    showSlide(currentSlide);
-                }
-            });
+              //   Return button - redirect if on first slide, otherwise go back
+        returnButton.addEventListener("click", () => {
+            if (currentSlide === 0) {
+                //   First slide pe hai →  
+                window.location.href = "{{ route('YourRouteNameHere') }}";
+            } else {
+                //   Previous slide pe jao
+                currentSlide--;
+                showSlide(currentSlide);
+            }
+        });
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {

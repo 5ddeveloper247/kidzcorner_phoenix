@@ -16,7 +16,7 @@
 
         <div class="flex flex-col  items-start justify-between">
             <h2 class="t-title font-bold">Keywords:</h2>
-            <div class="flex gap-20">
+            <div >
                 <ul class="list-disc ">
                     <li>Clean Energy</li>
                     <li>Solar Energy</li>
@@ -266,7 +266,7 @@ What to do:
                     </li>
                 </ul>
             </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute right-[250px] bottom-[150px]"
+            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1"
                 alt="Teacher" />
         </div>
     </div>
@@ -278,12 +278,12 @@ What to do:
         <div class="flex flex-col gap-10">
             <ul>
                 <h2 class="!text-white title stroke">Fingerprints Art</h2>
-                <h2>What and how to set up:</h2>
+                <h2 class="t-title">What and how to set up:</h2>
                 <li>Put some paints, sponges, coloured pencils and drawing papers here.</li>
             </ul>
 
             <div>
-                <h2>What to do:</h2>
+                <h2 class="t-title">What to do:</h2>
                 <ul class="list-decimal">
                     <li>Turn your fingerprints into art! Put your fingerprints on the
                         drawing paper.</li>
@@ -304,7 +304,7 @@ What to do:
         <div>
             <ul class="list-disc">
                 <h2 class="!text-white title stroke">Fun Facts</h2>
-                <h2>What and how to set up:</h2>
+                <h2 class="t-title">What and how to set up:</h2>
                 <p>Use your creativity to design graphic fact sheet for every fun fact
                     below. Guide children to understand the facts.</p>
                 <li>Fingerprints actually help you to grasp an object. Without them,
@@ -328,7 +328,7 @@ What to do:
         </button>
     </div>
 
-    <div id="buttons" class="absolute top-0 right-[60px] flex flex-row gap-6 z-90">
+    <div id="buttons" class="absolute  flex flex-row gap-6 z-90">
 
         <!-- Return Button -->
         <a id="returnButton">
@@ -374,7 +374,7 @@ What to do:
             const slides = document.querySelectorAll(".slide");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
-            const doneButton = document.querySelector(".doneButton"); // ✅ DONE button
+            const doneButton = document.querySelector(".doneButton"); //   DONE button
 
             let currentSlide = 0;
 
@@ -383,7 +383,7 @@ What to do:
                     slide.classList.toggle("hidden", i !== index);
                 });
 
-                // ✅ Agar last slide hai → NEXT button hide, DONE show
+                //   Agar last slide hai → NEXT button hide, DONE show
                 if (index === slides.length - 1) {
                     nextButtons.forEach(btn => btn.classList.add("hidden"));
                     if (doneButton) doneButton.classList.remove("hidden");
@@ -393,7 +393,7 @@ What to do:
                 }
             }
 
-            // ✅ NEXT buttons listener
+            //   NEXT buttons listener
             nextButtons.forEach((btn) => {
                 btn.addEventListener("click", () => {
                     if (currentSlide < slides.length - 1) {
@@ -403,13 +403,17 @@ What to do:
                 });
             });
 
-            // ✅ Return button
-            returnButton.addEventListener("click", () => {
-                if (currentSlide > 0) {
-                    currentSlide--;
-                    showSlide(currentSlide);
-                }
-            });
+              //   Return button - redirect if on first slide, otherwise go back
+        returnButton.addEventListener("click", () => {
+            if (currentSlide === 0) {
+                //   First slide pe hai →  
+                window.location.href = "{{ route('YourRouteNameHere') }}";
+            } else {
+                //   Previous slide pe jao
+                currentSlide--;
+                showSlide(currentSlide);
+            }
+        });
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {
