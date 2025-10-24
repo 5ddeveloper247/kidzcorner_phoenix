@@ -32,14 +32,14 @@
 
     {{-- slide 4 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/BasicCoding/bs1a.png') }}" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/bs1a.png') }}" class="large-img6" />
         <h2 class="stroke title">All these are directional signs. What do they have in common.</h2>
         <p class="note">Note: Guide children to spot the arrows in each directional signs.</p>
     </div>
 
     {{-- slide 5 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/BasicCoding/bs1a.png') }}" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/bs1a.png') }}" class="large-img6" />
         <h2 class="stroke title"><span class="text-white">Directional signs</span> have <span
                 class="text-white">arrows</span> that point in different <span class="text-white">directions</span>.</h2>
         <p class="note">Note: Guide children to spot the arrows in each arrow; use an index finger to point
@@ -50,7 +50,7 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <img src="{{ asset('assets/images/N2/BasicCoding/bs4.png') }}" />
         <h2 class="stroke title">This signboard has an <span class="text-white">arrow </span>pointing <span
-                class="text-white">left</span> to the washrooms.<br />So if you need the washroom, you should turn<span
+                class="text-white">left</span> to the washrooms. So if you need the washroom, you should turn<span
                 class="text-white"> left</span>.</h2>
     </div>
 
@@ -84,7 +84,7 @@
 
     {{-- slide 10 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/BasicCoding/bs1a.png') }}" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/bs1a.png') }}" class="large-img6" />
         <h2 class="stroke title"><span class="text-white">Directional signs</span> use
             <span class="text-white">arrows</span> to show us which way to go.<br />They give us
             <span class="text-white">instructions</span> on where to go.

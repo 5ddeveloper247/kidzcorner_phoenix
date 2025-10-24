@@ -64,7 +64,7 @@
 
     {{-- slide 8 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/LivingThings/lt4.png') }}" class="large-img4" />
+        <img src="{{ asset('assets/images/N2/LivingThings/lt4.png') }}" class="large-img6" />
         <h2 class="stroke title">Children, do you know how <span class="text-white">plants</span> grow?<br />Have you ever
             <span class="text-white">grown</span> a <span class="text-white">plant</span>? How does it change?
         </h2>
@@ -73,7 +73,7 @@
 
     {{-- slide 9 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/LivingThings/lt5.png') }}" class="large-img4" />
+        <img src="{{ asset('assets/images/N2/LivingThings/lt5.png') }}" class="large-img6" />
         <h2 class="stroke title">Most <span class="text-white">plants</span> grow from <span
                 class="text-white">seeds</span>.<br />For example: An orange <span class="text-white">tree</span> grows from
             an orange <span class="text-white">seed</span>.</h2>
@@ -132,7 +132,7 @@
 
     {{-- slide 17 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/LivingThings/gl15.png') }}" />
+        <img src="{{ asset('assets/images/N2/LivingThings/gl15.png') }}" class="large-img6" />
         <h2 class="stroke title">The seed grows and gets bigger in size. Its look changes it grows.</h2>
         <p class="note">Note: The plants may look different depending on the type of seeds planted.</p>
     </div>
@@ -211,7 +211,7 @@
                     push it into the center of the pot into the soil.</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/N2/LivingThings/lt19.png') }}" />
+        <img src="{{ asset('assets/images/N2/LivingThings/lt19.png') }}" class="large-img6" />
     </div>
 
     {{-- slide 21 --}}

@@ -74,22 +74,16 @@
 
 
     <div class=" flex items-center flex-col justify-center relative text-center z-[99] w-full">
-        <h2 class="text-[50px] text-[#F7B94A] absolute stroke top-[-120px]">Black Light</h2>
-        <div class="flex items-center gap-[15rem]">
-
+        <h2 class="text-[50px] text-[#F7B94A] absolute stroke">Black Light</h2>
+        <div class="flex items-center gap-[10vw]">
             {{-- Lesson Button --}}
             <a href="{{ route('blacklightLesson') }}" id="Lesson" class="flex flex-col gap-0">
                 <img src="/assets/images/pptimages/lesson-btn.png" />
-
-
-
             </a>
+
             {{-- Teacher Button --}}
             <a href="{{ route('blacklightTeacher') }}" id="Lesson" class="flex flex-col gap-0">
                 <img src="/assets/images/pptimages/teacher-btn.png" />
-
-
-
             </a>
         </div>
     </div>

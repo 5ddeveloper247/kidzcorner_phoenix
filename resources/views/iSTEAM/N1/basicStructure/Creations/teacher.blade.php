@@ -51,12 +51,12 @@
     <div class="text-white flex flex-col text-start text-2xl items-start slide hidden t-slide">
         <div>
             <h2 class="t-title">An example of a toy structure: <br>Teddy bear image and 3D head.</h2>
-            <img src="{{ asset('assets/images/pptimages/tr4.png') }}" alt="" class=" object-contain" />
+            <img src="{{ asset('assets/images/pptimages/tr4.png') }}" alt="" class=" object-contain large-img4" />
         </div>
 
         <div>
             <h2 class="t-title">Teddy bear 3D structure</h2>
-            <img src="{{ asset('assets/images/pptimages/tr3.png') }}" alt="" />
+            <img src="{{ asset('assets/images/pptimages/tr3.png') }}" class="large-img4"t="" />
 
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />

@@ -75,7 +75,7 @@
 
     <div class=" flex items-center flex-col justify-center text-center z-[99] w-full">
         <h2 class="text-[50px] text-[#F7B94A] stroke">Forming Shapes</h2>
-        <div class="flex items-center gap-[15rem]">
+        <div class="flex items-center gap-[10vw]">
 
             {{-- Lesson Button --}}
             <a href="{{ route('shapesLesson') }}" id="Lesson" class="flex flex-col gap-0">

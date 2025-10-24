@@ -75,20 +75,16 @@
 
     <div class=" flex items-center flex-col justify-center text-center z-[99] w-full">
         <h2 class="text-[50px] text-[#F7B94A] strok">My Creation</h2>
-        <div class="flex items-center gap-[15rem]">
+        <div class="flex items-center gap-[10vw]">
 
             {{-- Lesson Button --}}
             <a href="{{ route('CreationsLesson') }}" id="Lesson" class="flex flex-col gap-0">
                 <img src="/assets/images/pptimages/lesson-btn.png" />
-
-
             </a>
 
             {{-- Teacher Button --}}
             <a href="{{ route('CreationsTeacher') }}" id="Lesson" class="flex flex-col gap-0">
                 <img src="/assets/images/pptimages/teacher-btn.png" />
-
-
             </a>
         </div>
     </div>

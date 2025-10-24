@@ -7,7 +7,7 @@
 
     {{-- Slide 1 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/SimpleMachines/gl8.png') }}" alt="">
+        <img src="{{ asset('assets/images/N2/SimpleMachines/gl8.png') }}" class="large-img5" alt="">
         <h2 class="stroke title">Children, what did you build in the last lesson? How did you play with it? What can you use
             it for?</h2>
     </div>
@@ -15,7 +15,7 @@
 
     {{-- Slide 2 --}}
     <div class="slide flex flex-col items-center justify-center ">
-        <img src="{{ asset('assets/images/N2/SimpleMachines/b19.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/b19.png') }}" class="large-img5" />
         <h2 class="stroke title">You pushed the car to make it go forward.
             You read the scale to know how far it went forward. </h2>
         <!-- Video Trigger Button -->
@@ -28,7 +28,7 @@
 
     {{-- Slide 3 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/SimpleMachines/gl8.png') }}" alt="">
+        <img src="{{ asset('assets/images/N2/SimpleMachines/gl8.png') }}" class="large-img5" alt="">
         <h2 class="stroke title">It is measuring car. <br>
             You can use it to count how many units it goes forward.</h2>
     </div>
@@ -43,14 +43,14 @@
 
     {{-- slide 5 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/SimpleMachines/b20.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/b20.png') }}" class="large-img5" />
         <h2 class="title stroke">This is way to make a measuring car go very far when you give it a push.</h2>
     </div>
 
 
     {{-- slide 6 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/SimpleMachines/gl10.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/gl10.png') }}" class="large-img5" />
         <h2 class="title stroke">Do you know what this is?</h2>
         <p class="note">Note: Encourage children to boldly share their views.</p>
     </div>
@@ -58,13 +58,13 @@
 
     {{-- slide 7 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/SimpleMachines/gl9.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/gl9.png') }}" class="large-img5" />
         <h2 class="title stroke">This is a ramp. It is a slanting surface with one end higher than the other end.</h2>
     </div>
 
     {{-- slide 8 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/SimpleMachines/gl9.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/gl9.png') }}" class="large-img5" />
         <h2 class="stroke title">The <span class="text-white">ramp</span> looks like a shape.<br />It is a <span
                 class="text-white">simple machine</span> called an <span class="text-white">inclined plane</span>.</h2>
     </div>
@@ -72,7 +72,7 @@
 
     {{-- slide 9 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/SimpleMachines/gl9.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/gl9.png') }}" class="large-img5" />
         <h2 class="stroke title"><span class="text-white">Simple machines </span>are tools that help us to do work
             easily.<br />Let’s find out more about <span class="text-white">inclined planes!</span></h2>
     </div>
@@ -148,7 +148,7 @@
     {{-- sldie 15 --}}
     <div class="flex flex-col  slide hidden items-center">
         <h2 class="stroke title">Learning Journal</h2>
-        <img src="{{ asset('assets/images/N2/SimpleMachines/bb1.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/bb1.png') }}" class="large-img5" />
     </div>
 
 

@@ -168,7 +168,7 @@
             </ul>
         </div>
         <div class="flex items-center gap-10">
-            <img src="{{ asset('/assets/images/N2/SimpleMachines/a50.png') }}" class="w-[336px]" />
+            <img src="{{ asset('/assets/images/N2/SimpleMachines/a50.png') }}" class="large-img" />
             <img src="{{ asset('/assets/images/N2/SimpleMachines/a45.png') }}" class="large-img" />
         </div>
         <p class="note">Note: Demo to show children how to use the launcher. Have them practise using it in their
@@ -237,7 +237,7 @@
     <div class="flex flex-col items-center justify-center slide hidden">
 
         <h2 class="title stroke !text-white">Hands-on Time 2</h2>
-        <img src="{{ asset('/assets/images/N2/SimpleMachines/a52.png') }}" class="w-[550xp]" />
+        <img src="{{ asset('/assets/images/N2/SimpleMachines/a52.png') }}" class="aspect-[4/2]" />
         <div class="text-start">
 
             <h2 class="title stroke">Mission: <br>

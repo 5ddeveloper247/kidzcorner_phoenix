@@ -75,7 +75,7 @@
     {{-- slide 7 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
 
-        <img src="{{ asset('assets/images/N2/LivingThings/gl1.png') }}" />
+        <img src="{{ asset('assets/images/N2/LivingThings/gl1.png') }}" class="large-img6" />
         <h2 class="title stroke">This is Emma. <br>
             See how she has grown and changed over time.</h2>
         <p class="note">Note: Encourage children to describe the difference the see in the pictures.</p>
@@ -83,7 +83,7 @@
 
     {{-- slide 8 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/LivingThings/gl2.png') }}" />
+        <img src="{{ asset('assets/images/N2/LivingThings/gl2.png') }}" class="large-img6" />
 
         <h2 class="title stroke">This is the photo of Emma when she was a baby.</h2>
         <p class="note">Note: Introduce the stages of growth to children. Have them name each stage.</p>
@@ -91,7 +91,7 @@
 
     {{-- slide 9 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/LivingThings/gl3.png') }}" />
+        <img src="{{ asset('assets/images/N2/LivingThings/gl3.png') }}" class="large-img6" />
 
         <h2 class="stroke title">This is the photo of Emma when she was <span class="text-white">young</span>.<br />A young
             person is also called a <span class="text-white">child</span>.</h2>
@@ -100,7 +100,7 @@
 
     {{-- slide 10 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/LivingThings/gl4.png') }}" />
+        <img src="{{ asset('assets/images/N2/LivingThings/gl4.png') }}" class="large-img6" />
 
         <h2 class="title stroke">This is the photo of Emma when she became an adult.</h2>
         <p class="note">Note: Introduce the stages of growth to children. Have them name each stage.</p>
@@ -109,7 +109,7 @@
 
     {{-- slide 11 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/LivingThings/gl5.png') }}" />
+        <img src="{{ asset('assets/images/N2/LivingThings/gl5.png') }}" class="large-img6" />
 
         <h2 class="stroke title">This is the photo of Emma now.<br />She has grown much <span
                 class="text-white">older</span>. She is now an elderly <span class="text-white">person</span>.</h2>
@@ -119,7 +119,7 @@
 
     {{-- slide 12 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/LivingThings/gl6.png') }}" />
+        <img src="{{ asset('assets/images/N2/LivingThings/gl6.png') }}" class="large-img6" />
         <h2 class="stroke title">These are the stages of growth of a girl.</h2>
         <p class="note">Note: Explain to children that every girl goes through these stages of growth.</p>
     </div>
@@ -128,7 +128,7 @@
 
     {{-- slide 13 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/LivingThings/bl1.png') }}" />
+        <img src="{{ asset('assets/images/N2/LivingThings/bl1.png') }}" class="large-img6" />
         <h2 class="title stroke">This is Oliver. <br>
             See how he has grown and changed over time.</h2>
         <p class="note">Note: Encourage children to describe the difference the see in the pictures.</p>
@@ -136,14 +136,14 @@
 
     {{-- slide 14 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/LivingThings/bl2.png') }}" />
+        <img src="{{ asset('assets/images/N2/LivingThings/bl2.png') }}" class="large-img6" />
         <h2 class="title stroke">This is the photo of Oliver when he was a baby.</h2>
         <p class="note">Note: Explain to children that every boy goes through these stages of growth.</p>
     </div>
 
     {{-- slide 15 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/LivingThings/bl3.png') }}" />
+        <img src="{{ asset('assets/images/N2/LivingThings/bl3.png') }}" class="large-img6" />
         <h2 class="stroke title">This is the photo of Oliver when he was <span class="text-white">young</span>.<br />A
             young person is also called a <span class="text-white">child</span>.</h2>
         <p class="note">Note: Explain to children that every boy goes through these stages of growth.</p>
@@ -151,7 +151,7 @@
 
     {{-- slide 16 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/LivingThings/bl4.png') }}" />
+        <img src="{{ asset('assets/images/N2/LivingThings/bl4.png') }}" class="large-img6" />
         <h2 class="title stroke">This is the photo of Oliver when he became an adult.</h2>
         <p class="note">Note: Explain to children that every boy goes through these stages of growth.</p>
     </div>
@@ -159,7 +159,7 @@
 
     {{-- slide 17 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/LivingThings/bl5.png') }}" />
+        <img src="{{ asset('assets/images/N2/LivingThings/bl5.png') }}" class="large-img6" />
         <h2 class="stroke title">This is the photo of Oliver now.
             He has grown much older. He is now an elderly person.</h2>
         <p class="note">Note: Explain to children that every boy goes through these stages of growth.</p>
@@ -168,7 +168,7 @@
 
     {{-- slide 18 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/LivingThings/bl6.png') }}" />
+        <img src="{{ asset('assets/images/N2/LivingThings/bl6.png') }}" class="large-img6" />
         <h2 class="stroke title">These are the stages of growth of a boy.</h2>
         <p class="note">Note: Explain to children that every boy goes through these stages of growth.</p>
     </div>
@@ -179,7 +179,7 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="title !text-white stroke">Class Activity</h2>
         <p class="note">Paste your photos in the correct order to show how you have grown over time.</p>
-        <img src="{{ asset('assets/images/N2/LivingThings/bl7.png') }}" />
+        <img src="{{ asset('assets/images/N2/LivingThings/bl7.png') }}" class="large-img6" />
         <h2 class="title stroke text-start">Let’s find out: <br>
             How have you grown and changed over time?</h2>
     </div>
@@ -216,7 +216,7 @@
 
     {{-- slide 19 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/LivingThings/gl7.png') }}" />
+        <img src="{{ asset('assets/images/N2/LivingThings/gl7.png') }}" class="large-img6" />
         <h2 class="title stroke">Note: Invite children take turns to share their changes over time.</h2>
 
     </div>
@@ -302,7 +302,7 @@
 
     {{-- slide 26 --}}
     <div class="flex flex-col items-center slide hidden">
-        <img src="{{ asset('assets/images/N2/LivingThings/g10.png') }}" />
+        <img src="{{ asset('assets/images/N2/LivingThings/g10.png') }}" class="large-img6" />
         <h2 class="stroke title">We know that people and dogs are <span class="text-white">animals</span>.<br />We also
             know that <span class="text-white">animals</span> are <span class="text-white">living things</span>.</h2>
     </div>
@@ -310,7 +310,7 @@
 
     {{-- slide 27 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/LivingThings/gl8.png') }}" />
+        <img src="{{ asset('assets/images/N2/LivingThings/gl8.png') }}" class="large-img6" />
         <h2 class="title stroke">Note: Invite children take turns to share their changes over time.</h2>
 
     </div>
@@ -401,16 +401,16 @@
                 });
             });
 
-           // ✅ Return button - redirect if on first slide
-returnButton.addEventListener("click", () => {
-    if (currentSlide === 0) {
-        // Redirect to route when on first slide
-        window.location.href = "{{ route('YourRouteName') }}";  
-    } else if (currentSlide > 0) {
-        currentSlide--;
-        showSlide(currentSlide);
-    }
-});
+            // ✅ Return button - redirect if on first slide
+            returnButton.addEventListener("click", () => {
+                if (currentSlide === 0) {
+                    // Redirect to route when on first slide
+                    window.location.href = "{{ route('GrowthSelection') }}";
+                } else if (currentSlide > 0) {
+                    currentSlide--;
+                    showSlide(currentSlide);
+                }
+            });
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {

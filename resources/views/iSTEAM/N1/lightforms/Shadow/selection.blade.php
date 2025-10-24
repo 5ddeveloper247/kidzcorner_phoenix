@@ -74,8 +74,8 @@
 
 
     <div class=" flex items-center flex-col justify-center relative h-full text-center z-[99] w-full">
-        <h2 class="!text-[50px] text-[#F7B94A] absolute top-[-30px] stroke">Light and Shadow</h2>
-        <div class="flex items-center gap-[15rem]">
+        <h2 class="text-[#F7B94A] absolute top-[-30px] stroke">Light and Shadow</h2>
+        <div class="flex items-center gap-[10vw]">
 
             {{-- Lesson Button --}}
             <a href="{{ route('ShadowLesson') }}" id="Lesson" class="flex flex-col gap-0">

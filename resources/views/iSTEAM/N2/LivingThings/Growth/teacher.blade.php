@@ -193,7 +193,7 @@
 
 
     {{-- slide 7 --}}
-    <div class="text-white flex  flex-col text-start text-2xl slide hidden">
+    <div class="text-white flex t-slide flex-col text-start text-2xl slide hidden">
         <h2 class="!text-center title stroke">Learning Centre Idea</h2>
 
         <div>

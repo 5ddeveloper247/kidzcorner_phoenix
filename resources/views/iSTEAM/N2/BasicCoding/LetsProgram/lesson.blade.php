@@ -39,7 +39,7 @@
 
     {{-- slide 4 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/BasicCoding/bs11.png') }}" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/bs11.png') }}" class="large-img6" />
         <h2 class="title stroke text-center">So a <span class="text-white">programme</span> is the step-by-step
             <span class="text-white">instructions</span> that tell the <span class="text-white">machine</span> what to do.
         </h2>

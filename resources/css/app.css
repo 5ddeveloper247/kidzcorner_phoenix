@@ -18,28 +18,45 @@ body {
     }
 }
 
+.teacher-img1 {
+    bottom: 0px;
+    right: 0vw;
+    z-index: 100;
+    width: 20vw;
+    aspect-ratio: unset !important;
+}
+
 .slide {
     gap: 15px;
 
     img {
-        max-width: 30vw;
+        max-width: 25vw;
     }
 
     .large-img {
         max-width: 20vw !important;
+        aspect-ratio: 7/4 !important;
     }
     .large-img2 {
         max-width: 25vw !important;
+        aspect-ratio: 7/4 !important;
     }
     .large-img3 {
         max-width: 20vw !important;
         max-height: 32vh !important;
+        aspect-ratio: 7/4 !important;
     }
     .large-img4 {
         max-width: 15vw !important;
+        aspect-ratio: 7/4 !important;
     }
     .large-img5 {
         max-width: 43vw !important;
+        aspect-ratio: 7/2 !important;
+    }
+    .large-img6 {
+        max-width: 38vw !important;
+        aspect-ratio: 8/3 !important;
     }
 }
 
@@ -69,7 +86,7 @@ button {
 }
 
 .title {
-    font-size: 2vw;
+    font-size: 2vw !important;
     z-index: 100;
     color: #f7b94a;
     line-height: 100%;
@@ -97,9 +114,16 @@ button {
     width: 11vw;
 }
 
+#topDiv {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 3vw;
+}
+
 #topDiv div,
 #topDiv h2 {
-    font-size: 3vw;
+    font-size: 2.5vw !important;
 }
 
 #Lesson img {
@@ -143,15 +167,21 @@ video {
     ul,
     ol {
         font-size: 2vw;
-        padding-left: 2vw;
+        /* padding-left: 2vw; */
     }
-}
 
-.teacher-img1 {
-    bottom: 0px;
-    right: 0vw;
-    z-index: 100;
-    width: 20vw;
+    h2 {
+        margin-bottom: 1vw;
+    }
+
+    li {
+        /* margin-bottom: 1vw; */
+        /* font-size: 1.8vw; */
+    }
+
+    p {
+        line-height: 1.5vw;
+    }
 }
 
 .t-title {

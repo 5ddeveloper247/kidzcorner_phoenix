@@ -7,14 +7,14 @@
 
     {{-- Slide 1 --}}
     <div class="flex flex-col items-center justify-center gap-10 slide hidden">
-        <img src="/assets/images/N2/SimpleMachines/new6.png"  />
+        <img src="/assets/images/N2/SimpleMachines/new6.png" class="large-img6"  />
 
         <h2 class="stroke title">Children, what are these? Do you remember how to build each of these?</h2>
     </div>
 
     {{-- Slide 2 --}}
     <div class="flex flex-col items-center justify-center gap-10 slide hidden">
-        <img src="/assets/images/N2/SimpleMachines/new5.png"  />
+        <img src="/assets/images/N2/SimpleMachines/new5.png" class="large-img6"  />
         <h2 class="stroke title">Certain parts of these are made with a <span class="text-white">wheel</span> and <span
                 class="text-white">axle<br /></span>a type of <span class="text-white">simple machine</span>. What are they?
         </h2>

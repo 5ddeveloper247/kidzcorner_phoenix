@@ -6,59 +6,55 @@
     <div id="topDiv" class="flex flex-col  h-full justify-between items-center ">
         <h2 class="  text-[#F7B94A] stroke">Light and Shadow</h2>
         <h2 class=" stroke !text-white">
-            Explore how lights create shadows; <br>
+            Explore how lights create shadows;
             develop awareness of different types of shadows.
         </h2>
 
-            <button class="nextButton ">
-                <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
-            </button>
-        </div>
+        <button class="nextButton ">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
+        </button>
+    </div>
+
+    <div id="buttons" class="absolute  flex flex-row ">
+
+        <!-- Return Button -->
+        <button id="returnButton">
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
+        </button>
+
+        <!-- Home Button -->
+        <button id="homeButton">
+
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+        </button>
+
+        <!-- Close Button -->
+        <button id="closeButton">
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
+
+        </button>
+
+    </div>
 
 
+@endsection
 
+@push('script')
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const nextButton = document.querySelector(".nextButton");
+            const returnButton = document.getElementById("returnButton");
 
-
-        <div id="buttons" class="absolute  flex flex-row ">
-
-            <!-- Return Button -->
-            <button id="returnButton">
-                <img src="{{ asset('assets/images/pptimages/return.png') }}" />
-            </button>
-
-            <!-- Home Button -->
-            <button id="homeButton">
-
-                <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
-            </button>
-
-            <!-- Close Button -->
-            <button id="closeButton">
-                <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-
-            </button>
-
-        </div>
-
-
-    @endsection
-
-    @push('script')
-        <script>
-            document.addEventListener("DOMContentLoaded", () => {
-                const nextButton = document.querySelector(".nextButton");
-                const returnButton = document.getElementById("returnButton");
-
-                if (nextButton) {
-                    nextButton.addEventListener("click", () => {
-                        window.location.href = "{{ route('chooseShadow') }}";
-                    });
-                }
-                if (returnButton) {
-                    returnButton.addEventListener("click", () => {
-                        window.location.href = "{{ route('lightforms') }}";
-                    });
-                }
-            });
-        </script>
-    @endpush
+            if (nextButton) {
+                nextButton.addEventListener("click", () => {
+                    window.location.href = "{{ route('chooseShadow') }}";
+                });
+            }
+            if (returnButton) {
+                returnButton.addEventListener("click", () => {
+                    window.location.href = "{{ route('lightforms') }}";
+                });
+            }
+        });
+    </script>
+@endpush

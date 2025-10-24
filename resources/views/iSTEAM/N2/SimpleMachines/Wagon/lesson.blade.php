@@ -16,10 +16,8 @@
 
     {{-- slide 1 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-
         <h2 class="title stroke">These are building bricks. You can put them together to build something.</h2>
         <img src="{{ asset('assets/images/N2/SimpleMachines/a6.png') }}" />
-
     </div>
 
     {{-- slide 2 --}}
@@ -149,7 +147,6 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <video id="video1" class="w-full max-w-[42rem] pointer-events-none">
             <source src="{{ asset('assets/images/N2/SimpleMachines/1.mp4') }}" type="video/mp4">
-            Your browser does not support the video tag.
         </video>
         <h2 class="title stroke">When you pull the string,the wagon that is tied to the string moves.</h2>
         <!-- Video Trigger Button -->
@@ -162,7 +159,6 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <video id="video2" class="w-full max-w-[42rem] pointer-events-none">
             <source src="{{ asset('assets/images/N2/SimpleMachines/1.mp4') }}" type="video/mp4">
-            Your browser does not support the video tag.
         </video>
         <h2 class="title stroke">Why do you think the wagon moves easily? What does it have?</h2>
         <!-- Video Trigger Button -->
@@ -176,7 +172,6 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <video id="video3" class="w-full max-w-[42rem] pointer-events-none">
             <source src="{{ asset('assets/images/N2/SimpleMachines/2.mp4') }}" type="video/mp4">
-            Your browser does not support the video tag.
         </video>
         <h2 class="title stroke">Yes, the wagon moves easily because it has <span class="text-white">wheels</span> and axles
             that turn together.</h2>
@@ -200,7 +195,6 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <video id="video4" class="w-full max-w-[42rem] pointer-events-none">
             <source src="{{ asset('assets/images/N2/SimpleMachines/2.mp4') }}" type="video/mp4">
-            Your browser does not support the video tag.
         </video>
         <h2 class="stroke title">The<span class="text-white"> wheels</span> and <span class="text-white">axles</span>
             turn
@@ -217,7 +211,6 @@
     <div class="flex flex-col items-center justify-center  slide hidden">
         <video id="video5" class="w-full max-w-[42rem] pointer-events-none">
             <source src="{{ asset('assets/images/N2/SimpleMachines/1.mp4') }}" type="video/mp4">
-            Your browser does not support the video tag.
         </video>
         <h2 class="stroke title">What can you use the wagon for?</h2>
         <p class="note">Note: Encourage children to boldly share their views.</p>
@@ -232,7 +225,6 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <video id="video6" class="w-full max-w-[42rem] pointer-events-none">
             <source src="{{ asset('assets/images/N2/SimpleMachines/3.mp4') }}" type="video/mp4">
-            Your browser does not support the video tag.
         </video>
         <h2 class="stroke title">You can use it to move things around easily.</h2>
         <p class="note">Note: Invite chilren to use their wagons to transport things of different sizes and weights

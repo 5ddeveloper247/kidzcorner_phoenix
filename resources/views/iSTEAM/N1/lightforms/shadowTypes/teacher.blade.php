@@ -5,7 +5,7 @@
     {{-- slide 29 --}}
     <div class="flex flex-col justify-start text-start text-2xl text-white slide hidden t-slide">
         <div>
-            <h2 class="t-title >Children will be able to:</h2>
+            <h2 class="t-title" >Children will be able to:</h2>
             <ul class="list-disc">
                 <li>Develop awareness of different types of shadows</li>
                 <li>Explore materials and their shadows</li>
@@ -14,9 +14,10 @@
                 <li>Develop observation and understanding through hands-on activities</li>
             </ul>
         </div>
-        <div class="flex w-[100%]  justify-between">
+
+        <div class="flex w-[100%] justify-between">
             <div>
-                <h2 class="t-title >Keywords:</h2>
+                <h2 class="t-title" >Keywords:</h2>
                 <div class="flex items-center gap-x-10">
                     <ul class="list-disc">
                         <li>Black</li>
@@ -140,9 +141,6 @@
             <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="" />
         </div>
     </div>
-
-
-
 
     {{-- done Button --}}
     <div class="down-btn-container">

@@ -180,6 +180,7 @@
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
     </div>
 
+
     {{-- slide 7 --}}
     <div class="text-white flex  flex-col text-2xl slide hidden t-slide">
         <h2 class="!text-white text-cneter title stroke">Learning Centre Idea</h2>
@@ -284,7 +285,7 @@
             returnButton.addEventListener("click", () => {
                 if (currentSlide === 0) {
                     // Redirect to route when on first slide
-                    window.location.href = "{{ route('StageOfGrowthSelection') }}"; /
+                    window.location.href = "{{ route('StageOfGrowthSelection') }}";
                 } else if (currentSlide > 0) {
                     currentSlide--;
                     showSlide(currentSlide);

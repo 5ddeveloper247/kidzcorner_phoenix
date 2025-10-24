@@ -154,7 +154,7 @@
 
     {{-- slide 17 --}}
     <div class="flex flex-col  slide hidden items-center">
-        <img src="/assets/images/N2/SimpleMachines/gl3.png" />
+        <img src="/assets/images/N2/SimpleMachines/gl3.png" class="!max-w-[36vw] aspect-[5/2]" />
         <h2 class="title stroke">Let’s watch this video!</h2>
         <p class="note">Note: Demo using a car and guide children to “see” this point (what makes what to turn/move)</p>
         <!-- Video Trigger Button -->
@@ -167,7 +167,7 @@
 
     {{-- slide  18 --}}
     <div class="flex flex-col  slide hidden items-center">
-        <img src="/assets/images/N2/SimpleMachines/gl4.png" />
+        <img src="/assets/images/N2/SimpleMachines/gl4.png" class="!max-w-[36vw] aspect-[5/2]" />
         <h2 class="title stroke">Let’s watch this video!</h2>
         <p class="note">Note: Demo using a car and guide children to “see” this point (what makes what to turn/move)</p>
         <!-- Video Trigger Button -->
@@ -181,7 +181,7 @@
     {{-- slide 19 --}}
     <div class="flex flex-col  slide hidden items-center">
 
-        <img src="/assets/images/N2/SimpleMachines/gl5.png" />
+        <img src="/assets/images/N2/SimpleMachines/gl5.png" class="!max-w-[36vw] aspect-[5/2]" />
 
         <h2 class="title stroke">Let’s watch this video!</h2>
         <p class="note">Note: Demo using a car and guide children to “see” this point (what makes what to turn/move)</p>
@@ -195,7 +195,7 @@
     {{-- slide 20 --}}
     <div class="flex flex-col  slide hidden items-center">
 
-        <img src="/assets/images/N2/SimpleMachines/gl6.png" />
+        <img src="/assets/images/N2/SimpleMachines/gl6.png" class="!max-w-[36vw] aspect-[5/2]" />
         <h2 class="title stroke">Let’s watch this video!</h2>
         <p class="note">Note: Demo using a car and guide children to “see” this point (what makes what to turn/move)</p>
         <!-- Video Trigger Button -->
@@ -209,7 +209,7 @@
     {{-- slide 21 --}}
     <div class="flex flex-col  slide hidden items-center">
 
-        <img src="/assets/images/N2/SimpleMachines/gl7.png" />
+        <img src="/assets/images/N2/SimpleMachines/gl7.png" class="!max-w-[36vw] aspect-[5/2]" />
         <h2 class="title stroke">Let’s watch this video!</h2>
         <p class="note">Note: Demo using a car and guide children to “see” this point (what makes what to turn/move)</p>
         <!-- Video Trigger Button -->

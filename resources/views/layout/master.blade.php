@@ -31,7 +31,7 @@
         </div> --}}
 
         <div id="ajax-section"
-            class="flex items-center justify-center relative text-center w-full md:min-h-[70vh] max-w-[70vw] md:bg-size-[60vw] bg-no-repeat bg-center"
+            class="flex items-center justify-center relative text-center w-full px-[8vw] py-[3vw] md:min-h-[70vh] max-w-[70vw] md:bg-size-[60vw] bg-no-repeat bg-center"
             style="background-image: url('{{ asset('assets/images/pptimages/stoneboard.png') }}');">
             @yield('content')
         </div>

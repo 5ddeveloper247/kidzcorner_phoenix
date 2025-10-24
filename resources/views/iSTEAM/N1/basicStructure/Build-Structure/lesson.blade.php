@@ -9,7 +9,7 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="stroke title">Everything around us has a <span class="text-white">structure</span>.<br /><span
                 class="text-white">Structures</span> give the item its <span class="text-white">shapes</span>.</h2>
-        <img src="{{ asset('assets/images/pptimages/B-4.png') }}" />
+        <img src="{{ asset('assets/images/pptimages/B-4.png') }}" class="large-img5" />
     </div>
 
 

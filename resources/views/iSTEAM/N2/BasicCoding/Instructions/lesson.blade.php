@@ -44,7 +44,7 @@
 
     {{-- slide 5 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/BasicCoding/bs11.png') }}" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/bs11.png') }}" class="large-img6" />
         <h2 class="stroke title">Do you now how to wash your hands?
             What would you do step-by-step?</h2>
         <p class="note">Note: Guide children to understand each picture and then arrange the pictures in the correct
@@ -53,14 +53,14 @@
 
     {{-- slide 6 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/BasicCoding/bs12.png') }}" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/bs12.png') }}" class="large-img6" />
         <h2 class="stroke title">if you always repeat these 4 steps whenever you wash hands,
             these steps of washing hands are like a programme for you!</h2>
     </div>
 
     {{-- slide 7 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/BasicCoding/bs13.png') }}" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/bs13.png') }}" class="large-img6" />
         <h2 class="stroke title">So a <span class="text-white">programme</span> for <span class="text-white">machines</span>
             is like the steps to do things.</h2>
     </div>

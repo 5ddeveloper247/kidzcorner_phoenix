@@ -17,7 +17,7 @@
     {{-- Slide 2 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
 
-        <img src="{{ asset('assets/images/N2/LivingThings/gl6.png') }}" />
+        <img src="{{ asset('assets/images/N2/LivingThings/gl6.png') }}" class="large-img6" />
         <h2 class="stroke title">These are the stages of growth of a girl.</h2>
         <p class="note">Note: Explain to children that every girl goes through these stages of growth.</p>
     </div>
@@ -25,7 +25,7 @@
 
     {{-- Slide 3 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/LivingThings/gl8.png') }}" />
+        <img src="{{ asset('assets/images/N2/LivingThings/gl8.png') }}" class="large-img6" />
         <h2 class="title stroke">Note: Invite children take turns to share their changes over time.</h2>
 
     </div>
@@ -203,7 +203,7 @@
                     with teacher’s help.</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/N2/LivingThings/an53.png') }}" />
+        <img src="{{ asset('assets/images/N2/LivingThings/an53.png') }}" class="large-img6" />
         <p class="note">Note: If the caterpillar is not on the leaves, you can place a leaf/stick near to it to let it
             crawl onto it. Be gentle if you plan to transfer it by holding the caterpillar.</p>
     </div>
@@ -247,7 +247,7 @@
                     leaf with the caterpillar in the container.</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/N2/LivingThings/an56.png') }}" />
+        <img src="{{ asset('assets/images/N2/LivingThings/an56.png') }}" class="large-img6" />
 
     </div>
 
@@ -261,7 +261,7 @@
                     the water to the brim of the water holder and cover it</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/N2/LivingThings/an57.png') }}" class="large-img" />
+        <img src="{{ asset('assets/images/N2/LivingThings/an57.png') }}" class="large-img6" />
 
     </div>
 
@@ -275,8 +275,7 @@
                     Ensure that the stalk is intact.</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/N2/LivingThings/an58.png') }}" />
-
+        <img src="{{ asset('assets/images/N2/LivingThings/an58.png') }}" class="large-img6" />
     </div>
 
 
@@ -364,14 +363,14 @@
 
     {{-- slide 29 --}}
     <div class="flex flex-col items-center slide hidden">
-        <img src="{{ asset('assets/images/N2/LivingThings/gl9.png') }}" />
+        <img src="{{ asset('assets/images/N2/LivingThings/gl9.png') }}" class="large-img6" />
         <h2 class="stroke title">These are the stages of growth of a butterfly.</h2>
     </div>
 
 
     {{-- slide 20 --}}
     <div class="flex flex-col items-center slide hidden">
-        <img src="{{ asset('assets/images/N2/LivingThings/gl10.png') }}" />
+        <img src="{{ asset('assets/images/N2/LivingThings/gl10.png') }}" class="large-img6" />
         <h2 class="stroke title">Similar to you, the caterpillar also goes through the stages
             of growth. It gets bigger as it grows and its look changes.</h2>
     </div>
@@ -380,7 +379,7 @@
 
     {{-- slide 31 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/LivingThings/gl10.png') }}" />
+        <img src="{{ asset('assets/images/N2/LivingThings/gl10.png') }}" class="large-img6" />
         <h2 class="title stroke">Note: Invite children take turns to share their changes over time.</h2>
 
     </div>

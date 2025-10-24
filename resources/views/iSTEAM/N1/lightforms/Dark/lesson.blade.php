@@ -99,11 +99,11 @@
     <div class="flex flex-col items-center justify-center gap-3 slide hidden">
         <div class=" flex gap-10  ">
             <div class="flex flex-col items-center justify-center">
-                <h2 class="title stroke !text-[35px]">Clcok</h2>
+                <h2 class="title stroke">Clock</h2>
                 <img src="{{ asset('assets/images/pptimages/d5.png') }}" class="large-img" />
             </div>
             <div class="flex flex-col items-center justify-center">
-                <h2 class="title stroke !text-[35px]">Watch</h2>
+                <h2 class="title stroke">Watch</h2>
                 <img src="{{ asset('assets/images/pptimages/d6.png') }} " class="large-img" />
             </div>
         </div>
@@ -116,11 +116,11 @@
     <div class="flex flex-col items-center justify-center gap-3 slide hidden">
         <div class=" flex gap-10  ">
             <div class="flex flex-col items-center justify-center">
-                <h2 class="title stroke !text-[35px]">Clcok</h2>
+                <h2 class="title stroke">Clock</h2>
                 <img src="{{ asset('assets/images/pptimages/d7.png') }}" class="large-img" />
             </div>
             <div class="flex flex-col items-center justify-center">
-                <h2 class="title stroke !text-[35px]">Watch</h2>
+                <h2 class="title stroke">Watch</h2>
                 <img src="{{ asset('assets/images/pptimages/d8.png') }} " class="large-img" />
             </div>
         </div>
@@ -143,11 +143,11 @@
     <div class="flex flex-col items-center justify-center gap-3 slide hidden">
         <div class=" flex gap-10  ">
             <div class="flex flex-col items-center justify-center">
-                <h2 class="title stroke !text-[35px]">FireFly</h2>
+                <h2 class="title stroke">FireFly</h2>
                 <img src="{{ asset('assets/images/pptimages/d10.png') }}" class="large-img" />
             </div>
             <div class="flex flex-col items-center justify-center">
-                <h2 class="title stroke !text-[35px]">Jellyfish</h2>
+                <h2 class="title stroke">Jellyfish</h2>
                 <img src="{{ asset('assets/images/pptimages/d9.png') }} " class="large-img" />
             </div>
         </div>
@@ -158,11 +158,11 @@
     <div class="flex flex-col items-center justify-center gap-3 slide hidden">
         <div class=" flex gap-10  ">
             <div class="flex flex-col items-center justify-center">
-                <h2 class="title stroke !text-[35px]">FireFly</h2>
+                <h2 class="title stroke">FireFly</h2>
                 <img src="{{ asset('assets/images/pptimages/d12.png') }}" class="large-img" />
             </div>
             <div class="flex flex-col items-center justify-center">
-                <h2 class="title stroke !text-[35px]">Jellyfish</h2>
+                <h2 class="title stroke">Jellyfish</h2>
                 <img src="{{ asset('assets/images/pptimages/d11.png') }} " class="large-img" />
             </div>
         </div>

@@ -37,7 +37,7 @@
             <a href="{{ route('LetsProgram') }}"
                 style="background-image: url('{{ asset('/assets/images/pptimages/Property1.png') }}');"
                 class=" bg-no-repeat bg-contain bg-center w-[13vw] h-[10vw] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="!text-[1.5vw] text-[#7D6F71]">Let's <br> Programme <br>1</h2>
+                <h2 class="!text-[1.5vw] text-[#7D6F71]">Let's <br> Programme 1</h2>
                 <span class="text-[1.3vw] text-[#AF6E39] absolute  top-[1vw] right-[1vw]">4</span>
             </a>
 
@@ -45,7 +45,7 @@
             <a href="{{ route('LetsProgram2') }}"
                 style="background-image: url('{{ asset('/assets/images/pptimages/Property1.png') }}');"
                 class=" bg-no-repeat bg-contain bg-center w-[13vw] h-[10vw] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="!text-[1.5vw] text-[#7D6F71]">Let's <br> Programme <br> 2</h2>
+                <h2 class="!text-[1.5vw] text-[#7D6F71]">Let's <br> Programme 2</h2>
                 <span class="text-[1.3vw] text-[#AF6E39] absolute  top-[1vw] right-[1vw]">5</span>
             </a>
 
@@ -53,7 +53,7 @@
             <a href="{{ route('Robot1') }}"
                 style="background-image: url('{{ asset('/assets/images/pptimages/Property1.png') }}');"
                 class=" bg-no-repeat bg-contain bg-center w-[13vw] h-[10vw] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="!text-[1.5vw] text-[#7D6F71]">Programme a <br> Robot <br>1</h2>
+                <h2 class="!text-[1.5vw] text-[#7D6F71]">Programme a <br> Robot 1</h2>
                 <span class="text-[1.3vw] text-[#AF6E39] absolute  top-[1vw] right-[1vw]">6</span>
             </a>
 
@@ -61,7 +61,7 @@
             <a href="{{ route('Robot2') }}"
                 style="background-image: url('{{ asset('/assets/images/pptimages/Property1.png') }}');"
                 class=" bg-no-repeat bg-contain bg-center w-[13vw] h-[10vw] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="!text-[1.5vw] text-[#7D6F71]">Programme a <br> Robot <br>2</h2>
+                <h2 class="!text-[1.5vw] text-[#7D6F71]">Programme a <br> Robot 2</h2>
                 <span class="text-[1.3vw] text-[#AF6E39] absolute  top-[1vw] right-[1vw]">7</span>
             </a>
         </div>
@@ -77,7 +77,7 @@
             <a href="{{ route('Robot3') }}"
                 style="background-image: url('{{ asset('/assets/images/pptimages/Property1.png') }}');"
                 class=" bg-no-repeat bg-contain bg-center w-[13vw] h-[10vw] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="!text-[1.5vw] text-[#7D6F71]">Programme a <br> Robot <br> 3</h2>
+                <h2 class="!text-[1.5vw] text-[#7D6F71]">Programme a <br> Robot 3</h2>
                 <span class="text-[1.3vw] text-[#AF6E39] absolute  top-[1vw] right-[1vw]">8</span>
             </a>
 
@@ -85,7 +85,7 @@
             <a href="{{ route('Robot4') }}"
                 style="background-image: url('{{ asset('/assets/images/pptimages/Property1.png') }}');"
                 class=" bg-no-repeat bg-contain bg-center w-[13vw] h-[10vw] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="!text-[1.5vw] text-[#7D6F71]">Programme a <br> Robot <br> 4</h2>
+                <h2 class="!text-[1.5vw] text-[#7D6F71]">Programme a <br> Robot 4</h2>
                 <span class="text-[1.3vw] text-[#AF6E39] absolute  top-[1vw] right-[1vw]">9</span>
             </a>
 
@@ -93,8 +93,8 @@
             <a href="{{ route('Robot5') }}"
                 style="background-image: url('{{ asset('/assets/images/pptimages/Property1.png') }}');"
                 class=" bg-no-repeat bg-contain bg-center w-[13vw] h-[10vw] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="!text-[1.5vww] text-[#7D6F71]">Programme a <br> Robot <br> 5</h2>
-                <span class="text-[1.3vw] text-[#AF6E39] absolute  top-[1vw] right-[1vw]">10</span>
+                <h2 style="font-size: 1.5vw !important" class="!text-[1.5vww] text-[#7D6F71]">Programme a <br> Robot 5</h2>
+                <span class="text-[1.3vw] text-[#AF6E39] absolute top-[1vw] right-[1vw]">10</span>
             </a>
         </div>
     </div>

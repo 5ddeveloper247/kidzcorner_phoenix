@@ -289,7 +289,7 @@
                 <li>2. How do you balance the seesaw using these square bricks?</li>
             </ul>
         </div>
-        <img src="/assets/images/N2/SimpleMachines/gl11.png" />
+        <img src="/assets/images/N2/SimpleMachines/gl11.png" class="large-img6" />
         <p class="note">Note: Have children work in groups to complete the challenge and show the teacher.</p>
     </div>
 
@@ -316,7 +316,7 @@
                 <li>4. How do you balance the seesaw using these square bricks?</li>
             </ul>
         </div>
-        <img src="/assets/images/N2/SimpleMachines/gl12.png" />
+        <img src="/assets/images/N2/SimpleMachines/gl12.png" class="large-img6" />
         <p class="note">Note: Have each group of children copy the same setup.</p>
     </div>
 
@@ -343,7 +343,7 @@
                 <li>6. How do you balance the seesaw using these square bricks?</li>
             </ul>
         </div>
-        <img src="/assets/images/N2/SimpleMachines/gl13.png" />
+        <img src="/assets/images/N2/SimpleMachines/gl13.png" class="large-img6" />
         <p class="note">Note: Have children work in groups to complete the challenge and show the teacher.</p>
     </div>
 

@@ -22,7 +22,6 @@
 
         <video id="video1" class="w-full pointer-events-none">
             <source src="{{ asset('assets/images/N2/SimpleMachines/1.mp4') }}" type="video/mp4">
-            Your browser does not support the video tag.
         </video>
         <h2 class="title stroke">You pulled the string to move the wagon that is tied to the string.</h2>
         <!-- Video Trigger Button -->
@@ -36,7 +35,6 @@
     <div class="slide flex flex-col items-center justify-center gap-5 ">
         <video id="video2" class="w-full pointer-events-none">
             <source src="{{ asset('assets/images/N2/SimpleMachines/3.mp4') }}" type="video/mp4">
-            Your browser does not support the video tag.
         </video>
         <h2 class="title stroke">You can use it to move things around easily.</h2>
         <p class="note text-ellipsis">Note: have children share thing they are able and unable to transport around using
@@ -104,7 +102,6 @@
     <div class="slide flex flex-col items-center justify-center gap-5 ">
         <video id="video3" class="w-full pointer-events-none">
             <source src="{{ asset('assets/images/N2/SimpleMachines/3.mp4') }}" type="video/mp4">
-            Your browser does not support the video tag.
         </video>
         <h2 class="stroke title">When you pull the wagon, its wheel and axle turn together to let you move things around
             easily.</h2>

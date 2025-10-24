@@ -10,7 +10,7 @@
 
     {{-- Slide 1 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/BasicCoding/bs1a.png') }}" alt="">
+        <img src="{{ asset('assets/images/N2/BasicCoding/bs1a.png') }}" class="large-img6" alt="">
         <h2 class="stroke title">Children, do you remember what these are?</h2>
         <p class="note">Note: Have children recall and share what they have learnt.</p>
     </div>
@@ -18,7 +18,7 @@
 
     {{-- Slide 2 --}}
     <div class="slide flex flex-col items-center justify-center ">
-        <img src="{{ asset('assets/images/N2/BasicCoding/bs1a.png') }}" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/bs1a.png') }}" class="large-img6" />
         <h2 class="stroke title">These are <span class="text-white">directional signs</span> with <span
                 class="text-white">arrows</span> to show us which way to go. <span class="text-white">Directional
                 signs</span> give us <span class="text-white">instructions</span> on where to go.</h2>
@@ -130,7 +130,7 @@
 
     {{-- slide 14 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/BasicCoding/bs1a.png') }}" alt="">
+        <img src="{{ asset('assets/images/N2/BasicCoding/bs1a.png') }}" class="large-img6" alt="">
         <h2 class="stroke title">Children, what are directional signs?</h2>
         <p class="note">Note: Guide children to share the use of directional signs.</p>
     </div>
@@ -188,7 +188,7 @@
 
     {{-- slide 21 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/BasicCoding/bs8.png') }}" class="large-img3">
+        <img src="{{ asset('assets/images/N2/BasicCoding/bs8.png') }}" class="!max-w-[7vw]">
         <h2 class="stroke title">This girl is raising her left arm. Can you do the same?</h2>
         <p class="note">Note: Have children follow accordingly.</p>
     </div>
@@ -196,7 +196,7 @@
 
     {{-- slide 22 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/BasicCoding/bs9.png') }}" class="large-img3">
+        <img src="{{ asset('assets/images/N2/BasicCoding/bs9.png') }}" class="!max-w-[7vw]">
         <h2 class="stroke title">This girl is raising her right arm. Can you do the same?</h2>
         <p class="note">Note: Have children follow accordingly.</p>
     </div>

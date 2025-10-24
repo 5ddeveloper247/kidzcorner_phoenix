@@ -20,19 +20,19 @@
             <h2>Living things are things that can...</h2>
             <div class="flex justify-between gap-x-[5rem] items-center">
                 <ul class="!text-white">
-                    <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" />
+                    <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" class="!max-w-[2.5vw]" />
                         <p> Move on their own</p>
                     </li>
-                    <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" />
+                    <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" class="!max-w-[2.5vw]" />
                         <p> Drink</p>
                     </li>
-                    <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" />
+                    <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" class="!max-w-[2.5vw]" />
                         <p>Eat</p>
                     </li>
-                    <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" />
+                    <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" class="!max-w-[2.5vw]" />
                         <p> Breath (need air)</p>
                     </li>
-                    <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" />
+                    <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" class="!max-w-[2.5vw]" />
                         <p> Grow (get bigger)</p>
                     </li>
                 </ul>
@@ -68,36 +68,36 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="title stroke">What do you think (Prediction):</h2>
         <p class="note">Are plants living things? Put (✓) or cross (X)</p>
-        <div class="w-[40vw] h-[40vh] bg-cover bg-center flex items-center justify-center"
+        <div class="w-[35vw] h-[35vh] bg-cover bg-center flex items-center justify-center overflow-hidden"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
 
-            <table class="w-full h-[40vh] border border-black border-collapse text-lg text-start font-sans table-fixed">
+            <table class="w-full h-full border border-black border-collapse text-lg text-start font-sans table-fixed">
                 <thead>
                     <tr class=" font-bold">
-                        <th class="border border-black p-2 w-1/2">Plants</th>
-                        <th class="border border-black p-2 w-1/2">✓</th>
+                        <th class="border border-black text-[.8vw] p-[.6vw] w-1/2">Plants</th>
+                        <th class="border border-black text-[.8vw] p-[.6vw] w-1/2">✓</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td class="border border-black p-2">Do they move on their own?</td>
-                        <td class="border border-black"></td>
+                        <td class="border border-black text-[.8vw] p-[.6vw]">Do they move on their own?</td>
+                        <td class="border border-black text-[1vw]"></td>
                     </tr>
                     <tr>
-                        <td class="border border-black p-2">Do they drink?</td>
-                        <td class="border border-black"></td>
+                        <td class="border border-black text-[.8vw] p-[.6vw]">Do they drink?</td>
+                        <td class="border border-black text-[1vw]"></td>
                     </tr>
                     <tr>
-                        <td class="border border-black p-2">Do they eat?</td>
-                        <td class="border border-black"></td>
+                        <td class="border border-black text-[.8vw] p-[.6vw]">Do they eat?</td>
+                        <td class="border border-black text-[1vw]"></td>
                     </tr>
                     <tr>
-                        <td class="border border-black p-2">Do they breathe?</td>
-                        <td class="border border-black"></td>
+                        <td class="border border-black text-[.8vw] p-[.6vw]">Do they breathe?</td>
+                        <td class="border border-black text-[1vw]"></td>
                     </tr>
                     <tr>
-                        <td class="border border-black p-2">Do they grow (get bigger)?</td>
-                        <td class="border border-black"></td>
+                        <td class="border border-black text-[.8vw] p-[.6vw]">Do they grow (get bigger)?</td>
+                        <td class="border border-black text-[1vw]"></td>
                     </tr>
                 </tbody>
             </table>
@@ -112,21 +112,21 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="title stroke">Let's do:</h2>
 
-        <div class="w-[45vw] h-[40vh] bg-cover bg-center"
+        <div class="w-[35vw] h-[30vh] bg-cover bg-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
 
             <table class="w-full border border-black border-collapse text-lg text-start font-sans table-fixed">
                 <thead>
                     <tr class="font-bold t-title">
-                        <th class="border border-black p-2 w-1/2">Plants</th>
-                        <th class="border border-black p-2 w-1/2"></th>
+                        <th class="border border-black text-[.8vw] p-[.6vw] w-1/2">Plants</th>
+                        <th class="border border-black text-[.8vw] p-[.6vw] w-1/2"></th>
                     </tr>
                 </thead>
                 <tbod>
                     <tr>
-                        <td class="border border-black p-2">Do they move on their own?</td>
+                        <td class="border border-black text-[.8vw] p-[.6vw]">Do they move on their own?</td>
                         <td class="border border-black"> <span class="group info-btn1">
-                                <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" />
+                                <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="!max-w-[2.5vw]" />
                             </span> </td>
                     </tr>
                     </tbody>
@@ -195,35 +195,35 @@
         <p class="note text-center">Are plants living things? Put (✓) or cross (X)</p>
 
         <h2 class="text-start title stroke">Let's do:</h2>
-        <div class="w-[45vw] h-[40vh] bg-cover bg-center"
+        <div class="w-[35vw] h-[30vh] bg-cover bg-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
 
-            <table class="w-[45vw] h-[40vh] !text-[1vw] border-2 border-black table-fixed ">
+            <table class="w-[35vw] h-[30vh] !text-[1vw] border-2 border-black table-fixed ">
                 <thead>
                     <tr>
-                        <th colspan="2" class="text-center text-xl py-3 border-b-2 border-black">
+                        <th colspan="2" class="text-center text-[.9vw] py-[.6vw] border-b-2 border-black">
                             Plants
                         </th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr class="border border-black">
-                        <td class="w-2/3 border px-2 py-2">Do they move on their own?</td>
-                        <td class="w-1/3 px-2 py-2 text-center text-2xl">✓</td>
+                        <td class="w-2/3 border p-[.6vw] text-[.8vw]">Do they move on their own?</td>
+                        <td class="w-1/3 p-[.6vw] text-[.8vw] text-center text-2xl">✓</td>
                     </tr>
                     <tr>
-                        <td class="px-2 py-2">Do they drink?</td>
+                        <td class="p-[.6vw] text-[.8vw]">Do they drink?</td>
                         <td class="border-l border-black" rowspan="3">
                             <span class="group info-btn2">
-                                <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" />
+                                <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="!max-w-[2.5vw]" />
                             </span>
                         </td>
                     </tr>
                     <tr>
-                        <td class="px-2 py-2 border-t border-black">Do they eat?</td>
+                        <td class="p-[.6vw] text-[.8vw] border-t border-black">Do they eat?</td>
                     </tr>
                     <tr>
-                        <td class="px-2 py-2 border-t border-black">Do they breathe?</td>
+                        <td class="p-[.6vw] text-[.8vw] border-t border-black">Do they breathe?</td>
                     </tr>
                 </tbody>
             </table>
@@ -249,7 +249,7 @@
 
     {{-- slide 13 --}}
     <div class="flex flex-col info-slide2 items-center justify-center slide hidden">
-        <div class="flex items-center gap-2">
+        <div class="flex items-center gap-[.6vw]">
             <img src="{{ asset('assets/images/N2/LivingThings/lt24.png') }}" class="large-img3" />
             <img src="{{ asset('assets/images/N2/LivingThings/lt62.png') }}" class="large-img3" />
         </div>
@@ -309,35 +309,35 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <p class="note">Are plants living things? Put (✓) or cross (X)</p>
         <h2 class="title stroke">Let's do:</h2>
-        <div class="w-[40vw] h-[40vh] bg-cover bg-center"
+        <div class="w-[35vw] h-[35vh] bg-cover bg-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
-            <table class="w-[40vw] h-[40vh] border border-black text-[1vw] ">
+            <table class="w-[35vw] h-[35vh] border border-black text-[1vw] ">
                 <thead>
                     <tr>
-                        <th class="border border-black p-2 text-center" colspan="2">Plants</th>
+                        <th class="border border-black p-[.6vw] text-[.8vw] text-center" colspan="2">Plants</th>
                     </tr>
                 </thead>
                 <tbody class="text-start">
                     <tr>
-                        <td class="border border-black p-2 w-1/2">Do they move on their own?</td>
-                        <td class="border border-black  p-2 w-1/2">✓</td>
+                        <td class="border border-black p-[.6vw] text-[.8vw] w-1/2">Do they move on their own?</td>
+                        <td class="border border-black  p-[.6vw] text-[.8vw] w-1/2">✓</td>
                     </tr>
                     <tr>
-                        <td class="border border-black p-2 w-1/2">Do they drink?</td>
-                        <td class="border border-black p-2  w-1/2" rowspan="3">✓</td>
+                        <td class="border border-black p-[.6vw] text-[.8vw] w-1/2">Do they drink?</td>
+                        <td class="border border-black p-[.6vw] text-[.8vw]  w-1/2" rowspan="3">✓</td>
                     </tr>
                     <tr>
-                        <td class="border border-black p-2 w-1/2">Do they eat?</td>
+                        <td class="border border-black p-[.6vw] text-[.8vw] w-1/2">Do they eat?</td>
                     </tr>
                     <tr>
-                        <td class="border border-black p-2 w-1/2">Do they breathe?</td>
+                        <td class="border border-black p-[.6vw] text-[.8vw] w-1/2">Do they breathe?</td>
                     </tr>
                     <tr>
-                        <td class="border border-black p-2 w-1/2">Do they grow (get bigger)?</td>
-                        <td class="border border-black p-2 w-1/2">
+                        <td class="border border-black p-[.6vw] text-[.8vw] w-1/2">Do they grow (get bigger)?</td>
+                        <td class="border border-black p-[.6vw] text-[.8vw] w-1/2">
                             <span>
                                 <a class="group info-btn3">
-                                    <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" />
+                                    <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="!max-w-[2.5vw]" />
                                 </a>
                             </span>
                         </td>
@@ -372,32 +372,32 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <p class="note">Are plants living things? Put (✓) or cross (X)</p>
         <h2 class="title stroke">Let's do:</h2>
-        <div class="w-[736px] h-[336px] bg-cover bg-center flex items-center justify-center"
+        <div class="w-[35vw] h-[30vh] bg-cover bg-center flex items-center justify-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
-            <table class="w-[40vw] h-[40vh] border border-black text-[1vw] ">
+            <table class="w-[35vw] h-[30vh] border border-black text-[1vw] ">
                 <thead>
                     <tr>
-                        <th class="border border-black p-2 text-center" colspan="2">Plants</th>
+                        <th class="border border-black p-[.6vw] text-[.8vw] text-center" colspan="2">Plants</th>
                     </tr>
                 </thead>
                 <tbody class="text-start">
                     <tr>
-                        <td class="border border-black p-2 w-1/2">Do they move on their own?</td>
-                        <td class="border border-black  p-2 w-1/2">✓</td>
+                        <td class="border border-black p-[.6vw] text-[.8vw] w-1/2">Do they move on their own?</td>
+                        <td class="border border-black  p-[.6vw] text-[.8vw] w-1/2">✓</td>
                     </tr>
                     <tr>
-                        <td class="border border-black p-2 w-1/2">Do they drink?</td>
-                        <td class="border border-black p-2  w-1/2" rowspan="3">✓</td>
+                        <td class="border border-black p-[.6vw] text-[.8vw] w-1/2">Do they drink?</td>
+                        <td class="border border-black p-[.6vw] text-[.8vw]  w-1/2" rowspan="3">✓</td>
                     </tr>
                     <tr>
-                        <td class="border border-black p-2 w-1/2">Do they eat?</td>
+                        <td class="border border-black p-[.6vw] text-[.8vw] w-1/2">Do they eat?</td>
                     </tr>
                     <tr>
-                        <td class="border border-black p-2 w-1/2">Do they breathe?</td>
+                        <td class="border border-black p-[.6vw] text-[.8vw] w-1/2">Do they breathe?</td>
                     </tr>
                     <tr>
-                        <td class="border border-black p-2 w-1/2">Do they grow (get bigger)?</td>
-                        <td class="border border-black p-2 w-1/2">✓</td>
+                        <td class="border border-black p-[.6vw] text-[.8vw] w-1/2">Do they grow (get bigger)?</td>
+                        <td class="border border-black p-[.6vw] text-[.8vw] w-1/2">✓</td>
                     </tr>
                 </tbody>
             </table>
@@ -425,19 +425,19 @@
         <h2 class="title stroke ">Through the activity, we learned that plants can..</h2>
         <div class="flex">
             <ul class="!text-white text-start">
-                <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" />
+                <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" class="!max-w-[2.5vw]" />
                     <p> Move on their own</p>
                 </li>
-                <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" />
+                <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" class="!max-w-[2.5vw]" />
                     <p> Drink</p>
                 </li>
-                <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" />
+                <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" class="!max-w-[2.5vw]" />
                     <p>Eat</p>
                 </li>
-                <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" />
+                <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" class="!max-w-[2.5vw]" />
                     <p> Breath (need air)</p>
                 </li>
-                <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" />
+                <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" class="!max-w-[2.5vw]" />
                     <p> Grow (get bigger)</p>
                 </li>
             </ul>

@@ -11,14 +11,14 @@
         <h2 class="stroke title"><span class="text-white">Lines</span> are put together to make <span
                 class="text-white">shapes</span> like<br /><span class="text-white">squares, triangles</span> and<span
                 class="text-white"> rectangles</span>.</h2>
-        <img src="{{ asset('assets/images/pptimages/shape4.png') }}" />
+        <img src="{{ asset('assets/images/pptimages/shape4.png') }}" class="large-img6" />
     </div>
 
 
     {{-- slide 1 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
 
-        <img src="{{ asset('assets/images/pptimages/r18.png') }}" class="large-img4" />
+        <img src="{{ asset('assets/images/pptimages/r18.png') }}" class="large-img6" />
         <h2 class="stroke title">Look at this <span class="text-white">house</span>! What <span
                 class="text-white">shapes</span> does it look like?</h2>
         <p class="note">Note: Encourage the children to share answers.</p>
@@ -29,7 +29,7 @@
         <h2 class="stroke title">The <span class="text-white">top</span> looks like a <span
                 class="text-white">triangle</span> and the<span class="text-white"> bottom<br /></span>looks like a <span
                 class="text-white">square</span>.</h2>
-        <img src="{{ asset('assets/images/pptimages/gl14.png') }}" />
+        <img src="{{ asset('assets/images/pptimages/gl14.png') }}" class="large-img6" />
         <p class="note">Note: Point out the shape to the children.</p>
     </div>
 
@@ -44,7 +44,7 @@
     {{-- slide 4 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
         <h2 class="stroke title">This is how an image of a house can be made.</h2>
-        <img src="{{ asset('assets/images/pptimages/s2.png') }}" class="large-img" />
+        <img src="{{ asset('assets/images/pptimages/s2.png') }}" class="large-img6" />
         <p class="note">Note: Point out the shape to the children.</p>
     </div>
 
@@ -111,14 +111,14 @@
                     learning journals.</li>
             </ul>
         </div>
-        <div class="w-[40vw] h-[30vh] bg-cover bg-center"
+        <div class="w-[35vw] h-[25vh] bg-cover bg-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p class="text-[1vw]">My Creations</p>
             <div class="flex w-full">
-                <div class="border-2 border-black h-[27vh] w-[15vw]">
+                <div class="border-2 border-black h-[22vh] w-[15vw]">
                     <p class="text-[1vw]">Place the photo of the toy on this side</p>
                 </div>
-                <div class="border-2 border-black h-[27vh] w-[25vw]">
+                <div class="border-2 border-black h-[22vh] w-[25vw]">
                     <p class="text-[1vw]">Look at the toy and create the shape template here. </p>
                 </div>
             </div>
@@ -146,7 +146,7 @@
     <div class="flex flex-col items-center justify-center  slide hidden">
         <h2 class="stroke title">The image of a house is <span class="text-white">flat </span>but it can be made<br />into
             these dimensional <span class="text-white">structure.</span></h2>
-        <img src="{{ asset('assets/images/pptimages/s2.png') }}" class="large-img" />
+        <img src="{{ asset('assets/images/pptimages/s2.png') }}" class="large-img6" />
     </div>
 
 
@@ -155,7 +155,7 @@
         <h2 class="stroke title">The three dimensional structure of a house can be created by putting the shape structure of
             each side together.</h2>
 
-        <img src="{{ asset('assets/images/pptimages/gl15.png') }}" />
+        <img src="{{ asset('assets/images/pptimages/gl15.png') }}" class="large-img6" />
         <p class="note  text-center">Note: Teacher show children using the house structure created the previous lesson</p>
     </div>
 
@@ -163,7 +163,7 @@
     {{-- slide 19 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
         <h2 class="stroke title">Similarly, a three dimensional structure of the toy can be created too!</h2>
-        <img src="{{ asset('assets/images/pptimages/r29.png') }}" class="large-img" />
+        <img src="{{ asset('assets/images/pptimages/r29.png') }}" class="large-img6" />
     </div>
 
 

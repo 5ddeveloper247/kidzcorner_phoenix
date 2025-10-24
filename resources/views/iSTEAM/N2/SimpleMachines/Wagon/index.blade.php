@@ -5,7 +5,9 @@
 
     <div id="topDiv" class="flex flex-col items-center !h-[60vh] justify-between">
         <h2 class=" indexTitle text-[55px] stroke">A Wagon</h2>
-        <h2 class="!text-white title">Build a wagon based on a pictorial guide;  explore and learn about wheels and axles
+        
+        <h2 class="!text-white title">
+            Build a wagon based on a pictorial guide;  explore and learn about wheels and axles
         </h2>
 
         <button
@@ -31,9 +33,7 @@
 
         <!-- Close Button -->
         <button id="closeButton">
-
             <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-
         </button>
 
     </div>

@@ -77,7 +77,7 @@
         <div>
             <h2 class="t-title font-bold">Notes:</h2>
             <ul class="list-disc">
-                <li class="flex">
+                <li class="flex whitespace-nowrap gap-3 mb-2">
                     If you see
                     <span>
                         <img class="video-btn" src="{{ asset('assets/images/pptimages/video.png') }}" />
@@ -85,7 +85,7 @@
                     next to a picture, click on the picture to watch the video.
                 </li>
 
-                <li class="flex">
+                <li class="flex whitespace-nowrap gap-3 mb-2">
                     If you see
                     <span>
                         <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="info-btn" />
@@ -93,23 +93,23 @@
                     , click on it for additional information or activity.
                 </li>
 
-                <li>
+                <li class="mb-2">
                     Always ask questions to encourage children to think and share their ideas first before giving out
                     any information.
                 </li>
 
-                <li>Emphasise and use the keywords during hands-on sessions.</li>
+                <li class="mb-2">Emphasise and use the keywords during hands-on sessions.</li>
 
                 <li>
                     Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
                 </li>
 
-                <li class="flex">
+                <li class="flex whitespace-nowrap gap-3">
                     Click on this shortcut
                     <span>
                         <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" class="home-btn" />
                     </span>
-                    if you need to go to some parts of the lesson quickly.
+                    if you need to go to some parts <br> of the lesson quickly.
                 </li>
             </ul>
         </div>
