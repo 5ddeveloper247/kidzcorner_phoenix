@@ -1,17 +1,15 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
- 
+
 @section('content')
 
-    <div id="topDiv" class="flex flex-col items-center gap-[7rem] ">
-        <h2 class="  text-amber-300 text-[65px] font-extrabold stroke">Structure of Big Vehicles</h2>
-        <h2 class="!text-white title">Understand the structures of big vehicles; <br>
-explore the structural  designs of big vehicles</h2>
+    <div id="topDiv" class="flex flex-col items-center  ">
+        <h2 class="  text-amber-300  font-extrabold stroke">Structure of Big Vehicles</h2>
+        <h2 class="!text-white title">Understand the structures of big vehicles; 
+            explore the structural designs of big vehicles</h2>
 
-        <button
-            class="cursor-pointer nextButton  ">
-                       <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
-
+        <button class="cursor-pointer nextButton  ">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
         </button>
 
     </div>
@@ -19,24 +17,18 @@ explore the structural  designs of big vehicles</h2>
 
 
 
- <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
+    <div id="buttons" class="absolute  flex flex-row gap-6 ">
         <!-- Return Button -->
-        <button
-        id="returnButton">
-            <img 
-                src="{{ asset('assets/images/pptimages/return.png') }}" />
+        <button id="returnButton">
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </button>
         <!-- Home Button -->
-        <button
-          id="homeButton">
-            <img 
-                src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
         <!-- Close Button -->
         <button id="closeButton">
-           
-<img  src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-   
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
         </button>
     </div>
 @endsection

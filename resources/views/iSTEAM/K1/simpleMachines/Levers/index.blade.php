@@ -3,20 +3,18 @@
  
 @section('content')
 
-    <div id="topDiv" class="flex flex-col  h-[90%] items-center  gap-[10rem]">
+    <div id="topDiv" class="flex flex-col  items-center ">
         <div class="indexTitle  text-[55px]  stroke">How do Levers Work?</div>
         <div
-            class="text-2xl sm:text-3xl lg:text-4xl text-white max-w-5xl leading-snug flex flex-col items-center space-x-[30px]">
+            class="text-white">
             Explore the characteristics and uses <br>
             of a simple machine - Lever
             <br><br><br>
 
             <button
                 class="nextButton ">
-                <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
-                <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" /> </div>
-                <span class="absolute left-[80px] top-[18px] flex items-center  text-white text-5xl font-bold stroke">NEXT
-                </span>
+                            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
+
             </button>
 
         </div>
@@ -25,7 +23,7 @@
 
 
 
- <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
+ <div id="buttons" class="absolute  flex flex-row gap-6 ">
 
         <!-- Return Button -->
         <button

@@ -954,7 +954,7 @@ placed far from the eraser.</h2>
     </div>
 
     {{-- Buttons --}}
- <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
+ <div id="buttons" class="absolute  flex flex-row gap-6 ">
 
         <!-- Return Button -->
         <a class="relative w-24 h-24 button-fade-in bg-[#59967D] rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-[#22664A] flex justify-center items-center"
@@ -999,7 +999,7 @@ placed far from the eraser.</h2>
             const slides = document.querySelectorAll(".slide");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
-            const doneButton = document.querySelector(".doneButton"); // ✅ DONE button
+            const doneButton = document.querySelector(".doneButton"); //   DONE button
 
             let currentSlide = 0;
 
@@ -1008,7 +1008,7 @@ placed far from the eraser.</h2>
                     slide.classList.toggle("hidden", i !== index);
                 });
 
-                // ✅ Agar last slide hai → NEXT button hide, DONE show
+                //   Agar last slide hai → NEXT button hide, DONE show
                 if (index === slides.length - 1) {
                     nextButtons.forEach(btn => btn.classList.add("hidden"));
                     if (doneButton) doneButton.classList.remove("hidden");
@@ -1018,7 +1018,7 @@ placed far from the eraser.</h2>
                 }
             }
 
-            // ✅ NEXT buttons listener
+            //   NEXT buttons listener
             nextButtons.forEach((btn) => {
                 btn.addEventListener("click", () => {
                     if (currentSlide < slides.length - 1) {
@@ -1028,13 +1028,17 @@ placed far from the eraser.</h2>
                 });
             });
 
-            // ✅ Return button
-            returnButton.addEventListener("click", () => {
-                if (currentSlide > 0) {
-                    currentSlide--;
-                    showSlide(currentSlide);
-                }
-            });
+              //   Return button - redirect if on first slide, otherwise go back
+        returnButton.addEventListener("click", () => {
+            if (currentSlide === 0) {
+                //   First slide pe hai →  
+                window.location.href = "{{ route('YourRouteNameHere') }}";
+            } else {
+                //   Previous slide pe jao
+                currentSlide--;
+                showSlide(currentSlide);
+            }
+        });
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {
@@ -1042,7 +1046,7 @@ placed far from the eraser.</h2>
                 });
             }
 
-            // ✅ Start with first slide
+            //   Start with first slide
             showSlide(currentSlide);
         });
     </script>

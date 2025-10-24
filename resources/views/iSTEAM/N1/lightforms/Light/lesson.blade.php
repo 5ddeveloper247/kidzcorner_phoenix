@@ -36,7 +36,7 @@
     {{-- Slide 4 --}}
     <div class=" slide hidden flex flex-col items-center justify-center gap-5">
 
-        <h2 class="text-2xl sm:text-3xl lg:text-5xl text-white max-w-4xl leading-snug stroke">
+        <h2 class="text-2xl sm:text-3xl lg:text-5xl text-white max-w-4xl   stroke">
             The <span class="text-[#F7B94A]">sun</span> is so <span class="text-[#F7B94A]">bright!</span></br>
             It gives <span class="text-[#F7B94A]">light</span> during the day!
         </h2>
@@ -244,7 +244,7 @@
                 class="text-white">stars</span> and <span class="text-white">fire</span> are natural light
         </h2>
         <img src="{{ asset('assets/images/pptimages/three1.png') }}" />
-        <p class="note text-center text-xl text-white leading-snug max-w-2xl">Note: Ask children if they have seen candles
+        <p class="note text-center text-xl text-white   max-w-2xl">Note: Ask children if they have seen candles
             on birthday cakes
             and what happens when the candles are blown out.</p>
     </div>

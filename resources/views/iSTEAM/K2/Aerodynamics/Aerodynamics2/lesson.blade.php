@@ -1,18 +1,7 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
 
-@push('style')
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-    <style>
-        button {
-            cursor: pointer !important;
-        }
-
-        a {
-            cursor: pointer;
-        }
-    </style>
-@endpush
+ 
 
 @section('content')
 
@@ -142,7 +131,7 @@
 
     {{-- Slide 17 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <video id="video1" class="w-full max-w-4xl pointer-events-none">
+        <video id="video1" class="pointer-events-none">
             <source src="{{ asset('assets/images/K2/aero/aero1/211.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -207,7 +196,7 @@
 
     {{-- Slide 23 --}}
     <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <video id="video2" class="w-full max-w-4xl pointer-events-none">
+        <video id="video2" class="pointer-events-none">
             <source src="{{ asset('assets/images/K2/aero/aero1/212.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -281,7 +270,7 @@
 
     {{-- Slide 32 --}}
     <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <video id="video3" class="w-full max-w-4xl pointer-events-none">
+        <video id="video3" class="pointer-events-none">
             <source src="{{ asset('assets/images/K2/aero/aero1/213.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -299,7 +288,7 @@
 
     {{-- Slide 33 --}}
     <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <video id="video4" class="w-full max-w-4xl pointer-events-none">
+        <video id="video4" class="pointer-events-none">
             <source src="{{ asset('assets/images/K2/aero/aero1/214.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -402,7 +391,7 @@
         </button>
     </div>
 
- <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
+ <div id="buttons" class="absolute  flex flex-row gap-6 ">
         <!-- Return Button -->
         <a id="returnButton">
  <img

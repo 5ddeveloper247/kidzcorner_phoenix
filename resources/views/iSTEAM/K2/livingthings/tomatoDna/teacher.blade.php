@@ -17,7 +17,7 @@
 
         <div class="flex flex-col  items-start justify-between">
             <h2 class="t-title font-bold">Keywords:</h2>
-            <div class="flex gap-20">
+            <div >
                 <ul class="list-disc ">
                     <li>Living Thing</li>
                     <li>DNA</li>
@@ -243,7 +243,7 @@
                     </li>
                 </ul>
             </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute right-[250px] bottom-[150px]"
+            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1"
                 alt="Teacher" />
         </div>
     </div>
@@ -255,7 +255,7 @@
         <div>
             <ul>
                 <h2 class="!text-white title stroke">Tomato DNA</h2>
-                <h2>What and how to set up:</h2>
+                <h2 class="t-title">What and how to set up:</h2>
                 <li>Put the final result of the activity (the filtered liquid of tomato
                     mixture with alcohol) here as a display for children. Use cling wrap
                     to tightly seal the cup and fix the position of the cup. As long as
@@ -274,7 +274,7 @@
         <div>
             <ul class="list-disc">
                 <h2 class="!text-white title stroke">Fun Facts</h2>
-                <h2>What and how to set up:</h2>
+                <h2 class="t-title">What and how to set up:</h2>
                 <p>Use your creativity to design graphic fact sheet for every fun fact
                     below. Guide children to understand the facts.</p>
                 <li>Your DNA is 60% identical to the DNA of tomatoes!</li>
@@ -292,14 +292,14 @@
         <div class="space-y-20">
             <div>
                 <h2 class="!text-white title stroke">Fun Facts</h2>
-                <h2>What and how to set up:</h2>
+                <h2 class="t-title">What and how to set up:</h2>
                 <p>Prepare things as listed in the preparations and other fruits or
                     vegetables like banana, kiwi, spinach or kale to carry out another
                     DNA extraction activity to further prove the results of the activity.</p>
             </div>
 
             <div>
-                <h2>What to do:</h2>
+                <h2 class="t-title">What to do:</h2>
                 <p>Guide children to repeat the DNA extraction steps in the lesson for
                     the chosen subject. If you plan to choose vegetable as the subject,
                     use a blender instead of hands to crush and smash them.</p>
@@ -318,7 +318,7 @@
         </button>
     </div>
 
-    <div id="buttons" class="absolute top-0 right-[60px] flex flex-row gap-6 z-90">
+    <div id="buttons" class="absolute  flex flex-row gap-6 z-90">
 
         <!-- Return Button -->
         <a id="returnButton">
@@ -364,7 +364,7 @@
             const slides = document.querySelectorAll(".slide");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
-            const doneButton = document.querySelector(".doneButton"); // ✅ DONE button
+            const doneButton = document.querySelector(".doneButton"); //   DONE button
 
             let currentSlide = 0;
 
@@ -373,7 +373,7 @@
                     slide.classList.toggle("hidden", i !== index);
                 });
 
-                // ✅ Agar last slide hai → NEXT button hide, DONE show
+                //   Agar last slide hai → NEXT button hide, DONE show
                 if (index === slides.length - 1) {
                     nextButtons.forEach(btn => btn.classList.add("hidden"));
                     if (doneButton) doneButton.classList.remove("hidden");
@@ -383,7 +383,7 @@
                 }
             }
 
-            // ✅ NEXT buttons listener
+            //   NEXT buttons listener
             nextButtons.forEach((btn) => {
                 btn.addEventListener("click", () => {
                     if (currentSlide < slides.length - 1) {
@@ -393,13 +393,17 @@
                 });
             });
 
-            // ✅ Return button
-            returnButton.addEventListener("click", () => {
-                if (currentSlide > 0) {
-                    currentSlide--;
-                    showSlide(currentSlide);
-                }
-            });
+              //   Return button - redirect if on first slide, otherwise go back
+        returnButton.addEventListener("click", () => {
+            if (currentSlide === 0) {
+                //   First slide pe hai →  
+                window.location.href = "{{ route('YourRouteNameHere') }}";
+            } else {
+                //   Previous slide pe jao
+                currentSlide--;
+                showSlide(currentSlide);
+            }
+        });
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {

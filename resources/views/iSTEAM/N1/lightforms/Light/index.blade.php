@@ -5,7 +5,7 @@
 
     <div id="topDiv" class="flex flex-col  h-full justify-between items-center ">
         <div class="indexTitle  text-[55px]  stroke">What is light?</div>
-        <h2 class="text-2xl sm:text-3xl lg:text-6xl text-white max-w-5xl leading-snug flex flex-col items-center space-x-[30px]">
+        <h2 class="text-2xl sm:text-3xl lg:text-6xl text-white    flex flex-col items-center space-x-[30px]">
             Explorenatural and man-made lights<br />
             Develop awareness and knowledge<br />
             of different light forms</h2>

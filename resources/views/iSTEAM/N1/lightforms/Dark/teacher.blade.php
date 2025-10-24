@@ -99,7 +99,7 @@
         <h1 class="title  text-center stroke">Learning Centre Idea</h1>
         <div>
             <h2 class="font-bold t-title t-title">Glow in the box</h2>
-            <h2>What and how to set up:</h2>
+            <h2 class="t-title">What and how to set up:</h2>
             <p>Provide materials such as black box, cubes, pom pom balls, manipulative
                 toys and other glow-in-dark toys and materials</p>
         </div>
@@ -127,7 +127,7 @@
     </div>
 
     {{-- Buttons --}}
-    <div id="buttons" class="absolute top-0 right-[60px] flex flex-row gap-6 z-90">
+    <div id="buttons" class="absolute  flex flex-row gap-6 z-90">
 
         <!-- Return Button -->
         <a id="returnButton">

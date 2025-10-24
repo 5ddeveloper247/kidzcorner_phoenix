@@ -103,7 +103,7 @@
                 <a href="https://www.youtube.com/watch?v=Xiul/1mlFeEc" class="text-[#F7B94A]"></a>
                 [https://www.youtube.com/watch?v=Xiul/1mlFeEc]
             </h2>
-            <video id="video1" class="w-full max-w-4xl pointer-events-none">
+            <video id="video1" class="pointer-events-none">
                 <source src="{{ asset('assets/images/K2/final/285.mp4') }}" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
@@ -195,7 +195,7 @@
                     </li>
                 </ul>
             </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute right-[250px] bottom-[150px]"
+            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1"
                 alt="Teacher" />
         </div>
     </div>
@@ -210,7 +210,7 @@
         </button>
     </div>
 
-    <div id="buttons" class="absolute top-0 right-[60px] flex flex-row gap-6 z-90">
+    <div id="buttons" class="absolute  flex flex-row gap-6 z-90">
 
         <!-- Return Button -->
         <a id="returnButton">

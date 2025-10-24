@@ -47,7 +47,7 @@
     <div class="slide hidden flex flex-col items-center gap-y-3">
         <div class="flex items-center gap-5">
             <img src="{{ asset('assets/images/K2/final/f5.png') }}" class="h-[343px]" />
-            <video id="video1" class="w-full max-w-4xl pointer-events-none">
+            <video id="video1" class="pointer-events-none">
                 <source src="{{ asset('assets/images/K2/final/224.mp4') }}" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
@@ -75,7 +75,7 @@
     <div class="slide hidden flex flex-col items-center gap-y-3">
         <div class="flex items-center gap-5">
             <img src="{{ asset('assets/images/K2/final/f7.png') }}" class="h-[343px]" />
-            <video id="video2" class="w-full max-w-4xl pointer-events-none">
+            <video id="video2" class="pointer-events-none">
                 <source src="{{ asset('assets/images/K2/final/284.mp4') }}" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
@@ -408,7 +408,7 @@
         </button>
     </div>
 
- <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
+ <div id="buttons" class="absolute  flex flex-row gap-6 ">
         <!-- Return Button -->
         <a id="returnButton">
  <img

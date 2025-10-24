@@ -57,7 +57,7 @@ button {
     width: 5vw !important;
 }
 #topDiv {
-    height: 100% !important;
+    height: 40vh !important;
     justify-content: space-between !important;
 }
 

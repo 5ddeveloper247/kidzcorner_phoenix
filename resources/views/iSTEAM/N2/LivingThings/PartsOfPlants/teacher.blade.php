@@ -159,7 +159,7 @@
 
 
     {{-- Buttons --}}
-    <div id="buttons" class="absolute top-0 right-[60px] flex flex-row gap-6 z-90">
+    <div id="buttons" class="absolute  flex flex-row gap-6 z-90">
 
         <!-- Return Button -->
         <a id="returnButton">
@@ -204,7 +204,7 @@
 
             let currentSlide = 0;
 
-            // ✅ Show a given slide by index
+            //   Show a given slide by index
             const showSlide = (index) => {
                 slides.forEach((slide, i) => slide.classList.toggle("hidden", i !== index));
 
@@ -215,7 +215,7 @@
                 if (doneButton) doneButton.classList.toggle("hidden", !isLastSlide);
             };
 
-            // ✅ NEXT
+            //   NEXT
             nextButtons.forEach(btn =>
                 btn.addEventListener("click", () => {
                     if (currentSlide < slides.length - 1) {
@@ -225,7 +225,7 @@
                 })
             );
 
-            // ✅ RETURN
+            //   RETURN
             if (returnButton) {
                 returnButton.addEventListener("click", () => {
                     if (currentSlide > 0) {
@@ -235,14 +235,14 @@
                 });
             }
 
-            // ✅ DONE → redirect
+            //   DONE → redirect
             if (doneButton) {
                 doneButton.addEventListener("click", () => {
                     window.location.href = "{{ route('LivingThings') }}";
                 });
             }
 
-            // ✅ Initialize first slide
+            //   Initialize first slide
             showSlide(currentSlide);
         });
     </script>

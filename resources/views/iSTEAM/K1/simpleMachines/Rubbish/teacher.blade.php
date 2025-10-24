@@ -2,12 +2,11 @@
 @section('title', 'Dynamic Presentation')
 
 @section('content')
-
-
-
+    {{-- title --}}
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">Throw a Rubish Machine</h2>
 
     {{-- sldie 23  --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl t-slide text-white flex-col justify-start text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -17,32 +16,24 @@
             </ul>
         </div>
 
-        <div class="flex w-[100%] items-center justify-between">
-            <div>
-                <h2 class="t-title font-bold">Keywords:</h2>
-                <ul class="list-disc ">
-                    <li>Rube Goldberg Machine</li>
-                    <li>Wheel</li>
-                    <li>Axle</li>
-                    <li>Inclined Plane</li>
-                    <li>Force (push)</li>
-                    <li>Domino Effect</li>
-                </ul>
-            </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute right-[250px] bottom-[150px]"
-                alt="Teacher" />
+        <div>
+            <h2 class="t-title ">Keywords:</h2>
+            <ul class="list-disc ">
+                <li>Rube Goldberg Machine</li>
+                <li>Wheel</li>
+                <li>Axle</li>
+                <li>Inclined Plane</li>
+                <li>Force (push)</li>
+                <li>Domino Effect</li>
+            </ul>
         </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="Teacher" />
     </div>
 
 
-
-
-
-
-
     {{-- slide 24 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-[1rem] text-start">
-        <h2 class="!text-start !text-white">Preparations:</h2>
+    <div class=" slide flex text-2xl t-slide text-white flex-col justify-start text-start">
+        <h2 class="t-title">Preparations:</h2>
         <div class="flex gap-[10rem]">
             <ul class="list-disc">
 
@@ -59,19 +50,18 @@
             </ul>
         </div>
 
-        <img class=" !text-center h-[300px] w-[700px]" src="/assets/images/K1/sm/rubbish-machine/r13.png" />
+        <img class=" !text-center large-img2" src="/assets/images/K1/sm/rubbish-machine/r13.png" />
 
 
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute right-[250px] bottom-[150px]"
-            alt="Teacher" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="Teacher" />
     </div>
 
 
 
     {{-- slide 25 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-center items-center  gap-[0.5rem] text-center">
+    <div class=" slide flex text-2xl t-slide text-white flex-col justify-center items-center  gap-[0.5rem] text-center">
         <ul class="list-disc !text-start">
-            <h2 class="!text-start !text-white">Things to consider for preparations:</h2>
+            <h2 class="t-title">Things to consider for preparations:</h2>
 
             <li>Choose and provide a toy car that not too big but can move smoothly.</li>
             <li>You may provide a toy track or handmade track for children to set up
@@ -80,40 +70,35 @@
 
         </ul>
 
-        <img class=" h-[300px] w-[700px]" src="/assets/images/K1/sm/rubbish-machine/r13.png" />
+        <img class="large-img2" src="/assets/images/K1/sm/rubbish-machine/r13.png" />
 
 
 
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute right-[250px] bottom-[150px]"
-            alt="Teacher" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="Teacher" />
     </div>
 
 
 
     {{--  slide 26 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-center items-center  gap-[0.5rem] ">
+    <div class=" slide flex text-2xl t-slide text-white flex-col justify-center items-center  gap-[0.5rem] ">
         <ul class="list-disc !text-start">
-            <h2 class="!text-start !text-white">Things to consider for preparation:</h2>
+            <h2 class="t-title">Things to consider for preparation:</h2>
 
             <li>Things to consider for preparation:
                 As a reference, the track used in the lesson is formed with a vanguard sheet.
                 The edge is folded and two tracks are put together to make it sturdy.</li>
-
         </ul>
+        <img class="large-img2" src="/assets/images/K1/sm/rubbish-machine/r14.png" />
 
-
-        <img class=" h-[300px] w-[700px]" src="/assets/images/K1/sm/rubbish-machine/r14.png" />
-
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute right-[250px] bottom-[150px]"
-            alt="Teacher" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="Teacher" />
     </div>
 
 
 
 
     {{--  slide 27 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-center align-middle  text-center">
-        <h2 class="!text-start !text-white">Things to consider during hands-on session:</h2>
+    <div class=" slide flex text-2xl t-slide text-white flex-col justify-center  text-start">
+        <h2 class="t-title">Things to consider during hands-on session:</h2>
         <ul class="list-disc !text-start">
 
             <li>Ask questions to prompt children share and try out their ideas. Some possible <br>
@@ -127,13 +112,9 @@
                 machine in such a way that the car will not drop into the dustbin after <br>
                 hit on the target.</li>
             <li>Remember to continue with reflection part after hands-on session.</li>
-
         </ul>
 
-
-
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute right-[250px] bottom-[150px]"
-            alt="Teacher" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="Teacher" />
     </div>
 
 
@@ -141,89 +122,76 @@
 
 
     {{--  slide 27 --}}
-    <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
-        <div class="flex w-[100%] items-center justify-between">
-            <div>
-                <h2 class="font-bold t-title">Notes:</h2>
-                <ul class="list-disc ">
-                    <li>
-                        If you see
-                        <span
-                            class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-                            <!-- Decorative Vector -->
-                            <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
-                                class="absolute top-[4px] left-[6px] h-6 w-[80%]" />
-                            <div class="absolute top-[7px] left-[12px] h-2.5 w-3.5 rounded-sm bg-white"></div>
-                            <img src="{{ asset('assets/images/pptimages/play.png') }}"
-                                class="absolute top-[16px] left-[16px] h-8 w-8" />
-                        </span>
-                        next to a picture, click on the picture to watch the video.
-                    </li>
-                    <li>Always ask questions to encourage children to think and share their
-                        ideas first before giving out any information.</li>
-                    <li>Emphasise and use the keywords during hands-on sessions.
-                    </li>
-                    <li>Print out the Learning Journal (if any) for every <br>
-                        child to complete at the end of the lesson.</li>
+    <div class="slide flex t-slide  flex-col  text-2xl text-start text-white">
+        <div>
+            <h2 class="t-title">Notes:</h2>
+            <ul class="list-disc">
+                <li class="flex">
+                    If you see
+                    <span class="info-btn">
 
-                    <li>Click on this shortcut icon if you need to go to some <br>
-                        parts of the lesson quickly.</li>
-                    Click on this <span class="font-bold t-title">shortcut icon</span>
-                    <span
-                        class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-                        <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
-                            class="absolute top-[4px] left-[6px] h-6 w-[80%]" />
-                        <div class="absolute top-[7px] left-[12px] h-2.5 w-3.5 rounded-sm bg-white"></div>
-                        <img src="{{ asset('assets/images/pptimages/home-icon.png') }}"
-                            class="absolute top-[16px] left-[16px] h-8 w-8" />
+                        <img src="{{ asset('assets/images/pptimages/video.png') }}" />
+                    </span>
+                    next to a picture, click on the picture to watch the video.
+                </li>
+                <li class="flex">
+                    If you see
+                    <span> <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="video-btn" />
+                    </span>
+                    , click on it for additional information or activity.
+                </li>
+                <li>Always ask questions to encourage children to think and share their ideas first before giving
+                    out
+                    any information.</li>
+                <li>Emphasise and use the <strong>keywords</strong> during hands-on sessions.</li>
+                <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
+                </li>
+                <li class="flex">
+                    Click on this shortcut icon
+                    <span> <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" class="home-btn" />
                     </span>
                     if you need to go to some parts of the lesson quickly.
-                    </li>
-                </ul>
-            </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1"  />
-
+                </li>
+            </ul>
         </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
+
     {{-- slide 28 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-center gap-[3rem] text-start">
+    <div class=" slide flex text-2xl t-slide text-white flex-col justify-center gap-[3rem] text-start">
 
 
-        <h2 class="font-bold t-title  title stroke flex justify-center mb-2">Learning Centre Idea</h2>
+        <h2 class=" title stroke text-center">Learning Centre Idea</h2>
 
         <ul class=!text-white>
-            <h2 class="  font-bold  !text-white  !text-start">The Best Throw a Rubbish Machine</h2>
-
-            <li class=" !text-white">What and how to set up:</li>
-            <li class=" !text-white">Place things as listed in preparations here.</li>
-
-
+            <h2 >The Best Throw a Rubbish Machine</h2>
+            <li>What and how to set up:</li>
+            <li>Place things as listed in preparations here.</li>
         </ul>
         <ul>
             <li>What to do:</li>
             <li>Set up a Rube Goldberg Machine that will always throw rubbish <br>
                 successfully.</li>
         </ul>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
 
 
     {{-- slide 29 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-center gap-[3rem] text-start">
+    <div class=" slide flex text-2xl t-slide text-white flex-col justify-center gap-[3rem] text-start">
 
 
-        <h2 class="font-bold t-title  title stroke flex justify-center mb-2">Learning Centre Idea</h2>
+        <h2 class=" text-center title stroke ">Learning Centre Idea</h2>
 
         <ul class=!text-white>
-            <h2 class="  font-bold  !text-white  !text-start">Which toys have wheels and axles?</h2>
+            <h2 class="    !text-white  !text-start">Which toys have wheels and axles?</h2>
 
-            <li class=" !text-white">What and how to set up:</li>
-            <li class=" !text-white">Place a box filled with a variety of toys and an empty box here.</li>
+            <li>What and how to set up:</li>
+            <li>Place a box filled with a variety of toys and an empty box here.</li>
 
 
         </ul>
@@ -233,8 +201,7 @@
                 axles in the empty box.</li>
             <li>2. Show where the wheel and axle of each toy are.</li>
         </ul>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
@@ -260,7 +227,7 @@
 
 
     {{-- Buttons --}}
-    <div id="buttons" class="absolute top-0 right-[60px] flex flex-row gap-6 z-90">
+    <div id="buttons" class="absolute  flex flex-row gap-6 z-90">
 
         <!-- Return Button -->
         <a id="returnButton">
@@ -301,7 +268,7 @@
             const slides = document.querySelectorAll(".slide");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
-            const doneButton = document.querySelector(".doneButton"); // ✅ DONE button
+            const doneButton = document.querySelector(".doneButton"); //   DONE button
 
             let currentSlide = 0;
 
@@ -310,7 +277,7 @@
                     slide.classList.toggle("hidden", i !== index);
                 });
 
-                // ✅ Agar last slide hai → NEXT button hide, DONE show
+                //   Agar last slide hai → NEXT button hide, DONE show
                 if (index === slides.length - 1) {
                     nextButtons.forEach(btn => btn.classList.add("hidden"));
                     if (doneButton) doneButton.classList.remove("hidden");
@@ -320,7 +287,7 @@
                 }
             }
 
-            // ✅ NEXT buttons listener
+            //   NEXT buttons listener
             nextButtons.forEach((btn) => {
                 btn.addEventListener("click", () => {
                     if (currentSlide < slides.length - 1) {
@@ -330,9 +297,13 @@
                 });
             });
 
-            // ✅ Return button
+            //   Return button - redirect if on first slide, otherwise go back
             returnButton.addEventListener("click", () => {
-                if (currentSlide > 0) {
+                if (currentSlide === 0) {
+                    //   First slide pe hai →  
+                    window.location.href = "{{ route('RubbishSelection') }}";
+                } else {
+                    //   Previous slide pe jao
                     currentSlide--;
                     showSlide(currentSlide);
                 }

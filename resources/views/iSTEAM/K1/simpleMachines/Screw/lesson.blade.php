@@ -1,23 +1,12 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
 
-@push('style')
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-    <style>
-        button {
-            cursor: pointer !important;
-        }
-
-        a {
-            cursor: pointer;
-        }
-    </style>
-@endpush
 
 @section('content')
+    {{-- title --}}
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">How Does A Screw Work?</h2>
 
     {{-- Slide 1 --}}
-    <h2 class="title stroke absolute top-[80px] z-[1000]">How Does a Screw Work?</h2>
     <div class="slide flex flex-col items-center justify-center">
         <img src="/assets/images/K1/sm/screw/s1.png" />
         <h2 class="title stroke">What is the boy doing?</h2>
@@ -26,7 +15,7 @@
     </div>
 
     {{-- Slide 2 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5">
+    <div class="slide flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/screw/s2.png" />
         <h2 class="title stroke">This is a <span class="text-white">screw</span>. It is a rod with a spiral groove on it.
             The spiral groove is called <span class="text-white">thread.</span></h2>
@@ -34,11 +23,18 @@
     </div>
 
     {{-- Slide 3 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5">
-        <img src="/assets/images/K1/sm/screw/s3.png" />
+    <div class="slide flex flex-col items-center justify-center ">
+        <video id="video1" class="pointer-events-none">
+            <source src="{{ asset('assets/images/K1/sm/44.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
         <h2 class="title stroke">This is how <span class="text-white">screw</span> goes inside a plank of wood!
             The <span class="text-white">thread</span> of the screw helps it to go into the wood easily.</h2>
         <p class="note"></p>
+        <!-- Video Trigger Button -->
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
+        </div>
     </div>
 
     {{-- Slide 4 --}}
@@ -58,20 +54,20 @@
     </div>
 
     {{-- Slide 6 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5">
+    <div class="slide flex flex-col items-center justify-center ">
         <h2 class="title stroke"><span class="text-white">simple machine</span> are basic tools that help us to do work
             easily.</h2>
         <p class="note">Note: Explain that there are 6 types of simple machines and screw is one of it.</p>
     </div>
 
     {{-- Slide 7 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5">
+    <div class="slide flex flex-col items-center justify-center ">
         <h2 class="title stroke">Do you know how a <span class="text-white">screw</span> helps us to do work easily?</h2>
         <p class="note">Note: Let children share what they know.</p>
     </div>
 
     {{-- Slide 8 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5">
+    <div class="slide flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/screw/s1.png" />
         <h2 class="title stroke">A <span class="text-white">screw</span> generally helps to hold things together easily.
         </h2>
@@ -80,263 +76,346 @@
     </div>
 
     {{-- Slide 9 --}}
-    <div class="slide flex flex-col items-center justify-start gap-5">
+    <div class="slide flex flex-col items-center justify-start ">
         <h2 class="title stroke">Can you name some things which have <span class="text-white">screws</span> on them?</h2>
         <p class="note">Note: Have children name some things in their surroundings which have screws on them.</p>
     </div>
 
     {{-- Slide 10 --}}
     <div class="slide flex flex-col items-center justify-start gap-4">
-        <img src="/assets/images/K1/sm/screw/s6.png" />
+        <img src="/assets/images/K1/sm/screw/s6.png" class="large-img" />
         <h2 class="title stroke">What is this? Where is the screw? What does it do?</h2>
     </div>
 
     {{-- Slide 11 --}}
-    <div class="slide flex flex-col items-center justify-start gap-5">
-        <img src="/assets/images/K1/sm/screw/s6.png" />
+    <div class="slide flex flex-col items-center justify-start ">
+        <img src="/assets/images/K1/sm/screw/s6.png" class="large-img" />
         <h2 class="title stroke">The screw is on the swing. It is used to hold the chain and the seat of the swing together.
         </h2>
     </div>
 
     {{-- Slide 12 --}}
-    <div class="slide flex flex-col items-center justify-start gap-5">
+    <div class="slide flex flex-col items-center justify-start ">
         <img src="/assets/images/K1/sm/screw/s7.png" />
         <h2 class="title stroke">What is this? Where is the screw? What does it do?</h2>
     </div>
 
     {{-- Slide 13 --}}
-    <div class="slide flex flex-col items-center justify-start gap-5">
+    <div class="slide flex flex-col items-center justify-start ">
         <img src="/assets/images/K1/sm/screw/s7.png" />
         <h2 class="title stroke">There are two screws on the coat hook. A screw driver is used to drive a screw in. The
             screws fix the hook easily.</h2>
     </div>
 
     {{-- Slide 14 --}}
-    <div class="slide flex flex-col items-center justify-start gap-5">
-        <img src="/assets/images/K1/sm/screw/s8.png" />
+    <div class="slide flex flex-col items-center justify-start ">
+        <img src="/assets/images/K1/sm/screw/s8.png" class="large-img2" />
         <h2 class="title stroke">What is this? Where is the screw? What does it do?</h2>
     </div>
 
     {{-- Slide 15 --}}
-    <div class="slide flex flex-col items-center justify-start gap-5">
-        <img src="/assets/images/K1/sm/screw/s8.png" />
+    <div class="slide flex flex-col items-center justify-start ">
+        <img src="/assets/images/K1/sm/screw/sl1.png" class="large-img2" />
         <h2 class="title stroke">The base of the light bulb has thread on it and is a screw. It helps us to fix the light
             bulb into the socket.</h2>
     </div>
 
     {{-- Slide 16 --}}
-    <div class="slide flex flex-col items-center justify-start gap-5">
-        <img src="/assets/images/K1/sm/screw/s9.png" />
+    <div class="slide flex flex-col items-center justify-start ">
+        <img src="/assets/images/K1/sm/screw/s9.png" class="large-img" />
         <h2 class="title stroke">What is this? Where is the screw? What does it do?</h2>
     </div>
 
     {{-- Slide 17 --}}
-    <div class="slide flex flex-col items-center justify-start gap-5">
-        <img src="/assets/images/K1/sm/screw/s9.png" />
+    <div class="slide flex flex-col items-center justify-start ">
+        <img src="/assets/images/K1/sm/screw/sl2.png" class="large-img" />
         <h2 class="title stroke">The bottle lid has thread on it and is a screw. It helps us to close the bottle tightly.
         </h2>
     </div>
 
     {{-- Slide 18 --}}
-    <div class="slide flex flex-col items-center justify-start gap-5">
-        <img src="/assets/images/K1/sm/screw/s10.png" />
+    <div class="slide flex flex-col items-center justify-start ">
+        <img src="/assets/images/K1/sm/screw/s10.png" class="large-img" />
         <h2 class="title stroke">What is this? Where is the screw? What does it do?</h2>
     </div>
 
     {{-- Slide 19 --}}
-    <div class="slide flex flex-col items-center justify-start gap-5">
-        <img src="/assets/images/K1/sm/screw/s10.png" />
+    <div class="slide flex flex-col items-center justify-start ">
+        <img src="/assets/images/K1/sm/screw/sl3.png" class="large-img" />
         <h2 class="title stroke">The stool has a screw below the seat. It helps to raise the seat to the correct height.
         </h2>
     </div>
 
     {{-- Slide 20 --}}
-    <div class="slide flex flex-col items-center justify-start gap-5">
+    <div class="slide flex flex-col items-center justify-start ">
         <img src="/assets/images/K1/sm/screw/s11.png" />
         <h2 class="title stroke">How do you (always) get holes punched in the paper?</h2>
     </div>
 
     {{-- Slide 21 --}}
-    <div class="slide flex flex-col items-center justify-start gap-5">
-        <img src="/assets/images/K1/sm/screw/s11.png" />
+    <div class="slide flex flex-col items-center justify-start ">
+        <img src="/assets/images/K1/sm/screw/sl4.png" />
         <h2 class="title stroke">Arrange the books from small to big.</h2>
     </div>
 
     {{-- Slide 22 --}}
-    <div class="slide flex flex-col items-center justify-start gap-5">
+    <div class="slide flex flex-col items-center justify-start ">
         <img src="/assets/images/K1/sm/screw/s12.png" />
         <h2 class="title stroke">What is this? Where is the screw? What does it do?</h2>
     </div>
-    <div class="slide flex flex-col items-center justify-start gap-5">
-        <img src="/assets/images/K1/sm/screw/s12.png" />
+
+    {{-- slide 23 --}}
+    <div class="slide flex flex-col items-center justify-start ">
+        <img src="/assets/images/K1/sm/screw/sl5.png" />
         <h2 class="title stroke">A spiral car park is a screw. It helps us to move cars up or down a building easily for
             parking.</h2>
     </div>
-    <div class="slide flex flex-col items-center justify-start gap-5">
+
+    {{-- slie 24 --}}
+    <div class="slide flex flex-col items-center justify-start ">
         <img src="/assets/images/K1/sm/screw/s13.png" />
         <h2 class="title stroke">What is this? Where is the screw? What does it do?</h2>
     </div>
-    <div class="slide flex flex-col items-center justify-start gap-5">
-        <img src="/assets/images/K1/sm/screw/s13.png" />
+
+    {{-- slide 25 --}}
+    <div class="slide flex flex-col items-center justify-start ">
+        <img src="/assets/images/K1/sm/screw/sl6.png" />
         <h2 class="title stroke">This is a special type of screw called <span class="text-white">Archimedes’ screw.</span>
         </h2>
     </div>
-    <div class="slide flex flex-col items-center justify-start gap-5">
+
+    {{-- slide 26 --}}
+    <div class="slide flex flex-col items-center justify-start ">
         <img src="/assets/images/K1/sm/screw/s13.png" />
         <h2 class="title stroke"><span class="text-white">Archimedes’ screw.</span> is big and usually used in farms.</h2>
     </div>
-    <div class="slide flex flex-col items-center justify-start gap-5">
+
+    {{-- slide 27 --}}
+    <div class="slide flex flex-col items-center justify-start ">
         <img src="/assets/images/K1/sm/screw/s13.png" />
         <h2 class="title stroke">It is used to transfer water from a lower place ot a higher place.</h2>
     </div>
-    <div class="slide flex flex-col items-center justify-start gap-5">
+
+    {{-- slide 28 --}}
+    <div class="slide flex flex-col items-center justify-start ">
         <h2 class="title stroke">Now, let’s learn how to make a small Archimedes’ screw and find out how it works!</h2>
     </div>
-    <div class="slide flex flex-col items-center justify-start gap-5">
+
+    {{-- slide 29 --}}
+    <div class="slide flex flex-col items-center justify-start ">
         <img src="/assets/images/K1/sm/screw/s14.png" />
         <h2 class="title stroke">Let’s find out: How do we make an Archimedes’ screw? How does it work?</h2>
     </div>
-    <div class="slide flex flex-col items-center justify-start gap-5">
+
+    {{-- slide 30 --}}
+    <div class="slide flex flex-col items-center justify-start ">
         <h2 class="title stroke">Let’s do: Wrap the plastic tubing around a tube and fix it with tape.</h2>
         <img src="/assets/images/K1/sm/screw/s15.png" />
     </div>
-    <div class="slide flex flex-col items-center justify-start gap-5">
+
+    {{-- slide 31 --}}
+    <div class="slide flex flex-col items-center justify-start ">
         <img src="/assets/images/K1/sm/screw/s16.png" />
         <h2 class="title stroke">Your Archimedes’ screw is ready.</h2>
     </div>
-    <div class="slide flex flex-col items-center justify-start gap-5">
+
+    {{-- slide 32 --}}
+    <div class="slide flex flex-col items-center justify-start ">
         <h2 class="title stroke">Let’s do: Put some water in a large container and add food colouring.</h2>
         <img src="/assets/images/K1/sm/screw/s17.png" />
     </div>
-    <div class="slide flex flex-col items-center justify-start gap-5">
+
+    {{-- sldie 33 --}}
+    <div class="slide flex flex-col items-center justify-start ">
         <h2 class="title stroke">Let’s do: Place the screw in the coloured water as shown.</h2>
         <img src="/assets/images/K1/sm/screw/s18.png" />
     </div>
-    <div class="slide flex flex-col items-center justify-start gap-5">
-        <img src="/assets/images/K1/sm/screw/s19.png" />
-        <h2 class="title stroke"><span class="text-white">What do you think (Prediction):</span> What will happen when we
-            turn the Archimedes’ screw?</h2>
+
+    {{-- sldie 34 --}}
+    <div class="slide flex flex-col items-center justify-start ">
+        <video id="video3" class="pointer-events-none">
+            <source src="{{ asset('assets/images/K1/sm/45.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <h2 class="title stroke"><span class="text-white">What do you think (Prediction):</span> <br>
+            What will happen when we turn the Archimedes’ screw?</h2>
+        <!-- Video Trigger Button -->
+        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
+        </div>
     </div>
-    <div class="slide flex flex-col items-center justify-start gap-5">
-        <h2 class="title stroke">Let’s do: Take turns to turn your Archimedes’ screw.</h2>
-        <img src="/assets/images/K1/sm/screw/s19.png" />
+
+    {{-- sldie 35 --}}
+    <div class="slide flex flex-col items-center justify-start ">
+        <h2 class="title stroke">Let’s do: <br>
+            4. Take turns to turn your Archimedes’ screw.</h2>
+        <video id="video4" class="pointer-events-none">
+            <source src="{{ asset('assets/images/K1/sm/45.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <!-- Video Trigger Button -->
+        <div onclick="toggleVideo('video4')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
+        </div>
     </div>
-    <div class="slide flex flex-col items-center justify-start gap-5">
+
+    {{-- slide 36 --}}
+    <div class="slide flex flex-col items-center justify-start ">
         <img src="/assets/images/K1/sm/screw/s19.png" />
         <h2 class="title stroke"><span class="text-white">What do you observe (Result):</span> What happens when we start
             turning the screw?</h2>
     </div>
-    <div class="slide flex flex-col items-center justify-start gap-5">
-        <h2 class="title stroke"><span class="text-white">What do you learn:</span> How does an Archimedes’ screw work?
-        </h2>
+
+
+    {{-- slide 37 --}}
+    <div class="slide flex flex-col items-center justify-start ">
+        <h2 class="title stroke"><span class="text-white">What do you learn:</span><br>
+            How does an Archimedes’ screw work?</h2>
         <p class="note">Note: After the hands-on activity, guide children to understand how an Archimedes’ screw work.
         </p>
     </div>
-    <div class="slide flex flex-col items-center justify-start gap-5">
-        <img src="/assets/images/K1/sm/screw/s19.png" />
+
+
+    {{-- slide 38 --}}
+    <div class="slide flex flex-col items-center justify-start ">
+        <video id="video5" class="pointer-events-none">
+            <source src="{{ asset('assets/images/K1/sm/46.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
         <h2 class="title stroke">Through the activity, we learn that when we turn the screw, the water rises up the tubing
             and flows into the small container.</h2>
+        <!-- Video Trigger Button -->
+        <div onclick="toggleVideo('video5')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
+        </div>
     </div>
-    <div class="slide flex flex-col items-center justify-start gap-5">
+
+
+    {{-- sldie 39 --}}
+    <div class="slide flex flex-col items-center justify-start ">
+        <video id="video6" class="pointer-events-none">
+            <source src="{{ asset('assets/images/K1/sm/46.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <h2 class="title stroke">Water is taken in at the bottom and moves up the thread of the screw as it rotates.</h2>
+        <!-- Video Trigger Button -->
+        <div onclick="toggleVideo('video6')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
+        </div>
+    </div>
+
+    {{-- slide  40 --}}
+    <div class="slide flex flex-col items-center justify-start ">
         <img src="/assets/images/K1/sm/screw/s19.png" />
         <h2 class="title stroke">Water is taken in at the bottom and moves up the thread of the screw as it rotates.</h2>
     </div>
-    <div class="slide flex flex-col items-center justify-start gap-5">
-        <img src="/assets/images/K1/sm/screw/s19.png" />
-        <h2 class="title stroke">Water is taken in at the bottom and moves up the thread of the screw as it rotates.</h2>
-    </div>
-    <div class="slide flex flex-col items-center justify-start gap-5">
+
+    {{-- sldie 41 --}}
+    <div class="slide flex flex-col items-center justify-start ">
         <img src="/assets/images/K1/sm/screw/s13.png" />
         <h2 class="title stroke">How is the Archimedes’ screw useful?</h2>
         <p class="note">Note: Have children freely share their ideas.</p>
     </div>
-    <div class="slide flex flex-col items-center justify-start gap-5">
+
+    {{-- sldie 42 --}}
+    <div class="slide flex flex-col items-center justify-start ">
         <img src="/assets/images/K1/sm/screw/s13.png" />
         <h2 class="title stroke">The Archimedes’ screw helps to transfer water from a lower place to a higher place and is
             used in farms.</h2>
     </div>
-    <div class="slide flex flex-col items-center justify-start gap-5">
-        <img src="/assets/images/K1/sm/screw/s20.png" />
+
+    {{-- slide 43 --}}
+    <div class="slide flex flex-col items-center justify-start ">
+        <img src="/assets/images/K1/sm/screw/s20.png" class="large-img2" />
         <h2 class="title stroke">How do you think we can use this Archimedes’ screw in our school or home?</h2>
         <p class="note">Note: Have children freely share their ideas. Encourage them to try their ideas with the screw
             they have made.</p>
     </div>
 
-    {{-- Slide 23 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-4">
-        <h2 class="title stroke !text-white">Learning Journal</h2>
-        <div class="w-[950px] h-[550px] bg-cover bg-center flex flex-col p-[40px] justify-flex-start"
-            style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
-            <p>Draw the Rube Goldberg Machine that you have created to punch holes in a sheet of paper.</p>
-        </div>
-    </div>
+
+
 
     {{-- Complete button --}}
     <div class="down-btn-container">
-        <button
-            class="cursor-pointer doneButton w-66 h-[75px] relative bg-[#F8A23A] rounded-[30px] shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] outline outline-1 outline-yellow-700 overflow-hidden">
-            <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
-            <div class="absolute left-[8.22px] top-[3.17px]"><img src="/assets/images/pptimages/Vector4.png" /></div>
-            <span
-                class="absolute left-[80px] top-[18px] flex items-center text-white text-5xl font-bold stroke">DONE</span>
+        <button class="doneButton">
+            <img src="{{ asset('assets/images/pptimages/done.png') }}" />
         </button>
     </div>
 
     {{-- Buttons --}}
- <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
+    <div id="buttons" class="absolute  flex flex-row gap-6 ">
         <!-- Return Button -->
-        <a class="relative w-24 h-24 button-fade-in bg-[#59967D] rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-[#22664A] flex justify-center items-center"
-            id="returnButton">
-            <img class="absolute top-[6px] left-[8px] w-20 h-10" src="{{ asset('assets/images/K1/cm/Vector4.png') }}" />
-            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <img class=" w-14 h-14"
-                src="{{ asset('assets/images/pptimages/reverse-icon.png') }}" />
+        <a id="returnButton">
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
         <!-- Home Button -->
-        <button
-     id="homeButton">
-            <img 
-                src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
         <!-- Close Button -->
-        <button  id="closeButton">
-           
-            <img class="absolute top-[6px] left-[8px] w-20 h-10"
-                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <div id="closeButtonText"
-                class=" w-11 h-16 text-white text-6xl">X</div>
+        <button id="closeButton">
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
         </button>
     </div>
     {{-- Next Button --}}
     <div class="down-btn-container">
-        <button
-            class="cursor-pointer nextButton w-66 h-[75px] relative bg-[#F8A23A] rounded-[30px] shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] outline outline-1 outline-yellow-700 overflow-hidden">
-            <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
-            <div class="absolute left-[8.22px] top-[3.17px]"><img src="/assets/images/pptimages/Vector4.png" /></div>
-            <span
-                class="absolute left-[80px] top-[18px] flex items-center text-white text-5xl font-bold stroke">NEXT</span>
-        </button>
+        <button class="nextButton">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
     </div>
 
 @endsection
 
 @push('script')
     <script>
+        // Video toggle function - plays or pauses a video when clicked
+        function toggleVideo(videoId) {
+            const video = document.getElementById(videoId);
+            if (video.paused) {
+                video.play();
+            } else {
+                video.pause();
+            }
+        }
+
         document.addEventListener("DOMContentLoaded", () => {
+            // Get all slide elements
             const slides = document.querySelectorAll(".slide");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
             const doneButton = document.querySelector(".doneButton");
 
+            // Keep track of which slide we're currently viewing
             let currentSlide = 0;
 
+            // CONFIGURE YOUR ROUTES HERE
+            const returnRouteFromFirstSlide = "{{ route('ScrewSelection') }}";
+            const doneButtonRoute = "{{ route('ScrewSelection') }}";
+
+            // Pause all videos when changing slides
+            function pauseAllVideos() {
+                const videos = document.querySelectorAll('video');
+                videos.forEach(video => {
+                    if (!video.paused) {
+                        video.pause();
+                    }
+                });
+            }
+
+            // Show a specific slide and hide all others
             function showSlide(index) {
+                // Pause all videos before switching
+                pauseAllVideos();
+
+                // Hide all slides except the current one
                 slides.forEach((slide, i) => {
                     slide.classList.toggle("hidden", i !== index);
                 });
 
-                if (index === slides.length - 1) {
+                // Check if last slide
+                const isLastSlide = index === slides.length - 1;
+
+                if (isLastSlide) {
                     nextButtons.forEach(btn => btn.classList.add("hidden"));
                     if (doneButton) doneButton.classList.remove("hidden");
                 } else {
@@ -345,6 +424,7 @@
                 }
             }
 
+            // NEXT button
             nextButtons.forEach((btn) => {
                 btn.addEventListener("click", () => {
                     if (currentSlide < slides.length - 1) {
@@ -354,19 +434,28 @@
                 });
             });
 
+            // RETURN button - go to previous slide or navigate back
             returnButton.addEventListener("click", () => {
+                // If on first slide, navigate to return route
+                if (currentSlide === 0) {
+                    window.location.href = returnRouteFromFirstSlide;
+                    return;
+                }
+
                 if (currentSlide > 0) {
                     currentSlide--;
                     showSlide(currentSlide);
                 }
             });
 
+            // DONE button - navigate to completion route
             if (doneButton) {
                 doneButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('ScrewSelection') }}";
+                    window.location.href = doneButtonRoute;
                 });
             }
 
+            // Initialize - show first slide
             showSlide(currentSlide);
         });
     </script>

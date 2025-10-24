@@ -204,7 +204,7 @@
 
 
     {{-- slide 23 --}}
-    <div class="slide hidden  flex flex-col items-center justify-between h-[90%]  ">
+    <div class="slide hidden  flex flex-col items-center justify-between   ">
         <h2 class="!text-white title stroke">Individual Activity</h2>
         <h2 class="title stroke">Now, let's learn how to dust for fingerprints and lift them
             from a smooth surface!</h2>
@@ -375,7 +375,7 @@
 
 
     {{-- SLIDE 36 --}}
-    <div class="slide hidden  flex flex-col items-center justify-between h-[90%]  ">
+    <div class="slide hidden  flex flex-col items-center justify-between   ">
         <h2 class="!text-white title stroke">Class Activity</h2>
         <h2 class="title stroke">Now, let's act like detectives to solve a case!</h2>
         <p class="text-center note">Note: Brief children that they are going to study a case, analyse the evidence and
@@ -535,7 +535,7 @@
     </div>
 
 
- <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
+ <div id="buttons" class="absolute  flex flex-row gap-6 ">
 
         <!-- Return Button -->
         <a id="returnButton">

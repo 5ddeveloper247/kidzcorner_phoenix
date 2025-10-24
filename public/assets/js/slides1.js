@@ -112,7 +112,7 @@ document.addEventListener("DOMContentLoaded", function () {
     homeButton?.addEventListener("click", goHome);
     closeButton?.addEventListener("click", closePresentationOrCustomAction);
     nextButton?.addEventListener("click", nextSlide);
-    bearButton?.addEventListener("click", nextSlide); // ✅ Bear button behaves like Next
+    bearButton?.addEventListener("click", nextSlide); //   Bear button behaves like Next
 
     // 🔹 Blade loader
     window.loadBlade = function (url, targetContainerId) {

@@ -6,7 +6,7 @@
     <div id="topDiv" class="flex flex-col items-center ">
         <div class="indexTitle  text-[55px]  stroke">How Does a Plant Drink Water?</div>
         <h2
-            class="text-2xl sm:text-3xl lg:text-6xl text-white max-w-5xl leading-snug flex flex-col items-center space-x-[30px]">
+            class="text-2xl sm:text-3xl lg:text-6xl text-white    flex flex-col items-center space-x-[30px]">
             Observe how plants drink water</h2>
         <button class="nextButton"> <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
 
@@ -17,7 +17,7 @@
 
 
 
-    <div id="buttons" class="absolute right-[60px] flex flex-row gap-6 ">
+    <div id="buttons" class="absolute  flex flex-row gap-6 ">
 
         <!-- Return Button -->
         <button id="returnButton">
