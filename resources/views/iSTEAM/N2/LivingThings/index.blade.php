@@ -59,10 +59,8 @@
 
     {{--  Top Buttons --}}
     <div id="buttons" class="absolute flex flex-row gap-6 z-90">
-
         <!-- Return Button (hidden initially) -->
         <a href="{{ route('N2') }}" id="returnButton">
-
             <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
         <!-- Home Button -->
@@ -72,9 +70,7 @@
 
         <!-- Close Button -->
         <button id="closeButton">
-
             <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-
         </button>
     </div>
 @endsection

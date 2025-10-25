@@ -55,16 +55,17 @@
             font-size: 60px;
             color: white;
         }
-            .note {
-                font-size: 24px;
-                font-weight: 400;
-                color: white;
-            }
 
-            a {
-                cursor: pointer;
+        .note {
+            font-size: 24px;
+            font-weight: 400;
+            color: white;
+        }
 
-            }
+        a {
+            cursor: pointer;
+
+        }
     </style>
 @endpush
 
@@ -74,52 +75,38 @@
 
 
     <div class=" flex items-center flex-col justify-center text-center z-[99] w-full">
-        <h2 class="text-[50px] text-[#F7B94A] stroke"> Coding Challenge (1)</h2>
+        <h2 class="text-[50px] text-[#F7B94A] stroke"> How Plants Grow</h2>
         <div class="flex items-center justify-around w-full">
 
             {{-- Lesson Button --}}
             <a href="{{ route('PgrowLesson') }}" id="Lesson" class="flex flex-col gap-0">
                 <img src="/assets/images/pptimages/lesson-btn.png" />
-
-                 
-
             </a>
+
             {{-- Teacher Button --}}
             <a href="{{ route('PgrowTeacher') }}" id="Lesson" class="flex flex-col gap-0">
                 <img src="/assets/images/pptimages/teacher-btn.png" />
-
-                 
-
             </a>
         </div>
     </div>
 
 
 
- <div id="buttons" class="absolute  flex flex-row gap-6 ">
-
+    <div id="buttons" class="absolute  flex flex-row gap-6 ">
         <!-- Return Button -->
-        <a href="{{ route('Pgrow') }}"
-         
-    id="returnButton">
+        <a href="{{ route('Pgrow') }}" id="returnButton">
 
-            <img 
-                src="{{ asset('assets/images/pptimages/return.png') }}" />
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
         <!-- Home Button -->
-        <button
-          id="homeButton">
-            <img 
-                src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
         <button id="closeButton">
-           
-<img  src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-   
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
         </button>
-
     </div>
 
 

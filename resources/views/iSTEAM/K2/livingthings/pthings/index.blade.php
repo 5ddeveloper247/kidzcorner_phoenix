@@ -1,6 +1,6 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
- 
+
 @section('content')
 
     <div id="topDiv" class="flex flex-col gap-20 items-center ">
@@ -9,39 +9,32 @@
             Analyse to determine that plants are living things;
             name some example of living and non-living things</h2>
 
-            <button
-                class="cursor-pointer nextButton w-66 h-[90px] relative bg-[#F8A23A]  rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
-        outline outline-1 outline-yellow-700 overflow-hidden">
-                            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
-
-            </button>
+        <button class="nextButton">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
+        </button>
     </div>
 
 
 
 
 
- <div id="buttons" class="absolute  flex flex-row gap-6 ">
+    <div id="buttons" class="absolute  flex flex-row gap-6 ">
 
         <!-- Return Button -->
-        <button
-        id="returnButton">
-            <img 
-                src="{{ asset('assets/images/pptimages/return.png') }}" />
+        <button id="returnButton">
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </button>
 
         <!-- Home Button -->
-        <button
-          id="homeButton">
-            <img 
-                src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
         <button id="closeButton">
-           
-<img  src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-   
+
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
+
         </button>
 
     </div>
@@ -60,7 +53,7 @@
                     window.location.href = "{{ route('pthingsSelection') }}";
                 });
             }
-              if (returnButton) {
+            if (returnButton) {
                 returnButton.addEventListener("click", () => {
                     window.location.href = "{{ route('k2livingthings') }}";
                 });

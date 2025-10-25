@@ -1,157 +1,107 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
- 
+
 @section('content')
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
-                <li>Plan a route for a purpose</li>
-                <li>Programme a robot to move according to the planned route</li>
-                <li>Programme a robot to produce sound and light</li>
-                <li>Develop problem-solving skills</li>
-                <li>Develop understanding through inquiry</li>
+                <li class="text-[1.3vw]">Explore and learn about the basic characteristics of living things</li>
+                <li class="text-[1.3vw]">Analyse and sort things into living and non-living things</li>
+                <li class="text-[1.3vw]">Programme a robot to produce sound and light</li>
+                <li class="text-[1.3vw]">Know that all animals are living things</li>
+                <li class="text-[1.3vw]">Develop understanding through inquiry</li>
             </ul>
         </div>
 
         <div class="flex flex-col  items-start justify-between">
             <h2 class="t-title font-bold">Keywords:</h2>
-            <div >
+            <div class="flex gap-[5vw]">
                 <ul class="list-disc ">
-                    <li>Programming Block</li>
-                    <li>Forward</li>
-                    <li>Backward</li>
-                    <li>Turn Left</li>
-                    <li>Turn Right</li>
+                    <li class="text-[1.3vw]">Living Thing</li>
+                    <li class="text-[1.3vw]">Non-living Thing</li>
+                    <li class="text-[1.3vw]">Move</li>
+                    <li class="text-[1.3vw]">Water</li>
+                    <li class="text-[1.3vw]">Food</li>
                 </ul>
                 <ul class="list-disc">
-                    <li>Sound </li>
-                    <li>Light</li>
+                    <li class="text-[1.3vw]">Air </li>
+                    <li class="text-[1.3vw]">Grow</li>
+                    <li class="text-[1.3vw]">Produce Young</li>
+                    <li class="text-[1.3vw]">Animals</li>
                 </ul>
             </div>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start text-start">
         <div>
-            <h2 class="font-bold t-title">Preparations:</h2>
+            <h2 class="font-bold t-title">Preparations for Class Activity 1 - comparison of living and non-living things:
+            </h2>
             <ul class="list-disc ">
-                <li>Coding mats and obstacle cards</li>
+                <li class="text-[1.3vw]">A teddy bear</li>
+                <li class="text-[1.3vw]">Use whiteboard mode during discussion [Tick or cross to complete the
+                    table of comparison (as shown below) with the whiteboard pen. For
+                    documentation purpose, you may want to save or print the page.]</li>
             </ul>
         </div>
-        <div class="flex gap-5">
-            <img src="{{ asset('assets/images/K1/coding/challenge1/ch9.png') }}" alt="Teacher" class="absolute teacher-img1" />
-            <img src="{{ asset('assets/images/K1/coding/challenge1/ch12.png') }}" alt="Teacher" class="absolute teacher-img1" />
-            <img src="{{ asset('assets/images/K1/coding/challenge1/ch11.png') }}" alt="Teacher" class="absolute teacher-img1" />
+        <div>
+            <img src="{{ asset('assets/images/K2/livingthings/things/t23.png') }}" alt="Teacher" class="" />
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
     {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start text-start">
         <div>
-            <h2 class="font-bold t-title">Preparations:</h2>
+            <h2 class="font-bold t-title">Things to consider during hands-on sessions:</h2>
             <ul class="list-disc">
-                <li>Each group a set of coloured cards (cut from coloured papers; size not more
-                    than 10cm)</li>
-                <li>Blu Tack (for fixing graphic cards on the coding mat)</li>
+                <li class="text-[1.3vw]">
+                    Ask questions to prompt children share their prior knowledge and experiences. You may ask questions
+                    based on children's interest and response too.
+                </li>
+                <li class="text-[1.3vw]">
+                    Some possible questions for Activity 1: What will happen if you have no access to water? How long do you
+                    think you can live without water? Why do we need food? How long do you think you can live without food?
+                    How do you change since you were born?
+                </li>
+                <li class="text-[1.3vw]">
+                    Some possible questions for Activity 2: A piece of fried chicken is made from chickens, which are
+                    animals. Would you call it a living or non-living thing? Why? Ball, toy train and doll are toys. Do you
+                    think toys are living or non-living things? Why? If all toys are non-living things, how about the
+                    cartoon characters that we know? Are they living or non-living things? Why?
+                </li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K1/coding/challenge2/ch1.png') }}" class="w-[500px]" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- slide 4 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start text-start">
         <div>
-            <h2 class="font-bold t-title">Preparations for the testing of the ball roller coaster:</h2>
+            <h2 class="font-bold t-title">Additional information:</h2>
             <ul class="list-disc">
-                <li>Coding cards</li>
-                <li>Whiteboard marker pens</li>
+                <li class="text-[1.3vw]">
+                    Many things have one or more characteristics of living things, but a living thing must has all of the
+                    characteristics of living things.
+                </li>
+                <li class="text-[1.3vw]">
+                    Many things that move like car, fan and windmill are non-living things. These
+                    things moved by external power like fuel, battery, electricity and wind.
+                </li>
+                <li class="text-[1.3vw]">
+                    All human-made things are non-living things. But some natural things around us like rock, water, air and
+                    cloud are non-living things too.
+                </li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K1/coding/challenge2/ch9.png') }}" class="w-[800px]" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
-    </div>
-
-
-    {{-- slide 5 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
-        <div>
-            <h2 class="font-bold t-title">Preparations:</h2>
-            <ul class="list-disc">
-                <li>The robots and tablets (refer to the teacher’s mode of Lesson 1 for guide on
-                    what you need to know and do before the lesson)</li>
-                <li>Tender Loving Care Poster (refer to the teacher’s mode of Lesson 1)</li>
-            </ul>
-        </div>
-        <img src="{{ asset('assets/images/K1/coding/cd/cd13.png') }}" alt="Teacher" class="w-[600px]" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
-    </div>
-
-    {{-- sldie 6 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
-        <div>
-            <h2 class="font-bold t-title">Preparations:</h2>
-            <ul class="list-disc">
-                <li>Mini coding cards (print and cut out before the lesson)</li>
-            </ul>
-        </div>
-        <img src="{{ asset('assets/images/K1/coding/challenge1/ch13.png') }}" alt="Teacher" class="w-[500px]" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
-    </div>
-
-
-    {{-- sldie 7 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
-        <p class="note">When the hands-on sessions 1 or 2 start, guide each group of children to set up
-            the mat accordingly (as shown). Advise them to discuss as a group to complete the
-            mission. <span class="text-[#F7B94A]"> If needed, adjust the level of difficulty by reducing the number of
-                colour cards on the mat for different groups.</span></p>
-        <img src="{{ asset('assets/images/K1/coding/challenge2/ch3.png') }}" alt="Teacher" class="w-[400px]" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
-    </div>
-
-
-    {{-- sldie 8 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
-        <p class="note">If time allows, let children repeat the hands-on session by adding obstacles
-            into the coding mat (example as shown)</p>
-        <img src="{{ asset('assets/images/K1/coding/challenge2/ch10.png') }}" alt="Teacher" class="w-[400px]" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
-    </div>
-
-
-    {{-- sldie 9 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
-        <div>
-            <h2 class="font-bold t-title">Reminders or advice during hands-on session:</h2>
-            <ul class="list-disc ">
-                <li>Always hold a robot or a tablet with both your hands (to show your care and prevent the tools from
-                    spoiling easily).</li>
-                <li>Never place your hands on the wheels of the robot (prevent yourself from getting hurt).</li>
-                <li>Never hold the robot by its head (prevent it from spoiling easily).</li>
-                <li>Never push and stop the robot from moving once you turn on a programme (prevent it from spoiling
-                    easily).</li>
-                <li>Be patient and take turns when using the different tools.</li>
-            </ul>
-        </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
@@ -161,67 +111,63 @@
             <div>
                 <h2 class="font-bold t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
-                    <li>
+                    <li class="text-[1.3vw] flex">
                         If you see
-                        <span
-                            class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-                            <!-- Decorative Vector -->
-                            <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
-                                class="absolute top-[4px] left-[6px] h-6 w-[80%]" />
-                            <div class="absolute top-[7px] left-[12px] h-2.5 w-3.5 rounded-sm bg-white"></div>
-                            <img src="{{ asset('assets/images/pptimages/play.png') }}"
-                                class="absolute top-[16px] left-[16px] h-8 w-8" />
+                        <span class="info-btn">
+                            <img src="{{ asset('assets/images/pptimages/video.png') }}" />
                         </span>
                         next to a picture, class="text-amber-400" click on the picture to watch the video.
                     </li>
-                    <li>Emphasise and use the <strong>keywords</strong> during hands-on sessions.</li>
-                    <li class="text-amber-400">The fundamental skill of coding or programming is ability to
+                    <li class="text-[1.3vw]">Emphasise and use the <strong>keywords</strong> during hands-on sessions.</li>
+                    <li class="text-[1.3vw]" class="text-amber-400">The fundamental skill of coding or programming is
+                        ability to
                         differentiate and navigate self to move forward, backward, turn left
                         and turn right. If children are not ready, play more related games to
                         improve the skill.</li>
-                    <li class="text-amber-400">It is important to inculcate the habit of always laying out the steps
+                    <li class="text-[1.3vw]" class="text-amber-400">It is important to inculcate the habit of always
+                        laying out the steps
                         using coding cards before working on the Blockly because it's not easy
                         for children to remember all the steps when they use Blockly to
                         programme.</li>
-                    <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
+                    <li class="text-[1.3vw]">Print out the Learning Journal (if any) for every child to complete at the end
+                        of the lesson.
                     </li>
-                    <li>
+                    <li class="text-[1.3vw] flex">
                         Click on this <span class="font-bold t-title">shortcut icon</span>
-                        <span
-                            class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-                            <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
-                                class="absolute top-[4px] left-[6px] h-6 w-[80%]" />
-                            <div class="absolute top-[7px] left-[12px] h-2.5 w-3.5 rounded-sm bg-white"></div>
-                            <img src="{{ asset('assets/images/pptimages/home-icon.png') }}"
-                                class="absolute top-[16px] left-[16px] h-8 w-8" />
+                        <span>
+                            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" class="video-btn" />
                         </span>
                         if you need to go to some parts of the lesson quickly.
                     </li>
                 </ul>
             </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1"
-                alt="Teacher" />
+            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="Teacher" />
         </div>
     </div>
 
 
     {{-- slide 11 --}}
-    <div class="text-white flex flex-col items-center justify-center gap-y-10 text-start text-2xl slide hidden">
+    <div class="text-white flex flex-col items-center justify-center text-start text-2xl slide hidden">
         <h2 class=" title stroke">Learning Centre Idea</h2>
         <div class="flex">
-            <div class="space-y-20">
+            <div>
                 <ul>
-                    <h2 class="!text-white title stroke">Ordering Coding Challenge</h2>
+                    <h2 class="!text-white title stroke">Living or Non-Living</h2>
                     <h2 class="t-title">What and how to set up:</h2>
-                    <li>Modify the challenge by replacing the coloured shapes on the mat
-                        with other learning focus such as number orders, life cycle of a butterfly or even sequence of a
-                        story.</li>
+                    <li class="text-[1.3vw]">
+                        Place pictures of living (different animals) and non-living things
+                        (toys, transportation, household items, etc) here.
+                    </li>
                 </ul>
 
                 <ul>
                     <h2 class="t-title">What to do:</h2>
-                    <li>Guide children to plan a route for a robot to find matching cards
-                        on the mat. After that, programming a robot to move according to the planned route.</li>
+                    <li class="text-[1.3vw]">
+                        Name the thing in each picture.
+                    </li>
+                    <li class="text-[1.3vw]">
+                        Sort the pictures into living and non-living things.
+                    </li>
                 </ul>
             </div>
         </div>
@@ -232,9 +178,8 @@
     {{-- ========================================================== --}}
     {{-- Buttons --}}
     <div class="down-btn-container">
-        <button
-         class="doneButton">
- <img src="{{ asset('assets/images/pptimages/done.png') }}" />
+        <button class="doneButton">
+            <img src="{{ asset('assets/images/pptimages/done.png') }}" />
         </button>
     </div>
 
@@ -242,23 +187,19 @@
 
         <!-- Return Button -->
         <a id="returnButton">
- <img
-    src="{{ asset('assets/images/pptimages/return.png') }}" />
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
 
         <!-- Home Button -->
-        <button
-     id="homeButton">
-            <img 
-                src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
         <button id="closeButton">
-           
-            <img 
-                src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-    
+
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
+
         </button>
 
     </div>
@@ -266,9 +207,8 @@
     {{-- next Button --}}
     <div class="down-btn-container">
 
-        <button
-            class="nextButton">
- <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
+        <button class="nextButton">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
         </button>
     </div>
 
@@ -313,21 +253,21 @@
                 });
             });
 
-              //   Return button - redirect if on first slide, otherwise go back
-        returnButton.addEventListener("click", () => {
-            if (currentSlide === 0) {
-                //   First slide pe hai →  
-                window.location.href = "{{ route('YourRouteNameHere') }}";
-            } else {
-                //   Previous slide pe jao
-                currentSlide--;
-                showSlide(currentSlide);
-            }
-        });
+            //   Return button - redirect if on first slide, otherwise go back
+            returnButton.addEventListener("click", () => {
+                if (currentSlide === 0) {
+                    //   First slide pe hai →  
+                    window.location.href = "{{ route('k2livingthings') }}";
+                } else {
+                    //   Previous slide pe jao
+                    currentSlide--;
+                    showSlide(currentSlide);
+                }
+            });
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('K2livinthings') }}";
+                    window.location.href = "{{ route('k2livingthings') }}";
                 });
             }
 

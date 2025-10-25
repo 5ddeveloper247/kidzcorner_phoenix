@@ -5,7 +5,7 @@
     {{-- slide 1 --}}
     <div class="flex flex-col justify-start gap-y-10 text-start text-2xl text-white slide hidden t-slide">
         <div>
-            <h2 class="t-title >Children will be able to:</h2>
+            <h2 class="t-title" >Children will be able to:</h2>
             <ul class="list-disc">
                 <li>Identify basic shapes</li>
                 <li>Explore shapes of various sizes</li>
@@ -16,7 +16,7 @@
         </div>
         <div class="flex w-[100%] justify-between">
             <div>
-                <h2 class="t-title >Keywords:</h2>
+                <h2 class="t-title">Keywords:</h2>
                 <div class="flex items-center gap-x-10">
                     <ul class="list-disc">
                         <li>Structures</li>

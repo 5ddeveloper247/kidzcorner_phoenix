@@ -506,9 +506,9 @@
 
         <div class="flex">
 
-            <img src="{{ asset('assets/images/N2/structure/tr-str/s8.png') }}"  class="large-img3" />
-            <img src="{{ asset('assets/images/N2/structure/tr-str/s9.png') }}"  class="large-img3" />
-            <img src="{{ asset('assets/images/N2/structure/tr-str/s33.png') }}" class="large-img3"  />
+            <img src="{{ asset('assets/images/N2/structure/tr-str/s8.png') }}"  class="large-img4" />
+            <img src="{{ asset('assets/images/N2/structure/tr-str/s9.png') }}"  class="large-img4" />
+            <img src="{{ asset('assets/images/N2/structure/tr-str/s33.png') }}" class="large-img4"  />
         </div>
 
         <h2 class="title stroke font-bold">We learned that <span class="text-white">tower</span> and <span

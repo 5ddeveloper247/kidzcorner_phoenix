@@ -68,7 +68,7 @@
             </ul>
         </div>
         <div class="flex items-center gap-5">
-            <img src="{{ asset('/assets/images/N2/structure/b-str/s30.png') }}" />
+            <img src="{{ asset('/assets/images/N2/structure/b-str/s30.png') }}" class="large-img4" />
 
         </div>
         <ul class="list-disc ">
@@ -183,7 +183,7 @@
     <div class="text-white flex flex-col items-center justify-center  text-start t-slide text-2xl slide hidden">
         <h2 class=" title stroke">Learning Centre Idea</h2>
         <div class="flex">
-            <div class="space-y-20">
+            <div>
                 <ul>
                     <h2 class="!text-white title stroke ">Big Vehicles</h2>
                     <h2 class="t-title">What and how to set up:</h2>

@@ -243,7 +243,7 @@
     <div class="text-white flex flex-col items-center justify-center  text-start t-slide text-2xl slide hidden">
         <h2 class=" title stroke">Learning Centre Idea</h2>
         <div class="flex">
-            <div class="space-y-20">
+            <div>
                 <ul>
                     <h2 class="!text-white title stroke">I am a Creative Builder</h2>
                     <h2 class="t-title">What and how to set up:</h2>

@@ -22,24 +22,24 @@
             <div class="title stroke text-start">
                 <h2>Living things are things that...:</h2>
                 <ul class="!text-white">
-                    <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" />
+                    <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" class="w-[2.5vw]" />
                         <p> Move on their own</p>
                     </li>
-                    <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" />
+                    <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" class="w-[2.5vw]" />
                         <p> Drink</p>
                     </li>
-                    <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" />
+                    <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" class="w-[2.5vw]" />
                         <p>Eat</p>
                     </li>
-                    <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" />
+                    <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" class="w-[2.5vw]" />
                         <p> Breath (need air)</p>
                     </li>
-                    <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" />
+                    <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" class="w-[2.5vw]" />
                         <p> Grow (get bigger)</p>
                     </li>
                 </ul>
             </div>
-            <img src="{{ asset('assets/images/N2/LivingThings/an15.png') }}" />
+            <img src="{{ asset('assets/images/N2/LivingThings/an15.png') }}" class="!max-w-[14vw]" />
         </div>
         <p class="note">Note: Invite children to sing “”It is Living”” song together.</p>
     </div>
@@ -47,7 +47,7 @@
 
     {{-- Slide3 --}}
     <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <img src="{{ asset('assets/images/K2/livingthings/pthings/p24.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/pthings/p24.png') }}" class="large-img6" />
         <h2 class="text-center title stroke">Animals and plants are groups of living things.</h2>
     </div>
 
@@ -80,7 +80,7 @@
 
     {{-- slide 7 --}}
     <div class="slide  hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/livingthings/dna/d3.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/d3.png') }}" class="large-img6" />
         <h2 class="title stroke">Different sets of bricks can build different objects.</h2>
         <p class="note">Note: Have children name the different objects that can be constructed.</p>
     </div>
@@ -89,7 +89,7 @@
     {{-- slide 8 --}}
     <div class="slide  hidden  flex flex-col items-center justify-start  ">
         <div>
-            <img src="{{ asset('assets/images/K2/livingthings/dna/d4.png') }}" />
+            <img src="{{ asset('assets/images/K2/livingthings/dna/d4.png') }}" class="large-img6" />
         </div>
         <h2 class="title stroke">This set of bricks can build a car.</h2>
     </div>
@@ -99,7 +99,7 @@
     {{-- Slide 9  --}}
     <div class="slide  hidden  flex flex-col items-center justify-start  ">
         <div>
-            <img src="{{ asset('assets/images/K2/livingthings/dna/d5.png') }}" />
+            <img src="{{ asset('assets/images/K2/livingthings/dna/d5.png') }}" class="large-img6" />
         </div>
         <h2 class="title stroke">This set of bricks can build a dinosaur.</h2>
     </div>
@@ -108,7 +108,7 @@
     {{-- Slide 10 --}}
     <div class="slide  hidden  flex flex-col items-center justify-start  ">
         <div>
-            <img src="{{ asset('assets/images/K2/livingthings/dna/d6.png') }}" />
+            <img src="{{ asset('assets/images/K2/livingthings/dna/d6.png') }}" class="large-img6" />
         </div>
         <h2 class="title stroke">So how do you know the correct way to build each object?</h2>
         <p class="note">Note: Encourage children to share their prior knowledge and experience.</p>
@@ -117,7 +117,7 @@
 
     {{-- Slide 11 --}}
     <div class="slide  hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/livingthings/dna/d7.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/d7.png') }}" class="large-img6" />
         <h2 class="title stroke">Do you think the seeds that you have planted
             go through the similar growing process?</h2>
     </div>
@@ -135,21 +135,21 @@
 
     {{-- Slide 13 --}}
     <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <img src="{{ asset('assets/images/K2/livingthings/pthings/p24.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/pthings/p24.png') }}" class="large-img6" />
         <h2 class="text-center title stroke">Similarly, every living things has its own
             instruction manual called DNA!</h2>
     </div>
 
     {{-- Slide 14 --}}
     <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <img src="{{ asset('assets/images/K2/livingthings/dna/d10.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/d10.png') }}" class="large-img6" />
         <h2 class="text-center title stroke">DNA gives instruction to every living thing
             on how to form and work correctly.</h2>
     </div>
 
     {{-- Slide 15 --}}
     <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <h1 class="text-8xl stroke">
+        <h1 class="!text-[4.5vw] stroke">
             <span class="text-white">DNA</span>
             <br>
             <span class="text-red-600">deoxyribonucleic <br>
@@ -157,10 +157,8 @@
         </h1>
         <!-- sound Button -->
         <div data-property-1="Default"
-            class="absolute top-1/2 right-[80px] z-30 h-18 w-18 -translate-y-1/2 cursor-pointer flex justify-center items-center rounded-[30px] bg-[#F8A23A]">
-            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-fit" />
-            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-            <img class=" h-10 w-10" src="/assets/images/pptimages/sound-icon.png" />
+            class="absolute top-1/2 right-[5vw]">
+            <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" class="!max-w-[2.8vw]" />
         </div>
         <h2 class="text-center title stroke">DNA stands for deoxyribonucleic acid. Can you pronounce it?
             Where do you think our DNA is in our body?</h2>
@@ -184,7 +182,7 @@
 
     {{-- Slide 18 --}}
     <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <img src="{{ asset('assets/images/K2/livingthings/dna/d10.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/d10.png') }}" class="large-img6" />
         <h2 class="text-center title stroke"><span class="text-white">DNA</span> is located in every cell.
             So every cell has an <span class="text-white">instruction manual</span>.</h2>
     </div>
@@ -229,7 +227,7 @@
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <h2 class="title stroke">Let's do: <br>
             4. Spit the water back into the cup.</h2>
-        <img src="{{ asset('assets/images/K2/livingthings/dna/d15.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/d15.png') }}" class="large-img6" />
     </div>
 
 
@@ -238,14 +236,14 @@
         <h2 class="title stroke">Let's do: <br>
             5. Add one drop of clear liquid dish soap to the cup. Stir
             gently to avoid making bubbles.</h2>
-        <img src="{{ asset('assets/images/K2/livingthings/dna/d16.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/d16.png') }}" class="large-img6" />
     </div>
 
     {{-- Slide 26 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <h2 class="title stroke">Let's do: <br>
             6. Mix together 30ml cold rubbing alcohol and 3 drops food colouring in another cup.</h2>
-        <img src="{{ asset('assets/images/K2/livingthings/dna/d17.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/d17.png') }}" class="large-img6" />
         <p class="note">Note: Guide children to measure and prepare the alcohol mixture.</p>
     </div>
 
@@ -254,7 +252,7 @@
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <h2 class="title stroke">Let's do: <br>
             7.Gently pour the alcohol mixture from the side into the cup with gargled water.</h2>
-        <img src="{{ asset('assets/images/K2/livingthings/dna/d18.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/d18.png') }}" class="large-img6" />
         <p class="note">Note: Teacher to do the step; do not mix or stir.</p>
     </div>
 
@@ -262,7 +260,7 @@
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <h2 class="title stroke">Let's do: <br>
             8. Observe what happens in the cup.</h2>
-        <img src="{{ asset('assets/images/K2/livingthings/dna/d19.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/d19.png') }}" class="large-img6" />
         <p class="note">Note: Advise observation from the top view. Take a photo of the result for use in the next
             lesson.</p>
     </div>
@@ -270,7 +268,7 @@
 
     {{-- Slide 29 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/livingthings/dna/d20.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/d20.png') }}" class="large-img6" />
         <h2 class="title stroke">What do you observe? <br>
             What happens in the cup?</h2>
     </div>
@@ -279,19 +277,19 @@
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <h2 class="title stroke">What do you learn: <br>
             What are the white strings and clumps in the cup?</h2>
-        <img src="{{ asset('assets/images/K2/livingthings/dna/d21.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/d21.png') }}" class="large-img6" />
     </div>
 
     {{-- Slide 31 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/livingthings/dna/d21.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/d21.png') }}" class="large-img6" />
         <h2 class="title stroke text-center">Through the activity, we know that the white strings and
             clumps are DNA strands from the mouth.</h2>
     </div>
 
     {{-- Slide 32 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/livingthings/dna/d22.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/d22.png') }}" class="large-img6" />
         <h2 class="title stroke text-center">In fact, a strand of DNA is a long string <br>
             but too small to be visible to our eyes.</h2>
     </div>
@@ -299,7 +297,7 @@
 
     {{-- Slide 33 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/livingthings/dna/d21.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/d21.png') }}" class="large-img6" />
         <h2 class="title stroke text-center">The reason we are able to see DNA in this activity is that
             there are so many of them clumped together at the end.</h2>
     </div>
@@ -307,7 +305,7 @@
 
     {{-- Slide 34 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/livingthings/dna/d21.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/d21.png') }}" class="large-img6" />
         <h2 class="title stroke text-center">Do you know why are these DNA strands clumped together?
             Where do they come from?</h2>
     </div>
@@ -315,7 +313,7 @@
 
     {{-- Slide 35 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/livingthings/dna/d14.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/d14.png') }}" class="large-img6" />
         <h2 class="title stroke text-center">When one gargle with salt water vigorously and spit it back
             out, cheek cells will be collected in the salt water.</h2>
     </div>
@@ -323,7 +321,7 @@
 
     {{-- Slide 36 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/livingthings/dna/d23.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/d23.png') }}" class="large-img6" />
         <h2 class="title stroke text-center">For better understanding, this is the scientific drawing of our
             cheek. DNA is stored in the cells.</h2>
     </div>

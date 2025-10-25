@@ -7,7 +7,7 @@
 
     {{-- Slide 1 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <img src="{{asset('/assets/images/N2/structure/str/st1.png')}}" />
+        <img src="{{asset('/assets/images/N2/structure/str/st1.png')}}" class="large-img6" />
         <h2 class="title stroke">Children, what do you see in the pictures?</h2>
         <p class="note">Note: Guide children to share their answers.</p>
     </div>
@@ -15,7 +15,7 @@
 
     {{-- Slide 2 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <img src="{{asset('/assets/images/N2/structure/str/st3.png')}}" />
+        <img src="{{asset('/assets/images/N2/structure/str/st3.png')}}" class="large-img6" />
         <h2 class="title stroke">These are tall buildings, an observation wheel and a tower.</h2>
         <p class="note">Note: Guide children to share what they see and describe the look and shape of these building
             structures.</p>
@@ -24,7 +24,7 @@
 
     {{-- Slide3 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <img src="{{asset('/assets/images/N2/structure/str/st1.png')}}" />
+        <img src="{{asset('/assets/images/N2/structure/str/st1.png')}}" class="large-img6" />
         <h2 class="title stroke">These are different types of <span class="text-white">structures</span>.</h2>
         <p class="note">Note: Tell the children that tall buildings are called skyscrapers.</p>
     </div>
@@ -32,7 +32,7 @@
 
     {{-- Slide 4 --}}
     <div class="slide flex flex-col items-center justify-center ">
-        <img src="{{asset('/assets/images/N2/structure/str/st2.png')}}" />
+        <img src="{{asset('/assets/images/N2/structure/str/st2.png')}}" class="large-img6" />
         <h2 class="title stroke">House and bridges are <span class="text-white">structures</span> too.</h2>
         <p class="note">Note: Encourage children to think of other building structures that they know of e.g. muesum,
             schools etc.</p>
@@ -50,14 +50,14 @@
 
     {{-- slide 6 --}}
     <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <img src="{{asset('/assets/images/N2/structure/str/st1.png')}}" />
+        <img src="{{asset('/assets/images/N2/structure/str/st1.png')}}" class="large-img6" />
         <h2 class="text-start title stroke">What shapes do you see in these structures?</h2>
         <p class="note">Note: Encourage children to share their answers.</p>
     </div>
 
     {{-- Slide 7 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{asset('/assets/images//N2/structure/str/st4.png')}}" />
+        <img src="{{asset('/assets/images//N2/structure/str/st4.png')}}" class="large-img6" />
         <h2 class="text-start title stroke">The tall buildings are shaped like rectangles. Some are tall
             and some are short.</h2>
     </div>
@@ -65,14 +65,14 @@
 
     {{-- Slide 8 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{asset('/assets/images//N2/structure/str/st5.png')}}" />
+        <img src="{{asset('/assets/images//N2/structure/str/st5.png')}}" class="large-img6" />
         <h2 class="text-start title stroke">The observation wheel is like a circle.</h2>
     </div>
 
 
     {{-- slide 9 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{asset('/assets/images//N2/structure/str/st6.png')}}" />
+        <img src="{{asset('/assets/images//N2/structure/str/st6.png')}}" class="large-img6" />
         <h2 class="text-start title stroke">This tower is shaped like a triangle. The bottom of the
             tower is bigger than the top!</h2>
     </div>
@@ -80,7 +80,7 @@
 
     {{-- slide 10 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{asset('/assets/images//N2/structure/str/st2.png')}}" />
+        <img src="{{asset('/assets/images//N2/structure/str/st2.png')}}" class="large-img6" />
         <h2 class="text-start title stroke">What shapes can you see here?</h2>
         <p class="note">Note: Encourage children to share their answers.</p>
     </div>
@@ -88,7 +88,7 @@
 
     {{-- slide 11 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{asset('/assets/images//N2/structure/str/st7.png')}}" />
+        <img src="{{asset('/assets/images//N2/structure/str/st7.png')}}" class="large-img6" />
         <h2 class="text-start title stroke">Triangles and rectangles can be found in the shape of a house.</h2>
         <p class="note">Note: Encourage children to point out the shapes.</p>
     </div>
@@ -96,7 +96,7 @@
 
     {{-- slide 12 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{asset('/assets/images//N2/structure/str/st8.png')}}" />
+        <img src="{{asset('/assets/images//N2/structure/str/st8.png')}}" class="large-img6" />
         <h2 class="text-start title stroke">The bridge looks like long rectangle.</h2>
         <p class="note">Note: Encourage children to point out the shape.</p>
     </div>
@@ -104,14 +104,14 @@
 
     {{-- slide 13 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{asset('/assets/images//N2/structure/str/st9.png')}}" />
+        <img src="{{asset('/assets/images//N2/structure/str/st9.png')}}" class="large-img6" />
         <h2 class="text-start title stroke">The different structures are made up of many small
             parts. Construction workers put these parts together.</h2>
     </div>
 
     {{-- slide 14 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{asset('/assets/images//N2/structure/str/st9.png')}}" />
+        <img src="{{asset('/assets/images//N2/structure/str/st9.png')}}" class="large-img6" />
         <h2 class="title stroke">When the parts are placed together, it forms
             the shape of the structure.</h2>
     </div>
@@ -119,7 +119,7 @@
 
     {{-- slide 15 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{asset('/assets/images//N2/structure/str/st10.png')}}" />
+        <img src="{{asset('/assets/images//N2/structure/str/st10.png')}}" class="large-img6" />
         <h2 class="title stroke">Look at this construction set!
             There are many different small parts.</h2>
     </div>
@@ -140,7 +140,7 @@
 
     {{-- slide 18 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{asset('/assets/images//N2/structure/str/st13.png')}}" />
+        <img src="{{asset('/assets/images//N2/structure/str/st13.png')}}" class="large-img6" />
         <h2 class="title stroke">Let’s use these pieces to create a square structure!</h2>
         <p class="note">Note: Ask the children how a square looks like; <br>
             explain that a square has 4 equal sides and hence the 4 rectangles used must be the same size.</p>
@@ -355,7 +355,7 @@
 
     {{-- slide 37 --}}
     <div class="slide hidden  flex flex-col items-center gap-5 ">
-        <img src="{{asset('/assets/images/N2/structure/str/st34.png')}}" />
+        <img src="{{asset('/assets/images/N2/structure/str/st34.png')}}" class="large-img6" />
         <h2 class="title stroke ">This structure can stand on its own because
             its base is wider and it can support its body.</h2>
     </div>
@@ -383,7 +383,7 @@
 
     {{-- slide 40 --}}
     <div class="slide hidden  flex flex-col items-center gap-5 ">
-        <img src="{{asset('/assets/images/N2/structure/str/st36.png')}}" />
+        <img src="{{asset('/assets/images/N2/structure/str/st36.png')}}" class="large-img6" />
         <h2 class="title stroke ">Similarly, all these structures have a base that helps
             them stand firmly on the ground.</h2>
     </div>
@@ -391,7 +391,7 @@
 
     {{-- slide 41 --}}
     <div class="slide hidden  flex flex-col items-center gap-5 ">
-        <img src="{{asset('/assets/images/N2/structure/str/st36.png')}}" />
+        <img src="{{asset('/assets/images/N2/structure/str/st36.png')}}" class="large-img6" />
         <h2 class="title stroke ">All the different structures are made up of smaller parts
             giving them their shape.</h2>
     </div>

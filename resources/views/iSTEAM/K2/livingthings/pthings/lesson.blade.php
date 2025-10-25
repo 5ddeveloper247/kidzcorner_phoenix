@@ -1,6 +1,6 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
- 
+
 @section('content')
 
 
@@ -50,7 +50,7 @@
             <h2 class=" title stroke text-start ">What do you learn: <br>
                 How did a seed in the bag grow into a new plant?</h2>
         </div>
-        <img src="/assets/images/K2/livingthings/pthings/p1.png" />
+        <img src="/assets/images/K2/livingthings/pthings/p1.png" class="large-img6" />
         <p class="note">Note: Guide children to understand what seed germination is (sprouting of a seedling).</p>
     </div>
 
@@ -61,7 +61,7 @@
             <h2 class=" title stroke text-start">What do you learn: <br>
                 What helped the seed grow?</h2>
         </div>
-        <img src="/assets/images/K2/livingthings/pthings/p1.png" />
+        <img src="/assets/images/K2/livingthings/pthings/p1.png" class="large-img6" />
         <p class="note">Note: Guide children to understand that water, air and sunlight help plants grow.</p>
     </div>
 
@@ -70,13 +70,13 @@
     <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
         <h2 class=" title stroke text-start">What do you learn: <br>
             What helped the seed grow?</h2>
-        <img src="/assets/images/K2/livingthings/pthings/p1.png" />
+        <img src="/assets/images/K2/livingthings/pthings/p1.png" class="large-img6" />
         <p class="note">Note: Guide children to understand that water, air and sunlight help plants grow.</p>
     </div>
 
     {{-- slide 7 --}}
     <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <img src="/assets/images/K2/livingthings/pthings/p2.png" />
+        <img src="/assets/images/K2/livingthings/pthings/p2.png" class="large-img6" />
         <h2 class=" title stroke text-start">Through the activity, we know that water, air and sunlight
             will trigger seeds to grow.</h2>
     </div>
@@ -113,7 +113,7 @@
     <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
         <h2 class=" title stroke text-start">What do you learn: <br>
             How long did the green onions take to start growing?</h2>
-        <img src="/assets/images/K2/livingthings/pthings/p4.png" />
+        <img src="/assets/images/K2/livingthings/pthings/p4.png" class="large-img6" />
         <p class="note">Note: Have children share their observations - sample shown what they looked like after 1 day.</p>
     </div>
 
@@ -122,7 +122,7 @@
     <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
         <h2 class=" title stroke text-start">What do you learn: <br>
             How tall did they grow from day 1?</h2>
-        <img src="/assets/images/K2/livingthings/pthings/p4.png" />
+        <img src="/assets/images/K2/livingthings/pthings/p4.png" class="large-img6" />
         <p class="note">Note: Have children share their observations - sample shown what they looked like 1 week later.
         </p>
     </div>
@@ -131,13 +131,13 @@
     <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
         <h2 class=" title stroke text-start">What do you learn: <br>
             What helped the green onions grow taller?</h2>
-        <img src="/assets/images/K2/livingthings/pthings/p4.png" />
+        <img src="/assets/images/K2/livingthings/pthings/p4.png" class="large-img6" />
         <p class="note">Note: Guide children to understand that water, air and sunlight help plants grow.</p>
     </div>
 
     {{-- Slide 14 --}}
     <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <img src="/assets/images/K2/livingthings/pthings/p4.png" />
+        <img src="/assets/images/K2/livingthings/pthings/p4.png" class="large-img6" />
         <h2 class=" title stroke">Through the activity, we know that as long as the roots and
             white stems are around, water, air and sunlight will make the
             green onion plants continue to grow.</h2>
@@ -158,25 +158,30 @@
             <div class="title stroke text-start">
                 <h2>Living things are things that...:</h2>
                 <ul class="!text-white">
-                    <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" />
+                    <li class="flex items-center gap-5">
+                        <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" class="!max-w-[2.4vw]" />
                         <p> Move on their own</p>
                     </li>
-                    <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" />
+                    <li class="flex items-center gap-5">
+                        <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" class="!max-w-[2.4vw]" />
                         <p> Drink</p>
                     </li>
-                    <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" />
+                    <li class="flex items-center gap-5">
+                        <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" class="!max-w-[2.4vw]" />
                         <p>Eat</p>
                     </li>
-                    <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" />
+                    <li class="flex items-center gap-5">
+                        <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" class="!max-w-[2.4vw]" />
                         <p> Breath (need air)</p>
                     </li>
-                    <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" />
+                    <li class="flex items-center gap-5">
+                        <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" class="!max-w-[2.4vw]" />
                         <p> Grow (get bigger)</p>
                     </li>
 
                 </ul>
             </div>
-            <img src="{{ asset('assets/images/N2/LivingThings/an15.png') }}" />
+            <img src="{{ asset('assets/images/N2/LivingThings/an15.png') }}" class="!max-w-[14vw]" />
         </div>
     </div>
 
@@ -185,7 +190,7 @@
     {{-- slide 17 --}}
     <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
         <h2 class=" justify-start text-[45px] text-white stroke">Class Activity</h2>
-        <img src="/assets/images/K2/livingthings/pthings/p4.png" />
+        <img src="/assets/images/K2/livingthings/pthings/p30.png" class="large-img6" />
         <h2 class="text-start title stroke">Let's find out: <br>
             Are plants living or non-living things?</h2>
         <p class="note">Note: Display seed bags and green onions.</p>
@@ -195,7 +200,7 @@
     {{-- slide 18 --}}
     <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
         <h2 class="text-start title stroke">What do you think (Prediction):</h2>
-        <img src="/assets/images/K2/livingthings/pthings/p5.png" />
+        <img src="/assets/images/K2/livingthings/pthings/p5.png" class="!max-w-[42vw]" />
         <p class="note">Note: Have children use the learning journal to fill in their prediction.</p>
     </div>
 
@@ -204,14 +209,10 @@
     <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
         <h2 class="text-start title stroke">Let’s do:</h2>
         <div class="relative">
-            <img src="/assets/images/K2/livingthings/pthings/p6.png" />
-            <span
-                class="info-btn1 !absolute top-[56px] left-[59%] relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-amber-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-                <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
-                    class="absolute top-[4px] left-[6px] h-6 w-[80%]" />
-                <div class="absolute top-[7px] left-[12px] h-2.5 w-3.5 rounded-sm bg-white"></div>
-                <img src="{{ asset('assets/images/pptimages/info.png') }}"
-                    class="absolute top-[16px] left-[16px] h-8 w-8" />
+            <img src="/assets/images/K2/livingthings/pthings/p6.png" class="!max-w-[42vw]" />
+            <span class="info-btn1 relative">
+                <img src="{{ asset('assets/images/pptimages/info-btn.png') }}"
+                    class="absolute !top-[-1vw] !left-[-0.5vw] !w-[2vw]" />
             </span>
         </div>
         <p class="note">Note: Guide children to discuss each point and check if their prediction is correct;
@@ -288,7 +289,7 @@
         <div class="self-start">
             <h2 class="text-start title stroke">Let’s do:</h2>
         </div>
-        <img src="/assets/images/K2/livingthings/pthings/p7.png" />
+        <img src="/assets/images/K2/livingthings/pthings/p7.png" class="!max-w-[42vw]" />
         <p class="note">Note: Guide children to discuss each point and check if their prediction is correct;
             if wrong, correct with a red crayon.</p>
     </div>
@@ -300,14 +301,10 @@
             <h2 class="text-start title stroke">Let’s do:</h2>
         </div>
         <div class="relative">
-            <img src="/assets/images/K2/livingthings/pthings/p8.png" />
-            <span
-                class="info-btn2 !absolute top-[170px] left-[59%] relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-amber-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-                <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
-                    class="absolute top-[4px] left-[6px] h-6 w-[80%]" />
-                <div class="absolute top-[7px] left-[12px] h-2.5 w-3.5 rounded-sm bg-white"></div>
-                <img src="{{ asset('assets/images/pptimages/info.png') }}"
-                    class="absolute top-[16px] left-[16px] h-8 w-8" />
+            <img src="/assets/images/K2/livingthings/pthings/p8.png" class="!max-w-[42vw]" />
+            <span class="info-btn1 relative">
+                <img src="{{ asset('assets/images/pptimages/info-btn.png') }}"
+                    class="absolute !top-[-1vw] !left-[-0.5vw] !w-[2vw]" />
             </span>
         </div>
         <p class="note">Note: Guide children to discuss each point and check if their prediction is correct;
@@ -317,13 +314,13 @@
     {{-- clcik slides --}}
     {{-- 1 --}}
     <div class="slide hidden info-slide2  flex flex-col items-center justify-start  ">
-        <img src="/assets/images/N2/livingThings/lt61.png" />
+        <img src="/assets/images/N2/livingThings/lt61.png" class="!max-w-[42vw]" />
         <h2 class="title stroke">Plants need food to grow. <br>
             Where do they get their food from?</h2>
     </div>
     {{-- 2 --}}
     <div class="slide hidden info-slide2  flex flex-col items-center justify-start  ">
-        <img src="/assets/images/N2/livingThings/lt80.png" />
+        <img src="/assets/images/N2/livingThings/lt80.png" class="!max-w-[42vw]" />
         <h2 class="title stroke">Plants make their own food to grow. <br>
             Their leaves use water, nutrients from the soil, <br>
             air and sunlight to make food.</h2>
@@ -337,13 +334,9 @@
         </div>
         <div class="relative">
             <img src="/assets/images/K2/livingthings/pthings/p9.png" />
-            <span
-                class="info-btn3 !absolute top-[215px] left-[59%] relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-amber-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-                <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
-                    class="absolute top-[4px] left-[6px] h-6 w-[80%]" />
-                <div class="absolute top-[7px] left-[12px] h-2.5 w-3.5 rounded-sm bg-white"></div>
-                <img src="{{ asset('assets/images/pptimages/info.png') }}"
-                    class="absolute top-[16px] left-[16px] h-8 w-8" />
+            <span class="info-btn1 relative">
+                <img src="{{ asset('assets/images/pptimages/info-btn.png') }}"
+                    class="absolute !top-[-1vw] !left-[-0.5vw] !w-[2vw]" />
             </span>
         </div>
         <p class="note">Note: Guide children to discuss each point and check if their prediction is correct;
@@ -411,14 +404,10 @@
             <h2 class="text-start title stroke">Let’s do:</h2>
         </div>
         <div class="relative">
-            <img src="/assets/images/K2/livingthings/pthings/p10.png" />
-            <span
-                class="info-btn4 !absolute top-[250px] left-[59%] relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-amber-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-                <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
-                    class="absolute top-[4px] left-[6px] h-6 w-[80%]" />
-                <div class="absolute top-[7px] left-[12px] h-2.5 w-3.5 rounded-sm bg-white"></div>
-                <img src="{{ asset('assets/images/pptimages/info.png') }}"
-                    class="absolute top-[16px] left-[16px] h-8 w-8" />
+            <img src="/assets/images/K2/livingthings/pthings/p10.png" class="!max-w-[42vw]" />
+            <span class="info-btn1 relative">
+                <img src="{{ asset('assets/images/pptimages/info-btn.png') }}"
+                    class="absolute !top-[-1vw] !left-[-0.5vw] !w-[2vw]" />
             </span>
         </div>
         <p class="note">Note: Guide children to discuss each point and check if their prediction is correct;
@@ -431,9 +420,8 @@
         <h2 class="title stroke">Do you know how plants grow? </h2>
         <p class="note">Note: Encourage children to describe how a big plant grow from a small seed.</p>
         <!-- Video Trigger Button -->
-        <div data-property-1="Default"
-            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
-      <img src="/assets/images/pptimages/video.png" />
+        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
     {{-- 2 --}}
@@ -447,9 +435,8 @@
         <img src="/assets/images/K2/livingthings/pthings/p15.png" />
         <h2 class="title stroke">This is the growing process of a sample seed.</h2>
         <!-- Video Trigger Button -->
-        <div data-property-1="Default"
-            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
-      <img src="/assets/images/pptimages/video.png" />
+        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
@@ -461,14 +448,10 @@
             <h2 class="text-start title stroke">Let’s do:</h2>
         </div>
         <div class="relative">
-            <img src="/assets/images/K2/livingthings/pthings/p11.png" />
-            <span
-                class="info-btn5 !absolute top-[300px] left-[59%] relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-amber-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-                <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
-                    class="absolute top-[4px] left-[6px] h-6 w-[80%]" />
-                <div class="absolute top-[7px] left-[12px] h-2.5 w-3.5 rounded-sm bg-white"></div>
-                <img src="{{ asset('assets/images/pptimages/info.png') }}"
-                    class="absolute top-[16px] left-[16px] h-8 w-8" />
+            <img src="/assets/images/K2/livingthings/pthings/p11.png" class="large-img6" />
+            <span class="info-btn1 relative">
+                <img src="{{ asset('assets/images/pptimages/info-btn.png') }}"
+                    class="absolute !top-[-1vw] !left-[-0.5vw] !w-[2vw]" />
             </span>
         </div>
         <p class="note">Note: Guide children to discuss each point and check if their prediction is correct;
@@ -481,9 +464,8 @@
         <h2 class="title stroke">How does an apple seed turn into a big tree?</h2>
         <p class="note">Note: Encourage children to describe the life cycle of an apple tree.</p>
         <!-- Video Trigger Button -->
-        <div data-property-1="Default"
-            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
-      <img src="/assets/images/pptimages/video.png" />
+        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
     {{-- 2 --}}
@@ -492,9 +474,8 @@
         <h2 class="title stroke">In fact, many plants produce seeds,
             which will grow into new plants.</h2>
         <!-- Video Trigger Button -->
-        <div data-property-1="Default"
-            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
-      <img src="/assets/images/pptimages/video.png" />
+        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
@@ -504,7 +485,7 @@
         <div class="self-start">
             <h2 class="text-start title stroke">Let’s do:</h2>
         </div>
-        <img src="/assets/images/K2/livingthings/pthings/p12.png" />
+        <img src="/assets/images/K2/livingthings/pthings/p12.png" class="!max-w-[42vw]" />
         <p class="note">Note: Guide children to conclude from the table and circle the answer.</p>
     </div>
 
@@ -522,24 +503,24 @@
             <div class="title stroke text-start">
                 <h2>All plants...</h2>
                 <ul class="!text-white">
-                    <li class="flex items-center gap-5"> <img
-                            src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" />
+                    <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}"
+                            class="!max-w-[2.4vw]" />
                         <p> Move on their own</p>
                     </li>
-                    <li class="flex items-center gap-5"> <img
-                            src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" />
+                    <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}"
+                            class="!max-w-[2.4vw]" />
                         <p> Drink</p>
                     </li>
-                    <li class="flex items-center gap-5"> <img
-                            src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" />
+                    <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}"
+                            class="!max-w-[2.4vw]" />
                         <p>Eat</p>
                     </li>
-                    <li class="flex items-center gap-5"> <img
-                            src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" />
+                    <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}"
+                            class="!max-w-[2.4vw]" />
                         <p> Breath (need air)</p>
                     </li>
-                    <li class="flex items-center gap-5"> <img
-                            src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" />
+                    <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}"
+                            class="!max-w-[2.4vw]" />
                         <p> Grow (get bigger)</p>
                     </li>
                 </ul>
@@ -551,14 +532,14 @@
 
     {{-- slide 28 --}}
     <div class="slide hidden flex flex-col items-center justify-center gap-y-20">
-        <img src="{{ asset('assets/images/K2/livingthings/pthings/p23.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/pthings/p23.png') }}" class="large-img6" />
         <h2 class="text-start title stroke">In fact, we live in the world that is made up of both
             living and non-living things.</h2>
     </div>
 
     {{-- slide 29 --}}
     <div class="slide hidden flex flex-col items-center justify-center gap-y-20">
-        <img src="{{ asset('assets/images/K2/livingthings/pthings/p24.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/pthings/p24.png') }}" class="large-img6" />
         <h2 class="text-start title stroke">Animals and plants are groups of living things.</h2>
     </div>
 
@@ -590,9 +571,9 @@
     {{-- sldie 32 --}}
     <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[836px] h-fit bg-cover bg-center flex flex-col justify-center items-center"
+        <div class=" bg-cover bg-center flex flex-col justify-center items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
-            <img src="{{ asset('assets/images/K2/livingthings/pthings/p25.png') }}" />
+            <img src="{{ asset('assets/images/K2/livingthings/pthings/p25.png') }}" class="!max-w-[42vw]" />
         </div>
     </div>
 
@@ -600,9 +581,9 @@
     {{-- sldie 33 --}}
     <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[836px] h-fit bg-cover bg-center flex flex-col justify-start items-center"
+        <div class=" bg-cover bg-center flex flex-col justify-start items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
-            <img src="{{ asset('assets/images/K2/livingthings/pthings/p26.png') }}" />
+            <img src="{{ asset('assets/images/K2/livingthings/pthings/p26.png') }}" class="!max-w-[42vw]" />
         </div>
     </div>
 
@@ -610,34 +591,29 @@
     {{-- ====================================== --}}
     {{-- Buttons --}}
     <div class="down-btn-container">
-        <button
-         class="doneButton">
- <img src="{{ asset('assets/images/pptimages/done.png') }}" />
+        <button class="doneButton">
+            <img src="{{ asset('assets/images/pptimages/done.png') }}" />
         </button>
     </div>
 
 
- <div id="buttons" class="absolute  flex flex-row gap-6 ">
+    <div id="buttons" class="absolute  flex flex-row gap-6 ">
 
         <!-- Return Button -->
         <a id="returnButton">
- <img
-    src="{{ asset('assets/images/pptimages/return.png') }}" />
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
 
         <!-- Home Button -->
-        <button
-     id="homeButton">
-            <img 
-                src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
         <button id="closeButton">
-           
-            <img 
-                src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-    
+
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
+
         </button>
 
     </div>
@@ -645,9 +621,8 @@
     {{-- next Button --}}
     <div class="down-btn-container">
 
-        <button
-            class="nextButton">
- <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
+        <button class="nextButton">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
         </button>
     </div>
 
