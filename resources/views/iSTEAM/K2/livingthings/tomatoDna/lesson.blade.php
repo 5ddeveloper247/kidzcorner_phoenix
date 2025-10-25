@@ -5,8 +5,8 @@
 
 
     {{-- Slide 1 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <img src="{{ asset('assets/images/K2/livingthings/dna/td1.png') }}" />
+    <div class="slide flex flex-col items-center justify-center gap-[1vw] ">
+        <img src="{{ asset('assets/images/K2/livingthings/dna/td1.png') }}" class="large-img6" />
         <div class="title stroke">
             <h2>Children, do you still remember how to extract DNA from
                 one's mouth? What does DNA look like?</h2>
@@ -18,7 +18,7 @@
 
     {{-- Slide 2 --}}
     <div class="slide hidden flex flex-col items-center">
-        <img src="{{ asset('assets/images/K2/livingthings/dna/d21.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/d21.png') }}" class="large-img6" />
         <h2 class="title stroke">What is DNA? Where is our DNA?</h2>
         <p class="note">Note: Guide children to recap the points learnt [1. Like a set of building bricks will form an
             object correctly
@@ -29,12 +29,12 @@
 
     {{-- Slide3 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <div class="flex items-center gap-5">
-            <div class="flex flex-col items-center gap-5">
-                <img src="{{ asset('assets/images/K2/livingthings/dna/d12.png') }}" class="w-[500px]" />
-                <img src="{{ asset('assets/images/K2/livingthings/dna/d18.png') }}" class="w-[500px]" />
+        <div class="flex items-center gap-[1vw]">
+            <div class="flex flex-col items-center gap-[1vw]">
+                <img src="{{ asset('assets/images/K2/livingthings/dna/d12.png') }}" />
+                <img src="{{ asset('assets/images/K2/livingthings/dna/d18.png') }}" />
             </div>
-            <img src="{{ asset('assets/images/K2/livingthings/dna/d21.png') }}" class="w-[550px]" />
+            <img src="{{ asset('assets/images/K2/livingthings/dna/d21.png') }}" />
         </div>
         <h2 class="title stroke text-center">These are the chemicals used to extract our DNA.
             Can you name them?</h2>
@@ -43,8 +43,8 @@
 
     {{-- slide 4 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <div class="flex items-center gap-5">
-            <div class="flex flex-col items-center gap-5">
+        <div class="flex items-center gap-[1vw]">
+            <div class="flex flex-col items-center gap-[1vw]">
                 <img src="{{ asset('assets/images/K2/livingthings/dna/d12.png') }}" class="w-[500px]" />
                 <img src="{{ asset('assets/images/K2/livingthings/dna/d18.png') }}" class="w-[500px]" />
             </div>
@@ -65,7 +65,7 @@
     {{-- slide 6 --}}
     <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
         <h2 class="text-center justify-start text-[45px] text-white stroke">Class Activity</h2>
-        <img src="{{ asset('assets/images/K2/livingthings/dna/td2.png') }}" class="w-[400px]" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/td2.png') }}" />
         <h2 class="title stroke">Let's find out: <br>
             How to extract DNA from a tomato?</h2>
     </div>
@@ -84,7 +84,7 @@
 
 
     {{-- slide 8 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
+    <div class="slide hidden  flex flex-col items-center justify-start">
         <div class="self-start text-start">
             <h2 class="title stroke">Let's do: <br>
                 2. Smash and crush the tomato.</h2>
@@ -273,7 +273,7 @@
 
     {{-- Slide 28 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/livingthings/dna/td16.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/td16.png') }}" class="large-img6" />
         <h2 class="title stroke">Based on the results of the activities, we can conclude that
             both animals and plants have DNA.</h2>
     </div>

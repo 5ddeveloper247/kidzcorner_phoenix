@@ -2016,7 +2016,7 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 
 
     // K2 -> livingthings -> things
-    Route::get('/WhhatareLivingThings', function () {
+    Route::get('/WhatareLivingThings', function () {
         return view('iSTEAM.K2.livingthings.things.index');
     })->name('K2things');
 

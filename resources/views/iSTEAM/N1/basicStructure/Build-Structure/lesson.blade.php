@@ -1,6 +1,7 @@
 @extends('layout.master')
+@section('title', 'Dynamic Presentation')\
 
-@section('title', 'Dynamic Presentation')
+
 @section('content')
     {{-- title --}}
     <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">Building Structures</h2>
@@ -463,9 +464,9 @@
         </button>
     </div>
 
-    {{-- Buttons --}}
-    <div id="buttons" class="absolute  flex flex-row ">
 
+    {{-- Buttons --}}
+    <div id="buttons" class="absolute flex flex-row">
         <!-- Return Button -->
         <a id="returnButton">
             <img src="{{ asset('assets/images/pptimages/return.png') }}" />
@@ -478,24 +479,17 @@
 
         <!-- Close Button -->
         <button id="closeButton">
-
             <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-
         </button>
-
     </div>
+
 
     {{-- next Button --}}
     <div class="down-btn-container">
-
         <button class="nextButton">
             <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
         </button>
     </div>
-
-
-
-
 @endsection
 
 

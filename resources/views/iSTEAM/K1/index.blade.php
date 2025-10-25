@@ -32,7 +32,7 @@
 
 @section('content')
 
-    <div class=" panel panel-f flex flex-wrap items-center justify-center text-center z-[99] px-4 gap-[2vw] w-[35vw]">
+    <div class=" panel panel-f grid grid-cols-2 items-center justify-center text-center z-[99] gap-[2vw] w-[35vw]">
 
         <a href="{{ route('K1simpleMachines') }}"
             style="background-image: url('{{ asset('/assets/images/pptimages/Property1.png') }}');"

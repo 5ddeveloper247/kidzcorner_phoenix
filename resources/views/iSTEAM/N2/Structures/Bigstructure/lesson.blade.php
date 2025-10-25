@@ -48,7 +48,7 @@
 
     {{-- Slide 5  --}}
     <div class="slide flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/N2/structure/b-str/s1.png') }}" />
+        <img src="{{ asset('assets/images/N2/structure/b-str/s1.png') }}" class="large-img6" />
 
         <h2 class="title stroke">Coaches and buses are big <span class="text-white">vehicles</span>. <br>
             These <span class="text-white">vehicles</span> can carry up to 40 people!</h2>

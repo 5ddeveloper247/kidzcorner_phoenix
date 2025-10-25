@@ -58,6 +58,10 @@ body {
         max-width: 38vw !important;
         aspect-ratio: 8/3 !important;
     }
+    .large-img7 {
+        max-width: 38vw !important;
+        aspect-ratio: 9 / 5 !important;
+    }
 }
 
 a,

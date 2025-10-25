@@ -8,8 +8,8 @@
     {{-- Slide 1 --}}
     <div class="slide flex flex-col items-center justify-center gap-6 ">
         <div class="flex flex-col gap-1 justify-center items-center">
-            <img src="{{ asset('/assets/images/N2/structure/str2/s1.png') }}" class="large-img2" />
-            <img src="{{ asset('/assets/images/N2/structure/str2/s2.png') }}" class="large-img2" />
+            <img src="{{ asset('/assets/images/N2/structure/str2/s1.png') }}" class="large-img" />
+            <img src="{{ asset('/assets/images/N2/structure/str2/s2.png') }}" class="large-img" />
         </div>
         <h2 class="title stroke">Children, do you remember what these are?</h2>
         <p class="note">Note: Guide children to share their answers.</p>
@@ -19,8 +19,8 @@
     {{-- Slide 2 --}}
     <div class="slide flex flex-col items-center justify-center gap-6 ">
         <div class="flex flex-col gap-1 justify-center items-center">
-            <img src="{{ asset('/assets/images/N2/structure/str2/s1.png') }}" class="large-img2" />
-            <img src="{{ asset('/assets/images/N2/structure/str2/s2.png') }}" class="large-img2" />
+            <img src="{{ asset('/assets/images/N2/structure/str2/s1.png') }}" class="large-img" />
+            <img src="{{ asset('/assets/images/N2/structure/str2/s2.png') }}" class="large-img" />
         </div>
         <h2 class="title stroke">These are different <span class="text-white">structures</span> with different <span
                 class="text-white">shapes</span>.</h2>
@@ -31,8 +31,8 @@
     {{-- Slide3 --}}
     <div class="slide flex flex-col items-center justify-center gap-6 ">
         <div class="flex flex-col gap-1 justify-center items-center">
-            <img src="{{ asset('/assets/images/N2/structure/str2/s1.png') }}" class="large-img2" />
-            <img src="{{ asset('/assets/images/N2/structure/str2/s2.png') }}" class="large-img2" />
+            <img src="{{ asset('/assets/images/N2/structure/str2/s1.png') }}" class="large-img" />
+            <img src="{{ asset('/assets/images/N2/structure/str2/s2.png') }}" class="large-img" />
         </div>
         <h2 class="title stroke">The <span class="text-white">structures</span> have a base that helps them
             stand firmly on the ground.</h2>
@@ -42,8 +42,8 @@
     {{-- Slide 4 --}}
     <div class="slide flex flex-col items-center justify-center gap-6 ">
         <div class="flex  justify-center items-center">
-            <img src="{{ asset('/assets/images/N2/structure/str2/s3.png') }}" class="large-img4" />
-            <img src="{{ asset('/assets/images/N2/structure/str2/s4.png') }}" class="large-img4" />
+            <img src="{{ asset('/assets/images/N2/structure/str2/s3.png') }}" class="large-img3" />
+            <img src="{{ asset('/assets/images/N2/structure/str2/s4.png') }}" class="large-img3" />
         </div>
         <h2 class="title stroke">Children, do you remember the two <span class="text-white">structures</span> you
             had made in the last lesson?</h2>
@@ -65,7 +65,7 @@
 
     {{-- slide 6 --}}
     <div class="slide flex flex-col items-center justify-center gap-6 ">
-        <img src="{{ asset('/assets/images/N2/structure/str2/s7.png') }}" />
+        <img src="{{ asset('/assets/images/N2/structure/str2/s7.png') }}" class="large-img6" />
 
         <h2 class="title stroke">But the <span class="text-white">structure</span> with a <span class="text-white">wider
                 base</span> can support its
@@ -108,11 +108,7 @@
 
     {{-- slide 10 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
-
-
-        <img src="{{ asset('/assets/images/N2/structure/str2/s11.png') }}" />
-
-
+        <img src="{{ asset('/assets/images/N2/structure/str2/s11.png') }}" class="large-img6" />
 
         <h2 class="title stroke">The <span class="text-white">square</span> pieces forms a <span
                 class="text-white">square</span> block.
@@ -122,11 +118,7 @@
 
     {{-- slide 11 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
-
-
-        <img src="{{ asset('/assets/images/N2/structure/str2/s12.png') }}" />
-
-
+        <img src="{{ asset('/assets/images/N2/structure/str2/s12.png') }}" class="large-img6" />
 
         <h2 class="title stroke">Similarly, these pieces form a <span class="text-white"> triangular shaped</span>
             block, called prism.</h2>
@@ -135,11 +127,7 @@
 
     {{-- slide 12 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
-
-
-        <img src="{{ asset('/assets/images/N2/structure/str2/s13.png') }}" />
-
-
+        <img src="{{ asset('/assets/images/N2/structure/str2/s13.png') }}" class="large-img6" />
 
         <h2 class="title stroke">These pieces forms a <span class="text-white"> rectangular</span> block.
             It is call a cuboid.</h2>
@@ -173,7 +161,7 @@
     <div class="slide flex flex-col items-center justify-center gap-5 ">
 
 
-        <img src="{{ asset('/assets/images/N2/structure/str2/s15.png') }}" />
+        <img src="{{ asset('/assets/images/N2/structure/str2/s15.png') }}" class="large-img6" />
 
 
 
@@ -187,7 +175,7 @@
     <div class="slide flex flex-col items-center justify-center gap-5 ">
 
 
-        <img src="{{ asset('/assets/images/N2/structure/str2/s16.png') }}" />
+        <img src="{{ asset('/assets/images/N2/structure/str2/s16.png') }}" class="large-img6" />
 
 
 
@@ -200,7 +188,7 @@
     <div class="slide flex flex-col items-center justify-center gap-5 ">
 
 
-        <img src="{{ asset('/assets/images/N2/structure/str2/s17.png') }}" />
+        <img src="{{ asset('/assets/images/N2/structure/str2/s17.png') }}" class="large-img6" />
 
 
 
@@ -217,7 +205,6 @@
         <img src="{{ asset('/assets/images/N2/structure/str2/s18.png') }}" />
 
 
-
         <h2 class="title stroke">Using more rectangle pieces, a rectangular structure
             can be created to look like a wooden crate.</h2>
         <p class="note">Note: Encourage children to identify the similarities.</p>
@@ -228,7 +215,7 @@
     <div class="slide flex flex-col items-center justify-center gap-5 ">
 
 
-        <img src="{{ asset('/assets/images/N2/structure/str2/s19.png') }}" />
+        <img src="{{ asset('/assets/images/N2/structure/str2/s19.png') }}" class="large-img6" />
 
 
 
@@ -241,7 +228,7 @@
     <div class="slide flex flex-col items-center justify-center gap-5 ">
 
 
-        <img src="{{ asset('/assets/images/N2/structure/str2/s20.png') }}" />
+        <img src="{{ asset('/assets/images/N2/structure/str2/s20.png') }}" class="large-img6" />
 
 
 
@@ -254,7 +241,7 @@
     <div class="slide flex flex-col items-center justify-center gap-5 ">
 
 
-        <img src="{{ asset('/assets/images/N2/structure/str2/s21.png') }}" />
+        <img src="{{ asset('/assets/images/N2/structure/str2/s21.png') }}" class="large-img6" />
 
 
 
@@ -281,7 +268,7 @@
                     2. Draw your design in your learning journal.</h2>
             </div>
         </div>
-        <img src="{{ asset('/assets/images/N2/structure/str2/s22.png') }}" />
+        <img src="{{ asset('/assets/images/N2/structure/str2/s22.png') }}" class="large-img6" />
     </div>
 
     {{-- slide 24 --}}
