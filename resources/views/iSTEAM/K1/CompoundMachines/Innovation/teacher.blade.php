@@ -1,13 +1,12 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
- 
+
 @section('content')
-
-
-
+    {{-- title --}}
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">Domino Fun</h2>
 
     {{-- sldie 1 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -18,28 +17,26 @@
 
             </ul>
         </div>
-        <div class="flex w-[100%] items-center justify-between">
-            <div>
-                <h2 class="t-title font-bold">Keywords:</h2>
-                <ul class="list-disc ">
-                    <li>Compound Machine</li>
-                    <li>Simple Machine</li>
-                    <li>Inclined Plane</li>
-                    <li>Wedge</li>
-                    <li>Wheel And Axle</li>
-                    <li>Pulley</li>
-                    <li>Screw</li>
-                    <li>Lever</li>
-                </ul>
-            </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1"  />
+        <div>
+            <h2 class="t-title font-bold">Keywords:</h2>
+            <ul class="list-disc ">
+                <li>Compound Machine</li>
+                <li>Simple Machine</li>
+                <li>Inclined Plane</li>
+                <li>Wedge</li>
+                <li>Wheel And Axle</li>
+                <li>Pulley</li>
+                <li>Screw</li>
+                <li>Lever</li>
+            </ul>
         </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex flex-col text-2xl text-white justify-start gap-y-10 text-start w-[75%]">
+    <div class=" slide flex flex-col t-slide text-2xl text-white justify-start  text-start ">
         <div>
             <h2 class="font-bold t-title">Preparations:</h2>
             <div class="flex justify-center gap-20">
@@ -70,195 +67,166 @@
             </div>
         </div>
 
-        <div class="flex w-[100%] items-center justify-between">
-            {{-- <img src="/assets/images/K1/cm/cm40.png" /> --}}
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1"
-                alt="Teacher" />
-        </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="Teacher" />
     </div>
 
 
 
     {{-- SLIDE 3 --}}
-    <div class=" slide flex flex-col text-2xl text-white justify-start gap-y-10 text-start w-[75%]">
+    <div class=" slide flex flex-col t-slide text-2xl text-white justify-start  text-start ">
 
         <h2 class="font-bold t-title">Sample Rube Goldberg Machine 1 - raise a flag machine:</h2>
-        <img src="/assets/images/K1/cm/cm76.png" />
-
+        <video id="video1" class="pointer-events-none">
+            <source src="{{ asset('assets/images/K1/sm/79.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
 
         <!-- Video Trigger Button -->
-        <div data-property-1="Default"
-            class="absolute top-1/2 right-0 z-30 h-24 w-24 -translate-y-1/2 cursor-pointer h-24 w-24 rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-[80%] " />
-            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
 
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1"
-            alt="Teacher" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="Teacher" />
     </div>
 
 
     {{-- SLIDE 4 --}}
-    <div class=" slide flex flex-col text-2xl text-white justify-start gap-y-10 text-start w-[75%]">
+    <div class=" slide flex flex-col t-slide text-2xl text-white justify-start  text-start ">
 
         <h2 class="font-bold t-title">3 simple machines in the raise a flag machine:</h2>
         <img src="/assets/images/K1/cm/cm79.png" />
 
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1"
-            alt="Teacher" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="Teacher" />
     </div>
 
 
     {{-- SLIDE 5 --}}
-    <div class=" slide flex flex-col text-2xl text-white justify-start gap-y-10 text-start w-[75%]">
+    <div class=" slide flex flex-col t-slide text-2xl text-white justify-start  text-start ">
 
         <h2 class="font-bold t-title">Sample Rube Goldberg Machine 2 - bottle recycling machine:</h2>
-        <img src="/assets/images/K1/cm/cm77.png" />
-
+        <video id="video2" class="pointer-events-none">
+            <source src="{{ asset('assets/images/K1/sm/80.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
 
         <!-- Video Trigger Button -->
-        <div data-property-1="Default"
-            class="absolute top-1/2 right-0 z-30 h-24 w-24 -translate-y-1/2 cursor-pointer h-24 w-24 rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-[80%] " />
-            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
-
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1"
-            alt="Teacher" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="Teacher" />
     </div>
 
 
     {{-- SLIDE 6 --}}
-    <div class=" slide flex flex-col text-2xl text-white justify-start gap-y-10 text-start w-[75%]">
+    <div class=" slide flex flex-col t-slide text-2xl text-white justify-start  text-start ">
 
         <h2 class="font-bold t-title">5 simple machines in the bottle recycling machine:</h2>
-
-        <div class="flex justify-center">
-            <img src="/assets/images/K1/cm/cm80.png" />
-            <img src="/assets/images/K1/cm/cm81.png" />
-            <img src="/assets/images/K1/cm/cm82.png" />
-        </div>
-
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1"
-            alt="Teacher" />
+            <img src="/assets/images/K1/cm/cmg1.png"/>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="Teacher" />
     </div>
 
 
     {{-- SLIDE 7 --}}
-    <div class=" slide flex flex-col text-2xl text-white justify-start gap-y-10 text-start w-[75%]">
+    <div class=" slide flex flex-col t-slide text-2xl text-white justify-start  text-start ">
         <h2 class="font-bold t-title">Sample Rube Goldberg Machine 3 - trap a lizard/gecko machine:</h2>
-        <img src="/assets/images/K1/cm/cm78.png" />
-
+        <video id="video3" class="pointer-events-none">
+            <source src="{{ asset('assets/images/K1/sm/81.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
 
         <!-- Video Trigger Button -->
-        <div data-property-1="Default"
-            class="absolute top-1/2 right-0 z-30 h-24 w-24 -translate-y-1/2 cursor-pointer h-24 w-24 rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-            <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-[80%] " />
-            <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
-
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1"
-            alt="Teacher" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="Teacher" />
     </div>
 
 
 
     {{-- SLIDE 8 --}}
-    <div class=" slide flex flex-col text-2xl text-white justify-start gap-y-10 text-start w-[75%]">
+    <div class=" slide flex flex-col t-slide text-2xl text-white justify-start  text-start ">
         <h2 class="font-bold t-title">5 simple machines in the trap a gecko/lizard machine:</h2>
         <img src="/assets/images/K1/cm/cm83.png" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1"
-            alt="Teacher" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="Teacher" />
     </div>
 
 
     {{-- SLIDE 8 --}}
-    <div class=" slide flex flex-col text-2xl text-white justify-start gap-y-10 text-start w-[75%]">
-        <h2 class="font-bold t-title">Things to consider during hands-on session:</h2>
-        <ul class="list-disc">
-            <li>
-                Encourage children to generate ideas through discussion; respect each other's
-                views and opinions; build the machine together as a team; tackle problems faced
-                one at a time; cheer for each other and never give up.
-            </li>
-            <li>
-                Ask questions to prompt children to share and try out their ideas. One strategy
-                for asking good questions is focusing on "what". "What" questions focus on what is
-                happening, what you are noticing, and what you are doing. The answers are right in
-                front of you and the children. Focusing questions on what children have observed
-                and noticed not only helps them develop valuable communication and observation
-                skills, but also builds their confidence by giving them questions they can answer
-                as experts.
-            </li>
-            <li>
-                Examples of "what" questions: What happened here/there? What did you try?
-                What have you changed about what you are making? What are the ideas you have
-                talked about that you haven't tried yet? What have you seen other people trying?
-                What do you notice about ...? What do you think will happen if we ...?
-            </li>
-            <li>
-                If time permits, extend the activity by encouraging children to expand their final
-                machines by adding in other remaining simple machines.
-            </li>
-        </ul>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1"
-            alt="Teacher" />
+    <div class=" slide flex flex-col t-slide text-2xl text-white justify-start  text-start ">
+        <div>
+            <h2 class="font-bold t-title">Things to consider during hands-on session:</h2>
+            <ul class="list-disc">
+                <li>
+                    Encourage children to generate ideas through discussion; respect each other's
+                    views and opinions; build the machine together as a team; tackle problems faced
+                    one at a time; cheer for each other and never give up.
+                </li>
+                <li>
+                    Ask questions to prompt children to share and try out their ideas. One strategy
+                    for asking good questions is focusing on "what". "What" questions focus on what is
+                    happening, what you are noticing, and what you are doing. The answers are right in
+                    front of you and the children. Focusing questions on what children have observed
+                    and noticed not only helps them develop valuable communication and observation
+                    skills, but also builds their confidence by giving them questions they can answer
+                    as experts.
+                </li>
+                <li>
+                    Examples of "what" questions: What happened here/there? What did you try?
+                    What have you changed about what you are making? What are the ideas you have
+                    talked about that you haven't tried yet? What have you seen other people trying?
+                    What do you notice about ...? What do you think will happen if we ...?
+                </li>
+                <li>
+                    If time permits, extend the activity by encouraging children to expand their final
+                    machines by adding in other remaining simple machines.
+                </li>
+            </ul>
+        </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="Teacher" />
     </div>
-
-
-
-
-
 
 
 
     {{-- slide 9 --}}
-    <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
-        <div class="flex w-[100%] items-center justify-between">
-            <div>
-                <h2 class="font-bold t-title">Notes:</h2>
-                <ul class="list-disc leading-relaxed">
-                    <li>
-                        If you see
-                        <span
-                            class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-                            <!-- Decorative Vector -->
-                            <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
-                                class="absolute top-[4px] left-[6px] h-6 w-[80%]" />
-                            <div class="absolute top-[7px] left-[12px] h-2.5 w-3.5 rounded-sm bg-white"></div>
-                            <img src="{{ asset('assets/images/pptimages/play.png') }}"
-                                class="absolute top-[16px] left-[16px] h-8 w-8" />
-                        </span>
-                        next to a picture, click on the picture to watch the video.
-                    </li>
-                    <li>Always ask questions to encourage children to think and share their
-                        ideas first before giving out any information.</li>
-                    <li>Emphasise and use the keywords during hands-on sessions.</li>
-                    <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.</li>
-                    <li>
-                        Click on this <span class="font-bold t-title">shortcut icon</span>
-                        <span
-                            class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-                            <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
-                                class="absolute top-[4px] left-[6px] h-6 w-[80%]" />
-                            <div class="absolute top-[7px] left-[12px] h-2.5 w-3.5 rounded-sm bg-white"></div>
-                            <img src="{{ asset('assets/images/pptimages/home-icon.png') }}"
-                                class="absolute top-[16px] left-[16px] h-8 w-8" />
-                        </span>
-                        if you need to go to some parts of the lesson quickly.
-                    </li>
-                </ul>
-            </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="Teacher" />
+    <div class="slide flex t-slide  flex-col  text-2xl text-start text-white">
+        <div>
+            <h2 class="t-title">Notes:</h2>
+            <ul class="list-disc">
+                <li class="flex">
+                    If you see
+                    <span class="info-btn">
+
+                        <img src="{{ asset('assets/images/pptimages/video.png') }}" />
+                    </span>
+                    next to a picture, click on the picture to watch the video.
+                </li>
+                <li class="flex">
+                    If you see
+                    <span> <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="video-btn" />
+                    </span>
+                    , click on it for additional information or activity.
+                </li>
+                <li>Always ask questions to encourage children to think and share their ideas first before giving
+                    out
+                    any information.</li>
+                <li>Emphasise and use the <strong>keywords</strong> during hands-on sessions.</li>
+                <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
+                </li>
+                <li class="flex">
+                    Click on this shortcut icon
+                    <span> <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" class="home-btn" />
+                    </span>
+                    if you need to go to some parts of the lesson quickly.
+                </li>
+            </ul>
         </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
+
     {{--  slide 10 --}}
-    <div class="text-white flex flex-col items-center justify-center gap-y-10 text-start text-2xl slide hidden">
+    <div class="text-white flex flex-col t-slide items-center justify-center  text-start text-2xl slide hidden">
         <h2 class=" title stroke">Learning Centre Idea</h2>
         <div class="flex">
             <div>
@@ -276,8 +244,8 @@
                     <li>Show your friends where the simple machines are.</li>
                 </ul>
             </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}"
-                alt="" class="absolute teacher-img1" />
+            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt=""
+                class="absolute teacher-img1" />
         </div>
     </div>
 
@@ -285,13 +253,8 @@
 
     {{-- ================================================================================== --}}
     <div class="down-btn-container">
-        <button
-            class=" doneButton ">
-            <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
-            <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" />
-            </div>
-            <span
-                class="absolute left-[80px] top-[18px] flex items-center text-white text-5xl font-bold stroke">DONE</span>
+        <button class=" doneButton ">
+            <img src="{{ asset('assets/images/pptimages/done.png') }}" />
         </button>
     </div>
 
@@ -300,22 +263,17 @@
 
         <!-- Return Button -->
         <a id="returnButton">
- <img
-    src="{{ asset('assets/images/pptimages/return.png') }}" />
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
 
         <!-- Home Button -->
-        <button
-     id="homeButton">
-            <img 
-                src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
-        <button  id="closeButton">
-           
-            <            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-
+        <button id="closeButton">
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
         </button>
 
     </div>
@@ -323,9 +281,8 @@
     {{-- next Button --}}
     <div class="down-btn-container">
 
-        <button
-            class="nextButton">
- <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
+        <button class="nextButton">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
         </button>
     </div>
 
@@ -337,21 +294,54 @@
 
 @push('script')
     <script>
+        // Video toggle function - plays or pauses a video when clicked
+        function toggleVideo(videoId) {
+            const video = document.getElementById(videoId);
+            if (video.paused) {
+                video.play();
+            } else {
+                video.pause();
+            }
+        }
+
         document.addEventListener("DOMContentLoaded", () => {
+            // Get all slide elements
             const slides = document.querySelectorAll(".slide");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
-            const doneButton = document.querySelector(".doneButton"); //   DONE button
+            const doneButton = document.querySelector(".doneButton");
 
+            // Keep track of which slide we're currently viewing
             let currentSlide = 0;
 
+            // CONFIGURE YOUR ROUTES HERE
+            const returnRouteFromFirstSlide = "{{ route('InnovationSelection') }}";
+            const doneButtonRoute = "{{ route('K1CompoundMachines') }}";
+
+            // Pause all videos when changing slides
+            function pauseAllVideos() {
+                const videos = document.querySelectorAll('video');
+                videos.forEach(video => {
+                    if (!video.paused) {
+                        video.pause();
+                    }
+                });
+            }
+
+            // Show a specific slide and hide all others
             function showSlide(index) {
+                // Pause all videos before switching
+                pauseAllVideos();
+
+                // Hide all slides except the current one
                 slides.forEach((slide, i) => {
                     slide.classList.toggle("hidden", i !== index);
                 });
 
-                //   Agar last slide hai → NEXT button hide, DONE show
-                if (index === slides.length - 1) {
+                // Check if last slide
+                const isLastSlide = index === slides.length - 1;
+
+                if (isLastSlide) {
                     nextButtons.forEach(btn => btn.classList.add("hidden"));
                     if (doneButton) doneButton.classList.remove("hidden");
                 } else {
@@ -360,7 +350,7 @@
                 }
             }
 
-            //   NEXT buttons listener
+            // NEXT button
             nextButtons.forEach((btn) => {
                 btn.addEventListener("click", () => {
                     if (currentSlide < slides.length - 1) {
@@ -370,25 +360,28 @@
                 });
             });
 
-              //   Return button - redirect if on first slide, otherwise go back
-        returnButton.addEventListener("click", () => {
-            if (currentSlide === 0) {
-                //   First slide pe hai →  
-                window.location.href = "{{ route('YourRouteNameHere') }}";
-            } else {
-                //   Previous slide pe jao
-                currentSlide--;
-                showSlide(currentSlide);
-            }
-        });
+            // RETURN button - go to previous slide or navigate back
+            returnButton.addEventListener("click", () => {
+                // If on first slide, navigate to return route
+                if (currentSlide === 0) {
+                    window.location.href = returnRouteFromFirstSlide;
+                    return;
+                }
 
+                if (currentSlide > 0) {
+                    currentSlide--;
+                    showSlide(currentSlide);
+                }
+            });
+
+            // DONE button - navigate to completion route
             if (doneButton) {
                 doneButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('K1CompoundMachines') }}";
+                    window.location.href = doneButtonRoute;
                 });
             }
 
-
+            // Initialize - show first slide
             showSlide(currentSlide);
         });
     </script>

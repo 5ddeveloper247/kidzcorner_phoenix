@@ -187,7 +187,7 @@
         </ul>
 
         <ul>
-            <li>What to do:</li>
+            <h2 class="t-title">What to do:</h2>
             <li>1. Take turns to pull the rope of a pulley system to lift up the pail
                 of water.</li>
             <li>2. Pull the other rope on the pail to tilt the pail and pour out the

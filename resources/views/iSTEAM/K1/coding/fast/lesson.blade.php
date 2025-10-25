@@ -120,7 +120,7 @@
 
     {{-- slide 12 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <h2 class="text-center title stroke">Steps:</h2>
+        <h2 class=" title stroke">Steps:</h2>
         <ol class="title stroke">
             <li>1. Use coding cards to lay out the steps needed for a robot
                 to move through this circuit.</li>
@@ -131,7 +131,7 @@
 
     {{-- slide 13 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <h2 class="text-center title stroke">Steps:</h2>
+        <h2 class=" title stroke">Steps:</h2>
         <ol class="title stroke">
             <li>2. Turn on a robot and make sure that Blockly finds the robot.</li>
         </ol>
@@ -142,7 +142,7 @@
 
     {{-- slide 14 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <h2 class="text-center title stroke">Steps:</h2>
+        <h2 class=" title stroke">Steps:</h2>
         <ol class="title stroke">
             <li>3. Programme the robot to move through this circuit with different speeds.</li>
         </ol>
@@ -162,7 +162,7 @@
 
     {{-- slide 16 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <h2 class="text-center title stroke">Steps:</h2>
+        <h2 class=" title stroke">Steps:</h2>
         <ol class="title stroke">
             <li>1. Design a circuit with measuring strips.</li>
         </ol>
@@ -176,7 +176,7 @@
 
     {{-- slide 16 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <h2 class="text-center title stroke">Steps:</h2>
+        <h2 class=" title stroke">Steps:</h2>
         <ol class="title stroke">
             <li>2. Use coding cards to lay out the steps needed for a robot to move through your circuit.</li>
         </ol>
@@ -188,7 +188,7 @@
 
     {{-- slide 17 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <h2 class="text-center title stroke">Steps:</h2>
+        <h2 class=" title stroke">Steps:</h2>
         <ol class="title stroke">
             <li>3. Turn on a robot and make sure that Blockly finds the robot.</li>
         </ol>
@@ -201,7 +201,7 @@
 
     {{-- slide 17 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <h2 class="text-center title stroke">Steps:</h2>
+        <h2 class=" title stroke">Steps:</h2>
         <ol class="title stroke">
             <li>4. Programme the robot to move through your circuit wit different speeds.</li>
         </ol>
@@ -215,7 +215,7 @@
 
     {{-- slide 18 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <h2 class="text-center title stroke">Steps:</h2>
+        <h2 class=" title stroke">Steps:</h2>
         <ol class="title stroke">
             <li>5. Show and tell about your circuit.</li>
         </ol>

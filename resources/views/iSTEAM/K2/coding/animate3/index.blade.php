@@ -34,7 +34,7 @@ of a character</h2>
         <button class="relative w-24 h-24 button-fade-in bg-sky-500 rounded-[30px] " id="homeButton">
             <img class="absolute top-[6px] left-[8px] w-20 h-10" src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
             <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <img class=" w-14 h-14"
+            <img  
                 src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 

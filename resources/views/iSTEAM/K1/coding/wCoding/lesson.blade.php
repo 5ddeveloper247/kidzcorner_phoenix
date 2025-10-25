@@ -249,7 +249,7 @@
 
     {{-- slide 18 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <h2 class="text-center title stroke">Steps:</h2>
+        <h2 class=" title stroke">Steps:</h2>
         <ol class="title stroke">
             <li>1. Tap on the icon of Blockly to open the application.</li>
         </ol>
@@ -264,7 +264,7 @@
 
     {{-- slide 19 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <h2 class="text-center title stroke">Steps:</h2>
+        <h2 class=" title stroke">Steps:</h2>
         <ol class="title stroke">
             <li>2. Tap on the orange arrow button to start using the application.</li>
         </ol>
@@ -274,7 +274,7 @@
 
     {{-- slide 20 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <h2 class="text-center title stroke">Steps:</h2>
+        <h2 class=" title stroke">Steps:</h2>
         <ol class="title stroke">
             <li>3. Tap on the Drive Command for the choice of programming blocks.</li>
         </ol>
@@ -289,7 +289,7 @@
 
     {{-- slide 21 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <h2 class="text-center title stroke">Steps:</h2>
+        <h2 class=" title stroke">Steps:</h2>
         <ol class="title stroke">
             <li>4. Choose a programming block by tapping, dragging and placing
                 it at the scripting area (must connect with Start).</li>
@@ -303,7 +303,7 @@
 
     {{-- slide 22 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <h2 class="text-center title stroke">Steps:</h2>
+        <h2 class=" title stroke">Steps:</h2>
         <ol class="title stroke">
             <li>5. Throw away a programming block by tapping, dragging and
                 trashing it to the dustbin.</li>

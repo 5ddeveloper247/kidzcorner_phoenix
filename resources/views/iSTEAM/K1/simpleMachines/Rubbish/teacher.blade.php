@@ -171,7 +171,7 @@
             <li>Place things as listed in preparations here.</li>
         </ul>
         <ul>
-            <li>What to do:</li>
+            <h2 class="t-title">What to do:</h2>
             <li>Set up a Rube Goldberg Machine that will always throw rubbish <br>
                 successfully.</li>
         </ul>
@@ -196,7 +196,7 @@
 
         </ul>
         <ul>
-            <li>What to do:</li>
+            <h2 class="t-title">What to do:</h2>
             <li>1. Check on each toy and place all the toys with wheels and
                 axles in the empty box.</li>
             <li>2. Show where the wheel and axle of each toy are.</li>
