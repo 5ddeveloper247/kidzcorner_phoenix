@@ -1,16 +1,16 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
- 
+
 @section('content')
     {{-- sldie 1  --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
             <h2 class="t-title font-bold">Children will be able to:</h2>
             <ul class="list-disc ">
-                <li>Learn about the history of aeroplane design and how it has evolved</li>
-                <li>Understand aerodynamic forces in various types of vehicles</li>
-                <li>Understand the use of aerodynamic forces in sports</li>
-                <li>Develop understanding through inquiry</li>
+                <li class="text-[1.3vw]">Learn about the history of aeroplane design and how it has evolved</li>
+                <li class="text-[1.3vw]">Understand aerodynamic forces in various types of vehicles</li>
+                <li class="text-[1.3vw]">Understand the use of aerodynamic forces in sports</li>
+                <li class="text-[1.3vw]">Develop understanding through inquiry</li>
             </ul>
         </div>
 
@@ -18,22 +18,21 @@
             <h2 class="t-title font-bold">Keywords:</h2>
             <div class="flex gap-[10rem]">
                 <ul class="list-disc ">
-                    <li>Wright Brothers</li>
-                    <li>Aerodynamic Forces</li>
-                    <li>Aerodynamics</li>
-                    <li>Aerofoil</li>
+                    <li class="text-[1.3vw]">Wright Brothers</li>
+                    <li class="text-[1.3vw]">Aerodynamic Forces</li>
+                    <li class="text-[1.3vw]">Aerodynamics</li>
+                    <li class="text-[1.3vw]">Aerofoil</li>
                 </ul>
                 <ul class="list-disc ">
-                    <li>Downforce</li>
-                    <li>Wind Tunnel</li>
-                    <li>Drag</li>
-                    <li>Front Wings</li>
+                    <li class="text-[1.3vw]">Downforce</li>
+                    <li class="text-[1.3vw]">Wind Tunnel</li>
+                    <li class="text-[1.3vw]">Drag</li>
+                    <li class="text-[1.3vw]">Front Wings</li>
                 </ul>
 
             </div>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
@@ -44,10 +43,11 @@
             <h2 class="font-bold t-title">Preparations:</h2>
             <ul class="list-disc ">
                 <h2>Monoplane</h2>
-                <li>The propeller provides thrust for the plane to move forward.</li>
-                <li>Together with the aerodynamic shape of the aeroplane wings, the monoplane is able to provide enough lift
+                <li class="text-[1.3vw]">The propeller provides thrust for the plane to move forward.</li>
+                <li class="text-[1.3vw]">Together with the aerodynamic shape of the aeroplane wings, the monoplane is able
+                    to provide enough lift
                     for the plane to take off.</li>
-                <li>Link for reference:
+                <li class="text-[1.3vw]">Link for reference:
                     <a href="https://stocktonpropeller.com/basic-aerodynamics-flight/" class="text-[#F7B94A]"
                         target="_blank">
                         https://stocktonpropeller.com/basic-aerodynamics-flight/
@@ -55,10 +55,11 @@
                 </li>
             </ul>
             <ul class="list-disc">
-                <li>The Concorde could fly faster and higher than any commercial jets.</li>
-                <li>The long, narrow shape of the Concorde is able to reduce drag as it moves through the air.</li>
-                <li>The Concorde stopped flying in 2003.</li>
-                <li>Link for reference:
+                <li class="text-[1.3vw]">The Concorde could fly faster and higher than any commercial jets.</li>
+                <li class="text-[1.3vw]">The long, narrow shape of the Concorde is able to reduce drag as it moves through
+                    the air.</li>
+                <li class="text-[1.3vw]">The Concorde stopped flying in 2003.</li>
+                <li class="text-[1.3vw]">Link for reference:
                     <a href="https://science.howstuffworks.com/transport/flight/modern/concorde3.html"
                         class="text-[#F7B94A]" target="_blank">
                         https://science.howstuffworks.com/transport/flight/modern/concorde3.html
@@ -66,8 +67,7 @@
                 </li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
@@ -76,20 +76,23 @@
         <div>
             <h2 class="font-bold t-title">Additional info on wind tunnel test:</h2>
             <ul class="list-disc text-[#F7B94A] space-y-10">
-                <li>
-                    <a href="https://news.cgtn.com/news/2022-01-05/How-China-uses-wind-tunnels-to-train-
+                <li class="text-[1.3vw]">
+                    <a
+                        href="https://news.cgtn.com/news/2022-01-05/How-China-uses-wind-tunnels-to-train-
      athletes-in-60-seconds-16zYFZBDP68/index.html">
                         https://news.cgtn.com/news/2022-01-05/How-China-uses-wind-tunnels-to-train-
-                        athletes-in-60-seconds-16zYFZBDP68/index.html</a></li>
-                <li>
-                    <a href="https://www.electronicspecifier.com/products/vr-ar/procedure-simplifies-wind-
+                        athletes-in-60-seconds-16zYFZBDP68/index.html</a>
+                </li>
+                <li class="text-[1.3vw]">
+                    <a
+                        href="https://www.electronicspecifier.com/products/vr-ar/procedure-simplifies-wind-
      tunnel-tests">https://www.electronicspecifier.com/products/vr-ar/procedure-simplifies-wind-
-                        tunnel-tests</a></li>
+                        tunnel-tests</a>
+                </li>
             </ul>
         </div>
 
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
@@ -99,46 +102,36 @@
             <div>
                 <h2 class="font-bold t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
-                    <li>
+                    <li class="text-[1.3vw] flex">
                         If you see
-                        <span
-                            class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-                            <!-- Decorative Vector -->
-                            <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
-                                class="absolute top-[4px] left-[6px] h-6 w-[80%]" />
-                            <div class="absolute top-[7px] left-[12px] h-2.5 w-3.5 rounded-sm bg-white"></div>
-                            <img src="{{ asset('assets/images/pptimages/play.png') }}"
-                                class="absolute top-[16px] left-[16px] h-8 w-8" />
+                        <span>
+                            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s27.png') }}"
+                                class="!max-w-[2.5vw]" />
                         </span>
                         next to a picture, click on the picture to watch the video.
                     </li>
-                    <li>Emphasise and use the <strong>keywords</strong> during hands-on sessions.</li>
-                    <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
+                    <li class="text-[1.3vw]">Emphasise and use the <strong>keywords</strong> during hands-on sessions.</li>
+                    <li class="text-[1.3vw]">Print out the Learning Journal (if any) for every child to complete at the end
+                        of the lesson.
                     </li>
-                    <li>
+                    <li class="text-[1.3vw]">
                         Click on this <span class="font-bold t-title">shortcut icon</span>
-                        <span
-                            class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-                            <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
-                                class="absolute top-[4px] left-[6px] h-6 w-[80%]" />
-                            <div class="absolute top-[7px] left-[12px] h-2.5 w-3.5 rounded-sm bg-white"></div>
-                            <img src="{{ asset('assets/images/pptimages/home-icon.png') }}"
-                                class="absolute top-[16px] left-[16px] h-8 w-8" />
+                        <span>
+                            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s28.png') }}"
+                                class="!max-w-[2.5vw]" />
                         </span>
                         if you need to go to some parts of the lesson quickly.
                     </li>
                 </ul>
             </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1"
-                alt="Teacher" />
+            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="Teacher" />
         </div>
     </div>
     {{-- ========================================================== --}}
     {{-- Buttons --}}
     <div class="down-btn-container">
-        <button
-         class="doneButton">
- <img src="{{ asset('assets/images/pptimages/done.png') }}" />
+        <button class="doneButton">
+            <img src="{{ asset('assets/images/pptimages/done.png') }}" />
         </button>
     </div>
 
@@ -146,23 +139,19 @@
 
         <!-- Return Button -->
         <a id="returnButton">
- <img
-    src="{{ asset('assets/images/pptimages/return.png') }}" />
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
 
         <!-- Home Button -->
-        <button
-     id="homeButton">
-            <img 
-                src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
         <button id="closeButton">
-           
-            <img 
-                src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-    
+
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
+
         </button>
 
     </div>
@@ -170,9 +159,8 @@
     {{-- next Button --}}
     <div class="down-btn-container">
 
-        <button
-            class="nextButton">
- <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
+        <button class="nextButton">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
         </button>
     </div>
 
@@ -217,17 +205,17 @@
                 });
             });
 
-              //   Return button - redirect if on first slide, otherwise go back
-        returnButton.addEventListener("click", () => {
-            if (currentSlide === 0) {
-                //   First slide pe hai →  
-                window.location.href = "{{ route('YourRouteNameHere') }}";
-            } else {
-                //   Previous slide pe jao
-                currentSlide--;
-                showSlide(currentSlide);
-            }
-        });
+            //   Return button - redirect if on first slide, otherwise go back
+            returnButton.addEventListener("click", () => {
+                if (currentSlide === 0) {
+                    //   First slide pe hai →  
+                    window.location.href = "{{ route('k2Aerodynamics') }}";
+                } else {
+                    //   Previous slide pe jao
+                    currentSlide--;
+                    showSlide(currentSlide);
+                }
+            });
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {

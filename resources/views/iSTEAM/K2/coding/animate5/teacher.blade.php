@@ -7,14 +7,14 @@
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
-                <li>Know that ScratchJr allows us to create our own animated stories</li>
-                <li>Know that ScratchJr allows us to create our own animated stories</li>
-                <li>Know that more than a programme can be created for a character to do several movements at the same time
+                <li class="text-[1.1vw]">Know that ScratchJr allows us to create our own animated stories</li>
+                <li class="text-[1.1vw]">Know that ScratchJr allows us to create our own animated stories</li>
+                <li class="text-[1.1vw]">Know that more than a programme can be created for a character to do several movements at the same time
                     for the sake of different animation effects</li>
-                <li>Develop understanding through inquiry</li>
-                <li>Develop problem-solving skills</li>
-                <li>Learn to share and take turns</li>
-                <li>Learn to cooperate with friends to complete a task</li>
+                <li class="text-[1.1vw]">Develop understanding through inquiry</li>
+                <li class="text-[1.1vw]">Develop problem-solving skills</li>
+                <li class="text-[1.1vw]">Learn to share and take turns</li>
+                <li class="text-[1.1vw]">Learn to cooperate with friends to complete a task</li>
             </ul>
         </div>
 
@@ -23,18 +23,18 @@
         <div class="flex gap-1 justify-around">
             <ul class="list-disc ">
 
-                <li>Programme</li>
-                <li>Programming/Coding</li>
-                <li>Command</li>
-                <li>Animated Story</li>
+                <li class="text-[1.1vw]">Programme</li>
+                <li class="text-[1.1vw]">Programming/Coding</li>
+                <li class="text-[1.1vw]">Command</li>
+                <li class="text-[1.1vw]">Animated Story</li>
             </ul>
 
 
             <ul class="list-disc ">
-                <li>Programming Block</li>
-                <li>Programming Area</li>
-                <li>Character</li>
-                <li>Look</li>
+                <li class="text-[1.1vw]">Programming Block</li>
+                <li class="text-[1.1vw]">Programming Area</li>
+                <li class="text-[1.1vw]">Character</li>
+                <li class="text-[1.1vw]">Look</li>
             </ul>
 
 
@@ -50,7 +50,7 @@
     <div class=" slide flex text-2xl text-white flex-col justify-start  gap-y-10 text-start">
         <ul class="list-disc">
             <h2 class="">Preparations:</h2>
-            <li>The tablets (download ScratchJr application from App Store or Google Play for each tablet; charge all the
+            <li class="text-[1.1vw]">The tablets (download ScratchJr application from App Store or Google Play for each tablet; charge all the
                 tablets before you start each lesson)</li>
 
         </ul>
@@ -73,8 +73,8 @@
 
         <ul class="list-disc">
             <h2 class="">Preparations:</h2>
-            <li>Grid Card (print and laminate so that they are reusable)</li>
-            <li>Whiteboard marker pens</li>
+            <li class="text-[1.1vw]">Grid Card (print and laminate so that they are reusable)</li>
+            <li class="text-[1.1vw]">Whiteboard marker pens</li>
 
         </ul>
         <div class="flex justify-center items-center">
@@ -92,7 +92,7 @@
 
         <ul class="list-disc">
             <h2 class="">Additional info:</h2>
-            <li>
+            <li class="text-[1.1vw]">
                 Tapping here enables you to change title of a project.</li>
         </ul>
         <div class="flex justify-center items-center">
@@ -108,7 +108,7 @@
 
         <ul class="list-disc">
             <h2 class="">Additional info:</h2>
-            <li>
+            <li class="text-[1.1vw]">
                 Tapping here enables you to add words or text on the stage.</li>
         </ul>
         <div class="flex justify-center items-center">
@@ -124,7 +124,7 @@
 
         <ul class="list-disc">
             <h2 class="">Additional info:</h2>
-            <li>
+            <li class="text-[1.1vw]">
                 The maximum number of pages you can create for a story is 4 pages.</li>
         </ul>
         <div class="flex justify-center items-center">
@@ -148,18 +148,18 @@
             <ul class="list-disc !text-white">
 
                 <h2 class="">Reminders or advice during hands-on session:</h2>
-                <li>Always hold a tablet with both your hands (to show your care and prevent the
+                <li class="text-[1.1vw]">Always hold a tablet with both your hands (to show your care and prevent the
                     tools from spoiling easily).</li>
-                <li>Be patient and take turns when using the tablets.</li>
+                <li class="text-[1.1vw]">Be patient and take turns when using the tablets.</li>
             </ul>
         </div>
 
         <div>
             <ul class="!text-start list-disc">
                 <h2 class="">Possible questions during hands-on sessions:</h2>
-                <li>Which part of the app allows you to add pages to a story?
+                <li class="text-[1.1vw]">Which part of the app allows you to add pages to a story?
                 </li>
-                <li>How do you make your story auto play from page to page?</li>
+                <li class="text-[1.1vw]">How do you make your story auto play from page to page?</li>
             </ul>
         </div>
 
@@ -175,34 +175,25 @@
             <div>
                 <h2 class="font-bold t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
-                    <li>
+                    <li class="text-[1.3vw] flex">
                         If you see
-                        <span
-                            class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-                            <!-- Decorative Vector -->
-                            <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
-                                class="absolute top-[4px] left-[6px] h-6 w-[80%]" />
-                            <div class="absolute top-[7px] left-[12px] h-2.5 w-3.5 rounded-sm bg-white"></div>
-                            <img src="{{ asset('assets/images/pptimages/play.png') }}"
-                                class="absolute top-[16px] left-[16px] h-8 w-8" />
+                        <span>
+                            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s27.png') }}"
+                                class="!max-w-[2.5vw]" />
                         </span>
-                        a picture, click on the picture to watch the video
+                        next to a picture, click on the picture to watch the video.
                     </li>
-                    <li>Always ask questions to encourage children to think and share their ideas first
+                    <li class="text-[1.1vw]">Always ask questions to encourage children to think and share their ideas first
                         before giving out any information.</li>
-                    <li>Emphasise and use the keywords during hands-on sessions.
+                    <li class="text-[1.1vw]">Emphasise and use the keywords during hands-on sessions.
                     </li>
-                    <li>Print out the Learning Journal (if any) for every <br>
+                    <li class="text-[1.1vw]">Print out the Learning Journal (if any) for every <br>
                         child to complete at the end of the lesson.</li>
-                    <li>
+                    <li class="text-[1.3vw] flex">
                         Click on this <span class="font-bold t-title">shortcut icon</span>
-                        <span
-                            class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-                            <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
-                                class="absolute top-[4px] left-[6px] h-6 w-[80%]" />
-                            <div class="absolute top-[7px] left-[12px] h-2.5 w-3.5 rounded-sm bg-white"></div>
-                            <img src="{{ asset('assets/images/pptimages/home-icon.png') }}"
-                                class="absolute top-[16px] left-[16px] h-8 w-8" />
+                        <span>
+                            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s28.png') }}"
+                                class="!max-w-[2.5vw]" />
                         </span>
                         if you need to go to some parts of the lesson quickly.
                     </li>
@@ -306,7 +297,7 @@
         returnButton.addEventListener("click", () => {
             if (currentSlide === 0) {
                 //   First slide pe hai →  
-                window.location.href = "{{ route('YourRouteNameHere') }}";
+                window.location.href = "{{ route('k2coding') }}";
             } else {
                 //   Previous slide pe jao
                 currentSlide--;

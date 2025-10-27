@@ -1,6 +1,6 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
- 
+
 @section('content')
 
 
@@ -156,14 +156,16 @@
     {{-- slide 19 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
         <h2 class="title stroke">Children, do you see anything on the screen of the phone?</h2>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u8.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u8.png') }}" class="!max-w-[10vw]" />
         <div class="text-start note">
-            <p>Note: Follow the steps to do this mini activity in class -</p>
+            <p class="!text-[1.4vw]">Note: Follow the steps to do this mini activity in class -</p>
             <ul>
-                <li>1) Wipe the screen of a mobile phone and then use a finger to leave a mark on the screen. Have children
+                <li class="text-[1.3vw]">1) Wipe the screen of a mobile phone and then use a finger to leave a mark on the
+                    screen. Have children
                     face
                     the phone and ask if they see anything on the screen.</li>
-                <li>2) Tilt the phone to a certain angle, guide children to discover the fingerprint mark on the screen.
+                <li class="text-[1.3vw]">2) Tilt the phone to a certain angle, guide children to discover the fingerprint
+                    mark on the screen.
                     Have them guess why the fingerprint appears on the phone screen when the teacher's hand is clean.</li>
             </ul>
         </div>
@@ -238,9 +240,8 @@
         <p class="note text-center">Note: Demonstrate how to do it by wearing gloves and a mask. Explain to children that
             dusting for a fingerprint using a brush with overloaded powder may smear the print.</p>
         <!-- Video Trig ger Button -->
-        <div data-property-1="Default"
-            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
-      <img src="/assets/images/pptimages/video.png" />
+        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
@@ -257,9 +258,8 @@
             they sweep the brush so that
             the print will not be wiped away (only the bristle tips of the brush will touch the fingerprint surface).</p>
         <!-- Video Trigger Button -->
-        <div data-property-1="Default"
-            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
-      <img src="/assets/images/pptimages/video.png" />
+        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
@@ -287,9 +287,8 @@
         <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u16.png') }}" />
         <p class="note text-center">Note: Demonstrate how to do it. Remind children to hold only the edges of the tape.</p>
         <!-- Video Trigger Button -->
-        <div data-property-1="Default"
-            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
-      <img src="/assets/images/pptimages/video.png" />
+        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
@@ -304,9 +303,8 @@
         <p class="note text-center">Note: Demonstrate how to do it. <br>
             If the print gets smeared, encourage children to clean the mirror and redo the activity from step 1.</p>
         <!-- Video Trigger Button -->
-        <div data-property-1="Default"
-            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
-      <img src="/assets/images/pptimages/video.png" />
+        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
@@ -359,9 +357,8 @@
         <h2 class="title stroke">Through the activity, we know that fingerprint powder sticks
             to the oils of fingerprints making the prints visible.</h2>
         <!-- Video Trigger Button -->
-        <div data-property-1="Default"
-            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
-      <img src="/assets/images/pptimages/video.png" />
+        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
@@ -411,7 +408,7 @@
     <div class="slide hidden  flex flex-col items-start">
         <h2 class=" title stroke"><span class="text-white">Evidence 2</span> 3 shoe prints as shown were found on the
             floor near the door.</h2>
-        <div class="w-[836px] h-fit bg-cover bg-center p-[20px] flex flex-col justify-center items-center"
+        <div class="w-[30vw] h-fit bg-cover bg-center p-[20px] flex flex-col justify-center items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u21.png') }}" />
         </div>
@@ -422,7 +419,7 @@
     <div class="slide hidden  flex flex-col items-start">
         <h2 class=" title stroke"><span class="text-white">Evidence 3</span> 3 right thumbprints as shown were found at
             different parts of the room.</h2>
-        <div class="w-[836px] h-fit bg-cover bg-center p-[20px] flex flex-col justify-center items-center"
+        <div class="w-[30vw] h-fit bg-cover bg-center p-[20px] flex flex-col justify-center items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u22.png') }}" />
         </div>
@@ -432,7 +429,7 @@
     {{-- slide 41 --}}
     <div class="slide hidden  flex flex-col items-start">
         <h2 class=" title stroke">Profile of the suspect 1:</h2>
-        <div class="w-[836px] h-fit bg-cover bg-center p-[20px] flex flex-col justify-center items-center"
+        <div class="w-[30vw] h-fit bg-cover bg-center p-[20px] flex flex-col justify-center items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u23.png') }}" />
         </div>
@@ -442,7 +439,7 @@
     {{-- slide 42 --}}
     <div class="slide hidden  flex flex-col items-start">
         <h2 class=" title stroke">Profile of the suspect 2:</h2>
-        <div class="w-[836px] h-fit bg-cover bg-center p-[20px] flex flex-col justify-center items-center"
+        <div class="w-[30vw] h-fit bg-cover bg-center p-[20px] flex flex-col justify-center items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u24.png') }}" />
         </div>
@@ -452,7 +449,7 @@
     {{-- slide 43 --}}
     <div class="slide hidden  flex flex-col items-start">
         <h2 class=" title stroke">Profile of the suspect 3:</h2>
-        <div class="w-[836px] h-fit bg-cover bg-center p-[20px] flex flex-col justify-center items-center"
+        <div class="w-[30vw] h-fit bg-cover bg-center p-[20px] flex flex-col justify-center items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u25.png') }}" />
         </div>
@@ -461,7 +458,7 @@
     {{-- slide 44 --}}
     <div class="slide hidden  flex flex-col items-start">
         <h2 class=" title stroke">Profile of the suspect 4:</h2>
-        <div class="w-[836px] h-fit bg-cover bg-center p-[20px] flex flex-col justify-center items-center"
+        <div class="w-[30vw] h-fit bg-cover bg-center p-[20px] flex flex-col justify-center items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u26.png') }}" />
         </div>
@@ -471,7 +468,7 @@
     {{-- slide 45 --}}
     <div class="slide hidden  flex flex-col items-start">
         <h2 class=" title stroke">Profile of the suspect 5:</h2>
-        <div class="w-[836px] h-fit bg-cover bg-center p-[20px] flex flex-col justify-center items-center"
+        <div class="w-[30vw] h-fit bg-cover bg-center p-[20px] flex flex-col justify-center items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u27.png') }}" />
         </div>
@@ -481,7 +478,7 @@
     {{-- slide 46 --}}
     <div class="slide hidden  flex flex-col items-start">
         <h2 class=" title stroke">Profile of the suspect 6:</h2>
-        <div class="w-[836px] h-fit bg-cover bg-center p-[20px] flex flex-col justify-center items-center"
+        <div class="w-[30vw] h-fit bg-cover bg-center p-[20px] flex flex-col justify-center items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u28.png') }}" />
         </div>
@@ -508,7 +505,7 @@
     {{-- slide 48 --}}
     <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[836px] h-fit bg-cover bg-center p-[20px] flex flex-col justify-center items-center"
+        <div class="w-[30vw] h-fit bg-cover bg-center p-[20px] flex flex-col justify-center items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u29.png') }}" />
         </div>
@@ -517,7 +514,7 @@
     {{-- slide 49 --}}
     <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[836px] h-[530px] bg-cover bg-center p-[20px] flex flex-col items-center"
+        <div class="w-[30vw] h-[20vh] bg-cover bg-center p-[20px] flex flex-col items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p class="text-start text-[20px]">A fingerprint is commonly used to unlock mobile phone nowadays. Can you think
                 of a new use of your fingerprint? Draw it.</p>
@@ -528,34 +525,29 @@
     {{-- ====================================== --}}
     {{-- Buttons --}}
     <div class="down-btn-container">
-        <button
-         class="doneButton">
- <img src="{{ asset('assets/images/pptimages/done.png') }}" />
+        <button class="doneButton">
+            <img src="{{ asset('assets/images/pptimages/done.png') }}" />
         </button>
     </div>
 
 
- <div id="buttons" class="absolute  flex flex-row gap-6 ">
+    <div id="buttons" class="absolute  flex flex-row gap-6 ">
 
         <!-- Return Button -->
         <a id="returnButton">
- <img
-    src="{{ asset('assets/images/pptimages/return.png') }}" />
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
 
         <!-- Home Button -->
-        <button
-     id="homeButton">
-            <img 
-                src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
         <button id="closeButton">
-           
-            <img 
-                src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-    
+
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
+
         </button>
 
     </div>
@@ -563,9 +555,8 @@
     {{-- next Button --}}
     <div class="down-btn-container">
 
-        <button
-            class="nextButton">
- <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
+        <button class="nextButton">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
         </button>
     </div>
 

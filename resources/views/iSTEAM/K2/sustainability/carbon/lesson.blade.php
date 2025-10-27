@@ -88,8 +88,8 @@
     {{-- slide 7 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <h2 class="title stroke">Let's watch a video to help us understand more about
-            “”carbon footprint".</h2><br><br>
-        <h2 class="title stroke">https://www.youtube.com/watch?v=8q7_aV8eLUE </h2> <br>
+            “”carbon footprint".</h2>
+        <h2 class="title stroke">https://www.youtube.com/watch?v=8q7_aV8eLUE </h2> 
 
         <p class="text-center note">Note: Invite children to watch the video and then talk about what carbon footprint is.
             You may replay and pause the video as needed during the discussion.</p>
@@ -106,8 +106,8 @@
     {{-- slide 7 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <h2 class="title stroke">Let's see how a person's carbon footprint is calculated at the
-            following website!</h2><br><br>
-        <h2 class="title stroke">https://mycarbonfootprint.spgroup.com.sg/ </h2> <br>
+            following website!</h2>
+        <h2 class="title stroke">https://mycarbonfootprint.spgroup.com.sg/ </h2> 
 
         <p class="text-center note">Note: Youmay use your own or a mock-up household information for this demo.
             Explain to children that nowadays there are many carbon footprint calculators online;
@@ -119,7 +119,7 @@
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <h2 class="text-white">Class Activity 1 </h2>
         <div class="self-start text-start">
-            <h2 class="title stroke">Let's do:<br>
+            <h2 class="title stroke">Let's do:
                 Get your daddy or mummy to help you calculate your carbon
                 footprint. Record the result and then share with the class.</h2>
         </div>
@@ -155,7 +155,7 @@
         <h2 class="title stroke text-center">As a suggestion, you can reduce your carbon footprint by
             <span class="text-white"> energy and natural resources </span>
             in any way possible.
-        </h2> <br><br>
+        </h2> 
         <p class="note">Note: For the following pages, guide children to discuss and understand how each
             example/action/habit
             reduces our carbon footprint.</p>
@@ -164,8 +164,8 @@
     {{-- Slide 3 --}}
     <div class="slide hidden  flex flex-col items-center">
         <div class="flex gap-2 items-center">
-            <img src="{{ asset('assets/images/K2/sustain/carbon/c4a.png') }}" />
-            <img src="{{ asset('assets/images/K2/sustain/carbon/c4b.png') }}" />
+            <img src="{{ asset('assets/images/K2/sustain/carbon/c4a.png') }}" class="large-img3" />
+            <img src="{{ asset('assets/images/K2/sustain/carbon/c4b.png') }}" class="large-img3" />
         </div>
         <h2 class="title stroke text-center">Turn off lights and electronics when you are not using them to
             save electricity and thus reduce your carbon footprint.</h2>
@@ -226,7 +226,7 @@
     <div class="slide hidden  flex flex-col items-center">
         <h2 class="title stroke text-center">You can reduce your carbon footprint by
             <span class="text-white">being a responsible consumer </span> too.
-        </h2><br><br>
+        </h2>
         <p class="note">Note: For the following pages, guide children to discuss and understand how each
             example/action/habit
             reduces our carbon footprint.</p>
@@ -234,7 +234,7 @@
     {{-- Slide 3 --}}
     <div class="slide hidden  flex flex-col items-center">
         <div class="flex items-end gap-2 justify-center">
-            <img src="{{ asset('assets/images/K2/sustain/carbon/c11.png') }}" />
+            <img src="{{ asset('assets/images/K2/sustain/carbon/c11.png') }}" class="large-img6" />
         </div>
         <h2 class="title stroke text-center">Growing, producing, processing, packaging, delivery and
             distribution of food and products we consume
@@ -252,7 +252,7 @@
     {{-- Slide 3 --}}
     <div class="slide hidden  flex flex-col items-center">
         <div class="flex items-end gap-2 justify-center">
-            <img src="{{ asset('assets/images/K2/sustain/carbon/c13.png') }}" />
+            <img src="{{ asset('assets/images/K2/sustain/carbon/c13.png') }}" class="large-img6" />
         </div>
         <h2 class="title stroke text-center">Growing some food for your own use will also reduce
             your carbon footprint.</h2>
@@ -260,10 +260,10 @@
     {{-- Slide 3 --}}
     <div class="slide hidden  flex flex-col items-center">
         <div class="flex items-end gap-2 justify-center">
-            <img src="{{ asset('assets/images/K2/sustain/carbon/c14.png') }}" />
+            <img src="{{ asset('assets/images/K2/sustain/carbon/c14.png') }}" class="large-img6" />
         </div>
         <h2 class="title stroke text-center">Do you know that eating less meat will also reduce your carbon
-            footprint?</h2><br>
+            footprint?</h2>
         <p class="note">Note: Guide children to talk about meat (types, health benefits, nutrients) and how consuming
             less meat reduces our
             carbon footprint; guide them to understand that protein can also be found in legumes (plants; healthier source).
@@ -299,7 +299,7 @@
             <img src="{{ asset('assets/images/K2/sustain/carbon/c18.png') }}" />
         </div>
         <h2 class="title stroke text-center">So in the years to come, people must look for alternative ways
-            to grow and produce food.</h2><br>
+            to grow and produce food.</h2>
         <p class="note">Note: Guide children to view and understand this video <span class="title stroke">
                 //www.youtube.com/watch?v=2ueVw83Plec)</span>.</p>
     </div>
@@ -321,18 +321,18 @@
     </div>
     {{-- Slide 3 --}}
     <div class="slide hidden  flex flex-col items-center">
-        <h2 class="text-white">Class Activity 2</h2><br>
-        <h2 class="title stroke text-center">Let's do:<br>
+        <h2 class="text-white">Class Activity 2</h2>
+        <h2 class="title stroke text-center">Let's do:
 
             Let's learn how to make a kind of plant-based meat and
-            taste it.</h2><br><br>
+            taste it.</h2>
         <p class="note">Note: You may choose other recipes for this activity but remember to use natural ingredients to
             make
             up the taste of the meat; avoid ingredients that may trigger food allergy and food intolerance.</p>
     </div>
     {{-- Slide 3 --}}
     <div class="slide hidden  flex flex-col items-center">
-        <h2 class="title stroke text-center">Steps:<br>
+        <h2 class="title stroke text-center">Steps:
             1. Name the ingredients. Which ingredient is a source of
             protein?</h2>
         <div class="flex items-end gap-2 justify-center">
@@ -344,7 +344,7 @@
     </div>
     {{-- Slide 3 --}}
     <div class="slide hidden  flex flex-col items-center">
-        <h2 class="title stroke text-center">Steps:<br>
+        <h2 class="title stroke text-center">Steps:
             2. Cut all the main ingredients into smaller pieces.</h2>
         <div class="flex items-end gap-2 justify-center">
             <img src="{{ asset('assets/images/K2/sustain/carbon/c21.png') }}" />
@@ -353,7 +353,7 @@
     </div>
     {{-- Slide 3 --}}
     <div class="slide hidden  flex flex-col items-center">
-        <h2 class="title stroke text-center">Steps:<br>
+        <h2 class="title stroke text-center">Steps:
             3. Use a food processor to process all the main ingredients
             until finely chopped.</h2>
         <div class="flex items-end gap-2 justify-center">
@@ -363,21 +363,21 @@
     </div>
     {{-- Slide 3 --}}
     <div class="slide hidden  flex flex-col items-center">
-        <h2 class="title stroke text-center">Steps:<br>
+        <h2 class="title stroke text-center">Steps:
             4. Transfer all the finely chopped ingredients into a mixing
-            bowl.<br>
+            bowl.
             5. Add a bit of cumin and cinnamon powder into the mixing
             bowl and stir to combine the mixture.</h2>
         <p class="note">Note: Guide children to do the steps.</p>
     </div>
     {{-- Slide 3 --}}
     <div class="slide hidden  flex flex-col items-center">
-        <h2 class="title stroke text-center">Steps:<br>
+        <h2 class="title stroke text-center">Steps:
             6. Pan fry the mixture over medium-high heat until the
             moisture has evaporated and the vegetables are cooked
-            (about 6-8 minutes).<br>
+            (about 6-8 minutes).
             7. Add the crushed pumpkin seeds into the pan to combine with
-            the mixture.<br>
+            the mixture.
             8. Pan fry for 1 minute and the meat is ready for cooking
             dishes.</h2>
         <p class="note">Note: Adult will do the steps and explain to children. You may consider film these steps to show
@@ -385,9 +385,9 @@
     </div>
     {{-- Slide 3 --}}
     <div class="slide hidden  flex flex-col items-center">
-        <h2 class="title stroke text-center">Steps:<br>
-            9. Shape the meat into meatballs or patties.<br>
-            10. Use them in soups, pasta or burgers.<br>
+        <h2 class="title stroke text-center">Steps:
+            9. Shape the meat into meatballs or patties.
+            10. Use them in soups, pasta or burgers.
             11. Taste the meat. Do you like it?</h2>
         <p class="note">Note: Adult will do step 10 and explain to children.</p>
     </div>
@@ -405,7 +405,7 @@
         <div class="flex items-end gap-2 justify-center">
             <img src="{{ asset('assets/images/K2/sustain/carbon/c23.png') }}" />
         </div>
-        <h2 class="title stroke text-center">There are many possibilities for the future of food.</h2><br>
+        <h2 class="title stroke text-center">There are many possibilities for the future of food.</h2>
         <p class="note">Note: If time permit, guide children to search for related information online.</p>
     </div>
     {{-- Slide 3 --}}
@@ -426,184 +426,9 @@
 
 
     <!-- Video Trigger Button -->
-    <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+    {{-- <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
         <img src="/assets/images/pptimages/video.png" />
-    </div>
-    </div>
-
-
-    {{-- Slide 16 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <div class="self-start text-start">
-            <h2 class="title stroke">Let's do: <br>
-                2. (B) Rub a fingertip over the pencil mark to stain it.</h2>
-        </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f4.png') }}" />
-        <p class="note text-center">Note: Advise B to ensure that their fingertips have an even dark mark.</p>
-        <!-- Video Trigger Button -->
-        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
-            <img src="/assets/images/pptimages/video.png" />
-        </div>
-    </div>
-
-
-    {{-- Slide 17 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <div class="self-start text-start">
-            <h2 class="title stroke">Let's do: <br>
-                3. (C) Cut and stick a piece of clear tape on the stained fingertip (of B).</h2>
-        </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f5.png') }}" />
-        <p class="note text-center">Note: Advise C to hold only an edge of the tape and stick the tape flat on the
-            fingertip
-            of B.</p>
-        <!-- Video Trigger Button -->
-        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
-            <img src="/assets/images/pptimages/video.png" />
-        </div>
-    </div>
-
-
-    {{-- Slide 18 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <div class="self-start text-start">
-            <h2 class="title stroke">Let's do: <br>
-                4. (C) Carefully remove the tape from the fingertip (of B)
-                and paste it on the learning journal (of B).</h2>
-        </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f6.png') }}" />
-        <p class="note text-center">Note: Remind C to paste the tape in the correct place of B's fingerprint record.</p>
-        <!-- Video Trigger Button -->
-        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
-            <img src="/assets/images/pptimages/video.png" />
-        </div>
-    </div>
-
-
-    {{-- Slide 18 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <div class="self-start text-start">
-            <h2 class="title stroke">Let's do: <br>
-                5. (A) Use a wet towel to clean the fingertip (of B).</h2>
-        </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f7.png') }}" />
-        <p class="note text-center">Note: Explain to children that this is to avoid possible messiness when taking prints
-            of
-            other fingers.</p>
-        <!-- Video Trigger Button -->
-        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
-            <img src="/assets/images/pptimages/video.png" />
-        </div>
-    </div>
-
-    {{-- Slide 18 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <div class="self-start text-start">
-            <h2 class="title stroke">Let's do: <br>
-                6. (A, B & C) Repeat the steps for other fingers.</h2>
-        </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f8.png') }}" />
-        <p class="note text-center">Note: Have children change their roles to help one another complete the fingerprint
-            record.</p>
-    </div>
-
-
-    {{-- Slide 19 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <div class="self-start text-start">
-            <h2 class="title stroke">Let's do: <br>
-                7. Observe your fingerprints.</h2>
-        </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f2.png') }}" />
-        <p class="note text-center">Note: Have children observe and compare their own set of fingerprints on the record.
-        </p>
-    </div>
-
-
-
-
-    {{-- Slide 20 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f2.png') }}" />
-        <h2 class="title stroke">What do you observe: <br>
-            Are there similarities between your fingerprints?</h2>
-    </div>
-
-
-    {{-- Slide 21 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f2.png') }}" />
-        <h2 class="title stroke">What do you observe: <br>
-            Do your left and right hands’ fingerprints look alike?</h2>
-    </div>
-
-
-
-    {{-- Slide 22 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <div class="self-start text-start">
-            <h2 class="title stroke">Let's do: <br>
-                8. Observe your fingerprints with friends.</h2>
-        </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f9.png') }}" />
-        <p class="note">Note: Have children observe and compare their fingerprints with friends.</p>
-    </div>
-
-
-    {{-- Slide 24 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f9.png') }}" />
-        <h2 class="title stroke text-start">What do you observe: <br>
-            Do you find anyone with the same fingerprints as yours?</h2>
-    </div>
-
-
-    {{-- Slide 25 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <h2 class="title stroke text-start">What do you learn: <br>
-            What are the similarities between different fingerprints?</h2>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f9.png') }}" />
-        <p class="note">Note: Explain to children that the lines on the tips of our fingers or thumbs are called ridges.
-        </p>
-    </div>
-
-
-    {{-- Slide 26 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <h2 class="title stroke text-start">What do you learn: <br>
-            Do you find any two fingerprints are exactly same?</h2>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f9.png') }}" />
-    </div>
-
-
-    {{-- Slide 27 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f10.png') }}" />
-        <h2 class="title stroke">Through the activity, we know that fingerprints
-            are ridges on the tips of our fingers and thumbs.</h2>
-    </div>
-
-    {{-- Slide 28 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f11.png') }}" />
-        <h2 class="title stroke">We also know that no two fingerprints are exactly alike.</h2>
-    </div>
-
-    {{-- Slide 29 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f11.png') }}" />
-        <h2 class="title stroke">Therefore, individual fingerprints are unique
-            and no two people have the same fingerprints.</h2>
-    </div>
-
-    {{-- slide 30 --}}
-    <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
-        <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[836px] h-fit bg-cover bg-center p-[20px] flex flex-col justify-center items-center"
-            style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
-            <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f12.png') }}" />
-        </div>
-    </div>
+    </div> --}}
 
 
     {{-- ====================================== --}}

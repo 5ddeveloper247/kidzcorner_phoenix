@@ -1,21 +1,21 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
- 
+
 @section('content')
 
 
     {{-- Slide 1 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
+    <div class="slide flex flex-col items-center justify-center gap-[1vw] ">
         <div class="flex  gap-2">
             <div>
 
                 <h2 class="title stroke">Sample A</h2>
-                <img src="/assets/images/K2/character/a1.png" />
+                <img src="/assets/images/K2/character/a1.png" class="large-img3" />
             </div>
             <div>
 
                 <h2 class="title stroke">Sample B</h2>
-                <img src="/assets/images/K2/character/a1.png" />
+                <img src="/assets/images/K2/character/a1.png" class="large-img3" />
             </div>
 
         </div>
@@ -31,17 +31,17 @@
 
 
     {{-- Slide 2 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
+    <div class="slide flex flex-col items-center justify-center gap-[1vw] ">
         <div class="flex  gap-2">
             <div>
 
                 <h2 class="title stroke">Sample A</h2>
-                <img src="/assets/images/K2/character/a1.png" />
+                <img src="/assets/images/K2/character/a1.png" class="large-img3" />
             </div>
             <div>
 
                 <h2 class="title stroke">Sample B</h2>
-                <img src="/assets/images/K2/character/a1.png" />
+                <img src="/assets/images/K2/character/a1.png" class="large-img3" />
             </div>
 
         </div>
@@ -68,16 +68,10 @@
     </div>
 
     {{-- slide 4 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5">
-        <img src="/assets/images/K2/character/a2.png" />
-
-
+    <div class="slide flex flex-col items-center justify-center gap-[1vw]">
+        <img src="/assets/images/K2/character/a2.png" class="large-img6" />
         <h2 class="title stroke"><span class="!text-white"> Speed</span> is a rate that tells us how fast or slow
             someone or something is moving.</h2>
-
-
-
-
     </div>
 
 
@@ -100,8 +94,8 @@
 
 
     {{-- slide 6 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5">
-        <img src="/assets/images/K2/character/a3.png" />
+    <div class="slide flex flex-col items-center justify-center gap-[1vw]">
+        <img src="/assets/images/K2/character/a3.png" class="large-img6" />
 
 
         <h2 class="title stroke">What is the name and use of this command?</h2>
@@ -117,8 +111,8 @@
 
 
     {{-- slide 7 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5">
-        <img src="/assets/images/K2/character/a4.png" />
+    <div class="slide flex flex-col items-center justify-center gap-[1vw]">
+        <img src="/assets/images/K2/character/a4.png" class="large-img6" />
 
 
         <h2 class="title stroke">What are these programming blocks?</h2>
@@ -132,8 +126,8 @@
 
 
     {{-- slide 8 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5">
-        <img src="/assets/images/K2/character/a5.png" />
+    <div class="slide flex flex-col items-center justify-center gap-[1vw]">
+        <img src="/assets/images/K2/character/a5.png" class="large-img6" />
 
 
         <h2 class="title stroke">The Control Blocks have a set of programming blocks.
@@ -148,16 +142,16 @@
 
 
     {{-- Slide 16 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
+    <div class="slide flex flex-col items-center justify-center gap-[1vw] ">
         <div class="flex  gap-2  items-end">
             <div>
 
 
-                <img src="/assets/images/K2/character/a6.png" />
+                <img src="/assets/images/K2/character/a6.png" class="large-img3" />
             </div>
             <div>
 
-                <img src="/assets/images/K2/character/a7.png" />
+                <img src="/assets/images/K2/character/a7.png" class="large-img3" />
             </div>
 
         </div>
@@ -173,16 +167,16 @@
 
 
     {{-- Slide 17 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
+    <div class="slide flex flex-col items-center justify-center gap-[1vw] ">
         <div class="flex  gap-2  items-end">
             <div>
 
 
-                <img src="/assets/images/K2/character/a8.png" />
+                <img src="/assets/images/K2/character/a8.png" class="large-img3" />
             </div>
             <div>
 
-                <img src="/assets/images/K2/character/a9.png" />
+                <img src="/assets/images/K2/character/a9.png" class="large-img3" />
             </div>
 
         </div>
@@ -198,16 +192,16 @@
 
 
     {{-- Slide 18 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
+    <div class="slide flex flex-col items-center justify-center gap-[1vw] ">
         <div class="flex  gap-2  items-end">
             <div>
 
 
-                <img src="/assets/images/K2/character/a10.png" />
+                <img src="/assets/images/K2/character/a10.png" class="large-img3" />
             </div>
             <div>
 
-                <img src="/assets/images/K2/character/a11.png" />
+                <img src="/assets/images/K2/character/a11.png" class="large-img3" />
             </div>
 
         </div>
@@ -222,9 +216,9 @@
     </div>
 
     {{-- Slide 18 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
+    <div class="slide flex flex-col items-center justify-center gap-[1vw] ">
 
-        <img src="/assets/images/K2/character/a12.png" />
+        <img src="/assets/images/K2/character/a12.png" class="large-img3" />
 
         <h2 class="title stroke">Clearly, we can use "Set Speed" block to programme a
             character to move at slow, normal or fast speed.</h2>
@@ -235,9 +229,9 @@
     </div>
 
     {{-- Slide 18 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
+    <div class="slide flex flex-col items-center justify-center gap-[1vw] ">
 
-        <img src="/assets/images/K2/character/a1.png" />
+        <img src="/assets/images/K2/character/a1.png" class="large-img3" />
 
         <h2 class="title stroke">Based on this sample,
             can you work out the programmes of the two characters?</h2>
@@ -267,7 +261,7 @@
 
         <div>
 
-            <ul class="title stroke !text-start !text-4xl">
+            <ul class="title stroke !text-start ">
                 <li>Steps: <br>
                     1. Choose the correct background.</li>
             </ul>
@@ -276,9 +270,9 @@
 
         <div class="flex  gap-2 items-center ">
 
-            <img src="/assets/images/K2/character/a13.png" />
-            <img class="h-[30px] w-[30px]" src="/assets/images/K2/animate2/a16.png" />
-            <img src="/assets/images/K2/character/a14.png" />
+            <img src="/assets/images/K2/character/a13.png" class="large-img3" />
+            <img class="h-[30px] w-[30px]" src="/assets/images/K2/animate2/a16.png" class="large-img3" />
+            <img src="/assets/images/K2/character/a14.png" class="large-img3" />
 
 
         </div>
@@ -295,7 +289,7 @@
 
         <div>
 
-            <ul class="title stroke !text-start !text-4xl">
+            <ul class="title stroke !text-start ">
                 <li>Steps: <br>
                     2. Add and move each character to a starting point.</li>
             </ul>
@@ -304,7 +298,7 @@
 
 
 
-        <img src="/assets/images/K2/character/a15.png" />
+        <img src="/assets/images/K2/character/a15.png" class="large-img3" />
 
 
 
@@ -322,7 +316,7 @@
 
         <div>
 
-            <ul class="title stroke !text-start !text-4xl">
+            <ul class="title stroke !text-start ">
                 <li>Steps: <br>
                     3. Work out the programmes of each character and run the
                     programmes.</li>
@@ -344,9 +338,9 @@
 
     {{-- Slide 24 --}}
     {{-- video  --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
+    <div class="slide flex flex-col items-center justify-center gap-[1vw] ">
 
-        <img src="/assets/images/K2/character/a1.png" />
+        <img src="/assets/images/K2/character/a1.png" class="large-img3" />
 
         <h2 class="title stroke">Based on this sample,
             can you work out the programmes of the two characters?</h2>
@@ -358,9 +352,9 @@
 
     {{-- Slide 25 --}}
     {{-- video   --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
+    <div class="slide flex flex-col items-center justify-center gap-[1vw] ">
 
-        <img src="/assets/images/K2/character/a16.png" />
+        <img src="/assets/images/K2/character/a16.png" class="large-img3" />
 
 
         <p class="note">Note: Accept all similar programmes presented by children.</p>
@@ -371,9 +365,9 @@
 
 
     {{-- Slide 26 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
+    <div class="slide flex flex-col items-center justify-center gap-[1vw] ">
 
-        <img src="/assets/images/K2/character/a17.png" />
+        <img src="/assets/images/K2/character/a17.png" class="large-img3" />
 
 
         <h2 class="title stroke">Based on this sample,
@@ -401,7 +395,7 @@
 
         <div>
 
-            <ul class="title stroke !text-start !text-4xl">
+            <ul class="title stroke !text-start ">
                 <li>Steps: <br>
                     1. Choose the correct background.</li>
             </ul>
@@ -410,9 +404,9 @@
 
         <div class="flex  gap-2 items-center ">
 
-            <img src="/assets/images/K2/character/a13.png" />
-            <img class="h-[30px] w-[30px]" src="/assets/images/K2/animate2/a16.png" />
-            <img src="/assets/images/K2/character/a14.png" />
+            <img src="/assets/images/K2/character/a13.png" class="large-img3" />
+            <img class="h-[30px] w-[30px]" src="/assets/images/K2/animate2/a16.png" class="large-img3" />
+            <img src="/assets/images/K2/character/a14.png" class="large-img3" />
 
 
         </div>
@@ -426,9 +420,9 @@
 
     {{-- Slide 29 --}}
     {{-- video   --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
+    <div class="slide flex flex-col items-center justify-center gap-[1vw] ">
 
-        <img src="/assets/images/K2/character/a17.png" />
+        <img src="/assets/images/K2/character/a17.png" class="large-img3" />
 
 
         <h2 class="title stroke">Based on this sample,
@@ -443,7 +437,7 @@
 
         <div>
 
-            <ul class="title stroke !text-start !text-4xl">
+            <ul class="title stroke !text-start ">
                 <li>Steps: <br>
                     2. Add and move each character to a starting point.</li>
             </ul>
@@ -451,7 +445,7 @@
 
 
 
-        <img src="/assets/images/K2/character/a18.png" />
+        <img src="/assets/images/K2/character/a18.png" class="large-img3" />
 
 
 
@@ -466,7 +460,7 @@
 
         <div>
 
-            <ul class="title stroke !text-start !text-4xl">
+            <ul class="title stroke !text-start ">
                 <li>Steps: <br>
                     2. Add and move each character to a starting point.</li>
             </ul>
@@ -474,7 +468,7 @@
 
 
 
-        <img src="/assets/images/K2/character/a18.png" />
+        <img src="/assets/images/K2/character/a18.png" class="large-img3" />
 
 
 
@@ -485,14 +479,14 @@
 
     </div>
 
-{{-- slide 31  --}}
+    {{-- slide 31  --}}
 
 
-      <div class="slide flex flex-col  justify-start gap-[10rem] ">
+    <div class="slide flex flex-col  justify-start gap-[10rem] ">
 
         <div>
 
-            <ul class="title stroke !text-start !text-4xl">
+            <ul class="title stroke !text-start ">
                 <li>Steps: <br>
                     3. Work out the programmes of each character and run the
                     programmes.</li>
@@ -511,25 +505,25 @@
 
     </div>
     {{-- slide 31  --}}
-    
+
     {{-- video   --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
-        
-        <img src="/assets/images/K2/character/a16.png" />
-        
-        
+    <div class="slide flex flex-col items-center justify-center gap-[1vw] ">
+
+        <img src="/assets/images/K2/character/a16.png" class="large-img3" />
+
+
         <p class="note">Note: Accept all similar programmes presented by children; underwater sound can be varied.</p>
-        
-        
+
+
 
     </div>
 
-    
+
     {{-- slide 32  --}}
     {{-- video   --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
+    <div class="slide flex flex-col items-center justify-center gap-[1vw] ">
 
-        <img src="/assets/images/K2/character/a1.png" />
+        <img src="/assets/images/K2/character/a1.png" class="large-img3" />
 
         <h2 class="title stroke">Based on this sample,
             can you work out the programmes of the two characters?</h2>
@@ -546,34 +540,29 @@
     {{-- ====================================== --}}
     {{-- Buttons --}}
     <div class="down-btn-container">
-        <button
-         class="doneButton">
- <img src="{{ asset('assets/images/pptimages/done.png') }}" />
+        <button class="doneButton">
+            <img src="{{ asset('assets/images/pptimages/done.png') }}" />
         </button>
     </div>
 
 
- <div id="buttons" class="absolute  flex flex-row gap-6 ">
+    <div id="buttons" class="absolute  flex flex-row gap-6 ">
 
         <!-- Return Button -->
         <a id="returnButton">
- <img
-    src="{{ asset('assets/images/pptimages/return.png') }}" />
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
 
         <!-- Home Button -->
-        <button
-     id="homeButton">
-            <img 
-                src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
         <button id="closeButton">
-           
-            <img 
-                src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-    
+
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
+
         </button>
 
     </div>
@@ -581,9 +570,8 @@
     {{-- next Button --}}
     <div class="down-btn-container">
 
-        <button
-            class="nextButton">
- <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
+        <button class="nextButton">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
         </button>
     </div>
 

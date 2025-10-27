@@ -1,17 +1,19 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
- 
+
 @section('content')
     {{-- sldie 1  --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-3 text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
-                <li>Use creativity and imagination to create multipage animated <br> stories using ScratchJr</li>
-                <li>Know that we can create our own backgrounds and characters using the paint tool in the app</li>
-                <li>Develop problem-solving skills</li>
-                <li>Learn to share and take turns</li>
-                <li>Learn to cooperate with friends to complete a task</li>
+                <li class="text-[1.1vw]">Use creativity and imagination to create multipage animated <br> stories using
+                    ScratchJr</li>
+                <li class="text-[1.1vw]">Know that we can create our own backgrounds and characters using the paint tool in
+                    the app</li>
+                <li class="text-[1.1vw]">Develop problem-solving skills</li>
+                <li class="text-[1.1vw]">Learn to share and take turns</li>
+                <li class="text-[1.1vw]">Learn to cooperate with friends to complete a task</li>
             </ul>
         </div>
 
@@ -20,34 +22,34 @@
         <div class="flex gap-1 justify-around">
             <ul class="list-disc ">
 
-                <li>Programme</li>
-                <li>Programming/Coding</li>
-                <li>Command</li>
-                <li>Animated Story</li>
+                <li class="text-[1.1vw]">Programme</li>
+                <li class="text-[1.1vw]">Programming/Coding</li>
+                <li class="text-[1.1vw]">Command</li>
+                <li class="text-[1.1vw]">Animated Story</li>
             </ul>
 
 
             <ul class="list-disc ">
-                <li>Programming Block</li>
-                <li>Programming Area</li>
-                <li>Character</li>
+                <li class="text-[1.1vw]">Programming Block</li>
+                <li class="text-[1.1vw]">Programming Area</li>
+                <li class="text-[1.1vw]">Character</li>
 
             </ul>
 
 
         </div>
 
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start  gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <ul class="list-disc">
             <h2 class="">Preparations:</h2>
-            <li>The tablets (download ScratchJr application from App Store or Google Play for each tablet; charge all the
+            <li class="text-[1.1vw]">The tablets (download ScratchJr application from App Store or Google Play for each
+                tablet; charge all the
                 tablets before you start each lesson)</li>
 
         </ul>
@@ -59,19 +61,18 @@
             </div>
 
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start  gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
 
 
         <ul class="list-disc">
             <h2 class="">Preparations:</h2>
-            <li>Grid Card (print and laminate so that they are reusable)</li>
-            <li>Whiteboard marker pens</li>
+            <li class="text-[1.1vw]">Grid Card (print and laminate so that they are reusable)</li>
+            <li class="text-[1.1vw]">Whiteboard marker pens</li>
 
         </ul>
         <div class="flex justify-center items-center">
@@ -79,52 +80,49 @@
                 <img src="/assets/images/K2/animate1/a51.png" />
             </div>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- slide 4 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start items-center gap-y-10 text-start">
-
-
+    <div class=" slide flex text-2xl text-white flex-col justify-start items-center text-start">
         <ul class="list-disc !text-start">
             <h2 class="">What you need to know or explore before the lesson:</h2>
-            <li>Go through the Blocks Guide in the application of ScratchJr to understand the use
+            <li class="text-[1.1vw]">Go through the Blocks Guide in the application of ScratchJr to understand the use
                 of different commands and programming blocks in ScratchJr.</li>
-
         </ul>
 
         <div class="flex justify-center items-center gap-2">
-            <img src="/assets/images/K2/animate1/a52.png" />
+            <img src="/assets/images/K2/animate1/a52.png" class="!max-w-[15vw]" />
 
             <div class="flex-col gap-[1rem]">
                 <ul>
-                    <li>For this lesson, the focus is</li>
-                    <li>knowing the use of all the</li>
-                    <li>programming blocks of Motion</li>
-                    <li>Blocks. Please go through the</li>
-                    <li>descriptions to understand the</li>
-                    <li>use of each programming block.</li>
+                    <li class="text-[1.1vw]">For this lesson, the focus is</li>
+                    <li class="text-[1.1vw]">knowing the use of all the</li>
+                    <li class="text-[1.1vw]">programming blocks of Motion</li>
+                    <li class="text-[1.1vw]">Blocks. Please go through the</li>
+                    <li class="text-[1.1vw]">descriptions to understand the</li>
+                    <li class="text-[1.1vw]">use of each programming block.</li>
                 </ul><br>
                 <ul>
-                    <li>You may <span class="title stroke font-normal !text-4xl">print out the guide </span> if
-                        you need it.</li>
+                    <li class="text-[1.1vw]">You may <span class="title stroke font-normal !text-[1.7vw]">print out the guide
+                        </span> if
+                        you need it.
+                    </li>
                 </ul>
             </div>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
     {{-- sldie 6 --}}
 
 
-    <div class=" slide flex text-2xl text-white flex-col justify-start  gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
 
         <ul class="list-disc">
             <h2 class="">Additional info:</h2>
-            <li>
+            <li class="text-[1.1vw]">
                 The following navigation buttons enable you to undo or redo a step.</li>
         </ul>
         <div class="flex justify-center items-center">
@@ -132,28 +130,27 @@
                 <img src="/assets/images/K2/story/a41.png" />
             </div>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
     {{-- sldie 6 --}}
 
 
-    <div class=" slide flex text-2xl text-white flex-col justify-center items-center  gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-center items-center  text-start">
 
         <ul class="list-disc">
             <h2 class="">Reminders or advice during hands-on session:</h2>
-            <li>Always hold a tablet with both your hands (to show your care and prevent the tools from spoiling easily).
+            <li class="text-[1.1vw]">Always hold a tablet with both your hands (to show your care and prevent the tools from
+                spoiling easily).
             </li>
-            <li>Be patient and take turns when using the tablets.</li>
-            <li>
+            <li class="text-[1.1vw]">Be patient and take turns when using the tablets.</li>
+            <li class="text-[1.1vw]">
                 Discuss and work as a group to come out with ideas for their story,
                 to turn their story into an animated story using ScratchJr,
                 and to present their story to the class.
             </li>
         </ul>
 
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
@@ -164,41 +161,31 @@
             <div>
                 <h2 class="font-bold t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
-                    <li>
+                    <li class="text-[1.3vw] flex">
                         If you see
-                        <span
-                            class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-                            <!-- Decorative Vector -->
-                            <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
-                                class="absolute top-[4px] left-[6px] h-6 w-[80%]" />
-                            <div class="absolute top-[7px] left-[12px] h-2.5 w-3.5 rounded-sm bg-white"></div>
-                            <img src="{{ asset('assets/images/pptimages/play.png') }}"
-                                class="absolute top-[16px] left-[16px] h-8 w-8" />
+                        <span>
+                            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s27.png') }}"
+                                class="!max-w-[2.5vw]" />
                         </span>
-                        a picture, click on the picture to watch the video
+                        next to a picture, click on the picture to watch the video.
                     </li>
-                    <li>Always ask questions to encourage children to think and share their ideas first
+                    <li class="text-[1.1vw]">Always ask questions to encourage children to think and share their ideas first
                         before giving out any information.</li>
-                    <li>Emphasise and use the keywords during hands-on sessions.
+                    <li class="text-[1.1vw]">Emphasise and use the keywords during hands-on sessions.
                     </li>
-                    <li>Print out the Learning Journal (if any) for every <br>
+                    <li class="text-[1.1vw]">Print out the Learning Journal (if any) for every <br>
                         child to complete at the end of the lesson.</li>
-                    <li>
+                    <li class="text-[1.3vw] flex">
                         Click on this <span class="font-bold t-title">shortcut icon</span>
-                        <span
-                            class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-                            <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
-                                class="absolute top-[4px] left-[6px] h-6 w-[80%]" />
-                            <div class="absolute top-[7px] left-[12px] h-2.5 w-3.5 rounded-sm bg-white"></div>
-                            <img src="{{ asset('assets/images/pptimages/home-icon.png') }}"
-                                class="absolute top-[16px] left-[16px] h-8 w-8" />
+                        <span>
+                            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s28.png') }}"
+                                class="!max-w-[2.5vw]" />
                         </span>
                         if you need to go to some parts of the lesson quickly.
                     </li>
                 </ul>
             </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1"
-                alt="Teacher" />
+            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="Teacher" />
         </div>
     </div>
 
@@ -210,9 +197,8 @@
     {{-- ========================================================== --}}
     {{-- Buttons --}}
     <div class="down-btn-container">
-        <button
-         class="doneButton">
- <img src="{{ asset('assets/images/pptimages/done.png') }}" />
+        <button class="doneButton">
+            <img src="{{ asset('assets/images/pptimages/done.png') }}" />
         </button>
     </div>
 
@@ -220,23 +206,19 @@
 
         <!-- Return Button -->
         <a id="returnButton">
- <img
-    src="{{ asset('assets/images/pptimages/return.png') }}" />
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
 
         <!-- Home Button -->
-        <button
-     id="homeButton">
-            <img 
-                src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
         <button id="closeButton">
-           
-            <img 
-                src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-    
+
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
+
         </button>
 
     </div>
@@ -244,9 +226,8 @@
     {{-- next Button --}}
     <div class="down-btn-container">
 
-        <button
-            class="nextButton">
- <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
+        <button class="nextButton">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
         </button>
     </div>
 
@@ -291,17 +272,17 @@
                 });
             });
 
-              //   Return button - redirect if on first slide, otherwise go back
-        returnButton.addEventListener("click", () => {
-            if (currentSlide === 0) {
-                //   First slide pe hai →  
-                window.location.href = "{{ route('YourRouteNameHere') }}";
-            } else {
-                //   Previous slide pe jao
-                currentSlide--;
-                showSlide(currentSlide);
-            }
-        });
+            //   Return button - redirect if on first slide, otherwise go back
+            returnButton.addEventListener("click", () => {
+                if (currentSlide === 0) {
+                    //   First slide pe hai →  
+                    window.location.href = "{{ route('k2coding') }}";
+                } else {
+                    //   Previous slide pe jao
+                    currentSlide--;
+                    showSlide(currentSlide);
+                }
+            });
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {

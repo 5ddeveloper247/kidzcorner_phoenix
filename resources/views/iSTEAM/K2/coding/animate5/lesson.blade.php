@@ -5,10 +5,10 @@
 
 
     {{-- Slide 1 --}}
-    <div class="slide flex flex-col items-center justify-center gap-[2rem] ">
+    <div class="slide flex flex-col items-center justify-center gap-[1vw] ">
 
 
-        <img src="/assets/images/K2/animate5/a1.png" />
+        <img src="/assets/images/K2/animate5/a1.png" class="large-img3" />
 
 
         <h2 class="title stroke">Children, let's look at this story!</h2>
@@ -24,7 +24,7 @@
     <div class="slide flex flex-col items-center justify-center gap-[1rem] ">
 
 
-        <img src="/assets/images/K2/animate5/a1.png" />
+        <img src="/assets/images/K2/animate5/a1.png" class="large-img3" />
 
 
         <h2 class="title stroke">Why do you think there are two backgrounds in this story?</h2>
@@ -35,10 +35,10 @@
     </div>
 
     {{-- Slide 3 --}}
-    <div class="slide flex flex-col items-center justify-center gap-[2rem] ">
+    <div class="slide flex flex-col items-center justify-center gap-[1vw] ">
 
 
-        <img src="/assets/images/K2/animate5/a2.png" />
+        <img src="/assets/images/K2/animate5/a2.png" class="large-img3" />
 
 
         <h2 class="title stroke">This story has two pages!</h2>
@@ -67,7 +67,7 @@
     <div class="slide flex flex-col items-center justify-center gap-5 ">
 
 
-        <img src="/assets/images/K2/animate5/a3.png" />
+        <img src="/assets/images/K2/animate5/a3.png" class="large-img3" />
 
 
         <h2 class="title stroke">What is the name and use of this command?</h2>
@@ -83,7 +83,7 @@
     <div class="slide flex flex-col items-center justify-center gap-5 ">
 
 
-        <img src="/assets/images/K2/animate5/a4.png" />
+        <img src="/assets/images/K2/animate5/a4.png" class="large-img3" />
 
 
         <h2 class="title stroke">What are the two programming blocks here?</h2>
@@ -99,7 +99,7 @@
     <div class="slide flex flex-col items-center justify-center gap-5 ">
 
 
-        <img src="/assets/images/K2/animate5/a5.png" />
+        <img src="/assets/images/K2/animate5/a5.png" class="large-img3" />
 
 
         <h2 class="title stroke">Usually, there are two programming blocks under End Blocks.
@@ -118,12 +118,12 @@
             <div>
 
                 <h2 class="title stroke">Sample 1</h2>
-                <img src="/assets/images/K2/animate5/a6.png" />
+                <img src="/assets/images/K2/animate5/a6.png" class="large-img3" />
             </div>
             <div>
 
                 <h2 class="title stroke">Sample 2</h2>
-                <img src="/assets/images/K2/animate5/a7.png" />
+                <img src="/assets/images/K2/animate5/a7.png" class="large-img3" />
             </div>
 
         </div>
@@ -143,7 +143,7 @@
     <div class="slide flex flex-col items-center justify-center gap-5 ">
 
 
-        <img src="/assets/images/K2/animate5/a7.png" />
+        <img src="/assets/images/K2/animate5/a7.png" class="large-img3" />
 
 
         <h2 class="title stroke">What is the use of the "Repeat Forever" block?</h2>
@@ -162,11 +162,11 @@
             <div>
 
 
-                <img src="/assets/images/K2/animate5/a7.png" />
+                <img src="/assets/images/K2/animate5/a7.png" class="large-img3" />
             </div>
             <div>
 
-                <img src="/assets/images/K2/animate5/a7.png" />
+                <img src="/assets/images/K2/animate5/a7.png" class="large-img3" />
             </div>
 
         </div>
@@ -184,7 +184,7 @@
     <div class="slide flex flex-col items-center justify-center gap-5 ">
 
 
-        <img src="/assets/images/K2/animate5/a8.png" />
+        <img src="/assets/images/K2/animate5/a8.png" class="large-img3" />
 
 
         <h2 class="title stroke">Now, let's see how to create a story with two pages.</h2>
@@ -200,7 +200,7 @@
     <div class="slide flex flex-col items-center justify-center gap-5 ">
 
 
-        <img src="/assets/images/K2/animate5/a9.png" />
+        <img src="/assets/images/K2/animate5/a9.png" class="large-img3" />
 
 
         <h2 class="title stroke">Let's see how to programme the story to auto play.</h2>
@@ -216,11 +216,11 @@
             <div>
 
 
-                <img src="/assets/images/K2/animate5/a10.png" />
+                <img src="/assets/images/K2/animate5/a10.png" class="large-img3" />
             </div>
             <div>
 
-                <img src="/assets/images/K2/animate5/a11.png" />
+                <img src="/assets/images/K2/animate5/a11.png" class="large-img3" />
             </div>
 
         </div>
@@ -237,7 +237,7 @@
     {{-- Slide 19 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
 
-        <img src="/assets/images/K2/animate5/a12.png" />
+        <img src="/assets/images/K2/animate5/a12.png" class="large-img3" />
 
         <h2 class="title stroke">The "Go To Page" block allows us to link up different pages.</h2>
         <p class="note">Note: Create a story with 2 pages and show children how to link page 1 to 2 and page 2 to 1 by
@@ -272,7 +272,7 @@
 
         <div>
 
-            <ul class="title stroke !text-start !text-4xl">
+            <ul class="title stroke !text-start ">
                 <li>Steps: <br>
                     1. Choose the correct character for your story.</li>
             </ul>
@@ -281,9 +281,9 @@
 
         <div class="flex  gap-2 items-center ">
 
-            <img src="/assets/images/K2/animate5/a13.png" />
-            <img class="h-[30px] w-[30px]" src="/assets/images/K2/animate2/a16.png" />
-            <img src="/assets/images/K2/animate5/a14.png" />
+            <img src="/assets/images/K2/animate5/a13.png" class="large-img3" />
+            <img class="h-[30px] w-[30px]" src="/assets/images/K2/animate2/a16.png" class="large-img3" />
+            <img src="/assets/images/K2/animate5/a14.png" class="large-img3" />
 
 
         </div>
@@ -301,7 +301,7 @@
 
         <div>
 
-            <ul class="title stroke !text-start !text-4xl">
+            <ul class="title stroke !text-start ">
                 <li>Steps: <br>
                     2. Choose suitable backgrounds for your story.</li>
             </ul>
@@ -310,9 +310,9 @@
 
         <div class="flex  gap-2 items-center ">
 
-            <img src="/assets/images/K2/animate5/a16.png" />
-            <img class="h-[30px] w-[30px]" src="/assets/images/K2/animate2/a16.png" />
-            <img src="/assets/images/K2/animate5/a15.png" />
+            <img src="/assets/images/K2/animate5/a16.png" class="large-img3" />
+            <img class="h-[30px] w-[30px]" src="/assets/images/K2/animate2/a16.png" class="large-img3" />
+            <img src="/assets/images/K2/animate5/a15.png" class="large-img3" />
 
 
         </div>
@@ -329,7 +329,7 @@
 
         <div>
 
-            <ul class="title stroke !text-start !text-4xl">
+            <ul class="title stroke !text-start ">
                 <li>Steps: <br>
                     3. Use your creativity to animate your character on different <br>
                     pages.</li>
@@ -352,7 +352,7 @@
 
         <div>
 
-            <ul class="title stroke !text-start !text-4xl">
+            <ul class="title stroke !text-start ">
                 <li>Steps: <br>
                     4. Make your story auto play from page to page.</li>
             </ul>
@@ -361,11 +361,11 @@
             <div>
 
 
-                <img src="/assets/images/K2/animate5/a10.png" />
+                <img src="/assets/images/K2/animate5/a10.png" class="large-img3" />
             </div>
             <div>
 
-                <img src="/assets/images/K2/animate5/a17.png" />
+                <img src="/assets/images/K2/animate5/a17.png" class="large-img3" />
             </div>
 
         </div>
@@ -382,13 +382,13 @@
 
     {{-- Slide 26 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <ul class="title stroke !text-start !text-4xl">
+        <ul class="title stroke !text-start ">
             <li>Steps: <br>
                 5. Share your story.</li>
         </ul>
         <div class="flex  gap-2  items-center">
-            <img src="/assets/images/K2/animate5/a18.png" />
-            <img src="/assets/images/K2/animate5/a19.png" />
+            <img src="/assets/images/K2/animate5/a18.png" class="large-img3" />
+            <img src="/assets/images/K2/animate5/a19.png" class="large-img3" />
 
 
         </div>

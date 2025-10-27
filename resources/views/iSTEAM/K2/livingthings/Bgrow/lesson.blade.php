@@ -203,7 +203,7 @@
     {{-- slide 23 --}}
      <div class="slide  hidden flex flex-col items-center justify-start gap-y-4">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[836px] h-[536px] bg-cover bg-center flex flex-col gap-10 justify-center items-center p-[30px]"
+        <div class="w-[30vw] h-fit bg-cover bg-center flex flex-col gap-10 justify-center items-center p-[30px]"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
                     <img src="/assets/images/K2/livingthings/bg/b14.png" />
 
@@ -212,133 +212,64 @@
     {{-- slide 23 --}}
      <div class="slide  hidden flex flex-col items-center justify-start gap-y-4">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[836px] h-[536px] bg-cover bg-center flex flex-col gap-10 justify-center items-center p-[30px]"
+        <div class="w-[30vw] h-fit bg-cover bg-center flex flex-col gap-10 justify-center items-center p-[30px]"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
                     <img src="/assets/images/K2/livingthings/bg/b15.png" />
 
         </div>
     </div>
+
     {{-- slide 23 --}}
      <div class="slide  hidden flex flex-col items-center justify-start gap-y-4">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[836px] h-[536px] bg-cover bg-center flex flex-col gap-10 justify-center items-center p-[30px]"
+        <div class="w-[30vw] h-fit bg-cover bg-center flex flex-col gap-10 justify-center items-center p-[30px]"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
                     <img src="/assets/images/K2/livingthings/bg/b16.png" />
 
         </div>
     </div>
+
     {{-- slide 23 --}}
      <div class="slide  hidden flex flex-col items-center justify-start gap-y-4">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[836px] h-[536px] bg-cover bg-center flex flex-col gap-10 justify-center items-center p-[30px]"
+        <div class="w-[30vw] h-fit bg-cover bg-center flex flex-col gap-10 justify-center items-center p-[30px]"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
                     <img src="/assets/images/K2/livingthings/bg/b17.png" />
 
         </div>
     </div>
-   
-   
-
-
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <div class="absolute bottom-[85px]">
-        <button
-            class="cursor-pointer doneButton w-66 h-[75px] relative bg-[#F8A23A] rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
-                    outline outline-1 outline-yellow-700 overflow-hidden">
-            <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
-            <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" />
-            </div>
-            <span
-                class="absolute left-[80px] top-[18px] flex items-center  text-white text-5xl font-bold stroke">DONE</span>
-        </button>
-    </div>
-
-
-
 
 
     {{-- Buttons --}}
-    <div id="buttons" class="absolute  flex flex-row gap-6 ">
+    <div class="down-btn-container">
+        <button class="doneButton">
+            <img src="{{ asset('assets/images/pptimages/done.png') }}" />
+        </button>
+    </div>
 
+
+    <div id="buttons" class="absolute  flex flex-row gap-6 ">
         <!-- Return Button -->
-        <a class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
-            id="returnButton">
-            <img class="absolute top-[6px] left-[8px] w-20 h-10" src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] w-14 h-14"
-                src="{{ asset('assets/images/pptimages/reverse-icon.png') }}" />
+        <a id="returnButton">
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
 
         <!-- Home Button -->
-        <button
-            class="relative w-24 h-24 button-fade-in bg-sky-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
-            id="homeButton">
-            <img class="absolute top-[6px] left-[8px] w-20 h-10"
-                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] w-14 h-14"
-                src="{{ asset('assets/images/pptimages/home-icon.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
-        <button class="relative w-24 h-24 button-fade-in cursor-pointer" id="closeButton">
-            <div
-                class="absolute inset-0 bg-red-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-red-900">
-            </div>
-            <img class="absolute top-[6px] left-[8px] w-20 h-10"
-                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <div id="closeButtonText"
-                class="absolute top-[16px] left-[30px] w-11 h-16 text-white text-6xl font-normal font-['Jua']">X
-            </div>
+        <button id="closeButton">
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
         </button>
-
     </div>
 
-    {{-- next Button --}}
-    <div class="absolute bottom-[85px]">
 
-        <button
-            class="cursor-pointer nextButton w-66 h-[75px] relative bg-[#F8A23A]  rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
-        outline outline-1 outline-yellow-700 overflow-hidden">
-            <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
-            <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" /> </div>
-            <span class="absolute left-[80px] top-[18px] flex items-center  text-white text-5xl font-bold stroke">NEXT
-            </span>
+    {{-- next Button --}}
+    <div class="down-btn-container">
+        <button class="nextButton">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
         </button>
     </div>
 
@@ -387,7 +318,7 @@
         returnButton.addEventListener("click", () => {
             if (currentSlide === 0) {
                 //   First slide pe hai →  
-                window.location.href = "{{ route('YourRouteNameHere') }}";
+                window.location.href = "{{ route('BgrowSelection') }}";
             } else {
                 //   Previous slide pe jao
                 currentSlide--;

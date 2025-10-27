@@ -1,6 +1,6 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
- 
+
 @section('content')
 
 
@@ -115,26 +115,20 @@
         <div class="flex items-center gap-[5rem]">
             <div>
                 <!-- Video Trigger Button -->
-                <div onclick="toggleVideo('video1')"
-                    class="absolute top-1/2 left-0  z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-                    <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
-                    <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-                    <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+                <div onclick="toggleVideo('video1')" class="absolute top-1/2 left-0  z-30">
+                    <img src="/assets/images/pptimages/video.png" class="absolute top-[6px] left-[8px] !max-w-[2.5vw]" />
                 </div>
-                <video id="video1" class="pointer-events-none">
+                <video id="video1" class="pointer-events-none !max-w-[10vw]">
                     <source src="{{ asset('assets/images/K2/aero/hydro/215.mp4') }}" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
             </div>
             <div>
                 <!-- Video Trigger Button -->
-                <div onclick="toggleVideo('video2')"
-                    class="absolute top-1/2 right-0 z-30 h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-                    <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
-                    <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-                    <img class="absolute top-[24px] left-[22px] h-14 w-14" src="/assets/images/pptimages/play.png" />
+                <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-0 z-30">
+                    <img src="/assets/images/pptimages/video.png" class="absolute top-[6px] left-[8px] !max-w-[2.5vw]" />
                 </div>
-                <video id="video2" class="pointer-events-none">
+                <video id="video2" class="pointer-events-none !max-w-[10vw]">
                     <source src="{{ asset('assets/images/K2/aero/hydro/216.mp4') }}" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
@@ -160,7 +154,7 @@
             <h2 class="title stroke">Steps: <br>
                 1. Prepare a flat board/container lid, a tub of water and a peg.</h2>
         </div>
-        <img src="{{ asset('assets/images/K2/aero/hydro/h11.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/hydro/h11.png') }}" class="large-img6" />
     </div>
 
 
@@ -206,9 +200,8 @@
         <h2 class="title stroke">It is harder to push the board forward this way because the
             force of drag is higher due to the shape.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video3')"
-            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
-      <img src="/assets/images/pptimages/video.png" />
+        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
@@ -221,9 +214,8 @@
         <h2 class="title stroke">On the other hand, it is easier to push the board/lid forward
             this way as this shape creates less drag.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video4')"
-            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
-      <img src="/assets/images/pptimages/video.png" />
+        <div onclick="toggleVideo('video4')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
@@ -238,7 +230,7 @@
 
     {{-- Slide 24 --}}
     <div class="slide hidden flex flex-col items-center justify-center ">
-        <img src="{{ asset('assets/images/K2/aero/hydro/h18.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/hydro/h18.png') }}" class="large-img6" />
         <h2 class="title stroke">Look at these pictures. How are boats and ships designed to
             reduce drag in water?</h2>
     </div>
@@ -246,7 +238,7 @@
 
     {{-- Slide 25 --}}
     <div class="slide hidden flex flex-col items-center justify-center ">
-        <img src="{{ asset('assets/images/K2/aero/hydro/h18.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/hydro/h18.png') }}" class="large-img6" />
         <h2 class="title stroke">The V-shaped hull of the boats and ships is designed to reduce
             drag as they move through water.</h2>
     </div>
@@ -255,7 +247,7 @@
 
     {{-- Slide 26 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/aero/hydro/h19.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/hydro/h19.png') }}" class="large-img6" />
         <h2 class="title stroke">Look at these pictures. Have you seen these before? <br>
             How are they different from normal boats?</h2>
         <p class="note">Note: Encourage children to discuss and share their answers.</p>
@@ -264,7 +256,7 @@
 
     {{-- Slide 27 --}}
     <div class="slide hidden flex flex-col items-center justify-center ">
-        <img src="{{ asset('assets/images/K2/aero/hydro/h19.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/hydro/h19.png') }}" class="large-img6" />
         <h2 class="title stroke text-start">Do you think these will move faster or slower as compared to
             normal boats? Why?</h2>
         <p class="note">Note: Encourage children to discuss and share their answers.</p>
@@ -273,14 +265,14 @@
 
     {{-- Slide 28 --}}
     <div class="slide hidden flex flex-col items-center justify-center ">
-        <img src="{{ asset('assets/images/K2/aero/hydro/h19.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/hydro/h19.png') }}" class="large-img6" />
         <h2 class="title stroke">These are <span class="text-white">hydrofoil</span> boats. <br>
             They have underwater wings called hydrofoils.</h2>
     </div>
 
     {{-- Slide 29 --}}
     <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <img src="{{ asset('assets/images/K2/aero/hydro/h20.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/hydro/h20.png') }}" class="large-img6" />
         <h2 class="title stroke text-start">The hydrofoils can lift the boat's hull above water, which
             reduces drag and help the boat moves faster.</h2>
     </div>
@@ -288,34 +280,29 @@
     {{-- ====================================== --}}
     {{-- Buttons --}}
     <div class="down-btn-container">
-        <button
-         class="doneButton">
- <img src="{{ asset('assets/images/pptimages/done.png') }}" />
+        <button class="doneButton">
+            <img src="{{ asset('assets/images/pptimages/done.png') }}" />
         </button>
     </div>
 
 
- <div id="buttons" class="absolute  flex flex-row gap-6 ">
+    <div id="buttons" class="absolute  flex flex-row gap-6 ">
 
         <!-- Return Button -->
         <a id="returnButton">
- <img
-    src="{{ asset('assets/images/pptimages/return.png') }}" />
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
 
         <!-- Home Button -->
-        <button
-     id="homeButton">
-            <img 
-                src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
         <button id="closeButton">
-           
-            <img 
-                src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-    
+
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
+
         </button>
 
     </div>
@@ -323,9 +310,8 @@
     {{-- next Button --}}
     <div class="down-btn-container">
 
-        <button
-            class="nextButton">
- <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
+        <button class="nextButton">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
         </button>
     </div>
 

@@ -1,38 +1,37 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
- 
+
 @section('content')
     {{-- sldie 1  --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
-                <li>Understand the meaning of self-sufficient</li>
-                <li>Learn about how being self-sufficient helps the environment</li>
-                <li>Develop awareness of environmental issues</li>
-                <li>Develop curiosity and understanding through inquiry</li>
+                <li class="text-[1.3vw]">Understand the meaning of self-sufficient</li>
+                <li class="text-[1.3vw]">Learn about how being self-sufficient helps the environment</li>
+                <li class="text-[1.3vw]">Develop awareness of environmental issues</li>
+                <li class="text-[1.3vw]">Develop curiosity and understanding through inquiry</li>
             </ul>
         </div>
 
         <div class="flex flex-col  items-start justify-between">
             <h2 class="t-title font-bold">Keywords:</h2>
-            <div >
+            <div>
                 <ul class="list-disc ">
-                    <li>Reduce</li>
-                    <li>Reuse</li>
-                    <li>Recycle</li>
-                    <li>Pollution</li>
-                    <li>Earth</li>
-                    <li>Import</li>
-                    <li>Export</li>
-                    <li>self-sufficient</li>
-                    <li>Greenhouse-gases</li>
+                    <li class="text-[1.3vw]">Reduce</li>
+                    <li class="text-[1.3vw]">Reuse</li>
+                    <li class="text-[1.3vw]">Recycle</li>
+                    <li class="text-[1.3vw]">Pollution</li>
+                    <li class="text-[1.3vw]">Earth</li>
+                    <li class="text-[1.3vw]">Import</li>
+                    <li class="text-[1.3vw]">Export</li>
+                    <li class="text-[1.3vw]">self-sufficient</li>
+                    <li class="text-[1.3vw]">Greenhouse-gases</li>
                 </ul>
 
             </div>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
@@ -42,20 +41,20 @@
         <div>
             <h2 class="font-bold t-title">Preparations:</h2>
             <ul class="list-disc ">
-                <li>
-                  The vertical gardening system would have been set up already. If you do not have a
-     gardening system, set up a small indoor garden.
+                <li class="text-[1.3vw]">
+                    The vertical gardening system would have been set up already. If you do not have a
+                    gardening system, set up a small indoor garden.
                 </li>
-                <li>An application - Smart Living, would have been downloaded on the school's phone.</li>
-                <li>
+                <li class="text-[1.3vw]">An application - Smart Living, would have been downloaded on the school's phone.
+                </li>
+                <li class="text-[1.3vw]">
                     Use the school phone to control the looping timer for the light and water.
-                     Refer to the manual page 6 and 7 for the instructions.
+                    Refer to the manual page 6 and 7 for the instructions.
                 </li>
-                <li>You need to get seeds and the growing cubes for the children to start planting</li>
+                <li class="text-[1.3vw]">You need to get seeds and the growing cubes for the children to start planting</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
@@ -63,25 +62,24 @@
     <div class=" slide flex text-2xl text-white flex-col items-center justify-center gap-y-10 text-start">
         <div>
             <h2 class="font-bold t-title">Things to note in maintaining the vertical garden system:</h2><br>
-            <h3  class="font-bold t-title"> Mixing the plant nutrients</h3>
+            <h3 class="font-bold t-title"> Mixing the plant nutrients</h3>
             <ul class="list-disc">
-                <li>Mix one litre of water with the packet of nutrients A into bottle A.</li>
-                <li>Mix one litre of water with the packet of nutrients B into bottle B.</li>
-                <li>Upon set up, pour 75 litres of water into the system.</li>
-                <li>Add 300 ml of A and 300 ml of B into the system.</li>
-                      <li>Adjust the green valve to set the speed of the water flow.</li>
+                <li class="text-[1.3vw]">Mix one litre of water with the packet of nutrients A into bottle A.</li>
+                <li class="text-[1.3vw]">Mix one litre of water with the packet of nutrients B into bottle B.</li>
+                <li class="text-[1.3vw]">Upon set up, pour 75 litres of water into the system.</li>
+                <li class="text-[1.3vw]">Add 300 ml of A and 300 ml of B into the system.</li>
+                <li class="text-[1.3vw]">Adjust the green valve to set the speed of the water flow.</li>
             </ul>
         </div>
         <div class="flex gap-2 items-center">
-        <img src="{{ asset('assets/images/K2/sustain/self/s18.png') }}"/>
-       <p class="note">When the plants are small, set
-the flow to be slow.
-When the plants have grown
-bigger, change the flow to be
-faster.</p>
+            <img src="{{ asset('assets/images/K2/sustain/self/s18.png') }}" class="!max-w-[7vw]" />
+            <p class="note">When the plants are small, set
+                the flow to be slow.
+                When the plants have grown
+                bigger, change the flow to be
+                faster.</p>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
@@ -90,13 +88,12 @@ faster.</p>
         <div>
             <h2 class="font-bold t-title">Things to note in maintaining the vertical garden system:</h2>
             <ul class="list-decimal">
-                <li>To attach the hose, push the hose into the centre of the vertical 
+                <li class="text-[1.3vw]">To attach the hose, push the hose into the centre of the vertical
                     system inside the water tank. Push up until you hear a click.</li>
             </ul>
         </div>
-  <img src="{{ asset('assets/images/K2/sustain/self/s20.png') }}"/>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/K2/sustain/self/s20.png') }}" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
@@ -105,42 +102,47 @@ faster.</p>
         <div>
             <h2 class="font-bold t-title">Things to note in maintaining the vertical garden system:</h2>
             <ul>
-                <li>To remove the hose, push the yellow part to release the catch.</li>
-                 
+                <li class="text-[1.3vw]">To remove the hose, push the yellow part to release the catch.</li>
+
             </ul>
         </div>
-         <img src="{{ asset('assets/images/K2/sustain/self/s19.png') }}"/>
-         <ul>
-            <li>Attach a green knob on the top of this hose to drain out water from the tank</li>
-                  <li>For more details on the maintenance of the vertical garden go to
-     <span class="title stroke" >https://aerospinggardens.com </span> faq and download the FAW guide.</li>
-         </ul>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/K2/sustain/self/s19.png') }}" class="large-img6" />
+        <ul>
+            <li class="text-[1.3vw]">Attach a green knob on the top of this hose to drain out water from the tank</li>
+            <li class="text-[1.3vw]">For more details on the maintenance of the vertical garden go to
+                <span class="title stroke">https://aerospinggardens.com </span> faq and download the FAW guide.
+            </li>
+        </ul>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
- {{-- sldie 7 --}}
+    {{-- sldie 7 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-           <ul>
-                <li>If you see <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s27.png') }}" /> next to a picture, click on the picture to watch the video
-Always ask questions to encourage children to think and share their ideas first 
-     before giving out any information.
+            <ul>
+                <li class="text-[1.3vw] flex">If you see 
+                    <span>
+                        <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s27.png') }}" class="!max-w-[2.5vw]" /> 
+                    </span>
+                    next to a picture, click on
+                    the picture to watch the video
+                    Always ask questions to encourage children to think and share their ideas first
+                    before giving out any information.
                 </li>
-  <li>Emphasise and use the keywords during hands-on sessions.
-</li>
-<li>Print out the Learning Journal (if any) for every 
-     child to complete at the end of the lesson.
-</li>
-  <li>Click on this shortcut icon<img src="{{ asset('assets/images/K2/sustain/Globalwarming/s28.png') }}" />if you need to go to some 
-     parts of the lesson quickly.
+                <li class="text-[1.3vw]">Emphasise and use the keywords during hands-on sessions.
                 </li>
-     
-      
+                <li class="text-[1.3vw]">Print out the Learning Journal (if any) for every
+                    child to complete at the end of the lesson.
+                </li>
+                <li class="text-[1.3vw] flex">Click on this shortcut icon
+                    <span>
+                        <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s28.png') }}" class="!max-w-[2.5vw]" />
+                    </span>
+                    if you need to go to some
+                    parts of the lesson quickly.
+                </li>
+                 <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
         </div>
-
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute right-[250px] bottom-[150px]" />
     </div>
 
 
@@ -153,193 +155,26 @@ Always ask questions to encourage children to think and share their ideas first
             <h2 class="title stroke text-center">Learning Centre Idea</h2><br>
             <h2 class="font-bold t-title">Diary Of Our Vegetable Garden</h2>
             <ul>
-                <li>What and how to set up:<br>
-Provide papers and writing materials for children to draw and
-record down the growth of the plants.<br>
+                <li class="text-[1.3vw]">What and how to set up:<br>
+                    Provide papers and writing materials for children to draw and
+                    record down the growth of the plants.<br>
 
-What to do:<br>
-1. Guide children to write the date and measure the size of the
-     leaves or count the number of leaves.<br>
-2. Children can also observe and record down the changes in colour
-     of the fruits or leaves.</li>
+                    What to do:<br>
+                    1. Guide children to write the date and measure the size of the
+                    leaves or count the number of leaves.<br>
+                    2. Children can also observe and record down the changes in colour
+                    of the fruits or leaves.</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
-    {{-- sldie 7 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
-        <div>
-            <h2 class="font-bold t-title">How to make own set of fingerprints and things to consider:</h2>
-            <ul>
-                <li>4. (C) Carefully remove the tape from the fingertip (of B) and paste it on the learning journal (of B).
-                    [Have all the C do the step. Remind C to paste the tape in the correct place of B's fingerprint record.]
-                </li>
-            </ul>
-        </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f6.png') }}" class="w-[600px]" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
-    </div>
-
-    {{-- sldie 8 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
-        <div>
-            <h2 class="font-bold t-title">How to make own set of fingerprints and things to consider:</h2>
-            <ul>
-                <li>5. (A) Use a wet towel to clean the fingertip (of B). [ Have all the A do the step. Explain to children
-                    that this is to avoid possible messiness when taking prints of other fingers. ]</li>
-            </ul>
-        </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f7.png') }}" class="w-[600px]" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
-    </div>
-
-
-
-    {{-- slide 9 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
-        <div>
-            <h2 class="font-bold t-title">How to make own set of fingerprints and things to consider:</h2>
-            <ul>
-                <li>6. (A, B & C) Repeat the steps for other fingers. [Have all the A, B & C repeat steps 1-5 to complete
-                    the fingerprint record of B. After that, have them change their roles to help one another complete the
-                    fingerprint record. ]</li>
-            </ul>
-        </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f8.png') }}" class="w-[700px]" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
-    </div>
-
-    {{-- slide 10 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
-        <div>
-            <h2 class="font-bold t-title">How to make own set of fingerprints and things to consider:</h2>
-            <ul>
-                <li>7. Observe your fingerprints. [ Have children observe and compare their own set of fingerprints on the
-                    record. Then have them share their views. ]</li>
-            </ul>
-        </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f2.png') }}" class="w-[600px]" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
-    </div>
-
-    {{-- slide 11 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
-        <div>
-            <h2 class="font-bold t-title">How to make own set of fingerprints and things to consider:</h2>
-            <ul>
-                <li>8. Compare your fingerprints with friends. [ Have children observe and compare their fingerprints with
-                    friends. Then have them share their views. ]</li>
-            </ul>
-        </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f9.png') }}" class="w-[700px]" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
-    </div>
-
-
-
-    {{-- sldie 12 --}}
-    <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
-        <div class="flex w-[100%] items-center justify-between">
-            <div>
-                <h2 class="font-bold t-title">Notes:</h2>
-                <ul class="list-disc leading-relaxed">
-                    <li>
-                        If you see
-                        <span
-                            class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-                            <!-- Decorative Vector -->
-                            <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
-                                class="absolute top-[4px] left-[6px] h-6 w-[80%]" />
-                            <div class="absolute top-[7px] left-[12px] h-2.5 w-3.5 rounded-sm bg-white"></div>
-                            <img src="{{ asset('assets/images/pptimages/play.png') }}"
-                                class="absolute top-[16px] left-[16px] h-8 w-8" />
-                        </span>
-                        next to a picture, class="text-amber-400" click on the picture to watch the video.
-                    </li>
-                    <li>Emphasise and use the <strong>keywords</strong> during hands-on sessions.</li>
-                    <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
-                    </li>
-                    <li>
-                        Click on this <span class="font-bold t-title">shortcut icon</span>
-                        <span
-                            class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-                            <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
-                                class="absolute top-[4px] left-[6px] h-6 w-[80%]" />
-                            <div class="absolute top-[7px] left-[12px] h-2.5 w-3.5 rounded-sm bg-white"></div>
-                            <img src="{{ asset('assets/images/pptimages/home-icon.png') }}"
-                                class="absolute top-[16px] left-[16px] h-8 w-8" />
-                        </span>
-                        if you need to go to some parts of the lesson quickly.
-                    </li>
-                </ul>
-            </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1"
-                alt="Teacher" />
-        </div>
-    </div>
-
-
-    {{-- slide 13 --}}
-    <div class="text-white flex flex-col items-center justify-center gap-y-10 text-start text-2xl slide hidden">
-        <h2 class=" title stroke">Learning Centre Idea</h2>
-        <div class="flex flex-col gap-10">
-            <ul>
-                <h2 class="!text-white title stroke">Fingerprints Art</h2>
-                <h2 class="t-title">What and how to set up:</h2>
-                <li>Put some paints, sponges, coloured pencils and drawing papers here.</li>
-            </ul>
-
-            <div>
-                <h2 class="t-title">What to do:</h2>
-                <ul class="list-decimal">
-                    <li>Turn your fingerprints into art! Put your fingerprints on the
-                        drawing paper.</li>
-                    <li>Use your imagination to turn it into a creative drawing by adding
-                        details with coloured pencils.</li>
-                    <li>Show it to your teacher and friends!</li>
-                </ul>
-
-            </div>
-        </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" />
-    </div>
-
-
-    {{-- slide 14 --}}
-    <div class="text-white flex flex-col items-center justify-center gap-y-10 text-start text-2xl slide hidden">
-        <h2 class=" title stroke">Learning Centre Idea</h2>
-        <div>
-            <ul class="list-disc">
-                <h2 class="!text-white title stroke">Fun Facts</h2>
-                <h2 class="t-title">What and how to set up:</h2>
-                <p>Use your creativity to design graphic fact sheet for every fun fact
-                    below. Guide children to understand the facts.</p>
-                <li>Fingerprints actually help you to grasp an object. Without them,
-                    your fingers will be slippery and you will not be able to write or
-                    paint properly.</li>
-                <li>Adermatoglyphia is a genetic disease where people are born
-                    without fingerprints.</li>
-            </ul>
-        </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" />
-    </div>
-
-
-  
     {{-- ========================================================== --}}
     {{-- Buttons --}}
     <div class="down-btn-container">
-        <button
-         class="doneButton">
- <img src="{{ asset('assets/images/pptimages/done.png') }}" />
+        <button class="doneButton">
+            <img src="{{ asset('assets/images/pptimages/done.png') }}" />
         </button>
     </div>
 
@@ -347,23 +182,19 @@ What to do:<br>
 
         <!-- Return Button -->
         <a id="returnButton">
- <img
-    src="{{ asset('assets/images/pptimages/return.png') }}" />
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
 
         <!-- Home Button -->
-        <button
-     id="homeButton">
-            <img 
-                src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
         <button id="closeButton">
-           
-            <img 
-                src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-    
+
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
+
         </button>
 
     </div>
@@ -371,9 +202,8 @@ What to do:<br>
     {{-- next Button --}}
     <div class="down-btn-container">
 
-        <button
-            class="nextButton">
- <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
+        <button class="nextButton">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
         </button>
     </div>
 
@@ -418,16 +248,16 @@ What to do:<br>
                 });
             });
 
-           //   Return button - redirect if on first slide
-returnButton.addEventListener("click", () => {
-    if (currentSlide === 0) {
-        // Redirect to route when on first slide
-        window.location.href = "{{ route('YourRouteName') }}";  
-    } else if (currentSlide > 0) {
-        currentSlide--;
-        showSlide(currentSlide);
-    }
-});
+            //   Return button - redirect if on first slide
+            returnButton.addEventListener("click", () => {
+                if (currentSlide === 0) {
+                    // Redirect to route when on first slide
+                    window.location.href = "{{ route('k2sustainability') }}";
+                } else if (currentSlide > 0) {
+                    currentSlide--;
+                    showSlide(currentSlide);
+                }
+            });
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {

@@ -8,7 +8,7 @@
     <div class="slide flex flex-col items-center justify-center gap-[2rem] ">
 
 
-        <img src="/assets/images/K2/animate4/a1.png" />
+        <img src="/assets/images/K2/animate4/a1.png" class="large-img3" />
 
 
         <h2 class="title stroke">Children, let's look at this story!</h2>
@@ -43,12 +43,12 @@ of a character!</h2>
             <div>
 
                 <h2 class="title stroke">Sample 1</h2>
-                <img src="/assets/images/K2/animate4/a1.png" />
+                <img src="/assets/images/K2/animate4/a1.png" class="large-img3" />
             </div>
             <div>
 
                 <h2 class="title stroke">Sample 2</h2>
-                <img src="/assets/images/K2/animate4/a1.png" />
+                <img src="/assets/images/K2/animate4/a1.png" class="large-img3" />
             </div>
 
         </div>
@@ -66,7 +66,7 @@ Encourage them to share their views too.</p>
    <div class="slide flex flex-col items-center justify-center gap-[2rem] ">
 
 
-        <img class="w-[550px]" src="/assets/images/K2/animate4/a2.png" />
+        <img class="w-[550px]" src="/assets/images/K2/animate4/a2.png" class="large-img3" />
 
 
         <h2 class="title stroke">This command is called Looks Blocks.
@@ -87,7 +87,7 @@ It allows us to design the looks of a character.</h2>
    <div class="slide flex flex-col items-center justify-center gap-[2rem] ">
 
 
-        <img  src="/assets/images/K2/animate4/a3.png" />
+        <img  src="/assets/images/K2/animate4/a3.png" class="large-img3" />
 
 
         <h2 class="title stroke">The Looks Blocks have a set of programming blocks. Each block
@@ -103,7 +103,7 @@ here represents a kind of look for a character on the stage.</h2>
    <div class="slide flex flex-col items-center justify-center gap-[2rem] ">
 
 
-        <img  src="/assets/images/K2/animate4/a4.png" />
+        <img  src="/assets/images/K2/animate4/a4.png" class="large-img3" />
 
 
         <h2 class="title stroke">Now, let's see how each programming block under Looks Blocks
@@ -120,11 +120,11 @@ controls the look of a character!</h2>
         <div class="flex  gap-2 items-center">
             <div>
 
-                <img src="/assets/images/K2/animate4/a5.png" />
+                <img src="/assets/images/K2/animate4/a5.png" class="large-img3" />
             </div>
             <div>
 
-                <img src="/assets/images/K2/animate4/a6.png" />
+                <img src="/assets/images/K2/animate4/a6.png" class="large-img3" />
             </div>
 
         </div>
@@ -143,11 +143,11 @@ Guide them to know that "Say" block shows a speech bubble with words above the c
         <div class="flex  gap-2 items-center">
             <div>
 
-                <img src="/assets/images/K2/animate4/a7.png" />
+                <img src="/assets/images/K2/animate4/a7.png" class="large-img3" />
             </div>
             <div>
 
-                <img src="/assets/images/K2/animate4/a6.png" />
+                <img src="/assets/images/K2/animate4/a6.png" class="large-img3" />
             </div>
 
         </div>
@@ -167,12 +167,12 @@ character bigger, "Shrink" block makes it smaller and "Reset" Size block makes i
             <div>
 
                 <h2 class="title stroke">Sample 1</h2>
-                <img src="/assets/images/K2/animate4/a8.png" />
+                <img src="/assets/images/K2/animate4/a8.png" class="large-img3" />
             </div>
             <div>
 
                 <h2 class="title stroke">Sample 2</h2>
-                <img src="/assets/images/K2/animate4/a8.png" />
+                <img src="/assets/images/K2/animate4/a8.png" class="large-img3" />
             </div>
 
         </div>
@@ -194,12 +194,12 @@ to share their views too.</p>
             <div>
 
                 <h2 class="title stroke">Sample 1</h2>
-                <img src="/assets/images/K2/animate4/a9.png" />
+                <img src="/assets/images/K2/animate4/a9.png" class="large-img3" />
             </div>
             <div>
 
                 <h2 class="title stroke">Sample 2</h2>
-                <img src="/assets/images/K2/animate4/a9.png" />
+                <img src="/assets/images/K2/animate4/a9.png" class="large-img3" />
             </div>
 
         </div>
@@ -219,12 +219,12 @@ same, but the character in Sample 2 is smaller.</h2>
             <div>
 
                 <h2 class="title stroke">Sample 1</h2>
-                <img src="/assets/images/K2/animate4/a9.png" />
+                <img src="/assets/images/K2/animate4/a9.png" class="large-img3" />
             </div>
             <div>
 
                 <h2 class="title stroke">Sample 2</h2>
-                <img src="/assets/images/K2/animate4/a9.png" />
+                <img src="/assets/images/K2/animate4/a9.png" class="large-img3" />
             </div>
 
         </div>
@@ -243,12 +243,12 @@ same, but the character in Sample 2 is smaller.</h2>
         <div class="flex  gap-2 items-center">
             <div>
 
-                <img src="/assets/images/K2/animate4/a10.png" />
+                <img src="/assets/images/K2/animate4/a10.png" class="large-img3" />
             </div>
             <div>
                 
                
-                <img src="/assets/images/K2/animate4/a11.png" />
+                <img src="/assets/images/K2/animate4/a11.png" class="large-img3" />
             </div>
 
         </div>
@@ -267,12 +267,12 @@ block is used to reduce the size of the character!</h2>
         <div class="flex  gap-2 items-end">
             <div>
 
-                <img src="/assets/images/K2/animate4/a12.png" />
+                <img src="/assets/images/K2/animate4/a12.png" class="large-img3" />
             </div>
             <div>
                 
                
-                <img src="/assets/images/K2/animate4/a13.png" />
+                <img src="/assets/images/K2/animate4/a13.png" class="large-img3" />
             </div>
 
         </div>
@@ -292,12 +292,12 @@ Show them the original size of this character and then guide them to create this
         <div class="flex  gap-2 items-end">
             <div>
 
-                <img src="/assets/images/K2/animate4/a14.png" />
+                <img src="/assets/images/K2/animate4/a14.png" class="large-img3" />
             </div>
             <div>
                 
                
-                <img src="/assets/images/K2/animate4/a15.png" />
+                <img src="/assets/images/K2/animate4/a15.png" class="large-img3" />
             </div>
 
         </div>
@@ -334,7 +334,7 @@ command in ScratchJr app!</h2>
  <div class="slide flex flex-col items-center justify-center gap-[2rem] ">
 
 
-        <img class="w-[550px]" src="/assets/images/K2/animate4/a16.png" />
+        <img class="w-[550px]" src="/assets/images/K2/animate4/a16.png" class="large-img3" />
 
 
         <h2 class="title stroke">This command is called End Blocks.
@@ -353,7 +353,7 @@ It allows us to choose ways to end a programme.</h2>
     <div class="slide flex flex-col items-center justify-center gap-5 ">
 
 
-        <img  src="/assets/images/K2/animate4/a17.png" />
+        <img  src="/assets/images/K2/animate4/a17.png" class="large-img3" />
 
 
         <h2 class="title stroke">Usually, there are two programming blocks under End Blocks.
@@ -371,12 +371,12 @@ Each block here represents a way to end a programme.</h2>
             <div>
 
                 <h2 class="title stroke">Sample 1</h2>
-                <img src="/assets/images/K2/animate4/a18.png" />
+                <img src="/assets/images/K2/animate4/a18.png" class="large-img3" />
             </div>
             <div>
 
                 <h2 class="title stroke">Sample 2</h2>
-                <img src="/assets/images/K2/animate4/a19.png" />
+                <img src="/assets/images/K2/animate4/a19.png" class="large-img3" />
             </div>
 
         </div>
@@ -394,7 +394,7 @@ Guide them to know that End block marks the end of a programme (can add or don't
     <div class="slide flex flex-col items-center justify-center gap-5 ">
 
 
-        <img  src="/assets/images/K2/animate4/a19.png" />
+        <img  src="/assets/images/K2/animate4/a19.png" class="large-img3" />
 
 
         <h2 class="title stroke">What is the use of the "Repeat Forever" block?</h2>
@@ -412,11 +412,11 @@ the "Repeat Forever" block runs a programme over and over again on the stage unt
         <div class="flex  gap-2">
             <div>
 
-                <img src="/assets/images/K2/animate4/a20.png" />
+                <img src="/assets/images/K2/animate4/a20.png" class="large-img3" />
             </div>
             <div>
 
-                <img src="/assets/images/K2/animate4/a19.png" />
+                <img src="/assets/images/K2/animate4/a19.png" class="large-img3" />
             </div>
 
         </div>
@@ -433,7 +433,7 @@ the "Repeat Forever" block runs a programme over and over again on the stage unt
     {{-- Slide 27 --}}
    <div class="slide flex flex-col items-center justify-center gap-[6rem] ">
         <h2 class="title stroke !text-white">Hands-on Time</h2>
-        <ul class="title stroke !text-4xl !text-start">
+        <ul class="title stroke !text-start">
             <li>Mission: <br>
 Let's use ScratchJr to create a story about a boy or girl who <br>
 likes singing and dancing. Your story must have sound and <br>
@@ -450,7 +450,7 @@ the class.</li>
 
         <div>
 
-            <ul class="title stroke !text-start !text-4xl">
+            <ul class="title stroke !text-start">
                 <li>Steps: <br>
 1. Delete the cat and choose the correct character.</li>
             </ul>
@@ -459,9 +459,9 @@ the class.</li>
 
         <div class="flex  gap-2 items-center ">
 
-            <img src="/assets/images/K2/animate4/a21.png" />
-            <img class="h-[30px] w-[30px]" src="/assets/images/K2/animate2/a16.png" />
-            <img src="/assets/images/K2/animate4/a22.png" />
+            <img src="/assets/images/K2/animate4/a21.png" class="large-img3" />
+            <img class="h-[30px] w-[30px]" src="/assets/images/K2/animate2/a16.png" class="large-img3" />
+            <img src="/assets/images/K2/animate4/a22.png" class="large-img3" />
 
 
         </div>
@@ -479,7 +479,7 @@ the class.</li>
 
         <div>
 
-            <ul class="title stroke !text-start !text-4xl">
+            <ul class="title stroke !text-start">
                 <li>Steps: <br>
 2. Do you need a background for your story? Add it if you
 
@@ -490,9 +490,9 @@ want to.</li>
 
         <div class="flex  gap-2 items-center ">
 
-            <img src="/assets/images/K2/animate4/a23.png" />
-            <img class="h-[30px] w-[30px]" src="/assets/images/K2/animate2/a16.png" />
-            <img src="/assets/images/K2/animate4/a24.png" />
+            <img src="/assets/images/K2/animate4/a23.png" class="large-img3" />
+            <img class="h-[30px] w-[30px]" src="/assets/images/K2/animate2/a16.png" class="large-img3" />
+            <img src="/assets/images/K2/animate4/a24.png" class="large-img3" />
 
 
         </div>
@@ -508,12 +508,12 @@ want to.</li>
 
         <div>
 
-            <ul class="title stroke !text-start !text-4xl">
+            <ul class="title stroke !text-start">
                 <li>Steps: <br>
 3. How do you design the look of your character?</li>
             </ul>
         </div>
-                    <img src="/assets/images/K2/animate4/a25.png" />
+                    <img src="/assets/images/K2/animate4/a25.png" class="large-img3" />
 
 
 
@@ -531,12 +531,12 @@ want to.</li>
 
         <div>
 
-            <ul class="title stroke !text-start !text-4xl">
+            <ul class="title stroke !text-start">
                 <li>Steps: <br>
 4. How do you animate your character to dance?</li>
             </ul>
         </div>
-                    <img src="/assets/images/K2/animate4/a26.png" />
+                    <img src="/assets/images/K2/animate4/a26.png" class="large-img3" />
 
 
 
@@ -555,12 +555,12 @@ programmes for the character.</p>
 
         <div>
 
-            <ul class="title stroke !text-start !text-4xl">
+            <ul class="title stroke !text-start">
                 <li>Steps: <br>
 5. How do you add sound to your story?</li>
             </ul>
         </div>
-                    <img src="/assets/images/K2/animate4/a26.png" />
+                    <img src="/assets/images/K2/animate4/a26.png" class="large-img3" />
 
 
 
@@ -578,7 +578,7 @@ programmes for the character.</p>
 
         <div>
 
-            <ul class="title stroke !text-start !text-4xl">
+            <ul class="title stroke !text-start">
                 <li>Steps: <br>
 6. What happens in your story? Share your story.</li>
             </ul>
@@ -587,9 +587,9 @@ programmes for the character.</p>
 
         <div class="flex  gap-2 items-center ">
 
-            <img src="/assets/images/K2/animate4/a23.png" />
-            <img class="h-[30px] w-[30px]" src="/assets/images/K2/animate2/a16.png" />
-            <img src="/assets/images/K2/animate4/a27.png" />
+            <img src="/assets/images/K2/animate4/a23.png" class="large-img3" />
+            <img class="h-[30px] w-[30px]" src="/assets/images/K2/animate2/a16.png" class="large-img3" />
+            <img src="/assets/images/K2/animate4/a27.png" class="large-img3" />
 
 
         </div>

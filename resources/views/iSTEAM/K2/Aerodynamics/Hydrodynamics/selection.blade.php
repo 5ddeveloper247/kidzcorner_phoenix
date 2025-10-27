@@ -76,23 +76,14 @@
     <div class=" flex items-center flex-col justify-center text-center z-[99] w-full">
         <h2 class="text-[50px] text-[#F7B94A] stroke">Hydrodynamics</h2>
         <div class="flex items-center justify-around w-full">
-
             {{-- Lesson Button --}}
             <a href="{{ route('HydrodynamicsLesson') }}" id="Lesson" class="flex flex-col gap-0">
                 <img src="/assets/images/pptimages/lesson-btn.png" />
-                <button id="nextButton" class="lesson-btn !z-10 !bg-[#2D9CDB]">
-                    <img src="/assets/images/pptimages/Vector4.png" class="lesson-btn-vector" />
-                    <div class="lesson-btn-shape"></div>
-                    <div class="lesson-btn-text stroke">Lesson </div>
-                </button>
-
             </a>
+
             {{-- Teacher Button --}}
             <a href="{{ route('HydrodynamicsTeacher') }}" id="Lesson" class="flex flex-col gap-0">
                 <img src="/assets/images/pptimages/teacher-btn.png" />
-
-                 
-
             </a>
         </div>
     </div>

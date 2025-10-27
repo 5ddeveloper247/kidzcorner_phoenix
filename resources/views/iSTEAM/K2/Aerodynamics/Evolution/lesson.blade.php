@@ -1,6 +1,6 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
- 
+
 @section('content')
 
 
@@ -55,7 +55,7 @@
 
     {{-- slide 7 --}}
     <div class="slide hidden flex flex-col items-center ">
-        <img src="{{ asset('assets/images/K2/aero/evo/e4.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/evo/e4.png') }}" class="large-img6" />
         <h2 class="title stroke">Different types of aircraft were also invented and designed
             for various purposes. Do you recognize these aircrafts?</h2>
         <p class="note">Note: Guide children to discuss and share their views.</p>
@@ -63,7 +63,7 @@
 
     {{-- slide 8 --}}
     <div class="slide hidden flex flex-col items-center ">
-        <img src="{{ asset('assets/images/K2/aero/evo/e4.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/evo/e4.png') }}" class="large-img6" />
         <h2 class="title stroke">Fighters and bombers are two types of military aircrafts that
             are designed for fighting enemies.</h2>
         <p class="note">Note: If time permit, you may guide children to search for different types of military aircrafts.
@@ -74,7 +74,7 @@
     {{-- slide 9 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <h2 class="!text-white title stroke">Class Activity 1</h2>
-        <img src="{{ asset('assets/images/K2/aero/evo/e5.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/evo/e5.png') }}" class="large-img6" />
         <h2 class="title stroke">How do these aircrafts move? <br>
             How aerodynamic forces work on these aircrafts?</h2>
         <p class="text-center note">Note: Guide children to search info on these aircrafts; then discuss and share their
@@ -91,7 +91,7 @@
 
     {{-- slide 11 --}}
     <div class="slide hidden flex flex-col items-center ">
-        <img src="{{ asset('assets/images/K2/aero/evo/e6.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/evo/e6.png') }}" class="large-img6" />
         <h2 class="title stroke">The movement of a vehicle is also affected by the
             aerodynamic forces.</h2>
     </div>
@@ -99,7 +99,7 @@
 
     {{-- slide 12 --}}
     <div class="slide hidden flex flex-col items-center ">
-        <img src="{{ asset('assets/images/K2/aero/evo/e7.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/evo/e7.png') }}" class="large-img6" />
         <h2 class="title stroke">Vehicles such as cars and trucks are designed with
             aerodynamics in mind.</h2>
     </div>
@@ -107,7 +107,7 @@
 
     {{-- slide 13 --}}
     <div class="slide hidden flex flex-col items-center ">
-        <img src="{{ asset('assets/images/K2/aero/evo/e7.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/evo/e7.png') }}" class="large-img6" />
         <h2 class="title stroke">What do you notice about the shape of the car and truck?
             How does the shape affect the aerodynamic forces?</h2>
     </div>
@@ -203,9 +203,8 @@
         <h2 class="title stroke">Wind tunnels are used to test how aerodynamic forces
             affect the movement of objects.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')"
-            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
-      <img src="/assets/images/pptimages/video.png" />
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
@@ -260,7 +259,7 @@
     {{-- slide 30 --}}
     <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[836px] h-fit bg-cover bg-center p-[20px] flex flex-col justify-center items-center"
+        <div class="w-[30vw] h-fit bg-cover bg-center p-[20px] flex flex-col justify-center items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <img src="{{ asset('assets/images/K2/aero/evo/e18.png') }}" />
         </div>
@@ -270,46 +269,37 @@
     {{-- ====================================== --}}
     {{-- Buttons --}}
     <div class="down-btn-container">
-        <button
-         class="doneButton">
- <img src="{{ asset('assets/images/pptimages/done.png') }}" />
+        <button class="doneButton">
+            <img src="{{ asset('assets/images/pptimages/done.png') }}" />
         </button>
     </div>
 
 
- <div id="buttons" class="absolute  flex flex-row gap-6 ">
+    <div id="buttons" class="absolute  flex flex-row gap-6 ">
+
         <!-- Return Button -->
-        <a class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] " id="returnButton">
-            <img class="absolute top-[6px] left-[8px] w-20 h-10"
-                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <img class=" w-14 h-14"
-                src="{{ asset('assets/images/pptimages/reverse-icon.png') }}" />
+        <a id="returnButton">
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
 
         <!-- Home Button -->
-        <button class="relative w-24 h-24 button-fade-in bg-sky-500 rounded-[30px] " id="homeButton">
-            <img class="absolute top-[6px] left-[8px] w-20 h-10"
-                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <img class=" w-14 h-14"
-                src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
-        <button  id="closeButton">
-                        <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
+        <button id="closeButton">
+
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
 
         </button>
+
     </div>
 
     {{-- next Button --}}
     <div class="down-btn-container">
-        <button class="cursor-pointer nextButton w-66 h-[75px] relative bg-[#F8A23A]  rounded-[30px]">
-            <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
-            <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" /> </div>
-            <span class="flex items-center  text-white text-5xl font-bold stroke">NEXT
-            </span>
+        <button class="nextButton">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
         </button>
     </div>
 @endsection

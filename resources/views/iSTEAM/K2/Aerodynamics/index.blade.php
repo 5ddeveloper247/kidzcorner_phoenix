@@ -11,7 +11,7 @@
             <!-- Card 1-->
             <a href="{{ route('Aerodynamics1') }}"
                 style="background-image: url('{{ asset('/assets/images/pptimages/Property1.png') }}');"
-                class=" bg-no-repeat bg-contain bg-center w-[13vw] h-[10vw] relative flex justify-center items-center transition hover:brightness-110">
+                class=" bg-no-repeat bg-contain bg-center w-[14vw] h-[10vw] relative flex justify-center items-center transition hover:brightness-110">
                 <h2 class="!text-[1.5vw] text-[#7D6F71]">What is <br> Aerodynamics? <br> 1</h2>
                 <span class="text-[2vw] text-[#AF6E39] absolute  top-[1vw] right-[1vw]">1</span>
             </a>
@@ -19,7 +19,7 @@
             <!-- Card 2 -->
             <a href="{{ route('Aerodynamics2') }}"
                 style="background-image: url('{{ asset('/assets/images/pptimages/Property1.png') }}');"
-                class=" bg-no-repeat bg-contain bg-center w-[13vw] h-[10vw] relative flex justify-center items-center transition hover:brightness-110">
+                class=" bg-no-repeat bg-contain bg-center w-[14vw] h-[10vw] relative flex justify-center items-center transition hover:brightness-110">
                 <h2 class="!text-[1.5vw] text-[#7D6F71]">What is <br> Aerodynamics? <br> 2</h2>
                 <span class="text-[2vw] text-[#AF6E39] absolute  top-[1vw] right-[1vw]">2</span>
             </a>
@@ -27,7 +27,7 @@
             <!-- Card 3 -->
             <a href="{{ route('Hydrodynamics') }}"
                 style="background-image: url('{{ asset('/assets/images/pptimages/Property1.png') }}');"
-                class=" bg-no-repeat bg-contain bg-center w-[13vw] h-[10vw] relative flex justify-center items-center transition hover:brightness-110">
+                class=" bg-no-repeat bg-contain bg-center w-[14vw] h-[10vw] relative flex justify-center items-center transition hover:brightness-110">
                 <h2 class="!text-[1.5vw] text-[#7D6F71]">Hydrodynamics</h2>
                 <span class="text-[2vw] text-[#AF6E39] absolute  top-[1vw] right-[1vw]">3</span>
             </a>
@@ -35,7 +35,7 @@
             <!-- Card 4 -->
             <a href="{{ route('Evolution') }}"
                 style="background-image: url('{{ asset('/assets/images/pptimages/Property1.png') }}');"
-                class=" bg-no-repeat bg-contain bg-center w-[13vw] h-[10vw] relative flex justify-center items-center transition hover:brightness-110">
+                class=" bg-no-repeat bg-contain bg-center w-[14vw] h-[10vw] relative flex justify-center items-center transition hover:brightness-110">
                 <h2 class="!text-[1.5vw] text-[#7D6F71]">Evolution of <br> Aeroplanes</h2>
                 <span class="text-[2vw] text-[#AF6E39] absolute  top-[1vw] right-[1vw]">4</span>
             </a>
@@ -43,7 +43,7 @@
             <!-- Card 5 -->
             <a href="{{ route('Flying') }}"
                 style="background-image: url('{{ asset('/assets/images/pptimages/Property1.png') }}');"
-                class=" bg-no-repeat bg-contain bg-center w-[13vw] h-[10vw] relative flex justify-center items-center transition hover:brightness-110">
+                class=" bg-no-repeat bg-contain bg-center w-[14vw] h-[10vw] relative flex justify-center items-center transition hover:brightness-110">
                 <h2 class="!text-[1.5vw] text-[#7D6F71]">Flying <br> Machines</h2>
                 <span class="text-[2vw] text-[#AF6E39] absolute  top-[1vw] right-[1vw]">5</span>
             </a>

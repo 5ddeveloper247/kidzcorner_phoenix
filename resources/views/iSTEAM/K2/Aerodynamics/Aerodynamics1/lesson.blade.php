@@ -1,6 +1,6 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
- 
+
 @section('content')
 
 
@@ -76,7 +76,7 @@
     {{-- slide 8 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <div class="flex items-center gap-5">
-            <img src="{{ asset('assets/images/K2/aero/aero1/a46.png') }}"/>
+            <img src="{{ asset('assets/images/K2/aero/aero1/a46.png') }}" class="!max-w-[10vw]" />
             <img src="{{ asset('assets/images/K2/aero/aero1/a7.png') }}" />
         </div>
         <h2 class="title stroke">Weight is the force of gravity on an object.</h2>
@@ -233,7 +233,7 @@
                 Ensure that the model is facing the centre part of the fan.
                 Turn on the fan and observe the movement of the model.</h2>
         </div>
-        <img src="{{ asset('assets/images/K2/aero/aero1/erprints/a13.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/aero1/a13.png') }}" />
     </div>
 
 
@@ -244,7 +244,7 @@
                 2. Repeat step 1 by holding the wing model this way instead
                 (as shown) in front of a fan. Share your observations.</h2>
         </div>
-        <img src="{{ asset('assets/images/K2/aero/aero1/erprints/a14.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/aero1/a14.png') }}" />
     </div>
 
 
@@ -274,7 +274,7 @@
         <h2 class="title stroke">On the other hand, this shape lifts up when air moves around
             it. This shape is called aerofoil.</h2>
         <!-- Video Trigger Button -->
-        <div  onclick="toggleVideo('video2')"
+        <div onclick="toggleVideo('video2')"
             class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn cursor-pointer rounded-[30px] bg-sky-500">
             <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
             <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
@@ -285,14 +285,14 @@
 
     {{-- Slide 30 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/aero/a44.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/aero1/a44.png') }}" />
         <h2 class="title stroke">Aeroplane wings are designed in the shape of an <span class="text-white">aerofoil</span>.
         </h2>
     </div>
 
     {{-- Slide 31 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/aero/a52.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/aero1/a52.png') }}" />
         <h2 class="title stroke">When the air moves along this shape, it generates more lift.</h2>
     </div>
 
@@ -307,7 +307,7 @@
     {{-- slide 33 --}}
     <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[836px] h-fit bg-cover bg-center  flex flex-col justify-center "
+        <div class="w-[30vw] h-fit bg-cover bg-center  flex flex-col justify-center "
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <img src="{{ asset('assets/images/K2/aero/aero1/a18.png') }}" />
         </div>
@@ -316,7 +316,7 @@
     {{-- slide 34 --}}
     <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[836px] h-fit bg-cover bg-center  flex flex-col justify-center "
+        <div class="w-[30vw] h-fit bg-cover bg-center  flex flex-col justify-center "
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <img src="{{ asset('assets/images/K2/aero/aero1/a19.png') }}" />
         </div>
@@ -325,44 +325,35 @@
     {{-- ====================================== --}}
     {{-- Buttons --}}
     <div class="down-btn-container">
-        <button
-         class="doneButton">
- <img src="{{ asset('assets/images/pptimages/done.png') }}" />
+        <button class="doneButton">
+            <img src="{{ asset('assets/images/pptimages/done.png') }}" />
         </button>
     </div>
 
 
- <div id="buttons" class="absolute  flex flex-row gap-6 ">
+    <div id="buttons" class="absolute  flex flex-row gap-6 ">
 
         <!-- Return Button -->
         <a id="returnButton">
- <img
-    src="{{ asset('assets/images/pptimages/return.png') }}" />
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
 
         <!-- Home Button -->
-        <button
-     id="homeButton">
-            <img 
-                src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
         <button id="closeButton">
-           
-            <img 
-                src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-    
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
         </button>
 
     </div>
 
     {{-- next Button --}}
     <div class="down-btn-container">
-
-        <button
-            class="nextButton">
- <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
+        <button class="nextButton">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
         </button>
     </div>
 

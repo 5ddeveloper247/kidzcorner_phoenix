@@ -73,10 +73,10 @@
     <div class="slide flex flex-col items-center justify-center gap-[15rem] ">
 
 
-        <h2 class="title stroke">Do you still remember what a programme is? <br>
+        <h2 class="title stroke">Do you still remember what a programme is?
             What is the meaning of programming or coding?</h2>
 
-        <p class="note">Note: Encourage children to share what they know about a programme and the <br>
+        <p class="note">Note: Encourage children to share what they know about a programme and the
             meaning of programming or coding.</p>
 
     </div>
@@ -102,7 +102,7 @@
             <img src="/assets/images/K2/animate1/a6.png" />
         </div>
 
-        <h2 class="title stroke">Many things around us are controlled by different <br>
+        <h2 class="title stroke">Many things around us are controlled by different
             programmes.</h2>
 
 
@@ -228,25 +228,23 @@
     {{-- Slide 21 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 relative">
         <div class="flex  gap-3  items-center  ">
-            <div class=" flex flex-col   gap-1">
-
-                <img src="/assets/images/K2/animate1/a12.png" />
-                <img src="/assets/images/K2/animate1/a13.png" />
+            <div class=" flex flex-col gap-[.6vw]">
+                <img src="/assets/images/K2/animate1/a12.png" class="!max-w-[13vw]" />
+                <img src="/assets/images/K2/animate1/a13.png" class="!max-w-[13vw]" />
             </div>
-            <div class=" flex flex-col   gap-6">
-                <img src="/assets/images/K2/animate1/a14.png" />
-                <img src="/assets/images/K2/animate1/a15.png" />
+            <div class=" flex flex-col gap-[2vw]">
+                <img src="/assets/images/K2/animate1/a14.png" class="!max-w-[2.5vw]" />
+                <img src="/assets/images/K2/animate1/a15.png" class="!max-w-[2.5vw]" />
             </div>
-            <div class=" flex flex-col   gap-1">
-                <img src="/assets/images/K2/animate1/a17.png" />
-                <img src="/assets/images/K2/animate1/a18.png" />
-            </div>
-            <div>
-                <img src="/assets/images/K2/animate1/a16.png" />
+            <div class=" flex flex-col gap-[.6vw]">
+                <img src="/assets/images/K2/animate1/a17.png" class="!max-w-[13vw]" />
+                <img src="/assets/images/K2/animate1/a18.png" class="!max-w-[13vw]" />
             </div>
             <div>
-                <img class="absolute  bottom-[11rem] right-[3rem] " src="/assets/images/K2/animate1/a15.png" />
-
+                <img src="/assets/images/K2/animate1/a16.png" class="!max-w-[4vw]" />
+            </div>
+            <div>
+                <img class="absolute  bottom-[11rem] right-[3rem] !max-w-[2.5vw]" src="/assets/images/K2/animate1/a15.png" />
             </div>
         </div>
         <h2 class="title stroke">Open the application and start a new project.</h2>
@@ -265,9 +263,9 @@
         <img class="w-[550px]" src="/assets/images/K2/animate1/a13.png" />
 
 
-        <h2 class="title stroke">This command is called Motion Blocks. <br>
+        <h2 class="title stroke">This command is called Motion Blocks.
             It allows us to design movements for a character.</h2>
-        <p class="note">Note: <button class="title stroke  font-medium !text-xl">Click here</button> to guide children
+        <p class="note">Note: <button class="title stroke  font-medium !text-[1.7vw]">Click here</button> to guide children
             explore and
             understand the details and use of Motion Blocks.</p>
 
@@ -280,10 +278,10 @@
     <div class="slide flex flex-col items-center justify-center gap-[3rem] ">
 
 
-        <img src="/assets/images/K2/animate1/a19.png" />
+        <img src="/assets/images/K2/animate1/a19.png" class="large-img6" />
 
 
-        <h2 class="title stroke">Motion Blocks has a set of programming blocks. <br>
+        <h2 class="title stroke">Motion Blocks has a set of programming blocks.
             Each block here represents a movement.</h2>
         <p class="note">Note: Show and name each programming block here. Have children move accordingly (except Go Home).
         </p>
@@ -297,15 +295,15 @@
     <div class="slide flex flex-col items-center justify-center gap-5 ">
         <div class="flex  gap-2">
             <div>
-                <img src="/assets/images/K2/animate1/a20.png" />
+                <img src="/assets/images/K2/animate1/a20.png" class="large-img3" />
             </div>
             <div>
-                <img src="/assets/images/K2/animate1/a21.png" />
+                <img src="/assets/images/K2/animate1/a21.png" class="large-img3" />
             </div>
 
         </div>
 
-        <h2 class="title stroke">Tap, drag and place a Move Right programming block <br>
+        <h2 class="title stroke">Tap, drag and place a Move Right programming block
             to the programming area.</h2>
         <p class="note">Note: Show children how to do so.</p>
 
@@ -317,10 +315,10 @@
     <div class="slide flex flex-col items-center justify-center gap-5 ">
         <div class="flex  gap-2  items-center">
             <div>
-                <img src="/assets/images/K2/animate1/a22.png" />
+                <img src="/assets/images/K2/animate1/a22.png" class="large-img3" />
             </div>
             <div>
-                <img src="/assets/images/K2/animate1/a23.png" />
+                <img src="/assets/images/K2/animate1/a23.png" class="large-img3" />
             </div>
 
         </div>
@@ -337,10 +335,10 @@
     <div class="slide flex flex-col items-center justify-center gap-5 ">
         <div class="flex  gap-2  items-center">
             <div>
-                <img src="/assets/images/K2/animate1/a22.png" />
+                <img src="/assets/images/K2/animate1/a22.png" class="large-img3" />
             </div>
             <div>
-                <img src="/assets/images/K2/animate1/a23.png" />
+                <img src="/assets/images/K2/animate1/a23.png" class="large-img3" />
             </div>
 
         </div>
@@ -356,10 +354,10 @@
     <div class="slide flex flex-col items-center justify-center gap-5 ">
         <div class="flex  gap-2  items-center">
             <div>
-                <img src="/assets/images/K2/animate1/a24.png" />
+                <img src="/assets/images/K2/animate1/a24.png" class="large-img3" />
             </div>
             <div>
-                <img src="/assets/images/K2/animate1/a23.png" />
+                <img src="/assets/images/K2/animate1/a23.png" class="large-img3" />
             </div>
 
         </div>
@@ -375,10 +373,10 @@
     <div class="slide flex flex-col items-center justify-center gap-5 ">
         <div class="flex  gap-[1rem] items-center">
             <div class="flex    items-center">
-                <img src="/assets/images/K2/animate1/a25.png" />
-                <img src="/assets/images/K2/animate1/a26.png" />
+                <img src="/assets/images/K2/animate1/a25.png" class="large-img3" />
+                <img src="/assets/images/K2/animate1/a26.png" class="large-img3" />
             </div>
-            <img src="/assets/images/K2/animate1/a23.png" />
+            <img src="/assets/images/K2/animate1/a23.png" class="large-img3" />
 
         </div>
 
@@ -394,10 +392,10 @@
     <div class="slide flex flex-col items-center justify-center gap-5 ">
         <div class="flex  gap-2  items-center">
             <div>
-                <img src="/assets/images/K2/animate1/a27.png" />
+                <img src="/assets/images/K2/animate1/a27.png" class="large-img3" />
             </div>
             <div>
-                <img src="/assets/images/K2/animate1/a23.png" />
+                <img src="/assets/images/K2/animate1/a23.png" class="large-img3" />
             </div>
 
         </div>
@@ -413,10 +411,10 @@
     <div class="slide flex flex-col items-center justify-center gap-5 ">
         <div class="flex  gap-2  items-center">
             <div>
-                <img src="/assets/images/K2/animate1/a28.png" />
+                <img src="/assets/images/K2/animate1/a28.png" class="large-img3" />
             </div>
             <div>
-                <img src="/assets/images/K2/animate1/a29.png" />
+                <img src="/assets/images/K2/animate1/a29.png" class="large-img3" />
             </div>
 
         </div>
@@ -638,10 +636,10 @@
     <div class="slide flex flex-col items-center justify-center gap-2 ">
         <div class="flex  gap-2  items-center">
             <div>
-                <img src="/assets/images/K2/animate1/a39.png" />
+                <img src="/assets/images/K2/animate1/a39.png" class="large-img3" />
             </div>
             <div>
-                <img src="/assets/images/K2/animate1/a40.png" />
+                <img src="/assets/images/K2/animate1/a40.png" class="large-img3" />
             </div>
 
         </div>
@@ -657,10 +655,10 @@
     <div class="slide flex flex-col items-center justify-center gap-5 ">
         <div class="flex  gap-2  items-center">
             <div>
-                <img src="/assets/images/K2/animate1/a41.png" />
+                <img src="/assets/images/K2/animate1/a41.png" class="large-img3" />
             </div>
             <div>
-                <img src="/assets/images/K2/animate1/a42.png" />
+                <img src="/assets/images/K2/animate1/a42.png" class="large-img3" />
             </div>
 
         </div>
@@ -694,8 +692,8 @@
         </ul>
 
         <div class="flex gap-2">
-            <img src="/assets/images/K2/animate1/a43.png" />
-            <img src="/assets/images/K2/animate1/a44.png" />
+            <img src="/assets/images/K2/animate1/a43.png" class="large-img3" />
+            <img src="/assets/images/K2/animate1/a44.png" class="large-img3" />
 
         </div>
 
@@ -709,10 +707,10 @@
         </ul>
 
         <div class="flex gap-2  items-center">
-            <img class="w-[500px]" src="/assets/images/K2/animate1/a45.png" />
-            <img src="/assets/images/K2/animate1/a14.png" />
+            <img class="w-[500px]" src="/assets/images/K2/animate1/a45.png" class="large-img3" />
+            <img src="/assets/images/K2/animate1/a14.png" class="!max-w-[2.5vw]" />
 
-            <img class="w-[500px]" src="/assets/images/K2/animate1/a46.png" />
+            <img class="w-[500px]" src="/assets/images/K2/animate1/a46.png" class="large-img3" />
 
         </div>
 
@@ -728,10 +726,10 @@
         </ul>
 
         <div class="flex gap-2  items-center">
-            <img class="w-[500px]" src="/assets/images/K2/animate1/a47.png" />
-            <img src="/assets/images/K2/animate1/a14.png" />
+            <img class="w-[500px]" src="/assets/images/K2/animate1/a47.png" class="large-img3" />
+            <img src="/assets/images/K2/animate1/a14.png" class="!max-w-[2.5vw]" />
 
-            <img class="w-[500px]" src="/assets/images/K2/animate1/a48.png" />
+            <img class="w-[500px]" src="/assets/images/K2/animate1/a48.png" class="large-img3" />
 
         </div>
 

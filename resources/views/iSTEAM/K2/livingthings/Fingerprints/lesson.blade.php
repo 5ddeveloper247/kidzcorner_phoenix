@@ -1,6 +1,6 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
- 
+
 @section('content')
 
 
@@ -21,9 +21,9 @@
     {{-- Slide 2 --}}
     <div class="slide hidden flex flex-col items-center">
         <div class="flex items-end gap-2 justify-center">
-            <img src="{{ asset('assets/images/K2/livingthings/dna/h1.png') }}" />
-            <img src="{{ asset('assets/images/K2/livingthings/dna/h17.png') }}" class="w-[500px]" />
-            <img src="{{ asset('assets/images/K2/livingthings/dna/h1.png') }}" />
+            <img src="{{ asset('assets/images/K2/livingthings/dna/h1.png') }}" class="!max-w-[10vw]" />
+            <img src="{{ asset('assets/images/K2/livingthings/dna/h17.png') }}" class="!max-w-[20vw]" />
+            <img src="{{ asset('assets/images/K2/livingthings/dna/h1.png') }}" class="!max-w-[10vw]" />
         </div>
         <h2 class="title stroke">DNA determines our traits. We are all unique
             because the bases in our DNA are arranged differently!</h2>
@@ -82,9 +82,8 @@
         <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f3.png') }}" />
         <p class="note text-center">Note: Advise A to darken the patch by shading the patch again and again.</p>
         <!-- Video Trigger Button -->
-        <div data-property-1="Default"
-            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
-      <img src="/assets/images/pptimages/video.png" />
+        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
@@ -98,9 +97,8 @@
         <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f4.png') }}" />
         <p class="note text-center">Note: Advise B to ensure that their fingertips have an even dark mark.</p>
         <!-- Video Trigger Button -->
-        <div data-property-1="Default"
-            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
-      <img src="/assets/images/pptimages/video.png" />
+        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
@@ -115,9 +113,8 @@
         <p class="note text-center">Note: Advise C to hold only an edge of the tape and stick the tape flat on the fingertip
             of B.</p>
         <!-- Video Trigger Button -->
-        <div data-property-1="Default"
-            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
-      <img src="/assets/images/pptimages/video.png" />
+        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
@@ -132,9 +129,8 @@
         <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f6.png') }}" />
         <p class="note text-center">Note: Remind C to paste the tape in the correct place of B's fingerprint record.</p>
         <!-- Video Trigger Button -->
-        <div data-property-1="Default"
-            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
-      <img src="/assets/images/pptimages/video.png" />
+        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
@@ -149,9 +145,8 @@
         <p class="note text-center">Note: Explain to children that this is to avoid possible messiness when taking prints of
             other fingers.</p>
         <!-- Video Trigger Button -->
-        <div data-property-1="Default"
-            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
-      <img src="/assets/images/pptimages/video.png" />
+        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
@@ -173,7 +168,7 @@
             <h2 class="title stroke">Let's do: <br>
                 7. Observe your fingerprints.</h2>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f2.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f2.png') }}" class="large-img6" />
         <p class="note text-center">Note: Have children observe and compare their own set of fingerprints on the record.
         </p>
     </div>
@@ -183,7 +178,7 @@
 
     {{-- Slide 20 --}}
     <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f2.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f2.png') }}" class="large-img6" />
         <h2 class="title stroke">What do you observe: <br>
             Are there similarities between your fingerprints?</h2>
     </div>
@@ -191,7 +186,7 @@
 
     {{-- Slide 21 --}}
     <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f2.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f2.png') }}" class="large-img6" />
         <h2 class="title stroke">What do you observe: <br>
             Do your left and right hands’ fingerprints look alike?</h2>
     </div>
@@ -204,14 +199,14 @@
             <h2 class="title stroke">Let's do: <br>
                 8. Observe your fingerprints with friends.</h2>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f9.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f9.png') }}" class="large-img6" />
         <p class="note">Note: Have children observe and compare their fingerprints with friends.</p>
     </div>
 
 
     {{-- Slide 24 --}}
     <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f9.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f9.png') }}" class="large-img6" />
         <h2 class="title stroke text-start">What do you observe: <br>
             Do you find anyone with the same fingerprints as yours?</h2>
     </div>
@@ -258,7 +253,7 @@
     {{-- slide 30 --}}
     <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[836px] h-fit bg-cover bg-center p-[20px] flex flex-col justify-center items-center"
+        <div class="w-[30vw] h-fit bg-cover bg-center p-[20px] flex flex-col justify-center items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f12.png') }}" />
         </div>
@@ -268,44 +263,34 @@
     {{-- ====================================== --}}
     {{-- Buttons --}}
     <div class="down-btn-container">
-        <button
-         class="doneButton">
- <img src="{{ asset('assets/images/pptimages/done.png') }}" />
+        <button class="doneButton">
+            <img src="{{ asset('assets/images/pptimages/done.png') }}" />
         </button>
     </div>
 
 
- <div id="buttons" class="absolute  flex flex-row gap-6 ">
-
+    <div id="buttons" class="absolute  flex flex-row gap-6 ">
         <!-- Return Button -->
         <a id="returnButton">
- <img
-    src="{{ asset('assets/images/pptimages/return.png') }}" />
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
 
         <!-- Home Button -->
-        <button
-     id="homeButton">
-            <img 
-                src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
         <button id="closeButton">
-           
-            <img 
-                src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-    
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
         </button>
-
     </div>
+
 
     {{-- next Button --}}
     <div class="down-btn-container">
-
-        <button
-            class="nextButton">
- <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
+        <button class="nextButton">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
         </button>
     </div>
 

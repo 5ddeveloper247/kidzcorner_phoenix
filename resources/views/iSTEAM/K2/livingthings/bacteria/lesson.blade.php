@@ -16,8 +16,8 @@
     {{-- Slide 2 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
         <div class="flex gap-1">
-            <img src="{{ asset('assets/images/k2/livingthings/bacteria/b1.png') }}" />
-            <img src="{{ asset('assets/images/k2/LivingThings/bacteria/b2.png') }}" />
+            <img src="{{ asset('assets/images/k2/livingthings/bacteria/b1.png') }}" class="!max-w-[15vw]" />
+            <img src="{{ asset('assets/images/k2/LivingThings/bacteria/b2.png') }}" class="!max-w-[10vw]" />
         </div>
         <p class="note">Note: Invite children to sing “”It is Living”” song together, get them share what they know about
             DNA.</p>
@@ -256,7 +256,7 @@
     {{-- slide 29 --}}
     <div class="slide flex flex-col items-center justify-center gap-5   ">
         <h2 class="title stroke font-bold !text-white">Class Activity</h2>
-        <img src="/assets/images/K2/livingthings/bacteria/b36.png" />
+        <img src="/assets/images/K2/livingthings/bacteria/b36.png" class="!max-w-[12vw]" />
         <h2 class="title stroke !text-start">Let's find out: <br>
             Do disinfectant sprays really kill bacteria?</h2>
         <p class="note">Note: Display all the things needed. Guide children to name the things and know their use.</p>
@@ -345,7 +345,7 @@
         <h2 class="title stroke !text-start">Let's do: <br>
             6.Put both the sampled petri dishes in a box and keep the box
             at a cooling place.</h2>
-        <img src="/assets/images/K2/livingthings/bacteria/b33.png" />
+        <img src="/assets/images/K2/livingthings/bacteria/b33.png" class="large-img6" />
         <p class="note">Note:Teacher to do the step; use tape to seal all the petri dishes to prevent children from
             opening them
             Tell children that bacteria need time to grow, so we'll check the results at least 10 days later.
@@ -353,26 +353,11 @@
     </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     {{-- ====================================== --}}
     {{-- Buttons --}}
     <div class="down-btn-container">
-        <button
-         class="doneButton">
- <img src="{{ asset('assets/images/pptimages/done.png') }}" />
+        <button class="doneButton">
+            <img src="{{ asset('assets/images/pptimages/done.png') }}" />
         </button>
     </div>
 
@@ -381,23 +366,19 @@
 
         <!-- Return Button -->
         <a id="returnButton">
- <img
-    src="{{ asset('assets/images/pptimages/return.png') }}" />
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
 
         <!-- Home Button -->
-        <button
-     id="homeButton">
-            <img 
-                src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
         <button id="closeButton">
-           
-            <img 
-                src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-    
+
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
+
         </button>
 
     </div>
@@ -405,9 +386,8 @@
     {{-- next Button --}}
     <div class="down-btn-container">
 
-        <button
-            class="nextButton">
- <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
+        <button class="nextButton">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
         </button>
     </div>
 
@@ -452,17 +432,17 @@
                 });
             });
 
-              //   Return button - redirect if on first slide, otherwise go back
-        returnButton.addEventListener("click", () => {
-            if (currentSlide === 0) {
-                //   First slide pe hai →  
-                window.location.href = "{{ route('YourRouteNameHere') }}";
-            } else {
-                //   Previous slide pe jao
-                currentSlide--;
-                showSlide(currentSlide);
-            }
-        });
+            //   Return button - redirect if on first slide, otherwise go back
+            returnButton.addEventListener("click", () => {
+                if (currentSlide === 0) {
+                    //   First slide pe hai →  
+                    window.location.href = "{{ route('bacteriaSelection') }}";
+                } else {
+                    //   Previous slide pe jao
+                    currentSlide--;
+                    showSlide(currentSlide);
+                }
+            });
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {

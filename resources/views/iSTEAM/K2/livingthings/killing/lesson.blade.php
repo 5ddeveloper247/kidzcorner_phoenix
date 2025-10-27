@@ -35,7 +35,7 @@
     <div class="slide flex flex-col items-center justify-center gap-5 ">
         <div class="flex justify-center items-center">
 
-            <img src="/assets/images/K2/livingthings/killing/k3.png" />
+            <img src="/assets/images/K2/livingthings/killing/k3.png" class="!max-w-[10vw]" />
             <img src="/assets/images/K2/livingthings/killing/k4.png" />
         </div>
         <h2 class="title stroke">Bad bacteria are called pathogens.
@@ -66,7 +66,7 @@
     {{-- Slide 7 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
         <h2 class="title stroke !text-white  font-bold">Small Group Activity</h2>
-        <img src="/assets/images/K2/livingthings/killing/k7.png" />
+        <img src="/assets/images/K2/livingthings/killing/k7.png" class="!max-w-[12vw]" />
 
         <h2 class="title stroke !text-start">Let's find out: <br>
             (Group 1) Do hand sanitizers really kill bacteria? <br>
@@ -135,9 +135,8 @@
             cotton bud to lightly draw many lines on the agar in the
             dish and close the lid again.</h2>
         <div class=" flex gap-1">
-
-            <img src="/assets/images/K2/livingthings/killing/k11.png" />
-            <img src="/assets/images/K2/livingthings/killing/k12.png" />
+            <img src="/assets/images/K2/livingthings/killing/k11.png" class="large-img4" />
+            <img src="/assets/images/K2/livingthings/killing/k12.png" class="large-img4" />
         </div>
 
         <p class="note">Note: Advise children to choose another group member to do the step with hands wearing gloves.
@@ -205,57 +204,40 @@
 
 
 
-    <div class="absolute bottom-[85px]">
-        <button
-            class="cursor-pointer doneButton w-66 h-[75px] relative bg-[#F8A23A] rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
-                    outline outline-1 outline-yellow-700 overflow-hidden">
-            <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
-            <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" />
-            </div>
-            <span
-                class="absolute left-[80px] top-[18px] flex items-center  text-white text-5xl font-bold stroke">DONE</span>
+    {{-- Buttons --}}
+    <div class="down-btn-container">
+        <button class="doneButton">
+            <img src="{{ asset('assets/images/pptimages/done.png') }}" />
         </button>
     </div>
 
 
-
-
-
-    {{-- Buttons --}}
     <div id="buttons" class="absolute  flex flex-row gap-6 ">
 
         <!-- Return Button -->
-        <a class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] shadow-lg shadow-inner outline outline-1 outline-teal-800 cursor-pointer"
-            id="returnButton">
-            <img class="absolute top-[6px] left-[8px] w-20 h-10" src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <img class="absolute top-[24px] left-[22px] w-14 h-14"
-                src="{{ asset('assets/images/pptimages/reverse-icon.png') }}" />
+        <a id="returnButton">
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
 
         <!-- Home Button -->
-        <button
-     id="homeButton">
-            <img 
-                src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
         <button id="closeButton">
-           
-            <img 
-                src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-    
+
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
+
         </button>
 
     </div>
 
     {{-- next Button --}}
     <div class="down-btn-container">
+        <button class="nextButton ">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
 
-        <button
-            class="nextButton">
- <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
         </button>
     </div>
 
@@ -300,17 +282,17 @@
                 });
             });
 
-              //   Return button - redirect if on first slide, otherwise go back
-        returnButton.addEventListener("click", () => {
-            if (currentSlide === 0) {
-                //   First slide pe hai →  
-                window.location.href = "{{ route('YourRouteNameHere') }}";
-            } else {
-                //   Previous slide pe jao
-                currentSlide--;
-                showSlide(currentSlide);
-            }
-        });
+            //   Return button - redirect if on first slide, otherwise go back
+            returnButton.addEventListener("click", () => {
+                if (currentSlide === 0) {
+                    //   First slide pe hai →  
+                    window.location.href = "{{ route('killingSelection') }}";
+                } else {
+                    //   Previous slide pe jao
+                    currentSlide--;
+                    showSlide(currentSlide);
+                }
+            });
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {

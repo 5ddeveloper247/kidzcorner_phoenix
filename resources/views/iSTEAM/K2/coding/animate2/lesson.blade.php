@@ -10,8 +10,8 @@
 
         <div class="flex gap-2  items-center">
 
-            <img class="w-[500px]" src="/assets/images/K2/animate2/a1.png" />
-            <img class="w-[500px]" src="/assets/images/K2/animate2/a2.png" />
+            <img class="!max-w-[19vw]" src="/assets/images/K2/animate2/a1.png" />
+            <img class="!max-w-[19vw]" src="/assets/images/K2/animate2/a2.png" />
         </div>
         <h2 class="title stroke">Children, what is the name of this app? <br>x
             What can you use it for?</h2>
@@ -26,8 +26,8 @@
 
         <div class="flex gap-2  items-center">
 
-            <img src="/assets/images/K2/animate2/a3.png" />
-            <img src="/assets/images/K2/animate2/a4.png" />
+            <img src="/assets/images/K2/animate2/a3.png" class="!max-w-[13vw]" />
+            <img src="/assets/images/K2/animate2/a4.png" class="!max-w-[19vw]" />
         </div>
         <h2 class="title stroke">We can use ScratchJr to create our own animated stories.</h2>
         <p class="note">Note: Have children talk about what they see and guess what the story is about (no right or
@@ -103,8 +103,8 @@
 
         <div class="flex gap-2  items-center">
 
-            <img src="/assets/images/K2/animate2/a10.png" />
-            <img src="/assets/images/K2/animate2/a11.png" />
+            <img src="/assets/images/K2/animate2/a10.png" class="!max-w-[13vw]" />
+            <img src="/assets/images/K2/animate2/a11.png" class="!max-w-[19vw]" />
         </div>
         <h2 class="title stroke">A character will move diagonally when we programme it to
             move left or right and up or down at the same time!</h2>
@@ -120,8 +120,8 @@
 
         <div class="flex gap-2  items-center">
 
-            <img src="/assets/images/K2/animate2/a12.png" />
-            <img src="/assets/images/K2/animate2/a13.png" />
+            <img src="/assets/images/K2/animate2/a12.png" class="!max-w-[19vw]" />
+            <img src="/assets/images/K2/animate2/a13.png" class="!max-w-[19vw]" />
         </div>
         <h2 class="title stroke">This means that we can create more than a programme
             for a character to do several movements at the same time.</h2>
@@ -136,8 +136,8 @@
 
         <div class="flex gap-2  items-center">
 
-            <img src="/assets/images/K2/animate2/a13.png" />
-            <img src="/assets/images/K2/animate2/a13.png" />
+            <img src="/assets/images/K2/animate2/a13.png" class="!max-w-[19vw]" />
+            <img src="/assets/images/K2/animate2/a13.png" class="!max-w-[19vw]" />
         </div>
         <h2 class="title stroke">When a character is programmed to do several movements
             at the same time, we'll see different <br>
@@ -148,10 +148,10 @@
 
 
     {{-- Slide 18 --}}
-    <div class="slide flex flex-col items-center justify-center gap-[8rem]">
+    <div class="slide flex flex-col items-center justify-center gap-[2vw]">
         <h2 class="title stroke !text-white">Hands-on Time 1</h2>
         <div>
-            <ul class="title stroke !text-start !text-4xl">
+            <ul class="title stroke !text-start text-[1.3vw]">
                 <li>Mission: <br> Let's programme a character to do several movements at the <br>same time to see the
                     different animation effects on the stage.</li>
 
@@ -165,36 +165,25 @@
     </div>
 
     {{-- Slide 19 --}}
-    <div class="slide flex flex-col items-center justify-center gap-[2rem]">
+    <div class="slide flex flex-col items-center justify-center gap-[.5vw]">
 
         <div>
-            <ul class="title stroke !text-start !text-4xl">
+            <ul class="title stroke !text-start">
                 <li>Steps: <br>
                     1. Use different programming blocks under Motion Blocks to <br>
                     create two programmes for a character.</li>
-
             </ul>
         </div>
-
-
         <img src="/assets/images/K2/animate2/a14.png" />
-
-
-
-
         <p class="note">Note: Encourage children to explore the fun of creating different animation effects together.</p>
-
-
-
-
     </div>
 
 
     {{-- Slide 19 --}}
-    <div class="slide flex flex-col items-center justify-center gap-[8rem]">
+    <div class="slide flex flex-col items-center justify-center gap-[2vw]">
 
         <div>
-            <ul class="title stroke !text-start !text-4xl">
+            <ul class="title stroke !text-start">
                 <li>Steps: <br> 2. Run the programmes to see what kind of animation effect <br> you get. <br> 3. Repeat
                     steps 1 and 2 to create other programmes for a <br> character.</li>
             </ul>
@@ -221,7 +210,7 @@
         <h2 class="title stroke !text-white">Hands-on Time 2</h2>
 
         <div>
-            <ul class="title stroke !text-start !text-4xl">
+            <ul class="title stroke !text-start">
                 <li>Mission: <br>
                     Use ScratchJr to work out the programmes of a character <br>
                     (as shown in the sample on the last page).</li>
@@ -237,7 +226,7 @@
 
         <div>
 
-            <ul class="title stroke !text-start !text-4xl">
+            <ul class="title stroke !text-start">
                 <li>Steps: <br>
                     1. Choose the correct background.</li>
             </ul>
@@ -246,16 +235,16 @@
 
         <div class="flex  gap-2 items-center ">
 
-            <img class="w-[450px]" src="/assets/images/K2/animate2/a15.png" />
-            <img class="h-[30px] w-[30px]" src="/assets/images/K2/animate2/a16.png" />
-            <img class="w-[450px]" src="/assets/images/K2/animate2/a17.png" />
+            <img class="!max-w-[13vw]" src="/assets/images/K2/animate2/a15.png" />
+            <img class="!max-w-[2.5vw]" src="/assets/images/K2/animate2/a16.png" />
+            <img class="!max-w-[13vw]" src="/assets/images/K2/animate2/a17.png" />
 
 
         </div>
 
         <h2 class="title stroke">Tap, drag and place a Move Right programming block <br>
             to the programming area.</h2>
-        <p class="note">Note: Reply the <a class="!text-4xl title stroke" href="">video</a> if needed.</p>
+        <p class="note">Note: Reply the <a class= title stroke" href="">video</a> if needed.</p>
 
 
     </div>
@@ -264,17 +253,17 @@
     {{-- Slide 24 --}}
     <div class="slide flex flex-col justify-start gap-[1rem] ">
         <div>
-            <ul class="title stroke !text-start !text-4xl">
+            <ul class="title stroke !text-start">
                 <li>Steps: <br>
                     2. Move the character to a starting point.</li>
             </ul>
         </div>
         <div class="flex  gap-3 items-center justify-center ">
             <div>
-                <img class="w-[450px]" src="/assets/images/K2/animate2/a15.png" />
+                <img class="!max-w-[13vw]" src="/assets/images/K2/animate2/a15.png" />
             </div>
             <div>
-                <ul class=" title stroke !text-start !text-4xl !text-white">
+                <ul class=" title stroke !text-start !text-white">
                     <li>How to move a character? <br>
                         Tap, drag and place it to <br>
                         the point that you want!</li>
@@ -289,7 +278,7 @@
     {{-- Slide 25 --}}
      <div class="slide flex flex-col justify-start gap-[1rem] ">
         <div>
-            <ul class="title stroke !text-start !text-4xl">
+            <ul class="title stroke !text-start">
                 <li>Steps: <br>
 3. Work out the programmes for the character and run the
     programmes.</li>
@@ -297,7 +286,7 @@
         </div>
         <div class="flex  gap-3 items-center justify-center items-end ">
             <div>
-                <img class="w-[450px]" src="/assets/images/K2/animate2/a18.png" />
+                <img class="!max-w-[13vw]" src="/assets/images/K2/animate2/a18.png" />
             </div>
             <div>
                 <button  class=" !text-white w-[188px] h-[61px] bg-[#2D9CDB] rounded-[20px]"> Sample Answer</button>
@@ -574,7 +563,7 @@
                         showSlide(currentSlide);
                     } else {
                         // Navigate to route
-                        window.location.href = "{{ route('animate1Selection') }}";
+                        window.location.href = "{{ route('animate2Selection') }}";
                     }
                 });
             }

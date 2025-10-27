@@ -3,50 +3,41 @@
 
 @section('content')
 
-    <div id="topDiv" class="flex flex-col   items-center ">
-        <div class="  title !text-[55px]  stroke">What are Bacteria??</div>
+    <div id="topDiv" class="flex flex-col items-center ">
+        <div class="  title stroke">What are Bacteria??</div>
         <h2 class="text-2xl sm:text-3xl lg:text-5xl text-white stroke ">Learn about the characteristics of bacteria;
             learn to use scientific method for growing bacteria
             and test if disinfectant sprays
             help to kill bacteria</h2>
-        <button
-            class="cursor-pointer nextButton w-66 h-[120px] relative bg-[#F8A23A]  rounded-[30px]  shadow-[3px_4px_7.8px_0px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_0px_rgba(0,0,0,0.25)] 
-        outline outline-1 outline-yellow-700 overflow-hidden">
-            <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
-            <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" /> </div>
-            <span class="flex items-center  text-white text-5xl font-bold stroke">NEXT
-            </span>
-        </button>
+        {{-- next Button --}}
+        <div class="down-btn-container">
+            <button class="nextButton">
+                <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
+            </button>
+        </div>
     </div>
 
 
 
 
 
-    <div id="buttons" class="absolute  flex flex-row gap-6 ">
-
-        <!-- Return Button -->
-        <button
-        id="returnButton">
-            <img 
-                src="{{ asset('assets/images/pptimages/return.png') }}" />
+    <div id="buttons" class="absolute flex flex-row gap-6 z-90">
+        <!-- Return Button (hidden initially) -->
+        <button id="returnButton">
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </button>
 
         <!-- Home Button -->
-        <button
-          id="homeButton">
-            <img 
-                src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
         <button id="closeButton">
-           
-<img  src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-   
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
         </button>
-
     </div>
+
 
 
 @endsection

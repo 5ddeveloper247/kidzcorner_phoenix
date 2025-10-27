@@ -55,16 +55,17 @@
             font-size: 60px;
             color: white;
         }
-            .note {
-                font-size: 24px;
-                font-weight: 400;
-                color: white;
-            }
 
-            a {
-                cursor: pointer;
+        .note {
+            font-size: 24px;
+            font-weight: 400;
+            color: white;
+        }
 
-            }
+        a {
+            cursor: pointer;
+
+        }
     </style>
 @endpush
 
@@ -81,14 +82,14 @@
             <a href="{{ route('animate2Lesson') }}" id="Lesson" class="flex flex-col gap-0">
                 <img src="/assets/images/pptimages/lesson-btn.png" />
 
-                 
+
 
             </a>
             {{-- Teacher Button --}}
             <a href="{{ route('animate2Teacher') }}" id="Lesson" class="flex flex-col gap-0">
                 <img src="/assets/images/pptimages/teacher-btn.png" />
 
-                 
+
 
             </a>
         </div>
@@ -96,28 +97,23 @@
 
 
 
- <div id="buttons" class="absolute  flex flex-row gap-6 ">
+    <div id="buttons" class="absolute  flex flex-row gap-6 ">
 
         <!-- Return Button -->
-        <a href="{{ route('animate2') }}"
-         
-    id="returnButton">
+        <a href="{{ route('animate2') }}" id="returnButton">
 
-            <img 
-                src="{{ asset('assets/images/pptimages/return.png') }}" />
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
         <!-- Home Button -->
-        <button
-          id="homeButton">
-            <img 
-                src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
         <button id="closeButton">
-           
-<img  src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-   
+
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
+
         </button>
 
     </div>

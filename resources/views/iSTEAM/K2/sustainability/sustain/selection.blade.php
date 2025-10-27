@@ -55,16 +55,17 @@
             font-size: 60px;
             color: white;
         }
-            .note {
-                font-size: 24px;
-                font-weight: 400;
-                color: white;
-            }
 
-            a {
-                cursor: pointer;
+        .note {
+            font-size: 24px;
+            font-weight: 400;
+            color: white;
+        }
 
-            }
+        a {
+            cursor: pointer;
+
+        }
     </style>
 @endpush
 
@@ -80,44 +81,32 @@
             {{-- Lesson Button --}}
             <a href="{{ route('sustainLesson') }}" id="Lesson" class="flex flex-col gap-0">
                 <img src="/assets/images/pptimages/lesson-btn.png" />
-
-                 
-
             </a>
+            
             {{-- Teacher Button --}}
             <a href="{{ route('sustainTeacher') }}" id="Lesson" class="flex flex-col gap-0">
                 <img src="/assets/images/pptimages/teacher-btn.png" />
-
-                 
-
             </a>
         </div>
     </div>
 
 
 
- <div id="buttons" class="absolute  flex flex-row gap-6 ">
+    <div id="buttons" class="absolute  flex flex-row gap-6 ">
 
         <!-- Return Button -->
-        <a href="{{ route('sustain') }}"
-         
-    id="returnButton">
+        <a href="{{ route('sustain') }}" id="returnButton">
 
-            <img 
-                src="{{ asset('assets/images/pptimages/return.png') }}" />
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
         <!-- Home Button -->
-        <button
-          id="homeButton">
-            <img 
-                src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
         <button id="closeButton">
-           
-<img  src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-   
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
         </button>
 
     </div>

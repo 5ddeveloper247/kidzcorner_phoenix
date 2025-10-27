@@ -1,7 +1,7 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
 
- 
+
 
 @section('content')
 
@@ -29,7 +29,7 @@
     {{-- slide 4 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <div class="flex items-center gap-5">
-            <img src="{{ asset('assets/images/K2/aero/aero1/a46.png') }}" />
+            <img src="{{ asset('assets/images/K2/aero/aero1/a46.png') }}" class="!max-w-[10vw]" />
             <img src="{{ asset('assets/images/K2/aero/aero1/a7.png') }}" />
         </div>
         <h2 class="title stroke">Weight comes from the force of gravity pulling down objects.</h2>
@@ -221,14 +221,14 @@
 
     {{-- Slide 25 --}}
     <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <img src="{{ asset('assets/images/K2/aero/aero1/a29.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/aero1/a29.png') }}" class="large-img6" />
         <h2 class="title stroke">Look at the shape of the noses of these aircrafts.
             What do you see?</h2>
     </div>
 
     {{-- Slide 26 --}}
     <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <img src="{{ asset('assets/images/K2/aero/aero1/a29.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/aero1/a29.png') }}" class="large-img6" />
         <h2 class="title stroke">The shape of the aeroplane nose is designed to reduce drag
             as it moves through air.</h2>
     </div>
@@ -314,7 +314,7 @@
 
     {{-- Slide 35 --}}
     <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <img src="{{ asset('assets/images/K2/aero/aero1/a32.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/aero1/a32.png') }}" class="large-img6" />
         <h2 class="title stroke">Flaps and spoilers play an important role during take off and
             landing. Can you tell the function of the flaps and spoilers?
             Why are spoilers named as such?</h2>
@@ -322,21 +322,21 @@
 
     {{-- Slide 36 --}}
     <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <img src="{{ asset('assets/images/K2/aero/aero1/a50.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/aero1/a50.png') }}" class="large-img6" />
         <h2 class="title stroke">During take off, the flaps are adjusted downward to increase
             lift and reduce drag.</h2>
     </div>
 
     {{-- Slide 37 --}}
     <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <img src="{{ asset('assets/images/K2/aero/aero1/a51.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/aero1/a51.png') }}" class="large-img6" />
         <h2 class="title stroke">During landing, the flaps are fully extended to
             increase both lift and drag.</h2>
     </div>
 
     {{-- Slide 38 --}}
     <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <img src="{{ asset('assets/images/K2/aero/aero1/a33.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/aero1/a33.png') }}" class="large-img6" />
         <h2 class="title stroke">The spoilers are extended to increase drag and reduce lift only
             during landing. Spoilers are used to 'spoil' the movement of air
             to slow down the aeroplane and ensure it stays on the ground.</h2>
@@ -354,7 +354,7 @@
     {{-- slide 40 --}}
     <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[836px] h-fit bg-cover bg-center p-[20px] flex flex-col justify-center items-center"
+        <div class="w-[30vw] h-fit bg-cover bg-center p-[20px] flex flex-col justify-center items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>Label the four aerodynamic forces.</p>
             <img src="{{ asset('assets/images/K2/aero/aero1/a34.png') }}" />
@@ -364,7 +364,7 @@
     {{-- slide 41 --}}
     <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[836px] h-fit bg-cover bg-center p-[20px] flex flex-col justify-center items-center"
+        <div class="w-[30vw] h-fit bg-cover bg-center p-[20px] flex flex-col justify-center items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>Label the aerodynamic force that should be higher for the aeroplane to take off.</p>
             <img src="{{ asset('assets/images/K2/aero/aero1/a34.png') }}" />
@@ -374,7 +374,7 @@
     {{-- slide 42 --}}
     <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[836px] h-fit bg-cover bg-center p-[20px] flex flex-col justify-center items-center"
+        <div class="w-[30vw] h-fit bg-cover bg-center p-[20px] flex flex-col justify-center items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>Label the aerodynamic force that should be higher for the aeroplane to keep moving
                 forward while flying in the sky.</p>
@@ -385,42 +385,34 @@
     {{-- ====================================== --}}
     {{-- Buttons --}}
     <div class="down-btn-container">
-        <button
-         class="doneButton">
- <img src="{{ asset('assets/images/pptimages/done.png') }}" />
+        <button class="doneButton">
+            <img src="{{ asset('assets/images/pptimages/done.png') }}" />
         </button>
     </div>
 
- <div id="buttons" class="absolute  flex flex-row gap-6 ">
+    <div id="buttons" class="absolute  flex flex-row gap-6 ">
         <!-- Return Button -->
         <a id="returnButton">
- <img
-    src="{{ asset('assets/images/pptimages/return.png') }}" />
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
 
         <!-- Home Button -->
-        <button
-     id="homeButton">
-            <img 
-                src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
         <button id="closeButton">
-           
-            <img 
-                src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-    
+
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
+
         </button>
     </div>
 
-    {{-- Next Button --}}
+    {{-- next Button --}}
     <div class="down-btn-container">
-        <button class="cursor-pointer nextButton w-66 h-[75px] relative bg-[#F8A23A]  rounded-[30px] overflow-hidden">
-            <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
-            <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" /> </div>
-            <span class="flex items-center  text-white text-5xl font-bold stroke">NEXT
-            </span>
+        <button class="nextButton">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
         </button>
     </div>
 @endsection

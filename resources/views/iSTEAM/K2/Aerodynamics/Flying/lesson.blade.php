@@ -6,7 +6,7 @@
 
     {{-- Slide 1 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <img src="{{ asset('assets/images/K2/aero/hydro/h1.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/hydro/h1.png') }}" class="large-img6" />
         <div class="title stroke">
             <h2>Do you remember what helps an aeroplane fly?</h2>
         </div>
@@ -17,7 +17,7 @@
 
     {{-- Slide 2 --}}
     <div class="slide hidden flex flex-col items-center">
-        <img src="{{ asset('assets/images/K2/aero/hydro/h4.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/hydro/h4.png') }}" class="large-img6" />
         <h2 class="title stroke">Aeroplanes can fly because of aerodynamics.
             Can you name the four aerodynamic forces?</h2>
         <p class="note">Note: Guide the children to name the forces.</p>
@@ -26,49 +26,49 @@
 
     {{-- Slide 3 --}}
     <div class="slide hidden  flex flex-col items-center">
-        <img src="{{ asset('assets/images/K2/aero/hydro/h4.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/hydro/h4.png') }}" class="large-img6" />
         <h2 class="title stroke text-center">These four <span class="text-white">aerodynamic</span> forces affect the way
             an aeroplane moves.</h2>
     </div>
 
     {{-- slide 4 --}}
     <div class="slide hidden  flex flex-col items-center">
-        <img src="{{ asset('assets/images/K2/aero/hydro/h4.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/hydro/h4.png') }}" class="large-img6" />
         <h2 class="title stroke text-center">These four <span class="text-white">aerodynamic</span> forces affect the way
             an aeroplane moves.</h2>
     </div>
 
     {{-- Slide 5 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/aero/hydro/h5.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/hydro/h5.png') }}" class="large-img6" />
         <h2 class="title stroke">Weight comes from the force of gravity pulling down objects.</h2>
     </div>
 
 
     {{-- slide 6 --}}
     <div class="slide hidden flex flex-col items-center gap-y-3">
-        <img src="{{ asset('assets/images/K2/aero/hydro/h6.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/hydro/h6.png') }}" class="large-img6" />
         <h2 class="title stroke">Lift is a force that pushes something up.</h2>
     </div>
 
 
     {{-- slide 7 --}}
     <div class="slide hidden flex flex-col items-center gap-y-3">
-        <img src="{{ asset('assets/images/K2/aero/hydro/h7.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/hydro/h7.png') }}" class="large-img6" />
         <h2 class="title stroke">Thrust is the force that pushes the aeroplane forward.</h2>
     </div>
 
 
     {{-- slide 8 --}}
     <div class="slide hidden flex flex-col items-center gap-y-3">
-        <img src="{{ asset('assets/images/K2/aero/hydro/h8.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/hydro/h8.png') }}" class="large-img6" />
         <h2 class="title stroke"><span class="text-white">Drag</span> is the opposing force of <span
                 class="text-white">thrust</span> that slows down the aeroplane.</h2>
     </div>
 
     {{-- slide 9 --}}
     <div class="slide hidden flex flex-col items-center gap-y-3">
-        <img src="{{ asset('assets/images/K2/aero/hydro/h4.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/hydro/h4.png') }}" class="large-img6" />
         <h2 class="title stroke">Which force has to be higher for the aeroplane to take off?</h2>
         <p class="note">Note: Guide children to share their answers.</p>
     </div>
@@ -76,7 +76,7 @@
 
     {{-- slide 10 --}}
     <div class="slide hidden flex flex-col items-center gap-y-3">
-        <img src="{{ asset('assets/images/K2/aero/hydro/h21.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/hydro/h21.png') }}" class="large-img6" />
         <h2 class="title stroke">The aeroplane can only take off into the sky
             when the lift is higher than the weight.</h2>
     </div>
@@ -92,21 +92,21 @@
 
     {{-- slide 12 --}}
     <div class="slide hidden flex flex-col items-center gap-y-3">
-        <img src="{{ asset('assets/images/K2/aero/aero1/a44.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/aero1/a44.png') }}" class="large-img6" />
         <h2 class="title stroke">Aeroplane wings are designed in the shape of an <span class="text-white">aerofoil</span>.
         </h2>
     </div>
 
     {{-- slide 13 --}}
     <div class="slide hidden flex flex-col items-center gap-y-3">
-        <img src="{{ asset('assets/images/K2/aero/aero1/a52.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/aero1/a52.png') }}" class="large-img6" />
         <h2 class="title stroke">When the air moves along this shape, it generates more lift.</h2>
     </div>
 
 
     {{-- slide 14 --}}
     <div class="slide hidden flex flex-col items-center gap-y-3">
-        <img src="{{ asset('assets/images/K2/aero/aero1/a17.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/aero1/a17.png') }}" class="large-img6" />
         <h2 class="title stroke">Therefore, the aerofoil shape of the aeroplane wings helps to
             generate lift for the aeroplane to take off into the sky.</h2>
     </div>
@@ -114,7 +114,7 @@
 
     {{-- slide 15 --}}
     <div class="slide hidden flex flex-col items-center gap-y-3">
-        <img src="{{ asset('assets/images/K2/aero/hydro/h4.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/hydro/h4.png') }}" class="large-img6" />
         <h2 class="title stroke">Which force has to be less for the aeroplane to keep moving
             forward during flight?</h2>
     </div>
@@ -122,7 +122,7 @@
 
     {{-- slide 16 --}}
     <div class="slide hidden flex flex-col items-center gap-y-3">
-        <img src="{{ asset('assets/images/K2/aero/hydro/h8.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/hydro/h8.png') }}" class="large-img6" />
         <h2 class="title stroke">Drag has to be less than thrust for the aeroplane to keep
             moving forward.</h2>
     </div>
@@ -130,7 +130,7 @@
 
     {{-- slide 17 --}}
     <div class="slide hidden flex flex-col items-center gap-y-3">
-        <img src="{{ asset('assets/images/K2/aero/hydro/h8.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/hydro/h8.png') }}" class="large-img6" />
         <h2 class="title stroke">The engine generates thrust for the aeroplane to keep moving
             forward. But what helps to reduce drag?</h2>
         <p class="note">Note: Guide children to share their answers.</p>
@@ -140,7 +140,7 @@
 
     {{-- slide 18 --}}
     <div class="slide hidden flex flex-col items-center gap-y-3">
-        <img src="{{ asset('assets/images/K2/aero/aero1/a29.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/aero1/a29.png') }}" class="large-img6" />
         <h2 class="title stroke">The shape of the aeroplane nose is designed to reduce drag
             as it moves through air.</h2>
     </div>
@@ -149,8 +149,8 @@
     {{-- slide 19 --}}
     <div class="slide hidden flex flex-col items-center gap-y-3">
         <div class="flex items-center gap-5">
-            <img src="{{ asset('assets/images/K2/aero/evo/e12.png') }}" class="w-[450px]" />
-            <img src="{{ asset('assets/images/K2/aero/evo/e19.png') }}" class="w-[450px]" />
+            <img src="{{ asset('assets/images/K2/aero/evo/e12.png') }}" class="large-img4" class="w-[450px]" />
+            <img src="{{ asset('assets/images/K2/aero/evo/e19.png') }}" class="large-img4" class="w-[450px]" />
         </div>
         <h2 class="title stroke">Aerodynamics also affect the movement of other vehicles.</h2>
     </div>
@@ -158,7 +158,7 @@
 
     {{-- slide 20 --}}
     <div class="slide hidden flex flex-col items-center gap-y-3">
-        <img src="{{ asset('assets/images/K2/aero/evo/e12.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/evo/e12.png') }}" class="large-img6" />
         <h2 class="title stroke">The head of the bullet train is designed in a pointed shape to
             reduce <span class="text-white">drag</span>. This helps the train to move at a faster speed.</h2>
     </div>
@@ -166,7 +166,7 @@
 
     {{-- slide 21 --}}
     <div class="slide hidden flex flex-col items-center gap-y-3">
-        <img src="{{ asset('assets/images/K2/aero/evo/e10.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/evo/e10.png') }}" class="large-img6" />
         <h2 class="title stroke">Formula 1 cars have <span class="text-white">front wings</span> in this shape. How is it
             different from the aerofoil shape of the <span class="text-white">aeroplane</span> wings?</h2>
         <p class="note">Note: Encourage children to discuss and share their answers.</p>
@@ -175,7 +175,7 @@
 
     {{-- slide 22 --}}
     <div class="slide hidden flex flex-col items-center gap-y-3">
-        <img src="{{ asset('assets/images/K2/aero/evo/e10.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/evo/e10.png') }}" class="large-img6" />
         <h2 class="title stroke">The <span class="text-white">front wings</span> of the racing car is shaped this way to
             create <span class="text-white">downforce</span>. This enables the car to stay on the ground instead
             of lifting up when it moves fast.
@@ -184,7 +184,7 @@
 
     {{-- slide 23 --}}
     <div class="slide hidden flex flex-col items-center gap-y-3">
-        <img src="{{ asset('assets/images/K2/aero/evo/e17.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/evo/e17.png') }}" class="large-img6" />
         <h2 class="title stroke">Aerodynamics also play an important part in sports.
             How do cyclists overcome drag?</h2>
         <p class="note">Note: Encourage children to discuss and share their answers.</p>
@@ -193,7 +193,7 @@
 
     {{-- slide 24 --}}
     <div class="slide hidden flex flex-col items-center gap-y-3">
-        <img src="{{ asset('assets/images/K2/aero/evo/e17.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/evo/e17.png') }}" class="large-img6" />
         <h2 class="title stroke">Professional cyclists curve their body and put on tight clothing
             to reduce <span class="text-white">drag</span> so that they can move at a higher speed with
             less effort.</h2>
@@ -214,14 +214,14 @@
 
     {{-- slide 26 --}}
     <div class="slide hidden flex flex-col items-center gap-y-3">
-        <img src="{{ asset('assets/images/K2/aero/evo/e20.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/evo/e20.png') }}" class="large-img6" />
         <h2 class="title stroke">What is this? What does it do?</h2>
         <p class="note">Note: Encourage children to share their answers.</p>
     </div>
 
     {{-- slide 27 --}}
     <div class="slide hidden flex flex-col items-center gap-y-3">
-        <img src="{{ asset('assets/images/K2/aero/evo/e20.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/evo/e20.png') }}" class="large-img6" />
         <h2 class="title stroke">A rocket helps to carry satellite or space shuttles into space.
             How do rockets shoot up into the sky?</h2>
         <p class="note">Note: Encourage children to share their answers based on aerodynamic forces.</p>
@@ -230,7 +230,7 @@
 
     {{-- slide 28 --}}
     <div class="slide hidden flex flex-col items-center gap-y-3">
-        <img src="{{ asset('assets/images/K2/aero/evo/e24.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/evo/e24.png') }}" class="large-img6" />
         <h2 class="title stroke">Thrust is the force that helps a rocket shoot up into the sky.
             How do rockets generate enough thrust to do so?</h2>
         <p class="note">Note: Encourage children to share their answers based on aerodynamic forces.</p>
@@ -239,7 +239,7 @@
 
     {{-- slide 29 --}}
     <div class="slide hidden flex flex-col items-center gap-y-3">
-        <img src="{{ asset('assets/images/K2/aero/evo/e24.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/evo/e24.png') }}" class="large-img6" />
         <h2 class="title stroke">The <span class="text-white">rocket</span> engine burns fuel to generate <span
                 class="text-white">thrust</span> for the
             <span class="text-white">rocket</span> to shoot into the sky.
@@ -249,7 +249,7 @@
 
     {{-- slide 30 --}}
     <div class="slide hidden flex flex-col items-center gap-y-3">
-        <img src="{{ asset('assets/images/K2/aero/evo/e21.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/evo/e21.png') }}" class="large-img6" />
         <h2 class="title stroke">The narrow shape of the <span class="text-white">rocket's</span> nose helps to reduce
             drag as it moves through air.</h2>
     </div>
@@ -258,14 +258,14 @@
 
     {{-- slide 31 --}}
     <div class="slide hidden flex flex-col items-center gap-y-3">
-        <img src="{{ asset('assets/images/K2/aero/evo/e22.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/evo/e22.png') }}" class="large-img6" />
         <h2 class="title stroke">How does a rocket carry a space shuttle into space?</h2>
         <p class="note">Note: Encourage children to share their answers.</p>
     </div>
 
     {{-- slide 32 --}}
     <div class="slide hidden flex flex-col items-center gap-y-3">
-        <img src="{{ asset('assets/images/K2/aero/evo/e23.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/evo/e23.png') }}" class="large-img6" />
         <h2 class="title stroke">To carry a <span class="text-white">space shuttle</span> into space, more <span
                 class="text-white">thrust</span> is needed.
             These <span class="text-white">rocket</span> boosters help to generate extra <span
@@ -325,7 +325,7 @@
             a rocket that
             carries a space
             shuttle</h2>
-        <img src="{{ asset('assets/images/K2/aero/evo/e25.png') }}" class="w-[550px]" />
+        <img src="{{ asset('assets/images/K2/aero/evo/e25.png') }}" class="large-img6" class="w-[550px]" />
     </div>
 
     {{-- Slide 36 --}}
@@ -337,7 +337,7 @@
 
     {{-- Slide 37 --}}
     <div class="slide hidden  flex flex-col items-center   ">
-        <img src="{{ asset('assets/images/K2/aero/evo/e26.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/evo/e26.png') }}" class="large-img6" />
         <h2 class="title stroke">The space shuttle re-enters Earth at a very high speed. The
             force of gravity also pulls the space shuttle to the ground.</h2>
     </div>
@@ -345,14 +345,14 @@
 
     {{-- Slide 38 --}}
     <div class="slide hidden  flex flex-col items-center   ">
-        <img src="{{ asset('assets/images/K2/aero/evo/e26.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/evo/e26.png') }}" class="large-img6" />
         <h2 class="title stroke">How do you think a space shuttle lands smoothly instead of
             crashing onto the ground?</h2>
     </div>
 
     {{-- Slide 39 --}}
     <div class="slide hidden  flex flex-col items-center   ">
-        <img src="{{ asset('assets/images/K2/aero/evo/e27.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/evo/e27.png') }}" class="large-img6" />
         <h2 class="title stroke">The wings generate lift as the space shuttle re-enters Earth.
             This helps to slow down the speed of descent for the space
             shuttle.</h2>
@@ -360,7 +360,7 @@
 
     {{-- Slide 40 --}}
     <div class="slide hidden  flex flex-col items-center   ">
-        <img src="{{ asset('assets/images/K2/aero/evo/e28.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/evo/e28.png') }}" class="large-img6" />
         <h2 class="title stroke">As the space shuttle touches down to the ground, the brakes
             help to increase drag and slow down the shuttle.</h2>
     </div>
@@ -449,7 +449,7 @@
     {{-- slide 47 --}}
     <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[836px] h-[500px] bg-cover bg-center p-[20px] text-startphp"
+        <div class="w-[30vw] h-[35vh] bg-cover bg-center p-[20px] text-startphp"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>Name your flying machine: _____________________________________ <br>
                 How will your flying machine look like? Draw the design here.</p>
@@ -459,7 +459,7 @@
     {{-- sldie 48 --}}
     <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[836px] h-[500px] bg-cover bg-center p-[20px]  text-startphp"
+        <div class="w-[30vw] h-[35vh] bg-cover bg-center p-[20px]  text-startphp"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>Name your flying machine: __________________________________ <br>
                 Materials needed:</p>
@@ -471,7 +471,7 @@
     <div class="down-btn-container">
         <button
          class="doneButton">
- <img src="{{ asset('assets/images/pptimages/done.png') }}" />
+ <img src="{{ asset('assets/images/pptimages/done.png') }}" class="large-img6" />
         </button>
     </div>
 
@@ -481,21 +481,21 @@
         <!-- Return Button -->
         <a id="returnButton">
  <img
-    src="{{ asset('assets/images/pptimages/return.png') }}" />
+    src="{{ asset('assets/images/pptimages/return.png') }}" class="large-img6" />
         </a>
 
         <!-- Home Button -->
         <button
      id="homeButton">
             <img 
-                src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+                src="{{ asset('assets/images/pptimages/home-btn.png') }}" class="large-img6" />
         </button>
 
         <!-- Close Button -->
         <button id="closeButton">
            
             <img 
-                src="{{ asset('assets/images/pptimages/cancel.png') }}" />
+                src="{{ asset('assets/images/pptimages/cancel.png') }}" class="large-img6" />
     
         </button>
 
@@ -506,7 +506,7 @@
 
         <button
             class="nextButton">
- <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
+ <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" class="large-img6" />
         </button>
     </div>
 

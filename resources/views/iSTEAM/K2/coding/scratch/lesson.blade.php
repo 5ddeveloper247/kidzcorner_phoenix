@@ -22,8 +22,8 @@
     <div class="slide hidden flex flex-col items-center  ">
         <div class="flex items-center gap-2 justify-center   ">
             <div >
-                <img  src="/assets/images/K2/coding/s2.png" />
-                <img  src="/assets/images/K2/coding/s3.png" />
+                <img  src="/assets/images/K2/coding/s2.png" class="large-img3" />
+                <img  src="/assets/images/K2/coding/s3.png" class="large-img3" />
             </div>
 
             <img  src="/assets/images/K2/coding/s1.png" />
@@ -57,12 +57,13 @@
 
 
     {{-- slide 6 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  gap-[4rem] ">
-        <img src="/assets/images/K2/coding/s5.png" />
+    <div class="slide hidden flex flex-col items-center justify-start  gap-[4rem] ">
+        <img src="/assets/images/K2/coding/s5.png" class="large-img6" />
 
-        <h2 class="title stroke"><span class="!text-white">ScratchJr</span> is a tool that allows us to create our own
+        <h2 class="title stroke">
+            <span class="!text-white">ScratchJr</span> 
+            is a tool that allows us to create our own
             interactive stories and games.</h2>
-
 
         <p class="note">Note: Encourage children to share whether they like to read storybooks and create their own
             stories.</p>
@@ -74,18 +75,18 @@
     {{-- slide 7 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  gap-[2rem]">
 
-        <img class="w-[800px] h-[100px]" src="/assets/images/K2/coding/s5.png" />
+        <img class="max-w-[13vw]" src="/assets/images/K2/coding/s5.png" />
 
-        <img class="w-[300px] h-[100px]" src="/assets/images/K2/coding/s4.png" />
+        <img class="max-w-[13vw]" src="/assets/images/K2/coding/s4.png" />
 
 
-        <h2 class="title stroke">How does ScratchJr work? <br>
+        <h2 class="title stroke">How does ScratchJr work?
             Let's find out together!</h2>
     </div>
 
 
     {{-- slide 8 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  gap-[3rem] ">
+    <div class="slide hidden  flex flex-col items-center justify-start  gap-[2vw] ">
         <img src="/assets/images/K2/coding/s6.png" />
 
         <h2 class="title stroke">This is the application icon of ScratchJr in a tablet.</h2>
@@ -96,14 +97,14 @@
     </div>
 
     {{-- Slide 16 --}}
-    <div class="slide hidden flex flex-col items-center gap-[3rem]">
+    <div class="slide hidden flex flex-col items-center gap-[2vw]">
         <div class="flex items-center gap-2 justify-center items-center">
 
-            <img src="/assets/images/K2/coding/s7.png" />
-            <img src="/assets/images/K2/coding/s8.png" />
+            <img src="/assets/images/K2/coding/s7.png" class="!max-w-[19vw]" />
+            <img src="/assets/images/K2/coding/s8.png" class="!max-w-[2.5vw]" />
 
 
-            <img src="/assets/images/K2/coding/s9.png" />
+            <img src="/assets/images/K2/coding/s9.png" class="!max-w-[19vw]" />
 
         </div>
 
@@ -114,14 +115,14 @@
 
 
     {{-- Slide 17 --}}
-    <div class="slide hidden flex flex-col items-center  gap-[3rem]">
+    <div class="slide hidden flex flex-col items-center  gap-[2vw]">
         <div class="flex items-center gap-2 justify-center items-center">
 
-            <img src="/assets/images/K2/coding/s11.png" />
-            <img src="/assets/images/K2/coding/s8.png" />
+            <img src="/assets/images/K2/coding/s11.png" class="!max-w-[19vw]" />
+            <img src="/assets/images/K2/coding/s8.png" class="!max-w-[2.5vw]" />
 
 
-            <img src="/assets/images/K2/coding/s10.png" />
+            <img src="/assets/images/K2/coding/s10.png" class="!max-w-[19vw]" />
 
         </div>
 
@@ -133,14 +134,14 @@
 
 
     {{-- Slide 18 --}}
-    <div class="slide hidden flex flex-col items-center  gap-[3rem]">
+    <div class="slide hidden flex flex-col items-center  gap-[2vw]">
         <div class="flex items-center gap-2 justify-center items-center">
 
-            <img src="/assets/images/K2/coding/s12.png" />
-            <img src="/assets/images/K2/coding/s8.png" />
+            <img src="/assets/images/K2/coding/s12.png" class="!max-w-[19vw]" />
+            <img src="/assets/images/K2/coding/s8.png" class="!max-w-[2.5vw]" />
 
 
-            <img src="/assets/images/K2/coding/s13.png" />
+            <img src="/assets/images/K2/coding/s13.png" class="!max-w-[19vw]" />
 
         </div>
 
@@ -151,14 +152,14 @@
 
 
     {{-- Slide 18 --}}
-    <div class="slide hidden flex flex-col items-center  gap-[3rem]">
+    <div class="slide hidden flex flex-col items-center  gap-[2vw]">
         <div class="flex items-center gap-2 justify-center items-center">
 
-            <img src="/assets/images/K2/coding/s14.png" />
-            <img src="/assets/images/K2/coding/s8.png" />
+            <img src="/assets/images/K2/coding/s14.png" class="!max-w-[19vw]" />
+            <img src="/assets/images/K2/coding/s8.png" class="!max-w-[2.5vw]" />
 
 
-            <img src="/assets/images/K2/coding/s15.png" />
+            <img src="/assets/images/K2/coding/s15.png" class="!max-w-[19vw]" />
 
         </div>
 
@@ -172,11 +173,11 @@
     <div class="slide hidden flex flex-col items-center  gap-[2rem]">
         <div class="flex items-center gap-2 justify-center items-center">
 
-            <img src="/assets/images/K2/coding/s16.png" />
-            <img src="/assets/images/K2/coding/s8.png" />
+            <img src="/assets/images/K2/coding/s16.png" class="!max-w-[19vw]" />
+            <img src="/assets/images/K2/coding/s8.png" class="!max-w-[2.5vw]" />
 
 
-            <img src="/assets/images/K2/coding/s17.png" />
+            <img src="/assets/images/K2/coding/s17.png" class="!max-w-[19vw]" />
 
         </div>
 
@@ -193,11 +194,11 @@
     <div class="slide hidden flex flex-col items-center  gap-[2rem]">
         <div class="flex items-center gap-2 justify-center items-center">
 
-            <img src="/assets/images/K2/coding/s14.png" />
-            <img src="/assets/images/K2/coding/s8.png" />
+            <img src="/assets/images/K2/coding/s14.png" class="!max-w-[19vw]" />
+            <img src="/assets/images/K2/coding/s8.png" class="!max-w-[2.5vw]" />
 
 
-            <img src="/assets/images/K2/coding/s15.png" />
+            <img src="/assets/images/K2/coding/s15.png" class="!max-w-[19vw]" />
 
         </div>
 
@@ -213,11 +214,11 @@
     <div class="slide hidden flex flex-col items-center  gap-[2rem]">
         <div class="flex items-center gap-2 justify-center items-center">
 
-            <img src="/assets/images/K2/coding/s18.png" />
-            <img src="/assets/images/K2/coding/s8.png" />
+            <img src="/assets/images/K2/coding/s18.png" class="!max-w-[19vw]" />
+            <img src="/assets/images/K2/coding/s8.png" class="!max-w-[2.5vw]" />
 
 
-            <img src="/assets/images/K2/coding/s19.png" />
+            <img src="/assets/images/K2/coding/s19.png" class="!max-w-[19vw]" />
 
         </div>
 
@@ -233,11 +234,11 @@
     <div class="slide hidden flex flex-col items-center  gap-[2rem]">
         <div class="flex items-center gap-2 justify-center items-center">
 
-            <img src="/assets/images/K2/coding/s20.png" />
-            <img src="/assets/images/K2/coding/s8.png" />
+            <img src="/assets/images/K2/coding/s20.png" class="!max-w-[19vw]" />
+            <img src="/assets/images/K2/coding/s8.png" class="!max-w-[2.5vw]" />
 
 
-            <img src="/assets/images/K2/coding/s21.png" />
+            <img src="/assets/images/K2/coding/s21.png" class="!max-w-[19vw]" />
 
         </div>
 
@@ -252,11 +253,11 @@
     <div class="slide hidden flex flex-col items-center  gap-[2rem]">
         <div class="flex items-center gap-2 justify-center items-center">
 
-            <img src="/assets/images/K2/coding/s22.png" />
-            <img src="/assets/images/K2/coding/s8.png" />
+            <img src="/assets/images/K2/coding/s22.png" class="!max-w-[19vw]" />
+            <img src="/assets/images/K2/coding/s8.png" class="!max-w-[2.5vw]" />
 
 
-            <img src="/assets/images/K2/coding/s23.png" />
+            <img src="/assets/images/K2/coding/s23.png" class="!max-w-[19vw]" />
 
         </div>
 
@@ -270,14 +271,14 @@
 
 
     {{-- Slide 24 --}}
-    <div class="slide hidden flex flex-col items-center  gap-[3rem]">
+    <div class="slide hidden flex flex-col items-center  gap-[2vw]">
         <div class="flex items-center gap-2 justify-center items-center">
 
-            <img src="/assets/images/K2/coding/s24.png" />
-            <img src="/assets/images/K2/coding/s8.png" />
+            <img src="/assets/images/K2/coding/s24.png" class="!max-w-[19vw]" />
+            <img src="/assets/images/K2/coding/s8.png" class="!max-w-[2.5vw]" />
 
 
-            <img src="/assets/images/K2/coding/s25.png" />
+            <img src="/assets/images/K2/coding/s25.png" class="!max-w-[19vw]" />
 
         </div>
 
@@ -291,7 +292,7 @@
     {{-- Slide 25 --}}
     <div class="slide hidden flex flex-col items-center  gap-[4rem]">
 
-        <img src="/assets/images/K2/coding/s26.png" />
+        <img src="/assets/images/K2/coding/s26.png" class="large-img6" />
         <h2 class="title stroke">To delete the character, tap and hold it till you see a cross
             and then tap the cross.</h2>
         <p class="note">Note: Use a tablet to demonstrate how to do it; show children both ways to delete a character.
@@ -300,14 +301,14 @@
 
 
     {{-- Slide 26 --}}
-    <div class="slide hidden flex flex-col items-center  gap-[3rem]">
+    <div class="slide hidden flex flex-col items-center  gap-[2vw]">
         <div class="flex items-center gap-2 justify-center items-center">
 
-            <img src="/assets/images/K2/coding/s27.png" />
-            <img src="/assets/images/K2/coding/s8.png" />
+            <img src="/assets/images/K2/coding/s27.png" class="!max-w-[19vw]" />
+            <img src="/assets/images/K2/coding/s8.png" class="!max-w-[2.5vw]" />
 
 
-            <img src="/assets/images/K2/coding/s28.png" />
+            <img src="/assets/images/K2/coding/s28.png" class="!max-w-[19vw]" />
 
         </div>
 
@@ -332,53 +333,53 @@
     </div>
 
     {{-- Slide 28 --}}
-    <div class="slide hidden flex flex-col items-center  gap-[3rem]">
+    <div class="slide hidden flex flex-col items-center  gap-[2vw]">
 
         <ul class="title stroke !text-start">
-            <li>Steps: <br> 1. Tap on the icon of ScratchJr to open the application.</li>
+            <li>Steps: 1. Tap on the icon of ScratchJr to open the application.</li>
         </ul>
         <div class="flex items-center gap-2 justify-center items-center">
-            <img class="w-[470px]" src="/assets/images/K2/coding/s7.png" />
-            <img src="/assets/images/K2/coding/s8.png" />
-            <img class="w-[470px]" src="/assets/images/K2/coding/s9.png" />
+            <img class="!max-w-[19vw]" src="/assets/images/K2/coding/s7.png" />
+            <img src="/assets/images/K2/coding/s8.png" class="!max-w-[2.5vw]" />
+            <img class="!max-w-[19vw]" src="/assets/images/K2/coding/s9.png" />
         </div>
     </div>
 
     {{-- Slide 29 --}}
-    <div class="slide hidden flex flex-col items-center  gap-[3rem]">
+    <div class="slide hidden flex flex-col items-center  gap-[2vw]">
         <ul class="title stroke !text-start">
-            <li>Steps: <br> 2. Tap here to start using the application.</li>
+            <li>Steps: 2. Tap here to start using the application.</li>
         </ul>
         <div class="flex items-center gap-2 justify-center items-center">
-            <img class="w-[470px]" src="/assets/images/K2/coding/s11.png" />
-            <img src="/assets/images/K2/coding/s8.png" />
-            <img class="w-[470px]" src="/assets/images/K2/coding/s10.png" />
+            <img class="!max-w-[19vw]" src="/assets/images/K2/coding/s11.png" />
+            <img src="/assets/images/K2/coding/s8.png" class="!max-w-[2.5vw]" />
+            <img class="!max-w-[19vw]" src="/assets/images/K2/coding/s10.png" />
         </div>
     </div>
 
     {{-- slide 30 --}}
-    <div class="slide hidden flex flex-col items-center  gap-[3rem]">
+    <div class="slide hidden flex flex-col items-center  gap-[2vw]">
         <ul class="title stroke !text-start">
-            <li>Steps: <br> 3.Tap here to start creating your story.</li>
+            <li>Steps: 3.Tap here to start creating your story.</li>
         </ul>
         <div class="flex items-center gap-2 justify-center items-center">
-            <img class="w-[470px]" src="/assets/images/K2/coding/s12.png" />
-            <img src="/assets/images/K2/coding/s8.png" />
-            <img class="w-[470px]" src="/assets/images/K2/coding/s19.png" />
+            <img class="!max-w-[19vw]" src="/assets/images/K2/coding/s12.png" />
+            <img src="/assets/images/K2/coding/s8.png" class="!max-w-[2.5vw]" />
+            <img class="!max-w-[19vw]" src="/assets/images/K2/coding/s19.png" />
         </div>
     </div>
 
 
     {{-- slide 31 --}}
-    <div class="slide hidden flex flex-col items-center  gap-[3rem]">
+    <div class="slide hidden flex flex-col items-center  gap-[2vw]">
         <ul class="title stroke !text-start">
-            <li>Steps: <br> 4.Choose a background for your story.</li>
+            <li>Steps: 4.Choose a background for your story.</li>
         </ul>
         <div class="flex items-center gap-2 justify-center items-center  relative">
-            <img class="w-[470px]" src="/assets/images/K2/coding/s14.png" />
-            <img src="/assets/images/K2/coding/s8.png" />
-            <img class="  w-[470px]" src="/assets/images/K2/coding/s30.png" />
-            <img class=" right-[13rem] bottom-[14rem]   absolute   " src="/assets/images/K2/coding/s31.png" />
+            <img class="!max-w-[19vw]" src="/assets/images/K2/coding/s14.png" />
+            <img src="/assets/images/K2/coding/s8.png" class="!max-w-[2.5vw]" />
+            <img class="  !max-w-[19vw]" src="/assets/images/K2/coding/s30.png" />
+            <img class=" right-[12vw] bottom-[14rem]   absolute   " src="/assets/images/K2/coding/s31.png" />
 
 
         </div>
@@ -388,15 +389,15 @@
     </div>
 
     {{-- slide 32 --}}
-    <div class="slide hidden flex flex-col items-center  gap-[3rem]">
+    <div class="slide hidden flex flex-col items-center  gap-[2vw]">
         <ul class="title stroke !text-start">
-            <li>Steps: <br> 5.Choose two character for your story.</li>
+            <li>Steps: 5.Choose two character for your story.</li>
         </ul>
         <div class="flex items-center gap-2 justify-center items-center  relative">
-            <img class="w-[470px]" src="/assets/images/K2/coding/s32.png" />
-            <img src="/assets/images/K2/coding/s8.png" />
-            <img class="  w-[470px]" src="/assets/images/K2/coding/s21.png" />
-            <img class=" right-[13rem] bottom-[14rem]   absolute   " src="/assets/images/K2/coding/s31.png" />
+            <img class="!max-w-[19vw]" src="/assets/images/K2/coding/s32.png" />
+            <img src="/assets/images/K2/coding/s8.png" class="!max-w-[2.5vw]" />
+            <img class="  !max-w-[19vw]" src="/assets/images/K2/coding/s21.png" />
+            <img class=" right-[12vw] bottom-[14rem]   absolute   " src="/assets/images/K2/coding/s31.png" />
 
 
         </div>
@@ -405,14 +406,14 @@
 
     </div>
     {{-- slide 33 --}}
-    <div class="slide hidden flex flex-col items-center  gap-[3rem]">
+    <div class="slide hidden flex flex-col items-center  gap-[2vw]">
         <ul class="title stroke !text-start">
-            <li>Steps: <br> 6.What happens in your story? Share your story.</li>
+            <li>Steps: 6.What happens in your story? Share your story.</li>
         </ul>
         <div class="flex items-center gap-2 justify-center items-center  ">
-            <img class="w-[470px]" src="/assets/images/K2/coding/s33.png" />
-            <img src="/assets/images/K2/coding/s8.png" />
-            <img class="  w-[470px]" src="/assets/images/K2/coding/s34.png" />
+            <img class="!max-w-[19vw]" src="/assets/images/K2/coding/s33.png" />
+            <img src="/assets/images/K2/coding/s8.png" class="!max-w-[2.5vw]" />
+            <img class="  !max-w-[19vw]" src="/assets/images/K2/coding/s34.png" />
         </div>
         <p class="note">Note: Have children share their stories to the class using the presentation mode..</p>
     </div>

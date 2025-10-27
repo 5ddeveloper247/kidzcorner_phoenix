@@ -1,6 +1,6 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
- 
+
 @section('content')
 
 
@@ -32,7 +32,7 @@
 
     {{-- slide 4 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/livingthings/dna/h1.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h1.png') }}" class="!max-w-[10vw]" />
         <h2 class="title stroke text-center">This is the scientific drawing of DNA in close-up.
             It has a special shape that is called a double helix.</h2>
     </div>
@@ -40,14 +40,14 @@
 
     {{-- Slide 5 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/livingthings/dna/h1.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h1.png') }}" class="!max-w-[10vw]" />
         <h2 class="title stroke">What does <span class="text-white">DNA</span> look like?</h2>
     </div>
 
 
     {{-- slide 6 --}}
     <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <img src="{{ asset('assets/images/K2/livingthings/dna/h1.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h1.png') }}" class="!max-w-[10vw]" />
         <h2 class="title stroke">DNA actually looks like a twisted ladder.</h2>
     </div>
 
@@ -55,14 +55,14 @@
 
     {{-- slide 7 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/livingthings/dna/h1.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h1.png') }}" class="!max-w-[10vw]" />
         <h2 class="title stroke">Its is made up of two long twisted rails and many rungs.</h2>
     </div>
 
 
     {{-- slide 8 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/livingthings/dna/h1.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h1.png') }}" class="!max-w-[10vw]" />
         <h2 class="title stroke">The rungs are special. Each one formed by a pair of bases.</h2>
         <p class="note">Note: Have children guess how many bases are there (count the number of colours that formed
             rungs).</p>
@@ -74,34 +74,32 @@
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <div class="flex items-center gap-5 relative">
             <img src="{{ asset('assets/images/K2/livingthings/dna/h3.png') }}" />
-            <div class="flex flex-col gap-3 items-center">
+            <div class="flex flex-col gap-[1.3vw] items-center">
                 <!-- sound Button -->
                 <div data-property-1="Default"
-                    class=" z-30 h-18 w-18 -translate-y-1/2 cursor-pointer flex justify-center items-center rounded-[30px] bg-[#F8A23A]">
-                    {{-- <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px]  w-fit" /> --}}
-                    <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-                    <img class=" h-10 w-10" src="/assets/images/pptimages/sound-icon.png" />
+                    class="">
+                    <img class="!max-w-[3vw]" src="/assets/images/pptimages/sound-btn.png" alt="Sound Button" />
                 </div>
+
                 <!-- sound Button -->
                 <div data-property-2="Default"
-                    class=" z-30 h-18 w-18 -translate-y-1/2 cursor-pointer flex justify-center items-center rounded-[30px] bg-[#F8A23A]">
-                    {{-- <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] " /> --}}
-                    <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-                    <img class=" h-10 w-10" src="/assets/images/pptimages/sound-icon.png" />
-                </div> <!-- sound Button -->
+                    class="">
+                    <img class="!max-w-[3vw]" src="/assets/images/pptimages/sound-btn.png" alt="Sound Button" />
+                </div>
+
+                <!-- sound Button -->
                 <div data-property-1="Default"
-                    class=" z-30 h-18 w-18 -translate-y-1/2 cursor-pointer flex justify-center items-center rounded-[30px] bg-[#F8A23A]">
-                    {{-- <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] " /> --}}
-                    <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-                    <img class=" h-10 w-10" src="/assets/images/pptimages/sound-icon.png" />
-                </div> <!-- sound Button -->
+                    class="">
+                    <img class="!max-w-[3vw]" src="/assets/images/pptimages/sound-btn.png" alt="Sound Button" />
+                </div>
+
+                <!-- sound Button -->
                 <div data-property-1="Default"
-                    class=" z-30 h-18 w-18 -translate-y-1/2 cursor-pointer flex justify-center items-center rounded-[30px] bg-[#F8A23A]">
-                    {{-- <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] " /> --}}
-                    <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-                    <img class=" h-10 w-10" src="/assets/images/pptimages/sound-icon.png" />
+                    class="">
+                    <img class="!max-w-[3vw]" src="/assets/images/pptimages/sound-btn.png" alt="Sound Button" />
                 </div>
             </div>
+
         </div>
         <h2 class="title stroke text-center">The four bases have names, <br>
             but they prefer to be called by their initials.</h2>
@@ -349,7 +347,7 @@
     {{-- sldie 33 --}}
     <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[836px] h-fit bg-cover bg-center p-[20px] flex flex-col justify-center items-center"
+        <div class="w-[30vw] h-fit bg-cover bg-center p-[20px] flex flex-col justify-center items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <img src="{{ asset('assets/images/K2/livingthings/dna/h18.png') }}" />
 
@@ -360,34 +358,29 @@
     {{-- ====================================== --}}
     {{-- Buttons --}}
     <div class="down-btn-container">
-        <button
-         class="doneButton">
- <img src="{{ asset('assets/images/pptimages/done.png') }}" />
+        <button class="doneButton">
+            <img src="{{ asset('assets/images/pptimages/done.png') }}" />
         </button>
     </div>
 
 
- <div id="buttons" class="absolute  flex flex-row gap-6 ">
+    <div id="buttons" class="absolute  flex flex-row gap-6 ">
 
         <!-- Return Button -->
         <a id="returnButton">
- <img
-    src="{{ asset('assets/images/pptimages/return.png') }}" />
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
 
         <!-- Home Button -->
-        <button
-     id="homeButton">
-            <img 
-                src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
         <button id="closeButton">
-           
-            <img 
-                src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-    
+
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
+
         </button>
 
     </div>
@@ -395,9 +388,8 @@
     {{-- next Button --}}
     <div class="down-btn-container">
 
-        <button
-            class="nextButton">
- <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
+        <button class="nextButton">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
         </button>
     </div>
 

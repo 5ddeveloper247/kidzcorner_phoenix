@@ -1,12 +1,12 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
- 
+
 @section('content')
 
 
     {{-- Slide 1 --}}
     <div class="slide flex flex-col items-center justify-center gap-5">
-        <img src="/assets/images/K2/story/a1.png" />
+        <img src="/assets/images/K2/story/a1.png" class="large-img6" />
         <h2 class="title stroke">Children, let's look at this story!</h2>
         <p class="note"> Note: Have children talk about what they see and guess what the story is about (no right or
             wrong).
@@ -17,7 +17,7 @@
 
     {{-- Slide 2 --}}
     <div class="slide flex flex-col items-center justify-center gap-5">
-        <img src="/assets/images/K2/story/a1.png" />
+        <img src="/assets/images/K2/story/a1.png" class="large-img6" />
         <h2 class="title stroke">How do you create a story step-by-step?</h2>
         <p class="note">Note: Guide children to describe steps in creating a story with ScratchJr
             (point at the different features using a tablet).
@@ -27,7 +27,7 @@
 
     {{-- Slide 3 --}}
     <div class="slide flex flex-col items-center justify-center gap-5">
-        <img src="/assets/images/K2/story/a2.png" />
+        <img src="/assets/images/K2/story/a2.png" class="large-img6" />
         <h2 class="title stroke">Do you think you can find all the backgrounds and characters
             that you want from the app to create your own story?</h2>
         <p class="note">Note: Use a tablet to show available backgrounds and characters in the app.
@@ -36,7 +36,7 @@
 
     {{-- slide 4 --}}
     <div class="slide flex flex-col items-center justify-center gap-5">
-        <img src="/assets/images/K2/story/a3.png" />
+        <img src="/assets/images/K2/story/a3.png" class="large-img6" />
         <h2 class="title stroke">What is this story about?
             Can you find this background and character from the app?</h2>
         <p class="note">Note: Show children that the app does not have the same background and character.
@@ -46,7 +46,7 @@
 
     {{-- Slide 5 --}}
     <div class="slide flex flex-col items-center justify-center gap-5">
-        <img src="/assets/images/K2/story/a4.png" />
+        <img src="/assets/images/K2/story/a4.png" class="large-img6" />
         <h2 class="title stroke">What is this story about?
             Can you find this background and character from the app?</h2>
         <p class="note">Note: Show children that the app does not have the same background and character.
@@ -56,13 +56,12 @@
 
     {{-- slide 6 --}}
     <div class="slide flex flex-col items-center justify-center gap-[2rem] ">
+        <img src="/assets/images/K2/story/a5.png" class="large-img6" />
 
-
-        <img src="/assets/images/K2/story/a5.png" />
-
-
-        <h2 class="title stroke">Do you want to use your own backgrounds and characters when
-            creating your own animated story?</h2>
+        <h2 class="title stroke">
+            Do you want to use your own backgrounds and characters when
+            creating your own animated story?
+        </h2>
         <p class="note">Note: <button class="title stroke  font-medium !text-xl">Click here</button> to guide children
             explore and learn how to use the paint tool in ScratchJr.</p>
 
@@ -77,15 +76,10 @@
     {{-- video  slide --}}
     <div class="slide flex flex-col items-center justify-center gap-5">
 
-
-        <img src="/assets/images/K2/story/a7.png" />
-
+        <img src="/assets/images/K2/story/a7.png" class="large-img6" />
 
         <h2 class="title stroke">You will find the paint icon when you start creating a project.</h2>
         <p class="note">Note: Show children the paint icon as mentioned.</p>
-
-
-
     </div>
 
 
@@ -93,7 +87,7 @@
     <div class="slide flex flex-col items-center justify-center gap-5">
 
 
-        <img src="/assets/images/K2/story/a8.png" />
+        <img src="/assets/images/K2/story/a8.png" class="large-img6" />
 
 
         <h2 class="title stroke">You will also find the paint icon when you are at the
@@ -113,9 +107,9 @@
 
         <div class="flex  gap-2 items-center ">
 
-            <img src="/assets/images/K2/story/a9.png" />
-            <img class="h-[30px] w-[30px]" src="/assets/images/K2/animate2/a16.png" />
-            <img src="/assets/images/K2/story/a10.png" />
+            <img src="/assets/images/K2/story/a9.png" class="large-img3" />
+            <img class="h-[30px] w-[30px]" src="/assets/images/K2/animate2/a16.png" class="large-img3" />
+            <img src="/assets/images/K2/story/a10.png" class="large-img3" />
 
 
         </div>
@@ -153,8 +147,8 @@
 
         <div class="flex  gap-2 items-end ">
 
-            <img src="/assets/images/K2/story/a12.png" />
-            <img src="/assets/images/K2/story/a11.png" />
+            <img src="/assets/images/K2/story/a12.png" class="large-img3" />
+            <img src="/assets/images/K2/story/a11.png" class="large-img3" />
 
 
         </div>
@@ -175,8 +169,8 @@
 
         <div class="flex  gap-2 items-end ">
 
-            <img src="/assets/images/K2/story/a13.png" />
-            <img src="/assets/images/K2/story/a14.png" />
+            <img src="/assets/images/K2/story/a13.png" class="large-img3" />
+            <img src="/assets/images/K2/story/a14.png" class="large-img3" />
 
 
         </div>
@@ -196,8 +190,8 @@
 
         <div class="flex  gap-2 items-end ">
 
-            <img src="/assets/images/K2/story/a15.png" />
-            <img src="/assets/images/K2/story/a16.png" />
+            <img src="/assets/images/K2/story/a15.png" class="large-img3" />
+            <img src="/assets/images/K2/story/a16.png" class="large-img3" />
 
 
         </div>
@@ -218,8 +212,8 @@
 
         <div class="flex  gap-2 items-end ">
 
-            <img src="/assets/images/K2/story/a17.png" />
-            <img src="/assets/images/K2/story/a18.png" />
+            <img src="/assets/images/K2/story/a17.png" class="large-img3" />
+            <img src="/assets/images/K2/story/a18.png" class="large-img3" />
 
 
         </div>
@@ -242,8 +236,8 @@
 
         <div class="flex  gap-2 items-end ">
 
-            <img src="/assets/images/K2/story/a19.png" />
-            <img src="/assets/images/K2/story/a20.png" />
+            <img src="/assets/images/K2/story/a19.png" class="large-img3" />
+            <img src="/assets/images/K2/story/a20.png" class="large-img3" />
 
 
         </div>
@@ -265,8 +259,8 @@
 
         <div class="flex  gap-2 items-end ">
 
-            <img src="/assets/images/K2/story/a17.png" />
-            <img src="/assets/images/K2/story/a20.png" />
+            <img src="/assets/images/K2/story/a17.png" class="large-img3" />
+            <img src="/assets/images/K2/story/a20.png" class="large-img3" />
 
 
         </div>
@@ -289,10 +283,10 @@
 
         <div class="flex  gap-2  items-center ">
 
-            <img src="/assets/images/K2/story/a21.png" />
-            <img class="h-[30px] w-[30px]" src="/assets/images/K2/animate2/a16.png" />
+            <img src="/assets/images/K2/story/a21.png" class="large-img3" />
+            <img class="h-[30px] w-[30px]" src="/assets/images/K2/animate2/a16.png" class="large-img3" />
 
-            <img src="/assets/images/K2/story/a22.png" />
+            <img src="/assets/images/K2/story/a22.png" class="large-img3" />
 
 
         </div>
@@ -315,10 +309,10 @@
 
         <div class="flex  gap-2  items-center ">
 
-            <img src="/assets/images/K2/story/a23.png" />
-            <img class="h-[30px] w-[30px]" src="/assets/images/K2/animate2/a16.png" />
+            <img src="/assets/images/K2/story/a23.png" class="large-img3" />
+            <img class="h-[30px] w-[30px]" src="/assets/images/K2/animate2/a16.png" class="large-img3" />
 
-            <img src="/assets/images/K2/story/a24.png" />
+            <img src="/assets/images/K2/story/a24.png" class="large-img3" />
 
 
         </div>
@@ -336,19 +330,13 @@
 
     {{-- Slide 25 --}}
     <div class="slide flex flex-col  justify-start gap-[2rem] ">
-
-
-
-
         <div class="flex  gap-2  items-center ">
+            <img src="/assets/images/K2/story/a25.png" class="large-img3" />
+            <img class="h-[30px] w-[30px]" src="/assets/images/K2/animate2/a16.png" class="large-img3" />
 
-            <img src="/assets/images/K2/story/a25.png" />
-            <img class="h-[30px] w-[30px]" src="/assets/images/K2/animate2/a16.png" />
-
-            <img src="/assets/images/K2/story/a26.png" />
-
-
+            <img src="/assets/images/K2/story/a26.png" class="large-img3" />
         </div>
+
         <h2 class="title stroke">If you choose to make changes to one of these characters,
             you can add any face you want to form the character!</h2>
 
@@ -368,9 +356,9 @@
 
         <div class="flex  gap-2  items-ends ">
 
-            <img src="/assets/images/K2/story/a27.png" />
+            <img src="/assets/images/K2/story/a27.png" class="large-img3" />
 
-            <img src="/assets/images/K2/story/a28.png" />
+            <img src="/assets/images/K2/story/a28.png" class="large-img3" />
 
 
         </div>
@@ -388,12 +376,12 @@
 
         <div class="flex  gap-3 items-center ">
             <div class="flex flex-col gap-2">
-                <img src="/assets/images/K2/story/a29.png" />
-                <img src="/assets/images/K2/story/a30.png" />
+                <img src="/assets/images/K2/story/a29.png" class="large-img3" />
+                <img src="/assets/images/K2/story/a30.png" class="large-img3" />
             </div>
             <div>
 
-                <img src="/assets/images/K2/story/a31.png" />
+                <img src="/assets/images/K2/story/a31.png" class="large-img3" />
             </div>
 
 
@@ -411,12 +399,12 @@
 
         <div class="flex  gap-3 items-center ">
             <div class="flex flex-col gap-2">
-                <img src="/assets/images/K2/story/a29.png" />
-                <img src="/assets/images/K2/story/a32.png" />
+                <img src="/assets/images/K2/story/a29.png" class="large-img3" />
+                <img src="/assets/images/K2/story/a32.png" class="large-img3" />
             </div>
             <div>
 
-                <img src="/assets/images/K2/story/a33.png" />
+                <img src="/assets/images/K2/story/a33.png" class="large-img3" />
             </div>
 
 
@@ -434,10 +422,10 @@
 
         <div class="flex  gap-2  items-center ">
 
-            <img src="/assets/images/K2/story/a34.png" />
-            <img class="h-[30px] w-[30px]" src="/assets/images/K2/animate2/a16.png" />
+            <img src="/assets/images/K2/story/a34.png" class="large-img3" />
+            <img class="h-[30px] w-[30px]" src="/assets/images/K2/animate2/a16.png" class="large-img3" />
 
-            <img src="/assets/images/K2/story/a35.png" />
+            <img src="/assets/images/K2/story/a35.png" class="large-img3" />
 
 
         </div>
@@ -455,10 +443,10 @@
 
         <div class="flex  gap-2  items-center ">
 
-            <img src="/assets/images/K2/story/a36.png" />
-            <img class="h-[30px] w-[30px]" src="/assets/images/K2/animate2/a16.png" />
+            <img src="/assets/images/K2/story/a36.png" class="large-img3" />
+            <img class="h-[30px] w-[30px]" src="/assets/images/K2/animate2/a16.png" class="large-img3" />
 
-            <img src="/assets/images/K2/story/a37.png" />
+            <img src="/assets/images/K2/story/a37.png" class="large-img3" />
 
 
         </div>
@@ -474,10 +462,10 @@
 
         <div class="flex  gap-2  items-center ">
 
-            <img src="/assets/images/K2/story/a37.png" />
-            <img class="h-[30px] w-[30px]" src="/assets/images/K2/animate2/a16.png" />
+            <img src="/assets/images/K2/story/a37.png" class="large-img3" />
+            <img class="h-[30px] w-[30px]" src="/assets/images/K2/animate2/a16.png" class="large-img3" />
 
-            <img src="/assets/images/K2/story/a38.png" />
+            <img src="/assets/images/K2/story/a38.png" class="large-img3" />
 
 
         </div>
@@ -498,7 +486,7 @@
     {{-- slide 33 --}}
     <div class="slide flex flex-col items-center justify-center gap-[6rem] ">
         <h2 class="title stroke !text-white">Final Project</h2>
-        <ul class="title stroke !text-4xl !text-start">
+        <ul class="title stroke !text-start">
             <li>Mission: <br>
                 Use your imagination to create a four page story. Then use <br>
                 ScratchJr to turn it into an animated story. Share your story <br>
@@ -525,13 +513,13 @@
         <!-- Image with Text Overlays -->
         <div class="flex gap-4 items-center justify-center ">
             <!-- First Image Block -->
-            <div class="relative w-[300px]">
-                <img src="/assets/images/K2/story/a39.png" alt="Story Background" class="h-[700px]" />
+            <div class="relative w-[20vw]">
+                <img src="/assets/images/K2/story/a39.png" alt="Story Background" class="!max-w-[12vw]" />
                 <div class="absolute top-10 left-4 text-white ">
                     <ul>
-                        <li>
-                            <span class="title stroke !text-2xl block tracking-tighter">What is the story about?</span>
-                        
+                        <li class="!text-[1.3vw]">
+                            <span class="title stroke !text-[1.6vw] block tracking-tighter">What is the story about?</span>
+
                             Family? Friendship? <br />
                             Outing? Adventure? <br />
                             Fantasy?..
@@ -540,13 +528,13 @@
                 </div>
             </div>
             <!-- Second Image Block -->
-            <div class="relative w-[300px]">
-                <img src="/assets/images/K2/story/a39.png" alt="Story Background" class=" h-[700px] " />
+            <div class="relative w-[20vw]">
+                <img src="/assets/images/K2/story/a39.png" alt="Story Background" class="!max-w-[12vw]" />
                 <div class="absolute top-10 left-4 text-white  ">
                     <ul>
-                        <li>
-                            <span class="title stroke !text-2xl block tracking-tighter">What is the story about?</span>
-                            
+                        <li class="!text-[1.3vw]">
+                            <span class="title stroke !text-[1.6vw] block tracking-tighter">What is the story about?</span>
+
                             Family? Friendship? <br />
                             Outing? Adventure? <br />
                             Fantasy?..
@@ -555,15 +543,15 @@
                 </div>
             </div>
         </div>
-        <p class="note mt-">
+        {{-- <p class="note mt-">
             Note: Have children discuss as a group to come out with ideas for their story.
             After that, have them record their finalized story in the learning journal.
-        </p>
+        </p> --}}
     </div>
     {{-- slide 35 --}}
     <div class="slide flex flex-col  justify-start gap-[5rem] ">
         <div>
-            <ul class="title stroke !text-start !text-white !text-4xl list-disc">
+            <ul class="title stroke !text-start !text-white list-disc">
                 <li class="list-none title stroke">Steps:<br>
                     2. Use ScratchJr to turn it into an animated story.</li><br>
                 <li>Choose or create a background for each story page.</li>
@@ -580,7 +568,7 @@
     {{-- slide 36 --}}
     <div class="slide flex flex-col  justify-start gap-[30rem] ">
 
-        <ul class="title stroke !text-start !text-white !text-4xl list-disc">
+        <ul class="title stroke !text-start !text-white list-disc">
             <li class="list-none title stroke">Steps: <br>
                 3. Share your story.</li>
 
@@ -594,11 +582,11 @@
     {{-- slide 37   --}}
     <div class="slide  hidden flex flex-col  justify-center  gap-[1rem]">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[836px] h-[400px] bg-cover bg-center flex flex-col p-[40px] "
+        <div class="w-[30vw] h-[35vh] bg-cover bg-center flex flex-col p-[1.5vw] "
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
-                        <img src="/assets/images/K2/story/a40.png" />
+            <img src="/assets/images/K2/story/a40.png" class="large-img3" />
 
-           
+
         </div>
     </div>
 
@@ -645,34 +633,29 @@
     {{-- ====================================== --}}
     {{-- Buttons --}}
     <div class="down-btn-container">
-        <button
-         class="doneButton">
- <img src="{{ asset('assets/images/pptimages/done.png') }}" />
+        <button class="doneButton">
+            <img src="{{ asset('assets/images/pptimages/done.png') }}" />
         </button>
     </div>
 
 
- <div id="buttons" class="absolute  flex flex-row gap-6 ">
+    <div id="buttons" class="absolute  flex flex-row gap-6 ">
 
         <!-- Return Button -->
         <a id="returnButton">
- <img
-    src="{{ asset('assets/images/pptimages/return.png') }}" />
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
 
         <!-- Home Button -->
-        <button
-     id="homeButton">
-            <img 
-                src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
         <button id="closeButton">
-           
-            <img 
-                src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-    
+
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
+
         </button>
 
     </div>
@@ -680,9 +663,8 @@
     {{-- next Button --}}
     <div class="down-btn-container">
 
-        <button
-            class="nextButton">
- <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
+        <button class="nextButton">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
         </button>
     </div>
 
