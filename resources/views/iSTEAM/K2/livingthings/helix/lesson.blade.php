@@ -76,7 +76,7 @@
             <img src="{{ asset('assets/images/K2/livingthings/dna/h3.png') }}" />
             <div class="flex flex-col gap-3 items-center">
                 <!-- sound Button -->
-                <div data-property-1="Default"
+                <div onclick="toggleVideo('video1')"
                     class=" z-30 h-18 w-18 -translate-y-1/2 cursor-pointer flex justify-center items-center rounded-[30px] bg-[#F8A23A]">
                     {{-- <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px]  w-fit" /> --}}
                     <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
@@ -89,13 +89,13 @@
                     <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
                     <img class=" h-10 w-10" src="/assets/images/pptimages/sound-icon.png" />
                 </div> <!-- sound Button -->
-                <div data-property-1="Default"
+                <div onclick="toggleVideo('video1')"
                     class=" z-30 h-18 w-18 -translate-y-1/2 cursor-pointer flex justify-center items-center rounded-[30px] bg-[#F8A23A]">
                     {{-- <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] " /> --}}
                     <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
                     <img class=" h-10 w-10" src="/assets/images/pptimages/sound-icon.png" />
                 </div> <!-- sound Button -->
-                <div data-property-1="Default"
+                <div onclick="toggleVideo('video1')"
                     class=" z-30 h-18 w-18 -translate-y-1/2 cursor-pointer flex justify-center items-center rounded-[30px] bg-[#F8A23A]">
                     {{-- <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] " /> --}}
                     <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>

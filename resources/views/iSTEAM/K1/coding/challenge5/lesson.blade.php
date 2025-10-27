@@ -2,10 +2,12 @@
 @section('title', 'Dynamic Presentation')
 
 @section('content')
+    {{-- title --}}
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">Coding Challenge (5)</h2>
 
 
     {{-- Slide 1 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
+    <div class="slide flex flex-col items-center justify-center  ">
         <img src="/assets/images/K1/coding/challenge1/ch3.png" />
         <h2 class="title stroke">Children, do you remember this coding activity of finding
             colours? What did you do?</h2>
@@ -14,7 +16,7 @@
 
 
     {{-- Slide 2 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
+    <div class="slide flex flex-col items-center justify-center  ">
         <img src="/assets/images/K1/coding/challenge5/ch1.png" />
         <h2 class="title stroke">You planned a route for a robot to find all the colours. <br>
             You also used Blockly to programme the robot to move <br>
@@ -33,7 +35,7 @@
 
 
     {{-- slide 4 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
+    <div class="slide flex flex-col items-center justify-center  ">
         <img src="/assets/images/K1/coding/challenge5/ch2.png" />
         <h2 class="title stroke">Through this activity, we know that many routes can be <br>
             planned for a robot to complete the same mission.</h2>
@@ -42,8 +44,8 @@
 
 
     {{-- slide 5 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <h2 class="title stroke">Now, let's find out how to plan routes and carry out a test <br>
+    <div class="slide flex flex-col items-center justify-center  ">
+        <h2 class="title stroke">Now, let's find out how to plan routes and carry out a test 
             to decide the most efficient route <br>
             for a robot to complete a mission!</h2>
     </div>
@@ -53,9 +55,9 @@
     <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
         <h2 class="text-center justify-start text-[45px] text-white stroke">Hands-on Time </h2>
         <h2 class="text-start title stroke">Mission: <br>
-            Plan routes for a robot to find all the cats as soon as possible. <br>
-            Use Blockly to programme the robot to move according to <br>
-            each planned route. Use a stopwatch to test and record how <br>
+            Plan routes for a robot to find all the cats as soon as possible.
+            Use Blockly to programme the robot to move according to
+            each planned route. Use a stopwatch to test and record how
             long it takes for a robot to complete each route. Lastly,
             decide the most efficient route for a robot to complete the
             mission.</h2>
@@ -65,7 +67,7 @@
 
 
     {{-- slide 7 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
+    <div class="slide flex flex-col items-center justify-center  ">
         <img src="/assets/images/K1/coding/challenge4/ch6.png" />
         <h2 class="title stroke">Faith, Simon, Mimi and Billy are good friends.
             They always play together.</h2>
@@ -79,7 +81,7 @@
             <li>1. How do you plan the route for a robot to find all the cats
                 as soon as possible? How many routes can you plan?</li>
         </ol>
-        <img src="/assets/images//K1/coding/challenge5/ch3.png" class="w-[500px]" />
+        <img src="/assets/images//K1/coding/challenge5/ch3.png" class="!w-[15vw]" />
         <p class="note text-center">Note: Have each child in the group plan 1 or 2 routes using the learning journals. </p>
     </div>
 
@@ -92,9 +94,9 @@
             <li>2. Use coding cards to lay out the steps needed for a robot to
                 move according to each planned route.</li>
         </ol>
-        <div class="flex items-end gap-5">
-            <img src="/assets/images//K1/coding/challenge5/ch3.png" class="w-[400px]" />
-            <img src="/assets/images//K1/coding/challenge4/ch11.png" class="w-[400px]" />
+        <div class="flex items-end ">
+            <img src="/assets/images//K1/coding/challenge5/ch3.png" class="!w-[15vw]" />
+            <img src="/assets/images//K1/coding/challenge4/ch11.png" class="!w-[15vw]" />
         </div>
         <p class="note text-center">Note: Have children lay out the steps in their learning journals. Check the steps and
             advise if incorrect.</p>
@@ -108,9 +110,9 @@
             <li>3. Compare the routes and decide which three you want to
                 keep for the efficient test.</li>
         </ol>
-        <div class="flex items-end gap-5">
-            <img src="/assets/images//K1/coding/challenge5/ch3.png" class="w-[400px]" />
-            <img src="/assets/images//K1/coding/challenge4/ch11.png" class="w-[400px]" />
+        <div class="flex items-end ">
+            <img src="/assets/images//K1/coding/challenge5/ch3.png" class="!w-[15vw]" />
+            <img src="/assets/images//K1/coding/challenge4/ch11.png" class="!w-[15vw]" />
         </div>
         <p class="note text-center">Note: Have children compare the steps needed for each route (the learning journals) and
             decide from there.</p>
@@ -124,9 +126,9 @@
             <li>4. Use Blockly to programme a robot to move according to the
                 first planned route.</li>
         </ol>
-        <div class="flex items-center gap-10">
-            <img src="/assets/images//K1/coding/challenge5/ch3.png" class="w-[400px]" />
-            <img src="/assets/images//K1/coding/challenge1/ch8.png" class="w-[500px]" />
+        <div class="flex items-center gap-[1vw]">
+            <img src="/assets/images//K1/coding/challenge5/ch3.png" class="!w-[15vw]" />
+            <img src="/assets/images//K1/coding/challenge1/ch8.png" class="!w-[15vw]" />
         </div>
 
         <p class="note text-center">Note: Have children work in groups to work out the programming steps in Blockly..</p>
@@ -141,9 +143,9 @@
             <li>5. Use a stopwatch to test and record how long it takes for a
                 robot to complete the first planned route.</li>
         </ol>
-        <div class="flex items-center gap-10">
-            <img src="/assets/images//K1/coding/challenge5/ch3.png" class="w-[400px]" />
-            <img src="/assets/images//K1/coding/challenge1/ch8.png" class="w-[500px]" />
+        <div class="flex items-center gap-[1vw]">
+            <img src="/assets/images//K1/coding/challenge5/ch3.png" class="!w-[15vw]" />
+            <img src="/assets/images//K1/coding/challenge1/ch8.png" class="!w-[15vw]" />
         </div>
 
         <p class="note text-center">Note: Have children turn the programme on and start a stopwatch at the same time; stop
@@ -158,9 +160,9 @@
             <li>6. Use Blockly to programme a robot to move according to the
                 second planned route.</li>
         </ol>
-        <div class="flex items-center gap-10">
-            <img src="/assets/images//K1/coding/challenge5/ch3.png" class="w-[400px]" />
-            <img src="/assets/images//K1/coding/challenge1/ch8.png" class="w-[500px]" />
+        <div class="flex items-center gap-[1vw]">
+            <img src="/assets/images//K1/coding/challenge5/ch3.png" class="!w-[15vw]" />
+            <img src="/assets/images//K1/coding/challenge1/ch8.png" class="!w-[15vw]" />
         </div>
 
         <p class="note text-center">Note: Have children work in groups to work out the programming steps in Blockly.</p>
@@ -174,9 +176,9 @@
             <li>7. Use a stopwatch to test and record how long it takes for a
                 robot to complete the second planned route.</li>
         </ol>
-        <div class="flex items-center gap-10">
-            <img src="/assets/images//K1/coding/challenge5/ch3.png" class="w-[400px]" />
-            <img src="/assets/images//K1/coding/challenge1/ch8.png" class="w-[500px]" />
+        <div class="flex items-center gap-[1vw]">
+            <img src="/assets/images//K1/coding/challenge5/ch3.png" class="!w-[15vw]" />
+            <img src="/assets/images//K1/coding/challenge1/ch8.png" class="!w-[15vw]" />
         </div>
 
         <p class="note text-center">Note: Have children turn the programme on and start a stopwatch at the same time; stop
@@ -192,9 +194,9 @@
             <li>8. Use Blockly to programme a robot to move according to the
                 third planned route.</li>
         </ol>
-        <div class="flex items-center gap-10">
-            <img src="/assets/images//K1/coding/challenge5/ch3.png" class="w-[400px]" />
-            <img src="/assets/images//K1/coding/challenge1/ch8.png" class="w-[500px]" />
+        <div class="flex items-center gap-[1vw]">
+            <img src="/assets/images//K1/coding/challenge5/ch3.png" class="!w-[15vw]" />
+            <img src="/assets/images//K1/coding/challenge1/ch8.png" class="!w-[15vw]" />
         </div>
 
         <p class="note text-center">Note: Have children work in groups to work out the programming steps in Blockly.</p>
@@ -207,9 +209,9 @@
             <li>9. Use a stopwatch to test and record how long it takes for a
                 robot to complete the third planned route.</li>
         </ol>
-        <div class="flex items-center gap-10">
-            <img src="/assets/images//K1/coding/challenge5/ch3.png" class="w-[400px]" />
-            <img src="/assets/images//K1/coding/challenge1/ch8.png" class="w-[500px]" />
+        <div class="flex items-center gap-[1vw]">
+            <img src="/assets/images//K1/coding/challenge5/ch3.png" class="!w-[15vw]" />
+            <img src="/assets/images//K1/coding/challenge1/ch8.png" class="!w-[15vw]" />
         </div>
 
         <p class="note text-center">Note: Have children turn the programme on and start a stopwatch at the same time; stop
@@ -224,9 +226,9 @@
             <li>10. Which is the most efficient route for a robot to find all
                 the cats? Show it to the class.</li>
         </ol>
-        <div class="flex items-center gap-10">
-            <img src="/assets/images//K1/coding/challenge5/ch3.png" class="w-[400px]" />
-            <img src="/assets/images//K1/coding/challenge1/ch8.png" class="w-[500px]" />
+        <div class="flex items-center gap-[1vw]">
+            <img src="/assets/images//K1/coding/challenge5/ch3.png" class="!w-[15vw]" />
+            <img src="/assets/images//K1/coding/challenge1/ch8.png" class="!w-[15vw]" />
         </div>
 
         <p class="note text-center">Note: Have the groups take turns to show their findings to the class. After that, guide
@@ -236,20 +238,20 @@
 
 
     {{-- sldie 18 --}}
-    <div class="slide  hidden flex flex-col items-center justify-start gap-y-4">
+    <div class="slide  hidden flex flex-col items-center justify-start ">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[836px] h-[536px] bg-cover bg-center flex flex-col gap-10 justify-center items-center"
+        <div class="w-[40vw] h-[40vh] bg-cover bg-center flex flex-col gap-[1vw] justify-center items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p class="text-center">How do you plan the route for a robot to find all the cats as soon as possible? <br>
                 Draw arrows to show the route.</p>
-            <img src="/assets/images/K1/coding/challenge5/ch3.png" />
+            <img src="/assets/images/K1/coding/challenge5/ch3.png" class="!w-[15vw]" />
         </div>
     </div>
 
     {{-- sldie 19 --}}
-    <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
+    <div class="slide  hidden flex flex-col items-center justify-center ">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[836px] h-[536px] bg-cover bg-center flex flex-col justify-start items-center"
+        <div class="w-[40vw] h-[40vh] bg-cover bg-center flex flex-col justify-start items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p class="text-center">How does a robot move according to the planned route? <br>
                 Use coding cards to lay out the steps.</p>
@@ -258,13 +260,13 @@
 
 
     {{-- sldie 20 --}}
-    <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
+    <div class="slide  hidden flex flex-col items-center justify-center ">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[836px] h-[536px] bg-cover bg-center flex flex-col gap-10 justify-center items-center"
+        <div class="w-[40vw] h-[40vh] bg-cover bg-center flex flex-col gap-[1vw] justify-center items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p class="text-center">How long does it take for a robot to complete each planned route? <br>
                 Record the results in the table.</p>
-            <img src="/assets/images/K1/coding/challenge5/ch4.png" />
+            <img src="/assets/images/K1/coding/challenge5/ch4.png" class="!w-[15vw]" />
         </div>
     </div>
 
@@ -293,9 +295,7 @@
 
         <!-- Close Button -->
         <button id="closeButton">
-
             <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-
         </button>
 
     </div>
@@ -349,17 +349,17 @@
                 });
             });
 
-              //   Return button - redirect if on first slide, otherwise go back
-        returnButton.addEventListener("click", () => {
-            if (currentSlide === 0) {
-                //   First slide pe hai →  
-                window.location.href = "{{ route('YourRouteNameHere') }}";
-            } else {
-                //   Previous slide pe jao
-                currentSlide--;
-                showSlide(currentSlide);
-            }
-        });
+            //   Return button - redirect if on first slide, otherwise go back
+            returnButton.addEventListener("click", () => {
+                if (currentSlide === 0) {
+                    //   First slide pe hai →  
+                    window.location.href = "{{ route('challenge5Selection') }}";
+                } else {
+                    //   Previous slide pe jao
+                    currentSlide--;
+                    showSlide(currentSlide);
+                }
+            });
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {

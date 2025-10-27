@@ -74,9 +74,7 @@
 
         <!-- Close Button -->
         <button id="closeButton">
-
             <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-
         </button>
     </div>
 @endsection

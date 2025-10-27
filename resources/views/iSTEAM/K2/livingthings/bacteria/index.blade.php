@@ -5,7 +5,7 @@
 
     <div id="topDiv" class="flex flex-col   items-center ">
         <div class="  title !text-[55px]  stroke">What are Bacteria??</div>
-        <h2 class="text-2xl sm:text-3xl lg:text-5xl text-white stroke ">Learn about the characteristics of bacteria;
+        <h2 class=" text-white stroke ">Learn about the characteristics of bacteria;
             learn to use scientific method for growing bacteria
             and test if disinfectant sprays
             help to kill bacteria</h2>

@@ -247,7 +247,7 @@ and protect our Earth from global warming and pollution.</h2>
         
         </div>
         <!-- Video Trigger Button -->
-        <div data-property-1="Default"
+        <div onclick="toggleVideo('video1')"
             class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
       <img src="/assets/images/pptimages/video.png" />
         </div>
@@ -263,7 +263,7 @@ and protect our Earth from global warming and pollution.</h2>
         <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f4.png') }}" />
         <p class="note text-center">Note: Advise B to ensure that their fingertips have an even dark mark.</p>
         <!-- Video Trigger Button -->
-        <div data-property-1="Default"
+        <div onclick="toggleVideo('video1')"
             class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
       <img src="/assets/images/pptimages/video.png" />
         </div>
@@ -280,7 +280,7 @@ and protect our Earth from global warming and pollution.</h2>
         <p class="note text-center">Note: Advise C to hold only an edge of the tape and stick the tape flat on the fingertip
             of B.</p>
         <!-- Video Trigger Button -->
-        <div data-property-1="Default"
+        <div onclick="toggleVideo('video1')"
             class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
       <img src="/assets/images/pptimages/video.png" />
         </div>
@@ -297,7 +297,7 @@ and protect our Earth from global warming and pollution.</h2>
         <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f6.png') }}" />
         <p class="note text-center">Note: Remind C to paste the tape in the correct place of B's fingerprint record.</p>
         <!-- Video Trigger Button -->
-        <div data-property-1="Default"
+        <div onclick="toggleVideo('video1')"
             class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
       <img src="/assets/images/pptimages/video.png" />
         </div>
@@ -314,7 +314,7 @@ and protect our Earth from global warming and pollution.</h2>
         <p class="note text-center">Note: Explain to children that this is to avoid possible messiness when taking prints of
             other fingers.</p>
         <!-- Video Trigger Button -->
-        <div data-property-1="Default"
+        <div onclick="toggleVideo('video1')"
             class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
       <img src="/assets/images/pptimages/video.png" />
         </div>

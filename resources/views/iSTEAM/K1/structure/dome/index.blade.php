@@ -5,7 +5,7 @@
 
     <div id="topDiv" class="flex flex-col   items-center ">
         <div class="indexTitle  text-[55px]  stroke">Geodesic Domes</div>
-        <h2 class="text-2xl sm:text-3xl lg:text-5xl text-white stroke ">
+        <h2 class=" text-white stroke ">
             Explore and learn about geodesic domes;
             learn how to build a geodesic dome building</h2>
 

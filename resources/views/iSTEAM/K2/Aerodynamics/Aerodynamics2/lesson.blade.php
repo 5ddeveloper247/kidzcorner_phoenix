@@ -139,7 +139,7 @@
             force called thrust. This force pushes the balloon to move
             forward and fly across the string.</h2>
         <!-- Video Trigger Button -->
-        <div data-property-1="Default"
+        <div onclick="toggleVideo('video1')"
             class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900"
             onclick="toggleVideo('video1')">
             <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
@@ -203,7 +203,7 @@
         <h2 class="title stroke">The balloon with the cone shape is able to move further
             as it has less drag compared to the one with the round plate.</h2>
         <!-- Video Trigger Button -->
-        <div data-property-1="Default"
+        <div onclick="toggleVideo('video1')"
             class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900"
             onclick="toggleVideo('video2')">
             <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
@@ -277,7 +277,7 @@
         <h2 class="title stroke">Observe the movement on the aeroplane
             wing during take off</h2>
         <!-- Video Trigger Button -->
-        <div data-property-1="Default"
+        <div onclick="toggleVideo('video1')"
             class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900"
             onclick="toggleVideo('video3')">
             <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
@@ -295,7 +295,7 @@
         <h2 class="title stroke">Observe the movement on the aeroplane
             wing during landing</h2>
         <!-- Video Trigger Button -->
-        <div data-property-1="Default"
+        <div onclick="toggleVideo('video1')"
             class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn cursor-pointer rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900"
             onclick="toggleVideo('video4')">
             <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />

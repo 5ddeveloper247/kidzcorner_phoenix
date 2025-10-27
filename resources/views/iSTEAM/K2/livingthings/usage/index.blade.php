@@ -5,7 +5,7 @@
 
     <div id="topDiv" class="flex flex-col  gap-20 items-center ">
         <div class="indexTitle  text-[55px]  stroke">The Uses of Fingerprints</div>
-        <h2 class="text-2xl sm:text-3xl lg:text-5xl text-white stroke ">
+        <h2 class=" text-white stroke ">
             Explore the uses of fingerprint; <br>
             learn to dust and lift a fingerprint; <br>
             analyse the evidence found and solve a case</h2>

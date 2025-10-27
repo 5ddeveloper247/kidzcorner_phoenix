@@ -254,7 +254,7 @@
         <h2 class="title storke">Fish breathe through gills on both sides of their head. <br>
             Do you know how do fish breathe in the water?</h2>
         <!-- Video Trigger Button -->
-            <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
             <img src="{{ asset('assets/images/pptimages/video.png') }}" />
         </div>
     </div>
@@ -265,7 +265,7 @@
         <h2 class="title storke">When a fish breathes, it takes in water through its mouth. The
             gills obtain air from the water and then force the water to go out.</h2>
         <!-- Video Trigger Button -->
-        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
             <img src="{{ asset('assets/images/pptimages/video.png') }}" />
         </div>
     </div>
@@ -293,7 +293,7 @@
         <h2 class="title storke">Most balls need to be filled with air in order to bounce and roll.</h2>
         <p class="note">Note: Explain to children that we need air to stay alive but not for balls.</p>
         <!-- Video Trigger Button -->
-        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
             <img src="{{ asset('assets/images/pptimages/video.png') }}" />
         </div>
     </div>
@@ -321,7 +321,7 @@
         <h2 class="title storke">This toy train moves on its own. Why?</h2>
         <p class="note">Note: Have children think and share their views.</p>
         <!-- Video Trigger Button -->
-        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
             <img src="{{ asset('assets/images/pptimages/video.png') }}" />
         </div>
     </div>
@@ -332,7 +332,7 @@
         <h2 class="title storke">It has batteries! <br>
             The battery power enables it to move on its own.</h2>
         <!-- Video Trigger Button -->
-        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
             <img src="{{ asset('assets/images/pptimages/video.png') }}" />
         </div>
     </div>

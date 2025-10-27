@@ -2,7 +2,8 @@
 @section('title', 'Dynamic Presentation')
 
 @section('content')
-
+ {{-- title --}}
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">Final Project</h2>
 
     {{-- Slide 1 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
@@ -16,8 +17,8 @@
     {{-- Slide 2 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
         <div class="flex items-center gap-10">
-            <img src="/assets/images/K1/coding/final/f2.png" class="w-[450px]" />
-            <img src="/assets/images/K1/coding/challenge4/ch9.png" class="w-[450px]" />
+            <img src="/assets/images/K1/coding/final/f2.png" class="w-img" />
+            <img src="/assets/images/K1/coding/challenge4/ch9.png" class="w-img" />
         </div>
         <h2 class="title stroke">How about these coding activities? <br>
             What did you have to do?</h2>
@@ -31,7 +32,7 @@
 
 
     {{-- slide 4 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
+    <div class="slide hidden flex flex-col items-center justify-between h-[50vh]">
         <h2 class="text-center justify-start text-[45px] text-white stroke">Create your Own Coding Game</h2>
         <h2 class="text-start title stroke">What to do: <br>
             After having gone through the coding challenges from lessons
@@ -85,7 +86,7 @@
             <h2>Steps:</h2>
             <li>4. Set up coding mat according to your game design and test is out.</li>
         </ol>
-        <img src="/assets/images//K1/coding/final/f6.png" />
+        <img src="/assets/images//K1/coding/final/f6.png" class="!w-[15vw]" />
         <p class="note text-center">Note: Have each group of children set up the mat. Advise them to modify their design if
             needed.</p>
     </div>
@@ -98,7 +99,7 @@
             <h2>Steps:</h2>
             <li>5. Present your coding game to your friends and let them try it out.</li>
         </ol>
-        <img src="/assets/images//K1/coding/final/f6.png" />
+        <img src="/assets/images//K1/coding/final/f6.png" class="!w-[15vw]" />
         <p class="note text-center">Note: Have children try on each other’s game.</p>
     </div>
 
@@ -106,7 +107,7 @@
     {{-- sldie 9 --}}
     <div class="slide  hidden flex flex-col items-center justify-start gap-y-4">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[836px] h-[536px] bg-cover bg-center flex flex-col gap-10 justify-center items-center p-[30px]"
+        <div class="w-[40vw] h-[40vh] bg-cover bg-center flex flex-col gap-10 justify-center items-center p-[2vw]"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>Create your own coding game.</p>
             <img src="/assets/images/K1/coding/final/f8.png" />
@@ -117,10 +118,10 @@
     {{-- sldie 10 --}}
     <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[836px] h-[536px] bg-cover bg-center flex flex-col gap-10 justify-center items-center"
+        <div class="w-[40vw] h-[40vh] bg-cover bg-center flex flex-col gap-10 justify-center items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p class="text-center">Design the coding mat for your coding game.</p>
-            <img src="/assets/images/K1/coding/final/f7.png" />
+            <img src="/assets/images/K1/coding/final/f7.png" class="!w-[14vw]" />
         </div>
     </div>
 
@@ -149,9 +150,7 @@
 
         <!-- Close Button -->
         <button id="closeButton">
-
             <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-
         </button>
 
     </div>
@@ -209,7 +208,7 @@
         returnButton.addEventListener("click", () => {
             if (currentSlide === 0) {
                 //   First slide pe hai →  
-                window.location.href = "{{ route('YourRouteNameHere') }}";
+                window.location.href = "{{ route('finalSelection') }}";
             } else {
                 //   Previous slide pe jao
                 currentSlide--;

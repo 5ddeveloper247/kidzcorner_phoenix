@@ -1,17 +1,16 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
- 
+
 @section('content')
 
     <div id="topDiv" class="flex flex-col   items-center gap-20 ">
         <div class="indexTitle  text-[55px]  stroke">Giant Wheels</div>
-        <h2 class="text-2xl sm:text-3xl lg:text-5xl text-white stroke ">
-         Explore and learn about giant wheels;
-design and build a giant wheel</h2>
+        <h2 class=" text-white stroke ">
+            Explore and learn about giant wheels;
+            design and build a giant wheel</h2>
 
-        <button
- class="nextButton">           <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
-
+        <button class="nextButton">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
         </button>
     </div>
 
@@ -19,27 +18,21 @@ design and build a giant wheel</h2>
 
 
 
- <div id="buttons" class="absolute  flex flex-row gap-6 ">
+    <div id="buttons" class="absolute  flex flex-row gap-6 ">
 
         <!-- Return Button -->
-        <button
-        id="returnButton">
-            <img 
-                src="{{ asset('assets/images/pptimages/return.png') }}" />
+        <button id="returnButton">
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </button>
 
         <!-- Home Button -->
-        <button
-          id="homeButton">
-            <img 
-                src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
         <button id="closeButton">
-           
-<img  src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-   
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
         </button>
 
     </div>
@@ -51,10 +44,18 @@ design and build a giant wheel</h2>
     <script>
         document.addEventListener("DOMContentLoaded", () => {
             const nextButton = document.querySelector(".nextButton");
+            const returnButton = document.querySelector("#returnButton");
+
 
             if (nextButton) {
                 nextButton.addEventListener("click", () => {
                     window.location.href = "{{ route('giantSelection') }}";
+                });
+            }
+
+            if (returnButton) {
+                returnButton.addEventListener("click", () => {
+                    window.location.href = "{{ route('K1structure') }}";
                 });
             }
         });

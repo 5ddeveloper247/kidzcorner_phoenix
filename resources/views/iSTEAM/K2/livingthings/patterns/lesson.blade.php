@@ -31,7 +31,7 @@
         <h2 class="title stroke text-center">When you were still inside your mother's womb,
             the ridges on your fingers and thumbs started forming.</h2>
         <!-- Video Trigger Button -->
-        <div data-property-1="Default"
+        <div onclick="toggleVideo('video1')"
             class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
       <img src="/assets/images/pptimages/video.png" />
         </div>
@@ -43,7 +43,7 @@
         <h2 class="title stroke text-center">The ridges form based on individual growing experience
             in the mother's womb.</h2>
         <!-- Video Trigger Button -->
-        <div data-property-1="Default"
+        <div onclick="toggleVideo('video1')"
             class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
       <img src="/assets/images/pptimages/video.png" />
         </div>

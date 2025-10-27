@@ -14,7 +14,7 @@
             <a href="{{ route('wCoding') }}"
                   style="background-image: url('{{asset('/assets/images/pptimages/Property1.png')}}');"
             class=" bg-no-repeat bg-contain bg-center w-[13vw] h-[10vw] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="!text-[1.5vw] text-[#7D6F71]">What is Coding?</h2>
+                <h2 class="!text-[1.5vw] text-[#7D6F71]">What is <br>Coding?</h2>
                 <span class="text-[2vw] text-[#AF6E39] absolute  top-[1vw] right-[1vw]">1</span>
             </a>
 

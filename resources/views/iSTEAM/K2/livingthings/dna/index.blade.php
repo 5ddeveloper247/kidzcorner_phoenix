@@ -5,7 +5,7 @@
 
     <div id="topDiv" class="flex flex-col  gap-20 items-center ">
         <div class="indexTitle  text-[55px]  stroke">What is DNA?</div>
-        <h2 class="text-2xl sm:text-3xl lg:text-5xl text-white stroke ">
+        <h2 class=" text-white stroke ">
             Explore and learn what DNA is; <br>
             learn to extract DNA from one’s mouth</h2>
 

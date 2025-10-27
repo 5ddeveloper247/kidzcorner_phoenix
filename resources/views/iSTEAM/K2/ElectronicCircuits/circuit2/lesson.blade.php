@@ -2,10 +2,11 @@
 @section('title', 'Dynamic Presentation')
 
 @section('content')
-
+    {{-- title --}}
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">Playdough Circuit</h2>
 
     {{-- Slide 1 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
+    <div class="slide flex flex-col items-center justify-center  ">
         <img src="{{ asset('assets/images/K2/circuit/ecity/e13.png') }}" />
         <div class="title stroke">
             <h2>Children, what is this? What is it for?</h2>
@@ -23,14 +24,14 @@
 
 
     {{-- Slide 3 --}}
-    <div class="slide hidden  flex flex-col items-center gap-y-4 ">
+    <div class="slide hidden  flex flex-col items-center  ">
         <img src="{{ asset('assets/images/K2/circuit/ecity/e13.png') }}" />
         <h2 class="title stroke text-center">Is this a complete circuit? Why?</h2>
         <p class="note">Note: Have children recall and share what they have learnt.</p>
     </div>
 
     {{-- slide 4 --}}
-    <div class="slide hidden  flex flex-col items-center gap-y-4 ">
+    <div class="slide hidden  flex flex-col items-center  ">
         <img src="{{ asset('assets/images/K2/circuit/ecity/e13.png') }}" />
         <h2 class="title stroke text-center">This is a <span class="text-white">complete circuit</span> because it lets
             <span class="text-white">electricity</span> flow
@@ -48,7 +49,7 @@
 
 
     {{-- slide 6 --}}
-    <div class="slide hidden flex flex-col items-center gap-3 ">
+    <div class="slide hidden flex flex-col items-center  ">
         <img src="{{ asset('assets/images/K2/circuit/ecity/e20.png') }}" />
         <h2 class="title stroke">Do you remember these? <br>
             How did you form a complete circuit using these parts?</h2>
@@ -57,7 +58,7 @@
 
 
     {{-- slide 7 --}}
-    <div class="slide hidden flex flex-col items-center gap-3 ">
+    <div class="slide hidden flex flex-col items-center  ">
         <img src="{{ asset('assets/images/K2/circuit/ecity/e22.png') }}" />
         <h2 class="title stroke">How do you make sure that the LED will light up?</h2>
         <p class="note">Note: Have children recall and share what they have learnt.</p>
@@ -65,7 +66,7 @@
 
 
     {{-- slide 8 --}}
-    <div class="slide hidden flex flex-col items-center gap-3 ">
+    <div class="slide hidden flex flex-col items-center  ">
         <video id="video5" class="w-full max-w-[42rem] pointer-events-none">
             <source src="{{ asset('assets/images/K2/circuit/ecity/314.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
@@ -74,15 +75,14 @@
             the positive end (red wire) and its short leg is connected to
             the negative end (black wire) of the battery.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video5')"
-            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
-      <img src="/assets/images/pptimages/video.png" />
+        <div onclick="toggleVideo('video5')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
 
     {{-- slide 9 --}}
-    <div class="slide hidden flex flex-col items-center gap-3 ">
+    <div class="slide hidden flex flex-col items-center  ">
         <img src="{{ asset('assets/images/K2/circuit/ecity/e22.png') }}" />
         <h2 class="title stroke">Why do you think playdough is used to connect the wires
             and the legs of the LED?</h2>
@@ -90,7 +90,7 @@
     </div>
 
     {{-- slide 10 --}}
-    <div class="slide hidden flex flex-col items-center gap-3 ">
+    <div class="slide hidden flex flex-col items-center  ">
         <img src="{{ asset('assets/images/K2/circuit/ecity/e22.png') }}" />
         <h2 class="title stroke">A circuit needs conductors, which are things that allow
             electricity to flow through them.</h2>
@@ -98,7 +98,7 @@
 
 
     {{-- slide 11 --}}
-    <div class="slide hidden flex flex-col items-center gap-3 ">
+    <div class="slide hidden flex flex-col items-center  ">
         <img src="{{ asset('assets/images/K2/circuit/ecity/e22.png') }}" />
         <h2 class="title stroke">Playdough allows electricity to flow through it,
             so playdough is a conductor.</h2>
@@ -106,14 +106,14 @@
 
 
     {{-- slide 12 --}}
-    <div class="slide hidden flex flex-col items-center gap-3 ">
+    <div class="slide hidden flex flex-col items-center  ">
         <img src="{{ asset('assets/images/K2/circuit/ecity/e22.png') }}" />
         <h2 class="title stroke">Moreover, it is easy to use playdough to connect the wires
             and the LED and hold the connection in place.</h2>
     </div>
 
     {{-- slide 13 --}}
-    <div class="slide hidden flex flex-col items-center gap-3 ">
+    <div class="slide hidden flex flex-col items-center  ">
         <img src="{{ asset('assets/images/K2/circuit/ecity/e23.png') }}" />
         <h2 class="title stroke">Have you ever played with playdough and modelling clay?
             Are they same or different?</h2>
@@ -200,7 +200,7 @@
 
     {{-- sldie 23 --}}
     <div class="slide hidden flex flex-col items-center ">
-        <img src="{{ asset('assets/images/K2/circuit/ecity/d2.png') }}" />
+        <img src="{{ asset('assets/images/K2/circuit/ecity/d2.png') }}" class="w-img" />
         <h2 class="title stroke">What sculpture is this? Why do you think the lights are there?
             How do you form it?</h2>
         <p class="note">Note: Have children observe the sculpture and answer the questions.</p>
@@ -209,7 +209,7 @@
 
     {{-- sldie 24 --}}
     <div class="slide hidden flex flex-col items-center ">
-        <img src="{{ asset('assets/images/K2/circuit/ecity/d3.png') }}" />
+        <img src="{{ asset('assets/images/K2/circuit/ecity/d3.png') }}" class="!w-[16vw]" />
         <h2 class="title stroke">What sculpture is this? Why do you think the lights are there?
             How do you form it?</h2>
         <p class="note">Note: Have children observe the sculpture and answer the questions.</p>
@@ -217,7 +217,7 @@
 
 
     {{-- slide 25 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-full  ">
+    <div class="slide hidden flex flex-col items-center justify-between h-[50vh]  ">
         <h2 class="!text-white title stroke">Hands-on Time </h2>
         <h2 class="title stroke text-start">Mission: <br>
             Let's use our creativity to create a sculpture that lights up
@@ -225,8 +225,8 @@
         <p class="text-center note">Note: Divide children into groups. Give each group a set of materials needed.</p>
     </div>
 
-    {{-- slide 26--}}
-    <div class="slide hidden flex flex-col items-center  h-full justify-around">
+    {{-- slide 26 --}}
+    <div class="slide hidden flex flex-col items-center  h-[50vh] justify-around">
         <ul class="text-start title stroke list-decimal">
             <h2>Steps:</h2>
             <li>
@@ -242,58 +242,46 @@
     </div>
 
     {{-- slide 27 --}}
-  <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
+    <div class="slide  hidden flex flex-col items-center justify-center ">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[836px] h-[536px] bg-cover bg-center flex flex-col justify-start items-center"
+        <div class="w-[40vw] h-[40vh] bg-cover bg-center flex flex-col justify-start items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>What kind of sculpture would you like to make? Where do you think the light or lights
-should be? Draw it.</p>
+                should be? Draw it.</p>
         </div>
     </div>
 
     {{-- ====================================== --}}
     {{-- Buttons --}}
     <div class="down-btn-container">
-        <button
-         class="doneButton">
- <img src="{{ asset('assets/images/pptimages/done.png') }}" />
+        <button class="doneButton">
+            <img src="{{ asset('assets/images/pptimages/done.png') }}" />
         </button>
     </div>
 
 
     <div id="buttons" class="absolute  flex flex-row ">
         <!-- Return Button -->
-        <a class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] " id="returnButton">
-            <img class="absolute top-[6px] left-[8px] w-20 h-10"
-                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <img  
-                src="{{ asset('assets/images/pptimages/reverse-icon.png') }}" />
-        </a>
+        <button id="returnButton">
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
+        </button>
 
         <!-- Home Button -->
-        <button class="relative w-24 h-24 button-fade-in bg-sky-500 rounded-[30px] " id="homeButton">
-            <img class="absolute top-[6px] left-[8px] w-20 h-10"
-                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <img  
-                src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
-        <button  id="closeButton">
-                        <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-
+        <button id="closeButton">
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
         </button>
+
     </div>
 
     {{-- next Button --}}
     <div class="down-btn-container">
-        <button class="cursor-pointer nextButton w-66 h-[75px] relative bg-[#F8A23A]  rounded-[30px]">
-            <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
-            <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" /> </div>
-            <span class="flex items-center  text-white text-5xl font-bold stroke">NEXT
-            </span>
+        <button class="cursor-pointer nextButton">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
         </button>
     </div>
 @endsection

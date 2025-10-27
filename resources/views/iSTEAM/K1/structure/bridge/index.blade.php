@@ -5,7 +5,7 @@
 
     <div id="topDiv" class="flex flex-col   items-center ">
         <div class="indexTitle  text-[55px]  stroke">Bridges</div>
-        <h2 class="text-2xl sm:text-3xl lg:text-5xl text-white stroke ">
+        <h2 class=" text-white stroke ">
             Explore and learn about bridges;
             design and build a bridge</h2>
 
@@ -32,9 +32,7 @@
 
         <!-- Close Button -->
         <button id="closeButton">
-
             <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-
         </button>
 
     </div>

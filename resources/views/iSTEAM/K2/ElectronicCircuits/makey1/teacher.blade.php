@@ -2,10 +2,13 @@
 @section('title', 'Dynamic Presentation')
 
 @section('content')
+    {{-- title --}}
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">Makey Makey (1)</h2>
+
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl t-slide text-white flex-col justify-start  text-start">
         <div>
-            <h2 class="t-title font-bold">Children will be able to:</h2>
+            <h2 class="t-title ">Children will be able to:</h2>
             <ul class="list-disc ">
                 <li>Know that a Makey Makey Board is a circuit board that uses electricity to do work.</li>
                 <li>Know that a computer is needed in order to set up and an application is needed in order to "see" the use
@@ -16,9 +19,9 @@
             </ul>
         </div>
 
-        <div class="flex flex-col  items-start justify-between">
-            <h2 class="t-title font-bold">Keywords:</h2>
-            <div class="flex items-start gap-[60px]">
+        <div>
+            <h2 class="t-title ">Keywords:</h2>
+            <div class="flex items-start gap-[2vw]">
                 <ul class="list-disc ">
                     <li>Circuit</li>
                     <li>Electricity</li>
@@ -36,31 +39,29 @@
                 </ul>
             </div>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl t-slide text-white flex-col justify-start  text-start">
         <div class="space-y-10">
             <ul class="list-disc ">
-                <h2 class="font-bold t-title">Preparations:</h2>
+                <h2 class=" t-title">Preparations:</h2>
                 <li>A computer</li>
                 <li>A set of Makey Makey</li>
             </ul>
         </div>
         <img src="{{ asset('assets/images/K2/circuit/makey/m13.png') }}" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- sldie 3 --}}
-    <div class=" slide text-start text-2xl text-white space-y-10">
+    <div class=" slide text-start text-2xl t-slide text-white space-y-10">
         <div>
-            <h2 class="font-bold t-title">What you need to know or do before the lesson:</h2>
+            <h2 class=" t-title">What you need to know or do before the lesson:</h2>
             <ul class="list-disc pl-[50px]">
                 <li>Makey Makey is a set of electronic toy that allows you to create alternative keyboard for any computer
                     programme or application that accepts keyboard or mouse click inputs.</li>
@@ -70,15 +71,14 @@
             <img src="{{ asset('assets/images/K2/circuit/makey/m14.png') }}" />
         </div>
 
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- slide 4 --}}
-    <div class=" slide text-start text-2xl text-white space-y-10">
+    <div class=" slide text-start text-2xl t-slide text-white space-y-10">
         <div>
-            <h2 class="font-bold t-title">Things to note during hands-on session:</h2>
+            <h2 class=" t-title">Things to note during hands-on session:</h2>
             <ul class="list-disc pl-[50px]">
                 <li>Remind children not to touch any circuit parts when their hands are wet.</li>
                 <li>Remind children to handle the materials with care.</li>
@@ -88,57 +88,45 @@
             </ul>
         </div>
 
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- sldie 5 --}}
-    <div class="slide flex  flex-col justify-start  text-2xl text-start text-white w-[80%]">
-        <div class="flex w-[100%] items-center justify-between">
-            <div>
-                <h2 class="font-bold t-title">Notes:</h2>
-                <ul class="list-disc leading-relaxed">
-                    <li>
-                        If you see
-                        <span
-                            class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-                            <!-- Decorative Vector -->
-                            <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
-                                class="absolute top-[4px] left-[6px] h-6 w-[80%]" />
-                            <div class="absolute top-[7px] left-[12px] h-2.5 w-3.5 rounded-sm bg-white"></div>
-                            <img src="{{ asset('assets/images/pptimages/play.png') }}"
-                                class="absolute top-[16px] left-[16px] h-8 w-8" />
-                        </span>
-                        next to a picture, click on the picture to watch the video.
-                    </li>
-                    <li>Emphasise and use the <strong>keywords</strong> during hands-on sessions.</li>
-                    <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
-                    </li>
-                    <li>
-                        Click on this shortcut icon
-                        <span
-                            class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-                            <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
-                                class="absolute top-[4px] left-[6px] h-6 w-[80%]" />
-                            <div class="absolute top-[7px] left-[12px] h-2.5 w-3.5 rounded-sm bg-white"></div>
-                            <img src="{{ asset('assets/images/pptimages/home-icon.png') }}"
-                                class="absolute top-[16px] left-[16px] h-8 w-8" />
-                        </span>
-                        if you need to go to some parts of the lesson quickly.
-                    </li>
-                </ul>
-            </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1"
-                alt="Teacher" />
+    <div class="slide flex  flex-col justify-start  text-2xl t-slide text-start text-white w-[80%]">
+        <div>
+            <h2 class=" t-title">Notes:</h2>
+            <ul class="list-disc leading-relaxed">
+                <li class="flex">
+                    If you see
+                    <span>
+                        <img src="{{ asset('assets/images/pptimages/video.png') }}" />
+                    </span>
+                    next to a picture, click on the picture to watch the video.
+                </li>
+                <li>Emphasise and use the <strong>keywords</strong> during hands-on sessions.</li>
+                <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
+                </li>
+                <li class="flex">
+                    Click on this shortcut icon
+                    <span>
+                        <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+                    </span>
+                    if you need to go to some parts of the lesson quickly.
+                </li>
+            </ul>
         </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="Teacher" />
     </div>
+
+
+
+
     {{-- ========================================================== --}}
     {{-- Buttons --}}
     <div class="down-btn-container">
-        <button
-         class="doneButton">
- <img src="{{ asset('assets/images/pptimages/done.png') }}" />
+        <button class="doneButton">
+            <img src="{{ asset('assets/images/pptimages/done.png') }}" />
         </button>
     </div>
 
@@ -146,32 +134,25 @@
 
         <!-- Return Button -->
         <a id="returnButton">
- <img
-    src="{{ asset('assets/images/pptimages/return.png') }}" />
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
 
         <!-- Home Button -->
-        <button
-     id="homeButton">
-            <img 
-                src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
         <button id="closeButton">
-           
-            <img 
-                src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-    
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
         </button>
 
     </div>
 
     {{-- next Button --}}
     <div class="down-btn-container">
-        <button
-            class="nextButton">
- <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
+        <button class="nextButton">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
         </button>
     </div>
 @endsection

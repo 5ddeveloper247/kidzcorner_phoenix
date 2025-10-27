@@ -2,10 +2,14 @@
 @section('title', 'Dynamic Presentation')
 
 @section('content')
+    {{-- title --}}
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">Machines and Electricity</h2>
+
+
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start">
         <div>
-            <h2 class="t-title font-bold">Children will be able to:</h2>
+            <h2 class="t-title ">Children will be able to:</h2>
             <ul class="list-disc ">
                 <li>Know that many things around us are machines</li>
                 <li>Know that many machines need the power of electricity to do work</li>
@@ -14,8 +18,8 @@
             </ul>
         </div>
 
-        <div class="flex flex-col  items-start justify-between">
-            <h2 class="t-title font-bold">Keywords:</h2>
+        <div>
+            <h2 class="t-title ">Keywords:</h2>
             <ul class="list-disc ">
                 <li>Machines</li>
                 <li>Electricity</li>
@@ -24,16 +28,15 @@
                 <li>Battery</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start">
         <div class="space-y-10">
-            <h2 class="font-bold t-title">Preparations:</h2>
+            <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
                 <li>Pencils and coloured pencils</li>
                 <li>Big papers (to record children's findings during hands-on sessions)</li>
@@ -55,15 +58,14 @@
                 <li>Read the learning points (2 pages) of this lesson beforehand.</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- sldie 3 --}}
-    <div class=" slide text-start text-2xl text-white">
+    <div class=" slide text-start text-2xl t-slide text-white">
         <div>
-            <h2 class="font-bold t-title">Electrical safety tips:</h2>
+            <h2 class=" t-title">Electrical safety tips:</h2>
             <ul class="list-disc pl-[50px]">
                 <li>Never play with electricity.</li>
                 <li>Never stick anything but a proper plug into a socket.</li>
@@ -80,27 +82,20 @@
             </ul>
         </div>
 
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- slide 4 --}}
-    <div class="slide flex  flex-col justify-start  text-2xl text-start text-white w-[80%]">
+    <div class="slide flex  flex-col t-slide justify-start  text-2xl text-start text-white w-[80%]">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold t-title">Notes:</h2>
+                <h2 class=" t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
                     <li>
                         If you see
-                        <span
-                            class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-                            <!-- Decorative Vector -->
-                            <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
-                                class="absolute top-[4px] left-[6px] h-6 w-[80%]" />
-                            <div class="absolute top-[7px] left-[12px] h-2.5 w-3.5 rounded-sm bg-white"></div>
-                            <img src="{{ asset('assets/images/pptimages/play.png') }}"
-                                class="absolute top-[16px] left-[16px] h-8 w-8" />
+                        <span>
+                            <img src="{{ asset('assets/images/pptimages/video.png') }}" />
                         </span>
                         next to a picture, click on the picture to watch the video.
                     </li>
@@ -109,62 +104,49 @@
                     </li>
                     <li>
                         Click on this shortcut icon
-                        <span
-                            class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-                            <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
-                                class="absolute top-[4px] left-[6px] h-6 w-[80%]" />
-                            <div class="absolute top-[7px] left-[12px] h-2.5 w-3.5 rounded-sm bg-white"></div>
-                            <img src="{{ asset('assets/images/pptimages/home-icon.png') }}"
-                                class="absolute top-[16px] left-[16px] h-8 w-8" />
+                        <span>
+                            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
                         </span>
                         if you need to go to some parts of the lesson quickly.
                     </li>
                 </ul>
             </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1"
-                alt="Teacher" />
+            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="Teacher" />
         </div>
     </div>
     {{-- ========================================================== --}}
     {{-- Buttons --}}
     <div class="down-btn-container">
-        <button
-         class="doneButton">
- <img src="{{ asset('assets/images/pptimages/done.png') }}" />
+        <button class="doneButton">
+            <img src="{{ asset('assets/images/pptimages/done.png') }}" />
         </button>
     </div>
 
     <div id="buttons" class="absolute  flex flex-row gap-6 z-90">
 
         <!-- Return Button -->
-        <a 
-    id="returnButton">
+        <a id="returnButton">
 
-            <img 
-                src="{{ asset('assets/images/pptimages/return.png') }}" />
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
         <!-- Home Button -->
-        <button
-     id="homeButton">
-            <img 
-                src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
         <button id="closeButton">
-           
-            <img 
-                src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-    
+
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
+
         </button>
 
     </div>
 
     {{-- next Button --}}
     <div class="down-btn-container">
-        <button
-            class="nextButton">
- <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
+        <button class="nextButton">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
         </button>
     </div>
 @endsection
@@ -205,17 +187,17 @@
                 });
             });
 
-              //   Return button - redirect if on first slide, otherwise go back
-        returnButton.addEventListener("click", () => {
-            if (currentSlide === 0) {
-                //   First slide pe hai →  
-                window.location.href = "{{ route('YourRouteNameHere') }}";
-            } else {
-                //   Previous slide pe jao
-                currentSlide--;
-                showSlide(currentSlide);
-            }
-        });
+            //   Return button - redirect if on first slide, otherwise go back
+            returnButton.addEventListener("click", () => {
+                if (currentSlide === 0) {
+                    //   First slide pe hai →  
+                    window.location.href = "{{ route('electricitySelection') }}";
+                } else {
+                    //   Previous slide pe jao
+                    currentSlide--;
+                    showSlide(currentSlide);
+                }
+            });
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {

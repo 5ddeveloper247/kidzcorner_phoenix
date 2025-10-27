@@ -8,7 +8,7 @@
 
     <div id="topDiv" class="flex flex-col   items-center ">
         <div class="  text-[#F7B94A] text-[50px] font-extrabold stroke">Domino Fun</div>
-        <h2 class="text-2xl sm:text-3xl lg:text-5xl text-white stroke ">
+        <h2 class=" text-white stroke ">
             Explore domino effects and basic domino
             arrangements that create domino effects </h2>
 
@@ -35,9 +35,7 @@
 
         <!-- Close Button -->
         <button id="closeButton">
-
             <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-
         </button>
 
     </div>

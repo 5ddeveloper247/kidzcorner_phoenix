@@ -2,14 +2,13 @@
 @section('title', 'Dynamic Presentation')
 
 
-
-
-
 @section('content')
+    {{-- title --}}
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">Coding Challenge (2)</h2>
 
 
     {{-- Slide 1 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
+    <div class="slide flex flex-col items-center justify-center  ">
         <img src="/assets/images/K1/coding/challenge2/ch1.png" />
         <h2 class="title stroke">Children, what are these?</h2>
         <p class="note">Note: Have children name the different shapes and talk about the characteristics of each.</p>
@@ -18,7 +17,7 @@
 
 
     {{-- Slide 2 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
+    <div class="slide flex flex-col items-center justify-center  ">
         <img src="/assets/images/K1/coding/challenge2/ch2.png" />
         <h2 class="title stroke">We’ll use these shapes to play a coding game today! <br>
             Are you ready?</h2>
@@ -26,8 +25,8 @@
 
 
     {{-- Slide3 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <img src="/assets/images/K1/coding/challenge2/ch3.png" />
+    <div class="slide hidden flex flex-col items-center justify-center ">
+        <img src="/assets/images/K1/coding/challenge2/ch3.png" class="!w-[16vw]" />
         <h2 class="text-center title stroke">The robot is going on a shape hunt.
             Can you plan a route for it to hunt for all the shapes?</h2>
         <p class="note">Note: If needed, reduce the number of coloured shapes on the mat to adjust the level of
@@ -35,7 +34,7 @@
     </div>
 
     {{-- slide 4 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
+    <div class="slide hidden flex flex-col items-center justify-between h-[45vh] ">
         <h2 class="text-center justify-start text-[45px] text-white stroke">Hands-on Time 1</h2>
         <h2 class="text-start title stroke">Mission: <br>
             Plan a route for a robot to hunt for all the shapes. Use <br>
@@ -53,7 +52,7 @@
             <li>1.What is the arrangement of shapes on your coding mat?
                 Plot them in your learning journal.</li>
         </ol>
-        <img src="/assets/images//K1/coding/challenge2/ch4.png" />
+        <img src="/assets/images//K1/coding/challenge2/ch4.png" class="!w-[15vw]" />
         <p class="note text-center">Note: Have children copy the arrangement of shapes in their learning journal.</p>
     </div>
 
@@ -66,7 +65,7 @@
             <li>2. How do you plan the route? Draw arrows to show the route
                 in your learning journal.</li>
         </ol>
-        <img src="/assets/images//K1/coding/challenge2/ch4.png" />
+        <img src="/assets/images//K1/coding/challenge2/ch4.png" class="!w-[16vw]" />
         <p class="note text-center">Note: Have children copy the arrangement of shapes in their learning journal.</p>
     </div>
 
@@ -79,12 +78,12 @@
                 move according to the planned route.</li>
         </ol>
         <div class="flex items-center gap-10">
-            <img src="/assets/images//K1/coding/challenge2/ch4.png" />
-            <div class="flex flex-col items-start gap-5">
-                <div class="flex items-center gap-5">
-                    <img src="/assets/images//K1/coding/challenge1/ch5.png" />
+            <img src="/assets/images//K1/coding/challenge2/ch4.png" class="!w-[16vw]" />
+            <div class="flex flex-col items-start ">
+                <div class="flex items-center ">
+                    <img src="/assets/images//K1/coding/challenge1/ch5.png" class="!w-[6vw]"/>
                     <img src="/assets/images//K1/coding/challenge1/ch4.png" />
-                    <img src="/assets/images//K1/coding/challenge1/ch6.png" />
+                    <img src="/assets/images//K1/coding/challenge1/ch6.png" class="!w-[2vw]" />
                 </div>
                 <img src="/assets/images//K1/coding/challenge1/ch7.png" />
             </div>
@@ -102,8 +101,8 @@
                 planned route.</li>
         </ol>
         <div class="flex items-center gap-10">
-            <img src="/assets/images//K1/coding/challenge2/ch4.png" />
-            <img src="/assets/images//K1/coding/challenge1/ch8.png" />
+            <img src="/assets/images//K1/coding/challenge2/ch4.png" class="!w-[15vw]" />
+            <img src="/assets/images//K1/coding/challenge1/ch8.png" class="!w-[15vw]" />
         </div>
         <p class="note text-center">Note: Have children work out the programming steps in Blockly and show the rest.</p>
     </div>
@@ -117,16 +116,16 @@
                 the sound?</li>
         </ol>
         <div class="flex items-center gap-10">
-            <img src="/assets/images//K1/coding/challenge2/ch4.png" />
-            <img src="/assets/images//K1/coding/challenge1/ch8.png" />
+            <img src="/assets/images//K1/coding/challenge2/ch4.png" class="!w-[15vw]" />
+            <img src="/assets/images//K1/coding/challenge1/ch8.png" class="!w-[15vw]" />
         </div>
         <p class="note text-center">Note: Remind children that they need to first record the names of different shapes and
-            then think of where <br>
+            then think of where 
             to insert the programming block of each sound into their programme (what is the order of steps).</p>
     </div>
 
     {{-- slide 10 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
+    <div class="slide flex flex-col items-center justify-center  ">
         <img src="/assets/images//K1/coding/challenge2/ch5.png" />
         <h2 class="title stroke">The robot is going to hunt the shapes based on an order of
             colours. Can you plan a new route for it?</h2>
@@ -136,7 +135,7 @@
 
 
     {{-- slide 11 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
+    <div class="slide hidden flex flex-col items-center justify-between h-[50vh] ">
         <h2 class="text-center justify-start text-[45px] text-white stroke">Hands-on Time 2</h2>
         <h2 class="text-start title stroke">Mission: <br>
             Plan a new route for a robot to hunt for all shapes. Use Blockly
@@ -150,7 +149,7 @@
             <h2>Steps:</h2>
             <li>1.What is the arrangement of shapes on your coding mat? Plot them in your learning journal.</li>
         </ol>
-        <img src="/assets/images/K1/coding/challenge2/ch4.png" />
+        <img src="/assets/images/K1/coding/challenge2/ch4.png" class="!w-[16vw]" />
         <p class="note text-center">Note: Have children copy the arrangement of shapes in their learning journal.</p>
     </div>
 
@@ -189,13 +188,13 @@
         </ol>
         <div class="flex items-center gap-10">
             <img src="/assets/images//K1/coding/challenge2/ch8.png" />
-            <div class="flex flex-col items-start gap-5">
-                <div class="flex items-center gap-5">
-                    <img src="/assets/images//K1/coding/challenge1/ch5.png" />
+            <div class="flex flex-col items-start ">
+                <div class="flex items-center ">
+                    <img src="/assets/images//K1/coding/challenge1/ch5.png" class="!w-[6vw]" />
                     <img src="/assets/images//K1/coding/challenge1/ch4.png" />
-                    <img src="/assets/images//K1/coding/challenge1/ch6.png" />
+                    <img src="/assets/images//K1/coding/challenge1/ch6.png" class="!w-[2vw]" />
                 </div>
-                <img src="/assets/images//K1/coding/challenge1/ch7.png" />
+                <img src="/assets/images//K1/coding/challenge1/ch7.png"/>
             </div>
         </div>
         <p class="note text-center">Note: Have children lay out the steps in their learning journal. Check the steps and
@@ -211,8 +210,8 @@
                 the planned route.</li>
         </ol>
         <div class="flex items-center gap-10">
-            <img src="/assets/images//K1/coding/challenge2/ch8.png"class="w-[500px]" />
-            <img src="/assets/images//K1/coding/challenge1/ch8.png"class="w-[500px]" />
+            <img src="/assets/images//K1/coding/challenge2/ch8.png"class="!w-[14vw]" />
+            <img src="/assets/images//K1/coding/challenge1/ch8.png"class="!w-[14vw]" />
         </div>
         <p class="note text-center">Note: Have children decide a route and work in groups to work out the programming steps
             in Blockly.</p>
@@ -226,8 +225,8 @@
             <li>6. Add in the sound and light each time the robot finds a coloured shape.</li>
         </ol>
         <div class="flex items-center gap-10">
-            <img src="/assets/images//K1/coding/challenge2/ch8.png" class="w-[500px]" />
-            <img src="/assets/images//K1/coding/challenge1/ch8.png" class="w-[500px]" />
+            <img src="/assets/images//K1/coding/challenge2/ch8.png" class="!w-[14vw]" />
+            <img src="/assets/images//K1/coding/challenge1/ch8.png" class="!w-[14vw]" />
         </div>
         <p class="note text-center">Note: Remind children that they need to first record the names of different coloured
             shapes and then think of where to insert the programming block of each sound and light into their programme
@@ -236,20 +235,20 @@
 
 
     {{-- sldie 18 --}}
-    <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
+    <div class="slide  hidden flex flex-col items-center justify-center ">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[836px] h-[536px] bg-cover bg-center flex flex-col justify-center items-center"
+        <div class="w-[40vw] h-[40vh] bg-cover bg-center flex flex-col justify-center items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>What is the arrangement of colours on your coding mat? Plot them here. How do you plan
                 the route for a robot to hunt for all the shapes? Draw arrows to show the route.</p>
-            <img src="/assets/images/K1/coding/challenge1/ch2.png" />
+            <img src="/assets/images/K1/coding/challenge1/ch2.png" class="!w-[15vw]" />
         </div>
     </div>
 
     {{-- sldie 19 --}}
-    <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
+    <div class="slide  hidden flex flex-col items-center justify-center ">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[836px] h-[536px] bg-cover bg-center flex flex-col justify-start items-center"
+        <div class="w-[40vw] h-[40vh] bg-cover bg-center flex flex-col justify-start items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>How does a robot move according to the planned route? Use coding cards to
                 lay out the steps.</p>
@@ -257,17 +256,17 @@
     </div>
 
     {{-- slide 20  --}}
-    <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
+    <div class="slide  hidden flex flex-col items-center justify-center ">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[836px] h-[536px] bg-cover bg-center flex flex-col justify-center items-center gap-10"
+        <div class="w-[40vw] h-[40vh] bg-cover bg-center flex flex-col justify-center items-center gap-10"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>What is the arrangement of shapes on your coding mat? Plot them here. What is the
                 hunting order based on colours? Record them. How do you plan the route for a robot to
                 hunt for all the shapes? Draw arrows to show the route.</p>
-            <div class="flex items-center gap-5">
+            <div class="flex items-center ">
                 <div class="justify-start ">What is the hunting order<br />based
                     on colours?<br /> 1 - <br /> 2 - <br /> 3 - </div>
-                <img src="/assets/images/K1/coding/challenge1/ch2.png" class="w-[400px]" />
+                <img src="/assets/images/K1/coding/challenge1/ch2.png" class="!w-[14vw]" />
             </div>
         </div>
     </div>
@@ -291,34 +290,27 @@
     {{-- ====================================== --}}
     {{-- Buttons --}}
     <div class="down-btn-container">
-        <button
-         class="doneButton">
- <img src="{{ asset('assets/images/pptimages/done.png') }}" />
+        <button class="doneButton">
+            <img src="{{ asset('assets/images/pptimages/done.png') }}" />
         </button>
     </div>
 
 
- <div id="buttons" class="absolute  flex flex-row gap-6 ">
+    <div id="buttons" class="absolute  flex flex-row gap-6 ">
 
         <!-- Return Button -->
         <a id="returnButton">
- <img
-    src="{{ asset('assets/images/pptimages/return.png') }}" />
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
 
         <!-- Home Button -->
-        <button
-     id="homeButton">
-            <img 
-                src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
         <button id="closeButton">
-           
-            <img 
-                src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-    
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
         </button>
 
     </div>
@@ -326,9 +318,8 @@
     {{-- next Button --}}
     <div class="down-btn-container">
 
-        <button
-            class="nextButton">
- <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
+        <button class="nextButton">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
         </button>
     </div>
 
@@ -373,17 +364,17 @@
                 });
             });
 
-              //   Return button - redirect if on first slide, otherwise go back
-        returnButton.addEventListener("click", () => {
-            if (currentSlide === 0) {
-                //   First slide pe hai →  
-                window.location.href = "{{ route('YourRouteNameHere') }}";
-            } else {
-                //   Previous slide pe jao
-                currentSlide--;
-                showSlide(currentSlide);
-            }
-        });
+            //   Return button - redirect if on first slide, otherwise go back
+            returnButton.addEventListener("click", () => {
+                if (currentSlide === 0) {
+                    //   First slide pe hai →  
+                    window.location.href = "{{ route('challenge2Selection') }}";
+                } else {
+                    //   Previous slide pe jao
+                    currentSlide--;
+                    showSlide(currentSlide);
+                }
+            });
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {

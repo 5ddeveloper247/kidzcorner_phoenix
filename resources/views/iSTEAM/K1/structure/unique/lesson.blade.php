@@ -1,11 +1,12 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
- 
-@section('content')
 
+@section('content')
+    {{-- title --}}
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">Unique Buildings</h2>
 
     {{-- Slide 1 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
+    <div class="slide flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/str/u1.png" />
         <h2 class="title stroke">Children, buildings are common structures around us.
             Do you still remember who designs buildings?</h2>
@@ -14,7 +15,7 @@
 
 
     {{-- Slide 2 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
+    <div class="slide flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/str/u2.png" />
         <h2 class="title stroke">AChildren, buildings are common structures around us.
             Do you still remember who designs buildings?</h2>
@@ -23,7 +24,7 @@
 
 
     {{-- Slide3 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
+    <div class="slide flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/str/u3.png" />
         <h2 class="title stroke">Architects draw a plan to design
             the look and space of building.</h2>
@@ -42,7 +43,7 @@
     {{-- Slide 5  --}}
     <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
         <img src="/assets/images/K1/str/u3.png" />
-        <h2 class="text-start title stroke">Engineers look through the plan to come out with
+        <h2 class=" title stroke">Engineers look through the plan to come out with
             ideas to bring the design to life.</h2>
     </div>
 
@@ -51,7 +52,7 @@
     {{-- slide 6 --}}
     <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
         <img src="/assets/images/K1/str/st2.png" />
-        <h2 class="text-start title stroke">Some architects design interesting looking buildings to
+        <h2 class=" title stroke">Some architects design interesting looking buildings to
             make the buildings unique and standout.</h2>
     </div>
 
@@ -63,7 +64,7 @@
                 Building.</p>
             <img src="/assets/images//K1/str/u5.png" />
         </div>
-        <h2 class="text-start title stroke">The building in America is unique because it is designed
+        <h2 class=" title stroke">The building in America is unique because it is designed
             based on the basket that the company produced.</h2>
     </div>
 
@@ -75,7 +76,7 @@
                 Al Arab!</p>
             <img src="/assets/images//K1/str/u6.png" />
         </div>
-        <h2 class="text-start title stroke">The building in Dubai is unique because it is designed
+        <h2 class=" title stroke">The building in Dubai is unique because it is designed
             to look like the sail of a ship.</h2>
     </div>
 
@@ -90,7 +91,7 @@
                 House!</p>
             <img src="/assets/images//K1/str/u7.png" />
         </div>
-        <h2 class="text-start title stroke">The building in Prague is unique because it is designed
+        <h2 class=" title stroke">The building in Prague is unique because it is designed
             to look like a pair of dancers.</h2>
     </div>
 
@@ -103,7 +104,7 @@
                 House!</p>
             <img src="/assets/images//K1/str/u7.png" />
         </div>
-        <h2 class="text-start title stroke">The building in Prague is unique because it is designed
+        <h2 class=" title stroke">The building in Prague is unique because it is designed
             to look like a pair of dancers.</h2>
     </div>
 
@@ -116,7 +117,7 @@
                 Building!</p>
             <img src="/assets/images//K1/str/u8.png" />
         </div>
-        <h2 class="text-start title stroke">The building in Bangkok is unique because it is designed
+        <h2 class=" title stroke">The building in Bangkok is unique because it is designed
             to look like an elephant.</h2>
     </div>
 
@@ -129,13 +130,13 @@
                 known as the
                 Leaning Tower
                 of Abu Dhabi!</p>
-            <img src="/assets/images//K1/str/u9.png" />
+            <img src="/assets/images//K1/str/u9.png" class="!max-w-[15vw]" />
             <p class="note w-[120px]">It leans four
                 times more than
                 the Leaning
                 Tower of Pisa!</p>
         </div>
-        <h2 class="text-start title stroke">This building in Abu Dhabi is unique because it is designed
+        <h2 class=" title stroke">This building in Abu Dhabi is unique because it is designed
             to lean west.</h2>
     </div>
 
@@ -149,12 +150,12 @@
                 the Hive!</p>
             <img src="/assets/images//K1/str/u10.png" />
         </div>
-        <h2 class="text-start title stroke">The building in Singapore is unique because it looks like
+        <h2 class=" title stroke">The building in Singapore is unique because it looks like
             a cluster of elongated bee hives. </h2>
     </div>
 
     {{-- slide 14 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-20">
+    <div class="slide hidden flex flex-col items-center justify-between h-[50vh]">
         <h2 class="text-center justify-start text-[45px] text-white stroke">Small Group Activity </h2>
         <h2 class="text-start title stroke">Mission: <br>
             Let’s design and build a unique building using the straws and pipe cleaners.</h2>
@@ -184,7 +185,7 @@
     {{-- slide 16 --}}
     <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[836px] h-[536px] bg-cover bg-center flex flex-col justify-between items-start"
+        <div class="w-[40vw] h-[40vh] bg-cover bg-center flex flex-col justify-between text-start"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>Design a unique building. Draw it.</p>
             <p>What is the name of your building?___________________________________________________</p>
@@ -202,34 +203,27 @@
     {{-- ====================================== --}}
     {{-- Buttons --}}
     <div class="down-btn-container">
-        <button
-         class="doneButton">
- <img src="{{ asset('assets/images/pptimages/done.png') }}" />
+        <button class="doneButton">
+            <img src="{{ asset('assets/images/pptimages/done.png') }}" />
         </button>
     </div>
 
 
- <div id="buttons" class="absolute  flex flex-row gap-6 ">
+    <div id="buttons" class="absolute  flex flex-row gap-6 ">
 
         <!-- Return Button -->
-        <a 
-    id="returnButton">
+        <a id="returnButton">
 
-            <img 
-                src="{{ asset('assets/images/pptimages/return.png') }}" />
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
         <!-- Home Button -->
-        <button
-          id="homeButton">
-            <img 
-                src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
         <button id="closeButton">
-           
-<img  src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-   
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
         </button>
 
     </div>
@@ -237,9 +231,8 @@
     {{-- next Button --}}
     <div class="down-btn-container">
 
-        <button
-            class="nextButton ">
-                        <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
+        <button class="nextButton ">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
 
         </button>
     </div>
@@ -285,17 +278,17 @@
                 });
             });
 
-              //   Return button - redirect if on first slide, otherwise go back
-        returnButton.addEventListener("click", () => {
-            if (currentSlide === 0) {
-                //   First slide pe hai →  
-                window.location.href = "{{ route('YourRouteNameHere') }}";
-            } else {
-                //   Previous slide pe jao
-                currentSlide--;
-                showSlide(currentSlide);
-            }
-        });
+            //   Return button - redirect if on first slide, otherwise go back
+            returnButton.addEventListener("click", () => {
+                if (currentSlide === 0) {
+                    //   First slide pe hai →  
+                    window.location.href = "{{ route('uniqueSelection') }}";
+                } else {
+                    //   Previous slide pe jao
+                    currentSlide--;
+                    showSlide(currentSlide);
+                }
+            });
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {

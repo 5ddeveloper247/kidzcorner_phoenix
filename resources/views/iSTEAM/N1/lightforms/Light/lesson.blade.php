@@ -36,7 +36,7 @@
     {{-- Slide 4 --}}
     <div class=" slide hidden flex flex-col items-center justify-center gap-5">
 
-        <h2 class="text-2xl sm:text-3xl lg:text-5xl text-white max-w-4xl   stroke">
+        <h2 class=" text-white max-w-4xl   stroke">
             The <span class="text-[#F7B94A]">sun</span> is so <span class="text-[#F7B94A]">bright!</span></br>
             It gives <span class="text-[#F7B94A]">light</span> during the day!
         </h2>
@@ -279,9 +279,7 @@
 
         <!-- Close Button -->
         <button id="closeButton">
-
             <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-
         </button>
 
     </div>

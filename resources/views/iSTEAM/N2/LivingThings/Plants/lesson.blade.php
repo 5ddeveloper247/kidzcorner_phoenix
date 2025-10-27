@@ -145,7 +145,7 @@
             (stems move up and roots m
             ove down)</p>
         {{-- Video Toggle Button --}}
-        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -157,7 +157,7 @@
         <p class="note">Note: Guide ch
             ildren to understand that plants move by themselves when their flowers bloom.</p>
         {{-- Video Toggle Button --}}
-        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -171,7 +171,7 @@
             sunflower plants move by t
             hemselves to follow the sun as it moves across the sky,</p>
         {{-- Video Toggle Button --}}
-        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -185,7 +185,7 @@
             rain and animals.</p>
 
         {{-- Video Toggle Button --}}
-        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -584,9 +584,7 @@
 
         <!-- Close Button -->
         <button id="closeButton">
-
             <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-
         </button>
 
     </div>
