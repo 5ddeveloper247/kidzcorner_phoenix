@@ -3,7 +3,7 @@
  
 @section('content')
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -19,7 +19,7 @@
         </div>
 
         <div class="flex flex-col  items-start justify-between">
-            <h2 class="t-title font-bold">Keywords:</h2>
+            <h2 class="t-title ">Keywords:</h2>
             <div >
                 <ul class="list-disc ">
                     <li>Fingerprint</li>
@@ -42,9 +42,9 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Preparations for Individual Activity - Which fingerprint pattern do you have on each
+            <h2 class=" t-title">Preparations for Individual Activity - Which fingerprint pattern do you have on each
                 finger? :</h2>
             <ul class="list-disc ">
                 <li>A few magnifying glasses (optional; use in case children cannot
@@ -60,9 +60,9 @@
 
 
     {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-center gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-center  text-start">
         <div>
-            <h2 class="font-bold t-title">Preparations for Group Activity - Fingerprint Patterns Of The Class:</h2>
+            <h2 class=" t-title">Preparations for Group Activity - Fingerprint Patterns Of The Class:</h2>
             <ul class="list-disc">
                 <li>2 sheets of big papers (based on the number of children in the class,
                     draw a table as shown below in a paper beforehand; you are going to
@@ -80,7 +80,7 @@
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold t-title">Notes:</h2>
+                <h2 class=" t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
                     <li>
                         If you see
@@ -119,7 +119,7 @@
 
 
     {{-- slide 5 --}}
-    <div class="text-white flex flex-col items-center justify-center gap-y-10 text-start text-2xl slide hidden">
+    <div class="text-white flex flex-col items-center justify-center  text-start text-2xl slide hidden">
         <h2 class=" title stroke">Learning Centre Idea</h2>
         <div class="flex flex-col gap-10">
             <ul>
@@ -143,7 +143,7 @@
 
 
     {{-- slide 6 --}}
-    <div class="text-white flex flex-col items-center justify-center gap-y-10 text-start text-2xl slide hidden">
+    <div class="text-white flex flex-col items-center justify-center  text-start text-2xl slide hidden">
         <h2 class=" title stroke">Learning Centre Idea</h2>
         <div>
             <ul class="list-disc">
@@ -159,7 +159,7 @@
     </div>
 
     {{-- slide 7 --}}
-    <div class="text-white flex flex-col items-center justify-center gap-y-10 text-start text-2xl slide hidden">
+    <div class="text-white flex flex-col items-center justify-center  text-start text-2xl slide hidden">
         <h2 class=" title stroke">Learning Centre Idea</h2>
         <div>
             <ul class="list-disc">

@@ -8,7 +8,7 @@
 
 
     {{-- sldie 23  --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title ">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -37,7 +37,7 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start gap-y-10 text-start w-[75%]">
+    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start ">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
@@ -53,7 +53,7 @@
 
 
     {{-- slide 3 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start gap-y-10 text-start w-[75%]">
+    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start ">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
@@ -68,7 +68,7 @@
 
 
     {{-- slide 4 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start gap-y-10 text-start w-[75%]">
+    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start ">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
@@ -83,7 +83,7 @@
 
 
     {{-- slide 5 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start gap-y-10 text-start w-[75%]">
+    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start ">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
@@ -100,7 +100,7 @@
     </div>
 
     {{-- slide 6 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start gap-y-10 text-start w-[75%]">
+    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start ">
         <div>
             <h2 class=" t-title">What you need to know before the lesson:</h2>
             <ul class="list-disc ">

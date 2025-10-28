@@ -73,7 +73,7 @@
 
             <table class="w-full h-full border border-black border-collapse text-lg text-start font-sans table-fixed">
                 <thead>
-                    <tr class=" font-bold">
+                    <tr class=" ">
                         <th class="border border-black text-[.8vw] p-[.6vw] w-1/2">Plants</th>
                         <th class="border border-black text-[.8vw] p-[.6vw] w-1/2">✓</th>
                     </tr>
@@ -117,7 +117,7 @@
 
             <table class="w-full border border-black border-collapse text-lg text-start font-sans table-fixed">
                 <thead>
-                    <tr class="font-bold t-title">
+                    <tr class=" t-title">
                         <th class="border border-black text-[.8vw] p-[.6vw] w-1/2">Plants</th>
                         <th class="border border-black text-[.8vw] p-[.6vw] w-1/2"></th>
                     </tr>

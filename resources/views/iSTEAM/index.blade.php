@@ -70,7 +70,7 @@
 @section('content')
     <div id="preloader">
         <video id="preloaderVideo" autoplay playsinline>
-            <source src="{{ asset('assets/images/pptimages/preloader.mp4') }}" type="video/mp4">
+            <source src="{{ asset('assets/images/pptimages/preloader2.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
     </div>
@@ -118,16 +118,19 @@
 
 
 <script>
-    document.addEventListener("DOMContentLoaded", function() {
+    document.addEventListener("DOMContentLoaded", () => {
         const preloader = document.getElementById("preloader");
         const pageContent = document.querySelector(".page-content");
+        const video = document.querySelector("video");
 
-        // ⏱ Hide preloader after 2 seconds
+        // Mute the video after 7 seconds
+        setTimeout(() => video.muted = true, 9000);
+
+        // Hide preloader and show content after 7 seconds
         setTimeout(() => {
             preloader.classList.add("hidden");
-            setTimeout(() => {
-                pageContent.classList.add("visible");
-            }, 800);
-        }, 5000);
+            preloader.classList.add("muted");
+            pageContent.classList.add("visible");
+        }, 8000);
     });
 </script>

@@ -3,7 +3,7 @@
 
 @section('content')
     {{-- slide 1 --}}
-    <div class="flex flex-col justify-start gap-y-10 text-start text-2xl text-white slide hidden t-slide">
+    <div class="flex flex-col justify-start  text-start text-2xl text-white slide hidden t-slide">
         <div>
             <h2 class="t-title >Children will be able to:</h2>
             <ul class="list-disc">

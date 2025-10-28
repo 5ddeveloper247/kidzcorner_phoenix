@@ -65,7 +65,7 @@
 
     {{-- Slide 7 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <h2 class="title stroke !text-white  font-bold">Small Group Activity</h2>
+        <h2 class="title stroke !text-white  ">Small Group Activity</h2>
         <img src="/assets/images/K2/livingthings/killing/k7.png" />
 
         <h2 class="title stroke !text-start">Let's find out: <br>
@@ -213,7 +213,7 @@
             <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" />
             </div>
             <span
-                class="absolute left-[80px] top-[18px] flex items-center  text-white text-5xl font-bold stroke">DONE</span>
+                class="absolute left-[80px] top-[18px] flex items-center  text-white text-5xl  stroke">DONE</span>
         </button>
     </div>
 

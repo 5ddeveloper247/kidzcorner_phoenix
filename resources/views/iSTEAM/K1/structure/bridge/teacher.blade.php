@@ -22,7 +22,7 @@
         </div>
 
         <div>
-            <h2 class="t-title font-bold">Keywords:</h2>
+            <h2 class="t-title ">Keywords:</h2>
 
             <div>
                 <ul class="list-disc ">
@@ -46,7 +46,7 @@
     {{-- slide 2 --}}
     <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Information of a standard beam bridge:</h2>
+            <h2 class=" t-title">Information of a standard beam bridge:</h2>
             <ul class="list-disc ">
                 <li>The bridge spans at least 35cm with a width of around 10cm.</li>
                 <li>The bridge will sit on a gap of 25cm for the bridge test.</li>
@@ -83,7 +83,7 @@
     {{-- sldie 4 --}}
     <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Things to consider during hands-on sessions:</h2>
+            <h2 class=" t-title">Things to consider during hands-on sessions:</h2>
             <ul class="list-disc ">
                 <li>Ask questions to prompt children share and try out their ideas. Some possible
                     questions are listed in the lesson, you may add on questions based on children's
@@ -112,7 +112,7 @@
     {{-- sldie 4 --}}
     <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Possible questions for reflection:</h2>
+            <h2 class=" t-title">Possible questions for reflection:</h2>
             <ul class="list-disc ">
                 <li>Did you succeed in building a bridge that can hold up more weight? How much
                     weight can the bridge hold up before and after you built the structure above or
@@ -136,7 +136,7 @@
     {{-- sldie 5 --}}
     <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Useful information:</h2>
+            <h2 class=" t-title">Useful information:</h2>
             <ul class="list-disc ">
                 <li>Bridges bridge a gap between the banks of a river or span the distance between
                     two sides of a valley.</li>
@@ -163,7 +163,7 @@
     {{-- sldie 6 --}}
     <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Useful information:</h2>
+            <h2 class=" t-title">Useful information:</h2>
             <ul class="list-disc ">
                 <li>A cable-stayed bridge is a kind of suspension bridge, It is a long bridge using
                     cables to form triangles to support weight. The cables that supporting a cable-

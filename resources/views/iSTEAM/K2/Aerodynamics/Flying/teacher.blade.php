@@ -3,9 +3,9 @@
  
 @section('content')
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
-            <h2 class="t-title font-bold">Children will be able to:</h2>
+            <h2 class="t-title ">Children will be able to:</h2>
             <ul class="list-disc ">
                 <li>Recall the use of aerodynamics in aeroplanes and other vehicles</li>
                 <li>Learn how rockets and space shuttles use aerodynamics to help them move</li>
@@ -15,7 +15,7 @@
         </div>
 
         <div class="flex flex-col  items-start justify-between">
-            <h2 class="t-title font-bold">Keywords:</h2>
+            <h2 class="t-title ">Keywords:</h2>
             <div class="flex gap-[10rem]">
                 <ul class="list-disc ">
                     <li>Aerodynamics</li>
@@ -42,10 +42,10 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div class="space-y-10">
             <ul class="list-disc ">
-                <h2 class="font-bold t-title">Preparations:</h2>
+                <h2 class=" t-title">Preparations:</h2>
                 <h2>Final Project</h2>
                 <li>Materials you can prepare (this is not an exhaustive list):</li>
             </ul>
@@ -91,7 +91,7 @@
     {{-- sldie 3 --}}
     <div class=" slide text-start text-2xl text-white">
         <div>
-            <h2 class="font-bold t-title">Additional info on rocket launch:</h2>
+            <h2 class=" t-title">Additional info on rocket launch:</h2>
             <ul class="list-disc text-[#F7B94A] space-y-10">
                 <li>
                     <a href="https://www.youtube.com/watch?v=oMeXcBk1x-c">
@@ -113,7 +113,7 @@
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold t-title">Notes:</h2>
+                <h2 class=" t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
                     <li>
                         If you see
@@ -200,7 +200,7 @@
             class="cursor-pointer nextButton w-66 h-[75px] relative bg-[#F8A23A]  rounded-[30px] overflow-hidden">
             <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
             <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" /> </div>
-            <span class="flex items-center  text-white text-5xl font-bold stroke">NEXT
+            <span class="flex items-center  text-white text-5xl  stroke">NEXT
             </span>
         </button>
     </div>

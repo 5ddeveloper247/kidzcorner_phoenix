@@ -7,7 +7,7 @@
 
 
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -22,7 +22,7 @@
 
         <div class="flex w-[100%] items-center justify-between ">
             <div>
-                <h2 class="text-[33px] font-bold">Keywords:</h2>
+                <h2 class="text-[33px] ">Keywords:</h2>
                 <div >
                     <ul class="list-disc ">
                         <li>Living Thing</li>
@@ -44,13 +44,13 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Preparations:</h2>
+            <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
                 <li>Magnifying glasses (optional)</li>
                 <br> <br>
-                <h2 class="font-bold t-title">Safety precautions:</h2>
+                <h2 class=" t-title">Safety precautions:</h2>
                 <li>Some bacteria could potentially be pathogenic. Be sure that all the sampled petri <br>
                     dishes are sealed properly with tapes so that children can't open them at all </li>
                 <li>If you plan to continue observing the growth of bacteria or to display the sampled <br>
@@ -71,7 +71,7 @@
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold t-title">Notes:</h2>
+                <h2 class=" t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
                     <li>
                         If you see
@@ -108,11 +108,11 @@
     </div>
 
     {{-- slide 10  --}}
-    <div class="text-white flex flex-col items-center justify-center gap-y-10 text-start text-2xl slide hidden">
+    <div class="text-white flex flex-col items-center justify-center  text-start text-2xl slide hidden">
         <h2 class=" title stroke">Learning Centre Idea</h2>
         <div class="flex flex-col gap-10">
             <ul class="list-disc">
-                <h2 class="!text-white title stroke font-bold">Fun Facts</h2>
+                <h2 class="!text-white title stroke ">Fun Facts</h2>
                 <h2>What and how to set up: <br>Use your creativity to design graphic fact sheet for every fun fact <br>
                     below. Guide children to understand the facts.</h2>
                 <li>Viruses are non-living things. They are about 1000 times smaller <br>
@@ -189,7 +189,7 @@
         outline outline-1 outline-yellow-700 overflow-hidden">
             <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
             <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" /> </div>
-            <span class="absolute left-[80px] top-[18px] flex items-center  text-white text-5xl font-bold stroke">NEXT
+            <span class="absolute left-[80px] top-[18px] flex items-center  text-white text-5xl  stroke">NEXT
             </span>
         </button>
     </div>

@@ -32,7 +32,7 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start w-[75%]">
+    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start ">
         <div>
             <h2 class=" t-title">Preparations for Class Activity I:</h2>
             <ul class="list-disc ">

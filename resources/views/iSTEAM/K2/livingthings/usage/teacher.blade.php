@@ -3,7 +3,7 @@
 
 @section('content')
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -17,7 +17,7 @@
         </div>
 
         <div class="flex flex-col  items-start justify-between">
-            <h2 class="t-title font-bold">Keywords:</h2>
+            <h2 class="t-title ">Keywords:</h2>
             <div >
                 <ul class="list-disc ">
                     <li>Fingerprint</li>
@@ -33,9 +33,9 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Preparations for Mini Mobile Phone Activity:</h2>
+            <h2 class=" t-title">Preparations for Mini Mobile Phone Activity:</h2>
             <div class="flex items-center gap-10">
                 <ul class="list-disc ">
                     <li>A mobile phone</li>
@@ -46,7 +46,7 @@
             </div>
         </div>
         <div>
-            <h2 class="font-bold t-title">How to carry out Mini Mobile Phone Activity and things to consider:</h2>
+            <h2 class=" t-title">How to carry out Mini Mobile Phone Activity and things to consider:</h2>
             <ul class="list-decimal">
                 <li>Wipe the screen of a mobile phone and then use a finger to leave a mark on the screen. Have children
                     face the phone and ask if they see anything on the screen.</li>
@@ -60,9 +60,9 @@
 
 
     {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-center gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-center  text-start">
         <div>
-            <h2 class="font-bold t-title">Preparations for Individual Activity - Practice of Dusting and Lifting A Fingerprint:</h2>
+            <h2 class=" t-title">Preparations for Individual Activity - Practice of Dusting and Lifting A Fingerprint:</h2>
             <ul class="list-disc">
                 <li>Small mirrors (replaceable with anything that has a smooth surface and tested to leave fingerprint
                     marks; normally easier on items made from glass or metal like glass panel, bottle, vase, plate, or cup;
@@ -87,9 +87,9 @@
 
 
     {{-- slide 4 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">How to dust and lift a fingerprint and things to consider:</h2>
+            <h2 class=" t-title">How to dust and lift a fingerprint and things to consider:</h2>
             <ul class="list-decimal">
                 <li>Press your thumb firmly on a mirror. Can you see your fingerprint? [ Demonstrate
                     how to do it. Explain to children that we'll apply lotion on hands to make sure that
@@ -105,9 +105,9 @@
 
 
     {{-- slide 5 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">How to dust and lift a fingerprint and things to consider:</h2>
+            <h2 class=" t-title">How to dust and lift a fingerprint and things to consider:</h2>
             <ul>
                 <li>2. Dab the brush carefully into powder and tap the brush on its side to remove
                     excess powder. [Demonstrate how to do it by wearing gloves and a mask.
@@ -128,9 +128,9 @@
 
 
     {{-- sldie 6 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">How to dust and lift a fingerprint and things to consider:</h2>
+            <h2 class=" t-title">How to dust and lift a fingerprint and things to consider:</h2>
             <ul>
                 <li>3. Gently sweep the brush over the area where you put your fingerprint. Can you see
                     a fingerprint developing? [Demonstrate how to do it. Remind children not to apply
@@ -150,9 +150,9 @@
     </div>
 
     {{-- sldie 7 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">How to dust and lift a fingerprint and things to consider:</h2>
+            <h2 class=" t-title">How to dust and lift a fingerprint and things to consider:</h2>
             <ul>
                 <li>4.Gently blow off excess powder and check your result. Can you make out the
                     fingerprint pattern? [For safety, teacher to do the step. Be sure that you don't
@@ -167,9 +167,9 @@
 
 
     {{-- sldie 8 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">How to dust and lift a fingerprint and things to consider:</h2>
+            <h2 class=" t-title">How to dust and lift a fingerprint and things to consider:</h2>
             <ul>
                 <li>5. Carefully press down a piece of clear tape on top of the developed fingerprint.
                     [Demonstrate how to do it. Remind children to hold only the edges of the tape.]</li>
@@ -190,9 +190,9 @@
 
 
     {{-- slide 9 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">How to dust and lift a fingerprint and things to consider:</h2>
+            <h2 class=" t-title">How to dust and lift a fingerprint and things to consider:</h2>
             <ul>
                 <li>6. Lift the tape and paste it on a paper. Did you successfully transfer your
                     fingerprint? [Demonstrate how to do it. If the print gets smeared, encourage
@@ -206,9 +206,9 @@
 
 
     {{-- slide 10 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">How to dust and lift a fingerprint and things to consider:</h2>
+            <h2 class=" t-title">How to dust and lift a fingerprint and things to consider:</h2>
             <ul>
                 <li>7. Compare the fingerprint collected to yours in the fingerprint record. [Have
                     children check if they manage to lift up clear fingerprint. If not, encourage them
@@ -221,10 +221,10 @@
     </div>
 
     {{-- slide 10 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
             <ul class="list-disc !text-start">
-                <h2 class="font-bold t-title">How to dust and lift a fingerprint and things to consider:</h2>
+                <h2 class=" t-title">How to dust and lift a fingerprint and things to consider:</h2>
                 <li>At the end, have children discuss and share their activity experience.</li>
                 <li>Explain to children that:</li>
                 <li class="list-none">- Lotion contains lots of oil and fat. When you apply it, your fingertips become
@@ -265,12 +265,12 @@
 
 
     {{-- slide 11 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
             <ul class="list-disc !text-start">
-                <h2 class="font-bold t-title">Preparations for Class Activity - Solve A Case:</h2>
+                <h2 class=" t-title">Preparations for Class Activity - Solve A Case:</h2>
                 <li>A folder</li> <br>
-                <h2 class="font-bold t-title">How to carry out Solve A Case activity and things to consider:</h2>
+                <h2 class=" t-title">How to carry out Solve A Case activity and things to consider:</h2>
                 <li>Note: Print out all the details of the case beforehand and put them in a folder
                     (total of 10 pages from next page onwards).</li>
                 <li>Brief children on the mission of the activity - study a case, analyse the evidence,
@@ -292,10 +292,10 @@
 
 
     {{-- slide 11 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
             <ul class=" !text-start">
-                <h2 class="font-bold t-title">Solve A Case:</h2>
+                <h2 class=" t-title">Solve A Case:</h2>
                 <li>What happened?</li> <br>
                 <li>Teacher Sue walked into the art and craft room this morning, and was shocked to see that the room was in
                     <br>
@@ -316,7 +316,7 @@
 
 
     {{-- slide 12 --}}
-    <div class=" slide flex text-2xl  flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl  flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" !text-start title stroke"> <span class="!text-white font bold">Evidence 1:</span> Based on the
                 statements of other teachers, 6 <br>
@@ -329,7 +329,7 @@
             class="absolute right-[250px] bottom-[150px]" />
     </div>
     {{-- slide 12 --}}
-    <div class=" slide flex text-2xl  flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl  flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" !text-start title stroke"> <span class="!text-white font bold">Evidence 2:</span> 3 shoe prints as
                 shown were found on the floor
@@ -341,7 +341,7 @@
             class="absolute right-[250px] bottom-[150px]" />
     </div>
     {{-- slide 12 --}}
-    <div class=" slide flex text-2xl  flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl  flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" !text-start title stroke"> <span class="!text-white font bold">Evidence 3:</span> 3 right
                 thumbprints as shown were found at
@@ -353,7 +353,7 @@
             class="absolute right-[250px] bottom-[150px]" />
     </div>
     {{-- slide 12 --}}
-    <div class=" slide flex text-2xl  flex-col justify-start items-center gap-y-10 text-start">
+    <div class=" slide flex text-2xl  flex-col justify-start items-center  text-start">
         <div>
             <h2 class=" !text-start title stroke">Profile of the suspect 1:</h2> <br>
             <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u23.png') }}" />
@@ -363,7 +363,7 @@
             class="absolute right-[250px] bottom-[150px]" />
     </div>
     {{-- slide 12 --}}
-    <div class=" slide flex text-2xl  flex-col justify-start items-center gap-y-10 text-start">
+    <div class=" slide flex text-2xl  flex-col justify-start items-center  text-start">
         <div>
             <h2 class=" !text-start title stroke">Profile of the suspect 2:</h2><br>
             <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u24.png') }}" />
@@ -373,7 +373,7 @@
             class="absolute right-[250px] bottom-[150px]" />
     </div>
     {{-- slide 12 --}}
-    <div class=" slide flex text-2xl  flex-col justify-start items-center gap-y-10 text-start">
+    <div class=" slide flex text-2xl  flex-col justify-start items-center  text-start">
         <div>
             <h2 class=" !text-start title stroke">Profile of the suspect 3:</h2><br>
             <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u25.png') }}" />
@@ -383,7 +383,7 @@
             class="absolute right-[250px] bottom-[150px]" />
     </div>
     {{-- slide 12 --}}
-    <div class=" slide flex text-2xl  flex-col justify-start items-center gap-y-10 text-start">
+    <div class=" slide flex text-2xl  flex-col justify-start items-center  text-start">
         <div>
             <h2 class=" !text-start title stroke">Profile of the suspect 4:</h2><br>
             <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u26.png') }}" />
@@ -393,7 +393,7 @@
             class="absolute right-[250px] bottom-[150px]" />
     </div>
     {{-- slide 12 --}}
-    <div class=" slide flex text-2xl  flex-col justify-start items-center gap-y-10 text-start">
+    <div class=" slide flex text-2xl  flex-col justify-start items-center  text-start">
         <div>
             <h2 class=" !text-start title stroke">Profile of the suspect 5:</h2><br>
             <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u27.png') }}" />
@@ -403,7 +403,7 @@
             class="absolute right-[250px] bottom-[150px]" />
     </div>
     {{-- slide 12 --}}
-    <div class=" slide flex text-2xl  flex-col justify-start items-center gap-y-10 text-start">
+    <div class=" slide flex text-2xl  flex-col justify-start items-center  text-start">
         <div>
             <h2 class=" !text-start title stroke">Profile of the suspect 6:</h2><br>
             <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u28.png') }}" />
@@ -420,7 +420,7 @@
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold t-title">Notes:</h2>
+                <h2 class=" t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
                     <li>
                         If you see
@@ -459,7 +459,7 @@
 
 
     {{-- slide 13 --}}
-    <div class="text-white flex flex-col items-center justify-center gap-y-10 text-start text-2xl slide hidden">
+    <div class="text-white flex flex-col items-center justify-center  text-start text-2xl slide hidden">
         <h2 class=" title stroke">Learning Centre Idea</h2>
         <div class="flex flex-col gap-10">
             <ul>
@@ -485,7 +485,7 @@
 
 
     {{-- slide 14 --}}
-    <div class="text-white flex flex-col items-center justify-center gap-y-10 text-start text-2xl slide hidden">
+    <div class="text-white flex flex-col items-center justify-center  text-start text-2xl slide hidden">
         <h2 class=" title stroke">Learning Centre Idea</h2>
         <div>
             <ul class="list-disc">

@@ -16,7 +16,7 @@
         </div>
 
         <div class="flex flex-col  items-start justify-between">
-            <h2 class="t-title font-bold">Keywords:</h2>
+            <h2 class="t-title ">Keywords:</h2>
             <div class="flex gap-[5vw]">
                 <ul class="list-disc ">
                     <li class="text-[1.3vw]">Living Thing</li>
@@ -41,7 +41,7 @@
     {{-- slide 2 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start text-start">
         <div>
-            <h2 class="font-bold t-title">Preparations for Class Activity 1 - comparison of living and non-living things:
+            <h2 class=" t-title">Preparations for Class Activity 1 - comparison of living and non-living things:
             </h2>
             <ul class="list-disc ">
                 <li class="text-[1.3vw]">A teddy bear</li>
@@ -59,7 +59,7 @@
     {{-- sldie 3 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start text-start">
         <div>
-            <h2 class="font-bold t-title">Things to consider during hands-on sessions:</h2>
+            <h2 class=" t-title">Things to consider during hands-on sessions:</h2>
             <ul class="list-disc">
                 <li class="text-[1.3vw]">
                     Ask questions to prompt children share their prior knowledge and experiences. You may ask questions
@@ -85,7 +85,7 @@
     {{-- slide 4 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start text-start">
         <div>
-            <h2 class="font-bold t-title">Additional information:</h2>
+            <h2 class=" t-title">Additional information:</h2>
             <ul class="list-disc">
                 <li class="text-[1.3vw]">
                     Many things have one or more characteristics of living things, but a living thing must has all of the
@@ -109,7 +109,7 @@
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold t-title">Notes:</h2>
+                <h2 class=" t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
                     <li class="text-[1.3vw] flex">
                         If you see
@@ -133,7 +133,7 @@
                         of the lesson.
                     </li>
                     <li class="text-[1.3vw] flex">
-                        Click on this <span class="font-bold t-title">shortcut icon</span>
+                        Click on this <span class=" t-title">shortcut icon</span>
                         <span>
                             <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" class="video-btn" />
                         </span>

@@ -16,7 +16,7 @@
         </div>
 
 
-        <h2 class=" font-bold">Keywords:</h2>
+        <h2 class=" ">Keywords:</h2>
         <div class="flex gap-1 justify-around">
             <ul class="list-disc ">
 
@@ -44,7 +44,7 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start  gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start   text-start">
         <ul class="list-disc">
             <h2 class="">Preparations:</h2>
             <li>The tablets (download ScratchJr application from App Store or Google Play for each tablet; charge all the
@@ -65,7 +65,7 @@
 
 
     {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start  gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start   text-start">
 
 
         <ul class="list-disc">
@@ -85,7 +85,7 @@
 
 
     {{-- slide 4 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start items-center gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start items-center  text-start">
 
 
         <ul class="list-disc !text-start">
@@ -120,7 +120,7 @@
     {{-- sldie 6 --}}
 
 
-    <div class=" slide flex text-2xl text-white flex-col justify-start  gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start   text-start">
 
         <ul class="list-disc">
             <h2 class="">Additional info:</h2>
@@ -138,7 +138,7 @@
     {{-- sldie 6 --}}
 
 
-    <div class=" slide flex text-2xl text-white flex-col justify-center items-center  gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-center items-center   text-start">
 
         <ul class="list-disc">
             <h2 class="">Reminders or advice during hands-on session:</h2>
@@ -162,7 +162,7 @@
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold t-title">Notes:</h2>
+                <h2 class=" t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
                     <li>
                         If you see

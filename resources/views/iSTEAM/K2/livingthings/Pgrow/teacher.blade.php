@@ -3,7 +3,7 @@
 
 @section('content')
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -16,7 +16,7 @@
         </div>
 
         <div class="flex flex-col  items-start justify-between">
-            <h2 class="t-title font-bold">Keywords:</h2>
+            <h2 class="t-title ">Keywords:</h2>
             <ul class="list-disc ">
                 <li class="!text-[1.5vw]">Plant</li>
                 <li class="!text-[1.5vw]">Grow</li>
@@ -29,9 +29,9 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <ul class="list-disc">
-            <h2 class="font-bold t-title">Preparations for Individual Activity - growing plants from seeds:</h2>
+            <h2 class=" t-title">Preparations for Individual Activity - growing plants from seeds:</h2>
             <li class="!text-[1vw]">A type of fast growing seed (preferably not too small), such as:
                 Radish seeds (sprout in 3–10 days) Sunflower seeds (sprout in 1 week) Melon seeds (sprout in 5–10 days)
                 Green beans and peas</li>
@@ -57,9 +57,9 @@
     </div>
 
     {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Things to consider for preparations - growing plants from seeds:</h2>
+            <h2 class=" t-title">Things to consider for preparations - growing plants from seeds:</h2>
             <ul class="list-disc">
                 <li class="!text-[1.5vw]">If you want to use seeds from fresh melons or squash like watermelon and pumpkin
                     for this activity, you
@@ -74,9 +74,9 @@
 
 
     {{-- slide 4 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">How to grow plants from seeds and things to consider:</h2>
+            <h2 class=" t-title">How to grow plants from seeds and things to consider:</h2>
             <ul class="list-decimal">
                 <li class="!text-[1.5vw]">Have children write the name of the seed, date of activity and his/her name on a
                     label. [Help to apply 2
@@ -89,9 +89,9 @@
 
 
     {{-- slide 5 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">How to grow plants from seeds and things to consider:</h2>
+            <h2 class=" t-title">How to grow plants from seeds and things to consider:</h2>
             <ul>
                 <li class="!text-[1.5vw]">2.Have children put a seed on each of the glue dot on his/her paper towel and
                     allow the glue dry.
@@ -103,9 +103,9 @@
     </div>
 
     {{-- sldie 6 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">How to grow plants from seeds and things to consider:</h2>
+            <h2 class=" t-title">How to grow plants from seeds and things to consider:</h2>
             <ul>
                 <li class="!text-[1.5vw]">3.Have children put his/her paper towel into a zipper storage bag and spray water
                     to wet the paper
@@ -118,9 +118,9 @@
 
 
     {{-- sldie 7 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">How to grow plants from seeds and things to consider:</h2>
+            <h2 class=" t-title">How to grow plants from seeds and things to consider:</h2>
             <ul>
                 <li class="!text-[1.5vw]">4.Have children leave about 1cm extra water at the bottom of his/her bag and seal
                     the bag.</li>
@@ -132,9 +132,9 @@
 
 
     {{-- sldie 8 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">How to grow plants from seeds and things to consider:</h2>
+            <h2 class=" t-title">How to grow plants from seeds and things to consider:</h2>
             <ul>
                 <li class="!text-[1.5vw]">5.Have children label his/her bag and tape it to a sunny window.</li>
             </ul>
@@ -145,9 +145,9 @@
 
 
     {{-- slide 9 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">How to grow plants from seeds and things to consider:</h2>
+            <h2 class=" t-title">How to grow plants from seeds and things to consider:</h2>
             <ul>
                 <li class="!text-[1.5vw]">6. Have children use the learning journal to record his/her observations. [Let
                     them draw the current
@@ -163,7 +163,7 @@
 
     {{-- sldie 10 --}}
     <div class=" slide flex text-2xl text-white flex-col items-start justify-start gap-y-5 text-start">
-        <h2 class="font-bold t-title">Sample Learning Journal 1:</h2>
+        <h2 class=" t-title">Sample Learning Journal 1:</h2>
         <img src="{{ asset('assets/images/K2/livingthings/pgrow/p18.png') }}" alt="Teacher" class="w-[600px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
@@ -171,14 +171,14 @@
 
     {{-- sldie 11 --}}
     <div class=" slide flex text-2xl text-white flex-col items-start justify-start gap-y-5 text-start">
-        <h2 class="font-bold t-title">Sample Learning Journal 2:</h2>
+        <h2 class=" t-title">Sample Learning Journal 2:</h2>
         <img src="{{ asset('assets/images/K2/livingthings/pgrow/p19.png') }}" alt="Teacher" class="w-[600px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
     {{-- sldie 12 --}}
     <div class=" slide flex text-2xl text-white flex-col items-start justify-start gap-y-5 text-start">
-        <h2 class="font-bold t-title">Sample seed’s growth 1:</h2>
+        <h2 class=" t-title">Sample seed’s growth 1:</h2>
         <div class="flex items-start gap-5">
             <img src="{{ asset('assets/images/K2/livingthings/pgrow/p20.png') }}" alt="Teacher" class="w-[600px]" />
             <p class="w-[20vw] note">For your info, this seed sprouted after 2 days and showed signs of growth each day
@@ -189,7 +189,7 @@
 
     {{-- sldie 13 --}}
     <div class=" slide flex text-2xl text-white flex-col items-start justify-start gap-y-5 text-start">
-        <h2 class="font-bold t-title">Sample seed’s growth 2:</h2>
+        <h2 class=" t-title">Sample seed’s growth 2:</h2>
         <div class="flex items-start gap-5">
             <img src="{{ asset('assets/images/K2/livingthings/pgrow/p21.png') }}" alt="Teacher" class="w-[600px]" />
             <p class="w-[20vw] note">For your info, this seed sprouted after 3 days and showed signs of growth each day.
@@ -201,7 +201,7 @@
 
     {{-- sldie 14 --}}
     <div class=" slide flex text-2xl text-white flex-col items-start justify-start gap-y-5 text-start">
-        <h2 class="font-bold t-title">Sample seed’s growth 3:</h2>
+        <h2 class=" t-title">Sample seed’s growth 3:</h2>
         <div class="flex items-start gap-5">
             <img src="{{ asset('assets/images/K2/livingthings/pgrow/p22.png') }}" alt="Teacher" class="w-[600px]" />
             <p class="w-[20vw] note">For your info, this seed sprouted after 3 days. Its stem and roots could be clearly
@@ -213,7 +213,7 @@
 
     {{-- sldie 15 --}}
     <div class=" slide flex text-2xl text-white flex-col items-start justify-start gap-y-5 text-start">
-        <h2 class="font-bold t-title">Sample seed’s growth 4:</h2>
+        <h2 class=" t-title">Sample seed’s growth 4:</h2>
         <div class="flex items-start gap-5">
             <img src="{{ asset('assets/images/K2/livingthings/pgrow/p21.png') }}" alt="Teacher" class="w-[600px]" />
             <p class="w-[20vw] note">For your info, this seed sprouted after 3 days and showed signs of growth each day
@@ -224,9 +224,9 @@
 
 
     {{-- slide16 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">How to regrow green onions and things to consider:</h2>
+            <h2 class=" t-title">How to regrow green onions and things to consider:</h2>
             <ul>
                 <li class="!text-[1.5vw]">1.Cut off the green leaves of the green onions. [You may keep only the white
                     stems and roots. Tell
@@ -239,9 +239,9 @@
 
 
     {{-- slide17 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-start justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-start justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">How to regrow green onions and things to consider:</h2>
+            <h2 class=" t-title">How to regrow green onions and things to consider:</h2>
             <ul>
                 <li class="!text-[1.5vw]">2. Place the remaining green onions with roots in a transparent container filled
                     with some water. [Use
@@ -256,9 +256,9 @@
 
 
     {{-- slide18 --}}
-    <div class="slide flex text-2xl text-white flex-col items-start justify-start gap-y-10 text-start">
+    <div class="slide flex text-2xl text-white flex-col items-start justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">How to regrow green onions and things to consider:</h2>
+            <h2 class=" t-title">How to regrow green onions and things to consider:</h2>
             <ul>
                 <li class="!text-[1.5vw]">3. Place the container near a sunny window.</li>
             </ul>
@@ -269,9 +269,9 @@
 
 
     {{-- slide19 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-start justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-start justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">How to regrow green onions and things to consider:</h2>
+            <h2 class=" t-title">How to regrow green onions and things to consider:</h2>
             <ul>
                 <li class="!text-[1.5vw]">4. Have children use the learning journal to record his/her observations. [Let
                     them draw the current
@@ -287,7 +287,7 @@
 
     {{-- sldie 20 --}}
     <div class=" slide flex text-2xl text-white flex-col items-start justify-start gap-y-5 text-start">
-        <h2 class="font-bold t-title">Sample Learning Journal:</h2>
+        <h2 class=" t-title">Sample Learning Journal:</h2>
         <img src="{{ asset('assets/images/K2/livingthings/pgrow/p23.png') }}" alt="Teacher" class="w-[600px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
@@ -295,7 +295,7 @@
 
     {{-- sldie 21 --}}
     <div class=" slide flex text-2xl text-white flex-col items-start justify-start gap-y-5 text-start">
-        <h2 class="font-bold t-title">Sample green onion’s growth:</h2>
+        <h2 class=" t-title">Sample green onion’s growth:</h2>
         <div class="flex items-start gap-5">
             <img src="{{ asset('assets/images/K2/livingthings/pgrow/p24.png') }}" alt="Teacher" class="w-[600px]" />
             <p class="w-[24vw] !text-[1.5vw]">For
@@ -324,7 +324,7 @@
 
 
     {{-- sldie 22 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
             <h2>Possible questions during daily observation session:</h2>
             <ul class="list-disc ">
@@ -345,7 +345,7 @@
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold t-title">Notes:</h2>
+                <h2 class=" t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
                     <li class="!text-[1.5vw] flex">
                         If you see
@@ -360,7 +360,7 @@
                         end of the lesson.
                     </li>
                     <li class="!text-[1.5vw] flex">
-                        Click on this <span class="font-bold t-title">shortcut icon</span>
+                        Click on this <span class=" t-title">shortcut icon</span>
                         <span> 
                             <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" class="video-btn" />
                         </span>
@@ -375,7 +375,7 @@
 
 
     {{-- slide 24 --}}
-    <div class="text-white flex flex-col items-center justify-center gap-y-10 text-start text-2xl slide hidden">
+    <div class="text-white flex flex-col items-center justify-center  text-start text-2xl slide hidden">
         <h2 class=" title stroke">Learning Centre Idea</h2>
         <div class="flex">
             <div>

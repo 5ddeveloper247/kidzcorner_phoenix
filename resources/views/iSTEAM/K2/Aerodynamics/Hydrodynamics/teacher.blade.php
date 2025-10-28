@@ -3,7 +3,7 @@
  
 @section('content')
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -16,7 +16,7 @@
         </div>
 
         <div class="flex flex-col  items-start justify-between">
-            <h2 class="t-title font-bold">Keywords:</h2>
+            <h2 class="t-title ">Keywords:</h2>
             <div class="flex gap-[10rem]">
                 <ul class="list-disc ">
                     <li>Aerodynamics</li>
@@ -43,7 +43,7 @@
     <div class=" slide flex text-2xl text-white flex-col justify-start text-start">
         <div class="text-start space-y-10">
             <ul class="list-disc">
-                <h2 class="font-bold t-title">Preparations:</h2>
+                <h2 class=" t-title">Preparations:</h2>
                 <li>The teacher will have to prepare the items and setup prior the lesson.</li>
             </ul>
             <ul class="list-disc ">
@@ -67,7 +67,7 @@
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold t-title">Notes:</h2>
+                <h2 class=" t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
                     <li>
                         If you see

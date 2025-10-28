@@ -105,7 +105,7 @@
 
     {{-- sldie 8 --}}
     <div class="slide flex flex-col items-center justify-around h-[50vh] ">
-        <h2 class="title stroke !text-white font-bold">Class Activity </h2>
+        <h2 class="title stroke !text-white ">Class Activity </h2>
         <ul class="lesson-ul text-start title stroke">
             <li>Mission</li>
             <li>Build a Rube Goldberg Machine to launch a ball.</li>

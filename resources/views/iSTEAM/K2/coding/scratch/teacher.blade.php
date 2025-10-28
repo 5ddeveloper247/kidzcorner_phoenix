@@ -3,7 +3,7 @@
  
 @section('content')
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -17,7 +17,7 @@
         </div>
 
         <div class="flex flex-col  items-start justify-between">
-            <h2 class="t-title font-bold">Keywords:</h2>
+            <h2 class="t-title ">Keywords:</h2>
             <div >
                 <ul class="list-disc ">
                     <li>ScratchJr (Application)</li>
@@ -35,9 +35,9 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start  items-center gap-y-10  text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  items-center   text-start">
         <ul class="list-disc  ">
-            <h2 class="font-bold t-title">Preparations:</h2>
+            <h2 class=" t-title">Preparations:</h2>
             <li>
                 The tablets (download ScratchJr application from App Store or Google Play for each tablet; charge all the
                 tablets before you start each lesson)
@@ -52,7 +52,7 @@
     {{-- sldie 3 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start  items-center gap-y-8.5 text-start">
         <ul class="list-disc  ">
-            <h2 class="font-bold t-title">What you need to know or explore before the lesson:</h2>
+            <h2 class=" t-title">What you need to know or explore before the lesson:</h2>
             <li>
                 Go through the Interface Guide in the application of ScratchJr to understand the
                 basic features of ScratchJr.
@@ -81,7 +81,7 @@
 
 
     {{-- slide 4 --}}
-    <div class=" slide flex text-2xl text-white flex-col  justify-start gap-y-10 text-start gap-[5rem]">
+    <div class=" slide flex text-2xl text-white flex-col  justify-start  text-start gap-[5rem]">
 
         <div>
             <ul class="list-disc !text-white">
@@ -111,7 +111,7 @@
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold t-title">Notes:</h2>
+                <h2 class=" t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
                     <li>
                         If you see

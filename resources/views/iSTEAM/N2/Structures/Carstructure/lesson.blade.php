@@ -66,7 +66,7 @@
 
     {{-- Slide 8 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <h2 class="title stroke !text-white font-bold">Individual Activity 1</h2>
+        <h2 class="title stroke !text-white ">Individual Activity 1</h2>
 
         <img src="{{ asset('assets/images/N2/structure/c-str/s1.png') }}" />
 
@@ -78,7 +78,7 @@
 
     {{-- slide 9 --}}
     <div class="slide hidden  flex flex-col justify-start items-center   ">
-        <h2 class="title stroke font-bold !text-start">Steps: <br>
+        <h2 class="title stroke  !text-start">Steps: <br>
             1.Get the following parts from the construction set.</h2>
 
         <div class="flex gap-1 justify-center items-end">
@@ -99,7 +99,7 @@
 
     {{-- slide 10 --}}
     <div class="slide hidden  flex flex-col justify-start items-center   ">
-        <h2 class="title stroke font-bold !text-start">Steps: <br>
+        <h2 class="title stroke  !text-start">Steps: <br>
             2.Take 6 cubes and 5 connectors to form the long <br>
             rectangle for the car’s body.</h2>
 
@@ -120,7 +120,7 @@
 
     {{-- slide 11 --}}
     <div class="slide hidden  flex flex-col justify-start items-center   ">
-        <h2 class="title stroke font-bold !text-start">Steps: <br>
+        <h2 class="title stroke  !text-start">Steps: <br>
             3.Use a block connector to connect the cubes together <br>
             one by one.</h2>
 
@@ -137,7 +137,7 @@
 
     {{-- slide 12 --}}
     <div class="slide hidden  flex flex-col justify-start items-center   ">
-        <h2 class="title stroke font-bold !text-start">Steps: <br>
+        <h2 class="title stroke  !text-start">Steps: <br>
             5.Take 2 cubes, 2 small prism and 3 block connector to <br>
             form the top part of the car.</h2>
 
@@ -151,7 +151,7 @@
 
     {{-- slide 13 --}}
     <div class="slide hidden  flex flex-col justify-start items-center   ">
-        <h2 class="title stroke font-bold !text-start">Steps: <br>
+        <h2 class="title stroke  !text-start">Steps: <br>
             6.Connect the prism to the cube using the connector</h2>
 
         <div class="flex gap-1 justify-center items-center">
@@ -163,7 +163,7 @@
 
     {{-- slide 14 --}}
     <div class="slide hidden  flex flex-col justify-start items-center   ">
-        <h2 class="title stroke font-bold !text-start">Steps: <br>
+        <h2 class="title stroke  !text-start">Steps: <br>
             7.Continue to connect another cube and prism to form <br>
             the shape as shown.</h2>
 
@@ -177,7 +177,7 @@
 
     {{-- slide 15 --}}
     <div class="slide hidden  flex flex-col justify-start items-center   ">
-        <h2 class="title stroke font-bold !text-start">Steps: <br>
+        <h2 class="title stroke  !text-start">Steps: <br>
             8.Connect two connectors on the prisms as shown.</h2>
 
         <div class="flex gap-1 justify-center items-center">
@@ -195,7 +195,7 @@
 
     {{-- slide 16 --}}
     <div class="slide hidden  flex flex-col justify-start items-center   ">
-        <h2 class="title stroke font-bold !text-start">Steps: <br>
+        <h2 class="title stroke  !text-start">Steps: <br>
             9.Now connect the two parts together to form the <br>
             shape of the car.</h2>
 
@@ -212,7 +212,7 @@
 
     {{-- slide 17 --}}
     <div class="slide hidden  flex flex-col justify-start items-center   ">
-        <h2 class="title stroke font-bold !text-start">Steps: <br>
+        <h2 class="title stroke  !text-start">Steps: <br>
             10.Turn the structure upside down and connect the wheels. <br>
             11.Connect one pair on the second cube and the other on
             the fifth cube.</h2>
@@ -223,7 +223,7 @@
 
     {{-- slide 18 --}}
     <div class="slide hidden  flex flex-col justify-start items-center   ">
-        <h2 class="title stroke font-bold !text-start ">Steps: <br>
+        <h2 class="title stroke  !text-start ">Steps: <br>
             12.The car is completed!</h2>
         <img src="{{ asset('assets/images/N2/structure/c-str/s20.png') }}" class="large-img2" />
         <p class="note">Note: Assist children in fixing the pieces if required.</p>
@@ -304,7 +304,7 @@
 
     {{-- slide 24 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <h2 class="title stroke !text-white font-bold">Individual Activity </h2>
+        <h2 class="title stroke !text-white ">Individual Activity </h2>
 
         <img src="{{ asset('assets/images/N2/structure/c-str/s29.png') }}" class="large-img2" />
 

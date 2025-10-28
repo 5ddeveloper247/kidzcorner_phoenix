@@ -3,9 +3,9 @@
 
 @section('content')
     {{-- sldie 23  --}}
-    <div class="slide  flex  text-white flex-col justify-start t-slide gap-y-10 text-start">
+    <div class="slide  flex  text-white flex-col justify-start t-slide  text-start">
         <div>
-            <h2 class="t-title font-bold">Children will be able to:</h2>
+            <h2 class="t-title ">Children will be able to:</h2>
             <ul class="list-disc ">
                 <li>Explore items with lights</li>
                 <li>Develop awareness of natural and man-made light sources</li>
@@ -14,30 +14,28 @@
             </ul>
         </div>
 
-        <div class="flex w-[100%] items-center justify-between">
-            <div>
-                <h2 class="t-title font-bold">Keywords:</h2>
-                <ul class="list-disc ">
-                    <li>Sun</li>
-                    <li>Bright / Brightly</li>
-                    <li>Light</li>
-                    <li>Stars</li>
-                    <li>Fire</li>
-                    <li>Natural</li>
-                    <li>Natural Lights</li>
-                    <li>Man-made Lights</li>
-                </ul>
-            </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
+        <div>
+            <h2 class="t-title ">Keywords:</h2>
+            <ul class="list-disc ">
+                <li>Sun</li>
+                <li>Bright / Brightly</li>
+                <li>Light</li>
+                <li>Stars</li>
+                <li>Fire</li>
+                <li>Natural</li>
+                <li>Natural Lights</li>
+                <li>Man-made Lights</li>
+            </ul>
         </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
 
     {{-- slide 24 --}}
-    <div class=" slide flex  text-white flex-col justify-start t-slide gap-y-10 text-start w-[75%]">
+    <div class=" slide flex  text-white flex-col justify-start t-slide  text-start ">
         <div>
-            <h2 class="t-title font-bold">Preparations for Class Activity I:</h2>
+            <h2 class="t-title ">Preparations for Class Activity I:</h2>
             <ul class="list-disc ">
                 <li>iPad (make sure children handle with care)</li>
                 <li>Torch lights or any other battery-operated lights</li>
@@ -48,7 +46,7 @@
 
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="t-title font-bold">Links to Songs:</h2>
+                <h2 class="t-title ">Links to Songs:</h2>
                 <ul class="list-disc ">
                     <li>
                         <strong>Mr Golden Sun</strong>
@@ -75,7 +73,7 @@
     {{-- slide 25 --}}
     <div class="slide t-slide text-start text-white">
         <div>
-            <h2 class="t-title font-bold">Notes:</h2>
+            <h2 class="t-title ">Notes:</h2>
             <ul class="list-disc">
                 <li class="flex whitespace-nowrap gap-3 mb-2">
                     If you see
@@ -121,16 +119,16 @@
 
     {{--  slide 26 --}}
     <div class=" slide text-white flex flex-col justify-start t-slide text-start ">
-        <h1 class=" t-title font-bold">Let’s sort!</h1>
+        <h1 class=" t-title ">Let’s sort!</h1>
         <div>
-            <h2 class=" t-title font-bold">Preparations for Class Activity I:</h2>
+            <h2 class=" t-title ">Preparations for Class Activity I:</h2>
             <p>Place pictures of various items such as pot of plant, bottle, shoe, sock, box, elephant, lamp, light
                 bulb, sun, stars, lightning, firefly, ceiling light, handphone, TV.</p>
         </div>
 
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class=" t-title font-bold">What to do:</h2>
+                <h2 class=" t-title ">What to do:</h2>
                 <ul>
                     <li>
                         <strong>*</strong> Invite children to pick up pictures and sort them into groups:

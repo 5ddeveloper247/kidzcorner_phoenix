@@ -3,7 +3,7 @@
  
 @section('content')
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -16,7 +16,7 @@
         </div>
 
         <div class="flex flex-col  items-start justify-between">
-            <h2 class="t-title font-bold">Keywords:</h2>
+            <h2 class="t-title ">Keywords:</h2>
             <div >
                 <ul class="list-disc ">
                     <li>Living Thing</li>
@@ -41,9 +41,9 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Possible questions during hands-on session:</h2>
+            <h2 class=" t-title">Possible questions during hands-on session:</h2>
             <ul class="list-disc ">
                 <li>Would you like to find out if things that you like (pets, cartoon characters, etc.) are living or
                     non-living things?</li>
@@ -71,9 +71,9 @@
     </div>
 
     {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Additional information:</h2>
+            <h2 class=" t-title">Additional information:</h2>
             <ul class="list-disc">
                 <li>
                     Many things have one or more characteristics of living things, but a living thing must have
@@ -100,9 +100,9 @@
 
 
     {{-- slide 4 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Preparations - if you do the experiment of Plants Do Breathe Air:</h2>
+            <h2 class=" t-title">Preparations - if you do the experiment of Plants Do Breathe Air:</h2>
             <ul class="list-disc">
                 <li>A large clear bowl with lukewarm water</li>
                 <li>A big leaf freshly pluck from a plant</li>
@@ -116,9 +116,9 @@
 
 
     {{-- slide 5 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">How to do the experiment of Plants Do Breathe Air:</h2>
+            <h2 class=" t-title">How to do the experiment of Plants Do Breathe Air:</h2>
             <ul class="list-decimal">
                 <li>Fill a large clear bowl with lukewarm water.</li>
                 <li>Pluck a big leaf from a plant and put it inside the bowl.</li>
@@ -131,9 +131,9 @@
     </div>
 
     {{-- sldie 6 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">How to do the experiment of Plants Do Breathe Air:</h2>
+            <h2 class=" t-title">How to do the experiment of Plants Do Breathe Air:</h2>
             <ul>
                 <li>4. Place the bowl at a sunny spot.</li>
                 <li>5. Check and observe the leaf every hour for a few times.</li>
@@ -147,7 +147,7 @@
 
 
     {{-- sldie 7 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
             <p class="note text-center">As a reference, some bubbles form around this sample leaf once it was placed in the
                 water. After 2 hours, many more bubbles form around the leaf.</p>
@@ -164,7 +164,7 @@
 
 
     {{-- sldie 7 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <p class="note">When the hands-on sessions 1 or 2 start, guide each group of children to set up
             the mat accordingly (as shown). Advise them to discuss as a group to complete the
             mission. <span class="text-[#F7B94A]"> If needed, adjust the level of difficulty by reducing the number of
@@ -226,7 +226,7 @@
 
 
     {{-- slide 9 --}}
-    <div class="text-white flex flex-col items-center justify-center gap-y-10 text-start text-2xl slide hidden">
+    <div class="text-white flex flex-col items-center justify-center  text-start text-2xl slide hidden">
         <h2 class=" title stroke">Learning Centre Idea</h2>
         <div class="flex">
             <div class="space-y-20">
@@ -249,7 +249,7 @@
 
 
     {{-- slide 10 --}}
-    <div class="text-white flex flex-col items-center justify-center gap-y-10 text-start text-2xl slide hidden">
+    <div class="text-white flex flex-col items-center justify-center  text-start text-2xl slide hidden">
         <h2 class=" title stroke">Learning Centre Idea</h2>
         <div class="flex">
             <div class="space-y-20">

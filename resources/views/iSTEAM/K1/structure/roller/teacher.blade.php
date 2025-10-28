@@ -20,7 +20,7 @@
         </div>
 
         <div>
-            <h2 class="t-title font-bold">Keywords:</h2>
+            <h2 class="t-title ">Keywords:</h2>
             <ul class="list-disc ">
                 <li>Structures</li>
                 <li>Roller Coasters</li>
@@ -35,7 +35,7 @@
     {{-- slide 2 --}}
     <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Preparations for the making of the track:</h2>
+            <h2 class=" t-title">Preparations for the making of the track:</h2>
             <ul class="list-disc ">
                 <li>Each group a set of straws of different lengths - 15 long, 4 medium-length, and 36 short straws</li>
                 <li>Each group 20 pipe cleaners (sample's measurement: 30cm long)</li>
@@ -51,7 +51,7 @@
     {{-- sldie 3 --}}
     <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Preparations for the making of the track supports (pyramids):</h2>
+            <h2 class=" t-title">Preparations for the making of the track supports (pyramids):</h2>
             <ul class="list-disc">
                 <li>Each group a set of straws (colour different from the track)</li>
                 <li>Each group 50 pipe cleaners (sample's measurement: 30cm long)</li>
@@ -68,7 +68,7 @@
     {{-- slide 4 --}}
     <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Preparations for the testing of the ball roller coaster:</h2>
+            <h2 class=" t-title">Preparations for the testing of the ball roller coaster:</h2>
             <ul class="list-disc">
                 <li>Each group a ping pong ball</li>
                 <li>Each group a suitable container</li>
@@ -90,7 +90,7 @@
     {{-- sldie 5 --}}
     <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Things to consider during hands-on sessions:</h2>
+            <h2 class=" t-title">Things to consider during hands-on sessions:</h2>
             <ul class="list-disc ">
                 <li>
                     Ask questions to prompt children to share and try out their ideas.
@@ -119,7 +119,7 @@
     {{-- sldie 6 --}}
     <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Possible questions for reflection:</h2>
+            <h2 class=" t-title">Possible questions for reflection:</h2>
             <ul class="list-disc ">
                 <li>Do you think the arrangement of the pyramids of different heights is important in
                     making a successful ball roller coaster? Why? [Yes, the ball may fail to complete

@@ -21,7 +21,7 @@
         </div>
 
         <div>
-            <h2 class="t-title font-bold">Keywords:</h2>
+            <h2 class="t-title ">Keywords:</h2>
             <ul class="list-disc ">
                 <li>Structures</li>
                 <li>City</li>
@@ -35,7 +35,7 @@
     {{-- slide 2 --}}
     <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Preparations:</h2>
+            <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
                 <li>Straws</li>
                 <li>Pipe cleaners</li>
@@ -57,7 +57,7 @@
     {{-- sldie 3 --}}
     <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Things to consider during hands-on sessions:</h2>
+            <h2 class=" t-title">Things to consider during hands-on sessions:</h2>
             <ul class="list-disc ">
                 <li>Ask questions to prompt children to share and try out their ideas. You may add on questions based on
                     children's responses.</li>
@@ -89,7 +89,7 @@
     {{-- sldie 4 --}}
     <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Things to consider during hands-on sessions:</h2>
+            <h2 class=" t-title">Things to consider during hands-on sessions:</h2>
             <ul class="list-disc ">
                 <li>During hands-on session:
                     <ul type="i">
@@ -110,7 +110,7 @@
     <div class="slide flex  flex-col t-slide justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold t-title">Notes:</h2>
+                <h2 class=" t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
                     <li class="flex">
                         If you see

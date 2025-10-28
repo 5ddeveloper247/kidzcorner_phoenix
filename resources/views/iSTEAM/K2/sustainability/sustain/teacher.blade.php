@@ -3,7 +3,7 @@
  
 @section('content')
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -16,7 +16,7 @@
         </div>
 
         <div class="flex flex-col  items-start justify-between">
-            <h2 class="t-title font-bold">Keywords:</h2>
+            <h2 class="t-title ">Keywords:</h2>
             <div >
                 <ul class="list-disc ">
                     <li>Global Warming</li>
@@ -42,9 +42,9 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Preparations:</h2>
+            <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
                 <li>
 3 bottles of the same size - cut out one side of the bottle to create an<br>
@@ -59,9 +59,9 @@
 
 
     {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-center gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-center  text-start">
         <div>
-            <h2 class="font-bold t-title">Preparations:</h2>
+            <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc">
                 <li>For bottle A, plant some seeds 2-3 weeks before the activity</li>
                 <div class="flex gap-2 items-center">
@@ -80,9 +80,9 @@
 
 
     {{-- slide 4 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Preparations:</h2>
+            <h2 class=" t-title">Preparations:</h2>
             <ul class="list-decimal">
                 <li>For bottle B, fill half the bottle with soil and add dried leaves and twigs on
      top of the soil (do not put too much such that water cannot reach the soil
@@ -94,9 +94,9 @@
             class="absolute teacher-img1" />
     </div>
 {{-- slide 4 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Preparations:</h2>
+            <h2 class=" t-title">Preparations:</h2>
             <ul class="list-decimal">
                 <li>For bottle C, just fill half the bottle with soil.</li>
             </ul>
@@ -108,9 +108,9 @@
 
 
     {{-- slide 5 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Things to take note prior the class activity:</h2>
+            <h2 class=" t-title">Things to take note prior the class activity:</h2>
             <ul>
                 <li>If you have drilled holes in the first bottle for the plants, please tape it up with masking tapes to 
                     avoid water sipping through the holes during the experiment.</li>
@@ -130,9 +130,9 @@
 
 
     {{-- sldie 6 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Things to take note prior the class activity:</h2>
+            <h2 class=" t-title">Things to take note prior the class activity:</h2>
             <ul>
                 <li>Do expect muddy coloured water to flow out from the first bottle.</li>
                   <li>When comparing, you will see that there are some soil/dirt that flows into cup 2.
@@ -147,9 +147,9 @@
     </div>
 
     {{-- sldie 7 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">How to make own set of fingerprints and things to consider:</h2>
+            <h2 class=" t-title">How to make own set of fingerprints and things to consider:</h2>
            <ul>
                 <li>If you see <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s27.png') }}" /> next to a picture, click on the picture to watch the video
 Always ask questions to encourage children to think and share their ideas first 
@@ -174,9 +174,9 @@ Always ask questions to encourage children to think and share their ideas first
 
 
     {{-- sldie 7 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">When Glaciers Melt</h2><br>
+            <h2 class=" t-title">When Glaciers Melt</h2><br>
            <p class="note">What and how to set up:<br>
 Print out pictures of natural resources such as tree, coal, cow, fish,<br>
 stone, iron etc. Print items that are not natural resources such as<br>
@@ -195,9 +195,9 @@ Encourage children to think what can the natural resources be<br>
     
 
     {{-- slide 9 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">How to make own set of fingerprints and things to consider:</h2>
+            <h2 class=" t-title">How to make own set of fingerprints and things to consider:</h2>
             <ul>
                 <li>6. (A, B & C) Repeat the steps for other fingers. [Have all the A, B & C repeat steps 1-5 to complete
                     the fingerprint record of B. After that, have them change their roles to help one another complete the
@@ -210,9 +210,9 @@ Encourage children to think what can the natural resources be<br>
     </div>
 
     {{-- slide 10 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">How to make own set of fingerprints and things to consider:</h2>
+            <h2 class=" t-title">How to make own set of fingerprints and things to consider:</h2>
             <ul>
                 <li>7. Observe your fingerprints. [ Have children observe and compare their own set of fingerprints on the
                     record. Then have them share their views. ]</li>
@@ -224,9 +224,9 @@ Encourage children to think what can the natural resources be<br>
     </div>
 
     {{-- slide 11 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">How to make own set of fingerprints and things to consider:</h2>
+            <h2 class=" t-title">How to make own set of fingerprints and things to consider:</h2>
             <ul>
                 <li>8. Compare your fingerprints with friends. [ Have children observe and compare their fingerprints with
                     friends. Then have them share their views. ]</li>
@@ -243,7 +243,7 @@ Encourage children to think what can the natural resources be<br>
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold t-title">Notes:</h2>
+                <h2 class=" t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
                     <li>
                         If you see
@@ -282,7 +282,7 @@ Encourage children to think what can the natural resources be<br>
 
 
     {{-- slide 13 --}}
-    <div class="text-white flex flex-col items-center justify-center gap-y-10 text-start text-2xl slide hidden">
+    <div class="text-white flex flex-col items-center justify-center  text-start text-2xl slide hidden">
         <h2 class=" title stroke">Learning Centre Idea</h2>
         <div class="flex flex-col gap-10">
             <ul>
@@ -308,7 +308,7 @@ Encourage children to think what can the natural resources be<br>
 
 
     {{-- slide 14 --}}
-    <div class="text-white flex flex-col items-center justify-center gap-y-10 text-start text-2xl slide hidden">
+    <div class="text-white flex flex-col items-center justify-center  text-start text-2xl slide hidden">
         <h2 class=" title stroke">Learning Centre Idea</h2>
         <div>
             <ul class="list-disc">

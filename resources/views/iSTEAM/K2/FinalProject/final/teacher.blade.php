@@ -3,9 +3,9 @@
  
 @section('content')
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
-            <h2 class="t-title font-bold">Children will be able to:</h2>
+            <h2 class="t-title ">Children will be able to:</h2>
             <ul class="list-disc ">
                 <li>Invent things that help to solve problems or challenges using previously learnt knowledge</li>
                 <li>Use design thinking to solve problems together with friends</li>
@@ -16,7 +16,7 @@
         </div>
 
         <div class="flex flex-col  items-start justify-between">
-            <h2 class="t-title font-bold">Keywords:</h2>
+            <h2 class="t-title ">Keywords:</h2>
             <ul class="list-disc ">
                 <li>Simple Machines</li>
                 <li>Coding/Programming</li>
@@ -31,10 +31,10 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
             <ul class="list-disc ">
-                <h2 class="font-bold t-title">Preparations:</h2>
+                <h2 class=" t-title">Preparations:</h2>
                 <li>Common art and craft materials (ice cream sticks, rubber bands, different strings, ruler, coloured
                     pencils, adhesive tape, glue, scissors, etc)</li>
                 <li>Recycled materials (tissue boxes, plastic bottles, empty cans, etc)</li>
@@ -55,7 +55,7 @@
     {{-- sldie 3 --}}
     <div class=" slide text-start text-2xl text-white">
         <div>
-            <h2 class="font-bold t-title">Possible iSTEAM concepts for each problem/challenge:</h2>
+            <h2 class=" t-title">Possible iSTEAM concepts for each problem/challenge:</h2>
             <img src="{{ asset('assets/images/K2/final/f15.png') }}" />
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
@@ -65,7 +65,7 @@
     {{-- sldie 4 --}}
     <div class=" slide text-start text-2xl text-white">
         <div>
-            <h2 class="font-bold t-title">Possible iSTEAM concepts for each problem/challenge:</h2>
+            <h2 class=" t-title">Possible iSTEAM concepts for each problem/challenge:</h2>
             <img src="{{ asset('assets/images/K2/final/f16.png') }}" />
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
@@ -163,7 +163,7 @@
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold t-title">Notes:</h2>
+                <h2 class=" t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
                     <li>
                         If you see

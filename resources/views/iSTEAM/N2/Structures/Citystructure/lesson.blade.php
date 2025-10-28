@@ -209,7 +209,7 @@
 
     {{-- slide 22 --}}
     <div class="slide hidden  flex flex-col items-center justify-between h-[50vh]">
-        <h2 class="title stroke !text-white font-bold">Class Activity</h2>
+        <h2 class="title stroke !text-white ">Class Activity</h2>
         <h2 class="title stroke !text-start">Mission: <br>
             Let's build a city using the construction set.</h2>
         <p class="note">Note: Teacher can lead the discussion as a class to draw out the plan before dividing them into
@@ -262,7 +262,7 @@
 
     {{-- slide 26 --}}
     <div class="slide hidden  flex flex-col items-center !text-white justify-center ">
-        <h2 class="title stroke  font-bold">Learning Journal</h2>
+        <h2 class="title stroke  ">Learning Journal</h2>
         <div class="w-[40vw] h-[38vh]  border-2 border-white  flex flex-col justify-between items-start">
             <p>Draw the structure that you would like to create in
                 the city.</p>

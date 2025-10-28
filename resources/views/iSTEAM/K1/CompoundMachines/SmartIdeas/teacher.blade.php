@@ -18,7 +18,7 @@
             </ul>
         </div>
         <div>
-            <h2 class="t-title font-bold">Keywords:</h2>
+            <h2 class="t-title ">Keywords:</h2>
             <ul class="list-disc ">
                 <li>Domino Effect</li>
                 <li>Chain Reaction</li>
@@ -34,7 +34,7 @@
     {{-- slide 2 --}}
     <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start w-[75%]">
         <div>
-            <h2 class="font-bold t-title">Preparations for Class Activity I:</h2>
+            <h2 class=" t-title">Preparations for Class Activity I:</h2>
             <div class="flex items-center justify-around w-full">
                 <ul class="list-disc ">
                     <li>Dominoes</li>
@@ -57,7 +57,7 @@
     {{-- slide 3 --}}
     <div class=" slide flex flex-col t-slide text-2xl text-white justify-start  text-start ">
         <div>
-            <h2 class="font-bold t-title">Things to consider for preparations:</h2>
+            <h2 class=" t-title">Things to consider for preparations:</h2>
             <ul class="list-disc ">
                 <li> You may provide toy tracks or handmade tracks for children to set up the
                     machine, as long as the tracks are sturdy enough to set up the ideas.</li>
@@ -73,7 +73,7 @@
     {{-- slide 4 --}}
     <div class=" slide flex flex-col t-slide text-2xl text-white justify-start  text-start ">
         <div>
-            <h2 class="font-bold t-title">Things to consider during hands-on session for Ball Roll activity:</h2>
+            <h2 class=" t-title">Things to consider during hands-on session for Ball Roll activity:</h2>
             <ul class="list-disc ">
                 <li> Guide children to place the dominoes at a distance from the inclined plane so
                     that the ice cream stick on the last domino just touches the ball.</li>
@@ -87,7 +87,7 @@
     {{-- slide 5 --}}
     <div class=" slide flex flex-col t-slide text-2xl text-white justify-start  text-start ">
         <div>
-            <h2 class="font-bold t-title">Things to consider during hands-on session for Ball Roll activity:</h2>
+            <h2 class=" t-title">Things to consider during hands-on session for Ball Roll activity:</h2>
             <ul class="list-disc ">
                 <li> Guide children to adjust the slope of the big book with more/less books so
                     that the cup can turn and make the ball roll down into the lower track</li>
@@ -100,7 +100,7 @@
     {{-- slide 6 --}}
     <div class=" slide flex flex-col t-slide text-2xl text-white justify-start  text-start ">
         <div>
-            <h2 class="font-bold t-title">Things to consider during hands-on session for Ball Roll activity:</h2>
+            <h2 class=" t-title">Things to consider during hands-on session for Ball Roll activity:</h2>
             <ul class="list-disc ">
                 <li> A flap on the cardstock track was inserted in the book to hold the track
                     firmly on the book. You can also fix the track to the book with adhesive tape.</li>

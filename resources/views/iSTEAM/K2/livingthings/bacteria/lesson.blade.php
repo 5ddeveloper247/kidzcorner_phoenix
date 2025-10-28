@@ -255,7 +255,7 @@
 
     {{-- slide 29 --}}
     <div class="slide flex flex-col items-center justify-center gap-5   ">
-        <h2 class="title stroke font-bold !text-white">Class Activity</h2>
+        <h2 class="title stroke  !text-white">Class Activity</h2>
         <img src="/assets/images/K2/livingthings/bacteria/b36.png" />
         <h2 class="title stroke !text-start">Let's find out: <br>
             Do disinfectant sprays really kill bacteria?</h2>

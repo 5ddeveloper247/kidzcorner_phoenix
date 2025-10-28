@@ -191,7 +191,7 @@
         </div>
         <div class="flex gap-[1vw] items-start">
             <img src="/assets/images/K1/coding/go/go28.png" class="w-img" />
-            <div class="flex flex-col items-end gap-y-10">
+            <div class="flex flex-col items-end ">
                 <img src="/assets/images/K1/coding/go/go31.png" class="h-[15vh]" />
                 <a class="click-btn1 w-[12vw] cursor-pointer bg-sky-500 rounded-[30px] p-[1.5vw] z-[99] text-white">Visual
                     Guide</a>

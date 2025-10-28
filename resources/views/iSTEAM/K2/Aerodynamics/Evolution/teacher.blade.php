@@ -3,9 +3,9 @@
  
 @section('content')
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
-            <h2 class="t-title font-bold">Children will be able to:</h2>
+            <h2 class="t-title ">Children will be able to:</h2>
             <ul class="list-disc ">
                 <li>Learn about the history of aeroplane design and how it has evolved</li>
                 <li>Understand aerodynamic forces in various types of vehicles</li>
@@ -15,7 +15,7 @@
         </div>
 
         <div class="flex flex-col  items-start justify-between">
-            <h2 class="t-title font-bold">Keywords:</h2>
+            <h2 class="t-title ">Keywords:</h2>
             <div class="flex gap-[10rem]">
                 <ul class="list-disc ">
                     <li>Wright Brothers</li>
@@ -39,9 +39,9 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div class="space-y-10">
-            <h2 class="font-bold t-title">Preparations:</h2>
+            <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
                 <h2>Monoplane</h2>
                 <li>The propeller provides thrust for the plane to move forward.</li>
@@ -74,7 +74,7 @@
     {{-- sldie 3 --}}
     <div class=" slide text-start text-2xl text-white">
         <div>
-            <h2 class="font-bold t-title">Additional info on wind tunnel test:</h2>
+            <h2 class=" t-title">Additional info on wind tunnel test:</h2>
             <ul class="list-disc text-[#F7B94A] space-y-10">
                 <li>
                     <a href="https://news.cgtn.com/news/2022-01-05/How-China-uses-wind-tunnels-to-train-
@@ -97,7 +97,7 @@
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold t-title">Notes:</h2>
+                <h2 class=" t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
                     <li>
                         If you see

@@ -96,7 +96,7 @@
     {{-- slide 8 --}}
     <div class=" slide hidden flex flex-col items-center align-middle justify-between h-[50vh]">
 
-        <h2 class="font-bold t-title title !text-white">Class Activity:</h2>
+        <h2 class=" t-title title !text-white">Class Activity:</h2>
         <ul class=" lesson-ul title stroke !text-start">
             <li>Mission:</li>
             <li>Build a Rube Goldberg Machine to throw a rubbish.</li>

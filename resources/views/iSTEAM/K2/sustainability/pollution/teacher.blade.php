@@ -3,7 +3,7 @@
  
 @section('content')
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -18,7 +18,7 @@
         </div>
 
         <div class="flex flex-col  items-start justify-between">
-            <h2 class="t-title font-bold">Keywords:</h2>
+            <h2 class="t-title ">Keywords:</h2>
             <div >
                 <ul class="list-disc ">
                     <li>Natural</li>
@@ -46,9 +46,9 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Preparations For Class Activity 1:</h2>
+            <h2 class=" t-title">Preparations For Class Activity 1:</h2>
             <ul class="list-disc ">
                 <li>
                   Prepare a piece of mahjong paper or A3 sized paper for the brainstorming session.
@@ -66,9 +66,9 @@
 
 
     {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-center gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-center  text-start">
         <div>
-            <h2 class="font-bold t-title">Preparations For Class Activity 1:</h2>
+            <h2 class=" t-title">Preparations For Class Activity 1:</h2>
             <ul class="list-disc">
                 <li>Prepare a spoon to scoop the filter materials into each bottle during the activity. 
                     Ensure each group has the same amount.</li>
@@ -86,9 +86,9 @@
 
 
     {{-- slide 4 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Preparations For Class Activity 1:</h2>
+            <h2 class=" t-title">Preparations For Class Activity 1:</h2>
             <ul class="list-decimal">
                 <li>You can plan such that different groups have a different set of filter materials or place 
                     materials in different order.</li>
@@ -107,9 +107,9 @@ Put two coffee filter paper together and tie them at the mouth of the bottle wit
 
 
     {{-- slide 5 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Preparations For Class Activity 1:</h2>
+            <h2 class=" t-title">Preparations For Class Activity 1:</h2>
             <ul>
                 <li>2. Scoop the filter materials and add them in layer by layer in this order <br>
 <h3 class="title stroke">Bottle 1 </h3> : Activated charcoal , sand , gravel and pebbles</li>
@@ -126,9 +126,9 @@ only add sand , gravel and pebbles layer by layer in this order.</li>
     </div>
         
  {{-- slide 5 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Preparations For Class Activity 1:</h2>
+            <h2 class=" t-title">Preparations For Class Activity 1:</h2>
             <ul>
                 <li>3. Pour half the dirty mixture into the water filter.<br>
 4. It may take more than 30 minutes to one hour to have some liquid being filtered out.</li>
@@ -148,9 +148,9 @@ only add sand , gravel and pebbles layer by layer in this order.</li>
 
 
     {{-- sldie 6 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Preparations for Class Activity 2 :</h2>
+            <h2 class=" t-title">Preparations for Class Activity 2 :</h2>
             <ul>
                 <li>
 Two 500ml water bottles of the same type
@@ -166,9 +166,9 @@ If children find it hard to see the results of the materials in the bottles, you
 
 
     {{-- sldie 7 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Useful information:</h2>
+            <h2 class=" t-title">Useful information:</h2>
             <ul>
                 <li>
 
@@ -195,9 +195,9 @@ observed, oil can make fish and shellfish unsafe for humans to eat.
     </div>
 
 {{-- sldie 7 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Notes</h2>
+            <h2 class=" t-title">Notes</h2>
             <ul>
                 <li>If you see <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s27.png') }}" /> next to a picture, click on the picture to watch the video
                 </li>
@@ -223,7 +223,7 @@ observed, oil can make fish and shellfish unsafe for humans to eat.
     </div>
 
     {{-- sldie 8 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
           <h2 class="title stroke justify-center" > Learning Centre Idea </h2>
             <h2 class="text-white">Biodegradable Vs Non-biodegradable</h2>
@@ -250,9 +250,9 @@ rotten. Please dispose the items once they have rot badly.
 
 
     {{-- slide 9 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">How to make own set of fingerprints and things to consider:</h2>
+            <h2 class=" t-title">How to make own set of fingerprints and things to consider:</h2>
             <ul>
                 <li>6. (A, B & C) Repeat the steps for other fingers. [Have all the A, B & C repeat steps 1-5 to complete
                     the fingerprint record of B. After that, have them change their roles to help one another complete the
@@ -265,9 +265,9 @@ rotten. Please dispose the items once they have rot badly.
     </div>
 
     {{-- slide 10 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">How to make own set of fingerprints and things to consider:</h2>
+            <h2 class=" t-title">How to make own set of fingerprints and things to consider:</h2>
             <ul>
                 <li>7. Observe your fingerprints. [ Have children observe and compare their own set of fingerprints on the
                     record. Then have them share their views. ]</li>
@@ -279,9 +279,9 @@ rotten. Please dispose the items once they have rot badly.
     </div>
 
     {{-- slide 11 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">How to make own set of fingerprints and things to consider:</h2>
+            <h2 class=" t-title">How to make own set of fingerprints and things to consider:</h2>
             <ul>
                 <li>8. Compare your fingerprints with friends. [ Have children observe and compare their fingerprints with
                     friends. Then have them share their views. ]</li>
@@ -298,7 +298,7 @@ rotten. Please dispose the items once they have rot badly.
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold t-title">Notes:</h2>
+                <h2 class=" t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
                     <li>
                         If you see
@@ -337,7 +337,7 @@ rotten. Please dispose the items once they have rot badly.
 
 
     {{-- slide 13 --}}
-    <div class="text-white flex flex-col items-center justify-center gap-y-10 text-start text-2xl slide hidden">
+    <div class="text-white flex flex-col items-center justify-center  text-start text-2xl slide hidden">
         <h2 class=" title stroke">Learning Centre Idea</h2>
         <div class="flex flex-col gap-10">
             <ul>
@@ -363,7 +363,7 @@ rotten. Please dispose the items once they have rot badly.
 
 
     {{-- slide 14 --}}
-    <div class="text-white flex flex-col items-center justify-center gap-y-10 text-start text-2xl slide hidden">
+    <div class="text-white flex flex-col items-center justify-center  text-start text-2xl slide hidden">
         <h2 class=" title stroke">Learning Centre Idea</h2>
         <div>
             <ul class="list-disc">

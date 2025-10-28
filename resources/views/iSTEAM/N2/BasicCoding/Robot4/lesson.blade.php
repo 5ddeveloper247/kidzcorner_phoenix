@@ -35,11 +35,11 @@
     {{-- sldie 4 --}}
     <div class="slide flex flex-col items-center justify-center  ">
         <div class="flex items-center gap-x-10">
-            <div class="flex flex-col items-center justify-center gap-y-10">
+            <div class="flex flex-col items-center justify-center ">
                 <img src="{{ asset('assets/images/N2/BasicCoding/rb6.png') }}" class="large-img4" />
                 <img src="{{ asset('assets/images/N2/BasicCoding/rb8.png') }}" class="large-img4" />
             </div>
-            <div class="flex flex-col items-center justify-center gap-y-10">
+            <div class="flex flex-col items-center justify-center ">
                 <img src="{{ asset('assets/images/N2/BasicCoding/rb7.png') }}" class="large-img4" />
                 <img src="{{ asset('assets/images/N2/BasicCoding/rb9.png') }}" class="large-img4" />
             </div>
@@ -62,11 +62,11 @@
     {{-- sldie 6 --}}
     <div class="slide flex flex-col items-center justify-center  ">
         <div class="flex items-center gap-x-10">
-            <div class="flex flex-col items-center justify-center gap-y-10">
+            <div class="flex flex-col items-center justify-center ">
                 <img src="{{ asset('assets/images/N2/BasicCoding/rb6.png') }}" class="large-img4" />
                 <img src="{{ asset('assets/images/N2/BasicCoding/rb8.png') }}" class="large-img4" />
             </div>
-            <div class="flex flex-col items-center justify-center gap-y-10">
+            <div class="flex flex-col items-center justify-center ">
                 <img src="{{ asset('assets/images/N2/BasicCoding/rb7.png') }}" class="large-img4" />
                 <img src="{{ asset('assets/images/N2/BasicCoding/rb9.png') }}" class="large-img4" />
             </div>

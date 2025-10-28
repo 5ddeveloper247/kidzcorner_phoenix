@@ -8,7 +8,7 @@
     {{-- sldie 1  --}}
     <div class=" slide flex text-2xl t-slide text-white flex-col justify-start  text-start">
         <div>
-            <h2 class="t-title font-bold">Children will be able to:</h2>
+            <h2 class="t-title ">Children will be able to:</h2>
             <ul class="list-disc ">
                 <li>Know that a circuit is a specific path that electricity can flow through.</li>
                 <li>Know that only a complete circuit allows electricity to provide power for an electronic or electronics
@@ -19,7 +19,7 @@
         </div>
 
         <div>
-            <h2 class="t-title font-bold">Keywords:</h2>
+            <h2 class="t-title ">Keywords:</h2>
             <div class="flex items-center gap-[4vw]">
                 <ul class="list-disc ">
                     <li>Machines</li>
@@ -45,7 +45,7 @@
     <div class=" slide flex text-2xl t-slide text-white flex-col justify-start  text-start">
         <div class="space-y-10">
             <ul class="list-disc ">
-                <h2 class="font-bold t-title">Preparations:</h2>
+                <h2 class=" t-title">Preparations:</h2>
                 <li>Each group a set of basic circuit components.</li>
             </ul>
         </div>
@@ -57,7 +57,7 @@
     {{-- sldie 3 --}}
     <div class=" slide text-start text-2xl t-slide text-white">
         <div>
-            <h2 class="font-bold t-title">Things to note during hands-on session:</h2>
+            <h2 class=" t-title">Things to note during hands-on session:</h2>
             <ul class="list-disc pl-[50px]">
                 <li>Remind children not to touch any circuit parts when their hands are wet.</li>
                 <li>Remind children to handle the circuit parts with care and not to put them into their mouths.</li>
@@ -84,7 +84,7 @@
     {{-- slide 4 --}}
     <div class="slide flex  flex-col justify-start  text-2xl t-slide text-start text-white w-[80%]">
         <div>
-            <h2 class="font-bold t-title">Notes:</h2>
+            <h2 class=" t-title">Notes:</h2>
             <ul class="list-disc leading-relaxed">
                 <li class="flex">
                     If you see

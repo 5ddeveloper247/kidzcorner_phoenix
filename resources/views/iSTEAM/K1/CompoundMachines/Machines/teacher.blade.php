@@ -18,7 +18,7 @@
             </ul>
         </div>
         <div>
-            <h2 class="t-title font-bold">Keywords:</h2>
+            <h2 class="t-title ">Keywords:</h2>
             <ul class="list-disc ">
                 <li>Compound Machine</li>
                 <li>Simple Machine</li>
@@ -37,7 +37,7 @@
     {{-- slide 2 --}}
     <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start ">
         <div>
-            <h2 class="font-bold t-title">Preparations for Class Activity I:</h2>
+            <h2 class=" t-title">Preparations for Class Activity I:</h2>
             <div>
                 <ul class="list-disc ">
                     <li>Some common compound machines like scissors, hole punch, fork,

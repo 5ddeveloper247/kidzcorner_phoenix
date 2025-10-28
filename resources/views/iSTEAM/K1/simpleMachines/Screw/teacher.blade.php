@@ -7,7 +7,7 @@
 
 
     {{-- sldie 23  --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -33,7 +33,7 @@
 
 
     {{-- slide 24 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start gap-y-10 text-start ">
+    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start ">
         <div>
             <h2 class=" t-title">Preparations</h2>
             <ul class="list-disc ">
@@ -53,7 +53,7 @@
 
 
     {{-- Slide 25 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start gap-y-10 text-start ">
+    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start ">
         <div>
             <ul>
                 <h2 class="t-title">How to make an Archimedes’ screw and things to consider:</h2>

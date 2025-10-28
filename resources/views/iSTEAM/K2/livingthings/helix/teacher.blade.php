@@ -3,7 +3,7 @@
  
 @section('content')
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -17,7 +17,7 @@
         </div>
 
         <div class="flex flex-col  items-start justify-between">
-            <h2 class="t-title font-bold">Keywords:</h2>
+            <h2 class="t-title ">Keywords:</h2>
             <div >
                 <ul class="list-disc ">
                     <li>Living Thing</li>
@@ -38,9 +38,9 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Preparations:</h2>
+            <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
                 <li>
                     1 pipe cleaner for each child
@@ -67,9 +67,9 @@
 
 
     {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">How to make a model of DNA double helix and things to consider:</h2>
+            <h2 class=" t-title">How to make a model of DNA double helix and things to consider:</h2>
             <ul class="list-decimal">
                 <li>Have children find out the colour representation of each bead . [Display the beads with labels. Guide
                     children to understand which coloured bead represent which base.]</li>
@@ -82,9 +82,9 @@
 
 
     {{-- slide 4 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">How to make a model of DNA double helix and things to consider:</h2>
+            <h2 class=" t-title">How to make a model of DNA double helix and things to consider:</h2>
             <ul>
                 <li>2.Have children create base pairs by hooking AT or CG beads together in the middle of the twist tie.
                     [Tell children how many base pairs is needed (this sample needs 10 pairs in total) and it is up to them
@@ -98,9 +98,9 @@
 
 
     {{-- slide 5 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">How to make a model of DNA double helix and things to consider:</h2>
+            <h2 class=" t-title">How to make a model of DNA double helix and things to consider:</h2>
             <ul>
                 <li>3. Have children attach the base pairs to the pipe cleaners by twisting the free ends of twist ties
                     around the pipe cleaners . [Advise children to space the base pairs as evenly as possible on the pipe
@@ -115,9 +115,9 @@
 
 
     {{-- sldie 6 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">How to make a model of DNA double helix and things to consider:</h2>
+            <h2 class=" t-title">How to make a model of DNA double helix and things to consider:</h2>
             <ul>
                 <li>4. Have children display and observe the ladder made . [Have them place all ladders made together for
                     observations. Guide them to compare and find out if many of them have the same base pattern. Guide them
@@ -131,9 +131,9 @@
 
 
     {{-- sldie 7 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">How to make a model of DNA double helix and things to consider:</h2>
+            <h2 class=" t-title">How to make a model of DNA double helix and things to consider:</h2>
             <ul>
                 <li>5. Have children twist the ladder to form the shape of DNA double helix . [Help each child to adjust the
                     shape and tidy up one end of the DNA model (twist two free ends together and fold the sharp point around
@@ -146,9 +146,9 @@
     </div>
 
     {{-- sldie 8 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">How to make a model of DNA double helix and things to consider:</h2>
+            <h2 class=" t-title">How to make a model of DNA double helix and things to consider:</h2>
             <ul>
                 <li>6. Have children attach a strap over the DNA double helix . [Tell children that they can use the DNA
                     model as a charm to hang on their belongings .]</li>
@@ -164,7 +164,7 @@
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold t-title">Notes:</h2>
+                <h2 class=" t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
                     <li>
                         If you see
@@ -203,7 +203,7 @@
 
 
     {{-- slide 10 --}}
-    <div class="text-white flex flex-col items-center justify-center gap-y-10 text-start text-2xl slide hidden">
+    <div class="text-white flex flex-col items-center justify-center  text-start text-2xl slide hidden">
         <h2 class=" title stroke">Learning Centre Idea</h2>
         <div class="flex flex-col gap-10">
             <ul>
@@ -227,7 +227,7 @@
 
 
     {{-- slide 11 --}}
-    <div class="text-white flex flex-col items-center justify-center gap-y-10 text-start text-2xl slide hidden">
+    <div class="text-white flex flex-col items-center justify-center  text-start text-2xl slide hidden">
         <h2 class=" title stroke">Learning Centre Idea</h2>
         <div>
             <ul class="list-disc">
@@ -246,7 +246,7 @@
 
 
     {{-- slide 12 --}}
-    <div class="text-white flex flex-col items-center justify-center gap-y-10 text-start text-2xl slide hidden">
+    <div class="text-white flex flex-col items-center justify-center  text-start text-2xl slide hidden">
         <h2 class=" title stroke">Learning Centre Idea</h2>
         <div class="space-y-20">
             <div>
@@ -270,7 +270,7 @@
     </div>
 
     {{-- slide 13 --}}
-    <div class="text-white flex flex-col items-center justify-center gap-y-10 text-start text-2xl slide hidden">
+    <div class="text-white flex flex-col items-center justify-center  text-start text-2xl slide hidden">
         <h2 class=" title stroke">Extension Class Activity 1</h2>
         <div class="space-y-20">
             <div>
@@ -288,7 +288,7 @@
 
 
     {{-- slide 14 --}}
-    <div class="text-white flex flex-col items-center justify-center gap-y-10 text-start text-2xl slide hidden">
+    <div class="text-white flex flex-col items-center justify-center  text-start text-2xl slide hidden">
         <h2 class=" title stroke">Extension Class Activity 1</h2>
         <h2 class="!text-white title stroke">Let's Sing A Song</h2>
         <div class="text-center">
@@ -305,7 +305,7 @@
 
 
     {{-- slide 15 --}}
-    <div class="text-white flex flex-col items-center justify-center gap-y-10 text-start text-2xl slide hidden">
+    <div class="text-white flex flex-col items-center justify-center  text-start text-2xl slide hidden">
         <h2 class=" title stroke">Extension Class Activity 2</h2>
         <div class="space-y-20">
             <div>
@@ -325,7 +325,7 @@
 
 
     {{-- slide 16 --}}
-    <div class="text-white flex flex-col items-center justify-center gap-y-10 text-start text-2xl slide hidden">
+    <div class="text-white flex flex-col items-center justify-center  text-start text-2xl slide hidden">
         <h2 class=" title stroke">Extension Class Activity 2</h2>
         <div class="space-y-20">
             <div>
@@ -344,7 +344,7 @@
 
 
     {{-- slide 17 --}}
-    <div class="text-white flex flex-col items-center justify-center gap-y-10 text-start text-2xl slide hidden">
+    <div class="text-white flex flex-col items-center justify-center  text-start text-2xl slide hidden">
         <h2 class=" title stroke">Extension Class Activity 2</h2>
         <h2 class="!text-white title stroke">Appendix 1: Which Traits Of You Are Inherited?</h2>
         <img src="{{ asset('assets/images/K2/livingthings/dna/h21.png') }}" />
@@ -353,7 +353,7 @@
 
 
     {{-- slide 18 --}}
-    <div class="text-white flex flex-col items-center justify-center gap-y-10 text-start text-2xl slide hidden">
+    <div class="text-white flex flex-col items-center justify-center  text-start text-2xl slide hidden">
         <h2 class=" title stroke">Extension Class Activity 2</h2>
         <h2 class="!text-white title stroke">Appendix 1: Which Traits Of You Are Inherited?</h2>
         <img src="{{ asset('assets/images/K2/livingthings/dna/h22.png') }}" />
@@ -361,7 +361,7 @@
     </div>
 
        {{-- slide 19 --}}
-    <div class="text-white flex flex-col items-center justify-center gap-y-10 text-start text-2xl slide hidden">
+    <div class="text-white flex flex-col items-center justify-center  text-start text-2xl slide hidden">
         <h2 class=" title stroke">Extension Class Activity 2</h2>
         <h2 class="!text-white title stroke">Appendix 2: Which Traits Of You Are Inherited?</h2>
         <img src="{{ asset('assets/images/K2/livingthings/dna/h23.png') }}" />

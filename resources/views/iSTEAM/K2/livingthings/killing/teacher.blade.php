@@ -7,7 +7,7 @@
 
 
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -19,7 +19,7 @@
 
         <div class="flex w-[100%] items-center justify-between ">
             <div>
-                <h2 class="t-title font-bold">Keywords:</h2>
+                <h2 class="t-title ">Keywords:</h2>
                 <ul class="list-disc ">
                     <li>Sun</li>
                     <li>Bright / Brightly</li>
@@ -40,9 +40,9 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Preparations:</h2>
+            <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
                 <li>2 Petri dishes with nutrient agar</li>
                 <li>Cotton buds</li>
@@ -52,7 +52,7 @@
                 <li>1 disinfectant spray</li>
                 <li>1 dirty shoe (a sandal or slipper is easier for preparation of test samples)</li>
                 <br>
-                <h2 class="font-bold t-title">Definition of some words:</h2>
+                <h2 class=" t-title">Definition of some words:</h2>
                 <li>Antibiotics - medicine used to kill bacteria and treat infections</li>
                 <li>Antiseptics - things used to kill bacteria by applying on the skin</li>
                 <li>Petri dish - a flat dish with lid that scientists use to grow tiny living things such as bacteria</li>
@@ -161,7 +161,7 @@
     {{-- <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold t-title">Notes:</h2>
+                <h2 class=" t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
                     <li>
                         If you see
@@ -245,7 +245,7 @@
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold t-title">Notes:</h2>
+                <h2 class=" t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
                     <li>
                         If you see
@@ -293,7 +293,7 @@
 
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold t-title">What to do:</h2>
+                <h2 class=" t-title">What to do:</h2>
                 <ul>
                     <li>
                         <strong>*</strong> Invite children to pick up pictures and sort them into groups:
@@ -318,7 +318,7 @@
             <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" />
             </div>
             <span
-                class="absolute left-[80px] top-[18px] flex items-center  text-white text-5xl font-bold stroke">DONE</span>
+                class="absolute left-[80px] top-[18px] flex items-center  text-white text-5xl  stroke">DONE</span>
         </button>
     </div>
 

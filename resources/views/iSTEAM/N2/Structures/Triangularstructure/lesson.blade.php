@@ -120,7 +120,7 @@
 
     {{-- slide 11 --}}
     <div class="slide hidden  flex flex-col items-center justify-start ">
-        <h2 class="title stroke !text-white font-bold">Class Activity</h2>
+        <h2 class="title stroke !text-white ">Class Activity</h2>
         <div class=" flex items-center justify-center ">
 
 
@@ -136,7 +136,7 @@
 
     {{-- slide 12 --}}
     <div class="slide hidden  flex flex-col justify-start items-center  ">
-        <h2 class="title stroke font-bold !text-start">Steps: <br>
+        <h2 class="title stroke  !text-start">Steps: <br>
             1.Look at the tower and observe the parts used. Point
             out the shapes on the structure.</h2>
 
@@ -152,7 +152,7 @@
 
     {{-- slide 13 --}}
     <div class="slide hidden  flex flex-col justify-start items-center  ">
-        <h2 class="title stroke font-bold !text-start">Steps: <br>
+        <h2 class="title stroke  !text-start">Steps: <br>
             2.Get the following parts from the construction set.</h2>
 
         <div class="flex justify-center items-end">
@@ -171,7 +171,7 @@
 
     {{-- slide 14 --}}
     <div class="slide hidden  flex flex-col justify-start items-center  ">
-        <h2 class="title stroke font-bold !text-start">Steps: <br>
+        <h2 class="title stroke  !text-start">Steps: <br>
             3.Connect a 4 direction connector on the long rectangle piece.</h2>
 
 
@@ -185,7 +185,7 @@
 
     {{-- slide 15 --}}
     <div class="slide hidden  flex flex-col justify-start items-center  ">
-        <h2 class="title stroke font-bold !text-start">Steps: <br>
+        <h2 class="title stroke  !text-start">Steps: <br>
             4.Connect two more long rectangle pieces on the connector <br>
             and adjust the pieces such that it forms a ‘Y’ shape.</h2>
 
@@ -206,7 +206,7 @@
 
     {{-- slide 16 --}}
     <div class="slide hidden  flex flex-col justify-start items-center  ">
-        <h2 class="title stroke font-bold !text-start">Steps: <br>
+        <h2 class="title stroke  !text-start">Steps: <br>
             5.Take the square piece and connect four 3-direction <br>
             connectors on each side.</h2>
 
@@ -225,7 +225,7 @@
 
     {{-- slide 17 --}}
     <div class="slide hidden  flex flex-col justify-start items-center  ">
-        <h2 class="title stroke font-bold !text-start">Steps:
+        <h2 class="title stroke  !text-start">Steps:
             6.Connect the square piece to the ‘Y’ shape structure.</h2>
 
         <div class="flex justify-center items-center">
@@ -243,7 +243,7 @@
 
     {{-- slide 18 --}}
     <div class="slide hidden  flex flex-col justify-start items-center  ">
-        <h2 class="title stroke font-bold !text-start">Steps:
+        <h2 class="title stroke  !text-start">Steps:
             7.Connect one long rectangle to each of the connectors
             as shown.</h2>
 
@@ -263,7 +263,7 @@
 
     {{-- slide 19 --}}
     <div class="slide hidden  flex flex-col justify-start items-center  ">
-        <h2 class="title stroke font-bold !text-start">Steps: <br>
+        <h2 class="title stroke  !text-start">Steps: <br>
             8.After connecting four long rectangles, adjust the pieces
             and the tower is done!</h2>
 
@@ -296,7 +296,7 @@
 
     {{-- click here --}}
     <div class="slide hidden click1 flex flex-col justify-start items-center  ">
-        <h2 class="title stroke font-bold !text-start">Steps: <br>
+        <h2 class="title stroke  !text-start">Steps: <br>
             1.Find the pieces required to make the tower taller.</h2>
 
 
@@ -309,7 +309,7 @@
 
     {{-- slide 22 --}}
     <div class="slide hidden click1  flex flex-col justify-start items-center  ">
-        <h2 class="title stroke font-bold !text-start">Steps: <br>
+        <h2 class="title stroke  !text-start">Steps: <br>
             2.Connect the 3-directions connectors on two opposite
             rectangle pieces as shown.</h2>
 
@@ -324,7 +324,7 @@
 
     {{-- slide 23 --}}
     <div class="slide hidden click1  flex flex-col justify-start items-center  ">
-        <h2 class="title stroke font-bold !text-start">Steps: <br>
+        <h2 class="title stroke  !text-start">Steps: <br>
             3.Connect one long rectangle pieces to the connectors.</h2>
 
 
@@ -337,7 +337,7 @@
 
     {{-- slide 24 --}}
     <div class="slide hidden click1  flex flex-col justify-start items-center  ">
-        <h2 class="title stroke font-bold !text-start">Steps: <br>
+        <h2 class="title stroke  !text-start">Steps: <br>
             4.Connect one square piece using the 3-directions <br>
             connector as shown.</h2>
 
@@ -351,7 +351,7 @@
 
     {{-- slide 25 --}}
     <div class="slide hidden click1  flex flex-col justify-start items-center  ">
-        <h2 class="title stroke font-bold !text-start">Steps: <br>
+        <h2 class="title stroke  !text-start">Steps: <br>
             5.Use a 2-directions connector to fix the square piece
             to the centre piece..</h2>
 
@@ -367,7 +367,7 @@
 
     {{-- slide 26 --}}
     <div class="slide hidden click1  flex flex-col justify-start items-center  ">
-        <h2 class="title stroke font-bold !text-start">Steps: <br>
+        <h2 class="title stroke  !text-start">Steps: <br>
             6.Connect a square piece on the other side in the same way.</h2>
 
 
@@ -380,7 +380,7 @@
 
     {{-- slide 27 --}}
     <div class="slide hidden click1  flex flex-col justify-start items-center  ">
-        <h2 class="title stroke font-bold !text-start">Steps: <br>
+        <h2 class="title stroke  !text-start">Steps: <br>
             7.Connect a long rectangle at each of the connectors.</h2>
 
         <div class="flex">
@@ -397,7 +397,7 @@
 
     {{-- slide 28 --}}
     <div class="slide hidden click1  flex flex-col justify-start items-center  ">
-        <h2 class="title stroke font-bold !text-start">Steps: <br>
+        <h2 class="title stroke  !text-start">Steps: <br>
             8.Adjust the pieces to make the tower stand and the <br>
             tower is completed!</h2>
 
@@ -475,7 +475,7 @@
 
     {{-- slide 35 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <h2 class="title stroke !text-white font-bold">Class Activity</h2>
+        <h2 class="title stroke !text-white ">Class Activity</h2>
 
         <h2 class="title stroke !text-start">Mission: <br>
             Build the biggest pyramid with all the blocks in the
@@ -486,7 +486,7 @@
 
     {{-- slide 36 --}}
     <div class="slide hidden  flex flex-col justify-start items-center  ">
-        <h2 class="title stroke font-bold !text-start">Steps: <br>
+        <h2 class="title stroke  !text-start">Steps: <br>
             3.As the pyramid has stairs on the four sides, add blocks <br>
             on each side to create the stairs. <br>
             4.Continue to expand the structure and see how big can <br>
@@ -511,7 +511,7 @@
             <img src="{{ asset('assets/images/N2/structure/tr-str/s33.png') }}" class="large-img4"  />
         </div>
 
-        <h2 class="title stroke font-bold">We learned that <span class="text-white">tower</span> and <span
+        <h2 class="title stroke ">We learned that <span class="text-white">tower</span> and <span
                 class="text-white">pyramids</span> are <span class="text-white">structures</span>
             that look like <span class="text-white">triangles</span>.</h2>
     </div>
