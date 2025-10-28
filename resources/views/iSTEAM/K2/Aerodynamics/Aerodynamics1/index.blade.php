@@ -5,7 +5,7 @@
 
     <div id="topDiv" class="flex flex-col items-center !justify-center">
         <div class="indexTitle  text-[55px]  stroke">What is Aerodynamics? 1</div>
-        <h2 class="text-2xl sm:text-3xl lg:text-5xl text-white stroke ">
+        <h2 class=" text-white stroke ">
             Understanding the concept of Weight and Lift</h2>
 
         {{-- next Button --}}

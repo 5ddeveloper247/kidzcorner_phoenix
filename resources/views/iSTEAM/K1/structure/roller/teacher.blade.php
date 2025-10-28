@@ -1,9 +1,13 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
- 
+
 @section('content')
+
+    {{-- title --}}
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">Roler Coasters</h2>
+
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -15,82 +19,78 @@
             </ul>
         </div>
 
-        <div class="flex w-[100%] items-center justify-between">
-            <div>
-                <h2 class="t-title font-bold">Keywords:</h2>
-                <ul class="list-disc ">
-                    <li>Structures</li>
-                    <li>Roller Coasters</li>
-                    <li>Track</li>
-                </ul>
-            </div>
+        <div>
+            <h2 class="t-title ">Keywords:</h2>
+            <ul class="list-disc ">
+                <li>Structures</li>
+                <li>Roller Coasters</li>
+                <li>Track</li>
+            </ul>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Preparations for the making of the track:</h2>
+            <h2 class=" t-title">Preparations for the making of the track:</h2>
             <ul class="list-disc ">
                 <li>Each group a set of straws of different lengths - 15 long, 4 medium-length, and 36 short straws</li>
                 <li>Each group 20 pipe cleaners (sample's measurement: 30cm long)</li>
                 <li>Each child a pair of scissors (remind children to use them carefully)</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K1/str/r17.png') }}" alt="Teacher" class="w-[600px]" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/K1/str/r17.png') }}" alt="Teacher" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
         <p class="note !text-[#F7B94A]">Suggestion: Pre-pack these two materials in a bag for each child or group before
             each lesson.</p>
     </div>
 
     {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Preparations for the making of the track supports (pyramids):</h2>
+            <h2 class=" t-title">Preparations for the making of the track supports (pyramids):</h2>
             <ul class="list-disc">
                 <li>Each group a set of straws (colour different from the track)</li>
                 <li>Each group 50 pipe cleaners (sample's measurement: 30cm long)</li>
                 <li>Each child a pair of scissors (remind children to use them carefully)</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K1/str/r18.png') }}" alt="Teacher" class="w-[600px]" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/K1/str/r18.png') }}" alt="Teacher" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
         <p class="note !textiamber-300">Suggestion: Pre-pack these two materials in a bag for each child or group before
             each lesson.</p>
     </div>
 
 
     {{-- slide 4 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Preparations for the testing of the ball roller coaster:</h2>
+            <h2 class=" t-title">Preparations for the testing of the ball roller coaster:</h2>
             <ul class="list-disc">
                 <li>Each group a ping pong ball</li>
                 <li>Each group a suitable container</li>
                 <li>Adhesive tape (for fixing the position of the pyramids)</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K1/str/r4.png') }}" alt="Teacher" class="w-[600px]" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+        <video id="video1" class=" pointer-events-none">
+            <source src="{{ asset('assets/images/K1/str/157.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video> <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
             class="absolute teacher-img1" />
         <!-- Video Trigger Button -->
-        <div data-property-1="Default"
-            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
-      <img src="/assets/images/pptimages/video.png" />
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
 
     {{-- sldie 5 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Things to consider during hands-on sessions:</h2>
+            <h2 class=" t-title">Things to consider during hands-on sessions:</h2>
             <ul class="list-disc ">
                 <li>
                     Ask questions to prompt children to share and try out their ideas.
@@ -111,16 +111,15 @@
                     different heights and arrange them into a new design of roller coaster.</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
 
     {{-- sldie 6 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Possible questions for reflection:</h2>
+            <h2 class=" t-title">Possible questions for reflection:</h2>
             <ul class="list-disc ">
                 <li>Do you think the arrangement of the pyramids of different heights is important in
                     making a successful ball roller coaster? Why? [Yes, the ball may fail to complete
@@ -134,61 +133,49 @@
 
             </ul>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- sldie 7 --}}
-    <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
-        <div class="flex w-[100%] items-center justify-between">
-            <div>
-                <h2 class="font-bold t-title">Notes:</h2>
-                <ul class="list-disc leading-relaxed">
-                    <li>
-                        If you see
-                        <span
-                            class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-                            <!-- Decorative Vector -->
-                            <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
-                                class="absolute top-[4px] left-[6px] h-6 w-[80%]" />
-                            <div class="absolute top-[7px] left-[12px] h-2.5 w-3.5 rounded-sm bg-white"></div>
-                            <img src="{{ asset('assets/images/pptimages/play.png') }}"
-                                class="absolute top-[16px] left-[16px] h-8 w-8" />
-                        </span>
-                        next to a picture, click on the picture to watch the video.
-                    </li>
-                    <li>Emphasise and use the <strong>keywords</strong> during hands-on sessions.</li>
-                    <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
-                    </li>
-                    <li>
-                        Click on this <span class="font-bold t-title">shortcut icon</span>
-                        <span
-                            class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-                            <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
-                                class="absolute top-[4px] left-[6px] h-6 w-[80%]" />
-                            <div class="absolute top-[7px] left-[12px] h-2.5 w-3.5 rounded-sm bg-white"></div>
-                            <img src="{{ asset('assets/images/pptimages/home-icon.png') }}"
-                                class="absolute top-[16px] left-[16px] h-8 w-8" />
-                        </span>
-                        if you need to go to some parts of the lesson quickly.
-                    </li>
-                </ul>
-            </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1"  />
+    <div class="slide flex t-slide  flex-col  text-2xl text-start text-white">
+        <div>
+            <h2 class="t-title">Notes:</h2>
+            <ul class="list-disc">
+                <li class="flex">
+                    If you see
+                    <span class="info-btn">
 
+                        <img src="{{ asset('assets/images/pptimages/video.png') }}" />
+                    </span>
+                    next to a picture, click on the picture to watch the video.
+                </li>
+
+                <li>Always ask questions to encourage children to think and share their ideas first before giving
+                    out
+                    any information.</li>
+                <li>Emphasise and use the <strong>keywords</strong> during hands-on sessions.</li>
+                <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
+                </li>
+                <li class="flex">
+                    Click on this shortcut icon
+                    <span> <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" class="home-btn" />
+                    </span>
+                    if you need to go to some parts of the lesson quickly.
+                </li>
+            </ul>
         </div>
-
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
+
 
 
 
     {{-- ========================================================== --}}
     {{-- Buttons --}}
     <div class="down-btn-container">
-        <button
-         class="doneButton">
- <img src="{{ asset('assets/images/pptimages/done.png') }}" />
+        <button class="doneButton">
+            <img src="{{ asset('assets/images/pptimages/done.png') }}" />
         </button>
     </div>
 
@@ -196,23 +183,17 @@
 
         <!-- Return Button -->
         <a id="returnButton">
- <img
-    src="{{ asset('assets/images/pptimages/return.png') }}" />
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
 
         <!-- Home Button -->
-        <button
-     id="homeButton">
-            <img 
-                src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
         <button id="closeButton">
-           
-            <img 
-                src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-    
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
         </button>
 
     </div>
@@ -220,9 +201,8 @@
     {{-- next Button --}}
     <div class="down-btn-container">
 
-        <button
-            class="nextButton">
- <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
+        <button class="nextButton">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
         </button>
     </div>
 
@@ -234,21 +214,54 @@
 
 @push('script')
     <script>
+        // Video toggle function - plays or pauses a video when clicked
+        function toggleVideo(videoId) {
+            const video = document.getElementById(videoId);
+            if (video.paused) {
+                video.play();
+            } else {
+                video.pause();
+            }
+        }
+
         document.addEventListener("DOMContentLoaded", () => {
+            // Get all slide elements
             const slides = document.querySelectorAll(".slide");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
-            const doneButton = document.querySelector(".doneButton"); //   DONE button
+            const doneButton = document.querySelector(".doneButton");
 
+            // Keep track of which slide we're currently viewing
             let currentSlide = 0;
 
+            // CONFIGURE YOUR ROUTES HERE
+            const returnRouteFromFirstSlide = "{{ route('rollerSelection') }}";
+            const doneButtonRoute = "{{ route('K1structure') }}";
+
+            // Pause all videos when changing slides
+            function pauseAllVideos() {
+                const videos = document.querySelectorAll('video');
+                videos.forEach(video => {
+                    if (!video.paused) {
+                        video.pause();
+                    }
+                });
+            }
+
+            // Show a specific slide and hide all others
             function showSlide(index) {
+                // Pause all videos before switching
+                pauseAllVideos();
+
+                // Hide all slides except the current one
                 slides.forEach((slide, i) => {
                     slide.classList.toggle("hidden", i !== index);
                 });
 
-                //   Agar last slide hai → NEXT button hide, DONE show
-                if (index === slides.length - 1) {
+                // Check if last slide
+                const isLastSlide = index === slides.length - 1;
+
+                if (isLastSlide) {
                     nextButtons.forEach(btn => btn.classList.add("hidden"));
                     if (doneButton) doneButton.classList.remove("hidden");
                 } else {
@@ -257,7 +270,7 @@
                 }
             }
 
-            //   NEXT buttons listener
+            // NEXT button
             nextButtons.forEach((btn) => {
                 btn.addEventListener("click", () => {
                     if (currentSlide < slides.length - 1) {
@@ -267,25 +280,28 @@
                 });
             });
 
-              //   Return button - redirect if on first slide, otherwise go back
-        returnButton.addEventListener("click", () => {
-            if (currentSlide === 0) {
-                //   First slide pe hai →  
-                window.location.href = "{{ route('YourRouteNameHere') }}";
-            } else {
-                //   Previous slide pe jao
-                currentSlide--;
-                showSlide(currentSlide);
-            }
-        });
+            // RETURN button - go to previous slide or navigate back
+            returnButton.addEventListener("click", () => {
+                // If on first slide, navigate to return route
+                if (currentSlide === 0) {
+                    window.location.href = returnRouteFromFirstSlide;
+                    return;
+                }
 
+                if (currentSlide > 0) {
+                    currentSlide--;
+                    showSlide(currentSlide);
+                }
+            });
+
+            // DONE button - navigate to completion route
             if (doneButton) {
                 doneButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('K1structure') }}";
+                    window.location.href = doneButtonRoute;
                 });
             }
 
-
+            // Initialize - show first slide
             showSlide(currentSlide);
         });
     </script>

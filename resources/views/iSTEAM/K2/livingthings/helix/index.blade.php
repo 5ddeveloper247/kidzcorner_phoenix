@@ -36,16 +36,8 @@
         <!-- Close Button -->
         <button id="closeButton">
             <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-        </button>
     </div>
 
-
-
-@endsection
-
-@push('script')
-    <script>
-        document.addEventListener("DOMContentLoaded", () => {
             const nextButton = document.querySelector(".nextButton");
             const returnButton = document.querySelector("#returnButton");
 

@@ -2,6 +2,10 @@
 @section('title', 'Dynamic Presentation')
 
 @section('content')
+    {{-- title --}}
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">Back Light</h2>
+
+
     {{-- slide 1 --}}
     <div class="flex flex-col  text-start text-2xl text-white slide hidden t-slide">
         <div>
@@ -13,24 +17,22 @@
                 <li>Develop observation and understanding through hands on activities</li>
             </ul>
         </div>
-        <div class="flex w-[100%] justify-between">
-            <div>
-                <h2 class="t-title t-title">Keywords:</h2>
-                <div class="flex items-center gap-x-10">
-                    <ul class="list-disc">
-                        <li>Glow-in-the-dark</li>
-                        <li>Store</li>
-                        <li>Light Energy</li>
-                        <li>Glow</li>
-                        <li>Dark</li>
-                        <li>Bright</li>
-                        <li>Neon</li>
-                        <li>Black Light</li>
-                    </ul>
-                </div>
+        <div>
+            <h2 class="t-title t-title">Keywords:</h2>
+            <div class="flex items-center gap-x-10">
+                <ul class="list-disc">
+                    <li>Glow-in-the-dark</li>
+                    <li>Store</li>
+                    <li>Light Energy</li>
+                    <li>Glow</li>
+                    <li>Dark</li>
+                    <li>Bright</li>
+                    <li>Neon</li>
+                    <li>Black Light</li>
+                </ul>
             </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
         </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
     </div>
 
 
@@ -96,24 +98,22 @@
 
     {{-- slide 4 --}}
     <div class="text-white flex  flex-col  text-start text-2xl slide hidden t-slide">
-        <h1 class="title  text-center">Learning Centre Idea</h1>
+        <h1 class="title stroke  text-center">Learning Centre Idea</h1>
         <div>
-            <h2 class="t-title">Black Light In The Black Box</h2>
+            <h2 class="!text-white stroke title">Black Light In The Black Box</h2>
             <h2 class="t-title">What and how to set up:</h2>
             <p>Provide materials such as black box, cubes, pom pom balls, manipulative
                 toys and other neon coloured toys and material</p>
         </div>
-        <div class="flex w-[100%] items-center justify-between">
-            <div>
-                <h2 class="t-title">What to do:</h2>
-                <ul class="mt-2 list-decimal space-y-1 pl-6">
-                    <li> Invite children to explore with the materials provided.</li>
-                    <li>Put a toy in the black box and see if it glows by shining
-                        the black light they have made themselves.</li>
-                </ul>
-            </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
+        <div>
+            <h2 class="t-title">What to do:</h2>
+            <ul class="mt-2 list-decimal space-y-1 pl-6">
+                <li> Invite children to explore with the materials provided.</li>
+                <li>Put a toy in the black box and see if it glows by shining
+                    the black light they have made themselves.</li>
+            </ul>
         </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
     </div>
 
 
@@ -139,9 +139,7 @@
 
         <!-- Close Button -->
         <button id="closeButton">
-
             <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-
         </button>
 
     </div>

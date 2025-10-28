@@ -7,7 +7,7 @@
 
 
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -43,9 +43,9 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Preparations:</h2>
+            <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
                 <li class="text-[1.2vw]">Magnifying glasses (optional)</li>
                 <br> <br>
@@ -72,7 +72,7 @@
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold t-title">Notes:</h2>
+                <h2 class=" t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
                     <li class="text-[1.2vw] flex">
                         If you see
@@ -99,11 +99,11 @@
     </div>
 
     {{-- slide 10  --}}
-    <div class="text-white flex flex-col items-center justify-center gap-y-10 text-start text-2xl slide hidden">
+    <div class="text-white flex flex-col items-center justify-center  text-start text-2xl slide hidden">
         <h2 class=" title stroke">Learning Centre Idea</h2>
         <div class="flex flex-col gap-10">
             <ul class="list-disc">
-                <h2 class="!text-white title stroke font-bold">Fun Facts</h2>
+                <h2 class="!text-white title stroke ">Fun Facts</h2>
                 <h2>What and how to set up: <br>Use your creativity to design graphic fact sheet for every fun fact <br>
                     below. Guide children to understand the facts.</h2>
                 <li class="text-[1.2vw]">Viruses are non-living things. They are about 1000 times smaller <br>

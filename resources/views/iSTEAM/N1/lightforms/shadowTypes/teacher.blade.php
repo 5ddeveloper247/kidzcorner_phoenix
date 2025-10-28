@@ -2,10 +2,13 @@
 @section('title', 'Dynamic Presentation')
 
 @section('content')
+    {{-- title --}}
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">Different Types of Shadows</h2>
+
     {{-- slide 29 --}}
     <div class="flex flex-col justify-start text-start text-2xl text-white slide hidden t-slide">
         <div>
-            <h2 class="t-title" >Children will be able to:</h2>
+            <h2 class="t-title">Children will be able to:</h2>
             <ul class="list-disc">
                 <li>Develop awareness of different types of shadows</li>
                 <li>Explore materials and their shadows</li>
@@ -15,27 +18,26 @@
             </ul>
         </div>
 
-        <div class="flex w-[100%] justify-between">
-            <div>
-                <h2 class="t-title" >Keywords:</h2>
-                <div class="flex items-center gap-x-10">
-                    <ul class="list-disc">
-                        <li>Black</li>
-                        <li>Shadow</li>
-                        <li>Light</li>
-                        <li>Block</li>
-                        <li>Translucent</li>
-                    </ul>
-                    <ul class="list-disc">
-                        <li>Transparent</li>
-                        <li>Shadow Puppetry</li>
-                        <li>Puppet</li>
-                    </ul>
-                </div>
+        <div>
+            <h2 class="t-title">Keywords:</h2>
+            <div class="flex items-center gap-x-10">
+                <ul class="list-disc">
+                    <li>Black</li>
+                    <li>Shadow</li>
+                    <li>Light</li>
+                    <li>Block</li>
+                    <li>Translucent</li>
+                </ul>
+                <ul class="list-disc">
+                    <li>Transparent</li>
+                    <li>Shadow Puppetry</li>
+                    <li>Puppet</li>
+                </ul>
             </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="" />
         </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="" />
     </div>
+
 
     {{-- slide 31 --}}
     <div class="text-white flex flex-col text-start text-2xl slide hidden t-slide">
@@ -58,6 +60,7 @@
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="">
     </div>
 
+
     {{-- slide 32 --}}
     <div class="text-white flex flex-col text-start text-2xl slide hidden t-slide">
         <div>
@@ -71,6 +74,7 @@
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="">
         <p>Teacher can point out on the coloured shadows to the children when they are exploring.</p>
     </div>
+
 
     {{-- slide 33 --}}
     <div class="text-white flex flex-col text-start text-2xl slide hidden t-slide">
@@ -88,6 +92,7 @@
             friend's eyes. Explain to them that it will damage their eyes. Teacher can use simple words to explain
             translucent and transparent.</p>
     </div>
+
 
     {{-- slide 34 --}}
     <div class="flex flex-col text-start text-2xl text-white slide hidden t-slide">
@@ -120,27 +125,29 @@
         </div>
     </div>
 
+
     {{-- slide 35 --}}
     <div class="text-white flex flex-col justify-start text-start text-2xl slide hidden t-slide">
         <h1 class="title stroke text-center">Learning Center Idea</h1>
         <div>
-            <h2 class="t-title">Matching shadow</h2>
+            <h2 class="!text-white stroke title">Matching shadow</h2>
             <h2 class="t-title">What and how to setup:</h2>
             <p>Prepare some flashlights and some toys such as cars, dinosaurs, animal figurines etc. Print out shadows of
                 the objects for children to match. The shadows can be taller/bigger/smaller/shorter, depending on how the
                 light was positioned.</p>
         </div>
-        <div class="flex w-[100%] items-center justify-between">
-            <div>
-                <h2 class="t-title">What to do:</h2>
-                <ul class="mt-2 list-decimal space-y-1 pl-6">
-                    <li>Invite children to pick up a picture and find the item that will cast the shadow.</li>
-                    <li>Ask children to use the lights to create the same shadow.</li>
-                </ul>
-            </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="" />
+        <div>
+            <h2 class="t-title">What to do:</h2>
+            <ul class="mt-2 list-decimal space-y-1 pl-6">
+                <li>Invite children to pick up a picture and find the item that will cast the shadow.</li>
+                <li>Ask children to use the lights to create the same shadow.</li>
+            </ul>
         </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="" />
     </div>
+
+
+
 
     {{-- done Button --}}
     <div class="down-btn-container">

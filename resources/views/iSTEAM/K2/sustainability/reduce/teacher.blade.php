@@ -37,7 +37,7 @@
     {{-- slide 2 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start text-start">
         <div>
-            <h2 class="font-bold t-title">Preparations:</h2>
+            <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
                 <li class="text-[1.3vw]">
                     Keep a collection of various recyclable items prior to this lesson.
@@ -87,7 +87,7 @@
     <div class=" slide flex text-2xl text-white flex-col items-center justify-center text-start">
         <div>
             <h2 class="title stroke text-center">Learning Centre Idea</h2>
-            <h2 class="font-bold t-title">Create A Poster</h2>
+            <h2 class=" t-title">Create A Poster</h2>
             <ul class="list-disc">
                 <li class="text-[1.3vw]">What and how to set up:<br>
                     Provide art materials and books on reducing waste.<br>

@@ -195,7 +195,7 @@
         </div>
         <img src="{{ asset('assets/images/N2/LivingThings/lt18.png') }}" />
         <!-- Video Trigger Button -->
-        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="{{ asset('assets/images/pptimages/video.png') }}" />
         </div>
     </div>
@@ -265,9 +265,7 @@
 
         <!-- Close Button -->
         <button id="closeButton">
-
             <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-
         </button>
 
     </div>

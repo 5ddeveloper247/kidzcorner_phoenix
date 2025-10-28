@@ -3,7 +3,7 @@
 
 @section('content')
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -44,9 +44,9 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Preparations:</h2><br>
+            <h2 class=" t-title">Preparations:</h2><br>
             <ul class="list-disc ">
                 <li class="text-[1.3vw]">Please prepare the materials as stated in the video for the recycle paper activity.
 
@@ -66,7 +66,7 @@
     {{-- sldie 7 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold t-title">Notes</h2>
+            <h2 class=" t-title">Notes</h2>
             <ul>
                 <li class="text-[1.3vw] flex">If you see
                     <span>
@@ -101,10 +101,10 @@
 
 
     {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-center gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-center  text-start">
         <div>
             <h2 class="title stroke text-center">Learning Centre Idea</h2>
-            <h2 class="font-bold t-title">Let's Sort!</h2>
+            <h2 class=" t-title">Let's Sort!</h2>
             <ul class="list-disc">
                 <li class="text-[1.3vw]">What and how to set up:<br>
                     Print pictures of recyclable materials or put actual materials at

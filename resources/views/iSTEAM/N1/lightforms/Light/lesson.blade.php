@@ -3,12 +3,13 @@
 
 @section('content')
 
-  {{-- title --}}
+    {{-- title --}}
     <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">What is Light</h2>
+
     {{-- Slide 1 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
         <h2 class="title stroke">What do you see in this picture?</h2>
-        <img src="{{ asset('assets/images/pptimages/light1.png') }}"  />
+        <img src="{{ asset('assets/images/pptimages/light1.png') }}" />
         <p class="note">Note: Guide children to share their answers.</p>
     </div>
 
@@ -36,7 +37,7 @@
     {{-- Slide 4 --}}
     <div class=" slide hidden flex flex-col items-center justify-center gap-5">
 
-        <h2 class="text-2xl sm:text-3xl lg:text-5xl text-white max-w-4xl   stroke">
+        <h2 class=" text-white max-w-4xl   stroke">
             The <span class="text-[#F7B94A]">sun</span> is so <span class="text-[#F7B94A]">bright!</span></br>
             It gives <span class="text-[#F7B94A]">light</span> during the day!
         </h2>
@@ -54,7 +55,7 @@
         <p class="note">Note: Encourage children to share. Teacher to lead to sing along the song twinkle
             twinkle stars.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[80px] z-[100] h-24 w-24 -translate-y-1/2">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[100] -translate-y-1/2 video-btn">
             <img src="{{ asset('assets/images/pptimages/video.png') }}" />
         </div>
     </div>
@@ -279,9 +280,7 @@
 
         <!-- Close Button -->
         <button id="closeButton">
-
             <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-
         </button>
 
     </div>

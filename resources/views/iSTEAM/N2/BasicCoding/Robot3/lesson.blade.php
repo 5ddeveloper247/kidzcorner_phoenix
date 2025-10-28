@@ -57,7 +57,7 @@
         <h2 class="title stroke text-center">This programme tells the robot to move through
             the maze and show a facial expression in the end.</h2>
         <!-- Video Trigger Button -->
-        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -366,9 +366,7 @@
 
         <!-- Close Button -->
         <button id="closeButton">
-
             <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-
         </button>
 
     </div>

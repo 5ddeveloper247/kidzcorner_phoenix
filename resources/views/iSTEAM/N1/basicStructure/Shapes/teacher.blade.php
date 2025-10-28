@@ -3,10 +3,13 @@
 
 
 @section('content')
+    {{-- title --}}
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">Forming Shapes</h2>
+
     {{-- slide 1 --}}
-    <div class="flex flex-col justify-start gap-y-10 text-start text-2xl text-white slide hidden t-slide">
+    <div class="flex flex-col justify-start  text-start text-2xl text-white slide hidden t-slide">
         <div>
-            <h2 class="t-title font-bold">Children will be able to:</h2>
+            <h2 class="t-title ">Children will be able to:</h2>
             <ul class="list-disc">
                 <li>Explore with lines</li>
                 <li>Understand that lines are used to form shapes</li>
@@ -16,7 +19,7 @@
         </div>
         <div class="flex w-[100%] justify-between">
             <div>
-                <h2 class="t-title font-bold">Keywords:</h2>
+                <h2 class="t-title ">Keywords:</h2>
                 <div class="flex items-center gap-x-10">
                     <ul class="list-disc">
                         <li>Shapes</li>
@@ -35,7 +38,7 @@
     {{-- slide 2 --}}
     <div class="text-white flex text-start text-2xl slide hidden t-slide">
         <div>
-            <h2 class="font-bold t-title t-title">Preparations for Class Activity I:</h2>
+            <h2 class=" title stroke !text-white">Preparations for Class Activity I:</h2>
             <ul class="list-disc">
                 <li>
                     <strong>Materials:</strong> Glue, double sided tape, ice cream sticks, and straws.
@@ -95,10 +98,10 @@
 
 
     {{-- slide 4 --}}
-    <div class="text-white flex  flex-col justify-start gap-y-10 text-start text-2xl slide hidden t-slide">
-        <h1 class="title  text-center">Learning Centre Idea</h1>
+    <div class="text-white flex  flex-col justify-start  text-start text-2xl slide hidden t-slide">
+        <h1 class="title stroke  text-center">Learning Centre Idea</h1>
         <div>
-            <h2 class="font-bold t-title t-title">Shape Challenge</h2>
+            <h2 class=" title stroke !text-white">Shape Challenge</h2>
             <h2 class="t-title">What and how to set up:</h2>
             <p>Place pictures of shapes of various sizes. Paste Velcro at the ends of the sticks for children to join the
                 sticks form shapes.Encourage children to form the shapes using the ice cream sticks, chopsticks and straws.
@@ -106,7 +109,7 @@
         </div>
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold t-title t-title">What to do:</h2>
+                <h2 class=" t-title">What to do:</h2>
                 <ul class="mt-2 list-decimal space-y-1 pl-6">
                     <li> Invite children to pick up a picture of a shape.</li>
                     <li> Encourage children to materials to form the shapes.</li>
@@ -141,9 +144,7 @@
 
         <!-- Close Button -->
         <button id="closeButton">
-
             <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-
         </button>
 
     </div>

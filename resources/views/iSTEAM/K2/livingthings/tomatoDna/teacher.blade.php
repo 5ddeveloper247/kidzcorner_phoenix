@@ -3,7 +3,7 @@
  
 @section('content')
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -16,7 +16,7 @@
         </div>
 
         <div class="flex flex-col  items-start justify-between">
-            <h2 class="t-title font-bold">Keywords:</h2>
+            <h2 class="t-title ">Keywords:</h2>
             <div >
                 <ul class="list-disc ">
                     <li class="text-[1.3vw]">Living Thing</li>
@@ -38,9 +38,9 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Preparations:</h2>
+            <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
                 <li class="text-[1.3vw]">1 tomato</li>
                 <li class="text-[1.3vw]">1 snack-size zipper storage bag</li>
@@ -61,9 +61,9 @@
 
 
     {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">How to extract DNA from a tomato and things to consider:</h2>
+            <h2 class=" t-title">How to extract DNA from a tomato and things to consider:</h2>
             <ul class="list-decimal">
                 <li class="text-[1.3vw]">Put a tomato into a zipper storage bag and seal it . [Invite a child to do the step .]</li>
             </ul>
@@ -75,9 +75,9 @@
 
 
     {{-- slide 4 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">How to extract DNA from a tomato and things to consider:</h2>
+            <h2 class=" t-title">How to extract DNA from a tomato and things to consider:</h2>
             <ul>
                 <li class="text-[1.3vw]">2.Smash and crush the tomato. [Invite children take turns to do so .]</li>
             </ul>
@@ -89,9 +89,9 @@
 
 
     {{-- slide 5 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">How to extract DNA from a tomato and things to consider:</h2>
+            <h2 class=" t-title">How to extract DNA from a tomato and things to consider:</h2>
             <ul>
                 <li class="text-[1.3vw]">3. Mix together 100ml distilled water, 10ml clear liquid dish soap and half a teaspoon of salt in a
                     clear cup. [Guide children to measure and prepare the mixture with a measuring cup and a teaspoon; stir
@@ -105,9 +105,9 @@
 
 
     {{-- sldie 6 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">How to extract DNA from a tomato and things to consider:</h2>
+            <h2 class=" t-title">How to extract DNA from a tomato and things to consider:</h2>
             <ul>
                 <li class="text-[1.3vw]">4. Add 10ml of the mixture prepared into the bag with tomato . [Guide children to measure with a
                     measuring cup and add the mixture into the bag .]</li>
@@ -120,9 +120,9 @@
 
 
     {{-- sldie 7 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">How to extract DNA from a tomato and things to consider:</h2>
+            <h2 class=" t-title">How to extract DNA from a tomato and things to consider:</h2>
             <ul>
                 <li class="text-[1.3vw]">5. Reseal the bag and gently smash for another minute . [Advise children try to avoid making too many
                     soap bubbles .]</li>
@@ -134,9 +134,9 @@
     </div>
 
     {{-- sldie 8 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">How to extract DNA from a tomato and things to consider:</h2>
+            <h2 class=" t-title">How to extract DNA from a tomato and things to consider:</h2>
             <ul>
                 <li class="text-[1.3vw]">6. Put a strainer on top of another clear up. [Invite a child to do the step.]</li>
             </ul>
@@ -148,9 +148,9 @@
 
 
     {{-- sldie 9 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">How to extract DNA from a tomato and things to consider:</h2>
+            <h2 class=" t-title">How to extract DNA from a tomato and things to consider:</h2>
             <ul>
                 <li class="text-[1.3vw]">7. Pour the tomato liquid into the strainer to separate the liquid from the flesh . [Guide children to
                     gently do so with a teaspoon .]</li>
@@ -163,9 +163,9 @@
 
 
     {{-- sldie 10 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">How to extract DNA from a tomato and things to consider:</h2>
+            <h2 class=" t-title">How to extract DNA from a tomato and things to consider:</h2>
             <ul>
                 <li class="text-[1.3vw]">8. Take 30ml of the filtrated liquid into another clear cup . [Guide children to do the step. As the
                     final result will be displayed at the learning corner, you may consider using a clear plastic container
@@ -179,9 +179,9 @@
 
 
     {{-- sldie 11 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">How to extract DNA from a tomato and things to consider:</h2>
+            <h2 class=" t-title">How to extract DNA from a tomato and things to consider:</h2>
             <ul>
                 <li class="text-[1.3vw]">9. Pour 30ml of cold rubbing alcohol from the side into the cup . [Teacher to do the step; do not mix or
                     stir .]</li>
@@ -193,9 +193,9 @@
     </div>
 
     {{-- sldie 12 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">How to extract DNA from a tomato and things to consider:</h2>
+            <h2 class=" t-title">How to extract DNA from a tomato and things to consider:</h2>
             <ul>
                 <li class="text-[1.3vw]">10. Observe what happens in the cup . [Advise children to observe from the top view . Take a photo of
                     the
@@ -211,7 +211,7 @@
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold t-title">Notes:</h2>
+                <h2 class=" t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
                     <li class="text-[1.3vw] flex">
                         If you see
@@ -242,7 +242,7 @@
 
 
     {{-- slide 14 --}}
-    <div class="text-white flex flex-col items-center justify-center gap-y-10 text-start text-2xl slide hidden">
+    <div class="text-white flex flex-col items-center justify-center  text-start text-2xl slide hidden">
         <h2 class=" title stroke">Learning Centre Idea</h2>
         <div>
             <ul>
@@ -261,7 +261,7 @@
 
 
     {{-- slide 15 --}}
-    <div class="text-white flex flex-col items-center justify-center gap-y-10 text-start text-2xl slide hidden">
+    <div class="text-white flex flex-col items-center justify-center  text-start text-2xl slide hidden">
         <h2 class=" title stroke">Learning Centre Idea</h2>
         <div>
             <ul class="list-disc">
@@ -279,7 +279,7 @@
 
 
     {{-- slide 16 --}}
-    <div class="text-white flex flex-col items-center justify-center gap-y-10 text-start text-2xl slide hidden">
+    <div class="text-white flex flex-col items-center justify-center  text-start text-2xl slide hidden">
         <h2 class=" title stroke">Learning Centre Idea</h2>
         <div>
             <div>

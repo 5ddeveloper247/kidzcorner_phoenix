@@ -76,7 +76,7 @@
         <h2 class="title stroke text-center">This is the way to turn the robot on or off.</h2>
         <p class="note">Note: Demonstrate and then guide children to describe how to do so.</p>
         <!-- Video Trigger Button -->
-        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -88,7 +88,7 @@
         <h2 class="title stroke text-center">This is the way to turn the pen controller on or off.</h2>
         <p class="note">Note: Demonstrate and then guide children to describe how to do so.</p>
         <!-- Video Trigger Button -->
-        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -111,7 +111,7 @@
             to show a facial expression.</h2>
         <p class="note">Note: Demonstrate and then guide children to describe how to do so (use the pen to tap on a card).
             <!-- Video Trigger Button -->
-        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
         </p>
@@ -153,7 +153,7 @@
 
         <p class="note">Note: Demonstrate and then guide children to describe how to do so.</p>
         <!-- Video Trigger Button -->
-        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -229,9 +229,7 @@
 
         <!-- Close Button -->
         <button id="closeButton">
-
             <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-
         </button>
 
     </div>

@@ -29,7 +29,7 @@
         <img src="{{ asset('assets/images/N2/BasicCoding/br1.png') }}" />
         <h2 class="stroke title">This is the way to turn the robot on ot off.</h2>
         <!-- Video Trigger Button -->
-        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
 
@@ -40,7 +40,7 @@
         <img src="{{ asset('assets/images/N2/BasicCoding/br3.png') }}" />
         <h2 class="stroke title">This is the way to turn the pen controller on ot off.</h2>
         <!-- Video Trigger Button -->
-        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -87,7 +87,7 @@
                 class="text-white">robot</span> to show different facial
             expressions based on the order of the <span class="text-white">programming cards</span>.</h2>
         <!-- Video Trigger Button -->
-        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -118,7 +118,7 @@
             the <span class="text-white">programme</span> to see how the <span class="text-white">robot</span> move. </h2>
         <p class="note">Note: Duplicate he set-up in class. Encourage children to name the things used in this set-up.</p>
         <!-- Video Trigger Button -->
-        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -304,9 +304,7 @@
 
         <!-- Close Button -->
         <button id="closeButton">
-
             <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-
         </button>
 
     </div>

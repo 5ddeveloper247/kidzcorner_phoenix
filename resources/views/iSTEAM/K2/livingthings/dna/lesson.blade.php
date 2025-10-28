@@ -156,7 +156,7 @@
                 acid</span>
         </h1>
         <!-- sound Button -->
-        <div data-property-1="Default"
+        <div onclick="toggleVideo('video1')"
             class="absolute top-1/2 right-[5vw]">
             <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" class="!max-w-[2.8vw]" />
         </div>

@@ -1,6 +1,6 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
- 
+
 @section('content')
 
 
@@ -195,7 +195,7 @@
 
     {{-- Slide 20 --}}
 
-     {{-- video  --}}
+    {{-- video  --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
         <img src="/assets/images/K2/animate2/a8.png" />
         <h2 class="title stroke">Based on this sample, <br>
@@ -276,12 +276,12 @@
 
 
     {{-- Slide 25 --}}
-     <div class="slide flex flex-col justify-start gap-[1rem] ">
+    <div class="slide flex flex-col justify-start gap-[1rem] ">
         <div>
             <ul class="title stroke !text-start">
                 <li>Steps: <br>
-3. Work out the programmes for the character and run the
-    programmes.</li>
+                    3. Work out the programmes for the character and run the
+                    programmes.</li>
             </ul>
         </div>
         <div class="flex  gap-3 items-center justify-center items-end ">
@@ -289,9 +289,9 @@
                 <img class="!max-w-[13vw]" src="/assets/images/K2/animate2/a18.png" />
             </div>
             <div>
-                <button  class=" !text-white w-[188px] h-[61px] bg-[#2D9CDB] rounded-[20px]"> Sample Answer</button>
+                <button class=" !text-white w-[188px] h-[61px] bg-[#2D9CDB] rounded-[20px]"> Sample Answer</button>
             </div>
-          
+
         </div>
         <p class="note">Note: Accept all similar programmes presented by children.</p>
     </div>
@@ -307,7 +307,7 @@
     </div>
 
 
-   
+
 
 
 
@@ -347,34 +347,29 @@
     {{-- ====================================== --}}
     {{-- Buttons --}}
     <div class="down-btn-container">
-        <button
-         class="doneButton">
- <img src="{{ asset('assets/images/pptimages/done.png') }}" />
+        <button class="doneButton">
+            <img src="{{ asset('assets/images/pptimages/done.png') }}" />
         </button>
     </div>
 
 
- <div id="buttons" class="absolute  flex flex-row gap-6 ">
+    <div id="buttons" class="absolute  flex flex-row gap-6 ">
 
         <!-- Return Button -->
         <a id="returnButton">
- <img
-    src="{{ asset('assets/images/pptimages/return.png') }}" />
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
 
         <!-- Home Button -->
-        <button
-     id="homeButton">
-            <img 
-                src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
         <button id="closeButton">
-           
-            <img 
-                src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-    
+
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
+
         </button>
 
     </div>
@@ -382,9 +377,8 @@
     {{-- next Button --}}
     <div class="down-btn-container">
 
-        <button
-            class="nextButton">
- <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
+        <button class="nextButton">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
         </button>
     </div>
 

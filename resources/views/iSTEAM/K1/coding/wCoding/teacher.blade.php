@@ -1,9 +1,13 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
- 
+
 @section('content')
+    {{-- title --}}
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">What is Coding?</h2>
+
+
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -17,36 +21,33 @@
             </ul>
         </div>
 
-        <div class="flex w-[100%] items-center justify-between">
-            <div>
-                <h2 class="t-title font-bold">Keywords:</h2>
+        <div>
+            <h2 class="t-title ">Keywords:</h2>
 
-                <div >
-                    <ul class="list-disc ">
-                        <li>Robot (Machine)</li>
-                        <li>Blockly (Application)</li>
-                        <li>Programme</li>
-                        <li>Programming/Coding</li>
-                    </ul>
-                    <ul class="list-disc">
-                        <li>Command</li>
-                        <li>Scripting Area</li>
-                        <li>Programming Block</li>
-                        <li>Dustbin</li>
-                    </ul>
-                </div>
+            <div class="flex items-center gap-[5vw]">
+                <ul class="list-disc ">
+                    <li>Robot (Machine)</li>
+                    <li>Blockly (Application)</li>
+                    <li>Programme</li>
+                    <li>Programming/Coding</li>
+                </ul>
+                <ul class="list-disc">
+                    <li>Command</li>
+                    <li>Scripting Area</li>
+                    <li>Programming Block</li>
+                    <li>Dustbin</li>
+                </ul>
             </div>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Preparations:</h2>
+            <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
                 <li>The robots and tablets (refer to the guide at the back on what you need to
                     know and do before the lesson)</li>
@@ -54,29 +55,27 @@
             </ul>
         </div>
 
-        <img src="{{ asset('assets/images/K1/coding/cd/cd13.png') }}" alt="Teacher" class="w-[600px]" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/K1/coding/cd/cd13.png') }}" alt="Teacher" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start">
         <div>
             <ul>
                 <li>Appendix 1: Tender Loving Care Poster (suggest to put up the poster in class)</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K1/coding/cd/cd14.png') }}" alt="Teacher" class="w-[600px]" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/K1/coding/cd/cd14.png') }}" alt="Teacher" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- slide 4 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">What you need to know or do before the lesson:</h2>
+            <h2 class=" t-title">What you need to know or do before the lesson:</h2>
             <ul class="list-disc ">
                 <li>Here are the different parts of a robot.</li>
             </ul>
@@ -88,32 +87,30 @@
                 useful guide
                 especially when its
                 head is turning)</p>
-            <img src="{{ asset('assets/images/K1/coding/cd/cd15.png') }}" alt="Teacher" class="w-[700px]" />
+            <img src="{{ asset('assets/images/K1/coding/cd/cd15.png') }}" alt="Teacher" />
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- sldie 5 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">What you need to know or do before the lesson:</h2>
+            <h2 class=" t-title">What you need to know or do before the lesson:</h2>
             <ul class="list-disc ">
                 <li>Here are the different parts of a robot.</li>
             </ul>
         </div>
 
-        <img src="{{ asset('assets/images/K1/coding/cd/cd16.png') }}" alt="Teacher" class="w-[700px]" />
+        <img src="{{ asset('assets/images/K1/coding/cd/cd16.png') }}" alt="Teacher" />
 
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
     {{-- sldie 6 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col t-slide items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">What you need to know or do before the lesson:</h2>
+            <h2 class=" t-title">What you need to know or do before the lesson:</h2>
             <ul class="list-disc ">
                 <li>A robot takes about 60-90 minutes for a full charge cycle and gives about
                     3 hours of play time (turn the robot off when charging, otherwise it will
@@ -123,33 +120,31 @@
             </ul>
         </div>
 
-        <img src="{{ asset('assets/images/K1/coding/cd/cd17.png') }}" alt="Teacher" class="w-[400px]" />
+        <img src="{{ asset('assets/images/K1/coding/cd/cd17.png') }}" alt="Teacher" class="large-img" />
 
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
     {{-- sldie 7 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col t-slide items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">What you need to know or do before the lesson:</h2>
+            <h2 class=" t-title">What you need to know or do before the lesson:</h2>
             <ul class="list-disc ">
                 <li>Label the left and right of each robot to give children directional clue when
                     they start to programmer the robot. </li>
             </ul>
         </div>
 
-        <img src="{{ asset('assets/images/K1/coding/cd/cd18.png') }}" alt="Teacher" class="w-[400px]" />
+        <img src="{{ asset('assets/images/K1/coding/cd/cd18.png') }}" alt="Teacher" class="large-img" />
 
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- sldie 8 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col t-slide items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">What you need to know or do before the lesson:</h2>
+            <h2 class=" t-title">What you need to know or do before the lesson:</h2>
             <ul class="list-disc ">
                 <li>Name each robot with a unique identifier (preferably short). Label each robot
                     and a matching tablet with a nametag (sample shown: the nametag is pasted at
@@ -157,51 +152,48 @@
             </ul>
         </div>
 
-        <img src="{{ asset('assets/images/K1/coding/cd/cd19.png') }}" alt="Teacher" class="w-[400px]" />
+        <img src="{{ asset('assets/images/K1/coding/cd/cd19.png') }}" alt="Teacher" class="large-img" />
 
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
 
     {{-- sldie 9 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col t-slide items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">What you need to know or do before the lesson:</h2>
+            <h2 class=" t-title">What you need to know or do before the lesson:</h2>
             <ul class="list-disc ">
                 <li>Download Blockly Application from App Store (or Google Play) for each tablet.</li>
             </ul>
         </div>
 
-        <img src="{{ asset('assets/images/K1/coding/cd/cd20.png') }}" alt="Teacher" class="w-[400px]" />
+        <img src="{{ asset('assets/images/K1/coding/cd/cd20.png') }}" alt="Teacher" class="large-img" />
 
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- sldie 10 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col t-slide items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">What you need to know or do before the lesson:</h2>
+            <h2 class=" t-title">What you need to know or do before the lesson:</h2>
             <ul class="list-disc ">
                 <li>Blockly is a drag-and-drop basic programming application. Here are the
                     different features in Blockly.</li>
             </ul>
         </div>
 
-        <img src="{{ asset('assets/images/K1/coding/cd/cd21.png') }}" alt="Teacher" class="w-[400px]" />
+        <img src="{{ asset('assets/images/K1/coding/cd/cd21.png') }}" alt="Teacher" class="large-img" />
 
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- sldie 11 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col t-slide items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">What you need to know or do before the lesson:</h2>
+            <h2 class=" t-title">What you need to know or do before the lesson:</h2>
             <ul class="list-disc ">
                 <li>Configure each robot using Blockly on its matching tablet with these steps:
                     <ul class="list-decimal">
@@ -211,17 +203,16 @@
             </ul>
         </div>
 
-        <img src="{{ asset('assets/images/K1/coding/cd/cd22.png') }}" alt="Teacher" class="w-[400px]" />
+        <img src="{{ asset('assets/images/K1/coding/cd/cd22.png') }}" alt="Teacher" class="large-img" />
 
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- sldie 11 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col t-slide items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">What you need to know or do before the lesson:</h2>
+            <h2 class=" t-title">What you need to know or do before the lesson:</h2>
             <ul class="list-disc ">
                 <li>Configure each robot using Blockly on its matching tablet with these steps:
                     <ul>
@@ -233,15 +224,14 @@
 
         <img src="{{ asset('assets/images/K1/coding/cd/cd27.png') }}" alt="Teacher" />
 
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- sldie 12 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col t-slide items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">What you need to know or do before the lesson:</h2>
+            <h2 class=" t-title">What you need to know or do before the lesson:</h2>
             <ul class="list-disc ">
                 <li>Configure each robot using Blockly on its matching tablet with these steps:
                     <ul>
@@ -253,15 +243,14 @@
 
         <img src="{{ asset('assets/images/K1/coding/cd/cd23.png') }}" alt="Teacher" />
 
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- sldie 13 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col t-slide items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">What you need to know or do before the lesson:</h2>
+            <h2 class=" t-title">What you need to know or do before the lesson:</h2>
             <ul class="list-disc ">
                 <li>Configure each robot using Blockly on its matching tablet with these steps:
                     <ul>
@@ -277,15 +266,14 @@
 
         <img src="{{ asset('assets/images/K1/coding/cd/cd24.png') }}" alt="Teacher" />
 
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- sldie 14 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col t-slide items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">What you need to know or do before the lesson:</h2>
+            <h2 class=" t-title">What you need to know or do before the lesson:</h2>
             <ul class="list-disc ">
                 <li>If a robot keeps moving on its own, it means that it's yet to be synchronised </li>
                 <li>To find out how to take care or clean the robot, kindly watch this video:
@@ -298,15 +286,14 @@
             </ul>
         </div>
 
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- sldie 15 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-15 text-start">
+    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start gap-y-15 text-start">
         <div>
-            <h2 class="font-bold t-title">Reminders or advice during hands-on session:</h2>
+            <h2 class=" t-title">Reminders or advice during hands-on session:</h2>
             <ul class="list-disc ">
                 <li>Always hold a robot or a tablet with both your hands (to show your care and prevent the tools from
                     spoiling easily).</li>
@@ -318,56 +305,43 @@
             </ul>
         </div>
         <div>
-            <h2 class="font-bold t-title">Possible questions during hands-on sessions:</h2>
+            <h2 class=" t-title">Possible questions during hands-on sessions:</h2>
             <ul class="list-disc ">
                 <li>What is the application used to programme the robot?</li>
                 <li>How do you make sure that Blockly finds the correct robot?</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
     {{-- slide 16 --}}
-    <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
+    <div class="slide flex  flex-col t-slide justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold t-title">Notes:</h2>
+                <h2 class=" t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
-                    <li>
+                    <li class="flex">
                         If you see
-                        <span
-                            class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-                            <!-- Decorative Vector -->
-                            <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
-                                class="absolute top-[4px] left-[6px] h-6 w-[80%]" />
-                            <div class="absolute top-[7px] left-[12px] h-2.5 w-3.5 rounded-sm bg-white"></div>
-                            <img src="{{ asset('assets/images/pptimages/play.png') }}"
-                                class="absolute top-[16px] left-[16px] h-8 w-8" />
+                        <span>
+                            <img src="{{ asset('assets/images/pptimages/video.png') }}" />
                         </span>
                         next to a picture, click on the picture to watch the video.
                     </li>
                     <li>Emphasise and use the <strong>keywords</strong> during hands-on sessions.</li>
                     <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
                     </li>
-                    <li>
-                        Click on this <span class="font-bold t-title">shortcut icon</span>
-                        <span
-                            class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-                            <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
-                                class="absolute top-[4px] left-[6px] h-6 w-[80%]" />
-                            <div class="absolute top-[7px] left-[12px] h-2.5 w-3.5 rounded-sm bg-white"></div>
-                            <img src="{{ asset('assets/images/pptimages/home-icon.png') }}"
-                                class="absolute top-[16px] left-[16px] h-8 w-8" />
+                    <li class="flex">
+                        Click on this shortcut icon
+                        <span>
+                            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
                         </span>
                         if you need to go to some parts of the lesson quickly.
                     </li>
                 </ul>
             </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1"  />
-
+            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
+                class="absolute teacher-img1" />
         </div>
-
     </div>
 
 
@@ -375,9 +349,8 @@
     {{-- ========================================================== --}}
     {{-- Buttons --}}
     <div class="down-btn-container">
-        <button
-         class="doneButton">
- <img src="{{ asset('assets/images/pptimages/done.png') }}" />
+        <button class="doneButton">
+            <img src="{{ asset('assets/images/pptimages/done.png') }}" />
         </button>
     </div>
 
@@ -385,23 +358,17 @@
 
         <!-- Return Button -->
         <a id="returnButton">
- <img
-    src="{{ asset('assets/images/pptimages/return.png') }}" />
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
 
         <!-- Home Button -->
-        <button
-     id="homeButton">
-            <img 
-                src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
         <button id="closeButton">
-           
-            <img 
-                src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-    
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
         </button>
 
     </div>
@@ -409,15 +376,10 @@
     {{-- next Button --}}
     <div class="down-btn-container">
 
-        <button
-            class="nextButton">
- <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
+        <button class="nextButton">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
         </button>
     </div>
-
-
-
-
 @endsection
 
 
@@ -456,17 +418,17 @@
                 });
             });
 
-              //   Return button - redirect if on first slide, otherwise go back
-        returnButton.addEventListener("click", () => {
-            if (currentSlide === 0) {
-                //   First slide pe hai →  
-                window.location.href = "{{ route('YourRouteNameHere') }}";
-            } else {
-                //   Previous slide pe jao
-                currentSlide--;
-                showSlide(currentSlide);
-            }
-        });
+            //   Return button - redirect if on first slide, otherwise go back
+            returnButton.addEventListener("click", () => {
+                if (currentSlide === 0) {
+                    //   First slide pe hai →  
+                    window.location.href = "{{ route('wCodingSelection') }}";
+                } else {
+                    //   Previous slide pe jao
+                    currentSlide--;
+                    showSlide(currentSlide);
+                }
+            });
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {

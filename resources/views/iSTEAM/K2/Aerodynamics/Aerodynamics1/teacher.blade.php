@@ -68,7 +68,7 @@
     {{-- sldie 3 --}}
     <div class="slide flex text-2xl text-white flex-col items-start text-start">
         <div>
-            <h2 class="font-bold t-title">How to make a model of aeroplane wing for Hands-on Session 3:</h2>
+            <h2 class=" t-title">How to make a model of aeroplane wing for Hands-on Session 3:</h2>
             <ul class="list-decimal">
                 <li class="text-[1.3vw]">Prepare an A4 paper.</li>
                 <li class="text-[1.3vw]">Fold in one side of the paper, so that one side of the fold is slightly longer than
@@ -85,7 +85,7 @@
     {{-- slide 4 --}}
     <div class="slide flex text-2xl text-white flex-col items-start text-start">
         <div>
-            <h2 class="font-bold t-title">How to make a model of aeroplane model for Hands-on Session 3:</h2>
+            <h2 class=" t-title">How to make a model of aeroplane model for Hands-on Session 3:</h2>
             <ul>
                 <li class="text-[1.3vw]">4. Make a mark halfway along the shape, about 1 inch from the front.</li>
                 <li class="text-[1.3vw]">5. Make a hole through the mark and push a straw through it.</li>
@@ -101,7 +101,7 @@
     <div class="slide flex flex-col justify-start text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold t-title">Notes:</h2>
+                <h2 class=" t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
                     <li class="text-[1.3vw] flex">
                         If you see

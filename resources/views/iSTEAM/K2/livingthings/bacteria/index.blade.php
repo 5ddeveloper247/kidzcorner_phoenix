@@ -4,7 +4,7 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col items-center ">
-        <div class="  title stroke">What are Bacteria??</div>
+        <div class="  title stroke">What are Bacteria?</div>
         <h2 class="text-2xl sm:text-3xl lg:text-5xl text-white stroke ">Learn about the characteristics of bacteria;
             learn to use scientific method for growing bacteria
             and test if disinfectant sprays

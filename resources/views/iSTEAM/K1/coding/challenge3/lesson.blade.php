@@ -2,15 +2,19 @@
 @section('title', 'Dynamic Presentation')
 
 @section('content')
+    {{-- title --}}
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">Coding Challenge (3)</h2>
+
+
     {{-- Slide 1 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
+    <div class="slide flex flex-col items-center justify-center  ">
         <img src="/assets/images/K1/coding/challenge3/ch1.png" />
         <h2 class="title stroke">Children, do you know how to spell your name?</h2>
         <p class="note">Note: Have children spell their names.</p>
     </div>
 
     {{-- Slide 2 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
+    <div class="slide flex flex-col items-center justify-center  ">
         <img src="/assets/images/K1/coding/challenge3/ch1.png" />
         <h2 class="title stroke">Do you know how to spell the names of your friends?</h2>
         <p class="note">Note: Have children try yo spell the name of a friend sitting next to them.</p>
@@ -18,14 +22,14 @@
 
 
     {{-- Slide3 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/coding/challenge3/ch1.png" />
         <h2 class="text-center title stroke">Let’s play a coding game with names! <br>
             Can you plan a route for a robot to spell out a name?</h2>
     </div>
 
     {{-- slide 4 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
+    <div class="slide hidden flex flex-col items-center justify-between h-[50vh] ">
         <h2 class="text-center justify-start text-[45px] text-white stroke">Hands-on Time 1</h2>
         <h2 class="text-start title stroke">Mission: <br>
             Plan a route for a robot to spell out a name. Use Blockly to
@@ -43,7 +47,7 @@
             <li>1. Whose name do you want the robot to spell out? Write it in
                 your learning journal.</li>
         </ol>
-        <img src="/assets/images//K1/coding/challenge3/ch2.png" />
+        <img src="{{ asset('/assets/images//K1/coding/challenge3/ch2.png') }}" />
         <p class="note text-center">Note: Guide children to create short form or only use initials for names that are long.
         </p>
     </div>
@@ -56,7 +60,7 @@
             <h2>Steps:</h2>
             <li>2. Let your friends place the letters on the mat randomly.</li>
         </ol>
-        <img src="/assets/images//K1/coding/challenge3/ch3.png" />
+        <img src="{{ asset('/assets/images//K1/coding/challenge3/ch3.png') }}" class="!w-[17vw] !h-[30vh]" />
         <p class="note text-center">Note: Have other group members help to set up the mat. Remind them to fix a starting
             point too.</p>
     </div>
@@ -68,7 +72,7 @@
             <h2>Steps:</h2>
             <li>3.How do you plan the route? Plot your plan in the learning journal.</li>
         </ol>
-        <img src="/assets/images//K1/coding/challenge3/ch3.png" />
+        <img src="{{ asset('/assets/images//K1/coding/challenge3/ch3.png') }}" class="!w-[17vw] !h-[30vh]" />
         <p class="note text-center">Note: Have children copy the arrangement of letters in their learning journal and plan a
             route by drawing arrows.</p>
     </div>
@@ -81,13 +85,13 @@
             <li>4. Use coding cards to lay out the steps needed for a robot to
                 move according to the planned route and spell the name.</li>
         </ol>
-        <div class="flex items-center gap-10">
-            <img src="/assets/images//K1/coding/challenge3/ch3.png" />
-            <div class="flex flex-col items-start gap-5">
-                <div class="flex items-center gap-5">
-                    <img src="/assets/images//K1/coding/challenge1/ch5.png" />
+        <div class="flex items-center gap-[1.5vw]">
+            <img src="{{ asset('/assets/images//K1/coding/challenge3/ch3.png') }}" class="!w-[17vw] !h-[28vh]" />
+            <div class="flex flex-col items-start ">
+                <div class="flex items-center ">
+                    <img src="/assets/images//K1/coding/challenge1/ch5.png" class="!w-[5vw]" />
                     <img src="/assets/images//K1/coding/challenge1/ch4.png" />
-                    <img src="/assets/images//K1/coding/challenge1/ch6.png" />
+                    <img src="/assets/images//K1/coding/challenge1/ch6.png" class="!w-[2vw]" />
                 </div>
                 <img src="/assets/images//K1/coding/challenge1/ch7.png" />
             </div>
@@ -104,9 +108,9 @@
             <li>5. Use Blockly to programme a robot to move according to the
                 planned route and spell the name.</li>
         </ol>
-        <div class="flex items-center gap-10">
-            <img src="/assets/images//K1/coding/challenge3/ch3.png" />
-            <img src="/assets/images//K1/coding/challenge1/ch8.png" />
+        <div class="flex items-center gap-[1.5vw]">
+            <img src="{{ asset('/assets/images//K1/coding/challenge3/ch3.png') }}" class="!w-[17vw] !h-[30vh]" />
+            <img src="/assets/images//K1/coding/challenge1/ch8.png" class="!w-[18vw]" />
         </div>
         <p class="note text-center">Note: Have children work out the programming steps in Blockly and show their answer to
             the teacher.</p>
@@ -114,27 +118,27 @@
 
 
     {{-- sldie 10 --}}
-    <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
+    <div class="slide  hidden flex flex-col items-center justify-center ">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[836px] h-[536px] bg-cover bg-center flex flex-col justify-center items-center"
+        <div class="w-[40vw] h-[40vh] bg-cover bg-center flex flex-col justify-center items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>What is the arrangement of letters on your coding mat? Plot them here. Where is the
                 starting point of the robot? How do you plan the route to spell the name? Draw arrows.</p>
-            <div class="flex items-center gap-5">
+            <div class="flex items-center ">
                 <p>What is the name you want the <br> robot to spell out?
                     <br>
                     <br>
                     _______________________________
                 </p>
-                <img src="/assets/images/K1/coding/challenge3/ch4.png" class="w-[400px]" />
+                <img src="/assets/images/K1/coding/challenge3/ch4.png" class="!w-[14vw]" />
             </div>
         </div>
     </div>
 
     {{-- sldie 11 --}}
-    <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
+    <div class="slide  hidden flex flex-col items-center justify-center ">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[836px] h-[536px] bg-cover bg-center flex flex-col justify-start items-center"
+        <div class="w-[40vw] h-[40vh] bg-cover bg-center flex flex-col justify-start items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>How does a robot move according to the planned route and spell the name?
                 Use coding cards to lay out the steps.</p>
@@ -172,9 +176,7 @@
 
         <!-- Close Button -->
         <button id="closeButton">
-
             <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-
         </button>
 
     </div>
@@ -228,17 +230,17 @@
                 });
             });
 
-              //   Return button - redirect if on first slide, otherwise go back
-        returnButton.addEventListener("click", () => {
-            if (currentSlide === 0) {
-                //   First slide pe hai →  
-                window.location.href = "{{ route('YourRouteNameHere') }}";
-            } else {
-                //   Previous slide pe jao
-                currentSlide--;
-                showSlide(currentSlide);
-            }
-        });
+            //   Return button - redirect if on first slide, otherwise go back
+            returnButton.addEventListener("click", () => {
+                if (currentSlide === 0) {
+                    //   First slide pe hai →  
+                    window.location.href = "{{ route('challenge3Selection') }}";
+                } else {
+                    //   Previous slide pe jao
+                    currentSlide--;
+                    showSlide(currentSlide);
+                }
+            });
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {

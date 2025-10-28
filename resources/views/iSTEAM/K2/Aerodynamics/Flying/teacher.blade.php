@@ -3,9 +3,9 @@
 
 @section('content')
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
-            <h2 class="t-title font-bold">Children will be able to:</h2>
+            <h2 class="t-title ">Children will be able to:</h2>
             <ul class="list-disc ">
                 <li class="text-[1.3vw]">Recall the use of aerodynamics in aeroplanes and other vehicles</li>
                 <li class="text-[1.3vw]">Learn how rockets and space shuttles use aerodynamics to help them move</li>
@@ -44,7 +44,7 @@
     <div class=" slide flex text-2xl text-white flex-col justify-start text-start">
         <div class="">
             <ul class="list-disc ">
-                <h2 class="font-bold t-title">Preparations:</h2>
+                <h2 class=" t-title">Preparations:</h2>
                 <h2>Final Project</h2>
                 <li class="text-[1.3vw]">Materials you can prepare (this is not an exhaustive list):</li>
             </ul>
@@ -90,7 +90,7 @@
     {{-- sldie 3 --}}
     <div class=" slide text-start text-2xl text-white">
         <div>
-            <h2 class="font-bold t-title">Additional info on rocket launch:</h2>
+            <h2 class=" t-title">Additional info on rocket launch:</h2>
             <ul class="list-disc text-[#F7B94A] space-y-10">
                 <li class="text-[1.3vw]">
                     <a href="https://www.youtube.com/watch?v=oMeXcBk1x-c">
@@ -111,7 +111,7 @@
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold t-title">Notes:</h2>
+                <h2 class=" t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
                     <li class="text-[1.3vw] flex">
                         If you see

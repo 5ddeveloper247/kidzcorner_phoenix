@@ -1,9 +1,13 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
- 
+
 @section('content')
+    {{-- title --}}
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">Coding Challenge (5)</h2>
+
+
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex  text-white flex-col t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -15,9 +19,9 @@
             </ul>
         </div>
 
-        <div class="flex flex-col  items-start justify-between">
-            <h2 class="t-title font-bold">Keywords:</h2>
-            <div >
+        <div>
+            <h2 class="t-title ">Keywords:</h2>
+            <div class="flex gap-[5vw]">
                 <ul class="list-disc ">
                     <li>Programming Block</li>
                     <li>Forward</li>
@@ -31,64 +35,60 @@
                 </ul>
             </div>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex  text-white flex-col t-slide justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Preparations:</h2>
+            <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
                 <li>Coding mats and obstacle cards</li>
             </ul>
         </div>
         <div class="flex gap-5">
-            <img src="{{ asset('assets/images/K1/coding/challenge1/ch9.png') }}" alt="Teacher" class="absolute teacher-img1" />
-            <img src="{{ asset('assets/images/K1/coding/challenge1/ch12.png') }}" alt="Teacher" class="absolute teacher-img1" />
-            <img src="{{ asset('assets/images/K1/coding/challenge1/ch11.png') }}" alt="Teacher" class="absolute teacher-img1" />
+            <img src="{{ asset('assets/images/K1/coding/challenge1/ch9.png') }}" class="!h-[35vh]" />
+            <img src="{{ asset('assets/images/K1/coding/challenge1/ch12.png') }}" class="!h-[35vh]" />
+            <img src="{{ asset('assets/images/K1/coding/challenge1/ch11.png') }}" class="!h-[35vh]" />
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
     {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start items-center gap-y-10 text-start">
+    <div class=" slide flex  text-white flex-col t-slide justify-start items-center  text-start">
         <div>
-            <h2 class="font-bold t-title">Preparations:</h2>
+            <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc">
                 <li>Pictures of a cat (size not more than 10cm)</li>
                 <li>Blu Tack (for fixing graphic cards on the coding mat)</li>
                 <li>Each group a stopwatch</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K1/coding/challenge5/ch5.png') }}" class="w-[300px]" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/K1/coding/challenge5/ch5.png') }}" class="h-[30vh]" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- slide 4 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex  text-white flex-col t-slide justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Preparations for the testing of the ball roller coaster:</h2>
+            <h2 class=" t-title">Preparations for the testing of the ball roller coaster:</h2>
             <ul class="list-disc">
                 <li>Coding cards</li>
                 <li>Whiteboard marker pens</li>
             </ul>
         </div>
         <img src="{{ asset('assets/images/K1/coding/challenge2/ch9.png') }}" class="w-[800px]" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- slide 5 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex  text-white flex-col t-slide items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Preparations:</h2>
+            <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc">
                 <li>The robots and tablets (refer to the teacher’s mode of Lesson 1 for guide on
                     what you need to know and do before the lesson)</li>
@@ -96,76 +96,79 @@
             </ul>
         </div>
         <img src="{{ asset('assets/images/K1/coding/cd/cd13.png') }}" alt="Teacher" class="w-[600px]" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
     {{-- sldie 6 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex  text-white flex-col t-slide items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Preparations:</h2>
+            <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc">
                 <li>Mini coding cards (print and cut out before the lesson)</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K1/coding/challenge1/ch13.png') }}" alt="Teacher" class="w-[500px]" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/K1/coding/challenge1/ch13.png') }}" class="w-img" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- sldie 7 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex  text-white flex-col t-slide items-center justify-start  text-start">
         <p class="note">Before the hands-on session starts, guide each group of children to set up the
             mat accordingly (as shown).</p>
-        <img src="{{ asset('assets/images/K1/coding/challenge5/ch3.png') }}" alt="Teacher" class="w-[500px]" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/K1/coding/challenge5/ch3.png') }}" class="!w-[19vw]" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- sldie 8 --}}
-    <div class=" slide flex text-2xl text-white flex-col  justify-start text-start">
+    <div class=" slide flex  text-white flex-col t-slide  justify-start text-start">
 
-        <h2 class="font-bold t-title">When the hands-on session starts, guide each group of children to:</h2>
-        <ul class="list-disc">
-            <li>Use the learning journals to each plan 1 or 2 routes that enable a robot to find
-                all the cats as soon as possible.</li>
-            <li>Compare all the planned routes (by checking the number of steps needed for each
-                route) and decide three for the efficient test.</li>
-            <li>Carry out test using a stopwatch and record the results in the learning journal to
-                find out which route is the most efficient route for a robot to find all the cats.</li>
-            <li>Take turns to show their findings to the class.</li>
-        </ul>
+        <div>
+            <h2 class=" t-title">When the hands-on session starts, guide each group of children to:</h2>
+            <ul class="list-disc">
+                <li>Use the learning journals to each plan 1 or 2 routes that enable a robot to find
+                    all the cats as soon as possible.</li>
+                <li>Compare all the planned routes (by checking the number of steps needed for each
+                    route) and decide three for the efficient test.</li>
+                <li>Carry out test using a stopwatch and record the results in the learning journal to
+                    find out which route is the most efficient route for a robot to find all the cats.</li>
+                <li>Take turns to show their findings to the class.</li>
+            </ul>
+        </div>
 
-        <br><br><br>
-        <h2 class="font-bold t-title">At the end of the hands-on session:</h2>
-        <ul class="list-disc">
-            <li>Guide children to conclude from their findings - the most efficient route
-                for a robot to complete the mission in the class.</li>
-        </ul>
+        <div>
 
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+            <h2 class=" t-title">At the end of the hands-on session:</h2>
+            <ul class="list-disc">
+                <li>Guide children to conclude from their findings - the most efficient route
+                    for a robot to complete the mission in the class.</li>
+            </ul>
+        </div>
+
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
 
     {{-- sldie 9 --}}
-    <div class=" slide flex text-2xl text-white flex-col  justify-start  text-start">
+    <div class=" slide flex  text-white flex-col t-slide  justify-start  text-start">
+        <div>
 
-        <h2 class="font-bold t-title">Reminders or advice during hands-on session:</h2>
-        <ul class="list-disc">
-            <li>Always hold a robot or a tablet with both your hands (to show your care and prevent the tools from spoiling
-                easily).</li>
-            <li>Never place your hands on the wheels of the robot (prevent yourself from getting hurt).</li>
-            <li>Never hold the robot by its head (prevent it from spoiling easily).</li>
-            <li>Never push and stop the robot from moving once you turn on a programme (prevent it from spoiling easily).
-            </li>
-            <li>Be patient and take turns when using the different tools.</li>
-        </ul>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+            <h2 class=" t-title">Reminders or advice during hands-on session:</h2>
+            <ul class="list-disc">
+                <li>Always hold a robot or a tablet with both your hands (to show your care and prevent the tools from
+                    spoiling
+                    easily).</li>
+                <li>Never place your hands on the wheels of the robot (prevent yourself from getting hurt).</li>
+                <li>Never hold the robot by its head (prevent it from spoiling easily).</li>
+                <li>Never push and stop the robot from moving once you turn on a programme (prevent it from spoiling
+                    easily).
+                </li>
+                <li>Be patient and take turns when using the different tools.</li>
+            </ul>
+        </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
@@ -173,21 +176,15 @@
 
 
     {{-- slide 10 --}}
-    <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
+    <div class="slide flex  flex-col t-slide justify-start   text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold t-title">Notes:</h2>
+                <h2 class=" t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
-                    <li>
+                    <li class="flex">
                         If you see
-                        <span
-                            class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-                            <!-- Decorative Vector -->
-                            <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
-                                class="absolute top-[4px] left-[6px] h-6 w-[80%]" />
-                            <div class="absolute top-[7px] left-[12px] h-2.5 w-3.5 rounded-sm bg-white"></div>
-                            <img src="{{ asset('assets/images/pptimages/play.png') }}"
-                                class="absolute top-[16px] left-[16px] h-8 w-8" />
+                        <span>
+                            <img src="{{ asset('assets/images/pptimages/video.png') }}" />
                         </span>
                         next to a picture, class="text-amber-400" click on the picture to watch the video.
                     </li>
@@ -202,33 +199,27 @@
                         programme.</li>
                     <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
                     </li>
-                    <li>
-                        Click on this <span class="font-bold t-title">shortcut icon</span>
-                        <span
-                            class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-                            <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
-                                class="absolute top-[4px] left-[6px] h-6 w-[80%]" />
-                            <div class="absolute top-[7px] left-[12px] h-2.5 w-3.5 rounded-sm bg-white"></div>
-                            <img src="{{ asset('assets/images/pptimages/home-icon.png') }}"
-                                class="absolute top-[16px] left-[16px] h-8 w-8" />
+                    <li class="flex">
+                        Click on this shortcut icon
+                        <span>
+                            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
                         </span>
                         if you need to go to some parts of the lesson quickly.
                     </li>
                 </ul>
             </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1"
-                alt="Teacher" />
+            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="Teacher" />
         </div>
     </div>
 
 
     {{-- slide 11 --}}
-    <div class="text-white flex flex-col items-center justify-center gap-y-10 text-start text-2xl slide hidden">
+    <div class="text-white flex flex-col t-slide items-center justify-center  text-start  slide hidden">
         <h2 class=" title stroke">Learning Centre Idea</h2>
         <div>
             <ul>
                 <h2 class="!text-white title stroke">The Best Programmer Competition</h2>
-                <h2>What to prepare:</h2>
+                <h2 class="t-title">What to prepare:</h2>
                 <li>Create a coding mat with the mission for children to programme a
                     robot to hunt for as many items (e.g .: animals) as it can in 2
                     minutes (set up the coding mat with obstacle cards and graphic
@@ -240,12 +231,14 @@
     </div>
 
 
+
+
+
     {{-- ========================================================== --}}
     {{-- Buttons --}}
     <div class="down-btn-container">
-        <button
-         class="doneButton">
- <img src="{{ asset('assets/images/pptimages/done.png') }}" />
+        <button class="doneButton">
+            <img src="{{ asset('assets/images/pptimages/done.png') }}" />
         </button>
     </div>
 
@@ -253,39 +246,27 @@
 
         <!-- Return Button -->
         <a id="returnButton">
- <img
-    src="{{ asset('assets/images/pptimages/return.png') }}" />
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
 
         <!-- Home Button -->
-        <button
-     id="homeButton">
-            <img 
-                src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
         <button id="closeButton">
-           
-            <img 
-                src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-    
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
         </button>
 
     </div>
 
     {{-- next Button --}}
     <div class="down-btn-container">
-
-        <button
-            class="nextButton">
- <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
+        <button class="nextButton">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
         </button>
     </div>
-
-
-
-
 @endsection
 
 
@@ -324,17 +305,17 @@
                 });
             });
 
-              //   Return button - redirect if on first slide, otherwise go back
-        returnButton.addEventListener("click", () => {
-            if (currentSlide === 0) {
-                //   First slide pe hai →  
-                window.location.href = "{{ route('YourRouteNameHere') }}";
-            } else {
-                //   Previous slide pe jao
-                currentSlide--;
-                showSlide(currentSlide);
-            }
-        });
+            //   Return button - redirect if on first slide, otherwise go back
+            returnButton.addEventListener("click", () => {
+                if (currentSlide === 0) {
+                    //   First slide pe hai →  
+                    window.location.href = "{{ route('challenge5Selection') }}";
+                } else {
+                    //   Previous slide pe jao
+                    currentSlide--;
+                    showSlide(currentSlide);
+                }
+            });
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {

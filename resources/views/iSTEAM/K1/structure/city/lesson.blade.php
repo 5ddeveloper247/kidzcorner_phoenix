@@ -1,11 +1,12 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
- 
-@section('content')
 
+@section('content')
+    {{-- title --}}
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">Our Amazing City</h2>
 
     {{-- Slide 1 --}}
-    <div class="slide flex flex-col items-center justify-center gap-20 ">
+    <div class="slide flex flex-col items-center justify-between h-[30vh]  ">
         <h2 class="title stroke">Children, how many types of structures have you learnt
             to build in the past few lessons?</h2>
         <p class="note">Note: Have children recall and name the structures that they built in the past few lessons.</p>
@@ -14,7 +15,7 @@
 
 
     {{-- Slide 2 --}}
-    <div class="slide flex flex-col justify-center gap-20 items-center ">
+    <div class="slide flex flex-col justify-between h-[30vh]  items-center ">
         <h2 class="title stroke text-center">How confident are you in building different structures
             using the straws and pipe cleaners? <br>
             What are some of the points you have learned
@@ -24,7 +25,7 @@
 
 
     {{-- Slide3 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
+    <div class="slide flex flex-col items-center justify-between h-[30vh]  ">
         <h2 class="title stroke">We are going to design and build an amazing city.
             What do you think an amazing city has? <br>
             Let's look at some cities around the world!</h2>
@@ -42,7 +43,7 @@
 
 
     {{-- Slide 5  --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/str/c2.png" />
         <h2 class=" title stroke">What <span class="text-white">structures</span> do you see in this <span
                 class="text-white">city</span>?</h2>
@@ -52,7 +53,7 @@
 
 
     {{-- slide 6 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/str/c3.png" />
         <h2 class=" title stroke">What <span class="text-white">structures</span> do you see in this <span
                 class="text-white">city</span>?</h2>
@@ -61,7 +62,7 @@
 
 
     {{-- Slide 7 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/str/c4.png" />
         <h2 class=" title stroke">What <span class="text-white">structures</span> do you see in this <span
                 class="text-white">city</span>?</h2>
@@ -70,7 +71,7 @@
 
 
     {{-- Slide 8 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/str/c5.png" />
         <h2 class=" title stroke">What <span class="text-white">structures</span> do you see in this <span
                 class="text-white">city</span>?</h2>
@@ -81,7 +82,7 @@
 
 
     {{-- slide 9 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/str/c6.png" />
         <h2 class=" title stroke">A city has different types of structures
             that make it interesting and unique.</h2>
@@ -90,7 +91,7 @@
 
 
     {{-- slide 10 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-20">
+    <div class="slide hidden flex flex-col items-center justify-between h-[45vh] ">
         <h2 class="text-center justify-start text-[45px] text-white stroke">Create an Amazing City </h2>
         <h2 class="text-start title stroke">Mission: <br>
             Let’s design and build an amazing city using the straws and pipe cleaners.</h2>
@@ -100,10 +101,10 @@
 
 
     {{-- slide 11 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start gap-20  ">
+    <div class="slide hidden  flex flex-col items-center justify-between h-[45vh]   ">
         <div class="title stroke text-start">
             <h2>Steps:</h2>
-            <ul class="list-decimal">
+            <ul class="lesson-ul" class="lesson-ul list-decimal">
                 <li>What structures do you want to have in your amazing city?
                     List them in the learning journal.</li>
                 <li>Decide the structures that you are going to build. Circle
@@ -116,10 +117,10 @@
 
 
     {{-- slide 12 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start gap-20  ">
+    <div class="slide hidden  flex flex-col items-center justify-between h-[45vh]   ">
         <div class="title stroke text-start">
             <h2>Steps:</h2>
-            <ul>
+            <ul class="lesson-ul">
                 <li>3. Design and build the different structures. Draw your
                     designs in the learning journals.</li>
             </ul>
@@ -132,10 +133,10 @@
 
 
     {{-- slide 13 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start gap-20  ">
+    <div class="slide hidden  flex flex-col items-center justify-between h-[40vh]   ">
         <div class="title stroke text-start">
             <h2>Steps:</h2>
-            <ul>
+            <ul class="lesson-ul">
                 <li>4. Showcase the structures created.</li>
             </ul>
         </div>
@@ -148,10 +149,10 @@
 
 
     {{-- slide 14 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start gap-20  ">
+    <div class="slide hidden  flex flex-col items-center justify-between h-[45vh]   ">
         <div class="title stroke text-start">
             <h2>Steps:</h2>
-            <ul >
+            <ul class="lesson-ul">
                 <li>5. How do you put those structures together to form a city?
                     Draw your design in the learning journal.</li>
             </ul>
@@ -163,10 +164,10 @@
 
 
     {{-- slide 15 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start gap-20  ">
+    <div class="slide hidden  flex flex-col items-center justify-between h-[40vh]   ">
         <div class="title stroke text-start">
             <h2>Steps:</h2>
-            <ul>
+            <ul class="lesson-ul">
                 <li>6. Give your city a name and showcase your city.</li>
             </ul>
         </div>
@@ -181,7 +182,7 @@
     {{-- slide 16 --}}
     <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[836px] h-[536px] bg-cover bg-center flex flex-col justify-start items-start"
+        <div class="w-[40vw] h-[40vh] bg-cover bg-center flex flex-col justify-start items-start"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>What do you want to have in your amazing city? List them. <br>
                 Circle only those that you are going to build.</p>
@@ -192,7 +193,7 @@
     {{-- slide 17 --}}
     <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[836px] h-[536px] bg-cover bg-center flex flex-col justify-start items-start"
+        <div class="w-[40vw] h-[40vh] bg-cover bg-center flex flex-col justify-start items-start"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>What are you going to build? <br>
                 How do you design it? Draw it.</p>
@@ -202,7 +203,7 @@
     {{-- slide 18 --}}
     <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[836px] h-[536px] bg-cover bg-center flex flex-col justify-between items-start"
+        <div class="w-[40vw] h-[40vh] bg-cover bg-center flex flex-col justify-between items-start"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>How do you design your amazing city? Draw it.</p>
             <p>What is the name of your ciity?___________________________________</p>
@@ -219,35 +220,27 @@
     {{-- ====================================== --}}
     {{-- Buttons --}}
     <div class="down-btn-container">
-        <button
-         class="doneButton">
- <img src="{{ asset('assets/images/pptimages/done.png') }}" />
+        <button class="doneButton">
+            <img src="{{ asset('assets/images/pptimages/done.png') }}" />
         </button>
     </div>
 
 
- <div id="buttons" class="absolute  flex flex-row gap-6 ">
+    <div id="buttons" class="absolute  flex flex-row gap-6 ">
 
         <!-- Return Button -->
-        <a 
-    id="returnButton">
+        <a id="returnButton">
 
-            <img 
-                src="{{ asset('assets/images/pptimages/return.png') }}" />
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
         <!-- Home Button -->
-        <button
-          id="homeButton">
-            <img 
-                src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
         <button id="closeButton">
-           
-            <img 
-                src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-    
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
         </button>
 
     </div>
@@ -255,9 +248,8 @@
     {{-- next Button --}}
     <div class="down-btn-container">
 
-        <button
-            class="nextButton ">
-                        <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
+        <button class="nextButton ">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
 
         </button>
     </div>
@@ -303,17 +295,17 @@
                 });
             });
 
-              //   Return button - redirect if on first slide, otherwise go back
-        returnButton.addEventListener("click", () => {
-            if (currentSlide === 0) {
-                //   First slide pe hai →  
-                window.location.href = "{{ route('YourRouteNameHere') }}";
-            } else {
-                //   Previous slide pe jao
-                currentSlide--;
-                showSlide(currentSlide);
-            }
-        });
+            //   Return button - redirect if on first slide, otherwise go back
+            returnButton.addEventListener("click", () => {
+                if (currentSlide === 0) {
+                    //   First slide pe hai →  
+                    window.location.href = "{{ route('citySelection') }}";
+                } else {
+                    //   Previous slide pe jao
+                    currentSlide--;
+                    showSlide(currentSlide);
+                }
+            });
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {

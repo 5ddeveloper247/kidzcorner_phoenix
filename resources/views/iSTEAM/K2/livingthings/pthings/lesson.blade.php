@@ -229,7 +229,7 @@
             (stems move up and roots move down).</p>
 
         <!-- Video Trigger Button -->
-        <div data-property-1="Default"
+        <div onclick="toggleVideo('video1')"
             class="absolute top-1/2 right-0 z-30 h-24 w-24 -translate-y-1/2 cursor-pointer h-24 w-24 rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
             <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-[80%] " />
             <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
@@ -245,7 +245,7 @@
             bloom.</p>
 
         <!-- Video Trigger Button -->
-        <div data-property-1="Default"
+        <div onclick="toggleVideo('video1')"
             class="absolute top-1/2 right-0 z-30 h-24 w-24 -translate-y-1/2 cursor-pointer h-24 w-24 rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
             <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-[80%] " />
             <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
@@ -260,7 +260,7 @@
             sunflower plants move by themselves to follow the sun as it moves across the sky.</p>
 
         <!-- Video Trigger Button -->
-        <div data-property-1="Default"
+        <div onclick="toggleVideo('video1')"
             class="absolute top-1/2 right-0 z-30 h-24 w-24 -translate-y-1/2 cursor-pointer h-24 w-24 rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
             <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-[80%] " />
             <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
@@ -275,7 +275,7 @@
             wind, rain and animals.</p>
 
         <!-- Video Trigger Button -->
-        <div data-property-1="Default"
+        <div onclick="toggleVideo('video1')"
             class="absolute top-1/2 right-0 z-30 h-24 w-24 -translate-y-1/2 cursor-pointer h-24 w-24 rounded-[30px] bg-sky-500 shadow-[3px_4px_7.8px_rgba(0,0,0,0.25)] shadow-[inset_3px_-4px_4px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
             <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-[80%] " />
             <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
@@ -420,7 +420,7 @@
         <h2 class="title stroke">Do you know how plants grow? </h2>
         <p class="note">Note: Encourage children to describe how a big plant grow from a small seed.</p>
         <!-- Video Trigger Button -->
-        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -435,7 +435,7 @@
         <img src="/assets/images/K2/livingthings/pthings/p15.png" />
         <h2 class="title stroke">This is the growing process of a sample seed.</h2>
         <!-- Video Trigger Button -->
-        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -464,7 +464,7 @@
         <h2 class="title stroke">How does an apple seed turn into a big tree?</h2>
         <p class="note">Note: Encourage children to describe the life cycle of an apple tree.</p>
         <!-- Video Trigger Button -->
-        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -474,7 +474,7 @@
         <h2 class="title stroke">In fact, many plants produce seeds,
             which will grow into new plants.</h2>
         <!-- Video Trigger Button -->
-        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -611,9 +611,7 @@
 
         <!-- Close Button -->
         <button id="closeButton">
-
             <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-
         </button>
 
     </div>

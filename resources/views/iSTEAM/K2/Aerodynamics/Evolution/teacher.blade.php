@@ -3,9 +3,9 @@
 
 @section('content')
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
-            <h2 class="t-title font-bold">Children will be able to:</h2>
+            <h2 class="t-title ">Children will be able to:</h2>
             <ul class="list-disc ">
                 <li class="text-[1.3vw]">Learn about the history of aeroplane design and how it has evolved</li>
                 <li class="text-[1.3vw]">Understand aerodynamic forces in various types of vehicles</li>
@@ -15,7 +15,7 @@
         </div>
 
         <div class="flex flex-col  items-start justify-between">
-            <h2 class="t-title font-bold">Keywords:</h2>
+            <h2 class="t-title ">Keywords:</h2>
             <div class="flex gap-[10rem]">
                 <ul class="list-disc ">
                     <li class="text-[1.3vw]">Wright Brothers</li>
@@ -38,9 +38,9 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div class="space-y-10">
-            <h2 class="font-bold t-title">Preparations:</h2>
+            <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
                 <h2>Monoplane</h2>
                 <li class="text-[1.3vw]">The propeller provides thrust for the plane to move forward.</li>
@@ -74,7 +74,7 @@
     {{-- sldie 3 --}}
     <div class=" slide text-start text-2xl text-white">
         <div>
-            <h2 class="font-bold t-title">Additional info on wind tunnel test:</h2>
+            <h2 class=" t-title">Additional info on wind tunnel test:</h2>
             <ul class="list-disc text-[#F7B94A] space-y-10">
                 <li class="text-[1.3vw]">
                     <a
@@ -100,7 +100,7 @@
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold t-title">Notes:</h2>
+                <h2 class=" t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
                     <li class="text-[1.3vw] flex">
                         If you see

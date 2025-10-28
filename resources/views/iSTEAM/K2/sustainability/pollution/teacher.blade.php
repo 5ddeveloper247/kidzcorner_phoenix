@@ -3,7 +3,7 @@
 
 @section('content')
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -51,7 +51,7 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
             <h2 class="font-bold t-title">Preparations For Class Activity 1:</h2>
             <ul class="list-disc">
@@ -72,9 +72,9 @@
 
 
     {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-center gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-center  text-start">
         <div>
-            <h2 class="font-bold t-title">Preparations For Class Activity 1:</h2>
+            <h2 class=" t-title">Preparations For Class Activity 1:</h2>
             <ul class="list-disc">
                 <li class="text-[1.3vw]">Prepare a spoon to scoop the filter materials into each bottle during the activity.
                     Ensure each group has the same amount.</li>
@@ -93,9 +93,9 @@
 
 
     {{-- slide 4 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Preparations For Class Activity 1:</h2>
+            <h2 class=" t-title">Preparations For Class Activity 1:</h2>
             <ul class="list-decimal">
                 <li class="text-[1.3vw]">You can plan such that different groups have a different set of filter materials or
                     place
@@ -114,9 +114,9 @@
 
 
     {{-- slide 5 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Preparations For Class Activity 1:</h2>
+            <h2 class=" t-title">Preparations For Class Activity 1:</h2>
             <ul>
                 <li class="text-[1.3vw]">2. Scoop the filter materials and add them in layer by layer in this order <br>
                     <h3 class="title stroke">Bottle 1 </h3> : Activated charcoal , sand , gravel and pebbles
@@ -136,7 +136,7 @@
     {{-- slide 5 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold t-title">Preparations For Class Activity 1:</h2>
+            <h2 class=" t-title">Preparations For Class Activity 1:</h2>
             <ul>
                 <li class="text-[1.3vw]">3. Pour half the dirty mixture into the water filter.<br>
                     4. It may take more than 30 minutes to one hour to have some liquid being filtered out.</li>
@@ -152,9 +152,9 @@
 
 
     {{-- sldie 6 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Preparations for Class Activity 2 :</h2>
+            <h2 class=" t-title">Preparations for Class Activity 2 :</h2>
             <ul>
                 <li class="text-[1.3vw]">
                     Two 500ml water bottles of the same type
@@ -171,9 +171,9 @@
 
 
     {{-- sldie 7 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Useful information:</h2>
+            <h2 class=" t-title">Useful information:</h2>
             <ul>
                 <li class="text-[1.3vw]">
 
@@ -201,7 +201,7 @@
     {{-- sldie 7 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold t-title">Notes</h2>
+            <h2 class=" t-title">Notes</h2>
             <ul>
                 <li class="text-[1.3vw] flex">If you see
                     <span>
@@ -240,7 +240,7 @@
     </div>
 
     {{-- sldie 8 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class="title stroke justify-center"> Learning Centre Idea </h2>
             <h2 class="text-white">Biodegradable Vs Non-biodegradable</h2>

@@ -2,12 +2,11 @@
 @section('title', 'Dynamic Presentation')
 
 @section('content')
-
-
-
+    {{-- title --}}
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">Domino Fun</h2>
 
     {{-- sldie 1 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -17,25 +16,23 @@
                 <li>Create a domino pattern that includes some of the basic domino arrangements together with friends</li>
             </ul>
         </div>
-        <div class="flex w-[100%] items-center justify-between">
-            <div>
-                <h2 class="t-title font-bold">Keywords:</h2>
-                <ul class="list-disc ">
-                    <li>Domino Effect</li>
-                    <li>Chain Reaction</li>
-                    <li>Force (Push)</li>
-                </ul>
-            </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1"  />
+        <div>
+            <h2 class="t-title ">Keywords:</h2>
+            <ul class="list-disc ">
+                <li>Domino Effect</li>
+                <li>Chain Reaction</li>
+                <li>Force (Push)</li>
+            </ul>
         </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start w-[75%]">
+    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start ">
         <div>
-            <h2 class="font-bold t-title">Preparations for Class Activity I:</h2>
+            <h2 class=" t-title">Preparations for Class Activity I:</h2>
             <ul class="list-disc ">
                 <li>Each child: 25 dominoes</li>
             </ul>
@@ -43,15 +40,15 @@
 
         <div class="flex w-[100%] items-center justify-between">
             <img src="/assets/images/K1/cm/cm20.png" />
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1"  />
+            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
         </div>
     </div>
 
 
     {{-- slide 3 --}}
-    <div class=" slide flex text-2xl text-white justify-start gap-y-10 text-start ">
+    <div class=" slide flex text-2xl text-white justify-start t-slide  text-start ">
         <div>
-            <h2 class="font-bold t-title">Preparations for Class Activity I:</h2>
+            <h2 class=" t-title">Preparations for Class Activity I:</h2>
             <ul class="list-disc ">
                 <li> Domino toppling game requires a lot of patience, hard work, dedication, and perseverance.
                     Always praise children for their effort. When they fail, compliment the work they did and
@@ -64,7 +61,7 @@
                     other's ideas. </li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1"  />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
@@ -72,42 +69,45 @@
 
 
     {{-- slide 4 --}}
-    <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
-        <div class="flex w-[100%] items-center justify-between">
-            <div>
-                <h2 class="font-bold t-title">Notes:</h2>
-                <ul class="list-disc leading-relaxed">
-                    <li>
-                        If you see
-                        <span
-                            class="info-btn">
-    
-                          <img src="{{ asset('assets/images/pptimages/video.png') }}"
-                             />
-                        </span>
-                        next to a picture, click on the picture to watch the video.
-                    </li>
-                    <li>Always ask questions to encourage children to think and share their
-                        ideas first before giving out any information.</li>
-                    <li>Emphasise and use the keywords during hands-on sessions.</li>
-                    <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.</li>
-                    <li>
-                        Click on this <span class="font-bold t-title">shortcut icon</span>
-                        <span
-                            ><img src="{{ asset('assets/images/pptimages/home-btn.png') }}"
-                                class="home-btn" />
-                        </span>
-                        if you need to go to some parts of the lesson quickly.
-                    </li>
-                </ul>
-            </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1"  />
+    <div class="slide flex t-slide  flex-col  text-2xl text-start text-white">
+        <div>
+            <h2 class="t-title">Notes:</h2>
+            <ul class="list-disc">
+                <li class="flex">
+                    If you see
+                    <span class="info-btn">
+
+                        <img src="{{ asset('assets/images/pptimages/video.png') }}" />
+                    </span>
+                    next to a picture, click on the picture to watch the video.
+                </li>
+                <li class="flex">
+                    If you see
+                    <span> <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="video-btn" />
+                    </span>
+                    , click on it for additional information or activity.
+                </li>
+                <li>Always ask questions to encourage children to think and share their ideas first before giving
+                    out
+                    any information.</li>
+                <li>Emphasise and use the <strong>keywords</strong> during hands-on sessions.</li>
+                <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
+                </li>
+                <li class="flex">
+                    Click on this shortcut icon
+                    <span> <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" class="home-btn" />
+                    </span>
+                    if you need to go to some parts of the lesson quickly.
+                </li>
+            </ul>
         </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
+
     {{--  slide 5 --}}
-    <div class="text-white flex flex-col items-center justify-center gap-y-10 text-start text-2xl slide hidden">
+    <div class="text-white flex flex-col t-slide items-center justify-center  text-start text-2xl slide hidden">
         <h2 class=" title stroke">Learning Centre Idea</h2>
         <div class="flex">
             <div>
@@ -123,7 +123,8 @@
                     <li>Push the first domino and enjoy watching all the dominoes fall one after another.</li>
                 </ul>
             </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt=""class="h-[350px] object-contain absolute right-[250px] bottom-[150px] teacher-img1" />
+            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}"
+                alt=""class="absolute teacher-img1" />
         </div>
     </div>
 
@@ -131,12 +132,8 @@
 
     {{-- ================================================================================== --}}
     <div class="down-btn-container">
-        <button
-            class=" doneButton ">
-            <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
-            <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" />
-            </div>
-            <span class="absolute left-[80px] top-[18px] flex items-center text-white text-5xl font-bold stroke">DONE</span>
+        <button class=" doneButton ">
+            <img src="{{ asset('assets/images/pptimages/done.png') }}" />
         </button>
     </div>
 
@@ -145,7 +142,6 @@
 
         <!-- Return Button -->
         <a id="returnButton">
-
             <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
         <!-- Home Button -->
@@ -154,26 +150,18 @@
         </button>
 
         <!-- Close Button -->
-        <button
-            
-            id="closeButton">
+        <button id="closeButton">
             <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-
         </button>
 
     </div>
 
     {{-- next Button --}}
     <div class="down-btn-container">
-
         <button class="nextButton">
             <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
         </button>
     </div>
-
-
-
-
 @endsection
 
 
@@ -212,17 +200,17 @@
                 });
             });
 
-              //   Return button - redirect if on first slide, otherwise go back
-        returnButton.addEventListener("click", () => {
-            if (currentSlide === 0) {
-                //   First slide pe hai →  
-                window.location.href = "{{ route('YourRouteNameHere') }}";
-            } else {
-                //   Previous slide pe jao
-                currentSlide--;
-                showSlide(currentSlide);
-            }
-        });
+            //   Return button - redirect if on first slide, otherwise go back
+            returnButton.addEventListener("click", () => {
+                if (currentSlide === 0) {
+                    //   First slide pe hai →  
+                    window.location.href = "{{ route('DominoFunSelection') }}";
+                } else {
+                    //   Previous slide pe jao
+                    currentSlide--;
+                    showSlide(currentSlide);
+                }
+            });
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {

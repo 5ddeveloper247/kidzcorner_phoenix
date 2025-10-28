@@ -3,7 +3,7 @@
 
 @section('content')
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -16,7 +16,7 @@
         </div>
 
         <div class="flex flex-col  items-start justify-between">
-            <h2 class="t-title font-bold">Keywords:</h2>
+            <h2 class="t-title ">Keywords:</h2>
             <div>
                 <ul class="list-disc ">
                     <li class="text-[1.2vw]">Living Thing</li>
@@ -33,9 +33,9 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Preparations:</h2>
+            <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
                 <li class="text-[1.2vw]">1 bottle of distilled water (normally sold in 500ml bottles; will use 100ml)</li>
                 <li class="text-[1.2vw]">Some salt</li>
@@ -55,9 +55,9 @@
     </div>
 
     {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">How to extract DNA from one's mouth and things to consider:</h2>
+            <h2 class=" t-title">How to extract DNA from one's mouth and things to consider:</h2>
             <ul class="list-decimal">
                 <li class="text-[1.2vw]">Mix together 100ml distilled water and half a teaspoon of salt in a cup . [Guide children to measure and
                     prepare the salt water with a measuring cup and a teaspoon; have them stir until salt is dissolved .]
@@ -70,9 +70,9 @@
 
 
     {{-- slide 4 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">How to extract DNA from one's mouth and things to consider:</h2>
+            <h2 class=" t-title">How to extract DNA from one's mouth and things to consider:</h2>
             <ul>
                 <li class="text-[1.2vw]">2. Transfer 4 tablespoons of the salt water into another cup . [Invite a child to do the step; can be 4
                     tablespoons or 30ml . As the final result will be displayed at the learning corner, you may consider
@@ -85,9 +85,9 @@
 
 
     {{-- slide 5 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">How to extract DNA from one's mouth and things to consider:</h2>
+            <h2 class=" t-title">How to extract DNA from one's mouth and things to consider:</h2>
             <ul>
                 <li class="text-[1.2vw]">3. Gargle the salt water for one minute. Try hard and don't swallow it! [Teacher to do the step; for
                     better result, clean your mouth beforehand to remove any food residue.]</li>
@@ -99,9 +99,9 @@
 
 
     {{-- sldie 6 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">How to extract DNA from one's mouth and things to consider:</h2>
+            <h2 class=" t-title">How to extract DNA from one's mouth and things to consider:</h2>
             <ul>
                 <li class="text-[1.2vw]">4. Spit the water back into the cup . [Make sure you gargle the salt water for the full 1 minute, so
                     that more cheek cells will be collected .]</li>
@@ -113,9 +113,9 @@
 
 
     {{-- sldie 7 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">How to extract DNA from one's mouth and things to consider:</h2>
+            <h2 class=" t-title">How to extract DNA from one's mouth and things to consider:</h2>
             <ul>
                 <li class="text-[1.2vw]">5. Add one drop of clear liquid dish soap to the cup. Stir gently to avoid making bubbles. [Preferably
                     teacher to do the step .]</li>
@@ -126,9 +126,9 @@
     </div>
 
     {{-- sldie 8 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">How to extract DNA from one's mouth and things to consider:</h2>
+            <h2 class=" t-title">How to extract DNA from one's mouth and things to consider:</h2>
             <ul>
                 <li class="text-[1.2vw]">6. Mix together 30ml cold rubbing alcohol and 3 drops food colouring in another cup [Guide children to
                     measure and prepare the alcohol mixture with a measuring cup, an eyedropper and a tablespoon .]</li>
@@ -141,9 +141,9 @@
 
 
     {{-- sldie 9 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">How to extract DNA from one's mouth and things to consider:</h2>
+            <h2 class=" t-title">How to extract DNA from one's mouth and things to consider:</h2>
             <ul>
                 <li class="text-[1.2vw]">7. Gently pour the alcohol mixture from the side into the cup with gargled water. [Teacher to do the
                     step; do not mix or stir .]</li>
@@ -155,9 +155,9 @@
 
 
     {{-- sldie 10 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">How to extract DNA from one's mouth and things to consider:</h2>
+            <h2 class=" t-title">How to extract DNA from one's mouth and things to consider:</h2>
             <ul>
                 <li class="text-[1.2vw]">8. Observe what happens in the cup . [Advise children to observe from the top view .Take a photo of the
                     result for use in the next lesson.]</li>
@@ -172,7 +172,7 @@
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold t-title">Notes:</h2>
+                <h2 class=" t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
                     <li class="text-[1.2vw] flex">
                         If you see
@@ -185,7 +185,7 @@
                     <li class="text-[1.2vw]">Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
                     </li>
                     <li class="text-[1.2vw] flex">
-                        Click on this <span class="font-bold t-title">shortcut icon</span>
+                        Click on this <span class=" t-title">shortcut icon</span>
                         <span>
                             <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
                         </span>
@@ -199,7 +199,7 @@
 
 
     {{-- slide 12 --}}
-    <div class="text-white flex flex-col items-center justify-center gap-y-10 text-start text-2xl slide hidden">
+    <div class="text-white flex flex-col items-center justify-center  text-start text-2xl slide hidden">
         <h2 class=" title stroke">Learning Centre Idea</h2>
         <div>
             <ul>

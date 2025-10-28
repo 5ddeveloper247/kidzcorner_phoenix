@@ -136,7 +136,7 @@
 
     {{-- slide 13 --}}
     <div class="slide hidden  flex flex-col items-center justify-between h-[50vh] ">
-        <h2 class="title  stroke !text-white !font-bold">Individual Activity 1</h2>
+        <h2 class="title  stroke !text-white !">Individual Activity 1</h2>
         <h2 class="title stroke ">Create a block structure using the <br>
             parts from the construction set.</h2>
         <p class="note">Note: Give each child a set of materials to carry out the activity.</p>
@@ -339,7 +339,7 @@
     {{-- slide 29 --}}
     <div class="slide hidden  flex flex-col items-center justify-start gap-[1rem] ">
 
-        <h2 class="title stroke !text-white !font-bold">Learning Journal</h2>
+        <h2 class="title stroke !text-white !">Learning Journal</h2>
         <div class="h-[38vh] w-[45vw] border border-2 border-white justify-center items-start ">
             <p class="note mt-2">Use shapes to design the structure that you would like to create.</p>
         </div>
@@ -348,7 +348,7 @@
     {{-- slide 30 --}}
     <div class="slide hidden  flex flex-col items-center justify-start gap-[1rem] ">
 
-        <h2 class="title stroke !text-white !font-bold">Learning Journal</h2>
+        <h2 class="title stroke !text-white !">Learning Journal</h2>
         <div class="h-[38vh] w-[45vw] border border-2 border-white justify-center items-start ">
             <p class="note mt-2">Paste a photo of the structure you have created.</p>
         </div>
@@ -385,9 +385,7 @@
 
         <!-- Close Button -->
         <button id="closeButton">
-
             <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-
         </button>
 
     </div>

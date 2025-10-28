@@ -126,7 +126,7 @@
         <h2 class="title stroke">Let's <span class="text-white">move</span> like the girl!</h2>
         <p class="note">Note: Display a doll. Guide children to make comparison.</p>
         <!-- Video Trigger Button -->
-        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="{{ asset('/assets/images/pptimages/video.png') }}" />
         </div>
     </div>
@@ -227,7 +227,7 @@
         <h2 class="stroke title">The two lungs in our chest help us to breathe.
             How do you know our lungs are working?</h2>
         <!-- Video Trigger Button -->
-        <div data-property-1="Default"
+        <div onclick="toggleVideo('video1')"
             class="absolute top-1/2 flex justify-center items-center right-[80px] z-[99] h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500">
             <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
             <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
@@ -242,7 +242,7 @@
         <h2 class="stroke title">The two lungs in our chest help us to<span class="text-white"> breathe</span>.<br />How
             do you know our lungs are working?</h2>
         <!-- Video Trigger Button -->
-        <div data-property-1="Default"
+        <div onclick="toggleVideo('video1')"
             class="absolute top-1/2 flex justify-center items-center right-[80px] z-[99] h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500">
             <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
             <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
@@ -257,7 +257,7 @@
         <h2 class="stroke title">Now <span class="text-white">breathe</span> out the air.<br />You will feel your chest
             return to its regular size.</h2>
         <!-- Video Trigger Button -->
-        <div data-property-1="Default"
+        <div onclick="toggleVideo('video1')"
             class="absolute top-1/2 flex justify-center items-center right-[80px] z-[99] h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500">
             <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
             <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
@@ -363,7 +363,7 @@
         <h2 class="title stroke ">This toy train moves on its own. Why?</h2>
         <p class="note">Note: Have children think and share their views.</p>
         <!-- Video Trigger Button -->
-        <div data-property-1="Default"
+        <div onclick="toggleVideo('video1')"
             class="absolute top-1/2 flex justify-center items-center right-[80px] z-[99] h-24 w-24 -translate-y-1/2 cursor-pointer rounded-[30px] bg-sky-500">
             <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] h-10 w-20" />
             <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>

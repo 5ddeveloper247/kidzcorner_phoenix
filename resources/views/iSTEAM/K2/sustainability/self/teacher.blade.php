@@ -3,7 +3,7 @@
 
 @section('content')
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -37,9 +37,9 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Preparations:</h2>
+            <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
                 <li class="text-[1.3vw]">
                     The vertical gardening system would have been set up already. If you do not have a
@@ -59,7 +59,7 @@
 
 
     {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-center gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-center  text-start">
         <div>
             <h2 class="font-bold t-title">Things to note in maintaining the vertical garden system:</h2><br>
             <h3 class="font-bold t-title"> Mixing the plant nutrients</h3>
@@ -84,9 +84,9 @@
 
 
     {{-- slide 4 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Things to note in maintaining the vertical garden system:</h2>
+            <h2 class=" t-title">Things to note in maintaining the vertical garden system:</h2>
             <ul class="list-decimal">
                 <li class="text-[1.3vw]">To attach the hose, push the hose into the centre of the vertical
                     system inside the water tank. Push up until you hear a click.</li>
@@ -98,9 +98,9 @@
 
 
     {{-- slide 5 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Things to note in maintaining the vertical garden system:</h2>
+            <h2 class=" t-title">Things to note in maintaining the vertical garden system:</h2>
             <ul>
                 <li class="text-[1.3vw]">To remove the hose, push the yellow part to release the catch.</li>
 
@@ -150,10 +150,10 @@
 
 
     {{-- sldie 6 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class="title stroke text-center">Learning Centre Idea</h2><br>
-            <h2 class="font-bold t-title">Diary Of Our Vegetable Garden</h2>
+            <h2 class=" t-title">Diary Of Our Vegetable Garden</h2>
             <ul>
                 <li class="text-[1.3vw]">What and how to set up:<br>
                     Provide papers and writing materials for children to draw and

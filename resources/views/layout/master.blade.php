@@ -109,16 +109,16 @@
     <!-- Universal Exit Popup (Added once in master layout) -->
     <div id="exitPopup"
         class="fixed inset-0 z-[1000] hidden items-center justify-center bg-[#0000002e]  backdrop-blur-sm">
-        <div class="w-[1095px] relative h-[786px] bg-cover bg-no-repeat bg-center flex flex-col justify-center items-center rounded-lg "
+        <div class="w-[60vw] relative h-[40vw] bg-contain bg-no-repeat bg-center flex flex-col justify-center items-center rounded-lg "
             style="background-image: url('{{ asset('assets/images/K2/exit.png') }}');">
-            <p class="text-[35px] text-white stroke font-bold">Are you sure you want to exit?</p>
-            <div class="flex justify-around items-center w-[50%] mt-10">
+            <p class="text-[2vw] text-white stroke font-bold">Are you sure you want to exit?</p>
+            <div class="flex justify-around items-center w-[30vw] mt-[2vw]">
                 <a href="#" id="exitNo"
-                    class="text-[#59967D] text-[50px] font-bold stroke hover:scale-110 transition-transform cursor-pointer">No</a>
+                    class="text-[#59967D] text-[3vw] font-bold stroke hover:scale-110 transition-transform cursor-pointer">No</a>
                 <a href="#" id="exitYes"
-                    class="text-[#F8473A] text-[50px] font-bold stroke hover:scale-110 transition-transform cursor-pointer">Yes</a>
+                    class="text-[#F8473A] text-[3vw] font-bold stroke hover:scale-110 transition-transform cursor-pointer">Yes</a>
             </div>
-            <img src="{{ asset('assets/images/K2/by.png') }}" class="absolute bottom-[70px] right-[30px]"
+            <img src="{{ asset('assets/images/K2/by.png') }}" class="absolute bottom-[3vw] right-[2vw] !w-[17vw]"
                 alt="">
         </div>
     </div>

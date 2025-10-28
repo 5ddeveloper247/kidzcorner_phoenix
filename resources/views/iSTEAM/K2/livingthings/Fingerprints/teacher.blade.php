@@ -3,7 +3,7 @@
 
 @section('content')
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -34,9 +34,9 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Preparations:</h2>
+            <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
                 <li class="text-[1.3vw]">
                     Pencils (for a better outcome, 8B pencil is recommended)
@@ -59,9 +59,9 @@
 
 
     {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-center gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-center  text-start">
         <div>
-            <h2 class="font-bold t-title">How to make own set of fingerprints and things to consider:</h2>
+            <h2 class=" t-title">How to make own set of fingerprints and things to consider:</h2>
             <ul class="list-disc">
                 <li class="text-[1.3vw]">This is a small group activity. Organise children into groups of 3 and have them
                     take turns to play role
@@ -75,9 +75,9 @@
 
 
     {{-- slide 4 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">How to make own set of fingerprints and things to consider:</h2>
+            <h2 class=" t-title">How to make own set of fingerprints and things to consider:</h2>
             <ul class="list-decimal">
                 <li class="text-[1.3vw]">(A) Use a pencil to make a patch of dark mark on a paper. [ Have all the A do the
                     step. Advise A to
@@ -90,9 +90,9 @@
 
 
     {{-- slide 5 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">How to make own set of fingerprints and things to consider:</h2>
+            <h2 class=" t-title">How to make own set of fingerprints and things to consider:</h2>
             <ul>
                 <li class="text-[1.3vw]">2. (B) Rub a fingertip over the pencil mark to stain it. [Have all the B do the
                     step.]</li>
@@ -104,9 +104,9 @@
 
 
     {{-- sldie 6 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">How to make own set of fingerprints and things to consider:</h2>
+            <h2 class=" t-title">How to make own set of fingerprints and things to consider:</h2>
             <ul>
                 <li class="text-[1.3vw]">3. (C) Cut and stick a piece of clear tape on the stained fingertip (of B). [Have
                     all the C do the step.
@@ -119,9 +119,9 @@
 
 
     {{-- sldie 7 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">How to make own set of fingerprints and things to consider:</h2>
+            <h2 class=" t-title">How to make own set of fingerprints and things to consider:</h2>
             <ul>
                 <li class="text-[1.3vw]">4. (C) Carefully remove the tape from the fingertip (of B) and paste it on the
                     learning journal (of B).
@@ -134,9 +134,9 @@
     </div>
 
     {{-- sldie 8 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">How to make own set of fingerprints and things to consider:</h2>
+            <h2 class=" t-title">How to make own set of fingerprints and things to consider:</h2>
             <ul>
                 <li class="text-[1.3vw]">5. (A) Use a wet towel to clean the fingertip (of B). [ Have all the A do the step.
                     Explain to children
@@ -150,9 +150,9 @@
 
 
     {{-- slide 9 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">How to make own set of fingerprints and things to consider:</h2>
+            <h2 class=" t-title">How to make own set of fingerprints and things to consider:</h2>
             <ul>
                 <li class="text-[1.3vw]">6. (A, B & C) Repeat the steps for other fingers. [Have all the A, B & C repeat
                     steps 1-5 to complete
@@ -165,9 +165,9 @@
     </div>
 
     {{-- slide 10 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">How to make own set of fingerprints and things to consider:</h2>
+            <h2 class=" t-title">How to make own set of fingerprints and things to consider:</h2>
             <ul>
                 <li class="text-[1.3vw]">7. Observe your fingerprints. [ Have children observe and compare their own set of
                     fingerprints on the
@@ -179,9 +179,9 @@
     </div>
 
     {{-- slide 11 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">How to make own set of fingerprints and things to consider:</h2>
+            <h2 class=" t-title">How to make own set of fingerprints and things to consider:</h2>
             <ul>
                 <li class="text-[1.3vw]">8. Compare your fingerprints with friends. [ Have children observe and compare
                     their fingerprints with
@@ -198,7 +198,7 @@
     <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="font-bold t-title">Notes:</h2>
+                <h2 class=" t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
                     <li class="text-[1.3vw] flex">
                         If you see
@@ -227,7 +227,7 @@
 
 
     {{-- slide 13 --}}
-    <div class="text-white flex flex-col items-center justify-center gap-y-10 text-start text-2xl slide hidden">
+    <div class="text-white flex flex-col items-center justify-center  text-start text-2xl slide hidden">
         <h2 class=" title stroke">Learning Centre Idea</h2>
         <div class="flex flex-col gap-10">
             <ul>
@@ -253,7 +253,7 @@
 
 
     {{-- slide 14 --}}
-    <div class="text-white flex flex-col items-center justify-center gap-y-10 text-start text-2xl slide hidden">
+    <div class="text-white flex flex-col items-center justify-center  text-start text-2xl slide hidden">
         <h2 class=" title stroke">Learning Centre Idea</h2>
         <div>
             <ul class="list-disc">

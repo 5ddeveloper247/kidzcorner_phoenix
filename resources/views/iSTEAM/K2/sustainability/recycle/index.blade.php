@@ -5,7 +5,7 @@
 
     <div id="topDiv" class="flex flex-col  gap-20 items-center !justify-center">
         <div class="indexTitle  text-[55px]  stroke">recycle</div>
-        <h2 class="text-2xl sm:text-3xl lg:text-5xl text-white stroke ">
+        <h2 class=" text-white stroke ">
             Explore fingerprints; <br>
             learn to make own set of fingerprints <br>
             for analysis</h2>

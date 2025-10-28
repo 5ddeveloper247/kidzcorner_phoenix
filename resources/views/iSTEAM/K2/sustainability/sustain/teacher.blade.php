@@ -3,7 +3,7 @@
 
 @section('content')
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -47,9 +47,9 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Preparations:</h2>
+            <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
                 <li class="text-[1.3vw]">
                     3 bottles of the same size - cut out one side of the bottle to create an<br>
@@ -63,9 +63,9 @@
 
 
     {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-center gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-center  text-start">
         <div>
-            <h2 class="font-bold t-title">Preparations:</h2>
+            <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc">
                 <li class="text-[1.3vw]">For bottle A, plant some seeds 2-3 weeks before the activity</li>
                 <div class="flex gap-2 items-center">
@@ -88,9 +88,9 @@
 
 
     {{-- slide 4 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Preparations:</h2>
+            <h2 class=" t-title">Preparations:</h2>
             <ul class="list-decimal">
                 <li class="text-[1.3vw]">For bottle B, fill half the bottle with soil and add dried leaves and twigs on
                     top of the soil (do not put too much such that water cannot reach the soil
@@ -103,7 +103,7 @@
     {{-- slide 4 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold t-title">Preparations:</h2>
+            <h2 class=" t-title">Preparations:</h2>
             <ul class="list-decimal">
                 <li class="text-[1.3vw]">For bottle C, just fill half the bottle with soil.</li>
             </ul>
@@ -114,9 +114,9 @@
 
 
     {{-- slide 5 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Things to take note prior the class activity:</h2>
+            <h2 class=" t-title">Things to take note prior the class activity:</h2>
             <ul>
                 <li class="text-[1.3vw]">If you have drilled holes in the first bottle for the plants, please tape it up
                     with masking tapes to
@@ -140,9 +140,9 @@
 
 
     {{-- sldie 6 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Things to take note prior the class activity:</h2>
+            <h2 class=" t-title">Things to take note prior the class activity:</h2>
             <ul>
                 <li class="text-[1.3vw]">Do expect muddy coloured water to flow out from the first bottle.</li>
                 <li class="text-[1.3vw]">When comparing, you will see that there are some soil/dirt that flows into cup 2.
@@ -157,7 +157,7 @@
     </div>
 
     {{-- sldie 7 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class="font-bold t-title">How to make own set of fingerprints and things to consider:</h2>
             <ul>
@@ -192,7 +192,7 @@
 
 
     {{-- sldie 7 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class="font-bold t-title">When Glaciers Melt</h2><br>
             <p class="note">What and how to set up:<br>

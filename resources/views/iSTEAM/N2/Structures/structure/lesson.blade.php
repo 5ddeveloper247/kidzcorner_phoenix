@@ -336,7 +336,7 @@
         <img src="{{asset('/assets/images//N2/structure/str/st33.png')}}" class="large-img" />
         <p class="note">Note: Encourage and guide the children to try.</p>
         <!-- Video Trigger Button -->
-        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -399,7 +399,7 @@
     {{-- slide 16 --}}
     {{-- <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[836px] h-[536px] bg-cover bg-center flex flex-col justify-between items-start"
+        <div class="w-[40vw] h-[40vh] bg-cover bg-center flex flex-col justify-between items-start"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>Design a unique building. Draw it.</p>
             <p>What is the name of your building?___________________________________________________</p>
@@ -433,9 +433,7 @@
 
         <!-- Close Button -->
         <button id="closeButton">
-
             <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-
         </button>
 
     </div>

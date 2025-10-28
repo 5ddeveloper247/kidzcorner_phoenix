@@ -18,7 +18,7 @@
         </div>
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="t-title font-bold">Keywords:</h2>
+                <h2 class="t-title ">Keywords:</h2>
                 <ul class="list-disc ">
                     <li>Living Thing</li>
                     <li>Seeds</li>
@@ -271,9 +271,7 @@
 
         <!-- Close Button -->
         <button id="closeButton">
-
             <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-
         </button>
 
     </div>

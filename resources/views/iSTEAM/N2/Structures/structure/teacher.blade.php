@@ -20,7 +20,7 @@
 
         <div class="flex justify-between w-[50%] items-center">
             <ul class="list-disc ">
-                <h2 class="t-title font-bold">Keywords:</h2>
+                <h2 class="t-title ">Keywords:</h2>
                 <li>Structures</li>
                 <li>Shapes</li>
                 <li>Square</li>
@@ -40,7 +40,7 @@
     {{-- slide 2 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start text-start t-slide">
         <div>
-            <h2 class="font-bold t-title">Preparations:</h2>
+            <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
                 <li>Please note the following number of sets for each type of activity is based
                     on 1 box of DDQ blocks. If you are planning of asking two groups of children
@@ -60,7 +60,7 @@
     {{-- slide 3 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start text-start t-slide">
         <div>
-            <h2 class="font-bold t-title">Preparations:</h2>
+            <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
                 <li>Put aside the following parts from the DDQ blocks set until the later
                     lessons to avoid distraction to the children,</li>
@@ -75,7 +75,7 @@
     {{-- sldie 4 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start text-start t-slide">
         <div>
-            <h2 class="font-bold t-title">Things to consider during hands-on sessions:</h2>
+            <h2 class=" t-title">Things to consider during hands-on sessions:</h2>
             <ul class="list-disc ">
                 <li>
                     Do demonstrate to the children how they can connect the pieces together.
@@ -108,7 +108,7 @@
     {{-- sldie 5 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start text-start t-slide">
         <div>
-            <h2 class="font-bold t-title">Useful Information:</h2>
+            <h2 class=" t-title">Useful Information:</h2>
             <ul class="list-disc ">
                 <li>
                     A structure is something that has been built using smaller parts.
@@ -148,7 +148,7 @@
     {{-- sldie 6 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start text-start t-slide">
         <div>
-            <h2 class="font-bold t-title">Useful Information:</h2>
+            <h2 class=" t-title">Useful Information:</h2>
             <ul class="list-disc ">
                 <li>
                     Architects concentrate on the artistic creativity of designs, while engineers focus on the scientific
@@ -266,9 +266,7 @@
 
         <!-- Close Button -->
         <button id="closeButton">
-
             <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-
         </button>
 
     </div>

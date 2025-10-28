@@ -21,7 +21,7 @@
 
         <div class="flex justify-between w-[50%] items-center">
             <ul class="list-disc ">
-                <h2 class="t-title font-bold">Keywords:</h2>
+                <h2 class="t-title ">Keywords:</h2>
                 <li>Structures</li>
                 <li>Shapes</li>
                 <li>Square</li>
@@ -41,7 +41,7 @@
     {{-- slide 3 --}}
     <div class=" slide flex text-2xl text-white flex-col items-start  justify-start  text-start t-slide">
         <div>
-            <h2 class="font-bold t-title">Preparations:</h2>
+            <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
                 <li>Put aside the following parts from the DDQ blocks set until the later
                     lessons to avoid distraction to the children,</li>
@@ -63,7 +63,7 @@
     {{-- slide 2 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center  justify-start  text-start t-slide">
         <div>
-            <h2 class="font-bold t-title">Things to note for Group Activity:</h2>
+            <h2 class=" t-title">Things to note for Group Activity:</h2>
             <ul class="list-disc ">
                 <li>Prepare one set of the following for each group of children (3-5). One box
                     of DDQ blocks can only make one Eiffel Tower ( taller version)</li>
@@ -174,9 +174,7 @@
 
         <!-- Close Button -->
         <button id="closeButton">
-
             <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-
         </button>
 
     </div>

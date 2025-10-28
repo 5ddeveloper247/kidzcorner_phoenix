@@ -5,7 +5,7 @@
 
     <div id="topDiv" class="flex flex-col !justify-center h-full items-center ">
         <div class="indexTitle  text-[55px]  stroke">What is Aerodynamics? 2</div>
-        <h2 class="text-2xl sm:text-3xl lg:text-5xl text-white ">
+        <h2 class=" text-white ">
             Understand the concept of Thrust and Drag; <br>
             understand how aerodynamic forces affect the movement of
             aeroplanes</h2>

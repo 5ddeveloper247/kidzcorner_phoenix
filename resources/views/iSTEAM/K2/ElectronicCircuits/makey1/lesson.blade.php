@@ -2,9 +2,12 @@
 @section('title', 'Dynamic Presentation')
 
 @section('content')
+    {{-- title --}}
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">Makey Makey (1)</h2>
+
 
     {{-- Slide 1 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
+    <div class="slide flex flex-col items-center justify-center  ">
         <img src="{{ asset('assets/images/K2/coding/s1.png') }}" />
         <div class="title stroke">
             <h2>Children, Do you remember what there are? <br>
@@ -22,10 +25,10 @@
 
 
     {{-- Slide 3 --}}
-    <div class="slide hidden flex flex-col items-center gap-3 ">
-        <div class="flex items-center gap-5">
-            <img src="{{ asset('assets/images/K2/circuit/makey/m12.png') }}" />
-            <video id="video1" class="w-full max-w-[42rem] pointer-events-none">
+    <div class="slide hidden flex flex-col items-center  ">
+        <div class="flex items-center gap-[1vw]">
+            <img src="{{ asset('assets/images/K2/circuit/makey/m12.png') }}" class="!h-[35vh]" />
+            <video id="video1" class="video1 pointer-events-none">
                 <source src="{{ asset('assets/images/K2/final/224.mp4') }}" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
@@ -33,9 +36,8 @@
         <h2 class="title stroke">You used an application called Blockly in a tablet
             to programme the robot to do certain tasks.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')"
-            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
-      <img src="/assets/images/pptimages/video.png" />
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
@@ -48,7 +50,7 @@
 
 
     {{-- Slide 5 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start gap-3  ">
+    <div class="slide hidden  flex flex-col items-center justify-start   ">
         <img src="{{ asset('assets/images/K2/circuit/makey/m2.png') }}" />
         <h2 class="title stroke">Let's look at the Makey Makey Board. <br>
             What do you see from its front and back?</h2>
@@ -57,7 +59,7 @@
 
 
     {{-- slide 6 --}}
-    <div class="slide hidden flex flex-col items-center gap-3 ">
+    <div class="slide hidden flex flex-col items-center  ">
         <img src="{{ asset('assets/images/K2/circuit/makey/m3.png') }}" />
         <h2 class="title stroke">There are 4 main parts on the front of the board:
             ARROWS, SPACE, CLICK and EARTH.</h2>
@@ -66,17 +68,17 @@
 
 
     {{-- slide 7 --}}
-    <div class="slide hidden flex flex-col items-center gap-3 ">
+    <div class="slide hidden flex flex-col items-center  ">
         <img src="{{ asset('assets/images/K2/circuit/makey/m2.png') }}" />
         <h2 class="title stroke">There are many tiny small things at the back of the board.
-            Some of the things clearly placed according to either <br>
+            Some of the things clearly placed according to either 
             ARROWS, SPACE, CLICK or EARTH.</h2>
         <p class="note">Note: Have children point out things clearly belong to ARROWS, SPACE, CLICK and EARTH.</p>
     </div>
 
 
     {{-- slide 8 --}}
-    <div class="slide hidden flex flex-col items-center gap-3 ">
+    <div class="slide hidden flex flex-col items-center  ">
         <img src="{{ asset('assets/images/K2/circuit/makey/m4.png') }}" />
         <h2 class="title stroke">If you look at the back of the board up-close, you'll see lines
             that join these tiny small things together.</h2>
@@ -84,39 +86,39 @@
     </div>
 
     {{-- slide 9 --}}
-    <div class="slide hidden flex flex-col items-center gap-3 ">
+    <div class="slide hidden flex flex-col items-center  ">
         <img src="{{ asset('assets/images/K2/circuit/makey/m5.png') }}" />
-        <h2 class="title stroke">In fact, this is a special board called a circuit board. <br>
-            The tiny small things that are joined together by the lines <br>
-            form a complicated circuit that allows us <br>
+        <h2 class="title stroke">In fact, this is a special board called a circuit board. 
+            The tiny small things that are joined together by the lines 
+            form a complicated circuit that allows us 
             to use the 4 main parts in front.</h2>
     </div>
 
     {{-- slide 10 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-full  ">
+    <div class="slide hidden flex flex-col items-center justify-between h-[50vh]  ">
         <h2 class="!text-white title stroke">Class Activity</h2>
-        <h2 class="title stroke text-start">Let's find out: <br>
-            How to identify a Makey Makey Board as a circuit board? <br>
+        <h2 class="title stroke text-start">Let's find out: 
+            How to identify a Makey Makey Board as a circuit board? 
             What is its use?</h2>
         <p class="text-center note">Note: Have all children sit closer to watch the demo.</p>
     </div>
 
 
     {{-- slide 11 --}}
-    <div class="slide hidden flex flex-col items-center  h-full justify-around">
+    <div class="slide hidden flex flex-col items-center  h-[50vh] justify-around">
         <ul class="text-start title stroke list-decimal">
             <h2>Steps:</h2>
             <li>This is a USB cable. Which end of it can connect to a
                 Makey Makey Board?</li>
         </ul>
-        <img src="{{ asset('assets/images/K2/circuit/makey/m6.png') }}" />
+        <img src="{{ asset('assets/images/K2/circuit/makey/m6.png') }}" class="w-img" />
         <p class="note">Note: Have children observe a Makey Makey Board and the 2 ends of a USB cable to find the answer.
         </p>
     </div>
 
 
     {{-- slide 12 --}}
-    <div class="slide hidden flex flex-col items-center  h-full justify-around">
+    <div class="slide hidden flex flex-col items-center  h-[50vh] justify-around">
         <ul class="text-start title stroke">
             <h2>Steps:</h2>
             <li>2. Connect a Makey Makey Board to a computer using a USB
@@ -124,7 +126,7 @@
         </ul>
         <div class="flex">
             <a class=" click-btn1"><img src="{{ asset('assets/images/K2/circuit/makey/btn.png') }}" /> </a>
-            <video id="video2" class="w-full max-w-[42rem] pointer-events-none">
+            <video id="video2" class="!w-[18vw] pointer-events-none">
                 <source src="{{ asset('assets/images/K2/circuit/makey/315.mp4') }}" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
@@ -132,42 +134,39 @@
         <p class="note">Note: Demo how to connect a Makey Makey Board to a computer using a USB cable. <br>
             Have children observe the set up process and the board when it's connected to the computer.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video2')"
-            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
-      <img src="/assets/images/pptimages/video.png" />
+        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
     {{-- click slide --}}
 
     {{-- slide 13 --}}
-    <div class="slide hidden click1 flex flex-col items-center  h-full justify-around">
+    <div class="slide hidden click1 flex flex-col items-center  h-[50vh] justify-around">
         <h2 class="title stroke">Do you see blinking lights at the back of the board?</h2>
-        <video id="video3" class="w-full max-w-[42rem] pointer-events-none">
+        <video id="video3" class="video1 pointer-events-none">
             <source src="{{ asset('assets/images/K2/circuit/makey/316.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
         <p class="note">Note: Guide children to spot all the blinking lights.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video3')"
-            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
-      <img src="/assets/images/pptimages/video.png" />
+        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
 
     {{-- slide 14 --}}
-    <div class="slide hidden click1 flex flex-col items-center  h-full justify-around">
+    <div class="slide hidden click1 flex flex-col items-center  h-[50vh] justify-around">
         <h2 class="title stroke">This is how the lights blink or light up in slow motion.</h2>
-        <video id="video4" class="w-full max-w-[42rem] pointer-events-none">
+        <video id="video4" class="video1 pointer-events-none">
             <source src="{{ asset('assets/images/K2/circuit/makey/317.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
         <p class="note">Note: Guide children to spot all the blinking lights.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video4')"
-            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
-      <img src="/assets/images/pptimages/video.png" />
+        <div onclick="toggleVideo('video4')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
@@ -201,32 +200,31 @@
 
 
     {{-- slide 18 --}}
-    <div class="slide hidden click1 flex flex-col items-center  h-full justify-around">
+    <div class="slide hidden click1 flex flex-col items-center  h-[50vh] justify-around">
         <h2 class="title stroke">When there is electricity, the light bulbs on a Makey Makey
             Board will blink or light up.</h2>
-        <video id="video5" class="w-full max-w-[42rem] pointer-events-none">
+        <video id="video5" class="video1 pointer-events-none">
             <source src="{{ asset('assets/images/K2/circuit/makey/317.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
         <h2 class="title stroke">Doesn't this show that the board has a complicated circuit?</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video5')"
-            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
-      <img src="/assets/images/pptimages/video.png" />
+        <div onclick="toggleVideo('video5')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
     {{-- ===== --}}
 
 
     {{-- slide 19 --}}
-    <div class="slide hidden flex flex-col items-center  h-full justify-around">
+    <div class="slide hidden flex flex-col items-center  h-[50vh] justify-around">
         <ul class="text-start title stroke">
             <h2>Steps:</h2>
             <li>3. Open up the Microsoft Word application. Use keyboard to
                 create a document as shown.</li>
         </ul>
         <div class="flex items-start gsp-5">
-            <img src="{{ asset('assets/images/K2/circuit/makey/m7.png') }}" />
+            <img src="{{ asset('assets/images/K2/circuit/makey/m7.png') }}" class="w-img" />
             <p class="note w-[140px] !text-start">Use big font
                 size (e.g.100)
                 to key in the
@@ -237,27 +235,26 @@
     </div>
 
     {{-- sldie 20 --}}
-    <div class="slide hidden flex flex-col items-center  h-full justify-around">
+    <div class="slide hidden flex flex-col items-center  h-[50vh] justify-around">
         <ul class="text-start title stroke">
             <h2>Steps:</h2>
             <li>4. Connect one end of an alligator clip to the EARTH at the
                 bottom of the board.</li>
         </ul>
-        <video id="video6" class="w-full max-w-[42rem] pointer-events-none">
+        <video id="video6" class="video1 pointer-events-none">
             <source src="{{ asset('assets/images/K2/circuit/makey/318.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
         <p class="note">Note: Have children observe the demo.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video6')"
-            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
-      <img src="/assets/images/pptimages/video.png" />
+        <div onclick="toggleVideo('video6')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
 
     {{-- sldie 21 --}}
-    <div class="slide hidden flex flex-col items-center  h-full justify-around">
+    <div class="slide hidden flex flex-col items-center  h-[50vh] justify-around">
         <ul class="text-start title stroke">
             <h2>Steps:</h2>
             <li>5. Use the fingers of a hand to hold the metal part of the
@@ -271,28 +268,27 @@
 
 
     {{-- sldie 22 --}}
-    <div class="slide hidden flex flex-col items-center  h-full justify-around">
+    <div class="slide hidden flex flex-col items-center  h-[50vh] justify-around">
         <ul class="text-start title stroke">
             <h2>Steps:</h2>
             <li>6. Use the fingers of another hand to touch on the SPACE and
                 different ARROWS. What happens?</li>
         </ul>
-        <video id="video7" class="w-full max-w-[42rem] pointer-events-none">
+        <video id="video7" class="video1 pointer-events-none">
             <source src="{{ asset('assets/images/K2/circuit/makey/319.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
         <p class="note">Note: Have children observe the demo, take turns to try this step and talk about what they see.
         </p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video7')"
-            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
-      <img src="/assets/images/pptimages/video.png" />
+        <div onclick="toggleVideo('video7')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
 
     {{-- sldie 23 --}}
-    <div class="slide hidden flex flex-col items-center  h-full justify-around">
+    <div class="slide hidden flex flex-col items-center  h-[50vh] justify-around">
         <ul class="text-start title stroke">
             <h2>Steps:</h2>
             <li>7. Let go of this hand and use another hand to touch on the
@@ -308,7 +304,7 @@
 
 
     {{-- sldie 24 --}}
-    <div class="slide hidden flex flex-col items-center  h-full justify-between">
+    <div class="slide hidden flex flex-col items-center  h-[50vh] justify-between">
         <ul class="text-start title stroke list-disc ">
             <h2>Do you realise that:</h2>
             <li>You need a computer to set up a Makey Makey Board.</li>
@@ -326,7 +322,7 @@
 
 
     {{-- slide 25 --}}
-    <div class="slide hidden flex flex-col items-center  h-full justify-between">
+    <div class="slide hidden flex flex-col items-center  h-[50vh] justify-between">
         <ul class="text-start title stroke list-disc ">
             <h2>Do you realise that:</h2>
             <li>The use of the different ARROWS on the board is just like the use of the arrow (up, down, left, right) keys
@@ -342,7 +338,7 @@
 
 
     {{-- slide 26 --}}
-    <div class="slide hidden flex flex-col items-center gap-5">
+    <div class="slide hidden flex flex-col items-center ">
         <img src="{{ asset('assets/images/K2/circuit/makey/m11.png') }}" />
         <h2 class="title stroke">You are actually part of this complete circuit that makes the
             Makey Makey Board work!</h2>
@@ -361,37 +357,26 @@
 
     <div id="buttons" class="absolute  flex flex-row ">
         <!-- Return Button -->
-        <a class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] " id="returnButton">
-            <img class="absolute top-[6px] left-[8px] w-20 h-10"
-                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <img class=" w-14 h-14" src="{{ asset('assets/images/pptimages/reverse-icon.png') }}" />
-        </a>
+        <button id="returnButton">
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
+        </button>
 
         <!-- Home Button -->
-        <button class="relative w-24 h-24 button-fade-in bg-sky-500 rounded-[30px] " id="homeButton">
-            <img class="absolute top-[6px] left-[8px] w-20 h-10"
-                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-           <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
-        <button
-            
-            id="closeButton">
+        <button id="closeButton">
             <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-
         </button>
+
     </div>
 
     {{-- next Button --}}
     <div class="down-btn-container">
-        <button class="cursor-pointer nextButton w-66 h-[75px] relative bg-[#F8A23A]  rounded-[30px]">
-            <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
-            <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" /> </div>
-            <span class="flex items-center  text-white text-5xl font-bold stroke">NEXT
-            </span>
+        <button class=" nextButton">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
         </button>
     </div>
 @endsection

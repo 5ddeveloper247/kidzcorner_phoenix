@@ -9,7 +9,7 @@
     {{-- sldie 1 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start t-slide text-start">
         <div>
-            <h2 class=" t-title font-bold">Children will be able to:</h2>
+            <h2 class=" t-title ">Children will be able to:</h2>
             <ul class="list-disc ">
                 <li>Explore and learn about the characteristics of wheels and axles - a simple machine</li>
                 <li>Know some examples of things with wheel and axle around us</li>
@@ -22,7 +22,7 @@
 
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class="t-title font-bold">Keywords:</h2>
+                <h2 class="t-title ">Keywords:</h2>
                 <ul class="list-disc ">
                     <li>Wheel</li>
                     <li>Axle</li>
@@ -37,9 +37,9 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start t-slide text-start w-[75%]">
+    <div class=" slide flex text-2xl text-white flex-col justify-start t-slide text-start ">
         <div>
-            <h2 class="font-bold t-title t-title">Preparations for Class Activity I:</h2>
+            <h2 class=" title stroke !text-white">Preparations for Class Activity I:</h2>
             <ul class="list-disc ">
                 <li>Each group have a set of building bricks (parts and quantity as shown)</li>
             </ul>
@@ -49,9 +49,9 @@
     </div>
 
     {{-- slide 3 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start t-slide text-start w-[75%]">
+    <div class=" slide flex text-2xl text-white flex-col justify-start t-slide text-start ">
         <div>
-            <h2 class="font-bold t-title t-title">Preparations:</h2>
+            <h2 class=" title stroke !text-white">Preparations:</h2>
             <ul class="list-disc ">
                 <li>A standing fan for all children or each group a portable fan (set to the
                     lowest speed throughout the hands-on sessions)</li>
@@ -62,9 +62,9 @@
     </div>
 
     {{-- slide 4 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start t-slide text-start w-[75%]">
+    <div class=" slide flex text-2xl text-white flex-col justify-start t-slide text-start ">
         <div>
-            <h2 class="font-bold t-title t-title">What you need to do before the lesson:</h2>
+            <h2 class=" title stroke !text-white">What you need to do before the lesson:</h2>
             <ul class="list-disc ">
                 <li>Bend each of the small size blades to the same angles for the class.</li>
             </ul>
@@ -75,9 +75,9 @@
 
 
     {{-- slide 5 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start t-slide text-start w-[75%]">
+    <div class=" slide flex text-2xl text-white flex-col justify-start t-slide text-start ">
         <div>
-            <h2 class="font-bold t-title t-title">What you need to do before the lesson:</h2>
+            <h2 class=" title stroke !text-white">What you need to do before the lesson:</h2>
             <ul class="list-disc ">
                 <li>Be familiar with the name of the parts in the lego set.</li>
             </ul>
@@ -87,9 +87,9 @@
     </div>
 
     {{-- slide 6 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start t-slide text-start w-[75%]">
+    <div class=" slide flex text-2xl text-white flex-col justify-start t-slide text-start ">
         <div>
-            <h2 class="font-bold t-title t-title">Things to note during hands-on sessions:</h2>
+            <h2 class=" title stroke !text-white">Things to note during hands-on sessions:</h2>
             <ul class="list-disc ">
                 <li>Encourage children to always discuss and make decisions as a group to complete the mission.</li>
                 <li>Fans are potentially dangerous. Make sure that children handle them with great care with adult
@@ -166,9 +166,7 @@
 
         <!-- Close Button -->
         <button id="closeButton">
-
             <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-
         </button>
 
     </div>

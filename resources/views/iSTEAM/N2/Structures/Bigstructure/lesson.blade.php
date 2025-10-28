@@ -574,7 +574,7 @@
 
 
 
-        <h2 class="title stroke !text-white font-bold">Learning Journal </h2>
+        <h2 class="title stroke !text-white ">Learning Journal </h2>
 
 
         <img src="{{ asset('assets/images/N2/structure/b-str/s29.png') }}" />
@@ -603,9 +603,7 @@
 
         <!-- Close Button -->
         <button id="closeButton">
-
             <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-
         </button>
 
     </div>

@@ -3,8 +3,12 @@
 
 @section('content')
 
+    {{-- title --}}
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">Makey Makey (3)</h2>
+
+
     {{-- Slide 1 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
+    <div class="slide flex flex-col items-center justify-center  ">
         <img src="{{ asset('assets/images/K2/circuit/makey/m21.png') }}" />
         <div class="title stroke">
             <h2>Children, what are used to set up this Makey Makey
@@ -15,7 +19,7 @@
 
 
     {{-- Slide 2 --}}
-    <div class="slide hidden flex flex-col items-center gap-4">
+    <div class="slide hidden flex flex-col items-center ">
         <img src="{{ asset('assets/images/K2/circuit/makey/m21.png') }}" />
         <h2 class="title stroke">Why were playdough balls and paper clips band added to this
             set up? How do you play this music maker?</h2>
@@ -24,7 +28,7 @@
 
 
     {{-- Slide 3 --}}
-    <div class="slide hidden flex flex-col items-center gap-3 ">
+    <div class="slide hidden flex flex-col items-center  ">
         <img src="{{ asset('assets/images/K2/circuit/makey/m26.png') }}" />
         <h2 class="title stroke">With the help of the bongos application, you turned a set of
             Makey Makey into a music maker.</h2>
@@ -34,27 +38,26 @@
 
 
     {{-- slide 4 --}}
-    <div class="slide hidden flex flex-col items-center  h-full justify-around">
+    <div class="slide hidden flex flex-col items-center  h-[50vh] justify-between">
 
-        <video id="video1" class="w-full max-w-[42rem] pointer-events-none">
+        <video id="video1" class=" pointer-events-none">
             <source src="{{ asset('assets/images/K2/circuit/makey/323.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
         <h2 class="title stroke">You wear the paper clip band and tap on the playdough balls
             to create music using this Makey Makey music maker.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')"
-            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
-      <img src="/assets/images/pptimages/video.png" />
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
 
     {{-- Slide 5 --}}
-    <div class="slide hidden flex flex-col items-center  h-full justify-around">
-        <div class="flex items-center gap-5">
-            <img src="{{ asset('assets/images/K2/circuit/makey/m24.png') }}" class="w-[370px]" />
-            <video id="video2" class="w-full max-w-[35rem] pointer-events-none">
+    <div class="slide hidden flex flex-col items-center  h-[50vh] justify-between">
+        <div class="flex items-center ">
+            <img src="{{ asset('assets/images/K2/circuit/makey/m24.png') }}" class="!w-[15vw]" />
+            <video id="video2" class="video1 pointer-events-none">
                 <source src="{{ asset('assets/images/K2/circuit/makey/323.mp4') }}" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
@@ -62,15 +65,14 @@
         <h2 class="title stroke">You wear the paper clip band and tap on the playdough balls
             to create music using this Makey Makey music maker.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video2')"
-            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
-      <img src="/assets/images/pptimages/video.png" />
+        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
 
     {{-- slide 6 --}}
-    <div class="slide hidden flex flex-col items-center  h-full justify-around">
+    <div class="slide hidden flex flex-col items-center  h-[50vh] justify-between">
         <video id="video3" class="w-full max-w-[40rem] pointer-events-none">
             <source src="{{ asset('assets/images/K2/circuit/makey/323.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
@@ -79,16 +81,15 @@
             needing to always hold on to the alligator clip that is
             connected to the Earth of the board while creating music.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video3')"
-            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
-      <img src="/assets/images/pptimages/video.png" />
+        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
 
 
     {{-- slide 7 --}}
-    <div class="slide hidden flex flex-col items-center  h-full justify-around">
+    <div class="slide hidden flex flex-col items-center  h-[50vh] justify-between">
         <video id="video4" class="w-full max-w-[40rem] pointer-events-none">
             <source src="{{ asset('assets/images/K2/circuit/makey/323.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
@@ -96,9 +97,8 @@
         <h2 class="title stroke">Turning the playdough balls into keypads makes the process of
             creating music easier and smoother.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video4')"
-            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
-      <img src="/assets/images/pptimages/video.png" />
+        <div onclick="toggleVideo('video4')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
@@ -112,14 +112,14 @@
 
 
     {{-- slide 9 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-full  ">
+    <div class="slide hidden flex flex-col items-center   ">
         <h2 class="!text-white title stroke">Hands-on Time</h2>
         <h2 class="title stroke text-start">Mission: <br>
             Let's use our creativity to set up and turn a set of Makey
             Makey into a fun music maker with the help of a piano
             application!</h2>
-        <div class="flex flex-col items-center gap-2">
-            <img src="{{ asset('assets/images/K2/circuit/makey/m27.png') }}" />
+        <div class="flex flex-col items-center ">
+            <img src="{{ asset('assets/images/K2/circuit/makey/m27.png') }}" class="!w-[13vw]" />
             <a href="https://apps.makeymakey.com/piano/" class="text-white">https://apps.makeymakey.com/piano/</a>
         </div>
         <p class="text-center note">Note: Decide if this is a class activity or small groups activity.</p>
@@ -128,13 +128,13 @@
 
 
     {{-- slide 10 --}}
-    <div class="slide hidden flex flex-col items-center  h-full justify-around">
+    <div class="slide hidden flex flex-col items-center  ">
         <ul class="text-start title stroke">
             <h2>Steps:</h2>
             <li>1. Open up the piano application page from the Makey Makey's
                 website.</li>
         </ul>
-        <div class="flex items-start gap-2">
+        <div class="flex items-start ">
             <img src="{{ asset('assets/images/K2/circuit/makey/m27.png') }}" />
             <a href="https://apps.makeymakey.com/piano/" class="text-white">https://apps.makeymakey.com/piano/</a>
         </div>
@@ -144,13 +144,13 @@
 
 
     {{-- slide 11 --}}
-    <div class="slide hidden flex flex-col items-center  h-full justify-around">
+    <div class="slide hidden flex flex-col items-center  ">
         <ul class="text-start title stroke">
             <h2>Steps:</h2>
             <li>2. Based on the picture of the piano application, connect
                 alligator clips to a Makey Makey Board.</li>
         </ul>
-        <div class="flex items-end gap-5">
+        <div class="flex items-end ">
             <img src="{{ asset('assets/images/K2/circuit/makey/m28.png') }}" />
             <p class="note w-[140px] text-end">The text only show
                 when you roll the
@@ -162,7 +162,7 @@
 
 
     {{-- slide 12 --}}
-    <div class="slide hidden flex flex-col items-center  h-full justify-around">
+    <div class="slide hidden flex flex-col items-center h-[50vh] justify-between ">
         <ul class="text-start title stroke">
             <h2>Steps:</h2>
             <li>3. How do you want to set up and play with this Makey Makey
@@ -179,7 +179,7 @@
 
 
     {{-- slide 13 --}}
-    <div class="slide hidden flex flex-col items-center  h-full justify-around">
+    <div class="slide hidden flex flex-col items-center h-[50vh] justify-between  ">
         <ul class="text-start title stroke">
             <h2>Steps:</h2>
             <li>7. Modify your Makey Makey music maker such that more
@@ -202,7 +202,7 @@
 
 
     {{-- slide 15 --}}
-    <div class="slide hidden flex flex-col items-center gap-3">
+    <div class="slide hidden flex flex-col items-center ">
         <img src="{{ asset('assets/images/K2/circuit/makey/m29.png') }}" />
         <p class="note">Note: Guide children to talk about the set up of this Makey Makey music maker
             (e.g. design idea, things used, for how many players at one go).</p>
@@ -210,7 +210,7 @@
 
 
     {{-- slide 16 --}}
-    <div class="slide hidden flex flex-col items-center gap-3">
+    <div class="slide hidden flex flex-col items-center ">
         <img src="{{ asset('assets/images/K2/circuit/makey/m30.png') }}" />
         <p class="note">Note: Guide children to talk about the set up of this Makey Makey music maker
             (e.g. design idea, things used, for how many players at one go).</p>
@@ -218,7 +218,7 @@
 
 
     {{-- slide 17 --}}
-    <div class="slide hidden flex flex-col items-center gap-3">
+    <div class="slide hidden flex flex-col items-center ">
         <img src="{{ asset('assets/images/K2/circuit/makey/m31.png') }}" />
         <p class="note">Note: Guide children to talk about the set up of this Makey Makey music maker
             (e.g. design idea, things used, for how many players at one go).</p>
@@ -226,7 +226,7 @@
 
 
     {{-- slide 18 --}}
-    <div class="slide hidden flex flex-col items-center gap-3">
+    <div class="slide hidden flex flex-col items-center ">
         <img src="{{ asset('assets/images/K2/circuit/makey/m32.png') }}" />
         <p class="note">Note: Guide children to talk about the set up of this Makey Makey music maker
             (e.g. design idea, things used, for how many players at one go).</p>
@@ -236,7 +236,7 @@
     {{-- slide 19 --}}
     <div class="slide  hidden flex flex-col items-center justify-center gap-y-4 p-[10px]">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[836px] h-[536px] bg-cover bg-center flex flex-col items-start"
+        <div class="w-[40vw] h-[40vh] bg-cover bg-center flex flex-col items-start"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <img src="{{ asset('assets/images/K2/circuit/makey/m33.png') }}" />
         </div>
@@ -246,7 +246,7 @@
     {{-- sldie 20 --}}
     <div class="slide  hidden flex flex-col items-center justify-center gap-y-4 p-[10px]">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[836px] h-[536px] bg-cover bg-center flex flex-col items-start"
+        <div class="w-[40vw] h-[40vh] bg-cover bg-center flex flex-col items-start"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <img src="{{ asset('assets/images/K2/circuit/makey/m34.png') }}" />
         </div>
@@ -256,7 +256,7 @@
     {{-- sldie 21 --}}
     <div class="slide  hidden flex flex-col items-center justify-center gap-y-4 p-[10px]">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[836px] h-[536px] bg-cover bg-center flex flex-col items-start"
+        <div class="w-[40vw] h-[40vh] bg-cover bg-center flex flex-col items-start"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <img src="{{ asset('assets/images/K2/circuit/makey/m35.png') }}" />
         </div>
@@ -265,7 +265,7 @@
     {{-- slide 22 --}}
     <div class="slide  hidden flex flex-col items-center justify-center gap-y-4 p-[10px]">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[836px] h-[536px] bg-cover bg-center flex flex-col items-start"
+        <div class="w-[40vw] h-[40vh] bg-cover bg-center flex flex-col items-start"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <img src="{{ asset('assets/images/K2/circuit/makey/m36.png') }}" />
         </div>
@@ -275,45 +275,33 @@
     {{-- ====================================== --}}
     {{-- Buttons --}}
     <div class="down-btn-container">
-        <button
-         class="doneButton">
- <img src="{{ asset('assets/images/pptimages/done.png') }}" />
+        <button class="doneButton">
+            <img src="{{ asset('assets/images/pptimages/done.png') }}" />
         </button>
     </div>
 
     <div id="buttons" class="absolute  flex flex-row ">
         <!-- Return Button -->
-        <a class="relative w-24 h-24 button-fade-in bg-[#28674de0] rounded-[30px] " id="returnButton">
-            <img class="absolute top-[6px] left-[8px] w-20 h-10"
-                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <img class=" w-14 h-14"
-                src="{{ asset('assets/images/pptimages/reverse-icon.png') }}" />
-        </a>
+        <button id="returnButton">
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
+        </button>
 
         <!-- Home Button -->
-        <button class="relative w-24 h-24 button-fade-in bg-sky-500 rounded-[30px] " id="homeButton">
-            <img class="absolute top-[6px] left-[8px] w-20 h-10"
-                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <img class=" w-14 h-14"
-                src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
-        <button  id="closeButton">
-                        <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-
+        <button id="closeButton">
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
         </button>
+
     </div>
 
     {{-- next Button --}}
     <div class="down-btn-container">
-        <button class="cursor-pointer nextButton w-66 h-[75px] relative bg-[#F8A23A]  rounded-[30px]">
-            <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
-            <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" /> </div>
-            <span class="flex items-center  text-white text-5xl font-bold stroke">NEXT
-            </span>
+        <button class="cursor-pointer nextButton">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
         </button>
     </div>
 @endsection

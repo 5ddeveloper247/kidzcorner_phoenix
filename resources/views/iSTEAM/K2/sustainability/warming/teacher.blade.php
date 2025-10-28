@@ -3,7 +3,7 @@
 
 @section('content')
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -36,8 +36,8 @@
     {{-- slide 2 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
         <div>
-            <h2 class="font-bold t-title">Preparations:</h2><br>
-            <h2 class="font-bold t-title">Class Activity 1:</h2>
+            <h2 class=" t-title">Preparations:</h2><br>
+            <h2 class=" t-title">Class Activity 1:</h2>
             <ul class="list-disc ">
                 <li class="text-[1.2vw]">
                     1 glass jar with a hole lid
@@ -54,10 +54,10 @@
     </div>
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Preparations:</h2><br>
-            <h2 class="font-bold t-title">Class Activity 2:</h2>
+            <h2 class=" t-title">Preparations:</h2><br>
+            <h2 class=" t-title">Class Activity 2:</h2>
             <ul class="list-disc ">
                 <li class="text-[1.2vw]">
                     1 big transparent container (size around the same as the example below)
@@ -78,9 +78,9 @@
 
 
     {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-center gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-center  text-start">
         <div>
-            <h2 class="font-bold t-title">Things to note for Class Activity 1:</h2>
+            <h2 class=" t-title">Things to note for Class Activity 1:</h2>
             <ul class="list-disc">
                 <li class="text-[1.2vw]">The glass jar and the glass thermometer may be hot after being out in the sun.<br>
                     Please ensure that children do not touch the glass jar and glass thermometer.</li>
@@ -104,9 +104,9 @@
 
 
     {{-- slide 4 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Things to note for Class Activity 1:</h2>
+            <h2 class=" t-title">Things to note for Class Activity 1:</h2>
             <ul class="list-decimal">
                 <li class="text-[1.2vw]">If you are using a kitchen thermometer, you may see the numbers change within
                     seconds. <br>
@@ -121,9 +121,9 @@
 
 
     {{-- slide 5 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Things to note for Class Activity 2:</h2>
+            <h2 class=" t-title">Things to note for Class Activity 2:</h2>
             <ul>
                 <li class="text-[1.2vw]">Prepare sufficient ice for your class the day before the experiment. <br>
                     It will depend on the size of the container and number of groups that will be doing the experiment.
@@ -140,9 +140,9 @@
 
 
     {{-- sldie 6 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Useful information:</h2><br>
+            <h2 class=" t-title">Useful information:</h2><br>
             <ul>
                 <li class="text-[1.2vw]">What is a glacier?
                     A glacier is a thick mass of ice that covers a large area of land. Around ten
@@ -162,9 +162,9 @@
 
 
     {{-- sldie 7 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Notes</h2>
+            <h2 class=" t-title">Notes</h2>
             <ul>
                 <li class="text-[1.2vw] flex">
                     <span>
@@ -194,9 +194,9 @@
     </div>
 
     {{-- sldie 8 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">When Glaciers Melt</h2>
+            <h2 class=" t-title">When Glaciers Melt</h2>
             <p class="note">What and how to set up:<br>
                 Use clay or dough to create an island in a tray on one side. Decorate it with<br><br>
                 animals toys, cars, people and houses. Fill up the other side with water which <br><br>

@@ -2,10 +2,12 @@
 @section('title', 'Dynamic Presentation')
 
 @section('content')
+    {{-- title --}}
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">MAchiens and Electricity</h2>
 
 
     {{-- Slide 1 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
+    <div class="slide flex flex-col items-center justify-center  ">
         <img src="{{ asset('assets/images/K2/circuit/ecity/e1.png') }}" />
         <div class="title stroke">
             <h2>Children, what are these? What are they for?</h2>
@@ -47,9 +49,9 @@
 
     {{-- slide 6 --}}
     <div class="slide hidden flex flex-col items-center ">
-        <div class="flex gap-3 items-end">
+        <div class="flex  items-end">
             <img src="{{ asset('assets/images/K2/circuit/ecity/e1.png') }}" />
-            <img src="{{ asset('assets/images/K2/circuit/ecity/e2.png') }}" class="h-[120px]" />
+            <img src="{{ asset('assets/images/K2/circuit/ecity/e2.png') }}" class="h-[10vh]" />
         </div>
         <h2 class="title stroke">Most machines get electricity when its plug is inserted into
             a socket and the switch is turned on.</h2>
@@ -59,8 +61,8 @@
 
 
     {{-- slide 7 --}}
-    <div class="slide hidden flex flex-col items-center gap-3 ">
-        <video id="video1" class="w-full max-w-[42rem] pointer-events-none">
+    <div class="slide hidden flex flex-col items-center  ">
+        <video id="video1" class="pointer-events-none">
             <source src="{{ asset('assets/images/K2/circuit/ecity/307.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -74,9 +76,9 @@
     </div>
 
     {{-- slide 8 --}}
-    <div class="slide hidden  flex flex-col items-center justify-between h-full ">
+    <div class="slide hidden  flex flex-col items-center justify-between h-[50vh] ">
         <h2 class="!text-white title stroke">Hands-on Time 1</h2>
-        <h2 class="title stroke">Mission: <br>
+        <h2 class="title stroke text-start">Mission: <br>
             Walk around the place (school, classroom, kitchen, etc) to
             find machines that come with a plug. Observe each machine
             and answer some questions.</h2>
@@ -85,7 +87,7 @@
 
     {{-- slide 9 --}}
 
-    <div class="slide hidden flex flex-col items-center gap-5">
+    <div class="slide hidden flex flex-col items-center ">
         <ul class="title stroke text-start">
             <h2>Steps:</h2>
             <li>1. What machines did you find that come with a plug? Tell
@@ -99,7 +101,7 @@
 
 
     {{-- slide 10 --}}
-    <div class="slide hidden flex flex-col items-center gap-5">
+    <div class="slide hidden flex flex-col items-center ">
         <ul class="title stroke text-start">
             <h2>Steps:</h2>
             <li>2.Observe each machine and answer these questions:
@@ -119,7 +121,7 @@
 
 
     {{-- slide 11 --}}
-    <div class="slide hidden flex flex-col items-center gap-5">
+    <div class="slide hidden flex flex-col items-center ">
         <ul class="title stroke text-start">
             <li>What do you learn from this activity?
                 <ul class="list-disc">
@@ -135,8 +137,8 @@
 
 
     {{-- slide 12 --}}
-    <div class="slide hidden flex flex-col items-center gap-3 ">
-        <video id="video2" class="w-full max-w-[42rem] pointer-events-none">
+    <div class="slide hidden flex flex-col items-center  ">
+        <video id="video2" class="pointer-events-none">
             <source src="{{ asset('assets/images/K2/circuit/ecity/308.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -150,8 +152,8 @@
 
 
     {{-- slide 13 --}}
-    <div class="slide hidden flex flex-col items-center gap-3 ">
-        <video id="video3" class="w-full max-w-[42rem] pointer-events-none">
+    <div class="slide hidden flex flex-col items-center  ">
+        <video id="video3" class="pointer-events-none">
             <source src="{{ asset('assets/images/K2/circuit/ecity/309.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -198,7 +200,7 @@
 
     {{-- slide 18 --}}
     <div class="slide hidden flex flex-col items-center ">
-        <img src="{{ asset('assets/images/K2/circuit/ecity/e7.png') }}" />
+        <img src="{{ asset('assets/images/K2/circuit/ecity/e7.png') }}" class="!h-[35vh]" />
         <h2 class="title stroke">Have you ever seen this screen on a smartphone?
             What does it mean? What do you do when you see this screen?</h2>
         <p class="note">Note: Have children share their prior knowledge and experience.</p>
@@ -212,10 +214,10 @@
     </div>
 
     {{-- slide 20 --}}
-    <div class="slide hidden flex flex-col items-center gap-3 ">
-        <div class="flex items-center gap-3">
+    <div class="slide hidden flex flex-col items-center  ">
+        <div class="flex items-center gap-[1vw] ">
             <img src="{{ asset('assets/images/K2/circuit/ecity/e8.png') }}" />
-            <video id="video4" class="pointer-events-none">
+            <video id="video4" class="video1 pointer-events-none">
                 <source src="{{ asset('assets/images/K2/circuit/ecity/310.mp4') }}" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
@@ -230,7 +232,7 @@
     </div>
 
     {{-- slide 21 --}}
-    <div class="slide hidden flex flex-col items-center gap-5">
+    <div class="slide hidden flex flex-col items-center ">
         <img src="{{ asset('assets/images/K2/circuit/ecity/e9.png') }}" />
         <h2 class="title stroke">Why do these things come with a detachable cable
             and plug?</h2>
@@ -238,7 +240,7 @@
     </div>
 
     {{-- slide 22 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-full  ">
+    <div class="slide hidden flex flex-col items-center justify-between h-[50vh]  ">
         <h2 class="!text-white title stroke">Hands-on Time 2</h2>
         <h2 class="title stroke text-start">Mission: <br>
             Which machine around you uses electricity to work? Find one
@@ -254,13 +256,13 @@
             <li>1. Which machine around you uses electricity to work?
                 Find one.</li>
         </ul>
-        <img src="{{ asset('assets/images/K2/circuit/ecity/e10.png') }}" />
+        <img src="{{ asset('assets/images/K2/circuit/ecity/e10.png') }}" class="!w-[14vw]" />
         <p class="note">Note: Have each child to look for one thing that use electricity to work. Guide if needed.</p>
     </div>
 
 
     {{-- slide 24 --}}
-    <div class="slide hidden flex flex-col items-center h-full justify-between">
+    <div class="slide hidden flex flex-col items-center h-[50vh] justify-between">
         <ul class="text-start title stroke self-start">
             <h2>Steps:</h2>
             <li>2. Share these with the class:
@@ -283,7 +285,7 @@
     </div>
 
     {{-- slide 26 --}}
-    <div class="slide hidden  flex flex-col items-center justify-between h-full ">
+    <div class="slide hidden  flex flex-col items-center justify-between h-[50vh] ">
         <ul class="title stroke text-start list-disc">
             <h2>Do you realise that:
                 <li>Many things around us are machines.</li>
@@ -298,7 +300,7 @@
     </div>
 
     {{-- slide 27 --}}
-    <div class="slide hidden  flex flex-col items-center justify-between h-full ">
+    <div class="slide hidden  flex flex-col items-center justify-between h-[50vh] ">
         <ul class="title stroke text-start list-disc">
             <h2>Do you realise that:
                 <li>People usually use a plastic adapter to help them insert a 2-
@@ -324,35 +326,26 @@
 
     <div id="buttons" class="absolute  flex flex-row ">
         <!-- Return Button -->
-        <a class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] " id="returnButton">
-            <img class="absolute top-[6px] left-[8px] w-20 h-10"
-                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <img class=" w-14 h-14" src="{{ asset('assets/images/pptimages/reverse-icon.png') }}" />
-        </a>
+        <button id="returnButton">
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
+        </button>
 
         <!-- Home Button -->
-        <button class="relative w-24 h-24 button-fade-in bg-sky-500 rounded-[30px] " id="homeButton">
-            <img class="absolute top-[6px] left-[8px] w-20 h-10"
-                src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <img class=" w-14 h-14" src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
         <button id="closeButton">
             <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-
         </button>
+
     </div>
 
     {{-- next Button --}}
     <div class="down-btn-container">
-        <button class="cursor-pointer nextButton w-66 h-[75px] relative bg-[#F8A23A]  rounded-[30px]">
-            <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
-            <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" /> </div>
-            <span class="flex items-center  text-white text-5xl font-bold stroke">NEXT
-            </span>
+        <button class="nextButton">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
         </button>
     </div>
 @endsection
@@ -360,7 +353,7 @@
 
 @push('script')
     <script>
-        // Video toggle function
+        // Video toggle function - plays or pauses a video when clicked
         function toggleVideo(videoId) {
             const video = document.getElementById(videoId);
             if (video.paused) {
@@ -371,23 +364,20 @@
         }
 
         document.addEventListener("DOMContentLoaded", () => {
+            // Get all slide elements
             const slides = document.querySelectorAll(".slide");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
             const doneButton = document.querySelector(".doneButton");
 
-            // Get all click buttons (click-btn1, click-btn2, etc.)
-            const clickButtons = document.querySelectorAll("[class*='click-btn']");
-
+            // Keep track of which slide we're currently viewing
             let currentSlide = 0;
-            let parentSlideIndex = null;
-            let isViewingClickSlides = false;
-            let currentClickClass = null; // Track which click class we're viewing (click1, click2, etc.)
 
-            // DEFINE YOUR RETURN ROUTE HERE - This is the route to navigate when on slide 1 and clicking return
+            // CONFIGURE YOUR ROUTES HERE
             const returnRouteFromFirstSlide = "{{ route('electricitySelection') }}";
+            const doneButtonRoute = "{{ route('electricitySelection') }}";
 
-            // Function to pause all videos
+            // Pause all videos when changing slides
             function pauseAllVideos() {
                 const videos = document.querySelectorAll('video');
                 videos.forEach(video => {
@@ -397,19 +387,20 @@
                 });
             }
 
+            // Show a specific slide and hide all others
             function showSlide(index) {
-                // Pause all videos before changing slides
+                // Pause all videos before switching
                 pauseAllVideos();
 
+                // Hide all slides except the current one
                 slides.forEach((slide, i) => {
                     slide.classList.toggle("hidden", i !== index);
                 });
 
-                // Check if last slide OR last click slide
+                // Check if last slide
                 const isLastSlide = index === slides.length - 1;
-                const isLastClickSlide = isViewingClickSlides && !hasNextClickSlide(index);
 
-                if (isLastSlide || isLastClickSlide) {
+                if (isLastSlide) {
                     nextButtons.forEach(btn => btn.classList.add("hidden"));
                     if (doneButton) doneButton.classList.remove("hidden");
                 } else {
@@ -418,141 +409,38 @@
                 }
             }
 
-            // Check if there's another click slide with same class after current one
-            function hasNextClickSlide(currentIndex) {
-                if (!currentClickClass) return false;
-
-                for (let i = currentIndex + 1; i < slides.length; i++) {
-                    if (slides[i].classList.contains(currentClickClass)) {
-                        return true;
-                    }
-                }
-                return false;
-            }
-
-            // Get click class from button (click-btn1 → click1, click-btn2 → click2)
-            function getClickClassFromButton(button) {
-                const classList = Array.from(button.classList);
-                const clickBtnClass = classList.find(cls => cls.startsWith('click-btn'));
-                if (clickBtnClass) {
-                    // Extract number from click-btn1, click-btn2, etc.
-                    const number = clickBtnClass.replace('click-btn', '');
-                    return 'click' + number;
-                }
-                return null;
-            }
-
-            // Click button handlers
-            clickButtons.forEach((btn) => {
-                btn.addEventListener("click", (e) => {
-                    e.preventDefault(); // Prevent default anchor behavior
-
-                    parentSlideIndex = currentSlide;
-                    isViewingClickSlides = true;
-                    currentClickClass = getClickClassFromButton(btn);
-
-                    // Find the first slide with matching click class
-                    for (let i = 0; i < slides.length; i++) {
-                        if (slides[i].classList.contains(currentClickClass)) {
-                            currentSlide = i;
-                            showSlide(currentSlide);
-                            break;
-                        }
-                    }
-                });
-            });
-
-            // NEXT button - skip click slides if not viewing them
+            // NEXT button
             nextButtons.forEach((btn) => {
                 btn.addEventListener("click", () => {
                     if (currentSlide < slides.length - 1) {
                         currentSlide++;
-
-                        // Skip click slides if not viewing them
-                        while (!isViewingClickSlides &&
-                            currentSlide < slides.length &&
-                            isClickSlide(slides[currentSlide])) {
-                            currentSlide++;
-                        }
-
-                        // If viewing click slides, only show slides with current click class
-                        if (isViewingClickSlides) {
-                            while (currentSlide < slides.length &&
-                                !slides[currentSlide].classList.contains(currentClickClass)) {
-                                currentSlide++;
-                            }
-                        }
-
-                        if (currentSlide < slides.length) {
-                            showSlide(currentSlide);
-                        }
+                        showSlide(currentSlide);
                     }
                 });
             });
 
-            // Check if slide is any click slide (click1, click2, etc.)
-            function isClickSlide(slide) {
-                return Array.from(slide.classList).some(cls => cls.startsWith('click') && cls.match(/^click\d+$/));
-            }
-
-            // Return button with route navigation on first slide
+            // RETURN button - go to previous slide or navigate back
             returnButton.addEventListener("click", () => {
-                // If on first slide (slide 0) and not viewing click slides, navigate to return route
-                if (currentSlide === 0 && !isViewingClickSlides) {
+                // If on first slide, navigate to return route
+                if (currentSlide === 0) {
                     window.location.href = returnRouteFromFirstSlide;
                     return;
                 }
 
-                if (isViewingClickSlides && currentSlide > 0) {
-                    // Check if previous slide is also same click class
-                    let prevSlide = currentSlide - 1;
-
-                    // Find previous slide with same click class
-                    while (prevSlide >= 0 && !slides[prevSlide].classList.contains(currentClickClass)) {
-                        prevSlide--;
-                    }
-
-                    if (prevSlide >= 0 && slides[prevSlide].classList.contains(currentClickClass)) {
-                        currentSlide = prevSlide;
-                        showSlide(currentSlide);
-                    } else {
-                        // No more click slides, return to parent
-                        currentSlide = parentSlideIndex;
-                        isViewingClickSlides = false;
-                        currentClickClass = null;
-                        parentSlideIndex = null;
-                        showSlide(currentSlide);
-                    }
-                } else if (currentSlide > 0) {
+                if (currentSlide > 0) {
                     currentSlide--;
-
-                    // Skip click slides when going back
-                    while (currentSlide > 0 && isClickSlide(slides[currentSlide])) {
-                        currentSlide--;
-                    }
-
                     showSlide(currentSlide);
                 }
             });
 
-            // DONE button handler
+            // DONE button - navigate to completion route
             if (doneButton) {
                 doneButton.addEventListener("click", () => {
-                    if (isViewingClickSlides && parentSlideIndex !== null) {
-                        // Return to parent slide
-                        currentSlide = parentSlideIndex;
-                        isViewingClickSlides = false;
-                        currentClickClass = null;
-                        parentSlideIndex = null;
-                        showSlide(currentSlide);
-                    } else {
-                        // Navigate to route
-                        window.location.href = "{{ route('electricitySelection') }}";
-                    }
+                    window.location.href = doneButtonRoute;
                 });
             }
 
-            // Start with first slide
+            // Initialize - show first slide
             showSlide(currentSlide);
         });
     </script>

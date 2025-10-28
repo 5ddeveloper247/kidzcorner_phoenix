@@ -247,7 +247,7 @@
 
     {{-- slide 23 --}}
     <div class="slide flex flex-col items-center justify-start gap-5 ">
-        <h2 class="title stroke !text-white  font-bold">Individual Activity</h2>
+        <h2 class="title stroke !text-white  ">Individual Activity</h2>
 
         <img src="{{ asset('/assets/images/N2/structure/str3/s17.png') }}" class="large-img3" />
 
@@ -492,7 +492,7 @@
     {{-- slide 36  --}}
 
     <div class="slide flex flex-col items-center justify-start gap-5 ">
-        <h2 class="title stroke !text-white  font-bold">Class Activity</h2>
+        <h2 class="title stroke !text-white  ">Class Activity</h2>
 
         <img src="{{ asset('/assets/images/N2/structure/str3/s30.png') }}" class="large-img2" />
 
@@ -546,7 +546,7 @@
 
     <div class="slide hidden  flex flex-col items-center justify-start gap-[1rem] ">
 
-        <h2 class="title stroke !text-white !font-bold">Learning Journal</h2>
+        <h2 class="title stroke !text-white !">Learning Journal</h2>
 
         <img src="{{ asset('/assets/images/N2/structure/str3/s31.png') }}" class="large-img5" />
 
@@ -576,9 +576,7 @@
 
         <!-- Close Button -->
         <button id="closeButton">
-
             <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-
         </button>
 
     </div>

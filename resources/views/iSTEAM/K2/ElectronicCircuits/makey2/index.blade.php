@@ -6,44 +6,31 @@
     <div id="topDiv" class="flex flex-col  gap-20 items-center ">
         <div class="indexTitle  text-[55px]  stroke">Makey Makey (2)</div>
         <h2 class="text-2xl sm:text-3xl lg:text-[45px] text-white stroke ">
-            Explore and learn about the use of Makey Makey; <br>
+            Explore and learn about the use of Makey Makey;
             learn how to turn Makey Makey into a fun music maker</h2>
-        <button
-            class="nextButton w-66 h-[90px] relative bg-[#F8A23A]  rounded-[30px] outline outline-1 outline-yellow-700 overflow-hidden">
-            <div class="bg-white w-[27px] h-[18px] absolute top-[9px] left-[19px]"></div>
-            <div class="absolute left-[8.22px] top-[3.17px] "> <img src="/assets/images/pptimages/Vector4.png" /> </div>
-            <span class="flex items-center  text-white text-5xl font-bold stroke">NEXT
-            </span>
+        <button class="nextButton">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
         </button>
     </div>
 
 
     <div id="buttons" class="absolute  flex flex-row ">
         <!-- Return Button -->
-        <button class="relative w-24 h-24 button-fade-in bg-slate-500 rounded-[30px] " id="returnButton">
-            <img 
-                src="{{ asset('assets/images/pptimages/return.png') }}" />
+        <button id="returnButton">
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </button>
 
         <!-- Home Button -->
-        <button class="relative w-24 h-24 button-fade-in bg-sky-500 rounded-[30px] " id="homeButton">
-            <img class="absolute top-[6px] left-[8px] w-20 h-10" src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <img class=" w-14 h-14"
-                src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
-        <button class="relative w-24 h-24 bg-red-500 rounded-[30px] button-fade-in" id="closeButton">
-            <img class="absolute top-[6px] left-[8px] w-20 h-10" src="{{ asset('assets/images/pptimages/Vector4.png') }}" />
-            <div class="absolute top-[10px] left-[19.74px] w-5 h-3.5 bg-white"></div>
-            <div id="closeButtonText"
-                class=" w-11 h-16 text-white text-6xl">X
-            </div>
+        <button id="closeButton">
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
         </button>
 
     </div>
-
 
 @endsection
 
