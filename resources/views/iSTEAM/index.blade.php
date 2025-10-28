@@ -130,7 +130,7 @@
         setTimeout(() => {
             preloader.classList.add("hidden");
             preloader.classList.add("muted");
-            pageContent.classList.add("visible");
+            // pageContent.classList.add("visible");
         }, 8000);
     });
 </script>
