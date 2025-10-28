@@ -2,6 +2,8 @@
 @section('title', 'Dynamic Presentation')
 
 @section('content')
+    {{-- title --}}
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">Clean Energy 2</h2>
 
     {{-- Slide 1 --}}
     <div class="slide hidden flex flex-col items-center">
@@ -46,7 +48,7 @@
     {{-- slide 4 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <div class="flex items-center gap-5">
-            <img src="{{ asset('assets/images/K2/sustain/energy2/e3.png') }}" class="large-img6"/>
+            <img src="{{ asset('assets/images/K2/sustain/energy2/e3.png') }}" class="large-img6" />
         </div>
         <h2 class="title stroke text-center"> Look at these pictures. What are they and what do they do?</h2>
         <p class="note">Note: Encourage children to compare and discuss the similarities and differences.</p>
@@ -56,7 +58,7 @@
 
     {{-- Slide 5 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/sustain/energy2/e3.png') }}" class="large-img6"/>
+        <img src="{{ asset('assets/images/K2/sustain/energy2/e3.png') }}" class="large-img6" />
         <span class="text-white"> wind-mill wind-turbine </span>
         <h2 class="title stroke"> When the wind blows, the windmill and wind turbine rotate.</h2>
     </div>
@@ -64,14 +66,14 @@
     {{-- slide 4 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <div class="flex items-center gap-5">
-            <img src="{{ asset('assets/images/K2/sustain/energy2/e4.png') }}" class="large-img6"/>
+            <img src="{{ asset('assets/images/K2/sustain/energy2/e4.png') }}" class="large-img6" />
         </div>
         <h2 class="title stroke text-center"> This is how a <span class="text-white"> windmill </span>rotates.</h2>
     </div>
     {{-- slide 4 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <div class="flex items-center gap-5">
-            <img src="{{ asset('assets/images/K2/sustain/energy2/e5.png') }}" class="large-img6"/>
+            <img src="{{ asset('assets/images/K2/sustain/energy2/e5.png') }}" class="large-img6" />
         </div>
         <h2 class="title stroke text-center"> As the windmill rotates, it generates energy to operate
             machines that help to mill grains or pump water to the crops.</h2>
@@ -79,7 +81,7 @@
     {{-- slide 4 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <div class="flex items-center gap-5">
-            <img src="{{ asset('assets/images/K2/sustain/energy2/e6.png') }}" class="large-img6"/>
+            <img src="{{ asset('assets/images/K2/sustain/energy2/e6.png') }}" class="large-img6" />
         </div>
         <h2 class="title stroke text-center">When the wind blows, the wind turbines rotate
             and generate electricity.</h2>
@@ -88,7 +90,7 @@
     <div class="slide hidden  flex flex-col items-center justify-start">
         <span class="text-white">Class Activity 1</span>
         <div class="flex items-center gap-5">
-                <img class="w-190" src="{{ asset('assets/images/K2/sustain/energy2/e12.png') }}" class="large-img6" />
+            <img class="w-190" src="{{ asset('assets/images/K2/sustain/energy2/e12.png') }}" class="large-img6" />
         </div>
         <h2 class="title stroke text-center">Let's find out:<br>
             Build and observe how wind can light up the light bulb.</h2>
@@ -160,7 +162,8 @@
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <div class="flex  gap-2 items-center">
             <img class="w-190" src="{{ asset('assets/images/K2/sustain/energy2/e12.png') }}" />
-            <img src="{{ asset('assets/images/K2/sustain/energy2/e12a.png') }}" class="!max-w-[14vw]" class="!max-w-[15vw]" />
+            <img src="{{ asset('assets/images/K2/sustain/energy2/e12a.png') }}" class="!max-w-[14vw]"
+                class="!max-w-[15vw]" />
         </div>
         <h2 class="title stroke">As the water flows down, it rotates the water
             turbines behind the dams.</h2>
@@ -169,7 +172,8 @@
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <div class="flex  gap-2 items-center">
             <img class="w-190" src="{{ asset('assets/images/K2/sustain/energy2/e12.png') }}" />
-            <img src="{{ asset('assets/images/K2/sustain/energy2/e12a.png') }}" class="!max-w-[14vw]" class="!max-w-[15vw]" />
+            <img src="{{ asset('assets/images/K2/sustain/energy2/e12a.png') }}" class="!max-w-[14vw]"
+                class="!max-w-[15vw]" />
         </div>
         <h2 class="title stroke">Just like the wind turbines, the water turbines
             rotates and generate electricity.</h2>
@@ -178,7 +182,8 @@
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <div class="flex  gap-2 items-center">
             <img class="w-190" src="{{ asset('assets/images/K2/sustain/energy2/e12.png') }}" />
-            <img src="{{ asset('assets/images/K2/sustain/energy2/e12a.png') }}" class="!max-w-[14vw]" class="!max-w-[15vw]" />
+            <img src="{{ asset('assets/images/K2/sustain/energy2/e12a.png') }}" class="!max-w-[14vw]"
+                class="!max-w-[15vw]" />
         </div>
         <h2 class="title stroke">Electricity generated by flowing water is called
             hydroelectric power or hydropower.</h2>
@@ -197,7 +202,7 @@
     </div>
     {{-- slide 7 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-    <h2 class="note">Class activity 2</h2>
+        <h2 class="note">Class activity 2</h2>
         <div class="flex  gap-2 items-center">
             <img class="w-190" src="{{ asset('assets/images/K2/sustain/energy2/e12.png') }}" />
             <img src="{{ asset('assets/images/K2/sustain/energy2/e12a.png') }}" class="!max-w-[14vw]" />
@@ -245,10 +250,10 @@
         <h2 class="title stroke text-center">Using clean energy will help natural resources to be sustainable
             and protect our Earth from global warming and pollution.</h2>
 
-    </div>
-    <!-- Video Trigger Button -->
-    <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
-        <img src="{{ asset('assets/images/pptimages/video.png') }}" />
+        <!-- Video Trigger Button -->
+        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="{{ asset('assets/images/pptimages/video.png') }}" />
+        </div>
     </div>
 
 
@@ -294,30 +299,54 @@
 
 @push('script')
     <script>
+        // Video toggle function - plays or pauses a video when clicked
+        function toggleVideo(videoId) {
+            const video = document.getElementById(videoId);
+            if (video.paused) {
+                video.play();
+            } else {
+                video.pause();
+            }
+        }
+
         document.addEventListener("DOMContentLoaded", () => {
+            // Get all slide elements
             const slides = document.querySelectorAll(".slide");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
             const doneButton = document.querySelector(".doneButton");
 
-            // Get all info/click buttons (info-btn1, info-btn2, click-btn1, click-btn2, etc.)
-            const infoButtons = document.querySelectorAll("[class*='info-btn'], [class*='click-btn']");
-
+            // Keep track of which slide we're currently viewing
             let currentSlide = 0;
-            let parentSlideIndex = null;
-            let isViewingInfoSlides = false;
-            let currentInfoClass = null; // Track which info/click class we're viewing
 
+            // CONFIGURE YOUR ROUTES HERE
+            const returnRouteFromFirstSlide = "{{ route('energy2Selection') }}";
+            const doneButtonRoute = "{{ route('energy2Selection') }}";
+
+            // Pause all videos when changing slides
+            function pauseAllVideos() {
+                const videos = document.querySelectorAll('video');
+                videos.forEach(video => {
+                    if (!video.paused) {
+                        video.pause();
+                    }
+                });
+            }
+
+            // Show a specific slide and hide all others
             function showSlide(index) {
+                // Pause all videos before switching
+                pauseAllVideos();
+
+                // Hide all slides except the current one
                 slides.forEach((slide, i) => {
                     slide.classList.toggle("hidden", i !== index);
                 });
 
-                // Check if last slide OR last info/click slide
+                // Check if last slide
                 const isLastSlide = index === slides.length - 1;
-                const isLastInfoSlide = isViewingInfoSlides && !hasNextInfoSlide(index);
 
-                if (isLastSlide || isLastInfoSlide) {
+                if (isLastSlide) {
                     nextButtons.forEach(btn => btn.classList.add("hidden"));
                     if (doneButton) doneButton.classList.remove("hidden");
                 } else {
@@ -326,147 +355,38 @@
                 }
             }
 
-            // Check if there's another info/click slide with same class after current one
-            function hasNextInfoSlide(currentIndex) {
-                if (!currentInfoClass) return false;
-
-                for (let i = currentIndex + 1; i < slides.length; i++) {
-                    if (slides[i].classList.contains(currentInfoClass)) {
-                        return true;
-                    }
-                }
-                return false;
-            }
-
-            // Get info/click class from button (info-btn1 → , click-btn1 → click1)
-            function getInfoClassFromButton(button) {
-                const classList = Array.from(button.classList);
-
-                // Check for info-btn pattern
-                const infoBtnClass = classList.find(cls => cls.startsWith('info-btn'));
-                if (infoBtnClass) {
-                    const number = infoBtnClass.replace('info-btn', '');
-                    return 'info-slide' + number;
-                }
-
-                // Check for click-btn pattern
-                const clickBtnClass = classList.find(cls => cls.startsWith('click-btn'));
-                if (clickBtnClass) {
-                    const number = clickBtnClass.replace('click-btn', '');
-                    return 'click' + number;
-                }
-
-                return null;
-            }
-
-            // Info/Click button handlers
-            infoButtons.forEach((btn) => {
-                btn.addEventListener("click", (e) => {
-                    e.preventDefault(); // Prevent default anchor behavior
-
-                    parentSlideIndex = currentSlide;
-                    isViewingInfoSlides = true;
-                    currentInfoClass = getInfoClassFromButton(btn);
-
-                    // Find the first slide with matching info/click class
-                    for (let i = 0; i < slides.length; i++) {
-                        if (slides[i].classList.contains(currentInfoClass)) {
-                            currentSlide = i;
-                            showSlide(currentSlide);
-                            break;
-                        }
-                    }
-                });
-            });
-
-            // NEXT button - skip info/click slides if not viewing them
+            // NEXT button
             nextButtons.forEach((btn) => {
                 btn.addEventListener("click", () => {
                     if (currentSlide < slides.length - 1) {
                         currentSlide++;
-
-                        // Skip info/click slides if not viewing them
-                        while (!isViewingInfoSlides &&
-                            currentSlide < slides.length &&
-                            isInfoSlide(slides[currentSlide])) {
-                            currentSlide++;
-                        }
-
-                        // If viewing info/click slides, only show slides with current class
-                        if (isViewingInfoSlides) {
-                            while (currentSlide < slides.length &&
-                                !slides[currentSlide].classList.contains(currentInfoClass)) {
-                                currentSlide++;
-                            }
-                        }
-
-                        if (currentSlide < slides.length) {
-                            showSlide(currentSlide);
-                        }
+                        showSlide(currentSlide);
                     }
                 });
             });
 
-            // Check if slide is any info/click slide (info-slide1, info-slide2, click1, click2, etc.)
-            function isInfoSlide(slide) {
-                return Array.from(slide.classList).some(cls =>
-                    (cls.startsWith('info-slide') && cls.match(/^info-slide\d+$/)) ||
-                    (cls.startsWith('click') && cls.match(/^click\d+$/))
-                );
-            }
-
-            // Return button
+            // RETURN button - go to previous slide or navigate back
             returnButton.addEventListener("click", () => {
-                if (isViewingInfoSlides && currentSlide > 0) {
-                    // Check if previous slide is also same info/click class
-                    let prevSlide = currentSlide - 1;
+                // If on first slide, navigate to return route
+                if (currentSlide === 0) {
+                    window.location.href = returnRouteFromFirstSlide;
+                    return;
+                }
 
-                    // Find previous slide with same info/click class
-                    while (prevSlide >= 0 && !slides[prevSlide].classList.contains(currentInfoClass)) {
-                        prevSlide--;
-                    }
-
-                    if (prevSlide >= 0 && slides[prevSlide].classList.contains(currentInfoClass)) {
-                        currentSlide = prevSlide;
-                        showSlide(currentSlide);
-                    } else {
-                        // No more info/click slides, return to parent
-                        currentSlide = parentSlideIndex;
-                        isViewingInfoSlides = false;
-                        currentInfoClass = null;
-                        parentSlideIndex = null;
-                        showSlide(currentSlide);
-                    }
-                } else if (currentSlide > 0) {
+                if (currentSlide > 0) {
                     currentSlide--;
-
-                    // Skip info/click slides when going back
-                    while (currentSlide > 0 && isInfoSlide(slides[currentSlide])) {
-                        currentSlide--;
-                    }
-
                     showSlide(currentSlide);
                 }
             });
 
-            // DONE button handler
+            // DONE button - navigate to completion route
             if (doneButton) {
                 doneButton.addEventListener("click", () => {
-                    if (isViewingInfoSlides && parentSlideIndex !== null) {
-                        // Return to parent slide
-                        currentSlide = parentSlideIndex;
-                        isViewingInfoSlides = false;
-                        currentInfoClass = null;
-                        parentSlideIndex = null;
-                        showSlide(currentSlide);
-                    } else {
-                        // Navigate to route
-                        window.location.href = "{{ route('energy2Selection') }}";
-                    }
+                    window.location.href = doneButtonRoute;
                 });
             }
 
-            // Start with first slide
+            // Initialize - show first slide
             showSlide(currentSlide);
         });
     </script>

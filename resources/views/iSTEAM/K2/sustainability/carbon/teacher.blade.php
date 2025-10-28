@@ -2,6 +2,14 @@
 @section('title', 'Dynamic Presentation')
 
 @section('content')
+
+    {{-- title --}}
+    <h2 class="title !text-[2.9vw] top-title stroke absolute top-[5vh] z-[100]">Carbon
+        Footprint and
+        the Future of
+        Food</h2>
+
+
     {{-- sldie 1  --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
@@ -51,7 +59,8 @@
                     <span class="title stroke !text-[1.4vw]">(https://www.youtube.com/watch?v=8q7_aV8eLUE )</span>.
                 </li>
                 <li class="text-[1.3vw]">Go through the online carbon footprint calculator
-                    <span class="title stroke !text-[1.4vw]"> (https://mycarbonfootprint.spgroup.com.sg/ or your desired website)</span>
+                    <span class="title stroke !text-[1.4vw]"> (https://mycarbonfootprint.spgroup.com.sg/ or your desired
+                        website)</span>
                     to
                     know what information is needed for the demo in class.
                 </li>
@@ -64,12 +73,14 @@
                 <li class="text-[1.3vw]">Papers and drawing tools (for plotting graph)</li>
                 <li class="text-[1.3vw]">
                     Go through the video about Singapore's plan in building future farms
-                    <span class="title stroke !text-[1.4vw]"> (https://www.youtube.com/watch?v=2ueVw83Plec ) </span> know how you can
+                    <span class="title stroke !text-[1.4vw]"> (https://www.youtube.com/watch?v=2ueVw83Plec ) </span> know
+                    how you can
                     explain it to children in simple terms.
                 </li>
                 <li class="text-[1.3vw]">
                     Go through the vegan ground beef recipe and video
-                    <span class="title stroke !text-[1.4vw]"> (https://passtheplants.com/vegan-ground-beef/) </span> help you visually
+                    <span class="title stroke !text-[1.4vw]"> (https://passtheplants.com/vegan-ground-beef/) </span> help
+                    you visually
                     understand the steps of making plant-based meat in Class Activity 2.
                 </li>
             </ul>
@@ -83,7 +94,8 @@
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc">
-                <li class="text-[1.3vw]">For class activity 2, you need cauliflowers, eggplants, carrots, onion, garlic, basil,
+                <li class="text-[1.3vw]">For class activity 2, you need cauliflowers, eggplants, carrots, onion, garlic,
+                    basil,
                     crushed pumpkin seeds, cinnamon powder and cumin (refer to the vegan ground beef recipe
                     to decide the quantity needed for each ingredient).</li>
             </ul>
@@ -174,7 +186,7 @@
             returnButton.addEventListener("click", () => {
                 if (currentSlide === 0) {
                     //   First slide pe hai →  
-                    window.location.href = "{{ route('k2sustainability') }}";
+                    window.location.href = "{{ route('carbonSelection') }}";
                 } else {
                     //   Previous slide pe jao
                     currentSlide--;

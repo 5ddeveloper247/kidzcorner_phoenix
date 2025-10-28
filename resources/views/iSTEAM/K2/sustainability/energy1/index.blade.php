@@ -4,7 +4,7 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col  gap-[1vw] items-center !justify-center">
-        <div class="indexTitle  text-[55px]  stroke">energy1</div>
+        <div class="indexTitle  text-[55px]  stroke">Clean Energy 1</div>
         <h2 class=" text-white stroke ">
             Explore fingerprints; <br>
             learn to make own set of fingerprints <br>
@@ -30,8 +30,19 @@
         <!-- Home Button -->
         <button id="homeButton">
             <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+        </button>
 
         <!-- Close Button -->
+        <button id="closeButton">
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
+        </button>
+    </div>
+
+
+
+@endsection
+
+
 @push('script')
     <script>
         document.addEventListener("DOMContentLoaded", () => {

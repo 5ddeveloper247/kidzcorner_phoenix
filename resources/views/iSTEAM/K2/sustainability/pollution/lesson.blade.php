@@ -846,39 +846,45 @@
                 );
             }
 
-            // Return button
-            returnButton.addEventListener("click", () => {
-                if (isViewingInfoSlides && currentSlide > 0) {
-                    // Check if previous slide is also same info/click class
-                    let prevSlide = currentSlide - 1;
+           // Return button
+returnButton.addEventListener("click", () => {
+    // Redirect to route if on slide 1
+    if (currentSlide === 1) {
+        window.location.href = "{{ route('your-route-name') }}";
+        return;
+    }
 
-                    // Find previous slide with same info/click class
-                    while (prevSlide >= 0 && !slides[prevSlide].classList.contains(currentInfoClass)) {
-                        prevSlide--;
-                    }
+    if (isViewingInfoSlides && currentSlide > 0) {
+        // Check if previous slide is also same info/click class
+        let prevSlide = currentSlide - 1;
 
-                    if (prevSlide >= 0 && slides[prevSlide].classList.contains(currentInfoClass)) {
-                        currentSlide = prevSlide;
-                        showSlide(currentSlide);
-                    } else {
-                        // No more info/click slides, return to parent
-                        currentSlide = parentSlideIndex;
-                        isViewingInfoSlides = false;
-                        currentInfoClass = null;
-                        parentSlideIndex = null;
-                        showSlide(currentSlide);
-                    }
-                } else if (currentSlide > 0) {
-                    currentSlide--;
+        // Find previous slide with same info/click class
+        while (prevSlide >= 0 && !slides[prevSlide].classList.contains(currentInfoClass)) {
+            prevSlide--;
+        }
 
-                    // Skip info/click slides when going back
-                    while (currentSlide > 0 && isInfoSlide(slides[currentSlide])) {
-                        currentSlide--;
-                    }
+        if (prevSlide >= 0 && slides[prevSlide].classList.contains(currentInfoClass)) {
+            currentSlide = prevSlide;
+            showSlide(currentSlide);
+        } else {
+            // No more info/click slides, return to parent
+            currentSlide = parentSlideIndex;
+            isViewingInfoSlides = false;
+            currentInfoClass = null;
+            parentSlideIndex = null;
+            showSlide(currentSlide);
+        }
+    } else if (currentSlide > 0) {
+        currentSlide--;
 
-                    showSlide(currentSlide);
-                }
-            });
+        // Skip info/click slides when going back
+        while (currentSlide > 0 && isInfoSlide(slides[currentSlide])) {
+            currentSlide--;
+        }
+
+        showSlide(currentSlide);
+    }
+});;
 
             // DONE button handler
             if (doneButton) {

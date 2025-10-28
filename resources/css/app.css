@@ -81,10 +81,10 @@ button {
     cursor: pointer;
     width: 5vw !important;
 }
-#topDiv {
+/* #topDiv {
     height: 50vh !important;
     justify-content: space-between !important;
-}
+} */
 
 .note {
     font-size: 20px;
@@ -101,7 +101,7 @@ button {
 }
 
 .indexTitle {
-    color: #f7b94a;
+    color: #f7b94a; 
 }
 
 #buttons {
@@ -127,7 +127,6 @@ button {
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 3vw;
 }
 
 #topDiv div,

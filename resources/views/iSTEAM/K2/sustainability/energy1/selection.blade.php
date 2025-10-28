@@ -1,10 +1,6 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
 
-
-
-
-
 @section('content')
 
 

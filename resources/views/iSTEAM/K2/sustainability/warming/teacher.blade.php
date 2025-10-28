@@ -2,6 +2,11 @@
 @section('title', 'Dynamic Presentation')
 
 @section('content')
+
+    {{-- title --}}
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">Global Warming</h2>
+
+
     {{-- sldie 1  --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
@@ -166,7 +171,7 @@
         <div>
             <h2 class=" t-title">Notes</h2>
             <ul>
-                <li class="text-[1.2vw] flex">
+                <li class="text-[1.2vw] flex">if this icon
                     <span>
                         <img src="{{ asset('assets/images/pptimages/video.png') }}" class="!max-w-[2.5vw]" />
                     </span> next to a

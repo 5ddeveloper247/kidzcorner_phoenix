@@ -2,7 +2,8 @@
 @section('title', 'Dynamic Presentation')
 
 @section('content')
-
+  {{-- title --}}
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">Clean Energy 1</h2>
 
     {{-- Slide 1 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
@@ -103,7 +104,7 @@
             <img src="{{ asset('assets/images/K2/sustain/energy1/e3.png') }}" class="large-img6" />
         </div>
         <h2 class="title stroke text-center">How do you feel when you stand under the sun?</h2>
-        <p class="note">Note: Encourage children to share their answers.
+        <p class="note">Note: Encourage children to share their answers.</p>
     </div>
     {{-- Slide 3 --}}
     <div class="slide hidden flex flex-col items-center">
@@ -112,6 +113,7 @@
         </div>
         <h2 class="title stroke text-center">The sun gives off heat and light.</h2>
     </div>
+
     {{-- Slide 4 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <h2 class="title stroke">Children, what can the sun’s heat be used for?</h2>
@@ -146,6 +148,7 @@
         </div>
         <h2 class="title stroke text-center">A box with cover, aluminum foil, cling wrap and black paper.</h2>
     </div>
+
     {{-- pivtut --}}
     {{-- Slide 3 --}}
     <div class="slide hidden flex flex-col items-center">
@@ -193,7 +196,7 @@
             <img src="{{ asset('assets/images/K2/sustain/energy1/e0a.png') }}" />
         </div>
         <h2 class="title stroke text-center">Let's find out:
-            Create a solar oven and find out if the sun's heat 
+            Create a solar oven and find out if the sun's heat
             can cook food.</h2>
     </div>
     {{-- Slide 3 --}}
@@ -528,6 +531,12 @@
 
             // Return button
             returnButton.addEventListener("click", () => {
+                // Redirect to route if on slide 1
+                if (currentSlide === 1) {
+                    window.location.href = "{{ route('energy1Selection') }}";
+                    return;
+                }
+
                 if (isViewingInfoSlides && currentSlide > 0) {
                     // Check if previous slide is also same info/click class
                     let prevSlide = currentSlide - 1;
@@ -558,7 +567,7 @@
 
                     showSlide(currentSlide);
                 }
-            });
+            });;
 
 
             // DONE button handler

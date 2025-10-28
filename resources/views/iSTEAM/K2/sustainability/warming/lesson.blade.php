@@ -2,6 +2,8 @@
 @section('title', 'Dynamic Presentation')
 
 @section('content')
+    {{-- title --}}
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">Global Warming</h2>
 
 
     {{-- Slide 1 --}}
@@ -11,12 +13,10 @@
             <img src="{{ asset('assets/images/K2/livingthings/dna/h16.png') }}" class="w-[500px]" /> --}}
             <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s1.png') }}" class="w-[500px]" />
         </div>
-        <div class="title stroke">
 
-            <h2>Children, what do you see in the picture?</h2>
-            <p class="note">Note: Encourage children to share what they see in the picture.
-            </p>
-        </div>
+        <h2 class="title stroke">Children, what do you see in the picture?</h2>
+        <p class="note">Note: Encourage children to share what they see in the picture.
+        </p>
     </div>
 
 
@@ -83,9 +83,9 @@
     {{-- Slide 5 --}}
     <div class="slide hidden flex flex-col items-center">
         <div class="flex items-end gap-2 justify-center">
-            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s3.png') }}" />
-            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s3.png') }}" />
-            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s3.png') }}" />
+            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s3.png') }}" class="!w-[15vw]" />
+            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s3.png') }}" class="!w-[15vw]" />
+            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s3.png') }}" class="!w-[15vw]" />
         </div>
         <h2 class="title stroke text-center">The increase of greenhouse gases causes
             Earth's temperature to rise!</h2>
@@ -93,9 +93,9 @@
     {{-- Slide 5 --}}
     <div class="slide hidden flex flex-col items-center">
         <div class="flex items-end gap-2 justify-center">
-            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s3.png') }}" />
-            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s3.png') }}" />
-            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s3.png') }}" />
+            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s3.png') }}" class="!w-[15vw]" />
+            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s3.png') }}" class="!w-[15vw]" />
+            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s3.png') }}" class="!w-[15vw]" />
         </div>
         <h2 class="title stroke text-center">Carbon dioxide, methane and nitrous oxide are
             known as greenhouse gases.</h2>
@@ -191,8 +191,8 @@
 
     {{-- slide 6 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
-        <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s11.png') }}" />
-        <h2 class="title stroke text-center">Let's find out:<br>
+        <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s11.png') }}" class="w-img" />
+        <h2 class="title stroke text-start">Let's find out:<br>
             How does the temperature change when heat/air is unable to<br>
             escape from an enclosed container?</h2>
     </div>
@@ -200,7 +200,7 @@
     <div class="slide hidden flex flex-col items-center justify-start ">
         <h2 class="title stroke text-center">Let's do:<br>
             Get two thermometers and a glass jar with a lid.</h2>
-        <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s11.png') }}" />
+        <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s11.png') }}" class="w-img" />
         <p class="note">Note: Teacher to remind children to be careful when using the glass jar and glass thermometers.
         </p>
     </div>
@@ -216,31 +216,31 @@
     {{-- slide 7 --}}
     <div class="slide hidden  flex flex-col items-center">
         <h2 class="title stroke">Let's do:<br>
-            3. Poke a thermometer through the hole into the glass jar and<br>
-            cover it. Use tape to seal up any gaps to ensure that<br>
-            heat/air cannot escape from the jar. The glass jar acts as<br>
+            3. Poke a thermometer through the hole into the glass jar and
+            cover it. Use tape to seal up any gaps to ensure that
+            heat/air cannot escape from the jar. The glass jar acts as
             the greenhouse gases which prevent the heat from escaping.</h2>
-        <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s13.png') }}" />
+        <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s13.png') }}" class="w-img" />
     </div>
     {{-- slide 7 --}}
     <div class="slide hidden  flex flex-col items-center justify-start">
         <h2 class="title stroke">Let's do:<br>
-            5. The thermometer outside the glass jar will measure the<br>
-            temperature of the environment.<br>
-            6. The thermometer inside the glass jar will measure the<br>
-            temperature of the air being trapped, just like how the<br>
-            greenhouse gases were trapped in the atmosphere.</h2><br><br><br>
+            5. The thermometer outside the glass jar will measure the
+            temperature of the environment.
+            6. The thermometer inside the glass jar will measure the
+            temperature of the air being trapped, just like how the
+            greenhouse gases were trapped in the atmosphere.</h2>
         <p class="text-center note">Note: Teacher to help to read out the temperature on each thermometer.</p>
     </div>
     {{-- slide 7 --}}
     <div class="slide hidden  flex flex-col items-center">
         <h2 class="title stroke">Let's do:<br>
-            7. After setting up, record the temperature readings of both<br>
-            thermometers in the learning journal.<br>
+            7. After setting up, record the temperature readings of both
+            thermometers in the learning journal.
             8. Wait 5 minutes and 10 minutes later to record the second
-            and third readings.<br>
+            and third readings.
             9. As a class, discuss the observations.
-        </h2><br>
+        </h2>
         <p class="note">Note: Teacher to ask questions to guide them in concluding their findings.</p>
     </div>
     {{-- slide 7 --}}
@@ -311,8 +311,8 @@
     {{-- slide 7 --}}
     <div class="slide hidden flex flex-col items-center">
         <h2 class="title stroke text-center">Let's do:<br>
-            2. Fill the other side of the container with water, <br>to represent
-            the sea.<br>
+            2. Fill the other side of the container with water, to represent
+            the sea. <br>
             3. Place a block of ice on top of the land. Explain that this is
             glacier, where the top part of the land is ice.</h2>
         <div class="flex items-end gap-1 justify-center">
@@ -578,6 +578,12 @@
 
             // Return button
             returnButton.addEventListener("click", () => {
+                // Redirect to route if on slide 1
+                if (currentSlide === 1) {
+                    window.location.href = "{{ route('warmingSelection') }}";
+                    return;
+                }
+
                 if (isViewingInfoSlides && currentSlide > 0) {
                     // Check if previous slide is also same info/click class
                     let prevSlide = currentSlide - 1;
@@ -608,7 +614,7 @@
 
                     showSlide(currentSlide);
                 }
-            });
+            });;
 
             // DONE button handler
             if (doneButton) {

@@ -2,6 +2,10 @@
 @section('title', 'Dynamic Presentation')
 
 @section('content')
+    {{-- title --}}
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">Clean Energy 1</h2>
+
+
     {{-- sldie 1  --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start text-start">
         <div>
@@ -49,7 +53,8 @@
                     Use food items that are easy to see the changes when heated. Example: chocolate, marshmallow, cheese.
                     These items will melt.
                 </li>
-                <li class="text-[1.3vw]">You may do this experiment twice with other food choices such as egg or bread. If it doesn't cook, you
+                <li class="text-[1.3vw]">You may do this experiment twice with other food choices such as egg or bread. If
+                    it doesn't cook, you
                     can explain<br>
                     that the DIY solar oven doesn't heat up enough to cook such food.</li>
                 <li class="text-[1.3vw]">
@@ -149,7 +154,8 @@
             <h2 class="note">Things to note for Class Activity 2</h2>
             <ul>
                 <li class="text-[1.3vw]">Purchase a solar-powered light or toy.</li>
-                <li class="text-[1.3vw]">This activity needs to be conducted on a sunny day. Alternatively, you can use light bulbs but
+                <li class="text-[1.3vw]">This activity needs to be conducted on a sunny day. Alternatively, you can use
+                    light bulbs but
                     it may not work with all types of solar-powered light/toy.</li>
             </ul>
         </div>
@@ -160,9 +166,9 @@
     <div class=" slide flex text-2xl text-white flex-col items-center justify-start text-start">
         <h2 class="font-bold t-title">Notes:</h2>
         <ul>
-            <li class="text-[1.3vw] flex">If you see 
+            <li class="text-[1.3vw] flex">If you see
                 <span>
-                    <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s27.png') }}" class="!max-w-[2.5vw]" /> 
+                    <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s27.png') }}" class="!max-w-[2.5vw]" />
                 </span>
                 next to a picture,
                 click on the picture to watch the video

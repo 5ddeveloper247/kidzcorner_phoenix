@@ -2,7 +2,11 @@
 @section('title', 'Dynamic Presentation')
 
 @section('content')
-
+    {{-- title --}}
+    <h2 class="title !text-[2.9vw] top-title stroke absolute top-[5vh] z-[100]">Carbon
+        Footprint and
+        the Future of
+        Food</h2>
 
     {{-- Slide 1 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
@@ -89,7 +93,7 @@
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <h2 class="title stroke">Let's watch a video to help us understand more about
             “”carbon footprint".</h2>
-        <h2 class="title stroke">https://www.youtube.com/watch?v=8q7_aV8eLUE </h2> 
+        <h2 class="title stroke">https://www.youtube.com/watch?v=8q7_aV8eLUE </h2>
 
         <p class="text-center note">Note: Invite children to watch the video and then talk about what carbon footprint is.
             You may replay and pause the video as needed during the discussion.</p>
@@ -107,7 +111,7 @@
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <h2 class="title stroke">Let's see how a person's carbon footprint is calculated at the
             following website!</h2>
-        <h2 class="title stroke">https://mycarbonfootprint.spgroup.com.sg/ </h2> 
+        <h2 class="title stroke">https://mycarbonfootprint.spgroup.com.sg/ </h2>
 
         <p class="text-center note">Note: Youmay use your own or a mock-up household information for this demo.
             Explain to children that nowadays there are many carbon footprint calculators online;
@@ -155,7 +159,7 @@
         <h2 class="title stroke text-center">As a suggestion, you can reduce your carbon footprint by
             <span class="text-white"> energy and natural resources </span>
             in any way possible.
-        </h2> 
+        </h2>
         <p class="note">Note: For the following pages, guide children to discuss and understand how each
             example/action/habit
             reduces our carbon footprint.</p>
@@ -182,8 +186,8 @@
     {{-- Slide 3 --}}
     <div class="slide hidden  flex flex-col items-center">
         <div class="flex gap-2 items-center">
-            <img src="{{ asset('assets/images/K2/sustain/carbon/c7a.png') }}" />
-            <img src="{{ asset('assets/images/K2/sustain/carbon/c7b.png') }}" />
+            <img src="{{ asset('assets/images/K2/sustain/carbon/c7a.png') }}" class="!w-[18vw]" />
+            <img src="{{ asset('assets/images/K2/sustain/carbon/c7b.png') }}" class="!w-[18vw]" />
         </div>
         <h2 class="title stroke text-center">Use energy-efficient lights and electronics to conserve energy
             and thus reduce your carbon footprint.</h2>
@@ -300,8 +304,8 @@
         </div>
         <h2 class="title stroke text-center">So in the years to come, people must look for alternative ways
             to grow and produce food.</h2>
-        <p class="note">Note: Guide children to view and understand this video <span class="title stroke">
-                //www.youtube.com/watch?v=2ueVw83Plec)</span>.</p>
+        <p class="note">Note: Guide children to view and understand this video <span class="text-[#F7B94A] stroke">
+               <a href="//www.youtube.com/watch?v=2ueVw83Plec"> //www.youtube.com/watch?v=2ueVw83Plec)</a></span>.</p>
     </div>
     {{-- Slide 3 --}}
     <div class="slide hidden  flex flex-col items-center">
@@ -598,6 +602,12 @@
 
             // Return button
             returnButton.addEventListener("click", () => {
+                // Redirect to route if on slide 1
+                if (currentSlide === 1) {
+                    window.location.href = "{{ route('carbonSelection') }}";
+                    return;
+                }
+
                 if (isViewingInfoSlides && currentSlide > 0) {
                     // Check if previous slide is also same info/click class
                     let prevSlide = currentSlide - 1;
@@ -628,7 +638,7 @@
 
                     showSlide(currentSlide);
                 }
-            });
+            });;
 
             // DONE button handler
             if (doneButton) {

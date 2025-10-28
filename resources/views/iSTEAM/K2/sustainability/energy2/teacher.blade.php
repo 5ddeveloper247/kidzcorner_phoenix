@@ -2,6 +2,10 @@
 @section('title', 'Dynamic Presentation')
 
 @section('content')
+
+    {{-- title --}}
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">Clean Energy 2</h2>
+
     {{-- sldie 1  --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
@@ -43,7 +47,8 @@
                 <li class="text-[1.3vw]">
                     You can bring children outdoors for the activity.
                 </li>
-                <li class="text-[1.3vw]">If the wind is not strong enough, you may get children to think of ways to generate wind or find a
+                <li class="text-[1.3vw]">If the wind is not strong enough, you may get children to think of ways to generate
+                    wind or find a
                     source for wind (eg. they can blow at it or use a hair dryer)
                 </li>
             </ul>
@@ -79,10 +84,10 @@
         <div>
             <h2 class="font-bold t-title">Notes:</h2>
             <ul>
-                <li class="text-[1.3vw] flex">If you see 
+                <li class="text-[1.3vw] flex">If you see
                     <span>
                         <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s27.png') }}" class="!max-w-[2.5vw]" />
-                    </span> 
+                    </span>
                     next to a
                     picture, click on the picture to watch the video
                     Always ask questions to encourage children to think and share their ideas first
@@ -113,7 +118,7 @@
     {{-- sldie 3 --}}
     <div class=" slide flex text-2xl text-white flex-col items-center justify-center gap-y-10 text-start">
         <div>
-            <h2 class="title stroke justify-center">Learning Centre Idea</h2> 
+            <h2 class="title stroke justify-center">Learning Centre Idea</h2>
             <h2 class="font-bold t-title">Create A Windmill</h2>
             <p class="note">What and how to set up:
                 Place art materials for children to use to create their own windmills.
@@ -212,7 +217,7 @@
             returnButton.addEventListener("click", () => {
                 if (currentSlide === 0) {
                     //   First slide pe hai →  
-                    window.location.href = "{{ route('k2sustainability') }}";
+                    window.location.href = "{{ route('energy2Selection') }}";
                 } else {
                     //   Previous slide pe jao
                     currentSlide--;
