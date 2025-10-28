@@ -4,7 +4,7 @@
 
 
 @section('content')
- {{-- title --}}
+    {{-- title --}}
     <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">Back Light</h2>
 
     {{-- slide 0 --}}
@@ -19,8 +19,7 @@
         <div class="flex flex-col items-center justify-center">
             <h2 class="title stroke">These toys store light energy and glow when
                 they are in a dark palce.</h2>
-            <img src="{{ asset('assets/images/pptimages/dark2.png') }}"
-                class="large-img2" />
+            <img src="{{ asset('assets/images/pptimages/dark2.png') }}" class="large-img2" />
         </div>
         <p class="note">Note: Encourage children to recap what they did previously.</p>
     </div>
@@ -43,8 +42,7 @@
     <div class="flex flex-col justify-center slide hidden">
         <div class="flex flex-col items-center justify-center">
             <h2 class="title !text-white">CLASS ACTIVITY 1</h2>
-            <img src="{{ asset('assets/images/pptimages/bl1.png') }}"
-                class="large-img2" />
+            <img src="{{ asset('assets/images/pptimages/bl1.png') }}" class="large-img2" />
         </div>
         <div class="flex items-start">
             <h2 class="title stroke text-start">Let's try:<br> Will the neon coloured items glow in the dark?
@@ -106,8 +104,7 @@
     <div class="flex flex-col justify-center slide hidden">
         <div class="flex flex-col items-center justify-center">
             <h2 class="title !text-white">CLASS ACTIVITY 2</h2>
-            <img src="{{ asset('assets/images/pptimages/bl5.png') }}"
-                class="large-img2" />
+            <img src="{{ asset('assets/images/pptimages/bl5.png') }}" class="large-img2" />
         </div>
         <div class="flex items-start">
             <h2 class="title stroke text-start">Let's try:<br> Make a black light flashlight.</h2>
@@ -150,16 +147,14 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="title stroke">Look at these Halloween crafts! Neon
             coloured materials are often used for Halloween crafts.</h2>
-        <img src="{{ asset('assets/images/pptimages/bl6.png') }}"
-            class="large-img2" />
+        <img src="{{ asset('assets/images/pptimages/bl6.png') }}" class="large-img2" />
     </div>
 
     {{-- slide 14 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="title stroke">Black light are often used during Halloween!
             The lights make the Halloween decorations glow brightly.</h2>
-        <img src="{{ asset('assets/images/pptimages/bl7.png') }}"
-            class="large-img2" />
+        <img src="{{ asset('assets/images/pptimages/bl7.png') }}" class="large-img2" />
     </div>
 
 
@@ -168,8 +163,7 @@
     <div class="flex flex-col justify-center slide hidden">
         <div class="flex flex-col items-center justify-center">
             <h2 class="title !text-white">CLASS ACTIVITY 2</h2>
-            <img src="{{ asset('assets/images/pptimages/bl6.png') }}"
-                class="large-img2" />
+            <img src="{{ asset('assets/images/pptimages/bl6.png') }}" class="large-img2" />
         </div>
         <div class="flex items-start">
             <h2 class="title stroke text-start">Let's try:<br>Prepare for Halloweeen</h2>
@@ -216,8 +210,7 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="title stroke">Black light helps neon colour items
             glow in the dark.</h2>
-        <img src="{{ asset('assets/images/pptimages/bl4.png') }}"
-            class="large-img2" />
+        <img src="{{ asset('assets/images/pptimages/bl4.png') }}" class="large-img2" />
     </div>
 
 

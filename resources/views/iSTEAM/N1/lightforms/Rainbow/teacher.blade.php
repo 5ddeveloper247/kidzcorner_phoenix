@@ -2,6 +2,10 @@
 @section('title', 'Dynamic Presentation')
 
 @section('content')
+
+    {{-- title --}}
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">Rainbows</h2>
+
     {{-- slide 1 --}}
     <div class="flex flex-col text-start text-2xl text-white slide hidden t-slide">
         <div>
@@ -13,32 +17,31 @@
                 <li>Develop observation and understanding through hands-on activities</li>
             </ul>
         </div>
-        <div class="flex w-[100%] justify-between">
-            <div>
-                <h2 class="t-title">Keywords:</h2>
-                <div class="flex items-center gap-x-10">
-                    <ul class="list-disc">
-                        <li>Rainbow</li>
-                        <li>Orange</li>
-                        <li>Indigo</li>
-                        <li>Light</li>
-                        <li>Yellow</li>
-                        <li>Violet</li>
-                        <li>White</li>
-                        <li>Green</li>
-                    </ul>
-                    <ul class="list-disc">
-                        <li>Disc</li>
-                        <li>Colours</li>
-                        <li>Blue</li>
-                        <li>Flashlight</li>
-                        <li>Red</li>
-                    </ul>
-                </div>
+        <div>
+            <h2 class="t-title">Keywords:</h2>
+            <div class="flex items-center gap-x-10">
+                <ul class="list-disc">
+                    <li>Rainbow</li>
+                    <li>Orange</li>
+                    <li>Indigo</li>
+                    <li>Light</li>
+                    <li>Yellow</li>
+                    <li>Violet</li>
+                    <li>White</li>
+                    <li>Green</li>
+                </ul>
+                <ul class="list-disc">
+                    <li>Disc</li>
+                    <li>Colours</li>
+                    <li>Blue</li>
+                    <li>Flashlight</li>
+                    <li>Red</li>
+                </ul>
             </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="" />
         </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="" />
     </div>
+
 
     {{-- slide 2 --}}
     <div class="text-white  flex flex-col text-start text-2xl slide hidden t-slide">
@@ -74,8 +77,8 @@
             </ul>
         </div>
         <img src="{{ asset('assets/ images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
-
     </div>
+
 
     {{-- slide 3 --}}
     <div class="text-white  flex  gap-y-30 flex-col text-start text-2xl slide hidden t-slide">
@@ -100,41 +103,42 @@
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
     </div>
+    
 
     {{-- slide 4 --}}
     <div class="slide flex t-slide  flex-col  text-2xl text-start text-white">
-            <div>
-                <h2 class="t-title">Notes:</h2>
-                <ul class="list-disc">
-                    <li class="flex">
-                        If you see
-                        <span class="info-btn">
+        <div>
+            <h2 class="t-title">Notes:</h2>
+            <ul class="list-disc">
+                <li class="flex">
+                    If you see
+                    <span class="info-btn">
 
-                            <img src="{{ asset('assets/images/pptimages/video.png') }}" />
-                        </span>
-                        next to a picture, click on the picture to watch the video.
-                    </li>
-                    <li class="flex">
-                        If you see
-                        <span> <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="video-btn" />
-                        </span>
-                        , click on it for additional information or activity.
-                    </li>
-                    <li>Always ask questions to encourage children to think and share their ideas first before giving
-                        out
-                        any information.</li>
-                    <li>Emphasise and use the <strong>keywords</strong> during hands-on sessions.</li>
-                    <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
-                    </li>
-                    <li class="flex">
-                        Click on this shortcut icon
-                        <span> <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" class="home-btn" />
-                        </span>
-                        if you need to go to some parts of the lesson quickly.
-                    </li>
-                </ul>
-            </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
+                        <img src="{{ asset('assets/images/pptimages/video.png') }}" />
+                    </span>
+                    next to a picture, click on the picture to watch the video.
+                </li>
+                <li class="flex">
+                    If you see
+                    <span> <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="video-btn" />
+                    </span>
+                    , click on it for additional information or activity.
+                </li>
+                <li>Always ask questions to encourage children to think and share their ideas first before giving
+                    out
+                    any information.</li>
+                <li>Emphasise and use the <strong>keywords</strong> during hands-on sessions.</li>
+                <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
+                </li>
+                <li class="flex">
+                    Click on this shortcut icon
+                    <span> <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" class="home-btn" />
+                    </span>
+                    if you need to go to some parts of the lesson quickly.
+                </li>
+            </ul>
+        </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
@@ -142,8 +146,8 @@
     <div class="text-white flex text-start flex-col text-2xl slide hidden t-slide">
         <h1 class="title text-center stroke">Learning Center Idea</h1>
         <div>
-            <h2 class=" t-title">Colours on the Rainbow</h2>
-            <h2>What and how to setup:</h2>
+            <h2 class="!text-white title stroke">Colours on the Rainbow</h2>
+            <h2 class="t-title">What and how to setup:</h2>
             <p>Provide materials such as cubes, pom pom balls, manipulative toys and
                 printed template of a rainbow in black and white.</p>
         </div>
@@ -167,8 +171,8 @@
     <div class="text-white flex text-start flex-col text-2xl slide hidden t-slide">
         <h1 class="title text-center stroke">Learning Center Idea</h1>
         <div>
-            <h2 class=" t-title">My Rainbow</h2>
-            <h2>What and how to setup:</h2>
+            <h2 class="!text-white title stroke">My Rainbow</h2>
+            <h2 class="t-title">What and how to setup:</h2>
             <p>Put bottles of water in transparent containers (tightly sealed), disc
                 and flashlights.</p>
         </div>

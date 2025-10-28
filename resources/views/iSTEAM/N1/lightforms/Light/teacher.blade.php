@@ -2,8 +2,12 @@
 @section('title', 'Dynamic Presentation')
 
 @section('content')
-    {{-- sldie 23  --}}
-    <div class="slide  flex  text-white flex-col justify-start t-slide  text-start">
+    {{-- title --}}
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">What is Light</h2>
+
+
+    {{-- slide 1  --}}
+    <div class="slide  flex  text-white flex-col justify-start t-slide !gap-y-[3vw]  text-start">
         <div>
             <h2 class="t-title ">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -32,7 +36,7 @@
 
 
 
-    {{-- slide 24 --}}
+    {{-- slide 2 --}}
     <div class=" slide flex  text-white flex-col justify-start t-slide  text-start ">
         <div>
             <h2 class="t-title ">Preparations for Class Activity I:</h2>
@@ -70,7 +74,7 @@
         </div>
     </div>
 
-    {{-- slide 25 --}}
+    {{-- slide 3 --}}
     <div class="slide t-slide text-start text-white">
         <div>
             <h2 class="t-title ">Notes:</h2>
@@ -119,6 +123,8 @@
 
     {{--  slide 26 --}}
     <div class=" slide text-white flex flex-col justify-start t-slide text-start ">
+        <h2 class="title stroke text-center">Learning Centre Idea </h2>
+
         <h1 class=" t-title ">Let’s sort!</h1>
         <div>
             <h2 class=" t-title ">Preparations for Class Activity I:</h2>

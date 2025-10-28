@@ -2,34 +2,35 @@
 @section('title', 'Dynamic Presentation')
 
 @section('content')
+    {{-- title --}}
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">Shapes Around Us</h2>
+
     {{-- slide 1 --}}
     <div class="flex flex-col justify-start  text-start text-2xl text-white slide hidden t-slide">
         <div>
-            <h2 class="t-title >Children will be able to:</h2>
+            <h2 class="t-title">Children will be able to:</h2>
             <ul class="list-disc">
                 <li>Develop awareness that all things have shapes and structures</li>
                 <li>Explore and create structures using shapes</li>
                 <li>Learn more about the term 'two-dimensional' and 'three-dimensional'</li>
                 <li>Develop fine motor and eye-hand coordination skills</li>
                 <li>Develop understanding through hands-on activity</li>
-                </ul>
+            </ul>
         </div>
-        <div class="flex w-[100%] justify-between">
-            <div>
-                <h2 class="t-title >Keywords:</h2>
-                <div class="flex items-center gap-x-10">
-                    <ul class="list-disc">
-                        <li>Shapes</li>
-                        <li>Square</li>
-                        <li>Triangle</li>
-                        <li>Flat</li>
-                        <li>Structures</li>
-                    </ul>
+        <div>
+            <h2 class="t-title">Keywords:</h2>
+            <div class="flex items-center gap-x-10">
+                <ul class="list-disc">
+                    <li>Shapes</li>
+                    <li>Square</li>
+                    <li>Triangle</li>
+                    <li>Flat</li>
+                    <li>Structures</li>
+                </ul>
             </div>
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
     </div>
-
 
 
     {{-- slide 2 --}}
@@ -102,24 +103,23 @@
     <div class="text-white flex  flex-col justify-start  text-start text-2xl slide hidden t-slide">
         <h1 class="title  text-center stroke">Learning Centre Idea</h1>
         <div>
-            <h2 class="t-title">Creating Structures</h2>
+            <h2 class="!text-white stroke title">Creating Structures</h2>
             <h2 class="t-title">What and how to set up:</h2>
             <p>Place pictures of various structures of three dimensional shapes such
-                as pyramid, cube, cuboids and other 3D polygons. Provide picture guide of what shapes does each polygon need
+                as pyramid, cube, cuboids and other 3D polygons. Provide picture guide of what shapes does each polygon
+                need
                 and how to create them.</p>
         </div>
-        <div class="flex w-[100%] items-center justify-between">
-            <div>
-                <h2 class="t-title">What to do:</h2>
-                <ul class="mt-2 list-decimal space-y-1 pl-6">
-                    <li>Invite children to pick up a picture of a polygon.</li>
-                    <li>Encourage children to gather materials to form the shapes.</li>
-                    <li>Children can use the picture as a guide to form the 3D structures.</li>
+        <div>
+            <h2 class="t-title">What to do:</h2>
+            <ul class="mt-2 list-decimal space-y-1 pl-6">
+                <li>Invite children to pick up a picture of a polygon.</li>
+                <li>Encourage children to gather materials to form the shapes.</li>
+                <li>Children can use the picture as a guide to form the 3D structures.</li>
 
-                </ul>
-            </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
+            </ul>
         </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
     </div>
 
 

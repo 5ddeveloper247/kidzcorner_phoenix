@@ -5,7 +5,7 @@
 
     {{-- title --}}
     <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">Light and Shadow</h2>
-    
+
     {{-- slide 1 --}}
     <div class="slide flex flex-col items-center justify-center">
         <h2 class="title stroke">Have you ever noticed a black shape near your
@@ -303,8 +303,8 @@
         </div>
         <img src="{{ asset('assets/images/pptimages/shadow2.png') }}" />
 
-        <h2 class="stroke title">This song tells you what you have learned about <span
-                class="text-white">shadows.</span></h2>
+        <h2 class="stroke title">This song tells you what you have learned about <span class="text-white">shadows.</span>
+        </h2>
         <p class="note text-ellipsis">Note: Encourage children to sing along. Refer</p>
     </div>
 

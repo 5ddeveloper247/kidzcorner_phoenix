@@ -2,6 +2,11 @@
 @section('title', 'Dynamic Presentation')
 
 @section('content')
+
+    {{-- title --}}
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">Shapes and Structures</h2>
+
+
     {{-- slide 1 --}}
     <div class="flex flex-col justify-start  text-start text-2xl text-white slide hidden t-slide">
         <div>
@@ -13,21 +18,19 @@
                 <li>Develop understanding through hands-on activities</li>
             </ul>
         </div>
-        <div class="flex w-[100%] justify-between">
+        <div>
+            <h2 class="t-title ">Keywords:</h2>
             <div>
-                <h2 class="t-title ">Keywords:</h2>
-                <div>
-                    <ul class="list-disc">
-                        <li>Shapes</li>
-                        <li>Square</li>
-                        <li>Structure</li>
-                        <li>Triangle</li>
-                        <li>Lines</li>
-                    </ul>
-                </div>
+                <ul class="list-disc">
+                    <li>Shapes</li>
+                    <li>Square</li>
+                    <li>Structure</li>
+                    <li>Triangle</li>
+                    <li>Lines</li>
+                </ul>
             </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
         </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
     </div>
 
 
@@ -92,23 +95,21 @@
 
     {{-- slide 4 --}}
     <div class="text-white flex  flex-col justify-start  text-start text-2xl slide hidden t-slide">
-        <h1 class="title  text-center">Learning Centre Idea</h1>
+        <h1 class="title stroke  text-center">Learning Centre Idea</h1>
         <div>
-            <h2 class="t-title">Let's Create!</h2>
+            <h2 class="!text-white stroke title">Let's Create!</h2>
             <h2 class="t-title">What and how to set up:</h2>
             <p>Place the templates of the shape images with the magnetic tiles. Display more examples of shapes images and
                 encourage children to create the images too.</p>
         </div>
-        <div class="flex w-[100%] items-center justify-between">
-            <div>
-                <h2 class="t-title">What to do:</h2>
-                <ul class="mt-2 list-decimal space-y-1 pl-6">
-                    <li>Invite children to work on the magnetic tiles to create the images as seen in the templates </li>
-                    <li> Encourage children to create images on their own too!</li>
-                </ul>
-            </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
+        <div>
+            <h2 class="t-title">What to do:</h2>
+            <ul class="mt-2 list-decimal space-y-1 pl-6">
+                <li>Invite children to work on the magnetic tiles to create the images as seen in the templates </li>
+                <li> Encourage children to create images on their own too!</li>
+            </ul>
         </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
     </div>
 
 

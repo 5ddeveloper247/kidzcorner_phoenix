@@ -37,7 +37,7 @@
     {{-- slide 2 --}}
     <div class=" slide flex text-2xl text-white flex-col t-slide justify-start text-start">
         <div>
-            <h2 class=" t-title t-title">Preparations:</h2>
+            <h2 class=" title stroke !text-white">Preparations:</h2>
             <ul class="list-disc ">
                 <li>Each group a measuring car (from the last lesson)</li>
             </ul>
@@ -51,7 +51,7 @@
     {{-- slide 3 --}}
     <div class=" slide flex text-2xl text-white flex-col t-slide justify-start text-start">
         <div>
-            <h2 class=" t-title t-title">What you need to do before the lesson:</h2>
+            <h2 class=" title stroke !text-white">What you need to do before the lesson:</h2>
             <ul class="list-disc ">
                 <li> A height adjustable inclined plane for all children or each group (set up with any
                     suitable items; can form with a board or plank and 3 boxes of same heights)

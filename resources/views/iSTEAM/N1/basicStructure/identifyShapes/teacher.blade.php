@@ -3,6 +3,10 @@
 
 
 @section('content')
+
+    {{-- title --}}
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">Identifying Shapes</h2>
+
     {{-- slide 1 --}}
     <div class="flex flex-col justify-start  text-start text-2xl text-white slide hidden t-slide">
         <div>
@@ -13,7 +17,7 @@
                 <li>Learn that shapes can be formed using curved and straight lines</li>
                 <li>Develop fine motor and eye-hand coordination skills</li>
                 <li>Develop understanding through hands-on activity</li>
-                </ul>
+            </ul>
         </div>
         <div class="flex w-[100%] justify-between">
             <div>
@@ -85,7 +89,7 @@
 
     {{-- slide 4 --}}
     <div class="text-white flex  flex-col justify-start  text-start text-2xl slide hidden t-slide">
-        <h1 class="title  text-center">Learning Centre Idea</h1>
+        <h1 class="title stroke  text-center">Learning Centre Idea</h1>
         <div>
             <h2 class="t-title">Sort And Match</h2>
             <h2 class="t-title">What and how to set up:</h2>

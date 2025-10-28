@@ -2,12 +2,14 @@
 @section('title', 'Dynamic Presentation')
 
 @section('content')
+    {{-- title --}}
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">Light and Shadow</h2>
 
     <!-- Slide 30 -->
     <div class="slide t-slide hidden flex flex-col justify-start text-start text-white">
         <div>
             <!-- Learning Outcomes -->
-            <h2 class=" t-title  t-title ">Children will be able to:</h2>
+            <h2 class="  t-title">Children will be able to:</h2>
             <ul class="list-disc">
                 <li>Understand how shadows are made</li>
                 <li>Explore how the position of light sources affect the shadows</li>
@@ -15,30 +17,28 @@
                 <li>Develop interpersonal skills</li>
             </ul>
         </div>
-        <div class="flex items-center justify-between">
-            <div>
-                <!-- Keywords -->
-                <h2 class=" t-title  t-title ">Keywords:</h2>
-                <div class="flex items-center gap-x-10">
-                    <ul class="list-disc">
-                        <li>Black</li>
-                        <li>Long</li>
-                        <li>Near</li>
-                        <li>Shadow</li>
-                        <li>Short</li>
-                        <li>Far</li>
-                        <li>Block</li>
-                    </ul>
-                    <ul class="list-disc">
-                        <li>Flashlight</li>
-                        <li>Tall</li>
-                        <li>Light</li>
-                        <li>Big</li>
-                        <li>LOW</li>
-                        <li>Small</li>
-                        <li>High</li>
-                    </ul>
-                </div>
+        <div>
+            <!-- Keywords -->
+            <h2 class="  t-title">Keywords:</h2>
+            <div class="flex items-center gap-x-[2vw]">
+                <ul class="list-disc">
+                    <li>Black</li>
+                    <li>Long</li>
+                    <li>Near</li>
+                    <li>Shadow</li>
+                    <li>Short</li>
+                    <li>Far</li>
+                    <li>Block</li>
+                </ul>
+                <ul class="list-disc">
+                    <li>Flashlight</li>
+                    <li>Tall</li>
+                    <li>Light</li>
+                    <li>Big</li>
+                    <li>LOW</li>
+                    <li>Small</li>
+                    <li>High</li>
+                </ul>
             </div>
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="" />
@@ -48,7 +48,7 @@
     <div class="slide t-slide hidden flex flex-col justify-start  text-start text-white">
         <div>
             <!-- Preparations -->
-            <h2 class=" t-title  t-title ">Preparations for Class Activity I:</h2>
+            <h2 class="  t-title ">Preparations for Class Activity I:</h2>
             <ul class="list-disc">
                 <li>Need to have a flashlight and a space to work with the activities.</li>
                 <li>Ensure enough space for children to try out their hand shadows.</li>
@@ -59,7 +59,7 @@
         <div class="flex w-[100%] items-center justify-between">
             <div>
                 <!-- Links to Songs -->
-                <h2 class=" t-title  t-title ">Preparations for Class Activity 2:</h2>
+                <h2 class="  t-title ">Preparations for Class Activity 2:</h2>
                 <ul class="list-disc">
                     <li>
                         <ul class="list-disc space-y-1">
@@ -119,7 +119,7 @@
                     <span>
                         <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" class="home-btn" />
                     </span>
-                    ,if you need to go to  the lesson quickly.
+                    ,if you need to go to the lesson quickly.
                 </li>
             </ul>
         </div>
@@ -132,19 +132,19 @@
         <h2 class="  title text-center stroke">Learning Center Idea</h2>
         <div>
             <!-- Preparations -->
-            <h2 class=" t-title  t-title ">Matching shadow</h2>
+            <h2 class=" !text-white title stroke">Matching shadow</h2>
             <h2 class="t-title">What and how to setup:</h2>
             <p>Prepare some flashlights and some toys such as cars, dinosaurs, animal figurines etc. Print out shadows of
                 the objects for children to match. The shadows can be taller/bigger/smaller/shorter, depending on how the
                 light was positioned.</p>
         </div>
         <div>
-                <!-- What to do -->
-                <h2 class=" t-title  t-title ">What to do:</h2>
-                <ul class="mt-2 list-decimal space-y-1 pl-6">
-                    <li>Invite children to pick up a picture and find the item that will cast the shadow.</li>
-                    <li>Ask children to use the lights to create the same shadow.</li>
-                </ul>
+            <!-- What to do -->
+            <h2 class="t-title ">What to do:</h2>
+            <ul class="mt-2 list-decimal space-y-1 pl-6">
+                <li>Invite children to pick up a picture and find the item that will cast the shadow.</li>
+                <li>Ask children to use the lights to create the same shadow.</li>
+            </ul>
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="" />
     </div>

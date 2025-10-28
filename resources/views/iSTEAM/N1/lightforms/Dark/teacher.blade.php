@@ -3,6 +3,10 @@
 
 @section('content')
 
+    {{-- title --}}
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">Glow in the Dark</h2>
+
+
     {{-- slide 1 --}}
     <div class="flex flex-col justify-start  text-start text-2xl text-white slide hidden t-slide">
         <div>
@@ -14,28 +18,26 @@
                 <li>Develop observation and understanding through hands-on activities</li>
             </ul>
         </div>
-        <div class="flex w-[100%] justify-between">
-            <div>
-                <h2 class="t-title  t-title">Keywords:</h2>
-                <div class="flex items-center gap-x-10">
-                    <ul class="list-disc">
-                        <li>Glow-in-the-dark</li>
-                        <li>Store</li>
-                        <li>Light Energy</li>
-                        <li>Bright / Brightly</li>
-                        <li>Dark</li>
-                        <li>Glow</li>
-                    </ul>
-                </div>
+        <div>
+            <h2 class="t-title  t-title">Keywords:</h2>
+            <div class="flex items-center gap-x-10">
+                <ul class="list-disc">
+                    <li>Glow-in-the-dark</li>
+                    <li>Store</li>
+                    <li>Light Energy</li>
+                    <li>Bright / Brightly</li>
+                    <li>Dark</li>
+                    <li>Glow</li>
+                </ul>
             </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
         </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
     </div>
 
     {{-- slide 2 --}}
     <div class="text-white flex text-start text-2xl slide hidden t-slide">
         <div>
-            <h2 class=" t-title t-title">Preparations for Class Activity I:</h2>
+            <h2 class="t-title">Preparations for Class Activity I:</h2>
             <ul class="list-disc">
                 <li>Teachers need prepare a black box for children to use.</li>
                 <li>Suggested items for glow in the dark - stickers, stars, toy figurines or clock with the glow-in-the-dark
@@ -46,7 +48,7 @@
             </ul>
             <br>
             </ul>
-            <h2 class=" t-title t-title">Preparations for Class Activity II:</h2>
+            <h2 class="t-title">Preparations for Class Activity II:</h2>
             <ul class="list-disc">
                 <li>Collect plastic transparent jars or bottles to make this glow jar/bottle.</li>
                 <li>Provide glow-in-the-dark stickers, figurines, stars or other toys.</li>
@@ -98,21 +100,19 @@
     <div class="text-white flex  flex-col justify-start  text-start text-2xl slide hidden t-slide">
         <h1 class="title  text-center stroke">Learning Centre Idea</h1>
         <div>
-            <h2 class=" t-title t-title">Glow in the box</h2>
+            <h2 class=" title stroke !text-white">Glow in the box</h2>
             <h2 class="t-title">What and how to set up:</h2>
             <p>Provide materials such as black box, cubes, pom pom balls, manipulative
                 toys and other glow-in-dark toys and materials</p>
         </div>
-        <div class="flex w-[100%] items-center justify-between">
-            <div>
-                <h2 class=" t-title t-title">What to do:</h2>
-                <ul class="mt-2 list-decimal space-y-1 pl-6">
-                    <li> Invite children to explore with the materials provided</li>
-                    <li> Put a toy in the black box and see if it glows in the dark.</li>
-                </ul>
-            </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
+        <div>
+            <h2 class=" t-title">What to do:</h2>
+            <ul class="mt-2 list-decimal space-y-1 pl-6">
+                <li> Invite children to explore with the materials provided</li>
+                <li> Put a toy in the black box and see if it glows in the dark.</li>
+            </ul>
         </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
     </div>
 
 

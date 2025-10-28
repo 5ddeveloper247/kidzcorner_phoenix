@@ -2,36 +2,39 @@
 @section('title', 'Dynamic Presentation')
 
 @section('content')
+
+    {{-- title --}}
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">Building Structures</h2>
+
+
     {{-- slide 1 --}}
     <div class="flex flex-col justify-start  text-start text-2xl text-white slide hidden t-slide">
         <div>
-            <h2 class="t-title" >Children will be able to:</h2>
+            <h2 class="t-title">Children will be able to:</h2>
             <ul class="list-disc">
                 <li>Identify basic shapes</li>
                 <li>Explore shapes of various sizes</li>
                 <li>Learn that shapes can be formed using curved and straight lines</li>
                 <li>Develop fine motor and eye-hand coordination skills</li>
                 <li>Develop understanding through hands-on activity</li>
-                </ul>
+            </ul>
         </div>
-        <div class="flex w-[100%] justify-between">
-            <div>
-                <h2 class="t-title">Keywords:</h2>
-                <div class="flex items-center gap-x-10">
-                    <ul class="list-disc">
-                        <li>Structures</li>
-                        <li>Shapes</li>
-                        <li>Square</li>
-                        <li>Rectangle</li>
-                        <li>Triangle</li>
-                        <li>Lines</li>
-                        <li>Curve</li>
-                        <li>Circle</li>
-                    </ul>
-            </div>
+        <div>
+            <h2 class="t-title">Keywords:</h2>
+            <ul class="list-disc">
+                <li>Structures</li>
+                <li>Shapes</li>
+                <li>Square</li>
+                <li>Rectangle</li>
+                <li>Triangle</li>
+                <li>Lines</li>
+                <li>Curve</li>
+                <li>Circle</li>
+            </ul>
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
     </div>
+
 
     {{-- slide 2 --}}
     <div class="text-white flex text-start text-2xl slide hidden t-slide">
@@ -84,16 +87,16 @@
 
     {{-- slide 4 --}}
     <div class="text-white flex  flex-col justify-start  text-start text-2xl slide hidden t-slide">
-        <h1 class="title  text-center">Learning Centre Idea</h1>
+        <h1 class="title stroke  text-center">Learning Centre Idea</h1>
         <div>
-            <h2 class="t-title">Sort And Match</h2>
+            <h2 class="title stroke !text-white">Sort And Match</h2>
             <h2 class="t-title">What and how to set up:</h2>
             <p>Place pictures of the different shapes and toys for children to do sorting and matching.</p>
         </div>
         <div class="flex w-[100%] items-center justify-between">
             <div>
                 <h2 class="t-title">What to do:</h2>
-                <ul class="mt-2 list-decimal space-y-1 pl-6">
+                <ul class="mt-2 list-decimal space-y-1 "">
                     <li>Invite children to pick up a picture of a shape or a toy.</li>
                     <li>Encourage children sort them based on the shapes.</li>
                 </ul>
