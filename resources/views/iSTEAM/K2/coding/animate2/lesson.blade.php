@@ -2,14 +2,12 @@
 @section('title', 'Dynamic Presentation')
 
 @section('content')
-
+    {{-- title --}}
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">Animate a Character (2)</h2>
 
     {{-- Slide 1 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
-
-
-        <div class="flex gap-2  items-center">
-
+    <div class="slide flex flex-col items-center justify-center  ">
+        <div class="flex gap-[1vw]  items-center">
             <img class="!max-w-[19vw]" src="/assets/images/K2/animate2/a1.png" />
             <img class="!max-w-[19vw]" src="/assets/images/K2/animate2/a2.png" />
         </div>
@@ -21,12 +19,12 @@
 
     {{-- Slide 2 --}}
 
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
+    <div class="slide flex flex-col items-center justify-center  ">
 
 
-        <div class="flex gap-2  items-center">
+        <div class="flex gap-[1vw]  items-center">
 
-            <img src="/assets/images/K2/animate2/a3.png" class="!max-w-[13vw]" />
+            <img src="/assets/images/K2/animate2/a3.png" class="!max-h-[17vh]" />
             <img src="/assets/images/K2/animate2/a4.png" class="!max-w-[19vw]" />
         </div>
         <h2 class="title stroke">We can use ScratchJr to create our own animated stories.</h2>
@@ -37,7 +35,7 @@
 
 
     {{-- Slide 3 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
+    <div class="slide flex flex-col items-center justify-center  ">
         <img src="/assets/images/K2/animate2/a5.png" />
         <h2 class="title stroke">How do we get the background and character?</h2>
 
@@ -45,8 +43,8 @@
     </div>
 
     {{-- slide 4 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <img src="/assets/images/K2/animate2/a5.png" />
+    <div class="slide flex flex-col items-center justify-center  ">
+        <img src="/assets/images/K2/animate2/a5.png" class="w-img" />
         <h2 class="title stroke">Which command in the app allows us to animate a character?</h2>
 
         <p class="note">Note: Have children name and point out the Motion Blocks command.</p>
@@ -54,8 +52,8 @@
 
 
     {{-- Slide 5 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <img src="/assets/images/K2/animate2/a6.png" />
+    <div class="slide flex flex-col items-center justify-center  ">
+        <img src="/assets/images/K2/animate2/a6.png" class="w-img" />
         <h2 class="title stroke">How does the character move according to this programme?</h2>
 
         <p class="note">Note: Guide children to describe the movements in sequence and name each programming block used.
@@ -66,8 +64,8 @@
     {{-- slide 6 --}}
 
 
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <img src="/assets/images/K2/animate2/a7.png" />
+    <div class="slide flex flex-col items-center justify-center  ">
+        <img src="/assets/images/K2/animate2/a7.png" class="w-img" />
         <h2 class="title stroke">Why do we need this programming block in front of the
             programme? Where do you get it from?</h2>
 
@@ -80,15 +78,15 @@
 
     {{-- slide 7 --}}
     <div class="slide flex flex-col items-center justify-center gap-4 ">
-        <img src="/assets/images/K2/animate2/a8.png" />
+        <img src="/assets/images/K2/animate2/a8.png" class="w-img" />
         <h2 class="title stroke">Let's look at this story!</h2>
 
         <p class="note">Note: Guide children to describe the movements of the character in sequence.</p>
     </div>
 
     {{-- slide 8 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <img src="/assets/images/K2/animate2/a9.png" />
+    <div class="slide flex flex-col items-center justify-center  ">
+        <img src="/assets/images/K2/animate2/a9.png" class="w-img" />
         <h2 class="title stroke">Make a guess, what kind of programming blocks control a <br>
             character to move diagonally?</h2>
 
@@ -98,10 +96,10 @@
 
 
     {{-- Slide 16 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
+    <div class="slide flex flex-col items-center justify-center  ">
 
 
-        <div class="flex gap-2  items-center">
+        <div class="flex gap-[1vw]  items-center">
 
             <img src="/assets/images/K2/animate2/a10.png" class="!max-w-[13vw]" />
             <img src="/assets/images/K2/animate2/a11.png" class="!max-w-[19vw]" />
@@ -115,10 +113,10 @@
 
 
     {{-- Slide 17 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
+    <div class="slide flex flex-col items-center justify-center  ">
 
 
-        <div class="flex gap-2  items-center">
+        <div class="flex gap-[1vw]  items-center">
 
             <img src="/assets/images/K2/animate2/a12.png" class="!max-w-[19vw]" />
             <img src="/assets/images/K2/animate2/a13.png" class="!max-w-[19vw]" />
@@ -131,11 +129,8 @@
 
 
     {{-- Slide 18 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
-
-
-        <div class="flex gap-2  items-center">
-
+    <div class="slide flex flex-col items-center justify-center  ">
+        <div class="flex gap-[1vw]  items-center">
             <img src="/assets/images/K2/animate2/a13.png" class="!max-w-[19vw]" />
             <img src="/assets/images/K2/animate2/a13.png" class="!max-w-[19vw]" />
         </div>
@@ -148,7 +143,7 @@
 
 
     {{-- Slide 18 --}}
-    <div class="slide flex flex-col items-center justify-center gap-[2vw]">
+    <div class="slide flex flex-col items-center justify-between h-[45vh] ">
         <h2 class="title stroke !text-white">Hands-on Time 1</h2>
         <div>
             <ul class="title stroke !text-start text-[1.3vw]">
@@ -158,15 +153,11 @@
             </ul>
         </div>
         <p class="note">Note: Divide children into groups and have them work in groups to complete the mission.</p>
-
-
-
-
     </div>
+
 
     {{-- Slide 19 --}}
     <div class="slide flex flex-col items-center justify-center gap-[.5vw]">
-
         <div>
             <ul class="title stroke !text-start">
                 <li>Steps: <br>
@@ -174,14 +165,13 @@
                     create two programmes for a character.</li>
             </ul>
         </div>
-        <img src="/assets/images/K2/animate2/a14.png" />
+        <img src="/assets/images/K2/animate2/a14.png" class="w-img" />
         <p class="note">Note: Encourage children to explore the fun of creating different animation effects together.</p>
     </div>
 
 
     {{-- Slide 19 --}}
-    <div class="slide flex flex-col items-center justify-center gap-[2vw]">
-
+    <div class="slide flex flex-col items-center justify-center ">
         <div>
             <ul class="title stroke !text-start">
                 <li>Steps: <br> 2. Run the programmes to see what kind of animation effect <br> you get. <br> 3. Repeat
@@ -196,12 +186,10 @@
     {{-- Slide 20 --}}
 
     {{-- video  --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <img src="/assets/images/K2/animate2/a8.png" />
+    <div class="slide flex flex-col items-center justify-center  ">
+        <img src="/assets/images/K2/animate2/a8.png" class="w-img" />
         <h2 class="title stroke">Based on this sample, <br>
             can you work out the programmmes of this character?</h2>
-
-
     </div>
 
 
@@ -222,36 +210,28 @@
 
 
     {{-- Slide 22 --}}
-    <div class="slide flex flex-col  justify-start gap-[1rem] ">
-
+    <div class="slide flex flex-col  justify-start  ">
         <div>
-
             <ul class="title stroke !text-start">
                 <li>Steps: <br>
                     1. Choose the correct background.</li>
             </ul>
         </div>
-
-
-        <div class="flex  gap-2 items-center ">
+        <div class="flex  gap-[1vw] items-center ">
 
             <img class="!max-w-[13vw]" src="/assets/images/K2/animate2/a15.png" />
             <img class="!max-w-[2.5vw]" src="/assets/images/K2/animate2/a16.png" />
             <img class="!max-w-[13vw]" src="/assets/images/K2/animate2/a17.png" />
-
-
         </div>
 
         <h2 class="title stroke">Tap, drag and place a Move Right programming block <br>
             to the programming area.</h2>
-        <p class="note">Note: Reply the <a class= title stroke" href="">video</a> if needed.</p>
-
-
+        <p class="note">Note: Reply the <a class="title stroke" href="">video</a> if needed.</p>
     </div>
 
 
     {{-- Slide 24 --}}
-    <div class="slide flex flex-col justify-start gap-[1rem] ">
+    <div class="slide flex flex-col justify-start  ">
         <div>
             <ul class="title stroke !text-start">
                 <li>Steps: <br>
@@ -276,7 +256,7 @@
 
 
     {{-- Slide 25 --}}
-    <div class="slide flex flex-col justify-start gap-[1rem] ">
+    <div class="slide flex flex-col justify-start  ">
         <div>
             <ul class="title stroke !text-start">
                 <li>Steps: <br>
@@ -289,56 +269,19 @@
                 <img class="!max-w-[13vw]" src="/assets/images/K2/animate2/a18.png" />
             </div>
             <div>
-                <button class=" !text-white w-[188px] h-[61px] bg-[#2D9CDB] rounded-[20px]"> Sample Answer</button>
+                <button class="click-btn1 !text-white w-[188px] h-[61px] bg-[#2D9CDB] rounded-[20px]"> Sample
+                    Answer</button>
             </div>
-
         </div>
         <p class="note">Note: Accept all similar programmes presented by children.</p>
     </div>
 
 
     {{-- Slide 26 --}}
-    {{-- sample answer --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
+    <div class="slide flex flex-col items-center justify-center click1    ">
         <img src="/assets/images/K2/animate2/a19.png" />
         <h2 class="title stroke">Note: Accept all similar programmes presented by children.</h2>
-
-
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -390,186 +333,223 @@
 
 @push('script')
     <script>
-        document.addEventListener("DOMContentLoaded", () => {
+        function toggleVideo(videoId) {
+            const video = document.getElementById(videoId);
+            if (video.paused) {
+                video.play();
+            } else {
+                video.pause();
+            }
+        }
+
+        document.addEventListener("DOMContentLoaded", function() {
+
             const slides = document.querySelectorAll(".slide");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
             const doneButton = document.querySelector(".doneButton");
+            const clickButtons = document.querySelectorAll("[class*='click-btn']");
 
-            // Get all info/click buttons (info-btn1, info-btn2, click-btn1, click-btn2, etc.)
-            const infoButtons = document.querySelectorAll("[class*='info-btn'], [class*='click-btn']");
+            let currentSlideNumber = 0;
+            let inSpecialMode = false;
+            let slideToReturnTo = null;
+            let specialSlideType = null;
 
-            let currentSlide = 0;
-            let parentSlideIndex = null;
-            let isViewingInfoSlides = false;
-            let currentInfoClass = null; // Track which info/click class we're viewing
+            const whereToGoWhenReturn = "{{ route('animate2Selection') }}";
+            const whereToGoWhenDone = "{{ route('animate2Selection') }}";
 
-            function showSlide(index) {
-                slides.forEach((slide, i) => {
-                    slide.classList.toggle("hidden", i !== index);
-                });
-
-                // Check if last slide OR last info/click slide
-                const isLastSlide = index === slides.length - 1;
-                const isLastInfoSlide = isViewingInfoSlides && !hasNextInfoSlide(index);
-
-                if (isLastSlide || isLastInfoSlide) {
-                    nextButtons.forEach(btn => btn.classList.add("hidden"));
-                    if (doneButton) doneButton.classList.remove("hidden");
-                } else {
-                    nextButtons.forEach(btn => btn.classList.remove("hidden"));
-                    if (doneButton) doneButton.classList.add("hidden");
+            function pauseAllVideos() {
+                const videos = document.querySelectorAll('video');
+                for (let i = 0; i < videos.length; i++) {
+                    videos[i].pause();
                 }
             }
 
-            // Check if there's another info/click slide with same class after current one
-            function hasNextInfoSlide(currentIndex) {
-                if (!currentInfoClass) return false;
-
-                for (let i = currentIndex + 1; i < slides.length; i++) {
-                    if (slides[i].classList.contains(currentInfoClass)) {
+            function isSpecialSlide(slide) {
+                const classes = slide.className.split(' ');
+                for (let i = 0; i < classes.length; i++) {
+                    if (classes[i].startsWith('click') && classes[i].match(/^click\d+$/)) {
                         return true;
                     }
                 }
                 return false;
             }
 
-            // Get info/click class from button (info-btn1 → , click-btn1 → click1)
-            function getInfoClassFromButton(button) {
-                const classList = Array.from(button.classList);
-
-                // Check for info-btn pattern
-                const infoBtnClass = classList.find(cls => cls.startsWith('info-btn'));
-                if (infoBtnClass) {
-                    const number = infoBtnClass.replace('info-btn', '');
-                    return 'info-slide' + number;
+            function getSpecialTypeFromButton(button) {
+                const classes = button.className.split(' ');
+                for (let i = 0; i < classes.length; i++) {
+                    if (classes[i].startsWith('click-btn')) {
+                        const number = classes[i].replace('click-btn', '');
+                        return 'click' + number;
+                    }
                 }
-
-                // Check for click-btn pattern
-                const clickBtnClass = classList.find(cls => cls.startsWith('click-btn'));
-                if (clickBtnClass) {
-                    const number = clickBtnClass.replace('click-btn', '');
-                    return 'click' + number;
-                }
-
                 return null;
             }
 
-            // Info/Click button handlers
-            infoButtons.forEach((btn) => {
-                btn.addEventListener("click", (e) => {
-                    e.preventDefault(); // Prevent default anchor behavior
+            function hasMoreSpecialSlides(startFrom) {
+                if (!specialSlideType) {
+                    return false;
+                }
 
-                    parentSlideIndex = currentSlide;
-                    isViewingInfoSlides = true;
-                    currentInfoClass = getInfoClassFromButton(btn);
+                for (let i = startFrom + 1; i < slides.length; i++) {
+                    if (slides[i].classList.contains(specialSlideType)) {
+                        return true;
+                    }
+                }
+                return false;
+            }
 
-                    // Find the first slide with matching info/click class
-                    for (let i = 0; i < slides.length; i++) {
-                        if (slides[i].classList.contains(currentInfoClass)) {
-                            currentSlide = i;
-                            showSlide(currentSlide);
+            function isLastSlide(slideNumber) {
+                // If in special mode, check if there are more special slides
+                if (inSpecialMode) {
+                    return !hasMoreSpecialSlides(slideNumber);
+                }
+
+                // If not in special mode, check if this is the actual last slide
+                // We need to find the last non-special slide
+                for (let i = slides.length - 1; i >= 0; i--) {
+                    if (!isSpecialSlide(slides[i])) {
+                        return slideNumber === i;
+                    }
+                }
+
+                return slideNumber === slides.length - 1;
+            }
+
+            function showSlide(slideNumber) {
+                pauseAllVideos();
+
+                for (let i = 0; i < slides.length; i++) {
+                    if (i === slideNumber) {
+                        slides[i].classList.remove("hidden");
+                    } else {
+                        slides[i].classList.add("hidden");
+                    }
+                }
+
+                if (isLastSlide(slideNumber)) {
+                    for (let i = 0; i < nextButtons.length; i++) {
+                        nextButtons[i].classList.add("hidden");
+                    }
+                    if (doneButton) {
+                        doneButton.classList.remove("hidden");
+                    }
+                } else {
+                    for (let i = 0; i < nextButtons.length; i++) {
+                        nextButtons[i].classList.remove("hidden");
+                    }
+                    if (doneButton) {
+                        doneButton.classList.add("hidden");
+                    }
+                }
+            }
+
+            function goToNextSlide() {
+                if (currentSlideNumber >= slides.length - 1) {
+                    return;
+                }
+
+                currentSlideNumber++;
+
+                while (currentSlideNumber < slides.length) {
+                    const slide = slides[currentSlideNumber];
+
+                    if (inSpecialMode) {
+                        if (slide.classList.contains(specialSlideType)) {
+                            break;
+                        }
+                    } else {
+                        if (!isSpecialSlide(slide)) {
+                            break;
+                        }
+                    }
+
+                    currentSlideNumber++;
+                }
+
+                if (currentSlideNumber < slides.length) {
+                    showSlide(currentSlideNumber);
+                }
+            }
+
+            function goToPreviousSlide() {
+                if (currentSlideNumber === 0 && !inSpecialMode) {
+                    window.location.href = whereToGoWhenReturn;
+                    return;
+                }
+
+                if (inSpecialMode) {
+                    let previousSlide = currentSlideNumber - 1;
+
+                    while (previousSlide >= 0) {
+                        if (slides[previousSlide].classList.contains(specialSlideType)) {
+                            break;
+                        }
+                        previousSlide--;
+                    }
+
+                    if (previousSlide >= 0) {
+                        currentSlideNumber = previousSlide;
+                        showSlide(currentSlideNumber);
+                    } else {
+                        currentSlideNumber = slideToReturnTo;
+                        inSpecialMode = false;
+                        specialSlideType = null;
+                        slideToReturnTo = null;
+                        showSlide(currentSlideNumber);
+                    }
+                } else {
+                    if (currentSlideNumber > 0) {
+                        currentSlideNumber--;
+
+                        while (currentSlideNumber > 0 && isSpecialSlide(slides[currentSlideNumber])) {
+                            currentSlideNumber--;
+                        }
+
+                        showSlide(currentSlideNumber);
+                    }
+                }
+            }
+
+            for (let i = 0; i < clickButtons.length; i++) {
+                clickButtons[i].addEventListener("click", function(event) {
+                    event.preventDefault();
+
+                    slideToReturnTo = currentSlideNumber;
+                    inSpecialMode = true;
+                    specialSlideType = getSpecialTypeFromButton(clickButtons[i]);
+
+                    for (let j = 0; j < slides.length; j++) {
+                        if (slides[j].classList.contains(specialSlideType)) {
+                            currentSlideNumber = j;
+                            showSlide(currentSlideNumber);
                             break;
                         }
                     }
                 });
-            });
-
-            // NEXT button - skip info/click slides if not viewing them
-            nextButtons.forEach((btn) => {
-                btn.addEventListener("click", () => {
-                    if (currentSlide < slides.length - 1) {
-                        currentSlide++;
-
-                        // Skip info/click slides if not viewing them
-                        while (!isViewingInfoSlides &&
-                            currentSlide < slides.length &&
-                            isInfoSlide(slides[currentSlide])) {
-                            currentSlide++;
-                        }
-
-                        // If viewing info/click slides, only show slides with current class
-                        if (isViewingInfoSlides) {
-                            while (currentSlide < slides.length &&
-                                !slides[currentSlide].classList.contains(currentInfoClass)) {
-                                currentSlide++;
-                            }
-                        }
-
-                        if (currentSlide < slides.length) {
-                            showSlide(currentSlide);
-                        }
-                    }
-                });
-            });
-
-            // Check if slide is any info/click slide (info-slide1, info-slide2, click1, click2, etc.)
-            function isInfoSlide(slide) {
-                return Array.from(slide.classList).some(cls =>
-                    (cls.startsWith('info-slide') && cls.match(/^info-slide\d+$/)) ||
-                    (cls.startsWith('click') && cls.match(/^click\d+$/))
-                );
             }
 
-           // Return button
-returnButton.addEventListener("click", () => {
-    // Redirect to route if on slide 1
-    if (currentSlide === 1) {
-        window.location.href = "{{ route('your-route-name') }}";
-        return;
-    }
+            for (let i = 0; i < nextButtons.length; i++) {
+                nextButtons[i].addEventListener("click", goToNextSlide);
+            }
 
-    if (isViewingInfoSlides && currentSlide > 0) {
-        // Check if previous slide is also same info/click class
-        let prevSlide = currentSlide - 1;
+            returnButton.addEventListener("click", goToPreviousSlide);
 
-        // Find previous slide with same info/click class
-        while (prevSlide >= 0 && !slides[prevSlide].classList.contains(currentInfoClass)) {
-            prevSlide--;
-        }
-
-        if (prevSlide >= 0 && slides[prevSlide].classList.contains(currentInfoClass)) {
-            currentSlide = prevSlide;
-            showSlide(currentSlide);
-        } else {
-            // No more info/click slides, return to parent
-            currentSlide = parentSlideIndex;
-            isViewingInfoSlides = false;
-            currentInfoClass = null;
-            parentSlideIndex = null;
-            showSlide(currentSlide);
-        }
-    } else if (currentSlide > 0) {
-        currentSlide--;
-
-        // Skip info/click slides when going back
-        while (currentSlide > 0 && isInfoSlide(slides[currentSlide])) {
-            currentSlide--;
-        }
-
-        showSlide(currentSlide);
-    }
-});;
-
-            // DONE button handler
             if (doneButton) {
-                doneButton.addEventListener("click", () => {
-                    if (isViewingInfoSlides && parentSlideIndex !== null) {
-                        // Return to parent slide
-                        currentSlide = parentSlideIndex;
-                        isViewingInfoSlides = false;
-                        currentInfoClass = null;
-                        parentSlideIndex = null;
-                        showSlide(currentSlide);
+                doneButton.addEventListener("click", function() {
+                    if (inSpecialMode && slideToReturnTo !== null) {
+                        currentSlideNumber = slideToReturnTo;
+                        inSpecialMode = false;
+                        specialSlideType = null;
+                        slideToReturnTo = null;
+                        showSlide(currentSlideNumber);
                     } else {
-                        // Navigate to route
-                        window.location.href = "{{ route('animate2Selection') }}";
+                        window.location.href = whereToGoWhenDone;
                     }
                 });
             }
 
-            // Start with first slide
-            showSlide(currentSlide);
+            showSlide(currentSlideNumber);
         });
     </script>
 @endpush

@@ -2,10 +2,8 @@
 @section('title', 'Dynamic Presentation')
 
 @section('content')
-
     {{-- title --}}
-    <h2 class="text-[57px] text-[#F7B94A] stroke absolute top-[40px] z-[1000]">What is Aerodynamics? 2</h2>
-
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">What is Aerodynamics? 2</h2>
 
 
     {{-- sldie 1  --}}
@@ -47,7 +45,7 @@
 
     {{-- slide 2 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start text-start">
-        <div class="">
+        <div class="t-title">
             <div>
                 <h2 class=" t-title">Preparations:</h2>
                 <ul class="list-disc">
@@ -220,7 +218,7 @@
                     <li class="text-[1.3vw]">Emphasise and use the <strong>keywords</strong> during hands-on sessions.</li>
                     <li class="text-[1.3vw]">Print out the Learning Journal (if any) for every child to complete at the end
                         of the lesson.
-                    </li> 
+                    </li>
                     <li class="text-[1.3vw] flex">
                         Click on this <span class="font-bold t-title">shortcut icon</span>
                         <span>
@@ -319,7 +317,7 @@
             returnButton.addEventListener("click", () => {
                 if (currentSlide === 0) {
                     //   First slide pe hai →  
-                    window.location.href = "{{ route('k2Aerodynamics') }}";
+                    window.location.href = "{{ route('Aerodynamics2Selection') }}";
                 } else {
                     //   Previous slide pe jao
                     currentSlide--;

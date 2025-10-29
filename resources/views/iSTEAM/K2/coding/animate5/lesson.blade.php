@@ -1,6 +1,6 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
- 
+
 @section('content')
 
 
@@ -403,34 +403,29 @@
     {{-- ====================================== --}}
     {{-- Buttons --}}
     <div class="down-btn-container">
-        <button
-         class="doneButton">
- <img src="{{ asset('assets/images/pptimages/done.png') }}" />
+        <button class="doneButton">
+            <img src="{{ asset('assets/images/pptimages/done.png') }}" />
         </button>
     </div>
 
 
- <div id="buttons" class="absolute  flex flex-row gap-6 ">
+    <div id="buttons" class="absolute  flex flex-row gap-6 ">
 
         <!-- Return Button -->
         <a id="returnButton">
- <img
-    src="{{ asset('assets/images/pptimages/return.png') }}" />
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
 
         <!-- Home Button -->
-        <button
-     id="homeButton">
-            <img 
-                src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
         <button id="closeButton">
-           
-            <img 
-                src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-    
+
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
+
         </button>
 
     </div>
@@ -438,9 +433,8 @@
     {{-- next Button --}}
     <div class="down-btn-container">
 
-        <button
-            class="nextButton">
- <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
+        <button class="nextButton">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
         </button>
     </div>
 
@@ -573,45 +567,41 @@
                 );
             }
 
-           // Return button
-returnButton.addEventListener("click", () => {
-    // Redirect to route if on slide 1
-    if (currentSlide === 1) {
-        window.location.href = "{{ route('your-route-name') }}";
-        return;
-    }
+            // Return button
+            returnButton.addEventListener("click", () => {
 
-    if (isViewingInfoSlides && currentSlide > 0) {
-        // Check if previous slide is also same info/click class
-        let prevSlide = currentSlide - 1;
 
-        // Find previous slide with same info/click class
-        while (prevSlide >= 0 && !slides[prevSlide].classList.contains(currentInfoClass)) {
-            prevSlide--;
-        }
+                if (isViewingInfoSlides && currentSlide > 0) {
+                    // Check if previous slide is also same info/click class
+                    let prevSlide = currentSlide - 1;
 
-        if (prevSlide >= 0 && slides[prevSlide].classList.contains(currentInfoClass)) {
-            currentSlide = prevSlide;
-            showSlide(currentSlide);
-        } else {
-            // No more info/click slides, return to parent
-            currentSlide = parentSlideIndex;
-            isViewingInfoSlides = false;
-            currentInfoClass = null;
-            parentSlideIndex = null;
-            showSlide(currentSlide);
-        }
-    } else if (currentSlide > 0) {
-        currentSlide--;
+                    // Find previous slide with same info/click class
+                    while (prevSlide >= 0 && !slides[prevSlide].classList.contains(currentInfoClass)) {
+                        prevSlide--;
+                    }
 
-        // Skip info/click slides when going back
-        while (currentSlide > 0 && isInfoSlide(slides[currentSlide])) {
-            currentSlide--;
-        }
+                    if (prevSlide >= 0 && slides[prevSlide].classList.contains(currentInfoClass)) {
+                        currentSlide = prevSlide;
+                        showSlide(currentSlide);
+                    } else {
+                        // No more info/click slides, return to parent
+                        currentSlide = parentSlideIndex;
+                        isViewingInfoSlides = false;
+                        currentInfoClass = null;
+                        parentSlideIndex = null;
+                        showSlide(currentSlide);
+                    }
+                } else if (currentSlide > 0) {
+                    currentSlide--;
 
-        showSlide(currentSlide);
-    }
-});;
+                    // Skip info/click slides when going back
+                    while (currentSlide > 0 && isInfoSlide(slides[currentSlide])) {
+                        currentSlide--;
+                    }
+
+                    showSlide(currentSlide);
+                }
+            });;
 
             // DONE button handler
             if (doneButton) {

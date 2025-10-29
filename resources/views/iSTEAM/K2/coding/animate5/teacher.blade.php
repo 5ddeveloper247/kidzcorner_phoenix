@@ -20,7 +20,7 @@
 
 
         <h2 class=" ">Keywords:</h2>
-        <div class="flex gap-1 justify-around">
+        <div class="flex gap-[3vw] pl-[1vw]">
             <ul class="list-disc ">
 
                 <li class="text-[1.1vw]">Programme</li>
@@ -49,7 +49,7 @@
     {{-- slide 2 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start   text-start">
         <ul class="list-disc">
-            <h2 class="">Preparations:</h2>
+            <h2 class="t-title">Preparations:</h2>
             <li class="text-[1.1vw]">The tablets (download ScratchJr application from App Store or Google Play for each tablet; charge all the
                 tablets before you start each lesson)</li>
 
@@ -72,7 +72,7 @@
 
 
         <ul class="list-disc">
-            <h2 class="">Preparations:</h2>
+            <h2 class="t-title">Preparations:</h2>
             <li class="text-[1.1vw]">Grid Card (print and laminate so that they are reusable)</li>
             <li class="text-[1.1vw]">Whiteboard marker pens</li>
 
@@ -91,7 +91,7 @@
     <div class=" slide flex text-2xl text-white flex-col justify-start   text-start">
 
         <ul class="list-disc">
-            <h2 class="">Additional info:</h2>
+            <h2 class="t-title">Additional info:</h2>
             <li class="text-[1.1vw]">
                 Tapping here enables you to change title of a project.</li>
         </ul>
@@ -107,7 +107,7 @@
     <div class=" slide flex text-2xl text-white flex-col justify-start   text-start">
 
         <ul class="list-disc">
-            <h2 class="">Additional info:</h2>
+            <h2 class="t-title">Additional info:</h2>
             <li class="text-[1.1vw]">
                 Tapping here enables you to add words or text on the stage.</li>
         </ul>
@@ -123,7 +123,7 @@
     <div class=" slide flex text-2xl text-white flex-col justify-start   text-start">
 
         <ul class="list-disc">
-            <h2 class="">Additional info:</h2>
+            <h2 class="t-title">Additional info:</h2>
             <li class="text-[1.1vw]">
                 The maximum number of pages you can create for a story is 4 pages.</li>
         </ul>
@@ -147,7 +147,7 @@
         <div>
             <ul class="list-disc !text-white">
 
-                <h2 class="">Reminders or advice during hands-on session:</h2>
+                <h2 class="t-title">Reminders or advice during hands-on session:</h2>
                 <li class="text-[1.1vw]">Always hold a tablet with both your hands (to show your care and prevent the
                     tools from spoiling easily).</li>
                 <li class="text-[1.1vw]">Be patient and take turns when using the tablets.</li>
@@ -156,7 +156,7 @@
 
         <div>
             <ul class="!text-start list-disc">
-                <h2 class="">Possible questions during hands-on sessions:</h2>
+                <h2 class="t-title">Possible questions during hands-on sessions:</h2>
                 <li class="text-[1.1vw]">Which part of the app allows you to add pages to a story?
                 </li>
                 <li class="text-[1.1vw]">How do you make your story auto play from page to page?</li>

@@ -1,7 +1,11 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
- 
+
 @section('content')
+    {{-- title --}}
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">Hydrodynamics</h2>
+
+
     {{-- sldie 1  --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start text-start">
         <div>
@@ -33,8 +37,7 @@
                 </ul>
             </div>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
@@ -52,14 +55,14 @@
                     <ul>
                         <li class="text-[1.3vw]">-A big, clear container - fill it up with 2 of water</li>
                         <li class="text-[1.3vw]">-Clothes peg</li>
-                        <li class="text-[1.3vw]">-A flat board/lid (ensure that it does not absorb water as this will affect the result)</li>
+                        <li class="text-[1.3vw]">-A flat board/lid (ensure that it does not absorb water as this will affect
+                            the result)</li>
                     </ul>
                 </li>
             </ul>
         </div>
         <img src="{{ asset('assets/images/K2/aero/hydro/h22.png') }}" class="w-[600px]" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
@@ -71,14 +74,15 @@
                 <ul class="list-disc leading-relaxed">
                     <li class="text-[1.3vw] flex">
                         If you see
-                       <span>
+                        <span>
                             <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s27.png') }}"
                                 class="!max-w-[2.5vw]" />
                         </span>
                         next to a picture, class="text-amber-400" click on the picture to watch the video.
                     </li>
                     <li class="text-[1.3vw]">Emphasise and use the <strong>keywords</strong> during hands-on sessions.</li>
-                    <li class="text-[1.3vw]">Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
+                    <li class="text-[1.3vw]">Print out the Learning Journal (if any) for every child to complete at the end
+                        of the lesson.
                     </li>
                     <li class="text-[1.3vw] flex">
                         Click on this <span class="font-bold t-title">shortcut icon</span>
@@ -90,8 +94,7 @@
                     </li>
                 </ul>
             </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1"
-                alt="Teacher" />
+            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="Teacher" />
         </div>
     </div>
 
@@ -100,34 +103,28 @@
     {{-- ========================================================== --}}
     {{-- Buttons --}}
     <div class="down-btn-container">
-        <button
-         class="doneButton">
- <img src="{{ asset('assets/images/pptimages/done.png') }}" />
+        <button class="doneButton">
+            <img src="{{ asset('assets/images/pptimages/done.png') }}" />
         </button>
     </div>
 
     <div id="buttons" class="absolute  flex flex-row gap-6 z-90">
 
         <!-- Return Button -->
-        <a 
-    id="returnButton">
+        <a id="returnButton">
 
-            <img 
-                src="{{ asset('assets/images/pptimages/return.png') }}" />
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
         <!-- Home Button -->
-        <button
-     id="homeButton">
-            <img 
-                src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
         <button id="closeButton">
-           
-            <img 
-                src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-    
+
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
+
         </button>
 
     </div>
@@ -135,9 +132,8 @@
     {{-- next Button --}}
     <div class="down-btn-container">
 
-        <button
-            class="nextButton">
- <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
+        <button class="nextButton">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
         </button>
     </div>
 
@@ -182,17 +178,17 @@
                 });
             });
 
-              //   Return button - redirect if on first slide, otherwise go back
-        returnButton.addEventListener("click", () => {
-            if (currentSlide === 0) {
-                //   First slide pe hai →  
-                window.location.href = "{{ route('k2Aerodynamics') }}";
-            } else {
-                //   Previous slide pe jao
-                currentSlide--;
-                showSlide(currentSlide);
-            }
-        });
+            //   Return button - redirect if on first slide, otherwise go back
+            returnButton.addEventListener("click", () => {
+                if (currentSlide === 0) {
+                    //   First slide pe hai →  
+                    window.location.href = "{{ route('HydrodynamicsSelection') }}";
+                } else {
+                    //   Previous slide pe jao
+                    currentSlide--;
+                    showSlide(currentSlide);
+                }
+            });
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {

@@ -1,7 +1,9 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
- 
+
 @section('content')
+    {{-- title --}}
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">Flying Machines</h2>
 
 
     {{-- Slide 1 --}}
@@ -280,9 +282,8 @@
         </video>
         <h2 class="title stroke">Let’s see how this rocket launches and shoots into the sky.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')"
-            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
-      <img src="/assets/images/pptimages/video.png" />
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
@@ -295,9 +296,8 @@
         <h2 class="title stroke">Two minutes after launch, the boosters will detach from the
             main rocket and drop into the ocean.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video2')"
-            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
-      <img src="/assets/images/pptimages/video.png" />
+        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
@@ -309,12 +309,12 @@
         </video>
         <h2 class="title stroke">When the space shuttle has successfully entered space,
             the main rocket will detach from the space shuttle.</h2>
-        <p class="note">Note: <a href="" class="text-[#F7B94A] click-btn1">Click Here</a> for a sample illustration of the
+        <p class="note">Note: <a href="" class="text-[#F7B94A] click-btn1">Click Here</a> for a sample
+            illustration of the
             launch of a rocket.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video3')"
-            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
-      <img src="/assets/images/pptimages/video.png" />
+        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
     {{-- sloide click --}}
@@ -374,9 +374,8 @@
         <h2 class="title stroke">A parachute is also deployed from the back of the space
             shuttle to increase drag and help stop the space shuttle.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video4')"
-            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
-      <img src="/assets/images/pptimages/video.png" />
+        <div onclick="toggleVideo('video4')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
@@ -389,9 +388,8 @@
         <h2 class="title stroke">A parachute is also deployed from the back of the space
             shuttle to increase drag and help stop the space shuttle.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video5')"
-            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
-      <img src="/assets/images/pptimages/video.png" />
+        <div onclick="toggleVideo('video5')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
@@ -469,34 +467,29 @@
     {{-- ====================================== --}}
     {{-- Buttons --}}
     <div class="down-btn-container">
-        <button
-         class="doneButton">
- <img src="{{ asset('assets/images/pptimages/done.png') }}" class="large-img6" />
+        <button class="doneButton">
+            <img src="{{ asset('assets/images/pptimages/done.png') }}" class="large-img6" />
         </button>
     </div>
 
 
- <div id="buttons" class="absolute  flex flex-row gap-6 ">
+    <div id="buttons" class="absolute  flex flex-row gap-6 ">
 
         <!-- Return Button -->
         <a id="returnButton">
- <img
-    src="{{ asset('assets/images/pptimages/return.png') }}" class="large-img6" />
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" class="large-img6" />
         </a>
 
         <!-- Home Button -->
-        <button
-     id="homeButton">
-            <img 
-                src="{{ asset('assets/images/pptimages/home-btn.png') }}" class="large-img6" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" class="large-img6" />
         </button>
 
         <!-- Close Button -->
         <button id="closeButton">
-           
-            <img 
-                src="{{ asset('assets/images/pptimages/cancel.png') }}" class="large-img6" />
-    
+
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" class="large-img6" />
+
         </button>
 
     </div>
@@ -504,9 +497,8 @@
     {{-- next Button --}}
     <div class="down-btn-container">
 
-        <button
-            class="nextButton">
- <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" class="large-img6" />
+        <button class="nextButton">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" class="large-img6" />
         </button>
     </div>
 
@@ -647,45 +639,45 @@
                 );
             }
 
-           // Return button
-returnButton.addEventListener("click", () => {
-    // Redirect to route if on slide 1
-    if (currentSlide === 1) {
-        window.location.href = "{{ route('your-route-name') }}";
-        return;
-    }
+            // Return button
+            returnButton.addEventListener("click", () => {
+                // Redirect to route if on slide 1
+                if (currentSlide === 1) {
+                    window.location.href = "{{ route('FlyingSelection') }}";
+                    return;
+                }
 
-    if (isViewingInfoSlides && currentSlide > 0) {
-        // Check if previous slide is also same info/click class
-        let prevSlide = currentSlide - 1;
+                if (isViewingInfoSlides && currentSlide > 0) {
+                    // Check if previous slide is also same info/click class
+                    let prevSlide = currentSlide - 1;
 
-        // Find previous slide with same info/click class
-        while (prevSlide >= 0 && !slides[prevSlide].classList.contains(currentInfoClass)) {
-            prevSlide--;
-        }
+                    // Find previous slide with same info/click class
+                    while (prevSlide >= 0 && !slides[prevSlide].classList.contains(currentInfoClass)) {
+                        prevSlide--;
+                    }
 
-        if (prevSlide >= 0 && slides[prevSlide].classList.contains(currentInfoClass)) {
-            currentSlide = prevSlide;
-            showSlide(currentSlide);
-        } else {
-            // No more info/click slides, return to parent
-            currentSlide = parentSlideIndex;
-            isViewingInfoSlides = false;
-            currentInfoClass = null;
-            parentSlideIndex = null;
-            showSlide(currentSlide);
-        }
-    } else if (currentSlide > 0) {
-        currentSlide--;
+                    if (prevSlide >= 0 && slides[prevSlide].classList.contains(currentInfoClass)) {
+                        currentSlide = prevSlide;
+                        showSlide(currentSlide);
+                    } else {
+                        // No more info/click slides, return to parent
+                        currentSlide = parentSlideIndex;
+                        isViewingInfoSlides = false;
+                        currentInfoClass = null;
+                        parentSlideIndex = null;
+                        showSlide(currentSlide);
+                    }
+                } else if (currentSlide > 0) {
+                    currentSlide--;
 
-        // Skip info/click slides when going back
-        while (currentSlide > 0 && isInfoSlide(slides[currentSlide])) {
-            currentSlide--;
-        }
+                    // Skip info/click slides when going back
+                    while (currentSlide > 0 && isInfoSlide(slides[currentSlide])) {
+                        currentSlide--;
+                    }
 
-        showSlide(currentSlide);
-    }
-});;
+                    showSlide(currentSlide);
+                }
+            });;
 
             // DONE button handler
             if (doneButton) {

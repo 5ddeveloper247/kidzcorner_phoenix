@@ -5,6 +5,9 @@
 
 @section('content')
 
+    {{-- title --}}
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">What is Aerodynamics? 2</h2>
+
     {{-- Slide 1 --}}
     <div class="slide flex flex-col items-center justify-between h-[50%]">
         <div class="title stroke">
@@ -419,7 +422,7 @@
 
 @push('script')
     <script>
-        // Video toggle function - har video ko separately control karta hai
+        // Video toggle function - plays or pauses a video when clicked
         function toggleVideo(videoId) {
             const video = document.getElementById(videoId);
             if (video.paused) {
@@ -430,26 +433,43 @@
         }
 
         document.addEventListener("DOMContentLoaded", () => {
+            // Get all slide elements
             const slides = document.querySelectorAll(".slide");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
             const doneButton = document.querySelector(".doneButton");
-            const infoButtons = document.querySelectorAll("[class*='info-btn'], [class*='click-btn']");
 
+            // Keep track of which slide we're currently viewing
             let currentSlide = 0;
-            let parentSlideIndex = null;
-            let isViewingInfoSlides = false;
-            let currentInfoClass = null;
 
+            // CONFIGURE YOUR ROUTES HERE
+            const returnRouteFromFirstSlide = "{{ route('Aerodynamics2Selection') }}";
+            const doneButtonRoute = "{{ route('Aerodynamics2Selection') }}";
+
+            // Pause all videos when changing slides
+            function pauseAllVideos() {
+                const videos = document.querySelectorAll('video');
+                videos.forEach(video => {
+                    if (!video.paused) {
+                        video.pause();
+                    }
+                });
+            }
+
+            // Show a specific slide and hide all others
             function showSlide(index) {
+                // Pause all videos before switching
+                pauseAllVideos();
+
+                // Hide all slides except the current one
                 slides.forEach((slide, i) => {
                     slide.classList.toggle("hidden", i !== index);
                 });
 
+                // Check if last slide
                 const isLastSlide = index === slides.length - 1;
-                const isLastInfoSlide = isViewingInfoSlides && !hasNextInfoSlide(index);
 
-                if (isLastSlide || isLastInfoSlide) {
+                if (isLastSlide) {
                     nextButtons.forEach(btn => btn.classList.add("hidden"));
                     if (doneButton) doneButton.classList.remove("hidden");
                 } else {
@@ -458,123 +478,38 @@
                 }
             }
 
-            function hasNextInfoSlide(currentIndex) {
-                if (!currentInfoClass) return false;
-                for (let i = currentIndex + 1; i < slides.length; i++) {
-                    if (slides[i].classList.contains(currentInfoClass)) {
-                        return true;
-                    }
-                }
-                return false;
-            }
-
-            function getInfoClassFromButton(button) {
-                const classList = Array.from(button.classList);
-                const infoBtnClass = classList.find(cls => cls.startsWith('info-btn'));
-                if (infoBtnClass) {
-                    const number = infoBtnClass.replace('info-btn', '');
-                    return 'info-slide' + number;
-                }
-                const clickBtnClass = classList.find(cls => cls.startsWith('click-btn'));
-                if (clickBtnClass) {
-                    const number = clickBtnClass.replace('click-btn', '');
-                    return 'click' + number;
-                }
-                return null;
-            }
-
-            infoButtons.forEach((btn) => {
-                btn.addEventListener("click", (e) => {
-                    e.preventDefault();
-                    parentSlideIndex = currentSlide;
-                    isViewingInfoSlides = true;
-                    currentInfoClass = getInfoClassFromButton(btn);
-
-                    for (let i = 0; i < slides.length; i++) {
-                        if (slides[i].classList.contains(currentInfoClass)) {
-                            currentSlide = i;
-                            showSlide(currentSlide);
-                            break;
-                        }
-                    }
-                });
-            });
-
+            // NEXT button
             nextButtons.forEach((btn) => {
                 btn.addEventListener("click", () => {
                     if (currentSlide < slides.length - 1) {
                         currentSlide++;
-
-                        while (!isViewingInfoSlides &&
-                            currentSlide < slides.length &&
-                            isInfoSlide(slides[currentSlide])) {
-                            currentSlide++;
-                        }
-
-                        if (isViewingInfoSlides) {
-                            while (currentSlide < slides.length &&
-                                !slides[currentSlide].classList.contains(currentInfoClass)) {
-                                currentSlide++;
-                            }
-                        }
-
-                        if (currentSlide < slides.length) {
-                            showSlide(currentSlide);
-                        }
+                        showSlide(currentSlide);
                     }
                 });
             });
 
-            function isInfoSlide(slide) {
-                return Array.from(slide.classList).some(cls =>
-                    (cls.startsWith('info-slide') && cls.match(/^info-slide\d+$/)) ||
-                    (cls.startsWith('click') && cls.match(/^click\d+$/))
-                );
-            }
-
+            // RETURN button - go to previous slide or navigate back
             returnButton.addEventListener("click", () => {
-                if (isViewingInfoSlides && currentSlide > 0) {
-                    let prevSlide = currentSlide - 1;
+                // If on first slide, navigate to return route
+                if (currentSlide === 0) {
+                    window.location.href = returnRouteFromFirstSlide;
+                    return;
+                }
 
-                    while (prevSlide >= 0 && !slides[prevSlide].classList.contains(currentInfoClass)) {
-                        prevSlide--;
-                    }
-
-                    if (prevSlide >= 0 && slides[prevSlide].classList.contains(currentInfoClass)) {
-                        currentSlide = prevSlide;
-                        showSlide(currentSlide);
-                    } else {
-                        currentSlide = parentSlideIndex;
-                        isViewingInfoSlides = false;
-                        currentInfoClass = null;
-                        parentSlideIndex = null;
-                        showSlide(currentSlide);
-                    }
-                } else if (currentSlide > 0) {
+                if (currentSlide > 0) {
                     currentSlide--;
-
-                    while (currentSlide > 0 && isInfoSlide(slides[currentSlide])) {
-                        currentSlide--;
-                    }
-
                     showSlide(currentSlide);
                 }
             });
 
+            // DONE button - navigate to completion route
             if (doneButton) {
                 doneButton.addEventListener("click", () => {
-                    if (isViewingInfoSlides && parentSlideIndex !== null) {
-                        currentSlide = parentSlideIndex;
-                        isViewingInfoSlides = false;
-                        currentInfoClass = null;
-                        parentSlideIndex = null;
-                        showSlide(currentSlide);
-                    } else {
-                        window.location.href = "{{ route('Aerodynamics2Selection') }}";
-                    }
+                    window.location.href = doneButtonRoute;
                 });
             }
 
+            // Initialize - show first slide
             showSlide(currentSlide);
         });
     </script>

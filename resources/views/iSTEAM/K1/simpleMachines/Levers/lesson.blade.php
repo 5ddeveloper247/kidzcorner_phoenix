@@ -796,7 +796,7 @@
                 the thread in the Learning Journal.</li>
         </ul>
 
-        <img class="" src="/assets/images/K1/sm/levers/le45.png" />
+        <img class="t-title" src="/assets/images/K1/sm/levers/le45.png" />
     </div>
 
 

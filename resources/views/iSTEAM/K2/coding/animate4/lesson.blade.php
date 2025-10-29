@@ -778,11 +778,7 @@ programmes for the character.</p>
 
            // Return button
 returnButton.addEventListener("click", () => {
-    // Redirect to route if on slide 1
-    if (currentSlide === 1) {
-        window.location.href = "{{ route('your-route-name') }}";
-        return;
-    }
+    
 
     if (isViewingInfoSlides && currentSlide > 0) {
         // Check if previous slide is also same info/click class

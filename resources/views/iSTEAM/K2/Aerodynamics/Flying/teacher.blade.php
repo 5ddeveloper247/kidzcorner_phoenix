@@ -2,6 +2,10 @@
 @section('title', 'Dynamic Presentation')
 
 @section('content')
+    {{-- title --}}
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">Flying Machines</h2>
+
+
     {{-- sldie 1  --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
@@ -42,7 +46,7 @@
 
     {{-- slide 2 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start text-start">
-        <div class="">
+        <div class="t-title">
             <ul class="list-disc ">
                 <h2 class=" t-title">Preparations:</h2>
                 <h2>Final Project</h2>
@@ -68,7 +72,7 @@
                 </li>
             </ul>
         </div>
-        <div class="">
+        <div class="t-title">
             <div class="flex gap-[3vw] items-center">
                 <ul class="list-disc text-[#F7B94A]">
                     <h2>Some reference for ideas:</h2>
@@ -216,7 +220,7 @@
             returnButton.addEventListener("click", () => {
                 if (currentSlide === 0) {
                     //   First slide pe hai →  
-                    window.location.href = "{{ route('k2Aerodynamics') }}";
+                    window.location.href = "{{ route('FlyingSelection') }}";
                 } else {
                     //   Previous slide pe jao
                     currentSlide--;

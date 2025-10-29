@@ -194,7 +194,7 @@
 												<div class="d-flex align-items-center gap-2">
 													<div class="widgets-social bg-youtube rounded-circle text-white"><i class='bx bxl-youtube'></i>
 													</div>
-													<div class="">
+													<div class="t-title">
 														<h6 class="mb-0">YouTube</h6>
 													</div>
 												</div>
@@ -204,7 +204,7 @@
 												<div class="d-flex align-items-center gap-2">
 													<div class="widgets-social bg-facebook rounded-circle text-white"><i class='bx bxl-facebook'></i>
 													</div>
-													<div class="">
+													<div class="t-title">
 														<h6 class="mb-0">Facebook</h6>
 													</div>
 												</div>
@@ -214,7 +214,7 @@
 												<div class="d-flex align-items-center gap-2">
 													<div class="widgets-social bg-linkedin rounded-circle text-white"><i class='bx bxl-linkedin'></i>
 													</div>
-													<div class="">
+													<div class="t-title">
 														<h6 class="mb-0">Linkedin</h6>
 													</div>
 												</div>
@@ -224,7 +224,7 @@
 												<div class="d-flex align-items-center gap-2">
 													<div class="widgets-social bg-twitter rounded-circle text-white"><i class='bx bxl-twitter'></i>
 													</div>
-													<div class="">
+													<div class="t-title">
 														<h6 class="mb-0">Twitter</h6>
 													</div>
 												</div>
@@ -234,7 +234,7 @@
 												<div class="d-flex align-items-center gap-2">
 													<div class="widgets-social bg-tumblr rounded-circle text-white"><i class='bx bxl-tumblr'></i>
 													</div>
-													<div class="">
+													<div class="t-title">
 														<h6 class="mb-0">Tumblr</h6>
 													</div>
 												</div>
@@ -244,7 +244,7 @@
 												<div class="d-flex align-items-center gap-2">
 													<div class="widgets-social bg-dribbble rounded-circle text-white"><i class='bx bxl-dribbble'></i>
 													</div>
-													<div class="">
+													<div class="t-title">
 														<h6 class="mb-0">Dribbble</h6>
 													</div>
 												</div>
@@ -287,7 +287,7 @@
 												<div class="d-flex align-items-center gap-2">
 													<div class="font-20"><i class="flag-icon flag-icon-in"></i>
 													</div>
-													<div class="">
+													<div class="t-title">
 														<h6 class="mb-0">India</h6>
 													</div>
 												</div>
@@ -307,7 +307,7 @@
 												<div class="d-flex align-items-center gap-2">
 													<div class="font-20"><i class="flag-icon flag-icon-vn"></i>
 													</div>
-													<div class="">
+													<div class="t-title">
 														<h6 class="mb-0">Vietnam</h6>
 													</div>
 												</div>
@@ -317,7 +317,7 @@
 												<div class="d-flex align-items-center gap-2">
 													<div class="font-20"><i class="flag-icon flag-icon-au"></i>
 													</div>
-													<div class="">
+													<div class="t-title">
 														<h6 class="mb-0">Australia</h6>
 													</div>
 												</div>
@@ -327,7 +327,7 @@
 												<div class="d-flex align-items-center gap-2">
 													<div class="font-20"><i class="flag-icon flag-icon-dz"></i>
 													</div>
-													<div class="">
+													<div class="t-title">
 														<h6 class="mb-0">Angola</h6>
 													</div>
 												</div>
@@ -337,7 +337,7 @@
 												<div class="d-flex align-items-center gap-2">
 													<div class="font-20"><i class="flag-icon flag-icon-ax"></i>
 													</div>
-													<div class="">
+													<div class="t-title">
 														<h6 class="mb-0">Aland Islands</h6>
 													</div>
 												</div>
@@ -347,7 +347,7 @@
 												<div class="d-flex align-items-center gap-2">
 													<div class="font-20"><i class="flag-icon flag-icon-ar"></i>
 													</div>
-													<div class="">
+													<div class="t-title">
 														<h6 class="mb-0">Argentina</h6>
 													</div>
 												</div>
@@ -357,7 +357,7 @@
 												<div class="d-flex align-items-center gap-2">
 													<div class="font-20"><i class="flag-icon flag-icon-be"></i>
 													</div>
-													<div class="">
+													<div class="t-title">
 														<h6 class="mb-0">Belgium</h6>
 													</div>
 												</div>
@@ -383,7 +383,7 @@
 									<div>
 										<img src="assets/images/icons/chrome.png" width="35" height="35" alt="" />
 									</div>
-									<div class="">
+									<div class="t-title">
 										<h6 class="mb-0">587</h6>
 										<p class="mb-0">Chrome</p>
 									</div>
@@ -394,7 +394,7 @@
 									<div>
 										<img src="assets/images/icons/firefox.png" width="35" height="35" alt="" />
 									</div>
-									<div class="">
+									<div class="t-title">
 										<h6 class="mb-0">358</h6>
 										<p class="mb-0">Firefox</p>
 									</div>
@@ -405,7 +405,7 @@
 									<div>
 										<img src="assets/images/icons/edge.png" width="35" height="35" alt="" />
 									</div>
-									<div class="">
+									<div class="t-title">
 										<h6 class="mb-0">867</h6>
 										<p class="mb-0">Edge</p>
 									</div>
@@ -416,7 +416,7 @@
 									<div>
 										<img src="assets/images/icons/opera.png" width="35" height="35" alt="" />
 									</div>
-									<div class="">
+									<div class="t-title">
 										<h6 class="mb-0">752</h6>
 										<p class="mb-0">Opera</p>
 									</div>
@@ -427,7 +427,7 @@
 									<div>
 										<img src="assets/images/icons/safari.png" width="35" height="35" alt="" />
 									</div>
-									<div class="">
+									<div class="t-title">
 										<h6 class="mb-0">586</h6>
 										<p class="mb-0">Safari</p>
 									</div>

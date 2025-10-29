@@ -35,6 +35,10 @@ body {
     .w-img {
         max-width: 20vw !important;
     }
+    .w-img2{
+        max-width: 60vw !important;
+        height: 14vw !important;
+    }
 
     .large-img {
         max-width: 20vw !important;
@@ -91,6 +95,8 @@ button {
     font-weight: 400;
     color: white;
     line-height: 100%;
+    z-index: 99;
+    font-size: 1.2vw;
 }
 
 .title {
@@ -101,7 +107,7 @@ button {
 }
 
 .indexTitle {
-    color: #f7b94a; 
+    color: #f7b94a;
 }
 
 #buttons {
@@ -163,8 +169,8 @@ video {
     width: 25vw !important;
 }
 
-.note {
-    font-size: 1.2vw;
+.video2 {
+    width: 20vw !important;
 }
 
 .down-btn-container {
@@ -205,7 +211,7 @@ video {
     padding-inline: 3vw;
     ul,
     p {
-        line-height:1.5vw;
+        line-height: 1.5vw;
         padding-left: 1vw;
         font-size: 1.2vw;
     }
@@ -221,4 +227,3 @@ span {
     height: 3vw;
     border: 1px solid black;
 }
-

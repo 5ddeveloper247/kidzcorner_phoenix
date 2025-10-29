@@ -2,6 +2,10 @@
 @section('title', 'Dynamic Presentation')
 
 @section('content')
+    {{-- title --}}
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">What is Aerodynamics? 1</h2>
+
+
     {{-- sldie 1  --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start text-start">
         <div>
@@ -32,7 +36,7 @@
 
     {{-- slide 2 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start text-start">
-        <div class="">
+        <div class="t-title">
             <h2 class="font-bold t-title">Preparations:</h2>
             <div>
                 <h2 class="mb-0 mt-3">Hands-on Session 2</h2>
@@ -42,7 +46,8 @@
 
                 <ul class="list-disc ">
                     <h2 class="mb-0 mt-3">Hands-on Session 3</h2>
-                    <li class="text-[1.1vw]">Use these items to make a model of an aeroplane wing (steps of making on the next 2
+                    <li class="text-[1.1vw]">Use these items to make a model of an aeroplane wing (steps of making on the
+                        next 2
                         pages):</li>
                     <li class="text-[1.1vw]">A4 paper</li>
                     <li class="text-[1.1vw]">Tape</li>
@@ -50,11 +55,13 @@
                     <li class="text-[1.1vw]">Fan</li>
                     <li class="text-[1.1vw]">Pen knife to make a hole</li>
                     <li class="text-[1.1vw]">String</li>
-                    <li class="text-[1.1vw]">The teacher will have to prepare the items prior to the lesson. Children can assist
+                    <li class="text-[1.1vw]">The teacher will have to prepare the items prior to the lesson. Children can
+                        assist
                         by holding the
                         string during the experiment.</li>
                     <li class="text-[1.1vw]">Refer to this link: <a href="https://www.youtube.com/watch?v=ufeky6EIXQ4"
-                            class="text-amber-400" target="_blank">https://www.youtube.com/watch?v=ufeky6EIXQ4</a> for the <br>
+                            class="text-amber-400" target="_blank">https://www.youtube.com/watch?v=ufeky6EIXQ4</a> for the
+                        <br>
                         aerofoil experiment.
                     </li>
                 </ul>
@@ -213,7 +220,7 @@
             returnButton.addEventListener("click", () => {
                 if (currentSlide === 0) {
                     //   First slide pe hai →  
-                    window.location.href = "{{ route('k2Aerodynamics') }}";
+                    window.location.href = "{{ route('Aerodynamics1Selection') }}";
                 } else {
                     //   Previous slide pe jao
                     currentSlide--;

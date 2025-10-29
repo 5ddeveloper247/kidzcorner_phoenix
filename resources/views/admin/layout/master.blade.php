@@ -45,8 +45,8 @@
             <!-- Include Sidebar -->
         </div>
 
-        <div class="">
-            <div class="">
+        <div class="t-title">
+            <div class="t-title">
                 <div>
                     @include('admin.layout.header')
                     <!-- Include Header -->

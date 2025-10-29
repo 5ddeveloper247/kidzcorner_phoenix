@@ -19,7 +19,7 @@
             </ul>
         </div>
         <h2 class=" ">Keywords:</h2>
-        <div class="flex gap-1 justify-around">
+        <div class="flex gap-[3vw] pl-[1vw]">
             <ul class="list-disc ">
                 <li class="text-[1.1vw]">Programme</li>
                 <li class="text-[1.1vw]">Programming/Coding</li>
@@ -42,7 +42,7 @@
     {{-- slide 2 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start   text-start">
         <ul class="list-disc">
-            <h2 class="">Preparations:</h2>
+            <h2 class="t-title">Preparations:</h2>
             <li class="text-[1.1vw]">The tablets (download ScratchJr application from App Store or Google Play for each tablet; charge all the
                 tablets before you start each lesson)</li>
         </ul>
@@ -59,7 +59,7 @@
     {{-- sldie 3 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start   text-start">
         <ul class="list-disc">
-            <h2 class="">Preparations:</h2>
+            <h2 class="t-title">Preparations:</h2>
             <li class="text-[1.1vw]">Grid Card (print and laminate so that they are reusable)</li>
             <li class="text-[1.1vw]">Whiteboard marker pens</li>
         </ul>
@@ -76,7 +76,7 @@
     {{--  Audio -- https://drive.google.com/file/d/1218KSH8ScV7Zp49d6BqE2XrO8syg3X5q/view?usp=drive_link --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start  gap-[11rem] text-start">
         <ul class="list-disc">
-            <h2 class="">Preparations:</h2>
+            <h2 class="t-title">Preparations:</h2>
             <li class="text-[1.1vw]">Underwater sound (let children search online or use this)</li>
         </ul>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
@@ -86,7 +86,7 @@
     <div class=" slide flex text-2xl text-white flex-col  justify-start items-start text-start gap-[5rem]">
         <div>
             <ul class="list-disc !text-white">
-                <h2 class="">Reminders or advice during hands-on session:</h2>
+                <h2 class="t-title">Reminders or advice during hands-on session:</h2>
                 <li class="text-[1.1vw]">Always hold a tablet with both your hands (to show your care and prevent the
                     tools from spoiling easily).</li>
                 <li class="text-[1.1vw]">Be patient and take turns when using the tablets.</li>
@@ -94,7 +94,7 @@
         </div>
         <div>
             <ul class="!text-start list-disc">
-                <h2 class="">Possible questions during hands-on sessions:</h2>
+                <h2 class="t-title">Possible questions during hands-on sessions:</h2>
                 <li class="text-[1.1vw]">How many commands are there in the app?
                 </li>
                 <li class="text-[1.1vw]">Which programming block allows you to set the speed of a character?</li>

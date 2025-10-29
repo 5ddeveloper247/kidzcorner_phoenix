@@ -51,7 +51,7 @@
             </ul>
         </div>
         <div>
-            <img src="{{ asset('assets/images/K2/livingthings/things/t23.png') }}" alt="Teacher" class="" />
+            <img src="{{ asset('assets/images/K2/livingthings/things/t23.png') }}" alt="Teacher" class="t-title" />
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>

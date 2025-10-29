@@ -238,7 +238,7 @@
     {{-- slide 12 --}}
     <div class="text-white flex flex-col items-center justify-center  text-start text-2xl slide hidden">
         <h2 class=" title stroke">Learning Centre Idea</h2>
-        <div class="">
+        <div class="t-title">
             <div>
                 <h2 class="!text-white title stroke">Fun Facts</h2>
                 <h2 class="t-title">What and how to set up:</h2>
@@ -262,7 +262,7 @@
     {{-- slide 13 --}}
     <div class="text-white flex flex-col items-center justify-center  text-start text-2xl slide hidden">
         <h2 class=" title stroke">Extension Class Activity 1</h2>
-        <div class="">
+        <div class="t-title">
             <div>
                 <h2 class="!text-white title stroke">Let's Sing A Song</h2>
                 <h2 class="t-title">What to do:</h2>
@@ -297,7 +297,7 @@
     {{-- slide 15 --}}
     <div class="text-white flex flex-col items-center justify-center  text-start text-2xl slide hidden">
         <h2 class=" title stroke">Extension Class Activity 2</h2>
-        <div class="">
+        <div class="t-title">
             <div>
                 <h2 class="!text-white title stroke">Which Traits Of You Are Inherited?</h2>
                 <h2>What to prepare:</h2>
@@ -317,7 +317,7 @@
     {{-- slide 16 --}}
     <div class="text-white flex flex-col items-center justify-center  text-start text-2xl slide hidden">
         <h2 class=" title stroke">Extension Class Activity 2</h2>
-        <div class="">
+        <div class="t-title">
             <div>
                 <h2 class="!text-white title stroke">Which Traits Of You Are Inherited?</h2>
                 <h2 class="t-title">What to do:</h2>

@@ -2,8 +2,11 @@
 @section('title', 'Dynamic Presentation')
 
 @section('content')
+    {{-- title --}}
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">Animate a Character (1)</h2>
+
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-3 text-start">
+    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -20,25 +23,21 @@
             </ul>
         </div>
 
-
-        <h2 class=" ">Keywords:</h2>
-        <div class="flex gap-1 justify-around">
-            <ul class="list-disc ">
-
-                <li class="text-[1.3vw]">Programme</li>
-                <li class="text-[1.3vw]">Programming/Coding</li>
-                <li class="text-[1.3vw]">Command</li>
-                <li class="text-[1.3vw]">Animated Story</li>
-            </ul>
-
-
-            <ul class="list-disc ">
-                <li class="text-[1.3vw]">Programming Block</li>
-                <li class="text-[1.3vw]">Programming Area</li>
-                <li class="text-[1.3vw]">Character</li>
-            </ul>
-
-
+        <div>
+            <h2 class=" t-title">Keywords:</h2>
+            <div class="flex gap-[4vw] pl-[1.5vw]">
+                <ul class="list-disc ">
+                    <li class="text-[1.3vw]">Programme</li>
+                    <li class="text-[1.3vw]">Programming/Coding</li>
+                    <li class="text-[1.3vw]">Command</li>
+                    <li class="text-[1.3vw]">Animated Story</li>
+                </ul>
+                <ul class="list-disc ">
+                    <li class="text-[1.3vw]">Programming Block</li>
+                    <li class="text-[1.3vw]">Programming Area</li>
+                    <li class="text-[1.3vw]">Character</li>
+                </ul>
+            </div>
         </div>
 
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
@@ -49,7 +48,7 @@
     {{-- slide 2 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start items-center  text-start">
         <ul class="list-disc">
-            <h2 class="">Preparations:</h2>
+            <h2 class="t-title">Preparations:</h2>
             <li class="text-[1.3vw]">The tablets (download ScratchJr application from App Store or Google Play for each
                 tablet; charge all the
                 tablets before you start each lesson)</li>
@@ -66,7 +65,7 @@
 
 
         <ul class="list-disc !text-start">
-            <h2 class="">Preparations:</h2>
+            <h2 class="t-title">Preparations:</h2>
             <li class="text-[1.3vw]">Grid Card (print and laminate so that they are reusable)</li>
             <li class="text-[1.3vw]">Whiteboard marker pens</li>
 
@@ -82,7 +81,7 @@
 
 
         <ul class="list-disc !text-start">
-            <h2 class="">What you need to know or explore before the lesson:</h2>
+            <h2 class="t-title">What you need to know or explore before the lesson:</h2>
             <li class="text-[1.3vw]">Go through the Blocks Guide in the application of ScratchJr to understand the use
                 of different commands and programming blocks in ScratchJr.</li>
 
@@ -114,7 +113,7 @@
     {{-- slide 5 --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start items-center  text-start">
         <ul class="list-disc ">
-            <h2 class="">Additional info:</h2>
+            <h2 class="t-title">Additional info:</h2>
             <li class="text-[1.3vw]">The following navigation buttons enable you to undo or redo a step.</li>
 
 
@@ -159,7 +158,7 @@
         <div>
             <ul class="list-disc !text-white">
 
-                <h2 class="">Reminders or advice during hands-on session:</h2>
+                <h2 class="t-title">Reminders or advice during hands-on session:</h2>
                 <li class="text-[1.3vw]">Always hold a tablet with both your hands (to show your care and prevent the
                     tools from spoiling easily).</li>
                 <li class="text-[1.3vw]">Be patient and take turns when using the tablets.</li>
@@ -168,7 +167,7 @@
 
         <div>
             <ul class="!text-start list-disc">
-                <h2 class="">Possible questions during hands-on sessions:</h2>
+                <h2 class="t-title">Possible questions during hands-on sessions:</h2>
                 <li class="text-[1.3vw]">What is the name of this application?</li>
                 <li class="text-[1.3vw]">Which command in the app allows you to create movements for a character?</li>
                 <li class="text-[1.3vw]">What happens if you did not add a triggering block to a programme created?</li>
@@ -301,7 +300,7 @@
             returnButton.addEventListener("click", () => {
                 if (currentSlide === 0) {
                     //   First slide pe hai →  
-                    window.location.href = "{{ route('k2coding') }}";
+                    window.location.href = "{{ route('animate1Selection') }}";
                 } else {
                     //   Previous slide pe jao
                     currentSlide--;

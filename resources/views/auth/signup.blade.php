@@ -36,7 +36,7 @@
 										<img src="assets/images/logo-icon.png" width="80" alt="">
 										<h3 class="mt-4 font-weight-bold">Create an Account</h3>
 									</div>
-									<div class="">
+									<div class="t-title">
 										<div class="d-grid">
 											<a class="btn my-4 shadow-sm btn-white" href="javascript:;"> <span class="d-flex justify-content-center align-items-center">
 											<img class="me-2" src="assets/images/icons/search.svg" width="16" alt="Image Description">

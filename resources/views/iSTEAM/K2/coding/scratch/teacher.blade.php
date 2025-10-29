@@ -2,6 +2,10 @@
 @section('title', 'Dynamic Presentation')
 
 @section('content')
+
+    {{-- title --}}
+    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">What is Scratch Jr?</h2>
+
     {{-- sldie 1  --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start text-start">
         <div>
@@ -225,7 +229,7 @@
             returnButton.addEventListener("click", () => {
                 if (currentSlide === 0) {
                     //   First slide pe hai →  
-                    window.location.href = "{{ route('k2coding') }}";
+                    window.location.href = "{{ route('scratchSelection') }}";
                 } else {
                     //   Previous slide pe jao
                     currentSlide--;
