@@ -1,0 +1,7 @@
+[10-Oct-2025 11:22:48 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.33. in /home/souqdevsolutions/public_html/ppt.souqdevsolutions.com/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/souqdevsolutions/public_html/ppt.souqdevsolutions.com/vendor/composer/autoload_real.php(25): require()
+#1 /home/souqdevsolutions/public_html/ppt.souqdevsolutions.com/vendor/autoload.php(22): ComposerAutoloaderInit78af69ee316038c76fa1d1b14c736074::getLoader()
+#2 /home/souqdevsolutions/public_html/ppt.souqdevsolutions.com/public/index.php(14): require('/home/souqdevso...')
+#3 {main}
+  thrown in /home/souqdevsolutions/public_html/ppt.souqdevsolutions.com/vendor/composer/platform_check.php on line 22
