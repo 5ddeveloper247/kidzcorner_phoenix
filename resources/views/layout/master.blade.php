@@ -51,7 +51,21 @@
         #leafs-outside img:nth-child(even) {
             animation: leafDown 1s ease-in-out infinite alternate;
         }
+
+        .hidden {
+        display: none;
+    }
+
+        /* Optional: if you want to hide the whole page until JS is ready */
+        .js-loading body {
+            visibility: hidden;
+        }
     </style>
+
+    <script>
+        // Prevent flash by marking document before styles apply
+        document.documentElement.classList.add('js-loading');
+    </script>
 
 
 </head>
@@ -124,6 +138,20 @@
 
     <!-- Universal Exit Popup Script -->
     <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Remove the loading class now that JS is ready
+            document.documentElement.classList.remove('js-loading');
+
+            // Optionally make sure only the first slide is visible initially
+            const slides = document.querySelectorAll(".slide");
+            if (slides.length > 0) {
+                slides.forEach((slide, i) => {
+                    slide.classList.add("hidden"); 
+                });
+                slides[0].classList.remove("hidden");
+            }
+        });
+
         document.addEventListener("DOMContentLoaded", () => {
             const closeButton = document.getElementById("closeButton");
             const homeButton = document.getElementById("homeButton");
