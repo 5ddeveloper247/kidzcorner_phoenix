@@ -84,7 +84,7 @@
             <img class="absolute top-0 left-0 md:w-[14vw] z-30 transition-opacity cursor-none"
                 src="{{ asset('assets/images/pptimages/bg-leaf-1.png') }}" />
 
-            <img class="absolute top-[-1vw] left-[17vw] md:w-[13vw] rotate-[11deg] z-30 transition-opacity cursor-none"
+            <img class="absolute top-[-1vw] left-[17vw] w-[13vw] rotate-[11deg] z-30 transition-opacity cursor-none"
                 src="{{ asset('assets/images/pptimages/leaf8.png') }}" />
 
             <img class="absolute top-0 left-[35vw] md:w-[10vw] z-30 transition-opacity cursor-none"
