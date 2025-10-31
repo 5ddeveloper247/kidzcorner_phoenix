@@ -4,7 +4,7 @@
 @section('content')
 
     {{-- title --}}
-    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">Rainbows</h2>
+    <h2 class="top-title stroke">Rainbows</h2>
 
     {{-- slide 1 --}}
     <div class="flex flex-col text-start text-2xl text-white slide hidden t-slide">

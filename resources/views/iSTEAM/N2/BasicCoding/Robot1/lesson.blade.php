@@ -5,7 +5,7 @@
 
 @section('content')
     {{-- title --}}
-    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">Programme a Robot 1</h2>
+    <h2 class="top-title stroke">Programme a Robot 1</h2>
 
 
     {{-- Slide 1 --}}

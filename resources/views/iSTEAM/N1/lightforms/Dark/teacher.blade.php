@@ -4,7 +4,7 @@
 @section('content')
 
     {{-- title --}}
-    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">Glow in the Dark</h2>
+    <h2 class="top-title stroke">Glow in the Dark</h2>
 
 
     {{-- slide 1 --}}

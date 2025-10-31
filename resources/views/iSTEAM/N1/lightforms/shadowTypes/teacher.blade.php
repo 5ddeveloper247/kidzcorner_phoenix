@@ -3,7 +3,7 @@
 
 @section('content')
     {{-- title --}}
-    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">Different Types of Shadows</h2>
+    <h2 class="top-title stroke">Different Types of Shadows</h2>
 
     {{-- slide 29 --}}
     <div class="flex flex-col justify-start text-start text-2xl text-white slide hidden t-slide">

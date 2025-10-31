@@ -3,7 +3,7 @@
 
 @section('content')
     {{-- title --}}
-    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">What is Light</h2>
+    <h2 class="top-title stroke">What is Light?</h2>
 
 
     {{-- slide 1  --}}
@@ -53,7 +53,7 @@
                 <h2 class="t-title ">Links to Songs:</h2>
                 <ul class="list-disc ">
                     <li>
-                        <strong>Mr Golden Sun</strong>
+                    Mr Golden Sun
                         <ul class="list-disc space-y-1 pl-6">
                             <li>Sun: <a href="https://youtu.be/pIrC_OhEHJM" target="_blank"
                                     class="text-blue-600 underline">Watch here</a></li>
@@ -62,7 +62,7 @@
                         </ul>
                     </li>
                     <li>
-                        <strong>Twinkle Twinkle Little Star</strong>
+                    Twinkle Twinkle Little Star
                         <a href="https://www.youtube.com/watch?v=NiRf84t4i5I" target="_blank"
                             class="text-blue-600 underline">Watch here</a>
                     </li>
@@ -78,18 +78,18 @@
     <div class="slide t-slide text-start text-white">
         <div>
             <h2 class="t-title ">Notes:</h2>
-            <ul class="list-disc">
-                <li class="flex whitespace-nowrap gap-3 mb-2">
+            <ul class="list-disc space-y-3">
+                <li class="flex whitespace-nowrap items-center ">
                     If you see
-                    <span>
+                    <span class="px-[.5vw]">
                         <img class="video-btn" src="{{ asset('assets/images/pptimages/video.png') }}" />
                     </span>
                     next to a picture, click on the picture to watch the video.
                 </li>
 
-                <li class="flex whitespace-nowrap gap-3 mb-2">
+                <li class="flex whitespace-nowrap items-center ">
                     If you see
-                    <span>
+                    <span class="px-[.5vw]">
                         <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="info-btn" />
                     </span>
                     , click on it for additional information or activity.
@@ -105,14 +105,14 @@
                 <li>
                     Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
                 </li>
-
-                <li class="flex whitespace-nowrap gap-3">
-                    Click on this shortcut
-                    <span>
+                <li class="flex items-center whitespace-nowrap">
+                    Click on this shortcut icon
+                    <span  class="px-[.5vw]">
                         <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" class="home-btn" />
                     </span>
-                    if you need to go to some parts <br> of the lesson quickly.
+                     if you need to go to some parts of the lesson  quickly.
                 </li>
+
             </ul>
         </div>
 
@@ -125,20 +125,20 @@
     <div class=" slide text-white flex flex-col justify-start t-slide text-start ">
         <h2 class="title stroke text-center">Learning Centre Idea </h2>
 
-        <h1 class=" t-title ">Let’s sort!</h1>
+        <h1 class="title stroke !text-white ">Let’s sort!</h1>
         <div>
-            <h2 class=" t-title ">Preparations for Class Activity I:</h2>
+            <h2 class=" t-title !text-[#f7b94a] ">Preparations for Class Activity I:</h2>
             <p>Place pictures of various items such as pot of plant, bottle, shoe, sock, box, elephant, lamp, light
                 bulb, sun, stars, lightning, firefly, ceiling light, handphone, TV.</p>
         </div>
 
         <div class="flex w-[100%] items-center justify-between">
             <div>
-                <h2 class=" t-title ">What to do:</h2>
+                <h2 class=" t-title !text-[#f7b94a] ">What to do:</h2>
                 <ul>
                     <li>
                         <strong>*</strong> Invite children to pick up pictures and sort them into groups:
-                        <ul class="mt-2 list-[lower-alpha] space-y-1 pl-6">
+                        <ul class="mt-2 list-[lower-alpha] space-y-1 !pl-[3vw]">
                             <li>Gives light or Does not give light</li>
                             <li>Natural light or Man-made light</li>
                         </ul>

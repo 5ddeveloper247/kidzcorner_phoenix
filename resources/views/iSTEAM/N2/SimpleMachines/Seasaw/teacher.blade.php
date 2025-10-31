@@ -3,7 +3,7 @@
 
 @section('content')
     {{-- title --}}
-    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">A Seasaw</h2>
+    <h2 class="top-title stroke">A Seasaw</h2>
 
     {{-- sldie 1 --}}
     <div class=" slide flex text-2xl text-white flex-col t-slide justify-start text-start">

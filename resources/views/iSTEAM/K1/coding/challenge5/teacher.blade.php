@@ -3,7 +3,7 @@
 
 @section('content')
     {{-- title --}}
-    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">Coding Challenge (5)</h2>
+    <h2 class="top-title stroke">Coding Challenge (5)</h2>
 
 
     {{-- sldie 1  --}}

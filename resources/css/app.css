@@ -20,10 +20,13 @@ body {
 
 .teacher-img1 {
     bottom: 0px;
-    right: 0vw;
+    right: -4vw;
     z-index: 100;
     width: 20vw;
     aspect-ratio: unset !important;
+}
+.t-slide span img{
+    max-width: 2vw !important;
 }
 
 .slide {
@@ -35,7 +38,7 @@ body {
     .w-img {
         max-width: 20vw !important;
     }
-    .w-img2{
+    .w-img2 {
         max-width: 60vw !important;
         height: 14vw !important;
     }
@@ -69,6 +72,16 @@ body {
         max-width: 38vw !important;
         aspect-ratio: 9 / 5 !important;
     }
+}
+
+.top-title {
+    font-size: 3vw !important;
+    color: #f7b94a;
+    position: fixed !important;
+    top: 4vh !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    z-index: 999999 !important;
 }
 
 a,
@@ -133,11 +146,16 @@ button {
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: space-around;
+    height: 40vh;
 }
 
-#topDiv div,
+#topDiv div{
+    font-size: 3vw;
+}
 #topDiv h2 {
-    font-size: 2.5vw !important;
+    line-height: 100%;
+    font-size: 2vw !important;
 }
 
 #Lesson img {
@@ -174,8 +192,11 @@ video {
 }
 
 .down-btn-container {
-    position: absolute;
-    bottom: -2vw;
+    position: fixed;
+    bottom: 5vw; /* adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
 }
 
 .slide {

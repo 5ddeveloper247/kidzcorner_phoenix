@@ -2,7 +2,7 @@
 @section('title', 'Dynamic Presentation')
 
 @section('content')
-    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">How do Animal Grow</h2>
+    <h2 class="top-title stroke">How do Animal Grow</h2>
 
     {{-- Slide 1 --}}
     <div class="flex flex-col items-center justify-between h-[50vh] slide hidden">

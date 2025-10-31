@@ -3,7 +3,7 @@
 
 @section('content')
     {{-- title --}}
-    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">Roler Coasters</h2>
+    <h2 class="top-title stroke">Roler Coasters</h2>
 
 
     {{-- Slide 1 --}}

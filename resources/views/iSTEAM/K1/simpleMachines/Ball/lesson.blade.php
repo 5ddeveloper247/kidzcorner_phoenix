@@ -3,7 +3,7 @@
 
 @section('content')
     {{-- title --}}
-    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">Launch a Ball Machine</h2>
+    <h2 class="top-title stroke">Launch a Ball Machine</h2>
 
 
     {{-- Slide 1 --}}

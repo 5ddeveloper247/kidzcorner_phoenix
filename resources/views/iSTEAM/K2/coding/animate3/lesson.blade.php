@@ -3,7 +3,7 @@
 
 @section('content')
     {{-- title --}}
-    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">Animate a Character (3)</h2>
+    <h2 class="top-title stroke">Animate a Character (3)</h2>
 
 
     {{-- Slide 1 --}}

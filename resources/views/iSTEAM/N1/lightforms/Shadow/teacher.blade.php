@@ -3,7 +3,7 @@
 
 @section('content')
     {{-- title --}}
-    <h2 class="title !text-[3vw] top-title stroke absolute top-[5vh] z-[100]">Light and Shadow</h2>
+    <h2 class="top-title stroke">Light and Shadow</h2>
 
     <!-- Slide 30 -->
     <div class="slide t-slide hidden flex flex-col justify-start text-start text-white">
@@ -119,7 +119,7 @@
                     <span>
                         <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" class="home-btn" />
                     </span>
-                    ,if you need to go to the lesson quickly.
+                    , if you need to go to the lesson quickly.
                 </li>
             </ul>
         </div>
