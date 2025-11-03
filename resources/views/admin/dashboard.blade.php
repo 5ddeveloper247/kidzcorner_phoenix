@@ -35,11 +35,14 @@
             top: -7px !important;
             /* transition: 800ms ease-in; */
         }
+        .mascot-img{
+             transition: all 700ms ease-in-out; 
+        }
 
         .mascot-container:hover .mascot-img {
             bottom: .1vw !important;
             right: 1vw;
-            transition: 700ms ease-in;
+            /* transition: 700ms ease-in-out;/ */
         }
 
         .mascot-container2:hover .mascot-img2 {
