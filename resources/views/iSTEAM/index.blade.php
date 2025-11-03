@@ -64,6 +64,22 @@
         .page-content.visible {
             opacity: 1;
         }
+
+        @keyframes arrowMove {
+
+            0%,
+            100% {
+                transform: translateX(0);
+            }
+
+            50% {
+                transform: translateX(0.5vw);
+            }
+        }
+
+        .arrow-animate {
+            animation: arrowMove 1.2s ease-in-out infinite;
+        }
     </style>
 @endpush
 
@@ -75,7 +91,7 @@
         </video>
     </div>
 
-    <div class="grid grid-cols-2 gap-[3vw]">
+    <div class="grid grid-cols-2 gap-[3vw] z-[100]">
 
         <a href="{{ route('N1') }}" style="background-image: url('{{ asset('/assets/images/pptimages/n1.png') }}');"
             class=" bg-no-repeat bg-contain bg-center w-[15vw] h-[13vw] relative transition hover:brightness-110 ">
@@ -97,6 +113,21 @@
             class="bg-no-repeat bg-contain bg-center w-[15vw] h-[13vw] relative transition hover:brightness-110 ">
             <p class="text-[#AF6E39] md:text-[2.5vw] absolute top-[4vw] left-[3.8vw]">K2</p>
         </a>
+
+        <div
+            class="group absolute left-[-21.5vw] top-1/2 -translate-y-1/2
+         w-[10vw] h-[10vw] flex items-center transition-all duration-500 hover:left-[-19vw]">
+
+            <button class="db-btn w-[10vw] px-[2vw] h-[4vw] text-white rotate-[90deg]"
+                style="background: linear-gradient(229deg, rgb(87,173,137) 0%, rgba(58,111,93,1) 50%, rgba(247,185,74,1) 100%); border-radius:2.5vw 2.5vw 0 0 ">
+                DASHBOARD
+            </button>
+
+            <i class="bx bx-arrow-left-stroke text-[2vw] text-[#274F4A] -ml-[3.5vw] arrow-animate"></i>
+        </div>
+
+
+
     </div>
 
 
@@ -122,6 +153,13 @@
         const preloader = document.getElementById("preloader");
         const pageContent = document.querySelector(".page-content");
         const video = document.querySelector("video");
+        const dashBoard = document.querySelector(".db-btn");
+
+        if (dashBoard) {
+            dashBoard.addEventListener("click", () => {
+                window.location.href = "{{ route('admin.dashboard') }}";
+            });
+        }
 
         // Mute the video after 7 seconds
         setTimeout(() => video.muted = true, 9000);

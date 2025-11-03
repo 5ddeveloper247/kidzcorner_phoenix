@@ -20,8 +20,32 @@
         .action-buttons .btn:last-child {
             margin-right: 0;
         }
-        h2{
+
+        h2 {
             font-size: 16px !important;
+        }
+
+        .mascot-container:hover .left-tilt {
+            transform: rotate(-13deg);
+            /* transition: 800ms ease-in; */
+        }
+
+        .mascot-container2:hover .right-tilt {
+            transform: rotate(15deg);
+            top: -7px !important;
+            /* transition: 800ms ease-in; */
+        }
+
+        .mascot-container:hover .mascot-img {
+            bottom: .1vw !important;
+            right: 1vw;
+            transition: 700ms ease-in;
+        }
+
+        .mascot-container2:hover .mascot-img2 {
+            top: -15px !important;
+            /* right: 1px !important; */
+            transition: 700ms ease-in;
         }
     </style>
 @endpush
@@ -38,11 +62,35 @@
                 <div class="page-content-wrapper">
                     <div class="page-content">
                         <div class="row">
-                            <div class="col-12 col-lg-3">
+                            <div class="col-12 col-lg-3 position-relative">
                                 <a href="{{ route('isteam') }}">
-                                    <div class="card radius-15 overflow-hidden" style="min-height: 170px;">
-                                        <div class="card-body d-flex justify-content-center align-items-center">
-                                            <h2 class="mb-0">iSTEAM</h2>
+                                    <div class="card radius-15 overflow-hidden"
+                                        style="min-height: 170px; background: #f2e9cc">
+                                        <div
+                                            class="card-body d-flex justify-content-center align-items-center mascot-container">
+                                            <img src="{{ asset('assets/images/pptimages/isteam4.png') }}"
+                                                style="width: 16vw; height:9vw;">
+                                            <img src="{{ asset('assets/images/pptimages/leaf15.png') }}"
+                                                class="position-absolute top-0" style="width: 2.5vw; right:4.5vw;">
+                                            <img src="{{ asset('assets/images/pptimages/leaf3.png') }}"
+                                                class="position-absolute top-0 end-0" style="width: 3vw;">
+                                            <img src="{{ asset('assets/images/pptimages/leaf8.png') }}"
+                                                class="position-absolute top-0" style="width: 3vw; left:3.5vw;">
+                                            <img src="{{ asset('assets/images/pptimages/bg-leaf-1.png') }}"
+                                                class="position-absolute top-0 start-0" style="width: 3vw;">
+                                            <img src="{{ asset('assets/images/pptimages/bg-leaf-2.png') }}"
+                                                class="position-absolute top-0 " style="width: 2.5vw; right:11vw;">
+                                            <img src="{{ asset('assets/images/pptimages/leaf15.png') }}"
+                                                class="position-absolute bottom-0"
+                                                style="width: 2.5vw; transform:rotate(180deg);">
+                                            <img src="{{ asset('assets/images/pptimages/leaf1.png') }}"
+                                                class="position-absolute  start-0" style="width: 2vw; bottom:-.5vw;">
+                                            <img src="{{ asset('assets/images/pptimages/leaf11.png') }}"
+                                                class="position-absolute end-0 left-tilt"
+                                                style="width: 2.5vw; bottom:-1vw; z-index:10;">
+                                            <img src="{{ asset('assets/images/pptimages/mascot.png') }}"
+                                                class="position-absolute mascot-img"
+                                                style="width: 3.5vw; bottom:-2.9vw; right:-1vw; transform:rotate(-25deg)">
                                         </div>
                                     </div>
                                 </a>
@@ -50,9 +98,37 @@
 
                             <div class="col-12 col-lg-3">
                                 <a>
-                                    <div class="card radius-15 overflow-hidden" style="min-height: 170px;">
-                                        <div class="card-body d-flex justify-content-center align-items-center">
-                                            <h2 class="mb-0">MICET</h2>
+                                    <div class="card radius-15 overflow-hidden"
+                                        style="min-height: 170px; background:#f2e9cc;">
+                                        <div
+                                            style="position: absolute; inset: 0; backdrop-filter: blur(8px); background: rgba(255, 255, 255, 0.2);z-index: 40;">
+                                        </div>
+                                        <div
+                                            class="card-body d-flex justify-content-center align-items-center mascot-container2">
+                                            <img src="{{ asset('assets/images/pptimages/micet-gif.gif') }}"
+                                                style="width: 16vw;">
+                                            <img src="{{ asset('assets/images/pptimages/leaf15.png') }}"
+                                                class="position-absolute top-0 " style="width: 2.5vw; right:4.5vw;">
+                                            <img src="{{ asset('assets/images/pptimages/leaf3.png') }}"
+                                                class="position-absolute top-0 end-0 right-tilt"
+                                                style="width: 3vw; z-index:10;">
+                                            <img src="{{ asset('assets/images/pptimages/leaf8.png') }}"
+                                                class="position-absolute top-0" style="width: 3vw; left:3.5vw;">
+                                            <img src="{{ asset('assets/images/pptimages/bg-leaf-1.png') }}"
+                                                class="position-absolute top-0 start-0" style="width: 3vw;">
+                                            <img src="{{ asset('assets/images/pptimages/bg-leaf-2.png') }}"
+                                                class="position-absolute top-0 " style="width: 2.5vw; right:11vw;">
+                                            <img src="{{ asset('assets/images/pptimages/leaf15.png') }}"
+                                                class="position-absolute bottom-0"
+                                                style="width: 2.5vw; transform:rotate(180deg);">
+                                            <img src="{{ asset('assets/images/pptimages/leaf1.png') }}"
+                                                class="position-absolute  start-0" style="width: 2vw; bottom:-.5vw;">
+                                            <img src="{{ asset('assets/images/pptimages/leaf11.png') }}"
+                                                class="position-absolute end-0 left-tilt"
+                                                style="width: 2.5vw; bottom:-1vw; z-index:10;">
+                                            <img src="{{ asset('assets/images/pptimages/mascot.png') }}"
+                                                class="position-absolute mascot-img2"
+                                                style="width: 3.5vw; top:-50px; right:0px; transform:rotate(180deg)">
                                         </div>
                                     </div>
                                 </a>
@@ -60,9 +136,35 @@
 
                             <div class="col-12 col-lg-3">
                                 <a>
-                                    <div class="card radius-15 overflow-hidden" style="min-height: 170px;">
-                                        <div class="card-body d-flex justify-content-center align-items-center">
-                                            <h2 class="mb-0">PHIONICS L1</h2>
+                                    <div class="card radius-15 overflow-hidden"
+                                        style="min-height: 170px;  background:#f2e9cc; ">
+                                         <div
+                                            style="position: absolute; inset: 0; backdrop-filter: blur(8px); background: rgba(255, 255, 255, 0.2);z-index: 40;">
+                                        </div>
+                                        <div
+                                            class="card-body d-flex justify-content-center align-items-center mascot-container">
+                                            <img src="{{ asset('assets/images/pptimages/phonic2.png') }}">
+                                            <img src="{{ asset('assets/images/pptimages/leaf15.png') }}"
+                                                class="position-absolute top-0" style="width: 2.5vw; right:4.5vw;">
+                                            <img src="{{ asset('assets/images/pptimages/leaf3.png') }}"
+                                                class="position-absolute top-0 end-0" style="width: 3vw;">
+                                            <img src="{{ asset('assets/images/pptimages/leaf8.png') }}"
+                                                class="position-absolute top-0" style="width: 3vw; left:3.5vw;">
+                                            <img src="{{ asset('assets/images/pptimages/bg-leaf-1.png') }}"
+                                                class="position-absolute top-0 start-0" style="width: 3vw;">
+                                            <img src="{{ asset('assets/images/pptimages/bg-leaf-2.png') }}"
+                                                class="position-absolute top-0 " style="width: 2.5vw; right:11vw;">
+                                            <img src="{{ asset('assets/images/pptimages/leaf15.png') }}"
+                                                class="position-absolute bottom-0"
+                                                style="width: 2.5vw; transform:rotate(180deg);">
+                                            <img src="{{ asset('assets/images/pptimages/leaf1.png') }}"
+                                                class="position-absolute  start-0" style="width: 2vw; bottom:-.5vw;">
+                                            <img src="{{ asset('assets/images/pptimages/leaf11.png') }}"
+                                                class="position-absolute end-0 "
+                                                style="width: 2.5vw; bottom:-1vw; z-index:10;">
+                                            <img src="{{ asset('assets/images/pptimages/mascot.png') }}"
+                                                class="position-absolute mascot-img"
+                                                style="width: 3.5vw; bottom:-2.9vw; right:-1vw; transform:rotate(-25deg)">
                                         </div>
                                     </div>
                                 </a>
@@ -70,9 +172,17 @@
 
                             <div class="col-12 col-lg-3">
                                 <a>
-                                    <div class="card radius-15 overflow-hidden" style="min-height: 170px;">
-                                        <div class="card-body d-flex justify-content-center align-items-center">
-                                            <h2 class="mb-0">PHIONICS L2</h2>
+                                    <div class="card radius-15 overflow-hidden"
+                                        style="min-height: 170px;  background: url('{{ asset('assets/images/K2/exit.png') }}') no-repeat center center; background-size: 125% 125%;">
+                                         <div
+                                            style="position: absolute; inset: 0; backdrop-filter: blur(8px); background: rgba(255, 255, 255, 0.2);z-index: 40;">
+                                        </div>
+                                        <div
+                                            class="card-body d-flex position-relative justify-content-center align-items-center mascot-container">
+                                            <img src="{{ asset('assets/images/pptimages/phonic2.gif') }}"
+                                                style="z-index:10;">
+                                            <img src="{{ asset('assets/images/pptimages/stone.png') }}"
+                                                class="position-absolute" style="width: 70px; bottom:10px; left:30px;">
                                         </div>
                                     </div>
                                 </a>
@@ -80,59 +190,217 @@
 
 
                             <div class="col-12 col-lg-3">
-                                  <a >
-                                    <div class="card radius-15 overflow-hidden" style="min-height: 170px;">
-                                        <div class="card-body d-flex justify-content-center align-items-center">
-                                            <h2 class="mb-0">MICET APPLET</h2>
+                                <a>
+                                    <div class="card radius-15 overflow-hidden"
+                                        style="min-height: 170px; background:#f2e9cc; ">
+                                         <div
+                                            style="position: absolute; inset: 0; backdrop-filter: blur(8px); background: rgba(255, 255, 255, 0.2);z-index: 40;">
+                                        </div>
+                                        <div
+                                            class="card-body d-flex justify-content-center align-items-center mascot-container">
+                                            {{-- <div class="w-50 h-50" style="background: url('{{ asset('assets/images/pptimages/stoneboard.png') }}')"> --}}
+                                            <img src="{{ asset('assets/images/pptimages/micet.png') }}">
+                                            {{-- </div> --}}
+                                            <img src="{{ asset('assets/images/pptimages/leaf15.png') }}"
+                                                class="position-absolute top-0" style="width: 2.5vw; right:4.5vw;">
+                                            <img src="{{ asset('assets/images/pptimages/leaf3.png') }}"
+                                                class="position-absolute top-0 end-0" style="width: 3vw;">
+                                            <img src="{{ asset('assets/images/pptimages/leaf8.png') }}"
+                                                class="position-absolute top-0" style="width: 3vw; left:3.5vw;">
+                                            <img src="{{ asset('assets/images/pptimages/bg-leaf-1.png') }}"
+                                                class="position-absolute top-0 start-0" style="width: 3vw;">
+                                            <img src="{{ asset('assets/images/pptimages/bg-leaf-2.png') }}"
+                                                class="position-absolute top-0 " style="width: 2.5vw; right:11vw;">
+                                            <img src="{{ asset('assets/images/pptimages/leaf15.png') }}"
+                                                class="position-absolute bottom-0"
+                                                style="width: 2.5vw; transform:rotate(180deg);">
+                                            <img src="{{ asset('assets/images/pptimages/leaf1.png') }}"
+                                                class="position-absolute  start-0" style="width: 2vw; bottom:-.5vw;">
+                                            <img src="{{ asset('assets/images/pptimages/leaf11.png') }}"
+                                                class="position-absolute end-0 "
+                                                style="width: 2.5vw; bottom:-1vw; z-index:10;">
+                                            <img src="{{ asset('assets/images/pptimages/mascot.png') }}"
+                                                class="position-absolute mascot-img"
+                                                style="width: 3.5vw; bottom:-2.9vw; right:-1vw; transform:rotate(-25deg)">
                                         </div>
                                     </div>
                                 </a>
                             </div>
 
                             <div class="col-12 col-lg-3">
-                                 <a >
-                                    <div class="card radius-15 overflow-hidden" style="min-height: 170px;">
+                                <a>
+                                    <div class="card radius-15 overflow-hidden"
+                                        style=" min-height: 170px;  ">
+                                         <div
+                                            style="position: absolute; inset: 0; backdrop-filter: blur(8px); background: rgba(255, 255, 255, 0.2);z-index: 40;">
+                                        </div>
                                         <div class="card-body d-flex justify-content-center align-items-center">
-                                            <h2 class="mb-0">SCIENCE EN</h2>
+                                            <img src="{{ asset('assets/images/pptimages/en3.png') }}" style="height: 9vw;">
+                                            <img src="{{ asset('assets/images/pptimages/leaf15.png') }}"
+                                                class="position-absolute top-0" style="width: 2.5vw; right:4.5vw;">
+                                            <img src="{{ asset('assets/images/pptimages/leaf3.png') }}"
+                                                class="position-absolute top-0 end-0" style="width: 3vw;">
+                                            <img src="{{ asset('assets/images/pptimages/leaf8.png') }}"
+                                                class="position-absolute top-0" style="width: 3vw; left:3.5vw;">
+                                            <img src="{{ asset('assets/images/pptimages/bg-leaf-1.png') }}"
+                                                class="position-absolute top-0 start-0" style="width: 3vw;">
+                                            <img src="{{ asset('assets/images/pptimages/bg-leaf-2.png') }}"
+                                                class="position-absolute top-0 " style="width: 2.5vw; right:11vw;">
+                                            <img src="{{ asset('assets/images/pptimages/leaf15.png') }}"
+                                                class="position-absolute bottom-0"
+                                                style="width: 2.5vw; transform:rotate(180deg);">
+                                            <img src="{{ asset('assets/images/pptimages/leaf1.png') }}"
+                                                class="position-absolute  start-0" style="width: 2vw; bottom:-.5vw;">
+                                            <img src="{{ asset('assets/images/pptimages/leaf11.png') }}"
+                                                class="position-absolute end-0 "
+                                                style="width: 2.5vw; bottom:-1vw; z-index:10;">
+                                            <img src="{{ asset('assets/images/pptimages/mascot.png') }}"
+                                                class="position-absolute mascot-img"
+                                                style="width: 3.5vw; bottom:-2.9vw; right:-1vw; transform:rotate(-25deg)">
                                         </div>
                                     </div>
                                 </a>
                             </div>
 
                             <div class="col-12 col-lg-3">
-                                  <a >
-                                    <div class="card radius-15 overflow-hidden" style="min-height: 170px;">
+                                <a>
+                                    <div class="card radius-15 overflow-hidden"
+                                        style="min-height: 170px; background:#f2e9cc; ">
+                                         <div
+                                            style="position: absolute; inset: 0; backdrop-filter: blur(8px); background: rgba(255, 255, 255, 0.2);z-index: 40;">
+                                        </div>
                                         <div class="card-body d-flex justify-content-center align-items-center">
-                                            <h2 class="mb-0">SCIENCE CN</h2>
+                                            <img src="{{ asset('assets/images/pptimages/cn3.png') }}">
+                                            <img src="{{ asset('assets/images/pptimages/leaf15.png') }}"
+                                                class="position-absolute top-0" style="width: 2.5vw; right:4.5vw;">
+                                            <img src="{{ asset('assets/images/pptimages/leaf3.png') }}"
+                                                class="position-absolute top-0 end-0" style="width: 3vw;">
+                                            <img src="{{ asset('assets/images/pptimages/leaf8.png') }}"
+                                                class="position-absolute top-0" style="width: 3vw; left:3.5vw;">
+                                            <img src="{{ asset('assets/images/pptimages/bg-leaf-1.png') }}"
+                                                class="position-absolute top-0 start-0" style="width: 3vw;">
+                                            <img src="{{ asset('assets/images/pptimages/bg-leaf-2.png') }}"
+                                                class="position-absolute top-0 " style="width: 2.5vw; right:11vw;">
+                                            <img src="{{ asset('assets/images/pptimages/leaf15.png') }}"
+                                                class="position-absolute bottom-0"
+                                                style="width: 2.5vw; transform:rotate(180deg);">
+                                            <img src="{{ asset('assets/images/pptimages/leaf1.png') }}"
+                                                class="position-absolute  start-0" style="width: 2vw; bottom:-.5vw;">
+                                            <img src="{{ asset('assets/images/pptimages/leaf11.png') }}"
+                                                class="position-absolute end-0 "
+                                                style="width: 2.5vw; bottom:-1vw; z-index:10;">
+                                            <img src="{{ asset('assets/images/pptimages/mascot.png') }}"
+                                                class="position-absolute mascot-img"
+                                                style="width: 3.5vw; bottom:-2.9vw; right:-1vw; transform:rotate(-25deg)">
                                         </div>
                                     </div>
                                 </a>
                             </div>
 
                             <div class="col-12 col-lg-3">
-                                <a >
-                                <div class="card radius-15 overflow-hidden" style="min-height: 170px;">
-                                    <div class="card-body d-flex justify-content-center align-items-center">
-                                        <h2 class="mb-0">SCIENCE APPLET</h2>
-                                    </div>
-                                </div>
-                                </a>
-                            </div>
-
-                            <div class="col-12 col-lg-3">
-                                <a >
-                                    <div class="card radius-15 overflow-hidden" style="min-height: 170px;">
+                                <a>
+                                    <div class="card radius-15 overflow-hidden"
+                                        style="min-height: 170px; background:#f2e9cc; ">
+                                         <div
+                                            style="position: absolute; inset: 0; backdrop-filter: blur(8px); background: rgba(255, 255, 255, 0.2);z-index: 40;">
+                                        </div>
                                         <div class="card-body d-flex justify-content-center align-items-center">
-                                            <h2 class="mb-0">CRWR</h2>
+                                            <img src="{{ asset('assets/images/pptimages/sci.png') }}">
+                                            <img src="{{ asset('assets/images/pptimages/leaf15.png') }}"
+                                                class="position-absolute top-0" style="width: 2.5vw; right:4.5vw;">
+                                            <img src="{{ asset('assets/images/pptimages/leaf3.png') }}"
+                                                class="position-absolute top-0 end-0" style="width: 3vw;">
+                                            <img src="{{ asset('assets/images/pptimages/leaf8.png') }}"
+                                                class="position-absolute top-0" style="width: 3vw; left:3.5vw;">
+                                            <img src="{{ asset('assets/images/pptimages/bg-leaf-1.png') }}"
+                                                class="position-absolute top-0 start-0" style="width: 3vw;">
+                                            <img src="{{ asset('assets/images/pptimages/bg-leaf-2.png') }}"
+                                                class="position-absolute top-0 " style="width: 2.5vw; right:11vw;">
+                                            <img src="{{ asset('assets/images/pptimages/leaf15.png') }}"
+                                                class="position-absolute bottom-0"
+                                                style="width: 2.5vw; transform:rotate(180deg);">
+                                            <img src="{{ asset('assets/images/pptimages/leaf1.png') }}"
+                                                class="position-absolute  start-0" style="width: 2vw; bottom:-.5vw;">
+                                            <img src="{{ asset('assets/images/pptimages/leaf11.png') }}"
+                                                class="position-absolute end-0 "
+                                                style="width: 2.5vw; bottom:-1vw; z-index:10;">
+                                            <img src="{{ asset('assets/images/pptimages/mascot.png') }}"
+                                                class="position-absolute mascot-img"
+                                                style="width: 3.5vw; bottom:-2.9vw; right:-1vw; transform:rotate(-25deg)">
                                         </div>
                                     </div>
                                 </a>
                             </div>
+
                             <div class="col-12 col-lg-3">
-                                 <a >
-                                    <div class="card radius-15 overflow-hidden" style="min-height: 170px;">
+                                <a>
+                                    <div class="card radius-15 overflow-hidden"
+                                        style="min-height: 170px; background:#f2e9cc; ">
+                                         <div
+                                            style="position: absolute; inset: 0; backdrop-filter: blur(8px); background: rgba(255, 255, 255, 0.2);z-index: 40;">
+                                        </div>
+
                                         <div class="card-body d-flex justify-content-center align-items-center">
-                                            <h2 class="mb-0">HanYu - PinYin</h2>
+                                            <img src="{{ asset('assets/images/pptimages/crwr.gif') }}"
+                                                style="height: 9vw;">
+                                            <img src="{{ asset('assets/images/pptimages/leaf15.png') }}"
+                                                class="position-absolute top-0" style="width: 2.5vw; right:4.5vw;">
+                                            <img src="{{ asset('assets/images/pptimages/leaf3.png') }}"
+                                                class="position-absolute top-0 end-0" style="width: 3vw;">
+                                            <img src="{{ asset('assets/images/pptimages/leaf8.png') }}"
+                                                class="position-absolute top-0" style="width: 3vw; left:3.5vw;">
+                                            <img src="{{ asset('assets/images/pptimages/bg-leaf-1.png') }}"
+                                                class="position-absolute top-0 start-0" style="width: 3vw;">
+                                            <img src="{{ asset('assets/images/pptimages/bg-leaf-2.png') }}"
+                                                class="position-absolute top-0 " style="width: 2.5vw; right:11vw;">
+                                            <img src="{{ asset('assets/images/pptimages/leaf15.png') }}"
+                                                class="position-absolute bottom-0"
+                                                style="width: 2.5vw; transform:rotate(180deg);">
+                                            <img src="{{ asset('assets/images/pptimages/leaf1.png') }}"
+                                                class="position-absolute  start-0" style="width: 2vw; bottom:-.5vw;">
+                                            <img src="{{ asset('assets/images/pptimages/leaf11.png') }}"
+                                                class="position-absolute end-0 "
+                                                style="width: 2.5vw; bottom:-1vw; z-index:10;">
+                                            <img src="{{ asset('assets/images/pptimages/mascot.png') }}"
+                                                class="position-absolute mascot-img"
+                                                style="width: 3.5vw; bottom:-2.9vw; right:-1vw; transform:rotate(-25deg)">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col-12 col-lg-3">
+                                <a>
+                                    <div class="card radius-15 overflow-hidden"
+                                        style="min-height: 170px; background: #f2e9cc; ">
+                                         <div
+                                            style="position: absolute; inset: 0; backdrop-filter: blur(8px); background: rgba(255, 255, 255, 0.2);z-index: 40;">
+                                        </div>
+                                        <div class="card-body d-flex justify-content-center align-items-center"
+                                            style="background: url('{{ asset('assets/images/pptimages/stoneboard.png') }}') no-repeat center center / cover; background-size:185px;">
+                                            <img src="{{ asset('assets/images/pptimages/hin.png') }}"
+                                                style="width: 164px;">
+                                            <img src="{{ asset('assets/images/pptimages/leaf15.png') }}"
+                                                class="position-absolute top-0" style="width: 2.5vw; right:4.5vw;">
+                                            <img src="{{ asset('assets/images/pptimages/leaf3.png') }}"
+                                                class="position-absolute top-0 end-0" style="width: 3vw;">
+                                            <img src="{{ asset('assets/images/pptimages/leaf8.png') }}"
+                                                class="position-absolute top-0" style="width: 3vw; left:3.5vw;">
+                                            <img src="{{ asset('assets/images/pptimages/bg-leaf-1.png') }}"
+                                                class="position-absolute top-0 start-0" style="width: 3vw;">
+                                            <img src="{{ asset('assets/images/pptimages/bg-leaf-2.png') }}"
+                                                class="position-absolute top-0 " style="width: 2.5vw; right:11vw;">
+                                            <img src="{{ asset('assets/images/pptimages/leaf15.png') }}"
+                                                class="position-absolute bottom-0"
+                                                style="width: 2.5vw; transform:rotate(180deg);">
+                                            <img src="{{ asset('assets/images/pptimages/leaf1.png') }}"
+                                                class="position-absolute  start-0" style="width: 2vw; bottom:-.5vw;">
+                                            <img src="{{ asset('assets/images/pptimages/leaf11.png') }}"
+                                                class="position-absolute end-0 "
+                                                style="width: 2.5vw; bottom:-1vw; z-index:10;">
+                                            <img src="{{ asset('assets/images/pptimages/mascot.png') }}"
+                                                class="position-absolute mascot-img"
+                                                style="width: 3.5vw; bottom:-2.9vw; right:-1vw; transform:rotate(-25deg)">
                                         </div>
                                     </div>
                                 </a>

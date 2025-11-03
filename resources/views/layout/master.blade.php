@@ -7,11 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <title>@yield('title', 'Syndash - Bootstrap5 Admin Template')</title>
     <!--favicon-->
-    <link rel="icon" href="{{ asset('assets/images/favicon-32x32.png') }}" type="image/png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/images/pptimages/teacher1.png') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/images/pptimages/teacher1.png') }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/images/pptimages/teacher1.png') }}">
     {{-- Fonts --}}
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+    {{-- Icons --}}
+    <link href='https://cdn.boxicons.com/3.0.3/fonts/basic/boxicons.min.css' rel='stylesheet'>
+
 
     <!-- CSRF Token for AJAX -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -53,8 +58,8 @@
         }
 
         .hidden {
-        display: none;
-    }
+            display: none;
+        }
 
         /* Optional: if you want to hide the whole page until JS is ready */
         .js-loading body {
@@ -146,7 +151,7 @@
             const slides = document.querySelectorAll(".slide");
             if (slides.length > 0) {
                 slides.forEach((slide, i) => {
-                    slide.classList.add("hidden"); 
+                    slide.classList.add("hidden");
                 });
                 slides[0].classList.remove("hidden");
             }

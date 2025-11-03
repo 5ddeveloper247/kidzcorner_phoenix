@@ -25,8 +25,11 @@ body {
     width: 20vw;
     aspect-ratio: unset !important;
 }
-.t-slide span img{
-    max-width: 2vw !important;
+.t-slide span {
+    padding-inline: 0.5vw;
+    img {
+        max-width: 2vw !important;
+    }
 }
 
 .slide {
@@ -150,7 +153,7 @@ button {
     height: 40vh;
 }
 
-#topDiv div{
+#topDiv div {
     font-size: 3vw !important;
 }
 #topDiv h2 {
