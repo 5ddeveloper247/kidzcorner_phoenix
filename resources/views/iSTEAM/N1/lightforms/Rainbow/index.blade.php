@@ -6,9 +6,8 @@
     <div id="topDiv" class="flex flex-col h-full justify-between items-center ">
         <h2 class="title !text-[55px] stroke">Rainbow</h2>
         <h2 class="title stroke !text-white">
-            Develop awareness of different types of shadows; <br>
-            explore materials and their shadows
-        </h2>
+            Develop awareness of how rainbows are formed; <br>
+            explore and create rainbows         </h2>
 
         <button class="nextButton">
             <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />

@@ -5,7 +5,7 @@
 
     <div id="topDiv" class="flex flex-col items-center h-full justify-between">
         <h2 class=" title font-extrabold stroke">Forming Shapes</h2>
-        <h2 class="!text-white title"> Exploring with lines; learn that shapes are form by lines </h2>
+        <h2 class="!text-white title"> Exploring with lines; <br> learn that shapes are form by lines </h2>
 
         <button class="nextButton">
             <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />

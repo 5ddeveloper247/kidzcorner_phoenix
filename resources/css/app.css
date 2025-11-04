@@ -45,7 +45,13 @@ body {
         max-width: 60vw !important;
         height: 14vw !important;
     }
-
+    .w-img3 {
+        max-width: 40vw !important;
+        height: 14vw !important;
+    }
+    .h-img {
+        height: 19vw !important;
+    }
     .large-img {
         max-width: 20vw !important;
         aspect-ratio: 7/4 !important;
@@ -203,7 +209,7 @@ video {
 }
 
 .slide {
-    gap: 1.7vw !important;
+    gap: 1.4vw !important;
 
     ul,
     ol {

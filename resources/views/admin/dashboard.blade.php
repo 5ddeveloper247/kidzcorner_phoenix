@@ -35,8 +35,9 @@
             top: -7px !important;
             /* transition: 800ms ease-in; */
         }
-        .mascot-img{
-             transition: all 700ms ease-in-out; 
+
+        .mascot-img {
+            transition: all 700ms ease-in-out;
         }
 
         .mascot-container:hover .mascot-img {
@@ -50,11 +51,56 @@
             /* right: 1px !important; */
             transition: 700ms ease-in;
         }
+
+        .teddy-img {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 200px;
+            pointer-events: none;
+            z-index: 100
+        }
+
+        .leaf-img {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 200px;
+            pointer-events: none;
+            z-index: 100
+        }
+
+        .leaf-img2 {
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            width: 200px;
+            pointer-events: none;
+            z-index: 100
+        }
+
+        .card {
+            background-color: #fff6da !important;
+        }
+
+        .upper-blur {
+            position: absolute;
+            inset: 0;
+            backdrop-filter: blur(8px);
+            background: rgba(255, 255, 255, 0.2);
+            z-index: 11;
+        }
     </style>
 @endpush
 
 @section('content')
     <div class="page-container">
+
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="teddy-img" alt="">
+
+        <img class="leaf-img" src="{{ asset('assets/images/pptimages/bg-leaf-1.png') }}" />
+
+        <img class="leaf-img2" src="{{ asset('assets/images/pptimages/leaf10.png') }}" />
 
         <!-- Start Container Fluid -->
         <div class="page-content">
@@ -103,8 +149,7 @@
                                 <a>
                                     <div class="card radius-15 overflow-hidden"
                                         style="min-height: 170px; background:#f2e9cc;">
-                                        <div
-                                            style="position: absolute; inset: 0; backdrop-filter: blur(8px); background: rgba(255, 255, 255, 0.2);z-index: 40;">
+                                        <div class="upper-blur">
                                         </div>
                                         <div
                                             class="card-body d-flex justify-content-center align-items-center mascot-container2">
@@ -141,8 +186,7 @@
                                 <a>
                                     <div class="card radius-15 overflow-hidden"
                                         style="min-height: 170px;  background:#f2e9cc; ">
-                                         <div
-                                            style="position: absolute; inset: 0; backdrop-filter: blur(8px); background: rgba(255, 255, 255, 0.2);z-index: 40;">
+                                        <div class="upper-blur">
                                         </div>
                                         <div
                                             class="card-body d-flex justify-content-center align-items-center mascot-container">
@@ -177,8 +221,7 @@
                                 <a>
                                     <div class="card radius-15 overflow-hidden"
                                         style="min-height: 170px;  background: url('{{ asset('assets/images/K2/exit.png') }}') no-repeat center center; background-size: 125% 125%;">
-                                         <div
-                                            style="position: absolute; inset: 0; backdrop-filter: blur(8px); background: rgba(255, 255, 255, 0.2);z-index: 40;">
+                                        <div class="upper-blur">
                                         </div>
                                         <div
                                             class="card-body d-flex position-relative justify-content-center align-items-center mascot-container">
@@ -196,8 +239,7 @@
                                 <a>
                                     <div class="card radius-15 overflow-hidden"
                                         style="min-height: 170px; background:#f2e9cc; ">
-                                         <div
-                                            style="position: absolute; inset: 0; backdrop-filter: blur(8px); background: rgba(255, 255, 255, 0.2);z-index: 40;">
+                                        <div class="upper-blur">
                                         </div>
                                         <div
                                             class="card-body d-flex justify-content-center align-items-center mascot-container">
@@ -232,13 +274,12 @@
 
                             <div class="col-12 col-lg-3">
                                 <a>
-                                    <div class="card radius-15 overflow-hidden"
-                                        style=" min-height: 170px;  ">
-                                         <div
-                                            style="position: absolute; inset: 0; backdrop-filter: blur(8px); background: rgba(255, 255, 255, 0.2);z-index: 40;">
+                                    <div class="card radius-15 overflow-hidden" style=" min-height: 170px;  ">
+                                        <div class="upper-blur">
                                         </div>
                                         <div class="card-body d-flex justify-content-center align-items-center">
-                                            <img src="{{ asset('assets/images/pptimages/en3.png') }}" style="height: 9vw;">
+                                            <img src="{{ asset('assets/images/pptimages/en3.png') }}"
+                                                style="height: 9vw;">
                                             <img src="{{ asset('assets/images/pptimages/leaf15.png') }}"
                                                 class="position-absolute top-0" style="width: 2.5vw; right:4.5vw;">
                                             <img src="{{ asset('assets/images/pptimages/leaf3.png') }}"
@@ -269,8 +310,7 @@
                                 <a>
                                     <div class="card radius-15 overflow-hidden"
                                         style="min-height: 170px; background:#f2e9cc; ">
-                                         <div
-                                            style="position: absolute; inset: 0; backdrop-filter: blur(8px); background: rgba(255, 255, 255, 0.2);z-index: 40;">
+                                        <div class="upper-blur">
                                         </div>
                                         <div class="card-body d-flex justify-content-center align-items-center">
                                             <img src="{{ asset('assets/images/pptimages/cn3.png') }}">
@@ -304,8 +344,7 @@
                                 <a>
                                     <div class="card radius-15 overflow-hidden"
                                         style="min-height: 170px; background:#f2e9cc; ">
-                                         <div
-                                            style="position: absolute; inset: 0; backdrop-filter: blur(8px); background: rgba(255, 255, 255, 0.2);z-index: 40;">
+                                        <div class="upper-blur">
                                         </div>
                                         <div class="card-body d-flex justify-content-center align-items-center">
                                             <img src="{{ asset('assets/images/pptimages/sci.png') }}">
@@ -339,8 +378,7 @@
                                 <a>
                                     <div class="card radius-15 overflow-hidden"
                                         style="min-height: 170px; background:#f2e9cc; ">
-                                         <div
-                                            style="position: absolute; inset: 0; backdrop-filter: blur(8px); background: rgba(255, 255, 255, 0.2);z-index: 40;">
+                                        <div class="upper-blur">
                                         </div>
 
                                         <div class="card-body d-flex justify-content-center align-items-center">
@@ -376,8 +414,7 @@
                                 <a>
                                     <div class="card radius-15 overflow-hidden"
                                         style="min-height: 170px; background: #f2e9cc; ">
-                                         <div
-                                            style="position: absolute; inset: 0; backdrop-filter: blur(8px); background: rgba(255, 255, 255, 0.2);z-index: 40;">
+                                        <div class="upper-blur">
                                         </div>
                                         <div class="card-body d-flex justify-content-center align-items-center"
                                             style="background: url('{{ asset('assets/images/pptimages/stoneboard.png') }}') no-repeat center center / cover; background-size:185px;">
@@ -458,7 +495,7 @@
                                                 </a></li>
                                             </ul>
                                         </div> --}}
-                                        <a href="{{ route('add_school') }}" class="btn btn-primary btn-sm">
+                                        <a href="{{ route('add_school') }}" class="btn btn-primary btn-sm add-school">
                                             <i class="bx bx-plus me-1"></i>Add School
                                         </a>
                                         <button class="btn btn-outline-info btn-sm"

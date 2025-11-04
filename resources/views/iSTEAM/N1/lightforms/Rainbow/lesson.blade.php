@@ -76,14 +76,14 @@
     {{-- slide 3 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="title stroke">The water droplet separates the <span class="text-white">white light</span> into <span
-                class="text-white">seven colours</span></h2>
+                class="text-white">seven <span class="text-white">colours</span></span></h2>
         <img src="{{ asset('assets/images/pptimages/gl16.png') }}" alt="Light separation" />
     </div>
 
     {{-- slide 4 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <h2 class="title stroke">The seven colours are <span style="color:red;">red</span>, <span
-                style="color:orange;">orange</span>, <span style="color:yellow;">yellow</span>, <span
+        <h2 class="title stroke">The seven <span class="text-white">colours</span> are <span style="color:red;">red</span>,
+            <span style="color:orange;">orange</span>, <span style="color:yellow;">yellow</span>, <span
                 style="color:green;">green</span>, <span style="color:blue;">blue</span>, <span
                 style="color:indigo;">indigo</span> and <span style="color:violet;">violet</span>.</h2>
         <div class="relative">
@@ -112,22 +112,22 @@
 
     {{-- slide 7 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <h2 class="title stroke text-white">CLASS ACTIVITY 1</h2>
+        <h2 class="title stroke !text-white">CLASS ACTIVITY 1</h2>
         <img class="large-img" src="{{ asset('assets/images/pptimages/bottle.png') }}" alt="Water bottle" />
-        <h2 class="title stroke text-start">Let's try: Create a rainbow in the sun</h2>
+        <h2 class="title stroke text-start"><span class="text-white">Let's try:</span> <br> Create a rainbow in the sun</h2>
         <p class="note">Note: Teacher recap with children what are the main things needed to create a <br>rainbow (light
-            and water). This should be done on a sunny day.</p>
+            and water). This shoold be done on a sunny day.</p>
     </div>
 
     {{-- slide 8 --}}
     <div class="flex flex-col items-center justify-center space-y-20 slide hidden">
         <div class="title stroke text-start px-4">
-            <h2>Let's do:</h2>
-            <ul class="list-decimal">
+            <h2 class="!text-white">Let's do:</h2>
+            <ol class="list-decimal">
                 <li>Place white paper on the floor in the outdoors.</li>
                 <li>Take a bottle of water and hold it in the sun.</li>
                 <li>Observe the paper on the floor as the sunlight shines through the bottle of water.</li>
-            </ul>
+            </ol>
         </div>
         <p class="note">Note: The rainbow captured on the paper may be very small, teacher may need to point out to
             children to see it.</p>
@@ -136,19 +136,21 @@
     {{-- slide 9 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <div class="title stroke text-start">
-            <h2>Let's do:</h2>
-            <ul>
-                <li>4. Observe how the rainbow appears on the paper!</li>
-            </ul>
+            <h2 class="!text-white">Let's do:</h2>
+            <ol class="list-decimal" start="4">
+                <li> Adjust the bottle in different angles until you can see a rainbow on thr ground</li>
+            </ol>
         </div>
-        <img src="{{ asset('assets/images/pptimages/couple.png') }}" alt="Children observing" />
+        <img src="{{ asset('assets/images/pptimages/couple.png') }}" alt="Children observing"
+            class="!max-w-[40vw] h-[14vw]" />
     </div>
 
     {{-- slide 10 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <h2 class="title stroke text-white">CLASS ACTIVITY 2</h2>
+        <h2 class="title stroke !text-white">CLASS ACTIVITY 2</h2>
         <img src="{{ asset('assets/images/pptimages/bowl.png') }}" class="large-img" alt="Bowl with water" />
-        <h2 class="title stroke text-start">Let's try: Create a rainbow using a mirror, water and flashlight!</h2>
+        <h2 class="title stroke text-start"><span class="text-white">Let's try:</span> <br> Create a rainbow using a mirror,
+            water and flashlight!</h2>
         <p class="note">Note: Teacher recap with children what are the main things needed to create a rainbow (light and
             water).</p>
     </div>
@@ -156,13 +158,13 @@
     {{-- slide 11 --}}
     <div class="flex flex-col items-center justify-center space-y-10 slide hidden">
         <div class="title stroke text-start px-4">
-            <h2>Let's do:</h2>
-            <ul class="list-decimal">
+            <h2 class="!text-white">Let's do:</h2>
+            <ol class="list-decimal">
                 <li>Fill half the container with water and place a mirror in it.</li>
                 <li>Make sure that the mirror is placed slanted such that only half of the mirror is submerged in the water.
                 </li>
                 <li>Shine the flashlight onto the mirror submerged in water.</li>
-            </ul>
+            </ol>
         </div>
         <p class="note">Note: Remind children not to shine light into eyes. <br> Teacher to guide children to observe
             where the rainbow is formed when they shine the <br>flashlight on the mirror.</p>
@@ -171,12 +173,12 @@
     {{-- slide 12 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <div class="title stroke text-start">
-            <h2>Let's do:</h2>
-            <ul>
-                <li>4. Move the flashlight and explore how a rainbow can be reformed</li>
-            </ul>
+            <h2 class="!text-white">Let's do:</h2>
+            <ol class="list-decimal" start="4">
+                <li>Move the flashlight and explore how a rainbow can be reformed</li>
+            </ol>
         </div>
-        <img src="{{ asset('assets/images/pptimages/couple2.png') }}" alt="Children experimenting" />
+        <img src="{{ asset('assets/images/pptimages/couple2.png') }}" alt="Children experimenting"  class="!max-w-[40vw] h-[13v2]"/>
     </div>
 
     {{-- slide 13 --}}
@@ -190,44 +192,47 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="title stroke">These are discs. They are shiny and reflective!</h2>
         <img class="large-img" src="{{ asset('assets/images/pptimages/cds.png') }}" alt="Discs" />
-        <h2 class="title stroke">Like water, the shiny disc separates light into seven colours.</h2>
+        <h2 class="title stroke">Like water, the shiny disc separates <span class="text-white">light</span> into seven <span
+                class="text-white">colours</span>.</h2>
         <p class="note">Note: Teacher can pass a few CDs around the class and let children have a closer look at it.</p>
     </div>
 
     {{-- slide 15 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <img src="{{ asset('assets/images/pptimages/cds.png') }}" alt="Discs with rainbow colors" />
-        <h2 class="title stroke">Can you see rainbows on the disc?</h2>
-        <p class="note">Note: Teacher can guide children to observe and share what colours they see on the disc.</p>
+        <h2 class="title stroke">Can you see <span class="text-white">rainbows</span> on the disc?</h2>
+        <p class="note">Note: Teacher can guide children to observe and share what <span
+                class="text-white">colours</span> they see on the disc.</p>
     </div>
 
     {{-- slide 16 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <h2 class="title stroke text-white">CLASS ACTIVITY 3</h2>
+        <h2 class="title stroke !text-white">CLASS ACTIVITY 3</h2>
         <img src="{{ asset('assets/images/pptimages/paper.png') }}" alt="Paper and disc" />
-        <h2 class="title stroke text-start">Let's try: Create a rainbow using a disc!</h2>
+        <h2 class="title stroke text-start"><span class="text-white">Let's try:</span> <br> Create a rainbow using a disc!
+        </h2>
         <p class="note">Note: Teacher can try to do this activity both indoors and outdoors.</p>
     </div>
 
     {{-- slide 17 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <div class="title stroke text-start">
-            <h2>Let's do (Outdoors):</h2>
-            <ul class="list-decimal">
+            <h2 class="!text-white">Let's do (Outdoors):</h2>
+            <ol class="list-decimal">
                 <li>Observe the 'rainbows' formed using disc in the outdoors during sunny days.</li>
-            </ul>
+            </ol>
         </div>
-        <img src="{{ asset('assets/images/pptimages/couple3.png') }}" alt="Outdoor activity" />
+        <img src="{{ asset('assets/images/pptimages/couple3.png') }}" alt="Outdoor activity" class="w-img3" />
     </div>
 
     {{-- slide 18 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <div class="title stroke text-start">
-            <h2>Let's do (Indoors):</h2>
-            <ul class="list-decimal">
+            <h2 class="!text-white">Let's do (Indoors):</h2>
+            <ol class="list-decimal">
                 <li>Shine the flashlight on the disc.</li>
                 <li>Observe the 'rainbows' formed on the walls as light is being reflected on the back of the disc.</li>
-            </ul>
+            </ol>
         </div>
         <img class="large-img" src="{{ asset('assets/images/pptimages/torche.png') }}"
             alt="Indoor flashlight activity" />
@@ -237,10 +242,10 @@
     {{-- slide 19 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <div class="title stroke text-start">
-            <h2>Let's do (Indoors):</h2>
-            <ul class="list-decimal" start="3">
+            <h2 class="!text-white">Let's do (Indoors):</h2>
+            <ol class="list-decimal" start="3">
                 <li>Change the angle of the flashlights or disc and observe how the shape of the 'rainbow' changes.</li>
-            </ul>
+            </ol>
         </div>
         <img src="{{ asset('assets/images/pptimages/torche2.png') }}" class="large-img" alt="Changing angles" />
         <p class="note">Note: Teacher to guide children to observe the rainbows are formed. <br>
@@ -249,9 +254,10 @@
 
     {{-- slide 20 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <h2 class="title stroke">Let's sing: <span class="text-white">Rainbow, Rainbow</span></h2>
+        <h2 class="title stroke"><span class="text-white">Let's sing:</span> Rainbow, Rainbow</h2>
         <img src="{{ asset('assets/images/pptimages/svg.png') }}" alt="Rainbow song" />
-        <h2 class="title stroke text-start">Here's a song to help you remember colours on a rainbow.</h2>
+        <h2 class="title stroke text-start">Here's a song to help you remember <span class="text-white">colours</span> on
+            a <span class="text-white">rainbow</span>.</h2>
         <p class="note">Note: Teacher to lead children to sing the song. Refer to notes for link to the song.</p>
     </div>
 
@@ -263,18 +269,25 @@
             <img src="{{ asset('assets/images/pptimages/svgR.png') }}"
                 class="absolute !top-[-2vw] !left-[8vw] z-[99] !w-[16vw] gif" alt="Animated rainbow" />
         </div>
-        <h2 class="title stroke">Light is separated into seven colours- <span style="color:red;">red</span>, <span
-                style="color:orange;">orange</span>, <span style="color:yellow;">yellow</span>, <span
-                style="color:green;">green</span>, <span style="color:blue;">blue</span>, <span
-                style="color:indigo;">indigo</span> and <span style="color:violet;">violet</span>.</h2>
+        <h2 class="title stroke">Light is separated into seven <span class="text-white">colours</span>- <span
+                style="color:red;">red</span>, <span style="color:orange;">orange</span>, <span
+                style="color:yellow;">yellow</span>, <span style="color:green;">green</span>, <span
+                style="color:blue;">blue</span>, <span style="color:indigo;">indigo</span> and <span
+                style="color:violet;">violet</span>.</h2>
     </div>
 
     {{-- slide 22 --}}
     <div class="flex flex-col items-center justify-center px-4 text-start slide hidden">
-        <h2 class="title stroke">The seven colours form a rainbow!</h2>
-        <img src="{{ asset('assets/images/pptimages/rainbow2.png') }}" class="large-img" alt="Complete rainbow" />
+        <h2 class="title stroke">The seven <span class="text-white">colours</span> form a rainbow!</h2>
+        <img src="{{ asset('assets/images/pptimages/rainbow2.png') }}" class="h-img" alt="Complete rainbow" />
     </div>
 
+
+
+
+
+
+    {{-- ===================== --}}
     {{-- Complete/Done Button --}}
     <div class="down-btn-container">
         <button class="doneButton">

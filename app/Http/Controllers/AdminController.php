@@ -222,17 +222,17 @@ class AdminController extends Controller
                     htmlspecialchars($row->address);
             })
             ->editColumn('email', function ($row) {
-                return '<a href="mailto:' . $row->email . '" class="text-decoration-none">' . $row->email . '</a>';
+                return '<a href="mailto:' . $row->email . '" class="text-decoration-none dashborad-email">' . $row->email . '</a>';
             })
             ->editColumn('phone', function ($row) {
                 return '<a href="tel:' . $row->phone . '" class="text-decoration-none">' . $row->phone . '</a>';
             })
             ->addColumn('action', function ($row) {
-                $editBtn = '<a href="' . route('edit_school', $row->id) . '" class="btn btn-outline-primary btn-sm" data-bs-toggle="tooltip" title="Edit School">
+                $editBtn = '<a href="' . route('edit_school', $row->id) . '" class="btn btn-outline-primary btn-sm table-edit-btn" data-bs-toggle="tooltip" title="Edit School">
                     <i class="bx bx-edit"></i>
                 </a>';
 
-                $changePasswordBtn = '<button type="button" class="btn btn-outline-warning btn-sm" onclick="openChangePasswordModal(' . $row->id . ', \'' . addslashes($row->name) . '\')" data-bs-toggle="tooltip" title="Change Password">
+                $changePasswordBtn = '<button type="button" class="btn btn-outline-warning btn-sm table-key-btn" onclick="openChangePasswordModal(' . $row->id . ', \'' . addslashes($row->name) . '\')" data-bs-toggle="tooltip" title="Change Password">
                 <i class="bx bx-key"></i>
                 </button>';
 

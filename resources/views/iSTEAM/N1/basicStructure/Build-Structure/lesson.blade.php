@@ -141,7 +141,7 @@
     <div class="flex flex-col items-center  slide hidden">
         <div class="title stroke text-start">
             <h2>let's do:</h2>
-            <ul class="list-decimal list-inside ">
+            <ul class="list-decimal   ">
                 <li>Take two pieces of square tiles and create a rectangle as shown below.</li>
             </ul>
         </div>
@@ -321,7 +321,7 @@
     <div class="flex flex-col items-center slide hidden">
         <div class="title stroke text-start">
             <h2>let's do:</h2>
-            <ul class="list-decimal list-inside ">
+            <ul class="list-decimal   ">
                 <li>This side of the house looks like a square a triangle. Find a square and a triangle and put them
                     together to form this.</li>
 
@@ -341,7 +341,7 @@
     <div class="flex flex-col items-center slide hidden">
         <div class="title stroke text-start">
             <h2>let's do:</h2>
-            <ul class="list-decimal list-inside ">
+            <ul class="list-decimal   ">
                 <li>2. Put two squares together to form a rectangle. Make two rectangles and put them together.</li>
 
             </ul>
@@ -357,7 +357,7 @@
     <div class="flex flex-col items-center slide hidden">
         <div class="title stroke text-start">
             <h2>let's do:</h2>
-            <ul class="list-decimal list-inside ">
+            <ul class="list-decimal   ">
                 <li>3. Hold the rectangles up and attach it as shown below.</li>
 
             </ul>
@@ -373,7 +373,7 @@
     <div class="flex flex-col items-center slide hidden">
         <div class="title stroke text-start">
             <h2>let's do:</h2>
-            <ul class="list-decimal list-inside ">
+            <ul class="list-decimal   ">
                 <li>4. Make another rectangle and form the base of the house like this</li>
 
             </ul>
@@ -390,7 +390,7 @@
     <div class="flex flex-col items-center slide hidden">
         <div class="title stroke text-start">
             <h2>let's do:</h2>
-            <ul class="list-decimal list-inside ">
+            <ul class="list-decimal   ">
                 <li>5. Use another 4 square to form the side of the house.</li>
 
             </ul>
@@ -407,7 +407,7 @@
     <div class="flex flex-col items-center slide hidden">
         <div class="title stroke text-start">
             <h2>let's do:</h2>
-            <ul class="list-decimal list-inside ">
+            <ul class="list-decimal   ">
                 <li>6. Use another square and triangle and complete the house.</li>
 
             </ul>

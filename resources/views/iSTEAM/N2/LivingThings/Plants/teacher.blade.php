@@ -48,7 +48,7 @@
         </div>
         <div>
             <h2 class="t-title ">Preparations For Class Activity 2</h2>
-            <ul class="list-disc list-inside space-y-2 mt-2">
+            <ul class="list-disc   space-y-2 mt-2">
                 <li>Teacher should have two identical type potted plants. These can be bought or planted a couple of weeks
                     before. The plants used in this experiment were planted from the red bean (Adzuki bean).</li>
                 <li>Prepare an opaque box so that no light can get to the plant in the box.</li>

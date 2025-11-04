@@ -37,7 +37,7 @@
     <div class="flex flex-col  items-center slide hidden">
         <div class="title stroke text-start">
             <h2>Steps:</h2>
-            <ul class="list-decimal list-inside ">
+            <ul class="list-decimal   ">
                 <li>Make sure you have all these parts.</li>
             </ul>
         </div>

@@ -74,7 +74,7 @@
     <div class="flex flex-col h-[50vh] justify-between slide hidden">
         <div class="title stroke text-start">
             <h2>let's do:</h2>
-            <ul class="list-decimal list-inside ">
+            <ul class="list-decimal   ">
                 <li>Go around the class and pick one of your favorite toy.</li>
                 <li>Look at the toy and see what shape does the toy look like.</li>
 
@@ -89,7 +89,7 @@
     <div class="flex flex-col h-[50vh] justify-between slide hidden">
         <div class="title stroke text-start">
             <h2>let's do:</h2>
-            <ul class=" list-inside ">
+            <ul class="   ">
                 <li>3. Look at the toy in parts. For example if it is a teddy bear. look at its head, body then the legs.
                 </li>
                 <li>4. For each part, guide children to verbalize the shape or find a similar shaped paper to create the
@@ -106,7 +106,7 @@
     <div class="flex flex-col h-[50vh] justify-between items-center slide hidden">
         <div class="title stroke text-start">
             <h2>let's do:</h2>
-            <ul class=" list-inside ">
+            <ul class="   ">
                 <li>5.Guide children to form the image using the paper shapes before pasting the paper on their
                     learning journals.</li>
             </ul>
@@ -130,7 +130,7 @@
     <div class="flex flex-col h-[50vh] justify-between  slide hidden">
         <div class="title stroke text-start">
             <h2>let's do:</h2>
-            <ul class="list-decimal list-inside ">
+            <ul class="list-decimal   ">
                 <li> Look at this part of the toy, what shape does it look like?</li>
                 <li>Is it a rectangle or a square?</li>
                 <li>Would you like to try using a bigger/small shape?</li>
@@ -178,7 +178,7 @@
     <div class="flex flex-col h-[50vh] justify-between slide hidden">
         <div class="title stroke text-start">
             <h2>let's do:</h2>
-            <ul class="list-decimal list-inside ">
+            <ul class="list-decimal   ">
                 <li>Look at the shape template which was done for Activity 1.</li>
                 <li>Pick out similar shape magnetic tiles and create the image of your toy,</li>
             </ul>
@@ -191,7 +191,7 @@
     <div class="flex flex-col h-[50vh] justify-between  slide hidden">
         <div class="title stroke text-start">
             <h2>let's do:</h2>
-            <ul class=" list-inside ">
+            <ul class="   ">
                 <li>3. The structure is flat now. Look at the side of the toy, what shape is it in?</li>
                 <li>4. Take the magnetic shapes and add it onto your structure.</li>
                 <li>5. Now look at the bottom of the toy, what shape is it? Continue to build on the structure.</li>
@@ -206,7 +206,7 @@
     <div class="flex flex-col h-[50vh] justify-between  slide hidden">
         <div class="title stroke text-start">
             <h2>let's do:</h2>
-            <ul class="list-inside ">
+            <ul class="  ">
                 <li>6. Add magnetic tiles to the other side and the top to complete your toy structure.</li>
                 <li>7. Share your creation when you have completed your toy structure.</li>
             </ul>
@@ -223,7 +223,7 @@
     <div class="flex flex-col  h-[50vh] justify-between slide hidden">
         <div class="title stroke text-start">
             <h2>Suggested questions for show and tell:</h2>
-            <ul class="list-inside list-decimal">
+            <ul class="  list-decimal">
                 <li>What did you make.</li>
                 <li>What shapes did you use?</li>
                 <li>Which part did you start building first?</li>

@@ -267,7 +267,7 @@
     <div class="flex flex-col info-slide2 items-center justify-center slide hidden">
         <div class="flex flex-col title text-start stroke">
             <h2>How to do the experiment?</h2>
-            <ul class="list-decimal list-inside space-y-2">
+            <ul class="list-decimal   space-y-2">
                 <li>Fill a large clear bowl with lukewarm water.</li>
                 <li>Pluck a big leaf from a plant and put it inside the bowl.</li>
                 <li>Put a stone or marble on top of the leaf so that the leaf is fully submerged under the water.</li>

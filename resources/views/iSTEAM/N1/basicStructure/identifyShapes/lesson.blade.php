@@ -8,84 +8,86 @@
 
     {{-- slide 0 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <h2 class="title stroke">Children, do you remember these shapes?</h2>
-        <img src="{{ asset('assets/images/pptimages/cshapes.png') }}" />
+        <h2 class="title stroke">Children, do you remember these <span class="text-white">shapes</span>?</h2>
+        <img src="{{ asset('assets/images/pptimages/cshapes.png') }}" class="w-img3" />
         <p class="note">Note: Guide children to share their answers.</p>
     </div>
 
     {{-- slide 1 --}}
-    <div class="flex flex-col items-center justify-center gap-5 slide hidden">
+    <div class="flex flex-col items-center justify-center  slide hidden">
         <div class="flex flex-col items-center justify-center">
             <h2 class="title stroke">These are <span class="text-white"> square</span>, <span
                     class="text-white">triangle</span> and <span class="text-white"> rectangle</span>
                 </span>.</h2>
-            <img src="{{ asset('assets/images/pptimages/cshapes.png') }}" />
+            <img src="{{ asset('assets/images/pptimages/cshapes.png') }}" class="w-img3" />
         </div>
-        <p class="note">Note: Guide children to point out the shapes.</p>
+        <p class="note">Note: Guide children to point out the <span class="text-white">shapes</span>.</p>
     </div>
 
     {{-- slide 2 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <h2 class="title stroke">These shapes are formed by joining lines together.</h2>
+        <h2 class="title stroke">These <span class="text-white">shapes</span> are formed by joining <span
+                class="text-white">lines</span> together.</h2>
 
-        <img src="{{ asset('assets/images/pptimages/gl9.png') }}" />
+        <img src="{{ asset('assets/images/pptimages/gl9.png') }}" class="w-img3" />
     </div>
 
     {{-- slide 3 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <h2 class="title stroke">Look at these shapes. What shape are these?
+        <h2 class="title stroke">Look at these <span class="text-white">shapes</span>. What <span
+                class="text-white">shape</span> are these?
         </h2>
-        <img src="{{ asset('assets/images/pptimages/gl6.png') }}" />
+        <img src="{{ asset('assets/images/pptimages/gl6.png') }}" class="w-img3" />
         <p class="note">Note: Guide children to share their answers.</p>
     </div>
 
     {{-- slide 4 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <h2 class="title stroke">These are squares of different sizes!</h2>
-        <img src="{{ asset('assets/images/pptimages/gl6.png') }}" />
+        <h2 class="title stroke">These are <span class="text-white">squares</span> of different sizes!</h2>
+        <img src="{{ asset('assets/images/pptimages/gl6.png') }}" class="w-img3" />
         <p class="note">Note: Guide children to point out which is big and which is small.</p>
     </div>
 
     {{-- slide 5 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <h2 class="title stroke">Look at these shapes. What are they?</h2>
-        <img src="{{ asset('assets/images/pptimages/gl7.png') }}" />
+        <h2 class="title stroke">Look at these <span class="text-white">shapes</span>. What are they?</h2>
+        <img src="{{ asset('assets/images/pptimages/gl7.png') }}" class="w-img3" />
         <p class="note">Note: Guide children to answer.</p>
     </div>
 
     {{-- slide 6 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <h2 class="title stroke">These triangles are of different types and sizes.</h2>
-        <img src="{{ asset('assets/images/pptimages/gl7.png') }}" />
+        <h2 class="title stroke">These <span class="text-white">triangles</span> are of different types and sizes.</h2>
+        <img src="{{ asset('assets/images/pptimages/gl7.png') }}" class="w-img3" />
         <p class="note">Note: Guide children to compare them.</p>
     </div>
 
     {{-- slide 7 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <h2 class="title stroke">Each of them is formed using three lines.</h2>
-        <img src="{{ asset('assets/images/pptimages/gl7.png') }}" />
-        <p class="note">Note: Guide children to count the lines.</p>
+        <h2 class="title stroke">Each of them is formed using three <span class="text-white">lines</span>.</h2>
+        <img src="{{ asset('assets/images/pptimages/gl7.png') }}" class="w-img3" />
+        <p class="note">Note: Guide children to count the <span class="text-white">lines</span>.</p>
     </div>
 
     {{-- slide 8 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
 
-        <img src="{{ asset('assets/images/pptimages/gl8.png') }}" />
-        <h2 class="title stroke">Rectangles come in different sizes too.</h2>
+        <img src="{{ asset('assets/images/pptimages/gl8.png') }}" class="w-img3" />
+        <h2 class="title stroke"><span class="text-white">Rectangles</span> come in different sizes too.</h2>
         <p class="note">Note: Guide children to point out which is big and which is small.</p>
     </div>
 
     {{-- slide 9 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <img src="{{ asset('assets/images/pptimages/gl8.png') }}" />
+        <img src="{{ asset('assets/images/pptimages/gl8.png') }}" class="w-img3" />
         <h2 class="title stroke">Some are big and some are small.</h2>
         <p class="note">Note: Guide children to point out which is big and which is small.</p>
     </div>
 
     {{-- slide 10 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <img src="{{ asset('assets/images/pptimages/s18.png') }}"  class="large-img2" />
-        <h2 class="title stroke">Look at these toys. Do you know what shapes are they?</h2>
+        <img src="{{ asset('assets/images/pptimages/s18.png') }}" class="large-img2" />
+        <h2 class="title stroke">Look at these toys. Do you know what <span class="text-white">shapes</span> are they?</h2>
         <p class="note">Note: Encourage children to asnwer.</p>
     </div>
 
@@ -94,19 +96,20 @@
     <div class="flex flex-col justify-center  slide hidden">
         <div class="flex flex-col items-center justify-center">
             <h2 class="title !text-white stroke">Class Activity 1</h2>
-            <img src="{{ asset('assets/images/pptimages/s18.png') }}"  class="large-img2" />
+            <img src="{{ asset('assets/images/pptimages/s18.png') }}" class="large-img2" />
         </div>
         <div class="flex items-start">
-            <h2 class="title stroke text-start">Let's do:<br> Compare and sort out the magnetic tiles based on
+            <h2 class="title stroke text-start"><span class="text-white">Let's do:</span><br> Compare and sort out the
+                magnetic tiles based on
                 their shapes. </h2>
         </div>
     </div>
 
     {{-- slide 12 --}}
-    <div class="flex flex-col  slide hidden">
+    <div class="flex flex-col  slide hidden h-[50vh] justify-between">
         <div class="title stroke text-start">
-            <h2>let's do:</h2>
-            <ul class="list-decimal list-inside ">
+            <h2 class="!text-white">Let's do:</h2>
+            <ul class="list-decimal   ">
                 <li>Look at the magnetic tiles.</li>
                 <li>Take one and match it to the mat labeled with the picture of the same shape.</li>
                 <li>When all shapes are sorted, take the shapes out and compare their sizes.</li>
@@ -121,37 +124,41 @@
     {{-- slide 13 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
         <h2 class="title stroke">Look at these. There are not squares, triangles or
-            rectangles. But they are shapes too.</h2>
-        <img src="{{ asset('assets/images/pptimages/s17.png') }}"  class="large-img2" />
+            rectangles. But they are <span class="text-white">shapes</span> too.</h2>
+        <img src="{{ asset('assets/images/pptimages/s17.png') }}" class="large-img2" />
 
     </div>
 
     {{-- slide 14 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <h2 class="title stroke">This is a circle! It is formed with one curved line.</h2>
-        <img src="{{ asset('assets/images/pptimages/s16.png') }}"  class="large-img2" />
-        <p class="note">Note: Point out to the children that it has no straight lines.</p>
+        <h2 class="title stroke">This is a <span class="text-white">circle</span>! It is formed with one <span
+                class="text-white">curved line</span>.</h2>
+        <img src="{{ asset('assets/images/pptimages/s16.png') }}" class="large-img2" />
+        <p class="note">Note: Point out to the children that it has no straight <span class="text-white">lines</span>.</p>
     </div>
 
     {{-- slide 15 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <h2 class="title stroke">Some of these shapes are formed by joining
+        <h2 class="title stroke">Some of these <span class="text-white">shapes</span> are formed by joining
             straight lines together.</h2>
-        <img src="{{ asset('assets/images/pptimages/s15.png') }}"  class="large-img2"/>
-        <p class="note">Note: Point out to the children that it has no straight lines.</p>
+        <img src="{{ asset('assets/images/pptimages/s15.png') }}" class="large-img2" />
+        <p class="note">Note: Point out to the children that it has no straight <span class="text-white">lines</span>.
+        </p>
     </div>
+
 
     {{-- slide 16 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <h2 class="title stroke">These shapes are formed by putting curve and
-            straight lines together.</h2>
+        <h2 class="title stroke">These <span class="text-white">shapes</span> are formed by putting <span
+                class="text-white">curve</span> and
+            straight <span class="text-white">lines</span> together.</h2>
         <img src="{{ asset('assets/images/pptimages/s8.png') }}" class="large-img2" />
     </div>
 
     {{-- slide 18 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <h2 class="title stroke">A semi-circle is half a circle. It is formed
-            using a curve and a straight line.</h2>
+        <h2 class="title stroke">A semi-circle is half a <span class="text-white">circle</span>. It is formed
+            using a <span class="text-white">curve</span> and a straight <span class="text-white">line</span>.</h2>
         <img src="{{ asset('assets/images/pptimages/s13.png') }}" class="large-img2" />
     </div>
 
@@ -165,16 +172,16 @@
 
     {{-- slide 20 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <h2 class="title stroke">This shape is called a pie shape as it looks
+        <h2 class="title stroke">This <span class="text-white">shape</span> is called a pie shape as it looks
             like a piece of a pie.</h2>
-        <img src="{{ asset('assets/images/pptimages/s11.png') }}"  class="large-img2"/>
+        <img src="{{ asset('assets/images/pptimages/s11.png') }}" class="large-img2" />
     </div>
 
 
     {{-- slide 21 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
         <h2 class="title stroke">Look at these shapes, do they look like bridges?</h2>
-        <img src="{{ asset('assets/images/pptimages/s9.png') }}"  class="large-img2" />
+        <img src="{{ asset('assets/images/pptimages/s9.png') }}" class="large-img2" />
         <p class="note">Note: Point out to the children that it has no straight lines.</p>
     </div>
 
@@ -182,37 +189,54 @@
 
     {{-- slide 22 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <h2 class="title stroke">They are known as arches. They looked like bridges going over a river.</h2>
-        <img src="{{ asset('assets/images/pptimages/s10.png') }}"  class="large-img2" />
+        <h2 class="title stroke">They are known as <span class="text-white">arches</span>. They looked like bridges going
+            over a river.</h2>
+        <img src="{{ asset('assets/images/pptimages/s10.png') }}" class="large-img2" />
     </div>
 
 
     {{-- slide 23 --}}
     <div class="flex flex-col justify-center  slide hidden">
         <div class="flex flex-col items-center justify-center">
-            <h2 class="title stroke !text-white stroke">Class Activity 2</h2>
+            <h2 class="title stroke !text-white ">Class Activity 2</h2>
             <img src="{{ asset('assets/images/pptimages/s8.png') }}" class="large-img2" />
         </div>
-        <div class="flex items-start">
-            <h2 class="title stroke stroke text-start">Let's do:<br> Match the shapes.</h2>
+        <div class="text-start">
+            <h2 class="title stroke text-start"><span class="text-white">Let's do:</span><br> Match the shapes.
+            </h2>
         </div>
+    </div>
 
+    {{-- slide  --}}
+    <div class="flex flex-col justify-between h-[50vh]  slide hidden">
+        <div class="title stroke text-start">
+            <h2 class="!text-white">Let's do:</h2>
+            <ol class="list-decimal">
+                <li>Look at the magnetic tiles.</li>
+                <li>Take one and match it to the mat labeled
+                    with the picture of the same shape.</li>
+            </ol>
+        </div>
+        <p class="note">Note: Encourage children to sort the pieces. It’s okay if children do not know the names.</p>
     </div>
 
 
     {{-- slide 24 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <h2 class="title stroke">Shapes can be formed using straight lines
-            and curve lines. There are many different
-            types of shapes.</h2>
+        <h2 class="title stroke">Shapes can be formed using <span class="text-white">straight lines</span>
+            and <span class="text-white">curve lines</span>. There are many different
+            types of <span class="text-white">shapes</span>.</h2>
         <div class="flex ">
-            <img src="{{ asset('assets/images/pptimages/s17.png') }}"  class="large-img" />
-            <img src="{{ asset('assets/images/pptimages/s18.png') }}"  class="large-img"/>
+            <img src="{{ asset('assets/images/pptimages/s17.png') }}" class="large-img" />
+            <img src="{{ asset('assets/images/pptimages/s18.png') }}" class="large-img" />
 
         </div>
     </div>
 
 
+
+
+    {{-- ==================== --}}
     {{-- Complete/Done Butttom --}}
     <div class="down-btn-container">
         <button class="doneButton">
