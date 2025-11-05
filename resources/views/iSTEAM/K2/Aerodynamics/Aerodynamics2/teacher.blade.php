@@ -102,7 +102,7 @@
 
 
     {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-center  text-start">
+    <div class=" slide t-slide flex  text-white flex-col items-center justify-center  text-start">
         <div>
             <h2 class=" t-title">How to build the setup A for Hands-on Session 1:</h2>
             <ul class="list-decimal">
@@ -131,7 +131,7 @@
 
 
     {{-- slide 5 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
+    <div class=" slide t-slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">How to build the setup A for Hands-on Session 1:</h2>
             <ul>
@@ -157,7 +157,7 @@
 
 
     {{-- sldie 7 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
+    <div class=" slide t-slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">How to build the setup B for Hands-on Session 2:</h2>
             <ul>
@@ -170,7 +170,7 @@
     </div>
 
     {{-- sldie 8 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
+    <div class=" slide t-slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">How to build the setup B for Hands-on Session 2:</h2>
             <ul>
@@ -186,7 +186,7 @@
 
 
     {{-- slide 9 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
+    <div class=" slide t-slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">How to build the setup B for Hands-on Session 2:</h2>
             <ul>

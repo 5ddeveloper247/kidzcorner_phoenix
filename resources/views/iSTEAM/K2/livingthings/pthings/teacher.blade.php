@@ -115,7 +115,7 @@
 
 
     {{-- slide 5 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
+    <div class=" slide t-slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">How to do the experiment of Plants Do Breathe Air:</h2>
             <ul class="list-decimal">
@@ -129,7 +129,7 @@
     </div>
 
     {{-- sldie 6 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
+    <div class=" slide t-slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">How to do the experiment of Plants Do Breathe Air:</h2>
             <ul>
@@ -144,7 +144,7 @@
 
 
     {{-- sldie 7 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
+    <div class=" slide t-slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
             <p class="note text-center">As a reference, some bubbles form around this sample leaf once it was placed in the
                 water. After 2 hours, many more bubbles form around the leaf.</p>
@@ -160,7 +160,7 @@
 
 
     {{-- sldie 7 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
+    <div class=" slide t-slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <p class="note">When the hands-on sessions 1 or 2 start, guide each group of children to set up
             the mat accordingly (as shown). Advise them to discuss as a group to complete the
             mission. <span class="text-[#F7B94A]"> If needed, adjust the level of difficulty by reducing the number of

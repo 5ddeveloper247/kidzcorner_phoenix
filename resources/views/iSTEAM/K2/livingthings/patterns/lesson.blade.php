@@ -3,10 +3,13 @@
 
 @section('content')
 
+    {{-- title --}}
+    <h2 class="top-title stroke">Fingerprint Patterns</h2>
+
 
     {{-- Slide 1 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f10.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f10.png') }}" class="w-img3" />
         <div class="title stroke">
             <h2>Children, as you know, <span class="text-white">fingerprints</span> are
                 <span class="text-white">ridges</span> on the ips of our <span class="text-white">fingers</span> and <span
@@ -27,32 +30,36 @@
 
     {{-- Slide 3 --}}
     <div class="slide hidden  flex flex-col items-center">
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/fp1.png') }}" />
+        <video id="video1" class="video1 pointer-events-none">
+            <source src="{{ asset('assets/images/K2/videos/173.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
         <h2 class="title stroke text-center">When you were still inside your mother's womb,
             the ridges on your fingers and thumbs started forming.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')"
-            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
-      <img src="/assets/images/pptimages/video.png" />
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
     {{-- slide 4 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/fp2.png') }}" />
+        <video id="video2" class="video1 pointer-events-none">
+            <source src="{{ asset('assets/images/K2/videos/188.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
         <h2 class="title stroke text-center">The ridges form based on individual growing experience
             in the mother's womb.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')"
-            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
-      <img src="/assets/images/pptimages/video.png" />
+        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
 
     {{-- Slide 5 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f11.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f11.png') }}" class="w-img3" />
         <h2 class="title stroke">That's why individual fingerprints are unique and no two people
             have the same fingerprints, including identical twins.</h2>
     </div>
@@ -60,7 +67,7 @@
 
     {{-- slide 6 --}}
     <div class="slide hidden flex flex-col items-center">
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f11.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f11.png') }}" class="w-img3" />
         <h2 class="title stroke">Scientists compare fingerprints and group them according to
             the similar ridge patterns they find.</h2>
     </div>
@@ -68,14 +75,14 @@
 
     {{-- slide 7 --}}
     <div class="slide hidden flex flex-col items-center">
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/fp3.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/fp3.png') }}" class="w-img3" />
         <h2 class="title stroke">As a result, there are three basic <span class="text-white">fingerprint patterns
                 - loop, whorl</span>and <span class="text-white">arch</span>.</h2>
     </div>
 
     {{-- slide 8 --}}
     <div class="slide hidden flex flex-col items-center">
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/fp4.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/fp4.png') }}" class="w-img3" />
         <h2 class="title stroke">In a loop pattern, the ridges enter from one side,
             recurve and tend to exit from the same side.</h2>
     </div>
@@ -105,14 +112,14 @@
 
     {{-- slide 12 --}}
     <div class="slide hidden flex flex-col items-center">
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/fp8.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/fp8.png') }}" class="w-img !h-[13vw]" />
         <h2 class="title stroke">In an arch pattern, the ridges enter from one side, make a
             rise in the centre and exit from the other side like a hill.</h2>
     </div>
 
     {{-- slide 13 --}}
     <div class="slide hidden flex flex-col items-center">
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/fp9.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/fp9.png') }}" class="w-img3" />
         <h2 class="title stroke">Arch pattern is found in about 5% of fingerprints.
             That means out of 10 fingers, 1 or none of them have arches.</h2>
     </div>
@@ -129,7 +136,7 @@
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <h2 class="!text-white title stroke">Individual Activity</h2>
         <img src="{{ asset('assets/images/K2/livingthings/fingerprints/fp3.png') }}" />
-        <h2 class="title stroke">Let's find out: <br>
+        <h2 class="title stroke text-start">Let's find out: <br>
             Which fingerprint pattern do you have on each finger?</h2>
         <p class="text-center note">Note: Have children take out their fingerprint records.</p>
     </div>
@@ -143,7 +150,7 @@
                 Write down the result of comparison at the side of each
                 fingerprint in the record.</h2>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/fp10.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/fp10.png') }}" class="w-img2" />
         <p class="note text-center">Note: Have children analyse own set of fingerprints and write down the results (letter
             L, W or A).</p>
     </div>
@@ -151,7 +158,7 @@
 
     {{-- Slide 17 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/fp10.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/fp10.png') }}" class="w-img3" />
         <div class="self-start text-start">
             <h2 class="title stroke">What do you observe: <br>
                 Which fingerprint pattern do you have on each finger?</h2>
@@ -166,7 +173,7 @@
             <h2 class="title stroke">What do you learn: <br>
                 Do you have the same fingerprint pattern on each finger?</h2>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/fp10.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/fp10.png') }}" class="w-img3" />
         <p class="note text-center">Note: Have children take turns to share based on the record.</p>
     </div>
 
@@ -177,7 +184,7 @@
             <h2 class="title stroke">What do you learn: <br>
                 Which fingerprint pattern do you have on each finger?</h2>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/fp10.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/fp10.png') }}" class="w-img3" />
         <p class="note text-center">Note: Have children take turns to share based on the record.</p>
     </div>
 
@@ -188,7 +195,7 @@
             <h2 class="title stroke">What do you learn: <br>
                 Do you have al three types of fingerprint patterns?</h2>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/fp10.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/fp10.png') }}" class="w-img3" />
         <p class="note text-center">Note: Have children take turns to share based on the record.</p>
     </div>
 
@@ -199,14 +206,14 @@
                 For the fingers with the same fingerprint pattern, do the
                 fingerprints look exactly the same?</h2>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/fp10.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/fp10.png') }}" class="w-img3" />
         <p class="note text-center">Note: Have children take turns to share based on the record.</p>
     </div>
 
 
     {{-- Slide 22 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/fp10.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/fp10.png') }}" class="w-img3" />
         <h2 class="title stroke">Through the activity, we know that
             each fingerprint has a basic pattern.</h2>
     </div>
@@ -214,7 +221,7 @@
 
     {{-- Slide 23 --}}
     <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/fp10.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/fp10.png') }}" class="w-img3" />
         <h2 class="title stroke">The same pattern can be found on different fingerprints
             but no two fingerprints are exactly the same.</h2>
     </div>
@@ -224,7 +231,7 @@
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <h2 class="!text-white title stroke">Class Activity</h2>
         <img src="{{ asset('assets/images/K2/livingthings/fingerprints/fp3.png') }}" />
-        <h2 class="title stroke">Let's find out: <br>
+        <h2 class="title stroke text-start">Let's find out: <br>
             How many fingers and thumbs in the class have loop, whorl
             and arch patterns?</h2>
     </div>
@@ -255,7 +262,7 @@
 
     {{-- Slide 26 --}}
     <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/fp13.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/fp13.png') }}" class="w-img" />
         <h2 class="title stroke text-start">What do you observe:
             How many fingers and thumbs in the class have loop pattern?</h2>
         <p class="note">Note: Guide children to find out the answer from the graph.</p>
@@ -264,7 +271,7 @@
 
     {{-- Slide 27 --}}
     <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/fp13.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/fp13.png') }}" class="w-img" />
         <h2 class="title stroke text-start">What do you observe: <br>
             How many fingers and thumbs in the class have whorl pattern?</h2>
         <p class="note">Note: Guide children to find out the answer from the graph.</p>
@@ -273,7 +280,7 @@
 
     {{-- Slide 28 --}}
     <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/fp13.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/fp13.png') }}" class="w-img" />
         <h2 class="title stroke text-start">What do you observe: <br>
             How many fingers and thumbs in the class have arch pattern?</h2>
         <p class="note">Note: Guide children to find out the answer from the graph.</p>
@@ -285,7 +292,7 @@
         <h2 class="title stroke text-start">What do you learn: <br>
             How many fingers and thumbs in the class have loop, whorl
             and arch patterns?</h2>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/fp13.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/fp13.png') }}" class="w-img" />
         <p class="note">Note: Guide children to make conclusions from the graph.</p>
     </div>
 
@@ -295,7 +302,7 @@
         <h2 class="title stroke text-start">What do you learn: <br>
             Which is the most and least common fingerprint pattern
             in the class?</h2>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/fp13.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/fp13.png') }}" class="w-img" />
         <p class="note">Note: Guide children to make conclusions from the graph.</p>
     </div>
 
@@ -315,7 +322,7 @@
         <h2 class=" title stroke !text-white">Learning Journal</h2>
         <div class="w-[30vw] h-fit bg-cover bg-center p-[20px] flex flex-col justify-center items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
-            <img src="{{ asset('assets/images/K2/livingthings/fingerprints/fp14.png') }}" />
+            <img src="{{ asset('assets/images/K2/livingthings/fingerprints/fp14.png') }}" class="!max-w-[40vw]" />
         </div>
     </div>
 
@@ -367,30 +374,54 @@
 
 @push('script')
     <script>
+        // Video toggle function - plays or pauses a video when clicked
+        function toggleVideo(videoId) {
+            const video = document.getElementById(videoId);
+            if (video.paused) {
+                video.play();
+            } else {
+                video.pause();
+            }
+        }
+
         document.addEventListener("DOMContentLoaded", () => {
+            // Get all slide elements
             const slides = document.querySelectorAll(".slide");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
             const doneButton = document.querySelector(".doneButton");
 
-            // Get all info/click buttons (info-btn1, info-btn2, click-btn1, click-btn2, etc.)
-            const infoButtons = document.querySelectorAll("[class*='info-btn'], [class*='click-btn']");
-
+            // Keep track of which slide we're currently viewing
             let currentSlide = 0;
-            let parentSlideIndex = null;
-            let isViewingInfoSlides = false;
-            let currentInfoClass = null; // Track which info/click class we're viewing
 
+            // CONFIGURE YOUR ROUTES HERE
+            const returnRouteFromFirstSlide = "{{ route('FingerprintpatternsSelection') }}";
+            const doneButtonRoute = "{{ route('FingerprintpatternsSelection') }}";
+
+            // Pause all videos when changing slides
+            function pauseAllVideos() {
+                const videos = document.querySelectorAll('video');
+                videos.forEach(video => {
+                    if (!video.paused) {
+                        video.pause();
+                    }
+                });
+            }
+
+            // Show a specific slide and hide all others
             function showSlide(index) {
+                // Pause all videos before switching
+                pauseAllVideos();
+
+                // Hide all slides except the current one
                 slides.forEach((slide, i) => {
                     slide.classList.toggle("hidden", i !== index);
                 });
 
-                // Check if last slide OR last info/click slide
+                // Check if last slide
                 const isLastSlide = index === slides.length - 1;
-                const isLastInfoSlide = isViewingInfoSlides && !hasNextInfoSlide(index);
 
-                if (isLastSlide || isLastInfoSlide) {
+                if (isLastSlide) {
                     nextButtons.forEach(btn => btn.classList.add("hidden"));
                     if (doneButton) doneButton.classList.remove("hidden");
                 } else {
@@ -399,149 +430,38 @@
                 }
             }
 
-            // Check if there's another info/click slide with same class after current one
-            function hasNextInfoSlide(currentIndex) {
-                if (!currentInfoClass) return false;
-
-                for (let i = currentIndex + 1; i < slides.length; i++) {
-                    if (slides[i].classList.contains(currentInfoClass)) {
-                        return true;
-                    }
-                }
-                return false;
-            }
-
-            // Get info/click class from button (info-btn1 → , click-btn1 → click1)
-            function getInfoClassFromButton(button) {
-                const classList = Array.from(button.classList);
-
-                // Check for info-btn pattern
-                const infoBtnClass = classList.find(cls => cls.startsWith('info-btn'));
-                if (infoBtnClass) {
-                    const number = infoBtnClass.replace('info-btn', '');
-                    return 'info-slide' + number;
-                }
-
-                // Check for click-btn pattern
-                const clickBtnClass = classList.find(cls => cls.startsWith('click-btn'));
-                if (clickBtnClass) {
-                    const number = clickBtnClass.replace('click-btn', '');
-                    return 'click' + number;
-                }
-
-                return null;
-            }
-
-            // Info/Click button handlers
-            infoButtons.forEach((btn) => {
-                btn.addEventListener("click", (e) => {
-                    e.preventDefault(); // Prevent default anchor behavior
-
-                    parentSlideIndex = currentSlide;
-                    isViewingInfoSlides = true;
-                    currentInfoClass = getInfoClassFromButton(btn);
-
-                    // Find the first slide with matching info/click class
-                    for (let i = 0; i < slides.length; i++) {
-                        if (slides[i].classList.contains(currentInfoClass)) {
-                            currentSlide = i;
-                            showSlide(currentSlide);
-                            break;
-                        }
-                    }
-                });
-            });
-
-            // NEXT button - skip info/click slides if not viewing them
+            // NEXT button
             nextButtons.forEach((btn) => {
                 btn.addEventListener("click", () => {
                     if (currentSlide < slides.length - 1) {
                         currentSlide++;
-
-                        // Skip info/click slides if not viewing them
-                        while (!isViewingInfoSlides &&
-                            currentSlide < slides.length &&
-                            isInfoSlide(slides[currentSlide])) {
-                            currentSlide++;
-                        }
-
-                        // If viewing info/click slides, only show slides with current class
-                        if (isViewingInfoSlides) {
-                            while (currentSlide < slides.length &&
-                                !slides[currentSlide].classList.contains(currentInfoClass)) {
-                                currentSlide++;
-                            }
-                        }
-
-                        if (currentSlide < slides.length) {
-                            showSlide(currentSlide);
-                        }
+                        showSlide(currentSlide);
                     }
                 });
             });
 
-            // Check if slide is any info/click slide (info-slide1, info-slide2, click1, click2, etc.)
-            function isInfoSlide(slide) {
-                return Array.from(slide.classList).some(cls =>
-                    (cls.startsWith('info-slide') && cls.match(/^info-slide\d+$/)) ||
-                    (cls.startsWith('click') && cls.match(/^click\d+$/))
-                );
-            }
+            // RETURN button - go to previous slide or navigate back
+            returnButton.addEventListener("click", () => {
+                // If on first slide, navigate to return route
+                if (currentSlide === 0) {
+                    window.location.href = returnRouteFromFirstSlide;
+                    return;
+                }
 
-           // Return button
-returnButton.addEventListener("click", () => {
-    
+                if (currentSlide > 0) {
+                    currentSlide--;
+                    showSlide(currentSlide);
+                }
+            });
 
-    if (isViewingInfoSlides && currentSlide > 0) {
-        // Check if previous slide is also same info/click class
-        let prevSlide = currentSlide - 1;
-
-        // Find previous slide with same info/click class
-        while (prevSlide >= 0 && !slides[prevSlide].classList.contains(currentInfoClass)) {
-            prevSlide--;
-        }
-
-        if (prevSlide >= 0 && slides[prevSlide].classList.contains(currentInfoClass)) {
-            currentSlide = prevSlide;
-            showSlide(currentSlide);
-        } else {
-            // No more info/click slides, return to parent
-            currentSlide = parentSlideIndex;
-            isViewingInfoSlides = false;
-            currentInfoClass = null;
-            parentSlideIndex = null;
-            showSlide(currentSlide);
-        }
-    } else if (currentSlide > 0) {
-        currentSlide--;
-
-        // Skip info/click slides when going back
-        while (currentSlide > 0 && isInfoSlide(slides[currentSlide])) {
-            currentSlide--;
-        }
-
-        showSlide(currentSlide);
-    }
-});;
-
-            // DONE button handler
+            // DONE button - navigate to completion route
             if (doneButton) {
                 doneButton.addEventListener("click", () => {
-                    if (isViewingInfoSlides && parentSlideIndex !== null) {
-                        // Return to parent slide
-                        currentSlide = parentSlideIndex;
-                        isViewingInfoSlides = false;
-                        currentInfoClass = null;
-                        parentSlideIndex = null;
-                        showSlide(currentSlide);
-                    } else {
-                        // Navigate to route
-                        window.location.href = "{{ route('FingerprintpatternsSelection') }}";
-                    }
+                    window.location.href = doneButtonRoute;
                 });
             }
 
-            // Start with first slide
+            // Initialize - show first slide
             showSlide(currentSlide);
         });
     </script>

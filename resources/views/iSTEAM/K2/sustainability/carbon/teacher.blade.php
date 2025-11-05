@@ -90,7 +90,7 @@
 
 
     {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-center  text-start">
+    <div class=" slide t-slide flex  text-white flex-col items-center justify-center  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc">

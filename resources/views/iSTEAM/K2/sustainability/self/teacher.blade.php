@@ -59,7 +59,7 @@
 
 
     {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-center  text-start">
+    <div class=" slide t-slide flex  text-white flex-col items-center justify-center  text-start">
         <div>
             <h2 class="font-bold t-title">Things to note in maintaining the vertical garden system:</h2><br>
             <h3 class="font-bold t-title"> Mixing the plant nutrients</h3>
@@ -84,7 +84,7 @@
 
 
     {{-- slide 4 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
+    <div class=" slide t-slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">Things to note in maintaining the vertical garden system:</h2>
             <ul class="list-decimal">
@@ -98,7 +98,7 @@
 
 
     {{-- slide 5 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
+    <div class=" slide t-slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">Things to note in maintaining the vertical garden system:</h2>
             <ul>
@@ -150,7 +150,7 @@
 
 
     {{-- sldie 6 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
+    <div class=" slide t-slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class="title stroke text-center">Learning Centre Idea</h2><br>
             <h2 class=" t-title">Diary Of Our Vegetable Garden</h2>

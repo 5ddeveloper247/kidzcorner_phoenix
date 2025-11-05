@@ -101,7 +101,7 @@
 
 
     {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-center  text-start">
+    <div class=" slide t-slide flex  text-white flex-col items-center justify-center  text-start">
         <div>
             <h2 class="title stroke text-center">Learning Centre Idea</h2>
             <h2 class=" t-title">Let's Sort!</h2>

@@ -66,7 +66,7 @@
 
 
     {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-center  text-start">
+    <div class=" slide t-slide flex  text-white flex-col items-center justify-center  text-start">
         <div>
             <h2 class="font-bold t-title">Useful information:</h2>
             <p class="note">A windmill generates mechanical energy from wind power, while a wind

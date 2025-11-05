@@ -67,7 +67,7 @@
     <div class="slide hidden flex flex-col items-center justify-center ">
         <h2 class="text-center justify-start text-[45px] text-white stroke">Class Activity</h2>
         <img src="{{ asset('assets/images/K2/livingthings/dna/td2.png') }}" class="w-img" />
-        <h2 class="title stroke">Let's find out: <br>
+        <h2 class="title stroke text-start">Let's find out: <br>
             How to extract DNA from a tomato?</h2>
     </div>
 

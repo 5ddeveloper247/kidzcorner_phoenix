@@ -60,7 +60,7 @@
 
 
     {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-center  text-start">
+    <div class=" slide t-slide flex  text-white flex-col items-center justify-center  text-start">
         <div>
             <h2 class="font-bold t-title">Preparations for Individual Activity - Practice of Dusting and Lifting A
                 Fingerprint:</h2>
@@ -91,7 +91,7 @@
 
 
     {{-- slide 4 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
+    <div class=" slide t-slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">How to dust and lift a fingerprint and things to consider:</h2>
             <ul class="list-decimal">
@@ -107,7 +107,7 @@
 
 
     {{-- slide 5 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
+    <div class=" slide t-slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">How to dust and lift a fingerprint and things to consider:</h2>
             <ul>
@@ -128,7 +128,7 @@
 
 
     {{-- sldie 6 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
+    <div class=" slide t-slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">How to dust and lift a fingerprint and things to consider:</h2>
             <ul>
@@ -149,7 +149,7 @@
     </div>
 
     {{-- sldie 7 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
+    <div class=" slide t-slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">How to dust and lift a fingerprint and things to consider:</h2>
             <ul>
@@ -165,7 +165,7 @@
 
 
     {{-- sldie 8 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
+    <div class=" slide t-slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">How to dust and lift a fingerprint and things to consider:</h2>
             <ul>
@@ -187,7 +187,7 @@
 
 
     {{-- slide 9 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
+    <div class=" slide t-slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">How to dust and lift a fingerprint and things to consider:</h2>
             <ul>
@@ -202,7 +202,7 @@
 
 
     {{-- slide 10 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
+    <div class=" slide t-slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">How to dust and lift a fingerprint and things to consider:</h2>
             <ul>
@@ -216,7 +216,7 @@
     </div>
 
     {{-- slide 10 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
+    <div class=" slide t-slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
             <ul class="list-disc !text-start">
                 <h2 class="font-bold t-title">How to dust and lift a fingerprint and things to consider:</h2>
@@ -238,7 +238,7 @@
 
 
     {{-- slide 11 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
+    <div class=" slide t-slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
             <ul class="list-disc !text-start">
                 <h2 class="font-bold t-title">Preparations for Class Activity - Solve A Case:</h2>
@@ -265,7 +265,7 @@
 
 
     {{-- slide 11 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
+    <div class=" slide t-slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
             <ul class=" !text-start">
                 <h2 class="font-bold t-title">Solve A Case:</h2>
@@ -370,7 +370,7 @@
             <div>
                 <h2 class=" t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
-                    <li class="text-[1.1vw] flex">
+                    <li class="flex whitespace-nowrap">
                         If you see
                         <span>
                             <img src="{{ asset('assets/images/pptimages/video.png') }}" />
@@ -381,7 +381,7 @@
                     <li class="text-[1.1vw]">Print out the Learning Journal (if any) for every child to complete at the end
                         of the lesson.
                     </li>
-                    <li class="text-[1.1vw] flex">
+                    <li class="flex whitespace-nowrap">
                         Click on this shortcut icon
                        <span>
                             <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" class="home-btn" />

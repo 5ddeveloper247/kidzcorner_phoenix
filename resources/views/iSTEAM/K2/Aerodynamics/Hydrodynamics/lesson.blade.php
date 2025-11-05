@@ -144,7 +144,7 @@
     <div class="slide hidden  flex flex-col items-center justify-between h-[50%] ">
         <h2 class="!text-white title stroke">Hands-on Time 1</h2>
         <div class="slef-start text-start">
-            <h2 class="title stroke">Let's find out: <br>
+            <h2 class="title stroke text-start">Let's find out: <br>
                 Let's find out what affects the movement of an object in water.</h2>
         </div>
     </div>

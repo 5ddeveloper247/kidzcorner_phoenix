@@ -33,7 +33,7 @@
 
     {{-- slide 4 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/livingthings/dna/h1.png') }}" class="!max-w-[10vw]" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h1.png') }}" class="!max-h-[33vh]" />
         <h2 class="title stroke text-center">This is the scientific drawing of DNA in close-up.
             It has a special shape that is called a double helix.</h2>
     </div>
@@ -41,14 +41,14 @@
 
     {{-- Slide 5 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/livingthings/dna/h1.png') }}" class="!max-w-[10vw]" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h1.png') }}" class="!max-h-[33vh]" />
         <h2 class="title stroke">What does <span class="text-white">DNA</span> look like?</h2>
     </div>
 
 
     {{-- slide 6 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <img src="{{ asset('assets/images/K2/livingthings/dna/h1.png') }}" class="!max-w-[10vw]" />
+    <div class="slide hidden flex flex-col items-center justify-center ">
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h1.png') }}" class="!max-h-[33vh]" />
         <h2 class="title stroke">DNA actually looks like a twisted ladder.</h2>
     </div>
 
@@ -56,14 +56,14 @@
 
     {{-- slide 7 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/livingthings/dna/h1.png') }}" class="!max-w-[10vw]" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h1.png') }}" class="!max-h-[33vh]" />
         <h2 class="title stroke">Its is made up of two long twisted rails and many rungs.</h2>
     </div>
 
 
     {{-- slide 8 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/livingthings/dna/h1.png') }}" class="!max-w-[10vw]" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h1.png') }}" class="!max-h-[33vh]" />
         <h2 class="title stroke">The rungs are special. Each one formed by a pair of bases.</h2>
         <p class="note">Note: Have children guess how many bases are there (count the number of colours that formed
             rungs).</p>
@@ -84,14 +84,14 @@
                 <!-- sound Button -->
                 <button onclick="playSound2()">
                     <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" class="!max-w-[2.8vw]" />
-                </button> 
+                </button>
 
                 <!-- sound Button -->
                 <button onclick="playSound3()">
                     <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" class="!max-w-[2.8vw]" />
                 </button>
 
-                 <!-- sound Button -->
+                <!-- sound Button -->
                 <button onclick="playSound4()">
                     <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" class="!max-w-[2.8vw]" />
                 </button>
@@ -129,7 +129,7 @@
 
     {{-- Slide 12 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/livingthings/dna/h5.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h5.png') }}" class="w-img3" />
         <h2 class="title stroke">We look so different from a tomato, thanks to the different
             orders of the bases in DNA!</h2>
     </div>
@@ -147,7 +147,7 @@
         <h2 class="title stroke !text-white">Individual Activity</h2>
         <img src="{{ asset('assets/images/K2/livingthings/dna/h6.png') }}" />
         <div class="self-start text-start">
-            <h2 class="title stroke">Let's find out: <br>
+            <h2 class="title stroke text-start">Let's find out: <br>
                 How to make a model of DNA double helix?</h2>
         </div>
         <p class="note text-center">Note: Display all the things needed. Have children name each and then
@@ -161,7 +161,7 @@
             <h2 class="title stroke">Let's do: <br>
                 1. Find out the colour representation of each bead.</h2>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/dna/h7.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h7.png') }}" class="w-img3" />
         <p class="note text-center">Note: Display the beads with labels. Guide children to understand which
             coloured bead represent which base.</p>
     </div>
@@ -174,7 +174,7 @@
                 2. Create base pairs by hooking AT or CG beads together in
                 the middle of the twist tie.</h2>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/dna/h8.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h8.png') }}" class="w-img3" />
         <p class="note text-center">Note: Tell children how many base pairs is needed (this sample needs 10 pairs in total)
             and it is up to them to have equal or unequal numbers of AT and CG base pairs.</p>
     </div>
@@ -187,7 +187,7 @@
                 3. Attach the base pairs to the pipe cleaners by twisting the
                 free ends of twist ties around the pipe cleaners.</h2>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/dna/h9.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h9.png') }}" class="w-img3" />
         <p class="note text-center">Note: Advise children to space the base pairs as evenly as possible on the pipe cleaners
             (around 1cm gap) Tell them that it is up to them to create the order of the base pairs..</p>
     </div>
@@ -199,14 +199,14 @@
             <h2 class="title stroke">Let's do: <br>
                 4. Display and observe the ladder made.</h2>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/dna/h10.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h10.png') }}" class="w-img3" />
         <p class="note text-center">Note: Have children place all ladders made together for observations.</p>
     </div>
 
 
     {{-- Slide 19 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K2/livingthings/dna/h10.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h10.png') }}" class="w-img" />
         <h2 class="title stroke">What do you observe: <br>
             Do you find many friends have the same base pattern like yours?</h2>
         <p class="note">Note: Guide children to compare base arrangements of different ladders.</p>
@@ -214,8 +214,8 @@
 
 
     {{-- Slide 20 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <img src="{{ asset('assets/images/K2/livingthings/dna/h10.png') }}" />
+    <div class="slide hidden flex flex-col items-center justify-center ">
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h10.png') }}" class="w-img" />
         <h2 class="title stroke">What do you observe: <br>
             How many base patterns have been designed by the class?</h2>
         <p class="note">Note: Guide children to count and record the number.</p>
@@ -227,7 +227,7 @@
             <h2 class="title stroke">Let's do: <br>
                 5. Twist the ladder to form the shape of DNA double helix.</h2>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/dna/h11.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h11.png') }}" class="w-img3" />
         <p class="note text-center">Note: Adjust the shape and tidy up one end of DNA model for each child
             (refer to teacher resource).</p>
     </div>
@@ -239,7 +239,7 @@
             <h2 class="title stroke">Let's do: <br>
                 6. Attach a strap over the DNA double helix.</h2>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/dna/h12.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h12.png') }}" class="w-img3" />
         <p class="note">Note: Tell children that they can use the DNA model as a charm to hang on their
             belongings.</p>
     </div>
@@ -249,21 +249,21 @@
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <h2 class="title stroke">What do you learn: <br>
             How many base patterns of DNA double helix have been designed by the class?</h2>
-        <img src="{{ asset('assets/images/K2/livingthings/dna/h13.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h13.png') }}" class="w-img3" />
         <p class="note">Note: Have children refer to their record for the answer.</p>
     </div>
 
 
     {{-- Slide 25 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/livingthings/dna/h13.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h13.png') }}" class="w-img3" />
         <h2 class="title stroke">Through the activity, we know that the shape of different
             DNA is the same but the order of the bases is different.</h2>
     </div>
 
     {{-- Slide 26 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/livingthings/dna/h13.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h13.png') }}" class="w-img3" />
         <h2 class="title stroke">Due to the different orders of the bases, <br>
             different DNA have different building instructions!</h2>
     </div>
@@ -271,7 +271,7 @@
 
     {{-- Slide 27 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/livingthings/dna/h14.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h14.png') }}" class="w-img3" />
         <h2 class="title stroke">That's why every living thing, either an animal or a plant,
             has its own unique look.</h2>
     </div>
@@ -313,8 +313,8 @@
     {{-- Slide 31 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <div class="flex items-center gap-5">
-            <img src="{{ asset('assets/images/K2/livingthings/dna/h17.png') }}" class="w-[500px]" />
-            <img src="{{ asset('assets/images/K2/livingthings/dna/h16.png') }}" class="w-[500px]" />
+            <img src="{{ asset('assets/images/K2/livingthings/dna/h17.png') }}" class="w-img" />
+            <img src="{{ asset('assets/images/K2/livingthings/dna/h16.png') }}" class="w-img" />
         </div>
         <h2 class="title stroke">As a matter of fact. <br>
             we share some traits with people around.</h2>
@@ -324,8 +324,8 @@
     {{-- Slide 32 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <div class="flex items-center gap-5">
-            <img src="{{ asset('assets/images/K2/livingthings/dna/h17.png') }}" class="w-[500px]" />
-            <img src="{{ asset('assets/images/K2/livingthings/dna/h16.png') }}" class="w-[500px]" />
+            <img src="{{ asset('assets/images/K2/livingthings/dna/h17.png') }}" class="w-img" />
+            <img src="{{ asset('assets/images/K2/livingthings/dna/h16.png') }}" class="w-img" />
         </div>
         <h2 class="title stroke">However, every one of us has a unique combination of traits
             that is different from anyone else! Do you know why?</h2>
@@ -334,20 +334,19 @@
     {{-- Slide 32 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <div class="flex items-center gap-5">
-            <img src="{{ asset('assets/images/K2/livingthings/dna/h17.png') }}" class="w-[500px]" />
-            <img src="{{ asset('assets/images/K2/livingthings/dna/h16.png') }}" class="w-[500px]" />
+            <img src="{{ asset('assets/images/K2/livingthings/dna/h17.png') }}" class="w-img" />
+            <img src="{{ asset('assets/images/K2/livingthings/dna/h16.png') }}" class="w-img" />
         </div>
         <h2 class="title stroke">We are all unique <br>
             because the bases in our DNA are arranged differently!</h2>
     </div>
 
     {{-- sldie 33 --}}
-    <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
+    <div class="slide  hidden flex flex-col items-center justify-center ">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
         <div class="w-[30vw] h-fit bg-cover bg-center p-[20px] flex flex-col justify-center items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <img src="{{ asset('assets/images/K2/livingthings/dna/h18.png') }}" />
-
         </div>
     </div>
 
@@ -420,180 +419,238 @@
             sound4.play();
         }
 
-        document.addEventListener("DOMContentLoaded", () => {
+        function toggleVideo(videoId) {
+            const video = document.getElementById(videoId);
+            if (video.paused) {
+                video.play();
+            } else {
+                video.pause();
+            }
+        }
+
+        document.addEventListener("DOMContentLoaded", function() {
             const slides = document.querySelectorAll(".slide");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
             const doneButton = document.querySelector(".doneButton");
 
-            // Get all info/click buttons (info-btn1, info-btn2, click-btn1, click-btn2, etc.)
-            const infoButtons = document.querySelectorAll("[class*='info-btn'], [class*='click-btn']");
+            // Get all clickable buttons (info-btn, click-btn)
+            const clickButtons = document.querySelectorAll("[class*='info-btn'], [class*='click-btn']");
 
-            let currentSlide = 0;
-            let parentSlideIndex = null;
-            let isViewingInfoSlides = false;
-            let currentInfoClass = null; // Track which info/click class we're viewing
+            let currentSlideNumber = 0;
+            let inSpecialMode = false;
+            let slideToReturnTo = null;
+            let specialSlideType = null;
 
-            function showSlide(index) {
-                slides.forEach((slide, i) => {
-                    slide.classList.toggle("hidden", i !== index);
-                });
+            const whereToGoWhenReturn = "{{ route('helixSelection') }}";
+            const whereToGoWhenDone = "{{ route('helixSelection') }}";
 
-                // Check if last slide OR last info/click slide
-                const isLastSlide = index === slides.length - 1;
-                const isLastInfoSlide = isViewingInfoSlides && !hasNextInfoSlide(index);
-
-                if (isLastSlide || isLastInfoSlide) {
-                    nextButtons.forEach(btn => btn.classList.add("hidden"));
-                    if (doneButton) doneButton.classList.remove("hidden");
-                } else {
-                    nextButtons.forEach(btn => btn.classList.remove("hidden"));
-                    if (doneButton) doneButton.classList.add("hidden");
+            function pauseAllVideos() {
+                const videos = document.querySelectorAll('video');
+                for (let i = 0; i < videos.length; i++) {
+                    videos[i].pause();
                 }
             }
 
-            // Check if there's another info/click slide with same class after current one
-            function hasNextInfoSlide(currentIndex) {
-                if (!currentInfoClass) return false;
-
-                for (let i = currentIndex + 1; i < slides.length; i++) {
-                    if (slides[i].classList.contains(currentInfoClass)) {
+            function isSpecialSlide(slide) {
+                const classes = slide.className.split(' ');
+                for (let i = 0; i < classes.length; i++) {
+                    // Check for click pattern (click1, click2, etc.)
+                    if (classes[i].startsWith('click') && classes[i].match(/^click\d+$/)) {
+                        return true;
+                    }
+                    // Check for info-slide pattern (info-slide1, info-slide2, etc.)
+                    if (classes[i].startsWith('info-slide') && classes[i].match(/^info-slide\d+$/)) {
                         return true;
                     }
                 }
                 return false;
             }
 
-            // Get info/click class from button (info-btn1 → info-slide1, click-btn1 → click1)
-            function getInfoClassFromButton(button) {
-                const classList = Array.from(button.classList);
-
-                // Check for info-btn pattern
-                const infoBtnClass = classList.find(cls => cls.startsWith('info-btn'));
-                if (infoBtnClass) {
-                    const number = infoBtnClass.replace('info-btn', '');
-                    return 'info-slide' + number;
+            function getSpecialTypeFromButton(button) {
+                const classes = button.className.split(' ');
+                for (let i = 0; i < classes.length; i++) {
+                    // Handle click-btn pattern (click-btn1 → click1)
+                    if (classes[i].startsWith('click-btn')) {
+                        const number = classes[i].replace('click-btn', '');
+                        return 'click' + number;
+                    }
+                    // Handle info-btn pattern (info-btn1 → info-slide1)
+                    if (classes[i].startsWith('info-btn')) {
+                        const number = classes[i].replace('info-btn', '');
+                        return 'info-slide' + number;
+                    }
                 }
-
-                // Check for click-btn pattern
-                const clickBtnClass = classList.find(cls => cls.startsWith('click-btn'));
-                if (clickBtnClass) {
-                    const number = clickBtnClass.replace('click-btn', '');
-                    return 'click' + number;
-                }
-
                 return null;
             }
 
-            // Info/Click button handlers
-            infoButtons.forEach((btn) => {
-                btn.addEventListener("click", (e) => {
-                    e.preventDefault(); // Prevent default anchor behavior
+            function hasMoreSpecialSlides(startFrom) {
+                if (!specialSlideType) {
+                    return false;
+                }
 
-                    parentSlideIndex = currentSlide;
-                    isViewingInfoSlides = true;
-                    currentInfoClass = getInfoClassFromButton(btn);
+                for (let i = startFrom + 1; i < slides.length; i++) {
+                    if (slides[i].classList.contains(specialSlideType)) {
+                        return true;
+                    }
+                }
+                return false;
+            }
 
-                    // Find the first slide with matching info/click class
-                    for (let i = 0; i < slides.length; i++) {
-                        if (slides[i].classList.contains(currentInfoClass)) {
-                            currentSlide = i;
-                            showSlide(currentSlide);
+            function isLastSlide(slideNumber) {
+                if (slideNumber === slides.length - 1) {
+                    return true;
+                }
+
+                if (inSpecialMode && !hasMoreSpecialSlides(slideNumber)) {
+                    return true;
+                }
+
+                return false;
+            }
+
+            function showSlide(slideNumber) {
+                pauseAllVideos();
+
+                for (let i = 0; i < slides.length; i++) {
+                    if (i === slideNumber) {
+                        slides[i].classList.remove("hidden");
+                    } else {
+                        slides[i].classList.add("hidden");
+                    }
+                }
+
+                if (isLastSlide(slideNumber)) {
+                    for (let i = 0; i < nextButtons.length; i++) {
+                        nextButtons[i].classList.add("hidden");
+                    }
+                    if (doneButton) {
+                        doneButton.classList.remove("hidden");
+                    }
+                } else {
+                    for (let i = 0; i < nextButtons.length; i++) {
+                        nextButtons[i].classList.remove("hidden");
+                    }
+                    if (doneButton) {
+                        doneButton.classList.add("hidden");
+                    }
+                }
+            }
+
+            function goToNextSlide() {
+                if (currentSlideNumber >= slides.length - 1) {
+                    return;
+                }
+
+                currentSlideNumber++;
+
+                while (currentSlideNumber < slides.length) {
+                    const slide = slides[currentSlideNumber];
+
+                    if (inSpecialMode) {
+                        if (slide.classList.contains(specialSlideType)) {
+                            break;
+                        }
+                    } else {
+                        if (!isSpecialSlide(slide)) {
+                            break;
+                        }
+                    }
+
+                    currentSlideNumber++;
+                }
+
+                if (currentSlideNumber < slides.length) {
+                    showSlide(currentSlideNumber);
+                }
+            }
+
+            function goToPreviousSlide() {
+                // If on first slide and not in special mode, go to return route
+                if (currentSlideNumber === 0 && !inSpecialMode) {
+                    window.location.href = whereToGoWhenReturn;
+                    return;
+                }
+
+                if (inSpecialMode) {
+                    let previousSlide = currentSlideNumber - 1;
+
+                    while (previousSlide >= 0) {
+                        if (slides[previousSlide].classList.contains(specialSlideType)) {
+                            break;
+                        }
+                        previousSlide--;
+                    }
+
+                    if (previousSlide >= 0) {
+                        currentSlideNumber = previousSlide;
+                        showSlide(currentSlideNumber);
+                    } else {
+                        currentSlideNumber = slideToReturnTo;
+                        inSpecialMode = false;
+                        specialSlideType = null;
+                        slideToReturnTo = null;
+                        showSlide(currentSlideNumber);
+                    }
+                } else {
+                    if (currentSlideNumber > 0) {
+                        currentSlideNumber--;
+
+                        while (currentSlideNumber > 0 && isSpecialSlide(slides[currentSlideNumber])) {
+                            currentSlideNumber--;
+                        }
+
+                        showSlide(currentSlideNumber);
+                    } else {
+                        // If somehow at slide 0, go to return route
+                        window.location.href = whereToGoWhenReturn;
+                    }
+                }
+            }
+
+            // Handle all click buttons (info-btn and click-btn)
+            for (let i = 0; i < clickButtons.length; i++) {
+                clickButtons[i].addEventListener("click", function(event) {
+                    event.preventDefault();
+
+                    slideToReturnTo = currentSlideNumber;
+                    inSpecialMode = true;
+                    specialSlideType = getSpecialTypeFromButton(clickButtons[i]);
+
+                    for (let j = 0; j < slides.length; j++) {
+                        if (slides[j].classList.contains(specialSlideType)) {
+                            currentSlideNumber = j;
+                            showSlide(currentSlideNumber);
                             break;
                         }
                     }
                 });
-            });
-
-            // NEXT button - skip info/click slides if not viewing them
-            nextButtons.forEach((btn) => {
-                btn.addEventListener("click", () => {
-                    if (currentSlide < slides.length - 1) {
-                        currentSlide++;
-
-                        // Skip info/click slides if not viewing them
-                        while (!isViewingInfoSlides &&
-                            currentSlide < slides.length &&
-                            isInfoSlide(slides[currentSlide])) {
-                            currentSlide++;
-                        }
-
-                        // If viewing info/click slides, only show slides with current class
-                        if (isViewingInfoSlides) {
-                            while (currentSlide < slides.length &&
-                                !slides[currentSlide].classList.contains(currentInfoClass)) {
-                                currentSlide++;
-                            }
-                        }
-
-                        if (currentSlide < slides.length) {
-                            showSlide(currentSlide);
-                        }
-                    }
-                });
-            });
-
-            // Check if slide is any info/click slide (info-slide1, info-slide2, click1, click2, etc.)
-            function isInfoSlide(slide) {
-                return Array.from(slide.classList).some(cls =>
-                    (cls.startsWith('info-slide') && cls.match(/^info-slide\d+$/)) ||
-                    (cls.startsWith('click') && cls.match(/^click\d+$/))
-                );
             }
 
-            // Return button
-            returnButton.addEventListener("click", () => {
-                if (isViewingInfoSlides && currentSlide > 0) {
-                    // Check if previous slide is also same info/click class
-                    let prevSlide = currentSlide - 1;
+            // Next button handlers
+            for (let i = 0; i < nextButtons.length; i++) {
+                nextButtons[i].addEventListener("click", goToNextSlide);
+            }
 
-                    // Find previous slide with same info/click class
-                    while (prevSlide >= 0 && !slides[prevSlide].classList.contains(currentInfoClass)) {
-                        prevSlide--;
-                    }
+            // Return button handler
+            returnButton.addEventListener("click", goToPreviousSlide);
 
-                    if (prevSlide >= 0 && slides[prevSlide].classList.contains(currentInfoClass)) {
-                        currentSlide = prevSlide;
-                        showSlide(currentSlide);
-                    } else {
-                        // No more info/click slides, return to parent
-                        currentSlide = parentSlideIndex;
-                        isViewingInfoSlides = false;
-                        currentInfoClass = null;
-                        parentSlideIndex = null;
-                        showSlide(currentSlide);
-                    }
-                } else if (currentSlide > 0) {
-                    currentSlide--;
-
-                    // Skip info/click slides when going back
-                    while (currentSlide > 0 && isInfoSlide(slides[currentSlide])) {
-                        currentSlide--;
-                    }
-
-                    showSlide(currentSlide);
-                }
-            });
-
-            // DONE button handler
+            // Done button handler
             if (doneButton) {
-                doneButton.addEventListener("click", () => {
-                    if (isViewingInfoSlides && parentSlideIndex !== null) {
-                        // Return to parent slide
-                        currentSlide = parentSlideIndex;
-                        isViewingInfoSlides = false;
-                        currentInfoClass = null;
-                        parentSlideIndex = null;
-                        showSlide(currentSlide);
+                doneButton.addEventListener("click", function() {
+                    if (inSpecialMode && slideToReturnTo !== null) {
+                        currentSlideNumber = slideToReturnTo;
+                        inSpecialMode = false;
+                        specialSlideType = null;
+                        slideToReturnTo = null;
+                        showSlide(currentSlideNumber);
                     } else {
-                        // Navigate to route
-                        window.location.href = "{{ route('helixSelection') }}";
+                        window.location.href = whereToGoWhenDone;
                     }
                 });
             }
 
-            // Start with first slide
-            showSlide(currentSlide);
+            showSlide(currentSlideNumber);
         });
     </script>
 @endpush

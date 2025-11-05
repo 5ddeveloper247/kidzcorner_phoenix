@@ -87,7 +87,7 @@
                 style="color:green;">green</span>, <span style="color:blue;">blue</span>, <span
                 style="color:indigo;">indigo</span> and <span style="color:violet;">violet</span>.</h2>
         <div class="relative">
-            <img src="{{ asset('assets/images/pptimages/gl16.png') }}" class="w-img2" alt="Rainbow formation" />
+            <img src="{{ asset('assets/images/pptimages/gl16.png') }}" class="w-img3" alt="Rainbow formation" />
             <img src="{{ asset('assets/images/pptimages/svgR.png') }}"
                 class="absolute !top-[-2vw] !left-[8vw] z-[99] !w-[16vw] gif" alt="Animated rainbow" />
         </div>

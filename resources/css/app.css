@@ -42,8 +42,8 @@ body {
         max-width: 20vw !important;
     }
     .w-img2 {
-        max-width: 60vw !important;
-        height: 14vw !important;
+        max-width: 40vw !important;
+        height: 12vw !important;
     }
     .w-img3 {
         max-width: 40vw !important;
@@ -109,7 +109,7 @@ button {
 .video-btn img,
 .ans-btn img {
     cursor: pointer;
-    width: 5vw !important;
+    width: 4.5vw !important;
 }
 /* #topDiv {
     height: 50vh !important;

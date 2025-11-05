@@ -2,38 +2,42 @@
 @section('title', 'Dynamic Presentation')
 
 @section('content')
+ {{-- title --}}
+    <h2 class="top-title stroke">Fingerprint Patterns</h2>
+
+
     {{-- sldie 1  --}}
     <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
-                <li class="text-[1.1vw]">Know that fingerprints are unique because they are formed based on individual
+                <li>Know that fingerprints are unique because they are formed based on individual
                     growing experience while
                     still in the mother's womb</li>
-                <li class="text-[1.1vw]">Identify three basic fingerprint patterns</li>
-                <li class="text-[1.1vw]">Analyse own set of fingerprints to find out the patterns that one has</li>
-                <li class="text-[1.1vw]">Know that basic patterns can be found on different fingers and that no two
+                <li>Identify three basic fingerprint patterns</li>
+                <li>Analyse own set of fingerprints to find out the patterns that one has</li>
+                <li>Know that basic patterns can be found on different fingers and that no two
                     fingerprints are exactly the
                     same</li>
-                <li class="text-[1.1vw]">Make conclusions from a graph</li>
-                <li class="text-[1.1vw]">Develop understanding through inquiry</li>
+                <li>Make conclusions from a graph</li>
+                <li>Develop understanding through inquiry</li>
             </ul>
         </div>
 
         <div class="flex flex-col  items-start justify-between">
             <h2 class="t-title font-bold">Keywords:</h2>
-            <div>
+            <div class="flex gap-[5vw]">
                 <ul class="list-disc ">
-                    <li class="text-[1.1vw]">Fingerprint</li>
-                    <li class="text-[1.1vw]">Ridge</li>
-                    <li class="text-[1.1vw]">Thumb</li>
-                    <li class="text-[1.1vw]">Finger</li>
+                    <li>Fingerprint</li>
+                    <li>Ridge</li>
+                    <li>Thumb</li>
+                    <li>Finger</li>
                 </ul>
                 <ul class="list-disc ">
-                    <li class="text-[1.1vw]">Fingerprint Pattern</li>
-                    <li class="text-[1.1vw]">Loop</li>
-                    <li class="text-[1.1vw]">Whorl</li>
-                    <li class="text-[1.1vw]">Arch</li>
+                    <li>Fingerprint Pattern</li>
+                    <li>Loop</li>
+                    <li>Whorl</li>
+                    <li>Arch</li>
                 </ul>
             </div>
         </div>
@@ -45,9 +49,8 @@
     {{-- slide 2 --}}
     <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
         <div>
-            <h2 class="font-bold t-title">Preparations for Individual Activity - Which fingerprint pattern do you have on
-                each
-                finger? :</h2>
+            <h2 class=" t-title">Preparations for Individual Activity - Which fingerprint pattern do you have on
+                each finger? :</h2>
             <ul class="list-disc ">
                 <li class="text-[1.3vw]">A few magnifying glasses (optional; use in case children cannot
                     determine which pattern is in a fingerprint; guide them on how to use
@@ -61,7 +64,7 @@
 
 
     {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-center  text-start">
+    <div class=" slide t-slide flex  text-white flex-col items-center justify-center  text-start">
         <div>
             <h2 class=" t-title">Preparations for Group Activity - Fingerprint Patterns Of The Class:</h2>
             <ul class="list-disc">

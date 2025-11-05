@@ -83,7 +83,7 @@
 
 
     {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-center  text-start">
+    <div class=" slide t-slide flex  text-white flex-col items-center justify-center  text-start">
         <div>
             <h2 class=" t-title">Things to note for Class Activity 1:</h2>
             <ul class="list-disc">
@@ -109,7 +109,7 @@
 
 
     {{-- slide 4 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
+    <div class=" slide t-slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">Things to note for Class Activity 1:</h2>
             <ul class="list-decimal">
@@ -126,7 +126,7 @@
 
 
     {{-- slide 5 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
+    <div class=" slide t-slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">Things to note for Class Activity 2:</h2>
             <ul>
@@ -145,7 +145,7 @@
 
 
     {{-- sldie 6 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
+    <div class=" slide t-slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">Useful information:</h2><br>
             <ul>
@@ -167,7 +167,7 @@
 
 
     {{-- sldie 7 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
+    <div class=" slide t-slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">Notes</h2>
             <ul>
@@ -199,7 +199,7 @@
     </div>
 
     {{-- sldie 8 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start  text-start">
+    <div class=" slide t-slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">When Glaciers Melt</h2>
             <p class="note">What and how to set up:<br>
