@@ -2,11 +2,12 @@
 @section('title', 'Dynamic Presentation')
 
 @section('content')
-
+    {{-- title --}}
+    <h2 class="top-title stroke">Double DNA Helix</h2>
 
     {{-- Slide 1 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <img src="{{ asset('assets/images/K2/livingthings/dna/td16.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/td16.png') }}" class="w-img3" />
         <div class="title stroke">
             <h2>Children, do you still remember what does DNA look like?
                 Is it possible to see a strand of DNA with our naked eyes?</h2>
@@ -25,7 +26,7 @@
 
     {{-- Slide3 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/livingthings/dna/h2.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h2.png') }}" class="w-img3" />
         <h2 class="title stroke text-center">Thanks to the efforts of some scientists,
             the structure of DNA was discovered in 1953.</h2>
     </div>
@@ -76,32 +77,24 @@
             <img src="{{ asset('assets/images/K2/livingthings/dna/h3.png') }}" />
             <div class="flex flex-col gap-[1.3vw] items-center">
                 <!-- sound Button -->
-                <div onclick="toggleVideo('video1')"
-                    class=" z-30 h-18 w-18 -translate-y-1/2 cursor-pointer flex justify-center items-center rounded-[30px] bg-[#F8A23A]">
-                    {{-- <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px]  w-fit" /> --}}
-                    <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-                    <img class=" h-10 w-10" src="/assets/images/pptimages/sound-icon.png" />
-                </div>
+                <button onclick="playSound1()">
+                    <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" class="!max-w-[2.8vw]" />
+                </button>
 
                 <!-- sound Button -->
-                <div data-property-2="Default"
-                    class=" z-30 h-18 w-18 -translate-y-1/2 cursor-pointer flex justify-center items-center rounded-[30px] bg-[#F8A23A]">
-                    {{-- <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] " /> --}}
-                    <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-                    <img class=" h-10 w-10" src="/assets/images/pptimages/sound-icon.png" />
-                </div> <!-- sound Button -->
-                <div onclick="toggleVideo('video1')"
-                    class=" z-30 h-18 w-18 -translate-y-1/2 cursor-pointer flex justify-center items-center rounded-[30px] bg-[#F8A23A]">
-                    {{-- <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] " /> --}}
-                    <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-                    <img class=" h-10 w-10" src="/assets/images/pptimages/sound-icon.png" />
-                </div> <!-- sound Button -->
-                <div onclick="toggleVideo('video1')"
-                    class=" z-30 h-18 w-18 -translate-y-1/2 cursor-pointer flex justify-center items-center rounded-[30px] bg-[#F8A23A]">
-                    {{-- <img src="/assets/images/pptimages/Vector4.png" class="absolute top-[6px] left-[8px] " /> --}}
-                    <div class="absolute top-[10px] left-[19.74px] h-3.5 w-5 bg-white"></div>
-                    <img class=" h-10 w-10" src="/assets/images/pptimages/sound-icon.png" />
-                </div>
+                <button onclick="playSound2()">
+                    <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" class="!max-w-[2.8vw]" />
+                </button> 
+
+                <!-- sound Button -->
+                <button onclick="playSound3()">
+                    <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" class="!max-w-[2.8vw]" />
+                </button>
+
+                 <!-- sound Button -->
+                <button onclick="playSound4()">
+                    <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" class="!max-w-[2.8vw]" />
+                </button>
             </div>
 
         </div>
@@ -405,6 +398,28 @@
 
 @push('script')
     <script>
+        // Audio functionality - must be outside DOMContentLoaded for onclick access
+        const sound1 = new Audio('{{ asset('assets/audio/helix1.mp3') }}');
+        const sound2 = new Audio('{{ asset('assets/audio/helix2.mp3') }}');
+        const sound3 = new Audio('{{ asset('assets/audio/helix3.mp3') }}');
+        const sound4 = new Audio('{{ asset('assets/audio/helix4.mp3') }}');
+
+        function playSound1() {
+            sound1.play();
+        }
+
+        function playSound2() {
+            sound2.play();
+        }
+
+        function playSound3() {
+            sound3.play();
+        }
+
+        function playSound4() {
+            sound4.play();
+        }
+
         document.addEventListener("DOMContentLoaded", () => {
             const slides = document.querySelectorAll(".slide");
             const nextButtons = document.querySelectorAll(".nextButton");
@@ -449,7 +464,7 @@
                 return false;
             }
 
-            // Get info/click class from button (info-btn1 → , click-btn1 → click1)
+            // Get info/click class from button (info-btn1 → info-slide1, click-btn1 → click1)
             function getInfoClassFromButton(button) {
                 const classList = Array.from(button.classList);
 
@@ -526,41 +541,39 @@
                 );
             }
 
-           // Return button
-returnButton.addEventListener("click", () => {
-    
+            // Return button
+            returnButton.addEventListener("click", () => {
+                if (isViewingInfoSlides && currentSlide > 0) {
+                    // Check if previous slide is also same info/click class
+                    let prevSlide = currentSlide - 1;
 
-    if (isViewingInfoSlides && currentSlide > 0) {
-        // Check if previous slide is also same info/click class
-        let prevSlide = currentSlide - 1;
+                    // Find previous slide with same info/click class
+                    while (prevSlide >= 0 && !slides[prevSlide].classList.contains(currentInfoClass)) {
+                        prevSlide--;
+                    }
 
-        // Find previous slide with same info/click class
-        while (prevSlide >= 0 && !slides[prevSlide].classList.contains(currentInfoClass)) {
-            prevSlide--;
-        }
+                    if (prevSlide >= 0 && slides[prevSlide].classList.contains(currentInfoClass)) {
+                        currentSlide = prevSlide;
+                        showSlide(currentSlide);
+                    } else {
+                        // No more info/click slides, return to parent
+                        currentSlide = parentSlideIndex;
+                        isViewingInfoSlides = false;
+                        currentInfoClass = null;
+                        parentSlideIndex = null;
+                        showSlide(currentSlide);
+                    }
+                } else if (currentSlide > 0) {
+                    currentSlide--;
 
-        if (prevSlide >= 0 && slides[prevSlide].classList.contains(currentInfoClass)) {
-            currentSlide = prevSlide;
-            showSlide(currentSlide);
-        } else {
-            // No more info/click slides, return to parent
-            currentSlide = parentSlideIndex;
-            isViewingInfoSlides = false;
-            currentInfoClass = null;
-            parentSlideIndex = null;
-            showSlide(currentSlide);
-        }
-    } else if (currentSlide > 0) {
-        currentSlide--;
+                    // Skip info/click slides when going back
+                    while (currentSlide > 0 && isInfoSlide(slides[currentSlide])) {
+                        currentSlide--;
+                    }
 
-        // Skip info/click slides when going back
-        while (currentSlide > 0 && isInfoSlide(slides[currentSlide])) {
-            currentSlide--;
-        }
-
-        showSlide(currentSlide);
-    }
-});;
+                    showSlide(currentSlide);
+                }
+            });
 
             // DONE button handler
             if (doneButton) {

@@ -18,7 +18,7 @@
     {{-- slide 1 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
 
-        <img src="{{ asset('assets/images/pptimages/r18.png') }}" class="large-img6" />
+        <img src="{{ asset('assets/images/pptimages/r18.png') }}" class="w-img" />
         <h2 class="stroke title">Look at this <span class="text-white">house</span>! What <span
                 class="text-white">shapes</span> does it look like?</h2>
         <p class="note">Note: Encourage the children to share answers.</p>
@@ -37,14 +37,14 @@
     {{-- slide 3 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="stroke title">Shapes can be put together to form an image.</h2>
-        <img src="{{ asset('assets/images/pptimages/gl14.png') }}" />
+        <img src="{{ asset('assets/images/pptimages/gl14.png') }}" class="w-img3" />
         <p class="note">Note: Point out the shape to the children.</p>
     </div>
 
     {{-- slide 4 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
         <h2 class="stroke title">This is how an image of a house can be made.</h2>
-        <img src="{{ asset('assets/images/pptimages/s2.png') }}" class="large-img6" />
+        <img src="{{ asset('assets/images/pptimages/s2.png') }}" class="w-img" />
         <p class="note">Note: Point out the shape to the children.</p>
     </div>
 
@@ -52,10 +52,11 @@
 
     {{-- slide 5 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <h2 class="stroke title">Shapes are put together to make images like a van or a flower.</h2>
+        <h2 class="stroke title"><span class="text-white">Shapes</span> are put together to make images like a van or a
+            flower.</h2>
         <div class="flex items-center gap-2">
-            <img src="{{ asset('assets/images/pptimages/s6.png') }}" class="large-img4" />
-            <img src="{{ asset('assets/images/pptimages/s4.png') }}" class="large-img4" />
+            <img src="{{ asset('assets/images/pptimages/s6.png') }}" class="w-img" />
+            <img src="{{ asset('assets/images/pptimages/s4.png') }}" class="w-img" />
         </div>
         <p class="note">Note: Point out the shape to the children.</p>
     </div>
@@ -73,12 +74,12 @@
     {{-- slide 7 --}}
     <div class="flex flex-col h-[50vh] justify-between slide hidden">
         <div class="title stroke text-start">
-            <h2>let's do:</h2>
-            <ul class="list-decimal   ">
+            <h2 class="!text-white">let's do:</h2>
+            <ol class="list-decimal pl-8 space-y-3">
                 <li>Go around the class and pick one of your favorite toy.</li>
                 <li>Look at the toy and see what shape does the toy look like.</li>
 
-            </ul>
+            </ol>
         </div>
         <p class="note  text-center">Note: Teacher may guide the children to look at the toy from the front view.</p>
     </div>
@@ -88,16 +89,16 @@
     {{-- slide 8 --}}
     <div class="flex flex-col h-[50vh] justify-between slide hidden">
         <div class="title stroke text-start">
-            <h2>let's do:</h2>
-            <ul class="   ">
-                <li>3. Look at the toy in parts. For example if it is a teddy bear. look at its head, body then the legs.
+            <h2 class="!text-white">let's do:</h2>
+            <ol class="list-decimal pl-8 space-y-3" start="3">
+                <li> Look at the toy in parts. For example if it is a teddy bear. look at its head, body then the legs.
                 </li>
-                <li>4. For each part, guide children to verbalize the shape or find a similar shaped paper to create the
+                <li>For each part, guide children to verbalize the shape or find a similar shaped paper to create the
                     image.</li>
-            </ul>
+            </ol>
         </div>
         <p class="note  text-center">Note: Teacher to guide and assist children if they are unable to make out the shapes.
-            Some toys such as teddy bear may not have a regular shape, guide and encourage
+            Some toys such as teddy bear may not have a regolar shape, guide and encourage
             children to work on the shapes part by part. e.g. the head looks like a circle and the
             ears are like semi circle etc.</p>
     </div>
@@ -105,16 +106,16 @@
     {{-- slide 9 --}}
     <div class="flex flex-col h-[50vh] justify-between items-center slide hidden">
         <div class="title stroke text-start">
-            <h2>let's do:</h2>
-            <ul class="   ">
-                <li>5.Guide children to form the image using the paper shapes before pasting the paper on their
+            <h2 class="!text-white">let's do:</h2>
+            <ol class="list-decimal pl-8" start="5">
+                <li>Guide children to form the image using the paper shapes before pasting the paper on their
                     learning journals.</li>
-            </ul>
+            </ol>
         </div>
         <div class="w-[35vw] h-[25vh] bg-cover bg-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p class="text-[1vw]">My Creations</p>
-            <div class="flex w-full">
+            <div class="flex w-foll">
                 <div class="border-2 border-black h-[22vh] w-[15vw]">
                     <p class="text-[1vw]">Place the photo of the toy on this side</p>
                 </div>
@@ -129,14 +130,14 @@
     {{-- slide 10 --}}
     <div class="flex flex-col h-[50vh] justify-between  slide hidden">
         <div class="title stroke text-start">
-            <h2>let's do:</h2>
-            <ul class="list-decimal   ">
+            <h2 class="!text-white">Suggested Questions:</h2>
+            <ol class="list-decimal pl-8 space-y-3   ">
                 <li> Look at this part of the toy, what shape does it look like?</li>
                 <li>Is it a rectangle or a square?</li>
-                <li>Would you like to try using a bigger/small shape?</li>
+                <li>Woold you like to try using a bigger/small shape?</li>
                 <li> How can we make a bigger square/triangle for this part?</li>
 
-            </ul>
+            </ol>
         </div>
         <p class="note  text-center">Note: Teacher can show children the paper shapes and encourage them to
             choose for each part.</p>
@@ -146,16 +147,17 @@
     <div class="flex flex-col items-center justify-center  slide hidden">
         <h2 class="stroke title">The image of a house is <span class="text-white">flat </span>but it can be made<br />into
             these dimensional <span class="text-white">structure.</span></h2>
-        <img src="{{ asset('assets/images/pptimages/s2.png') }}" class="large-img6" />
+        <img src="{{ asset('assets/images/pptimages/s2.png') }}" class="w-img" />
     </div>
 
 
     {{-- slide 18 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <h2 class="stroke title">The three dimensional structure of a house can be created by putting the shape structure of
+        <h2 class="stroke title">The three dimensional <span class="text-white">structure</span> of a house can be created
+            by putting the <span class="text-white">shape structure</span> of
             each side together.</h2>
 
-        <img src="{{ asset('assets/images/pptimages/gl15.png') }}" class="large-img6" />
+        <img src="{{ asset('assets/images/pptimages/gl15.png') }}" class="w-img3" />
         <p class="note  text-center">Note: Teacher show children using the house structure created the previous lesson</p>
     </div>
 
@@ -163,7 +165,7 @@
     {{-- slide 19 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
         <h2 class="stroke title">Similarly, a three dimensional structure of the toy can be created too!</h2>
-        <img src="{{ asset('assets/images/pptimages/r29.png') }}" class="large-img6" />
+        <img src="{{ asset('assets/images/pptimages/r29.png') }}" class="w-img" />
     </div>
 
 
@@ -177,26 +179,27 @@
     {{-- slide 21 --}}
     <div class="flex flex-col h-[50vh] justify-between slide hidden">
         <div class="title stroke text-start">
-            <h2>let's do:</h2>
-            <ul class="list-decimal   ">
+            <h2 class="!text-white">let's do:</h2>
+            <ol class="list-decimal pl-8 space-y-3   ">
                 <li>Look at the shape template which was done for Activity 1.</li>
                 <li>Pick out similar shape magnetic tiles and create the image of your toy,</li>
-            </ul>
+            </ol>
         </div>
-        <p class="note  text-center">Note: Encourage children the shapes of the magnetic tiles needed in the template image.
+        <p class="note  text-center">Note: Encourage children the shapes of the magnetic tiles needed in the template
+            image.
             If no such shapes are availabe, teacher can guide child to use a similar one.</p>
     </div>
 
     {{-- slide 22 --}}
     <div class="flex flex-col h-[50vh] justify-between  slide hidden">
         <div class="title stroke text-start">
-            <h2>let's do:</h2>
-            <ul class="   ">
-                <li>3. The structure is flat now. Look at the side of the toy, what shape is it in?</li>
-                <li>4. Take the magnetic shapes and add it onto your structure.</li>
-                <li>5. Now look at the bottom of the toy, what shape is it? Continue to build on the structure.</li>
+            <h2 class="!text-white">let's do:</h2>
+            <ol class="list-decimal pl-8 space-y-3" start="3">
+                <li>The structure is flat now. Look at the side of the toy, what shape is it in?</li>
+                <li>Take the magnetic shapes and add it onto your structure.</li>
+                <li>Now look at the bottom of the toy, what shape is it? Continue to build on the structure.</li>
 
-            </ul>
+            </ol>
         </div>
         <p class="note  text-center">Note: Encourage children to identify the shapes on the side. Teacher to guide and
             assist the children to work on it part by part, e.g. work on the head of the bear first.</p>
@@ -205,11 +208,11 @@
     {{-- slide 23 --}}
     <div class="flex flex-col h-[50vh] justify-between  slide hidden">
         <div class="title stroke text-start">
-            <h2>let's do:</h2>
-            <ul class="  ">
-                <li>6. Add magnetic tiles to the other side and the top to complete your toy structure.</li>
-                <li>7. Share your creation when you have completed your toy structure.</li>
-            </ul>
+            <h2 class="!text-white">let's do:</h2>
+            <ol class="  list-decimal pl-9 space-y-3" start="6">
+                <li>Add magnetic tiles to the other side and the top to complete your toy structure.</li>
+                <li>Share your creation when you have completed your toy structure.</li>
+            </ol>
         </div>
         <p class="note  text-center">Note: If child is unable to make out the shapes, encourage child to explore adding
             shapes to the side
@@ -222,12 +225,12 @@
     {{-- slide 24 --}}
     <div class="flex flex-col  h-[50vh] justify-between slide hidden">
         <div class="title stroke text-start">
-            <h2>Suggested questions for show and tell:</h2>
-            <ul class="  list-decimal">
+            <h2 class="!text-white">Suggested questions for show and tell:</h2>
+            <ol class="list-decimal pl-8">
                 <li>What did you make.</li>
                 <li>What shapes did you use?</li>
                 <li>Which part did you start building first?</li>
-            </ul>
+            </ol>
         </div>
         <p class="note text-center">Note: Guided questions to help the children with their show and tell.</p>
     </div>
@@ -236,7 +239,6 @@
 
     {{-- slide 25 --}}
     <div class="flex flex-col justify-center  slide hidden">
-
         <h2 class="stroke title">Many images can be created using <span class="text-white">shapes</span>.</h2>
         <div class="flex gap-10 items-center">
             <img src="{{ asset('assets/images/pptimages/s6.png') }}" class="large-img" />
@@ -247,7 +249,8 @@
 
     {{-- slide 26 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <h2 class="title">Different shapes can be combined to form three dimensional structures.</h2>
+        <h2 class="title stroke">Different <span class="text-white">shapes</span> can be combined to form three
+            dimensional <span class="text-white">structures</span>.</h2>
 
 
         <img src="{{ asset('assets/images/pptimages/r440.png') }}" aria-valuemax="large-img" />
@@ -259,7 +262,7 @@
         <div class="w-[45vw] h-[35vh] bg-cover bg-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>Learning Journal</p>
-            <div class="flex w-full">
+            <div class="flex w-foll">
                 <div class="border-2 border-black h-[32vh] w-[20vw]">
                     <p>Place the photo of the toy on this side</p>
                 </div>
@@ -273,7 +276,7 @@
 
 
 
-
+    {{-- ===================== --}}
     {{-- Complete/Done Butttom --}}
     <div class="down-btn-container">
         <button class="cursor-pointer doneButton">

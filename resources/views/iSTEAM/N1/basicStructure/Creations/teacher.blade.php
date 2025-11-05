@@ -98,7 +98,7 @@
                 </li>
                 <li>Always ask questions to encourage children to think and share their ideas first before giving out any
                     information.</li>
-                <li>Emphasise and use the <strong>keywords</strong> during hands-on sessions.</li>
+                <li>Emphasise and use the keywords during hands-on sessions.</li>
                 <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.</li>
                 <li class="flex">
                     Click on this shortcut icon

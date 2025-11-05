@@ -2,8 +2,10 @@
 @section('title', 'Dynamic Presentation')
 
 @section('content')
+    {{-- title --}}
+    <h2 class="top-title stroke">What is DNA?</h2>
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
+    <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -33,7 +35,7 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
+    <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
@@ -55,11 +57,12 @@
     </div>
 
     {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
+    <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">How to extract DNA from one's mouth and things to consider:</h2>
             <ul class="list-decimal">
-                <li class="text-[1.2vw]">Mix together 100ml distilled water and half a teaspoon of salt in a cup . [Guide children to measure and
+                <li class="text-[1.2vw]">Mix together 100ml distilled water and half a teaspoon of salt in a cup . [Guide
+                    children to measure and
                     prepare the salt water with a measuring cup and a teaspoon; have them stir until salt is dissolved .]
                 </li>
             </ul>
@@ -70,11 +73,12 @@
 
 
     {{-- slide 4 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
+    <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">How to extract DNA from one's mouth and things to consider:</h2>
             <ul>
-                <li class="text-[1.2vw]">2. Transfer 4 tablespoons of the salt water into another cup . [Invite a child to do the step; can be 4
+                <li class="text-[1.2vw]">2. Transfer 4 tablespoons of the salt water into another cup . [Invite a child to
+                    do the step; can be 4
                     tablespoons or 30ml . As the final result will be displayed at the learning corner, you may consider
                     using a clear plastic container with lid instead.]</li>
             </ul>
@@ -85,11 +89,12 @@
 
 
     {{-- slide 5 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
+    <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">How to extract DNA from one's mouth and things to consider:</h2>
             <ul>
-                <li class="text-[1.2vw]">3. Gargle the salt water for one minute. Try hard and don't swallow it! [Teacher to do the step; for
+                <li class="text-[1.2vw]">3. Gargle the salt water for one minute. Try hard and don't swallow it! [Teacher to
+                    do the step; for
                     better result, clean your mouth beforehand to remove any food residue.]</li>
             </ul>
         </div>
@@ -99,11 +104,12 @@
 
 
     {{-- sldie 6 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
+    <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">How to extract DNA from one's mouth and things to consider:</h2>
             <ul>
-                <li class="text-[1.2vw]">4. Spit the water back into the cup . [Make sure you gargle the salt water for the full 1 minute, so
+                <li class="text-[1.2vw]">4. Spit the water back into the cup . [Make sure you gargle the salt water for the
+                    full 1 minute, so
                     that more cheek cells will be collected .]</li>
             </ul>
         </div>
@@ -113,11 +119,12 @@
 
 
     {{-- sldie 7 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
+    <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">How to extract DNA from one's mouth and things to consider:</h2>
             <ul>
-                <li class="text-[1.2vw]">5. Add one drop of clear liquid dish soap to the cup. Stir gently to avoid making bubbles. [Preferably
+                <li class="text-[1.2vw]">5. Add one drop of clear liquid dish soap to the cup. Stir gently to avoid making
+                    bubbles. [Preferably
                     teacher to do the step .]</li>
             </ul>
         </div>
@@ -126,11 +133,12 @@
     </div>
 
     {{-- sldie 8 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
+    <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">How to extract DNA from one's mouth and things to consider:</h2>
             <ul>
-                <li class="text-[1.2vw]">6. Mix together 30ml cold rubbing alcohol and 3 drops food colouring in another cup [Guide children to
+                <li class="text-[1.2vw]">6. Mix together 30ml cold rubbing alcohol and 3 drops food colouring in another cup
+                    [Guide children to
                     measure and prepare the alcohol mixture with a measuring cup, an eyedropper and a tablespoon .]</li>
             </ul>
         </div>
@@ -141,11 +149,12 @@
 
 
     {{-- sldie 9 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
+    <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">How to extract DNA from one's mouth and things to consider:</h2>
             <ul>
-                <li class="text-[1.2vw]">7. Gently pour the alcohol mixture from the side into the cup with gargled water. [Teacher to do the
+                <li class="text-[1.2vw]">7. Gently pour the alcohol mixture from the side into the cup with gargled water.
+                    [Teacher to do the
                     step; do not mix or stir .]</li>
             </ul>
         </div>
@@ -155,11 +164,12 @@
 
 
     {{-- sldie 10 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
+    <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">How to extract DNA from one's mouth and things to consider:</h2>
             <ul>
-                <li class="text-[1.2vw]">8. Observe what happens in the cup . [Advise children to observe from the top view .Take a photo of the
+                <li class="text-[1.2vw]">8. Observe what happens in the cup . [Advise children to observe from the top view
+                    .Take a photo of the
                     result for use in the next lesson.]</li>
             </ul>
         </div>
@@ -169,7 +179,7 @@
 
 
     {{-- slide 11 --}}
-    <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
+    <div class="slide flex t-slide flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
                 <h2 class=" t-title">Notes:</h2>
@@ -179,27 +189,29 @@
                         <span>
                             <img src="{{ asset('assets/images/pptimages/video.png') }}" />
                         </span>
-                        next to a picture, class="text-amber-400" click on the picture to watch the video.
+                        next to a picture,click on the picture to watch the video.
                     </li>
-                    <li class="text-[1.2vw]">Emphasise and use the <strong>keywords</strong> during hands-on sessions.</li>
-                    <li class="text-[1.2vw]">Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
+                    <li class="text-[1.2vw]">Emphasise and use the keywords during hands-on sessions.</li>
+                    <li class="text-[1.2vw]">Print out the Learning Journal (if any) for every child to complete at the end
+                        of the lesson.
                     </li>
-                    <li class="text-[1.2vw] flex">
-                        Click on this <span class=" t-title">shortcut icon</span>
-                        <span>
-                            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+                    <li class="flex whitespace-nowrap">
+                        Click on this shortcut icon
+                       <span>
+                            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" class="home-btn" />
                         </span>
                         if you need to go to some parts of the lesson quickly.
                     </li>
                 </ul>
             </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="Teacher" />
+            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1"
+                alt="Teacher" />
         </div>
     </div>
 
 
     {{-- slide 12 --}}
-    <div class="text-white flex flex-col items-center justify-center  text-start text-2xl slide hidden">
+    <div class="text-white flex flex-col items-center justify-center  text-start t-slide slide hidden">
         <h2 class=" title stroke">Learning Centre Idea</h2>
         <div>
             <ul>

@@ -49,6 +49,10 @@ body {
         max-width: 40vw !important;
         height: 14vw !important;
     }
+    .w-img4 {
+        max-width: 42vw !important;
+        height: 16vw !important;
+    }
     .h-img {
         height: 19vw !important;
     }
@@ -209,7 +213,7 @@ video {
 }
 
 .slide {
-    gap: 1.4vw !important;
+    gap: 1.2vw !important;
 
     ul,
     ol {

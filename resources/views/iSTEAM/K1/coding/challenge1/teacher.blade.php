@@ -192,14 +192,14 @@
                     <span>
                         <img src="{{ asset('assets/images/pptimages/video.png') }}" />
                     </span>
-                    next to a picture, class="text-amber-400" click on the picture to watch the video.
+                    next to a picture,click on the picture to watch the video.
                 </li>
-                <li>Emphasise and use the <strong>keywords</strong> during hands-on sessions.</li>
-                <li class="text-amber-400">The fundamental skill of coding or programming is ability to
+                <li>Emphasise and use the keywords during hands-on sessions.</li>
+                <li class="text-[#F7B94A]">The fundamental skill of coding or programming is ability to
                     differentiate and navigate self to move forward, backward, turn left
                     and turn right. If children are not ready, play more related games to
                     improve the skill.</li>
-                <li class="text-amber-400">It is important to inculcate the habit of always laying out the steps
+                <li class="text-[#F7B94A]">It is important to inculcate the habit of always laying out the steps
                     using coding cards before working on the Blockly because it's not easy
                     for children to remember all the steps when they use Blockly to
                     programme.</li>

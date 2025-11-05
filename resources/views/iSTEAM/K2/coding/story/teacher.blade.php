@@ -45,7 +45,7 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
+    <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
         <ul class="list-disc">
             <h2 class="t-title">Preparations:</h2>
             <li class="text-[1.1vw]">The tablets (download ScratchJr application from App Store or Google Play for each
@@ -66,7 +66,7 @@
 
 
     {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
+    <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
 
 
         <ul class="list-disc">
@@ -118,7 +118,7 @@
     {{-- sldie 6 --}}
 
 
-    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
+    <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
 
         <ul class="list-disc">
             <h2 class="t-title">Additional info:</h2>
@@ -156,12 +156,12 @@
 
 
     {{-- sldie 7 --}}
-    <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
+    <div class="slide flex t-slide  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
                 <h2 class=" t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
-                    <li class="text-[1.3vw] flex">
+                    <li class="text-[1.3vw] flex whitespace-nowrap">
                         If you see
                         <span>
                             <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s27.png') }}"
@@ -175,8 +175,8 @@
                     </li>
                     <li class="text-[1.1vw]">Print out the Learning Journal (if any) for every <br>
                         child to complete at the end of the lesson.</li>
-                    <li class="text-[1.3vw] flex">
-                        Click on this <span class="font-bold t-title">shortcut icon</span>
+                    <li class="text-[1.3vw] flex whitespace-nowrap">
+                        Click on this shortcut icon
                         <span>
                             <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s28.png') }}"
                                 class="!max-w-[2.5vw]" />

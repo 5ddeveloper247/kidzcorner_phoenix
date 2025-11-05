@@ -336,7 +336,7 @@
         </div>
         <img src="/assets/images//K1/coding/go/go22.png" class="large" />
         <p class="note">Note: Select Drive > place programming block of Forward > turn on the programme so that the
-            robot moves accordingly; <a href="" class="text-amber-400 click-btn1">click here</a> for visual guide.
+            robot moves accordingly; <a href="" class="text-[#F7B94A] click-btn1">click here</a> for visual guide.
         </p>
     </div>
 
@@ -384,7 +384,7 @@
         <img src="/assets/images//K1/coding/go/go23.png" class="large" />
         <p class="note">Note: Select Drive>place programming block of Forward>select Forward>change distance to 90cm>turn
             on the programme so that the robot moves accordingly; <a href=""
-                class="text-amber-400 click-btn2">click here</a>
+                class="text-[#F7B94A] click-btn2">click here</a>
             for visual guide.</p>
     </div>
 

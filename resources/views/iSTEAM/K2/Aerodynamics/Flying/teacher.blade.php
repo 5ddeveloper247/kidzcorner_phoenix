@@ -7,7 +7,7 @@
 
 
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
+    <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
         <div>
             <h2 class="t-title ">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -112,12 +112,12 @@
 
 
     {{-- slide 4 --}}
-    <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
+    <div class="slide flex t-slide  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
                 <h2 class=" t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
-                    <li class="text-[1.3vw] flex">
+                    <li class="text-[1.3vw] flex whitespace-nowrap">
                         If you see
                         <span>
                             <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s27.png') }}"
@@ -125,12 +125,12 @@
                         </span>
                         next to a picture, click on the picture to watch the video.
                     </li>
-                    <li class="text-[1.3vw]">Emphasise and use the <strong>keywords</strong> during hands-on sessions.</li>
+                    <li class="text-[1.3vw]">Emphasise and use the keywords during hands-on sessions.</li>
                     <li class="text-[1.3vw]">Print out the Learning Journal (if any) for every child to complete at the end
                         of the lesson.
                     </li>
                     <li class="text-[1.3vw]">
-                        Click on this <span class="font-bold t-title">shortcut icon</span>
+                        Click on this shortcut icon
                         <span>
                             <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s28.png') }}"
                                 class="!max-w-[2.5vw]" />

@@ -2,6 +2,9 @@
 @section('title', 'Dynamic Presentation')
 
 @section('content')
+    {{-- title --}}
+    <h2 class="top-title stroke">How Plants Grow?</h2>
+
     {{-- Slide 1 --}}
     <div class="slide flex flex-col items-center justify-center">
         <img src="{{ asset('assets/images/K2/livingthings/pgrow/p1.png') }}" class="large-img7" alt="Plants Introduction" />
@@ -42,10 +45,12 @@
 
     {{-- Slide 6 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
-        <ol class="text-start title stroke">
-            <h2>Let's do:</h2>
-            <li>1. Write the name of the seed, today's date and your name on a label.</li>
-        </ol>
+        <div class="title stroke text-start">
+            <h2 class="!text-white">Let's do:</h2>
+            <ol class="list-decimal">
+                <li>Write the name of the seed, today's date and your name on a label.</li>
+            </ol>
+        </div>
         <img src="{{ asset('assets/images/K2/livingthings/pgrow/p4.png') }}" class="large-img3" alt="Step 1" />
         <p class="note text-center">Note: Help to apply 2 dots of glue with a gap in between roughly at the middle of
             the paper towel for each child.</p>
@@ -53,47 +58,57 @@
 
     {{-- Slide 7  --}}
     <div class="slide hidden flex flex-col items-center justify-start">
-        <ol class="text-start title stroke">
-            <h2>Let's do:</h2>
-            <li>2. Put a seed on each of the glue dot on the paper towel and allow the glue dry.</li>
-        </ol>
+        <div class="text-start title stroke">
+            <h2 class="!text-white">Let's do:</h2>
+            <ol class="list-decimal pl-9" start="2">
+                <li>Put a seed on each of the glue dot on the paper towel and allow the glue dry.</li>
+            </ol>
+        </div>
         <img src="{{ asset('assets/images/K2/livingthings/pgrow/p5.png') }}" alt="Step 2" />
     </div>
 
     {{-- Slide 8  --}}
     <div class="slide hidden flex flex-col items-center justify-start">
-        <ol class="text-start title stroke">
-            <h2>Let's do:</h2>
-            <li>3. Put the paper towel into a zipper storage bag and spray water to wet the paper towel.</li>
-        </ol>
+        <div class="text-start title stroke">
+            <h2 class="!text-white">Let's do:</h2>
+            <ol class="list-decimal pl-9" start="3">
+                <li>Put the paper towel into a zipper storage bag and spray water to wet the paper towel.</li>
+            </ol>
+        </div>
         <img src="{{ asset('assets/images/K2/livingthings/pgrow/p6.png') }}" alt="Step 3" />
     </div>
 
     {{-- Slide 9 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
-        <ol class="text-start title stroke">
-            <h2>Let's do:</h2>
-            <li>4. Leave about 1cm extra water at the bottom of the bag and seal the bag.</li>
-        </ol>
+        <div class="title stroke text-start">
+            <h2 class="!text-white">Let's do:</h2>
+            <ol class="list-decimal pl-9" start="4">
+                <li>Leave about 1cm extra water at the bottom of the bag and seal the bag.</li>
+            </ol>
+        </div>
         <img src="{{ asset('assets/images/K2/livingthings/pgrow/p7.png') }}" alt="Step 4" />
     </div>
 
 
     {{-- slide 10 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
-        <ol class="text-start title stroke">
-            <h2>Let's do:</h2>
-            <li>5. Label the bag and tape it to a sunny window.</li>
-        </ol>
+        <div class="title stroke text-start">
+            <h2 class="!text-white">Let's do:</h2>
+            <ol class="list-decimal pl-9" start="5">
+                <li>Label the bag and tape it to a sunny window.</li>
+            </ol>
+        </div>
         <img src="{{ asset('assets/images/K2/livingthings/pgrow/p8.png') }}" alt="Step 5" />
     </div>
 
     {{-- slide 11 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
-        <ol class="text-start title stroke">
-            <h2>Let's do:</h2>
-            <li>6. Use the learning journal to record your observations.</li>
-        </ol>
+        <div class="title stroke text-start">
+            <h2 class="!text-white">Let's do:</h2>
+            <ol class="list-decimal pl-9" start="6">
+                <li>Use the learning journal to record your observations.</li>
+            </ol>
+        </div>
         <img src="{{ asset('assets/images/K2/livingthings/pgrow/p9.png') }}" alt="Step 6" />
         <p class="note">Note: Have children draw the current look of the seeds and write down today's date.
             Remind them to check on the seeds every day for at least a week and record their observations.</p>
@@ -109,31 +124,36 @@
 
     {{-- slide 13 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <h2 class="text-center justify-start text-[45px] text-white stroke">Class Activity</h2>
-        <img src="{{ asset('assets/images/K2/livingthings/pgrow/p10.png') }}" alt="Green Onions" />
-        <h2 class="text-start title stroke">Let's find out: <br>
+        <h2 class="text-center justify-start title !text-white stroke">Class Activity</h2>
+        <img src="{{ asset('assets/images/K2/livingthings/pgrow/p10.png') }}" alt="Green Onions" class="w-img3" />
+
+        <h2 class="text-start title stroke"><span class="text-white">Let's find out:</span> <br>
             How to regrow green onions? How tall do they grow after a week?</h2>
         <p class="note">Note: Display a bunch of green onions, have children name the parts.</p>
     </div>
 
     {{-- Slide 14 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
-        <ol class="text-start title stroke">
-            <h2>Let's do:</h2>
-            <li>1. Cut off the green leaves of the green onions.</li>
-        </ol>
-        <img src="{{ asset('assets/images/K2/livingthings/pgrow/p11.png') }}" alt="Cut Onions" />
+        <div class="title stroke text-start">
+            <h2 class="!text-white">Let's do:</h2>
+            <ol class="list-decimal pl-9">
+                <li>Cut off the green leaves of the green onions.</li>
+            </ol>
+        </div>
+        <img src="{{ asset('assets/images/K2/livingthings/pgrow/p11.png') }}" class="w-img3" />
         <p class="note text-center">Note: Tell children that the green leaves will be used to garnish their food today.</p>
     </div>
 
 
     {{-- Slide 15 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
-        <ol class="text-start title stroke">
-            <h2>Let's do:</h2>
-            <li>2. Place the remaining green onions with roots in a transparent
-                container filled with some water.</li>
-        </ol>
+        <div class="title stroke text-start">
+            <h2 class="!text-white">Let's do:</h2>
+            <ol class="list-decimal pl-9" start="2">
+                <li>Place the remaining green onions with roots in a transparent
+                    container filled with some water.</li>
+            </ol>
+        </div>
         <img src="{{ asset('assets/images/K2/livingthings/pgrow/p12.png') }}" class="large-img3" alt="Place in Water" />
         <p class="note text-center">Note: Be sure that only roots and partial of the white stems are in the water.</p>
     </div>
@@ -141,10 +161,12 @@
 
     {{-- Slide 16 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
-        <ol class="text-start title stroke">
-            <h2>Let's do:</h2>
-            <li>3. Place the container near a sunny window.</li>
-        </ol>
+        <div class="title stroke text-start">
+            <h2 class="!text-white">Let's do:</h2>
+            <ol class="list-decimal pl-9" start="3">
+                <li>Place the container near a sunny window.</li>
+            </ol>
+        </div>
         <img src="{{ asset('assets/images/K2/livingthings/pgrow/p12.png') }}" alt="Sunny Window" />
     </div>
 
@@ -152,14 +174,16 @@
 
     {{-- Slide 17 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
-        <ol class="text-start title stroke">
-            <h2>Let's do:</h2>
-            <li>4. Use the learning journal to record your observations.</li>
-        </ol>
+        <div class="title stroke text-start">
+            <h2 class="!text-white">Let's do:</h2>
+            <ol class="list-decimal pl-9" start="4">
+                <li>Use the learning journal to record your observations.</li>
+            </ol>
+        </div>
         <img src="{{ asset('assets/images/K2/livingthings/pgrow/p13.png') }}" alt="Record Observations" />
         <p class="note text-center">Note: Have children draw the current look of the green onions and write down today's
             date. <br>
-            Remind them to check on the green onions every day for a week and record their observations after a week <br>
+            Remind them to check on the green onions every day for a week and record their observations after a week 
             (encourage them to measure and record the heights).</p>
     </div>
 
@@ -168,7 +192,7 @@
     <div class="slide hidden flex flex-col items-center justify-center gap-y-4">
         <h2 class="title stroke !text-white">Learning Journal</h2>
         <div class="w-[40vw] h-[40vh] flex flex-col justify-center items-center">
-            <img src="{{ asset('assets/images/K2/livingthings/pgrow/p14.png') }}" alt="Learning Journal Page 1" />
+            <img src="{{ asset('assets/images/K2/livingthings/pgrow/p14.png') }}" alt="Learning Journal Page 1" class="!max-w-[40vw]" />
         </div>
     </div>
 
@@ -176,7 +200,7 @@
     <div class="slide hidden flex flex-col items-center justify-center gap-y-4">
         <h2 class="title stroke !text-white">Learning Journal</h2>
         <div class="w-[40vw] h-[40vh] flex flex-col justify-center items-center">
-            <img src="{{ asset('assets/images/K2/livingthings/pgrow/p15.png') }}" alt="Learning Journal Page 2" />
+            <img src="{{ asset('assets/images/K2/livingthings/pgrow/p15.png') }}" alt="Learning Journal Page 2" class="!max-w-[40vw]" />
         </div>
     </div>
 

@@ -2,6 +2,9 @@
 @section('title', 'Dynamic Presentation')
 
 @section('content')
+    {{-- title --}}
+    <h2 class="top-title stroke">What Are Living Things?</h2>
+
     {{-- sldie 1  --}}
     <div class=" slide flex text-2xl text-white flex-col justify-start text-start">
         <div>
@@ -106,44 +109,41 @@
 
 
     {{-- sldie 10 --}}
-    <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
-        <div class="flex w-[100%] items-center justify-between">
-            <div>
-                <h2 class=" t-title">Notes:</h2>
-                <ul class="list-disc leading-relaxed">
-                    <li class="text-[1.3vw] flex">
-                        If you see
-                        <span class="info-btn">
-                            <img src="{{ asset('assets/images/pptimages/video.png') }}" />
-                        </span>
-                        next to a picture, class="text-amber-400" click on the picture to watch the video.
-                    </li>
-                    <li class="text-[1.3vw]">Emphasise and use the <strong>keywords</strong> during hands-on sessions.</li>
-                    <li class="text-[1.3vw]" class="text-amber-400">The fundamental skill of coding or programming is
-                        ability to
-                        differentiate and navigate self to move forward, backward, turn left
-                        and turn right. If children are not ready, play more related games to
-                        improve the skill.</li>
-                    <li class="text-[1.3vw]" class="text-amber-400">It is important to inculcate the habit of always
-                        laying out the steps
-                        using coding cards before working on the Blockly because it's not easy
-                        for children to remember all the steps when they use Blockly to
-                        programme.</li>
-                    <li class="text-[1.3vw]">Print out the Learning Journal (if any) for every child to complete at the end
-                        of the lesson.
-                    </li>
-                    <li class="text-[1.3vw] flex">
-                        Click on this <span class=" t-title">shortcut icon</span>
-                        <span>
-                            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" class="video-btn" />
-                        </span>
-                        if you need to go to some parts of the lesson quickly.
-                    </li>
-                </ul>
-            </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="Teacher" />
+    <div class="slide flex t-slide  flex-col  text-2xl text-start text-white">
+        <div>
+            <h2 class="t-title">Notes:</h2>
+            <ul class="list-disc">
+                <li class="flex whitespace-nowrap">
+                    If you see
+                    <span class="info-btn">
+
+                        <img src="{{ asset('assets/images/pptimages/video.png') }}" />
+                    </span>
+                    next to a picture, click on the picture to watch the video.
+                </li>
+                <li class="flex whitespace-nowrap">
+                    If you see
+                    <span> <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="video-btn" />
+                    </span>
+                    , click on it for additional information or activity.
+                </li>
+                <li>Always ask questions to encourage children to think and share their ideas first before giving
+                    out
+                    any information.</li>
+                <li>Emphasise and use the <strong>keywords</strong> during hands-on sessions.</li>
+                <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
+                </li>
+                <li class="flex whitespace-nowrap">
+                    Click on this shortcut icon
+                    <span> <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" class="home-btn" />
+                    </span>
+                    if you need to go to some parts of the lesson quickly.
+                </li>
+            </ul>
         </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
+
 
 
     {{-- slide 11 --}}

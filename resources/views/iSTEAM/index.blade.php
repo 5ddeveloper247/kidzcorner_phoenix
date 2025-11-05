@@ -114,9 +114,8 @@
             <p class="text-[#AF6E39] md:text-[2.5vw] absolute top-[4vw] left-[3.8vw]">K2</p>
         </a>
 
-        <div
-            class="group absolute left-[-21.5vw] top-1/2 -translate-y-1/2
-         w-[10vw] h-[10vw] flex items-center transition-all duration-500 hover:left-[-19vw]">
+        {{-- <div
+            class="group absolute left-[-21.5vw] top-1/2 -translate-y-1/2 w-[10vw] h-[10vw] flex items-center transition-all duration-500 hover:left-[-19vw]">
 
             <button class="db-btn w-[10vw] px-[2vw] h-[4vw] text-white rotate-[90deg]"
                 style="background: linear-gradient(229deg, rgb(87,173,137) 0%, rgba(58,111,93,1) 50%, rgba(247,185,74,1) 100%); border-radius:2.5vw 2.5vw 0 0 ">
@@ -124,7 +123,7 @@
             </button>
 
             <i class="bx bx-arrow-left-stroke text-[2vw] text-[#274F4A] -ml-[3.5vw] arrow-animate"></i>
-        </div>
+        </div> --}}
 
 
 
@@ -153,13 +152,13 @@
         const preloader = document.getElementById("preloader");
         const pageContent = document.querySelector(".page-content");
         const video = document.querySelector("video");
-        const dashBoard = document.querySelector(".db-btn");
+        // const dashBoard = document.querySelector(".db-btn");
 
-        if (dashBoard) {
-            dashBoard.addEventListener("click", () => {
-                window.location.href = "{{ route('admin.dashboard') }}";
-            });
-        }
+        // if (dashBoard) {
+        //     dashBoard.addEventListener("click", () => {
+        //         window.location.href = "{{ route('admin.dashboard') }}";
+        //     });
+        // }
 
         // Mute the video after 7 seconds
         setTimeout(() => video.muted = true, 9000);

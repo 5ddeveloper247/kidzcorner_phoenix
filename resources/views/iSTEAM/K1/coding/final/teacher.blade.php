@@ -173,9 +173,9 @@
                     <span>
                         <img src="{{ asset('assets/images/pptimages/video.png') }}" />
                     </span>
-                    next to a picture, class="text-amber-400" click on the picture to watch the video.
+                    next to a picture,click on the picture to watch the video.
                 </li>
-                <li>Emphasise and use the <strong>keywords</strong> during hands-on sessions.</li>
+                <li>Emphasise and use the keywords during hands-on sessions.</li>
                 <li>The fundamental skill of coding or programming is ability to
                     differentiate and navigate self to move forward, backward, turn left
                     and turn right. If children are not ready, play more related games to

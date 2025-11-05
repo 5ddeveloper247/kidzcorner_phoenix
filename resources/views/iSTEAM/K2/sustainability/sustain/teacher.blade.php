@@ -3,7 +3,7 @@
 
 @section('content')
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
+    <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -47,7 +47,7 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
+    <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
@@ -161,7 +161,7 @@
         <div>
             <h2 class="font-bold t-title">How to make own set of fingerprints and things to consider:</h2>
             <ul>
-                <li class="text-[1.3vw] flex">If you see 
+                <li class="text-[1.3vw] flex whitespace-nowrap">If you see 
                     <span>
                         <img src="{{ asset('assets/images/pptimages/video.png') }}" class="!max-w-[2.5vw]" />
                     </span>
@@ -175,7 +175,7 @@
                 <li class="text-[1.3vw]">Print out the Learning Journal (if any) for every
                     child to complete at the end of the lesson.
                 </li>
-                <li class="text-[1.3vw] flex">Click on this shortcut icon
+                <li class="text-[1.3vw] flex whitespace-nowrap">Click on this shortcut icon
                     <span>
                         <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" class="!max-w-[2.5vw]" />
                     </span>

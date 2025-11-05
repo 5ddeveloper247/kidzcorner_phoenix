@@ -3,7 +3,7 @@
 
 @section('content')
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
+    <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -51,7 +51,7 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
+    <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
         <div>
             <h2 class="font-bold t-title">Preparations For Class Activity 1:</h2>
             <ul class="list-disc">
@@ -203,14 +203,14 @@
         <div>
             <h2 class=" t-title">Notes</h2>
             <ul>
-                <li class="text-[1.3vw] flex">If you see
+                <li class="text-[1.3vw] flex whitespace-nowrap">If you see
                     <span>
                         <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s27.png') }}" class="!max-w-[2.5vw]" />
                     </span>
                     next to a
                     picture, click on the picture to watch the video
                 </li>
-                <li class="text-[1.3vw] flex">If you see
+                <li class="text-[1.3vw] flex whitespace-nowrap">If you see
                     <span>
                         <img src="{{ asset('assets/images/K2/sustain/energy1/information.png') }}"
                             class="!max-w-[2.5vw]" />
@@ -226,7 +226,7 @@
                 <li class="text-[1.3vw]">Print out the Learning Journal (if any) for every
                     child to complete at the end of the lesson.
                 </li>
-                <li class="text-[1.3vw] flex">Click on this shortcut icon
+                <li class="text-[1.3vw] flex whitespace-nowrap">Click on this shortcut icon
                     <span>
                         <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s28.png') }}"
                             class="!max-w-[2.5vw]" />

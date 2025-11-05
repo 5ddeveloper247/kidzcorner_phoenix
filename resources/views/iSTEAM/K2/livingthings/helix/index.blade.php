@@ -3,7 +3,7 @@
 
 @section('content')
 
-    <div id="topDiv" class="flex flex-col  gap-20 items-center ">
+    <div id="topDiv" class="flex flex-col items-center ">
         <div class="indexTitle  text-[55px]  stroke">DNA Double Helix</div>
         <h2 class="text-2xl sm:text-3xl lg:text-5xl text-white stroke ">
             Know that a DNA Double helix looks like a twisted
@@ -11,11 +11,9 @@
             double helix.</h2>
 
         {{-- next Button --}}
-        <div class="down-btn-container">
             <button class="nextButton">
                 <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
             </button>
-        </div>
     </div>
 
 
@@ -38,6 +36,11 @@
             <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
     </div>
 
+@endsection
+
+@push('script')
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
             const nextButton = document.querySelector(".nextButton");
             const returnButton = document.querySelector("#returnButton");
 

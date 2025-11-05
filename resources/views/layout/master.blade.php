@@ -195,7 +195,7 @@
                 exitYes.addEventListener("click", (e) => {
                     e.preventDefault();
                     // Change 'home' to your actual home route name
-                    window.location.href = "{{ route('isteam') }}";
+                    window.location.href = "{{ route('admin.dashboard') }}";
                 });
             }
 

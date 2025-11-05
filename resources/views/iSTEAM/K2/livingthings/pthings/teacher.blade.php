@@ -1,9 +1,12 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
- 
+
 @section('content')
+    {{-- title --}}
+    <h2 class="top-title stroke">Are Plants Living Things?</h2>
+
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
+    <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -17,7 +20,7 @@
 
         <div class="flex flex-col  items-start justify-between">
             <h2 class="t-title ">Keywords:</h2>
-            <div >
+            <div>
                 <ul class="list-disc ">
                     <li>Living Thing</li>
                     <li>Non-living Thing</li>
@@ -34,14 +37,13 @@
                 </ul>
             </div>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
+    <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Possible questions during hands-on session:</h2>
             <ul class="list-disc ">
@@ -66,12 +68,11 @@
             </ul>
         </div>
 
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
     {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
+    <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Additional information:</h2>
             <ul class="list-disc">
@@ -94,13 +95,12 @@
                 </li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- slide 4 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
+    <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations - if you do the experiment of Plants Do Breathe Air:</h2>
             <ul class="list-disc">
@@ -110,8 +110,7 @@
             </ul>
         </div>
         <img src="{{ asset('assets/images/K2/livingthings/pthings/p15.png') }}" class="w-[500px]" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
@@ -126,8 +125,7 @@
             </ul>
         </div>
         <img src="{{ asset('assets/images/K2/livingthings/pthings/p15.png') }}" class="w-[500px]" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
     {{-- sldie 6 --}}
@@ -140,8 +138,7 @@
             </ul>
         </div>
         <img src="{{ asset('assets/images/K2/livingthings/pthings/p27.png') }}" class="w-[500px]" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
@@ -156,8 +153,7 @@
             <img src="{{ asset('assets/images/K2/livingthings/pthings/p28.png') }}" class="w-[500px]" />
             <img src="{{ asset('assets/images/K2/livingthings/pthings/p29.png') }}" class="w-[500px]" />
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
@@ -170,8 +166,7 @@
             mission. <span class="text-[#F7B94A]"> If needed, adjust the level of difficulty by reducing the number of
                 colour cards on the mat for different groups.</span></p>
         <img src="{{ asset('assets/images/K1/coding/challenge2/ch3.png') }}" alt="Teacher" class="w-[400px]" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
@@ -183,23 +178,17 @@
                 <ul class="list-disc leading-relaxed">
                     <li>
                         If you see
-                        <span
-                            class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-                            <!-- Decorative Vector -->
-                            <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
-                                class="absolute top-[4px] left-[6px] h-6 w-[80%]" />
-                            <div class="absolute top-[7px] left-[12px] h-2.5 w-3.5 rounded-sm bg-white"></div>
-                            <img src="{{ asset('assets/images/pptimages/play.png') }}"
-                                class="absolute top-[16px] left-[16px] h-8 w-8" />
-                        </span>
-                        next to a picture, class="text-amber-400" click on the picture to watch the video.
+                        <span class="info-btn">
+                        <img src="{{ asset('assets/images/pptimages/video.png') }}" />
+                    </span>
+                        next to a picture,click on the picture to watch the video.
                     </li>
-                    <li>Emphasise and use the <strong>keywords</strong> during hands-on sessions.</li>
-                    <li class="text-amber-400">The fundamental skill of coding or programming is ability to
+                    <li>Emphasise and use the keywords during hands-on sessions.</li>
+                    <li class="text-[#F7B94A]">The fundamental skill of coding or programming is ability to
                         differentiate and navigate self to move forward, backward, turn left
                         and turn right. If children are not ready, play more related games to
                         improve the skill.</li>
-                    <li class="text-amber-400">It is important to inculcate the habit of always laying out the steps
+                    <li class="text-[#F7B94A]">It is important to inculcate the habit of always laying out the steps
                         using coding cards before working on the Blockly because it's not easy
                         for children to remember all the steps when they use Blockly to
                         programme.</li>
@@ -207,26 +196,20 @@
                     </li>
                     <li>
                         Click on this shortcut icon
-                        <span
-                            class="relative inline-block h-16 w-16 cursor-pointer rounded-[20px] bg-sky-500 shadow-[2px_3px_5px_rgba(0,0,0,0.25)] shadow-[inset_2px_-3px_3px_rgba(0,0,0,0.25)] outline outline-1 outline-cyan-900">
-                            <img src="{{ asset('assets/images/pptimages/Vector4.png') }}"
-                                class="absolute top-[4px] left-[6px] h-6 w-[80%]" />
-                            <div class="absolute top-[7px] left-[12px] h-2.5 w-3.5 rounded-sm bg-white"></div>
-                            <img src="{{ asset('assets/images/pptimages/home-icon.png') }}"
-                                class="absolute top-[16px] left-[16px] h-8 w-8" />
-                        </span>
+                        <span>
+                        <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" class="home-btn" />
+                    </span>
                         if you need to go to some parts of the lesson quickly.
                     </li>
                 </ul>
             </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1"
-                alt="Teacher" />
+            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="Teacher" />
         </div>
     </div>
 
 
     {{-- slide 9 --}}
-    <div class="text-white flex flex-col items-center justify-center  text-start text-2xl slide hidden">
+    <div class="text-white flex flex-col items-center justify-center  text-start t-slide slide hidden">
         <h2 class=" title stroke">Learning Centre Idea</h2>
         <div class="flex">
             <div class="space-y-20">
@@ -249,7 +232,7 @@
 
 
     {{-- slide 10 --}}
-    <div class="text-white flex flex-col items-center justify-center  text-start text-2xl slide hidden">
+    <div class="text-white flex flex-col items-center justify-center  text-start t-slide slide hidden">
         <h2 class=" title stroke">Learning Centre Idea</h2>
         <div class="flex">
             <div class="space-y-20">
@@ -275,9 +258,8 @@
     {{-- ========================================================== --}}
     {{-- Buttons --}}
     <div class="down-btn-container">
-        <button
-         class="doneButton">
- <img src="{{ asset('assets/images/pptimages/done.png') }}" />
+        <button class="doneButton">
+            <img src="{{ asset('assets/images/pptimages/done.png') }}" />
         </button>
     </div>
 
@@ -285,23 +267,19 @@
 
         <!-- Return Button -->
         <a id="returnButton">
- <img
-    src="{{ asset('assets/images/pptimages/return.png') }}" />
+            <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>
 
         <!-- Home Button -->
-        <button
-     id="homeButton">
-            <img 
-                src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
         <button id="closeButton">
-           
-            <img 
-                src="{{ asset('assets/images/pptimages/cancel.png') }}" />
-    
+
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
+
         </button>
 
     </div>
@@ -309,9 +287,8 @@
     {{-- next Button --}}
     <div class="down-btn-container">
 
-        <button
-            class="nextButton">
- <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
+        <button class="nextButton">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
         </button>
     </div>
 
@@ -356,17 +333,17 @@
                 });
             });
 
-              //   Return button - redirect if on first slide, otherwise go back
-        returnButton.addEventListener("click", () => {
-            if (currentSlide === 0) {
-                //   First slide pe hai →  
-                window.location.href = "{{ route('YourRouteNameHere') }}";
-            } else {
-                //   Previous slide pe jao
-                currentSlide--;
-                showSlide(currentSlide);
-            }
-        });
+            //   Return button - redirect if on first slide, otherwise go back
+            returnButton.addEventListener("click", () => {
+                if (currentSlide === 0) {
+                    //   First slide pe hai →  
+                    window.location.href = "{{ route('YourRouteNameHere') }}";
+                } else {
+                    //   Previous slide pe jao
+                    currentSlide--;
+                    showSlide(currentSlide);
+                }
+            });
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {

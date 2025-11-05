@@ -2,7 +2,8 @@
 @section('title', 'Dynamic Presentation')
 
 @section('content')
-
+    {{-- title --}}
+    <h2 class="top-title stroke">What Are Living Things?</h2>
 
     {{-- Slide 1 --}}
     <div class="slide flex flex-col items-center justify-center gap-[1vw] ">
@@ -21,7 +22,7 @@
 
 
     {{-- Slide3 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
+    <div class="slide hidden flex flex-col items-center justify-between h-[30vh] ">
         <h2 class="text-center title stroke">How do we know something is living or non-living?
             Let’s find out their differences.</h2>
         <p class="note">Note: Guide children to understand the meaning of “”living”” (alive).</p>
@@ -29,10 +30,10 @@
 
 
     {{-- slide 4 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <h2 class="text-center justify-start text-[45px] text-white stroke">Class Activity 1</h2>
         <img src="/assets/images/K2/livingthings/things/t22.png" class="large-img3" />
-        <h2 class="text-start title stroke">Let's find out: <br>
+        <h2 class="text-start title stroke"> <span class="text-white"> Let's find out:</span> <br>
             What are the differences between people and a teddy bear?</h2>
         <p class="note">Note: Display a teddy bear and let children make comparison.</p>
     </div>
@@ -40,8 +41,8 @@
 
     {{-- Slide 5 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <h2 class="title stroke">What you observe:</h2>
-        <table class="w-full table-auto border-collapse text-white text-[20px]">
+        <h2 class="title stroke !text-white text-start">What you observe:</h2>
+        <table class="w-full table-auto border-collapse text-white text-[1.4vw]">
             <!-- Header -->
             <thead>
                 <tr class="border-2 border-white !text-[30px] font-normal">
@@ -56,10 +57,10 @@
                 <tr class="border-2 border-white">
                     <td class="p-[.6vw] !text-[.8vw] border-2 border-white ">Do you move on your own?</td>
                     <td class="p-[.6vw] !text-[.8vw] border-2 border-white ">
-                        <span class="info-btn1 relative">
+                        <button class="info-btn1 relative">
                             <img src="{{ asset('assets/images/pptimages/info-btn.png') }}"
                                 class="absolute !top-[-1vw] !left-[-0.5vw] !w-[2vw]" />
-                        </span>
+                        </button>
                     </td>
                     <td class="p-[.6vw] !text-[.8vw] border-2  border-white">Rock</td>
                 </tr>
@@ -83,10 +84,10 @@
                 <tr class="border-2 border-white">
                     <td class="p-[.6vw] !text-[.8vw] border-2 border-white">Do you need air?</td>
                     <td class="p-[.6vw] !text-[.8vw] border-2 border-white ">
-                        <span class="info-btn2 relative">
+                        <button class="info-btn2 relative">
                             <img src="{{ asset('assets/images/pptimages/info-btn.png') }}"
                                 class="absolute !top-[-1vw] !left-[-0.5vw] !w-[2vw]" />
-                        </span>
+                        </button>
                     </td>
                     <td class="p-[.6vw] !text-[.8vw]">Glass jar</td>
                 </tr>
@@ -102,10 +103,10 @@
                 <tr class="border-2 border-white">
                     <td class="p-[.6vw] !text-[.8vw] border-2 border-white">Do mothers give births to babies?</td>
                     <td class="p-[.6vw] !text-[.8vw] border-2 border-white  ">
-                        <span class="info-btn3 relative">
+                        <button class="info-btn3 relative">
                             <img src="{{ asset('assets/images/pptimages/info-btn.png') }}"
                                 class="absolute !top-[-1vw] !left-[-0.5vw] !w-[2vw]" />
-                        </span>
+                        </button>
                     </td>
                     <td class="p-[.6vw] !text-[.8vw]">Rubber eraser</td>
                 </tr>
@@ -136,21 +137,42 @@
 
     {{-- == --}}
     <div class="slide info-slide2 hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/livingthings/things/t4.png') }}" />
+        <video id="video1" class=" pointer-events-none">
+            <source src="{{ asset('assets/images/K2/videos/172.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
         <h2 class="title stroke">The two lungs in our chest help us to breathe. <br>
             How do you know our lungs are working?</h2>
+        <!-- Video Trigger Button -->
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
+        </div>
     </div>
     {{-- === --}}
     <div class="slide info-slide2 hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/livingthings/things/t4.png') }}" />
+        <video id="video2" class=" pointer-events-none">
+            <source src="{{ asset('assets/images/K2/videos/172.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
         <h2 class="title stroke">Put your hands on your chest and breathe in very deeply. <br>
             You will feel the chest getting slightly bigger.</h2>
+        <!-- Video Trigger Button -->
+        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
+        </div>
     </div>
     {{-- === --}}
     <div class="slide info-slide2 hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/livingthings/things/t4.png') }}" />
+        <video id="video3" class=" pointer-events-none">
+            <source src="{{ asset('assets/images/K2/videos/172.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
         <h2 class="title stroke">Now breathe out the air. <br>
             You will feel your chest return to its regular size.</h2>
+        <!-- Video Trigger Button -->
+        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
+        </div>
     </div>
     {{-- ==== --}}
     <div class="slide info-slide2 hidden  flex flex-col items-center justify-start  ">
@@ -170,9 +192,16 @@
 
     {{-- ===== --}}
     <div class="slide info-slide3 hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/livingthings/things/t6.png') }}" />
+        <video id="video4" class=" pointer-events-none">
+            <source src="{{ asset('assets/images/K2/videos/173.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
         <h2 class="title stroke">Where do babies come from?</h2>
         <p class="note">Note: Have children think and say where do they come from.</p>
+        <!-- Video Trigger Button -->
+        <div onclick="toggleVideo('video4')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
+        </div>
     </div>
 
 
@@ -213,18 +242,18 @@
 
 
     {{-- Slide 8 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <h2 class="text-center justify-start text-[45px] text-white stroke">Class Activity 2</h2>
         <img src="{{ asset('assets/images/K2/livingthings/things/t7.png') }}" class="large-img6" />
-        <h2 class="title stroke">Let’s find out: <br>
+        <h2 class="title stroke text-start"> <span class="text-white">Let’s find out:</span> <br>
             Which are living things? Which are non living things?</h2>
     </div>
 
 
     {{-- Slide 9 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <h2 class="title stroke">What do you think (Prediction):</h2>
-        <img src="{{ asset('assets/images/K2/livingthings/things/t8.png') }}" class="large-img6" />
+        <h2 class="title stroke !text-white">What do you think (Prediction):</h2>
+        <img src="{{ asset('assets/images/K2/livingthings/things/t8.png') }}" class="!max-w-[40vw]" />
         <p class="note text-center">Note: Have children use the learning journal to fill in their prediction; <br>
             have them tick or cross to complete the table.</p>
     </div>
@@ -233,13 +262,12 @@
     {{-- Slide 10 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <div class="relative text-start">
-            <h2 class="title stroke">Let’s do:</h2>
+            <h2 class="!text-white title stroke">Let’s do:</h2>
             <img src="{{ asset('assets/images/K2/livingthings/things/t9.png') }}" class="!max-w-[45vw]" />
-            <span
-                class="info-btn4 !absolute top-[7.6vw] left-[56%] relative">
+            <button class="info-btn4 !absolute top-[7.6vw] left-[56%] relative">
                 <img src="{{ asset('assets/images/pptimages/info-btn.png') }}"
-                    class="absolute !top-[-1vw] !left-[-0.5vw] !w-[2vw]" />
-            </span>
+                    class="absolute !top-[-1vw] !left-[-0.5vw] !w-[2.6vw]" />
+                </span>
         </div>
         <p class="note text-center">Note: Guide children to discuss each point and check if their prediction is correct;
             if wrong, correct with a red crayon.</p>
@@ -250,22 +278,28 @@
     {{-- click slides --}}
     {{-- =====1 --}}
     <div class="slide hidden info-slide4   flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/livingthings/things/t10.png') }}" />
-        <h2 class="title storke">Fish breathe through gills on both sides of their head. <br>
+        <video id="video5" class=" pointer-events-none">
+            <source src="{{ asset('assets/images/K2/videos/174.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <h2 class="title stroke">Fish breathe through gills on both sides of their head. <br>
             Do you know how do fish breathe in the water?</h2>
         <!-- Video Trigger Button -->
-            <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video5')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
             <img src="{{ asset('assets/images/pptimages/video.png') }}" />
         </div>
     </div>
 
     {{-- =====2 --}}
     <div class="slide hidden info-slide4  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/livingthings/things/t10.png') }}" />
-        <h2 class="title storke">When a fish breathes, it takes in water through its mouth. The
+        <video id="video6" class=" pointer-events-none">
+            <source src="{{ asset('assets/images/K2/videos/174.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <h2 class="title stroke">When a fish breathes, it takes in water through its mouth. The
             gills obtain air from the water and then force the water to go out.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video6')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
             <img src="{{ asset('assets/images/pptimages/video.png') }}" />
         </div>
     </div>
@@ -273,14 +307,13 @@
 
     {{-- Slide 11 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <h2 class="title stroke">Let’s do:</h2>
+        <h2 class="!text-white title stroke">Let’s do:</h2>
         <div class="relative">
             <img src="{{ asset('assets/images/K2/livingthings/things/t11.png') }}" class="!max-w-[45vw]" />
-            <span
-                class="info-btn5 !absolute top-[7.6vw] left-[56%] relative">
+            <button class="info-btn5 !absolute top-[7.6vw] left-[56%] relative">
                 <img src="{{ asset('assets/images/pptimages/info-btn.png') }}"
-                    class="absolute !top-[-1vw] !left-[-0.5vw] !w-[2vw]" />
-            </span>
+                    class="absolute !top-[-1vw] !left-[-0.5vw] !w-[2.6vw]" />
+            </button>
         </div>
         <p class="note text-center">Note: Guide children to discuss each point and check if their prediction is correct;
             if wrong, correct with a red crayon.</p>
@@ -289,11 +322,14 @@
     {{-- click slide  --}}
     {{-- =====1 --}}
     <div class="slide hidden info-slide5  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/livingthings/things/t13.png') }}" />
-        <h2 class="title storke">Most balls need to be filled with air in order to bounce and roll.</h2>
+        <video id="video7" class=" pointer-events-none">
+            <source src="{{ asset('assets/images/K2/videos/175.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <h2 class="title stroke">Most balls need to be filled with air in order to bounce and roll.</h2>
         <p class="note">Note: Explain to children that we need air to stay alive but not for balls.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video7')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
             <img src="{{ asset('assets/images/pptimages/video.png') }}" />
         </div>
     </div>
@@ -301,14 +337,13 @@
 
     {{-- Slide 12 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <h2 class="title stroke">Let’s do:</h2>
+        <h2 class="!text-white title stroke">Let’s do:</h2>
         <div class="relative">
             <img src="{{ asset('assets/images/K2/livingthings/things/t12.png') }}" class="!max-w-[45vw]" />
-            <span
-                class="info-btn6 !absolute top-[10.8vw] left-[20.3%] relative">
+            <button class="info-btn6 !absolute top-[10.8vw] left-[20.3%] relative">
                 <img src="{{ asset('assets/images/pptimages/info-btn.png') }}"
-                    class="absolute !top-[-1vw] !left-[-0.5vw] !w-[2vw]" />
-            </span>
+                    class="absolute !top-[-1.2vw] !left-[-1vw] !w-[2.6vw]" />
+            </button>
         </div>
         <p class="note text-center">Note: Guide children to discuss each point and check if their prediction is correct;
             if wrong, correct with a red crayon.</p>
@@ -317,11 +352,14 @@
     {{-- click slide  --}}
     {{-- =====1 --}}
     <div class="slide hidden info-slide6  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/livingthings/things/t15.png') }}" />
-        <h2 class="title storke">This toy train moves on its own. Why?</h2>
+        <video id="video8" class=" pointer-events-none">
+            <source src="{{ asset('assets/images/K2/videos/176.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <h2 class="title stroke">This toy train moves on its own. Why?</h2>
         <p class="note">Note: Have children think and share their views.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video8')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
             <img src="{{ asset('assets/images/pptimages/video.png') }}" />
         </div>
     </div>
@@ -329,18 +367,14 @@
     {{-- =====2 --}}
     <div class="slide hidden info-slide6  flex flex-col items-center justify-start  ">
         <img src="{{ asset('assets/images/K2/livingthings/things/t16.png') }}" />
-        <h2 class="title storke">It has batteries! <br>
+        <h2 class="title stroke">It has batteries! <br>
             The battery power enables it to move on its own.</h2>
-        <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
-            <img src="{{ asset('assets/images/pptimages/video.png') }}" />
-        </div>
     </div>
 
 
     {{-- Slide 13 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <h2 class="title stroke">Let’s do:</h2>
+        <h2 class="!text-white title stroke">Let’s do:</h2>
         <img src="{{ asset('assets/images/K2/livingthings/things/t14.png') }}" class="!max-w-[42vw]" />
         <p class="note text-center">Note: Guide children to discuss each point and check if their prediction is correct;
             if wrong, correct with a red crayon.</p>
@@ -349,7 +383,7 @@
 
     {{-- Slide 14 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <h2 class="title stroke">Let’s do:</h2>
+        <h2 class="!text-white title stroke">Let’s do:</h2>
         <img src="{{ asset('assets/images/K2/livingthings/things/t17.png') }}" class="!max-w-[42vw]" />
         <p class="note text-center">Note: Guide children to discuss each point and check if their prediction is correct;
             if wrong, correct with a red crayon.</p>
@@ -358,7 +392,7 @@
 
     {{-- Slide 15 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <h2 class="title stroke">Let’s do:</h2>
+        <h2 class="!text-white title stroke">Let’s do:</h2>
         <img src="{{ asset('assets/images/K2/livingthings/things/t18.png') }}" class="!max-w-[42vw]" />
         <p class="note text-center">Note: Guide children to discuss each point and check if their prediction is correct;
             if wrong, correct with a red crayon.</p>
@@ -366,7 +400,7 @@
 
     {{-- Slide 16 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <h2 class="title stroke">What do you learn: <br>
+        <h2 class="title stroke text-start "><span class="text-white">What do you learn:</span> <br>
             Which are living things? Which are non-living things?</h2>
         <img src="{{ asset('assets/images/K2/livingthings/things/t7.png') }}" />
         <p class="note text-center">Note: Encourage children to answer based on their conclusions.</p>
@@ -376,7 +410,7 @@
 
     {{-- Slide 17 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/livingthings/things/t19.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/things/t19.png') }}" class="w-img4" />
         <h2 class="title stroke">People and fish are members of the same group.
             What is the name of the group?</h2>
     </div>
@@ -385,7 +419,7 @@
 
     {{-- sldie 18 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/livingthings/things/t19.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/things/t19.png') }}" class="w-img4" />
         <h2 class="title stroke">Yes, these are animals!</h2>
         <p class="note">Note: Have children name the animals and talk about the basic characteristics of each.</p>
     </div>
@@ -394,18 +428,18 @@
 
     {{-- sldie 19 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/livingthings/things/t19.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/things/t19.png') }}" class="w-img4" />
         <h2 class="title stroke">Do you think all animals are living things? Why?</h2>
         <p class="note">Note: Encourage children to share their views boldly.</p>
     </div>
 
 
-    {{-- sldie 19 --}}
+    {{-- sldie 19
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/livingthings/things/t19.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/things/t19.png') }}" class="w-img4" />
         <h2 class="title stroke">Do you think all animals are living things? Why?</h2>
         <p class="note">Note: Encourage children to share their views boldly.</p>
-    </div>
+    </div> --}}
 
 
     {{-- sldie 20 --}}
@@ -496,182 +530,234 @@
 
 @push('script')
     <script>
-        document.addEventListener("DOMContentLoaded", () => {
+        function toggleVideo(videoId) {
+            const video = document.getElementById(videoId);
+            if (video.paused) {
+                video.play();
+            } else {
+                video.pause();
+            }
+        }
+
+        document.addEventListener("DOMContentLoaded", function() {
             const slides = document.querySelectorAll(".slide");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
             const doneButton = document.querySelector(".doneButton");
 
-            // Get all info/click buttons (info-btn1, info-btn2, click-btn1, click-btn2, etc.)
-            const infoButtons = document.querySelectorAll("[class*='info-btn'], [class*='click-btn']");
+            // Get all clickable buttons (info-btn, click-btn)
+            const clickButtons = document.querySelectorAll("[class*='info-btn'], [class*='click-btn']");
 
-            let currentSlide = 0;
-            let parentSlideIndex = null;
-            let isViewingInfoSlides = false;
-            let currentInfoClass = null; // Track which info/click class we're viewing
+            let currentSlideNumber = 0;
+            let inSpecialMode = false;
+            let slideToReturnTo = null;
+            let specialSlideType = null;
 
-            function showSlide(index) {
-                slides.forEach((slide, i) => {
-                    slide.classList.toggle("hidden", i !== index);
-                });
+            const whereToGoWhenReturn = "{{ route('K2thingsSelection') }}";
+            const whereToGoWhenDone = "{{ route('K2thingsSelection') }}";
 
-                // Check if last slide OR last info/click slide
-                const isLastSlide = index === slides.length - 1;
-                const isLastInfoSlide = isViewingInfoSlides && !hasNextInfoSlide(index);
-
-                if (isLastSlide || isLastInfoSlide) {
-                    nextButtons.forEach(btn => btn.classList.add("hidden"));
-                    if (doneButton) doneButton.classList.remove("hidden");
-                } else {
-                    nextButtons.forEach(btn => btn.classList.remove("hidden"));
-                    if (doneButton) doneButton.classList.add("hidden");
+            function pauseAllVideos() {
+                const videos = document.querySelectorAll('video');
+                for (let i = 0; i < videos.length; i++) {
+                    videos[i].pause();
                 }
             }
 
-            // Check if there's another info/click slide with same class after current one
-            function hasNextInfoSlide(currentIndex) {
-                if (!currentInfoClass) return false;
-
-                for (let i = currentIndex + 1; i < slides.length; i++) {
-                    if (slides[i].classList.contains(currentInfoClass)) {
+            function isSpecialSlide(slide) {
+                const classes = slide.className.split(' ');
+                for (let i = 0; i < classes.length; i++) {
+                    // Check for click pattern (click1, click2, etc.)
+                    if (classes[i].startsWith('click') && classes[i].match(/^click\d+$/)) {
+                        return true;
+                    }
+                    // Check for info-slide pattern (info-slide1, info-slide2, etc.)
+                    if (classes[i].startsWith('info-slide') && classes[i].match(/^info-slide\d+$/)) {
                         return true;
                     }
                 }
                 return false;
             }
 
-            // Get info/click class from button (info-btn1 → info-slide1, click-btn1 → click1)
-            function getInfoClassFromButton(button) {
-                const classList = Array.from(button.classList);
-
-                // Check for info-btn pattern
-                const infoBtnClass = classList.find(cls => cls.startsWith('info-btn'));
-                if (infoBtnClass) {
-                    const number = infoBtnClass.replace('info-btn', '');
-                    return 'info-slide' + number;
+            function getSpecialTypeFromButton(button) {
+                const classes = button.className.split(' ');
+                for (let i = 0; i < classes.length; i++) {
+                    // Handle click-btn pattern (click-btn1 → click1)
+                    if (classes[i].startsWith('click-btn')) {
+                        const number = classes[i].replace('click-btn', '');
+                        return 'click' + number;
+                    }
+                    // Handle info-btn pattern (info-btn1 → info-slide1)
+                    if (classes[i].startsWith('info-btn')) {
+                        const number = classes[i].replace('info-btn', '');
+                        return 'info-slide' + number;
+                    }
                 }
-
-                // Check for click-btn pattern
-                const clickBtnClass = classList.find(cls => cls.startsWith('click-btn'));
-                if (clickBtnClass) {
-                    const number = clickBtnClass.replace('click-btn', '');
-                    return 'click' + number;
-                }
-
                 return null;
             }
 
-            // Info/Click button handlers
-            infoButtons.forEach((btn) => {
-                btn.addEventListener("click", (e) => {
-                    e.preventDefault(); // Prevent default anchor behavior
+            function hasMoreSpecialSlides(startFrom) {
+                if (!specialSlideType) {
+                    return false;
+                }
 
-                    parentSlideIndex = currentSlide;
-                    isViewingInfoSlides = true;
-                    currentInfoClass = getInfoClassFromButton(btn);
+                for (let i = startFrom + 1; i < slides.length; i++) {
+                    if (slides[i].classList.contains(specialSlideType)) {
+                        return true;
+                    }
+                }
+                return false;
+            }
 
-                    // Find the first slide with matching info/click class
-                    for (let i = 0; i < slides.length; i++) {
-                        if (slides[i].classList.contains(currentInfoClass)) {
-                            currentSlide = i;
-                            showSlide(currentSlide);
+            function isLastSlide(slideNumber) {
+                if (slideNumber === slides.length - 1) {
+                    return true;
+                }
+
+                if (inSpecialMode && !hasMoreSpecialSlides(slideNumber)) {
+                    return true;
+                }
+
+                return false;
+            }
+
+            function showSlide(slideNumber) {
+                pauseAllVideos();
+
+                for (let i = 0; i < slides.length; i++) {
+                    if (i === slideNumber) {
+                        slides[i].classList.remove("hidden");
+                    } else {
+                        slides[i].classList.add("hidden");
+                    }
+                }
+
+                if (isLastSlide(slideNumber)) {
+                    for (let i = 0; i < nextButtons.length; i++) {
+                        nextButtons[i].classList.add("hidden");
+                    }
+                    if (doneButton) {
+                        doneButton.classList.remove("hidden");
+                    }
+                } else {
+                    for (let i = 0; i < nextButtons.length; i++) {
+                        nextButtons[i].classList.remove("hidden");
+                    }
+                    if (doneButton) {
+                        doneButton.classList.add("hidden");
+                    }
+                }
+            }
+
+            function goToNextSlide() {
+                if (currentSlideNumber >= slides.length - 1) {
+                    return;
+                }
+
+                currentSlideNumber++;
+
+                while (currentSlideNumber < slides.length) {
+                    const slide = slides[currentSlideNumber];
+
+                    if (inSpecialMode) {
+                        if (slide.classList.contains(specialSlideType)) {
+                            break;
+                        }
+                    } else {
+                        if (!isSpecialSlide(slide)) {
+                            break;
+                        }
+                    }
+
+                    currentSlideNumber++;
+                }
+
+                if (currentSlideNumber < slides.length) {
+                    showSlide(currentSlideNumber);
+                }
+            }
+
+            function goToPreviousSlide() {
+                if (currentSlideNumber === 0 && !inSpecialMode) {
+                    window.location.href = whereToGoWhenReturn;
+                    return;
+                }
+
+                if (inSpecialMode) {
+                    let previousSlide = currentSlideNumber - 1;
+
+                    while (previousSlide >= 0) {
+                        if (slides[previousSlide].classList.contains(specialSlideType)) {
+                            break;
+                        }
+                        previousSlide--;
+                    }
+
+                    if (previousSlide >= 0) {
+                        currentSlideNumber = previousSlide;
+                        showSlide(currentSlideNumber);
+                    } else {
+                        currentSlideNumber = slideToReturnTo;
+                        inSpecialMode = false;
+                        specialSlideType = null;
+                        slideToReturnTo = null;
+                        showSlide(currentSlideNumber);
+                    }
+                } else {
+                    if (currentSlideNumber > 0) {
+                        currentSlideNumber--;
+
+                        while (currentSlideNumber > 0 && isSpecialSlide(slides[currentSlideNumber])) {
+                            currentSlideNumber--;
+                        }
+
+                        showSlide(currentSlideNumber);
+                    }
+                }
+            }
+
+            // Handle all click buttons (info-btn and click-btn)
+            for (let i = 0; i < clickButtons.length; i++) {
+                clickButtons[i].addEventListener("click", function(event) {
+                    event.preventDefault();
+
+                    slideToReturnTo = currentSlideNumber;
+                    inSpecialMode = true;
+                    specialSlideType = getSpecialTypeFromButton(clickButtons[i]);
+
+                    for (let j = 0; j < slides.length; j++) {
+                        if (slides[j].classList.contains(specialSlideType)) {
+                            currentSlideNumber = j;
+                            showSlide(currentSlideNumber);
                             break;
                         }
                     }
                 });
-            });
-
-            // NEXT button - skip info/click slides if not viewing them
-            nextButtons.forEach((btn) => {
-                btn.addEventListener("click", () => {
-                    if (currentSlide < slides.length - 1) {
-                        currentSlide++;
-
-                        // Skip info/click slides if not viewing them
-                        while (!isViewingInfoSlides &&
-                            currentSlide < slides.length &&
-                            isInfoSlide(slides[currentSlide])) {
-                            currentSlide++;
-                        }
-
-                        // If viewing info/click slides, only show slides with current class
-                        if (isViewingInfoSlides) {
-                            while (currentSlide < slides.length &&
-                                !slides[currentSlide].classList.contains(currentInfoClass)) {
-                                currentSlide++;
-                            }
-                        }
-
-                        if (currentSlide < slides.length) {
-                            showSlide(currentSlide);
-                        }
-                    }
-                });
-            });
-
-            // Check if slide is any info/click slide (info-slide1, info-slide2, click1, click2, etc.)
-            function isInfoSlide(slide) {
-                return Array.from(slide.classList).some(cls =>
-                    (cls.startsWith('info-slide') && cls.match(/^info-slide\d+$/)) ||
-                    (cls.startsWith('click') && cls.match(/^click\d+$/))
-                );
             }
 
-           // Return button
-returnButton.addEventListener("click", () => {
-    
+            // Next button handlers
+            for (let i = 0; i < nextButtons.length; i++) {
+                nextButtons[i].addEventListener("click", goToNextSlide);
+            }
 
-    if (isViewingInfoSlides && currentSlide > 0) {
-        // Check if previous slide is also same info/click class
-        let prevSlide = currentSlide - 1;
+            // Return button handler
+            returnButton.addEventListener("click", goToPreviousSlide);
 
-        // Find previous slide with same info/click class
-        while (prevSlide >= 0 && !slides[prevSlide].classList.contains(currentInfoClass)) {
-            prevSlide--;
-        }
-
-        if (prevSlide >= 0 && slides[prevSlide].classList.contains(currentInfoClass)) {
-            currentSlide = prevSlide;
-            showSlide(currentSlide);
-        } else {
-            // No more info/click slides, return to parent
-            currentSlide = parentSlideIndex;
-            isViewingInfoSlides = false;
-            currentInfoClass = null;
-            parentSlideIndex = null;
-            showSlide(currentSlide);
-        }
-    } else if (currentSlide > 0) {
-        currentSlide--;
-
-        // Skip info/click slides when going back
-        while (currentSlide > 0 && isInfoSlide(slides[currentSlide])) {
-            currentSlide--;
-        }
-
-        showSlide(currentSlide);
-    }
-});;
-
-            // DONE button handler
+            // Done button handler
             if (doneButton) {
-                doneButton.addEventListener("click", () => {
-                    if (isViewingInfoSlides && parentSlideIndex !== null) {
-                        // Return to parent slide
-                        currentSlide = parentSlideIndex;
-                        isViewingInfoSlides = false;
-                        currentInfoClass = null;
-                        parentSlideIndex = null;
-                        showSlide(currentSlide);
+                doneButton.addEventListener("click", function() {
+                    if (inSpecialMode && slideToReturnTo !== null) {
+                        currentSlideNumber = slideToReturnTo;
+                        inSpecialMode = false;
+                        specialSlideType = null;
+                        slideToReturnTo = null;
+                        showSlide(currentSlideNumber);
                     } else {
-                        // Navigate to route
-                        window.location.href = "{{ route('K2thingsSelection') }}";
+                        window.location.href = whereToGoWhenDone;
                     }
                 });
             }
 
-            // Start with first slide
-            showSlide(currentSlide);
+            showSlide(currentSlideNumber);
         });
     </script>
 @endpush

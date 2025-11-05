@@ -4,7 +4,7 @@
 @section('content')
     {{-- sldie 1  --}}
 
-    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
+    <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -39,7 +39,7 @@
     </div>
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
+    <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
@@ -318,25 +318,25 @@
     </div>
 
     {{-- slide 16 --}}
-    <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
+    <div class="slide flex t-slide  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
                 <h2 class=" t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
-                    <li class="text-[1.3vw] flex">
+                    <li class="text-[1.3vw] flex whitespace-nowrap">
                         If you see
                         <span>
                             <img src="{{ asset('assets/images/pptimages/video.png') }}" />
                         </span>
                         next to a picture, click on the picture to watch the video.
                     </li>
-                    <li class="text-[1.3vw]">Emphasise and use the <strong>keywords</strong> during hands-on sessions.</li>
+                    <li class="text-[1.3vw]">Emphasise and use the keywords during hands-on sessions.</li>
                     <li class="text-[1.3vw]">Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
                     </li>
-                    <li class="text-[1.3vw] flex">
-                        Click on this <span class="font-bold t-title">shortcut icon</span>
-                        <span>
-                            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+                    <li class="text-[1.3vw] flex whitespace-nowrap">
+                        Click on this shortcut icon
+                       <span>
+                            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" class="home-btn" />
                         </span>
                         if you need to go to some parts of the lesson quickly.
                     </li>
@@ -360,7 +360,7 @@
 
     {{-- slide 11  --}}
 
-    <div class="text-white flex flex-col items-center justify-center  text-start text-2xl slide hidden">
+    <div class="text-white flex flex-col items-center justify-center  text-start t-slide slide hidden">
         <h2 class=" title stroke">Learning Centre Idea</h2>
         <div class="flex flex-col gap-10">
             <ul>

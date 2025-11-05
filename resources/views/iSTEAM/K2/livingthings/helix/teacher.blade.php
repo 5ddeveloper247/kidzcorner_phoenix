@@ -3,7 +3,7 @@
 
 @section('content')
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
+    <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -38,7 +38,7 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
+    <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
@@ -66,7 +66,7 @@
 
 
     {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
+    <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">How to make a model of DNA double helix and things to consider:</h2>
             <ul class="list-decimal">
@@ -81,7 +81,7 @@
 
 
     {{-- slide 4 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
+    <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">How to make a model of DNA double helix and things to consider:</h2>
             <ul>
@@ -97,7 +97,7 @@
 
 
     {{-- slide 5 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
+    <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">How to make a model of DNA double helix and things to consider:</h2>
             <ul>
@@ -114,7 +114,7 @@
 
 
     {{-- sldie 6 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
+    <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">How to make a model of DNA double helix and things to consider:</h2>
             <ul>
@@ -130,7 +130,7 @@
 
 
     {{-- sldie 7 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
+    <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">How to make a model of DNA double helix and things to consider:</h2>
             <ul>
@@ -145,7 +145,7 @@
     </div>
 
     {{-- sldie 8 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start">
+    <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">How to make a model of DNA double helix and things to consider:</h2>
             <ul>
@@ -160,7 +160,7 @@
 
 
     {{-- sldie 9 --}}
-    <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
+    <div class="slide flex t-slide  flex-col justify-start  text-2xl text-start text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
                 <h2 class=" t-title">Notes:</h2>
@@ -170,16 +170,16 @@
                         <span>
                             <img src="{{ asset('assets/images/pptimages/video.png') }}" />
                         </span>
-                        next to a picture, class="text-amber-400" click on the picture to watch the video.
+                        next to a picture,click on the picture to watch the video.
                     </li>
-                    <li class="text-[1.1vw]">Emphasise and use the <strong>keywords</strong> during hands-on sessions.</li>
+                    <li class="text-[1.1vw]">Emphasise and use the keywords during hands-on sessions.</li>
                     <li class="text-[1.1vw]">Print out the Learning Journal (if any) for every child to complete at the end
                         of the lesson.
                     </li>
                     <li class="text-[1.1vw] flex">
-                        Click on this <span class="font-bold t-title">shortcut icon</span>
-                        <span>
-                            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+                        Click on this shortcut icon
+                       <span>
+                            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" class="home-btn" />
                         </span>
                         if you need to go to some parts of the lesson quickly.
                     </li>
@@ -191,7 +191,7 @@
 
 
     {{-- slide 10 --}}
-    <div class="text-white flex flex-col items-center justify-center  text-start text-2xl slide hidden">
+    <div class="text-white flex flex-col items-center justify-center  text-start t-slide slide hidden">
         <h2 class=" title stroke">Learning Centre Idea</h2>
         <div class="flex flex-col gap-10">
             <ul>
@@ -215,7 +215,7 @@
 
 
     {{-- slide 11 --}}
-    <div class="text-white flex flex-col items-center justify-center  text-start text-2xl slide hidden">
+    <div class="text-white flex flex-col items-center justify-center  text-start t-slide slide hidden">
         <h2 class=" title stroke">Learning Centre Idea</h2>
         <div>
             <ul class="list-disc">
@@ -236,7 +236,7 @@
 
 
     {{-- slide 12 --}}
-    <div class="text-white flex flex-col items-center justify-center  text-start text-2xl slide hidden">
+    <div class="text-white flex flex-col items-center justify-center  text-start t-slide slide hidden">
         <h2 class=" title stroke">Learning Centre Idea</h2>
         <div class="t-title">
             <div>
@@ -260,7 +260,7 @@
     </div>
 
     {{-- slide 13 --}}
-    <div class="text-white flex flex-col items-center justify-center  text-start text-2xl slide hidden">
+    <div class="text-white flex flex-col items-center justify-center  text-start t-slide slide hidden">
         <h2 class=" title stroke">Extension Class Activity 1</h2>
         <div class="t-title">
             <div>
@@ -278,7 +278,7 @@
 
 
     {{-- slide 14 --}}
-    <div class="text-white flex flex-col items-center justify-center  text-start text-2xl slide hidden">
+    <div class="text-white flex flex-col items-center justify-center  text-start t-slide slide hidden">
         <h2 class=" title stroke">Extension Class Activity 1</h2>
         <h2 class="!text-white title stroke">Let's Sing A Song</h2>
         <div class="text-center">
@@ -295,7 +295,7 @@
 
 
     {{-- slide 15 --}}
-    <div class="text-white flex flex-col items-center justify-center  text-start text-2xl slide hidden">
+    <div class="text-white flex flex-col items-center justify-center  text-start t-slide slide hidden">
         <h2 class=" title stroke">Extension Class Activity 2</h2>
         <div class="t-title">
             <div>
@@ -315,7 +315,7 @@
 
 
     {{-- slide 16 --}}
-    <div class="text-white flex flex-col items-center justify-center  text-start text-2xl slide hidden">
+    <div class="text-white flex flex-col items-center justify-center  text-start t-slide slide hidden">
         <h2 class=" title stroke">Extension Class Activity 2</h2>
         <div class="t-title">
             <div>
@@ -334,7 +334,7 @@
 
 
     {{-- slide 17 --}}
-    <div class="text-white flex flex-col items-center justify-center  text-start text-2xl slide hidden">
+    <div class="text-white flex flex-col items-center justify-center  text-start t-slide slide hidden">
         <h2 class=" title stroke">Extension Class Activity 2</h2>
         <h2 class="!text-white title stroke">Appendix 1: Which Traits Of You Are Inherited?</h2>
         <img src="{{ asset('assets/images/K2/livingthings/dna/h21.png') }}" />
@@ -343,7 +343,7 @@
 
 
     {{-- slide 18 --}}
-    <div class="text-white flex flex-col items-center justify-center  text-start text-2xl slide hidden">
+    <div class="text-white flex flex-col items-center justify-center  text-start t-slide slide hidden">
         <h2 class=" title stroke">Extension Class Activity 2</h2>
         <h2 class="!text-white title stroke">Appendix 1: Which Traits Of You Are Inherited?</h2>
         <img src="{{ asset('assets/images/K2/livingthings/dna/h22.png') }}" />

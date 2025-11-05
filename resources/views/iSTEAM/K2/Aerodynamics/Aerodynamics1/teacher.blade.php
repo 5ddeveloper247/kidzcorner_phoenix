@@ -60,7 +60,7 @@
                         by holding the
                         string during the experiment.</li>
                     <li class="text-[1.1vw]">Refer to this link: <a href="https://www.youtube.com/watch?v=ufeky6EIXQ4"
-                            class="text-amber-400" target="_blank">https://www.youtube.com/watch?v=ufeky6EIXQ4</a> for the
+                           target="_blank">https://www.youtube.com/watch?v=ufeky6EIXQ4</a> for the
                         <br>
                         aerofoil experiment.
                     </li>
@@ -110,20 +110,20 @@
             <div>
                 <h2 class=" t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
-                    <li class="text-[1.3vw] flex">
+                    <li class="text-[1.3vw] flex whitespace-nowrap">
                         If you see
                         <span>
                             <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s27.png') }}"
                                 class="!max-w-[2.5vw]" />
                         </span>
-                        next to a picture, class="text-amber-400" click on the picture to watch the video.
+                        next to a picture,click on the picture to watch the video.
                     </li>
-                    <li class="text-[1.3vw]">Emphasise and use the <strong>keywords</strong> during hands-on sessions.</li>
+                    <li class="text-[1.3vw]">Emphasise and use the keywords during hands-on sessions.</li>
                     <li class="text-[1.3vw]">Print out the Learning Journal (if any) for every child to complete at the end
                         of the lesson.
                     </li>
-                    <li class="text-[1.3vw] flex">
-                        Click on this <span class="font-bold t-title">shortcut icon</span>
+                    <li class="text-[1.3vw] flex whitespace-nowrap">
+                        Click on this shortcut icon
                         <span>
                             <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s28.png') }}"
                                 class="!max-w-[2.5vw]" />

@@ -73,7 +73,7 @@
         <div>
             <h2 class=" t-title">Notes:</h2>
             <ul class="list-disc leading-relaxed">
-                <li class="flex">
+                <li class="flex whitespace-nowrap">
                     If you see
                     <span class="info-btn">
 

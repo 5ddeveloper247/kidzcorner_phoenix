@@ -76,7 +76,7 @@
         <div>
             <h2 class="t-title">Notes:</h2>
             <ul class="list-disc">
-                <li class="flex">
+                <li class="flex whitespace-nowrap">
                     If you see
                     <span class="info-btn">
 
@@ -84,7 +84,7 @@
                     </span>
                     next to a picture, click on the picture to watch the video.
                 </li>
-                <li class="flex">
+                <li class="flex whitespace-nowrap">
                     If you see
                     <span> <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="video-btn" />
                     </span>
@@ -93,10 +93,10 @@
                 <li>Always ask questions to encourage children to think and share their ideas first before giving
                     out
                     any information.</li>
-                <li>Emphasise and use the <strong>keywords</strong> during hands-on sessions.</li>
+                <li>Emphasise and use the keywords during hands-on sessions.</li>
                 <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
                 </li>
-                <li class="flex">
+                <li class="flex whitespace-nowrap">
                     Click on this shortcut icon
                     <span> <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" class="home-btn" />
                     </span>
