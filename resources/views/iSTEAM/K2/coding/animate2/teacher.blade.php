@@ -6,7 +6,7 @@
     <h2 class="top-title stroke">Animate a Character (2)</h2>
 
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start text-start">
+    <div class=" slide flex t-slide text-white flex-col justify-start text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -50,7 +50,7 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start text-start">
+    <div class=" slide flex t-slide text-white flex-col justify-start text-start">
         <ul class="list-disc">
             <h2 class="t-title">Preparations:</h2>
             <li class="text-[1.3vw]">The tablets (download ScratchJr application from App Store or Google Play for each
@@ -71,7 +71,7 @@
 
 
     {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start text-start">
+    <div class=" slide flex t-slide text-white flex-col justify-start text-start">
 
 
         <ul class="list-disc">

@@ -76,7 +76,7 @@
     {{-- slide 7 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <div class="self-start text-start">
-            <h2 class="title stroke">Let's do: <br>
+            <h2 class="title stroke text-start ">Let's do: <br>
                 1. Put a tomato into a zipper storage bag and seal it.</h2>
         </div>
         <img src="{{ asset('assets/images/K2/livingthings/dna/td3.png') }}" class="w-img" />
@@ -87,7 +87,7 @@
     {{-- slide 8 --}}
     <div class="slide hidden  flex flex-col items-center justify-start">
         <div class="self-start text-start">
-            <h2 class="title stroke">Let's do: <br>
+            <h2 class="title stroke text-start ">Let's do: <br>
                 2. Smash and crush the tomato.</h2>
         </div>
         <img src="{{ asset('assets/images/K2/livingthings/dna/td4.png') }}" class="w-img" />
@@ -99,7 +99,7 @@
     {{-- Slide 9  --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <div class="self-start text-start">
-            <h2 class="title stroke">Let's do: <br>
+            <h2 class="title stroke text-start ">Let's do: <br>
                 3. Mix together 100ml distilled water, 10ml clear liquid dish
                 soap and half a teaspoon of salt in a clear cup.</h2>
         </div>
@@ -112,7 +112,7 @@
     {{-- Slide 10 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <div class="self-start text-start">
-            <h2 class="title stroke">Let's do: <br>
+            <h2 class="title stroke text-start ">Let's do: <br>
                 4. Add 10ml of the mixture prepared into the bag with
                 tomato.</h2>
         </div>
@@ -125,7 +125,7 @@
     {{-- Slide 11 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <div class="self-start text-start">
-            <h2 class="title stroke">Let's do: <br>
+            <h2 class="title stroke text-start ">Let's do: <br>
                 5. Reseal the bag and gently smash for another minute.</h2>
         </div>
         <img src="{{ asset('assets/images/K2/livingthings/dna/td4.png') }}" class="w-img" />
@@ -137,7 +137,7 @@
     {{-- Slide 12 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <div class="self-start text-start">
-            <h2 class="title stroke">Let's do: <br>
+            <h2 class="title stroke text-start ">Let's do: <br>
                 6. Put a strainer on top of another clear cup.</h2>
         </div>
         <img src="{{ asset('assets/images/K2/livingthings/dna/td7.png') }}" />
@@ -148,7 +148,7 @@
     {{-- Slide 13 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <div class="self-start text-start">
-            <h2 class="title stroke">Let's do: <br>
+            <h2 class="title stroke text-start ">Let's do: <br>
                 7. Pour the tomato liquid into the strainer to separate the
                 liquid from the flesh.</h2>
         </div>
@@ -160,7 +160,7 @@
     {{-- Slide 14 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <div class="self-start text-start">
-            <h2 class="title stroke">Let's do: <br>
+            <h2 class="title stroke text-start ">Let's do: <br>
                 8. Take 30ml of the filtrated liquid into another clear cup.</h2>
         </div>
         <img src="{{ asset('assets/images/K2/livingthings/dna/td9.png') }}" />
@@ -171,7 +171,7 @@
     {{-- Slide 15 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <div class="self-start text-start">
-            <h2 class="title stroke">Let's do: <br>
+            <h2 class="title stroke text-start ">Let's do: <br>
                 9. Pour 30ml of cold rubbing alcohol from the side into the cup.</h2>
         </div>
         <img src="{{ asset('assets/images/K2/livingthings/dna/td10.png') }}" />
@@ -182,7 +182,7 @@
     {{-- Slide 16 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <div class="self-start text-start">
-            <h2 class="title stroke">Let's do: <br>
+            <h2 class="title stroke text-start ">Let's do: <br>
                 10. Observe what happens in the cup.</h2>
         </div>
         <img src="{{ asset('assets/images/K2/livingthings/dna/td10.png') }}" />

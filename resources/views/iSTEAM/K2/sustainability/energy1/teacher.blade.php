@@ -7,33 +7,33 @@
 
 
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start text-start">
+    <div class=" slide flex t-slide text-white flex-col justify-start text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
-                <li class="text-[1.3vw]">Understand the meaning of clean energy</li>
-                <li class="text-[1.3vw]">Learn about how clean energy can be used</li>
-                <li class="text-[1.3vw]">Develop awareness of environmental issues</li>
-                <li class="text-[1.3vw]">Develop curiosity and understanding through inquiry
+                <li>Understand the meaning of clean energy</li>
+                <li>Learn about how clean energy can be used</li>
+                <li>Develop awareness of environmental issues</li>
+                <li>Develop curiosity and understanding through inquiry
                 </li>
 
             </ul>
         </div>
 
         <div class="flex flex-col  items-start justify-between">
-            <h2 class="t-title font-bold">Keywords:</h2>
+            <h2 class="t-title ">Keywords:</h2>
             <div>
                 <ul class="list-disc ">
-                    <li class="text-[1.3vw]">Coal</li>
-                    <li class="text-[1.3vw]">Natural Resources</li>
-                    <li class="text-[1.3vw]">Fuel</li>
-                    <li class="text-[1.3vw]">Sustainable</li>
-                    <li class="text-[1.3vw]">Pollution</li>
-                    <li class="text-[1.3vw]">Clean Energy</li>
-                    <li class="text-[1.3vw]">Solar Energy</li>
-                    <li class="text-[1.3vw]">Nature</li>
-                    <li class="text-[1.3vw]">Electricity</li>
-                    <li class="text-[1.3vw]">Heat</li>
+                    <li>Coal</li>
+                    <li>Natural Resources</li>
+                    <li>Fuel</li>
+                    <li>Sustainable</li>
+                    <li>Pollution</li>
+                    <li>Clean Energy</li>
+                    <li>Solar Energy</li>
+                    <li>Nature</li>
+                    <li>Electricity</li>
+                    <li>Heat</li>
 
                 </ul>
 
@@ -45,26 +45,26 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start text-start">
+    <div class=" slide flex t-slide text-white flex-col justify-start text-start">
         <div>
-            <h2 class="note">Things to note for Class Activity 1</h2>
+            <h2 class="t-title">Things to note for Class Activity 1</h2>
             <ul class="list-disc ">
-                <li class="text-[1.3vw]">
+                <li>
                     Use food items that are easy to see the changes when heated. Example: chocolate, marshmallow, cheese.
                     These items will melt.
                 </li>
-                <li class="text-[1.3vw]">You may do this experiment twice with other food choices such as egg or bread. If
+                <li>You may do this experiment twice with other food choices such as egg or bread. If
                     it doesn't cook, you
                     can explain<br>
                     that the DIY solar oven doesn't heat up enough to cook such food.</li>
-                <li class="text-[1.3vw]">
+                <li>
                     This activity can only be successful when the weather is hot and sunny.
                 </li>
-                <li class="text-[1.3vw]">Please remind children not to eat the food items due to hygiene reasons.</li>
-                <li class="text-[1.3vw]">
+                <li>Please remind children not to eat the food items due to hygiene reasons.</li>
+                <li>
                     Please note that the reflective side of the aluminium foil must face outwards when wrapping the box.
                 </li>
-                <li class="text-[1.3vw]">
+                <li>
                     Set up the solar oven by following the steps in the following slides before the day of the activity.
                 </li>
             </ul>
@@ -74,87 +74,91 @@
 
 
     {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-center text-start">
+    <div class=" slide flex t-slide text-white flex-col items-center justify-center text-start">
         <div>
-            <p class="note">Preparation For Class Activity 1:<br>
-                1. Cut the cover of the box such that a flap is created.
-                2. Wrap the flap with the reflective side of the aluminium foil facing out.
-                3. Paste aluminium foil on the inner portions of the box such that the reflective side is shown.
-            </p>
+            <h2 class="t-title">Preparation For Class Activity 1:</h2>
+            <ol class="list-decimal pl-6">
+                <li>Cut the cover of the box such that a flap is created.</li>
+                <li>Wrap the flap with the reflective side of the aluminium foil facing out.</li>
+                <li>Paste aluminium foil on the inner portions of the box such that the reflective side is shown.</li>
+            </ol>
         </div>
-        <img src="{{ asset('assets/images/K2/sustain/energy1/e11.png') }}" />
+        <img src="{{ asset('assets/images/K2/sustain/energy1/e11.png') }}" class="w-img2" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
-    {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-center text-start">
-        <div>
-            <p class="note">Preparation For Class Activity 1:<br>
 
-                4. Place a piece of black paper in the box.
-                5. Paste a piece of cling wrap to cover the hole on the cover. Ensure all sides are
-                sealed.
-            </p>
+    {{-- sldie 4 --}}
+    <div class=" slide flex t-slide text-white flex-col items-center justify-center text-start">
+        <div>
+            <h2 class="t-title">Preparation For Class Activity 1:</h2>
+            <ol class="list-decimal pl-6" start="4">
+                <li>Place a piece of black paper in the box.</li>
+                <li>Paste a piece of cling wrap to cover the hole on the cover. Ensure all sides are sealed.</li>
+            </ol>
         </div>
-        <img src="{{ asset('assets/images/K2/sustain/energy1/e11.png') }}" />
+        <img src="{{ asset('assets/images/K2/sustain/energy1/e11.png') }}" class="w-img2" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
-    {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-center text-start">
-        <div>
-            <p class="note">Preparation For Class Activity 1:<br>
 
-                6. This is how it should look like after top is sealed with the cling wrap.
-            </p>
+    {{-- sldie 5 --}}
+    <div class=" slide flex t-slide text-white flex-col items-center justify-center text-start">
+        <div>
+            <h2 class="t-title">Preparation For Class Activity 1:</h2>
+            <ol class="list-decimal pl-6" start="6">
+                <li>This is how it should look like after top is sealed with the cling wrap.</li>
+            </ol>
         </div>
-        <img src="{{ asset('assets/images/K2/sustain/energy1/e13.png') }}" />
+        <img src="{{ asset('assets/images/K2/sustain/energy1/e13.png') }}" class="w-img" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
-    {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-center text-start">
-        <div>
-            <p class="note">Preparation For Class Activity 1:<br>
 
-                7. Now use the cling wrap to wrap another layer around the cover of the box. Use tape to seal the sides.
-            </p>
+    {{-- sldie 6 --}}
+    <div class=" slide flex t-slide text-white flex-col items-center justify-center text-start">
+        <div>
+            <h2 class="t-title">Preparation For Class Activity 1:</h2>
+            <ol class="list-decimal pl-6" start="7">
+                <li>Now use the cling wrap to wrap another layer around the cover of the box. Use tape to seal the sides.
+                </li>
+            </ol>
         </div>
-        <img src="{{ asset('assets/images/K2/sustain/energy1/e14.png') }}" />
+        <img src="{{ asset('assets/images/K2/sustain/energy1/e14.png') }}" class="w-img2" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
-    {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-center text-start">
+
+    {{-- sldie 7 --}}
+    <div class=" slide flex t-slide text-white flex-col items-center justify-center text-start">
         <div>
-            <p class="note">Preparation For Class Activity 1:<br>
-
-                8. Make a hole at the side of the box.
-                9. This is for the thermometer. You can check the temperature of the solar oven
-                easily.
-
-            </p>
+            <h2 class="t-title">Preparation For Class Activity 1:</h2>
+            <ol class="list-decimal pl-6" start="8">
+                <li>Make a hole at the side of the box.</li>
+                <li>This is for the thermometer. You can check the temperature of the solar oven easily.</li>
+            </ol>
         </div>
-        <img src="{{ asset('assets/images/K2/sustain/energy1/e15.png') }}" />
+        <img src="{{ asset('assets/images/K2/sustain/energy1/e15.png') }}" class="w-img2" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
-    {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-center text-start">
-        <div>
-            <p class="note">Preparation For Class Activity 1:<br>
 
-                10. Place the food item on a plate and put it inside the box.
-                11. Close the cover tightly and lift up the flap. Use a stick to hold the flap open such that sunlight is
-                able to shine on it.
-
-            </p>
-        </div>
-        <img src="{{ asset('assets/images/K2/sustain/energy1/e16.png') }}" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
-    </div>
     {{-- sldie 8 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start text-start">
+    <div class=" slide flex t-slide text-white flex-col items-center justify-center text-start">
         <div>
-            <h2 class="note">Things to note for Class Activity 2</h2>
+            <h2 class="t-title">Preparation For Class Activity 1:</h2>
+            <ol class="list-decimal pl-6" start="10">
+                <li>Place the food item on a plate and put it inside the box.</li>
+                <li>Close the cover tightly and lift up the flap. Use a stick to hold the flap open such that sunlight is
+                    able to shine on it.</li>
+            </ol>
+        </div>
+        <img src="{{ asset('assets/images/K2/sustain/energy1/e16.png') }}" class="w-img2" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
+    </div>
+
+    {{-- sldie 9 --}}
+    <div class=" slide flex  t-slide text-white flex-col items-center justify-start text-start">
+        <div>
+            <h2 class="t-title">Things to note for Class Activity 2</h2>
             <ul>
-                <li class="text-[1.3vw]">Purchase a solar-powered light or toy.</li>
-                <li class="text-[1.3vw]">This activity needs to be conducted on a sunny day. Alternatively, you can use
+                <li>Purchase a solar-powered light or toy.</li>
+                <li>This activity needs to be conducted on a sunny day. Alternatively, you can use
                     light bulbs but
                     it may not work with all types of solar-powered light/toy.</li>
             </ul>
@@ -162,50 +166,58 @@
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
-    {{-- slide 9 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start text-start">
-        <h2 class="font-bold t-title">Notes:</h2>
+    {{-- slide 10 --}}
+    <div class=" slide flex  t-slide text-white flex-col items-center justify-start text-start">
+        <h2 class=" t-title">Notes:</h2>
         <ul>
-            <li class="text-[1.3vw] flex whitespace-nowrap">If you see
+            <li class=" flex whitespace-nowrap">If you see
                 <span>
                     <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s27.png') }}" class="!max-w-[2.5vw]" />
                 </span>
                 next to a picture,
                 click on the picture to watch the video
-                Always ask questions to encourage children to think and share their ideas first
-                before giving out any information.
             </li>
-            <li class="text-[1.3vw]">Emphasise and use the keywords during hands-on sessions.
+            <li> Always ask questions to encourage children to think and share their ideas first
+                before giving out any information.</li>
+            <li>Emphasise and use the keywords during hands-on sessions.
             </li>
-            <li class="text-[1.3vw]">Print out the Learning Journal (if any) for every
+            <li>Print out the Learning Journal (if any) for every
                 child to complete at the end of the lesson.
             </li>
-            <li class="text-[1.3vw] flex whitespace-nowrap">Click on this shortcut icon
+            <li class=" flex whitespace-nowrap">Click on this shortcut icon
                 <span>
                     <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s28.png') }}" class="!max-w-[2.5vw]" />
                 </span>
                 if
                 you need to go to some
-                parts of the lesson quickly.
+                parts of the lesson quickly.
             </li>
 
 
         </ul>
     </div>
-    {{-- slide 9 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start text-start">
-        <div>
-            <h2 class="font-bold t-title">Learning Centre Idea</h2>
-            <h2 class="note">Solar Powered Toy/Light</h2>
-            <p class="note">What and how to set up:
-                Place the solar-powered toy/light at the learning corner and
-                encourage children to explore with it.
 
-                What to do:
-                1. Guide children to use different lights to shine on the solar panel
-                and observe if the light or toy will react. <br>
-                2. Provide paper to cover up part of the panel and put the
-                toy/light in the sun. Does the size of the panel affect the toy/light?
+    {{-- slide 11 --}}
+    <div class=" slide flex  t-slide text-white flex-col items-center justify-start text-start">
+        <h2 class=" title stroke">Learning Centre Idea</h2>
+        <div>
+            <div>
+                <h2 class="title stroke !text-white">Solar Powered Toy/Light</h2>
+                <h2 class="t-title">What and how to set up:</h2>
+                <p >Place the solar-powered toy/light at the learning corner and
+                    encourage children to explore with it.</p>
+            </div>
+            <div>
+                <h2 class="t-title">What to do:</h2>
+                <ol class="list-decimal pl-6">
+                    <li>Guide children to use different lights to shine on the solar panel and observe if the light or toy
+                        will
+                        react.</li>
+                    <li>Provide paper to cover up part of the panel and put the toy/light in the sun. Does the size of the
+                        panel
+                        affect the toy/light?</li>
+                </ol>
+            </div>
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
@@ -293,7 +305,7 @@
             returnButton.addEventListener("click", () => {
                 if (currentSlide === 0) {
                     //   First slide pe hai →  
-                    window.location.href = "{{ route('k2sustainability') }}";
+                    window.location.href = "{{ route('energy1Selection') }}";
                 } else {
                     //   Previous slide pe jao
                     currentSlide--;

@@ -83,7 +83,7 @@
     <!-- Slide 8 -->
     <div class="slide hidden flex flex-col items-center justify-center  text-start">
         <div class="title stroke ">
-            <h2>Let's do:</h2>
+            <h2 class="title stroke text-start ">Let's do:</h2>
             <ul class="slide-ul list-decimal">
                 <li>Place a light source at a distance from a plain wall.</li>
                 <li>Shine the light at the wall.</li>
@@ -202,7 +202,7 @@
     <!-- Slide 19 -->
     <div class="slide hidden flex flex-col items-center justify-between h-[45vh] ">
         <div class="text-start title stroke">
-            <h2>Let's do: </h2>
+            <h2 class="title stroke text-start ">Let's do: </h2>
             <ul class="slide-ul list-decimal space-y-[.5vw]">
                 <li>Build a tower with 3 blocks.</li>
                 <li>Paste a piece of paper on the wall.</li>
@@ -216,7 +216,7 @@
     <!-- Slide 20 -->
     <div class="slide hidden flex flex-col items-center justify-center ">
         <ul class="slide-ul  text-start title stroke">
-            <h2>Let's do:</h2>
+            <h2 class="title stroke text-start ">Let's do:</h2>
             <li>3. Put the flashlight at a distance from the
                 blocks <br> <span class="opacity-0">-.</span> such that the shadow is projected on the wall.
             </li>

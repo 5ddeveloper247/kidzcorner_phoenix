@@ -44,7 +44,7 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start text-start">
+    <div class=" slide flex t-slide text-white flex-col justify-start text-start">
         <div class="t-title">
             <div>
                 <h2 class=" t-title">Preparations:</h2>

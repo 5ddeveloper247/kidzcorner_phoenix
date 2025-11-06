@@ -7,11 +7,9 @@
 
 
     {{-- Slide 1 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <div class="flex items-center gap-5">
-            {{-- <img src="{{ asset('assets/images/K2/livingthings/dna/h17.png') }}" class="w-[500px]" />
-            <img src="{{ asset('assets/images/K2/livingthings/dna/h16.png') }}" class="w-[500px]" /> --}}
-            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s1.png') }}" class="w-[500px]" />
+    <div class="slide flex flex-col items-center justify-center  ">
+        <div class="flex items-center ">
+            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s1.png') }}" />
         </div>
 
         <h2 class="title stroke">Children, what do you see in the picture?</h2>
@@ -193,12 +191,12 @@
     <div class="slide hidden flex flex-col items-center justify-start">
         <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s11.png') }}" class="w-img" />
         <h2 class="title stroke text-start">Let's find out:<br>
-            How does the temperature change when heat/air is unable to<br>
+            How does the temperature change when heat/air is unable to
             escape from an enclosed container?</h2>
     </div>
     {{-- slide 6 --}}
     <div class="slide hidden flex flex-col items-center justify-start ">
-        <h2 class="title stroke text-center">Let's do:<br>
+        <h2 class="title stroke text-start">Let's do:<br>
             Get two thermometers and a glass jar with a lid.</h2>
         <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s11.png') }}" class="w-img" />
         <p class="note">Note: Teacher to remind children to be careful when using the glass jar and glass thermometers.
@@ -207,24 +205,26 @@
 
     {{-- slide 7 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <h2 class="title stroke text-center">Let's do:<br>
+        <h2 class="title stroke text-start">Let's do:<br>
             2. Paste a piece of paper underneath the hole on the lid.</h2>
-        <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s12.png') }}" />
+        <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s12.png') }}" class="w-img" />
         <p class="text-center note">Note: Seal the hole with a paper because it's easier for children to poke a thermometer
             through it later.</p>
     </div>
+
     {{-- slide 7 --}}
     <div class="slide hidden  flex flex-col items-center">
-        <h2 class="title stroke">Let's do:<br>
+        <h2 class="title stroke text-start">Let's do:<br>
             3. Poke a thermometer through the hole into the glass jar and
             cover it. Use tape to seal up any gaps to ensure that
             heat/air cannot escape from the jar. The glass jar acts as
             the greenhouse gases which prevent the heat from escaping.</h2>
         <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s13.png') }}" class="w-img" />
     </div>
+
     {{-- slide 7 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start">
-        <h2 class="title stroke">Let's do:<br>
+    <div class="slide hidden  flex flex-col items-center justify-between h-[50vh]">
+        <h2 class="title stroke text-start">Let's do:<br>
             5. The thermometer outside the glass jar will measure the
             temperature of the environment.
             6. The thermometer inside the glass jar will measure the
@@ -232,9 +232,10 @@
             greenhouse gases were trapped in the atmosphere.</h2>
         <p class="text-center note">Note: Teacher to help to read out the temperature on each thermometer.</p>
     </div>
+
     {{-- slide 7 --}}
-    <div class="slide hidden  flex flex-col items-center">
-        <h2 class="title stroke">Let's do:<br>
+    <div class="slide hidden  flex flex-col items-center justify-between h-[50vh]">
+        <h2 class="title stroke text-start">Let's do:<br>
             7. After setting up, record the temperature readings of both
             thermometers in the learning journal.
             8. Wait 5 minutes and 10 minutes later to record the second
@@ -243,6 +244,8 @@
         </h2>
         <p class="note">Note: Teacher to ask questions to guide them in concluding their findings.</p>
     </div>
+
+
     {{-- slide 7 --}}
     <div class="slide hidden flex flex-col items-center">
         <div class="flex items-end gap-2 justify-center">
@@ -251,6 +254,7 @@
         <h2 class="title stroke text-center">What happens when Earth's temperature keeps increasing?</h2>
         <p class="note">Note: Encourage children to share their thoughts.</p>
     </div>
+
     {{-- slide 7 --}}
     <div class="slide hidden flex flex-col items-center">
         <div class="flex gap-2 items-center">
@@ -261,6 +265,8 @@
         <p class="note">Note: Teacher can help children to relate to how they feel when they are under
             the hot sun during outdoors.</p>
     </div>
+
+
     {{-- slide 7 --}}
     <div class="slide hidden flex flex-col items-center">
         <div class="flex items-end gap-2 justify-center">
@@ -269,6 +275,8 @@
         <h2 class="title stroke text-center">Ice and snow on the ice cap mountains will melt.</h2>
         <p class="note">Note: Teacher to explain that hot weather affects the plants.</p>
     </div>
+
+
     {{-- slide 7 --}}
     <div class="slide hidden flex flex-col items-center">
         <div class="flex items-end gap-2 justify-center">
@@ -276,6 +284,8 @@
         </div>
         <h2 class="title stroke text-center">Ice and snow on the ice cap mountains will melt.</h2>
     </div>
+
+
     {{-- slide 7 --}}
     <div class="slide hidden flex flex-col items-center">
         <div class="flex items-end gap-1 justify-center">
@@ -285,12 +295,16 @@
         <p class="note">Note: Teacher to explain that aglacier is a large piece of ice on top of land.<br>
             Glacier is formed by the accumulation and compaction of snow.</p>
     </div>
+
+
     {{-- slide 7 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
         <h2 class="title stroke ">What do you think will happen
             when glaciers melt?</h2>
         <p class="note">Note: Encourage children to share their thoughts.</p>
     </div>
+
+
     {{-- slide 7 --}}
     <div class="slide hidden flex flex-col items-center">
         <div class="flex items-end gap-1 justify-center">
@@ -299,64 +313,63 @@
         <h2 class="title stroke text-center">Let’s find out:<br>
             What happens when glaciers melt?</h2>
     </div>
+
     {{-- slide 7 --}}
     <div class="slide hidden flex flex-col items-center">
-        <h2 class="title stroke text-center">Let's do:<br>
+        <h2 class="title stroke text-start">Let's do:<br>
             1. Use clay or dough to form land on one side of a container.</h2>
         <div class="flex items-end gap-1 justify-center">
             <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s20.png') }}" />
         </div>
         <p class="note">Note: Teacher may get children to work in small groups</p>
     </div>
+
     {{-- slide 7 --}}
     <div class="slide hidden flex flex-col items-center">
-        <h2 class="title stroke text-center">Let's do:<br>
+        <h2 class="title stroke text-start">Let's do:<br>
             2. Fill the other side of the container with water, to represent
             the sea. <br>
             3. Place a block of ice on top of the land. Explain that this is
             glacier, where the top part of the land is ice.</h2>
-        <div class="flex items-end gap-1 justify-center">
-            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s21.png') }}" />
-        </div>
+        <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s21.png') }}" class="w-img" />
     </div>
     {{-- slide 7 --}}
     <div class="slide hidden flex flex-col items-center">
-        <h2 class="title stroke text-center">Let's do:<br>
+        <h2 class="title stroke text-start">Let's do:<br>
             4. Use a marker and mark the water level on the side of the
             container.</h2>
-        <div class="flex items-end gap-1 justify-center">
-            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s22.png') }}" />
-        </div>
+        <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s22.png') }}" class="w-img" />
         <p class="note">Note: Teacher to ensure that the ice stays on top of the land at the start of the experiment.</p>
     </div>
     {{-- slide 7 --}}
-    <div class="slide hidden flex flex-col items-center justify-center">
-        <h2 class="title stroke">Let's do:<br>
+    <div class="slide hidden flex flex-col items-center justify-between h-[50vh]">
+        <h2 class="title stroke text-start">Let's do:<br>
             5. Glaciers will melt due to global warming. Guess what will<br>
             happen when the block of ice melts into the sea.<br>
             6. Leave it in the outdoors or near a light source to <br>
             represent the sun.<br>
-            7. Check the level again when all the ice has melted.<br></h2><br><br><br>
+            7. Check the level again when all the ice has melted.</h2>
         <p class="note">Note: Teacher to guide children in observing the change in water level.
         </p>
     </div>
+
     {{-- slide 7 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-5">
-        <h2 class="title stroke">Let's do:<br>
+    <div class="slide hidden flex flex-col items-center justify-center ">
+        <h2 class="title stroke text-start">Let's do:<br>
             8. Discuss as a class what you have observed.<br>
             9. Imagine if the water was the sea, what would have<br>
             happened? </h2><br>
         <p class="note">Note: Teacher to ask questions to guide them in concluding their findings.</p>
         </p>
     </div>
+
     {{-- slide 7 --}}
     <div class="slide hidden flex flex-col items-center">
-        <div class="flex items-end gap-1 justify-center">
-            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s18.png') }}" />
-        </div>
+        <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s18.png') }}" />
         <h2 class="title stroke text-center">When the glaciers melt, the sea level will increase<br>
             and islands may be flooded.</h2>
     </div>
+
     {{-- slide 7 --}}
     <div class="slide hidden flex flex-col items-center">
         <div class="flex items-end gap-1 justify-center">
@@ -365,8 +378,9 @@
         <h2 class="title stroke text-center">Our houses and the roads will be flooded too.</h2>
         <p class="note">Note: Teacher to talk about how the flood will affect people.</p>
     </div>
+
     {{-- slide 7 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-5">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <h2 class="title stroke">What have you learned about global warming?</h2>
         <p class="note">Note: Encourage children to share.</p>
         </p>
@@ -456,185 +470,65 @@
 @push('script')
     <script>
         document.addEventListener("DOMContentLoaded", () => {
+            // Get all elements
             const slides = document.querySelectorAll(".slide");
-            const nextButtons = document.querySelectorAll(".nextButton");
-            const returnButton = document.getElementById("returnButton");
-            const doneButton = document.querySelector(".doneButton");
+            const nextBtn = document.querySelector(".nextButton");
+            const returnBtn = document.getElementById("returnButton");
+            const doneBtn = document.querySelector(".doneButton");
 
-            // Get all info/click buttons (info-btn1, info-btn2, click-btn1, click-btn2, etc.)
-            const infoButtons = document.querySelectorAll("[class*='info-btn'], [class*='click-btn']");
+            // Current slide position
+            let currentIndex = 0;
 
-            let currentSlide = 0;
-            let parentSlideIndex = null;
-            let isViewingInfoSlides = false;
-            let currentInfoClass = null; // Track which info/click class we're viewing
-
+            // Show slide and update buttons
             function showSlide(index) {
-                slides.forEach((slide, i) => {
-                    slide.classList.toggle("hidden", i !== index);
-                });
+                // Hide all slides
+                slides.forEach(slide => slide.classList.add("hidden"));
 
-                // Check if last slide OR last info/click slide
-                const isLastSlide = index === slides.length - 1;
-                const isLastInfoSlide = isViewingInfoSlides && !hasNextInfoSlide(index);
+                // Show current slide
+                slides[index].classList.remove("hidden");
 
-                if (isLastSlide || isLastInfoSlide) {
-                    nextButtons.forEach(btn => btn.classList.add("hidden"));
-                    if (doneButton) doneButton.classList.remove("hidden");
+                // Update index
+                currentIndex = index;
+
+                // Check if last slide
+                const isLastSlide = (index === slides.length - 1);
+
+                if (isLastSlide) {
+                    // Last slide: hide Next, show Done
+                    nextBtn.style.display = "none";
+                    doneBtn.style.display = "block";
                 } else {
-                    nextButtons.forEach(btn => btn.classList.remove("hidden"));
-                    if (doneButton) doneButton.classList.add("hidden");
+                    // Not last slide: show Next, hide Done
+                    nextBtn.style.display = "block";
+                    doneBtn.style.display = "none";
                 }
             }
 
-            // Check if there's another info/click slide with same class after current one
-            function hasNextInfoSlide(currentIndex) {
-                if (!currentInfoClass) return false;
-
-                for (let i = currentIndex + 1; i < slides.length; i++) {
-                    if (slides[i].classList.contains(currentInfoClass)) {
-                        return true;
-                    }
+            // Next button
+            nextBtn.addEventListener("click", () => {
+                if (currentIndex < slides.length - 1) {
+                    showSlide(currentIndex + 1);
                 }
-                return false;
-            }
-
-            // Get info/click class from button (info-btn1 → , click-btn1 → click1)
-            function getInfoClassFromButton(button) {
-                const classList = Array.from(button.classList);
-
-                // Check for info-btn pattern
-                const infoBtnClass = classList.find(cls => cls.startsWith('info-btn'));
-                if (infoBtnClass) {
-                    const number = infoBtnClass.replace('info-btn', '');
-                    return 'info-slide' + number;
-                }
-
-                // Check for click-btn pattern
-                const clickBtnClass = classList.find(cls => cls.startsWith('click-btn'));
-                if (clickBtnClass) {
-                    const number = clickBtnClass.replace('click-btn', '');
-                    return 'click' + number;
-                }
-
-                return null;
-            }
-
-            // Info/Click button handlers
-            infoButtons.forEach((btn) => {
-                btn.addEventListener("click", (e) => {
-                    e.preventDefault(); // Prevent default anchor behavior
-
-                    parentSlideIndex = currentSlide;
-                    isViewingInfoSlides = true;
-                    currentInfoClass = getInfoClassFromButton(btn);
-
-                    // Find the first slide with matching info/click class
-                    for (let i = 0; i < slides.length; i++) {
-                        if (slides[i].classList.contains(currentInfoClass)) {
-                            currentSlide = i;
-                            showSlide(currentSlide);
-                            break;
-                        }
-                    }
-                });
             });
-
-            // NEXT button - skip info/click slides if not viewing them
-            nextButtons.forEach((btn) => {
-                btn.addEventListener("click", () => {
-                    if (currentSlide < slides.length - 1) {
-                        currentSlide++;
-
-                        // Skip info/click slides if not viewing them
-                        while (!isViewingInfoSlides &&
-                            currentSlide < slides.length &&
-                            isInfoSlide(slides[currentSlide])) {
-                            currentSlide++;
-                        }
-
-                        // If viewing info/click slides, only show slides with current class
-                        if (isViewingInfoSlides) {
-                            while (currentSlide < slides.length &&
-                                !slides[currentSlide].classList.contains(currentInfoClass)) {
-                                currentSlide++;
-                            }
-                        }
-
-                        if (currentSlide < slides.length) {
-                            showSlide(currentSlide);
-                        }
-                    }
-                });
-            });
-
-            // Check if slide is any info/click slide (info-slide1, info-slide2, click1, click2, etc.)
-            function isInfoSlide(slide) {
-                return Array.from(slide.classList).some(cls =>
-                    (cls.startsWith('info-slide') && cls.match(/^info-slide\d+$/)) ||
-                    (cls.startsWith('click') && cls.match(/^click\d+$/))
-                );
-            }
 
             // Return button
-            returnButton.addEventListener("click", () => {
-                // Redirect to route if on slide 1
-                if (currentSlide === 1) {
+            returnBtn.addEventListener("click", () => {
+                if (currentIndex === 0) {
+                    // On first slide: redirect to route
                     window.location.href = "{{ route('warmingSelection') }}";
-                    return;
+                } else {
+                    // Not first slide: go back
+                    showSlide(currentIndex - 1);
                 }
+            });
 
-                if (isViewingInfoSlides && currentSlide > 0) {
-                    // Check if previous slide is also same info/click class
-                    let prevSlide = currentSlide - 1;
+            // Done button
+            doneBtn.addEventListener("click", () => {
+                window.location.href = "{{ route('warmingSelection') }}";
+            });
 
-                    // Find previous slide with same info/click class
-                    while (prevSlide >= 0 && !slides[prevSlide].classList.contains(currentInfoClass)) {
-                        prevSlide--;
-                    }
-
-                    if (prevSlide >= 0 && slides[prevSlide].classList.contains(currentInfoClass)) {
-                        currentSlide = prevSlide;
-                        showSlide(currentSlide);
-                    } else {
-                        // No more info/click slides, return to parent
-                        currentSlide = parentSlideIndex;
-                        isViewingInfoSlides = false;
-                        currentInfoClass = null;
-                        parentSlideIndex = null;
-                        showSlide(currentSlide);
-                    }
-                } else if (currentSlide > 0) {
-                    currentSlide--;
-
-                    // Skip info/click slides when going back
-                    while (currentSlide > 0 && isInfoSlide(slides[currentSlide])) {
-                        currentSlide--;
-                    }
-
-                    showSlide(currentSlide);
-                }
-            });;
-
-            // DONE button handler
-            if (doneButton) {
-                doneButton.addEventListener("click", () => {
-                    if (isViewingInfoSlides && parentSlideIndex !== null) {
-                        // Return to parent slide
-                        currentSlide = parentSlideIndex;
-                        isViewingInfoSlides = false;
-                        currentInfoClass = null;
-                        parentSlideIndex = null;
-                        showSlide(currentSlide);
-                    } else {
-                        // Navigate to route
-                        window.location.href = "{{ route('warmingSelection') }}";
-                    }
-                });
-            }
-
-            // Start with first slide
-            showSlide(currentSlide);
+            // Start at first slide
+            showSlide(0);
         });
     </script>
 @endpush

@@ -290,7 +290,7 @@
     </div>
     {{-- Slide 2 --}}
     <div class="slide hidden flex flex-col items-center">
-        <h2 class="title stroke">Let's do:
+        <h2 class="title stroke text-start ">Let's do:
             1. Make dirty water by mixing paint, straws, soil, leaves, small
             pieces of rubbish like tissue paper, food wrapper, eraser
             rubbings, coffee, oil, egg shells etc. Ensure it is enough for
@@ -301,7 +301,7 @@
     </div>
     {{-- Slide 2 --}}
     <div class="slide hidden flex flex-col items-center">
-        <h2 class="title stroke">Let's do:
+        <h2 class="title stroke text-start ">Let's do:
             2. Look at the dirty water mixture. Discuss as a class about
             what can be seen in the mixture.
             3. How can we remove the rubbish in the mixture? Which
@@ -319,14 +319,14 @@
         <div class="flex items-end gap-2 justify-center">
             <img src="{{ asset('assets/images/K2/sustain/pollution/p15.png') }}" />
         </div>
-        <h2 class="title stroke">Let's do:
+        <h2 class="title stroke text-start ">Let's do:
             5. In each small groups, choose the filter materials for your
             water filter (choose up to 5 types).
             6. Place the bottles as shown.</h2>
     </div>
     {{-- Slide 2 --}}
     <div class="slide hidden flex flex-col items-center">
-        <h2 class="title stroke">Let's do:
+        <h2 class="title stroke text-start ">Let's do:
             7. Think of the sequence of the filter materials to be placed
             in the bottles. Which is at the bottom and which is at the
             top?
@@ -352,7 +352,7 @@
     </div>
     {{-- Slide 2 --}}
     <div class="slide hidden flex flex-col items-center">
-        <h2 class="title stroke">Let's do:
+        <h2 class="title stroke text-start ">Let's do:
             9. Place the all bottles in a row (including the bottles that
             teacher had prepared).
             10. Pour equal amount of dirty water into each filter and wait
@@ -366,7 +366,7 @@
     </div>
     {{-- Slide 2 --}}
     <div class="slide hidden flex flex-col items-center">
-        <h2 class="title stroke">Let's do:
+        <h2 class="title stroke text-start ">Let's do:
             13. Which water filter works best?
             14. What filter materials were used in the bottle that
             produced the cleanest water?
@@ -565,7 +565,7 @@
     </div>
     {{-- Slide 2 --}}
     <div class="slide hidden flex flex-col items-center">
-        <h2 class="title stroke">Let's do:
+        <h2 class="title stroke text-start ">Let's do:
             1. Fill water in the two bottles until they are 3/4 full.
             Pretend that the water is the sea.</h2>
         <div class="flex items-end gap-2 justify-center">
@@ -578,7 +578,7 @@
         <div class="flex items-end gap-2 justify-center">
             <img src="{{ asset('assets/images/K2/sustain/pollution/p26.png') }}" />
         </div>
-        <h2 class="title stroke">Let's do:
+        <h2 class="title stroke text-start ">Let's do:
             2. Prepare a square piece of plastic sheet cut out from a
             plastic bag and one piece of toilet paper. Ensure both are
             of the same size.
@@ -587,7 +587,7 @@
     </div>
     {{-- Slide 2 --}}
     <div class="slide hidden flex flex-col items-center">
-        <h2 class="title stroke">Let's do:
+        <h2 class="title stroke text-start ">Let's do:
             4. Put the newspaper in to bottle A and put the plastic sheet
             in to bottle B.</h2>
         <div class="flex items-end gap-2 justify-center">
@@ -596,7 +596,7 @@
     </div>
     {{-- Slide 2 --}}
     <div class="slide hidden flex flex-col items-center">
-        <h2 class="title stroke">Let's do:
+        <h2 class="title stroke text-start ">Let's do:
             5. Close the cap and shake the bottles to pretend that there
             are waves in the bottles.
             6. Encourage children to compare and discuss on the changes

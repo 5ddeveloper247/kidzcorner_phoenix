@@ -12,25 +12,25 @@
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
-                <li class="text-[1.2vw]">Understand the meaning of global warming</li>
-                <li class="text-[1.2vw]">Learn about the causes of global warming and how it affects earth</li>
-                <li class="text-[1.2vw]">Develop awareness of environmental issues</li>
-                <li class="text-[1.2vw]">Develop curiosity and understanding through inquiry</li>
-                <li class="text-[1.2vw]">Develop understanding through inquiry</li>
+                <li>Understand the meaning of global warming</li>
+                <li>Learn about the causes of global warming and how it affects earth</li>
+                <li>Develop awareness of environmental issues</li>
+                <li>Develop curiosity and understanding through inquiry</li>
+                <li>Develop understanding through inquiry</li>
             </ul>
         </div>
 
         <div class="flex flex-col  items-start justify-between">
-            <h2 class="t-title font-bold">Keywords:</h2>
+            <h2 class="t-title">Keywords:</h2>
             <div>
                 <ul class="list-disc ">
-                    <li class="text-[1.2vw]">Global Warming</li>
-                    <li class="text-[1.2vw]">Climate</li>
-                    <li class="text-[1.2vw]">Temperature</li>
-                    <li class="text-[1.2vw]">Earth</li>
-                    <li class="text-[1.2vw]">Heat</li>
-                    <li class="text-[1.2vw]">Atmosphere</li>
-                    <li class="text-[1.2vw]">Greenhouse Gases</li>
+                    <li>Global Warming</li>
+                    <li>Climate</li>
+                    <li>Temperature</li>
+                    <li>Earth</li>
+                    <li>Heat</li>
+                    <li>Atmosphere</li>
+                    <li>Greenhouse Gases</li>
                 </ul>
 
             </div>
@@ -39,19 +39,19 @@
     </div>
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-10 text-start">
+    <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2><br>
             <h2 class=" t-title">Class Activity 1:</h2>
             <ul class="list-disc ">
-                <li class="text-[1.2vw]">
+                <li>
                     1 glass jar with a hole lid
                 </li>
-                <li class="text-[1.2vw]">2 thermometers (glass thermometers or kitchen thermometers)</li>
-                <li class="text-[1.2vw]">
+                <li>2 thermometers (glass thermometers or kitchen thermometers)</li>
+                <li>
                     1 small piece of paper
                 </li>
-                <li class="text-[1.2vw]">Adhesive tape</li>
+                <li>Adhesive tape</li>
             </ul>
             <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s24.png') }}" />
         </div>
@@ -64,15 +64,15 @@
             <h2 class=" t-title">Preparations:</h2><br>
             <h2 class=" t-title">Class Activity 2:</h2>
             <ul class="list-disc ">
-                <li class="text-[1.2vw]">
+                <li>
                     1 big transparent container (size around the same as the example below)
                 </li>
-                <li class="text-[1.2vw]">Some clay or dough (represents land to fill up one side of the big container)</li>
-                <li class="text-[1.2vw]">
+                <li>Some clay or dough (represents land to fill up one side of the big container)</li>
+                <li>
                     1 cup of blue coloured water (represents sea)
                 </li>
-                <li class="text-[1.2vw]">1 block of ice (represents the glacier, preferable big in size)</li>
-                <li class="text-[1.2vw]">
+                <li>1 block of ice (represents the glacier, preferable big in size)</li>
+                <li>
                     1 marker pen
                 </li>
             </ul>
@@ -87,16 +87,16 @@
         <div>
             <h2 class=" t-title">Things to note for Class Activity 1:</h2>
             <ul class="list-disc">
-                <li class="text-[1.2vw]">The glass jar and the glass thermometer may be hot after being out in the sun.<br>
+                <li>The glass jar and the glass thermometer may be hot after being out in the sun.<br>
                     Please ensure that children do not touch the glass jar and glass thermometer.</li>
-                <li class="text-[1.2vw]">
+                <li>
                     Do not leave the glass thermometer outside unattended over a long period <br>
                     of time as the high temperature may cause it to crack/explode.
                 </li>
-                <li class="text-[1.2vw]">
+                <li>
                     Do not take out the thermometer from the glass bottle to take the readings as it will be inaccurate.
                 </li>
-                <li class="text-[1.2vw]">
+                <li>
                     If it's a rainy day, you can try conducting the experiment with a lamp in between both thermometers.<br>
                     But bear in mind that this may take a longer time for you to see the significant differences of the<br>
                     temperature on the thermometers.
@@ -109,14 +109,14 @@
 
 
     {{-- slide 4 --}}
-    <div class=" slide t-slide flex text-2xl text-white flex-col items-center justify-start  text-start">
+    <div class=" slide t-slide flex  text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">Things to note for Class Activity 1:</h2>
             <ul class="list-decimal">
-                <li class="text-[1.2vw]">If you are using a kitchen thermometer, you may see the numbers change within
+                <li>If you are using a kitchen thermometer, you may see the numbers change within
                     seconds. <br>
                     This type of thermometer is also easier for children to read the values.</li>
-                <li class="text-[1.2vw]">Remind children of safety as the other side of the thermometer is sharp like a
+                <li>Remind children of safety as the other side of the thermometer is sharp like a
                     needle.</li>
             </ul>
         </div>
@@ -126,17 +126,17 @@
 
 
     {{-- slide 5 --}}
-    <div class=" slide t-slide flex text-2xl text-white flex-col items-center justify-start  text-start">
+    <div class=" slide t-slide flex  text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">Things to note for Class Activity 2:</h2>
             <ul>
-                <li class="text-[1.2vw]">Prepare sufficient ice for your class the day before the experiment. <br>
+                <li>Prepare sufficient ice for your class the day before the experiment. <br>
                     It will depend on the size of the container and number of groups that will be doing the experiment.
                 </li>
-                <li class="text-[1.2vw]">Each group need to have a big block of ice that enable you to<br>
+                <li>Each group need to have a big block of ice that enable you to<br>
                     see the change in water level when the ice melts into the water.
                 </li>
-                <li class="text-[1.2vw]">Remember to put the ice on the land (dough/clay) and let it melt into the s
+                <li>Remember to put the ice on the land (dough/clay) and let it melt into the s
                 </li>
             </ul>
         </div>
@@ -145,17 +145,17 @@
 
 
     {{-- sldie 6 --}}
-    <div class=" slide t-slide flex text-2xl text-white flex-col items-center justify-start  text-start">
+    <div class=" slide t-slide flex  text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">Useful information:</h2><br>
             <ul>
-                <li class="text-[1.2vw]">What is a glacier?
+                <li>What is a glacier?
                     A glacier is a thick mass of ice that covers a large area of land. Around ten
                     percent of the world's land area is covered by glaciers. Most glaciers are
                     located near the North or South Poles, but glaciers also exist high in mountain
                     ranges such as the Himalayas and the Andes.
                 </li><br>
-                <li class="text-[1.2vw]">How do glaciers form?
+                <li>How do glaciers form?
                     Glaciers form from snow that doesn't melt even during the summer. When
                     enough snow builds up the weight of the snow will compress and turn into solid
                     ice. It can take hundreds of years for a large glacier to form.
@@ -167,25 +167,25 @@
 
 
     {{-- sldie 7 --}}
-    <div class=" slide t-slide flex text-2xl text-white flex-col items-center justify-start  text-start">
+    <div class=" slide t-slide flex  text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">Notes</h2>
             <ul>
-                <li class="text-[1.2vw] flex">if this icon
+                <li class="flex whitespace-nowrap">if this icon
                     <span>
                         <img src="{{ asset('assets/images/pptimages/video.png') }}" class="!max-w-[2.5vw]" />
                     </span> next to a
                     picture, click on the picture to watch the video
-                    Always ask questions to encourage children to think and share their ideas first
-                    before giving out any information.
                 </li>
-                <li class="text-[1.2vw]">
+                <li>Always ask questions to encourage children to think and share their ideas first
+                    before giving out any information.</li>
+                <li>
                     Emphasise and use the keywords during hands-on sessions.
                 </li>
-                <li class="text-[1.2vw]">Print out the Learning Journal (if any) for every
+                <li>Print out the Learning Journal (if any) for every
                     child to complete at the end of the lesson.
                 </li>
-                <li class="text-[1.2vw] flex">Click on this shortcut icon
+                <li class="flex whitespace-nowrap">Click on this shortcut icon
                     <span>
                         <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" class="!max-w-[2.5vw]" />
                     </span>if you need to go to some
@@ -199,21 +199,27 @@
     </div>
 
     {{-- sldie 8 --}}
-    <div class=" slide t-slide flex text-2xl text-white flex-col items-center justify-start  text-start">
+    <div class=" slide t-slide flex  text-white flex-col items-center justify-start  text-start">
+        <h2 class="title stroke">Learning Centre Idea</h2>
+
         <div>
+            <h2 class="title stroke !text-white">When Glaciers Melt</h2>
             <h2 class=" t-title">When Glaciers Melt</h2>
             <p class="note">What and how to set up:<br>
-                Use clay or dough to create an island in a tray on one side. Decorate it with<br><br>
-                animals toys, cars, people and houses. Fill up the other side with water which <br><br>
-                will act as the sea. Place huge pieces of ice on top of the island.<br>
-
-                What to do:<br>
-                1. Invite children to observe the setting in the beginning when island is not
-                flooded.<br>
-                2. Let the ice melt and encourage children to observe what happens.<br><br>
-                3. Teacher can encourage children to make different landforms such as<br><br>
-                mountains or create a city with tall buildings. Encourage children to relate <br><br>
-                how the melting of glaciers will affect people in the world.</p>
+                Use clay or dough to create an island in a tray on one side. Decorate it with
+                animals toys, cars, people and houses. Fill up the other side with water which
+                will act as the sea. Place huge pieces of ice on top of the island.</p>
+        </div>
+        <div>
+            <h2 class="t-title"> What to do:</h2>
+            <ul class="list-decimal">
+                <li>Invite children to observe the setting in the beginning when island is not
+                    flooded.</li>
+                <li>Let the ice melt and encourage children to observe what happens.</li>
+                <li>Teacher can encourage children to make different landforms such as
+                    mountains or create a city with tall buildings. Encourage children to relate
+                    how the melting of glaciers will affect people in the world.</li>
+            </ul>
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
@@ -265,55 +271,65 @@
 @push('script')
     <script>
         document.addEventListener("DOMContentLoaded", () => {
+            // Get all elements
             const slides = document.querySelectorAll(".slide");
-            const nextButtons = document.querySelectorAll(".nextButton");
-            const returnButton = document.getElementById("returnButton");
-            const doneButton = document.querySelector(".doneButton"); //   DONE button
+            const nextBtn = document.querySelector(".nextButton");
+            const returnBtn = document.getElementById("returnButton");
+            const doneBtn = document.querySelector(".doneButton");
 
-            let currentSlide = 0;
+            // Current slide position
+            let currentIndex = 0;
 
+            // Show slide and update buttons
             function showSlide(index) {
-                slides.forEach((slide, i) => {
-                    slide.classList.toggle("hidden", i !== index);
-                });
+                // Hide all slides
+                slides.forEach(slide => slide.classList.add("hidden"));
 
-                //   Agar last slide hai → NEXT button hide, DONE show
-                if (index === slides.length - 1) {
-                    nextButtons.forEach(btn => btn.classList.add("hidden"));
-                    if (doneButton) doneButton.classList.remove("hidden");
+                // Show current slide
+                slides[index].classList.remove("hidden");
+
+                // Update index
+                currentIndex = index;
+
+                // Check if last slide
+                const isLastSlide = (index === slides.length - 1);
+
+                if (isLastSlide) {
+                    // Last slide: hide Next, show Done
+                    nextBtn.style.display = "none";
+                    doneBtn.style.display = "block";
                 } else {
-                    nextButtons.forEach(btn => btn.classList.remove("hidden"));
-                    if (doneButton) doneButton.classList.add("hidden");
+                    // Not last slide: show Next, hide Done
+                    nextBtn.style.display = "block";
+                    doneBtn.style.display = "none";
                 }
             }
 
-            //   NEXT buttons listener
-            nextButtons.forEach((btn) => {
-                btn.addEventListener("click", () => {
-                    if (currentSlide < slides.length - 1) {
-                        currentSlide++;
-                        showSlide(currentSlide);
-                    }
-                });
-            });
-
-            //   Return button - redirect if on first slide
-            returnButton.addEventListener("click", () => {
-                if (currentSlide === 0) {
-                    // Redirect to route when on first slide
-                    window.location.href = "{{ route('k2sustainability') }}";
-                } else if (currentSlide > 0) {
-                    currentSlide--;
-                    showSlide(currentSlide);
+            // Next button
+            nextBtn.addEventListener("click", () => {
+                if (currentIndex < slides.length - 1) {
+                    showSlide(currentIndex + 1);
                 }
             });
 
-            if (doneButton) {
-                doneButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('k2sustainability') }}";
-                });
-            }
-            showSlide(currentSlide);
+            // Return button
+            returnBtn.addEventListener("click", () => {
+                if (currentIndex === 0) {
+                    // On first slide: redirect to route
+                    window.location.href = "{{ route('warmingSelection') }}";
+                } else {
+                    // Not first slide: go back
+                    showSlide(currentIndex - 1);
+                }
+            });
+
+            // Done button
+            doneBtn.addEventListener("click", () => {
+                window.location.href = "{{ route('k2sustainability') }}";
+            });
+
+            // Start at first slide
+            showSlide(0);
         });
     </script>
 @endpush

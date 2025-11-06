@@ -78,7 +78,7 @@
     {{-- slide 8 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <div class="self-start text-start">
-            <h2 class="title stroke">Let's do: <br>
+            <h2 class="title stroke text-start ">Let's do: <br>
                 1. (A) Use a pencil to make a patch of dark mark on a paper.</h2>
         </div>
         <video id="video1" class="video1 pointer-events-none">
@@ -96,7 +96,7 @@
     {{-- Slide 16 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <div class="self-start text-start">
-            <h2 class="title stroke">Let's do: <br>
+            <h2 class="title stroke text-start ">Let's do: <br>
                 2. (B) Rub a fingertip over the pencil mark to stain it.</h2>
         </div>
         <video id="video2" class="video1 pointer-events-none">
@@ -114,7 +114,7 @@
     {{-- Slide 17 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <div class="self-start text-start">
-            <h2 class="title stroke">Let's do: <br>
+            <h2 class="title stroke text-start ">Let's do: <br>
                 3. (C) Cut and stick a piece of clear tape on the stained fingertip (of B).</h2>
         </div>
         <video id="video3" class="video1 pointer-events-none">
@@ -133,7 +133,7 @@
     {{-- Slide 18 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <div class="self-start text-start">
-            <h2 class="title stroke">Let's do: <br>
+            <h2 class="title stroke text-start ">Let's do: <br>
                 4. (C) Carefully remove the tape from the fingertip (of B)
                 and paste it on the learning journal (of B).</h2>
         </div>
@@ -152,7 +152,7 @@
     {{-- Slide 18 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <div class="self-start text-start">
-            <h2 class="title stroke">Let's do: <br>
+            <h2 class="title stroke text-start ">Let's do: <br>
                 5. (A) Use a wet towel to clean the fingertip (of B).</h2>
         </div>
         <video id="video5" class="video1 pointer-events-none">
@@ -170,7 +170,7 @@
     {{-- Slide 18 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <div class="self-start text-start">
-            <h2 class="title stroke">Let's do: <br>
+            <h2 class="title stroke text-start ">Let's do: <br>
                 6. (A, B & C) Repeat the steps for other fingers.</h2>
         </div>
         <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f8.png') }}" class="w-img3" />
@@ -182,7 +182,7 @@
     {{-- Slide 19 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <div class="self-start text-start">
-            <h2 class="title stroke">Let's do: <br>
+            <h2 class="title stroke text-start ">Let's do: <br>
                 7. Observe your fingerprints.</h2>
         </div>
         <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f2.png') }}" class="w-img3" />
@@ -213,7 +213,7 @@
     {{-- Slide 22 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <div class="self-start text-start">
-            <h2 class="title stroke">Let's do: <br>
+            <h2 class="title stroke text-start ">Let's do: <br>
                 8. Observe your fingerprints with friends.</h2>
         </div>
         <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f9.png') }}" class="large-img6" />

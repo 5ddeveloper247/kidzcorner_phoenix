@@ -7,7 +7,7 @@
     <h2 class="top-title stroke">What is Scratch Jr?</h2>
 
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start text-start">
+    <div class=" slide flex t-slide text-white flex-col justify-start text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">

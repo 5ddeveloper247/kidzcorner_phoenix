@@ -6,7 +6,7 @@
     <h2 class="top-title stroke">What Are Living Things?</h2>
 
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start text-start">
+    <div class=" slide flex t-slide text-white flex-col justify-start text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -42,7 +42,7 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start text-start">
+    <div class=" slide flex t-slide text-white flex-col justify-start text-start">
         <div>
             <h2 class=" t-title">Preparations for Class Activity 1 - comparison of living and non-living things:
             </h2>
@@ -60,7 +60,7 @@
     </div>
 
     {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start text-start">
+    <div class=" slide flex t-slide text-white flex-col justify-start text-start">
         <div>
             <h2 class=" t-title">Things to consider during hands-on sessions:</h2>
             <ul class="list-disc">
@@ -86,7 +86,7 @@
 
 
     {{-- slide 4 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start text-start">
+    <div class=" slide flex t-slide text-white flex-col justify-start text-start">
         <div>
             <h2 class=" t-title">Additional information:</h2>
             <ul class="list-disc">

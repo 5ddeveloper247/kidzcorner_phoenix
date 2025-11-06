@@ -252,7 +252,7 @@
     </div>
     {{-- slide 7 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <h2 class="title stroke">Let's do:<br>
+        <h2 class="title stroke text-start ">Let's do:<br>
             1. Discuss as a class on the types of vegetables to grow.<br>
             2. Put one seed into each hole of the growing cubes.</h2>
         <div class="flex items-end gap-2 justify-center">
@@ -261,7 +261,7 @@
     </div>
     {{-- slide 7 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <h2 class="title stroke">Let's do:<br>
+        <h2 class="title stroke text-start ">Let's do:<br>
             3. When the seed has grown into a small plant, cut the cubes
             and put each piece into the white container.<br>
             4. Put the container into the vertical garden system.</h2>
@@ -273,7 +273,7 @@
     {{-- slide 8 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <div class="self-start text-start">
-            <h2 class="title stroke">Let's do:<br>
+            <h2 class="title stroke text-start ">Let's do:<br>
                 5. Check on the plants and wait for the harvest!<br>
                 6. Discuss as a class and create a recipe to cook the
                 vegetables that you will be harvesting!</h2>

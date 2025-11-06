@@ -110,7 +110,7 @@
 
     {{-- slide 6 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <h2 class="title stroke">Let's do:</h2>
+        <h2 class="title stroke text-start ">Let's do:</h2>
 
         <div class="w-[35vw] h-[30vh] bg-cover bg-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
@@ -308,7 +308,7 @@
     {{-- slide 19 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <p class="note">Are plants living things? Put (✓) or cross (X)</p>
-        <h2 class="title stroke">Let's do:</h2>
+        <h2 class="title stroke text-start ">Let's do:</h2>
         <div class="w-[35vw] h-[35vh] bg-cover bg-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <table class="w-[35vw] h-[35vh] border border-black text-[1vw] ">
@@ -371,7 +371,7 @@
     {{-- slide 22 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <p class="note">Are plants living things? Put (✓) or cross (X)</p>
-        <h2 class="title stroke">Let's do:</h2>
+        <h2 class="title stroke text-start ">Let's do:</h2>
         <div class="w-[35vw] h-[30vh] bg-cover bg-center flex items-center justify-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <table class="w-[35vw] h-[30vh] border border-black text-[1vw] ">

@@ -4,18 +4,16 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col  gap-[1.5vw] items-center !justify-center">
-        <div class="indexTitle  text-[55px]  stroke">sustain</div>
+        <div class="indexTitle  text-[55px]  stroke">What is Sustainability?</div>
         <h2 class=" text-white stroke ">
             Explore fingerprints; <br>
             learn to make own set of fingerprints <br>
             for analysis</h2>
 
         {{-- next Button --}}
-        <div class="down-btn-container">
             <button class="nextButton">
                 <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
             </button>
-        </div>
     </div>
 
 

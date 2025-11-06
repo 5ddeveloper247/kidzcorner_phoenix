@@ -18,6 +18,10 @@ body {
     }
 }
 
+.lesson-ul{
+    padding-left: 1.9vw !important;
+}
+
 .teacher-img1 {
     bottom: 0px;
     right: -4vw;
@@ -36,7 +40,8 @@ body {
     gap: 15px;
 
     img {
-        max-width: 25vw;
+        max-width: 27.5vw;
+        max-height: 20.677vw;
     }
     .w-img {
         max-width: 20vw !important;
@@ -237,16 +242,16 @@ video {
 
 .t-title {
     font-size: 1.5vw;
-    line-height: 1vw;
+    line-height: 1.5vw;
 }
 
 .t-slide {
     width: 50vw;
     padding-inline: 3vw;
-    ul,
+    ul,ol,
     p {
         line-height: 1.5vw;
-        padding-left: 1vw;
+        padding-left: 2vw;
         font-size: 1.2vw;
     }
 }

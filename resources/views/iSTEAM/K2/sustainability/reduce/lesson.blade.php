@@ -211,7 +211,7 @@
         <div class="flex items-end gap-2 justify-center">
             <img src="{{ asset('assets/images/K2/sustain/reduce/r16.png') }}" class="large-img6" />
         </div>
-        <h2 class="title stroke">Let's do:
+        <h2 class="title stroke text-start ">Let's do:
             Fill up the activity sheet with challenges that will <span class="text-white">reduce </span> waste!</h2>
     </div>
 
@@ -221,7 +221,7 @@
     {{-- slide 8 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <div class="self-start text-start">
-            <h2 class="title stroke">Let's do:
+            <h2 class="title stroke text-start ">Let's do:
                 1. Discuss as a class on things you can do to help to reduce
                 waste.
                 2. Try to have a different challenge from each other.

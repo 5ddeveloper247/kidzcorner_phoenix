@@ -234,7 +234,7 @@
     </div>
     {{-- slide 6 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <h2 class="title stroke">Let's do:
+        <h2 class="title stroke text-start ">Let's do:
             5. Pour the pulp mixture in the frame. Move the frame to let
             the pulp settle. Arrange the flowers and leaves as desired.</h2>
         <div class="flex items-center gap-5">
@@ -243,7 +243,7 @@
     </div>
     {{-- slide 6 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <h2 class="title stroke">Let's do:
+        <h2 class="title stroke text-start ">Let's do:
             6. After one hour, follow the steps in the video on drying the
             pulp mixture.</h2>
         <div class="flex items-center gap-5">

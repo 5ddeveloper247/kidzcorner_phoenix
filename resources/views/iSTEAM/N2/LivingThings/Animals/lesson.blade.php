@@ -347,7 +347,7 @@
     {{-- slide 26 --}}
     <div class="flex flex-col  slide hidden items-center justify-around h-[50vh]">
         <div class="title stroke text-start relative">
-            <h2>Let's do:</h2>
+            <h2 class="title stroke text-start ">Let's do:</h2>
             <img src="{{ asset('assets/images/N2/LivingThings/g3.png') }}" class="aspect-[8/1] !max-w-[45vw]" />
             <button class="info-btn6 absolute right-[13.5vw] top-[5vw]">
                 <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="!max-w-[2.5vw]" class="!max-w-[2.5vw]" />
@@ -381,7 +381,7 @@
     {{-- slide 27 --}}
     <div class="flex flex-col items-center slide hidden justify-between h-[50vh]">
         <div class="title stroke text-start">
-            <h2>Let's do:</h2>
+            <h2 class="title stroke text-start ">Let's do:</h2>
             <img src="{{ asset('assets/images/N2/LivingThings/g4.png') }}" class="large-img5" />
 
         </div>
@@ -392,7 +392,7 @@
     {{-- slde 28 --}}
     <div class="flex flex-col  slide hidden items-center justify-between h-[50vh] ">
         <div class="title stroke text-start">
-            <h2>Let's do:</h2>
+            <h2 class="title stroke text-start ">Let's do:</h2>
             <img src="{{ asset('assets/images/N2/LivingThings/g5.png') }}" class="large-img5" />
 
         </div>
@@ -403,7 +403,7 @@
     {{-- sslide 29 --}}
     <div class="flex flex-col  slide hidden items-center justify-between h-[60vh]">
         <div class="title stroke text-center  relative">
-            <h2>Let's do:</h2>
+            <h2 class="title stroke text-start ">Let's do:</h2>
             <img src="{{ asset('assets/images/N2/LivingThings/g6.png') }}" class="large-img5" />
 
             <button class="info-btn7 absolute right-[7.5vw] bottom-[-5vh]">
@@ -435,7 +435,7 @@
     {{-- slide 30  --}}
     <div class="flex flex-col  slide hidden items-center justify-between gap-20">
         <div class="title stroke text-center">
-            <h2>Let's do:</h2>
+            <h2 class="title stroke text-start ">Let's do:</h2>
 
             <img src="{{ asset('assets/images/N2/LivingThings/g7.png') }}" class="large-img5" />
         </div>
@@ -447,7 +447,7 @@
     {{-- slide 31 --}}
     <div class="flex flex-col  slide hidden items-center justify-between gap-20">
         <div class="title stroke text-center">
-            <h2>Let's do:</h2>
+            <h2 class="title stroke text-start ">Let's do:</h2>
             <img src="{{ asset('assets/images/N2/LivingThings/g6.png') }}" class="large-img5" />
         </div>
 

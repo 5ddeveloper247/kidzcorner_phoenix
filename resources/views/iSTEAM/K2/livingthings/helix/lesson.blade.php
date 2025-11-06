@@ -158,7 +158,7 @@
     {{-- Slide 15 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <div class="self-start text-start">
-            <h2 class="title stroke">Let's do: <br>
+            <h2 class="title stroke text-start ">Let's do: <br>
                 1. Find out the colour representation of each bead.</h2>
         </div>
         <img src="{{ asset('assets/images/K2/livingthings/dna/h7.png') }}" class="w-img3" />
@@ -170,7 +170,7 @@
     {{-- Slide 16 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <div class="self-start text-start">
-            <h2 class="title stroke">Let's do: <br>
+            <h2 class="title stroke text-start ">Let's do: <br>
                 2. Create base pairs by hooking AT or CG beads together in
                 the middle of the twist tie.</h2>
         </div>
@@ -183,7 +183,7 @@
     {{-- Slide 17 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <div class="self-start text-start">
-            <h2 class="title stroke">Let's do: <br>
+            <h2 class="title stroke text-start ">Let's do: <br>
                 3. Attach the base pairs to the pipe cleaners by twisting the
                 free ends of twist ties around the pipe cleaners.</h2>
         </div>
@@ -196,7 +196,7 @@
     {{-- Slide 18 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <div class="self-start text-start">
-            <h2 class="title stroke">Let's do: <br>
+            <h2 class="title stroke text-start ">Let's do: <br>
                 4. Display and observe the ladder made.</h2>
         </div>
         <img src="{{ asset('assets/images/K2/livingthings/dna/h10.png') }}" class="w-img3" />
@@ -224,7 +224,7 @@
     {{-- Slide 21 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <div class="self-start text-start">
-            <h2 class="title stroke">Let's do: <br>
+            <h2 class="title stroke text-start ">Let's do: <br>
                 5. Twist the ladder to form the shape of DNA double helix.</h2>
         </div>
         <img src="{{ asset('assets/images/K2/livingthings/dna/h11.png') }}" class="w-img3" />
@@ -236,7 +236,7 @@
     {{-- Slide 22 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <div class="self-start text-start">
-            <h2 class="title stroke">Let's do: <br>
+            <h2 class="title stroke text-start ">Let's do: <br>
                 6. Attach a strap over the DNA double helix.</h2>
         </div>
         <img src="{{ asset('assets/images/K2/livingthings/dna/h12.png') }}" class="w-img3" />

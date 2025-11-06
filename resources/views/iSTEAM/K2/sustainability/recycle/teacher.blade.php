@@ -74,9 +74,9 @@
                     </span>
                     next to a
                     picture, click on the picture to watch the video
-                    Always ask questions to encourage children to think and share their ideas first
-                    before giving out any information.
                 </li>
+                 <li> Always ask questions to encourage children to think and share their ideas first
+                    before giving out any information.</li>
                 <li class="text-[1.3vw]">Emphasise and use the keywords during hands-on sessions.
                 </li>
                 <li class="text-[1.3vw]">Print out the Learning Journal (if any) for every

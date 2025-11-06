@@ -561,7 +561,7 @@
             <h2 class="text-start">Mission: <br>
                 Draw 5 examples of living things and 5 examples of non-living things.</h2>
             <div class="text-start">
-                <h2>Let's do:</h2>
+                <h2 class="title stroke text-start ">Let's do:</h2>
                 <ul class="list-decimal text-start pl-9">
                     <li>Name 5 examples of living things and 5 examples of non-
                         living things.</li>

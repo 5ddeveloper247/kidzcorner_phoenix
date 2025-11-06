@@ -4,18 +4,16 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col  gap-[1vw] items-center !justify-center">
-        <div class="indexTitle stroke">energy2</div>
+        <div class="indexTitle stroke">Clean Energy 2</div>
         <h2 class="text-2xl sm:text-3xl lg:text-5xl text-white stroke ">
             Explore fingerprints; <br>
             learn to make own set of fingerprints <br>
             for analysis</h2>
 
         {{-- next Button --}}
-        <div class="down-btn-container">
-            <button class="nextButton">
-                <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
-            </button>
-        </div>
+        <button class="nextButton">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
+        </button>
     </div>
 
 

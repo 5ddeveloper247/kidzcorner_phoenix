@@ -111,7 +111,7 @@
             <h2>Steps:</h2>
             <li>4. Use a mouse to play the bongos.</li>
         </ul>
-        <div class="flex items-start ">
+        <div class="flex items-start gap-[1vw]">
             <img src="{{ asset('assets/images/K2/circuit/makey/m18.png') }}" />
             <p class="note w-[130px]">Is it easy to play
                 the bongos and
@@ -129,7 +129,7 @@
             <h2>Steps:</h2>
             <li>5. Use the Makey Makey to play the bongos.</li>
         </ul>
-        <div class="flex items-start ">
+        <div class="flex items-start gap-[1vw] ">
             <p class="note w-[120px] text-end">Is it easier to
                 play the bongos
                 and create music
@@ -168,7 +168,7 @@
             <li>7. Wear the band and use the Makey Makey to play the
                 bongos.</li>
         </ul>
-        <div class="flex items-end ">
+        <div class="flex items-end gap-[1vw]">
             <p class="note w-[120px] text-end">Is it easier to
                 play the bongos
                 and create music
@@ -204,7 +204,7 @@
             <h2>Steps:</h2>
             <li>9. Change the setting and play the bongos.</li>
         </ul>
-        <div class="flex items-start ">
+        <div class="flex items-start gap-[1vw] ">
             <img src="{{ asset('assets/images/K2/circuit/makey/m21.png') }}" />
             <p class="note w-[130px] text-start">Is it easier to
                 play the bongos
@@ -224,7 +224,7 @@
                 Earth. Let 2 children to each hold on to one of the other
                 alligator clip. Tap on the children to play the bongos.</li>
         </ul>
-        <div class="flex items-start ">
+        <div class="flex items-start gap-[1vw]">
             <img src="{{ asset('assets/images/K2/circuit/makey/m22.png') }}" />
             <p class="note w-[130px]">Is it easier to
                 play the bongos
@@ -262,7 +262,7 @@
 
     {{-- slide 19 --}}
     <div class="slide hidden flex flex-col items-center  h-[50vh] justify-around">
-        <div class="flex items-center ">
+        <div class="flex items-center gap-[.5vw] ">
             <img src="{{ asset('assets/images/K2/circuit/makey/m24.png') }}" class="w-img" />
             <video id="video4" class="video1 pointer-events-none">
                 <source src="{{ asset('assets/images/K2/circuit/makey/322.mp4') }}" type="video/mp4">

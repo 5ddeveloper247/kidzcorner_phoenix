@@ -3,36 +3,36 @@
 
 @section('content')
 
-
-
+    {{-- title --}}
+    <h2 class="top-title stroke">Do Bacteria Grow?</h2>
 
     {{-- sldie 1  --}}
     <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
-                <li class="text-[1.2vw]">Observe the results of tests - if disinfectant sprays, hand sanitizers,
+                <li>Observe the results of tests - if disinfectant sprays, hand sanitizers,
                     hand soaps and toothpastes help to kill bacteria</li>
-                <li class="text-[1.2vw]">Learn to make conclusions</li>
-                <li class="text-[1.2vw]">Know that many cleaning products do help to kill some or most of the
+                <li>Learn to make conclusions</li>
+                <li>Know that many cleaning products do help to kill some or most of the
                     bacteria</li>
-                <li class="text-[1.2vw]">Develop understanding through inquiry</li>
+                <li>Develop understanding through inquiry</li>
             </ul>
         </div>
 
         <div class="flex w-[100%] items-center justify-between ">
             <div>
-                <h2 class="text-[33px] font-bold">Keywords:</h2>
-                <div>
+                <h2 class="t-title">Keywords:</h2>
+                <div class="flex gap-[5vw]">
                     <ul class="list-disc ">
-                        <li class="text-[1.2vw]">Living Thing</li>
-                        <li class="text-[1.2vw]">Bacteria</li>
-                        <li class="text-[1.2vw]">Bacterium</li>
+                        <li>Living Thing</li>
+                        <li>Bacteria</li>
+                        <li>Bacterium</li>
                     </ul>
                     <ul class="list-disc">
-                        <li class="text-[1.2vw]">Antibiotics</li>
-                        <li class="text-[1.2vw]">Antiseptics</li>
-                        <li class="text-[1.2vw]">Pathogens</li>
+                        <li>Antibiotics</li>
+                        <li>Antiseptics</li>
+                        <li>Pathogens</li>
                     </ul>
                 </div>
             </div>
@@ -47,19 +47,22 @@
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
-                <li class="text-[1.2vw]">Magnifying glasses (optional)</li>
-                <br> <br>
-                <h2 class="font-bold t-title">Safety precautions:</h2>
-                <li class="text-[1.2vw]">Some bacteria could potentially be pathogenic. Be sure that all the sampled petri
-                    <br>
-                    dishes are sealed properly with tapes so that children can't open them at all </li>
-                <li class="text-[1.2vw]">If you plan to continue observing the growth of bacteria or to display the sampled
-                    <br>
-                    petri dishes for a period of time, seal each dish in a transparent zipper storage <br>
-                    bag and remind children not to take them out during observation sessions.</li>
-                <li class="text-[1.2vw]">Seal all the sampled petri dishes in a big zipper storage bag for safe disposal at
-                    <br>
-                    the end.</li>
+                <li>Magnifying glasses (optional)</li>
+            </ul>
+        </div>
+        <div>
+            <h2 class="t-title">Safety precautions:</h2>
+            <ul class="list-disc">
+                <li>Some bacteria could potentially be pathogenic. Be sure that all the sampled petri
+                    dishes are sealed properly with tapes so that children can't open them at all
+                </li>
+                <li>If you plan to continue observing the growth of bacteria or to display the sampled
+                    petri dishes for a period of time, seal each dish in a transparent zipper storage
+                    bag and remind children not to take them out during observation sessions.
+                </li>
+                <li>Seal all the sampled petri dishes in a big zipper storage bag for safe disposal at
+                    the end.
+                </li>
             </ul>
         </div>
 
@@ -74,20 +77,20 @@
             <div>
                 <h2 class=" t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
-                    <li class="text-[1.2vw] flex">
+                    <li class="flex whitespace-nowrap">
                         If you see
                         <span>
                             <img src="{{ asset('assets/images/pptimages/video.png') }}" />
                         </span>
                         next to a picture, click on the picture to watch the video.
                     </li>
-                    <li class="text-[1.2vw]">Emphasise and use the keywords during hands-on sessions.</li>
-                    <li class="text-[1.2vw]">Print out the Learning Journal (if any) for every child to complete at the end
+                    <li>Emphasise and use the keywords during hands-on sessions.</li>
+                    <li>Print out the Learning Journal (if any) for every child to complete at the end
                         of the lesson.
                     </li>
-                    <li class="text-[1.2vw] flex">
+                    <li class="flex whitespace-nowrap">
                         Click on this shortcut icon
-                       <span>
+                        <span>
                             <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" class="home-btn" />
                         </span>
                         if you need to go to some parts of the lesson quickly.
@@ -101,14 +104,15 @@
     {{-- slide 10  --}}
     <div class="text-white flex flex-col items-center justify-center  text-start t-slide slide hidden">
         <h2 class=" title stroke">Learning Centre Idea</h2>
-        <div class="flex flex-col gap-10">
-            <ul class="list-disc">
-                <h2 class="!text-white title stroke ">Fun Facts</h2>
-                <h2>What and how to set up: <br>Use your creativity to design graphic fact sheet for every fun fact <br>
-                    below. Guide children to understand the facts.</h2>
-                <li class="text-[1.2vw]">Viruses are non-living things. They are about 1000 times smaller <br>
+        <div class="flex flex-col">
+            <h2 class="!text-white title stroke mb-5">Fun Facts</h2>
+            <h2 class="t-title">What and how to set up: </h2>
+            <p>Use your creativity to design graphic fact sheet for every fun fact
+                below. Guide children to understand the facts.</p>
+            <ul class="list-disc pl-9">
+                <li>Viruses are non-living things. They are about 1000 times smaller
                     than bacteria.</li>
-                <li class="text-[1.2vw]">Sweat itself is odourless. It's the bacteria on the skin that <br>
+                <li>Sweat itself is odourless. It's the bacteria on the skin that
                     mingles with it and produces body odour.</li>
             </ul>
         </div>
@@ -116,7 +120,7 @@
     </div>
 
 
-
+    {{-- ============ --}}
     {{-- Buttons --}}
     <div class="down-btn-container">
         <button class="doneButton">
@@ -149,10 +153,6 @@
             <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
         </button>
     </div>
-
-
-
-
 @endsection
 
 

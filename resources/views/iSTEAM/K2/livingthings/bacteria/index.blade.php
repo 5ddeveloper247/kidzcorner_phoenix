@@ -9,12 +9,12 @@
             learn to use scientific method for growing bacteria
             and test if disinfectant sprays
             help to kill bacteria</h2>
+
+            
         {{-- next Button --}}
-        <div class="down-btn-container">
-            <button class="nextButton">
-                <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
-            </button>
-        </div>
+        <button class="nextButton">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
+        </button>
     </div>
 
 

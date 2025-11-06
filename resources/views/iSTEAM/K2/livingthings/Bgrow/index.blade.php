@@ -2,22 +2,20 @@
 @section('title', 'Dynamic Presentation')
 
 
-
-
 @section('content')
 
     <div id="topDiv" class="flex flex-col items-center  ">
         <div class="title stroke">Do Bacteria Grow?</div>
-        <div class="text-white">
+        <h2 class="text-white">
             Observe the results of tests <br>
             and make conclusions <br>
-        </div>
+        </h2>
+
+
         {{-- next Button --}}
-        <div class="down-btn-container">
-            <button class="nextButton">
-                <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
-            </button>
-        </div>
+        <button class="nextButton">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
+        </button>
     </div>
 
 
@@ -40,9 +38,6 @@
             <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
         </button>
     </div>
-
-
-
 @endsection
 
 @push('script')

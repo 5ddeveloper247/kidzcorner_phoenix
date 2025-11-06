@@ -3,7 +3,7 @@
 
 @section('content')
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start text-start">
+    <div class=" slide flex t-slide text-white flex-col justify-start text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -35,7 +35,7 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start text-start">
+    <div class=" slide flex t-slide text-white flex-col justify-start text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
@@ -62,9 +62,9 @@
                     </span>
                     next to a
                     picture, click on the picture to watch the video
-                    Always ask questions to encourage children to think and share their ideas first
-                    before giving out any information.
                 </li>
+                 <li> Always ask questions to encourage children to think and share their ideas first
+                    before giving out any information.</li>
                 <li class="text-[1.3vw]">Emphasise and use the keywords during hands-on sessions.
                 </li>
                 <li class="text-[1.3vw]">Print out the Learning Journal (if any) for every
@@ -84,7 +84,7 @@
     </div>
 
     {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-center text-start">
+    <div class=" slide flex t-slide text-white flex-col items-center justify-center text-start">
         <div>
             <h2 class="title stroke text-center">Learning Centre Idea</h2>
             <h2 class=" t-title">Create A Poster</h2>

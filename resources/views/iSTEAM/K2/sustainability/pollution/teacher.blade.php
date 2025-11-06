@@ -80,7 +80,8 @@
                     Ensure each group has the same amount.</li>
                 <li class="text-[1.3vw]">Please get the following materials required for the activity: activated charcoal
                     <br>
-                    powder, sand, small stones/gravel and bigger stones/pebbles and coffee filter paper.</li>
+                    powder, sand, small stones/gravel and bigger stones/pebbles and coffee filter paper.
+                </li>
                 <li class="text-[1.3vw]">Children may suggest materials such as towel, paper, soap, salt which may not help
                     in filtering <br>
                     but do prepare them and let children choose those materials as well. This helps children to analyze<br>
@@ -219,7 +220,7 @@
                     picture, click on tit foe additional information
                 </li>
                 <li class="text-[1.3vw]"> Always ask questions to encourage children to think and share their ideas first
-                    before giving out any information.s
+                    before giving out any information.
                 </li>
                 <li class="text-[1.3vw]">Emphasise and use the keywords during hands-on sessions.
                 </li>

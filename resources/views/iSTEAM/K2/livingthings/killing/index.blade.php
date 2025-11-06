@@ -6,19 +6,17 @@
 
 @section('content')
 
-    <div id="topDiv" class="flex flex-col items-center gap-[7rem] ">
+    <div id="topDiv" class="flex flex-col items-center  ">
         <div class="title stroke">Do they Kill Bacteria?</div>
-        <div class="text-white">
+        <h2 class="text-white">
             Learn to take sample bacteria from ourselves and
             test if hand sanitizers, hand soaps and toothpastes
             help to kill bacteria
+        </h2>
 
-            <div class="down-btn-container">
-                <button class="nextButton">
-                    <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
-                </button>
-            </div>
-        </div>
+            <button class="nextButton">
+                <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
+            </button>
     </div>
 
 

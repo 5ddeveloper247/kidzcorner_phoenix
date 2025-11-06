@@ -50,7 +50,7 @@
     <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations for Individual Activity - Which fingerprint pattern do you have on
-                each finger? :</h2>
+                each    finger? :</h2>
             <ul class="list-disc ">
                 <li class="text-[1.3vw]">A few magnifying glasses (optional; use in case children cannot
                     determine which pattern is in a fingerprint; guide them on how to use

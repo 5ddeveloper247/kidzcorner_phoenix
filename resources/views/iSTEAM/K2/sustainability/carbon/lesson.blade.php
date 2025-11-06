@@ -123,7 +123,7 @@
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <h2 class="text-white">Class Activity 1 </h2>
         <div class="self-start text-start">
-            <h2 class="title stroke">Let's do:
+            <h2 class="title stroke text-start ">Let's do:
                 Get your daddy or mummy to help you calculate your carbon
                 footprint. Record the result and then share with the class.</h2>
         </div>
@@ -326,7 +326,7 @@
     {{-- Slide 3 --}}
     <div class="slide hidden  flex flex-col items-center">
         <h2 class="text-white">Class Activity 2</h2>
-        <h2 class="title stroke text-center">Let's do:
+        <h2 class="title stroke text-start">Let's do:
 
             Let's learn how to make a kind of plant-based meat and
             taste it.</h2>

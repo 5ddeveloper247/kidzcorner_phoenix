@@ -145,7 +145,7 @@
     {{-- slide 16 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <div class="self-start text-start">
-            <h2 class="title stroke">Let's do: <br>
+            <h2 class="title stroke text-start ">Let's do: <br>
                 Observe each fingerprint to find out which pattern it has.
                 Write down the result of comparison at the side of each
                 fingerprint in the record.</h2>
@@ -239,7 +239,7 @@
     {{-- slde 24 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <div class="self-start text-start">
-            <h2 class="title stroke">Let's do: <br>
+            <h2 class="title stroke text-start ">Let's do: <br>
                 1. Which fingerprint pattern do you have on each finger?
                 Record them in a table.</h2>
         </div>
@@ -251,7 +251,7 @@
     {{-- slde 25 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <div class="self-start text-start">
-            <h2 class="title stroke">Let's do: <br>
+            <h2 class="title stroke text-start ">Let's do: <br>
                 2. Create a graph to show the numbers of fingerprint
                 patterns in the class.</h2>
         </div>
