@@ -37,7 +37,7 @@ body {
 }
 
 .slide {
-    gap: 15px;
+    /* gap: 15px; */
 
     img {
         max-width: 27.5vw;
@@ -194,9 +194,6 @@ h2 span {
     top: -5vw;
 }
 
-/* li {
-    font-size: 2vw;
-} */
 
 video {
     width: 30vw;

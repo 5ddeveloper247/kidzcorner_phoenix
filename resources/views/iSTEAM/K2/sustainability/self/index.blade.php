@@ -4,11 +4,10 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col  gap-[1vw] justify-center items-center ">
-        <div class="indexTitle stroke">Self</div>
+        <div class="indexTitle stroke">Being Self-Sufficient</div>
         <h2 class="text-2xl sm:text-3xl lg:text-5xl text-white stroke ">
-            Explore fingerprints; <br>
-            learn to make own set of fingerprints <br>
-            for analysis</h2>
+            Understand the meaning of self-sufficient; <br>
+            Learn how being self-sufficient helps the environment</h2>
 
         {{-- next Button --}}
         <div class="down-btn-container">

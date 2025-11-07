@@ -19,7 +19,7 @@
         </div>
 
         <div class="flex flex-col  items-start justify-between">
-            <h2 class="t-title font-bold">Keywords:</h2>
+            <h2 class="t-title">Keywords:</h2>
             <div class="flex gap-[5vw]">
                 <ul class="list-disc ">
                     <li class="text-[1.3vw]">Aerodynamics</li>

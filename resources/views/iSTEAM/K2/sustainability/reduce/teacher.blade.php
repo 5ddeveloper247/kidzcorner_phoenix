@@ -2,29 +2,33 @@
 @section('title', 'Dynamic Presentation')
 
 @section('content')
+    {{-- Slide 1 --}}
+    <h2 class="top-title stroke">Reduce & Reuse</h2>
+
+
     {{-- sldie 1  --}}
     <div class=" slide flex t-slide text-white flex-col justify-start text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
-                <li class="text-[1.3vw]">Understand what can be done to help Earth;</li>
-                <li class="text-[1.3vw]">Learn about the different ways to reduce and reuse waste</li>
-                <li class="text-[1.3vw]">Develop awareness of environmental issues</li>
+                <li>Understand what can be done to help Earth;</li>
+                <li>Learn about the different ways to reduce and reuse waste</li>
+                <li>Develop awareness of environmental issues</li>
             </ul>
         </div>
 
-        <div class="flex flex-col  items-start justify-between">
-            <h2 class="t-title font-bold">Keywords:</h2>
+        <div class="flex flex-col  items-start">
+            <h2 class="t-title ">Keywords:</h2>
             <div>
                 <ul class="list-disc ">
-                    <li class="text-[1.3vw]">Pollution</li>
-                    <li class="text-[1.3vw]">Air Pollution</li>
-                    <li class="text-[1.3vw]">Chemicals</li>
-                    <li class="text-[1.3vw]">Plastic</li>
-                    <li class="text-[1.3vw]">Reduce</li>
-                    <li class="text-[1.3vw]">Reuse</li>
-                    <li class="text-[1.3vw]">Recycle</li>
-                    <li class="text-[1.3vw]">disposable</li>
+                    <li>Pollution</li>
+                    <li>Air Pollution</li>
+                    <li>Chemicals</li>
+                    <li>Plastic</li>
+                    <li>Reduce</li>
+                    <li>Reuse</li>
+                    <li>Recycle</li>
+                    <li>disposable</li>
                 </ul>
 
             </div>
@@ -39,11 +43,12 @@
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
-                <li class="text-[1.3vw]">
+                <li>
                     Keep a collection of various recyclable items prior to this lesson.
                     Ensure that the recyclable items are washed, cleaned and dry for the art project.
                 </li>
-                <li class="text-[1.3vw]">You may search online for inspiration on the type of artwork you and your children would like to create.
+                <li>You may search online for inspiration on the type of artwork you and your children
+                    would like to create.
                 </li>
 
             </ul>
@@ -52,25 +57,25 @@
     </div>
 
     {{-- slide 4 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start text-start">
+    <div class=" slide flex t-slide text-white flex-col items-center justify-start text-start">
         <div>
-            <h2 class="font-bold t-title">Notes:</h2>
+            <h2 class=" t-title">Notes:</h2>
             <ul>
-                <li class="text-[1.3vw] flex whitespace-nowrap">If you see 
+                <li class=" flex whitespace-nowrap">If you see
                     <span>
-                        <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s27.png') }}" class="!max-w-[2.5vw]" /> 
+                        <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s27.png') }}" class="!max-w-[2.5vw]" />
                     </span>
                     next to a
                     picture, click on the picture to watch the video
                 </li>
-                 <li> Always ask questions to encourage children to think and share their ideas first
+                <li> Always ask questions to encourage children to think and share their ideas first
                     before giving out any information.</li>
-                <li class="text-[1.3vw]">Emphasise and use the keywords during hands-on sessions.
+                <li>Emphasise and use the keywords during hands-on sessions.
                 </li>
-                <li class="text-[1.3vw]">Print out the Learning Journal (if any) for every
+                <li>Print out the Learning Journal (if any) for every
                     child to complete at the end of the lesson.
                 </li>
-                <li class="text-[1.3vw] flex whitespace-nowrap">Click on this shortcut icon
+                <li class=" flex whitespace-nowrap">Click on this shortcut icon
                     <span>
                         <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s28.png') }}" class="!max-w-[2.5vw]" />
                     </span>
@@ -79,25 +84,28 @@
                     parts of the lesson quickly.
                 </li>
             </ul>
-             <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
+            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
         </div>
     </div>
 
     {{-- sldie 3 --}}
-    <div class=" slide flex t-slide text-white flex-col items-center justify-center text-start">
-        <div>
-            <h2 class="title stroke text-center">Learning Centre Idea</h2>
-            <h2 class=" t-title">Create A Poster</h2>
-            <ul class="list-disc">
-                <li class="text-[1.3vw]">What and how to set up:<br>
-                    Provide art materials and books on reducing waste.<br>
-                    What to do:<br>
-                    1. Encourage children to think of a message they want to tell
-                    others.<br>
-                    2. Prompt children to think of what they see in school e.g. to
-                    reduce wastage of paper, remind friends to draw on both sides.
-                    Or reduce wastage of food, remind friends to ask for smaller portion.</li>
-            </ul>
+    <div class=" slide flex t-slide text-white flex-col items-center justify-center">
+        <h2 class="title stroke text-center">Learning Centre Idea</h2>
+        <div class="text-start">
+            <div>
+                <h2 class="title stroke !text-white">Create A Poster</h2>
+                <h2 class="t-title">What and how to set up:</h2>
+                <p> Provide art materials and books on reducing waste.</p>
+            </div>
+            <div>
+                <h2 class="t-title"> What to do:</h2>
+                <ol class="lesson-ul list-decimal">
+                    <li>Encourage children to think of a message they want to tell others.</li>
+                    <li>Prompt children to think of what they see in school e.g. to reduce wastage of paper, remind friends
+                        to
+                        draw on both sides. Or reduce wastage of food, remind friends to ask for smaller portion.</li>
+                </ol>
+            </div>
         </div>
 
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
@@ -152,54 +160,37 @@
     <script>
         document.addEventListener("DOMContentLoaded", () => {
             const slides = document.querySelectorAll(".slide");
-            const nextButtons = document.querySelectorAll(".nextButton");
-            const returnButton = document.getElementById("returnButton");
-            const doneButton = document.querySelector(".doneButton"); //   DONE button
+            const nextBtn = document.querySelector(".nextButton");
+            const returnBtn = document.getElementById("returnButton");
+            const doneBtn = document.querySelector(".doneButton");
 
-            let currentSlide = 0;
+            let currentIndex = 0;
 
             function showSlide(index) {
-                slides.forEach((slide, i) => {
-                    slide.classList.toggle("hidden", i !== index);
-                });
+                slides.forEach((s, i) => s.classList.toggle("hidden", i !== index));
+                currentIndex = index;
+                const isLast = index === slides.length - 1;
+                if (nextBtn) nextBtn.style.display = isLast ? "none" : "block";
+                if (doneBtn) doneBtn.style.display = isLast ? "block" : "none";
+            }
 
-                //   Agar last slide hai → NEXT button hide, DONE show
-                if (index === slides.length - 1) {
-                    nextButtons.forEach(btn => btn.classList.add("hidden"));
-                    if (doneButton) doneButton.classList.remove("hidden");
+            if (nextBtn) nextBtn.addEventListener("click", () => {
+                if (currentIndex < slides.length - 1) showSlide(currentIndex + 1);
+            });
+
+            if (returnBtn) returnBtn.addEventListener("click", () => {
+                if (currentIndex === 0) {
+                    window.location.href = "{{ route('reduceSelection') }}";
                 } else {
-                    nextButtons.forEach(btn => btn.classList.remove("hidden"));
-                    if (doneButton) doneButton.classList.add("hidden");
-                }
-            }
-
-            //   NEXT buttons listener
-            nextButtons.forEach((btn) => {
-                btn.addEventListener("click", () => {
-                    if (currentSlide < slides.length - 1) {
-                        currentSlide++;
-                        showSlide(currentSlide);
-                    }
-                });
-            });
-
-            //   Return button - redirect if on first slide
-            returnButton.addEventListener("click", () => {
-                if (currentSlide === 0) {
-                    // Redirect to route when on first slide
-                    window.location.href = "{{ route('k2sustainability') }}";
-                } else if (currentSlide > 0) {
-                    currentSlide--;
-                    showSlide(currentSlide);
+                    showSlide(currentIndex - 1);
                 }
             });
 
-            if (doneButton) {
-                doneButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('k2sustainability') }}";
-                });
-            }
-            showSlide(currentSlide);
+            if (doneBtn) doneBtn.addEventListener("click", () => {
+                window.location.href = "{{ route('k2sustainability') }}";
+            });
+
+            showSlide(0);
         });
     </script>
 @endpush

@@ -2,38 +2,41 @@
 @section('title', 'Dynamic Presentation')
 
 @section('content')
+    {{-- title --}}
+    <h2 class="top-title stroke">Let's Recycle</h2>
+
     {{-- sldie 1  --}}
     <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
-                <li class="text-[1.3vw]">Understand the meaning of recycling</li>
-                <li class="text-[1.3vw]">Learn about the process of recycling</li>
-                <li class="text-[1.3vw]">Develop curiosity and understanding of recycling paper through hands</li>
-                <li class="text-[1.3vw]">
+                <li>Understand the meaning of recycling</li>
+                <li>Learn about the process of recycling</li>
+                <li>Develop curiosity and understanding of recycling paper through hands</li>
+                <li>
                     Know that individual fingerprints are unique and no two people have the same fingerprints on activity
                 </li>
-                <li class="text-[1.3vw]">Develop awareness of environmental issues</li>
+                <li>Develop awareness of environmental issues</li>
             </ul>
         </div>
 
         <div class="flex flex-col items-start justify-between">
-            <h2 class="t-title font-bold">Keywords:</h2>
+            <h2 class="t-title ">Keywords:</h2>
             <div class="flex items-start gap-[4vw]">
                 <ul class="list-disc ">
-                    <li class="text-[1.3vw]">Reuse</li>
-                    <li class="text-[1.3vw]">Reduce</li>
-                    <li class="text-[1.3vw]">Recycle</li>
-                    <li class="text-[1.3vw]">Earth</li>
-                    <li class="text-[1.3vw]">Environment</li>
-                    <li class="text-[1.3vw]">Metal</li>
+                    <li>Reuse</li>
+                    <li>Reduce</li>
+                    <li>Recycle</li>
+                    <li>Earth</li>
+                    <li>Environment</li>
+                    <li>Metal</li>
                 </ul>
 
                 <ul class="list-disc ">
-                    <li class="text-[1.3vw]">Plastic</li>
-                    <li class="text-[1.3vw]">Molten</li>
-                    <li class="text-[1.3vw]">Recyclable</li>
-                    <li class="text-[1.3vw]">Pollution</li>
+                    <li>Plastic</li>
+                    <li>Molten</li>
+                    <li>Recyclable</li>
+                    <li>Pollution</li>
                 </ul>
 
             </div>
@@ -46,12 +49,12 @@
     {{-- slide 2 --}}
     <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
         <div>
-            <h2 class=" t-title">Preparations:</h2><br>
+            <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
-                <li class="text-[1.3vw]">Please prepare the materials as stated in the video for the recycle paper activity.
+                <li>Please prepare the materials as stated in the video for the recycle paper activity.
 
                 </li>
-                <li class="text-[1.3vw]">If you do not have blender, you can tear the paper into small pieces of paper and
+                <li>If you do not have blender, you can tear the paper into small pieces of paper and
                     soak it overnight. You
                     will
                     need to tear the paper into smaller pieces and soak for another few hours so that it will be easier to
@@ -63,26 +66,28 @@
         <img src="{{ asset('assets/images/K2/sustain/recycle/s12.png') }}" class="!max-w-[10vw]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
+
+
     {{-- sldie 7 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide t-slide flex text-2xl text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">Notes</h2>
             <ul>
-                <li class="text-[1.3vw] flex whitespace-nowrap">If you see
+                <li class=" flex whitespace-nowrap">If you see
                     <span>
                         <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s27.png') }}" />
                     </span>
                     next to a
                     picture, click on the picture to watch the video
                 </li>
-                 <li> Always ask questions to encourage children to think and share their ideas first
+                <li> Always ask questions to encourage children to think and share their ideas first
                     before giving out any information.</li>
-                <li class="text-[1.3vw]">Emphasise and use the keywords during hands-on sessions.
+                <li>Emphasise and use the keywords during hands-on sessions.
                 </li>
-                <li class="text-[1.3vw]">Print out the Learning Journal (if any) for every
+                <li>Print out the Learning Journal (if any) for every
                     child to complete at the end of the lesson.
                 </li>
-                <li class="text-[1.3vw] flex whitespace-nowrap">Click on this shortcut icon
+                <li class=" flex whitespace-nowrap">Click on this shortcut icon
                     <span>
                         <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s28.png') }}" />
                     </span>
@@ -102,20 +107,24 @@
 
     {{-- sldie 3 --}}
     <div class=" slide t-slide flex  text-white flex-col items-center justify-center  text-start">
+        <h2 class="title stroke  text-center">Learning Centre Idea</h2>
         <div>
-            <h2 class="title stroke text-center">Learning Centre Idea</h2>
-            <h2 class=" t-title">Let's Sort!</h2>
-            <ul class="list-disc">
-                <li class="text-[1.3vw]">What and how to set up:<br>
-                    Print pictures of recyclable materials or put actual materials at
+            <div>
+                <h2 class="title stroke !text-white">Let's Sort!</h2>
+                <h2 class="t-title">What and how to set up:</h2>
+                <p> Print pictures of recyclable materials or put actual materials at
                     the learning corner with five containers with the labels (glass,
-                    metal, paper, plastic and other waste).<br>
+                    metal, paper, plastic and other waste).</p>
+            </div>
 
-                    What to do:<br>
-                    1. Guide children sort them accordingly.<br>
-                    2. You may include items such as a set meal with can drinks with straw
-                    and burger in a box to get children to think how they sort the rubbish properly.</li>
-            </ul>
+            <div>
+                <h2 class="t-title"> What to do:</h2>
+                <ul class="list-decimal">
+                    <li>Guide children sort them accordingly.</li>
+                    <li>You may include items such as a set meal with can drinks with straw
+                        and burger in a box to get children to think how they sort the rubbish properly.</li>
+                </ul>
+            </div>
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
@@ -201,7 +210,7 @@
             returnButton.addEventListener("click", () => {
                 if (currentSlide === 0) {
                     // Redirect to route when on first slide
-                    window.location.href = "{{ route('k2sustainability') }}";
+                    window.location.href = "{{ route('recycleSelection') }}";
                 } else if (currentSlide > 0) {
                     currentSlide--;
                     showSlide(currentSlide);
@@ -210,7 +219,7 @@
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('k2sustainability') }}";
+                    window.location.href = "{{ route('recycleSelection') }}";
                 });
             }
             showSlide(currentSlide);

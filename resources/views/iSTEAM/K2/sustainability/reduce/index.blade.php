@@ -4,7 +4,7 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col  gap-20 items-center !justify-center">
-        <div class="indexTitle  text-[55px]  stroke">reduce</div>
+        <div class="indexTitle  text-[55px]  stroke">Reduce & Ruse</div>
         <h2 class=" text-white stroke ">
             Explore fingerprints; <br>
             learn to make own set of fingerprints <br>

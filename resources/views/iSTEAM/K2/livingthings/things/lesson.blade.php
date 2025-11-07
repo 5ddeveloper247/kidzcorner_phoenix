@@ -244,7 +244,7 @@
     {{-- Slide 8 --}}
     <div class="slide hidden flex flex-col items-center justify-center ">
         <h2 class="text-center justify-start text-[45px] text-white stroke">Class Activity 2</h2>
-        <img src="{{ asset('assets/images/K2/livingthings/things/t7.png') }}" class="large-img6" />
+        <img src="{{ asset('assets/images/K2/livingthings/things/groupt7.png') }}" class="large-img6" />
         <h2 class="title stroke text-start"> <span class="text-white">Let’s find out:</span> <br>
             Which are living things? Which are non living things?</h2>
     </div>
@@ -402,7 +402,7 @@
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <h2 class="title stroke text-start "><span class="text-white">What do you learn:</span> <br>
             Which are living things? Which are non-living things?</h2>
-        <img src="{{ asset('assets/images/K2/livingthings/things/t7.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/things/groupt7.png') }}" />
         <p class="note text-center">Note: Encourage children to answer based on their conclusions.</p>
     </div>
 

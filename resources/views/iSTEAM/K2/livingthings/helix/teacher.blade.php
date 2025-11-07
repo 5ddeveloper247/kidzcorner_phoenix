@@ -21,7 +21,7 @@
         </div>
 
         <div class="flex flex-col  items-start justify-between">
-            <h2 class="t-title font-bold">Keywords:</h2>
+            <h2 class="t-title">Keywords:</h2>
             <div>
                 <ul class="list-disc ">
                     <li>Living Thing</li>

@@ -36,7 +36,7 @@
         <a href="{{ route('k2livingthings') }}"
             style="background-image: url('{{ asset('/assets/images/pptimages/Property1.png') }}');"
             class=" bg-no-repeat bg-contain bg-center w-[16vw] h-[10vw] relative flex justify-center items-center transition hover:brightness-110 ">
-            <img src="/assets/images/K2/k1.png" alt="" class="w-[5vw] absolute top-[0vw] left-[0vw]">
+            <img src="{{ asset('/assets/images/K2/k1.png') }}" alt="" class="w-[5vw] absolute top-[0vw] left-[0vw]">
             <h2 class="!text-[1.5vw] text-[#534444]">
                 Living <br> Things
             </h2>
@@ -45,7 +45,7 @@
         <a href="{{ route('k2sustainability') }}"
             style="background-image: url('{{ asset('/assets/images/pptimages/Property1.png') }}');"
             class=" bg-no-repeat bg-contain bg-center w-[16vw] h-[10vw] relative flex justify-center items-center  transition hover:brightness-110 ">
-            <img src="/assets/images/k2/k2.png" alt="" class="w-[5vw] absolute top-[-1vw] right-0">
+            <img src="{{ asset('/assets/images/K2/k2.png') }}" alt="" class="w-[5vw] absolute top-[-1vw] right-0">
             <h2 class="!text-[1.5vw] text-[#534444]">
                 Sustainability </h2>
         </a>
@@ -53,7 +53,8 @@
         <a href="{{ route('k2Aerodynamics') }}"
             style="background-image: url('{{ asset('/assets/images/pptimages/Property1.png') }}');"
             class=" bg-no-repeat bg-contain bg-center w-[16vw] h-[10vw] relative flex justify-center items-center  transition hover:brightness-110 ">
-            <img src="/assets/images/k2/k3.png" alt="" class="w-[5vw] absolute top-[-1vw] right-[0vw]">
+            <img src="{{ asset('/assets/images/K2/k3.png') }}" alt=""
+                class="w-[5vw] absolute top-[-1vw] right-[0vw]">
             <h2 class="!text-[1.5vw] text-[#534444]">
                 Aerodynamics
             </h2>
@@ -63,7 +64,7 @@
         <a href="{{ route('k2coding') }}"
             style="background-image: url('{{ asset('/assets/images/pptimages/Property1.png') }}');"
             class=" bg-no-repeat bg-contain bg-center w-[16vw] h-[10vw] relative flex justify-center items-center  transition hover:brightness-110 ">
-            <img src="/assets/images/N2/a3.png" alt="" class="w-[4vw] absolute bottom-[0vw] left-0">
+            <img src="{{ asset('/assets/images/N2/a3.png') }}" alt="" class="w-[4vw] absolute bottom-[0vw] left-0">
             <h2 class="!text-[1.5vw] text-[#534444]">
                 Coding and <br> Animation
             </h2>
@@ -73,7 +74,8 @@
         <a href="{{ route('k2ElectronicCircuits') }}"
             style="background-image: url('{{ asset('/assets/images/pptimages/Property1.png') }}');"
             class=" bg-no-repeat bg-contain bg-center w-[16vw] h-[10vw] relative flex justify-center items-center  transition hover:brightness-110 ">
-            <img src="/assets/images/N2/a1.png" alt="" class="w-[5vw] absolute top-[0vw] left-[0vw]">
+            <img src="{{ asset('/assets/images/N2/a1.png') }}" alt=""
+                class="w-[5vw] absolute top-[0vw] left-[0vw]">
             <h2 class="!text-[1.5vw] text-[#534444]">
                 Electronic <br> Circuits
             </h2>
@@ -83,7 +85,7 @@
         <a href="{{ route('k2FinalProject') }}"
             style="background-image: url('{{ asset('/assets/images/pptimages/Property1.png') }}');"
             class=" bg-no-repeat bg-contain bg-center w-[16vw] h-[10vw] relative flex justify-center items-center  transition hover:brightness-110 ">
-            <img src="/assets/images/pptimages/light-bulb1.png" alt=""
+            <img src="{{ asset('/assets/images/pptimages/light-bulb1.png') }}" alt=""
                 class="w-[5vw] absolute top-[0] left-[0vw]">
             <h2 class="!text-[1.5vw] text-[#534444]">
                 Final <br> Project

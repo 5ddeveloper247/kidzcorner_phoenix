@@ -80,21 +80,13 @@
 
     {{-- Slide 5 --}}
     <div class="slide hidden flex flex-col items-center">
-        <div class="flex items-end gap-2 justify-center">
-            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s3.png') }}" class="!w-[15vw]" />
-            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s3.png') }}" class="!w-[15vw]" />
-            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s3.png') }}" class="!w-[15vw]" />
-        </div>
+        <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s3.png') }}"  />
         <h2 class="title stroke text-center">The increase of greenhouse gases causes
             Earth's temperature to rise!</h2>
     </div>
     {{-- Slide 5 --}}
     <div class="slide hidden flex flex-col items-center">
-        <div class="flex items-end gap-2 justify-center">
-            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s3.png') }}" class="!w-[15vw]" />
-            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s3.png') }}" class="!w-[15vw]" />
-            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s3.png') }}" class="!w-[15vw]" />
-        </div>
+        <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s3.png') }}"  />
         <h2 class="title stroke text-center">Carbon dioxide, methane and nitrous oxide are
             known as greenhouse gases.</h2>
     </div>

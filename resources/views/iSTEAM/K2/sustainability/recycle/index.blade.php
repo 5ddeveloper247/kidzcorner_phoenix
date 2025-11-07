@@ -4,11 +4,10 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col  gap-20 items-center !justify-center">
-        <div class="indexTitle  text-[55px]  stroke">recycle</div>
+        <div class="indexTitle  text-[55px]  stroke">Let's Recycle</div>
         <h2 class=" text-white stroke ">
-            Explore fingerprints; <br>
-            learn to make own set of fingerprints <br>
-            for analysis</h2>
+            Understand how recycling helps earth; <br>
+            Learn about the process of recycling paper</h2>
 
         {{-- next Button --}}
         <div class="down-btn-container">

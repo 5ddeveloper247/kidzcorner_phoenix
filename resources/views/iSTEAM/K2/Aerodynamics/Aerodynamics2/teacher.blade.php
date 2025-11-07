@@ -117,7 +117,7 @@
 
 
     {{-- slide 4 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start text-start">
+    <div class=" slide flex t-slide text-white flex-col items-center justify-start text-start">
         <div>
             <h2 class=" t-title">How to build the setup A for Hands-on Session 1:</h2>
             <ul>
@@ -144,7 +144,7 @@
 
 
     {{-- sldie 6 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center justify-start text-start">
+    <div class=" slide flex t-slide text-white flex-col items-center justify-start text-start">
         <div>
             <h2 class=" t-title">How to build the setup A for Hands-on Session 1:</h2>
             <ul>

@@ -4,11 +4,11 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col  gap-20 items-center !justify-center">
-        <div class="indexTitle  text-[55px]  stroke">Carbon Footprint and the Future of Food</div>
+        <div class="indexTitle !text-[2.6vw] stroke">Carbon Footprint and the Future of Food</div>
         <h2 class=" text-white stroke ">
-            Explore fingerprints; <br>
-            learn to make own set of fingerprints <br>
-            for analysis</h2>
+            Understand the meaning of carbon footprint; <br>
+            learn how to protect Earth by reducing our carbon <br>
+            footprint; learn about the future of food</h2>
 
         {{-- next Button --}}
         <div class="down-btn-container">
