@@ -2,24 +2,24 @@
 @section('title', 'Dynamic Presentation')
 
 @section('content')
+    {{-- title --}}
+    <h2 class="top-title stroke">Pollution and its Effects</h2>
 
 
     {{-- Slide 1 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
+    <div class="slide flex flex-col hidden items-center justify-between h-[30vh]  ">
         <div class="title stroke">
             <h2>Children, what do you remember
                 what clean energy is?</h2>
-            <p class="note">Note: Encourage children to share.</p>
         </div>
+        <p class="note">Note: Encourage children to share.</p>
     </div>
 
 
 
     {{-- Slide 2 --}}
     <div class="slide hidden flex flex-col items-center">
-        <div class="flex items-end gap-2 justify-center">
-            <img src="{{ asset('assets/images/K2/sustain/energy2/e13.png') }}" class="large-img6" />
-        </div>
+        <img src="{{ asset('assets/images/K2/sustain/energy2/e13.png') }}" class="w-img3" />
         <h2 class="title stroke">Solar energy, wind power and hydropower are
             three types of clean energy.</h2>
     </div>
@@ -42,7 +42,7 @@
     {{-- Slide 2 --}}
     <div class="slide hidden flex flex-col items-center">
         <div class="flex items-end gap-2 justify-center">
-            <img src="{{ asset('assets/images/K2/sustain/energy2/e13.png') }}" class="large-img6" />
+            <img src="{{ asset('assets/images/K2/sustain/energy2/e13.png') }}" class="w-img3" />
         </div>
         <h2 class="title stroke">Using clean energy will help natural resources to be sustainable
             and protect our Earth from global warming and pollution.</h2>
@@ -57,14 +57,14 @@
 
     {{-- slide 4 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p1.png') }}" class="large-img6" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p1.png') }}" class="w-img3" />
         <h2 class="title stroke text-center">Look at these pictures.
             These are pictures of the different types of pollution.</h2>
         <p class="note">Note: Encourage children to share what they see and guess how will pollution affect us.</p>
     </div>
     {{-- slide 4 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p1.png') }}" class="large-img6" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p1.png') }}" class="w-img3" />
         <h2 class="title stroke text-center"><span class="text-white">Pollution </span>is when gases,<span
                 class="text-white"> chemicals,</span> oil spills and trash are
             introduced into the environment in large amounts that is
@@ -74,7 +74,7 @@
 
     {{-- Slide 5 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p2.png') }}" class="large-img6" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p2.png') }}" class="w-img3" />
         <h2 class="title stroke">As seen previously, greenhouse gases are produced when fuels
             such as wood and coal are burned in factories and vehicles.</h2>
     </div>
@@ -82,14 +82,14 @@
 
     {{-- slide 6 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p2.png') }}" class="large-img6" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p2.png') }}" class="w-img3" />
         <h2 class="title stroke">Harmful smoke and chemicals are also released when such
             fuels are burnt, causing air pollution.</h2>
     </div>
     {{-- Slide 2 --}}
     <div class="slide hidden flex flex-col items-center">
         <div class="flex items-end gap-2 justify-center">
-            <img src="{{ asset('assets/images/K2/sustain/pollution/p3.png') }}" class="large-img6" />
+            <img src="{{ asset('assets/images/K2/sustain/pollution/p3.png') }}" class="w-img3" />
         </div>
         <h2 class="title stroke"> Prolonged exposure to the harmful smoke and <span class="text-white">chemicals</span>leads
             to many health problems, especially for young children.</h2>
@@ -97,7 +97,7 @@
     {{-- Slide 2 --}}
     <div class="slide hidden flex flex-col items-center">
         <div class="flex items-end gap-2 justify-center">
-            <img src="{{ asset('assets/images/K2/sustain/pollution/p3.png') }}" class="large-img6" />
+            <img src="{{ asset('assets/images/K2/sustain/pollution/p3.png') }}" class="w-img3" />
         </div>
         <h2 class="title stroke"> <span class="text-white">Air pollution </span>can cause serious damages to
             lungs, heart and brains.</h2>
@@ -121,7 +121,7 @@
     {{-- Slide 2 --}}
     <div class="slide hidden flex flex-col items-center">
         <div class="flex items-end gap-2 justify-center">
-            <img src="{{ asset('assets/images/K2/sustain/pollution/p5.png') }}" class="large-img6" />
+            <img src="{{ asset('assets/images/K2/sustain/pollution/p5.png') }}" class="w-img3" />
         </div>
         <h2 class="title stroke"> Oil spills are caused by ship accidents or during the process of
             drilling oil rigs to gather oil from the sea bed.</h2>
@@ -129,41 +129,41 @@
     {{-- Slide 2 --}}
     <div class="slide hidden flex flex-col items-center">
         <div class="flex items-end gap-2 justify-center">
-            <img src="{{ asset('assets/images/K2/sustain/pollution/p6.png') }}" class="large-img6" />
+            <img src="{{ asset('assets/images/K2/sustain/pollution/p6.png') }}" class="w-img3" />
         </div>
         <h2 class="title stroke"> Sea creatures and marine birds are often killed by oil spills.</h2>
-        <p class="note">Note: Teacher can <span class="title stroke"> click here </span>to share how oil spills are
+        <p class="note">Note: Teacher can <a class="click-btn1 text-[#F7B94A]"> click here </a>to share how oil spills are
             harmful to the animals.</p>
     </div>
 
     {{-- Slide 2 --}}
-    <div class="slide hidden flex flex-col items-center">
+    <div class="slide hidden flex flex-col click1 items-center">
         <div class="flex items-end gap-2 justify-center">
-            <img src="{{ asset('assets/images/K2/sustain/pollution/p6.png') }}" class="large-img6" />
+            <img src="{{ asset('assets/images/K2/sustain/pollution/p37.png') }}" />
         </div>
         <h2 class="title stroke"> Oil spills are sticky.
             It sticks onto animal fur and the bird feathers.</h2>
     </div>
     {{-- Slide 2 --}}
-    <div class="slide hidden flex flex-col items-center">
+    <div class="slide hidden flex flex-col click1 items-center">
         <div class="flex items-end gap-2 justify-center">
-            <img src="{{ asset('assets/images/K2/sustain/pollution/p6.png') }}" class="large-img6" />
+            <img src="{{ asset('assets/images/K2/sustain/pollution/p37.png') }}" />
         </div>
         <h2 class="title stroke">When the fur or feathers are covered with oil, the animals
             and birds are unable to keep warm.</h2>
     </div>
     {{-- Slide 2 --}}
-    <div class="slide hidden flex flex-col items-center">
+    <div class="slide hidden flex flex-col click1 items-center">
         <div class="flex items-end gap-2 justify-center">
-            <img src="{{ asset('assets/images/K2/sustain/pollution/p6.png') }}" class="large-img6" />
+            <img src="{{ asset('assets/images/K2/sustain/pollution/p37.png') }}" />
         </div>
         <h2 class="title stroke">Animals and birds may die because they are
             unable to keep warm.</h2>
     </div>
     {{-- Slide 2 --}}
-    <div class="slide hidden flex flex-col items-center">
+    <div class="slide hidden flex flex-col click1 items-center">
         <div class="flex items-end gap-2 justify-center">
-            <img src="{{ asset('assets/images/K2/sustain/pollution/p7.png') }}" class="large-img6" />
+            <img src="{{ asset('assets/images/K2/sustain/pollution/p7.png') }}" class="w-img3" />
         </div>
         <h2 class="title stroke">Other animals such as turtles and fishes may mistaken the oil
             spill as food. Some fall sick or die after eating them.</h2>
@@ -171,7 +171,7 @@
     {{-- Slide 2 --}}
     <div class="slide hidden flex flex-col items-center">
         <div class="flex items-end gap-2 justify-center">
-            <img src="{{ asset('assets/images/K2/sustain/pollution/p8.png') }}" class="large-img6" />
+            <img src="{{ asset('assets/images/K2/sustain/pollution/p8.png') }}" class="w-img3" />
         </div>
         <h2 class="title stroke">Besides oil spills, the sea is also polluted with chemical waste
             from inconsiderate factories.</h2>
@@ -179,23 +179,24 @@
     {{-- Slide 2 --}}
     <div class="slide hidden flex flex-col items-center">
         <div class="flex items-end gap-2 justify-center">
-            <img src="{{ asset('assets/images/K2/sustain/pollution/p8.png') }}" class="large-img6" />
+            <img src="{{ asset('assets/images/K2/sustain/pollution/p8.png') }}" class="w-img3" />
         </div>
-        <h2 class="title stroke">When these <span class="text-white"> chemical </span> waste flows into the sea, it poisons
+        <h2 class="title stroke">When these <span class="text-white"> chemical </span> waste flows into the sea, it
+            poisons
             the
             sea creatures and makes the sea water dirty.</h2>
     </div>
     {{-- Slide 2 --}}
     <div class="slide hidden flex flex-col items-center">
         <div class="flex items-end gap-2 justify-center">
-            <img src="{{ asset('assets/images/K2/sustain/pollution/p9.png') }}" class="large-img6" />
+            <img src="{{ asset('assets/images/K2/sustain/pollution/p9.png') }}" class="w-img3" />
         </div>
         <h2 class="title stroke">The sea is also polluted with rubbish.</h2>
     </div>
     {{-- Slide 2 --}}
     <div class="slide hidden flex flex-col items-center">
         <div class="flex items-end gap-2 justify-center">
-            <img src="{{ asset('assets/images/K2/sustain/pollution/p9.png') }}" class="large-img6" />
+            <img src="{{ asset('assets/images/K2/sustain/pollution/p9.png') }}" class="w-img3" />
         </div>
         <h2 class="title stroke">Look at this, what is in the sea? Can the sea be cleaned?</h2>
         <p class="note">Note: Encourage children to share what they see or share their thoughts</p>
@@ -219,7 +220,7 @@
     {{-- Slide 2 --}}
     <div class="slide hidden flex flex-col items-center">
         <div class="flex items-end gap-2 justify-center">
-            <img src="{{ asset('assets/images/K2/sustain/pollution/p10.png') }}" class="large-img6" />
+            <img src="{{ asset('assets/images/K2/sustain/pollution/p10.png') }}" class="w-img3" />
         </div>
         <h2 class="title stroke">Children, do you know what these are?</h2>
         <p class="note">Note: Encourage children to share what they see or share their thoughts.</p>
@@ -227,7 +228,7 @@
     {{-- Slide 2 --}}
     <div class="slide hidden flex flex-col items-center">
         <div class="flex items-end gap-2 justify-center">
-            <img src="{{ asset('assets/images/K2/sustain/pollution/p10.png') }}" class="large-img6" />
+            <img src="{{ asset('assets/images/K2/sustain/pollution/p10.png') }}" class="w-img3" />
         </div>
         <h2 class="title stroke">These are different types of <span class="text-white"> filters!
                 Filters </span> help to remove unwanted substances and only allow
@@ -237,7 +238,7 @@
     {{-- Slide 2 --}}
     <div class="slide hidden flex flex-col items-center">
         <div class="flex items-end gap-2 justify-center">
-            <img src="{{ asset('assets/images/K2/sustain/pollution/p11a.png') }}" class="large-img6" />
+            <img src="{{ asset('assets/images/K2/sustain/pollution/p11a.png') }}" class="w-img3" />
         </div>
         <h2 class="title stroke">This is a sieve. A sieve acts as a filter to remove
             unwanted lumps from the flour.</h2>
@@ -245,7 +246,7 @@
     {{-- Slide 2 --}}
     <div class="slide hidden flex flex-col items-center">
         <div class="flex items-end gap-2 justify-center">
-            <img src="{{ asset('assets/images/K2/sustain/pollution/p11a.png') }}" class="large-img6" />
+            <img src="{{ asset('assets/images/K2/sustain/pollution/p11a.png') }}" class="w-img3" />
         </div>
         <h2 class="title stroke">The smooth flour will pass through the sieve
             and be used in baking.</h2>
@@ -253,7 +254,7 @@
     {{-- Slide 2 --}}
     <div class="slide hidden flex flex-col items-center">
         <div class="flex items-end gap-2 justify-center">
-            <img src="{{ asset('assets/images/K2/sustain/pollution/p11.png') }}" class="large-img6" />
+            <img src="{{ asset('assets/images/K2/sustain/pollution/p11.png') }}" class="w-img3" />
         </div>
         <h2 class="title stroke">This is a coffee <span class="text-white"> filter </span>paper.
             The <span class="text-white"> filter </span> helps to trap coffee grounds on the paper.</h2>
@@ -261,7 +262,7 @@
     {{-- Slide 2 --}}
     <div class="slide hidden flex flex-col items-center">
         <div class="flex items-end gap-2 justify-center">
-            <img src="{{ asset('assets/images/K2/sustain/pollution/p11.png') }}" class="large-img6" />
+            <img src="{{ asset('assets/images/K2/sustain/pollution/p11.png') }}" class="w-img3" />
         </div>
         <h2 class="title stroke"> Only liquid coffee will be able to flow through
             the coffee filter paper.</h2>
@@ -269,7 +270,7 @@
     {{-- Slide 2 --}}
     <div class="slide hidden flex flex-col items-center">
         <div class="flex items-end gap-2 justify-center">
-            <img src="{{ asset('assets/images/K2/sustain/pollution/p12.png') }}" class="large-img6" />
+            <img src="{{ asset('assets/images/K2/sustain/pollution/p12.png') }}" class="w-img3" />
         </div>
         <h2 class="title stroke">This is a water filter for tap water. This filter helps remove
             impurities from the tap water as it flows out of the tap.</h2>
@@ -280,9 +281,9 @@
     </div>
     {{-- Slide 2 --}}
     <div class="slide hidden flex flex-col items-center">
-        <h2 class="text-white">Class Activity 1 </h2> 
+        <h2 class="text-white">Class Activity 1 </h2>
         <div class="flex items-end gap-2 justify-center">
-            <img src="{{ asset('assets/images/K2/sustain/pollution/p13.png') }}" class="large-img6" />
+            <img src="{{ asset('assets/images/K2/sustain/pollution/p13.png') }}" class="w-img3" />
         </div>
         <h2 class="title stroke">Let's find out:
             How can we clean dirty water? Which filter materials are
@@ -315,7 +316,7 @@
     </div>
     {{-- Slide 2 --}}
     <div class="slide hidden flex flex-col items-center">
-        <h2 class="text-white">Class Activity 1 </h2> 
+        <h2 class="text-white">Class Activity 1 </h2>
         <div class="flex items-end gap-2 justify-center">
             <img src="{{ asset('assets/images/K2/sustain/pollution/p15.png') }}" />
         </div>
@@ -332,12 +333,13 @@
             top?
             8. Fill up the bottles with the filter materials layer by layer
             as planned.</h2>
-        <p class="note">Note: Engage children in thinking by asking them these questions. Teacher can guide children in
+        <p class="note">Note: Engage children in thinking by asking them these <a
+                class="click-btn2 text-[#F7B94A]">questions</a>. Teacher can guide children in
             scooping
             the filter materials and placing them in the bottles. Ensure that children do not mix them materials.</p>
     </div>
     {{-- Slide 2 --}}
-    <div class="slide hidden flex flex-col items-center">
+    <div class="slide hidden flex click2 flex-col items-center">
         <h2 class="title stroke">Guiding Questions:
             . Do you think this material will help to remove the dirt?
             . What should be done to remove the bigger pieces of
@@ -525,7 +527,7 @@
     {{-- Slide 2 --}}
     <div class="slide hidden flex flex-col items-center">
         <div class="flex items-end gap-2 justify-center">
-            <img src="{{ asset('assets/images/K2/sustain/pollution/p22.png') }}" class="large-img6" />
+            <img src="{{ asset('assets/images/K2/sustain/pollution/p22.png') }}" class="w-img3" />
         </div>
         <h2 class="title stroke">Wood and cotton are examples
             of biodegradable materials.</h2>
@@ -533,7 +535,7 @@
     {{-- Slide 2 --}}
     <div class="slide hidden flex flex-col items-center">
         <div class="flex items-end gap-2 justify-center">
-            <img src="{{ asset('assets/images/K2/sustain/pollution/p23.png') }}" class="large-img6" />
+            <img src="{{ asset('assets/images/K2/sustain/pollution/p23.png') }}" class="w-img3" />
         </div>
         <h2 class="title stroke">Furniture and papers products such as newspaper and
             books are made from wood.</h2>
@@ -541,7 +543,7 @@
     {{-- Slide 2 --}}
     <div class="slide hidden flex flex-col items-center">
         <div class="flex items-end gap-2 justify-center">
-            <img src="{{ asset('assets/images/K2/sustain/pollution/p24.png') }}" class="large-img6" />
+            <img src="{{ asset('assets/images/K2/sustain/pollution/p24.png') }}" class="w-img3" />
         </div>
         <h2 class="title stroke">Clothes, bed sheets and bags can be made from biodegradable
             materials such as cotton.</h2>
@@ -675,7 +677,7 @@
     {{-- Slide 2 --}}
     <div class="slide hidden flex flex-col items-center">
         <div class="flex items-end gap-2 justify-center">
-            <img src="{{ asset('assets/images/K2/sustain/pollution/p1.png') }}" class="large-img6" />
+            <img src="{{ asset('assets/images/K2/sustain/pollution/p1.png') }}" class="w-img3" />
         </div>
         <h2 class="title stroke">Pollution is harmful.
             It harms the animals, the environment and us.</h2>
@@ -846,41 +848,41 @@
                 );
             }
 
-           // Return button
-returnButton.addEventListener("click", () => {
-    
+            // Return button
+            returnButton.addEventListener("click", () => {
 
-    if (isViewingInfoSlides && currentSlide > 0) {
-        // Check if previous slide is also same info/click class
-        let prevSlide = currentSlide - 1;
 
-        // Find previous slide with same info/click class
-        while (prevSlide >= 0 && !slides[prevSlide].classList.contains(currentInfoClass)) {
-            prevSlide--;
-        }
+                if (isViewingInfoSlides && currentSlide > 0) {
+                    // Check if previous slide is also same info/click class
+                    let prevSlide = currentSlide - 1;
 
-        if (prevSlide >= 0 && slides[prevSlide].classList.contains(currentInfoClass)) {
-            currentSlide = prevSlide;
-            showSlide(currentSlide);
-        } else {
-            // No more info/click slides, return to parent
-            currentSlide = parentSlideIndex;
-            isViewingInfoSlides = false;
-            currentInfoClass = null;
-            parentSlideIndex = null;
-            showSlide(currentSlide);
-        }
-    } else if (currentSlide > 0) {
-        currentSlide--;
+                    // Find previous slide with same info/click class
+                    while (prevSlide >= 0 && !slides[prevSlide].classList.contains(currentInfoClass)) {
+                        prevSlide--;
+                    }
 
-        // Skip info/click slides when going back
-        while (currentSlide > 0 && isInfoSlide(slides[currentSlide])) {
-            currentSlide--;
-        }
+                    if (prevSlide >= 0 && slides[prevSlide].classList.contains(currentInfoClass)) {
+                        currentSlide = prevSlide;
+                        showSlide(currentSlide);
+                    } else {
+                        // No more info/click slides, return to parent
+                        currentSlide = parentSlideIndex;
+                        isViewingInfoSlides = false;
+                        currentInfoClass = null;
+                        parentSlideIndex = null;
+                        showSlide(currentSlide);
+                    }
+                } else if (currentSlide > 0) {
+                    currentSlide--;
 
-        showSlide(currentSlide);
-    }
-});;
+                    // Skip info/click slides when going back
+                    while (currentSlide > 0 && isInfoSlide(slides[currentSlide])) {
+                        currentSlide--;
+                    }
+
+                    showSlide(currentSlide);
+                }
+            });;
 
             // DONE button handler
             if (doneButton) {

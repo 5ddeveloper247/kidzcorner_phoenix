@@ -19,7 +19,7 @@
         </div>
 
         <div class="flex flex-col items-start justify-between">
-            <h2 class="t-title font-bold">Keywords:</h2>
+            <h2 class="t-title ">Keywords:</h2>
             <ol class="list-decimal">
                 <li>Clean Energy</li>
                 <li>Solar Energy</li>
@@ -44,7 +44,7 @@
                 wind or find a source for wind (e.g. they can blow at it or use a hair dryer).</li>
         </ol>
 
-        <h2 class="font-bold t-title">Preparations class activity 2</h2>
+        <h2 class=" t-title">Preparations class activity 2</h2>
         <ol class="list-decimal">
             <li>Collect recyclable materials to create a waterfall.</li>
             <li>You may get children to observe how the turbine works under running taps so that they
@@ -56,7 +56,7 @@
 
     {{-- slide 3 --}}
     <div class="slide t-slide flex text-white flex-col items-center justify-center text-start">
-        <h2 class="font-bold t-title">Useful information:</h2>
+        <h2 class=" t-title">Useful information:</h2>
         <p class="note">A windmill generates mechanical energy from wind power, while a wind turbine generates electricity
             from wind power. Windmills have been around for centuries. They have developed throughout the years to keep up
             with new technology, but overall, they maintain the same principle: converting wind into mechanical energy.</p>
@@ -66,9 +66,9 @@
 
     {{-- slide 4 --}}
     <div class="slide t-slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
-        <h2 class="font-bold t-title">Notes:</h2>
+        <h2 class=" t-title">Notes:</h2>
         <ol class="list-decimal">
-            <li class=" flex items-center">
+            <li class=" flex items-center whitespace-nowrap">
                 If you see
                 <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s27.png') }}" class="!max-w-[2.5vw] mx-2" />
                 next to a picture, click on the picture to watch the video.
@@ -78,7 +78,7 @@
             <li>Emphasise and use the keywords during hands-on sessions.</li>
             <li>Print out the Learning Journal (if any) for every child to complete at the end of the
                 lesson.</li>
-            <li class=" flex items-center">
+            <li class=" flex items-center whitespace-nowrap">
                 Click on this shortcut icon
                 <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s28.png') }}" class="!max-w-[2.5vw] mx-2" />
                 if you need to go to some parts of the lesson quickly.
@@ -91,15 +91,20 @@
     {{-- slide 5 --}}
     <div class="slide t-slide flex text-2xl text-white flex-col items-center justify-center gap-y-10 text-start">
         <h2 class="title stroke justify-center">Learning Centre Idea</h2>
-        <h2 class="font-bold t-title">Create A Windmill</h2>
-        <p class="note">What and how to set up: Place art materials for children to use to create their own windmills.
-            Print out different examples of windmills and encourage children to make.</p>
-        <p class="note">What to do:
-        <ol class="list-decimal">
-            <li>Guide children to make the windmills.</li>
-            <li>Get children to compare if different shape/materials of the windmills move at different speed.</li>
-        </ol>
-        </p>
+        <div class="text-start">
+
+            <h2 class=" t-title">Create A Windmill</h2>
+            <p class="note">What and how to set up: Place art materials for children to use to create their own windmills.
+                Print out different examples of windmills and encourage children to make.</p>
+        </div>
+        <div class="text-start">
+
+            <h2 class="t-title">What to do:</h2>
+            <ol class="list-decimal">
+                <li>Guide children to make the windmills.</li>
+                <li>Get children to compare if different shape/materials of the windmills move at different speed.</li>
+            </ol>
+        </div>
 
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>

@@ -7,7 +7,7 @@
 
 @section('content')
     <div class=" flex items-center flex-col justify-center text-center z-[999]  max-w-[1000px]  m-auto">
-        <h2 class="text-[50px] text-[#F7B94A]"> What is Pollution?</h2>
+        <h2 class="text-[50px] text-[#F7B94A]"> Pollution and its Effects</h2>
         <div class="flex items-center justify-between gap-[10vw]">
             {{-- Lesson Button --}}
             <a href="{{ route('pollutionLesson') }}" id="Lesson" class="flex flex-col gap-0">

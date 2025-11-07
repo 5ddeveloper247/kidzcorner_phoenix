@@ -4,7 +4,7 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col gap-[1.3vw] items-center !justify-center">
-        <div class="indexTitle stroke">pollution</div>
+        <div class="indexTitle stroke">Pollution and its Effect</div>
         <h2 class="text-2xl sm:text-3xl lg:text-5xl text-white stroke ">
             Explore fingerprints; <br>
             learn to make own set of fingerprints <br>
