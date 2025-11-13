@@ -121,7 +121,7 @@
     {{-- slide 8 --}}
     <div class="flex flex-col items-center justify-center space-y-20 slide hidden">
         <div class="title stroke text-start px-4">
-            <h2 class="!text-white pl-[2vw]">Let's do:</h2>
+            <h2 class="!text-white pl-[1vw]">Let's do:</h2>
             <ol class=" lesson-ul list-decimal">
                 <li>Place white paper on the floor in the outdoors.</li>
                 <li>Take a bottle of water and hold it in the sun.</li>
@@ -135,7 +135,7 @@
     {{-- slide 9 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <div class="title stroke text-start">
-            <h2 class="!text-white pl-[2vw]">Let's do:</h2>
+            <h2 class="!text-white pl-[1vw]">Let's do:</h2>
             <ol class=" lesson-ul list-decimal" start="4">
                 <li> Adjust the bottle in different angles until you can see a rainbow on thr ground</li>
             </ol>
@@ -157,7 +157,7 @@
     {{-- slide 11 --}}
     <div class="flex flex-col items-center justify-center space-y-10 slide hidden">
         <div class="title stroke text-start px-4">
-            <h2 class="!text-white pl-[2vw]">Let's do:</h2>
+            <h2 class="!text-white pl-[1vw]">Let's do:</h2>
             <ol class=" lesson-ul list-decimal">
                 <li>Fill half the container with water and place a mirror in it.</li>
                 <li>Make sure that the mirror is placed slanted such that only half of the mirror is submerged in the water.
@@ -172,7 +172,7 @@
     {{-- slide 12 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <div class="title stroke text-start">
-            <h2 class="!text-white pl-[2vw]">Let's do:</h2>
+            <h2 class="!text-white pl-[1vw]">Let's do:</h2>
             <ol class=" lesson-ul list-decimal" start="4">
                 <li>Move the flashlight and explore how a rainbow can be reformed</li>
             </ol>
@@ -216,7 +216,7 @@
     {{-- slide 17 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <div class="title stroke text-start">
-            <h2 class="!text-white pl-[2vw]">Let's do (Outdoors):</h2>
+            <h2 class="!text-white pl-[1vw]">Let's do (Outdoors):</h2>
             <ol class=" lesson-ul list-decimal">
                 <li>Observe the 'rainbows' formed using disc in the outdoors during sunny days.</li>
             </ol>
@@ -227,7 +227,7 @@
     {{-- slide 18 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <div class="title stroke text-start">
-            <h2 class="!text-white pl-[2vw]">Let's do (Indoors):</h2>
+            <h2 class="!text-white pl-[1vw]">Let's do (Indoors):</h2>
             <ol class=" lesson-ul list-decimal">
                 <li>Shine the flashlight on the disc.</li>
                 <li>Observe the 'rainbows' formed on the walls as light is being reflected on the back of the disc.</li>
@@ -241,7 +241,7 @@
     {{-- slide 19 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <div class="title stroke text-start">
-            <h2 class="!text-white pl-[2vw]">Let's do (Indoors):</h2>
+            <h2 class="!text-white pl-[1vw]">Let's do (Indoors):</h2>
             <ol class=" lesson-ul list-decimal" start="3">
                 <li>Change the angle of the flashlights or disc and observe how the shape of the 'rainbow' changes.</li>
             </ol>
@@ -277,7 +277,7 @@
 
     {{-- slide 22 --}}
     <div class="flex flex-col items-center justify-center px-4 text-start slide hidden">
-        <img src="{{ asset('assets/images/pptimages/rainbow2.png') }}" class="h-img" alt="Complete rainbow" />
+        <img src="{{ asset('assets/images/pptimages/rainbow2.png') }}" class="img-h-md" alt="Complete rainbow" />
         <h2 class="title stroke">The seven <span class="!text-white">colours</span> form a rainbow!</h2>
     </div>
 

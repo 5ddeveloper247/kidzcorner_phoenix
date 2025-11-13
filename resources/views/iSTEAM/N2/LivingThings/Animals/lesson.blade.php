@@ -294,7 +294,7 @@
 
     {{-- slide 22 --}}
     <div class="flex flex-col  slide hidden items-center">
-        <div class="title stroke text-start">
+        <div class="flex- flex-col items-center title stroke text-start">
             <h2>What do you learn?</h2>
             <ul>
                 <li>How are living things and non-living things different?</li>
@@ -390,7 +390,7 @@
 
     {{-- slide 27 --}}
     <div class="flex flex-col items-center slide hidden justify-between h-[50vh]">
-        <div class="title stroke text-start">
+        <div class="flex- flex-col items-center title stroke text-start">
             <h2 class="title stroke text-start ">Let's do:</h2>
             <img src="{{ asset('assets/images/N2/LivingThings/g4.png') }}" class="img-xl" />
 
@@ -401,7 +401,7 @@
 
     {{-- slde 28 --}}
     <div class="flex flex-col  slide hidden items-center justify-between h-[50vh] ">
-        <div class="title stroke text-start">
+        <div class="flex- flex-col items-center title stroke text-start">
             <h2 class="title stroke text-start ">Let's do:</h2>
             <img src="{{ asset('assets/images/N2/LivingThings/g5.png') }}" class="img-xl" />
 
@@ -431,7 +431,7 @@
     </div>
     {{-- fish information slides  --}}
     {{-- slide1 --}}
-    <div class="flex flex-col info-slide7  slide hidden">
+    <div class="flex flex-col info-slide7 items-center  slide hidden">
         <video id="video6" class=" pointer-events-none">
             <source src="{{ asset('assets/images/N2/LivingThings/videos/8.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
@@ -447,7 +447,7 @@
 
 
     {{-- slide 2 --}}
-    <div class="flex flex-col info-slide7  slide hidden">
+    <div class="flex flex-col info-slide7 items-center  slide hidden">
         <img src="{{ asset('assets/images/N2/LivingThings/an19.png') }}" class="img-lg" />
         <h2 class="stroke title">Fish breathe through gills on both sides of their head.</h2>
     </div>
@@ -455,7 +455,7 @@
     {{-- end --}}
     {{-- slide 30  --}}
     <div class="flex flex-col  slide hidden items-center justify-between gap-20">
-        <div class="title stroke text-center">
+        <div class="flex flex-col items-center title stroke text-center">
             <h2 class="title stroke text-start ">Let's do:</h2>
 
             <img src="{{ asset('assets/images/N2/LivingThings/g7.png') }}" class="img-xl" />
@@ -467,7 +467,7 @@
 
     {{-- slide 31 --}}
     <div class="flex flex-col  slide hidden items-center justify-between gap-20">
-        <div class="title stroke text-center">
+        <div class="flex flex-col items-center title stroke text-center">
             <h2 class="title stroke text-start ">Let's do:</h2>
             <img src="{{ asset('assets/images/N2/LivingThings/g6.png') }}" class="img-xl" />
         </div>
@@ -479,13 +479,13 @@
     {{-- slide 32 --}}
 
     <div class="flex flex-col  slide hidden items-center">
-        <div class="title stroke text-start">
+        <div class="flex- flex-col items-center title stroke text-start">
             <h2>What do you learn?</h2>
             <ul>
                 <li>Which are living things? Which are non-living things?</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/N2/LivingThings/g1.png') }}" />
+        <img src="{{ asset('assets/images/N2/LivingThings/g1.png') }}" class="img-lg" />
         <p class="note">Note: Encourage children to answer based on their conclusions.</p>
 
     </div>
@@ -496,7 +496,7 @@
     <div class="flex flex-col  slide hidden items-center">
         <h2 class="title stroke">Through the activities, we know that a person,
             a dog and a fish are living things.</h2>
-        <img src="{{ asset('assets/images/N2/LivingThings/g9.png') }}" />
+        <img src="{{ asset('assets/images/N2/LivingThings/g9.png') }}" class="img-lg" />
 
     </div>
 
@@ -505,7 +505,7 @@
     <div class="flex flex-col  slide hidden items-center">
         <h2 class="title stroke">People, dogs and fishes belong to the same group
             of living things. Do you know what is the name of this group?</h2>
-        <img src="{{ asset('assets/images/N2/LivingThings/g9.png') }}" />
+        <img src="{{ asset('assets/images/N2/LivingThings/g9.png') }}" class="img-lg" />
 
     </div>
 
@@ -513,12 +513,12 @@
     {{-- slide 35 --}}
     <div class="flex flex-col  slide hidden items-center">
         <h2 class="title stroke">Yes, all these are animals!</h2>
-        <img src="{{ asset('assets/images/N2/LivingThings/g10.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/N2/LivingThings/g10.png') }}" class="img-lg" />
     </div>
 
     {{-- slide 36 --}}
     <div class="flex items-center  slide hidden">
-        <div class="title stroke text-start">
+        <div class="title stroke text-start !max-w-[33vw]">
             <h2>All <span class="!text-white">animals</span>....</h2>
             <ul class="!text-white">
                 <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}"
@@ -545,7 +545,7 @@
             <h2>So <span class="!text-white">animals</span> are <span class="!text-white">living things</span></h2>
 
         </div>
-        <img src="{{ asset('assets/images/N2/LivingThings/g11.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/N2/LivingThings/g11.png') }}" class="img-sm" />
     </div>
 
     {{-- slide 37 --}}

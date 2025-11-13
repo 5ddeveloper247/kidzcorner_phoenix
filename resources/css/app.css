@@ -41,7 +41,7 @@ button {
     z-index: 100;
     color: #f7b94a;
     line-height: 100%;
-    width: 55vw;
+    /* width: 55vw; */
 }
 
 .note {
@@ -336,7 +336,10 @@ span img {
     .title span,
     .slide h2 {
         font-size: 2.3vw !important;
-        max-width: 56vw !important;
+        /* max-width: 56vw !important; */
+    }
+    .title, .slide h2{
+        padding-inline: 2vw ;
     }
 
     .note {
