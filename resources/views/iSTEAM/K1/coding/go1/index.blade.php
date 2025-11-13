@@ -5,8 +5,8 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col  items-center ">
-        <div class="  text-[#F7B94A] text-[50px] font-extrabold stroke">Go! Go! Go! (1)</div>
-        <h2 class=" text-white stroke ">
+        <div class="  text-[#F7B94A] text-[50px] stroke">Go! Go! Go! (1)</div>
+        <h2 class=" !text-white stroke ">
             Learn about the unit of measurement used in
             Blockly; learn how to programme a robot to move a certain disctance</h2>
 

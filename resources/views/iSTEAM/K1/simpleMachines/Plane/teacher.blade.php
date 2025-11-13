@@ -6,7 +6,7 @@
     <h2 class="top-title stroke">The Power of an Inclined Plane</h2>
 
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start t-slide">
+    <div class=" slide flex text-2xl !text-white flex-col justify-start  text-start t-slide">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -33,7 +33,7 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start t-slide">
+    <div class=" slide flex text-2xl !text-white flex-col justify-start  text-start t-slide">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <div class="flex   justify-between">
@@ -55,7 +55,7 @@
     </div>
 
     {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start t-slide">
+    <div class=" slide flex text-2xl !text-white flex-col justify-start  text-start t-slide">
 
         <div>
             <h2 class=" t-title">how to do the experiment and things to consider:</h2>
@@ -74,7 +74,7 @@
 
 
     {{-- sldie 4 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start t-slide">
+    <div class=" slide flex text-2xl !text-white flex-col justify-start  text-start t-slide">
 
         <div>
             <h2 class=" t-title">how to do the experiment and things to consider:</h2>
@@ -101,7 +101,7 @@
 
 
     {{-- sldie 5 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start t-slide">
+    <div class=" slide flex text-2xl !text-white flex-col justify-start  text-start t-slide">
 
         <div>
             <h2 class=" t-title">how to do the experiment and things to consider:</h2>
@@ -120,7 +120,7 @@
 
 
     {{-- sldie 6 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start t-slide">
+    <div class=" slide flex text-2xl !text-white flex-col justify-start  text-start t-slide">
         <div>
             <h2 class=" t-title">To carry out this experiment successfully, you may consider:</h2>
             <div class="flex   justify-between">
@@ -145,7 +145,7 @@
 
 
     {{-- slide 7 --}}
-    <div class="slide flex t-slide  flex-col  text-2xl text-start text-white">
+    <div class="slide flex t-slide  flex-col  text-2xl text-start !text-white">
         <div>
             <h2 class="t-title">Notes:</h2>
             <ul class="list-disc">
@@ -183,7 +183,7 @@
 
 
     {{-- slide 8 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start t-slide">
+    <div class=" slide flex text-2xl !text-white flex-col justify-start  text-start t-slide">
         <div>
             <h2 class=" t-title title stroke !text-center">Which height of the inclined plane do you think <br>
                 will make the car go the longest distance?</h2>
@@ -201,7 +201,7 @@
 
 
     {{-- slide 9 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start t-slide">
+    <div class=" slide flex text-2xl !text-white flex-col justify-start  text-start t-slide">
         <h2 class=" title stroke !text-cneter">Learning Centre Idea</h2>
         <div class="space-y-10">
             <div>

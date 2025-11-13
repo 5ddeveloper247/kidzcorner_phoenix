@@ -7,14 +7,14 @@
 
 
     {{-- sldie 1  --}}
-    <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
+    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
         <div>
             <h2 class="t-title ">Children will be able to:</h2>
             <ul class="list-disc ">
-                <li class="text-[1.3vw]">Recall the use of aerodynamics in aeroplanes and other vehicles</li>
-                <li class="text-[1.3vw]">Learn how rockets and space shuttles use aerodynamics to help them move</li>
-                <li class="text-[1.3vw]">Design and build a flying machine</li>
-                <li class="text-[1.3vw]">Develop understanding through inquiry and experiment</li>
+                <li >Recall the use of aerodynamics in aeroplanes and other vehicles</li>
+                <li >Learn how rockets and space shuttles use aerodynamics to help them move</li>
+                <li >Design and build a flying machine</li>
+                <li >Develop understanding through inquiry and experiment</li>
             </ul>
         </div>
 
@@ -22,19 +22,19 @@
             <h2 class="t-title">Keywords:</h2>
             <div class="flex gap-[5vw]">
                 <ul class="list-disc ">
-                    <li class="text-[1.3vw]">Aerodynamics</li>
-                    <li class="text-[1.3vw]">Aerodynamic Forces</li>
-                    <li class="text-[1.3vw]">Weight</li>
-                    <li class="text-[1.3vw]">Lift</li>
-                    <li class="text-[1.3vw]">Thrust</li>
-                    <li class="text-[1.3vw]">Drag</li>
+                    <li >Aerodynamics</li>
+                    <li >Aerodynamic Forces</li>
+                    <li >Weight</li>
+                    <li >Lift</li>
+                    <li >Thrust</li>
+                    <li >Drag</li>
                 </ul>
                 <ul class="list-disc ">
-                    <li class="text-[1.3vw]">Aerofoil</li>
-                    <li class="text-[1.3vw]">Front Wings</li>
-                    <li class="text-[1.3vw]">Downforce</li>
-                    <li class="text-[1.3vw]">Rocket</li>
-                    <li class="text-[1.3vw]">Space Shuttle</li>
+                    <li >Aerofoil</li>
+                    <li >Front Wings</li>
+                    <li >Downforce</li>
+                    <li >Rocket</li>
+                    <li >Space Shuttle</li>
                 </ul>
 
             </div>
@@ -45,30 +45,30 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex t-slide text-white flex-col justify-start text-start">
+    <div class=" slide flex t-slide !text-white flex-col justify-start text-start">
         <div class="t-title">
             <ul class="list-disc ">
                 <h2 class=" t-title">Preparations:</h2>
                 <h2>Final Project</h2>
-                <li class="text-[1.3vw]">Materials you can prepare (this is not an exhaustive list):</li>
+                <li >Materials you can prepare (this is not an exhaustive list):</li>
             </ul>
             <div class="flex gap-[3vw] items-center">
                 <ul class="list-disc">
-                    <li class="text-[1.3vw]">Cardboard</li>
-                    <li class="text-[1.3vw]">Empty plastic bottles</li>
-                    <li class="text-[1.3vw]">Glue gun</li>
-                    <li class="text-[1.3vw]">Newspapers</li>
-                    <li class="text-[1.3vw]">Tape</li>
+                    <li >Cardboard</li>
+                    <li >Empty plastic bottles</li>
+                    <li >Glue gun</li>
+                    <li >Newspapers</li>
+                    <li >Tape</li>
                 </ul>
                 <ul class="list-disc">
-                    <li class="text-[1.3vw]">Scissors</li>
-                    <li class="text-[1.3vw]">Tongue depressors</li>
-                    <li class="text-[1.3vw]">Rubber bands</li>
-                    <li class="text-[1.3vw]">Straws</li>
+                    <li >Scissors</li>
+                    <li >Tongue depressors</li>
+                    <li >Rubber bands</li>
+                    <li >Straws</li>
                 </ul>
             </div>
             <ul class="list-disc ">
-                <li class="text-[1.3vw]">Use recycled materials as much as possible for the making of the flying machines.
+                <li >Use recycled materials as much as possible for the making of the flying machines.
                 </li>
             </ul>
         </div>
@@ -76,13 +76,13 @@
             <div class="flex gap-[3vw] items-center">
                 <ul class="list-disc text-[#F7B94A]">
                     <h2>Some reference for ideas:</h2>
-                    <li class="text-[1.3vw]"><a href="https://viewsfromastepstool.com/flying-machine-stem-challenge/"
+                    <li ><a href="https://viewsfromastepstool.com/flying-machine-stem-challenge/"
                             target="_blank">https://viewsfromastepstool.com/flying-machine-stem-challenge/</a></li>
-                    <li class="text-[1.3vw]"><a href="https://www.youtube.com/watch?y=jo_M4vDqaAw"
+                    <li ><a href="https://www.youtube.com/watch?y=jo_M4vDqaAw"
                             target="_blank">https://www.youtube.com/watch?y=jo_M4vDqaAw</a></li>
-                    <li class="text-[1.3vw]"><a href="https://www.instructables.com/Squeeze-Bottle-Rockets/"
+                    <li ><a href="https://www.instructables.com/Squeeze-Bottle-Rockets/"
                             target="_blank">https://www.instructables.com/Squeeze-Bottle-Rockets/</a></li>
-                    <li class="text-[1.3vw]"><a href="https://www.youtube.com/watch?y=-jm81EDnFMU"
+                    <li ><a href="https://www.youtube.com/watch?y=-jm81EDnFMU"
                             target="_blank">https://www.youtube.com/watch?y=-jm81EDnFMU</a></li>
                 </ul>
             </div>
@@ -92,15 +92,15 @@
 
 
     {{-- sldie 3 --}}
-    <div class=" slide text-start text-2xl text-white">
+    <div class=" slide t-slide text-start !text-white">
         <div>
             <h2 class=" t-title">Additional info on rocket launch:</h2>
             <ul class="list-disc text-[#F7B94A] space-y-10">
-                <li class="text-[1.3vw]">
+                <li >
                     <a href="https://www.youtube.com/watch?v=oMeXcBk1x-c">
                         https://www.youtube.com/watch?v=oMeXcBk1x-c</a>
                 </li>
-                <li class="text-[1.3vw]">
+                <li >
                     <a href="https://spaceplace.nasa.gov/launching-into-space/en/">
                         https://spaceplace.nasa.gov/launching-into-space/en/</a>
                 </li>
@@ -112,30 +112,34 @@
 
 
     {{-- slide 4 --}}
-    <div class="slide flex t-slide  flex-col justify-start  text-2xl text-start text-white">
+    <div class="slide flex t-slide  flex-col justify-start  text-2xl text-start !text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
                 <h2 class=" t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
-                    <li class="text-[1.3vw] flex whitespace-nowrap">
+                    <li>
+                    <span class="flex items-center whitespace-nowrap">
                         If you see
                         <span>
                             <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s27.png') }}"
                                 class="!max-w-[2.5vw]" />
                         </span>
-                        next to a picture, click on the picture to watch the video.
-                    </li>
-                    <li class="text-[1.3vw]">Emphasise and use the keywords during hands-on sessions.</li>
-                    <li class="text-[1.3vw]">Print out the Learning Journal (if any) for every child to complete at the end
+                        next to a picture,click on the picture to watch the video.
+                    </span>
+                </li>
+                    <li >Emphasise and use the keywords during hands-on sessions.</li>
+                    <li >Print out the Learning Journal (if any) for every child to complete at the end
                         of the lesson.
                     </li>
-                    <li class="text-[1.3vw]">
+                    <li >
+                        <span class="flex items-center whitespace-nowrap">
                         Click on this shortcut icon
                         <span>
                             <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s28.png') }}"
                                 class="!max-w-[2.5vw]" />
                         </span>
                         if you need to go to some parts of the lesson quickly.
+                    </span>
                     </li>
                 </ul>
             </div>

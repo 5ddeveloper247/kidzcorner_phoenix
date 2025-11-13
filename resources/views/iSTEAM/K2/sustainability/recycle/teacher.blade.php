@@ -6,7 +6,7 @@
     <h2 class="top-title stroke">Let's Recycle</h2>
 
     {{-- sldie 1  --}}
-    <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
+    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -47,7 +47,7 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
+    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
@@ -69,7 +69,7 @@
 
 
     {{-- sldie 7 --}}
-    <div class=" slide t-slide flex text-2xl text-white flex-col items-center justify-start  text-start">
+    <div class=" slide t-slide flex text-2xl !text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">Notes</h2>
             <ul>
@@ -106,7 +106,7 @@
 
 
     {{-- sldie 3 --}}
-    <div class=" slide t-slide flex  text-white flex-col items-center justify-center  text-start">
+    <div class=" slide t-slide flex  !text-white flex-col items-center justify-center  text-start">
         <h2 class="title stroke  text-center">Learning Centre Idea</h2>
         <div>
             <div>

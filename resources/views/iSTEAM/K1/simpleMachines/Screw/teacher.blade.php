@@ -7,7 +7,7 @@
 
 
     {{-- sldie 23  --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -33,7 +33,7 @@
 
 
     {{-- slide 24 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start ">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start ">
         <div>
             <h2 class=" t-title">Preparations</h2>
             <ul class="list-disc ">
@@ -53,7 +53,7 @@
 
 
     {{-- Slide 25 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start ">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start ">
         <div>
             <ul>
                 <h2 class="t-title">How to make an Archimedes’ screw and things to consider:</h2>
@@ -67,7 +67,7 @@
 
 
     {{-- Slide 25 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start gap-y-5 text-start ">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start gap-y-5 text-start ">
 
         <ul>
             <h2 class="t-title">How to make an Archimedes’ screw and things to consider:</h2>
@@ -81,7 +81,7 @@
 
 
     {{-- slide 25 --}}
-    <div class="slide flex  flex-col t-slide justify-start  text-2xl text-start text-white">
+    <div class="slide flex  flex-col t-slide justify-start  text-2xl text-start !text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
                 <h2 class=" t-title">Notes:</h2>
@@ -123,7 +123,7 @@
 
 
     {{--  slide 26 --}}
-    <div class=" slide text-white flex flex-col t-slide justify-start text-start text-2xl">
+    <div class=" slide !text-white flex flex-col t-slide justify-start text-start text-2xl">
         <h1 class=" ">Let’s sort!</h1>
         <div>
             <h2 class=" t-title">Preparations for Class Activity I:</h2>

@@ -43,7 +43,7 @@
 
     {{-- Slide 5  --}}
     <div class="slide hidden flex flex-col items-center justify-between h-[50vh]">
-        <h2 class="text-center justify-start text-[45px] text-white stroke">Small Group Activity 1</h2>
+        <h2 class="text-center justify-start text-[45px] !text-white stroke">Small Group Activity 1</h2>
         <h2 class="text-start title stroke">Mission: <br>
             Use the straws and pipe cleaners to build the structure
             of an umbrella.</h2>
@@ -65,7 +65,7 @@
         </video>
         <p class="note text-center">Note: Guide children to count number of ribs and stretchers in this umbrella.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -86,7 +86,7 @@
         <p class="note text-center">Note: Give each group a set of materials to work on. <a href=""
                 class="text-[#F7B94A] click-btn1">Click here</a> to follow the step-by-step guide.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -105,7 +105,7 @@
         </p>
 
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -121,7 +121,7 @@
             the sub-steps. Then have them work together in groups to complete the sub-steps.</p>
 
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video4')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video4')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -142,7 +142,7 @@
             the sub-steps. Then have them work together in groups to complete the sub-steps.</p>
 
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video5')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video5')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -158,7 +158,7 @@
             the sub-steps. Then have them work together in groups to complete the sub-steps.</p>
 
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video6')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video6')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -174,7 +174,7 @@
             the sub-steps. Then have them work together in groups to complete the sub-steps.</p>
 
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video7')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video7')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -196,7 +196,7 @@
             the sub-steps. Then have them work together in groups to complete the sub-steps.</p>
 
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video8')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video8')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -213,7 +213,7 @@
             the sub-steps. Then have them work together in groups to complete the sub-steps.</p>
 
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video9')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video9')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -231,7 +231,7 @@
             the sub-steps. Then have them work together in groups to complete the sub-steps.</p>
 
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video10')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video10')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -255,7 +255,7 @@
             the sub-steps. Then have them work together in groups to complete the sub-steps.</p>
 
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video11')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video11')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -279,7 +279,7 @@
             this engineering
             activity (refer to the possible questions for reflection in the teacher's mode).</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video12')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video12')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -298,7 +298,7 @@
 
     {{-- slide 10 --}}
     <div class="slide hidden flex flex-col items-center justify-between h-[50vh]">
-        <h2 class="text-center justify-start text-[45px] text-white stroke">Small Group Activity 2</h2>
+        <h2 class="text-center justify-start text-[45px] !text-white stroke">Small Group Activity 2</h2>
         <h2 class="text-start title stroke">Mission: <br>
             Design and build the canopy of your umbrella.</h2>
     </div>
@@ -343,7 +343,7 @@
         <p class="note text-center">Note: Give children more times to explore and learn their own building techniques.
             Pause the class for once or twice to point out good building techniques.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video13')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video13')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -367,7 +367,7 @@
     {{-- slide 14 --}}
     <div class="slide  hidden flex flex-col items-center justify-center ">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[40vw] h-[40vh] bg-cover bg-center flex flex-col justify-center items-start"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center flex flex-col justify-center items-start"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <img src="/assets/images//K1/str/um17.png" />
         </div>

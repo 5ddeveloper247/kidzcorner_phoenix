@@ -15,29 +15,29 @@
     {{-- Slide 2 --}}
     <div class="slide flex flex-col items-center justify-center">
         <img src="{{ asset('assets/images/K2/livingthings/pgrow/pp.png') }}" class="large-img7" alt="Different Plants" />
-        <h2 class="title stroke">These are different <span class="text-white">plants</span>.</h2>
+        <h2 class="title stroke">These are different <span class="!text-white">plants</span>.</h2>
     </div>
 
     {{-- Slide 3 --}}
     <div class="slide flex flex-col items-center justify-center">
         <img src="{{ asset('assets/images/K2/livingthings/pgrow/p2.png') }}" class="object-contain !max-w-[15vw]"
             alt="Growing Plants" />
-        <h2 class="title stroke">Have you ever <span class="text-white">grown</span> a <span
+        <h2 class="title stroke">Have you ever <span class="!text-white">grown</span> a <span
                 class="text-white">plant?</span> How does it change?</h2>
         <p class="note">Note: Encourage children to share their knowledge and experience.</p>
     </div>
 
     {{-- Slide 4 --}}
     <div class="slide flex flex-col items-center justify-center">
-        <h2 class="title stroke">Today, we are going to learn how to <span class="text-white">grow</span> a <span
-                class="text-white">plant</span> from a <span class="text-white">seed</span>!</h2>
+        <h2 class="title stroke">Today, we are going to learn how to <span class="!text-white">grow</span> a <span
+                class="text-white">plant</span> from a <span class="!text-white">seed</span>!</h2>
     </div>
 
     {{-- Slide5 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <h2 class="text-center justify-start text-[45px] text-white stroke">Individual Activity</h2>
+        <h2 class="text-center justify-start text-[45px] !text-white stroke">Individual Activity</h2>
         <img src="{{ asset('assets/images/K2/livingthings/pgrow/p3.png') }}" class="large-img3" alt="Activity Materials" />
-        <h2 class="text-start title stroke"> <span class="text-white">Let's find out</span>: <br>
+        <h2 class="text-start title stroke"> <span class="!text-white">Let's find out</span>: <br>
             How to grow a plant from a seed? <br> How does a seed grow in a bag?</h2>
         <p class="note">Note: Display all the things needed and have children name each. Introduce the chosen seeds, have
             children observe their colour, shape and size. At last, give each child a set of things needed.</p>
@@ -127,7 +127,7 @@
         <h2 class="text-center justify-start title !text-white stroke">Class Activity</h2>
         <img src="{{ asset('assets/images/K2/livingthings/pgrow/p10.png') }}" alt="Green Onions" class="w-img3" />
 
-        <h2 class="text-start title stroke"><span class="text-white">Let's find out:</span> <br>
+        <h2 class="text-start title stroke"><span class="!text-white">Let's find out:</span> <br>
             How to regrow green onions? How tall do they grow after a week?</h2>
         <p class="note">Note: Display a bunch of green onions, have children name the parts.</p>
     </div>
@@ -191,7 +191,7 @@
     {{-- slide 18 --}}
     <div class="slide hidden flex flex-col items-center justify-center gap-y-4">
         <h2 class="title stroke !text-white">Learning Journal</h2>
-        <div class="w-[40vw] h-[40vh] flex flex-col justify-center items-center">
+        <div class="w-[55vw] h-[25vw] drawable flex flex-col justify-center items-center">
             <img src="{{ asset('assets/images/K2/livingthings/pgrow/p14.png') }}" alt="Learning Journal Page 1" class="!max-w-[40vw]" />
         </div>
     </div>
@@ -199,7 +199,7 @@
     {{-- slide 19 --}}
     <div class="slide hidden flex flex-col items-center justify-center gap-y-4">
         <h2 class="title stroke !text-white">Learning Journal</h2>
-        <div class="w-[40vw] h-[40vh] flex flex-col justify-center items-center">
+        <div class="w-[55vw] h-[25vw] drawable flex flex-col justify-center items-center">
             <img src="{{ asset('assets/images/K2/livingthings/pgrow/p15.png') }}" alt="Learning Journal Page 2" class="!max-w-[40vw]" />
         </div>
     </div>

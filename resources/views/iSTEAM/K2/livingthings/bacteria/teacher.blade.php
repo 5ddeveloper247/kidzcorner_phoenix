@@ -7,7 +7,7 @@
     <h2 class="top-title stroke">What are Bacteria?</h2>
 
     {{-- slide 1  --}}
-    <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
+    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -40,7 +40,7 @@
     </div>
 
     {{-- slide 2 --}}
-    <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
+    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
@@ -82,7 +82,7 @@
         </video>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -106,7 +106,7 @@
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -149,7 +149,7 @@
 
 
     {{-- sldie 8 --}}
-    <div class=" slide t-slide flex  text-white flex-col items-center justify-start  text-start">
+    <div class=" slide t-slide flex  !text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">What you need to know or do before the lesson:</h2>
             <ul class="list-disc ">
@@ -166,7 +166,7 @@
 
 
     {{-- sldie 9 --}}
-    <div class=" slide t-slide flex  text-white flex-col items-center justify-start  text-start">
+    <div class=" slide t-slide flex  !text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">What you need to know or do before the lesson:</h2>
             <ul class="list-disc ">
@@ -180,7 +180,7 @@
 
 
     {{-- sldie 10 --}}
-    <div class=" slide t-slide flex  text-white flex-col items-center justify-start  text-start">
+    <div class=" slide t-slide flex  !text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">What you need to know or do before the lesson:</h2>
             <ul class="list-disc ">
@@ -195,7 +195,7 @@
 
 
     {{-- sldie 11 --}}
-    <div class=" slide t-slide flex  text-white flex-col items-center justify-start  text-start">
+    <div class=" slide t-slide flex  !text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">What you need to know or do before the lesson:</h2>
             <ul class="list-disc ">
@@ -213,7 +213,7 @@
 
 
     {{-- sldie 11 --}}
-    <div class=" slide t-slide flex  text-white flex-col items-center justify-start  text-start">
+    <div class=" slide t-slide flex  !text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">What you need to know or do before the lesson:</h2>
             <ul class="list-disc ">
@@ -231,7 +231,7 @@
 
 
     {{-- sldie 12 --}}
-    <div class=" slide t-slide flex  text-white flex-col items-center justify-start  text-start">
+    <div class=" slide t-slide flex  !text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">What you need to know or do before the lesson:</h2>
             <ul class="list-disc ">
@@ -250,7 +250,7 @@
 
 
     {{-- sldie 13 --}}
-    <div class=" slide t-slide flex  text-white flex-col items-center justify-start  text-start">
+    <div class=" slide t-slide flex  !text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">What you need to know or do before the lesson:</h2>
             <ul class="list-disc ">
@@ -273,7 +273,7 @@
 
 
     {{-- sldie 14 --}}
-    <div class=" slide t-slide flex  text-white flex-col items-center justify-start  text-start">
+    <div class=" slide t-slide flex  !text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">What you need to know or do before the lesson:</h2>
             <ul class="list-disc ">
@@ -293,7 +293,7 @@
 
 
     {{-- sldie 15 --}}
-    <div class=" slide flex  text-white flex-col justify-start t-slide text-start">
+    <div class=" slide flex  !text-white flex-col justify-start t-slide text-start">
         <div>
             <h2 class=" t-title">Reminders or advice during hands-on session:</h2>
             <ul class="list-disc ">
@@ -317,7 +317,7 @@
     </div>
 
     {{-- slide 16 --}}
-    <div class="slide flex t-slide  flex-col justify-start   text-start text-white">
+    <div class="slide flex t-slide  flex-col justify-start   text-start !text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
                 <h2 class=" t-title">Notes:</h2>

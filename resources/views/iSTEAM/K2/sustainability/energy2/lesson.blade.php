@@ -56,9 +56,9 @@
             <source src="{{ asset('assets/images/K2/videos/197.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
-        <h2 class="title stroke text-center">This is how a <span class="text-white">windmill</span> rotates.</h2>
+        <h2 class="title stroke text-center">This is how a <span class="!text-white">windmill</span> rotates.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -72,7 +72,7 @@
         <h2 class="title stroke text-center">As the windmill rotates, it generates energy to operate
             machines that help to mill grains or pump water to the crops.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -86,7 +86,7 @@
         <h2 class="title stroke text-center">When the wind blows, the wind turbines rotate
             and generate electricity.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -248,7 +248,7 @@
             and protect our Earth from global warming and pollution.</h2>
 
         <!-- Video Trigger Button -->
-        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="{{ asset('assets/images/pptimages/video.png') }}" />
         </div>
     </div>

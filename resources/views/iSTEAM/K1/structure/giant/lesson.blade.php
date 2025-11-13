@@ -10,7 +10,7 @@
     {{-- Slide 1 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
         <img src="/assets/images/K1/str/gw1.png" />
-        <h2 class="title stroke">Children, this is another type of <span class="text-white">structure</span>.
+        <h2 class="title stroke">Children, this is another type of <span class="!text-white">structure</span>.
             What is it called? What do we use it for?</h2>
     </div>
 
@@ -19,8 +19,8 @@
     {{-- Slide 2 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
         <img src="/assets/images/K1/str/gw2.png" />
-        <h2 class="title stroke">A <span class="text-white"> giant wheel</span> is a very large upright <span
-                class="text-white">wheel</span> with <span class="text-white">carriages</span>.</h2>
+        <h2 class="title stroke">A <span class="!text-white"> giant wheel</span> is a very large upright <span
+                class="text-white">wheel</span> with <span class="!text-white">carriages</span>.</h2>
         <p class="note"> Note: Have children point out and compare the carriages of these two giant wheels.</p>
     </div>
 
@@ -67,7 +67,7 @@
 
     {{-- slide 8 --}}
     <div class="slide hidden flex flex-col items-center justify-between h-[50vh] ">
-        <h2 class="text-center justify-start text-[45px] text-white stroke">Small Group Activity 1</h2>
+        <h2 class="text-center justify-start text-[45px] !text-white stroke">Small Group Activity 1</h2>
         <h2 class="text-start title stroke">Mission: <br>
             Use the straws and pipe cleaners to build the structure of a giant wheel.</h2>
         <p class="note">Note: Display a premade sample of the structure of a giant wheel.</p>
@@ -89,7 +89,7 @@
         <p class="note text-center">Note: Guide children to spot the shapes (hexagons, triangles, triangular prism) from the
             premade sample.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -110,7 +110,7 @@
         <p class="note text-center">Note: Give each group a set of materials to work on. <a href=""
                 class="text-[#F7B94A] click-btn1">Click here</a> to follow the step-by-step guide.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -128,7 +128,7 @@
         </p>
 
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -144,7 +144,7 @@
             the sub-steps. Then have them work together in groups to complete the sub-steps..</p>
 
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video4')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video4')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -161,7 +161,7 @@
             the sub-steps. Then have them work together in groups to complete the sub-steps..</p>
 
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video5')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video5')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -186,7 +186,7 @@
             the sub-steps. Then have them work together in groups to complete the sub-steps..</p>
 
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video6')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video6')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -202,7 +202,7 @@
             the sub-steps. Then have them work together in groups to complete the sub-steps..</p>
 
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video7')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video7')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -219,7 +219,7 @@
             the sub-steps. Then have them work together in groups to complete the sub-steps..</p>
 
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video8')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video8')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -237,7 +237,7 @@
             the sub-steps. Then have them work together in groups to complete the sub-steps..</p>
 
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video9')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video9')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -281,14 +281,14 @@
         <h2 class="text-start title stroke">It means that when the wheel is spinning, the riders in the
             carriages will remain balanced at all times.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video10')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video10')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
     {{-- slide 13 --}}
     <div class="slide hidden flex flex-col items-center justify-center ">
-        <h2 class="text-center justify-start text-[45px] text-white stroke">Small Group Activity 2</h2>
+        <h2 class="text-center justify-start text-[45px] !text-white stroke">Small Group Activity 2</h2>
         <h2 class="text-start title stroke">Mission: <br>
             Design and build carriages for your giant wheel.</h2>
     </div>
@@ -327,7 +327,7 @@
         <p class="note text-center">Note: Give children more times to explore and learn their own building techniques.
             Pause the class for once or twice to point out good building techniques.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video11')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video11')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>

@@ -3,7 +3,7 @@
  
 @section('content')
     {{-- sldie 1  --}}
-    <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
+    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
         <div>
             <h2 class="t-title ">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -31,7 +31,7 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
+    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
         <div>
             <ul class="list-disc ">
                 <h2 class=" t-title">Preparations:</h2>
@@ -53,7 +53,7 @@
 
 
     {{-- sldie 3 --}}
-    <div class=" slide text-start text-2xl text-white">
+    <div class=" slide t-slide text-start !text-white">
         <div>
             <h2 class=" t-title">Possible iSTEAM concepts for each problem/challenge:</h2>
             <img src="{{ asset('assets/images/K2/final/f15.png') }}" />
@@ -63,7 +63,7 @@
     </div>
 
     {{-- sldie 4 --}}
-    <div class=" slide text-start text-2xl text-white">
+    <div class=" slide t-slide text-start !text-white">
         <div>
             <h2 class=" t-title">Possible iSTEAM concepts for each problem/challenge:</h2>
             <img src="{{ asset('assets/images/K2/final/f16.png') }}" />
@@ -73,7 +73,7 @@
     </div>
 
     {{-- sldie 5 --}}
-    <div class=" slide text-start text-2xl items-center text-white">
+    <div class=" slide text-start text-2xl items-center !text-white">
         <div class="space-y-10">
             <h2>Note</h2>
             <ul class="list-disc">
@@ -97,7 +97,7 @@
     </div>
 
     {{-- click slide  --}}
-    <div class=" slide click1 text-start text-2xl items-center text-white">
+    <div class=" slide click1 text-start text-2xl items-center !text-white">
         <div class="flex flex-col items-center justify-center">
             <h2>11 Kid Inventors Break Down Their Greatest Inventions | The New Yorker <br>
                 <a href="https://www.youtube.com/watch?v=Xiul/1mlFeEc" class="text-[#F7B94A]"></a>
@@ -111,7 +111,7 @@
 
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video1')"
-            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
       <img src="/assets/images/pptimages/video.png" />
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
@@ -121,7 +121,7 @@
 
 
     {{-- sldie 6 --}}
-    <div class=" slide text-start text-2xl text-white">
+    <div class=" slide t-slide text-start !text-white">
         <div>
             <h2>Things to consider during hands-on session:</h2>
             <ul class="list-disc">
@@ -146,7 +146,7 @@
     </div>
 
     {{-- slide 7 --}}
-    <div class=" slide text-start text-2xl items-center text-white">
+    <div class=" slide text-start text-2xl items-center !text-white">
         <div class="flex flex-col items-start justify-center">
             <h2>Design Thinking: a process for creative problem solving.</h2>
             <div class="flex items-center gap-0">
@@ -160,7 +160,7 @@
     </div>
 
     {{-- slide 8 --}}
-    <div class="slide flex t-slide  flex-col justify-start  text-2xl text-start text-white">
+    <div class="slide flex t-slide  flex-col justify-start  text-2xl text-start !text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
                 <h2 class=" t-title">Notes:</h2>

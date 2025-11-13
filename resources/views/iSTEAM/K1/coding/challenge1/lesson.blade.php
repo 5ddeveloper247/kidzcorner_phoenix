@@ -25,7 +25,7 @@
 
     {{-- Slide3 --}}
     <div class="slide hidden flex flex-col items-center justify-between h-[45vh]">
-        <h2 class="text-center justify-start text-[45px] text-white stroke">Hands-on Time 1 </h2>
+        <h2 class="text-center justify-start text-[45px] !text-white stroke">Hands-on Time 1 </h2>
         <h2 class="text-start title stroke">Mission: <br>
             Plan a route for a robot to find your favourite colour. Use
             Blockly to programme the robot to move according to the planned route.</h2>
@@ -114,7 +114,7 @@
 
     {{-- slide 9 --}}
     <div class="slide hidden flex flex-col items-center justify-between h-[45vh]">
-        <h2 class="text-center justify-start text-[45px] text-white stroke">Hands-on Time 2</h2>
+        <h2 class="text-center justify-start text-[45px] !text-white stroke">Hands-on Time 2</h2>
         <h2 class="text-start title stroke">Mission: <br>
             Plan a route for a robot to find all the colours. Use Blockly to
             programme the robot to move according to the planned route.</h2>
@@ -235,7 +235,7 @@
     {{-- sldie 16 --}}
     <div class="slide  hidden flex flex-col items-center justify-center ">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[40vw] h-[40vh] bg-cover bg-center flex flex-col justify-center items-center"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center flex flex-col justify-center items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>What is the arrangement of colours on your coding mat? Plot them here. How do you plan
                 the route for a robot to find all the colours? Draw arrows to show the route.</p>
@@ -246,7 +246,7 @@
     {{-- sldie 17 --}}
     <div class="slide  hidden flex flex-col items-center justify-center ">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[40vw] h-[40vh] bg-cover bg-center flex flex-col justify-start items-center"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center flex flex-col justify-start items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>How does a robot move according to the planned route? Use coding cards to
                 lay out the steps.</p>

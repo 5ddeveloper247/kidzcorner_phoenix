@@ -6,7 +6,7 @@
     <h2 class="top-title stroke">Throw a Rubish Machine</h2>
 
     {{-- sldie 23  --}}
-    <div class=" slide flex text-2xl t-slide text-white flex-col justify-start text-start">
+    <div class=" slide flex text-2xl t-slide !text-white flex-col justify-start text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -32,7 +32,7 @@
 
 
     {{-- slide 24 --}}
-    <div class=" slide flex text-2xl t-slide text-white flex-col justify-start text-start">
+    <div class=" slide flex text-2xl t-slide !text-white flex-col justify-start text-start">
         <h2 class="t-title">Preparations:</h2>
         <div class="flex gap-[10rem]">
             <ul class="list-disc">
@@ -59,7 +59,7 @@
 
 
     {{-- slide 25 --}}
-    <div class=" slide flex text-2xl t-slide text-white flex-col justify-center items-center  gap-[0.5rem] text-center">
+    <div class=" slide flex text-2xl t-slide !text-white flex-col justify-center items-center  gap-[0.5rem] text-center">
         <ul class="list-disc !text-start">
             <h2 class="t-title">Things to consider for preparations:</h2>
 
@@ -80,7 +80,7 @@
 
 
     {{--  slide 26 --}}
-    <div class=" slide flex text-2xl t-slide text-white flex-col justify-center items-center  gap-[0.5rem] ">
+    <div class=" slide flex text-2xl t-slide !text-white flex-col justify-center items-center  gap-[0.5rem] ">
         <ul class="list-disc !text-start">
             <h2 class="t-title">Things to consider for preparation:</h2>
 
@@ -97,7 +97,7 @@
 
 
     {{--  slide 27 --}}
-    <div class=" slide flex text-2xl t-slide text-white flex-col justify-center  text-start">
+    <div class=" slide flex text-2xl t-slide !text-white flex-col justify-center  text-start">
         <h2 class="t-title">Things to consider during hands-on session:</h2>
         <ul class="list-disc !text-start">
 
@@ -122,7 +122,7 @@
 
 
     {{--  slide 27 --}}
-    <div class="slide flex t-slide  flex-col  text-2xl text-start text-white">
+    <div class="slide flex t-slide  flex-col  text-2xl text-start !text-white">
         <div>
             <h2 class="t-title">Notes:</h2>
             <ul class="list-disc">
@@ -160,7 +160,7 @@
 
 
     {{-- slide 28 --}}
-    <div class=" slide flex text-2xl t-slide text-white flex-col justify-center gap-[3rem] text-start">
+    <div class=" slide flex text-2xl t-slide !text-white flex-col justify-center gap-[3rem] text-start">
 
 
         <h2 class=" title stroke text-center">Learning Centre Idea</h2>
@@ -182,7 +182,7 @@
 
 
     {{-- slide 29 --}}
-    <div class=" slide flex text-2xl t-slide text-white flex-col justify-center gap-[3rem] text-start">
+    <div class=" slide flex text-2xl t-slide !text-white flex-col justify-center gap-[3rem] text-start">
 
 
         <h2 class=" text-center title stroke ">Learning Centre Idea</h2>

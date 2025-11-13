@@ -9,7 +9,7 @@
 
     {{-- Slide 1 --}}
     <div class="flex flex-col items-center justify-between h-[50vh] slide hidden">
-        <h2 class="stroke title">Children, do you remember what the <span class="text-white">stem</span> does?</h2>
+        <h2 class="stroke title">Children, do you remember what the <span class="!text-white">stem</span> does?</h2>
         <p class="note">Note: Encourage children to share that they had learned.</p>
     </div>
 
@@ -22,9 +22,9 @@
             <img src="{{ asset('assets/images/N2/LivingThings/lt31.png') }}" class="large-img3" />
 
         </div>
-        <h2 class="stroke title">That’s right! The <span class="text-white">stem</span> helps the <span
-                class="text-white">plant</span> to grow tall. When<br />the <span class="text-white">plant</span> is tall,
-            its <span class="text-white">leaves</span> can get enough sunlight to make food.</h2>
+        <h2 class="stroke title">That’s right! The <span class="!text-white">stem</span> helps the <span
+                class="text-white">plant</span> to grow tall. When<br />the <span class="!text-white">plant</span> is tall,
+            its <span class="!text-white">leaves</span> can get enough sunlight to make food.</h2>
     </div>
 
 
@@ -33,15 +33,15 @@
 
         <img src="{{ asset('assets/images/N2/LivingThings/lt25.png') }}" class="large-img2" />
 
-        <h2 class="stroke title">The<span class="text-white"> stem</span> also helps to <span class="text-white">carry
-            </span>water to the<br /><span class="text-white">leaves</span> and <span class="text-white">flower</span>.</h2>
+        <h2 class="stroke title">The<span class="!text-white"> stem</span> also helps to <span class="!text-white">carry
+            </span>water to the<br /><span class="!text-white">leaves</span> and <span class="!text-white">flower</span>.</h2>
 
     </div>
 
 
     {{-- slide 4 --}}
     <div class="flex flex-col items-center justify-between h-[50vh] slide hidden">
-        <h2 class="stroke title">Let’s observe how <span class="text-white">flowers</span> drink water.</h2>
+        <h2 class="stroke title">Let’s observe how <span class="!text-white">flowers</span> drink water.</h2>
         <p class="note">Note: Divide children into small groups for the activity.</p>
     </div>
 
@@ -105,7 +105,7 @@
                     in the learning journal.</li>
             </ul>
         </div>
-        <div class="w-[40vw] h-[40vh] bg-cover bg-center"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>Record the changes you see in your flower (draw and paste photos).</p>
         </div>
@@ -115,8 +115,8 @@
     {{-- slide 10 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <img src="{{ asset('assets/images/N2/LivingThings/lt38.png') }}" />
-        <h2 class="stroke title">As the <span class="text-white">stem </span>carried coloured water to the <span
-                class="text-white">leaves</span> and<br /><span class="text-white">flowers</span>, the white flower <span
+        <h2 class="stroke title">As the <span class="!text-white">stem </span>carried coloured water to the <span
+                class="text-white">leaves</span> and<br /><span class="!text-white">flowers</span>, the white flower <span
                 class="text-white">petals</span> now have same <br />colours on them.</h2>
     </div>
 
@@ -125,7 +125,7 @@
     {{-- slide 11 --}}
     <div class="flex flex-col  slide hidden">
         <h2 class="title !text-white stroke">Learning Journal</h2>
-        <div class="w-[40vw] h-[40vh] bg-cover bg-center"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>Record the changes you see in your flower (draw and paste photos).</p>
         </div>

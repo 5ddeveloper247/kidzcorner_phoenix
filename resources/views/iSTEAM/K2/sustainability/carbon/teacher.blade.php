@@ -11,7 +11,7 @@
 
 
     {{-- sldie 1  --}}
-    <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
+    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -50,7 +50,7 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
+    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
@@ -100,7 +100,7 @@
 
 
     {{-- sldie 3 --}}
-    <div class=" slide t-slide flex  text-white flex-col items-center justify-center  text-start">
+    <div class=" slide t-slide flex  !text-white flex-col items-center justify-center  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc">
@@ -118,7 +118,7 @@
     </div>
 
     {{-- sldie 4 --}}
-    <div class=" slide t-slide flex  text-white flex-col items-center justify-center  text-start">
+    <div class=" slide t-slide flex  !text-white flex-col items-center justify-center  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc">
@@ -133,7 +133,7 @@
 
 
     {{-- slide 5 --}}
-    <div class="slide t-slide flex  text-white flex-col items-center justify-start gap-y-10 text-start hidden">
+    <div class="slide t-slide flex  !text-white flex-col items-center justify-start gap-y-10 text-start hidden">
         <div>
             <h2 class="t-title">Notes</h2>
             <div class="text-start ">

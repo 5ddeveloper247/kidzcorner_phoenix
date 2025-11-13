@@ -37,15 +37,15 @@
     <div class="flex flex-col items-center justify-center gap-5 slide hidden">
         <div class="flex flex-col items-center">
             <img src="{{ asset('assets/images/N2/BasicCoding/bs14.png') }}" />
-            <div class="flex text-white text-[1.5vw] gap-[2vw]">
+            <div class="flex !text-white text-[1.5vw] gap-[2vw]">
                 <p>forwar</p>
                 <p>bakcward</p>
                 <p>turn left</p>
                 <p>turn right</p>
             </div>
         </div>
-        <h2 class="title stroke text-center"> You used these <span class="text-white">programming</span> cards to <span
-                class="text-white">programme</span> a <span class="text-white">robot</span>
+        <h2 class="title stroke text-center"> You used these <span class="!text-white">programming</span> cards to <span
+                class="text-white">programme</span> a <span class="!text-white">robot</span>
             to move from a starting point to an end point.</h2>
     </div>
 
@@ -53,7 +53,7 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="!text-white title stroke">Hands-on Time 1</h2>
         <div class="text-start">
-            <h2 class="title stroke">Mission: <br>
+            <h2 class="title stroke text-start">Mission: <br>
                 Let's lay out a grid maze and play a game. Think and plan
                 how to move through the maze. Then lay out the programming cards and move from the starting point to the end
                 point.</h2>
@@ -153,7 +153,7 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="!text-white title stroke">Hands-on Time 2</h2>
         <div class="text-start">
-            <h2 class="title stroke">Mission: <br>
+            <h2 class="title stroke text-start">Mission: <br>
                 Let's create a new zoo programming game! Set a new
                 starting point and end point in the grid maze. Then get
                 your friends of another group to think and plan how to

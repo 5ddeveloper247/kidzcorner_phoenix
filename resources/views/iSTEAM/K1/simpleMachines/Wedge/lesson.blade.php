@@ -742,7 +742,7 @@
     {{-- sldie 65 --}}
     <div class="slide  hidden flex flex-col  justify-center ">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[40vw] h-[40vh] bg-cover bg-center flex flex-col p-[40px] "
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center flex flex-col p-[40px] "
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <h2 class=" !text-center">Name some things around you that are wedges. Draw them.
             </h2>

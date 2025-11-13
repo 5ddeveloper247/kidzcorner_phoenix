@@ -7,7 +7,7 @@
 
 
     {{-- sldie 1  --}}
-    <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
+    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -47,15 +47,15 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
+    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations for Individual Activity - Which fingerprint pattern do you have on
                 each    finger? :</h2>
             <ul class="list-disc ">
-                <li class="text-[1.3vw]">A few magnifying glasses (optional; use in case children cannot
+                <li >A few magnifying glasses (optional; use in case children cannot
                     determine which pattern is in a fingerprint; guide them on how to use
                     it correctly so that will see a clear magnifying image of fingerprints)</li>
-                <li class="text-[1.3vw]">Individual Fingerprint Record (from the last lesson)</li>
+                <li >Individual Fingerprint Record (from the last lesson)</li>
             </ul>
         </div>
         <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f2.png') }}" class="w-[500px]" />
@@ -64,11 +64,11 @@
 
 
     {{-- sldie 3 --}}
-    <div class=" slide t-slide flex  text-white flex-col items-center justify-center  text-start">
+    <div class=" slide t-slide flex  !text-white flex-col items-center justify-center  text-start">
         <div>
             <h2 class=" t-title">Preparations for Group Activity - Fingerprint Patterns Of The Class:</h2>
             <ul class="list-disc">
-                <li class="text-[1.3vw]">2 sheets of big papers (based on the number of children in the class,
+                <li >2 sheets of big papers (based on the number of children in the class,
                     draw a table as shown below in a paper beforehand; you are going to
                     guide children to plot a graph in another paper when you carry out
                     the activity: you may consider use a graph paper instead)</li>
@@ -80,23 +80,23 @@
 
 
     {{-- slide 4 --}}
-    <div class="slide flex t-slide  flex-col justify-start  text-2xl text-start text-white">
+    <div class="slide flex t-slide  flex-col justify-start  text-2xl text-start !text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
                 <h2 class=" t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
-                    <li class="text-[1.3vw] flex whitespace-nowrap">
+                    <li class="flex whitespace-nowrap">
                         If you see
                         <span>
                             <img src="{{ asset('assets/images/pptimages/video.png') }}" />
                         </span>
                         next to a picture,click on the picture to watch the video.
                     </li>
-                    <li class="text-[1.3vw]">Emphasise and use the keywords during hands-on sessions.</li>
-                    <li class="text-[1.3vw]">Print out the Learning Journal (if any) for every child to complete at the end
+                    <li >Emphasise and use the keywords during hands-on sessions.</li>
+                    <li >Print out the Learning Journal (if any) for every child to complete at the end
                         of the lesson.
                     </li>
-                    <li class="text-[1.3vw] flex whitespace-nowrap">
+                    <li class="flex whitespace-nowrap">
                         Click on this shortcut icon
                        <span>
                             <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" class="home-btn" />
@@ -117,16 +117,16 @@
             <ul>
                 <h2 class="!text-white title stroke">Toe Prints</h2>
                 <h2 class="t-title">What and how to set up:</h2>
-                <li class="text-[1.3vw]">Put 2B pencils, plain paper, adhesive clear tape, scissors, wet
+                <li >Put 2B pencils, plain paper, adhesive clear tape, scissors, wet
                     towels and drawing papers here.</li>
             </ul>
 
             <div>
                 <h2 class="t-title">What to do:</h2>
                 <ul class="list-decimal">
-                    <li class="text-[1.3vw]">Make a set of your toe prints.</li>
-                    <li class="text-[1.3vw]">Compare them with your set of fingerprints..</li>
-                    <li class="text-[1.3vw]">Share your findings: Are your toe prints identical to your fingerprints?</li>
+                    <li >Make a set of your toe prints.</li>
+                    <li >Compare them with your set of fingerprints..</li>
+                    <li >Share your findings: Are your toe prints identical to your fingerprints?</li>
                 </ul>
             </div>
         </div>
@@ -141,7 +141,7 @@
             <ul class="list-disc">
                 <h2 class="!text-white title stroke">Toe Prints</h2>
                 <h2>Explanation:</h2>
-                <p class="text-[1.3vw]">Your prints on each finger and each toe are different from all your
+                <p >Your prints on each finger and each toe are different from all your
                     other fingers and toes, but the patterns should be almost the
                     same. So just like fingerprints, your toe prints are totally unique to
                     you!</p>
@@ -157,14 +157,14 @@
             <ul class="list-disc">
                 <h2 class="!text-white title stroke">Fun Facts</h2>
                 <h2 class="t-title">What and how to set up:</h2>
-                <p class="text-[1.3vw]">Use your creativity to design graphic fact sheet for every fun fact below.
+                <p >Use your creativity to design graphic fact sheet for every fun fact below.
                     Guide children to understand the facts.</p>
                 <br> <br>
-                <li class="text-[1.3vw]">You can outgrow your shoes but not your prints as they will stay the <br>
+                <li >You can outgrow your shoes but not your prints as they will stay the <br>
                     same no matter how old you are.</li>
-                <li class="text-[1.3vw]">Do you think we are the only type of animals with fingerprints? <br>
+                <li >Do you think we are the only type of animals with fingerprints? <br>
                     Chimpanzees, gorillas and koalas also have fingerprints!</li>
-                <li class="text-[1.3vw]">The fingerprints of koalas are so similar to ours that even experts <br>
+                <li >The fingerprints of koalas are so similar to ours that even experts <br>
                     have trouble telling them apart.</li>
             </ul>
         </div>

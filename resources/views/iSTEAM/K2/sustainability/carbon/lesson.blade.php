@@ -135,7 +135,7 @@
     {{-- Slide 15 --}}
     <div class="slide hidden flex flex-col items-center">
         <h2 class="title stroke text-center">As a suggestion, you can reduce your carbon footprint by
-            <span class="text-white"> energy and natural resources </span>
+            <span class="!text-white"> energy and natural resources </span>
             in any way possible.
         </h2>
         <p class="note">Note: For the following pages, guide children to discuss and understand how each
@@ -189,7 +189,7 @@
     {{-- Slide 21 --}}
     <div class="slide hidden flex flex-col items-center">
         <h2 class="title stroke text-center">You can also reduce your carbon footprint by
-            <span class="text-white">travelling wisely </span>.
+            <span class="!text-white">travelling wisely </span>.
         </h2>
     </div>
 
@@ -205,7 +205,7 @@
     {{-- Slide 23 --}}
     <div class="slide hidden flex flex-col items-center">
         <h2 class="title stroke text-center">You can reduce your carbon footprint by
-            <span class="text-white">being a responsible consumer </span> too.
+            <span class="!text-white">being a responsible consumer </span> too.
         </h2>
         <p class="note">Note: For the following pages, guide children to discuss and understand how each
             example/action/habit

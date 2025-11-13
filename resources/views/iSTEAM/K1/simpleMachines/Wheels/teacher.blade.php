@@ -6,7 +6,7 @@
     <h2 class="top-title stroke">What are wheels and Axles</h2>
 
     {{-- sldie 1 --}}
-    <div class=" slide flex text-2xl t-slide text-white flex-col justify-start  text-start">
+    <div class=" slide flex text-2xl t-slide !text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -33,7 +33,7 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl t-slide text-white flex-col items-center justify-start  text-start">
+    <div class=" slide flex text-2xl t-slide !text-white flex-col items-center justify-start  text-start">
 
         <h2 class=" t-title  ">Preparations:</h2>
         <ul class="list-disc ">
@@ -47,7 +47,7 @@
 
 
     {{-- slide 3 --}}
-    <div class=" slide flex text-2xl t-slide text-white flex-col justify-start items-center  text-start">
+    <div class=" slide flex text-2xl t-slide !text-white flex-col justify-start items-center  text-start">
         <ul class="list-disc">
             <h2 class=" t-title  ">Preparations:</h2>
             <li>Each child: 1 Styrofoam disc, 6 plastic spoons, 1 long stick and 1
@@ -62,7 +62,7 @@
 
 
     {{--  slide 26 --}}
-    <div class=" slide flex text-2xl t-slide text-white flex-col justify-start items-center  text-start">
+    <div class=" slide flex text-2xl t-slide !text-white flex-col justify-start items-center  text-start">
         <ul>
             <h2 class=" t-title  ">How to make a spoon water wheel and things to consider:</h2>
             <li>i. Mark 6 even points on the rim of a styrofoam disc with the help of a circular<br>
@@ -76,14 +76,14 @@
 
 
     {{-- slide 27 --}}
-    <div class=" slide flex text-2xl t-slide text-white flex-col justify-start items-center  text-start">
+    <div class=" slide flex text-2xl t-slide !text-white flex-col justify-start items-center  text-start">
         <h2 class=" t-title ">Circular Template:</h2>
         <img src="/assets/images/K1/sm/wheels/we25.png" class="large-img" />
     </div>
 
 
     {{--  slide 28 --}}
-    <div class=" slide flex text-2xl t-slide text-white flex-col justify-start items-center  text-start">
+    <div class=" slide flex text-2xl t-slide !text-white flex-col justify-start items-center  text-start">
         <div class="text-start">
             <h2 class=" t-title  ">How to make a spoon water wheel and things to consider:</h2>
             <ul>
@@ -104,7 +104,7 @@
 
 
     {{--  slide 29 --}}
-    <div class=" slide flex text-2xl t-slide text-white flex-col justify-start items-center  text-start">
+    <div class=" slide flex text-2xl t-slide !text-white flex-col justify-start items-center  text-start">
         <div class="text-start">
 
             <h2 class=" t-title  ">How to make a spoon water wheel and things to consider:</h2>
@@ -125,7 +125,7 @@
 
 
     {{--  slide 30 --}}
-    <div class=" slide flex text-2xl t-slide text-white flex-col justify-start items-center  text-start">
+    <div class=" slide flex text-2xl t-slide !text-white flex-col justify-start items-center  text-start">
 
         <div class="text-start">
             <h2 class=" t-title  ">How to make a spoon water wheel and things to consider:</h2>
@@ -144,7 +144,7 @@
 
 
     {{--  slide 31 --}}
-    <div class=" slide flex text-2xl t-slide text-white flex-col justify-start items-center  text-start">
+    <div class=" slide flex text-2xl t-slide !text-white flex-col justify-start items-center  text-start">
         <div class="text-start">
             <h2 class=" t-title  ">Things to consider for the test of the water wheel:</h2>
             <ul class="list-disc">
@@ -160,7 +160,7 @@
 
 
     {{-- sldie 32 --}}
-    <div class="slide flex t-slide  flex-col  text-2xl text-start text-white">
+    <div class="slide flex t-slide  flex-col  text-2xl text-start !text-white">
         <div>
             <h2 class="t-title">Notes:</h2>
             <ul class="list-disc">
@@ -197,7 +197,7 @@
 
 
     {{--  slide 33 --}}
-    <div class=" slide flex text-2xl t-slide text-white flex-col justify-start items-center  text-start">
+    <div class=" slide flex text-2xl t-slide !text-white flex-col justify-start items-center  text-start">
 
         <h2 class="title stroke text-center">Learning Centre Idea</h2>
         <ul class="!text-start">

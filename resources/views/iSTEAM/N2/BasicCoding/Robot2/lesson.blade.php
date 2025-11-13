@@ -29,7 +29,7 @@
         <img src="{{ asset('assets/images/N2/BasicCoding/br1.png') }}" />
         <h2 class="stroke title">This is the way to turn the robot on ot off.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
 
@@ -40,7 +40,7 @@
         <img src="{{ asset('assets/images/N2/BasicCoding/br3.png') }}" />
         <h2 class="stroke title">This is the way to turn the pen controller on ot off.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -65,17 +65,17 @@
     {{-- slide 7 --}}
     <div class="slide flex flex-col items-center justify-center  ">
         <img src="{{ asset('assets/images/N2/BasicCoding/sb3.png') }}" />
-        <h2 class="title stroke text-center"> Then you use a <span class="text-white">pen</span> <span
+        <h2 class="title stroke text-center"> Then you use a <span class="!text-white">pen</span> <span
                 class="text-white">controller</span> to tap on the different cards<br />
-            to record the <span class="text-white">programme</span>.</h2>
+            to record the <span class="!text-white">programme</span>.</h2>
     </div>
 
     {{-- slide 8 --}}
     <div class="slide flex flex-col items-center justify-center  ">
         <img src="{{ asset('assets/images/N2/BasicCoding/sb3.png') }}" />
-        <h2 class="title stroke text-center">When you use the <span class="text-white">pen controller</span> to tap on the
-            <span class="text-white">play card</span>,
-            the <span class="text-white">robot</span> will run the recorded <span class="text-white">programme</span>.
+        <h2 class="title stroke text-center">When you use the <span class="!text-white">pen controller</span> to tap on the
+            <span class="!text-white">play card</span>,
+            the <span class="!text-white">robot</span> will run the recorded <span class="!text-white">programme</span>.
         </h2>
     </div>
 
@@ -83,11 +83,11 @@
     {{-- slide 9 --}}
     <div class="slide flex flex-col items-center justify-center  ">
         <img src="{{ asset('assets/images/N2/BasicCoding/br18.png') }}" />
-        <h2 class="title stroke text-center">This <span class="text-white">programme</span> tells the <span
+        <h2 class="title stroke text-center">This <span class="!text-white">programme</span> tells the <span
                 class="text-white">robot</span> to show different facial
-            expressions based on the order of the <span class="text-white">programming cards</span>.</h2>
+            expressions based on the order of the <span class="!text-white">programming cards</span>.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -96,7 +96,7 @@
     {{-- sldie 10 --}}
     <div class="slide flex flex-col items-center justify-center  ">
         <img src="{{ asset('assets/images/N2/BasicCoding/sb4.png') }}" />
-        <h2 class="title stroke text-center">These are directional <span class="text-white">programming cards</span>.<br />
+        <h2 class="title stroke text-center">These are directional <span class="!text-white">programming cards</span>.<br />
             What do you think you can use them for?</h2>
         <p class="note">Note: Display the cards and have children share their views.</p>
     </div>
@@ -114,11 +114,11 @@
     {{-- slide 12 --}}
     <div class="slide flex flex-col items-center justify-center  ">
         <img src="{{ asset('assets/images/N2/BasicCoding/sb5.png') }}" />
-        <h2 class="title stroke text-center">Let’s use the <span class="text-white">pen controller</span> to record and play
-            the <span class="text-white">programme</span> to see how the <span class="text-white">robot</span> move. </h2>
+        <h2 class="title stroke text-center">Let’s use the <span class="!text-white">pen controller</span> to record and play
+            the <span class="!text-white">programme</span> to see how the <span class="!text-white">robot</span> move. </h2>
         <p class="note">Note: Duplicate he set-up in class. Encourage children to name the things used in this set-up.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -127,9 +127,9 @@
     {{-- slide 13 --}}
     <div class="slide flex flex-col items-center justify-center  ">
         <img src="{{ asset('assets/images/N2/BasicCoding/sb6.png') }}" />
-        <h2 class="title stroke text-center"> Now, let’s use these directional <span class="text-white">programming
+        <h2 class="title stroke text-center"> Now, let’s use these directional <span class="!text-white">programming
                 cards</span><br />
-            to design a <span class="text-white">programme</span> to tell a <span class="text-white">robot</span><br />
+            to design a <span class="!text-white">programme</span> to tell a <span class="!text-white">robot</span><br />
             how to move from a starting point to an end point!
         </h2>
 
@@ -140,7 +140,7 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="!text-white title stroke">Hands-on Time 1</h2>
         <div class="text-start">
-            <h2 class="title stroke">Mission: <br>
+            <h2 class="title stroke text-start">Mission: <br>
                 Let's lay out the sample maze. Use the programming cards to
                 think and plan how to tell a robot to move from the starting
                 point to the end point. After that, use the pen controller to
@@ -268,7 +268,7 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="!text-white title stroke">Hands-on Time 2</h2>
         <div class="text-start">
-            <h2 class="title stroke">Mission: <br>
+            <h2 class="title stroke text-start">Mission: <br>
                 Now, let's repeat the game by designing a programme to tell a
                 robot how to move through the maze and show a facial
                 expression in the end! Tell your friends why you choose that

@@ -4,8 +4,8 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col  items-center ">
-        <div class="indexTitle  text-[55px] stroke">Throw a Rubbish Machine</div>
-        <h2 class=" text-white">
+        <div class="indexTitle   stroke">Throw a Rubbish Machine</div>
+        <h2 class=" !text-white">
             Build a Rube Goldberg Machine that includes
             a simple machine - Wheel and Axle <br> <br> <br> <br>
         </h2>

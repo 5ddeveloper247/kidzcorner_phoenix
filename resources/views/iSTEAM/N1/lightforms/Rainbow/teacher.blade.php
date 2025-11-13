@@ -7,7 +7,7 @@
     <h2 class="top-title stroke">Rainbows</h2>
 
     {{-- slide 1 --}}
-    <div class="flex flex-col text-start text-2xl text-white slide hidden t-slide">
+    <div class="flex flex-col text-start  !text-white  hidden t-slide">
         <div>
             <h2 class="t-title">Children will be able to:</h2>
             <ul class="list-disc">
@@ -44,7 +44,7 @@
 
 
     {{-- slide 2 --}}
-    <div class="text-white  flex flex-col text-start text-2xl slide hidden t-slide">
+    <div class="text-white  flex flex-col text-start   hidden t-slide">
         <div>
             <h2 class=" t-title">Preparations for Class Activity I:</h2>
             <ul class="list-disc">
@@ -54,7 +54,7 @@
                         <li>Teachers need to test out the plastic containers that you have prior to the lesson.</li>
                         <li>Containers must be transparent.</li>
                         <li>Rainbows formed may not be obvious, so do point them out to the children.</li>
-                        <li>It <strong>MUST</strong> be a sunny day.</li>
+                        <li>It MUST be a sunny day.</li>
                     </ul>
                 </li>
             </ul>
@@ -71,17 +71,17 @@
                         <li>Shine the light into the submerged portion of the mirror.</li>
                         <li>The rainbow will be more obvious when the flashlight used is bright.</li>
                         <li>The light must be white to show the rainbow.</li>
-                        <li>Flashlight with orange light is <strong>not advisable</strong>.</li>
+                        <li>Flashlight with orange light is not advisable.</li>
                     </ul>
                 </li>
             </ul>
         </div>
-        <img src="{{ asset('assets/ images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
     </div>
 
 
     {{-- slide 3 --}}
-    <div class="text-white  flex  gap-y-30 flex-col text-start text-2xl slide hidden t-slide">
+    <div class="text-white  flex  gap-y-30 flex-col text-start  hidden t-slide">
         <div>
             <h2 class=" t-title">Preparations for Class Activity 3:</h2>
             <ul class="list-disc">
@@ -103,49 +103,62 @@
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
     </div>
-    
+
 
     {{-- slide 4 --}}
-    <div class="slide flex t-slide  flex-col  text-2xl text-start text-white">
+    <div class=" t-slide text-start !text-white !w-[53vw]">
         <div>
-            <h2 class="t-title">Notes:</h2>
-            <ul class="list-disc">
-                <li class="flex whitespace-nowrap">
-                    If you see
-                    <span class="info-btn">
-                        <img src="{{ asset('assets/images/pptimages/video.png') }}" />
+            <h2 class="t-title ">Notes:</h2>
+            <ul class="list-disc space-y-3">
+                <li>
+                    <span class="relative">
+                        If you see <span class="opacity-0">---</span>next to a picture, click on the picture to watch the
+                        video.
+                        <img class="t-video-btn absolute top-[-1vw] left-[7.6vw]"
+                            src="{{ asset('assets/images/pptimages/video.png') }}" />
                     </span>
-                    next to a picture, click on the picture to watch the video.
                 </li>
-                <li class="flex whitespace-nowrap">
-                    If you see
-                    <span> <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="video-btn" />
+
+                <li>
+                    <span class="relative">
+                        If you see <span class="opacity-0">---</span> , click on it for additional information or activity.
+                        <img src="{{ asset('assets/images/pptimages/info-btn.png') }}"
+                            class="t-info-btn absolute top-[-1vw] left-[8vw]" />
                     </span>
-                    , click on it for additional information or activity.
                 </li>
-                <li>Always ask questions to encourage children to think and share their ideas first before giving
-                    out
-                    any information.</li>
+
+                <li>
+                    Always ask questions to encourage children to think and share their ideas first before giving out
+                    any information.
+                </li>
+
                 <li>Emphasise and use the keywords during hands-on sessions.</li>
-                <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
+
+                <li>
+                    Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
                 </li>
-                <li class="flex whitespace-nowrap">
-                    Click on this shortcut icon
-                    <span> <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" class="home-btn" />
+
+                <li>
+                    <span class="relative">
+                        Click on this shortcut icon <span class="opacity-0">---</span> if you need to go to some parts of
+                        the lesson quickly.
+                        <img src="{{ asset('assets/images/pptimages/home-btn.png') }}"
+                            class="t-home-btn absolute top-0 left-[19vw]" />
                     </span>
-                    if you need to go to some parts of the lesson quickly.
                 </li>
+
             </ul>
         </div>
+
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- slide 5 --}}
-    <div class="text-white flex text-start flex-col text-2xl slide hidden t-slide">
+    <div class="text-white flex text-start flex-col   hidden t-slide">
         <h1 class="title text-center stroke">Learning Center Idea</h1>
         <div>
-            <h2 class="!text-white title stroke">Colours on the Rainbow</h2>
+            <h2 class="!text-white text-[2vw] stroke">Colours on the Rainbow</h2>
             <h2 class="t-title">What and how to setup:</h2>
             <p>Provide materials such as cubes, pom pom balls, manipulative toys and
                 printed template of a rainbow in black and white.</p>
@@ -167,10 +180,10 @@
 
 
     {{-- slide 6 --}}
-    <div class="text-white flex text-start flex-col text-2xl slide hidden t-slide">
+    <div class="text-white flex text-start flex-col   hidden t-slide">
         <h1 class="title text-center stroke">Learning Center Idea</h1>
         <div>
-            <h2 class="!text-white title stroke">My Rainbow</h2>
+            <h2 class="!text-white text-[2vw] stroke">My Rainbow</h2>
             <h2 class="t-title">What and how to setup:</h2>
             <p>Put bottles of water in transparent containers (tightly sealed), disc
                 and flashlights.</p>
@@ -231,7 +244,7 @@
     <script>
         document.addEventListener("DOMContentLoaded", () => {
             // Get all elements
-            const slides = document.querySelectorAll(".slide");
+            const slides = document.querySelectorAll(".t-slide");
             const nextBtn = document.querySelector(".nextButton");
             const returnBtn = document.getElementById("returnButton");
             const doneBtn = document.querySelector(".doneButton");
@@ -284,7 +297,7 @@
 
             // Done button
             doneBtn.addEventListener("click", () => {
-                window.location.href = "{{ route('lightforms') }}";
+                window.location.href = "{{ route('rainbowSelection') }}";
             });
 
             // Start at first slide

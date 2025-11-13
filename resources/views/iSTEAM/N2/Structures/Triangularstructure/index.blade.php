@@ -4,7 +4,7 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col items-center ">
-        <h2 class=" indexTitle text-[55px] stroke">Triangular Structures</h2>
+        <h2 class=" indexTitle  stroke">Triangular Structures</h2>
         <h2 class="!text-white title leading-normal">Learn about the designs of towers and <br>
             pyramids; explore design and build a <br>
             triangular structure.</h2>

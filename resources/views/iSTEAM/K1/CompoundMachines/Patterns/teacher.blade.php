@@ -7,7 +7,7 @@
     <h2 class="top-title stroke">Pretty Domino Patterns</h2>
 
     {{-- sldie 1 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -32,7 +32,7 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start ">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start ">
         <div>
             <h2 class=" t-title">Preparations for Class Activity I:</h2>
             <ul class="list-disc ">
@@ -48,7 +48,7 @@
 
 
     {{-- slide 3 --}}
-    <div class=" slide flex text-2xl t-slide text-white justify-start  text-start ">
+    <div class=" slide flex text-2xl t-slide !text-white justify-start  text-start ">
         <div>
             <h2 class=" t-title">Preparations for Class Activity I:</h2>
             <ul class="list-disc ">
@@ -69,7 +69,7 @@
 
 
     {{-- slide 4 --}}
-    <div class="slide flex  flex-col t-slide justify-start  text-2xl text-start text-white">
+    <div class="slide flex  flex-col t-slide justify-start  text-2xl text-start !text-white">
         <div>
             <h2 class=" t-title">Notes:</h2>
             <ul class="list-disc leading-relaxed">

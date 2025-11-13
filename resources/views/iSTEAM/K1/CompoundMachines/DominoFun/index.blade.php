@@ -7,8 +7,8 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col   items-center ">
-        <div class="  text-[#F7B94A] text-[50px] font-extrabold stroke">Domino Fun</div>
-        <h2 class=" text-white stroke ">
+        <div class="  text-[#F7B94A] text-[50px] stroke">Domino Fun</div>
+        <h2 class=" !text-white stroke ">
             Explore domino effects and basic domino
             arrangements that create domino effects </h2>
 

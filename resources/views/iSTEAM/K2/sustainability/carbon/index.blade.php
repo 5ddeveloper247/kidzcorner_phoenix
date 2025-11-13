@@ -3,9 +3,9 @@
 
 @section('content')
 
-    <div id="topDiv" class="flex flex-col  gap-20 items-center !justify-center">
+    <div id="topDiv" class="flex flex-col  gap-20 ">
         <div class="indexTitle !text-[2.6vw] stroke">Carbon Footprint and the Future of Food</div>
-        <h2 class=" text-white stroke ">
+        <h2 class=" !text-white stroke ">
             Understand the meaning of carbon footprint; <br>
             learn how to protect Earth by reducing our carbon <br>
             footprint; learn about the future of food</h2>

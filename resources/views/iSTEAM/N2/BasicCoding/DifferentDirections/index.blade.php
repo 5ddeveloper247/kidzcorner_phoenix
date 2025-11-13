@@ -5,7 +5,7 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col items-center h-full justify-between ">
-        <div class="indexTitle  text-[55px]  stroke">Different Directions</div>
+        <div class="indexTitle    stroke">Different Directions</div>
         <h2 class="text-2xl sm:text-3xl lg:text-6xl !text-white stroke">Identify “forward”, “backward”, “left” and
             “right” directions; learn to move according to directional signs</h2>
         <button

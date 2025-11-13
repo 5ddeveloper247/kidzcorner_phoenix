@@ -6,8 +6,8 @@
 
     {{-- Slide 1 --}}
     <div class="flex flex-col items-center justify-between h-[50vh] slide hidden">
-        <h2 class="stroke title">Children, do you still remember what a <span class="text-white">living things<br /></span>is
-            and what a <span class="text-white">non-living things</span> is?</h2>
+        <h2 class="stroke title">Children, do you still remember what a <span class="!text-white">living things<br /></span>is
+            and what a <span class="!text-white">non-living things</span> is?</h2>
         <p class="note">Note: Encourage children to share what they know about living things and non-living things.</p>
     </div>
 
@@ -16,15 +16,15 @@
     <div class="slide flex flex-col items-center justify-center  ">
 
         <img src="{{ asset('assets/images/N2/LivingThings/an2.png') }}" class="w-[436px]" />
-        <h2 class="stroke title">Between you and a doll, which is a <span class="text-white">living thing</span>?<br />Which
-            is a <span class="text-white">non-living thing</span>?</h2>
+        <h2 class="stroke title">Between you and a doll, which is a <span class="!text-white">living thing</span>?<br />Which
+            is a <span class="!text-white">non-living thing</span>?</h2>
     </div>
 
 
     {{-- Slide 3 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
         <img src="{{ asset('assets/images/N2/LivingThings/an2.png') }}" class="w-[436px]" />
-        <h2 class="stroke title">Which are <span class="text-white">living things</span>? Which are <span
+        <h2 class="stroke title">Which are <span class="!text-white">living things</span>? Which are <span
                 class="text-white">non-living things</span>?</h2>
         <p class="note">Note: Have children recall and point out the answers.</p>
     </div>
@@ -33,7 +33,7 @@
     {{-- slide 4 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="stroke title">A person, a dog and a fish move on its own, drink, eat,<br />breathe and grow. So they are
-            <span class="text-white">living things</span>.
+            <span class="!text-white">living things</span>.
         </h2>
         <img src="{{ asset('assets/images/N2/LivingThings/g9.png') }}" />
     </div>
@@ -93,8 +93,8 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <img src="{{ asset('assets/images/N2/LivingThings/gl3.png') }}" class="large-img6" />
 
-        <h2 class="stroke title">This is the photo of Emma when she was <span class="text-white">young</span>.<br />A young
-            person is also called a <span class="text-white">child</span>.</h2>
+        <h2 class="stroke title">This is the photo of Emma when she was <span class="!text-white">young</span>.<br />A young
+            person is also called a <span class="!text-white">child</span>.</h2>
         <p class="note">Note: Introduce the stages of growth to children. Have them name each stage.</p>
     </div>
 
@@ -112,7 +112,7 @@
         <img src="{{ asset('assets/images/N2/LivingThings/gl5.png') }}" class="large-img6" />
 
         <h2 class="stroke title">This is the photo of Emma now.<br />She has grown much <span
-                class="text-white">older</span>. She is now an elderly <span class="text-white">person</span>.</h2>
+                class="text-white">older</span>. She is now an elderly <span class="!text-white">person</span>.</h2>
         <p class="note">Note: Introduce the stages of growth to children. Have them name each stage.</p>
     </div>
 
@@ -144,8 +144,8 @@
     {{-- slide 15 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <img src="{{ asset('assets/images/N2/LivingThings/bl3.png') }}" class="large-img6" />
-        <h2 class="stroke title">This is the photo of Oliver when he was <span class="text-white">young</span>.<br />A
-            young person is also called a <span class="text-white">child</span>.</h2>
+        <h2 class="stroke title">This is the photo of Oliver when he was <span class="!text-white">young</span>.<br />A
+            young person is also called a <span class="!text-white">child</span>.</h2>
         <p class="note">Note: Explain to children that every boy goes through these stages of growth.</p>
     </div>
 
@@ -229,9 +229,9 @@
             <img src="{{ asset('assets/images/N2/LivingThings/an70.png') }}" class="large-img" />
             <img src="{{ asset('assets/images/N2/LivingThings/an71.png') }}" class="large-img" />
         </div>
-        <h2 class="stroke title">As we <span class="text-white">grow</span>, we <span class="text-white">eat</span> and
-            <span class="text-white">drink</span>. Food has all <br />the <span class="text-white">nutrients</span> our
-            body needs to live and <span class="text-white">grow</span>.
+        <h2 class="stroke title">As we <span class="!text-white">grow</span>, we <span class="!text-white">eat</span> and
+            <span class="!text-white">drink</span>. Food has all <br />the <span class="!text-white">nutrients</span> our
+            body needs to live and <span class="!text-white">grow</span>.
         </h2>
     </div>
 
@@ -282,8 +282,8 @@
             </div>
 
         </div>
-        <h2 class="stroke title">Similar to you, these are the <span class="text-white">stages of growth</span> of a
-            dog.<br />As a dog<span class="text-white"> grows</span>, it becomes bigger in size and its look changes.</h2>
+        <h2 class="stroke title">Similar to you, these are the <span class="!text-white">stages of growth</span> of a
+            dog.<br />As a dog<span class="!text-white"> grows</span>, it becomes bigger in size and its look changes.</h2>
         <p class="note">Note: Encourage children to share what they see in the picture.</p>
     </div>
 
@@ -294,17 +294,17 @@
             <img src="{{ asset('assets/images/N2/LivingThings/an32.png') }}" class="large-img" />
             <img src="{{ asset('assets/images/N2/LivingThings/an28.png') }}" class="large-img" />
         </div>
-        <h2 class="stroke title">Similar to you, dogs <span class="text-white">eat</span> and <span
-                class="text-white">drink</span> as they <span class="text-white">grow</span>.<br />Food has the <span
-                class="text-white">nutrients</span> that dogs need to live and <span class="text-white">grow</span>.</h2>
+        <h2 class="stroke title">Similar to you, dogs <span class="!text-white">eat</span> and <span
+                class="text-white">drink</span> as they <span class="!text-white">grow</span>.<br />Food has the <span
+                class="text-white">nutrients</span> that dogs need to live and <span class="!text-white">grow</span>.</h2>
     </div>
 
 
     {{-- slide 26 --}}
     <div class="flex flex-col items-center slide hidden">
         <img src="{{ asset('assets/images/N2/LivingThings/g10.png') }}" class="large-img6" />
-        <h2 class="stroke title">We know that people and dogs are <span class="text-white">animals</span>.<br />We also
-            know that <span class="text-white">animals</span> are <span class="text-white">living things</span>.</h2>
+        <h2 class="stroke title">We know that people and dogs are <span class="!text-white">animals</span>.<br />We also
+            know that <span class="!text-white">animals</span> are <span class="!text-white">living things</span>.</h2>
     </div>
 
 

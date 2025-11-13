@@ -31,65 +31,52 @@
 
 @section('content')
 
-    <div class=" panel panel-f grid grid-cols-3 z-[99] px-4 gap-[3vw] max-w-[60vw]  m-auto">
+    <div class=" panel K2-panel grid grid-cols-3 z-[99] px-4 gap-x-[2.5vw]">
 
         <a href="{{ route('k2livingthings') }}"
             style="background-image: url('{{ asset('/assets/images/pptimages/Property1.png') }}');"
-            class=" bg-no-repeat bg-contain bg-center w-[16vw] h-[10vw] relative flex justify-center items-center transition hover:brightness-110 ">
-            <img src="{{ asset('/assets/images/K2/k1.png') }}" alt="" class="w-[5vw] absolute top-[0vw] left-[0vw]">
-            <h2 class="!text-[1.5vw] text-[#534444]">
-                Living <br> Things
-            </h2>
+            class=" bg-no-repeat bg-contain bg-center  w-[18vw] h-[14.8vw] relative flex justify-center items-center transition hover:brightness-110">
+            <h2 class="text-[2vw] text-[#7D6F71]">Living <br> Things</h2>
+            <img src="{{ asset('/assets/images/K2/K1.png') }}" class="w-[5.5vw] h-[5.5vw] absolute left-[0] top-[1.5vw]">
+
         </a>
 
         <a href="{{ route('k2sustainability') }}"
             style="background-image: url('{{ asset('/assets/images/pptimages/Property1.png') }}');"
-            class=" bg-no-repeat bg-contain bg-center w-[16vw] h-[10vw] relative flex justify-center items-center  transition hover:brightness-110 ">
-            <img src="{{ asset('/assets/images/K2/k2.png') }}" alt="" class="w-[5vw] absolute top-[-1vw] right-0">
-            <h2 class="!text-[1.5vw] text-[#534444]">
-                Sustainability </h2>
+            class=" bg-no-repeat bg-contain bg-center  w-[18vw] h-[14.8vw] relative flex justify-center items-center transition hover:brightness-110">
+            <h2 class="text-[2vw] text-[#7D6F71]">Sustainability</h2>
+            <img src="{{ asset('/assets/images/K2/K2.png') }}" class="w-[5.5vw] h-[5.5vw] absolute right-[1vw] top-[0vw]">
         </a>
 
         <a href="{{ route('k2Aerodynamics') }}"
             style="background-image: url('{{ asset('/assets/images/pptimages/Property1.png') }}');"
-            class=" bg-no-repeat bg-contain bg-center w-[16vw] h-[10vw] relative flex justify-center items-center  transition hover:brightness-110 ">
-            <img src="{{ asset('/assets/images/K2/k3.png') }}" alt=""
-                class="w-[5vw] absolute top-[-1vw] right-[0vw]">
-            <h2 class="!text-[1.5vw] text-[#534444]">
-                Aerodynamics
-            </h2>
+            class=" bg-no-repeat bg-contain bg-center  w-[18vw] h-[14.8vw] relative flex justify-center items-center transition hover:brightness-110">
+            <h2 class="text-[2vw] text-[#7D6F71]">Aerodynamics</h2>
+            <img src="{{ asset('/assets/images/K2/K3.png') }}" class="w-[5.5vw] h-[5.5vw] absolute right-[1vw] top-[0vw]">
         </a>
 
 
         <a href="{{ route('k2coding') }}"
             style="background-image: url('{{ asset('/assets/images/pptimages/Property1.png') }}');"
-            class=" bg-no-repeat bg-contain bg-center w-[16vw] h-[10vw] relative flex justify-center items-center  transition hover:brightness-110 ">
-            <img src="{{ asset('/assets/images/N2/a3.png') }}" alt="" class="w-[4vw] absolute bottom-[0vw] left-0">
-            <h2 class="!text-[1.5vw] text-[#534444]">
-                Coding and <br> Animation
-            </h2>
+            class=" bg-no-repeat bg-contain bg-center  w-[18vw] h-[14.8vw] relative flex justify-center items-center transition hover:brightness-110">
+            <h2 class="text-[2vw] text-[#7D6F71]">Coding And <br> Animation</h2>
+            <img src="{{ asset('/assets/images/N2/a3.png') }}" class="w-[5.5vw] h-[5.5vw] absolute left-[-1vw] bottom-[0]">
         </a>
 
 
         <a href="{{ route('k2ElectronicCircuits') }}"
             style="background-image: url('{{ asset('/assets/images/pptimages/Property1.png') }}');"
-            class=" bg-no-repeat bg-contain bg-center w-[16vw] h-[10vw] relative flex justify-center items-center  transition hover:brightness-110 ">
-            <img src="{{ asset('/assets/images/N2/a1.png') }}" alt=""
-                class="w-[5vw] absolute top-[0vw] left-[0vw]">
-            <h2 class="!text-[1.5vw] text-[#534444]">
-                Electronic <br> Circuits
-            </h2>
+            class=" bg-no-repeat bg-contain bg-center  w-[18vw] h-[14.8vw] relative flex justify-center items-center transition hover:brightness-110">
+            <h2 class="text-[2vw] text-[#7D6F71]">Electronic <br> Circuit</h2>
+            <img src="{{ asset('/assets/images/N2/a1.png') }}" class="w-[5.5vw] h-[5.5vw] absolute left-[0] top-[1.5vw]">
         </a>
 
 
         <a href="{{ route('k2FinalProject') }}"
             style="background-image: url('{{ asset('/assets/images/pptimages/Property1.png') }}');"
-            class=" bg-no-repeat bg-contain bg-center w-[16vw] h-[10vw] relative flex justify-center items-center  transition hover:brightness-110 ">
-            <img src="{{ asset('/assets/images/pptimages/light-bulb1.png') }}" alt=""
-                class="w-[5vw] absolute top-[0] left-[0vw]">
-            <h2 class="!text-[1.5vw] text-[#534444]">
-                Final <br> Project
-            </h2>
+            class=" bg-no-repeat bg-contain bg-center  w-[18vw] h-[14.8vw] relative flex justify-center items-center transition hover:brightness-110">
+            <h2 class="text-[2vw] text-[#7D6F71]">Final <br> Project</h2>
+            <img src="{{ asset('/assets/images/K2/K4.png') }}" class="w-[5.5vw] h-[5.5vw] absolute left-[0] top-[1.5vw]">
         </a>
     </div>
 

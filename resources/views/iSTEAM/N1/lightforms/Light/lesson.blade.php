@@ -9,7 +9,7 @@
     {{-- Slide 1 --}}
     <div class="slide flex flex-col items-center justify-center  ">
         <h2 class="title stroke">What do you see in this picture?</h2>
-        <img src="{{ asset('assets/images/pptimages/light1.png') }}" />
+        <img src="{{ asset('assets/images/pptimages/light1.png') }}" class="img-md" />
         <p class="note">Note: Guide children to share their answers.</p>
     </div>
 
@@ -18,26 +18,26 @@
         <!-- Question -->
         <h2 class="title stroke">
             <span class="text-[#F7B94A]">Can you see the </span>
-            <span class="text-white">SUN</span>
+            <span class="!text-white">SUN</span>
             <span class="text-[#F7B94A]">?</span>
         </h2>
 
-        <img src="{{ asset('assets/images/pptimages/light2.png') }}" />
+        <img src="{{ asset('assets/images/pptimages/light2.png') }}" class="img-md" />
         <div class="note">Note: Point out the sun to the children.</div>
     </div>
 
     {{-- Slide3 --}}
     <div class="slide hidden flex flex-col items-center justify-center ">
         <h2 class="title stroke">
-            The <span class="text-5xl text-white">Sun</span> is so <span class="text-5xl text-white">Bright !</span> </br>It
-            gives <span class="text-5xl text-white">light</span> during the day! </h2>
-        <img src="{{ asset('assets/images/pptimages/light1.png') }}" alt="Light Example" />
+            The <span class="text-5xl !text-white">Sun</span> is so <span class="text-5xl !text-white">Bright !</span> </br>It
+            gives <span class="text-5xl !text-white">light</span> during the day! </h2>
+        <img src="{{ asset('assets/images/pptimages/light1.png') }}" alt="Light Example" class="img-md" />
     </div>
 
     {{-- Slide 4 --}}
     <div class=" slide hidden flex flex-col items-center justify-center ">
         <h2 class="title stroke">Let us Sing!</h2>
-        <img src="{{ asset('assets/images/pptimages/sun.png') }}" />
+        <img src="{{ asset('assets/images/pptimages/sun.png') }}" class="sun-img" />
         <h2 class="title stroke !text-white">Mr. Golden Sun</h2>
         <p class="note">Note: Teacher to lead the song and encourage children to sing together.</p>
     </div>
@@ -53,7 +53,7 @@
             twinkle little stars.</p>
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[100] -translate-y-1/2 video-btn">
-            <img src="{{ asset('assets/images/pptimages/video.png') }}" />
+            <img src="{{ asset('assets/images/pptimages/video.png') }}" class="img-md" />
         </div>
     </div>
 
@@ -61,41 +61,41 @@
     {{-- slide 6 --}}
     <div class=" slide hidden flex flex-col items-center justify-center ">
         <h2 class="title stroke">These are
-            <span class="text-white">stars</span> ! The stars give out
-            <span class="text-white">light</span>
+            <span class="!text-white">stars</span> ! The stars give out
+            <span class="!text-white">light</span>
             and they shine
-            <span class="text-white">brightly </span>
+            <span class="!text-white">brightly </span>
             at night!
         </h2>
-        <img src="{{ asset('assets/images/pptimages/galaxy.png') }}" />
+        <img src="{{ asset('assets/images/pptimages/galaxy.png') }}" class="img-md" />
     </div>
 
 
     {{-- Slide 7 --}}
     <div class="slide hidden flex flex-col items-center justify-center  text-center">
-        <h2 class="text-4xl text-[#F7B94A] sm:text-5xl lg:text-6xl stroke">Let's
-            Sing!</h2>
-        <img  src="{{ asset('assets/images/pptimages/star.png') }}" />
+        <h2 class="title stroke">Let's Sing!</h2>
+        <img src="{{ asset('assets/images/pptimages/star.png') }}" class="img-md" />
         <h2 class="title !text-white stroke">Twinkle Twinkle Little Star</h2>
-        <p class="note">Note: Teacher to lead the song and encourage children to sing together. If unsure, refer to notes for links to song.</p>
+        <p class="note">Note: Teacher to lead the song and encourage children to sing together. If unsure, refer to notes
+            for links to song.</p>
     </div>
 
 
 
     {{-- slide 8 --}}
-    <div class="slide hidden  flex flex-col items-center justify-center gap-1.5">
+    <div class="slide hidden  flex flex-col items-center justify-center ">
         <h2 class="title stroke stroke">Do you know what this is?</h2>
         <!-- Center Illustration -->
-        <img src="{{ asset('assets/images/pptimages/candle.png') }}" />
+        <img src="{{ asset('assets/images/pptimages/candle.png') }}" class="img-md" />
         <p class="note">Note: Encourage children to share their answers.</p>
     </div>
 
 
     {{-- slide 9 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-1.5">
-        <h2 class="title stroke">The <span class="text-white">fire</span> on the candle gives <span
+    <div class="slide hidden flex flex-col items-center justify-center ">
+        <h2 class="title stroke">The <span class="!text-white">fire</span> on the candle gives <span
                 class="text-white">light</span> too!</h2>
-        <img src="{{ asset('assets/images/pptimages/candle.png') }}" />
+        <img src="{{ asset('assets/images/pptimages/candle.png') }}" class="img-md" />
 
         <p class="note">Note: Ask children if they have seen candles on birthday cakes and what
             </br> happens when the candles are blown out.</p>
@@ -104,14 +104,13 @@
 
     {{-- slide 10 --}}
     <div class="slide hidden flex flex-col items-center  ">
-        <h2 class="text-cente title stroke">The <span class="text-white ">sun</span>,
-            <span class="text-white ">stars</span> and <span class="text-white ">fire</span> are <span class="text-white">natural</span> sources of
-            <span class="text-white ">light</span>. <br> <span class="text-white ">Light</span> help us to see things
+        <h2 class="text-cente title stroke">The <span class="!text-white ">sun</span>,
+            <span class="!text-white ">stars</span> and <span class="!text-white ">fire</span> are <span
+                class="text-white">natural</span> sources of
+            <span class="!text-white ">light</span>.  <span class="!text-white ">Light</span> help us to see things
             around us.
         </h2>
-        <img src="{{ asset('assets/images/pptimages/three1.png') }}" class="!max-w-[44vw] h-[14vw]" />
-        <div class="note">Note: Ask children if they have seen candles on birthday cakes and
-            what </br> happen when the candles are blown out.</div>
+        <img src="{{ asset('assets/images/pptimages/three1.png') }}" class="img-xl" />
 
     </div>
 
@@ -119,18 +118,18 @@
     {{-- slide 11 --}}
     <div class="slide hidden flex flex-col items-center justify-center ">
         <h2 class="text-cente title stroke">Switch
-            off the <span class="text-white">light</span> in the room and draw the curtains. How do you feel? Do you see
+            off the <span class="!text-white">light</span> in the room and draw the curtains. How do you feel? Do you see
             clearly?
         </h2>
-        <img src="{{ asset('assets/images/pptimages/blacklight.png') }}" />
+        <img src="{{ asset('assets/images/pptimages/blacklight.png') }}" class="img-md" />
         <p class="note">Note: Encourage children to share their answers.</p>
     </div>
 
     {{-- slide 12 --}}
     <div class="slide hidden  flex flex-col items-center justify-center ">
-        <h2 class="text-cente title stroke">Without any <span class="text-white">light</span>, the room
+        <h2 class="text-cente title stroke">Without any <span class="!text-white">light</span>, the room
             would be dark and it would be hard to see things around us. </h2>
-        <img src="{{ asset('assets/images/pptimages/blacklight.png') }}" />
+        <img src="{{ asset('assets/images/pptimages/blacklight.png') }}" class="img-md" />
     </div>
 
 
@@ -138,7 +137,7 @@
     <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
         <h2 class="title !text-white stroke">CLASS ACTIVITY 1 </h2>
 
-        <img src="{{ asset('assets/images/pptimages/gl4.png') }}" class="!max-w-[44vw] h-[14vw]" />
+        <img src="{{ asset('assets/images/pptimages/gl4.png') }}" class="img-xl" />
         <h2 class="text-center title stroke">Look at these items, which items have
             light? </h2>
         <p class="note">Note: Teacher to prepare more additional items too such as light stick,
@@ -148,9 +147,9 @@
 
     {{-- slide 14 --}}
     <div class="slide hidden  flex flex-col items-center">
-        <h2 class="text-cente text-[55px] text-white stroke">Let's do:</h2>
-        <div class="title font-normal mb-20">
-            <ol class="list-decimal space-y-2 text-start stroke">
+        <h2 class="text-center  !text-white stroke">Let's do:</h2>
+        <div class=" mb-20">
+            <ol class="title lesson-ul list-decimal space-y-2 text-start stroke">
                 <li>
                     Explore the items provided. Which item lights up?
                 </li>
@@ -175,42 +174,42 @@
     {{-- slide 15 --}}
     <div class="slide hidden  flex flex-col items-center justify-between h-[45vh]">
 
-        <img src="{{ asset('assets/images/pptimages/torch.png') }}" class="!max-w-[40vw] h-[12vw]" />
+        <img src="{{ asset('assets/images/pptimages/torch.png') }}" class="!max-w-[38.5vw] h-[23.281vw]" />
         <h2 class=" title stroke">The flashlight <span class="text-shite">light</span> up when it is switched on.</h2>
 
     </div>
 
     {{-- slide 16 --}}
     <div class="slide  hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/pptimages/gl1.png') }}" class="!max-w-[40vw] h-[14vw]" />
-        <h2 class="text-cente title stroke">The ceiling <span class="text-white ">light</span> and table lamp <span
+        <img src="{{ asset('assets/images/pptimages/gl1.png') }}" class="img-xl" />
+        <h2 class="text-cente title stroke">The ceiling <span class="!text-white ">light</span> and table lamp <span
                 class="text-white ">light</span> up when they are being switched on.</h2>
-        <div class="note">Note: Encourage children to point out the lights in the room.</div>
+        <p class="note">Note: Encourage children to point out the lights in the room.</p>
     </div>
 
 
     {{-- slide 17 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/pptimages/gl2.png') }}"  class="!max-w-[40vw] h-[14vw]"/>
-        <h2 class="text-cente stroke title">The streetlights and vehicle headlights help people to see better at night.</h2>
+        <img src="{{ asset('assets/images/pptimages/gl2.png') }}" class="img-xl" />
+        <h2 class="text-cente stroke title">The streetlights and vehicle headlights help people to see better at night.
+        </h2>
         <p class="note">Note: Encourage children to point out the lights they can see at night.</p>
     </div>
 
 
     {{-- slide 18 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/pptimages/gl3.png') }}"  class="!max-w-[32vw]"/>
-        <h2 class="text-cente title stroke">The flashlight, streetlights, table lamps are <span class="text-white">
+        <img src="{{ asset('assets/images/pptimages/gl3.png') }}" class="!max-w-[40vw] " />
+        <h2 class="text-cente title stroke">The flashlight, streetlights, table lamps are <span class="!text-white">
                 man-made lights</span>. </h2>
-        <h2 class="text-wrap title stroke">These items need batteries or electricity to give <span class="text-white">light</span>.
-        </h2>
+        <h2 class="text-wrap title stroke">These items need batteries or electricity to give light.</h2>
     </div>
 
 
     {{-- slide 19 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
         <h2 class="title !text-white stroke">CLASS ACTIVITY 2</h2>
-        <img src="{{ asset('assets/images/pptimages/dedective.png') }}" class="!max-w-[13vw]" />
+        <img src="{{ asset('assets/images/pptimages/dedective.png') }}" class="h-img" />
         <h2 class="text-cente title stroke"> What kind of lights are there around us?</h2>
         <p class="note">Note: Teacher to prepare camera to capture children looking for different
             light sources.</p>
@@ -220,8 +219,8 @@
     {{-- slide 20  --}}
     <div class="slide hidden flex flex-col items-center h-[50vh] justify-between">
         <div>
-            <h2 class=" text-center text-[55px] text-white stroke">Let's do:</h2>
-            <ol class="stroke title list-decimal space-y-2 text-start">
+            <h2 class=" text-center  !text-white stroke">Let's do:</h2>
+            <ol class="stroke title lesson-ul list-decimal space-y-2 text-start">
                 <li>Take a walk around the school or outdoors.</li>
                 <li>Identify all the light sources.</li>
                 <li>Take photos and discuss as a class why is light needed on that place.</li>
@@ -236,11 +235,12 @@
     {{-- slide 21  --}}
     <div class="slide hidden flex flex-col items-center justify-center ">
 
-        <h2 class="text-center title stroke">The <span class="text-white">sun</span>, <span
-                class="text-white">stars</span> and <span class="text-white">fire</span> are <span class="text-white">natural light</span>.
+        <h2 class="text-center title stroke">The <span class="!text-white">sun</span>, <span
+                class="text-white">stars</span> and <span class="!text-white">fire</span> are <span
+                class="text-white">natural light</span>.
         </h2>
-        <img src="{{ asset('assets/images/pptimages/three1.png') }}" class="!max-w-[44vw] h-[14vw]" />
-        <p class="note text-center text-xl text-white   max-w-2xl">Note: Ask children if they have seen candles
+        <img src="{{ asset('assets/images/pptimages/three1.png') }}" class="img-xl" />
+        <p class="note text-center text-xl !text-white   max-w-2xl">Note: Ask children if they have seen candles
             on birthday cakes
             and what happens when the candles are blown out.</p>
     </div>
@@ -248,12 +248,14 @@
 
     {{-- sldie 22 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/pptimages/gl3.png') }}" class="!max-w-[43vw] h-[14vw]" />
+        <img src="{{ asset('assets/images/pptimages/gl3.png') }}" class="!max-w-[40vw] " />
 
-        <h2 class="text-center title stroke ">The flashlight, streetlights, table lamps are <span class="text-white">
+        <h2 class="text-center title stroke ">The flashlight, streetlights, table lamps are <span class="!text-white">
                 man-made lights</span>.</h2>
 
     </div>
+
+
 
     {{-- Buttons --}}
     <div class="down-btn-container">
@@ -370,7 +372,7 @@
 
             // Done button
             doneBtn.addEventListener("click", () => {
-                window.location.href = "{{ route('n1lightchoose') }}";
+                window.location.href = "{{ route('lightforms') }}";
             });
 
             // Start at first slide

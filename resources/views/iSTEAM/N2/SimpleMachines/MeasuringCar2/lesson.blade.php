@@ -7,7 +7,7 @@
 
     {{-- Slide 1 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/SimpleMachines/gl8.png') }}" class="large-img5" alt="">
+        <img src="{{ asset('assets/images/N2/SimpleMachines/gl8.png') }}" class="img-lg">
         <h2 class="stroke title">Children, what did you build in the last lesson? How did you play with it? What can you use
             it for?</h2>
     </div>
@@ -15,11 +15,14 @@
 
     {{-- Slide 2 --}}
     <div class="slide flex flex-col items-center justify-center ">
-        <img src="{{ asset('assets/images/N2/SimpleMachines/b19.png') }}" class="large-img5" />
+        <video id="video1" class=" pointer-events-none">
+            <source src="{{ asset('assets/images/N2/SimpleMachines/videos/24.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
         <h2 class="stroke title">You pushed the car to make it go forward.
             You read the scale to know how far it went forward. </h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30  -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
 
@@ -28,7 +31,7 @@
 
     {{-- Slide 3 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/SimpleMachines/gl8.png') }}" class="large-img5" alt="">
+        <img src="{{ asset('assets/images/N2/SimpleMachines/gl8.png') }}" class="img-lg">
         <h2 class="stroke title">It is measuring car. <br>
             You can use it to count how many units it goes forward.</h2>
     </div>
@@ -43,14 +46,14 @@
 
     {{-- slide 5 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/SimpleMachines/b20.png') }}" class="large-img5" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/b20.png') }}" class="img-lg" />
         <h2 class="title stroke">This is way to make a measuring car go very far when you give it a push.</h2>
     </div>
 
 
     {{-- slide 6 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/SimpleMachines/gl10.png') }}" class="large-img5" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/gl10.png') }}" class="img-lg" />
         <h2 class="title stroke">Do you know what this is?</h2>
         <p class="note">Note: Encourage children to boldly share their views.</p>
     </div>
@@ -58,23 +61,23 @@
 
     {{-- slide 7 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/SimpleMachines/gl9.png') }}" class="large-img5" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/gl9.png') }}" class="img-lg" />
         <h2 class="title stroke">This is a ramp. It is a slanting surface with one end higher than the other end.</h2>
     </div>
 
     {{-- slide 8 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/SimpleMachines/gl9.png') }}" class="large-img5" />
-        <h2 class="stroke title">The <span class="text-white">ramp</span> looks like a shape.<br />It is a <span
-                class="text-white">simple machine</span> called an <span class="text-white">inclined plane</span>.</h2>
+        <img src="{{ asset('assets/images/N2/SimpleMachines/gl9.png') }}" class="img-lg" />
+        <h2 class="stroke title">The <span class="!text-white">ramp</span> looks like a shape. It is a <span
+                class="text-white">simple machine</span> called an <span class="!text-white">inclined plane</span>.</h2>
     </div>
 
 
     {{-- slide 9 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/SimpleMachines/gl9.png') }}" class="large-img5" />
-        <h2 class="stroke title"><span class="text-white">Simple machines </span>are tools that help us to do work
-            easily.<br />Let’s find out more about <span class="text-white">inclined planes!</span></h2>
+        <img src="{{ asset('assets/images/N2/SimpleMachines/gl9.png') }}" class="img-lg" />
+        <h2 class="stroke title"><span class="!text-white">Simple machines </span>are tools that help us to do work
+            easily.Let’s find out more about <span class="!text-white">inclined planes!</span></h2>
     </div>
 
     {{-- slide 10 --}}
@@ -82,9 +85,9 @@
         <h2 class="title stroke !text-white">Hands-on Time</h2>
         <div class="title stroke text-start">
             <h2>Mission:</h2>
-            <ul>
+            <ol>
                 <li>Let’s push a measuring car down an inclined plane at different heights to see how far it will go.</li>
-            </ul>
+            </ol>
         </div>
         <p class="note">Note: Divide children into groups and give each group a set of materials.</p>
     </div>
@@ -94,12 +97,12 @@
     <div class="flex flex-col  slide hidden items-center">
         <div class="title stroke text-start">
             <h2>Steps:</h2>
-            <ul>
-                <li>1. Push a measuring car down an inclined plane to see how far it goes. Read the scale and record your
+            <ol class="list-decimal lesson-ul" start="1">
+                <li>Push a measuring car down an inclined plane to see how far it goes. Read the scale and record your
                     reading.</li>
-            </ul>
+            </ol>
         </div>
-        <img class="large-img" src="{{ asset('assets/images/N2/SimpleMachines/b21.png') }}" />
+        <img class="img-md" src="{{ asset('assets/images/N2/SimpleMachines/b21.png') }}" />
         <p class="note">Note: Have children work in groups to complete the mission. Have them record the reading in their
             learning journal.</p>
 
@@ -110,11 +113,11 @@
     <div class="flex flex-col  slide hidden items-center">
         <div class="title stroke text-start">
             <h2>Steps:</h2>
-            <ul>
-                <li>2. Change the height of the inclined plane and test again. Read the scale and record your reading.</li>
-            </ul>
+            <ol class="list-decimal lesson-ul" start="2">
+                <li>Change the height of the inclined plane and test again. Read the scale and record your reading.</li>
+            </ol>
         </div>
-        <img class="large-img" src="{{ asset('assets/images/N2/SimpleMachines/b21.png') }}" />
+        <img class="img-md" src="{{ asset('assets/images/N2/SimpleMachines/b21.png') }}" />
         <p class="note">Note: Have children work in groups to complete the mission.Have them record the reading in their
             learning journal.</p>
 
@@ -124,11 +127,11 @@
     <div class="flex flex-col  slide hidden items-center">
         <div class="title stroke text-start">
             <h2>Steps:</h2>
-            <ul>
-                <li>2. Change the height of the inclined plane and test again. Read the scale and record your reading,</li>
-            </ul>
+            <ol class="list-decimal lesson-ul" start="3">
+                <li>Change the height of the inclined plane and test again. Read the scale and record your reading,</li>
+            </ol>
         </div>
-        <img class="large-img" src="{{ asset('assets/images/N2/SimpleMachines/b22.png') }}" />
+        <img class="img-md" src="{{ asset('assets/images/N2/SimpleMachines/b22.png') }}" />
         <p class="note">Note: Have children work in groups to complete the mission.Have them record the reading in their
             learning journal.</p>
 
@@ -148,7 +151,7 @@
     {{-- sldie 15 --}}
     <div class="flex flex-col  slide hidden items-center">
         <h2 class="stroke title">Learning Journal</h2>
-        <img src="{{ asset('assets/images/N2/SimpleMachines/bb1.png') }}" class="large-img5" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/bb1.png') }}" class="img-lg" />
     </div>
 
 
@@ -174,7 +177,7 @@
 
         <!-- Close Button -->
         <button id="closeButton">
-        <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
         </button>
     </div>
 
@@ -253,7 +256,7 @@
 
             // Done button
             doneBtn.addEventListener("click", () => {
-                window.location.href = "{{ route('MeasuringCar2Selection') }}";
+                window.location.href = "{{ route('SimpleMachines') }}";
             });
 
             // Initialize

@@ -6,7 +6,7 @@
 
     <div id="topDiv" class="flex flex-col   items-center ">
         <div class="  text-[#F7B94A] text-[50px]  stroke">Coding Challenge (5)</div>
-        <h2 class=" text-white stroke ">
+        <h2 class=" !text-white stroke ">
             Plan a route for a purpose; programme a 
             robot to move according to the planned routes; 
             test to decide the most efficient route 

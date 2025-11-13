@@ -5,8 +5,8 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col  items-center gap-20 ">
-        <div class="  text-[#F7B94A] text-[50px] font-extrabold stroke">Sound and Light</div>
-        <h2 class=" text-white text-center stroke ">
+        <div class="  text-[#F7B94A] text-[50px] stroke">Sound and Light</div>
+        <h2 class=" !text-white text-center stroke ">
             Learn how to programme sound and light of <br>
             a robot; programme a robot to move <br>
             through a circuit</h2>

@@ -6,7 +6,7 @@
     <h2 class="top-title stroke">Water a Plant Machine</h2>
 
     {{-- sldie 23  --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start">
         <h2 class=" t-title  ">Children will be able to:</h2>
 
         <ul class="list-disc">
@@ -26,7 +26,7 @@
 
     {{-- slide 24 --}}
 
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start items-center text-start">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start items-center text-start">
         <div class="flex gap-[2vw] ">
             <ul class="list-disc  ">
                 <li class="list-none">Preparations:</li>
@@ -53,7 +53,7 @@
 
 
     {{-- slide 26 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start items-center text-start">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start items-center text-start">
         <div class="text-start">
 
             <h2 class="t-title">Things to consider for preparations:</h2>
@@ -69,7 +69,7 @@
 
 
     {{-- slide 26 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start items-center text-start">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start items-center text-start">
         <div class="text-start">
 
             <h2 class="t-title">Things to consider for preparations:</h2>
@@ -85,7 +85,7 @@
 
 
     {{-- slide 27 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start items-center text-start">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start items-center text-start">
         <div class="text-start">
             <h2 class="t-title">Things to consider for preparations:</h2>
             <ul class="list-disc  ">
@@ -100,7 +100,7 @@
 
 
     {{--  slide 28 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start items-center  text-start">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start items-center  text-start">
         <div class="text-start">
             <h2 class=" t-title  ">Things to consider for preparations:</h2>
             <ul class="list-disc">
@@ -115,7 +115,7 @@
 
 
     {{--  slide 29 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start items-center text-start">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start items-center text-start">
         <div class="text-start">
             <h2 class=" t-title">Things to consider during hands-on session:</h2>
             <ul class="list-disc ">
@@ -129,7 +129,7 @@
 
 
     {{--  slide 30 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start items-center  text-start">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start items-center  text-start">
         <div class="text-start">
             <h2 class=" t-title  ">Things to consider during hands-on session:</h2>
             <ul class="list-disc">
@@ -142,7 +142,7 @@
 
 
     {{--  slide 31 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start items-center  text-start">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start items-center  text-start">
         <div class="text-start">
             <h2 class=" t-title  ">Things to consider during hands-on session:</h2>
             <ul class="list-disc">
@@ -156,7 +156,7 @@
 
 
     {{-- sldie 32 --}}
-    <div class="slide flex t-slide  flex-col  text-2xl text-start text-white">
+    <div class="slide flex t-slide  flex-col  text-2xl text-start !text-white">
         <div>
             <h2 class="t-title">Notes:</h2>
             <ul class="list-disc">
@@ -194,7 +194,7 @@
 
 
     {{--  slide 33 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start items-center  text-start">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start items-center  text-start">
         <h2 class="title stroke ">Learning Centre Idea </h2>
         <ul class="!text-start">
             <h2 class=" t-title  ">Tilt a Cup Machine</h2>

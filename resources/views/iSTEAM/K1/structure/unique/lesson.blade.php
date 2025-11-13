@@ -156,7 +156,7 @@
 
     {{-- slide 14 --}}
     <div class="slide hidden flex flex-col items-center justify-between h-[50vh]">
-        <h2 class="text-center justify-start text-[45px] text-white stroke">Small Group Activity </h2>
+        <h2 class="text-center justify-start text-[45px] !text-white stroke">Small Group Activity </h2>
         <h2 class="text-start title stroke">Mission: <br>
             Let’s design and build a unique building using the straws and pipe cleaners.</h2>
         <p class="note">Note: Give each group a set of materials to work on.</p>
@@ -185,7 +185,7 @@
     {{-- slide 16 --}}
     <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[40vw] h-[40vh] bg-cover bg-center flex flex-col justify-between text-start"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center flex flex-col justify-between text-start"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>Design a unique building. Draw it.</p>
             <p>What is the name of your building?___________________________________________________</p>

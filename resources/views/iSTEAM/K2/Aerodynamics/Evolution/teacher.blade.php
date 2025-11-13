@@ -7,14 +7,14 @@
 
 
     {{-- sldie 1  --}}
-    <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
+    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
         <div>
             <h2 class="t-title ">Children will be able to:</h2>
             <ul class="list-disc ">
-                <li class="text-[1.3vw]">Learn about the history of aeroplane design and how it has evolved</li>
-                <li class="text-[1.3vw]">Understand aerodynamic forces in various types of vehicles</li>
-                <li class="text-[1.3vw]">Understand the use of aerodynamic forces in sports</li>
-                <li class="text-[1.3vw]">Develop understanding through inquiry</li>
+                <li>Learn about the history of aeroplane design and how it has evolved</li>
+                <li>Understand aerodynamic forces in various types of vehicles</li>
+                <li>Understand the use of aerodynamic forces in sports</li>
+                <li>Develop understanding through inquiry</li>
             </ul>
         </div>
 
@@ -22,16 +22,16 @@
             <h2 class="t-title ">Keywords:</h2>
             <div class="flex gap-[10rem]">
                 <ul class="list-disc ">
-                    <li class="text-[1.3vw]">Wright Brothers</li>
-                    <li class="text-[1.3vw]">Aerodynamic Forces</li>
-                    <li class="text-[1.3vw]">Aerodynamics</li>
-                    <li class="text-[1.3vw]">Aerofoil</li>
+                    <li>Wright Brothers</li>
+                    <li>Aerodynamic Forces</li>
+                    <li>Aerodynamics</li>
+                    <li>Aerofoil</li>
                 </ul>
                 <ul class="list-disc ">
-                    <li class="text-[1.3vw]">Downforce</li>
-                    <li class="text-[1.3vw]">Wind Tunnel</li>
-                    <li class="text-[1.3vw]">Drag</li>
-                    <li class="text-[1.3vw]">Front Wings</li>
+                    <li>Downforce</li>
+                    <li>Wind Tunnel</li>
+                    <li>Drag</li>
+                    <li>Front Wings</li>
                 </ul>
 
             </div>
@@ -42,28 +42,31 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
-        <div class="space-y-10">
+    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
+        <div>
             <h2 class=" t-title">Preparations:</h2>
+            <h2 class="t-title">Monoplane</h2>
             <ul class="list-disc ">
-                <h2>Monoplane</h2>
-                <li class="text-[1.3vw]">The propeller provides thrust for the plane to move forward.</li>
-                <li class="text-[1.3vw]">Together with the aerodynamic shape of the aeroplane wings, the monoplane is able
+                <li>The propeller provides thrust for the plane to move forward.</li>
+                <li>Together with the aerodynamic shape of the aeroplane wings, the monoplane is able
                     to provide enough lift
                     for the plane to take off.</li>
-                <li class="text-[1.3vw]">Link for reference:
+                <li>Link for reference:
                     <a href="https://stocktonpropeller.com/basic-aerodynamics-flight/" class="text-[#F7B94A]"
                         target="_blank">
                         https://stocktonpropeller.com/basic-aerodynamics-flight/
                     </a>
                 </li>
             </ul>
+        </div>
+        <div>
+            <h2 class="t-title">Concorde</h2>
             <ul class="list-disc">
-                <li class="text-[1.3vw]">The Concorde could fly faster and higher than any commercial jets.</li>
-                <li class="text-[1.3vw]">The long, narrow shape of the Concorde is able to reduce drag as it moves through
+                <li>The Concorde could fly faster and higher than any commercial jets.</li>
+                <li>The long, narrow shape of the Concorde is able to reduce drag as it moves through
                     the air.</li>
-                <li class="text-[1.3vw]">The Concorde stopped flying in 2003.</li>
-                <li class="text-[1.3vw]">Link for reference:
+                <li>The Concorde stopped flying in 2003.</li>
+                <li>Link for reference:
                     <a href="https://science.howstuffworks.com/transport/flight/modern/concorde3.html"
                         class="text-[#F7B94A]" target="_blank">
                         https://science.howstuffworks.com/transport/flight/modern/concorde3.html
@@ -76,18 +79,18 @@
 
 
     {{-- sldie 3 --}}
-    <div class=" slide text-start text-2xl text-white">
+    <div class=" slide t-slide text-start !text-white">
         <div>
             <h2 class=" t-title">Additional info on wind tunnel test:</h2>
             <ul class="list-disc text-[#F7B94A] space-y-10">
-                <li class="text-[1.3vw]">
+                <li>
                     <a
                         href="https://news.cgtn.com/news/2022-01-05/How-China-uses-wind-tunnels-to-train-
      athletes-in-60-seconds-16zYFZBDP68/index.html">
                         https://news.cgtn.com/news/2022-01-05/How-China-uses-wind-tunnels-to-train-
                         athletes-in-60-seconds-16zYFZBDP68/index.html</a>
                 </li>
-                <li class="text-[1.3vw]">
+                <li>
                     <a
                         href="https://www.electronicspecifier.com/products/vr-ar/procedure-simplifies-wind-
      tunnel-tests">https://www.electronicspecifier.com/products/vr-ar/procedure-simplifies-wind-
@@ -101,36 +104,43 @@
 
 
     {{-- slide 4 --}}
-    <div class="slide flex t-slide  flex-col justify-start  text-2xl text-start text-white">
+    <div class="slide flex t-slide  flex-col justify-start  text-2xl text-start !text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
                 <h2 class=" t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
-                    <li class="text-[1.3vw] flex whitespace-nowrap">
-                        If you see
-                        <span>
-                            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s27.png') }}"
-                                class="!max-w-[2.5vw]" />
+                    <li>
+                        <span class="flex items-center whitespace-nowrap">
+                            If you see
+                            <span>
+                                <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s27.png') }}"
+                                    class="!max-w-[2.5vw]" />
+                            </span>
+                            next to a picture,click on the picture to watch the video.
                         </span>
-                        next to a picture, click on the picture to watch the video.
                     </li>
-                    <li class="text-[1.3vw]">Emphasise and use the keywords during hands-on sessions.</li>
-                    <li class="text-[1.3vw]">Print out the Learning Journal (if any) for every child to complete at the end
+                    <li>Emphasise and use the keywords during hands-on sessions.</li>
+                    <li>Print out the Learning Journal (if any) for every child to complete at the end
                         of the lesson.
                     </li>
-                    <li class="text-[1.3vw]">
-                        Click on this shortcut icon
-                        <span>
-                            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s28.png') }}"
-                                class="!max-w-[2.5vw]" />
+                    <li>
+                        <span class="flex items-center whitespace-nowrap">
+                            Click on this shortcut icon
+                            <span>
+                                <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s28.png') }}"
+                                    class="!max-w-[2.5vw]" />
+                            </span>
+                            if you need to go to some parts of the lesson quickly.
                         </span>
-                        if you need to go to some parts of the lesson quickly.
                     </li>
                 </ul>
             </div>
             <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="Teacher" />
         </div>
     </div>
+
+
+
     {{-- ========================================================== --}}
     {{-- Buttons --}}
     <div class="down-btn-container">

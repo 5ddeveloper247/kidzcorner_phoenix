@@ -4,7 +4,7 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col items-center h-full justify-between">
-        <h2 class=" indexTitle text-[55px] stroke">Shapes-Structure</h2>
+        <h2 class=" indexTitle  stroke">Shapes-Structure</h2>
         <h2 class="!text-white title">Learn and understand what as structure is</h2>
 
         <button class="cursor-pointer nextButton">

@@ -9,7 +9,7 @@
     {{-- slide 0 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="stroke title">Children, what are these? What can you do with them?</h2>
-        <img src="{{ asset('assets/images/N2/SimpleMachines/a5.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/a5.png') }}" class="img-lg" />
         <p class="note">Note: Encourage the children to share their answers.</p>
     </div>
 
@@ -17,7 +17,7 @@
     {{-- slide 1 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="title stroke">These are building bricks. You can put them together to build something.</h2>
-        <img src="{{ asset('assets/images/N2/SimpleMachines/a6.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/a6.png') }}" class="img-lg" />
     </div>
 
     {{-- slide 2 --}}
@@ -26,7 +26,7 @@
         <h2 class="title stroke self-start !text-white">Hands-on Time</h2>
         <div class="text-start">
 
-            <h2 class="title stroke">Mission: <br>
+            <h2 class="title stroke text-start">Mission: <br>
                 Let’s follow the instructions to build a wagon and then play with it.</h2>
         </div>
         <p class="note">Note: Divide children into groups and give each group a set of building bricks.</p>
@@ -41,7 +41,7 @@
                 <li>Make sure you have all these parts.</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/N2/SimpleMachines/a7.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/a7.png') }}" class="img-lg" />
         <p class="note  text-center">Note: Have each group of children check to ensure they have all the parts.</p>
     </div>
 
@@ -54,7 +54,7 @@
                 <li>2. Build a wagon</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/N2/SimpleMachines/a8.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/a8.png') }}" class="img-lg" />
         <p class="note z-[99] text-center">Note: Have each group of children work together to complete the mission. <a
                 class="click-btn1 ">Click <span class="text-[#F7B94A]">Here</span></a> for the guide.</p>
     </div>
@@ -63,7 +63,7 @@
     {{-- slide 5 --}}
     <div class="flex  flex-col click1 items-center justify-center slide hidden">
         <h2 class="title stroke">How to build a wagon? Step 1 of 7 </h2>
-        <img src="{{ asset('assets/images/N2/SimpleMachines/a18.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/a18.png') }}" class="img-xl" />
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
     </div>
 
@@ -72,7 +72,7 @@
     {{-- slide 6 --}}
     <div class="flex flex-col click1 items-center justify-center slide hidden">
         <h2 class="title stroke">How to build a wagon? Step 2 of 7</h2>
-        <img src="{{ asset('assets/images/N2/SimpleMachines/a19.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/a19.png') }}" class="img-xl" />
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
     </div>
 
@@ -80,7 +80,7 @@
     {{-- slide 7 --}}
     <div class="flex flex-col click1 items-center justify-center slide hidden">
         <h2 class="title stroke">How to build a wagon? Step 3 of 7</h2>
-        <img src="{{ asset('assets/images/N2/SimpleMachines/a20.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/a20.png') }}" class="img-xl" />
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
     </div>
 
@@ -89,7 +89,7 @@
     {{-- slide 8 --}}
     <div class="flex flex-col click1 items-center justify-center slide hidden">
         <h2 class="title stroke">How to build a wagon? Step 4 of 7</h2>
-        <img src="{{ asset('assets/images/N2/SimpleMachines/a21.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/a21.png') }}" class="img-xl" />
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
     </div>
 
@@ -98,14 +98,14 @@
     {{-- slide 9 --}}
     <div class="flex flex-col click1 items-center justify-center slide hidden">
         <h2 class="title stroke">How to build a wagon? Step 5 of 7</h2>
-        <img src="{{ asset('assets/images/N2/SimpleMachines/a22.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/a22.png') }}" class="img-xl" />
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
     </div>
 
     {{-- slide 10 --}}
     <div class="flex flex-col click1 items-center justify-center slide hidden">
         <h2 class="title stroke">How to build a wagon? Step 6 of 7</h2>
-        <img src="{{ asset('assets/images/N2/SimpleMachines/a23.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/a23.png') }}" class="img-xl" />
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
     </div>
 
@@ -113,7 +113,7 @@
     {{-- slide 11 --}}
     <div class="flex flex-col click1 items-center justify-center slide hidden">
         <h2 class="title stroke">How to build a wagon? Step 7 of 7</h2>
-        <img src="{{ asset('assets/images/N2/SimpleMachines/a24.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/a24.png') }}" class="img-lg" />
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
     </div>
 
@@ -138,15 +138,15 @@
     {{-- slide 13 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="title stroke">What happens when you pull the string?</h2>
-        <img src="{{ asset('assets/images/N2/SimpleMachines/a8.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/a8.png') }}" class="img-lg" />
         <p class="note">Note: Encourage children to share their hands-on experiences.</p>
     </div>
 
 
     {{-- slide 14 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <video id="video1" class="w-full max-w-[42rem] pointer-events-none">
-            <source src="{{ asset('assets/images/N2/SimpleMachines/1.mp4') }}" type="video/mp4">
+        <video id="video1" class="pointer-events-none">
+            <source src="{{ asset('assets/images/N2/SimpleMachines/videos/1.mp4') }}" type="video/mp4">
         </video>
         <h2 class="title stroke">When you pull the string,the wagon that is tied to the string moves.</h2>
         <!-- Video Trigger Button -->
@@ -157,8 +157,8 @@
 
     {{-- slide 15 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <video id="video2" class="w-full max-w-[42rem] pointer-events-none">
-            <source src="{{ asset('assets/images/N2/SimpleMachines/1.mp4') }}" type="video/mp4">
+        <video id="video2" class="pointer-events-none">
+            <source src="{{ asset('assets/images/N2/SimpleMachines/videos/1.mp4') }}" type="video/mp4">
         </video>
         <h2 class="title stroke">Why do you think the wagon moves easily? What does it have?</h2>
         <!-- Video Trigger Button -->
@@ -170,10 +170,10 @@
 
     {{-- slide 16 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <video id="video3" class="w-full max-w-[42rem] pointer-events-none">
-            <source src="{{ asset('assets/images/N2/SimpleMachines/2.mp4') }}" type="video/mp4">
+        <video id="video3" class="pointer-events-none">
+            <source src="{{ asset('assets/images/N2/SimpleMachines/videos/2.mp4') }}" type="video/mp4">
         </video>
-        <h2 class="title stroke">Yes, the wagon moves easily because it has <span class="text-white">wheels</span> and axles
+        <h2 class="title stroke">Yes, the wagon moves easily because it has <span class="!text-white">wheels</span> and axles
             that turn together.</h2>
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video3')" class="absolute cursor-pointer top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
@@ -184,8 +184,8 @@
 
     {{-- slide 17 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/SimpleMachines/a11.png') }}" />
-        <h2 class="title stroke">An <span class="text-white">axle</span> is a rod that joins the two front or back wheels
+        <img src="{{ asset('assets/images/N2/SimpleMachines/a11.png') }}" class="img-lg" />
+        <h2 class="title stroke">An <span class="!text-white">axle</span> is a rod that joins the two front or back wheels
             of
             the wagon.</h2>
     </div>
@@ -193,10 +193,10 @@
 
     {{-- slide 18 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <video id="video4" class="w-full max-w-[42rem] pointer-events-none">
-            <source src="{{ asset('assets/images/N2/SimpleMachines/2.mp4') }}" type="video/mp4">
+        <video id="video4" class="pointer-events-none">
+            <source src="{{ asset('assets/images/N2/SimpleMachines/videos/2.mp4') }}" type="video/mp4">
         </video>
-        <h2 class="stroke title">The<span class="text-white"> wheels</span> and <span class="text-white">axles</span>
+        <h2 class="stroke title">The<span class="!text-white"> wheels</span> and <span class="!text-white">axles</span>
             turn
             together to help<br />the wagon move.</h2>
         <p class="note">Note: Have children pay attention to the turning axle (from the hole) when the wheel is turned.
@@ -209,8 +209,8 @@
 
     {{-- slide 19 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <video id="video5" class="w-full max-w-[42rem] pointer-events-none">
-            <source src="{{ asset('assets/images/N2/SimpleMachines/1.mp4') }}" type="video/mp4">
+        <video id="video5" class="pointer-events-none">
+            <source src="{{ asset('assets/images/N2/SimpleMachines/videos/1.mp4') }}" type="video/mp4">
         </video>
         <h2 class="stroke title">What can you use the wagon for?</h2>
         <p class="note">Note: Encourage children to boldly share their views.</p>
@@ -223,8 +223,8 @@
 
     {{-- slide 19 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <video id="video6" class="w-full max-w-[42rem] pointer-events-none">
-            <source src="{{ asset('assets/images/N2/SimpleMachines/3.mp4') }}" type="video/mp4">
+        <video id="video6" class="pointer-events-none">
+            <source src="{{ asset('assets/images/N2/SimpleMachines/videos/3.mp4') }}" type="video/mp4">
         </video>
         <h2 class="stroke title">You can use it to move things around easily.</h2>
         <p class="note">Note: Invite chilren to use their wagons to transport things of different sizes and weights
@@ -477,7 +477,7 @@
                     parentSlideIndex = null;
                 } else {
                     // Go to selection page
-                    window.location.href = "{{ route('WagonSelection') }}";
+                    window.location.href = "{{ route('SimpleMachines') }}";
                 }
             });
 

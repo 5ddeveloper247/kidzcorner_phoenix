@@ -18,7 +18,7 @@
                 What makes this Makey Makey Board work?</h2>
         </div>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -37,18 +37,18 @@
     {{-- Slide 3 --}}
     <div class="slide hidden flex flex-col items-center  ">
         <img src="{{ asset('assets/images/K2/circuit/makey/m11.png') }}" />
-        <h2 class="title stroke">You need a <span class="text-white">computer</span> to set up a <span
+        <h2 class="title stroke">You need a <span class="!text-white">computer</span> to set up a <span
                 class="text-white">Makey Makey Board</span>.
             You are actually part of this complete circuit that empowers
-            the <span class="text-white">Makey Makey</span> Board to work!</h2>
+            the <span class="!text-white">Makey Makey</span> Board to work!</h2>
     </div>
 
     {{-- slide 4 --}}
     <div class="slide hidden  flex flex-col items-center  ">
         <img src="{{ asset('assets/images/K2/circuit/makey/m8.png') }}" />
-        <h2 class="title stroke text-center">You get to "see" the use of a <span class="text-white"> Makey Makey
+        <h2 class="title stroke text-center">You get to "see" the use of a <span class="!text-white"> Makey Makey
                 Board</span> with the
-            help of the Microsoft Word <span class="text-white">application</span>.</p>
+            help of the Microsoft Word <span class="!text-white">application</span>.</p>
     </div>
 
 
@@ -142,7 +142,7 @@
         </div>
         <p class="note">Note: Demo. Then have children take turns to try the step and share their views.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -180,7 +180,7 @@
         </div>
         <p class="note">Note: Demo. Then have children take turns to try the step and share their views.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -236,7 +236,7 @@
 
 
     {{-- slide 17 --}}
-    <div class="slide hidden flex flex-col items-center h-[60%] justify-between ">
+    <div class="slide hidden flex flex-col items-center h-[50vh] justify-between ">
         <div class="text-center space-y-10">
             <h2 class="title stroke">Do you remember this simple circuit?Do you like to play the bongos and create music
                 using a mouse or a set of Makey Makey? Why?</h2>
@@ -275,7 +275,7 @@
         <p class="note">Note: Guide children to "see" how electricity flow in a circuit with reference to the drawing.
         </p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video4')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video4')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>

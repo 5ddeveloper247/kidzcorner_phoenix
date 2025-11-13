@@ -15,7 +15,7 @@
         <p class="note">Note: Let children share what they see.</p>
 
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -31,7 +31,7 @@
             the second domino.</h2>
 
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -47,7 +47,7 @@
             the ice cream stick moves and pushes the next domino.</h2>
 
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
 
@@ -61,10 +61,10 @@
             Your browser does not support the video tag.
         </video>
         <h2 class="title stroke">When one action causes the next action, which in turn causes
-            the next action, and so on, we call it a <span class="text-white">domino effect</span>.</h2>
+            the next action, and so on, we call it a <span class="!text-white">domino effect</span>.</h2>
 
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video4')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video4')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
 
@@ -78,11 +78,11 @@
             <source src="{{ asset('assets/images/K1/sm/73.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
-        <h2 class="title stroke"><span class="text-white">Chain reaction</span> is another name for a <span
+        <h2 class="title stroke"><span class="!text-white">Chain reaction</span> is another name for a <span
                 class="text-white">domino effect</span>.</h2>
 
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video5')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video5')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
 
@@ -137,7 +137,7 @@
         <h2 class="title stroke">Do the dominoes and ice cream sticks
             fall one after another?</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video6')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video6')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -163,7 +163,7 @@
 
 
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video7')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video7')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
 
@@ -180,7 +180,7 @@
         <h2 class="title stroke">When the first domino is pushed, it falls and makes the
             other dominoes fall one after another.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video8')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video8')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -195,7 +195,7 @@
         <h2 class="title stroke">When the last domino pushes the ice cream stick, the ice cream
             stick moves away and lets the ball roll down the slanted track.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video9')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video9')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -204,7 +204,7 @@
     {{-- slide 16 --}}
     <div class=" slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/cm/cm30.png" />
-        <h2 class="title stroke">What <span class="text-white">simple machines</span> is used here?</h2>
+        <h2 class="title stroke">What <span class="!text-white">simple machines</span> is used here?</h2>
     </div>
 
 
@@ -263,7 +263,7 @@
         <h2 class="title stroke">Do the dominoes fall one after another? Does the ice-cream
             stick move away and make the ball roll down the inclined plane?</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video10')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video10')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -285,7 +285,7 @@
         <h2 class="title stroke">Let’s watch another video! What do you see?</h2>
         <p class="note">Note: Let children share what they see.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video11')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video11')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
 
@@ -301,7 +301,7 @@
         <h2 class="title stroke">The ball rolls down a slanted track into a cup. The cup turns
             and the ball rolls down the book onto another track.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video12')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video12')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
 
@@ -316,7 +316,7 @@
         <h2 class="title stroke">The ball then rolls down this slanted track and pushes
             the dominoes and so they fall one after another.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video13')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video13')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
 
@@ -335,7 +335,7 @@
     <div class=" slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/cm/cm34.png" />
         <h2 class="title stroke">The big book and the two slanted tracks are
-            the <span class="text-white">inclined planes</span> used here.</h2>
+            the <span class="!text-white">inclined planes</span> used here.</h2>
     </div>
 
 
@@ -412,7 +412,7 @@
         <h2 class="title stroke">Does the cup turn? Does the ball roll onto the other
             track and push the dominoes?</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video14')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video14')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -428,7 +428,7 @@
     {{-- slide 40 --}}
     <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[40vw] h-[40vh] bg-cover bg-center"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>Which idea did you like doing the most? Draw how you set up this idea.</p>
         </div>

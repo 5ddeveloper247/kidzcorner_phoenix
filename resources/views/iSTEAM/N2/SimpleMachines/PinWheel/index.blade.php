@@ -4,9 +4,9 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col items-center ">
-        <div class="indexTitle  text-[55px]  stroke">A Pinwheel</div>
+        <div class="indexTitle    stroke">A Pinwheel</div>
         <h2
-            class="text-2xl sm:text-3xl lg:text-6xl text-white    flex flex-col items-center space-x-[30px]">
+            class="text-2xl sm:text-3xl lg:text-6xl !text-white    flex flex-col items-center space-x-[30px]">
             Explore the characteristics and uses of wheel
             and axles - a simple machine; build a pinwheel
             based on a pictorial guide.

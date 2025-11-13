@@ -7,18 +7,18 @@
     <h2 class="top-title stroke">What is Scratch Jr?</h2>
 
     {{-- sldie 1  --}}
-    <div class=" slide flex t-slide text-white flex-col justify-start text-start">
+    <div class=" slide flex t-slide !text-white flex-col justify-start text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
-                <li class="text-[1.3vw]">Know that ScratchJr is an application that allows us to create our <br> own
+                <li >Know that ScratchJr is an application that allows us to create our <br> own
                     interactive stories and
                     games</li>
-                <li class="text-[1.3vw]">Learn how to use ScratchJr to create a story by selecting a <br>background and two
+                <li >Learn how to use ScratchJr to create a story by selecting a <br>background and two
                     characters</li>
-                <li class="text-[1.3vw]">Develop understanding through inquiry</li>
-                <li class="text-[1.3vw]">Develop problem-solving skills</li>
-                <li class="text-[1.3vw]">Learn to share and take turns</li>
+                <li >Develop understanding through inquiry</li>
+                <li >Develop problem-solving skills</li>
+                <li >Learn to share and take turns</li>
             </ul>
         </div>
 
@@ -26,10 +26,10 @@
             <h2 class="t-title">Keywords:</h2>
             <div>
                 <ul class="list-disc ">
-                    <li class="text-[1.3vw]">ScratchJr (Application)</li>
-                    <li class="text-[1.3vw]">Story</li>
-                    <li class="text-[1.3vw]">Background</li>
-                    <li class="text-[1.3vw]">Character</li>
+                    <li >ScratchJr (Application)</li>
+                    <li >Story</li>
+                    <li >Background</li>
+                    <li >Character</li>
                 </ul>
 
             </div>
@@ -40,10 +40,10 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start  items-center  text-start">
+    <div class=" slide flex text-2xl !text-white flex-col justify-start  items-center  text-start">
         <ul class="list-disc  ">
             <h2 class="font-bold t-title">Preparations:</h2>
-            <li class="text-[1.3vw]">
+            <li >
                 The tablets (download ScratchJr application from App Store or Google Play for each tablet; charge all the
                 tablets before you start each lesson)
             </li>
@@ -54,10 +54,10 @@
 
 
     {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start  items-center text-start">
+    <div class=" slide flex text-2xl !text-white flex-col justify-start  items-center text-start">
         <ul class="list-disc  ">
             <h2 class="font-bold t-title">What you need to know or explore before the lesson:</h2>
-            <li class="text-[1.3vw]">
+            <li >
                 Go through the Interface Guide in the application of ScratchJr to understand the
                 basic features of ScratchJr.
             </li>
@@ -69,11 +69,11 @@
 
             <div>
                 <ul class="text-1xl !text-white text-start">
-                    <li class="text-[1.3vw]">While going through the guide </li>
-                    <li class="text-[1.3vw]">in the app, you may tap on </li>
-                    <li class="text-[1.3vw]">each number to understand the </li>
-                    <li class="text-[1.3vw]">use of each part.</li> <br>
-                    <li class="text-[1.3vw]">You may <span class="title stroke !text-[1.8vw]">print out the
+                    <li >While going through the guide </li>
+                    <li >in the app, you may tap on </li>
+                    <li >each number to understand the </li>
+                    <li >use of each part.</li> <br>
+                    <li >You may <span class="title stroke !text-[1.8vw]">print out the
                             guide </span> if you need it.</li>
 
                 </ul>
@@ -84,24 +84,24 @@
 
 
     {{-- slide 4 --}}
-    <div class=" slide flex text-2xl text-white flex-col  justify-start text-start gap-[5rem]">
+    <div class=" slide flex text-2xl !text-white flex-col  justify-start text-start gap-[5rem]">
 
         <div>
             <ul class="list-disc !text-white">
 
                 <h2>Reminders or advice during hands-on session:</h2>
-                <li class="text-[1.3vw]">Always hold a tablet with both your hands (to show your care and prevent the
+                <li >Always hold a tablet with both your hands (to show your care and prevent the
                     tools from spoiling easily).</li>
-                <li class="text-[1.3vw]">Be patient and take turns when using the tablets.</li>
+                <li >Be patient and take turns when using the tablets.</li>
             </ul>
         </div>
 
         <div>
             <ul class="!text-start list-disc">
                 <h2>Possible questions during hands-on sessions:</h2>
-                <li class="text-[1.3vw]">What is the name of this application?</li>
-                <li class="text-[1.3vw]">How do you add or change a background on your working stage?</li>
-                <li class="text-[1.3vw]">How do you add or delete a character on your working stage?</li>
+                <li >What is the name of this application?</li>
+                <li >How do you add or change a background on your working stage?</li>
+                <li >How do you add or delete a character on your working stage?</li>
             </ul>
         </div>
 
@@ -110,32 +110,36 @@
 
 
     {{-- slide 5 --}}
-    <div class="slide flex t-slide  flex-col justify-start  text-2xl text-start text-white">
+    <div class="slide flex t-slide  flex-col justify-start  text-2xl text-start !text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
                 <h2 class=" t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
-                    <li class="text-[1.3vw] flex whitespace-nowrap">
+                    <li>
+                    <span class="flex items-center whitespace-nowrap">
                         If you see
                         <span>
                             <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s27.png') }}"
                                 class="!max-w-[2.5vw]" />
                         </span>
-                        next to a picture, click on the picture to watch the video.
-                    </li>
-                    <li class="text-[1.3vw]">Always ask questions to encourage children to think and share their ideas first
+                        next to a picture,click on the picture to watch the video.
+                    </span>
+                </li>
+                    <li >Always ask questions to encourage children to think and share their ideas first
                         before giving out any information.</li>
-                    <li class="text-[1.3vw]">Emphasise and use the keywords during hands-on sessions.
+                    <li >Emphasise and use the keywords during hands-on sessions.
                     </li>
-                    <li class="text-[1.3vw]">Print out the Learning Journal (if any) for every <br>
+                    <li >Print out the Learning Journal (if any) for every <br>
                         child to complete at the end of the lesson.</li>
-                    <li class="text-[1.3vw] flex whitespace-nowrap">
+                    <li class="flex whitespace-nowrap">
+                        <span class="flex items-center whitespace-nowrap">
                         Click on this shortcut icon
                         <span>
                             <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s28.png') }}"
                                 class="!max-w-[2.5vw]" />
                         </span>
                         if you need to go to some parts of the lesson quickly.
+                    </span>
                     </li>
                 </ul>
             </div>

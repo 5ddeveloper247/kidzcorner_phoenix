@@ -6,7 +6,7 @@
     <h2 class="top-title stroke">Being Self-Sufficient</h2>
 
     {{-- sldie 1  --}}
-    <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
+    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -42,7 +42,7 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
+    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
@@ -64,7 +64,7 @@
 
 
     {{-- sldie 3 --}}
-    <div class=" slide t-slide flex  text-white flex-col items-center justify-center  text-start">
+    <div class=" slide t-slide flex  !text-white flex-col items-center justify-center  text-start">
         <div>
             <h2 class=" t-title">Things to note in maintaining the vertical garden system:</h2><br>
             <h2 class=" t-title"> Mixing the plant nutrients</h2>
@@ -89,7 +89,7 @@
 
 
     {{-- slide 4 --}}
-    <div class=" slide t-slide flex text-2xl text-white flex-col items-center justify-start  text-start">
+    <div class=" slide t-slide flex text-2xl !text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">Things to note in maintaining the vertical garden system:</h2>
             <ul class="list-decimal">
@@ -103,7 +103,7 @@
 
 
     {{-- slide 5 --}}
-    <div class=" slide t-slide flex text-2xl text-white flex-col items-center justify-start  text-start">
+    <div class=" slide t-slide flex text-2xl !text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">Things to note in maintaining the vertical garden system:</h2>
             <ul>
@@ -123,7 +123,7 @@
     </div>
 
     {{-- sldie 7 --}}
-    <div class=" slide t-slide flex text-2xl text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" slide t-slide flex text-2xl !text-white flex-col items-center justify-start gap-y-10 text-start">
         <div>
             <ul>
                 <li class=" flex whitespace-nowrap">If you see
@@ -154,7 +154,7 @@
 
 
     {{-- sldie 6 --}}
-    <div class=" slide t-slide flex text-2xl text-white flex-col items-center justify-start  text-start">
+    <div class=" slide t-slide flex text-2xl !text-white flex-col items-center justify-start  text-start">
         <h2 class="title stroke text-center">Learning Centre Idea</h2>
         <div class="text-start">
             <div>

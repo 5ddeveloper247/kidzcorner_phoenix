@@ -7,7 +7,7 @@
     <h2 class="top-title stroke">Sound and Light</h2>
 
     {{-- sldie 1  --}}
-    <div class=" slide flex  text-white flex-col t-slide justify-start  text-start">
+    <div class=" slide flex  !text-white flex-col t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -45,7 +45,7 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex  text-white flex-col t-slide justify-start  text-start">
+    <div class=" slide flex  !text-white flex-col t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
@@ -59,7 +59,7 @@
     </div>
 
     {{-- sldie 3 --}}
-    <div class=" slide flex  text-white flex-col t-slide justify-start  text-start">
+    <div class=" slide flex  !text-white flex-col t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc">
@@ -77,7 +77,7 @@
 
 
     {{-- slide 4 --}}
-    <div class=" slide flex  text-white flex-col t-slide justify-start  text-start">
+    <div class=" slide flex  !text-white flex-col t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc">
@@ -94,7 +94,7 @@
 
 
     {{-- slide 5 --}}
-    <div class=" slide flex  text-white flex-col t-slide justify-start  text-start">
+    <div class=" slide flex  !text-white flex-col t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc">
@@ -111,7 +111,7 @@
 
 
     {{-- slide 6 --}}
-    <div class=" slide flex  text-white flex-col t-slide items-center justify-start  text-start">
+    <div class=" slide flex  !text-white flex-col t-slide items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc">
@@ -126,7 +126,7 @@
 
 
     {{-- slide 7 --}}
-    <div class=" slide flex  text-white flex-col t-slide items-center justify-start  text-start">
+    <div class=" slide flex  !text-white flex-col t-slide items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc">
@@ -142,7 +142,7 @@
 
 
     {{-- slide 8 --}}
-    <div class=" slide flex  text-white flex-col t-slide justify-start  text-start">
+    <div class=" slide flex  !text-white flex-col t-slide justify-start  text-start">
         <div>
             <p class="note">When the hands-on session 1 starts, guide each group of children to lay the
                 circuit on the floor using the measuring strip, blu tack and a Start card (as shown).</p>
@@ -157,7 +157,7 @@
     </div>
 
     {{-- slide 9 --}}
-    <div class=" slide flex  text-white flex-col t-slide justify-start  text-start">
+    <div class=" slide flex  !text-white flex-col t-slide justify-start  text-start">
         <p class="note">When the hands-on session 2 starts, guide each group of children to lay the
             circuit on the floor using the measuring strip, blu tack and a Start card (as shown).</p>
         <img src="{{ asset('assets/images/K1/coding/sound/s34.png') }}" alt="Teacher" class="w-img" />
@@ -168,7 +168,7 @@
 
 
     {{-- sldie 10 --}}
-    <div class=" slide flex  text-white flex-col t-slide justify-start  text-start">
+    <div class=" slide flex  !text-white flex-col t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title">Reminders or advice during hands-on session:</h2>
             <ul class="list-disc ">
@@ -194,7 +194,7 @@
 
 
     {{-- slide 11 --}}
-    <div class="slide flex  flex-col t-slide justify-start   text-start text-white">
+    <div class="slide flex  flex-col t-slide justify-start   text-start !text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
                 <h2 class=" t-title">Notes:</h2>

@@ -22,7 +22,7 @@
     <div class="slide hidden flex flex-col items-center justify-between">
         <img src="{{ asset('assets/images/K2/sustain/reduce/r1.png') }}" class="large-img6" />
         <h2 class="title stroke text-center">
-            <span class="text-white">Pollution</span> is when gases, <span class="text-white">chemicals</span>, oil spills
+            <span class="!text-white">Pollution</span> is when gases, <span class="!text-white">chemicals</span>, oil spills
             and trash are introduced into the environment in large amounts that is harmful or poisonous to humans, animals
             and plants.
         </h2>
@@ -105,7 +105,7 @@
     {{-- Slide 14 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
         <img src="{{ asset('assets/images/K2/sustain/reduce/r9.png') }}" class="!max-w-[15vw] !h-[10vw]" />
-        <h2 class="title stroke">We can do our part by practicing the three 'R's - <span class="text-white">Reduce, Reuse
+        <h2 class="title stroke">We can do our part by practicing the three 'R's - <span class="!text-white">Reduce, Reuse
                 and Recycle</span>. Do you know what it means?</h2>
 
         <p class="note">Note: Encourage children to share their understanding on the terms and examples of what they can
@@ -115,13 +115,13 @@
     {{-- Slide 15 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
         <img src="{{ asset('assets/images/K2/sustain/reduce/r9.png') }}" class="!max-w-[15vw] !h-[10vw]" />
-        <h2 class="title stroke">Let’s look at how waste can be <span class="text-white">reduced</span>.</h2>
+        <h2 class="title stroke">Let’s look at how waste can be <span class="!text-white">reduced</span>.</h2>
     </div>
 
     {{-- Slide 16 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
         <img src="{{ asset('assets/images/K2/sustain/reduce/r3.png') }}" />
-        <h2 class="title stroke">The most direct way to help is to <span class="text-white">reduce</span> waste!</h2>
+        <h2 class="title stroke">The most direct way to help is to <span class="!text-white">reduce</span> waste!</h2>
     </div>
 
     {{-- Slide 17 --}}
@@ -217,7 +217,7 @@
     {{-- Slide 27 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
         <img src="{{ asset('assets/images/K2/sustain/reduce/r17.png') }}" />
-        <h2 class="title stroke">Let’s look at how waste can be <span class="text-white">reused</span>.</h2>
+        <h2 class="title stroke">Let’s look at how waste can be <span class="!text-white">reused</span>.</h2>
     </div>
 
     {{-- Slide 28 --}}

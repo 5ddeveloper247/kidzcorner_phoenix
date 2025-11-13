@@ -50,15 +50,15 @@
     {{-- Slide 5 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f1.png') }}" />
-        <h2 class="title stroke">What about something small like <span class="text-white">fingerprints</span>?
-            Do you think our <span class="text-white">fingerprints</span> look the same?</h2>
+        <h2 class="title stroke">What about something small like <span class="!text-white">fingerprints</span>?
+            Do you think our <span class="!text-white">fingerprints</span> look the same?</h2>
     </div>
 
 
     {{-- slide 6 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <h2 class="title stroke">Now we'll learn how to make our own set of <span class="text-white">fingerprints</span>.
-            We'll compare and see if we all have the same <span class="text-white">fingerprints</span>!</h2>
+        <h2 class="title stroke">Now we'll learn how to make our own set of <span class="!text-white">fingerprints</span>.
+            We'll compare and see if we all have the same <span class="!text-white">fingerprints</span>!</h2>
     </div>
 
 
@@ -87,7 +87,7 @@
         </video>
         <p class="note text-center">Note: Advise A to darken the patch by shading the patch again and again.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -105,7 +105,7 @@
         </video>
         <p class="note text-center">Note: Advise B to ensure that their fingertips have an even dark mark.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -124,7 +124,7 @@
         <p class="note text-center">Note: Advise C to hold only an edge of the tape and stick the tape flat on the fingertip
             of B.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -143,7 +143,7 @@
         </video>
         <p class="note text-center">Note: Remind C to paste the tape in the correct place of B's fingerprint record.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video4')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video4')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -162,7 +162,7 @@
         <p class="note text-center">Note: Explain to children that this is to avoid possible messiness when taking prints of
             other fingers.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video5')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video5')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>

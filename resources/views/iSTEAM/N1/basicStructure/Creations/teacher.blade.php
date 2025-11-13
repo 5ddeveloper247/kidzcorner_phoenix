@@ -7,7 +7,7 @@
     <h2 class="top-title stroke">My Creations</h2>
 
     {{-- slide 1 --}}
-    <div class="flex flex-col justify-start text-start text-2xl text-white slide hidden t-slide">
+    <div class="flex flex-col justify-start text-start  !text-white hidden t-slide">
         <div>
             <h2 class="t-title">Children will be able to:</h2>
             <ul class="list-disc">
@@ -38,11 +38,11 @@
     </div>
 
     {{-- slide 2 --}}
-    <div class="text-white flex text-start text-2xl slide hidden t-slide">
+    <div class="text-white flex text-start  hidden t-slide">
         <div>
             <h2 class="t-title">Preparations:</h2>
             <ul class="list-disc">
-                <li><strong>Materials:</strong> Cut paper into shapes of various sizes for the learning journal.</li>
+                <li>Materials: Cut paper into shapes of various sizes for the learning journal.</li>
                 <li>Include shapes that are in the magnetic tile set.</li>
                 <li>Prepare glue and tape for children to stick their paper shape image on their learning journal.</li>
             </ul>
@@ -50,8 +50,24 @@
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
+    
+
     {{-- slide 3 --}}
-    <div class="text-white flex flex-col text-start text-2xl items-start slide hidden t-slide">
+    <div class="text-white flex flex-col text-start  hidden t-slide">
+        <div>
+            <p>
+                Here are some examples of toys that you can make into 3D Structures. <br>
+                Sailboat
+            </p>
+        </div>
+        <img src="{{ asset('assets/images/pptimages/tr2.png') }}" alt="Sailboat" class="large-img2" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
+    </div>
+
+
+
+    {{-- slide 4 --}}
+    <div class="text-white flex flex-col text-start  items-start hidden t-slide">
         <div>
             <p>An example of a toy structure: <br>Teddy bear image and 3D head.</p>
             <img src="{{ asset('assets/images/pptimages/tr4.png') }}" alt="Toy Example" class="object-contain large-img4" />
@@ -65,53 +81,59 @@
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
-    {{-- slide 4 --}}
-    <div class="text-white flex flex-col text-start text-2xl slide hidden t-slide">
-        <div>
-            <p>
-                Here are some examples of toys that you can make into 3D Structures. <br>
-                Sailboat
-            </p>
-        </div>
-        <img src="{{ asset('assets/images/pptimages/tr2.png') }}" alt="Sailboat" class="large-img2" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
-    </div>
 
     {{-- slide 5 --}}
-    <div class="slide flex t-slide flex-col text-2xl text-start text-white">
+    <div class=" t-slide hidden text-start !text-white !w-[53vw]">
         <div>
-            <h2 class="t-title">Notes:</h2>
-            <ul class="list-disc">
-                <li class="flex">
-                    If you see
-                    <span class="info-btn">
-                        <img src="{{ asset('assets/images/pptimages/video.png') }}" alt="Video Icon" />
+            <h2 class="t-title ">Notes:</h2>
+            <ul class="list-disc space-y-3">
+                <li>
+                    <span class="relative">
+                        If you see <span class="opacity-0">---</span>next to a picture, click on the picture to watch the
+                        video.
+                        <img class="t-video-btn absolute top-[-1vw] left-[8vw]"
+                            src="{{ asset('assets/images/pptimages/video.png') }}" />
                     </span>
-                    next to a picture, click on the picture to watch the video.
                 </li>
-                <li class="flex">
-                    If you see
-                    <span>
-                        <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" alt="Info Icon" class="video-btn" />
-                    </span>,
-                    click on it for additional information or activity.
+
+                <li>
+                    <span class="relative">
+                        If you see <span class="opacity-0">---</span> , click on it for additional information or activity.
+                        <img src="{{ asset('assets/images/pptimages/info-btn.png') }}"
+                            class="t-info-btn absolute top-[-1vw] left-[8.5vw]" />
+                    </span>
                 </li>
-                <li>Always ask questions to encourage children to think and share their ideas first before giving out any
-                    information.</li>
+
+                <li>
+                    Always ask questions to encourage children to think and share their ideas first before giving out
+                    any information.
+                </li>
+
                 <li>Emphasise and use the keywords during hands-on sessions.</li>
-                <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.</li>
-                <li class="flex">
-                    Click on this shortcut icon
-                    <span>
-                        <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" alt="Home Icon" class="home-btn" />
-                    </span>
-                    if you need to go to some parts of the lesson quickly.
+
+                <li>
+                    Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
                 </li>
+
+                <li>
+                    <span class="relative">
+                        Click on this shortcut icon <span class="opacity-0">---</span> if you need to go to some parts of
+                        the lesson quickly.
+                        <img src="{{ asset('assets/images/pptimages/home-btn.png') }}"
+                            class="t-home-btn absolute top-0 left-[19.5vw]" />
+                    </span>
+                </li>
+
             </ul>
         </div>
+
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
+
+
+
+    {{-- ============ --}}
     {{-- Done Button --}}
     <div class="down-btn-container">
         <button class="cursor-pointer doneButton hidden">
@@ -143,7 +165,7 @@
 @push('script')
     <script>
         document.addEventListener("DOMContentLoaded", () => {
-            const slides = document.querySelectorAll(".slide");
+            const slides = document.querySelectorAll(".t-slide");
             const nextBtn = document.querySelector(".nextButton");
             const returnBtn = document.getElementById("returnButton");
             const doneBtn = document.querySelector(".doneButton");
@@ -182,7 +204,7 @@
             });
 
             doneBtn?.addEventListener("click", () => {
-                window.location.href = "{{ route('basicStructure') }}";
+                window.location.href = "{{ route('CreationsSelection') }}";
             });
 
             // Optional: keyboard navigation

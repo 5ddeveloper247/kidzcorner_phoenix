@@ -95,7 +95,7 @@
     <div class="flex flex-col items-center justify-between h-[50vh] slide hidden">
         <h2 class="!text-white title stroke">Turn Your Story Into A Game</h2>
         <div class="text-start">
-            <h2 class="title stroke">Mission: <br>
+            <h2 class="title stroke text-start">Mission: <br>
                 Turn your story into a programming game by designing a
                 simple maze. After that, let your friends try
                 out the game.</h2>

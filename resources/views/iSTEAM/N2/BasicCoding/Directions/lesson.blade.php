@@ -40,8 +40,8 @@
     {{-- slide 5 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <img src="{{ asset('assets/images/N2/BasicCoding/bs1a.png') }}" class="large-img6" />
-        <h2 class="stroke title"><span class="text-white">Directional signs</span> have <span
-                class="text-white">arrows</span> that point in different <span class="text-white">directions</span>.</h2>
+        <h2 class="stroke title"><span class="!text-white">Directional signs</span> have <span
+                class="text-white">arrows</span> that point in different <span class="!text-white">directions</span>.</h2>
         <p class="note">Note: Guide children to spot the arrows in each arrow; use an index finger to point
             like each arrow to show different ways.</p>
     </div>
@@ -49,7 +49,7 @@
     {{-- slide 6 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <img src="{{ asset('assets/images/N2/BasicCoding/bs4.png') }}" />
-        <h2 class="stroke title">This signboard has an <span class="text-white">arrow </span>pointing <span
+        <h2 class="stroke title">This signboard has an <span class="!text-white">arrow </span>pointing <span
                 class="text-white">left</span> to the washrooms. So if you need the washroom, you should turn<span
                 class="text-white"> left</span>.</h2>
     </div>
@@ -58,7 +58,7 @@
     {{-- slide 7 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <img src="{{ asset('assets/images/N2/BasicCoding/bs5.png') }}" />
-        <h2 class="stroke title">It also has an <span class="text-white">arrow </span>pointing <span
+        <h2 class="stroke title">It also has an <span class="!text-white">arrow </span>pointing <span
                 class="text-white">right</span> to the escalators.<br />So if you need the escalators., you should turn<span
                 class="text-white">right</span>.</h2>
     </div>
@@ -67,7 +67,7 @@
     {{-- slide 8 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <img src="{{ asset('assets/images/N2/BasicCoding/bs6.png') }}" />
-        <h2 class="stroke title">It also has an <span class="text-white">arrow</span> pointing <span
+        <h2 class="stroke title">It also has an <span class="!text-white">arrow</span> pointing <span
                 class="text-white">right</span> to the escalators.<br />So if you need escalators, you should turn <span
                 class="text-white">right</span>.</h2>
     </div>
@@ -76,7 +76,7 @@
     {{-- slide 9 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <img src="{{ asset('assets/images/N2/BasicCoding/bs7.png') }}" />
-        <h2 class="stroke title">These <span class="text-white">arrows</span> on a train platform are pointing <span
+        <h2 class="stroke title">These <span class="!text-white">arrows</span> on a train platform are pointing <span
                 class="text-white">backward</span>.<br />For your safety, you should move <span
                 class="text-white">backward</span>.</h2>
     </div>
@@ -85,9 +85,9 @@
     {{-- slide 10 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <img src="{{ asset('assets/images/N2/BasicCoding/bs1a.png') }}" class="large-img6" />
-        <h2 class="stroke title"><span class="text-white">Directional signs</span> use
-            <span class="text-white">arrows</span> to show us which way to go.<br />They give us
-            <span class="text-white">instructions</span> on where to go.
+        <h2 class="stroke title"><span class="!text-white">Directional signs</span> use
+            <span class="!text-white">arrows</span> to show us which way to go.<br />They give us
+            <span class="!text-white">instructions</span> on where to go.
         </h2>
     </div>
 

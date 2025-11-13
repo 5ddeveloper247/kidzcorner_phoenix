@@ -7,8 +7,8 @@
 @section('content')
 
 
-    <div class=" flex items-center flex-col justify-center text-center relative z-[99] h-full  w-full">
-        <h2 class="text-[50px] text-[#F7B94A] absolute top-[-30px]"> What is Light?</h2>
+    <div class="Selection flex items-center flex-col justify-center text-center relative z-[99] h-full  w-full">
+        <h2 class="text-[#F7B94A] stroke"> What is Light?</h2>
         <div class="flex items-center justify-between gap-[10vw]">
 
             {{-- Lesson Button --}}

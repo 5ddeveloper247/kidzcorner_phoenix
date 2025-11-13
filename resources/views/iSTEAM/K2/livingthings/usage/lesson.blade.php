@@ -21,8 +21,8 @@
     {{-- Slide 2 --}}
     <div class="slide hidden flex flex-col items-center">
         <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f11.png') }}" class="w-img3" />
-        <h2 class="title stroke">Although we can have similar <span class="text-white">fingerprint</span> patterns,
-            no two <span class="text-white">fingerprints</span> are exactly alike.</h2>
+        <h2 class="title stroke">Although we can have similar <span class="!text-white">fingerprint</span> patterns,
+            no two <span class="!text-white">fingerprints</span> are exactly alike.</h2>
     </div>
 
 
@@ -163,11 +163,11 @@
         <div class="text-start note">
             <p class="!text-[1.4vw]">Note: Follow the steps to do this mini activity in class -</p>
             <ul>
-                <li class="text-[1.3vw]">1) Wipe the screen of a mobile phone and then use a finger to leave a mark on the
+                <li >1) Wipe the screen of a mobile phone and then use a finger to leave a mark on the
                     screen. Have children
                     face
                     the phone and ask if they see anything on the screen.</li>
-                <li class="text-[1.3vw]">2) Tilt the phone to a certain angle, guide children to discover the fingerprint
+                <li >2) Tilt the phone to a certain angle, guide children to discover the fingerprint
                     mark on the screen.
                     Have them guess why the fingerprint appears on the phone screen when the teacher's hand is clean.</li>
             </ul>
@@ -246,7 +246,7 @@
         <p class="note text-center">Note: Demonstrate how to do it by wearing gloves and a mask. Explain to children that
             dusting for a fingerprint using a brush with overloaded powder may smear the print.</p>
         <!-- Video Trig ger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -267,7 +267,7 @@
             they sweep the brush so that
             the print will not be wiped away (only the bristle tips of the brush will touch the fingerprint surface).</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -299,7 +299,7 @@
         </video>
         <p class="note text-center">Note: Demonstrate how to do it. Remind children to hold only the edges of the tape.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -318,7 +318,7 @@
         <p class="note text-center">Note: Demonstrate how to do it. <br>
             If the print gets smeared, encourage children to clean the mirror and redo the activity from step 1.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video4')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video4')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -375,7 +375,7 @@
         <h2 class="title stroke">Through the activity, we know that fingerprint powder sticks
             to the oils of fingerprints making the prints visible.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -415,7 +415,7 @@
 
     {{-- slide 38 --}}
     <div class="slide hidden  flex flex-col items-center">
-        <h2 class=" title stroke text-start"><span class="text-white">Evidence 1</span>: Based on the statements of other
+        <h2 class=" title stroke text-start"><span class="!text-white">Evidence 1</span>: Based on the statements of other
             teachers, 6 children below entered the art and craft room while waiting
             for their parents to pick them up yesterday evening.</h2>
         <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u20.png') }}" class="w-img3" />
@@ -424,7 +424,7 @@
 
     {{-- slide 39 --}}
     <div class="slide hidden  flex flex-col items-center">
-        <h2 class=" title stroke text-start"><span class="text-white">Evidence 2</span>: 3 shoe prints as shown were found
+        <h2 class=" title stroke text-start"><span class="!text-white">Evidence 2</span>: 3 shoe prints as shown were found
             on the floor near the door.</h2>
         <div class="w-img3 h-fit bg-cover bg-center p-[20px] flex flex-col justify-center items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
@@ -435,7 +435,7 @@
 
     {{-- slide 40 --}}
     <div class="slide hidden  flex flex-col items-center">
-        <h2 class=" title stroke text-start"><span class="text-white">Evidence 3</span>: 3 right thumbprints as shown were
+        <h2 class=" title stroke text-start"><span class="!text-white">Evidence 3</span>: 3 right thumbprints as shown were
             found at different parts of the room.</h2>
         <div class="w-img3 h-fit bg-cover bg-center p-[20px] flex flex-col justify-center items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">

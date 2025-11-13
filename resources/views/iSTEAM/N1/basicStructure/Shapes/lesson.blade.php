@@ -1,6 +1,8 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
 
+
+
 @section('content')
 
     {{-- title --}}
@@ -9,93 +11,93 @@
     {{-- slide 0 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
         <h2 class="title stroke">Children, what do you see here?</h2>
-        <img src="{{ asset('assets/images/pptimages/cshapes.png') }}" class="w-img3" />
+        <img src="{{ asset('assets/images/pptimages/cshapes.png') }}" class="img-xl" />
         <p class="note">Note: Guide children to share their answers.</p>
     </div>
 
     {{-- slide 1 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
 
-        <h2 class="title stroke">There is a <span class="text-white">square</span>, <span class="text-white">triangle</span>
-            and a <span class="text-white">rectangle</span>.</h2>
-        <img src="{{ asset('assets/images/pptimages/cshapes.png') }}" class="w-img3" />
+        <h2 class="title stroke">There is a <span class="!text-white">square</span>, <span class="!text-white">triangle</span>
+            and a <span class="!text-white">rectangle</span>.</h2>
+        <img src="{{ asset('assets/images/pptimages/cshapes.png') }}" class="img-xl" />
         <p class="note">Note: Guide children to point out the shapes.</p>
     </div>
 
     {{-- slide 2 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <h2 class="title stroke"> <span class="text-white">Shapes</span> can be formed using <span
+        <h2 class="title stroke"> <span class="!text-white">Shapes</span> can be formed using <span
                 class="text-white">lines</span>.</h2>
 
-        <img src="{{ asset('assets/images/pptimages/cshapes.png') }}" class="w-img3" />
+        <img src="{{ asset('assets/images/pptimages/cshapes.png') }}" class="img-xl" />
     </div>
 
     {{-- slide 3 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <h2 class="title stroke">A <span class="text-white">Square</span> is formed using 4 straight <span
+        <h2 class="title stroke">A <span class="!text-white">Square</span> is formed using 4 straight <span
                 class="text-white">lines</span> of the same
             length.
         </h2>
-        <img src="{{ asset('assets/images/pptimages/box.png') }}" class="w-img3" />
-        <p class="note">Note: Point out to the children and count the <span class="text-white">lines</span> together.</p>
+        <img src="{{ asset('assets/images/pptimages/box.png') }}" class="img-lg" />
+        <p class="note">Note: Point out to the children and count the <span class="!text-white">lines</span> together.</p>
     </div>
 
     {{-- slide 4 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <h2 class="title stroke">A <span class="text-white">Square</span> is formed when the <span
+        <h2 class="title stroke">A <span class="!text-white">Square</span> is formed when the <span
                 class="text-white">lines</span> join together.</h2>
-        <img src="{{ asset('assets/images/pptimages/box2.png') }}" class="w-img3" />
+        <img src="{{ asset('assets/images/pptimages/box2.png') }}" class="img-lg" />
     </div>
 
     {{-- slide 5 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <h2 class="title stroke">A <span class="text-white">triangle</span> needs three <span
+        <h2 class="title stroke">A <span class="!text-white">triangle</span> needs three <span
                 class="text-white">lines</span>.</h2>
-        <img src="{{ asset('assets/images/pptimages/triangle.png') }}" class="w-img3" />
-        <p class="note">Note: Point out to the children and count the <span class="text-white">lines</span> together.</p>
+        <img src="{{ asset('assets/images/pptimages/triangle.png') }}" class="img-lg" />
+        <p class="note">Note: Point out to the children and count the <span class="!text-white">lines</span> together.</p>
     </div>
 
 
     {{-- slide 6 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <h2 class="title stroke">A <span class="text-white">triangle</span> is formed when the <span
+        <h2 class="title stroke">A <span class="!text-white">triangle</span> is formed when the <span
                 class="text-white">three</span> lines join together.</h2>
-        <img src="{{ asset('assets/images/pptimages/triangle2.png') }}" class="w-img3" />
-        <p class="note">Note: Point out to the children on the parts where the <span class="text-white">lines</span> are
+        <img src="{{ asset('assets/images/pptimages/triangle2.png') }}" class="img-lg" />
+        <p class="note">Note: Point out to the children on the parts where the <span class="!text-white">lines</span> are
             joined.</p>
     </div>
 
     {{-- slide 7 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <h2 class="title stroke">A <span class="text-white">rectangle</span> is formed using 4 straight <span
+        <h2 class="title stroke">A <span class="!text-white">rectangle</span> is formed using 4 straight <span
                 class="text-white">lines</span> too.</h2>
-        <img src="{{ asset('assets/images/pptimages/rect3.png') }}" class="w-img3" />
-        <p class="note">Note: Point out to the children and count the <span class="text-white">lines</span> together.</p>
+        <img src="{{ asset('assets/images/pptimages/rect3.png') }}" class="img-lg" />
+        <p class="note">Note: Point out to the children and count the <span class="!text-white">lines</span> together.</p>
     </div>
 
     {{-- slide 8 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <h2 class="title stroke">A <span class="text-white">rectangle</span> is formed using 4 straight
-            <span class="text-white">lines</span> too.
+        <h2 class="title stroke">A <span class="!text-white">rectangle</span> is formed using 4 straight
+            <span class="!text-white">lines</span> too.
         </h2>
-        <img src="{{ asset('assets/images/pptimages/rect3.png') }}" class="!w-img3" />
-        <p class="note">Note: Point out to the children and count the <span class="text-white">lines</span> together.</p>
+        <img src="{{ asset('assets/images/pptimages/rect3.png') }}" class="img-lg" />
+        <p class="note">Note: Point out to the children and count the <span class="!text-white">lines</span> together.</p>
     </div>
 
     {{-- slide 9 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <h2 class="title stroke">Two long <span class="text-white">lines</span> and two short <span
+        <h2 class="title stroke">Two long <span class="!text-white">lines</span> and two short <span
                 class="text-white">lines</span> are
-            used to form a <span class="text-white">rectangle</span>.</h2>
-        <img src="{{ asset('assets/images/pptimages/rect3.png') }}" class="w-img3" />
+            used to form a <span class="!text-white">rectangle</span>.</h2>
+        <img src="{{ asset('assets/images/pptimages/rect3.png') }}" class="img-lg" />
 
     </div>
 
     {{-- slide 10 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <h2 class="title stroke">This is another way of forming a <span class="text-white">rectangle</span>.</h2>
-        <img src="{{ asset('assets/images/pptimages/rect5.png') }}" class="w-img3" />
-        <p class="note">Note: Point out to the children that this is also a <span class="text-white">rectangle</span>.</p>
+        <h2 class="title stroke">This is another way of forming a <span class="!text-white">rectangle</span>.</h2>
+        <img src="{{ asset('assets/images/pptimages/rect5.png') }}" class="img-lg" />
+        <p class="note">Note: Point out to the children that this is also a <span class="!text-white">rectangle</span>.</p>
     </div>
 
 
@@ -103,10 +105,10 @@
     <div class="flex flex-col justify-center  slide hidden">
         <div class="flex flex-col items-center justify-center">
             <h2 class="title !text-white stroke">Individual Activity 1</h2>
-            <img src="{{ asset('assets/images/pptimages/shape2.png') }}" class="w-img3" />
+            <img src="{{ asset('assets/images/pptimages/shape2.png') }}" class="img-xl" />
         </div>
         <div class="flex items-start">
-            <h2 class="title stroke text-start"> <span class="text-white">Let's try:</span><br> Form a shape using the
+            <h2 class="title stroke text-start"> <span class="!text-white">Let's try:</span><br> Form a shape using the
                 materials.
             </h2>
         </div>
@@ -122,7 +124,7 @@
                 <li>Take 4 ice cream sticks or 4 straws.</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/pptimages/shape3.png') }}" class="large-img2" />
+        <img src="{{ asset('assets/images/pptimages/shape3.png') }}" class="img-sm" />
         <p class="note  text-center">Note: Encourage children to count the pieces needed. Straws and ice cream sticks can be
             used.</p>
     </div>
@@ -137,7 +139,7 @@
                     your learning journal.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/pptimages/shape2.png') }}" class="w-img3" />
+        <img src="{{ asset('assets/images/pptimages/shape2.png') }}" class="img-xl" />
         <p class="note  text-center">Note: Encourage and guide the children.</p>
     </div>
 
@@ -150,7 +152,7 @@
                 <li> Follow the steps below and make a triangle Glue it on your learning journal.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/pptimages/shape1.png') }}" class="w-img3" />
+        <img src="{{ asset('assets/images/pptimages/shape1.png') }}" class="img-xl" />
         <p class="note  text-center">Note: Guide children in getting the pieces. They can mix as they do not need 3 pieces
             on the same length.</p>
     </div>
@@ -165,29 +167,29 @@
                 <li> Follow the following and make a rectangle. Glue it on the journal.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/pptimages/shape55.png') }}" class="w-img3" />
+        <img src="{{ asset('assets/images/pptimages/shape55.png') }}" class="img-xl" />
         <p class="note  text-center">Note: Guide children in getting the pieces.</p>
     </div>
 
     {{-- slide 16 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <h2 class="title stroke ">This is how these <span class="text-white">shapes</span> are formed.</h2>
-        <img src="{{ asset('assets/images/pptimages/shapess.png') }}" class="w-img3" />
+        <h2 class="title stroke ">This is how these <span class="!text-white">shapes</span> are formed.</h2>
+        <img src="{{ asset('assets/images/pptimages/shapess.png') }}" class="img-xl" />
 
     </div>
 
     {{-- slide 17 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <h2 class="title stroke "> <span class="text-white">Shapes</span> can be formed putting <span
+        <h2 class="title stroke "> <span class="!text-white">Shapes</span> can be formed putting <span
                 class="text-white">lines</span> together.</h2>
-        <img src="{{ asset('assets/images/pptimages/cshapes.png') }}" class="w-img3" />
+        <img src="{{ asset('assets/images/pptimages/cshapes.png') }}" class="img-xl" />
 
     </div>
 
     {{-- slide 18 --}}
     <div class="flex flex-col items-center justify-center gap-10 slide hidden">
         <h2 class="title stroke ">Learning Journal</h2>
-        <div class="w-[40vw] h-[40vh] bg-cover bg-center text-[1.2vw]"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center text-start text-[1.2vw]"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>Create asquare and paste it here.</p>
 
@@ -197,7 +199,7 @@
     {{-- slide 19 --}}
     <div class="flex flex-col items-center justify-center gap-10 slide hidden">
         <h2 class="title stroke ">Learning Journal</h2>
-        <div class="w-[40vw] h-[40vh] bg-cover bg-center text-[1.2vw]"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center text-start text-[1.2vw]"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>Create atriangle and paste it here.</p>
 
@@ -207,7 +209,7 @@
     {{-- slide 20 --}}
     <div class="flex flex-col items-center justify-center gap-10 slide hidden">
         <h2 class="title stroke ">Learning Journal</h2>
-        <div class="w-[40vw] h-[40vh] bg-cover bg-center text-[1.2vw]"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center text-start text-[1.2vw]"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>Create arectangle and paste it here.</p>
 
@@ -308,7 +310,7 @@
 
             // Done button
             doneBtn.addEventListener("click", () => {
-                window.location.href = "{{ route('shapesSelection') }}";
+                window.location.href = "{{ route('basicStructure') }}";
             });
 
             // Start at first slide

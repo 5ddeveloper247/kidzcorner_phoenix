@@ -4,7 +4,7 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col items-center ">
-        <h2 class="indexTitle text-[55px] stroke ">Buildings Around Us</h2>
+        <h2 class="indexTitle  stroke ">Buildings Around Us</h2>
         <h2 class="!text-white title">Explore different types of buildings; <br>
 learn about the different building designs; <br>
 design and build a building.</h2>

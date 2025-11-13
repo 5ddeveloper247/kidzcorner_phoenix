@@ -30,7 +30,7 @@
 
     {{-- slide 4 --}}
     <div class="slide hidden flex flex-col items-center justify-between h-[50vh] ">
-        <h2 class="text-center justify-start text-[45px] text-white stroke">Hands-on Time 1</h2>
+        <h2 class="text-center justify-start text-[45px] !text-white stroke">Hands-on Time 1</h2>
         <h2 class="text-start title stroke">Mission: <br>
             Plan a route for a robot to spell out a name. Use Blockly to
             programme the robot to move according to the planned route.</h2>
@@ -120,7 +120,7 @@
     {{-- sldie 10 --}}
     <div class="slide  hidden flex flex-col items-center justify-center ">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[40vw] h-[40vh] bg-cover bg-center flex flex-col justify-center items-center"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center flex flex-col justify-center items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>What is the arrangement of letters on your coding mat? Plot them here. Where is the
                 starting point of the robot? How do you plan the route to spell the name? Draw arrows.</p>
@@ -138,7 +138,7 @@
     {{-- sldie 11 --}}
     <div class="slide  hidden flex flex-col items-center justify-center ">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[40vw] h-[40vh] bg-cover bg-center flex flex-col justify-start items-center"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center flex flex-col justify-start items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>How does a robot move according to the planned route and spell the name?
                 Use coding cards to lay out the steps.</p>

@@ -4,8 +4,8 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col   justify-between items-center ">
-        <div class="indexTitle  text-[55px]  stroke">How Does a Screw Work?</div>
-        <h2 class=" text-white ">
+        <div class="indexTitle    stroke">How Does a Screw Work?</div>
+        <h2 class=" !text-white ">
             Explore a Rube Goldberg Machine and uses
             of a simple machine - Screw</h2>
 

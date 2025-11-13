@@ -6,88 +6,90 @@
     <h2 class="top-title stroke">Different Types of Shadows</h2>
 
     {{-- slide 29 --}}
-    <div class="flex flex-col justify-start text-start text-2xl text-white slide hidden t-slide">
+    <div class="flex flex-col justify-start text-start !text-white hidden t-slide">
         <div>
             <h2 class="t-title">Children will be able to:</h2>
-            <ul class="list-disc">
+            <ol class="list-disc">
                 <li>Develop awareness of different types of shadows</li>
                 <li>Explore materials and their shadows</li>
                 <li>Create a shadow puppet with mix of materials</li>
                 <li>Develop curiosity in exploring various types of items</li>
                 <li>Develop observation and understanding through hands-on activities</li>
-            </ul>
+            </ol>
         </div>
 
         <div>
             <h2 class="t-title">Keywords:</h2>
             <div class="flex items-center gap-x-10">
-                <ul class="list-disc">
+                <ol class="list-disc">
                     <li>Black</li>
                     <li>Shadow</li>
                     <li>Light</li>
                     <li>Block</li>
                     <li>Translucent</li>
-                </ul>
-                <ul class="list-disc">
+                </ol>
+                <ol class="list-disc">
                     <li>Transparent</li>
                     <li>Shadow Puppetry</li>
                     <li>Puppet</li>
-                </ul>
+                </ol>
             </div>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" />
+
     </div>
 
 
     {{-- slide 31 --}}
-    <div class="text-white flex flex-col text-start text-2xl slide hidden t-slide">
+    <div class="text-white flex flex-col text-start hidden t-slide">
         <div>
             <h2 class="t-title">Preparations for Class Activity I:</h2>
             <ul class="list-disc">
                 <li>
                     The following items for each group:
-                    <ul class="list-decimal">
+                    <ol class="list-decimal" start="1">
                         <li>Flashlights</li>
                         <li>Items that can form shadows such as Solid toy figurines Blocks Books Construction/coloured paper
                             or card</li>
-                    </ul>
+                    </ol>
                 </li>
             </ul>
-            <img src="{{ asset('assets/images/pptimages/fish.png') }}" alt="" />
+            <img src="{{ asset('assets/images/pptimages/fish.png') }}" class="img-xl" />
         </div>
         <p>Teacher can point out about the shape of the shadows when children are working on the activity.</p>
 
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="">
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1">
+
     </div>
 
 
     {{-- slide 32 --}}
-    <div class="text-white flex flex-col text-start text-2xl slide hidden t-slide">
+    <div class="text-white flex flex-col text-start hidden t-slide">
         <div>
-            <h2 class="t-title">Preparations for Class Activity I:</h2>
-            <ul class="list-disc">
-                <li>3. Translucent items that forms coloured shadows such as coloured plastic cups, translucent toys,
+            <ol class="list-decimal" start="3">
+                <li>Translucent items that forms coloured shadows such as coloured plastic cups, translucent toys,
                     red/yellow plastic bags, coloured plastic sheets, cellophane paper etc.</li>
-            </ul>
-            <img src="{{ asset('assets/images/pptimages/glass.png') }}" alt="" />
+            </ol>
+            <img src="{{ asset('assets/images/pptimages/glass.png') }}" />
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="">
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1">
+
         <p>Teacher can point out on the coloured shadows to the children when they are exploring.</p>
     </div>
 
 
     {{-- slide 33 --}}
-    <div class="text-white flex flex-col text-start text-2xl slide hidden t-slide">
+    <div class="text-white flex flex-col text-start hidden t-slide">
         <div>
-            <h2 class="t-title">Preparations for Class Activity I:</h2>
-            <ul class="list-disc">
-                <li>4. Transparent items such as transparent plastic cups, water bottles, goggles, magnifying glass or
+            <ol class="list-decimal" start="4">
+                <li> Transparent items such as transparent plastic cups, water bottles, goggles, magnifying glass or
                     ziplock bag etc. Teacher to point out which parts do not have shadows as light is able to shine through.
                 </li>
-            </ul>
-            <img src="{{ asset('assets/images/pptimages/lens.png') }}" alt="" />
+            </ol>
+            <img src="{{ asset('assets/images/pptimages/lens.png') }}" />
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="">
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1">
+
         <p>Important Notes: </br>Teacher to remind children not to shine light directly into their eyes or their
             friend's eyes. Explain to them that it will damage their eyes. Teacher can use simple words to explain
             translucent and transparent.</p>
@@ -95,7 +97,7 @@
 
 
     {{-- slide 34 --}}
-    <div class="flex flex-col text-start text-2xl text-white slide hidden t-slide">
+    <div class="flex flex-col text-start !text-white hidden t-slide">
         <div>
             <h2 class="t-title">Preparations for Class Activity II:</h2>
             <p>Do these for the children before the activity:</p>
@@ -104,30 +106,80 @@
                         and cut out the eyes and mouth portion)</span></li>
                 <li>Allow children to freely paste the materials on their template and let them discover the shadow formed
                     with the materials.</li>
-            </ul>
-            <div class="flex items-center justify-around w-full">
-                <ul class="list-disc pl-6">
-                    <h3 class="font-semibold mt-4">Notes:</h3>
-                    <li>Teacher to assist children to glue/tape the materials.</li>
-                    <li>
-                        Provide a variety of items such as:
-                        <ul class="list-disc pl-6">
-                            <li>Strings</li>
-                            <li>Pipe cleaners</li>
-                            <li>Cut-out shapes using paper</li>
-                            <li>Cellophane paper</li>
-                        </ul>
-                    </li>
-                </ul>
-                <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1"
-                    alt="" />
-            </div>
+                </ol>
+                <div class="flex items-center justify-around w-full">
+                    <ul class="list-disc pl-6">
+                        <h3 class="mt-4">Notes:</h3>
+                        <li>Teacher to assist children to glue/tape the materials.</li>
+                        <li>
+                            Provide a variety of items such as:
+                            <ul class="list-disc pl-6">
+                                <li>Strings</li>
+                                <li>Pipe cleaners</li>
+                                <li>Cut-out shapes using paper</li>
+                                <li>Cellophane paper</li>
+                                </ol>
+                        </li>
+                        </ol>
+                        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" />
+
+                </div>
         </div>
     </div>
 
+    {{-- slide --}}
+    <div class=" t-slide text-start !text-white !w-[53vw]">
+        <div>
+            <h2 class="t-title ">Notes:</h2>
+            <ul class="list-disc space-y-3">
+                <li>
+                    <span class="relative">
+                        If you see <span class="opacity-0">---</span>next to a picture, click on the picture to watch the
+                        video.
+                        <img class="t-video-btn absolute top-[-1vw] left-[8vw]"
+                            src="{{ asset('assets/images/pptimages/video.png') }}" />
+                    </span>
+                </li>
+
+                <li>
+                    <span class="relative">
+                        If you see <span class="opacity-0">---</span> , click on it for additional information or activity.
+                        <img src="{{ asset('assets/images/pptimages/info-btn.png') }}"
+                            class="t-info-btn absolute top-[-1vw] left-[8.5vw]" />
+                    </span>
+                </li>
+
+                <li>
+                    Always ask questions to encourage children to think and share their ideas first before giving out
+                    any information.
+                </li>
+
+                <li>Emphasise and use the keywords during hands-on sessions.</li>
+
+                <li>
+                    Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
+                </li>
+
+                <li>
+                    <span class="relative">
+                        Click on this shortcut icon <span class="opacity-0">---</span> if you need to go to some parts of
+                        the lesson quickly.
+                        <img src="{{ asset('assets/images/pptimages/home-btn.png') }}"
+                            class="t-home-btn absolute top-0 left-[19.5vw]" />
+                    </span>
+                </li>
+
+            </ul>
+        </div>
+
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
+    </div>
+
+
+
 
     {{-- slide 35 --}}
-    <div class="text-white flex flex-col justify-start text-start text-2xl slide hidden t-slide">
+    <div class="text-white flex flex-col justify-start text-start hidden t-slide">
         <h1 class="title stroke text-center">Learning Center Idea</h1>
         <div>
             <h2 class="!text-white stroke title">Matching shadow</h2>
@@ -141,9 +193,10 @@
             <ul class="mt-2 list-decimal space-y-1 pl-6">
                 <li>Invite children to pick up a picture and find the item that will cast the shadow.</li>
                 <li>Ask children to use the lights to create the same shadow.</li>
-            </ul>
+                </ol>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" />
+
     </div>
 
 
@@ -194,7 +247,7 @@
     <script>
         document.addEventListener("DOMContentLoaded", () => {
             // Get all elements
-            const slides = document.querySelectorAll(".slide");
+            const slides = document.querySelectorAll(".t-slide");
             const nextBtn = document.querySelector(".nextButton");
             const returnBtn = document.getElementById("returnButton");
             const doneBtn = document.querySelector(".doneButton");
@@ -247,7 +300,7 @@
 
             // Done button
             doneBtn.addEventListener("click", () => {
-                window.location.href = "{{ route('lightforms') }}";
+                window.location.href = "{{ route('choosetypes') }}";
             });
 
             // Start at first slide

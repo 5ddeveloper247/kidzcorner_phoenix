@@ -4,9 +4,9 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col h-full justify-between items-center ">
-        <h2 class="title !text-[55px] stroke">Rainbow</h2>
-        <h2 class="title stroke !text-white">
-            Develop awareness of how rainbows are formed; <br>
+        <div class="stroke">Rainbow</div>
+        <h2 class="stroke !text-white">
+            Develop awareness of how rainbows are formed;
             explore and create rainbows         </h2>
 
         <button class="nextButton">

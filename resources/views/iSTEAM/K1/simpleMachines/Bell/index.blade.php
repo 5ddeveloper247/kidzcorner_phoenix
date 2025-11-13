@@ -4,8 +4,8 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col   items-center ">
-        <div class="indexTitle  text-[55px] stroke">Ring a Bell Machine</div>
-        <h2 class="text-2xl  text-white  ">
+        <div class="indexTitle   stroke">Ring a Bell Machine</div>
+        <h2 class="text-2xl  !text-white  ">
             Build a Rube Goldberg Machine that includes 
             a simple machine - Inclined Plane
         </h2>

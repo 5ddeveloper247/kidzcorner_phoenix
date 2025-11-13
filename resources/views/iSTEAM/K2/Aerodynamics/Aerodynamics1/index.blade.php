@@ -3,9 +3,9 @@
 
 @section('content')
 
-    <div id="topDiv" class="flex flex-col items-center !justify-center">
-        <div class="indexTitle  text-[55px]  stroke">What is Aerodynamics? 1</div>
-        <h2 class=" text-white stroke ">
+    <div id="topDiv" class="flex flex-col ">
+        <div class="indexTitle    stroke">What is Aerodynamics? 1</div>
+        <h2 class=" !text-white stroke ">
             Understanding the concept of Weight and Lift</h2>
 
         {{-- next Button --}}

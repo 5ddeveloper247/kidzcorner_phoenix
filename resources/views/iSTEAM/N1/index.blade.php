@@ -31,16 +31,23 @@
 
 @section('content')
 
-    <div class=" panel panel-f flex items-center justify-center text-center z-[99] px-4 row-gap-5 w-full">
+    <div class=" panel N1-panel flex items-center justify-center text-center z-[99] px-4 gap-[3vw] w-full">
 
-        <a href="{{ route('lightforms') }}" class=" transition hover:brightness-110 ">
-            <img src="{{ asset('/assets/images/pptimages/class1.png') }}" class="w-[18vw]">
+        <a href="{{ route('lightforms') }}"
+            style="background-image: url('{{ asset('/assets/images/pptimages/Property1.png') }}');"
+            class=" bg-no-repeat bg-contain bg-center  w-[26vw] h-[21.354vw] relative flex justify-center items-center transition hover:brightness-110">
+            <h2 class="text-[2.6vw] text-[#7D6F71]">Living <br> Things</h2>
+            <img src="{{ asset('/assets/images/pptimages/light-bulb1.png') }}" class="w-[7.9vw] h-[7.9vw] absolute left-0 top-[2.5vw]">
         </a>
 
-        <a href="{{ route('basicStructure') }}" class="  transition hover:brightness-110 ">
-            <img src="{{ asset('/assets/images/pptimages/class2.png') }}" class="w-[18vw]">
+        <a href="{{ route('basicStructure') }}"
+            style="background-image: url('{{ asset('/assets/images/pptimages/Property1.png') }}');"
+            class=" bg-no-repeat bg-contain bg-center  w-[26vw] h-[21.354vw] relative flex justify-center items-center transition hover:brightness-110">
+            <h2 class="text-[2.6vw] text-[#7D6F71]">Basic <br> Structures</h2>
+            <img src="{{ asset('/assets/images/pptimages/light-bulb2.png') }}" class="w-[7.9vw] h-[7.9vw] absolute left-0 top-[2.5vw]">
         </a>
     </div>
+
 
     <div id="buttons" class="absolute top-[30px] right-[60px] flex flex-row gap-6 z-[999]">
 

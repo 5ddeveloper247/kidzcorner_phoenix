@@ -27,7 +27,7 @@
         <h2 class="title stroke">Do you remember what this is?</h2>
         <p class="note">Note: Have children recall and talk about the use of this Rube Goldberg Machine.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -42,7 +42,7 @@
         <h2 class="title stroke">Does it have any simple machine?</h2>
         <p class="note">Note: Have children name the 2 simple machines in this pop a balloon machine.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -58,7 +58,7 @@
         <h2 class="title stroke">What are the simple machines?</h2>
         <p class="note">Note: Have children name and point at the 2 simple machines - inclined plane, wedge.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -73,7 +73,7 @@
         <h2 class="title stroke">Do you remember what this is?</h2>
         <p class="note">Note: Have children recall and talk about the use of this Rube Goldberg Machine.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video4')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video4')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -89,7 +89,7 @@
         <h2 class="title stroke">Does it have any simple machine?</h2>
         <p class="note">Note: Have children name the 2 simple machines in this water a plant machine.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video5')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video5')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -104,7 +104,7 @@
         <h2 class="title stroke">What are the simple machines?</h2>
         <p class="note">Note: Have children name and point at the 2 simple machines - inclined plane, pulley.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video6')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video6')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -120,7 +120,7 @@
         <h2 class="title stroke">Do you remember what this is?</h2>
         <p class="note">Note: Have children recall and talk about the use of this Rube Goldberg Machine.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video7')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video7')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -135,7 +135,7 @@
         <h2 class="title stroke">Does it have any simple machine?</h2>
         <p class="note">Note: Have children name the 3 simple machines in this hole punching machine.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video8')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video8')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -150,7 +150,7 @@
         <h2 class="title stroke">What are the simple machines?</h2>
         <p class="note">Note: Have children name and point at the 2 simple machines - inclined plane, pulley.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video9')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video9')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -183,7 +183,7 @@
         <p class="note">Note: Guide children to conclude that this Rube Goldberg Machine is a compound machine.</p>
 
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video10')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video10')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -198,7 +198,7 @@
         <h2 class="title stroke">Is this a compound machine?</h2>
         <p class="note">Note: Guide children to conclude that this Rube Goldberg Machine is a compound machine.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video11')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video11')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -213,7 +213,7 @@
         <h2 class="title stroke">Is this a compound machine?</h2>
         <p class="note">Note: Guide children to conclude that this Rube Goldberg Machine is a compound machine.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video12')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video12')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -221,12 +221,12 @@
 
     {{-- sldie 17 --}}
     <div class=" slide hidden flex flex-col items-center justify-center ">
-        <h2 class="title stroke">In fact, most of the <span class="text-white">Rube Goldberg Machines</span> are
-            <span class="text-white">compound machines</span>!
+        <h2 class="title stroke">In fact, most of the <span class="!text-white">Rube Goldberg Machines</span> are
+            <span class="!text-white">compound machines</span>!
         </h2>
         <h2 class="title stroke">
-            Many people build their Rube <span class="text-white">Goldberg Machines</span> with the
-            ideas of the is <span class="text-white">simple machines</span>!</h2>
+            Many people build their Rube <span class="!text-white">Goldberg Machines</span> with the
+            ideas of the is <span class="!text-white">simple machines</span>!</h2>
     </div>
 
 
@@ -239,7 +239,7 @@
         <h2 class="title stroke">What is the use of this machine?</h2>
         <p class="note">Note: Have children talk about the use of this Rube Goldberg Machine.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video13')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video13')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -255,7 +255,7 @@
         <h2 class="title stroke">What simple machines does it have?</h2>
         <p class="note">Note: Have children name the 3 simple machines in this raise a flag Machine.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video14')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video14')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -271,7 +271,7 @@
         <p class="note">Note: Have children name and point at the 3 simple machines - wheel and axle, inclined plane,
             pulley.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video15')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video15')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -288,7 +288,7 @@
         <p class="note">Note: Have children name and point at the 3 simple machines - wheel and axle, inclined plane,
             pulley.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video16')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video16')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -303,7 +303,7 @@
         <h2 class="title stroke">What is the use of this machine?</h2>
         <p class="note">Note: Have children talk about the use of this Rube Goldberg Machine.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video17')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video17')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -319,7 +319,7 @@
         <h2 class="title stroke">What simple machines does it have?</h2>
         <p class="note">Note: Have children name the 5 simple machines in this bottle recycling Machine.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video18')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video18')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -336,7 +336,7 @@
             axle,
             inclined plane, screw.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video19')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video19')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -351,7 +351,7 @@
         <h2 class="title stroke">What is the use of this machine?</h2>
         <p class="note">Note: Have children talk about the use of this Rube Goldberg Machine.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video20')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video20')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -366,7 +366,7 @@
         <h2 class="title stroke">What simple machines does it have?</h2>
         <p class="note">Note: Have children name the 5 simple machines in this trap a lizard/gecko machine.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video21')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video21')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -383,7 +383,7 @@
             axle,
             inclined plane, screw.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video22')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video22')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -443,7 +443,7 @@
     {{-- slide 32 --}}
     <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[40vw] h-[40vh] bg-cover bg-center"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p class="text-center">What kind of rube Goldberg Machine did you create together with your friends? Draw it.
             </p>

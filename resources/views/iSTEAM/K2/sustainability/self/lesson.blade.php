@@ -10,7 +10,7 @@
         <img src="{{ asset('assets/images/K2/sustain/reduce/r9.png') }}" class="!max-w-[14vw]" />
         <div class="title stroke">
             <h2>Do you know why it is important for us to
-                <span class="text-white">reduce, reuse</span> and <span class="text-white">recycle</span>?
+                <span class="!text-white">reduce, reuse</span> and <span class="!text-white">recycle</span>?
             </h2>
         </div>
         <p class="note">Note: Encourage children to share their thoughts.</p>
@@ -100,7 +100,7 @@
     <div class="slide hidden flex flex-col items-center justify-start">
         <img src="{{ asset('assets/images/K2/sustain/self/s6.png') }}" class="large-img6" />
         <h2 class="title stroke">Walking, riding a bicycle and taking the public transport instead of driving our cars help
-            to <span class="text-white">reduce greenhouse gases</span>.</h2>
+            to <span class="!text-white">reduce greenhouse gases</span>.</h2>
     </div>
 
     {{-- Slide 14 --}}
@@ -153,9 +153,9 @@
     {{-- Slide 21 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
         <img src="{{ asset('assets/images/K2/sustain/self/s12.png') }}" class="large-img6" />
-        <h2 class="title stroke"><span class="text-white">Greenhouse gases</span> are produced from the trucks and the
-            plane. <span class="text-white">Greenhouse gases</span> can be <span class="text-white">reduced</span> the
-            trucks and plane do not need to <span class="text-white">import</span> and <span
+        <h2 class="title stroke"><span class="!text-white">Greenhouse gases</span> are produced from the trucks and the
+            plane. <span class="!text-white">Greenhouse gases</span> can be <span class="!text-white">reduced</span> the
+            trucks and plane do not need to <span class="!text-white">import</span> and <span
                 class="text-white">export</span></h2>
     </div>
 
@@ -170,7 +170,7 @@
     <div class="slide hidden flex flex-col items-center justify-start">
         <img src="{{ asset('assets/images/K2/sustain/self/s13.png') }}" class="large-img6" />
         <h2 class="title stroke">When we buy food grown locally, fewer planes are needed to <span
-                class="text-white">import</span> and <span class="text-white">export</span> these items.</h2>
+                class="text-white">import</span> and <span class="!text-white">export</span> these items.</h2>
     </div>
 
     {{-- Slide 24 --}}

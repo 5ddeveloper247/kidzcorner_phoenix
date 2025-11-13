@@ -6,7 +6,7 @@
     <h2 class="top-title stroke">Domino Fun</h2>
 
     {{-- sldie 1 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -30,7 +30,7 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start ">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start ">
         <div>
             <h2 class=" t-title">Preparations for Class Activity I:</h2>
             <ul class="list-disc ">
@@ -46,7 +46,7 @@
 
 
     {{-- slide 3 --}}
-    <div class=" slide flex text-2xl text-white justify-start t-slide  text-start ">
+    <div class=" slide flex text-2xl !text-white justify-start t-slide  text-start ">
         <div>
             <h2 class=" t-title">Preparations for Class Activity I:</h2>
             <ul class="list-disc ">
@@ -69,7 +69,7 @@
 
 
     {{-- slide 4 --}}
-    <div class="slide flex t-slide  flex-col  text-2xl text-start text-white">
+    <div class="slide flex t-slide  flex-col  text-2xl text-start !text-white">
         <div>
             <h2 class="t-title">Notes:</h2>
             <ul class="list-disc">

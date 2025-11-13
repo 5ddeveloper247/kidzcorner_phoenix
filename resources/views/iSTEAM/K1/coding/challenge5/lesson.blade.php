@@ -53,7 +53,7 @@
 
     {{-- slide 6 --}}
     <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <h2 class="text-center justify-start text-[45px] text-white stroke">Hands-on Time </h2>
+        <h2 class="text-center justify-start text-[45px] !text-white stroke">Hands-on Time </h2>
         <h2 class="text-start title stroke">Mission: <br>
             Plan routes for a robot to find all the cats as soon as possible.
             Use Blockly to programme the robot to move according to
@@ -240,7 +240,7 @@
     {{-- sldie 18 --}}
     <div class="slide  hidden flex flex-col items-center justify-start ">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[40vw] h-[40vh] bg-cover bg-center flex flex-col gap-[1vw] justify-center items-center"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center flex flex-col gap-[1vw] justify-center items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p class="text-center">How do you plan the route for a robot to find all the cats as soon as possible? <br>
                 Draw arrows to show the route.</p>
@@ -251,7 +251,7 @@
     {{-- sldie 19 --}}
     <div class="slide  hidden flex flex-col items-center justify-center ">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[40vw] h-[40vh] bg-cover bg-center flex flex-col justify-start items-center"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center flex flex-col justify-start items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p class="text-center">How does a robot move according to the planned route? <br>
                 Use coding cards to lay out the steps.</p>
@@ -262,7 +262,7 @@
     {{-- sldie 20 --}}
     <div class="slide  hidden flex flex-col items-center justify-center ">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[40vw] h-[40vh] bg-cover bg-center flex flex-col gap-[1vw] justify-center items-center"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center flex flex-col gap-[1vw] justify-center items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p class="text-center">How long does it take for a robot to complete each planned route? <br>
                 Record the results in the table.</p>

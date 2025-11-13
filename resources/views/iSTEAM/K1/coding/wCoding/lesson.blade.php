@@ -15,7 +15,7 @@
         <p class="note">Note: Have children recall and talk about the name and uses of the six simple machines.</p>
 
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -32,7 +32,7 @@
         <p class="note">Note: Have children boldly share their views.</p>
 
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -134,7 +134,7 @@
         <p class="note">Note: Have children talk about the advice from the video.
             After that, have them take turns to show the correct ways of holding a robot and a tablet.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -147,11 +147,11 @@
             <source src="{{ asset('assets/images/K1/coding/85.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
-        <h2 class="title stroke">Now, let’s find out how to use <span class="text-white">Blockly</span>!</h2>
+        <h2 class="title stroke">Now, let’s find out how to use <span class="!text-white">Blockly</span>!</h2>
         <p class="note">Note: Remember to stop the video from time to time for explanation of each feature in Blockly.
         </p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video4')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video4')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -168,7 +168,7 @@
         <p class="note">Note: Remember to stop the video from time to time for explanation of each feature in Blockly.
         </p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video5')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video5')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -221,7 +221,7 @@
 
     {{-- slide 17 --}}
     <div class="slide hidden flex flex-col items-center justify-between h-[45vh]">
-        <h2 class="text-center justify-start text-[45px] text-white stroke">Hands-on Time 1</h2>
+        <h2 class="text-center justify-start text-[45px] !text-white stroke">Hands-on Time 1</h2>
         <h2 class="text-start title stroke">Mission: <br>
             Let's use Blockly to place a programming block from Drive
             Command to the scripting area. After that, throw away the
@@ -307,7 +307,7 @@
         <h2 class="title stroke">Let’s find out how to make Blockly find a robot!</h2>
         <p class="note text-center">Note: Have children follow through the lesson.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video6')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video6')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -317,7 +317,7 @@
 
     {{-- slide 24 --}}
     <div class="slide hidden flex flex-col items-center justify-between h-[45vh] ">
-        <h2 class="text-center justify-start text-[45px] text-white stroke">Hands-on Time 2</h2>
+        <h2 class="text-center justify-start text-[45px] !text-white stroke">Hands-on Time 2</h2>
         <h2 class="text-start title stroke">Mission: <br>
             How do you make Blockly find the correct robot? Show your teacher!</h2>
         <p class="note text-center">Note: Divide children into groups. Have them take turns to complete the mission.</p>
@@ -377,7 +377,7 @@
         <p class="note text-center">Note: Have children first watch the video and then learn to sing the song together
             (lyrics on the next page).</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video7')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video7')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -413,7 +413,7 @@
         <p class="note text-center">Note: Have children first watch the video and then learn to sing the song together
             (lyrics on the next page).</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video8')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video8')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>

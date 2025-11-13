@@ -1,99 +1,30 @@
 @import "tailwindcss";
 
+/* === GLOBAL === */
 body {
     font-family: "Jua" !important;
 }
 
+a,
+button {
+    cursor: pointer !important;
+}
+
 .stroke {
-    -webkit-text-stroke: 0.07vw #533705;
+    text-shadow: 3px 0 0 #533705, -3px 0 0 #533705, 0 3px 0 #533705,
+        0 -3px 0 #533705, 2px 2px 0 #533705, -2px -2px 0 #533705,
+        2px -2px 0 #533705, -2px 2px 0 #533705;
 }
 
-.board {
-    z-index: 99;
+/* === CONTAINER === */
+#ajax-section {
+    width: 74vw;
+    height: 43.438vw;
 }
 
-#Lesson {
-    img {
-        width: 900px;
-    }
-}
-
-.lesson-ul{
-    padding-left: 1.9vw !important;
-}
-
-.teacher-img1 {
-    bottom: 0px;
-    right: -4vw;
-    z-index: 100;
-    width: 20vw;
-    aspect-ratio: unset !important;
-}
-.t-slide span {
-    padding-inline: 0.5vw;
-    img {
-        max-width: 2vw !important;
-    }
-}
-
-.slide {
-    /* gap: 15px; */
-
-    img {
-        max-width: 27.5vw;
-        max-height: 20.677vw;
-    }
-    .w-img {
-        max-width: 20vw !important;
-    }
-    .w-img2 {
-        max-width: 40vw !important;
-        height: 12vw !important;
-    }
-    .w-img3 {
-        max-width: 40vw !important;
-        height: 14vw !important;
-    }
-    .w-img4 {
-        max-width: 42vw !important;
-        height: 16vw !important;
-    }
-    .h-img {
-        height: 19vw !important;
-    }
-    .large-img {
-        max-width: 20vw !important;
-        aspect-ratio: 7/4 !important;
-    }
-    .large-img2 {
-        max-width: 25vw !important;
-        aspect-ratio: 7/4 !important;
-    }
-    .large-img3 {
-        max-width: 20vw !important;
-        max-height: 32vh !important;
-        aspect-ratio: 7/4 !important;
-    }
-    .large-img4 {
-        max-width: 15vw !important;
-        aspect-ratio: 7/4 !important;
-    }
-    .large-img5 {
-        max-width: 43vw !important;
-        aspect-ratio: 7/2 !important;
-    }
-    .large-img6 {
-        max-width: 38vw !important;
-        aspect-ratio: 8/3 !important;
-    }
-    .large-img7 {
-        max-width: 38vw !important;
-        aspect-ratio: 9 / 5 !important;
-    }
-}
-
+/* === TYPOGRAPHY === */
 .top-title {
-    font-size: 3vw !important;
+    font-size: 2.8vw !important;
     color: #f7b94a;
     position: fixed !important;
     top: 4vh !important;
@@ -102,164 +33,494 @@ body {
     z-index: 999999 !important;
 }
 
-a,
-button {
-    cursor: pointer !important;
+.title,
+.title span,
+.slide h2,
+.slide div h2 {
+    font-size: 2.8vw;
+    z-index: 100;
+    color: #f7b94a;
+    line-height: 100%;
+    width: 55vw;
 }
-
-#buttons {
-    top: 30px;
-    z-index: 1000;
-}
-.video-btn img,
-.ans-btn img {
-    cursor: pointer;
-    width: 4.5vw !important;
-}
-/* #topDiv {
-    height: 50vh !important;
-    justify-content: space-between !important;
-} */
 
 .note {
-    font-size: 20px;
+    font-size: 1.2vw;
     font-weight: 400;
     color: white;
     line-height: 100%;
     z-index: 99;
-    font-size: 1.2vw;
+    max-width: 56vw;
 }
 
-.title {
-    font-size: 2vw !important;
-    z-index: 100;
+.board-title {
+    font-size: 2.5vw !important;
+}
+
+/* === LAYOUT === */
+.slide {
+    gap: 1.2vw !important;
+}
+
+.slide p {
+    line-height: 1.5vw;
+}
+
+#topDiv {
+    display: flex !important;
+    align-items: center !important;
+    flex-direction: column !important;
+    justify-content: space-around;
+    height: 70vh !important;
+    width: 54vw;
+}
+
+#topDiv div,
+#topDiv .indexTitle {
+    font-size: 2.8vw !important;
     color: #f7b94a;
-    line-height: 100%;
 }
 
-.indexTitle {
-    color: #f7b94a;
+#topDiv h2 {
+    line-height: 100% !important;
+    font-size: 2.8vw !important;
 }
 
+/* === BUTTONS & NAVIGATION === */
 #buttons {
     position: fixed;
     top: 3vw;
     right: 3vw;
     gap: 1vw;
+    z-index: 1000;
 }
 
 #homeButton img,
 #closeButton img,
 #returnButton img,
 #sound-btn img {
-    width: 4vw;
+    width: 4vw !important;
 }
 
 .nextButton img,
 .doneButton img {
-    width: 11vw;
+    width: 11vw !important;
 }
 
-#topDiv {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 40vh;
-}
-
-#topDiv div {
-    font-size: 3vw !important;
-}
-#topDiv h2 {
-    line-height: 100% !important;
-    font-size: 2vw !important;
-}
-
-#Lesson img {
-    z-index: 100;
-    width: 15vw;
-}
-
-h2,
-.note,
-ul,
-ol {
-    max-width: 50vw;
-}
-
-h2,
-h2 span {
-    font-size: 2vw;
-    top: -5vw;
-}
-
-
-video {
-    width: 30vw;
-}
-.video1 {
-    width: 25vw !important;
-}
-
-.video2 {
-    width: 20vw !important;
+.video-btn img,
+.ans-btn img {
+    z-index: 100 !important;
+    cursor: pointer;
+    width: 4.5vw !important;
 }
 
 .down-btn-container {
     position: fixed;
-    bottom: 5vw; /* adjust as needed */
+    bottom: 5vw;
     left: 50%;
     transform: translateX(-50%);
     z-index: 1000;
 }
 
-.slide {
-    gap: 1.2vw !important;
+/* === BOARDS === */
+.board,
+.board2,
+.board3 {
+    z-index: 99;
+}
 
-    ul,
-    ol {
-        font-size: 2vw;
-        /* padding-left: 2vw; */
-    }
+/* ============================================
+   CONTAINER-BASED IMAGE SYSTEM (VW UNITS)
+   Container: 74vw × 43.438vw
+   ============================================ */
 
-    h2 {
-        margin-bottom: 1vw;
-    }
+/* === SIZE CATEGORIES === */
 
-    li {
-        /* margin-bottom: 1vw; */
-        /* font-size: 1.8vw; */
-    }
+.img-tiny {
+    max-width: 12vw;
+}
 
-    p {
-        line-height: 1.5vw;
-    }
+.img-xs {
+    max-width: 18vw;
+}
+
+.img-sm {
+    max-width: 28vw;
+}
+
+.img-md {
+    width: 40vw;
+}
+
+.img-lg {
+    max-width: 48vw;
+}
+
+.img-xl {
+    max-width: 60vw !important;
+}
+
+.img-full {
+    max-width: 68vw;
+}
+
+/* === HEIGHT LIMITERS === */
+
+.img-h-sm {
+    max-height: 22vw !important;
+}
+
+.img-h-md {
+    max-height: 28vw;
+}
+
+.img-h-lg {
+    max-height: 35vw;
+}
+
+.img-h-full {
+    max-height: 40vw;
+}
+
+/* === ASPECT RATIO === */
+
+.img-square {
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+}
+
+.img-landscape {
+    aspect-ratio: 16 / 9;
+    object-fit: contain;
+}
+
+.img-wide {
+    aspect-ratio: 21 / 9;
+    object-fit: contain;
+}
+
+.img-portrait {
+    aspect-ratio: 3 / 4;
+    object-fit: contain;
+}
+
+/* === SPECIAL CASES === */
+
+.img-dual {
+    max-width: 35vw;
+    max-height: 32vw;
+}
+
+.img-triple {
+    max-width: 23vw;
+    max-height: 28vw;
+}
+
+.img-teacher {
+    max-width: 20vw;
+    max-height: 22vw;
+}
+
+/* === LESSON SPECIFIC === */
+.lesson-ul {
+    font-size: 2.6vw;
+    max-width: 57vw;
+    padding-left: 1.9vw !important;
+}
+
+#Lesson img {
+    z-index: 100;
+    width: 20vw;
+}
+
+.Selection h2 {
+    font-size: 2.8vw !important;
+    color: #f7b94a;
+}
+
+/* === VIDEO === */
+video {
+    width: 46.3vw;
+    max-height: 32vw;
+}
+.video-md {
+    width: 30vw !important;
+}
+.video-sm {
+    width: 25vw !important;
+}
+
+.video-xs {
+    width: 20vw !important;
+}
+
+/* === TEACHER SLIDES === */
+.teacher-img1 {
+    bottom: 0px;
+    right: -4vw;
+    z-index: 50;
+    width: 20vw;
+    height: 20vw;
+    aspect-ratio: unset !important;
 }
 
 .t-title {
-    font-size: 1.5vw;
-    line-height: 1.5vw;
+    font-size: 1.7vw !important;
+    font-weight: 400;
+    font-family: inherit;
 }
 
 .t-slide {
-    width: 50vw;
+    gap: 1.3vw;
+    width: 53vw;
     padding-inline: 3vw;
-    ul,ol,
-    p {
-        line-height: 1.5vw;
-        padding-left: 2vw;
-        font-size: 1.2vw;
-    }
 }
 
-span {
-    img {
-        width: 3vw;
-    }
+.t-slide span {
+    padding-inline: 0.5vw;
 }
+
+.t-slide span img {
+    max-width: 3.2vw !important;
+}
+
+.t-slide ul,
+.t-slide ol,
+.t-slide p {
+    line-height: 100%;
+    padding-left: 1.7vw;
+    font-weight: 400;
+    font-size: 1.6vw;
+}
+
+/* === MISC === */
+span img {
+    width: 3vw;
+}
+
 .chkbox {
     width: 3vw;
     height: 3vw;
     border: 1px solid black;
+}
+
+/* === RESPONSIVE === */
+@media (max-height: 900px) {
+    /* Container */
+    #ajax-section {
+        width: 67vw !important;
+        height: 37vw !important;
+    }
+
+    /* Base images */
+    .down-btn-container {
+        bottom: 3vw !important;
+    }
+
+    .vector-5 {
+        width: 32vw !important;
+    }
+
+    .drawable {
+        width: 45vw !important;
+        height: 24vw !important;
+        font-size: 1vw !important;
+    }
+
+    .drawable p {
+        font-size: 1.2vw !important;
+    }
+
+    /* Typography */
+    .title,
+    .title span,
+    .slide h2 {
+        font-size: 2.3vw !important;
+        max-width: 56vw !important;
+    }
+
+    .note {
+        font-size: 1.1vw !important;
+        max-width: 50vw !important;
+    }
+
+    /* Images - smaller */
+    .img-tiny {
+        max-width: 10vw !important;
+    }
+    .img-xs {
+        max-width: 15vw !important;
+    }
+    .img-sm {
+        max-width: 24vw !important;
+    }
+    .img-md {
+        max-width: 32vw !important;
+    }
+    .img-normal-md {
+        max-width: 28vw !important;
+    }
+    .img-lg {
+        max-width: 42vw !important;
+    }
+    .img-xl {
+        max-width: 50vw !important;
+    }
+    .img-full {
+        max-width: 60vw !important;
+    }
+
+    .img-h-sm {
+        max-height: 18vw !important;
+    }
+    .img-h-md {
+        max-height: 24vw !important;
+    }
+    .img-h-lg {
+        max-height: 30vw !important;
+    }
+    .img-h-full {
+        max-height: 33vw !important;
+    }
+
+    .img-dual {
+        max-width: 30vw !important;
+        max-height: 28vw !important;
+    }
+    .img-triple {
+        max-width: 20vw !important;
+        max-height: 24vw !important;
+    }
+    .img-teacher {
+        max-width: 17vw !important;
+        max-height: 19vw !important;
+    }
+
+    .gif {
+        top: -2vw !important;
+        width: 20vw !important;
+    }
+
+    .gif2 {
+        top: 12.5vw !important;
+        right: 11vw !important;
+    }
+
+    /* Boards */
+    .board a {
+        width: 14vw !important;
+    }
+    .board a h2,
+    .board3 a h2 {
+        font-size: 1.4vw !important;
+    }
+    .board2 a {
+        width: 12vw !important;
+    }
+    .board2 div {
+        gap: 1vw !important;
+    }
+    .board2 a h2 {
+        font-size: 1.3vw !important;
+    }
+    .board a span,
+    .board2 a span,
+    .board3 a span {
+        font-size: 1.6vw !important;
+    }
+    .board3 a {
+        width: 14vw !important;
+        height: 11vw !important;
+    }
+
+    /* Panels */
+    .N1-panel a {
+        width: 18vw !important;
+        height: 15vw !important;
+    }
+    .N1-panel a h2 {
+        font-size: 2.1vw !important;
+    }
+    .N1-panel a img {
+        width: 5vw !important;
+        height: 5vw !important;
+    }
+
+    .panel-f a {
+        width: 15vw !important;
+        height: 13vw !important;
+    }
+    .panel-f a h2 {
+        font-size: 1.6vw !important;
+    }
+    .panel-f a img {
+        width: 4.5vw !important;
+        height: 4.5vw !important;
+    }
+
+    .K2-panel a {
+        width: 15vw !important;
+        height: 13vw !important;
+    }
+    .K2-panel a h2 {
+        font-size: 1.6vw !important;
+    }
+    .K2-panel a img {
+        width: 4vw !important;
+        height: 4vw !important;
+    }
+
+    /* Lesson */
+    #Lesson img {
+        width: 16vw !important;
+    }
+    .lesson-ul {
+        padding-left: 2vw !important;
+        width: 59vw !important;
+        font-size: 2vw !important;
+    }
+
+    /* Video */
+    video {
+        width: 38vw !important;
+    }
+
+    /* Teacher */
+    .t-slide ul,
+    .t-slide ol,
+    .t-slide p {
+        line-height: 100% !important;
+        padding-left: 1.7vw !important;
+        font-weight: 400 !important;
+        font-size: 1.4vw !important;
+    }
+    .t-slide span img {
+        max-width: 3.2vw !important;
+    }
+
+    .teacher-img1 {
+        right: -9vw !important;
+    }
+
+    .t-info-btn,
+    .t-video-btn {
+        left: 6.7vw !important;
+    }
+
+    .t-home-btn {
+        left: 16.7vw !important;
+    }
+}
+
+@media (min-width: 2560px) {
+    .title,
+    .title span,
+    .slide h2,
+    .slide div h2 {
+        font-size: 3.2vw !important;
+    }
+
+    .note {
+        font-size: 1.4vw !important;
+    }
 }

@@ -33,7 +33,7 @@
 
     {{-- slide 4 --}}
     <div class="slide hidden flex flex-col items-center justify-between h-[50vh]">
-        <h2 class="text-center justify-start text-[45px] text-white stroke">Create your Own Coding Game</h2>
+        <h2 class="text-center justify-start text-[45px] !text-white stroke">Create your Own Coding Game</h2>
         <h2 class="text-start title stroke">What to do: <br>
             After having gone through the coding challenges from lessons
             6 to 10, now it's time for you to get creative and create your
@@ -107,7 +107,7 @@
     {{-- sldie 9 --}}
     <div class="slide  hidden flex flex-col items-center justify-start gap-y-4">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[40vw] h-[40vh] bg-cover bg-center flex flex-col gap-10 justify-center items-center p-[2vw]"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center flex flex-col gap-10 justify-center items-center p-[2vw]"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>Create your own coding game.</p>
             <img src="/assets/images/K1/coding/final/f8.png" />
@@ -118,7 +118,7 @@
     {{-- sldie 10 --}}
     <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[40vw] h-[40vh] bg-cover bg-center flex flex-col gap-10 justify-center items-center"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center flex flex-col gap-10 justify-center items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p class="text-center">Design the coding mat for your coding game.</p>
             <img src="/assets/images/K1/coding/final/f7.png" class="!w-[14vw]" />

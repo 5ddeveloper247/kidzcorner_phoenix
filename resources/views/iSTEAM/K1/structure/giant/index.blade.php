@@ -4,8 +4,8 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col   items-center gap-20 ">
-        <div class="indexTitle  text-[55px]  stroke">Giant Wheels</div>
-        <h2 class=" text-white stroke ">
+        <div class="indexTitle    stroke">Giant Wheels</div>
+        <h2 class=" !text-white stroke ">
             Explore and learn about giant wheels;
             design and build a giant wheel</h2>
 

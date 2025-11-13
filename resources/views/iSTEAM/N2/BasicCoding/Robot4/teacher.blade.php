@@ -7,7 +7,7 @@
     <h2 class="top-title stroke">Programme A Robot 4</h2>
 
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start text-start t-slide">
+    <div class=" slide flex text-2xl !text-white flex-col justify-start text-start t-slide">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -44,7 +44,7 @@
 
 
     {{-- slide 2 --}}
-    <div class="slide hidden flex flex-col justify-start text-start t-slide text-2xl text-white">
+    <div class="slide hidden flex flex-col justify-start text-start t-slide text-2xl !text-white">
         <div class="flex flex-col">
             <ul class="list-disc">
                 <h2 class=" t-title ">Preparations:</h2>
@@ -62,7 +62,7 @@
 
 
     {{-- lide 3 --}}
-    <div class="slide hidden flex flex-col justify-start text-start t-slide text-2xl text-white">
+    <div class="slide hidden flex flex-col justify-start text-start t-slide text-2xl !text-white">
         <div class="flex flex-col">
             <ul class="list-disc">
                 <h2 class=" t-title ">Preparations:</h2>
@@ -77,7 +77,7 @@
 
 
     {{-- slide 4  --}}
-    <div class="slide hidden flex flex-col justify-start text-start t-slide text-2xl text-white">
+    <div class="slide hidden flex flex-col justify-start text-start t-slide text-2xl !text-white">
         <div class="flex flex-col">
             <ul class="list-disc">
                 <h2 class=" t-title ">Preparations:</h2>
@@ -92,7 +92,7 @@
 
 
     {{-- slide 5 --}}
-    <div class="slide hidden flex flex-col justify-start text-start t-slide text-2xl text-white">
+    <div class="slide hidden flex flex-col justify-start text-start t-slide text-2xl !text-white">
         <div class="flex flex-col">
             <ul class="list-disc">
                 <h2 class=" t-title ">Preparations:</h2>
@@ -111,7 +111,7 @@
 
 
     {{-- slide 6 --}}
-    <div class="slide hidden flex justify-start text-start t-slide text-2xl text-white">
+    <div class="slide hidden flex justify-start text-start t-slide text-2xl !text-white">
         <div class="space-y-10">
             <ul class="list-disc">
                 <h2 class=" t-title ">Things to note during hands-on sessions:</h2>
@@ -136,7 +136,7 @@
 
 
     {{-- slide 7 --}}
-    <div class="slide flex t-slide  flex-col  text-2xl text-start text-white">
+    <div class="slide flex t-slide  flex-col  text-2xl text-start !text-white">
         <div>
             <h2 class="t-title">Notes:</h2>
             <ul class="list-disc">

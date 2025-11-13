@@ -5,7 +5,7 @@
 
     <div id="topDiv" class="flex flex-col  gap-[1vw] justify-center items-center ">
         <div class="indexTitle stroke">Being Self-Sufficient</div>
-        <h2 class="text-2xl sm:text-3xl lg:text-5xl text-white stroke ">
+        <h2 class=" !text-white stroke ">
             Understand the meaning of self-sufficient; <br>
             Learn how being self-sufficient helps the environment</h2>
 

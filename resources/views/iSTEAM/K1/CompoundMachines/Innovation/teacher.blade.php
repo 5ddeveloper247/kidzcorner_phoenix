@@ -6,7 +6,7 @@
     <h2 class="top-title stroke">Domino Fun</h2>
 
     {{-- sldie 1 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -36,7 +36,7 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex flex-col t-slide text-2xl text-white justify-start  text-start ">
+    <div class=" slide flex flex-col t-slide text-2xl !text-white justify-start  text-start ">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <div class="flex justify-center gap-20">
@@ -73,7 +73,7 @@
 
 
     {{-- SLIDE 3 --}}
-    <div class=" slide flex flex-col t-slide text-2xl text-white justify-start  text-start ">
+    <div class=" slide flex flex-col t-slide text-2xl !text-white justify-start  text-start ">
 
         <h2 class=" t-title">Sample Rube Goldberg Machine 1 - raise a flag machine:</h2>
         <video id="video1" class="pointer-events-none">
@@ -82,7 +82,7 @@
         </video>
 
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
 
@@ -91,7 +91,7 @@
 
 
     {{-- SLIDE 4 --}}
-    <div class=" slide flex flex-col t-slide text-2xl text-white justify-start  text-start ">
+    <div class=" slide flex flex-col t-slide text-2xl !text-white justify-start  text-start ">
 
         <h2 class=" t-title">3 simple machines in the raise a flag machine:</h2>
         <img src="/assets/images/K1/cm/cm79.png" />
@@ -101,7 +101,7 @@
 
 
     {{-- SLIDE 5 --}}
-    <div class=" slide flex flex-col t-slide text-2xl text-white justify-start  text-start ">
+    <div class=" slide flex flex-col t-slide text-2xl !text-white justify-start  text-start ">
 
         <h2 class=" t-title">Sample Rube Goldberg Machine 2 - bottle recycling machine:</h2>
         <video id="video2" class="pointer-events-none">
@@ -110,7 +110,7 @@
         </video>
 
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="Teacher" />
@@ -118,7 +118,7 @@
 
 
     {{-- SLIDE 6 --}}
-    <div class=" slide flex flex-col t-slide text-2xl text-white justify-start  text-start ">
+    <div class=" slide flex flex-col t-slide text-2xl !text-white justify-start  text-start ">
 
         <h2 class=" t-title">5 simple machines in the bottle recycling machine:</h2>
             <img src="/assets/images/K1/cm/cmg1.png"/>
@@ -127,7 +127,7 @@
 
 
     {{-- SLIDE 7 --}}
-    <div class=" slide flex flex-col t-slide text-2xl text-white justify-start  text-start ">
+    <div class=" slide flex flex-col t-slide text-2xl !text-white justify-start  text-start ">
         <h2 class=" t-title">Sample Rube Goldberg Machine 3 - trap a lizard/gecko machine:</h2>
         <video id="video3" class="pointer-events-none">
             <source src="{{ asset('assets/images/K1/sm/81.mp4') }}" type="video/mp4">
@@ -135,7 +135,7 @@
         </video>
 
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="Teacher" />
@@ -144,7 +144,7 @@
 
 
     {{-- SLIDE 8 --}}
-    <div class=" slide flex flex-col t-slide text-2xl text-white justify-start  text-start ">
+    <div class=" slide flex flex-col t-slide text-2xl !text-white justify-start  text-start ">
         <h2 class=" t-title">5 simple machines in the trap a gecko/lizard machine:</h2>
         <img src="/assets/images/K1/cm/cm83.png" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="Teacher" />
@@ -152,7 +152,7 @@
 
 
     {{-- SLIDE 8 --}}
-    <div class=" slide flex flex-col t-slide text-2xl text-white justify-start  text-start ">
+    <div class=" slide flex flex-col t-slide text-2xl !text-white justify-start  text-start ">
         <div>
             <h2 class=" t-title">Things to consider during hands-on session:</h2>
             <ul class="list-disc">
@@ -188,7 +188,7 @@
 
 
     {{-- slide 9 --}}
-    <div class="slide flex t-slide  flex-col  text-2xl text-start text-white">
+    <div class="slide flex t-slide  flex-col  text-2xl text-start !text-white">
         <div>
             <h2 class="t-title">Notes:</h2>
             <ul class="list-disc">

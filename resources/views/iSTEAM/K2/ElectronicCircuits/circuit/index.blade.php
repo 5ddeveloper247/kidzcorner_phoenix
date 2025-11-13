@@ -4,8 +4,8 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col  gap-20 items-center ">
-        <div class="indexTitle  text-[55px]  stroke">What is an Electronic Circuit?</div>
-        <h2 class=" text-white stroke ">
+        <div class="indexTitle    stroke">What is an Electronic Circuit?</div>
+        <h2 class=" !text-white stroke ">
             Explore and learn about electronic circuits; <br>
             learn to use basic parts to form a simple circuit</h2>
 

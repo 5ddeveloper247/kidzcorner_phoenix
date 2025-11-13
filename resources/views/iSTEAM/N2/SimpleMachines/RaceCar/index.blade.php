@@ -4,9 +4,9 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col items-center ">
-        <div class="indexTitle  text-[55px]  stroke">Design A Race Car </div>
+        <div class="indexTitle    stroke">Design A Race Car </div>
         <h2
-            class="text-2xl sm:text-3xl lg:text-6xl text-white    flex flex-col items-center space-x-[30px]">
+            class="text-2xl sm:text-3xl lg:text-6xl !text-white    flex flex-col items-center space-x-[30px]">
             Design a car to take part in a race</h2>
 
 

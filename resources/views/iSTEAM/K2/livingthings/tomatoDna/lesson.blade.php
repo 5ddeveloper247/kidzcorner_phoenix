@@ -65,7 +65,7 @@
 
     {{-- slide 6 --}}
     <div class="slide hidden flex flex-col items-center justify-center ">
-        <h2 class="text-center justify-start text-[45px] text-white stroke">Class Activity</h2>
+        <h2 class="text-center justify-start text-[45px] !text-white stroke">Class Activity</h2>
         <img src="{{ asset('assets/images/K2/livingthings/dna/td2.png') }}" class="w-img" />
         <h2 class="title stroke text-start">Let's find out: <br>
             How to extract DNA from a tomato?</h2>
@@ -258,9 +258,9 @@
     {{-- Slide 26 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <img src="{{ asset('assets/images/K2/livingthings/dna/td14.png') }}" class="w-img3" />
-        <h2 class="title stroke">The <span class="text-white">chemicals</span> used in the process break down the outer
-            covering of tomato <span class="text-white">cells</span> and release <span class="text-white">DNA</span> from
-            the <span class="text-white">cells</span>.</h2>
+        <h2 class="title stroke">The <span class="!text-white">chemicals</span> used in the process break down the outer
+            covering of tomato <span class="!text-white">cells</span> and release <span class="!text-white">DNA</span> from
+            the <span class="!text-white">cells</span>.</h2>
     </div>
 
 
@@ -283,9 +283,9 @@
     {{-- Slide 29 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <img src="{{ asset('assets/images/K2/livingthings/dna/td17.png') }}" class="w-img3" />
-        <h2 class="title stroke"><span class="text-white">Animals</span> and <span class="text-white">plants</span> are
-            <span class="text-white">living things</span>, so we can summarize
-            that <span class="text-white">all living things have DNA</span>!
+        <h2 class="title stroke"><span class="!text-white">Animals</span> and <span class="!text-white">plants</span> are
+            <span class="!text-white">living things</span>, so we can summarize
+            that <span class="!text-white">all living things have DNA</span>!
         </h2>
     </div>
 

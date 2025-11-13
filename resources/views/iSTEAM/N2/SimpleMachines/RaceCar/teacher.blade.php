@@ -2,12 +2,11 @@
 @section('title', 'Dynamic Presentation')
 
 @section('content')
-
-
-
+    {{-- title --}}
+    <h2 class="top-title stroke">Design A Race Car</h2>
 
     {{-- sldie 23  --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start text-start">
+    <div class="flex !text-white flex-col t-slide  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -19,56 +18,52 @@
             </ul>
         </div>
 
-        <div class="flex w-[100%] items-center justify-between">
-            <div>
-                <h2 class="t-title ">Keywords:</h2>
-                <ul class="list-disc ">
-                    <li>Simple Machine</li>
-                    <li>Wheel and Axle</li>
-                    <li>Inclined Plane</li>
-                </ul>
-            </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
+        <div>
+            <h2 class="t-title ">Keywords:</h2>
+            <ul class="list-disc ">
+                <li>Simple Machine</li>
+                <li>Wheel and Axle</li>
+                <li>Inclined Plane</li>
+            </ul>
         </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start text-start ">
+    <div class="flex !text-white flex-col t-slide justify-center  text-start ">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
                 <li>Each group a set of building bricks</li>
             </ul>
         </div>
-        <div class="flex items-center">
-            <img src="{{ asset('assets/images/N2/SimpleMachines/s27.png') }}" class="w-[636px]" />
+   
+            <img src="{{ asset('assets/images/N2/SimpleMachines/s27.png') }}" class="img-md" />
             <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
-        </div>
     </div>
 
 
 
     {{-- slide 3 --}}
-    <div class="text-white flex flex-col t-slide text-start text-2xl slide hidden">
+    <div class="text-white flex flex-col t-slide justify-center text-start hidden">
         <div>
             <h2 class=" t-title ">What you need to do before the lesson:</h2>
             <ul class="list-disc">
                 <li>Be familiar with the name of the parts in the lego set.</li>
             </ul>
         </div>
-        <div class="flex items-center">
-            <img src="{{ asset('assets/images/N2/SimpleMachines/at1.png') }}" class="w-[536px]" />
+   
+            <img src="{{ asset('assets/images/N2/SimpleMachines/at1.png') }}" class="img-md" />
             <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
-        </div>
     </div>
 
 
 
 
     {{-- slide 4 --}}
-    <div class="text-white flex flex-col t-slide text-start text-2xl slide hidden">
+    <div class="text-white flex flex-col t-slide text-start hidden">
         <div>
             <h2 class=" t-title ">Things to note during hands-on sessions:</h2>
             <ul class="list-disc">
@@ -93,38 +88,50 @@
 
 
     {{-- slide 5 --}}
-    <div class="slide flex t-slide  flex-col  text-2xl text-start text-white">
+    <div class=" t-slide text-start !text-white !w-[53vw]">
         <div>
-            <h2 class="t-title">Notes:</h2>
-            <ul class="list-disc">
-                <li class="flex whitespace-nowrap">
-                    If you see
-                    <span class="info-btn">
+            <h2 class="t-title ">Notes:</h2>
+            <ul class="list-disc space-y-3">
+                <li>
+                    <span class="relative">
+                        If you see <span class="opacity-0">---</span>next to a picture, click on the picture to watch the
+                        video.
+                        <img class="t-video-btn absolute top-[-1vw] left-[7.6vw]"
+                            src="{{ asset('assets/images/pptimages/video.png') }}" />
+                    </span>
+                </li>
 
-                        <img src="{{ asset('assets/images/pptimages/video.png') }}" />
+                <li>
+                    <span class="relative">
+                        If you see <span class="opacity-0">---</span> , click on it for additional information or activity.
+                        <img src="{{ asset('assets/images/pptimages/info-btn.png') }}"
+                            class="t-info-btn absolute top-[-1vw] left-[8vw]" />
                     </span>
-                    next to a picture, click on the picture to watch the video.
                 </li>
-                <li class="flex whitespace-nowrap">
-                    If you see
-                    <span> <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="video-btn" />
-                    </span>
-                    , click on it for additional information or activity.
+
+                <li>
+                    Always ask questions to encourage children to think and share their ideas first before giving out
+                    any information.
                 </li>
-                <li>Always ask questions to encourage children to think and share their ideas first before giving
-                    out
-                    any information.</li>
+
                 <li>Emphasise and use the keywords during hands-on sessions.</li>
-                <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
+
+                <li>
+                    Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
                 </li>
-                <li class="flex whitespace-nowrap">
-                    Click on this shortcut icon
-                    <span> <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" class="home-btn" />
+
+                <li>
+                    <span class="relative">
+                        Click on this shortcut icon <span class="opacity-0">---</span> if you need to go to some parts of
+                        the lesson quickly.
+                        <img src="{{ asset('assets/images/pptimages/home-btn.png') }}"
+                            class="t-home-btn absolute top-0 left-[19vw]" />
                     </span>
-                    if you need to go to some parts of the lesson quickly.
                 </li>
+
             </ul>
         </div>
+
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
@@ -134,7 +141,7 @@
 
 
 
-
+    {{-- ================ --}}
     {{-- Done Button --}}
     <div class="down-btn-container">
         <button class=" doneButton ">
@@ -175,7 +182,7 @@
         // click simple       
         document.addEventListener("DOMContentLoaded", () => {
             // Get all elements
-            const slides = document.querySelectorAll(".slide");
+            const slides = document.querySelectorAll(".t-slide");
             const nextBtn = document.querySelector(".nextButton");
             const returnBtn = document.getElementById("returnButton");
             const doneBtn = document.querySelector(".doneButton");
@@ -228,7 +235,7 @@
 
             // Done button
             doneBtn.addEventListener("click", () => {
-                window.location.href = "{{ route('SimpleMachines') }}";
+                window.location.href = "{{ route('RaceCarSelection') }}";
             });
 
             // Start at first slide

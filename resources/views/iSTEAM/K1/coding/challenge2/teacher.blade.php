@@ -8,7 +8,7 @@
     <h2 class="top-title stroke">Coding Challenge (2)</h2>
 
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -42,7 +42,7 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
@@ -58,7 +58,7 @@
     </div>
 
     {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc">
@@ -73,7 +73,7 @@
 
 
     {{-- slide 4 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations for the testing of the ball roller coaster:</h2>
             <ul class="list-disc">
@@ -87,7 +87,7 @@
 
 
     {{-- slide 5 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide items-center justify-start  text-start">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc">
@@ -101,7 +101,7 @@
     </div>
 
     {{-- sldie 6 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide items-center justify-start  text-start">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc">
@@ -114,7 +114,7 @@
 
 
     {{-- sldie 7 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide items-center justify-start  text-start">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide items-center justify-start  text-start">
         <p class="note">When the hands-on sessions 1 or 2 start, guide each group of children to set up
             the mat accordingly (as shown). Advise them to discuss as a group to complete the
             mission. <span class="text-[#F7B94A]"> If needed, adjust the level of difficulty by reducing the number of
@@ -125,7 +125,7 @@
 
 
     {{-- sldie 8 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide items-center justify-start  text-start">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide items-center justify-start  text-start">
         <p class="note">If time allows, let children repeat the hands-on session by adding obstacles
             into the coding mat (example as shown)</p>
         <img src="{{ asset('assets/images/K1/coding/challenge2/ch10.png') }}" class="w-img" />
@@ -134,7 +134,7 @@
 
 
     {{-- sldie 9 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title">Reminders or advice during hands-on session:</h2>
             <ul class="list-disc ">
@@ -152,7 +152,7 @@
 
 
     {{-- sldie 10 --}}
-    <div class="slide flex  flex-col t-slide justify-start  text-2xl text-start text-white">
+    <div class="slide flex  flex-col t-slide justify-start  text-2xl text-start !text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
                 <h2 class=" t-title">Notes:</h2>

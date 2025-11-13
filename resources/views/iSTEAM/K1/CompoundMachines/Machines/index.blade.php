@@ -4,8 +4,8 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col  items-center ">
-        <div class="  text-[#F7B94A] text-[50px] font-extrabold stroke">What are Compound Machines?</div>
-        <h2 class=" text-white stroke ">Learn about compound machines and identify
+        <div class="  text-[#F7B94A] text-[50px] stroke">What are Compound Machines?</div>
+        <h2 class=" !text-white stroke ">Learn about compound machines and identify
             simple machines in some common compound machines</h2>
 
         <button

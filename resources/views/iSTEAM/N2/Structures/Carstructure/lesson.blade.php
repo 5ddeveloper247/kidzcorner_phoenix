@@ -26,7 +26,7 @@
     <div class="slide flex flex-col items-center justify-center  ">
         <img src="{{ asset('assets/images/N2/structure/c-str/s1.png') }}" />
         <h2 class="title stroke">A car is made up of many smaller parts! <br>
-            What <span class="text-white">shapes</span> do you see on the car?</h2>
+            What <span class="!text-white">shapes</span> do you see on the car?</h2>
         <p class="note">Note: Encourage children to share their answers.</p>
     </div>
 
@@ -34,8 +34,8 @@
     {{-- Slide 4 --}}
     <div class="slide flex flex-col items-center justify-center  ">
         <img src="{{ asset('assets/images/N2/structure/c-str/s2.png') }}" />
-        <h2 class="title stroke">The <span class="text-white">body</span> of the car is made up of one short
-            <span class="text-white">rectangle</span> and one long <span class="text-white">rectangle</span>.
+        <h2 class="title stroke">The <span class="!text-white">body</span> of the car is made up of one short
+            <span class="!text-white">rectangle</span> and one long <span class="!text-white">rectangle</span>.
         </h2>
         <p class="note">Note: Encourage children to share their answers.</p>
     </div>
@@ -44,7 +44,7 @@
     {{-- Slide 5  --}}
     <div class="slide flex flex-col items-center justify-center  ">
         <img src="{{ asset('assets/images/N2/structure/c-str/s3.png') }}" />
-        <h2 class="title stroke">Two <span class="text-white">triangles</span> can be found on the car.</h2>
+        <h2 class="title stroke">Two <span class="!text-white">triangles</span> can be found on the car.</h2>
         <p class="note">Note: Encourage children to share their answers.</p>
     </div>
 
@@ -53,7 +53,7 @@
     {{-- slide 6 --}}
     <div class="slide flex flex-col items-center justify-center  ">
         <img src="{{ asset('assets/images/N2/structure/c-str/s4.png') }}" />
-        <h2 class="title stroke">The <span class="text-white">wheel</span> are in the <span class="text-white">shape</span>
+        <h2 class="title stroke">The <span class="!text-white">wheel</span> are in the <span class="!text-white">shape</span>
             of a circle.</h2>
         <p class="note">Note: Encourage children to share their answers.</p>
     </div>
@@ -278,7 +278,7 @@
         <h2 class="title stroke ">Watch how the <span class="!text-white">roof</span> appears from the back of the car,
             opens up and covers the car.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -448,7 +448,7 @@
         <img src="{{ asset('assets/images/N2/structure/str/st33.png') }}" class="large-img" />
         <p class="note">Note: Encourage and guide the children to try.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="{{ asset('assets/images/pptimages/video.png') }}" />
         </div>
     </div>
@@ -511,7 +511,7 @@
     {{-- slide 16 --}}
     {{-- <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[40vw] h-[40vh] bg-cover bg-center flex flex-col justify-between items-start"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center flex flex-col justify-between items-start"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>Design a unique building. Draw it.</p>
             <p>What is the name of your building?___________________________________________________</p>

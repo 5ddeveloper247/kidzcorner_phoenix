@@ -95,29 +95,29 @@
 
         <a href="{{ route('N1') }}" style="background-image: url('{{ asset('/assets/images/pptimages/n1.png') }}');"
             class=" bg-no-repeat bg-contain bg-center w-[15vw] h-[13vw] relative transition hover:brightness-110 ">
-            <p class="text-[#AF6E39] md:text-[2.5vw] absolute top-[2.5vw] right-[2vw]">N1</p>
+            <p class="text-[#AF6E39] text-[2.5vw] absolute top-[2.5vw] right-[2vw]">N1</p>
         </a>
 
         <a href="{{ route('N2') }}" style="background-image: url('{{ asset('/assets/images/pptimages/n2.png') }}');"
             class="bg-no-repeat bg-contain bg-center w-[15vw] h-[13vw] relative transition hover:brightness-110 ">
-            <p class="text-[#AF6E39] md:text-[2.5vw] absolute top-[3.3vw] left-[4vw]">N2</p>
+            <p class="text-[#AF6E39] text-[2.5vw] absolute top-[3.3vw] left-[4vw]">N2</p>
         </a>
 
         <a href="{{ route('K1') }}" style="background-image: url('{{ asset('/assets/images/pptimages/k1.png') }}');"
             class="bg-no-repeat bg-contain bg-center w-[15vw] h-[13vw] relative transition hover:brightness-110 ">
-            <p class="text-[#AF6E39] md:text-[2.5vw] absolute top-[3vw] right-[2vw]">K1</p>
+            <p class="text-[#AF6E39] text-[2.5vw] absolute top-[3vw] right-[2vw]">K1</p>
         </a>
 
 
         <a href="{{ route('K2') }}" style="background-image: url('{{ asset('/assets/images/pptimages/k2.png') }}');"
             class="bg-no-repeat bg-contain bg-center w-[15vw] h-[13vw] relative transition hover:brightness-110 ">
-            <p class="text-[#AF6E39] md:text-[2.5vw] absolute top-[4vw] left-[3.8vw]">K2</p>
+            <p class="text-[#AF6E39] text-[2.5vw] absolute top-[4vw] left-[3.8vw]">K2</p>
         </a>
 
         {{-- <div
             class="group absolute left-[-21.5vw] top-1/2 -translate-y-1/2 w-[10vw] h-[10vw] flex items-center transition-all duration-500 hover:left-[-19vw]">
 
-            <button class="db-btn w-[10vw] px-[2vw] h-[4vw] text-white rotate-[90deg]"
+            <button class="db-btn w-[10vw] px-[2vw] h-[4vw] !text-white rotate-[90deg]"
                 style="background: linear-gradient(229deg, rgb(87,173,137) 0%, rgba(58,111,93,1) 50%, rgba(247,185,74,1) 100%); border-radius:2.5vw 2.5vw 0 0 ">
                 DASHBOARD
             </button>

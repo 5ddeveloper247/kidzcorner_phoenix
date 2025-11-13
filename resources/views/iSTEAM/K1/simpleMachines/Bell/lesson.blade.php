@@ -23,7 +23,7 @@
         <h2 class="title stroke">Let’s watch a video!</h2>
         <p class="note">Note: Turn to next page to watch the video in slow motion.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -38,7 +38,7 @@
         <h2 class="title stroke">Now, let’s watch the video in slow motion!</h2>
         <p class="note">Note: Have children freely talk about what they see. Do not correct them on the terms used.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -48,7 +48,7 @@
     {{-- Slide 4 --}}
     <div class="slide flex flex-col items-center justify-center  ">
         <img src="{{ asset('assets/images/K1/sm/bell/bell.2.png') }}" />
-        <h2 class="title stroke">This is a <span class="text-white">Rube Goldberg Machine</span>.
+        <h2 class="title stroke">This is a <span class="!text-white">Rube Goldberg Machine</span>.
             It is named after its creator, Rube Goldberg.</h2>
 
     </div>
@@ -92,7 +92,7 @@
         <p class="note">Note: Have children watch and talk about what happens at the last part of the video
             (What does the machine do).</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -164,9 +164,9 @@
             Your browser does not support the video tag.
         </video>
         <h2 class="title stroke">The ball rolls down because of the slope.
-            The slope is commonly known as a <span class="text-white">ramp</span>.</h2>
+            The slope is commonly known as a <span class="!text-white">ramp</span>.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video4')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video4')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -177,7 +177,7 @@
     <div class=" slide hidden flex flex-col items-center justify-center ">
 
         <img src="{{ asset('assets/images/K1/sm/bell/bell.2.png') }}" />
-        <h2 class="title stroke">A <span class="text-white">ramp</span> is the slanting surface with one end
+        <h2 class="title stroke">A <span class="!text-white">ramp</span> is the slanting surface with one end
             higher than the other end.</h2>
     </div>
 
@@ -185,7 +185,7 @@
     {{-- sldie 15 --}}
     <div class=" slide hidden flex flex-col items-center justify-center ">
         <img src="{{ asset('assets/images/K1/sm/bell/bell.2.png') }}" />
-        <h2 class="title stroke"><span class="text-white">Inclined plane</span> is another name for a ramp.</h2>
+        <h2 class="title stroke"><span class="!text-white">Inclined plane</span> is another name for a ramp.</h2>
     </div>
 
 
@@ -237,7 +237,7 @@
         <h2 class="title stroke">When you push an object, you use force.
             So the force from the ball makes the first fall.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video5')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video5')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -261,7 +261,7 @@
         <h2 class="title stroke">The first domino falls and pushes the second one.
             The second domino falls and pushes the third one, and so on.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video6')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video6')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -277,7 +277,7 @@
         <h2 class="title stroke">When one action causes the next action, which in turn causes
             the next action, and so on, we call it a domino effect.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video7')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video7')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -292,7 +292,7 @@
         <h2 class="title stroke">How do you make sure that the dominoes
             will always fall one after another?</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video8')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video8')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
 
@@ -308,7 +308,7 @@
         <h2 class="title stroke">When the dominoes are placed too far apart,
             no domino effect will be seen.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video9')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video9')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -342,7 +342,7 @@
         <h2 class="title stroke">If the bell is hung too high,
             the last domino will not hit the bell too.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video210')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video210')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -357,7 +357,7 @@
         <h2 class="title stroke">If the bell is placed too far,
             the last domino will not hit the bell.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video11')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video11')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
 
@@ -373,7 +373,7 @@
         <h2 class="text-center title stroke">So, the positioning of the bell from the dominoes is very
             important to ring the bell always.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video11')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video11')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -382,7 +382,7 @@
     {{-- sldie 31 --}}
     <div class="slide  hidden flex flex-col items-center justify-center -4">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[40vw] h-[40vh] bg-cover bg-center"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p class="text-center">Draw the Rube Goldberg Machine that you have created to ring a bell.
             </p>

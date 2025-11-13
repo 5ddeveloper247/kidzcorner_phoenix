@@ -7,7 +7,7 @@
 
 
     {{-- sldie 1 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -32,7 +32,7 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start w-[75%]">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start w-[75%]">
         <div>
             <h2 class=" t-title">Preparations for Class Activity I:</h2>
             <div class="flex items-center justify-around w-full">
@@ -55,7 +55,7 @@
 
 
     {{-- slide 3 --}}
-    <div class=" slide flex flex-col t-slide text-2xl text-white justify-start  text-start ">
+    <div class=" slide flex flex-col t-slide text-2xl !text-white justify-start  text-start ">
         <div>
             <h2 class=" t-title">Things to consider for preparations:</h2>
             <ul class="list-disc ">
@@ -71,7 +71,7 @@
 
 
     {{-- slide 4 --}}
-    <div class=" slide flex flex-col t-slide text-2xl text-white justify-start  text-start ">
+    <div class=" slide flex flex-col t-slide text-2xl !text-white justify-start  text-start ">
         <div>
             <h2 class=" t-title">Things to consider during hands-on session for Ball Roll activity:</h2>
             <ul class="list-disc ">
@@ -85,7 +85,7 @@
 
 
     {{-- slide 5 --}}
-    <div class=" slide flex flex-col t-slide text-2xl text-white justify-start  text-start ">
+    <div class=" slide flex flex-col t-slide text-2xl !text-white justify-start  text-start ">
         <div>
             <h2 class=" t-title">Things to consider during hands-on session for Ball Roll activity:</h2>
             <ul class="list-disc ">
@@ -98,7 +98,7 @@
 
 
     {{-- slide 6 --}}
-    <div class=" slide flex flex-col t-slide text-2xl text-white justify-start  text-start ">
+    <div class=" slide flex flex-col t-slide text-2xl !text-white justify-start  text-start ">
         <div>
             <h2 class=" t-title">Things to consider during hands-on session for Ball Roll activity:</h2>
             <ul class="list-disc ">
@@ -115,7 +115,7 @@
 
 
     {{-- slide 7 --}}
-    <div class="slide flex t-slide  flex-col  text-2xl text-start text-white">
+    <div class="slide flex t-slide  flex-col  text-2xl text-start !text-white">
         <div>
             <h2 class="t-title">Notes:</h2>
             <ul class="list-disc">

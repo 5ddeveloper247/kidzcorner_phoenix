@@ -7,7 +7,7 @@
     <h2 class="top-title stroke">How do Levers Work?</h2>
 
     {{-- sldie 23  --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -34,7 +34,7 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start">
         <div>
 
             <h2 class=" t-title ">Preparations: </h2>
@@ -55,7 +55,7 @@
 
 
     {{-- slide 25 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start items-center  text-start">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start items-center  text-start">
         <div>
             <h2 class=" t-title ">Things to consider for preparations:</h2>
             <ul class="list-disc  !text-start">
@@ -72,7 +72,7 @@
 
 
     {{--  slide 26 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start items-center  text-start">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start items-center  text-start">
 
         <div>
             <h2 class=" t-title ">Things to consider for preparations:</h2>
@@ -91,7 +91,7 @@
 
 
     {{--  slide 27 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start items-center  text-start">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start items-center  text-start">
 
         <div>
             <h2 class=" t-title ">How to do the experiment and things to consider:</h2>
@@ -109,7 +109,7 @@
 
 
     {{--  slide 28 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start items-center  text-start">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start items-center  text-start">
         <div>
             <h2 class=" t-title ">How to do the experiment and things to consider:</h2>
             <ul class="list-disc  !text-start">
@@ -127,7 +127,7 @@
 
 
     {{--  slide 29 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start items-center  text-start">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start items-center  text-start">
         <div>
 
             <h2 class=" t-title ">How to do the experiment and things to consider:</h2>
@@ -144,7 +144,7 @@
 
 
     {{--  slide 30 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start items-center  text-start">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start items-center  text-start">
         <div>
             <h2 class=" t-title ">How to do the experiment and things to consider:</h2>
             <ul class="list-disc  !text-start">
@@ -162,7 +162,7 @@
 
 
     {{--  slide 31 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start items-center  text-start">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start items-center  text-start">
         <div>
             <h2 class=" t-title ">How to do the experiment and things to consider:</h2>
             <ul class="list-disc  !text-start">
@@ -178,7 +178,7 @@
     </div>
 
     {{-- slide 32 --}}
-    <div class="slide flex t-slide  flex-col  text-2xl text-start text-white">
+    <div class="slide flex t-slide  flex-col  text-2xl text-start !text-white">
         <div>
             <h2 class="t-title">Notes:</h2>
             <ul class="list-disc">
@@ -217,7 +217,7 @@
 
 
     {{--  slide 32 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start items-center  text-start">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start items-center  text-start">
 
         <h2 class="title stroke">How will you get the longest toss of an eraser? Do you get the
             longest toss when the fulcrum is placed near to or far from the eraser?</h2>
@@ -232,7 +232,7 @@
 
 
     {{--  slide 33 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start items-center  text-start">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start items-center  text-start">
 
         <h2 class="title stroke !text-center">Learning Centre Idea </h2>
         <div>
@@ -259,7 +259,7 @@
 
 
     {{--  slide 34 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start items-center  text-start">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start items-center  text-start">
         <h2 class="!text-center  title stroke">Learning Centre Idea </h2>
         <div>
 

@@ -4,9 +4,9 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col   items-center ">
-        <div class="indexTitle  text-[55px]  stroke">What is a Wedge?</div>
+        <div class="indexTitle    stroke">What is a Wedge?</div>
 
-        <h2 class="text-2xl sm:text-3xl lg:text-6xl text-white    flex flex-col items-center space-x-[30px]">
+        <h2 class="text-2xl sm:text-3xl lg:text-6xl !text-white    flex flex-col items-center space-x-[30px]">
             Explore the characteristics of
             a simple machine - Wedge
         </h2>

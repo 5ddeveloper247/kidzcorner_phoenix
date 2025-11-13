@@ -5,9 +5,9 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col items-center ">
-        <div class="indexTitle  text-[55px]  stroke">Animals are Living Things</div>
+        <div class="indexTitle    stroke">Animals are Living Things</div>
         <h2
-            class="text-2xl sm:text-3xl lg:text-6xl text-white    flex flex-col items-center space-x-[30px]">
+            class="text-2xl sm:text-3xl lg:text-6xl !text-white    flex flex-col items-center space-x-[30px]">
             Learn about the characteristics of living things;
             analyze and identify living and non- living things.</h2>
         <button class="nextButton">

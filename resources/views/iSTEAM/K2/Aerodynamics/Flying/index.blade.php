@@ -3,18 +3,17 @@
 
 @section('content')
 
-    <div id="topDiv" class="flex flex-col items-center !justify-center">
-        <div class="indexTitle  text-[55px]  stroke">Flying Machines</div>
-        <h2 class=" text-white stroke ">
+    <div id="topDiv" class="flex flex-col ">
+        <div class="indexTitle stroke">Flying Machines</div>
+        <h2 class=" !text-white">
             Learn about other flying machines that use <br>
             aerodynamic forces to fly</h2>
 
         {{-- next Button --}}
-        <div class="down-btn-container">
-            <button class="nextButton">
-                <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
-            </button>
-        </div>
+
+        <button class="nextButton">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
+        </button>
     </div>
 
 

@@ -15,7 +15,7 @@
         <h2 class="title stroke">Children, what is happening here?</h2>
         <p class="note">Note: Encourage children to answer based on their views and accept all logical answers.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -103,7 +103,7 @@
             a "Pop" sound. Explain that if we want a character to have sound while moving, two programmes have to be
             created.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -135,7 +135,7 @@
             Recorded Sound will appear under Sound Blocks command.</h2>
         <p class="note">Note: Show children that we can record up to five sounds for a character.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
 
@@ -163,7 +163,7 @@
                     <source src="{{ asset('assets/images/K2/animate3/254.mp4') }}" type="video/mp4">
                     Your browser does not support the video tag.
                 </video> <!-- Video Trigger Button -->
-                <div onclick="toggleVideo('video5')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+                <div onclick="toggleVideo('video5')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
                     <img src="/assets/images/pptimages/video.png" />
                 </div>
             </div>
@@ -242,7 +242,7 @@
                 </video>
                 <!-- Video Trigger Button -->
                 <div onclick="toggleVideo('video3')"
-                    class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+                    class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
                     <img src="/assets/images/pptimages/video.png" />
                 </div>
             </div>
@@ -255,7 +255,7 @@
                 </video>
                 <!-- Video Trigger Button -->
                 <div onclick="toggleVideo('video3')"
-                    class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+                    class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
                     <img src="/assets/images/pptimages/video.png" />
                 </div>
             </div>

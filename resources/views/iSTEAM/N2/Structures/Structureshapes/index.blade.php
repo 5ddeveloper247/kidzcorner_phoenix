@@ -4,7 +4,7 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col items-center ">
-        <h2 class=" indexTitle text-[55px] stroke">Shapes in Structures</h2>
+        <h2 class=" indexTitle  stroke">Shapes in Structures</h2>
         <h2 class="!text-white title">Explore how block structures are created;
 create structures with shapes</h2>
 

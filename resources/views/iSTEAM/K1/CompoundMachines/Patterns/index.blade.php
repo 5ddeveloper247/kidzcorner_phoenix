@@ -5,7 +5,7 @@
 
     <div id="topDiv" class="flex flex-col  items-center ">
         <div class="title !text-[50px] stroke">Pretty Domino Patterns</div>
-        <h2 class=" text-white stroke ">Use creativity to arrange dominoes
+        <h2 class=" !text-white stroke ">Use creativity to arrange dominoes
             in various patterns</h2>
 
         <button class=" nextButton">

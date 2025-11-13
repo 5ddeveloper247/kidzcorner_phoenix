@@ -4,8 +4,8 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col items-center ">
-        <div class="indexTitle  text-[55px]  stroke">Global Warming</div>
-        <h2 class=" text-white stroke ">
+        <div class="indexTitle    stroke">Global Warming</div>
+        <h2 class=" !text-white stroke ">
             Explore fingerprints; <br>
             learn to make own set of fingerprints <br>
             for analysis</h2>

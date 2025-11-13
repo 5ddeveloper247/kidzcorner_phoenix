@@ -4,7 +4,7 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col items-center h-full justify-between">
-        <h2 class="  text-[#F7B94A] text-[55px] font-extrabold stroke">Black Light</h2>
+        <h2 class="  text-[#F7B94A]  stroke">Black Light</h2>
         <h2 class="!text-white title">
             Develop awareness of what black light is;
             explore varius materials and the

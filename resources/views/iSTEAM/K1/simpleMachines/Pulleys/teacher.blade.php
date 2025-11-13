@@ -6,7 +6,7 @@
     <h2 class="top-title stroke">Pulleys to the Rescue</h2>
 
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start items-start  text-start">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start items-start  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -34,7 +34,7 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start items-center   text-start">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start items-center   text-start">
 
         <ul class="list-disc">
             <h2 class="t-title">Preparations:</h2>
@@ -51,7 +51,7 @@
 
 
     {{-- slide 3 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start items-center   text-start">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start items-center   text-start">
         <div class="text-start">
             <h2 class="t-title">To carry out a successful experiment:</h2>
             <ul class="list-disc">
@@ -66,7 +66,7 @@
 
 
     {{--  slide 26 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start items-center   text-start">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start items-center   text-start">
 
         <h2 class="t-title">To carry out a successful experiment:</h2>
         <ul class="list-disc">
@@ -79,7 +79,7 @@
 
 
     {{--  slide 27 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start items-center   text-start">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start items-center   text-start">
         <h2 class="t-title">To carry out a successful experiment:</h2>
         <ul class="list-disc">
             <li>Set up the second pulley system (with two pulleys as shown).</li>
@@ -90,7 +90,7 @@
 
 
     {{--  slide 27 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start items-center   text-start">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start items-center   text-start">
         <h2 class="t-title">To carry out a successful experiment:</h2>
         <ul class="list-disc">
             <li>Ensure that the rope fits exactly into the groove of the two pulley, so
@@ -103,7 +103,7 @@
 
 
     {{-- slide 28 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start items-center   text-start">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start items-center   text-start">
         <h2 class="t-title">To carry out a successful experiment:</h2>
         <ul class="list-disc">
             <li>You may need to make your stand stable with some support (some heavy
@@ -118,7 +118,7 @@
 
 
     {{-- slide 29 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start items-center   text-start">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start items-center   text-start">
         <div class="flex gap-3  items-center justify-center">
             <div>
                 <h2 class="title stroke text-1xl">Is it easier to lift a heavy object
@@ -140,7 +140,7 @@
 
 
     {{-- slide 30 --}}
-    <div class="slide flex t-slide  flex-col  text-2xl text-start text-white">
+    <div class="slide flex t-slide  flex-col  text-2xl text-start !text-white">
         <div>
             <h2 class="t-title">Notes:</h2>
             <ul class="list-disc">
@@ -177,7 +177,7 @@
 
 
     {{-- slide 31 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-center  text-start">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-center  text-start">
         <h2 class="title stroke ">Learning Centre Idea</h2>
         <ul>
             <li>Fun With Pulleys</li>

@@ -7,7 +7,7 @@
     <h2 class="top-title stroke">Makey Makey (2)</h2>
 
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl t-slide text-white flex-col justify-start  text-start">
+    <div class=" slide flex text-2xl t-slide !text-white flex-col justify-start  text-start">
         <div>
             <h2 class="t-title ">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -41,7 +41,7 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl t-slide text-white flex-col justify-start  text-start">
+    <div class=" slide flex text-2xl t-slide !text-white flex-col justify-start  text-start">
         <div class="space-y-10">
             <ul class="list-disc ">
                 <h2 class=" t-title">Preparations:</h2>
@@ -55,7 +55,7 @@
 
 
     {{-- slide 3 --}}
-    <div class=" slide flex text-2xl t-slide text-white flex-col items-start justify-start  text-start">
+    <div class=" slide flex text-2xl t-slide !text-white flex-col items-start justify-start  text-start">
         <div class="space-y-10">
             <ul class="list-disc ">
                 <h2 class=" t-title">Preparations:</h2>
@@ -74,7 +74,7 @@
 
 
     {{-- sldie 4 --}}
-    <div class=" slide text-start text-2xl t-slide text-white space-y-[1vw]">
+    <div class=" slide text-start text-2xl t-slide !text-white space-y-[1vw]">
         <div>
             <h2 class=" t-title">Things to note during hands-on session:</h2>
             <ul class="list-disc pl-[1vw]">
@@ -109,7 +109,7 @@
 
 
     {{-- slide 5 --}}
-    <div class=" slide text-start text-2xl t-slide text-white space-y-10">
+    <div class=" slide text-start text-2xl t-slide !text-white space-y-10">
         <div>
             <h2 class=" t-title">What you need to know or do before the lesson:</h2>
             <ul class="list-disc pl-[50px]">
@@ -126,7 +126,7 @@
 
 
     {{-- sldie 6 --}}
-    <div class="slide flex  flex-col justify-start  text-2xl t-slide text-start text-white w-[80%]">
+    <div class="slide flex  flex-col justify-start  text-2xl t-slide text-start !text-white w-[80%]">
         <div>
             <h2 class=" t-title">Notes:</h2>
             <ul class="list-disc leading-relaxed">

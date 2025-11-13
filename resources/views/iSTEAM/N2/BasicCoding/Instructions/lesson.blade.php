@@ -19,15 +19,15 @@
     {{-- Slide 2 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
         <img src="{{ asset('assets/images/N2/BasicCoding/bs10.png') }}" />
-        <h2 class="stroke title">All these <span class="text-white">machines</span>. <span class="text-white">Machines</span>
-            do work for us.Can you name what each of these <span class="text-white">machines</span> do?</h2>
+        <h2 class="stroke title">All these <span class="!text-white">machines</span>. <span class="!text-white">Machines</span>
+            do work for us.Can you name what each of these <span class="!text-white">machines</span> do?</h2>
     </div>
 
 
     {{-- Slide 3 --}}
     <div class="flex flex-col items-center justify-center gap-5 slide hidden">
         <img src="{{ asset('assets/images/N2/BasicCoding/bs10.png') }}" />
-        <h2 class="stroke title">Why can <span class="text-white">machines</span> like these work?</h2>
+        <h2 class="stroke title">Why can <span class="!text-white">machines</span> like these work?</h2>
         <p class="note">Note: Have children boldly share their views.</p>
     </div>
 
@@ -35,10 +35,10 @@
     {{-- slide 4 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <img src="{{ asset('assets/images/N2/BasicCoding/bs10.png') }}" />
-        <h2 class="stroke title"><span class="text-white">Machines</span> can work because they have <span
-                class="text-white">programmes</span> inside them.A <span class="text-white">programme</span> has <span
-                class="text-white">instructions</span> to tell <span class="text-white">machine</span> what to do.The
-            <span class="text-white">instructions</span> are in steps.
+        <h2 class="stroke title"><span class="!text-white">Machines</span> can work because they have <span
+                class="text-white">programmes</span> inside them.A <span class="!text-white">programme</span> has <span
+                class="text-white">instructions</span> to tell <span class="!text-white">machine</span> what to do.The
+            <span class="!text-white">instructions</span> are in steps.
         </h2>
     </div>
 
@@ -61,7 +61,7 @@
     {{-- slide 7 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <img src="{{ asset('assets/images/N2/BasicCoding/bs13.png') }}" class="large-img6" />
-        <h2 class="stroke title">So a <span class="text-white">programme</span> for <span class="text-white">machines</span>
+        <h2 class="stroke title">So a <span class="!text-white">programme</span> for <span class="!text-white">machines</span>
             is like the steps to do things.</h2>
     </div>
 
@@ -77,7 +77,7 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <div class="flex flex-col items-center">
             <img src="{{ asset('assets/images/N2/BasicCoding/bs14.png') }}" />
-            <div class="flex text-white text-[1.5vw] gap-[2vw]">
+            <div class="flex !text-white text-[1.5vw] gap-[2vw]">
                 <p>forwar</p>
                 <p>bakcward</p>
                 <p>turn left</p>

@@ -35,7 +35,7 @@
 
     {{-- slide 4 --}}
     <div class="slide hidden flex flex-col items-center justify-between h-[45vh] ">
-        <h2 class="text-center justify-start text-[45px] text-white stroke">Hands-on Time 1</h2>
+        <h2 class="text-center justify-start text-[45px] !text-white stroke">Hands-on Time 1</h2>
         <h2 class="text-start title stroke">Mission: <br>
             Plan a route for a robot to hunt for all the shapes. Use <br>
             Blockly to programme the robot to move according to the
@@ -136,7 +136,7 @@
 
     {{-- slide 11 --}}
     <div class="slide hidden flex flex-col items-center justify-between h-[50vh] ">
-        <h2 class="text-center justify-start text-[45px] text-white stroke">Hands-on Time 2</h2>
+        <h2 class="text-center justify-start text-[45px] !text-white stroke">Hands-on Time 2</h2>
         <h2 class="text-start title stroke">Mission: <br>
             Plan a new route for a robot to hunt for all shapes. Use Blockly
             to programme the robot to move according to the planned route.</h2>
@@ -237,7 +237,7 @@
     {{-- sldie 18 --}}
     <div class="slide  hidden flex flex-col items-center justify-center ">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[40vw] h-[40vh] bg-cover bg-center flex flex-col justify-center items-center"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center flex flex-col justify-center items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>What is the arrangement of colours on your coding mat? Plot them here. How do you plan
                 the route for a robot to hunt for all the shapes? Draw arrows to show the route.</p>
@@ -248,7 +248,7 @@
     {{-- sldie 19 --}}
     <div class="slide  hidden flex flex-col items-center justify-center ">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[40vw] h-[40vh] bg-cover bg-center flex flex-col justify-start items-center"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center flex flex-col justify-start items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>How does a robot move according to the planned route? Use coding cards to
                 lay out the steps.</p>
@@ -258,7 +258,7 @@
     {{-- slide 20  --}}
     <div class="slide  hidden flex flex-col items-center justify-center ">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[40vw] h-[40vh] bg-cover bg-center flex flex-col justify-center items-center gap-10"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center flex flex-col justify-center items-center gap-10"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>What is the arrangement of shapes on your coding mat? Plot them here. What is the
                 hunting order based on colours? Record them. How do you plan the route for a robot to

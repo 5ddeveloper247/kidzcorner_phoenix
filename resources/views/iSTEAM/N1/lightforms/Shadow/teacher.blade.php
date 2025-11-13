@@ -6,7 +6,7 @@
     <h2 class="top-title stroke">Light and Shadow</h2>
 
     <!-- Slide 30 -->
-    <div class="slide t-slide hidden flex flex-col justify-start text-start text-white">
+    <div class="t-slide hidden flex flex-col justify-start text-start !text-white">
         <div>
             <!-- Learning Outcomes -->
             <h2 class="  t-title">Children will be able to:</h2>
@@ -45,7 +45,7 @@
     </div>
 
     <!-- Slide 31 -->
-    <div class="slide t-slide hidden flex flex-col justify-start  text-start text-white">
+    <div class="t-slide hidden flex flex-col justify-start  text-start !text-white">
         <div>
             <!-- Preparations -->
             <h2 class="  t-title ">Preparations for Class Activity I:</h2>
@@ -83,24 +83,25 @@
     </div>
 
     <!-- Slide 32 -->
-    <div class="slide t-slide text-start text-white">
+    <div class=" t-slide text-start !text-white !w-[53vw]">
         <div>
             <h2 class="t-title ">Notes:</h2>
-            <ul class="list-disc">
-                <li class="flex">
-                    If you see
-                    <span>
-                        <img class="video-btn" src="{{ asset('assets/images/pptimages/video.png') }}" />
+            <ul class="list-disc space-y-3">
+                <li>
+                    <span class="relative">
+                        If you see <span class="opacity-0">---</span>next to a picture, click on the picture to watch the
+                        video.
+                        <img class="t-video-btn absolute top-[-1vw] left-[8vw]"
+                            src="{{ asset('assets/images/pptimages/video.png') }}" />
                     </span>
-                    next to a picture, click on the picture to watch the video.
                 </li>
 
-                <li class="flex">
-                    If you see
-                    <span>
-                        <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="info-btn" />
+                <li>
+                    <span class="relative">
+                        If you see <span class="opacity-0">---</span> , click on it for additional information or activity.
+                        <img src="{{ asset('assets/images/pptimages/info-btn.png') }}"
+                            class="t-info-btn absolute top-[-1vw] left-[8.5vw]" />
                     </span>
-                    , click on it for additional information or activity.
                 </li>
 
                 <li>
@@ -114,13 +115,15 @@
                     Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
                 </li>
 
-                <li class="flex">
-                    Click on this shortcut icon
-                    <span>
-                        <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" class="home-btn" />
+                <li>
+                    <span class="relative">
+                        Click on this shortcut icon <span class="opacity-0">---</span> if you need to go to some parts of
+                        the lesson quickly.
+                        <img src="{{ asset('assets/images/pptimages/home-btn.png') }}"
+                            class="t-home-btn absolute top-0 left-[19.5vw]" />
                     </span>
-                    , if you need to go to the lesson quickly.
                 </li>
+
             </ul>
         </div>
 
@@ -128,11 +131,11 @@
     </div>
 
     <!-- Slide 33 -->
-    <div class="slide t-slide hidden text-white flex  flex-col justify-start  text-start">
+    <div class="t-slide hidden !text-white flex  flex-col justify-start  text-start">
         <h2 class="  title text-center stroke">Learning Center Idea</h2>
         <div>
             <!-- Preparations -->
-            <h2 class=" !text-white title stroke">Matching shadow</h2>
+            <h2 class=" !text-white text-[2vw] stroke">Matching shadow</h2>
             <h2 class="t-title">What and how to setup:</h2>
             <p>Prepare some flashlights and some toys such as cars, dinosaurs, animal figurines etc. Print out shadows of
                 the objects for children to match. The shadows can be taller/bigger/smaller/shorter, depending on how the
@@ -193,7 +196,7 @@
     <script>
         document.addEventListener("DOMContentLoaded", () => {
             // Get all elements
-            const slides = document.querySelectorAll(".slide");
+            const slides = document.querySelectorAll(".t-slide");
             const nextBtn = document.querySelector(".nextButton");
             const returnBtn = document.getElementById("returnButton");
             const doneBtn = document.querySelector(".doneButton");
@@ -247,7 +250,7 @@
 
             // Done button
             doneBtn.addEventListener("click", () => {
-                window.location.href = "{{ route('lightforms') }}";
+                window.location.href = "{{ route('chooseShadow') }}";
             });
 
             // Start at first slide

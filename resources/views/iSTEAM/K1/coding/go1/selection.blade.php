@@ -68,7 +68,7 @@
 @section('content')
 
 
-    <div class=" flex items-center flex-col justify-center text-center z-[99] w-full">
+    <div class="Selection flex items-center flex-col justify-center text-center z-[99] w-full">
         <h2 class="text-[50px] text-[#F7B94A] stroke">Go! Go! Go! 1</h2>
         <div class="flex items-center justify-around w-full">
 

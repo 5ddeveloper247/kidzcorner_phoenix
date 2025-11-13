@@ -2,11 +2,11 @@
 @section('title', 'Dynamic Presentation')
 
 @section('content')
-{{-- title --}}
+    {{-- title --}}
     <h2 class="top-title stroke">A Measuring Car (1)</h2>
-    
+
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start t-slide text-start">
+    <div class=" flex text-white flex-col justify-start t-slide text-start">
         <div>
             <h2 class="t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -34,7 +34,7 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start t-slide text-start ">
+    <div class=" flex text-white flex-col justify-start t-slide text-start ">
         <div>
             <h2 class="t-title">Preparations:</h2>
             <ul class="list-disc ">
@@ -43,14 +43,14 @@
         </div>
         <div class="flex items-center">
             <img src="{{ asset('assets/images/N2/SimpleMachines/b1.png') }}" class="w-[636px]" />
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
+            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}"  class="absolute teacher-img1" />
         </div>
     </div>
 
 
 
     {{-- slide 3 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start t-slide text-start ">
+    <div class=" flex text-white flex-col justify-start t-slide text-start ">
         <div>
             <h2 class="t-title">What you need to do before the lesson:</h2>
             <ul class="list-disc ">
@@ -59,16 +59,15 @@
             </ul>
         </div>
         <div class="flex items-center">
-            <video id="video1" class="w-full max-w-[42rem] pointer-events-none">
-                <source src="{{ asset('assets/images/N2/SimpleMachines/4.mp4') }}" type="video/mp4">
+            <video id="video1" class=" pointer-events-none">
+                <source src="{{ asset('assets/images/N2/SimpleMachines/videos/4.mp4') }}" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
 
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt=""
-                class="absolute teacher-img1" />
+            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}"  class="absolute teacher-img1" />
         </div>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30  -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
 
@@ -77,7 +76,7 @@
 
 
     {{-- slide 4 --}}
-    <div class="text-white flex flex-col text-start text-2xl slide hidden t-slide">
+    <div class="text-white flex flex-col text-start hidden t-slide">
         <div>
             <h2 class="t-title underline">What you need to do before the lesson:</h2>
             <ul class="list-disc">
@@ -85,13 +84,13 @@
             </ul>
         </div>
 
-        <img src="{{ asset('assets/images/N2/SimpleMachines/at1.png') }}" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/at1.png') }}" class="drawable" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}"  class="absolute teacher-img1" />
     </div>
 
 
     {{-- slide 5 --}}
-    <div class="text-white flex flex-col text-start text-2xl slide hidden t-slide">
+    <div class="text-white flex flex-col text-start hidden t-slide">
         <div>
             <h2 class="t-title underline">Things to note during hands-on sessions:</h2>
             <ul class="list-disc">
@@ -104,8 +103,7 @@
             </ul>
         </div>
         <div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt=""
-                class="absolute teacher-img1" />
+            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}"  class="absolute teacher-img1" />
         </div>
 
     </div>
@@ -113,38 +111,50 @@
 
 
     {{-- slide 6 --}}
-    <div class="slide flex t-slide  flex-col  text-2xl text-start text-white">
+      <div class=" t-slide text-start !text-white !w-[53vw]">
         <div>
-            <h2 class="t-title">Notes:</h2>
-            <ul class="list-disc">
-                <li class="flex">
-                    If you see
-                    <span class="info-btn"> 
+            <h2 class="t-title ">Notes:</h2>
+            <ul class="list-disc space-y-3">
+                <li>
+                    <span class="relative">
+                        If you see <span class="opacity-0">---</span>next to a picture, click on the picture to watch the
+                        video.
+                        <img class="t-video-btn absolute top-[-1vw] left-[7.6vw]"
+                            src="{{ asset('assets/images/pptimages/video.png') }}" />
+                    </span>
+                </li>
 
-                        <img src="{{ asset('assets/images/pptimages/video.png') }}" />
+                <li>
+                    <span class="relative">
+                        If you see <span class="opacity-0">---</span> , click on it for additional information or activity.
+                        <img src="{{ asset('assets/images/pptimages/info-btn.png') }}"
+                            class="t-info-btn absolute top-[-1vw] left-[8vw]" />
                     </span>
-                    next to a picture, click on the picture to watch the video.
                 </li>
-                <li class="flex whitespace-nowrap">
-                    If you see
-                    <span> <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="video-btn" />
-                    </span>
-                    , click on it for additional information or activity.
+
+                <li>
+                    Always ask questions to encourage children to think and share their ideas first before giving out
+                    any information.
                 </li>
-                <li>Always ask questions to encourage children to think and share their ideas first before giving
-                    out
-                    any information.</li>
+
                 <li>Emphasise and use the keywords during hands-on sessions.</li>
-                <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
+
+                <li>
+                    Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
                 </li>
-                <li class="flex whitespace-nowrap">
-                    Click on this shortcut icon
-                    <span> <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" class="home-btn" />
+
+                <li>
+                    <span class="relative">
+                        Click on this shortcut icon <span class="opacity-0">---</span> if you need to go to some parts of
+                        the lesson quickly.
+                        <img src="{{ asset('assets/images/pptimages/home-btn.png') }}"
+                            class="t-home-btn absolute top-0 left-[19vw]" />
                     </span>
-                    if you need to go to some parts of the lesson quickly.
                 </li>
+
             </ul>
         </div>
+
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
@@ -201,7 +211,7 @@
     <script>
         document.addEventListener("DOMContentLoaded", () => {
             // Get all elements
-            const slides = document.querySelectorAll(".slide");
+            const slides = document.querySelectorAll(".t-slide");
             const nextBtn = document.querySelector(".nextButton");
             const returnBtn = document.getElementById("returnButton");
             const doneBtn = document.querySelector(".doneButton");
@@ -260,7 +270,7 @@
 
             // Done button
             doneBtn.addEventListener("click", () => {
-                window.location.href = "{{ route('SimpleMachines') }}";
+                window.location.href = "{{ route('MeasuringCarSelection') }}";
             });
 
             // Initialize

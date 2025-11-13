@@ -515,7 +515,7 @@
             <!-- First Image Block -->
             <div class="relative w-[20vw]">
                 <img src="/assets/images/K2/story/a39.png" alt="Story Background" class="!max-w-[12vw]" />
-                <div class="absolute top-10 left-4 text-white ">
+                <div class="absolute top-10 left-4 !text-white ">
                     <ul>
                         <li class="!text-[1.3vw]">
                             <span class="title stroke !text-[1.6vw] block tracking-tighter">What is the story about?</span>
@@ -530,7 +530,7 @@
             <!-- Second Image Block -->
             <div class="relative w-[20vw]">
                 <img src="/assets/images/K2/story/a39.png" alt="Story Background" class="!max-w-[12vw]" />
-                <div class="absolute top-10 left-4 text-white  ">
+                <div class="absolute top-10 left-4 !text-white  ">
                     <ul>
                         <li class="!text-[1.3vw]">
                             <span class="title stroke !text-[1.6vw] block tracking-tighter">What is the story about?</span>

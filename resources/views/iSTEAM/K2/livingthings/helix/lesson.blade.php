@@ -42,7 +42,7 @@
     {{-- Slide 5 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <img src="{{ asset('assets/images/K2/livingthings/dna/h1.png') }}" class="!max-h-[33vh]" />
-        <h2 class="title stroke">What does <span class="text-white">DNA</span> look like?</h2>
+        <h2 class="title stroke">What does <span class="!text-white">DNA</span> look like?</h2>
     </div>
 
 
@@ -137,7 +137,7 @@
 
     {{-- Slide 13 --}}
     <div class="slide hidden  flex flex-col items-center justify-center  ">
-        <h2 class="title stroke">Now we’ll learn how to make a model of <span class="text-white">DNA Double Helix</span>!
+        <h2 class="title stroke">Now we’ll learn how to make a model of <span class="!text-white">DNA Double Helix</span>!
         </h2>
     </div>
 

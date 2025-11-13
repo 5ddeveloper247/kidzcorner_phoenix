@@ -62,7 +62,7 @@
     {{-- Slide 9 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
         <img src="{{ asset('assets/images/K2/sustain/pollution/p1.png') }}" class="w-img3" />
-        <h2 class="title stroke text-center"><span class="text-white">Pollution </span>is when gases,<span
+        <h2 class="title stroke text-center"><span class="!text-white">Pollution </span>is when gases,<span
                 class="text-white"> chemicals,</span> oil spills and trash are
             introduced into the environment in large amounts that is
             harmful or poisonous to humans, animals and plants.</h2>
@@ -86,7 +86,7 @@
     <div class="slide hidden flex flex-col items-center">
 
         <img src="{{ asset('assets/images/K2/sustain/pollution/p3.png') }}" class="w-img3" />
-        <h2 class="title stroke">Prolonged exposure to the harmful smoke and <span class="text-white">chemicals</span> leads
+        <h2 class="title stroke">Prolonged exposure to the harmful smoke and <span class="!text-white">chemicals</span> leads
             to many health problems, especially for young children.</h2>
     </div>
 
@@ -94,7 +94,7 @@
     <div class="slide hidden flex flex-col items-center">
 
         <img src="{{ asset('assets/images/K2/sustain/pollution/p3.png') }}" class="w-img3" />
-        <h2 class="title stroke"> <span class="text-white">Air pollution </span>can cause serious damages to
+        <h2 class="title stroke"> <span class="!text-white">Air pollution </span>can cause serious damages to
             lungs, heart and brains.</h2>
     </div>
 
@@ -175,7 +175,7 @@
     <div class="slide hidden flex flex-col items-center">
 
         <img src="{{ asset('assets/images/K2/sustain/pollution/p8.png') }}" class="w-img3" />
-        <h2 class="title stroke">When these <span class="text-white"> chemical </span> waste flows into the sea, it
+        <h2 class="title stroke">When these <span class="!text-white"> chemical </span> waste flows into the sea, it
             poisons the sea creatures and makes the sea water dirty.</h2>
     </div>
 
@@ -221,7 +221,7 @@
     <div class="slide hidden flex flex-col items-center">
 
         <img src="{{ asset('assets/images/K2/sustain/pollution/p10.png') }}" class="w-img3" />
-        <h2 class="title stroke">These are different types of <span class="text-white"> filters!
+        <h2 class="title stroke">These are different types of <span class="!text-white"> filters!
                 Filters </span> help to remove unwanted substances and only allow
             certain substances to pass through them.</h2>
     </div>
@@ -246,8 +246,8 @@
     <div class="slide hidden flex flex-col items-center">
 
         <img src="{{ asset('assets/images/K2/sustain/pollution/p11.png') }}" class="w-img4" />
-        <h2 class="title stroke">This is a coffee <span class="text-white"> filter </span>paper.
-            The <span class="text-white"> filter </span> helps to trap coffee grounds on the paper.</h2>
+        <h2 class="title stroke">This is a coffee <span class="!text-white"> filter </span>paper.
+            The <span class="!text-white"> filter </span> helps to trap coffee grounds on the paper.</h2>
     </div>
 
     {{-- Slide 32 --}}
@@ -424,10 +424,10 @@
     <div class="slide hidden flex flex-col items-center">
 
         <img src="{{ asset('assets/images/K2/sustain/pollution/p18.png') }}" />
-        <h2 class="title stroke">The <span class="text-white">liquid</span> was brown and filled with rubbish before
-            going through the <span class="text-white">filter </span>. The <span class="text-white">liquid</span> is
+        <h2 class="title stroke">The <span class="!text-white">liquid</span> was brown and filled with rubbish before
+            going through the <span class="!text-white">filter </span>. The <span class="!text-white">liquid</span> is
             colourless
-            and clean after going through the <span class="text-white">filter </span>.</h2>
+            and clean after going through the <span class="!text-white">filter </span>.</h2>
     </div>
 
     {{-- Slide 49 --}}
@@ -505,15 +505,15 @@
     <div class="slide hidden flex flex-col items-center">
 
         <img src="{{ asset('assets/images/K2/sustain/pollution/p20.png') }}" />
-        <h2 class="title stroke"><span class="text-white">Plastics</span> are harmful to the environment because
-            they are <span class="text-white">non-biodegradable</span>.</h2>
+        <h2 class="title stroke"><span class="!text-white">Plastics</span> are harmful to the environment because
+            they are <span class="!text-white">non-biodegradable</span>.</h2>
     </div>
 
     {{-- Slide 59 --}}
     <div class="slide hidden flex flex-col items-center">
 
         <img src="{{ asset('assets/images/K2/sustain/pollution/p20.png') }}" />
-        <h2 class="title stroke"><span class="text-white">Non-biodegradable</span> materials cannot be broken down
+        <h2 class="title stroke"><span class="!text-white">Non-biodegradable</span> materials cannot be broken down
             naturally. Therefore, they are a form of pollution to Earth.</h2>
     </div>
 
@@ -521,7 +521,7 @@
     <div class="slide hidden flex flex-col items-center">
 
         <img src="{{ asset('assets/images/K2/sustain/pollution/p21.png') }}" />
-        <h2 class="title stroke"><span class="text-white">Biodegradable</span> materials are materials from nature.
+        <h2 class="title stroke"><span class="!text-white">Biodegradable</span> materials are materials from nature.
             These materials will break down naturally over time.</h2>
     </div>
 
@@ -552,7 +552,7 @@
     {{-- Slide 64 --}}
     <div class="slide hidden flex flex-col items-center">
         <h2 class="title stroke">Let's observe what happens to
-            <span class="text-white">non-biodegradable</span> materials and <span class="text-white">biodegradable</span>
+            <span class="!text-white">non-biodegradable</span> materials and <span class="!text-white">biodegradable</span>
             materials in the sea over time.
         </h2>
     </div>

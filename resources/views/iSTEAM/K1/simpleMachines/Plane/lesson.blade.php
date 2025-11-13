@@ -16,7 +16,7 @@
     {{-- Slide 2 --}}
     <div class="slide flex flex-col items-center justify-center ">
         <img src="{{ asset('assets/images/K1/sm/plane/plane1.png') }}" class="large-img4" />
-        <h2 class="title stroke">This is a <span class="text-white">ramp.</span> It is a slanting surface
+        <h2 class="title stroke">This is a <span class="!text-white">ramp.</span> It is a slanting surface
             with one end higher than the other end.</h2>
     </div>
 
@@ -24,8 +24,8 @@
     {{-- Slide3 --}}
     <div class="slide flex flex-col items-center justify-center  ">
         <img src="{{ asset('assets/images/K1/sm/plane/plane1.png') }}" class="large-img4" />
-        <h2 class="title stroke">The <span class="text-white">ramp.</span> looks like a slope.
-            It is a <span class="text-white">simple machine</span> called an <span class="text-white"> inclined
+        <h2 class="title stroke">The <span class="!text-white">ramp.</span> looks like a slope.
+            It is a <span class="!text-white">simple machine</span> called an <span class="!text-white"> inclined
                 plane</span>.</h2>
 
     </div>
@@ -43,9 +43,9 @@
     {{-- Slide 5  --}}
     <div class="slide flex flex-col items-center justify-center  ">
 
-        <h2 class="title stroke"> <span class="text-white">Simple machines</span> are basic tools that help us <br>
+        <h2 class="title stroke"> <span class="!text-white">Simple machines</span> are basic tools that help us <br>
             to do work easily.</h2>
-        <h2 class="title stroke">Do you know how an <span class="text-white">inclined plane </span> helps us <br>
+        <h2 class="title stroke">Do you know how an <span class="!text-white">inclined plane </span> helps us <br>
             to do work easily?</h2>
     </div>
 
@@ -55,7 +55,7 @@
     {{-- slide 6 --}}
     <div class="slide flex flex-col items-center justify-center  ">
         <img src="{{ asset('assets/images/K1/sm/plane/plane1.png') }}" class="large-img4" />
-        <h2 class="title stroke">The <span class="text-white">inclined plane </span> allows us to move heavy things
+        <h2 class="title stroke">The <span class="!text-white">inclined plane </span> allows us to move heavy things
             up or down a place easily.</h2>
     </div>
 
@@ -136,7 +136,7 @@
         <h2 class="title stroke">This inclined plane allows us to pour the sand or rocks out easily
             from the dump truck. We use less strength to do the work.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="{{ asset('assets/images/pptimages/video.png') }}" />
         </div>
 
@@ -344,7 +344,7 @@
         <h2 class="title stroke">Through the activity (experiment), we know that a car will go
             a longer distance if the inclined plane is steeper.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="{{ asset('assets/images/pptimages/video.png') }}" />
         </div>
 
@@ -354,7 +354,7 @@
     {{-- slide 32 --}}
     <div class="slide  hidden flex flex-col items-center justify-center -4">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[40vw] h-[40vh] bg-cover bg-center flex flex-col p-[40px] justify-around"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center flex flex-col p-[40px] justify-around"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p class="text-center">If you want the car to go very far, how would you put the inclined plane? Tick ✔ it.
             </p>

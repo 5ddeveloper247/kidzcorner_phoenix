@@ -6,7 +6,7 @@
     <h2 class="top-title stroke">Are Plants Living Things?</h2>
 
     {{-- sldie 1  --}}
-    <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
+    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -43,7 +43,7 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
+    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Possible questions during hands-on session:</h2>
             <ul class="list-disc ">
@@ -72,7 +72,7 @@
     </div>
 
     {{-- sldie 3 --}}
-    <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
+    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Additional information:</h2>
             <ul class="list-disc">
@@ -100,7 +100,7 @@
 
 
     {{-- slide 4 --}}
-    <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
+    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations - if you do the experiment of Plants Do Breathe Air:</h2>
             <ul class="list-disc">
@@ -115,7 +115,7 @@
 
 
     {{-- slide 5 --}}
-    <div class=" slide t-slide flex text-2xl text-white flex-col items-center justify-start  text-start">
+    <div class=" slide t-slide flex text-2xl !text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">How to do the experiment of Plants Do Breathe Air:</h2>
             <ul class="list-decimal">
@@ -129,7 +129,7 @@
     </div>
 
     {{-- sldie 6 --}}
-    <div class=" slide t-slide flex text-2xl text-white flex-col items-center justify-start  text-start">
+    <div class=" slide t-slide flex text-2xl !text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">How to do the experiment of Plants Do Breathe Air:</h2>
             <ul>
@@ -144,7 +144,7 @@
 
 
     {{-- sldie 7 --}}
-    <div class=" slide t-slide flex text-2xl text-white flex-col items-center justify-start  text-start">
+    <div class=" slide t-slide flex text-2xl !text-white flex-col items-center justify-start  text-start">
         <div>
             <p class="note text-center">As a reference, some bubbles form around this sample leaf once it was placed in the
                 water. After 2 hours, many more bubbles form around the leaf.</p>
@@ -160,7 +160,7 @@
 
 
     {{-- sldie 7 --}}
-    <div class=" slide t-slide flex text-2xl text-white flex-col items-center justify-start  text-start">
+    <div class=" slide t-slide flex text-2xl !text-white flex-col items-center justify-start  text-start">
         <p class="note">When the hands-on sessions 1 or 2 start, guide each group of children to set up
             the mat accordingly (as shown). Advise them to discuss as a group to complete the
             mission. <span class="text-[#F7B94A]"> If needed, adjust the level of difficulty by reducing the number of
@@ -171,7 +171,7 @@
 
 
     {{-- sldie 8 --}}
-    <div class="slide flex  flex-col justify-start  text-2xl text-start text-white">
+    <div class="slide flex  flex-col justify-start  text-2xl text-start !text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
                 <h2 class="font-bold t-title">Notes:</h2>

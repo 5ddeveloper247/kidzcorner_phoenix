@@ -57,16 +57,16 @@
             <img src="{{ asset('assets/images/N2/LivingThings/lt2.png') }}" class="large-img4" />
             <img src="{{ asset('assets/images/N2/LivingThings/lt3.png') }}" class="large-img4" />
         </div>
-        <h2 class="stroke title"><span class="text-white">Grass</span>, <span class="text-white">trees</span> and <span
-                class="text-white">flowers</span> are <span class="text-white">plants</span>.</h2>
+        <h2 class="stroke title"><span class="!text-white">Grass</span>, <span class="!text-white">trees</span> and <span
+                class="text-white">flowers</span> are <span class="!text-white">plants</span>.</h2>
     </div>
 
 
     {{-- slide 8 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <img src="{{ asset('assets/images/N2/LivingThings/lt4.png') }}" class="large-img6" />
-        <h2 class="stroke title">Children, do you know how <span class="text-white">plants</span> grow?<br />Have you ever
-            <span class="text-white">grown</span> a <span class="text-white">plant</span>? How does it change?
+        <h2 class="stroke title">Children, do you know how <span class="!text-white">plants</span> grow?<br />Have you ever
+            <span class="!text-white">grown</span> a <span class="!text-white">plant</span>? How does it change?
         </h2>
         <p class="note">Note: Encourage children to share their knowledge and experiences.</p>
     </div>
@@ -74,9 +74,9 @@
     {{-- slide 9 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <img src="{{ asset('assets/images/N2/LivingThings/lt5.png') }}" class="large-img6" />
-        <h2 class="stroke title">Most <span class="text-white">plants</span> grow from <span
-                class="text-white">seeds</span>.<br />For example: An orange <span class="text-white">tree</span> grows from
-            an orange <span class="text-white">seed</span>.</h2>
+        <h2 class="stroke title">Most <span class="!text-white">plants</span> grow from <span
+                class="text-white">seeds</span>.<br />For example: An orange <span class="!text-white">tree</span> grows from
+            an orange <span class="!text-white">seed</span>.</h2>
     </div>
 
 
@@ -84,20 +84,20 @@
     <div class="flex flex-col items-center justify-center slide hidden">
 
         <img src="{{ asset('assets/images/N2/LivingThings/gl13.png') }}" />
-        <h2 class="stroke title">We can find <span class="text-white">seeds</span> in fruits.</h2>
+        <h2 class="stroke title">We can find <span class="!text-white">seeds</span> in fruits.</h2>
     </div>
 
 
     {{-- slide 11 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <img src="{{ asset('assets/images/N2/LivingThings/gl14.png') }}" />
-        <h2 class="stroke title">Some fruits have many <span class="text-white">seeds</span>, some just have 1.</h2>
+        <h2 class="stroke title">Some fruits have many <span class="!text-white">seeds</span>, some just have 1.</h2>
     </div>
 
     {{-- slide 12 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <img src="{{ asset('assets/images/N2/LivingThings/gl16.png') }}" />
-        <h2 class="stroke title"><span class="text-white">Beans</span> and <span class="text-white">nuts</span> are <span
+        <h2 class="stroke title"><span class="!text-white">Beans</span> and <span class="!text-white">nuts</span> are <span
                 class="text-white">seeds</span> too.</h2>
     </div>
 
@@ -106,27 +106,27 @@
     {{-- slide 13 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <img src="{{ asset('assets/images/N2/LivingThings/lt11.png') }}" />
-        <h2 class="stroke title">This is a kind of red <span class="text-white">bean</span>.</h2>
+        <h2 class="stroke title">This is a kind of red <span class="!text-white">bean</span>.</h2>
     </div>
 
     {{-- slide 14 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <img src="{{ asset('assets/images/N2/LivingThings/lt12.png') }}" />
-        <h2 class="stroke title">The <span class="text-white">bean</span> grows into a <span
+        <h2 class="stroke title">The <span class="!text-white">bean</span> grows into a <span
                 class="text-white">sprout</span> after being planted in soil.</h2>
     </div>
 
     {{-- slide 15 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <img src="{{ asset('assets/images/N2/LivingThings/lt13.png') }}" />
-        <h2 class="stroke title">As the <span class="text-white">sprout</span> grows, it becomes a young plant.<br />A
-            young <span class="text-white">plant</span> is called <span class="text-white">seedling</span>.</h2>
+        <h2 class="stroke title">As the <span class="!text-white">sprout</span> grows, it becomes a young plant.<br />A
+            young <span class="!text-white">plant</span> is called <span class="!text-white">seedling</span>.</h2>
     </div>
 
     {{-- slide 16 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <img src="{{ asset('assets/images/N2/LivingThings/lt14.png') }}" />
-        <h2 class="stroke title">The <span class="text-white">seedling</span> grows into a <span
+        <h2 class="stroke title">The <span class="!text-white">seedling</span> grows into a <span
                 class="text-white">plant</span>.</h2>
     </div>
 
@@ -140,8 +140,8 @@
 
     {{-- slide 18 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <h2 class="stroke title">Today, we are going to learn how to<br /><span class="text-white">grow</span> a <span
-                class="text-white">plant</span> from a <span class="text-white">seed</span>!</h2>
+        <h2 class="stroke title">Today, we are going to learn how to<br /><span class="!text-white">grow</span> a <span
+                class="text-white">plant</span> from a <span class="!text-white">seed</span>!</h2>
     </div>
 
 

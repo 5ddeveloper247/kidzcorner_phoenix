@@ -6,7 +6,7 @@
     <h2 class="top-title stroke">Structure of a Car</h2>
 
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start t-slide">
+    <div class=" slide flex text-2xl !text-white flex-col justify-start  text-start t-slide">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -39,7 +39,7 @@
 
 
     {{-- slide 3 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-start  justify-start  text-start t-slide">
+    <div class=" slide flex text-2xl !text-white flex-col items-start  justify-start  text-start t-slide">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
@@ -61,7 +61,7 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col items-center  justify-start  text-start t-slide">
+    <div class=" slide flex text-2xl !text-white flex-col items-center  justify-start  text-start t-slide">
         <div>
             <h2 class=" t-title">Things to note for Group Activity:</h2>
             <ul class="list-disc ">
@@ -84,7 +84,7 @@
 
 
     {{-- sldie 7 --}}
-    <div class="slide flex t-slide  flex-col  text-2xl text-start text-white">
+    <div class="slide flex t-slide  flex-col  text-2xl text-start !text-white">
         <div>
             <h2 class="t-title">Notes:</h2>
             <ul class="list-disc">

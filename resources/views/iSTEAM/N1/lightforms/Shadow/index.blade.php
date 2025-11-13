@@ -4,8 +4,8 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col  h-full justify-between items-center ">
-        <div class="  text-[#F7B94A] stroke">Light and Shadow</div>
-        <h2 class=" stroke !text-white">
+        <div class="text-[#F7B94A] stroke">Light and Shadow</div>
+        <h2 class=" !text-white">
             Explore how lights create shadows; <br>
             develop awareness of different types of shadows.
         </h2>

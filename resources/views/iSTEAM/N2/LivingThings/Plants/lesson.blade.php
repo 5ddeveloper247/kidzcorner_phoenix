@@ -8,8 +8,8 @@
 
     {{-- Slide 1 --}}
     <div class="flex flex-col items-center justify-between h-[50vh] slide hidden">
-        <h2 class="stroke title">Children, do you still remember what<span class="text-white"> living things<br /></span>are?
-            What can a<span class="text-white"> living thing</span> do?</h2>
+        <h2 class="stroke title">Children, do you still remember what<span class="!text-white"> living things<br /></span>are?
+            What can a<span class="!text-white"> living thing</span> do?</h2>
         <p class="note">Note: Encourage children to share their answers.</p>
     </div>
 
@@ -46,7 +46,7 @@
 
     {{-- Slide 3 --}}
     <div class="flex flex-col items-center justify-center h-[50vh] slide hidden">
-        <h2 class="stroke title">What about <span class="text-white">plants</span>?<br />Are <span class="text-white">plants
+        <h2 class="stroke title">What about <span class="!text-white">plants</span>?<br />Are <span class="!text-white">plants
                 living things</span>?</h2>
         <p class="note align-bottom">Note: Encourage children to share their views..</p>
     </div>
@@ -81,23 +81,23 @@
                 <tbody>
                     <tr>
                         <td class="border border-black text-[.8vw] p-[.6vw]">Do they move on their own?</td>
-                        <td class="border border-black text-[1vw]"></td>
+                        <td class="border border-black text-[1.25vw]"></td>
                     </tr>
                     <tr>
                         <td class="border border-black text-[.8vw] p-[.6vw]">Do they drink?</td>
-                        <td class="border border-black text-[1vw]"></td>
+                        <td class="border border-black text-[1.25vw]"></td>
                     </tr>
                     <tr>
                         <td class="border border-black text-[.8vw] p-[.6vw]">Do they eat?</td>
-                        <td class="border border-black text-[1vw]"></td>
+                        <td class="border border-black text-[1.25vw]"></td>
                     </tr>
                     <tr>
                         <td class="border border-black text-[.8vw] p-[.6vw]">Do they breathe?</td>
-                        <td class="border border-black text-[1vw]"></td>
+                        <td class="border border-black text-[1.25vw]"></td>
                     </tr>
                     <tr>
                         <td class="border border-black text-[.8vw] p-[.6vw]">Do they grow (get bigger)?</td>
-                        <td class="border border-black text-[1vw]"></td>
+                        <td class="border border-black text-[1.25vw]"></td>
                     </tr>
                 </tbody>
             </table>
@@ -145,7 +145,7 @@
             (stems move up and roots m
             ove down)</p>
         {{-- Video Toggle Button --}}
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -157,7 +157,7 @@
         <p class="note">Note: Guide ch
             ildren to understand that plants move by themselves when their flowers bloom.</p>
         {{-- Video Toggle Button --}}
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -171,7 +171,7 @@
             sunflower plants move by t
             hemselves to follow the sun as it moves across the sky,</p>
         {{-- Video Toggle Button --}}
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -185,7 +185,7 @@
             rain and animals.</p>
 
         {{-- Video Toggle Button --}}
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -198,7 +198,7 @@
         <div class="w-[35vw] h-[30vh] bg-cover bg-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
 
-            <table class="w-[35vw] h-[30vh] !text-[1vw] border-2 border-black table-fixed ">
+            <table class="w-[35vw] h-[30vh] !text-[1.25vw] border-2 border-black table-fixed ">
                 <thead>
                     <tr>
                         <th colspan="2" class="text-center text-[.9vw] py-[.6vw] border-b-2 border-black">
@@ -311,7 +311,7 @@
         <h2 class="title stroke text-start ">Let's do:</h2>
         <div class="w-[35vw] h-[35vh] bg-cover bg-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
-            <table class="w-[35vw] h-[35vh] border border-black text-[1vw] ">
+            <table class="w-[35vw] h-[35vh] border border-black text-[1.25vw] ">
                 <thead>
                     <tr>
                         <th class="border border-black p-[.6vw] text-[.8vw] text-center" colspan="2">Plants</th>
@@ -374,7 +374,7 @@
         <h2 class="title stroke text-start ">Let's do:</h2>
         <div class="w-[35vw] h-[30vh] bg-cover bg-center flex items-center justify-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
-            <table class="w-[35vw] h-[30vh] border border-black text-[1vw] ">
+            <table class="w-[35vw] h-[30vh] border border-black text-[1.25vw] ">
                 <thead>
                     <tr>
                         <th class="border border-black p-[.6vw] text-[.8vw] text-center" colspan="2">Plants</th>

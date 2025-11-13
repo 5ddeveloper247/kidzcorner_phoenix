@@ -65,7 +65,7 @@
         <h2 class="title stroke">Let’s watch a video!</h2>
         <p class="note">Note: Turn to next page to watch the video in slow motion.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -81,7 +81,7 @@
         <h2 class="title stroke">Now, Let’s watch the video in slow motion!</h2>
         <p class="note">Note: Have children freely talk about what they see. Do not correct them on the terms used.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -170,7 +170,7 @@
         <h2 class="title stroke">When you push an object, you use force
             So the force makes the first domino fall.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -194,7 +194,7 @@
         <h2 class="title stroke">Position the dominoes such that they always
             fall on after another and create a <span class="!text-white">domino effect</span> .</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video4')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video4')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -208,7 +208,7 @@
         </video>
         <h2 class="title stroke">Why does the balloon pop?</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video5')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video5')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -266,7 +266,7 @@
         </video>
         <h2 class="title stroke">How do you make sure the balloon will always pop?</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video6')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video6')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
 
@@ -284,7 +284,7 @@
             pushed forward, the needle goes through the
             balloon and pops it.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video7')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video7')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -293,7 +293,7 @@
     {{-- sldie 24 --}}
     <div class="slide  hidden flex flex-col items-center justify-center -4">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[40vw] h-[40vh] bg-cover bg-center "
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center "
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p class=" !text-center">Draw the Rube Goldberg Machine that you have created to pop a balloon.
             </p>

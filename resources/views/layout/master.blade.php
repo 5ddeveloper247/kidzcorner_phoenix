@@ -79,34 +79,43 @@
     <section class="w-full h-screen relative flex items-center justify-center bg-[#FBF0D0] overflow-hidden">
 
         <div id="ajax-section"
-            class="flex items-center justify-center relative text-center w-full px-[8vw] py-[3vw] md:min-h-[70vh] max-w-[70vw] md:bg-size-[60vw] bg-no-repeat bg-center"
+            class="flex items-center justify-center relative text-center px-[4vw] py-[5vw] h-[43.438vw] w-[74vw] md:bg-cover bg-no-repeat bg-center"
             style="background-image: url('{{ asset('assets/images/pptimages/stoneboard.png') }}');">
             @yield('content')
         </div>
 
         <!-- Leafs outside board -->
         <div id="leafs-outside">
-            <img class="absolute top-0 left-0 md:w-[14vw] z-30 transition-opacity cursor-none"
+            {{-- laef 1 --}}
+            <img class="absolute top-0 left-0 w-[20vw] h-[20vw] z-30 transition-opacity cursor-none"
                 src="{{ asset('assets/images/pptimages/bg-leaf-1.png') }}" />
 
-            <img class="absolute top-[-1vw] left-[17vw] w-[13vw] rotate-[11deg] z-30 transition-opacity cursor-none"
-                src="{{ asset('assets/images/pptimages/leaf8.png') }}" />
+            {{-- leaf 2 --}}
+            <img class="absolute top-[-6vw] left-[19.5vw] w-[7vw] rotate-[-38deg] z-30 transition-opacity cursor-none scale-x-[-1]"
+                src="{{ asset('assets/images/pptimages/leaf16.png') }}" />
 
-            <img class="absolute top-0 left-[35vw] md:w-[10vw] z-30 transition-opacity cursor-none"
+
+            {{-- leaf 3 --}}
+            <img class="absolute top-0 left-[35vw] w-[10vw] z-30 transition-opacity cursor-none"
                 src="{{ asset('assets/images/pptimages/bg-leaf-2.png') }}" />
 
-            <img class="absolute top-[-1vw] left-[60vw] md:w-[10vw] z-30 transition-opacity cursor-none"
+            {{-- leaf 3 --}}
+            <img class="absolute top-[-1vw] left-[60vw] md:w-[13vw] z-30 transition-opacity cursor-none"
                 src="{{ asset('assets/images/pptimages/leaf15.png') }}" />
 
+            {{-- leaf 4 --}}
             <img class="absolute top-0 left-[75vw] md:w-[10vw] z-30 transition-opacity cursor-none"
                 src="{{ asset('assets/images/pptimages/leaf3.png') }}" />
 
-            <img class="absolute bottom-0 left-0 md:w-[8vw] z-30 transition-opacity cursor-none"
+            {{-- leaf 5 --}}
+            <img class="absolute bottom-0 left-0 md:w-[10.67vw] z-30 transition-opacity cursor-none"
                 src="{{ asset('assets/images/pptimages/leaf1.png') }}" />
 
-            <img class="absolute !bottom-0 left-[35vw] rotate-180 md:w-[10vw] z-30 transition-opacity cursor-none"
+            {{-- leaf 6 --}}
+            <img class="absolute !bottom-0 left-[35vw] rotate-180 md:w-[13.5vw] z-30 transition-opacity cursor-none"
                 src="{{ asset('assets/images/pptimages/leaf15.png') }}" />
 
+            {{-- leaf 7 --}}
             <img class="absolute bottom-0 right-0 md:w-[10vw] z-50 transition-opacity cursor-none"
                 src="{{ asset('assets/images/pptimages/leaf10.png') }}" />
         </div>
@@ -119,7 +128,7 @@
                 src="{{ asset('assets/images/pptimages/Vector2.png') }}" style="pointer-events: none" />
             <img id="vector1" class="absolute right-0 bottom-0 w-[150px] sm:w-[200px] md:w-[40vw] z-30"
                 style="display: none" src="{{ asset('assets/images/pptimages/Vector3.png') }}" />
-            <img class="absolute right-0 bottom-0 w-[150px] sm:w-[200px] md:w-[40vw] z-30"
+            <img class="absolute right-0 bottom-0 w-[42.3vw] h-[24.844vw]  z-20 vector-5"
                 src="{{ asset('assets/images/pptimages/Vector5.png') }}" />
         </div>
     </section>
@@ -129,7 +138,7 @@
         class="fixed inset-0 z-[1000] hidden items-center justify-center bg-[#0000002e]  backdrop-blur-sm">
         <div class="w-[60vw] relative h-[40vw] bg-contain bg-no-repeat bg-center flex flex-col justify-center items-center rounded-lg "
             style="background-image: url('{{ asset('assets/images/K2/exit.png') }}');">
-            <p class="text-[2vw] text-white stroke font-bold">Are you sure you want to exit?</p>
+            <p class="text-[2vw] !text-white stroke font-bold">Are you sure you want to exit?</p>
             <div class="flex justify-around items-center w-[30vw] mt-[2vw]">
                 <a href="#" id="exitNo"
                     class="text-[#59967D] text-[3vw] font-bold stroke hover:scale-110 transition-transform cursor-pointer">No</a>

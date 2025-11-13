@@ -17,8 +17,8 @@
     {{-- Slide 2 --}}
     <div class="slide flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/screw/s2.png" />
-        <h2 class="title stroke">This is a <span class="text-white">screw</span>. It is a rod with a spiral groove on it.
-            The spiral groove is called <span class="text-white">thread.</span></h2>
+        <h2 class="title stroke">This is a <span class="!text-white">screw</span>. It is a rod with a spiral groove on it.
+            The spiral groove is called <span class="!text-white">thread.</span></h2>
         <p class="note"></p>
     </div>
 
@@ -28,11 +28,11 @@
             <source src="{{ asset('assets/images/K1/sm/44.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
-        <h2 class="title stroke">This is how <span class="text-white">screw</span> goes inside a plank of wood!
-            The <span class="text-white">thread</span> of the screw helps it to go into the wood easily.</h2>
+        <h2 class="title stroke">This is how <span class="!text-white">screw</span> goes inside a plank of wood!
+            The <span class="!text-white">thread</span> of the screw helps it to go into the wood easily.</h2>
         <p class="note"></p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -40,7 +40,7 @@
     {{-- Slide 4 --}}
     <div class="slide flex flex-col items-center justify-center gap-0">
         <img src="/assets/images/K1/sm/screw/s4.png" />
-        <h2 class="title stroke">These are different <span class="text-white">screw.</span></h2>
+        <h2 class="title stroke">These are different <span class="!text-white">screw.</span></h2>
         <p class="note">Note: If possible, let children touch and feel different types of screws; emphasize that each
             screw has a thread.</p>
     </div>
@@ -48,28 +48,28 @@
     {{-- Slide 5 --}}
     <div class="slide flex flex-col items-center justify-center gap-0">
         <img src="/assets/images/K1/sm/screw/s5.png" />
-        <h2 class="title stroke">A <span class="text-white">screw.</span> is a type of <span class="text-white">simple
+        <h2 class="title stroke">A <span class="!text-white">screw.</span> is a type of <span class="!text-white">simple
                 machine.</span></h2>
         <p class="note">Note: Let children share what they think a simple machine is.</p>
     </div>
 
     {{-- Slide 6 --}}
     <div class="slide flex flex-col items-center justify-center ">
-        <h2 class="title stroke"><span class="text-white">simple machine</span> are basic tools that help us to do work
+        <h2 class="title stroke"><span class="!text-white">simple machine</span> are basic tools that help us to do work
             easily.</h2>
         <p class="note">Note: Explain that there are 6 types of simple machines and screw is one of it.</p>
     </div>
 
     {{-- Slide 7 --}}
     <div class="slide flex flex-col items-center justify-center ">
-        <h2 class="title stroke">Do you know how a <span class="text-white">screw</span> helps us to do work easily?</h2>
+        <h2 class="title stroke">Do you know how a <span class="!text-white">screw</span> helps us to do work easily?</h2>
         <p class="note">Note: Let children share what they know.</p>
     </div>
 
     {{-- Slide 8 --}}
     <div class="slide flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/screw/s1.png" />
-        <h2 class="title stroke">A <span class="text-white">screw</span> generally helps to hold things together easily.
+        <h2 class="title stroke">A <span class="!text-white">screw</span> generally helps to hold things together easily.
         </h2>
         <p class="note">Note: Guide children to understand that a screw is a simple machine as it helps us to do our work
             easily.</p>
@@ -77,7 +77,7 @@
 
     {{-- Slide 9 --}}
     <div class="slide flex flex-col items-center justify-start ">
-        <h2 class="title stroke">Can you name some things which have <span class="text-white">screws</span> on them?</h2>
+        <h2 class="title stroke">Can you name some things which have <span class="!text-white">screws</span> on them?</h2>
         <p class="note">Note: Have children name some things in their surroundings which have screws on them.</p>
     </div>
 
@@ -180,14 +180,14 @@
     {{-- slide 25 --}}
     <div class="slide flex flex-col items-center justify-start ">
         <img src="/assets/images/K1/sm/screw/sl6.png" />
-        <h2 class="title stroke">This is a special type of screw called <span class="text-white">Archimedes’ screw.</span>
+        <h2 class="title stroke">This is a special type of screw called <span class="!text-white">Archimedes’ screw.</span>
         </h2>
     </div>
 
     {{-- slide 26 --}}
     <div class="slide flex flex-col items-center justify-start ">
         <img src="/assets/images/K1/sm/screw/s13.png" />
-        <h2 class="title stroke"><span class="text-white">Archimedes’ screw.</span> is big and usually used in farms.</h2>
+        <h2 class="title stroke"><span class="!text-white">Archimedes’ screw.</span> is big and usually used in farms.</h2>
     </div>
 
     {{-- slide 27 --}}
@@ -237,10 +237,10 @@
             <source src="{{ asset('assets/images/K1/sm/45.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
-        <h2 class="title stroke"><span class="text-white">What do you think (Prediction):</span> <br>
+        <h2 class="title stroke"><span class="!text-white">What do you think (Prediction):</span> <br>
             What will happen when we turn the Archimedes’ screw?</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -255,7 +255,7 @@
         </video>
 
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video4')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video4')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -263,14 +263,14 @@
     {{-- slide 36 --}}
     <div class="slide flex flex-col items-center justify-start ">
         <img src="/assets/images/K1/sm/screw/s19.png" />
-        <h2 class="title stroke"><span class="text-white">What do you observe (Result):</span> What happens when we start
+        <h2 class="title stroke"><span class="!text-white">What do you observe (Result):</span> What happens when we start
             turning the screw?</h2>
     </div>
 
 
     {{-- slide 37 --}}
     <div class="slide flex flex-col items-center justify-start ">
-        <h2 class="title stroke"><span class="text-white">What do you learn:</span><br>
+        <h2 class="title stroke"><span class="!text-white">What do you learn:</span><br>
             How does an Archimedes’ screw work?</h2>
         <p class="note">Note: After the hands-on activity, guide children to understand how an Archimedes’ screw work.
         </p>
@@ -286,7 +286,7 @@
         <h2 class="title stroke">Through the activity, we learn that when we turn the screw, the water rises up the tubing
             and flows into the small container.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video5')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video5')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -300,7 +300,7 @@
         </video>
         <h2 class="title stroke">Water is taken in at the bottom and moves up the thread of the screw as it rotates.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video6')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video6')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>

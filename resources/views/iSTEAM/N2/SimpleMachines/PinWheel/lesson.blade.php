@@ -7,73 +7,71 @@
 
 
     {{-- Slide 1 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <div class="flex flex-col items-center justify-center">
-            <h2 class="title stroke">Children, what did you build on the last lesson? Hod did you play with it? What did you
-                see it for?</h2>
-            <img src="{{ asset('/assets/images/N2/SimpleMachines/a8.png') }}" />
-        </div>
+    <div class="slide flex flex-col items-center justify-center">
+        <h2 class="title stroke">Children, what did you build on the last lesson? Hod did you play with it? What did you
+            see it for?</h2>
+        <img src="{{ asset('/assets/images/N2/SimpleMachines/a8.png') }}" class="img-lg" />
     </div>
 
 
 
     {{-- Slide 2 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
+    <div class="slide flex flex-col items-center justify-center">
 
-        <video id="video1" class="w-full pointer-events-none">
-            <source src="{{ asset('assets/images/N2/SimpleMachines/1.mp4') }}" type="video/mp4">
+        <video id="video1" class=" pointer-events-none">
+            <source src="{{ asset('assets/images/N2/SimpleMachines/videos/1.mp4') }}" type="video/mp4">
         </video>
         <h2 class="title stroke">You pulled the string to move the wagon that is tied to the string.</h2>
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video1')"
-            class="absolute top-1/2 right-[-10vw] z-30 h-24 w-24 -translate-y-1/2 video-btn">
+            class="absolute top-1/2 right-[-10vw] z-[99] h-24 w-24 -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
     {{-- Slide 3 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <video id="video2" class="w-full pointer-events-none">
-            <source src="{{ asset('assets/images/N2/SimpleMachines/3.mp4') }}" type="video/mp4">
+    <div class="slide flex flex-col items-center justify-center">
+        <video id="video2" class=" pointer-events-none">
+            <source src="{{ asset('assets/images/N2/SimpleMachines/videos/3.mp4') }}" type="video/mp4">
         </video>
         <h2 class="title stroke">You can use it to move things around easily.</h2>
         <p class="note text-ellipsis">Note: have children share thing they are able and unable to transport around using
             their wagons.</p>
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video2')"
-            class="absolute top-1/2 right-[-10vw] z-30 h-24 w-24 -translate-y-1/2 video-btn">
+            class="absolute top-1/2 right-[-10vw] z-[99] h-24 w-24 -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
 
     {{-- Slide 4 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
+    <div class="slide flex flex-col items-center justify-center">
         <h2 class="title stroke">A strong wagon can help us carry and move people and heavy things around easily.</h2>
         <div class="flex items-center gap-10">
-            <img src="{{ asset('/assets/images/N2/SimpleMachines/a14.png') }}" class="large-img" />
-            <img src="{{ asset('/assets/images/N2/SimpleMachines/a15.png') }}" class="large-img" />
+            <img src="{{ asset('/assets/images/N2/SimpleMachines/a14.png') }}" class="img-sm" />
+            <img src="{{ asset('/assets/images/N2/SimpleMachines/a15.png') }}" class="img-sm" />
         </div>
     </div>
 
 
     {{-- Slide 5 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
+    <div class="slide flex flex-col items-center justify-center">
         <h2 class="title stroke">A strong wagon can help us carry and move people and heavy things around easily.</h2>
         <div class="flex items-center gap-10">
-            <img src="{{ asset('/assets/images/N2/SimpleMachines/a14.png') }}" class="large-img" />
-            <img src="{{ asset('/assets/images/N2/SimpleMachines/a15.png') }}" class="large-img" />
+            <img src="{{ asset('/assets/images/N2/SimpleMachines/a14.png') }}" class="img-sm" />
+            <img src="{{ asset('/assets/images/N2/SimpleMachines/a15.png') }}" class="img-sm" />
         </div>
         <p class="note text-ellipsis">Note: Have children point out the part in each photo.</p>
     </div>
 
 
     {{-- Slide 6 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
+    <div class="slide flex flex-col items-center justify-center">
         <h2 class="title stroke">Yes, the container of a wagon carries people and heavy things.</h2>
         <div class="flex items-center gap-10">
-            <img src="{{ asset('/assets/images/N2/SimpleMachines/a14.png') }}" class="large-img" />
-            <img src="{{ asset('/assets/images/N2/SimpleMachines/a15.png') }}" class="large-img" />
+            <img src="{{ asset('/assets/images/N2/SimpleMachines/a14.png') }}" class="img-sm" />
+            <img src="{{ asset('/assets/images/N2/SimpleMachines/a15.png') }}" class="img-sm" />
         </div>
         <p class="note text-ellipsis">Note: Point to show the container of each wagon.</p>
     </div>
@@ -81,50 +79,52 @@
 
 
     {{-- Slide 7 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
+    <div class="slide flex flex-col items-center justify-center">
         <div class="flex items-center gap-10">
-            <img src="{{ asset('/assets/images/N2/SimpleMachines/a14.png') }}" class="large-img" />
-            <img src="{{ asset('/assets/images/N2/SimpleMachines/a15.png') }}" class="large-img" />
+            <img src="{{ asset('/assets/images/N2/SimpleMachines/a14.png') }}" class="img-sm" />
+            <img src="{{ asset('/assets/images/N2/SimpleMachines/a15.png') }}" class="img-sm" />
         </div>
         <h2 class="title stroke">Which part of a wagon makes it easier for us to move people and heavy things around?.</h2>
     </div>
 
 
     {{-- Slide 8 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <img src="{{ asset('/assets/images/N2/SimpleMachines/a11.png') }}" />
-        <h2 class="stroke title">Just like the wagon you made, each <span class="text-white">wheel<br /></span>of a wagon is
-            fixed to a rod called an <span class="text-white">axle</span>.</h2>
+    <div class="slide flex flex-col items-center justify-center">
+        <img src="{{ asset('/assets/images/N2/SimpleMachines/a11.png') }}" class="img-lg" />
+        <h2 class="stroke title">Just like the wagon you made, each <span class="!text-white">wheel<br /></span>of a wagon
+            is
+            fixed to a rod called an <span class="!text-white">axle</span>.</h2>
     </div>
 
 
     {{-- Slide 9 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <video id="video3" class="w-full pointer-events-none">
-            <source src="{{ asset('assets/images/N2/SimpleMachines/3.mp4') }}" type="video/mp4">
+    <div class="slide flex flex-col items-center justify-center">
+        <video id="video3" class=" pointer-events-none">
+            <source src="{{ asset('assets/images/N2/SimpleMachines/videos/3.mp4') }}" type="video/mp4">
         </video>
         <h2 class="stroke title">When you pull the wagon, its wheel and axle turn together to let you move things around
             easily.</h2>
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video3')"
-            class="absolute top-1/2 right-[-10vw] z-30 h-24 w-24 -translate-y-1/2 video-btn">
+            class="absolute top-1/2 right-[-10vw] z-[99] h-24 w-24 -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
 
     {{-- Slide 10 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <img src="{{ asset('/assets/images/N2/SimpleMachines/a16.png') }}" />
-        <h2 class="stroke title">A <span class="text-white">wheel</span> and <span class="text-white">axle</span> is a type
-            of <span class="text-white">simple machine</span>.<br /><span class="text-white">Simple machines</span> are
+    <div class="slide flex flex-col items-center justify-center">
+        <img src="{{ asset('/assets/images/N2/SimpleMachines/a16.png') }}" class="img-lg" />
+        <h2 class="stroke title">A <span class="!text-white">wheel</span> and <span class="!text-white">axle</span> is a
+            type
+            of <span class="!text-white">simple machine</span>.<br /><span class="!text-white">Simple machines</span> are
             tools that help us to do work easily.</h2>
     </div>
 
 
     {{-- Slide 11 --}}
     <div class="slide flex flex-col items-center h-[50vh] justify-between ">
-        <h2 class="stroke title">Many things around us have <span class="text-white">wheels</span> and <span
+        <h2 class="stroke title">Many things around us have <span class="!text-white">wheels</span> and <span
                 class="text-white">axles</span>.<br />Can you name some examples?</h2>
         <p class="note text-ellipsis">Note: Guide children to recall and name some things with wheels and axles in their
             surroundings <br> [wheels and axles can be found on things that turn in a circle].</p>
@@ -133,8 +133,8 @@
 
     {{-- Slide 12 --}}
     <div class="slide flex flex-col items-center justify-center ">
-        <img src="{{ asset('/assets/images/N2/SimpleMachines/a25.png') }}" class="large-img" />
-        <h2 class="stroke title">What is this? Where are the <span class="text-white">wheels</span> and <span
+        <img src="{{ asset('/assets/images/N2/SimpleMachines/a25.png') }}" class="img-h-md" />
+        <h2 class="stroke title">What is this? Where are the <span class="!text-white">wheels</span> and <span
                 class="text-white">axles</span>?</h2>
         <p class="note">Note: Guide children to name and point out each pair of its wheel and axles.</p>
     </div>
@@ -142,8 +142,8 @@
 
     {{-- Slide 13 --}}
     <div class="slide flex flex-col items-center justify-center ">
-        <img src="{{ asset('/assets/images/N2/SimpleMachines/a25.png') }}" class="large-img4" />
-        <h2 class="stroke title">These are the <span class="text-white">wheels</span> and <span
+        <img src="{{ asset('/assets/images/N2/SimpleMachines/a25.png') }}" class="img-h-md" />
+        <h2 class="stroke title">These are the <span class="!text-white">wheels</span> and <span
                 class="text-white">axles</span> of this shopping cart.</h2>
         <p class="note">Note: Guide children to count how many pairs of wheel and axle are there on the shopping cart.</p>
     </div>
@@ -151,12 +151,14 @@
 
     {{-- Slide 14 --}}
     <div class="slide flex flex-col items-center justify-center ">
-        <img src="{{ asset('/assets/images/N2/SimpleMachines/a26.png') }}" />
+        <video id="video4" class=" pointer-events-none">
+            <source src="{{ asset('assets/images/N2/SimpleMachines/videos/5.mp4') }}" type="video/mp4">
+        </video>
         <h2 class="stroke title">When you push a shopping cart, its turning wheels and axle lets you easily bring along
             things you want to buy.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video')"
-            class="absolute top-1/2 right-[-10vw] z-30 h-24 w-24 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video4')"
+            class="absolute top-1/2 right-[-10vw] z-[99] h-24 w-24 -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -164,16 +166,16 @@
 
     {{-- Slide 15 --}}
     <div class="slide flex flex-col items-center justify-center ">
-        <img src="{{ asset('/assets/images/N2/SimpleMachines/a27.png') }}" />
-        <h2 class="stroke title">What is this? Where are the<span class="text-white"> wheels</span> and <span
+        <img src="{{ asset('/assets/images/N2/SimpleMachines/a27.png') }}" class="img-md" />
+        <h2 class="stroke title">What is this? Where are the<span class="!text-white"> wheels</span> and <span
                 class="text-white">axles</span>?</h2>
         <p class="note">Note: Guide children to name and point out each pair of its wheel and axle.</p>
     </div>
 
     {{-- Slide 16 --}}
     <div class="slide flex flex-col items-center justify-center ">
-        <img src="{{ asset('/assets/images/N2/SimpleMachines/a27.png') }}" />
-        <h2 class="stroke title">These are the <span class="text-white">wheels</span> and <span
+        <img src="{{ asset('/assets/images/N2/SimpleMachines/a27.png') }}" class="img-md" />
+        <h2 class="stroke title">These are the <span class="!text-white">wheels</span> and <span
                 class="text-white">axles</span> of this scooter.</h2>
         <p class="note">Note: Guide children to count how many pairs of wheel and axle are there on this scooter.</p>
     </div>
@@ -181,12 +183,14 @@
 
     {{-- Slide 17 --}}
     <div class="slide flex flex-col items-center justify-center ">
-        <img src="{{ asset('/assets/images/N2/SimpleMachines/a28.png') }}" />
-        <h2 class="stroke title">When you ride a scooter, its turning <span class="text-white">wheel</span> and <span
+        <video id="video5" class=" pointer-events-none">
+            <source src="{{ asset('assets/images/N2/SimpleMachines/videos/6.mp4') }}" type="video/mp4">
+        </video>
+        <h2 class="stroke title">When you ride a scooter, its turning <span class="!text-white">wheel</span> and <span
                 class="text-white">axle<br /></span>lets
             <!-- Video Trigger Button -->
-            <div onclick="toggleVideo('video')"
-                class="absolute top-1/2 right-[-10vw] z-30 h-24 w-24 -translate-y-1/2 video-btn">
+            <div onclick="toggleVideo('video5')"
+                class="absolute top-1/2 right-[-10vw] z-[99] h-24 w-24 -translate-y-1/2 video-btn">
                 <img src="/assets/images/pptimages/video.png" />
             </div>you have fun moving around easily.
         </h2>
@@ -195,8 +199,8 @@
 
     {{-- Slide 18 --}}
     <div class="slide flex flex-col items-center justify-center ">
-        <img src="{{ asset('/assets/images/N2/SimpleMachines/a29.png') }}" />
-        <h2 class="stroke title">What is this? Where are the<span class="text-white"> wheels</span> and <span
+        <img src="{{ asset('/assets/images/N2/SimpleMachines/a29.png') }}" class="img-md" />
+        <h2 class="stroke title">What is this? Where are the<span class="!text-white"> wheels</span> and <span
                 class="text-white">axles</span>?</h2>
         <p class="note">Note: Guide children to name and point out each pair of its wheel and axle.</p>
     </div>
@@ -205,20 +209,22 @@
 
     {{-- Slide 19 --}}
     <div class="slide flex flex-col items-center justify-center ">
-        <img src="{{ asset('/assets/images/N2/SimpleMachines/gl1.png') }}" />
-        <h2 class="stroke title">These are the <span class="text-white">wheels</span> and <span
+        <img src="{{ asset('/assets/images/N2/SimpleMachines/gl1.png') }}" class="img-md" />
+        <h2 class="stroke title">These are the <span class="!text-white">wheels</span> and <span
                 class="text-white">axles</span> of the giant wheel.</h2>
         <p class="note">Note: Guide children to count how many pairs of wheel and axle are there on this giant wheel.</p>
     </div>
 
     {{-- Slide 20 --}}
     <div class="slide flex flex-col items-center justify-center ">
-        <img src="{{ asset('/assets/images/N2/SimpleMachines/a30.png') }}" />
-        <h2 class="stroke title">When you take a ride on a giant wheel, its turning<br /><span class="text-white">wheel
-            </span>and <span class="text-white">axle</span> lets you easily view the scenery.</h2>
+        <video id="video6" class=" pointer-events-none">
+            <source src="{{ asset('assets/images/N2/SimpleMachines/videos/7.mp4') }}" type="video/mp4">
+        </video>
+        <h2 class="stroke title">When you take a ride on a giant wheel, its turning<br /><span class="!text-white">wheel
+            </span>and <span class="!text-white">axle</span> lets you easily view the scenery.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video')"
-            class="absolute top-1/2 right-[-10vw] z-30 h-24 w-24 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video6')"
+            class="absolute top-1/2 right-[-10vw] z-[99] h-24 w-24 -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -226,16 +232,18 @@
 
     {{-- Slide 21 --}}
     <div class="slide flex flex-col items-center justify-center ">
-        <img src="{{ asset('/assets/images/N2/SimpleMachines/a31.png') }}" />
+        <img src="{{ asset('/assets/images/N2/SimpleMachines/a31.png') }}" class="img-md" />
         <h2 class="stroke title">Have you ever played with a pinwheel? A pinwheel also has wheel and axle.Do you know where
             is it?</h2>
     </div>
 
 
     {{-- slide 22 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start   ">
-        <h2 class="title stroke">Let’s do: <br>
-            Let’s follow the instructions to build a pinwheel and then play with it.</h2>
+    <div class="slide hidden  flex flex-col items-center justify-between h-[55vh]   ">
+        <div class="title stroke text-start">
+            <h2 class="title stroke">Let’s do:</h2>
+            <h2>Let’s follow the instructions to build a pinwheel and then play with it.</h2>
+        </div>
 
         <p class="note">Note: Divide children into groups and give each group a set of building bricks.</p>
     </div>
@@ -249,7 +257,7 @@
                 <li>1. Make sure you have all these parts.</li>
             </ul>
         </div>
-        <img src="{{ asset('/assets/images/N2/SimpleMachines/a32.png') }}" class="large-img" />
+        <img src="{{ asset('/assets/images/N2/SimpleMachines/a32.png') }}" class="img-md" />
         <p class="note">Note: Have each group of children check to ensure they have all the parts.</p>
     </div>
 
@@ -262,7 +270,7 @@
                 <li>2. Build a pinwheel.</li>
             </ul>
         </div>
-        <img src="{{ asset('/assets/images/N2/SimpleMachines/a33.png') }}" class="large-img" />
+        <img src="{{ asset('/assets/images/N2/SimpleMachines/a33.png') }}" class="img-md" />
         <p class="note z-[99]">Note: Have each group of children work together to complete the mission. <a
                 class="click-btn1">Click
                 <span class="text-[#F7B94A]">here</span></a> for the guide.</p>
@@ -272,14 +280,14 @@
     {{-- slide  25 --}}
     <div class="flex flex-col click1 items-center justify-center slide hidden">
         <h2 class="title stroke">How to build a pinwheel? Step 1 of 5 </h2>
-        <img src="{{ asset('assets/images/N2/SimpleMachines/a34.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/a34.png') }}" class="img-xl" />
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
     </div>
 
     {{-- slide 26 --}}
     <div class="flex flex-col click1 items-center justify-center slide hidden">
         <h2 class="title stroke">How to build a pinwheel? Step 2 of 5</h2>
-        <img src="{{ asset('assets/images/N2/SimpleMachines/a35.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/a35.png') }}" class="img-xl" />
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
     </div>
 
@@ -287,7 +295,7 @@
     {{-- slide 27 --}}
     <div class="flex flex-col click1 items-center justify-center slide hidden">
         <h2 class="title stroke">How to build a pinwheel? Step 3 of 5</h2>
-        <img src="{{ asset('assets/images/N2/SimpleMachines/a36.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/a36.png') }}" class="img-xl" />
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
     </div>
 
@@ -296,7 +304,7 @@
     {{-- slide 28 --}}
     <div class="flex flex-col click1 items-center justify-center slide hidden">
         <h2 class="title stroke">How to build a pinwheel? Step 4 of 5</h2>
-        <img src="{{ asset('assets/images/N2/SimpleMachines/a37.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/a37.png') }}" class="img-xl" />
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
     </div>
 
@@ -305,13 +313,13 @@
     {{-- slide 29 --}}
     <div class="flex flex-col click1 items-center justify-center slide hidden">
         <h2 class="title stroke">How to build a pinwheel? Step 5 of 5</h2>
-        <img src="{{ asset('assets/images/N2/SimpleMachines/a38.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/a38.png') }}" class="img-xl" />
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
     </div>
 
 
     {{-- slide 30 --}}
-    <div class="flex flex-col  slide hidden items-center">
+    <div class="flex flex-col  slide hidden items-center justify-between h-[50vh] ">
         <div class="title stroke text-start self-start">
             <h2>Steps:</h2>
             <ul>
@@ -331,7 +339,7 @@
 
 
     {{-- slide 31 --}}
-    <div class="flex flex-col  slide hidden items-center">
+    <div class="flex flex-col  slide hidden items-center justify-between h-[50vh] ">
         <div class="title stroke text-start self-start">
             <h2>Steps:</h2>
             <ul>
@@ -350,7 +358,7 @@
 
     {{-- slide 32 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/SimpleMachines/gl2.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/gl2.png') }}" class="img-lg" />
         <h2 class="title stroke">This is the wheel (hast two blades) and axle of the pinwheel.</h2>
         <p class="note">Note: Guide each group of children to point out the wheels and axle of their pinwheels.</p>
     </div>
@@ -359,14 +367,16 @@
     {{-- slide 33 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
 
-        <img src="{{ asset('assets/images/N2/SimpleMachines/a43.png') }}" class="large-img3" />
+        <video id="video7" class=" pointer-events-none">
+            <source src="{{ asset('assets/images/N2/SimpleMachines/videos/8.mp4') }}" type="video/mp4">
+        </video>
 
         <h2 class="title stroke">The wheel and axle of the pinwheel turn as the wind blows.</h2>
         <p class="note">Note: Explain to children that the wind forces the wheel (blades) to turn and so the axle of the
             pinwheel turns together.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video3')"
-            class="absolute top-1/2 right-[-10vw] z-30 h-24 w-24 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video7')"
+            class="absolute top-1/2 right-[-10vw] z-[99] h-24 w-24 -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -374,12 +384,14 @@
 
     {{-- slide 33 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/SimpleMachines/a39.png') }}"  />
+        <video id="video8" class=" pointer-events-none">
+            <source src="{{ asset('assets/images/N2/SimpleMachines/videos/9.mp4') }}" type="video/mp4">
+        </video>
         <h2 class="stroke title">You can place the pinwheel near the fan<br />to make its <span
-                class="text-white">wheel</span> and <span class="text-white">axle</span> turn fast.</h2>
+                class="text-white">wheel</span> and <span class="!text-white">axle</span> turn fast.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video3')"
-            class="absolute top-1/2 right-[-10vw] z-30 h-24 w-24 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video8')"
+            class="absolute top-1/2 right-[-10vw] z-[99] h-24 w-24 -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -387,12 +399,14 @@
 
     {{-- slide 34 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/SimpleMachines/a40.png') }}"  />
+        <video id="video9" class=" pointer-events-none">
+            <source src="{{ asset('assets/images/N2/SimpleMachines/videos/10.mp4') }}" type="video/mp4">
+        </video>
         <h2 class="stroke title">You can place the pinwheel far the fan<br />to make its <span
-                class="text-white">wheel</span> and <span class="text-white">axle</span> turn slow.</h2>
+                class="text-white">wheel</span> and <span class="!text-white">axle</span> turn slow.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video3')"
-            class="absolute top-1/2 right-[-10vw] z-30 h-24 w-24 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video9')"
+            class="absolute top-1/2 right-[-10vw] z-[99] h-24 w-24 -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -400,13 +414,15 @@
 
     {{-- slide 35 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/SimpleMachines/a41.png') }}"  />
+        <video id="video10" class=" pointer-events-none">
+            <source src="{{ asset('assets/images/N2/SimpleMachines/videos/11.mp4') }}" type="video/mp4">
+        </video>
         <h2 class="stroke title">As the wind blows on a pinwheel, its turning <span
-                class="text-white">wheel<br /></span>and <span class="text-white">axle</span> lets you see the blades
+                class="text-white">wheel<br /></span>and <span class="!text-white">axle</span> lets you see the blades
             spinning.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video3')"
-            class="absolute top-1/2 right-[-10vw] z-30 h-24 w-24 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video10')"
+            class="absolute top-1/2 right-[-10vw] z-[99] h-24 w-24 -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -415,17 +431,21 @@
 
     {{-- slide 36 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/SimpleMachines/a42.png') }}" />
+        <video id="video11" class=" pointer-events-none">
+            <source src="{{ asset('assets/images/N2/SimpleMachines/videos/12.mp4') }}" type="video/mp4">
+        </video>
         <h2 class="stroke title">Do you enjoy seeing the blades of this pinwheel spinning? Why?</h2>
         <p class="note">Note: Encourage children to share their views.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video3')"
-            class="absolute top-1/2 right-[-10vw] z-30 h-24 w-24 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video11')"
+            class="absolute top-1/2 right-[-10vw] z-[99] h-24 w-24 -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
 
+
+    {{-- ============= --}}
     {{-- Buttons --}}
     <div class="down-btn-container">
         <button class="doneButton">
@@ -664,7 +684,7 @@
                     parentSlideIndex = null;
                 } else {
                     // Go to selection page
-                    window.location.href = "{{ route('PinWheelSelection') }}";
+                    window.location.href = "{{ route('SimpleMachines') }}";
                 }
             });
 

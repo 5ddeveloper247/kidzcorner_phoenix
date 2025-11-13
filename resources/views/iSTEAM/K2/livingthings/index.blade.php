@@ -4,110 +4,110 @@
 
 @section('content')
     {{--  First Slide --}}
-    <div class="board w-[55vw]  flex flex-col justify-center items-center slide !gap-0">
+    <div class="board2   flex flex-col justify-center items-center slide1 ">
 
-        <h2 class="text-[45px] text-[#F7B94A] font-extrabold stroke ">Living Things</h2>
+        <h2 class="text-[#F7B94A] stroke board-title">Living Things</h2>
 
-        <div class="grid grid-cols-4 gap-0" style="width: 47vw">
+        <div class="grid grid-cols-4 gap-[1vw] " >
             <!-- Card 1-->
             <a href="{{ route('Pgrow') }}"
                 style="background-image: url('{{ asset('/assets/images/pptimages/Property1.png') }}');"
-                class=" bg-no-repeat bg-contain bg-center w-[12vw] h-[10vw] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="!text-[1.2vw] pt-[.9vw] text-[#7D6F71]">How Plants <br> Grow?</h2>
-                <span class="text-[2vw] text-[#AF6E39] absolute  top-[1vw] right-[1vw]">1</span>
+                class=" bg-no-repeat bg-contain bg-center  w-[13.594vw] h-[11.198vw] relative flex justify-center items-center transition hover:brightness-110">
+                <h2 class="text-[1.51vw] text-[#7D6F71]">How Plants <br> Grow?</h2>
+                <span class="text-[2vw] text-[#AF6E39] absolute  top-[1.4vw] right-[1vw]">1</span>
             </a>
 
             <!-- Card 2 -->
             <a href="{{ route('K2things') }}"
                 style="background-image: url('{{ asset('/assets/images/pptimages/Property1.png') }}');"
-                class=" bg-no-repeat bg-contain bg-center w-[12vw] h-[10vw] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="!text-[1.2vw] pt-[.9vw] text-[#7D6F71]">What are <br> Living <br> Things?</h2>
-                <span class="text-[2vw] text-[#AF6E39] absolute  top-[1vw] right-[1vw]">2</span>
+                class=" bg-no-repeat bg-contain bg-center  w-[13.594vw] h-[11.198vw] relative flex justify-center items-center transition hover:brightness-110">
+                <h2 class="text-[1.51vw] text-[#7D6F71]">What are <br> Living <br> Things?</h2>
+                <span class="text-[2vw] text-[#AF6E39] absolute  top-[1.4vw] right-[1vw]">2</span>
             </a>
 
             <!-- Card 3 -->
             <a href="{{ route('pthings') }}"
                 style="background-image: url('{{ asset('/assets/images/pptimages/Property1.png') }}');"
-                class=" bg-no-repeat bg-contain bg-center w-[12vw] h-[10vw] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="!text-[1.2vw] pt-[.9vw] text-[#7D6F71]">Are Plants <br> Living <br> Things?</h2>
-                <span class="text-[2vw] text-[#AF6E39] absolute  top-[1vw] right-[1vw]">3</span>
+                class=" bg-no-repeat bg-contain bg-center  w-[13.594vw] h-[11.198vw] relative flex justify-center items-center transition hover:brightness-110">
+                <h2 class="text-[1.51vw] text-[#7D6F71]">Are Plants <br> Living <br> Things?</h2>
+                <span class="text-[2vw] text-[#AF6E39] absolute  top-[1.4vw] right-[1vw]">3</span>
             </a>
 
             <!-- Card 4 -->
             <a href="{{ route('Dna') }}"
                 style="background-image: url('{{ asset('/assets/images/pptimages/Property1.png') }}');"
-                class=" bg-no-repeat bg-contain bg-center w-[12vw] h-[10vw] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="!text-[1.2vw] pt-[.9vw] text-[#7D6F71]">What is <br> DNA?</h2>
-                <span class="text-[2vw] text-[#AF6E39] absolute  top-[1vw] right-[1vw]">4</span>
+                class=" bg-no-repeat bg-contain bg-center  w-[13.594vw] h-[11.198vw] relative flex justify-center items-center transition hover:brightness-110">
+                <h2 class="text-[1.51vw] text-[#7D6F71]">What is <br> DNA?</h2>
+                <span class="text-[2vw] text-[#AF6E39] absolute  top-[1.4vw] right-[1vw]">4</span>
             </a>
 
             <!-- Card 5 -->
             <a href="{{ route('tomatoDna') }}"
                 style="background-image: url('{{ asset('/assets/images/pptimages/Property1.png') }}');"
-                class=" bg-no-repeat bg-contain bg-center w-[12vw] h-[10vw] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="!text-[1.2vw] pt-[.9vw] text-[#7D6F71]">Tomato <br> DNA</h2>
-                <span class="text-[2vw] text-[#AF6E39] absolute  top-[1vw] right-[1vw]">5</span>
+                class=" bg-no-repeat bg-contain bg-center  w-[13.594vw] h-[11.198vw] relative flex justify-center items-center transition hover:brightness-110">
+                <h2 class="text-[1.51vw] text-[#7D6F71]">Tomato <br> DNA</h2>
+                <span class="text-[2vw] text-[#AF6E39] absolute  top-[1.4vw] right-[1vw]">5</span>
             </a>
 
             <!-- Card 6 -->
             <a href="{{ route('helix') }}"
                 style="background-image: url('{{ asset('/assets/images/pptimages/Property1.png') }}');"
-                class=" bg-no-repeat bg-contain bg-center w-[12vw] h-[10vw] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="!text-[1.2vw] pt-[.9vw] text-[#7D6F71]">DNA <br> Double <br> Helix</h2>
-                <span class="text-[2vw] text-[#AF6E39] absolute  top-[1vw] right-[1vw]">6</span>
+                class=" bg-no-repeat bg-contain bg-center  w-[13.594vw] h-[11.198vw] relative flex justify-center items-center transition hover:brightness-110">
+                <h2 class="text-[1.51vw] text-[#7D6F71]">DNA <br> Double <br> Helix</h2>
+                <span class="text-[2vw] text-[#AF6E39] absolute  top-[1.4vw] right-[1vw]">6</span>
             </a>
 
             <!-- Card 7 -->
             <a href="{{ route('Fingerprints') }}"
                 style="background-image: url('{{ asset('/assets/images/pptimages/Property1.png') }}');"
-                class=" bg-no-repeat bg-contain bg-center w-[12vw] h-[10vw] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="!text-[1.2vw] pt-[.9vw] text-[#7D6F71]">Fingerprints</h2>
-                <span class="text-[2vw] text-[#AF6E39] absolute  top-[1vw] right-[1vw]">7</span>
+                class=" bg-no-repeat bg-contain bg-center  w-[13.594vw] h-[11.198vw] relative flex justify-center items-center transition hover:brightness-110">
+                <h2 class="text-[1.51vw] text-[#7D6F71]">Fingerprints</h2>
+                <span class="text-[2vw] text-[#AF6E39] absolute  top-[1.4vw] right-[1vw]">7</span>
             </a>
 
             <!-- Card 8 -->
             <a href="{{ route('Fingerprintpatterns') }}"
                 style="background-image: url('{{ asset('/assets/images/pptimages/Property1.png') }}');"
-                class=" bg-no-repeat bg-contain bg-center w-[12vw] h-[10vw] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="!text-[1.2vw] pt-[.9vw] text-[#7D6F71]">Fingerprint <br> Patterns</h2>
-                <span class="text-[2vw] text-[#AF6E39] absolute  top-[1vw] right-[1vw]">8</span>
+                class=" bg-no-repeat bg-contain bg-center  w-[13.594vw] h-[11.198vw] relative flex justify-center items-center transition hover:brightness-110">
+                <h2 class="text-[1.51vw] text-[#7D6F71]">Fingerprint <br> Patterns</h2>
+                <span class="text-[2vw] text-[#AF6E39] absolute  top-[1.4vw] right-[1vw]">8</span>
             </a>
         </div>
     </div>
 
     {{--  Second Slide (Initially Hidden) --}}
-    <div class="board w-[35vw]  flex flex-col justify-center items-center slide hidden">
-        <h2 class="text-[45px] text-[#F7B94A] font-extrabold stroke">Living Things</h2>
-        <div class="flex items-center flex-wrap justify-center max-w-[600px] ">
+    <div class="board2 flex flex-col justify-center items-center slide1 hidden">
+        <h2 class="text-[#F7B94A] stroke board-title">Living Things</h2>
+        <div class=" grid grid-cols-2 gap-[1vw] justify-center ">
             <!-- Card 1-->
             <a href="{{ route('usage') }}"
                 style="background-image: url('{{ asset('/assets/images/pptimages/Property1.png') }}');"
-                class=" bg-no-repeat bg-contain bg-center w-[12vw] h-[10vw] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="!text-[1.2vw] pt-[.9vw] text-[#7D6F71]">The Uses of <br> Fingerprints</h2>
-                <span class="text-[2vw] text-[#AF6E39] absolute  top-[1vw] right-[1vw]">9</span>
+                class=" bg-no-repeat bg-contain bg-center  w-[13.594vw] h-[11.198vw] relative flex justify-center items-center transition hover:brightness-110">
+                <h2 class="text-[1.51vw] text-[#7D6F71]">The Uses of <br> Fingerprints</h2>
+                <span class="text-[2vw] text-[#AF6E39] absolute  top-[1.4vw] right-[1vw]">9</span>
             </a>
 
             <!-- Card 2 -->
             <a href="{{ route('bacteria') }}"
                 style="background-image: url('{{ asset('/assets/images/pptimages/Property1.png') }}');"
-                class=" bg-no-repeat bg-contain bg-center w-[12vw] h-[10vw] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="!text-[1.2vw] pt-[.9vw] text-[#7D6F71]">What are <br> Bacteria?</h2>
-                <span class="text-[2vw] text-[#AF6E39] absolute  top-[1vw] right-[1vw]">10</span>
+                class=" bg-no-repeat bg-contain bg-center  w-[13.594vw] h-[11.198vw] relative flex justify-center items-center transition hover:brightness-110">
+                <h2 class="text-[1.51vw] text-[#7D6F71]">What are <br> Bacteria?</h2>
+                <span class="text-[2vw] text-[#AF6E39] absolute  top-[1.4vw] right-[1vw]">10</span>
             </a>
 
             <!-- Card 3 -->
             <a href="{{ route('killing') }}"
                 style="background-image: url('{{ asset('/assets/images/pptimages/Property1.png') }}');"
-                class=" bg-no-repeat bg-contain bg-center w-[12vw] h-[10vw] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="!text-[1.2vw] pt-[.9vw] text-[#7D6F71]">Do they Kill <br> Bacteria?</h2>
-                <span class="text-[2vw] text-[#AF6E39] absolute  top-[1vw] right-[1vw]">11</span>
+                class=" bg-no-repeat bg-contain bg-center  w-[13.594vw] h-[11.198vw] relative flex justify-center items-center transition hover:brightness-110">
+                <h2 class="text-[1.51vw] text-[#7D6F71]">Do they Kill <br> Bacteria?</h2>
+                <span class="text-[2vw] text-[#AF6E39] absolute  top-[1.4vw] right-[1vw]">11</span>
             </a>
             <!-- Card 4 -->
             <a href="{{ route('Bgrow') }}"
                 style="background-image: url('{{ asset('/assets/images/pptimages/Property1.png') }}');"
-                class=" bg-no-repeat bg-contain bg-center w-[12vw] h-[10vw] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="!text-[1.2vw] pt-[.9vw] text-[#7D6F71]">Do <br> Bacteria <br> Grow?</h2>
-                <span class="text-[2vw] text-[#AF6E39] absolute  top-[1vw] right-[1vw]">12</span>
+                class=" bg-no-repeat bg-contain bg-center  w-[13.594vw] h-[11.198vw] relative flex justify-center items-center transition hover:brightness-110">
+                <h2 class="text-[1.51vw] text-[#7D6F71]">Do <br> Bacteria <br> Grow?</h2>
+                <span class="text-[2vw] text-[#AF6E39] absolute  top-[1.4vw] right-[1vw]">12</span>
             </a>
         </div>
     </div>
@@ -142,7 +142,7 @@
 @push('script')
     <script>
         document.addEventListener("DOMContentLoaded", () => {
-            const slides = document.querySelectorAll(".slide");
+            const slides = document.querySelectorAll(".slide1");
             const nextButton = document.querySelector(".nextButton");
             const returnButton = document.getElementById("returnButton");
 

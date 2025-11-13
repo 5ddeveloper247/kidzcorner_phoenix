@@ -11,8 +11,8 @@
     <div class="slide flex flex-col items-center justify-center gap-5 ">
         <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f10.png') }}" class="w-img3" />
         <div class="title stroke">
-            <h2>Children, as you know, <span class="text-white">fingerprints</span> are
-                <span class="text-white">ridges</span> on the ips of our <span class="text-white">fingers</span> and <span
+            <h2>Children, as you know, <span class="!text-white">fingerprints</span> are
+                <span class="!text-white">ridges</span> on the ips of our <span class="!text-white">fingers</span> and <span
                     class="text-white">thumbs</span>.
             </h2>
         </div>
@@ -37,7 +37,7 @@
         <h2 class="title stroke text-center">When you were still inside your mother's womb,
             the ridges on your fingers and thumbs started forming.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -51,7 +51,7 @@
         <h2 class="title stroke text-center">The ridges form based on individual growing experience
             in the mother's womb.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -76,8 +76,8 @@
     {{-- slide 7 --}}
     <div class="slide hidden flex flex-col items-center">
         <img src="{{ asset('assets/images/K2/livingthings/fingerprints/fp3.png') }}" class="w-img3" />
-        <h2 class="title stroke">As a result, there are three basic <span class="text-white">fingerprint patterns
-                - loop, whorl</span>and <span class="text-white">arch</span>.</h2>
+        <h2 class="title stroke">As a result, there are three basic <span class="!text-white">fingerprint patterns
+                - loop, whorl</span>and <span class="!text-white">arch</span>.</h2>
     </div>
 
     {{-- slide 8 --}}

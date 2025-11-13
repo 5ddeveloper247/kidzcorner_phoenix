@@ -7,7 +7,7 @@
     <h2 class="top-title stroke">Pollution and its Effects</h2>
 
     {{-- Slide 1 --}}
-    <div class="slide t-slide flex text-white flex-col justify-start text-start hidden">
+    <div class="slide t-slide flex !text-white flex-col justify-start text-start hidden">
         <div>
             <h2 class="t-title">Children will be able to:</h2>
             <div class="text-start">
@@ -53,7 +53,7 @@
     </div>
 
     {{-- Slide 2 --}}
-    <div class="slide t-slide flex text-white flex-col justify-start text-start hidden">
+    <div class="slide t-slide flex !text-white flex-col justify-start text-start hidden">
         <div>
             <h2 class=" t-title">Preparations For Class Activity 1:</h2>
             <div class="text-start ">
@@ -71,7 +71,7 @@
     </div>
 
     {{-- Slide 3 --}}
-    <div class="slide t-slide flex text-white flex-col items-center justify-center text-start hidden">
+    <div class="slide t-slide flex !text-white flex-col items-center justify-center text-start hidden">
         <div>
             <h2 class="t-title">Preparations For Class Activity 1:</h2>
             <div class="text-start ">
@@ -92,7 +92,7 @@
     </div>
 
     {{-- Slide 4 --}}
-    <div class="slide t-slide flex  text-white flex-col items-center justify-start text-start hidden">
+    <div class="slide t-slide flex  !text-white flex-col items-center justify-start text-start hidden">
         <div>
             <h2 class="t-title">Preparations For Class Activity 1:</h2>
             <div class="text-start ">
@@ -111,7 +111,7 @@
     </div>
 
     {{-- Slide 5 --}}
-    <div class="slide t-slide flex  text-white flex-col items-center justify-start text-start hidden">
+    <div class="slide t-slide flex  !text-white flex-col items-center justify-start text-start hidden">
         <div>
             <h2 class="t-title">Preparations For Class Activity 1:</h2>
             <div class="text-start ">
@@ -138,7 +138,7 @@
     </div>
 
     {{-- Slide 6 --}}
-    <div class="slide t-slide flex  text-white flex-col items-center justify-start gap-y-10 text-start hidden">
+    <div class="slide t-slide flex  !text-white flex-col items-center justify-start gap-y-10 text-start hidden">
         <div>
             <h2 class="t-title">Preparations For Class Activity 1:</h2>
             <div class="text-start ">
@@ -155,7 +155,7 @@
     </div>
 
     {{-- Slide 7 --}}
-    <div class="slide t-slide flex  text-white flex-col items-center justify-start text-start hidden">
+    <div class="slide t-slide flex  !text-white flex-col items-center justify-start text-start hidden">
         <div>
             <h2 class="t-title">Preparations for Class Activity 2 :</h2>
             <div class="text-start ">
@@ -174,7 +174,7 @@
     </div>
 
     {{-- Slide 8 --}}
-    <div class="slide t-slide flex  text-white flex-col items-center justify-start text-start hidden">
+    <div class="slide t-slide flex  !text-white flex-col items-center justify-start text-start hidden">
         <div>
             <h2 class="t-title">Useful information:</h2>
             <div class="text-start ">
@@ -201,7 +201,7 @@
     </div>
 
     {{-- Slide 9 --}}
-    <div class="slide t-slide flex  text-white flex-col items-center justify-start gap-y-10 text-start hidden">
+    <div class="slide t-slide flex  !text-white flex-col items-center justify-start gap-y-10 text-start hidden">
         <div>
             <h2 class="t-title">Notes</h2>
             <div class="text-start ">
@@ -229,7 +229,7 @@
     </div>
 
     {{-- Slide 10 --}}
-    <div class="slide t-slide flex  text-white flex-col items-center justify-start text-start hidden">
+    <div class="slide t-slide flex  !text-white flex-col items-center justify-start text-start hidden">
         <h2 class="title stroke">Learning Centre Idea</h2>
         <div>
             <h2 class="title stroke !text-white">Biodegradable Vs Non-biodegradable</h2>

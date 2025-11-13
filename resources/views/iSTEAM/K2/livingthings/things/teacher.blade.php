@@ -6,15 +6,15 @@
     <h2 class="top-title stroke">What Are Living Things?</h2>
 
     {{-- sldie 1  --}}
-    <div class=" slide flex t-slide text-white flex-col justify-start text-start">
+    <div class=" slide flex t-slide !text-white flex-col justify-start text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
-                <li class="text-[1.3vw]">Explore and learn about the basic characteristics of living things</li>
-                <li class="text-[1.3vw]">Analyse and sort things into living and non-living things</li>
-                <li class="text-[1.3vw]">Programme a robot to produce sound and light</li>
-                <li class="text-[1.3vw]">Know that all animals are living things</li>
-                <li class="text-[1.3vw]">Develop understanding through inquiry</li>
+                <li >Explore and learn about the basic characteristics of living things</li>
+                <li >Analyse and sort things into living and non-living things</li>
+                <li >Programme a robot to produce sound and light</li>
+                <li >Know that all animals are living things</li>
+                <li >Develop understanding through inquiry</li>
             </ul>
         </div>
 
@@ -22,17 +22,17 @@
             <h2 class="t-title ">Keywords:</h2>
             <div class="flex gap-[5vw]">
                 <ul class="list-disc ">
-                    <li class="text-[1.3vw]">Living Thing</li>
-                    <li class="text-[1.3vw]">Non-living Thing</li>
-                    <li class="text-[1.3vw]">Move</li>
-                    <li class="text-[1.3vw]">Water</li>
-                    <li class="text-[1.3vw]">Food</li>
+                    <li >Living Thing</li>
+                    <li >Non-living Thing</li>
+                    <li >Move</li>
+                    <li >Water</li>
+                    <li >Food</li>
                 </ul>
                 <ul class="list-disc">
-                    <li class="text-[1.3vw]">Air </li>
-                    <li class="text-[1.3vw]">Grow</li>
-                    <li class="text-[1.3vw]">Produce Young</li>
-                    <li class="text-[1.3vw]">Animals</li>
+                    <li >Air </li>
+                    <li >Grow</li>
+                    <li >Produce Young</li>
+                    <li >Animals</li>
                 </ul>
             </div>
         </div>
@@ -42,13 +42,13 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex t-slide text-white flex-col justify-start text-start">
+    <div class=" slide flex t-slide !text-white flex-col justify-start text-start">
         <div>
             <h2 class=" t-title">Preparations for Class Activity 1 - comparison of living and non-living things:
             </h2>
             <ul class="list-disc ">
-                <li class="text-[1.3vw]">A teddy bear</li>
-                <li class="text-[1.3vw]">Use whiteboard mode during discussion [Tick or cross to complete the
+                <li >A teddy bear</li>
+                <li >Use whiteboard mode during discussion [Tick or cross to complete the
                     table of comparison (as shown below) with the whiteboard pen. For
                     documentation purpose, you may want to save or print the page.]</li>
             </ul>
@@ -60,20 +60,20 @@
     </div>
 
     {{-- sldie 3 --}}
-    <div class=" slide flex t-slide text-white flex-col justify-start text-start">
+    <div class=" slide flex t-slide !text-white flex-col justify-start text-start">
         <div>
             <h2 class=" t-title">Things to consider during hands-on sessions:</h2>
             <ul class="list-disc">
-                <li class="text-[1.3vw]">
+                <li >
                     Ask questions to prompt children share their prior knowledge and experiences. You may ask questions
                     based on children's interest and response too.
                 </li>
-                <li class="text-[1.3vw]">
+                <li >
                     Some possible questions for Activity 1: What will happen if you have no access to water? How long do you
                     think you can live without water? Why do we need food? How long do you think you can live without food?
                     How do you change since you were born?
                 </li>
-                <li class="text-[1.3vw]">
+                <li >
                     Some possible questions for Activity 2: A piece of fried chicken is made from chickens, which are
                     animals. Would you call it a living or non-living thing? Why? Ball, toy train and doll are toys. Do you
                     think toys are living or non-living things? Why? If all toys are non-living things, how about the
@@ -86,19 +86,19 @@
 
 
     {{-- slide 4 --}}
-    <div class=" slide flex t-slide text-white flex-col justify-start text-start">
+    <div class=" slide flex t-slide !text-white flex-col justify-start text-start">
         <div>
             <h2 class=" t-title">Additional information:</h2>
             <ul class="list-disc">
-                <li class="text-[1.3vw]">
+                <li >
                     Many things have one or more characteristics of living things, but a living thing must has all of the
                     characteristics of living things.
                 </li>
-                <li class="text-[1.3vw]">
+                <li >
                     Many things that move like car, fan and windmill are non-living things. These
                     things moved by external power like fuel, battery, electricity and wind.
                 </li>
-                <li class="text-[1.3vw]">
+                <li >
                     All human-made things are non-living things. But some natural things around us like rock, water, air and
                     cloud are non-living things too.
                 </li>
@@ -109,7 +109,7 @@
 
 
     {{-- sldie 10 --}}
-    <div class="slide flex t-slide  flex-col  text-2xl text-start text-white">
+    <div class="slide flex t-slide  flex-col  text-2xl text-start !text-white">
         <div>
             <h2 class="t-title">Notes:</h2>
             <ul class="list-disc">
@@ -154,7 +154,7 @@
                 <ul>
                     <h2 class="!text-white title stroke">Living or Non-Living</h2>
                     <h2 class="t-title">What and how to set up:</h2>
-                    <li class="text-[1.3vw]">
+                    <li >
                         Place pictures of living (different animals) and non-living things
                         (toys, transportation, household items, etc) here.
                     </li>
@@ -162,10 +162,10 @@
 
                 <ul>
                     <h2 class="t-title">What to do:</h2>
-                    <li class="text-[1.3vw]">
+                    <li >
                         Name the thing in each picture.
                     </li>
-                    <li class="text-[1.3vw]">
+                    <li >
                         Sort the pictures into living and non-living things.
                     </li>
                 </ul>

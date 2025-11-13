@@ -4,7 +4,7 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col  items-center ">
-        <div class="indexTitle  text-[55px]  stroke">What are Wheels and Axles?</div>
+        <div class="indexTitle    stroke">What are Wheels and Axles?</div>
         <h2 class="text-white">
             Explore the characteristics and uses of <br>
             a simple machine - Wheel and Axle <br><br><br>

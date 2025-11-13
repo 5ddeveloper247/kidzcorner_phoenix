@@ -5,7 +5,7 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col items-center h-full justify-between">
-        <h2 class="title text-[50px] font-extrabold stroke"> Shapes Around Us</h2>
+        <h2 class="title text-[50px] stroke"> Shapes Around Us</h2>
         <h2 class="!text-white title"> Develop awareness that all things have shapes and structures; explore and create
             different structures using shapes. </h2>
 

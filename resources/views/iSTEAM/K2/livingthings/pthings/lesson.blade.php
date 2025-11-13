@@ -20,7 +20,7 @@
         <img src="/assets/images/K2/livingthings/pgrow/p18.png" class="w-[600px]" />
         <div class="self-start">
             <h2 class="title stroke text-start">
-                <span class="text-white">What do you observe:</span> <br>
+                <span class="!text-white">What do you observe:</span> <br>
                 Did the seed grow into a new plant?
             </h2>
             <p class="note">
@@ -35,7 +35,7 @@
         <img src="/assets/images/K2/livingthings/pgrow/p19.png" class="w-[600px]" />
         <div class="self-start">
             <h2 class="title stroke text-start">
-                <span class="text-white">What do you observe:</span> <br>
+                <span class="!text-white">What do you observe:</span> <br>
                 What changes did it go through?
             </h2>
             <p class="note">
@@ -48,7 +48,7 @@
     {{-- slide 4 --}}
     <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
         <div class="self-start">
-            <h2 class=" title stroke text-start "><span class="text-white">What do you learn:</span> <br>
+            <h2 class=" title stroke text-start "><span class="!text-white">What do you learn:</span> <br>
                 How did a seed in the bag grow into a new plant?</h2>
         </div>
         <img src="/assets/images/K2/livingthings/pthings/p1.png" class="large-img6" />
@@ -59,7 +59,7 @@
     {{-- slide 5 --}}
     <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
         <div class="self-start">
-            <h2 class=" title stroke text-start"><span class="text-white">What do you learn:</span> <br>
+            <h2 class=" title stroke text-start"><span class="!text-white">What do you learn:</span> <br>
                 What helped the seed grow?</h2>
         </div>
         <img src="/assets/images/K2/livingthings/pthings/p1.png" class="large-img6" />
@@ -69,7 +69,7 @@
 
     {{-- slide 6 --}}
     <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <h2 class=" title stroke text-start"><span class="text-white">What do you learn:</span> <br>
+        <h2 class=" title stroke text-start"><span class="!text-white">What do you learn:</span> <br>
             What helped the seed grow?</h2>
         <img src="/assets/images/K2/livingthings/pthings/p1.png" class="large-img6" />
         <p class="note">Note: Guide children to understand that water, air and sunlight help plants grow.</p>
@@ -94,7 +94,7 @@
     {{-- Slide 9 --}}
     <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
         <img src="/assets/images/K2/livingthings/pthings/p3.png" />
-        <h2 class=" title stroke text-start"><span class="text-white">What do you observe:</span> <br>
+        <h2 class=" title stroke text-start"><span class="!text-white">What do you observe:</span> <br>
             Did the green onion plants grow taller after a week?</h2>
         <p class="note">Note: Have children share their observations on the growing process of the green onions.</p>
     </div>
@@ -103,7 +103,7 @@
     {{-- Slide 10 --}}
     <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
         <img src="/assets/images/K2/livingthings/pthings/p3.png" />
-        <h2 class=" title stroke text-start"><span class="text-white">What do you observe:</span> <br>
+        <h2 class=" title stroke text-start"><span class="!text-white">What do you observe:</span> <br>
             What changes did they go through?</h2>
         <p class="note">Note: Have children share their observations on the growing process of the green
             onions - roots, stems and leaves.</p>
@@ -112,7 +112,7 @@
 
     {{-- Slide 11 --}}
     <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <h2 class=" title stroke text-start"><span class="text-white">What do you learn:</span> <br>
+        <h2 class=" title stroke text-start"><span class="!text-white">What do you learn:</span> <br>
             How long did the green onions take to start growing?</h2>
         <img src="/assets/images/K2/livingthings/pthings/p4.png" class="large-img6" />
         <p class="note">Note: Have children share their observations - sample shown what they looked like after 1 day.</p>
@@ -121,7 +121,7 @@
 
     {{-- Slide 12 --}}
     <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <h2 class=" title stroke text-start"><span class="text-white">What do you learn:</span> <br>
+        <h2 class=" title stroke text-start"><span class="!text-white">What do you learn:</span> <br>
             How tall did they grow from day 1?</h2>
         <img src="/assets/images/K2/livingthings/pthings/p4.png" class="large-img6" />
         <p class="note">Note: Have children share their observations - sample shown what they looked like 1 week later.
@@ -130,7 +130,7 @@
 
     {{-- Slide 13 --}}
     <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <h2 class=" title stroke text-start"><span class="text-white">What do you learn:</span> <br>
+        <h2 class=" title stroke text-start"><span class="!text-white">What do you learn:</span> <br>
             What helped the green onions grow taller?</h2>
         <img src="/assets/images/K2/livingthings/pthings/p4.png" class="large-img6" />
         <p class="note">Note: Guide children to understand that water, air and sunlight help plants grow.</p>
@@ -148,7 +148,7 @@
     {{-- Slide 15 --}}
     <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
         <h2 class=" title stroke">Children, do you still remember the common points
-            of <span class="text-white">living thing</span>? What are they?</h2>
+            of <span class="!text-white">living thing</span>? What are they?</h2>
         <p class="note">Note: Encourage children to recall and share the six basic characteristics of living things.</p>
     </div>
 
@@ -190,9 +190,9 @@
 
     {{-- slide 17 --}}
     <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <h2 class=" justify-start text-[45px] text-white stroke">Class Activity</h2>
+        <h2 class=" justify-start text-[45px] !text-white stroke">Class Activity</h2>
         <img src="/assets/images/K2/livingthings/pthings/p30.png" class="large-img6" />
-        <h2 class="text-start title stroke"><span class="text-white">Let's find out:</span> <br>
+        <h2 class="text-start title stroke"><span class="!text-white">Let's find out:</span> <br>
             Are plants living or non-living things?</h2>
         <p class="note">Note: Display seed bags and green onions.</p>
     </div>
@@ -233,7 +233,7 @@
             (stems move up and roots move down).</p>
 
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -249,7 +249,7 @@
             bloom.</p>
 
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -264,7 +264,7 @@
             sunflower plants move by themselves to follow the sun as it moves across the sky.</p>
 
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -279,7 +279,7 @@
             wind, rain and animals.</p>
 
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video4')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video4')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -421,7 +421,7 @@
         <h2 class="title stroke">Do you know how plants grow? </h2>
         <p class="note">Note: Encourage children to describe how a big plant grow from a small seed.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video5')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video5')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -439,7 +439,7 @@
         </video>
         <h2 class="title stroke">This is the growing process of a sample seed.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video6')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video6')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -470,7 +470,7 @@
         <h2 class="title stroke">How does an apple seed turn into a big tree?</h2>
         <p class="note">Note: Encourage children to describe the life cycle of an apple tree.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video7')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video7')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -483,7 +483,7 @@
         <h2 class="title stroke">In fact, many plants produce seeds,
             which will grow into new plants.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video8')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video8')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -500,7 +500,7 @@
 
     {{-- slide 26 --}}
     <div class="slide hidden flex flex-col items-center justify-center ">
-        <h2 class="text-start title stroke"> <span class="text-white"><span class="text-white">What do you
+        <h2 class="text-start title stroke"> <span class="!text-white"><span class="!text-white">What do you
                     learn:</span></span> <br>
             Are plants living or non-living things?
             How do you know that?</h2>
@@ -574,7 +574,7 @@
 
     {{-- slide 31 --}}
     <div class="slide hidden flex flex-col items-center justify-center ">
-        <h2 class="text-center title stroke"><span class="text-white">What do you learn:</span> <br>
+        <h2 class="text-center title stroke"><span class="!text-white">What do you learn:</span> <br>
             What are the differences between <br>
             living and non-living things?</h2>
     </div>

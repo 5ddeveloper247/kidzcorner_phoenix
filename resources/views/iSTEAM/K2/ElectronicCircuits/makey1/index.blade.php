@@ -4,8 +4,8 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col  gap-20 items-center ">
-        <div class="indexTitle  text-[55px]  stroke">Makey Makey (1)</div>
-        <h2 class="text-2xl sm:text-3xl lg:text-4xl text-white stroke ">
+        <div class="indexTitle    stroke">Makey Makey (1)</div>
+        <h2 class="text-2xl sm:text-3xl lg:text-4xl !text-white stroke ">
             Identify that a Makey Makey Board is a circuit board; 
             learn how to set up and use a Makey Makey Board</h2>
         <button class="nextButton">

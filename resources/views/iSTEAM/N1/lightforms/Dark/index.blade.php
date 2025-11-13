@@ -4,7 +4,7 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col items-center justify-between h-full">
-        <h2 class="indexTitle title  text-[55px] stroke">Glow in the Dark</h2>
+        <h2 class="indexTitle title   stroke">Glow in the Dark</h2>
         <h2 class="!text-white title">
             Explore glow-in-the-dark items; develop 
             awareness and curiosity of different things 

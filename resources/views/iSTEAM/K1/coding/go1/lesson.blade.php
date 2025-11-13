@@ -12,7 +12,7 @@
             <img src="/assets/images//K1/coding/cd/cd7.png" class="large-img" />
         </div>
         <h2 class="title stroke">Children, do you still remember what controls most machines around us? What is the meaning
-            of <span class="text-white">programming</span> or <span class="text-white">coding</span>?</h2>
+            of <span class="!text-white">programming</span> or <span class="!text-white">coding</span>?</h2>
         <p class="note text-center">Note: Encourage children to recall and share what they have learnt.</p>
     </div>
 
@@ -25,7 +25,7 @@
             <img src="/assets/images//K1/coding/cd/cd25.png" class="!max-w-[14vw]" />
         </div>
         <h2 class="title stroke">
-            Most machines around us are controlled by different <span class="text-white">programmes</span>.</h2>
+            Most machines around us are controlled by different <span class="!text-white">programmes</span>.</h2>
     </div>
 
 
@@ -64,7 +64,7 @@
         <h2 class="title stroke">Let’s watch a video!</h2>
         <p class="note">Note: Have children follow through the lesson, sing and do actions together.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -82,9 +82,9 @@
     <div class="slide flex flex-col items-center justify-center  ">
         <img src="/assets/images/K1/coding/go/go2.png" />
         <h2 class="title stroke">
-            <span class="text-white">Programming</span> a <span class="text-white">robot</span> to move is like telling
-            yourself how to move, so we need to know how to move <span class="text-white">forward</span>, <span
-                class="text-white">backward</span>, turn <span class="text-white">left</span>, and turn <span
+            <span class="!text-white">Programming</span> a <span class="!text-white">robot</span> to move is like telling
+            yourself how to move, so we need to know how to move <span class="!text-white">forward</span>, <span
+                class="text-white">backward</span>, turn <span class="!text-white">left</span>, and turn <span
                 class="text-white">right</span> correctly.
         </h2>
     </div>
@@ -101,7 +101,7 @@
         <p class="note">Note: At the end, have children recall and say how to ensure that Blockly finds the correct robot.
         </p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -127,7 +127,7 @@
         <p class="note">Note: At the end, have children recap what distance is.
         </p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -150,7 +150,7 @@
         <h2 class="title stroke">Now, let’s see how to programme a robot
             to move a certain distance!</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video4')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video4')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -163,10 +163,10 @@
             <source src="{{ asset('assets/images/K1/coding/93.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
-        <h2 class="title stroke">How do we measure a <span class="text-white">distance</span>?</h2>
+        <h2 class="title stroke">How do we measure a <span class="!text-white">distance</span>?</h2>
         <p class="note">Note: Encourage children to share ways to measure a distance.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video5')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video5')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -190,8 +190,8 @@
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <img src="/assets/images//K1/coding/go/gl1.png" />
         <h2 class="title stroke">
-            Both the tools have a standard unit of measurement called <span class="text-white">centimeter</span> and <span
-                class="text-white">cm</span> is the short form of <span class="text-white">centimeter</span>.
+            Both the tools have a standard unit of measurement called <span class="!text-white">centimeter</span> and <span
+                class="text-white">cm</span> is the short form of <span class="!text-white">centimeter</span>.
         </h2>
     </div>
 
@@ -227,7 +227,7 @@
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <img src="/assets/images//K1/coding/go/gl3.png" />
         <h2 class="title stroke">We actually use Blockly to programme a robot to move a certain <span
-                class="text-white">distance</span> in <span class="text-white">centimeter</span> (<span
+                class="text-white">distance</span> in <span class="!text-white">centimeter</span> (<span
                 class="text-white">cm</span>).</h2>
     </div>
 
@@ -241,7 +241,7 @@
         <h2 class="title stroke">Let’s watch the last video!</h2>
         <p class="note">Note: Explain to children that a circuit means a track or path.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video6')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video6')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -413,7 +413,7 @@
     {{-- slide 30 --}}
     <div class="slide   hidden flex flex-col items-center justify-center ">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[40vw] h-[40vh] bg-cover bg-center flex  justify-between items-start"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center flex  justify-between items-start"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>What can be used to measure a distance between two objects? Draw them.</p>
         </div>

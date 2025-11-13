@@ -4,9 +4,9 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col items-center ">
-        <div class="indexTitle  text-[55px]  stroke">A Seesaw</div>
+        <div class="indexTitle    stroke">A Seesaw</div>
         <h2
-            class="text-2xl sm:text-3xl lg:text-6xl text-white    flex flex-col items-center space-x-[30px]">
+            class="text-2xl sm:text-3xl lg:text-6xl !text-white    flex flex-col items-center space-x-[30px]">
             Build a seesaw based on a pictorial guide;
             explore and learn about the characteristics and uses of levers - a simple machine</h2>
 

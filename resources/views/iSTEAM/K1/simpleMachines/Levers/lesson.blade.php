@@ -36,7 +36,7 @@
         <h2 class="title stroke">To play it, you and a friend each sit on one end.
             When one end of it goes up, the other end goes down.
             <!-- Video Trigger Button -->
-            <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
                 <img src="/assets/images/pptimages/video.png" />
             </div>
     </div>
@@ -154,7 +154,7 @@
         <h2 class="title stroke">This lever allows us to lift each other up and down
             a seesaw easily for fun.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -172,7 +172,7 @@
             each other up easily without this lever?</h2>
 
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -235,7 +235,7 @@
             This helps to write, draw or colour easily.</h2>
 
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video4')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video4')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -284,7 +284,7 @@
         <h2 class="title stroke">This lever allows us to move the pencil tip.
             This helps to write, draw or colour easily. </h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video5')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video5')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -312,7 +312,7 @@
         <h2 class="title stroke">To use a pair of chopsticks correctly, you will move the
             top chopstick and keep the bottom chopstick still. </h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video6')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video6')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
 
@@ -346,7 +346,7 @@
         <h2 class="title stroke">This lever allows us to move the top chopstick up and down.
             This helps to pick up food with a pair of chopsticks easily. </h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video7')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video7')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
 
@@ -391,7 +391,7 @@
         <h2 class="title stroke">This lever allows us to move the handle of the broom.
             This helps to sweep floor easily.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video8')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video8')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
 
@@ -428,7 +428,7 @@
             and staple papers. This helps to hold papers together easily.</h2>
 
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video9')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video9')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -467,7 +467,7 @@
         <h2 class="title stroke">These levers allow us to move the two sharp blades of the
             scissors. This helps to cut things easily. </h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video10')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video10')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -518,7 +518,7 @@
             the peg. This helps to hold clothes to a clothesline easily. </h2>
 
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video11')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video11')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -557,7 +557,7 @@
         <h2 class="title stroke">These levers allow us to move the two handlers of the tongs.
             This helps to pick up things easily. </h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video12')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video12')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -597,7 +597,7 @@
             easily. This helps us to have fun sitting on a swing. </h2>
 
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video13')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video13')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -636,7 +636,7 @@
         <h2 class="title stroke">These levers allow us to lift and move the wheelbarrow around.
             This helps to carry heavy things around easily.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video14')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video14')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
 
@@ -832,7 +832,7 @@
             the longest toss of an eraser when the fulcrum is
             placed far from the eraser.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video15')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video15')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -842,7 +842,7 @@
     {{-- slide 72 --}}
     <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[40vw] h-[40vh] bg-cover bg-center flex flex-col justify-around"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center flex flex-col justify-around"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p class=>How far has the eraser been tossed? Paste the measurements (the threads) here.
             </p>
@@ -854,7 +854,7 @@
     {{-- slide 73 --}}
     <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[40vw] h-[40vh] bg-cover bg-center flex flex-col justify-around"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center flex flex-col justify-around"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p class=>If you want to toss a paper box very for, how would you build the lever? Tick ✔ it.
             </p>

@@ -6,7 +6,7 @@
     <h2 class="top-title stroke">Ring a Bell Machine</h2>
 
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start t-slide">
+    <div class=" slide flex text-2xl !text-white flex-col justify-start  text-start t-slide">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -38,7 +38,7 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start t-slide">
+    <div class=" slide flex text-2xl !text-white flex-col justify-start  text-start t-slide">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <div class="flex   justify-between">
@@ -63,7 +63,7 @@
     </div>
 
     {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start t-slide">
+    <div class=" slide flex text-2xl !text-white flex-col justify-start  text-start t-slide">
         <div>
             <h2 class=" t-title ">Things to consider during hands-on session:</h2>
             <ul class="list-disc ">
@@ -80,7 +80,7 @@
 
 
     {{-- sldie 4 --}}
-    <div class="slide flex t-slide  flex-col  text-2xl text-start text-white">
+    <div class="slide flex t-slide  flex-col  text-2xl text-start !text-white">
         <div>
             <h2 class="t-title">Notes:</h2>
             <ul class="list-disc">
@@ -119,7 +119,7 @@
 
 
     {{-- sldie 5 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start t-slide">
+    <div class=" slide flex text-2xl !text-white flex-col justify-start  text-start t-slide">
         <div>
             <h2 class=" text-center title stroke ">Learning Centre Idea</h2>
             <ul class="list-disc ">
@@ -151,10 +151,10 @@
 
 
     {{-- sldie 6 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start t-slide">
+    <div class=" slide flex text-2xl !text-white flex-col justify-start  text-start t-slide">
 
         <h2 class=" t-title text-center">The Best Ring a Bell Machine:</h2>
-        <div class="border-4 w-[40vw] h-[40vh] p-[2rem]">
+        <div class="border-4 w-[55vw] h-[25vw] drawable p-[2rem]">
             <ul class="list-decimal ">
                 <p class="!text-white">Find out the answers for these questions while setting up the machine:</p>
                 <li>How do you make the ball roll down?</li>

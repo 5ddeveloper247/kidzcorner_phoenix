@@ -51,7 +51,7 @@
     {{-- Slide 7 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
         <img src="{{ asset('assets/images/K2/sustain/reduce/r9.png') }}" class="!max-w-[14vw]" />
-        <h2 class="title stroke"><span class="text-white">Recycle</span> using rubbish to make new things that
+        <h2 class="title stroke"><span class="!text-white">Recycle</span> using rubbish to make new things that
             can be used again.</h2>
     </div>
 
@@ -87,14 +87,14 @@
     {{-- Slide 11 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
         <img src="{{ asset('assets/images/K2/sustain/recycle/s2.png') }}" />
-        <h2 class="title stroke"><span class="text-white">Recyclable</span> items should be sorted out by types.</h2>
+        <h2 class="title stroke"><span class="!text-white">Recyclable</span> items should be sorted out by types.</h2>
     </div>
 
     {{-- Slide 12 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
         <img src="{{ asset('assets/images/K2/sustain/recycle/s2.png') }}" />
-        <h2 class="title stroke"><span class="text-white">Metal,</span> paper, <span class="text-white">plastic</span> and
-            glass are some examples of <span class="text-white">recyclable</span></h2>
+        <h2 class="title stroke"><span class="!text-white">Metal,</span> paper, <span class="!text-white">plastic</span> and
+            glass are some examples of <span class="!text-white">recyclable</span></h2>
     </div>
 
     {{-- Slide 13 --}}
@@ -127,7 +127,7 @@
         <h2 class="title stroke">Glass items are crashed and melted. The molten glass are
             then placed into molds to make new glass bottles and jars.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -141,7 +141,7 @@
     {{-- Slide 18 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
         <img src="{{ asset('assets/images/K2/sustain/recycle/s7.png') }}" />
-        <h2 class="title stroke"><span class="text-white">Plastics</span> are squashed and shredded in factories.</h2>
+        <h2 class="title stroke"><span class="!text-white">Plastics</span> are squashed and shredded in factories.</h2>
     </div>
 
     {{-- Slide 19 --}}
@@ -160,7 +160,7 @@
         <h2 class="title stroke">Paper products are mixed and soaked in chemicals. The
             mixture is then dried and rolled out as new sheets of paper.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -192,7 +192,7 @@
             Your browser does not support the video tag.
         </video>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -211,7 +211,7 @@
             Your browser does not support the video tag.
         </video>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video4')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video4')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -229,7 +229,7 @@
             Your browser does not support the video tag.
         </video>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video5')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video5')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -247,7 +247,7 @@
             Your browser does not support the video tag.
         </video>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video6')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video6')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
 
@@ -267,7 +267,7 @@
             Your browser does not support the video tag.
         </video>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video7')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video7')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
 
@@ -286,7 +286,7 @@
             Your browser does not support the video tag.
         </video>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video8')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video8')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
 

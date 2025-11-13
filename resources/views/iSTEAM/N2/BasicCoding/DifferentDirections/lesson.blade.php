@@ -19,16 +19,16 @@
     {{-- Slide 2 --}}
     <div class="slide flex flex-col items-center justify-center ">
         <img src="{{ asset('assets/images/N2/BasicCoding/bs1a.png') }}" class="large-img6" />
-        <h2 class="stroke title">These are <span class="text-white">directional signs</span> with <span
-                class="text-white">arrows</span> to show us which way to go. <span class="text-white">Directional
-                signs</span> give us <span class="text-white">instructions</span> on where to go.</h2>
+        <h2 class="stroke title">These are <span class="!text-white">directional signs</span> with <span
+                class="text-white">arrows</span> to show us which way to go. <span class="!text-white">Directional
+                signs</span> give us <span class="!text-white">instructions</span> on where to go.</h2>
     </div>
 
 
     {{-- Slide 3 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <img src="{{ asset('assets/images/N2/BasicCoding/bs6.png') }}" />
-        <h2 class="stroke title">Which <span class="text-white">direction</span> are these <span
+        <h2 class="stroke title">Which <span class="!text-white">direction</span> are these <span
                 class="text-white">arrows</span> pointing to?</h2>
         <p class="note">Note: Have children recall and share what they have learnt.</p>
     </div>
@@ -44,7 +44,7 @@
     {{-- slide 5 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <img src="{{ asset('assets/images/N2/BasicCoding/bs3.png') }}" />
-        <h2 class="stroke title">Which<span class="text-white"> direction</span> are these <span
+        <h2 class="stroke title">Which<span class="!text-white"> direction</span> are these <span
                 class="text-white">arrows</span> pointing to?</h2>
         <p class="note">Note: Have children recall and share what they have learnt.</p>
     </div>
@@ -52,7 +52,7 @@
     {{-- slide 6 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <img src="{{ asset('assets/images/N2/BasicCoding/bs3.png') }}" />
-        <h2 class="stroke title">The <span class="text-white">arrows</span> are pointing <span
+        <h2 class="stroke title">The <span class="!text-white">arrows</span> are pointing <span
                 class="text-white">backward</span>, which means to the back.</h2>
         <p class="note">Note: Physically show children how one moves forward (one step).</p>
     </div>
@@ -147,8 +147,8 @@
     {{-- slide 16 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <img src="{{ asset('assets/images/N2/BasicCoding/bs4.png') }}" alt="">
-        <h2 class="stroke title">The <span class="text-white">arrow</span> is pointing <span class="text-white">left</span>.
-            If someone wants to go to the washroom, he or she should turn <span class="text-white">left</span>.</h2>
+        <h2 class="stroke title">The <span class="!text-white">arrow</span> is pointing <span class="!text-white">left</span>.
+            If someone wants to go to the washroom, he or she should turn <span class="!text-white">left</span>.</h2>
         <p class="note">Note: Physically show children how one turns left (90 degrees)</p>
     </div>
 
@@ -164,7 +164,7 @@
     {{-- slide 18 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <img src="{{ asset('assets/images/N2/BasicCoding/bs5.png') }}" alt="">
-        <h2 class="stroke title">The <span class="text-white">arrow</span> is pointing <span
+        <h2 class="stroke title">The <span class="!text-white">arrow</span> is pointing <span
                 class="text-white">right</span>. If someone wants to go to the washroom, he or she should turn <span
                 class="text-white">right</span>.</h2>
         <p class="note">Note: Physically show children how one turns right (90 degrees) </p>
@@ -174,7 +174,7 @@
     {{-- slide 19 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <img src="{{ asset('assets/images/N2/BasicCoding/bs25.png') }}" alt="">
-        <h2 class="stroke title">Do you know which is your<span class="text-white"> left</span> and which is your <span
+        <h2 class="stroke title">Do you know which is your<span class="!text-white"> left</span> and which is your <span
                 class="text-white">right</span>?</h2>
         <p class="note">Note: Have children boldly share their views. </p>
     </div>
@@ -230,8 +230,8 @@
             <img src="{{ asset('assets/images/N2/BasicCoding/bs23.png') }}" alt="" class="rotate-[90deg]  large-img4 " >
             <img src="{{ asset('assets/images/N2/BasicCoding/bs23.png') }}" alt="" class="rotate-[-90deg] large-img4 ">
         </div>
-        <h2 class="stroke title">Which is pointing to the <span class="text-white">left</span>? Which is pointing to the
-            <span class="text-white">right</span>?
+        <h2 class="stroke title">Which is pointing to the <span class="!text-white">left</span>? Which is pointing to the
+            <span class="!text-white">right</span>?
         </h2>
         <p class="note">Note: Have children come forward to point out the answers.</p>
     </div>
@@ -239,8 +239,8 @@
     {{-- slide 26 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <img src="{{ asset('assets/images/N2/BasicCoding/bs26.png') }}" class="large-img4">
-        <h2 class="stroke title">Which is pointing to the <span class="text-white">left</span>? Which is pointing to the
-            <span class="text-white">right</span>?
+        <h2 class="stroke title">Which is pointing to the <span class="!text-white">left</span>? Which is pointing to the
+            <span class="!text-white">right</span>?
         </h2>
         <p class="note">Note: Have children come forward to point out the answers.</p>
     </div>
@@ -248,8 +248,8 @@
     {{-- slide 27 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <img src="{{ asset('assets/images/N2/BasicCoding/bs24.png') }}" class="large-img4">
-        <h2 class="stroke title">Which is pointing to the <span class="text-white">left</span>? Which is pointing to the
-            <span class="text-white">right</span>?
+        <h2 class="stroke title">Which is pointing to the <span class="!text-white">left</span>? Which is pointing to the
+            <span class="!text-white">right</span>?
         </h2>
         <p class="note">Note: Have children come forward to point out the answers.</p>
     </div>
@@ -259,7 +259,7 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="!text-white title stroke">Hands-on Time 4</h2>
         <div class="text-start">
-            <h2 class="title stroke">Mission: <br>
+            <h2 class="title stroke text-start">Mission: <br>
                 Let’s look at the directional signs and follow the instructions.
                 Turn left or right according to where you want to go.</h2>
         </div>

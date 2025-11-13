@@ -47,7 +47,7 @@
         <h2 class="title stroke">You wear the paper clip band and tap on the playdough balls
             to create music using this Makey Makey music maker.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -65,7 +65,7 @@
         <h2 class="title stroke">You wear the paper clip band and tap on the playdough balls
             to create music using this Makey Makey music maker.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -81,7 +81,7 @@
             needing to always hold on to the alligator clip that is
             connected to the Earth of the board while creating music.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -97,7 +97,7 @@
         <h2 class="title stroke">Turning the playdough balls into keypads makes the process of
             creating music easier and smoother.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video4')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video4')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -236,7 +236,7 @@
     {{-- slide 19 --}}
     <div class="slide  hidden flex flex-col items-center justify-center gap-y-4 p-[10px]">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[40vw] h-[40vh] bg-cover bg-center flex flex-col items-start"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center flex flex-col items-start"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <img src="{{ asset('assets/images/K2/circuit/makey/m33.png') }}" />
         </div>
@@ -246,7 +246,7 @@
     {{-- sldie 20 --}}
     <div class="slide  hidden flex flex-col items-center justify-center gap-y-4 p-[10px]">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[40vw] h-[40vh] bg-cover bg-center flex flex-col items-start"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center flex flex-col items-start"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <img src="{{ asset('assets/images/K2/circuit/makey/m34.png') }}" />
         </div>
@@ -256,7 +256,7 @@
     {{-- sldie 21 --}}
     <div class="slide  hidden flex flex-col items-center justify-center gap-y-4 p-[10px]">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[40vw] h-[40vh] bg-cover bg-center flex flex-col items-start"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center flex flex-col items-start"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <img src="{{ asset('assets/images/K2/circuit/makey/m35.png') }}" />
         </div>
@@ -265,7 +265,7 @@
     {{-- slide 22 --}}
     <div class="slide  hidden flex flex-col items-center justify-center gap-y-4 p-[10px]">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[40vw] h-[40vh] bg-cover bg-center flex flex-col items-start"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center flex flex-col items-start"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <img src="{{ asset('assets/images/K2/circuit/makey/m36.png') }}" />
         </div>

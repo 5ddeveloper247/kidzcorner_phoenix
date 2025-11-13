@@ -4,8 +4,8 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col   items-center ">
-        <div class="indexTitle  text-[55px]  stroke">Umbrellas</div>
-        <h2 class=" text-white stroke ">
+        <div class="indexTitle    stroke">Umbrellas</div>
+        <h2 class=" !text-white stroke ">
             Explore and learn about umbrellas;
             learn how to build an umbrella</h2>
 

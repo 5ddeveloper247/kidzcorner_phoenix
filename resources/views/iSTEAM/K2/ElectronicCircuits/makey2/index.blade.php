@@ -4,8 +4,8 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col  gap-20 items-center ">
-        <div class="indexTitle  text-[55px]  stroke">Makey Makey (2)</div>
-        <h2 class="text-2xl sm:text-3xl lg:text-[45px] text-white stroke ">
+        <div class="indexTitle    stroke">Makey Makey (2)</div>
+        <h2 class="text-2xl sm:text-3xl lg:text-[45px] !text-white stroke ">
             Explore and learn about the use of Makey Makey;
             learn how to turn Makey Makey into a fun music maker</h2>
         <button class="nextButton">

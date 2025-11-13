@@ -7,7 +7,7 @@
 
 
     {{-- slide 1  --}}
-    <div class="slide  flex  text-white flex-col justify-start t-slide !gap-y-[3vw]  text-start">
+    <div class="flex !text-white flex-col justify-start t-slide !gap-y-[3vw]  text-start">
         <div>
             <h2 class="t-title ">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -37,7 +37,7 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex  text-white flex-col justify-start t-slide  text-start ">
+    <div class=" flex  !text-white flex-col justify-start t-slide  text-start ">
         <div>
             <h2 class="t-title ">Preparations for Class Activity I:</h2>
             <ul class="list-disc ">
@@ -48,12 +48,12 @@
             </ul>
         </div>
 
-        <div class="flex w-[100%] items-center justify-between">
+        <div class="flex  items-center justify-between">
             <div>
                 <h2 class="t-title ">Links to Songs:</h2>
                 <ul class="list-disc ">
                     <li>
-                    Mr Golden Sun
+                        Mr Golden Sun
                         <ul class="list-disc space-y-1 pl-6">
                             <li>Sun: <a href="https://youtu.be/pIrC_OhEHJM" target="_blank"
                                     class="text-blue-600 underline">Watch here</a></li>
@@ -62,7 +62,7 @@
                         </ul>
                     </li>
                     <li>
-                    Twinkle Twinkle Little Star
+                        Twinkle Twinkle Little Star
                         <a href="https://www.youtube.com/watch?v=NiRf84t4i5I" target="_blank"
                             class="text-blue-600 underline">Watch here</a>
                     </li>
@@ -75,42 +75,40 @@
     </div>
 
     {{-- slide 3 --}}
-    <div class="slide t-slide text-start text-white">
+    <div class=" t-slide text-start !text-white !w-[53vw]">
         <div>
             <h2 class="t-title ">Notes:</h2>
             <ul class="list-disc space-y-3">
-                <li class="flex whitespace-nowrap items-center ">
-                    If you see
-                    <span class="px-[.5vw]">
-                        <img class="video-btn" src="{{ asset('assets/images/pptimages/video.png') }}" />
+                <li>
+                    <span class="relative">
+                    If you see <span class="opacity-0">---</span>next to a picture, click on the picture to watch the video.
+                        <img class="t-video-btn absolute top-[-1vw] left-[8vw]" src="{{ asset('assets/images/pptimages/video.png') }}" />
                     </span>
-                    next to a picture, click on the picture to watch the video.
                 </li>
 
-                <li class="flex whitespace-nowrap items-center ">
-                    If you see
-                    <span class="px-[.5vw]">
-                        <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="info-btn" />
+                <li>
+                    <span class="relative">
+                        If you see  <span class="opacity-0">---</span> , click on it for additional information or activity.
+                        <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="t-info-btn absolute top-[-1vw] left-[8.5vw]" />
                     </span>
-                    , click on it for additional information or activity.
                 </li>
 
-                <li class="mb-2">
+                <li>
                     Always ask questions to encourage children to think and share their ideas first before giving out
                     any information.
                 </li>
 
-                <li class="mb-2">Emphasise and use the keywords during hands-on sessions.</li>
+                <li>Emphasise and use the keywords during hands-on sessions.</li>
 
                 <li>
                     Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
                 </li>
-                <li class="flex items-center whitespace-nowrap">
-                    Click on this shortcut icon
-                    <span  class="px-[.5vw]">
-                        <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" class="home-btn" />
+
+                <li>
+                    <span class="relative">
+                        Click on this shortcut icon  <span class="opacity-0">---</span>  if you need to go to some parts of the lesson quickly.
+                        <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" class="t-home-btn absolute top-0 left-[19.5vw]" />
                     </span>
-                     if you need to go to some parts of the lesson  quickly.
                 </li>
 
             </ul>
@@ -122,19 +120,19 @@
 
 
     {{--  slide 26 --}}
-    <div class=" slide text-white flex flex-col justify-start t-slide text-start ">
+    <div class=" !text-white flex flex-col justify-start t-slide text-start ">
         <h2 class="title stroke text-center">Learning Centre Idea </h2>
 
-        <h1 class="title stroke !text-white ">Let’s sort!</h1>
+        <h1 class="text-[2vw] stroke !text-white ">Let’s sort!</h1>
         <div>
-            <h2 class=" t-title !text-[#f7b94a] ">Preparations for Class Activity I:</h2>
+            <h2 class=" t-title">What and how to set up:</h2>
             <p>Place pictures of various items such as pot of plant, bottle, shoe, sock, box, elephant, lamp, light
                 bulb, sun, stars, lightning, firefly, ceiling light, handphone, TV.</p>
         </div>
 
-        <div class="flex w-[100%] items-center justify-between">
+        <div class="flex  items-center justify-between">
             <div>
-                <h2 class=" t-title !text-[#f7b94a] ">What to do:</h2>
+                <p class=" t-title">What to do:</p>
                 <ul>
                     <li>
                         <strong>*</strong> Invite children to pick up pictures and sort them into groups:
@@ -149,12 +147,6 @@
 
         </div>
     </div>
-
-
-
-
-
-
 
 
     {{-- Buttons --}}
@@ -197,7 +189,7 @@
     <script>
         document.addEventListener("DOMContentLoaded", () => {
             // Get all elements
-            const slides = document.querySelectorAll(".slide");
+            const slides = document.querySelectorAll(".t-slide");
             const nextBtn = document.querySelector(".nextButton");
             const returnBtn = document.getElementById("returnButton");
             const doneBtn = document.querySelector(".doneButton");
@@ -265,7 +257,7 @@
 
             // Done button
             doneBtn.addEventListener("click", () => {
-                window.location.href = "{{ route('lightforms') }}";
+                window.location.href = "{{ route('n1lightchoose') }}";
             });
 
             // Start at first slide

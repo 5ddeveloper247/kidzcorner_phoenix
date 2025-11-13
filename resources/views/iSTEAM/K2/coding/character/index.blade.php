@@ -4,8 +4,8 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col  gap-20 items-center gap-[2vw] !justify-center ">
-        <div class="indexTitle  text-[55px]  stroke">Animate the Character</div>
-        <h2 class="text-2xl sm:text-3xl lg:text-4xl text-white stroke ">
+        <div class="indexTitle    stroke">Animate the Character</div>
+        <h2 class="text-2xl sm:text-3xl lg:text-4xl !text-white stroke ">
             Learn how to programme a character to move at different
             speeds; create programmes to animate characters
             based on the samples provided</h2>

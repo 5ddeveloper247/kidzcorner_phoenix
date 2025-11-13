@@ -8,28 +8,28 @@
 
     {{-- slide 0 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <h2 class="stroke title"><span class="text-white">Lines</span> are put together to make <span
-                class="text-white">shapes</span> like<br /><span class="text-white">squares, triangles</span> and<span
+        <h2 class="stroke title"><span class="!text-white">Lines</span> are put together to make <span
+                class="text-white">shapes</span> like<br /><span class="!text-white">squares, triangles</span> and<span
                 class="text-white"> rectangles</span>.</h2>
-        <img src="{{ asset('assets/images/pptimages/shape4.png') }}" class="large-img6" />
+        <img src="{{ asset('assets/images/pptimages/shape4.png') }}" class="img-xl" />
     </div>
 
 
     {{-- slide 1 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
 
-        <img src="{{ asset('assets/images/pptimages/r18.png') }}" class="w-img" />
-        <h2 class="stroke title">Look at this <span class="text-white">house</span>! What <span
+        <img src="{{ asset('assets/images/pptimages/r18.png') }}" class="img-md" />
+        <h2 class="stroke title">Look at this <span class="!text-white">house</span>! What <span
                 class="text-white">shapes</span> does it look like?</h2>
         <p class="note">Note: Encourage the children to share answers.</p>
     </div>
 
     {{-- slide 2 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <h2 class="stroke title">The <span class="text-white">top</span> looks like a <span
-                class="text-white">triangle</span> and the<span class="text-white"> bottom<br /></span>looks like a <span
+        <h2 class="stroke title">The <span class="!text-white">top</span> looks like a <span
+                class="text-white">triangle</span> and the<span class="!text-white"> bottom<br /></span>looks like a <span
                 class="text-white">square</span>.</h2>
-        <img src="{{ asset('assets/images/pptimages/gl14.png') }}" class="large-img6" />
+        <img src="{{ asset('assets/images/pptimages/gl14.png') }}" class="img-lg" />
         <p class="note">Note: Point out the shape to the children.</p>
     </div>
 
@@ -37,14 +37,14 @@
     {{-- slide 3 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="stroke title">Shapes can be put together to form an image.</h2>
-        <img src="{{ asset('assets/images/pptimages/gl14.png') }}" class="w-img3" />
+        <img src="{{ asset('assets/images/pptimages/gl14.png') }}" class="img-lg" />
         <p class="note">Note: Point out the shape to the children.</p>
     </div>
 
     {{-- slide 4 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
         <h2 class="stroke title">This is how an image of a house can be made.</h2>
-        <img src="{{ asset('assets/images/pptimages/s2.png') }}" class="w-img" />
+        <img src="{{ asset('assets/images/pptimages/s2.png') }}" class="img-md" />
         <p class="note">Note: Point out the shape to the children.</p>
     </div>
 
@@ -52,11 +52,11 @@
 
     {{-- slide 5 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <h2 class="stroke title"><span class="text-white">Shapes</span> are put together to make images like a van or a
+        <h2 class="stroke title"><span class="!text-white">Shapes</span> are put together to make images like a van or a
             flower.</h2>
-        <div class="flex items-center gap-2">
-            <img src="{{ asset('assets/images/pptimages/s6.png') }}" class="w-img" />
-            <img src="{{ asset('assets/images/pptimages/s4.png') }}" class="w-img" />
+        <div class="flex items-center gap-[2vw]">
+            <img src="{{ asset('assets/images/pptimages/s6.png') }}" class="img-normal-md" />
+            <img src="{{ asset('assets/images/pptimages/s4.png') }}" class="img-normal-md" />
         </div>
         <p class="note">Note: Point out the shape to the children.</p>
     </div>
@@ -64,7 +64,7 @@
 
     {{-- slide 6 --}}
 
-    <div class="flex flex-col justify-between !h-[50vh] slide hidden">
+    <div class="flex flex-col justify-between !h-[55vh] slide hidden">
 
         <h2 class="title !text-white stroke">individual Activity 1</h2>
         <h2 class="title stroke text-start ">Let’s use the shapes and create an image of a toy.</h2>
@@ -72,7 +72,7 @@
     </div>
 
     {{-- slide 7 --}}
-    <div class="flex flex-col h-[50vh] justify-between slide hidden">
+    <div class="flex flex-col h-[55vh] justify-between slide hidden">
         <div class="title stroke text-start">
             <h2 class="!text-white">let's do:</h2>
             <ol class="list-decimal pl-8 space-y-3">
@@ -87,7 +87,7 @@
 
 
     {{-- slide 8 --}}
-    <div class="flex flex-col h-[50vh] justify-between slide hidden">
+    <div class="flex flex-col h-[55vh] justify-between slide hidden">
         <div class="title stroke text-start">
             <h2 class="!text-white">let's do:</h2>
             <ol class="list-decimal pl-8 space-y-3" start="3">
@@ -104,7 +104,7 @@
     </div>
 
     {{-- slide 9 --}}
-    <div class="flex flex-col h-[50vh] justify-between items-center slide hidden">
+    <div class="flex flex-col justify-between items-center slide hidden">
         <div class="title stroke text-start">
             <h2 class="!text-white">let's do:</h2>
             <ol class="list-decimal pl-8" start="5">
@@ -112,23 +112,13 @@
                     learning journals.</li>
             </ol>
         </div>
-        <div class="w-[35vw] h-[25vh] bg-cover bg-center"
-            style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
-            <p class="text-[1vw]">My Creations</p>
-            <div class="flex w-foll">
-                <div class="border-2 border-black h-[22vh] w-[15vw]">
-                    <p class="text-[1vw]">Place the photo of the toy on this side</p>
-                </div>
-                <div class="border-2 border-black h-[22vh] w-[25vw]">
-                    <p class="text-[1vw]">Look at the toy and create the shape template here. </p>
-                </div>
-            </div>
-        </div>
+        <img src="{{ asset('assets/images/pptimages/gl17.png') }}" class="img-md" />
+
         <p class="note  text-center">Note: Teacher to guide the children and assist them.</p>
     </div>
 
     {{-- slide 10 --}}
-    <div class="flex flex-col h-[50vh] justify-between  slide hidden">
+    <div class="flex flex-col h-[55vh] justify-between  slide hidden">
         <div class="title stroke text-start">
             <h2 class="!text-white">Suggested Questions:</h2>
             <ol class="list-decimal pl-8 space-y-3   ">
@@ -145,19 +135,19 @@
 
     {{-- slide 17 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <h2 class="stroke title">The image of a house is <span class="text-white">flat </span>but it can be made<br />into
-            these dimensional <span class="text-white">structure.</span></h2>
-        <img src="{{ asset('assets/images/pptimages/s2.png') }}" class="w-img" />
+        <h2 class="stroke title">The image of a house is <span class="!text-white">flat </span>but it can be made into
+            these dimensional <span class="!text-white">structure.</span></h2>
+        <img src="{{ asset('assets/images/pptimages/s2.png') }}" class="img-md" />
     </div>
 
 
     {{-- slide 18 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <h2 class="stroke title">The three dimensional <span class="text-white">structure</span> of a house can be created
-            by putting the <span class="text-white">shape structure</span> of
+        <h2 class="stroke title">The three dimensional <span class="!text-white">structure</span> of a house can be created
+            by putting the <span class="!text-white">shape structure</span> of
             each side together.</h2>
 
-        <img src="{{ asset('assets/images/pptimages/gl15.png') }}" class="w-img3" />
+        <img src="{{ asset('assets/images/pptimages/gl15.png') }}" class="img-md" />
         <p class="note  text-center">Note: Teacher show children using the house structure created the previous lesson</p>
     </div>
 
@@ -165,19 +155,19 @@
     {{-- slide 19 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
         <h2 class="stroke title">Similarly, a three dimensional structure of the toy can be created too!</h2>
-        <img src="{{ asset('assets/images/pptimages/r29.png') }}" class="w-img" />
+        <img src="{{ asset('assets/images/pptimages/r29.png') }}"  />
     </div>
 
 
     {{-- slide 20 --}}
-    <div class="flex flex-col slide hidden">
+    <div class="flex flex-col slide hidden justify-between h-[30vh]">
 
         <h2 class="title !text-white stroke">individual Activity 2</h2>
         <h2 class="title stroke text-start ">Create structures of toys!.</h2>
     </div>
 
     {{-- slide 21 --}}
-    <div class="flex flex-col h-[50vh] justify-between slide hidden">
+    <div class="flex flex-col h-[55vh] justify-between slide hidden">
         <div class="title stroke text-start">
             <h2 class="!text-white">let's do:</h2>
             <ol class="list-decimal pl-8 space-y-3   ">
@@ -191,7 +181,7 @@
     </div>
 
     {{-- slide 22 --}}
-    <div class="flex flex-col h-[50vh] justify-between  slide hidden">
+    <div class="flex flex-col h-[55vh] justify-between  slide hidden">
         <div class="title stroke text-start">
             <h2 class="!text-white">let's do:</h2>
             <ol class="list-decimal pl-8 space-y-3" start="3">
@@ -206,7 +196,7 @@
     </div>
 
     {{-- slide 23 --}}
-    <div class="flex flex-col h-[50vh] justify-between  slide hidden">
+    <div class="flex flex-col h-[55vh] justify-between  slide hidden">
         <div class="title stroke text-start">
             <h2 class="!text-white">let's do:</h2>
             <ol class="  list-decimal pl-9 space-y-3" start="6">
@@ -223,7 +213,7 @@
 
 
     {{-- slide 24 --}}
-    <div class="flex flex-col  h-[50vh] justify-between slide hidden">
+    <div class="flex flex-col  h-[55vh] justify-between slide hidden">
         <div class="title stroke text-start">
             <h2 class="!text-white">Suggested questions for show and tell:</h2>
             <ol class="list-decimal pl-8">
@@ -239,34 +229,34 @@
 
     {{-- slide 25 --}}
     <div class="flex flex-col justify-center  slide hidden">
-        <h2 class="stroke title">Many images can be created using <span class="text-white">shapes</span>.</h2>
+        <h2 class="stroke title">Many images can be created using <span class="!text-white">shapes</span>.</h2>
         <div class="flex gap-10 items-center">
-            <img src="{{ asset('assets/images/pptimages/s6.png') }}" class="large-img" />
-            <img src="{{ asset('assets/images/pptimages/s4.png') }}" class="large-img" />
+            <img src="{{ asset('assets/images/pptimages/s6.png') }}" class="img-normal-md" />
+            <img src="{{ asset('assets/images/pptimages/s4.png') }}" class="img-normal-md" />
         </div>
         <p class="note  text-center">Note: Guide the children to identify the shapes.</p>
     </div>
 
     {{-- slide 26 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <h2 class="title stroke">Different <span class="text-white">shapes</span> can be combined to form three
-            dimensional <span class="text-white">structures</span>.</h2>
+        <h2 class="title stroke">Different <span class="!text-white">shapes</span> can be combined to form three
+            dimensional <span class="!text-white">structures</span>.</h2>
 
 
-        <img src="{{ asset('assets/images/pptimages/r440.png') }}" aria-valuemax="large-img" />
+        <img src="{{ asset('assets/images/pptimages/r440.png') }}" class="img-md" />
     </div>
 
 
     {{-- slide 27 --}}
     <div class="flex flex-col  slide hidden">
-        <div class="w-[45vw] h-[35vh] bg-cover bg-center"
+        <div class="w-[52vw] h-[28vw] drawable bg-cover bg-center text-[1.26vw]"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>Learning Journal</p>
             <div class="flex w-foll">
-                <div class="border-2 border-black h-[32vh] w-[20vw]">
+                <div class="border-2 border-black h-[26.5vw] w-[22vw]">
                     <p>Place the photo of the toy on this side</p>
                 </div>
-                <div class="border-2 border-black h-[32vh] w-[25vw]">
+                <div class="border-2 border-black h-[26.5vw] w-[30vw]">
                     <p>Look at the toy and create the shape template here. </p>
                 </div>
             </div>
@@ -373,7 +363,7 @@
 
             // Done button
             doneBtn.addEventListener("click", () => {
-                window.location.href = "{{ route('CreationsSelection') }}";
+                window.location.href = "{{ route('basicStructure') }}";
             });
 
             // Start at first slide

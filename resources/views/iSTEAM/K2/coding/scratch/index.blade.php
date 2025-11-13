@@ -3,9 +3,9 @@
 
 @section('content')
 
-    <div id="topDiv" class="flex flex-col gap-[2vw] items-center !justify-center">
+    <div id="topDiv" class="flex flex-col gap-[2vw] ">
         <div class="indexTitle stroke">What is Scratch Jr?</div>
-        <h2 class="text-2xl sm:text-3xl lg:text-5xl text-white stroke">
+        <h2 class=" !text-white stroke">
             Explore and learn about ScratchJr;
             learn how to use ScratchJr to create a story
         </h2>

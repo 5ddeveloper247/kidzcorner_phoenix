@@ -42,7 +42,7 @@
     {{-- Slide 5  --}}
     <div class="slide flex flex-col items-center justify-center  ">
         <img src="/assets/images/K1/str/br3.png" />
-        <h2 class="title stroke">What happens if there is too much weight on a <span class="text-white">beam bridge</span>?
+        <h2 class="title stroke">What happens if there is too much weight on a <span class="!text-white">beam bridge</span>?
         </h2>
         <p class="note">Note: Encourage children to predict the outcome of this experiment.</p>
     </div>
@@ -59,7 +59,7 @@
         <p class="note">Note: Have children describe the details of this experiment (How to do it? How did the bridge
             deform?).</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -182,7 +182,7 @@
 
     {{-- slide 19 --}}
     <div class="slide hidden flex flex-col items-center justify-between h-[50vh] ">
-        <h2 class="text-center justify-start text-[45px] text-white stroke">Small Group Activity 1</h2>
+        <h2 class="text-center justify-start text-[45px] !text-white stroke">Small Group Activity 1</h2>
         <h2 class="text-start title stroke">Mission: <br>
             Use some straws and pipe cleaners to build the structure of a
             beam bridge and test how strong is it.</h2>
@@ -206,7 +206,7 @@
         <p class="note text-center">Note: Have children observe the video, talk about how to do the step and then learn how
             to do so.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -233,7 +233,7 @@
         <p class="note text-center">Note: Have children observe the video, talk about how to do the step and then learn how
             to do so.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -265,7 +265,7 @@
         </p>
 
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video4')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video4')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -281,7 +281,7 @@
             figure out all the sub-steps. Then have them work together in groups to complete the sub-steps.</p>
 
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video5')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video5')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -297,7 +297,7 @@
             figure out all the sub-steps. Then have them work together in groups to complete the sub-steps.</p>
 
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video6')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video6')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -313,7 +313,7 @@
             figure out all the sub-steps. Then have them work together in groups to complete the sub-steps.</p>
 
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video7')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video7')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -329,7 +329,7 @@
             figure out all the sub-steps. Then have them work together in groups to complete the sub-steps.</p>
 
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video8')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video8')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -345,7 +345,7 @@
             figure out all the sub-steps. Then have them work together in groups to complete the sub-steps.</p>
 
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video9')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video9')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -361,7 +361,7 @@
             figure out all the sub-steps. Then have them work together in groups to complete the sub-steps.</p>
 
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video10')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video10')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -378,7 +378,7 @@
             figure out all the sub-steps. Then have them work together in groups to complete the sub-steps.</p>
 
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video11')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video11')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -395,7 +395,7 @@
             figure out all the sub-steps. Then have them work together in groups to complete the sub-steps.</p>
 
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video12')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video12')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -419,7 +419,7 @@
         <p class="note text-center">Note: Have children observe the video and talk about how to do the step. Then have them
             work in groups to complete the step. Have them record the test result in the learning journal.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video13')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video13')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -429,7 +429,7 @@
 
     {{-- slide 24 --}}
     <div class="slide hidden flex flex-col items-center justify-between h-50vh ">
-        <h2 class="text-center justify-start text-[45px] text-white stroke">Small Group Activity 2</h2>
+        <h2 class="text-center justify-start text-[45px] !text-white stroke">Small Group Activity 2</h2>
         <h2 class="text-start title stroke">Mission: <br>
             Design certain structures above or below your bridge to
             make it stronger and able to support more weight.</h2>
@@ -500,7 +500,7 @@
     {{-- slide 28 --}}
     <div class="slide  hidden flex flex-col items-center justify-between gap-y-4">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[40vw] h-[40vh] bg-cover bg-center flex flex-col justify-betweem items-start"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center flex flex-col justify-betweem items-start"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>How di you test your beam bridge? Draw here.</p>
             <p>
@@ -515,7 +515,7 @@
     {{-- slide 29 --}}
     <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[40vw] h-[40vh] bg-cover bg-center flex flex-col  items-start"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center flex flex-col  items-start"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>How do you design a stronger bridge that is able to support more weight? Draw it.</p>
         </div>
@@ -525,7 +525,7 @@
     {{-- slide 30 --}}
     <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[40vw] h-[40vh] bg-cover bg-center flex flex-col justify-between items-start"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center flex flex-col justify-between items-start"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>What was your final design of a stronger bridge that is able to support more weight? Draw it.</p>
             <p>How much weight can your new bridge support before it collapses?</p>

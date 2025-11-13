@@ -33,9 +33,9 @@
     {{-- slide 4 --}}
     <div class="slide hidden  flex flex-col items-center  ">
         <img src="{{ asset('assets/images/K2/circuit/ecity/e13.png') }}" />
-        <h2 class="title stroke text-center">This is a <span class="text-white">complete circuit</span> because it lets
-            <span class="text-white">electricity</span> flow
-            smoothly to provide power for the <span class="text-white">light bulb</span> to light up.
+        <h2 class="title stroke text-center">This is a <span class="!text-white">complete circuit</span> because it lets
+            <span class="!text-white">electricity</span> flow
+            smoothly to provide power for the <span class="!text-white">light bulb</span> to light up.
         </h2>
     </div>
 
@@ -43,7 +43,7 @@
     {{-- Slide 5 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <img src="{{ asset('assets/images/K2/circuit/ecity/e13.png') }}" />
-        <h2 class="title stroke">This is <span class="text-white"> complete circuit</span> is made up of 3 parts.
+        <h2 class="title stroke">This is <span class="!text-white"> complete circuit</span> is made up of 3 parts.
             Can you name them?</h2>
     </div>
 
@@ -75,7 +75,7 @@
             the positive end (red wire) and its short leg is connected to
             the negative end (black wire) of the battery.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video5')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video5')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -159,9 +159,9 @@
     {{-- slide 18 --}}
     <div class="slide hidden flex flex-col items-center ">
         <img src="{{ asset('assets/images/K2/circuit/ecity/e25.png') }}" />
-        <h2 class="title stroke">Things that do not allow <span class="text-white">electrici</span>.y to flow through them
+        <h2 class="title stroke">Things that do not allow <span class="!text-white">electrici</span>.y to flow through them
             are
-            called <span class="text-white">insulator</span>.. Modelling clay is an <span
+            called <span class="!text-white">insulator</span>.. Modelling clay is an <span
                 class="text-white">insulator</span>.</h2>
     </div>
 
@@ -182,7 +182,7 @@
 
 
     {{-- sldie 21 --}}
-    <div class="slide hidden flex flex-col items-center h-[60%] justify-between">
+    <div class="slide hidden flex flex-col items-center h-[50vh] justify-between">
         <h2 class="title stroke">Now you know how to form a complete circuit, <br>
             do you think the idea can be used <br>
             to create a sculpture that lights up?</h2>
@@ -244,7 +244,7 @@
     {{-- slide 27 --}}
     <div class="slide  hidden flex flex-col items-center justify-center ">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[40vw] h-[40vh] bg-cover bg-center flex flex-col justify-start items-center"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center flex flex-col justify-start items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>What kind of sculpture would you like to make? Where do you think the light or lights
                 should be? Draw it.</p>

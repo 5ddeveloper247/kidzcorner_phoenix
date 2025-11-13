@@ -36,7 +36,7 @@
     {{-- Slide 4 --}}
     <div class="slide flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/str/c1.png" />
-        <h2 class=" title stroke">What <span class="text-white">structures</span> do you see in this <span
+        <h2 class=" title stroke">What <span class="!text-white">structures</span> do you see in this <span
                 class="text-white">city</span>?</h2>
         <p class="note">Note: Guide children to talk about the different structures in the photo (London).</p>
     </div>
@@ -45,7 +45,7 @@
     {{-- Slide 5  --}}
     <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/str/c2.png" />
-        <h2 class=" title stroke">What <span class="text-white">structures</span> do you see in this <span
+        <h2 class=" title stroke">What <span class="!text-white">structures</span> do you see in this <span
                 class="text-white">city</span>?</h2>
         <p class="note">Note: Guide children to talk about the different structures in the photo (Portugal).</p>
     </div>
@@ -55,7 +55,7 @@
     {{-- slide 6 --}}
     <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/str/c3.png" />
-        <h2 class=" title stroke">What <span class="text-white">structures</span> do you see in this <span
+        <h2 class=" title stroke">What <span class="!text-white">structures</span> do you see in this <span
                 class="text-white">city</span>?</h2>
         <p class="note">Note: Guide children to talk about the different structures in the photo (Vienna).</p>
     </div>
@@ -64,7 +64,7 @@
     {{-- Slide 7 --}}
     <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/str/c4.png" />
-        <h2 class=" title stroke">What <span class="text-white">structures</span> do you see in this <span
+        <h2 class=" title stroke">What <span class="!text-white">structures</span> do you see in this <span
                 class="text-white">city</span>?</h2>
         <p class="note">Note: Guide children to talk about the different structures in the photo (Shanghai).</p>
     </div>
@@ -73,7 +73,7 @@
     {{-- Slide 8 --}}
     <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/str/c5.png" />
-        <h2 class=" title stroke">What <span class="text-white">structures</span> do you see in this <span
+        <h2 class=" title stroke">What <span class="!text-white">structures</span> do you see in this <span
                 class="text-white">city</span>?</h2>
         <p class="note">Note: Guide children to talk about the different structures in the photo (Singapore).</p>
     </div>
@@ -92,7 +92,7 @@
 
     {{-- slide 10 --}}
     <div class="slide hidden flex flex-col items-center justify-between h-[45vh] ">
-        <h2 class="text-center justify-start text-[45px] text-white stroke">Create an Amazing City </h2>
+        <h2 class="text-center justify-start text-[45px] !text-white stroke">Create an Amazing City </h2>
         <h2 class="text-start title stroke">Mission: <br>
             Let’s design and build an amazing city using the straws and pipe cleaners.</h2>
     </div>
@@ -182,7 +182,7 @@
     {{-- slide 16 --}}
     <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[40vw] h-[40vh] bg-cover bg-center flex flex-col justify-start items-start"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center flex flex-col justify-start items-start"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>What do you want to have in your amazing city? List them. <br>
                 Circle only those that you are going to build.</p>
@@ -193,7 +193,7 @@
     {{-- slide 17 --}}
     <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[40vw] h-[40vh] bg-cover bg-center flex flex-col justify-start items-start"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center flex flex-col justify-start items-start"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>What are you going to build? <br>
                 How do you design it? Draw it.</p>
@@ -203,7 +203,7 @@
     {{-- slide 18 --}}
     <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[40vw] h-[40vh] bg-cover bg-center flex flex-col justify-between items-start"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center flex flex-col justify-between items-start"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>How do you design your amazing city? Draw it.</p>
             <p>What is the name of your ciity?___________________________________</p>

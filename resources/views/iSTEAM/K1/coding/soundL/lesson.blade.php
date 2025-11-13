@@ -15,7 +15,7 @@
         <h2 class="title stroke">Children, what does the robot do?</h2>
         <p class="note">Note: Have children talk about what they see.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -32,7 +32,7 @@
             It says “”Ta-da”” before changing its eye pattern.</h2>
 
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -123,7 +123,7 @@
         <p class="note">Note: Encourage children to share what they have learnt; <br>
             turn to the last few pages to guide them find the answer.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -150,7 +150,7 @@
         <h2 class=" title stroke">What is the last act of the robot? <br>
             Let’s find out how to do so using Blockly!</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video4')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video4')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -272,7 +272,7 @@
         <h2 class="text-center title stroke">Based on the video, can you work out <br>
             the programming steps of this robot?</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video5')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video5')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -281,7 +281,7 @@
 
     {{-- slide 22 --}}
     <div class="slide hidden flex flex-col items-center justify-between h-[45vh] ">
-        <h2 class="text-center justify-start text-[45px] text-white stroke">Hands-on Time 1</h2>
+        <h2 class="text-center justify-start text-[45px] !text-white stroke">Hands-on Time 1</h2>
         <h2 class=" title stroke text-start">Mission: <br>
             Use Blockly to work out the programming steps of a robot
             (as shown in the video on the last page).</h2>
@@ -313,7 +313,7 @@
         <div class="flex flex-col items-end">
             <img src="/assets/images/K1/coding/sound/s26.png" />
             <a
-                class="w-[10vw] h-[4vh] z-[99] bg-sky-500 text-white flex justify-center items-center rounded-[1vw] p-[2vw] click-btn1">Answer</a>
+                class="w-[10vw] h-[4vh] z-[99] bg-sky-500 !text-white flex justify-center items-center rounded-[1vw] p-[2vw] click-btn1">Answer</a>
         </div>
         <p class="note">Note: Remind children to use their layout of coding cards as guide to code.</p>
     </div>
@@ -329,7 +329,7 @@
 
     {{-- slide 25 --}}
     <div class="slide hidden flex flex-col items-center justify-between h-[45vh] ">
-        <h2 class="text-center justify-start text-[45px] text-white stroke">Hands-on Time 2</h2>
+        <h2 class="text-center justify-start text-[45px] !text-white stroke">Hands-on Time 2</h2>
         <h2 class="text-start title stroke">Mission: <br>
             Create a story and then use Blockly to programme a robot to move through a circuit.</h2>
         <p class="note">Note: Divide children into groups. Have them take turns to complete the mission.</p>
@@ -379,7 +379,7 @@
     {{-- slide 29 --}}
     <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[40vw] h-[40vh] bg-cover bg-center flex flex-col justify-start items-center"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center flex flex-col justify-start items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>How does a robot move through this circuit? Number the steps.</p>
             <img src="/assets/images/K1/coding/sound/s28.png" />

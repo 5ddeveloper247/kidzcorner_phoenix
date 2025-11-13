@@ -8,7 +8,7 @@
 
 
     {{-- sldie 1  --}}
-    <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
+    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -37,7 +37,7 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
+    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations for Mini Mobile Phone Activity:</h2>
             <div class="flex items-center gap-10">
@@ -65,7 +65,7 @@
 
 
     {{-- sldie 3 --}}
-    <div class=" slide t-slide flex  text-white flex-col items-center justify-center  text-start">
+    <div class=" slide t-slide flex  !text-white flex-col items-center justify-center  text-start">
         <div>
             <h2 class="t-title">Preparations for Individual Activity - Practice of Dusting and Lifting A
                 Fingerprint:</h2>
@@ -96,7 +96,7 @@
 
 
     {{-- slide 4 --}}
-    <div class=" slide t-slide flex  text-white flex-col items-center justify-start  text-start">
+    <div class=" slide t-slide flex  !text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">How to dust and lift a fingerprint and things to consider:</h2>
             <ul class="list-decimal">
@@ -112,7 +112,7 @@
 
 
     {{-- slide 5 --}}
-    <div class=" slide t-slide flex  text-white flex-col items-center justify-start  text-start">
+    <div class=" slide t-slide flex  !text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">How to dust and lift a fingerprint and things to consider:</h2>
             <ul>
@@ -129,14 +129,14 @@
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
 
         <!-- Video Trigger Button -->
-        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div data-property-1="Default" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
 
     {{-- sldie 6 --}}
-    <div class=" slide t-slide flex  text-white flex-col items-center justify-start  text-start">
+    <div class=" slide t-slide flex  !text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">How to dust and lift a fingerprint and things to consider:</h2>
             <ul>
@@ -153,13 +153,13 @@
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
 
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
     {{-- sldie 7 --}}
-    <div class=" slide t-slide flex  text-white flex-col items-center justify-start  text-start">
+    <div class=" slide t-slide flex  !text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">How to dust and lift a fingerprint and things to consider:</h2>
             <ul>
@@ -175,7 +175,7 @@
 
 
     {{-- sldie 8 --}}
-    <div class=" slide t-slide flex  text-white flex-col items-center justify-start  text-start">
+    <div class=" slide t-slide flex  !text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">How to dust and lift a fingerprint and things to consider:</h2>
             <ul>
@@ -190,7 +190,7 @@
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
 
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -199,7 +199,7 @@
 
 
     {{-- slide 9 --}}
-    <div class=" slide t-slide flex  text-white flex-col items-center justify-start  text-start">
+    <div class=" slide t-slide flex  !text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">How to dust and lift a fingerprint and things to consider:</h2>
             <ul>
@@ -214,14 +214,14 @@
         </video>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video4')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video4')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
 
     {{-- slide 10 --}}
-    <div class=" slide t-slide flex  text-white flex-col items-center justify-start  text-start">
+    <div class=" slide t-slide flex  !text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">How to dust and lift a fingerprint and things to consider:</h2>
             <ul>
@@ -235,7 +235,7 @@
     </div>
 
     {{-- slide 10 --}}
-    <div class=" slide t-slide flex  text-white flex-col items-center justify-start  text-start">
+    <div class=" slide t-slide flex  !text-white flex-col items-center justify-start  text-start">
         <div>
             <ul class="list-disc !text-start">
                 <h2 class=" t-title">How to dust and lift a fingerprint and things to consider:</h2>
@@ -260,7 +260,7 @@
 
 
     {{-- slide 11 --}}
-    <div class=" slide t-slide flex  text-white flex-col items-center justify-start  text-start">
+    <div class=" slide t-slide flex  !text-white flex-col items-center justify-start  text-start">
         <div>
             <ul class="list-disc !text-start">
                 <h2 class=" t-title">Preparations for Class Activity - Solve A Case:</h2>
@@ -287,7 +287,7 @@
 
 
     {{-- slide 11 --}}
-    <div class=" slide t-slide flex  text-white flex-col items-center justify-start  text-start">
+    <div class=" slide t-slide flex  !text-white flex-col items-center justify-start  text-start">
         <div>
             <ul class=" !text-start">
                 <h2 class=" t-title">Solve A Case:</h2>
@@ -390,7 +390,7 @@
 
 
     {{-- sldie 12 --}}
-    <div class="slide flex t-slide  flex-col justify-start   text-start text-white">
+    <div class="slide flex t-slide  flex-col justify-start   text-start !text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
                 <h2 class=" t-title">Notes:</h2>

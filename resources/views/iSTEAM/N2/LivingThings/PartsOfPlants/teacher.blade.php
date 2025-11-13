@@ -7,7 +7,7 @@
     <h2 class="top-title stroke">Parts of a Plant</h2>
 
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start text-start t-slide">
+    <div class=" slide flex text-2xl !text-white flex-col justify-start text-start t-slide">
         <div>
             <h2 class=" t-title ">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -36,7 +36,7 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex flex-col text-2xl justify-center text-white text-start t-slide ">
+    <div class=" slide flex flex-col text-2xl justify-center !text-white text-start t-slide ">
         <div>
             <h2 class=" t-title">Preparations for Individual Activity - Learning Journal:</h2>
             <ul class="list-disc ">
@@ -49,7 +49,7 @@
 
 
     {{-- slide 3 --}}
-    <div class=" slide flex flex-col text-2xl justify-center text-white text-start t-slide ">
+    <div class=" slide flex flex-col text-2xl justify-center !text-white text-start t-slide ">
         <div>
             <h2 class=" t-title">Things to consider:</h2>
             <ul class="list-disc ">
@@ -64,7 +64,7 @@
 
 
     {{-- slide 4 --}}
-    <div class="slide flex t-slide  flex-col  text-2xl text-start text-white">
+    <div class="slide flex t-slide  flex-col  text-2xl text-start !text-white">
         <div>
             <h2 class="t-title">Notes:</h2>
             <ul class="list-disc">

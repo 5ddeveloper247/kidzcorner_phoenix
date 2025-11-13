@@ -4,97 +4,97 @@
 
 @section('content')
     {{--  First Slide --}}
-    <div class="board w-[55vw]  flex flex-col justify-center items-center slide">
+    <div class="board2  flex flex-col justify-center items-center slide1">
 
-        <h2 class="text-[45px] text-[#F7B94A] font-extrabold stroke ">Basic Coding</h2>
+        <h2 class="text-[#F7B94A] stroke board-title">Basic Coding</h2>
 
-        <div class="flex flex-wrap justify-center items-center " style="width: inherit">
+        <div class="grid grid-cols-4 justify-center items-center gap-[2vw] ">
             <!-- Card 1-->
             <a href="{{ route('Directions') }}"
                 style="background-image: url('{{ asset('/assets/images/pptimages/Property1.png') }}');"
-                class=" bg-no-repeat bg-contain bg-center w-[13vw] h-[10vw] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="!text-[1.5vw] text-[#7D6F71]">Directional <br> Signs</h2>
-                <span class="text-[1.3vw] text-[#AF6E39] absolute  top-[1vw] right-[1vw]">1</span>
+                class=" bg-no-repeat bg-contain bg-center  w-[13.594vw] h-[11.198vw] relative flex justify-center items-center transition hover:brightness-110">
+                <h2 class="text-[1.51vw] text-[#7D6F71]">Directional <br> Signs</h2>
+                <span class="text-[2vw] text-[#AF6E39] absolute  top-[1.4vw] right-[1vw]">1</span>
             </a>
 
             <!-- Card 2 -->
             <a href="{{ route('DifferentDirections') }}"
                 style="background-image: url('{{ asset('/assets/images/pptimages/Property1.png') }}');"
-                class=" bg-no-repeat bg-contain bg-center w-[13vw] h-[10vw] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="!text-[1.5vw] text-[#7D6F71]">Different <br> Directions</h2>
-                <span class="text-[1.3vw] text-[#AF6E39] absolute  top-[1vw] right-[1vw]">2</span>
+                class=" bg-no-repeat bg-contain bg-center  w-[13.594vw] h-[11.198vw] relative flex justify-center items-center transition hover:brightness-110">
+                <h2 class="text-[1.51vw] text-[#7D6F71]">Different <br> Directions</h2>
+                <span class="text-[2vw] text-[#AF6E39] absolute  top-[1.4vw] right-[1vw]">2</span>
             </a>
 
             <!-- Card 3 -->
             <a href="{{ route('Instructions') }}"
                 style="background-image: url('{{ asset('/assets/images/pptimages/Property1.png') }}');"
-                class=" bg-no-repeat bg-contain bg-center w-[13vw] h-[10vw] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="!text-[1.5vw] text-[#7D6F71]">Following <br> Instructions</h2>
-                <span class="text-[1.3vw] text-[#AF6E39] absolute  top-[1vw] right-[1vw]">3</span>
+                class=" bg-no-repeat bg-contain bg-center  w-[13.594vw] h-[11.198vw] relative flex justify-center items-center transition hover:brightness-110">
+                <h2 class="text-[1.51vw] text-[#7D6F71]">Following <br> Instructions</h2>
+                <span class="text-[2vw] text-[#AF6E39] absolute  top-[1.4vw] right-[1vw]">3</span>
             </a>
 
             <!-- Card 4 -->
             <a href="{{ route('LetsProgram') }}"
                 style="background-image: url('{{ asset('/assets/images/pptimages/Property1.png') }}');"
-                class=" bg-no-repeat bg-contain bg-center w-[13vw] h-[10vw] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="!text-[1.5vw] text-[#7D6F71]">Let's <br> Programme 1</h2>
-                <span class="text-[1.3vw] text-[#AF6E39] absolute  top-[1vw] right-[1vw]">4</span>
+                class=" bg-no-repeat bg-contain bg-center  w-[13.594vw] h-[11.198vw] relative flex justify-center items-center transition hover:brightness-110">
+                <h2 class="text-[1.51vw] text-[#7D6F71]">Let's <br> Programme 1</h2>
+                <span class="text-[2vw] text-[#AF6E39] absolute  top-[1.4vw] right-[1vw]">4</span>
             </a>
 
             <!-- Card 5 -->
-            <a href="{{ route('LetsProgram2') }}"
-                style="background-image: url('{{ asset('/assets/images/pptimages/Property1.png') }}');"
-                class=" bg-no-repeat bg-contain bg-center w-[13vw] h-[10vw] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="!text-[1.5vw] text-[#7D6F71]">Let's <br> Programme 2</h2>
-                <span class="text-[1.3vw] text-[#AF6E39] absolute  top-[1vw] right-[1vw]">5</span>
-            </a>
+            <div class="col-span-4 flex justify-center gap-[1vw]">
+                <a href="{{ route('LetsProgram2') }}"
+                    style="background-image: url('{{ asset('/assets/images/pptimages/Property1.png') }}');"
+                    class="bg-no-repeat bg-contain bg-center w-[13.594vw] h-[11.198vw] relative flex justify-center items-center transition hover:brightness-110">
+                    <h2 class="text-[1.51vw] text-[#7D6F71]">Let's <br> Programme 2</h2>
+                    <span class="text-[2vw] text-[#AF6E39] absolute top-[1.4vw] right-[1vw]">5</span>
+                </a>
 
-            <!-- Card 6 -->
-            <a href="{{ route('Robot1') }}"
-                style="background-image: url('{{ asset('/assets/images/pptimages/Property1.png') }}');"
-                class=" bg-no-repeat bg-contain bg-center w-[13vw] h-[10vw] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="!text-[1.5vw] text-[#7D6F71]">Programme a <br> Robot 1</h2>
-                <span class="text-[1.3vw] text-[#AF6E39] absolute  top-[1vw] right-[1vw]">6</span>
-            </a>
+                <a href="{{ route('Robot1') }}"
+                    style="background-image: url('{{ asset('/assets/images/pptimages/Property1.png') }}');"
+                    class="bg-no-repeat bg-contain bg-center w-[13.594vw] h-[11.198vw] relative flex justify-center items-center transition hover:brightness-110">
+                    <h2 class="text-[1.51vw] text-[#7D6F71]">Programme a <br> Robot 1</h2>
+                    <span class="text-[2vw] text-[#AF6E39] absolute top-[1.4vw] right-[1vw]">6</span>
+                </a>
 
-            <!-- Card 7 -->
-            <a href="{{ route('Robot2') }}"
-                style="background-image: url('{{ asset('/assets/images/pptimages/Property1.png') }}');"
-                class=" bg-no-repeat bg-contain bg-center w-[13vw] h-[10vw] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="!text-[1.5vw] text-[#7D6F71]">Programme a <br> Robot 2</h2>
-                <span class="text-[1.3vw] text-[#AF6E39] absolute  top-[1vw] right-[1vw]">7</span>
-            </a>
+                <a href="{{ route('Robot2') }}"
+                    style="background-image: url('{{ asset('/assets/images/pptimages/Property1.png') }}');"
+                    class="bg-no-repeat bg-contain bg-center w-[13.594vw] h-[11.198vw] relative flex justify-center items-center transition hover:brightness-110">
+                    <h2 class="text-[1.51vw] text-[#7D6F71]">Programme a <br> Robot 2</h2>
+                    <span class="text-[2vw] text-[#AF6E39] absolute top-[1.4vw] right-[1vw]">7</span>
+                </a>
+            </div>
         </div>
     </div>
 
     {{--  Second Slide (Initially Hidden) --}}
-    <div class="board w-[55vw]   flex flex-col justify-center items-center slide hidden">
+    <div class="board2 w-[55vw]   flex flex-col justify-center items-center slide1 hidden">
 
-        <h2 class="text-[45px] text-[#F7B94A] font-extrabold stroke ">Basic Coding</h2>
+        <h2 class="text-[#F7B94A] stroke board-title">Basic Coding</h2>
 
-        <div class="flex items-center justify-center  ">
+        <div class="flex items-center justify-center gap-[2vw] ">
             <!-- Card 1-->
             <a href="{{ route('Robot3') }}"
                 style="background-image: url('{{ asset('/assets/images/pptimages/Property1.png') }}');"
-                class=" bg-no-repeat bg-contain bg-center w-[13vw] h-[10vw] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="!text-[1.5vw] text-[#7D6F71]">Programme a <br> Robot 3</h2>
-                <span class="text-[1.3vw] text-[#AF6E39] absolute  top-[1vw] right-[1vw]">8</span>
+                class=" bg-no-repeat bg-contain bg-center  w-[13.594vw] h-[11.198vw] relative flex justify-center items-center transition hover:brightness-110">
+                <h2 class="text-[1.51vw] text-[#7D6F71]">Programme a <br> Robot 3</h2>
+                <span class="text-[2vw] text-[#AF6E39] absolute  top-[1.4vw] right-[1vw]">8</span>
             </a>
 
             <!-- Card 2 -->
             <a href="{{ route('Robot4') }}"
                 style="background-image: url('{{ asset('/assets/images/pptimages/Property1.png') }}');"
-                class=" bg-no-repeat bg-contain bg-center w-[13vw] h-[10vw] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 class="!text-[1.5vw] text-[#7D6F71]">Programme a <br> Robot 4</h2>
-                <span class="text-[1.3vw] text-[#AF6E39] absolute  top-[1vw] right-[1vw]">9</span>
+                class=" bg-no-repeat bg-contain bg-center  w-[13.594vw] h-[11.198vw] relative flex justify-center items-center transition hover:brightness-110">
+                <h2 class="text-[1.51vw] text-[#7D6F71]">Programme a <br> Robot 4</h2>
+                <span class="text-[2vw] text-[#AF6E39] absolute  top-[1.4vw] right-[1vw]">9</span>
             </a>
 
             <!-- Card 3 -->
             <a href="{{ route('Robot5') }}"
                 style="background-image: url('{{ asset('/assets/images/pptimages/Property1.png') }}');"
-                class=" bg-no-repeat bg-contain bg-center w-[13vw] h-[10vw] relative flex justify-center items-center transition hover:brightness-110">
-                <h2 style="font-size: 1.5vw !important" class="!text-[1.5vww] text-[#7D6F71]">Programme a <br> Robot 5</h2>
-                <span class="text-[1.3vw] text-[#AF6E39] absolute top-[1vw] right-[1vw]">10</span>
+                class=" bg-no-repeat bg-contain bg-center  w-[13.594vw] h-[11.198vw] relative flex justify-center items-center transition hover:brightness-110">
+                <h2 class="text-[1.5vww] text-[#7D6F71]">Programme a <br> Robot 5</h2>
+                <span class="text-[2vw] text-[#AF6E39] absolute top-[1.4vw] right-[1vw]">10</span>
             </a>
         </div>
     </div>
@@ -129,15 +129,15 @@
 @push('script')
     <script>
         document.addEventListener("DOMContentLoaded", () => {
-            const slides = document.querySelectorAll(".slide");
+            const slides = document.querySelectorAll(".slide1");
             const nextButton = document.querySelector(".nextButton");
             const returnButton = document.getElementById("returnButton");
 
             let currentSlide = 0;
 
             function showSlide(index) {
-                slides.forEach((slide, i) => {
-                    slide.classList.toggle("hidden", i !== index);
+                slides.forEach((slide1, i) => {
+                    slide1.classList.toggle("hidden", i !== index);
                 });
 
                 // First slide → show NEXT button

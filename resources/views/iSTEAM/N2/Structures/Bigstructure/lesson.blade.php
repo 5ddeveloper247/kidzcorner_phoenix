@@ -28,8 +28,8 @@
 
         <img src="{{ asset('assets/images/N2/structure/c-str/s29.png') }}" />
 
-        <h2 class="title stroke ">In fact, all <span class="text-white">vehicles</span> are structures.
-            Cars, vans and pickup trucks are examples of small <span class="text-white">vehicles</span> .</h2>
+        <h2 class="title stroke ">In fact, all <span class="!text-white">vehicles</span> are structures.
+            Cars, vans and pickup trucks are examples of small <span class="!text-white">vehicles</span> .</h2>
 
 
 
@@ -50,8 +50,8 @@
     <div class="slide flex flex-col items-center justify-center">
         <img src="{{ asset('assets/images/N2/structure/b-str/s1.png') }}" class="large-img6" />
 
-        <h2 class="title stroke">Coaches and buses are big <span class="text-white">vehicles</span>. <br>
-            These <span class="text-white">vehicles</span> can carry up to 40 people!</h2>
+        <h2 class="title stroke">Coaches and buses are big <span class="!text-white">vehicles</span>. <br>
+            These <span class="!text-white">vehicles</span> can carry up to 40 people!</h2>
     </div>
 
 

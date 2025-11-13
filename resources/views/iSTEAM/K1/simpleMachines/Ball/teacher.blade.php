@@ -6,7 +6,7 @@
     <h2 class="top-title stroke">Launch a Ball Machine</h2>
 
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -36,7 +36,7 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start items-center  text-start">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start items-center  text-start">
         <div class="flex gap-[5rem] ">
             <div>
                 <ul>
@@ -65,7 +65,7 @@
 
 
     {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start items-center text-start">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start items-center text-start">
         <div>
 
             <h2 class=" t-title">Things to consider for preparations:</h2>
@@ -82,7 +82,7 @@
 
 
     {{-- sldie 4 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start items-center  text-start">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start items-center  text-start">
         <div>
             <h2 class=" t-title">Things to consider for preparations:</h2>
             <ul class="list-disc">
@@ -98,7 +98,7 @@
 
 
     {{-- sldie 4 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start items-center  text-start">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start items-center  text-start">
         <ul class="list-disc">
             <h2 class=" t-title">Things to consider for preparations:</h2>
             <li>You may provide a toy track or handmade track for children to set up the
@@ -114,7 +114,7 @@
 
 
     {{-- sldie 5 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start items-center  text-start">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start items-center  text-start">
         <div>
             <h2 class=" t-title">Things to consider for preparations:</h2>
             <ul class="list-disc">
@@ -130,7 +130,7 @@
 
 
     {{-- sldie 6 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-flex-start items-start   text-start">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-flex-start items-start   text-start">
         <div>
             <h2 class=" t-title">Things to consider during hands-on session:</h2>
             <ul class="list-disc">
@@ -148,7 +148,7 @@
 
 
     {{-- slide 7 --}}
-    <div class="slide flex t-slide  flex-col  text-2xl text-start text-white">
+    <div class="slide flex t-slide  flex-col  text-2xl text-start !text-white">
         <div>
             <h2 class="t-title">Notes:</h2>
             <ul class="list-disc">
@@ -186,7 +186,7 @@
 
 
     {{-- slide 8 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  items-start  text-start">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  items-start  text-start">
         <h2 class="title stroke text-center">Learning Centre Idea</h2>
         <ul>
             <h2 class=" t-title">The Best Launch a Ball Machine</h2>

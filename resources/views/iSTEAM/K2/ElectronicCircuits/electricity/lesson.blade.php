@@ -70,7 +70,7 @@
             a socket and the switch is turned on.</h2>
         <p class="note">Note: A socket is a common power source . Most sockets are fixed on the wall.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -145,7 +145,7 @@
         <h2 class="title stroke">Children, what is this? What is it for? <br>
             Does it use electricity to work?</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -160,7 +160,7 @@
         <h2 class="title stroke">How about this? What is it for? <br>
             Does it use electricity to work?</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -226,7 +226,7 @@
             to recharge the battery.</h2>
         <p class="note">Note: Guide children to watch the video and describe what they see.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video4')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video4')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -279,7 +279,7 @@
     </div>
 
     {{-- slide 25 --}}
-    <div class="slide hidden  flex flex-col items-center justify-between h-[60%] ">
+    <div class="slide hidden  flex flex-col items-center justify-between h-[50vh] ">
         <h2 class="title stroke">What do you learn from the two hands-on activities?</h2>
         <p class="note">Note: Encourage children to share their findings and views.</p>
     </div>

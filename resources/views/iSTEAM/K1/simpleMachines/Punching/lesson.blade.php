@@ -24,7 +24,7 @@
         <h2 class="title stroke">Let’s watch a video!</h2>
         <p class="note ">Note: Turn to next page to watch the video in slow motion.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -39,7 +39,7 @@
         <h2 class="title stroke">Now, let’s watch the video in slow motion!</h2>
         <p class="note ">Note: Have children freely talk about what they see. Do not correct them on the terms used.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -79,7 +79,7 @@
         <p class="note">Note: Have children watch and talk about what happens in the last part of the video
             (What does the machine do?).</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -93,7 +93,7 @@
         <h2 class="title stroke">Yes, this is a Rube Goldberg Machine to punch holes in
             a paper, just for fun!</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video4')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video4')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
 
@@ -212,7 +212,7 @@
         <h2 class="title stroke">Position the books such that they always
             fall one after another and create a <span class="!text-white">domino effect</span>.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video5')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video5')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -245,7 +245,7 @@
     {{-- sldie 23 --}}
     <div class="slide  hidden flex flex-col items-center justify-center ">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[40vw] h-[40vh] bg-cover bg-center text-center"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center text-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p class=>Draw the Rube Goldberg Machine that you have created to punch holes in
                 a sheet of paper.</p>

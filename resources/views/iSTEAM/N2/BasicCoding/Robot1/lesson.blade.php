@@ -41,8 +41,8 @@
     {{-- sldie 5 --}}
     <div class="slide flex flex-col items-center justify-center  ">
         <img src="{{ asset('assets/images/N2/BasicCoding/bs11.png') }}" class="large-img6" />
-        <h2 class="title stroke text-center">So a <span class="text-white">programme</span> is the step-by-step
-            <span class="text-white">instructions</span>that tell the <span class="text-white">machine</span> what to do.
+        <h2 class="title stroke text-center">So a <span class="!text-white">programme</span> is the step-by-step
+            <span class="!text-white">instructions</span>that tell the <span class="!text-white">machine</span> what to do.
         </h2>
     </div>
 
@@ -56,16 +56,16 @@
     {{-- slide 7 --}}
     <div class="slide flex flex-col items-center justify-center  ">
         <img src="{{ asset('assets/images/N2/BasicCoding/br1.png') }}" class="large-img2" />
-        <h2 class="title stroke text-center"> This is a <span class="text-white">robot</span>.
-            A <span class="text-white">robot</span> is a <span class="text-white">machine</span>.</h2>
+        <h2 class="title stroke text-center"> This is a <span class="!text-white">robot</span>.
+            A <span class="!text-white">robot</span> is a <span class="!text-white">machine</span>.</h2>
         <p class="note">Note: Display a robot. Guide children to talk about it’s physical look.</p>
     </div>
 
     {{-- slide 8 --}}
     <div class="slide flex flex-col items-center justify-center  ">
         <img src="{{ asset('assets/images/N2/BasicCoding/br2.png') }}" class="large-img2" />
-        <h2 class="title stroke text-center"> This <span class="text-white">robot</span>
-            can be programmed using its<span class="text-white"> pen controller</span>.</h2>
+        <h2 class="title stroke text-center"> This <span class="!text-white">robot</span>
+            can be programmed using its<span class="!text-white"> pen controller</span>.</h2>
         <p class="note">Note: Display a pen controller. Guide children to count how many buttons are there on the pen.</p>
     </div>
 
@@ -76,7 +76,7 @@
         <h2 class="title stroke text-center">This is the way to turn the robot on or off.</h2>
         <p class="note">Note: Demonstrate and then guide children to describe how to do so.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -88,7 +88,7 @@
         <h2 class="title stroke text-center">This is the way to turn the pen controller on or off.</h2>
         <p class="note">Note: Demonstrate and then guide children to describe how to do so.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -97,9 +97,9 @@
     {{-- sldie 11 --}}
     <div class="slide flex flex-col items-center justify-center  ">
         <img src="{{ asset('assets/images/N2/BasicCoding/br4.png') }}" class="large-img3" />
-        <h2 class="title stroke text-center">These are facial expression <span class="text-white">programming
-            </span> <span class="text-white">cards</span>.
-            Each card tells the <span class="text-white">robot</span> what facial expression to show.
+        <h2 class="title stroke text-center">These are facial expression <span class="!text-white">programming
+            </span> <span class="!text-white">cards</span>.
+            Each card tells the <span class="!text-white">robot</span> what facial expression to show.
             What feeling does each card show?</h2>
     </div>
 
@@ -111,7 +111,7 @@
             to show a facial expression.</h2>
         <p class="note">Note: Demonstrate and then guide children to describe how to do so (use the pen to tap on a card).
             <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
         </p>
@@ -122,7 +122,7 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="!text-white title stroke">Hands-on Time 1</h2>
         <div class="text-start">
-            <h2 class="title stroke">Mission: <br>
+            <h2 class="title stroke text-start">Mission: <br>
                 Let's use a pen controller to programme a robot to show a
                 facial expression. Can you do the same facial expression? Show your friends.</h2>
         </div>
@@ -153,7 +153,7 @@
 
         <p class="note">Note: Demonstrate and then guide children to describe how to do so.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -179,7 +179,7 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="!text-white title stroke">Hands-on Time 2</h2>
         <div class="text-start">
-            <h2 class="title stroke">Mission: <br>
+            <h2 class="title stroke text-start">Mission: <br>
                 Let's create a programme to tell a robot to show different
                 facial expressions in an order. Can you create a programme that is different from your friends? Try it!</h2>
         </div>

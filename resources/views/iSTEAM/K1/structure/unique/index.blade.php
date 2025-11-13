@@ -4,8 +4,8 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col   items-center ">
-        <div class="indexTitle  text-[55px]  stroke">Unique Buildings</div>
-        <h2 class=" text-white stroke ">
+        <div class="indexTitle    stroke">Unique Buildings</div>
+        <h2 class=" !text-white stroke ">
             Explore and learn about some buildings
             around the world;
             design and build a unique building</h2>

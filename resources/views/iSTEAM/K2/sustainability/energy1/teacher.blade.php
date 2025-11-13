@@ -7,7 +7,7 @@
 
 
     {{-- sldie 1  --}}
-    <div class=" slide flex t-slide text-white flex-col justify-start text-start">
+    <div class=" slide flex t-slide !text-white flex-col justify-start text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -45,7 +45,7 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex t-slide text-white flex-col justify-start text-start">
+    <div class=" slide flex t-slide !text-white flex-col justify-start text-start">
         <div>
             <h2 class="t-title">Things to note for Class Activity 1</h2>
             <ul class="list-disc ">
@@ -74,7 +74,7 @@
 
 
     {{-- sldie 3 --}}
-    <div class=" slide flex t-slide text-white flex-col items-center justify-center text-start">
+    <div class=" slide flex t-slide !text-white flex-col items-center justify-center text-start">
         <div>
             <h2 class="t-title">Preparation For Class Activity 1:</h2>
             <ol class="list-decimal pl-6">
@@ -88,7 +88,7 @@
     </div>
 
     {{-- sldie 4 --}}
-    <div class=" slide flex t-slide text-white flex-col items-center justify-center text-start">
+    <div class=" slide flex t-slide !text-white flex-col items-center justify-center text-start">
         <div>
             <h2 class="t-title">Preparation For Class Activity 1:</h2>
             <ol class="list-decimal pl-6" start="4">
@@ -101,7 +101,7 @@
     </div>
 
     {{-- sldie 5 --}}
-    <div class=" slide flex t-slide text-white flex-col items-center justify-center text-start">
+    <div class=" slide flex t-slide !text-white flex-col items-center justify-center text-start">
         <div>
             <h2 class="t-title">Preparation For Class Activity 1:</h2>
             <ol class="list-decimal pl-6" start="6">
@@ -113,7 +113,7 @@
     </div>
 
     {{-- sldie 6 --}}
-    <div class=" slide flex t-slide text-white flex-col items-center justify-center text-start">
+    <div class=" slide flex t-slide !text-white flex-col items-center justify-center text-start">
         <div>
             <h2 class="t-title">Preparation For Class Activity 1:</h2>
             <ol class="list-decimal pl-6" start="7">
@@ -126,7 +126,7 @@
     </div>
 
     {{-- sldie 7 --}}
-    <div class=" slide flex t-slide text-white flex-col items-center justify-center text-start">
+    <div class=" slide flex t-slide !text-white flex-col items-center justify-center text-start">
         <div>
             <h2 class="t-title">Preparation For Class Activity 1:</h2>
             <ol class="list-decimal pl-6" start="8">
@@ -139,7 +139,7 @@
     </div>
 
     {{-- sldie 8 --}}
-    <div class=" slide flex t-slide text-white flex-col items-center justify-center text-start">
+    <div class=" slide flex t-slide !text-white flex-col items-center justify-center text-start">
         <div>
             <h2 class="t-title">Preparation For Class Activity 1:</h2>
             <ol class="list-decimal pl-6" start="10">
@@ -153,7 +153,7 @@
     </div>
 
     {{-- sldie 9 --}}
-    <div class=" slide flex  t-slide text-white flex-col items-center justify-start text-start">
+    <div class=" slide flex  t-slide !text-white flex-col items-center justify-start text-start">
         <div>
             <h2 class="t-title">Things to note for Class Activity 2</h2>
             <ul>
@@ -167,7 +167,7 @@
     </div>
 
     {{-- slide 10 --}}
-    <div class=" slide flex  t-slide text-white flex-col items-center justify-start text-start">
+    <div class=" slide flex  t-slide !text-white flex-col items-center justify-start text-start">
         <h2 class=" t-title">Notes:</h2>
         <ul>
             <li class=" flex whitespace-nowrap">If you see
@@ -198,7 +198,7 @@
     </div>
 
     {{-- slide 11 --}}
-    <div class=" slide flex  t-slide text-white flex-col items-center justify-start text-start">
+    <div class=" slide flex  t-slide !text-white flex-col items-center justify-start text-start">
         <h2 class=" title stroke">Learning Centre Idea</h2>
         <div>
             <div>

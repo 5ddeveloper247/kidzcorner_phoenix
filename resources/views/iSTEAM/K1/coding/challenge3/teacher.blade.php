@@ -7,7 +7,7 @@
 
 
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -41,7 +41,7 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
@@ -57,7 +57,7 @@
     </div>
 
     {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc">
@@ -71,7 +71,7 @@
 
 
     {{-- slide 4 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide justify-start  text-start">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations for the testing of the ball roller coaster:</h2>
             <ul class="list-disc">
@@ -85,7 +85,7 @@
 
 
     {{-- slide 5 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide items-center justify-start  text-start">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc">
@@ -99,7 +99,7 @@
     </div>
 
     {{-- sldie 6 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide items-center justify-start  text-start">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc">
@@ -112,7 +112,7 @@
 
 
     {{-- sldie 7 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide  justify-start  text-start">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide  justify-start  text-start">
 
         <h2 class=" t-title">When the hands-on session starts, guide each group of children to:</h2>
         <ul class="list-disc">
@@ -131,7 +131,7 @@
 
 
     {{-- sldie 8 --}}
-    <div class=" slide flex text-2xl text-white flex-col t-slide  justify-start  text-start">
+    <div class=" slide flex text-2xl !text-white flex-col t-slide  justify-start  text-start">
 
         <h2 class=" t-title">When the hands-on session starts, guide each group of children to:</h2>
         <ul class="list-disc">
@@ -149,7 +149,7 @@
 
 
     {{-- sldie 9 --}}
-    <div class="slide flex  flex-col t-slide justify-start  text-2xl text-start text-white">
+    <div class="slide flex  flex-col t-slide justify-start  text-2xl text-start !text-white">
         <div>
             <h2 class=" t-title">Notes:</h2>
             <ul class="list-disc leading-relaxed">

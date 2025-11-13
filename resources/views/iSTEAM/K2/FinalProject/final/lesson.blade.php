@@ -5,7 +5,7 @@
 
 
     {{-- Slide 1 --}}
-    <div class="slide flex flex-col items-center justify-between h-[60%]">
+    <div class="slide flex flex-col items-center justify-between h-[50vh]">
         <div class="title stroke">
             <h2>Children, do you still remember the six simple machines that
                 you have learnt? What are they?</h2>
@@ -57,7 +57,7 @@
 
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video1')"
-            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
       <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -85,7 +85,7 @@
 
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video2')"
-            class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
       <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>

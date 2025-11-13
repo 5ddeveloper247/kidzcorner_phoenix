@@ -3,18 +3,16 @@
 
 @section('content')
 
-    <div id="topDiv" class="flex flex-col  gap-20 items-center ">
-        <div class="indexTitle  text-[55px]  stroke">Evolution of Aeroplanes</div>
-        <h2 class="text-2xl sm:text-3xl lg:text-5xl text-white stroke ">
+    <div id="topDiv" class="flex flex-col  items-center ">
+        <div class="indexTitle stroke">Evolution of Aeroplanes</div>
+        <h2 class=" !text-white">
             Learn about the history of aeroplane invention; <br>
             learn about aerodynamics in vehicles and sports</h2>
 
-        {{-- next Button --}}
-        <div class="down-btn-container">
+
             <button class="nextButton">
                 <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
             </button>
-        </div>
     </div>
 
 

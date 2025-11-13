@@ -322,7 +322,7 @@
                                     <img src="{{ asset('storage/' . Auth::user()->company->logo) }}" class="user-img"
                                         alt="school logo">
                                 @else
-                                    <div class="user-img bg-primary d-flex align-items-center justify-content-center text-white fw-bold"
+                                    <div class="user-img bg-primary d-flex align-items-center justify-content-center !text-white fw-bold"
                                         style="width: 40px; height: 40px; border-radius: 50%;">
                                         {{ strtoupper(substr(Auth::user()->name, 0, 1)) }}
                                     </div>

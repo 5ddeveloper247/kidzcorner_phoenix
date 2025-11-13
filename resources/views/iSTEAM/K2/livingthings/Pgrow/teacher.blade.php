@@ -6,7 +6,7 @@
     <h2 class="top-title stroke">How Plants Grow?</h2>
 
     {{-- sldie 1  --}}
-    <div class=" slide flex  t-slide text-white flex-col justify-start  text-start">
+    <div class=" slide flex  t-slide !text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -32,7 +32,7 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex  t-slide text-white flex-col justify-start  text-start">
+    <div class=" slide flex  t-slide !text-white flex-col justify-start  text-start">
         <ul class="list-disc">
             <h2 class=" t-title">Preparations for Individual Activity - growing plants from seeds:</h2>
             <li >A type of fast growing seed (preferably not too small), such as:
@@ -60,7 +60,7 @@
     </div>
 
     {{-- sldie 3 --}}
-    <div class=" slide flex  t-slide text-white flex-col justify-start  text-start">
+    <div class=" slide flex  t-slide !text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Things to consider for preparations - growing plants from seeds:</h2>
             <ul class="list-disc">
@@ -77,7 +77,7 @@
 
 
     {{-- slide 4 --}}
-    <div class=" slide flex  t-slide text-white flex-col justify-start  text-start">
+    <div class=" slide flex  t-slide !text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">How to grow plants from seeds and things to consider:</h2>
             <ul class="list-decimal">
@@ -92,7 +92,7 @@
 
 
     {{-- slide 5 --}}
-    <div class=" slide flex  t-slide text-white flex-col items-center justify-start  text-start">
+    <div class=" slide flex  t-slide !text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">How to grow plants from seeds and things to consider:</h2>
             <ul>
@@ -106,7 +106,7 @@
     </div>
 
     {{-- sldie 6 --}}
-    <div class=" slide flex  t-slide text-white flex-col items-center justify-start  text-start">
+    <div class=" slide flex  t-slide !text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">How to grow plants from seeds and things to consider:</h2>
             <ul>
@@ -121,7 +121,7 @@
 
 
     {{-- sldie 7 --}}
-    <div class=" slide flex  t-slide text-white flex-col items-center justify-start  text-start">
+    <div class=" slide flex  t-slide !text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">How to grow plants from seeds and things to consider:</h2>
             <ul>
@@ -135,7 +135,7 @@
 
 
     {{-- sldie 8 --}}
-    <div class=" slide flex  t-slide text-white flex-col items-center justify-start  text-start">
+    <div class=" slide flex  t-slide !text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">How to grow plants from seeds and things to consider:</h2>
             <ul>
@@ -148,7 +148,7 @@
 
 
     {{-- slide 9 --}}
-    <div class=" slide flex  t-slide text-white flex-col items-center justify-start  text-start">
+    <div class=" slide flex  t-slide !text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">How to grow plants from seeds and things to consider:</h2>
             <ul>
@@ -165,7 +165,7 @@
 
 
     {{-- sldie 10 --}}
-    <div class=" slide flex  t-slide text-white flex-col items-start justify-start gap-y-5 text-start">
+    <div class=" slide flex  t-slide !text-white flex-col items-start justify-start gap-y-5 text-start">
         <h2 class=" t-title">Sample Learning Journal 1:</h2>
         <img src="{{ asset('assets/images/K2/livingthings/pgrow/p18.png') }}" alt="Teacher" class="w-[600px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
@@ -173,14 +173,14 @@
 
 
     {{-- sldie 11 --}}
-    <div class=" slide flex  t-slide text-white flex-col items-start justify-start gap-y-5 text-start">
+    <div class=" slide flex  t-slide !text-white flex-col items-start justify-start gap-y-5 text-start">
         <h2 class=" t-title">Sample Learning Journal 2:</h2>
         <img src="{{ asset('assets/images/K2/livingthings/pgrow/p19.png') }}" alt="Teacher" class="w-[600px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
     {{-- sldie 12 --}}
-    <div class=" slide flex  t-slide text-white flex-col items-start justify-start gap-y-5 text-start">
+    <div class=" slide flex  t-slide !text-white flex-col items-start justify-start gap-y-5 text-start">
         <h2 class=" t-title">Sample seed’s growth 1:</h2>
         <div class="flex items-start gap-5">
             <img src="{{ asset('assets/images/K2/livingthings/pgrow/p20.png') }}" alt="Teacher" class="w-[600px]" />
@@ -191,7 +191,7 @@
     </div>
 
     {{-- sldie 13 --}}
-    <div class=" slide flex  t-slide text-white flex-col items-start justify-start gap-y-5 text-start">
+    <div class=" slide flex  t-slide !text-white flex-col items-start justify-start gap-y-5 text-start">
         <h2 class=" t-title">Sample seed’s growth 2:</h2>
         <div class="flex items-start gap-5">
             <img src="{{ asset('assets/images/K2/livingthings/pgrow/p21.png') }}" alt="Teacher" class="w-[600px]" />
@@ -203,7 +203,7 @@
 
 
     {{-- sldie 14 --}}
-    <div class=" slide flex  t-slide text-white flex-col items-start justify-start gap-y-5 text-start">
+    <div class=" slide flex  t-slide !text-white flex-col items-start justify-start gap-y-5 text-start">
         <h2 class=" t-title">Sample seed’s growth 3:</h2>
         <div class="flex items-start gap-5">
             <img src="{{ asset('assets/images/K2/livingthings/pgrow/p22.png') }}" alt="Teacher" class="w-[600px]" />
@@ -215,7 +215,7 @@
 
 
     {{-- sldie 15 --}}
-    <div class=" slide flex  t-slide text-white flex-col items-start justify-start gap-y-5 text-start">
+    <div class=" slide flex  t-slide !text-white flex-col items-start justify-start gap-y-5 text-start">
         <h2 class=" t-title">Sample seed’s growth 4:</h2>
         <div class="flex items-start gap-5">
             <img src="{{ asset('assets/images/K2/livingthings/pgrow/p21.png') }}" alt="Teacher" class="w-[600px]" />
@@ -227,7 +227,7 @@
 
 
     {{-- slide16 --}}
-    <div class=" slide flex  t-slide text-white flex-col items-center justify-start  text-start">
+    <div class=" slide flex  t-slide !text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">How to regrow green onions and things to consider:</h2>
             <ul>
@@ -242,7 +242,7 @@
 
 
     {{-- slide17 --}}
-    <div class=" slide flex  t-slide text-white flex-col items-start justify-start  text-start">
+    <div class=" slide flex  t-slide !text-white flex-col items-start justify-start  text-start">
         <div>
             <h2 class=" t-title">How to regrow green onions and things to consider:</h2>
             <ul>
@@ -259,7 +259,7 @@
 
 
     {{-- slide18 --}}
-    <div class="slide flex  t-slide text-white flex-col items-start justify-start  text-start">
+    <div class="slide flex  t-slide !text-white flex-col items-start justify-start  text-start">
         <div>
             <h2 class=" t-title">How to regrow green onions and things to consider:</h2>
             <ul>
@@ -272,7 +272,7 @@
 
 
     {{-- slide19 --}}
-    <div class=" slide flex  t-slide text-white flex-col items-start justify-start  text-start">
+    <div class=" slide flex  t-slide !text-white flex-col items-start justify-start  text-start">
         <div>
             <h2 class=" t-title">How to regrow green onions and things to consider:</h2>
             <ul>
@@ -289,7 +289,7 @@
 
 
     {{-- sldie 20 --}}
-    <div class=" slide flex  t-slide text-white flex-col items-start justify-start gap-y-5 text-start">
+    <div class=" slide flex  t-slide !text-white flex-col items-start justify-start gap-y-5 text-start">
         <h2 class=" t-title">Sample Learning Journal:</h2>
         <img src="{{ asset('assets/images/K2/livingthings/pgrow/p23.png') }}" alt="Teacher" class="w-[600px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
@@ -297,7 +297,7 @@
 
 
     {{-- sldie 21 --}}
-    <div class=" slide flex  t-slide text-white flex-col items-start justify-start gap-y-5 text-start">
+    <div class=" slide flex  t-slide !text-white flex-col items-start justify-start gap-y-5 text-start">
         <h2 class=" t-title">Sample green onion’s growth:</h2>
         <div class="flex items-start gap-5">
             <img src="{{ asset('assets/images/K2/livingthings/pgrow/p24.png') }}" alt="Teacher" class="w-[600px]" />
@@ -327,7 +327,7 @@
 
 
     {{-- sldie 22 --}}
-    <div class=" slide flex  t-slide text-white flex-col justify-start  text-start">
+    <div class=" slide flex  t-slide !text-white flex-col justify-start  text-start">
         <div>
             <h2>Possible questions during daily observation session:</h2>
             <ul class="list-disc ">
@@ -345,7 +345,7 @@
     </div>
 
     {{-- sldie 23 --}}
-    <div class="slide flex  flex-col justify-start   t-slide text-start text-white">
+    <div class="slide flex  flex-col justify-start   t-slide text-start !text-white">
         <div class="text-start">
                 <h2 class=" t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">

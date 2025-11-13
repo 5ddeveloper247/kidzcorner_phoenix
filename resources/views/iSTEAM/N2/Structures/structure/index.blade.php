@@ -4,7 +4,7 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col items-center ">
-        <h2 class=" indexTitle text-[55px] stroke">What are Structures?</h2>
+        <h2 class=" indexTitle  stroke">What are Structures?</h2>
         <h2 class="!text-white title">Understand the meaning of structures; <br>
             Learn that structures have shapes</h2>
 

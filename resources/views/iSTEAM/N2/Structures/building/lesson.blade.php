@@ -22,7 +22,7 @@
     {{-- Slide 2 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
         <img src="{{ asset('/assets/images/N2/structure/str/st36.png') }}" class="large-img6" />
-        <h2 class="title stroke">These are different types of <span class="text-white">structures</span>.</h2>
+        <h2 class="title stroke">These are different types of <span class="!text-white">structures</span>.</h2>
 
     </div>
 
@@ -30,7 +30,7 @@
     {{-- Slide3 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
         <img src="{{ asset('/assets/images/N2/structure/str/st36.png') }}" class="large-img6" />
-        <h2 class="title stroke">The <span class="text-white">structures</span> have different shapes and sizes.</h2>
+        <h2 class="title stroke">The <span class="!text-white">structures</span> have different shapes and sizes.</h2>
         <p class="note">Note: Encourage children to share what shapes they see.</p>
     </div>
 
@@ -38,7 +38,7 @@
     {{-- Slide 4 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
         <h2 class="title stroke">Children, today we are going to look at <br>
-            different types of <span class="text-white">buildings</span> around us!</h2>
+            different types of <span class="!text-white">buildings</span> around us!</h2>
     </div>
 
 
@@ -46,9 +46,9 @@
     {{-- Slide 5  --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
         <img src="{{ asset('/assets/images/N2/structure/str3/s1.png') }}" class="large-img6" />
-        <h2 class="title stroke"><span class="text-white">buildings</span> are <span class="text-white">structures</span>.
+        <h2 class="title stroke"><span class="!text-white">buildings</span> are <span class="!text-white">structures</span>.
             <br>
-            There are many types of <span class="text-white">buildings</span> around us.
+            There are many types of <span class="!text-white">buildings</span> around us.
         </h2>
         <p class="note">Note: Encourage children to share their answers.</p>
 
@@ -60,8 +60,8 @@
     {{-- slide 6 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
         <img src="{{ asset('/assets/images/N2/structure/str3/s1.png') }}" class="large-img6" />
-        <h2 class="title stroke">Do you know what kind of <span class="text-white">buildings</span> these are?
-            What <span class="text-white">shapes</span> do they look like?</h2>
+        <h2 class="title stroke">Do you know what kind of <span class="!text-white">buildings</span> these are?
+            What <span class="!text-white">shapes</span> do they look like?</h2>
         <p class="note">Note: Encourage children to share their answers.</p>
 
     </div>
@@ -70,9 +70,9 @@
     {{-- Slide 7 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
         <img src="{{ asset('/assets/images/N2/structure/str3/s1.png') }}" class="large-img6" />
-        <h2 class="title stroke">These are <span class="text-white"> office buildings</span>. They are usually <span
+        <h2 class="title stroke">These are <span class="!text-white"> office buildings</span>. They are usually <span
                 class="text-white">tall</span>
-            and they have shapes similar to <span class="text-white">rectangles</span>.</h2>
+            and they have shapes similar to <span class="!text-white">rectangles</span>.</h2>
 
     </div>
 
@@ -80,7 +80,7 @@
     {{-- slide 8 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
         <img src="{{ asset('/assets/images/N2/structure/str3/s2.png') }}" class="large-img6" />
-        <h2 class="title stroke">What do you think these beautiful <span class="text-white">buildings</span> are?</h2>
+        <h2 class="title stroke">What do you think these beautiful <span class="!text-white">buildings</span> are?</h2>
         <p class="note">Note: Encourage children to describe the shape and how these buildings look.</p>
 
     </div>
@@ -90,7 +90,7 @@
     {{-- slide 9 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
         <img src="{{ asset('/assets/images/N2/structure/str3/s2.png') }}" class="large-img6" />
-        <h2 class="title stroke">These are <span class="text-white">hotels</span>. Some <span
+        <h2 class="title stroke">These are <span class="!text-white">hotels</span>. Some <span
                 class="text-white">hotels</span> are tall and they have
             special designs and shapes.</h2>
         <p class="note">Note: Encourage children to describe the shape and how these buildings look.</p>
@@ -104,7 +104,7 @@
     <div class="slide flex flex-col items-center justify-center gap-5 ">
         <img src="{{ asset('/assets/images/N2/structure/str3/s3.png') }}" class="large-img6" />
         <h2 class="title stroke">Can you guess what these are?
-            People can live in these <span class="text-white">buildings</span>.</h2>
+            People can live in these <span class="!text-white">buildings</span>.</h2>
         <p class="note">Note: Encourage children to describe how the houses look.</p>
 
     </div>
@@ -115,7 +115,7 @@
     <div class="slide flex flex-col items-center justify-center gap-5 ">
         <img src="{{ asset('/assets/images/N2/structure/str3/s3.png') }}" class="large-img6" />
         <h2 class="title stroke">These are homes for people.
-            These <span class="text-white">buildings</span> are of different <span class="text-white">shapes</span> too.
+            These <span class="!text-white">buildings</span> are of different <span class="!text-white">shapes</span> too.
         </h2>
         <p class="note">Note: Encourage children to describe how the houses look.</p>
 
@@ -127,7 +127,7 @@
     <div class="slide flex flex-col items-center justify-center gap-5 ">
         <img src="{{ asset('/assets/images/N2/structure/str3/s4.png') }}" class="large-img6" />
         <h2 class="title stroke">Some people live in houses. Houses are also a type of
-            <span class="text-white">building</span>. They are shorter and smaller.
+            <span class="!text-white">building</span>. They are shorter and smaller.
         </h2>
         <p class="note">Note: Encourage children to describe how these houses look using shapes.</p>
 
@@ -146,7 +146,7 @@
     {{-- slide 14 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
         <img src="{{ asset('/assets/images/N2/structure/str3/s5.png') }}" class="large-img6" />
-        <h2 class="title stroke">These buildings are <span class="text-white">short</span> and wide.
+        <h2 class="title stroke">These buildings are <span class="!text-white">short</span> and wide.
             They have big spaces in them.</h2>
 
     </div>
@@ -155,7 +155,7 @@
     {{-- slide 15 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
         <img src="{{ asset('/assets/images/N2/structure/str3/s6.png') }}" class="large-img6" />
-        <h2 class="title stroke">All the <span class="text-white">buildings</span> stand on their own because they have a
+        <h2 class="title stroke">All the <span class="!text-white">buildings</span> stand on their own because they have a
             base that can support their structure.</h2>
 
     </div>
@@ -169,7 +169,7 @@
             <img src="{{ asset('/assets/images/N2/structure/str3/s7.png') }}" class="large-img4" />
             <img src="{{ asset('/assets/images/N2/structure/str3/s8.png') }}" class="large-img4" />
         </div>
-        <h2 class="title stroke">Children, do you remember the two <span class="text-white">structures</span> you
+        <h2 class="title stroke">Children, do you remember the two <span class="!text-white">structures</span> you
             had made in the last lesson?</h2>
 
     </div>
@@ -184,7 +184,7 @@
             <img src="{{ asset('/assets/images/N2/structure/str3/s10.png') }}" class="large-img3" />
             <img src="{{ asset('/assets/images/N2/structure/str3/s11.png') }}" class="large-img3" />
         </div>
-        <h2 class="title stroke">We learned that the <span class="text-white">structure</span> with a <span
+        <h2 class="title stroke">We learned that the <span class="!text-white">structure</span> with a <span
                 class="text-white">thin base</span>
             cannot stand on its own.</h2>
 
@@ -194,7 +194,7 @@
     <div class="slide flex flex-col items-center justify-center gap-5 ">
 
         <img src="{{ asset('/assets/images/N2/structure/str3/s12.png') }}" class="large-img6" />
-        <h2 class="title stroke">But the <span class="text-white">structure</span> with a <span class="text-white">wider
+        <h2 class="title stroke">But the <span class="!text-white">structure</span> with a <span class="!text-white">wider
                 base</span> can support its
             structure and is able to stand on its own.</h2>
 
@@ -214,10 +214,10 @@
     <div class="slide flex flex-col items-center justify-center gap-5 ">
 
         <img src="{{ asset('/assets/images/N2/structure/str3/s14.png') }}" />
-        <h2 class="title stroke">The workers build the <span class="text-white">building</span> from the bottom to the
-            top. They build one <span class="text-white">level</span> at a time.</h2>
+        <h2 class="title stroke">The workers build the <span class="!text-white">building</span> from the bottom to the
+            top. They build one <span class="!text-white">level</span> at a time.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
 
@@ -228,8 +228,8 @@
     <div class="slide flex flex-col items-center justify-center gap-5 ">
 
         <img src="{{ asset('/assets/images/N2/structure/str3/s15.png') }}" />
-        <h2 class="title stroke">Worker make sure that the <span class="text-white">base</span> is able to support the
-            <span class="text-white">structure</span> as they build each level.
+        <h2 class="title stroke">Worker make sure that the <span class="!text-white">base</span> is able to support the
+            <span class="!text-white">structure</span> as they build each level.
         </h2>
 
     </div>
@@ -239,7 +239,7 @@
     <div class="slide flex flex-col items-center justify-center gap-5 ">
 
         <img src="{{ asset('/assets/images/N2/structure/str3/s15.png') }}" />
-        <h2 class="title stroke"><span class="text-white">Buildings</span> then form the <span
+        <h2 class="title stroke"><span class="!text-white">Buildings</span> then form the <span
                 class="text-white">shape</span> as the workers
             put the smaller parts together.</h2>
 

@@ -16,8 +16,8 @@
     {{-- Slide 2 --}}
     <div class="slide flex flex-col items-center justify-center gap-[1vw] ">
         <img src="{{ asset('assets/images/K2/livingthings/things/t1.png') }}" />
-        <h2 class="title stroke">Mummy replies, “Because people are <span class="text-white">living things</span>
-            but teddy bears are <span class="text-white">non-living things</span>.”</h2>
+        <h2 class="title stroke">Mummy replies, “Because people are <span class="!text-white">living things</span>
+            but teddy bears are <span class="!text-white">non-living things</span>.”</h2>
     </div>
 
 
@@ -31,9 +31,9 @@
 
     {{-- slide 4 --}}
     <div class="slide hidden flex flex-col items-center justify-center ">
-        <h2 class="text-center justify-start text-[45px] text-white stroke">Class Activity 1</h2>
+        <h2 class="text-center justify-start text-[45px] !text-white stroke">Class Activity 1</h2>
         <img src="/assets/images/K2/livingthings/things/t22.png" class="large-img3" />
-        <h2 class="text-start title stroke"> <span class="text-white"> Let's find out:</span> <br>
+        <h2 class="text-start title stroke"> <span class="!text-white"> Let's find out:</span> <br>
             What are the differences between people and a teddy bear?</h2>
         <p class="note">Note: Display a teddy bear and let children make comparison.</p>
     </div>
@@ -42,7 +42,7 @@
     {{-- Slide 5 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <h2 class="title stroke !text-white text-start">What you observe:</h2>
-        <table class="w-full table-auto border-collapse text-white text-[1.4vw]">
+        <table class="w-full table-auto border-collapse !text-white text-[1.4vw]">
             <!-- Header -->
             <thead>
                 <tr class="border-2 border-white !text-[30px] font-normal">
@@ -144,7 +144,7 @@
         <h2 class="title stroke">The two lungs in our chest help us to breathe. <br>
             How do you know our lungs are working?</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -157,7 +157,7 @@
         <h2 class="title stroke">Put your hands on your chest and breathe in very deeply. <br>
             You will feel the chest getting slightly bigger.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -170,7 +170,7 @@
         <h2 class="title stroke">Now breathe out the air. <br>
             You will feel your chest return to its regular size.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -199,7 +199,7 @@
         <h2 class="title stroke">Where do babies come from?</h2>
         <p class="note">Note: Have children think and say where do they come from.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video4')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video4')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -243,9 +243,9 @@
 
     {{-- Slide 8 --}}
     <div class="slide hidden flex flex-col items-center justify-center ">
-        <h2 class="text-center justify-start text-[45px] text-white stroke">Class Activity 2</h2>
+        <h2 class="text-center justify-start text-[45px] !text-white stroke">Class Activity 2</h2>
         <img src="{{ asset('assets/images/K2/livingthings/things/groupt7.png') }}" class="large-img6" />
-        <h2 class="title stroke text-start"> <span class="text-white">Let’s find out:</span> <br>
+        <h2 class="title stroke text-start"> <span class="!text-white">Let’s find out:</span> <br>
             Which are living things? Which are non living things?</h2>
     </div>
 
@@ -285,7 +285,7 @@
         <h2 class="title stroke">Fish breathe through gills on both sides of their head. <br>
             Do you know how do fish breathe in the water?</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video5')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video5')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="{{ asset('assets/images/pptimages/video.png') }}" />
         </div>
     </div>
@@ -299,7 +299,7 @@
         <h2 class="title stroke">When a fish breathes, it takes in water through its mouth. The
             gills obtain air from the water and then force the water to go out.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video6')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video6')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="{{ asset('assets/images/pptimages/video.png') }}" />
         </div>
     </div>
@@ -329,7 +329,7 @@
         <h2 class="title stroke">Most balls need to be filled with air in order to bounce and roll.</h2>
         <p class="note">Note: Explain to children that we need air to stay alive but not for balls.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video7')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video7')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="{{ asset('assets/images/pptimages/video.png') }}" />
         </div>
     </div>
@@ -359,7 +359,7 @@
         <h2 class="title stroke">This toy train moves on its own. Why?</h2>
         <p class="note">Note: Have children think and share their views.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video8')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video8')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="{{ asset('assets/images/pptimages/video.png') }}" />
         </div>
     </div>
@@ -400,7 +400,7 @@
 
     {{-- Slide 16 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <h2 class="title stroke text-start "><span class="text-white">What do you learn:</span> <br>
+        <h2 class="title stroke text-start "><span class="!text-white">What do you learn:</span> <br>
             Which are living things? Which are non-living things?</h2>
         <img src="{{ asset('assets/images/K2/livingthings/things/groupt7.png') }}" />
         <p class="note text-center">Note: Encourage children to answer based on their conclusions.</p>
@@ -446,7 +446,7 @@
     <div class="slide hidden flex flex-col items-center">
         <div class="flex items-center  ">
             <div class="title stroke text-start">
-                <h2>All <span class="text-white">animals</span>....</h2>
+                <h2>All <span class="!text-white">animals</span>....</h2>
                 <ul class="!text-white">
                     <li class="flex items-center gap-[1vw]"> <img
                             src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" class="!w-[2.5vw]" />
@@ -470,7 +470,7 @@
                     </li>
 
                 </ul>
-                <h2>So, <span class="text-white">animals</span> are <span class="text-white">living things</span>.</h2>
+                <h2>So, <span class="!text-white">animals</span> are <span class="!text-white">living things</span>.</h2>
             </div>
             <img src="{{ asset('assets/images/K2/livingthings/things/t20.png') }}" />
         </div>

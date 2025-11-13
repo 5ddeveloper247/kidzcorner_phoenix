@@ -8,8 +8,8 @@
     {{-- Slide 1 --}}
     <div class="slide flex flex-col items-center justify-center  ">
         <div class="title stroke">
-            <h2>What are the common points of <span class="text-white">living things</span>?</h2>
-            <h2>Can you name some examples of <span class="text-white">living things</span>?</h2>
+            <h2>What are the common points of <span class="!text-white">living things</span>?</h2>
+            <h2>Can you name some examples of <span class="!text-white">living things</span>?</h2>
         </div>
         <p class="note text-center">Note: Encourage children to recall and share the six basic characteristics of living
             things; have them name some examples of living things around them.</p>
@@ -61,7 +61,7 @@
     {{-- slide 4 --}}
     <div class="slide hidden flex flex-col items-center justify-center ">
         <h2 class=" title stroke">Today, we’ll find out another common point
-            of <span class="text-white">living thing</span> called <span class="text-white">DNA</span>!</h2>
+            of <span class="!text-white">living thing</span> called <span class="!text-white">DNA</span>!</h2>
     </div>
 
 
@@ -156,7 +156,7 @@
     {{-- Slide 15 --}}
     <div class="slide hidden flex flex-col items-center justify-center ">
         <h1 class="!text-[4.5vw] stroke">
-            <span class="text-white">DNA</span>
+            <span class="!text-white">DNA</span>
             <br>
             <span class="text-red-600">deoxyribonucleic <br>
                 acid</span>
@@ -176,7 +176,7 @@
             <img src="{{ asset('assets/images/K2/livingthings/dna/d10.png') }}" class="!max-w-[30vw]" />
         </div>
         <h2 class="text-center title stroke">Like this car is made up of different bricks, every living thing
-            is made up of different tiny <span class="text-white">cells</span>.</h2>
+            is made up of different tiny <span class="!text-white">cells</span>.</h2>
     </div>
 
     {{-- Slide 17 --}}
@@ -188,13 +188,13 @@
     {{-- Slide 18 --}}
     <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="{{ asset('assets/images/K2/livingthings/dna/d10.png') }}" class="large-img6" />
-        <h2 class="text-center title stroke"><span class="text-white">DNA</span> is located in every cell.
-            So every cell has an <span class="text-white">instruction manual</span>.</h2>
+        <h2 class="text-center title stroke"><span class="!text-white">DNA</span> is located in every cell.
+            So every cell has an <span class="!text-white">instruction manual</span>.</h2>
     </div>
 
     {{-- Slide 19 --}}
     <div class="slide hidden flex flex-col items-center justify-center ">
-        <h2 class="text-center justify-start text-[45px] text-white stroke">Class Activity</h2>
+        <h2 class="text-center justify-start text-[45px] !text-white stroke">Class Activity</h2>
         <img src="{{ asset('assets/images/K2/livingthings/dna/d11.png') }}" class=" w-img !h-[14vw]" />
         <h2 class="title stroke text-start">Let's find out: <br>
             How to extract DNA from one's mouth? What does it look like?</h2>
@@ -342,7 +342,7 @@
             <img src="{{ asset('assets/images/K2/livingthings/dna/d21.png') }}" class="w-img" />
         </div>
         <h2 class="title stroke text-center">The chemicals used in the process break down the outer
-            covering of cheek cells and release <span class="text-white">DNA</span> from the cells.</h2>
+            covering of cheek cells and release <span class="!text-white">DNA</span> from the cells.</h2>
     </div>
 
 

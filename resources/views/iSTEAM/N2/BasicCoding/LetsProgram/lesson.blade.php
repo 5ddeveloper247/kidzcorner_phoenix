@@ -20,7 +20,7 @@
     {{-- Slide 2 --}}
     <div class="slide flex flex-col items-center justify-center  ">
         <img src="{{ asset('assets/images/N2/BasicCoding/bs10.png') }}" />
-        <h2 class="stroke title"><span class="text-white">Machines</span> can work because they have <br /><span
+        <h2 class="stroke title"><span class="!text-white">Machines</span> can work because they have <br /><span
                 class="text-white">programmes</span> inside them.</h2>
         <p class="note">Note: Have children recall and share what a programme is.</p>
     </div>
@@ -29,9 +29,9 @@
     {{-- Slide 3 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
         <img src="{{ asset('assets/images/N2/BasicCoding/bs13.png') }}" />
-        <h2 class="title stroke text-center">The steps to do things is like a <span class="text-white">programme</span>
+        <h2 class="title stroke text-center">The steps to do things is like a <span class="!text-white">programme</span>
             for<br />
-            <span class="text-white">machines</span>.
+            <span class="!text-white">machines</span>.
         </h2>
 
     </div>
@@ -40,8 +40,8 @@
     {{-- slide 4 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <img src="{{ asset('assets/images/N2/BasicCoding/bs11.png') }}" class="large-img6" />
-        <h2 class="title stroke text-center">So a <span class="text-white">programme</span> is the step-by-step
-            <span class="text-white">instructions</span> that tell the <span class="text-white">machine</span> what to do.
+        <h2 class="title stroke text-center">So a <span class="!text-white">programme</span> is the step-by-step
+            <span class="!text-white">instructions</span> that tell the <span class="!text-white">machine</span> what to do.
         </h2>
 
     </div>
@@ -56,17 +56,17 @@
     {{-- slide 6 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <img src="{{ asset('assets/images/N2/BasicCoding/bs29.png') }}" />
-        <h2 class="title stroke text-center">If you want a <span class="text-white">machine</span> to work in a particular
+        <h2 class="title stroke text-center">If you want a <span class="!text-white">machine</span> to work in a particular
             way,
-            you need to give step-by-step <span class="text-white">instructions</span> to the
-            <span class="text-white">machine</span>.
+            you need to give step-by-step <span class="!text-white">instructions</span> to the
+            <span class="!text-white">machine</span>.
         </h2>
 
         <p class="note text-center">Note: Tell children that a robot is a machine. Act like this robot to guide children
             describe
             how it moves in each step.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -78,7 +78,7 @@
         <p class="note">Forward > Forward > Forward > Forward and look to your left > <br>
             Forward > Forward > Forward > Forward and look to your front</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -87,12 +87,12 @@
     {{-- slide 8 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <img src="{{ asset('assets/images/N2/BasicCoding/bs29.png') }}" />
-        <h2 class="title stroke text-center"> When you give <span class="text-white">instructions</span> to a <span
+        <h2 class="title stroke text-center"> When you give <span class="!text-white">instructions</span> to a <span
                 class="text-white">machine</span>,
-            you are <span class="text-white">programming</span> or <span class="text-white">coding</span> the <span
+            you are <span class="!text-white">programming</span> or <span class="!text-white">coding</span> the <span
                 class="text-white">machine</span>.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -118,7 +118,7 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <div class="flex flex-col items-center">
             <img src="{{ asset('assets/images/N2/BasicCoding/bs14.png') }}" />
-            <div class="flex text-white text-[1.5vw] gap-[2vw]">
+            <div class="flex !text-white text-[1.5vw] gap-[2vw]">
                 <p>forwar</p>
                 <p>bakcward</p>
                 <p>turn left</p>
@@ -133,16 +133,16 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <div class="flex flex-col items-center">
             <img src="{{ asset('assets/images/N2/BasicCoding/bs14.png') }}" />
-            <div class="flex text-white text-[1.5vw] gap-[2vw]">
+            <div class="flex !text-white text-[1.5vw] gap-[2vw]">
                 <p>forwar</p>
                 <p>bakcward</p>
                 <p>turn left</p>
                 <p>turn right</p>
             </div>
         </div>
-        <h2 class="title stroke text-center">If you use these cards to tell a <span class="text-white">machine</span> how to
+        <h2 class="title stroke text-center">If you use these cards to tell a <span class="!text-white">machine</span> how to
             move,
-            you call these cards <span class="text-white">programming</span> cards or <span class="text-white">coding</span>
+            you call these cards <span class="!text-white">programming</span> cards or <span class="!text-white">coding</span>
             cards.
         </h2>
     </div>
@@ -168,7 +168,7 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="!text-white title stroke">Hands-on Time 1</h2>
         <div class="text-start">
-            <h2 class="title stroke">Mission: <br>
+            <h2 class="title stroke text-start">Mission: <br>
                 Let’s use the mats to lay out a sample maze. Imagine you are
                 a robot, think and plan how to move through the maze.After that, layout the programming cards and move from
                 the starting point to the end point.</h2>
@@ -275,7 +275,7 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="!text-white title stroke">Hands-on Time 2</h2>
         <div class="text-start">
-            <h2 class="title stroke">Mission: <br>
+            <h2 class="title stroke text-start">Mission: <br>
                 Let’s use the mats to lay out a maze and set the starting and
                 end point. Then get your friends of another group to think
                 and plan how to move through the maze (lay out the

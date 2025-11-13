@@ -4,8 +4,8 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col  gap-20 items-center ">
-        <div class="indexTitle text-[55px]  stroke leading-none">Fingerprints</div>
-        <h2 class="text-2xl sm:text-3xl lg:text-5xl text-white stroke ">
+        <div class="indexTitle   stroke leading-none">Fingerprints</div>
+        <h2 class=" !text-white stroke ">
             Explore fingerprints; <br>
             learn to make own set of fingerprints <br>
             for analysis</h2>

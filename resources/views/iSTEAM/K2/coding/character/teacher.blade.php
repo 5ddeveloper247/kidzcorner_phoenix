@@ -4,7 +4,7 @@
  
 @section('content')
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start gap-y-3 text-start">
+    <div class=" slide flex text-2xl !text-white flex-col justify-start gap-y-3 text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -40,7 +40,7 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start   text-start">
+    <div class=" slide flex text-2xl !text-white flex-col justify-start   text-start">
         <ul class="list-disc">
             <h2 class="t-title">Preparations:</h2>
             <li class="text-[1.1vw]">The tablets (download ScratchJr application from App Store or Google Play for each tablet; charge all the
@@ -57,7 +57,7 @@
 
 
     {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start   text-start">
+    <div class=" slide flex text-2xl !text-white flex-col justify-start   text-start">
         <ul class="list-disc">
             <h2 class="t-title">Preparations:</h2>
             <li class="text-[1.1vw]">Grid Card (print and laminate so that they are reusable)</li>
@@ -74,7 +74,7 @@
 
     {{-- Slide 4 --}}
     {{--  Audio -- https://drive.google.com/file/d/1218KSH8ScV7Zp49d6BqE2XrO8syg3X5q/view?usp=drive_link --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start  gap-[11rem] text-start">
+    <div class=" slide flex text-2xl !text-white flex-col justify-start  gap-[11rem] text-start">
         <ul class="list-disc">
             <h2 class="t-title">Preparations:</h2>
             <li class="text-[1.1vw]">Underwater sound (let children search online or use this)</li>
@@ -83,7 +83,7 @@
             class="absolute teacher-img1" />
     </div>
     {{-- sldie 7 --}}
-    <div class=" slide flex text-2xl text-white flex-col  justify-start items-start text-start gap-[5rem]">
+    <div class=" slide flex text-2xl !text-white flex-col  justify-start items-start text-start gap-[5rem]">
         <div>
             <ul class="list-disc !text-white">
                 <h2 class="t-title">Reminders or advice during hands-on session:</h2>
@@ -104,32 +104,36 @@
             class="absolute teacher-img1" />
     </div>
     {{-- sldie 7 --}}
-    <div class="slide flex t-slide  flex-col justify-start  text-2xl text-start text-white">
+    <div class="slide flex t-slide  flex-col justify-start  text-2xl text-start !text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
                 <h2 class=" t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
-                    <li class="text-[1.3vw] flex whitespace-nowrap">
+                    <li>
+                    <span class="flex items-center whitespace-nowrap">
                         If you see
                         <span>
                             <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s27.png') }}"
                                 class="!max-w-[2.5vw]" />
                         </span>
-                        next to a picture, click on the picture to watch the video.
-                    </li>
+                        next to a picture,click on the picture to watch the video.
+                    </span>
+                </li>
                     <li class="text-[1.1vw]">Always ask questions to encourage children to think and share their ideas first
                         before giving out any information.</li>
                     <li class="text-[1.1vw]">Emphasise and use the keywords during hands-on sessions.
                     </li>
                     <li class="text-[1.1vw]">Print out the Learning Journal (if any) for every <br>
                         child to complete at the end of the lesson.</li>
-                    <li class="text-[1.3vw] flex whitespace-nowrap">
+                    <li class="flex whitespace-nowrap">
+                        <span class="flex items-center whitespace-nowrap">
                         Click on this shortcut icon
                         <span>
                             <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s28.png') }}"
                                 class="!max-w-[2.5vw]" />
                         </span>
                         if you need to go to some parts of the lesson quickly.
+                    </span>
                     </li>
                 </ul>
             </div>

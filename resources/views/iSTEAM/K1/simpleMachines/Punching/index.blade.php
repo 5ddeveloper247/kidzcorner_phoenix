@@ -4,7 +4,7 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col  items-center ">
-        <div class="indexTitle  text-[55px]  stroke">Hole Punching Machine</div>
+        <div class="indexTitle    stroke">Hole Punching Machine</div>
         <h2 class="text-white">
             Build a Rube Goldberg Machine that includes
             a simple machine - Screw

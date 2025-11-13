@@ -115,7 +115,7 @@
 										<div class="col">
 											<div class="card radius-15 mb-0 shadow-none border">
 												<div class="card-body text-center">
-													<div class="widgets-icons mx-auto rounded-circle bg-info text-white"><i class='bx bx-time'></i>
+													<div class="widgets-icons mx-auto rounded-circle bg-info !text-white"><i class='bx bx-time'></i>
 													</div>
 													<h4 class="mb-0 font-weight-bold mt-3">2m 28s</h4>
 													<p class="mb-0">Avg. Time on Site</p>
@@ -125,7 +125,7 @@
 										<div class="col">
 											<div class="card radius-15 mb-0 shadow-none border">
 												<div class="card-body text-center">
-													<div class="widgets-icons mx-auto bg-wall text-white rounded-circle"><i class='bx bx-bookmark-alt'></i>
+													<div class="widgets-icons mx-auto bg-wall !text-white rounded-circle"><i class='bx bx-bookmark-alt'></i>
 													</div>
 													<h4 class="mb-0 font-weight-bold mt-3">4.68</h4>
 													<p class="mb-0">Pages/Session</p>
@@ -135,7 +135,7 @@
 										<div class="col">
 											<div class="card radius-15 mb-0 shadow-none border">
 												<div class="card-body text-center">
-													<div class="widgets-icons mx-auto bg-rose rounded-circle text-white"><i class='bx bx-bulb'></i>
+													<div class="widgets-icons mx-auto bg-rose rounded-circle !text-white"><i class='bx bx-bulb'></i>
 													</div>
 													<h4 class="mb-0 font-weight-bold mt-3">78%</h4>
 													<p class="mb-0">New Sessions</p>
@@ -145,7 +145,7 @@
 										<div class="col">
 											<div class="card radius-15 mb-0 shadow-none border">
 												<div class="card-body text-center">
-													<div class="widgets-icons mx-auto rounded-circle bg-danger text-white"><i class='bx bx-line-chart'></i>
+													<div class="widgets-icons mx-auto rounded-circle bg-danger !text-white"><i class='bx bx-line-chart'></i>
 													</div>
 													<h4 class="mb-0 font-weight-bold mt-3">23.4%</h4>
 													<p class="mb-0">Bounce Rate</p>
@@ -155,7 +155,7 @@
 										<div class="col">
 											<div class="card radius-15 mb-0 shadow-none border">
 												<div class="card-body text-center">
-													<div class="widgets-icons mx-auto bg-primary rounded-circle text-white"><i class='bx bx-group'></i>
+													<div class="widgets-icons mx-auto bg-primary rounded-circle !text-white"><i class='bx bx-group'></i>
 													</div>
 													<h4 class="mb-0 font-weight-bold mt-3">4,286</h4>
 													<p class="mb-0">New Users</p>
@@ -165,7 +165,7 @@
 										<div class="col">
 											<div class="card radius-15 mb-0 shadow-none border">
 												<div class="card-body text-center">
-													<div class="widgets-icons mx-auto bg-success text-white rounded-circle"><i class='bx bx-cloud-download'></i>
+													<div class="widgets-icons mx-auto bg-success !text-white rounded-circle"><i class='bx bx-cloud-download'></i>
 													</div>
 													<h4 class="mb-0 font-weight-bold mt-3">78%</h4>
 													<p class="mb-0">Downloads</p>
@@ -192,7 +192,7 @@
 										<ul class="list-group list-group-flush">
 											<li class="list-group-item d-flex align-items-center">
 												<div class="d-flex align-items-center gap-2">
-													<div class="widgets-social bg-youtube rounded-circle text-white"><i class='bx bxl-youtube'></i>
+													<div class="widgets-social bg-youtube rounded-circle !text-white"><i class='bx bxl-youtube'></i>
 													</div>
 													<div class="t-title">
 														<h6 class="mb-0">YouTube</h6>
@@ -202,7 +202,7 @@
 											</li>
 											<li class="list-group-item d-flex align-items-center">
 												<div class="d-flex align-items-center gap-2">
-													<div class="widgets-social bg-facebook rounded-circle text-white"><i class='bx bxl-facebook'></i>
+													<div class="widgets-social bg-facebook rounded-circle !text-white"><i class='bx bxl-facebook'></i>
 													</div>
 													<div class="t-title">
 														<h6 class="mb-0">Facebook</h6>
@@ -212,7 +212,7 @@
 											</li>
 											<li class="list-group-item d-flex align-items-center">
 												<div class="d-flex align-items-center gap-2">
-													<div class="widgets-social bg-linkedin rounded-circle text-white"><i class='bx bxl-linkedin'></i>
+													<div class="widgets-social bg-linkedin rounded-circle !text-white"><i class='bx bxl-linkedin'></i>
 													</div>
 													<div class="t-title">
 														<h6 class="mb-0">Linkedin</h6>
@@ -222,7 +222,7 @@
 											</li>
 											<li class="list-group-item d-flex align-items-center">
 												<div class="d-flex align-items-center gap-2">
-													<div class="widgets-social bg-twitter rounded-circle text-white"><i class='bx bxl-twitter'></i>
+													<div class="widgets-social bg-twitter rounded-circle !text-white"><i class='bx bxl-twitter'></i>
 													</div>
 													<div class="t-title">
 														<h6 class="mb-0">Twitter</h6>
@@ -232,7 +232,7 @@
 											</li>
 											<li class="list-group-item d-flex align-items-center">
 												<div class="d-flex align-items-center gap-2">
-													<div class="widgets-social bg-tumblr rounded-circle text-white"><i class='bx bxl-tumblr'></i>
+													<div class="widgets-social bg-tumblr rounded-circle !text-white"><i class='bx bxl-tumblr'></i>
 													</div>
 													<div class="t-title">
 														<h6 class="mb-0">Tumblr</h6>
@@ -242,7 +242,7 @@
 											</li>
 											<li class="list-group-item d-flex align-items-center">
 												<div class="d-flex align-items-center gap-2">
-													<div class="widgets-social bg-dribbble rounded-circle text-white"><i class='bx bxl-dribbble'></i>
+													<div class="widgets-social bg-dribbble rounded-circle !text-white"><i class='bx bxl-dribbble'></i>
 													</div>
 													<div class="t-title">
 														<h6 class="mb-0">Dribbble</h6>

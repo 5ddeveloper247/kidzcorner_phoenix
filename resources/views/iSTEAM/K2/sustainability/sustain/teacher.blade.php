@@ -8,7 +8,7 @@
 
 
     {{-- sldie 1  --}}
-    <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
+    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -52,7 +52,7 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
+    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
@@ -68,7 +68,7 @@
 
 
     {{-- sldie 3 --}}
-    <div class=" slide t-slide flex  text-white flex-col items-center justify-center  text-start">
+    <div class=" slide t-slide flex  !text-white flex-col items-center justify-center  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc">
@@ -93,7 +93,7 @@
 
 
     {{-- slide 4 --}}
-    <div class=" slide t-slide flex  text-white flex-col items-center justify-start  text-start">
+    <div class=" slide t-slide flex  !text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-decimal">
@@ -108,7 +108,7 @@
 
 
     {{-- slide 4 --}}
-    <div class=" slide flex t-slide text-white flex-col items-center justify-start  text-start">
+    <div class=" slide flex t-slide !text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-decimal">
@@ -121,7 +121,7 @@
 
 
     {{-- slide 5 --}}
-    <div class=" slide t-slide flex  text-white flex-col items-center justify-start  text-start">
+    <div class=" slide t-slide flex  !text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">Things to take note prior the class activity:</h2>
             <ul class="list-disc">
@@ -147,7 +147,7 @@
 
 
     {{-- sldie 6 --}}
-    <div class=" slide t-slide flex  text-white flex-col items-center justify-start  text-start">
+    <div class=" slide t-slide flex  !text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">Things to take note prior the class activity:</h2>
             <ul>
@@ -164,7 +164,7 @@
     </div>
 
     {{-- sldie 7 --}}
-    <div class=" slide t-slide flex  text-white flex-col items-center justify-start  text-start">
+    <div class=" slide t-slide flex  !text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">How to make own set of fingerprints and things to consider:</h2>
             <ul>
@@ -199,7 +199,7 @@
 
 
     {{-- sldie 7 --}}
-    <div class=" slide t-slide flex  text-white flex-col items-center justify-start  text-start">
+    <div class=" slide t-slide flex  !text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">When Glaciers Melt</h2><br>
             <p class="note">What and how to set up:<br>

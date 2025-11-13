@@ -34,8 +34,8 @@
     {{-- slide 4 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <img src="{{ asset('assets/images/N2/LivingThings/an51.png') }}" />
-        <h2 class="stroke title">This is a <span class="text-white">butterfly</span>.<br />Let’s look at the <span
-                class="text-white">stages of growth</span> of a <span class="text-white">butterfly</span>.</h2>
+        <h2 class="stroke title">This is a <span class="!text-white">butterfly</span>.<br />Let’s look at the <span
+                class="text-white">stages of growth</span> of a <span class="!text-white">butterfly</span>.</h2>
 
     </div>
 
@@ -57,7 +57,7 @@
         </video>
         <h2 class="stroke title">Watch how the caterpillar hatches from the egg.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -82,7 +82,7 @@
         <h2 class="stroke title">The caterpillar eats a lot and it can grow
             100 times its size during this stage!</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -97,7 +97,7 @@
         <h2 class="stroke title">The caterpillar eats a lot and it can grow
             100 times its size during this stage!</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -112,7 +112,7 @@
         </video>
         <h2 class="stroke title">As the caterpillar grows, it sheds its skin.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video4')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video4')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -129,7 +129,7 @@
         <h2 class="stroke title">Inside the pupa, the caterpillar is changing.
             When it is ready, it comes out of the pupa as a butterfly.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video5')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video5')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -152,7 +152,7 @@
         <h2 class="stroke title">The butterfly drinks nectar from flowers using its
             proboscis. The proboscis is like a straw.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video6')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video6')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -292,7 +292,7 @@
             Your browser does not support the video tag.
         </video>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video7')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video7')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
 

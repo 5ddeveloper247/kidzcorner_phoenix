@@ -7,7 +7,7 @@
 
 
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start items-center text-start t-slide">
+    <div class=" slide flex text-2xl !text-white flex-col justify-start items-center text-start t-slide">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -45,7 +45,7 @@
 
 
     {{-- slide 2 --}}
-    <div class="slide hidden flex flex-col  justify-start items-center text-start t-slide text-2xl text-white">
+    <div class="slide hidden flex flex-col  justify-start items-center text-start t-slide text-2xl !text-white">
         <div class="flex flex-col  items-start">
             <h2 class=" t-title ">Preparations:</h2>
             <ul class="list-disc">
@@ -63,7 +63,7 @@
 
 
     {{-- slide 3 --}}
-    <div class="slide hidden flex flex-col  justify-start items-center text-start t-slide text-2xl text-white">
+    <div class="slide hidden flex flex-col  justify-start items-center text-start t-slide text-2xl !text-white">
         <div class="flex flex-col  items-start">
             <ul>
                 <li>Each group a set of facial expressions programming cards, a record card,
@@ -76,7 +76,7 @@
 
 
     {{-- slide 4 --}}
-    <div class="slide hidden flex  justify-start items-center text-start t-slide text-2xl text-white">
+    <div class="slide hidden flex  justify-start items-center text-start t-slide text-2xl !text-white">
         <div class="space-y-10">
             <ul class="list-disc">
                 <h2 class=" t-title ">Things to note during hands-on sessions:</h2>
@@ -101,7 +101,7 @@
 
 
     {{-- slide 5 --}}
-    <div class="slide hidden flex flex-col  justify-start items-center text-start t-slide text-2xl text-white">
+    <div class="slide hidden flex flex-col  justify-start items-center text-start t-slide text-2xl !text-white">
         <div class="flex flex-col  items-start">
             <h2 class=" t-title ">What you need to know or do before the lesson:</h2>
             <ul class="list-disc">
@@ -117,7 +117,7 @@
 
 
     {{-- slide 6 --}}
-    <div class="slide hidden flex flex-col  justify-start items-center text-start t-slide text-2xl text-white">
+    <div class="slide hidden flex flex-col  justify-start items-center text-start t-slide text-2xl !text-white">
         <div class="flex flex-col  items-start">
             <h2 class=" t-title ">What you need to know or do before the lesson:</h2>
             <ul class="list-disc">
@@ -133,7 +133,7 @@
 
 
     {{-- /sldie 7 --}}
-    <div class="slide hidden flex flex-col  justify-start items-center text-start t-slide text-2xl text-white">
+    <div class="slide hidden flex flex-col  justify-start items-center text-start t-slide text-2xl !text-white">
         <div class="flex flex-col  items-start">
             <h2 class=" t-title ">What you need to know or do before the lesson:</h2>
             <ul class="list-disc">
@@ -149,7 +149,7 @@
 
 
     {{-- sldie 8 --}}
-    <div class="slide hidden flex flex-col  justify-start items-center text-start t-slide text-2xl text-white">
+    <div class="slide hidden flex flex-col  justify-start items-center text-start t-slide text-2xl !text-white">
         <div class="flex flex-col  items-start">
             <h2 class=" t-title ">What you need to know or do before the lesson:</h2>
             <ul class="list-disc">
@@ -164,7 +164,7 @@
 
 
     {{-- sldie 9 --}}
-    <div class="slide hidden flex flex-col  justify-start items-center text-start t-slide text-2xl text-white">
+    <div class="slide hidden flex flex-col  justify-start items-center text-start t-slide text-2xl !text-white">
         <div class="flex flex-col items-start">
             <h2 class=" t-title ">What you need to know or do before the lesson:</h2>
             <ul class="list-disc">
@@ -181,7 +181,7 @@
 
 
     {{-- sldie 10 --}}
-    <div class="slide hidden flex flex-col  justify-start items-center text-start t-slide text-2xl text-white">
+    <div class="slide hidden flex flex-col  justify-start items-center text-start t-slide text-2xl !text-white">
         <div class="flex flex-col  items-start">
             <ul class="list-disc">
                 <h2 class=" t-title ">What you need to know or do before the lesson:</h2>
@@ -194,7 +194,7 @@
 
 
     {{-- slide 11 --}}
-    <div class="slide hidden flex flex-col  justify-start items-center text-start t-slide text-2xl text-white">
+    <div class="slide hidden flex flex-col  justify-start items-center text-start t-slide text-2xl !text-white">
         <div class="flex flex-col  items-start">
             <ul class="list-disc">
                 <h2 class=" t-title ">What you need to know or do before the lesson:</h2>
@@ -209,7 +209,7 @@
 
 
     {{-- slide 12 --}}
-    <div class="slide hidden flex flex-col  justify-start items-center text-start t-slide text-2xl text-white">
+    <div class="slide hidden flex flex-col  justify-start items-center text-start t-slide text-2xl !text-white">
         <div class="flex flex-col  items-start">
             <ul class="list-disc">
                 <h2 class=" t-title ">What you need to know or do before the lesson:</h2>
@@ -224,7 +224,7 @@
 
 
     {{-- slide 13 --}}
-    <div class="slide hidden flex flex-col  justify-start items-center text-start t-slide text-2xl text-white">
+    <div class="slide hidden flex flex-col  justify-start items-center text-start t-slide text-2xl !text-white">
         <div class="flex flex-col  items-start">
             <ul class="list-disc">
                 <h2 class=" t-title ">What you need to know or do before the lesson:</h2>
@@ -252,7 +252,7 @@
 
 
     {{-- slide 14 --}}
-    <div class="slide flex t-slide  flex-col  text-2xl text-start text-white">
+    <div class="slide flex t-slide  flex-col  text-2xl text-start !text-white">
         <div>
             <h2 class="t-title">Notes:</h2>
             <ul class="list-disc">

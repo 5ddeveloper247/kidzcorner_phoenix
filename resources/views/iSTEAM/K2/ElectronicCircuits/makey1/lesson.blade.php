@@ -19,8 +19,8 @@
     {{-- Slide 2 --}}
     <div class="slide hidden flex flex-col items-center">
         <img src="{{ asset('assets/images/K2/coding/s1.png') }}" />
-        <h2 class="title stroke">Both the tablet and the robot are <span class="text-white">electronic machines</span>.
-            They use the power of <span class="text-white">electricity</span> to do work.</h2>
+        <h2 class="title stroke">Both the tablet and the robot are <span class="!text-white">electronic machines</span>.
+            They use the power of <span class="!text-white">electricity</span> to do work.</h2>
     </div>
 
 
@@ -36,7 +36,7 @@
         <h2 class="title stroke">You used an application called Blockly in a tablet
             to programme the robot to do certain tasks.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -134,7 +134,7 @@
         <p class="note">Note: Demo how to connect a Makey Makey Board to a computer using a USB cable. <br>
             Have children observe the set up process and the board when it's connected to the computer.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -150,7 +150,7 @@
         </video>
         <p class="note">Note: Guide children to spot all the blinking lights.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -165,7 +165,7 @@
         </video>
         <p class="note">Note: Guide children to spot all the blinking lights.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video4')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video4')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -209,7 +209,7 @@
         </video>
         <h2 class="title stroke">Doesn't this show that the board has a complicated circuit?</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video5')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video5')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -247,7 +247,7 @@
         </video>
         <p class="note">Note: Have children observe the demo.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video6')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video6')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -281,7 +281,7 @@
         <p class="note">Note: Have children observe the demo, take turns to try this step and talk about what they see.
         </p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video7')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video7')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>

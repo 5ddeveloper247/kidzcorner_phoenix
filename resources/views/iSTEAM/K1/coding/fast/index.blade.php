@@ -4,8 +4,8 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col   items-center ">
-        <div class="  text-[#F7B94A] text-[50px] font-extrabold stroke">Fast and Slow</div>
-        <h2 class=" text-white stroke ">
+        <div class="  text-[#F7B94A] text-[50px] stroke">Fast and Slow</div>
+        <h2 class=" !text-white stroke ">
             Learn how to programme a robot to <br>
             move through a circuit with different speeds</h2>
 

@@ -9,7 +9,7 @@
     {{-- Slide 1 --}}
     <div class="slide flex flex-col items-center justify-between h-[30vh] ">
         <h2 class="title stroke">
-            Children, do you remember what <span class="text-white">distance</span> is? What is a <span
+            Children, do you remember what <span class="!text-white">distance</span> is? What is a <span
                 class="text-white">circuit</span>?</h2>
         <p class="note">Note: Encourage children to recall and share what they have learnt.</p>
     </div>
@@ -27,7 +27,7 @@
     {{-- Slide3 --}}
     <div class="slide flex flex-col items-center justify-center  ">
         <img src="/assets/images/K1/coding/go/G1.png" />
-        <h2 class="title stroke">A <span class="text-white">circuit</span> is a track or path. <br>
+        <h2 class="title stroke">A <span class="!text-white">circuit</span> is a track or path. <br>
             It can be straight, curved or in any shape.</h2>
     </div>
 
@@ -50,7 +50,7 @@
         <p class="note">Note: At the end, have children recap the steps involved to programmed a robot to move
             forward 50cm and 90cm.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -95,7 +95,7 @@
         <h2 class=" title stroke">Let’s watch a video!</h2>
         <p class="note">Note: Have children follow through the lesson.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -113,8 +113,8 @@
     {{-- slide 11 --}}
     <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/coding/go/go28.png" />
-        <h2 class="title stroke"> It will move <span class="text-white">forward</span> 50cm, <span class="text-white">turn
-                left</span> and move <span class="text-white">forward</span> another 50cm.
+        <h2 class="title stroke"> It will move <span class="!text-white">forward</span> 50cm, <span class="!text-white">turn
+                left</span> and move <span class="!text-white">forward</span> another 50cm.
         </h2>
     </div>
 
@@ -141,7 +141,7 @@
 
     {{-- slide 10 --}}
     <div class="slide hidden flex flex-col items-center justify-between h-[45vh]">
-        <h2 class="text-center justify-start text-[45px] text-white stroke">Hands-on Time 1</h2>
+        <h2 class="text-center justify-start text-[45px] !text-white stroke">Hands-on Time 1</h2>
         <h2 class="text-start title stroke">Mission: <br>
             Use Blockly to programme a robot to move through a L-shaped circuit.</h2>
         <p class="note">Note: Divide children into groups. Have them take turns to complete the mission.</p>
@@ -193,7 +193,7 @@
             <img src="/assets/images/K1/coding/go/go28.png" class="w-img" />
             <div class="flex flex-col items-end ">
                 <img src="/assets/images/K1/coding/go/go31.png" class="h-[15vh]" />
-                <a class="click-btn1 w-[12vw] cursor-pointer bg-sky-500 rounded-[30px] p-[1.5vw] z-[99] text-white">Visual
+                <a class="click-btn1 w-[12vw] cursor-pointer bg-sky-500 rounded-[30px] p-[1.5vw] z-[99] !text-white">Visual
                     Guide</a>
             </div>
         </div>
@@ -221,7 +221,7 @@
         <h2 class=" title stroke">Let’s watch another video!</h2>
         <p class="note">Note: Have children follow through the lesson.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -229,7 +229,7 @@
 
     {{-- slide 15 --}}
     <div class="slide hidden flex flex-col items-center justify-between h-[50vh]">
-        <h2 class="text-center justify-start text-[45px] text-white stroke">Hands-on Time 2</h2>
+        <h2 class="text-center justify-start text-[45px] !text-white stroke">Hands-on Time 2</h2>
         <h2 class="text-start title stroke">Mission: <br>
             Choose a circuit. How does a robot move through this circuit?
             Use coding cards to lay out the steps. Use Blockly to
@@ -298,7 +298,7 @@
     {{-- slide 20 --}}
     <div class="slide  hidden flex flex-col items-center justify-center ">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[40vw] h-[40vh] bg-cover bg-center flex flex-col items-center"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center flex flex-col items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <img src="/assets/images/K1/coding/go/go37.png" />
 

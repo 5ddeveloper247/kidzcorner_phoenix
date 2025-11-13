@@ -4,8 +4,8 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col   items-center ">
-        <div class="  text-[#F7B94A] text-[50px] font-extrabold stroke">Final Project</div>
-        <h2 class=" text-white stroke ">
+        <div class="  text-[#F7B94A] text-[50px] stroke">Final Project</div>
+        <h2 class=" !text-white stroke ">
             Create a coding game</h2>
 
         <button class="nextButton"> 

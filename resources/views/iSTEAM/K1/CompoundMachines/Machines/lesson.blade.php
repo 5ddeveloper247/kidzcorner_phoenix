@@ -8,7 +8,7 @@
 
     {{-- Slide 1 --}}
     <div class="slide flex flex-col items-center justify-between h-[30vh]  ">
-        <h2 class="title stroke">Children, do you still remember the six <span class="text-white"> simple
+        <h2 class="title stroke">Children, do you still remember the six <span class="!text-white"> simple
                 machines </span> that you have learnt? What are they?</h2>
         <p class="note ">Note: Have children name the six simple machines and state the basic characteristics of each one.
         </p>
@@ -75,8 +75,8 @@
 
     {{-- sldie 10 --}}
     <div class=" slide hidden flex flex-col items-center justify-between h-[50vh] ">
-        <h2 class="title stroke">Do you know what a <span class="text-white">compound machine</span> is?
-            What is the difference between a simple machine and a <span class="text-white">compound machine</span> ?
+        <h2 class="title stroke">Do you know what a <span class="!text-white">compound machine</span> is?
+            What is the difference between a simple machine and a <span class="!text-white">compound machine</span> ?
         </h2>
         <p class="note">Note: Have children boldly say what they think a compound machine is.</p>
     </div>
@@ -85,8 +85,8 @@
     {{-- sldie 11 --}}
     <div class=" slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/cm/gl3.png" />
-        <h2 class="title stroke"><span class="text-white">compound machine</span> are tools made up of two or more
-            <span class="text-white">simple machine</span>.
+        <h2 class="title stroke"><span class="!text-white">compound machine</span> are tools made up of two or more
+            <span class="!text-white">simple machine</span>.
         </h2>
     </div>
 
@@ -94,8 +94,8 @@
     {{-- sldie 12 --}}
     <div class=" slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/cm/gl3.png" />
-        <h2 class="title stroke">As the <span class="text-white">simple machine</span> are working together,
-            a <span class="text-white">compound machine</span> has more working parts
+        <h2 class="title stroke">As the <span class="!text-white">simple machine</span> are working together,
+            a <span class="!text-white">compound machine</span> has more working parts
             that help us to do work more easily and quickly.</h2>
     </div>
 
@@ -118,7 +118,7 @@
         <h2 class="title stroke">As a compound machine with two leavers and two wedges, a pair
             of scissors helps us to cut things more easily and quickly.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -126,7 +126,7 @@
 
     {{-- sldie 15 --}}
     <div class=" slide hidden flex flex-col items-center justify-between h-[30vh] ">
-        <h2 class="title stroke">Can you name some other <span class="text-white">compound machine</span>
+        <h2 class="title stroke">Can you name some other <span class="!text-white">compound machine</span>
             around us?</h2>
         <p class="note">Note: Have children name some compound machine in their surroundings.</p>
     </div>
@@ -142,7 +142,7 @@
     {{-- sldie 17 --}}
     <div class=" slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/cm/cm45.png" />
-        <h2 class="title stroke">A stapler is a <span class="text-white">compound machine</span> made up of
+        <h2 class="title stroke">A stapler is a <span class="!text-white">compound machine</span> made up of
             a lever and a wedge.</h2>
     </div>
 
@@ -150,7 +150,7 @@
     {{-- sldie 18 --}}
     <div class=" slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/cm/gl4.png" />
-        <h2 class="title stroke">The handle is a <span class="text-white">lever</span> with its fulcrum fixed
+        <h2 class="title stroke">The handle is a <span class="!text-white">lever</span> with its fulcrum fixed
             at one end of the handle.</h2>
     </div>
 
@@ -179,7 +179,7 @@
         <h2 class="title stroke">As a compound machine, a stapler helps us to hold
             papers together more easily and quickly.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -188,7 +188,7 @@
     {{-- sldie 22 --}}
     <div class=" slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/cm/gl6.png" />
-        <h2 class="title stroke">What is this? What <span class="text-white">simple machines</span> does it have?
+        <h2 class="title stroke">What is this? What <span class="!text-white">simple machines</span> does it have?
             How does it help us to do work more easily and quickly?</h2>
     </div>
 
@@ -233,7 +233,7 @@
         <h2 class="title stroke">As a compound machine, an axe helps us to cut
             wood more easily and quickly.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -242,7 +242,7 @@
     {{-- sldie 28 --}}
     <div class=" slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/cm/gl9.png" />
-        <h2 class="title stroke">What is this? What <span class="text-white">simple machines</span> does it have?
+        <h2 class="title stroke">What is this? What <span class="!text-white">simple machines</span> does it have?
             How does it help us to do work more easily and quickly?</h2>
     </div>
 
@@ -294,7 +294,7 @@
         <h2 class="title stroke">As a compound machine, a pizza cutter helps us to cut
             pizza into pieces more easily and quickly.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video4')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video4')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -303,7 +303,7 @@
     {{-- sldie 35 --}}
     <div class=" slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/cm/cm52.png" />
-        <h2 class="title stroke">What is this? What <span class="text-white">simple machines</span> does it have?
+        <h2 class="title stroke">What is this? What <span class="!text-white">simple machines</span> does it have?
             How does it help us to do work more easily and quickly?</h2>
     </div>
 
@@ -311,7 +311,7 @@
     {{-- sldie 36 --}}
     <div class=" slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/cm/cm52.png" />
-        <h2 class="title stroke">A wheelbarrow is a <span class="text-white">compound machines</span> made up of some
+        <h2 class="title stroke">A wheelbarrow is a <span class="!text-white">compound machines</span> made up of some
             screws, two levers, a wheel and axle and an inclined plane.</h2>
     </div>
 
@@ -319,7 +319,7 @@
     {{-- sldie 37 --}}
     <div class=" slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/cm/gl13.png" />
-        <h2 class="title stroke">The <span class="text-white">screws</span> hold the different parts of a wheelbarrow
+        <h2 class="title stroke">The <span class="!text-white">screws</span> hold the different parts of a wheelbarrow
             together easily.</h2>
     </div>
 
@@ -351,7 +351,7 @@
     {{-- sldie 41 --}}
     <div class=" slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/cm/gl15.png" />
-        <h2 class="title stroke">The <span class="text-white">wheel and axle</span> allows us to move the wheelbarrow
+        <h2 class="title stroke">The <span class="!text-white">wheel and axle</span> allows us to move the wheelbarrow
             around easily.</h2>
     </div>
 
@@ -359,7 +359,7 @@
     {{-- sldie 42 --}}
     <div class=" slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/cm/gl16.png" />
-        <h2 class="title stroke">The slanted sides of the cart is the <span class="text-white">inclined plane</span>
+        <h2 class="title stroke">The slanted sides of the cart is the <span class="!text-white">inclined plane</span>
             of the wheelbarrow.</h2>
     </div>
 
@@ -367,7 +367,7 @@
     {{-- sldie 43 --}}
     <div class=" slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/cm/gl16.png" />
-        <h2 class="title stroke">The <span class="text-white">inclined plane</span> allows us to slide things out from the
+        <h2 class="title stroke">The <span class="!text-white">inclined plane</span> allows us to slide things out from the
             wheelbarrow easily when we tipped it ahead or on its sides.</h2>
     </div>
 
@@ -381,7 +381,7 @@
         <h2 class="title stroke">As a compound machine, a wheelbarrows helps us to carry heavy
             things around and empty things from it more easily and quickly.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video5')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video5')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -390,7 +390,7 @@
     {{-- sldie 45 --}}
     <div class=" slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/cm/cm54.png" />
-        <h2 class="title stroke">What is this? What <span class="text-white">simple machines</span> does it have?
+        <h2 class="title stroke">What is this? What <span class="!text-white">simple machines</span> does it have?
             How does it help us to do work more easily and quickly?</h2>
     </div>
 
@@ -460,9 +460,9 @@
     {{-- sldie 54 --}}
     <div class=" slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/cm/gl18.png" />
-        <h2 class="title stroke">A bicycle is a <span class="text-white">compound machine</span> made up of many <span
+        <h2 class="title stroke">A bicycle is a <span class="!text-white">compound machine</span> made up of many <span
                 class="text-white">screws</span>,
-            <span class="text-white">levers</span>, <span class="text-white">wheels and axles</span> and <span
+            <span class="!text-white">levers</span>, <span class="!text-white">wheels and axles</span> and <span
                 class="text-white">pulleys</span>.
         </h2>
     </div>
@@ -471,7 +471,7 @@
     {{-- sldie 55 --}}
     <div class=" slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/cm/gl19.png" />
-        <h2 class="title stroke">These <span class="text-white">wheels and axles</span> allow us to move around easily
+        <h2 class="title stroke">These <span class="!text-white">wheels and axles</span> allow us to move around easily
             when we ride a bicycle.</h2>
     </div>
 
@@ -479,7 +479,7 @@
     {{-- sldie 56 --}}
     <div class=" slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/cm/cm59.png" />
-        <h2 class="title stroke">These <span class="text-white">wheels and axles</span> allow us to move around easily
+        <h2 class="title stroke">These <span class="!text-white">wheels and axles</span> allow us to move around easily
             when we ride a bicycle.</h2>
     </div>
 
@@ -510,7 +510,7 @@
         <h2 class="title stroke">As a compound machine, a bicycle helps us to move
             around safely, easily and quickly.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video6')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video6')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -519,7 +519,7 @@
     {{-- sldie 60 --}}
     <div class=" slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/cm/gl20.png" />
-        <h2 class="title stroke">What is this? What <span class="text-white">simple machines</span> does it have?
+        <h2 class="title stroke">What is this? What <span class="!text-white">simple machines</span> does it have?
             How does it help us to do work more easily and quickly?</h2>
     </div>
 
@@ -578,7 +578,7 @@
         <h2 class="title stroke">The wheels and axles of the mobile crane allow us
             to move the crane around easily.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video7')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video7')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -627,7 +627,7 @@
     {{-- sldie 73 --}}
     <div class=" slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/cm/gl26.png" />
-        <h2 class="title stroke">The shape of the front part of a car is a <span class="text-white">wedge</span>. This
+        <h2 class="title stroke">The shape of the front part of a car is a <span class="!text-white">wedge</span>. This
             wedge allows the car cut through air and move forward easily.</h2>
     </div>
 
@@ -649,7 +649,7 @@
     {{-- sldie 76 --}}
     <div class=" slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/cm/gl29.png" />
-        <h2 class="title stroke">This <span class="text-white">wheels and axles</span> allow us to change direction
+        <h2 class="title stroke">This <span class="!text-white">wheels and axles</span> allow us to change direction
             easily when we drive the car.</h2>
     </div>
 
@@ -700,7 +700,7 @@
     {{-- sldie 82 --}}
     <div class=" slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/cm/gl31.png" />
-        <h2 class="title stroke">In short, many things around us are <span class="text-white">compound machines</span>.
+        <h2 class="title stroke">In short, many things around us are <span class="!text-white">compound machines</span>.
         </h2>
     </div>
 

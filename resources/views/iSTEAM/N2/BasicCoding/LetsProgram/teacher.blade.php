@@ -6,7 +6,7 @@
     <h2 class="top-title stroke">Let's Programme 1</h2>
 
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start text-start t-slide">
+    <div class=" slide flex text-2xl !text-white flex-col justify-start text-start t-slide">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -42,7 +42,7 @@
 
 
     {{-- slide 2 --}}
-    <div class="slide hidden flex flex-col  justify-start text-start t-slide text-2xl text-white">
+    <div class="slide hidden flex flex-col  justify-start text-start t-slide text-2xl !text-white">
         <div class="flex flex-col">
             <ul class="list-disc">
                 <h2 class=" t-title ">Preparations:</h2>
@@ -53,7 +53,7 @@
         <div class="flex justify-center">
             <div class="flex flex-col items-center">
                 <img src="{{ asset('assets/images/N2/BasicCoding/bs14.png') }}" class="w-[500px]" />
-                <div class="flex text-white text-[20px] gap-[3.5rem]">
+                <div class="flex !text-white text-[20px] gap-[3.5rem]">
                     <p>forward</p>
                     <p>bakcward</p>
                     <p>turn left</p>
@@ -65,7 +65,7 @@
     </div>
 
     {{-- slide 3 --}}
-    <div class="slide hidden flex flex-col  justify-start text-start t-slide text-2xl text-white">
+    <div class="slide hidden flex flex-col  justify-start text-start t-slide text-2xl !text-white">
         <div class="flex flex-col">
             <ul class="list-disc">
                 <h2 class=" t-title ">Things to note:</h2>
@@ -87,7 +87,7 @@
 
 
     {{-- slide 4 --}}
-    <div class="slide flex t-slide  flex-col  text-2xl text-start text-white">
+    <div class="slide flex t-slide  flex-col  text-2xl text-start !text-white">
         <div>
             <h2 class="t-title">Notes:</h2>
             <ul class="list-disc">

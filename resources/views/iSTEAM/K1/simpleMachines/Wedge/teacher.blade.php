@@ -6,7 +6,7 @@
     <h2 class="top-title stroke">What is a Wedge?</h2>
 
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start text-start t-slide">
+    <div class=" slide flex text-2xl !text-white flex-col justify-start text-start t-slide">
         <div>
             <h2 class=" t-title">Children will be able :</h2>
             <ul class="list-disc ">
@@ -34,7 +34,7 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start items-center text-start t-slide">
+    <div class=" slide flex text-2xl !text-white flex-col justify-start items-center text-start t-slide">
         <div>
             <h2 class="t-title  !text-white">Preparations for Activity 1 and 2:</h2>
             <ul class="list-disc ">
@@ -49,7 +49,7 @@
 
 
     {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start t-slide">
+    <div class=" slide flex text-2xl !text-white flex-col justify-start  text-start t-slide">
         <div>
             <h2 class="t-title  !text-white">Preparations for Activity 3:</h2>
             <ul class="list-disc ">
@@ -64,7 +64,7 @@
 
 
     {{-- sldie 4 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start t-slide">
+    <div class=" slide flex text-2xl !text-white flex-col justify-start  text-start t-slide">
         <div>
             <h2 class="t-title  !text-white">Preparations for Activity 4:</h2>
             <ul class="list-disc ">
@@ -81,7 +81,7 @@
 
     {{-- slide 5 --}}
 
-    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start t-slide">
+    <div class=" slide flex text-2xl !text-white flex-col justify-start  text-start t-slide">
         <div>
             <h2 class="t-title  !text-white">Preparations for Activity 5:</h2>
             <ul class="list-disc ">
@@ -103,7 +103,7 @@
 
 
     {{-- sldie 7 --}}
-    <div class="slide flex t-slide  flex-col  text-2xl text-start text-white">
+    <div class="slide flex t-slide  flex-col  text-2xl text-start !text-white">
         <div>
             <h2 class="t-title">Notes:</h2>
             <ul class="list-disc">
@@ -142,7 +142,7 @@
 
 
     {{-- sldie 8 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-center items-center text-start t-slide">
+    <div class=" slide flex text-2xl !text-white flex-col justify-center items-center text-start t-slide">
         <h2 class="title stroke !text-center">Learning Centre Idea</h2>
         <div class="text-start">
             <h2 class="t-title">Fun with Wedges</h2>
@@ -157,7 +157,7 @@
 
 
     {{-- slide 7 --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start items-center text-start t-slide">
+    <div class=" slide flex text-2xl !text-white flex-col justify-start items-center text-start t-slide">
         <h2 class="title stroke !text-center">Learning Centre Idea</h2>
         <div class="text-start">
             <h2 class="t-title">Fun with Wedges</h2>

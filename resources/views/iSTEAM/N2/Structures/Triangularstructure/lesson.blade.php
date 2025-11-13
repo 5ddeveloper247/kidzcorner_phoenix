@@ -26,7 +26,7 @@
     {{-- Slide3 --}}
     <div class="slide flex flex-col items-center justify-center ">
         <h2 class="title stroke">Children, today we are going to look at
-            <span class="text-white">structures</span> that are in the shape of <span class="text-white">triangle</span>!
+            <span class="!text-white">structures</span> that are in the shape of <span class="!text-white">triangle</span>!
         </h2>
     </div>
 
@@ -43,9 +43,9 @@
     {{-- Slide 5  --}}
     <div class="slide flex flex-col items-center justify-center ">
         <img src="{{ asset('assets/images/N2/structure/tr-str/s3.png') }}" />
-        <h2 class="title stroke">This is the Eiffel <span class="text-white">Tower</span>. The <span
+        <h2 class="title stroke">This is the Eiffel <span class="!text-white">Tower</span>. The <span
                 class="text-white">structure</span> looks like a triangle
-            where its base is <span class="text-white">wide</span> and its top is <span class="text-white">narrow</span>.
+            where its base is <span class="!text-white">wide</span> and its top is <span class="!text-white">narrow</span>.
         </h2>
 
     </div>
@@ -57,7 +57,7 @@
     {{-- group slide miss --}}
     <div class="slide flex flex-col items-center justify-center ">
         <img src="{{ asset('assets/images/N2/structure/tr-str/s3.png') }}" />
-        <h2 class="title stroke">The Eiffel <span class="text-white">Tower Structure</span> is put together with many
+        <h2 class="title stroke">The Eiffel <span class="!text-white">Tower Structure</span> is put together with many
             small iron pieces.
         </h2>
 
@@ -110,7 +110,7 @@
         <img src="{{ asset('assets/images/N2/structure/tr-str/s7.png') }}" />
 
 
-        <h2 class="title stroke">The electrical grids also have a <span class="text-white">wide</span> base and <span
+        <h2 class="title stroke">The electrical grids also have a <span class="!text-white">wide</span> base and <span
                 class="text-white">narrrow</span> top.
             Some are also support by four ‘legs’.
         </h2>
@@ -409,9 +409,9 @@
 
     {{-- slide 29 --}}
     <div class="slide hidden  flex flex-col justify-start items-center  ">
-        <h2 class="title stroke ">Another <span class="text-white">structure</span> that looks like a <span
+        <h2 class="title stroke ">Another <span class="!text-white">structure</span> that looks like a <span
                 class="text-white">triangle</span> <br>
-            is the <span class="text-white">pyramid</span>.</h2>
+            is the <span class="!text-white">pyramid</span>.</h2>
 
 
         <img src="{{ asset('assets/images/N2/structure/tr-str/s29.png') }}" />
@@ -420,8 +420,8 @@
 
     {{-- slide 30 --}}
     <div class="slide hidden  flex flex-col justify-start items-center  ">
-        <h2 class="title stroke ">The shape of a <span class="text-white">triangle</span> can be seen on each side
-            of the <span class="text-white">pyramid</span>.</h2>
+        <h2 class="title stroke ">The shape of a <span class="!text-white">triangle</span> can be seen on each side
+            of the <span class="!text-white">pyramid</span>.</h2>
 
 
         <img src="{{ asset('assets/images/N2/structure/tr-str/s29.png') }}" />
@@ -435,8 +435,8 @@
 
 
         <img src="{{ asset('assets/images/N2/structure/tr-str/s29.png') }}" />
-        <h2 class="title stroke ">Look at the side of the <span class="text-white">pyramid</span>. <br>
-            Each side looks like a <span class="text-white">triangle</span>.</h2>
+        <h2 class="title stroke ">Look at the side of the <span class="!text-white">pyramid</span>. <br>
+            Each side looks like a <span class="!text-white">triangle</span>.</h2>
 
     </div>
 
@@ -445,7 +445,7 @@
 
 
         <img src="{{ asset('assets/images/N2/structure/tr-str/s30.png') }}" />
-        <h2 class="title stroke ">This is how the <span class="text-white">pyramid</span> looks like closed up.
+        <h2 class="title stroke ">This is how the <span class="!text-white">pyramid</span> looks like closed up.
             It is made up of many large cube shaped stones.</h2>
 
     </div>
@@ -456,7 +456,7 @@
 
         <img src="{{ asset('assets/images/N2/structure/tr-str/s31.png') }}" />
         <h2 class="title stroke ">The cube shaped stones are put together layer by layer,
-            forming a <span class="text-white">structure</span> similar to stairs.</h2>
+            forming a <span class="!text-white">structure</span> similar to stairs.</h2>
 
     </div>
 
@@ -466,7 +466,7 @@
 
 
         <img src="{{ asset('assets/images/N2/structure/tr-str/s31.png') }}" />
-        <h2 class="title stroke ">This stairs <span class="text-white">structure</span> makes the <span
+        <h2 class="title stroke ">This stairs <span class="!text-white">structure</span> makes the <span
                 class="text-white">pyramid</span> look like
             a triangle from far.</h2>
 
@@ -511,9 +511,9 @@
             <img src="{{ asset('assets/images/N2/structure/tr-str/s33.png') }}" class="large-img4"  />
         </div>
 
-        <h2 class="title stroke ">We learned that <span class="text-white">tower</span> and <span
-                class="text-white">pyramids</span> are <span class="text-white">structures</span>
-            that look like <span class="text-white">triangles</span>.</h2>
+        <h2 class="title stroke ">We learned that <span class="!text-white">tower</span> and <span
+                class="text-white">pyramids</span> are <span class="!text-white">structures</span>
+            that look like <span class="!text-white">triangles</span>.</h2>
     </div>
 
 

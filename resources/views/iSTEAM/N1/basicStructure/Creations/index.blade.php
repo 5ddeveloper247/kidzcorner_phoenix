@@ -5,7 +5,7 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col items-center h-full justify-between ">
-        <h2 class=" indexTitle text-[55px] stroke"> My Creations</h2>
+        <h2 class=" indexTitle  stroke"> My Creations</h2>
         <h2 class="!text-white title"> Learn how to identify shapes of an item; explore and create a shape template and
             structure for an item</h2>
 

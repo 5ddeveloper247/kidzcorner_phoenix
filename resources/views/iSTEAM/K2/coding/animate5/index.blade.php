@@ -4,8 +4,8 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col  gap-20 items-center gap-[8rem] ">
-        <div class="indexTitle  text-[55px]  stroke">Animate a Character (5)</div>
-        <h2 class="text-2xl sm:text-3xl lg:text-4xl text-white stroke ">
+        <div class="indexTitle    stroke">Animate a Character (5)</div>
+        <h2 class="text-2xl sm:text-3xl lg:text-4xl !text-white stroke ">
             Explore and learn how to create a multipage story
             that will auto play from page to page using ScratchJr</h2>
 

@@ -4,8 +4,8 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col items-center ">
-        <div class="  text-[#F7B94A] text-[50px] font-extrabold stroke">An Innovation</div>
-        <h2 class="text-2xl sm:text-3xl lg:text-xl text-white stroke ">Build a Rube Goldberg Machine that
+        <div class="  text-[#F7B94A] text-[50px] stroke">An Innovation</div>
+        <h2 class="text-2xl sm:text-3xl lg:text-xl !text-white stroke ">Build a Rube Goldberg Machine that
             includes at least three simple machines</h2>
 
         <button

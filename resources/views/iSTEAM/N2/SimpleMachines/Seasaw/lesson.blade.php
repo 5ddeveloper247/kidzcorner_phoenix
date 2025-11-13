@@ -8,23 +8,24 @@
     {{-- Slide 1 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
 
-        <img src="/assets/images/N2/SimpleMachines/a16.png" />
-        <h2 class="stroke title"><span class="text-white">Simple machines</span> are tools that help us to do
-            work<br />easily. What <span class="text-white">simple machine</span> is this?</h2>
+        <img src="{{ asset('/assets/images/N2/SimpleMachines/a16.png') }}" class="img-lg" />
+        <h2 class="stroke title"><span class="!text-white">Simple machines</span> are tools that help us to do
+            work<br />easily. What <span class="!text-white">simple machine</span> is this?</h2>
     </div>
 
 
     {{-- Slide 2 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="/assets/images/N2/SimpleMachines/s1.png" />
-        <h2 class="stroke title">What about this?<br />What<span class="text-white"> simple machine</span> can you see?</h2>
+        <img src="{{ asset('/assets/images/N2/SimpleMachines/s1.png') }}" class="img-lg" />
+        <h2 class="stroke title">What about this?<br />What<span class="!text-white"> simple machine</span> can you see?
+        </h2>
     </div>
 
 
     {{-- Slide 3 --}}
     <div class="slide flex flex-col items-center justify-center ">
-        <h2 class="stroke title">Today, we are going to learn about<span class="text-white"> levers<br /></span>-another
-            type of <span class="text-white">simple machine</span>.<br /><br />Let’s find out more!</h2>
+        <h2 class="stroke title">Today, we are going to learn about<span class="!text-white"> levers<br /></span>-another
+            type of <span class="!text-white">simple machine</span>.<br /><br />Let’s find out more!</h2>
     </div>
 
 
@@ -32,7 +33,7 @@
     <div class="slide flex flex-col items-center justify-between h-[50vh] ">
         <h2 class="!text-white title stroke">Hands-on Time 1</h2>
 
-        <h2 class="stroke title">Mission: <br>
+        <h2 class="title stroke text-start">Mission: <br>
             Let’s follow the instructions to build a seesaw.</h2>
         <p class="note">Note: Divide children into groups and give each group a set of building bricks.</p>
     </div>
@@ -42,11 +43,11 @@
     <div class="flex flex-col  slide hidden items-center">
         <div class="title stroke text-start self-start">
             <h2>Steps:</h2>
-            <ul>
-                <li>1. Make sure you have all these parts.</li>
-            </ul>
+            <ol class="list-decimal lesson-ul" start="1">
+                <li>Make sure you have all these parts.</li>
+                </ul>
         </div>
-        <img src="/assets/images/N2/SimpleMachines/s2.png" />
+        <img src="{{ asset('/assets/images/N2/SimpleMachines/s2.png') }}" class="img-md" />
         <p class="note">Note: Have each group of children check to ensure they have all the parts.</p>
     </div>
 
@@ -55,11 +56,11 @@
     <div class="flex flex-col  slide hidden items-center">
         <div class="title stroke text-start self-start">
             <h2>Steps:</h2>
-            <ul>
-                <li>2. Build a Seasaw.</li>
-            </ul>
+            <ol class="list-decimal lesson-ul" start="2">
+                <li>Build a Seasaw.</li>
+                </ul>
         </div>
-        <img src="/assets/images/N2/SimpleMachines/s3.png" />
+        <img src="{{ asset('/assets/images/N2/SimpleMachines/s3.png') }}" class="img-md" />
         <p class="note z-[99]">Note: Have each group of children work together to complete the mission. <a
                 class="click-btn1">Click
                 <span class="text-[#F7B94A]">here</span></a> for the guide.</p>
@@ -69,7 +70,7 @@
     {{-- slide 7 --}}
     <div class="flex flex-col items-center click1 justify-center slide hidden">
         <h2 class="title stroke">How to build a seesaw? Step 1 of 7</h2>
-        <img src="{{ asset('assets/images/N2/SimpleMachines/s4.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/s4.png') }}" class="img-xl" />
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
     </div>
 
@@ -77,7 +78,7 @@
     {{-- slide 8 --}}
     <div class="flex flex-col items-center click1 justify-center slide hidden">
         <h2 class="title stroke">How to build a seesaw? Step 2 of 7</h2>
-        <img src="{{ asset('assets/images/N2/SimpleMachines/s5.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/s5.png') }}" class="img-xl" />
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
     </div>
 
@@ -85,21 +86,21 @@
     {{-- slide 9 --}}
     <div class="flex flex-col items-center click1 justify-center slide hidden">
         <h2 class="title stroke">How to build a seesaw? Step 3 of 7</h2>
-        <img src="{{ asset('assets/images/N2/SimpleMachines/s6.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/s6.png') }}" class="img-xl" />
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
     </div>
 
     {{-- slide 10 --}}
     <div class="flex flex-col items-center click1 justify-center slide hidden">
         <h2 class="title stroke">How to build a seesaw? Step 4 of 7</h2>
-        <img src="{{ asset('assets/images/N2/SimpleMachines/s7.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/s7.png') }}" class="img-xl" />
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
     </div>
 
     {{-- slide 11 --}}
     <div class="flex flex-col items-center click1 justify-center slide hidden">
         <h2 class="title stroke">How to build a seesaw? Step 5 of 7</h2>
-        <img src="{{ asset('assets/images/N2/SimpleMachines/s8.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/s8.png') }}" class="img-xl" />
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
     </div>
 
@@ -107,37 +108,40 @@
     {{-- slide 12 --}}
     <div class="flex flex-col items-center click1 justify-center slide hidden">
         <h2 class="title stroke">How to build a seesaw? Step 6 of 7</h2>
-        <img src="{{ asset('assets/images/N2/SimpleMachines/s9.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/s9.png') }}" class="img-xl" />
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
     </div>
 
     {{-- slide 13 --}}
     <div class="flex flex-col items-center click1 justify-center slide hidden">
         <h2 class="title stroke">How to build a seesaw? Step 7 of 7</h2>
-        <img src="{{ asset('assets/images/N2/SimpleMachines/s10.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/s10.png') }}" class="img-xl" />
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
     </div>
 
     {{-- slide 14 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/SimpleMachines/s11.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/s11.png') }}" class="img-md" />
         <h2 class="title stroke"> How do you play with a seesaw? Would you play it on your own?</h2>
     </div>
 
     {{-- slide 15 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/SimpleMachines/s12.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/s12.png') }}" class="img-md" />
         <h2 class="title stroke">A seesaw is a long board rested on a fixed part in the middle.</h2>
     </div>
 
     {{-- slide 16 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/SimpleMachines/s13.png') }}" />
+        <video id="video1" class=" pointer-events-none">
+            <source src="{{ asset('assets/images/N2/SimpleMachines/videos/26.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
         <h2 class="title stroke">To play it, you and a friend each sit on one end. When one end of it goes up, the other end
             goes down.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
-            <img src="/assets/images/pptimages/video.png" />
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" class="img-lg" />
         </div>
 
     </div>
@@ -145,64 +149,68 @@
 
     {{-- slide 17 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/SimpleMachines/s11.png') }}" />
-        <h2 class="stroke title">A seesaw is made with a<span class="text-white"> simple machine</span> <br />called a <span
-                class="text-white">lever</span>.</h2>
+        <img src="{{ asset('assets/images/N2/SimpleMachines/s11.png') }}" class="img-md" />
+        <h2 class="stroke title">A seesaw is made with a<span class="!text-white"> simple machine</span> <br />called a
+            <span class="text-white">lever</span>.
+        </h2>
     </div>
 
 
     {{-- slide 18 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/SimpleMachines/se1.png') }}" />
-        <h2 class="stroke title">A <span class="text-white">lever</span> is a bar supported on a fixed part called<br />the
-            <span class="text-white">fulcrum</span>. The bar moves around the <span class="text-white">fulcrum</span>.
+        <img src="{{ asset('assets/images/N2/SimpleMachines/se1.png') }}" class="img-lg" />
+        <h2 class="stroke title">A <span class="!text-white">lever</span> is a bar supported on a fixed part called<br />the
+            <span class="!text-white">fulcrum</span>. The bar moves around the <span class="!text-white">fulcrum</span>.
         </h2>
     </div>
 
     {{-- slide 19 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/SimpleMachines/se2.png') }}" />
-        <h2 class="stroke title">With the help of <span class="text-white">fulcrum</span>, one end of the <span
+        <img src="{{ asset('assets/images/N2/SimpleMachines/se2.png') }}" class="img-lg" />
+        <h2 class="stroke title">With the help of <span class="!text-white">fulcrum</span>, one end of the <span
                 class="text-white">lever</span> will<br />move up when you push down the other end.</h2>
     </div>
 
 
     {{-- slide 20 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/SimpleMachines/se3.png') }}" />
-        <h2 class="stroke title">Many people use a <span class="text-white">lever</span> to lift heavy things.</h2>
+        <img src="{{ asset('assets/images/N2/SimpleMachines/se3.png') }}" class="img-lg" />
+        <h2 class="stroke title">Many people use a <span class="!text-white">lever</span> to lift heavy things.</h2>
     </div>
 
 
 
     {{-- slide 21 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/SimpleMachines/s11.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/s11.png') }}" class="img-md" />
         <h2 class="stroke title">Where is the lever and fulcrum of this seesaw? What does the lever do?</h2>
     </div>
 
     {{-- slide 22 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/SimpleMachines/gl14.png') }}" />
-        <h2 class="stroke title">The long board is the <span class="text-white">lever</span> of a seesaw.<br />The <span
-                class="text-white">fulcrum</span> of this <span class="text-white">lever</span> is in the middle.</h2>
+        <img src="{{ asset('assets/images/N2/SimpleMachines/gl14.png') }}" class="img-md" />
+        <h2 class="stroke title">The long board is the <span class="!text-white">lever</span> of a seesaw.<br />The <span
+                class="text-white">fulcrum</span> of this <span class="!text-white">lever</span> is in the middle.</h2>
     </div>
 
 
 
     {{-- slide 23 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/SimpleMachines/s13.png') }}" />
+        <video id="video2" class=" pointer-events-none">
+            <source src="{{ asset('assets/images/N2/SimpleMachines/videos/26.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
         <h2 class="stroke title">This lever lets us easily lift each other up and down a seesaw during play.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
-            <img src="/assets/images/pptimages/video.png" />
+        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" class="img-lg" />
         </div>
     </div>
 
     {{-- slide 24 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/SimpleMachines/s3.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/s3.png') }}" class="img-md" />
         <h2 class="stroke title">A seesaw can also be a balancing scale.
             You can use it to compare weight of different things.</h2>
     </div>
@@ -211,7 +219,7 @@
 
     {{-- slide 25 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/SimpleMachines/s15.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/s15.png') }}" class="img-md" />
         <h2 class="stroke title">Look at this seesaw! Who is lighter? Who is heavier?</h2>
         <p class="note ">Note: Have all children think and answer. Guide them to understand the meaning of lighter and
             heavier.</p>
@@ -219,14 +227,14 @@
 
     {{-- slide 26 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/SimpleMachines/s15.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/s15.png') }}" class="img-md" />
         <h2 class="stroke title">Based on this, you know that the girl is heavier than the boy.</h2>
     </div>
 
 
     {{-- .slide 27 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/SimpleMachines/s16.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/s16.png') }}" class="img-md" />
         <h2 class="stroke title">What about this? Which car is lighter? Which car is heavier?</h2>
         <p class="note">Note: Have all children think and answer. Guide them to understand the meaning of lighter and
             heavier.</p>
@@ -235,7 +243,7 @@
 
     {{-- slide 28 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/SimpleMachines/s17.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/s17.png') }}" class="img-md" />
         <h2 class="stroke title">Which car is lighter? Which car is heavier?</h2>
         <p class="note">Note: Have all children think and answer. Guide them to understand the meaning of lighter and
             heavier.</p>
@@ -246,8 +254,8 @@
     {{-- slide 29 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <div class="flex items-center gap-3">
-            <img src="{{ asset('assets/images/N2/SimpleMachines/s16.png') }}" class="large-img" />
-            <img src="{{ asset('assets/images/N2/SimpleMachines/s17.png') }}" class="large-img" />
+            <img src="{{ asset('assets/images/N2/SimpleMachines/s16.png') }}" class="img-normal-md" />
+            <img src="{{ asset('assets/images/N2/SimpleMachines/s17.png') }}" class="img-normal-md" />
         </div>
         <h2 class="stroke title">Based on these, you know that the red car is the lightest and the green car is the
             heaviest amongst the three cars!</h2>
@@ -261,7 +269,7 @@
         <h2 class="title stroke !text-white">Hands-on Time 2</h2>
         <div class="text-start">
 
-            <h2 class="title stroke">Mission: <br>
+            <h2 class="title stroke text-start">Mission: <br>
                 Let’s put on your thinking cap to play a balancing game!</h2>
         </div>
         <p class="note">Note: Give each group a set of materials needed. Have children work in groups to complete the
@@ -272,11 +280,11 @@
     <div class="flex flex-col  slide hidden items-center">
         <div class="title stroke text-start self-start">
             <h2>Steps:</h2>
-            <ul>
-                <li>1. Put a boy on the seesaw.</li>
-            </ul>
+            <ol class="list-decimal lesson-ul" start="1">
+                <li>Put a boy on the seesaw.</li>
+                </ul>
         </div>
-        <img src="/assets/images/N2/SimpleMachines/s18.png" />
+        <img src="{{ asset('/assets/images/N2/SimpleMachines/s18.png') }}" class="img-md" />
         <p class="note">Note: Have each group of children copy the same setup.</p>
     </div>
 
@@ -285,11 +293,11 @@
     <div class="flex flex-col  slide hidden items-center">
         <div class="title stroke text-start self-start">
             <h2>Steps:</h2>
-            <ul>
-                <li>2. How do you balance the seesaw using these square bricks?</li>
-            </ul>
+            <ol class="list-decimal lesson-ul" start="2">
+                <li>How do you balance the seesaw using these square bricks?</li>
+                </ul>
         </div>
-        <img src="/assets/images/N2/SimpleMachines/gl11.png" class="large-img6" />
+        <img src="{{ asset('/assets/images/N2/SimpleMachines/gl11.png') }}" class="img-xl" />
         <p class="note">Note: Have children work in groups to complete the challenge and show the teacher.</p>
     </div>
 
@@ -298,11 +306,11 @@
     <div class="flex flex-col  slide hidden items-center">
         <div class="title stroke text-start self-start">
             <h2>Steps:</h2>
-            <ul>
-                <li>3. Now, put a girl on the seesaw.</li>
-            </ul>
+            <ol class="list-decimal lesson-ul" start="3">
+                <li>Now, put a girl on the seesaw.</li>
+                </ul>
         </div>
-        <img src="/assets/images/N2/SimpleMachines/s20.png" />
+        <img src="{{ asset('/assets/images/N2/SimpleMachines/s20.png') }}" class="img-md" />
 
         <p class="note">Note: Have each group of children copy the same setup.</p>
     </div>
@@ -312,11 +320,11 @@
     <div class="flex flex-col  slide hidden items-center">
         <div class="title stroke text-start self-start">
             <h2>Steps:</h2>
-            <ul>
-                <li>4. How do you balance the seesaw using these square bricks?</li>
-            </ul>
+            <ol class="list-decimal lesson-ul" start="4">
+                <li>How do you balance the seesaw using these square bricks?</li>
+                </ul>
         </div>
-        <img src="/assets/images/N2/SimpleMachines/gl12.png" class="large-img6" />
+        <img src="{{ asset('/assets/images/N2/SimpleMachines/gl12.png') }}" class="img-xl" />
         <p class="note">Note: Have each group of children copy the same setup.</p>
     </div>
 
@@ -325,11 +333,11 @@
     <div class="flex flex-col  slide hidden items-center">
         <div class="title stroke text-start self-start">
             <h2>Steps:</h2>
-            <ul>
-                <li>5. Put a boy and a girl on one end of the seesaw.</li>
-            </ul>
+            <ol class="list-decimal lesson-ul" start="5">
+                <li>Put a boy and a girl on one end of the seesaw.</li>
+                </ul>
         </div>
-        <img src="/assets/images/N2/SimpleMachines/s21.png" />
+        <img src="{{ asset('/assets/images/N2/SimpleMachines/s21.png') }}" class="img-md" />
 
         <p class="note">Note: Have each group of children copy the same setup.</p>
     </div>
@@ -339,11 +347,11 @@
     <div class="flex flex-col  slide hidden items-center">
         <div class="title stroke text-start self-start">
             <h2>Steps:</h2>
-            <ul>
-                <li>6. How do you balance the seesaw using these square bricks?</li>
-            </ul>
+            <ol class="list-decimal lesson-ul" start="6">
+                <li>How do you balance the seesaw using these square bricks?</li>
+                </ul>
         </div>
-        <img src="/assets/images/N2/SimpleMachines/gl13.png" class="large-img6" />
+        <img src="{{ asset('/assets/images/N2/SimpleMachines/gl13.png') }}" class="img-xl" />
         <p class="note">Note: Have children work in groups to complete the challenge and show the teacher.</p>
     </div>
 
@@ -357,7 +365,7 @@
 
     {{-- slide 38 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/SimpleMachines/s22.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/s22.png') }}" class="img-lg" />
         <h2 class="stroke title">You can balance a seesaw when you put two things<br />of the same <span
                 class="text-white">weight</span> on one end of the seesaw.</h2>
     </div>
@@ -365,12 +373,15 @@
 
     {{-- slide 39 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/SimpleMachines/s23.png') }}" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/s23.png') }}" class="img-lg" />
         <h2 class="stroke title">You can also balance a seesaw when you put two things<br />of different <span
                 class="text-white">weights</span> each on different parts<br />of the two ends of the seesaw.</h2>
     </div>
 
 
+
+
+    {{-- ================ --}}
     {{-- Complete button --}}
     <div class="down-btn-container">
         <button class="doneButton">
@@ -607,7 +618,7 @@
                     parentSlideIndex = null;
                 } else {
                     // Go to selection page
-                    window.location.href = "{{ route('SeasawSelection') }}";
+                    window.location.href = "{{ route('SimpleMachines') }}";
                 }
             });
 

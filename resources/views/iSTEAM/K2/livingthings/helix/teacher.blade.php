@@ -6,7 +6,7 @@
     <h2 class="top-title stroke">Double DNA Helix</h2>
 
     {{-- sldie 1  --}}
-    <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
+    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -41,7 +41,7 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
+    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
@@ -69,7 +69,7 @@
 
 
     {{-- sldie 3 --}}
-    <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
+    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">How to make a model of DNA double helix and things to consider:</h2>
             <ul class="list-decimal">
@@ -84,7 +84,7 @@
 
 
     {{-- slide 4 --}}
-    <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
+    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">How to make a model of DNA double helix and things to consider:</h2>
             <ul>
@@ -100,7 +100,7 @@
 
 
     {{-- slide 5 --}}
-    <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
+    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">How to make a model of DNA double helix and things to consider:</h2>
             <ul>
@@ -117,7 +117,7 @@
 
 
     {{-- sldie 6 --}}
-    <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
+    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">How to make a model of DNA double helix and things to consider:</h2>
             <ul>
@@ -133,7 +133,7 @@
 
 
     {{-- sldie 7 --}}
-    <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
+    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">How to make a model of DNA double helix and things to consider:</h2>
             <ul>
@@ -148,7 +148,7 @@
     </div>
 
     {{-- sldie 8 --}}
-    <div class=" slide t-slide flex  text-white flex-col justify-start  text-start">
+    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">How to make a model of DNA double helix and things to consider:</h2>
             <ul>
@@ -163,7 +163,7 @@
 
 
     {{-- sldie 9 --}}
-    <div class="slide flex t-slide  flex-col justify-start  text-2xl text-start text-white">
+    <div class="slide flex t-slide  flex-col justify-start  text-2xl text-start !text-white">
         <div>
             <h2 class=" t-title">Notes:</h2>
             <ul class="list-disc leading-relaxed">
@@ -243,7 +243,7 @@
             <div>
                 <h2 class="!text-white title stroke">Fun Facts</h2>
                 <h2 class="t-title">What and how to set up:</h2>
-                <p class="text-[1.3vw]">Use your creativity to design graphic fact sheet for every fun fact
+                <p >Use your creativity to design graphic fact sheet for every fun fact
                     below. Guide children to understand the facts.</p>
             </div>
 
@@ -283,7 +283,7 @@
         <h2 class=" title stroke">Extension Class Activity 1</h2>
         <h2 class="!text-white title stroke">Let's Sing A Song</h2>
         <div class="text-center">
-            <p class="text-[1.3vw]">DNA Song <br>
+            <p >DNA Song <br>
                 DNA is deoxyribonucleic acid. <br>
                 It has a special shape called a double helix. <br>
                 It tells every living thing on how to form and work correctly. <br>

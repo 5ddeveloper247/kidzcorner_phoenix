@@ -6,7 +6,7 @@
     <h2 class="top-title stroke">What is an Electronic Circuit</h2>
 
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl t-slide text-white flex-col justify-start  text-start">
+    <div class=" slide flex text-2xl t-slide !text-white flex-col justify-start  text-start">
         <div>
             <h2 class="t-title ">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -42,7 +42,7 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl t-slide text-white flex-col justify-start  text-start">
+    <div class=" slide flex text-2xl t-slide !text-white flex-col justify-start  text-start">
         <div class="space-y-10">
             <ul class="list-disc ">
                 <h2 class=" t-title">Preparations:</h2>
@@ -55,7 +55,7 @@
 
 
     {{-- sldie 3 --}}
-    <div class=" slide text-start text-2xl t-slide text-white">
+    <div class=" slide text-start text-2xl t-slide !text-white">
         <div>
             <h2 class=" t-title">Things to note during hands-on session:</h2>
             <ul class="list-disc pl-[50px]">
@@ -82,7 +82,7 @@
 
 
     {{-- slide 4 --}}
-    <div class="slide flex  flex-col justify-start  text-2xl t-slide text-start text-white w-[80%]">
+    <div class="slide flex  flex-col justify-start  text-2xl t-slide text-start !text-white w-[80%]">
         <div>
             <h2 class=" t-title">Notes:</h2>
             <ul class="list-disc leading-relaxed">

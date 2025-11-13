@@ -7,15 +7,15 @@
 
 
     {{-- sldie 1  --}}
-    <div class=" slide flex t-slide text-white flex-col justify-start text-start">
+    <div class=" slide flex t-slide !text-white flex-col justify-start text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
-                <li class="text-[1.3vw]">Recall the four aerodynamic forces</li>
-                <li class="text-[1.3vw]">Understand hydrodynamics</li>
-                <li class="text-[1.3vw]">Understand how the forces of hydrodynamics help in movement of objects in water</li>
-                <li class="text-[1.3vw]">Develop creativity and imagination</li>
-                <li class="text-[1.3vw]">Develop understanding through inquiry</li>
+                <li>Recall the four aerodynamic forces</li>
+                <li>Understand hydrodynamics</li>
+                <li>Understand how the forces of hydrodynamics help in movement of objects in water</li>
+                <li>Develop creativity and imagination</li>
+                <li>Develop understanding through inquiry</li>
             </ul>
         </div>
 
@@ -23,17 +23,17 @@
             <h2 class="t-title ">Keywords:</h2>
             <div class="flex gap-[10rem]">
                 <ul class="list-disc ">
-                    <li class="text-[1.3vw]">Aerodynamics</li>
-                    <li class="text-[1.3vw]">Four Aerodynamic Forces</li>
-                    <li class="text-[1.3vw]">Force</li>
-                    <li class="text-[1.3vw]">Weight</li>
-                    <li class="text-[1.3vw]">Lift</li>
+                    <li>Aerodynamics</li>
+                    <li>Four Aerodynamic Forces</li>
+                    <li>Force</li>
+                    <li>Weight</li>
+                    <li>Lift</li>
                 </ul>
                 <ul class="list-disc">
-                    <li class="text-[1.3vw]">Drag</li>
-                    <li class="text-[1.3vw]">Hydrodynamics</li>
-                    <li class="text-[1.3vw]">Hydrofoil</li>
-                    <li class="text-[1.3vw]">Thrust</li>
+                    <li>Drag</li>
+                    <li>Hydrodynamics</li>
+                    <li>Hydrofoil</li>
+                    <li>Thrust</li>
                 </ul>
             </div>
         </div>
@@ -43,54 +43,58 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex t-slide text-white flex-col justify-start text-start">
-        <div class="text-start space-y-10">
+    <div class=" slide flex t-slide !text-white flex-col justify-start items-center text-start">
+        <div class="self-start">
+            <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc">
-                <h2 class="font-bold t-title">Preparations:</h2>
-                <li class="text-[1.3vw]">The teacher will have to prepare the items and setup prior the lesson.</li>
+                <li>The teacher will have to prepare the items and setup prior the lesson.</li>
             </ul>
+        </div>
+        <div>
+
+            <h2 class="t-title">Hands-on Session 1</h2>
             <ul class="list-disc ">
-                <h2>Hands-on Session 1</h2>
-                <li class="text-[1.3vw]">Items to prepare:
+                <li>Items to prepare:
                     <ul>
-                        <li class="text-[1.3vw]">-A big, clear container - fill it up with 2 of water</li>
-                        <li class="text-[1.3vw]">-Clothes peg</li>
-                        <li class="text-[1.3vw]">-A flat board/lid (ensure that it does not absorb water as this will affect
+                        <li>-A big, clear container - fill it up with 2 of water</li>
+                        <li>-Clothes peg</li>
+                        <li>-A flat board/lid (ensure that it does not absorb water as this will affect
                             the result)</li>
                     </ul>
                 </li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/aero/hydro/h22.png') }}" class="w-[600px]" />
+        <img src="{{ asset('assets/images/K2/aero/hydro/h22.png') }}" class="w-img2" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- sldie 3 --}}
-    <div class="slide flex t-slide  flex-col justify-start  text-2xl text-start text-white">
+    <div class="slide flex t-slide  flex-col justify-start  text-2xl text-start !text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
                 <h2 class=" t-title">Notes:</h2>
                 <ul class="list-disc leading-relaxed">
-                    <li class="text-[1.3vw] flex whitespace-nowrap">
-                        If you see
-                        <span>
-                            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s27.png') }}"
-                                class="!max-w-[2.5vw]" />
+                    <li><span class="flex items-center whitespace-nowrap">If you see
+                            <span>
+                                <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s27.png') }}"
+                                    class="!max-w-[2.5vw]" />
+                            </span>
+                            next to a picture,click on the picture to watch the video.
                         </span>
-                        next to a picture,click on the picture to watch the video.
                     </li>
-                    <li class="text-[1.3vw]">Emphasise and use the keywords during hands-on sessions.</li>
-                    <li class="text-[1.3vw]">Print out the Learning Journal (if any) for every child to complete at the end
+                    <li>Emphasise and use the keywords during hands-on sessions.</li>
+                    <li>Print out the Learning Journal (if any) for every child to complete at the end
                         of the lesson.
                     </li>
-                    <li class="text-[1.3vw] flex whitespace-nowrap">
-                        Click on this shortcut icon
-                        <span>
-                            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s28.png') }}"
-                                class="!max-w-[2.5vw]" />
+                    <li><span class="flex items-center whitespace-nowrap">
+                            Click on this shortcut icon
+                            <span>
+                                <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s28.png') }}"
+                                    class="!max-w-[2.5vw]" />
+                            </span>
+                            if you need to go to some parts of the lesson quickly.
                         </span>
-                        if you need to go to some parts of the lesson quickly.
                     </li>
                 </ul>
             </div>

@@ -4,8 +4,8 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col gap-20 items-center ">
-        <div class="indexTitle  text-[55px]  stroke">Playdough Circuits</div>
-        <h2 class=" text-white stroke ">
+        <div class="indexTitle    stroke">Playdough Circuits</div>
+        <h2 class=" !text-white stroke ">
             Explore and learn about conductors and insulators; 
             use creativity to create sculptures that light up</h2>
 

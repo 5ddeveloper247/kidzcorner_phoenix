@@ -52,9 +52,9 @@
     {{-- sldie 5 --}}
     <div class="slide flex flex-col items-center justify-center  ">
         <img src="{{ asset('assets/images/N2/BasicCoding/rb10.png') }}" />
-        <h2 class="stroke title text-center">When you place a <span class="text-white">robot</span> on one of the
-            character<span class="text-white">mats</span>,
-            the <span class="text-white">robot</span> turns into an animal character as shown.
+        <h2 class="stroke title text-center">When you place a <span class="!text-white">robot</span> on one of the
+            character<span class="!text-white">mats</span>,
+            the <span class="!text-white">robot</span> turns into an animal character as shown.
         </h2>
         <p class="note">Note: Display the mats. Guide children to compare their shapes with other mats.</p>
     </div>
@@ -71,9 +71,9 @@
                 <img src="{{ asset('assets/images/N2/BasicCoding/rb9.png') }}" class="large-img4" />
             </div>
         </div>
-        <h2 class="stroke title text-center">When you <span class="text-white">programme</span> a <span
+        <h2 class="stroke title text-center">When you <span class="!text-white">programme</span> a <span
                 class="text-white">robot</span> to move to these picture
-            <span class="text-white">mats</span>, the <span class="text-white">robot</span> shows reactions of the
+            <span class="!text-white">mats</span>, the <span class="!text-white">robot</span> shows reactions of the
             character.
         </h2>
     </div>
@@ -83,14 +83,14 @@
     {{-- slide 7 --}}
     <div class="slide flex flex-col items-center justify-center  ">
         <img src="{{ asset('assets/images/N2/BasicCoding/rb12.png') }}" />
-        <h2 class="title stroke text-center">So when you <span class="text-white">programme</span> an animal to find its
+        <h2 class="title stroke text-center">So when you <span class="!text-white">programme</span> an animal to find its
             favourite food, it shows happy reactions.</h2>
     </div>
 
     {{-- sldie 8 --}}
     <div class="slide flex flex-col items-center justify-center  ">
         <img src="{{ asset('assets/images/N2/BasicCoding/rb12.png') }}" />
-        <h2 class="title stroke text-center">And when you <span class="text-white">programme</span> an animal to find food
+        <h2 class="title stroke text-center">And when you <span class="!text-white">programme</span> an animal to find food
             that it does
             not like, it shows unhappy reactions.</h2>
     </div>
@@ -99,8 +99,8 @@
     {{-- sldie 9 --}}
     <div class="slide flex flex-col items-center justify-center  ">
         <img src="{{ asset('assets/images/N2/BasicCoding/rb13.png') }}" class="large-img" />
-        <h2 class="stroke title text-center"> These are the remaining picture <span class="text-white">mats</span>.<br />
-            What do you see from each <span class="text-white">mat</span>?</h2>
+        <h2 class="stroke title text-center"> These are the remaining picture <span class="!text-white">mats</span>.<br />
+            What do you see from each <span class="!text-white">mat</span>?</h2>
 
     </div>
 
@@ -119,7 +119,7 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="!text-white title stroke">Hands-on Time 1</h2>
         <div class="text-start">
-            <h2 class="title stroke">Mission: <br>
+            <h2 class="title stroke text-start">Mission: <br>
                 Let's lay out the sample maze and play a game. Use the
                 programming cards to think and plan how to help a robot move
                 from the starting point to the end point. After that, use the
@@ -189,7 +189,7 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="!text-white title stroke">Hands-on Time 2</h2>
         <div class="text-start">
-            <h2 class="title stroke">Mission: <br>
+            <h2 class="title stroke text-start">Mission: <br>
                 Let's lay out the sample maze and play a game. Use the
                 programming cards to think and plan how to help a robot move
                 from the starting point to the end point. After that, use the
@@ -266,7 +266,7 @@
     <div class="flex flex-col items-center justify-between h-[50vh] slide hidden">
         <h2 class="!text-white title stroke">Hands-on Time 3</h2>
         <div class="text-start">
-            <h2 class="title stroke">Mission: <br>
+            <h2 class="title stroke text-start">Mission: <br>
                 Change the animal character in each story and repeat
                 the games!</h2>
         </div>

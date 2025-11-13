@@ -22,7 +22,7 @@
             <img src="{{ asset('/assets/images/N2/structure/str2/s1.png') }}" class="large-img" />
             <img src="{{ asset('/assets/images/N2/structure/str2/s2.png') }}" class="large-img" />
         </div>
-        <h2 class="title stroke">These are different <span class="text-white">structures</span> with different <span
+        <h2 class="title stroke">These are different <span class="!text-white">structures</span> with different <span
                 class="text-white">shapes</span>.</h2>
         <p class="note">Note: Guide children to point out the shapes they see.</p>
     </div>
@@ -34,7 +34,7 @@
             <img src="{{ asset('/assets/images/N2/structure/str2/s1.png') }}" class="large-img" />
             <img src="{{ asset('/assets/images/N2/structure/str2/s2.png') }}" class="large-img" />
         </div>
-        <h2 class="title stroke">The <span class="text-white">structures</span> have a base that helps them
+        <h2 class="title stroke">The <span class="!text-white">structures</span> have a base that helps them
             stand firmly on the ground.</h2>
     </div>
 
@@ -45,7 +45,7 @@
             <img src="{{ asset('/assets/images/N2/structure/str2/s3.png') }}" class="large-img3" />
             <img src="{{ asset('/assets/images/N2/structure/str2/s4.png') }}" class="large-img3" />
         </div>
-        <h2 class="title stroke">Children, do you remember the two <span class="text-white">structures</span> you
+        <h2 class="title stroke">Children, do you remember the two <span class="!text-white">structures</span> you
             had made in the last lesson?</h2>
     </div>
 
@@ -56,7 +56,7 @@
             <img src="{{ asset('/assets/images/N2/structure/str2/s5.png') }}" class="large-img4" />
             <img src="{{ asset('/assets/images/N2/structure/str2/s6.png') }}" class="large-img3" />
         </div>
-        <h2 class="title stroke">We learned that the <span class="text-white">structure</span> with a <span
+        <h2 class="title stroke">We learned that the <span class="!text-white">structure</span> with a <span
                 class="text-white">thin base</span>
             cannot stand on its own.</h2>
     </div>
@@ -67,7 +67,7 @@
     <div class="slide flex flex-col items-center justify-center gap-6 ">
         <img src="{{ asset('/assets/images/N2/structure/str2/s7.png') }}" class="large-img6" />
 
-        <h2 class="title stroke">But the <span class="text-white">structure</span> with a <span class="text-white">wider
+        <h2 class="title stroke">But the <span class="!text-white">structure</span> with a <span class="!text-white">wider
                 base</span> can support its
             structure and is able to stand on its own.</h2>
     </div>
@@ -101,7 +101,7 @@
 
 
 
-        <h2 class="title stroke">In fact, these blocks are <span class="text-white">structures</span> made
+        <h2 class="title stroke">In fact, these blocks are <span class="!text-white">structures</span> made
             from the smaller pieces.</h2>
     </div>
 
@@ -110,7 +110,7 @@
     <div class="slide flex flex-col items-center justify-center gap-5 ">
         <img src="{{ asset('/assets/images/N2/structure/str2/s11.png') }}" class="large-img6" />
 
-        <h2 class="title stroke">The <span class="text-white">square</span> pieces forms a <span
+        <h2 class="title stroke">The <span class="!text-white">square</span> pieces forms a <span
                 class="text-white">square</span> block.
             This shape is known as a cube.</h2>
     </div>
@@ -120,7 +120,7 @@
     <div class="slide flex flex-col items-center justify-center gap-5 ">
         <img src="{{ asset('/assets/images/N2/structure/str2/s12.png') }}" class="large-img6" />
 
-        <h2 class="title stroke">Similarly, these pieces form a <span class="text-white"> triangular shaped</span>
+        <h2 class="title stroke">Similarly, these pieces form a <span class="!text-white"> triangular shaped</span>
             block, called prism.</h2>
     </div>
 
@@ -129,7 +129,7 @@
     <div class="slide flex flex-col items-center justify-center gap-5 ">
         <img src="{{ asset('/assets/images/N2/structure/str2/s13.png') }}" class="large-img6" />
 
-        <h2 class="title stroke">These pieces forms a <span class="text-white"> rectangular</span> block.
+        <h2 class="title stroke">These pieces forms a <span class="!text-white"> rectangular</span> block.
             It is call a cuboid.</h2>
     </div>
 

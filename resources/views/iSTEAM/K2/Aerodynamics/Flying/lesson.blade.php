@@ -7,7 +7,7 @@
 
 
     {{-- Slide 1 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
+    <div class="slide flex flex-col items-center justify-center  ">
         <img src="{{ asset('assets/images/K2/aero/hydro/h1.png') }}" class="large-img6" />
         <div class="title stroke">
             <h2>Do you remember what helps an aeroplane fly?</h2>
@@ -29,14 +29,14 @@
     {{-- Slide 3 --}}
     <div class="slide hidden  flex flex-col items-center">
         <img src="{{ asset('assets/images/K2/aero/hydro/h4.png') }}" class="large-img6" />
-        <h2 class="title stroke text-center">These four <span class="text-white">aerodynamic</span> forces affect the way
+        <h2 class="title stroke text-center">These four <span class="!text-white">aerodynamic</span> forces affect the way
             an aeroplane moves.</h2>
     </div>
 
     {{-- slide 4 --}}
     <div class="slide hidden  flex flex-col items-center">
         <img src="{{ asset('assets/images/K2/aero/hydro/h4.png') }}" class="large-img6" />
-        <h2 class="title stroke text-center">These four <span class="text-white">aerodynamic</span> forces affect the way
+        <h2 class="title stroke text-center">These four <span class="!text-white">aerodynamic</span> forces affect the way
             an aeroplane moves.</h2>
     </div>
 
@@ -64,7 +64,7 @@
     {{-- slide 8 --}}
     <div class="slide hidden flex flex-col items-center gap-y-3">
         <img src="{{ asset('assets/images/K2/aero/hydro/h8.png') }}" class="large-img6" />
-        <h2 class="title stroke"><span class="text-white">Drag</span> is the opposing force of <span
+        <h2 class="title stroke"><span class="!text-white">Drag</span> is the opposing force of <span
                 class="text-white">thrust</span> that slows down the aeroplane.</h2>
     </div>
 
@@ -85,7 +85,7 @@
 
 
     {{-- slide 11 --}}
-    <div class="slide hidden flex flex-col items-center h-[60%] justify-between">
+    <div class="slide hidden flex flex-col items-center h-[50vh] justify-between">
         <h2 class="title stroke">Are you able to recall part of the aeroplane
             that helps to generate lift?</h2>
         <p class="note">Note: Encourage children to share their answers.</p>
@@ -95,7 +95,7 @@
     {{-- slide 12 --}}
     <div class="slide hidden flex flex-col items-center gap-y-3">
         <img src="{{ asset('assets/images/K2/aero/aero1/a44.png') }}" class="large-img6" />
-        <h2 class="title stroke">Aeroplane wings are designed in the shape of an <span class="text-white">aerofoil</span>.
+        <h2 class="title stroke">Aeroplane wings are designed in the shape of an <span class="!text-white">aerofoil</span>.
         </h2>
     </div>
 
@@ -150,7 +150,7 @@
 
     {{-- slide 19 --}}
     <div class="slide hidden flex flex-col items-center gap-y-3">
-        <div class="flex items-center gap-5">
+        <div class="flex items-center ">
             <img src="{{ asset('assets/images/K2/aero/evo/e12.png') }}" class="large-img4" class="w-[450px]" />
             <img src="{{ asset('assets/images/K2/aero/evo/e19.png') }}" class="large-img4" class="w-[450px]" />
         </div>
@@ -162,15 +162,15 @@
     <div class="slide hidden flex flex-col items-center gap-y-3">
         <img src="{{ asset('assets/images/K2/aero/evo/e12.png') }}" class="large-img6" />
         <h2 class="title stroke">The head of the bullet train is designed in a pointed shape to
-            reduce <span class="text-white">drag</span>. This helps the train to move at a faster speed.</h2>
+            reduce <span class="!text-white">drag</span>. This helps the train to move at a faster speed.</h2>
     </div>
 
 
     {{-- slide 21 --}}
     <div class="slide hidden flex flex-col items-center gap-y-3">
         <img src="{{ asset('assets/images/K2/aero/evo/e10.png') }}" class="large-img6" />
-        <h2 class="title stroke">Formula 1 cars have <span class="text-white">front wings</span> in this shape. How is it
-            different from the aerofoil shape of the <span class="text-white">aeroplane</span> wings?</h2>
+        <h2 class="title stroke">Formula 1 cars have <span class="!text-white">front wings</span> in this shape. How is it
+            different from the aerofoil shape of the <span class="!text-white">aeroplane</span> wings?</h2>
         <p class="note">Note: Encourage children to discuss and share their answers.</p>
     </div>
 
@@ -178,8 +178,8 @@
     {{-- slide 22 --}}
     <div class="slide hidden flex flex-col items-center gap-y-3">
         <img src="{{ asset('assets/images/K2/aero/evo/e10.png') }}" class="large-img6" />
-        <h2 class="title stroke">The <span class="text-white">front wings</span> of the racing car is shaped this way to
-            create <span class="text-white">downforce</span>. This enables the car to stay on the ground instead
+        <h2 class="title stroke">The <span class="!text-white">front wings</span> of the racing car is shaped this way to
+            create <span class="!text-white">downforce</span>. This enables the car to stay on the ground instead
             of lifting up when it moves fast.
         </h2>
     </div>
@@ -197,13 +197,13 @@
     <div class="slide hidden flex flex-col items-center gap-y-3">
         <img src="{{ asset('assets/images/K2/aero/evo/e17.png') }}" class="large-img6" />
         <h2 class="title stroke">Professional cyclists curve their body and put on tight clothing
-            to reduce <span class="text-white">drag</span> so that they can move at a higher speed with
+            to reduce <span class="!text-white">drag</span> so that they can move at a higher speed with
             less effort.</h2>
     </div>
 
 
     {{-- slide 25 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-[60%]">
+    <div class="slide hidden flex flex-col items-center justify-between h-[50vh]">
         <div class="space-y-10 title stroke">
             <h2>Other than aeroplanes and vehicles, there are also other
                 flying machines that use aerodynamic forces to help them fly.</h2>
@@ -242,9 +242,9 @@
     {{-- slide 29 --}}
     <div class="slide hidden flex flex-col items-center gap-y-3">
         <img src="{{ asset('assets/images/K2/aero/evo/e24.png') }}" class="large-img6" />
-        <h2 class="title stroke">The <span class="text-white">rocket</span> engine burns fuel to generate <span
+        <h2 class="title stroke">The <span class="!text-white">rocket</span> engine burns fuel to generate <span
                 class="text-white">thrust</span> for the
-            <span class="text-white">rocket</span> to shoot into the sky.
+            <span class="!text-white">rocket</span> to shoot into the sky.
         </h2>
     </div>
 
@@ -252,7 +252,7 @@
     {{-- slide 30 --}}
     <div class="slide hidden flex flex-col items-center gap-y-3">
         <img src="{{ asset('assets/images/K2/aero/evo/e21.png') }}" class="large-img6" />
-        <h2 class="title stroke">The narrow shape of the <span class="text-white">rocket's</span> nose helps to reduce
+        <h2 class="title stroke">The narrow shape of the <span class="!text-white">rocket's</span> nose helps to reduce
             drag as it moves through air.</h2>
     </div>
 
@@ -268,9 +268,9 @@
     {{-- slide 32 --}}
     <div class="slide hidden flex flex-col items-center gap-y-3">
         <img src="{{ asset('assets/images/K2/aero/evo/e23.png') }}" class="large-img6" />
-        <h2 class="title stroke">To carry a <span class="text-white">space shuttle</span> into space, more <span
+        <h2 class="title stroke">To carry a <span class="!text-white">space shuttle</span> into space, more <span
                 class="text-white">thrust</span> is needed.
-            These <span class="text-white">rocket</span> boosters help to generate extra <span
+            These <span class="!text-white">rocket</span> boosters help to generate extra <span
                 class="text-white">thrust</span>.</h2>
     </div>
 
@@ -280,9 +280,9 @@
             <source src="{{ asset('assets/images/K2/aero/evo/220.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
-        <h2 class="title stroke">Let’s see how this rocket launches and shoots into the sky.</h2>
+        <h2 class="title stroke">Let's see how this rocket launches and shoots into the sky.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -296,7 +296,7 @@
         <h2 class="title stroke">Two minutes after launch, the boosters will detach from the
             main rocket and drop into the ocean.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -313,7 +313,7 @@
             illustration of the
             launch of a rocket.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -329,7 +329,7 @@
     </div>
 
     {{-- Slide 36 --}}
-    <div class="slide hidden  flex flex-col items-center justify-between h-[60%] ">
+    <div class="slide hidden  flex flex-col items-center justify-between h-[50vh] ">
         <h2 class="title stroke">But how does a space shuttle return to Earth?</h2>
         <p class="note">Note: Encourage children to share their answers.</p>
     </div>
@@ -374,7 +374,7 @@
         <h2 class="title stroke">A parachute is also deployed from the back of the space
             shuttle to increase drag and help stop the space shuttle.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video4')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video4')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -388,13 +388,13 @@
         <h2 class="title stroke">A parachute is also deployed from the back of the space
             shuttle to increase drag and help stop the space shuttle.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video5')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video5')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
     {{-- Slide 43 --}}
-    <div class="slide hidden  flex flex-col items-center justify-between h-[60%] ">
+    <div class="slide hidden  flex flex-col items-center justify-between h-[50vh] ">
         <div class="title stroke space-y-10">
             <h2>Now, it's your turn to design and create your own flying machine!</h2>
 
@@ -408,8 +408,8 @@
     <div class="flex flex-col items-center justify-between h-[80%] slide hidden">
         <h2 class="title !text-white stroke">Final Project</h2>
         <div class="text-start self-start title stroke">
-            <h2>Mission: <br>
-                Let's design and create your own flying machine!</h2>
+            <h2>Mission:</h2>
+            <p>Let's design and create your own flying machine!</p>
         </div>
         <p class="note">Note: Have children discuss and work in groups to complete the final project.</p>
     </div>
@@ -417,8 +417,8 @@
     {{-- Slide 45 --}}
     <div class="slide hidden  flex flex-col items-center   ">
         <div class="self-start text-start title stroke">
-            <ul class="list-decimal">
-                <h2>Steps:</h2>
+            <h2>Steps:</h2>
+            <ol class="list-decimal lesson-ul" start="1">
                 <li>In a small group, discuss the type of flying machine you
                     want to create. Draw the design of your flying machine
                     based on the aerodynamic forces.</li>
@@ -427,20 +427,20 @@
                 <li>Gather the materials you need to build your flying
                     machine based on your design</li>
                 <li>Build your flying machine and test it out.</li>
-            </ul>
+            </ol>
         </div>
     </div>
 
     {{-- Slide 46 --}}
     <div class="slide hidden  flex flex-col items-center   ">
         <div class="self-start text-start title stroke">
-            <ul>
-                <h2>Steps:</h2>
-                <li>5. Tweak the design of your flying machine to make it fly
+            <h2>Steps:</h2>
+            <ol class="list-decimal lesson-ul" start="5">
+                <li>Tweak the design of your flying machine to make it fly
                     further if needed.</li>
-                <li>6. Challenge your friends to see whose flying machine can
+                <li>Challenge your friends to see whose flying machine can
                     fly the furthest!</li>
-            </ul>
+            </ol>
         </div>
     </div>
 
@@ -532,7 +532,24 @@
             let isViewingInfoSlides = false;
             let currentInfoClass = null; // Track which info/click class we're viewing
 
+            // CONFIGURE YOUR ROUTES HERE
+            const returnRouteFromFirstSlide = "{{ route('FlyingSelection') }}";
+            const doneButtonRoute = "{{ route('FlyingSelection') }}";
+
+            // Pause all videos when changing slides
+            function pauseAllVideos() {
+                const videos = document.querySelectorAll('video');
+                videos.forEach(video => {
+                    if (!video.paused) {
+                        video.pause();
+                    }
+                });
+            }
+
             function showSlide(index) {
+                // Pause all videos before switching
+                pauseAllVideos();
+
                 slides.forEach((slide, i) => {
                     slide.classList.toggle("hidden", i !== index);
                 });
@@ -562,7 +579,7 @@
                 return false;
             }
 
-            // Get info/click class from button (info-btn1 → , click-btn1 → click1)
+            // Get info/click class from button (info-btn1 → info-slide1, click-btn1 → click1)
             function getInfoClassFromButton(button) {
                 const classList = Array.from(button.classList);
 
@@ -641,9 +658,9 @@
 
             // Return button
             returnButton.addEventListener("click", () => {
-                // Redirect to route if on slide 1
-                if (currentSlide === 1) {
-                    window.location.href = "{{ route('FlyingSelection') }}";
+                // If on first slide, navigate to return route
+                if (currentSlide === 0) {
+                    window.location.href = returnRouteFromFirstSlide;
                     return;
                 }
 
@@ -677,7 +694,7 @@
 
                     showSlide(currentSlide);
                 }
-            });;
+            });
 
             // DONE button handler
             if (doneButton) {
@@ -691,7 +708,7 @@
                         showSlide(currentSlide);
                     } else {
                         // Navigate to route
-                        window.location.href = "{{ route('FlyingSelection') }}";
+                        window.location.href = doneButtonRoute;
                     }
                 });
             }

@@ -6,7 +6,7 @@
     <h2 class="top-title stroke">Lets Programme 2</h2>
 
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl text-white flex-col justify-start  text-start t-slide">
+    <div class=" slide flex text-2xl !text-white flex-col justify-start  text-start t-slide">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -46,7 +46,7 @@
 
 
     {{-- slide 2 --}}
-    <div class="slide hidden flex flex-col  justify-start  text-start t-slide text-2xl text-white">
+    <div class="slide hidden flex flex-col  justify-start  text-start t-slide text-2xl !text-white">
         <div class="flex flex-col ">
             <ul class="list-disc">
                 <h2 class=" t-title ">Preparations:</h2>
@@ -58,7 +58,7 @@
             <div class="flex flex-col items-center">
                 <img src="{{ asset('assets/images/N2/BasicCoding/bs30.png') }}" />
             </div>
-            <div class="flex flex-col text-white text-[20px] gap-[2rem]">
+            <div class="flex flex-col !text-white text-[20px] gap-[2rem]">
                 <div
                     class="w-24 h-12 bg-zinc-300 rounded-[10px] flex justify-center items-center border-[3px] border-black">
                     Start</div>
@@ -72,7 +72,7 @@
 
 
     {{-- slide 3 --}}
-    <div class="slide hidden flex flex-col  justify-start  text-start t-slide text-2xl text-white">
+    <div class="slide hidden flex flex-col  justify-start  text-start t-slide text-2xl !text-white">
         <div class="flex flex-col ">
             <ul class="list-disc">
                 <h2 class=" t-title ">Preparations:</h2>
@@ -82,7 +82,7 @@
         <div class="flex justify-center items-center ">
             <div class="flex flex-col items-center">
                 <img src="{{ asset('assets/images/N2/BasicCoding/bs14.png') }}" class="w-[500px]" />
-                <div class="flex text-white text-[1.5vw] gap-[2vw]">
+                <div class="flex !text-white text-[1.5vw] gap-[2vw]">
                     <p>forwar</p>
                     <p>bakcward</p>
                     <p>turn left</p>
@@ -95,7 +95,7 @@
 
 
     {{-- slide 4 --}}
-    <div class="slide hidden flex flex-col  justify-start items-center text-start t-slide text-2xl text-white">
+    <div class="slide hidden flex flex-col  justify-start items-center text-start t-slide text-2xl !text-white">
         <div class="flex flex-col ">
             <ul class="list-disc">
                 <h2 class=" t-title ">Preparations:</h2>
@@ -111,7 +111,7 @@
 
 
     {{-- slide 5 --}}
-    <div class="slide hidden flex flex-col  justify-start items-center text-start t-slide text-2xl text-white">
+    <div class="slide hidden flex flex-col  justify-start items-center text-start t-slide text-2xl !text-white">
         <div class="flex flex-col ">
             <ul class="list-disc">
                 <h2 class=" t-title ">Preparations:</h2>
@@ -124,7 +124,7 @@
     </div>
 
     {{-- slide 6 --}}
-    <div class="slide hidden flex flex-col justify-start items-center text-start t-slide text-2xl text-white">
+    <div class="slide hidden flex flex-col justify-start items-center text-start t-slide text-2xl !text-white">
         <div class="flex flex-col ">
             <ul class="list-disc">
                 <h2 class=" t-title ">Preparations:</h2>
@@ -139,7 +139,7 @@
 
 
     {{-- slide 7 --}}
-    <div class="slide hidden flex flex-col  justify-start  text-start t-slide text-2xl text-white">
+    <div class="slide hidden flex flex-col  justify-start  text-start t-slide text-2xl !text-white">
         <div class="flex flex-col ">
             <ul class="list-disc">
                 <h2 class=" t-title ">Things to note:</h2>
@@ -165,7 +165,7 @@
 
 
     {{-- slide 8 --}}
-    <div class="slide flex t-slide  flex-col  text-2xl text-start text-white">
+    <div class="slide flex t-slide  flex-col  text-2xl text-start !text-white">
         <div>
             <h2 class="t-title">Notes:</h2>
             <ul class="list-disc">
@@ -248,7 +248,7 @@
     <div class="flex flex-col items-center  justify-center slide hidden info-slide1">
         <h2 class="title stroke">Example: Move Through The Maze And Pick Things Up</h2>
         <div class="text-start t-slide">
-            <h2 class="title stroke">Mission: <br>
+            <h2 class="title stroke text-start">Mission: <br>
                 Let's lay out a grid maze and play a programming game. Think
                 and plan how to move through the maze to pick up things.After that, lay out the programming cards and move
                 from the starting point to the end point.</h2>
@@ -261,7 +261,7 @@
     {{-- slide 2 --}}
     <div class="flex flex-col items-center justify-center slide hidden info-slide1">
         <div class="flex items-center">
-            <h2 class="text-[30px] text-white">Sample Maze 1</h2>
+            <h2 class="text-[30px] !text-white">Sample Maze 1</h2>
             <img src="{{ asset('assets/images/N2/BasicCoding/bs45.png') }}" class="large-img3" />
         </div>
         <h2 class="stroke title">How can you move through the maze and pick up the ball?</h2>
@@ -287,7 +287,7 @@
     {{-- sldie 5 --}}
     <div class="flex flex-col items-center justify-center slide hidden info-slide1">
         <div class="flex items-center">
-            <h2 class="text-[30px] text-white">Sample Maze 2</h2>
+            <h2 class="text-[30px] !text-white">Sample Maze 2</h2>
             <img src="{{ asset('assets/images/N2/BasicCoding/bs48.png') }}" class="large-img3" />
         </div>
         <h2 class="stroke title">How can you move through the maze and pick up the ball?</h2>

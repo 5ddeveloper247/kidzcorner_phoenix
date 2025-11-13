@@ -4,8 +4,8 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col  gap-[2vw] !justify-center items-center ">
-        <div class="indexTitle  text-[55px]  stroke">Animate a Character (3)</div>
-        <h2 class="text-2xl sm:text-3xl lg:text-4xl text-white stroke ">
+        <div class="indexTitle    stroke">Animate a Character (3)</div>
+        <h2 class="text-2xl sm:text-3xl lg:text-4xl !text-white stroke ">
             Explore and learn how to create animated stories using
             ScratchJr; learn how to programme a character to have
             sound; try to time sounds to match the movements

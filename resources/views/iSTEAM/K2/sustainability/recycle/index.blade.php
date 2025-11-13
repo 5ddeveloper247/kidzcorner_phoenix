@@ -3,9 +3,9 @@
 
 @section('content')
 
-    <div id="topDiv" class="flex flex-col  gap-20 items-center !justify-center">
-        <div class="indexTitle  text-[55px]  stroke">Let's Recycle</div>
-        <h2 class=" text-white stroke ">
+    <div id="topDiv" class="flex flex-col  gap-20 ">
+        <div class="indexTitle    stroke">Let's Recycle</div>
+        <h2 class=" !text-white stroke ">
             Understand how recycling helps earth; <br>
             Learn about the process of recycling paper</h2>
 

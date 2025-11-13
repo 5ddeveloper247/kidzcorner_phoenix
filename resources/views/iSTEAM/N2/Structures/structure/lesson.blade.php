@@ -25,7 +25,7 @@
     {{-- Slide3 --}}
     <div class="slide flex flex-col items-center justify-center gap-5 ">
         <img src="{{asset('/assets/images/N2/structure/str/st1.png')}}" class="large-img6" />
-        <h2 class="title stroke">These are different types of <span class="text-white">structures</span>.</h2>
+        <h2 class="title stroke">These are different types of <span class="!text-white">structures</span>.</h2>
         <p class="note">Note: Tell the children that tall buildings are called skyscrapers.</p>
     </div>
 
@@ -33,7 +33,7 @@
     {{-- Slide 4 --}}
     <div class="slide flex flex-col items-center justify-center ">
         <img src="{{asset('/assets/images/N2/structure/str/st2.png')}}" class="large-img6" />
-        <h2 class="title stroke">House and bridges are <span class="text-white">structures</span> too.</h2>
+        <h2 class="title stroke">House and bridges are <span class="!text-white">structures</span> too.</h2>
         <p class="note">Note: Encourage children to think of other building structures that they know of e.g. muesum,
             schools etc.</p>
 
@@ -42,8 +42,8 @@
 
     {{-- Slide 5  --}}
     <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <h2 class="text-start title stroke">A <span class="text-white">structures</span> is something made by putting small
-            parts together. When the parts are put together, <br>forms a <span class="text-white">shape</span>.</h2>
+        <h2 class="text-start title stroke">A <span class="!text-white">structures</span> is something made by putting small
+            parts together. When the parts are put together, <br>forms a <span class="!text-white">shape</span>.</h2>
     </div>
 
 
@@ -128,7 +128,7 @@
     {{-- slide 16 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <img src="{{asset('/assets/images//N2/structure/str/st11.png')}}" />
-        <h2 class="title stroke">These are the different <span class="text-white">connectors</span>.</h2>
+        <h2 class="title stroke">These are the different <span class="!text-white">connectors</span>.</h2>
     </div>
 
     {{-- slide 17 --}}
@@ -232,7 +232,7 @@
 
     {{-- slide 26 --}}
     <div class="slide hidden  flex flex-col items-center justify-center  ">
-        <h2 class="title stroke">Children, why do you think the <span class="text-white">structure</span> is
+        <h2 class="title stroke">Children, why do you think the <span class="!text-white">structure</span> is
             unable to stand on its own?</h2>
     </div>
 
@@ -336,7 +336,7 @@
         <img src="{{asset('/assets/images//N2/structure/str/st33.png')}}" class="large-img" />
         <p class="note">Note: Encourage and guide the children to try.</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -399,7 +399,7 @@
     {{-- slide 16 --}}
     {{-- <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[40vw] h-[40vh] bg-cover bg-center flex flex-col justify-between items-start"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center flex flex-col justify-between items-start"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>Design a unique building. Draw it.</p>
             <p>What is the name of your building?___________________________________________________</p>

@@ -33,27 +33,35 @@
 
 @section('content')
 
-    <div class=" panel panel-f flex flex-wrap items-center justify-center text-center z-[99] w-[40vw] gap-[1.5vw]">
+    <div class=" panel panel-f grid grid-cols-2 items-center justify-center text-center z-[99]  gap-x-[3vw] ">
 
         <a href="{{ route('SimpleMachines') }}"
-            class="flex justify-center items-center transition hover:brightness-110 ">
-            <img src="{{ asset('/assets/images/pptimages/n2-1.png') }}" alt="" class="w-[15vw]" >
+            style="background-image: url('{{ asset('/assets/images/pptimages/Property1.png') }}');"
+            class=" bg-no-repeat bg-contain bg-center  w-[21vw] h-[17.344vw] relative flex justify-center items-center transition hover:brightness-110">
+            <h2 class="text-[2.6vw] text-[#7D6F71]">Simple <br> Machines</h2>
+            <img src="{{ asset('/assets/images/N2/a1.png') }}" class="w-[6.4vw] h-[6.4vw] absolute left-0 top-[2.5vw]">
         </a>
 
         <a href="{{ route('LivingThings') }}"
-            class="flex justify-center items-center  transition hover:brightness-110 ">
-            <img src="{{ asset('/assets/images/pptimages/n2-4.png') }}" alt="" class="w-[15vw]" >
+            style="background-image: url('{{ asset('/assets/images/pptimages/Property1.png') }}');"
+            class=" bg-no-repeat bg-contain bg-center  w-[21vw] h-[17.344vw] relative flex justify-center items-center transition hover:brightness-110">
+            <h2 class="text-[2.6vw] text-[#7D6F71]">Living <br> Things</h2>
+            <img src="{{ asset('/assets/images/N2/a2.png') }}" class="w-[6.4vw] h-[6.4vw] absolute left-0 top-[2vw]">
         </a>
 
         <a href="{{ route('BasicCoding') }}"
-            class="flex justify-center items-center  transition hover:brightness-110 ">
-            <img src="{{ asset('/assets/images/pptimages/n2-3.png') }}" alt="" class="w-[15vw]" >
+            style="background-image: url('{{ asset('/assets/images/pptimages/Property1.png') }}');"
+            class=" bg-no-repeat bg-contain bg-center  w-[21vw] h-[17.344vw] relative flex justify-center items-center transition hover:brightness-110">
+            <h2 class="text-[2.6vw] text-[#7D6F71]">Basic <br> Coding</h2>
+            <img src="{{ asset('/assets/images/N2/a3.png') }}" class="w-[6.4vw] h-[6.4vw] absolute left-0 top-[2.5vw]">
         </a>
 
 
         <a href="{{ route('Structures') }}"
-            class="flex justify-center items-center  transition hover:brightness-110 ">
-            <img src="{{ asset('/assets/images/pptimages/n2-2.png') }}" alt="" class="w-[15vw]" >
+            style="background-image: url('{{ asset('/assets/images/pptimages/Property1.png') }}');"
+            class=" bg-no-repeat bg-contain bg-center  w-[21vw] h-[17.344vw] relative flex justify-center items-center transition hover:brightness-110">
+            <h2 class="text-[2.6vw] text-[#7D6F71]">Structures</h2>
+            <img src="{{ asset('/assets/images/N2/a4.png') }}" class="w-[6.4vw] h-[6.4vw] absolute left-[1vw] top-[1vw]">
         </a>
     </div>
 

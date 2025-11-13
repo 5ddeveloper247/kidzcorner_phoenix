@@ -4,8 +4,8 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col h-full justify-between items-center ">
-        <h2 class=" indexTitle text-[55px] stroke">Different Types of Shadows</h2>
-        <h2 class=" text-white">
+        <h2 class=" indexTitle  stroke">Different Types of Shadows</h2>
+        <h2 class=" !text-white">
             Develop awareness of different types of shadows;
             explore materials and their shadows
         </h2>

@@ -4,8 +4,8 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col items-center gap-[2vw] ">
-        <div class="indexTitle text-[55px] stroke">Our Animated Stories</div>
-        <h2 class="text-2xl sm:text-3xl lg:text-4xl text-white stroke ">
+        <div class="indexTitle  stroke">Our Animated Stories</div>
+        <h2 class="text-2xl sm:text-3xl lg:text-4xl !text-white stroke ">
             Use creativity and imagination to create
             animated stories
         </h2>

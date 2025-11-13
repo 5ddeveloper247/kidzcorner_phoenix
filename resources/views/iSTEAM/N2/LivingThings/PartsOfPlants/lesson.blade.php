@@ -26,8 +26,8 @@
     {{-- Slide 3 --}}
     <div class="flex flex-col items-center justify-center gap-10 slide hidden">
         <img src="{{ asset('assets/images/N2/LivingThings/lt22.png') }}" />
-        <h2 class="stroke title">This is an Adzuki <span class="text-white">plant</span>.<br />It is a plant grown from a
-            <span class="text-white">bean</span>.
+        <h2 class="stroke title">This is an Adzuki <span class="!text-white">plant</span>.<br />It is a plant grown from a
+            <span class="!text-white">bean</span>.
         </h2>
     </div>
 
@@ -35,8 +35,8 @@
     {{-- slide 4 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <img src="{{ asset('assets/images/N2/LivingThings/lt22.png') }}" />
-        <h2 class="stroke title">Let’s take a closer look at the <span class="text-white">plant</span> and<br />learn about
-            the different parts of the <span class="text-white">plant</span>.</h2>
+        <h2 class="stroke title">Let’s take a closer look at the <span class="!text-white">plant</span> and<br />learn about
+            the different parts of the <span class="!text-white">plant</span>.</h2>
     </div>
 
     {{-- slide 5 --}}
@@ -50,15 +50,15 @@
     {{-- slide 6 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <img src="{{ asset('assets/images/N2/LivingThings/lt32p.png') }}" />
-        <h2 class="stroke title">This is a<span class="text-white"> leaf</span>. The <span class="text-white">leaf</span>
-            makes food for the<span class="text-white"> plant</span>.</h2>
+        <h2 class="stroke title">This is a<span class="!text-white"> leaf</span>. The <span class="!text-white">leaf</span>
+            makes food for the<span class="!text-white"> plant</span>.</h2>
     </div>
 
 
     {{-- slide 7 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <img src="{{ asset('assets/images/N2/LivingThings/lt23.png') }}" />
-        <h2 class="stroke title">The<span class="text-white"> leaves</span> use water, nutrients from the soil,<br />air and
+        <h2 class="stroke title">The<span class="!text-white"> leaves</span> use water, nutrients from the soil,<br />air and
             sunlight to make food.</h2>
     </div>
 
@@ -82,16 +82,16 @@
             <img src="{{ asset('assets/images/N2/LivingThings/lt24.png') }}" class="large-img4" />
             <img src="{{ asset('assets/images/N2/LivingThings/lt31.png') }}" class="large-img4" />
         </div>
-        <h2 class="stroke title">The<span class="text-white"> stem</span> helps the plant to grow tall. When the
-            plant<br />is tall, its <span class="text-white">leaves</span> can get enough sunlight to make food.</h2>
+        <h2 class="stroke title">The<span class="!text-white"> stem</span> helps the plant to grow tall. When the
+            plant<br />is tall, its <span class="!text-white">leaves</span> can get enough sunlight to make food.</h2>
     </div>
 
 
     {{-- slide 11 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <img src="{{ asset('assets/images/N2/LivingThings/lt25.png') }}" class="large-img2" />
-        <h2 class="stroke title">The<span class="text-white"> stem</span> also helps to <span class="text-white">carry
-            </span>water to the<br /><span class="text-white">leaves</span> and <span class="text-white">flower</span>.</h2>
+        <h2 class="stroke title">The<span class="!text-white"> stem</span> also helps to <span class="!text-white">carry
+            </span>water to the<br /><span class="!text-white">leaves</span> and <span class="!text-white">flower</span>.</h2>
     </div>
 
 
@@ -113,8 +113,8 @@
     {{-- slide 14 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <img src="{{ asset('assets/images/N2/LivingThings/lt34p.png') }}" />
-        <h2 class="stroke title">The <span class="text-white">roots</span> take in water and nutrients from the soil
-            and<br />carry them to the <span class="text-white">stem</span> and <span class="text-white">leaves</span>.</h2>
+        <h2 class="stroke title">The <span class="!text-white">roots</span> take in water and nutrients from the soil
+            and<br />carry them to the <span class="!text-white">stem</span> and <span class="!text-white">leaves</span>.</h2>
     </div>
 
     {{-- slide 15 --}}
@@ -131,14 +131,14 @@
             <img src="{{ asset('assets/images/N2/LivingThings/lt47.png') }}" class="!max-w-[10vw]" />
             <img src="{{ asset('assets/images/N2/LivingThings/lt48.png') }}" class="!max-w-[10vw]" />
         </div>
-        <h2 class="stroke title">These are plants with <span class="text-white">flowers</span>.<br />Plants will need time
-            to grow before they have <span class="text-white">flowers</span>.</h2>
+        <h2 class="stroke title">These are plants with <span class="!text-white">flowers</span>.<br />Plants will need time
+            to grow before they have <span class="!text-white">flowers</span>.</h2>
     </div>
 
     {{-- slide 17 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <img src="{{ asset('assets/images/N2/LivingThings/lt49.png') }}" />
-        <h2 class="stroke title">This is an adzuki plant with <span class="text-white">flowers</span>.<br />The <span
+        <h2 class="stroke title">This is an adzuki plant with <span class="!text-white">flowers</span>.<br />The <span
                 class="text-white">flowers</span> may grow only after 60-70 days</h2>
     </div>
 
@@ -146,16 +146,16 @@
     {{-- slide 18 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <img src="{{ asset('assets/images/N2/LivingThings/lt50.png') }}" />
-        <h2 class="stroke title">This is an adzuki plant with <span class="text-white">pods</span>.<br /><span
-                class="text-white">Pods</span> are the <span class="text-white">fruits</span> from the adzuki plant.</h2>
+        <h2 class="stroke title">This is an adzuki plant with <span class="!text-white">pods</span>.<br /><span
+                class="text-white">Pods</span> are the <span class="!text-white">fruits</span> from the adzuki plant.</h2>
     </div>
 
 
     {{-- slide 19 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <img src="{{ asset('assets/images/N2/LivingThings/lt51.png') }}" />
-        <h2 class="stroke title">When you peel the <span class="text-white">pods</span> open, you will find red beans in
-            them.<br />The red beans are the <span class="text-white">seeds</span>.</h2>
+        <h2 class="stroke title">When you peel the <span class="!text-white">pods</span> open, you will find red beans in
+            them.<br />The red beans are the <span class="!text-white">seeds</span>.</h2>
     </div>
 
 
