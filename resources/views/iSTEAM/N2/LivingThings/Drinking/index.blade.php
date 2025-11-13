@@ -6,7 +6,7 @@
     <div id="topDiv" class="flex flex-col items-center ">
         <div class="indexTitle    stroke">How Does a Plant Drink Water?</div>
         <h2
-            class="text-2xl sm:text-3xl lg:text-6xl !text-white    flex flex-col items-center space-x-[30px]">
+            class=" !text-white    flex flex-col items-center space-x-[30px]">
             Observe how plants drink water</h2>
         <button class="nextButton"> <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
 

@@ -18,8 +18,8 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <div class="flex items-center gap-[1.5vw]">
 
-            <img src="{{ asset('assets/images/N2/LivingThings/lt24.png') }}" class="large-img3" />
-            <img src="{{ asset('assets/images/N2/LivingThings/lt31.png') }}" class="large-img3" />
+            <img src="{{ asset('assets/images/N2/LivingThings/lt24.png') }}" class="img-sm" />
+            <img src="{{ asset('assets/images/N2/LivingThings/lt31.png') }}" class="img-sm" />
 
         </div>
         <h2 class="stroke title">That’s right! The <span class="!text-white">stem</span> helps the <span
@@ -31,7 +31,7 @@
     {{-- Slide 3 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
 
-        <img src="{{ asset('assets/images/N2/LivingThings/lt25.png') }}" class="large-img2" />
+        <img src="{{ asset('assets/images/N2/LivingThings/lt25.png') }}" class="img-md rounded-[2vw]" />
 
         <h2 class="stroke title">The<span class="!text-white"> stem</span> also helps to <span class="!text-white">carry
             </span>water to the<br /><span class="!text-white">leaves</span> and <span class="!text-white">flower</span>.</h2>
@@ -53,7 +53,7 @@
                 <li>1. Take a stalk of flower from a bouquet.</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/N2/LivingThings/lt34.png') }}" class="large-img2" />
+        <img src="{{ asset('assets/images/N2/LivingThings/lt34.png') }}" class="img-md" />
         <p class="note">Note: Assist the children in cutting the flowers.</p>
     </div>
 
@@ -66,7 +66,7 @@
                 <li>2. Take a stalk of flower from a bouquet.</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/N2/LivingThings/lt35.png') }}" class="large-img2" />
+        <img src="{{ asset('assets/images/N2/LivingThings/lt35.png') }}" class="img-md" />
     </div>
 
 

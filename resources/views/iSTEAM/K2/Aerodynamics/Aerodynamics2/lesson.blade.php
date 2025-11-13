@@ -351,7 +351,7 @@
     {{-- slide 40 --}}
     <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[40vw] h-[45vh] bg-cover bg-center p-[1vw] flex flex-col justify-center items-center"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center p-[1vw] flex flex-col justify-center items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>Label the four aerodynamic forces.</p>
             <img src="{{ asset('assets/images/K2/aero/aero1/a34.png') }}" class="!max-w-[38vw]" />
@@ -361,7 +361,7 @@
     {{-- slide 41 --}}
     <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[40vw] h-[45vh] bg-cover bg-center p-[1vw] flex flex-col justify-center items-center"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center p-[1vw] flex flex-col justify-center items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>Label the aerodynamic force that should be higher for the aeroplane to take off.</p>
             <img src="{{ asset('assets/images/K2/aero/aero1/a34.png') }}" class="!max-w-[38vw]" />

@@ -5,7 +5,7 @@
 
     <div id="topDiv" class="flex flex-col items-center ">
         <div class="indexTitle    stroke">Let’s Programme 1</div>
-        <h2 class="text-2xl sm:text-3xl lg:text-6xl !text-white stroke">Learn how to design and lay out simple mazes;
+        <h2 class=" !text-white stroke">Learn how to design and lay out simple mazes;
             learn how to follow and create step-by-step instructions to move through simple mazes.</h2>
         <button
                class="nextButton" >       <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />

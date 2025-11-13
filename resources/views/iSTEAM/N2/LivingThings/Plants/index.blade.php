@@ -6,7 +6,7 @@
 
     <div id="topDiv" class="flex flex-col items-center ">
         <div class="indexTitle    stroke">Are Plants Living Things?</div>
-        <h2 class="text-2xl sm:text-3xl lg:text-6xl !text-white">Analyze and confirm that plants are living things</h2>
+        <h2 class=" !text-white">Analyze and confirm that plants are living things</h2>
         <button
                class="nextButton" >       <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
 

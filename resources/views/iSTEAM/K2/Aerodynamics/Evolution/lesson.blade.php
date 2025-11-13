@@ -261,7 +261,7 @@
     {{-- slide 30 --}}
     <div class="slide  hidden flex flex-col items-center justify-center ">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[40vw] h-[45vh] bg-cover bg-center p-[20px] flex flex-col justify-center items-center"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center p-[20px] flex flex-col justify-center items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <img src="{{ asset('assets/images/K2/aero/evo/e18.png') }}" class="!max-w-[39vw]" />
         </div>

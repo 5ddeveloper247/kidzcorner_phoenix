@@ -5,7 +5,7 @@
 
     <div id="topDiv" class="flex flex-col items-center ">
         <div class="indexTitle    stroke">Let’s Programme 2</div>
-        <h2 class="text-2xl sm:text-3xl lg:text-6xl !text-white stroke">Learn how to follow and create step-by-step
+        <h2 class=" !text-white stroke">Learn how to follow and create step-by-step
             instructions to move through a grid maze; learn to create new programming challenges.</h2>
         <button
                class="nextButton" >       <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />

@@ -5,7 +5,7 @@
 
     <div id="topDiv" class="flex flex-col items-center ">
         <div class="indexTitle    stroke">Directional Signs</div>
-        <h2 class="text-2xl sm:text-3xl lg:text-6xl !text-white stroke">Explore and learn about directional
+        <h2 class=" !text-white stroke">Explore and learn about directional
             signs and directions</h2>
         <button
                class="nextButton" >       <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />

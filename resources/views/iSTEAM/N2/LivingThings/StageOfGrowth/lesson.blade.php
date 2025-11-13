@@ -17,7 +17,7 @@
     {{-- Slide 2 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
 
-        <img src="{{ asset('assets/images/N2/LivingThings/gl6.png') }}" class="large-img6" />
+        <img src="{{ asset('assets/images/N2/LivingThings/gl6.png') }}" class="img-xl" />
         <h2 class="stroke title">These are the stages of growth of a girl.</h2>
         <p class="note">Note: Explain to children that every girl goes through these stages of growth.</p>
     </div>
@@ -25,7 +25,7 @@
 
     {{-- Slide 3 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/LivingThings/gl8.png') }}" class="large-img6" />
+        <img src="{{ asset('assets/images/N2/LivingThings/gl8.png') }}" class="img-lg" />
         <h2 class="title stroke">Note: Invite children take turns to share their changes over time.</h2>
 
     </div>
@@ -33,7 +33,7 @@
 
     {{-- slide 4 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/LivingThings/an51.png') }}" />
+        <img src="{{ asset('assets/images/N2/LivingThings/an51.png') }}" class="img-md" />
         <h2 class="stroke title">This is a <span class="!text-white">butterfly</span>.<br />Let’s look at the <span
                 class="text-white">stages of growth</span> of a <span class="!text-white">butterfly</span>.</h2>
 
@@ -43,7 +43,7 @@
     {{-- slide 5 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="title stroke">First Stage</h2>
-        <img src="{{ asset('assets/images/N2/LivingThings/an43.png') }}" />
+        <img src="{{ asset('assets/images/N2/LivingThings/an43.png') }}" class="img-md" />
         <h2 class="stroke title">The butterfly starts off as an egg.</span>.
         </h2>
     </div>
@@ -66,7 +66,7 @@
     {{-- slide 7 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="title stroke">Second Stage</h2>
-        <img src="{{ asset('assets/images/N2/LivingThings/an45.png') }}" />
+        <img src="{{ asset('assets/images/N2/LivingThings/an45.png') }}" class="img-md" />
         <h2 class="stroke title">Once the caterpillar hatches,
             it is in the second stage of growth.</span>.
         </h2>
@@ -137,7 +137,7 @@
 
     {{-- slide 12 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/LivingThings/an51.png') }}" />
+        <img src="{{ asset('assets/images/N2/LivingThings/an51.png') }}" class="img-md" />
         <h2 class="stroke title">After drying its wings, the butterfly will fly off
             to look for food.</h2>
     </div>
@@ -172,12 +172,12 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <div class="title stroke text-start">
             <h2>Let’s do:</h2>
-            <ul>
-                <li>1. Prepare a clean piece of paper cut to the size
+            <ol class="list-decimal lesson-ul" start="1">
+                <li>Prepare a clean piece of paper cut to the size
                     of the container and an empty container.</li>
-            </ul>
+            </ol>
         </div>
-        <img src="{{ asset('assets/images/N2/LivingThings/an63.png') }}" class="large-img2" />
+        <img src="{{ asset('assets/images/N2/LivingThings/an63.png') }}" class="img-md" />
     </div>
 
 
@@ -185,12 +185,12 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <div class="title stroke text-start">
             <h2>Let’s do:</h2>
-            <ul>
+            <ol class="list-decimal lesson-ul" start="2">
 
-                <li>2. Remove the cover of the caterpillar’s container.</li>
-            </ul>
+                <li>Remove the cover of the caterpillar’s container.</li>
+            </ol>
         </div>
-        <img src="{{ asset('assets/images/N2/LivingThings/an52.png') }}" class="large-img2" />
+        <img src="{{ asset('assets/images/N2/LivingThings/an52.png') }}" class="img-md" />
     </div>
 
 
@@ -198,12 +198,12 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <div class="title stroke text-start">
             <h2>Let’s do:</h2>
-            <ul>
-                <li>3. Transfer the caterpillar to an empty container
+            <ol class="list-decimal lesson-ul" start="3">
+                <li>Transfer the caterpillar to an empty container
                     with teacher’s help.</li>
-            </ul>
+            </ol>
         </div>
-        <img src="{{ asset('assets/images/N2/LivingThings/an53.png') }}" class="large-img6" />
+        <img src="{{ asset('assets/images/N2/LivingThings/an53.png') }}" class="img-xl" />
         <p class="note">Note: If the caterpillar is not on the leaves, you can place a leaf/stick near to it to let it
             crawl onto it. Be gentle if you plan to transfer it by holding the caterpillar.</p>
     </div>
@@ -213,12 +213,12 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <div class="title stroke text-start">
             <h2>Let’s do:</h2>
-            <ul>
-                <li>4. Throw the dirty paper away and use a tissue to
+            <ol class="list-decimal lesson-ul" start="4">
+                <li>Throw the dirty paper away and use a tissue to
                     clean the container if it is dirty.</li>
-            </ul>
+            </ol>
         </div>
-        <img src="{{ asset('assets/images/N2/LivingThings/an54.png') }}" class="large-img2" />
+        <img src="{{ asset('assets/images/N2/LivingThings/an54.png') }}" class="img-md" />
 
     </div>
 
@@ -228,12 +228,12 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <div class="title stroke text-start">
             <h2>Let’s do:</h2>
-            <ul>
-                <li>5. Put the clean paper flat at the bottom
+            <ol class="list-decimal lesson-ul" start="5">
+                <li>Put the clean paper flat at the bottom
                     of the container.</li>
-            </ul>
+            </ol>
         </div>
-        <img src="{{ asset('assets/images/N2/LivingThings/an55.png') }}" class="large-img2" />
+        <img src="{{ asset('assets/images/N2/LivingThings/an55.png') }}" class="img-md" />
 
     </div>
 
@@ -242,12 +242,12 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <div class="title stroke text-start">
             <h2>Let’s do:</h2>
-            <ul>
-                <li>6. Remove the leaf from the water holder and place the
+            <ol class="list-decimal lesson-ul" start="6">
+                <li>Remove the leaf from the water holder and place the
                     leaf with the caterpillar in the container.</li>
-            </ul>
+            </ol>
         </div>
-        <img src="{{ asset('assets/images/N2/LivingThings/an56.png') }}" class="large-img6" />
+        <img src="{{ asset('assets/images/N2/LivingThings/an56.png') }}" class="img-xl" />
 
     </div>
 
@@ -256,12 +256,12 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <div class="title stroke text-start">
             <h2>Let’s do:</h2>
-            <ul>
-                <li>7. Wash and change the water in the water holder. Fill
+            <ol class="list-decimal lesson-ul" start="7">
+                <li> Wash and change the water in the water holder. Fill
                     the water to the brim of the water holder and cover it</li>
-            </ul>
+            </ol>
         </div>
-        <img src="{{ asset('assets/images/N2/LivingThings/an57.png') }}" class="large-img6" />
+        <img src="{{ asset('assets/images/N2/LivingThings/an57.png') }}" class="img-md" />
 
     </div>
 
@@ -270,12 +270,12 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <div class="title stroke text-start">
             <h2>Let’s do:</h2>
-            <ul>
-                <li>8. Pluck a leaf from the bunch of leaves in the fridge.
+            <ol class="list-decimal lesson-ul" start="8">
+                <li>Pluck a leaf from the bunch of leaves in the fridge.
                     Ensure that the stalk is intact.</li>
-            </ul>
+            </ol>
         </div>
-        <img src="{{ asset('assets/images/N2/LivingThings/an58.png') }}" class="large-img6" />
+        <img src="{{ asset('assets/images/N2/LivingThings/an58.png') }}" class="img-xl" />
     </div>
 
 
@@ -283,9 +283,9 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <div class="title stroke text-start">
             <h2>Let’s do:</h2>
-            <ul>
-                <li>9. Put the stalk of the leaf into the hole on the cover.</li>
-            </ul>
+            <ol class="list-decimal lesson-ul" start="9">
+                <li>Put the stalk of the leaf into the hole on the cover.</li>
+            </ol>
         </div>
         <video id="video7" class="pointer-events-none">
             <source src="{{ asset('assets/images/N2/LivingThings/7.mp4') }}" type="video/mp4">
@@ -303,11 +303,11 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <div class="title stroke text-start">
             <h2>Let’s do:</h2>
-            <ul>
-                <li>10. Put the leaf back in the container.</li>
-            </ul>
+            <ol class="list-decimal lesson-ul" start="10">
+                <li>Put the leaf back in the container.</li>
+            </ol>
         </div>
-        <img src="{{ asset('assets/images/N2/LivingThings/an60.png') }}" class="large-img2" />
+        <img src="{{ asset('assets/images/N2/LivingThings/an60.png') }}" class="img-md" />
 
     </div>
 
@@ -316,11 +316,11 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <div class="title stroke text-start">
             <h2>Let’s do:</h2>
-            <ul>
-                <li>11. Transfer the caterpillar back into the container.</li>
-            </ul>
+            <ol class="list-decimal lesson-ul" start="11">
+                <li>Transfer the caterpillar back into the container.</li>
+            </ol>
         </div>
-        <img src="{{ asset('assets/images/N2/LivingThings/an61.png') }}" />
+        <img src="{{ asset('assets/images/N2/LivingThings/an61.png') }}" class="img-md" />
 
     </div>
 
@@ -328,11 +328,11 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <div class="title stroke text-start self-start">
             <h2>Let’s do:</h2>
-            <ul>
-                <li>12. Close the container.</li>
-            </ul>
+            <ol class="list-decimal lesson-ul" start="12">
+                <li>Close the container.</li>
+            </ol>
         </div>
-        <img src="{{ asset('assets/images/N2/LivingThings/an62.png') }}" />
+        <img src="{{ asset('assets/images/N2/LivingThings/an62.png') }}" class="img-md" />
 
     </div>
 
@@ -340,19 +340,18 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <div class="title stroke text-start">
             <h2>Let’s do:</h2>
-            <ul>
-                <li>13.
-                    See how the caterpillar grow overtime. Record
+            <ol class="list-decimal lesson-ul" start="13">
+                <li>See how the caterpillar grow overtime. Record
                     (draw or paste a photo) when there are changes.</li>
-            </ul>
+            </ol>
         </div>
-        <img src="{{ asset('assets/images/N2/LivingThings/an57.png') }}" class="large-img" />
+        <img src="{{ asset('assets/images/N2/LivingThings/an57.png') }}" class="img-md" />
         <p class="note">Note: Guide children to record their observations in the learning journal.</p>
     </div>
 
 
     {{-- slide 28 --}}
-    <div class="flex flex-col items-center justify-center slide hidden">
+    <div class="flex flex-col items-center justify-between h-[30vh] slide hidden">
         <h2 class="stroke title">Children, how did the caterpillar grew.</h2>
 
 
@@ -363,14 +362,14 @@
 
     {{-- slide 29 --}}
     <div class="flex flex-col items-center slide hidden">
-        <img src="{{ asset('assets/images/N2/LivingThings/gl9.png') }}" class="large-img6" />
+        <img src="{{ asset('assets/images/N2/LivingThings/gl9.png') }}" class="img-xl" />
         <h2 class="stroke title">These are the stages of growth of a butterfly.</h2>
     </div>
 
 
     {{-- slide 20 --}}
     <div class="flex flex-col items-center slide hidden">
-        <img src="{{ asset('assets/images/N2/LivingThings/gl10.png') }}" class="large-img6" />
+        <img src="{{ asset('assets/images/N2/LivingThings/gl10.png') }}" class="img-xl" />
         <h2 class="stroke title">Similar to you, the caterpillar also goes through the stages
             of growth. It gets bigger as it grows and its look changes.</h2>
     </div>
@@ -379,9 +378,8 @@
 
     {{-- slide 31 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/LivingThings/gl10.png') }}" class="large-img6" />
-        <h2 class="title stroke">Note: Invite children take turns to share their changes over time.</h2>
-
+        <img src="{{ asset('assets/images/N2/LivingThings/gl10.png') }}" class="img-xl" />
+        <p class="note">Note: Invite children take turns to share their changes over time.</p>
     </div>
 
 
@@ -389,7 +387,7 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="title !text-white stroke">Individual Activity</h2>
 
-        <img src="{{ asset('assets/images/N2/LivingThings/gl11.png') }}" />
+        <img src="{{ asset('assets/images/N2/LivingThings/gl11.png') }}" class="img-md" />
 
         <h2 class="title stroke text-start">Let’s do: <br>
             How has the caterpillar grown? Put the photos in the correct order.</h2>
@@ -399,7 +397,7 @@
     {{-- slde 33 --}}
     <div class="slide  hidden flex flex-col items-center justify-center">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[45vw] h-[40vh] bg-cover bg-center"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>How does your caterpillar grow? Record your observations here
                 (draw or paste photos)</p>
@@ -410,11 +408,9 @@
     {{-- slde 34 --}}
     <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[45vw] h-[40vh] bg-cover bg-center 
-        
-        flex justify-center items-center"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center flex justify-center items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
-            <img src="{{asset('assets/images/N2/LivingThings/gl12.png')}}" />
+            <img src="{{ asset('assets/images/N2/LivingThings/gl12.png') }}" class="img-md" />
         </div>
     </div>
 
@@ -461,7 +457,7 @@
 
 @push('script')
     <script>
-        // Video toggle function
+        // Video toggle function - plays or pauses a video when clicked
         function toggleVideo(videoId) {
             const video = document.getElementById(videoId);
             if (video.paused) {
@@ -472,88 +468,84 @@
         }
 
         document.addEventListener("DOMContentLoaded", () => {
-            // Get all elements
+            // Get all slide elements
             const slides = document.querySelectorAll(".slide");
-            const nextBtn = document.querySelector(".nextButton");
-            const returnBtn = document.getElementById("returnButton");
-            const doneBtn = document.querySelector(".doneButton");
+            const nextButtons = document.querySelectorAll(".nextButton");
+            const returnButton = document.getElementById("returnButton");
+            const doneButton = document.querySelector(".doneButton");
 
-            // Current slide position
-            let currentIndex = 0;
+            // Keep track of which slide we're currently viewing
+            let currentSlide = 0;
 
-            console.log("Total slides:", slides.length);
-            console.log("Next button:", nextBtn);
-            console.log("Done button:", doneBtn);
+            // CONFIGURE YOUR ROUTES HERE
+            const returnRouteFromFirstSlide = "{{ route('StageOfGrowthSelection') }}";
+            const doneButtonRoute = "{{ route('LivingThings') }}";
 
-            // Pause all videos in current slide
-            function pauseVideos() {
-                if (slides[currentIndex]) {
-                    const videos = slides[currentIndex].querySelectorAll("video");
-                    videos.forEach(video => {
-                        if (!video.paused) {
-                            video.pause();
-                        }
-                    });
-                }
+            // Pause all videos when changing slides
+            function pauseAllVideos() {
+                const videos = document.querySelectorAll('video');
+                videos.forEach(video => {
+                    if (!video.paused) {
+                        video.pause();
+                    }
+                });
             }
 
-            // Show slide and update buttons
+            // Show a specific slide and hide all others
             function showSlide(index) {
-                console.log("Showing slide:", index);
+                // Pause all videos before switching
+                pauseAllVideos();
 
-                // Pause videos before switching
-                pauseVideos();
-
-                // Hide all slides
-                slides.forEach(slide => slide.classList.add("hidden"));
-
-                // Show current slide
-                slides[index].classList.remove("hidden");
-
-                // Update index
-                currentIndex = index;
+                // Hide all slides except the current one
+                slides.forEach((slide, i) => {
+                    slide.classList.toggle("hidden", i !== index);
+                });
 
                 // Check if last slide
-                const isLastSlide = (index === slides.length - 1);
-                console.log("Is last slide?", isLastSlide);
+                const isLastSlide = index === slides.length - 1;
 
                 if (isLastSlide) {
-                    // Last slide: hide Next, show Done
-                    console.log("Hiding Next, Showing Done");
-                    nextBtn.style.display = "none";
-                    doneBtn.style.display = "block";
+                    nextButtons.forEach(btn => btn.classList.add("hidden"));
+                    if (doneButton) doneButton.classList.remove("hidden");
                 } else {
-                    // Not last slide: show Next, hide Done
-                    console.log("Showing Next, Hiding Done");
-                    nextBtn.style.display = "block";
-                    doneBtn.style.display = "none";
+                    nextButtons.forEach(btn => btn.classList.remove("hidden"));
+                    if (doneButton) doneButton.classList.add("hidden");
                 }
             }
 
-            // Next button
-            nextBtn.addEventListener("click", () => {
-                console.log("Next clicked, current:", currentIndex);
-                if (currentIndex < slides.length - 1) {
-                    showSlide(currentIndex + 1);
+            // NEXT button
+            nextButtons.forEach((btn) => {
+                btn.addEventListener("click", () => {
+                    if (currentSlide < slides.length - 1) {
+                        currentSlide++;
+                        showSlide(currentSlide);
+                    }
+                });
+            });
+
+            // RETURN button - go to previous slide or navigate back
+            returnButton.addEventListener("click", () => {
+                // If on first slide, navigate to return route
+                if (currentSlide === 0) {
+                    window.location.href = returnRouteFromFirstSlide;
+                    return;
+                }
+
+                if (currentSlide > 0) {
+                    currentSlide--;
+                    showSlide(currentSlide);
                 }
             });
 
-            // Return button
-            returnBtn.addEventListener("click", () => {
-                console.log("Return clicked, current:", currentIndex);
-                if (currentIndex > 0) {
-                    showSlide(currentIndex - 1);
-                }
-            });
+            // DONE button - navigate to completion route
+            if (doneButton) {
+                doneButton.addEventListener("click", () => {
+                    window.location.href = doneButtonRoute;
+                });
+            }
 
-            // Done button
-            doneBtn.addEventListener("click", () => {
-                console.log("Done clicked");
-                window.location.href = "{{ route('StageOfGrowthSelection') }}";
-            });
-
-            // Start at first slide
-            showSlide(0);
+            // Initialize - show first slide
+            showSlide(currentSlide);
         });
     </script>
 @endpush

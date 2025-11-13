@@ -5,7 +5,7 @@
 
     <div id="topDiv" class="flex flex-col items-center ">
         <div class="indexTitle    stroke">How do Plants Grow?</div>
-        <h2 class="text-2xl sm:text-3xl lg:text-6xl !text-white stroke">Learn how to grow a plant from a seed;
+        <h2 class=" !text-white stroke">Learn how to grow a plant from a seed;
             observe how a plant grows</h2>
         <button
                class="nextButton" >       <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />

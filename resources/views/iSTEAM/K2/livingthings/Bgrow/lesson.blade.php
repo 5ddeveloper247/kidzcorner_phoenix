@@ -206,7 +206,7 @@
     {{-- slide 23 --}}
     <div class="slide  hidden flex flex-col items-center justify-start gap-y-4">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[40vw] h-[45vh] bg-cover bg-center flex flex-col gap-10 justify-center items-center p-[30px]"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center flex flex-col gap-10 justify-center items-center p-[30px]"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <img src="{{ asset('/assets/images/K2/livingthings/bg/b14.png') }}" class="w-img3" />
 
@@ -215,7 +215,7 @@
     {{-- slide 23 --}}
     <div class="slide  hidden flex flex-col items-center justify-start gap-y-4">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[40vw] h-[45vh] bg-cover bg-center flex flex-col gap-10 justify-center items-center p-[30px]"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center flex flex-col gap-10 justify-center items-center p-[30px]"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <img src="{{ asset('/assets/images/K2/livingthings/bg/b15.png') }}" class="w-img3" />
 
@@ -225,7 +225,7 @@
     {{-- slide 23 --}}
     <div class="slide  hidden flex flex-col items-center justify-start gap-y-4">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[40vw] h-[45vh] bg-cover bg-center flex flex-col gap-10 justify-center items-center p-[30px]"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center flex flex-col gap-10 justify-center items-center p-[30px]"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <img src="{{ asset('/assets/images/K2/livingthings/bg/b16.png') }}" class="w-img3" />
 
@@ -235,7 +235,7 @@
     {{-- slide 23 --}}
     <div class="slide  hidden flex flex-col items-center justify-start gap-y-4">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[40vw] h-[45vh] bg-cover bg-center flex flex-col gap-10 justify-center items-center p-[30px]"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center flex flex-col gap-10 justify-center items-center p-[30px]"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <img src="{{ asset('/assets/images/K2/livingthings/bg/b17.png') }}" class="w-img3" />
 

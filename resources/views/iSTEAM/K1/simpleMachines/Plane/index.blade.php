@@ -5,7 +5,7 @@
 
     <div id="topDiv" class="flex flex-col   items-center ">
         <div class="indexTitle    stroke">The Power of an Inclined Plane</div>
-        <div class="text-2xl sm:text-3xl lg:text-6xl !text-white    flex flex-col items-center space-x-[34px]">
+        <div class=" !text-white    flex flex-col items-center space-x-[34px]">
             Explore the characteristics and uses of <br>
             a simple machine - Inclined Plane
 

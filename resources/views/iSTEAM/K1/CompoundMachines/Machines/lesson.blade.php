@@ -748,7 +748,7 @@
     {{-- slide 86 --}}
     <div class="slide  hidden flex flex-col items-center justify-center ">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[40vw] h-[45vh] bg-cover bg-center"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p class="text-center">What are the three compound machines you can find in your home? Draw them and write
                 down the simple machines they have.</p>

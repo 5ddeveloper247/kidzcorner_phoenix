@@ -408,7 +408,7 @@
     {{-- slide 28 --}}
     <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[40vw] h-[45vh] bg-cover bg-center flex flex-col justify-between items-start"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center flex flex-col justify-between items-start"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>How did you build your tall building? Draw it?</p>
             <p>How tall is your building? _ _ _ _ _ _ _ _ _ cm</p>
@@ -419,7 +419,7 @@
     {{-- slide 29 --}}
     <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[40vw] h-[45vh] bg-cover bg-center flex flex-col justify-between items-start"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center flex flex-col justify-between items-start"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>What is the use of your building? ________________________________________________ <br>
 

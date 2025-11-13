@@ -5,7 +5,7 @@
 
     <div id="topDiv" class="flex flex-col   items-center ">
         <div class="indexTitle    stroke">Pop a Balloon Machine</div>
-        <h2 class="text-2xl sm:text-3xl lg:text-6xl !text-white    flex flex-col items-center space-x-[30px]">
+        <h2 class=" !text-white    flex flex-col items-center space-x-[30px]">
             Build a Rube Goldberg Machine that includes <br>
             a simple machine - Wedge
         </h2>
