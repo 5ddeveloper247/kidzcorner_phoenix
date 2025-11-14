@@ -14,7 +14,7 @@
 
 
     {{-- Slide 2 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="{{ asset('assets/images/K1/sm/plane/plane1.png') }}" class="large-img4" />
         <h2 class="title stroke">This is a <span class="!text-white">ramp.</span> It is a slanting surface
             with one end higher than the other end.</h2>

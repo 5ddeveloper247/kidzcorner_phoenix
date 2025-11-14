@@ -18,7 +18,7 @@
 
 
     {{-- Slide 2 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <video id="video1" class="pointer-events-none">
             <source src="{{ asset('assets/images/K1/sm/47.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
@@ -35,7 +35,7 @@
 
 
     {{-- Slide3 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <video id="video2" class="pointer-events-none">
             <source src="{{ asset('assets/images/K1/sm/48.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
@@ -52,7 +52,7 @@
 
 
     {{-- Slide 4 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/ball/ba2.png" />
 
         <h2 class="title stroke">What are the things used in this machine?</h2>
@@ -61,14 +61,14 @@
 
 
     {{-- Slide 5  --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/ball/ba3.png" />
 
     </div>
 
 
     {{-- slide 6 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <video id="video3" class="pointer-events-none">
             <source src="{{ asset('assets/images/K1/sm/47.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
@@ -87,7 +87,7 @@
 
 
     {{-- sldie 7 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <video id="video4" class="pointer-events-none">
             <source src="{{ asset('assets/images/K1/sm/47.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
@@ -140,7 +140,7 @@
 
 
     {{-- sldie 10 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <h2 class="title stroke !text-white">Reflection</h2>
         <img src="/assets/images/K1/sm/ball/ba5.png" />
         <h2 class="title stroke">Why do you think the ball rolls down? </h2>
@@ -150,7 +150,7 @@
 
 
     {{-- sldie 11 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <video id="video5" class="pointer-events-none">
             <source src="{{ asset('assets/images/K1/sm/47.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
@@ -167,7 +167,7 @@
 
 
     {{-- sldie 12 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/ball/ba5.png" />
         <h2 class="title stroke">Why do you think the ball will always hit the first book?</h2>
 
@@ -175,7 +175,7 @@
 
 
     {{-- sldie 13 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/ball/ba6.png" />
         <h2 class="title stroke">The ball will always hit the first book
             because a track is used to direct the ball.</h2>
@@ -185,7 +185,7 @@
 
 
     {{-- sldie 14 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/ball/ba7.png" />
         <h2 class="title stroke">Why does the first book fall?</h2>
 
@@ -193,7 +193,7 @@
 
 
     {{-- sldie 15 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/ball/ba7.png" />
         <h2 class="title stroke">The first book falls because of
             the push from the moving ball.</h2>
@@ -202,7 +202,7 @@
 
 
     {{-- sldie 16 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <video id="video6" class="pointer-events-none">
             <source src="{{ asset('assets/images/K1/sm/47.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
@@ -218,14 +218,14 @@
 
 
     {{-- sldie 17 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/ball/ba8.png" />
         <h2 class="title stroke">Why do all the books fall one after another?.</h2>
 
     </div>
 
     {{-- sldie 18 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <video id="video7" class="pointer-events-none">
             <source src="{{ asset('assets/images/K1/sm/47.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
@@ -241,7 +241,7 @@
 
 
     {{-- sldie 19 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <video id="video8" class="pointer-events-none">
             <source src="{{ asset('assets/images/K1/sm/43.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
@@ -256,7 +256,7 @@
 
 
     {{-- sldie 20 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/ball/ba8.png" />
         <h2 class="title stroke">How do you make sure that the books will
             always fall one after another?</h2>
@@ -267,7 +267,7 @@
 
 
     {{-- sldie 21 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/ball/ba10.png" />
         <h2 class="title stroke">The positioning of books is important
             to create a <span class="!text-white">domino effect</span>.</h2>
@@ -277,7 +277,7 @@
 
 
     {{-- sldie 22 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <video id="video9" class="pointer-events-none">
             <source src="{{ asset('assets/images/K1/sm/47.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
@@ -294,7 +294,7 @@
 
 
     {{-- sldie 23 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/ball/ba11.png" />
         <h2 class="title stroke">The ruler needs to be placed within the area
             where the last book fall.</h2>
@@ -303,7 +303,7 @@
 
 
     {{-- sldie 24 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/ball/ba12.png" />
         <h2 class="title stroke">Why do you think the ball launches into the air?</h2>
 
@@ -311,7 +311,7 @@
 
 
     {{-- sldie 25 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <video id="video10" class="pointer-events-none">
             <source src="{{ asset('assets/images/K1/sm/47.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
@@ -325,7 +325,7 @@
 
 
     {{-- sldie 26 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <video id="video11" class="pointer-events-none">
             <source src="{{ asset('assets/images/K1/sm/49.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
@@ -340,7 +340,7 @@
 
 
     {{-- sldie 27 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <video id="video12" class="pointer-events-none">
             <source src="{{ asset('assets/images/K1/sm/49.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
@@ -356,7 +356,7 @@
 
 
     {{-- sldie 28 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <video id="video13" class="pointer-events-none">
             <source src="{{ asset('assets/images/K1/sm/49.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
@@ -370,7 +370,7 @@
 
 
     {{-- sldie 29 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/ball/ba13.png" />
         <h2 class="title stroke">Actually, this is a <span class="!text-white">lever</span> when the ruler is placed in
             this way.A <span class="!text-white">lever</span> is a bar rested on a fixed part called <span
@@ -379,7 +379,7 @@
 
 
     {{-- sldie 30 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/ball/ba14.png" />
         <h2 class="title stroke">Can you point out the fulcrum of this lever
             What will happen if you push one end of it down?
@@ -389,7 +389,7 @@
 
 
     {{-- sldie 31 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <video id="video14" class="pointer-events-none">
             <source src="{{ asset('assets/images/K1/sm/50.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.

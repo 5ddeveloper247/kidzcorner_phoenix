@@ -75,7 +75,7 @@
 
 
     {{-- Slide 7 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/coding/cd/cd7.png" />
         <h2 class="title stroke">When someone is creating a programme for a machine,
             it is a task called programming or coding.</h2>

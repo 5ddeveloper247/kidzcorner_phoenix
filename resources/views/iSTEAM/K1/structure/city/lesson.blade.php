@@ -34,7 +34,7 @@
 
 
     {{-- Slide 4 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/str/c1.png" />
         <h2 class=" title stroke">What <span class="!text-white">structures</span> do you see in this <span
                 class="text-white">city</span>?</h2>

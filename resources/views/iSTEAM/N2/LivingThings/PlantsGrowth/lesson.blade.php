@@ -14,7 +14,7 @@
 
 
     {{-- Slide 2 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
 
         <img src="{{ asset('assets/images/N2/LivingThings/lt1.png') }}" class="img-md" />
         <h2 class="stroke title">This is grass.</h2>

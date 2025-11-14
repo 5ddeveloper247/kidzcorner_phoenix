@@ -105,7 +105,7 @@
 
 
     {{-- sldie 10 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
 
         <h2 class="title stroke"> <span class="!text-white">Simple machines</span> are basic tools that help us
             to do work easily.</h2>
@@ -115,7 +115,7 @@
 
 
     {{-- sldie 11 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
 
         <h2 class="title stroke"> Do you know how a <span class="!text-white">pulley</span> helps us
             to do work easily?</h2>
@@ -142,7 +142,7 @@
 
 
     {{-- sldie 13 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/pulley/pu8.png" />
         <h2 class="title stroke">What is this? Where is the pulley?
             What does it do?</h2>
@@ -151,7 +151,7 @@
 
 
     {{-- sldie 14 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/pulley/pu8.png" />
         <h2 class="title stroke">People draw water from a well with the rope on a pulley.
             It helps to lift a heavy pail of water up easily.</h2>
@@ -159,7 +159,7 @@
 
 
     {{-- sldie 15 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/pulley/pu9.png" />
         <h2 class="title stroke">What is this? Where is the pulley?
             What does it do?</h2>
@@ -168,7 +168,7 @@
 
 
     {{-- sldie 16 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <video id="video3" class="pointer-events-none">
             <source src="{{ asset('assets/images/K1/sm/37.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
@@ -183,7 +183,7 @@
 
 
     {{-- sldie 17 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/pulley/pu11.png" class="large-img3" />
         <h2 class="title stroke">What is this? Where is the pulley?
             What does it do?</h2>
@@ -191,7 +191,7 @@
 
 
     {{-- sldie 18 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/pulley/pu11.png" class="large-img3" />
         <h2 class="title stroke">They pulley is on the exercise machine.
             It helps a person to lift weights and be fit. </h2>
@@ -199,7 +199,7 @@
 
 
     {{-- sldie 19 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/pulley/pu12.png" />
         <h2 class="title stroke">What is this? Where is the pulley?
             What does it do? </h2>
@@ -207,7 +207,7 @@
 
 
     {{-- sldie 20 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <video id="video4" class="pointer-events-none">
             <source src="{{ asset('assets/images/K1/sm/38.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
@@ -222,7 +222,7 @@
 
 
     {{-- sldie 21 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/pulley/pu14.png" />
         <h2 class="title stroke">What is this? Where is the pulley?
             What does it do?</h2>
@@ -230,7 +230,7 @@
 
 
     {{-- sldie 22 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/pulley/pl1.png" />
         <h2 class="title stroke">They pulley on the fishing rod helps us to pull the fishing
             line in easily and catch a fish.</h2>
@@ -239,7 +239,7 @@
 
 
     {{-- sldie 23 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/pulley/pu15.png" />
         <h2 class="title stroke">What is this? Where is the pulley?
             What does it do?</h2>
@@ -247,14 +247,14 @@
 
 
     {{-- sldie 24 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/pulley/pl2.png" />
         <h2 class="title stroke">The pulley is on the sail boat. When the sailor pulls the rope
             on the pulley, the sails are raised and lowered easily.</h2>
     </div>
 
     {{-- sldie 25 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <h2 class="title stroke !text-white">Class Activity</h2>
 
         <img src="/assets/images/K1/sm/pulley/pl3.png" />
@@ -268,7 +268,7 @@
 
 
     {{-- sldie 26 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/pulley/pl4.png" />
 
         <ul class="title stroke !text-start">
@@ -290,7 +290,7 @@
     </div>
 
     {{-- sldie 29 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/pulley/pl6.png" />
         <ul class="title stroke !text-start">
             <li class="!text-white"> What do you think will happen (Prediction):</li>
@@ -383,7 +383,7 @@
 
 
     {{-- sldie 37 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <video id="video5" class="pointer-events-none">
             <source src="{{ asset('assets/images/K1/sm/39.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
@@ -398,7 +398,7 @@
 
 
     {{-- sldie 38 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <video id="video6" class="pointer-events-none">
             <source src="{{ asset('assets/images/K1/sm/40.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.

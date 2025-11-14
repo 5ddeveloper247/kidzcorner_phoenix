@@ -15,7 +15,7 @@
 
 
     {{-- Slide 2 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/N2/structure/ci-str/s1.png" />
         <h2 class="title stroke">We learnt that buildings are structures.
             They are put together with many small parts.</h2>
@@ -24,7 +24,7 @@
 
 
     {{-- Slide3 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/N2/structure/ci-str/s2.png" />
         <h2 class="title stroke">There are many different types of buildings. They have
             different designs and shapes.</h2>
@@ -33,7 +33,7 @@
 
 
     {{-- Slide 4 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/N2/structure/ci-str/s3.png" />
         <h2 class="title stroke">We also looked at structures that looked like triangles
             such as the Eiffel Tower and Pyramid.</h2>
@@ -42,7 +42,7 @@
 
 
     {{-- Slide 5  --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <div class="flex gap-1[vw]">
 
             <img src="/assets/images/N2/structure/ci-str/s4.png" class="large-img" />
@@ -64,7 +64,7 @@
     </div>
 
     {{-- Slide 7 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <h2 class="title stroke">Let’s look at some photographs of famous structures <br>
             around Singapore! <br>
             Stop the different structures and name the shapes of <br>
@@ -73,7 +73,7 @@
 
 
     {{-- Slide 8 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/N2/structure/ci-str/s6.png" />
         <h2 class="title stroke">This unique structure is called the Esplanade.</h2>
 
@@ -81,7 +81,7 @@
 
 
     {{-- slide 9 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/N2/structure/ci-str/s7.png" />
         <h2 class="title stroke">What structures do you see here?</h2>
 
@@ -92,7 +92,7 @@
 
 
     {{-- slide 10 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/N2/structure/ci-str/s8.png" />
         <h2 class="title stroke">The giant wheel is called the Singapore Flyer.</h2>
 
@@ -100,7 +100,7 @@
 
 
     {{-- slide 11 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/N2/structure/ci-str/s9.png" />
         <h2 class="title stroke">These two buildings are called Marina Bay Sands Hotel
             and The ArtScience Museum.</h2>
@@ -109,7 +109,7 @@
 
 
     {{-- slide 12 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/N2/structure/ci-str/s10.png" />
         <h2 class="title stroke">What structures do you see here?</h2>
 
@@ -120,7 +120,7 @@
 
 
     {{-- slide 13 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/N2/structure/ci-str/s11.png" />
         <h2 class="title stroke">These are the Supertrees found in Gardens by the Bay.</h2>
 
@@ -128,7 +128,7 @@
     </div>
 
     {{-- slide 14 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/N2/structure/ci-str/s11.png" />
         <h2 class="title stroke">What structures do you see here?</h2>
         <p class="note">Note: Teacher to encourage children to share what they see and describe the shapes of the
@@ -139,7 +139,7 @@
 
 
     {{-- slide 15 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/N2/structure/ci-str/s12.png" />
         <h2 class="title stroke">This is a pavilion found in the Singapore Botanic Gardens.</h2>
 
@@ -148,7 +148,7 @@
 
 
     {{-- slide 16 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/N2/structure/ci-str/s12.png" />
         <h2 class="title stroke">What structures do you see here?</h2>
         <p class="note">Note: Teacher to encourage children to share what they see and describe the shapes of the
@@ -158,7 +158,7 @@
     </div>
 
     {{-- slide 17 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/N2/structure/ci-str/s13.png" />
         <h2 class="title stroke">These are apartment buildings.</h2>
 
@@ -167,7 +167,7 @@
 
 
     {{-- slide 18 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/N2/structure/ci-str/s13.png" />
         <h2 class="title stroke">What structures do you see here?</h2>
         <p class="note">Note: Teacher to encourage children to share what they see and describe the shapes of the
@@ -178,7 +178,7 @@
 
 
     {{-- slide 19 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/N2/structure/ci-str/s14.png" />
         <h2 class="title stroke">What structures do you see here?</h2>
         <p class="note">Note: Teacher to encourage children to share what they see and describe the shapes of the
@@ -189,7 +189,7 @@
 
 
     {{-- slide 20 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/N2/structure/ci-str/s15.png" />
         <h2 class="title stroke">This is the Sentosa Express monorail.</h2>
 
@@ -198,7 +198,7 @@
 
 
     {{-- slide 21 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/N2/structure/ci-str/s15.png" />
         <h2 class="title stroke">What structures do you see here?</h2>
         <p class="note">Note: Teacher to encourage children to share what they see and describe the shapes of the

@@ -23,7 +23,7 @@
 
         </div>
         <h2 class="stroke title">That’s right! The <span class="!text-white">stem</span> helps the <span
-                class="text-white">plant</span> to grow tall. When<br />the <span class="!text-white">plant</span> is tall,
+                class="text-white">plant</span> to grow tall. When the <span class="!text-white">plant</span> is tall,
             its <span class="!text-white">leaves</span> can get enough sunlight to make food.</h2>
     </div>
 
@@ -49,11 +49,11 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <div class="title stroke text-start">
             <h2>Let’s do:</h2>
-            <ul>
-                <li>1. Take a stalk of flower from a bouquet.</li>
-            </ul>
+            <ol class="list-decimal lesson-ul" start="1">
+                <li>Take a stalk of flower from a bouquet.</li>
+            </ol>
         </div>
-        <img src="{{ asset('assets/images/N2/LivingThings/lt34.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/N2/LivingThings/lt34.png') }}" class="img-normal-md" />
         <p class="note">Note: Assist the children in cutting the flowers.</p>
     </div>
 
@@ -62,11 +62,11 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <div class="title stroke text-start">
             <h2>Let’s do:</h2>
-            <ul>
-                <li>2. Take a stalk of flower from a bouquet.</li>
-            </ul>
+            <ol class="list-decimal lesson-ul" start="2">
+                <li>Take a stalk of flower from a bouquet.</li>
+            </ol>
         </div>
-        <img src="{{ asset('assets/images/N2/LivingThings/lt35.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/N2/LivingThings/lt35.png') }}" class="img-lg" />
     </div>
 
 
@@ -74,11 +74,11 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <div class="title stroke text-start">
             <h2>Let’s do:</h2>
-            <ul>
-                <li>3. Choose a colour. In your cup, add 10 drops of the colouring into half a cup of water.</li>
-            </ul>
+            <ol class="list-decimal lesson-ul" start="3">
+                <li>Choose a colour. In your cup, add 10 drops of the colouring into half a cup of water.</li>
+            </ol>
         </div>
-        <img src="{{ asset('assets/images/N2/LivingThings/lt36.png') }}" />
+        <img src="{{ asset('assets/images/N2/LivingThings/lt36.png') }}" class="img-lg" />
     </div>
 
 
@@ -87,11 +87,11 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <div class="title stroke text-start">
             <h2>Let’s do:</h2>
-            <ul>
-                <li>4. Put one stalk of flower into your cup.</li>
-            </ul>
+            <ol class="list-decimal lesson-ul" start="4">
+                <li>Put one stalk of flower into your cup.</li>
+            </ol>
         </div>
-        <img src="{{ asset('assets/images/N2/LivingThings/lt37.png') }}" />
+        <img src="{{ asset('assets/images/N2/LivingThings/lt37.png') }}" class="img-lg" />
     </div>
 
 
@@ -100,10 +100,10 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <div class="title stroke text-start">
             <h2>Let’s do:</h2>
-            <ul>
-                <li>5. Observe for any changes and record your observation
+            <ol class="list-decimal lesson-ul" start="5">
+                <li>Observe for any changes and record your observation
                     in the learning journal.</li>
-            </ul>
+            </ol>
         </div>
         <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
@@ -114,7 +114,7 @@
 
     {{-- slide 10 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/LivingThings/lt38.png') }}" />
+        <img src="{{ asset('assets/images/N2/LivingThings/lt38.png') }}" class="img-xl" />
         <h2 class="stroke title">As the <span class="!text-white">stem </span>carried coloured water to the <span
                 class="text-white">leaves</span> and<br /><span class="!text-white">flowers</span>, the white flower <span
                 class="text-white">petals</span> now have same <br />colours on them.</h2>
@@ -216,7 +216,7 @@
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('DrinkingSelection') }}";
+                    window.location.href = "{{ route('LivingThings') }}";
                 });
             }
 

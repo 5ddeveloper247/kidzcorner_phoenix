@@ -14,7 +14,7 @@
     </div>
 
     {{-- Slide 2 --}}
-    <div class="slide flex flex-col items-center justify-center">
+    <div class="slide hidden flex flex-col items-center justify-center">
         <div class="title stroke text-start">
             <h2>Steps:</h2>
             <ol class=" lesson-ul list-decimal" start="1">
@@ -26,7 +26,7 @@
 
 
     {{-- Slide 3 --}}
-    <div class="slide flex flex-col items-center justify-center">
+    <div class="slide hidden flex flex-col items-center justify-center">
         <div class="title stroke text-start">
             <h2>Steps:</h2>
             <ol class=" lesson-ul list-decimal" start="2">
@@ -272,7 +272,7 @@
 
 
     {{-- slide 22 --}}
-    <div class="slide flex flex-col items-center justify-center">
+    <div class="slide hidden flex flex-col items-center justify-center">
         <video id="video7" class=" pointer-events-none">
             <source src="{{ asset('assets/images/N2/SimpleMachines/videos/23.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
@@ -288,7 +288,7 @@
 
 
     {{-- slide 23  --}}
-    <div class="slide flex flex-col items-center justify-center">
+    <div class="slide hidden flex flex-col items-center justify-center">
         <video id="video8" class=" pointer-events-none">
             <source src="{{ asset('assets/images/N2/SimpleMachines/videos/23.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
@@ -304,7 +304,7 @@
 
 
     {{-- slide 24 --}}
-    <div class="slide flex flex-col items-center justify-center">
+    <div class="slide hidden flex flex-col items-center justify-center">
         <img src="{{ asset('/assets/images/N2/SimpleMachines/b18.png') }}" class="img-xl" />
         <h2 class="stroke title">This is called a measuring car because its scale counts
             how many units does it go forward.</h2>
@@ -313,7 +313,7 @@
 
 
     {{-- slide 25 --}}
-    <div class="slide flex flex-col items-center justify-center">
+    <div class="slide hidden flex flex-col items-center justify-center">
         <video id="video1" class=" pointer-events-none">
             <source src="{{ asset('assets/images/N2/SimpleMachines/videos/24.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.

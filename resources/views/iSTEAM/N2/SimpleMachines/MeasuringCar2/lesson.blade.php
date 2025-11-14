@@ -14,7 +14,7 @@
 
 
     {{-- Slide 2 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <video id="video1" class=" pointer-events-none">
             <source src="{{ asset('assets/images/N2/SimpleMachines/videos/24.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.

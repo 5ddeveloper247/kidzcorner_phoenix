@@ -11,7 +11,7 @@
 
     {{-- Slide 1 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <img src="{{ asset('assets/images/N2/BasicCoding/bs10.png') }}" alt="">
+        <img src="{{ asset('assets/images/N2/BasicCoding/bs10.png') }}" class="img-md" />
         <h2 class="stroke title">Children, do you remember why machines like these can work?</h2>
         <p class="note">Note: Have children recall and share what they have learnt.</p>
     </div>
@@ -19,7 +19,7 @@
 
     {{-- Slide 2 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="{{ asset('assets/images/N2/BasicCoding/bs10.png') }}" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/bs10.png') }}" class="img-md" />
         <h2 class="stroke title"><span class="!text-white">Machines</span> can work because they have <br /><span
                 class="text-white">programmes</span> inside them.</h2>
         <p class="note">Note: Have children recall and share what a programme is.</p>
@@ -28,7 +28,7 @@
 
     {{-- Slide 3 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <img src="{{ asset('assets/images/N2/BasicCoding/bs13.png') }}" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/bs13.png') }}" class="img-lg" />
         <h2 class="title stroke text-center">The steps to do things is like a <span class="!text-white">programme</span>
             for<br />
             <span class="!text-white">machines</span>.
@@ -39,7 +39,7 @@
 
     {{-- slide 4 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/BasicCoding/bs11.png') }}" class="large-img6" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/bs11.png') }}" class="img-xl" />
         <h2 class="title stroke text-center">So a <span class="!text-white">programme</span> is the step-by-step
             <span class="!text-white">instructions</span> that tell the <span class="!text-white">machine</span> what to do.
         </h2>
@@ -48,14 +48,17 @@
 
     {{-- slide 5 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/BasicCoding/bs10.png') }}" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/bs10.png') }}" class="img-md" />
         <h2 class="stroke title">How do you make machines work in ways that you want?</h2>
         <p class="note">Note: Have children discuss based on what they have learnt.</p>
     </div>
 
     {{-- slide 6 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/BasicCoding/bs29.png') }}" />
+        <video id="video1" class=" pointer-events-none">
+            <source src="{{ asset('assets/images/N2/BasicCoding/videos/1.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
         <h2 class="title stroke text-center">If you want a <span class="!text-white">machine</span> to work in a particular
             way,
             you need to give step-by-step <span class="!text-white">instructions</span> to the
@@ -73,12 +76,15 @@
 
     {{-- slide 7 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/BasicCoding/bs29.png') }}" />
+        <video id="video2" class=" pointer-events-none">
+            <source src="{{ asset('assets/images/N2/BasicCoding/videos/1.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
         <h2 class="stroke title">So most likely these are the instructions to this robot.</h2>
         <p class="note">Forward > Forward > Forward > Forward and look to your left > <br>
             Forward > Forward > Forward > Forward and look to your front</p>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -86,13 +92,16 @@
 
     {{-- slide 8 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/BasicCoding/bs29.png') }}" />
+        <video id="video3" class=" pointer-events-none">
+            <source src="{{ asset('assets/images/N2/BasicCoding/videos/1.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
         <h2 class="title stroke text-center"> When you give <span class="!text-white">instructions</span> to a <span
                 class="text-white">machine</span>,
             you are <span class="!text-white">programming</span> or <span class="!text-white">coding</span> the <span
                 class="text-white">machine</span>.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -117,7 +126,7 @@
     {{-- slide 11 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <div class="flex flex-col items-center">
-            <img src="{{ asset('assets/images/N2/BasicCoding/bs14.png') }}" />
+            <img src="{{ asset('assets/images/N2/BasicCoding/bs14.png') }}" class="img-xl" />
             <div class="flex !text-white text-[1.5vw] gap-[2vw]">
                 <p>forwar</p>
                 <p>bakcward</p>
@@ -132,7 +141,7 @@
     {{-- slide 12 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <div class="flex flex-col items-center">
-            <img src="{{ asset('assets/images/N2/BasicCoding/bs14.png') }}" />
+            <img src="{{ asset('assets/images/N2/BasicCoding/bs14.png') }}" class="img-xl" />
             <div class="flex !text-white text-[1.5vw] gap-[2vw]">
                 <p>forwar</p>
                 <p>bakcward</p>
@@ -140,9 +149,11 @@
                 <p>turn right</p>
             </div>
         </div>
-        <h2 class="title stroke text-center">If you use these cards to tell a <span class="!text-white">machine</span> how to
+        <h2 class="title stroke text-center">If you use these cards to tell a <span class="!text-white">machine</span> how
+            to
             move,
-            you call these cards <span class="!text-white">programming</span> cards or <span class="!text-white">coding</span>
+            you call these cards <span class="!text-white">programming</span> cards or <span
+                class="!text-white">coding</span>
             cards.
         </h2>
     </div>
@@ -150,7 +161,7 @@
 
     {{-- slide 13 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/BasicCoding/bs30.png') }}" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/bs30.png') }}" class="img-lg" />
         <h2 class="title stroke">What are these? What can you do with them?</h2>
         <p class="note">Note: Display some mats. Have children boldly share their views.</p>
     </div>
@@ -158,14 +169,14 @@
 
     {{-- sldie 14 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/BasicCoding/bs31.png') }}" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/bs31.png') }}" class="img-xl" />
         <h2 class="title stroke">You can use the mats to form mazes of different shapes. </h2>
         <p class="note">Note: Explain to children that we usually find a way to move through a maze.</p>
     </div>
 
 
     {{-- slide 15 --}}
-    <div class="flex flex-col items-center justify-center slide hidden">
+    <div class="flex flex-col items-center justify-between h-[55vh] slide hidden">
         <h2 class="!text-white title stroke">Hands-on Time 1</h2>
         <div class="text-start">
             <h2 class="title stroke text-start">Mission: <br>
@@ -184,7 +195,7 @@
         <p class="note">Note: Have children lay out the maze, plan the steps, layout the programming cards
             and move through the maze.</p>
         <!-- Sample Answer Button -->
-        <button class="absolute top-1/2 right-[2vw] info-btn1 z-30 -translate-y-1/2 ans-btn">
+        <button class="absolute top-1/2 right-[-2vw] info-btn1 z-30 -translate-y-1/2 ans-btn">
             <img src="{{ asset('assets/images/N2/BasicCoding/ans-btn.png') }}" />
         </button>
     </div>
@@ -192,18 +203,18 @@
     {{-- ans slide  --}}
     <div class="flex flex-col items-center info-slide1 justify-center slide hidden">
         <h2 class="title stroke">How do you move through maze?</h2>
-        <img src="{{ asset('assets/images/N2/BasicCoding/gla1.png') }}" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/gla1.png') }}" class="img-xl" />
     </div>
 
 
     {{-- slide 17 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/BasicCoding/gl2.png') }}" class="large-img2" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/gl2.png') }}" class="img-md" />
         <h2 class="title stroke">How do you move through this maze?</h2>
         <p class="note">Note: Have children lay out the maze, plan the steps, layout the programming cards
             and move through the maze.</p>
         <!-- Sample Answer Button -->
-        <button class="absolute top-1/2 right-[2vw] info-btn2 z-30 -translate-y-1/2 ans-btn">
+        <button class="absolute top-1/2 right-[-2vw] info-btn2 z-30 -translate-y-1/2 ans-btn">
             <img src="{{ asset('assets/images/N2/BasicCoding/ans-btn.png') }}" />
         </button>
     </div>
@@ -211,18 +222,18 @@
     {{-- ans slide  --}}
     <div class="flex flex-col items-center info-slide2 justify-center slide hidden">
         <h2 class="title stroke">How do you move through maze?</h2>
-        <img src="{{ asset('assets/images/N2/BasicCoding/gla2.png') }}" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/gla2.png') }}" class="img-md" />
     </div>
 
 
     {{-- slide 18 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/BasicCoding/gl3.png') }}" class="large-img2" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/gl3.png') }}" class="img-md" />
         <h2 class="title stroke">How do you move through this maze?</h2>
         <p class="note">Note: Have children lay out the maze, plan the steps, layout the programming cards
             and move through the maze.</p>
         <!-- Sample Answer Button -->
-        <button class="absolute top-1/2 right-[2vw] info-btn3 z-30 -translate-y-1/2 ans-btn">
+        <button class="absolute top-1/2 right-[-2vw] info-btn3 z-30 -translate-y-1/2 ans-btn">
             <img src="{{ asset('assets/images/N2/BasicCoding/ans-btn.png') }}" />
         </button>
     </div>
@@ -230,18 +241,18 @@
     {{-- ans slide  --}}
     <div class="flex flex-col items-center info-slide3 justify-center slide hidden">
         <h2 class="title stroke">How do you move through maze?</h2>
-        <img src="{{ asset('assets/images/N2/BasicCoding/gla3.png') }}" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/gla3.png') }}" class="img-md" />
     </div>
 
 
     {{-- slide 19 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/BasicCoding/gl4.png') }}" class="large-img2" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/gl4.png') }}" class="img-md" />
         <h2 class="title stroke">How do you move through this maze?</h2>
         <p class="note">Note: Have children lay out the maze, plan the steps, layout the programming cards
             and move through the maze.</p>
         <!-- Sample Answer Button -->
-        <button class="absolute top-1/2 right-[2vw] info-btn4 z-30 -translate-y-1/2 ans-btn">
+        <button class="absolute top-1/2 right-[-2vw] info-btn4 z-30 -translate-y-1/2 ans-btn">
             <img src="{{ asset('assets/images/N2/BasicCoding/ans-btn.png') }}" />
         </button>
     </div>
@@ -249,30 +260,30 @@
     {{-- ans slide  --}}
     <div class="flex flex-col items-center info-slide4 justify-center slide hidden">
         <h2 class="title stroke">How do you move through maze?</h2>
-        <img src="{{ asset('assets/images/N2/BasicCoding/gla4.png') }}" class="large-img2" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/gla4.png') }}" class="img-md" />
     </div>
 
     {{-- slide 20 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/BasicCoding/gl5.png') }}" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/gl5.png') }}" class="img-lg" />
         <h2 class="title stroke">How do you move through this maze?</h2>
         <p class="note">Note: Have children lay out the maze, plan the steps, layout the programming cards
             and move through the maze.</p>
         <!-- Sample Answer Button -->
-        <button class="absolute top-1/2 right-[2vw] info-btn5 z-30 -translate-y-1/2 ans-btn">
+        <button class="absolute top-1/2 right-[-2vw] info-btn5 z-30 -translate-y-1/2 ans-btn">
             <img src="{{ asset('assets/images/N2/BasicCoding/ans-btn.png') }}" />
         </button>
     </div>
 
     {{-- ans slide  --}}
-    <div class="flex flex-col items-center info-slide1 justify-center slide hidden">
+    <div class="flex flex-col items-center info-slide5 justify-center slide hidden">
         <h2 class="title stroke">How do you move through maze?</h2>
-        <img src="{{ asset('assets/images/N2/BasicCoding/gla5.png') }}" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/gla5.png') }}" class="img-lg" />
     </div>
 
 
     {{-- slide 21 --}}
-    <div class="flex flex-col items-center justify-center slide hidden">
+    <div class="flex flex-col items-center justify-between h-[50vh] slide hidden">
         <h2 class="!text-white title stroke">Hands-on Time 2</h2>
         <div class="text-start">
             <h2 class="title stroke text-start">Mission: <br>
@@ -564,7 +575,7 @@
                         parentSlide = null;
                     } else {
                         // Go back to selection page
-                        window.location.href = "{{ route('LetsProgramSelection') }}";
+                        window.location.href = "{{ route('BasicCoding') }}";
                     }
                 });
             }

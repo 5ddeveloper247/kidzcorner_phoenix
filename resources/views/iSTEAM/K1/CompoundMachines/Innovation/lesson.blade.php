@@ -13,7 +13,7 @@
 
 
     {{-- Slide 2 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/cm/cmg.png" class="large-img5" />
     </div>
 

@@ -14,7 +14,7 @@
     </div>
 
     {{-- Slide 2 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
 
         <img src="{{ asset('assets/images/N2/LivingThings/an2.png') }}" class="w-[436px]" />
         <h2 class="stroke title">Mummy replies, “”Because you are a <span class="!text-white">living thing<br /></span>but

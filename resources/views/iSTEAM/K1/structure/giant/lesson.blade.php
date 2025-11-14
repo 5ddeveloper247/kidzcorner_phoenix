@@ -34,7 +34,7 @@
 
 
     {{-- Slide 4 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/str/gw3.png" />
         <h2 class="title stroke">Tourists may take a ride on a giant wheel to view
             the scenery around a city.</h2>

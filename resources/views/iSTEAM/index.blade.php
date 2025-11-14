@@ -85,7 +85,7 @@
 
 @section('content')
     <div id="preloader">
-        <video id="preloaderVideo" autoplay playsinline>
+        <video id="preloaderVideo" class="!w-full !max-h-[100vh]" autoplay playsinline>
             <source src="{{ asset('assets/images/pptimages/preloader2.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>

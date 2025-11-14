@@ -33,7 +33,7 @@
     <div id="buttons" class="absolute  flex flex-row gap-6 ">
 
         <!-- Return Button -->
-        <a href="{{ url('LetsProgram') }}" id="returnButton">
+        <a href="{{ route('LetsProgram') }}" id="returnButton">
 
             <img src="{{ asset('assets/images/pptimages/return.png') }}" />
         </a>

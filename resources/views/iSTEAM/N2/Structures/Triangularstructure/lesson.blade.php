@@ -7,7 +7,7 @@
 
 
     {{-- Slide 1 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="{{ asset('assets/images/N2/structure/tr-str/s1.png') }}" />
         <h2 class="title stroke">Children, do you remember what these are?</h2>
         <p class="note">Note: Encourage children to share their answers.</p>
@@ -15,7 +15,7 @@
 
 
     {{-- Slide 2 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="{{ asset('assets/images/N2/structure/tr-str/s1.png') }}" />
         <h2 class="title stroke">These are different types of buildings. These buildings
             are <span class="!text-white">structures </span> with different shapes and sizes.</h2>
@@ -24,7 +24,7 @@
 
 
     {{-- Slide3 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <h2 class="title stroke">Children, today we are going to look at
             <span class="!text-white">structures</span> that are in the shape of <span class="!text-white">triangle</span>!
         </h2>
@@ -32,7 +32,7 @@
 
 
     {{-- Slide 4 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="{{ asset('assets/images/N2/structure/tr-str/s2.png') }}" />
         <h2 class="title stroke">Children, do you know what these are in the pictures?</h2>
 
@@ -41,7 +41,7 @@
 
 
     {{-- Slide 5  --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="{{ asset('assets/images/N2/structure/tr-str/s3.png') }}" />
         <h2 class="title stroke">This is the Eiffel <span class="!text-white">Tower</span>. The <span
                 class="text-white">structure</span> looks like a triangle
@@ -55,7 +55,7 @@
     {{-- slide 6 --}}
 
     {{-- group slide miss --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="{{ asset('assets/images/N2/structure/tr-str/s3.png') }}" />
         <h2 class="title stroke">The Eiffel <span class="!text-white">Tower Structure</span> is put together with many
             small iron pieces.
@@ -64,7 +64,7 @@
     </div>
 
     {{-- Slide 7 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <div class=" flex items-center justify-center ">
             <img src="{{ asset('assets/images/N2/structure/tr-str/s4.png') }}" class="large-img3" />
             <img src="{{ asset('assets/images/N2/structure/tr-str/s5.png') }}" class="large-img" />
@@ -78,7 +78,7 @@
 
 
     {{-- Slide 8 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <div class=" flex items-center justify-center ">
 
 
@@ -93,7 +93,7 @@
     </div>
 
     {{-- slide 9 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
 
         <img src="{{ asset('assets/images/N2/structure/tr-str/s6.png') }}" />
 
@@ -105,7 +105,7 @@
     </div>
 
     {{-- slide 10 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
 
         <img src="{{ asset('assets/images/N2/structure/tr-str/s7.png') }}" />
 

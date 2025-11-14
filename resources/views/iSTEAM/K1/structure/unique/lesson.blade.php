@@ -6,7 +6,7 @@
     <h2 class="top-title stroke">Unique Buildings</h2>
 
     {{-- Slide 1 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/str/u1.png" />
         <h2 class="title stroke">Children, buildings are common structures around us.
             Do you still remember who designs buildings?</h2>
@@ -15,7 +15,7 @@
 
 
     {{-- Slide 2 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/str/u2.png" />
         <h2 class="title stroke">AChildren, buildings are common structures around us.
             Do you still remember who designs buildings?</h2>
@@ -24,7 +24,7 @@
 
 
     {{-- Slide3 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/str/u3.png" />
         <h2 class="title stroke">Architects draw a plan to design
             the look and space of building.</h2>
@@ -32,7 +32,7 @@
 
 
     {{-- Slide 4 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/str/u4.png" />
         <h2 class="title stroke">Engineers look through the plan to come out with
             ideas to bring the design to life.</h2>

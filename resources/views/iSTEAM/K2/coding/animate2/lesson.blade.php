@@ -171,7 +171,7 @@
 
 
     {{-- Slide 19 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <div>
             <ul class="title stroke !text-start">
                 <li>Steps: <br> 2. Run the programmes to see what kind of animation effect <br> you get. <br> 3. Repeat

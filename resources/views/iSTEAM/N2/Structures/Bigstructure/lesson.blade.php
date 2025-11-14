@@ -7,7 +7,7 @@
 
 
     {{-- Slide 1 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="{{ asset('assets/images/N2/structure/c-str/s1.png') }}" />
         <h2 class="title stroke">In the last lesson, we learned that cars are structures
             made up by many small parts.</h2>
@@ -39,7 +39,7 @@
 
 
     {{-- Slide 4 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <h2 class="title stroke">Today, we are going to look at big vehicles! <br>
             Can you name some big vehicles?</h2>
         <p class="note">Note: Encourage children to brainstorm on the different types of vehicles.</p>
@@ -47,7 +47,7 @@
 
 
     {{-- Slide 5  --}}
-    <div class="slide flex flex-col items-center justify-center">
+    <div class="slide hidden flex flex-col items-center justify-center">
         <img src="{{ asset('assets/images/N2/structure/b-str/s1.png') }}" class="large-img6" />
 
         <h2 class="title stroke">Coaches and buses are big <span class="!text-white">vehicles</span>. <br>
@@ -58,7 +58,7 @@
 
 
     {{-- slide 6 --}}
-    <div class="slide flex flex-col items-center justify-center">
+    <div class="slide hidden flex flex-col items-center justify-center">
         <img src="{{ asset('assets/images/N2/structure/b-str/s2.png') }}" />
 
         <h2 class="title stroke">Double-decker buses are even bigger! <br>
@@ -68,7 +68,7 @@
     </div>
 
     {{-- Slide 7 --}}
-    <div class="slide flex flex-col items-center justify-center">
+    <div class="slide hidden flex flex-col items-center justify-center">
         <img src="{{ asset('assets/images/N2/structure/b-str/s3.png') }}" />
 
         <h2 class="title stroke">This is an open top double-decker bus.
@@ -79,7 +79,7 @@
 
 
     {{-- Slide 8 --}}
-    <div class="slide flex flex-col items-center justify-center">
+    <div class="slide hidden flex flex-col items-center justify-center">
         <img src="{{ asset('assets/images/N2/structure/b-str/s4.png') }}" />
         <h2 class="title stroke">This is a semi trailer. It can be attached to another part to
             <span class="!text-white">transport heavy</span> items from one place to another.
@@ -91,7 +91,7 @@
 
 
     {{-- slide 9 --}}
-    <div class="slide flex flex-col items-center justify-center">
+    <div class="slide hidden flex flex-col items-center justify-center">
         <img src="{{ asset('assets/images/N2/structure/b-str/s5.png') }}" />
         <h2 class="title stroke">The semi trailer truck can <span class="!text-white">transport</span> many cars at a time.
         </h2>
@@ -101,7 +101,7 @@
 
 
     {{-- slide 10 --}}
-    <div class="slide flex flex-col items-center justify-center">
+    <div class="slide hidden flex flex-col items-center justify-center">
         <img src="{{ asset('assets/images/N2/structure/b-str/s6.png') }}" />
         <h2 class="title stroke">The semi trailer truck <span class="!text-white">transports fuel</span> to petrol stations.
         </h2>
@@ -111,7 +111,7 @@
 
 
     {{-- slide 11 --}}
-    <div class="slide flex flex-col items-center justify-center">
+    <div class="slide hidden flex flex-col items-center justify-center">
         <img src="{{ asset('assets/images/N2/structure/b-str/s7.png') }}" />
         <h2 class="title stroke">Some semi trailer trucks <span class="!text-white">transport</span> huge and
             <span class="!text-white">heavy</span> items in containers.
@@ -121,7 +121,7 @@
     </div>
 
     {{-- slide 12 --}}
-    <div class="slide flex flex-col items-center justify-center">
+    <div class="slide hidden flex flex-col items-center justify-center">
         <img src="{{ asset('assets/images/N2/structure/b-str/s8.png') }}" />
         <h2 class="title stroke">Look at the size of these semi trailer trucks and the cars.
         </h2>
@@ -133,7 +133,7 @@
 
 
     {{-- slide 13 --}}
-    <div class="slide flex flex-col items-center justify-center">
+    <div class="slide hidden flex flex-col items-center justify-center">
         <img src="{{ asset('assets/images/N2/structure/b-str/s9.png') }}" class="large-img5" />
         <h2 class="title stroke">Fire engines are big vehicles too! Look at the <span class="!text-white">wheel</span>!
             Can you count how many <span class="!text-white">wheel</span> there are on each of them?
@@ -146,7 +146,7 @@
     </div>
 
     {{-- slide 14 --}}
-    <div class="slide flex flex-col items-center justify-center">
+    <div class="slide hidden flex flex-col items-center justify-center">
         <img src="{{ asset('assets/images/N2/structure/b-str/s9.png') }}" class="large-img5" />
         <h2 class="title stroke">Fire engines have many <span class="!text-white">wheels</span> because they are <span
                 class="!text-white">heavy</span>. They
@@ -160,7 +160,7 @@
 
 
     {{-- slide 15 --}}
-    <div class="slide flex flex-col items-center justify-center">
+    <div class="slide hidden flex flex-col items-center justify-center">
         <img src="{{ asset('assets/images/N2/structure/b-str/s9.png') }}" />
         <h2 class="title stroke">Fire engines have many <span class="!text-white">wheels</span> because they are <span
                 class="!text-white">heavy</span>. They

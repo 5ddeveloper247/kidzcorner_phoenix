@@ -16,7 +16,7 @@
 
 
     {{-- Slide 2 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <video id="video1" class="pointer-events-none">
             <source src="{{ asset('assets/images/K1/sm/41.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
@@ -31,7 +31,7 @@
 
 
     {{-- Slide3 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <video id="video2" class="pointer-events-none">
             <source src="{{ asset('assets/images/K1/sm/42.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
@@ -47,7 +47,7 @@
 
 
     {{-- Slide 4 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/punching/pn3.png" />
         <h2 class="title stroke">This is the full view of the machine.</h2>
     </div>
@@ -55,14 +55,14 @@
 
 
     {{-- Slide 5  --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/punching/pn4.png" />
         <h2 class="title stroke">What are the things used in this machine?</h2>
     </div>
 
 
     {{-- slide 6 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/punching/pnn.png" />
         <h2 class="title stroke">What are the things used in this machine?</h2>
     </div>
@@ -70,7 +70,7 @@
 
 
     {{-- sldie 7 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <video id="video3" class="pointer-events-none">
             <source src="{{ asset('assets/images/K1/sm/41.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
@@ -85,7 +85,7 @@
     </div>
 
     {{-- sldie 8 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <video id="video4" class="pointer-events-none">
             <source src="{{ asset('assets/images/K1/sm/41.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.

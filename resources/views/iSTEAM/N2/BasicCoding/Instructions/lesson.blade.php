@@ -9,24 +9,24 @@
 
 
     {{-- Slide 1 --}}
-    <div class="flex flex-col items-center justify-center gap-5 slide hidden">
-        <img src="{{ asset('assets/images/N2/BasicCoding/bs10.png') }}" alt="">
+    <div class="flex flex-col items-center justify-center slide hidden">
+        <img src="{{ asset('assets/images/N2/BasicCoding/bs10.png') }}" class="img-md" />
         <h2 class="stroke title">Children, let’s look at these things.
             Do you have these in your home? Can you name them?</h2>
     </div>
 
 
     {{-- Slide 2 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <img src="{{ asset('assets/images/N2/BasicCoding/bs10.png') }}" />
+    <div class="slide hidden flex flex-col items-center justify-center ">
+        <img src="{{ asset('assets/images/N2/BasicCoding/bs10.png') }}" class="img-md" />
         <h2 class="stroke title">All these <span class="!text-white">machines</span>. <span class="!text-white">Machines</span>
             do work for us.Can you name what each of these <span class="!text-white">machines</span> do?</h2>
     </div>
 
 
     {{-- Slide 3 --}}
-    <div class="flex flex-col items-center justify-center gap-5 slide hidden">
-        <img src="{{ asset('assets/images/N2/BasicCoding/bs10.png') }}" />
+    <div class="flex flex-col items-center justify-center slide hidden">
+        <img src="{{ asset('assets/images/N2/BasicCoding/bs10.png') }}" class="img-md" />
         <h2 class="stroke title">Why can <span class="!text-white">machines</span> like these work?</h2>
         <p class="note">Note: Have children boldly share their views.</p>
     </div>
@@ -34,7 +34,7 @@
 
     {{-- slide 4 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/BasicCoding/bs10.png') }}" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/bs10.png') }}" class="img-md" />
         <h2 class="stroke title"><span class="!text-white">Machines</span> can work because they have <span
                 class="text-white">programmes</span> inside them.A <span class="!text-white">programme</span> has <span
                 class="text-white">instructions</span> to tell <span class="!text-white">machine</span> what to do.The
@@ -44,7 +44,7 @@
 
     {{-- slide 5 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/BasicCoding/bs11.png') }}" class="large-img6" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/bs11.png') }}" class="img-xl" />
         <h2 class="stroke title">Do you now how to wash your hands?
             What would you do step-by-step?</h2>
         <p class="note">Note: Guide children to understand each picture and then arrange the pictures in the correct
@@ -53,21 +53,21 @@
 
     {{-- slide 6 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/BasicCoding/bs12.png') }}" class="large-img6" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/bs12.png') }}" class="img-xl" />
         <h2 class="stroke title">if you always repeat these 4 steps whenever you wash hands,
             these steps of washing hands are like a programme for you!</h2>
     </div>
 
     {{-- slide 7 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/BasicCoding/bs13.png') }}" class="large-img6" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/bs13.png') }}" class="img-lg" />
         <h2 class="stroke title">So a <span class="!text-white">programme</span> for <span class="!text-white">machines</span>
             is like the steps to do things.</h2>
     </div>
 
     {{-- slide 8 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/BasicCoding/bs14.png') }}" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/bs14.png') }}" class="img-xl" />
         <h2 class="stroke title">Look at these directional cards.Each card gives you an <span
                 class="text-white">instruction</span> on how to move.</h2>
         <p class="note">Note: Display the cards.</p>
@@ -76,7 +76,7 @@
     {{-- slide 9 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <div class="flex flex-col items-center">
-            <img src="{{ asset('assets/images/N2/BasicCoding/bs14.png') }}" />
+            <img src="{{ asset('assets/images/N2/BasicCoding/bs14.png') }}" class="img-xl" />
             <div class="flex !text-white text-[1.5vw] gap-[2vw]">
                 <p>forwar</p>
                 <p>bakcward</p>
@@ -90,7 +90,7 @@
     </div>
 
     {{-- slide 10 --}}
-    <div class="flex flex-col items-center justify-center slide hidden">
+    <div class="flex flex-col items-center justify-between h-[50vh] slide hidden">
         <h2 class="!text-white title stroke">Hands-on Time </h2>
         <h2 class="title stroke text-start">Mission: <br>
             Let’s follow the instructions of the directional cards and move accordingly in sequence.</h2>
@@ -100,42 +100,42 @@
 
     {{-- slide 11 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/BasicCoding/bs15.png') }}" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/bs15.png') }}" class="img-xl" />
         <p class="note">Note: Guide children to name each card and move accordingly.</p>
     </div>
 
 
     {{-- slide 12 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/BasicCoding/bs16.png') }}" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/bs16.png') }}" class="img-xl" />
         <p class="note">Note: Guide children to name each card and move accordingly.</p>
     </div>
 
 
     {{-- slide 13 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/BasicCoding/bs28.png') }}" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/bs28.png') }}" class="img-xl" />
         <p class="note">Note: Guide children to name each card and move accordingly.</p>
     </div>
 
 
     {{-- sldie 14 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/BasicCoding/bs17.png') }}" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/bs17.png') }}" class="img-xl" />
         <p class="note">Note: Guide children to name each card and move accordingly.</p>
     </div>
 
 
     {{-- slide 15 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/BasicCoding/bs18.png') }}" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/bs18.png') }}" class="img-xl" />
         <p class="note">Note: Guide children to name each card and move accordingly.</p>
     </div>
 
 
     {{-- slide 16 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/BasicCoding/bs19.png') }}" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/bs19.png') }}" class="img-xl" />
         <p class="note">Note: Guide children to name each card and move accordingly.</p>
     </div>
 
@@ -143,7 +143,7 @@
 
     {{-- slide 14 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/BasicCoding/bs20.png') }}" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/bs20.png') }}" class="img-xl" />
         <p class="note">Note: Guide children to name each card and move accordingly.</p>
     </div>
 
@@ -239,7 +239,7 @@
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('InstructionsSelection') }}";
+                    window.location.href = "{{ route('BasicCoding') }}";
                 });
             }
 

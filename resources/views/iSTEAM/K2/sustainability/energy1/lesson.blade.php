@@ -5,7 +5,7 @@
     <h2 class="top-title stroke">Clean Energy 1</h2>
 
     {{-- Slide 1 --}}
-    <div class="slide flex flex-col items-center justify-center">
+    <div class="slide hidden flex flex-col items-center justify-center">
         <img src="{{ asset('assets/images/K2/sustain/sustainability/a1.png') }}" class="w-img3" />
         <div>
             <h2 class="title stroke">Children, what do you see in the pictures above?</h2>

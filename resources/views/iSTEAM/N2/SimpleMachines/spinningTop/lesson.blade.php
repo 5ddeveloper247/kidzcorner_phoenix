@@ -26,7 +26,7 @@
     </div>
 
     {{-- Slide 3 --}}
-    <div class="slide flex flex-col items-center justify-center">
+    <div class="slide hidden flex flex-col items-center justify-center">
         <img src="{{ asset('/assets/images/N2/SimpleMachines/a25.png') }}" class="img-h-md" />
         <h2 class="stroke title">This <span class="!text-white">wheel</span> and <span class="!text-white">axle</span> lets
             us
@@ -35,7 +35,7 @@
 
 
     {{-- Slide 4 --}}
-    <div class="slide flex flex-col items-center justify-center">
+    <div class="slide hidden flex flex-col items-center justify-center">
         <img src="{{ asset('/assets/images/N2/SimpleMachines/a27.png') }}" class="img-md" />
         <h2 class="stroke title">This <span class="!text-white">wheel</span> and <span class="!text-white">axle</span> lets
             us
@@ -45,7 +45,7 @@
 
 
     {{-- Slide 5 --}}
-    <div class="slide flex flex-col items-center justify-center">
+    <div class="slide hidden flex flex-col items-center justify-center">
         <img src="{{ asset('/assets/images/N2/SimpleMachines/a29.png') }}" class="img-md" />
         <h2 class="stroke title">This <span class="!text-white">wheel</span> and <span class="!text-white">axle</span> lets
             us
@@ -54,7 +54,7 @@
 
 
     {{-- Slide 6 --}}
-    <div class="slide flex flex-col items-center justify-center">
+    <div class="slide hidden flex flex-col items-center justify-center">
         <img src="{{ asset('/assets/images/N2/SimpleMachines/a31.png') }}" class="img-md" />
         <h2 class="stroke title">This <span class="!text-white">wheel</span> and <span class="!text-white">axle</span> lets
             us
@@ -63,7 +63,7 @@
     </div>
 
     {{-- Slide 6 --}}
-    <div class="slide flex flex-col items-center justify-center">
+    <div class="slide hidden flex flex-col items-center justify-center">
         <video id="video1" class=" pointer-events-none">
             <source src="{{ asset('assets/images/N2/SimpleMachines/videos/13.mp4') }}" type="video/mp4">
         </video>
@@ -218,7 +218,7 @@
     </div>
 
     {{-- slide 15 --}}
-    <div class="slide flex flex-col items-center justify-center">
+    <div class="slide hidden flex flex-col items-center justify-center">
         <h2 class="stroke title">This is the <span class="!text-white">wheel </span>(the two gears) and <span
                 class="text-white">axle<br /></span>of the spinning top.</h2>
         <img src="{{ asset('/assets/images/N2/SimpleMachines/a58.png') }}" class="img-md" />
@@ -227,7 +227,7 @@
     </div>
 
     {{-- slide 16 --}}
-    <div class="slide flex flex-col items-center justify-center">
+    <div class="slide hidden flex flex-col items-center justify-center">
         <div class="flex gap-[1vw] items-end">
             <div class="flex flex-col items-end">
                 <img src="{{ asset('assets/images/N2/SimpleMachines/arrow.svg') }}" class="!w-[2.5vw]">
@@ -353,7 +353,7 @@
     </div>
 
     {{-- slide 23 --}}
-    <div class="slide flex flex-col items-center justify-center">
+    <div class="slide hidden flex flex-col items-center justify-center">
         <h2 class="stroke title">Learning Journal</h2>
         <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center "
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
@@ -371,7 +371,7 @@
     </div>
 
     {{-- slide 24 --}}
-    <div class="slide flex flex-col items-center justify-center">
+    <div class="slide hidden flex flex-col items-center justify-center">
         <h2 class="stroke title">Learning Journal</h2>
         <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center "
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">

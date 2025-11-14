@@ -6,20 +6,20 @@
     <h2 class="top-title stroke">How Plants Grow?</h2>
 
     {{-- Slide 1 --}}
-    <div class="slide flex flex-col items-center justify-center">
+    <div class="slide hidden flex flex-col items-center justify-center">
         <img src="{{ asset('assets/images/K2/livingthings/pgrow/p1.png') }}" class="large-img7" alt="Plants Introduction" />
         <h2 class="title stroke">Children, what are these?</h2>
     </div>
 
 
     {{-- Slide 2 --}}
-    <div class="slide flex flex-col items-center justify-center">
+    <div class="slide hidden flex flex-col items-center justify-center">
         <img src="{{ asset('assets/images/K2/livingthings/pgrow/pp.png') }}" class="large-img7" alt="Different Plants" />
         <h2 class="title stroke">These are different <span class="!text-white">plants</span>.</h2>
     </div>
 
     {{-- Slide 3 --}}
-    <div class="slide flex flex-col items-center justify-center">
+    <div class="slide hidden flex flex-col items-center justify-center">
         <img src="{{ asset('assets/images/K2/livingthings/pgrow/p2.png') }}" class="object-contain !max-w-[15vw]"
             alt="Growing Plants" />
         <h2 class="title stroke">Have you ever <span class="!text-white">grown</span> a <span
@@ -28,7 +28,7 @@
     </div>
 
     {{-- Slide 4 --}}
-    <div class="slide flex flex-col items-center justify-center">
+    <div class="slide hidden flex flex-col items-center justify-center">
         <h2 class="title stroke">Today, we are going to learn how to <span class="!text-white">grow</span> a <span
                 class="text-white">plant</span> from a <span class="!text-white">seed</span>!</h2>
     </div>

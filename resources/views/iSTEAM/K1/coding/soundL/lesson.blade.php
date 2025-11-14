@@ -46,7 +46,7 @@
 
 
     {{-- Slide 4 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/coding/sound/s2.png" />
         <h2 class="title stroke">Tap on the Sound Command <br>
             for the choice of programming blocks.</h2>

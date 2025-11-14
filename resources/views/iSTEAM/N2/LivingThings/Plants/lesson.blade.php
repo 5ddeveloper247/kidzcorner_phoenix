@@ -20,24 +20,29 @@
             <h2>Living things are things that can...</h2>
             <div class="flex justify-between gap-x-[5rem] items-center">
                 <ul class="!text-white">
-                    <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" class="!max-w-[2.5vw]" />
+                    <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}"
+                            class="!max-w-[2.5vw]" />
                         <p> Move on their own</p>
                     </li>
-                    <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" class="!max-w-[2.5vw]" />
+                    <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}"
+                            class="!max-w-[2.5vw]" />
                         <p> Drink</p>
                     </li>
-                    <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" class="!max-w-[2.5vw]" />
+                    <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}"
+                            class="!max-w-[2.5vw]" />
                         <p>Eat</p>
                     </li>
-                    <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" class="!max-w-[2.5vw]" />
+                    <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}"
+                            class="!max-w-[2.5vw]" />
                         <p> Breath (need air)</p>
                     </li>
-                    <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" class="!max-w-[2.5vw]" />
+                    <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}"
+                            class="!max-w-[2.5vw]" />
                         <p> Grow (get bigger)</p>
                     </li>
                 </ul>
 
-                <img src="{{ asset('assets/images/N2/LivingThings/pl1.png') }}" class="large-img2" />
+                <img src="{{ asset('assets/images/N2/LivingThings/pl1.png') }}" class="img-sm" />
             </div>
             <h2>We learnt that animals are living things.</h2>
         </div>
@@ -46,7 +51,8 @@
 
     {{-- Slide 3 --}}
     <div class="flex flex-col items-center justify-center h-[50vh] slide hidden">
-        <h2 class="stroke title">What about <span class="!text-white">plants</span>?<br />Are <span class="!text-white">plants
+        <h2 class="stroke title">What about <span class="!text-white">plants</span>?<br />Are <span
+                class="!text-white">plants
                 living things</span>?</h2>
         <p class="note align-bottom">Note: Encourage children to share their views..</p>
     </div>
@@ -56,9 +62,9 @@
     <div class="flex flex-col  slide hidden">
         <h2 class="title stroke !text-white">Class Activity 1</h2>
         <div class="flex items-center justify-center gap-[1vw]">
-            <img src="{{ asset('assets/images/N2/LivingThings/lt1.png') }}" class="large-img4" />
-            <img src="{{ asset('assets/images/N2/LivingThings/lt2.png') }}" class="large-img4" />
-            <img src="{{ asset('assets/images/N2/LivingThings/lt3.png') }}" class="large-img4" />
+            <img src="{{ asset('assets/images/N2/LivingThings/lt1.png') }}" class="img-xs" />
+            <img src="{{ asset('assets/images/N2/LivingThings/lt2.png') }}" class="img-xs" />
+            <img src="{{ asset('assets/images/N2/LivingThings/lt3.png') }}" class="img-xs" />
         </div>
         <h2 class="title stroke text-start">Let’s find out: <br>
             Are plants living things?</h2>
@@ -68,7 +74,7 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="title stroke">What do you think (Prediction):</h2>
         <p class="note">Are plants living things? Put (✓) or cross (X)</p>
-        <div class="w-[35vw] h-[35vh] bg-cover bg-center flex items-center justify-center overflow-hidden"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center flex items-center justify-center overflow-hidden"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
 
             <table class="w-full h-full border border-black border-collapse text-lg text-start font-sans table-fixed">
@@ -112,7 +118,7 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="title stroke text-start ">Let's do:</h2>
 
-        <div class="w-[35vw] h-[30vh] bg-cover bg-center"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
 
             <table class="w-full border border-black border-collapse text-lg text-start font-sans table-fixed">
@@ -125,9 +131,9 @@
                 <tbod>
                     <tr>
                         <td class="border border-black text-[.8vw] p-[.6vw]">Do they move on their own?</td>
-                        <td class="border border-black"> <span class="group info-btn1">
+                        <td class="border border-black"> <button class="group info-btn1">
                                 <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="!max-w-[2.5vw]" />
-                            </span> </td>
+                            </button> </td>
                     </tr>
                     </tbody>
             </table>
@@ -139,7 +145,10 @@
     {{-- Addtional Slides  --}}
     {{-- slide 7 --}}
     <div class="flex flex-col info-slide1 items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/LivingThings/lt57.png') }}" />
+        <video id="video1" class=" pointer-events-none">
+            <source src="{{ asset('assets/images/N2/LivingThings/videos/12.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
         <h2 class="title stroke">Are these plants moving on their own?</h2>
         <p class="note">Note: Guide children to understand that plants move by themselves when they grow
             (stems move up and roots m
@@ -152,12 +161,15 @@
 
     {{-- slide 8 --}}
     <div class="flex flex-col info-slide1 items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/LivingThings/lt58.png') }}" />
+        <video id="video2" class=" pointer-events-none">
+            <source src="{{ asset('assets/images/N2/LivingThings/videos/13.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
         <h2 class="stroke title">Are these plants moving on their own?</h2>
         <p class="note">Note: Guide ch
             ildren to understand that plants move by themselves when their flowers bloom.</p>
         {{-- Video Toggle Button --}}
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
@@ -165,40 +177,46 @@
 
     {{-- slide 9 --}}
     <div class="flex flex-col info-slide1 items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/LivingThings/lt59.png') }}" />
+        <video id="video3" class=" pointer-events-none">
+            <source src="{{ asset('assets/images/N2/LivingThings/videos/14.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
         <h2 class="stroke title">Are these plants moving on their own?</h2>
         <p class="note">Note: Guide children to understand that plants will grow towards the sun;
             sunflower plants move by t
             hemselves to follow the sun as it moves across the sky,</p>
         {{-- Video Toggle Button --}}
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
-    {{-- slide 10 --}}
 
+    {{-- slide 10 --}}
     <div class="flex flex-col info-slide1 items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/LivingThings/lt60.png') }}" />
+        <video id="video4" class=" pointer-events-none">
+            <source src="{{ asset('assets/images/N2/LivingThings/videos/15.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
         <h2 class="title stroke">Are these plants moving on their own?</h2>
         <p class="note">Note: Guide children to understand that plants moved by other things like wind,
             rain and animals.</p>
 
         {{-- Video Toggle Button --}}
-        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video4')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
     {{-- slide 11 --}}
-    <div class="flex flex-col items-center justify-center slide hidden">
+    <div class="flex flex-col items-center justify-center slide hidden !gap-[.5vw]">
         <p class="note text-center">Are plants living things? Put (✓) or cross (X)</p>
 
         <h2 class="text-start title stroke">Let's do:</h2>
-        <div class="w-[35vw] h-[30vh] bg-cover bg-center"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
 
-            <table class="w-[35vw] h-[30vh] !text-[1.25vw] border-2 border-black table-fixed ">
+            <table class="w-[55vw] h-[25vw] drawable !text-[1.25vw] border-2 border-black table-fixed ">
                 <thead>
                     <tr>
                         <th colspan="2" class="text-center text-[.9vw] py-[.6vw] border-b-2 border-black">
@@ -214,9 +232,9 @@
                     <tr>
                         <td class="p-[.6vw] text-[.8vw]">Do they drink?</td>
                         <td class="border-l border-black" rowspan="3">
-                            <span class="group info-btn2">
+                            <button class="group info-btn2">
                                 <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="!max-w-[2.5vw]" />
-                            </span>
+                            </button>
                         </td>
                     </tr>
                     <tr>
@@ -234,14 +252,14 @@
 
     {{-- slide 11 --}}
     <div class="flex flex-col info-slide2 items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/LivingThings/lt61.png') }}" />
+        <img src="{{ asset('assets/images/N2/LivingThings/lt61.png') }}" class="img-md" />
         <h2 class="title stroke">Plants need food to grow, but they do not eat.
             Where do they get their food from?</h2>
     </div>
 
     {{-- slide 12 --}}
     <div class="flex flex-col info-slide2 items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/LivingThings/lt23.png') }}" />
+        <img src="{{ asset('assets/images/N2/LivingThings/lt23.png') }}" class="img-md" />
         <h2 class="title stroke">Plants make their own food to grow.
             Their leaves use water, nutrients from the soil,
             air and sunlight to make food.</h2>
@@ -250,21 +268,21 @@
     {{-- slide 13 --}}
     <div class="flex flex-col info-slide2 items-center justify-center slide hidden">
         <div class="flex items-center gap-[.6vw]">
-            <img src="{{ asset('assets/images/N2/LivingThings/lt24.png') }}" class="large-img3" />
-            <img src="{{ asset('assets/images/N2/LivingThings/lt62.png') }}" class="large-img3" />
+            <img src="{{ asset('assets/images/N2/LivingThings/lt24.png') }}" class="img-h-md" />
+            <img src="{{ asset('assets/images/N2/LivingThings/lt62.png') }}" class="img-h-md" />
         </div>
         <h2 class="stroke title">Do you know that plants breathe air like we do.</h2>
     </div>
 
     {{-- slide 14 --}}
     <div class="flex flex-col info-slide2 items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/LivingThings/lt63.png') }}" class="large-img1" />
+        <img src="{{ asset('assets/images/N2/LivingThings/lt63.png') }}" class="img-md" />
         <h2 class="stroke title">Here is an experiment that can prove plants do breathe air.</h2>
     </div>
 
 
     {{-- slide 15 --}}
-    <div class="flex flex-col info-slide2 items-center justify-center slide hidden">
+    <div class="flex flex-col info-slide2 items-center justify-between h-[50vh] slide hidden">
         <div class="flex flex-col title text-start stroke">
             <h2>How to do the experiment?</h2>
             <ul class="list-decimal   space-y-2">
@@ -283,7 +301,7 @@
 
     {{-- slide 16 --}}
     <div class="flex flex-col info-slide2 items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/LivingThings/lt64.png') }}" />
+        <img src="{{ asset('assets/images/N2/LivingThings/lt64.png') }}" class="img-lg" />
         <h2 class="stroke title">A few hours later, you will see many small bubbles form
             around the leaf. Why?</h2>
     </div>
@@ -291,7 +309,7 @@
 
     {{-- slide 17 --}}
     <div class="flex flex-col info-slide2 items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/LivingThings/lt65.png') }}" />
+        <img src="{{ asset('assets/images/N2/LivingThings/lt65.png') }}" class="img-xl" />
         <h2 class="stroke title">What will happen if you hold your breath under water in a
             swimming pool and then let the breath out?</h2>
     </div>
@@ -299,7 +317,7 @@
 
     {{-- slide 18 --}}
     <div class="flex flex-col info-slide2 items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/LivingThings/lt66.png') }}" />
+        <img src="{{ asset('assets/images/N2/LivingThings/lt66.png') }}" class="img-xl" />
         <h2 class="stroke title">Through the experiment, we know that plants do breathe
             air like we do! </h2>
     </div>
@@ -309,9 +327,9 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <p class="note">Are plants living things? Put (✓) or cross (X)</p>
         <h2 class="title stroke text-start ">Let's do:</h2>
-        <div class="w-[35vw] h-[35vh] bg-cover bg-center"
+        <div class="w-[55vw] h-[35vh] bg-cover bg-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
-            <table class="w-[35vw] h-[35vh] border border-black text-[1.25vw] ">
+            <table class="w-[55vw] h-[35vh] border border-black text-[1.25vw] ">
                 <thead>
                     <tr>
                         <th class="border border-black p-[.6vw] text-[.8vw] text-center" colspan="2">Plants</th>
@@ -335,11 +353,9 @@
                     <tr>
                         <td class="border border-black p-[.6vw] text-[.8vw] w-1/2">Do they grow (get bigger)?</td>
                         <td class="border border-black p-[.6vw] text-[.8vw] w-1/2">
-                            <span>
-                                <a class="group info-btn3">
-                                    <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="!max-w-[2.5vw]" />
-                                </a>
-                            </span>
+                            <button class="group info-btn3">
+                                <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="!max-w-[2.5vw]" />
+                            </button>
                         </td>
                     </tr>
                 </tbody>
@@ -362,7 +378,7 @@
     {{-- slide 21 --}}
     <div class="flex flex-col info-slide3 items-center justify-center slide hidden">
 
-        <img src="{{ asset('assets/images/N2/LivingThings/gl15.png') }}" />
+        <img src="{{ asset('assets/images/N2/LivingThings/gl15.png') }}" class="img-xl" />
         <h2 class="stroke title">Similar to you, seeds grow and get bigger in size.
             It changes as it grows.</h2>
         <p class="note">Note: The plants may look different depending on the type of seeds planted.</p>
@@ -372,9 +388,9 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <p class="note">Are plants living things? Put (✓) or cross (X)</p>
         <h2 class="title stroke text-start ">Let's do:</h2>
-        <div class="w-[35vw] h-[30vh] bg-cover bg-center flex items-center justify-center"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center flex items-center justify-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
-            <table class="w-[35vw] h-[30vh] border border-black text-[1.25vw] ">
+            <table class="w-[55vw] h-[25vw] drawable border border-black text-[1.25vw] ">
                 <thead>
                     <tr>
                         <th class="border border-black p-[.6vw] text-[.8vw] text-center" colspan="2">Plants</th>
@@ -409,12 +425,12 @@
 
     {{-- slide 23 --}}
     <div class="flex flex-col  slide hidden">
-        <h2 class="title stroke !text-white">What do you learn: <br>
+        <h2 class="title stroke !text-start">What do you learn: <br>
             Are plants are living things?</h2>
-        <div class="flex items-center justify-center ">
-            <img src="{{ asset('assets/images/N2/LivingThings/lt1.png') }}" class="large-img4" />
-            <img src="{{ asset('assets/images/N2/LivingThings/lt2.png') }}" class="large-img4" />
-            <img src="{{ asset('assets/images/N2/LivingThings/lt3.png') }}" class="large-img4" />
+        <div class="flex items-center justify-center gap-[.5vw] ">
+            <img src="{{ asset('assets/images/N2/LivingThings/lt1.png') }}" class="img-xs" />
+            <img src="{{ asset('assets/images/N2/LivingThings/lt2.png') }}" class="img-xs" />
+            <img src="{{ asset('assets/images/N2/LivingThings/lt3.png') }}" class="img-xs" />
         </div>
     </div>
 
@@ -423,26 +439,31 @@
     <div class="flex flex-col !text-start slide hidden">
 
         <h2 class="title stroke ">Through the activity, we learned that plants can..</h2>
-        <div class="flex">
-            <ul class="!text-white text-start">
-                <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" class="!max-w-[2.5vw]" />
+        <div class="flex justify-between items-center">
+            <ul class="!text-white text-start text-[1.6vw]">
+                <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}"
+                        class="!max-w-[2.5vw]" />
                     <p> Move on their own</p>
                 </li>
-                <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" class="!max-w-[2.5vw]" />
+                <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}"
+                        class="!max-w-[2.5vw]" />
                     <p> Drink</p>
                 </li>
-                <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" class="!max-w-[2.5vw]" />
+                <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}"
+                        class="!max-w-[2.5vw]" />
                     <p>Eat</p>
                 </li>
-                <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" class="!max-w-[2.5vw]" />
+                <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}"
+                        class="!max-w-[2.5vw]" />
                     <p> Breath (need air)</p>
                 </li>
-                <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" class="!max-w-[2.5vw]" />
+                <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}"
+                        class="!max-w-[2.5vw]" />
                     <p> Grow (get bigger)</p>
                 </li>
             </ul>
 
-            <img src="{{ asset('assets/images/N2/LivingThings/pl2.png') }}" class="large-img2" />
+            <img src="{{ asset('assets/images/N2/LivingThings/pl2.png') }}" class="img-sm" />
         </div>
         <h2 class="title stroke">So <span class="!text-white">Plants</span> are <span class="!text-white">living
                 things</span></h2>
@@ -451,7 +472,7 @@
 
 
     {{-- slide 25 --}}
-    <div class="flex flex-col  slide hidden">
+    <div class="flex flex-col  slide hidden justify-between h-[30vh]">
         <h2 class="title stroke !text-white">Class Activity 2</h2>
         <h2 class="title stroke text-start">Let’s find out: <br>
             What happens when a plant does not have water, soil, sunlight and air?</h2>
@@ -462,11 +483,11 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <div class="title text-start stroke">
             <h2>let's do:</h2>
-            <ul class="list-decimal">
+            <ol class="list-decimal lesson-ul" start="1">
                 <li>Place the potted plants beside each other. Label one pot as ‘A’ and other as ‘B’</li>
-            </ul>
+            </ol>
         </div>
-        <img src="{{ asset('assets/images/N2/LivingThings/lt69.png') }}" />
+        <img src="{{ asset('assets/images/N2/LivingThings/lt69.png') }}" class="img-lg" />
         <p class="note">Note: Ensure that both plants are of the same type and similar in size.</p>
     </div>
 
@@ -475,12 +496,12 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <div class="title text-start stroke">
             <h2>let's do:</h2>
-            <ul>
-                <li>2. Note down the date. Measure the height of the plants
+            <ol class="list-decimal lesson-ul" start="2">
+                <li>Note down the date. Measure the height of the plants
                     and note down their heights.</li>
-            </ul>
+            </ol>
         </div>
-        <img src="{{ asset('assets/images/N2/LivingThings/lt67.png') }}" />
+        <img src="{{ asset('assets/images/N2/LivingThings/lt67.png') }}" class="img-xl" />
     </div>
 
 
@@ -488,12 +509,12 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <div class="title text-start stroke">
             <h2>let's do:</h2>
-            <ul>
-                <li>3. Place pot A in a location where there is sunlight. Remember
+            <ol class="list-decimal lesson-ul" start="3">
+                <li>Place pot A in a location where there is sunlight. Remember
                     to water the plant when the soil becomes dry.</li>
-            </ul>
+            </ol>
         </div>
-        <img src="{{ asset('assets/images/N2/LivingThings/lt73.png') }}" />
+        <img src="{{ asset('assets/images/N2/LivingThings/lt73.png') }}" class="img-md" />
     </div>
 
 
@@ -501,12 +522,12 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <div class="title text-start stroke">
             <h2>let's do:</h2>
-            <ul>
-                <li>4. Add water to soften the soil and take the plant out from
+            <ol class="list-decimal lesson-ul" start="4">
+                <li>Add water to soften the soil and take the plant out from
                     pot B. Wash away any soil on the roots.</li>
-            </ul>
+            </ol>
         </div>
-        <img src="{{ asset('assets/images/N2/LivingThings/lt68.png') }}" />
+        <img src="{{ asset('assets/images/N2/LivingThings/lt68.png') }}" class="img-xl" />
         <p class="note">Note: Add more water to the soil if its is hard to remove the plant.</p>
     </div>
 
@@ -516,12 +537,12 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <div class="title text-start stroke">
             <h2>let's do:</h2>
-            <ul>
-                <li>5. Clean and place plant B in a zip lock bag. Seal the bag so
+            <ol class="list-decimal lesson-ul" start="5">
+                <li>Clean and place plant B in a zip lock bag. Seal the bag so
                     that Plant B will not have air.</li>
-            </ul>
+            </ol>
         </div>
-        <img src="{{ asset('assets/images/N2/LivingThings/lt70.png') }}" />
+        <img src="{{ asset('assets/images/N2/LivingThings/lt70.png') }}" class="img-xl" />
     </div>
 
 
@@ -529,12 +550,12 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <div class="title text-start stroke">
             <h2>let's do:</h2>
-            <ul>
-                <li>6. Place the zip lock bag with Plant B into a box and close it.
+            <ol class="list-decimal lesson-ul" start="6">
+                <li>Place the zip lock bag with Plant B into a box and close it.
                     Label the box B. Plant B will not have any sunlight and water.</li>
-            </ul>
+            </ol>
         </div>
-        <img src="{{ asset('assets/images/N2/LivingThings/lt71.png') }}" />
+        <img src="{{ asset('assets/images/N2/LivingThings/lt71.png') }}" class="img-lg" />
     </div>
 
 
@@ -542,17 +563,17 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <div class="title text-start stroke">
             <h2>let's do:</h2>
-            <ul>
-                <li>7. Continue to care for Plant A. Compare both Plants A and
+            <ol class="list-decimal lesson-ul" start="7">
+                <li>Continue to care for Plant A. Compare both Plants A and
                     Plant B after 1 week.</li>
-            </ul>
+            </ol>
         </div>
-        <img src="{{ asset('assets/images/N2/LivingThings/lt72.png') }}" />
+        <img src="{{ asset('assets/images/N2/LivingThings/lt72.png') }}" class="img-md" />
     </div>
 
 
     {{-- slide 33 --}}
-    <div class="flex flex-col  slide hidden">
+    <div class="flex flex-col  slide hidden items-center justify-between h-[30vh]">
         <h2 class="title stroke">What happens to plant A and B after 1 week?
             What do you find out from the test?</h2>
         <p class="note">Note: Encourage children to compare and analyze the results.
@@ -562,6 +583,10 @@
     </div>
 
 
+
+
+
+    {{-- ==================== --}}
     {{-- Complete button --}}
     <div class="down-btn-container">
         <button class="doneButton">
@@ -601,263 +626,252 @@
 
 @push('script')
     <script>
-        document.addEventListener("DOMContentLoaded", () => {
+        // VIDEO CONTROLS
+        function toggleVideo(videoId) {
+            const video = document.getElementById(videoId);
+            if (video.paused) {
+                video.play();
+            } else {
+                video.pause();
+            }
+        }
 
+        // SLIDE NAVIGATION SYSTEM
+        document.addEventListener("DOMContentLoaded", function() {
 
-            // STEP 1: Get all the elements we need
-
+            // Get all elements
             const slides = document.querySelectorAll(".slide");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
             const doneButton = document.querySelector(".doneButton");
             const infoButtons = document.querySelectorAll("[class*='info-btn'], [class*='click-btn']");
 
+            // URLs for navigation
+            const returnURL = "{{ route('PlantsSelection') }}";
+            const doneURL = "{{ route('LivingThings') }}";
 
-            // STEP 2: Track current state
+            // Track current position
+            let currentSlide = 0; // Which slide we're on now
+            let isInSpecialMode = false; // Are we viewing info/click slides?
+            let returnToSlide = null; // Which slide to return to
+            let specialSlideClass = null; // Which type of special slide (click1, info-slide2, etc.)
 
-            let currentSlide = 0;
-            let parentSlide = null;
-            let infoMode = false;
-            let infoClass = null;
+            // HELPER FUNCTIONS
 
-
-            // STEP 3: Helper functions
-
-
-            // Stop all videos in the current slide
-            function pauseVideos() {
-                if (slides[currentSlide]) {
-                    const videos = slides[currentSlide].querySelectorAll("video");
-                    videos.forEach(video => {
-                        video.pause();
-                    });
-                }
+            // Stop all videos when changing slides
+            function pauseAllVideos() {
+                document.querySelectorAll('video').forEach(video => video.pause());
             }
 
-            // Check if a slide is an info or click slide
-            function isInfoSlide(slide) {
+            // Check if a slide is special (info or click slide)
+            function isSpecialSlide(slide) {
                 const classList = Array.from(slide.classList);
 
-                for (let className of classList) {
-                    // Check if it matches "info-slide1", "info-slide2", etc.
-                    if (className.match(/^info-slide\d+$/)) return true;
-                    // Check if it matches "click1", "click2", etc.
-                    if (className.match(/^click\d+$/)) return true;
-                }
+                // Check for click1, click2, etc.
+                const hasClickClass = classList.some(cls => /^click\d+$/.test(cls));
 
-                return false;
+                // Check for info-slide1, info-slide2, etc.
+                const hasInfoClass = classList.some(cls => /^info-slide\d+$/.test(cls));
+
+                return hasClickClass || hasInfoClass;
             }
 
-            // Get the info class from a button
-            // Example: button with "info-btn1" → returns "info-slide1"
-            function getInfoClass(button) {
+            // Get special slide type from button class
+            // Example: "click-btn1" → "click1", "info-btn2" → "info-slide2"
+            function getSlideTypeFromButton(button) {
                 const classList = Array.from(button.classList);
 
-                // Look for "info-btn1", "info-btn2", etc.
                 for (let className of classList) {
+                    // Handle click-btn1 → click1
+                    if (className.startsWith('click-btn')) {
+                        const number = className.replace('click-btn', '');
+                        return 'click' + number;
+                    }
+                    // Handle info-btn1 → info-slide1
                     if (className.startsWith('info-btn')) {
                         const number = className.replace('info-btn', '');
                         return 'info-slide' + number;
                     }
                 }
-
-                // Look for "click-btn1", "click-btn2", etc.
-                for (let className of classList) {
-                    if (className.startsWith('click-btn')) {
-                        const number = className.replace('click-btn', '');
-                        return 'click' + number;
-                    }
-                }
-
                 return null;
             }
 
-            // Check if there's another info slide after this one
-            function hasNextInfo(index) {
-                if (!infoClass) return false;
+            // Check if there are more special slides after current one
+            function hasMoreSpecialSlides(fromIndex) {
+                if (!specialSlideClass) return false;
 
-                // Look through remaining slides
-                for (let i = index + 1; i < slides.length; i++) {
-                    if (slides[i].classList.contains(infoClass)) {
+                for (let i = fromIndex + 1; i < slides.length; i++) {
+                    if (slides[i].classList.contains(specialSlideClass)) {
                         return true;
                     }
                 }
+                return false;
+            }
+
+            // Check if we're on the last slide
+            function isLastSlide(slideIndex) {
+                // Last slide overall
+                if (slideIndex === slides.length - 1) return true;
+
+                // Last special slide in special mode
+                if (isInSpecialMode && !hasMoreSpecialSlides(slideIndex)) return true;
 
                 return false;
             }
 
-            // STEP 4: Main function to show a slide
+            // DISPLAY FUNCTIONS
 
-            function showSlide(index) {
-                // Pause any playing videos
-                pauseVideos();
+            function showSlide(slideIndex) {
+                pauseAllVideos();
 
-                // Hide all slides except the one we want
-                slides.forEach((slide, i) => {
-                    if (i === index) {
+                // Hide all slides, show only current one
+                slides.forEach((slide, index) => {
+                    if (index === slideIndex) {
                         slide.classList.remove("hidden");
                     } else {
                         slide.classList.add("hidden");
                     }
                 });
 
-                // Update our current position
-                currentSlide = index;
-
-                // Figure out if this is the last slide
-                const isLastSlide = (index === slides.length - 1);
-                const isLastInfoSlide = (infoMode && !hasNextInfo(index));
-
-                // Show correct buttons
-                if (isLastSlide || isLastInfoSlide) {
-                    // Last slide: hide Next, show Done
+                // Show "Done" button on last slide, otherwise show "Next"
+                if (isLastSlide(slideIndex)) {
                     nextButtons.forEach(btn => btn.classList.add("hidden"));
-                    if (doneButton) {
-                        doneButton.classList.remove("hidden");
-                    }
+                    if (doneButton) doneButton.classList.remove("hidden");
                 } else {
-                    // Not last: show Next, hide Done
                     nextButtons.forEach(btn => btn.classList.remove("hidden"));
-                    if (doneButton) {
-                        doneButton.classList.add("hidden");
-                    }
+                    if (doneButton) doneButton.classList.add("hidden");
                 }
             }
 
+            // NAVIGATION FUNCTIONS
 
-            // STEP 5: Handle button clicks
+            function goNext() {
+                // Can't go beyond last slide
+                if (currentSlide >= slides.length - 1) return;
 
+                currentSlide++;
 
-            // When user clicks an info button
-            infoButtons.forEach(button => {
-                button.addEventListener("click", (e) => {
-                    e.preventDefault();
+                // Skip slides that don't match current mode
+                while (currentSlide < slides.length) {
+                    const slide = slides[currentSlide];
 
-                    // Remember where we came from
-                    parentSlide = currentSlide;
-                    infoMode = true;
-                    infoClass = getInfoClass(button);
-
-                    // Find the first info slide that matches
-                    for (let i = 0; i < slides.length; i++) {
-                        if (slides[i].classList.contains(infoClass)) {
-                            showSlide(i);
-                            break;
-                        }
+                    if (isInSpecialMode) {
+                        // In special mode: only show slides with matching class
+                        if (slide.classList.contains(specialSlideClass)) break;
+                    } else {
+                        // In normal mode: skip all special slides
+                        if (!isSpecialSlide(slide)) break;
                     }
-                });
-            });
-
-            // When user clicks Next button
-            nextButtons.forEach(button => {
-                button.addEventListener("click", () => {
-                    // Don't go past the last slide
-                    if (currentSlide >= slides.length - 1) return;
 
                     currentSlide++;
+                }
 
-                    // Skip to the right slide
-                    if (infoMode) {
-                        // In info mode: only show slides with matching class
-                        while (currentSlide < slides.length) {
-                            if (slides[currentSlide].classList.contains(infoClass)) {
-                                break;
-                            }
-                            currentSlide++;
-                        }
-                    } else {
-                        // Normal mode: skip all info slides
-                        while (currentSlide < slides.length) {
-                            if (!isInfoSlide(slides[currentSlide])) {
-                                break;
-                            }
-                            currentSlide++;
-                        }
-                    }
+                // Show the slide if we found one
+                if (currentSlide < slides.length) {
+                    showSlide(currentSlide);
+                }
+            }
 
-                    // Show the slide if we found one
-                    if (currentSlide < slides.length) {
-                        showSlide(currentSlide);
-                    }
-                });
-            });
-
-            // When user clicks Return button
-            returnButton.addEventListener("click", () => {
-                // If on first slide, go back to selection page
-                if (currentSlide === 0) {
-                    window.location.href = "{{ route('PlantsSelection') }}";
+            function goBack() {
+                // If at first slide in normal mode, exit to selection page
+                if (currentSlide === 0 && !isInSpecialMode) {
+                    window.location.href = returnURL;
                     return;
                 }
 
-                if (infoMode) {
-                    // In info mode: go to previous info slide
-                    let previousSlide = currentSlide - 1;
+                if (isInSpecialMode) {
+                    // Find previous special slide
+                    let previousIndex = currentSlide - 1;
 
-                    // Find previous slide with same info class
-                    while (previousSlide >= 0) {
-                        if (slides[previousSlide].classList.contains(infoClass)) {
+                    while (previousIndex >= 0) {
+                        if (slides[previousIndex].classList.contains(specialSlideClass)) {
                             break;
                         }
-                        previousSlide--;
+                        previousIndex--;
                     }
 
-                    if (previousSlide >= 0) {
-                        // Found a previous info slide
-                        showSlide(previousSlide);
+                    if (previousIndex >= 0) {
+                        // Found previous special slide
+                        currentSlide = previousIndex;
+                        showSlide(currentSlide);
                     } else {
-                        // No more info slides - exit info mode
-                        infoMode = false;
-                        infoClass = null;
-                        showSlide(parentSlide);
-                        parentSlide = null;
+                        // No more special slides, return to normal mode
+                        currentSlide = returnToSlide;
+                        isInSpecialMode = false;
+                        specialSlideClass = null;
+                        returnToSlide = null;
+                        showSlide(currentSlide);
                     }
                 } else {
-                    // Normal mode: go back one slide
-                    currentSlide--;
-
-                    // Skip over any info slides
-                    while (currentSlide > 0 && isInfoSlide(slides[currentSlide])) {
+                    // Normal mode: go to previous normal slide
+                    if (currentSlide > 0) {
                         currentSlide--;
+
+                        // Skip any special slides
+                        while (currentSlide > 0 && isSpecialSlide(slides[currentSlide])) {
+                            currentSlide--;
+                        }
+
+                        showSlide(currentSlide);
                     }
-
-                    showSlide(currentSlide);
                 }
-            });
+            }
 
-            // When user clicks Done button
-            if (doneButton) {
-                doneButton.addEventListener("click", () => {
-                    if (infoMode && parentSlide !== null) {
-                        // Exit info mode and return to parent slide
-                        infoMode = false;
-                        infoClass = null;
-                        showSlide(parentSlide);
-                        parentSlide = null;
-                    } else {
-                        // Go back to selection page
-                        window.location.href = "{{ route('PlantsSelection') }}";
+            function handleDone() {
+                if (isInSpecialMode && returnToSlide !== null) {
+                    // Return to the slide we came from
+                    currentSlide = returnToSlide;
+                    isInSpecialMode = false;
+                    specialSlideClass = null;
+                    returnToSlide = null;
+                    showSlide(currentSlide);
+                } else {
+                    // Exit to selection page
+                    window.location.href = doneURL;
+                }
+            }
+
+            // EVENT LISTENERS
+
+            // Info/Click buttons - Enter special mode
+            infoButtons.forEach(button => {
+                button.addEventListener("click", function(e) {
+                    e.preventDefault();
+
+                    // Remember where we came from
+                    returnToSlide = currentSlide;
+                    isInSpecialMode = true;
+                    specialSlideClass = getSlideTypeFromButton(button);
+
+                    // Find and show first special slide
+                    for (let i = 0; i < slides.length; i++) {
+                        if (slides[i].classList.contains(specialSlideClass)) {
+                            currentSlide = i;
+                            showSlide(currentSlide);
+                            break;
+                        }
                     }
                 });
+            });
+
+            // Next buttons
+            nextButtons.forEach(btn => {
+                btn.addEventListener("click", goNext);
+            });
+
+            // Return button
+            if (returnButton) {
+                returnButton.addEventListener("click", goBack);
             }
 
+            // Done button
+            if (doneButton) {
+                doneButton.addEventListener("click", handleDone);
+            }
 
-            // STEP 6: Start by showing the first slide
+            // INITIALIZE
 
-            showSlide(0);
+            showSlide(currentSlide);
         });
-
-        // Video control function
-        function toggleVideo(videoId) {
-            const video = document.getElementById(videoId);
-
-            if (video) {
-                if (video.paused) {
-                    video.play();
-                } else {
-                    video.pause();
-                }
-            }
-        }
     </script>
 @endpush

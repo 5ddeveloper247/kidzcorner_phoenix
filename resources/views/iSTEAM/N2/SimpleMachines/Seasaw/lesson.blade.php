@@ -23,7 +23,7 @@
 
 
     {{-- Slide 3 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <h2 class="stroke title">Today, we are going to learn about<span class="!text-white"> levers<br /></span>-another
             type of <span class="!text-white">simple machine</span>.<br /><br />Let’s find out more!</h2>
     </div>

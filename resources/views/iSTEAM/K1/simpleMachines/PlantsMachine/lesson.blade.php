@@ -16,7 +16,7 @@
 
 
     {{-- Slide 2 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <video id="video1" class="pointer-events-none">
             <source src="{{ asset('assets/images/K1/sm/34.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
@@ -31,7 +31,7 @@
 
 
     {{-- Slide3 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <video id="video2" class="pointer-events-none">
             <source src="{{ asset('assets/images/K1/sm/35.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
@@ -46,20 +46,20 @@
 
 
     {{-- Slide 4 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/plant-machine/pl3.png" />
         <h2 class="title stroke">What are the things used in this machine?</h2>
     </div>
 
 
     {{-- Slide 5  --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/plant-machine/ppl3.png" />
     </div>
 
 
     {{-- slide 6 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <video id="video3" class="pointer-events-none">
             <source src="{{ asset('assets/images/K1/sm/35.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
@@ -75,7 +75,7 @@
 
 
     {{-- sldie 7 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <video id="video4" class="pointer-events-none">
             <source src="{{ asset('assets/images/K1/sm/35.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
@@ -119,7 +119,7 @@
 
 
     {{-- sldie 10 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <h2 class="title stroke !text-white">Reflection</h2>
         <img src="/assets/images/K1/sm/plant-machine/pl1.png" />
         <h2 class="title stroke">Why do the marbles roll down?</h2>
@@ -129,7 +129,7 @@
 
 
     {{-- sldie 11 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <video id="video5" class="pointer-events-none">
             <source src="{{ asset('assets/images/K1/sm/34.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
@@ -144,14 +144,14 @@
 
 
     {{-- sldie 12 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/plant-machine/pl4.png" />
         <h2 class="title stroke">What happens when a marble falls into the container?</h2>
     </div>
 
 
     {{-- sldie 13 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <video id="video6" class="pointer-events-none">
             <source src="{{ asset('assets/images/K1/sm/34.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
@@ -166,7 +166,7 @@
 
 
     {{-- slide  --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <video id="video7" class="pointer-events-none">
             <source src="{{ asset('assets/images/K1/sm/34.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
@@ -181,14 +181,14 @@
 
 
     {{-- sldie 14 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/plant-machine/pl4.png" />
         <h2 class="title stroke"> Do you know why the cup is tilted?</h2>
     </div>
 
 
     {{-- sldie 15 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/plant-machine/pl5.png" />
         <h2 class="title stroke">
             The string tied to the container is wrapped around
@@ -198,7 +198,7 @@
 
 
     {{-- sldie 16 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/plant-machine/pl1.png" />
         <h2 class="title stroke">
             The pulley makes it easier for the string to move and tilt

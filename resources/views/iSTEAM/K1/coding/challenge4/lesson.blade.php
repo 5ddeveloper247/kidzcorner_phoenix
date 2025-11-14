@@ -6,7 +6,7 @@
     <h2 class="top-title stroke">Coding Challenge (4)</h2>
 
     {{-- Slide 1 --}}
-    <div class="slide flex flex-col items-center justify-center">
+    <div class="slide hidden flex flex-col items-center justify-center">
         <div class="flex items-center gap-[1vw]">
             <img src="/assets/images/K1/coding/challenge4/ch1.png" class="w-img" />
             <img src="/assets/images/K1/coding/challenge4/ch2.png" class="!w-[13vw]" />

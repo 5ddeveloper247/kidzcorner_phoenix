@@ -7,7 +7,7 @@
 
 
     {{-- Slide 1 --}}
-    <div class="slide flex flex-col items-center justify-center">
+    <div class="slide hidden flex flex-col items-center justify-center">
         <h2 class="title stroke">Children, what did you build on the last lesson? Hod did you play with it? What did you
             see it for?</h2>
         <img src="{{ asset('/assets/images/N2/SimpleMachines/a8.png') }}" class="img-lg" />
@@ -16,7 +16,7 @@
 
 
     {{-- Slide 2 --}}
-    <div class="slide flex flex-col items-center justify-center">
+    <div class="slide hidden flex flex-col items-center justify-center">
 
         <video id="video1" class=" pointer-events-none">
             <source src="{{ asset('assets/images/N2/SimpleMachines/videos/1.mp4') }}" type="video/mp4">
@@ -30,7 +30,7 @@
     </div>
 
     {{-- Slide 3 --}}
-    <div class="slide flex flex-col items-center justify-center">
+    <div class="slide hidden flex flex-col items-center justify-center">
         <video id="video2" class=" pointer-events-none">
             <source src="{{ asset('assets/images/N2/SimpleMachines/videos/3.mp4') }}" type="video/mp4">
         </video>
@@ -46,7 +46,7 @@
 
 
     {{-- Slide 4 --}}
-    <div class="slide flex flex-col items-center justify-center">
+    <div class="slide hidden flex flex-col items-center justify-center">
         <h2 class="title stroke">A strong wagon can help us carry and move people and heavy things around easily.</h2>
         <div class="flex items-center gap-10">
             <img src="{{ asset('/assets/images/N2/SimpleMachines/a14.png') }}" class="img-sm" />
@@ -56,7 +56,7 @@
 
 
     {{-- Slide 5 --}}
-    <div class="slide flex flex-col items-center justify-center">
+    <div class="slide hidden flex flex-col items-center justify-center">
         <h2 class="title stroke">A strong wagon can help us carry and move people and heavy things around easily.</h2>
         <div class="flex items-center gap-10">
             <img src="{{ asset('/assets/images/N2/SimpleMachines/a14.png') }}" class="img-sm" />
@@ -67,7 +67,7 @@
 
 
     {{-- Slide 6 --}}
-    <div class="slide flex flex-col items-center justify-center">
+    <div class="slide hidden flex flex-col items-center justify-center">
         <h2 class="title stroke">Yes, the container of a wagon carries people and heavy things.</h2>
         <div class="flex items-center gap-10">
             <img src="{{ asset('/assets/images/N2/SimpleMachines/a14.png') }}" class="img-sm" />
@@ -79,7 +79,7 @@
 
 
     {{-- Slide 7 --}}
-    <div class="slide flex flex-col items-center justify-center">
+    <div class="slide hidden flex flex-col items-center justify-center">
         <div class="flex items-center gap-10">
             <img src="{{ asset('/assets/images/N2/SimpleMachines/a14.png') }}" class="img-sm" />
             <img src="{{ asset('/assets/images/N2/SimpleMachines/a15.png') }}" class="img-sm" />
@@ -89,7 +89,7 @@
 
 
     {{-- Slide 8 --}}
-    <div class="slide flex flex-col items-center justify-center">
+    <div class="slide hidden flex flex-col items-center justify-center">
         <img src="{{ asset('/assets/images/N2/SimpleMachines/a11.png') }}" class="img-lg" />
         <h2 class="stroke title">Just like the wagon you made, each <span class="!text-white">wheel<br /></span>of a wagon
             is
@@ -98,7 +98,7 @@
 
 
     {{-- Slide 9 --}}
-    <div class="slide flex flex-col items-center justify-center">
+    <div class="slide hidden flex flex-col items-center justify-center">
         <video id="video3" class=" pointer-events-none">
             <source src="{{ asset('assets/images/N2/SimpleMachines/videos/3.mp4') }}" type="video/mp4">
         </video>
@@ -113,7 +113,7 @@
 
 
     {{-- Slide 10 --}}
-    <div class="slide flex flex-col items-center justify-center">
+    <div class="slide hidden flex flex-col items-center justify-center">
         <img src="{{ asset('/assets/images/N2/SimpleMachines/a16.png') }}" class="img-lg" />
         <h2 class="stroke title">A <span class="!text-white">wheel</span> and <span class="!text-white">axle</span> is a
             type
@@ -132,7 +132,7 @@
 
 
     {{-- Slide 12 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="{{ asset('/assets/images/N2/SimpleMachines/a25.png') }}" class="img-h-md" />
         <h2 class="stroke title">What is this? Where are the <span class="!text-white">wheels</span> and <span
                 class="text-white">axles</span>?</h2>
@@ -141,7 +141,7 @@
 
 
     {{-- Slide 13 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="{{ asset('/assets/images/N2/SimpleMachines/a25.png') }}" class="img-h-md" />
         <h2 class="stroke title">These are the <span class="!text-white">wheels</span> and <span
                 class="text-white">axles</span> of this shopping cart.</h2>
@@ -150,7 +150,7 @@
 
 
     {{-- Slide 14 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <video id="video4" class=" pointer-events-none">
             <source src="{{ asset('assets/images/N2/SimpleMachines/videos/5.mp4') }}" type="video/mp4">
         </video>
@@ -165,7 +165,7 @@
 
 
     {{-- Slide 15 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="{{ asset('/assets/images/N2/SimpleMachines/a27.png') }}" class="img-md" />
         <h2 class="stroke title">What is this? Where are the<span class="!text-white"> wheels</span> and <span
                 class="text-white">axles</span>?</h2>
@@ -173,7 +173,7 @@
     </div>
 
     {{-- Slide 16 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="{{ asset('/assets/images/N2/SimpleMachines/a27.png') }}" class="img-md" />
         <h2 class="stroke title">These are the <span class="!text-white">wheels</span> and <span
                 class="text-white">axles</span> of this scooter.</h2>
@@ -182,7 +182,7 @@
 
 
     {{-- Slide 17 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <video id="video5" class=" pointer-events-none">
             <source src="{{ asset('assets/images/N2/SimpleMachines/videos/6.mp4') }}" type="video/mp4">
         </video>
@@ -198,7 +198,7 @@
 
 
     {{-- Slide 18 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="{{ asset('/assets/images/N2/SimpleMachines/a29.png') }}" class="img-md" />
         <h2 class="stroke title">What is this? Where are the<span class="!text-white"> wheels</span> and <span
                 class="text-white">axles</span>?</h2>
@@ -208,7 +208,7 @@
 
 
     {{-- Slide 19 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="{{ asset('/assets/images/N2/SimpleMachines/gl1.png') }}" class="img-md" />
         <h2 class="stroke title">These are the <span class="!text-white">wheels</span> and <span
                 class="text-white">axles</span> of the giant wheel.</h2>
@@ -216,7 +216,7 @@
     </div>
 
     {{-- Slide 20 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <video id="video6" class=" pointer-events-none">
             <source src="{{ asset('assets/images/N2/SimpleMachines/videos/7.mp4') }}" type="video/mp4">
         </video>
@@ -231,7 +231,7 @@
 
 
     {{-- Slide 21 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="{{ asset('/assets/images/N2/SimpleMachines/a31.png') }}" class="img-md" />
         <h2 class="stroke title">Have you ever played with a pinwheel? A pinwheel also has wheel and axle.Do you know where
             is it?</h2>

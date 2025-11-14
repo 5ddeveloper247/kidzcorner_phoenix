@@ -36,7 +36,7 @@
 
 
     {{-- Slide 4 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <h2 class="title stroke">Now, let’s learn how to build an umbrella!</h2>
     </div>
 

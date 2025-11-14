@@ -7,7 +7,7 @@
     <h2 class="top-title stroke">How Does A Screw Work?</h2>
 
     {{-- Slide 1 --}}
-    <div class="slide flex flex-col items-center justify-center">
+    <div class="slide hidden flex flex-col items-center justify-center">
         <img src="/assets/images/K1/sm/screw/s1.png" />
         <h2 class="title stroke">What is the boy doing?</h2>
         <p class="note">Note: Let children share what they see. Guide them to know that he is using a screw to fix a chair.
@@ -15,7 +15,7 @@
     </div>
 
     {{-- Slide 2 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/screw/s2.png" />
         <h2 class="title stroke">This is a <span class="!text-white">screw</span>. It is a rod with a spiral groove on it.
             The spiral groove is called <span class="!text-white">thread.</span></h2>
@@ -23,7 +23,7 @@
     </div>
 
     {{-- Slide 3 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <video id="video1" class="pointer-events-none">
             <source src="{{ asset('assets/images/K1/sm/44.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
@@ -54,20 +54,20 @@
     </div>
 
     {{-- Slide 6 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <h2 class="title stroke"><span class="!text-white">simple machine</span> are basic tools that help us to do work
             easily.</h2>
         <p class="note">Note: Explain that there are 6 types of simple machines and screw is one of it.</p>
     </div>
 
     {{-- Slide 7 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <h2 class="title stroke">Do you know how a <span class="!text-white">screw</span> helps us to do work easily?</h2>
         <p class="note">Note: Let children share what they know.</p>
     </div>
 
     {{-- Slide 8 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/screw/s1.png" />
         <h2 class="title stroke">A <span class="!text-white">screw</span> generally helps to hold things together easily.
         </h2>

@@ -213,7 +213,7 @@
 
 
     {{-- slide 26 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <video id="video1" class=" pointer-events-none">
             <source src="{{ asset('assets/images/N2/SimpleMachines/videos/25.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
@@ -281,14 +281,14 @@
 
 
     {{-- slide 31 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <h2 class="stroke title"><span class="!text-white">Inclined planes</span> are around us.<br />Let’s see if you can
             find them!</h2>
     </div>
 
 
     {{-- slide 32  --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="{{ asset('/assets/images/N2/SimpleMachines/b30.png') }}" class="img-md" />
         <h2 class="stroke title">What is this? Where is the <span class="!text-white">inclined plane</span>?</h2>
         <p class="note"> Note: Guide children to name and point out the inclined plane.</p>
@@ -296,7 +296,7 @@
 
 
     {{-- slide 33 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="{{ asset('/assets/images/N2/SimpleMachines/new3.png') }}" class="img-md" />
         <h2 class="stroke title">This <span class="!text-white">inclined plane</span> lets us move down the
             slide<br />smoothly during play.</h2>
@@ -304,7 +304,7 @@
 
 
     {{-- slide 34 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="{{ asset('/assets/images/N2/SimpleMachines/b31.png') }}" class="img-md" />
         <h2 class="stroke title">What is this? Where is the <span class="!text-white">inclined plane</span>?</h2>
         <p class="note"> Note: Guide children to name and point out the inclined plane.</p>
@@ -312,7 +312,7 @@
 
 
     {{-- slide 35 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="{{ asset('/assets/images/N2/SimpleMachines/b31.png') }}" class="img-md" />
         <h2 class="stroke title">This <span class="!text-white">inclined plane</span> lets us move passengers
             in<br />wheelchairs up or down a bus easily.</h2>
@@ -320,7 +320,7 @@
 
 
     {{-- slide 36 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="{{ asset('/assets/images/N2/SimpleMachines/b32.png') }}" class="img-h-md" />
         <h2 class="stroke title">What is this? Where is the <span class="!text-white">inclined plane</span>?</h2>
         <p class="note"> Note: Guide children to name and point out the inclined plane.</p>
@@ -328,7 +328,7 @@
 
 
     {{-- slide 37 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="{{ asset('/assets/images/N2/SimpleMachines/new4.png') }}" class="img-h-md" />
         <h2 class="stroke title">This <span class="!text-white">inclined plane</span> lets us move heavy things up or
             down a truck easily.</h2>

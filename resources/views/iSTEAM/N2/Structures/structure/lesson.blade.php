@@ -31,7 +31,7 @@
 
 
     {{-- Slide 4 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="{{asset('/assets/images/N2/structure/str/st2.png')}}" class="large-img6" />
         <h2 class="title stroke">House and bridges are <span class="!text-white">structures</span> too.</h2>
         <p class="note">Note: Encourage children to think of other building structures that they know of e.g. muesum,

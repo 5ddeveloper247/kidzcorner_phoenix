@@ -8,7 +8,7 @@
     <h2 class="top-title stroke">Light and Shadow</h2>
 
     {{-- slide 1 --}}
-    <div class="slide flex flex-col items-center justify-center">
+    <div class="slide hidden flex flex-col items-center justify-center">
         <h2 class="title stroke">Have you ever noticed a <span class="!text-white">black</span> shape near your
             feet when you are out in the sun?</h2>
         <img src="{{ asset('assets/images/pptimages/shadow1.png') }}" class="img-md" />

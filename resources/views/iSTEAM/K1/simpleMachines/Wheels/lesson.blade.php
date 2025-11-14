@@ -6,7 +6,7 @@
     <h2 class="top-title stroke">What are wheels and Axles</h2>
 
     {{-- Slide 1 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/wheels/we1.png" />
         <h2 class="title stroke">Children, do you know what do a tricycle, skateboard
             and wheelchair have in common?</h2>
@@ -14,7 +14,7 @@
 
 
     {{-- Slide 2 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/wheels/we1.png" />
         <h2 class="title stroke">Why do these things need wheels?</h2>
         <p class="note">Note: Guide children to understand that the wheels help these things to move around easily.</p>
@@ -22,7 +22,7 @@
 
 
     {{-- Slide3 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/wheels/we1.png" />
         <h2 class="title stroke">How do the wheels help these things move around?
             What do they do?</h2>
@@ -30,14 +30,14 @@
 
 
     {{-- Slide 4 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/wheels/we1.png" />
         <h2 class="title stroke">Each wheel is fixed to a rod called an axle. The wheel and
             axle turn together to help these things move around.</h2>
     </div>
 
     {{-- Slide 5  --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
 
         <img src="/assets/images/K1/sm/wheels/we2.png" class="large-img" />
         <h2 class="title stroke">Where are the wheels and axles of this tricycle?
@@ -46,13 +46,13 @@
 
 
     {{-- slide 6 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/wheels/wee2.png" class="large-img" />
         <h2 class="title stroke">The tricycle has three pairs of wheels and axles.</h2>
     </div>
 
     {{-- Slide 7 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/wheels/wee3.png" class="large-img" />
         <h2 class="title stroke">A <span class="!text-white">wheel and axle </span> is another type of <span
                 class="!text-white">simple machine </span>.
@@ -62,7 +62,7 @@
 
 
     {{-- slide 8 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <h2 class="title stroke"><span class="!text-white">simple machine </span> are basic tools that help us
             to do work easily.</h2>
         <h2 class="title stroke">Do you know how a <span class="!text-white">wheel and axle </span> helps us
@@ -71,7 +71,7 @@
 
 
     {{-- slide 9 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/wheels/we2.png" class="large-img" />
         <h2 class="title stroke">The <span class="!text-white">wheel and axle </span> allows us to move around
             easily when we ride a tricycle.</h2>
@@ -79,7 +79,7 @@
 
 
     {{-- slide 10 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/wheels/we3.png" />
         <h2 class="title stroke">In fact, the <span class="!text-white">wheel and axle </span> saves our time and effort
             to move heavy things and people around easily.</h2>
@@ -96,7 +96,7 @@
 
 
     {{-- slide 12 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/wheels/we4.png" />
         <h2 class="title stroke">What is this? Where are the wheels and axles?
             What do they do?</h2>
@@ -104,7 +104,7 @@
 
 
     {{-- slide 13 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/wheels/we4.png" />
         <h2 class="title stroke">This wheel and axle allows us to move a patient
             around easily when we push the wheelchair.</h2>
@@ -112,7 +112,7 @@
 
 
     {{-- slide 14 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/wheels/we5.png" class="large-img" />
         <h2 class="title stroke">What is this? Where are the wheels and axles?
             What do they do?</h2>
@@ -120,14 +120,14 @@
 
 
     {{-- slide 15 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/wheels/wee4.png" class="large-img" />
         <h2 class="title stroke">This wheel and axle allows us to move a patient
             around easily when we push the wheelchair.</h2>
     </div>
 
     {{-- slide 16 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/wheels/we6.png" class="large-img" />
         <h2 class="title stroke">What is this? Where are the wheels and axles?
             What do they do?</h2>
@@ -135,7 +135,7 @@
 
 
     {{-- slide 17 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/wheels/wee5.png" class="large-img" />
         <h2 class="title stroke">This wheel and axle allows us to move they baby
             around easily when we push the pram.</h2>
@@ -143,7 +143,7 @@
 
 
     {{-- slide 18 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/wheels/we7.png" class="large-img" />
         <h2 class="title stroke">What is this? Where are the wheels and axles?
             What do they do?</h2>
@@ -151,7 +151,7 @@
 
 
     {{-- slide 19 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/wheels/wee6.png" class="large-img" />
         <h2 class="title stroke">This wheel and axle allows us to spin around easily for fun
             when we take a ride on a roundabout.</h2>
@@ -159,7 +159,7 @@
 
 
     {{-- slide 20  --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/wheels/we8.png" />
         <h2 class="title stroke">What is this? Where are the wheels and axles?
             What do they do?</h2>
@@ -167,7 +167,7 @@
 
 
     {{-- slide 21  --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/wheels/wee7.png" />
         <h2 class="title stroke">This wheel and axle allows us to view the scenery easily
             when we take a ride on a giant wheel.</h2>
@@ -175,7 +175,7 @@
 
 
     {{-- sldie 22 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/wheels/we9.png" />
         <h2 class="title stroke">What is this? Where are the wheels and axles?
             What do they do?</h2>
@@ -183,7 +183,7 @@
 
 
     {{-- sldie 23 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
 
         <img src="/assets/images/K1/sm/wheels/wee8.png" />
         <h2 class="title stroke">This wheel and axle allows us to shape and flatten dough
@@ -192,7 +192,7 @@
 
 
     {{-- slide 24 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/wheels/we10.png" />
         <h2 class="title stroke">What is this? Where are the wheels and axles? <br>
             What do they do?</h2>
@@ -200,7 +200,7 @@
 
 
     {{-- slide 25 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/wheels/wee9.png" />
         <h2 class="title stroke">This wheel and axle allows us to paint easily
             when we move the paint roller on a wall.</h2>
@@ -208,7 +208,7 @@
 
 
     {{-- slide 26 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/wheels/we11.png" />
         <h2 class="title stroke">What is this? Where are the wheels and axles?
             What do they do?</h2>
@@ -216,7 +216,7 @@
 
 
     {{-- slide 27 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/wheels/wee10.png" />
         <h2 class="title stroke">This wheel and axle allows us to cut pizza easily
             when we move the handle of the pizza cutter.</h2>
@@ -225,7 +225,7 @@
 
 
     {{-- slide 28 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/wheels/we12.png" class="large-img3" />
         <h2 class="title stroke">What is this? Where are the wheels and axles? <br>
             What do they do?</h2>
@@ -233,7 +233,7 @@
 
 
     {{-- slide 29 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/wheels/wee11.png" class="large-img3" />
         <h2 class="title stroke">The wheel (has 3 blades) and axle of a wind turbine
             turn as the wind blows.</h2>
@@ -243,7 +243,7 @@
 
 
     {{-- slide 29 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <video id="video1" class=" pointer-events-none">
             <source src="{{ asset('assets/images/K1/sm/wheels/31.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
@@ -258,7 +258,7 @@
 
 
     {{-- slide 30 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/wheels/we14.png" />
         <h2 class="title stroke">What is this? Where are the wheels and axles? <br>
             What do they do?</h2>
@@ -266,7 +266,7 @@
 
 
     {{-- slide 31 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/K1/sm/wheels/wee12.png" />
         <h2 class="title stroke">The wheel (has many buckets) and axle of a water wheel
             turn as the water flows through it.</h2>
@@ -275,7 +275,7 @@
 
 
     {{-- slide 32 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <video id="video2" class="pointer-events-none">
             <source src="{{ asset('assets/images/K1/sm/wheels/32.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.

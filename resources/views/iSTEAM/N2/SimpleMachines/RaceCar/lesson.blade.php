@@ -22,7 +22,7 @@
 
 
     {{-- Slide 3 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/N2/SimpleMachines/s3.png" class="img-lg"  />
         <h2 class="stroke title">This is made with a <span class="!text-white">lever</span>, another type of <span
                 class="text-white">simple machine</span>. Where is the <span class="!text-white">lever</span>? Where is
@@ -32,14 +32,14 @@
 
 
     {{-- slide 4 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/N2/SimpleMachines/new1.png" class="img-lg"  />
         <h2 class="stroke title">This is made with a <span class="!text-white">inclined plane</span>, another type of <span
                 class="text-white">simple machine</span>. What did you use it for?</h2>
     </div>
 
     {{-- slide 5 --}}
-    <div class="slide flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-center ">
         <img src="/assets/images/N2/SimpleMachines/flag.png" class="img-md"  />
         <h2 class="stroke title">There will be a race in the class.
             The car that moves down an inclined plane and goes the
