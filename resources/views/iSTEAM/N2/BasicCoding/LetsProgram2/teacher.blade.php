@@ -53,9 +53,7 @@
             </ul>
         </div>
         <div class="flex justify-center items-center ">
-            <div class="flex flex-col items-center">
-                <img src="{{ asset('assets/images/N2/BasicCoding/bs30.png') }}" />
-            </div>
+            <img src="{{ asset('assets/images/N2/BasicCoding/bs30.png') }}" />
             <div class="flex flex-col !text-white text-[20px] gap-[2rem]">
                 <div
                     class="w-24 h-12 bg-zinc-300 rounded-[10px] flex justify-center items-center border-[3px] border-black">
@@ -64,8 +62,8 @@
                     class="w-24 h-12 bg-zinc-300 rounded-[10px] flex justify-center items-center border-[3px] border-black">
                     End</div>
             </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
         </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
     </div>
 
 
@@ -79,7 +77,7 @@
         </div>
         <div class="flex justify-center items-center ">
             <div class="flex flex-col items-center">
-                <img src="{{ asset('assets/images/N2/BasicCoding/bs14.png') }}" class="img-x" />
+                <img src="{{ asset('assets/images/N2/BasicCoding/bs14.png') }}" class="img-xl" />
                 <div class="flex !text-white text-[1.5vw] gap-[2vw]">
                     <p>forwar</p>
                     <p>bakcward</p>
@@ -103,7 +101,7 @@
             </ul>
         </div>
 
-        <img src="{{ asset('assets/images/N2/BasicCoding/bs42.png') }}" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/bs42.png') }}" class="img-lg" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
     </div>
 
@@ -117,7 +115,7 @@
             </ul>
         </div>
 
-        <img src="{{ asset('assets/images/N2/BasicCoding/bs43.png') }}" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/bs43.png') }}" class="img-lg" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
     </div>
 
@@ -130,8 +128,8 @@
             </ul>
         </div>
 
-        <img src="{{ asset('assets/images/N2/BasicCoding/bs44.png') }}" class="large-img3" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/bs44.png') }}" class="img-h-sm" />
     </div>
 
 
@@ -151,14 +149,14 @@
                 <li>Create other challenges for further practise if needed.</li>
             </ul>
         </div>
-        <div class="flex justify-center">
+        <div>
+            <h2 class=" t-title ">Possible questions during hands-on sessions:</h2>
             <ul class="list-disc">
-                <h2 class=" t-title ">Possible questions during hands-on sessions:</h2>
-                <li>What comes first/next?</li>
                 <li>Do you (go forward/go backward/turn right/turn left) now?</li>
             </ul>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
+            <li>What comes first/next?</li>
         </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
     </div>
 
 
@@ -231,31 +229,30 @@
     {{-- slide 10 --}}
     <div class="text-white flex flex-col items-center justify-center  text-start t-slide  hidden">
         <h2 class="!text-center title stroke">Learning Centre Idea</h2>
-        <div class="flex">
-            <div class="space-y-10">
-                <ul class="list-disc">
-                    <h2 class="!text-white title stroke">Move Through The Maze and Pick Things Up</h2>
-                    <h2 class="t-title">What and how to set up:</h2>
-                    <li>Create a grid maze programming game to pick things up <a
-                            class="text-[#F7B94A] info-btn1">(example)</a>.
-                        Place the programming cards, a grid maze and a marker pen next to the maze.</li>
-                </ul>
-
-                <ul>
-                    <h2 class="t-title">What to do:</h2>
-                    <li>Have children think and plan how to move through the maze to pick things up.</li>
-                </ul>
-            </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt=""
-                class="absolute teacher-img1" />
+        <div class="space-y-10 text-start">
+            <h2 class="!text-white title stroke">Move Through The Maze and Pick Things Up</h2>
+            <ul class="list-disc">
+                <h2 class="t-title">What and how to set up:</h2>
+                <li>Create a grid maze programming game to pick things up <a
+                        class="text-[#F7B94A] info-btn1 z-[99]">(example)</a>.
+                    Place the programming cards, a grid maze and a marker pen next to the maze.</li>
+            </ul>
         </div>
-        <p class="note">Note: Encourage children to take turns solving the maze.</p>
+        <div class="text-start">
+            <h2 class="t-title">What to do:</h2>
+            <ul>
+                <li>Have children think and plan how to move through the maze to pick things up.</li>
+            </ul>
+        </div>
+        </dixv>
+        <p class="!note">Note: Encourage children to take turns solving the maze.</p>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
     </div>
 
     {{-- Example slides --}}
-    <div class="flex flex-col items-center  justify-center hidden info-slide1">
+    <div class="flex flex-col items-center  justify-betweeen h-[50vh] t-slide info-slide1 hidden">
         <h2 class="title stroke">Example: Move Through The Maze And Pick Things Up</h2>
-        <div class="text-start t-slide">
+        <div class="text-start ">
             <h2 class="title stroke text-start">Mission: <br>
                 Let's lay out a grid maze and play a programming game. Think
                 and plan how to move through the maze to pick up things.After that, lay out the programming cards and move
@@ -267,10 +264,10 @@
 
 
     {{-- slide 2 --}}
-    <div class="flex flex-col items-center justify-center hidden info-slide1">
+    <div class="flex flex-col items-center justify-center t-slide info-slide1 hidden">
         <div class="flex items-center">
             <h2 class="text-[30px] !text-white">Sample Maze 1</h2>
-            <img src="{{ asset('assets/images/N2/BasicCoding/bs45.png') }}" class="large-img3" />
+            <img src="{{ asset('assets/images/N2/BasicCoding/bs45.png') }}" class="img-h-sm" />
         </div>
         <h2 class="stroke title">How can you move through the maze and pick up the ball?</h2>
         <p class="note text-center">Note: Have children lay out the maze, plan the way (draw a way in the laminated grid
@@ -278,25 +275,25 @@
     </div>
 
     {{-- slide 3 --}}
-    <div class="flex flex-col items-center justify-center hidden info-slide1">
+    <div class="flex flex-col items-center justify-center t-slide info-slide1 hidden">
         <h2 class="stroke title">One way to move through this maze and pick up the ball.</h2>
-        <img src="{{ asset('assets/images/N2/BasicCoding/bs46.png') }}" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/bs46.png') }}"class="img-lg" />
         <p class="note text-center">Note: Accept other logical answers presented by children.</p>
     </div>
 
     {{-- slide 4 --}}
-    <div class="flex flex-col items-center justify-center hidden info-slide1">
+    <div class="flex flex-col items-center justify-center t-slide info-slide1 hidden">
         <h2 class="stroke title">One way to move through this maze and pick up the ball.</h2>
-        <img src="{{ asset('assets/images/N2/BasicCoding/bs47.png') }}" class="large-img3" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/bs47.png') }}" class="img-h-sm" />
         <p class="note text-center">Note: Accept other logical answers presented by children.</p>
     </div>
 
 
     {{-- sldie 5 --}}
-    <div class="flex flex-col items-center justify-center hidden info-slide1">
+    <div class="flex flex-col items-center justify-center t-slide info-slide1 hidden">
         <div class="flex items-center">
             <h2 class="text-[30px] !text-white">Sample Maze 2</h2>
-            <img src="{{ asset('assets/images/N2/BasicCoding/bs48.png') }}" class="large-img3" />
+            <img src="{{ asset('assets/images/N2/BasicCoding/bs48.png') }}" class="img-h-sm" />
         </div>
         <h2 class="stroke title">How can you move through the maze and pick up the ball?</h2>
         <p class="note text-center">Note: Have children lay out the maze, plan the way (draw a way in the laminated grid
@@ -306,16 +303,16 @@
 
 
     {{-- slide 6 --}}
-    <div class="flex flex-col items-center justify-center hidden info-slide1">
+    <div class="flex flex-col items-center justify-center t-slide info-slide1 hidden">
         <h2 class="stroke title">One way to move through this maze and pick up the ball.</h2>
-        <img src="{{ asset('assets/images/N2/BasicCoding/bs49.png') }}" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/bs49.png') }}" class="img-lg" />
         <p class="note text-center">Note: Accept other logical answers presented by children.</p>
     </div>
 
     {{-- sldie 7 --}}
-    <div class="flex flex-col items-center justify-center hidden info-slide1">
+    <div class="flex flex-col items-center justify-center t-slide info-slide1 hidden">
         <h2 class="stroke title">One way to move through this maze and pick up the ball.</h2>
-        <img src="{{ asset('assets/images/N2/BasicCoding/bs50.png') }}" class="large-img3" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/bs50.png') }}" class="img-h-sm" />
         <p class="note text-center">Note: Accept other logical answers presented by children.</p>
     </div>
 
@@ -367,53 +364,62 @@
 
 @push('script')
     <script>
-        document.addEventListener("DOMContentLoaded", () => {
-            // DOM Elements
-            const slides = document.querySelectorAll(".t-slide");
+        document.addEventListener("DOMContentLoaded", function() {
             const nextButtons = document.querySelectorAll(".nextButton");
+            const slides = document.querySelectorAll(".t-slide");
             const returnButton = document.getElementById("returnButton");
             const doneButton = document.querySelector(".doneButton");
-            const infoButtons = document.querySelectorAll("[class*='info-btn'], [class*='click-btn']");
+            const clickableButtons = document.querySelectorAll("[class*='info-btn'], [class*='click-btn']");
 
-            // State
             let currentSlide = 0;
+            let isViewingSpecialSlides = false;
             let parentSlide = null;
-            let infoMode = false;
-            let infoClass = null;
+            let currentSpecialType = null;
 
-            // Check if slide is an info/click slide
-            function isInfoSlide(slide) {
-                return Array.from(slide.classList).some(cls =>
-                    /^info-slide\d+$/.test(cls) || /^click\d+$/.test(cls)
+            const returnRoute = "{{ route('LetsProgram2Selection') }}";
+            const doneRoute = "{{ route('LetsProgram2Selection') }}";
+
+            function isSpecialSlide(slide) {
+                const classList = Array.from(slide.classList);
+                return classList.some(className =>
+                    className.match(/^click\d+$/) || className.match(/^info-slide\d+$/)
                 );
             }
 
-            // Get info class from button (e.g., "info-btn1" → "info-slide1")
-            function getInfoClass(button) {
-                const classes = Array.from(button.classList);
-                const infoBtn = classes.find(cls => cls.startsWith('info-btn'));
-                const clickBtn = classes.find(cls => cls.startsWith('click-btn'));
+            function getSpecialTypeFromButton(button) {
+                const classList = Array.from(button.classList);
 
-                if (infoBtn) return 'info-slide' + infoBtn.replace('info-btn', '');
-                if (clickBtn) return 'click' + clickBtn.replace('click-btn', '');
+                for (let className of classList) {
+                    if (className.startsWith('click-btn')) {
+                        return 'click' + className.replace('click-btn', '');
+                    }
+                    if (className.startsWith('info-btn')) {
+                        return 'info-slide' + className.replace('info-btn', '');
+                    }
+                }
                 return null;
             }
 
-            // Check if there's a next info slide
-            function hasNextInfo(index) {
-                if (!infoClass) return false;
-                return [...t - slides].slice(index + 1).some(s => s.classList.contains(infoClass));
-            }
+            function hasMoreSpecialSlides(fromIndex) {
+                if (!currentSpecialType) return false;
 
-            // Check if there's a next regular (non-info) slide
-            function hasNextRegularSlide(index) {
-                for (let i = index + 1; i < slides.length; i++) {
-                    if (!isInfoSlide(slides[i])) return true;
+                for (let i = fromIndex + 1; i < slides.length; i++) {
+                    if (slides[i].classList.contains(currentSpecialType)) {
+                        return true;
+                    }
                 }
                 return false;
             }
 
-            // Display slide and update buttons
+            function hasMoreRegularSlides(fromIndex) {
+                for (let i = fromIndex + 1; i < slides.length; i++) {
+                    if (!isSpecialSlide(slides[i])) {
+                        return true;
+                    }
+                }
+                return false;
+            }
+
             function showSlide(index) {
                 slides.forEach((slide, i) => {
                     slide.classList.toggle("hidden", i !== index);
@@ -421,93 +427,133 @@
 
                 currentSlide = index;
 
-                // Determine if Done button should show
-                let showDone = false;
+                // Determine if we should show Done or Next button
+                let shouldShowDone = false;
 
-                if (infoMode) {
-                    // In info mode: show Done on last info slide
-                    showDone = !hasNextInfo(index);
+                if (isViewingSpecialSlides) {
+                    shouldShowDone = !hasMoreSpecialSlides(index);
                 } else {
-                    // In normal mode: show Done if no more regular slides ahead
-                    showDone = !hasNextRegularSlide(index);
+                    shouldShowDone = !hasMoreRegularSlides(index);
                 }
 
-                nextButtons.forEach(btn => btn.classList.toggle("hidden", showDone));
-                if (doneButton) doneButton.classList.toggle("hidden", !showDone);
+                nextButtons.forEach(btn => btn.classList.toggle("hidden", shouldShowDone));
+                if (doneButton) doneButton.classList.toggle("hidden", !shouldShowDone);
             }
 
-            // Info button click - enter info mode
-            infoButtons.forEach(btn => {
-                btn.addEventListener("click", (e) => {
-                    e.preventDefault();
-                    parentSlide = currentSlide;
-                    infoMode = true;
-                    infoClass = getInfoClass(btn);
+            function goToNextSlide() {
+                let nextIndex = currentSlide + 1;
 
-                    const firstInfo = [...t - slides].findIndex(s => s.classList.contains(
-                        infoClass));
-                    if (firstInfo !== -1) showSlide(firstInfo);
-                });
-            });
+                while (nextIndex < slides.length) {
+                    const slide = slides[nextIndex];
 
-            // Next button click
-            nextButtons.forEach(btn => {
-                btn.addEventListener("click", () => {
-                    if (currentSlide >= slides.length - 1) return;
-
-                    currentSlide++;
-
-                    while (currentSlide < slides.length) {
-                        if (infoMode && slides[currentSlide].classList.contains(infoClass)) break;
-                        if (!infoMode && !isInfoSlide(slides[currentSlide])) break;
-                        currentSlide++;
+                    if (isViewingSpecialSlides) {
+                        // In special mode, only show slides with current special type
+                        if (slide.classList.contains(currentSpecialType)) {
+                            currentSlide = nextIndex;
+                            showSlide(currentSlide);
+                            return;
+                        }
+                    } else {
+                        // In normal mode, skip special slides
+                        if (!isSpecialSlide(slide)) {
+                            currentSlide = nextIndex;
+                            showSlide(currentSlide);
+                            return;
+                        }
                     }
+                    nextIndex++;
+                }
+            }
 
-                    if (currentSlide < slides.length) showSlide(currentSlide);
-                });
-            });
-
-            // Return button click
-            returnButton.addEventListener("click", () => {
-                if (currentSlide === 0) {
-                    window.location.href = "{{ route('LetsProgram2Selection') }}";
+            function goToPreviousSlide() {
+                if (currentSlide === 0 && !isViewingSpecialSlides) {
+                    window.location.href = returnRoute;
                     return;
                 }
 
-                if (infoMode) {
-                    let prev = currentSlide - 1;
-                    while (prev >= 0 && !slides[prev].classList.contains(infoClass)) prev--;
+                if (isViewingSpecialSlides) {
+                    let prevIndex = currentSlide - 1;
 
-                    if (prev >= 0) {
-                        showSlide(prev);
-                    } else {
-                        infoMode = false;
-                        infoClass = null;
-                        showSlide(parentSlide);
-                        parentSlide = null;
+                    // Find previous slide with same special type
+                    while (prevIndex >= 0) {
+                        if (slides[prevIndex].classList.contains(currentSpecialType)) {
+                            currentSlide = prevIndex;
+                            showSlide(currentSlide);
+                            return;
+                        }
+                        prevIndex--;
                     }
-                } else {
-                    currentSlide--;
-                    while (currentSlide > 0 && isInfoSlide(slides[currentSlide])) currentSlide--;
+
+                    // No previous special slide found, return to parent
+                    isViewingSpecialSlides = false;
+                    currentSpecialType = null;
+                    currentSlide = parentSlide;
+                    parentSlide = null;
                     showSlide(currentSlide);
+                } else {
+                    let prevIndex = currentSlide - 1;
+
+                    // Find previous regular slide
+                    while (prevIndex >= 0) {
+                        if (!isSpecialSlide(slides[prevIndex])) {
+                            currentSlide = prevIndex;
+                            showSlide(currentSlide);
+                            return;
+                        }
+                        prevIndex--;
+                    }
                 }
+            }
+
+            // Click on info/special buttons
+            clickableButtons.forEach(button => {
+                button.addEventListener("click", function(e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+
+                    parentSlide = currentSlide;
+                    isViewingSpecialSlides = true;
+                    currentSpecialType = getSpecialTypeFromButton(button);
+
+                    console.log("Clicked button, looking for:", currentSpecialType);
+
+                    // Find first slide with special type
+                    for (let i = 0; i < slides.length; i++) {
+                        if (slides[i].classList.contains(currentSpecialType)) {
+                            console.log("Found special slide at index:", i);
+                            currentSlide = i;
+                            showSlide(currentSlide);
+                            return;
+                        }
+                    }
+
+                    console.error("No slides found with class:", currentSpecialType);
+                });
             });
 
-            // Done button click
+            nextButtons.forEach(btn => {
+                btn.addEventListener("click", goToNextSlide);
+            });
+
+            returnButton.addEventListener("click", goToPreviousSlide);
+
             if (doneButton) {
-                doneButton.addEventListener("click", () => {
-                    if (infoMode && parentSlide !== null) {
-                        infoMode = false;
-                        infoClass = null;
-                        showSlide(parentSlide);
+                doneButton.addEventListener("click", function() {
+                    if (isViewingSpecialSlides && parentSlide !== null) {
+                        // Return to parent slide
+                        isViewingSpecialSlides = false;
+                        currentSpecialType = null;
+                        currentSlide = parentSlide;
                         parentSlide = null;
+                        showSlide(currentSlide);
                     } else {
-                        window.location.href = "{{ route('BasicCoding') }}";
+                        // Exit to selection page
+                        window.location.href = doneRoute;
                     }
                 });
             }
 
-            showSlide(0);
+            showSlide(currentSlide);
         });
     </script>
 @endpush

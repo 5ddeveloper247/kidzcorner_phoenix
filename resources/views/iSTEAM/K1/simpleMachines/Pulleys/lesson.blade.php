@@ -415,7 +415,7 @@
     {{-- sldie 39 --}}
     <div class="slide  hidden flex flex-col items-center justify-center ">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[45vw] h-[45vh] bg-cover bg-center flex flex-col items-center"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center flex flex-col items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p class="!text-center">If you want to fit a heavy object easily, how would you set up the pulley? Tick ✔ it.
             </p>

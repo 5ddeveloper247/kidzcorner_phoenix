@@ -350,7 +350,7 @@ span img {
         padding-inline: 2vw ;
     }
 
-    .note {
+   .t-slide .note, .note {
         font-size: 1.1vw !important;
         max-width: 50vw !important;
     }

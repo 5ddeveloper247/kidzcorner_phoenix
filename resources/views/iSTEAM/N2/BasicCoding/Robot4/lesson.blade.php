@@ -7,7 +7,7 @@
 
     {{-- Slide 1 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
-        <img src="{{ asset('assets/images/N2/BasicCoding/sb1.png') }}" alt="">
+        <img src="{{ asset('assets/images/N2/BasicCoding/sb1.png') }}" class="img-lg" />
         <h2 class="stroke title">Children, what are these? Do you like them?</h2>
         <p class="note">Note: Encourage children to share their views.</p>
     </div>
@@ -15,7 +15,7 @@
 
     {{-- Slide 2 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="{{ asset('assets/images/N2/BasicCoding/rb1.png') }}" class="large-img2" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/gl7.png') }}" />
         <h2 class="stroke title">Children, what are these? What do you use them for?</h2>
         <p class="note">Note: Have children recall and share what they have learnt.</p>
     </div>
@@ -24,8 +24,8 @@
     {{-- Slide 3 --}}
     <div class="slide flex flex-col items-center justify-center  ">
         <div class="flex items-center justify-center gap-x-10">
-            <img src="{{ asset('assets/images/N2/BasicCoding/rb4.png') }}" class="large-img3" />
-            <img src="{{ asset('assets/images/N2/BasicCoding/rb5.png') }}" class="large-img3" />
+            <img src="{{ asset('assets/images/N2/BasicCoding/rb4.png') }}" class="img-h-sm" />
+            <img src="{{ asset('assets/images/N2/BasicCoding/rb5.png') }}" class="img-h-sm" />
         </div>
         <h2 class="title stroke text-center">What about these? What do you use them for?</h2>
         <p class="note">Note: Have children recall and share what they have learnt.</p>
@@ -34,16 +34,8 @@
 
     {{-- sldie 4 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <div class="flex items-center gap-x-10">
-            <div class="flex flex-col items-center justify-center ">
-                <img src="{{ asset('assets/images/N2/BasicCoding/rb6.png') }}" class="large-img4" />
-                <img src="{{ asset('assets/images/N2/BasicCoding/rb8.png') }}" class="large-img4" />
-            </div>
-            <div class="flex flex-col items-center justify-center ">
-                <img src="{{ asset('assets/images/N2/BasicCoding/rb7.png') }}" class="large-img4" />
-                <img src="{{ asset('assets/images/N2/BasicCoding/rb9.png') }}" class="large-img4" />
-            </div>
-        </div>
+
+        <img src="{{ asset('assets/images/N2/BasicCoding/gl6.png') }}" class="img-lg" />
         <h2 class="title stroke text-center">You can use these mats to form mazes and then
             programme a robot to go through the mazes.</h2>
     </div>
