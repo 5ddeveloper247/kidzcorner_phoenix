@@ -268,7 +268,7 @@
         <img class="w-img" src="/assets/images/K2/animate1/a13.png" />
         <h2 class="title stroke">This command is called Motion Blocks.
             It allows us to design movements for a character.</h2>
-        <p class="note">Note: <button class="text-amber-300 click-btn1">Click here</button> to guide
+        <p class="note">Note: <button class="text-[#F7B94A]click-btn1">Click here</button> to guide
             children explore and understand the details and use of Motion Blocks.</p>
     </div>
 
@@ -536,7 +536,7 @@
         <img class="w-img" src="/assets/images/K2/animate1/a37.png" />
         <h2 class="title stroke">This command is called Triggering Blocks It allows us to
             choose wayso start running a programme of a character.</h2>
-        <p class="note">Note: <button class="text-amber-300 click-btn2">Click here</button> to guide children
+        <p class="note">Note: <button class="text-[#F7B94A]click-btn2">Click here</button> to guide children
             explore and understand the details and use of Triggering Blocks</p>
     </div>
 

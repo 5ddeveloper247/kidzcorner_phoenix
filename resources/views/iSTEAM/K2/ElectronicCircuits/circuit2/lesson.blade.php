@@ -7,7 +7,7 @@
 
     {{-- Slide 1 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="{{ asset('assets/images/K2/circuit/ecity/e13.png') }}" />
+        <img src="{{ asset('assets/images/K2/circuit/ecity/e13.png') }}" class="img-lg" />
         <div class="title stroke">
             <h2>Children, what is this? What is it for?</h2>
         </div>
@@ -17,7 +17,7 @@
 
     {{-- Slide 2 --}}
     <div class="slide hidden flex flex-col items-center">
-        <img src="{{ asset('assets/images/K2/circuit/ecity/e13.png') }}" />
+        <img src="{{ asset('assets/images/K2/circuit/ecity/e13.png') }}" class="img-lg" />
         <h2 class="title stroke">This is the drawing of a simple circuit.
             A circuit is a path that electricity can flow through.</h2>
     </div>
@@ -25,14 +25,14 @@
 
     {{-- Slide 3 --}}
     <div class="slide hidden  flex flex-col items-center  ">
-        <img src="{{ asset('assets/images/K2/circuit/ecity/e13.png') }}" />
+        <img src="{{ asset('assets/images/K2/circuit/ecity/e13.png') }}" class="img-lg" />
         <h2 class="title stroke text-center">Is this a complete circuit? Why?</h2>
         <p class="note">Note: Have children recall and share what they have learnt.</p>
     </div>
 
     {{-- slide 4 --}}
     <div class="slide hidden  flex flex-col items-center  ">
-        <img src="{{ asset('assets/images/K2/circuit/ecity/e13.png') }}" />
+        <img src="{{ asset('assets/images/K2/circuit/ecity/e13.png') }}" class="img-lg" />
         <h2 class="title stroke text-center">This is a <span class="!text-white">complete circuit</span> because it lets
             <span class="!text-white">electricity</span> flow
             smoothly to provide power for the <span class="!text-white">light bulb</span> to light up.
@@ -42,7 +42,7 @@
 
     {{-- Slide 5 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/circuit/ecity/e13.png') }}" />
+        <img src="{{ asset('assets/images/K2/circuit/ecity/e13.png') }}" class="img-lg" />
         <h2 class="title stroke">This is <span class="!text-white"> complete circuit</span> is made up of 3 parts.
             Can you name them?</h2>
     </div>
@@ -50,7 +50,7 @@
 
     {{-- slide 6 --}}
     <div class="slide hidden flex flex-col items-center  ">
-        <img src="{{ asset('assets/images/K2/circuit/ecity/e20.png') }}" />
+        <img src="{{ asset('assets/images/K2/circuit/ecity/e20.png') }}" class="img-md" />
         <h2 class="title stroke">Do you remember these? <br>
             How did you form a complete circuit using these parts?</h2>
         <p class="note">Note: Have children recall and share how to set up a complete circuit using these things.</p>
@@ -59,7 +59,7 @@
 
     {{-- slide 7 --}}
     <div class="slide hidden flex flex-col items-center  ">
-        <img src="{{ asset('assets/images/K2/circuit/ecity/e22.png') }}" />
+        <img src="{{ asset('assets/images/K2/circuit/ecity/e22.png') }}" class="img-md" />
         <h2 class="title stroke">How do you make sure that the LED will light up?</h2>
         <p class="note">Note: Have children recall and share what they have learnt.</p>
     </div>
@@ -83,7 +83,7 @@
 
     {{-- slide 9 --}}
     <div class="slide hidden flex flex-col items-center  ">
-        <img src="{{ asset('assets/images/K2/circuit/ecity/e22.png') }}" />
+        <img src="{{ asset('assets/images/K2/circuit/ecity/e22.png') }}" class="img-lg" />
         <h2 class="title stroke">Why do you think playdough is used to connect the wires
             and the legs of the LED?</h2>
         <p class="note">Note: Have children guess based on what they have learnt.</p>
@@ -91,7 +91,7 @@
 
     {{-- slide 10 --}}
     <div class="slide hidden flex flex-col items-center  ">
-        <img src="{{ asset('assets/images/K2/circuit/ecity/e22.png') }}" />
+        <img src="{{ asset('assets/images/K2/circuit/ecity/e22.png') }}" class="img-lg" />
         <h2 class="title stroke">A circuit needs conductors, which are things that allow
             electricity to flow through them.</h2>
     </div>
@@ -99,7 +99,7 @@
 
     {{-- slide 11 --}}
     <div class="slide hidden flex flex-col items-center  ">
-        <img src="{{ asset('assets/images/K2/circuit/ecity/e22.png') }}" />
+        <img src="{{ asset('assets/images/K2/circuit/ecity/e22.png') }}" class="img-lg" />
         <h2 class="title stroke">Playdough allows electricity to flow through it,
             so playdough is a conductor.</h2>
     </div>
@@ -107,14 +107,14 @@
 
     {{-- slide 12 --}}
     <div class="slide hidden flex flex-col items-center  ">
-        <img src="{{ asset('assets/images/K2/circuit/ecity/e22.png') }}" />
+        <img src="{{ asset('assets/images/K2/circuit/ecity/e22.png') }}" class="img-lg" />
         <h2 class="title stroke">Moreover, it is easy to use playdough to connect the wires
             and the LED and hold the connection in place.</h2>
     </div>
 
     {{-- slide 13 --}}
     <div class="slide hidden flex flex-col items-center  ">
-        <img src="{{ asset('assets/images/K2/circuit/ecity/e23.png') }}" />
+        <img src="{{ asset('assets/images/K2/circuit/ecity/e23.png') }}" class="img-lg" />
         <h2 class="title stroke">Have you ever played with playdough and modelling clay?
             Are they same or different?</h2>
         <p class="note">Note: Display a ball of playdough and a ball of modelling clay. Have children touch and compare
@@ -123,7 +123,7 @@
 
     {{-- slide 14 --}}
     <div class="slide hidden flex flex-col items-center ">
-        <img src="{{ asset('assets/images/K2/circuit/ecity/e24.png') }}" />
+        <img src="{{ asset('assets/images/K2/circuit/ecity/e24.png') }}" class="img-xl" />
         <h2 class="title stroke">Both playdough and modelling clay can be used to make
             sculptures although they have different textures.</h2>
         <p class="note">Note: Guide children to describe the texture of playdough and modelling clay.</p>
@@ -132,9 +132,9 @@
 
     {{-- slide 15 --}}
     <div class="slide hidden flex flex-col items-center ">
-        <img src="{{ asset('assets/images/K2/circuit/ecity/e22.png') }}" />
+        <img src="{{ asset('assets/images/K2/circuit/ecity/e22.png') }}" class="img-md" />
         <h2 class="title stroke">These things can form a complete circuit. <br>
-            What happens if you replace the playdough of this circuit <br>
+            What happens if you replace the playdough of this circuit 
             with modelling clay? Let's find out.</h2>
         <p class="note">Note: Have children form the circuit by changing the playdough to modelling clay to observe the
             outcome.</p>
@@ -142,7 +142,7 @@
 
     {{-- slide 16 --}}
     <div class="slide hidden flex flex-col items-center ">
-        <img src="{{ asset('assets/images/K2/circuit/ecity/e25.png') }}" />
+        <img src="{{ asset('assets/images/K2/circuit/ecity/e25.png') }}" class="img-md" />
         <h2 class="title stroke">The LED will not light up no matter how you change the
             connection between the wires and the LED.</h2>
     </div>
@@ -150,7 +150,7 @@
 
     {{-- slide 17 --}}
     <div class="slide hidden flex flex-col items-center ">
-        <img src="{{ asset('assets/images/K2/circuit/ecity/e25.png') }}" />
+        <img src="{{ asset('assets/images/K2/circuit/ecity/e25.png') }}" class="img-md" />
         <h2 class="title stroke">This means electricity cannot flow through modelling clay to
             provide power for the LED to light up.</h2>
     </div>
@@ -158,7 +158,7 @@
 
     {{-- slide 18 --}}
     <div class="slide hidden flex flex-col items-center ">
-        <img src="{{ asset('assets/images/K2/circuit/ecity/e25.png') }}" />
+        <img src="{{ asset('assets/images/K2/circuit/ecity/e25.png') }}" class="img-md" />
         <h2 class="title stroke">Things that do not allow <span class="!text-white">electrici</span>.y to flow through them
             are
             called <span class="!text-white">insulator</span>.. Modelling clay is an <span
@@ -168,21 +168,21 @@
 
     {{-- slide 19 --}}
     <div class="slide hidden flex flex-col items-center ">
-        <img src="{{ asset('assets/images/K2/circuit/ecity/e26.png') }}" />
+        <img src="{{ asset('assets/images/K2/circuit/ecity/e26.png') }}" class="img-lg" />
         <h2 class="title stroke">Do you remember this? The LED is not lighted up when the
             two playdough balls are stuck together.</h2>
     </div>
 
     {{-- sldie 20 --}}
     <div class="slide hidden flex flex-col items-center ">
-        <img src="{{ asset('assets/images/K2/circuit/ecity/e27.png') }}" />
+        <img src="{{ asset('assets/images/K2/circuit/ecity/e27.png') }}" class="img-lg" />
         <h2 class="title stroke">This is how modelling clay helps to solve the problem.</h2>
         <p class="note">Note: Form the circuit on the previous page and this page. Have children observe the outcome.</p>
     </div>
 
 
     {{-- sldie 21 --}}
-    <div class="slide hidden flex flex-col items-center h-[50vh] justify-between">
+    <div class="slide hidden flex flex-col items-center h-[28vw] justify-between">
         <h2 class="title stroke">Now you know how to form a complete circuit, <br>
             do you think the idea can be used <br>
             to create a sculpture that lights up?</h2>
@@ -192,7 +192,7 @@
 
     {{-- sldie 22 --}}
     <div class="slide hidden flex flex-col items-center ">
-        <img src="{{ asset('assets/images/K2/circuit/ecity/d1.png') }}" />
+        <img src="{{ asset('assets/images/K2/circuit/ecity/d1.png') }}" class="img-md" />
         <h2 class="title stroke">What sculpture is this? Why do you think the lights are there?
             How do you form it?</h2>
         <p class="note">Note: Have children observe the sculpture and answer the questions.</p>
@@ -200,7 +200,7 @@
 
     {{-- sldie 23 --}}
     <div class="slide hidden flex flex-col items-center ">
-        <img src="{{ asset('assets/images/K2/circuit/ecity/d2.png') }}" class="w-img" />
+        <img src="{{ asset('assets/images/K2/circuit/ecity/d2.png') }}" class="img-h-md" />
         <h2 class="title stroke">What sculpture is this? Why do you think the lights are there?
             How do you form it?</h2>
         <p class="note">Note: Have children observe the sculpture and answer the questions.</p>
@@ -209,7 +209,7 @@
 
     {{-- sldie 24 --}}
     <div class="slide hidden flex flex-col items-center ">
-        <img src="{{ asset('assets/images/K2/circuit/ecity/d3.png') }}" class="!w-[16vw]" />
+        <img src="{{ asset('assets/images/K2/circuit/ecity/d3.png') }}" class="img-h-md" />
         <h2 class="title stroke">What sculpture is this? Why do you think the lights are there?
             How do you form it?</h2>
         <p class="note">Note: Have children observe the sculpture and answer the questions.</p>
@@ -217,7 +217,7 @@
 
 
     {{-- slide 25 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-[50vh]  ">
+    <div class="slide hidden flex flex-col items-center justify-between h-[28vw]  ">
         <h2 class="!text-white title stroke">Hands-on Time </h2>
         <h2 class="title stroke text-start">Mission: <br>
             Let's use our creativity to create a sculpture that lights up
@@ -226,18 +226,20 @@
     </div>
 
     {{-- slide 26 --}}
-    <div class="slide hidden flex flex-col items-center  h-[50vh] justify-around">
-        <ul class="text-start title stroke list-decimal">
-            <h2>Steps:</h2>
-            <li>
-                What kind of sculpture would you like to make? Where do you think the light or lights should be?
-                Draw it in the learning journal.
+    <div class="slide hidden flex flex-col items-center  h-[28vw] justify-around">
+        <div class="text-start">
+            <h2 class="title stroke">Steps:</h2>
+            <ul class="text-start lesson-ul title stroke list-decimal">
+                <li>
+                    What kind of sculpture would you like to make? Where do you think the light or lights should be?
+                    Draw it in the learning journal.
             </li>
             <li>
                 Use playdough, modelling clay and the circuit parts provided to create the sculpture based on your design.
             </li>
             <li>Showcase your work.</li>
         </ul>
+    </div>
         <p class="note">Note: Have children work in groups to complete the steps.</p>
     </div>
 
@@ -311,7 +313,7 @@
 
             // CONFIGURE YOUR ROUTES HERE
             const returnRouteFromFirstSlide = "{{ route('circuit2Selection') }}";
-            const doneButtonRoute = "{{ route('circuit2Selection') }}";
+            const doneButtonRoute = "{{ route('k2ElectronicCircuits') }}";
 
             // Pause all videos when changing slides
             function pauseAllVideos() {

@@ -79,7 +79,7 @@
     <section class="w-full h-screen relative flex items-center justify-center bg-[#FBF0D0] overflow-hidden">
 
         <div id="ajax-section"
-            class="flex  justify-center relative text-center px-[4vw] py-[5vw] h-[43.438vw] w-[74vw] md:bg-cover bg-no-repeat bg-center"
+            class="flex items-center  justify-center relative text-center px-[5vw] py-[4vw] h-[43.438vw] w-[74vw] md:bg-cover bg-no-repeat bg-center"
             style="background-image: url('{{ asset('assets/images/pptimages/stoneboard.png') }}');">
             @yield('content')
         </div>
@@ -87,7 +87,7 @@
         <!-- Leafs outside board -->
         <div id="leafs-outside">
             {{-- laef 1 --}}
-            <img class="absolute top-0 left-0 w-[20vw] h-[20vw] z-30 transition-opacity cursor-none"
+            <img class="absolute top-0 left-0 w-[15vw]  z-30 transition-opacity cursor-none"
                 src="{{ asset('assets/images/pptimages/bg-leaf-1.png') }}" />
 
             {{-- leaf 2 --}}
@@ -108,16 +108,16 @@
                 src="{{ asset('assets/images/pptimages/leaf3.png') }}" />
 
             {{-- leaf 5 --}}
-            <img class="absolute bottom-0 left-0 md:w-[10.67vw] z-30 transition-opacity cursor-none"
-                src="{{ asset('assets/images/pptimages/leaf1.png') }}" />
+            <img class="absolute bottom-[-2vw] left-[-2vw] md:w-[10.67vw] z-30 transition-opacity cursor-none"
+                src="{{ asset('assets/images/pptimages/leaf7.png') }}" />
 
             {{-- leaf 6 --}}
-            <img class="absolute !bottom-0 left-[35vw] rotate-180 md:w-[13.5vw] z-30 transition-opacity cursor-none"
+            <img class="absolute !bottom-0 left-[35vw] rotate-[180deg] md:w-[13vw] z-30 transition-opacity cursor-none"
                 src="{{ asset('assets/images/pptimages/leaf15.png') }}" />
 
             {{-- leaf 7 --}}
-            <img class="absolute bottom-0 right-0 md:w-[10vw] z-50 transition-opacity cursor-none"
-                src="{{ asset('assets/images/pptimages/leaf10.png') }}" />
+            <img class="absolute bottom-[-4vw] right-[-3vw] md:w-[10vw] z-50 transition-opacity cursor-none"
+                src="{{ asset('assets/images/pptimages/leaf11.png') }}" />
         </div>
 
 

@@ -72,7 +72,7 @@
 
         <h2 class="title stroke">This command is called Sound Blocks. <br>
             It allows us to design movements for a character.</h2>
-        <p class="note">Note: <button class="text-amber-300 click-btn1">Click here</button> to guide children
+        <p class="note">Note: <button class="text-[#F7B94A]click-btn1">Click here</button> to guide children
             explore and
             understand the details and use of Sound Blocks.</p>
 
@@ -204,7 +204,7 @@
 
         <h2 class="title stroke">This command is called Control Blocks. <br>
             It allows us to design movements for a character.</h2>
-        <p class="note">Note: <button class="text-amber-300 click-btn2">Click here</button> to guide children
+        <p class="note">Note: <button class="text-[#F7B94A]click-btn2">Click here</button> to guide children
             explore and
             understand the details and use of Control Blocks.</p>
 

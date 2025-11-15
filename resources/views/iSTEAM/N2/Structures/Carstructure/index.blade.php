@@ -4,7 +4,7 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col items-center ">
-        <h2 class="  text-amber-300 text-[65px] stroke">Structure of a Car</h2>
+        <h2 class="text-[#F7B94A] stroke">Structure of a Car</h2>
         <h2 class="!text-white title">Plan and design a city; <br>
             create buildings and vehicles of various <br>
             structures.</h2>

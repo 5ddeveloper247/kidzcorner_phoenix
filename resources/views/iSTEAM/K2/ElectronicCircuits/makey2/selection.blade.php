@@ -10,7 +10,7 @@
 
     <div class=" flex items-center flex-col justify-around relative text-center z-[99]w-full h-full">
         <h2 class="text-[50px] text-[#F7B94A]  stroke">Makey Makey (2)</h2>
-        <div class="flex items-center justify-between gap-[20rem]">
+        <div class="flex items-center justify-between gap-[10vw]">
 
             {{-- Lesson Button --}}
             <a href="{{ route('makey2Lesson') }}" id="Lesson" class="flex flex-col gap-0">

@@ -143,7 +143,7 @@
 
 
     {{-- /sldie 7 --}}
-    <div class=" t-slide text-start !text-white !w-[53vw]">
+    <div class=" t-slide text-start !text-white !w-[53vw] flex items-center">
         <div>
             <h2 class="t-title ">Notes:</h2>
             <ul class="list-disc space-y-3">

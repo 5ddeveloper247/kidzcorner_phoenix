@@ -6,7 +6,7 @@
     <h2 class="top-title stroke">What is an Electronic Circuit</h2>
 
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl t-slide !text-white flex-col justify-start  text-start">
+    <div class="flex  t-slide !text-white flex-col justify-around  text-start">
         <div>
             <h2 class="t-title ">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -42,20 +42,20 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl t-slide !text-white flex-col justify-start  text-start">
+    <div class="flex  t-slide !text-white flex-col justify-center  text-start">
         <div class="space-y-10">
             <ul class="list-disc ">
                 <h2 class=" t-title">Preparations:</h2>
                 <li>Each group a set of basic circuit components.</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/circuit/ecity/e21.png') }}" class="w-[750px]" />
+        <img src="{{ asset('assets/images/K2/circuit/ecity/e21.png') }}" class="img-lg" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- sldie 3 --}}
-    <div class=" slide text-start text-2xl t-slide !text-white">
+    <div class="text-start flex flex-col justify-around  t-slide !text-white">
         <div>
             <h2 class=" t-title">Things to note during hands-on session:</h2>
             <ul class="list-disc pl-[50px]">
@@ -82,30 +82,43 @@
 
 
     {{-- slide 4 --}}
-    <div class="slide flex  flex-col justify-start  text-2xl t-slide text-start !text-white w-[80%]">
+    <div class=" t-slide flex items-center text-start !text-white !w-[53vw]">
         <div>
-            <h2 class=" t-title">Notes:</h2>
-            <ul class="list-disc leading-relaxed">
-                <li class="flex">
-                    If you see
-                    <span>
-                        <img src="{{ asset('assets/images/pptimages/video.png') }}" />
+            <h2 class="t-title ">Notes:</h2>
+            <ul class="list-disc space-y-3">
+                <li>
+                    <span class="relative">
+                        If you see <span class="opacity-0">---</span>next to a picture, click on the picture to watch the
+                        video.
+                        <img class="t-video-btn absolute top-[-1vw] left-[7.6vw]"
+                            src="{{ asset('assets/images/pptimages/video.png') }}" />
                     </span>
-                    next to a picture, click on the picture to watch the video.
                 </li>
+
+                <li>
+                    Always ask questions to encourage children to think and share their ideas first before giving out
+                    any information.
+                </li>
+
                 <li>Emphasise and use the keywords during hands-on sessions.</li>
-                <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
+
+                <li>
+                    Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
                 </li>
-                <li class="flex">
-                    Click on this shortcut icon
-                    <span>
-                        <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+
+                <li>
+                    <span class="relative">
+                        Click on this shortcut icon <span class="opacity-0">---</span> if you need to go to some parts of
+                        the lesson quickly.
+                        <img src="{{ asset('assets/images/pptimages/home-btn.png') }}"
+                            class="t-home-btn absolute top-0 left-[19vw]" />
                     </span>
-                    if you need to go to some parts of the lesson quickly.
                 </li>
+
             </ul>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="Teacher" />
+
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
@@ -151,7 +164,7 @@
 @push('script')
     <script>
         document.addEventListener("DOMContentLoaded", () => {
-            const slides = document.querySelectorAll(".slide");
+            const slides = document.querySelectorAll(".t-slide");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
             const doneButton = document.querySelector(".doneButton"); //   DONE button
@@ -197,7 +210,7 @@
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('k2ElectronicCircuits') }}";
+                    window.location.href = "{{ route('circuitSelection'') }}";
                 });
             }
             showSlide(currentSlide);

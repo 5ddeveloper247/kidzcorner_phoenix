@@ -3,6 +3,9 @@
  
 @section('content')
 
+{{-- title  --}}
+<h2 class="top-title stroke">Final Project</h2>
+
 
     {{-- Slide 1 --}}
     <div class="slide flex flex-col items-center justify-between h-[50vh]">
@@ -17,27 +20,27 @@
 
     {{-- Slide 2 --}}
     <div class="slide hidden flex flex-col items-center">
-        <img src="{{ asset('assets/images/K2/final/f1.png') }}" />
+        <img src="{{ asset('assets/images/K2/final/f1.png') }}" class="img-lg" />
     </div>
 
 
     {{-- Slide 3 --}}
     <div class="slide hidden  flex flex-col items-center">
-        <img src="{{ asset('assets/images/K2/final/f2.png') }}" />
+        <img src="{{ asset('assets/images/K2/final/f2.png') }}" class="img-lg" />
         <h2 class="title stroke text-center">Why do you think we learn about these simple machines?</h2>
         <p class="note">Note: Encourage and guide children to boldly share their views.</p>
     </div>
 
     {{-- slide 4 --}}
     <div class="slide hidden  flex flex-col items-center">
-        <img src="{{ asset('assets/images/K2/final/f3.png') }}" />
+        <img src="{{ asset('assets/images/K2/final/f3.png') }}" class="img-xl" />
         <h2 class="title stroke text-center">Many things around us are actually made with the idea of
             simple machines. Can you spot them from each picture?</h2>
     </div>
 
     {{-- Slide 5 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/final/f4.png') }}" />
+        <img src="{{ asset('assets/images/K2/final/f4.png') }}" class="img-md" />
         <h2 class="title stroke">What are these? What did you do with them?</h2>
         <p class="note">Note: Guide children to recall and share how to control Dash the robot.</p>
     </div>
@@ -46,7 +49,7 @@
     {{-- slide 6 --}}
     <div class="slide hidden flex flex-col items-center gap-y-3">
         <div class="flex items-center gap-5">
-            <img src="{{ asset('assets/images/K2/final/f5.png') }}" class="h-[343px]" />
+            <img src="{{ asset('assets/images/K2/final/f5.png') }}" class="img-h-md" />
             <video id="video1" class="pointer-events-none">
                 <source src="{{ asset('assets/images/K2/final/224.mp4') }}" type="video/mp4">
                 Your browser does not support the video tag.
@@ -65,7 +68,7 @@
 
     {{-- slide 7 --}}
     <div class="slide hidden flex flex-col items-center gap-y-3">
-        <img src="{{ asset('assets/images/K2/final/f6.png') }}" />
+        <img src="{{ asset('assets/images/K2/final/f6.png') }}" class="img-lg" />
         <h2 class="title stroke">What about this? What have you used it for?</h2>
         <p class="note">Note: Use a tablet to show the app. Have children share what they know about ScratchJr.</p>
     </div>
@@ -74,8 +77,8 @@
     {{-- slide 8 --}}
     <div class="slide hidden flex flex-col items-center gap-y-3">
         <div class="flex items-center gap-5">
-            <img src="{{ asset('assets/images/K2/final/f7.png') }}" class="h-[343px]" />
-            <video id="video2" class="pointer-events-none">
+            <img src="{{ asset('assets/images/K2/final/f7.png') }}" class="img-h-md" />
+            <video id="video2" class="pointer-events-none video-md">
                 <source src="{{ asset('assets/images/K2/final/284.mp4') }}" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
@@ -92,21 +95,21 @@
 
     {{-- slide 9 --}}
     <div class="slide hidden flex flex-col items-center gap-y-3">
-        <img src="{{ asset('assets/images/K2/final/f8.png') }}" />
+        <img src="{{ asset('assets/images/K2/final/f8.png') }}" class="img-xl"/>
         <h2 class="title stroke">Why do you think we learn about programming?</h2>
         <p class="note">Note: Encourage and guide children to boldly share their views.</p>
     </div>
 
     {{-- slide 10 --}}
     <div class="slide hidden flex flex-col items-center gap-y-3">
-        <img src="{{ asset('assets/images/K2/final/f9.png') }}" />
+        <img src="{{ asset('assets/images/K2/final/f9.png') }}" class="img-lg"/>
         <h2 class="title stroke">Many machines that do work for us are controlled by
             different programmes.</h2>
     </div>
 
     {{-- slide 11 --}}
     <div class="slide hidden flex flex-col items-center gap-y-3">
-        <img src="{{ asset('assets/images/K2/final/f10.png') }}" />
+        <img src="{{ asset('assets/images/K2/final/f10.png') }}" class="img-xl" />
         <h2 class="title stroke">Do you remember these? What did you use to build them?</h2>
         <p class="note">Note: Guide children to recall and talk about the experience they used straws and
             pipe cleaners to build structures.</p>
@@ -114,35 +117,35 @@
 
     {{-- slide 12 --}}
     <div class="slide hidden flex flex-col items-center gap-y-3">
-        <img src="{{ asset('assets/images/K2/final/f10.png') }}" />
+        <img src="{{ asset('assets/images/K2/final/f10.png') }}" class="img-xl" />
         <h2 class="title stroke">Why do you think we learn about structures?</h2>
         <p class="note">Note: Encourage and guide children to boldly share their views.</p>
     </div>
 
     {{-- slide 13 --}}
     <div class="slide hidden flex flex-col items-center gap-y-3">
-        <img src="{{ asset('assets/images/K2/final/f11.png') }}" />
+        <img src="{{ asset('assets/images/K2/final/f11.png') }}" class="img-xl" />
         <h2 class="title stroke">Buildings, bridges and many things around us are structures.</h2>
         <p class="note">Note: Tell children that structures are durable and behave well only if properly built.</p>
     </div>
 
     {{-- slide 14 --}}
     <div class="slide hidden flex flex-col items-center gap-y-3">
-        <img src="{{ asset('assets/images/K2/final/f12.png') }}" />
+        <img src="{{ asset('assets/images/K2/final/f12.png') }}" class="img-lg" />
         <h2 class="title stroke">What is this? What is it for?</h2>
         <p class="note">Note: Guide children to recall and share what they know about an electrical circuit.</p>
     </div>
 
     {{-- slide 15 --}}
     <div class="slide hidden flex flex-col items-center gap-y-3">
-        <img src="{{ asset('assets/images/K2/final/f12.png') }}" />
+        <img src="{{ asset('assets/images/K2/final/f12.png') }}" class="img-lg" />
         <h2 class="title stroke">This is the drawing of an electrical circuit.
             An electrical circuit is a path that electricity can flow through.</h2>
     </div>
 
     {{-- slide 16 --}}
     <div class="slide hidden flex flex-col items-center gap-y-3">
-        <img src="{{ asset('assets/images/K2/final/f12.png') }}" />
+        <img src="{{ asset('assets/images/K2/final/f12.png') }}" class="img-lg" />
         <h2 class="title stroke">Why do you think we learn about electrical circuits?</h2>
         <p class="note">Note: Encourage and guide children to boldly share their views.</p>
     </div>
@@ -150,7 +153,7 @@
 
     {{-- slide 17 --}}
     <div class="slide hidden flex flex-col items-center gap-y-3">
-        <img src="{{ asset('assets/images/K2/final/f13.png') }}" />
+        <img src="{{ asset('assets/images/K2/final/f13.png') }}" class="img-lg" />
         <h2 class="title stroke">Only a complete electrical circuit allows electricity to provide
             power for machines around us to do work.</h2>
     </div>
@@ -158,7 +161,7 @@
 
     {{-- slide 18 --}}
     <div class="slide hidden flex flex-col items-center gap-y-3">
-        <img src="{{ asset('assets/images/K2/final/f14.png') }}" />
+        <img src="{{ asset('assets/images/K2/final/f14.png') }}" class="img-xl" />
         <h2 class="title stroke">Everything that you have learnt will help you become
             a good problem solver.</h2>
     </div>
@@ -166,7 +169,7 @@
 
     {{-- slide 19 --}}
     <div class="slide hidden flex flex-col items-center gap-y-3">
-        <img src="{{ asset('assets/images/K2/final/f14.png') }}" />
+        <img src="{{ asset('assets/images/K2/final/f14.png') }}" class="img-xl" />
         <h2 class="title stroke">We must use what we have learnt to do good and help to
             make our lives and the lives of others better.</h2>
     </div>
@@ -180,7 +183,7 @@
 
 
     {{-- slide 21 --}}
-    <div class="flex flex-col items-center justify-between h-[80%] slide hidden">
+    <div class="flex flex-col items-center justify-between h-[28vw] slide hidden">
         <h2 class="title !text-white stroke">1 - Pool Toys</h2>
         <div class="text-start self-start title stroke">
             <h2 class="!text-white">Problem:</h2>
@@ -194,7 +197,7 @@
 
 
     {{-- slide 22 --}}
-    <div class="flex flex-col items-center justify-between h-[80%] slide hidden">
+    <div class="flex flex-col items-center justify-between h-[28vw] slide hidden">
         <h2 class="title !text-white stroke">2 - Reduce Food Wastage</h2>
         <div class="text-start self-start title stroke">
             <h2 class="!text-white">Challenge:</h2>
@@ -206,7 +209,7 @@
     </div>
 
     {{-- slide 23 --}}
-    <div class="flex flex-col items-center justify-between h-[80%] slide hidden">
+    <div class="flex flex-col items-center justify-between h-[28vw] slide hidden">
         <h2 class="title !text-white stroke">3 - Home For The Fallen Baby Bird</h2>
         <div class="text-start self-start title stroke">
             <h2 class="!text-white">Problem:</h2>
@@ -219,7 +222,7 @@
 
 
     {{-- slide 24 --}}
-    <div class="flex flex-col items-center justify-between h-[80%] slide hidden">
+    <div class="flex flex-col items-center justify-between h-[28vw] slide hidden">
         <h2 class="title !text-white stroke">4 - No More Paper Towel</h2>
         <div class="text-start self-start title stroke">
             <h2 class="!text-white">Problem:</h2>
@@ -233,7 +236,7 @@
 
 
     {{-- slide 25 --}}
-    <div class="flex flex-col items-center justify-between h-[80%] slide hidden">
+    <div class="flex flex-col items-center justify-between h-[28vw] slide hidden">
         <h2 class="title !text-white stroke">5 - Let There Be Light</h2>
         <div class="text-start self-start title stroke">
             <h2 class="!text-white">Problem:</h2>
@@ -244,7 +247,7 @@
     </div>
 
     {{-- slide 26 --}}
-    <div class="flex flex-col items-center justify-between h-[80%] slide hidden">
+    <div class="flex flex-col items-center justify-between h-[28vw] slide hidden">
         <h2 class="title !text-white stroke">6 - Rain Alarm</h2>
         <div class="text-start self-start title stroke">
             <h2 class="!text-white">Problem:</h2>
@@ -257,7 +260,7 @@
 
 
     {{-- slide 27 --}}
-    <div class="flex flex-col items-center justify-between h-[80%] slide hidden">
+    <div class="flex flex-col items-center justify-between h-[28vw] slide hidden">
         <h2 class="title !text-white stroke">7 - Cross A River</h2>
         <div class="text-start self-start title stroke">
             <h2 class="!text-white">Problem:</h2>
@@ -268,7 +271,7 @@
     </div>
 
     {{-- slide 28 --}}
-    <div class="flex flex-col items-center justify-between h-[80%] slide hidden">
+    <div class="flex flex-col items-center justify-between h-[28vw] slide hidden">
         <h2 class="title !text-white stroke">8 - Share Your Day With The Visitors</h2>
         <div class="text-start self-start title stroke">
             <h2 class="!text-white">Challenge:</h2>
@@ -280,7 +283,7 @@
 
 
     {{-- slide 29 --}}
-    <div class="flex flex-col items-center justify-between h-[80%] slide hidden">
+    <div class="flex flex-col items-center justify-between h-[28vw] slide hidden">
         <h2 class="title !text-white stroke">9 - Homes For Crowded Cities</h2>
         <div class="text-start self-start title stroke">
             <h2 class="!text-white">Problem:</h2>
@@ -294,7 +297,7 @@
 
 
     {{-- slide 30 --}}
-    <div class="flex flex-col items-center justify-between h-[80%] slide hidden">
+    <div class="flex flex-col items-center justify-between h-[28vw] slide hidden">
         <h2 class="title !text-white stroke">10 - Useful Inventions</h2>
         <div class="text-start self-start title stroke">
             <h2 class="!text-white">Problem:</h2>
@@ -310,7 +313,7 @@
 
 
     {{-- slide 31 --}}
-    <div class="flex flex-col items-center justify-between h-[80%] slide hidden">
+    <div class="flex flex-col items-center justify-between h-[28vw] slide hidden">
         <h2 class="title !text-white stroke">11 - New Coding Game</h2>
         <div class="text-start self-start title stroke">
             <h2 class="!text-white">Challenge:</h2>
@@ -322,38 +325,38 @@
     </div>
 
     {{-- slide 32 --}}
-    <div class="flex flex-col items-center justify-between h-[80%] slide hidden">
+    <div class="flex flex-col items-center justify-between h-[28vw] slide hidden">
         <div class="text-start self-start title stroke">
             <h2>What problems or challenges would you like to solve or take on?</h2>
-            <ul class="list-decimal">
+            <ol class="list-decimal lesson-ul" start="1">
                 <li>Pool Toys</li>
                 <li>Reduce Food Wastage</li>
                 <li>Home For The Fallen Baby Bird</li>
                 <li>No More Paper Towel</li>
                 <li>Let There Be Light</li>
                 <li>Rain Alarm</li>
-            </ul>
+            </ol>
         </div>
         <p class="note">Note: Organise children into groups based on their interests to start the project.</p>
     </div>
 
     {{-- slide 33 --}}
-    <div class="flex flex-col items-center justify-between h-[80%] slide hidden">
+    <div class="flex flex-col items-center justify-between h-[28vw] slide hidden">
         <div class="text-start self-start title stroke">
             <h2>What problems or challenges would you like to solve or take on?</h2>
-            <ul>
-                <li>7. Cross A River</li>
-                <li>8. Share Your Day With The Visitors</li>
-                <li>9. Homes For Crowded Cities</li>
-                <li>10. Useful Inventions</li>
-                <li>11. New Coding Game</li>
-            </ul>
+            <ol class="list-decimal lesson-ul" start="7">
+                <li>Cross A River</li>
+                <li>Share Your Day With The Visitors</li>
+                <li>Homes For Crowded Cities</li>
+                <li> Useful Inventions</li>
+                <li> New Coding Game</li>
+            </ol>
         </div>
         <p class="note">Note: Organise children into groups based on their interests to start the project.</p>
     </div>
 
     {{-- slide 34 --}}
-    <div class="flex flex-col items-center justify-between h-[80%] slide hidden">
+    <div class="flex flex-col items-center justify-between h-[28vw] slide hidden">
         <h2 class="title !text-white stroke">Solve A Problem/Take Up A Challenge</h2>
         <div class="text-start self-start title stroke">
             <h2 class="!text-white">Mission:</h2>
@@ -364,10 +367,10 @@
     </div>
 
     {{-- slide 35 --}}
-    <div class="flex flex-col items-center justify-between h-[80%] slide hidden">
+    <div class="flex flex-col items-center justify-between h-[28vw] slide hidden">
         <div class="text-start self-start title stroke">
             <h2 class="!text-white">Steps:</h2>
-            <ul class="list-decimal">
+            <ul class="list-decimal lesson-ul">
                 <li>Understand your problem/challenge.</li>
                 <li>Come up with potential solutions for the problem/challenge.</li>
                 <li>Decide one solution and design it (draw).</li>
@@ -382,7 +385,7 @@
     {{-- slide 36 --}}
     <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[836px] h-[500px] bg-cover bg-center p-[20px] text-start"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center p-[20px] text-start"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>Problem:_____________________________________________________________ <br>
                 What are you going to create to solve the problem? Design it.</p>
@@ -392,7 +395,7 @@
     {{-- sldie 37 --}}
     <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[836px] h-[500px] bg-cover bg-center p-[20px]  text-start"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center p-[20px]  text-start"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>Challenge: _________________________________________________ <br>
                 What are you going to invent? Design it.</p>
@@ -637,7 +640,7 @@
                         parentSlideIndex = null;
                     } else {
                         // Navigate to route
-                        window.location.href = "{{ route('final2Selection') }}";
+                        window.location.href = "{{ route('k2FinalProject') }}";
                     }
                 });
             }

@@ -63,6 +63,7 @@ button {
 }
 
 .t-slide{
+    height: 30vw;
     gap: 2vw;
 }
 
@@ -300,6 +301,7 @@ video {
     font-weight: 400;
     font-size: 1.6vw;
 }
+
 
 /* === MISC === */
 span img {

@@ -5,7 +5,7 @@
 
 
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl !text-white flex-col justify-start  text-start t-slide">
+    <div class="flex  !text-white flex-col justify-around  text-start t-slide">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -17,20 +17,21 @@
                 <li>Develop understanding through inquiry</li>
             </ul>
         </div>
-
-        <div class="flex justify-between w-[50%] items-center">
-            <ul class="list-disc ">
-                <h2 class="t-title ">Keywords:</h2>
-                <li>Structures</li>
-                <li>Shapes</li>
-                <li>Square</li>
-                <li>Rectangle</li>
-            </ul>
-            <ul class="list-disc ">
-                <li>Triangle</li>
-                <li>Circle</li>
-                <li>Base</li>
-            </ul>
+        <div>
+            <h2 class="t-title ">Keywords:</h2>
+            <div class="flex justify-between w-[50%] items-center">
+                <ul class="list-disc ">
+                    <li>Structures</li>
+                    <li>Shapes</li>
+                    <li>Square</li>
+                    <li>Rectangle</li>
+                </ul>
+                <ul class="list-disc ">
+                    <li>Triangle</li>
+                    <li>Circle</li>
+                    <li>Base</li>
+                </ul>
+            </div>
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
@@ -38,7 +39,7 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl !text-white flex-col justify-start  text-start t-slide">
+    <div class="flex  !text-white flex-col justify-start  text-start t-slide">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
@@ -49,7 +50,7 @@
             </ul>
         </div>
         <div class="flex items-center gap-5">
-            <img src="/assets/images/N2/structure/str/st13.png"  />
+            <img src="/assets/images/N2/structure/str/st13.png" class="img-md" />
             <p>5 sets for square structure per
                 set of DDQ blocks.</p>
         </div>
@@ -58,7 +59,7 @@
 
 
     {{-- slide 3 --}}
-    <div class=" slide flex text-2xl !text-white flex-col items-start  justify-start gap-[3rem] text-start t-slide">
+    <div class="flex  !text-white flex-col items-start  justify-start gap-[3rem] text-start t-slide">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
@@ -67,10 +68,7 @@
                 <li>Print out the learning journals required.</li>
             </ul>
         </div>
-        <div class="flex items-center gap-5">
-            <img src="{{ asset('/assets/images/N2/structure/b-str/s30.png') }}" class="large-img4" />
-
-        </div>
+        <img src="{{ asset('/assets/images/N2/structure/b-str/s30.png') }}" class="img-sm" />
         <ul class="list-disc ">
             <li>Print out the learning journals required.</li>
         </ul>
@@ -79,7 +77,7 @@
     </div>
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl !text-white flex-col items-baseline  justify-start  text-start t-slide">
+    <div class="flex  !text-white flex-col items-baseline  justify-start  text-start t-slide">
         <div>
             <h2 class=" t-title">Things to note for Group Activity 1:</h2>
             <ul class="list-disc ">
@@ -91,9 +89,9 @@
             </ul>
         </div>
 
-        <div class="flex gap-2  items-end">
+        <div class="flex gap-[1vw]  items-end">
 
-            <img src="{{ asset('/assets/images/N2/structure/b-str/s31.png') }}" class="large-img" />
+            <img src="{{ asset('/assets/images/N2/structure/b-str/s31.png') }}" class="img-sm" />
             <p class="note">cube X 4 <br>
                 long rectangle piece X 2<br>
                 square piece X 1<br>
@@ -109,7 +107,7 @@
 
 
     {{-- sldie 6 --}}
-    <div class=" slide flex text-2xl !text-white flex-col justify-start  text-start t-slide">
+    <div class="flex  !text-white flex-col justify-center items-center  text-start t-slide">
         <div>
             <h2 class=" t-title">Useful Information:</h2>
             <ul class="list-disc ">
@@ -149,60 +147,76 @@
 
 
     {{-- sldie 7 --}}
-    <div class="slide flex t-slide  flex-col  text-2xl text-start !text-white">
+    <div class=" t-slide text-start !text-white !w-[53vw] flex items-center">
         <div>
-            <h2 class="t-title">Notes:</h2>
-            <ul class="list-disc">
-                <li class="flex whitespace-nowrap">
-                    If you see
-                    <span class="info-btn">
+            <h2 class="t-title ">Notes:</h2>
+            <ul class="list-disc space-y-3">
+                <li>
+                    <span class="relative">
+                        If you see <span class="opacity-0">---</span>next to a picture, click on the picture to watch the
+                        video.
+                        <img class="t-video-btn absolute top-[-1vw] left-[7.6vw]"
+                            src="{{ asset('assets/images/pptimages/video.png') }}" />
+                    </span>
+                </li>
 
-                        <img src="{{ asset('assets/images/pptimages/video.png') }}" />
+                <li>
+                    <span class="relative">
+                        If you see <span class="opacity-0">---</span> , click on it for additional information or activity.
+                        <img src="{{ asset('assets/images/pptimages/info-btn.png') }}"
+                            class="t-info-btn absolute top-[-1vw] left-[8vw]" />
                     </span>
-                    next to a picture, click on the picture to watch the video.
                 </li>
-                <li>Always ask questions to encourage children to think and share their ideas first before giving
-                    out
-                    any information.</li>
+
+                <li>
+                    Always ask questions to encourage children to think and share their ideas first before giving out
+                    any information.
+                </li>
+
                 <li>Emphasise and use the keywords during hands-on sessions.</li>
-                <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
+
+                <li>
+                    Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
                 </li>
-                <li class="flex whitespace-nowrap">
-                    Click on this shortcut icon
-                    <span> <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" class="home-btn" />
+
+                <li>
+                    <span class="relative">
+                        Click on this shortcut icon <span class="opacity-0">---</span> if you need to go to some parts of
+                        the lesson quickly.
+                        <img src="{{ asset('assets/images/pptimages/home-btn.png') }}"
+                            class="t-home-btn absolute top-0 left-[19vw]" />
                     </span>
-                    if you need to go to some parts of the lesson quickly.
                 </li>
+
             </ul>
         </div>
+
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- sldie 8 --}}
-    <div class="text-white flex flex-col items-center justify-center  text-start t-slide text-2xl slide hidden">
-        <h2 class=" title stroke">Learning Centre Idea</h2>
-        <div class="flex">
-            <div>
-                <ul>
-                    <h2 class="!text-white title stroke ">Big Vehicles</h2>
-                    <h2 class="t-title">What and how to set up:</h2>
-                    <li>
-                        Display pictures of various types of big vehicles such as dump truck,
-                        train, bus etc. Encourage children to create these vehicles using
-                        different combination of the construction toys e.g. use a mix of
-                        rectangle pieces and blocks OR use only the cubes.
-                    </li>
-                </ul>
-
-                <ul class="list-decimal">
-                    <h2 class="t-title">What to do:</h2>
-                    <li>Encourage children to create a big vehicle.</li>
-                    <li>Encourage children to identify the shapes on the picture and
-                        pieces and blocks to form the shapes for their vehicles.</li>
-
-                </ul>
-            </div>
+    <div class="text-white flex flex-col justify-center  text-start t-slide  hidden">
+        <h2 class=" title stroke text-center">Learning Centre Idea</h2>
+        <div>
+            <h2 class="!text-white text-[2vw] stroke ">Big Vehicles</h2>
+            <h2 class="t-title">What and how to set up:</h2>
+            <ul>
+                <li>
+                    Display pictures of various types of big vehicles such as dump truck,
+                    train, bus etc. Encourage children to create these vehicles using
+                    different combination of the construction toys e.g. use a mix of
+                    rectangle pieces and blocks OR use only the cubes.
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2 class="t-title">What to do:</h2>
+            <ul class="list-decimal">
+                <li>Encourage children to create a big vehicle.</li>
+                <li>Encourage children to identify the shapes on the picture and
+                    pieces and blocks to form the shapes for their vehicles.</li>
+            </ul>
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" />
     </div>
@@ -250,7 +264,7 @@
 @push('script')
     <script>
         document.addEventListener("DOMContentLoaded", () => {
-            const slides = document.querySelectorAll(".slide");
+            const slides = document.querySelectorAll(".t-slide");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
             const doneButton = document.querySelector(".doneButton"); //   DONE button
@@ -262,7 +276,7 @@
                     slide.classList.toggle("hidden", i !== index);
                 });
 
-                //   Agar last slide hai → NEXT button hide, DONE show
+                //   Agar last hai → NEXT button hide, DONE show
                 if (index === slides.length - 1) {
                     nextButtons.forEach(btn => btn.classList.add("hidden"));
                     if (doneButton) doneButton.classList.remove("hidden");
@@ -295,7 +309,7 @@
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('Structures') }}";
+                    window.location.href = "{{ route('BigstructureSelection') }}";
                 });
             }
 

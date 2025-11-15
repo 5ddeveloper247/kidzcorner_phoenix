@@ -3,12 +3,14 @@
 
 @section('content')
 
+    {{-- title --}}
+    <h2 class="top-title stroke">What is an Electronic Circuit</h2>
 
     {{-- Slide 1 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <div class="flex items-center gap-3">
-            <img src="{{ asset('assets/images/K2/circuit/ecity/e1.png') }}"  />
-            <img src="{{ asset('assets/images/K2/circuit/ecity/e6.png') }}"  />
+    <div class="slide flex flex-col items-center justify-center  ">
+        <div class="flex items-center gap-[1vw]">
+            <img src="{{ asset('assets/images/K2/circuit/ecity/e1.png') }}" class="img-sm" />
+            <img src="{{ asset('assets/images/K2/circuit/ecity/e6.png') }}" class="img-sm" />
         </div>
         <div class="title stroke">
             <h2>Children, what are these? <br>
@@ -20,9 +22,9 @@
 
     {{-- Slide 2 --}}
     <div class="slide hidden flex flex-col items-center">
-        <div class="flex items-center gap-3">
-            <img src="{{ asset('assets/images/K2/circuit/ecity/e1.png') }}"  />
-            <img src="{{ asset('assets/images/K2/circuit/ecity/e6.png') }}"  />
+        <div class="flex items-center gap-[1vw]">
+            <img src="{{ asset('assets/images/K2/circuit/ecity/e1.png') }}" class="img-sm" />
+            <img src="{{ asset('assets/images/K2/circuit/ecity/e6.png') }}" class="img-sm" />
         </div>
         <h2 class="title stroke">These are different machines around us. <br>
             They help us do work easily and save our time.</h2>
@@ -30,20 +32,20 @@
 
 
     {{-- Slide 3 --}}
-    <div class="slide hidden  flex flex-col items-center gap-y-4 ">
-        <div class="flex items-center gap-3">
-            <img src="{{ asset('assets/images/K2/circuit/ecity/e1.png') }}"  />
-            <img src="{{ asset('assets/images/K2/circuit/ecity/e6.png') }}"  />
+    <div class="slide hidden  flex flex-col items-center ">
+        <div class="flex items-center gap-[1vw]">
+            <img src="{{ asset('assets/images/K2/circuit/ecity/e1.png') }}" class="img-sm" />
+            <img src="{{ asset('assets/images/K2/circuit/ecity/e6.png') }}" class="img-sm" />
         </div>
-        <h2 class="title stroke text-center">Many machines need the power of electricity to do work. <br>
+        <h2 class="title stroke text-center">Many machines need the power of electricity to do work. 
             These machines can also be called electronics.</h2>
     </div>
 
     {{-- slide 4 --}}
-    <div class="slide hidden  flex flex-col items-center gap-y-4 ">
-        <div class="flex items-end gap-3">
-            <img src="{{ asset('assets/images/K2/circuit/ecity/e1.png') }}"  />
-            <img src="{{ asset('assets/images/K2/circuit/ecity/e2.png') }}"  />
+    <div class="slide hidden  flex flex-col items-center ">
+        <div class="flex items-end gap-[1vw]">
+            <img src="{{ asset('assets/images/K2/circuit/ecity/e1.png') }}" class="img-sm" />
+            <img src="{{ asset('assets/images/K2/circuit/ecity/e2.png') }}" class="img-sm" />
         </div>
         <h2 class="title stroke text-center">Some electronics get electricity when its plug is inserted into
             a socket and the switch is turned on.</h2>
@@ -54,7 +56,7 @@
 
     {{-- Slide 5 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/circuit/ecity/e11.png') }}" />
+        <img src="{{ asset('assets/images/K2/circuit/ecity/e11.png') }}" class="img-xl" />
         <h2 class="title stroke">Some other electronics get electricity from the battery
             or batteries in them when its switch is turned on.</h2>
         <p class="note">Note: Have children name some other electronics that powered by the batteries in them.</p>
@@ -62,8 +64,8 @@
 
 
     {{-- slide 6 --}}
-    <div class="slide hidden flex flex-col items-center gap-3 ">
-        <video id="video1" class="video1 pointer-events-none">
+    <div class="slide hidden flex flex-col items-center gap-[1vw] ">
+        <video id="video1" class=" pointer-events-none">
             <source src="{{ asset('assets/images/K2/circuit/ecity/309.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -79,16 +81,16 @@
 
 
     {{-- slide 7 --}}
-    <div class="slide hidden flex flex-col items-center gap-3 ">
-        <img src="{{ asset('assets/images/K2/circuit/ecity/e12.png') }}" class="!w-[50vw]"/>
+    <div class="slide hidden flex flex-col items-center">
+        <img src="{{ asset('assets/images/K2/circuit/ecity/e12.png') }}" class="img-lg" />
         <h2 class="title stroke">For electricity to flow from the batteries to the light bulb,
             it goes through a path called circuit.</h2>
     </div>
 
 
     {{-- slide 8 --}}
-    <div class="slide hidden flex flex-col items-center gap-3 ">
-        <img src="{{ asset('assets/images/K2/circuit/ecity/e13.png') }}" />
+    <div class="slide hidden flex flex-col items-center">
+        <img src="{{ asset('assets/images/K2/circuit/ecity/e13.png') }}" class="img-lg" />
         <h2 class="title stroke">This is the drawing of a simple circuit.
             Electricity flows from one end of a battery to the light bulb
             and back to the other end of the battery.</h2>
@@ -96,15 +98,15 @@
 
 
     {{-- slide 9 --}}
-    <div class="slide hidden flex flex-col items-center gap-3 ">
-        <img src="{{ asset('assets/images/K2/circuit/ecity/e14.png') }}" />
+    <div class="slide hidden flex flex-col items-center">
+        <img src="{{ asset('assets/images/K2/circuit/ecity/e14.png') }}" class="img-xl" />
         <h2 class="title stroke">The pathway in between a battery and a light bulb
             is usually made up of wires.</h2>
     </div>
 
     {{-- slide 10 --}}
-    <div class="slide hidden flex flex-col items-center gap-3 ">
-        <img src="{{ asset('assets/images/K2/circuit/ecity/e15.png') }}" />
+    <div class="slide hidden flex flex-col items-center">
+        <img src="{{ asset('assets/images/K2/circuit/ecity/e15.png') }}" class="img-xl" />
         <h2 class="title stroke">A wire consists of pieces of metal,
             which heat up when electricity flows through them.
             For your safety, don't hold on to a wire that is working!</h2>
@@ -114,8 +116,8 @@
 
 
     {{-- slide 11 --}}
-    <div class="slide hidden flex flex-col items-center gap-3 ">
-        <img src="{{ asset('assets/images/K2/circuit/ecity/e16.png') }}" />
+    <div class="slide hidden flex flex-col items-center">
+        <img src="{{ asset('assets/images/K2/circuit/ecity/e16.png') }}" class="img-lg"/>
         <h2 class="title stroke">Electricity has to flow in a circuit, repeating the flow over
             and over again to keep the light bulb lighted up.!</h2>
         <p class="note">Note: A circuit is somewhat like a sports track, which starts and ends in the same place.</p>
@@ -123,8 +125,8 @@
 
 
     {{-- slide 12 --}}
-    <div class="slide hidden flex flex-col items-center gap-3 ">
-        <img src="{{ asset('assets/images/K2/circuit/ecity/e17.png') }}" />
+    <div class="slide hidden flex flex-col items-center">
+        <img src="{{ asset('assets/images/K2/circuit/ecity/e17.png') }}" class="img-lg" />
         <h2 class="title stroke">To be able to turn electricity on or off,
             a switch is added to this circuit.</h2>
     </div>
@@ -132,8 +134,8 @@
 
 
     {{-- slide 13 --}}
-    <div class="slide hidden flex flex-col items-center gap-3 ">
-        <img src="{{ asset('assets/images/K2/circuit/ecity/e18.png') }}" />
+    <div class="slide hidden flex flex-col items-center">
+        <img src="{{ asset('assets/images/K2/circuit/ecity/e18.png') }}" class="img-lg" />
         <h2 class="title stroke">When the switch is turned on, electricity flows smoothly.
             This is called a complete circuit or closed circuit.</h2>
     </div>
@@ -142,7 +144,7 @@
 
     {{-- slide 14 --}}
     <div class="slide hidden flex flex-col items-center ">
-        <img src="{{ asset('assets/images/K2/circuit/ecity/e19.png') }}" />
+        <img src="{{ asset('assets/images/K2/circuit/ecity/e19.png') }}" class="img-lg" />
         <h2 class="title stroke">When the switch is turned off, the path is broken and so electricity
             stops flowing. This is called a broken circuit or open circuit.</h2>
     </div>
@@ -150,14 +152,14 @@
 
     {{-- slide 15 --}}
     <div class="slide hidden flex flex-col items-center ">
-        <img src="{{ asset('assets/images/K2/circuit/ecity/e16.png') }}" />
+        <img src="{{ asset('assets/images/K2/circuit/ecity/e16.png') }}" class="img-lg" />
         <h2 class="title stroke">When the switch is turned off, the path is broken and so electricity
             stops flowing. This is called a broken circuit or open circuit.</h2>
     </div>
 
     {{-- slide 16 --}}
     <div class="slide hidden flex flex-col items-center ">
-        <img src="{{ asset('assets/images/K2/circuit/ecity/e16.png') }}" />
+        <img src="{{ asset('assets/images/K2/circuit/ecity/e16.png') }}" class="img-lg" />
         <h2 class="title stroke">This complete circuit is made up of 3 parts:
             a battery, a light bulb and some wires.</h2>
         <p class="note">Note: Have children point out each part.</p>
@@ -166,7 +168,7 @@
 
     {{-- slide 17 --}}
     <div class="slide hidden flex flex-col items-center ">
-        <img src="{{ asset('assets/images/K2/circuit/ecity/e17.png') }}" />
+        <img src="{{ asset('assets/images/K2/circuit/ecity/e17.png') }}" class="img-lg" />
         <h2 class="title stroke">And this complete circuit is made up of 4 parts:
             a battery, a light bulb, a switch and some wires.</h2>
         <p class="note">Note: Have children point out each part.</p>
@@ -176,7 +178,7 @@
     {{-- slide 18 --}}
     <div class="slide hidden flex flex-col items-center  ">
         <h2 class="!text-white title stroke">Hands-on Time </h2>
-        <img src="{{ asset('assets/images/K2/circuit/ecity/e20.png') }}" class="large-img"  />
+        <img src="{{ asset('assets/images/K2/circuit/ecity/e20.png') }}" class="img-md" />
         <h2 class="title stroke text-start">Mission: <br>
             Which machine around you uses electricity to work? Find one
             and share with the class.</h2>
@@ -190,7 +192,7 @@
             <h2>Steps:</h2>
             <li>1. Name these basic circuit parts.</li>
         </ul>
-        <img src="{{ asset('assets/images/K2/circuit/ecity/e21.png') }}" />
+        <img src="{{ asset('assets/images/K2/circuit/ecity/e21.png') }}" class="img-xl" />
         <p class="note">Note: Guide children to name these basic circuit parts.</p>
     </div>
 
@@ -201,27 +203,27 @@
             <li>2. How do you form a simple circuit with these parts?
                 Show it to your friends.</li>
         </ul>
-        <img src="{{ asset('assets/images/K2/circuit/ecity/e21.png') }}" />
+        <img src="{{ asset('assets/images/K2/circuit/ecity/e21.png') }}" class="img-xl" />
         <p class="note">Note: Give children enough time to take turns form a simple circuit and share their findings in
             groups.</p>
     </div>
 
     {{-- slide 21 --}}
     <div class="slide hidden flex flex-col items-center gap-5">
-        <img src="{{ asset('assets/images/K2/circuit/ecity/e22.png') }}" />
+        <img src="{{ asset('assets/images/K2/circuit/ecity/e22.png') }}" class="img-lg" />
         <h2 class="title stroke">Did you manage to form a complete circuit like this?</h2>
         <p class="note">Note: A complete circuit will make the LED light up.</p>
     </div>
 
     {{-- slide 22 --}}
     <div class="slide hidden flex flex-col items-center gap-5">
-        <img src="{{ asset('assets/images/K2/circuit/ecity/e22.png') }}" />
+        <img src="{{ asset('assets/images/K2/circuit/ecity/e22.png') }}" class="img-lg" />
         <h2 class="title stroke">Why is this LED not lighted up?</h2>
         <p class="note">Note: Guide children to share their views and demo to find out the reason.</p>
     </div>
 
     {{-- slide 23 --}}
-    <div class="slide hidden flex flex-col items-center h-full justify-between ">
+    <div class="slide hidden flex flex-col items-center h-[28vw] justify-between ">
         <ul class="text-start list-disc title stroke">
             <h2>Do you realise that:</h2>
             <li>Playdough allows electricity to pass through it.</li>
@@ -237,7 +239,7 @@
 
 
     {{-- slide 24 --}}
-    <div class="slide hidden flex flex-col items-center gap-3 ">
+    <div class="slide hidden flex flex-col items-center">
         <video id="video2" class="video1 pointer-events-none">
             <source src="{{ asset('assets/images/K2/circuit/ecity/311.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
@@ -251,7 +253,7 @@
     </div>
 
     {{-- slide 25 --}}
-    <div class="slide hidden flex flex-col items-center gap-3 ">
+    <div class="slide hidden flex flex-col items-center">
         <video id="video3" class="video1 pointer-events-none">
             <source src="{{ asset('assets/images/K2/circuit/ecity/312.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
@@ -266,13 +268,13 @@
 
 
     {{-- slide 26 --}}
-    <div class="slide hidden flex flex-col items-center gap-3 ">
+    <div class="slide hidden flex flex-col items-center">
         <video id="video4" class="video1 pointer-events-none">
             <source src="{{ asset('assets/images/K2/circuit/ecity/313.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
-        <h2 class="title stroke">The LED will only light up when its long leg is connected <br>
-            to the positive end (+) and the short leg is connected <br>
+        <h2 class="title stroke">The LED will only light up when its long leg is connected
+            to the positive end (+) and the short leg is connected
             to the negative end (-) of the battery.</h2>
         <p class="note">Note: For safety reason, don't show this because the LED gets burnt easily and its legs are hot.
         </p>
@@ -283,7 +285,7 @@
     </div>
 
     {{-- slide 27 --}}
-    <div class="slide hidden flex flex-col items-center gap-3 ">
+    <div class="slide hidden flex flex-col items-center">
         <video id="video5" class="video1 pointer-events-none">
             <source src="{{ asset('assets/images/K2/circuit/ecity/314.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
@@ -298,12 +300,12 @@
 
 
     {{-- slide 28 --}}
-    <div class="slide hidden flex flex-col items-center gap-3 ">
+    <div class="slide hidden flex flex-col items-center">
         <video id="video6" class="video1 pointer-events-none">
             <source src="{{ asset('assets/images/K2/circuit/ecity/314.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
-        <h2 class="title stroke">Therefore, it shows that <br>
+        <h2 class="title stroke">Therefore, it shows that
             the red wire represents the positive end (+) and
             he black wire represents the negative end (-) of the battery</h2>
         <!-- Video Trigger Button -->
@@ -315,8 +317,8 @@
     {{-- slide 29 --}}
     <div class="slide hidden flex flex-col items-center ">
         <div class="flex items-center gap-5">
-            <img src="{{ asset('assets/images/K2/circuit/ecity/e22.png') }}" class="w-[400px]" />
-            <img src="{{ asset('assets/images/K2/circuit/ecity/e13.png') }}" class="w-[400px]" />
+            <img src="{{ asset('assets/images/K2/circuit/ecity/e22.png') }}" class="img-sm" />
+            <img src="{{ asset('assets/images/K2/circuit/ecity/e13.png') }}" class="img-sm" />
         </div>
         <h2 class="title stroke">This activity is the real case of this simple circuit.</h2>
     </div>
@@ -383,7 +385,7 @@
 
             // CONFIGURE YOUR ROUTES HERE
             const returnRouteFromFirstSlide = "{{ route('circuitSelection') }}";
-            const doneButtonRoute = "{{ route('circuitSelection') }}";
+            const doneButtonRoute = "{{ route('k2ElectronicCircuits') }}";
 
             // Pause all videos when changing slides
             function pauseAllVideos() {

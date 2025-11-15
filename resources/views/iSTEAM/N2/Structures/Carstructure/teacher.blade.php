@@ -6,7 +6,7 @@
     <h2 class="top-title stroke">Structure of a Car</h2>
 
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl !text-white flex-col justify-start  text-start t-slide">
+    <div class="flex !text-white flex-col justify-around  text-start t-slide">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -39,7 +39,7 @@
 
 
     {{-- slide 3 --}}
-    <div class=" slide flex text-2xl !text-white flex-col items-start  justify-start  text-start t-slide">
+    <div class="flex !text-white flex-col items-start  justify-around  text-start t-slide">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
@@ -61,7 +61,7 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl !text-white flex-col items-center  justify-start  text-start t-slide">
+    <div class="flex !text-white flex-col items-center  justify-between  text-start t-slide">
         <div>
             <h2 class=" t-title">Things to note for Group Activity:</h2>
             <ul class="list-disc ">
@@ -84,68 +84,79 @@
 
 
     {{-- sldie 7 --}}
-    <div class="slide flex t-slide  flex-col  text-2xl text-start !text-white">
+    <div class=" t-slide text-start flex justify-center items-center !text-white !w-[53vw]">
         <div>
-            <h2 class="t-title">Notes:</h2>
-            <ul class="list-disc">
-                <li class="flex whitespace-nowrap">
-                    If you see
-                    <span class="info-btn">
+            <h2 class="t-title ">Notes:</h2>
+            <ul class="list-disc space-y-3">
+                <li>
+                    <span class="relative">
+                        If you see <span class="opacity-0">---</span>next to a picture, click on the picture to watch the
+                        video.
+                        <img class="t-video-btn absolute top-[-1vw] left-[7.6vw]"
+                            src="{{ asset('assets/images/pptimages/video.png') }}" />
+                    </span>
+                </li>
 
-                        <img src="{{ asset('assets/images/pptimages/video.png') }}" />
+                <li>
+                    <span class="relative">
+                        If you see <span class="opacity-0">---</span> , click on it for additional information or activity.
+                        <img src="{{ asset('assets/images/pptimages/info-btn.png') }}"
+                            class="t-info-btn absolute top-[-1vw] left-[8vw]" />
                     </span>
-                    next to a picture, click on the picture to watch the video.
                 </li>
-                <li class="flex whitespace-nowrap">
-                    If you see
-                    <span> <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="video-btn" />
-                    </span>
-                    , click on it for additional information or activity.
+
+                <li>
+                    Always ask questions to encourage children to think and share their ideas first before giving out
+                    any information.
                 </li>
-                <li>Always ask questions to encourage children to think and share their ideas first before giving
-                    out
-                    any information.</li>
+
                 <li>Emphasise and use the keywords during hands-on sessions.</li>
-                <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
+
+                <li>
+                    Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
                 </li>
-                <li class="flex whitespace-nowrap">
-                    Click on this shortcut icon
-                    <span> <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" class="home-btn" />
+
+                <li>
+                    <span class="relative">
+                        Click on this shortcut icon <span class="opacity-0">---</span> if you need to go to some parts of
+                        the lesson quickly.
+                        <img src="{{ asset('assets/images/pptimages/home-btn.png') }}"
+                            class="t-home-btn absolute top-0 left-[19vw]" />
                     </span>
-                    if you need to go to some parts of the lesson quickly.
                 </li>
+
             </ul>
         </div>
+
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
 
     {{-- sldie 8 --}}
-    <div class="text-white flex flex-col items-center justify-center  text-start t-slide text-2xl slide hidden">
-        <h2 class=" title stroke">Learning Centre Idea</h2>
-        <div class="flex">
-            <div>
-                <ul>
-                    <h2 class="!text-white title stroke">My Car Goes Vroom</h2>
-                    <h2 class="t-title">What and how to set up:</h2>
-                    <li>
-                        Display pictures of various types of cars such as sports car, racing car,
-                        jeep, convertible etc. Provide blocks and cardboards for children to
-                        create ramps and roads to test out their cars.
-                    </li>
-                </ul>
-
-                <ul class="list-decimal">
-                    <h2 class="t-title">What to do:</h2>
-                    <li>Encourage children to create a car of their own design by
-                        drawing inspiration from the pictures.</li>
-                    <li>Let children test their cars on ramps and challenge each other
-                        on their cars' speed.</li>
-                    <li>Encourage children to reconstruct their cars to make it better
-                        after testing.</li>
-                </ul>
-            </div>
+    <div class="text-white flex flex-col  justify-center  text-start t-slide hidden">
+        <h2 class=" title stroke text-center">Learning Centre Idea</h2>
+        <div>
+            <h2 class="!text-white text-[2vw] stroke">My Car Goes Vroom</h2>
+            <h2 class="t-title">What and how to set up:</h2>
+            <ul>
+                <li>
+                    Display pictures of various types of cars such as sports car, racing car,
+                    jeep, convertible etc. Provide blocks and cardboards for children to
+                    create ramps and roads to test out their cars.
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2 class="t-title">What to do:</h2>
+            <ul class="list-decimal">
+                <li>Encourage children to create a car of their own design by
+                    drawing inspiration from the pictures.</li>
+                <li>Let children test their cars on ramps and challenge each other
+                    on their cars' speed.</li>
+                <li>Encourage children to reconstruct their cars to make it better
+                    after testing.</li>
+            </ul>
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" />
     </div>
@@ -196,7 +207,7 @@
 @push('script')
     <script>
         document.addEventListener("DOMContentLoaded", () => {
-            const slides = document.querySelectorAll(".slide");
+            const slides = document.querySelectorAll(".t-slide");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
             const doneButton = document.querySelector(".doneButton"); //   DONE button
@@ -241,7 +252,7 @@
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('Structures') }}";
+                    window.location.href = "{{ route('CarstructureSelection') }}";
                 });
             }
 
