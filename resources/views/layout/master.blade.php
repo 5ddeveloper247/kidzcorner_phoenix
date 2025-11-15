@@ -79,7 +79,7 @@
     <section class="w-full h-screen relative flex items-center justify-center bg-[#FBF0D0] overflow-hidden">
 
         <div id="ajax-section"
-            class="flex items-center justify-center relative text-center px-[4vw] py-[5vw] h-[43.438vw] w-[74vw] md:bg-cover bg-no-repeat bg-center"
+            class="flex  justify-center relative text-center px-[4vw] py-[5vw] h-[43.438vw] w-[74vw] md:bg-cover bg-no-repeat bg-center"
             style="background-image: url('{{ asset('assets/images/pptimages/stoneboard.png') }}');">
             @yield('content')
         </div>

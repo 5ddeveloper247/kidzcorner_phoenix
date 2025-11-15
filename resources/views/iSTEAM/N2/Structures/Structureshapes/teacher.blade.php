@@ -2,8 +2,11 @@
 @section('title', 'Dynamic Presentation')
 
 @section('content')
+    {{-- title --}}
+    <h2 class="top-title stroke">Structures in Shapes</h2>
+
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl !text-white flex-col justify-start text-start t-slide">
+    <div class="flex  !text-white flex-col justify-start text-start t-slide">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -14,20 +17,21 @@
                 <li>Develop understanding through inquiry</li>
             </ul>
         </div>
-
-        <div class="flex justify-between w-[50%] items-center">
-            <ul class="list-disc ">
-                <h2 class="t-title ">Keywords:</h2>
-                <li>Structures</li>
-                <li>Shapes</li>
-                <li>Square</li>
-                <li>Rectangle</li>
-            </ul>
-            <ul class="list-disc ">
-                <li>Triangle</li>
-                <li>Circle</li>
-                <li>Base</li>
-            </ul>
+        <div>
+            <h2 class="t-title ">Keywords:</h2>
+            <div class="flex justify-between w-[50%] items-center">
+                <ul class="list-disc ">
+                    <li>Structures</li>
+                    <li>Shapes</li>
+                    <li>Square</li>
+                    <li>Rectangle</li>
+                </ul>
+                <ul class="list-disc ">
+                    <li>Triangle</li>
+                    <li>Circle</li>
+                    <li>Base</li>
+                </ul>
+            </div>
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
@@ -35,7 +39,7 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl !text-white flex-col items-center  justify-start text-start t-slide">
+    <div class="flex  !text-white flex-col items-center  justify-start text-start t-slide">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
@@ -45,7 +49,7 @@
                     accurate.</li>
             </ul>
         </div>
-        <img src="{{ asset('/assets/images/N2/structure/str2/s25.png') }}" />
+        <img src="{{ asset('/assets/images/N2/structure/str2/s25.png') }}" class="img-lg" />
 
         <ul class="list-disc ">
             <li>3-5 children can work together comfortably with 1 box of DDQ blocks.</li>
@@ -57,7 +61,7 @@
 
 
     {{-- slide 3 --}}
-    <div class=" slide flex text-2xl !text-white flex-col items-start  justify-start gap-[3rem] text-start t-slide">
+    <div class="flex  !text-white flex-col items-start  justify-start gap-[3rem] text-start t-slide">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
@@ -66,10 +70,8 @@
                 <li>Print out the learning journals required.</li>
             </ul>
         </div>
-        <div class="flex items-center gap-5">
-            <img src="{{ asset('/assets/images/N2/structure/str2/s26.png') }}" />
+        <img src="{{ asset('/assets/images/N2/structure/str2/gl.png') }}" class="img-xl" />
 
-        </div>
         <ul class="list-disc ">
             <li>Print out the learning journals required.</li>
         </ul>
@@ -78,33 +80,38 @@
     </div>
 
     {{-- sldie 4 --}}
-    <div class=" slide flex text-2xl !text-white flex-col justify-start items-start text-start t-slide">
+    <div class="flex  !text-white flex-col justify-start items-start gap-[3vw] text-start t-slide">
         <div>
             <h2 class=" t-title">Things to consider during hands-on sessions:</h2>
             <ul class="list-disc ">
                 <li>
-                    Do demonstrate to the children how they can connect the pieces together. <br>
-                    It may be hard to click the pieces to the connector in the beginning, teachers <br>
+                    Do demonstrate to the children how they can connect the pieces together.
+                    It may be hard to click the pieces to the connector in the beginning, teachers
                     please guide and assist the children.
                 </li>
                 <li>
-                    Ask questions to prompt children to share and try out their ideas. Some <br>
-                    possible questions are listed in the lesson, you may add on questions <br>
+                    Ask questions to prompt children to share and try out their ideas. Some
+                    possible questions are listed in the lesson, you may add on questions
                     based on children's responses.
-                </li> <br><br>
-                <h2 class=" t-title">Things to consider during Class Activity:</h2>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2 class=" t-title">Things to consider during Class Activity:</h2>
+            <ul class="list-disc">
                 <li>
-                    Encourage children to manipulate with the different pieces and <br>
-                    explore how they can fix the pieces together. Encourage children to <br>
-                    observe the shapes of the different pieces and how the pieces can be <br>
+                    Encourage children to manipulate with the different pieces and
+                    explore how they can fix the pieces together. Encourage children to
+                    observe the shapes of the different pieces and how the pieces can be
                     attached together.
                 </li>
                 <li>
-                    Encourage children to observe difference between the different types of <br>
-                    connectors and what shapes/pattern they can create with the different <br>
+                    Encourage children to observe difference between the different types of
+                    connectors and what shapes/pattern they can create with the different
                     connectors.
                 </li>
             </ul>
+
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
@@ -113,7 +120,7 @@
 
 
     {{-- sldie 5 --}}
-    <div class=" slide flex text-2xl !text-white flex-col justify-start text-start t-slide">
+    <div class="flex  !text-white flex-col justify-start text-start t-slide">
         <div>
             <h2 class=" t-title">Useful Information:</h2>
             <ul class="list-disc ">
@@ -133,7 +140,7 @@
                     How are tall buildings built? Who are involved in the construction
                     process? The two main designers of a building are the architects and the
                     engineers. Architects draw a plan (called a blueprint) to design the look and
-                    space of a building. <br>
+                    space of a building.
                     Engineers go through the plan to make the design functional and safe by
                     figuring out the right building structures to support the design and deciding
                     what materials must be used to make bring the architect's design to completion.
@@ -148,7 +155,7 @@
 
 
     {{-- sldie 6 --}}
-    <div class=" slide flex text-2xl !text-white flex-col justify-start text-start t-slide">
+    <div class="flex  !text-white flex-col justify-start text-start t-slide">
         <div>
             <h2 class=" t-title">Useful Information:</h2>
             <ul class="list-disc ">
@@ -184,57 +191,76 @@
 
 
     {{-- sldie 7 --}}
-    <div class="slide flex t-slide  flex-col  text-2xl text-start !text-white">
+    <div class=" t-slide text-start !text-white !w-[53vw]">
         <div>
-            <h2 class="t-title">Notes:</h2>
-            <ul class="list-disc">
-                <li class="flex whitespace-nowrap">
-                    If you see
-                    <span class="info-btn">
+            <h2 class="t-title ">Notes:</h2>
+            <ul class="list-disc space-y-3">
+                <li>
+                    <span class="relative">
+                        If you see <span class="opacity-0">---</span>next to a picture, click on the picture to watch the
+                        video.
+                        <img class="t-video-btn absolute top-[-1vw] left-[7.6vw]"
+                            src="{{ asset('assets/images/pptimages/video.png') }}" />
+                    </span>
+                </li>
 
-                        <img src="{{ asset('assets/images/pptimages/video.png') }}" />
+                <li>
+                    <span class="relative">
+                        If you see <span class="opacity-0">---</span> , click on it for additional information or activity.
+                        <img src="{{ asset('assets/images/pptimages/info-btn.png') }}"
+                            class="t-info-btn absolute top-[-1vw] left-[8vw]" />
                     </span>
-                    next to a picture, click on the picture to watch the video.
                 </li>
-                <li>Always ask questions to encourage children to think and share their ideas first before giving
-                    out
-                    any information.</li>
+
+                <li>
+                    Always ask questions to encourage children to think and share their ideas first before giving out
+                    any information.
+                </li>
+
                 <li>Emphasise and use the keywords during hands-on sessions.</li>
-                <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
+
+                <li>
+                    Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
                 </li>
-                <li class="flex whitespace-nowrap">
-                    Click on this shortcut icon
-                    <span> <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" class="home-btn" />
+
+                <li>
+                    <span class="relative">
+                        Click on this shortcut icon <span class="opacity-0">---</span> if you need to go to some parts of
+                        the lesson quickly.
+                        <img src="{{ asset('assets/images/pptimages/home-btn.png') }}"
+                            class="t-home-btn absolute top-0 left-[19vw]" />
                     </span>
-                    if you need to go to some parts of the lesson quickly.
                 </li>
+
             </ul>
         </div>
+
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
 
-    {{-- sldie 8 --}}
-    <div class="text-white flex flex-col items-center justify-center text-start t-slide text-2xl slide hidden">
-        <h2 class=" title stroke">Learning Centre Idea</h2>
-        <div class="flex">
-            <div class="space-y-20">
-                <ul>
-                    <h2 class="!text-white title stroke">Let’s Create a Shape</h2>
-                    <h2 class="t-title">What and how to set up:</h2>
-                    <li>Place a sample of a square structure at the corner. Put a poster of
-                        a square to show that square has 4 equal sides. Challenge children to build a square bigger than the
-                        displayed structure.</li>
-                </ul>
 
-                <ul class="list-decimal">
-                    <h2 class="t-title">What to do:</h2>
-                    <li>Invite children to choose one of the pictures.</li>
-                    <li>Encourage children to use the construction set to create a shape
-                        structure like the one in the picture.</li>
-                </ul>
-            </div>
+    {{-- sldie 8 --}}
+    <div class="text-white flex flex-col items-center justify-center text-start t-slide  hidden">
+        <h2 class=" title stroke">Learning Centre Idea</h2>
+        <div>
+            <h2 class="!text-white text-[2vw] stroke">Let’s Create a Shape</h2>
+            <h2 class="t-title">What and how to set up:</h2>
+            <ul>
+                <li>Place a sample of a square structure at the corner. Put a poster of
+                    a square to show that square has 4 equal sides. Challenge children to build a square bigger than the
+                    displayed structure.</li>
+            </ul>
+        </div>
+        <div>
+
+            <h2 class="t-title">What to do:</h2>
+            <ul class="list-decimal">
+                <li>Invite children to choose one of the pictures.</li>
+                <li>Encourage children to use the construction set to create a shape
+                    structure like the one in the picture.</li>
+            </ul>
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" />
     </div>
@@ -285,7 +311,7 @@
 @push('script')
     <script>
         document.addEventListener("DOMContentLoaded", () => {
-            const slides = document.querySelectorAll(".slide");
+            const slides = document.querySelectorAll(".t-slide");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
             const doneButton = document.querySelector(".doneButton"); //   DONE button
@@ -321,7 +347,7 @@
             returnButton.addEventListener("click", () => {
                 if (currentSlide === 0) {
                     // Redirect to route when on first slide
-                    window.location.href = "{{ route('structureSelection') }}";
+                    window.location.href = "{{ route('StructureshapesSelection') }}";
                 } else if (currentSlide > 0) {
                     currentSlide--;
                     showSlide(currentSlide);
@@ -330,7 +356,7 @@
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('Structures') }}";
+                    window.location.href = "{{ route('StructureshapesSelection') }}";
                 });
             }
 

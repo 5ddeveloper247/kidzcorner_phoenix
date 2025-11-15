@@ -3,12 +3,12 @@
 
 @section('content')
     {{-- title --}}
-    <h2 class="top-title stroke">Programme A Robot 1</h2>
+    <h2 class="top-title stroke">Programme A Robot 5</h2>
 
 
 
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl !text-white flex-col justify-start text-start t-slide ">
+    <div class="flex !text-white flex-col justify-start text-start t-slide ">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -49,7 +49,7 @@
 
 
     {{-- slide 2 --}}
-    <div class="slide hidden flex flex-col justify-start text-start t-slide text-2xl !text-white">
+    <div class="hidden flex flex-col justify-start items-center text-start t-slide !text-white">
         <div class="flex flex-col">
             <ul class="list-disc">
                 <h2 class=" t-title ">Preparations:</h2>
@@ -57,16 +57,19 @@
                     expression programming cards, a record card, a play card and the mats.</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/N2/BasicCoding/rb19.png') }}" class="large-img" />
+        <div class="flex items-center gap-[1vw] justify-center">
+            <img src="{{ asset('assets/images/N2/BasicCoding/rb19.png') }}" class="img-xs" />
+            <img src="{{ asset('assets/images/N2/BasicCoding/rb20.png') }}" class="img-sm" />
+        </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
-        <p class="note">Note: Refer to the teacher’s mode of Lesson 1 for guide on what you need to know
+        <p class="note text-center">Note: Refer to the teacher’s mode of Lesson 1 for guide on what you need to know
             and do before the lesson.</p>
     </div>
 
 
 
     {{-- lide 3 --}}
-    <div class="slide hidden flex flex-col justify-start text-start t-slide text-2xl !text-white">
+    <div class="hidden flex flex-col justify-start items-center text-start t-slide !text-white">
         <div class="flex flex-col">
             <ul class="list-disc">
                 <h2 class=" t-title ">Preparations:</h2>
@@ -74,48 +77,41 @@
                     provided in the kit.</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/N2/BasicCoding/rb21.png') }}" class="large-img3" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/rb21.png') }}" class="img-xs" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
     </div>
 
 
     {{-- slide 4  --}}
-    <div class="slide hidden flex flex-col justify-start text-start t-slide text-2xl !text-white">
-        <div class="flex flex-col">
+    <div class="hidden flex flex-col justify-start text-start t-slide !text-white">
+        <div>
+            <h2 class=" t-title ">When the hands-on session starts, guide each group of children to:</h2>
             <ul class="list-disc">
-                <h2 class=" t-title ">Preparations:</h2>
-                <li>For hands-on session 2, each group a character mat, 5 picture mats and
-                    7 lawn mats (as shown)</li>
+                <li>Discuss and come up with ideas for their story/design of the maze.</li>
+                <li>Set up their maze and test it out. Advise them to modify their design
+                    if needed (there are limited programming cards, so make sure that not
+                    too many steps is required for each programme). </li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/N2/BasicCoding/rb17.png') }}" class="large-img3" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
-    </div>
-
-
-    {{-- slide 5 --}}
-    <div class="slide hidden flex flex-col justify-start text-start t-slide text-2xl !text-white">
-        <div class="flex flex-col">
+        <div>
+            <h2 class="t-title">At the end of the hands-on session:</h2>
             <ul class="list-disc">
-                <h2 class=" t-title ">Preparations:</h2>
-                <li>For hands-on session 3, each group 4 character mat, 9 picture mats and
-                    7 lawn mats (children will repeat hands-on sessions 1 & 2 by replacing the character mat)</li>
+                <li>Have the children try out the newly-created games from other groups.</li>
+
             </ul>
+
         </div>
-        <div class="flex items-center gap-10">
-            <img src="{{ asset('assets/images/N2/BasicCoding/tb15.png') }}" class="large-img4" />
-            <img src="{{ asset('assets/images/N2/BasicCoding/rb17.png') }}" class="large-img4" />
-        </div>
+
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
     </div>
 
 
 
     {{-- slide 6 --}}
-    <div class="slide hidden flex justify-start text-start t-slide text-2xl !text-white">
-        <div class="space-y-10">
+    <div class="hidden flex justify-start text-start t-slide !text-white">
+        <div>
+            <h2 class=" t-title ">Things to note during hands-on sessions:</h2>
             <ul class="list-disc">
-                <h2 class=" t-title ">Things to note during hands-on sessions:</h2>
                 <li>Conduct the hands-on sessions on the floor (to prevent the tools from being damaged by falling).</li>
                 <li>Hold the robot and the pen controller firmly when you use them (to prevent the tools from spoiling
                     easily).</li>
@@ -125,44 +121,53 @@
                 <li>Always encourage children to attempt on their own before prompting.</li>
                 <li>Repeat the hands-on sessions for children that need further practice.</li>
             </ul>
-            <ul class="list-disc">
-                <h2 class=" t-title ">Possible questions during hands-on sessions:</h2>
-                <li>Which programming card comes first/next?</li>
-            </ul>
+
         </div>
-        <div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
-        </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
     </div>
 
 
     {{-- slide 7 --}}
-    <div class="slide flex t-slide  flex-col  text-2xl text-start !text-white">
+    <div class=" t-slide text-start !text-white !w-[53vw]">
         <div>
-            <h2 class="t-title">Notes:</h2>
-            <ul class="list-disc">
-                <li class="flex whitespace-nowrap">
-                    If you see
-                    <span class="info-btn">
+            <h2 class="t-title ">Notes:</h2>
+            <ul class="list-disc space-y-3">
+                <li>
+                    <span class="relative">
+                        If you see <span class="opacity-0">---</span>next to a picture, click on the picture to watch the
+                        video.
+                        <img class="t-video-btn absolute top-[-1vw] left-[7.6vw]"
+                            src="{{ asset('assets/images/pptimages/video.png') }}" />
+                    </span>
+                </li>
 
-                        <img src="{{ asset('assets/images/pptimages/video.png') }}" />
-                    </span>
-                    next to a picture, click on the picture to watch the video.
+
+                <li>
+                    Always ask questions to encourage children to think and share their ideas first before giving out
+                    any information.
                 </li>
-                <li>Always ask questions to encourage children to think and share their ideas first before giving
-                    out
-                    any information.</li>
+
                 <li>Emphasise and use the keywords during hands-on sessions.</li>
-                <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
-                </li>
-                <li class="flex whitespace-nowrap">
-                    Click on this shortcut icon
-                    <span> <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" class="home-btn" />
+
+                <li>
+                    <span class="text-[#F8473A]">
+                        Remember to video shoot the hands-on process for
+                        documentations.
                     </span>
-                    if you need to go to some parts of the lesson quickly.
                 </li>
+
+                <li>
+                    <span class="relative">
+                        Click on this shortcut icon <span class="opacity-0">---</span> if you need to go to some parts of
+                        the lesson quickly.
+                        <img src="{{ asset('assets/images/pptimages/home-btn.png') }}"
+                            class="t-home-btn absolute top-0 left-[19vw]" />
+                    </span>
+                </li>
+
             </ul>
         </div>
+
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
@@ -216,7 +221,7 @@
 @push('script')
     <script>
         document.addEventListener("DOMContentLoaded", () => {
-            const slides = document.querySelectorAll(".slide");
+            const slides = document.querySelectorAll(".t-slide");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
             const doneButton = document.querySelector(".doneButton"); //   DONE button
@@ -261,7 +266,7 @@
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('BasicCoding') }}";
+                    window.location.href = "{{ route('Robot5Selection') }}";
                 });
             }
 
