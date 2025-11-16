@@ -7,18 +7,18 @@
     <h2 class="top-title stroke">What is Scratch Jr?</h2>
 
     {{-- sldie 1  --}}
-    <div class=" slide flex t-slide !text-white flex-col justify-start text-start">
+    <div class="flex t-slide !text-white flex-col justify-around text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
-                <li >Know that ScratchJr is an application that allows us to create our <br> own
+                <li>Know that ScratchJr is an application that allows us to create our <br> own
                     interactive stories and
                     games</li>
-                <li >Learn how to use ScratchJr to create a story by selecting a <br>background and two
+                <li>Learn how to use ScratchJr to create a story by selecting a <br>background and two
                     characters</li>
-                <li >Develop understanding through inquiry</li>
-                <li >Develop problem-solving skills</li>
-                <li >Learn to share and take turns</li>
+                <li>Develop understanding through inquiry</li>
+                <li>Develop problem-solving skills</li>
+                <li>Learn to share and take turns</li>
             </ul>
         </div>
 
@@ -26,10 +26,10 @@
             <h2 class="t-title">Keywords:</h2>
             <div>
                 <ul class="list-disc ">
-                    <li >ScratchJr (Application)</li>
-                    <li >Story</li>
-                    <li >Background</li>
-                    <li >Character</li>
+                    <li>ScratchJr (Application)</li>
+                    <li>Story</li>
+                    <li>Background</li>
+                    <li>Character</li>
                 </ul>
 
             </div>
@@ -40,43 +40,41 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl !text-white flex-col justify-start  items-center  text-start">
+    <div class="t-slide flex !text-white flex-col justify-start  items-center  text-start">
         <ul class="list-disc  ">
             <h2 class="font-bold t-title">Preparations:</h2>
-            <li >
+            <li>
                 The tablets (download ScratchJr application from App Store or Google Play for each tablet; charge all the
                 tablets before you start each lesson)
             </li>
         </ul>
-        <img class="w-[780px]" src="/assets/images/K2/coding/s6.png" />
+        <img src="{{ asset('/assets/images/K2/coding/s6.png') }}" class="img-lg" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl !text-white flex-col justify-start  items-center text-start">
-        <ul class="list-disc  ">
+    <div class="flex !text-white flex-col justify-start t-slide  items-center text-start">
+        <div>
             <h2 class="font-bold t-title">What you need to know or explore before the lesson:</h2>
-            <li >
-                Go through the Interface Guide in the application of ScratchJr to understand the
-                basic features of ScratchJr.
-            </li>
-        </ul>
+            <ul class="list-disc  ">
+                <li>
+                    Go through the Interface Guide in the application of ScratchJr to understand the
+                    basic features of ScratchJr.
+                </li>
+            </ul>
+        </div>
 
         <div class="flex gap-3  items-center justify-center">
 
-            <img class="!max-w-[13vw]" src="/assets/images/K2/coding/s35.png" />
+            <img class="img-md" src="{{ asset('/assets/images/K2/coding/s35.png') }}" />
 
-            <div>
-                <ul class="text-1xl !text-white text-start">
-                    <li >While going through the guide </li>
-                    <li >in the app, you may tap on </li>
-                    <li >each number to understand the </li>
-                    <li >use of each part.</li> <br>
-                    <li >You may <span class="title stroke !text-[1.8vw]">print out the
-                            guide </span> if you need it.</li>
+            <div class="text-[1.3vw] space-y-[1.3vw]">
+                <p> While going through the guide in the app, you may tap on each number to understand the use of each part.
+                </p>
+                <p>You may <span class="text-[#F7B94A] !text-[1.5vw]">print out the
+                        guide </span> if you need it.</p>
 
-                </ul>
             </div>
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
@@ -84,24 +82,24 @@
 
 
     {{-- slide 4 --}}
-    <div class=" slide flex text-2xl !text-white flex-col  justify-start text-start gap-[5rem]">
+    <div class="flex !text-white flex-col t-slide justify-around text-start">
 
         <div>
+            <h2 class="t-title">Reminders or advice during hands-on session:</h2>
             <ul class="list-disc !text-white">
 
-                <h2>Reminders or advice during hands-on session:</h2>
-                <li >Always hold a tablet with both your hands (to show your care and prevent the
+                <li>Always hold a tablet with both your hands (to show your care and prevent the
                     tools from spoiling easily).</li>
-                <li >Be patient and take turns when using the tablets.</li>
+                <li>Be patient and take turns when using the tablets.</li>
             </ul>
         </div>
 
         <div>
+            <h2 class="t-title">Possible questions during hands-on sessions:</h2>
             <ul class="!text-start list-disc">
-                <h2>Possible questions during hands-on sessions:</h2>
-                <li >What is the name of this application?</li>
-                <li >How do you add or change a background on your working stage?</li>
-                <li >How do you add or delete a character on your working stage?</li>
+                <li>What is the name of this application?</li>
+                <li>How do you add or change a background on your working stage?</li>
+                <li>How do you add or delete a character on your working stage?</li>
             </ul>
         </div>
 
@@ -110,41 +108,43 @@
 
 
     {{-- slide 5 --}}
-    <div class="slide flex t-slide  flex-col justify-start  text-2xl text-start !text-white">
-        <div class="flex w-[100%] items-center justify-between">
-            <div>
-                <h2 class=" t-title">Notes:</h2>
-                <ul class="list-disc leading-relaxed">
-                    <li>
-                    <span class="flex items-center whitespace-nowrap">
-                        If you see
-                        <span>
-                            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s27.png') }}"
-                                class="!max-w-[2.5vw]" />
-                        </span>
-                        next to a picture,click on the picture to watch the video.
+    <div class=" t-slide text-start flex items-center !text-white !w-[53vw]">
+        <div>
+            <h2 class="t-title ">Notes:</h2>
+            <ul class="list-disc space-y-3">
+                <li>
+                    <span class="relative">
+                        If you see <span class="opacity-0">---</span>next to a picture, click on the picture to watch the
+                        video.
+                        <img class="t-video-btn absolute top-[-1vw] left-[7.6vw]"
+                            src="{{ asset('assets/images/pptimages/video.png') }}" />
                     </span>
                 </li>
-                    <li >Always ask questions to encourage children to think and share their ideas first
-                        before giving out any information.</li>
-                    <li >Emphasise and use the keywords during hands-on sessions.
-                    </li>
-                    <li >Print out the Learning Journal (if any) for every <br>
-                        child to complete at the end of the lesson.</li>
-                    <li class="flex whitespace-nowrap">
-                        <span class="flex items-center whitespace-nowrap">
-                        Click on this shortcut icon
-                        <span>
-                            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s28.png') }}"
-                                class="!max-w-[2.5vw]" />
-                        </span>
-                        if you need to go to some parts of the lesson quickly.
+
+                <li>
+                    Always ask questions to encourage children to think and share their ideas first before giving out
+                    any information.
+                </li>
+
+                <li>Emphasise and use the keywords during hands-on sessions.</li>
+
+                <li>
+                    Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
+                </li>
+
+                <li>
+                    <span class="relative">
+                        Click on this shortcut icon <span class="opacity-0">---</span> if you need to go to some parts of
+                        the lesson quickly.
+                        <img src="{{ asset('assets/images/pptimages/home-btn.png') }}"
+                            class="t-home-btn absolute top-0 left-[19vw]" />
                     </span>
-                    </li>
-                </ul>
-            </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="Teacher" />
+                </li>
+
+            </ul>
         </div>
+
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
@@ -197,7 +197,7 @@
 @push('script')
     <script>
         document.addEventListener("DOMContentLoaded", () => {
-            const slides = document.querySelectorAll(".slide");
+            const slides = document.querySelectorAll(".t-slide");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
             const doneButton = document.querySelector(".doneButton"); //   DONE button
@@ -243,7 +243,7 @@
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('k2coding') }}";
+                    window.location.href = "{{ route('scratchSelection') }}";
                 });
             }
             showSlide(currentSlide);

@@ -7,7 +7,7 @@
 
 
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl t-slide !text-white flex-col justify-start  text-start">
+    <div class="flex t-slide !text-white flex-col justify-around  text-start">
         <div>
             <h2 class="t-title ">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -41,7 +41,7 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl t-slide !text-white flex-col justify-start  text-start">
+    <div class="flex t-slide !text-white flex-col justify-around  text-start">
         <div class="space-y-10">
             <ul class="list-disc ">
                 <h2 class=" t-title">Preparations:</h2>
@@ -55,10 +55,10 @@
 
 
     {{-- slide 3 --}}
-    <div class=" slide flex text-2xl t-slide !text-white flex-col items-start justify-start  text-start">
-        <div class="space-y-10">
+    <div class="flex t-slide !text-white flex-col items-start justify-start  text-start">
+        <div class="pt-[4vw]">
+            <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
-                <h2 class=" t-title">Preparations:</h2>
                 <li>Suitable conductors which can be used as keypads (e.g. playdough of different colours, forks and spoons,
                     pots and pans, cookie cutters, keys, nuts and bolts, food or beverage cans, water)</li>
                 <li>Suitable materials for Makey Makey's set up - conductive materials like foil, conductive tape, paper
@@ -70,7 +70,7 @@
 
 
     {{-- sldie 4 --}}
-    <div class=" slide text-start text-2xl t-slide !text-white space-y-10">
+    <div class="text-start t-slide flex flex-col justify-around !text-white ">
         <div>
             <h2 class=" t-title">Things to note during hands-on session:</h2>
             <ul class="list-disc pl-[50px]">
@@ -96,7 +96,7 @@
 
 
     {{-- slide 5 --}}
-    <div class=" slide text-start text-2xl t-slide !text-white space-y-10">
+    <div class="text-start t-slide !text-white space-y-10">
         <div>
             <h2 class=" t-title">What you need to know or do before the lesson:</h2>
             <ul class="list-disc pl-[50px]">
@@ -113,30 +113,43 @@
 
 
     {{-- sldie 6 --}}
-    <div class="slide flex  flex-col justify-start  text-2xl t-slide text-start !text-white w-[80%]">
+    <div class=" t-slide flex items-center text-start !text-white !w-[53vw]">
         <div>
-            <h2 class=" t-title">Notes:</h2>
-            <ul class="list-disc ">
-                <li class="flex">
-                    If you see
-                    <span>
-                        <img src="{{ asset('assets/images/pptimages/video.png') }}" />
+            <h2 class="t-title ">Notes:</h2>
+            <ul class="list-disc space-y-3">
+                <li>
+                    <span class="relative">
+                        If you see <span class="opacity-0">---</span>next to a picture, click on the picture to watch the
+                        video.
+                        <img class="t-video-btn absolute top-[-1vw] left-[7.6vw]"
+                            src="{{ asset('assets/images/pptimages/video.png') }}" />
                     </span>
-                    next to a picture, click on the picture to watch the video.
                 </li>
+
+                <li>
+                    Always ask questions to encourage children to think and share their ideas first before giving out
+                    any information.
+                </li>
+
                 <li>Emphasise and use the keywords during hands-on sessions.</li>
-                <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
+
+                <li>
+                    Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
                 </li>
-                <li class="flex">
-                    Click on this shortcut icon
-                    <span>
-                        <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+
+                <li>
+                    <span class="relative">
+                        Click on this shortcut icon <span class="opacity-0">---</span> if you need to go to some parts of
+                        the lesson quickly.
+                        <img src="{{ asset('assets/images/pptimages/home-btn.png') }}"
+                            class="t-home-btn absolute top-0 left-[19vw]" />
                     </span>
-                    if you need to go to some parts of the lesson quickly.
                 </li>
+
             </ul>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="Teacher" />
+
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
@@ -180,63 +193,65 @@
 @push('script')
     <script>
         document.addEventListener("DOMContentLoaded", () => {
-            const slides = document.querySelectorAll(".slide");
-            const nextButtons = document.querySelectorAll(".nextButton");
-            const returnButton = document.getElementById("returnButton");
-            const doneButton = document.querySelector(".doneButton");
+            // Get all elements
+            const slides = document.querySelectorAll(".t-slide");
+            const nextBtn = document.querySelector(".nextButton");
+            const returnBtn = document.getElementById("returnButton");
+            const doneBtn = document.querySelector(".doneButton");
 
-            let currentSlide = 0;
+            // Current slide position
+            let currentIndex = 0;
 
-            //   Configure your return route here (when on first slide)
-            const returnRouteFromFirstSlide = "{{ route('makey1Selection') }}";
-
+            // Show slide and update buttons
             function showSlide(index) {
-                slides.forEach((slide, i) => {
-                    slide.classList.toggle("hidden", i !== index);
-                });
+                // Hide all slides
+                slides.forEach(slide => slide.classList.add("hidden"));
 
-                //   If last slide → hide NEXT, show DONE
-                if (index === slides.length - 1) {
-                    nextButtons.forEach(btn => btn.classList.add("hidden"));
-                    if (doneButton) doneButton.classList.remove("hidden");
+                // Show current slide
+                slides[index].classList.remove("hidden");
+
+                // Update index
+                currentIndex = index;
+
+                // Check if last slide
+                const isLastSlide = (index === slides.length - 1);
+
+                if (isLastSlide) {
+                    // Last slide: hide Next, show Done
+                    nextBtn.style.display = "none";
+                    doneBtn.style.display = "block";
                 } else {
-                    nextButtons.forEach(btn => btn.classList.remove("hidden"));
-                    if (doneButton) doneButton.classList.add("hidden");
+                    // Not last slide: show Next, hide Done
+                    nextBtn.style.display = "block";
+                    doneBtn.style.display = "none";
                 }
             }
 
-            //   NEXT button - go to next slide
-            nextButtons.forEach((btn) => {
-                btn.addEventListener("click", () => {
-                    if (currentSlide < slides.length - 1) {
-                        currentSlide++;
-                        showSlide(currentSlide);
-                    }
-                });
-            });
-
-            //   RETURN button - go back OR navigate to route if on first slide
-            returnButton.addEventListener("click", () => {
-                // If on first slide (slide 0), navigate to return route
-                if (currentSlide === 0) {
-                    window.location.href = returnRouteFromFirstSlide;
-                    return;
+            // Next button
+            nextBtn.addEventListener("click", () => {
+                if (currentIndex < slides.length - 1) {
+                    showSlide(currentIndex + 1);
                 }
-
-                // Otherwise, go to previous slide
-                currentSlide--;
-                showSlide(currentSlide);
             });
 
-            //   DONE button - navigate to completion route
-            if (doneButton) {
-                doneButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('k2ElectronicCircuits') }}";
-                });
-            }
+            // Return button
+            returnBtn.addEventListener("click", () => {
+                if (currentIndex === 0) {
+                    // On first slide: redirect to route
+                    window.location.href = "{{ route('makey3Selection') }}";
+                } else {
+                    // Not first slide: go back
+                    showSlide(currentIndex - 1);
+                }
+            });
 
-            // Start with first slide
-            showSlide(currentSlide);
+            // Done button
+            doneBtn.addEventListener("click", () => {
+                window.location.href = "{{ route('makey3Selection') }}";
+            });
+
+            // Start at first slide
+            showSlide(0);
         });
     </script>
 @endpush

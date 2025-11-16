@@ -10,12 +10,10 @@
             learn how to use ScratchJr to create a story
         </h2>
 
-        {{-- next Button --}}
-        <div class="down-btn-container">
-            <button class="nextButton">
-                <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
-            </button>
-        </div>
+
+        <button class="nextButton">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
+        </button>
     </div>
 
 

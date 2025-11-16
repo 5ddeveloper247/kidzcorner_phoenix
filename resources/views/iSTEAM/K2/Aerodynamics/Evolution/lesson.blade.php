@@ -8,7 +8,7 @@
 
     {{-- Slide 1 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="{{ asset('assets/images/K2/aero/aero1/a9.png') }}" class="!max-w-[40vw]" />
+        <img src="{{ asset('assets/images/K2/aero/aero1/a9.png') }}" class="img-lg" />
         <div class="title stroke">
             <h2>Children, do you know the functions of an aeroplane?</h2>
         </div>
@@ -18,7 +18,7 @@
 
     {{-- Slide 2 --}}
     <div class="slide hidden flex flex-col items-center">
-        <img src="{{ asset('assets/images/K2/aero/aero1/a9.png') }}" class="!max-w-[40vw]" />
+        <img src="{{ asset('assets/images/K2/aero/aero1/a9.png') }}" class="img-lg" />
         <h2 class="title stroke">Aeroplanes were originally invented to carry people <br>
             from one place to another.</h2>
     </div>
@@ -26,21 +26,21 @@
 
     {{-- Slide 3 --}}
     <div class="slide hidden  flex flex-col items-center  ">
-        <img src="{{ asset('assets/images/K2/aero/evo/e1.png') }}" class="!max-w-[40vw]" />
+        <img src="{{ asset('assets/images/K2/aero/evo/e1.png') }}" class="img-lg" />
         <h2 class="title stroke text-center">In 1903, the Wright brothers invented the first
             engine-powered aeroplane.</h2>
     </div>
 
     {{-- slide 4 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/aero/evo/e2.png') }}" class="!max-w-[40vw]" />
+        <img src="{{ asset('assets/images/K2/aero/evo/e2.png') }}" class="img-lg" />
         <h2 class="title stroke text-center">This first aeroplane could only fly for 12 seconds!</h2>
     </div>
 
 
     {{-- Slide 5 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/aero/evo/e1.png') }}" class="!max-w-[40vw]" />
+        <img src="{{ asset('assets/images/K2/aero/evo/e1.png') }}" class="img-lg" />
         <h2 class="title stroke">The Wright brothers continued to study about aerodynamic
             forces to refine their aeroplane design.</h2>
     </div>
@@ -48,7 +48,7 @@
 
     {{-- slide 6 --}}
     <div class="slide hidden flex flex-col items-center ">
-        <img src="{{ asset('assets/images/K2/aero/evo/e3.png') }}" class="!max-w-[40vw]" />
+        <img src="{{ asset('assets/images/K2/aero/evo/e3.png') }}" class="img-lg" />
         <h2 class="title stroke">Today, commercial aeroplanes can travel for more than 15
             hours, carrying passengers from one place to another.</h2>
     </div>
@@ -57,7 +57,7 @@
 
     {{-- slide 7 --}}
     <div class="slide hidden flex flex-col items-center ">
-        <img src="{{ asset('assets/images/K2/aero/evo/e4.png') }}" class="large-img6" />
+        <img src="{{ asset('assets/images/K2/aero/evo/e4.png') }}" class="img-xl" />
         <h2 class="title stroke">Different types of aircraft were also invented and designed
             for various purposes. Do you recognize these aircrafts?</h2>
         <p class="note">Note: Guide children to discuss and share their views.</p>
@@ -65,7 +65,7 @@
 
     {{-- slide 8 --}}
     <div class="slide hidden flex flex-col items-center ">
-        <img src="{{ asset('assets/images/K2/aero/evo/e4.png') }}" class="large-img6" />
+        <img src="{{ asset('assets/images/K2/aero/evo/e4.png') }}" class="img-xl" />
         <h2 class="title stroke">Fighters and bombers are two types of military aircrafts that
             are designed for fighting enemies.</h2>
         <p class="note">Note: If time permit, you may guide children to search for different types of military aircrafts.
@@ -76,7 +76,7 @@
     {{-- slide 9 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <h2 class="!text-white title stroke">Class Activity 1</h2>
-        <img src="{{ asset('assets/images/K2/aero/evo/e5.png') }}" class="large-img6" />
+        <img src="{{ asset('assets/images/K2/aero/evo/e5.png') }}" class="img-xl" />
         <h2 class="title stroke">How do these aircrafts move? <br>
             How aerodynamic forces work on these aircrafts?</h2>
         <p class="text-center note">Note: Guide children to search info on these aircrafts; then discuss and share their
@@ -93,7 +93,7 @@
 
     {{-- slide 11 --}}
     <div class="slide hidden flex flex-col items-center ">
-        <img src="{{ asset('assets/images/K2/aero/evo/e6.png') }}" class="large-img6" />
+        <img src="{{ asset('assets/images/K2/aero/evo/e6.png') }}" class="img-xl" />
         <h2 class="title stroke">The movement of a vehicle is also affected by the
             aerodynamic forces.</h2>
     </div>
@@ -101,7 +101,7 @@
 
     {{-- slide 12 --}}
     <div class="slide hidden flex flex-col items-center ">
-        <img src="{{ asset('assets/images/K2/aero/evo/e7.png') }}" class="large-img6" />
+        <img src="{{ asset('assets/images/K2/aero/evo/e7.png') }}" class="img-xl" />
         <h2 class="title stroke">Vehicles such as cars and trucks are designed with
             aerodynamics in mind.</h2>
     </div>
@@ -109,7 +109,7 @@
 
     {{-- slide 13 --}}
     <div class="slide hidden flex flex-col items-center ">
-        <img src="{{ asset('assets/images/K2/aero/evo/e7.png') }}" class="large-img6" />
+        <img src="{{ asset('assets/images/K2/aero/evo/e7.png') }}" class="img-xl" />
         <h2 class="title stroke">What do you notice about the shape of the car and truck?
             How does the shape affect the aerodynamic forces?</h2>
     </div>
@@ -117,7 +117,7 @@
 
     {{-- slide 14 --}}
     <div class="slide hidden flex flex-col items-center ">
-        <img src="{{ asset('assets/images/K2/aero/evo/e8.png') }}" class="!max-w-[37vw]" />
+        <img src="{{ asset('assets/images/K2/aero/evo/e8.png') }}" class="img-semi-lg" />
         <h2 class="title stroke">What do you notice about the shape of the car and truck?
             How does the shape affect the aerodynamic forces?</h2>
     </div>
@@ -125,14 +125,14 @@
 
     {{-- slide 15 --}}
     <div class="slide hidden flex flex-col items-center ">
-        <img src="{{ asset('assets/images/K2/aero/evo/e8.png') }}" class="!max-w-[37vw]" />
+        <img src="{{ asset('assets/images/K2/aero/evo/e8.png') }}" class="img-semi-lg" />
         <h2 class="title stroke">This is a Formula 1 race car. <br>
             It moves very fast.</h2>
     </div>
 
     {{-- slide 16 --}}
     <div class="slide hidden flex flex-col items-center ">
-        <img src="{{ asset('assets/images/K2/aero/aero1/a44.png') }}" class="!max-w-[42vw]" />
+        <img src="{{ asset('assets/images/K2/aero/aero1/a44.png') }}" class="img-xl" />
         <h2 class="title stroke">Remember the aerofoil design of an aeroplane wing?
             Why is it designed in this shape?</h2>
         <p class="note">Note: Guide children to recap the function of aerofoil in generating lift.</p>
@@ -141,7 +141,7 @@
 
     {{-- slide 17 --}}
     <div class="slide hidden flex flex-col items-center ">
-        <img src="{{ asset('assets/images/K2/aero/evo/e9.png') }}" class="!max-w-[37vw]" />
+        <img src="{{ asset('assets/images/K2/aero/evo/e9.png') }}" class="img-semi-lg" />
         <h2 class="title stroke">Formula 1 cars have wings too! <br>
             They are called the front wings.</h2>
     </div>
@@ -149,7 +149,7 @@
 
     {{-- slide 18 --}}
     <div class="slide hidden flex flex-col items-center ">
-        <img src="{{ asset('assets/images/K2/aero/evo/e9.png') }}" class="!max-w-[37vw]" />
+        <img src="{{ asset('assets/images/K2/aero/evo/e9.png') }}" class="img-semi-lg" />
         <h2 class="title stroke">Do you think these wings have the same function
             as the aeroplane wings?</h2>
         <p class="note">Note: Encourage children to discuss and share their answers.</p>
@@ -157,7 +157,7 @@
 
     {{-- slide 19 --}}
     <div class="slide hidden flex flex-col items-center ">
-        <img src="{{ asset('assets/images/K2/aero/evo/e10.png') }}" class="!max-w-[42vw]" />
+        <img src="{{ asset('assets/images/K2/aero/evo/e10.png') }}" class="img-xl" />
         <h2 class="title stroke">Look at the shape of the front wings of a racing car.
             How is it different from the wing of an aeroplane?</h2>
         <p class="note">Note: Encourage children to discuss and share their answers.</p>
@@ -165,7 +165,7 @@
 
     {{-- slide 20 --}}
     <div class="slide hidden flex flex-col items-center ">
-        <img src="{{ asset('assets/images/K2/aero/evo/e10.png') }}" class="!max-w-[42vw]" />
+        <img src="{{ asset('assets/images/K2/aero/evo/e10.png') }}" class="img-xl" />
         <h2 class="title stroke">The front wings of the racing car is shaped this way to create
             downforce. This enables the car to stay on the ground instead
             of lifting up when it moves fast.</h2>
@@ -181,7 +181,7 @@
     {{-- slide 22 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <h2 class="!text-white title stroke">Class Activity 2</h2>
-        <img src="{{ asset('assets/images/K2/aero/evo/e11.png') }}" class="w-img2" />
+        <img src="{{ asset('assets/images/K2/aero/evo/e11.png') }}" class="img-xl" />
         <h2 class="title stroke">How different do these trains move? <br>
             How does the design affect aerodynamic forces on the train?</h2>
         <p class="text-center note">Note: Guide children to search info on these trains; then discuss and share their views.
@@ -190,7 +190,7 @@
 
     {{-- slide 23 --}}
     <div class="slide hidden flex flex-col items-center ">
-        <img src="{{ asset('assets/images/K2/aero/evo/e12.png') }}" class="!max-w-[39vw]" />
+        <img src="{{ asset('assets/images/K2/aero/evo/e12.png') }}" class="img-semi-lg" />
         <h2 class="title stroke">The head of the bullet train is designed in a pointed shape to
             reduce drag, so that it can move at a faster speed.</h2>
     </div>
@@ -212,28 +212,28 @@
 
     {{-- slide 25 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/aero/evo/e13.png') }}" class="!max-w-[39vw]" />
+        <img src="{{ asset('assets/images/K2/aero/evo/e13.png') }}" class="img-semi-lg" />
         <h2 class="title stroke">Wind tunnels are used to test how aerodynamic forces
             affect the movement of objects.</h2>
     </div>
 
     {{-- slide 26 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/aero/evo/e14.png') }}" class="!max-w-[39vw]" />
+        <img src="{{ asset('assets/images/K2/aero/evo/e14.png') }}" class="img-semi-lg" />
         <h2 class="title stroke">Meanwhile, the aerodynamic forces acting on the test model
             will be measured.</h2>
     </div>
 
     {{-- slide 27 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/aero/evo/e14.png') }}" class="!max-w-[39vw]" />
+        <img src="{{ asset('assets/images/K2/aero/evo/e14.png') }}" class="img-semi-lg" />
         <h2 class="title stroke">The test results will be used for improvement in the design of
             objects.</h2>
     </div>
 
     {{-- slide 28 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/aero/evo/e14.png') }}" class="!max-w-[39vw]" />
+        <img src="{{ asset('assets/images/K2/aero/evo/e14.png') }}" class="img-semi-lg" />
         <h2 class="title stroke">Sports coaches use wind tunnels to test aerodynamic drag on
             athletes too.</h2>
     </div>
@@ -241,8 +241,8 @@
     {{-- slide 29 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <div class="flex items-center gap-[1vw] ">
-            <img src="{{ asset('assets/images/K2/aero/evo/e15.png') }}" class="w-img" />
-            <img src="{{ asset('assets/images/K2/aero/evo/e16.png') }}" class="w-img" />
+            <img src="{{ asset('assets/images/K2/aero/evo/e15.png') }}" class="img-normal-md" />
+            <img src="{{ asset('assets/images/K2/aero/evo/e16.png') }}" class="img-normal-md" />
         </div>
         <h2 class="title stroke">How does the body position make a difference in the way
             these cyclists move? What about the clothes they are wearing?</h2>
@@ -251,7 +251,7 @@
 
     {{-- slide 29 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/aero/evo/e17.png') }}" class="!max-w-[39vw]" />
+        <img src="{{ asset('assets/images/K2/aero/evo/e17.png') }}" class="img-semi-lg" />
         <h2 class="title stroke">A professional cyclist curves his or her body and puts on tight
             clothing to reduce drag so that he or she can cycle faster
             with less effort.</h2>
@@ -263,7 +263,7 @@
         <h2 class=" title stroke !text-white">Learning Journal</h2>
         <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center p-[20px] flex flex-col justify-center items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
-            <img src="{{ asset('assets/images/K2/aero/evo/e18.png') }}" class="!max-w-[39vw]" />
+            <img src="{{ asset('assets/images/K2/aero/evo/e18.png') }}" class="img-semi-lg" />
         </div>
     </div>
 
@@ -329,7 +329,7 @@
 
             // CONFIGURE YOUR ROUTES HERE
             const returnRouteFromFirstSlide = "{{ route('EvolutionSelection') }}";
-            const doneButtonRoute = "{{ route('EvolutionSelection') }}";
+            const doneButtonRoute = "{{ route('k2Aerodynamics') }}";
 
             // Pause all videos when changing slides
             function pauseAllVideos() {

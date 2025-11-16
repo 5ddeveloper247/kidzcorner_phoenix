@@ -8,7 +8,7 @@
 
     {{-- Slide 1 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="{{ asset('assets/images/K2/coding/s1.png') }}" />
+        <img src="{{ asset('assets/images/K2/coding/s1.png') }}" class="img-md" />
         <div class="title stroke">
             <h2>Children, Do you remember what there are? <br>
                 What did you do with them?</h2>
@@ -18,7 +18,7 @@
 
     {{-- Slide 2 --}}
     <div class="slide hidden flex flex-col items-center">
-        <img src="{{ asset('assets/images/K2/coding/s1.png') }}" />
+        <img src="{{ asset('assets/images/K2/coding/s1.png') }}" class="img-md" />
         <h2 class="title stroke">Both the tablet and the robot are <span class="!text-white">electronic machines</span>.
             They use the power of <span class="!text-white">electricity</span> to do work.</h2>
     </div>
@@ -27,7 +27,7 @@
     {{-- Slide 3 --}}
     <div class="slide hidden flex flex-col items-center  ">
         <div class="flex items-center gap-[1vw]">
-            <img src="{{ asset('assets/images/K2/circuit/makey/m12.png') }}" class="!h-[35vh]" />
+            <img src="{{ asset('assets/images/K2/circuit/makey/m12.png') }}" class="img-h-md" />
             <video id="video1" class="video1 pointer-events-none">
                 <source src="{{ asset('assets/images/K2/final/224.mp4') }}" type="video/mp4">
                 Your browser does not support the video tag.
@@ -43,7 +43,7 @@
 
     {{-- slide 4 --}}
     <div class="slide hidden  flex flex-col items-center gap-y-4 ">
-        <img src="{{ asset('assets/images/K2/circuit/makey/m1.png') }}" />
+        <img src="{{ asset('assets/images/K2/circuit/makey/m1.png') }}" class="img-lg" />
         <h2 class="title stroke text-center">This is a set of electronic toy called Makey Makey.</h2>
         <p class="note">Note: Display a set of Makey Makey as shown.</p>
     </div>
@@ -51,7 +51,7 @@
 
     {{-- Slide 5 --}}
     <div class="slide hidden  flex flex-col items-center justify-start   ">
-        <img src="{{ asset('assets/images/K2/circuit/makey/m2.png') }}" />
+        <img src="{{ asset('assets/images/K2/circuit/makey/m2.png') }}" class="img-xl" />
         <h2 class="title stroke">Let's look at the Makey Makey Board. <br>
             What do you see from its front and back?</h2>
         <p class="note">Note: Guide children to observe and talk about the front and back of a Makey Makey Board.</p>
@@ -60,7 +60,7 @@
 
     {{-- slide 6 --}}
     <div class="slide hidden flex flex-col items-center  ">
-        <img src="{{ asset('assets/images/K2/circuit/makey/m3.png') }}" />
+        <img src="{{ asset('assets/images/K2/circuit/makey/m3.png') }}" class="img-xl" />
         <h2 class="title stroke">There are 4 main parts on the front of the board:
             ARROWS, SPACE, CLICK and EARTH.</h2>
         <p class="note">Note: Have children point out each part from the front of the board.</p>
@@ -69,9 +69,9 @@
 
     {{-- slide 7 --}}
     <div class="slide hidden flex flex-col items-center  ">
-        <img src="{{ asset('assets/images/K2/circuit/makey/m2.png') }}" />
+        <img src="{{ asset('assets/images/K2/circuit/makey/m2.png') }}" class="img-xl" />
         <h2 class="title stroke">There are many tiny small things at the back of the board.
-            Some of the things clearly placed according to either 
+            Some of the things clearly placed according to either
             ARROWS, SPACE, CLICK or EARTH.</h2>
         <p class="note">Note: Have children point out things clearly belong to ARROWS, SPACE, CLICK and EARTH.</p>
     </div>
@@ -79,7 +79,7 @@
 
     {{-- slide 8 --}}
     <div class="slide hidden flex flex-col items-center  ">
-        <img src="{{ asset('assets/images/K2/circuit/makey/m4.png') }}" />
+        <img src="{{ asset('assets/images/K2/circuit/makey/m4.png') }}" class="img-xl" />
         <h2 class="title stroke">If you look at the back of the board up-close, you'll see lines
             that join these tiny small things together.</h2>
         <p class="note">Note: Guide children to discover the lines at the back of the board.</p>
@@ -87,38 +87,38 @@
 
     {{-- slide 9 --}}
     <div class="slide hidden flex flex-col items-center  ">
-        <img src="{{ asset('assets/images/K2/circuit/makey/m5.png') }}" />
-        <h2 class="title stroke">In fact, this is a special board called a circuit board. 
-            The tiny small things that are joined together by the lines 
-            form a complicated circuit that allows us 
+        <img src="{{ asset('assets/images/K2/circuit/makey/m5.png') }}" class="img-xl" />
+        <h2 class="title stroke">In fact, this is a special board called a circuit board.
+            The tiny small things that are joined together by the lines
+            form a complicated circuit that allows us
             to use the 4 main parts in front.</h2>
     </div>
 
     {{-- slide 10 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-[50vh]  ">
+    <div class="slide hidden flex flex-col items-center justify-between h-[28vw]  ">
         <h2 class="!text-white title stroke">Class Activity</h2>
-        <h2 class="title stroke text-start">Let's find out: 
-            How to identify a Makey Makey Board as a circuit board? 
+        <h2 class="title stroke text-start">Let's find out:
+            How to identify a Makey Makey Board as a circuit board?
             What is its use?</h2>
         <p class="text-center note">Note: Have all children sit closer to watch the demo.</p>
     </div>
 
 
     {{-- slide 11 --}}
-    <div class="slide hidden flex flex-col items-center  h-[50vh] justify-around">
+    <div class="slide hidden flex flex-col items-center  h-[28vw] justify-between">
         <ul class="text-start title stroke list-decimal">
             <h2>Steps:</h2>
             <li>This is a USB cable. Which end of it can connect to a
                 Makey Makey Board?</li>
         </ul>
-        <img src="{{ asset('assets/images/K2/circuit/makey/m6.png') }}" class="w-img" />
+        <img src="{{ asset('assets/images/K2/circuit/makey/m6.png') }}" class="img-sm" />
         <p class="note">Note: Have children observe a Makey Makey Board and the 2 ends of a USB cable to find the answer.
         </p>
     </div>
 
 
     {{-- slide 12 --}}
-    <div class="slide hidden flex flex-col items-center  h-[50vh] justify-around">
+    <div class="slide hidden flex flex-col items-center  h-[28vw] justify-between">
         <ul class="text-start title stroke">
             <h2>Steps:</h2>
             <li>2. Connect a Makey Makey Board to a computer using a USB
@@ -126,7 +126,7 @@
         </ul>
         <div class="flex">
             <a class=" click-btn1"><img src="{{ asset('assets/images/K2/circuit/makey/btn.png') }}" /> </a>
-            <video id="video2" class="!w-[18vw] pointer-events-none">
+            <video id="video2" class="video-md pointer-events-none">
                 <source src="{{ asset('assets/images/K2/circuit/makey/315.mp4') }}" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
@@ -142,7 +142,7 @@
     {{-- click slide --}}
 
     {{-- slide 13 --}}
-    <div class="slide hidden click1 flex flex-col items-center  h-[50vh] justify-around">
+    <div class="slide hidden click1 flex flex-col items-center  h-[28vw] justify-between">
         <h2 class="title stroke">Do you see blinking lights at the back of the board?</h2>
         <video id="video3" class="video1 pointer-events-none">
             <source src="{{ asset('assets/images/K2/circuit/makey/316.mp4') }}" type="video/mp4">
@@ -157,7 +157,7 @@
 
 
     {{-- slide 14 --}}
-    <div class="slide hidden click1 flex flex-col items-center  h-[50vh] justify-around">
+    <div class="slide hidden click1 flex flex-col items-center  h-[28vw] justify-between">
         <h2 class="title stroke">This is how the lights blink or light up in slow motion.</h2>
         <video id="video4" class="video1 pointer-events-none">
             <source src="{{ asset('assets/images/K2/circuit/makey/317.mp4') }}" type="video/mp4">
@@ -173,7 +173,7 @@
     {{-- slide 15 --}}
     <div class="slide hidden click1 flex flex-col items-center ">
         <h2 class="title stroke">Which tiny small things on the board are light bulbs?</h2>
-        <img src="{{ asset('assets/images/K2/circuit/makey/m10.png') }}" />
+        <img src="{{ asset('assets/images/K2/circuit/makey/m10.png') }}" class="img-lg" />
         <p class="note">Note: Replay the video on the last page, have children point out all the light bulbs on the
             board.
             Tell them that the tiny light bulb on a circuit board is called LED (ight-emitting diode);
@@ -184,7 +184,7 @@
     <div class="slide hidden click1 flex flex-col items-center ">
         <h2 class="title stroke">Which bulb is the power indicator of the board?
             What does it means?</h2>
-        <img src="{{ asset('assets/images/K2/circuit/makey/m10.png') }}" />
+        <img src="{{ asset('assets/images/K2/circuit/makey/m10.png') }}" class="img-lg" />
         <p class="note">Note: Have children point out the power indicator of the board.
             Explain that when the power indicator is on, it means that the board is ready for use.</p>
     </div>
@@ -193,17 +193,17 @@
     {{-- slide 17 --}}
     <div class="slide hidden click1 flex flex-col items-center ">
         <h class="title stroke">Do you remember this simple circuit?</h>
-        <img src="{{ asset('assets/images/K2/circuit/ecity/e13.png') }}" />
+        <img src="{{ asset('assets/images/K2/circuit/ecity/e13.png') }}" class="img-md" />
         <h2 class="title stroke">When there is electricity, the light bulb in this simple circuit
             will light up.</h2>
     </div>
 
 
     {{-- slide 18 --}}
-    <div class="slide hidden click1 flex flex-col items-center  h-[50vh] justify-around">
+    <div class="slide hidden click1 flex flex-col items-center  h-[28vw] justify-between">
         <h2 class="title stroke">When there is electricity, the light bulbs on a Makey Makey
             Board will blink or light up.</h2>
-        <video id="video5" class="video1 pointer-events-none">
+        <video id="video5" class="video-md pointer-events-none">
             <source src="{{ asset('assets/images/K2/circuit/makey/317.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -217,14 +217,14 @@
 
 
     {{-- slide 19 --}}
-    <div class="slide hidden flex flex-col items-center  h-[50vh] justify-around">
+    <div class="slide hidden flex flex-col items-center  h-[28vw] justify-between">
         <ul class="text-start title stroke">
             <h2>Steps:</h2>
             <li>3. Open up the Microsoft Word application. Use keyboard to
                 create a document as shown.</li>
         </ul>
         <div class="flex items-start gsp-5">
-            <img src="{{ asset('assets/images/K2/circuit/makey/m7.png') }}" class="w-img" />
+            <img src="{{ asset('assets/images/K2/circuit/makey/m7.png') }}" class="img-md" />
             <p class="note w-[140px] !text-start">Use big font
                 size (e.g.100)
                 to key in the
@@ -235,13 +235,13 @@
     </div>
 
     {{-- sldie 20 --}}
-    <div class="slide hidden flex flex-col items-center  h-[50vh] justify-around">
+    <div class="slide hidden flex flex-col items-center  h-[28vw] justify-between">
         <ul class="text-start title stroke">
             <h2>Steps:</h2>
             <li>4. Connect one end of an alligator clip to the EARTH at the
                 bottom of the board.</li>
         </ul>
-        <video id="video6" class="video1 pointer-events-none">
+        <video id="video6" class="video-md pointer-events-none">
             <source src="{{ asset('assets/images/K2/circuit/makey/318.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -254,27 +254,25 @@
 
 
     {{-- sldie 21 --}}
-    <div class="slide hidden flex flex-col items-center  h-[50vh] justify-around">
+    <div class="slide hidden flex flex-col items-center  h-[28vw] justify-between">
         <ul class="text-start title stroke">
             <h2>Steps:</h2>
             <li>5. Use the fingers of a hand to hold the metal part of the
                 other end of the alligator clip.</li>
         </ul>
-        <div class="flex items-start gsp-5">
-            <img src="{{ asset('assets/images/K2/circuit/makey/m8.png') }}" />
-        </div>
+        <img src="{{ asset('assets/images/K2/circuit/makey/m8.png') }}" class="img-md" />
         <p class="note">Note: Have children observe the demo.</p>
     </div>
 
 
     {{-- sldie 22 --}}
-    <div class="slide hidden flex flex-col items-center  h-[50vh] justify-around">
+    <div class="slide hidden flex flex-col items-center  h-[28vw] justify-between">
         <ul class="text-start title stroke">
             <h2>Steps:</h2>
             <li>6. Use the fingers of another hand to touch on the SPACE and
                 different ARROWS. What happens?</li>
         </ul>
-        <video id="video7" class="video1 pointer-events-none">
+        <video id="video7" class="video-md pointer-events-none">
             <source src="{{ asset('assets/images/K2/circuit/makey/319.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -288,15 +286,13 @@
 
 
     {{-- sldie 23 --}}
-    <div class="slide hidden flex flex-col items-center  h-[50vh] justify-around">
+    <div class="slide hidden flex flex-col items-center justify-between">
         <ul class="text-start title stroke">
             <h2>Steps:</h2>
             <li>7. Let go of this hand and use another hand to touch on the
                 SPACE and different ARROWS. What happens?</li>
         </ul>
-        <div class="flex items-start gsp-5">
-            <img src="{{ asset('assets/images/K2/circuit/makey/m9.png') }}" />
-        </div>
+            <img src="{{ asset('assets/images/K2/circuit/makey/m9.png') }}" class="img-md" />
         <p class="note">Note: Have children observe the demo, take turns to try this step and talk about what they see.
         </p>
     </div>
@@ -304,7 +300,7 @@
 
 
     {{-- sldie 24 --}}
-    <div class="slide hidden flex flex-col items-center  h-[50vh] justify-between">
+    <div class="slide hidden flex flex-col items-center  h-[28vw] justify-between">
         <ul class="text-start title stroke list-disc ">
             <h2>Do you realise that:</h2>
             <li>You need a computer to set up a Makey Makey Board.</li>
@@ -322,7 +318,7 @@
 
 
     {{-- slide 25 --}}
-    <div class="slide hidden flex flex-col items-center  h-[50vh] justify-between">
+    <div class="slide hidden flex flex-col items-center  h-[28vw] justify-between">
         <ul class="text-start title stroke list-disc ">
             <h2>Do you realise that:</h2>
             <li>The use of the different ARROWS on the board is just like the use of the arrow (up, down, left, right) keys
@@ -339,7 +335,7 @@
 
     {{-- slide 26 --}}
     <div class="slide hidden flex flex-col items-center ">
-        <img src="{{ asset('assets/images/K2/circuit/makey/m11.png') }}" />
+        <img src="{{ asset('assets/images/K2/circuit/makey/m11.png') }}" class="img-xl"/>
         <h2 class="title stroke">You are actually part of this complete circuit that makes the
             Makey Makey Board work!</h2>
         <p class="note">Note: Guide children to "see" how electricity flow in a circuit with reference to the drawing.
@@ -410,7 +406,7 @@
 
             // CONFIGURE YOUR ROUTES HERE
             const returnRouteFromFirstSlide = "{{ route('makey1Selection') }}";
-            const doneButtonRoute = "{{ route('makey1Selection') }}";
+            const doneButtonRoute = "{{ route('k2ElectronicCircuits') }}";
 
             // Pause all videos when changing slides
             function pauseAllVideos() {

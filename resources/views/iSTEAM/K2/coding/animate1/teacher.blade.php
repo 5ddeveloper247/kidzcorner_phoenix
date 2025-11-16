@@ -6,20 +6,20 @@
     <h2 class="top-title stroke">Animate a Character (1)</h2>
 
     {{-- sldie 1  --}}
-    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
+    <div class="flex t-slide !text-white flex-col justify-around  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
-                <li >Know that ScratchJr allows us to create our own animated stories</li>
-                <li >Know that programming or coding means creating step-by-step instructions to tell a
+                <li>Know that ScratchJr allows us to create our own animated stories</li>
+                <li>Know that programming or coding means creating step-by-step instructions to tell a
                     machine what to do
                     and how to do it</li>
-                <li >Learn how to use ScratchJr to programme a character to move in certain ways (to
+                <li>Learn how to use ScratchJr to programme a character to move in certain ways (to
                     animate a character)
                 </li>
-                <li >Develop understanding through inquiry</li>
-                <li >Develop problem-solving skills</li>
-                <li >Learn to share and take turns</li>
+                <li>Develop understanding through inquiry</li>
+                <li>Develop problem-solving skills</li>
+                <li>Learn to share and take turns</li>
             </ul>
         </div>
 
@@ -27,15 +27,15 @@
             <h2 class=" t-title">Keywords:</h2>
             <div class="flex gap-[4vw] pl-[1.5vw]">
                 <ul class="list-disc ">
-                    <li >Programme</li>
-                    <li >Programming/Coding</li>
-                    <li >Command</li>
-                    <li >Animated Story</li>
+                    <li>Programme</li>
+                    <li>Programming/Coding</li>
+                    <li>Command</li>
+                    <li>Animated Story</li>
                 </ul>
                 <ul class="list-disc ">
-                    <li >Programming Block</li>
-                    <li >Programming Area</li>
-                    <li >Character</li>
+                    <li>Programming Block</li>
+                    <li>Programming Area</li>
+                    <li>Character</li>
                 </ul>
             </div>
         </div>
@@ -46,61 +46,61 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl !text-white flex-col justify-start items-center  text-start">
+    <div class="flex t-slide !text-white flex-col justify-start items-center  text-start">
         <ul class="list-disc">
             <h2 class="t-title">Preparations:</h2>
-            <li >The tablets (download ScratchJr application from App Store or Google Play for each
+            <li>The tablets (download ScratchJr application from App Store or Google Play for each
                 tablet; charge all the
                 tablets before you start each lesson)</li>
 
         </ul>
-        <img class="w-[800px]" src="/assets/images/K2/animate1/a50.png" />
+        <img class="img-semi-lg" src="{{ asset('/assets/images/K2/animate1/a50.png') }}" />
 
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl !text-white flex-col justify-start items-center  text-start">
+    <div class="flex t-slide !text-white flex-col justify-start items-center  text-start">
 
 
         <ul class="list-disc !text-start">
             <h2 class="t-title">Preparations:</h2>
-            <li >Grid Card (print and laminate so that they are reusable)</li>
-            <li >Whiteboard marker pens</li>
+            <li>Grid Card (print and laminate so that they are reusable)</li>
+            <li>Whiteboard marker pens</li>
 
         </ul>
-        <img src="/assets/images/K2/animate1/a51.png" />
+        <img src="{{ asset('/assets/images/K2/animate1/a51.png') }}" class="img-md" />
 
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- slide 4 --}}
-    <div class=" slide flex text-2xl !text-white flex-col justify-start items-center  text-start">
+    <div class="flex t-slide !text-white flex-col justify-start items-center  text-start">
 
 
         <ul class="list-disc !text-start">
             <h2 class="t-title">What you need to know or explore before the lesson:</h2>
-            <li >Go through the Blocks Guide in the application of ScratchJr to understand the use
+            <li>Go through the Blocks Guide in the application of ScratchJr to understand the use
                 of different commands and programming blocks in ScratchJr.</li>
 
         </ul>
 
         <div class="flex justify-center items-center gap-2">
-            <img src="/assets/images/K2/animate1/a52.png" />
+            <img src="{{ asset('/assets/images/K2/animate1/a52.png') }}" class="img-sm" />
 
             <div class="flex-col gap-[1rem]">
                 <ul>
-                    <li >For this lesson, the focus is</li>
-                    <li >knowing the use of all the</li>
-                    <li >programming blocks of Motion</li>
-                    <li >Blocks. Please go through the</li>
-                    <li >descriptions to understand the</li>
-                    <li >use of each programming block.</li>
+                    <li>For this lesson, the focus is</li>
+                    <li>knowing the use of all the</li>
+                    <li>programming blocks of Motion</li>
+                    <li>Blocks. Please go through the</li>
+                    <li>descriptions to understand the</li>
+                    <li>use of each programming block.</li>
                 </ul><br>
                 <ul>
-                    <li >You may <span class="title stroke font-normal !text-1xl">print out the guide
+                    <li>You may <span class="text-[#f7b94a] !text-1xl">print out the guide
                         </span> if
                         you need it.</li>
                 </ul>
@@ -111,14 +111,14 @@
 
 
     {{-- slide 5 --}}
-    <div class=" slide flex text-2xl !text-white flex-col justify-start items-center  text-start">
+    <div class="flex t-slide !text-white flex-col justify-start items-center  text-start">
         <ul class="list-disc ">
             <h2 class="t-title">Additional info:</h2>
-            <li >The following navigation buttons enable you to undo or redo a step.</li>
+            <li>The following navigation buttons enable you to undo or redo a step.</li>
 
 
         </ul>
-        <img class="w-[700px]" src="/assets/images/K2/animate1/a53.png" />
+        <img class="img-md src="{{ asset('/assets/images/K2/animate1/a53.png') }}" />
 
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
@@ -126,51 +126,25 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     {{-- sldie 6 --}}
-
-
-    <div class=" slide flex text-2xl !text-white flex-col  justify-start items-start text-start gap-[5rem]">
+    <div class="flex t-slide !text-white flex-col  justify-around items-start text-start ">
 
         <div>
             <ul class="list-disc !text-white">
 
                 <h2 class="t-title">Reminders or advice during hands-on session:</h2>
-                <li >Always hold a tablet with both your hands (to show your care and prevent the
+                <li>Always hold a tablet with both your hands (to show your care and prevent the
                     tools from spoiling easily).</li>
-                <li >Be patient and take turns when using the tablets.</li>
+                <li>Be patient and take turns when using the tablets.</li>
             </ul>
         </div>
 
         <div>
             <ul class="!text-start list-disc">
                 <h2 class="t-title">Possible questions during hands-on sessions:</h2>
-                <li >What is the name of this application?</li>
-                <li >Which command in the app allows you to create movements for a character?</li>
-                <li >What happens if you did not add a triggering block to a programme created?</li>
+                <li>What is the name of this application?</li>
+                <li>Which command in the app allows you to create movements for a character?</li>
+                <li>What happens if you did not add a triggering block to a programme created?</li>
             </ul>
         </div>
 
@@ -180,43 +154,52 @@
 
 
     {{-- sldie 7 --}}
-    <div class="slide flex t-slide  flex-col justify-start  text-2xl text-start !text-white">
-        <div class="flex w-[100%] items-center justify-between">
-            <div>
-                <h2 class=" t-title">Notes:</h2>
-                <ul class="list-disc leading-relaxed">
-                    <li>
-                    <span class="flex items-center whitespace-nowrap">
-                        If you see
-                        <span>
-                            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s27.png') }}"
-                                class="!max-w-[2.5vw]" />
-                        </span>
-                        next to a picture,click on the picture to watch the video.
+    <div class=" t-slide text-start flex items-center !text-white !w-[53vw]">
+        <div>
+            <h2 class="t-title ">Notes:</h2>
+            <ul class="list-disc space-y-3">
+                <li>
+                    <span class="relative">
+                        If you see <span class="opacity-0">---</span>next to a picture, click on the picture to watch the
+                        video.
+                        <img class="t-video-btn absolute top-[-1vw] left-[7.6vw]"
+                            src="{{ asset('assets/images/pptimages/video.png') }}" />
                     </span>
                 </li>
-                    <li >Always ask questions to encourage children to think and share their ideas first
-                        before giving out any information.</li>
-                    <li >Emphasise and use the keywords during hands-on sessions.
-                    </li>
-                    <li >Print out the Learning Journal (if any) for every <br>
-                        child to complete at the end of the lesson.</li>
-                    <li >
-                        <span class="flex items-center whitespace-nowrap">
-                        Click on this shortcut icon
-                        <span>
-                            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s28.png') }}"
-                                class="!max-w-[2.5vw]" />
-                        </span>
-                        if you need to go to some parts of the lesson quickly.
-                    </span>
-                    </li>
-                </ul>
-            </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="Teacher" />
-        </div>
-    </div>
 
+                <li>
+                    <span class="relative">
+                        If you see <span class="opacity-0">---</span> , click on it for additional information or activity.
+                        <img src="{{ asset('assets/images/pptimages/info-btn.png') }}"
+                            class="t-info-btn absolute top-[-1vw] left-[8vw]" />
+                    </span>
+                </li>
+
+                <li>
+                    Always ask questions to encourage children to think and share their ideas first before giving out
+                    any information.
+                </li>
+
+                <li>Emphasise and use the keywords during hands-on sessions.</li>
+
+                <li>
+                    Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
+                </li>
+
+                <li>
+                    <span class="relative">
+                        Click on this shortcut icon <span class="opacity-0">---</span> if you need to go to some parts of
+                        the lesson quickly.
+                        <img src="{{ asset('assets/images/pptimages/home-btn.png') }}"
+                            class="t-home-btn absolute top-0 left-[19vw]" />
+                    </span>
+                </li>
+
+            </ul>
+        </div>
+
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
+    </div>
 
 
 
@@ -268,7 +251,7 @@
 @push('script')
     <script>
         document.addEventListener("DOMContentLoaded", () => {
-            const slides = document.querySelectorAll(".slide");
+            const slides = document.querySelectorAll(".t-slide");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
             const doneButton = document.querySelector(".doneButton"); //   DONE button
@@ -314,7 +297,7 @@
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('k2coding') }}";
+                    window.location.href = "{{ route('animate1Selection') }}";
                 });
             }
             showSlide(currentSlide);

@@ -7,14 +7,14 @@
 
 
     {{-- sldie 1  --}}
-    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
+    <div class="t-slide flex  !text-white flex-col justify-around  text-start">
         <div>
             <h2 class="t-title ">Children will be able to:</h2>
             <ul class="list-disc ">
-                <li >Recall the use of aerodynamics in aeroplanes and other vehicles</li>
-                <li >Learn how rockets and space shuttles use aerodynamics to help them move</li>
-                <li >Design and build a flying machine</li>
-                <li >Develop understanding through inquiry and experiment</li>
+                <li>Recall the use of aerodynamics in aeroplanes and other vehicles</li>
+                <li>Learn how rockets and space shuttles use aerodynamics to help them move</li>
+                <li>Design and build a flying machine</li>
+                <li>Develop understanding through inquiry and experiment</li>
             </ul>
         </div>
 
@@ -22,19 +22,19 @@
             <h2 class="t-title">Keywords:</h2>
             <div class="flex gap-[5vw]">
                 <ul class="list-disc ">
-                    <li >Aerodynamics</li>
-                    <li >Aerodynamic Forces</li>
-                    <li >Weight</li>
-                    <li >Lift</li>
-                    <li >Thrust</li>
-                    <li >Drag</li>
+                    <li>Aerodynamics</li>
+                    <li>Aerodynamic Forces</li>
+                    <li>Weight</li>
+                    <li>Lift</li>
+                    <li>Thrust</li>
+                    <li>Drag</li>
                 </ul>
                 <ul class="list-disc ">
-                    <li >Aerofoil</li>
-                    <li >Front Wings</li>
-                    <li >Downforce</li>
-                    <li >Rocket</li>
-                    <li >Space Shuttle</li>
+                    <li>Aerofoil</li>
+                    <li>Front Wings</li>
+                    <li>Downforce</li>
+                    <li>Rocket</li>
+                    <li>Space Shuttle</li>
                 </ul>
 
             </div>
@@ -45,30 +45,30 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex t-slide !text-white flex-col justify-start text-start">
+    <div class="flex t-slide !text-white flex-col justify-around text-start">
         <div class="t-title">
             <ul class="list-disc ">
                 <h2 class=" t-title">Preparations:</h2>
                 <h2>Final Project</h2>
-                <li >Materials you can prepare (this is not an exhaustive list):</li>
+                <li>Materials you can prepare (this is not an exhaustive list):</li>
             </ul>
             <div class="flex gap-[3vw] items-center">
                 <ul class="list-disc">
-                    <li >Cardboard</li>
-                    <li >Empty plastic bottles</li>
-                    <li >Glue gun</li>
-                    <li >Newspapers</li>
-                    <li >Tape</li>
+                    <li>Cardboard</li>
+                    <li>Empty plastic bottles</li>
+                    <li>Glue gun</li>
+                    <li>Newspapers</li>
+                    <li>Tape</li>
                 </ul>
                 <ul class="list-disc">
-                    <li >Scissors</li>
-                    <li >Tongue depressors</li>
-                    <li >Rubber bands</li>
-                    <li >Straws</li>
+                    <li>Scissors</li>
+                    <li>Tongue depressors</li>
+                    <li>Rubber bands</li>
+                    <li>Straws</li>
                 </ul>
             </div>
             <ul class="list-disc ">
-                <li >Use recycled materials as much as possible for the making of the flying machines.
+                <li>Use recycled materials as much as possible for the making of the flying machines.
                 </li>
             </ul>
         </div>
@@ -76,13 +76,13 @@
             <div class="flex gap-[3vw] items-center">
                 <ul class="list-disc text-[#F7B94A]">
                     <h2>Some reference for ideas:</h2>
-                    <li ><a href="https://viewsfromastepstool.com/flying-machine-stem-challenge/"
+                    <li><a href="https://viewsfromastepstool.com/flying-machine-stem-challenge/"
                             target="_blank">https://viewsfromastepstool.com/flying-machine-stem-challenge/</a></li>
-                    <li ><a href="https://www.youtube.com/watch?y=jo_M4vDqaAw"
+                    <li><a href="https://www.youtube.com/watch?y=jo_M4vDqaAw"
                             target="_blank">https://www.youtube.com/watch?y=jo_M4vDqaAw</a></li>
-                    <li ><a href="https://www.instructables.com/Squeeze-Bottle-Rockets/"
+                    <li><a href="https://www.instructables.com/Squeeze-Bottle-Rockets/"
                             target="_blank">https://www.instructables.com/Squeeze-Bottle-Rockets/</a></li>
-                    <li ><a href="https://www.youtube.com/watch?y=-jm81EDnFMU"
+                    <li><a href="https://www.youtube.com/watch?y=-jm81EDnFMU"
                             target="_blank">https://www.youtube.com/watch?y=-jm81EDnFMU</a></li>
                 </ul>
             </div>
@@ -92,15 +92,15 @@
 
 
     {{-- sldie 3 --}}
-    <div class=" slide t-slide text-start !text-white">
-        <div>
+    <div class="t-slide text-start !text-white">
+        <div class="pt-[3vw]">
             <h2 class=" t-title">Additional info on rocket launch:</h2>
-            <ul class="list-disc text-[#F7B94A] space-y-10">
-                <li >
+            <ul class="list-disc text-[#F7B94A] space-y-3">
+                <li>
                     <a href="https://www.youtube.com/watch?v=oMeXcBk1x-c">
                         https://www.youtube.com/watch?v=oMeXcBk1x-c</a>
                 </li>
-                <li >
+                <li>
                     <a href="https://spaceplace.nasa.gov/launching-into-space/en/">
                         https://spaceplace.nasa.gov/launching-into-space/en/</a>
                 </li>
@@ -112,40 +112,47 @@
 
 
     {{-- slide 4 --}}
-    <div class="slide flex t-slide  flex-col justify-start  text-2xl text-start !text-white">
-        <div class="flex w-[100%] items-center justify-between">
-            <div>
-                <h2 class=" t-title">Notes:</h2>
-                <ul class="list-disc leading-relaxed">
-                    <li>
-                    <span class="flex items-center whitespace-nowrap">
-                        If you see
-                        <span>
-                            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s27.png') }}"
-                                class="!max-w-[2.5vw]" />
-                        </span>
-                        next to a picture,click on the picture to watch the video.
+    <div class=" t-slide text-start flex items-center !text-white !w-[53vw]">
+        <div>
+            <h2 class="t-title ">Notes:</h2>
+            <ul class="list-disc space-y-3">
+                <li>
+                    <span class="relative">
+                        If you see <span class="opacity-0">---</span>next to a picture, click on the picture to watch the
+                        video.
+                        <img class="t-video-btn absolute top-[-1vw] left-[7.6vw]"
+                            src="{{ asset('assets/images/pptimages/video.png') }}" />
                     </span>
                 </li>
-                    <li >Emphasise and use the keywords during hands-on sessions.</li>
-                    <li >Print out the Learning Journal (if any) for every child to complete at the end
-                        of the lesson.
-                    </li>
-                    <li >
-                        <span class="flex items-center whitespace-nowrap">
-                        Click on this shortcut icon
-                        <span>
-                            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s28.png') }}"
-                                class="!max-w-[2.5vw]" />
-                        </span>
-                        if you need to go to some parts of the lesson quickly.
+                <li>
+                    Always ask questions to encourage children to think and share their ideas first before giving out
+                    any information.
+                </li>
+
+                <li>Emphasise and use the keywords during hands-on sessions.</li>
+
+                <li>
+                    Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
+                </li>
+
+                <li>
+                    <span class="relative">
+                        Click on this shortcut icon <span class="opacity-0">---</span> if you need to go to some parts of
+                        the lesson quickly.
+                        <img src="{{ asset('assets/images/pptimages/home-btn.png') }}"
+                            class="t-home-btn absolute top-0 left-[19vw]" />
                     </span>
-                    </li>
-                </ul>
-            </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="Teacher" />
+                </li>
+
+            </ul>
         </div>
+
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
+
+
+
+
     {{-- ========================================================== --}}
     {{-- Buttons --}}
     <div class="down-btn-container">
@@ -188,7 +195,7 @@
 @push('script')
     <script>
         document.addEventListener("DOMContentLoaded", () => {
-            const slides = document.querySelectorAll(".slide");
+            const slides = document.querySelectorAll(".t-slide");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
             const doneButton = document.querySelector(".doneButton"); //   DONE button
@@ -234,7 +241,7 @@
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('k2Aerodynamics') }}";
+                    window.location.href = "{{ route('FlyingSelection') }}";
                 });
             }
             showSlide(currentSlide);

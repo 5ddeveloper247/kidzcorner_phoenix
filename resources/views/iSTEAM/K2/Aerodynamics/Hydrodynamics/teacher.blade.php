@@ -7,7 +7,7 @@
 
 
     {{-- sldie 1  --}}
-    <div class=" slide flex t-slide !text-white flex-col justify-start text-start">
+    <div class="flex t-slide !text-white flex-col justify-around text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -43,7 +43,7 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex t-slide !text-white flex-col justify-start items-center text-start">
+    <div class="flex t-slide !text-white flex-col justify-start items-center text-start">
         <div class="self-start">
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc">
@@ -64,43 +64,51 @@
                 </li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/aero/hydro/h22.png') }}" class="w-img2" />
+        <img src="{{ asset('assets/images/K2/aero/hydro/h22.png') }}" class="img-normal-md" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- sldie 3 --}}
-    <div class="slide flex t-slide  flex-col justify-start  text-2xl text-start !text-white">
-        <div class="flex w-[100%] items-center justify-between">
-            <div>
-                <h2 class=" t-title">Notes:</h2>
-                <ul class="list-disc leading-relaxed">
-                    <li><span class="flex items-center whitespace-nowrap">If you see
-                            <span>
-                                <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s27.png') }}"
-                                    class="!max-w-[2.5vw]" />
-                            </span>
-                            next to a picture,click on the picture to watch the video.
-                        </span>
-                    </li>
-                    <li>Emphasise and use the keywords during hands-on sessions.</li>
-                    <li>Print out the Learning Journal (if any) for every child to complete at the end
-                        of the lesson.
-                    </li>
-                    <li><span class="flex items-center whitespace-nowrap">
-                            Click on this shortcut icon
-                            <span>
-                                <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s28.png') }}"
-                                    class="!max-w-[2.5vw]" />
-                            </span>
-                            if you need to go to some parts of the lesson quickly.
-                        </span>
-                    </li>
-                </ul>
-            </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="Teacher" />
+    <div class=" t-slide text-start flex items-center !text-white !w-[53vw]">
+        <div>
+            <h2 class="t-title ">Notes:</h2>
+            <ul class="list-disc space-y-3">
+                <li>
+                    <span class="relative">
+                        If you see <span class="opacity-0">---</span>next to a picture, click on the picture to watch the
+                        video.
+                        <img class="t-video-btn absolute top-[-1vw] left-[7.6vw]"
+                            src="{{ asset('assets/images/pptimages/video.png') }}" />
+                    </span>
+                </li>
+
+                <li>
+                    Always ask questions to encourage children to think and share their ideas first before giving out
+                    any information.
+                </li>
+
+                <li>Emphasise and use the keywords during hands-on sessions.</li>
+
+                <li>
+                    Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
+                </li>
+
+                <li>
+                    <span class="relative">
+                        Click on this shortcut icon <span class="opacity-0">---</span> if you need to go to some parts of
+                        the lesson quickly.
+                        <img src="{{ asset('assets/images/pptimages/home-btn.png') }}"
+                            class="t-home-btn absolute top-0 left-[19vw]" />
+                    </span>
+                </li>
+
+            </ul>
         </div>
+
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
+
 
 
 
@@ -150,7 +158,7 @@
 @push('script')
     <script>
         document.addEventListener("DOMContentLoaded", () => {
-            const slides = document.querySelectorAll(".slide");
+            const slides = document.querySelectorAll(".t-slide");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
             const doneButton = document.querySelector(".doneButton"); //   DONE button
@@ -196,7 +204,7 @@
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('k2Aerodynamics') }}";
+                    window.location.href = "{{ route('HydrodynamicsSelection') }}";
                 });
             }
             showSlide(currentSlide);

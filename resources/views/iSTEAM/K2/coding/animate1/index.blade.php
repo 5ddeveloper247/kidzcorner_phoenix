@@ -3,18 +3,16 @@
 
 @section('content')
 
-    <div id="topDiv" class="flex flex-col items-center gap-[3vw] !justify-center ">
+    <div id="topDiv" class="flex flex-col items-center ">
         <div class="indexTitle    stroke">Animate a Character (1)</div>
         <h2 class="text-2xl sm:text-3xl lg:text-4xl !text-white stroke ">
             Explore and learn how to create animated stories using
             ScratchJr; learn how to programme a character to move</h2>
 
-        {{-- next Button --}}
-        <div class="down-btn-container">
+      
             <button class="nextButton">
                 <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
             </button>
-        </div>
     </div>
 
     <div id="buttons" class="absolute flex flex-row gap-6 z-90">

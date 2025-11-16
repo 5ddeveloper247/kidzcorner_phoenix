@@ -6,7 +6,7 @@
     <div id="topDiv" class="flex flex-col  items-center ">
         <div class="indexTitle stroke">Evolution of Aeroplanes</div>
         <h2 class=" !text-white">
-            Learn about the history of aeroplane invention; <br>
+            Learn about the history of aeroplane invention; 
             learn about aerodynamics in vehicles and sports</h2>
 
 

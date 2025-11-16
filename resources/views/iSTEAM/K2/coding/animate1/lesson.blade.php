@@ -2,13 +2,13 @@
 @section('title', 'Dynamic Presentation')
 
 @section('content')
-    
-{{-- title --}}
+
+    {{-- title --}}
     <h2 class="top-title stroke">Animate a Character (1)</h2>
 
     {{-- Slide 1 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="/assets/images/K2/animate1/a1.png" />
+        <img src="/assets/images/K2/animate1/a1.png" class="img-md" />
         <h2 class="title stroke">Children, what is this new tool that we have been learning to
             use recently? What can we do with it?</h2>
     </div>
@@ -18,7 +18,7 @@
     {{-- Slide 2 --}}
     {{-- pic missing --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="/assets/images/K2/animate1/gl1.png" />
+        <img src="/assets/images/K2/animate1/gl1.png" class="img-md" />
         <h2 class="title stroke">We used ScratchJr to create our own stories.</h2>
         <p class="note">Note: Have children point out the features that enable them to add background and character.</p>
     </div>
@@ -27,7 +27,7 @@
 
     {{-- Slide 3 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <video id="video1" class="pointer-events-none video1 ">
+        <video id="video1" class="pointer-events-none video-md ">
             <source src="{{ asset('assets/images/K2/animate1/225.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -43,7 +43,7 @@
 
     {{-- slide 4 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <video id="video2" class="pointer-events-none video1 ">
+        <video id="video2" class="pointer-events-none video-md ">
             <source src="{{ asset('assets/images/K2/animate1/225.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -59,8 +59,8 @@
     {{-- Slide 5 --}}
     <div class="slide flex flex-col items-center justify-center  ">
         <div class="flex gap-[1vw] items-center">
-            <img src="/assets/images/K2/animate1/a3.png" class="w-img" />
-            <video id="video3" class="pointer-events-none video1 ">
+            <img src="/assets/images/K2/animate1/a3.png" class="img-sm" />
+            <video id="video3" class="pointer-events-none video-md ">
                 <source src="{{ asset('assets/images/K2/animate1/225.mp4') }}" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
@@ -78,7 +78,7 @@
     <div class="slide flex flex-col items-center justify-center  ">
         <div class="flex gap-[1vw]  items-center">
             <img src="/assets/images/K2/coding/gl1.png" class="!w-[16vw]" />
-            <video id="video4" class="pointer-events-none video1 ">
+            <video id="video4" class="pointer-events-none video-md ">
                 <source src="{{ asset('assets/images/K2/final/224.mp4') }}" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
@@ -106,7 +106,7 @@
 
     {{-- slide 8 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="/assets/images/K2/animate1/a4.png" />
+        <img src="/assets/images/K2/animate1/a4.png" class="img-md" />
         <h2 class="title stroke">A programme is a set of step-by-step instructions that tells a
             machine what to do and how to do it, somewhat like a recipe.</h2>
     </div>
@@ -116,8 +116,8 @@
     <div class="slide flex flex-col items-center justify-center  ">
         <div class="flex gap-[1vw">
 
-            <img src="/assets/images/K2/animate1/a5.png" class="w-img" />
-            <img src="/assets/images/K2/animate1/a6.png" class="w-img" />
+            <img src="/assets/images/K2/animate1/a5.png" class="img-sm" />
+            <img src="/assets/images/K2/animate1/a6.png" class="img-sm" />
         </div>
 
         <h2 class="title stroke">Many things around us are controlled by different
@@ -127,7 +127,7 @@
 
     {{-- Slide 17 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="/assets/images/K2/animate1/a7.png" />
+        <img src="/assets/images/K2/animate1/a7.png" class="img-md" />
         <h2 class="title stroke">When someone is creating a programme for a machine,
             it is a task called programming or coding.</h2>
     </div>
@@ -137,8 +137,8 @@
     <div class="slide flex flex-col items-center justify-center  ">
         <div class="flex gap-[1vw">
 
-            <img src="/assets/images/K2/animate1/a5.png" class="w-img" />
-            <img src="/assets/images/K2/animate1/a6.png" class="w-img" />
+            <img src="/assets/images/K2/animate1/a5.png" class="img-sm" />
+            <img src="/assets/images/K2/animate1/a6.png" class="img-sm" />
         </div>
 
         <h2 class="title stroke">Learning of basic programming can help us
@@ -153,8 +153,8 @@
     <div class="slide flex flex-col items-center justify-center  ">
         <div class="flex gap-[1vw">
 
-            <img class="w-img" src="/assets/images/K2/animate1/a5.png" />
-            <img class="w-img" src="/assets/images/K2/animate1/a7.png" />
+            <img class="img-sm" src="/assets/images/K2/animate1/a5.png" />
+            <img class="img-sm" src="/assets/images/K2/animate1/a7.png" />
         </div>
 
         <h2 class="title stroke">If you are creative, you may create new programmes
@@ -175,7 +175,7 @@
             </div>
 
         </div>
-        <img src="/assets/images/K2/animate1/a8.png" />
+        <img src="/assets/images/K2/animate1/a8.png" class="img-xl" />
 
         <h2 class="title stroke">Indeed, both the apps have different commands in them.</h2>
 
@@ -197,7 +197,7 @@
             </div>
 
         </div>
-        <img src="/assets/images/K2/animate1/a9.png" />
+        <img src="/assets/images/K2/animate1/a9.png" class="img-xl" />
 
         <h2 class="title stroke">Each command has a set of programming blocks.</h2>
 
@@ -213,12 +213,12 @@
             <div>
 
                 <h2 class="title stroke">Blockly</h2>
-                <img src="/assets/images/K2/animate1/a10.png" class="w-img" />
+                <img src="/assets/images/K2/animate1/a10.png" class="img-sm" />
             </div>
             <div>
 
                 <h2 class="title stroke">ScratchJr</h2>
-                <img src="/assets/images/K2/animate1/a11.png" class="w-img" />
+                <img src="/assets/images/K2/animate1/a11.png" class="img-sm" />
             </div>
 
         </div>
@@ -233,27 +233,8 @@
 
     {{-- Slide 21 --}}
     <div class="slide flex flex-col items-center justify-center  relative">
-        <div class="flex  gap-[1vw  items-center  ">
-            <div class=" flex flex-col gap-[.6vw]">
-                <img src="/assets/images/K2/animate1/a12.png" class="!max-w-[13vw]" />
-                <img src="/assets/images/K2/animate1/a13.png" class="!max-w-[13vw]" />
-            </div>
-            <div class=" flex flex-col gap-[2vw]">
-                <img src="/assets/images/K2/animate1/a14.png" class="!max-w-[2.5vw]" />
-                <img src="/assets/images/K2/animate1/a15.png" class="!max-w-[2.5vw]" />
-            </div>
-            <div class=" flex flex-col gap-[.6vw]">
-                <img src="/assets/images/K2/animate1/a17.png" class="!max-w-[13vw]" />
-                <img src="/assets/images/K2/animate1/a18.png" class="!max-w-[13vw]" />
-            </div>
-            <div>
-                <img src="/assets/images/K2/animate1/a16.png" class="!max-w-[4vw]" />
-            </div>
-            <div>
-                <img class="absolute  bottom-[11rem] right-[3rem] !max-w-[2.5vw]"
-                    src="/assets/images/K2/animate1/a15.png" />
-            </div>
-        </div>
+        <img src="/assets/images/K2/animate1/gl2.png" class="img-lg" />
+
         <h2 class="title stroke">Open the application and start a new project.</h2>
 
         <p class="note">Note: Have children verbally direct the teacher to do this step.</p>
@@ -265,17 +246,17 @@
 
     {{-- Slide 22 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img class="w-img" src="/assets/images/K2/animate1/a13.png" />
+        <img src="/assets/images/K2/animate1/a13.png" class="img-md" />
         <h2 class="title stroke">This command is called Motion Blocks.
             It allows us to design movements for a character.</h2>
-        <p class="note">Note: <button class="text-[#F7B94A]click-btn1">Click here</button> to guide
+        <p class="note">Note: <a class="text-[#F7B94A] click-btn1">Click here</a> to guide
             children explore and understand the details and use of Motion Blocks.</p>
     </div>
 
 
     {{-- Slide 24 --}}
     <div class="slide flex click1 flex-col items-center justify-center  ">
-        <img src="/assets/images/K2/animate1/a19.png" class="large-img6" />
+        <img src="/assets/images/K2/animate1/a19.png" class="img-xl" />
 
         <h2 class="title stroke">Motion Blocks has a set of programming blocks.
             Each block here represents a movement.</h2>
@@ -287,14 +268,20 @@
     {{-- Slide 25 --}}
     <div class="slide flex click1 flex-col items-center justify-center  ">
         <div class="flex  gap-[1vw]">
-            <img src="/assets/images/K2/animate1/a20.png" class="large-img3" />
-            <img src="/assets/images/K2/animate1/a21.png" class="large-img3" />
+            <img src="/assets/images/K2/animate1/a20.png" class="img-sm" />
+            <video id="video5" class="pointer-events-none video-md ">
+                <source src="{{ asset('assets/images/K2/animate1/226.mp4') }}" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
         </div>
 
         <h2 class="title stroke">Tap, drag and place a Move Right programming block
             to the programming area.</h2>
         <p class="note">Note: Show children how to do so.</p>
-
+        <!-- Video Trigger Button -->
+        <div onclick="toggleVideo('video5')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
+        </div>
 
     </div>
 
@@ -303,10 +290,13 @@
     <div class="slide flex click1 flex-col items-center justify-center  ">
         <div class="flex  gap-[1vw]  items-center">
             <div>
-                <img src="/assets/images/K2/animate1/a22.png" class="large-img3" />
+                <img src="/assets/images/K2/animate1/a22.png" class="img-sm" />
             </div>
             <div>
-                <img src="/assets/images/K2/animate1/a23.png" class="large-img3" />
+                <video id="video6" class="pointer-events-none video-md ">
+                    <source src="{{ asset('assets/images/K2/animate1/227.mp4') }}" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
             </div>
 
         </div>
@@ -314,7 +304,10 @@
         <h2 class="title stroke">Tap the block once to see how the character moves.</h2>
         <p class="note">Note: Explain to children that the Move Right block makes the character move one step to the
             right.</p>
-
+        <!-- Video Trigger Button -->
+        <div onclick="toggleVideo('video6')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
+        </div>
 
     </div>
 
@@ -323,10 +316,13 @@
     <div class="slide flex click1 flex-col items-center justify-center  ">
         <div class="flex  gap-[1vw]  items-center">
             <div>
-                <img src="/assets/images/K2/animate1/a22.png" class="large-img3" />
+                <img src="/assets/images/K2/animate1/a22.png" class="img-sm" />
             </div>
             <div>
-                <img src="/assets/images/K2/animate1/a23.png" class="large-img3" />
+                <video id="video7" class="pointer-events-none video-md ">
+                    <source src="{{ asset('assets/images/K2/animate1/228.mp4') }}" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
             </div>
 
         </div>
@@ -334,7 +330,10 @@
         <h2 class="title stroke">Tap the block five times to see how the character moves.</h2>
         <p class="note">Note: Explain to children that the Move Right block makes the character move one step to the
             right.</p>
-
+        <!-- Video Trigger Button -->
+        <div onclick="toggleVideo('video7')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
+        </div>
 
     </div>
 
@@ -342,48 +341,60 @@
     <div class="slide flex click1 flex-col items-center justify-center  ">
         <div class="flex  gap-[1vw]  items-center">
             <div>
-                <img src="/assets/images/K2/animate1/a24.png" class="large-img3" />
+                <img src="/assets/images/K2/animate1/a24.png" class="img-sm" />
             </div>
-            <div>
-                <img src="/assets/images/K2/animate1/a23.png" class="large-img3" />
-            </div>
+            <video id="video8" class="pointer-events-none video-md ">
+                <source src="{{ asset('assets/images/K2/animate1/229.mp4') }}" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
 
         </div>
 
         <h2 class="title stroke">Tap here to make the character return to its starting point.</h2>
         <p class="note">Note: Explain to children that this is a position reset button for all the characters on the
             stage.</p>
-
+        <!-- Video Trigger Button -->
+        <div onclick="toggleVideo('video8')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
+        </div>
 
     </div>
 
     {{-- Slide 29 --}}
     <div class="slide flex click1 flex-col items-center justify-center  ">
-        <div class="flex   items-center">
-            <div class="flex    items-center">
-                <img src="/assets/images/K2/animate1/a25.png" class="large-img3" />
-                <img src="/assets/images/K2/animate1/a26.png" class="large-img3" />
-            </div>
-            <img src="/assets/images/K2/animate1/a23.png" class="large-img3" />
 
+        <div class="flex    items-center">
+            <img src="/assets/images/K2/animate1/a25.png" class="img-sm" />
+            <video id="video9" class="pointer-events-none video-md ">
+                <source src="{{ asset('assets/images/K2/animate1/230.mp4') }}" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
         </div>
 
 
         <h2 class="title stroke">Tap to change the number on the block from 1 to 5
             and then tap the block to see how the character moves.</h2>
-        <p class="note">Note: Explain to children that the number on the block decides how many steps the character will
+        <p class="note">Note: Explain to children that the number on the block decides how many steps the character
+            will
             move.
         </p>
+        <!-- Video Trigger Button -->
+        <div onclick="toggleVideo('video9')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
+        </div>
     </div>
 
     {{-- slide 30 --}}
     <div class="slide flex click1 flex-col items-center justify-center  ">
         <div class="flex  gap-[1vw]  items-center">
             <div>
-                <img src="/assets/images/K2/animate1/a27.png" class="large-img3" />
+                <img src="/assets/images/K2/animate1/a27.png" class="img-sm" />
             </div>
             <div>
-                <img src="/assets/images/K2/animate1/a23.png" class="large-img3" />
+                <video id="video10" class="pointer-events-none video-md ">
+                    <source src="{{ asset('assets/images/K2/animate1/231.mp4') }}" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>>
             </div>
 
         </div>
@@ -391,7 +402,10 @@
         <h2 class="title stroke">Tap here to have a grid view of the stage.</h2>
         <p class="note">Note: Have children guess the use of the grid.</p>
 
-
+        <!-- Video Trigger Button -->
+        <div onclick="toggleVideo('video10')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
+        </div>
     </div>
 
 
@@ -399,18 +413,22 @@
     <div class="slide flex click1 flex-col items-center justify-center  ">
         <div class="flex  gap-[1vw]  items-center">
             <div>
-                <img src="/assets/images/K2/animate1/a28.png" class="large-img3" />
+                <img src="/assets/images/K2/animate1/a28.png" class="img-sm" />
             </div>
-            <div>
-                <img src="/assets/images/K2/animate1/a29.png" class="large-img3" />
-            </div>
+            <video id="video11" class="pointer-events-none video-md ">
+                <source src="{{ asset('assets/images/K2/animate1/232.mp4') }}" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
 
         </div>
 
         <h2 class="title stroke">Tap on the block to see how the character moves.</h2>
         <p class="note">Note: Guide children to note that the character moves from grid square 11 to 16.</p>
 
-
+        <!-- Video Trigger Button -->
+        <div onclick="toggleVideo('video11')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
+        </div>
     </div>
 
     {{-- slide 32 --}}
@@ -424,22 +442,36 @@
 
     {{-- slide 33 --}}
     <div class="slide flex click1 flex-col items-center justify-center  ">
-        <img src="/assets/images/K2/animate1/a29.png" />
+        <video id="video12" class="pointer-events-none video-md ">
+            <source src="{{ asset('assets/images/K2/animate1/233.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
         <h2 class="title stroke">Clearly, each step of a move for a character can be counted
             with the help of the grid squares.</h2>
+        <!-- Video Trigger Button -->
+        <div onclick="toggleVideo('video12')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
+        </div>
     </div>
 
 
     {{-- slide 34 --}}
     <div class="slide flex click1 flex-col items-center justify-center  ">
         <div class="flex  gap-[1vw]  items-center">
-            <img src="/assets/images/K2/animate1/a31.png" class="w-img" />
-            <img src="/assets/images/K2/animate1/a29.png" class="w-img" />
+            <img src="/assets/images/K2/animate1/a31.png" class="img-sm" />
+            <video id="video13" class="pointer-events-none video-md ">
+                <source src="{{ asset('assets/images/K2/animate1/234.mp4') }}" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
         </div>
 
         <h2 class="title stroke">To delete a programming block, tap and drag it out of the
             programming area.</h2>
         <p class="note">Note: Show children how to do so.</p>
+        <!-- Video Trigger Button -->
+        <div onclick="toggleVideo('video13')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
+        </div>
     </div>
 
 
@@ -472,11 +504,27 @@
         <div class="flex gap-x-[1vw]">
             <div>
                 <h2 class="title stroke">Sample 1</h2>
-                <img src="/assets/images/K2/animate1/a33.png" class="!w-[16vw]" />
+                <!-- Video Trigger Button -->
+                <div onclick="toggleVideo('video14')"
+                    class="absolute top-1/2 left-[-10vw] z-[99] -translate-y-1/2 video-btn">
+                    <img src="/assets/images/pptimages/video.png" />
+                </div>
+                <video id="video14" class="pointer-events-none video-sm ">
+                    <source src="{{ asset('assets/images/K2/animate1/235.mp4') }}" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
             </div>
             <div>
                 <h2 class="title stroke">Sample 2</h2>
-                <img src="/assets/images/K2/animate1/a33.png" class="!w-[16vw]" />
+                <video id="video15" class="pointer-events-none video-sm ">
+                    <source src="{{ asset('assets/images/K2/animate1/236.mp4') }}" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <!-- Video Trigger Button -->
+                <div onclick="toggleVideo('video15')"
+                    class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
+                    <img src="/assets/images/pptimages/video.png" />
+                </div>
             </div>
 
         </div>
@@ -491,10 +539,18 @@
 
     {{-- slide 38 --}}
     <div class="slide flex click1 flex-col items-center justify-center  ">
-        <img src="/assets/images/K2/animate1/a33.png" />
+        <video id="video16" class="pointer-events-none video-md ">
+            <source src="{{ asset('assets/images/K2/animate1/237.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
         <h2 class="title stroke">Doesn't the cat look more lively and attractive?</h2>
-        <p class="note">Note: Tell children that using different combination of programming blocks to control a character
+        <p class="note">Note: Tell children that using different combination of programming blocks to control a
+            character
             will give us the impression that the character is doing different things.</p>
+        <!-- Video Trigger Button -->
+        <div onclick="toggleVideo('video16')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
+        </div>
     </div>
 
 
@@ -509,34 +565,48 @@
     {{-- slide 40 --}}
     <div class="slide flex click1 flex-col items-center justify-center  ">
         <div class="flex  gap-[1vw]  items-center">
-            <img src="/assets/images/K2/animate1/a35.png" class="w-img" />
-            <img src="/assets/images/K2/animate1/a33.png" class="w-img" />
+            <img src="/assets/images/K2/animate1/a35.png" class="img-sm" />
+            <video id="video17" class="pointer-events-none video-md ">
+                <source src="{{ asset('assets/images/K2/animate1/238.mp4') }}" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
         </div>
         <h2 class="title stroke">You may tap here every time you want the character
             to return to its starting point.</h2>
+        <!-- Video Trigger Button -->
+        <div onclick="toggleVideo('video17')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
+        </div>
     </div>
 
 
     {{-- slide 41 --}}
     <div class="slide flex click1 flex-col items-center justify-center  ">
         <div class="flex  gap-[1vw]  items-center">
-            <img src="/assets/images/K2/animate1/a36.png" class="w-img" />
-            <img src="/assets/images/K2/animate1/a33.png" class="w-img" />
+            <img src="/assets/images/K2/animate1/a36.png" class="img-sm" />
+            <video id="video18" class="pointer-events-none video-md ">
+                <source src="{{ asset('assets/images/K2/animate1/239.mp4') }}" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
         </div>
 
         <h2 class="title stroke">You may also add the Go Home programming block
             at the end of your programme to make the character
             return to its starting point.</h2>
+        <!-- Video Trigger Button -->
+        <div onclick="toggleVideo('video18')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
+        </div>
     </div>
 
 
 
     {{-- Slide 42 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img class="w-img" src="/assets/images/K2/animate1/a37.png" />
+        <img class="img-sm" src="/assets/images/K2/animate1/a37.png" />
         <h2 class="title stroke">This command is called Triggering Blocks It allows us to
             choose wayso start running a programme of a character.</h2>
-        <p class="note">Note: <button class="text-[#F7B94A]click-btn2">Click here</button> to guide children
+        <p class="note">Note: <button class="text-[#F7B94A] click-btn2">Click here</button> to guide children
             explore and understand the details and use of Triggering Blocks</p>
     </div>
 
@@ -545,7 +615,8 @@
         <img src="/assets/images/K2/animate1/a38.png" />
         <h2 class="title stroke">Triggering Blocks has a set of programming blocks. Each block
             here is a way to start running a programme on the stage.</h2>
-        <p class="note">Note: Show and name each programming block here. Tell children that we'll only use Start On Green
+        <p class="note">Note: Show and name each programming block here. Tell children that we'll only use Start On
+            Green
             Flag for now.</p>
 
 
@@ -557,10 +628,13 @@
     <div class="slide flex click2 flex-col items-center justify-center gap-[1vw] ">
         <div class="flex  gap-[1vw]  items-center">
             <div>
-                <img src="/assets/images/K2/animate1/a39.png" class="large-img3" />
+                <img src="/assets/images/K2/animate1/a39.png" class="img-sm" />
             </div>
             <div>
-                <img src="/assets/images/K2/animate1/a40.png" class="large-img3" />
+                <video id="video19" class="pointer-events-none video-md ">
+                    <source src="{{ asset('assets/images/K2/animate1/240.mp4') }}" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
             </div>
 
         </div>
@@ -569,17 +643,25 @@
             Flag programming block must be added in front of the
             programme so that the character will animate on the stage.</h2>
 
-        <p class="note">Note: Show children how to do so. Show them that the programme will not run on stage if no Green
+        <p class="note">Note: Show children how to do so. Show them that the programme will not run on stage if no
+            Green
             Flag in front of it.</p>
+        <!-- Video Trigger Button -->
+        <div onclick="toggleVideo('video19')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
+        </div>
     </div>
     {{-- slide 45 --}}
     <div class="slide flex click2 flex-col items-center justify-center  ">
         <div class="flex  gap-[1vw]  items-center">
             <div>
-                <img src="/assets/images/K2/animate1/a41.png" class="large-img3" />
+                <img src="/assets/images/K2/animate1/a41.png" class="img-sm" />
             </div>
             <div>
-                <img src="/assets/images/K2/animate1/a42.png" class="large-img3" />
+                <video id="video20" class="pointer-events-none video-md ">
+                    <source src="{{ asset('assets/images/K2/animate1/241.mp4') }}" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
             </div>
 
         </div>
@@ -591,9 +673,13 @@
         </h2>
 
         <p class="note">Note: Show children how to do so. </p>
+        <!-- Video Trigger Button -->
+        <div onclick="toggleVideo('video20')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
+        </div>
     </div>
     {{-- slide 46 --}}
-    <div class="slide flex flex-col items-center justify-center  ">
+    <div class="slide flex flex-col items-center justify-between h-[28vw]  ">
         <h2 class="title stroke !text-white">Hands-on Time</h2>
         <ul class="title stroke !text-start">
             <li>Mission:</li>
@@ -613,8 +699,8 @@
         </ul>
 
         <div class="flex gap-[1vw]">
-            <img src="/assets/images/K2/animate1/a43.png" class="large-img3" />
-            <img src="/assets/images/K2/animate1/a44.png" class="large-img3" />
+            <img src="/assets/images/K2/animate1/a43.png" class="img-sm" />
+            <img src="/assets/images/K2/animate1/a44.png" class="img-sm" />
 
         </div>
 
@@ -628,9 +714,9 @@
         </ul>
 
         <div class="flex gap-[1vw]  items-center">
-            <img src="/assets/images/K2/animate1/a45.png" class="w-img" />
+            <img src="/assets/images/K2/animate1/a45.png" class="img-sm" />
             <img src="/assets/images/K2/animate1/a14.png" class="!max-w-[2.5vw]" />
-            <img src="/assets/images/K2/animate1/a46.png" class="w-img" />
+            <img src="/assets/images/K2/animate1/a46.png" class="img-sm" />
         </div>
     </div>
 
@@ -644,9 +730,9 @@
         </ul>
 
         <div class="flex gap-[1vw]  items-center">
-            <img src="/assets/images/K2/animate1/a47.png" class="large-img3" />
+            <img src="/assets/images/K2/animate1/a47.png" class="img-sm" />
             <img src="/assets/images/K2/animate1/a14.png" class="!max-w-[2.5vw]" />
-            <img src="/assets/images/K2/animate1/a48.png" class="large-img3" />
+            <img src="/assets/images/K2/animate1/a48.png" class="img-sm" />
         </div>
     </div>
 
@@ -658,7 +744,7 @@
             <li>4. Who will be your dancer? If the cat is not your choice,
                 delete it and choose another character.</li>
         </ul>
-        <img src="/assets/images/K2/animate1/a48.png" class="w-img" />
+        <img src="/assets/images/K2/animate1/a48.png" class="img-normal-md" />
         <p class="note">Note: Verbally guide children that need help.</p>
     </div>
 
@@ -670,7 +756,7 @@
             <li>5. Use your creativity to design and create a dance for your
                 character.</li>
         </ul>
-        <img src="/assets/images/K2/animate1/a48.png" class="!w-[16vw]" />
+        <img src="/assets/images/K2/animate1/a48.png" class="img-normal-md" />
         <p class="note">Note: Remind children that they can only use the programming blocks under the
             Motion Blocks to create the dance.</p>
     </div>
@@ -682,7 +768,7 @@
             <h2 class="title stroke">Steps:</h2>
             <li>6. Showcase your work in the presentation mode</li>
         </ul>
-        <img src="/assets/images/K2/animate1/a49.png" />
+        <img src="/assets/images/K2/animate1/a49.png" class="img-xl" />
         <p class="note">Note: After the showcase, have children vote for the best dancer created.</p>
 
     </div>
@@ -754,7 +840,7 @@
             let specialSlideType = null;
 
             const whereToGoWhenReturn = "{{ route('animate1Selection') }}";
-            const whereToGoWhenDone = "{{ route('animate1Selection') }}";
+            const whereToGoWhenDone = "{{ route('k2coding') }}";
 
             function pauseAllVideos() {
                 const videos = document.querySelectorAll('video');

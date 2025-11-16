@@ -6,7 +6,7 @@
     <div id="topDiv" class="flex flex-col  h-full items-center ">
         <div class="indexTitle    stroke">What is Aerodynamics? 2</div>
         <h2 class=" !text-white ">
-            Understand the concept of Thrust and Drag; <br>
+            Understand the concept of Thrust and Drag;
             understand how aerodynamic forces affect the movement of
             aeroplanes</h2>
 

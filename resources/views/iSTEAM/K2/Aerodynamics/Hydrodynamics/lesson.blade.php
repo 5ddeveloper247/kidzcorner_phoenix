@@ -8,7 +8,7 @@
 
     {{-- Slide 1 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="{{ asset('assets/images/K2/aero/hydro/h1.png') }}" class="!max-w-[40vw]" />
+        <img src="{{ asset('assets/images/K2/aero/hydro/h1.png') }}" class="img-lg" />
         <div class="title stroke">
             <h2>Aerodynamics is the way air moves around things.
                 Anything that moves through air is affected by aerodynamics.</h2>
@@ -19,7 +19,7 @@
 
     {{-- Slide 2 --}}
     <div class="slide hidden flex flex-col items-center">
-        <img src="{{ asset('assets/images/K2/aero/hydro/h3.png') }}" class="!max-w-[40vw]" />
+        <img src="{{ asset('assets/images/K2/aero/hydro/h3.png') }}" class="img-lg" />
         <h2 class="title stroke">Can you name the <span class="!text-white">four aerodynamic forces?</span></h2>
         <p class="text-white">Can you name the four aerodynamic forces?</p>
     </div>
@@ -27,34 +27,34 @@
 
     {{-- Slide 3 --}}
     <div class="slide hidden  flex flex-col items-center ">
-        <img src="{{ asset('assets/images/K2/aero/hydro/h4.png') }}" class="!max-w-[40vw]" />
+        <img src="{{ asset('assets/images/K2/aero/hydro/h4.png') }}" class="img-lg" />
         <h2 class="title stroke text-center">These four aerodynamic forces affect the way an aeroplane
             moves.</h2>
     </div>
 
     {{-- slide 4 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/aero/hydro/h5.png') }}" class="!max-w-[40vw]" />
+        <img src="{{ asset('assets/images/K2/aero/hydro/h5.png') }}" class="img-lg" />
         <h2 class="title stroke text-center">Weight comes from the force of gravity pulling down objects.</h2>
     </div>
 
 
     {{-- Slide 5 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/aero/hydro/h6.png') }}" class="!max-w-[40vw]" />
+        <img src="{{ asset('assets/images/K2/aero/hydro/h6.png') }}" class="img-lg" />
         <h2 class="title stroke">Lift is a force that pushes something up.</h2>
     </div>
 
 
     {{-- slide 6 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K2/aero/hydro/h7.png') }}" class="!max-w-[40vw]" />
+        <img src="{{ asset('assets/images/K2/aero/hydro/h7.png') }}" class="img-lg" />
         <h2 class="title stroke">Thrust is the force that pushes the aeroplane forward.</h2>
     </div>
 
     {{-- slide 7 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K2/aero/hydro/h8.png') }}" class="!max-w-[40vw]" />
+        <img src="{{ asset('assets/images/K2/aero/hydro/h8.png') }}" class="img-lg" />
         <h2 class="title stroke">Drag is the opposing force of thrust that slows down the
             aeroplane.</h2>
     </div>
@@ -62,21 +62,21 @@
 
     {{-- slide 8 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K2/aero/hydro/h4.png') }}" class="!max-w-[40vw]" />
+        <img src="{{ asset('assets/images/K2/aero/hydro/h4.png') }}" class="img-lg" />
         <h2 class="title stroke">Which force has to be higher for the aeroplane to take off?</h2>
         <p class="note">Note: Guide children to share their answers.</p>
     </div>
 
     {{-- slide 9 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K2/aero/hydro/h21.png') }}" class="!max-w-[40vw]" />
+        <img src="{{ asset('assets/images/K2/aero/hydro/h21.png') }}" class="img-lg" />
         <h2 class="title stroke">The aeroplane can only take off into the sky when the lift is
             higher than the weight.</h2>
     </div>
 
     {{-- slide 10 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K2/aero/hydro/h4.png') }}" class="!max-w-[40vw]" />
+        <img src="{{ asset('assets/images/K2/aero/hydro/h4.png') }}" class="img-lg" />
         <h2 class="title stroke">Which force has to be less for the aeroplane to keep moving
             forward during flight?</h2>
         <p class="note">Note: Guide children to share their answers.</p>
@@ -85,7 +85,7 @@
 
     {{-- slide 11 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K2/aero/hydro/h8.png') }}" class="!max-w-[40vw]" />
+        <img src="{{ asset('assets/images/K2/aero/hydro/h8.png') }}" class="img-lg" />
         <h2 class="title stroke">When there is less drag, the aeroplane will be able to keep
             moving forward.</h2>
     </div>
@@ -100,14 +100,14 @@
 
     {{-- slide 13 --}}
     <div class="slide hidden flex flex-col items-center">
-        <img src="{{ asset('assets/images/K2/aero/hydro/h2.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/hydro/h2.png') }}" class="img-lg" />
         <h2 class="title stroke">Hydrodynamics comes from the word hydro (water) and
             dynamic (movement).</h2>
     </div>
 
     {{-- slide 14 --}}
     <div class="slide hidden flex flex-col items-center">
-        <img src="{{ asset('assets/images/K2/aero/hydro/h2.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/hydro/h2.png') }}" class="img-lg" />
         <h2 class="title stroke">Hydrodynamics is the way water or liquid moves around things.</h2>
     </div>
 
@@ -120,13 +120,13 @@
                 <div onclick="toggleVideo('video1')"class="video-btn">
                     <img src="/assets/images/pptimages/video.png" />
                 </div>
-                <video id="video1" class="pointer-events-none !max-w-[15vw] h-[45vh]">
+                <video id="video1" class="pointer-events-none !max-w-[15vw] img-h-md">
                     <source src="{{ asset('assets/images/K2/aero/hydro/215.mp4') }}" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
             </div>
             <div class="flex items-center gap-[4vw]">
-                <video id="video2" class="pointer-events-none !max-w-[15vw] h-[45vh]">
+                <video id="video2" class="pointer-events-none !max-w-[15vw] img-h-md">
                     <source src="{{ asset('assets/images/K2/aero/hydro/216.mp4') }}" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
@@ -141,7 +141,7 @@
 
 
     {{-- slide 16 --}}
-    <div class="slide hidden  flex flex-col items-center justify-between h-[25vh] ">
+    <div class="slide hidden  flex flex-col items-center justify-between h-[15vw] ">
         <h2 class="!text-white title stroke">Hands-on Time 1</h2>
         <div class="slef-start text-start">
             <h2 class="title stroke text-start">Let's find out: <br>
@@ -158,7 +158,7 @@
                 <li>Prepare a flat board/container lid, a tub of water and a peg.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/K2/aero/hydro/h11.png') }}" class="large-img6" />
+        <img src="{{ asset('assets/images/K2/aero/hydro/h11.png') }}" class="img-lg" />
     </div>
 
 
@@ -170,7 +170,7 @@
                 <li>Push the board/lid forward in the water with the flat surface in front</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/K2/aero/hydro/h12.png') }}" class="w-img"/>
+        <img src="{{ asset('assets/images/K2/aero/hydro/h12.png') }}" class="img-md"/>
         <p class="note">Note: Submerge the board/lid at least 3/4 deep into the water and push it forward slowly.</p>
     </div>
 
@@ -183,7 +183,7 @@
                 <li>Turn the board/lid sideways (as shown) and push it through the water.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/K2/aero/hydro/h13.png') }}" class="w-img"/>
+        <img src="{{ asset('assets/images/K2/aero/hydro/h13.png') }}" class="img-md"/>
         <p class="note text-center">Note: Submerge the board/lid at least 3/4 deep into the water and push it forward
             slowly.</p>
     </div>
@@ -228,7 +228,7 @@
 
     {{-- Slide 23 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/aero/hydro/h17.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/hydro/h17.png') }}" class="img-lg" />
         <h2 class="title stroke">Similarly, a person will experience more drag while walking in
             water with their body facing forward.</h2>
     </div>
@@ -236,7 +236,7 @@
 
     {{-- Slide 24 --}}
     <div class="slide hidden flex flex-col items-center justify-center ">
-        <img src="{{ asset('assets/images/K2/aero/hydro/h18.png') }}" class="large-img6" />
+        <img src="{{ asset('assets/images/K2/aero/hydro/h18.png') }}" class="img-xl" />
         <h2 class="title stroke">Look at these pictures. How are boats and ships designed to
             reduce drag in water?</h2>
     </div>
@@ -244,7 +244,7 @@
 
     {{-- Slide 25 --}}
     <div class="slide hidden flex flex-col items-center justify-center ">
-        <img src="{{ asset('assets/images/K2/aero/hydro/h18.png') }}" class="large-img6" />
+        <img src="{{ asset('assets/images/K2/aero/hydro/h18.png') }}" class="img-xl" />
         <h2 class="title stroke">The V-shaped hull of the boats and ships is designed to reduce
             drag as they move through water.</h2>
     </div>
@@ -253,7 +253,7 @@
 
     {{-- Slide 26 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/aero/hydro/h19.png') }}" class="large-img6" />
+        <img src="{{ asset('assets/images/K2/aero/hydro/h19.png') }}" class="img-xl" />
         <h2 class="title stroke">Look at these pictures. Have you seen these before? <br>
             How are they different from normal boats?</h2>
         <p class="note">Note: Encourage children to discuss and share their answers.</p>
@@ -262,7 +262,7 @@
 
     {{-- Slide 27 --}}
     <div class="slide hidden flex flex-col items-center justify-center ">
-        <img src="{{ asset('assets/images/K2/aero/hydro/h19.png') }}" class="large-img6" />
+        <img src="{{ asset('assets/images/K2/aero/hydro/h19.png') }}" class="img-xl" />
         <h2 class="title stroke text-start">Do you think these will move faster or slower as compared to
             normal boats? Why?</h2>
         <p class="note">Note: Encourage children to discuss and share their answers.</p>
@@ -271,14 +271,14 @@
 
     {{-- Slide 28 --}}
     <div class="slide hidden flex flex-col items-center justify-center ">
-        <img src="{{ asset('assets/images/K2/aero/hydro/h19.png') }}" class="large-img6" />
+        <img src="{{ asset('assets/images/K2/aero/hydro/h19.png') }}" class="img-xl" />
         <h2 class="title stroke">These are <span class="!text-white">hydrofoil</span> boats. <br>
             They have underwater wings called hydrofoils.</h2>
     </div>
 
     {{-- Slide 29 --}}
     <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <img src="{{ asset('assets/images/K2/aero/hydro/h20.png') }}" class="large-img6" />
+        <img src="{{ asset('assets/images/K2/aero/hydro/h20.png') }}" class="img-lg" />
         <h2 class="title stroke text-start">The hydrofoils can lift the boat's hull above water, which
             reduces drag and help the boat moves faster.</h2>
     </div>
@@ -351,7 +351,7 @@
 
             // CONFIGURE YOUR ROUTES HERE
             const returnRouteFromFirstSlide = "{{ route('HydrodynamicsSelection') }}";
-            const doneButtonRoute = "{{ route('HydrodynamicsSelection') }}";
+            const doneButtonRoute = "{{ route('k2Aerodynamics') }}";
 
             // Pause all videos when changing slides
             function pauseAllVideos() {

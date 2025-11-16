@@ -6,8 +6,8 @@
     <h2 class="top-title stroke">What is Aerodynamics? 1</h2>
 
     {{-- Slide 1 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <img src="{{ asset('assets/images/K2/aero/aero1/a1.png') }}" />
+    <div class="slide flex flex-col items-center justify-center  ">
+        <img src="{{ asset('assets/images/K2/aero/aero1/a1.png') }}" class="img-md" />
         <div class="title stroke">
             <h2>What will happen when you let go of the ruler?</h2>
         </div>
@@ -17,8 +17,8 @@
     {{-- Slide 2 --}}
     <div class="slide hidden flex flex-col items-center">
         <div class="flex items-end gap-2 justify-center">
-            <img src="{{ asset('assets/images/K2/aero/aero1/a1.png') }}" />
-            <img src="{{ asset('assets/images/K2/aero/aero1/a2.png') }}" />
+            <img src="{{ asset('assets/images/K2/aero/aero1/a1.png') }}" class="img-md" />
+            <img src="{{ asset('assets/images/K2/aero/aero1/a2.png') }}" class="img-md" />
         </div>
         <h2 class="title stroke">These two objects will fall to the ground. Why?</h2>
         <p class="note">Note: Encourage children to discuss and share their views.</p>
@@ -43,15 +43,16 @@
 
     {{-- slide 4 --}}
     <div class="slide hidden flex flex-col items-center">
-        <img src="{{ asset('assets/images/K2/aero/aero1/a3.png') }}" />
-        <h2 class="title stroke">Everything on Earth stays on the ground because of <span class="!text-white">gravity</span>.
+        <img src="{{ asset('assets/images/K2/aero/aero1/a3.png') }}" class="img-h-md" />
+        <h2 class="title stroke">Everything on Earth stays on the ground because of <span
+                class="!text-white">gravity</span>.
         </h2>
     </div>
 
 
     {{-- slide 5 --}}
     <div class="slide hidden flex flex-col items-center">
-        <img src="{{ asset('assets/images/K2/aero/aero1/a4.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/aero1/a5.png') }}" class="img-h-md" />
         <h2 class="title stroke">Sir Isaac Newton was the first scientist to study <span class="!text-white">gravity</span>.
         </h2>
     </div>
@@ -59,7 +60,7 @@
 
     {{-- slide 6 --}}
     <div class="slide hidden flex flex-col items-center">
-        <img src="{{ asset('assets/images/K2/aero/aero1/a5.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/aero1/a4.png') }}" class="img-lg" />
         <h2 class="title stroke">Sir Isaac Newton started studying <span class="!text-white">gravity</span>
             when he saw an apple fall from the tree.</h2>
     </div>
@@ -76,9 +77,9 @@
 
     {{-- slide 8 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <div class="flex items-center gap-5">
-            <img src="{{ asset('assets/images/K2/aero/aero1/a46.png') }}" class="!max-w-[10vw]" />
-            <img src="{{ asset('assets/images/K2/aero/aero1/a7.png') }}" />
+        <div class="flex items-center ">
+            <img src="{{ asset('assets/images/K2/aero/aero1/a46.png') }}" class="img-h-md" />
+            <img src="{{ asset('assets/images/K2/aero/aero1/a7.png') }}" class="img-h-md" />
         </div>
         <h2 class="title stroke">Weight is the force of gravity on an object.</h2>
     </div>
@@ -86,7 +87,7 @@
 
     {{-- slide 9 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/aero/aero1/a7.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/aero1/a7.png') }}" class="img-semi-lg" />
         <h2 class="title stroke">Weight tells us how hard gravity is pulling objects down
             to the ground.</h2>
     </div>
@@ -94,7 +95,7 @@
 
     {{-- slide 10 --}}
     <div class="slide hidden  flex flex-col items-center justify-start gap-4  ">
-        <img src="{{ asset('assets/images/K2/aero/aero1/a3.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/aero1/a3.png') }}" class="img-h-md" />
         <h2 class="title stroke">What do you think will happen if there is no gravity?</h2>
         <p class="note">Note: Encourage children to share their answers.</p>
     </div>
@@ -102,14 +103,14 @@
 
     {{-- slide 11 --}}
     <div class="slide hidden  flex flex-col items-center justify-start gap-4 ">
-        <img src="{{ asset('assets/images/K2/aero/aero1/a8.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/aero1/a8.png') }}" class="img-md" />
         <h2 class="title stroke">If there is no gravity, everything will be floating around.</h2>
     </div>
 
 
     {{-- slide 12 --}}
     <div class="slide hidden  flex flex-col items-center justify-start gap-4  ">
-        <img src="{{ asset('assets/images/K2/aero/aero1/a9.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/aero1/a9.png') }}" class="img-lg" />
         <h2 class="title stroke">Just like everything on Earth, aeroplanes stay on the ground
             when not in use because of gravity.</h2>
     </div>
@@ -117,13 +118,13 @@
 
     {{-- slide 13 --}}
     <div class="slide hidden  flex flex-col items-center justify-start gap-4 ">
-        <img src="{{ asset('assets/images/K2/aero/aero1/a10.png') }}" />
+        <img src="{{ asset('assets/images/K2/aero/aero1/a10.png') }}" class="img-lg" />
         <h2 class="title stroke">Then how does an aeroplane fly in the air?</h2>
         <p class="note">Note: Encourage children to share their answers.</p>
     </div>
 
     {{-- Slide 14 --}}
-    <div class="slide hidden  flex flex-col items-center justify-between h-[50%]  ">
+    <div class="slide hidden  flex flex-col items-center justify-between h-[18vw]  ">
         <h2 class="!text-white title stroke">Hands-on Time 2</h2>
         <div class="title stroke text-start">
             <h2>Let's try these:</h2>
@@ -149,7 +150,7 @@
 
     {{-- slide 16 --}}
     <div class="slide hidden  flex flex-col items-center ">
-        <img src="{{ asset('assets/images/K2/aero/aero1/a11.png') }}" class="!max-w-[40vw]" />
+        <img src="{{ asset('assets/images/K2/aero/aero1/a11.png') }}" class="img-sm" />
         <h2 class="title stroke">The bag with heavier objects requires more force to be
             lifted up because it has to overcome the weight
             that is pulling the bag down.</h2>
@@ -158,7 +159,7 @@
 
     {{-- slide 17 --}}
     <div class="slide hidden  flex flex-col items-center ">
-        <img src="{{ asset('assets/images/K2/aero/aero1/a40.png') }}" class="!max-w-[40vw]" />
+        <img src="{{ asset('assets/images/K2/aero/aero1/a40.png') }}" class="img-lg" />
         <h2 class="title stroke">The heavy aeroplane also has to overcome its weight
             to lift from the ground.</h2>
     </div>
@@ -167,7 +168,7 @@
 
     {{-- slide 18 --}}
     <div class="slide hidden flex flex-col items-center ">
-        <img src="{{ asset('assets/images/K2/aero/aero1/a41.png') }}" class="!max-w-[40vw]" />
+        <img src="{{ asset('assets/images/K2/aero/aero1/a41.png') }}" class="img-lg" />
         <h2 class="title stroke">To overcome its weight, the aeroplane has to generate an
             opposing force called lift.</h2>
     </div>
@@ -175,49 +176,49 @@
 
     {{-- slide 19 --}}
     <div class="slide hidden  flex flex-col items-center justify-center ">
-        <img src="{{ asset('assets/images/K2/aero/aero1/a42.png') }}" class="!max-w-[40vw]" />
+        <img src="{{ asset('assets/images/K2/aero/aero1/a42.png') }}" class="img-lg" />
         <h2 class="title stroke">Lift is a force that pushes something up.</h2>
     </div>
 
     {{-- slide 20 --}}
     {{-- <div class="slide hidden  flex flex-col items-center justify-center ">
-        <img src="{{ asset('assets/images/K2/aero/aero1/a41.png') }}" class="!max-w-[40vw]"  />
+        <img src="{{ asset('assets/images/K2/aero/aero1/a41.png') }}" class="img-lg"  />
         <h2 class="title stroke">Lift is a force that pushes something up.</h2>
     </div> --}}
 
     {{-- slide 21 --}}
     <div class="slide hidden  flex flex-col items-center justify-center ">
-        <img src="{{ asset('assets/images/K2/aero/aero1/a41.png') }}" class="!max-w-[40vw]" />
+        <img src="{{ asset('assets/images/K2/aero/aero1/a41.png') }}" class="img-lg" />
         <h2 class="title stroke">The heavy aeroplane will require a strong force of lift
             to take off into the sky.</h2>
     </div>
 
     {{-- slide 22 --}}
     <div class="slide hidden  flex flex-col items-center justify-center ">
-        <img src="{{ asset('assets/images/K2/aero/aero1/a41.png') }}" class="!max-w-[40vw]" />
+        <img src="{{ asset('assets/images/K2/aero/aero1/a41.png') }}" class="img-lg" />
         <h2 class="title stroke">How does an aeroplane generate lift?</h2>
         <p class="note">Note: Encourage children to discuss and share their answer.</p>
     </div>
 
     {{-- slide 23 --}}
     <div class="slide hidden  flex flex-col items-center justify-center ">
-        <img src="{{ asset('assets/images/K2/aero/aero1/a43.png') }}" class="!max-w-[40vw]" />
+        <img src="{{ asset('assets/images/K2/aero/aero1/a43.png') }}" class="img-lg" />
         <h2 class="title stroke">The force of lift is generated by the wings.</h2>
     </div>
 
 
     {{-- slide 24 --}}
     <div class="slide hidden  flex flex-col items-center ">
-        <img src="{{ asset('assets/images/K2/aero/aero1/a12.png') }}" class="!max-w-[43vw]" />
+        <img src="{{ asset('assets/images/K2/aero/aero1/a12.png') }}" class="img-lg" />
         <h2 class="title stroke">The shape of the aeroplane wings plays an important
             part in generating lift.</h2>
     </div>
 
 
     {{-- Slide 25 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
+    <div class="slide hidden  flex flex-col items-center justify-between h-[18vw]  ">
         <h2 class="!text-white title stroke">Hands-on Time 3</h2>
-        <div class="title stroke text-start space-y-10">
+        <div class="title stroke text-start space-y-3">
             <h2>Mission:</h2>
             <h2>Let's find out how the shape of the aeroplane wings helps to
                 generate lift.</h2>
@@ -238,7 +239,7 @@
                 </li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/K2/aero/aero1/a13.png') }}" class="w-img3" />
+        <img src="{{ asset('assets/images/K2/aero/aero1/a13.png') }}" class="img-lg" />
     </div>
 
 
@@ -253,7 +254,7 @@
                 </li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/K2/aero/aero1/a14.png') }}" class="w-img3" />
+        <img src="{{ asset('assets/images/K2/aero/aero1/a14.png') }}" class="img-lg" />
     </div>
 
 
@@ -288,21 +289,22 @@
 
     {{-- Slide 30 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/aero/aero1/a44.png') }}" class="w-img3" />
-        <h2 class="title stroke">Aeroplane wings are designed in the shape of an <span class="!text-white">aerofoil</span>.
+        <img src="{{ asset('assets/images/K2/aero/aero1/a44.png') }}" class="img-xl" />
+        <h2 class="title stroke">Aeroplane wings are designed in the shape of an <span
+                class="!text-white">aerofoil</span>.
         </h2>
     </div>
 
     {{-- Slide 31 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/aero/aero1/a52.png') }}" class="!max-w-[42vw]" />
+        <img src="{{ asset('assets/images/K2/aero/aero1/a52.png') }}" class="img-xl" />
         <h2 class="title stroke">When the air moves along this shape, it generates more lift.</h2>
     </div>
 
 
     {{-- Slide 32 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/aero/aero1/a17.png') }}" class="!max-w-[42vw]" />
+        <img src="{{ asset('assets/images/K2/aero/aero1/a17.png') }}" class="img-xl" />
         <h2 class="title stroke">Therefore, the aerofoil shape of the aeroplane wings helps to
             generate lift for the aeroplane to take off into the sky.</h2>
     </div>
@@ -312,7 +314,7 @@
         <h2 class=" title stroke !text-white">Learning Journal</h2>
         <div class="w-[43vw] h-fit bg-cover bg-center  flex flex-col justify-center "
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
-            <img src="{{ asset('assets/images/K2/aero/aero1/a18.png') }}" class="!max-w-[42vw]" />
+            <img src="{{ asset('assets/images/K2/aero/aero1/a18.png') }}" class="img-lg" />
         </div>
     </div>
 
@@ -321,7 +323,7 @@
         <h2 class=" title stroke !text-white">Learning Journal</h2>
         <div class="w-[43vw] h-fit bg-cover bg-center  flex flex-col justify-center "
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
-            <img src="{{ asset('assets/images/K2/aero/aero1/a19.png') }}" class="!max-w-[42vw]" />
+            <img src="{{ asset('assets/images/K2/aero/aero1/a19.png') }}" class="img-lg" />
         </div>
     </div>
 
@@ -390,7 +392,7 @@
 
             // CONFIGURE YOUR ROUTES HERE
             const returnRouteFromFirstSlide = "{{ route('Aerodynamics1Selection') }}";
-            const doneButtonRoute = "{{ route('Aerodynamics1Selection') }}";
+            const doneButtonRoute = "{{ route('k2Aerodynamics') }}";
 
             // Pause all videos when changing slides
             function pauseAllVideos() {

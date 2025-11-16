@@ -60,13 +60,13 @@ button {
 /* === LAYOUT === */
 .slide {
     gap: 1.2vw !important;
+    /* height: 29vw; */
 }
 
-.t-slide{
+.t-slide {
     height: 30vw;
     gap: 2vw;
 }
-
 
 .slide p {
     line-height: 1.5vw;
@@ -171,7 +171,7 @@ button {
 }
 
 /* === HEIGHT LIMITERS === */
-.img-h-xs{
+.img-h-xs {
     max-height: 14vw;
 }
 
@@ -302,7 +302,6 @@ video {
     font-size: 1.6vw;
 }
 
-
 /* === MISC === */
 span img {
     width: 3vw;
@@ -348,11 +347,13 @@ span img {
         font-size: 2.3vw !important;
         /* max-width: 56vw !important; */
     }
-    .title, .slide h2{
-        padding-inline: 2vw ;
+    .title,
+    .slide h2 {
+        padding-inline: 2vw;
     }
 
-   .t-slide .note, .note {
+    .t-slide .note,
+    .note {
         font-size: 1.1vw !important;
         max-width: 50vw !important;
     }
@@ -373,6 +374,10 @@ span img {
     .img-normal-md {
         max-width: 28vw !important;
     }
+    .img-semi-lg {
+        max-width: 38vw !important;
+    }
+
     .img-lg {
         max-width: 42vw !important;
     }
