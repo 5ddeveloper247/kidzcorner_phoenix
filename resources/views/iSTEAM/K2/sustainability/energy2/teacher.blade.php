@@ -7,7 +7,7 @@
     <h2 class="top-title stroke">Clean Energy 2</h2>
 
     {{-- slide 1 --}}
-    <div class="slide t-slide flex !text-white flex-col justify-start text-start">
+    <div class="t-slide flex !text-white flex-col justify-center text-start">
         <div>
             <h2 class="t-title">Children will be able to:</h2>
             <ol class="list-decimal">
@@ -36,7 +36,7 @@
     </div>
 
     {{-- slide 2 --}}
-    <div class="slide t-slide flex !text-white flex-col justify-start text-start">
+    <div class="t-slide flex !text-white flex-col justify-center text-start">
         <h2 class="t-title">Preparations class activity 1</h2>
         <ol class="list-decimal">
             <li>You can bring children outdoors for the activity.</li>
@@ -55,9 +55,9 @@
     </div>
 
     {{-- slide 3 --}}
-    <div class="slide t-slide flex !text-white flex-col items-center justify-center text-start">
+    <div class="t-slide flex !text-white flex-col items-center justify-center text-start">
         <h2 class=" t-title">Useful information:</h2>
-        <p class="note">A windmill generates mechanical energy from wind power, while a wind turbine generates electricity
+        <p>A windmill generates mechanical energy from wind power, while a wind turbine generates electricity
             from wind power. Windmills have been around for centuries. They have developed throughout the years to keep up
             with new technology, but overall, they maintain the same principle: converting wind into mechanical energy.</p>
 
@@ -65,35 +65,53 @@
     </div>
 
     {{-- slide 4 --}}
-    <div class="slide t-slide flex text-2xl !text-white flex-col items-center justify-start gap-y-10 text-start">
-        <h2 class=" t-title">Notes:</h2>
-        <ol class="list-decimal">
-            <li class=" flex items-center whitespace-nowrap">
-                If you see
-                <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s27.png') }}" class="!max-w-[2.5vw] mx-2" />
-                next to a picture, click on the picture to watch the video.
-            </li>
-            <li>Always ask questions to encourage children to think and share their ideas first before
-                giving out any information.</li>
-            <li>Emphasise and use the keywords during hands-on sessions.</li>
-            <li>Print out the Learning Journal (if any) for every child to complete at the end of the
-                lesson.</li>
-            <li class=" flex items-center whitespace-nowrap">
-                Click on this shortcut icon
-                <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s28.png') }}" class="!max-w-[2.5vw] mx-2" />
-                if you need to go to some parts of the lesson quickly.
-            </li>
-        </ol>
+    <div class=" t-slide text-start flex items-center !text-white !w-[53vw]">
+        <div>
+            <h2 class="t-title ">Notes:</h2>
+            <ul class="list-disc space-y-3">
+                <li>
+                    <span class="relative">
+                        If you see <span class="opacity-0">---</span>next to a picture, click on the picture to watch the
+                        video.
+                        <img class="t-video-btn absolute top-[-1vw] left-[7.6vw]"
+                            src="{{ asset('assets/images/pptimages/video.png') }}" />
+                    </span>
+                </li>
+
+                <li>
+                    Always ask questions to encourage children to think and share their ideas first before giving out
+                    any information.
+                </li>
+
+                <li>Emphasise and use the keywords during hands-on sessions.</li>
+
+                <li>
+                    Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
+                </li>
+
+                <li>
+                    <span class="relative">
+                        Click on this shortcut icon <span class="opacity-0">---</span> if you need to go to some parts of
+                        the lesson quickly.
+                        <img src="{{ asset('assets/images/pptimages/home-btn.png') }}"
+                            class="t-home-btn absolute top-0 left-[19vw]" />
+                    </span>
+                </li>
+
+            </ul>
+        </div>
 
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
+
     {{-- slide 5 --}}
-    <div class="slide t-slide flex text-2xl !text-white flex-col items-center justify-center gap-y-10 text-start">
+    <div class="t-slide flex  !text-white flex-col items-center justify-center text-start">
         <h2 class="title stroke justify-center">Learning Centre Idea</h2>
         <div class="text-start">
 
-            <h2 class=" t-title">Create A Windmill</h2>
+            <h2 class=" !text-white stroke text-[2vw]">Create A Windmill</h2>
+            <h2 class="t-title">What and how to do:</h2>
             <p class="note">What and how to set up: Place art materials for children to use to create their own windmills.
                 Print out different examples of windmills and encourage children to make.</p>
         </div>
@@ -108,6 +126,8 @@
 
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
+
+
 
     {{-- Controls --}}
     <div class="down-btn-container">
@@ -141,7 +161,7 @@
 @push('script')
     <script>
         document.addEventListener("DOMContentLoaded", () => {
-            const slides = document.querySelectorAll(".slide.t-slide");
+            const slides = document.querySelectorAll(".t-slide");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
             const doneButton = document.querySelector(".doneButton");
@@ -184,7 +204,7 @@
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('k2sustainability') }}";
+                    window.location.href = "{{ route('energy2Selection') }}";
                 });
             }
 

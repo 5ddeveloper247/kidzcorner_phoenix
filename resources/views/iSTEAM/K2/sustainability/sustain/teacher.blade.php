@@ -8,7 +8,7 @@
 
 
     {{-- sldie 1  --}}
-    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
+    <div class="t-slide flex  !text-white flex-col justify-around  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -52,30 +52,30 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
+    <div class="t-slide flex  !text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
                 <li>
-                    3 bottles of the same size - cut out one side of the bottle to create an<br>
+                    3 bottles of the same size - cut out one side of the bottle to create an
                     opening for all the 3 bottles (as shown)
                 </li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/sustain/sustainability/a15.png') }}" />
+        <img src="{{ asset('assets/images/K2/sustain/sustainability/a15.png') }}" class="img-md" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- sldie 3 --}}
-    <div class=" slide t-slide flex  !text-white flex-col items-center justify-center  text-start">
+    <div class="t-slide flex  !text-white flex-col items-center justify-center  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc">
                 <li>For bottle A, plant some seeds 2-3 weeks before the activity</li>
                 <div class="flex gap-2 items-center">
-                    <img src="{{ asset('assets/images/K2/sustain/sustainability/a16.png') }}" class="large-img4" />
-                    <img src="{{ asset('assets/images/K2/sustain/sustainability/a17.png') }}" class="large-img4" />
+                    <img src="{{ asset('assets/images/K2/sustain/sustainability/a16.png') }}" class="imgsm" />
+                    <img src="{{ asset('assets/images/K2/sustain/sustainability/a17.png') }}" class="imgsm" />
                 </div>
                 <li>For the example above, green beans and cat grass were planted about 1-2 weeks
                     before the experiment.
@@ -93,7 +93,7 @@
 
 
     {{-- slide 4 --}}
-    <div class=" slide t-slide flex  !text-white flex-col items-center justify-start  text-start">
+    <div class="t-slide flex  !text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-decimal">
@@ -102,26 +102,26 @@
                     at all)</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/sustain/sustainability/a18.png') }}" />
+        <img src="{{ asset('assets/images/K2/sustain/sustainability/a18.png') }}" class="img-xl" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- slide 4 --}}
-    <div class=" slide flex t-slide !text-white flex-col items-center justify-start  text-start">
+    <div class="flex t-slide !text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-decimal">
                 <li>For bottle C, just fill half the bottle with soil.</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/sustain/sustainability/a.png') }}" />
+        <img src="{{ asset('assets/images/K2/sustain/sustainability/a.png') }}" class="img-xl" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- slide 5 --}}
-    <div class=" slide t-slide flex  !text-white flex-col items-center justify-start  text-start">
+    <div class="t-slide flex  !text-white flex-col items-center justify-center text-start">
         <div>
             <h2 class=" t-title">Things to take note prior the class activity:</h2>
             <ul class="list-disc">
@@ -133,12 +133,12 @@
                     the bottle.</li>
                 <li>Secure the cups below the mouth of the bottles to avoid spillage.</li>
                 <li>Do try pouring water into the first bottle first before showing the experiment to
-                    the children.<br>
-                    This is to test if your plants have grown enough roots to hold onto the soil. In real life, trees<br>
-                    grow over a long time and their roots will hold firmly to the ground. But our plants are small and <br>
+                    the children.
+                    This is to test if your plants have grown enough roots to hold onto the soil. In real life, trees
+                    grow over a long time and their roots will hold firmly to the ground. But our plants are small and 
                     the roots may not be as strong over such a short period of time.</li>
                 <li>Do place cloth or paper towels under the first bottle as some leakage from the
-                    holes is<br>
+                    holes is
                     expected even though masking tape has been used.</li>
             </ul>
         </div>
@@ -147,7 +147,7 @@
 
 
     {{-- sldie 6 --}}
-    <div class=" slide t-slide flex  !text-white flex-col items-center justify-start  text-start">
+    <div class="t-slide flex  !text-white flex-col items-center justify-center text-start">
         <div>
             <h2 class=" t-title">Things to take note prior the class activity:</h2>
             <ul>
@@ -159,58 +159,69 @@
                     to the other two bottles.</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/sustain/sustainability/a19.png') }}" />
+        <img src="{{ asset('assets/images/K2/sustain/sustainability/a19.png') }}" class="img-md" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
     {{-- sldie 7 --}}
-    <div class=" slide t-slide flex  !text-white flex-col items-center justify-start  text-start">
+    <div class=" t-slide text-start flex items-center !text-white !w-[53vw]">
         <div>
-            <h2 class=" t-title">How to make own set of fingerprints and things to consider:</h2>
-            <ul>
-                <li class="flex whitespace-nowrap">If you see
-                    <span>
-                        <img src="{{ asset('assets/images/pptimages/video.png') }}" class="!max-w-[2.5vw]" />
+            <h2 class="t-title ">Notes:</h2>
+            <ul class="list-disc space-y-3">
+                <li>
+                    <span class="relative">
+                        If you see <span class="opacity-0">---</span>next to a picture, click on the picture to watch the
+                        video.
+                        <img class="t-video-btn absolute top-[-1vw] left-[7.6vw]"
+                            src="{{ asset('assets/images/pptimages/video.png') }}" />
                     </span>
-                    next to a
-                    picture, click on the picture to watch the video
-                </li>
-                <li> Always ask questions to encourage children to think and share their ideas first
-                    before giving out any information.</li>
-                <li>Emphasise and use the keywords during hands-on sessions.
-                </li>
-                <li>Print out the Learning Journal (if any) for every
-                    child to complete at the end of the lesson.
-                </li>
-                <li class="flex whitespace-nowrap">Click on this shortcut icon
-                    <span>
-                        <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" class="!max-w-[2.5vw]" />
-                    </span>
-                    if you need to go to some
-                    parts of the lesson quickly.
                 </li>
 
+                <li>
+                    Always ask questions to encourage children to think and share their ideas first before giving out
+                    any information.
+                </li>
+
+                <li>Emphasise and use the keywords during hands-on sessions.</li>
+
+                <li>
+                    Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
+                </li>
+
+                <li>
+                    <span class="relative">
+                        Click on this shortcut icon <span class="opacity-0">---</span> if you need to go to some parts of
+                        the lesson quickly.
+                        <img src="{{ asset('assets/images/pptimages/home-btn.png') }}"
+                            class="t-home-btn absolute top-0 left-[19vw]" />
+                    </span>
+                </li>
 
             </ul>
         </div>
+
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
 
     {{-- sldie 7 --}}
-    <div class=" slide t-slide flex  !text-white flex-col items-center justify-start  text-start">
-        <div>
-            <h2 class=" t-title">When Glaciers Melt</h2><br>
-            <p class="note">What and how to set up:<br>
-                Print out pictures of natural resources such as tree, coal, cow, fish,<br>
-                stone, iron etc. Print items that are not natural resources such as<br>
-                plastic bag, shoe, straws, toy, water bottles etc.<br>
+    <div class="t-slide flex  !text-white flex-col items-center justify-center  text-start">
+        <h2 class="title stroke">Learning Centre Idea</h2>
 
-                What to do:<br>
-                Invite children to look at each picture and sort them out if the<br>
-                item is from nature or not.<br>
-                Encourage children to think what can the natural resources be<br>
+        <div>
+            <h2 class="!text-white text-[2vw] stroke">When Glaciers Melt</h2>
+            <h2 class=" t-title">When Glaciers Melt</h2>
+            <p class="note">What and how to set up:
+                Print out pictures of natural resources such as tree, coal, cow, fish,
+                stone, iron etc. Print items that are not natural resources such as
+                plastic bag, shoe, straws, toy, water bottles etc.</p>
+        </div>
+        <div>
+            <h2 class="t-title">What to do:</h2>
+            <p>Invite children to look at each picture and sort them out if the
+                item is from nature or not.
+                Encourage children to think what can the natural resources be
                 made into.</p>
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
@@ -264,7 +275,7 @@
 @push('script')
     <script>
         document.addEventListener("DOMContentLoaded", () => {
-            const slides = document.querySelectorAll(".slide");
+            const slides = document.querySelectorAll(".t-slide");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
             const doneButton = document.querySelector(".doneButton"); //   DONE button
@@ -309,7 +320,7 @@
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('k2sustainability') }}";
+                    window.location.href = "{{ route('sustainSelection') }}";
                 });
             }
             showSlide(currentSlide);

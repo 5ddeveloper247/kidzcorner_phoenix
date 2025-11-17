@@ -7,7 +7,7 @@
     <h2 class="top-title stroke">Pollution and its Effects</h2>
 
     {{-- Slide 1 --}}
-    <div class="slide t-slide flex !text-white flex-col justify-start text-start hidden">
+    <div class="t-slide flex !text-white flex-col justify-center text-start hidden">
         <div>
             <h2 class="t-title">Children will be able to:</h2>
             <div class="text-start">
@@ -53,12 +53,12 @@
     </div>
 
     {{-- Slide 2 --}}
-    <div class="slide t-slide flex !text-white flex-col justify-start text-start hidden">
+    <div class="t-slide flex !text-white flex-col justify-center text-start hidden">
         <div>
             <h2 class=" t-title">Preparations For Class Activity 1:</h2>
             <div class="text-start ">
                 <h2 class="t-title">Let's do:</h2>
-                <ol class="lesson-ul">
+                <ol>
                     <li>Prepare a piece of mahjong paper or A3 sized paper for the brainstorming session.</li>
                     <li>Pre-cut a few 500 ml water bottles of the same type. Teacher will need to prepare two sets for the
                         experiment.</li>
@@ -66,12 +66,12 @@
                 </ol>
             </div>
         </div>
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p32.png') }}" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p32.png') }}" class="img-lg" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
     {{-- Slide 3 --}}
-    <div class="slide t-slide flex !text-white flex-col items-center justify-center text-start hidden">
+    <div class="t-slide flex !text-white flex-col items-center justify-center text-start hidden">
         <div>
             <h2 class="t-title">Preparations For Class Activity 1:</h2>
             <div class="text-start ">
@@ -87,12 +87,12 @@
                 </ol>
             </div>
         </div>
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p33.png') }}" class="!max-w-[13vw]" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p33.png') }}" class="img-sm" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
     {{-- Slide 4 --}}
-    <div class="slide t-slide flex  !text-white flex-col items-center justify-start text-start hidden">
+    <div class="t-slide flex  !text-white flex-col items-center justify-center text-start hidden">
         <div>
             <h2 class="t-title">Preparations For Class Activity 1:</h2>
             <div class="text-start ">
@@ -106,12 +106,12 @@
                 </ol>
             </div>
         </div>
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p34.png') }}" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p34.png') }}" class="img-xl" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
     {{-- Slide 5 --}}
-    <div class="slide t-slide flex  !text-white flex-col items-center justify-start text-start hidden">
+    <div class="t-slide flex  !text-white flex-col items-center justify-center text-start hidden">
         <div>
             <h2 class="t-title">Preparations For Class Activity 1:</h2>
             <div class="text-start ">
@@ -119,7 +119,7 @@
                 <ol class="lesson-ul">
                     <li>2. Scoop the filter materials and add them in layer by layer in this order:
                         <div class="mt-2">
-                            <h3 class="title stroke">Bottle 1</h3>: Activated charcoal, sand, gravel and pebbles
+                            <h3 class="title stroke">Bottle 1: Activated charcoal, sand, gravel and pebbles</h3>
                         </div>
                     </li>
                 </ol>
@@ -130,15 +130,15 @@
         <div class="text-start  mt-4">
             <ol class="lesson-ul">
                 <li>
-                    <h3 class="title stroke">Bottle 2</h3>: Do the same preparations with the coffee filter paper. But you
-                    will only add sand, gravel and pebbles layer by layer in this order.
+                    <h3 class="title stroke"> <span> Bottle 2</span> Do the same preparations with the coffee filter paper. But you
+                    will only add sand, gravel and pebbles layer by layer in this order.</h3>
                 </li>
             </ol>
         </div>
     </div>
 
     {{-- Slide 6 --}}
-    <div class="slide t-slide flex  !text-white flex-col items-center justify-start gap-y-10 text-start hidden">
+    <div class="t-slide flex  !text-white flex-col items-center justify-center gap-y-10 text-start hidden">
         <div>
             <h2 class="t-title">Preparations For Class Activity 1:</h2>
             <div class="text-start ">
@@ -155,7 +155,7 @@
     </div>
 
     {{-- Slide 7 --}}
-    <div class="slide t-slide flex  !text-white flex-col items-center justify-start text-start hidden">
+    <div class="t-slide flex  !text-white flex-col items-center justify-center text-start hidden">
         <div>
             <h2 class="t-title">Preparations for Class Activity 2 :</h2>
             <div class="text-start ">
@@ -174,7 +174,7 @@
     </div>
 
     {{-- Slide 8 --}}
-    <div class="slide t-slide flex  !text-white flex-col items-center justify-start text-start hidden">
+    <div class="t-slide flex  !text-white flex-col items-center justify-center text-start hidden">
         <div>
             <h2 class="t-title">Useful information:</h2>
             <div class="text-start ">
@@ -201,35 +201,47 @@
     </div>
 
     {{-- Slide 9 --}}
-    <div class="slide t-slide flex  !text-white flex-col items-center justify-start gap-y-10 text-start hidden">
+    <div class=" t-slide text-start flex items-center !text-white !w-[53vw]">
         <div>
-            <h2 class="t-title">Notes</h2>
-            <div class="text-start ">
-                <h2 class="t-title">Let's do:</h2>
-                <ol class="lesson-ul">
-                    <li class="flex whitespace-nowrap">If you see <span><img
-                                src="{{ asset('assets/images/K2/sustain/Globalwarming/s27.png') }}"
-                                class="!max-w-[2.5vw]" /></span> next to a picture, click on the picture to watch the video
-                    </li>
-                    <li class="flex whitespace-nowrap">If you see <span><img
-                                src="{{ asset('assets/images/K2/sustain/energy1/information.png') }}"
-                                class="!max-w-[2.5vw]" /></span> next to a picture, click on it for additional information
-                    </li>
-                    <li>Always ask questions to encourage children to think and share their ideas first before giving out
-                        any information.</li>
-                    <li>Emphasise and use the keywords during hands-on sessions.</li>
-                    <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.</li>
-                    <li class="flex whitespace-nowrap">Click on this shortcut icon <span><img
-                                src="{{ asset('assets/images/K2/sustain/Globalwarming/s28.png') }}"
-                                class="!max-w-[2.5vw]" /></span> if you need to go to some parts of the lesson quickly.</li>
-                </ol>
-            </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
+            <h2 class="t-title ">Notes:</h2>
+            <ul class="list-disc space-y-3">
+                <li>
+                    <span class="relative">
+                        If you see <span class="opacity-0">---</span>next to a picture, click on the picture to watch the
+                        video.
+                        <img class="t-video-btn absolute top-[-1vw] left-[7.6vw]"
+                            src="{{ asset('assets/images/pptimages/video.png') }}" />
+                    </span>
+                </li>
+
+                <li>
+                    Always ask questions to encourage children to think and share their ideas first before giving out
+                    any information.
+                </li>
+
+                <li>Emphasise and use the keywords during hands-on sessions.</li>
+
+                <li>
+                    Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
+                </li>
+
+                <li>
+                    <span class="relative">
+                        Click on this shortcut icon <span class="opacity-0">---</span> if you need to go to some parts of
+                        the lesson quickly.
+                        <img src="{{ asset('assets/images/pptimages/home-btn.png') }}"
+                            class="t-home-btn absolute top-0 left-[19vw]" />
+                    </span>
+                </li>
+
+            </ul>
         </div>
+
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
     {{-- Slide 10 --}}
-    <div class="slide t-slide flex  !text-white flex-col items-center justify-start text-start hidden">
+    <div class="t-slide flex  !text-white flex-col items-center justify-center text-start hidden">
         <h2 class="title stroke">Learning Centre Idea</h2>
         <div>
             <h2 class="title stroke !text-white">Biodegradable Vs Non-biodegradable</h2>
@@ -257,7 +269,7 @@
     </div>
 
 
-    
+
     {{-- ========================================================== --}}
     {{-- Buttons --}}
     <div class="down-btn-container">
@@ -295,7 +307,7 @@
 @push('script')
     <script>
         document.addEventListener("DOMContentLoaded", () => {
-            const slides = document.querySelectorAll(".slide");
+            const slides = document.querySelectorAll(".t-slide");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
             const doneButton = document.querySelector(".doneButton"); //   DONE button

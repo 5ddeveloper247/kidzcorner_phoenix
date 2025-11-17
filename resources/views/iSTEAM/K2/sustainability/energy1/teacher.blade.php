@@ -7,7 +7,7 @@
 
 
     {{-- sldie 1  --}}
-    <div class=" slide flex t-slide !text-white flex-col justify-start text-start">
+    <div class="flex t-slide !text-white flex-col justify-center text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -45,7 +45,7 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex t-slide !text-white flex-col justify-start text-start">
+    <div class="flex t-slide !text-white flex-col justify-center text-start">
         <div>
             <h2 class="t-title">Things to note for Class Activity 1</h2>
             <ul class="list-disc ">
@@ -74,7 +74,7 @@
 
 
     {{-- sldie 3 --}}
-    <div class=" slide flex t-slide !text-white flex-col items-center justify-center text-start">
+    <div class="flex t-slide !text-white flex-col items-center justify-center text-start">
         <div>
             <h2 class="t-title">Preparation For Class Activity 1:</h2>
             <ol class="list-decimal pl-6">
@@ -83,12 +83,12 @@
                 <li>Paste aluminium foil on the inner portions of the box such that the reflective side is shown.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/K2/sustain/energy1/e11.png') }}" class="w-img2" />
+        <img src="{{ asset('assets/images/K2/sustain/energy1/e11.png') }}" class="img-lg" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
     {{-- sldie 4 --}}
-    <div class=" slide flex t-slide !text-white flex-col items-center justify-center text-start">
+    <div class="flex t-slide !text-white flex-col items-center justify-center text-start">
         <div>
             <h2 class="t-title">Preparation For Class Activity 1:</h2>
             <ol class="list-decimal pl-6" start="4">
@@ -96,24 +96,24 @@
                 <li>Paste a piece of cling wrap to cover the hole on the cover. Ensure all sides are sealed.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/K2/sustain/energy1/e11.png') }}" class="w-img2" />
+        <img src="{{ asset('assets/images/K2/sustain/energy1/e11.png') }}" class="img-lg" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
     {{-- sldie 5 --}}
-    <div class=" slide flex t-slide !text-white flex-col items-center justify-center text-start">
+    <div class="flex t-slide !text-white flex-col items-center justify-center text-start">
         <div>
             <h2 class="t-title">Preparation For Class Activity 1:</h2>
             <ol class="list-decimal pl-6" start="6">
                 <li>This is how it should look like after top is sealed with the cling wrap.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/K2/sustain/energy1/e13.png') }}" class="w-img" />
+        <img src="{{ asset('assets/images/K2/sustain/energy1/e13.png') }}" class="img-md" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
     {{-- sldie 6 --}}
-    <div class=" slide flex t-slide !text-white flex-col items-center justify-center text-start">
+    <div class="flex t-slide !text-white flex-col items-center justify-center text-start">
         <div>
             <h2 class="t-title">Preparation For Class Activity 1:</h2>
             <ol class="list-decimal pl-6" start="7">
@@ -121,12 +121,12 @@
                 </li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/K2/sustain/energy1/e14.png') }}" class="w-img2" />
+        <img src="{{ asset('assets/images/K2/sustain/energy1/e14.png') }}" class="img-xl" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
     {{-- sldie 7 --}}
-    <div class=" slide flex t-slide !text-white flex-col items-center justify-center text-start">
+    <div class="flex t-slide !text-white flex-col items-center justify-center text-start">
         <div>
             <h2 class="t-title">Preparation For Class Activity 1:</h2>
             <ol class="list-decimal pl-6" start="8">
@@ -134,12 +134,12 @@
                 <li>This is for the thermometer. You can check the temperature of the solar oven easily.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/K2/sustain/energy1/e15.png') }}" class="w-img2" />
+        <img src="{{ asset('assets/images/K2/sustain/energy1/e15.png') }}" class="img-xl" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
     {{-- sldie 8 --}}
-    <div class=" slide flex t-slide !text-white flex-col items-center justify-center text-start">
+    <div class="flex t-slide !text-white flex-col items-center justify-center text-start">
         <div>
             <h2 class="t-title">Preparation For Class Activity 1:</h2>
             <ol class="list-decimal pl-6" start="10">
@@ -148,12 +148,12 @@
                     able to shine on it.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/K2/sustain/energy1/e16.png') }}" class="w-img2" />
+        <img src="{{ asset('assets/images/K2/sustain/energy1/e16.png') }}" class="img-xl" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
     {{-- sldie 9 --}}
-    <div class=" slide flex  t-slide !text-white flex-col items-center justify-start text-start">
+    <div class="flex  t-slide !text-white flex-col items-center justify-center text-start">
         <div>
             <h2 class="t-title">Things to note for Class Activity 2</h2>
             <ul>
@@ -167,44 +167,61 @@
     </div>
 
     {{-- slide 10 --}}
-    <div class=" slide flex  t-slide !text-white flex-col items-center justify-start text-start">
-        <h2 class=" t-title">Notes:</h2>
-        <ul>
-            <li class=" flex whitespace-nowrap">If you see
-                <span>
-                    <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s27.png') }}" class="!max-w-[2.5vw]" />
-                </span>
-                next to a picture,
-                click on the picture to watch the video
-            </li>
-            <li> Always ask questions to encourage children to think and share their ideas first
-                before giving out any information.</li>
-            <li>Emphasise and use the keywords during hands-on sessions.
-            </li>
-            <li>Print out the Learning Journal (if any) for every
-                child to complete at the end of the lesson.
-            </li>
-            <li class=" flex whitespace-nowrap">Click on this shortcut icon
-                <span>
-                    <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s28.png') }}" class="!max-w-[2.5vw]" />
-                </span>
-                if
-                you need to go to some
-                parts of the lesson quickly.
-            </li>
+    <div class=" t-slide text-start flex items-center !text-white !w-[53vw]">
+        <div>
+            <h2 class="t-title ">Notes:</h2>
+            <ul class="list-disc space-y-3">
+                <li>
+                    <span class="relative">
+                        If you see <span class="opacity-0">---</span>next to a picture, click on the picture to watch the
+                        video.
+                        <img class="t-video-btn absolute top-[-1vw] left-[7.6vw]"
+                            src="{{ asset('assets/images/pptimages/video.png') }}" />
+                    </span>
+                </li>
 
+                <li>
+                    <span class="relative">
+                        If you see <span class="opacity-0">---</span> , click on it for additional information or activity.
+                        <img src="{{ asset('assets/images/pptimages/info-btn.png') }}"
+                            class="t-info-btn absolute top-[-1vw] left-[8vw]" />
+                    </span>
+                </li>
 
-        </ul>
+                <li>
+                    Always ask questions to encourage children to think and share their ideas first before giving out
+                    any information.
+                </li>
+
+                <li>Emphasise and use the keywords during hands-on sessions.</li>
+
+                <li>
+                    Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
+                </li>
+
+                <li>
+                    <span class="relative">
+                        Click on this shortcut icon <span class="opacity-0">---</span> if you need to go to some parts of
+                        the lesson quickly.
+                        <img src="{{ asset('assets/images/pptimages/home-btn.png') }}"
+                            class="t-home-btn absolute top-0 left-[19vw]" />
+                    </span>
+                </li>
+
+            </ul>
+        </div>
+
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
     {{-- slide 11 --}}
-    <div class=" slide flex  t-slide !text-white flex-col items-center justify-start text-start">
+    <div class="flex  t-slide !text-white flex-col items-center justify-center text-start">
         <h2 class=" title stroke">Learning Centre Idea</h2>
         <div>
             <div>
-                <h2 class="title stroke !text-white">Solar Powered Toy/Light</h2>
+                <h2 class="text-[2vw] stroke !text-white">Solar Powered Toy/Light</h2>
                 <h2 class="t-title">What and how to set up:</h2>
-                <p >Place the solar-powered toy/light at the learning corner and
+                <p>Place the solar-powered toy/light at the learning corner and
                     encourage children to explore with it.</p>
             </div>
             <div>
@@ -269,7 +286,7 @@
 @push('script')
     <script>
         document.addEventListener("DOMContentLoaded", () => {
-            const slides = document.querySelectorAll(".slide");
+            const slides = document.querySelectorAll(".t-slide");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
             const doneButton = document.querySelector(".doneButton"); //   DONE button
@@ -315,7 +332,7 @@
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('k2sustainability') }}";
+                    window.location.href = "{{ route('energy1Selection') }}";
                 });
             }
             showSlide(currentSlide);
