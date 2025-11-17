@@ -2,43 +2,43 @@
 @section('title', 'Dynamic Presentation')
 
 @section('content')
+    {{-- title --}}
+    <h2 class="top-title stroke">Animate a Charachter (3)</h2>
+
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl !text-white flex-col justify-start gap-y-3 text-start">
+    <div class="flex t-slide !text-white flex-col justify-around  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
-                <li class="text-[1.1vw]">Know that ScratchJr allows us to create our own animated stories</li>
-                <li class="text-[1.1vw]">Know that ScratchJr allows us to create our own animated stories</li>
-                <li class="text-[1.1vw]">Know that more than a programme can be created for a character to do several
+                <li>Know that ScratchJr allows us to create our own animated stories</li>
+                <li>Know that ScratchJr allows us to create our own animated stories</li>
+                <li>Know that more than a programme can be created for a character to do several
                     movements at the same time
                     for the sake of different animation effects</li>
-                <li class="text-[1.1vw]">Develop understanding through inquiry</li>
-                <li class="text-[1.1vw]">Develop problem-solving skills</li>
-                <li class="text-[1.1vw]">Learn to share and take turns</li>
-                <li class="text-[1.1vw]">Learn to cooperate with friends to complete a task</li>
+                <li>Develop understanding through inquiry</li>
+                <li>Develop problem-solving skills</li>
+                <li>Learn to share and take turns</li>
+                <li>Learn to cooperate with friends to complete a task</li>
             </ul>
         </div>
 
+        <div>
+            <h2 class="t-title ">Keywords:</h2>
+            <div class="flex gap-[3vw] pl-[1vw]">
+                <ul class="list-disc ">
 
-        <h2 class=" ">Keywords:</h2>
-        <div class="flex gap-[3vw] pl-[1vw]">
-            <ul class="list-disc ">
-
-                <li class="text-[1.1vw]">Programme</li>
-                <li class="text-[1.1vw]">Programming/Coding</li>
-                <li class="text-[1.1vw]">Command</li>
-                <li class="text-[1.1vw]">Animated Story</li>
-            </ul>
-
-
-            <ul class="list-disc ">
-                <li class="text-[1.1vw]">Programming Block</li>
-                <li class="text-[1.1vw]">Programming Area</li>
-                <li class="text-[1.1vw]">Character</li>
-                <li class="text-[1.1vw]">Sound</li>
-            </ul>
-
-
+                    <li>Programme</li>
+                    <li>Programming/Coding</li>
+                    <li>Command</li>
+                    <li>Animated Story</li>
+                </ul>
+                <ul class="list-disc ">
+                    <li>Programming Block</li>
+                    <li>Programming Area</li>
+                    <li>Character</li>
+                    <li>Sound</li>
+                </ul>
+            </div>
         </div>
 
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
@@ -47,10 +47,10 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl !text-white flex-col justify-start   text-start">
+    <div class="flex t-slide !text-white flex-col justify-start   text-start">
         <ul class="list-disc">
             <h2 class="t-title">Preparations:</h2>
-            <li class="text-[1.1vw]">The tablets (download ScratchJr application from App Store or Google Play for each
+            <li>The tablets (download ScratchJr application from App Store or Google Play for each
                 tablet; charge all the
                 tablets before you start each lesson)</li>
 
@@ -59,7 +59,7 @@
         <div class="flex justify-center items-center">
             <div>
 
-                <img class="w-[800px]" src="/assets/images/K2/animate1/a50.png" />
+                <img class="img-lg" src="{{ asset('/assets/images/K2/animate1/a50.png') }}" />
             </div>
 
         </div>
@@ -68,49 +68,47 @@
 
 
     {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl !text-white flex-col justify-start   text-start">
-
-
-        <ul class="list-disc">
+    <div class="flex t-slide !text-white flex-col justify-start   text-start">
+        <div>
             <h2 class="t-title">Preparations:</h2>
-            <li class="text-[1.1vw]">Grid Card (print and laminate so that they are reusable)</li>
-            <li class="text-[1.1vw]">Whiteboard marker pens</li>
+            <ul class="list-disc">
+                <li>Grid Card (print and laminate so that they are reusable)</li>
+                <li>Whiteboard marker pens</li>
+            </ul>
+        </div>
 
-        </ul>
         <div class="flex justify-center items-center">
-            <div>
-                <img src="/assets/images/K2/animate1/a51.png" />
-            </div>
+            <img src="{{ asset('/assets/images/K2/animate1/a51.png') }}" class="img-md" />
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- slide 4 --}}
-    <div class=" slide flex text-2xl !text-white flex-col justify-start items-center  text-start">
+    <div class="flex t-slide !text-white flex-col justify-start items-center  text-start">
 
 
         <ul class="list-disc !text-start">
             <h2 class="t-title">What you need to know or explore before the lesson:</h2>
-            <li class="text-[1.1vw]">Go through the Blocks Guide in the application of ScratchJr to understand the use
+            <li>Go through the Blocks Guide in the application of ScratchJr to understand the use
                 of different commands and programming blocks in ScratchJr.</li>
 
         </ul>
 
         <div class="flex justify-center items-center gap-2">
-            <img src="/assets/images/K2/animate1/a52.png" />
+            <img src="{{ asset('/assets/images/K2/animate1/a52.png') }}" class="img-sm" />
 
-            <div class="flex-col gap-[1rem]">
+            <div class="flex-col gap-[1rem] pl-[2vw]">
                 <ul>
-                    <li class="text-[1.1vw]">For this lesson, the focus is</li>
-                    <li class="text-[1.1vw]">knowing the use of all the</li>
-                    <li class="text-[1.1vw]">programming blocks of Motion</li>
-                    <li class="text-[1.1vw]">Blocks. Please go through the</li>
-                    <li class="text-[1.1vw]">descriptions to understand the</li>
-                    <li class="text-[1.1vw]">use of each programming block.</li>
+                    <li>For this lesson, the focus is</li>
+                    <li>knowing the use of all the</li>
+                    <li>programming blocks of Motion</li>
+                    <li>Blocks. Please go through the</li>
+                    <li>descriptions to understand the</li>
+                    <li>use of each programming block.</li>
                 </ul><br>
                 <ul>
-                    <li class="text-[1.1vw]">You may <span class="title stroke font-normal !text-1xl">print out the guide
+                    <li>You may <span class="text-[#f7b94a] !text-1xl">print out the guide
                         </span> if
                         you need it.</li>
                 </ul>
@@ -122,36 +120,35 @@
     {{-- sldie 6 --}}
 
 
-    <div class=" slide flex text-2xl !text-white flex-col  justify-start items-start text-start gap-[2rem]">
+    <div class="flex t-slide !text-white flex-col  justify-start items-start text-start ">
 
         <div>
+            <h2 class="t-title">Recording tips:</h2>
             <ul class="list-disc !text-white">
-
-                <h2 class="t-title">Recording tips:</h2>
-                <li class="text-[1.1vw]">For a better quality recording, make sure that the microphone of your tablet is
+                <li>For a better quality recording, make sure that the microphone of your tablet is
                     placed very near to the
                     sound you are going to record (e.g. your mouth, speaker of another device).</li>
             </ul>
         </div>
 
         <div>
+            <h2 class="t-title">Reminders or advice during hands-on session:</h2>
             <ul class="!text-start list-disc">
-                <h2 class="t-title">Reminders or advice during hands-on session:</h2>
-                <li class="text-[1.1vw]">Always hold a tablet with both your hands (to show your care and prevent the tools
+                <li>Always hold a tablet with both your hands (to show your care and prevent the tools
                     from spoiling
                     easily).</li>
-                <li class="text-[1.1vw]">Be patient and take turns when using the tablets.</li>
+                <li>Be patient and take turns when using the tablets.</li>
             </ul>
         </div>
         <div>
+            <h2 class="t-title">Possible questions during hands-on sessions:</h2>
             <ul class="!text-start list-disc">
-                <h2 class="t-title">Possible questions during hands-on sessions:</h2>
-                <li class="text-[1.1vw]">What can you do with ScratchJr app?</li>
-                <li class="text-[1.1vw]">Which command in the app allows you to add sound to a character?</li>
-                <li class="text-[1.1vw]">How do you record your own voice?</li>
-                <li class="text-[1.1vw]">Which command and programming block in the app allows you to create pause
+                <li>What can you do with ScratchJr app?</li>
+                <li>Which command in the app allows you to add sound to a character?</li>
+                <li>How do you record your own voice?</li>
+                <li>Which command and programming block in the app allows you to create pause
                     for a character?</li>
-                <li class="text-[1.1vw]">Which programming block under Control Blocks command allows you to programme
+                <li>Which programming block under Control Blocks command allows you to programme
                     certain blocks to run for a number of times?</li>
             </ul>
         </div>
@@ -162,42 +159,45 @@
 
 
     {{-- sldie 7 --}}
-    <div class="slide flex t-slide  flex-col justify-start  text-2xl text-start !text-white">
-        <div class="flex w-[100%] items-center justify-between">
-            <div>
-                <h2 class=" t-title">Notes:</h2>
-                <ul class="list-disc leading-relaxed">
-                    <li>
-                    <span class="flex items-center whitespace-nowrap">
-                        If you see
-                        <span>
-                            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s27.png') }}"
-                                class="!max-w-[2.5vw]" />
-                        </span>
-                        next to a picture,click on the picture to watch the video.
+    <div class=" t-slide text-start flex items-center !text-white !w-[53vw]">
+        <div>
+            <h2 class="t-title ">Notes:</h2>
+            <ul class="list-disc space-y-3">
+                <li>
+                    <span class="relative">
+                        If you see <span class="opacity-0">---</span>next to a picture, click on the picture to watch the
+                        video.
+                        <img class="t-video-btn absolute top-[-1vw] left-[7.6vw]"
+                            src="{{ asset('assets/images/pptimages/video.png') }}" />
                     </span>
                 </li>
-                    <li class="text-[1.1vw]">Always ask questions to encourage children to think and share their ideas first
-                        before giving out any information.</li>
-                    <li class="text-[1.1vw]">Emphasise and use the keywords during hands-on sessions.
-                    </li>
-                    <li class="text-[1.1vw]">Print out the Learning Journal (if any) for every <br>
-                        child to complete at the end of the lesson.</li>
-                    <li >
-                        <span class="flex items-center whitespace-nowrap">
-                        Click on this shortcut icon
-                        <span>
-                            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s28.png') }}"
-                                class="!max-w-[2.5vw]" />
-                        </span>
-                        if you need to go to some parts of the lesson quickly.
+
+                <li>
+                    Always ask questions to encourage children to think and share their ideas first before giving out
+                    any information.
+                </li>
+
+                <li>Emphasise and use the keywords during hands-on sessions.</li>
+
+                <li>
+                    Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
+                </li>
+
+                <li>
+                    <span class="relative">
+                        Click on this shortcut icon <span class="opacity-0">---</span> if you need to go to some parts of
+                        the lesson quickly.
+                        <img src="{{ asset('assets/images/pptimages/home-btn.png') }}"
+                            class="t-home-btn absolute top-0 left-[19vw]" />
                     </span>
-                    </li>
-                </ul>
-            </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="Teacher" />
+                </li>
+
+            </ul>
         </div>
+
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
+
 
 
 
@@ -250,7 +250,7 @@
 @push('script')
     <script>
         document.addEventListener("DOMContentLoaded", () => {
-            const slides = document.querySelectorAll(".slide");
+            const slides = document.querySelectorAll(".t-slide");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
             const doneButton = document.querySelector(".doneButton"); //   DONE button
@@ -286,7 +286,7 @@
             returnButton.addEventListener("click", () => {
                 if (currentSlide === 0) {
                     //   First slide pe hai →  
-                    window.location.href = "{{ route('k2coding') }}";
+                    window.location.href = "{{ route('animate3Selection') }}";
                 } else {
                     //   Previous slide pe jao
                     currentSlide--;
@@ -296,7 +296,7 @@
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('k2coding') }}";
+                    window.location.href = "{{ route('animate3Selection') }}";
                 });
             }
             showSlide(currentSlide);

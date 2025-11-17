@@ -124,6 +124,17 @@
             <li>Backward, backward, backward.</li>
             <li>Turn around, now we’re done!</li>
         </ul>
+
+        <button class="sound-btn hover:scale-105 transition-transform absolute z-99 right-[-10vw] top-1/2">
+            <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
+        </button>
+
+        <!-- Hidden Audio Element -->
+        <audio class="underwater-sound" preload="auto">
+            <source src="{{ asset('assets/audio/coding1.mp3') }}" type="audio/mpeg">
+            {{-- <source src="{{ asset('assets/audio/underwater.ogg') }}" type="audio/ogg"> --}}
+            Your browser does not support the audio element.
+        </audio>
         <p class="note">Note: Guide children to sing to the tune of “”Are You Sleeping”” and do actions together.
             Only proceed to the next page when all children understand the meaning of forward and backward.</p>
     </div>
@@ -226,6 +237,16 @@
             <li>Step to the left, step to the right.</li>
             <li>It's fun to know my left and right.</li>
         </ul>
+        <button class="sound-btn hover:scale-105 transition-transform absolute z-99 right-[-10vw] top-1/2">
+            <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
+        </button>
+
+        <!-- Hidden Audio Element -->
+        <audio class="underwater-sound" preload="auto">
+            <source src="{{ asset('assets/audio/coding2.mp3') }}" type="audio/mpeg">
+            {{-- <source src="{{ asset('assets/audio/underwater.ogg') }}" type="audio/ogg"> --}}
+            Your browser does not support the audio element.
+        </audio>
         <p class="note">Note: Guide children to sing to the tune of "Twinkle Twinkle Little Star" and do the actions
             accordingly.</p>
     </div>
@@ -356,16 +377,50 @@
             const slides = document.querySelectorAll(".slide");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
-            const doneButton = document.querySelector(".doneButton"); //   DONE button
+            const doneButton = document.querySelector(".doneButton");
 
             let currentSlide = 0;
 
+            // Initialize sound buttons per slide
+            slides.forEach(slide => {
+                const soundButton = slide.querySelector(".sound-btn");
+                const underwaterSound = slide.querySelector(".underwater-sound");
+
+                if (soundButton && underwaterSound) {
+                    soundButton.addEventListener("click", () => {
+                        if (underwaterSound.paused) {
+                            underwaterSound.play();
+                            soundButton.style.opacity = "0.7"; // Visual feedback
+                        } else {
+                            underwaterSound.pause();
+                            underwaterSound.currentTime = 0;
+                            soundButton.style.opacity = "1";
+                        }
+                    });
+
+                    // Reset button opacity when audio ends
+                    underwaterSound.addEventListener("ended", () => {
+                        soundButton.style.opacity = "1";
+                    });
+                }
+            });
+
+            // SLIDE NAVIGATION
             function showSlide(index) {
                 slides.forEach((slide, i) => {
                     slide.classList.toggle("hidden", i !== index);
+
+                    // Pause any audio on hidden slides
+                    const audio = slide.querySelector(".underwater-sound");
+                    const btn = slide.querySelector(".sound-btn");
+                    if (audio && !audio.paused) {
+                        audio.pause();
+                        audio.currentTime = 0;
+                        if (btn) btn.style.opacity = "1";
+                    }
                 });
 
-                //   Agar last slide hai → NEXT button hide, DONE show
+                // Show DONE button on last slide, otherwise show NEXT
                 if (index === slides.length - 1) {
                     nextButtons.forEach(btn => btn.classList.add("hidden"));
                     if (doneButton) doneButton.classList.remove("hidden");
@@ -375,7 +430,7 @@
                 }
             }
 
-            //   NEXT buttons listener
+            // NEXT buttons listener
             nextButtons.forEach((btn) => {
                 btn.addEventListener("click", () => {
                     if (currentSlide < slides.length - 1) {
@@ -385,24 +440,24 @@
                 });
             });
 
-            //   Return button - redirect if on first slide
+            // Return button - redirect if on first slide, otherwise go back
             returnButton.addEventListener("click", () => {
                 if (currentSlide === 0) {
-                    // Redirect to route when on first slide
                     window.location.href = "{{ route('DifferentDirectionsSelection') }}";
-                } else if (currentSlide > 0) {
+                } else {
                     currentSlide--;
                     showSlide(currentSlide);
                 }
             });
 
+            // DONE button
             if (doneButton) {
                 doneButton.addEventListener("click", () => {
                     window.location.href = "{{ route('BasicCoding') }}";
                 });
             }
 
-            //   Start with first slide
+            // Initialize
             showSlide(currentSlide);
         });
     </script>

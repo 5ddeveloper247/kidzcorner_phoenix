@@ -3,19 +3,16 @@
 
 @section('content')
 
-    <div id="topDiv" class="flex flex-col items-center gap-[2vw] ">
+    <div id="topDiv" class="flex flex-col items-center  ">
         <div class="indexTitle  stroke">Our Animated Stories</div>
         <h2 class="text-2xl sm:text-3xl lg:text-4xl !text-white stroke ">
             Use creativity and imagination to create
             animated stories
         </h2>
 
-        {{-- next Button --}}
-        <div class="down-btn-container">
             <button class="nextButton">
                 <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
             </button>
-        </div>
     </div>
 
 

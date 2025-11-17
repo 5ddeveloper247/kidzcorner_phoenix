@@ -3,18 +3,16 @@
 
 @section('content')
 
-    <div id="topDiv" class="flex flex-col  gap-20 items-center gap-[8rem] ">
+    <div id="topDiv" class="flex flex-col  items-center ">
         <div class="indexTitle    stroke">Animate a Character (5)</div>
         <h2 class="text-2xl sm:text-3xl lg:text-4xl !text-white stroke ">
             Explore and learn how to create a multipage story
             that will auto play from page to page using ScratchJr</h2>
 
         {{-- next Button --}}
-        <div class="down-btn-container">
-            <button class="nextButton">
-                <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
-            </button>
-        </div>
+        <button class="nextButton">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
+        </button>
     </div>
 
 

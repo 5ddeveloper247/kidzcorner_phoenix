@@ -3,19 +3,16 @@
 
 @section('content')
 
-    <div id="topDiv" class="flex flex-col  gap-20 items-center gap-[2vw] !justify-center ">
+    <div id="topDiv" class="flex flex-col items-center">
         <div class="indexTitle    stroke">Animate the Character</div>
         <h2 class="text-2xl sm:text-3xl lg:text-4xl !text-white stroke ">
             Learn how to programme a character to move at different
             speeds; create programmes to animate characters
             based on the samples provided</h2>
 
-        {{-- next Button --}}
-        <div class="down-btn-container">
             <button class="nextButton">
                 <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
             </button>
-        </div>
     </div>
 
 
