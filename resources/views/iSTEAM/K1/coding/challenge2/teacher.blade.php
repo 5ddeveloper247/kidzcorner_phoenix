@@ -191,7 +191,7 @@
 
     {{-- slide 11 --}}
     <div class="text-white flex flex-col t-slide items-center justify-center  text-start text-2xl slide hidden">
-        <h2 class=" title stroke">Learning Centre Idea</h2>
+        <h2 class="text-center title stroke">Learning Centre Idea</h2>
         <div class="flex">
             <div class="space-y-20">
                 <ul>

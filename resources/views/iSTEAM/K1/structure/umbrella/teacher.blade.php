@@ -8,7 +8,7 @@
 
 
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start">
+    <div class="flex !text-white flex-col t-slide justify-around  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -39,13 +39,12 @@
                 </ul>
             </div>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start">
+    <div class="flex !text-white flex-col t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations for Activity 1:</h2>
             <ul class="list-disc ">
@@ -57,27 +56,25 @@
                 <li> Each child a pair of scissors (remind children to use them carefully)</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K1/str/um18.png') }}" alt="Teacher" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/K1/str/um18.png') }}" />
         <p class="note !text-[#F7B94A]">Suggestion: Pre-pack these two materials in a bag for each child or group before
             each lesson.</p>
     </div>
 
     {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start">
+    <div class="flex !text-white flex-col t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations for Activity 1:</h2>
             <ul class="list-disc">
                 <li>A premade sample of umbrella (refer to the lesson on how to make it)</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K1/str/um4.png') }}" alt="Teacher" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/K1/str/um4.png') }}" />
     </div>
 
 
     {{-- sldie 4 --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start">
+    <div class="flex !text-white flex-col t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations for Activity 2:</h2>
             <ul class="list-disc ">
@@ -88,14 +85,13 @@
                 <li> Rulers</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K1/str/at18.png') }}" alt="Teacher" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/K1/str/at18.png') }}" />
     </div>
 
 
 
     {{-- sldie 4 --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start">
+    <div class="flex !text-white flex-col t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title">Things to consider during hands-on sessions:</h2>
             <ul class="list-disc ">
@@ -122,12 +118,11 @@
                 </li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- sldie 5 --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start">
+    <div class="flex !text-white flex-col t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title">Possible questions for reflection:</h2>
             <ul class="list-disc ">
@@ -151,12 +146,11 @@
             </p>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- sldie 6 --}}
-    <div class="slide flex t-slide  flex-col  text-2xl text-start !text-white">
+    <div class="slide flex t-slide  flex-col  text-start !text-white">
         <div>
             <h2 class="t-title">Notes:</h2>
             <ul class="list-disc">
@@ -188,10 +182,9 @@
                 </li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
-
+    <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
 
     {{-- ========================================================== --}}
     {{-- Buttons --}}
@@ -222,7 +215,6 @@
 
     {{-- next Button --}}
     <div class="down-btn-container">
-
         <button class="nextButton">
             <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
         </button>
@@ -237,7 +229,7 @@
 @push('script')
     <script>
         document.addEventListener("DOMContentLoaded", () => {
-            const slides = document.querySelectorAll(".slide");
+            const slides = document.querySelectorAll(".t-slide");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
             const doneButton = document.querySelector(".doneButton"); //   DONE button

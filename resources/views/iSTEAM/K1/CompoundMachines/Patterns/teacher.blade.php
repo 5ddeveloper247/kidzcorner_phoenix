@@ -7,7 +7,7 @@
     <h2 class="top-title stroke">Pretty Domino Patterns</h2>
 
     {{-- sldie 1 --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start">
+    <div class="flex !text-white flex-col t-slide justify-around  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -25,14 +25,14 @@
                     <li>Force (Push)</li>
                 </ul>
             </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
+
         </div>
     </div>
 
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start ">
+    <div class="flex !text-white flex-col t-slide justify-center  text-start ">
         <div>
             <h2 class=" t-title">Preparations for Class Activity I:</h2>
             <ul class="list-disc ">
@@ -41,14 +41,14 @@
         </div>
 
         <div class="flex w-[100%] items-center justify-between">
-            <img src="/assets/images/K1/cm/cm20.png" />
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
+            <img src="/assets/images/K1/cm/cm20.png" class="img-md" />
+
         </div>
     </div>
 
 
     {{-- slide 3 --}}
-    <div class=" slide flex text-2xl t-slide !text-white justify-start  text-start ">
+    <div class="flex t-slide !text-white justify-center items-center text-start ">
         <div>
             <h2 class=" t-title">Preparations for Class Activity I:</h2>
             <ul class="list-disc ">
@@ -61,7 +61,6 @@
                     to set up and topple the dominoes. </li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
@@ -69,55 +68,66 @@
 
 
     {{-- slide 4 --}}
-    <div class="slide flex  flex-col t-slide justify-start  text-2xl text-start !text-white">
+    <div class=" t-slide text-start flex items-center !text-white !w-[53vw]">
         <div>
-            <h2 class=" t-title">Notes:</h2>
-            <ul class="list-disc leading-relaxed">
-                <li class="flex whitespace-nowrap">
-                    If you see
-                    <span class="info-btn">
+            <h2 class="t-title ">Notes:</h2>
+            <ul class="list-disc space-y-3">
+                <li>
+                    <span class="relative">
+                        If you see <span class="opacity-0">---</span>next to a picture, click on the picture to watch the
+                        video.
+                        <img class="t-video-btn absolute top-[-1vw] left-[7.6vw]"
+                            src="{{ asset('assets/images/pptimages/video.png') }}" />
+                    </span>
+                </li>
 
-                        <img src="{{ asset('assets/images/pptimages/video.png') }}" />
-                    </span>
-                    next to a picture, click on the picture to watch the video.
+                <li>
+                    Always ask questions to encourage children to think and share their ideas first before giving out
+                    any information.
                 </li>
-                <li>Always ask questions to encourage children to think and share their
-                    ideas first before giving out any information.</li>
+
                 <li>Emphasise and use the keywords during hands-on sessions.</li>
-                <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.</li>
-                <li class="flex">
-                    Click on this <span>shortcut icon</span>
-                    <span><img src="{{ asset('assets/images/pptimages/home-btn.png') }}" class="home-btn" />
-                    </span>
-                    if you need to go to some parts of the lesson quickly.
+
+                <li>
+                    Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
                 </li>
+
+                <li>
+                    <span class="relative">
+                        Click on this shortcut icon <span class="opacity-0">---</span> if you need to go to some parts of
+                        the lesson quickly.
+                        <img src="{{ asset('assets/images/pptimages/home-btn.png') }}"
+                            class="t-home-btn absolute top-0 left-[19vw]" />
+                    </span>
+                </li>
+
             </ul>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
+
     </div>
+
 
 
     {{--  slide 5 --}}
-    <div class="text-white flex flex-col t-slide items-center justify-center  text-start text-2xl slide hidden">
-        <h2 class=" title stroke">Learning Centre Idea</h2>
-        <div class="flex">
-            <div>
-                <h2 class="!text-white title stroke">Pretty Domino Toppling</h2>
-                <h2 class="t-title">What and how to set up:</h2>
-                <ul class="list-disc">
-                    <li>Place dominoes here.</li>
-                </ul>
-
-                <h2 class="t-title">What to do:</h2>
-                <ul class="list-decimal">
-                    <li>Use imagination and creativity to form a domino pattern that you like.</li>
-                    <li>Push the first domino and enjoy watching all the dominoes fall one after another.</li>
-                </ul>
-            </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt=""class="absolute teacher-img1" />
+    <div class="text-white flex flex-col t-slide justify-center  text-start hidden">
+        <h2 class="text-center title stroke">Learning Centre Idea</h2>
+        <div>
+            <h2 class="!text-white text-[2vw] stroke">Pretty Domino Toppling</h2>
+            <h2 class="t-title">What and how to set up:</h2>
+            <ul class="list-disc">
+                <li>Place dominoes here.</li>
+            </ul>
+        </div>
+        <div>
+            <h2 class="t-title">What to do:</h2>
+            <ul class="list-decimal">
+                <li>Use imagination and creativity to form a domino pattern that you like.</li>
+                <li>Push the first domino and enjoy watching all the dominoes fall one after another.</li>
+            </ul>
         </div>
     </div>
 
+    <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt=""class="absolute teacher-img1" />
 
 
     {{-- ================================================================================== --}}
@@ -142,7 +152,7 @@
 
         <!-- Close Button -->
         <button id="closeButton">
-            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" /> 
+            <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
         </button>
 
     </div>
@@ -155,16 +165,13 @@
         </button>
     </div>
 
-
-
-
 @endsection
 
 
 @push('script')
     <script>
         document.addEventListener("DOMContentLoaded", () => {
-            const slides = document.querySelectorAll(".slide");
+            const slides = document.querySelectorAll(".t-slide");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
             const doneButton = document.querySelector(".doneButton"); //   DONE button
@@ -210,7 +217,7 @@
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('K1CompoundMachines') }}";
+                    window.location.href = "{{ route('PatternsSelection') }}";
                 });
             }
 

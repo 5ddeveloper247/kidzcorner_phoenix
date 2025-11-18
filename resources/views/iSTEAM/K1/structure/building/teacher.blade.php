@@ -8,7 +8,7 @@
 
 
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start">
+    <div class="flex !text-white flex-col t-slide justify-around  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -38,13 +38,12 @@
                 </ul>
             </div>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start">
+    <div class="flex !text-white flex-col t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
@@ -56,14 +55,13 @@
         </div>
 
 
-        <img src="{{ asset('assets/images/K1/str/st20.png') }}" alt="Teacher" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/K1/str/st20.png') }}" class="img-xl"  />
         <p class="note !text-[#F7B94A]">Suggestion: Pre-pack these two materials in a bag for each child or group before
             each lesson.</p>
     </div>
 
     {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start">
+    <div class="flex !text-white flex-col t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
@@ -76,15 +74,14 @@
                 <li>Labels (to indicate the name of a building)</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K1/str/st18.png') }}" alt="Teacher" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/K1/str/st18.png') }}" class="img-lg"  />
         <p class="note !text-[#F7B94A]">Suggestion: Cut the wrappers (if big size) into reasonable sizes of basic shapes for
             children to use.</p>
     </div>
 
 
     {{-- sldie 4 --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start">
+    <div class="flex !text-white flex-col t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
@@ -97,8 +94,7 @@
                 <li>Labels (to indicate the name of a building)</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K1/str/st18.png') }}" alt="Teacher" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/K1/str/st18.png') }}" class="img-lg"  />
         <p class="note !text-[#F7B94A]">Suggestion: Cut the wrappers (if big size) into reasonable sizes of basic shapes for
             children to use.</p>
     </div>
@@ -106,7 +102,7 @@
 
 
     {{-- sldie 4 --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start">
+    <div class="flex !text-white flex-col t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title">Things to consider during hands-on sessions:</h2>
             <ul class="list-disc ">
@@ -125,12 +121,11 @@
                     engineering activity (refer to the next page).</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- sldie 5 --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start">
+    <div class="flex !text-white flex-col t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title">Possible questions for reflection:</h2>
             <ul class="list-disc ">
@@ -147,12 +142,11 @@
                     Why?</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- sldie 6 --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start">
+    <div class="flex !text-white flex-col t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title">Things to consider during hands-on sessions:</h2>
             <ul class="list-disc ">
@@ -172,12 +166,11 @@
                     the class.</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- sldie 7 --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start">
+    <div class="flex !text-white flex-col t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title">Things to consider during hands-on sessions:</h2>
             <ul class="list-disc ">
@@ -188,17 +181,16 @@
             </ul>
         </div>
         <div class="flex justify-center gap-[1vw]">
-            <img src="{{ asset('assets/images/K1/str/st21.png') }}" class="large-img4" alt="Teacher" />
-            <img src="{{ asset('assets/images/K1/str/st22.png') }}" class="large-img4" alt="Teacher" />
-            <img src="{{ asset('assets/images/K1/str/st23.png') }}" class="large-img4" alt="Teacher" />
+            <img src="{{ asset('assets/images/K1/str/st21.png') }}" class="img-xs"  />
+            <img src="{{ asset('assets/images/K1/str/st22.png') }}" class="img-xs"  />
+            <img src="{{ asset('assets/images/K1/str/st23.png') }}" class="img-xs"  />
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
 
     {{-- slide 8 --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start">
+    <div class="flex !text-white flex-col t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title">Useful information:</h2>
             <ul class="list-disc ">
@@ -220,12 +212,11 @@
                     construction of a building, they tend to focus on different aspects of the job.</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- slide 9 --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start">
+    <div class="flex !text-white flex-col t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title">Useful information:</h2>
             <ul class="list-disc ">
@@ -246,43 +237,51 @@
                     retesting: it is okay to learn from other's designs and solutions.</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
 
     {{-- slide 10 --}}
-    <div class="slide flex  flex-col t-slide justify-start  text-2xl text-start !text-white">
-        <div class="flex w-[100%] items-center justify-between">
-            <div>
-                <h2 class=" t-title">Notes:</h2>
-                <ul class="list-disc leading-relaxed">
-                    <li class="flex">
-                        If you see
-                        <span>
-                            <img src="{{ asset('assets/images/pptimages/video.png') }}" />
-                        </span>
-                        next to a picture, click on the picture to watch the video.
-                    </li>
-                    <li>Emphasise and use the keywords during hands-on sessions.</li>
-                    <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
-                    </li>
-                    <li class="flex">
-                        Click on this shortcut icon
-                       <span>
-                            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" class="home-btn" />
-                        </span>
-                        if you need to go to some parts of the lesson quickly.
-                    </li>
-                </ul>
-            </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
+    <div class=" t-slide text-start flex items-center !text-white !w-[53vw]">
+        <div>
+            <h2 class="t-title ">Notes:</h2>
+            <ul class="list-disc space-y-3">
+                <li>
+                    <span class="relative">
+                        If you see <span class="opacity-0">---</span>next to a picture, click on the picture to watch the
+                        video.
+                        <img class="t-video-btn absolute top-[-1vw] left-[7.6vw]"
+                            src="{{ asset('assets/images/pptimages/video.png') }}" />
+                    </span>
+                </li>
 
+                <li>
+                    Always ask questions to encourage children to think and share their ideas first before giving out
+                    any information.
+                </li>
+
+                <li>Emphasise and use the keywords during hands-on sessions.</li>
+
+                <li>
+                    Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
+                </li>
+
+                <li>
+                    <span class="relative">
+                        Click on this shortcut icon <span class="opacity-0">---</span> if you need to go to some parts of
+                        the lesson quickly.
+                        <img src="{{ asset('assets/images/pptimages/home-btn.png') }}"
+                            class="t-home-btn absolute top-0 left-[19vw]" />
+                    </span>
+                </li>
+
+            </ul>
         </div>
 
     </div>
 
 
+ <img src="{{ asset('assets/images/pptimages/teacher1.png') }}"  class="absolute teacher-img1" />
 
     {{-- ========================================================== --}}
     {{-- Buttons --}}
@@ -328,7 +327,7 @@
 @push('script')
     <script>
         document.addEventListener("DOMContentLoaded", () => {
-            const slides = document.querySelectorAll(".slide");
+            const slides = document.querySelectorAll(".t-slide");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
             const doneButton = document.querySelector(".doneButton"); //   DONE button
@@ -374,7 +373,7 @@
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('K1structure') }}";
+                    window.location.href = "{{ route('buildingsSelection') }}";
                 });
             }
 

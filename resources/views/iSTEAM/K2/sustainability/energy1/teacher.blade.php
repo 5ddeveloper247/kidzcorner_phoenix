@@ -216,7 +216,7 @@
 
     {{-- slide 11 --}}
     <div class="flex  t-slide !text-white flex-col items-center justify-center text-start">
-        <h2 class=" title stroke">Learning Centre Idea</h2>
+        <h2 class="text-center title stroke">Learning Centre Idea</h2>
         <div>
             <div>
                 <h2 class="text-[2vw] stroke !text-white">Solar Powered Toy/Light</h2>

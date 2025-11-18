@@ -6,23 +6,20 @@
     <h2 class="top-title stroke">Domino Fun</h2>
 
     {{-- Slide 1 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 ">
-        <img src="/assets/images/K1/cm/cm1.png" />
+    <div class="slide hidden flex flex-col items-center justify-center">
+        <img src="{{ asset('assets/images/K1/cm/cm1.png') }}" class="img-md" />
         <h2 class="title stroke">Do you know what these are?</h2>
     </div>
 
-
-
     {{-- Slide 2 --}}
-    <div class="slide flex flex-col items-center justify-center gap-5 hidden ">
-        <img src="/assets/images/K1/cm/cm1.png" />
+    <div class="slide hidden flex flex-col items-center justify-center">
+        <img src="{{ asset('assets/images/K1/cm/cm1.png') }}" class="img-md" />
         <h2 class="title stroke">These are dominoes. Dominoes are rectangular
             blocks used to play a few games.</h2>
     </div>
 
-
-    {{-- Slide3 --}}
-    <div class="slide hidden flex flex-col items-center justify-center ">
+    {{-- Slide 3 --}}
+    <div class="slide hidden flex flex-col items-center justify-center">
         <h2 class="title stroke">Domino toppling is one of the interesting domino games.</h2>
         <video id="video1" class="pointer-events-none">
             <source src="{{ asset('assets/images/K1/sm/3.mp4') }}" type="video/mp4">
@@ -31,35 +28,32 @@
         <p class="note">Note: Guide children to understand that topple means cause to fall.</p>
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
-            <img src="/assets/images/pptimages/video.png" />
+            <img src="{{ asset('assets/images/pptimages/video.png') }}" />
         </div>
     </div>
 
-
     {{-- Slide 4 --}}
-    <div class=" slide hidden flex flex-col items-center justify-center gap-2">
+    <div class="slide hidden flex flex-col items-center justify-center gap-2">
         <video id="video2" class="pointer-events-none">
             <source src="{{ asset('assets/images/K1/sm/3.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
-        <h2 class="title stroke"> Do you know how to play this game?</h2>
+        <h2 class="title stroke">Do you know how to play this game?</h2>
         <p class="note">Note: Encourage children to explain how to play the domino toppling game based on the video.</p>
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
-            <img src="/assets/images/pptimages/video.png" />
+            <img src="{{ asset('assets/images/pptimages/video.png') }}" />
         </div>
     </div>
 
-
-    {{-- Slide 5  --}}
+    {{-- Slide 5 --}}
     <div class="slide hidden flex flex-col items-center justify-center px-4 text-center">
-        <img src="/assets/images/K1/cm/cm3.png" />
+        <img src="{{ asset('assets/images/K1/cm/cm3.png') }}" class="img-md" />
         <h2 class="title stroke">First, arrange some dominoes in a line to form a pattern.</h2>
     </div>
 
-
-    {{-- slide 6 --}}
-    <div class=" slide hidden flex flex-col items-center justify-center ">
+    {{-- Slide 6 --}}
+    <div class="slide hidden flex flex-col items-center justify-center">
         <video id="video3" class="pointer-events-none">
             <source src="{{ asset('assets/images/K1/sm/3.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
@@ -68,21 +62,18 @@
             dominoes fall one after another.</h2>
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
-            <img src="/assets/images/pptimages/video.png" />
+            <img src="{{ asset('assets/images/pptimages/video.png') }}" />
         </div>
     </div>
 
-
     {{-- Slide 7 --}}
-    <div class=" slide hidden flex flex-col items-center justify-center ">
-        <img src="/assets/images/K1/cm/cm4.png" />
+    <div class="slide hidden flex flex-col items-center justify-center">
+        <img src="{{ asset('assets/images/K1/cm/cm4.png') }}" class="img-lg" />
         <h2 class="title stroke">Why does the first domino fall?</h2>
     </div>
 
-
-
-    {{-- slide 8 --}}
-    <div class=" slide hidden flex flex-col items-center justify-center ">
+    {{-- Slide 8 --}}
+    <div class="slide hidden flex flex-col items-center justify-center">
         <video id="video4" class="pointer-events-none">
             <source src="{{ asset('assets/images/K1/sm/3.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
@@ -91,35 +82,32 @@
             So the force makes the first domino fall.</h2>
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video4')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
-            <img src="/assets/images/pptimages/video.png" />
+            <img src="{{ asset('assets/images/pptimages/video.png') }}" />
         </div>
     </div>
 
-
-    {{-- slide 9 --}}
-    <div class=" slide hidden flex flex-col items-center justify-center ">
-        <img src="/assets/images/K1/cm/cm5.png" />
+    {{-- Slide 9 --}}
+    <div class="slide hidden flex flex-col items-center justify-center">
+        <img src="{{ asset('assets/images/K1/cm/cm5.png') }}" class="img-lg" />
         <h2 class="title stroke">Why do all the dominoes fall one after another?</h2>
     </div>
 
-
-    {{-- slide 10 --}}
-    <div class=" slide hidden flex flex-col items-center justify-center ">
-        <video id="8" class="pointer-events-none">
+    {{-- Slide 10 --}}
+    <div class="slide hidden flex flex-col items-center justify-center">
+        <video id="video5" class="pointer-events-none">
             <source src="{{ asset('assets/images/K1/sm/3.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
         <h2 class="title stroke">The first domino falls and pushes the second one.
             The second domino falls and pushes the third one, and so on.</h2>
         <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video8')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
-            <img src="/assets/images/pptimages/video.png" />
+        <div onclick="toggleVideo('video5')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
+            <img src="{{ asset('assets/images/pptimages/video.png') }}" />
         </div>
     </div>
 
-
-    {{-- slide 11 --}}
-    <div class=" slide hidden flex flex-col items-center justify-center ">
+    {{-- Slide 11 --}}
+    <div class="slide hidden flex flex-col items-center justify-center">
         <video id="video6" class="pointer-events-none">
             <source src="{{ asset('assets/images/K1/sm/3.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
@@ -128,39 +116,33 @@
             the next action, and so on, we call it domino effect.</h2>
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video6')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
-            <img src="/assets/images/pptimages/video.png" />
+            <img src="{{ asset('assets/images/pptimages/video.png') }}" />
         </div>
     </div>
 
-
-
-    {{-- slide 12 --}}
-    <div class=" slide hidden flex flex-col items-center justify-center ">
+    {{-- Slide 12 --}}
+    <div class="slide hidden flex flex-col items-center justify-center">
         <video id="video7" class="pointer-events-none">
             <source src="{{ asset('assets/images/K1/sm/3.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
         <h2 class="title stroke"><span class="!text-white">Chain reaction</span> is another name for <span
-                class="text-white">domino effect</span>.</h2>
+                class="!text-white">domino effect</span>.</h2>
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video7')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
-            <img src="/assets/images/pptimages/video.png" />
+            <img src="{{ asset('assets/images/pptimages/video.png') }}" />
         </div>
     </div>
 
-
-
-    {{-- slide 13 --}}
-    <div class=" slide hidden flex flex-col items-center justify-center ">
-        <img src="/assets/images/K1/cm/cm5.png" />
+    {{-- Slide 13 --}}
+    <div class="slide hidden flex flex-col items-center justify-center">
+        <img src="{{ asset('assets/images/K1/cm/cm5.png') }}" class="img-lg" />
         <h2 class="title stroke">How do you make sure that the dominoes
             will always fall one after another?</h2>
     </div>
 
-
-
-    {{-- slide 14 --}}
-    <div class=" slide hidden flex flex-col items-center justify-center ">
+    {{-- Slide 14 --}}
+    <div class="slide hidden flex flex-col items-center justify-center">
         <video id="video8" class="pointer-events-none">
             <source src="{{ asset('assets/images/K1/sm/4.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
@@ -169,29 +151,26 @@
             no domino effect will be seen.</h2>
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video8')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
-            <img src="/assets/images/pptimages/video.png" />
+            <img src="{{ asset('assets/images/pptimages/video.png') }}" />
         </div>
     </div>
 
-
-
-    {{-- slide 15 --}}
-    <div class=" slide hidden flex flex-col items-center justify-center ">
-        <img src="/assets/images/K1/cm/cm7.png" />
+    {{-- Slide 15 --}}
+    <div class="slide hidden flex flex-col items-center justify-center">
+        <img src="{{ asset('assets/images/K1/cm/cm7.png') }}" class="img-lg" />
         <h2 class="title stroke">So, the positioning of dominoes is important
             to create a domino effect.</h2>
     </div>
 
-    {{-- slide 16 --}}
-    <div class="slide  hidden flex flex-col items-center justify-between h-[50vh] ">
-        <h2 class=" title stroke !text-white">Individual Activity</h2>
-        <h2 class="text-start title stroke">Now, we’ll learn some basic domino arrangements
+    {{-- Slide 16 --}}
+    <div class="slide hidden flex flex-col items-center justify-between h-[18vw]">
+        <h2 class="title stroke !text-white">Individual Activity</h2>
+        <h2 class="text-start title stroke">Now, we'll learn some basic domino arrangements
             and have fun with dominoes!</h2>
     </div>
 
-
-    {{-- slide 17 --}}
-    <div class=" slide hidden flex flex-col items-center justify-center ">
+    {{-- Slide 17 --}}
+    <div class="slide hidden flex flex-col items-center justify-center">
         <video id="video9" class="pointer-events-none">
             <source src="{{ asset('assets/images/K1/sm/63.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
@@ -200,24 +179,20 @@
             What do you think this arrangement is called?</h2>
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video9')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
-            <img src="/assets/images/pptimages/video.png" />
+            <img src="{{ asset('assets/images/pptimages/video.png') }}" />
         </div>
     </div>
 
-
-
-    {{-- slide 18 --}}
-    <div class=" slide hidden flex flex-col items-center justify-center ">
-        <img src="/assets/images/K1/cm/cm9.png" />
+    {{-- Slide 18 --}}
+    <div class="slide hidden flex flex-col items-center justify-center">
+        <img src="{{ asset('assets/images/K1/cm/cm9.png') }}" class="img-md" />
         <h2 class="title stroke">This arrangement is called straight line.
-            Let’s try to form it.</h2>
+            Let's try to form it.</h2>
         <p class="note">Note: Give children enough time to form and show this domino arrangement.</p>
-
     </div>
 
-
-    {{-- slide 19 --}}
-    <div class=" slide hidden flex flex-col items-center justify-center ">
+    {{-- Slide 19 --}}
+    <div class="slide hidden flex flex-col items-center justify-center">
         <video id="video10" class="pointer-events-none">
             <source src="{{ asset('assets/images/K1/sm/64.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
@@ -226,23 +201,20 @@
             What do you think this arrangement is called?</h2>
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video10')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
-            <img src="/assets/images/pptimages/video.png" />
+            <img src="{{ asset('assets/images/pptimages/video.png') }}" />
         </div>
     </div>
 
-
-
-    {{-- slide 20  --}}
-    <div class=" slide hidden flex flex-col items-center justify-center ">
-        <img src="/assets/images/K1/cm/cm11.png" />
+    {{-- Slide 20 --}}
+    <div class="slide hidden flex flex-col items-center justify-center">
+        <img src="{{ asset('assets/images/K1/cm/cm11.png') }}" class="img-lg" />
         <h2 class="title stroke">This arrangement is called curved line.
-            Let’s try to form it.</h2>
+            Let's try to form it.</h2>
         <p class="note">Note: Give children enough time to form and show this domino arrangement.</p>
     </div>
 
-
-    {{-- slide 21  --}}
-    <div class=" slide hidden flex flex-col items-center justify-center ">
+    {{-- Slide 21 --}}
+    <div class="slide hidden flex flex-col items-center justify-center">
         <video id="video11" class="pointer-events-none">
             <source src="{{ asset('assets/images/K1/sm/65.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
@@ -251,22 +223,20 @@
             What do you think this arrangement is called?</h2>
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video11')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
-            <img src="/assets/images/pptimages/video.png" />
+            <img src="{{ asset('assets/images/pptimages/video.png') }}" />
         </div>
     </div>
 
-
-
-    {{-- sldie 22 --}}
-    <div class=" slide hidden flex flex-col items-center justify-center ">
-        <img src="/assets/images/K1/cm/cm13.png" />
+    {{-- Slide 22 --}}
+    <div class="slide hidden flex flex-col items-center justify-center">
+        <img src="{{ asset('assets/images/K1/cm/cm13.png') }}"  class="img-lg"/>
         <h2 class="title stroke">This arrangement is called turn.
-            Let’s try to form it.</h2>
+            Let's try to form it.</h2>
         <p class="note">Note: Give children enough time to form and show this domino arrangement.</p>
     </div>
 
-    {{-- sldie 23 --}}
-    <div class=" slide hidden flex flex-col items-center justify-center ">
+    {{-- Slide 23 --}}
+    <div class="slide hidden flex flex-col items-center justify-center">
         <video id="video12" class="pointer-events-none">
             <source src="{{ asset('assets/images/K1/sm/66.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
@@ -275,45 +245,41 @@
             What do you think this arrangement is called?</h2>
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video12')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
-            <img src="/assets/images/pptimages/video.png" />
+            <img src="{{ asset('assets/images/pptimages/video.png') }}" />
         </div>
     </div>
 
-
-    {{-- slide 24 --}}
-    <div class=" slide hidden flex flex-col items-center justify-center ">
-        <img src="/assets/images/K1/cm/cm15.png" />
+    {{-- Slide 24 --}}
+    <div class="slide hidden flex flex-col items-center justify-center">
+        <img src="{{ asset('assets/images/K1/cm/cm15.png') }}" class="img-lg" />
         <h2 class="title stroke">This arrangement is called split.
-            Let’s try to form it.</h2>
+            Let's try to form it.</h2>
         <p class="note">Note: Give children enough time to form and show this domino arrangement.</p>
     </div>
 
-
-    {{-- sldie 25 --}}
-    <div class=" slide hidden flex flex-col items-center justify-center ">
+    {{-- Slide 25 --}}
+    <div class="slide hidden flex flex-col items-center justify-center">
         <video id="video13" class="pointer-events-none">
             <source src="{{ asset('assets/images/K1/sm/67.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
-        <h2 class="title stroke">Let’s see another way to do a split.
+        <h2 class="title stroke">Let's see another way to do a split.
             How many lines are there after the split?</h2>
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video13')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
-            <img src="/assets/images/pptimages/video.png" />
+            <img src="{{ asset('assets/images/pptimages/video.png') }}" />
         </div>
     </div>
 
-
-    {{-- slide 26 --}}
-    <div class=" slide hidden flex flex-col items-center justify-center ">
-        <img src="/assets/images/K1/cm/cm17.png" />
-        <h2 class="title stroke">Let’s try to form it.</h2>
+    {{-- Slide 26 --}}
+    <div class="slide hidden flex flex-col items-center justify-center">
+        <img src="{{ asset('assets/images/K1/cm/cm17.png') }}" class="img-lg" />
+        <h2 class="title stroke">Let's try to form it.</h2>
         <p class="note">Note: Give children enough time to form and show this domino arrangement.</p>
     </div>
 
-
-    {{-- slide 27 --}}
-    <div class=" slide hidden flex flex-col items-center justify-center ">
+    {{-- Slide 27 --}}
+    <div class="slide hidden flex flex-col items-center justify-center">
         <video id="video14" class="pointer-events-none">
             <source src="{{ asset('assets/images/K1/sm/68.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
@@ -322,42 +288,36 @@
             What do you think this arrangement is called?</h2>
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video14')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
-            <img src="/assets/images/pptimages/video.png" />
+            <img src="{{ asset('assets/images/pptimages/video.png') }}" />
         </div>
     </div>
 
-
-    {{-- slide 28 --}}
-    <div class=" slide hidden flex flex-col items-center justify-center ">
-        <img src="/assets/images/K1/cm/cm19.png" />
+    {{-- Slide 28 --}}
+    <div class="slide hidden flex flex-col items-center justify-center">
+        <img src="{{ asset('assets/images/K1/cm/cm19.png') }}" class="img-lg" />
         <h2 class="title stroke">This arrangement is called a spiral.
-            Let’s try to form it.</h2>
+            Let's try to form it.</h2>
         <p class="note">Note: Give children enough time to form and show this domino arrangement.</p>
     </div>
 
-
-    {{-- slide 29 --}}
-    <div class="slide  hidden flex flex-col items-center justify-between h-[50vh] ">
-        <h2 class=" title stroke !text-white">Small Group Activity</h2>
+    {{-- Slide 29 --}}
+    <div class="slide hidden flex flex-col items-center justify-between h-[28vw]">
+        <h2 class="title stroke !text-white">Small Group Activity</h2>
         <h2 class="text-start title stroke">Now, let's create a domino pattern that has some of
             the basic domino arrangements you have learnt!</h2>
         <p class="note">Note: Organise children into a few small groups. Have them use their creativity to form and show
-            a
-            domino pattern. If children need help, guide them to combine a few basic domino
+            a domino pattern. If children need help, guide them to combine a few basic domino
             arrangements together to form a pattern.</p>
     </div>
 
-
-    {{-- slide 30 --}}
-    <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
-        <h2 class=" title stroke !text-white">Learning Journal</h2>
+    {{-- Slide 30 --}}
+    <div class="slide hidden flex flex-col items-center justify-center gap-y-4">
+        <h2 class="title stroke !text-white">Learning Journal</h2>
         <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>What domino pattern did you create together with your friends? Draw it.</p>
         </div>
     </div>
-
-
 
     {{-- Complete button --}}
     <div class="down-btn-container">
@@ -367,7 +327,7 @@
     </div>
 
     {{-- Buttons --}}
-    <div id="buttons" class="absolute  flex flex-row gap-6 ">
+    <div id="buttons" class="absolute flex flex-row gap-6">
         <!-- Return Button -->
         <a id="returnButton">
             <img src="{{ asset('assets/images/pptimages/return.png') }}" />
@@ -391,9 +351,7 @@
         </button>
     </div>
 
-
 @endsection
-
 
 @push('script')
     <script>
@@ -419,7 +377,7 @@
 
             // CONFIGURE YOUR ROUTES HERE
             const returnRouteFromFirstSlide = "{{ route('DominoFunSelection') }}";
-            const doneButtonRoute = "{{ route('DominoFunSelection') }}";
+            const doneButtonRoute = "{{ route('K1CompoundMachines') }}";
 
             // Pause all videos when changing slides
             function pauseAllVideos() {

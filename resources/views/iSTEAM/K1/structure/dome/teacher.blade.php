@@ -2,11 +2,11 @@
 @section('title', 'Dynamic Presentation')
 
 @section('content')
- {{-- title --}}
+    {{-- title --}}
     <h2 class="top-title stroke">Geodesic Domes</h2>
 
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start">
+    <div class="flex !text-white flex-col t-slide justify-around  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -36,13 +36,12 @@
                 </ul>
             </div>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start">
+    <div class="flex !text-white flex-col t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
@@ -54,14 +53,34 @@
         </div>
 
 
-        <img src="{{ asset('assets/images/K1/str/st20.png') }}" alt="Teacher" class="w-[600px]" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/K1/str/um19.png') }}" class="img-lg" />
         <p class="note !text-[#F7B94A]">Suggestion: Pre-pack these two materials in a bag for each child or group before
             each lesson.</p>
     </div>
 
+
+    {{-- slide --}}
+    <div class="flex !text-white flex-col t-slide items-center justify-start  text-start">
+        <div>
+            <h2 class=" t-title">Preparations:</h2>
+            <ul class="list-disc ">
+                <li>A premade sample of geodesic dome (refer to the lesson on how to make it)</li>
+            </ul>
+        </div>
+
+
+        <video id="video1" class="pointer-events-none">
+            <source src="{{ asset('assets/images/K1/str/113.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <!-- Video Trigger Button -->
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
+            <img src="{{ asset('assets/images/pptimages/video.png') }}" />
+        </div>
+    </div>
+
     {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start">
+    <div class="flex !text-white flex-col t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
@@ -74,29 +93,7 @@
                 <li>Labels (to indicate the name of a building)</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K1/str/st18.png') }}" alt="Teacher" class="w-[600px]" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
-        <p class="note !text-[#F7B94A]">Suggestion: Cut the wrappers (if big size) into reasonable sizes of basic shapes for
-            children to use.</p>
-    </div>
-
-
-    {{-- sldie 4 --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start">
-        <div>
-            <h2 class=" t-title">Preparations:</h2>
-            <ul class="list-disc ">
-                <li>Each child a pair of scissors (remind children to use them carefully)</li>
-                <li>Coloured transparent wrappers (tracing papers, cellophane wraps or any
-                    transparent material that allow us to see the structure of a building after
-                    it is wrapped)</li>
-                <li>White glue or adhesive tape (single and double-sided)</li>
-                <li>Long rulers and/or measuring tapes</li>
-                <li>Labels (to indicate the name of a building)</li>
-            </ul>
-        </div>
-        <img src="{{ asset('assets/images/K1/str/st18.png') }}" alt="Teacher" class="w-[600px]" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/K1/str/st18.png') }}" class="img-md" />
         <p class="note !text-[#F7B94A]">Suggestion: Cut the wrappers (if big size) into reasonable sizes of basic shapes for
             children to use.</p>
     </div>
@@ -104,8 +101,8 @@
 
 
     {{-- sldie 4 --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start">
-        <div>
+    <div class="flex !text-white flex-col t-slide justify-start  text-start">
+        <div class="mt-[-1vw]">
             <h2 class=" t-title">Things to consider during hands-on sessions:</h2>
             <ul class="list-disc ">
                 <li>Ask questions to prompt children to share and try out their ideas. Some possible
@@ -121,165 +118,123 @@
                     of their buildings and record the result in their learning journals. After the
                     showcase, guide them to reflect and share things they learned from this
                     engineering activity (refer to the next page).</li>
+                <li>During hands-on session 2, guide children to search online some uses of a geodesic
+                    dome (greenhouse, theatre, stadium, tent, etc) and then decide a use for their
+                    buildings. After that, have them design the look of their geodesic dome buildings
+                    creatively in the learning journals. Advise them to choose the wrappers based on
+                    their design ideas to start building the look of their buildings. At the end, have
+                    them name and label their buildings. During the showcase, have them share their
+                    design ideas to the class.
+                </li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- sldie 5 --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start">
+    <div class="flex !text-white flex-col t-slide justify-start  text-start">
         <div>
-            <h2 class=" t-title">Possible questions for reflection:</h2>
-            <ul class="list-disc ">
-                <li>How did you join straws together using the pipe cleaners? Which way is more firm
-                    and effective? Which way is safer?</li>
-                <li>Did you succeed in building the tallest building you can? How tall is your building?
-                    Who has created the tallest building in the class? What kind of design made it
-                    the tallest building in the class?</li>
-                <li>What problems did you encounter during the process of engineering (constructing
-                    the building)? How did you overcome the problems?</li>
-                <li>Do you see any shapes in your building? How do shapes help you in the process of
-                    engineering? What shape did you use more in your construction?</li>
-                <li>If you get a chance to modify your building's design, what parts would you improve?
-                    Why?</li>
+            <!-- Reflection Questions -->
+            <h3 class="t-title">Possible questions for reflection:</h3>
+            <ul class="list-disc pl-6 space-y-2">
+                <li>How many pentagons are there in the premade sample of geodesic dome?</li>
+                <li>How many triangles make up the premade sample of geodesic dome?</li>
+                <li>What problems did you encounter during the process of engineering (constructing the geodesic dome)? How
+                    did you overcome the problems?</li>
+                <li>How would you change your dome if you could continue to make it? Why?</li>
             </ul>
+
+            <!-- End-of-lesson Activities -->
+            <h3 class="t-title">End-of-lesson activities:</h3>
+            <ul class="list-disc pl-6 space-y-2">
+                <li>Put a geodesic dome building next to a few tall buildings built in a previous lesson. Have children
+                    compare and find out which structure design is stronger or more stable.</li>
+                <li>Display all the geodesic dome buildings created in the classroom.</li>
+            </ul>
+
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- sldie 6 --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start">
-        <div>
-            <h2 class=" t-title">Things to consider during hands-on sessions:</h2>
-            <ul class="list-disc ">
-                <li>During hands-on session 2, guide children to discuss uses of a tall building (house,
-                    office, factory, hotel, hospital, etc) and then decide a use for their own buildings.
-                    After that, have them design the look of their tall buildings creatively in the
-                    learning journals. Advise them to choose the wrappers based on their design ideas.
-                    If possible, demonstrate how to create and fix a piece of wrapper to a part of
-                    the building structure by: I) measuring the size of that shape of the structure; 2)
-                    cutting the shape out from a wrapper; 3) fixing the shape to the structure using
-                    adhesive tape or glue. When they start building the look of their tall buildings,
-                    remember to give them extra time to explore and learn their own building
-                    techniques. If you want, allow children to minimally use some other art and craft
-                    materials to add certain features to complete their design (eg. their own drawing
-                    of a cross at the top for a hospital building). At the end, have them name and
-                    label their buildings. During the showcase, have them share their design ideas to
-                    the class.</li>
-            </ul>
-        </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
-    </div>
 
-
-    {{-- sldie 7 --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start">
-        <div>
-            <h2 class=" t-title">Things to consider during hands-on sessions:</h2>
-            <ul class="list-disc ">
-                <li>At the end of the lesson, display all the tall buildings created in the classroom.</li>
-                <li>If you want, guide children to create a neighbourhood or business district by
-                    arranging their tall buildings on the coding mats. You may use the obstacle cards
-                    to decorate the place!</li>
-            </ul>
-        </div>
-        <div class="flex justify-center gap-[1vw]">
-            <img src="{{ asset('assets/images/K1/str/st21.png') }}" class="large-img4" alt="Teacher" />
-            <img src="{{ asset('assets/images/K1/str/st22.png') }}" class="large-img4" alt="Teacher" />
-            <img src="{{ asset('assets/images/K1/str/st23.png') }}" class="large-img4" alt="Teacher" />
-
-
-        </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
-    </div>
-
-
-
-    {{-- slide 8 --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start">
+    <div class="flex !text-white flex-col t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title">Useful information:</h2>
-            <ul class="list-disc ">
-                <li>A structure is something that has been built.</li>
-                <li>The structure of something is the way in which something is built or the way in
-                    which parts of something are connected together.</li>
-                <li>The structure of a building refers to the frame that is formed by the connected
-                    beams and columns (the wooden or metal bars), which gives the building its shape
-                    and strength (to stand on its own and support weight).</li>
-                <li>How are tall buildings built? Who are involved in the construction process? The
-                    two main designers of a building are the architects and the engineers. Architects
-                    draw a plan (called a blueprint) to design the look and space of a building.
-                    Engineers go through the plan to make the design functional and safe by figuring
-                    out the right building structures to support the design and deciding what materials
-                    must be used to make bring the architect's design to completion. Construction
-                    workers construct the building from the ground up floor by floor based on the
-                    finalized plan.</li>
-                <li>While both architects and engineers might be involved in the design and
-                    construction of a building, they tend to focus on different aspects of the job.</li>
+            <ul class="list-disc pl-6 space-y-2">
+                <li>
+                    Geodesic domes are the upper portion of geodesic spheres. They are composed of
+                    a network of triangles in a
+                    <span class="text-[#f7n94a]">polyhedron</span> pattern. The structures are named
+                    after <span class="text-[#f7n94a]">geodesics</span> and are based on geometric
+                    shapes such as <span class="text-[#f7n94a]">icosahedrons</span>,
+                    <span class="text-[#f7n94a]">octahedrons</span> or
+                    <span class="text-[#f7n94a]">tetrahedrons</span>.
+                    So what the children build in the lesson is only a variant of the geodesic dome.
+                </li>
+
+                <li>
+                    The triangular elements of the dome are structurally rigid and distribute the
+                    structural stress throughout the structure, making geodesic domes able to withstand
+                    very heavy loads (such as snow loading, earthquakes, wind and so on) for their size.
+                    Their efficiency is said to increase with size.
+                </li>
+
+                <li>
+                    Geodesic domes can be assembled easily using a limited number of materials.
+                    This makes them a more affordable and efficient housing option than conventional buildings.
+                </li>
+
+                <li>
+                    Geodesic domes can be constructed in a variety of sizes, making them suitable
+                    for a wide range of uses: building, temporary tent, playground equipment, roof.
+                </li>
             </ul>
+
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- slide 9 --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start">
+    <div class=" t-slide text-start flex items-center !text-white !w-[53vw]">
         <div>
-            <h2 class=" t-title">Useful information:</h2>
-            <ul class="list-disc ">
-                <li>Architects concentrate on the artistic creativity of designs, while engineers
-                    focus on the scientific innovations that will bring those designs to life. So
-                    engineers might design and build a wide variety of things, including machines.
-                    Engineers can also specialize in a number of different areas, such as civil,
-                    electrical, mechanical, structural, industrial, sound and chemical engineering.</li>
-                <li>What are the key differences between architects and engineers? Read the
-                    infographic at <span class="text-[#F7B94A]"> https://newschoolarch.edu/academics/school-of-
-                        architecture/infographic-architecture-vs-engineering/</span></li>
-                <li>Engineering is a way of problem solving using science and math. Engineers are
-                    people who use their creativity and knowledge of science and math to design things
-                    that solve problems.</li>
-                <li>The process of engineering is fun and teaches good life lessons: there is not
-                    always just one right answer to solve a problem; it is okay to try out any idea you
-                    have; it is normal to repeat the process of designing, testing, redesigning and
-                    retesting: it is okay to learn from other's designs and solutions.</li>
-            </ul>
-        </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
-    </div>
-
-
-
-    {{-- slide 10 --}}
-    <div class="slide flex t-slide  flex-col  text-2xl text-start !text-white">
-        <div>
-            <h2 class="t-title">Notes:</h2>
-            <ul class="list-disc">
-                <li class="flex whitespace-nowrap">
-                    If you see
-                    <span class="info-btn">
-
-                        <img src="{{ asset('assets/images/pptimages/video.png') }}" />
+            <h2 class="t-title ">Notes:</h2>
+            <ul class="list-disc space-y-3">
+                <li>
+                    <span class="relative">
+                        If you see <span class="opacity-0">---</span>next to a picture, click on the picture to watch the
+                        video.
+                        <img class="t-video-btn absolute top-[-1vw] left-[7.6vw]"
+                            src="{{ asset('assets/images/pptimages/video.png') }}" />
                     </span>
-                    next to a picture, click on the picture to watch the video.
                 </li>
-                <li>Always ask questions to encourage children to think and share their ideas first before giving
-                    out
-                    any information.</li>
+
+                <li>
+                    Always ask questions to encourage children to think and share their ideas first before giving out
+                    any information.
+                </li>
+
                 <li>Emphasise and use the keywords during hands-on sessions.</li>
-                <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
+
+                <li>
+                    Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
                 </li>
-                <li class="flex whitespace-nowrap">
-                    Click on this shortcut icon
-                    <span> <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" class="home-btn" />
+
+                <li>
+                    <span class="relative">
+                        Click on this shortcut icon <span class="opacity-0">---</span> if you need to go to some parts of
+                        the lesson quickly.
+                        <img src="{{ asset('assets/images/pptimages/home-btn.png') }}"
+                            class="t-home-btn absolute top-0 left-[19vw]" />
                     </span>
-                    if you need to go to some parts of the lesson quickly.
                 </li>
+
             </ul>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
+
+
+    <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" />
 
 
 
@@ -322,21 +277,54 @@
 
 @push('script')
     <script>
+        // Video toggle function - plays or pauses a video when clicked
+        function toggleVideo(videoId) {
+            const video = document.getElementById(videoId);
+            if (video.paused) {
+                video.play();
+            } else {
+                video.pause();
+            }
+        }
+
         document.addEventListener("DOMContentLoaded", () => {
-            const slides = document.querySelectorAll(".slide");
+            // Get all slide elements
+            const slides = document.querySelectorAll(".t-slide");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
-            const doneButton = document.querySelector(".doneButton"); //   DONE button
+            const doneButton = document.querySelector(".doneButton");
 
+            // Keep track of which slide we're currently viewing
             let currentSlide = 0;
 
+            // CONFIGURE YOUR ROUTES HERE
+            const returnRouteFromFirstSlide = "{{ route('domeSelection') }}";
+            const doneButtonRoute = "{{ route('domeSelection') }}";
+
+            // Pause all videos when changing slides
+            function pauseAllVideos() {
+                const videos = document.querySelectorAll('video');
+                videos.forEach(video => {
+                    if (!video.paused) {
+                        video.pause();
+                    }
+                });
+            }
+
+            // Show a specific slide and hide all others
             function showSlide(index) {
+                // Pause all videos before switching
+                pauseAllVideos();
+
+                // Hide all slides except the current one
                 slides.forEach((slide, i) => {
                     slide.classList.toggle("hidden", i !== index);
                 });
 
-                //   Agar last slide hai → NEXT button hide, DONE show
-                if (index === slides.length - 1) {
+                // Check if last slide
+                const isLastSlide = index === slides.length - 1;
+
+                if (isLastSlide) {
                     nextButtons.forEach(btn => btn.classList.add("hidden"));
                     if (doneButton) doneButton.classList.remove("hidden");
                 } else {
@@ -345,7 +333,7 @@
                 }
             }
 
-            //   NEXT buttons listener
+            // NEXT button
             nextButtons.forEach((btn) => {
                 btn.addEventListener("click", () => {
                     if (currentSlide < slides.length - 1) {
@@ -355,25 +343,28 @@
                 });
             });
 
-            //   Return button - redirect if on first slide, otherwise go back
+            // RETURN button - go to previous slide or navigate back
             returnButton.addEventListener("click", () => {
+                // If on first slide, navigate to return route
                 if (currentSlide === 0) {
-                    //   First slide pe hai →  
-                    window.location.href = "{{ route('domeSelection') }}";
-                } else {
-                    //   Previous slide pe jao
+                    window.location.href = returnRouteFromFirstSlide;
+                    return;
+                }
+
+                if (currentSlide > 0) {
                     currentSlide--;
                     showSlide(currentSlide);
                 }
             });
 
+            // DONE button - navigate to completion route
             if (doneButton) {
                 doneButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('K1structure') }}";
+                    window.location.href = doneButtonRoute;
                 });
             }
 
-
+            // Initialize - show first slide
             showSlide(currentSlide);
         });
     </script>

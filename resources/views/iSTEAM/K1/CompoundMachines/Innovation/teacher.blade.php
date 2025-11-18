@@ -3,10 +3,10 @@
 
 @section('content')
     {{-- title --}}
-    <h2 class="top-title stroke">Domino Fun</h2>
+    <h2 class="top-title stroke">An Innovation</h2>
 
     {{-- sldie 1 --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start">
+    <div class="flex !text-white flex-col t-slide justify-around  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -30,13 +30,13 @@
                 <li>Lever</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
+
     </div>
 
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex flex-col t-slide text-2xl !text-white justify-start  text-start ">
+    <div class="flex flex-col t-slide !text-white justify-center  text-start ">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <div class="flex justify-center gap-20">
@@ -53,7 +53,7 @@
                     <li>Different types of balls</li>
                     <li>Marbles of different sizes</li>
                 </ul>
-                <ul>
+                <ul class="list-disc">
                     <li>Scissors</li>
                     <li>Adhesive tape</li>
                     <li>Glue</li>
@@ -67,13 +67,12 @@
             </div>
         </div>
 
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="Teacher" />
     </div>
 
 
 
     {{-- SLIDE 3 --}}
-    <div class=" slide flex flex-col t-slide text-2xl !text-white justify-start  text-start ">
+    <div class="flex flex-col t-slide !text-white items-center justify-start  text-start ">
 
         <h2 class=" t-title">Sample Rube Goldberg Machine 1 - raise a flag machine:</h2>
         <video id="video1" class="pointer-events-none">
@@ -86,22 +85,20 @@
             <img src="/assets/images/pptimages/video.png" />
         </div>
 
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="Teacher" />
     </div>
 
 
     {{-- SLIDE 4 --}}
-    <div class=" slide flex flex-col t-slide text-2xl !text-white justify-start  text-start ">
+    <div class="flex flex-col t-slide !text-white items-center justify-start  text-start ">
 
         <h2 class=" t-title">3 simple machines in the raise a flag machine:</h2>
-        <img src="/assets/images/K1/cm/cm79.png" />
+        <img src="{{ asset('/assets/images/K1/cm/cm79.png') }}" class="img-lg" />
 
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="Teacher" />
     </div>
 
 
     {{-- SLIDE 5 --}}
-    <div class=" slide flex flex-col t-slide text-2xl !text-white justify-start  text-start ">
+    <div class="flex flex-col t-slide !text-white items-center justify-start  text-start ">
 
         <h2 class=" t-title">Sample Rube Goldberg Machine 2 - bottle recycling machine:</h2>
         <video id="video2" class="pointer-events-none">
@@ -113,21 +110,19 @@
         <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="Teacher" />
     </div>
 
 
     {{-- SLIDE 6 --}}
-    <div class=" slide flex flex-col t-slide text-2xl !text-white justify-start  text-start ">
+    <div class="flex flex-col t-slide !text-white items-center justify-start  text-start ">
 
         <h2 class=" t-title">5 simple machines in the bottle recycling machine:</h2>
-            <img src="/assets/images/K1/cm/cmg1.png"/>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="Teacher" />
+        <img src="{{ asset('/assets/images/K1/cm/cmg1.png') }}" />
     </div>
 
 
     {{-- SLIDE 7 --}}
-    <div class=" slide flex flex-col t-slide text-2xl !text-white justify-start  text-start ">
+    <div class="flex flex-col t-slide !text-white items-center justify-start  text-start ">
         <h2 class=" t-title">Sample Rube Goldberg Machine 3 - trap a lizard/gecko machine:</h2>
         <video id="video3" class="pointer-events-none">
             <source src="{{ asset('assets/images/K1/sm/81.mp4') }}" type="video/mp4">
@@ -138,21 +133,19 @@
         <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="Teacher" />
     </div>
 
 
 
     {{-- SLIDE 8 --}}
-    <div class=" slide flex flex-col t-slide text-2xl !text-white justify-start  text-start ">
+    <div class="flex flex-col t-slide !text-white items-center justify-start  text-start ">
         <h2 class=" t-title">5 simple machines in the trap a gecko/lizard machine:</h2>
-        <img src="/assets/images/K1/cm/cm83.png" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="Teacher" />
+        <img src="{{ asset('/assets/images/K1/cm/cm83.png') }}" class="img-md" />
     </div>
 
 
     {{-- SLIDE 8 --}}
-    <div class=" slide flex flex-col t-slide text-2xl !text-white justify-start  text-start ">
+    <div class="flex flex-col t-slide !text-white justify-start  text-start ">
         <div>
             <h2 class=" t-title">Things to consider during hands-on session:</h2>
             <ul class="list-disc">
@@ -182,73 +175,75 @@
                 </li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="Teacher" />
     </div>
 
 
 
     {{-- slide 9 --}}
-    <div class="slide flex t-slide  flex-col  text-2xl text-start !text-white">
+    <div class=" t-slide text-start flex items-center !text-white !w-[53vw]">
         <div>
-            <h2 class="t-title">Notes:</h2>
-            <ul class="list-disc">
-                <li class="flex whitespace-nowrap">
-                    If you see
-                    <span class="info-btn">
+            <h2 class="t-title ">Notes:</h2>
+            <ul class="list-disc space-y-3">
+                <li>
+                    <span class="relative">
+                        If you see <span class="opacity-0">---</span>next to a picture, click on the picture to watch the
+                        video.
+                        <img class="t-video-btn absolute top-[-1vw] left-[7.6vw]"
+                            src="{{ asset('assets/images/pptimages/video.png') }}" />
+                    </span>
+                </li>
 
-                        <img src="{{ asset('assets/images/pptimages/video.png') }}" />
-                    </span>
-                    next to a picture, click on the picture to watch the video.
+                <li>
+                    Always ask questions to encourage children to think and share their ideas first before giving out
+                    any information.
                 </li>
-                <li class="flex whitespace-nowrap">
-                    If you see
-                    <span> <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="video-btn" />
-                    </span>
-                    , click on it for additional information or activity.
-                </li>
-                <li>Always ask questions to encourage children to think and share their ideas first before giving
-                    out
-                    any information.</li>
+
                 <li>Emphasise and use the keywords during hands-on sessions.</li>
-                <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
+
+                <li>
+                    Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
                 </li>
-                <li class="flex whitespace-nowrap">
-                    Click on this shortcut icon
-                    <span> <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" class="home-btn" />
+
+                <li>
+                    <span class="relative">
+                        Click on this shortcut icon <span class="opacity-0">---</span> if you need to go to some parts of
+                        the lesson quickly.
+                        <img src="{{ asset('assets/images/pptimages/home-btn.png') }}"
+                            class="t-home-btn absolute top-0 left-[19vw]" />
                     </span>
-                    if you need to go to some parts of the lesson quickly.
                 </li>
+
             </ul>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
+
+
     </div>
+
 
 
 
     {{--  slide 10 --}}
-    <div class="text-white flex flex-col t-slide items-center justify-center  text-start text-2xl slide hidden">
-        <h2 class=" title stroke">Learning Centre Idea</h2>
-        <div class="flex">
-            <div>
-                <h2 class="!text-white title stroke">Rube Goldberg Machine Creator</h2>
-                <h2 class="t-title">What and how to set up:</h2>
-                <ul class="list-disc">
-                    <li>Place things as listed in preparations here.</li>
-                </ul>
-
-                <h2 class="t-title">What to do:</h2>
-                <ul class="list-decimal">
-                    <li>Decide a use for your Rube Goldberg Machine.</li>
-                    <li>Choose and put things together to build the machine.</li>
-                    <li>Test and improve the machine.</li>
-                    <li>Show your friends where the simple machines are.</li>
-                </ul>
-            </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt=""
-                class="absolute teacher-img1" />
+    <div class="text-white flex flex-col t-slide justify-center  text-start hidden">
+        <h2 class="text-center title stroke">Learning Centre Idea</h2>
+        <div>
+            <h2 class="!text-white title stroke">Rube Goldberg Machine Creator</h2>
+            <h2 class="t-title">What and how to set up:</h2>
+            <ul class="list-disc">
+                <li>Place things as listed in preparations here.</li>
+            </ul>
+        </div>
+        <div>
+            <h2 class="t-title">What to do:</h2>
+            <ul class="list-decimal">
+                <li>Decide a use for your Rube Goldberg Machine.</li>
+                <li>Choose and put things together to build the machine.</li>
+                <li>Test and improve the machine.</li>
+                <li>Show your friends where the simple machines are.</li>
+            </ul>
         </div>
     </div>
 
+    <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
 
 
     {{-- ================================================================================== --}}
@@ -306,7 +301,7 @@
 
         document.addEventListener("DOMContentLoaded", () => {
             // Get all slide elements
-            const slides = document.querySelectorAll(".slide");
+            const slides = document.querySelectorAll(".t-slide");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
             const doneButton = document.querySelector(".doneButton");
@@ -316,7 +311,7 @@
 
             // CONFIGURE YOUR ROUTES HERE
             const returnRouteFromFirstSlide = "{{ route('InnovationSelection') }}";
-            const doneButtonRoute = "{{ route('K1CompoundMachines') }}";
+            const doneButtonRoute = "{{ route('InnovationSelection') }}";
 
             // Pause all videos when changing slides
             function pauseAllVideos() {

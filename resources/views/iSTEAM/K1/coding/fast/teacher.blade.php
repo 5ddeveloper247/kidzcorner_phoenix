@@ -251,7 +251,7 @@
 
     {{-- slide 13 --}}
     <div class="text-white flex flex-col t-slide items-center justify-center  text-start text-2xl slide hidden">
-        <h2 class=" title stroke">Learning Centre Idea</h2>
+        <h2 class="text-center title stroke">Learning Centre Idea</h2>
         <div class="flex">
             <div>
                 <h2 class="!text-white title stroke">Design And Move Through A Circuit</h2>

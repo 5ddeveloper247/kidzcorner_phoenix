@@ -201,7 +201,7 @@
 
     {{-- slide 10 --}}
     <div class="text-white flex flex-col justify-center items-center  text-start t-slide hidden">
-        <h2 class=" title stroke">Learning Centre Idea</h2>
+        <h2 class="text-center title stroke">Learning Centre Idea</h2>
         <div>
             <h2 class="!text-white title stroke">DNA Charm</h2>
             <h2 class="t-title">What and how to set up:</h2>
@@ -224,7 +224,7 @@
 
     {{-- slide 11 --}}
     <div class="text-white flex flex-col justify-center items-center  text-start t-slide hidden">
-        <h2 class=" title stroke">Learning Centre Idea</h2>
+        <h2 class="text-center title stroke">Learning Centre Idea</h2>
         <div>
             <h2 class="!text-white title stroke">DNA Charm</h2>
             <h2 class="t-title">How to make a DNA charm:</h2>
@@ -244,7 +244,7 @@
 
     {{-- slide 12 --}}
     <div class="text-white flex flex-col justify-center items-center  text-start t-slide hidden">
-        <h2 class=" title stroke">Learning Centre Idea</h2>
+        <h2 class="text-center title stroke">Learning Centre Idea</h2>
         <div class="space-y-[1vw]">
             <h2 class="!text-white title stroke">Fun Facts</h2>
             <div>

@@ -173,7 +173,7 @@
 
         {{-- sldie 8 --}}
         <div class="text-white flex flex-col items-center justify-center text-start t-slide hidden">
-            <h2 class=" title stroke">Learning Centre Idea</h2>
+            <h2 class="text-center title stroke">Learning Centre Idea</h2>
             <div>
                 <h2 class="!text-white text-[2vw] stroke">Let’s Create a Shape</h2>
                 <h2 class="t-title">What and how to set up:</h2>

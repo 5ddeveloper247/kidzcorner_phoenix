@@ -360,7 +360,7 @@
 
     {{-- slide 11  --}}
     <div class="text-white flex flex-col items-center justify-center  text-start t-slide slide hidden">
-        <h2 class=" title stroke">Learning Centre Idea</h2>
+        <h2 class="text-center title stroke">Learning Centre Idea</h2>
         <div class="flex flex-col gap-10">
             <ul>
                 <h2 class="!text-white title stroke ">Fun Facts</h2>

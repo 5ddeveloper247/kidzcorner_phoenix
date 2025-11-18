@@ -12,7 +12,7 @@
         <h2 class=" !text-white stroke ">Explore and learn about basic coding;
             learn how to handle a robot and a tablet with care</h2>
 
-        <button class="nextButton"> 
+        <button class="nextButton"  > 
             <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
         </button>
     </div>
