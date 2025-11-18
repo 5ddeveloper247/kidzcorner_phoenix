@@ -3,19 +3,18 @@
 
 @section('content')
 
-    <div id="topDiv" class="flex flex-col  gap-20 ">
-        <div class="indexTitle    stroke">Reduce & Ruse</div>
+    <div id="topDiv" class="flex flex-col ">
+        <div class="indexTitle  stroke">Reduce & Ruse</div>
         <h2 class=" !text-white stroke ">
             Explore fingerprints; <br>
             learn to make own set of fingerprints <br>
             for analysis</h2>
 
-        {{-- next Button --}}
-        <div class="down-btn-container">
-            <button class="nextButton">
-                <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
-            </button>
-        </div>
+
+        <button class="nextButton">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
+        </button>
+
     </div>
 
 

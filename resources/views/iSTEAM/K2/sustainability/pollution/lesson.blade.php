@@ -6,7 +6,7 @@
     <h2 class="top-title stroke">Pollution and its Effects</h2>
 
     {{-- Slide 2 --}}
-    <div class="slide flex flex-col hidden items-center justify-between h-[30vh]">
+    <div class="slide flex flex-col hidden items-center justify-between h-[15vw]">
         <div class="title stroke">
             <h2>Children, what do you remember
                 what clean energy is?</h2>
@@ -16,7 +16,7 @@
 
     {{-- Slide 3 --}}
     <div class="slide hidden flex flex-col items-center">
-        <img src="{{ asset('assets/images/K2/sustain/energy2/e13.png') }}" class="w-img3" />
+        <img src="{{ asset('assets/images/K2/sustain/energy2/e13.png') }}" class="img-xl" />
         <h2 class="title stroke">Solar energy, wind power and hydropower are
             three types of clean energy.</h2>
     </div>
@@ -24,7 +24,7 @@
     {{-- Slide 4 --}}
     <div class="slide hidden flex flex-col items-center">
 
-        <img src="{{ asset('assets/images/K2/sustain/energy2/e1.png') }}" />
+        <img src="{{ asset('assets/images/K2/sustain/energy2/e1.png') }}" class="img-md" />
         <h2 class="title stroke">The sun, wind and water are natural sources that help to
             generate clean energy.</h2>
     </div>
@@ -32,7 +32,7 @@
     {{-- Slide 5 --}}
     <div class="slide hidden flex flex-col items-center">
 
-        <img src="{{ asset('assets/images/K2/sustain/energy2/e1.png') }}" />
+        <img src="{{ asset('assets/images/K2/sustain/energy2/e1.png') }}" class="img-md" />
         <h2 class="title stroke">Clean energy is energy generated from natural resources
             which do not cause pollution.</h2>
     </div>
@@ -40,20 +40,20 @@
     {{-- Slide 6 --}}
     <div class="slide hidden flex flex-col items-center">
 
-        <img src="{{ asset('assets/images/K2/sustain/energy2/e13.png') }}" class="w-img3" />
+        <img src="{{ asset('assets/images/K2/sustain/energy2/e13.png') }}" class="img-xl" />
         <h2 class="title stroke">Using clean energy will help natural resources to be sustainable
             and protect our Earth from global warming and pollution.</h2>
     </div>
 
     {{-- Slide 7 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-[50%]">
+    <div class="slide hidden flex flex-col items-center">
         <h2 class="title stroke text-center">Let's have a better understanding of what pollution is and
             how pollution affects Earth.</h2>
     </div>
 
     {{-- Slide 8 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p1.png') }}" class="w-img3" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p1.png') }}" class="img-xl" />
         <h2 class="title stroke text-center">Look at these pictures.
             These are pictures of the different types of pollution.</h2>
         <p class="note">Note: Encourage children to share what they see and guess how will pollution affect us.</p>
@@ -61,7 +61,7 @@
 
     {{-- Slide 9 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p1.png') }}" class="w-img3" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p1.png') }}" class="img-xl" />
         <h2 class="title stroke text-center"><span class="!text-white">Pollution </span>is when gases,<span
                 class="text-white"> chemicals,</span> oil spills and trash are
             introduced into the environment in large amounts that is
@@ -70,14 +70,14 @@
 
     {{-- Slide 10 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p2.png') }}" class="w-img3" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p2.png') }}" class="img-xl" />
         <h2 class="title stroke">As seen previously, greenhouse gases are produced when fuels
             such as wood and coal are burned in factories and vehicles.</h2>
     </div>
 
     {{-- Slide 11 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p2.png') }}" class="w-img3" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p2.png') }}" class="img-xl" />
         <h2 class="title stroke">Harmful smoke and chemicals are also released when such
             fuels are burnt, causing air pollution.</h2>
     </div>
@@ -85,7 +85,7 @@
     {{-- Slide 12 --}}
     <div class="slide hidden flex flex-col items-center">
 
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p3.png') }}" class="w-img3" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p3.png') }}" class="img-xl" />
         <h2 class="title stroke">Prolonged exposure to the harmful smoke and <span class="!text-white">chemicals</span> leads
             to many health problems, especially for young children.</h2>
     </div>
@@ -93,7 +93,7 @@
     {{-- Slide 13 --}}
     <div class="slide hidden flex flex-col items-center">
 
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p3.png') }}" class="w-img3" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p3.png') }}" class="img-xl" />
         <h2 class="title stroke"> <span class="!text-white">Air pollution </span>can cause serious damages to
             lungs, heart and brains.</h2>
     </div>
@@ -101,7 +101,7 @@
     {{-- Slide 14 --}}
     <div class="slide hidden flex flex-col items-center">
 
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p4.png') }}" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p4.png') }}" class="img-md" />
         <h2 class="title stroke">Can you guess what this is?</h2>
         <p class="note">Note: Encourage children to share their answers.</p>
     </div>
@@ -109,7 +109,7 @@
     {{-- Slide 15 --}}
     <div class="slide hidden flex flex-col items-center">
 
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p4.png') }}" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p4.png') }}" class="img-md" />
         <h2 class="title stroke">This is a picture of oil spill in the sea. Oil spills are hard to
             clean up and it is harmful to the environment.</h2>
     </div>
@@ -117,7 +117,7 @@
     {{-- Slide 16 --}}
     <div class="slide hidden flex flex-col items-center">
 
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p5.png') }}" class="w-img3" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p5.png') }}" class="img-xl" />
         <h2 class="title stroke">Oil spills are caused by ship accidents or during the process of
             drilling oil rigs to gather oil from the sea bed.</h2>
     </div>
@@ -125,7 +125,7 @@
     {{-- Slide 17 --}}
     <div class="slide hidden flex flex-col items-center">
 
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p6.png') }}" class="w-img3" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p6.png') }}" class="img-xl" />
         <h2 class="title stroke">Sea creatures and marine birds are often killed by oil spills.</h2>
         <p class="note">Note: Teacher can <a class="click-btn1 text-[#F7B94A]"> click here </a>to share how oil spills are
             harmful to the animals.</p>
@@ -134,7 +134,7 @@
     {{-- Slide 18 --}}
     <div class="slide hidden flex flex-col click1 items-center">
 
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p37.png') }}" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p37.png') }}" class="img-md" />
         <h2 class="title stroke">Oil spills are sticky.
             It sticks onto animal fur and the bird feathers.</h2>
     </div>
@@ -142,7 +142,7 @@
     {{-- Slide 19 --}}
     <div class="slide hidden flex flex-col click1 items-center">
 
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p37.png') }}" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p37.png') }}" class="img-md" />
         <h2 class="title stroke">When the fur or feathers are covered with oil, the animals
             and birds are unable to keep warm.</h2>
     </div>
@@ -150,7 +150,7 @@
     {{-- Slide 20 --}}
     <div class="slide hidden flex flex-col click1 items-center">
 
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p37.png') }}" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p37.png') }}" class="img-md" />
         <h2 class="title stroke">Animals and birds may die because they are
             unable to keep warm.</h2>
     </div>
@@ -158,7 +158,7 @@
     {{-- Slide 21 --}}
     <div class="slide hidden flex flex-col click1 items-center">
 
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p7.png') }}" class="w-img3" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p7.png') }}" class="img-xl" />
         <h2 class="title stroke">Other animals such as turtles and fishes may mistaken the oil
             spill as food. Some fall sick or die after eating them.</h2>
     </div>
@@ -166,7 +166,7 @@
     {{-- Slide 22 --}}
     <div class="slide hidden flex flex-col items-center">
 
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p8.png') }}" class="w-img3" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p8.png') }}" class="img-lg" />
         <h2 class="title stroke">Besides oil spills, the sea is also polluted with chemical waste
             from inconsiderate factories.</h2>
     </div>
@@ -174,7 +174,7 @@
     {{-- Slide 23 --}}
     <div class="slide hidden flex flex-col items-center">
 
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p8.png') }}" class="w-img3" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p8.png') }}" class="img-lg" />
         <h2 class="title stroke">When these <span class="!text-white"> chemical </span> waste flows into the sea, it
             poisons the sea creatures and makes the sea water dirty.</h2>
     </div>
@@ -182,20 +182,20 @@
     {{-- Slide 24 --}}
     <div class="slide hidden flex flex-col items-center">
 
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p9.png') }}" class="w-img3" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p9.png') }}" class="img-lg" />
         <h2 class="title stroke">The sea is also polluted with rubbish.</h2>
     </div>
 
     {{-- Slide 25 --}}
     <div class="slide hidden flex flex-col items-center">
 
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p9.png') }}" class="w-img3" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p9.png') }}" class="img-lg" />
         <h2 class="title stroke">Look at this, what is in the sea? Can the sea be cleaned?</h2>
         <p class="note">Note: Encourage children to share what they see or share their thoughts</p>
     </div>
 
     {{-- Slide 26 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-[50vh]">
+    <div class="slide hidden flex flex-col items-center justify-between h-[28vw]">
         <h2 class="title stroke !text-white">Brainstorming Session</h2>
         <div class="title stroke text-start">
             <ol class="lesson-ul space-y-4 list-disc">
@@ -212,7 +212,7 @@
     {{-- Slide 27 --}}
     <div class="slide hidden flex flex-col items-center">
 
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p10.png') }}" class="w-img3" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p10.png') }}" class="img-xl" />
         <h2 class="title stroke">Children, do you know what these are?</h2>
         <p class="note">Note: Encourage children to share what they see or share their thoughts.</p>
     </div>
@@ -220,7 +220,7 @@
     {{-- Slide 28 --}}
     <div class="slide hidden flex flex-col items-center">
 
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p10.png') }}" class="w-img3" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p10.png') }}" class="img-xl" />
         <h2 class="title stroke">These are different types of <span class="!text-white"> filters!
                 Filters </span> help to remove unwanted substances and only allow
             certain substances to pass through them.</h2>
@@ -229,7 +229,7 @@
     {{-- Slide 29 --}}
     <div class="slide hidden flex flex-col items-center">
 
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p11a.png') }}" class="!max-w-[40vw]" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p11a.png') }}" class="img-lg" />
         <h2 class="title stroke">This is a sieve. A sieve acts as a filter to remove
             unwanted lumps from the flour.</h2>
     </div>
@@ -237,7 +237,7 @@
     {{-- Slide 30 --}}
     <div class="slide hidden flex flex-col items-center">
 
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p11a.png') }}" class="!max-w-[40vw]" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p11a.png') }}" class="img-lg" />
         <h2 class="title stroke">The smooth flour will pass through the sieve
             and be used in baking.</h2>
     </div>
@@ -245,7 +245,7 @@
     {{-- Slide 31 --}}
     <div class="slide hidden flex flex-col items-center">
 
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p11.png') }}" class="w-img4" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p11.png') }}" class="img-lg" />
         <h2 class="title stroke">This is a coffee <span class="!text-white"> filter </span>paper.
             The <span class="!text-white"> filter </span> helps to trap coffee grounds on the paper.</h2>
     </div>
@@ -253,7 +253,7 @@
     {{-- Slide 32 --}}
     <div class="slide hidden flex flex-col items-center">
 
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p11.png') }}" class="w-img4" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p11.png') }}" class="img-lg" />
         <h2 class="title stroke">Only liquid coffee will be able to flow through
             the coffee filter paper.</h2>
     </div>
@@ -261,7 +261,7 @@
     {{-- Slide 33 --}}
     <div class="slide hidden flex flex-col items-center">
 
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p12.png') }}" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p12.png') }}" class="img-md" />
         <h2 class="title stroke">This is a water filter for tap water. This filter helps remove
             impurities from the tap water as it flows out of the tap.</h2>
     </div>
@@ -275,7 +275,7 @@
     <div class="slide hidden flex flex-col items-center">
         <h2 class="text-white">Class Activity 1 </h2>
 
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p13.png') }}" class="w-img" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p13.png') }}" class="img-sm" />
         <h2 class="title stroke text-start">Let's find out: <br>
             How can we clean dirty water? Which filter materials are
             good for cleaning dirty water?</h2>
@@ -291,11 +291,11 @@
             </ol>
         </div>
 
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p14.png') }}" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p14.png') }}" class="img-md" />
     </div>
 
     {{-- Slide 37 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-[55vh]">
+    <div class="slide hidden flex flex-col items-center justify-between h-[28vw]">
         <div class="text-start title stroke">
             <h2>Let's do:</h2>
             <ol class="lesson-ul space-y-4 list-decimal" start="2">
@@ -320,12 +320,12 @@
                 <li>Place the bottles as shown.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p15.png') }}" class="w-img2" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p15.png') }}" class="img-md" />
 
     </div>
 
     {{-- Slide 39 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-[55vh]">
+    <div class="slide hidden flex flex-col items-center justify-between h-[28vw]">
         <div class="text-start title stroke">
             <h2>Let's do:</h2>
             <ol class="lesson-ul space-y-4 list-decimal" start="7">
@@ -342,7 +342,7 @@
     {{-- Slide 40 --}}
     <div class="slide hidden flex click2 flex-col !text-start items-center">
         <h2 class="title stroke">Guiding Questions:</h2>
-        <ol class="list-disc">
+        <ol class="list-disc lesson-ul">
             <li>Do you think this material will help to remove the dirt?</li>
             <li>What should be done to remove the bigger pieces of rubbish?</li>
             <li>Look at the sizes of the filter materials. Are they the same? How can they be placed in order?</li>
@@ -352,7 +352,7 @@
     </div>
 
     {{-- Slide 41 --}}
-    <div class="slide hidden flex flex-col items-center">
+    <div class="slide hidden flex flex-col items-between h-[28vw]">
         <div class="text-start title stroke">
             <h2>Let's do:</h2>
             <ol class="lesson-ul space-y-4 list-decimal" start="9">
@@ -367,7 +367,7 @@
     </div>
 
     {{-- Slide 42 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-[55vh]">
+    <div class="slide hidden flex flex-col items-center justify-between h-[28vw]">
         <div class="text-start title stroke">
             <h2>Let's do:</h2>
             <ol class="lesson-ul space-y-4 list-decimal" start="13">
@@ -384,7 +384,7 @@
     {{-- Slide 43 --}}
     <div class="slide hidden flex flex-col items-center">
 
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p16.png') }}" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p16.png') }}" class="img-md" />
         <h2 class="title stroke">Dirty water will need to go through many layers of
             filters to get clean.</h2>
     </div>
@@ -392,23 +392,16 @@
     {{-- Slide 44 --}}
     <div class="slide hidden flex flex-col items-center">
 
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p17.png') }}" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p17.png') }}" class="img-md" />
         <h2 class="title stroke">Bigger pieces of rubbish such as straws and food wrapper are
             trapped on the top layer filled with large pebbles.</h2>
     </div>
 
-    {{-- Slide 45 --}}
-    <div class="slide hidden flex flex-col items-center">
-
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p17.png') }}" />
-        <h2 class="title stroke">Bigger pieces of rubbish such as straws and food wrapper are
-            trapped on the top layer filled with large pebbles.</h2>
-    </div>
-
+   
     {{-- Slide 46 --}}
     <div class="slide hidden flex flex-col items-center">
 
-        <img src="{{ asset('assets/images/K2/sustain/pollution/gl1.png') }}" class="!max-w-[35vw]" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/gl1.png') }}" class="img-lg" />
         <h2 class="title stroke">Liquid flows through the different layers of filter materials.
             Unwanted substances are trapped in the layers accordingly.</h2>
     </div>
@@ -416,14 +409,14 @@
     {{-- Slide 47 --}}
     <div class="slide hidden flex flex-col items-center">
 
-        <img src="{{ asset('assets/images/K2/sustain/pollution/gl2.png') }}" class="!max-w-[35vw]" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/gl2.png') }}" class="img-lg" />
         <h2 class="title stroke">Clean liquid is collected at the bottom of the container.</h2>
     </div>
 
     {{-- Slide 48 --}}
     <div class="slide hidden flex flex-col items-center">
 
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p18.png') }}" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p18.png') }}" class="img-md" />
         <h2 class="title stroke">The <span class="!text-white">liquid</span> was brown and filled with rubbish before
             going through the <span class="!text-white">filter </span>. The <span class="!text-white">liquid</span> is
             colourless
@@ -433,7 +426,7 @@
     {{-- Slide 49 --}}
     <div class="slide hidden flex flex-col items-center">
 
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p19.png') }}" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p19.png') }}" class="img-md" />
         <h2 class="title stroke">Do you think this liquid is now safe for us to drink?</h2>
         <p class="note">Note: Encourage children to share their thoughts.</p>
     </div>
@@ -441,7 +434,7 @@
     {{-- Slide 50 --}}
     <div class="slide hidden flex flex-col items-center">
 
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p19.png') }}" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p19.png') }}" class="img-md" />
         <h2 class="title stroke">No! The liquid still needs to go through cleaning to get rid of
             bacteria before it can be safe for drinking.</h2>
     </div>
@@ -449,7 +442,7 @@
     {{-- Slide 51 --}}
     <div class="slide hidden flex flex-col items-center">
 
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p9.png') }}" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p9.png') }}" class="img-lg" />
         <h2 class="title stroke">Similarly, water filters are needed to clean up and remove the
             rubbish in the polluted sea water.</h2>
     </div>
@@ -457,7 +450,7 @@
     {{-- Slide 52 --}}
     <div class="slide hidden flex flex-col items-center">
 
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p9.png') }}" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p9.png') }}" class="img-lg" />
         <h2 class="title stroke">The process to clean up the sea is not easy and it is expensive
             to have such water filters to make water clean.</h2>
     </div>
@@ -465,7 +458,7 @@
     {{-- Slide 53 --}}
     <div class="slide hidden flex flex-col items-center">
 
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p9.png') }}" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p9.png') }}" class="img-lg" />
         <h2 class="title stroke">However, if everyone does their part and not throw so much
             rubbish, the sea can be cleaner!</h2>
     </div>
@@ -473,14 +466,14 @@
     {{-- Slide 54 --}}
     <div class="slide hidden flex flex-col items-center">
 
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p20.png') }}" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p20.png') }}" class="img-lg" />
         <h2 class="title stroke">Let’s take closer look at the rubbish.</h2>
     </div>
 
     {{-- Slide 55 --}}
     <div class="slide hidden flex flex-col items-center">
 
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p20.png') }}" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p20.png') }}" class="img-lg" />
         <h2 class="title stroke">What type of rubbish do you see?</h2>
         <p class="note">Note: Encourage children to share their answers.</p>
     </div>
@@ -488,7 +481,7 @@
     {{-- Slide 56 --}}
     <div class="slide hidden flex flex-col items-center">
 
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p20.png') }}" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p20.png') }}" class="img-lg" />
         <h2 class="title stroke">There are plastic bags, food wrappers, straws, ropes and
             plastic baskets.</h2>
     </div>
@@ -496,7 +489,7 @@
     {{-- Slide 57 --}}
     <div class="slide hidden flex flex-col items-center">
 
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p20.png') }}" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p20.png') }}" class="img-lg" />
         <h2 class="title stroke">In fact, most of the rubbish you see here
             are made of plastics.</h2>
     </div>
@@ -504,7 +497,7 @@
     {{-- Slide 58 --}}
     <div class="slide hidden flex flex-col items-center">
 
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p20.png') }}" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p20.png') }}" class="img-lg" />
         <h2 class="title stroke"><span class="!text-white">Plastics</span> are harmful to the environment because
             they are <span class="!text-white">non-biodegradable</span>.</h2>
     </div>
@@ -512,7 +505,7 @@
     {{-- Slide 59 --}}
     <div class="slide hidden flex flex-col items-center">
 
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p20.png') }}" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p20.png') }}" class="img-lg" />
         <h2 class="title stroke"><span class="!text-white">Non-biodegradable</span> materials cannot be broken down
             naturally. Therefore, they are a form of pollution to Earth.</h2>
     </div>
@@ -520,7 +513,7 @@
     {{-- Slide 60 --}}
     <div class="slide hidden flex flex-col items-center">
 
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p21.png') }}" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p21.png') }}" class="img-lg" />
         <h2 class="title stroke"><span class="!text-white">Biodegradable</span> materials are materials from nature.
             These materials will break down naturally over time.</h2>
     </div>
@@ -528,7 +521,7 @@
     {{-- Slide 61 --}}
     <div class="slide hidden flex flex-col items-center">
 
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p22.png') }}" class="w-img3" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p22.png') }}" class="img-xl" />
         <h2 class="title stroke">Wood and cotton are examples
             of biodegradable materials.</h2>
     </div>
@@ -536,7 +529,7 @@
     {{-- Slide 62 --}}
     <div class="slide hidden flex flex-col items-center">
 
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p23.png') }}" class="w-img3" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p23.png') }}" class="img-xl" />
         <h2 class="title stroke">Furniture and papers products such as newspaper and
             books are made from wood.</h2>
     </div>
@@ -544,7 +537,7 @@
     {{-- Slide 63 --}}
     <div class="slide hidden flex flex-col items-center">
 
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p24.png') }}" class="w-img3" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p24.png') }}" class="img-xl" />
         <h2 class="title stroke">Clothes, bed sheets and bags can be made from biodegradable
             materials such as cotton.</h2>
     </div>
@@ -561,7 +554,7 @@
     <div class="slide hidden flex flex-col items-center">
         <h2 class="text-white">Class Activity 2 </h2>
 
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p9.png') }}" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p9.png') }}" class="img-md" />
         <h2 class="title stroke text-start">Let’s find out: <br>
             What happens to paper and plastics in the sea?</h2>
     </div>
@@ -575,7 +568,7 @@
             </ol>
         </div>
 
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p25.png') }}" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p25.png') }}" class="img-md" />
     </div>
 
     {{-- Slide 67 --}}
@@ -589,7 +582,7 @@
                 <li>Ask children to touch and compare the items.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p26.png') }}" class="!max-w-[37vw] h-[11vw]" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p26.png') }}" class="img-xl" />
         <p class="note">Note: Teacher to can take a photo of the items in the bottles for future comparisons.</p>
     </div>
 
@@ -602,7 +595,7 @@
             </ol>
         </div>
 
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p27.png') }}" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p27.png') }}" class="img-md" />
     </div>
 
     {{-- Slide 69 --}}
@@ -615,7 +608,7 @@
             </ol>
         </div>
 
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p28.png') }}" class="!h-[7vw]" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p28.png') }}" class="img-sm" />
         <p class="note">Note: Teacher can keep the bottles and get children to shake it daily. Observe the changes after
             one week. Get children to compare and observe if there are any changes for the plastic sheet.</p>
     </div>
@@ -623,7 +616,7 @@
     {{-- Slide 70 --}}
     <div class="slide hidden flex flex-col items-center">
 
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p29.png') }}" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p29.png') }}" class="img-md" />
         <h2 class="title stroke">Look at the plastic sheet in the bottle. What do you see?</h2>
         <p class="note">Note: Encourage children to share what they see.</p>
     </div>
@@ -631,7 +624,7 @@
     {{-- Slide 71 --}}
     <div class="slide hidden flex flex-col items-center">
 
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p29.png') }}" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p29.png') }}" class="img-md" />
         <h2 class="title stroke">Plastic is non-biodegradable.
             This means that it cannot be broken down.</h2>
     </div>
@@ -639,7 +632,7 @@
     {{-- Slide 72 --}}
     <div class="slide hidden flex flex-col items-center">
 
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p29.png') }}" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p29.png') }}" class="img-md" />
         <h2 class="title stroke">The plastic doesn't change no matter how hard you shake the
             bottle. Similarly, it will not break down when it is in the sea.</h2>
     </div>
@@ -647,21 +640,21 @@
     {{-- Slide 73 --}}
     <div class="slide hidden flex flex-col items-center">
 
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p30.png') }}" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p30.png') }}" class="img-md" />
         <h2 class="title stroke">Let’s look at the paper in the bottle.</h2>
         <p class="note">Note: Encourage children to share what they see.</p>
     </div>
 
     {{-- Slide 74 --}}
     <div class="slide hidden flex flex-col items-center">
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p30.png') }}" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p30.png') }}" class="img-md" />
         <h2 class="title stroke">The toilet paper became smaller. The water broke the paper.</h2>
     </div>
 
     {{-- Slide 75 --}}
     <div class="slide hidden flex flex-col items-center">
 
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p30.png') }}" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p30.png') }}" class="img-md" />
         <h2 class="title stroke">The toilet paper is biodegradable. This means that it can be
             broken down into smaller pieces naturally.</h2>
     </div>
@@ -669,7 +662,7 @@
     {{-- Slide 76 --}}
     <div class="slide hidden flex flex-col items-center">
 
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p30.png') }}" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p30.png') }}" class="img-md" />
         <h2 class="title stroke">Things that are biodegradable break down in the environment
             and do not cause pollution.</h2>
     </div>
@@ -677,7 +670,7 @@
     {{-- Slide 77 --}}
     <div class="slide hidden flex flex-col items-center">
 
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p9.png') }}" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p9.png') }}" class="img-lg" />
         <h2 class="title stroke">But things made of plastic do not break down.
             It will harm the animals and our environment.</h2>
     </div>
@@ -685,7 +678,7 @@
     {{-- Slide 78 --}}
     <div class="slide hidden flex flex-col items-center">
 
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p1.png') }}" class="w-img3" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p1.png') }}" class="img-xl" />
         <h2 class="title stroke">Pollution is harmful.
             It harms the animals, the environment and us.</h2>
     </div>
