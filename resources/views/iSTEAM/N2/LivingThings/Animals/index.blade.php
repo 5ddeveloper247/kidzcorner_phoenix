@@ -5,7 +5,7 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col items-center ">
-        <div class="indexTitle    stroke">Animals are Living Things</div>
+        <div class="indexTitle stroke">Animals are Living Things</div>
         <h2
             class=" !text-white    flex flex-col items-center space-x-[30px]">
             Learn about the characteristics of living things;

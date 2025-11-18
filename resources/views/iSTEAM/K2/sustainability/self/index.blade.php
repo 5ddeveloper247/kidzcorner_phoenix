@@ -3,18 +3,15 @@
 
 @section('content')
 
-    <div id="topDiv" class="flex flex-col  gap-[1vw] justify-center items-center ">
+    <div id="topDiv" class="flex flex-col items-center ">
         <div class="indexTitle stroke">Being Self-Sufficient</div>
         <h2 class=" !text-white stroke ">
             Understand the meaning of self-sufficient; <br>
             Learn how being self-sufficient helps the environment</h2>
 
-        {{-- next Button --}}
-        <div class="down-btn-container">
             <button class="nextButton">
                 <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
             </button>
-        </div>
     </div>
 
 

@@ -4,7 +4,7 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col items-center ">
-        <div class="indexTitle    stroke">The Stages of Growth of a Butterfly</div>
+        <div class="indexTitle stroke">The Stages of Growth of a Butterfly</div>
         <h2
             class=" !text-white    flex flex-col items-center space-x-[30px]">
             Learn about the stages of growth of animals</h2>

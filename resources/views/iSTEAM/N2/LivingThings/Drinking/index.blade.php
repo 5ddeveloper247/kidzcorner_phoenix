@@ -4,7 +4,7 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col items-center ">
-        <div class="indexTitle    stroke">How Does a Plant Drink Water?</div>
+        <div class="indexTitle stroke">How Does a Plant Drink Water?</div>
         <h2
             class=" !text-white    flex flex-col items-center space-x-[30px]">
             Observe how plants drink water</h2>

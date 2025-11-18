@@ -4,7 +4,7 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col  gap-20 items-center ">
-        <div class="indexTitle    stroke">Machines and Electricity</div>
+        <div class="indexTitle stroke">Machines and Electricity</div>
         <h2 class=" !text-white stroke ">
             Explore and learn about machines and <br>
             electricity</h2>

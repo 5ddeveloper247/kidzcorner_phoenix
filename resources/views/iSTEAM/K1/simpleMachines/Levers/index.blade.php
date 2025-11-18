@@ -4,7 +4,7 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col  items-center ">
-        <div class="indexTitle    stroke">How do Levers Work?</div>
+        <div class="indexTitle stroke">How do Levers Work?</div>
         <h2 class="text-white">
             Explore the characteristics and uses
             of a simple machine - Lever

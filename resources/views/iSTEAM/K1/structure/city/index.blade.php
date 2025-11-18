@@ -4,7 +4,7 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col   items-center ">
-        <div class="indexTitle    stroke">Our Amazing City</div>
+        <div class="indexTitle stroke">Our Amazing City</div>
         <h2 class=" !text-white stroke ">Design and build a city</h2>
 
         <button class="nextButton">

@@ -105,13 +105,13 @@
     </div>
 
 
-    
+
     {{-- sldie 3 --}}
     <div class="flex t-slide !text-white flex-col items-center justify-center">
         <h2 class="title stroke text-center">Learning Centre Idea</h2>
         <div class="text-start">
             <div>
-                <h2 class="title stroke !text-white">Create A Poster</h2>
+                <h2 class="text-[2vw] stroke !text-white">Create A Poster</h2>
                 <h2 class="t-title">What and how to set up:</h2>
                 <p> Provide art materials and books on reducing waste.</p>
             </div>
@@ -205,7 +205,7 @@
             });
 
             if (doneBtn) doneBtn.addEventListener("click", () => {
-                window.location.href = "{{ route('k2sustainability') }}";
+                window.location.href = "{{ route('reduceSelection') }}";
             });
 
             showSlide(0);

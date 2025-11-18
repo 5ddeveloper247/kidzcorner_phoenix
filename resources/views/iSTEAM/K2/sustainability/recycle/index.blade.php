@@ -3,18 +3,15 @@
 
 @section('content')
 
-    <div id="topDiv" class="flex flex-col  gap-20 ">
-        <div class="indexTitle    stroke">Let's Recycle</div>
+    <div id="topDiv" class="flex flex-col">
+        <div class="indexTitle stroke">Let's Recycle</div>
         <h2 class=" !text-white stroke ">
             Understand how recycling helps earth; <br>
             Learn about the process of recycling paper</h2>
-
-        {{-- next Button --}}
-        <div class="down-btn-container">
+        
             <button class="nextButton">
                 <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
             </button>
-        </div>
     </div>
 
 

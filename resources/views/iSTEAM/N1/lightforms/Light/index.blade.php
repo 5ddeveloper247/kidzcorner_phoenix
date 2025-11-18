@@ -4,7 +4,7 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col  h-full justify-between items-center ">
-        <div class="indexTitle    stroke">What is light?</div>
+        <div class="indexTitle stroke">What is light?</div>
         <h2 class=" !text-white max-w-5xl leading-snug flex flex-col items-center space-x-[30px]">
             Explore natural and man-made lights
             Develop awareness and knowledge

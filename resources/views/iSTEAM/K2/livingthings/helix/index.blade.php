@@ -4,7 +4,7 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col items-center ">
-        <div class="indexTitle    stroke">DNA Double Helix</div>
+        <div class="indexTitle stroke">DNA Double Helix</div>
         <h2 class=" !text-white stroke ">
             Know that a DNA Double helix looks like a twisted
             ladder; learn to make a model of DNA

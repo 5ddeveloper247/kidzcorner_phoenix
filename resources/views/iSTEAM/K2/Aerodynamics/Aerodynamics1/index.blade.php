@@ -4,7 +4,7 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col ">
-        <div class="indexTitle    stroke">What is Aerodynamics? 1</div>
+        <div class="indexTitle stroke">What is Aerodynamics? 1</div>
         <h2 class=" !text-white stroke ">
             Understanding the concept of Weight and Lift</h2>
 

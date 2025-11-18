@@ -4,7 +4,7 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col items-center ">
-        <div class="indexTitle    stroke">Pulleys to the Rescue</div>
+        <div class="indexTitle stroke">Pulleys to the Rescue</div>
         <h2 class="text-white">
             Build a Rube Goldberg Machine that includes
             a simple machine - Pulley</h2>

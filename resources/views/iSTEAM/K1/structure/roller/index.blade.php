@@ -4,7 +4,7 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col   items-center ">
-        <div class="indexTitle    stroke">Roller Coasters</div>
+        <div class="indexTitle stroke">Roller Coasters</div>
         <h2 class=" !text-white stroke ">
             Explore and learn about roller coasters;
             learn how to build a ball roller coaster</h2>

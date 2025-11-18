@@ -6,15 +6,15 @@
     <h2 class="top-title stroke">What Are Living Things?</h2>
 
     {{-- sldie 1  --}}
-    <div class=" slide flex t-slide !text-white flex-col justify-start text-start">
+    <div class="flex t-slide !text-white flex-col justify-around text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
-                <li >Explore and learn about the basic characteristics of living things</li>
-                <li >Analyse and sort things into living and non-living things</li>
-                <li >Programme a robot to produce sound and light</li>
-                <li >Know that all animals are living things</li>
-                <li >Develop understanding through inquiry</li>
+                <li>Explore and learn about the basic characteristics of living things</li>
+                <li>Analyse and sort things into living and non-living things</li>
+                <li>Programme a robot to produce sound and light</li>
+                <li>Know that all animals are living things</li>
+                <li>Develop understanding through inquiry</li>
             </ul>
         </div>
 
@@ -22,33 +22,32 @@
             <h2 class="t-title ">Keywords:</h2>
             <div class="flex gap-[5vw]">
                 <ul class="list-disc ">
-                    <li >Living Thing</li>
-                    <li >Non-living Thing</li>
-                    <li >Move</li>
-                    <li >Water</li>
-                    <li >Food</li>
+                    <li>Living Thing</li>
+                    <li>Non-living Thing</li>
+                    <li>Move</li>
+                    <li>Water</li>
+                    <li>Food</li>
                 </ul>
                 <ul class="list-disc">
-                    <li >Air </li>
-                    <li >Grow</li>
-                    <li >Produce Young</li>
-                    <li >Animals</li>
+                    <li>Air </li>
+                    <li>Grow</li>
+                    <li>Produce Young</li>
+                    <li>Animals</li>
                 </ul>
             </div>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
 
-    {{-- slide 2 --}}
-    <div class=" slide flex t-slide !text-white flex-col justify-start text-start">
+    {{-- t-slide 2 --}}
+    <div class="flex t-slide !text-white flex-col justify-center text-start">
         <div>
             <h2 class=" t-title">Preparations for Class Activity 1 - comparison of living and non-living things:
             </h2>
             <ul class="list-disc ">
-                <li >A teddy bear</li>
-                <li >Use whiteboard mode during discussion [Tick or cross to complete the
+                <li>A teddy bear</li>
+                <li>Use whiteboard mode during discussion [Tick or cross to complete the
                     table of comparison (as shown below) with the whiteboard pen. For
                     documentation purpose, you may want to save or print the page.]</li>
             </ul>
@@ -56,24 +55,23 @@
         <div>
             <img src="{{ asset('assets/images/K2/livingthings/things/t23.png') }}" alt="Teacher" class="t-title" />
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
     {{-- sldie 3 --}}
-    <div class=" slide flex t-slide !text-white flex-col justify-start text-start">
+    <div class="flex t-slide !text-white flex-col justify-center text-start">
         <div>
             <h2 class=" t-title">Things to consider during hands-on sessions:</h2>
             <ul class="list-disc">
-                <li >
+                <li>
                     Ask questions to prompt children share their prior knowledge and experiences. You may ask questions
                     based on children's interest and response too.
                 </li>
-                <li >
+                <li>
                     Some possible questions for Activity 1: What will happen if you have no access to water? How long do you
                     think you can live without water? Why do we need food? How long do you think you can live without food?
                     How do you change since you were born?
                 </li>
-                <li >
+                <li>
                     Some possible questions for Activity 2: A piece of fried chicken is made from chickens, which are
                     animals. Would you call it a living or non-living thing? Why? Ball, toy train and doll are toys. Do you
                     think toys are living or non-living things? Why? If all toys are non-living things, how about the
@@ -81,98 +79,153 @@
                 </li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
-    {{-- slide 4 --}}
-    <div class=" slide flex t-slide !text-white flex-col justify-start text-start">
+    {{-- t-slide 4 --}}
+    <div class="flex t-slide !text-white flex-col justify-center text-start">
         <div>
             <h2 class=" t-title">Additional information:</h2>
             <ul class="list-disc">
-                <li >
+                <li>
                     Many things have one or more characteristics of living things, but a living thing must has all of the
                     characteristics of living things.
                 </li>
-                <li >
+                <li>
                     Many things that move like car, fan and windmill are non-living things. These
                     things moved by external power like fuel, battery, electricity and wind.
                 </li>
-                <li >
+                <li>
                     All human-made things are non-living things. But some natural things around us like rock, water, air and
                     cloud are non-living things too.
                 </li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
-    {{-- sldie 10 --}}
-    <div class="slide flex t-slide  flex-col  text-2xl text-start !text-white">
+    {{-- sldie 5 --}}
+    <div class=" t-slide text-start flex items-center !text-white !w-[53vw]">
         <div>
-            <h2 class="t-title">Notes:</h2>
-            <ul class="list-disc">
-                <li class="flex whitespace-nowrap">
-                    If you see
-                    <span class="info-btn">
+            <h2 class="t-title ">Notes:</h2>
+            <ul class="list-disc space-y-3">
+                <li>
+                    <span class="relative">
+                        If you see <span class="opacity-0">---</span>next to a picture, click on the picture to watch the
+                        video.
+                        <img class="t-video-btn absolute top-[-1vw] left-[7.6vw]"
+                            src="{{ asset('assets/images/pptimages/video.png') }}" />
+                    </span>
+                </li>
 
-                        <img src="{{ asset('assets/images/pptimages/video.png') }}" />
+                <li>
+                    <span class="relative">
+                        If you see <span class="opacity-0">---</span> , click on it for additional information or activity.
+                        <img src="{{ asset('assets/images/pptimages/info-btn.png') }}"
+                            class="t-info-btn absolute top-[-1vw] left-[8vw]" />
                     </span>
-                    next to a picture, click on the picture to watch the video.
                 </li>
-                <li class="flex whitespace-nowrap">
-                    If you see
-                    <span> <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="video-btn" />
+
+                <li>
+                    Always ask questions to encourage children to think and share their ideas first before giving out
+                    any information.
+                </li>
+
+                <li>Emphasise and use the keywords during hands-on sessions.</li>
+
+                <li>
+                    Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
+                </li>
+
+                <li>
+                    <span class="relative">
+                        Click on this shortcut icon <span class="opacity-0">---</span> if you need to go to some parts of
+                        the lesson quickly.
+                        <img src="{{ asset('assets/images/pptimages/home-btn.png') }}"
+                            class="t-home-btn absolute top-0 left-[19vw]" />
                     </span>
-                    , click on it for additional information or activity.
                 </li>
-                <li>Always ask questions to encourage children to think and share their ideas first before giving
-                    out
-                    any information.</li>
-                <li>Emphasise and use the <strong>keywords</strong> during hands-on sessions.</li>
-                <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
-                </li>
-                <li class="flex whitespace-nowrap">
-                    Click on this shortcut icon
-                    <span> <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" class="home-btn" />
-                    </span>
-                    if you need to go to some parts of the lesson quickly.
+
+            </ul>
+        </div>
+
+    </div>
+
+
+
+
+    {{-- t-slide 6 --}}
+    <div class="text-white flex flex-col justify-center gap-[2vw] !text-start t-slide hidden">
+        <h2 class=" title stroke text-center">Learning Centre Idea</h2>
+        <div>
+            <h2 class="!text-white text-[2vw] stroke">Living or Non-Living</h2>
+            <h2 class="t-title">What and how to set up:</h2>
+            <ul>
+                <li>
+                    Place pictures of living (different animals) and non-living things
+                    (toys, transportation, household items, etc) here.
                 </li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
+        <div>
+            <h2 class="t-title">What to do:</h2>
+            <ul class="list-decimal">
+                <li>
+                    Name the thing in each picture.
+                </li>
+                <li>
+                    Sort the pictures into living and non-living things.
+                </li>
+            </ul>
+        </div>
     </div>
 
+    {{-- slide 7 --}}
+    <div class="text-white flex flex-col items-center justify-center gap-[2vw] text-start t-slide hidden">
+        <h2 class=" title stroke">Extension Class Activity</h2>
+        <div>
+            <h2 class="t-title">What to do:</h2>
+            <ul class="list-decimal">
+                <li> Prepare lyrics poster for the 2 songs on the next page.</li>
+                <li>Guide children learn to sing the songs to the tune of "Are You
+                    Sleeping".</li>
+                <li>When children are familiar with the songs, you may modify the
+                    lyrics by replacing "It" with examples of living or non-living
+                    things to sing the songs again.</li>
+            </ul>
+        </div>
+    </div>
 
+    {{-- slide 8 --}}
+    <div class="text-white flex flex-col items-center justify-center gap-[2vw] text-start t-slide hidden">
+        <h2 class=" title stroke">Extension Class Activity</h2>
+        <div>
+            <h2 class="!text-white text-[2vw] stroke">Let's Sing Songs</h2>
+            <div class="flex items-center justify-between gap-[5vw]">
 
-    {{-- slide 11 --}}
-    <div class="text-white flex flex-col items-center justify-center text-start text-2xl slide hidden">
-        <h2 class=" title stroke">Learning Centre Idea</h2>
-        <div class="flex">
-            <div>
-                <ul>
-                    <h2 class="!text-white title stroke">Living or Non-Living</h2>
-                    <h2 class="t-title">What and how to set up:</h2>
-                    <li >
-                        Place pictures of living (different animals) and non-living things
-                        (toys, transportation, household items, etc) here.
-                    </li>
+                <ul class="pl-3 space-y-2">
+                    <li>It is living</li>
+                    <li>It is living. It is living.</li>
+                    <li>I know why! I know why!</li>
+                    <li>It needs water, food and air.</li>
+                    <li>It moves, grows and produces young.</li>
+                    <li>It's alive. It's alive.</li>
+                </ul>
+                <ul class="pl-6 space-y-2">
+                    <li>It's Non-living</li>
+                    <li>It's non-living. It's non-living.</li>
+                    <li>I know why! I know why!</li>
+                    <li>It doesn't need anything.</li>
+                    <li>It stays the same forever.</li>
+                    <li>It's not alive. It's not alive.</li>
                 </ul>
 
-                <ul>
-                    <h2 class="t-title">What to do:</h2>
-                    <li >
-                        Name the thing in each picture.
-                    </li>
-                    <li >
-                        Sort the pictures into living and non-living things.
-                    </li>
-                </ul>
             </div>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" />
+
     </div>
+
+    <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" />
 
 
     {{-- ========================================================== --}}
@@ -219,58 +272,65 @@
 @push('script')
     <script>
         document.addEventListener("DOMContentLoaded", () => {
-            const slides = document.querySelectorAll(".slide");
-            const nextButtons = document.querySelectorAll(".nextButton");
-            const returnButton = document.getElementById("returnButton");
-            const doneButton = document.querySelector(".doneButton"); //   DONE button
+            // Get all elements
+            const slides = document.querySelectorAll(".t-slide");
+            const nextBtn = document.querySelector(".nextButton");
+            const returnBtn = document.getElementById("returnButton");
+            const doneBtn = document.querySelector(".doneButton");
 
-            let currentSlide = 0;
+            // Current slide position
+            let currentIndex = 0;
 
+            // Show slide and update buttons
             function showSlide(index) {
-                slides.forEach((slide, i) => {
-                    slide.classList.toggle("hidden", i !== index);
-                });
+                // Hide all slides
+                slides.forEach(slide => slide.classList.add("hidden"));
 
-                //   Agar last slide hai → NEXT button hide, DONE show
-                if (index === slides.length - 1) {
-                    nextButtons.forEach(btn => btn.classList.add("hidden"));
-                    if (doneButton) doneButton.classList.remove("hidden");
+                // Show current slide
+                slides[index].classList.remove("hidden");
+
+                // Update index
+                currentIndex = index;
+
+                // Check if last slide
+                const isLastSlide = (index === slides.length - 1);
+
+                if (isLastSlide) {
+                    // Last slide: hide Next, show Done
+                    nextBtn.style.display = "none";
+                    doneBtn.style.display = "block";
                 } else {
-                    nextButtons.forEach(btn => btn.classList.remove("hidden"));
-                    if (doneButton) doneButton.classList.add("hidden");
+                    // Not last slide: show Next, hide Done
+                    nextBtn.style.display = "block";
+                    doneBtn.style.display = "none";
                 }
             }
 
-            //   NEXT buttons listener
-            nextButtons.forEach((btn) => {
-                btn.addEventListener("click", () => {
-                    if (currentSlide < slides.length - 1) {
-                        currentSlide++;
-                        showSlide(currentSlide);
-                    }
-                });
-            });
-
-            //   Return button - redirect if on first slide, otherwise go back
-            returnButton.addEventListener("click", () => {
-                if (currentSlide === 0) {
-                    //   First slide pe hai →  
-                    window.location.href = "{{ route('k2livingthings') }}";
-                } else {
-                    //   Previous slide pe jao
-                    currentSlide--;
-                    showSlide(currentSlide);
+            // Next button
+            nextBtn.addEventListener("click", () => {
+                if (currentIndex < slides.length - 1) {
+                    showSlide(currentIndex + 1);
                 }
             });
 
-            if (doneButton) {
-                doneButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('k2livingthings') }}";
-                });
-            }
+            // Return button
+            returnBtn.addEventListener("click", () => {
+                if (currentIndex === 0) {
+                    // On first slide: redirect to route
+                    window.location.href = "{{ route('K2thingsSelection') }}";
+                } else {
+                    // Not first slide: go back
+                    showSlide(currentIndex - 1);
+                }
+            });
 
+            // Done button
+            doneBtn.addEventListener("click", () => {
+                window.location.href = "{{ route('K2thingsSelection') }}";
+            });
 
-            showSlide(currentSlide);
+            // Start at first slide
+            showSlide(0);
         });
     </script>
 @endpush

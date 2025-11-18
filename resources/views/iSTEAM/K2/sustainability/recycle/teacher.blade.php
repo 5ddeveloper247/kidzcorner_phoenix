@@ -6,7 +6,7 @@
     <h2 class="top-title stroke">Let's Recycle</h2>
 
     {{-- sldie 1  --}}
-    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
+    <div class="t-slide flex  !text-white flex-col justify-around  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -47,7 +47,7 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
+    <div class="t-slide flex  !text-white flex-col justify-center items-center  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
@@ -63,50 +63,64 @@
 
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/sustain/recycle/s12.png') }}" class="!max-w-[10vw]" />
+        <video id="video1" class=" pointer-events-none video-sm">
+            <source src="{{ asset('assets/images/K2/videos/203.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
+        <!-- Video Trigger Button -->
+        <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
+        </div>
     </div>
 
 
     {{-- sldie 7 --}}
-    <div class=" slide t-slide flex text-2xl !text-white flex-col items-center justify-start  text-start">
+    <div class=" t-slide text-start flex items-center !text-white !w-[53vw]">
         <div>
-            <h2 class=" t-title">Notes</h2>
-            <ul>
-                <li class=" flex whitespace-nowrap">If you see
-                    <span>
-                        <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s27.png') }}" />
+            <h2 class="t-title ">Notes:</h2>
+            <ul class="list-disc space-y-3">
+                <li>
+                    <span class="relative">
+                        If you see <span class="opacity-0">---</span>next to a picture, click on the picture to watch the
+                        video.
+                        <img class="t-video-btn absolute top-[-1vw] left-[7.6vw]"
+                            src="{{ asset('assets/images/pptimages/video.png') }}" />
                     </span>
-                    next to a
-                    picture, click on the picture to watch the video
-                </li>
-                <li> Always ask questions to encourage children to think and share their ideas first
-                    before giving out any information.</li>
-                <li>Emphasise and use the keywords during hands-on sessions.
-                </li>
-                <li>Print out the Learning Journal (if any) for every
-                    child to complete at the end of the lesson.
-                </li>
-                <li class=" flex whitespace-nowrap">Click on this shortcut icon
-                    <span>
-                        <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s28.png') }}" />
-                    </span>
-                    if
-                    you need to go to some
-                    parts of the lesson quickly.
                 </li>
 
+                <li>
+                    Always ask questions to encourage children to think and share their ideas first before giving out
+                    any information.
+                </li>
+
+                <li>Emphasise and use the keywords during hands-on sessions.</li>
+
+                <li>
+                    Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
+                </li>
+
+                <li>
+                    <span class="relative">
+                        Click on this shortcut icon <span class="opacity-0">---</span> if you need to go to some parts of
+                        the lesson quickly.
+                        <img src="{{ asset('assets/images/pptimages/home-btn.png') }}"
+                            class="t-home-btn absolute top-0 left-[19vw]" />
+                    </span>
+                </li>
 
             </ul>
         </div>
+
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
+
 
 
 
 
     {{-- sldie 3 --}}
-    <div class=" slide t-slide flex  !text-white flex-col items-center justify-center  text-start">
+    <div class="t-slide flex  !text-white flex-col items-center justify-center  text-start">
         <h2 class="title stroke  text-center">Learning Centre Idea</h2>
         <div>
             <div>
@@ -173,21 +187,54 @@
 
 @push('script')
     <script>
+        // Video toggle function - plays or pauses a video when clicked
+        function toggleVideo(videoId) {
+            const video = document.getElementById(videoId);
+            if (video.paused) {
+                video.play();
+            } else {
+                video.pause();
+            }
+        }
+
         document.addEventListener("DOMContentLoaded", () => {
-            const slides = document.querySelectorAll(".slide");
+            // Get all slide elements
+            const slides = document.querySelectorAll(".t-slide");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
-            const doneButton = document.querySelector(".doneButton"); //   DONE button
+            const doneButton = document.querySelector(".doneButton");
 
+            // Keep track of which slide we're currently viewing
             let currentSlide = 0;
 
+            // CONFIGURE YOUR ROUTES HERE
+            const returnRouteFromFirstSlide = "{{ route('recycleSelection') }}";
+            const doneButtonRoute = "{{ route('recycleSelection') }}";
+
+            // Pause all videos when changing slides
+            function pauseAllVideos() {
+                const videos = document.querySelectorAll('video');
+                videos.forEach(video => {
+                    if (!video.paused) {
+                        video.pause();
+                    }
+                });
+            }
+
+            // Show a specific slide and hide all others
             function showSlide(index) {
+                // Pause all videos before switching
+                pauseAllVideos();
+
+                // Hide all slides except the current one
                 slides.forEach((slide, i) => {
                     slide.classList.toggle("hidden", i !== index);
                 });
 
-                //   Agar last slide hai → NEXT button hide, DONE show
-                if (index === slides.length - 1) {
+                // Check if last slide
+                const isLastSlide = index === slides.length - 1;
+
+                if (isLastSlide) {
                     nextButtons.forEach(btn => btn.classList.add("hidden"));
                     if (doneButton) doneButton.classList.remove("hidden");
                 } else {
@@ -196,7 +243,7 @@
                 }
             }
 
-            //   NEXT buttons listener
+            // NEXT button
             nextButtons.forEach((btn) => {
                 btn.addEventListener("click", () => {
                     if (currentSlide < slides.length - 1) {
@@ -206,22 +253,28 @@
                 });
             });
 
-            //   Return button - redirect if on first slide
+            // RETURN button - go to previous slide or navigate back
             returnButton.addEventListener("click", () => {
+                // If on first slide, navigate to return route
                 if (currentSlide === 0) {
-                    // Redirect to route when on first slide
-                    window.location.href = "{{ route('recycleSelection') }}";
-                } else if (currentSlide > 0) {
+                    window.location.href = returnRouteFromFirstSlide;
+                    return;
+                }
+
+                if (currentSlide > 0) {
                     currentSlide--;
                     showSlide(currentSlide);
                 }
             });
 
+            // DONE button - navigate to completion route
             if (doneButton) {
                 doneButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('recycleSelection') }}";
+                    window.location.href = doneButtonRoute;
                 });
             }
+
+            // Initialize - show first slide
             showSlide(currentSlide);
         });
     </script>

@@ -4,7 +4,7 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col items-center ">
-        <div class="indexTitle    stroke">Directional Signs</div>
+        <div class="indexTitle stroke">Directional Signs</div>
         <h2 class=" !text-white stroke">Explore and learn about directional
             signs and directions</h2>
         <button

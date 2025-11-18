@@ -4,7 +4,7 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col items-center ">
-        <div class="indexTitle    stroke">A Seesaw</div>
+        <div class="indexTitle stroke">A Seesaw</div>
         <h2
             class=" !text-white    flex flex-col items-center space-x-[30px]">
             Build a seesaw based on a pictorial guide;

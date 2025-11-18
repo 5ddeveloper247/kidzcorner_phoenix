@@ -4,7 +4,7 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col items-center ">
-        <div class="indexTitle    stroke">A Pinwheel</div>
+        <div class="indexTitle stroke">A Pinwheel</div>
         <h2
             class=" !text-white    flex flex-col items-center space-x-[30px]">
             Explore the characteristics and uses of wheel

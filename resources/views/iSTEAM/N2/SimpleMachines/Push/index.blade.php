@@ -4,7 +4,7 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col items-center ">
-        <div class="indexTitle    stroke">Push It Up</div>
+        <div class="indexTitle stroke">Push It Up</div>
         <h2 class=" !text-white    flex flex-col items-center space-x-[30px]">
             Build two cars and a launcher based on a pictorial guide; explore and learn about the characteristics and uses
             of inclined planes - a simple machine</h2>

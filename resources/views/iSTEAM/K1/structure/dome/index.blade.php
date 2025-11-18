@@ -4,7 +4,7 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col   items-center ">
-        <div class="indexTitle    stroke">Geodesic Domes</div>
+        <div class="indexTitle stroke">Geodesic Domes</div>
         <h2 class=" !text-white stroke ">
             Explore and learn about geodesic domes;
             learn how to build a geodesic dome building</h2>

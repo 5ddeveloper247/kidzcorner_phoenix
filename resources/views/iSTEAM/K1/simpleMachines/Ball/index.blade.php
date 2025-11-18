@@ -4,7 +4,7 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col  items-center ">
-        <div class="indexTitle    stroke">Launch a Ball Machine</div>
+        <div class="indexTitle stroke">Launch a Ball Machine</div>
         <h2 class="text-white">
             Build a Rube Goldberg Machine that includes
             a simple machine - Lever

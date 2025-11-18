@@ -4,7 +4,7 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col   items-center ">
-        <div class="indexTitle    stroke">Smart Ideas for my Machine</div>
+        <div class="indexTitle stroke">Smart Ideas for my Machine</div>
         <h2 class=" !text-white stroke ">
             Explore and learn how to set up
             different parts of a Rube Goldberg Machine creatively</h2>

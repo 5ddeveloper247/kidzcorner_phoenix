@@ -5,7 +5,7 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col   items-center ">
-        <div class="indexTitle    stroke">Buildings are Structures</div>
+        <div class="indexTitle stroke">Buildings are Structures</div>
         <h2 class=" !text-white stroke ">
             Explore how buildings are designed and built
             as a kind of structure; design and build a tall building</h2>

@@ -4,10 +4,10 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col  gap-20 items-center ">
-        <div class="indexTitle    stroke">Tomato DNA</div>
+        <div class="indexTitle stroke">Tomato DNA</div>
         <h2 class=" !text-white stroke ">
             Learn to extract DNA from a tomato; <br>
-            find out if same chemicals can be used to extract <br>
+            find out if same chemicals can be used to extract 
             DNA from different living things</h2>
 
         <button class="nextButton">

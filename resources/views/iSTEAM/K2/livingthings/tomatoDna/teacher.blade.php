@@ -7,7 +7,7 @@
     <h2 class="top-title stroke">Tomato DNA</h2>
 
     {{-- sldie 1  --}}
-    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
+    <div class="t-slide flex  !text-white flex-col justify-center  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -36,13 +36,12 @@
                 </ul>
             </div>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
 
     {{-- slide 2 --}}
-    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
+    <div class="t-slide flex  !text-white flex-col justify-center  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
@@ -60,38 +59,35 @@
                 <li>1 measuring cup (at least 100ml)</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- sldie 3 --}}
-    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
+    <div class="t-slide flex  !text-white flex-col justify-center  text-start">
         <div>
             <h2 class=" t-title">How to extract DNA from a tomato and things to consider:</h2>
             <ul class="list-decimal">
                 <li>Put a tomato into a zipper storage bag and seal it . [Invite a child to do the step.]</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/dna/td3.png') }}" class="w-img" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/td3.png') }}" class="img-sm" />
     </div>
 
 
     {{-- slide 4 --}}
-    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
+    <div class="t-slide flex  !text-white flex-col justify-center  text-start">
         <div>
             <h2 class=" t-title">How to extract DNA from a tomato and things to consider:</h2>
             <ul>
                 <li>2.Smash and crush the tomato. [Invite children take turns to do so .]</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/dna/td4.png') }}" class="w-img" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/td4.png') }}" class="img-sm" />
     </div>
 
 
     {{-- slide 5 --}}
-    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
+    <div class="t-slide flex  !text-white flex-col justify-center  text-start">
         <div>
             <h2 class=" t-title">How to extract DNA from a tomato and things to consider:</h2>
             <ul>
@@ -101,13 +97,12 @@
                     gently until salt is dissolved but avoid making bubbles .]</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/dna/td5.png') }}" class="w-[700px]" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/td5.png') }}" class="img-lg" />
     </div>
 
 
     {{-- sldie 6 --}}
-    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
+    <div class="t-slide flex  !text-white flex-col justify-center  text-start">
         <div>
             <h2 class=" t-title">How to extract DNA from a tomato and things to consider:</h2>
             <ul>
@@ -116,13 +111,12 @@
                     measuring cup and add the mixture into the bag .]</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/dna/td6.png') }}" class="w-img" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/td6.png') }}" class="img-md" />
     </div>
 
 
     {{-- sldie 7 --}}
-    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
+    <div class="t-slide flex  !text-white flex-col justify-center  text-start">
         <div>
             <h2 class=" t-title">How to extract DNA from a tomato and things to consider:</h2>
             <ul>
@@ -131,25 +125,23 @@
                     soap bubbles .]</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/dna/td4.png') }}" class="w-img" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/td4.png') }}" class="img-sm" />
     </div>
 
     {{-- sldie 8 --}}
-    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
+    <div class="t-slide flex  !text-white flex-col justify-center  text-start">
         <div>
             <h2 class=" t-title">How to extract DNA from a tomato and things to consider:</h2>
             <ul>
                 <li>6. Put a strainer on top of another clear up. [Invite a child to do the step.]</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/dna/td7.png') }}" class="w-img" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/td7.png') }}" class="img-md" />
     </div>
 
 
     {{-- sldie 9 --}}
-    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
+    <div class="t-slide flex  !text-white flex-col justify-center  text-start">
         <div>
             <h2 class=" t-title">How to extract DNA from a tomato and things to consider:</h2>
             <ul>
@@ -158,13 +150,12 @@
                     gently do so with a teaspoon .]</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/dna/td8.png') }}" class="w-img" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/td8.png') }}" class="img-md" />
     </div>
 
 
     {{-- sldie 10 --}}
-    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
+    <div class="t-slide flex  !text-white flex-col justify-center  text-start">
         <div>
             <h2 class=" t-title">How to extract DNA from a tomato and things to consider:</h2>
             <ul>
@@ -174,13 +165,12 @@
                     with lid instead.]</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/dna/td9.png') }}" class="w-img" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/td9.png') }}" class="img-md" />
     </div>
 
 
     {{-- sldie 11 --}}
-    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
+    <div class="t-slide flex  !text-white flex-col justify-center  text-start">
         <div>
             <h2 class=" t-title">How to extract DNA from a tomato and things to consider:</h2>
             <ul>
@@ -189,12 +179,11 @@
                     stir .]</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/dna/td18.png') }}" class="w-img" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/td18.png') }}" class="img-md" />
     </div>
 
     {{-- sldie 12 --}}
-    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
+    <div class="t-slide flex  !text-white flex-col justify-center  text-start">
         <div>
             <h2 class=" t-title">How to extract DNA from a tomato and things to consider:</h2>
             <ul>
@@ -204,100 +193,122 @@
                     result for comparison .]</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/dna/td11.png') }}" class="w-img" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/td11.png') }}" class="img-md" />
     </div>
 
     {{-- slide 13 --}}
-    <div class="slide flex t-slide  flex-col justify-start  text-2xl text-start !text-white">
-        <div class="flex w-[100%] items-center justify-between">
-            <div>
-                <h2 class=" t-title">Notes:</h2>
-                <ul class="list-disc leading-relaxed">
-                    <li class=" flex whitespace-nowrap">
-                        If you see
-                        <span>
-                            <!-- Decorative Vector -->
-                            <img src="{{ asset('assets/images/pptimages/video.png') }}" class="w-[2.5vw]" />
-                        </span>
-                        next to a picture,click on the picture to watch the video.
-                    </li>
-                    <li>Emphasise and use the keywords during hands-on sessions.</li>
-                    <li>Print out the Learning Journal (if any) for every child to complete at the end
-                        of the lesson.
-                    </li>
-                    <li class=" flex whitespace-nowrap">
-                        Click on this shortcut icon
-                        <span>
-                            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" class="w-[2.5vw]" />
-                        </span>
-                        if you need to go to some parts of the lesson quickly.
-                    </li>
-                </ul>
-            </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="Teacher" />
+    <div class=" t-slide text-start flex items-center !text-white !w-[53vw]">
+        <div>
+            <h2 class="t-title ">Notes:</h2>
+            <ul class="list-disc space-y-3">
+                <li>
+                    <span class="relative">
+                        If you see <span class="opacity-0">---</span>next to a picture, click on the picture to watch the
+                        video.
+                        <img class="t-video-btn absolute top-[-1vw] left-[7.6vw]"
+                            src="{{ asset('assets/images/pptimages/video.png') }}" />
+                    </span>
+                </li>
+
+                <li>
+                    <span class="relative">
+                        If you see <span class="opacity-0">---</span> , click on it for additional information or activity.
+                        <img src="{{ asset('assets/images/pptimages/info-btn.png') }}"
+                            class="t-info-btn absolute top-[-1vw] left-[8vw]" />
+                    </span>
+                </li>
+
+                <li>
+                    Always ask questions to encourage children to think and share their ideas first before giving out
+                    any information.
+                </li>
+
+                <li>Emphasise and use the keywords during hands-on sessions.</li>
+
+                <li>
+                    Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
+                </li>
+
+                <li>
+                    <span class="relative">
+                        Click on this shortcut icon <span class="opacity-0">---</span> if you need to go to some parts of
+                        the lesson quickly.
+                        <img src="{{ asset('assets/images/pptimages/home-btn.png') }}"
+                            class="t-home-btn absolute top-0 left-[19vw]" />
+                    </span>
+                </li>
+
+            </ul>
         </div>
+
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
+
     {{-- slide 14 --}}
-    <div class="text-white flex flex-col items-center justify-center  text-start t-slide slide hidden">
+    <div class="text-white flex flex-col items-center justify-center  text-start t-slide  hidden">
         <h2 class=" title stroke">Learning Centre Idea</h2>
         <div>
             <h2 class="!text-white title stroke">Tomato DNA</h2>
-            <h2 class="t-title">What and how to set up:</h2>
-            <ul>
-                <li>Put the final result of the activity (the filtered liquid of tomato
-                    mixture with alcohol) here as a display for children. Use cling wrap
-                    to tightly seal the cup and fix the position of the cup. As long as
-                    you don't shake the cup, the alcohol in the cup can keep the DNA
-                    last for a period of time. Put up a label (DNA from tomato cells)
-                    next to the cup.</li>
-            </ul>
+            <div class="space-y-[1vw]">
+                <h2 class="t-title">What and how to set up:</h2>
+                <ul>
+                    <li>Put the final result of the activity (the filtered liquid of tomato
+                        mixture with alcohol) here as a display for children. Use cling wrap
+                        to tightly seal the cup and fix the position of the cup. As long as
+                        you don't shake the cup, the alcohol in the cup can keep the DNA
+                        last for a period of time. Put up a label (DNA from tomato cells)
+                        next to the cup.</li>
+                </ul>
+            </div>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" />
     </div>
 
 
     {{-- slide 15 --}}
-    <div class="text-white flex flex-col items-center justify-center  text-start t-slide slide hidden">
+    <div class="text-white flex flex-col items-center justify-center  text-start t-slide  hidden">
         <h2 class=" title stroke">Learning Centre Idea</h2>
         <div>
+            <h2 class="!text-white title stroke">Fun Facts</h2>
+            <h2 class="t-title">What and how to set up:</h2>
             <ul class="list-disc">
-                <h2 class="!text-white title stroke">Fun Facts</h2>
-                <h2 class="t-title">What and how to set up:</h2>
-                <p>Use your creativity to design graphic fact sheet for every fun fact
-                    below. Guide children to understand the facts.</p>
-                <li>Your DNA is 60% identical to the DNA of tomatoes!</li>
-                <li>Your DNA is 50% identical to the DNA of bananas!</li>
-                <li>Your DNA is 40-50% identical to the DNA of cabbages!</li>
+                <li>Use your creativity to design graphic fact sheet for every fun fact
+                    below. Guide children to understand the facts.
+                    <ul class="list-disc pl-[1vw]">
+                        <li>Your DNA is 60% identical to the DNA of tomatoes!</li>
+                        <li>Your DNA is 50% identical to the DNA of bananas!</li>
+                        <li>Your DNA is 40-50% identical to the DNA of cabbages!</li>
+
+                    </ul>
+                </li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" />
     </div>
 
 
     {{-- slide 16 --}}
-    <div class="text-white flex flex-col items-center justify-center  text-start t-slide slide hidden">
+    <div class="text-white flex flex-col items-center justify-center  text-start t-slide  hidden">
         <h2 class=" title stroke">Learning Centre Idea</h2>
-        <div>
+        <div class="space-y-[1vw]">
+            <h2 class="!text-white title stroke">DNA Extraction</h2>
             <div>
-                <h2 class="!text-white title stroke">Fun Facts</h2>
+
                 <h2 class="t-title">What and how to set up:</h2>
                 <p>Prepare things as listed in the preparations and other fruits or
                     vegetables like banana, kiwi, spinach or kale to carry out another
                     DNA extraction activity to further prove the results of the activity.</p>
             </div>
-
-            <div>
-                <h2 class="t-title">What to do:</h2>
-                <p>Guide children to repeat the DNA extraction steps in the lesson for
-                    the chosen subject. If you plan to choose vegetable as the subject,
-                    use a blender instead of hands to crush and smash them.</p>
-            </div>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" />
+
+        <div>
+            <h2 class="t-title">What to do:</h2>
+            <p>Guide children to repeat the DNA extraction steps in the lesson for
+                the chosen subject. If you plan to choose vegetable as the subject,
+                use a blender instead of hands to crush and smash them.</p>
+        </div>
     </div>
+    <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" />
 
 
     {{-- ========================================================== --}}
@@ -346,7 +357,7 @@
 @push('script')
     <script>
         document.addEventListener("DOMContentLoaded", () => {
-            const slides = document.querySelectorAll(".slide");
+            const slides = document.querySelectorAll(".t-slide");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
             const doneButton = document.querySelector(".doneButton"); //   DONE button
@@ -358,7 +369,7 @@
                     slide.classList.toggle("hidden", i !== index);
                 });
 
-                //   Agar last slide hai → NEXT button hide, DONE show
+                //   Agar last  hai → NEXT button hide, DONE show
                 if (index === slides.length - 1) {
                     nextButtons.forEach(btn => btn.classList.add("hidden"));
                     if (doneButton) doneButton.classList.remove("hidden");
@@ -382,7 +393,7 @@
             returnButton.addEventListener("click", () => {
                 if (currentSlide === 0) {
                     //   First slide pe hai →  
-                    window.location.href = "{{ route('k2livingthings') }}";
+                    window.location.href = "{{ route('tomatoDnaSelection') }}";
                 } else {
                     //   Previous slide pe jao
                     currentSlide--;
@@ -392,7 +403,7 @@
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('k2livingthings') }}";
+                    window.location.href = "{{ route('tomatoDnaSelection') }}";
                 });
             }
             showSlide(currentSlide);

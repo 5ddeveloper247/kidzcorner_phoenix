@@ -4,7 +4,7 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col items-center ">
-        <div class="indexTitle    stroke">Programme A Robot 2</div>
+        <div class="indexTitle stroke">Programme A Robot 2</div>
         <h2 class=" lg:text-6xl !text-white stroke">Explore and learn about a coding toy;
             learn how to programme a robot to show different facial expressions</h2>
         <button

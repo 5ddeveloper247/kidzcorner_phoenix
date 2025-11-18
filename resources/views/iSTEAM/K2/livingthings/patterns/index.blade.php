@@ -4,7 +4,7 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col  gap-[2vw] ">
-        <div class="indexTitle    stroke">Fingerprint Patterns</div>
+        <div class="indexTitle stroke">Fingerprint Patterns</div>
         <h2 class=" !text-white stroke ">
             Identify three basic fingerprint patterns
             and find out the patterns that one has</h2>

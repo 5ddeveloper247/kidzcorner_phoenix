@@ -6,7 +6,7 @@
     <h2 class="top-title stroke">Fingerprints</h2>
 
     {{-- sldie 1  --}}
-    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
+    <div class="t-slide flex  !text-white flex-col justify-around  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -31,13 +31,12 @@
 
             </div>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
 
     {{-- slide 2 --}}
-    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
+    <div class="t-slide flex  !text-white flex-col justify-center  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
@@ -57,12 +56,11 @@
                 </li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- sldie 3 --}}
-    <div class=" slide t-slide flex  !text-white flex-col items-center justify-center  text-start">
+    <div class="t-slide flex  !text-white flex-col items-center justify-center  text-start">
         <div>
             <h2 class=" t-title">How to make own set of fingerprints and things to consider:</h2>
             <ul class="list-disc">
@@ -72,13 +70,12 @@
                     the fingerprints.</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f13.png') }}" class="w-[600px]" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f13.png') }}" class="img-md" />
     </div>
 
 
     {{-- slide 4 --}}
-    <div class=" slide t-slide flex text-2xl !text-white flex-col items-center justify-start  text-start">
+    <div class="t-slide flex text-2xl !text-white flex-col items-center justify-center  text-start">
         <div>
             <h2 class=" t-title">How to make own set of fingerprints and things to consider:</h2>
             <ul class="list-decimal">
@@ -91,7 +88,6 @@
             <source src="{{ asset('assets/images/K2/videos/183.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
@@ -100,7 +96,7 @@
 
 
     {{-- slide 5 --}}
-    <div class=" slide t-slide flex text-2xl !text-white flex-col items-center justify-start  text-start">
+    <div class="t-slide flex text-2xl !text-white flex-col items-center justify-center  text-start">
         <div>
             <h2 class=" t-title">How to make own set of fingerprints and things to consider:</h2>
             <ul>
@@ -112,7 +108,6 @@
             <source src="{{ asset('assets/images/K2/videos/184.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
@@ -121,7 +116,7 @@
 
 
     {{-- sldie 6 --}}
-    <div class=" slide t-slide flex text-2xl !text-white flex-col items-center justify-start  text-start">
+    <div class="t-slide flex text-2xl !text-white flex-col items-center justify-center  text-start">
         <div>
             <h2 class=" t-title">How to make own set of fingerprints and things to consider:</h2>
             <ul>
@@ -134,7 +129,6 @@
             <source src="{{ asset('assets/images/K2/videos/185.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
@@ -143,7 +137,7 @@
 
 
     {{-- sldie 7 --}}
-    <div class=" slide t-slide flex text-2xl !text-white flex-col items-center justify-start  text-start">
+    <div class="t-slide flex text-2xl !text-white flex-col items-center justify-center  text-start">
         <div>
             <h2 class=" t-title">How to make own set of fingerprints and things to consider:</h2>
             <ul>
@@ -165,7 +159,7 @@
     </div>
 
     {{-- sldie 8 --}}
-    <div class=" slide t-slide flex text-2xl !text-white flex-col items-center justify-start  text-start">
+    <div class="t-slide flex text-2xl !text-white flex-col items-center justify-center  text-start">
         <div>
             <h2 class=" t-title">How to make own set of fingerprints and things to consider:</h2>
             <ul>
@@ -188,7 +182,7 @@
 
 
     {{-- slide 9 --}}
-    <div class=" slide t-slide flex text-2xl !text-white flex-col items-center justify-start  text-start">
+    <div class="t-slide flex text-2xl !text-white flex-col items-center justify-center  text-start">
         <div>
             <h2 class=" t-title">How to make own set of fingerprints and things to consider:</h2>
             <ul>
@@ -198,12 +192,11 @@
                     fingerprint record. ]</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f8.png') }}" class="w-img3" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f8.png') }}" class="img-xl" />
     </div>
 
     {{-- slide 10 --}}
-    <div class=" slide t-slide flex text-2xl !text-white flex-col items-center justify-start  text-start">
+    <div class="t-slide flex text-2xl !text-white flex-col items-center justify-center  text-start">
         <div>
             <h2 class=" t-title">How to make own set of fingerprints and things to consider:</h2>
             <ul>
@@ -212,12 +205,11 @@
                     record. Then have them share their views. ]</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f2.png') }}"/>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f2.png') }}" class="img-md" />
     </div>
 
     {{-- slide 11 --}}
-    <div class=" slide t-slide flex text-2xl !text-white flex-col items-center justify-start  text-start">
+    <div class="t-slide flex text-2xl !text-white flex-col items-center justify-center  text-start">
         <div>
             <h2 class=" t-title">How to make own set of fingerprints and things to consider:</h2>
             <ul>
@@ -226,79 +218,84 @@
                     friends. Then have them share their views. ]</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f9.png') }}" class="w-img3" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f9.png') }}" class="img-xl" />
     </div>
 
 
 
     {{-- sldie 12 --}}
-    <div class="slide flex t-slide  flex-col justify-start  text-2xl text-start !text-white">
-        <div class="flex w-[100%] items-center justify-between">
-            <div>
-                <h2 class=" t-title">Notes:</h2>
-                <ul class="list-disc leading-relaxed">
-                    <li class="flex whitespace-nowrap">
-                        If you see
-                        <span>
-                            <img src="{{ asset('assets/images/pptimages/video.png') }}" />
-                        </span>
-                        next to a picture,click on the picture to watch the video.
-                    </li>
-                    <li>Emphasise and use the keywords during hands-on sessions.</li>
-                    <li>
-                        Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
-                    </li>
-                    <li class="flex whitespace-nowrap">
-                        Click on this shortcut icon
-                        <span>
-                            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" class="home-btn" />
-                        </span>
-                        if you need to go to some parts of the lesson quickly.
-                    </li>
-                </ul>
-            </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1"
-                alt="Teacher" />
+    <div class=" t-slide text-start flex items-center !text-white !w-[53vw]">
+        <div>
+            <h2 class="t-title ">Notes:</h2>
+            <ul class="list-disc space-y-3">
+                <li>
+                    <span class="relative">
+                        If you see <span class="opacity-0">---</span>next to a picture, click on the picture to watch the
+                        video.
+                        <img class="t-video-btn absolute top-[-1vw] left-[7.6vw]"
+                            src="{{ asset('assets/images/pptimages/video.png') }}" />
+                    </span>
+                </li>
+
+                <li>
+                    Always ask questions to encourage children to think and share their ideas first before giving out
+                    any information.
+                </li>
+
+                <li>Emphasise and use the keywords during hands-on sessions.</li>
+
+                <li>
+                    Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
+                </li>
+
+                <li>
+                    <span class="relative">
+                        Click on this shortcut icon <span class="opacity-0">---</span> if you need to go to some parts of
+                        the lesson quickly.
+                        <img src="{{ asset('assets/images/pptimages/home-btn.png') }}"
+                            class="t-home-btn absolute top-0 left-[19vw]" />
+                    </span>
+                </li>
+
+            </ul>
         </div>
     </div>
 
 
     {{-- slide 13 --}}
-    <div class="text-white flex flex-col items-center justify-center  text-start t-slide slide hidden">
+    <div class="text-white flex flex-col items-center justify-center  text-start t-slide hidden">
         <h2 class=" title stroke">Learning Centre Idea</h2>
-        <div class="flex flex-col gap-10">
+        <div>
+            <h2 class="!text-white text-[2vw] stroke">Fingerprints Art</h2>
+            <h2 class="t-title">What and how to set up:</h2>
             <ul>
-                <h2 class="!text-white title stroke">Fingerprints Art</h2>
-                <h2 class="t-title">What and how to set up:</h2>
                 <li>Put some paints, sponges, coloured pencils and drawing papers here.</li>
             </ul>
-
-            <div>
-                <h2 class="t-title">What to do:</h2>
-                <ul class="list-decimal">
-                    <li>Turn your fingerprints into art! Put your fingerprints on the
-                        drawing paper.</li>
-                    <li>Use your imagination to turn it into a creative drawing by adding
-                        details with coloured pencils.</li>
-                    <li>Show it to your teacher and friends!</li>
-                </ul>
-
-            </div>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" />
+
+        <div>
+            <h2 class="t-title">What to do:</h2>
+            <ul class="list-decimal">
+                <li>Turn your fingerprints into art! Put your fingerprints on the
+                    drawing paper.</li>
+                <li>Use your imagination to turn it into a creative drawing by adding
+                    details with coloured pencils.</li>
+                <li>Show it to your teacher and friends!</li>
+            </ul>
+
+        </div>
     </div>
 
 
     {{-- slide 14 --}}
-    <div class="text-white flex flex-col items-center justify-center  text-start t-slide slide hidden">
+    <div class="text-white flex flex-col items-center justify-center  text-start t-slide hidden">
         <h2 class=" title stroke">Learning Centre Idea</h2>
-        <div>
+        <div class="space-y-[1vw]">
+            <h2 class="!text-white text-[2vw] stroke">Fun Facts</h2>
+            <h2 class="t-title">What and how to set up:</h2>
+            <p>Use your creativity to design graphic fact sheet for every fun fact
+                below. Guide children to understand the facts.</p>
             <ul class="list-disc">
-                <h2 class="!text-white title stroke">Fun Facts</h2>
-                <h2 class="t-title">What and how to set up:</h2>
-                <p>Use your creativity to design graphic fact sheet for every fun fact
-                    below. Guide children to understand the facts.</p>
                 <li>Fingerprints actually help you to grasp an object. Without them,
                     your fingers will be slippery and you will not be able to write or
                     paint properly.</li>
@@ -306,10 +303,9 @@
                     without fingerprints.</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" />
     </div>
 
-
+    <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
 
     {{-- ========================================================== --}}
     {{-- Buttons --}}
@@ -368,7 +364,7 @@
 
         document.addEventListener("DOMContentLoaded", () => {
             // Get all slide elements
-            const slides = document.querySelectorAll(".slide");
+            const slides = document.querySelectorAll(".t-slide");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
             const doneButton = document.querySelector(".doneButton");
@@ -378,7 +374,7 @@
 
             // CONFIGURE YOUR ROUTES HERE
             const returnRouteFromFirstSlide = "{{ route('FingerprintsSelection') }}";
-            const doneButtonRoute = "{{ route('k2livingthings') }}";
+            const doneButtonRoute = "{{ route('FingerprintsSelection') }}";
 
             // Pause all videos when changing slides
             function pauseAllVideos() {

@@ -3,8 +3,8 @@
 
 @section('content')
 
-    <div id="topDiv" class="flex flex-col gap-20 items-center ">
-        <div class="indexTitle    stroke">Are Plants Living Things?</div>
+    <div id="topDiv" class="flex flex-col items-center ">
+        <div class="indexTitle stroke">Are Plants Living Things?</div>
         <h2 class=" !text-white stroke ">
             Analyse to determine that plants are living things;
             name some example of living and non-living things</h2>

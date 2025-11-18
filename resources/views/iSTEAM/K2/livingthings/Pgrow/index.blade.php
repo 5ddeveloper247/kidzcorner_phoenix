@@ -31,7 +31,7 @@
     @section('content')
 
         <div id="topDiv" class="flex flex-col   items-center ">
-            <div class="indexTitle    stroke">How Plants Grow?</div>
+            <div class="indexTitle stroke">How Plants Grow?</div>
             <h2 class=" !text-white stroke ">
                 Learn how to grow a plant from a see; <br>
                 how to regrow green onions; <br>

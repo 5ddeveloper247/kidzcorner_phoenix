@@ -4,7 +4,7 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col  gap-[1.5vw] ">
-        <div class="indexTitle    stroke">What is Sustainability?</div>
+        <div class="indexTitle stroke">What is Sustainability?</div>
         <h2 class=" !text-white stroke ">
             Explore fingerprints; <br>
             learn to make own set of fingerprints <br>

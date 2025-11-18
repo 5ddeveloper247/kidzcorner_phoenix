@@ -4,7 +4,7 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col   items-center ">
-        <div class="indexTitle    stroke">What is a Wedge?</div>
+        <div class="indexTitle stroke">What is a Wedge?</div>
 
         <h2 class=" !text-white    flex flex-col items-center space-x-[30px]">
             Explore the characteristics of

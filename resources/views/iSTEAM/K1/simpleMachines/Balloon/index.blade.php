@@ -4,7 +4,7 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col   items-center ">
-        <div class="indexTitle    stroke">Pop a Balloon Machine</div>
+        <div class="indexTitle stroke">Pop a Balloon Machine</div>
         <h2 class=" !text-white    flex flex-col items-center space-x-[30px]">
             Build a Rube Goldberg Machine that includes <br>
             a simple machine - Wedge

@@ -3,19 +3,17 @@
 
 @section('content')
 
-    <div id="topDiv" class="flex flex-col  gap-20 ">
+    <div id="topDiv" class="flex flex-col">
         <div class="indexTitle !text-[2.6vw] stroke">Carbon Footprint and the Future of Food</div>
         <h2 class=" !text-white stroke ">
-            Understand the meaning of carbon footprint; <br>
-            learn how to protect Earth by reducing our carbon <br>
+            Understand the meaning of carbon footprint; 
+            learn how to protect Earth by reducing our carbon
             footprint; learn about the future of food</h2>
 
-        {{-- next Button --}}
-        <div class="down-btn-container">
-            <button class="nextButton">
-                <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
-            </button>
-        </div>
+
+        <button class="nextButton">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
+        </button>
     </div>
 
 

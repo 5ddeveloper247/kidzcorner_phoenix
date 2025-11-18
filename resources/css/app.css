@@ -121,8 +121,8 @@ button {
 }
 
 .down-btn-container {
-    position: fixed;
-    bottom: 5vw;
+    position: absolute;
+    bottom: -1.5vw;
     left: 50%;
     transform: translateX(-50%);
     z-index: 1000;
@@ -154,8 +154,11 @@ button {
     max-width: 28vw;
 }
 
+.img-normal-md {
+    max-width: 28vw;
+}
 .img-md {
-    width: 40vw;
+    width: 36vw;
 }
 
 .img-lg {
@@ -232,9 +235,9 @@ button {
 
 /* === LESSON SPECIFIC === */
 .lesson-ul {
-    font-size: 2.6vw;
-    max-width: 57vw;
-    padding-left: 1.9vw !important;
+    font-size: 2vw;
+    /* max-width: 57vw; */
+    padding-left: 3vw !important;
 }
 
 #Lesson img {
@@ -249,7 +252,7 @@ button {
 
 /* === VIDEO === */
 video {
-    width: 46.3vw;
+    width: 40.3vw;
     max-height: 32vw;
 }
 .video-md {
@@ -323,7 +326,7 @@ span img {
 
     /* Base images */
     .down-btn-container {
-        bottom: 3vw !important;
+        bottom: -3vw !important;
     }
 
     .vector-5 {
@@ -496,6 +499,7 @@ span img {
         padding-left: 4vw !important;
         width: 59vw !important;
         font-size: 2vw !important;
+        color: #f7b94a;
     }
 
     /* Video */

@@ -5,7 +5,7 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col items-center ">
-        <div class="indexTitle    stroke">Are Plants Living Things?</div>
+        <div class="indexTitle stroke">Are Plants Living Things?</div>
         <h2 class=" !text-white">Analyze and confirm that plants are living things</h2>
         <button
                class="nextButton" >       <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />

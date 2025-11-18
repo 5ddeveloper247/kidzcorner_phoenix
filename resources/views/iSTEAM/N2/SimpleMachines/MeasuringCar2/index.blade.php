@@ -4,7 +4,7 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col items-center ">
-        <div class="indexTitle    stroke">A Measuring Car (2)</div>
+        <div class="indexTitle stroke">A Measuring Car (2)</div>
         <h2
             class=" !text-white    flex flex-col items-center space-x-[30px]">
             Explore and learn about the characteristics of

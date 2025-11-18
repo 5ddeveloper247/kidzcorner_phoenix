@@ -11,7 +11,7 @@
 
 
     {{-- sldie 1  --}}
-    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
+    <div class="t-slide flex  !text-white flex-col justify-around  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -50,20 +50,20 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
+    <div class="t-slide flex  !text-white flex-col justify-center  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
-            <ul class="list-disc ">
+            <ul class="list-disc space-y-2">
                 <li>
                     If you have no idea what carbon footprint is, go through this video
-                    <span class="text-[#F7B94A] stroke !text-[1.4vw]">
+                    <span class="text-[#F7B94A] !text-[1.4vw]">
                         (<a href="https://www.youtube.com/watch?v=8q7_aV8eLUE"
                             target="_blank">https://www.youtube.com/watch?v=8q7_aV8eLUE</a>)
                     </span>.
                 </li>
                 <li>
                     Go through the online carbon footprint calculator
-                    <span class="text-[#F7B94A] stroke !text-[1.4vw]">
+                    <span class="text-[#F7B94A] !text-[1.4vw]">
                         (<a href="https://mycarbonfootprint.spgroup.com.sg/"
                             target="_blank">https://mycarbonfootprint.spgroup.com.sg/</a>
 
@@ -78,7 +78,7 @@
                 <li>Papers and drawing tools (for plotting graph)</li>
                 <li>
                     Go through the video about Singapore's plan in building future farms
-                    <span class="text-[#F7B94A] stroke !text-[1.4vw]">
+                    <span class="text-[#F7B94A] !text-[1.4vw]">
                         (<a href="https://www.youtube.com/watch?v=2ueVw83Plec"
                             target="_blank">https://www.youtube.com/watch?v=2ueVw83Plec</a>)
                     </span>
@@ -86,7 +86,7 @@
                 </li>
                 <li>
                     Go through the vegan ground beef recipe and video
-                    <span class="text-[#F7B94A] stroke !text-[1.4vw]">
+                    <span class="text-[#F7B94A] !text-[1.4vw]">
                         (<a href="https://passtheplants.com/vegan-ground-beef/"
                             target="_blank">https://passtheplants.com/vegan-ground-beef/</a>)
                     </span>
@@ -100,7 +100,7 @@
 
 
     {{-- sldie 3 --}}
-    <div class=" slide t-slide flex  !text-white flex-col items-center justify-center  text-start">
+    <div class="t-slide flex  !text-white flex-col items-center justify-center  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc">
@@ -110,7 +110,7 @@
                     to decide the quantity needed for each ingredient).</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/sustain/carbon/c21.png') }}" />
+        <img src="{{ asset('assets/images/K2/sustain/carbon/c21.png') }}" class="img-xl" />
         <ul class="list-disc">
             <li>Crushed the pumpkin seeds and clean the ingredients beforehand.</li>
         </ul>
@@ -118,7 +118,7 @@
     </div>
 
     {{-- sldie 4 --}}
-    <div class=" slide t-slide flex  !text-white flex-col items-center justify-center  text-start">
+    <div class="t-slide flex  !text-white flex-col items-center justify-center  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc">
@@ -133,27 +133,45 @@
 
 
     {{-- slide 5 --}}
-    <div class="slide t-slide flex  !text-white flex-col items-center justify-start gap-y-10 text-start hidden">
+    <div class=" t-slide text-start flex items-center !text-white !w-[53vw]">
         <div>
-            <h2 class="t-title">Notes</h2>
-            <div class="text-start ">
-                <ol class="lesson-ul">
-                    <li class="flex whitespace-nowrap">If you see <span><img
-                                src="{{ asset('assets/images/K2/sustain/Globalwarming/s27.png') }}"
-                                class="!max-w-[2.5vw]" /></span> next to a picture, click on the picture to watch the video
-                    </li>
-                    <li>Always ask questions to encourage children to think and share their ideas first before giving out
-                        any information.</li>
-                    <li>Emphasise and use the keywords during hands-on sessions.</li>
-                    <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.</li>
-                    <li class="flex whitespace-nowrap">Click on this shortcut icon <span><img
-                                src="{{ asset('assets/images/K2/sustain/Globalwarming/s28.png') }}"
-                                class="!max-w-[2.5vw]" /></span> if you need to go to some parts of the lesson quickly.</li>
-                </ol>
-            </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
+            <h2 class="t-title ">Notes:</h2>
+            <ul class="list-disc space-y-3">
+                <li>
+                    <span class="relative">
+                        If you see <span class="opacity-0">---</span>next to a picture, click on the picture to watch the
+                        video.
+                        <img class="t-video-btn absolute top-[-1vw] left-[7.6vw]"
+                            src="{{ asset('assets/images/pptimages/video.png') }}" />
+                    </span>
+                </li>
+
+                <li>
+                    Always ask questions to encourage children to think and share their ideas first before giving out
+                    any information.
+                </li>
+
+                <li>Emphasise and use the keywords during hands-on sessions.</li>
+
+                <li>
+                    Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
+                </li>
+
+                <li>
+                    <span class="relative">
+                        Click on this shortcut icon <span class="opacity-0">---</span> if you need to go to some parts of
+                        the lesson quickly.
+                        <img src="{{ asset('assets/images/pptimages/home-btn.png') }}"
+                            class="t-home-btn absolute top-0 left-[19vw]" />
+                    </span>
+                </li>
+
+            </ul>
         </div>
+
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
+
 
 
 
@@ -198,7 +216,7 @@
 @push('script')
     <script>
         document.addEventListener("DOMContentLoaded", () => {
-            const slides = document.querySelectorAll(".slide");
+            const slides = document.querySelectorAll(".t-slide");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
             const doneButton = document.querySelector(".doneButton"); //   DONE button
@@ -244,7 +262,7 @@
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('k2sustainability') }}";
+                    window.location.href = "{{ route('carbonSelection') }}";
                 });
             }
             showSlide(currentSlide);

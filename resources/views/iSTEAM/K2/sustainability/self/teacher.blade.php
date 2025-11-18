@@ -6,7 +6,7 @@
     <h2 class="top-title stroke">Being Self-Sufficient</h2>
 
     {{-- sldie 1  --}}
-    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
+    <div class="t-slide flex  !text-white flex-col justify-around  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -42,7 +42,7 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
+    <div class="t-slide flex  !text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
@@ -64,7 +64,7 @@
 
 
     {{-- sldie 3 --}}
-    <div class=" slide t-slide flex  !text-white flex-col items-center justify-center  text-start">
+    <div class="t-slide flex  !text-white flex-col items-center justify-center  text-start">
         <div>
             <h2 class=" t-title">Things to note in maintaining the vertical garden system:</h2><br>
             <h2 class=" t-title"> Mixing the plant nutrients</h2>
@@ -77,7 +77,7 @@
             </ul>
         </div>
         <div class="flex gap-2 items-center">
-            <img src="{{ asset('assets/images/K2/sustain/self/s18.png') }}" class="!max-w-[20vw]" />
+            <img src="{{ asset('assets/images/K2/sustain/self/s18.png') }}" class="img-sm" />
             <p class="note !w-[13vw]">When the plants are small, set
                 the flow to be slow.
                 When the plants have grown
@@ -89,7 +89,7 @@
 
 
     {{-- slide 4 --}}
-    <div class=" slide t-slide flex text-2xl !text-white flex-col items-center justify-start  text-start">
+    <div class="t-slide flex !text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">Things to note in maintaining the vertical garden system:</h2>
             <ul class="list-decimal">
@@ -97,13 +97,13 @@
                     system inside the water tank. Push up until you hear a click.</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/sustain/self/s20.png') }}" />
+        <img src="{{ asset('assets/images/K2/sustain/self/s20.png') }}" class="img-md" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- slide 5 --}}
-    <div class=" slide t-slide flex text-2xl !text-white flex-col items-center justify-start  text-start">
+    <div class="t-slide flex !text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">Things to note in maintaining the vertical garden system:</h2>
             <ul>
@@ -111,7 +111,7 @@
 
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/sustain/self/s19.png') }}" class="w-img" />
+        <img src="{{ asset('assets/images/K2/sustain/self/s19.png') }}" class="img-sm" />
         <ul>
             <li>Attach a green knob on the top of this hose to drain out water from the tank</li>
             <li>For more details on the maintenance of the vertical garden go to
@@ -122,54 +122,64 @@
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
+
     {{-- sldie 7 --}}
-    <div class=" slide t-slide flex text-2xl !text-white flex-col items-center justify-start gap-y-10 text-start">
+    <div class=" t-slide text-start flex items-center !text-white !w-[53vw]">
         <div>
-            <ul>
-                <li class=" flex whitespace-nowrap">If you see
-                    <span>
-                        <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s27.png') }}" class="!max-w-[2.5vw]" />
+            <h2 class="t-title ">Notes:</h2>
+            <ul class="list-disc space-y-3">
+                <li>
+                    <span class="relative">
+                        If you see <span class="opacity-0">---</span>next to a picture, click on the picture to watch the
+                        video.
+                        <img class="t-video-btn absolute top-[-1vw] left-[7.6vw]"
+                            src="{{ asset('assets/images/pptimages/video.png') }}" />
                     </span>
-                    next to a picture, click on
-                    the picture to watch the video
                 </li>
-                <li> Always ask questions to encourage children to think and share their ideas first
-                    before giving out any information.</li>
-                <li>Emphasise and use the keywords during hands-on sessions.
+
+                <li>
+                    Always ask questions to encourage children to think and share their ideas first before giving out
+                    any information.
                 </li>
-                <li>Print out the Learning Journal (if any) for every
-                    child to complete at the end of the lesson.
+
+                <li>Emphasise and use the keywords during hands-on sessions.</li>
+
+                <li>
+                    Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
                 </li>
-                <li class=" flex whitespace-nowrap">Click on this shortcut icon
-                    <span>
-                        <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s28.png') }}" class="!max-w-[2.5vw]" />
+
+                <li>
+                    <span class="relative">
+                        Click on this shortcut icon <span class="opacity-0">---</span> if you need to go to some parts of
+                        the lesson quickly.
+                        <img src="{{ asset('assets/images/pptimages/home-btn.png') }}"
+                            class="t-home-btn absolute top-0 left-[19vw]" />
                     </span>
-                    if you need to go to some
-                    parts of the lesson quickly.
                 </li>
-                <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-                    class="absolute teacher-img1" />
+
+            </ul>
         </div>
+
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
+
     {{-- sldie 6 --}}
-    <div class=" slide t-slide flex text-2xl !text-white flex-col items-center justify-start  text-start">
+    <div class="t-slide flex !text-white flex-col items-center justify-center  text-start">
         <h2 class="title stroke text-center">Learning Centre Idea</h2>
-        <div class="text-start">
-            <div>
-                <h2 class="title stroke !text-white">Diary Of Our Vegetable Garden</h2>
-                <h2 class="t-title">What and how to set up:</h2>
-                <p>Provide papers and writing materials for children to draw and record down the growth of the plants.</p>
-            </div>
-            <div>
-                <h2 class="t-title">What to do:</h2>
-                <ol class="lesson-ul list-decimal">
-                    <li>Guide children to write the date and measure the size of the leaves or count the number of leaves.
-                    </li>
-                    <li>Children can also observe and record down the changes in colour of the fruits or leaves.</li>
-                </ol>
-            </div>
+        <div>
+            <h2 class="text-[2vw] stroke !text-white">Diary Of Our Vegetable Garden</h2>
+            <h2 class="t-title">What and how to set up:</h2>
+            <p>Provide papers and writing materials for children to draw and record down the growth of the plants.</p>
+        </div>
+        <div>
+            <h2 class="t-title">What to do:</h2>
+            <ol class="list-decimal pl-[1.5vw]">
+                <li>Guide children to write the date and measure the size of the leaves or count the number of leaves.
+                </li>
+                <li>Children can also observe and record down the changes in colour of the fruits or leaves.</li>
+            </ol>
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
@@ -221,7 +231,7 @@
 @push('script')
     <script>
         document.addEventListener("DOMContentLoaded", () => {
-            const slides = document.querySelectorAll(".slide");
+            const slides = document.querySelectorAll(".t-slide");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
             const doneButton = document.querySelector(".doneButton"); //   DONE button

@@ -5,7 +5,7 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col items-center h-full justify-between ">
-        <div class="indexTitle    stroke">A Spinning Top</div>
+        <div class="indexTitle stroke">A Spinning Top</div>
         <h2
             class=" !text-white    flex flex-col items-center space-x-[30px]">
             Explore the characteristics and uses of wheel and axles - a simple machine; build a pinwheel based on a

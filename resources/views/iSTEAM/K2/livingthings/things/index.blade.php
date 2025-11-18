@@ -4,7 +4,7 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col  gap-20 items-center ">
-        <div class="indexTitle    stroke">What are Living Things?</div>
+        <div class="indexTitle stroke">What are Living Things?</div>
         <h2 class=" !text-white stroke ">
             Learn about the characteristics of <br>
             living things; analyse and sort things into

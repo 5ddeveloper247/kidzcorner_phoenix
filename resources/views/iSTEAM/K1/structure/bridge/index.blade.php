@@ -4,7 +4,7 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col   items-center ">
-        <div class="indexTitle    stroke">Bridges</div>
+        <div class="indexTitle stroke">Bridges</div>
         <h2 class=" !text-white stroke ">
             Explore and learn about bridges;
             design and build a bridge</h2>

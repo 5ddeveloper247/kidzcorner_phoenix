@@ -4,7 +4,7 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col  gap-[1vw] ">
-        <div class="indexTitle    stroke">Clean Energy 1</div>
+        <div class="indexTitle stroke">Clean Energy 1</div>
         <h2 class=" !text-white stroke ">
             Explore fingerprints; <br>
             learn to make own set of fingerprints <br>

@@ -6,7 +6,7 @@
     <h2 class="top-title stroke">Double DNA Helix</h2>
 
     {{-- sldie 1  --}}
-    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
+    <div class="t-slide flex  !text-white flex-col justify-around  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -35,13 +35,12 @@
                 </ul>
             </div>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
 
     {{-- slide 2 --}}
-    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
+    <div class="t-slide flex  !text-white flex-col justify-center items-center  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
@@ -63,13 +62,12 @@
                 </li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/dna/h19.png') }}" class="w-img" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h19.png') }}" class="img-sm" />
     </div>
 
 
     {{-- sldie 3 --}}
-    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
+    <div class="t-slide flex  !text-white flex-col justify-center items-center  text-start">
         <div>
             <h2 class=" t-title">How to make a model of DNA double helix and things to consider:</h2>
             <ul class="list-decimal">
@@ -78,13 +76,12 @@
                     children to understand which coloured bead represent which base.]</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/dna/h7.png') }}" class="w-img" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h7.png') }}" class="img-md" />
     </div>
 
 
     {{-- slide 4 --}}
-    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
+    <div class="t-slide flex  !text-white flex-col justify-center items-center  text-start">
         <div>
             <h2 class=" t-title">How to make a model of DNA double helix and things to consider:</h2>
             <ul>
@@ -94,13 +91,12 @@
                     to have equal or unequal numbers of AT and CG base pairs. Help if needed.]</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/dna/h8.png') }}" class="w-img3" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h8.png') }}" class="img-xl" />
     </div>
 
 
     {{-- slide 5 --}}
-    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
+    <div class="t-slide flex  !text-white flex-col justify-center items-center  text-start">
         <div>
             <h2 class=" t-title">How to make a model of DNA double helix and things to consider:</h2>
             <ul>
@@ -111,13 +107,12 @@
                     if needed.]</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/dna/h9.png') }}" class="w-img3" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h9.png') }}" class="img-xl" />
     </div>
 
 
     {{-- sldie 6 --}}
-    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
+    <div class="t-slide flex  !text-white flex-col justify-center items-center  text-start">
         <div>
             <h2 class=" t-title">How to make a model of DNA double helix and things to consider:</h2>
             <ul>
@@ -127,13 +122,12 @@
                     to count and record how many base patterns have been designed by the class. ]</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/dna/h10.png') }}" class="w-img" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h10.png') }}" class="img-sm" />
     </div>
 
 
     {{-- sldie 7 --}}
-    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
+    <div class="t-slide flex  !text-white flex-col justify-center items-center  text-start">
         <div>
             <h2 class=" t-title">How to make a model of DNA double helix and things to consider:</h2>
             <ul>
@@ -143,12 +137,14 @@
                     the edge) .]</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/dna/td4.png') }}" class="w-img" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
+        <div class="flex flex-col items-center gap-[.5vw]">
+            <img src="{{ asset('assets/images/K2/livingthings/dna/h11.png') }}" class="img-sm" />
+            <img src="{{ asset('assets/images/K2/livingthings/dna/h25.png') }}" class="img-xl" />
+        </div>
     </div>
 
     {{-- sldie 8 --}}
-    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
+    <div class="t-slide flex  !text-white flex-col justify-center items-center  text-start">
         <div>
             <h2 class=" t-title">How to make a model of DNA double helix and things to consider:</h2>
             <ul>
@@ -157,71 +153,82 @@
                     model as a charm to hang on their belongings .]</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/dna/h12.png') }}" class="w-img3" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h12.png') }}" class="img-xl" />
     </div>
 
 
     {{-- sldie 9 --}}
-    <div class="slide flex t-slide  flex-col justify-start  text-2xl text-start !text-white">
+    <div class=" t-slide text-start flex items-center !text-white !w-[53vw]">
         <div>
-            <h2 class=" t-title">Notes:</h2>
-            <ul class="list-disc leading-relaxed">
-                <li class="flex whitespace-nowrap">
-                    If you see
-                    <span>
-                        <img src="{{ asset('assets/images/pptimages/video.png') }}" />
+            <h2 class="t-title ">Notes:</h2>
+            <ul class="list-disc space-y-3">
+                <li>
+                    <span class="relative">
+                        If you see <span class="opacity-0">---</span>next to a picture, click on the picture to watch the
+                        video.
+                        <img class="t-video-btn absolute top-[-1vw] left-[7.6vw]"
+                            src="{{ asset('assets/images/pptimages/video.png') }}" />
                     </span>
-                    next to a picture,click on the picture to watch the video.
                 </li>
+
+                <li>
+                    Always ask questions to encourage children to think and share their ideas first before giving out
+                    any information.
+                </li>
+
                 <li>Emphasise and use the keywords during hands-on sessions.</li>
-                <li>Print out the Learning Journal (if any) for every child to complete at the end
-                    of the lesson.
+
+                <li>
+                    Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
                 </li>
-                <li class="flex whitespace-nowrap">
-                    Click on this shortcut icon
-                    <span>
-                        <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" class="home-btn" />
+
+                <li>
+                    <span class="relative">
+                        Click on this shortcut icon <span class="opacity-0">---</span> if you need to go to some parts of
+                        the lesson quickly.
+                        <img src="{{ asset('assets/images/pptimages/home-btn.png') }}"
+                            class="t-home-btn absolute top-0 left-[19vw]" />
                     </span>
-                    if you need to go to some parts of the lesson quickly.
                 </li>
+
             </ul>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="Teacher" />
+
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
+
     {{-- slide 10 --}}
-    <div class="text-white flex flex-col items-center justify-center  text-start t-slide slide hidden">
+    <div class="text-white flex flex-col justify-center items-center  text-start t-slide hidden">
         <h2 class=" title stroke">Learning Centre Idea</h2>
-        <div class="flex flex-col gap-10">
+        <div>
+            <h2 class="!text-white title stroke">DNA Charm</h2>
+            <h2 class="t-title">What and how to set up:</h2>
             <ul>
-                <h2 class="!text-white title stroke">DNA Charm</h2>
-                <h2 class="t-title">What and how to set up:</h2>
                 <li>Place things as listed in preparations and an instruction sheet (refer
                     to the attachment on the next page) here.</li>
             </ul>
-
-            <div>
-                <h2 class="t-title">What to do:</h2>
-                <ul class="list-decimal">
-                    <li>Make a DNA charm as a gift for your family member.</li>
-                    <li>If needed, you may refer to the instruction sheet while making the charm.</li>
-                </ul>
-
-            </div>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" />
+
+        <div>
+            <h2 class="t-title">What to do:</h2>
+            <ul class="list-decimal">
+                <li>Make a DNA charm as a gift for your family member.</li>
+                <li>If needed, you may refer to the instruction sheet while making the charm.</li>
+            </ul>
+
+        </div>
     </div>
 
 
     {{-- slide 11 --}}
-    <div class="text-white flex flex-col items-center justify-center  text-start t-slide slide hidden">
+    <div class="text-white flex flex-col justify-center items-center  text-start t-slide hidden">
         <h2 class=" title stroke">Learning Centre Idea</h2>
         <div>
+            <h2 class="!text-white title stroke">DNA Charm</h2>
+            <h2 class="t-title">How to make a DNA charm:</h2>
             <ul class="list-disc">
-                <h2 class="!text-white title stroke">DNA Charm</h2>
-                <h2 class="t-title">How to make a DNA charm:</h2>
                 <li>Create base pairs by hooking A-T or C-G beads together in the middle of the twist
                     tie.</li>
                 <li>Attach the base pairs to the pipe cleaners by twisting the free ends of the twist
@@ -230,25 +237,24 @@
                 <li>Twist the ladder to form the shape of a DNA double helix.</li>
                 <li>Attach a strap over the DNA double helix.</li>
             </ul>
-            <img src="{{ asset('assets/images/K2/livingthings/dna/h20.png') }}" />
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h20.png') }}" />
     </div>
 
 
     {{-- slide 12 --}}
-    <div class="text-white flex flex-col items-center justify-center  text-start t-slide slide hidden">
+    <div class="text-white flex flex-col justify-center items-center  text-start t-slide hidden">
         <h2 class=" title stroke">Learning Centre Idea</h2>
-        <div>
+        <div class="space-y-[1vw]">
+            <h2 class="!text-white title stroke">Fun Facts</h2>
             <div>
-                <h2 class="!text-white title stroke">Fun Facts</h2>
                 <h2 class="t-title">What and how to set up:</h2>
-                <p >Use your creativity to design graphic fact sheet for every fun fact
+                <p>Use your creativity to design graphic fact sheet for every fun fact
                     below. Guide children to understand the facts.</p>
             </div>
 
             <div>
-                <ul class="list-disc">
+                <ul class="pl-[2vw] list-disc">
                     <li>A parent and child share 99.5% of the same DNA.</li>
                     <li>Fraternal twins each have their own DNA, while identical twins
                         share their DNA.</li>
@@ -257,15 +263,14 @@
                 </ul>
             </div>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" />
     </div>
 
     {{-- slide 13 --}}
-    <div class="text-white flex flex-col items-center justify-center  text-start t-slide slide hidden">
+    <div class="text-white flex flex-col justify-center items-center  text-start t-slide hidden">
         <h2 class=" title stroke">Extension Class Activity 1</h2>
-        <div>
+        <div class="space-y-[1vw]">
+            <h2 class="!text-white title stroke">Let's Sing A Song</h2>
             <div>
-                <h2 class="!text-white title stroke">Let's Sing A Song</h2>
                 <h2 class="t-title">What to do:</h2>
                 <ul class="list-decimal">
                     <li> Prepare lyrics poster for the song on the next page.</li>
@@ -274,16 +279,15 @@
                 </ul>
             </div>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" />
     </div>
 
 
     {{-- slide 14 --}}
-    <div class="text-white flex flex-col items-center justify-center  text-start t-slide slide hidden">
+    <div class="text-white flex flex-col justify-between items-center  text-start t-slide hidden">
         <h2 class=" title stroke">Extension Class Activity 1</h2>
         <h2 class="!text-white title stroke">Let's Sing A Song</h2>
         <div class="text-center">
-            <p >DNA Song <br>
+            <p>DNA Song <br>
                 DNA is deoxyribonucleic acid. <br>
                 It has a special shape called a double helix. <br>
                 It tells every living thing on how to form and work correctly. <br>
@@ -291,34 +295,34 @@
         </div>
 
         <p class="note">Note: Sing to the tune of "She'll Be Coming Round The Mountain".</p>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" />
     </div>
 
 
     {{-- slide 15 --}}
-    <div class="text-white flex flex-col items-center justify-center  text-start t-slide slide hidden">
+    <div class="text-white flex flex-col justify-center items-center  text-start t-slide hidden">
         <h2 class=" title stroke">Extension Class Activity 2</h2>
-        <div>
+        <div class="space-y-[1vw]">
             <h2 class="!text-white title stroke">Which Traits Of You Are Inherited?</h2>
-            <h2>What to prepare:</h2>
-            <ul>
-                <li> Give each child a record sheet (see Appendix 1), explain the
-                    meaning (see Appendix 2 for some photo references) and get them
-                    to fill up together with their parents at home. Fix a date for
-                    children to bring the record sheet, as well as photos of their
-                    father, mother and themselves back to the class for show and tell.</li>
-            </ul>
+            <div>
+                <h2 class="t-title">What to prepare:</h2>
+                <ul>
+                    <li> Give each child a record sheet (see Appendix 1), explain the
+                        meaning (see Appendix 2 for some photo references) and get them
+                        to fill up together with their parents at home. Fix a date for
+                        children to bring the record sheet, as well as photos of their
+                        father, mother and themselves back to the class for show and tell.</li>
+                </ul>
+            </div>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" />
     </div>
 
 
     {{-- slide 16 --}}
-    <div class="text-white flex flex-col items-center justify-center  text-start t-slide slide hidden">
+    <div class="text-white flex flex-col justify-center items-center  text-start t-slide hidden">
         <h2 class=" title stroke">Extension Class Activity 2</h2>
-        <div class="t-title">
+        <div class="space-y-[1vw]">
+            <h2 class="!text-white title stroke">Which Traits Of You Are Inherited?</h2>
             <div>
-                <h2 class="!text-white title stroke">Which Traits Of You Are Inherited?</h2>
                 <h2 class="t-title">What to do:</h2>
                 <ul>
                     <li> Show and tell - Have children take turns to show their record
@@ -328,35 +332,39 @@
                 </ul>
             </div>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" />
     </div>
 
 
     {{-- slide 17 --}}
-    <div class="text-white flex flex-col items-center justify-center  text-start t-slide slide hidden">
+    <div class="text-white flex flex-col justify-around items-center  text-start t-slide hidden">
         <h2 class=" title stroke">Extension Class Activity 2</h2>
-        <h2 class="!text-white title stroke">Appendix 1: Which Traits Of You Are Inherited?</h2>
-        <img src="{{ asset('assets/images/K2/livingthings/dna/h21.png') }}" class="w-img3" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" />
+        <div>
+            <h2 class="!text-white title stroke">Appendix 1: Which Traits Of You Are Inherited?</h2>
+            <img src="{{ asset('assets/images/K2/livingthings/dna/h21.png') }}" class="img-xl" />
+        </div>
     </div>
 
 
     {{-- slide 18 --}}
-    <div class="text-white flex flex-col items-center justify-center  text-start t-slide slide hidden">
+    <div class="text-white flex flex-col justify-around items-center  text-start t-slide hidden">
         <h2 class=" title stroke">Extension Class Activity 2</h2>
-        <h2 class="!text-white title stroke">Appendix 1: Which Traits Of You Are Inherited?</h2>
-        <img src="{{ asset('assets/images/K2/livingthings/dna/h22.png') }}" class="w-img3" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" />
+        <div>
+            <h2 class="!text-white title stroke">Appendix 1: Which Traits Of You Are Inherited?</h2>
+            <img src="{{ asset('assets/images/K2/livingthings/dna/h22.png') }}" class="img-xl" />
+        </div>
     </div>
 
     {{-- slide 19 --}}
-    <div class="text-white flex flex-col items-center justify-center gap-y-10 text-start text-2xl slide hidden">
+    <div class="text-white flex flex-col justify-around items-center text-start t-slide hidden">
         <h2 class=" title stroke">Extension Class Activity 2</h2>
-        <h2 class="!text-white title stroke">Appendix 2: Which Traits Of You Are Inherited?</h2>
-        <img src="{{ asset('assets/images/K2/livingthings/dna/h23.png') }}" class="w-img3" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" />
+        <div>
+            <h2 class="!text-white title stroke">Appendix 2: Which Traits Of You Are Inherited?</h2>
+            <img src="{{ asset('assets/images/K2/livingthings/dna/h23.png') }}" class="img-xl" />
+        </div>
     </div>
 
+
+    <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" />
 
 
     {{-- ========================================================== --}}
@@ -366,6 +374,7 @@
             <img src="{{ asset('assets/images/pptimages/done.png') }}" />
         </button>
     </div>
+
 
     <div id="buttons" class="absolute  flex flex-row gap-6 z-90">
 
@@ -390,14 +399,10 @@
 
     {{-- next Button --}}
     <div class="down-btn-container">
-
         <button class="nextButton">
             <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
         </button>
     </div>
-
-
-
 
 @endsection
 
@@ -406,7 +411,7 @@
     <script>
         document.addEventListener("DOMContentLoaded", () => {
             // Get all elements
-            const slides = document.querySelectorAll(".slide");
+            const slides = document.querySelectorAll(".t-slide");
             const nextBtn = document.querySelector(".nextButton");
             const returnBtn = document.getElementById("returnButton");
             const doneBtn = document.querySelector(".doneButton");
@@ -459,7 +464,7 @@
 
             // Done button
             doneBtn.addEventListener("click", () => {
-                window.location.href = "{{ route('k2livingthings') }}";
+                window.location.href = "{{ route('helixSelection') }}";
             });
 
             // Start at first slide

@@ -13,14 +13,14 @@
 
     {{-- Slide 2 --}}
     <div class="slide hidden flex flex-col items-center">
-        <img src="{{ asset('assets/images/K2/sustain/reduce/r1.png') }}" class="large-img6" />
+        <img src="{{ asset('assets/images/K2/sustain/reduce/r1.png') }}" class="img-xl" />
         <h2 class="title stroke">Look at these pictures. These are pictures of the different types of pollution.</h2>
         <p class="note">Note: Encourage children to recap and share what they know.</p>
     </div>
 
     {{-- Slide 3 --}}
     <div class="slide hidden flex flex-col items-center justify-between">
-        <img src="{{ asset('assets/images/K2/sustain/reduce/r1.png') }}" class="large-img6" />
+        <img src="{{ asset('assets/images/K2/sustain/reduce/r1.png') }}" class="img-xl" />
         <h2 class="title stroke text-center">
             <span class="!text-white">Pollution</span> is when gases, <span class="!text-white">chemicals</span>, oil spills
             and trash are introduced into the environment in large amounts that is harmful or poisonous to humans, animals
@@ -30,27 +30,27 @@
 
     {{-- Slide 4 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p2.png') }}" class="large-img6" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p2.png') }}" class="img-xl" />
         <h2 class="title stroke text-center">Harmful smoke and chemicals are also released when such fuels are burnt,
             causing air pollution.</h2>
     </div>
 
     {{-- Slide 5 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
-        <img src="{{ asset('assets/images/K2/sustain/reduce/r2.png') }}" class="large-img6" />
+        <img src="{{ asset('assets/images/K2/sustain/reduce/r2.png') }}" class="img-xl" />
         <h2 class="title stroke">The sea is polluted with oil spill. Oil spills are harmful to the environment and animals.
         </h2>
     </div>
 
     {{-- Slide 6 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p9.png') }}" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p9.png') }}" class="img-lg" />
         <h2 class="title stroke">The sea is also polluted with rubbish.</h2>
     </div>
 
     {{-- Slide 7 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p20.png') }}" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p20.png') }}" class="img-lg" />
         <h2 class="title stroke">Children, how did these rubbish end up in the sea?</h2>
         <div class="text-start title stroke">
             <ol class="lesson-ul">
@@ -61,50 +61,46 @@
 
     {{-- Slide 8 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K2/sustain/reduce/r3.png') }}" />
+        <img src="{{ asset('assets/images/K2/sustain/reduce/r3.png') }}" class="img-lg" />
         <h2 class="title stroke">Plastic bags, food wrappers and straws are common items that we throw in our bins.</h2>
     </div>
 
     {{-- Slide 9 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K2/sustain/reduce/r4.png') }}" />
+        <img src="{{ asset('assets/images/K2/sustain/reduce/r4.png') }}" class="img-lg" />
         <h2 class="title stroke">When rubbish is being transported, rubbish that's made of plastics are often blown away
             because it's so lightweight.</h2>
     </div>
 
     {{-- Slide 10 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K2/sustain/reduce/r5.png') }}" />
+        <img src="{{ asset('assets/images/K2/sustain/reduce/r5.png') }}" class="img-lg" />
         <h2 class="title stroke">The collected rubbish are placed into landfills.</h2>
     </div>
 
     {{-- Slide 11 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K2/sustain/reduce/r6.png') }}" />
+        <img src="{{ asset('assets/images/K2/sustain/reduce/r6.png') }}" class="img-lg" />
         <h2 class="title stroke">Storms may wash these plastics from landfills into drains or rivers. These plastics will
             then end up in the sea.</h2>
     </div>
 
     {{-- Slide 12 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K2/sustain/reduce/r7.png') }}" class="large-img6" />
+        <img src="{{ asset('assets/images/K2/sustain/reduce/r7.png') }}" class="img-xl" />
         <h2 class="title stroke">Fish and animals in the sea get stuck or choked by the rubbish they found in the sea.</h2>
     </div>
 
     {{-- Slide 13 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
-        <img src="{{ asset('assets/images/K2/sustain/reduce/r8.png') }}" class="w-img" />
+        <img src="{{ asset('assets/images/K2/sustain/reduce/r8.png') }}" class="img-h-md" />
         <h2 class="title stroke">How can we help?</h2>
-        <div class="text-start title stroke">
-            <ol class="lesson-ul">
-                <li>Note: Encourage children to share their answers.</li>
-            </ol>
-        </div>
+        <p class="note">Note: Encourage children to share their answers.</p>
     </div>
 
     {{-- Slide 14 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
-        <img src="{{ asset('assets/images/K2/sustain/reduce/r9.png') }}" class="!max-w-[15vw] !h-[10vw]" />
+        <img src="{{ asset('assets/images/K2/sustain/reduce/r9.png') }}" class="img-h-sm" />
         <h2 class="title stroke">We can do our part by practicing the three 'R's - <span class="!text-white">Reduce, Reuse
                 and Recycle</span>. Do you know what it means?</h2>
 
@@ -114,58 +110,58 @@
 
     {{-- Slide 15 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
-        <img src="{{ asset('assets/images/K2/sustain/reduce/r9.png') }}" class="!max-w-[15vw] !h-[10vw]" />
+        <img src="{{ asset('assets/images/K2/sustain/reduce/r9.png') }}" class="img-h-md" />
         <h2 class="title stroke">Let’s look at how waste can be <span class="!text-white">reduced</span>.</h2>
     </div>
 
     {{-- Slide 16 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
-        <img src="{{ asset('assets/images/K2/sustain/reduce/r3.png') }}" />
+        <img src="{{ asset('assets/images/K2/sustain/reduce/r3.png') }}" class="img-lg" />
         <h2 class="title stroke">The most direct way to help is to <span class="!text-white">reduce</span> waste!</h2>
     </div>
 
     {{-- Slide 17 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
-        <img src="{{ asset('assets/images/K2/sustain/reduce/r3.png') }}" />
+        <img src="{{ asset('assets/images/K2/sustain/reduce/r3.png') }}" class="img-lg" />
         <h2 class="title stroke">When we throw less rubbish, there will be less rubbish. Less rubbish will end up in the
             sea.</h2>
     </div>
 
     {{-- Slide 18 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
-        <img src="{{ asset('assets/images/K2/sustain/reduce/r10.png') }}" class="w-img3" />
+        <img src="{{ asset('assets/images/K2/sustain/reduce/r10.png') }}" class="img-lg" />
         <h2 class="title stroke">We can use less plastic bags or bring our own bags when we go shopping.</h2>
     </div>
 
     {{-- Slide 19 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
-        <img src="{{ asset('assets/images/K2/sustain/reduce/r11.png') }}" class="large-img6" />
+        <img src="{{ asset('assets/images/K2/sustain/reduce/r11.png') }}" class="img-xl" />
         <h2 class="title stroke">Buy items with less packaging. This will help to reduce the amount of rubbish being thrown
             away.</h2>
     </div>
 
     {{-- Slide 20 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
-        <img src="{{ asset('assets/images/K2/sustain/reduce/r12.png') }}" class="large-img6" />
+        <img src="{{ asset('assets/images/K2/sustain/reduce/r12.png') }}" class="img-xl" />
         <h2 class="title stroke">Use reusable food containers and utensils instead of disposable ones.</h2>
     </div>
 
     {{-- Slide 21 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
-        <img src="{{ asset('assets/images/K2/sustain/reduce/r13.png') }}" class="large-img6" />
+        <img src="{{ asset('assets/images/K2/sustain/reduce/r13.png') }}" class="img-md" />
         <h2 class="title stroke">Using reusable masks also helps to reduce the amount of waste created.</h2>
     </div>
 
     {{-- Slide 22 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
-        <img src="{{ asset('assets/images/K2/sustain/reduce/r14.png') }}" class="large-img6" />
+        <img src="{{ asset('assets/images/K2/sustain/reduce/r14.png') }}" class="img-xl" />
         <h2 class="title stroke">Walking, riding a bicycle and taking the public transport instead of driving our cars help
             to reduce air pollution too!</h2>
     </div>
 
     {{-- Slide 23 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
-        <img src="{{ asset('assets/images/K2/sustain/reduce/r15.png') }}" class="large-img6" />
+        <img src="{{ asset('assets/images/K2/sustain/reduce/r15.png') }}" class="img-lg" />
         <h2 class="title stroke">We should ask for a smaller portion of food if we think the serving is too much. This helps
             to reduce food waste.</h2>
     </div>
@@ -173,7 +169,7 @@
     {{-- Slide 24 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
         <h2 class="title stroke !text-white">Individual Activity 1</h2>
-        <img src="{{ asset('assets/images/K2/sustain/reduce/r16.png') }}" />
+        <img src="{{ asset('assets/images/K2/sustain/reduce/r16.png') }}" class="img-md" />
         <div class="text-start title stroke">
             <h2>Let's do:</h2>
             <ol class="lesson-ul">
@@ -198,7 +194,7 @@
     </div>
 
     {{-- Slide 26 --}}
-    <div class="slide hidden flex flex-col items-center justify-start">
+    <div class="slide hidden flex flex-col items-center justify-between h-[28vw]">
         <div class="text-start title stroke">
             <h2>Some examples:</h2>
             <ol class="lesson-ul list-disc">
@@ -216,31 +212,31 @@
 
     {{-- Slide 27 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
-        <img src="{{ asset('assets/images/K2/sustain/reduce/r17.png') }}" />
+        <img src="{{ asset('assets/images/K2/sustain/reduce/r17.png') }}" class="img-h-md" />
         <h2 class="title stroke">Let’s look at how waste can be <span class="!text-white">reused</span>.</h2>
     </div>
 
     {{-- Slide 28 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
-        <img src="{{ asset('assets/images/K2/sustain/reduce/r17.png') }}" />
+        <img src="{{ asset('assets/images/K2/sustain/reduce/r17.png') }}" class="img-h-md" />
         <h2 class="title stroke">Reusing is about looking for ways to use the item again.</h2>
     </div>
 
     {{-- Slide 29 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
-        <img src="{{ asset('assets/images/K2/sustain/reduce/r18.png') }}" class="large-img6" />
+        <img src="{{ asset('assets/images/K2/sustain/reduce/r18.png') }}" class="img-xl" />
         <h2 class="title stroke">Glass and plastic containers can be reused to store items such as food or stationery.</h2>
     </div>
 
     {{-- Slide 30 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
-        <img src="{{ asset('assets/images/K2/sustain/reduce/r19.png') }}" class="large-img6" />
+        <img src="{{ asset('assets/images/K2/sustain/reduce/r19.png') }}" class="img-xl" />
         <h2 class="title stroke">Old clothes can be passed on to others who need them or be transformed into bags.</h2>
     </div>
 
     {{-- Slide 31 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
-        <img src="{{ asset('assets/images/K2/sustain/reduce/r20.png') }}" class="large-img6" />
+        <img src="{{ asset('assets/images/K2/sustain/reduce/r20.png') }}" class="img-xl" />
         <h2 class="title stroke">Artists reuse unwanted materials to create artwork.</h2>
 
         <p class="note">Note: Encourage children to share what materials were used for the artwork.</p>
@@ -248,7 +244,7 @@
 
     {{-- Slide 32 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
-        <img src="{{ asset('assets/images/K2/sustain/reduce/r21.png') }}" class="large-img6" />
+        <img src="{{ asset('assets/images/K2/sustain/reduce/r21.png') }}" class="img-xl" />
         <h2 class="title stroke">Some artists use artwork to send messages to people.</h2>
 
         <p class="note">Note: Ask children what materials do they see and what message do they think the artist is trying
@@ -258,36 +254,36 @@
 
     {{-- Slide 33 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
-        <img src="{{ asset('assets/images/K2/sustain/reduce/r21.png') }}" class="large-img6" />
+        <img src="{{ asset('assets/images/K2/sustain/reduce/r21.png') }}" class="img-xl" />
         <h2 class="title stroke">The message 'Stop cluttering the Baltic Sea' in polish is also displayed below the
             sculpture.</h2>
     </div>
 
     {{-- Slide 34 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
-        <img src="{{ asset('assets/images/K2/sustain/reduce/r21.png') }}" class="large-img6" />
+        <img src="{{ asset('assets/images/K2/sustain/reduce/r21.png') }}" class="img-xl" />
         <h2 class="title stroke">The artist wanted to show people that the rubbish they threw into the Baltic sea end up
             inside the fishes' stomachs.</h2>
     </div>
 
     {{-- Slide 35 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
-        <img src="{{ asset('assets/images/K2/sustain/reduce/r21.png') }}" class="large-img6" />
+        <img src="{{ asset('assets/images/K2/sustain/reduce/r21.png') }}" class="img-xl" />
         <h2 class="title stroke">Using this artwork, the artist reminds people to be responsible and take charge of
             reducing pollution.</h2>
     </div>
 
     {{-- Slide 36 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
-        <h2 class="text-white text-center">Class Activity 2</h2>
-        <img src="{{ asset('assets/images/K2/sustain/reduce/r21.png') }}" class="large-img6" />
+        <h2 class="!text-white stroke text-center">Class Activity 2</h2>
+        <img src="{{ asset('assets/images/K2/sustain/reduce/r21.png') }}" class="img-lg" />
         <h2 class="title stroke">Let's find out: <br> Create an artwork that can remind people to do their part in helping
             Earth.</h2>
     </div>
 
     {{-- Slide 37 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-[55vh]">
-        <h2 class="text-white text-center stroke">Brainstorming Session</h2>
+    <div class="slide hidden flex flex-col items-center justify-between h-[29vw]">
+        <h2 class="!text-white text-center stroke">Brainstorming Session</h2>
         <div class="text-start title stroke">
             <ol class="lesson-ul">
                 <li>1) What have you learned about climate change, global warming and pollution?</li>
@@ -317,21 +313,21 @@
 
     {{-- Slide 39 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
-        <img src="{{ asset('assets/images/K2/sustain/reduce/r22.png') }}" />
+        <img src="{{ asset('assets/images/K2/sustain/reduce/r22.png') }}" class="img-lg" />
         <h2 class="title stroke">There will be less pollution when we do our part in reducing waste and reusing unwanted
             items.</h2>
     </div>
 
     {{-- Slide 40 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
-        <img src="{{ asset('assets/images/K2/sustain/reduce/r24.png') }}" />
+        <img src="{{ asset('assets/images/K2/sustain/reduce/r24.png') }}" class="img-h-md" />
         <h2 class="title stroke">The three 'R's are the key points to protecting our Earth!</h2>
     </div>
 
     {{-- Slide 41 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
-        <h2 class="text-white">Learning Journal</h2>
-        <img src="{{ asset('assets/images/K2/sustain/reduce/r23.png') }}" class="!max-w-[35vw]"/>
+        <h2 class="!text-white stroke">Learning Journal</h2>
+        <img src="{{ asset('assets/images/K2/sustain/reduce/r23.png') }}" class="img-lg" />
     </div>
 
 

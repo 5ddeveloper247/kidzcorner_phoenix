@@ -4,7 +4,7 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col items-center gap-[2vw] !justify-center">
-        <div class="indexTitle    stroke">Animate a Character (2)</div>
+        <div class="indexTitle stroke">Animate a Character (2)</div>
         <h2 class="text-2xl sm:text-3xl lg:text-4xl !text-white stroke ">
             Explore and learn how to create animated stories using
             ScratchJr; learn how to programme a character to move

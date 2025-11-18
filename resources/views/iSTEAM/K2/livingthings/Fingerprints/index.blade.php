@@ -3,20 +3,18 @@
 
 @section('content')
 
-    <div id="topDiv" class="flex flex-col  gap-20 items-center ">
+    <div id="topDiv" class="flex flex-col items-center ">
         <div class="indexTitle   stroke leading-none">Fingerprints</div>
         <h2 class=" !text-white stroke ">
             Explore fingerprints; <br>
-            learn to make own set of fingerprints <br>
+            learn to make own set of fingerprints 
             for analysis</h2>
 
-        {{-- next Button --}}
-        <div class="down-btn-container">
+    
             <button class="nextButton">
                 <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
             </button>
         </div>
-    </div>
 
 
 
