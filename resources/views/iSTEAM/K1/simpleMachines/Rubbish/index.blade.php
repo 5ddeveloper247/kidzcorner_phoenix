@@ -7,7 +7,7 @@
         <div class="indexTitle   stroke">Throw a Rubbish Machine</div>
         <h2 class=" !text-white">
             Build a Rube Goldberg Machine that includes
-            a simple machine - Wheel and Axle <br> <br> <br> <br>
+            a simple machine - Wheel and Axle 
         </h2>
 
         <button class="nextButton ">

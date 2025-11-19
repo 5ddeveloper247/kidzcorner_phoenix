@@ -6,7 +6,7 @@
     <h2 class="top-title stroke">Pop a Balloon Machine</h2>
 
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl !text-white flex-col justify-start  text-start t-slide ">
+    <div class="flex !text-white flex-col justify-around  text-start t-slide ">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -35,7 +35,7 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl !text-white flex-col justify-start  text-start t-slide ">
+    <div class="flex !text-white flex-col justify-start  text-start t-slide ">
         <div>
             <h2 class=" t-title  !text-white">Preparations:</h2>
             <div>
@@ -52,7 +52,7 @@
                     <li>Adhesive tape</li>
                 </ul>
 
-                <img src="{{ asset('/assets/images/K1/sm/balloon/ballon5.png') }}" class="large-img2 float-end pr-[5vw]" />
+                <img src="{{ asset('/assets/images/K1/sm/balloon/ballon5.png') }}" class="img-md float-end pr-[5vw]" />
 
             </div>
         </div>
@@ -62,7 +62,7 @@
 
 
     {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl !text-white flex-col items-center  text-start t-slide ">
+    <div class="flex !text-white flex-col items-center  text-start t-slide ">
         <div class="text-start">
             <h2 class=" t-title  !text-white">Things to consider for preparation:</h2>
             <ul class="list-disc ">
@@ -72,14 +72,14 @@
             </ul>
         </div>
 
-        <img class=" !text-end large-img2" src="{{ asset('/assets/images/K1/sm/balloon/ballon5.png') }}" />
+        <img class=" !text-end img-md" src="{{ asset('/assets/images/K1/sm/balloon/ballon5.png') }}" />
 
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- sldie 4 --}}
-    <div class=" slide flex text-2xl !text-white flex-col items-center  text-start t-slide ">
+    <div class="flex !text-white flex-col items-center  text-start t-slide ">
         <div class="text-start">
             <h2 class=" t-title  !text-white">Things to consider for preparation:</h2>
             <ul class="list-disc ">
@@ -88,7 +88,7 @@
             </ul>
         </div>
 
-        <img class=" !text-end large-img2" src="{{ asset('/assets/images/K1/sm/balloon/ballon13.png') }}" />
+        <img class=" !text-end img-sm" src="{{ asset('/assets/images/K1/sm/balloon/ballon13.png') }}" />
 
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
@@ -96,7 +96,7 @@
 
     {{-- slide 5 --}}
 
-    <div class=" slide flex text-2xl !text-white flex-col items-center  text-start t-slide ">
+    <div class="flex !text-white flex-col items-center  text-start t-slide ">
         <div>
             <h2 class=" t-title ">Things to consider for preparation:</h2>
             <ul class="list-disc ">
@@ -105,20 +105,20 @@
                     needle in place.</li>
             </ul>
         </div>
-        <img class=" !text-end large-img2" src="{{ asset('/assets/images/K1/sm/balloon/ballon14.png') }}" />
+        <img class=" !text-end img-md" src="{{ asset('/assets/images/K1/sm/balloon/ballon14.png') }}" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- sldie 4 --}}
-    <div class=" slide flex text-2xl !text-white flex-col items-center  text-start t-slide ">
+    <div class="flex !text-white flex-col items-center  text-start t-slide ">
         <div class="text-start">
             <h2 class=" t-title">Things to consider for preparation: </h2>
             <ul class="list-disc  ">
                 <li>Ask questions to prompt children to share and try out their ideas. Some
                     possible questions are listed in the lesson, you may add on questions based
                     on children's response.</li>
-                <li class="text-red-500">Since the needle is sharp, kindly ensure that children are aware of the
+                <li class="text-[#F8473A]">Since the needle is sharp, kindly ensure that children are aware of the
                     danger of getting hurt. Be mindful of safety at all times.</li>
                 <li>Remember to continue with reflection part of the lesson after the
                     hands-on session.</li>
@@ -131,7 +131,7 @@
 
 
     {{-- sldie 5 --}}
-    <div class=" slide flex text-2xl !text-white flex-col items-center  text-start t-slide ">
+    <div class="flex !text-white flex-col items-center  text-start t-slide ">
         <div class="text-start">
             <h2 class=" t-title ">Things to consider during hands-on session:</h2>
             <ul class="list-disc ">
@@ -140,14 +140,14 @@
             </ul>
         </div>
 
-        <img class=" !text-end large-img2" src="{{ asset('/assets/images/K1/sm/balloon/ballon15.png') }}" />
+        <img class=" !text-end img-md" src="{{ asset('/assets/images/K1/sm/balloon/ballon15.png') }}" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
 
     {{-- sldie 6 --}}
-    <div class=" slide flex text-2xl !text-white flex-col items-center  text-start t-slide ">
+    <div class="flex !text-white flex-col items-center  text-start t-slide ">
         <div class="text-start">
             <h2 class=" t-title ">Things to consider during hands-on session:</h2>
             <ul class="list-disc ">
@@ -158,13 +158,13 @@
 
             </ul>
         </div>
-        <img class=" !text-end large-img2" src="{{ asset('/assets/images/K1/sm/balloon/ballon16.png') }}" />
+        <img class=" !text-end img-md" src="{{ asset('/assets/images/K1/sm/balloon/ballon16.png') }}" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- slide 7 --}}
-    <div class=" slide flex text-2xl !text-white flex-col items-center  text-start t-slide ">
+    <div class="flex !text-white flex-col items-center  text-start t-slide ">
         <div class="text-start">
             <h2 class=" t-title ">Things to consider during hands-on session:</h2>
             <ul class="list-disc ">
@@ -174,63 +174,67 @@
 
             </ul>
         </div>
-        <img class=" !text-end large-img2" src="{{ asset('/assets/images/K1/sm/balloon/ballon17.png') }}" />
+        <img class=" !text-end img-md" src="{{ asset('/assets/images/K1/sm/balloon/ballon17.png') }}" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
 
     {{-- slide 8 --}}
-    <div class="slide flex t-slide  flex-col  text-2xl text-start !text-white">
+    <div class=" t-slide text-start flex items-center !text-white !w-[53vw]">
         <div>
-            <h2 class="t-title">Notes:</h2>
-            <ul class="list-disc">
-                <li class="flex whitespace-nowrap">
-                    If you see
-                    <span class="info-btn">
+            <h2 class="t-title ">Notes:</h2>
+            <ul class="list-disc space-y-3">
+                <li>
+                    <span class="relative">
+                        If you see <span class="opacity-0">---</span>next to a picture, click on the picture to watch the
+                        video.
+                        <img class="t-video-btn absolute top-[-1vw] left-[7.6vw]"
+                            src="{{ asset('assets/images/pptimages/video.png') }}" />
+                    </span>
+                </li>
 
-                        <img src="{{ asset('assets/images/pptimages/video.png') }}" />
-                    </span>
-                    next to a picture, click on the picture to watch the video.
+                <li>
+                    Always ask questions to encourage children to think and share their ideas first before giving out
+                    any information.
                 </li>
-                <li class="flex whitespace-nowrap">
-                    If you see
-                    <span> <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="video-btn" />
-                    </span>
-                    , click on it for additional information or activity.
-                </li>
-                <li>Always ask questions to encourage children to think and share their ideas first before giving
-                    out
-                    any information.</li>
+
                 <li>Emphasise and use the keywords during hands-on sessions.</li>
-                <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
+
+                <li>
+                    Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
                 </li>
-                <li class="flex whitespace-nowrap">
-                    Click on this shortcut icon
-                    <span> <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" class="home-btn" />
+
+                <li>
+                    <span class="relative">
+                        Click on this shortcut icon <span class="opacity-0">---</span> if you need to go to some parts of
+                        the lesson quickly.
+                        <img src="{{ asset('assets/images/pptimages/home-btn.png') }}"
+                            class="t-home-btn absolute top-0 left-[19vw]" />
                     </span>
-                    if you need to go to some parts of the lesson quickly.
                 </li>
+
             </ul>
         </div>
+
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
 
     {{-- slide 9 --}}
-    <div class=" slide flex text-2xl !text-white flex-col items-center ">
-        <h2 class="title stroke ">Learning Centre Idea</h2>
-        <div class="text-start t-slide  flex flex-col gap-10">
+    <div class="flex !text-white flex-col justify-around t-slide">
+        <h2 class="title stroke !text-center">Learning Centre Idea</h2>
+        <div class="text-start">
+            <h2 class="!text-white text-[2vw] stroke">Poke a Play Dough Ball Machine</h2>
+            <h2 class="t-title">What and how to setup:</h2>
+            <p>Place things as listed in preparations here. For safety reasons,
+                replace the needle with a sharpened pencil and the balloon with a
+                ball of play dough.</p>
+        </div>
+        <div class="text-start">
+            <h2 class=" t-title  !text-white">What to do:</h2>
             <ul>
-                <h2 class=" t-title  !text-white">Poke a Play Dough Ball Machine</h2>
-                <li>Guide children to raise the rod (if needed) with the help of dominoes, so that
-                    the needle is aimed at the middle of the balloon
-                </li>
-            </ul>
-
-            <ul>
-                <h2 class=" t-title  !text-white">What to do:</h2>
                 <li>Set up a Rube Goldberg Machine that will always poke a ball of
                     play dough successfully.</li>
             </ul>
@@ -272,23 +276,17 @@
 
     {{-- next Button --}}
     <div class="down-btn-container">
-
         <button class="nextButton ">
             <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
-
         </button>
     </div>
-
-
-
-
 @endsection
 
 
 @push('script')
     <script>
         document.addEventListener("DOMContentLoaded", () => {
-            const slides = document.querySelectorAll(".slide");
+            const slides = document.querySelectorAll(".t-slide");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
             const doneButton = document.querySelector(".doneButton"); //   DONE button
@@ -334,7 +332,7 @@
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('K1simpleMachines') }}";
+                    window.location.href = "{{ route('BalloonSelection') }}";
                 });
             }
 

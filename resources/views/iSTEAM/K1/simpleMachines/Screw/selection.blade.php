@@ -9,7 +9,7 @@
 
 
     <div class=" flex items-center flex-col justify-center text-center z-[99]gap-y-[50px] w-full">
-        <h2 class="text-[50px] text-[#F7B94A] stroke">How Does a Screw Work?</h2>
+        <h2 class="text-[#F7B94A] stroke">How Does a Screw Work?</h2>
         <div class="flex items-center justify-around w-full">
 
             {{-- Lesson Button --}}

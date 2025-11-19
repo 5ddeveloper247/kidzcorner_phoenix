@@ -7,7 +7,7 @@
 
     {{-- Slide 1 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="{{ asset('assets/images/K1/sm/plane/plane1.png') }}" class="large-img4" />
+        <img src="{{ asset('assets/images/K1/sm/plane/plane1.png') }}" class="img-h-md" />
         <h2 class="title stroke">Do you know what this is?</h2>
 
     </div>
@@ -15,7 +15,7 @@
 
     {{-- Slide 2 --}}
     <div class="slide hidden flex flex-col items-center justify-center ">
-        <img src="{{ asset('assets/images/K1/sm/plane/plane1.png') }}" class="large-img4" />
+        <img src="{{ asset('assets/images/K1/sm/plane/plane1.png') }}" class="img-h-md" />
         <h2 class="title stroke">This is a <span class="!text-white">ramp.</span> It is a slanting surface
             with one end higher than the other end.</h2>
     </div>
@@ -23,7 +23,7 @@
 
     {{-- Slide3 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="{{ asset('assets/images/K1/sm/plane/plane1.png') }}" class="large-img4" />
+        <img src="{{ asset('assets/images/K1/sm/plane/plane1.png') }}" class="img-h-md" />
         <h2 class="title stroke">The <span class="!text-white">ramp.</span> looks like a slope.
             It is a <span class="!text-white">simple machine</span> called an <span class="!text-white"> inclined
                 plane</span>.</h2>
@@ -54,7 +54,7 @@
 
     {{-- slide 6 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="{{ asset('assets/images/K1/sm/plane/plane1.png') }}" class="large-img4" />
+        <img src="{{ asset('assets/images/K1/sm/plane/plane1.png') }}" class="img-h-md" />
         <h2 class="title stroke">The <span class="!text-white">inclined plane </span> allows us to move heavy things
             up or down a place easily.</h2>
     </div>
@@ -72,7 +72,7 @@
 
     {{-- sldie 8 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="{{ asset('assets/images/K1/sm/plane/plane2.png') }}" />
+        <img src="{{ asset('assets/images/K1/sm/plane/plane2.png') }}" class="img-md" />
         <h2 class="title stroke">Where is the inclined plane? What does it do?
             Who usually uses it?</h2>
 
@@ -82,7 +82,7 @@
 
     {{-- sldie 9 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="{{ asset('assets/images/K1/sm/plane/plane2.png') }}" />
+        <img src="{{ asset('assets/images/K1/sm/plane/plane2.png') }}" class="img-md" />
         <h2 class="title stroke">This inclined plane allows us to move down or slide
             down the slide smoothly for fun!</h2>
 
@@ -91,7 +91,7 @@
 
     {{-- sldie 10 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="{{ asset('assets/images/K1/sm/plane/plane3.png') }}" />
+        <img src="{{ asset('assets/images/K1/sm/plane/plane3.png') }}" class="img-md" />
         <h2 class="title stroke">Where is the inclined plane? What does it do?
             Who usually uses it?</h2>
 
@@ -101,7 +101,7 @@
 
     {{-- sldie 11 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="{{ asset('assets/images/K1/sm/plane/plane3.png') }}" />
+        <img src="{{ asset('assets/images/K1/sm/plane/plane3.png') }}" class="img-md" />
         <h2 class="title stroke">This inclined plane allows us to move the bicycle up or down a
             place easily. We use less strength to do the work.</h2>
 
@@ -111,7 +111,7 @@
 
     {{-- sldie 12 --}}
     <div class=" slide hidden flex flex-col items-center justify-center 0">
-        <img src="{{ asset('assets/images/K1/sm/plane/plane4.png') }}" />
+        <img src="{{ asset('assets/images/K1/sm/plane/plane4.png') }}" class="img-md" />
         <h2 class="title stroke">Where is the inclined plane? What does it do?
             Who usually uses it?</h2>
 
@@ -120,7 +120,7 @@
 
     {{-- sldie 13 --}}
     <div class=" slide hidden flex flex-col items-center justify-center ">
-        <img src="{{ asset('assets/images/K1/sm/plane/plane4.png') }}" />
+        <img src="{{ asset('assets/images/K1/sm/plane/plane4.png') }}" class="img-md" />
         <h2 class="title stroke">This inclined plane allows us to pour the sand or rocks out easily
             from the dump truck. We use less strength to do the work.</h2>
     </div>
@@ -129,7 +129,7 @@
 
     {{-- sldie 14 --}}
     <div class=" slide hidden flex flex-col items-center justify-center ">
-        <video id="video1" class="pointer-events-none">
+        <video id="video1" class="pointer-events-none video-md">
             <source src="{{ asset('assets/images/K1/sm/7.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -145,7 +145,7 @@
 
     {{-- sldie 15 --}}
     <div class=" slide hidden flex flex-col items-center justify-center ">
-        <img src="{{ asset('assets/images/K1/sm/plane/plane6.png') }}" />
+        <img src="{{ asset('assets/images/K1/sm/plane/plane6.png') }}" class="img-md" />
         <h2 class="title stroke">Where is the inclined plane? What does it do?
             Who usually uses it?</h2>
 
@@ -154,7 +154,7 @@
 
     {{-- sldie 16 --}}
     <div class=" slide hidden flex flex-col items-center justify-center ">
-        <img src="{{ asset('assets/images/K1/sm/plane/plane6.png') }}" />
+        <img src="{{ asset('assets/images/K1/sm/plane/plane6.png') }}" class="img-md" />
         <h2 class="title stroke">This inclined plane allows us to passengers in wheelchairs up or
             down a bus easily. We use less strength to do the work.</h2>
 
@@ -163,7 +163,7 @@
 
     {{-- sldie 17 --}}
     <div class=" slide hidden flex flex-col items-center justify-center ">
-        <img src="{{ asset('assets/images/K1/sm/plane/plane7.png') }}" />
+        <img src="{{ asset('assets/images/K1/sm/plane/plane7.png') }}" class="img-md" />
         <h2 class="title stroke">Where is the inclined plane? What does it do?
             Who usually uses it?</h2>
     </div>
@@ -171,7 +171,7 @@
 
     {{-- sldie 18 --}}
     <div class=" slide hidden flex flex-col items-center justify-center ">
-        <img src="{{ asset('assets/images/K1/sm/plane/plane1.png') }}" class="large-img4" />
+        <img src="{{ asset('assets/images/K1/sm/plane/plane1.png') }}" class="img-h-md" />
         <h2 class="title stroke">This inclined plane allows us to move heavy things up or down
             a truck easily. We use less strength to do the work.</h2>
 
@@ -181,7 +181,7 @@
 
     {{-- sldie 19 --}}
     <div class=" slide hidden flex flex-col items-center justify-center ">
-        <img src="{{ asset('assets/images/K1/sm/plane/plane8.png') }}" class="large-img2" />
+        <img src="{{ asset('assets/images/K1/sm/plane/plane8.png') }}" class="img-md" />
         <h2 class="title stroke">What is this? Where can you find it? Where is the inclined
             plane? What does it do? Who usually uses it?</h2>
     </div>
@@ -189,7 +189,7 @@
 
     {{-- sldie 20 --}}
     <div class=" slide hidden flex flex-col items-center justify-center ">
-        <img src="{{ asset('assets/images/K1/sm/plane/plane8.png') }}" class="large-img2" />
+        <img src="{{ asset('assets/images/K1/sm/plane/plane8.png') }}" class="img-md" />
         <h2 class="title stroke">This inclined plane allows us to move heavy things up or down
             a truck easily. We use less strength to do the work.</h2>
 
@@ -199,7 +199,7 @@
 
     {{-- sldie 21 --}}
     <div class=" slide hidden flex flex-col items-center justify-center ">
-        <img src="{{ asset('assets/images/K1/sm/plane/plane9.png') }}" />
+        <img src="{{ asset('assets/images/K1/sm/plane/plane9.png') }}" class="img-xl" />
 
         <div class="text-start">
 
@@ -220,7 +220,7 @@
 
         <h2 class="title stroke">Which height of the inclined plane do you think
             will make the car go the longest distance?</h2>
-        <img src="{{ asset('assets/images/K1/sm/plane/plane10.png') }}" class="large-img2" />
+        <img src="{{ asset('assets/images/K1/sm/plane/plane10.png') }}" class="img-sm" />
         <p class="note">Note: Plot children's prediction on the graph. At the end, put a star to mark the final result.
         </p>
 
@@ -240,7 +240,7 @@
                     goes. Use a sticky note to mark the result on the measuring mat.</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K1/sm/plane/plane11.png') }}" />
+        <img src="{{ asset('assets/images/K1/sm/plane/plane11.png') }}" class="img-xl" />
 
     </div>
 
@@ -254,7 +254,7 @@
                 <li> 2. Change the height of the inclined plane and test again.</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K1/sm/plane/plane12.png') }}" />
+        <img src="{{ asset('assets/images/K1/sm/plane/plane12.png') }}" class="img-lg" />
 
 
     </div>
@@ -262,7 +262,7 @@
 
     {{-- sldie 25 --}}
     <div class=" slide hidden flex flex-col items-center justify-center ">
-        <img src="{{ asset('assets/images/K1/sm/plane/plane13.png') }}" class="large-img2" />
+        <img src="{{ asset('assets/images/K1/sm/plane/plane13.png') }}" class="img-md" />
         <div class="text-start">
 
             <h2 class="title stroke">What do you observe (Result):</h2>
@@ -278,7 +278,7 @@
 
     {{-- sldie 26 --}}
     <div class=" slide hidden flex flex-col items-center justify-center ">
-        <img src="{{ asset('assets/images/K1/sm/plane/plane13.png') }}" class="large-img2" />
+        <img src="{{ asset('assets/images/K1/sm/plane/plane13.png') }}" class="img-md" />
         <div class="text-start">
 
             <h2 class="title stroke">What do you observe (Result):</h2>
@@ -295,11 +295,11 @@
         <div class="text-start">
 
             <h2 class="title stroke">Let’s do (Experiment Procedure):</h2>
-            <ul class="lesson-ul title stroke list-decimal  !list-none">
-                <li> 3.Make conclusions based on your results.</li>
-            </ul>
+            <ol class="lesson-ul title stroke list-decimal  !list-none" start="3">
+                <li> Make conclusions based on your results.</li>
+            </ol>
         </div>
-        <img src="{{ asset('assets/images/K1/sm/plane/plane14.png') }}" />
+        <img src="{{ asset('assets/images/K1/sm/plane/plane14.png') }}" class="img-xl" />
     </div>
 
 
@@ -317,7 +317,7 @@
 
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K1/sm/plane/plane15.png') }}" />
+        <img src="{{ asset('assets/images/K1/sm/plane/plane15.png') }}" class="img-xl" />
     </div>
 
 
@@ -331,7 +331,7 @@
 
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K1/sm/plane/plane15.png') }}" />
+        <img src="{{ asset('assets/images/K1/sm/plane/plane15.png') }}" class="img-xl" />
     </div>
 
 
@@ -362,9 +362,9 @@
             <img src="{{ asset('assets/images/K1/sm/plane/plane17.png') }}" />
 
             <div class="flex justify-around">
-                <img src="{{ asset('assets/images/K1/sm/plane/plane18.png') }}" />
-                <img src="{{ asset('assets/images/K1/sm/plane/plane18.png') }}" />
-                <img src="{{ asset('assets/images/K1/sm/plane/plane18.png') }}" />
+                <img src="{{ asset('assets/images/K1/sm/plane/plane18.png') }}" class="img-tiny" />
+                <img src="{{ asset('assets/images/K1/sm/plane/plane18.png') }}" class="img-tiny" />
+                <img src="{{ asset('assets/images/K1/sm/plane/plane18.png') }}" class="img-tiny" />
             </div>
         </div>
     </div>
@@ -434,7 +434,7 @@
 
             // ROUTES
             const returnRouteFromFirstSlide = "{{ route('PlaneSelection') }}";
-            const doneButtonRoute = "{{ route('PlaneSelection') }}";
+            const doneButtonRoute = "{{ route('K1simpleMachines') }}";
 
             // Pause all videos when changing slides
             function pauseAllVideos() {

@@ -176,7 +176,7 @@
     </div>
 
     {{-- slide 17 --}}
-    <div class="slide hidden flex flex-col items-center justify-center">
+    <div class="slide hidden flex flex-col items-center justify-between h-[28vw]">
         <h2 class="title stroke !text-white">Class Activity </h2>
         <img src="{{ asset('assets/images/K2/livingthings/pthings/p30.png') }}" class="img-xl" />
         <div class="self-start title stroke">
@@ -201,8 +201,8 @@
         <div class="relative">
             <h2 class="title stroke">Let’s do:</h2>
             <img src="{{ asset('assets/images/K2/livingthings/pthings/p6.png') }}" class="img-xl" />
-            <button class="info-btn1 absolute top-[23%] right-[33%] ">
-                <img src="{{ asset('assets/images/K2/sustain/energy1/information.png') }}" class="!max-w-[3.2vw]" />
+            <button class="info-btn1 absolute top-[23%] right-[34%] ">
+                <img src="{{ asset('assets/images/K2/sustain/energy1/information.png') }}" class="!w-[3.5vw]" />
             </button>
         </div>
         <p class="note">Note: Guide children to discuss each point and check if their prediction is correct;
@@ -227,7 +227,7 @@
 
     {{-- =====2 --}}
     <div class="slide info-slide1 flex flex-col items-center justify-center  ">
-        <video id="video2" class=" pointer-events-none">
+        <video id="video2" class=" pointer-events-none video-md">
             <source src="{{ asset('assets/images/K2/videos/178.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -256,7 +256,7 @@
 
     {{-- ====4 --}}
     <div class="slide info-slide1 flex flex-col items-center justify-center  ">
-        <video id="video4" class=" pointer-events-none">
+        <video id="video4" class=" pointer-events-none video-md">
             <source src="{{ asset('assets/images/K2/videos/180.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -271,65 +271,268 @@
 
 
 
-
-
-
-    {{-- slide 20 --}}
-    <div class="slide hidden flex flex-col items-center justify-center">
-        <div>
-            <h2 class="title stroke">Let’s do:</h2>
-            <img src="{{ asset('assets/images/K2/livingthings/pthings/p7.png') }}" class="img-xl" />
+    {{-- ============================================ --}}
+    {{-- Slide 20 --}}
+    <div class="slide hidden flex flex-col items-center justify-center ">
+        <div class="self-start">
+            <h2 class="text-start title stroke">Let’s do:</h2>
         </div>
+        <img src="/assets/images/K2/livingthings/pthings/p7.png" class="img-xl" />
         <p class="note">Note: Guide children to discuss each point and check if their prediction is correct;
             if wrong, correct with a red crayon.</p>
     </div>
 
 
-    {{-- slide 21 --}}
-    <div class="slide hidden flex flex-col items-center justify-center">
-        <h2 class="title stroke">Let’s do:</h2>
-        <img src="{{ asset('assets/images/K2/livingthings/pthings/p5.png') }}" class="img-xl" />
-        <p class="note">Note: Have children use the learning journal to fill in their prediction.</p>
+    {{-- Slide 21 --}}
+    <div class="slide hidden flex flex-col items-center justify-center ">
+        <div class="self-start">
+            <h2 class="text-start title stroke">Let’s do:</h2>
+        </div>
+        <div class="relative">
+            <img src="/assets/images/K2/livingthings/pthings/p8.png" class="img-xl" />
+            <button class="info-btn2 absolute top-[43%] right-[35%] ">
+                <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="!w-[3.2vw]" />
+            </button>
+        </div>
+        <p class="note">Note: Guide children to discuss each point and check if their prediction is correct;
+            if wrong, correct with a red crayon.</p>
     </div>
-    {{-- slide 18 --}}
-    <div class="slide hidden flex flex-col items-center justify-center">
-        <h2 class="title stroke">Let’s do:</h2>
-        <img src="{{ asset('assets/images/K2/livingthings/pthings/p5.png') }}" class="img-xl" />
-        <p class="note">Note: Have children use the learning journal to fill in their prediction.</p>
+
+    {{-- clcik slides --}}
+    {{-- 1 --}}
+    <div class="slide hidden info-slide2  flex flex-col items-center justify-start  ">
+        <img src="/assets/images/N2/livingThings/lt61.png" class="img-lg" />
+        <h2 class="title stroke">Plants need food to grow. <br>
+            Where do they get their food from?</h2>
+    </div>
+    {{-- 2 --}}
+    <div class="slide hidden info-slide2  flex flex-col items-center justify-start  ">
+        <img src="/assets/images/N2/livingThings/lt80.png" class="img-md" />
+        <h2 class="title stroke">Plants make their own food to grow. <br>
+            Their leaves use water, nutrients from the soil, <br>
+            air and sunlight to make food.</h2>
+    </div>
+    {{-- ========= --}}
+
+    {{-- slide 22 --}}
+    <div class="slide hidden flex flex-col items-center justify-center ">
+        <div class="self-start">
+            <h2 class="text-start title stroke">Let’s do:</h2>
+        </div>
+        <div class="relative">
+            <img src="/assets/images/K2/livingthings/pthings/p9.png" />
+            <span class="info-btn3 absolute top-[57%] right-[35%] ">
+                <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="!w-[3.2vw]" />
+            </span>
+        </div>
+        <p class="note">Note: Guide children to discuss each point and check if their prediction is correct;
+            if wrong, correct with a red crayon.</p>
+    </div>
+
+    {{-- clcik slides --}}
+    {{-- 1 --}}
+    <div class="slide hidden info-slide3  flex flex-col items-center justify-start  ">
+        <img src="/assets/images/K2/livingthings/pthings/p13.png" class="img-md" />
+        <h2 class="title stroke">Do you know that plants breathe air like we do? </h2>
+        <p class="note">Note: Encourage children to guess how do plants breathe.</p>
+    </div>
+    {{-- 2 --}}
+    <div class="slide hidden info-slide3  flex flex-col items-center justify-start  ">
+        <img src="/assets/images/K2/livingthings/pthings/p14.png" class="img-md" />
+        <h2 class="title stroke">Here is an experiment that can prove plants do breathe air.</h2>
+    </div>
+    {{-- 3 --}}
+    <div class="slide hidden info-slide3  flex flex-col items-center justify-start  ">
+        <div class="title stroke text-start">
+            <h3>How to do the experiment</h3>
+            <ul class="list-decimal">
+                <li>Fill a large clear bowl with lukewarm water.</li>
+                <li>Pluck a big leaf from a plant and put it inside the bowl.</li>
+                <li>Put a stone or marble on top of the leaf so the leaf is fully submerged under the water.</li>
+                <li>Place the bowl in a sunny spot.</li>
+                <li>Check and observe the leaf every hour for a few times.</li>
+            </ul>
+        </div>
+        <p class="note">Note: This experiment takes a few hours to see the result and some leaves need even longer time
+            to see
+            the result. If you want to do this experiment in the class, try out with a few types of leaves beforehand
+            and decide one that enable you to see the result faster.</p>
+    </div>
+    {{-- 4 --}}
+    <div class="slide hidden info-slide3  flex flex-col items-center justify-start  ">
+        <img src="/assets/images/K2/livingthings/pthings/p15.png" class="img-md" />
+        <h2 class="title stroke">What will happen if you pluck a big leaf from a plant and put
+            it inside a clear bowl filled with lukewarm water?</h2>
+    </div>
+    {{-- 5 --}}
+    <div class="slide hidden info-slide3  flex flex-col items-center justify-start  ">
+        <img src="/assets/images/K2/livingthings/pthings/p16.png" class="img-lg" />
+        <h2 class="title stroke">What will happen if you pluck a big leaf from a plant and put
+            it inside a clear bowl filled with lukewarm water?</h2>
+    </div>
+    {{-- 6 --}}
+    <div class="slide hidden info-slide3  flex flex-col items-center justify-start  ">
+        <img src="/assets/images/K2/livingthings/pthings/p17.png" class="img-md" />
+        <h2 class="title stroke">What will happen if you hold your breath under water in a
+            swimming pool and then let the breath out?</h2>
+    </div>
+    {{-- 7 --}}
+    <div class="slide hidden info-slide3  flex flex-col items-center justify-start  ">
+        <img src="/assets/images/K2/livingthings/pthings/p18.png" class="img-lg" />
+        <h2 class="title stroke">Through the experiment, we know that plants do breathe air
+            like we do!</h2>
+    </div>
+    {{-- =========== --}}
+
+    {{-- slide 23 --}}
+    <div class="slide hidden flex flex-col items-center justify-center ">
+        <div class="self-start">
+            <h2 class="text-start title stroke">Let’s do:</h2>
+        </div>
+        <div class="relative">
+            <img src="/assets/images/K2/livingthings/pthings/p10.png" class="img-xl" />
+            <span class="info-btn4 absolute top-[68%] right-[35%] ">
+                <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="!w-[3.2vw]" />
+            </span>
+        </div>
+        <p class="note">Note: Guide children to discuss each point and check if their prediction is correct;
+            if wrong, correct with a red crayon.</p>
+    </div>
+
+    {{-- 1 --}}
+    <div class="slide hidden info-slide4  flex flex-col items-center justify-start  ">
+        <video id="video5" class=" pointer-events-none">
+            <source src="{{ asset('assets/images/K2/videos/181.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <h2 class="title stroke">Do you know how plants grow? </h2>
+        <p class="note">Note: Encourage children to describe how a big plant grow from a small seed.</p>
+        <!-- Video Trigger Button -->
+        <div onclick="toggleVideo('video5')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
+        </div>
+    </div>
+    {{-- 2 --}}
+    <div class="slide hidden info-slide4  flex flex-col items-center justify-start  ">
+        <img src="/assets/images/K2/livingthings/pthings/p20.png" class="img-lg" />
+        <h2 class="title stroke">Do you think the seeds that you have planted
+            go through the similar growing process?</h2>
+    </div>
+    {{-- 3 --}}
+    <div class="slide hidden info-slide4  flex flex-col items-center justify-start  ">
+        <video id="video6" class=" pointer-events-none">
+            <source src="{{ asset('assets/images/K2/videos/169.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <h2 class="title stroke">This is the growing process of a sample seed.</h2>
+        <!-- Video Trigger Button -->
+        <div onclick="toggleVideo('video6')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
+        </div>
     </div>
 
 
 
+    {{-- slide 24 --}}
+    <div class="slide hidden flex flex-col items-center justify-center ">
+        <div class="self-start">
+            <h2 class="text-start title stroke">Let’s do:</h2>
+        </div>
+        <div class="relative">
+            <img src="/assets/images/K2/livingthings/pthings/p11.png" class="img-xl" />
+            <span class="info-btn5 absolute bottom-[2%] right-[35%] ">
+                <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="!w-[3.2vw]" />
+            </span>
+        </div>
+        <p class="note">Note: Guide children to discuss each point and check if their prediction is correct;
+            if wrong, correct with a red crayon.</p>
+    </div>
+
+    {{-- 1 --}}
+    <div class="slide hidden info-slide5  flex flex-col items-center justify-start  ">
+        <video id="video7" class=" pointer-events-none">
+            <source src="{{ asset('assets/images/K2/videos/182.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <h2 class="title stroke">How does an apple seed turn into a big tree?</h2>
+        <p class="note">Note: Encourage children to describe the life cycle of an apple tree.</p>
+        <!-- Video Trigger Button -->
+        <div onclick="toggleVideo('video7')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
+        </div>
+    </div>
+    {{-- 2 --}}
+    <div class="slide hidden info-slide5  flex flex-col items-center justify-start  ">
+        <video id="video8" class=" pointer-events-none">
+            <source src="{{ asset('assets/images/K2/videos/182.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <h2 class="title stroke">In fact, many plants produce seeds,
+            which will grow into new plants.</h2>
+        <!-- Video Trigger Button -->
+        <div onclick="toggleVideo('video8')" class="absolute top-1/2 right-[-10vw] z-30 -translate-y-1/2 video-btn">
+            <img src="/assets/images/pptimages/video.png" />
+        </div>
+    </div>
 
 
+    {{-- slide 25 --}}
+    <div class="slide hidden flex flex-col items-center justify-center ">
+        <div class="self-start">
+            <h2 class="text-start title stroke">Let’s do:</h2>
+        </div>
+        <img src="/assets/images/K2/livingthings/pthings/p12.png" class="img-xl" />
+        <p class="note">Note: Guide children to conclude from the table and circle the answer.</p>
+    </div>
 
+    {{-- slide 26 --}}
+    <div class="slide hidden flex flex-col items-center justify-center 0">
+        <h2 class="text-start title stroke"> <span class="!text-white">What do you learn:</span> <br>
+            Are plants living or non-living things? <br>
+            How do you know that?</h2>
+        <p class="note">Note: Encourage children to answer based on their conclusions.</p>
+    </div>
 
+    {{-- slide 27 --}}
+    <div class="slide hidden flex flex-col items-center">
+        <div class="flex items-center  ">
+            <div class="title stroke text-start">
+                <h2>All plants...</h2>
+                <ul class="!text-white">
+                    <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}"
+                            class="!max-w-[2.4vw]" />
+                        <p> Move on their own</p>
+                    </li>
+                    <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}"
+                            class="!max-w-[2.4vw]" />
+                        <p> Drink</p>
+                    </li>
+                    <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}"
+                            class="!max-w-[2.4vw]" />
+                        <p>Eat</p>
+                    </li>
+                    <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}"
+                            class="!max-w-[2.4vw]" />
+                        <p> Breath (need air)</p>
+                    </li>
+                    <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}"
+                            class="!max-w-[2.4vw]" />
+                        <p> Grow (get bigger)</p>
+                    </li>
+                </ul>
+                <h2>Therefore, plants are living things.</h2>
+            </div>
+            <img src="{{ asset('assets/images/K2/livingthings/pthings/p22.png') }}" class="img-sm" />
+        </div>
+    </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    {{-- Slide 28 --}}
-    <div class="slide hidden flex flex-col items-center justify-center">
+    {{-- slide 28 --}}
+    <div class="slide hidden flex flex-col items-center justify-center 0">
         <img src="{{ asset('assets/images/K2/livingthings/pthings/p23.png') }}" class="img-lg" />
         <h2 class="text-start title stroke">In fact, we live in the world that is made up of both
             living and non-living things.</h2>
     </div>
+
 
     {{-- Slide 29 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
@@ -365,18 +568,18 @@
     {{-- Slide 32 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
         <h2 class="title stroke !text-white">Learning Journal</h2>
-        <div class="bg-cover bg-center flex flex-col justify-center items-center"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center flex flex-col justify-center items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
-            <img src="{{ asset('assets/images/K2/livingthings/pthings/p25.png') }}" class="!max-w-[42vw]" />
+            <img src="{{ asset('assets/images/K2/livingthings/pthings/p25.png') }}" />
         </div>
     </div>
 
     {{-- Slide 33 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
         <h2 class="title stroke !text-white">Learning Journal</h2>
-        <div class="bg-cover bg-center flex flex-col justify-start items-center"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center flex flex-col justify-start items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
-            <img src="{{ asset('assets/images/K2/livingthings/pthings/p26.png') }}" class="!max-w-[42vw]" />
+            <img src="{{ asset('assets/images/K2/livingthings/pthings/p26.png') }}" />
         </div>
     </div>
 

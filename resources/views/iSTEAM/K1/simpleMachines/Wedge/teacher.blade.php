@@ -6,7 +6,7 @@
     <h2 class="top-title stroke">What is a Wedge?</h2>
 
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl !text-white flex-col justify-start text-start t-slide">
+    <div class="flex !text-white flex-col justify-around text-start t-slide">
         <div>
             <h2 class=" t-title">Children will be able :</h2>
             <ul class="list-disc ">
@@ -34,7 +34,7 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl !text-white flex-col justify-start items-center text-start t-slide">
+    <div class="flex !text-white flex-col justify-start items-center text-start t-slide">
         <div>
             <h2 class="t-title  !text-white">Preparations for Activity 1 and 2:</h2>
             <ul class="list-disc ">
@@ -43,13 +43,13 @@
 
             </ul>
         </div>
-        <img src="{{ asset('/assets/images/K1/sm/wedge/w1.png') }}" class="large-img" />
+        <img src="{{ asset('/assets/images/K1/sm/wedge/w1.png') }}" class="img-md" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl !text-white flex-col justify-start  text-start t-slide">
+    <div class="flex !text-white flex-col justify-start items-center  text-start t-slide">
         <div>
             <h2 class="t-title  !text-white">Preparations for Activity 3:</h2>
             <ul class="list-disc ">
@@ -58,13 +58,13 @@
 
             </ul>
         </div>
-        <img src="{{ asset('/assets/images/K1/sm/wedge/w25.png') }}" class="large-img" />
+        <img src="{{ asset('/assets/images/K1/sm/wedge/w25.png') }}" class="img-md" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- sldie 4 --}}
-    <div class=" slide flex text-2xl !text-white flex-col justify-start  text-start t-slide">
+    <div class="flex !text-white flex-col justify-start items-center  text-start t-slide">
         <div>
             <h2 class="t-title  !text-white">Preparations for Activity 4:</h2>
             <ul class="list-disc ">
@@ -73,7 +73,7 @@
 
             </ul>
         </div>
-        <img src="{{ asset('/assets/images/K1/sm/wedge/w29.png') }}" class="large-img"/>
+        <img src="{{ asset('/assets/images/K1/sm/wedge/w29.png') }}" class="img-md" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
@@ -81,73 +81,78 @@
 
     {{-- slide 5 --}}
 
-    <div class=" slide flex text-2xl !text-white flex-col justify-start  text-start t-slide">
+    <div class="flex !text-white flex-col justify-start items-center  text-start t-slide">
         <div>
             <h2 class="t-title  !text-white">Preparations for Activity 5:</h2>
             <ul class="list-disc ">
                 <li>1 cardboard</li>
             </ul>
         </div>
-        <img src="{{ asset('/assets/images/K1/sm/wedge/w32.png') }}" class="large-img" />
+        <img src="{{ asset('/assets/images/K1/sm/wedge/w32.png') }}" class="img-md" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- sldie 6 --}}
-    <div class=" slide hidden flex flex-col  items-center justify-center ">
-        <h2 class="title stroke ">Is it easier to move this block forward with its pointed side or its flat side?</h2>
-        <img src="{{ asset('/assets/images/K1/sm/wedge/w21.png') }}" class="large-img" />
+    <div class=" t-slide hidden flex flex-col  items-center justify-center ">
+        <h2 class="text-[#F7B94A] !text-[2vw] stroke ">Is it easier to move this block forward with its pointed side or its
+            flat side?</h2>
+        <img src="{{ asset('/assets/images/K1/sm/wedge/w21.png') }}" class="img-sm" />
         <p class=" note">Note: Plot children's prediction on the graph. At the end, put a star to mark the final result.
         </p>
     </div>
 
 
     {{-- sldie 7 --}}
-    <div class="slide flex t-slide  flex-col  text-2xl text-start !text-white">
+    <div class=" t-slide text-start flex items-center !text-white !w-[53vw]">
         <div>
-            <h2 class="t-title">Notes:</h2>
-            <ul class="list-disc">
-                <li class="flex whitespace-nowrap">
-                    If you see
-                    <span class="info-btn">
+            <h2 class="t-title ">Notes:</h2>
+            <ul class="list-disc space-y-3">
+                <li>
+                    <span class="relative">
+                        If you see <span class="opacity-0">---</span>next to a picture, click on the picture to watch the
+                        video.
+                        <img class="t-video-btn absolute top-[-1vw] left-[7.6vw]"
+                            src="{{ asset('assets/images/pptimages/video.png') }}" />
+                    </span>
+                </li>
+                <li>
+                    Always ask questions to encourage children to think and share their ideas first before giving out
+                    any information.
+                </li>
 
-                        <img src="{{ asset('assets/images/pptimages/video.png') }}" />
-                    </span>
-                    next to a picture, click on the picture to watch the video.
-                </li>
-                <li class="flex whitespace-nowrap">
-                    If you see
-                    <span> <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="video-btn" />
-                    </span>
-                    , click on it for additional information or activity.
-                </li>
-                <li>Always ask questions to encourage children to think and share their ideas first before giving
-                    out
-                    any information.</li>
                 <li>Emphasise and use the keywords during hands-on sessions.</li>
-                <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
+
+                <li>
+                    Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
                 </li>
-                <li class="flex whitespace-nowrap">
-                    Click on this shortcut icon
-                    <span> <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" class="home-btn" />
+
+                <li>
+                    <span class="relative">
+                        Click on this shortcut icon <span class="opacity-0">---</span> if you need to go to some parts of
+                        the lesson quickly.
+                        <img src="{{ asset('assets/images/pptimages/home-btn.png') }}"
+                            class="t-home-btn absolute top-0 left-[19vw]" />
                     </span>
-                    if you need to go to some parts of the lesson quickly.
                 </li>
+
             </ul>
         </div>
+
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
 
 
+
     {{-- sldie 8 --}}
-    <div class=" slide flex text-2xl !text-white flex-col justify-center items-center text-start t-slide">
+    <div class="flex !text-white flex-col justify-center items-center text-start t-slide">
         <h2 class="title stroke !text-center">Learning Centre Idea</h2>
         <div class="text-start">
-            <h2 class="t-title">Fun with Wedges</h2>
+            <h2 class="text-[2vw] text-white stroke">Fun with Wedges</h2>
+            <h2 class="t-title">What and how to set up:</h2>
             <ul>
-                <li>What and how to set up:</li>
                 <li>Place things as listed in preparations and some other things such as</li>
                 <li>plastic knives, safety scissors and blocks with different shapes.</li>
             </ul>
@@ -157,12 +162,12 @@
 
 
     {{-- slide 7 --}}
-    <div class=" slide flex text-2xl !text-white flex-col justify-start items-center text-start t-slide">
+    <div class="flex !text-white flex-col justify-start items-center text-start t-slide">
         <h2 class="title stroke !text-center">Learning Centre Idea</h2>
         <div class="text-start">
-            <h2 class="t-title">Fun with Wedges</h2>
+            <h2 class="text-[2vw] text-white stroke">Fun with Wedges</h2>
+            <h2 class="t-title">What to do:</h2>
             <ul>
-                <li class="t-title">What to do:</li>
                 <li>1. Test out which block can be easily pushed into sand, water and play dough</li>
                 <li>2. Test out which block can easily move through sand and water.</li>
                 <li>3. Test out how you can move a cardboard easily in air.</li>
@@ -215,7 +220,7 @@
 @push('script')
     <script>
         document.addEventListener("DOMContentLoaded", () => {
-            const slides = document.querySelectorAll(".slide");
+            const slides = document.querySelectorAll(".t-slide");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
             const doneButton = document.querySelector(".doneButton"); //  DONE button
@@ -261,7 +266,7 @@
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('K1simpleMachines') }}";
+                    window.location.href = "{{ route('WedgeSelection') }}";
                 });
             }
 

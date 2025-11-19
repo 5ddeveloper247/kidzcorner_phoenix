@@ -7,7 +7,7 @@
 
 
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start">
+    <div class="flex !text-white flex-col t-slide justify-around  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -42,7 +42,7 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start">
+    <div class="flex !text-white flex-col t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
@@ -51,13 +51,13 @@
             </ul>
         </div>
 
-        <img src="{{ asset('assets/images/K1/coding/go/go24.png') }}" alt="Teacher" class="w-img" />
+        <img src="{{ asset('assets/images/K1/coding/go/go24.png') }}" alt="Teacher" class="img-sm" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start">
+    <div class="flex !text-white flex-col t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
@@ -68,13 +68,13 @@
                     make sure that both the strips are laid from the same starting line]</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K1/coding/cd/cd14.png') }}" alt="Teacher" class="w-img" />
+        <img src="{{ asset('assets/images/K1/coding/cd/cd14.png') }}" alt="Teacher" class="img-sm" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- slide 4 --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start">
+    <div class="flex !text-white flex-col t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
@@ -83,15 +83,15 @@
             </ul>
         </div>
         <div class="flex items-center gap-[1vw]">
-            <img src="{{ asset('assets/images/K1/coding/go/go25.png') }}" alt="Teacher" class="w-img" />
-            <img src="{{ asset('assets/images/K1/coding/go/go26.png') }}" alt="Teacher" class="w-img" />
+            <img src="{{ asset('assets/images/K1/coding/go/go25.png') }}" alt="Teacher" class="img-sm" />
+            <img src="{{ asset('assets/images/K1/coding/go/go26.png') }}" alt="Teacher" class="img-sm" />
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- sldie 5 --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start">
+    <div class="flex !text-white flex-col t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
@@ -101,7 +101,7 @@
             </ul>
         </div>
 
-        <img src="{{ asset('assets/images/K1/coding/cd/cd13.png') }}" alt="Teacher" class="w-img" />
+        <img src="{{ asset('assets/images/K1/coding/cd/cd13.png') }}" alt="Teacher" class="img-sm" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
@@ -110,7 +110,7 @@
 
 
     {{-- sldie 6 --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start gap-y-15 text-start">
+    <div class="flex !text-white flex-col t-slide justify-start gap-y-15 text-start">
         <div>
             <h2 class=" t-title">Reminders or advice during hands-on session:</h2>
             <ul class="list-disc ">
@@ -134,57 +134,74 @@
     </div>
 
     {{-- slide 16 --}}
-    <div class="slide flex  flex-col t-slide justify-start  text-2xl text-start !text-white">
-            <div>
-                <h2 class=" t-title">Notes:</h2>
-                <ul class="list-disc leading-relaxed">
-                    <li class="flex">
-                        If you see
-                        <span>
-                            <img src="{{ asset('assets/images/pptimages/video.png') }}" />
-                        </span>
-                        next to a picture, click on the picture to watch the video.
-                    </li>
-                    <li>Emphasise and use the keywords during hands-on sessions.</li>
-                    <li class="text-[#F7B94A]">The fundamental skill of coding or programming is ability to
-                        differentiate and navigate self to move forward, backward, turn left
-                        and turn right. If children are not ready, play more related games to
-                        improve the skill.</li>
-                    <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
-                    </li>
-                    <li class="flex">
-                        Click on this shortcut icon
-                       <span>
-                            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" class="home-btn" />
-                        </span>
-                        if you need to go to some parts of the lesson quickly.
-                    </li>
-                </ul>
-            </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
+    <div class=" t-slide text-start flex items-center !text-white !w-[53vw]">
+        <div>
+            <h2 class="t-title ">Notes:</h2>
+            <ul class="list-disc space-y-3">
+                <li>
+                    <span class="relative">
+                        If you see <span class="opacity-0">---</span>next to a picture, click on the picture to watch the
+                        video.
+                        <img class="t-video-btn absolute top-[-1vw] left-[7.6vw]"
+                            src="{{ asset('assets/images/pptimages/video.png') }}" />
+                    </span>
+                </li>
+
+                <li>
+                    <span class="relative">
+                        If you see <span class="opacity-0">---</span> , click on it for additional information or activity.
+                        <img src="{{ asset('assets/images/pptimages/info-btn.png') }}"
+                            class="t-info-btn absolute top-[-1vw] left-[8vw]" />
+                    </span>
+                </li>
+
+                <li>
+                    Always ask questions to encourage children to think and share their ideas first before giving out
+                    any information.
+                </li>
+
+                <li>Emphasise and use the keywords during hands-on sessions.</li>
+
+                <li>
+                    Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
+                </li>
+
+                <li>
+                    <span class="relative">
+                        Click on this shortcut icon <span class="opacity-0">---</span> if you need to go to some parts of
+                        the lesson quickly.
+                        <img src="{{ asset('assets/images/pptimages/home-btn.png') }}"
+                            class="t-home-btn absolute top-0 left-[19vw]" />
+                    </span>
+                </li>
+
+            </ul>
+        </div>
+
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
 
 
-    <div class="text-white flex flex-col t-slide items-center justify-center  text-start text-2xl slide hidden">
-        <h2 class="text-center title stroke">Learning Centre Idea</h2>
-        <div class="flex">
-            <div>
-                <h2 class="!text-white title stroke">Common Compound Machines</h2>
-                <h2 class="t-title">What and how to set up:</h2>
-                <ul class="list-disc">
-                    <li>Place a measuring tape, pencils and papers here.</li>
-                </ul>
 
-                <h2 class="t-title">What to do:</h2>
-                <ul>
-                    <li>How long is your right/left arm/hand/leg (changeable to measure
-                        other body parts or common things around us)? Use the measuring
-                        tape to measure and record your findings in a paper. After that,
-                        share the findings with your teacher and friends.</li>
-                </ul>
-            </div>
+    <div class="text-white flex flex-col t-slide  justify-center  text-start hidden">
+        <h2 class="text-center title stroke">Learning Centre Idea</h2>
+        <div>
+            <h2 class="!text-white title stroke">Common Compound Machines</h2>
+            <h2 class="t-title">What and how to set up:</h2>
+            <ul class="list-disc">
+                <li>Place a measuring tape, pencils and papers here.</li>
+            </ul>
+        </div>
+        <div>
+            <h2 class="t-title">What to do:</h2>
+            <ul>
+                <li>How long is your right/left arm/hand/leg (changeable to measure
+                    other body parts or common things around us)? Use the measuring
+                    tape to measure and record your findings in a paper. After that,
+                    share the findings with your teacher and friends.</li>
+            </ul>
         </div>
         <p class="note">Note: Have children help each other to measure and record.</p>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" />
@@ -236,7 +253,7 @@
 @push('script')
     <script>
         document.addEventListener("DOMContentLoaded", () => {
-            const slides = document.querySelectorAll(".slide");
+            const slides = document.querySelectorAll(".t-slide");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
             const doneButton = document.querySelector(".doneButton"); //   DONE button
@@ -282,7 +299,7 @@
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('coding') }}";
+                    window.location.href = "{{ route('go1Selection') }}";
                 });
             }
 

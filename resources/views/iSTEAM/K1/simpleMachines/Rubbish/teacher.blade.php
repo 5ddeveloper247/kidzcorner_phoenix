@@ -6,7 +6,7 @@
     <h2 class="top-title stroke">Throw a Rubish Machine</h2>
 
     {{-- sldie 23  --}}
-    <div class=" slide flex text-2xl t-slide !text-white flex-col justify-start text-start">
+    <div class="flex t-slide !text-white flex-col justify-around text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -32,7 +32,7 @@
 
 
     {{-- slide 24 --}}
-    <div class=" slide flex text-2xl t-slide !text-white flex-col justify-start text-start">
+    <div class="flex t-slide !text-white flex-col justify-start text-start">
         <h2 class="t-title">Preparations:</h2>
         <div class="flex gap-[10rem]">
             <ul class="list-disc">
@@ -50,7 +50,7 @@
             </ul>
         </div>
 
-        <img class=" !text-center large-img2" src="/assets/images/K1/sm/rubbish-machine/r13.png" />
+        <img class=" !text-center img-md" src="/assets/images/K1/sm/rubbish-machine/r13.png" />
 
 
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="Teacher" />
@@ -59,7 +59,7 @@
 
 
     {{-- slide 25 --}}
-    <div class=" slide flex text-2xl t-slide !text-white flex-col justify-center items-center  gap-[0.5rem] text-center">
+    <div class="flex t-slide !text-white flex-col justify-center items-center  gap-[0.5rem] text-center">
         <ul class="list-disc !text-start">
             <h2 class="t-title">Things to consider for preparations:</h2>
 
@@ -70,7 +70,7 @@
 
         </ul>
 
-        <img class="large-img2" src="/assets/images/K1/sm/rubbish-machine/r13.png" />
+        <img class="img-md" src="/assets/images/K1/sm/rubbish-machine/r13.png" />
 
 
 
@@ -80,7 +80,7 @@
 
 
     {{--  slide 26 --}}
-    <div class=" slide flex text-2xl t-slide !text-white flex-col justify-center items-center  gap-[0.5rem] ">
+    <div class="flex t-slide !text-white flex-col justify-center items-center  gap-[0.5rem] ">
         <ul class="list-disc !text-start">
             <h2 class="t-title">Things to consider for preparation:</h2>
 
@@ -88,7 +88,7 @@
                 As a reference, the track used in the lesson is formed with a vanguard sheet.
                 The edge is folded and two tracks are put together to make it sturdy.</li>
         </ul>
-        <img class="large-img2" src="/assets/images/K1/sm/rubbish-machine/r14.png" />
+        <img class="img-sm" src="/assets/images/K1/sm/rubbish-machine/r14.png" />
 
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="Teacher" />
     </div>
@@ -97,7 +97,7 @@
 
 
     {{--  slide 27 --}}
-    <div class=" slide flex text-2xl t-slide !text-white flex-col justify-center  text-start">
+    <div class="flex t-slide !text-white flex-col justify-center  text-start">
         <h2 class="t-title">Things to consider during hands-on session:</h2>
         <ul class="list-disc !text-start">
 
@@ -122,36 +122,64 @@
 
 
     {{--  slide 27 --}}
-    <div class="slide flex t-slide  flex-col  text-2xl text-start !text-white">
+    <div class=" t-slide text-start flex items-center !text-white !w-[53vw]">
         <div>
-            <h2 class="t-title">Notes:</h2>
-            <ul class="list-disc">
-                <li class="flex whitespace-nowrap">
-                    If you see
-                    <span class="info-btn">
+            <h2 class="t-title ">Notes:</h2>
+            <ul class="list-disc space-y-3">
+                <li>
+                    <span class="relative">
+                        If you see <span class="opacity-0">---</span>next to a picture, click on the picture to watch the
+                        video.
+                        <img class="t-video-btn absolute top-[-1vw] left-[7.6vw]"
+                            src="{{ asset('assets/images/pptimages/video.png') }}" />
+                    </span>
+                </li>
+                <li>
+                    Always ask questions to encourage children to think and share their ideas first before giving out
+                    any information.
+                </li>
 
-                        <img src="{{ asset('assets/images/pptimages/video.png') }}" />
-                    </span>
-                    next to a picture, click on the picture to watch the video.
-                </li>
-                <li class="flex whitespace-nowrap">
-                    If you see
-                    <span> <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="video-btn" />
-                    </span>
-                    , click on it for additional information or activity.
-                </li>
-                <li>Always ask questions to encourage children to think and share their ideas first before giving
-                    out
-                    any information.</li>
                 <li>Emphasise and use the keywords during hands-on sessions.</li>
-                <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
+
+                <li>
+                    Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
                 </li>
-                <li class="flex whitespace-nowrap">
-                    Click on this shortcut icon
-                    <span> <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" class="home-btn" />
+
+                <li>
+                    <span class="relative">
+                        Click on this shortcut icon <span class="opacity-0">---</span> if you need to go to some parts of
+                        the lesson quickly.
+                        <img src="{{ asset('assets/images/pptimages/home-btn.png') }}"
+                            class="t-home-btn absolute top-0 left-[19vw]" />
                     </span>
-                    if you need to go to some parts of the lesson quickly.
                 </li>
+
+            </ul>
+        </div>
+
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
+    </div>
+
+
+
+
+    {{-- slide 28 --}}
+    <div class="flex t-slide !text-white flex-col justify-center gap-[3rem] text-start">
+
+
+        <h2 class=" title stroke text-center">Learning Centre Idea</h2>
+        <div>
+            <h2 class="text-[2vw] text-white stroke">The Best Throw a Rubbish Machine</h2>
+            <ul class=!text-white>
+                <h2 class="t-title">What and how to set up:</h2>
+                <li>Place things as listed in preparations here.</li>
+            </ul>
+        </div>
+        <div>
+            <h2 class="t-title">What to do:</h2>
+            <ul>
+                <li>Set up a Rube Goldberg Machine that will always throw rubbish <br>
+                    successfully.</li>
             </ul>
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
@@ -159,48 +187,28 @@
 
 
 
-    {{-- slide 28 --}}
-    <div class=" slide flex text-2xl t-slide !text-white flex-col justify-center gap-[3rem] text-start">
-
-
-        <h2 class=" title stroke text-center">Learning Centre Idea</h2>
-
-        <ul class=!text-white>
-            <h2 >The Best Throw a Rubbish Machine</h2>
-            <li>What and how to set up:</li>
-            <li>Place things as listed in preparations here.</li>
-        </ul>
-        <ul>
-            <h2 class="t-title">What to do:</h2>
-            <li>Set up a Rube Goldberg Machine that will always throw rubbish <br>
-                successfully.</li>
-        </ul>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
-    </div>
-
-
-
 
     {{-- slide 29 --}}
-    <div class=" slide flex text-2xl t-slide !text-white flex-col justify-center gap-[3rem] text-start">
+    <div class="flex t-slide !text-white flex-col justify-center gap-[3rem] text-start">
 
 
         <h2 class=" text-center title stroke ">Learning Centre Idea</h2>
+        <div>
+            <h2 class="!text-white text-[2vw] stroke !text-start">Which toys have wheels and axles?</h2>
+            <h2 class="t-title">What and how to set up:</h2>
+            <ul class=!text-white>
+                <li>Place a box filled with a variety of toys and an empty box here.</li>
+            </ul>
+        </div>
 
-        <ul class=!text-white>
-            <h2 class="    !text-white  !text-start">Which toys have wheels and axles?</h2>
-
-            <li>What and how to set up:</li>
-            <li>Place a box filled with a variety of toys and an empty box here.</li>
-
-
-        </ul>
-        <ul>
+        <div>
             <h2 class="t-title">What to do:</h2>
-            <li>1. Check on each toy and place all the toys with wheels and
-                axles in the empty box.</li>
-            <li>2. Show where the wheel and axle of each toy are.</li>
-        </ul>
+            <ul class="list-decimal">
+                <li>Check on each toy and place all the toys with wheels and
+                    axles in the empty box.</li>
+                <li>Show where the wheel and axle of each toy are.</li>
+            </ul>
+        </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
@@ -208,22 +216,12 @@
 
 
 
-
-
-
-
-
-
-
+    {{-- ==================================== --}}
     <div class="down-btn-container">
         <button class="doneButton">
             <img src="{{ asset('assets/images/pptimages/done.png') }}" />
         </button>
     </div>
-
-
-
-
 
 
     {{-- Buttons --}}
@@ -263,7 +261,7 @@
 @push('script')
     <script>
         document.addEventListener("DOMContentLoaded", () => {
-            const slides = document.querySelectorAll(".slide");
+            const slides = document.querySelectorAll(".t-slide");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
             const doneButton = document.querySelector(".doneButton"); //   DONE button
@@ -309,7 +307,7 @@
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('K1simpleMachines') }}";
+                    window.location.href = "{{ route('RubbishSelection') }}";
                 });
             }
 

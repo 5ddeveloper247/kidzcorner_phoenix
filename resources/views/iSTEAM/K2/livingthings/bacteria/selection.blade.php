@@ -9,7 +9,7 @@
 
 
     <div class="Selection flex items-center flex-col justify-center text-center z-[99] w-full">
-        <h2 class="text-[50px] text-[#F7B94A] stroke">What are Bacteria?</h2>
+        <h2 class="text-[#F7B94A] stroke">What are Bacteria?</h2>
         <div class="flex items-center justify-around w-full">
 
             {{-- Lesson Button --}}

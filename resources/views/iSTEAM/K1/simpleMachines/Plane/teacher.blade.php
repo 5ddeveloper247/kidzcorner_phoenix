@@ -6,7 +6,7 @@
     <h2 class="top-title stroke">The Power of an Inclined Plane</h2>
 
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl !text-white flex-col justify-start  text-start t-slide">
+    <div class="flex !text-white flex-col justify-around  text-start t-slide">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -33,7 +33,7 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl !text-white flex-col justify-start  text-start t-slide">
+    <div class="flex !text-white flex-col justify-start  text-start t-slide">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <div class="flex   justify-between">
@@ -46,7 +46,7 @@
                 </ul>
 
             </div>
-            <img src="/assets/images/K1/sm/plane/plane9.png" class="large-img" />
+            <img src="/assets/images/K1/sm/plane/plane9.png" class="img-xl" />
         </div>
 
 
@@ -55,7 +55,7 @@
     </div>
 
     {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl !text-white flex-col justify-start  text-start t-slide">
+    <div class="flex !text-white flex-col justify-start  text-start t-slide">
 
         <div>
             <h2 class=" t-title">how to do the experiment and things to consider:</h2>
@@ -67,14 +67,14 @@
                 </ul>
 
             </div>
-            <img src="/assets/images/K1/sm/plane/plane11.png" />
+            <img src="/assets/images/K1/sm/plane/plane11.png" class="img-xl" />
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- sldie 4 --}}
-    <div class=" slide flex text-2xl !text-white flex-col justify-start  text-start t-slide">
+    <div class="flex !text-white flex-col justify-center !gap-[2vw]  text-start t-slide">
 
         <div>
             <h2 class=" t-title">how to do the experiment and things to consider:</h2>
@@ -87,11 +87,11 @@
                 </ul>
 
             </div>
-            <div class="flex justify-around gap-1">
+            <div class="flex justify-around gap-[1vw]">
 
-                <img class=" large-img4 " src=" /assets/images/K1/sm/plane/plane13.png" />
-                <img class=" large-img4 " src="/assets/images/K1/sm/plane/plane13.png" />
-                <img class=" large-img4 " src="/assets/images/K1/sm/plane/plane13.png" />
+                <img class="img-xs" src=" /assets/images/K1/sm/plane/plane13.png" />
+                <img class="img-xs" src="/assets/images/K1/sm/plane/plane13.png" />
+                <img class="img-xs" src="/assets/images/K1/sm/plane/plane13.png" />
             </div>
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
@@ -101,7 +101,7 @@
 
 
     {{-- sldie 5 --}}
-    <div class=" slide flex text-2xl !text-white flex-col justify-start  text-start t-slide">
+    <div class="flex !text-white flex-col justify-start  text-start t-slide">
 
         <div>
             <h2 class=" t-title">how to do the experiment and things to consider:</h2>
@@ -113,14 +113,14 @@
                 </ul>
 
             </div>
-            <img src="/assets/images/K1/sm/plane/plane14.png" />
+            <img src="/assets/images/K1/sm/plane/plane14.png" class="img-xl" />
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- sldie 6 --}}
-    <div class=" slide flex text-2xl !text-white flex-col justify-start  text-start t-slide">
+    <div class="flex !text-white flex-col justify-start  text-start t-slide">
         <div>
             <h2 class=" t-title">To carry out this experiment successfully, you may consider:</h2>
             <div class="flex   justify-between">
@@ -145,53 +145,66 @@
 
 
     {{-- slide 7 --}}
-    <div class="slide flex t-slide  flex-col  text-2xl text-start !text-white">
+    <div class=" t-slide text-start flex items-center !text-white !w-[53vw]">
         <div>
-            <h2 class="t-title">Notes:</h2>
-            <ul class="list-disc">
-                <li class="flex whitespace-nowrap">
-                    If you see
-                    <span class="info-btn">
+            <h2 class="t-title ">Notes:</h2>
+            <ul class="list-disc space-y-3">
+                <li>
+                    <span class="relative">
+                        If you see <span class="opacity-0">---</span>next to a picture, click on the picture to watch the
+                        video.
+                        <img class="t-video-btn absolute top-[-1vw] left-[7.6vw]"
+                            src="{{ asset('assets/images/pptimages/video.png') }}" />
+                    </span>
+                </li>
 
-                        <img src="{{ asset('assets/images/pptimages/video.png') }}" />
+                <li>
+                    <span class="relative">
+                        If you see <span class="opacity-0">---</span> , click on it for additional information or activity.
+                        <img src="{{ asset('assets/images/pptimages/info-btn.png') }}"
+                            class="t-info-btn absolute top-[-1vw] left-[8vw]" />
                     </span>
-                    next to a picture, click on the picture to watch the video.
                 </li>
-                <li class="flex whitespace-nowrap">
-                    If you see
-                    <span> <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="video-btn" />
-                    </span>
-                    , click on it for additional information or activity.
+
+                <li>
+                    Always ask questions to encourage children to think and share their ideas first before giving out
+                    any information.
                 </li>
-                <li>Always ask questions to encourage children to think and share their ideas first before giving
-                    out
-                    any information.</li>
+
                 <li>Emphasise and use the keywords during hands-on sessions.</li>
-                <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
+
+                <li>
+                    Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
                 </li>
-                <li class="flex whitespace-nowrap">
-                    Click on this shortcut icon
-                    <span> <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" class="home-btn" />
+
+                <li>
+                    <span class="relative">
+                        Click on this shortcut icon <span class="opacity-0">---</span> if you need to go to some parts of
+                        the lesson quickly.
+                        <img src="{{ asset('assets/images/pptimages/home-btn.png') }}"
+                            class="t-home-btn absolute top-0 left-[19vw]" />
                     </span>
-                    if you need to go to some parts of the lesson quickly.
                 </li>
+
             </ul>
         </div>
+
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
 
+
     {{-- slide 8 --}}
-    <div class=" slide flex text-2xl !text-white flex-col justify-start  text-start t-slide">
+    <div class="flex !text-white flex-col justify-start   t-slide">
         <div>
-            <h2 class=" t-title title stroke !text-center">Which height of the inclined plane do you think <br>
+            <h2 class=" t-title text-center">Which height of the inclined plane do you think <br>
                 will make the car go the longest distance?</h2>
 
 
             <div class="flex justify-center align-middle">
 
-                <img class="!text-center large-img2" src="/assets/images/K1/sm/plane/plane10.png" />
+                <img class="!text-center img-sm" src="/assets/images/K1/sm/plane/plane10.png" />
             </div>
             <p class="!text-white"> Note: Plot children's prediction on the graph. At the end, put a star to mark the final
                 result.</p>
@@ -201,20 +214,20 @@
 
 
     {{-- slide 9 --}}
-    <div class=" slide flex text-2xl !text-white flex-col justify-start  text-start t-slide">
+    <div class="flex !text-white flex-col justify-start t-slide">
         <h2 class=" title stroke !text-cneter">Learning Centre Idea</h2>
         <div class="space-y-10">
             <div>
-                <h2 class=" t-title  !text-white">How to make the car move to the place that you want? </h2>
+                <h2 class=" text-[1.7vw] stroke !text-white">How to make the car move to the place that you want? </h2>
+                <h2 class="t-title">What and how to set up: </h2>
                 <ul class="list-none">
-                    <li>What and how to set up: </li>
                     <li>Place things as listed in preparations and some other things like
                         boxes of different heights here.</li>
                 </ul>
             </div>
 
 
-            <div>
+            <div class="text-start">
                 <h2 class=" t-title !text-white ">What to do: </h2>
                 <ul class="list-none">
                     <li>1.Think of how far you want the car to move to. Use a sticky note
@@ -279,7 +292,7 @@
 @push('script')
     <script>
         document.addEventListener("DOMContentLoaded", () => {
-            const slides = document.querySelectorAll(".slide");
+            const slides = document.querySelectorAll(".t-slide");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
             const doneButton = document.querySelector(".doneButton"); //   DONE button
@@ -325,7 +338,7 @@
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('K1simpleMachines') }}";
+                    window.location.href = "{{ route('PlaneSelection') }}";
                 });
             }
 

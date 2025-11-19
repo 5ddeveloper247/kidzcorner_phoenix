@@ -7,7 +7,7 @@
 
     {{-- Slide 1 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="{{ asset('/assets/images/K1/sm/balloon/ballon1.png') }}" class="large-img" />
+        <img src="{{ asset('/assets/images/K1/sm/balloon/ballon1.png') }}" class="img-h-md" />
         <h2 class="title stroke">Lucho the scientist needs help to pop a balloon left over
             from his birthday party. What should Lucho do? </h2>
     </div>
@@ -16,7 +16,7 @@
 
     {{-- Slide 2 --}}
     <div class="slide hidden flex flex-col items-center justify-center ">
-        <img src="{{ asset('/assets/images/K1/sm/balloon/ballon2.png') }}" />
+        <img src="{{ asset('/assets/images/K1/sm/balloon/ballon2.png') }}" class="img-lg" />
         <h2 class="title stroke">Lucho can use a sharp needle to pop the balloon easily. </h2>
         <p class="note">Note: Let children share ways of popping a balloon.</p>
 
@@ -26,7 +26,7 @@
     {{-- Slide3 --}}
     <div class="slide flex flex-col items-center justify-center  ">
 
-        <img src="{{ asset('/assets/images/K1/sm/balloon/bl.png') }}" />
+        <img src="{{ asset('/assets/images/K1/sm/balloon/bl.png') }}" class="img-md" />
         <h2 class="title stroke">But Lucho the scientist wants to create a complicated
             machine to pop the balloon. What should Lucho do?</h2>
 
@@ -36,7 +36,7 @@
 
     {{-- Slide 4 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="{{ asset('/assets/images/K1/sm/balloon/bl.png') }}" />
+        <img src="{{ asset('/assets/images/K1/sm/balloon/bl.png') }}"class="img-md" />
         <h2 class="title stroke">Yes, Lucho can build a Rube Goldberg Machine.
             It does an easy task in a complicated way just for fun!</h2>
 
@@ -45,7 +45,7 @@
 
 
     {{-- Slide 5  --}}
-    <div class="slide flex flex-col items-end    justify-between h-[35vh]  ">
+    <div class="slide flex flex-col items-center justify-between h-[17vw]  ">
 
         <h2 class="title stroke">Children, can you build a Rube Goldberg Machine
             to pop a balloon for Lucho?</h2>
@@ -89,7 +89,7 @@
 
     {{-- sldie 8 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="{{ asset('/assets/images/K1/sm/balloon/ballon4.png') }}" />
+        <img src="{{ asset('/assets/images/K1/sm/balloon/ballon4.png') }}" class="img-xl" />
         <h2 class="title stroke">What are the things used in this machine?</h2>
 
     </div>
@@ -99,7 +99,7 @@
 
     {{-- sldie 9 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="{{ asset('/assets/images/K1/sm/balloon/bl2.png') }}" />
+        <img src="{{ asset('/assets/images/K1/sm/balloon/bl2.png') }}" class="img-xl" />
         <h2 class="!text-red-600">A needle is sharp! Be careful!</h2>
 
     </div>
@@ -107,7 +107,7 @@
 
 
     {{-- sldie 10 --}}
-    <div class="slide flex flex-col items-center justify-center  ">
+    <div class="slide flex flex-col items-center justify-between h-[28vw]  ">
         <h2 class="!text-white  title stroke !text-center">Class Activity</h2>
         <div class="text-start">
 
@@ -131,7 +131,7 @@
 
 
     {{-- sldie 11 --}}
-    <div class="slide flex flex-col items-center justify-between h-[50vh]  ">
+    <div class="slide flex flex-col items-center justify-between h-[28vw]  ">
         <h2 class="!text-white  title stroke !text-center">Class Activity</h2>
         <div class="text-start">
             <h2 class="title stroke">Possible questions during hands-on session:</h2>
@@ -155,7 +155,7 @@
     <div class=" slide hidden flex flex-col items-center justify-center 4">
 
         <h2 class=" !text-white title stroke">Reflection</h2>
-        <img src="{{ asset('/assets/images/K1/sm/balloon/ballon5.png') }}" />
+        <img src="{{ asset('/assets/images/K1/sm/balloon/ballon5.png') }}" class="img-md" />
         <h2 class="title stroke">Why does the first domino fall?</h2>
 
     </div>
@@ -179,7 +179,7 @@
 
     {{-- sldie 14 --}}
     <div class=" slide hidden flex flex-col items-center justify-center ">
-        <img src="{{ asset('/assets/images/K1/sm/balloon/ballon6.png') }}" />
+        <img src="{{ asset('/assets/images/K1/sm/balloon/ballon6.png') }}" class="img-md" />
         <h2 class="title stroke">How do you make the dominoes
             always fall one after another?</h2>
     </div>
@@ -216,14 +216,14 @@
 
     {{-- sldie 17 --}}
     <div class=" slide hidden flex flex-col items-center justify-center ">
-        <img src="{{ asset('/assets/images/K1/sm/balloon/bl3.png') }}" />
+        <img src="{{ asset('/assets/images/K1/sm/balloon/bl3.png') }}" class="img-xl" />
         <h2 class="title stroke">The balloon pops because of the needle on te rod.</h2>
     </div>
 
 
     {{-- sldie 18 --}}
     <div class=" slide hidden flex flex-col items-center justify-center ">
-        <img src="{{ asset('/assets/images/K1/sm/balloon/bl4.png') }}" />
+        <img src="{{ asset('/assets/images/K1/sm/balloon/bl4.png') }}" class="img-xl" />
         <h2 class="title stroke">The pointed end of the needle
             goes through the balloon and pops it.</h2>
     </div>
@@ -233,7 +233,7 @@
     {{-- sldie 19 --}}
     <div class=" slide hidden flex flex-col items-center justify-center ">
 
-        <img src="{{ asset('/assets/images/K1/sm/balloon/ballon11.png') }}"  class="large-img2"/>
+        <img src="{{ asset('/assets/images/K1/sm/balloon/ballon11.png') }}"  class="img-md"/>
 
         <h2 class="title stroke">A <span class="!text-white">needle</span> is an example of a <span
                 class="!text-white">simple machine</span> called <span class="!text-white">wedge</span>.</h2>
@@ -243,7 +243,7 @@
 
     {{-- sldie 20 --}}
     <div class=" slide hidden flex flex-col items-center justify-center ">
-        <img src="{{ asset('/assets/images/K1/sm/balloon/bl5.png') }}" class="large-img2" />
+        <img src="{{ asset('/assets/images/K1/sm/balloon/bl5.png') }}" class="img-md" />
         <h2 class="title stroke">A wedge is thick at the end and thin and tapering
             at the other edge.</h2>
     </div>
@@ -251,7 +251,7 @@
 
     {{-- sldie 21 --}}
     <div class=" slide hidden flex flex-col items-center justify-center ">
-        <img src="{{ asset('/assets/images/K1/sm/balloon/bl5.png') }}" class="large-img2" />
+        <img src="{{ asset('/assets/images/K1/sm/balloon/bl5.png') }}" class="img-md" />
         <h2 class="title stroke">A <span class="!text-white">needle</span> is a <span class="!text-white">simple
                 machine</span>
             as it helps us to pop a balloon easily/.</h2>
@@ -303,7 +303,7 @@
 
 
 
-
+{{-- =============================== --}}
     {{-- Complete button --}}
     <div class="down-btn-container">
         <button class="doneButton">
@@ -362,7 +362,7 @@
 
             // CONFIGURE YOUR ROUTES HERE
             const returnRouteFromFirstSlide = "{{ route('BalloonSelection') }}";
-            const doneButtonRoute = "{{ route('BalloonSelection') }}";
+            const doneButtonRoute = "{{ route('K1simpleMachines') }}";
 
             // Pause all videos when changing slides
             function pauseAllVideos() {

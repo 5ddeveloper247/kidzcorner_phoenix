@@ -7,7 +7,7 @@
 
 
     {{-- Slide 1 --}}
-    <div class="slide flex flex-col items-center justify-between h-[40vh]">
+    <div class="slide flex flex-col items-center justify-between h-[17vw]">
         <h2 class="title stroke">Children, today we are going to learn about a machine!</h2>
         <p class="note ">Note: Have children discuss what a machine is, name some machines around us and say their uses.
             Tell them that a machine is a tool to do a task or action.</p>
@@ -47,7 +47,7 @@
 
     {{-- Slide 4 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="{{ asset('assets/images/K1/sm/bell/bell.2.png') }}" />
+        <img src="{{ asset('assets/images/K1/sm/bell/bell.2.png') }}" class="img-lg" />
         <h2 class="title stroke">This is a <span class="!text-white">Rube Goldberg Machine</span>.
             It is named after its creator, Rube Goldberg.</h2>
 
@@ -57,7 +57,7 @@
 
     {{-- Slide 5  --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="{{ asset('assets/images/K1/sm/bell/bell.3.png') }}" class="large-img3" />
+        <img src="{{ asset('assets/images/K1/sm/bell/bell.3.png') }}" class="img-h-md" />
         <h2 class="title stroke">Rube Goldberg was a cartoonist.
             His cartoons were very funny because they showed
             complicated machines that did simple tasks.</h2>
@@ -68,7 +68,7 @@
 
     {{-- slide 6 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="{{ asset('assets/images/K1/sm/smm2.png') }}" />
+        <img src="{{ asset('assets/images/K1/sm/smm2.png') }}" class="img-lg" />
         <h2 class="title stroke">What are the things used in this machine?</h2>
 
     </div>
@@ -77,7 +77,7 @@
 
     {{-- sldie 7 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="{{ asset('assets/images/K1/sm/smm.png') }}" />
+        <img src="{{ asset('assets/images/K1/sm/smm.png') }}" class="img-lg" />
 
     </div>
 
@@ -101,7 +101,7 @@
 
     {{-- sldie 9 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="{{ asset('assets/images/K1/sm/bell/bell.2.png') }}" />
+        <img src="{{ asset('assets/images/K1/sm/bell/bell.2.png') }}"class="img-lg" />
         <h2 class="title stroke">So, a Rube Goldberg Machine is made up of
             many different things. It helps to do a simple task,
             such as ringing a bell, just for fun!</h2>
@@ -110,7 +110,7 @@
 
 
     {{-- sldie 10 --}}
-    <div class="slide flex flex-col items-center justify-between h-[35vh] ">
+    <div class="slide flex flex-col items-center justify-between h-[20vw] ">
         <h2 class="!text-white title stroke"> Class Activity</h2>
         <h2 class="title stroke text-start">Mission: <br>
             Build a Rube Goldberg Machine to ring a bell.
@@ -128,7 +128,7 @@
 
 
     {{-- sldie 11 --}}
-    <div class="slide flex flex-col items-center justify-between h-[50vh]  ">
+    <div class="slide flex flex-col items-center justify-between h-[28vw]  ">
 
         <h2 class="!text-white title stroke"> Class Activity</h2>
         <div class="text-start title stroke">
@@ -151,7 +151,7 @@
     {{-- sldie 12 --}}
     <div class=" slide hidden flex flex-col items-center justify-center ">
         <h2 class="!text-white title stroke"> Reflection</h2>
-        <img src="{{ asset('assets/images/K1/sm/bell/bell1.png') }}" />
+        <img src="{{ asset('assets/images/K1/sm/bell/bell1.png') }}" class="img-lg" />
         <h2 class="title stroke">Why do you think the ball rolls down?
             What if the book is placed flat? Will the ball roll?</h2>
     </div>
@@ -176,7 +176,7 @@
     {{-- sldie 14 --}}
     <div class=" slide hidden flex flex-col items-center justify-center ">
 
-        <img src="{{ asset('assets/images/K1/sm/bell/bell.2.png') }}" />
+        <img src="{{ asset('assets/images/K1/sm/bell/bell.2.png') }}" class="img-lg" />
         <h2 class="title stroke">A <span class="!text-white">ramp</span> is the slanting surface with one end
             higher than the other end.</h2>
     </div>
@@ -184,14 +184,14 @@
 
     {{-- sldie 15 --}}
     <div class=" slide hidden flex flex-col items-center justify-center ">
-        <img src="{{ asset('assets/images/K1/sm/bell/bell.2.png') }}" />
+        <img src="{{ asset('assets/images/K1/sm/bell/bell.2.png') }}" class="img-lg" />
         <h2 class="title stroke"><span class="!text-white">Inclined plane</span> is another name for a ramp.</h2>
     </div>
 
 
     {{-- sldie 16 --}}
     <div class=" slide hidden flex flex-col items-center justify-center ">
-        <img src="{{ asset('assets/images/K1/sm/bell/bell.2.png') }}" />
+        <img src="{{ asset('assets/images/K1/sm/bell/bell.2.png') }}" class="img-lg" />
         <h2 class="title stroke">What can you do to make sure that the ball
             will always hit the target?</h2>
 
@@ -200,15 +200,15 @@
 
     {{-- sldie 17 --}}
     <div class=" slide hidden flex flex-col items-center justify-center ">
-        <img src="{{ asset('assets/images/K1/sm/bell/bell4.png') }}" />
-        <h2 class="title stroke">What can you do to make sure that the ball
-            will always hit the target?</h2>
+        <img src="{{ asset('assets/images/K1/sm/bell/bell4.png') }}" class="img-lg" />
+        <h2 class="title stroke">You make use a track to direct the ball.
+            You may form a path to direct the ball too.</h2>
     </div>
 
 
     {{-- sldie 18 --}}
     <div class=" slide hidden flex flex-col items-center justify-center ">
-        <img src="{{ asset('assets/images/K1/sm/bell/bell5.png') }}" />
+        <img src="{{ asset('assets/images/K1/sm/bell/bell5.png') }}" class="img-lg" />
         <h2 class="title stroke">Why does the first domino fall?</h2>
 
 
@@ -220,7 +220,7 @@
     {{-- sldie 19 --}}
     <div class=" slide hidden flex flex-col items-center justify-center ">
 
-        <img src="{{ asset('assets/images/K1/sm/bell/bell5.png') }}" />
+        <img src="{{ asset('assets/images/K1/sm/bell/bell5.png') }}" class="img-lg" />
         <h2 class="title stroke">The first domino falls because of
             the push from the moving ball.</h2>
 
@@ -246,7 +246,7 @@
 
     {{-- sldie 21 --}}
     <div class=" slide hidden flex flex-col items-center justify-center ">
-        <img src="{{ asset('assets/images/K1/sm/bell/bell6.png') }}" />
+        <img src="{{ asset('assets/images/K1/sm/bell/bell6.png') }}" class="img-lg" />
         <h2 class="title stroke">Why do all the dominoes fall one after another?</h2>
 
     </div>
@@ -316,7 +316,7 @@
 
     {{-- sldie 26 --}}
     <div class=" slide hidden flex flex-col items-center justify-center ">
-        <img src="{{ asset('assets/images/K1/sm/bell/bell9.png') }}" />
+        <img src="{{ asset('assets/images/K1/sm/bell/bell9.png') }}" class="img-lg" />
         <h2 class="title stroke">So, the positioning of dominoes is important
             to create a domino effect.</h2>
 
@@ -326,7 +326,7 @@
 
     {{-- sldie 27 --}}
     <div class=" slide hidden flex flex-col items-center justify-center ">
-        <img src="{{ asset('assets/images/K1/sm/bell/bell6.png') }}" />
+        <img src="{{ asset('assets/images/K1/sm/bell/bell6.png') }}" class="img-lg" />
         <h2 class="title stroke">How do you make sure that the bell will always ring?</h2>
 
     </div>
@@ -451,7 +451,7 @@
 
             // CONFIGURE YOUR ROUTES HERE
             const returnRouteFromFirstSlide = "{{ route('BellSelection') }}";
-            const doneButtonRoute = "{{ route('BellSelection') }}";
+            const doneButtonRoute = "{{ route('K1simpleMachines') }}";
 
             // Pause all videos when changing slides
             function pauseAllVideos() {

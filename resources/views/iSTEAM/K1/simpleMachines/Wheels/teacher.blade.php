@@ -6,7 +6,7 @@
     <h2 class="top-title stroke">What are wheels and Axles</h2>
 
     {{-- sldie 1 --}}
-    <div class=" slide flex text-2xl t-slide !text-white flex-col justify-start  text-start">
+    <div class="flex t-slide !text-white flex-col justify-around  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -33,7 +33,7 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl t-slide !text-white flex-col items-center justify-start  text-start">
+    <div class="flex t-slide !text-white flex-col items-center justify-start  text-start">
 
         <h2 class=" t-title  ">Preparations:</h2>
         <ul class="list-disc ">
@@ -41,13 +41,13 @@
             <li> A few bottles of water</li>
             <li>4 binder clips</li>
         </ul>
-        <img class="large-img" src="/assets/images/K1/sm/wheels/we24.png" />
+        <img class="img-sm" src="/assets/images/K1/sm/wheels/we24.png" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- slide 3 --}}
-    <div class=" slide flex text-2xl t-slide !text-white flex-col justify-start items-center  text-start">
+    <div class="flex t-slide !text-white flex-col justify-start items-center  text-start">
         <ul class="list-disc">
             <h2 class=" t-title  ">Preparations:</h2>
             <li>Each child: 1 Styrofoam disc, 6 plastic spoons, 1 long stick and 1
@@ -55,14 +55,14 @@
             <li>1 roll of packing film or adhesive tape</li>
         </ul>
 
-        <img class="large-img" src="/assets/images/K1/sm/wheels/we22.png" />
+        <img class="img-sm" src="/assets/images/K1/sm/wheels/we22.png" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
 
     {{--  slide 26 --}}
-    <div class=" slide flex text-2xl t-slide !text-white flex-col justify-start items-center  text-start">
+    <div class="flex t-slide !text-white flex-col justify-start items-center  text-start">
         <ul>
             <h2 class=" t-title  ">How to make a spoon water wheel and things to consider:</h2>
             <li>i. Mark 6 even points on the rim of a styrofoam disc with the help of a circular<br>
@@ -71,19 +71,19 @@
                 (match with the inner circle) and use the lines as guide to do the markings.]</li>
         </ul>
 
-        <img src="/assets/images/K1/sm/wheels/we17.png" class="large-img" />
+        <img src="/assets/images/K1/sm/wheels/we17.png" class="img-sm" />
     </div>
 
 
     {{-- slide 27 --}}
-    <div class=" slide flex text-2xl t-slide !text-white flex-col justify-start items-center  text-start">
+    <div class="flex t-slide !text-white flex-col justify-start items-center  text-start">
         <h2 class=" t-title ">Circular Template:</h2>
-        <img src="/assets/images/K1/sm/wheels/we25.png" class="large-img" />
+        <img src="/assets/images/K1/sm/wheels/we25.png" class="img-sm" />
     </div>
 
 
     {{--  slide 28 --}}
-    <div class=" slide flex text-2xl t-slide !text-white flex-col justify-start items-center  text-start">
+    <div class="flex t-slide !text-white flex-col justify-start items-center  text-start">
         <div class="text-start">
             <h2 class=" t-title  ">How to make a spoon water wheel and things to consider:</h2>
             <ul>
@@ -94,9 +94,9 @@
             </ul>
         </div>
 
-        <div class="flex ">
-            <img src="/assets/images/K1/sm/wheels/we26.png" class="large-img" />
-            <img src="/assets/images/K1/sm/wheels/we27.png" class="large-img" />
+        <div class="flex gap-[1vw]">
+            <img src="/assets/images/K1/sm/wheels/we26.png" class="img-sm" />
+            <img src="/assets/images/K1/sm/wheels/we27.png" class="img-sm" />
         </div>
     </div>
 
@@ -104,7 +104,7 @@
 
 
     {{--  slide 29 --}}
-    <div class=" slide flex text-2xl t-slide !text-white flex-col justify-start items-center  text-start">
+    <div class="flex t-slide !text-white flex-col justify-start items-center  text-start">
         <div class="text-start">
 
             <h2 class=" t-title  ">How to make a spoon water wheel and things to consider:</h2>
@@ -116,16 +116,16 @@
             </ul>
         </div>
 
-        <div class="flex">
-            <img src="/assets/images/K1/sm/wheels/we28.png" class="large-img" />
-            <img src="/assets/images/K1/sm/wheels/we29.png" class="large-img" />
+        <div class="flex gap-[1vw]">
+            <img src="/assets/images/K1/sm/wheels/we28.png" class="img-sm" />
+            <img src="/assets/images/K1/sm/wheels/we29.png" class="img-sm" />
         </div>
     </div>
 
 
 
     {{--  slide 30 --}}
-    <div class=" slide flex text-2xl t-slide !text-white flex-col justify-start items-center  text-start">
+    <div class="flex t-slide !text-white flex-col justify-start items-center  text-start">
 
         <div class="text-start">
             <h2 class=" t-title  ">How to make a spoon water wheel and things to consider:</h2>
@@ -136,15 +136,15 @@
             </ul>
         </div>
 
-        <div class="flex">
-            <img src="/assets/images/K1/sm/wheels/we20.png" class="large-img" />
-            <img src="/assets/images/K1/sm/wheels/we30.png" class="large-img" />
+        <div class="flex gap-[1vw]">
+            <img src="/assets/images/K1/sm/wheels/we20.png" class="img-sm" />
+            <img src="/assets/images/K1/sm/wheels/we30.png" class="img-sm" />
         </div>
     </div>
 
 
     {{--  slide 31 --}}
-    <div class=" slide flex text-2xl t-slide !text-white flex-col justify-start items-center  text-start">
+    <div class="flex t-slide !text-white flex-col justify-start items-center  text-start">
         <div class="text-start">
             <h2 class=" t-title  ">Things to consider for the test of the water wheel:</h2>
             <ul class="list-disc">
@@ -155,66 +155,77 @@
             </ul>
         </div>
 
-        <img src="/assets/images/K1/sm/wheels/we31.png" class="large-img" />
+        <img src="/assets/images/K1/sm/wheels/we31.png" class="img-xl" />
     </div>
 
 
     {{-- sldie 32 --}}
-    <div class="slide flex t-slide  flex-col  text-2xl text-start !text-white">
+    <div class=" t-slide text-start flex items-center !text-white !w-[53vw]">
         <div>
-            <h2 class="t-title">Notes:</h2>
-            <ul class="list-disc">
-                <li class="flex whitespace-nowrap">
-                    If you see
-                    <span class="info-btn">
+            <h2 class="t-title ">Notes:</h2>
+            <ul class="list-disc space-y-3">
+                <li>
+                    <span class="relative">
+                        If you see <span class="opacity-0">---</span>next to a picture, click on the picture to watch the
+                        video.
+                        <img class="t-video-btn absolute top-[-1vw] left-[7.6vw]"
+                            src="{{ asset('assets/images/pptimages/video.png') }}" />
+                    </span>
+                </li>
 
-                        <img src="{{ asset('assets/images/pptimages/video.png') }}" />
-                    </span>
-                    next to a picture, click on the picture to watch the video.
+                <li>
+                    Always ask questions to encourage children to think and share their ideas first before giving out
+                    any information.
                 </li>
-                <li class="flex whitespace-nowrap">
-                    If you see
-                    <span> <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="video-btn" />
-                    </span>
-                    , click on it for additional information or activity.
-                </li>
-                <li>Always ask questions to encourage children to think and share their ideas first before giving
-                    out
-                    any information.</li>
+
                 <li>Emphasise and use the keywords during hands-on sessions.</li>
-                <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
+
+                <li>
+                    Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
                 </li>
-                <li class="flex whitespace-nowrap">
-                    Click on this shortcut icon
-                    <span> <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" class="home-btn" />
+
+                <li>
+                    <span class="relative">
+                        Click on this shortcut icon <span class="opacity-0">---</span> if you need to go to some parts of
+                        the lesson quickly.
+                        <img src="{{ asset('assets/images/pptimages/home-btn.png') }}"
+                            class="t-home-btn absolute top-0 left-[19vw]" />
                     </span>
-                    if you need to go to some parts of the lesson quickly.
                 </li>
+
             </ul>
         </div>
+
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
+
     {{--  slide 33 --}}
-    <div class=" slide flex text-2xl t-slide !text-white flex-col justify-start items-center  text-start">
+    <div class="flex t-slide !text-white flex-col justify-start items-center  text-start">
 
         <h2 class="title stroke text-center">Learning Centre Idea</h2>
-        <ul class="!text-start">
-            <h2 class=" t-title  ">Where is the wheel and axle?</h2>
-            <li>What and how to set up:</li>
-            <li>Place a variety of common things with wheel and axle here. Some
-                examples are scooter, stroller fan, paint roller, clock, pizza cutter,
-                tap, door knob and screwdriver.</li>
-            <br> <br>
-            <h2 class=" t-title  ">What to do:</h2>
-            <li>Look at each item. Show where the wheel and axle of each item are.</li>
-        </ul>
+        <div>
+            <h2 class="text-[2vw] text-white stroke">Where is the wheel and axle?</h2>
+            <h2 class="t-title">What and how to set up:</h2>
+            <ul class="!text-start">
+                <li>Place a variety of common things with wheel and axle here. Some
+                    examples are scooter, stroller fan, paint roller, clock, pizza cutter,
+                    tap, door knob and screwdriver.</li>
+            </ul>
+        </div>
+
+        <div>
+            <h2 class="t-title">What to do:</h2>
+            <ul>
+                <li>Look at each item. Show where the wheel and axle of each item are.</li>
+            </ul>
+        </div>
     </div>
 
 
 
-
+    {{-- ======================= --}}
     {{-- Buttons --}}
     <div class="down-btn-container">
         <button class="doneButton">
@@ -251,7 +262,7 @@
 @push('script')
     <script>
         document.addEventListener("DOMContentLoaded", () => {
-            const slides = document.querySelectorAll(".slide");
+            const slides = document.querySelectorAll(".t-slide");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
             const doneButton = document.querySelector(".doneButton"); //   DONE button
@@ -297,7 +308,7 @@
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('K1simpleMachines') }}";
+                    window.location.href = "{{ route('WheelsSelection') }}";
                 });
             }
 
