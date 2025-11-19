@@ -215,7 +215,7 @@
                 <li>Your square structure is completed. Can your structure stand on its own?</li>
             </ol>
         </div>
-        <video id="video1" class="pointer-events-none">
+        <video id="video1" class="pointer-events-none video-md">
             <source src="{{ asset('assets/images/N2/structure/videos/1.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -290,7 +290,7 @@
                 <li>Arrange the long rectangle pieces in a shape of a square.</li>
             </ol>
         </div>
-        <img src="{{ asset('/assets/images//N2/structure/str/st27.png') }}" class="img-md" />
+        <img src="{{ asset('/assets/images//N2/structure/str/st27.png') }}" class="img-h-sm" />
         <p class="note">Note: Encourage and guide the children to try.</p>
     </div>
 
@@ -334,7 +334,7 @@
             </ol>
         </div>
         <video id="video2" class="pointer-events-none">
-            <source src="{{ asset('assets/images/K1/structure/videos/2.mp4') }}" type="video/mp4">
+            <source src="{{ asset('assets/images/N2/structure/videos/2.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
         <p class="note">Note: Encourage and guide the children to try.</p>
@@ -344,7 +344,7 @@
     </div>
 
     {{-- Slide 36 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-full">
+    <div class="slide hidden flex flex-col items-center justify-between h-[18vw]">
         <h2 class="title stroke">Children, why do you think the structure is
             now able to stand on its own?</h2>
         <p class="note">Note: Encourage children to share their answers.</p>

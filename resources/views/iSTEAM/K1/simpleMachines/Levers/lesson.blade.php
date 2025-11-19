@@ -9,7 +9,7 @@
     {{-- Slide 1 --}}
     <div class="slide flex flex-col items-center justify-center  ">
 
-        <img src="/assets/images/K1/sm/levers/le1.png" />
+        <img src="/assets/images/K1/sm/levers/le1.png" class="img-md" />
         <h2 class="title stroke">What is this?
             What is it for?</h2>
 
@@ -20,7 +20,7 @@
     {{-- Slide 2 --}}
     <div class="slide flex flex-col items-center justify-center  ">
 
-        <img src="/assets/images/K1/sm/levers/le1.png" />
+        <img src="/assets/images/K1/sm/levers/le1.png" class="img-md" />
         <h2 class="title stroke">A seesaw is a long board rested on a
             fixed part in the middle.</h2>
 
@@ -47,7 +47,7 @@
     <div class="slide flex flex-col items-center justify-center  ">
 
 
-        <img src="/assets/images/K1/sm/levers/le1.png" />
+        <img src="/assets/images/K1/sm/levers/le1.png" class="img-md" />
         <h2 class="title stroke">In fact, a seesaw is made with the idea of
             In fact, a seesaw is made with the idea of
             a <span class="!text-white">simple machine</span> called a <span class="!text-white">lever</span>.</h2>
@@ -78,7 +78,7 @@
     <div class="slide flex flex-col items-center justify-center  ">
 
 
-        <img src="/assets/images/K1/sm/levers/le3.png" />
+        <img src="/assets/images/K1/sm/levers/le3.png" class="img-lg" />
         <h2 class="title stroke">A <span class="!text-white">lever</span> is a bar supported on a fixed part called the
             <span class="!text-white">fulcrum</span>. The bar moves around the <span class="!text-white">fulcrum</span>.
         </h2>
@@ -90,7 +90,7 @@
     <div class="slide flex flex-col items-center justify-center  ">
 
 
-        <img src="/assets/images/K1/sm/levers/le4.png" />
+        <img src="/assets/images/K1/sm/levers/le4.png" class="img-lg" />
         <h2 class="title stroke">With the help of the fulcrum, one end of the lever will move
             when you use force to push down the other end.</h2>
 
@@ -114,7 +114,7 @@
     {{-- sldie 10 --}}
     <div class="slide flex flex-col items-center justify-center  ">
 
-        <img src="/assets/images/K1/sm/levers/le5.png" />
+        <img src="/assets/images/K1/sm/levers/le5.png" class="img-lg" />
 
         <h2 class="title stroke">Usually, people use a lever to lift heavy things
             that we would not be able to lift without it.</h2>
@@ -126,7 +126,7 @@
     {{-- sldie 11 --}}
     <div class="slide flex flex-col items-center justify-center  ">
 
-        <img src="/assets/images/K1/sm/levers/le1.png" />
+        <img src="/assets/images/K1/sm/levers/le1.png" class="img-md" />
 
         <h2 class="title stroke">Where is the lever and fulcrum of this seesaw?
             What does the lever do?</h2>
@@ -137,7 +137,7 @@
 
     {{-- sldie 12 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="/assets/images/K1/sm/levers/pl1.png" />
+        <img src="/assets/images/K1/sm/levers/pl1.png" class="img-md" />
         <h2 class="title stroke">The long board is the <span class="!text-white">lever</span> of a seesaw.
             The <span class="!text-white">fulcrum</span> of this <span class="!text-white">lever</span> is fixed at the
             middle.</h2>
@@ -180,7 +180,7 @@
 
     {{-- sldie 16 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="/assets/images/K1/sm/levers/le6.png" />
+        <img src="/assets/images/K1/sm/levers/le6.png" class="img-xl" />
         <h2 class="title stroke">In fact, the fulcrum of a lever can be fixed at different
             parts of the bar for different uses.</h2>
     </div>
@@ -189,7 +189,7 @@
     {{-- sldie 17 --}}
     <div class="slide flex flex-col items-center justify-center  ">
 
-        <img src="/assets/images/K1/sm/levers/le7.png" />
+        <img src="/assets/images/K1/sm/levers/le7.png" class="img-lg" />
 
         <h2 class="title stroke">What is this? Where is the lever and its fulcrum?
             What does the lever do?</h2>
@@ -201,7 +201,7 @@
     {{-- sldie 18 --}}
     <div class="slide flex flex-col items-center justify-center  ">
 
-        <img src="/assets/images/K1/sm/levers/le8.png" />
+        <img src="/assets/images/K1/sm/levers/le8.png" class="img-lg" />
 
         <h2 class="title stroke">A pencil is a lever when you use it
             to write, draw or colour.</h2>
@@ -214,7 +214,7 @@
     {{-- sldie 19 --}}
     <div class="slide flex flex-col items-center justify-center  ">
 
-        <img src="/assets/images/K1/sm/levers/le8.png" />
+        <img src="/assets/images/K1/sm/levers/le8.png" class="img-lg" />
 
         <h2 class="title stroke">The <span class="!text-white">fulcrum</span> of this <span class="!text-white">lever</span>
             is at your thumb,
@@ -245,7 +245,7 @@
     {{-- sldie 21 --}}
     <div class="slide flex flex-col items-center justify-center  ">
 
-        <img src="/assets/images/K1/sm/levers/le10.png" />
+        <img src="/assets/images/K1/sm/levers/le10.png" class="img-md" />
 
         <h2 class="title stroke">What is this? Where is the lever and its fulcrum?
             What does the lever do?</h2>
@@ -257,7 +257,7 @@
     {{-- sldie 22 --}}
     <div class="slide flex flex-col items-center justify-center  ">
 
-        <img src="/assets/images/K1/sm/levers/le11.png" />
+        <img src="/assets/images/K1/sm/levers/le11.png" class="img-md" />
 
         <h2 class="title stroke">The handle is the lever of a spoon. </h2>
 
@@ -268,7 +268,7 @@
 
     {{-- sldie 23 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="/assets/images/K1/sm/levers/pl2.png" />
+        <img src="/assets/images/K1/sm/levers/pl2.png" class="img-md" />
         <h2 class="title stroke">The <span class="!text-white">fulcrum</span> of this <span
                 class="!text-white">lever</span>
             is at your thumb, where you support the spoon. </h2>
@@ -293,7 +293,7 @@
     {{-- sldie 25 --}}
     <div class="slide flex flex-col items-center justify-center  ">
 
-        <img src="/assets/images/K1/sm/levers/le13.png" />
+        <img src="/assets/images/K1/sm/levers/le13.png" class="img-md" />
 
         <h2 class="title stroke">What is this? Where is the lever and its fulcrum?
             What does the lever do? </h2>
@@ -321,7 +321,7 @@
 
     {{-- sldie 27 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="/assets/images/K1/sm/levers/le15.png" />
+        <img src="/assets/images/K1/sm/levers/le15.png" class="img-md" />
         <h2 class="title stroke">So, the top chopsticks is the <span class="!text-white">lever</span> of a
             pair of chopsticks. </h2>
     </div>
@@ -329,7 +329,7 @@
 
     {{-- sldie 28 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="/assets/images/K1/sm/levers/pl3.png" />
+        <img src="/assets/images/K1/sm/levers/pl3.png" class="img-md" />
         <h2 class="title stroke">The fulcrum of this lever is at the tip of your thumb,
             where you support the top chopstick. </h2>
     </div>
@@ -355,7 +355,7 @@
 
     {{-- sldie 30 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="/assets/images/K1/sm/levers/le17.png" />
+        <img src="/assets/images/K1/sm/levers/le17.png" class="img-md" />
         <h2 class="title stroke">What is this? Where is the lever and its fulcrum?
             What does the lever do? </h2>
     </div>
@@ -363,7 +363,7 @@
 
     {{-- sldie 31 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="/assets/images/K1/sm/levers/le18.png" />
+        <img src="/assets/images/K1/sm/levers/le18.png" class="img-md" />
         <h2 class="title stroke">The long handle is the lever of a broom.</h2>
     </div>
 
@@ -371,7 +371,7 @@
     {{-- slide 32 --}}
     <div class="slide flex flex-col items-center justify-center  ">
 
-        <img src="/assets/images/K1/sm/levers/pl4.png" />
+        <img src="/assets/images/K1/sm/levers/pl4.png" class="img-md" />
 
         <h2 class="title stroke">The fulcrum of this lever is at the hand on top,
             where you support the broom.</h2>
@@ -401,7 +401,7 @@
 
     {{-- slide 34 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="/assets/images/K1/sm/levers/le20.png" />
+        <img src="/assets/images/K1/sm/levers/le20.png" class="img-lg" />
         <h2 class="title stroke">What is this? Where is the lever and its fulcrum?
             What does the lever do?</h2>
     </div>
@@ -409,7 +409,7 @@
 
     {{-- slide 35 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="/assets/images/K1/sm/levers/le21.png" />
+        <img src="/assets/images/K1/sm/levers/le21.png" class="img-lg" />
         <h2 class="title stroke">The handle is the <span class="!text-white">lever</span> of a stapler.
             The <span class="!text-white">fulcrum</span> of this <span class="!text-white">lever</span> is fixed at the
             end.</h2>
@@ -436,7 +436,7 @@
 
     {{-- slide 37 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="/assets/images/K1/sm/levers/le23.png" />
+        <img src="/assets/images/K1/sm/levers/le23.png" class="img-lg" />
         <h2 class="title stroke">What is this? Where is the lever and its fulcrum?
             What does the lever do?</h2>
     </div>
@@ -444,14 +444,14 @@
 
     {{-- slide 38 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="/assets/images/K1/sm/levers/pl5.png" />
+        <img src="/assets/images/K1/sm/levers/pl5.png" class="img-lg" />
         <h2 class="title stroke">A pair of scissors is made up of two levers. </h2>
     </div>
 
 
     {{-- slide 39 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="/assets/images/K1/sm/levers/pl6.png" />
+        <img src="/assets/images/K1/sm/levers/pl6.png" class="img-lg" />
         <h2 class="title stroke">The fulcrum of the two levers are fixed at the same place,
             so they share the same fulcrum. </h2>
     </div>
@@ -475,7 +475,7 @@
 
     {{-- slide 41 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="/assets/images/K1/sm/levers/le25.png" />
+        <img src="/assets/images/K1/sm/levers/le25.png" class="img-md" />
         <h2 class="title stroke">What is this? Where is the lever and its fulcrum?
             What does the lever do? </h2>
     </div>
@@ -483,7 +483,7 @@
     {{-- slide 42 --}}
     <div class="slide flex flex-col items-center justify-center  ">
 
-        <img src="/assets/images/K1/sm/levers/le25.png" />
+        <img src="/assets/images/K1/sm/levers/le25.png" class="img-md" />
 
         <h2 class="title stroke">What is this? Where is the lever and its fulcrum?
             What does the lever do? </h2>
@@ -493,7 +493,7 @@
     {{-- slide 43 --}}
     <div class="slide flex flex-col items-center justify-center  ">
 
-        <img src="/assets/images/K1/sm/levers/le26.png" />
+        <img src="/assets/images/K1/sm/levers/le26.png" class="img-md" />
 
         <h2 class="title stroke">A clothes peg is made up of two <span class="!text-white">levers</span>. </h2>
 
@@ -501,7 +501,7 @@
 
     {{-- slide 44 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="/assets/images/K1/sm/levers/pl7.png" />
+        <img src="/assets/images/K1/sm/levers/pl7.png" class="img-md" />
         <h2 class="title stroke">The fulcrum of the two levers are fixed at the same place,
             so they share the same fulcrum. </h2>
     </div>
@@ -527,7 +527,7 @@
 
     {{-- slide 46 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="/assets/images/K1/sm/levers/le28.png" />
+        <img src="/assets/images/K1/sm/levers/le28.png" class="img-md" />
         <h2 class="title stroke">What is this? Where is the lever and its fulcrum?
             What does the lever do? </h2>
     </div>
@@ -535,14 +535,14 @@
 
     {{-- slide 47 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="/assets/images/K1/sm/levers/le29.png" />
+        <img src="/assets/images/K1/sm/levers/le29.png" class="img-md" />
         <h2 class="title stroke">A pair of tongs is made up of two levers. </h2>
     </div>
 
 
     {{-- slide 48 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="/assets/images/K1/sm/levers/pl8.png" />
+        <img src="/assets/images/K1/sm/levers/pl8.png" class="img-md" />
         <h2 class="title stroke">The fulcrum of the two levers are fixed at the same
             place, so they share the same fulcrum. </h2>
     </div>
@@ -565,7 +565,7 @@
 
     {{-- slide 50 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="/assets/images/K1/sm/levers/le31.png" />
+        <img src="/assets/images/K1/sm/levers/le31.png" class="img-md" />
         <h2 class="title stroke">What is this? Where is the lever and its fulcrum?
             What does the lever do?</h2>
     </div>
@@ -573,14 +573,14 @@
 
     {{-- slide 51 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="/assets/images/K1/sm/levers/le32.png" />
+        <img src="/assets/images/K1/sm/levers/le32.png" class="img-md" />
         <h2 class="title stroke">The chains are the levers of a swing. </h2>
     </div>
 
 
     {{-- slide 52 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="/assets/images/K1/sm/levers/pl9.png" />
+        <img src="/assets/images/K1/sm/levers/pl9.png" class="img-md" />
         <h2 class="title stroke">The fulcrums of these levers are on the top bar,
             where the chains are fixed to.</h2>
     </div>
@@ -605,7 +605,7 @@
 
     {{-- slide 54 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="/assets/images/K1/sm/levers/le34.png" />
+        <img src="/assets/images/K1/sm/levers/le34.png" class="img-md" />
         <h2 class="title stroke">What is this? Where is the lever and its fulcrum?
             What does the lever do? </h2>
     </div>
@@ -613,14 +613,14 @@
 
     {{-- slide 55 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="/assets/images/K1/sm/levers/le35.png" />
+        <img src="/assets/images/K1/sm/levers/le35.png" class="img-md" />
         <h2 class="title stroke">A wheelbarrow is made up of two levers. </h2>
     </div>
 
 
     {{-- slide 56 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="/assets/images/K1/sm/levers/pl10.png" />
+        <img src="/assets/images/K1/sm/levers/pl10.png" class="img-md" />
         <h2 class="title stroke">The fulcrum of the two levers are fixed at the same
             place, so they share the same fulcrum.</h2>
     </div>
@@ -644,7 +644,7 @@
     {{-- slide 58 --}}
     <div class="slide flex flex-col items-center justify-center  ">
 
-        <img src="/assets/images/K1/sm/levers/le37.png" />
+        <img src="/assets/images/K1/sm/levers/le37.png" class="img-xl" />
 
         <h2 class="title stroke">In short, many things around us have <span class="!text-white">levers </span>.</h2>
 
@@ -653,7 +653,7 @@
     {{-- slide 59 --}}
     <div class="slide flex flex-col items-center justify-center  ">
 
-        <img src="/assets/images/K1/sm/levers/le38.png" />
+        <img src="/assets/images/K1/sm/levers/le38.png" class="img-xl" />
 
         <h2 class="title stroke">Most levers can be found on things that
             we hold on to when we use them.</h2>
@@ -662,7 +662,7 @@
     {{-- slide 60 --}}
     <div class="slide flex flex-col items-center justify-center  ">
 
-        <img src="/assets/images/K1/sm/levers/le39.png" />
+        <img src="/assets/images/K1/sm/levers/le39.png" class="img-lg" />
 
         <h2 class="title stroke">This is a lever. What are the things used to build this lever?
             Where is its fulcrum?</h2>
@@ -675,7 +675,7 @@
     <div class="slide flex flex-col items-center justify-center  ">
 
         <h2 class="title stroke  !text-white">Individual Activity</h2>
-        <img src="/assets/images/K1/sm/levers/le40.png" />
+        <img src="/assets/images/K1/sm/levers/le40.png" class="img-md" />
 
         <ul class="lesson-ul !text-start title stroke">
             <li class="!text-white">Let’s find out (Experiment):</li>
@@ -687,7 +687,7 @@
     {{-- slide 62 --}}
     <div class="slide flex flex-col items-center justify-center  ">
 
-        <img src="/assets/images/K1/sm/levers/le41.png" />
+        <img src="/assets/images/K1/sm/levers/le41.png" class="img-xl" />
 
         <ul class="lesson-ul !text-start title stroke">
 
@@ -704,10 +704,10 @@
     </div>
     {{-- slide 63 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <h2 class="title stroke">How will you get the longest toss of an eraser?
+        <h2 class="text-[#f7b94a] text-[2vw] stroke">How will you get the longest toss of an eraser?
             When the fulcrum is placed near to or far from eraser?</h2>
 
-        <img src="/assets/images/K1/sm/levers/le42.png" />
+        <img src="/assets/images/K1/sm/levers/le42.png" class="img-md" />
 
 
 
@@ -727,7 +727,7 @@
             <li>1. Put the eraser on one end of the lever.</li>
         </ul>
 
-        <img src="/assets/images/K1/sm/levers/le40.png" />
+        <img src="/assets/images/K1/sm/levers/le40.png" class="img-md" />
 
     </div>
     {{-- slide 65 --}}
@@ -740,7 +740,7 @@
                 eraser will be tossed.</li>
         </ul>
 
-        <img src="/assets/images/K1/sm/levers/le43.png" />
+        <img src="/assets/images/K1/sm/levers/le43.png" class="img-md" />
 
     </div>
 
@@ -755,7 +755,7 @@
         </ul>
 
 
-        <img src="/assets/images/K1/sm/levers/le44.png" />
+        <img src="/assets/images/K1/sm/levers/le44.png" class="img-xl" />
 
         <p class="note">
 
@@ -777,7 +777,7 @@
         </ul>
 
 
-        <img src="/assets/images/K1/sm/levers/le44.png" />
+        <img src="/assets/images/K1/sm/levers/le44.png" class="img-lg" />
 
         <p class="note">
 
@@ -796,13 +796,13 @@
                 the thread in the Learning Journal.</li>
         </ul>
 
-        <img class="t-title" src="/assets/images/K1/sm/levers/le45.png" />
+        <img src="/assets/images/K1/sm/levers/le45.png" class="img-lg" />
     </div>
 
 
     {{-- slide 69 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="/assets/images/K1/sm/levers/le46.png" />
+        <img src="/assets/images/K1/sm/levers/le46.png" class="img-lg" />
         <ul class="lesson-ul !text-start title stroke">
             <li class="!text-white">What do you observe (Result):</li>
             <li>When the fulcrum is placed near the eraser, do you get the
@@ -817,7 +817,7 @@
             <li>How will you use a lever to get the longest toss of an eraser?
                 Will you place the fulcrum near to or far from the eraser?</li>
 
-            <img src="/assets/images/K1/sm/levers/le41.png" />
+            <img src="/assets/images/K1/sm/levers/le41.png" class="img-lg" />
     </div>
 
 
@@ -863,7 +863,7 @@
     </div>
 
 
-
+{{-- =============================== --}}
     {{-- Complete button --}}
     <div class="down-btn-container">
         <button class="doneButton">
@@ -923,7 +923,7 @@
 
             // CONFIGURE YOUR ROUTES HERE
             const returnRouteFromFirstSlide = "{{ route('LeversSelection') }}";
-            const doneButtonRoute = "{{ route('LeversSelection') }}";
+            const doneButtonRoute = "{{ route('K1simpleMachines') }}";
 
             // Pause all videos when changing slides
             function pauseAllVideos() {

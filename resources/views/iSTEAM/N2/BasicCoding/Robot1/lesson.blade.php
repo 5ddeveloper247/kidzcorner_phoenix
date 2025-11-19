@@ -102,7 +102,7 @@
 
     {{-- sldie 11 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="{{ asset('assets/images/N2/BasicCoding/br4.png') }}" class="img-h-md" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/br4.png') }}" class="img-h-sm" />
         <h2 class="title stroke text-center">These are facial expression <span class="!text-white">programming
             </span> <span class="!text-white">cards</span>.
             Each card tells the <span class="!text-white">robot</span> what facial expression to show.
@@ -120,7 +120,7 @@
             to show a facial expression.</h2>
         <p class="note">Note: Demonstrate and then guide children to describe how to do so (use the pen to tap on a card).
             <!-- Video Trigger Button -->
-        <div onclick="toggleVideo('video1'3" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
+        <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
         </div>
         </p>
@@ -173,7 +173,7 @@
 
     {{-- sldie 16 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="{{ asset('assets/images/N2/BasicCoding/br6.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/br6.png') }}" class="img-h-md" />
         <h2 class="title stroke text-center">You use this card to record a programme,
             so you may call it a record card.</h2>
     </div>
@@ -181,7 +181,7 @@
 
     {{-- sldie 17 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="{{ asset('assets/images/N2/BasicCoding/br7.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/br7.png') }}" class="img-h-md" />
         <h2 class="title stroke text-center">You use this card to play a programme recorded,
             so you may call it a play card.</h2>
     </div>

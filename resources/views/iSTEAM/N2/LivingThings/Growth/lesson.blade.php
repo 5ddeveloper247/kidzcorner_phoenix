@@ -32,7 +32,7 @@
 
     {{-- slide 4 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <h2 class="stroke title">A person, a dog and a fish move on its own, drink, eat,<br />breathe and grow. So they are
+        <h2 class="stroke title">A person, a dog and a fish move on its own, drink, eat,breathe and grow. So they are
             <span class="!text-white">living things</span>.
         </h2>
         <img src="{{ asset('assets/images/N2/LivingThings/g9.png') }}" class="img-lg" />
@@ -225,9 +225,9 @@
 
     {{-- slide 20 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <div class="flex items-center justify-center ">
-            <img src="{{ asset('assets/images/N2/LivingThings/an70.png') }}" class="img-normal-md" />
-            <img src="{{ asset('assets/images/N2/LivingThings/an71.png') }}" class="img-normal-md" />
+        <div class="flex items-center justify-center gap-[1vw]">
+            <img src="{{ asset('assets/images/N2/LivingThings/an70.png') }}" class="img-sm" />
+            <img src="{{ asset('assets/images/N2/LivingThings/an71.png') }}" class="img-sm" />
         </div>
         <h2 class="stroke title">As we <span class="!text-white">grow</span>, we <span class="!text-white">eat</span> and
             <span class="!text-white">drink</span>. Food has all <br />the <span class="!text-white">nutrients</span> our
@@ -239,7 +239,7 @@
     {{-- slide 21 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
 
-        <img src="{{ asset('assets/images/N2/LivingThings/an25.png') }}" />
+        <img src="{{ asset('assets/images/N2/LivingThings/an25.png') }}" class="img-lg" />
 
         <h2 class="stroke title">This is a baby dog.</h2>
         <p class="note">Note: Encourage children to share what they see in the picture.</p>
@@ -249,7 +249,7 @@
     {{-- slide 22 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
 
-        <img src="{{ asset('assets/images/N2/LivingThings/an26.png') }}" />
+        <img src="{{ asset('assets/images/N2/LivingThings/an26.png') }}" class="img-lg" />
 
         <h2 class="stroke title">This is a young dog. You can call it a puppy..</h2>
 
@@ -259,7 +259,7 @@
     {{-- slide 23 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
 
-        <img src="{{ asset('assets/images/N2/LivingThings/an27.png') }}" />
+        <img src="{{ asset('assets/images/N2/LivingThings/an27.png') }}" class="img-lg" />
 
         <h2 class="stroke title">When a puppy grows up, it becomes an adult dog.</h2>
         <p class="note">Note: Encourage children to share what they see in the picture.</p>
@@ -267,32 +267,32 @@
 
     {{-- slide 24 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <div class="flex items-center">
+        <div class="flex items-center gap-[1vw]">
             <div>
-                <img src="{{ asset('assets/images/N2/LivingThings/an25.png') }}" class="w-[200px]" />
-                <h2 class="text-white text-[30px]">Baby</h2>
+                <img src="{{ asset('assets/images/N2/LivingThings/an25.png') }}" class="img-xs" />
+                <p class="text-white text-[1.4vw]">Baby</p>
             </div>
             <div>
-                <img src="{{ asset('assets/images/N2/LivingThings/an26.png') }}" class="w-[200px]" />
-                <h2 class="text-white text-[30px]">Young/puppy</h2>
+                <img src="{{ asset('assets/images/N2/LivingThings/an26.png') }}" class="img-xs" />
+                <p class="text-white text-[1.4vw]">Young/puppy</p>
             </div>
             <div>
-                <img src="{{ asset('assets/images/N2/LivingThings/an27.png') }}" class="w-[200px]" />
-                <h2 class="text-white text-[30px]">Adult</h2>
+                <img src="{{ asset('assets/images/N2/LivingThings/an27.png') }}" class="img-xs" />
+                <p class="text-white text-[1.4vw]">Adult</p>
             </div>
 
         </div>
         <h2 class="stroke title">Similar to you, these are the <span class="!text-white">stages of growth</span> of a
-            dog.<br />As a dog<span class="!text-white"> grows</span>, it becomes bigger in size and its look changes.</h2>
+            dog.As a dog<span class="!text-white"> grows</span>, it becomes bigger in size and its look changes.</h2>
         <p class="note">Note: Encourage children to share what they see in the picture.</p>
     </div>
 
 
     {{-- slide 25 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <div class="flex items-center justify-center ">
-            <img src="{{ asset('assets/images/N2/LivingThings/an32.png') }}" class="large-img" />
-            <img src="{{ asset('assets/images/N2/LivingThings/an28.png') }}" class="large-img" />
+        <div class="flex items-center justify-center gap-[1vw]">
+            <img src="{{ asset('assets/images/N2/LivingThings/an32.png') }}" class="img-sm" />
+            <img src="{{ asset('assets/images/N2/LivingThings/an28.png') }}" class="img-sm" />
         </div>
         <h2 class="stroke title">Similar to you, dogs <span class="!text-white">eat</span> and <span
                 class="text-white">drink</span> as they <span class="!text-white">grow</span>.<br />Food has the <span
@@ -310,7 +310,7 @@
 
     {{-- slide 27 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/LivingThings/gl8.png') }}" class="img-xl" />
+        <img src="{{ asset('assets/images/N2/LivingThings/gl8.png') }}" class="img-lg" />
         <h2 class="title stroke">Note: Invite children take turns to share their changes over time.</h2>
 
     </div>
@@ -322,7 +322,7 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="title !text-white stroke">Learning Journal</h2>
         <p class="note">Paste your photos in the correct order to show how you have grown over time.</p>
-        <img src="{{ asset('assets/images/N2/LivingThings/bl7.png') }}" />
+        <img src="{{ asset('assets/images/N2/LivingThings/bl7.png') }}" class="img-lg" />
     </div>
 
 
@@ -412,7 +412,7 @@
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('GrowthSelection') }}";
+                    window.location.href = "{{ route('LivingThings') }}";
                 });
             }
 

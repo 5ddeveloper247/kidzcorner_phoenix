@@ -31,7 +31,7 @@
     {{-- Slide 3 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
 
-        <img src="{{ asset('assets/images/N2/LivingThings/lt25.png') }}" class="img-md rounded-[2vw]" />
+        <img src="{{ asset('assets/images/N2/LivingThings/lt25.png') }}" class="img-h-md rounded-[2vw]" />
 
         <h2 class="stroke title">The<span class="!text-white"> stem</span> also helps to <span class="!text-white">carry
             </span>water to the<br /><span class="!text-white">leaves</span> and <span class="!text-white">flower</span>.</h2>
@@ -105,7 +105,7 @@
                     in the learning journal.</li>
             </ol>
         </div>
-        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center"
+        <div class="w-[55vw] h-[25vw] drawable2 bg-cover bg-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>Record the changes you see in your flower (draw and paste photos).</p>
         </div>
@@ -116,7 +116,7 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <img src="{{ asset('assets/images/N2/LivingThings/lt38.png') }}" class="img-xl" />
         <h2 class="stroke title">As the <span class="!text-white">stem </span>carried coloured water to the <span
-                class="text-white">leaves</span> and<br /><span class="!text-white">flowers</span>, the white flower <span
+                class="text-white">leaves</span> and <span class="!text-white">flowers</span>, the white flower <span
                 class="text-white">petals</span> now have same <br />colours on them.</h2>
     </div>
 

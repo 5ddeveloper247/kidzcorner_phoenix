@@ -6,7 +6,7 @@
     <h2 class="top-title stroke">Programme A Robot 2</h2>
 
     {{-- sldie 1  --}}
-    <div class="flex  !text-white flex-col justify-start text-start t-slide">
+    <div class="flex  !text-white flex-col justify-around text-start t-slide">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">

@@ -358,7 +358,7 @@
         <div class="title stroke text-start relative">
             <h2 class="title stroke text-start ">Let's do:</h2>
             <img src="{{ asset('assets/images/N2/LivingThings/g3.png') }}" class="img-xl" />
-            <button class="info-btn6 absolute right-[21vw] top-[6vw]">
+            <button class="info-btn6 absolute right-[34%] top-[90%]">
                 <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="!max-w-[2.5vw]"
                     class="!max-w-[2.5vw]" />
             </button>
@@ -416,13 +416,13 @@
             <h2 class="title stroke text-start ">Let's do:</h2>
             <img src="{{ asset('assets/images/N2/LivingThings/g6.png') }}" class="img-xl" />
 
-            <button class="info-btn7 absolute left-[24.5vw] bottom-[-5vh]">
+            <button class="info-btn7 absolute left-[50%] bottom-[-5vh]">
                 <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="!max-w-[2.5vw]" />
             </button>
 
 
 
-            <button class="info-btn8 absolute right-[14vw] bottom-[-5vh]">
+            <button class="info-btn8 absolute right-[20%] bottom-[-5vh]">
                 <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="!max-w-[2.5vw]" />
             </button>
         </div>
@@ -433,7 +433,7 @@
     {{-- slide1 --}}
     <div class="flex flex-col info-slide7 items-center  slide hidden">
         <video id="video6" class=" pointer-events-none">
-            <source src="{{ asset('assets/images/N2/LivingThings/videos/8.mp4') }}" type="video/mp4">
+            <source src="{{ asset('assets/images/N2/LivingThings/videos/11.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
         <h2 class="stroke title">Do you know how do fish breathe in the water?</h2>

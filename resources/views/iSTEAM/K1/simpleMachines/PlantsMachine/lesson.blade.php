@@ -47,14 +47,14 @@
 
     {{-- Slide 4 --}}
     <div class="slide hidden flex flex-col items-center justify-center ">
-        <img src="/assets/images/K1/sm/plant-machine/pl3.png" />
+        <img src="/assets/images/K1/sm/plant-machine/pl3.png" class="img-xl" />
         <h2 class="title stroke">What are the things used in this machine?</h2>
     </div>
 
 
     {{-- Slide 5  --}}
     <div class="slide hidden flex flex-col items-center justify-center ">
-        <img src="/assets/images/K1/sm/plant-machine/ppl3.png" />
+        <img src="/assets/images/K1/sm/plant-machine/ppl3.png" class="img-xl" />
     </div>
 
 
@@ -90,8 +90,8 @@
 
 
     {{-- sldie 8 --}}
-    <div class="slide flex flex-col items-center justify-between h-[50vh]">
-        <h2 class="!text-white title">Class Activity</h2>
+    <div class="slide flex flex-col items-center justify-between h-[28vw]">
+        <h2 class="!text-white title stroke">Class Activity</h2>
         <ul class="lesson-ul  stroke title text-start">
             <li>Mission:</li>
             <li> Build a Rube Goldberg Machine to water a plant.</li>
@@ -105,7 +105,7 @@
 
 
     {{-- sldie 9 --}}
-    <div class="slide flex flex-col items-center justify-between h-[50vh] items-center ">
+    <div class="slide flex flex-col justify-between h-[28vw] items-center ">
         <ul class="lesson-ul !text-start stroke title">
             <li>Possible questions during hands-on session:</li>
             <li>1. How do you make the marbles roll? What type of simple machine is a slope?</li>
@@ -121,7 +121,7 @@
     {{-- sldie 10 --}}
     <div class="slide hidden flex flex-col items-center justify-center ">
         <h2 class="title stroke !text-white">Reflection</h2>
-        <img src="/assets/images/K1/sm/plant-machine/pl1.png" />
+        <img src="/assets/images/K1/sm/plant-machine/pl1.png" class="img-lg" />
         <h2 class="title stroke">Why do the marbles roll down?</h2>
 
     </div>
@@ -145,7 +145,7 @@
 
     {{-- sldie 12 --}}
     <div class="slide hidden flex flex-col items-center justify-center ">
-        <img src="/assets/images/K1/sm/plant-machine/pl4.png" />
+        <img src="/assets/images/K1/sm/plant-machine/pl4.png" class="img-lg" />
         <h2 class="title stroke">What happens when a marble falls into the container?</h2>
     </div>
 
@@ -182,14 +182,14 @@
 
     {{-- sldie 14 --}}
     <div class="slide hidden flex flex-col items-center justify-center ">
-        <img src="/assets/images/K1/sm/plant-machine/pl4.png" />
+        <img src="/assets/images/K1/sm/plant-machine/pl4.png" class="img-lg" />
         <h2 class="title stroke"> Do you know why the cup is tilted?</h2>
     </div>
 
 
     {{-- sldie 15 --}}
     <div class="slide hidden flex flex-col items-center justify-center ">
-        <img src="/assets/images/K1/sm/plant-machine/pl5.png" />
+        <img src="/assets/images/K1/sm/plant-machine/pl5.png" class="img-xl" />
         <h2 class="title stroke">
             The string tied to the container is wrapped around
             a <span class="!text-white">pulley</span> and fixed to the base of a cup.
@@ -199,7 +199,7 @@
 
     {{-- sldie 16 --}}
     <div class="slide hidden flex flex-col items-center justify-center ">
-        <img src="/assets/images/K1/sm/plant-machine/pl1.png" />
+        <img src="/assets/images/K1/sm/plant-machine/pl1.png" class="img-lg" />
         <h2 class="title stroke">
             The pulley makes it easier for the string to move and tilt
             the cup. When the cup tilts, water in it pours onto the plant.</h2>
@@ -216,7 +216,7 @@
     </div>
 
 
-
+    {{-- ============================ --}}
     {{-- Complete button --}}
     <div class="down-btn-container">
         <button class="doneButton">
@@ -276,7 +276,7 @@
 
             // CONFIGURE YOUR ROUTES HERE
             const returnRouteFromFirstSlide = "{{ route('PlantsMachineSelection') }}";
-            const doneButtonRoute = "{{ route('PlantsMachineSelection') }}";
+            const doneButtonRoute = "{{ route('K1simpleMachines') }}";
 
             // Pause all videos when changing slides
             function pauseAllVideos() {

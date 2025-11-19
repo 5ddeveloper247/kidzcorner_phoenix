@@ -345,7 +345,7 @@
                     (draw or paste a photo) when there are changes.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/N2/LivingThings/an57.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/N2/LivingThings/an57.png') }}" class="img-sm" />
         <p class="note">Note: Guide children to record their observations in the learning journal.</p>
     </div>
 

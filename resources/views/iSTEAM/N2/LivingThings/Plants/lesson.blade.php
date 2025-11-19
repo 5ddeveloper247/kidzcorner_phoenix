@@ -145,7 +145,7 @@
     {{-- Addtional Slides  --}}
     {{-- slide 7 --}}
     <div class="flex flex-col info-slide1 items-center justify-center slide hidden">
-        <video id="video1" class=" pointer-events-none">
+        <video id="video1" class="pointer-events-none">
             <source src="{{ asset('assets/images/N2/LivingThings/videos/12.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -161,7 +161,7 @@
 
     {{-- slide 8 --}}
     <div class="flex flex-col info-slide1 items-center justify-center slide hidden">
-        <video id="video2" class=" pointer-events-none">
+        <video id="video2" class="video-md pointer-events-none">
             <source src="{{ asset('assets/images/N2/LivingThings/videos/13.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -177,7 +177,7 @@
 
     {{-- slide 9 --}}
     <div class="flex flex-col info-slide1 items-center justify-center slide hidden">
-        <video id="video3" class=" pointer-events-none">
+        <video id="video3" class="pointer-events-none">
             <source src="{{ asset('assets/images/N2/LivingThings/videos/14.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -194,7 +194,7 @@
 
     {{-- slide 10 --}}
     <div class="flex flex-col info-slide1 items-center justify-center slide hidden">
-        <video id="video4" class=" pointer-events-none">
+        <video id="video4" class="video-md pointer-events-none">
             <source src="{{ asset('assets/images/N2/LivingThings/videos/15.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -285,7 +285,7 @@
     <div class="flex flex-col info-slide2 items-center justify-between h-[50vh] slide hidden">
         <div class="flex flex-col title text-start stroke">
             <h2>How to do the experiment?</h2>
-            <ul class="list-decimal   space-y-2">
+            <ul class="list-decimal  lesson-ul space-y-2">
                 <li>Fill a large clear bowl with lukewarm water.</li>
                 <li>Pluck a big leaf from a plant and put it inside the bowl.</li>
                 <li>Put a stone or marble on top of the leaf so that the leaf is fully submerged under the water.</li>

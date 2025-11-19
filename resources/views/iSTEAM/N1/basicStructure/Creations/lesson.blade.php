@@ -18,7 +18,7 @@
     {{-- slide 1 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
 
-        <img src="{{ asset('assets/images/pptimages/r18.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/pptimages/r18.png') }}" class="img-h-md" />
         <h2 class="stroke title">Look at this <span class="!text-white">house</span>! What <span
                 class="text-white">shapes</span> does it look like?</h2>
         <p class="note">Note: Encourage the children to share answers.</p>
@@ -72,10 +72,10 @@
     </div>
 
     {{-- slide 7 --}}
-    <div class="flex flex-col h-[55vh] justify-between slide hidden">
+    <div class="flex flex-col h-[55vh] justify-between items-center slide hidden">
         <div class="title stroke text-start">
             <h2 class="!text-white">let's do:</h2>
-            <ol class="list-decimal pl-8 space-y-3">
+            <ol class="list-decimal lesson-ul space-y-3">
                 <li>Go around the class and pick one of your favorite toy.</li>
                 <li>Look at the toy and see what shape does the toy look like.</li>
 
@@ -87,10 +87,10 @@
 
 
     {{-- slide 8 --}}
-    <div class="flex flex-col h-[55vh] justify-between slide hidden">
+    <div class="flex flex-col h-[55vh] justify-between items-center slide hidden">
         <div class="title stroke text-start">
             <h2 class="!text-white">let's do:</h2>
-            <ol class="list-decimal pl-8 space-y-3" start="3">
+            <ol class="list-decimal lesson-ul space-y-3" start="3">
                 <li> Look at the toy in parts. For example if it is a teddy bear. look at its head, body then the legs.
                 </li>
                 <li>For each part, guide children to verbalize the shape or find a similar shaped paper to create the
@@ -107,7 +107,7 @@
     <div class="flex flex-col justify-between items-center slide hidden">
         <div class="title stroke text-start">
             <h2 class="!text-white">let's do:</h2>
-            <ol class="list-decimal pl-8" start="5">
+            <ol class="list-decimal lesson-ul" start="5">
                 <li>Guide children to form the image using the paper shapes before pasting the paper on their
                     learning journals.</li>
             </ol>
@@ -118,10 +118,10 @@
     </div>
 
     {{-- slide 10 --}}
-    <div class="flex flex-col h-[55vh] justify-between  slide hidden">
+    <div class="flex flex-col h-[55vh] justify-between items-center slide hidden">
         <div class="title stroke text-start">
             <h2 class="!text-white">Suggested Questions:</h2>
-            <ol class="list-decimal pl-8 space-y-3   ">
+            <ol class="list-decimal lesson-ul space-y-3   ">
                 <li> Look at this part of the toy, what shape does it look like?</li>
                 <li>Is it a rectangle or a square?</li>
                 <li>Woold you like to try using a bigger/small shape?</li>
@@ -155,7 +155,7 @@
     {{-- slide 19 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
         <h2 class="stroke title">Similarly, a three dimensional structure of the toy can be created too!</h2>
-        <img src="{{ asset('assets/images/pptimages/r29.png') }}"  />
+        <img src="{{ asset('assets/images/pptimages/r29.png') }}" />
     </div>
 
 
@@ -167,10 +167,10 @@
     </div>
 
     {{-- slide 21 --}}
-    <div class="flex flex-col h-[55vh] justify-between slide hidden">
+    <div class="flex flex-col h-[55vh] justify-between items-center slide hidden">
         <div class="title stroke text-start">
             <h2 class="!text-white">let's do:</h2>
-            <ol class="list-decimal pl-8 space-y-3   ">
+            <ol class="list-decimal lesson-ul space-y-3   ">
                 <li>Look at the shape template which was done for Activity 1.</li>
                 <li>Pick out similar shape magnetic tiles and create the image of your toy,</li>
             </ol>
@@ -181,10 +181,10 @@
     </div>
 
     {{-- slide 22 --}}
-    <div class="flex flex-col h-[55vh] justify-between  slide hidden">
+    <div class="flex flex-col h-[55vh] justify-between items-center slide hidden">
         <div class="title stroke text-start">
             <h2 class="!text-white">let's do:</h2>
-            <ol class="list-decimal pl-8 space-y-3" start="3">
+            <ol class="list-decimal lesson-ul space-y-3" start="3">
                 <li>The structure is flat now. Look at the side of the toy, what shape is it in?</li>
                 <li>Take the magnetic shapes and add it onto your structure.</li>
                 <li>Now look at the bottom of the toy, what shape is it? Continue to build on the structure.</li>
@@ -196,7 +196,7 @@
     </div>
 
     {{-- slide 23 --}}
-    <div class="flex flex-col h-[55vh] justify-between  slide hidden">
+    <div class="flex flex-col h-[55vh] justify-between items-center slide hidden">
         <div class="title stroke text-start">
             <h2 class="!text-white">let's do:</h2>
             <ol class="  list-decimal pl-9 space-y-3" start="6">
@@ -213,10 +213,10 @@
 
 
     {{-- slide 24 --}}
-    <div class="flex flex-col  h-[55vh] justify-between slide hidden">
+    <div class="flex flex-col  h-[55vh] justify-between items-center slide hidden">
         <div class="title stroke text-start">
             <h2 class="!text-white">Suggested questions for show and tell:</h2>
-            <ol class="list-decimal pl-8">
+            <ol class="list-decimal lesson-ul">
                 <li>What did you make.</li>
                 <li>What shapes did you use?</li>
                 <li>Which part did you start building first?</li>
@@ -248,21 +248,26 @@
 
 
     {{-- slide 27 --}}
-    <div class="flex flex-col  slide hidden">
-        <div class="w-[52vw] h-[28vw] drawable bg-cover bg-center text-[1.26vw]"
+    <div class="flex flex-col slide hidden">
+        <p class="!text-white title stroke">Learning Journal</p>
+        <div class="w-[55vw] h-[25vw] overflow-hidden drawable bg-cover bg-center text-[1.26vw]"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
-            <p>Learning Journal</p>
-            <div class="flex w-foll">
-                <div class="border-2 border-black h-[26.5vw] w-[22vw]">
+
+
+            <div class="flex w-full h-full">
+
+                <div class="border-2 border-black w-[22vw] h-full">
                     <p>Place the photo of the toy on this side</p>
                 </div>
-                <div class="border-2 border-black h-[26.5vw] w-[30vw]">
-                    <p>Look at the toy and create the shape template here. </p>
+
+                <div class="border-2 border-black w-[30vw] h-full">
+                    <p>Look at the toy and create the shape template here.</p>
                 </div>
+
             </div>
         </div>
-        <p class="note  text-center">Look at the toy and create the shape template here. </p>
     </div>
+
 
 
 

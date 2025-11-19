@@ -83,13 +83,13 @@
             <img src="{{ asset('assets/images/N2/LivingThings/lt31.png') }}" class="img-sm" />
         </div>
         <h2 class="stroke title">The<span class="!text-white"> stem</span> helps the plant to grow tall. When the
-            plant<br />is tall, its <span class="!text-white">leaves</span> can get enough sunlight to make food.</h2>
+            plantis tall, its <span class="!text-white">leaves</span> can get enough sunlight to make food.</h2>
     </div>
 
 
     {{-- slide 11 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/LivingThings/lt25.png') }}" class="img-md rounded-[1.5vw]" />
+        <img src="{{ asset('assets/images/N2/LivingThings/lt25.png') }}" class="img-h-md rounded-[1.5vw]" />
         <h2 class="stroke title">The<span class="!text-white"> stem</span> also helps to <span class="!text-white">carry
             </span>water to the<br /><span class="!text-white">leaves</span> and <span class="!text-white">flower</span>.</h2>
     </div>
@@ -114,7 +114,7 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <img src="{{ asset('assets/images/N2/LivingThings/lt34p.png') }}" class="img-lg" />
         <h2 class="stroke title">The <span class="!text-white">roots</span> take in water and nutrients from the soil
-            and<br />carry them to the <span class="!text-white">stem</span> and <span class="!text-white">leaves</span>.</h2>
+            and carry them to the <span class="!text-white">stem</span> and <span class="!text-white">leaves</span>.</h2>
     </div>
 
     {{-- slide 15 --}}
@@ -155,7 +155,7 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <img src="{{ asset('assets/images/N2/LivingThings/lt51.png') }}" class="img-md" />
         <h2 class="stroke title">When you peel the <span class="!text-white">pods</span> open, you will find red beans in
-            them.<br />The red beans are the <span class="!text-white">seeds</span>.</h2>
+            them.The red beans are the <span class="!text-white">seeds</span>.</h2>
     </div>
 
 

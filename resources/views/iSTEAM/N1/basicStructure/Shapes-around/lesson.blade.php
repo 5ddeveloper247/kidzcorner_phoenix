@@ -53,7 +53,7 @@
     {{-- slide 5 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
         <h2 class="stroke title">Look at this gift box. What <span class="!text-white">shape</span> do you see?</h2>
-        <img src="{{ asset('assets/images/pptimages/r31.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/pptimages/r31.png') }}" class="img-h-md" />
         <p class="note">Note: Encourage children to answer.</p>
     </div>
 
@@ -109,7 +109,7 @@
     <div class="flex flex-col justify-center  slide hidden">
         <div class="flex flex-col items-center justify-center">
             <h2 class="title !text-white stroke">individual Activity 1</h2>
-            <img src="{{ asset('assets/images/pptimages/r32.png') }}" class="img-md img-normal-md" />
+            <img src="{{ asset('assets/images/pptimages/r32.png') }}" class="img-h-md img-normal-md" />
         </div>
         <div class="flex flex-col items-start">
             <h2 class="title stroke text-start "><span class="!text-white">Let's do:</span><br> Let’s make a box! </h2>
@@ -327,10 +327,10 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="title stroke">Things around us are not <span class="!text-white">flat</span>.They are three dimensional
             and they take up space.</h2>
-        <div class="flex gap-[2vw]">
+        <div class="flex gap-[1vw] items-center pr-[1vw]">
 
-            <img src="{{ asset('assets/images/pptimages/r33.png') }}" class="img-md img-normal-md" />
-            <img src="{{ asset('assets/images/pptimages/r30.png') }}" class="img-md img-normal-md" />
+            <img src="{{ asset('assets/images/pptimages/r33.png') }}" class="img-h-md " />
+            <img src="{{ asset('assets/images/pptimages/r30.png') }}" class="img-h-sm " />
         </div>
     </div>
 

@@ -7,13 +7,13 @@
     <h2 class="top-title stroke">How do Levers Work?</h2>
 
     {{-- sldie 23  --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start">
+    <div class="flex !text-white flex-col t-slide justify-around  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
-                <li>Explore and learn about the characteristics of a simple machine - <br>lever</li>
+                <li>Explore and learn about the characteristics of a simple machine - lever</li>
                 <li>Understand the uses of a lever</li>
-                <li>Understand that the position of the fulcrum affects how far an <br>
+                <li>Understand that the position of the fulcrum affects how far an
                     object will be tossed from a lever</li>
                 <li>Develop understanding through inquiry </li>
             </ul>
@@ -34,19 +34,19 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start">
+    <div class="flex !text-white flex-col t-slide justify-start  text-start">
         <div>
 
             <h2 class=" t-title ">Preparations: </h2>
             <ul class="list-disc  !text-start">
-                <li>Each child: 1 long wooden ruler, 5 dominoes, some rubber bands, 1 <br>
+                <li>Each child: 1 long wooden ruler, 5 dominoes, some rubber bands, 1
                     eraser</li>
-                <li>Thread or other suitable items (to measure distance tossed) and a <br>
+                <li>Thread or other suitable items (to measure distance tossed) and a
                     few pairs of scissors</li>
             </ul>
         </div>
 
-        <img src="/assets/images/K1/sm/levers/le52.png" />
+        <img src="/assets/images/K1/sm/levers/le52.png" class="img-lg" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
@@ -55,7 +55,7 @@
 
 
     {{-- slide 25 --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start items-center  text-start">
+    <div class="flex !text-white flex-col t-slide justify-start items-center  text-start">
         <div>
             <h2 class=" t-title ">Things to consider for preparations:</h2>
             <ul class="list-disc  !text-start">
@@ -66,32 +66,32 @@
             </ul>
         </div>
 
-        <img src="/assets/images/K1/sm/levers/le47.png" />
+        <img src="/assets/images/K1/sm/levers/le47.png" class="img-md" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{--  slide 26 --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start items-center  text-start">
+    <div class="flex !text-white flex-col t-slide justify-start items-center  text-start">
 
         <div>
             <h2 class=" t-title ">Things to consider for preparations:</h2>
             <ul class="list-disc  !text-start">
-                <li>Before the lesson, prepare a lever for each child: use some rubber bands to tie <br>
-                    5dominoes together, fix them at the middle below a wooden ruler. Try to use <br>
-                    a few rubber bands to do so, so that the dominoes will not move around easily. <br>
+                <li>Before the lesson, prepare a lever for each child: use some rubber bands to tie
+                    5dominoes together, fix them at the middle below a wooden ruler. Try to use
+                    a few rubber bands to do so, so that the dominoes will not move around easily.
                     [You may get children to form his/her own lever if you think they are able to do so.]</li>
 
             </ul>
         </div>
 
-        <img src="/assets/images/K1/sm/levers/le39.png" />
+        <img src="/assets/images/K1/sm/levers/le39.png" class="img-md" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{--  slide 27 --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start items-center  text-start">
+    <div class="flex !text-white flex-col t-slide justify-start items-center  text-start">
 
         <div>
             <h2 class=" t-title ">How to do the experiment and things to consider:</h2>
@@ -103,13 +103,13 @@
             </ul>
         </div>
 
-        <img src="/assets/images/K1/sm/levers/le52.png" />
+        <img src="/assets/images/K1/sm/levers/le52.png" class="img-lg" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{--  slide 28 --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start items-center  text-start">
+    <div class="flex !text-white flex-col t-slide justify-start items-center  text-start">
         <div>
             <h2 class=" t-title ">How to do the experiment and things to consider:</h2>
             <ul class="list-disc  !text-start">
@@ -127,7 +127,7 @@
 
 
     {{--  slide 29 --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start items-center  text-start">
+    <div class="flex !text-white flex-col t-slide justify-start items-center  text-start">
         <div>
 
             <h2 class=" t-title ">How to do the experiment and things to consider:</h2>
@@ -144,7 +144,7 @@
 
 
     {{--  slide 30 --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start items-center  text-start">
+    <div class="flex !text-white flex-col t-slide justify-start items-center  text-start">
         <div>
             <h2 class=" t-title ">How to do the experiment and things to consider:</h2>
             <ul class="list-disc  !text-start">
@@ -162,7 +162,7 @@
 
 
     {{--  slide 31 --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start items-center  text-start">
+    <div class="flex !text-white flex-col t-slide justify-start items-center  text-start">
         <div>
             <h2 class=" t-title ">How to do the experiment and things to consider:</h2>
             <ul class="list-disc  !text-start">
@@ -173,43 +173,48 @@
                     paste the thread in his/her Learning Journal.
             </ul>
         </div>
-        <img src="/assets/images/K1/sm/levers/le52.png" />
+        <img src="/assets/images/K1/sm/levers/le52.png" class="img-lg" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
-    {{-- slide 32 --}}
-    <div class="slide flex t-slide  flex-col  text-2xl text-start !text-white">
-        <div>
-            <h2 class="t-title">Notes:</h2>
-            <ul class="list-disc">
-                <li class="flex whitespace-nowrap">
-                    If you see
-                    <span class="info-btn">
 
-                        <img src="{{ asset('assets/images/pptimages/video.png') }}" />
+    {{-- slide 32 --}}
+    <div class=" t-slide text-start flex items-center !text-white !w-[53vw]">
+        <div>
+            <h2 class="t-title ">Notes:</h2>
+            <ul class="list-disc space-y-3">
+                <li>
+                    <span class="relative">
+                        If you see <span class="opacity-0">---</span>next to a picture, click on the picture to watch the
+                        video.
+                        <img class="t-video-btn absolute top-[-1vw] left-[7.6vw]"
+                            src="{{ asset('assets/images/pptimages/video.png') }}" />
                     </span>
-                    next to a picture, click on the picture to watch the video.
                 </li>
-                <li class="flex whitespace-nowrap">
-                    If you see
-                    <span> <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="video-btn" />
-                    </span>
-                    , click on it for additional information or activity.
+
+                <li>
+                    Always ask questions to encourage children to think and share their ideas first before giving out
+                    any information.
                 </li>
-                <li>Always ask questions to encourage children to think and share their ideas first before giving
-                    out
-                    any information.</li>
+
                 <li>Emphasise and use the keywords during hands-on sessions.</li>
-                <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
+
+                <li>
+                    Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
                 </li>
-                <li class="flex whitespace-nowrap">
-                    Click on this shortcut icon
-                    <span> <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" class="home-btn" />
+
+                <li>
+                    <span class="relative">
+                        Click on this shortcut icon <span class="opacity-0">---</span> if you need to go to some parts of
+                        the lesson quickly.
+                        <img src="{{ asset('assets/images/pptimages/home-btn.png') }}"
+                            class="t-home-btn absolute top-0 left-[19vw]" />
                     </span>
-                    if you need to go to some parts of the lesson quickly.
                 </li>
+
             </ul>
         </div>
+
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
@@ -217,12 +222,12 @@
 
 
     {{--  slide 32 --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start items-center  text-start">
+    <div class="flex !text-white flex-col t-slide justify-start items-center  text-start">
 
-        <h2 class="title stroke">How will you get the longest toss of an eraser? Do you get the
+        <h2 class="text-[#f7b94a] text-[1.5vw] stroke">How will you get the longest toss of an eraser? Do you get the
             longest toss when the fulcrum is placed near to or far from the eraser?</h2>
 
-        <img src="/assets/images/K1/sm/levers/le42.png" class="large-img2" />
+        <img src="/assets/images/K1/sm/levers/le42.png" class="img-sm" />
 
         <p class="note">
             Note: Plot children's prediction on the graph. At the end, put a star to mark the final result.</p>
@@ -231,15 +236,16 @@
     </div>
 
 
+
     {{--  slide 33 --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start items-center  text-start">
+    <div class="flex !text-white flex-col t-slide justify-start items-center  text-start">
 
         <h2 class="title stroke !text-center">Learning Centre Idea </h2>
         <div>
 
-            <h2 class="t-title">Things with Levers</h2>
+            <h2 class="text-[2vw] text-white stroke">Things with Levers</h2>
+            <h2 class="t-title">What and how to set up:</h2>
             <ul>
-                <li>What and how to set up:</li>
                 <li> Place a variety of common things with levers here. Some examples
                     are scooter, paint roller, pizza cutter, screwdriver.</li>
             </ul>
@@ -259,33 +265,36 @@
 
 
     {{--  slide 34 --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start items-center  text-start">
+    <div class="flex !text-white flex-col t-slide justify-start items-center  text-start">
         <h2 class="!text-center  title stroke">Learning Centre Idea </h2>
         <div>
 
-            <h2 class="t-title">How do you balance the lever?</h2>
+            <h2 class="text-[2vw] text-white stroke">How do you balance the lever?</h2>
+            <h2 class="t-title">What and how to set up:</h2>
             <ul class="!text-start">
-                <li>What and how to set up:</li>
                 <li>
                     Place some levers (refer to the preparations) and small objects like
                     blocks and books of different weights here.</li>
             </ul>
         </div>
 
-        <ul>
+        <div>
+
             <h2 class="t-title">What to do:</h2>
-            <li>
-                1. Choose any two things that you like and place them on each end
-                of a lever.</li>
-            <li> 2. Change the position of the fulcrum to make the lever balance.</li>
-        </ul>
+            <ul>
+                <li>
+                    1. Choose any two things that you like and place them on each end
+                    of a lever.</li>
+                <li> 2. Change the position of the fulcrum to make the lever balance.</li>
+            </ul>
+        </div>
 
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
 
-
+    {{-- ==================== --}}
     {{-- Buttons --}}
     <div class="down-btn-container">
         <button class="doneButton">
@@ -324,7 +333,7 @@
 @push('script')
     <script>
         document.addEventListener("DOMContentLoaded", () => {
-            const slides = document.querySelectorAll(".slide");
+            const slides = document.querySelectorAll(".t-slide");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
             const doneButton = document.querySelector(".doneButton"); //   DONE button
@@ -370,7 +379,7 @@
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('K1simpleMachines') }}";
+                    window.location.href = "{{ route('LeversSelection') }}";
                 });
             }
 

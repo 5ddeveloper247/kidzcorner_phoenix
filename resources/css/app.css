@@ -346,6 +346,11 @@ span img {
         height: 24vw !important;
         font-size: 1vw !important;
     }
+    .drawable2 {
+        width: 45vw !important;
+        height: 22vw !important;
+        font-size: 1vw !important;
+    }
 
     .drawable p {
         font-size: 1.2vw !important;

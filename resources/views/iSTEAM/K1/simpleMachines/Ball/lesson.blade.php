@@ -7,7 +7,7 @@
 
 
     {{-- Slide 1 --}}
-    <div class="slide flex flex-col items-center justify-center gap-[18rem] ">
+    <div class="slide flex flex-col items-center justify-between h-[18vw]">
         <h2 class="title stroke">Children, today we are going to build another
             Rube Goldberg Machine!</h2>
         <p class="note ">Note: Have children recall and say what a Rube Goldberg Machine is
@@ -53,7 +53,7 @@
 
     {{-- Slide 4 --}}
     <div class="slide hidden flex flex-col items-center justify-center ">
-        <img src="/assets/images/K1/sm/ball/ba2.png" />
+        <img src="/assets/images/K1/sm/ball/ba2.png" class="img-xl" />
 
         <h2 class="title stroke">What are the things used in this machine?</h2>
     </div>
@@ -62,7 +62,7 @@
 
     {{-- Slide 5  --}}
     <div class="slide hidden flex flex-col items-center justify-center ">
-        <img src="/assets/images/K1/sm/ball/ba3.png" />
+        <img src="/assets/images/K1/sm/ball/ba3.png" class="img-xl" />
 
     </div>
 
@@ -104,7 +104,7 @@
 
 
     {{-- sldie 8 --}}
-    <div class="slide flex flex-col items-center justify-around h-[50vh] ">
+    <div class="slide flex flex-col items-center justify-around h-[28vw] ">
         <h2 class="title stroke !text-white ">Class Activity </h2>
         <ul class="lesson-ul text-start title stroke">
             <li>Mission</li>
@@ -121,7 +121,7 @@
 
 
     {{-- sldie 9 --}}
-    <div class="slide flex flex-col items-center justify-between h-[50vh]">
+    <div class="slide flex flex-col items-center justify-between h-[28vw]">
         <div class="text-start title stroke">
             <h2>Possible questions during hands-on session:</h2>
             <ul class="lesson-ul  ">
@@ -142,7 +142,7 @@
     {{-- sldie 10 --}}
     <div class="slide hidden flex flex-col items-center justify-center ">
         <h2 class="title stroke !text-white">Reflection</h2>
-        <img src="/assets/images/K1/sm/ball/ba5.png" />
+        <img src="/assets/images/K1/sm/ball/ba5.png" class="img-lg" />
         <h2 class="title stroke">Why do you think the ball rolls down? </h2>
 
     </div>
@@ -168,7 +168,7 @@
 
     {{-- sldie 12 --}}
     <div class="slide hidden flex flex-col items-center justify-center ">
-        <img src="/assets/images/K1/sm/ball/ba5.png" />
+        <img src="/assets/images/K1/sm/ball/ba5.png" class="img-lg" />
         <h2 class="title stroke">Why do you think the ball will always hit the first book?</h2>
 
     </div>
@@ -176,7 +176,7 @@
 
     {{-- sldie 13 --}}
     <div class="slide hidden flex flex-col items-center justify-center ">
-        <img src="/assets/images/K1/sm/ball/ba6.png" />
+        <img src="/assets/images/K1/sm/ball/ba6.png" class="img-lg" />
         <h2 class="title stroke">The ball will always hit the first book
             because a track is used to direct the ball.</h2>
 
@@ -186,7 +186,7 @@
 
     {{-- sldie 14 --}}
     <div class="slide hidden flex flex-col items-center justify-center ">
-        <img src="/assets/images/K1/sm/ball/ba7.png" />
+        <img src="/assets/images/K1/sm/ball/ba7.png" class="img-lg" />
         <h2 class="title stroke">Why does the first book fall?</h2>
 
     </div>
@@ -194,7 +194,7 @@
 
     {{-- sldie 15 --}}
     <div class="slide hidden flex flex-col items-center justify-center ">
-        <img src="/assets/images/K1/sm/ball/ba7.png" />
+        <img src="/assets/images/K1/sm/ball/ba7.png" class="img-lg" />
         <h2 class="title stroke">The first book falls because of
             the push from the moving ball.</h2>
 
@@ -219,7 +219,7 @@
 
     {{-- sldie 17 --}}
     <div class="slide hidden flex flex-col items-center justify-center ">
-        <img src="/assets/images/K1/sm/ball/ba8.png" />
+        <img src="/assets/images/K1/sm/ball/ba8.png" class="img-lg" />
         <h2 class="title stroke">Why do all the books fall one after another?.</h2>
 
     </div>
@@ -257,7 +257,7 @@
 
     {{-- sldie 20 --}}
     <div class="slide hidden flex flex-col items-center justify-center ">
-        <img src="/assets/images/K1/sm/ball/ba8.png" />
+        <img src="/assets/images/K1/sm/ball/ba8.png" class="img-lg" />
         <h2 class="title stroke">How do you make sure that the books will
             always fall one after another?</h2>
 
@@ -268,7 +268,7 @@
 
     {{-- sldie 21 --}}
     <div class="slide hidden flex flex-col items-center justify-center ">
-        <img src="/assets/images/K1/sm/ball/ba10.png" />
+        <img src="/assets/images/K1/sm/ball/ba10.png" class="img-lg" />
         <h2 class="title stroke">The positioning of books is important
             to create a <span class="!text-white">domino effect</span>.</h2>
 
@@ -295,7 +295,7 @@
 
     {{-- sldie 23 --}}
     <div class="slide hidden flex flex-col items-center justify-center ">
-        <img src="/assets/images/K1/sm/ball/ba11.png" />
+        <img src="/assets/images/K1/sm/ball/ba11.png" class="img-lg" />
         <h2 class="title stroke">The ruler needs to be placed within the area
             where the last book fall.</h2>
 
@@ -304,7 +304,7 @@
 
     {{-- sldie 24 --}}
     <div class="slide hidden flex flex-col items-center justify-center ">
-        <img src="/assets/images/K1/sm/ball/ba12.png" />
+        <img src="/assets/images/K1/sm/ball/ba12.png" class="img-lg" />
         <h2 class="title stroke">Why do you think the ball launches into the air?</h2>
 
     </div>
@@ -371,7 +371,7 @@
 
     {{-- sldie 29 --}}
     <div class="slide hidden flex flex-col items-center justify-center ">
-        <img src="/assets/images/K1/sm/ball/ba13.png" />
+        <img src="/assets/images/K1/sm/ball/ba13.png" class="img-xl" />
         <h2 class="title stroke">Actually, this is a <span class="!text-white">lever</span> when the ruler is placed in
             this way.A <span class="!text-white">lever</span> is a bar rested on a fixed part called <span
                 class="!text-white">fulcrum</span>.</h2>
@@ -380,7 +380,7 @@
 
     {{-- sldie 30 --}}
     <div class="slide hidden flex flex-col items-center justify-center ">
-        <img src="/assets/images/K1/sm/ball/ba14.png" />
+        <img src="/assets/images/K1/sm/ball/ba14.png" class="img-xl" />
         <h2 class="title stroke">Can you point out the fulcrum of this lever
             What will happen if you push one end of it down?
         </h2>
@@ -415,7 +415,7 @@
 
 
 
-
+    {{-- ============================== --}}
     {{-- Complete button --}}
     <div class="down-btn-container">
         <button class="doneButton">
@@ -477,7 +477,7 @@
 
             // CONFIGURE YOUR ROUTES HERE
             const returnRouteFromFirstSlide = "{{ route('BallSelection') }}";
-            const doneButtonRoute = "{{ route('BallSelection') }}";
+            const doneButtonRoute = "{{ route('K1simpleMachines') }}";
 
             // Pause all videos when changing slides
             function pauseAllVideos() {

@@ -6,7 +6,7 @@
     <h2 class="top-title stroke">What are Strcutures?</h2>
 
     {{-- sldie 1  --}}
-    <div class="flex !text-white flex-col justify-start text-start t-slide">
+    <div class="flex !text-white flex-col justify-around text-start t-slide">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -48,7 +48,7 @@
                     accurate.</li>
             </ul>
         </div>
-        <div class="flex items-center gap-5">
+        <div class="flex items-center gap-[.5   vw]">
             <img src="{{ asset('assets/images/N2/structure/str/st13.png') }}" class="img-lg" />
             <p>5 sets for square structure per
                 set of DDQ blocks.</p>
@@ -64,7 +64,7 @@
             <ul class="list-disc space-y-[3vw]">
                 <li>Put aside the following parts from the DDQ blocks set until the later
                     lessons to avoid distraction to the children,</li>
-                <img src="{{ asset('assets/images/N2/structure/str/st37.png') }}" class="img-xl" />
+                <img src="{{ asset('assets/images/N2/structure/str/st37.png') }}" class="img-lg" />
                 <li>Print out the learning journals required.</li>
             </ul>
         </div>
