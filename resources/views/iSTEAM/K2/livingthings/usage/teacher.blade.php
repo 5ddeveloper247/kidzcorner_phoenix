@@ -106,7 +106,7 @@
                     is not too moist and slippery). Can also get children to make a few of the same
                     thumbprint on the mirror and develop only those that are clear.]</li>
             </ul>
-            <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u12.png') }}" class="!max-w-[40vw] h-[11vw]" />
+            <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u12.png') }}" class="img-lg" />
         </div>
     </div>
 
@@ -122,7 +122,7 @@
                     powder may smear the print.]</li>
             </ul>
         </div>
-        <video id="video1" class="video1 pointer-events-none">
+        <video id="video1" class="video-md pointer-events-none">
             <source src="{{ asset('assets/images/K2/videos/189.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -146,7 +146,7 @@
                     away (only the bristle tips of the brush will touch the fingerprint surface).]</li>
             </ul>
         </div>
-        <video id="video2" class="video1 pointer-events-none">
+        <video id="video2" class="video-md pointer-events-none">
             <source src="{{ asset('assets/images/K2/videos/190.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -169,7 +169,7 @@
                     mirror and redo the activity from step 1.] </li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u15.png') }}" class="w-[500px]" />
+        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u15.png') }}" class="img-md" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
@@ -183,7 +183,7 @@
                     [Demonstrate how to do it. Remind children to hold only the edges of the tape.]</li>
             </ul>
         </div>
-        <video id="video3" class="video1 pointer-events-none">
+        <video id="video3" class="video-md pointer-events-none">
             <source src="{{ asset('assets/images/K2/videos/191.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -208,7 +208,7 @@
                     children to clean the mirror and redo the activity from step 1.]</li>
             </ul>
         </div>
-        <video id="video4" class="video1 pointer-events-none">
+        <video id="video4" class="video-md pointer-events-none">
             <source src="{{ asset('assets/images/K2/videos/192.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -230,7 +230,7 @@
                     to repeat the activity to practise dusting and lifting skills.]</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u18.png') }}" class="w-[500px]" />
+        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u18.png') }}" class="img-md" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
@@ -264,7 +264,7 @@
         <div>
             <ul class="list-disc !text-start">
                 <h2 class=" t-title">Preparations for Class Activity - Solve A Case:</h2>
-                <li>A folder</li> <br>
+                <li>A folder</li>
                 <h2 class=" t-title">How to carry out Solve A Case activity and things to consider:</h2>
                 <li>Note: Print out all the details of the case beforehand and put them in a folder
                     (total of 10 pages from next page onwards).</li>
@@ -291,16 +291,16 @@
         <div>
             <ul class=" !text-start">
                 <h2 class=" t-title">Solve A Case:</h2>
-                <li>What happened?</li> <br>
+                <li>What happened?</li>
                 <li>Teacher Sue walked into the art and craft room this morning, and was shocked to
                     see that the room was in
-                    <br>
+
                     a mess.
-                </li> <br>
-                <li>She noticed that some paints were spilled on the floor, some playdough was <br>
+                </li>
+                <li>She noticed that some paints were spilled on the floor, some playdough was
                     left on the shelf and a
-                    half-eaten muffin together with a broken plate were <br> left on the floor next to the activity table
-                </li> <br>
+                    half-eaten muffin together with a broken plate were left on the floor next to the activity table
+                </li>
                 <li>Who did it? Teacher Sue quickly gather the evidence around
                     the room.</li>
 
@@ -315,11 +315,11 @@
     <div class="flex t-slide  flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" !text-start title stroke"> <span class="!text-white font bold">Evidence 1:</span> Based on the
-                statements of other teachers, 6 <br>
+                statements of other teachers, 6
                 children below entered the art and craft room while waiting
                 for their parents to pick them up yesterday evening.</h2>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u20.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u20.png') }}" class="img-xl" />
     </div>
 
     {{-- slide 12 --}}
@@ -329,7 +329,7 @@
                 shown were found on the floor
                 near the door.</h2>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u21.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u21.png') }}" class="img-lg" />
     </div>
 
     {{-- slide 12 --}}
@@ -339,14 +339,14 @@
                 thumbprints as shown were found at
                 different parts of the room</h2>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u22.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u22.png') }}" class="img-lg" />
     </div>
 
     {{-- slide 12 --}}
     <div class="flex t-slide  flex-col justify-start items-center  text-start">
         <div>
-            <h2 class=" !text-start title stroke">Profile of the suspect 1:</h2> <br>
-            <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u23.png') }}" />
+            <h2 class=" !text-start title stroke">Profile of the suspect 1:</h2>
+            <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u23.png') }}" class="img-xl" />
         </div>
     </div>
 
@@ -354,35 +354,35 @@
     <div class="flex t-slide  flex-col justify-start items-center  text-start">
         <div>
             <h2 class=" !text-start title stroke">Profile of the suspect 2:</h2><br>
-            <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u24.png') }}" />
+            <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u24.png') }}" class="img-xl" />
         </div>
     </div>
     {{-- slide 12 --}}
     <div class="flex t-slide  flex-col justify-start items-center  text-start">
         <div>
             <h2 class=" !text-start title stroke">Profile of the suspect 3:</h2><br>
-            <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u25.png') }}" />
+            <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u25.png') }}" class="img-xl" />
         </div>
     </div>
     {{-- slide 12 --}}
     <div class="flex t-slide  flex-col justify-start items-center  text-start">
         <div>
             <h2 class=" !text-start title stroke">Profile of the suspect 4:</h2><br>
-            <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u26.png') }}" />
+            <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u26.png') }}" class="img-xl" />
         </div>
     </div>
     {{-- slide 12 --}}
     <div class="flex t-slide  flex-col justify-start items-center  text-start">
         <div>
             <h2 class=" !text-start title stroke">Profile of the suspect 5:</h2><br>
-            <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u27.png') }}" />
+            <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u27.png') }}" class="img-xl" />
         </div>
     </div>
     {{-- slide 12 --}}
     <div class="flex t-slide  flex-col justify-start items-center  text-start">
         <div>
             <h2 class=" !text-start title stroke">Profile of the suspect 6:</h2><br>
-            <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u28.png') }}" />
+            <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u28.png') }}" class="img-xl" />
         </div>
     </div>
 
@@ -390,59 +390,71 @@
 
 
     {{-- sldie 12 --}}
-    <div class="flex t-slide  flex-col justify-start   text-start !text-white">
-        <div class="flex w-[100%] items-center justify-between">
-            <div>
-                <h2 class=" t-title">Notes:</h2>
-                <ul class="list-disc leading-relaxed">
-                    <li class="flex whitespace-nowrap">
-                        If you see
-                        <span>
-                            <img src="{{ asset('assets/images/pptimages/video.png') }}" />
-                        </span>
-                        next to a picture,click on the picture to watch the video.
-                    </li>
-                    <li>Emphasise and use the keywords during hands-on sessions.</li>
-                    <li>Print out the Learning Journal (if any) for every child to complete at the end
-                        of the lesson.
-                    </li>
-                    <li class="flex whitespace-nowrap">
-                        Click on this shortcut icon
-                        <span>
-                            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" class="home-btn" />
-                        </span>
-                        if you need to go to some parts of the lesson quickly.
-                    </li>
-                </ul>
-            </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1"
-                alt="Teacher" />
+    <div class=" t-slide text-start flex items-center !text-white !w-[53vw]">
+        <div>
+            <h2 class="t-title ">Notes:</h2>
+            <ul class="list-disc space-y-3">
+                <li>
+                    <span class="relative">
+                        If you see <span class="opacity-0">---</span>next to a picture, click on the picture to watch the
+                        video.
+                        <img class="t-video-btn absolute top-[-1vw] left-[7.6vw]"
+                            src="{{ asset('assets/images/pptimages/video.png') }}" />
+                    </span>
+                </li>
+
+                <li>
+                    Always ask questions to encourage children to think and share their ideas first before giving out
+                    any information.
+                </li>
+
+                <li>Emphasise and use the keywords during hands-on sessions.</li>
+
+                <li>
+                    Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
+                </li>
+
+                <li>
+                    <span class="relative">
+                        Click on this shortcut icon <span class="opacity-0">---</span> if you need to go to some parts of
+                        the lesson quickly.
+                        <img src="{{ asset('assets/images/pptimages/home-btn.png') }}"
+                            class="t-home-btn absolute top-0 left-[19vw]" />
+                    </span>
+                </li>
+
+            </ul>
         </div>
+
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- slide 13 --}}
     <div class="text-white flex flex-col items-center justify-center  text-start t-slide hidden">
         <h2 class="text-center title stroke">Learning Centre Idea</h2>
-        <div class="flex flex-col gap-10">
-            <ul>
-                <h2 class="!text-white title stroke">Fingerprints Art</h2>
-                <h2 class="t-title">What and how to set up:</h2>
-                <li>Place masks, gloves, brushes, fingerprint powder and a few things
-                    with different surface texture and material like glass, metal, paper,
-                    textile and wood here.</li>
-            </ul>
-
+        <div class="space-y-[1vw]">
+            <h2 class="!text-white title stroke">Fingerprints Art</h2>
             <div>
-                <h2 class="t-title">What to do:</h2>
-                <ul class="list-decimal">
-                    <li>Press your thumb firmly on the surface of different things.</li>
-                    <li>With mask and gloves on, dust for your prints to find out what</li>
-                    <li>Share the findings with your teacher and friends!</li>
-                </ul>
 
+                <h2 class="t-title">What and how to set up:</h2>
+                <ul>
+                    <li>Place masks, gloves, brushes, fingerprint powder and a few things
+                        with different surface texture and material like glass, metal, paper,
+                        textile and wood here.</li>
+                </ul>
             </div>
         </div>
+        <div>
+            <h2 class="t-title">What to do:</h2>
+            <ul class="list-decimal">
+                <li>Press your thumb firmly on the surface of different things.</li>
+                <li>With mask and gloves on, dust for your prints to find out what</li>
+                <li>Share the findings with your teacher and friends!</li>
+            </ul>
+
+        </div>
+
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" />
     </div>
 

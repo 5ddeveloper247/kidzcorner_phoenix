@@ -7,7 +7,7 @@
     <h2 class="top-title stroke">What are Bacteria?</h2>
 
     {{-- slide 1  --}}
-    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
+    <div class="t-slide flex  !text-white flex-col justify-around  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -40,7 +40,7 @@
     </div>
 
     {{-- slide 2 --}}
-    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
+    <div class="t-slide flex  !text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
@@ -70,12 +70,16 @@
 
 
     {{-- slide  3 --}}
-    <div class="slide flex flex-col justify-start items-center  t-slide  ">
-        <ul class="!text-white ! !text-start">
-            <li>How to grow bacteria and things to consider: <br> 1.Use a cotton bud to go through surface of a dirty shoe
-                to pick up sample bacteria. [Invite and guide a
-                child to do the step with hands wearing gloves .]</li>
-        </ul>
+    <div class="flex flex-col justify-start items-center  t-slide  ">
+        <div>
+
+            <h2 class="t-title">How to grow bacteria and things to consider:</h2>
+            <ul class="!text-white ! !text-start list-decimal">
+                <li>Use a cotton bud to go through surface of a dirty shoe
+                    to pick up sample bacteria. [Invite and guide a
+                    child to do the step with hands wearing gloves .]</li>
+            </ul>
+        </div>
         <video id="video1" class="video1 pointer-events-none">
             <source src="{{ asset('assets/images/K2/videos/193.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
@@ -90,16 +94,22 @@
 
     {{-- slide 4 --}}
 
-    <div class="slide flex flex-col justify-start items-center  t-slide  ">
-        <ul class="!text-white ! !text-start">
-            <li>How to grow bacteria and things to consider: <br> 2.Remove the lid of a petri dish, use the cotton bud to
-                lightly draw many lines on the agar and close the lid again. [Invite and guide another child to do the step
-                with hands wearing gloves. Once done, throw away the used cotton bud. To see obvious result at the end, make
-                sure to draw many lines on the agar.]</li>
-        </ul>
+    <div class="flex flex-col justify-start items-center  t-slide  ">
+        <div>
+
+            <h2 class="t-title">How to grow bacteria and things to consider:</h2>
+            <ol class="!text-white ! !text-start list-decimal" start="2">
+                <li>Remove the lid of a petri dish, use the cotton bud to
+                    lightly draw many lines on the agar and close the lid again. [Invite and guide another child to do the
+                    step
+                    with hands wearing gloves. Once done, throw away the used cotton bud. To see obvious result at the end,
+                    make
+                    sure to draw many lines on the agar.]</li>
+            </ol>
+        </div>
         <div class="flex gap-1 items-start">
             <img src="{{ asset('/assets/images/K2/livingthings/bacteria/b28.png') }}" class="!w-[14vw]" />
-            <video id="video2" class="video1 pointer-events-none">
+            <video id="video2" class="video-md pointer-events-none">
                 <source src="{{ asset('assets/images/K2/videos/194.mp4') }}" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
@@ -114,244 +124,112 @@
 
     {{-- slide  5 --}}
 
-    <div class="slide flex flex-col justify-start items-center  t-slide  ">
-        <ul class="!text-white ! !text-start">
-            <li>How to grow bacteria and things to consider: <br> 3.Label the sampled petri dish. [Invite and guide another
-                child to do the step . Small labels are preferred, so help to write on the labels if needed.]</li>
-        </ul>
+    <div class="flex flex-col justify-start items-center  t-slide  ">
+        <div>
+            <h2 class="t-title">How to grow bacteria and things to consider:</h2>
+            <ol class="!text-white ! !text-start list-decimal" start="3">
+                <li>Label the sampled petri dish. [Invite and guide another
+                    child to do the step . Small labels are preferred, so help to write on the labels if needed.]</li>
+            </ol>
+        </div>
 
-        <img src="{{ asset('/assets/images/K2/livingthings/bacteria/b30.png') }}" />
+        <img src="{{ asset('/assets/images/K2/livingthings/bacteria/b30.png') }}" class="img-md" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
     {{-- slide  6 --}}
 
-    <div class="slide flex flex-col justify-start items-center  t-slide  ">
-        <ul class="!text-white ! !text-start">
-            <li>How to grow bacteria and things to consider: <br> 4.Spray on the surface of the shoe. [Invite and guide
-                another child to do the step. Help if needed.]</li>
-        </ul>
-        <img src="{{ asset('/assets/images/K2/livingthings/bacteria/b31.png') }}" />
+    <div class="flex flex-col justify-start items-center  t-slide  ">
+        <div>
+
+            <h2 class="t-title">How to grow bacteria and things to consider:</h2>
+            <ol class="!text-white ! !text-start list-decimal" start="4">
+                <li>Spray on the surface of the shoe. [Invite and guide
+                    another child to do the step. Help if needed.]</li>
+            </ol>
+        </div>
+        <img src="{{ asset('/assets/images/K2/livingthings/bacteria/b31.png') }}" class="img-md" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
     {{-- slide 7 --}}
 
-    <div class="slide flex flex-col justify-start items-center  t-slide  ">
-        <ul class="!text-white ! !text-start">
-            <li>How to grow bacteria and things to consider: <br> 5.Use a new cotton bud to repeat step 1-3. [Invite and
-                guide different children to do the steps. Help if needed. Remember to use new cotton bud for each sample.]
-            </li>
-        </ul>
-        <img src="{{ asset('/assets/images/K2/livingthings/bacteria/b34.png') }}" class="w-img3" />
+    <div class="flex flex-col justify-start items-center  t-slide  ">
+        <div>
+
+            <h2 class="t-title">How to grow bacteria and things to consider:</h2>
+            <ol class="!text-white ! !text-start list-decimal" start="5">
+                <li>Use a new cotton bud to repeat step 1-3. [Invite and
+                    guide different children to do the steps. Help if needed. Remember to use new cotton bud for each
+                    sample.]
+                </li>
+            </ol>
+        </div>
+        <img src="{{ asset('/assets/images/K2/livingthings/bacteria/b34.png') }}" class="img-xl" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- sldie 8 --}}
-    <div class=" slide t-slide flex  !text-white flex-col items-center justify-start  text-start">
+    <div class="t-slide flex  !text-white flex-col  justify-start  text-start">
         <div>
             <h2 class=" t-title">What you need to know or do before the lesson:</h2>
-            <ul class="list-disc ">
-                <li>Name each robot with a unique identifier (preferably short). Label each robot
-                    and a matching tablet with a nametag (sample shown: the nametag is pasted at
-                    the back of the robot and on the cover of a tablet). </li>
-            </ul>
+            <ol class="list-decimal " start="6">
+                <li>Put both the sampled petri dishes in a box and keep the box at a cooling place . [Teacher to do the
+                    step. For safety reason, use tape to seal the sides of all the petri dishes to prevent children from
+                    opening them . Tell children that bacteria need time to grow, so we'll check the results at least 10
+                    days later. keep the box at a place with temperature between 24-29 C.]</li>
+                <ol>
         </div>
 
-        <img src="{{ asset('assets/images/K1/coding/cd/cd19.png') }}" alt="Teacher" class="w-img" />
+        <img src="{{ asset('assets/images/K2/livingthings/bacteria/b33.png') }}" class="img-xs" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
-
-    {{-- sldie 9 --}}
-    <div class=" slide t-slide flex  !text-white flex-col items-center justify-start  text-start">
+    {{-- slide 9 --}}
+    <div class=" t-slide text-start flex items-center !text-white !w-[53vw]">
         <div>
-            <h2 class=" t-title">What you need to know or do before the lesson:</h2>
-            <ul class="list-disc ">
-                <li>Download Blockly Application from App Store (or Google Play) for each tablet.</li>
+            <h2 class="t-title ">Notes:</h2>
+            <ul class="list-disc space-y-3">
+                <li>
+                    <span class="relative">
+                        If you see <span class="opacity-0">---</span>next to a picture, click on the picture to watch the
+                        video.
+                        <img class="t-video-btn absolute top-[-1vw] left-[7.6vw]"
+                            src="{{ asset('assets/images/pptimages/video.png') }}" />
+                    </span>
+                </li>
+                <li>
+                    Always ask questions to encourage children to think and share their ideas first before giving out
+                    any information.
+                </li>
+
+                <li>Emphasise and use the keywords during hands-on sessions.</li>
+
+                <li>
+                    Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
+                </li>
+
+                <li>
+                    <span class="relative">
+                        Click on this shortcut icon <span class="opacity-0">---</span> if you need to go to some parts of
+                        the lesson quickly.
+                        <img src="{{ asset('assets/images/pptimages/home-btn.png') }}"
+                            class="t-home-btn absolute top-0 left-[19vw]" />
+                    </span>
+                </li>
+
             </ul>
         </div>
 
-        <img src="{{ asset('assets/images/K1/coding/cd/cd20.png') }}" alt="Teacher" class="w-img" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- sldie 10 --}}
-    <div class=" slide t-slide flex  !text-white flex-col items-center justify-start  text-start">
-        <div>
-            <h2 class=" t-title">What you need to know or do before the lesson:</h2>
-            <ul class="list-disc ">
-                <li>Blockly is a drag-and-drop basic programming application. Here are the
-                    different features in Blockly.</li>
-            </ul>
-        </div>
-
-        <img src="{{ asset('assets/images/K1/coding/cd/cd21.png') }}" alt="Teacher" class="w-img" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
-    </div>
-
-
-    {{-- sldie 11 --}}
-    <div class=" slide t-slide flex  !text-white flex-col items-center justify-start  text-start">
-        <div>
-            <h2 class=" t-title">What you need to know or do before the lesson:</h2>
-            <ul class="list-disc ">
-                <li>Configure each robot using Blockly on its matching tablet with these steps:
-                    <ul class="list-decimal">
-                        <li>Turn on the robot.</li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-
-        <img src="{{ asset('assets/images/K1/coding/cd/cd22.png') }}" alt="Teacher" class="w-img" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
-    </div>
-
-
-    {{-- sldie 11 --}}
-    <div class=" slide t-slide flex  !text-white flex-col items-center justify-start  text-start">
-        <div>
-            <h2 class=" t-title">What you need to know or do before the lesson:</h2>
-            <ul class="list-disc ">
-                <li>Configure each robot using Blockly on its matching tablet with these steps:
-                    <ul>
-                        <li>2. Synchronize the robot with Blockly (visual guide: 2 steps). </li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-
-        <img src="{{ asset('assets/images/K1/coding/cd/cd27.png') }}" alt="Teacher" />  
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
-    </div>
-
-
-    {{-- sldie 12 --}}
-    <div class=" slide t-slide flex  !text-white flex-col items-center justify-start  text-start">
-        <div>
-            <h2 class=" t-title">What you need to know or do before the lesson:</h2>
-            <ul class="list-disc ">
-                <li>Configure each robot using Blockly on its matching tablet with these steps:
-                    <ul>
-                        <li>3. Update the name of the robot (visual guide: 3 steps). </li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-
-        <img src="{{ asset('assets/images/K1/coding/cd/cd23.png') }}" alt="Teacher" />
-
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
-    </div>
-
-
-    {{-- sldie 13 --}}
-    <div class=" slide t-slide flex  !text-white flex-col items-center justify-start  text-start">
-        <div>
-            <h2 class=" t-title">What you need to know or do before the lesson:</h2>
-            <ul class="list-disc ">
-                <li>Configure each robot using Blockly on its matching tablet with these steps:
-                    <ul>
-                        <li>4. Disconnect the robot from Blockly (visual guide: 3 steps). [Note: Do this
-                            step every time you want children to practise on how to synchronise a robot
-                            with Blockly, especially during hands-on session 2 of Lesson 1. Without this
-                            step, Blockly will auto sync with its matching robot every time you turn on
-                            the robot.]</li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-
-        <img src="{{ asset('assets/images/K1/coding/cd/cd24.png') }}" alt="Teacher" />
-
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
-    </div>
-
-
-    {{-- sldie 14 --}}
-    <div class=" slide t-slide flex  !text-white flex-col items-center justify-start  text-start">
-        <div>
-            <h2 class=" t-title">What you need to know or do before the lesson:</h2>
-            <ul class="list-disc ">
-                <li>If a robot keeps moving on its own, it means that it's yet to be synchronised </li>
-                <li>To find out how to take care or clean the robot, kindly watch this video:
-                    <a href="" class="text-[#F7B94A]">
-                        https://www.youtube.com/watch?v=zXlp_mzMxLO&index=2&list=PLXSgvv3NnVuQhv
-                        8Yp2ryTcQaqie6-EmLP</a>
-                </li>
-                <li>For additional information, go to <a href=""
-                        class="text-[#F7B94A]">https://www.makewonder.com/start/products</a>.</li>
-            </ul>
-        </div>
-
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
-    </div>
-
-
-    {{-- sldie 15 --}}
-    <div class=" slide flex  !text-white flex-col justify-start t-slide text-start">
-        <div>
-            <h2 class=" t-title">Reminders or advice during hands-on session:</h2>
-            <ul class="list-disc ">
-                <li>Always hold a robot or a tablet with both your hands (to show your care and prevent the tools from
-                    spoiling easily).</li>
-                <li>Never place your hands on the wheels of the robot (prevent yourself from getting hurt).</li>
-                <li>Never hold the robot by its head (prevent it from spoiling easily).</li>
-                <li>Never push and stop the robot from moving once you turn on a programme (prevent it from spoiling
-                    easily).</li>
-                <li>Be patient and take turns when using the different tools.</li>
-            </ul>
-        </div>
-        <div>
-            <h2 class=" t-title">Possible questions during hands-on sessions:</h2>
-            <ul class="list-disc ">
-                <li>What is the application used to programme the robot?</li>
-                <li>How do you make sure that Blockly finds the correct robot?</li>
-            </ul>
-        </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
-    </div>
-
-    {{-- slide 16 --}}
-    <div class="slide flex t-slide  flex-col justify-start   text-start !text-white">
-        <div class="flex w-[100%] items-center justify-between">
-            <div>
-                <h2 class=" t-title">Notes:</h2>
-                <ul class="list-disc leading-relaxed">
-                    <li class=" flex whitespace-nowrap">
-                        If you see
-                        <span>
-                            <img src="{{ asset('assets/images/pptimages/video.png') }}" />
-                        </span>
-                        next to a picture, click on the picture to watch the video.
-                    </li>
-                    <li>Emphasise and use the keywords during hands-on sessions.</li>
-                    <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
-                    </li>
-                    <li class=" flex whitespace-nowrap">
-                        Click on this shortcut icon
-                        <span>
-                            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" class="home-btn" />
-                        </span>
-                        if you need to go to some parts of the lesson quickly.
-                    </li>
-                </ul>
-            </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-                class="absolute teacher-img1" />
-
-        </div>
-
-    </div>
-
-
-    {{-- sldie 10 --}}
-    <div class="slide flex flex-col items-center justify-center    ">
-        <img src="/assets/images/K2/livingthings/bacteria/b26.png" />
+    <div class="flex flex-col items-center justify-center t-slide   ">
+        <img src="{{ asset('/assets/images/K2/livingthings/bacteria/b26.png') }}" class="img-md" />
         <p class="note">Note: Plot children's prediction on the graph. At the end, put a star <span
                 class="text-yellow-300 text-xl">⭐</span>
             to mark the final result.</p>
@@ -359,26 +237,29 @@
 
 
     {{-- slide 11  --}}
-    <div class="text-white flex flex-col items-center justify-center  text-start t-slide slide hidden">
+    <div class="text-white flex flex-col items-center justify-center  text-start t-slide hidden">
         <h2 class="text-center title stroke">Learning Centre Idea</h2>
-        <div class="flex flex-col gap-10">
-            <ul>
-                <h2 class="!text-white title stroke ">Fun Facts</h2>
-                <h2 class="t-title">What and how to set up:</h2>
-                <li>Use your creativity to design graphic fact sheet for every fun fact below.
-                    Guide children to understand the facts.</li>
-            </ul>
+        <div class="space-y-[1vw]">
+            <h2 class="!text-white title stroke ">Fun Facts</h2>
             <div>
-                <h2 class="t-title">What to do:</h2>
+
+                <h2 class="t-title">What and how to set up:</h2>
                 <ul>
-                    <li>A bacterium is made up of only one cell. DNA is stored in the cell.</li>
-                    <li>You have more bacteria than cells in your body.</li>
-                    <li>
-                        If you put all the bacteria in your body together, they weigh around
-                        1.8kg</li>
-                    <li>Most antibiotics are made from bacteria.</li>
+                    <li>Use your creativity to design graphic fact sheet for every fun fact below.
+                        Guide children to understand the facts.</li>
                 </ul>
             </div>
+        </div>
+        <div>
+            <h2 class="t-title">What to do:</h2>
+            <ul>
+                <li>A bacterium is made up of only one cell. DNA is stored in the cell.</li>
+                <li>You have more bacteria than cells in your body.</li>
+                <li>
+                    If you put all the bacteria in your body together, they weigh around
+                    1.8kg</li>
+                <li>Most antibiotics are made from bacteria.</li>
+            </ul>
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" />
     </div>
@@ -425,10 +306,6 @@
             <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
         </button>
     </div>
-
-
-
-
 @endsection
 
 
@@ -446,7 +323,7 @@
 
         document.addEventListener("DOMContentLoaded", () => {
             // Get all slide elements
-            const slides = document.querySelectorAll(".slide");
+            const slides = document.querySelectorAll(".t-slide");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
             const doneButton = document.querySelector(".doneButton");
@@ -456,7 +333,7 @@
 
             // CONFIGURE YOUR ROUTES HERE
             const returnRouteFromFirstSlide = "{{ route('bacteriaSelection') }}";
-            const doneButtonRoute = "{{ route('k2livingthings') }}";
+            const doneButtonRoute = "{{ route('bacteriaSelection') }}";
 
             // Pause all videos when changing slides
             function pauseAllVideos() {

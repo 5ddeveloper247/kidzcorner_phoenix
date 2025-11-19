@@ -283,6 +283,8 @@ video {
 }
 
 .t-title {
+    color: white;
+    text-align: start;
     font-size: 1.7vw !important;
     font-weight: 400;
     font-family: inherit;

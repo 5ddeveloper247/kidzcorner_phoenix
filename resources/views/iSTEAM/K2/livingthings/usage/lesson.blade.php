@@ -31,7 +31,7 @@
 
     {{-- Slide 4 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f11.png') }}" class="img-lg" />
+        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f11.png') }}" class="img-xl" />
         <h2 class="title stroke text-center">That's why individual fingerprints are unique
             and no two people have the same fingerprints.</h2>
     </div>
@@ -198,7 +198,7 @@
     <div class="slide hidden flex flex-col items-center justify-start">
         <div class="self-start text-start">
             <h2 class="title stroke">What to do:</h2>
-            <ol class="lesson-ul list-decimal">
+            <ol class="title stroke">
                 <li>Press your thumb firmly on a mirror. Can you see your fingerprint?</li>
             </ol>
         </div>
@@ -212,7 +212,7 @@
     <div class="slide hidden flex flex-col items-center justify-start">
         <div class="self-start text-start">
             <h2 class="title stroke">What to do:</h2>
-            <ol class="lesson-ul list-decimal" start="2">
+            <ol class="lesson-ul list-decimal title stroke" start="2">
                 <li>Dab the brush carefully into powder and tap the brush on
                     its side to remove excess powder.</li>
             </ol>
@@ -233,7 +233,7 @@
     <div class="slide hidden flex flex-col items-center justify-start">
         <div class="self-start text-start">
             <h2 class="title stroke">What to do:</h2>
-            <ol class="lesson-ul list-decimal" start="3">
+            <ol class="lesson-ul list-decimal title stroke" start="3">
                 <li>Gently sweep the brush over the area where you put your
                     fingerprint. Can you see a fingerprint developing?</li>
             </ol>
@@ -255,7 +255,7 @@
     <div class="slide hidden flex flex-col items-center justify-start">
         <div class="self-start text-start">
             <h2 class="title stroke">What to do:</h2>
-            <ol class="lesson-ul list-decimal" start="4">
+            <ol class="lesson-ul list-decimal title stroke" start="4">
                 <li>Gently blow off excess powder and check your result. Can
                     you make out the fingerprint pattern?</li>
             </ol>
@@ -269,7 +269,7 @@
     <div class="slide hidden flex flex-col items-center justify-start">
         <div class="self-start text-start">
             <h2 class="title stroke">What to do:</h2>
-            <ol class="lesson-ul list-decimal" start="5">
+            <ol class="lesson-ul list-decimal title stroke" start="5">
                 <li>Carefully press down a piece of clear tape on top of the
                     developed fingerprint.</li>
             </ol>
@@ -289,7 +289,7 @@
     <div class="slide hidden flex flex-col items-center justify-start">
         <div class="self-start text-start">
             <h2 class="title stroke">What to do:</h2>
-            <ol class="lesson-ul list-decimal" start="6">
+            <ol class="lesson-ul list-decimal title stroke" start="6">
                 <li>Lift the tape and paste it on a paper. Did you successfully
                     transfer your fingerprint?</li>
             </ol>
@@ -310,7 +310,7 @@
     <div class="slide hidden flex flex-col items-center justify-start">
         <div class="self-start text-start">
             <h2 class="title stroke">What to do:</h2>
-            <ol class="lesson-ul list-decimal" start="7">
+            <ol class="lesson-ul list-decimal title stroke" start="7">
                 <li>Compare the fingerprint collected to yours in the fingerprint record.</li>
             </ol>
         </div>
@@ -344,7 +344,7 @@
             <h2 class="title stroke">What do you learn: <br>
                 Is it easy or difficult to dust and lift a clear fingerprint?</h2>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u19.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u19.png') }}" class="img-sm" />
     </div>
 
     {{-- Slide 35 --}}
@@ -379,7 +379,7 @@
     {{-- Slide 38 --}}
     <div class="slide hidden flex flex-col items-start">
         <h2 class="!text-white title stroke">What happened?</h2>
-        <ol class="space-y-10 lesson-ul text-start stroke">
+        <ol class="space-y-[.5vw] lesson-ul text-start stroke">
             <li>Teacher Sue walked into the art and craft room this morning,
                 and was shocked to see that the room was in a mess.</li>
             <li>She noticed that some paints were spilled on the floor, some
@@ -477,7 +477,7 @@
     <div class="slide hidden flex flex-col items-center space-y-10">
         <div class="text-start self-start">
             <h2 class="title stroke">Let's analyse and find out:</h2>
-            <ol class="lesson-ul list-decimal title stroke">
+            <ol class="lesson-ul list-decimal title stroke title stroke">
                 <li>Who messed up the room?</li>
                 <li>Who spilled the paints on the floor?</li>
                 <li>Who left the playdough on the shelf?</li>
@@ -574,7 +574,7 @@
 
             // CONFIGURE YOUR ROUTES HERE
             const returnRouteFromFirstSlide = "{{ route('usageSelection') }}";
-            const doneButtonRoute = "{{ route('usageSelection') }}";
+            const doneButtonRoute = "{{ route('k2livingthings') }}";
 
             // Pause all videos when changing slides
             function pauseAllVideos() {
