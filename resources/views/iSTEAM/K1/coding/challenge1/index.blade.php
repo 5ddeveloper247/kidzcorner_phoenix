@@ -29,7 +29,7 @@
         </button>
 
         <!-- Home Button -->
-        <button id="homeButton">    
+        <button id="homeButton">
             <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
         </button>
 
@@ -45,7 +45,7 @@
     <script>
         document.addEventListener("DOMContentLoaded", () => {
             const nextButton = document.querySelector(".nextButton");
-            const returnButton = document.querySelector(".returnButton");
+            const returnButton = document.querySelector("#returnButton");
 
             if (nextButton) {
                 nextButton.addEventListener("click", () => {

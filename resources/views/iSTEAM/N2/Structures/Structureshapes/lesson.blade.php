@@ -8,8 +8,8 @@
     {{-- Slide 1 --}}
     <div class="slide flex flex-col items-center justify-center">
         <div class="flex flex-col gap-1 justify-center items-center">
-            <img src="{{ asset('/assets/images/N2/structure/str2/s1.png') }}" class="img-md" />
-            <img src="{{ asset('/assets/images/N2/structure/str2/s2.png') }}" class="img-md" />
+            <img src="{{ asset('/assets/images/N2/structure/str2/s1.png') }}" class="img-normal-md" />
+            <img src="{{ asset('/assets/images/N2/structure/str2/s2.png') }}" class="img-normal-md" />
         </div>
         <h2 class="title stroke">Children, do you remember what these are?</h2>
         <p class="note">Note: Guide children to share their answers.</p>
@@ -18,8 +18,8 @@
     {{-- Slide 2 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
         <div class="flex flex-col gap-1 justify-center items-center">
-            <img src="{{ asset('/assets/images/N2/structure/str2/s1.png') }}" class="img-md" />
-            <img src="{{ asset('/assets/images/N2/structure/str2/s2.png') }}" class="img-md" />
+            <img src="{{ asset('/assets/images/N2/structure/str2/s1.png') }}" class="img-normal-md" />
+            <img src="{{ asset('/assets/images/N2/structure/str2/s2.png') }}" class="img-normal-md" />
         </div>
         <h2 class="title stroke">These are different <span class="!text-white">structures</span> with different <span
                 class="text-white">shapes</span>.</h2>
@@ -29,8 +29,8 @@
     {{-- Slide 3 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
         <div class="flex flex-col gap-1 justify-center items-center">
-            <img src="{{ asset('/assets/images/N2/structure/str2/s1.png') }}" class="img-md" />
-            <img src="{{ asset('/assets/images/N2/structure/str2/s2.png') }}" class="img-md" />
+            <img src="{{ asset('/assets/images/N2/structure/str2/s1.png') }}" class="img-normal-md" />
+            <img src="{{ asset('/assets/images/N2/structure/str2/s2.png') }}" class="img-normal-md" />
         </div>
         <h2 class="title stroke">The <span class="!text-white">structures</span> have a base that helps them
             stand firmly on the ground.</h2>
@@ -49,8 +49,8 @@
     {{-- Slide 5 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
         <div class="flex gap-3 justify-center items-center">
-            <img src="{{ asset('/assets/images/N2/structure/str2/s5.png') }}" class="large-img4" />
-            <img src="{{ asset('/assets/images/N2/structure/str2/s6.png') }}" class="large-img3" />
+            <img src="{{ asset('/assets/images/N2/structure/str2/s5.png') }}" class="img-sm" />
+            <img src="{{ asset('/assets/images/N2/structure/str2/s6.png') }}" class="img-sm" />
         </div>
         <h2 class="title stroke">We learned that the <span class="!text-white">structure</span> with a <span
                 class="text-white">thin base</span>
@@ -119,7 +119,7 @@
     <div class="slide hidden flex flex-col items-center justify-between !h-[30vw]">
         <div class="text-start">
             <h2 class="title stroke">Let's do:</h2>
-            <ol class="lesson-ul list-decimal title stroke">
+            <ol class="lesson-ul list-decimal stroke">
                 <li>Choose one of the following blocks that you would like to make.</li>
             </ol>
         </div>
@@ -195,7 +195,7 @@
     <div class="slide hidden flex flex-col items-center justify-start gap-[7rem]">
         <div class="text-start">
             <h2 class="title stroke text-start">Steps:</h2>
-            <ol class="lesson-ul list-decimal title stroke">
+            <ol class="lesson-ul list-decimal stroke">
                 <li>In your group, discuss how your structure will look.</li>
                 <li>Draw your design in your learning journal.</li>
             </ol>
@@ -207,7 +207,7 @@
     <div class="slide hidden flex flex-col items-center justify-between h-[50vh]">
         <div class="text-start">
             <h2 class="title stroke text-start">Steps:</h2>
-            <ol class="lesson-ul list-decimal title stroke" start="3">
+            <ol class="lesson-ul list-decimal stroke" start="3">
                 <li>Work together as a group to create the shape of the structure you have drawn.</li>
                 <li>Present your creation as a group. Tell your friends how you created each part.</li>
             </ol>
@@ -217,14 +217,14 @@
 
     {{-- Slide 25 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
-        <div class="text-start">
+        <div class="text-start mt-[1vw]">
             <h2 class="title stroke text-start">Steps:</h2>
-            <ol class="lesson-ul list-decimal title stroke" start="5">
+            <ol class="lesson-ul list-decimal stroke" start="5">
                 <li>Take a photo and taste it on the learning journal.</li>
                 <li>Showcase your work.</li>
             </ol>
         </div>
-        <div class="h-[25vw] w-[55vw] drawable border border-2 border-white justify-center items-start">
+        <div class="h-[25vw] w-[55vw] drawable2 border border-2 border-white justify-center items-start">
             <p class="note mt-2">Paste a photo of the structure you have created.</p>
         </div>
         <p class="note">Note: Teachers to help to take photos of the group and the structure.</p>
@@ -234,14 +234,14 @@
     <div class="slide hidden flex flex-col items-center justify-between h-[55vh]">
         <div class="text-start">
             <h2 class="title stroke text-start">Possible questions during hands-on:</h2>
-            <ol class="lesson-ul list-decimal title stroke">
+            <ol class="lesson-ul list-decimal stroke">
                 <li>What shapes can be found in your design?</li>
                 <li>Which pieces/blocks can you use to make the shape you want?</li>
             </ol>
         </div>
         <div class="text-start">
             <h2 class="title stroke text-start">Possible questions during presentation:</h2>
-            <ol class="lesson-ul list-decimal title stroke">
+            <ol class="lesson-ul list-decimal stroke">
                 <li>What is the shape of your structure?</li>
                 <li>Which part did you make? Was it hard to make?</li>
                 <li>Share how you made the structure.</li>

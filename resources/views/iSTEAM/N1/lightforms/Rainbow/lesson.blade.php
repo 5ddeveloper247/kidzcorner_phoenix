@@ -112,7 +112,7 @@
     {{-- slide 7 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="title stroke !text-white">CLASS ACTIVITY 1</h2>
-        <img class="img-md" src="{{ asset('assets/images/pptimages/bottle.png') }}" alt="Water bottle" />
+        <img class="img-sm" src="{{ asset('assets/images/pptimages/bottle.png') }}" alt="Water bottle" />
         <h2 class="title stroke text-start"><span class="!text-white">Let's try:</span> <br> Create a rainbow in the sun</h2>
         <p class="note">Note: Teacher recap with children what are the main things needed to create a <br>rainbow (light
             and water). This shoold be done on a sunny day.</p>
@@ -147,7 +147,7 @@
     {{-- slide 10 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="title stroke !text-white">CLASS ACTIVITY 2</h2>
-        <img src="{{ asset('assets/images/pptimages/bowl.png') }}" class="img-md"  alt="Bowl with water" />
+        <img src="{{ asset('assets/images/pptimages/bowl.png') }}" class="img-sm"  alt="Bowl with water" />
         <h2 class="title stroke text-start"><span class="!text-white">Let's try:</span> <br> Create a rainbow using a mirror,
             water and flashlight!</h2>
         <p class="note">Note: Teacher recap with children what are the main things needed to create a rainbow (light and
@@ -207,7 +207,7 @@
     {{-- slide 16 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="title stroke !text-white">CLASS ACTIVITY 3</h2>
-        <img src="{{ asset('assets/images/pptimages/paper.png') }}" alt="Paper and disc" class="img-md" />
+        <img src="{{ asset('assets/images/pptimages/paper.png') }}" alt="Paper and disc" class="img-sm" />
         <h2 class="title stroke text-start"><span class="!text-white">Let's try:</span> <br> Create a rainbow using a disc!
         </h2>
         <p class="note">Note: Teacher can try to do this activity both indoors and outdoors.</p>

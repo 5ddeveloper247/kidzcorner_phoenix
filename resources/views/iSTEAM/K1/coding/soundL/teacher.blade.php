@@ -7,7 +7,7 @@
     <h2 class="top-title stroke">Sound and Light</h2>
 
     {{-- sldie 1  --}}
-    <div class=" slide flex  !text-white flex-col t-slide justify-start  text-start">
+    <div class="flex  !text-white flex-col t-slide justify-around  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -39,13 +39,12 @@
                 </ul>
             </div>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex  !text-white flex-col t-slide justify-start  text-start">
+    <div class="flex  !text-white flex-col t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
@@ -54,12 +53,11 @@
                     light has been inserted</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K1/coding/sound/s31.png') }}" class="w-img" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/K1/coding/sound/s31.png') }}" class="img-lg" />
     </div>
 
     {{-- sldie 3 --}}
-    <div class=" slide flex  !text-white flex-col t-slide justify-start  text-start">
+    <div class="flex  !text-white flex-col t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc">
@@ -71,13 +69,12 @@
                     measuring strips prepared)</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K1/coding/go/go38.png') }}" alt="Teacher" class="w-img" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/K1/coding/go/go38.png') }}" class="img-sm" />
     </div>
 
 
     {{-- slide 4 --}}
-    <div class=" slide flex  !text-white flex-col t-slide justify-start  text-start">
+    <div class="flex  !text-white flex-col t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc">
@@ -85,16 +82,15 @@
                 <li>Whiteboard marker pens</li>
             </ul>
         </div>
-        <div class="flex items-center gap-5">
-            <img src="{{ asset('assets/images/K1/coding/go/go25.png') }}" alt="Teacher" class="w-img" />
-            <img src="{{ asset('assets/images/K1/coding/go/go26.png') }}" alt="Teacher" class="w-img" />
+        <div class="flex items-center gap-[1vw]">
+            <img src="{{ asset('assets/images/K1/coding/go/go25.png') }}" class="img-sm" />
+            <img src="{{ asset('assets/images/K1/coding/go/go26.png') }}" class="img-sm" />
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- slide 5 --}}
-    <div class=" slide flex  !text-white flex-col t-slide justify-start  text-start">
+    <div class="flex  !text-white flex-col t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc">
@@ -102,16 +98,15 @@
                 <li>Whiteboard marker pens</li>
             </ul>
         </div>
-        <div class="flex items-center gap-5">
-            <img src="{{ asset('assets/images/K1/coding/go/go39.png') }}" alt="Teacher" class="w-img" />
-            <img src="{{ asset('assets/images/K1/coding/go/go40.png') }}" alt="Teacher" class="w-img" />
+        <div class="flex items-center gap-[1vw]">
+            <img src="{{ asset('assets/images/K1/coding/go/go39.png') }}" class="img-sm" />
+            <img src="{{ asset('assets/images/K1/coding/go/go40.png') }}" class="img-sm" />
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- slide 6 --}}
-    <div class=" slide flex  !text-white flex-col t-slide items-center justify-start  text-start">
+    <div class="flex  !text-white flex-col t-slide items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc">
@@ -119,14 +114,13 @@
                     it during hands-on session to mark the starting point of a circuit.</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K1/coding/go/go41.png') }}" alt="Teacher" class="w-img" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/K1/coding/go/go41.png') }}" class="img-sm" />
     </div>
 
 
 
     {{-- slide 7 --}}
-    <div class=" slide flex  !text-white flex-col t-slide items-center justify-start  text-start">
+    <div class="flex  !text-white flex-col t-slide items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc">
@@ -135,40 +129,37 @@
                 <li>Tender Loving Care Poster (refer to the teacher’s mode of Lesson 1)</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K1/coding/cd/cd13.png') }}" alt="Teacher" class="w-img" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/K1/coding/cd/cd13.png') }}" class="img-md" />
     </div>
 
 
 
     {{-- slide 8 --}}
-    <div class=" slide flex  !text-white flex-col t-slide justify-start  text-start">
+    <div class="flex  !text-white flex-col t-slide justify-around  text-start">
         <div>
-            <p class="note">When the hands-on session 1 starts, guide each group of children to lay the
+            <p>When the hands-on session 1 starts, guide each group of children to lay the
                 circuit on the floor using the measuring strip, blu tack and a Start card (as shown).</p>
-            <img src="{{ asset('assets/images/K1/coding/sound/s32.png') }}" alt="Teacher" class="w-img" />
+            <img src="{{ asset('assets/images/K1/coding/sound/s32.png') }}" class="img-lg" />
         </div>
         <div>
-            <p class="note">Suggestion: You may create props to represent Sound and Light for
+            <p>Suggestion: You may create props to represent Sound and Light for
                 children to form pictorial circuit (example as shown).</p>
-            <img src="{{ asset('assets/images/K1/coding/sound/s33.png') }}" alt="Teacher" class="w-img" />
+            <img src="{{ asset('assets/images/K1/coding/sound/s33.png') }}" class="img-lg" />
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
     {{-- slide 9 --}}
-    <div class=" slide flex  !text-white flex-col t-slide justify-start  text-start">
-        <p class="note">When the hands-on session 2 starts, guide each group of children to lay the
+    <div class="flex  !text-white flex-col t-slide justify-center items-center  text-start">
+        <p>When the hands-on session 2 starts, guide each group of children to lay the
             circuit on the floor using the measuring strip, blu tack and a Start card (as shown).</p>
-        <img src="{{ asset('assets/images/K1/coding/sound/s34.png') }}" alt="Teacher" class="w-img" />
+        <img src="{{ asset('assets/images/K1/coding/sound/s34.png') }}" class="img-lg" />
 
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
 
     {{-- sldie 10 --}}
-    <div class=" slide flex  !text-white flex-col t-slide justify-start  text-start">
+    <div class="flex  !text-white flex-col t-slide justify-around  text-start">
         <div>
             <h2 class=" t-title">Reminders or advice during hands-on session:</h2>
             <ul class="list-disc ">
@@ -189,80 +180,88 @@
                     parts?</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- slide 11 --}}
-    <div class="slide flex  flex-col t-slide justify-start   text-start !text-white">
-        <div class="flex w-[100%] items-center justify-between">
-            <div>
-                <h2 class=" t-title">Notes:</h2>
-                <ul class="list-disc leading-relaxed">
-                    <li class="flex ">
-                        If you see
-                        <span>
-                            <img src="{{ asset('assets/images/pptimages/video.png') }}" />
-                        </span>
-                        next to a picture, click on the picture to watch the video.
-                    </li>
-                    <li>Emphasise and use the keywords during hands-on sessions.</li>
-                    <li class="text-[#F7B94A]">The fundamental skill of coding or programming is ability to
-                        differentiate and navigate self to move forward, backward, turn left
-                        and turn right. If children are not ready, play more related games to
-                        improve the skill.</li>
-                    <li class="text-[#F7B94A]">It is important to inculcate the habit of always laying out the steps
-                        using coding cards before working on the Blockly because it's not easy
-                        for children to remember all the steps when they use Blockly to
-                        programme.</li>
-                    <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
-                    </li>
-                    <li class="flex ">
-                        Click on this shortcut icon
-                       <span>
-                            <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" class="home-btn" />
-                        </span>
-                        if you need to go to some parts of the lesson quickly.
-                    </li>
-                </ul>
-            </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1"
-                alt="Teacher" />
+    <div class=" t-slide text-start flex items-center !text-white !w-[53vw]">
+        <div>
+            <h2 class="t-title ">Notes:</h2>
+            <ul class="list-disc space-y-3">
+                <li>
+                    <span class="relative">
+                        If you see <span class="opacity-0">---</span>next to a picture, click on the picture to watch the
+                        video.
+                        <img class="t-video-btn absolute top-[-1vw] left-[7.6vw]"
+                            src="{{ asset('assets/images/pptimages/video.png') }}" />
+                    </span>
+                </li>
+
+                <li>
+                    Always ask questions to encourage children to think and share their ideas first before giving out
+                    any information.
+                </li>
+
+                <li>Emphasise and use the keywords during hands-on sessions.</li>
+
+                <li class="text-[#F7B94A]">The fundamental skill of coding or programming is ability to
+                    differentiate and navigate self to move forward, backward, turn left
+                    and turn right. If children are not ready, play more related games to
+                    improve the skill.</li>
+                <li class="text-[#F7B94A]">It is important to inculcate the habit of always laying out the steps
+                    using coding cards before working on the Blockly because it's not easy
+                    for children to remember all the steps when they use Blockly to
+                    programme.</li>
+
+                <li>
+                    Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
+                </li>
+
+                <li>
+                    <span class="relative">
+                        Click on this shortcut icon <span class="opacity-0">---</span> if you need to go to some parts of
+                        the lesson quickly.
+                        <img src="{{ asset('assets/images/pptimages/home-btn.png') }}"
+                            class="t-home-btn absolute top-0 left-[19vw]" />
+                    </span>
+                </li>
+
+            </ul>
         </div>
     </div>
 
-    {{-- slide 12 --}}
-    <div class="text-white flex flex-col t-slide items-center justify-center  text-start  slide hidden">
-        <h2 class="text-center title stroke">Learning Centre Idea</h2>
-        <div class="flex">
-            <div class="space-y-20">
-                <ul class="list-disc">
-                    <h2 class="!text-white title stroke">Recording</h2>
-                    <h2 class="t-title">What and how to set up:</h2>
-                    Reuse the materials prepared for the hands-on session 1.
-                </ul>
 
-                <ul>
-                    <h2 class="t-title">What to do:</h2>
-                    <li>Guide children to learn how to record own voice using the Blockly
-                        (on the next page). After that, guide them to programme a robot
-                        to move through the circuit where the robot will play the voice
-                        recorded.</li>
-                </ul>
-            </div>
+
+    {{-- slide 12 --}}
+    <div class="text-white flex flex-col t-slide  justify-around  text-start hidden">
+        <h2 class="text-center title stroke">Learning Centre Idea</h2>
+        <div>
+            <h2 class="!text-white title stroke">Recording</h2>
+            <h2 class="t-title">What and how to set up:</h2>
+            <ul>
+                Reuse the materials prepared for the hands-on session 1.
+            </ul>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" />
+        <div>
+            <h2 class="t-title">What to do:</h2>
+            <ul>
+                <li>Guide children to learn how to record own voice using the Blockly
+                    (on the next page). After that, guide them to programme a robot
+                    to move through the circuit where the robot will play the voice
+                    recorded.</li>
+            </ul>
+        </div>
     </div>
 
     {{-- slide 13 --}}
-    <div class="text-white flex flex-col t-slide items-center justify-center  text-start  slide hidden">
+    <div class="text-white flex flex-col t-slide items-center justify-center  text-start hidden">
         <h2 class=" title stroke">How to record your voice using the Blockly?</h2>
-        <img src="{{ asset('assets/images/K1/coding/sound/gl1.png') }}"/>
+        <img src="{{ asset('assets/images/K1/coding/sound/gl1.png') }}" class="img-xl" />
         <p class="note">Note: Select Sound>place programming block of My sounds>select My sounds>select
             Record a New Sound>select a Slot (total of 10)>start recording a sound after
             count down>save the sound.</p>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" />
     </div>
+    <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" />
 
 
 
@@ -305,7 +304,7 @@
 @push('script')
     <script>
         document.addEventListener("DOMContentLoaded", () => {
-            const slides = document.querySelectorAll(".slide");
+            const slides = document.querySelectorAll(".t-slide");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
             const doneButton = document.querySelector(".doneButton"); //   DONE button
@@ -351,7 +350,7 @@
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('coding') }}";
+                    window.location.href = "{{ route('soundLSelection') }}";
                 });
             }
 

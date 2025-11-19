@@ -8,7 +8,7 @@
 
     {{-- Slide 1 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="/assets/images/K1/coding/challenge1/ch1.png" />
+        <img src="/assets/images/K1/coding/challenge1/ch1.png" class="img-lg" />
         <h2 class="title stroke">Children, do you know the names of these colours?</h2>
         <p class="note">Note: Have children name the different colours.</p>
     </div>
@@ -17,15 +17,15 @@
 
     {{-- Slide 2 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="/assets/images/K1/coding/challenge1/ch1.png" />
+        <img src="/assets/images/K1/coding/challenge1/ch1.png" class="img-lg" />
         <h2 class="title stroke">We will use these colours to play a game with our
             robot! Are you ready?</h2>
     </div>
 
 
     {{-- Slide3 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-[45vh]">
-        <h2 class="text-center justify-start text-[45px] !text-white stroke">Hands-on Time 1 </h2>
+    <div class="slide hidden flex flex-col items-center justify-between h-[28vw]">
+        <h2 class="text-center justify-start !text-white stroke">Hands-on Time 1 </h2>
         <h2 class="text-start title stroke">Mission: <br>
             Plan a route for a robot to find your favourite colour. Use
             Blockly to programme the robot to move according to the planned route.</h2>
@@ -34,12 +34,12 @@
 
 
     {{-- Slide 4 --}}
-    <div class="slide hidden  flex flex-col items-center justify-start  ">
+    <div class="slide hidden  flex flex-col items-center justify-between h-[28vw]  ">
         <ol class="text-start title stroke">
             <h2>Steps:</h2>
             <li>1. What is your favourite colour? Why?</li>
         </ol>
-        <img src="/assets/images//K1/coding/challenge1/ch1.png" />
+        <img src="/assets/images//K1/coding/challenge1/ch1.png" class="img-md"/>
         <p class="note text-center">Note: Have children share their views.</p>
     </div>
 
@@ -53,7 +53,7 @@
         </ol>
         <div class="flex items-start">
             <img src="/assets/images//K1/coding/challenge1/ch4.png"  />
-            <img src="/assets/images//K1/coding/challenge1/ch3.png" class="!w-[15vw]" />
+            <img src="/assets/images//K1/coding/challenge1/ch3.png" class="img-xs" />
         </div>
         <p class="note text-center">Note: Have children talk about their planning of directions.</p>
     </div>
@@ -68,13 +68,13 @@
         <div class="flex items-center gap-[1.5vw]">
             <div class="flex items-start">
                 <img src="/assets/images//K1/coding/challenge1/ch4.png" />
-                <img src="/assets/images//K1/coding/challenge1/ch3.png" class="!w-[15vw]" />
+                <img src="/assets/images//K1/coding/challenge1/ch3.png" class="img-xs" />
             </div>
-            <div class="flex flex-col items-start ">
-                <div class="flex items-center ">
-                    <img src="/assets/images//K1/coding/challenge1/ch5.png" class="!w-[6vw]" />
+            <div class="flex flex-col items-start gap-y-[1vw]">
+                <div class="flex items-center gap-[1vw] ">
+                    <img src="/assets/images//K1/coding/challenge1/ch5.png" class="img-xs" />
                     <img src="/assets/images//K1/coding/challenge1/ch4.png" />
-                    <img src="/assets/images//K1/coding/challenge1/ch6.png" class="!w-[5vw]" />
+                    <img src="/assets/images//K1/coding/challenge1/ch6.png" class="img-xs" />
                 </div>
                 <img src="/assets/images//K1/coding/challenge1/ch7.png" />
             </div>
@@ -105,7 +105,7 @@
     <div class="slide flex flex-col items-center justify-center  ">
         <div class="flex items-start gap-[1vw]">
             <img src="/assets/images//K1/coding/challenge1/ch4.png" />
-            <img src="/assets/images//K1/coding/challenge1/ch3.png" class="!w-[15vw]" />
+            <img src="/assets/images//K1/coding/challenge1/ch3.png" class="img-xs" />
         </div>
         <h2 class="title stroke">Can you plan a route for a robot to find all the colours? Let’s try!</h2>
         <p class="note">Note: If needed, redure the number of coloured cards on the mat to adjust the level of difficulty.
@@ -113,8 +113,8 @@
     </div>
 
     {{-- slide 9 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-[45vh]">
-        <h2 class="text-center justify-start text-[45px] !text-white stroke">Hands-on Time 2</h2>
+    <div class="slide hidden flex flex-col items-center justify-between h-[28vw]">
+        <h2 class="text-center justify-start !text-white stroke">Hands-on Time 2</h2>
         <h2 class="text-start title stroke">Mission: <br>
             Plan a route for a robot to find all the colours. Use Blockly to
             programme the robot to move according to the planned route.</h2>
@@ -129,7 +129,7 @@
         </ol>
         <div class="flex items-start gap-[1vw]">
             <img src="/assets/images//K1/coding/challenge1/ch4.png" />
-            <img src="/assets/images//K1/coding/challenge1/ch3.png" class="!w-[15vw]" />
+            <img src="/assets/images//K1/coding/challenge1/ch3.png" class="img-xs" />
         </div>
         <p class="note text-center">Note: Have children copy the arrangement of colours in their learning journal.</p>
     </div>
@@ -143,7 +143,7 @@
         </ol>
         <div class="flex items-start gap-[1vw]">
             <img src="/assets/images//K1/coding/challenge1/ch4.png" />
-            <img src="/assets/images//K1/coding/challenge1/ch3.png" class="!w-[15vw]" />
+            <img src="/assets/images//K1/coding/challenge1/ch3.png" class="img-xs" />
         </div>
         <p class="note text-center">Note: Have children plan a route by drawing arrows in their learning journal.</p>
     </div>
@@ -158,10 +158,10 @@
         <div class="flex items-center gap-[2vw]">
             <div class="flex items-start">
                 <img src="/assets/images//K1/coding/challenge1/ch4.png" />
-                <img src="/assets/images//K1/coding/challenge1/ch3.png" class="!w-[15vw]" />
+                <img src="/assets/images//K1/coding/challenge1/ch3.png" class="img-xs" />
             </div>
-            <div class="flex flex-col items-start ">
-                <div class="flex items-center ">
+            <div class="flex flex-col items-start gap-y-[1vw]">
+                <div class="flex items-center gap-[1vw] ">
                     <img src="/assets/images//K1/coding/challenge1/ch5.png" />
                     <img src="/assets/images//K1/coding/challenge1/ch4.png" />
                     <img src="/assets/images//K1/coding/challenge1/ch6.png" />
@@ -184,7 +184,7 @@
         <div class="flex items-center gap-[2vw]">
             <div class="flex items-start gap-[1vw]">
                 <img src="/assets/images//K1/coding/challenge1/ch4.png" />
-                <img src="/assets/images//K1/coding/challenge1/ch3.png" class="!w-[15vw]" />
+                <img src="/assets/images//K1/coding/challenge1/ch3.png" class="img-xs" />
             </div>
             <img src="/assets/images//K1/coding/challenge1/ch8.png" class="w-[18vw]" />
         </div>
@@ -202,7 +202,7 @@
         <div class="flex items-center gap-[2vw]">
             <div class="flex items-start gap-[1vw]">
                 <img src="/assets/images//K1/coding/challenge1/ch4.png" />
-                <img src="/assets/images//K1/coding/challenge1/ch3.png" class="!w-[15vw]" />
+                <img src="/assets/images//K1/coding/challenge1/ch3.png" class="img-xs" />
             </div>
             <img src="/assets/images//K1/coding/challenge1/ch8.png" class="!w-[18vw]" />
         </div>
@@ -222,7 +222,7 @@
         <div class="flex items-center gap-[2vw]">
             <div class="flex items-start gap-[1vw]">
                 <img src="/assets/images//K1/coding/challenge1/ch4.png" />
-                <img src="/assets/images//K1/coding/challenge1/ch3.png" class="!w-[15vw]" />
+                <img src="/assets/images//K1/coding/challenge1/ch3.png" class="img-xs" />
             </div>
             <img src="/assets/images//K1/coding/challenge1/ch8.png" class="!w-[17vw]" />
         </div>
@@ -343,7 +343,7 @@
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('challenge1Selection') }}";
+                    window.location.href = "{{ route('coding') }}";
                 });
             }
 

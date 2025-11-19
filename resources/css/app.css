@@ -243,7 +243,9 @@ button {
 .lesson-ul {
     font-size: 2vw;
     /* max-width: 57vw; */
+    line-height: 100%;
     padding-left: 3vw !important;
+    color: #f7b94a;
 }
 
 #Lesson img {
@@ -404,6 +406,9 @@ span img {
         max-width: 60vw !important;
     }
 
+    .img-h-xs {
+        max-height: 15vw !important;
+    }
     .img-h-sm {
         max-height: 18vw !important;
     }

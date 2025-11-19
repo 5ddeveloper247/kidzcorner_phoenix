@@ -3,9 +3,6 @@
 @section('title', 'Dynamic Presentation')
 
 
-
-
-
 @section('content')
     {{-- title --}}
     <h2 class="top-title stroke">Back Light</h2>
@@ -46,8 +43,8 @@
     {{-- slide 4 --}}
     <div class="flex flex-col justify-center slide hidden !gap-[1vw]">
         <div class="flex flex-col items-center justify-center">
-            <h2 class="title !text-white">CLASS ACTIVITY 1</h2>
-            <img src="{{ asset('assets/images/pptimages/bl1.png') }}" class="img-md" />
+            <h2 class="title !text-white stroke">CLASS ACTIVITY 1</h2>
+            <img src="{{ asset('assets/images/pptimages/bl1.png') }}" class="img-sm" />
         </div>
         <div class="flex flex-col items-start">
             <h2 class="title stroke text-start"><span class="!text-white">Let's try:</span><br> Will the neon coloured items
@@ -59,7 +56,7 @@
     </div>
 
     {{-- slide 5 --}}
-    <div class="flex flex-col  slide hidden h-[45vh] justify-between">
+    <div class="flex flex-col  slide hidden h-[45vh] justify-between items-center">
         <div class="title stroke text-start">
             <h2 class="!text-white">let's do:</h2>
             <ul class="list-decimal lesson-ul   ">
@@ -114,7 +111,7 @@
     </span>{{-- slide 10 --}}
     <div class="flex flex-col justify-center slide hidden">
         <div class="flex flex-col items-center justify-center">
-            <h2 class="title !text-white">CLASS ACTIVITY 2</h2>
+            <h2 class="title !text-white stroke">CLASS ACTIVITY 2</h2>
             <img src="{{ asset('assets/images/pptimages/bl5.png') }}" class="img-md" />
         </div>
         <div class="flex items-start">
@@ -124,7 +121,7 @@
     </div>
 
     {{-- slide 11 --}}
-    <div class="flex flex-col slide hidden">
+    <div class="flex flex-col slide hidden items-center justify-between h-[28vw]">
         <div class="title stroke text-start">
             <h2 class="!text-white">let's do:</h2>
             <ol class="list-decimal lesson-ul ">
@@ -140,7 +137,7 @@
     </div>
 
     {{-- slide 12 --}}
-    <div class="flex flex-col slide hidden">
+    <div class="flex flex-col slide hidden items-center justify-between h-[28vw]">
         <div class="title stroke text-start">
             <h2 class="!text-white">let's do:</h2>
             <ol class="list-decimal lesson-ul space-y-3" start="4">
@@ -175,7 +172,7 @@
     {{-- slide 15 --}}
     <div class="flex flex-col justify-center slide hidden">
         <div class="flex flex-col items-center justify-center">
-            <h2 class="title !text-white">CLASS ACTIVITY 3</h2>
+            <h2 class="title !text-white stroke">CLASS ACTIVITY 3</h2>
             <img src="{{ asset('assets/images/pptimages/bl6.png') }}" class="img-lg" />
         </div>
         <div class="flex items-start">
@@ -187,7 +184,7 @@
 
 
     {{-- slide 16 --}}
-    <div class="flex flex-col slide hidden">
+    <div class="flex flex-col slide hidden items-center justify-between h-[28vw]">
         <div class="title stroke text-start">
             <h2 class="!text-white">let's do:</h2>
             <ol class="list-decimal lesson-ul space-y-3">
@@ -205,7 +202,7 @@
 
 
     {{-- slide 17 --}}
-    <div class="flex flex-col slide hidden justify-between h-[55vh]">
+    <div class="flex flex-col slide hidden items-center justify-between h-[28vw]">
         <div class="title stroke text-start">
             <h2 class="!text-white">let's do:</h2>
             <ol class=" list-decimal lesson-ul space-y-3" start="4">

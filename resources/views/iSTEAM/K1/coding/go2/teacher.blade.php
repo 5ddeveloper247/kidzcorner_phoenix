@@ -70,7 +70,7 @@
                 <li>Whiteboard marker pens</li>
             </ul>
         </div>
-        <div class="flex items-center gap-10">
+        <div class="flex items-center gap-[1vw]">
             <img src="/assets/images/K1/coding/go/go25.png" class="img-sm" />
             <img src="/assets/images/K1/coding/go/go26.png" class="img-sm" />
         </div>
@@ -87,7 +87,7 @@
                 <li>Whiteboard marker pens</li>
             </ul>
         </div>
-        <div class="flex items-center gap-10">
+        <div class="flex items-center gap-[1vw]">
             <img src="/assets/images/K1/coding/go/go39.png" class="img-sm" />
             <img src="/assets/images/K1/coding/go/go40.png" class="img-sm" />
         </div>
@@ -104,7 +104,7 @@
                     it during hands-on session to mark the starting point of a circuit.</li>
             </ul>
         </div>
-        <img src="/assets/images/K1/coding/go/go41.png" class="img-sm" />
+        <img src="/assets/images/K1/coding/go/go41.png" class="img-md" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
@@ -119,7 +119,7 @@
                 <li>Tender Loving Care Poster (refer to the teacher’s mode of Lesson 1)</li>
             </ul>
         </div>
-        <img src="/assets/images/K1/coding/cd/cd13.png" class="img-sm" />
+        <img src="/assets/images/K1/coding/cd/cd13.png" class="img-md" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
@@ -128,7 +128,7 @@
 
 
     {{-- sldie 4 --}}
-    <div class="flex !text-white flex-col t-slide justify-start  text-start">
+    <div class="flex !text-white flex-col t-slide justify-start items-center  text-start">
         <div>
             <ul>
                 <li>When the hands-on session 1 starts, guide each group of children to lay the
@@ -136,7 +136,7 @@
                     (as shown)</li>
             </ul>
         </div>
-        <img src="/assets/images/K1/coding/go/go28.png" class="img-sm" />
+        <img src="/assets/images/K1/coding/go/go28.png" class="img-md" />
 
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
@@ -150,13 +150,13 @@
                     card (as shown).</li>
             </ul>
         </div>
-        <img src="/assets/images/K1/coding/go/go35.png" class="!w-[50vw]" />
+        <img src="/assets/images/K1/coding/go/go35.png" class="img-lg" />
 
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
     {{-- slide  --}}
-    <div class="flex !text-white flex-col t-slide gap-y-[1.5vw] justify-start  text-start">
+    <div class="flex !text-white flex-col t-slide gap-y-[1.5vw] justify-center  text-start">
         <div>
             <h2 class="t-title">Reminders or advice during hands-on session:</h2>
             <ul class="list-disc">
@@ -201,7 +201,14 @@
                 </li>
 
                 <li>Emphasise and use the keywords during hands-on sessions.</li>
-
+                <li class="text-[#f7b94a]">The fundamental skill of coding or programming is ability to
+                    differentiate and navigate self to move forward, backward, turn left
+                    and turn right. If children are not ready, play more related games to
+                    improve the skill</li>
+                <li class="text-[#f7b94a]">It is important to inculcate the habit of always laying out the steps
+                    using coding cards before working on the Blockly because it's not easy
+                    for children to remember all the steps when they use Blockly to
+                    programme.</li>
                 <li>
                     Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
                 </li>
@@ -228,7 +235,7 @@
         <h2 class="text-center title stroke">Learning Centre Idea</h2>
         <div class="flex">
             <div>
-                <h2 class="!text-white title stroke">How To Move Yourself Through This Circuit?</h2>
+                <h2 class="!text-white text-[2vw] stroke">How To Move Yourself Through This Circuit?</h2>
                 <h2 class="t-title">What and how to set up:</h2>
                 <ul class="list-disc">
                     <li>Design and display a circuit on the floor (you may change the
@@ -337,7 +344,7 @@
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('coding') }}";
+                    window.location.href = "{{ route('go2Selection') }}";
                 });
             }
 

@@ -9,7 +9,7 @@
 
 
     {{-- sldie 1  --}}
-    <div class="flex !text-white flex-col t-slide justify-start  text-start">
+    <div class="flex !text-white flex-col t-slide justify-around  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -50,9 +50,9 @@
             </ul>
         </div>
         <div class="flex gap-[1vw]">
-            <img src="{{ asset('assets/images/K1/coding/challenge1/ch9.png') }}" class="h-[40vh]" />
-            <img src="{{ asset('assets/images/K1/coding/challenge1/ch12.png') }}" class="h-[40vh]" />
-            <img src="{{ asset('assets/images/K1/coding/challenge1/ch11.png') }}" class="h-[40vh]" />
+            <img src="{{ asset('assets/images/K1/coding/challenge1/ch9.png') }}" class="img-h-sm" />
+            <img src="{{ asset('assets/images/K1/coding/challenge1/ch12.png') }}" class="img-h-sm" />
+            <img src="{{ asset('assets/images/K1/coding/challenge1/ch11.png') }}" class="img-h-sm" />
         </div>
     </div>
 
@@ -66,7 +66,7 @@
                 <li>Blu Tack (for fixing graphic cards on the coding mat)</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K1/coding/challenge1/ch10.png') }}" />
+        <img src="{{ asset('assets/images/K1/coding/challenge1/ch10.png') }}" class="img-sm" />
     </div>
 
 
@@ -79,7 +79,7 @@
                 <li>Whiteboard marker pens</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K1/coding/challenge1/gl1.png') }}" alt="Teacher" />
+        <img src="{{ asset('assets/images/K1/coding/challenge1/gl1.png') }}" class="img-xl" />
     </div>
 
 
@@ -93,7 +93,7 @@
                 <li>Tender Loving Care Poster (refer to the teacher’s mode of Lesson 1)</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K1/coding/cd/cd13.png') }}" alt="Teacher" />
+        <img src="{{ asset('assets/images/K1/coding/cd/cd13.png') }}" class="img-md" />
     </div>
 
     {{-- sldie 6 --}}
@@ -104,28 +104,28 @@
                 <li>Mini coding cards (print and cut out before the lesson)</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K1/coding/challenge1/ch13.png') }}" alt="Teacher" />
+        <img src="{{ asset('assets/images/K1/coding/challenge1/ch13.png') }}" class="img-h-md" />
     </div>
 
 
     {{-- sldie 7 --}}
     <div class="flex !text-white flex-col t-slide items-center justify-start  text-start">
-        <p class="note">Before the hands-on session, introduce children to the coding mat and brief
+        <p>Before the hands-on session, introduce children to the coding mat and brief
             them on its measurement. Show them how to programme a robot to move on it.</p>
-        <img src="{{ asset('assets/images/K1/coding/challenge1/ch14.png') }}" alt="Teacher" class="w-img" />
+        <img src="{{ asset('assets/images/K1/coding/challenge1/ch14.png') }}" class="img-h-md" />
     </div>
 
 
     {{-- sldie 8 --}}
     <div class="flex !text-white flex-col t-slide items-center justify-start  text-start">
-        <p class="note">When the hands-on sessions 1 or 2 start, guide each group of children to set up
+        <p>When the hands-on sessions 1 or 2 start, guide each group of children to set up
             the mat accordingly (as shown). Advise them to discuss as a group to complete the
             mission. <span class="text-[#F7B94A]">If needed, adjust the level of difficulty by reducing the number of colour
                 cards on the mat for different groups.</span></p>
 
         <div class="flex items-start gap-3">
             <img src="/assets/images//K1/coding/challenge1/ch4.png" />
-            <img src="/assets/images//K1/coding/challenge1/ch3.png" class="!w-[15vw]" />
+            <img src="/assets/images//K1/coding/challenge1/ch3.png" class="img-h-md" />
         </div>
     </div>
 
@@ -146,8 +146,10 @@
                         adjust the level of difficulty by reducing or increasing the number of coloured cards on the mat for
                         different groups. </span></li>
 
-                <li>If time allows, let children repeat the hands-on session by adding obstacles into the coding mat
-                    (example as shown). <span> <img src="/assets/images//K1/coding/challenge1/ch15.png" /></span> </li>
+                <li>
+                    <div class="flex flex-col">If time allows, let children repeat the hands-on session by adding obstacles into the coding mat
+                    (example as shown).  <img src="/assets/images//K1/coding/challenge1/ch15.png"
+                            class="img-xs self-end" /></div> </li>
 
             </ul>
         </div>
@@ -156,7 +158,7 @@
 
 
     {{-- sldie 10 --}}
-    <div class="flex !text-white flex-col t-slide justify-start  text-start">
+    <div class="flex !text-white flex-col t-slide justify-center  text-start">
         <div>
             <h2 class=" t-title">Reminders or advice during hands-on session:</h2>
             <ul class="list-disc ">
@@ -172,18 +174,27 @@
     </div>
 
 
+
     {{-- sldie 11 --}}
-    <div class="slide flex  flex-col t-slide justify-start  text-start !text-white">
+    <div class=" t-slide text-start flex items-center !text-white !w-[53vw]">
         <div>
-            <h2 class=" t-title">Notes:</h2>
-            <ul class="list-disc leading-relaxed">
-                <li class="flex">
-                    If you see
-                    <span>
-                        <img src="{{ asset('assets/images/pptimages/video.png') }}" />
+            <h2 class="t-title ">Notes:</h2>
+            <ul class="list-disc space-y-3">
+                <li>
+                    <span class="relative">
+                        If you see <span class="opacity-0">---</span>next to a picture, click on the picture to watch the
+                        video.
+                        <img class="t-video-btn absolute top-[-1vw] left-[7.6vw]"
+                            src="{{ asset('assets/images/pptimages/video.png') }}" />
                     </span>
-                    next to a picture,click on the picture to watch the video.
                 </li>
+
+
+                <li>
+                    Always ask questions to encourage children to think and share their ideas first before giving out
+                    any information.
+                </li>
+
                 <li>Emphasise and use the keywords during hands-on sessions.</li>
                 <li class="text-[#F7B94A]">The fundamental skill of coding or programming is ability to
                     differentiate and navigate self to move forward, backward, turn left
@@ -193,43 +204,52 @@
                     using coding cards before working on the Blockly because it's not easy
                     for children to remember all the steps when they use Blockly to
                     programme.</li>
-                <li>Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
+
+                <li>
+                    Print out the Learning Journal (if any) for every child to complete at the end of the lesson.
                 </li>
-                <li class="flex">
-                    Click on this shortcut icon
-                    <span>
-                        <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
+
+                <li>
+                    <span class="relative">
+                        Click on this shortcut icon <span class="opacity-0">---</span> if you need to go to some parts of
+                        the lesson quickly.
+                        <img src="{{ asset('assets/images/pptimages/home-btn.png') }}"
+                            class="t-home-btn absolute top-0 left-[19vw]" />
                     </span>
-                    if you need to go to some parts of the lesson quickly.
                 </li>
+
             </ul>
         </div>
     </div>
 
 
+
     {{-- slide 12 --}}
-    <div class="text-white flex flex-col t-slide items-center justify-center  text-start slide hidden">
+    <div class="text-white flex flex-col t-slide  justify-center  text-start hidden">
         <h2 class="text-center title stroke">Learning Centre Idea</h2>
-        <div class="flex">
-            <div class="space-y-20">
+        <div class="space-y-[1vw]">
+            <h2 class="!text-white text-[2vw] stroke">Matching Coding Challenge</h2>
+            <div>
+
+                <h2 class="t-title">What and how to set up:</h2>
                 <ul>
-                    <h2 class="!text-white title stroke">Matching Coding Challenge</h2>
-                    <h2 class="t-title">What and how to set up:</h2>
                     <li>Turn the challenge into a matching game for children (picture-
                         picture/picture-word/word-word). Replace the coloured cards on
                         the mat with other learning focus such as the name or food of animals.</li>
                 </ul>
-
-                <ul>
-                    <h2 class="t-title">What to do:</h2>
-                    <li>Guide children to plan a route for a robot to find matching cards
-                        on the mat. After that, programming a robot to move according to the planned route.</li>
-                </ul>
             </div>
+        </div>
+        <div>
+
+            <h2 class="t-title">What to do:</h2>
+            <ul>
+                <li>Guide children to plan a route for a robot to find matching cards
+                    on the mat. After that, programming a robot to move according to the planned route.</li>
+            </ul>
         </div>
     </div>
 
-    <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
+    <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" />
 
     {{-- ========================================================== --}}
     {{-- Buttons --}}
@@ -320,7 +340,7 @@
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('coding') }}";
+                    window.location.href = "{{ route('challenge1Selection') }}";
                 });
             }
 
