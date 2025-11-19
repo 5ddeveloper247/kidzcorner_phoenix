@@ -8,7 +8,7 @@
 
 
     {{-- sldie 1  --}}
-    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
+    <div class="t-slide flex  !text-white flex-col justify-around  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -37,7 +37,7 @@
 
 
     {{-- slide 2 --}}
-    <div class=" slide t-slide flex  !text-white flex-col justify-start  text-start">
+    <div class="t-slide flex  !text-white flex-col justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations for Mini Mobile Phone Activity:</h2>
             <div class="flex items-center gap-10">
@@ -65,7 +65,7 @@
 
 
     {{-- sldie 3 --}}
-    <div class=" slide t-slide flex  !text-white flex-col items-center justify-center  text-start">
+    <div class="t-slide flex  !text-white flex-col items-center justify-center  text-start">
         <div>
             <h2 class="t-title">Preparations for Individual Activity - Practice of Dusting and Lifting A
                 Fingerprint:</h2>
@@ -96,7 +96,7 @@
 
 
     {{-- slide 4 --}}
-    <div class=" slide t-slide flex  !text-white flex-col items-center justify-start  text-start">
+    <div class="t-slide flex  !text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">How to dust and lift a fingerprint and things to consider:</h2>
             <ul class="list-decimal">
@@ -112,7 +112,7 @@
 
 
     {{-- slide 5 --}}
-    <div class=" slide t-slide flex  !text-white flex-col items-center justify-start  text-start">
+    <div class="t-slide flex  !text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">How to dust and lift a fingerprint and things to consider:</h2>
             <ul>
@@ -136,7 +136,7 @@
 
 
     {{-- sldie 6 --}}
-    <div class=" slide t-slide flex  !text-white flex-col items-center justify-start  text-start">
+    <div class="t-slide flex  !text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">How to dust and lift a fingerprint and things to consider:</h2>
             <ul>
@@ -159,7 +159,7 @@
     </div>
 
     {{-- sldie 7 --}}
-    <div class=" slide t-slide flex  !text-white flex-col items-center justify-start  text-start">
+    <div class="t-slide flex  !text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">How to dust and lift a fingerprint and things to consider:</h2>
             <ul>
@@ -175,7 +175,7 @@
 
 
     {{-- sldie 8 --}}
-    <div class=" slide t-slide flex  !text-white flex-col items-center justify-start  text-start">
+    <div class="t-slide flex  !text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">How to dust and lift a fingerprint and things to consider:</h2>
             <ul>
@@ -199,7 +199,7 @@
 
 
     {{-- slide 9 --}}
-    <div class=" slide t-slide flex  !text-white flex-col items-center justify-start  text-start">
+    <div class="t-slide flex  !text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">How to dust and lift a fingerprint and things to consider:</h2>
             <ul>
@@ -221,7 +221,7 @@
 
 
     {{-- slide 10 --}}
-    <div class=" slide t-slide flex  !text-white flex-col items-center justify-start  text-start">
+    <div class="t-slide flex  !text-white flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">How to dust and lift a fingerprint and things to consider:</h2>
             <ul>
@@ -235,7 +235,7 @@
     </div>
 
     {{-- slide 10 --}}
-    <div class=" slide t-slide flex  !text-white flex-col items-center justify-start  text-start">
+    <div class="t-slide flex  !text-white flex-col items-center justify-start  text-start">
         <div>
             <ul class="list-disc !text-start">
                 <h2 class=" t-title">How to dust and lift a fingerprint and things to consider:</h2>
@@ -260,7 +260,7 @@
 
 
     {{-- slide 11 --}}
-    <div class=" slide t-slide flex  !text-white flex-col items-center justify-start  text-start">
+    <div class="t-slide flex  !text-white flex-col items-center justify-start  text-start">
         <div>
             <ul class="list-disc !text-start">
                 <h2 class=" t-title">Preparations for Class Activity - Solve A Case:</h2>
@@ -287,7 +287,7 @@
 
 
     {{-- slide 11 --}}
-    <div class=" slide t-slide flex  !text-white flex-col items-center justify-start  text-start">
+    <div class="t-slide flex  !text-white flex-col items-center justify-start  text-start">
         <div>
             <ul class=" !text-start">
                 <h2 class=" t-title">Solve A Case:</h2>
@@ -312,7 +312,7 @@
 
 
     {{-- slide 12 --}}
-    <div class=" slide flex   flex-col items-center justify-start  text-start">
+    <div class="flex t-slide  flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" !text-start title stroke"> <span class="!text-white font bold">Evidence 1:</span> Based on the
                 statements of other teachers, 6 <br>
@@ -323,7 +323,7 @@
     </div>
 
     {{-- slide 12 --}}
-    <div class=" slide flex   flex-col items-center justify-start  text-start">
+    <div class="flex t-slide  flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" !text-start title stroke"> <span class="!text-white font bold">Evidence 2:</span> 3 shoe prints as
                 shown were found on the floor
@@ -333,7 +333,7 @@
     </div>
 
     {{-- slide 12 --}}
-    <div class=" slide flex   flex-col items-center justify-start  text-start">
+    <div class="flex t-slide  flex-col items-center justify-start  text-start">
         <div>
             <h2 class=" !text-start title stroke"> <span class="!text-white font bold">Evidence 3:</span> 3 right
                 thumbprints as shown were found at
@@ -343,7 +343,7 @@
     </div>
 
     {{-- slide 12 --}}
-    <div class=" slide flex   flex-col justify-start items-center  text-start">
+    <div class="flex t-slide  flex-col justify-start items-center  text-start">
         <div>
             <h2 class=" !text-start title stroke">Profile of the suspect 1:</h2> <br>
             <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u23.png') }}" />
@@ -351,35 +351,35 @@
     </div>
 
     {{-- slide 12 --}}
-    <div class=" slide flex   flex-col justify-start items-center  text-start">
+    <div class="flex t-slide  flex-col justify-start items-center  text-start">
         <div>
             <h2 class=" !text-start title stroke">Profile of the suspect 2:</h2><br>
             <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u24.png') }}" />
         </div>
     </div>
     {{-- slide 12 --}}
-    <div class=" slide flex   flex-col justify-start items-center  text-start">
+    <div class="flex t-slide  flex-col justify-start items-center  text-start">
         <div>
             <h2 class=" !text-start title stroke">Profile of the suspect 3:</h2><br>
             <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u25.png') }}" />
         </div>
     </div>
     {{-- slide 12 --}}
-    <div class=" slide flex   flex-col justify-start items-center  text-start">
+    <div class="flex t-slide  flex-col justify-start items-center  text-start">
         <div>
             <h2 class=" !text-start title stroke">Profile of the suspect 4:</h2><br>
             <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u26.png') }}" />
         </div>
     </div>
     {{-- slide 12 --}}
-    <div class=" slide flex   flex-col justify-start items-center  text-start">
+    <div class="flex t-slide  flex-col justify-start items-center  text-start">
         <div>
             <h2 class=" !text-start title stroke">Profile of the suspect 5:</h2><br>
             <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u27.png') }}" />
         </div>
     </div>
     {{-- slide 12 --}}
-    <div class=" slide flex   flex-col justify-start items-center  text-start">
+    <div class="flex t-slide  flex-col justify-start items-center  text-start">
         <div>
             <h2 class=" !text-start title stroke">Profile of the suspect 6:</h2><br>
             <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u28.png') }}" />
@@ -390,7 +390,7 @@
 
 
     {{-- sldie 12 --}}
-    <div class="slide flex t-slide  flex-col justify-start   text-start !text-white">
+    <div class="flex t-slide  flex-col justify-start   text-start !text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
                 <h2 class=" t-title">Notes:</h2>
@@ -422,7 +422,7 @@
 
 
     {{-- slide 13 --}}
-    <div class="text-white flex flex-col items-center justify-center  text-start t-slide slide hidden">
+    <div class="text-white flex flex-col items-center justify-center  text-start t-slide hidden">
         <h2 class="text-center title stroke">Learning Centre Idea</h2>
         <div class="flex flex-col gap-10">
             <ul>
@@ -448,12 +448,12 @@
 
 
     {{-- slide 14 --}}
-    <div class="text-white flex flex-col items-center justify-center  text-start t-slide slide hidden">
+    <div class="text-white flex flex-col items-center justify-center  text-start t-slide hidden">
         <h2 class="text-center title stroke">Learning Centre Idea</h2>
         <div>
+            <h2 class="!text-white title stroke">Fun Facts</h2>
+            <h2 class="t-title">What and how to set up:</h2>
             <ul class="list-disc">
-                <h2 class="!text-white title stroke">Fun Facts</h2>
-                <h2 class="t-title">What and how to set up:</h2>
                 <p class="text-[1.4vw]">Use your creativity to design graphic fact sheet for every fun fact
                     below. Guide children to understand the facts.</p>
                 <li>Identical twins are indistinguishable via DNA testing, but
@@ -511,97 +511,96 @@
 
 
 @push('script')
- <script>
-    // Video toggle function - plays or pauses a video when clicked
-    function toggleVideo(videoId) {
-        const video = document.getElementById(videoId);
-        if (video.paused) {
-            video.play();
-        } else {
-            video.pause();
-        }
-    }
-
-    document.addEventListener("DOMContentLoaded", () => {
-        // Get all slide elements
-        const slides = document.querySelectorAll(".slide");
-        const nextButtons = document.querySelectorAll(".nextButton");
-        const returnButton = document.getElementById("returnButton");
-        const doneButton = document.querySelector(".doneButton");
-
-        // Keep track of which slide we're currently viewing
-        let currentSlide = 0;
-
-        // CONFIGURE YOUR ROUTES HERE
-        const returnRouteFromFirstSlide = "{{ route('usageSelection') }}";
-        const doneButtonRoute = "{{ route('k2livingthings') }}";
-
-        // Pause all videos when changing slides
-        function pauseAllVideos() {
-            const videos = document.querySelectorAll('video');
-            videos.forEach(video => {
-                if (!video.paused) {
-                    video.pause();
-                }
-            });
-        }
-
-        // Show a specific slide and hide all others
-        function showSlide(index) {
-            // Pause all videos before switching
-            pauseAllVideos();
-
-            // Hide all slides except the current one
-            slides.forEach((slide, i) => {
-                slide.classList.toggle("hidden", i !== index);
-            });
-
-            // Check if last slide
-            const isLastSlide = index === slides.length - 1;
-
-            if (isLastSlide) {
-                nextButtons.forEach(btn => btn.classList.add("hidden"));
-                if (doneButton) doneButton.classList.remove("hidden");
+    <script>
+        // Video toggle function - plays or pauses a video when clicked
+        function toggleVideo(videoId) {
+            const video = document.getElementById(videoId);
+            if (video.paused) {
+                video.play();
             } else {
-                nextButtons.forEach(btn => btn.classList.remove("hidden"));
-                if (doneButton) doneButton.classList.add("hidden");
+                video.pause();
             }
         }
 
-        // NEXT button
-        nextButtons.forEach((btn) => {
-            btn.addEventListener("click", () => {
-                if (currentSlide < slides.length - 1) {
-                    currentSlide++;
+        document.addEventListener("DOMContentLoaded", () => {
+            // Get all slide elements
+            const slides = document.querySelectorAll(".t-slide");
+            const nextButtons = document.querySelectorAll(".nextButton");
+            const returnButton = document.getElementById("returnButton");
+            const doneButton = document.querySelector(".doneButton");
+
+            // Keep track of which slide we're currently viewing
+            let currentSlide = 0;
+
+            // CONFIGURE YOUR ROUTES HERE
+            const returnRouteFromFirstSlide = "{{ route('usageSelection') }}";
+            const doneButtonRoute = "{{ route('usageSelection') }}";
+
+            // Pause all videos when changing slides
+            function pauseAllVideos() {
+                const videos = document.querySelectorAll('video');
+                videos.forEach(video => {
+                    if (!video.paused) {
+                        video.pause();
+                    }
+                });
+            }
+
+            // Show a specific slide and hide all others
+            function showSlide(index) {
+                // Pause all videos before switching
+                pauseAllVideos();
+
+                // Hide all slides except the current one
+                slides.forEach((slide, i) => {
+                    slide.classList.toggle("hidden", i !== index);
+                });
+
+                // Check if last slide
+                const isLastSlide = index === slides.length - 1;
+
+                if (isLastSlide) {
+                    nextButtons.forEach(btn => btn.classList.add("hidden"));
+                    if (doneButton) doneButton.classList.remove("hidden");
+                } else {
+                    nextButtons.forEach(btn => btn.classList.remove("hidden"));
+                    if (doneButton) doneButton.classList.add("hidden");
+                }
+            }
+
+            // NEXT button
+            nextButtons.forEach((btn) => {
+                btn.addEventListener("click", () => {
+                    if (currentSlide < slides.length - 1) {
+                        currentSlide++;
+                        showSlide(currentSlide);
+                    }
+                });
+            });
+
+            // RETURN button - go to previous slide or navigate back
+            returnButton.addEventListener("click", () => {
+                // If on first slide, navigate to return route
+                if (currentSlide === 0) {
+                    window.location.href = returnRouteFromFirstSlide;
+                    return;
+                }
+
+                if (currentSlide > 0) {
+                    currentSlide--;
                     showSlide(currentSlide);
                 }
             });
-        });
 
-        // RETURN button - go to previous slide or navigate back
-        returnButton.addEventListener("click", () => {
-            // If on first slide, navigate to return route
-            if (currentSlide === 0) {
-                window.location.href = returnRouteFromFirstSlide;
-                return;
+            // DONE button - navigate to completion route
+            if (doneButton) {
+                doneButton.addEventListener("click", () => {
+                    window.location.href = doneButtonRoute;
+                });
             }
 
-            if (currentSlide > 0) {
-                currentSlide--;
-                showSlide(currentSlide);
-            }
+            // Initialize - show first slide
+            showSlide(currentSlide);
         });
-
-        // DONE button - navigate to completion route
-        if (doneButton) {
-            doneButton.addEventListener("click", () => {
-                window.location.href = doneButtonRoute;
-            });
-        }
-
-        // Initialize - show first slide
-        showSlide(currentSlide);
-    });
-</script>
-
+    </script>
 @endpush

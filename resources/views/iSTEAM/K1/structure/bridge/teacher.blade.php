@@ -45,17 +45,21 @@
     {{-- slide 2 --}}
     <div class="flex  !text-white flex-col t-slide justify-start  text-start">
         <div>
-            <h2 class=" t-title">Information of a standard beam bridge:</h2>
-            <ul class="list-disc ">
-                <li>The bridge spans at least 35cm with a width of around 10cm.</li>
-                <li>The bridge will sit on a gap of 25cm for the bridge test.</li>
-                <li>During the test, test items will be placed at the middle part of the bridge.</li>
+            <h2 class=" t-title">Preparations for Activity 1:</h2>
+            <ul class="list-disc pl-[3vw]">
+                <li>Each group a set of straws of different lengths - 10 long, 6 medium-length and 8 short (refer to the
+                    lesson on how to make a beam bridge; important information of a standard beam bridge is as shown on the
+                    next page)</li>
+                <li>Each group 15 pipe cleaners (sample's measurement: 30cm long)</li>
+                <li>Test items such as stones, sandbags and blocks</li>
+                <li>A weighing scale</li>
             </ul>
         </div>
 
 
-        <img src="{{ asset('assets/images/K1/str/new.png') }}" class="img-lg" />
-        <p class="note !text-[#F7B94A]">Suggestion: Make one as premade sample for display during the lesson.</p>
+        <img src="{{ asset('assets/images/K1/str/new.png') }}" class="img-md" />
+        <p class="note !text-[#F7B94A]">Suggestion: Pre-pack these two materials in a bag for each child or group before
+            each lesson.</p>
     </div>
 
     {{-- slide 2 --}}
@@ -70,26 +74,27 @@
         </div>
 
 
-        <img src="{{ asset('assets/images/K1/str/br29.png') }}" class="w-[600px]" />
+        <img src="{{ asset('assets/images/K1/str/br29.png') }}" class="img-md" />
         <p class="note !text-[#F7B94A]">Suggestion: Make one as premade sample for display during the lesson.</p>
     </div>
 
     {{-- sldie 3 --}}
     <div class="flex  !text-white flex-col t-slide justify-start  text-start">
-        <ul>
-            <li>Each group 20 straws (you may use another colour of straws)</li>
-            <li>Each group 25 pipe cleaners (30cm long)</li>
-            <li>Each child a pair of scissors (remind children to use them carefully)</li>
-            <li>Rulers</li>
-            <li>Test items such as marbles, stones, sandbags, blocks</li>
-            <li>A weighing scale</li>
-            <li>Coloured transparent wrappers (tracing papers, cellophane wraps or
-                any transparent materials that allow us to see the structure of a
-                building after wrapped)</li>
-            <li>White glue or adhesive tape (single and double-sided)</li>
-
-        </ul>
-        </ul>
+        <div>
+            <h2 class="t-title">Preparations for Activity 2:</h2>
+            <ul class="list-disc pl-[3vw]">
+                <li>Each group 20 straws (you may use another colour of straws)</li>
+                <li>Each group 25 pipe cleaners (30cm long)</li>
+                <li>Each child a pair of scissors (remind children to use them carefully)</li>
+                <li>Rulers</li>
+                <li>Test items such as marbles, stones, sandbags, blocks</li>
+                <li>A weighing scale</li>
+                <li>Coloured transparent wrappers (tracing papers, cellophane wraps or any transparent materials that allow
+                    us
+                    to see the structure of a building after wrapped)</li>
+                <li>White glue or adhesive tape (single and double-sided)</li>
+            </ul>
+        </div>
     </div>
 
 
@@ -137,7 +142,7 @@
                 <li>If you get a chance to design and build a new bridge to hold up more weight,
                     would you do it differently? Why?</li>
 
-                <li>-----------------------------------------------------------------------</li>
+                <p>------------------------------------------------------------------</p>
                 <li>At the end of the lesson, display all the bridges created in the classroom.</li>
             </ul>
         </div>
@@ -182,7 +187,7 @@
         </div>
     </div>
 
-    
+
     {{-- slide 7 --}}
     <div class=" t-slide text-start flex items-center !text-white !w-[53vw]">
         <div>
@@ -194,14 +199,6 @@
                         video.
                         <img class="t-video-btn absolute top-[-1vw] left-[7.6vw]"
                             src="{{ asset('assets/images/pptimages/video.png') }}" />
-                    </span>
-                </li>
-
-                <li>
-                    <span class="relative">
-                        If you see <span class="opacity-0">---</span> , click on it for additional information or activity.
-                        <img src="{{ asset('assets/images/pptimages/info-btn.png') }}"
-                            class="t-info-btn absolute top-[-1vw] left-[8vw]" />
                     </span>
                 </li>
 
@@ -230,7 +227,7 @@
     </div>
 
 
-      <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" />
+    <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" />
 
 
     {{-- ========================================================== --}}

@@ -41,7 +41,7 @@
                 <li>Each child a pair of scissors (remind children to use them carefully)</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K1/str/r17.png') }}" alt="Teacher" />
+        <img src="{{ asset('assets/images/K1/str/r17.png') }}" />
         <p class="note !text-[#F7B94A]">Suggestion: Pre-pack these two materials in a bag for each child or group before
             each lesson.</p>
     </div>
@@ -56,7 +56,7 @@
                 <li>Each child a pair of scissors (remind children to use them carefully)</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K1/str/r18.png') }}" alt="Teacher" />
+        <img src="{{ asset('assets/images/K1/str/r18.png') }}" />
         <p class="note !textiamber-300">Suggestion: Pre-pack these two materials in a bag for each child or group before
             each lesson.</p>
     </div>
@@ -75,8 +75,7 @@
         <video id="video1" class=" pointer-events-none">
             <source src="{{ asset('assets/images/K1/str/157.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
-        </video> <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher"
-            class="absolute teacher-img1" />
+        </video> <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" />
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
             <img src="/assets/images/pptimages/video.png" />
@@ -123,7 +122,7 @@
                 <li>What problems did you encounter during the process of engineering (constructing
                     the ball roller coaster)? How did you overcome the problems?</li>
 
-                <li>-----------------------------------------------------------------------</li>
+                <p>-------------------------------------------------------------</p>
                 <li>At the end of the lesson, display all the ball roller coasters created in the
                     classroom.</li>
 
@@ -143,14 +142,6 @@
                         video.
                         <img class="t-video-btn absolute top-[-1vw] left-[7.6vw]"
                             src="{{ asset('assets/images/pptimages/video.png') }}" />
-                    </span>
-                </li>
-
-                <li>
-                    <span class="relative">
-                        If you see <span class="opacity-0">---</span> , click on it for additional information or activity.
-                        <img src="{{ asset('assets/images/pptimages/info-btn.png') }}"
-                            class="t-info-btn absolute top-[-1vw] left-[8vw]" />
                     </span>
                 </li>
 
@@ -177,11 +168,11 @@
             </ul>
         </div>
 
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" />
     </div>
 
 
-    <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
+    <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" />
 
 
 
@@ -250,7 +241,7 @@
 
             // CONFIGURE YOUR ROUTES HERE
             const returnRouteFromFirstSlide = "{{ route('rollerSelection') }}";
-            const doneButtonRoute = "{{ route('K1structure') }}";
+            const doneButtonRoute = "{{ route('rollerSelection') }}";
 
             // Pause all videos when changing slides
             function pauseAllVideos() {

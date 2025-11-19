@@ -8,7 +8,7 @@
 
 
     {{-- sldie 1  --}}
-    <div class="flex !text-white flex-col t-slide justify-start  text-start">
+    <div class="flex !text-white flex-col t-slide justify-around  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -32,7 +32,7 @@
 
 
     {{-- slide 2 --}}
-    <div class="flex !text-white flex-col t-slide justify-start  text-start">
+    <div class="flex !text-white flex-col t-slide justify-around  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
@@ -117,14 +117,6 @@
                 </li>
 
                 <li>
-                    <span class="relative">
-                        If you see <span class="opacity-0">---</span> , click on it for additional information or activity.
-                        <img src="{{ asset('assets/images/pptimages/info-btn.png') }}"
-                            class="t-info-btn absolute top-[-1vw] left-[8vw]" />
-                    </span>
-                </li>
-
-                <li>
                     Always ask questions to encourage children to think and share their ideas first before giving out
                     any information.
                 </li>
@@ -186,9 +178,6 @@
             <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
         </button>
     </div>
-
-
-
 
 @endsection
 

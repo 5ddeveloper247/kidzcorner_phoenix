@@ -3,17 +3,16 @@
 
 @section('content')
 
-    <div id="topDiv" class="flex flex-col  gap-[2vw] ">
+    <div id="topDiv" class="flex flex-col  ">
         <div class="indexTitle stroke">Fingerprint Patterns</div>
         <h2 class=" !text-white stroke ">
             Identify three basic fingerprint patterns
             and find out the patterns that one has</h2>
 
-        <div class="down-btn-container">
-            <button class="nextButton">
-                <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
-            </button>
-        </div>
+        <button class="nextButton">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
+        </button>
+
     </div>
 
 

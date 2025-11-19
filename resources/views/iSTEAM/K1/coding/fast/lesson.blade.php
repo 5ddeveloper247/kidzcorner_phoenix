@@ -25,8 +25,8 @@
 
     {{-- Slide3 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <video id="video1" class=" pointer-events-none">
-            <source src="{{ asset('assets/images/K1/coding/98.mp4') }}" type="video/mp4">
+        o id="video1" class=" pointer-events-none">
+        <vide    <source src="{{ asset('assets/images/K1/coding/98.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
         <h2 class="title stroke">Let’s watch a video!</h2>

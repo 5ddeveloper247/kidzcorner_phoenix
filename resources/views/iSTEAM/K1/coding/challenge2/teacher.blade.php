@@ -8,7 +8,7 @@
     <h2 class="top-title stroke">Coding Challenge (2)</h2>
 
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start">
+    <div class="flex !text-white flex-col t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -36,13 +36,12 @@
                 </ul>
             </div>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" />
     </div>
 
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start">
+    <div class="flex !text-white flex-col t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
@@ -54,11 +53,10 @@
             <img src="{{ asset('assets/images/K1/coding/challenge1/ch12.png') }}" class="!h-[35vh]" />
             <img src="{{ asset('assets/images/K1/coding/challenge1/ch11.png') }}" class="!h-[35vh]" />
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" />
     </div>
 
     {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start">
+    <div class="flex !text-white flex-col t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc">
@@ -68,12 +66,11 @@
             </ul>
         </div>
         <img src="{{ asset('assets/images/K1/coding/challenge2/ch1.png') }}" class="w-[500px]" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" />
     </div>
 
 
     {{-- slide 4 --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start">
+    <div class="flex !text-white flex-col t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations for the testing of the ball roller coaster:</h2>
             <ul class="list-disc">
@@ -82,12 +79,11 @@
             </ul>
         </div>
         <img src="{{ asset('assets/images/K1/coding/challenge2/ch9.png') }}" class="w-[800px]" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" />
     </div>
 
 
     {{-- slide 5 --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide items-center justify-start  text-start">
+    <div class="flex !text-white flex-col t-slide items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc">
@@ -97,11 +93,10 @@
             </ul>
         </div>
         <img src="{{ asset('assets/images/K1/coding/cd/cd13.png') }}" class="w-[600px]" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" />
     </div>
 
     {{-- sldie 6 --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide items-center justify-start  text-start">
+    <div class="flex !text-white flex-col t-slide items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc">
@@ -109,32 +104,29 @@
             </ul>
         </div>
         <img src="{{ asset('assets/images/K1/coding/challenge1/ch13.png') }}" class="w-[500px]" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" />
     </div>
 
 
     {{-- sldie 7 --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide items-center justify-start  text-start">
+    <div class="flex !text-white flex-col t-slide items-center justify-start  text-start">
         <p class="note">When the hands-on sessions 1 or 2 start, guide each group of children to set up
             the mat accordingly (as shown). Advise them to discuss as a group to complete the
             mission. <span class="text-[#F7B94A]"> If needed, adjust the level of difficulty by reducing the number of
                 colour cards on the mat for different groups.</span></p>
         <img src="{{ asset('assets/images/K1/coding/challenge2/ch3.png') }}" class="w-img" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" />
     </div>
 
 
     {{-- sldie 8 --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide items-center justify-start  text-start">
+    <div class="flex !text-white flex-col t-slide items-center justify-start  text-start">
         <p class="note">If time allows, let children repeat the hands-on session by adding obstacles
             into the coding mat (example as shown)</p>
         <img src="{{ asset('assets/images/K1/coding/challenge2/ch10.png') }}" class="w-img" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" />
     </div>
 
 
     {{-- sldie 9 --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start">
+    <div class="flex !text-white flex-col t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title">Reminders or advice during hands-on session:</h2>
             <ul class="list-disc ">
@@ -147,12 +139,11 @@
                 <li>Be patient and take turns when using the different tools.</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" />
     </div>
 
 
     {{-- sldie 10 --}}
-    <div class="slide flex  flex-col t-slide justify-start  text-2xl text-start !text-white">
+    <div class="slide flex  flex-col t-slide justify-start  text-start !text-white">
         <div class="flex w-[100%] items-center justify-between">
             <div>
                 <h2 class=" t-title">Notes:</h2>
@@ -177,20 +168,20 @@
                     </li>
                     <li class="flex">
                         Click on this shortcut icon
-                       <span>
+                        <span>
                             <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" class="home-btn" />
                         </span>
                         if you need to go to some parts of the lesson quickly.
                     </li>
                 </ul>
             </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" />
+
         </div>
     </div>
 
 
     {{-- slide 11 --}}
-    <div class="text-white flex flex-col t-slide items-center justify-center  text-start text-2xl slide hidden">
+    <div class="text-white flex flex-col t-slide items-center justify-center  text-start slide hidden">
         <h2 class="text-center title stroke">Learning Centre Idea</h2>
         <div class="flex">
             <div class="space-y-20">
@@ -209,11 +200,11 @@
                 </ul>
             </div>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" />
     </div>
 
 
 
+    <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" />
 
     {{-- ========================================================== --}}
     {{-- Buttons --}}

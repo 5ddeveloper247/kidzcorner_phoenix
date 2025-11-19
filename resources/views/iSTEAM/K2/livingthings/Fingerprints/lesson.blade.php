@@ -70,10 +70,10 @@
     <div class="slide hidden flex flex-col items-center justify-start">
         <div class="text-start">
             <h2 class="title stroke text-start">Let's do:</h2>
+            <ol class="lesson-ul list-decimal title stroke text-start">
+                <li>(A) Use a pencil to make a patch of dark mark on a paper.</li>
+            </ol>
         </div>
-        <ol class="lesson-ul list-decimal title stroke text-start">
-            <li>(A) Use a pencil to make a patch of dark mark on a paper.</li>
-        </ol>
         <video id="video1" class="video1 pointer-events-none">
             <source src="{{ asset('assets/images/K2/videos/183.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
@@ -89,10 +89,10 @@
     <div class="slide hidden flex flex-col items-center justify-start">
         <div class="text-start">
             <h2 class="title stroke text-start">Let's do:</h2>
+            <ol class="lesson-ul list-decimal title stroke text-start" start="2">
+                <li>(B) Rub a fingertip over the pencil mark to stain it.</li>
+            </ol>
         </div>
-        <ol class="lesson-ul list-decimal title stroke text-start" start="2">
-            <li>(B) Rub a fingertip over the pencil mark to stain it.</li>
-        </ol>
         <video id="video2" class="video1 pointer-events-none">
             <source src="{{ asset('assets/images/K2/videos/184.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
@@ -108,11 +108,11 @@
     <div class="slide hidden flex flex-col items-center justify-start">
         <div class="text-start">
             <h2 class="title stroke text-start">Let's do:</h2>
+            <ol class="lesson-ul list-decimal title stroke text-start" start="3">
+                <li>(C) Cut and stick a piece of clear tape on the stained fingertip (of B).</li>
+            </ol>
         </div>
-        <ol class="lesson-ul list-decimal title stroke text-start" start="3">
-            <li>(C) Cut and stick a piece of clear tape on the stained fingertip (of B).</li>
-        </ol>
-        <video id="video3" class="video1 pointer-events-none">
+        <video id="video3" class="video-md pointer-events-none">
             <source src="{{ asset('assets/images/K2/videos/185.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -128,11 +128,11 @@
     <div class="slide hidden flex flex-col items-center justify-start">
         <div class="text-start">
             <h2 class="title stroke text-start">Let's do:</h2>
+            <ol class="lesson-ul list-decimal title stroke text-start" start="4">
+                <li>(C) Carefully remove the tape from the fingertip (of B) and paste it on the learning journal (of B).</li>
+            </ol>
         </div>
-        <ol class="lesson-ul list-decimal title stroke text-start" start="4">
-            <li>(C) Carefully remove the tape from the fingertip (of B) and paste it on the learning journal (of B).</li>
-        </ol>
-        <video id="video4" class="video1 pointer-events-none">
+        <video id="video4" class="video-md pointer-events-none">
             <source src="{{ asset('assets/images/K2/videos/186.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -147,10 +147,10 @@
     <div class="slide hidden flex flex-col items-center justify-start">
         <div class="text-start">
             <h2 class="title stroke text-start">Let's do:</h2>
+            <ol class="lesson-ul list-decimal title stroke text-start" start="5">
+                <li>(A) Use a wet towel to clean the fingertip (of B).</li>
+            </ol>
         </div>
-        <ol class="lesson-ul list-decimal title stroke text-start" start="5">
-            <li>(A) Use a wet towel to clean the fingertip (of B).</li>
-        </ol>
         <video id="video5" class="video1 pointer-events-none">
             <source src="{{ asset('assets/images/K2/videos/187.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
@@ -167,10 +167,10 @@
     <div class="slide hidden flex flex-col items-center justify-start">
         <div class="text-start">
             <h2 class="title stroke text-start">Let's do:</h2>
+            <ol class="lesson-ul list-decimal title stroke text-start" start="6">
+                <li>(A, B & C) Repeat the steps for other fingers.</li>
+            </ol>
         </div>
-        <ol class="lesson-ul list-decimal title stroke text-start" start="6">
-            <li>(A, B & C) Repeat the steps for other fingers.</li>
-        </ol>
         <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f8.png') }}" class="img-xl" />
         <p class="note text-center">Note: Have children change their roles to help one another complete the fingerprint
             record.</p>
@@ -180,10 +180,10 @@
     <div class="slide hidden flex flex-col items-center justify-start">
         <div class="text-start">
             <h2 class="title stroke text-start">Let's do:</h2>
+            <ol class="lesson-ul list-decimal title stroke text-start" start="7">
+                <li>Observe your fingerprints.</li>
+            </ol>
         </div>
-        <ol class="lesson-ul list-decimal title stroke text-start" start="7">
-            <li>Observe your fingerprints.</li>
-        </ol>
         <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f2.png') }}" class="img-xl" />
         <p class="note text-center">Note: Have children observe and compare their own set of fingerprints on the record.
         </p>
@@ -191,7 +191,7 @@
 
     {{-- Slide 15 --}}
     <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f2.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f2.png') }}" class="img-md" />
         <div class="text-start">
             <h2 class="title stroke text-start">What do you observe: <br>Are there similarities between your fingerprints?
             </h2>
@@ -200,7 +200,7 @@
 
     {{-- Slide 16 --}}
     <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f2.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f2.png') }}" class="img-md" />
         <div class="text-start">
             <h2 class="title stroke text-start">What do you observe: <br>Do your left and right hands' fingerprints look
                 alike?</h2>
@@ -211,17 +211,17 @@
     <div class="slide hidden flex flex-col items-center justify-start">
         <div class="text-start">
             <h2 class="title stroke text-start">Let's do:</h2>
+            <ol class="lesson-ul list-decimal title stroke text-start" start="8">
+                <li>Observe your fingerprints with friends.</li>
+            </ol>
         </div>
-        <ol class="lesson-ul list-decimal title stroke text-start" start="8">
-            <li>Observe your fingerprints with friends.</li>
-        </ol>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f9.png') }}" class="large-img6" />
+        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f9.png') }}" class="img-xl" />
         <p class="note">Note: Have children observe and compare their fingerprints with friends.</p>
     </div>
 
     {{-- Slide 18 --}}
     <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f9.png') }}" class="large-img6" />
+        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f9.png') }}" class="img-xl" />
         <div class="text-start">
             <h2 class="title stroke text-start">What do you observe: <br>Do you find anyone with the same fingerprints as
                 yours?</h2>
@@ -271,12 +271,15 @@
     {{-- Slide 24 --}}
     <div class="slide hidden flex flex-col items-center justify-center gap-y-4">
         <h2 class="title stroke !text-white">Learning Journal</h2>
-        <div class="w-[30vw] h-fit bg-cover bg-center p-[20px] flex flex-col justify-center items-center"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center p-[20px] flex flex-col justify-center items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
-            <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f12.png') }}" class="img-xl" />
+            <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f12.png') }}" />
         </div>
     </div>
 
+
+
+    {{-- =================== --}}
     {{-- Buttons --}}
     <div class="down-btn-container">
         <button class="doneButton">

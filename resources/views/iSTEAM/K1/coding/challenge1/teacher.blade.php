@@ -9,7 +9,7 @@
 
 
     {{-- sldie 1  --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start">
+    <div class="flex !text-white flex-col t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -37,13 +37,12 @@
                 </ul>
             </div>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
 
     {{-- slide 2 --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start">
+    <div class="flex !text-white flex-col t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
@@ -55,11 +54,10 @@
             <img src="{{ asset('assets/images/K1/coding/challenge1/ch12.png') }}" class="h-[40vh]" />
             <img src="{{ asset('assets/images/K1/coding/challenge1/ch11.png') }}" class="h-[40vh]" />
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
     {{-- sldie 3 --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start">
+    <div class="flex !text-white flex-col t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc">
@@ -69,12 +67,11 @@
             </ul>
         </div>
         <img src="{{ asset('assets/images/K1/coding/challenge1/ch10.png') }}" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- slide 4 --}}
-    <div class=" slide flex text-2xl !text-white flex-col items-center t-slide justify-start  text-start">
+    <div class="flex !text-white flex-col items-center t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations for the testing of the ball roller coaster:</h2>
             <ul class="list-disc">
@@ -83,12 +80,11 @@
             </ul>
         </div>
         <img src="{{ asset('assets/images/K1/coding/challenge1/gl1.png') }}" alt="Teacher" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- slide 5 --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide items-center justify-start  text-start">
+    <div class="flex !text-white flex-col t-slide items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc">
@@ -98,11 +94,10 @@
             </ul>
         </div>
         <img src="{{ asset('assets/images/K1/coding/cd/cd13.png') }}" alt="Teacher" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
     {{-- sldie 6 --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide items-center justify-start  text-start">
+    <div class="flex !text-white flex-col t-slide items-center justify-start  text-start">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc">
@@ -110,21 +105,19 @@
             </ul>
         </div>
         <img src="{{ asset('assets/images/K1/coding/challenge1/ch13.png') }}" alt="Teacher" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- sldie 7 --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide items-center justify-start  text-start">
+    <div class="flex !text-white flex-col t-slide items-center justify-start  text-start">
         <p class="note">Before the hands-on session, introduce children to the coding mat and brief
             them on its measurement. Show them how to programme a robot to move on it.</p>
         <img src="{{ asset('assets/images/K1/coding/challenge1/ch14.png') }}" alt="Teacher" class="w-img" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- sldie 8 --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide items-center justify-start  text-start">
+    <div class="flex !text-white flex-col t-slide items-center justify-start  text-start">
         <p class="note">When the hands-on sessions 1 or 2 start, guide each group of children to set up
             the mat accordingly (as shown). Advise them to discuss as a group to complete the
             mission. <span class="text-[#F7B94A]">If needed, adjust the level of difficulty by reducing the number of colour
@@ -134,12 +127,11 @@
             <img src="/assets/images//K1/coding/challenge1/ch4.png" />
             <img src="/assets/images//K1/coding/challenge1/ch3.png" class="!w-[15vw]" />
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- sldie 9 --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start">
+    <div class="flex !text-white flex-col t-slide justify-start  text-start">
         <div>
             <ul class="list-disc ">
                 <li> <span class="text-red-400">During hands-on session 1</span>, advise children to take turns to complete
@@ -159,13 +151,12 @@
 
             </ul>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
 
     {{-- sldie 10 --}}
-    <div class=" slide flex text-2xl !text-white flex-col t-slide justify-start  text-start">
+    <div class="flex !text-white flex-col t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title">Reminders or advice during hands-on session:</h2>
             <ul class="list-disc ">
@@ -178,12 +169,11 @@
                 <li>Be patient and take turns when using the different tools.</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
 
     {{-- sldie 11 --}}
-    <div class="slide flex  flex-col t-slide justify-start  text-2xl text-start !text-white">
+    <div class="slide flex  flex-col t-slide justify-start  text-start !text-white">
         <div>
             <h2 class=" t-title">Notes:</h2>
             <ul class="list-disc leading-relaxed">
@@ -214,12 +204,11 @@
                 </li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" alt="Teacher" />
     </div>
 
 
     {{-- slide 12 --}}
-    <div class="text-white flex flex-col t-slide items-center justify-center  text-start text-2xl slide hidden">
+    <div class="text-white flex flex-col t-slide items-center justify-center  text-start slide hidden">
         <h2 class="text-center title stroke">Learning Centre Idea</h2>
         <div class="flex">
             <div class="space-y-20">
@@ -238,9 +227,9 @@
                 </ul>
             </div>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" />
     </div>
 
+    <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
 
     {{-- ========================================================== --}}
     {{-- Buttons --}}
@@ -285,7 +274,7 @@
 @push('script')
     <script>
         document.addEventListener("DOMContentLoaded", () => {
-            const slides = document.querySelectorAll(".slide");
+            const slides = document.querySelectorAll(".t-slide");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
             const doneButton = document.querySelector(".doneButton"); //   DONE button
