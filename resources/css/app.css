@@ -513,7 +513,9 @@ span img {
     #Lesson img {
         width: 16vw !important;
     }
-    .lesson-ul {
+    .lesson-ul,
+    .slide ol,
+    .slide ul {
         padding-left: 4vw !important;
         /* width: 59vw !important; */
         font-size: 2vw !important;
@@ -563,4 +565,18 @@ span img {
     .note {
         font-size: 1.4vw !important;
     }
+}
+
+@media (max-height: 1000px) {
+    .lesson-ul,
+    .slide ol,
+    .slide ul {
+        padding-left: 4vw !important;
+        /* width: 59vw !important; */
+        font-size: 2vw !important;
+        color: #f7b94a;
+    }
+
+
+    
 }

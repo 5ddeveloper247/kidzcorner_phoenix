@@ -301,13 +301,13 @@
     {{-- clcik slides --}}
     {{-- 1 --}}
     <div class="slide hidden info-slide2  flex flex-col items-center justify-start  ">
-        <img src="/assets/images/N2/livingThings/lt61.png" class="img-lg" />
+        <img src="/assets/images/N2/LivingThings/lt61.png" class="img-lg" />
         <h2 class="title stroke">Plants need food to grow. <br>
             Where do they get their food from?</h2>
     </div>
     {{-- 2 --}}
     <div class="slide hidden info-slide2  flex flex-col items-center justify-start  ">
-        <img src="/assets/images/N2/livingThings/lt80.png" class="img-md" />
+        <img src="/assets/images/N2/LivingThings/lt80.png" class="img-md" />
         <h2 class="title stroke">Plants make their own food to grow. <br>
             Their leaves use water, nutrients from the soil, <br>
             air and sunlight to make food.</h2>

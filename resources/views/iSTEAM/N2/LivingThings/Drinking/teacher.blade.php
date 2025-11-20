@@ -54,7 +54,7 @@
             </ul>
         </div>
 
-        <img src="{{ asset('assets/images/N2/Livingthings/lt37.png') }}" alt="Teacher" class="w-[400px]" />
+        <img src="{{ asset('assets/images/N2/LivingThings/lt37.png') }}" alt="Teacher" class="w-[400px]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
@@ -66,15 +66,15 @@
         <ul class="list-disc ">
             <li>You can encourage children to mix the colours as an extended activity
                 <div class="flex items-center ">
-                    <img src="{{ asset('assets/images/N2/Livingthings/lt41.png') }}" alt="Teacher" class="!max-w-[10vw]" />
-                    <img src="{{ asset('assets/images/N2/Livingthings/lt42.png') }}" alt="Teacher"class="!max-w-[10vw]" />
+                    <img src="{{ asset('assets/images/N2/LivingThings/lt41.png') }}" alt="Teacher" class="!max-w-[10vw]" />
+                    <img src="{{ asset('assets/images/N2/LivingThings/lt42.png') }}" alt="Teacher"class="!max-w-[10vw]" />
                 </div>
             </li>
             <li>Take photos of the flowers when you spot changes. You may
                 also prepare picture of the flower for the children to
                 colour according to what they see.</li>
             <li>For example: daisy
-                <img src="{{ asset('assets/images/N2/Livingthings/lt40.png') }}" alt="Teacher" class="!max-w-[10vw]" />
+                <img src="{{ asset('assets/images/N2/LivingThings/lt40.png') }}" alt="Teacher" class="!max-w-[10vw]" />
             </li>
         </ul>
 
