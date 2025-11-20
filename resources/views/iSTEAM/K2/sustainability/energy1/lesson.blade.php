@@ -114,14 +114,14 @@
             <div class="flex items-center justify-between">
                 <h2 class="title stroke text-start">1. What materials are used in creating the solar oven?</h2>
                 <button class="info-btn1">
-                    <img src="{{ asset('assets/images/K2/sustain/energy1/information.png') }}" class="!max-w-[2.6vw]" />
+                    <img src="{{ asset('assets/images/K2/sustain/energy1/info-btn.png') }}" class="!w-[3vw]" />
                 </button>
             </div>
 
             <div class="flex items-center justify-between">
                 <h2 class="title stroke text-start">2. Why do you think these materials are used?</h2>
                 <button class="info-btn2">
-                    <img src="{{ asset('assets/images/K2/sustain/energy1/information.png') }}" class="!max-w-[2.6vw]" />
+                    <img src="{{ asset('assets/images/K2/sustain/energy1/info-btn.png') }}" class="!w-[3vw]" />
                 </button>
             </div>
         </div>

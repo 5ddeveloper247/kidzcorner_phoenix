@@ -515,7 +515,7 @@ span img {
     }
     .lesson-ul {
         padding-left: 4vw !important;
-        width: 59vw !important;
+        /* width: 59vw !important; */
         font-size: 2vw !important;
         color: #f7b94a;
     }

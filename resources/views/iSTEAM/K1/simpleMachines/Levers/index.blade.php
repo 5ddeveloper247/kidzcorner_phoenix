@@ -1,5 +1,5 @@
-@extends('layout.master')
 @section('title', 'Dynamic Presentation')
+@extends('layout.master')
 
 @section('content')
 

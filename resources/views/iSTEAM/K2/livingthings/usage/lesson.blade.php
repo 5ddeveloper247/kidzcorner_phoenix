@@ -87,7 +87,7 @@
 
     {{-- Slide 11 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u3.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/uu3.png') }}" class="img-md" />
         <h2 class="title stroke">When we want to enter or leave a country, fingerprints are
             used to verify that we are the correct passport holders.</h2>
     </div>

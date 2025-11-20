@@ -115,9 +115,9 @@
         <h2 class="title stroke text-start">Mission: <br>
             Build a Rube Goldberg Machine to ring a bell.
         </h2>
-        <div class="title stroke text-start">
-            <h2>Steps:</h2>
-            <ul class="lesson-ul list-decimal">
+        <div class="title stroke ">
+            <h2 class="text-start">Steps:</h2>
+            <ul class="lesson-ul list-decimal text-start">
                 <li>Put things together to set up the machine.</li>
                 <li>Test the machine.</li>
             </ul>

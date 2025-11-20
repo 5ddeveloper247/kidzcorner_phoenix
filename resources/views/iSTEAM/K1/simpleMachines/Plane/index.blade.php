@@ -5,15 +5,15 @@
 
     <div id="topDiv" class="flex flex-col   items-center ">
         <div class="indexTitle stroke">The Power of an Inclined Plane</div>
-        <div class=" !text-white    flex flex-col items-center">
+        <h2 class=" !text-white ">
             Explore the characteristics and uses of <br>
             a simple machine - Inclined Plane
+        </h2>
 
-            <button class="nextButton ">
-                <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
-            </button>
+        <button class="nextButton ">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
+        </button>
 
-        </div>
     </div>
 
 

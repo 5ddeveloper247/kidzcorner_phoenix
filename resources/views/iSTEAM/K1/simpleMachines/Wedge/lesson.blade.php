@@ -64,7 +64,7 @@
 
     {{-- Slide 6 --}}
     <div class="slide flex flex-col items-center justify-center hidden">
-        <h2 class="title !text-white">What do you learn (Conclusion):</h2>
+        <h2 class="title stroke !text-white">What do you learn (Conclusion):</h2>
         <h2 class="title stroke tracking-tight">How would a triangular block go easily into the moist sand?</h2>
     </div>
 
@@ -118,7 +118,7 @@
     </div>
 
     {{-- Slide 12 --}}
-    <div class="slide flex flex-col items-center justify-center hidden">
+    <div class="slide flex flex-col items-center justify-between h-[17vw] hidden">
         <h2 class="title stroke"><span class="!text-white">simple machine</span> are basic tools that help us to do work
             easily.</h2>
         <p class="note">Note: Explain that there are many types of simple machines and wedge is on type of simple machine.
@@ -126,7 +126,7 @@
     </div>
 
     {{-- Slide 13 --}}
-    <div class="slide flex flex-col items-center justify-center hidden">
+    <div class="slide flex flex-col items-center justify-between h-[17vw] hidden">
         <h2 class="title stroke">Do you know how a <span class="!text-white">wedge</span> helps us to do work easily?</h2>
         <p class="note">Note: Let children share what they know.</p>
     </div>
@@ -148,7 +148,7 @@
     </div>
 
     {{-- Slide 15 --}}
-    <div class="slide flex flex-col items-center justify-center hidden">
+    <div class="slide flex flex-col items-center justify-between h-[17vw] hidden">
         <h2 class="title stroke">Can you name some things which are wedges?</h2>
         <p class="note">Note: Have children name some things in their surroundings which are wedges.</p>
     </div>
@@ -161,7 +161,7 @@
 
     {{-- Slide 17 --}}
     <div class="slide flex flex-col items-center justify-center hidden">
-        <img src="{{ asset('assets/images/K1/sm/wedge/w6.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/sm/wedge/gl1.png') }}" class="img-md" />
         <h2 class="title stroke">The axe is a <span class="!text-white">wedge</span>.
             It is thick at one edge, thin at the other edge.</h2>
     </div>
@@ -188,7 +188,7 @@
 
     {{-- Slide 20 --}}
     <div class="slide flex flex-col items-center justify-center hidden">
-        <img src="{{ asset('assets/images/K1/sm/wedge/w8.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/sm/wedge/gl2.png') }}" class="img-md" />
         <h2 class="title stroke">A knife is <span class="!text-white">wedge</span>.
             It is thick at one edge, thin at the other edge.</h2>
     </div>
@@ -215,7 +215,7 @@
 
     {{-- Slide 23 --}}
     <div class="slide flex flex-col items-center justify-center hidden">
-        <img src="{{ asset('assets/images/K1/sm/wedge/w10.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/sm/wedge/gl3.png') }}" class="img-md" />
         <h2 class="title stroke">The blades of a scissor are <span class="!text-white">wedges</span>. They are thick at
             one edge, thin at the other edge.</h2>
     </div>
@@ -242,14 +242,14 @@
 
     {{-- Slide 26 --}}
     <div class="slide flex flex-col items-center justify-center hidden">
-        <img src="{{ asset('assets/images/K1/sm/wedge/w12.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/sm/wedge/gl4.png') }}" class="img-md" />
         <h2 class="title stroke">Teeth are wedges too! They are thick at one edge, thin and tapering at the other edge.
         </h2>
     </div>
 
     {{-- Slide 27 --}}
     <div class="slide flex flex-col items-center justify-center hidden">
-        <img src="{{ asset('assets/images/K1/sm/wedge/w12.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/sm/wedge/gl4.png') }}" class="img-md" />
         <h2 class="title stroke">Teeth help to bite and cut through food easily.</h2>
     </div>
 
@@ -261,7 +261,7 @@
 
     {{-- Slide 29 --}}
     <div class="slide flex flex-col items-center justify-center hidden">
-        <img src="{{ asset('assets/images/K1/sm/wedge/w13.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/sm/wedge/gl5.png') }}" class="img-md" />
         <h2 class="title stroke">This is a fighter aircraft. The front part is a wedge. It is thick at one edge, thin and
             tapering at the other edge.</h2>
     </div>
@@ -295,14 +295,14 @@
 
     {{-- Slide 33 --}}
     <div class="slide flex flex-col items-center justify-center hidden">
-        <img src="{{ asset('assets/images/K1/sm/wedge/w15.png') }}" class="img-h-md" />
+        <img src="{{ asset('assets/images/K1/sm/wedge/gl9.png') }}" class="img-h-md" />
         <h2 class="title stroke">The nails is a <span class="!text-white">wedge</span>.
             It is thick at one edge, thin and pointed at the other edge.</h2>
     </div>
 
     {{-- Slide 34 --}}
     <div class="slide flex flex-col items-center justify-center hidden">
-        <img src="{{ asset('assets/images/K1/sm/wedge/w15.png') }}" class="img-h-md" />
+        <img src="{{ asset('assets/images/K1/sm/wedge/gl9.png') }}" class="img-h-md" />
         <h2 class="title stroke">This helps us to easily push the nail into the wood with a hammer, This nail holds the
             wood pieces together.</h2>
     </div>
@@ -315,14 +315,14 @@
 
     {{-- Slide 36 --}}
     <div class="slide flex flex-col items-center justify-center hidden">
-        <img src="{{ asset('assets/images/K1/sm/wedge/w16.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/sm/wedge/gl6.png') }}" class="img-md" />
         <h2 class="title stroke">A needle is a <span class="!text-white">wedge</span> too!
             It is thick at one edge, thin and tapering at the other edge.</h2>
     </div>
 
     {{-- Slide 37 --}}
     <div class="slide flex flex-col items-center justify-center hidden">
-        <img src="{{ asset('assets/images/K1/sm/wedge/w16.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/sm/wedge/gl6.png') }}" class="img-md" />
         <h2 class="title stroke">A needle helps to join and sew the wool together.</h2>
     </div>
 
@@ -334,14 +334,14 @@
 
     {{-- Slide 39 --}}
     <div class="slide flex flex-col items-center justify-center hidden">
-        <img src="{{ asset('assets/images/K1/sm/wedge/w17.png') }}" class="img-h-md" />
+        <img src="{{ asset('assets/images/K1/sm/wedge/gl7.png') }}" class="img-h-md" />
         <h2 class="title stroke">A thumbtack is a <span class="!text-white">wedge</span>.
             It is thick at one edge, thin and tapering at the other edge.</h2>
     </div>
 
     {{-- Slide 40 --}}
     <div class="slide flex flex-col items-center justify-center hidden">
-        <img src="{{ asset('assets/images/K1/sm/wedge/w17.png') }}" class="img-h-md" />
+        <img src="{{ asset('assets/images/K1/sm/wedge/gl7.png') }}" class="img-h-md" />
         <h2 class="title stroke">A thumbtack helps to hold a paper onto a board.</h2>
     </div>
 
@@ -353,21 +353,21 @@
 
     {{-- Slide 42 --}}
     <div class="slide flex flex-col items-center justify-center hidden">
-        <img src="{{ asset('assets/images/K1/sm/wedge/w18.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/sm/wedge/gl8.png') }}" class="img-md" />
         <h2 class="title stroke">The doorstopper is a <span class="!text-white">wedge</span>.
             It is thick at one edge, thin and tapering at the other edge.</h2>
     </div>
 
     {{-- Slide 43 --}}
     <div class="slide flex flex-col items-center justify-center hidden">
-        <img src="{{ asset('assets/images/K1/sm/wedge/w18.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/sm/wedge/gl8.png') }}" class="img-md" />
         <h2 class="title stroke">A door stopper helps to hold the door in place.</h2>
     </div>
 
     {{-- Slide 44 --}}
     <div class="slide flex flex-col items-center justify-center hidden">
-        <h2 class="!text-white !text-center title">Class Activity 2</h2>
-        <img src="{{ asset('assets/images/K1/sm/wedge/w18.png') }}" class="img-sm" />
+        <h2 class="!text-white !text-center title stroke">Class Activity 2</h2>
+        <img src="{{ asset('assets/images/K1/sm/wedge/gl10.png') }}" class="img-sm" />
         <div class="text-start">
             <h2 class="title stroke">Let's find out:</h2>
             <h2 class="title stroke">How does a triangular block move forward easily in moist sand?</h2>
@@ -491,8 +491,8 @@
         </div>
         <div class="text-start">
             <h2 class="title stroke">Let's find out:</h2>
-            <p class="title stroke tracking-tighter">Which side of the triangular block can be pushed easily into water?
-            </p>
+            <h2 class="title stroke tracking-tighter">Which side of the triangular block can be pushed easily into water?
+            </h2>
         </div>
         <p class="note">Note: Ask children to make predictions and find out through experiment.</p>
     </div>
@@ -536,7 +536,7 @@
         </div>
         <div class="text-start">
             <h2 class="title stroke">Let's find out:</h2>
-            <p class="title stroke tracking-tighter">Which block is easier to push into play dough?</p>
+            <h2 class="title stroke tracking-tighter">Which block is easier to push into play dough?</h2>
         </div>
         <p class="note">Note: Ask children to make predictions and find out through experiment.</p>
     </div>
@@ -580,7 +580,7 @@
         </div>
         <div class="text-start">
             <h2 class="title stroke">Let's find out:</h2>
-            <p class="title stroke tracking-tighter">How do we move this cardboard easily in air?</p>
+            <h2 class="title stroke tracking-tighter">How do we move this cardboard easily in air?</h2>
         </div>
         <p class="note">Note: Ask children to make predictions and find out through experiment.
             Let children move the cardboard at different speeds to find out when the wedge is most effective.</p>

@@ -6,9 +6,8 @@
     <div id="topDiv" class="flex flex-col items-center ">
         <div class="indexTitle stroke">Global Warming</div>
         <h2 class=" !text-white stroke ">
-            Explore fingerprints; <br>
-            learn to make own set of fingerprints <br>
-            for analysis</h2>
+            Understand the meaning of global warming; <br>
+            learn how global warming affects Earth</h2>
 
         <button class="nextButton">
             <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
