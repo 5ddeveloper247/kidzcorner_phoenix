@@ -2103,22 +2103,22 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 
     // K2 -> livingthings -> Dna
     Route::get('/livingthings/WhatisDNA', function () {
-        return view('iSTEAM.K2.livingthings.Dna.index');
+        return view('iSTEAM.K2.livingthings.dna.index');
     })->name('Dna');
 
     // K2 -> livingthings -> WhatisDNA? -> select
     Route::get('/WhatisDNAChoice', function () {
-        return view('iSTEAM.K2.livingthings.Dna.selection');
+        return view('iSTEAM.K2.livingthings.dna.selection');
     })->name('DnaSelection');
 
     // K2 -> livingthings -> WhatisDNA? -> lesson
     Route::get('/livingthings/WhatisDNA/lesson', function () {
-        return view('iSTEAM.K2.livingthings.Dna.lesson');
+        return view('iSTEAM.K2.livingthings.dna.lesson');
     })->name('DnaLesson');
 
     // K2 -> livingthings -> WhatisDNA -> teacher
     Route::get('/livingthings/WhatisDNA/teacher', function () {
-        return view('iSTEAM.K2.livingthings.Dna.teacher');
+        return view('iSTEAM.K2.livingthings.dna.teacher');
     })->name('DnaTeacher');
 
 
