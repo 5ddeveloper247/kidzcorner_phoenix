@@ -6,7 +6,7 @@
     <h2 class="top-title stroke">Makey Makey (1)</h2>
 
     {{-- sldie 1  --}}
-    <div class=" flex t-slide !text-white flex-col justify-around  text-start">
+    <div class=" flex t-slide hidden !text-white flex-col justify-around  text-start">
         <div>
             <h2 class="t-title ">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -45,7 +45,7 @@
 
 
     {{-- slide 2 --}}
-    <div class=" flex t-slide !text-white flex-col justify-around  text-start">
+    <div class=" flex t-slide hidden !text-white flex-col justify-around  text-start">
         <div class="space-y-10">
             <ul class="list-disc ">
                 <h2 class=" t-title">Preparations:</h2>
@@ -76,7 +76,7 @@
 
 
     {{-- slide 4 --}}
-    <div class="text-start t-slide !text-white space-y-10">
+    <div class="text-start t-slide !text-white space-y-10 hidden">
         <div>
             <h2 class=" t-title">Things to note during hands-on session:</h2>
             <ul class="list-disc pl-[50px]">

@@ -8,7 +8,7 @@
 @section('content')
 
 
-    <div class=" flex items-center flex-col justify-around relative text-center z-[99]w-full h-full">
+    <div class="Selection flex items-center flex-col justify-around relative text-center z-[99]w-full h-full">
         <h2 class=text-[#F7B94A]  stroke">Evolution of Aeroplanes</h2>
         <div class="flex items-center justify-between gap-[10vw]">
 

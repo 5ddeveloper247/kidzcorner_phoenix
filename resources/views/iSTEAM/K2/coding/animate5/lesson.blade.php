@@ -2,7 +2,7 @@
 @section('title', 'Dynamic Presentation')
 
 @section('content')
-
+<h2 class="top-title stroke">Animate a Character (5)</h2>
 
     {{-- Slide 1 --}}
     <div class="slide flex flex-col items-center justify-center">

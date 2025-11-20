@@ -325,7 +325,7 @@
             a rocket that
             carries a space
             shuttle</h2>
-        <img src="{{ asset('assets/images/K2/aero/evo/e25.png') }}" class="img-nmd"  />
+        <img src="{{ asset('assets/images/K2/aero/evo/e25.png') }}" class="img-md"  />
     </div>
 
     {{-- Slide 36 --}}

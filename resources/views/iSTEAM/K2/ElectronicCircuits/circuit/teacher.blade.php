@@ -210,7 +210,7 @@
 
             if (doneButton) {
                 doneButton.addEventListener("click", () => {
-                    window.location.href = "{{ route('circuitSelection'') }}";
+                    window.location.href = "{{ route('circuitSelection') }}";
                 });
             }
             showSlide(currentSlide);
