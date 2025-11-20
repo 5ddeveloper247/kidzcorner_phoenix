@@ -567,7 +567,192 @@ span img {
     }
 }
 
-@media (max-height: 1000px) {
+@media (min-height: 900px) {
+    /* Container */
+    #ajax-section {
+        width: 67vw !important;
+        height: 37vw !important;
+    }
+
+    /* Base images */
+    .down-btn-container {
+        bottom: -3vw !important;
+    }
+
+    .vector-5 {
+        width: 32vw !important;
+    }
+
+    .drawable {
+        width: 45vw !important;
+        height: 24vw !important;
+        font-size: 1vw !important;
+    }
+    .drawable2 {
+        width: 45vw !important;
+        height: 22vw !important;
+        font-size: 1vw !important;
+    }
+
+    .drawable p {
+        font-size: 1.2vw !important;
+    }
+
+    /* Typography */
+    .title,
+    .title span,
+    .slide h2 {
+        font-size: 2.3vw !important;
+        /* max-width: 56vw !important; */
+    }
+    .title,
+    .slide h2 {
+        padding-inline: 2vw;
+    }
+
+    .t-slide .note,
+    .note {
+        font-size: 1.1vw !important;
+        max-width: 50vw !important;
+    }
+
+    /* Images - smaller */
+    .img-tiny {
+        max-width: 10vw !important;
+    }
+    .img-xs {
+        max-width: 15vw !important;
+    }
+    .img-sm {
+        max-width: 24vw !important;
+    }
+    .img-md {
+        max-width: 32vw !important;
+    }
+    .img-normal-md {
+        max-width: 28vw !important;
+    }
+    .img-semi-lg {
+        max-width: 38vw !important;
+    }
+
+    .img-lg {
+        max-width: 42vw !important;
+    }
+    .img-xl {
+        max-width: 50vw !important;
+    }
+    .img-full {
+        max-width: 60vw !important;
+    }
+
+    .img-h-xs {
+        max-height: 15vw !important;
+    }
+    .img-h-sm {
+        max-height: 18vw !important;
+    }
+    .img-h-md {
+        max-height: 24vw !important;
+    }
+    .img-h-lg {
+        max-height: 30vw !important;
+    }
+    .img-h-full {
+        max-height: 33vw !important;
+    }
+
+    .img-dual {
+        max-width: 30vw !important;
+        max-height: 28vw !important;
+    }
+    .img-triple {
+        max-width: 20vw !important;
+        max-height: 24vw !important;
+    }
+    .img-teacher {
+        max-width: 17vw !important;
+        max-height: 19vw !important;
+    }
+
+    .gif {
+        top: -2vw !important;
+        width: 20vw !important;
+    }
+
+    .gif2 {
+        top: 12.5vw !important;
+        right: 11vw !important;
+    }
+
+    /* Boards */
+    .board a {
+        width: 14vw !important;
+    }
+    .board a h2,
+    .board3 a h2 {
+        font-size: 1.4vw !important;
+    }
+    .board2 a {
+        width: 12vw !important;
+    }
+    .board2 div {
+        gap: 1vw !important;
+    }
+    .board2 a h2 {
+        font-size: 1.3vw !important;
+    }
+    .board a span,
+    .board2 a span,
+    .board3 a span {
+        font-size: 1.6vw !important;
+    }
+    .board3 a {
+        width: 14vw !important;
+        height: 11vw !important;
+    }
+
+    /* Panels */
+    .N1-panel a {
+        width: 18vw !important;
+        height: 15vw !important;
+    }
+    .N1-panel a h2 {
+        font-size: 2.1vw !important;
+    }
+    .N1-panel a img {
+        width: 5vw !important;
+        height: 5vw !important;
+    }
+
+    .panel-f a {
+        width: 15vw !important;
+        height: 13vw !important;
+    }
+    .panel-f a h2 {
+        font-size: 1.6vw !important;
+    }
+    .panel-f a img {
+        width: 4.5vw !important;
+        height: 4.5vw !important;
+    }
+
+    .K2-panel a {
+        width: 15vw !important;
+        height: 13vw !important;
+    }
+    .K2-panel a h2 {
+        font-size: 1.6vw !important;
+    }
+    .K2-panel a img {
+        width: 4vw !important;
+        height: 4vw !important;
+    }
+
+    /* Lesson */
+    #Lesson img {
+        width: 16vw !important;
+    }
     .lesson-ul,
     .slide ol,
     .slide ul {
@@ -577,6 +762,34 @@ span img {
         color: #f7b94a;
     }
 
+    /* Video */
+    video {
+        width: 38vw !important;
+    }
 
-    
+    /* Teacher */
+    .t-slide ul,
+    .t-slide ol,
+    .t-slide p {
+        line-height: 100% !important;
+        padding-left: 1.7vw !important;
+        font-weight: 400 !important;
+        font-size: 1.4vw !important;
+    }
+    .t-slide span img {
+        max-width: 3.2vw !important;
+    }
+
+    .teacher-img1 {
+        right: -9vw !important;
+    }
+
+    .t-info-btn,
+    .t-video-btn {
+        left: 6.7vw !important;
+    }
+
+    .t-home-btn {
+        left: 16.7vw !important;
+    }
 }
