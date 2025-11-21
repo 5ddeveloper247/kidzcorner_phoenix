@@ -353,6 +353,7 @@
 @endsection
 
 
+
 @push('script')
     <script>
         function toggleVideo(videoId) {
@@ -370,7 +371,19 @@
             const returnButton = document.getElementById("returnButton");
             const doneButton = document.querySelector(".doneButton");
 
-            let currentSlide = 0;
+            // Get URL parameters
+            const urlParams = new URLSearchParams(window.location.search);
+            const slideParam = urlParams.get('slide');
+            const returnUrl = urlParams.get('returnUrl');
+
+            let currentSlide = slideParam ? parseInt(slideParam) : 0;
+            const initialSlide = currentSlide; // Store the initial slide for return logic
+            let hasNavigated = false; // Track if user has navigated away from initial slide
+
+            // Validate slide number
+            if (currentSlide < 0 || currentSlide >= slides.length) {
+                currentSlide = 0;
+            }
 
             const returnRouteFromFirstSlide = "{{ route('electricitySelection') }}";
             const doneButtonRoute = "{{ route('k2ElectronicCircuits') }}";
@@ -405,6 +418,7 @@
             nextButtons.forEach((btn) => {
                 btn.addEventListener("click", () => {
                     if (currentSlide < slides.length - 1) {
+                        hasNavigated = true; // Mark that user has navigated
                         currentSlide++;
                         showSlide(currentSlide);
                     }
@@ -412,12 +426,21 @@
             });
 
             returnButton.addEventListener("click", () => {
+                // Check if we're on the initial slide, have a return URL, and haven't navigated
+                if (currentSlide === initialSlide && returnUrl && !hasNavigated) {
+                    // Redirect back to the source slide (teacher file)
+                    window.location.href = decodeURIComponent(returnUrl);
+                    return;
+                }
+
+                // Normal behavior: go to first slide or previous slide
                 if (currentSlide === 0) {
                     window.location.href = returnRouteFromFirstSlide;
                     return;
                 }
 
                 if (currentSlide > 0) {
+                    hasNavigated = true; // Mark that user has navigated
                     currentSlide--;
                     showSlide(currentSlide);
                 }
@@ -429,6 +452,7 @@
                 });
             }
 
+            // Show the initial slide (either from URL param or slide 0)
             showSlide(currentSlide);
         });
     </script>

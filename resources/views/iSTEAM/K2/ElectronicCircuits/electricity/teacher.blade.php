@@ -33,7 +33,7 @@
 
 
 
-    {{-- slide 2 --}}
+    {{-- slide 2 in Teacher file --}}
     <div class="flex !text-white flex-col t-slide justify-start  text-start">
         <div class="space-y-10">
             <h2 class=" t-title">Preparations:</h2>
@@ -44,7 +44,9 @@
                 <li>
                     For hands-on session 1, children will look for machines with an attached plug around a place
                     (school, classroom, kitchen, etc.) and the teacher will guide them to find out details of each machine
-                    (<a href="#" class="text-[#F7B94A]">click here</a> for the details).
+                    (<a href="{{ route('electricityLesson', ['slide' => 9, 'returnUrl' => urlencode(route('electricityTeacher', ['slide' => 1]))]) }}"
+                        class="text-[#F7B94A]">click here</a> for the
+                    details).
                     You may want to purposely put some relevant machines around the place (fan, kettle, blender, toaster,
                     rice cooker, iron, vacuum, etc.; preferably machines with different types of plugs).
                 </li>
@@ -172,16 +174,24 @@
             const slides = document.querySelectorAll(".t-slide");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
-            const doneButton = document.querySelector(".doneButton"); //   DONE button
+            const doneButton = document.querySelector(".doneButton");
 
-            let currentSlide = 0;
+            // Get slide number from URL parameter
+            const urlParams = new URLSearchParams(window.location.search);
+            const slideParam = urlParams.get('slide');
+            let currentSlide = slideParam ? parseInt(slideParam) : 0;
+
+            // Validate slide number
+            if (currentSlide < 0 || currentSlide >= slides.length) {
+                currentSlide = 0;
+            }
 
             function showSlide(index) {
                 slides.forEach((slide, i) => {
                     slide.classList.toggle("hidden", i !== index);
                 });
 
-                //   Agar last slide hai → NEXT button hide, DONE show
+                // If last slide → hide NEXT button, show DONE
                 if (index === slides.length - 1) {
                     nextButtons.forEach(btn => btn.classList.add("hidden"));
                     if (doneButton) doneButton.classList.remove("hidden");
@@ -191,7 +201,7 @@
                 }
             }
 
-            //   NEXT buttons listener
+            // NEXT buttons listener
             nextButtons.forEach((btn) => {
                 btn.addEventListener("click", () => {
                     if (currentSlide < slides.length - 1) {
@@ -201,13 +211,11 @@
                 });
             });
 
-            //   Return button - redirect if on first slide, otherwise go back
+            // Return button - redirect if on first slide, otherwise go back
             returnButton.addEventListener("click", () => {
                 if (currentSlide === 0) {
-                    //   First slide pe hai →  
                     window.location.href = "{{ route('electricitySelection') }}";
                 } else {
-                    //   Previous slide pe jao
                     currentSlide--;
                     showSlide(currentSlide);
                 }
@@ -218,6 +226,8 @@
                     window.location.href = "{{ route('electricitySelection') }}";
                 });
             }
+
+            // Show the initial slide (either from URL param or slide 0)
             showSlide(currentSlide);
         });
     </script>

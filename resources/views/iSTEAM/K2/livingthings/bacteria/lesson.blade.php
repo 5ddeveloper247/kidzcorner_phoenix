@@ -17,8 +17,8 @@
     {{-- Slide 2 --}}
     <div class="slide flex flex-col items-center justify-between !h-[28vw] hidden">
         <div class="flex justify-between w-[40vw]">
-            <img src="{{ asset('assets/images/k2/livingthings/bacteria/b1.png') }}" class="img-sm" />
-            <img src="{{ asset('assets/images/k2/LivingThings/bacteria/b2.png') }}" class="img-h-md" />
+            <img src="{{ asset('assets/images/K2/livingthings/bacteria/b1.png') }}" class="img-sm" />
+            <img src="{{ asset('assets/images/K2/LivingThings/bacteria/b2.png') }}" class="img-h-md" />
         </div>
         <p class="note">Note: Invite children to sing ""It is Living"" song together, get them share what they know about
             DNA.</p>
