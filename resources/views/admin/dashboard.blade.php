@@ -146,7 +146,7 @@
                             </div>
 
                             <div class="col-12 col-lg-3">
-                                <a>
+                               <a>
                                     <div class="card radius-15 overflow-hidden"
                                         style="min-height: 170px; background:#f2e9cc;">
                                         <div class="upper-blur">
@@ -183,11 +183,9 @@
                             </div>
 
                             <div class="col-12 col-lg-3">
-                                <a>
+                                <a href="{{ url('/phonics/l1') }}">
                                     <div class="card radius-15 overflow-hidden"
                                         style="min-height: 170px;  background:#f2e9cc; ">
-                                        <div class="upper-blur">
-                                        </div>
                                         <div
                                             class="card-body d-flex justify-content-center align-items-center mascot-container">
                                             <img src="{{ asset('assets/images/pptimages/phonic2.png') }}">

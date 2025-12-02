@@ -5,7 +5,7 @@ use App\Http\Controllers\AdminController;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\PasswordResetController;
 use Illuminate\Support\Facades\Auth;
-
+require __DIR__ . '\phonics\l1.php';
 
 Route::get('/login', [AuthController::class, 'showLoginForm'])->name('login');
 Route::get('/signin', [AuthController::class, 'showLoginForm']);
@@ -2899,8 +2899,3 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
         return view('iSTEAM.K2.FinalProject.final.teacher');
     })->name('final2Teacher');
 });
-
-
-
-
-

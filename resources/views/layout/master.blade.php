@@ -77,7 +77,10 @@
 
 <body>
     <section class="w-full h-screen relative flex items-center justify-center bg-[#FBF0D0] overflow-hidden">
-
+        <div class="absolute inset-0 bg-no-repeat bg-contain bg-center z-0 {{ isset($showBackground) && $showBackground ? '' : 'hidden' }}"
+            style="background-image: url('{{ asset('assets/images/phonicsl1/global/bg.png') }}');">
+        </div>
+        </div>
         <div id="ajax-section"
             class="flex items-center  justify-center relative text-center px-[5vw] py-[4vw] h-[43.438vw] w-[74vw] md:bg-cover bg-no-repeat bg-center"
             style="background-image: url('{{ asset('assets/images/pptimages/stoneboard.png') }}');">
@@ -91,8 +94,8 @@
                 src="{{ asset('assets/images/pptimages/bg-leaf-1.png') }}" />
 
             {{-- leaf 2 --}}
-            <img class="absolute top-[-6vw] left-[19.5vw] w-[7vw] rotate-[-38deg] z-30 transition-opacity cursor-none scale-x-[-1]"
-                src="{{ asset('assets/images/pptimages/leaf16.png') }}" />
+            <img class="absolute top-[-6.5vw] left-[15.5vw] w-[15vw] z-30 transition-opacity cursor-none "
+                src="{{ asset('assets/images/pptimages/img.svg') }}" />
 
 
             {{-- leaf 3 --}}
@@ -120,17 +123,21 @@
                 src="{{ asset('assets/images/pptimages/leaf11.png') }}" />
         </div>
 
-
-
         <!-- Vectors - conditionally shown -->
         <div id="vectors">
             <img class="absolute left-0 top-0 h-screen hidden md:block"
                 src="{{ asset('assets/images/pptimages/Vector2.png') }}" style="pointer-events: none" />
-            <img id="vector1" class="absolute right-0 bottom-0 w-[150px] sm:w-[200px] md:w-[40vw] z-30"
-                style="display: none" src="{{ asset('assets/images/pptimages/Vector3.png') }}" />
-            <img class="absolute right-0 bottom-0 w-[42.3vw] h-[24.844vw]  z-20 vector-5"
+
+            <img id="vector1"
+                class="absolute right-0 bottom-0 w-[42.3vw] h-[24.844vw] z-20 {{ isset($showVector1) && $showVector1 ? '' : 'hidden' }}"
+                src="{{ asset('assets/images/pptimages/Vector3.png') }}" />
+
+            <img class="absolute right-0 bottom-0 w-[42.3vw] h-[24.844vw] z-20 vector-5 {{ isset($showVector5) && $showVector5 ? '' : (isset($showVector5) ? 'hidden' : '') }}"
                 src="{{ asset('assets/images/pptimages/Vector5.png') }}" />
         </div>
+
+        <img src="{{ asset('assets/images/phonicsl1/global/masoct.png') }}"
+            class="absolute bottom-[2vw] right-[-1vw] z-[99] h-[25vw] {{ isset($showMascot) && $showMascot ? '' : 'hidden' }}" />
     </section>
 
     <!-- Universal Exit Popup (Added once in master layout) -->
