@@ -1,7 +1,9 @@
 @extends('layout.master')
 @section('title', 'Dynamic Presentation')
 
-
+@php
+    $showBackground = true;
+@endphp
 
 @section('content')
 
@@ -21,36 +23,38 @@
         <h2c class="text-[3vw] stroke text-[#F7B94A]">Phonics</h2>
             <div class="grid grid-cols-4 gap-[2vw]">
                 <a href="{{url('/phonics/letter_a/magicletters') }}">
+                    <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn8.png') }}" />
+                </a>
+
+                  <a href="{{url('/phonics/letter_a/alphabets')}}">
                     <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn1.png') }}" />
                 </a>
 
-                <a href="#">
+                <a href="{{url('/phonics/letter_a/songalong')}}">
                     <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn2.png') }}" />
                 </a>
 
-                <a href="#">
+                <a href="{{url('/phonics/letter_a/readalong')}}">
                     <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn3.png') }}" />
                 </a>
 
-                <a href="#">
+                <a href="{{url('/phonics/letter_a/storytime')}}">
                     <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn4.png') }}" />
                 </a>
 
-                <a href="#">
+                <a href="{{url('/phonics/letter_a/animated')}}">
                     <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn5.png') }}" />
                 </a>
 
-                <a href="#">
+                <a href="{{url('/phonics/letter_a/teaching')}}">
                     <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn6.png') }}" />
                 </a>
 
-                <a href="#">
+                <a href="{{url('/phonics/letter_a/about')}}">
                     <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn7.png') }}" />
                 </a>
 
-                <a href="#">
-                    <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn8.png') }}" />
-                </a>
+              
 
             </div>
     </div>

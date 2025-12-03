@@ -65,6 +65,10 @@
         .js-loading body {
             visibility: hidden;
         }
+
+        .no-bg {
+            background-image: none !important;
+        }
     </style>
 
     <script>
@@ -231,6 +235,8 @@
                 }
             });
         });
+
+  
     </script>
 
     @stack('script')
