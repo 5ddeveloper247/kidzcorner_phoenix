@@ -41,10 +41,10 @@
 @section('content')
 
     {{-- title --}}
-    <h2 class="top-title stroke"> Read Along</h2>
+    <h2 class="top-title stroke">Story Time</h2>
 
     {{-- panel 1 --}}
-    <div class="phonics-panel no-bg mb-[2vw]">
+    <div class="phonics-panel no-bg mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio/storytime.mp3') }}">
         <div class="relative">
             <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" />
             {{-- gifs --}}
@@ -52,26 +52,25 @@
             <img src="{{ asset('assets/images/phonicsl1/global/gifs/lili.gif') }}"
                 class="h-[20vw] bottom-0 right-0 absolute" />
 
-            <h1 class="text-white text-[4vw] absolute top-[12vw] left-[19vw]"> Read along <br> with us!</h1>
+            <h1 class="text-white text-[4vw] absolute top-[12vw] left-[19vw]"> It's story <br> time!</h1>
 
-            <p class="p-note absolute bottom-[1vw] left-[22%]">Tip: <a class="c-btn info-btn1">Click here</a> to find out why
-                reading words is important.</p>
+            <p class="p-note absolute bottom-[1vw] left-[22%]">Tip: <a class="c-btn info-btn1">Click here</a> to find
+                out why reading words is important.</p>
         </div>
     </div>
 
+
     {{-- Side Info Panel --}}
     <div class="phonics-panel info-panel-1 flex flex-col mt-[-2vw] gap-y-[2vw]">
-        <h1 class="panel-title stroke">Practice in Reading Words</h1>
+        <h1 class="panel-title stroke">Reading Words in Stories</h1>
         <div class="flex items-end">
             <ul class="list-disc text-start panel-ul space-y-[1.5vw]">
-
-                <li>The ultimate purpose of phonics instruction is for children to learn to read words. Successful phonics
-                    programs provide a great deal of practice in reading words containing the
-                    letter-sound relationships that are taught.</li>
-                <li>Use this section with the children to practise reading words containing the letter-sound patterns in a
-                    sentence.Spelling patterns are learnt through continued practice in reading words containing those
-                    patterns.
-                    Children recognize words automatically by using spelling patterns.</li>
+                <li>The purpose of reading is comprehension. It is important that children read words in stories or
+                    short pieces of expository text.</li>
+                <li>This section focuses on texts that contain words with patterns taught in the phonics lessons. These
+                    regular words can be used to reinforce phonics instruction.</li>
+                <li>For comprehension, children should engage in discussions and questioning about the content of what
+                    they read.</li>
             </ul>
 
             <img src="{{ asset('assets/images/phonicsl1/global/learning.png') }}" class="h-[20vw]" />
@@ -80,114 +79,265 @@
 
 
     {{-- Panel 2 --}}
-    <div class="phonics-panel flex flex-col justify-between h-full">
-        <div class="flex flex-col items-center justify-center gap-[2vw]">
-            <div class="flex items-center gap-9">
-                <img src="{{ asset('assets/images/phonicsl1/letter_a/a-l.png') }}" />
-                <h2 class="text-white text-[5vw]">apple</h2>
-            </div>
-            <h1 class="text-[2vw] text-[#f7b94a]">Lili asks for an apple again.</h1>
-        </div>
-        <p class="p-note">Tip: Music will be automatically played twice. Click on the sound icon to repeat music.</p>
+    <div class="phonics-panel flex flex-col h-full justify-between"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-b/busy-bees.mp3') }}">
+        <h1 class="text-white text-[3vw]"><span class="text-[#f7b94a]">B</span>usy <span class="text-[#f7b94a]">B</span>ees
+        </h1>
+        <div class="relative h-[28vw] w-[35vw]">
+            <img src="{{ asset('assets/images/phonicsl1/letter_b/bee.gif') }}"
+                class="w-[5vw] absolute top-[1vw] left-[9vw]" />
 
-        {{-- sound Button --}}
-        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton"
-            data-audio="{{ asset('assets/audio/phonics_audio/read-a.mp3') }}">
-            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-        </button>
-    </div>
+            <img src="{{ asset('assets/images/phonicsl1/letter_b/bee.gif') }}"
+                class="w-[8vw] absolute top-1/2 left-[3vw] -translate-y-1/2" />
 
+            <img src="{{ asset('assets/images/phonicsl1/letter_b/bee.gif') }}"
+                class="w-[8.5vw] absolute top-0 right-[7vw]" />
 
-    <div class="phonics-panel done-hide next-hide">
-        <div class="flex gap-x-[4vw] items-center justify-center">
-            <div>
-                <div class="relative ml-[10vw]">
-                    <img src="{{ asset('assets/images/phonicsl1/global/blank.png') }}" class="w-[18vw]" />
-                    <h2 class="text-[1.5vw] !text-[#B76E33] absolute top-[2vw] right-[2vw]">Help me complete <br> the
-                        sentence
-                        with <br> a word beginning <br> with ‘a’.</h2>
-                </div>
-                <img src="{{ asset('assets/images/phonicsl1/global/teacher.png') }}" class="h-[20vw]" />
-            </div>
+            <img src="{{ asset('assets/images/phonicsl1/letter_b/bee.gif') }}"
+                class="w-[4.5vw] absolute top-[9vw] right-[7vw]" />
 
-            <div class="bg-no-repeat bg-center bg-contain h-[30vw] w-[28vw] mt-[-7vw]
-            flex justify-center items-end"
-                style="background-image: url('{{ asset('assets/images/phonicsl1/global/board.png') }}')">
+            <img src="{{ asset('assets/images/phonicsl1/letter_b/bee.gif') }}"
+                class="w-[14vw] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" />
 
-                <div class="grid grid-cols-2 gap-x-[4vw] gap-y-[1.5vw] place-items-center mb-[2vw]">
-                    {{-- this is false --}}
-                    <div class="flex items-start">
-                        <a class="hover:brightness-110" id="false">
-                            <img src="{{ asset('assets/images/phonicsl1/letter_a/bird.png') }}" class="w-[7vw]" />
-                        </a>
-                        {{-- sound Button --}}
-                        <button class="w-[3vw]" id="soundButton" data-letter="bird">
-                            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                        </button>
-                    </div>
+            <img src="{{ asset('assets/images/phonicsl1/letter_b/bee.gif') }}"
+                class="w-[7vw] absolute bottom-0  left-[9vw]" />
 
-                    {{-- falsde --}}
-                    <div class="flex items-start">
-
-                        <a class="w-[6vw] hover:brightness-110 " id="true">
-                            <img src="{{ asset('assets/images/phonicsl1/letter_a/apple.png') }}" />
-                        </a>
-                        {{-- sound Button --}}
-                        <button class="w-[3vw]" id="soundButton" data-letter="apple">
-                            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                        </button>
-                    </div>
-
-                    {{-- true --}}
-                    <div class="col-span-2 flex justify-center ">
-                        <div class="flex items-start gap-x-[1vw]">
-                            <a class="w-[6vw] hover:brightness-110" id="false">
-                                <img src="{{ asset('assets/images/phonicsl1/letter_a/castle.png') }}" />
-                            </a>
-                            {{-- sound Button --}}
-                            <button class="w-[3vw]" id="soundButton" data-letter="castle">
-                                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        <p class="p-note">Tip: Ask children to select the picture that matches the focus letter <br>
-            sound. If needed, click on the sound icons to listen to the words.</p>
-    </div>
+            <img src="{{ asset('assets/images/phonicsl1/letter_b/bee.gif') }}"
+                class="w-[6vw] absolute top-[30%]  right-0 -translate-y-1/2" />
 
 
-    {{-- Try Again --}}
-    <div id="tryAgain" class="fixed inset-0 z-[1000] hidden  items-center justify-center bg-[#0000002e]  backdrop-blur-sm">
-        <div class="w-[60vw] relative h-[40vw] bg-contain bg-no-repeat bg-center flex flex-col justify-center items-center rounded-lg "
-            style="background-image: url('{{ asset('assets/images/K2/exit.png') }}');">
-            <p class="text-[3vw] !text-[#F8473A] stroke font-bold">Try Again?</p>
-            <div class="mt-[1vw] ">
-                <img src="{{ asset('assets/images/phonicsl1/global/gifs/tryagain.gif') }}" class="h-[20vw]"
-                    alt="Animation" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_b/bee.gif') }}"
+                class="w-[4.5vw] absolute top-[60%] right-0 -translate-y-1/2" />
 
-            </div>
-            <a href="#" id="retry"
-                class="text-[#F8473A] text-[2vw] font-bold stroke hover:scale-110 transition-transform absolute bottom-[6vw] right-[10vw]">Retry</a>
+
+            <img src="{{ asset('assets/images/phonicsl1/letter_b/bee.gif') }}"
+                class="w-[9vw] absolute bottom-0 right-[4vw]" />
         </div>
     </div>
 
-    {{-- Well Done --}}
-    <div id="wellDone" class="fixed inset-0 z-[1000] hidden  items-center justify-center bg-[#0000002e]  backdrop-blur-sm">
-        <div class="w-[60vw] relative h-[40vw] bg-contain bg-no-repeat bg-center flex flex-col justify-center items-center rounded-lg "
-            style="background-image: url('{{ asset('assets/images/K2/exit.png') }}');">
-            <p class="text-[3vw] !text-[#59967D] stroke font-bold">Well Done!</p>
-            <div class="mt-[1vw] ">
-                <img src="{{ asset('assets/images/phonicsl1/global/gifs/welldone.gif') }}" class="h-[20vw]"
-                    alt="Animation" />
 
+    {{-- Panel 3 --}}
+    <div class="phonics-panel flex flex-col h-full items-center justify-between"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-b/buzz.mp3') }}">
+
+        <div class="relative h-[28vw] w-[35vw]">
+            <img src="{{ asset('assets/images/phonicsl1/letter_b/bee.gif') }}"
+                class="w-[5vw] absolute top-[1vw] left-[9vw]" />
+
+            <img src="{{ asset('assets/images/phonicsl1/letter_b/bee.gif') }}"
+                class="w-[8vw] absolute top-1/2 left-[3vw] -translate-y-1/2" />
+
+            <img src="{{ asset('assets/images/phonicsl1/letter_b/bee.gif') }}"
+                class="w-[8.5vw] absolute top-0 right-[7vw]" />
+
+            <img src="{{ asset('assets/images/phonicsl1/letter_b/bee.gif') }}"
+                class="w-[4.5vw] absolute top-[9vw] right-[7vw]" />
+
+            <img src="{{ asset('assets/images/phonicsl1/letter_b/bee.gif') }}"
+                class="w-[14vw] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" />
+
+            <img src="{{ asset('assets/images/phonicsl1/letter_b/bee.gif') }}"
+                class="w-[7vw] absolute bottom-0  left-[9vw]" />
+
+            <img src="{{ asset('assets/images/phonicsl1/letter_b/bee.gif') }}"
+                class="w-[6vw] absolute top-[30%]  right-0 -translate-y-1/2" />
+
+
+            <img src="{{ asset('assets/images/phonicsl1/letter_b/bee.gif') }}"
+                class="w-[4.5vw] absolute top-[60%] right-0 -translate-y-1/2" />
+
+
+            <img src="{{ asset('assets/images/phonicsl1/letter_b/bee.gif') }}"
+                class="w-[9vw] absolute bottom-0 right-[4vw]" />
+        </div>
+        <h1 class="text-white text-[3vw]">
+            The <span class="text-[#f7b94a]">B</span>usy <span class="text-[#f7b94a]">B</span>ees go <span
+                class="text-[#f7b94a]">B</span>uzz, <span class="text-[#f7b94a]">B</span>uzz, <span
+                class="text-[#f7b94a]">B</span>uzz.</h1>
+    </div>
+
+
+    {{-- Panel 4 --}}
+    <div class="phonics-panel flex flex-col h-full justify-between"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-b/birds.mp3') }}">
+        <div class="flex items-end relative">
+
+            <div class="relative h-[17vw] w-[22vw] mt-[4vw]">
+                <img src="{{ asset('assets/images/phonicsl1/letter_b/bee.gif') }}"
+                    class="w-[2vw] absolute scale-x-[-1] top-[1vw] right-[9vw]" />
+
+                <img src="{{ asset('assets/images/phonicsl1/letter_b/bee.gif') }}"
+                    class="w-[5vw] absolute scale-x-[-1] top-1/2 right-[3vw] -translate-y-1/2" />
+
+                <img src="{{ asset('assets/images/phonicsl1/letter_b/bee.gif') }}"
+                    class="w-[5.5vw] absolute scale-x-[-1] top-0 left-[4.5vw]" />
+
+                <img src="{{ asset('assets/images/phonicsl1/letter_b/bee.gif') }}"
+                    class="w-[3.5vw] absolute scale-x-[-1] top-[8vw] left-[4.5vw]" />
+
+                <img src="{{ asset('assets/images/phonicsl1/letter_b/bee.gif') }}"
+                    class="w-[7vw] absolute scale-x-[-1] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" />
+
+                <img src="{{ asset('assets/images/phonicsl1/letter_b/bee.gif') }}"
+                    class="w-[4vw] absolute scale-x-[-1] bottom-0  right-[9vw]" />
+
+                <img src="{{ asset('assets/images/phonicsl1/letter_b/bee.gif') }}"
+                    class="w-[4vw] absolute scale-x-[-1] top-[30%]  left-0 -translate-y-1/2" />
+
+
+                <img src="{{ asset('assets/images/phonicsl1/letter_b/bee.gif') }}"
+                    class="w-[3.5vw] absolute scale-x-[-1] top-[60%] left-0 -translate-y-1/2" />
+
+
+                <img src="{{ asset('assets/images/phonicsl1/letter_b/bee.gif') }}"
+                    class="w-[5vw] absolute scale-x-[-1] bottom-0 left-[4vw]" />
             </div>
-            <a href="#" id="close"
-                class="text-[#59967D] text-[2vw] font-bold stroke hover:scale-110 transition-transform absolute bottom-[6vw] right-[10vw]">Close</a>
+            <img src="{{ asset('assets/images/phonicsl1/letter_b/bird.gif') }}" class="absolute top-[-8vw] right-[-7vw]">
+        </div>
+        <h1 class="text-white text-[3vw]">Are they looking for the <span class="text-[#f7b94a]">b</span>ird?</h1>
+    </div>
+
+
+    {{-- Panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full justify-between"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-b/looking-for.mp3') }}">
+        <div class="flex items-end relative">
+
+            <div class="relative h-[17vw] w-[22vw] mt-[4vw]">
+                <img src="{{ asset('assets/images/phonicsl1/letter_b/bee.gif') }}"
+                    class="w-[2vw] absolute scale-x-[-1] top-[1vw] right-[9vw]" />
+
+                <img src="{{ asset('assets/images/phonicsl1/letter_b/bee.gif') }}"
+                    class="w-[5vw] absolute scale-x-[-1] top-1/2 right-[3vw] -translate-y-1/2" />
+
+                <img src="{{ asset('assets/images/phonicsl1/letter_b/bee.gif') }}"
+                    class="w-[5.5vw] absolute scale-x-[-1] top-0 left-[4.5vw]" />
+
+                <img src="{{ asset('assets/images/phonicsl1/letter_b/bee.gif') }}"
+                    class="w-[3.5vw] absolute scale-x-[-1] top-[8vw] left-[4.5vw]" />
+
+                <img src="{{ asset('assets/images/phonicsl1/letter_b/bee.gif') }}"
+                    class="w-[7vw] absolute scale-x-[-1] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" />
+
+                <img src="{{ asset('assets/images/phonicsl1/letter_b/bee.gif') }}"
+                    class="w-[4vw] absolute scale-x-[-1] bottom-0  right-[9vw]" />
+
+                <img src="{{ asset('assets/images/phonicsl1/letter_b/bee.gif') }}"
+                    class="w-[4vw] absolute scale-x-[-1] top-[30%]  left-0 -translate-y-1/2" />
+
+
+                <img src="{{ asset('assets/images/phonicsl1/letter_b/bee.gif') }}"
+                    class="w-[3.5vw] absolute scale-x-[-1] top-[60%] left-0 -translate-y-1/2" />
+
+
+                <img src="{{ asset('assets/images/phonicsl1/letter_b/bee.gif') }}"
+                    class="w-[5vw] absolute scale-x-[-1] bottom-0 left-[4vw]" />
+            </div>
+            <img src="{{ asset('assets/images/phonicsl1/letter_b/butterfly.gif') }}"
+                class="absolute top-[0] right-[3vw]">
+        </div>
+        <h1 class="text-white text-[3vw]">Are they looking for the <span class="text-[#f7b94a]">b</span>utterfly?</h1>
+    </div>
+
+
+    {{-- Panel 6 --}}
+    <div class="phonics-panel flex flex-col h-full justify-between"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-b/look-for-bear.mp3') }}">
+        <div class="flex items-end">
+
+            <div class="relative h-[17vw] w-[22vw] mt-[4vw]">
+                <img src="{{ asset('assets/images/phonicsl1/letter_b/bee.gif') }}"
+                    class="w-[2vw] absolute scale-x-[-1] top-[1vw] right-[9vw]" />
+
+                <img src="{{ asset('assets/images/phonicsl1/letter_b/bee.gif') }}"
+                    class="w-[5vw] absolute scale-x-[-1] top-1/2 right-[3vw] -translate-y-1/2" />
+
+                <img src="{{ asset('assets/images/phonicsl1/letter_b/bee.gif') }}"
+                    class="w-[5.5vw] absolute scale-x-[-1] top-0 left-[4.5vw]" />
+
+                <img src="{{ asset('assets/images/phonicsl1/letter_b/bee.gif') }}"
+                    class="w-[3.5vw] absolute scale-x-[-1] top-[8vw] left-[4.5vw]" />
+
+                <img src="{{ asset('assets/images/phonicsl1/letter_b/bee.gif') }}"
+                    class="w-[7vw] absolute scale-x-[-1] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" />
+
+                <img src="{{ asset('assets/images/phonicsl1/letter_b/bee.gif') }}"
+                    class="w-[4vw] absolute scale-x-[-1] bottom-0  right-[9vw]" />
+
+                <img src="{{ asset('assets/images/phonicsl1/letter_b/bee.gif') }}"
+                    class="w-[4vw] absolute scale-x-[-1] top-[30%]  left-0 -translate-y-1/2" />
+
+
+                <img src="{{ asset('assets/images/phonicsl1/letter_b/bee.gif') }}"
+                    class="w-[3.5vw] absolute scale-x-[-1] top-[60%] left-0 -translate-y-1/2" />
+
+
+                <img src="{{ asset('assets/images/phonicsl1/letter_b/bee.gif') }}"
+                    class="w-[5vw] absolute scale-x-[-1] bottom-0 left-[4vw]" />
+            </div>
+            <img src="{{ asset('assets/images/phonicsl1/letter_b/bear.gif') }}" class="w-[20vw]">
+        </div>
+        <h1 class="text-white text-[3vw]">NO, they looking for the <span class="text-[#f7b94a]">b</span>ear</h1>
+    </div>
+
+
+    {{-- Panel 7 --}}
+    <div class="phonics-panel no-bg mb-[2vw]"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-b/bee-sound.mp3') }}">
+        <div class="relative w-fit">
+            <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" />
+            {{-- gifs --}}
+            <img src="{{ asset('assets/images/phonicsl1/global/gifs/buddy.gif') }}" class="h-[20vw] bottom-0 absolute" />
+            <img src="{{ asset('assets/images/phonicsl1/global/gifs/lili.gif') }}"
+                class="h-[20vw] bottom-0 right-0 absolute" />
+
+            <h1 class="text-white text-[3.5vw] absolute top-[10vw] left-1/2 -translate-x-1/2 text-center">
+                What sound <br>
+                does the bee <br>
+                make?
+            </h1>
+
+
+            <p class="p-note absolute bottom-[1vw] left-[35%]">Tip: Elicit response from children.</p>
+
         </div>
     </div>
+
+    <div class="phonics-panel no-bg mb-[2vw]"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/wholikesapple.mp3') }}">
+        <div class="relative">
+            <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" />
+            {{-- gifs --}}
+            <img src="{{ asset('assets/images/phonicsl1/global/gifs/buddy.gif') }}" class="h-[20vw] bottom-0 absolute" />
+            <img src="{{ asset('assets/images/phonicsl1/global/gifs/lili.gif') }}"
+                class="h-[20vw] bottom-0 right-0 absolute" />
+
+            <h1 class="text-white text-[4vw] absolute top-[10vw] left-1/2 -translate-x-1/2 text-center"> Who likes<br>
+                apple?</h1>
+
+            <p class="p-note absolute bottom-[1vw] left-[35%]">Tip: Elicit response from children.</p>
+        </div>
+    </div>
+
+
+    <div class="phonics-panel no-bg mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio/noapples.mp3') }}">
+        <div class="relative">
+            <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" />
+            {{-- gifs --}}
+            <img src="{{ asset('assets/images/phonicsl1/global/gifs/buddy.gif') }}" class="h-[20vw] bottom-0 absolute" />
+            <img src="{{ asset('assets/images/phonicsl1/global/gifs/lili.gif') }}"
+                class="h-[20vw] bottom-0 right-0 absolute" />
+
+            <h1 class="text-white text-[3vw] absolute top-[10vw] left-1/2 -translate-x-1/2 text-center">Buddy and Lili
+                <br>
+                has no apples. <br>
+                Why?
+            </h1>
+
+            <p class="p-note absolute bottom-[1vw] left-[35%]">Tip: Elicit response from children.</p>
+        </div>
+    </div>
+
 
 
     {{-- All Buttons --}}
@@ -237,8 +387,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/l1') }}";
-            const doneURL = "{{ url('/phonics/l1') }}";
+            const returnURL = "{{ url('/phonics/letter_a') }}";
+            const doneURL = "{{ url('/phonics/letter_a') }}";
 
             // Track current position
             let currentSlide = 0;
@@ -367,6 +517,16 @@
                     } else {
                         ajaxSection.classList.remove('no-bg');
                     }
+                }
+
+                // 🔊 Auto-play audio if slide has data-slide-audio attribute
+                const slideAudioSrc = currentSlideElement.getAttribute('data-slide-audio');
+                if (slideAudioSrc) {
+                    // Small delay to ensure slide is visible before playing
+                    setTimeout(() => {
+                        currentAudio = new Audio(slideAudioSrc);
+                        currentAudio.play().catch(err => console.log('Auto-play failed:', err));
+                    }, 300);
                 }
             }
 
@@ -526,77 +686,6 @@
 
             // INITIALIZE
             showSlide(currentSlide);
-        });
-
-        // panel
-        document.addEventListener('DOMContentLoaded', function() {
-            // Get elements
-            const tryAgainPanel = document.getElementById('tryAgain');
-            const wellDonePanel = document.getElementById('wellDone');
-            const retryBtn = document.getElementById('retry');
-            const closeBtn = document.getElementById('close'); // Close button in Well Done panel
-
-            // Get all letter buttons by ID (multiple elements with same ID - need querySelectorAll)
-            const falseLetters = document.querySelectorAll('[id="false"]');
-            const trueLetters = document.querySelectorAll('[id="true"]');
-
-            // Create audio elements
-            const tryAgainSound = new Audio('{{ asset('assets/audio/phonics_audio/tryagain.mp3') }}');
-            const wellDoneSound = new Audio('{{ asset('assets/audio/phonics_audio/welldone.mp3') }}');
-
-            // Function to show panel and play sound automatically
-            function showPanelWithSound(panel, audioElement) {
-                panel.style.display = 'flex';
-                // Play sound automatically when panel opens
-                audioElement.currentTime = 0;
-                audioElement.play().catch(err => console.log('Audio play failed:', err));
-            }
-
-            // Handle FALSE letter clicks (show try again panel with sound)
-            falseLetters.forEach(letter => {
-                letter.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    showPanelWithSound(tryAgainPanel, tryAgainSound);
-                });
-            });
-
-            // Handle TRUE letter click (show well done panel with sound)
-            trueLetters.forEach(letter => {
-                letter.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    showPanelWithSound(wellDonePanel, wellDoneSound);
-                });
-            });
-
-            // Handle Retry button - close panel and stay on same slide
-            retryBtn.addEventListener('click', function(e) {
-                e.preventDefault();
-                tryAgainPanel.style.display = 'none';
-                // Stop the sound if still playing
-                tryAgainSound.pause();
-                tryAgainSound.currentTime = 0;
-            });
-
-            // Handle Close button - redirect to route
-            closeBtn.addEventListener('click', function(e) {
-                e.preventDefault();
-                // Stop the sound if still playing
-                wellDoneSound.pause();
-                wellDoneSound.currentTime = 0;
-                window.location.href = '{{ url('/phonics/letter_a') }}';
-            });
-
-            // Optional: Sound button functionality
-            const soundButtons = document.querySelectorAll('[id="soundButton"]');
-            soundButtons.forEach(button => {
-                button.addEventListener('click', function() {
-                    const letter = this.getAttribute('data-letter');
-                    const letterSound = new Audio('{{ asset('sounds/letters/') }}' + letter +
-                        '.mp3');
-                    letterSound.currentTime = 0;
-                    letterSound.play().catch(err => console.log('Audio play failed:', err));
-                });
-            });
         });
     </script>
 @endpush

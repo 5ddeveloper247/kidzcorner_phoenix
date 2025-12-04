@@ -9,15 +9,21 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
         return view('phonics_l1.index');
     })->name('Phonics-L1');
 
-    // Dynamic route for letters & categories
+    // Supports: /phonics/letter_a/phonics/magicletters
     Route::get('/phonics/{letter}/{category?}', function ($letter, $category = 'index') {
+
+        // Replace slashes in category to match folder structure
+        $category = str_replace('/', '.', $category);
+
+        // Build view path: phonics_l1.letter_a.phonics.magicletters
         $view = "phonics_l1.$letter.$category";
 
         if (view()->exists($view)) {
             return view($view);
         }
 
-        abort(404); // fallback if view does not exist
-    })->name('phonics.letter');
+        abort(404);
+    })->where('category', '.*') // allow multi-segment category
+      ->name('phonics.letter');
 
 });

@@ -8,15 +8,6 @@
 
     @push('styles')
         <style>
-            .p-note {
-                font-size: 1.2vw;
-                color: white !important;
-            }
-
-            .c-btn {
-                color: #F7B94A !important;
-            }
-
             .large-title {
                 color: #F7B94A;
                 font-size: 20vw !important;
@@ -38,25 +29,23 @@
     @section('content')
         {{-- panel 1 --}}
         <div class="phonics-panel flex flex-col mt-[-2vw] gap-y-[2vw]">
-            <h1 class="panel-title stroke">About Phonics & Reading</h1>
+            <h1 class="panel-title stroke">How Best To Teach Phonics</h1>
             <div class="flex items-start">
-                <ul class="list-disc text-start panel-ul space-y-[1.5vw]">
-                    <li>Reviews of research suggest that it is the emphasis on early and systematic phonics instruction that
-                        makes a programme effective.</li>
-                    <li>Phonics &amp; Reading is a method of systematically teaching beginners to read and pronounce words
-                        by learning to associate letters or letter groups with the sounds they represent.</li>
-                    <li>It aims to equip children with a good background in letter-sound correspondence so that they can
-                        apply this knowledge to read independently.</li>
+                <ul class="list-disc text-start panel-ul">
+                    <li>Phonics is best taught in context, not in isolation, so that
+                        children make connections between letters, sounds and meaning
+                        in clearly defined sequence.</li>
                 </ul>
+
+
                 <img src="{{ asset('assets/images/phonicsl1/global/learning.png') }}" class="h-[20vw]" />
             </div>
-            <p class="p-note"> <a class="c-btn info-btn1">Click here</a> to see the Instructional Goals</p>
         </div>
 
 
         {{-- Panel 2 --}}
-        <div class="phonics-panel info-panel-1 flex flex-col mt-[-2vw] gap-y-[2vw]">
-            <h1 class="panel-title stroke">About Phonics & Reading</h1>
+        <div class="phonics-panel flex flex-col mt-[-2vw] gap-y-[2vw]">
+            <h1 class="panel-title stroke">How Best To Teach Phonics</h1>
             <div class="flex items-start">
                 <div class="flex flex-col justify-around h-100">
                     <div class="text-start">
@@ -83,7 +72,7 @@
 
         {{-- Panel 3 --}}
         <div class="phonics-panel flex flex-col mt-[-2vw] gap-y-[2vw]">
-            <h1 class="panel-title stroke">About Phonics & Reading</h1>
+            <h1 class="panel-title stroke">How Best To Teach Phonics</h1>
             <div class="flex items-start">
                 <ul class="list-disc text-start panel-ul">
                     <li>Phonics engages sight, sound, touch and movement as
@@ -146,7 +135,6 @@
                 const returnButton = document.getElementById("returnButton");
                 const doneButton = document.querySelector(".doneButton");
                 const infoButtons = document.querySelectorAll("[class*='info-btn']");
-                const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
                 // URLs for navigation
                 const returnURL = "{{ url('/phonics/letter_a') }}";
@@ -158,10 +146,8 @@
                 let returnToSlide = null;
                 let specialSlideClass = null;
 
-                // 🔊 Global audio tracking
-                let currentAudio = null;
 
-                // 🛑 Function to stop all audio/speech
+                //  Function to stop all audio/speech
                 function stopAllAudio() {
                     // Stop any playing audio files
                     if (currentAudio) {
@@ -213,33 +199,11 @@
                     return false;
                 }
 
-                function speakLetter(letter) {
-                    window.speechSynthesis.cancel();
-                    const utterance = new SpeechSynthesisUtterance(letter);
-                    utterance.rate = 0.8;
-                    utterance.pitch = 1.2;
-                    utterance.volume = 1;
-                    const voices = window.speechSynthesis.getVoices();
-                    const femaleVoice = voices.find(voice =>
-                        voice.name.includes('Female') ||
-                        voice.name.includes('female') ||
-                        voice.name.includes('Woman') ||
-                        voice.name.includes('Google US English') ||
-                        voice.name.includes('Microsoft Zira')
-                    );
-                    if (femaleVoice) {
-                        utterance.voice = femaleVoice;
-                    }
-                    window.speechSynthesis.speak(utterance);
-                }
-
                 // DISPLAY FUNCTIONS
                 function showSlide(slideIndex) {
                     const ajaxSection = document.getElementById('ajax-section');
                     const currentSlideElement = slides[slideIndex];
 
-                    // 🛑 Stop all audio when changing slides
-                    stopAllAudio();
 
                     // Hide all slides, show only current one
                     slides.forEach((slide, index) => {
@@ -280,16 +244,6 @@
                             ajaxSection.classList.remove('no-bg');
                         }
                     }
-
-                    // 🔊 Auto-play audio if slide has data-slide-audio attribute
-                    const slideAudioSrc = currentSlideElement.getAttribute('data-slide-audio');
-                    if (slideAudioSrc) {
-                        // Small delay to ensure slide is visible before playing
-                        setTimeout(() => {
-                            currentAudio = new Audio(slideAudioSrc);
-                            currentAudio.play().catch(err => console.log('Auto-play failed:', err));
-                        }, 300);
-                    }
                 }
 
                 // NAVIGATION FUNCTIONS
@@ -312,7 +266,7 @@
 
                 function goBack() {
                     if (currentSlide === 0 && !isInSpecialMode) {
-                        stopAllAudio(); // 🛑 Stop audio before leaving
+                        stopAllAudio(); //  Stop audio before leaving
                         window.location.href = returnURL;
                         return;
                     }
@@ -346,7 +300,7 @@
                 }
 
                 function handleDone() {
-                    stopAllAudio(); // 🛑 Stop audio before action
+
                     if (isInSpecialMode && returnToSlide !== null) {
                         currentSlide = returnToSlide;
                         isInSpecialMode = false;
@@ -373,7 +327,7 @@
                 infoButtons.forEach(button => {
                     button.addEventListener("click", function(e) {
                         e.preventDefault();
-                        stopAllAudio(); // 🛑 Stop audio when entering info mode
+                        stopAllAudio(); //  Stop audio when entering info mode
                         returnToSlide = currentSlide;
                         isInSpecialMode = true;
                         specialSlideClass = getSlideTypeFromButton(button);
@@ -410,41 +364,6 @@
                 if (closeButton) {
                     closeButton.addEventListener("click", () => stopAllAudio());
                 }
-
-                soundButtons.forEach(btn => {
-                    btn.addEventListener("click", (e) => {
-                        e.preventDefault();
-
-                        // Stop any previous audio first
-                        stopAllAudio();
-
-                        // 1️⃣ If data-audio is provided → play audio file
-                        const audioSrc = btn.getAttribute("data-audio");
-                        if (audioSrc) {
-                            currentAudio = new Audio(audioSrc);
-                            currentAudio.play();
-                            return;
-                        }
-
-                        // 2️⃣ Otherwise fallback to speaking the letter
-                        const letter = btn.getAttribute("data-letter") || "a";
-                        speakLetter(letter);
-                    });
-                });
-
-                const letterLinks = document.querySelectorAll('.phonics-panel a[href=""]:not([class*="info-btn"])');
-                letterLinks.forEach(link => {
-                    link.addEventListener('click', (e) => {
-                        e.preventDefault();
-                        stopAllAudio(); // Stop previous audio
-                        const letter = link.getAttribute('data-letter') || 'a';
-                        speakLetter(letter);
-                    });
-                });
-
-                window.speechSynthesis.onvoiceschanged = () => {
-                    window.speechSynthesis.getVoices();
-                };
 
                 // INITIALIZE
                 showSlide(currentSlide);

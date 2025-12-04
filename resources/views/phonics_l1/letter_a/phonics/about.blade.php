@@ -22,10 +22,6 @@
                 font-size: 20vw !important;
             }
 
-            .link:hover {
-                color: #a37d3adb;
-            }
-
             .panel-title {
                 color: #F7B94A;
                 font-size: 3vw;
@@ -33,194 +29,113 @@
 
             .panel-ul {
                 color: white;
-                font-size: 1.4vw;
+                font-size: 1.3vw;
+                padding-left: 3vw;
             }
         </style>
     @endpush
 
     @section('content')
-
-        {{-- title --}}
-        <h2 class="top-title stroke">Story Time</h2>
-
         {{-- panel 1 --}}
-        <div class="phonics-panel no-bg mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio/storytime.mp3') }}">
-            <div class="relative">
-                <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" />
-                {{-- gifs --}}
-                <img src="{{ asset('assets/images/phonicsl1/global/gifs/buddy.gif') }}" class="h-[20vw] bottom-0 absolute" />
-                <img src="{{ asset('assets/images/phonicsl1/global/gifs/lili.gif') }}"
-                    class="h-[20vw] bottom-0 right-0 absolute" />
-
-                <h1 class="text-white text-[4vw] absolute top-[12vw] left-[19vw]"> It's story <br> time!</h1>
-
-                <p class="p-note absolute bottom-[1vw] left-[22%]">Tip: <a class="c-btn info-btn1">Click here</a> to find
-                    out
-                    why
-                    reading words is important.</p>
+        <div class="phonics-panel flex flex-col mt-[-2vw] gap-y-[2vw]">
+            <h1 class="panel-title stroke">About Phonics & Reading</h1>
+            <div class="flex items-start">
+                <ul class="list-disc text-start panel-ul space-y-[1.5vw]">
+                    <li>Reviews of research suggest that it is the emphasis on early and systematic phonics instruction that
+                        makes a programme effective.</li>
+                    <li>Phonics &amp; Reading is a method of systematically teaching beginners to read and pronounce words
+                        by learning to associate letters or letter groups with the sounds they represent.</li>
+                    <li>It aims to equip children with a good background in letter-sound correspondence so that they can
+                        apply this knowledge to read independently.</li>
+                </ul>
+                <img src="{{ asset('assets/images/phonicsl1/global/learning.png') }}" class="h-[20vw]" />
             </div>
+            <p class="p-note"> <a class="c-btn info-btn1">Click here</a> to see the Instructional Goals</p>
         </div>
 
-        {{-- Side Info Panel --}}
+
+        {{-- Panel 2 --}}
         <div class="phonics-panel info-panel-1 flex flex-col mt-[-2vw] gap-y-[2vw]">
-            <h1 class="panel-title stroke">Reading Words in Stories</h1>
-            <div class="flex items-end">
-                <ul class="list-disc text-start panel-ul space-y-[1.5vw]">
-                    <li>The purpose of reading is comprehension. It is important that children read words in stories or
-                        short pieces of expository text.</li>
-                    <li>This section focuses on texts that contain words with patterns taught in the phonics lessons. These
-                        regular words can be used to reinforce phonics instruction.</li>
-                    <li>For comprehension, children should engage in discussions and questioning about the content of what
-                        they read.</li>
-                </ul>
+            <h1 class="panel-title stroke">Instructional Goals</h1>
+            <div class="flex items-start">
+                <div class="text-start">
+                    <h3 class="text-white text-[1.5vw] pl-[1.5vw]">Children will learn to:</h3>
+                    <ul class="list-disc panel-ul">
+                        <li>Recognise and name all the letters of the alphabet and differentiate their upper and lowercase
+                            forms.</li>
+                        <li>Associate a given letter with its sound.</li>
+                        <li>Say the sound made by a letter.</li>
+                        <li>Discriminate sounds in words.</li>
+                        <li>Apply the letter-sound relationships as they read words, sentences and stories.</li>
+                        <li>Read 100 high frequency words by sight.</li>
+                        <li>Spell by using the knowledge of letter names and sounds.</li>
+                        <li>Write words using the knowledge of the alphabetic principle.</li>
+                    </ul>
+                </div>
+
 
                 <img src="{{ asset('assets/images/phonicsl1/global/learning.png') }}" class="h-[20vw]" />
             </div>
         </div>
 
 
-        {{-- Panel 2 --}}
-        <div class="phonics-panel flex flex-col"
-            data-slide-audio="{{ asset('assets/audio/phonics_audio/buddy-lili.mp3') }}">
-            <div class="flex flex-col items-center gap-9">
-                <h2 class="text-white text-[2.5vw]">Buddy and Lili</h2>
-                <img src="{{ asset('assets/images/phonicsl1/letter_a/friends.png') }}" class="w-[25vw]" />
-            </div>
-        </div>
-
 
         {{-- Panel 3 --}}
-        <div class="phonics-panel flex flex-col" data-slide-audio="{{ asset('assets/audio/phonics_audio/buddy-jam.mp3') }}">
-            <div class="flex flex-col items-center gap-9">
-                <h2 class="text-white text-[2.5vw]">Buddy likes jam.</h2>
-                <div class="flex items-start w-fit">
-                    <img src="{{ asset('assets/images/phonicsl1/letter_a/jam.png') }}" class="w-[10vw] mt-[2vw]" />
-                    <img src="{{ asset('assets/images/phonicsl1/global/gifs/buddy2.gif') }}" class="h-[25vw]" />
+        <div class="phonics-panel flex flex-col mt-[-2vw] gap-y-[2vw]">
+            <h1 class="panel-title stroke">About Phonics & Reading</h1>
+            <div class="flex items-start">
+                <ul class="list-disc text-start space-y-[2vw] panel-ul">
+                    <li>Phonics & Reading comprises complementary <span class="text-[#f7b94a]">print-
+                            based materials</span> and e-teaching resources for quality lesson
+                        delivery.</li>
+                    <li>It offers a flexible literacy solution which can be used alongside
+                        any other reading program:
+                        <ul class="pl-[2vw]">
+                            <li> -to supplement the kindergarten's existing package</li>
+                            <li> -to complement many general Phonics packages</li>
+                            <li> -as a standalone solution to the kindergarten's phonics needs</li>
+                        </ul>
+                    </li>
+                </ul>
+
+
+                <img src="{{ asset('assets/images/phonicsl1/global/learning.png') }}" class="h-[20vw]" />
+            </div>
+
+            <p class="p-note">Tip: Use the e-teaching resources to complement the <a
+                    class="text-[#f7b94a] info-btn2">print-based materials</a> to engage <br>
+                children in the learning experience.</p>
+        </div>
+
+
+        {{-- info Panel 2 --}}
+        <div class="phonics-panel info-panel-2 flex flex-col mt-[-2vw] gap-y-[2vw]">
+            <h1 class="panel-title stroke">Print-based Materials</h1>
+            <div class="flex items-start">
+                <div class="text-start">
+                    <h3 class="text-white text-[1.5vw] pl-[1.5vw]">Pupil's Activity Book (26 for K1) comprising:</h3>
+                    <ul class="list-disc panel-ul">
+                        <li>Letter recognition and teaching tips</li>
+                        <li>Story reader</li>
+                        <li>Word Bank and high frequency words</li>
+                        <li>Phonics activity sheets</li>
+                        <li>High frequency words activity sheets</li>
+                        <li>Attractive graphic illustrations</li>
+                    </ul>
                 </div>
+
+
+                <img src="{{ asset('assets/images/phonicsl1/global/learning.png') }}" class="h-[20vw]" />
             </div>
+            <p class="p-note w-[50vw]">Tips: There are 3 phonics activity sheets and 3 high frequency words activity sheets in each
+                book. These
+                activity sheets have been designed to be used with the e-teaching resources. Use a relevant activity sheet
+                to complement an e-teaching lesson.</p>
         </div>
 
 
-        {{-- Panel 4 --}}
-        <div class="phonics-panel flex flex-col"
-            data-slide-audio="{{ asset('assets/audio/phonics_audio/lili=apples.mp3') }}">
-            <div class="flex flex-col items-center gap-9">
-                <h2 class="text-white text-[2.5vw]">Lili likes apples</h2>
-                <div class="flex items-start w-fit">
-                    <img src="{{ asset('assets/images/phonicsl1/letter_a/dualapple.png') }}" class="w-[10vw]" />
-                    <img src="{{ asset('assets/images/phonicsl1/global/gifs/lili2.gif') }}" class="h-[25vw]" />
-                </div>
-            </div>
-        </div>
 
 
-        {{-- Panel 5 --}}
-        <div class="phonics-panel flex flex-col" data-slide-audio="{{ asset('assets/audio/phonics_audio/ants.mp3') }}">
-            <div class="flex flex-col items-center gap-9">
-                <h2 class="text-white text-[2.5vw]">Ants like jam and apples too!</h2>
-                <div class="flex items-end w-fit relative">
-                    <img src="{{ asset('assets/images/phonicsl1/letter_a/jam.png') }}" class="h-[20vw]" />
-                    <img src="{{ asset('assets/images/phonicsl1/letter_a/dualapple.png') }}" class="w-[14vw]" />
-
-                    {{-- ants --}}
-                    <img src="{{ asset('assets/images/phonicsl1/global/gifs/ant.gif') }}" class="h-[6vw] absolute" />
-                    <img src="{{ asset('assets/images/phonicsl1/global/gifs/ant.gif') }}"
-                        class="h-[4vw] absolute scale-x-[-1] left-[15vw]" />
-                    <img src="{{ asset('assets/images/phonicsl1/global/gifs/ant.gif') }}"
-                        class="h-[4vw] absolute left-[8vw] top-[-1vw] " />
-
-                    <img src="{{ asset('assets/images/phonicsl1/global/gifs/ant.gif') }}"
-                        class="h-[4vw] absolute right-[10vw] bottom-[2vw]" />
-
-                    <img src="{{ asset('assets/images/phonicsl1/global/gifs/ant.gif') }}"
-                        class="h-[3vw] absolute scale-x-[-1] bottom-[2vw] right-[2vw]" />
-
-                    <img src="{{ asset('assets/images/phonicsl1/global/gifs/ant.gif') }}"
-                        class="h-[2vw] absolute right-[5.5vw] top-[11vw] " />
-                </div>
-            </div>
-        </div>
-
-        {{-- Panel 6 --}}
-        <div class="phonics-panel flex flex-col"
-            data-slide-audio="{{ asset('assets/audio/phonics_audio/buddy-jam.mp3') }}">
-            <div class="flex flex-col items-center">
-                <h2 class="text-white text-[2.5vw]">Buddy and Lili are angry with the ants.</h2>
-                <div class="flex items-end w-fit relative">
-                    <img src="{{ asset('assets/images/phonicsl1/letter_a/angry.png') }}" class="w-[45vw]" />
-
-                    {{-- ants --}}
-                    <img src="{{ asset('assets/images/phonicsl1/global/gifs/ant.gif') }}"
-                        class="h-[5vw] absolute left-[10vw] bottom-[2vw]" />
-                    <img src="{{ asset('assets/images/phonicsl1/global/gifs/ant.gif') }}"
-                        class="h-[4vw] absolute scale-x-[-1] left-[19vw] bottom-[2vw]" />
-                    <img src="{{ asset('assets/images/phonicsl1/global/gifs/ant.gif') }}"
-                        class="h-[3vw] absolute left-[16vw] top-[9vw] " />
-
-                    <img src="{{ asset('assets/images/phonicsl1/global/gifs/ant.gif') }}"
-                        class="h-[3vw] absolute right-[19vw] bottom-[3vw]" />
-
-                    <img src="{{ asset('assets/images/phonicsl1/global/gifs/ant.gif') }}"
-                        class="h-[3vw] absolute scale-x-[-1] bottom-[2vw] right-[12vw]" />
-
-                    <img src="{{ asset('assets/images/phonicsl1/global/gifs/ant.gif') }}"
-                        class="h-[2vw] absolute right-[15.5vw] top-[17vw] " />
-                </div>
-            </div>
-        </div>
-
-        {{-- Panel 7 --}}
-        <div class="phonics-panel no-bg mb-[2vw]"
-            data-slide-audio="{{ asset('assets/audio/phonics_audio/wholikesjam.mp3') }}">
-            <div class="relative">
-                <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" />
-                {{-- gifs --}}
-                <img src="{{ asset('assets/images/phonicsl1/global/gifs/buddy.gif') }}"
-                    class="h-[20vw] bottom-0 absolute" />
-                <img src="{{ asset('assets/images/phonicsl1/global/gifs/lili.gif') }}"
-                    class="h-[20vw] bottom-0 right-0 absolute" />
-
-                <h1 class="text-white text-[4vw] absolute top-[12vw] left-[20vw]"> Who likes <br> jam?</h1>
-
-                <p class="p-note absolute bottom-[1vw] left-[35%]">Tip: Elicit response from children.</p>
-
-            </div>
-        </div>
-
-        <div class="phonics-panel no-bg mb-[2vw]"
-            data-slide-audio="{{ asset('assets/audio/phonics_audio/wholikesapple.mp3') }}">
-            <div class="relative">
-                <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" />
-                {{-- gifs --}}
-                <img src="{{ asset('assets/images/phonicsl1/global/gifs/buddy.gif') }}"
-                    class="h-[20vw] bottom-0 absolute" />
-                <img src="{{ asset('assets/images/phonicsl1/global/gifs/lili.gif') }}"
-                    class="h-[20vw] bottom-0 right-0 absolute" />
-
-                <h1 class="text-white text-[4vw] absolute top-[12vw] left-[20vw]"> Who likes<br> apple?</h1>
-
-                <p class="p-note absolute bottom-[1vw] left-[35%]">Tip: Elicit response from children.</p>
-            </div>
-        </div>
-
-
-        <div class="phonics-panel no-bg mb-[2vw]"
-            data-slide-audio="{{ asset('assets/audio/phonics_audio/noapples.mp3') }}">
-            <div class="relative">
-                <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" />
-                {{-- gifs --}}
-                <img src="{{ asset('assets/images/phonicsl1/global/gifs/buddy.gif') }}"
-                    class="h-[20vw] bottom-0 absolute" />
-                <img src="{{ asset('assets/images/phonicsl1/global/gifs/lili.gif') }}"
-                    class="h-[20vw] bottom-0 right-0 absolute" />
-
-                <h1 class="text-white text-[3vw] absolute top-[12vw] left-[19vw]">Buddy and Lili <br>
-                    has no apples. <br>
-                    Why?</h1>
-
-                <p class="p-note absolute bottom-[1vw] left-[35%]">Tip: Elicit response from children.</p>
-            </div>
-        </div>
 
 
 
@@ -271,8 +186,8 @@
                 const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
                 // URLs for navigation
-                const returnURL = "{{ url('/phonics/l1') }}";
-                const doneURL = "{{ url('/phonics/l1') }}";
+                const returnURL = "{{ url('/phonics/letter_a') }}";
+                const doneURL = "{{ url('/phonics/letter_a') }}";
 
                 // Track current position
                 let currentSlide = 0;

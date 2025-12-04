@@ -11,7 +11,6 @@
         .p-note {
             font-size: 1.2vw;
             color: white !important;
-
         }
 
         .c-btn {
@@ -27,8 +26,7 @@
             color: #F7B94A;
             font-size: 20vw !important;
         }
-
-        .large-title:hover {
+        .large-title:hover{
             color: #757571 !important;
         }
 
@@ -45,39 +43,60 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel">
-        <div class="flex relative">
-            <h1
-                class="text-[#f7b94a] text-[8vw] bottom-[4.5vw] left-[13.5vw] stroke leading-none absolute hover:text-[#757571]">
-                a</h1>
-            <img src="{{ asset('assets/images/phonicsl1/letter_a/alpha-house.png') }}" />
+        <div class="flex">
+            <img src="{{ asset('assets/images/phonicsl1/global/click4.png') }}" class="w-[30vw] h-[20vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/global/bear.png') }}" class="h-[25vw]" />
         </div>
-        <p class="p-note">Tips: Click on the letter to listen to words beginning with the letter sound. <br>
-            <a class="c-btn info-btn1">Click here</a> to find out why it is important to practise reading words in isolation.
-        </p>
+        <p class="p-note">Tip: <a class="c-btn info-btn1">Click here</a> to find out about the alphabetic principle.</p>
     </div>
 
     {{-- Side Info Panel --}}
     <div class="phonics-panel info-panel-1 flex flex-col mt-[-2vw] gap-y-[2vw]">
-        <h1 class="panel-title stroke">Reading Words In Isolation</h1>
-        <div class="flex items-center">
+        <h1 class="panel-title stroke">Letter-sound Relationships</h1>
+        <div class="flex items-end">
             <ul class="list-disc text-start panel-ul space-y-[1.5vw]">
-                <li>It is important for children to look at a moderate amount of word
-                    practice in isolation, enough to get them recognize words
-                    automatically and not drive them to boredom</li>
-                <li>Three to six words are provided as examples of each letter-sound
-                    relationship in this section for children to examine the patterns in
-                    those words.</li>
+                <li>To be able to read, children need to have the ability to hear sounds within a spoken word, and to
+                    understand that the sounds correspond to letters.</li>
+                <li>Knowledge of the alphabetic principle, that there are predictable relationships between written letters
+                    and spoken sounds, contributes to the ability to read words in isolation as well as in connected text.
+                </li>
+                <li>There are different opinions about whether knowing the names of letters is absolutely necessary. It is
+                    preferable to teach the names of letters, although children can begin to learn to read without knowing
+                    all the names of the letters.</li>
             </ul>
 
-            <img src="{{ asset('assets/images/phonicsl1/global/learning.png') }}" class="w-[13vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/global/learning.png') }}" class="w-[10vw]" />
         </div>
     </div>
 
     {{-- Panel 2 --}}
     <div class="phonics-panel">
-        <div>
+        <div class="flex h-[28vw]">
+            <a href="" class="info-btn2 inline-flex w-auto h-fit p-0 m-0 self-end">
+                <h1 class="large-title stroke leading-none ">a</h1>
+            </a>
+
+            <img src="{{ asset('assets/images/phonicsl1/global/click.png') }}" class="w-[27vw] h-fit" />
+        </div>
+        <p class="p-note">Tip: Click on the letter to listen to its name and sound.</p>
+    </div>
+
+    {{-- Side Info Panel --}}
+    <div class="phonics-panel info-panel-2">
+        <h1 class="large-title stroke">a</h1>
+        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton" data-letter="a">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+        </button>
+    </div>
+
+    <div class="phonics-panel info-panel-2">
+        <div class="flex gap-x-[4vw] items-center justify-center">
+            <div>
+                <h1 class="large-title stroke h-fit" style="line-height: 66%;">a</h1>
+                <h1 class="text-white text-[5vw]">apple</h1>
+            </div>
             <img src="{{ asset('assets/images/phonicsl1/letter_a/apple.png') }}" class="w-[20vw]" />
-            <h1 class="text-white text-[5vw]"><span class="text-[#f7b94a]">a</span>pple</h1>
+
         </div>
 
         {{-- sound Button --}}
@@ -86,12 +105,15 @@
         </button>
     </div>
 
-
-    {{-- Panel 3 --}}
-    <div class="phonics-panel">
-        <div>
+    {{-- ==== 2 --}}
+    <div class="phonics-panel info-panel-2">
+        <div class="flex gap-x-[4vw] items-center justify-center">
+            <div>
+                <h1 class="large-title stroke h-fit" style="line-height: 66%;">a</h1>
+                <h1 class="text-white text-[5vw]">ant</h1>
+            </div>
             <img src="{{ asset('assets/images/phonicsl1/letter_a/ant.png') }}" class="w-[25vw]" />
-            <h1 class="text-white text-[5vw]"><span class="text-[#f7b94a]">a</span>nt</h1>
+
         </div>
 
         {{-- sound Button --}}
@@ -100,24 +122,31 @@
         </button>
     </div>
 
-
-    {{-- Panel 4 --}}
-    <div class="phonics-panel">
-        <div>
+    {{-- === 3 --}}
+    <div class="phonics-panel info-panel-2">
+        <div class="flex gap-x-[4vw] items-center justify-center">
+            <div>
+                <h1 class="large-title stroke h-fit" style="line-height: 66%;">a</h1>
+                <h1 class="text-white text-[5vw]">angry</h1>
+            </div>
             <img src="{{ asset('assets/images/phonicsl1/letter_a/anger.png') }}" class="w-[25vw]" />
-            <h1 class="text-white text-[5vw]"> <span class="text-[#f7b94a]">a</span>ngry</h1>
+
         </div>
+
         {{-- sound Button --}}
         <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton" data-letter="angry">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
 
-    {{-- Panel 5 --}}
-    <div class="phonics-panel">
-        <div>
+    <div class="phonics-panel info-panel-2">
+        <div class="flex gap-x-[4vw] items-center justify-center">
+            <div>
+                <h1 class="large-title stroke h-fit" style="line-height: 66%;">a</h1>
+                <h1 class="text-white text-[5vw]">jam</h1>
+            </div>
             <img src="{{ asset('assets/images/phonicsl1/letter_a/jam.png') }}" class="h-[20vw]" />
-            <h1 class="text-white text-[5vw]">j<span class="text-[#f7b94a]">a</span>m</h1>
+
         </div>
 
         {{-- sound Button --}}
@@ -126,17 +155,10 @@
         </button>
     </div>
 
-
-
-    <div class="phonics-panel">
+    <div class="phonics-panel info-panel-2">
         <div class="flex gap-x-[4vw] items-center justify-center">
             <div>
-                <div class="relative ml-[10vw]">
-                    <img src="{{ asset('assets/images/phonicsl1/global/blank.png') }}" class="w-[15vw]" />
-                    <h2 class="text-[1.5vw] !text-[#B76E33] absolute top-[2.5vw] right-[3vw]">Which picture <br>
-                        matches the <br>
-                        word?</h2>
-                </div>
+                <img src="{{ asset('assets/images/phonicsl1/global/click5.png') }}" class="w-[15vw] ml-[7vw]" />
                 <img src="{{ asset('assets/images/phonicsl1/global/teacher.png') }}" class="h-[20vw]" />
             </div>
 
@@ -144,48 +166,34 @@
             flex justify-center items-end"
                 style="background-image: url('{{ asset('assets/images/phonicsl1/global/board.png') }}')">
 
-                <div class="grid grid-cols-2 gap-x-[4vw] gap-y-[1.5vw] place-items-center mb-[2vw]">
+                <div class="grid grid-cols-2 gap-[1.5vw] place-items-center mb-[3vw]">
                     {{-- this is false --}}
-                    <div class="flex items-start">
-                        <a class="hover:brightness-110" id="false">
-                            <img src="{{ asset('assets/images/phonicsl1/letter_a/cat.png') }}" class="w-[7vw]" />
-                        </a>
-                        {{-- sound Button --}}
-                        <button class="w-[3vw]" id="soundButton" data-letter="cat">
-                            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                        </button>
-                    </div>
+                    <a class="w-[8.5vw] hover:brightness-110 " id="false">
+                        <img src="{{ asset('assets/images/phonicsl1/global/alphabets/c.png') }}" />
+                    </a>
 
                     {{-- falsde --}}
-                    <div class="flex items-start">
-
-                        <a class="w-[6vw] hover:brightness-110 " id="true">
-                            <img src="{{ asset('assets/images/phonicsl1/letter_a/apple.png') }}" />
-                        </a>
-                        {{-- sound Button --}}
-                        <button class="w-[3vw]" id="soundButton" data-letter="apple">
-                            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                        </button>
-                    </div>
+                    <a class="w-[8.5vw] hover:brightness-110 " id="false">
+                        <img src="{{ asset('assets/images/phonicsl1/global/alphabets/b.png') }}" />
+                    </a>
 
                     {{-- true --}}
-                    <div class="col-span-2 flex justify-center ">
-                        <div class="flex items-start gap-x-[1vw]">
-                            <a class="w-[6vw] hover:brightness-110" id="false">
-                                <img src="{{ asset('assets/images/phonicsl1/letter_a/bear.png') }}" />
-                            </a>
-                            {{-- sound Button --}}
-                            <button class="w-[3vw]" id="soundButton" data-letter="bear">
-                                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                            </button>
-                        </div>
+                    <div class="col-span-2 flex justify-center " id="true">
+                        <a class="w-[8.5vw] hover:brightness-110">
+                            <img src="{{ asset('assets/images/phonicsl1/global/alphabets/a.png') }}" />
+                        </a>
                     </div>
+
                 </div>
             </div>
 
         </div>
         <p class="p-note">Tip: Click on the sound icon to listen to the letter sound. Then ask <br>
             children to select the correct letter that makes the sound.</p>
+        {{-- sound Button --}}
+        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton" data-letter="a">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+        </button>
     </div>
 
 
@@ -269,26 +277,26 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/l1') }}";
-            const doneURL = "{{ url('/phonics/l1') }}";
+            const returnURL = "{{ url('/phonics/letter_a') }}";
+            const doneURL = "{{ url('/phonics/letter_a') }}";
 
             // Track current position
             let currentSlide = 0; // Which slide we're on now
             let isInSpecialMode = false; // Are we viewing info slides?
             let returnToSlide = null; // Which slide to return to
-            let specialSlideClass = null; // Which type of special slide (info-panel-1,, etc.)
+            let specialSlideClass = null; // Which type of special slide (info-panel-1, info-panel-2, etc.)
 
             // HELPER FUNCTIONS
 
             // Check if a slide is special (info panel)
             function isSpecialSlide(slide) {
                 const classList = Array.from(slide.classList);
-                // Check for info-panel-1,, etc.
+                // Check for info-panel-1, info-panel-2, etc.
                 return classList.some(cls => /^info-panel-\d+$/.test(cls));
             }
 
             // Get special slide type from button class
-            // Example: "info-btn1" → "info-panel-1", "info-btn2" → "
+            // Example: "info-btn1" → "info-panel-1", "info-btn2" → "info-panel-2"
             function getSlideTypeFromButton(button) {
                 const classList = Array.from(button.classList);
 
@@ -542,6 +550,7 @@
 
 
         // panel
+
         document.addEventListener('DOMContentLoaded', function() {
             // Get elements
             const tryAgainPanel = document.getElementById('tryAgain');
