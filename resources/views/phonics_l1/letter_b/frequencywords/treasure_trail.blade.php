@@ -19,15 +19,17 @@
 
 @section('content')
     {{-- Top Title --}}
-    <h2 class="top-title stroke">Balloon Fun</h2>
+    <h2 class="top-title stroke">Treasure Trail</h2>
 
     {{-- panel 1 --}}
     <div class="phonics-panel mb-[2vw]">
         <div class="flex items-start ">
             <div class="relative">
                 <img src="{{ asset('assets/images/phonicsl1/global/click3.png') }}" class="w-[30vw]" />
-                <h3 class="text-[#B76E33] text-[2.5vw] absolute top-[30%] left-[27%]">Which word <br>
-                    matches...</h3>
+                <h3 class="text-[#B76E33] text-[2.5vw] absolute top-1/2 left-[45%] -translate-x-1/2 -translate-y-1/2">Let’s
+                    find the <br>
+                    trail to the <br>
+                    treasure!</h3>
             </div>
             <img src="{{ asset('assets/images/phonicsl1/global/bear.png') }}" class="h-[25vw]" />
         </div>
@@ -36,121 +38,110 @@
     </div>
 
 
-    {{-- Panel 2 --}}
-    <div class="phonics-panel flex flex-col items-center justify-between h-full">
-        <div class="space-y-[5vw]">
-            <h1 class="text-white text-[5vw]">are</h1>
-            <div class="flex gap-[1vw]">
+    {{-- treasure  Panel 1 --}}
+    <div class="phonics-panel flex flex-col items-center gap-y-[1vw]">
+        <img src="{{ asset('assets/images/phonicsl1/letter_b/trail.png') }}" class="w-[45vw]">
+        <p class="p-note">Tips: Look at the Treasure Trail Activity Sheet in the Pupil's Activity Book. <br>
+            There are 10 words from the start of the trail to the treasure.</p>
+    </div>
 
-                <a id="false"><img src="{{ asset('assets/images/phonicsl1/letter_a/the-card.png') }}"
-                        class="h-[10vw]" /></a>
-                <a id="false"><img src="{{ asset('assets/images/phonicsl1/letter_a/and-card.png') }}"
-                        class="h-[10vw]" /></a>
-                <a id="false"><img src="{{ asset('assets/images/phonicsl1/letter_a/with-card.png') }}"
-                        class="h-[10vw]" /></a>
-                <a id="true"><img src="{{ asset('assets/images/phonicsl1/letter_a/are-card.png') }}"
-                        class="h-[10vw]" /></a>
+    {{-- treasure Panel --}}
+    <div class="phonics-panel flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]">
+        <div
+            class="w-[30vw] text-center h-[10vw] rounded-2xl text-[5vw] bg-[#F7B94A] text-white flex justify-center items-center">
+            go</div>
+        <p class="p-note">Tips: This is the second of 10 words to be flashed <br>
+            Ask children to colour the word on their Treasure Trail Activity Sheet.</p>
+    </div>
 
-            </div>
-        </div>
-        <p class="p-note">Tips: Click on the word that matches the onw shown. This is the first of 4 sets activities.</p>
+    {{-- treasure panel --}}
+    <div class="phonics-panel flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]">
+        <div
+            class="w-[30vw] text-center h-[10vw] rounded-2xl text-[5vw] bg-[#F7B94A] text-white flex justify-center items-center">
+            they</div>
+        <p class="p-note">Tips: This is the second of 10 words to be flashed <br>
+            Ask children to colour the word on their Treasure Trail Activity Sheet.</p>
+    </div>
+
+    {{-- treasure panel --}}
+    <div class="phonics-panel flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]">
+        <div
+            class="w-[30vw] text-center h-[10vw] rounded-2xl text-[5vw] bg-[#F7B94A] text-white flex justify-center items-center">
+            look</div>
+        <p class="p-note">Tips: This is the second of 10 words to be flashed <br>
+            Ask children to colour the word on their Treasure Trail Activity Sheet.</p>
+    </div>
+
+    {{-- treasure panel --}}
+    <div class="phonics-panel flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]">
+        <div
+            class="w-[30vw] text-center h-[10vw] rounded-2xl text-[5vw] bg-[#F7B94A] text-white flex justify-center items-center">
+            looking</div>
+        <p class="p-note">Tips: This is the second of 10 words to be flashed <br>
+            Ask children to colour the word on their Treasure Trail Activity Sheet.</p>
+    </div>
+
+    {{-- treasure panel --}}
+    <div class="phonics-panel flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]">
+        <div
+            class="w-[30vw] text-center h-[10vw] rounded-2xl text-[5vw] bg-[#F7B94A] text-white flex justify-center items-center">
+            for</div>
+        <p class="p-note">Tips: This is the second of 10 words to be flashed <br>
+            Ask children to colour the word on their Treasure Trail Activity Sheet.</p>
+    </div>
+
+    {{-- treasure panel --}}
+    <div class="phonics-panel flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]">
+        <div
+            class="w-[30vw] text-center h-[10vw] rounded-2xl text-[5vw] bg-[#F7B94A] text-white flex justify-center items-center">
+            no</div>
+        <p class="p-note">Tips: This is the second of 10 words to be flashed <br>
+            Ask children to colour the word on their Treasure Trail Activity Sheet.</p>
+    </div>
+
+    {{-- treasure panel --}}
+    <div class="phonics-panel flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]">
+        <div
+            class="w-[30vw] text-center h-[10vw] rounded-2xl text-[5vw] bg-[#F7B94A] text-white flex justify-center items-center">
+            a</div>
+        <p class="p-note">Tips: This is the second of 10 words to be flashed <br>
+            Ask children to colour the word on their Treasure Trail Activity Sheet.</p>
+    </div>
+    
+    {{-- treasure panel --}}
+    <div class="phonics-panel flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]">
+        <div
+            class="w-[30vw] text-center h-[10vw] rounded-2xl text-[5vw] bg-[#F7B94A] text-white flex justify-center items-center">
+            into</div>
+        <p class="p-note">Tips: This is the second of 10 words to be flashed <br>
+            Ask children to colour the word on their Treasure Trail Activity Sheet.</p>
+    </div>
+
+    {{-- treasure panel --}}
+    <div class="phonics-panel flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]">
+        <div
+            class="w-[30vw] text-center h-[10vw] rounded-2xl text-[5vw] bg-[#F7B94A] text-white flex justify-center items-center">
+            that</div>
+        <p class="p-note">Tips: This is the second of 10 words to be flashed <br>
+            Ask children to colour the word on their Treasure Trail Activity Sheet.</p>
+    </div>
+
+    {{-- treasure panel --}}
+    <div class="phonics-panel flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]">
+        <div
+            class="w-[30vw] text-center h-[10vw] rounded-2xl text-[5vw] bg-[#F7B94A] text-white flex justify-center items-center">
+            not</div>
+        <p class="p-note">Tips: This is the second of 10 words to be flashed <br>
+            Ask children to colour the word on their Treasure Trail Activity Sheet.</p>
     </div>
 
 
-
-    {{-- Panel 3 --}}
-    <div class="phonics-panel flex flex-col items-center justify-between h-full">
-        <div class="space-y-[5vw]">
-            <h1 class="text-white text-[5vw]">and</h1>
-            <div class="flex gap-[1vw]">
-
-                <a id="false"><img src="{{ asset('assets/images/phonicsl1/letter_a/the-card.png') }}"
-                        class="h-[10vw]" /></a>
-                <a id="true"><img src="{{ asset('assets/images/phonicsl1/letter_a/and-card.png') }}"
-                        class="h-[10vw]" /></a>
-                <a id="false"><img src="{{ asset('assets/images/phonicsl1/letter_a/with-card.png') }}"
-                        class="h-[10vw]" /></a>
-                <a id="false"><img src="{{ asset('assets/images/phonicsl1/letter_a/are-card.png') }}"
-                        class="h-[10vw]" /></a>
-
-            </div>
-        </div>
-        <p class="p-note">Tips: Click on the word that matches the onw shown. This is the first of 4 sets activities.</p>
+    {{-- treasure  Panel 1 --}}
+    <div class="phonics-panel flex flex-col items-center h-full justify-between ">
+        <img src="{{ asset('assets/images/phonicsl1/letter_b/trail-ans.png') }}" class="w-[45vw]">
+        <p class="p-note">Tips: Ask children to draw a line linking the coloured words to form a trail to the treasure.</p>
     </div>
 
-
-    {{-- Panel 4 --}}
-    <div class="phonics-panel flex flex-col items-center justify-between h-full">
-        <div class="space-y-[5vw]">
-            <h1 class="text-white text-[5vw]">with</h1>
-            <div class="flex gap-[1vw]">
-
-                <a id="false"><img src="{{ asset('assets/images/phonicsl1/letter_a/the-card.png') }}"
-                        class="h-[10vw]" /></a>
-                <a id="false"><img src="{{ asset('assets/images/phonicsl1/letter_a/and-card.png') }}"
-                        class="h-[10vw]" /></a>
-                <a id="true"><img src="{{ asset('assets/images/phonicsl1/letter_a/with-card.png') }}"
-                        class="h-[10vw]" /></a>
-                <a id="false"><img src="{{ asset('assets/images/phonicsl1/letter_a/are-card.png') }}"
-                        class="h-[10vw]" /></a>
-
-            </div>
-        </div>
-        <p class="p-note">Tips: Click on the word that matches the onw shown. This is the first of 4 sets activities.</p>
-    </div>
-
-
-    {{-- Panel 5 --}}
-    <div class="phonics-panel flex flex-col items-center justify-between h-full">
-        <div class="space-y-[5vw]">
-            <h1 class="text-white text-[5vw]">the</h1>
-            <div class="flex gap-[1vw]">
-
-                <a id="true"><img src="{{ asset('assets/images/phonicsl1/letter_a/the-card.png') }}"
-                        class="h-[10vw]" /></a>
-                <a id="false"><img src="{{ asset('assets/images/phonicsl1/letter_a/and-card.png') }}"
-                        class="h-[10vw]" /></a>
-                <a id="false"><img src="{{ asset('assets/images/phonicsl1/letter_a/with-card.png') }}"
-                        class="h-[10vw]" /></a>
-                <a id="false"><img src="{{ asset('assets/images/phonicsl1/letter_a/are-card.png') }}"
-                        class="h-[10vw]" /></a>
-
-            </div>
-        </div>
-        <p class="p-note">Tips: Click on the word that matches the onw shown. This is the first of 4 sets activities.</p>
-    </div>
-
-
-
-    {{-- Try Again --}}
-    <div id="tryAgain" class="fixed inset-0 z-[1000] hidden  items-center justify-center bg-[#0000002e]  backdrop-blur-sm">
-        <div class="w-[60vw] relative h-[40vw] bg-contain bg-no-repeat bg-center flex flex-col justify-center items-center rounded-lg "
-            style="background-image: url('{{ asset('assets/images/K2/exit.png') }}');">
-            <p class="text-[3vw] !text-[#F8473A] stroke font-bold">Try Again?</p>
-            <div class="mt-[1vw] ">
-                <img src="{{ asset('assets/images/phonicsl1/global/gifs/tryagain.gif') }}" class="h-[20vw]"
-                    alt="Animation" />
-
-            </div>
-            <a href="#" id="retry"
-                class="text-[#F8473A] text-[2vw] font-bold stroke hover:scale-110 transition-transform absolute bottom-[6vw] right-[10vw]">Retry</a>
-        </div>
-    </div>
-
-    {{-- Well Done --}}
-    <div id="wellDone" class="fixed inset-0 z-[1000] hidden  items-center justify-center bg-[#0000002e]  backdrop-blur-sm">
-        <div class="w-[60vw] relative h-[40vw] bg-contain bg-no-repeat bg-center flex flex-col justify-center items-center rounded-lg "
-            style="background-image: url('{{ asset('assets/images/K2/exit.png') }}');">
-            <p class="text-[3vw] !text-[#59967D] stroke font-bold">Well Done!</p>
-            <div class="mt-[1vw] ">
-                <img src="{{ asset('assets/images/phonicsl1/global/gifs/welldone.gif') }}" class="h-[20vw]"
-                    alt="Animation" />
-
-            </div>
-            <a href="#" id="close"
-                class="text-[#59967D] text-[2vw] font-bold stroke hover:scale-110 transition-transform absolute bottom-[6vw] right-[10vw]">Close</a>
-        </div>
-    </div>
 
 
 
@@ -200,8 +191,8 @@
             const doneButton = document.querySelector(".doneButton");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_a') }}";
-            const doneURL = "{{ url('/phonics/letter_a') }}";
+            const returnURL = "{{ url('/phonics/letter_b') }}";
+            const doneURL = "{{ url('/phonics/letter_b') }}";
 
             // Track current position
             let currentSlide = 0;

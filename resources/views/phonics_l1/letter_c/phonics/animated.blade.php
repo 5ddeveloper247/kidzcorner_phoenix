@@ -22,6 +22,10 @@
             font-size: 20vw !important;
         }
 
+        .link:hover {
+            color: #a37d3adb;
+        }
+
         .panel-title {
             color: #F7B94A;
             font-size: 3vw;
@@ -29,113 +33,83 @@
 
         .panel-ul {
             color: white;
-            font-size: 1.3vw;
-            padding-left: 3vw;
+            font-size: 1.4vw;
         }
     </style>
 @endpush
 
 @section('content')
+
+    {{-- title --}}
+    <h2 class="top-title stroke">Animated Letters</h2>
+
     {{-- panel 1 --}}
-    <div class="phonics-panel flex flex-col mt-[-2vw] gap-y-[2vw]">
-        <h1 class="panel-title stroke">About Phonics & Reading</h1>
+    <div class="phonics-panel no-bg mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio/SingAlong.mp3') }}">
+        <div class="relative">
+            <img src="{{ asset('assets/images/phonicsl1/letter_a/an-board.png') }}" />
+            {{-- gifs --}}
+            <img src="{{ asset('assets/images/phonicsl1/global/gifs/lili.gif') }}"
+                class="h-[20vw] bottom-[2vw] right-[18vw] absolute" />
+
+
+            <p class="p-note absolute bottom-[0vw] left-[10%]">Tip: Click on the appropriate rock to see the stroke for
+                an uppercase or lowercase letter. <br>
+                <a href="" class="c-btn info-btn1">Click here</a> to find out why writing is important in a phonics
+                programme.
+            </p>
+        </div>
+    </div>
+
+    {{-- Side Info Panel --}}
+    <div class="phonics-panel info-panel-1 flex flex-col mt-[-2vw] gap-y-[2vw]">
+        <h1 class="panel-title stroke">Reading Words in Stories</h1>
         <div class="flex items-start">
-            <ul class="list-disc text-start panel-ul space-y-[1.5vw]">
-                <li>Reviews of research suggest that it is the emphasis on early and systematic phonics instruction that
-                    makes a programme effective.</li>
-                <li>Phonics &amp; Reading is a method of systematically teaching beginners to read and pronounce words
-                    by learning to associate letters or letter groups with the sounds they represent.</li>
-                <li>It aims to equip children with a good background in letter-sound correspondence so that they can
-                    apply this knowledge to read independently.</li>
-            </ul>
+            <div class="flex flex-col justify-around h-100 text-start">
+                <ul class="list-disc text-start panel-ul space-y-[1.5vw]">
+                    <li>Adams (1990) suggested that children need to recognise the
+                        forms of the letters automatically to be able to recognise
+                        words fluently.</li>
+                    <li>In this section, children gain familiarity with both the upper and
+                        lowercase letters as they learn the forms of the letters.</li>
+                </ul>
+                <p class="text-white text-[.9vw]">Adams, M.J. (1990). Beginning to Read: Thinking and Learning About Print.
+                    Cambridge, MA: MIT Press.</p>
+            </div>
+
             <img src="{{ asset('assets/images/phonicsl1/global/learning.png') }}" class="h-[20vw]" />
         </div>
-        <p class="p-note"> <a class="c-btn info-btn1">Click here</a> to see the Instructional Goals</p>
     </div>
 
 
     {{-- Panel 2 --}}
-    <div class="phonics-panel info-panel-1 flex flex-col mt-[-2vw] gap-y-[2vw]">
-        <h1 class="panel-title stroke">Instructional Goals</h1>
-        <div class="flex items-start">
-            <div class="text-start">
-                <h3 class="text-white text-[1.5vw] pl-[1.5vw]">Children will learn to:</h3>
-                <ul class="list-disc panel-ul">
-                    <li>Recognise and name all the letters of the alphabet and differentiate their upper and lowercase
-                        forms.</li>
-                    <li>Associate a given letter with its sound.</li>
-                    <li>Say the sound made by a letter.</li>
-                    <li>Discriminate sounds in words.</li>
-                    <li>Apply the letter-sound relationships as they read words, sentences and stories.</li>
-                    <li>Read 100 high frequency words by sight.</li>
-                    <li>Spell by using the knowledge of letter names and sounds.</li>
-                    <li>Write words using the knowledge of the alphabetic principle.</li>
-                </ul>
-            </div>
-
-
-            <img src="{{ asset('assets/images/phonicsl1/global/learning.png') }}" class="h-[20vw]" />
-        </div>
+    <div class="phonics-panel flex flex-col items-center gap-y-[1vw]">
+        <a class="info-btn2">
+            <img src="{{ asset('assets/images/phonicsl1/letter_c/c1.png') }}" class="h-[25vw]" /></a>
+        <p class="p-note">Tip: Click on the letter to see a demonstration of the stroke. Follow up <br>
+            with the Writing Activity Sheet in the Pupil's Activity Book.</p>
     </div>
-
 
 
     {{-- Panel 3 --}}
-    <div class="phonics-panel flex flex-col mt-[-2vw] gap-y-[2vw]">
-        <h1 class="panel-title stroke">About Phonics & Reading</h1>
-        <div class="flex items-start">
-            <ul class="list-disc text-start space-y-[2vw] panel-ul">
-                <li>Phonics & Reading comprises complementary <span class="text-[#f7b94a]">print-
-                        based materials</span> and e-teaching resources for quality lesson
-                    delivery.</li>
-                <li>It offers a flexible literacy solution which can be used alongside
-                    any other reading program:
-                    <ul class="pl-[2vw]">
-                        <li> -to supplement the kindergarten's existing package</li>
-                        <li> -to complement many general Phonics packages</li>
-                        <li> -as a standalone solution to the kindergarten's phonics needs</li>
-                    </ul>
-                </li>
-            </ul>
-
-
-            <img src="{{ asset('assets/images/phonicsl1/global/learning.png') }}" class="h-[20vw]" />
-        </div>
-
-        <p class="p-note">Tip: Use the e-teaching resources to complement the <a
-                class="text-[#f7b94a] info-btn2">print-based materials</a> to engage <br>
-            children in the learning experience.</p>
+    <div class="phonics-panel info-panel-2 flex flex-col items-center h-full justify-between">
+        <img src="{{ asset('assets/images/phonicsl1/letter_c/cc1.gif') }}" class="w-[18vw] h-[20vw]" />
+        <p class="p-note">Tip: Click on the letter to see a demonstration of the stroke. </p>
     </div>
 
 
-    {{-- info Panel 2 --}}
-    <div class="phonics-panel info-panel-2 flex flex-col mt-[-2vw] gap-y-[2vw]">
-        <h1 class="panel-title stroke">Print-based Materials</h1>
-        <div class="flex items-start">
-            <div class="text-start">
-                <h3 class="text-white text-[1.5vw] pl-[1.5vw]">Pupil's Activity Book (26 for K1) comprising:</h3>
-                <ul class="list-disc panel-ul">
-                    <li>Letter recognition and teaching tips</li>
-                    <li>Story reader</li>
-                    <li>Word Bank and high frequency words</li>
-                    <li>Phonics activity sheets</li>
-                    <li>High frequency words activity sheets</li>
-                    <li>Attractive graphic illustrations</li>
-                </ul>
-            </div>
-
-
-            <img src="{{ asset('assets/images/phonicsl1/global/learning.png') }}" class="h-[20vw]" />
-        </div>
-        <p class="p-note w-[50vw]">Tips: There are 3 phonics activity sheets and 3 high frequency words activity sheets
-            in each
-            book. These
-            activity sheets have been designed to be used with the e-teaching resources. Use a relevant activity sheet
-            to complement an e-teaching lesson.</p>
+    {{-- Panel 4 --}}
+    <div class="phonics-panel flex flex-col items-center gap-y-[1vw]">
+        <a class="info-btn3">
+            <img src="{{ asset('assets/images/phonicsl1/letter_c/c2.png') }}" class="h-[15vw]" /></a>
+        <p class="p-note">Tip: Click on the letter to see a demonstration of the stroke. Follow up <br>
+            with the Writing Activity Sheet in the Pupil's Activity Book.</p>
     </div>
 
-
-
+    {{-- Panel 5 --}}
+    <div class="phonics-panel info-panel-3 flex flex-col items-center gap-y-[4vw]">
+        <img src="{{ asset('assets/images/phonicsl1/letter_c/cc2.gif') }}" class="h-[15vw]" />
+        <p class="p-note">Tip: Click on the letter to see a demonstration of the stroke. </p>
+    </div>
 
 
 
@@ -184,10 +158,11 @@
             const returnButton = document.getElementById("returnButton");
             const doneButton = document.querySelector(".doneButton");
             const infoButtons = document.querySelectorAll("[class*='info-btn']");
+            const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_b') }}";
-            const doneURL = "{{ url('/phonics/letter_b') }}";
+            const returnURL = "{{ url('/phonics/letter_c') }}";
+            const doneURL = "{{ url('/phonics/letter_c') }}";
 
             // Track current position
             let currentSlide = 0;
@@ -195,15 +170,27 @@
             let returnToSlide = null;
             let specialSlideClass = null;
 
-            // HELPER FUNCTIONS
+            //  Global audio tracking
+            let currentAudio = null;
 
-            // Check if a slide is special (info panel)
+            // 🛑 Function to stop all audio/speech
+            function stopAllAudio() {
+                // Stop any playing audio files
+                if (currentAudio) {
+                    currentAudio.pause();
+                    currentAudio.currentTime = 0;
+                    currentAudio = null;
+                }
+                // Stop text-to-speech
+                window.speechSynthesis.cancel();
+            }
+
+            // HELPER FUNCTIONS
             function isSpecialSlide(slide) {
                 const classList = Array.from(slide.classList);
                 return classList.some(cls => /^info-panel-\d+$/.test(cls));
             }
 
-            // Get special slide type from button class
             function getSlideTypeFromButton(button) {
                 const classList = Array.from(button.classList);
                 for (let className of classList) {
@@ -215,7 +202,6 @@
                 return null;
             }
 
-            // Check if there are more special slides after current one
             function hasMoreSpecialSlides(fromIndex) {
                 if (!specialSlideClass) return false;
                 for (let i = fromIndex + 1; i < slides.length; i++) {
@@ -226,7 +212,6 @@
                 return false;
             }
 
-            // Check if we're on the last slide
             function isLastSlide(slideIndex) {
                 if (isInSpecialMode && !hasMoreSpecialSlides(slideIndex)) return true;
                 if (!isInSpecialMode) {
@@ -245,6 +230,9 @@
                 const ajaxSection = document.getElementById('ajax-section');
                 const currentSlideElement = slides[slideIndex];
 
+                // 🛑 Stop all audio when changing slides
+                stopAllAudio();
+
                 // Hide all slides, show only current one
                 slides.forEach((slide, index) => {
                     if (index === slideIndex) {
@@ -254,20 +242,45 @@
                     }
                 });
 
-                // Show "Done" button on last slide, otherwise show "Next"
-                if (isLastSlide(slideIndex)) {
+                // Check if current slide has 'next-hide' class
+                if (currentSlideElement.classList.contains('next-hide')) {
                     nextButtons.forEach(btn => btn.classList.add("hidden"));
-                    if (doneButton) doneButton.classList.remove("hidden");
                 } else {
-                    nextButtons.forEach(btn => btn.classList.remove("hidden"));
-                    if (doneButton) doneButton.classList.add("hidden");
+                    // Show "Done" button on last slide, otherwise show "Next"
+                    if (isLastSlide(slideIndex)) {
+                        // Check if current slide has 'done-hide' class
+                        if (currentSlideElement.classList.contains('done-hide')) {
+                            // Hide done button if slide has done-hide class
+                            if (doneButton) doneButton.classList.add("hidden");
+                            nextButtons.forEach(btn => btn.classList.add("hidden"));
+                        } else {
+                            // Show done button normally
+                            nextButtons.forEach(btn => btn.classList.add("hidden"));
+                            if (doneButton) doneButton.classList.remove("hidden");
+                        }
+                    } else {
+                        nextButtons.forEach(btn => btn.classList.remove("hidden"));
+                        if (doneButton) doneButton.classList.add("hidden");
+                    }
                 }
 
                 // Toggle ajax-section background ONLY based on no-bg class
-                if (ajaxSection && currentSlideElement.classList.contains('no-bg')) {
-                    ajaxSection.classList.add('no-bg');
-                } else if (ajaxSection) {
-                    ajaxSection.classList.remove('no-bg');
+                if (ajaxSection) {
+                    if (currentSlideElement.classList.contains('no-bg')) {
+                        ajaxSection.classList.add('no-bg');
+                    } else {
+                        ajaxSection.classList.remove('no-bg');
+                    }
+                }
+
+                //  Auto-play audio if slide has data-slide-audio attribute
+                const slideAudioSrc = currentSlideElement.getAttribute('data-slide-audio');
+                if (slideAudioSrc) {
+                    // Small delay to ensure slide is visible before playing
+                    setTimeout(() => {
+                        currentAudio = new Audio(slideAudioSrc);
+                        currentAudio.play().catch(err => console.log('Auto-play failed:', err));
+                    }, 300);
                 }
             }
 
@@ -275,8 +288,6 @@
             function goNext() {
                 if (currentSlide >= slides.length - 1) return;
                 currentSlide++;
-
-                // Skip slides that don't match current mode
                 while (currentSlide < slides.length) {
                     const slide = slides[currentSlide];
                     if (isInSpecialMode) {
@@ -286,7 +297,6 @@
                     }
                     currentSlide++;
                 }
-
                 if (currentSlide < slides.length) {
                     showSlide(currentSlide);
                 }
@@ -294,10 +304,10 @@
 
             function goBack() {
                 if (currentSlide === 0 && !isInSpecialMode) {
+                    stopAllAudio(); // 🛑 Stop audio before leaving
                     window.location.href = returnURL;
                     return;
                 }
-
                 if (isInSpecialMode) {
                     let previousIndex = currentSlide - 1;
                     while (previousIndex >= 0) {
@@ -328,28 +338,37 @@
             }
 
             function handleDone() {
+                stopAllAudio(); // 🛑 Stop audio before action
                 if (isInSpecialMode && returnToSlide !== null) {
                     currentSlide = returnToSlide;
                     isInSpecialMode = false;
                     specialSlideClass = null;
                     returnToSlide = null;
                     showSlide(currentSlide);
+
+                    // Toggle background when returning from info mode
+                    const ajaxSection = document.getElementById('ajax-section');
+                    const currentSlideElement = slides[currentSlide];
+                    if (ajaxSection) {
+                        if (currentSlideElement.classList.contains('no-bg')) {
+                            ajaxSection.classList.add('no-bg');
+                        } else {
+                            ajaxSection.classList.remove('no-bg');
+                        }
+                    }
                 } else {
                     window.location.href = doneURL;
                 }
             }
 
             // EVENT LISTENERS
-
-            // Bingo buttons - Enter special mode
             infoButtons.forEach(button => {
                 button.addEventListener("click", function(e) {
                     e.preventDefault();
+                    stopAllAudio(); // 🛑 Stop audio when entering info mode
                     returnToSlide = currentSlide;
                     isInSpecialMode = true;
                     specialSlideClass = getSlideTypeFromButton(button);
-
-                    // Find and show first special slide
                     for (let i = 0; i < slides.length; i++) {
                         if (slides[i].classList.contains(specialSlideClass)) {
                             currentSlide = i;
@@ -371,6 +390,53 @@
             if (doneButton) {
                 doneButton.addEventListener("click", handleDone);
             }
+
+            // 🔊 Home and Close buttons also stop audio
+            const homeButton = document.getElementById("homeButton");
+            const closeButton = document.getElementById("closeButton");
+
+            if (homeButton) {
+                homeButton.addEventListener("click", () => stopAllAudio());
+            }
+
+            if (closeButton) {
+                closeButton.addEventListener("click", () => stopAllAudio());
+            }
+
+            soundButtons.forEach(btn => {
+                btn.addEventListener("click", (e) => {
+                    e.preventDefault();
+
+                    // Stop any previous audio first
+                    stopAllAudio();
+
+                    // 1️⃣ If data-audio is provided → play audio file
+                    const audioSrc = btn.getAttribute("data-audio");
+                    if (audioSrc) {
+                        currentAudio = new Audio(audioSrc);
+                        currentAudio.play();
+                        return;
+                    }
+
+                    // 2️⃣ Otherwise fallback to speaking the letter
+                    const letter = btn.getAttribute("data-letter") || "a";
+                    speakLetter(letter);
+                });
+            });
+
+            const letterLinks = document.querySelectorAll('.phonics-panel a[href=""]:not([class*="info-btn"])');
+            letterLinks.forEach(link => {
+                link.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    stopAllAudio(); // Stop previous audio
+                    const letter = link.getAttribute('data-letter') || 'a';
+                    speakLetter(letter);
+                });
+            });
+
+            window.speechSynthesis.onvoiceschanged = () => {
+                window.speechSynthesis.getVoices();
+            };
 
             // INITIALIZE
             showSlide(currentSlide);

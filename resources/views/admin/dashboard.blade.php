@@ -146,7 +146,7 @@
                             </div>
 
                             <div class="col-12 col-lg-3">
-                               <a>
+                                <a>
                                     <div class="card radius-15 overflow-hidden"
                                         style="min-height: 170px; background:#f2e9cc;">
                                         <div class="upper-blur">
@@ -185,34 +185,50 @@
                             <div class="col-12 col-lg-3">
                                 <a href="{{ url('/phonics/l1') }}">
                                     <div class="card radius-15 overflow-hidden"
-                                        style="min-height: 170px;  background:#f2e9cc; ">
-                                        <div
-                                            class="card-body d-flex justify-content-center align-items-center mascot-container">
-                                            <img src="{{ asset('assets/images/pptimages/phonic2.png') }}">
-                                            <img src="{{ asset('assets/images/pptimages/leaf15.png') }}"
-                                                class="position-absolute top-0" style="width: 2.5vw; right:4.5vw;">
-                                            <img src="{{ asset('assets/images/pptimages/leaf3.png') }}"
-                                                class="position-absolute top-0 end-0" style="width: 3vw;">
-                                            <img src="{{ asset('assets/images/pptimages/leaf8.png') }}"
-                                                class="position-absolute top-0" style="width: 3vw; left:3.5vw;">
-                                            <img src="{{ asset('assets/images/pptimages/bg-leaf-1.png') }}"
-                                                class="position-absolute top-0 start-0" style="width: 3vw;">
-                                            <img src="{{ asset('assets/images/pptimages/bg-leaf-2.png') }}"
-                                                class="position-absolute top-0 " style="width: 2.5vw; right:11vw;">
-                                            <img src="{{ asset('assets/images/pptimages/leaf15.png') }}"
-                                                class="position-absolute bottom-0"
-                                                style="width: 2.5vw; transform:rotate(180deg);">
-                                            <img src="{{ asset('assets/images/pptimages/leaf1.png') }}"
-                                                class="position-absolute  start-0" style="width: 2vw; bottom:-.5vw;">
-                                            <img src="{{ asset('assets/images/pptimages/leaf11.png') }}"
-                                                class="position-absolute end-0 "
-                                                style="width: 2.5vw; bottom:-1vw; z-index:10;">
-                                            <img src="{{ asset('assets/images/pptimages/mascot.png') }}"
-                                                class="position-absolute mascot-img"
-                                                style="width: 3.5vw; bottom:-2.9vw; right:-1vw; transform:rotate(-25deg)">
+                                        style="min-height: 170px; background:#f2e9cc;">
+                                        <div class="position-absolute top-0 start-0 w-100 h-100"
+                                            style=" background-image: url('{{ asset('assets/images/phonicsl1/global/bg.png') }}'); background-repeat: no-repeat; background-size: contain; background-position: center;z-index: 0;">
+                                            <div
+                                                class="card-body d-flex justify-content-center align-items-center mascot-container">
+
+                                                <img src="{{ asset('assets/images/pptimages/phonic2.png') }}">
+
+                                                <img src="{{ asset('assets/images/pptimages/leaf15.png') }}"
+                                                    class="position-absolute top-0" style="width: 2.5vw; right:4.5vw;">
+
+                                                <img src="{{ asset('assets/images/pptimages/leaf3.png') }}"
+                                                    class="position-absolute top-0 end-0" style="width: 3vw;">
+
+                                                <img src="{{ asset('assets/images/pptimages/leaf8.png') }}"
+                                                    class="position-absolute top-0" style="width: 3vw; left:3.5vw;">
+
+                                                <img src="{{ asset('assets/images/pptimages/bg-leaf-1.png') }}"
+                                                    class="position-absolute top-0 start-0" style="width: 3vw;">
+
+                                                <img src="{{ asset('assets/images/pptimages/bg-leaf-2.png') }}"
+                                                    class="position-absolute top-0" style="width: 2.5vw; right:11vw;">
+
+                                                <img src="{{ asset('assets/images/pptimages/leaf15.png') }}"
+                                                    class="position-absolute bottom-0"
+                                                    style="width: 2.5vw; transform:rotate(180deg);">
+
+                                                <img src="{{ asset('assets/images/pptimages/leaf1.png') }}"
+                                                    class="position-absolute start-0" style="width: 2vw; bottom:-.5vw;">
+
+                                                <img src="{{ asset('assets/images/pptimages/leaf11.png') }}"
+                                                    class="position-absolute end-0"
+                                                    style="width: 2.5vw; bottom:-1vw; z-index:10;">
+
+                                                <img src="{{ asset('assets/images/pptimages/mascot.png') }}"
+                                                    class="position-absolute mascot-img"
+                                                    style="width: 3.5vw; bottom:-2.9vw; right:-1vw; transform:rotate(-25deg);">
+
+                                            </div>
+
                                         </div>
                                     </div>
                                 </a>
+
                             </div>
 
                             <div class="col-12 col-lg-3">

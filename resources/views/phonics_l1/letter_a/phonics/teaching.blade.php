@@ -134,7 +134,6 @@
                 const nextButtons = document.querySelectorAll(".nextButton");
                 const returnButton = document.getElementById("returnButton");
                 const doneButton = document.querySelector(".doneButton");
-                const infoButtons = document.querySelectorAll("[class*='info-btn']");
 
                 // URLs for navigation
                 const returnURL = "{{ url('/phonics/letter_a') }}";
@@ -142,22 +141,6 @@
 
                 // Track current position
                 let currentSlide = 0;
-                let isInSpecialMode = false;
-                let returnToSlide = null;
-                let specialSlideClass = null;
-
-
-                //  Function to stop all audio/speech
-                function stopAllAudio() {
-                    // Stop any playing audio files
-                    if (currentAudio) {
-                        currentAudio.pause();
-                        currentAudio.currentTime = 0;
-                        currentAudio = null;
-                    }
-                    // Stop text-to-speech
-                    window.speechSynthesis.cancel();
-                }
 
                 // HELPER FUNCTIONS
                 function isSpecialSlide(slide) {
@@ -165,45 +148,19 @@
                     return classList.some(cls => /^info-panel-\d+$/.test(cls));
                 }
 
-                function getSlideTypeFromButton(button) {
-                    const classList = Array.from(button.classList);
-                    for (let className of classList) {
-                        if (className.startsWith('info-btn')) {
-                            const number = className.replace('info-btn', '');
-                            return 'info-panel-' + number;
-                        }
-                    }
-                    return null;
-                }
-
-                function hasMoreSpecialSlides(fromIndex) {
-                    if (!specialSlideClass) return false;
-                    for (let i = fromIndex + 1; i < slides.length; i++) {
-                        if (slides[i].classList.contains(specialSlideClass)) {
-                            return true;
-                        }
-                    }
-                    return false;
-                }
-
                 function isLastSlide(slideIndex) {
-                    if (isInSpecialMode && !hasMoreSpecialSlides(slideIndex)) return true;
-                    if (!isInSpecialMode) {
-                        for (let i = slideIndex + 1; i < slides.length; i++) {
-                            if (!isSpecialSlide(slides[i])) {
-                                return false;
-                            }
+                    for (let i = slideIndex + 1; i < slides.length; i++) {
+                        if (!isSpecialSlide(slides[i])) {
+                            return false;
                         }
-                        return true;
                     }
-                    return false;
+                    return true;
                 }
 
                 // DISPLAY FUNCTIONS
                 function showSlide(slideIndex) {
                     const ajaxSection = document.getElementById('ajax-section');
                     const currentSlideElement = slides[slideIndex];
-
 
                     // Hide all slides, show only current one
                     slides.forEach((slide, index) => {
@@ -252,11 +209,7 @@
                     currentSlide++;
                     while (currentSlide < slides.length) {
                         const slide = slides[currentSlide];
-                        if (isInSpecialMode) {
-                            if (slide.classList.contains(specialSlideClass)) break;
-                        } else {
-                            if (!isSpecialSlide(slide)) break;
-                        }
+                        if (!isSpecialSlide(slide)) break;
                         currentSlide++;
                     }
                     if (currentSlide < slides.length) {
@@ -265,82 +218,24 @@
                 }
 
                 function goBack() {
-                    if (currentSlide === 0 && !isInSpecialMode) {
-                        stopAllAudio(); //  Stop audio before leaving
+                    if (currentSlide === 0) {
                         window.location.href = returnURL;
                         return;
                     }
-                    if (isInSpecialMode) {
-                        let previousIndex = currentSlide - 1;
-                        while (previousIndex >= 0) {
-                            if (slides[previousIndex].classList.contains(specialSlideClass)) {
-                                break;
-                            }
-                            previousIndex--;
-                        }
-                        if (previousIndex >= 0) {
-                            currentSlide = previousIndex;
-                            showSlide(currentSlide);
-                        } else {
-                            currentSlide = returnToSlide;
-                            isInSpecialMode = false;
-                            specialSlideClass = null;
-                            returnToSlide = null;
-                            showSlide(currentSlide);
-                        }
-                    } else {
-                        if (currentSlide > 0) {
+                    if (currentSlide > 0) {
+                        currentSlide--;
+                        while (currentSlide > 0 && isSpecialSlide(slides[currentSlide])) {
                             currentSlide--;
-                            while (currentSlide > 0 && isSpecialSlide(slides[currentSlide])) {
-                                currentSlide--;
-                            }
-                            showSlide(currentSlide);
                         }
+                        showSlide(currentSlide);
                     }
                 }
 
                 function handleDone() {
-
-                    if (isInSpecialMode && returnToSlide !== null) {
-                        currentSlide = returnToSlide;
-                        isInSpecialMode = false;
-                        specialSlideClass = null;
-                        returnToSlide = null;
-                        showSlide(currentSlide);
-
-                        // Toggle background when returning from info mode
-                        const ajaxSection = document.getElementById('ajax-section');
-                        const currentSlideElement = slides[currentSlide];
-                        if (ajaxSection) {
-                            if (currentSlideElement.classList.contains('no-bg')) {
-                                ajaxSection.classList.add('no-bg');
-                            } else {
-                                ajaxSection.classList.remove('no-bg');
-                            }
-                        }
-                    } else {
-                        window.location.href = doneURL;
-                    }
+                    window.location.href = doneURL;
                 }
 
                 // EVENT LISTENERS
-                infoButtons.forEach(button => {
-                    button.addEventListener("click", function(e) {
-                        e.preventDefault();
-                        stopAllAudio(); //  Stop audio when entering info mode
-                        returnToSlide = currentSlide;
-                        isInSpecialMode = true;
-                        specialSlideClass = getSlideTypeFromButton(button);
-                        for (let i = 0; i < slides.length; i++) {
-                            if (slides[i].classList.contains(specialSlideClass)) {
-                                currentSlide = i;
-                                showSlide(currentSlide);
-                                break;
-                            }
-                        }
-                    });
-                });
-
                 nextButtons.forEach(btn => {
                     btn.addEventListener("click", goNext);
                 });
@@ -351,18 +246,6 @@
 
                 if (doneButton) {
                     doneButton.addEventListener("click", handleDone);
-                }
-
-                // 🔊 Home and Close buttons also stop audio
-                const homeButton = document.getElementById("homeButton");
-                const closeButton = document.getElementById("closeButton");
-
-                if (homeButton) {
-                    homeButton.addEventListener("click", () => stopAllAudio());
-                }
-
-                if (closeButton) {
-                    closeButton.addEventListener("click", () => stopAllAudio());
                 }
 
                 // INITIALIZE
