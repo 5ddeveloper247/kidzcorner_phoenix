@@ -83,7 +83,7 @@
     </div>
 
     {{-- Slide 7 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-[18vw]">
+    <div class="slide hidden flex flex-col items-center justify-start h-[18vw]">
         <h2 class="title stroke !text-white">Individual Activity</h2>
         <h2 class="text-start title stroke">Now, we'll learn to do this Long Chain Dominoes
             idea and have fun making it work!</h2>
@@ -184,7 +184,7 @@
     </div>
 
     {{-- Slide 18 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-[50vh]">
+    <div class="slide hidden flex flex-col items-center justify-between h-[18vw]">
         <h2 class="title stroke !text-white">Individual Activity</h2>
         <h2 class="text-start title stroke">Now, we'll learn to do this Ball Roll idea and
             have fun making it work!</h2>

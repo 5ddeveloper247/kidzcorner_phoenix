@@ -32,7 +32,7 @@
 
     {{-- Slide 5 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/sm/wheels/we2.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/sm/wheels/we2.png') }}" class="!w-[30vw]" />
         <h2 class="title stroke">Where are the wheels and axles of this tricycle? Can you point each of them out?</h2>
     </div>
 
@@ -56,13 +56,13 @@
 
     {{-- Slide 9 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/sm/wheels/we2.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/sm/wheels/we2.png') }}" class="!w-[30vw]" />
         <h2 class="title stroke">The <span class="!text-white">wheel and axle</span> allows us to move around easily when we ride a tricycle.</h2>
     </div>
 
     {{-- Slide 10 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/sm/wheels/we3.png') }}" />
+        <img src="{{ asset('assets/images/K1/sm/wheels/we3.png') }}" class="!w-[52vw]" />
         <h2 class="title stroke">In fact, the <span class="!text-white">wheel and axle</span> saves our time and effort to move heavy things and people around easily.</h2>
     </div>
 
@@ -86,7 +86,7 @@
 
     {{-- Slide 14 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/sm/wheels/we5.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/sm/wheels/we5.png') }}" class="!w-[32vw]" />
         <h2 class="title stroke">What is this? Where are the wheels and axles? What do they do?</h2>
     </div>
 
@@ -221,7 +221,7 @@
     {{-- Slide 34 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
         <h2 class="!text-white title">Class Activity</h2>
-        <img src="{{ asset('assets/images/K1/sm/wheels/we16.png') }}" class="img-sm" />
+        <img src="{{ asset('assets/images/K1/sm/wheels/we16.png') }}" class="!w-[30vw]" />
         <div class="text-start">
             <h2 class="stroke title">Let's find out:</h2>
             <ol class="title stroke">
@@ -239,7 +239,7 @@
                 i. Mark 6 even points on the rim of a styrofoam disc with the help of a circular template.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/K1/sm/wheels/we17.png') }}" class="img-sm" />
+        <img src="{{ asset('assets/images/K1/sm/wheels/we17.png') }}" class="!w-[28vw]" />
     </div>
 
     {{-- Slide 36 --}}
@@ -251,7 +251,7 @@
                 ii. Put 6 spoons into the rim of the disc by referring to the marking made.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/K1/sm/wheels/we18.png') }}" class="img-sm" />
+        <img src="{{ asset('assets/images/K1/sm/wheels/we18.png') }}" class="!w-[28vw]" />
     </div>
 
     {{-- Slide 37 --}}
@@ -263,7 +263,7 @@
                iii. Put a stick through the centre of the disc with the help of the circular template.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/K1/sm/wheels/we19.png') }}" class="img-sm" />
+        <img src="{{ asset('assets/images/K1/sm/wheels/we19.png') }}" class="!w-[28vw]" />
     </div>
 
     {{-- Slide 38 --}}
@@ -275,12 +275,12 @@
                 iv. Use packing film or adhesive tape to firm up the design.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/K1/sm/wheels/we20.png') }}" class="img-sm" />
+        <img src="{{ asset('assets/images/K1/sm/wheels/we20.png') }}" class="!w-[28vw]" />
     </div>
 
     {{-- Slide 39 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
-        <img src="{{ asset('assets/images/K1/sm/wheels/we21.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/sm/wheels/we21.png') }}" class="!w-[35vw]" />
         <div class="text-start">
             <h2 class="stroke title !text-white">What do you think:</h2>
             <ol class="lesson-ul list-decimal title stroke" start="1">
@@ -297,12 +297,12 @@
                 <li>Take turns to test the water wheel by putting it on a big container and pouring water down one side of the wheel</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/K1/sm/wheels/we21.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/sm/wheels/we21.png') }}" class="!w-[35vw]" />
     </div>
 
     {{-- Slide 41 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
-        <img  src="{{ asset('assets/images/K1/sm/wheels/we22.png') }}" class="img-md" />
+        <img  src="{{ asset('assets/images/K1/sm/wheels/we22.png') }}" class="!w-[30vw]" />
         <div class="text-start">
             <h2 class="stroke title !text-white">What do you observe:</h2>
             <ol class="title stroke">

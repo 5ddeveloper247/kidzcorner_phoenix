@@ -7,7 +7,7 @@
     {{--  First Slide --}}
     <div class="board2 flex flex-col justify-center items-center slide1">
 
-        <h2 class=" text-[#c39c5a] stroke board-title">Coding and Robotics</h2>
+        <h2 class=" text-[#f7b94a] stroke board-title">Coding and Robotics</h2>
 
         <div class="grid grid-cols-4 justify-center items-center gap-[2vw]">
             <!-- Card 1-->

@@ -206,13 +206,13 @@
     {{-- slide 29 --}}
     <div class="slide flex flex-col items-center justify-start ">
         <img src="/assets/images/K1/sm/screw/s14.png" class="img-lg" />
-        <h2 class="title stroke">Let’s find out: How do we make an Archimedes’ screw? How does it work?</h2>
+        <h2 class="title text-start stroke">Let’s find out: How do we make an Archimedes’ screw? How does it work?</h2>
     </div>
 
     {{-- slide 30 --}}
     <div class="slide flex flex-col items-center justify-start ">
-        <h2 class="title stroke">Let’s do: Wrap the plastic tubing around a tube and fix it with tape.</h2>
-        <img src="/assets/images/K1/sm/screw/s15.png" class="img-lg" />
+        <h2 class="title text-start stroke">Let’s do: <br> Wrap the plastic tubing around a tube and fix it with tape.</h2>
+        <img src="/assets/images/K1/sm/screw/s15.png" class="!w-[42vw]" />
     </div>
 
     {{-- slide 31 --}}
@@ -223,13 +223,13 @@
 
     {{-- slide 32 --}}
     <div class="slide flex flex-col items-center justify-start ">
-        <h2 class="title stroke">Let’s do: Put some water in a large container and add food colouring.</h2>
-        <img src="/assets/images/K1/sm/screw/s17.png" class="img-lg" />
+        <h2 class="title text-start stroke">Let’s do: <br> Put some water in a large container and add food colouring.</h2>
+        <img src="/assets/images/K1/sm/screw/s17.png" class="!w-[42vw]" />
     </div>
 
     {{-- sldie 33 --}}
     <div class="slide flex flex-col items-center justify-start ">
-        <h2 class="title stroke">Let’s do: Place the screw in the coloured water as shown.</h2>
+        <h2 class="title text-start stroke">Let’s do: <br> Place the screw in the coloured water as shown.</h2>
         <img src="/assets/images/K1/sm/screw/s18.png" class="img-lg" />
     </div>
 
@@ -249,7 +249,7 @@
 
     {{-- sldie 35 --}}
     <div class="slide flex flex-col items-center justify-start ">
-        <h2 class="title stroke">Let’s do: <br>
+        <h2 class="title text-start stroke">Let’s do: <br>
             4. Take turns to turn your Archimedes’ screw.</h2>
         <video id="video4" class="pointer-events-none">
             <source src="{{ asset('assets/images/K1/sm/45.mp4') }}" type="video/mp4">
@@ -329,7 +329,7 @@
 
     {{-- slide 43 --}}
     <div class="slide flex flex-col items-center justify-start ">
-        <img src="/assets/images/K1/sm/screw/s20.png" class="img-md" />
+        <img src="/assets/images/K1/sm/screw/s20.png" class="!w-[35vw]" />
         <h2 class="title stroke">How do you think we can use this Archimedes’ screw in our school or home?</h2>
         <p class="note">Note: Have children freely share their ideas. Encourage them to try their ideas with the screw
             they have made.</p>

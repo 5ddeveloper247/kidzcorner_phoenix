@@ -270,7 +270,7 @@
             </ol>
         </div>
         <div class="flex items-center gap-[1vw]">
-            <img src="{{ asset('assets/images/K1/coding/sound/s24.png') }}" class="img-h-sm" />
+            <img src="{{ asset('assets/images/K1/coding/sound/s24.png') }}" class="img-h-sm !h-[9vw]" />
             <img src="{{ asset('assets/images/K1/coding/sound/s25.png') }}" class="img-sm" />
         </div>
         <p class="note text-center">Note: Remind children that the robot says ""Hi"" before moving forward. It says
@@ -278,17 +278,17 @@
     </div>
 
     {{-- Slide 26 --}}
-    <div class="slide hidden flex flex-col items-center justify-start">
+    <div class="slide hidden flex flex-col items-center justify-between h-[28vw]">
         <div class="text-start">
             <h2 class="title stroke">Steps:</h2>
             <ol class="lesson-ul list-decimal title stroke" start="2">
                 <li>Use Blockly to work out the programming steps and run the programme.</li>
             </ol>
         </div>
-        <div class="flex flex-col items-end">
+        <div class="flex flex-col items-end gap-y-[1vw]">
             <img src="{{ asset('assets/images/K1/coding/sound/s26.png') }}" class="img-xl" />
 
-            class="w-[10vw] h-[4vh] z-[99] bg-sky-500 !text-white flex justify-center items-center rounded-[1vw] p-[2vw] click-btn1 cursor-pointer">Answer</a>
+           <a class="w-[10vw] h-[4vh] text-[1vw] z-[99] bg-sky-500 !text-white flex justify-center items-center rounded-[1vw] p-[2vw] click-btn1 cursor-pointer">Answer</a>
         </div>
         <p class="note">Note: Remind children to use their layout of coding cards as guide to code.</p>
     </div>
@@ -358,7 +358,7 @@
         <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center flex flex-col justify-start items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>How does a robot move through this circuit? Number the steps.</p>
-            <img src="{{ asset('assets/images/K1/coding/sound/s28.png') }}" />
+            <img src="{{ asset('assets/images/K1/coding/sound/s28.png') }}" class="drawable-img" />
         </div>
     </div>
 

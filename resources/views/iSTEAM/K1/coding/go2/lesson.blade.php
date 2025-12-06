@@ -89,14 +89,14 @@
 
     {{-- Slide 10 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/coding/go/go28.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/coding/go/go28.png') }}" class="!w-[30vw]" />
         <h2 class="title stroke">How does the robot move through this L-shaped circuit?</h2>
         <p class="note">Note: Encourage children to share based on the clues provided (the arrows).</p>
     </div>
 
     {{-- Slide 11 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/coding/go/go28.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/coding/go/go28.png') }}" class="!w-[30vw]" />
         <h2 class="title stroke">It will move <span class="!text-white">forward</span> 50cm, <span class="!text-white">turn
                 left</span> and move <span class="!text-white">forward</span> another 50cm.
         </h2>

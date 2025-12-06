@@ -155,7 +155,7 @@
     <div class=" slide hidden flex flex-col items-center justify-center 4">
 
         <h2 class=" !text-white title stroke">Reflection</h2>
-        <img src="{{ asset('/assets/images/K1/sm/balloon/ballon5.png') }}" class="img-md" />
+        <img src="{{ asset('/assets/images/K1/sm/balloon/ballon5.png') }}" class="img-md img-md-secondary" />
         <h2 class="title stroke">Why does the first domino fall?</h2>
 
     </div>
@@ -179,7 +179,7 @@
 
     {{-- sldie 14 --}}
     <div class=" slide hidden flex flex-col items-center justify-center ">
-        <img src="{{ asset('/assets/images/K1/sm/balloon/ballon6.png') }}" class="img-md" />
+        <img src="{{ asset('/assets/images/K1/sm/balloon/ballon6.png') }}" class="img-md img-md-secondary" />
         <h2 class="title stroke">How do you make the dominoes
             always fall one after another?</h2>
     </div>

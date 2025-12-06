@@ -3,7 +3,7 @@
 
 @section('content')
 
-    <div id="topDiv" class="flex flex-col   items-center ">
+    <div id="topDiv" class="flex flex-col items-center ">
         <div class="indexTitle stroke">The Power of an Inclined Plane</div>
         <h2 class=" !text-white ">
             Explore the characteristics and uses of <br>

@@ -16,48 +16,48 @@
 
     {{-- Slide 2 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/cm/cm43.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/cm/cm43.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">What is this? <br>
             Is it made up of any simple machine?</h2>
     </div>
 
     {{-- Slide 3 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/cm/cm43.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/cm/cm43.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">A pair of scissors is made up of two levers and two wedges.
             Where are they? What do they do?</h2>
     </div>
 
     {{-- Slide 4 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/cm/gl1.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/cm/gl1.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">These are two levers. The fulcrum of both the levers are
             fixed at the same place, so they share the same fulcrum.</h2>
     </div>
 
     {{-- Slide 5 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/cm/gl1.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/cm/gl1.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">These levers allows us to move the two blades
             of the scissors easily.</h2>
     </div>
 
     {{-- Slide 6 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/cm/gl2.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/cm/gl2.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">The two blades are the wedges.
             Each blade has a thin sharp edge and a thick dull edge.</h2>
     </div>
 
     {{-- Slide 7 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/cm/gl2.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/cm/gl2.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">The two wedges allow us to separate something easily.</h2>
     </div>
 
     {{-- Slide 8 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/cm/cm43.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/cm/cm43.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">In fact, a pair of scissors is a compound machine.</h2>
     </div>
 
@@ -71,7 +71,7 @@
 
     {{-- Slide 10 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/cm/gl3.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/cm/gl3.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke"><span class="!text-white">Compound machines</span> are tools made up of two or more
             <span class="!text-white">simple machines</span>.
         </h2>
@@ -79,7 +79,7 @@
 
     {{-- Slide 11 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/cm/gl3.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/cm/gl3.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">As the <span class="!text-white">simple machines</span> are working together,
             a <span class="!text-white">compound machine</span> has more working parts
             that help us to do work more easily and quickly.</h2>
@@ -87,14 +87,14 @@
 
     {{-- Slide 12 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/cm/cm43.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/cm/cm43.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">Since a pair of scissors is a compound machine, how does it
             help us to do work more easily and quickly.</h2>
     </div>
 
     {{-- Slide 13 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <video id="video1" class="pointer-events-none">
+        <video id="video1" class="pointer-events-none !w-[43vw]">
             <source src="{{ asset('assets/images/K1/sm/15.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -115,42 +115,42 @@
 
     {{-- Slide 15 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/cm/cm45.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/cm/cm45.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">What is this? What simple machines does it have?
             How does it help us to do work more easily and quickly?</h2>
     </div>
 
     {{-- Slide 16 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/cm/cm45.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/cm/cm45.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">A stapler is a <span class="!text-white">compound machine</span> made up of
             a lever and a wedge.</h2>
     </div>
 
     {{-- Slide 17 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/cm/gl4.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/cm/gl4.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">The handle is a <span class="!text-white">lever</span> with its fulcrum fixed
             at one end of the handle.</h2>
     </div>
 
     {{-- Slide 18 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/cm/gl4.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/cm/gl4.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">This lever allows us to push down the handle
             of the stapler easily.</h2>
     </div>
 
     {{-- Slide 19 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/cm/gl5.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/cm/gl5.png') }}" class="!w-[30vw]" />
         <h2 class="title stroke">The staples in a stapler are wedges.
             The wedges allow us to pierce through papers easily.</h2>
     </div>
 
     {{-- Slide 20 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <video id="video2" class="pointer-events-none">
+        <video id="video2" class="pointer-events-none !w-[43vw]">
             <source src="{{ asset('assets/images/K1/sm/57.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -164,42 +164,42 @@
 
     {{-- Slide 21 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/cm/gl6.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/cm/gl6.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">What is this? What <span class="!text-white">simple machines</span> does it have?
             How does it help us to do work more easily and quickly?</h2>
     </div>
 
     {{-- Slide 22 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/cm/cm48.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/cm/cm48.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">An axe is a compound machine made up of a
             lever and a wedge.</h2>
     </div>
 
     {{-- Slide 23 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/cm/gl7.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/cm/gl7.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">The handle is a lever and the hand that holds the rod
             at one end is the fulcrum of this lever.</h2>
     </div>
 
     {{-- Slide 24 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/cm/gl7.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/cm/gl7.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">This lever allows us to move or swing the handle
             of an axe around easily.</h2>
     </div>
 
     {{-- Slide 25 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/cm/gl8.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/cm/gl8.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">The blade is a wedge.
             The wedge allows us to split the wood easily.</h2>
     </div>
 
     {{-- Slide 26 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <video id="video3" class="pointer-events-none">
+        <video id="video3" class="pointer-events-none !w-[43vw]">
             <source src="{{ asset('assets/images/K1/sm/13.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -213,49 +213,49 @@
 
     {{-- Slide 27 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/cm/gl9.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/cm/gl9.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">What is this? What <span class="!text-white">simple machines</span> does it have?
             How does it help us to do work more easily and quickly?</h2>
     </div>
 
     {{-- Slide 28 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/cm/cm50.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/cm/cm50.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">A pizza cutter is a compound machine made up of
             a lever, a wheel and axle and a wedge.</h2>
     </div>
 
     {{-- Slide 29 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/cm/gl10.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/cm/gl10.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">The handle is a lever with its fulcrum fixed at
             one end of the handle.</h2>
     </div>
 
     {{-- Slide 30 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/cm/gl10.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/cm/gl10.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">This lever allows us to move the handle
             of the pizza cutter easily.</h2>
     </div>
 
     {{-- Slide 31 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/cm/gl11.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/cm/gl11.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">The cutter is a wheel and axle. The wheel and axle
             allows us to turn the cutter easily.</h2>
     </div>
 
     {{-- Slide 32 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/cm/gl12.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/cm/gl12.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">The cutter blade is a wedge.
             This wedge allows us to cut pizza easily.</h2>
     </div>
 
     {{-- Slide 33 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <video id="video4" class="pointer-events-none">
+        <video id="video4" class="pointer-events-none !w-[43vw]">
             <source src="{{ asset('assets/images/K1/sm/76.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -269,63 +269,63 @@
 
     {{-- Slide 34 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/cm/cm52.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/cm/cm52.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">What is this? What <span class="!text-white">simple machines</span> does it have?
             How does it help us to do work more easily and quickly?</h2>
     </div>
 
     {{-- Slide 35 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/cm/cm52.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/cm/cm52.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">A wheelbarrow is a <span class="!text-white">compound machine</span> made up of some
             screws, two levers, a wheel and axle and an inclined plane.</h2>
     </div>
 
     {{-- Slide 36 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/cm/gl13.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/cm/gl13.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">The <span class="!text-white">screws</span> hold the different parts of a wheelbarrow
             together easily.</h2>
     </div>
 
     {{-- Slide 37 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/cm/gl14.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/cm/gl14.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">These are the two levers of a wheelbarrow.
             They are joined together with the same fulcrum.</h2>
     </div>
 
     {{-- Slide 38 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/cm/gl14.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/cm/gl14.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">These levers allow us to lift up the wheelbarrow
             with the two handles easily.</h2>
     </div>
 
     {{-- Slide 39 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/cm/gl15.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/cm/gl15.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">The fulcrum of the levers is the wheel and axle
             of the wheelbarrow.</h2>
     </div>
 
     {{-- Slide 40 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/cm/gl15.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/cm/gl15.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">The <span class="!text-white">wheel and axle</span> allows us to move the wheelbarrow
             around easily.</h2>
     </div>
 
     {{-- Slide 41 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/cm/gl16.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/cm/gl16.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">The slanted sides of the cart is the <span class="!text-white">inclined plane</span>
             of the wheelbarrow.</h2>
     </div>
 
     {{-- Slide 42 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/cm/gl16.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/cm/gl16.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">The <span class="!text-white">inclined plane</span> allows us to slide things out from
             the
             wheelbarrow easily when we tipped it ahead or on its sides.</h2>
@@ -333,7 +333,7 @@
 
     {{-- Slide 43 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <video id="video5" class="pointer-events-none">
+        <video id="video5" class="pointer-events-none !w-[37vw]">
             <source src="{{ asset('assets/images/K1/sm/61.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -347,14 +347,14 @@
 
     {{-- Slide 44 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/cm/cm54.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/cm/cm54.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">What is this? What <span class="!text-white">simple machines</span> does it have?
             How does it help us to do work more easily and quickly?</h2>
     </div>
 
     {{-- Slide 45 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/cm/cm54.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/cm/cm54.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">A bicycle is a compound machine made up of many screws,
             levers, wheels and axles and pulleys.</h2>
     </div>
@@ -368,7 +368,7 @@
 
     {{-- Slide 47 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/cm/gl17.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/cm/gl17.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">Three obvious levers of a bicycle are
             the handlebar, the brake and the cranks and pedals.</h2>
     </div>
@@ -396,7 +396,7 @@
 
     {{-- Slide 51 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/cm/gl18.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/cm/gl18.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">A bicycle is a <span class="!text-white">compound machine</span> made up of many <span
                 class="!text-white">screws</span>,
             <span class="!text-white">levers</span>, <span class="!text-white">wheels and axles</span> and <span
@@ -406,7 +406,7 @@
 
     {{-- Slide 52 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/cm/gl19.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/cm/gl19.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">These <span class="!text-white">wheels and axles</span> allow us to move around easily
             when we ride a bicycle.</h2>
     </div>
@@ -434,7 +434,7 @@
 
     {{-- Slide 56 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <video id="video6" class="pointer-events-none">
+        <video id="video6" class="pointer-events-none !w-[43vw]">
             <source src="{{ asset('assets/images/K1/sm/77.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -448,14 +448,14 @@
 
     {{-- Slide 57 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/cm/gl20.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/cm/gl20.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">What is this? What <span class="!text-white">simple machines</span> does it have?
             How does it help us to do work more easily and quickly?</h2>
     </div>
 
     {{-- Slide 58 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/cm/cm62.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/cm/cm62.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">A mobile crane is a compound machine made up of many
             screws, a pulley, a level and some wheels and axles.</h2>
     </div>
@@ -469,35 +469,35 @@
 
     {{-- Slide 60 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/cm/gl22.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/cm/gl22.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">The pulley of this mobile crane allows us
             to lift heavy things up easily.</h2>
     </div>
 
     {{-- Slide 61 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/cm/gl23.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/cm/gl23.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">This is the lever of this mobile crane
             and its fulcrum is fixed in the truck.</h2>
     </div>
 
     {{-- Slide 62 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/cm/gl23.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/cm/gl23.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">This lever allows us to move the pulley that tied to
             one end of it up, down and left, right easily.</h2>
     </div>
 
     {{-- Slide 63 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/cm/gl24.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/cm/gl24.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">The wheels and axles of the mobile crane allow us
             to move the crane around easily.</h2>
     </div>
 
     {{-- Slide 64 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <video id="video7" class="pointer-events-none">
+        <video id="video7" class="pointer-events-none !w-[43vw]">
             <source src="{{ asset('assets/images/K1/sm/78.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -511,56 +511,56 @@
 
     {{-- Slide 65 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/cm/cm66.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/cm/cm66.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">What is this? What simple machines does it have?
             How does it help us to do work more easily and quickly?</h2>
     </div>
 
     {{-- Slide 66 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/cm/cm66.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/cm/cm66.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">A car is a compound machine made up of many simple machines.
             There are so many that we cannot pick each of them out easily.</h2>
     </div>
 
     {{-- Slide 67 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/cm/cm66.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/cm/cm66.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">However, a car has all six simple machines
             which are used in different ways.</h2>
     </div>
 
     {{-- Slide 68 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/cm/gl25.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/cm/gl25.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">An obvious inclined plane of a car is the front glass window.
             This inclined plane allows rainwater to flow down easily.</h2>
     </div>
 
     {{-- Slide 69 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/cm/gl26.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/cm/gl26.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">The shape of the front part of a car is a <span class="!text-white">wedge</span>. This
             wedge allows the car cut through air and move forward easily.</h2>
     </div>
 
     {{-- Slide 70 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/cm/gl27.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/cm/gl27.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">Two obvious wheels and axles of a car are
             the wheels and the steering wheel.</h2>
     </div>
 
     {{-- Slide 71 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/cm/gl28.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/cm/gl28.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">These wheels and axles allow us to move around
             easily when we sit on a car.</h2>
     </div>
 
     {{-- Slide 72 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/cm/gl29.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/cm/gl29.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">This <span class="!text-white">wheels and axles</span> allow us to change direction
             easily when we drive the car.</h2>
     </div>
@@ -584,21 +584,21 @@
 
     {{-- Slide 75 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/cm/gl30.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/cm/gl30.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">Many car controls are levers.
             One example is the signal control.</h2>
     </div>
 
     {{-- Slide 76 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/cm/gl30.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/cm/gl30.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">This lever allows us to turn on the signal lights easily and
             warn other road users before making a turn.</h2>
     </div>
 
     {{-- Slide 77 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/cm/cm66.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/cm/cm66.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">As a compound machine, a car helps us to travel around
             safely, easily and quickly.</h2>
     </div>

@@ -337,7 +337,7 @@
 
     {{-- sldie 31 --}}
     <div class=" slide hidden flex flex-col items-center justify-center 0">
-        <video id="video2" class="w-full max-w-[42rem] pointer-events-none">
+        <video id="video2" class="pointer-events-none">
             <source src="{{ asset('assets/images/K1/sm/8.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>

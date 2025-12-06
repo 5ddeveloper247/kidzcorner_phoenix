@@ -47,7 +47,7 @@
 
     {{-- Slide 5 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/sm/pulley/pu4.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/sm/pulley/pu4.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">To lift a heavy object, a rope or chain is first wrapped around the wheel.</h2>
     </div>
 
@@ -246,7 +246,7 @@
     {{-- Slide 30 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
         <h2 class="title stroke">Is it easier to lift a heavy object using one pulley or two pulleys?</h2>
-        <img src="{{ asset('assets/images/K1/sm/pulley/pl7.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/sm/pulley/pl7.png') }}" class="!w-[30vw]" />
         <p class="note text-center">Note: Plot children's prediction on the graph. At the end, put a star to mark the final
             result.</p>
     </div>

@@ -793,3 +793,144 @@ span img {
         left: 16.7vw !important;
     }
 }
+
+@media  (min-width: 2600px) {
+    #ajax-section {
+        width: 70vw !important;
+        height: 40vw !important;
+    }
+    #topDiv {
+        display: flex !important;
+        align-items: center !important;
+        flex-direction: column !important;
+        justify-content: space-around;
+        height: 33vw !important;
+        width: 54vw;
+    }
+
+    .title,
+    .title span,
+    .slide h2,
+    .slide div h2 {
+        font-size: 2.3vw !important;
+        z-index: 100;
+        color: #f7b94a;
+        line-height: 100%;
+        /* width: 55vw; */
+    }
+
+    /* Videos */
+    video {
+        min-width: 45.3vw;
+        max-height: 32vw;
+    }
+    .video-md {
+        min-width: 34vw !important;
+    }
+    .video-sm {
+        min-width: 25vw !important;
+    }
+
+    .video-xs {
+        min-width: 20vw !important;
+    }
+
+    /* Images  */
+    .img-tiny {
+        min-width: 12vw;
+    }
+
+    .img-xs {
+        min-width: 22vw;
+    }
+
+    .img-sm {
+        min-width: 23vw;
+    }
+
+    .img-normal-md {
+        min-width: 28vw !important;
+    }
+    .img-md {
+        min-width: 40vw !important;
+    }
+    .img-md-secondary {
+        min-width: 45vw !important;
+    }
+
+    .img-lg {
+        min-width: 45vw !important;
+    }
+
+    .img-xl {
+        min-width: 52vw !important;
+    }
+
+    .img-full {
+        min-width: 68vw;
+    }
+
+    /* === HEIGHT LIMITERS === */
+    .img-h-xs {
+        height: 14vw;
+    }
+
+    .img-h-sm {
+        height: 15vw !important;
+    }
+
+    .img-h-md {
+        height: 28vw;
+    }
+
+    .img-h-lg {
+        height: 35vw;
+    }
+
+    .img-h-full {
+        height: 40vw;
+    }
+    
+    .drawable-img{
+        width: 100% !important;
+    }
+
+    /* === ASPECT RATIO === */
+
+    .img-square {
+        aspect-ratio: 1 / 1;
+        object-fit: contain;
+    }
+
+    .img-landscape {
+        aspect-ratio: 16 / 9;
+        object-fit: contain;
+    }
+
+    .img-wide {
+        aspect-ratio: 21 / 9;
+        object-fit: contain;
+    }
+
+    .img-portrait {
+        aspect-ratio: 3 / 4;
+        object-fit: contain;
+    }
+
+    /* === SPECIAL CASES === */
+
+    .img-dual {
+        width: 35vw;
+        height: 32vw;
+    }
+
+    .img-triple {
+        width: 23vw;
+        height: 28vw;
+    }
+
+    .img-teacher {
+        width: 20vw;
+        height: 22vw;
+    }
+}

@@ -51,7 +51,7 @@
 
     {{-- Slide 5 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/coding/cd/cd5.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/coding/cd/cd5.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">A programme is a set of step-by-step instructions that tell a machine what to do and how to do it, somewhat like a recipe.</h2>
     </div>
 
@@ -84,7 +84,7 @@
 
     {{-- Slide 10 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/coding/cd/cd8.png') }}" class="img-sm" />
+        <img src="{{ asset('assets/images/K1/coding/cd/cd8.png') }}" class="img-md" />
         <h2 class="title stroke">This is a robot. A robot is a machine.</h2>
         <p class="note">Note: Display a robot. Have children talk about its physical look.</p>
     </div>

@@ -475,7 +475,7 @@
 
     {{-- slide 41 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="/assets/images/K1/sm/levers/le25.png" class="img-md" />
+        <img src="/assets/images/K1/sm/levers/le25.png" class="!w-[30vw]" />
         <h2 class="title stroke">What is this? Where is the lever and its fulcrum?
             What does the lever do? </h2>
     </div>
@@ -483,7 +483,7 @@
     {{-- slide 42 --}}
     <div class="slide flex flex-col items-center justify-center  ">
 
-        <img src="/assets/images/K1/sm/levers/le25.png" class="img-md" />
+        <img src="/assets/images/K1/sm/levers/le25.png" class="!w-[30vw]" />
 
         <h2 class="title stroke">What is this? Where is the lever and its fulcrum?
             What does the lever do? </h2>
@@ -493,7 +493,7 @@
     {{-- slide 43 --}}
     <div class="slide flex flex-col items-center justify-center  ">
 
-        <img src="/assets/images/K1/sm/levers/le26.png" class="img-md" />
+        <img src="/assets/images/K1/sm/levers/le26.png" class="!w-[30vw]" />
 
         <h2 class="title stroke">A clothes peg is made up of two <span class="!text-white">levers</span>. </h2>
 
@@ -501,7 +501,7 @@
 
     {{-- slide 44 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="/assets/images/K1/sm/levers/pl7.png" class="img-md" />
+        <img src="/assets/images/K1/sm/levers/pl7.png" class="!w-[30vw]" />
         <h2 class="title stroke">The fulcrum of the two levers are fixed at the same place,
             so they share the same fulcrum. </h2>
     </div>
@@ -707,7 +707,7 @@
         <h2 class="text-[#f7b94a] text-[2vw] stroke">How will you get the longest toss of an eraser?
             When the fulcrum is placed near to or far from eraser?</h2>
 
-        <img src="/assets/images/K1/sm/levers/le42.png" class="img-md" />
+        <img src="/assets/images/K1/sm/levers/le42.png" class="!w-[35vw]" />
 
 
 

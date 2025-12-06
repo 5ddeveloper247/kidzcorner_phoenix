@@ -8,7 +8,7 @@
 @section('content')
 
     <div id="topDiv" class="flex flex-col   items-center ">
-        <div class="  text-[#F7B94A] text-[50px] stroke">What is Coding?</div>
+        <div class="  text-[#F7B94A] stroke">What is Coding?</div>
         <h2 class=" !text-white stroke ">Explore and learn about basic coding;
             learn how to handle a robot and a tablet with care</h2>
 

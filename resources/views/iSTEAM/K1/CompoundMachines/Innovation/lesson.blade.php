@@ -153,7 +153,7 @@
         <h2 class="title stroke">Compound Machine</h2>
         <p class="text-[1.5vw] text-white text-center">A compound machine is a machine that
             consists of more than one simple machine, A bicycle is a compound machine.</p>
-        <img src="{{ asset('assets/images/K1/cm/cm54.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/cm/cm54.png') }}" class="!w-[35vw]" />
     </div>
 
     {{-- Slide 14 --}}

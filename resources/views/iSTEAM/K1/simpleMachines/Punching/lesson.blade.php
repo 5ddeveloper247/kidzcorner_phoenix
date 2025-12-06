@@ -131,13 +131,13 @@
 
     {{-- Slide 13 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
-        <img src="{{ asset('assets/images/K1/sm/punching/pn6.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/sm/punching/pn6.png') }}" class="!w-[30vw]" />
         <h2 class="title stroke">This is a <span class="!text-white">nut and bolt</span>. It has a spiral groove on it called thread.</h2>
     </div>
 
     {{-- Slide 14 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
-        <img src="{{ asset('assets/images/K1/sm/punching/pn7.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/sm/punching/pn7.png') }}" class="!w-[30vw]" />
         <h2 class="title stroke">A nut and bolt is an example of a <span class="!text-white">simple machine</span> called <span class="!text-white">screw</span>.</h2>
     </div>
 

@@ -28,7 +28,7 @@
 
     {{-- Slide3 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/coding/cd/cd5.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/coding/cd/cd5.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">A programme is a set of step-by-step instructions that tell a
             machine what to do and how to do it, somewhat like a recipe.</h2>
     </div>
@@ -299,7 +299,7 @@
                 </ol>
             </div>
         </div>
-        <img src="{{ asset('assets/images/K1/coding/go/go22.png') }}" class="img-sm" />
+        <img src="{{ asset('assets/images/K1/coding/go/go22.png') }}" class="!w-[30vw]" />
         <p class="note">Note: Select Drive > place programming block of Forward > turn on the programme so that the
             robot moves accordingly; <a href="" class="text-[#F7B94A] click-btn1">click here</a> for visual guide.
         </p>
@@ -344,7 +344,7 @@
                 </ol>
             </div>
         </div>
-        <img src="{{ asset('assets/images/K1/coding/go/go23.png') }}" class="img-sm" />
+        <img src="{{ asset('assets/images/K1/coding/go/go23.png') }}" class="!w-[30vw]" />
         <p class="note">Note: Select Drive>place programming block of Forward>select Forward>change distance to 90cm>turn
             on the programme so that the robot moves accordingly; <a href=""
                 class="text-[#F7B94A] click-btn2">click here</a>
