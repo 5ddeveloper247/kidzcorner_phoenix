@@ -7,7 +7,7 @@
 
 
     {{-- Slide 1 --}}
-    <div class="flex flex-col items-center justify-between h-[50vh] slide hidden">
+    <div class="flex flex-col items-center justify-between h-[20vw] self-end slide hidden">
         <h2 class="stroke title">Children, do you still remember what<span class="!text-white"> living things<br /></span>are?
             What can a<span class="!text-white"> living thing</span> do?</h2>
         <p class="note">Note: Encourage children to share their answers.</p>
@@ -21,23 +21,23 @@
             <div class="flex justify-between gap-x-[5rem] items-center">
                 <ul class="!text-white">
                     <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}"
-                            class="!max-w-[2.5vw]" />
+                            class="!w-[2.5vw]" />
                         <p> Move on their own</p>
                     </li>
                     <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}"
-                            class="!max-w-[2.5vw]" />
+                            class="!w-[2.5vw]" />
                         <p> Drink</p>
                     </li>
                     <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}"
-                            class="!max-w-[2.5vw]" />
+                            class="!w-[2.5vw]" />
                         <p>Eat</p>
                     </li>
                     <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}"
-                            class="!max-w-[2.5vw]" />
+                            class="!w-[2.5vw]" />
                         <p> Breath (need air)</p>
                     </li>
                     <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}"
-                            class="!max-w-[2.5vw]" />
+                            class="!w-[2.5vw]" />
                         <p> Grow (get bigger)</p>
                     </li>
                 </ul>
@@ -62,9 +62,9 @@
     <div class="flex flex-col  slide hidden">
         <h2 class="title stroke !text-white">Class Activity 1</h2>
         <div class="flex items-center justify-center gap-[1vw]">
-            <img src="{{ asset('assets/images/N2/LivingThings/lt1.png') }}" class="img-xs" />
-            <img src="{{ asset('assets/images/N2/LivingThings/lt2.png') }}" class="img-xs" />
-            <img src="{{ asset('assets/images/N2/LivingThings/lt3.png') }}" class="img-xs" />
+            <img src="{{ asset('assets/images/N2/LivingThings/lt1.png') }}" class="!w-[17vw]" />
+            <img src="{{ asset('assets/images/N2/LivingThings/lt2.png') }}" class="!w-[17vw]" />
+            <img src="{{ asset('assets/images/N2/LivingThings/lt3.png') }}" class="!w-[17vw]" />
         </div>
         <h2 class="title stroke text-start">Let’s find out: <br>
             Are plants living things?</h2>
@@ -132,7 +132,7 @@
                     <tr>
                         <td class="border border-black text-[.8vw] p-[.6vw]">Do they move on their own?</td>
                         <td class="border border-black"> <button class="group info-btn1">
-                                <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="!max-w-[2.5vw]" />
+                                <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="!w-[2.5vw]" />
                             </button> </td>
                     </tr>
                     </tbody>
@@ -233,7 +233,7 @@
                         <td class="p-[.6vw] text-[.8vw]">Do they drink?</td>
                         <td class="border-l border-black" rowspan="3">
                             <button class="group info-btn2">
-                                <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="!max-w-[2.5vw]" />
+                                <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="!w-[2.5vw]" />
                             </button>
                         </td>
                     </tr>
@@ -354,7 +354,7 @@
                         <td class="border border-black p-[.6vw] text-[.8vw] w-1/2">Do they grow (get bigger)?</td>
                         <td class="border border-black p-[.6vw] text-[.8vw] w-1/2">
                             <button class="group info-btn3">
-                                <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="!max-w-[2.5vw]" />
+                                <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="!w-[2.5vw]" />
                             </button>
                         </td>
                     </tr>
@@ -428,9 +428,9 @@
         <h2 class="title stroke !text-start">What do you learn: <br>
             Are plants are living things?</h2>
         <div class="flex items-center justify-center gap-[.5vw] ">
-            <img src="{{ asset('assets/images/N2/LivingThings/lt1.png') }}" class="img-xs" />
-            <img src="{{ asset('assets/images/N2/LivingThings/lt2.png') }}" class="img-xs" />
-            <img src="{{ asset('assets/images/N2/LivingThings/lt3.png') }}" class="img-xs" />
+            <img src="{{ asset('assets/images/N2/LivingThings/lt1.png') }}" class="!w-[17vw]" />
+            <img src="{{ asset('assets/images/N2/LivingThings/lt2.png') }}" class="!w-[17vw]" />
+            <img src="{{ asset('assets/images/N2/LivingThings/lt3.png') }}" class="!w-[17vw]" />
         </div>
     </div>
 
@@ -442,23 +442,23 @@
         <div class="flex justify-between items-center">
             <ul class="!text-white text-start text-[1.6vw]">
                 <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}"
-                        class="!max-w-[2.5vw]" />
+                        class="!w-[2.5vw]" />
                     <p> Move on their own</p>
                 </li>
                 <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}"
-                        class="!max-w-[2.5vw]" />
+                        class="!w-[2.5vw]" />
                     <p> Drink</p>
                 </li>
                 <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}"
-                        class="!max-w-[2.5vw]" />
+                        class="!w-[2.5vw]" />
                     <p>Eat</p>
                 </li>
                 <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}"
-                        class="!max-w-[2.5vw]" />
+                        class="!w-[2.5vw]" />
                     <p> Breath (need air)</p>
                 </li>
                 <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}"
-                        class="!max-w-[2.5vw]" />
+                        class="!w-[2.5vw]" />
                     <p> Grow (get bigger)</p>
                 </li>
             </ul>
@@ -573,7 +573,7 @@
 
 
     {{-- slide 33 --}}
-    <div class="flex flex-col  slide hidden items-center justify-between h-[30vh]">
+    <div class="flex flex-col  slide hidden items-center justify-between h-[24vw] self-end">
         <h2 class="title stroke">What happens to plant A and B after 1 week?
             What do you find out from the test?</h2>
         <p class="note">Note: Encourage children to compare and analyze the results.

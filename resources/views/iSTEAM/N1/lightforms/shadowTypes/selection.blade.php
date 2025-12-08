@@ -7,7 +7,7 @@
 
     <div class="Selection flex items-center flex-col relative justify-center text-center z-[99] w-full">
         <h2 class="stroke">Different Types of Shadows</h2>
-        <div class="flex items-center justify-between gap-[15rem]">
+        <div class="flex items-center justify-around w-full">
 
             {{-- Lesson Button --}}
             <a href="{{ route('typesLesson') }}" id="Lesson" class="flex flex-col gap-0">

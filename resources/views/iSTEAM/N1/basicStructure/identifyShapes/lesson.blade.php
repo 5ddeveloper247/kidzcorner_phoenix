@@ -96,7 +96,7 @@
     <div class="flex flex-col justify-center  slide hidden">
         <div class="flex flex-col items-center justify-center">
             <h2 class="title !text-white stroke">Class Activity 1</h2>
-            <img src="{{ asset('assets/images/pptimages/s18.png') }}" class="img-md"  />
+            <img src="{{ asset('assets/images/pptimages/s18.png') }}" class="!w-[35vw]"  />
         </div>
         <div class="flex items-start">
             <h2 class="title stroke text-start"><span class="!text-white">Let's do:</span><br> Compare and sort out the
@@ -106,7 +106,7 @@
     </div>
 
     {{-- slide 12 --}}
-    <div class="flex flex-col  slide hidden h-[50vh] justify-between">
+    <div class="flex flex-col  slide hidden h-[50vh] items-center justify-between">
         <div class="title stroke text-start">
             <h2 class="!text-white">Let's do:</h2>
             <ul class="list-decimal   ">
@@ -152,20 +152,20 @@
         <h2 class="title stroke">These <span class="!text-white">shapes</span> are formed by putting <span
                 class="text-white">curve</span> and
             straight <span class="!text-white">lines</span> together.</h2>
-        <img src="{{ asset('assets/images/pptimages/s8.png') }}" class="img-md"  />
+        <img src="{{ asset('assets/images/pptimages/s8.png') }}" class="!w-[30vw]"  />
     </div>
 
     {{-- slide 18 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
         <h2 class="title stroke">A semi-circle is half a <span class="!text-white">circle</span>. It is formed
             using a <span class="!text-white">curve</span> and a straight <span class="!text-white">line</span>.</h2>
-        <img src="{{ asset('assets/images/pptimages/s13.png') }}" class="img-md img-normal-md"  />
+        <img src="{{ asset('assets/images/pptimages/s13.png') }}" class="!w-[30vw]"  />
     </div>
 
     {{-- slide 19 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
         <h2 class="title stroke">This is a quadrant. It is half semi-circle..</h2>
-        <img src="{{ asset('assets/images/pptimages/s12.png') }}" class="img-md"  />
+        <img src="{{ asset('assets/images/pptimages/s12.png') }}" class="!w-[30vw]"  />
         <p class="note">Note: Teacher to use the tiles to show children when two quadrants are put together
             it forms a semi circle.</p>
     </div>
@@ -174,12 +174,12 @@
     <div class="flex flex-col items-center justify-center  slide hidden">
         <h2 class="title stroke">This <span class="!text-white">shape</span> is called a pie shape as it looks
             like a piece of a pie.</h2>
-        <img src="{{ asset('assets/images/pptimages/s11.png') }}" class="img-md img-normal-md"  />
+        <img src="{{ asset('assets/images/pptimages/s11.png') }}" class="!w-[30vw]"  />
     </div>
 
 
     {{-- slide 21 --}}
-    <div class="flex flex-col items-center justify-center  slide hidden">
+    <div class="flex flex-col items-center justify-between h-[30vw] slide hidden">
         <h2 class="title stroke">Look at these shapes, do they look like bridges?</h2>
         <img src="{{ asset('assets/images/pptimages/s9.png') }}" class="img-xl"  />
         <p class="note">Note: Point out to the children that it has no straight lines.</p>
@@ -196,10 +196,10 @@
 
 
     {{-- slide 23 --}}
-    <div class="flex flex-col justify-center  slide hidden">
+    <div class="flex flex-col justify-between h-[30vw] slide hidden">
         <div class="flex flex-col items-center justify-center">
             <h2 class="title stroke !text-white ">Class Activity 2</h2>
-            <img src="{{ asset('assets/images/pptimages/s8.png') }}" class="img-md img-normal-md"  />
+            <img src="{{ asset('assets/images/pptimages/s8.png') }}" class="!w-[30vw]"  />
         </div>
         <div class="text-start">
             <h2 class="title stroke text-start"><span class="!text-white">Let's do:</span><br> Match the shapes.
@@ -208,7 +208,7 @@
     </div>
 
     {{-- slide  --}}
-    <div class="flex flex-col justify-between h-[50vh]  slide hidden">
+    <div class="flex flex-col justify-between h-[50vh] items-center slide hidden">
         <div class="title stroke text-start">
             <h2 class="!text-white">Let's do:</h2>
             <ol class="list-decimal">
@@ -227,8 +227,8 @@
             and <span class="!text-white">curve lines</span>. There are many different
             types of <span class="!text-white">shapes</span>.</h2>
         <div class="flex gap-[2vw]">
-            <img src="{{ asset('assets/images/pptimages/s17.png') }}" class="img-normal-md" />
-            <img src="{{ asset('assets/images/pptimages/s18.png') }}" class="img-normal-md" />
+            <img src="{{ asset('assets/images/pptimages/s17.png') }}" class="!w-[25vw]" />
+            <img src="{{ asset('assets/images/pptimages/s18.png') }}" class="!w-[25vw]" />
 
         </div>
     </div>

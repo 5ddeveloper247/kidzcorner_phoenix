@@ -30,7 +30,7 @@
 
 
     {{-- slide 4 --}}
-    <div class="slide flex flex-col items-center justify-between h-[50vh] ">
+    <div class="slide flex flex-col items-center justify-between h-[30vw] ">
         <h2 class="!text-white title stroke">Hands-on Time 1</h2>
 
         <h2 class="title stroke text-start">Mission: <br>
@@ -141,7 +141,7 @@
             goes down.</h2>
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
-            <img src="/assets/images/pptimages/video.png" class="img-lg" />
+            <img src="/assets/images/pptimages/video.png" />
         </div>
 
     </div>
@@ -204,7 +204,7 @@
         <h2 class="stroke title">This lever lets us easily lift each other up and down a seesaw during play.</h2>
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
-            <img src="/assets/images/pptimages/video.png" class="img-lg" />
+            <img src="/assets/images/pptimages/video.png" />
         </div>
     </div>
 
@@ -253,9 +253,9 @@
 
     {{-- slide 29 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <div class="flex items-center gap-3">
-            <img src="{{ asset('assets/images/N2/SimpleMachines/s16.png') }}" class="img-normal-md" />
-            <img src="{{ asset('assets/images/N2/SimpleMachines/s17.png') }}" class="img-normal-md" />
+        <div class="flex items-center gap-[1vw]">
+            <img src="{{ asset('assets/images/N2/SimpleMachines/s16.png') }}" class="!w-[28vw]" />
+            <img src="{{ asset('assets/images/N2/SimpleMachines/s17.png') }}" class="!w-[28vw]" />
         </div>
         <h2 class="stroke title">Based on these, you know that the red car is the lightest and the green car is the
             heaviest amongst the three cars!</h2>
@@ -264,7 +264,7 @@
 
 
     {{-- slide 30 --}}
-    <div class="flex flex-col h-[50vh] justify-between  slide hidden items-center">
+    <div class="flex flex-col h-[30vw] justify-between  slide hidden items-center">
 
         <h2 class="title stroke !text-white">Hands-on Time 2</h2>
         <div class="text-start">
@@ -356,7 +356,7 @@
     </div>
 
     {{-- slide 37 --}}
-    <div class="flex flex-col items-center justify-between h-[50vh] slide hidden">
+    <div class="flex flex-col items-center self-end justify-between h-[20vw] slide hidden">
         <h2 class="title stroke">Based on the game,do you always balance a seesaw by putting the square bricks at the same
             part of an end of the seesaw?</h2>
         <p class="note">Note: Encourage children to share their hands-on experiences and views.</p>
@@ -366,7 +366,7 @@
     {{-- slide 38 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <img src="{{ asset('assets/images/N2/SimpleMachines/s22.png') }}" class="img-lg" />
-        <h2 class="stroke title">You can balance a seesaw when you put two things<br />of the same <span
+        <h2 class="stroke title">You can balance a seesaw when you put two things of the same <span
                 class="text-white">weight</span> on one end of the seesaw.</h2>
     </div>
 

@@ -29,7 +29,8 @@
     {{-- Slide3 --}}
     <div class="slide hidden flex flex-col items-center justify-center ">
         <h2 class="title stroke">
-            The <span class="text-5xl !text-white">Sun</span> is so <span class="text-5xl !text-white">Bright !</span> </br>It
+            The <span class="text-5xl !text-white">Sun</span> is so <span class="text-5xl !text-white">Bright !</span>
+            </br>It
             gives <span class="text-5xl !text-white">light</span> during the day! </h2>
         <img src="{{ asset('assets/images/pptimages/light1.png') }}" alt="Light Example" class="img-md" />
     </div>
@@ -53,7 +54,7 @@
             twinkle little stars.</p>
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[100] -translate-y-1/2 video-btn">
-            <img src="{{ asset('assets/images/pptimages/video.png') }}" class="img-md" />
+            <img src="{{ asset('assets/images/pptimages/video.png') }}" />
         </div>
     </div>
 
@@ -107,7 +108,7 @@
         <h2 class="text-cente title stroke">The <span class="!text-white ">sun</span>,
             <span class="!text-white ">stars</span> and <span class="!text-white ">fire</span> are <span
                 class="text-white">natural</span> sources of
-            <span class="!text-white ">light</span>.  <span class="!text-white ">Light</span> help us to see things
+            <span class="!text-white ">light</span>. <span class="!text-white ">Light</span> help us to see things
             around us.
         </h2>
         <img src="{{ asset('assets/images/pptimages/three1.png') }}" class="img-xl" />
@@ -146,9 +147,9 @@
 
 
     {{-- slide 14 --}}
-    <div class="slide hidden  flex flex-col items-center">
-        <h2 class="text-center  !text-white stroke">Let's do:</h2>
-        <div class=" mb-20">
+    <div class="slide hidden  flex flex-col items-center justify-between h-[30vw]">
+        <div class=" text-start">
+            <h2 class="!text-white stroke">Let's do:</h2>
             <ol class="title lesson-ul list-decimal space-y-2 text-start stroke">
                 <li>
                     Explore the items provided. Which item lights up?
@@ -199,7 +200,7 @@
 
     {{-- slide 18 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/pptimages/gl3.png') }}" class="!max-w-[40vw] " />
+        <img src="{{ asset('assets/images/pptimages/gl3.png') }}" class="!w-[40vw] " />
         <h2 class="text-cente title stroke">The flashlight, streetlights, table lamps are <span class="!text-white">
                 man-made lights</span>. </h2>
         <h2 class="text-wrap title stroke">These items need batteries or electricity to give light.</h2>
@@ -209,7 +210,7 @@
     {{-- slide 19 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
         <h2 class="title !text-white stroke">CLASS ACTIVITY 2</h2>
-        <img src="{{ asset('assets/images/pptimages/dedective.png') }}" class="h-img" />
+        <img src="{{ asset('assets/images/pptimages/dedective.png') }}" class="img-h-md " />
         <h2 class="text-cente title stroke"> What kind of lights are there around us?</h2>
         <p class="note">Note: Teacher to prepare camera to capture children looking for different
             light sources.</p>
@@ -248,7 +249,7 @@
 
     {{-- sldie 22 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/pptimages/gl3.png') }}" class="!max-w-[40vw] " />
+        <img src="{{ asset('assets/images/pptimages/gl3.png') }}" class="!w-[40vw] " />
 
         <h2 class="text-center title stroke ">The flashlight, streetlights, table lamps are <span class="!text-white">
                 man-made lights</span>.</h2>

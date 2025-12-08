@@ -31,7 +31,7 @@
     <div class="slide hidden flex flex-col items-center justify-center">
         <h2 class="stroke title">The man, the poles, the trees have <span class="!text-white">shadows</span>!</h2>
 
-        <img src="{{ asset('assets/images/pptimages/sh.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/pptimages/sh.png') }}" class="!min-w-[55vw]" />
 
         <p class="note">Note: Teacher to point out the shadows of each item to the children.</p>
     </div>
@@ -82,7 +82,7 @@
     </div>
 
     <!-- Slide 8 -->
-    <div class="slide hidden flex flex-col items-center justify-between  ">
+    <div class="slide hidden flex flex-col items-center justify-between h-[30vw]">
         <div class="title stroke text-start">
             <h2 class="title stroke ">Let's do:</h2>
             <ol class="list-decimal lesson-ul" start="1">
@@ -111,7 +111,7 @@
     </div>
 
     <!-- Slide 10 -->
-    <div class="slide hidden flex flex-col items-center justify-center  text-center">
+    <div class="slide hidden flex flex-col items-center justify-between h-[30vw]  text-center">
         <div class="title stroke text-start">
             <h2 class="!text-white title stroke">Let's do:</h2>
             <ol class="list-decimal lesson-ul" start="6">
@@ -136,7 +136,7 @@
     </div>
 
     <!-- Slide 12 -->
-    <div class="slide hidden flex flex-col items-center justify-center  text-center">
+    <div class="slide hidden flex flex-col items-center justify-between h-[30vw]  text-center">
         <div class="title stroke text-start">
             <h2 class="!text-white title stroke">Let's do:</h2>
             <ol class="list-decimal lesson-ul" start="8">
@@ -149,7 +149,7 @@
     </div>
 
     <!-- Slide 13 -->
-    <div class="slide hidden flex flex-col items-center justify-center  text-center">
+    <div class="slide hidden flex flex-col items-center justify-between h-[30vw]  text-center">
         <div class="title stroke text-start">
             <h2 class="title !text-white stroke">Let's do:</h2>
             <ol class="list-decimal lesson-ul" start="9">
@@ -162,7 +162,7 @@
     </div>
 
     <!-- Slide 14 -->
-    <div class="slide hidden flex flex-col items-center justify-center  text-center">
+    <div class="slide hidden flex flex-col items-center justify-between h-[30vw]  text-center">
         <div class="title stroke text-start">
             <h2 class="title !text-white stroke">Let's do:</h2>
             <ol class="list-decimal lesson-ul" start="10">
@@ -175,7 +175,7 @@
     </div>
 
     <!-- Slide 15 -->
-    <div class="slide hidden flex flex-col items-center justify-center">
+    <div class="slide hidden flex flex-col items-center justify-between h-[30vw]">
         <h2 class="justify-start text-center title stroke">
             Look at these pictures. <br />
             How are the <span class="!text-white">shadows</span> different?
@@ -216,7 +216,7 @@
     </div>
 
     <!-- Slide 19 -->
-    <div class="slide hidden flex flex-col items-center justify-between h-[45vh] ">
+    <div class="slide hidden flex flex-col items-center justify-between h-[30vw] ">
         <div class="text-start title stroke">
             <h2 class="title stroke text-start ">Let's do: </h2>
             <ol class="list-decimal lesson-ul" start="1">
@@ -230,7 +230,7 @@
     </div>
 
     <!-- Slide 20 -->
-    <div class="slide hidden flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-between h-[30vw]">
         <div class="text-start title stroke">
             <h2 class="title stroke text-start ">Let's do:</h2>
             <ol class="list-decimal lesson-ul" start="3">
@@ -244,7 +244,7 @@
     </div>
 
     <!-- Slide 21 -->
-    <div class="slide hidden flex flex-col items-center justify-center  text-star">
+    <div class="slide hidden flex flex-col items-center justify-between h-[30vw]">
         <div class="text-start title stroke">
             <h2 class="stroke title">Let's do:</h2>
             <ol class="list-decimal lesson-ul" start="4">
@@ -281,13 +281,13 @@
                 <li>Share how to make a shadow smaller/bigger.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/pptimages/shadow8.png') }}"  />
+        <img src="{{ asset('assets/images/pptimages/shadow8.png') }}" class="!w-[35vw]" />
 
         <p class="note ">Note: Assist the children to gather conclusion.</p>
     </div>
 
     <!-- Slide 24 -->
-    <div class="slide hidden flex  flex-col items-center justify-center ">
+    <div class="slide hidden flex  flex-col items-center justify-between h-[30vw] ">
         <div class="text-start">
             <h2 class="stroke title">
                 Suggested Guiding Question:</h2>

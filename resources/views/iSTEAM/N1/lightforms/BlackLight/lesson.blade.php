@@ -10,7 +10,7 @@
     {{-- slide 0 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="title stroke">Do you remember these <span class="!text-white">glow-in-the-dark</span> toys?</h2>
-        <img src="{{ asset('assets/images/pptimages/dark1.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/pptimages/dark1.png') }}" class="!w-[35vw]" />
         <p class="note">Note: Encourage children to share their answers.</p>
     </div>
 
@@ -20,7 +20,7 @@
             <h2 class="title stroke">These toys <span class="!text-white">store light energy</span> and <span
                     class="text-white">glow</span> when
                 they are in a <span class="!text-white">dark</span> palce.</h2>
-            <img src="{{ asset('assets/images/pptimages/dark2.png') }}" class="img-md" />
+            <img src="{{ asset('assets/images/pptimages/dark2.png') }}" class="!w-[35vw]" />
         </div>
         <p class="note">Note: Encourage children to recap what they did previously.</p>
     </div>
@@ -30,21 +30,21 @@
         <h2 class="title stroke">Look at these items, they are <span class="!text-white">bright</span> in
             colours. Do they look like they are <span class="!text-white">glowing</span>?</h2>
 
-        <img src="{{ asset('assets/images/pptimages/bl1.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/pptimages/bl1.png') }}" class="!w-[35vw]" />
     </div>
 
     {{-- slide 3 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="title stroke">These <span class="!text-white">bright</span> colours are known as <span
                 class="text-white">neon</span> colours.</h2>
-        <img src="{{ asset('assets/images/pptimages/bl1.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/pptimages/bl1.png') }}" class="!w-[35vw]" />
     </div>
 
     {{-- slide 4 --}}
     <div class="flex flex-col justify-center slide hidden !gap-[1vw]">
         <div class="flex flex-col items-center justify-center">
             <h2 class="title !text-white stroke">CLASS ACTIVITY 1</h2>
-            <img src="{{ asset('assets/images/pptimages/bl1.png') }}" class="img-sm" />
+            <img src="{{ asset('assets/images/pptimages/bl1.png') }}" class="!w-[30vw]" />
         </div>
         <div class="flex flex-col items-start">
             <h2 class="title stroke text-start"><span class="!text-white">Let's try:</span><br> Will the neon coloured items

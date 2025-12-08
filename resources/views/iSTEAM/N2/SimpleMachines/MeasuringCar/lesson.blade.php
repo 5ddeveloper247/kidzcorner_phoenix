@@ -6,7 +6,7 @@
     <h2 class="top-title stroke">A Measuring Car (1)</h2>
 
     {{-- Slide 1 --}}
-    <div class="flex flex-col items-center h-[50vh] justify-between slide hidden">
+    <div class="flex flex-col items-center h-[30vw] justify-between slide hidden">
         <h2 class="stroke title !text-white ">Hands-on Time 1</h2>
         <h2 class="stroke title text-start">Mission: <br>
             Let’s follow the instructions to build a measuring carand then play with it.</h2>
@@ -33,7 +33,7 @@
                 <li>Build a measuring car.</li>
             </ol>
         </div>
-        <img src="{{ asset('/assets/images/N2/SimpleMachines/b2.png') }}" class="img-normal-md" />
+        <img src="{{ asset('/assets/images/N2/SimpleMachines/b2.png') }}" class="!w-[30vw]" />
 
         <p class="note z-[99]">Note: Have each group of children work together to complete the mission. <a
                 class="click-btn1">Click <span class="text-[#F7B94A]">Here</span></a> for the guide.</p>
@@ -42,14 +42,14 @@
 
 
     {{-- slide 4 --}}
-    <div class="flex flex-col click1 items-center justify-center slide hidden">
+    <div class="flex flex-col click1 items-center justify-between h-[33vw] slide hidden">
         <h2 class="title stroke">How to build a measuring car? Step 1 of 9</h2>
         <img src="{{ asset('assets/images/N2/SimpleMachines/b3.png') }}" class="img-xl" />
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
     </div>
 
     {{-- slide 5 --}}
-    <div class="flex flex-col click1 items-center justify-center slide hidden">
+    <div class="flex flex-col click1 items-center justify-between h-[33vw] slide hidden">
         <h2 class="title stroke">How to build a measuring car? Step 2 of 9</h2>
         <img src="{{ asset('assets/images/N2/SimpleMachines/b4.png') }}" class="img-xl" />
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
@@ -57,7 +57,7 @@
 
 
     {{-- slide 6 --}}
-    <div class="flex flex-col click1 items-center justify-center slide hidden">
+    <div class="flex flex-col click1 items-center justify-between h-[33vw] slide hidden">
         <h2 class="title stroke">How to build a measuring car? Step 3 of 9</h2>
         <img src="{{ asset('assets/images/N2/SimpleMachines/b5.png') }}" class="img-xl" />
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
@@ -65,14 +65,14 @@
 
 
     {{-- slide 7 --}}
-    <div class="flex flex-col click1 items-center justify-center slide hidden">
+    <div class="flex flex-col click1 items-center justify-between h-[33vw] slide hidden">
         <h2 class="title stroke">How to build a measuring car? Step 4 of 9</h2>
         <img src="{{ asset('assets/images/N2/SimpleMachines/b6.png') }}" class="img-xl" />
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
     </div>
 
     {{-- slide 8 --}}
-    <div class="flex flex-col click1 items-center justify-center slide hidden">
+    <div class="flex flex-col click1 items-center justify-between h-[33vw] slide hidden">
         <h2 class="title stroke">How to build a measuring car? Step 5 of 9</h2>
         <img src="{{ asset('assets/images/N2/SimpleMachines/b7.png') }}" class="img-xl" />
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
@@ -80,21 +80,21 @@
 
 
     {{-- slide 9 --}}
-    <div class="flex flex-col click1 items-center justify-center slide hidden">
+    <div class="flex flex-col click1 items-center justify-between h-[33vw] slide hidden">
         <h2 class="title stroke">How to build a measuring car? Step 6 of 9</h2>
         <img src="{{ asset('assets/images/N2/SimpleMachines/b8.png') }}" class="img-xl" />
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
     </div>
 
     {{-- slide 10 --}}
-    <div class="flex flex-col click1 items-center justify-center slide hidden">
+    <div class="flex flex-col click1 items-center justify-between h-[33vw] slide hidden">
         <h2 class="title stroke">How to build a measuring car? Step 7 of 9</h2>
         <img src="{{ asset('assets/images/N2/SimpleMachines/b9.png') }}" class="img-xl" />
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
     </div>
 
     {{-- slide 11 --}}
-    <div class="flex flex-col click1 items-center justify-center slide hidden">
+    <div class="flex flex-col click1 items-center justify-between h-[33vw] slide hidden">
         <h2 class="title stroke">How to build a measuring car? Step 8 of 9</h2>
         <img src="{{ asset('assets/images/N2/SimpleMachines/b10.png') }}" class="img-xl" />
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
@@ -102,7 +102,7 @@
 
 
     {{-- slide 12 --}}
-    <div class="flex flex-col click1 items-center justify-center slide hidden">
+    <div class="flex flex-col click1 items-center justify-between h-[33vw] slide hidden">
         <h2 class="title stroke">How to build a measuring car? Step 9 of 9</h2>
         <img src="{{ asset('assets/images/N2/SimpleMachines/b11.png') }}" class="img-xl" />
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
@@ -329,7 +329,7 @@
 
 
     {{-- slide 26 --}}
-    <div class="flex flex-col  slide hidden items-center justify-between h-[50vh]">
+    <div class="flex flex-col  slide hidden items-center justify-between h-[30vw]">
         <h2 class="title stroke !text-white">Hands-on Time 2</h2>
         <div class="title stroke text-start">
             <h2>Mission:</h2>

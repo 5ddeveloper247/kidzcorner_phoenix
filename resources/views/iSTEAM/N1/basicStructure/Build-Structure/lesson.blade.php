@@ -136,7 +136,7 @@
     {{-- slide 12 --}}
     <div class="flex flex-col justify-center items-center slide hidden">
         <h2 class="title !text-white stroke">individual Activity 1</h2>
-        <img src="{{ asset('assets/images/pptimages/r17.png') }}" class="img-sm" />
+        <img src="{{ asset('assets/images/pptimages/r17.png') }}" class="!w-[30vw]" />
         <div class="flex items-start">
             <h2 class="title stroke text-start"><span class="!text-white">Let's do:</span><br> Create the structure of a
                 building! </h2>
@@ -144,7 +144,7 @@
     </div>
 
     {{-- slide 13 --}}
-    <div class="flex flex-col items-center  slide hidden">
+    <div class="flex flex-col items-center slide hidden">
         <div class="title stroke text-start">
             <h2 class="!text-white">let's do:</h2>
             <ol class="list-decimal lesson-ul">
@@ -152,7 +152,7 @@
                 </li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/pptimages/r8.png') }}" class="img-sm" />
+        <img src="{{ asset('assets/images/pptimages/r8.png') }}" class="!w-[30vw]" />
         <p class="note  text-center">Note: This can be done individually. Each child can build his/her <span
                 class="text-white">building</span>.</p>
     </div>
@@ -160,7 +160,7 @@
 
 
     {{-- slide 14 --}}
-    <div class="flex flex-col items-center  slide hidden">
+    <div class="flex flex-col items-center slide justify-between h-[33vw] hidden">
         <div class="title stroke text-start">
             <h2 class="!text-white">let's do:</h2>
             <ol class="list-decimal lesson-ul lesson-ul" start="2">
@@ -170,14 +170,14 @@
             </ol>
         </div>
         <div class="flex items-center gap-[2vw]">
-            <img src="{{ asset('assets/images/pptimages/r10.png') }}" class="img-sm" />
-            <img src="{{ asset('assets/images/pptimages/r9.png') }}" class="img-sm" />
+            <img src="{{ asset('assets/images/pptimages/r10.png') }}" class="!w-[28vw]" />
+            <img src="{{ asset('assets/images/pptimages/r9.png') }}" class="!w-[28vw]" />
         </div>
         <p class="note  text-center">Note: Teacher to guide the children and assist them.</p>
     </div>
 
     {{-- slide 15 --}}
-    <div class="flex flex-col items-center slide hidden">
+    <div class="flex flex-col items-center slide justify-between h-[33vw] hidden">
         <div class="title stroke text-start">
             <h2 class="!text-white">let's do:</h2>
             <ol class="list-decimal lesson-ul lesson-ul" start="4">
@@ -186,14 +186,14 @@
             </ol>
         </div>
         <div class="flex items-center gap-[2vw]">
-            <img src="{{ asset('assets/images/pptimages/r10.png') }}" class="img-sm" />
-            <img src="{{ asset('assets/images/pptimages/r9.png') }}" class="img-sm" />
+            <img src="{{ asset('assets/images/pptimages/r10.png') }}" class="!w-[28vw]" />
+            <img src="{{ asset('assets/images/pptimages/r9.png') }}" class="!w-[28vw]" />
         </div>
         <p class="note  text-center">Note: Teacher to guide the children and assist them.</p>
     </div>
 
     {{-- slide 16 --}}
-    <div class="flex flex-col items-center slide hidden">
+    <div class="flex flex-col items-center slide justify-between h-[33vw] hidden">
         <div class="title stroke text-start">
             <h2 class="!text-white">let's do:</h2>
             <ol class="list-decimal lesson-ul lesson-ul" start="5">
@@ -201,15 +201,15 @@
             </ol>
         </div>
         <div class="flex items-center gap-[2vw]">
-            <img src="{{ asset('assets/images/pptimages/r14.png') }}" class="img-sm" />
-            <img src="{{ asset('assets/images/pptimages/r13.png') }}" class="img-sm" />
+            <img src="{{ asset('assets/images/pptimages/r14.png') }}" class="!w-[28vw]" />
+            <img src="{{ asset('assets/images/pptimages/r13.png') }}" class="!w-[28vw]" />
         </div>
 
         <p class="note  text-center">Note: Teacher to guide the children and assist them.</p>
     </div>
 
     {{-- slide 17 --}}
-    <div class="flex flex-col  slide hidden">
+    <div class="flex flex-col items-center slide justify-between h-[33vw] hidden">
         <div class="title stroke text-start">
             <h2 class="!text-white">let's do:</h2>
             <ol class="list-decimal lesson-ul lesson-ul" start="6">
@@ -219,16 +219,16 @@
             </ol>
         </div>
         <div class="flex items-center gap-[1vw] justify-center">
-            <img src="{{ asset('assets/images/pptimages/r15.png') }}" class="img-xs" />
-            <img src="{{ asset('assets/images/pptimages/r16.png') }}" class="img-xs" />
-            <img src="{{ asset('assets/images/pptimages/r17.png') }}" class="img-xs" />
+            <img src="{{ asset('assets/images/pptimages/r15.png') }}" class="!w-[18vw]" />
+            <img src="{{ asset('assets/images/pptimages/r16.png') }}" class="!w-[18vw]" />
+            <img src="{{ asset('assets/images/pptimages/r17.png') }}" class="!w-[18vw]" />
         </div>
         <p class="note  text-center">Note: Teacher to guide the children and assist them.</p>
     </div>
 
 
     {{-- slide 18 --}}
-    <div class="flex flex-col  slide hidden h-[50vh] justify-between">
+    <div class="flex flex-col  slide hidden h-[50vh] items-center justify-between">
         <div class="title stroke text-start">
             <h2 class="!text-white">let's do:</h2>
             <ol class="list-decimal lesson-ul lesson-ul" start="7">
@@ -247,7 +247,7 @@
         <h2 class="stroke title">Look at this <span class="!text-white">house</span>! What <span
                 class="text-white">shapes</span> are put together to form the <span class="!text-white">structure</span>?
         </h2>
-        <img src="{{ asset('assets/images/pptimages/r18.png') }}" class="img-normal-md" />
+        <img src="{{ asset('assets/images/pptimages/r18.png') }}" class="!w-[25vw]" />
         <p class="note  text-center">Note: Encourage children to share answer.</p>
     </div>
 
@@ -265,7 +265,7 @@
     <div class="flex flex-col items-center justify-center  slide hidden">
         <h2 class="stroke title">What about this side? What <span class="!text-white">shapes</span> are used from the <span
                 class="text-white">structure</span> on the side?</h2>
-        <img src="{{ asset('assets/images/pptimages/r19.png') }}" />
+        <img src="{{ asset('assets/images/pptimages/r19.png') }}" class="!w-[30vw]" />
         <p class="note">Note: Encourage children to share their answers.</p>
     </div>
 
@@ -273,7 +273,7 @@
     <div class="flex flex-col items-center justify-center  slide hidden">
         <h2 class="stroke title">This side can be formed by putting two <span class="!text-white">rectangles</span>
             together.</h2>
-        <img src="{{ asset('assets/images/pptimages/B-house.png') }}" class="img-normal-md" />
+        <img src="{{ asset('assets/images/pptimages/B-house.png') }}" class="!w-[30vw]" />
         <p class="note">Note: Teacher to point out the two <span class="!text-white">rectangle</span>s.</p>
     </div>
 
@@ -318,7 +318,7 @@
         <h2 class="stroke title">When all the <span class="!text-white">shapes</span> are places together, the
             <span class="!text-white">structure</span> of the <span class="!text-white">house</span> is completed.
         </h2>
-        <img src="{{ asset('assets/images/pptimages/r19.png') }}" class="img-normal-md" />
+        <img src="{{ asset('assets/images/pptimages/r19.png') }}" class="!w-[30vw]" />
 
     </div>
 
@@ -328,7 +328,7 @@
         <div class="flex flex-col items-center justify-center">
             <h2 class="title !text-white stroke">Class Activity 2</h2>
         </div>
-        <img src="{{ asset('assets/images/pptimages/r21.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/pptimages/r21.png') }}" class="!w-[30vw]" />
         <div class="flex items-start">
             <h2 class="title stroke text-start"><span class="!text-white">Let's do:</span><br>Create the structure of a
                 house!</h2>
@@ -365,10 +365,9 @@
             <ol class="list-decimal lesson-ul" start="2">
                 <li>Put two squares together to form a <span class="!text-white">rectangle</span>. Make two <span
                         class="text-white">rectangle</span>s and put them together.</li>
-
             </ol>
         </div>
-        <img src="{{ asset('assets/images/pptimages/r22.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/pptimages/r22.png') }}" class="!w-[30vw]" />
 
         <p class="note  text-center">Note: Teacher to guide the children and assist them.</p>
     </div>
@@ -376,7 +375,7 @@
 
 
     {{-- slide 30 --}}
-    <div class="flex flex-col items-center slide hidden">
+    <div class="flex flex-col items-center justify-between h-[32vw] slide hidden">
         <div class="title stroke text-start">
             <h2 class="!text-white">let's do:</h2>
             <ol class="list-decimal lesson-ul" start="3">

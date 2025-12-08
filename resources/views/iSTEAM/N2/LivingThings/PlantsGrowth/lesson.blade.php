@@ -52,10 +52,10 @@
 
     {{-- slide 7 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <div class="flex items-center gap-1">
-            <img src="{{ asset('assets/images/N2/LivingThings/lt1.png') }}" class="img-xs" />
-            <img src="{{ asset('assets/images/N2/LivingThings/lt2.png') }}" class="img-xs" />
-            <img src="{{ asset('assets/images/N2/LivingThings/lt3.png') }}" class="img-xs" />
+        <div class="flex items-center gap-[1vw]">
+            <img src="{{ asset('assets/images/N2/LivingThings/lt1.png') }}" class="!w-[18vw]" />
+            <img src="{{ asset('assets/images/N2/LivingThings/lt2.png') }}" class="!w-[18vw]" />
+            <img src="{{ asset('assets/images/N2/LivingThings/lt3.png') }}" class="!w-[18vw]" />
         </div>
         <h2 class="stroke title"><span class="!text-white">Grass</span>, <span class="!text-white">trees</span> and <span
                 class="text-white">flowers</span> are <span class="!text-white">plants</span>.</h2>

@@ -9,7 +9,7 @@
     {{-- slide 0 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
         <h2 class="title stroke">What do you see in this picture?</h2>
-        <img src="{{ asset('assets/images/pptimages/dark1.png') }}" class="img-md img-normal-md" />
+        <img src="{{ asset('assets/images/pptimages/dark1.png') }}" class="!w-[35vw]" />
         <p class="note">Note: Guide children to share their answers.</p>
     </div>
 
@@ -17,7 +17,7 @@
     <div class="flex flex-col items-center justify-center  slide hidden">
         <h2 class="title stroke">Do you see toys that are shaped like
             the moon and stars?</h2>
-        <img src="{{ asset('assets/images/pptimages/dark1.png') }}" class="img-md img-normal-md" />
+        <img src="{{ asset('assets/images/pptimages/dark1.png') }}" class="!w-[32vw]" />
         <p class="note">Note: Ask children if they have played with such toys and share their experience.</p>
     </div>
 
@@ -25,7 +25,7 @@
     <div class="flex flex-col items-center justify-center  slide hidden">
         <h2 class="title stroke">These are <span class="!text-white">glow-in-the-dark</span> toys! <br>
             Have you seen such toys before?</h2>
-        <img src="{{ asset('assets/images/pptimages/dark1.png') }}" class="img-md img-normal-md" />
+        <img src="{{ asset('assets/images/pptimages/dark1.png') }}" class="!w-[32vw]" />
 
         <p class="note">Note: Ask children if they have played with such toys and share their experience.</p>
     </div>
@@ -35,7 +35,7 @@
         <h2 class="title stroke">These toys are able to <span class="!text-white">store <span class="!text-white">light
                     energy</span></span> when
             they are in a <span class="!text-white">bright</span> place.</h2>
-        <img src="{{ asset('assets/images/pptimages/dark1.png') }}" class="img-md img-normal-md" />
+        <img src="{{ asset('assets/images/pptimages/dark1.png') }}" class="!w-[32vw]" />
 
         <p class="note">Note: Ask children if they have played with such toys and share their experience.</p>
     </div>
@@ -45,7 +45,7 @@
     <div class="flex flex-col items-center justify-center  slide hidden">
         <h2 class="title stroke">When these toys are place in the <span class="!text-white">dark</span>,
             they glow!</h2>
-        <img src="{{ asset('assets/images/pptimages/dark2.png') }}" class="img-md img-normal-md" />
+        <img src="{{ asset('assets/images/pptimages/dark2.png') }}" class="!w-[32vw]" />
 
         <h2 class="title stroke ">They will stop <span class="!text-white">glowing</span> when they have used up the
             <span class="!text-white">light energy</span> in them.
@@ -58,7 +58,7 @@
     <div class="flex flex-col justify-center slide hidden">
         <div class="flex flex-col items-center justify-center">
             <h2 class="title stroke !text-white">CLASS ACTIVITY </h2>
-            <img src="{{ asset('assets/images/pptimages/dark3.png') }}" class="img-md img-normal-md" />
+            <img src="{{ asset('assets/images/pptimages/dark3.png') }}" class="!w-[32vw]" />
         </div>
         <div class="flex items-start">
 
@@ -179,7 +179,7 @@
     <div class="flex flex-col justify-center  slide hidden">
         <div class="flex flex-col items-center justify-center ">
             <h2 class="title stroke !text-white">Individual Activity </h2>
-            <img src="{{ asset('assets/images/pptimages/d13.png') }}" class="img-md img-normal-md" />
+            <img src="{{ asset('assets/images/pptimages/d13.png') }}" class="!w-[35vw]" />
         </div>
         <div class="flex items-start">
 

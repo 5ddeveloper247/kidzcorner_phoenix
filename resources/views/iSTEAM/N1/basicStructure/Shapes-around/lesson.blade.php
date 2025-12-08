@@ -73,7 +73,7 @@
     {{-- slide 8 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
         <h2 class="stroke title">The gift box takes up space and it has many sides.</h2>
-        <img src="{{ asset('assets/images/pptimages/r33.png') }}" class="img-md img-normal-md" />
+        <img src="{{ asset('assets/images/pptimages/r33.png') }}" class="!w-[35vw]" />
     </div>
 
     {{-- slide 9 --}}
@@ -189,7 +189,7 @@
             this, a
             <span class="!text-white">structure</span> of a box is created.
         </h2>
-        <img src="{{ asset('assets/images/pptimages/r39.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/pptimages/r39.png') }}" class="!w-[35vw]" />
     </div>
 
 
@@ -199,7 +199,7 @@
         <h2 class="stroke title">This <span class="!text-white">structure</span> is not <span
                 class="text-white">flat</span>! It is three dimensional
             just like the box.</h2>
-        <img src="{{ asset('assets/images/pptimages/r39.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/pptimages/r39.png') }}" class="!w-[35vw]" />
     </div>
 
 
@@ -270,7 +270,7 @@
     <div class="flex flex-col justify-center  slide hidden">
         <div class="flex flex-col items-center justify-center">
             <h2 class="title !text-white stroke">Class Activity 2</h2>
-            <img src="{{ asset('assets/images/pptimages/r40.png') }}" class="img-md" />
+            <img src="{{ asset('assets/images/pptimages/r40.png') }}" class="!w-[30vw]" />
         </div>
         <div class="flex items-start">
             <h2 class="title stroke text-start "><span class="!text-white">Let's do:</span><br>Create a structure using the
@@ -283,7 +283,7 @@
 
 
     {{-- slide 27 --}}
-    <div class="flex flex-col  slide hidden h-[50vh] justify-between">
+    <div class="flex flex-col  slide hidden h-[50vh] items-center justify-between">
         <div class="title stroke text-start">
             <h2 class="!text-white">let's do:</h2>
             <ul class="lesson-ul list-decimal">
@@ -301,7 +301,7 @@
     </div>
 
     {{-- slide 28 --}}
-    <div class="flex flex-col  slide hidden h-[50vh] justify-between">
+    <div class="flex flex-col  slide hidden h-[50vh] items-center justify-between">
         <div class="title stroke text-start">
             <h2>Suggested questions for presentation:</h2>
             <ul class="lesson-ul list-decimal">

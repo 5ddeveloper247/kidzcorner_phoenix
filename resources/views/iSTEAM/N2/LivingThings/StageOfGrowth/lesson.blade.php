@@ -6,7 +6,7 @@
     <h2 class="top-title stroke">The Stages of Growth of a Butterfly</h2>
 
     {{-- Slide 1 --}}
-    <div class="flex flex-col items-center justify-between h-[40vh]  slide hidden">
+    <div class="flex flex-col items-center justify-between h-[20vw] self-end slide hidden">
         <h2 class="stroke title">Children, do you still remember what the
             stages of growth of a person are?
             What happens when you grow?</h2>
@@ -51,7 +51,7 @@
 
     {{-- slide 6 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <video id="video1" class="pointer-events-none">
+        <video id="video1" class="pointer-events-none !min-w-[43vw]">
             <source src="{{ asset('assets/images/N2/LivingThings/1.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -75,7 +75,7 @@
 
     {{-- slide 8 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <video id="video2" class="pointer-events-none">
+        <video id="video2" class="pointer-events-none !min-w-[43vw]">
             <source src="{{ asset('assets/images/N2/LivingThings/2.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -90,7 +90,7 @@
 
     {{-- slide 9 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <video id="video3" class="pointer-events-none">
+        <video id="video3" class="pointer-events-none !min-w-[43vw]">
             <source src="{{ asset('assets/images/N2/LivingThings/3.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -106,7 +106,7 @@
     {{-- slide 10 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="title stroke">Third Stage</h2>
-        <video id="video4" class="pointer-events-none">
+        <video id="video4" class="pointer-events-none !min-w-[43vw]">
             <source src="{{ asset('assets/images/N2/LivingThings/4.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -122,7 +122,7 @@
     {{-- slide 11 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="title stroke">Forth Stage</h2>
-        <video id="video5" class="pointer-events-none">
+        <video id="video5" class="pointer-events-none !min-w-[40vw]">
             <source src="{{ asset('assets/images/N2/LivingThings/5.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -145,7 +145,7 @@
 
     {{-- slide 13 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <video id="video6" class="pointer-events-none">
+        <video id="video6" class="pointer-events-none !min-w-[43vw]">
             <source src="{{ asset('assets/images/N2/LivingThings/6.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -287,7 +287,7 @@
                 <li>Put the stalk of the leaf into the hole on the cover.</li>
             </ol>
         </div>
-        <video id="video7" class="pointer-events-none">
+        <video id="video7" class="pointer-events-none !min-w-[43vw]">
             <source src="{{ asset('assets/images/N2/LivingThings/7.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -345,13 +345,13 @@
                     (draw or paste a photo) when there are changes.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/N2/LivingThings/an57.png') }}" class="img-sm" />
+        <img src="{{ asset('assets/images/N2/LivingThings/an57.png') }}" class="!w-[30vw]" />
         <p class="note">Note: Guide children to record their observations in the learning journal.</p>
     </div>
 
 
     {{-- slide 28 --}}
-    <div class="flex flex-col items-center justify-between h-[30vh] slide hidden">
+    <div class="flex flex-col items-center justify-between h-[30vh] self-end slide hidden">
         <h2 class="stroke title">Children, how did the caterpillar grew.</h2>
 
 

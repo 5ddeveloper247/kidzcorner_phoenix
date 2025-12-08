@@ -7,7 +7,7 @@
 
     <div class="Selection flex items-center flex-col justify-center relative h-full text-center z-[99] w-full">
         <h2 class="text-[#F7B94A] stroke">Light and Shadow</h2>
-        <div class="flex items-center gap-[10vw]">
+        <div class="flex items-center justify-around w-full">
 
             {{-- Lesson Button --}}
             <a href="{{ route('ShadowLesson') }}" id="Lesson" class="flex flex-col gap-0">

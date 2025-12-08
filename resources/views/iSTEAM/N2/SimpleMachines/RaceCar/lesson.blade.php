@@ -73,7 +73,7 @@
     </div>
 
     {{-- slide 8 --}}
-    <div class="flex flex-col  slide hidden items-center">
+    <div class="flex flex-col  slide hidden justify-between h-[30vw] items-center">
         <div class="title stroke text-start">
             <h2>Steps:</h2>
             <ul class="list-decimal">

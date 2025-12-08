@@ -5,7 +5,7 @@
     <h2 class="top-title stroke">How do Animal Grow</h2>
 
     {{-- Slide 1 --}}
-    <div class="flex flex-col items-center justify-between h-[50vh] slide hidden">
+    <div class="flex flex-col items-center justify-between self-end h-[20vw] slide hidden">
         <h2 class="stroke title">Children, do you still remember what a <span class="!text-white">living things<br /></span>is
             and what a <span class="!text-white">non-living things</span> is?</h2>
         <p class="note">Note: Encourage children to share what they know about living things and non-living things.</p>
@@ -43,19 +43,19 @@
         <div class=" text-start max-w-[33vw]">
             <h2 class="title stroke">All <span class="!text-white">animals</span>....</h2>
             <ul class="!text-white title stroke">
-                <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" />
+                <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" class="!w-[3vw]" />
                     <p> Move on their own</p>
                 </li>
-                <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" />
+                <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" class="!w-[3vw]" />
                     <p> Drink</p>
                 </li>
-                <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" />
+                <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" class="!w-[3vw]" />
                     <p>Eat</p>
                 </li>
-                <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" />
+                <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" class="!w-[3vw]" />
                     <p> Breath (need air)</p>
                 </li>
-                <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" />
+                <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" class="!w-[3vw]" />
                     <p> Grow (get bigger)</p>
                 </li>
             </ul>
@@ -269,15 +269,15 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <div class="flex items-center gap-[1vw]">
             <div>
-                <img src="{{ asset('assets/images/N2/LivingThings/an25.png') }}" class="img-xs" />
+                <img src="{{ asset('assets/images/N2/LivingThings/an25.png') }}" class="!w-[18vw]" />
                 <p class="text-white text-[1.4vw]">Baby</p>
             </div>
             <div>
-                <img src="{{ asset('assets/images/N2/LivingThings/an26.png') }}" class="img-xs" />
+                <img src="{{ asset('assets/images/N2/LivingThings/an26.png') }}" class="!w-[18vw]" />
                 <p class="text-white text-[1.4vw]">Young/puppy</p>
             </div>
             <div>
-                <img src="{{ asset('assets/images/N2/LivingThings/an27.png') }}" class="img-xs" />
+                <img src="{{ asset('assets/images/N2/LivingThings/an27.png') }}" class="!w-[18vw]" />
                 <p class="text-white text-[1.4vw]">Adult</p>
             </div>
 

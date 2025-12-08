@@ -162,9 +162,9 @@
     {{-- slide 17 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="title !text-white stroke">Individual Activity</h2>
-        <div class="w-[21vw] h-[17vw] bg-cover bg-center flex flex-col items-center"
+        <div class="w-[31vw] h-[20vw]  bg-cover bg-center flex flex-col items-center"
             style="background-image: url('{{ asset('assets/images/N2/LivingThings/lt54.png') }}');">
-            <p>Record the changes you see in your flower (draw and paste photos).</p>
+            <p class="text-[1vw]">Record the changes you see in your flower (draw and paste photos).</p>
             <img src="{{ asset('assets/images/N2/LivingThings/lt52.png') }}" class="img-h-xs" />
         </div>
         <div class="title stroke text-start">

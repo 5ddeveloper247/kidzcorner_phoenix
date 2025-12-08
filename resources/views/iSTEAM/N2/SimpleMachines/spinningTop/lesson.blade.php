@@ -79,7 +79,7 @@
 
 
     {{-- slide 7 --}}
-    <div class="slide hidden  flex flex-col items-center justify-between h-[50vh] ">
+    <div class="slide hidden  flex flex-col items-center justify-between h-[30vw] ">
         <h2 class="title stroke !text-white">Hands-on Time 1</h2>
         <h2 class="title stroke text-start">Mission: <br>
             Let’s follow the instructions to build a spinning top and then play with it.</h2>
@@ -117,7 +117,7 @@
 
 
     {{-- slide 10 --}}
-    <div class="flex flex-col  slide hidden items-center justify-between h-[50vh]">
+    <div class="flex flex-col  slide hidden items-center justify-between h-[30vw]">
         <div class="title stroke text-start self-start">
             <h2>Steps:</h2>
             <ul class="lesson-ul">
@@ -198,7 +198,7 @@
     </div>
 
     {{-- slide  --}}
-    <div class="flex flex-col  slide hidden items-center justify-between h-[50vh]">
+    <div class="flex flex-col  slide hidden items-center justify-between h-[30vw]">
         <div class="title stroke text-start self-start">
             <h2>Steps:</h2>
             <ul class="lesson-ul">
@@ -221,7 +221,7 @@
     <div class="slide hidden flex flex-col items-center justify-center">
         <h2 class="stroke title">This is the <span class="!text-white">wheel </span>(the two gears) and <span
                 class="text-white">axle<br /></span>of the spinning top.</h2>
-        <img src="{{ asset('/assets/images/N2/SimpleMachines/a58.png') }}" class="img-md" />
+        <img src="{{ asset('/assets/images/N2/SimpleMachines/a58.png') }}" class="!w-[35vw]" />
         <p class="note">Note: Guide each group of children to point out the wheel and axle of their spinning tops.</p>
 
     </div>
@@ -231,7 +231,7 @@
         <div class="flex gap-[1vw] items-end">
             <div class="flex flex-col items-end">
                 <img src="{{ asset('assets/images/N2/SimpleMachines/arrow.svg') }}" class="!w-[2.5vw]">
-                <p class="w-[5vw] text-white">A flick of the
+                <p class="w-[5vw] text-white text-[1vw]">A flick of the
                     fingers to make
                     it spin!</p>
             </div>
@@ -251,7 +251,7 @@
 
 
     {{-- slide 17  --}}
-    <div class="slide flex flex-col items-center justify-between h-[50vh] ">
+    <div class="slide flex flex-col items-center justify-between h-[30vw] ">
 
         <h2 class="stroke title">Based on your record, which way do you find it
             easier to make the spinning top spin longer:using your fingers or using a launcher?.</h2>
@@ -263,7 +263,7 @@
 
 
     {{-- slide 18 --}}
-    <div class="flex flex-col items-center slide hidden justify-between h-[50vh]">
+    <div class="flex flex-col items-center slide hidden justify-between h-[30vw]">
 
         <h2 class="title stroke !text-white">Hands-on Time 2</h2>
         <img src="{{ asset('/assets/images/N2/SimpleMachines/a52.png') }}" class="img-xl" />
@@ -341,7 +341,7 @@
 
 
     {{-- slide 22 --}}
-    <div class="slide flex flex-col items-center justify-between h-[50vh]">
+    <div class="slide flex flex-col items-center justify-between h-[30vw]">
 
         <h2 class="stroke title">Based on your record, which design of spinning top do you find spins the longest using a
             launcher: A, B, C or D?</h2>
@@ -362,8 +362,8 @@
                 <p>Which way makes the spinning top spin longer? Circle it.</p>
 
                 <div class="flex items-center gap-x-[2.5vw]">
-                    <img src="{{ asset('/assets/images/N2/SimpleMachines/a54.png') }}" class="img-xs" />
-                    <img src="{{ asset('/assets/images/N2/SimpleMachines/a55.png') }}" class="img-xs" />
+                    <img src="{{ asset('/assets/images/N2/SimpleMachines/a54.png') }}" class="!w-[15vw]" />
+                    <img src="{{ asset('/assets/images/N2/SimpleMachines/a55.png') }}" class="!w-[15vw]" />
                 </div>
             </div>
         </div>
@@ -378,7 +378,7 @@
 
             <div class="flex flex-col justify-center items-center gap-[4vw]">
                 <p>Which spinning top spins the longest time using a launcher? Circle it.</p>
-                <img src="{{ asset('/assets/images/N2/SimpleMachines/a52.png') }}" />
+                <img src="{{ asset('/assets/images/N2/SimpleMachines/a52.png') }}" class="!w-[100%]" />
             </div>
         </div>
 

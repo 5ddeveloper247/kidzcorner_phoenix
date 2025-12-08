@@ -21,9 +21,9 @@
     </div>
 
     {{-- slide 2 --}}
-    <div class="flex flex-col items-center h-[50vh] justify-between slide hidden">
+    <div class="flex flex-col items-center h-[27vw] justify-between slide hidden">
 
-        <h2 class="title stroke self-start !text-white">Hands-on Time</h2>
+        <h2 class="title stroke !text-white">Hands-on Time</h2>
         <div class="text-start">
 
             <h2 class="title stroke text-start">Mission: <br>

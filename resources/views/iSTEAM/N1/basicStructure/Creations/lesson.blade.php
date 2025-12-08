@@ -55,8 +55,8 @@
         <h2 class="stroke title"><span class="!text-white">Shapes</span> are put together to make images like a van or a
             flower.</h2>
         <div class="flex items-center gap-[2vw]">
-            <img src="{{ asset('assets/images/pptimages/s6.png') }}" class="img-normal-md" />
-            <img src="{{ asset('assets/images/pptimages/s4.png') }}" class="img-normal-md" />
+            <img src="{{ asset('assets/images/pptimages/s6.png') }}" class="!w-[25vw]" />
+            <img src="{{ asset('assets/images/pptimages/s4.png') }}" class="!w-[25vw]" />
         </div>
         <p class="note">Note: Point out the shape to the children.</p>
     </div>
@@ -64,7 +64,7 @@
 
     {{-- slide 6 --}}
 
-    <div class="flex flex-col justify-between !h-[55vh] slide hidden">
+    <div class="flex flex-col justify-between !h-[30vw] slide hidden">
 
         <h2 class="title !text-white stroke">individual Activity 1</h2>
         <h2 class="title stroke text-start ">Let’s use the shapes and create an image of a toy.</h2>
@@ -72,7 +72,7 @@
     </div>
 
     {{-- slide 7 --}}
-    <div class="flex flex-col h-[55vh] justify-between items-center slide hidden">
+    <div class="flex flex-col h-[30vw] justify-between items-center slide hidden">
         <div class="title stroke text-start">
             <h2 class="!text-white">let's do:</h2>
             <ol class="list-decimal lesson-ul space-y-3">
@@ -87,7 +87,7 @@
 
 
     {{-- slide 8 --}}
-    <div class="flex flex-col h-[55vh] justify-between items-center slide hidden">
+    <div class="flex flex-col h-[30vw] justify-between items-center slide hidden">
         <div class="title stroke text-start">
             <h2 class="!text-white">let's do:</h2>
             <ol class="list-decimal lesson-ul space-y-3" start="3">
@@ -118,7 +118,7 @@
     </div>
 
     {{-- slide 10 --}}
-    <div class="flex flex-col h-[55vh] justify-between items-center slide hidden">
+    <div class="flex flex-col h-[30vw] justify-between items-center slide hidden">
         <div class="title stroke text-start">
             <h2 class="!text-white">Suggested Questions:</h2>
             <ol class="list-decimal lesson-ul space-y-3   ">
@@ -155,7 +155,7 @@
     {{-- slide 19 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
         <h2 class="stroke title">Similarly, a three dimensional structure of the toy can be created too!</h2>
-        <img src="{{ asset('assets/images/pptimages/r29.png') }}" />
+        <img src="{{ asset('assets/images/pptimages/r29.png') }}" class="!w-[35vw]" />
     </div>
 
 
@@ -167,7 +167,7 @@
     </div>
 
     {{-- slide 21 --}}
-    <div class="flex flex-col h-[55vh] justify-between items-center slide hidden">
+    <div class="flex flex-col h-[30vw] justify-between items-center slide hidden">
         <div class="title stroke text-start">
             <h2 class="!text-white">let's do:</h2>
             <ol class="list-decimal lesson-ul space-y-3   ">
@@ -181,7 +181,7 @@
     </div>
 
     {{-- slide 22 --}}
-    <div class="flex flex-col h-[55vh] justify-between items-center slide hidden">
+    <div class="flex flex-col h-[30vw] justify-between items-center slide hidden">
         <div class="title stroke text-start">
             <h2 class="!text-white">let's do:</h2>
             <ol class="list-decimal lesson-ul space-y-3" start="3">
@@ -196,7 +196,7 @@
     </div>
 
     {{-- slide 23 --}}
-    <div class="flex flex-col h-[55vh] justify-between items-center slide hidden">
+    <div class="flex flex-col h-[30vw] justify-between items-center slide hidden">
         <div class="title stroke text-start">
             <h2 class="!text-white">let's do:</h2>
             <ol class="  list-decimal pl-9 space-y-3" start="6">
@@ -213,7 +213,7 @@
 
 
     {{-- slide 24 --}}
-    <div class="flex flex-col  h-[55vh] justify-between items-center slide hidden">
+    <div class="flex flex-col  h-[30vw] justify-between items-center slide hidden">
         <div class="title stroke text-start">
             <h2 class="!text-white">Suggested questions for show and tell:</h2>
             <ol class="list-decimal lesson-ul">
@@ -231,8 +231,8 @@
     <div class="flex flex-col justify-center  slide hidden">
         <h2 class="stroke title">Many images can be created using <span class="!text-white">shapes</span>.</h2>
         <div class="flex gap-10 items-center">
-            <img src="{{ asset('assets/images/pptimages/s6.png') }}" class="img-normal-md" />
-            <img src="{{ asset('assets/images/pptimages/s4.png') }}" class="img-normal-md" />
+            <img src="{{ asset('assets/images/pptimages/s6.png') }}" class="!w-[25vw]" />
+            <img src="{{ asset('assets/images/pptimages/s4.png') }}" class="!w-[25vw]" />
         </div>
         <p class="note  text-center">Note: Guide the children to identify the shapes.</p>
     </div>

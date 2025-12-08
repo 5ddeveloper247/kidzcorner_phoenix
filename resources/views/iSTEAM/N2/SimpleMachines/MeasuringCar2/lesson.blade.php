@@ -38,7 +38,7 @@
 
 
     {{-- slide 4 --}}
-    <div class="flex flex-col items-center justify-between h-[50vh] slide hidden">
+    <div class="flex flex-col items-center self-end justify-between h-[20vw] slide hidden">
         <h2 class="title stroke">How do you make a measuring car go very far?
             How many ways can you make it go very far?</h2>
         <p class="note">Note: Encourage children to share their hands-on experiences.</p>
@@ -81,7 +81,7 @@
     </div>
 
     {{-- slide 10 --}}
-    <div class="flex flex-col  slide hidden justify-between h-[50vh] items-center">
+    <div class="flex flex-col  slide hidden justify-between h-[30vw] items-center">
         <h2 class="title stroke !text-white">Hands-on Time</h2>
         <div class="title stroke text-start">
             <h2>Mission:</h2>
@@ -138,7 +138,7 @@
     </div>
 
     {{-- sldie 14 --}}
-    <div class="flex flex-col  slide hidden items-center  h-[50vh] justify-between">
+    <div class="flex flex-col  slide hidden items-center  h-[30vw] justify-between">
         <h2 class="title stroke">Based on your record, which height of inclined plane makes the car go very far? How many
             units does the car go? What do you find out from the test?</h2>
         <p class="note">Note: Have each group of children share their findings based on the record in their learning

@@ -101,7 +101,7 @@
         <h2 class="title stroke">The metal frame formed the <span class="!text-white">black</span> <span
                 class="text-white">shadows</span> that look like
             'X's.</h2>
-        <img src="{{ asset('assets/images/pptimages/uwindow1.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/pptimages/uwindow1.png') }}" class="!w-[45vw]" />
         <p class="note">Note: Teacher to point out to the children.</p>
     </div>
     {{-- slide 11 --}}
@@ -148,7 +148,7 @@
     </div>
 
     {{-- slide 16 --}}
-    <div class="flex flex-col items-center justify-center slide hidden">
+    <div class="flex flex-col items-center justify-between h-[30vw] slide hidden">
         <div class="title stroke text-start ">
             <h2 class="!text-white">Let's do: </h2>
             <ol class="list-decimal lesson-ul">
@@ -211,7 +211,7 @@
     </div>
 
     {{-- slide 22 --}}
-    <div class="flex flex-col items-center justify-center slide hidden">
+    <div class="flex flex-col items-center justify-between h-[30vw] slide hidden">
         <div class="title stroke text-start ">
             <h2 class="!text-white">Let's do: </h2>
             <ol class="list-decimal lesson-ul">
@@ -245,7 +245,7 @@
     </div>
 
     {{-- slide 24 --}}
-    <div class="flex flex-col items-center justify-center space-y-20 w-[90%] slide hidden">
+    <div class="flex flex-col items-center justify-between h-[30vw] w-[90%] slide hidden">
         <div class="title stroke text-start ">
             <h2 class="!text-white">Let's do: </h2>
             <ol class="lesson-ul list-decimal space-y-5" start="4">
@@ -262,7 +262,7 @@
     <div class="flex flex-col items-center justify-center slide hidden">
         <h2 class="title stroke">Look at the <span class="!text-white">shadows</span> of the house. The holes allow light
             to pass through them.</h2>
-        <img src="{{ asset('assets/images/pptimages/house.png') }}"  />
+        <img src="{{ asset('assets/images/pptimages/house.png') }}"  class="!w-[32vw]" />
     </div>
 
     {{-- slide 26 --}}

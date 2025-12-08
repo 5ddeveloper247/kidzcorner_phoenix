@@ -24,8 +24,8 @@
         <h2 class="title stroke">You pulled the string to move the wagon that is tied to the string.</h2>
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video1')"
-            class="absolute top-1/2 right-[-10vw] z-[99] h-24 w-24 -translate-y-1/2 video-btn">
-            <img src="/assets/images/pptimages/video.png" />
+            class="absolute top-1/2 right-[-10vw] z-[99] w-[5vw] -translate-y-1/2 video-btn">
+            <img src="{{asset('/assets/images/pptimages/video.png')}}" />
         </div>
     </div>
 
@@ -39,8 +39,8 @@
             their wagons.</p>
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video2')"
-            class="absolute top-1/2 right-[-10vw] z-[99] h-24 w-24 -translate-y-1/2 video-btn">
-            <img src="/assets/images/pptimages/video.png" />
+            class="absolute top-1/2 right-[-10vw] z-[99] w-[5vw] -translate-y-1/2 video-btn">
+            <img src="{{asset('/assets/images/pptimages/video.png')}}" />
         </div>
     </div>
 
@@ -106,8 +106,8 @@
             easily.</h2>
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video3')"
-            class="absolute top-1/2 right-[-10vw] z-[99] h-24 w-24 -translate-y-1/2 video-btn">
-            <img src="/assets/images/pptimages/video.png" />
+            class="absolute top-1/2 right-[-10vw] z-[99] w-[5vw] -translate-y-1/2 video-btn">
+            <img src="{{asset('/assets/images/pptimages/video.png')}}" />
         </div>
     </div>
 
@@ -123,7 +123,7 @@
 
 
     {{-- Slide 11 --}}
-    <div class="slide flex flex-col items-center h-[50vh] justify-between ">
+    <div class="slide flex flex-col items-center h-[30vw] justify-between ">
         <h2 class="stroke title">Many things around us have <span class="!text-white">wheels</span> and <span
                 class="text-white">axles</span>.<br />Can you name some examples?</h2>
         <p class="note text-ellipsis">Note: Guide children to recall and name some things with wheels and axles in their
@@ -158,8 +158,8 @@
             things you want to buy.</h2>
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video4')"
-            class="absolute top-1/2 right-[-10vw] z-[99] h-24 w-24 -translate-y-1/2 video-btn">
-            <img src="/assets/images/pptimages/video.png" />
+            class="absolute top-1/2 right-[-10vw] z-[99] w-[5vw] -translate-y-1/2 video-btn">
+            <img src="{{asset('/assets/images/pptimages/video.png')}}" />
         </div>
     </div>
 
@@ -190,8 +190,8 @@
                 class="text-white">axle<br /></span>lets
             <!-- Video Trigger Button -->
             <div onclick="toggleVideo('video5')"
-                class="absolute top-1/2 right-[-10vw] z-[99] h-24 w-24 -translate-y-1/2 video-btn">
-                <img src="/assets/images/pptimages/video.png" />
+                class="absolute top-1/2 right-[-10vw] z-[99] w-[5vw] -translate-y-1/2 video-btn">
+                <img src="{{asset('/assets/images/pptimages/video.png')}}" />
             </div>you have fun moving around easily.
         </h2>
     </div>
@@ -224,8 +224,8 @@
             </span>and <span class="!text-white">axle</span> lets you easily view the scenery.</h2>
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video6')"
-            class="absolute top-1/2 right-[-10vw] z-[99] h-24 w-24 -translate-y-1/2 video-btn">
-            <img src="/assets/images/pptimages/video.png" />
+            class="absolute top-1/2 right-[-10vw] z-[99] w-[5vw] -translate-y-1/2 video-btn">
+            <img src="{{asset('/assets/images/pptimages/video.png')}}" />
         </div>
     </div>
 
@@ -239,7 +239,7 @@
 
 
     {{-- slide 22 --}}
-    <div class="slide hidden  flex flex-col items-center justify-between h-[55vh]   ">
+    <div class="slide hidden  flex flex-col items-center justify-between h-[27vw]   ">
         <div class="title stroke text-start">
             <h2 class="title stroke">Let’s do:</h2>
             <h2>Let’s follow the instructions to build a pinwheel and then play with it.</h2>
@@ -270,7 +270,7 @@
                 <li>2. Build a pinwheel.</li>
             </ul>
         </div>
-        <img src="{{ asset('/assets/images/N2/SimpleMachines/a33.png') }}" class="img-md" />
+        <img src="{{ asset('/assets/images/N2/SimpleMachines/a33.png') }}" class="!w-[35vw]" />
         <p class="note z-[99]">Note: Have each group of children work together to complete the mission. <a
                 class="click-btn1">Click
                 <span class="text-[#F7B94A]">here</span></a> for the guide.</p>
@@ -278,14 +278,14 @@
 
 
     {{-- slide  25 --}}
-    <div class="flex flex-col click1 items-center justify-center slide hidden">
+    <div class="flex flex-col click1 items-center justify-between h-[30vw] slide hidden">
         <h2 class="title stroke">How to build a pinwheel? Step 1 of 5 </h2>
         <img src="{{ asset('assets/images/N2/SimpleMachines/a34.png') }}" class="img-xl" />
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
     </div>
 
     {{-- slide 26 --}}
-    <div class="flex flex-col click1 items-center justify-center slide hidden">
+    <div class="flex flex-col click1 items-center justify-between h-[30vw] slide hidden">
         <h2 class="title stroke">How to build a pinwheel? Step 2 of 5</h2>
         <img src="{{ asset('assets/images/N2/SimpleMachines/a35.png') }}" class="img-xl" />
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
@@ -293,7 +293,7 @@
 
 
     {{-- slide 27 --}}
-    <div class="flex flex-col click1 items-center justify-center slide hidden">
+    <div class="flex flex-col click1 items-center justify-between h-[30vw] slide hidden">
         <h2 class="title stroke">How to build a pinwheel? Step 3 of 5</h2>
         <img src="{{ asset('assets/images/N2/SimpleMachines/a36.png') }}" class="img-xl" />
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
@@ -302,7 +302,7 @@
 
 
     {{-- slide 28 --}}
-    <div class="flex flex-col click1 items-center justify-center slide hidden">
+    <div class="flex flex-col click1 items-center justify-between h-[30vw] slide hidden">
         <h2 class="title stroke">How to build a pinwheel? Step 4 of 5</h2>
         <img src="{{ asset('assets/images/N2/SimpleMachines/a37.png') }}" class="img-xl" />
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
@@ -311,7 +311,7 @@
 
 
     {{-- slide 29 --}}
-    <div class="flex flex-col click1 items-center justify-center slide hidden">
+    <div class="flex flex-col click1 items-center justify-between h-[30vw] slide hidden">
         <h2 class="title stroke">How to build a pinwheel? Step 5 of 5</h2>
         <img src="{{ asset('assets/images/N2/SimpleMachines/a38.png') }}" class="img-xl" />
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
@@ -319,7 +319,7 @@
 
 
     {{-- slide 30 --}}
-    <div class="flex flex-col  slide hidden items-center justify-between h-[50vh] ">
+    <div class="flex flex-col  slide hidden items-center justify-between h-[30vw] ">
         <div class="title stroke text-start self-start">
             <h2>Steps:</h2>
             <ul>
@@ -339,7 +339,7 @@
 
 
     {{-- slide 31 --}}
-    <div class="flex flex-col  slide hidden items-center justify-between h-[50vh] ">
+    <div class="flex flex-col  slide hidden items-center justify-between h-[30vw] ">
         <div class="title stroke text-start self-start">
             <h2>Steps:</h2>
             <ul>
@@ -358,7 +358,7 @@
 
     {{-- slide 32 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/SimpleMachines/gl2.png') }}" class="img-lg" />
+        <img src="{{ asset('assets/images/N2/SimpleMachines/gl2.png') }}" class="!w-[50vw]" />
         <h2 class="title stroke">This is the wheel (hast two blades) and axle of the pinwheel.</h2>
         <p class="note">Note: Guide each group of children to point out the wheels and axle of their pinwheels.</p>
     </div>
@@ -376,8 +376,8 @@
             pinwheel turns together.</p>
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video7')"
-            class="absolute top-1/2 right-[-10vw] z-[99] h-24 w-24 -translate-y-1/2 video-btn">
-            <img src="/assets/images/pptimages/video.png" />
+            class="absolute top-1/2 right-[-10vw] z-[99] w-[5vw] -translate-y-1/2 video-btn">
+            <img src="{{asset('/assets/images/pptimages/video.png')}}" />
         </div>
     </div>
 
@@ -391,8 +391,8 @@
                 class="text-white">wheel</span> and <span class="!text-white">axle</span> turn fast.</h2>
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video8')"
-            class="absolute top-1/2 right-[-10vw] z-[99] h-24 w-24 -translate-y-1/2 video-btn">
-            <img src="/assets/images/pptimages/video.png" />
+            class="absolute top-1/2 right-[-10vw] z-[99] w-[5vw] -translate-y-1/2 video-btn">
+            <img src="{{asset('/assets/images/pptimages/video.png')}}" />
         </div>
     </div>
 
@@ -406,8 +406,8 @@
                 class="text-white">wheel</span> and <span class="!text-white">axle</span> turn slow.</h2>
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video9')"
-            class="absolute top-1/2 right-[-10vw] z-[99] h-24 w-24 -translate-y-1/2 video-btn">
-            <img src="/assets/images/pptimages/video.png" />
+            class="absolute top-1/2 right-[-10vw] z-[99] w-[5vw] -translate-y-1/2 video-btn">
+            <img src="{{asset('/assets/images/pptimages/video.png')}}" />
         </div>
     </div>
 
@@ -422,8 +422,8 @@
             spinning.</h2>
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video10')"
-            class="absolute top-1/2 right-[-10vw] z-[99] h-24 w-24 -translate-y-1/2 video-btn">
-            <img src="/assets/images/pptimages/video.png" />
+            class="absolute top-1/2 right-[-10vw] z-[99] w-[5vw] -translate-y-1/2 video-btn">
+            <img src="{{asset('/assets/images/pptimages/video.png')}}" />
         </div>
     </div>
 
@@ -438,8 +438,8 @@
         <p class="note">Note: Encourage children to share their views.</p>
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video11')"
-            class="absolute top-1/2 right-[-10vw] z-[99] h-24 w-24 -translate-y-1/2 video-btn">
-            <img src="/assets/images/pptimages/video.png" />
+            class="absolute top-1/2 right-[-10vw] z-[99] w-[5vw] -translate-y-1/2 video-btn">
+            <img src="{{asset('/assets/images/pptimages/video.png')}}" />
         </div>
     </div>
 

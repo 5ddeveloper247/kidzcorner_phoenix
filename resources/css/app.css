@@ -794,7 +794,12 @@ span img {
     }
 }
 
-@media  (min-width: 2600px) {
+@media (min-width: 2600px) {
+    .stroke {
+        text-shadow: 9px 0 0 #533705, -9px 0 0 #533705, 0 9px 0 #533705,
+            0 -9px 0 #533705, 6px 6px 0 #533705, -6px -6px 0 #533705,
+            6px -6px 0 #533705, -6px 6px 0 #533705;
+    }
     #ajax-section {
         width: 70vw !important;
         height: 40vw !important;
@@ -836,6 +841,9 @@ span img {
     }
 
     /* Images  */
+    .sun-img {
+        min-width: 30vw !important;
+    }
     .img-tiny {
         min-width: 12vw;
     }
@@ -848,9 +856,6 @@ span img {
         min-width: 23vw;
     }
 
-    .img-normal-md {
-        min-width: 28vw !important;
-    }
     .img-md {
         min-width: 40vw !important;
     }
@@ -890,8 +895,8 @@ span img {
     .img-h-full {
         height: 40vw;
     }
-    
-    .drawable-img{
+
+    .drawable-img {
         width: 100% !important;
     }
 

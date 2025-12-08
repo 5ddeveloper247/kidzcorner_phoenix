@@ -8,7 +8,7 @@
 
 
     {{-- Slide 1 --}}
-    <div class="flex flex-col items-center justify-between h-[50vh] slide hidden">
+    <div class="flex flex-col items-center justify-between h-[20vw] self-end slide hidden">
         <h2 class="stroke title">Children, do you remember what the <span class="!text-white">stem</span> does?</h2>
         <p class="note">Note: Encourage children to share that they had learned.</p>
     </div>
@@ -40,7 +40,7 @@
 
 
     {{-- slide 4 --}}
-    <div class="flex flex-col items-center justify-between h-[50vh] slide hidden">
+    <div class="flex flex-col items-center justify-between h-[20vw] self-end slide hidden">
         <h2 class="stroke title">Let’s observe how <span class="!text-white">flowers</span> drink water.</h2>
         <p class="note">Note: Divide children into small groups for the activity.</p>
     </div>
@@ -53,7 +53,7 @@
                 <li>Take a stalk of flower from a bouquet.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/N2/LivingThings/lt34.png') }}" class="img-normal-md" />
+        <img src="{{ asset('assets/images/N2/LivingThings/lt34.png') }}" class="!w-[25vw]" />
         <p class="note">Note: Assist the children in cutting the flowers.</p>
     </div>
 

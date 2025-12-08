@@ -102,7 +102,7 @@
 
 
     {{-- slide 11 --}}
-    <div class="flex flex-col justify-center  slide hidden">
+    <div class="flex flex-col justify-between h-[30vw] slide hidden">
         <div class="flex flex-col items-center justify-center">
             <h2 class="title !text-white stroke">Individual Activity 1</h2>
             <img src="{{ asset('assets/images/pptimages/shape2.png') }}" class="img-xl" />

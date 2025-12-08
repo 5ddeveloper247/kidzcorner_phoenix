@@ -10,7 +10,7 @@
     {{-- slide 0 --}}
     <div class="flex flex-col items-center justify-center  slide hidden">
         <h2 class="title stroke">Children, do you remember how were these <span class="!text-white">shapes</span> formed?</h2>
-        <img src="{{ asset('assets/images/pptimages/cshapes.png') }}" class="!max-w-[52vw]" />
+        <img src="{{ asset('assets/images/pptimages/cshapes.png') }}" class="!w-[52vw]" />
         <p class="note">Note: Guide children to share their answers.</p>
     </div>
 
@@ -38,7 +38,7 @@
     </div>
 
     {{-- slide 4 --}}
-    <div class="flex flex-col items-center justify-center  slide hidden">
+    <div class="flex flex-col items-center justify-between h-[30vw] slide hidden">
         <h2 class="title stroke">The <span class="!text-white">structure</span> of an object gives its <span
                 class="text-white">shapes</span>.</h2>
         <img src="{{ asset('assets/images/pptimages/s5.png') }}" class="img-xl" />
@@ -50,8 +50,8 @@
         <h2 class="title stroke">Look at these magnetics tiles, they are <span class="!text-white">structure</span> of
             different <span class="!text-white">shapes</span> too.</h2>
         <div class="flex gap-[2vw] ">
-            <img src="{{ asset('assets/images/pptimages/s18.png') }}" class="img-md img-normal-md" />
-            <img src="{{ asset('assets/images/pptimages/s17.png') }}" class="img-md img-normal-md" />
+            <img src="{{ asset('assets/images/pptimages/s18.png') }}" class="!w-[25vw]" />
+            <img src="{{ asset('assets/images/pptimages/s17.png') }}" class="!w-[25vw]" />
         </div>
 
     </div>
@@ -60,7 +60,7 @@
     <div class="flex flex-col items-center justify-center  slide hidden">
         <h2 class="title stroke"><span class="!text-white">Shapes</span> can be used to create images.What do you think this
             is?</h2>
-        <img src="{{ asset('assets/images/pptimages/s2.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/pptimages/s2.png') }}" class="!w-[35vw]" />
         <p class="note">Note: Encourage the children to share their answers.</p>
     </div>
 
@@ -75,7 +75,7 @@
     <div class="flex flex-col items-center justify-center  slide hidden">
 
         <h2 class="title stroke">Look at this house. What <span class="!text-white">shapes</span> are needed to make it?</h2>
-        <img src="{{ asset('assets/images/pptimages/s3.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/pptimages/s3.png') }}" class="!w-[32vw]" />
         <p class="note">Note: Encourage the children to identify and point out the <span class="!text-white">shapes</span>.
         </p>
     </div>
@@ -85,7 +85,7 @@
         <h2 class="title stroke">A bigger house can be created by putting more <span class="!text-white">triangles</span> and
             <span class="!text-white">squares</span> together.
         </h2>
-        <img src="{{ asset('assets/images/pptimages/s3.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/pptimages/s3.png') }}" class="!w-[35vw]" />
     </div>
 
     {{-- slide 10 --}}
@@ -106,13 +106,13 @@
 
 
     {{-- slide 12 --}}
-    <div class="flex flex-col justify-center items-center  slide hidden">
+    <div class="flex flex-col justify-between h-[30vw] items-center slide hidden">
 
         <h2 class="title !text-white stroke">Individual Activity 1</h2>
 
         <div class="flex gap-[2vw]">
-            <img src="{{ asset('assets/images/pptimages/s17.png') }}" class="img-md img-normal-md" />
-            <img src="{{ asset('assets/images/pptimages/s18.png') }}" class="img-md img-normal-md" />
+            <img src="{{ asset('assets/images/pptimages/s17.png') }}" class="!w-[25vw]" />
+            <img src="{{ asset('assets/images/pptimages/s18.png') }}" class="!w-[25vw]" />
         </div>
         <div class="flex items-start">
             <h2 class="title stroke text-start"><span class="!text-white">Let's do:</span><br> Match the shapes on the
@@ -122,7 +122,7 @@
     </div>
 
     {{-- slide 13 --}}
-    <div class="flex flex-col  slide hidden h-[50vh] justify-between">
+    <div class="flex flex-col  slide hidden h-[50vh] items-center justify-between">
         <div class="title stroke text-start">
             <h2 class="text-white">let's do:</h2>
             <ul class="list-decimal pl-8">
@@ -151,7 +151,7 @@
     </div>
 
     {{-- slide 15 --}}
-    <div class="flex flex-col justify-center items-center slide hidden ">
+    <div class="flex flex-col justify-between h-[30vw] items-center slide hidden ">
         <h2 class="title !text-white stroke">Individual Activity 2</h2>
         <div class="flex gap-[2vw]">
             <img src="{{ asset('assets/images/pptimages/s17.png') }}" class="img-sm" />
@@ -167,7 +167,7 @@
 
 
     {{-- slide 16 --}}
-    <div class="flex flex-col slide hidden justify-between h-[50vh]">
+    <div class="flex flex-col slide hidden items-center justify-between h-[50vh]">
         <div class="title stroke text-start">
             <h2 class="text-white">let's do:</h2>
             <ul class="list-decimal pl-6">

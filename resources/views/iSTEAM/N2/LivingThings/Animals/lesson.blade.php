@@ -16,7 +16,7 @@
     {{-- Slide 2 --}}
     <div class="slide hidden flex flex-col items-center justify-center ">
 
-        <img src="{{ asset('assets/images/N2/LivingThings/an2.png') }}" class="w-[436px]" />
+        <img src="{{ asset('assets/images/N2/LivingThings/an2.png') }}" class="!w-[35vw]" />
         <h2 class="stroke title">Mummy replies, “”Because you are a <span class="!text-white">living thing<br /></span>but
             the doll is <span class="!text-white">non-living thing</span>.””</h2>
     </div>
@@ -32,7 +32,7 @@
 
     {{-- slide 4 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/LivingThings/an2.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/N2/LivingThings/an2.png') }}" class="!w-[30vw]" />
         <h2 class="stroke title text-start">Let’s find out:<br />How are you (<span class="!text-white">living
                 things</span>)
             and a doll
@@ -51,7 +51,7 @@
                     <p>Do you move on you own?</p>
                     <div class="flex items-center ">
                         <button class="info-btn1">
-                            <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="!max-w-[2.5vw]" />
+                            <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="!w-[2.5vw]" />
                         </button>
                         <input type="checkbox" class="chkbox" id="">
                     </div>
@@ -60,7 +60,7 @@
                     <p>Do you drink?</p>
                     <div class="flex items-center ">
                         <button class="info-btn2">
-                            <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="!max-w-[2.5vw]" />
+                            <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="!w-[2.5vw]" />
                         </button>
                         <input type="checkbox" class="chkbox" id="">
                     </div>
@@ -69,7 +69,7 @@
                     <p>Do you eat?</p>
                     <div class="flex items-center">
                         <button class="info-btn3">
-                            <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="!max-w-[2.5vw]" />
+                            <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="!w-[2.5vw]" />
                         </button>
                         <input type="checkbox" class="chkbox" id="">
                     </div>
@@ -78,7 +78,7 @@
                     <p>Do you breath?</p>
                     <div class="flex items-center">
                         <button class="info-btn4">
-                            <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="!max-w-[2.5vw]" />
+                            <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="!w-[2.5vw]" />
                         </button>
                         <input type="checkbox" class="chkbox" id="">
                     </div>
@@ -87,7 +87,7 @@
                     <p>Do you grow (get bigger)?</p>
                     <div class="flex items-center">
                         <button class="info-btn5">
-                            <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="!max-w-[2.5vw]" />
+                            <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="!w-[2.5vw]" />
                         </button>
                         <input type="checkbox" class="chkbox" id="">
                     </div>
@@ -168,9 +168,9 @@
 
     {{-- slide 11 --}}
     <div class="flex flex-col info-slide2 items-center justify-center slide hidden">
-        <div class="flex items-center gap-4">
-            <img src="{{ asset('assets/images/N2/LivingThings/an4.png') }}" class="img-normal-md"/>
-            <img src="{{ asset('assets/images/N2/LivingThings/an21.png') }}" class="img-h-sm" />
+        <div class="flex items-center gap-[1vw]">
+            <img src="{{ asset('assets/images/N2/LivingThings/an4.png') }}" class="!w-[25vw]"/>
+            <img src="{{ asset('assets/images/N2/LivingThings/an21.png') }}" class="!h-[20vw]" />
         </div>
         <h2 class="title stroke">How much water should we drink a day?</h2>
         <p class="note">Note: Encourage children to guess.</p>
@@ -198,9 +198,9 @@
 
     {{-- slide 14 --}}
     <div class="flex flex-col info-slide3 items-center justify-center slide hidden">
-        <div class="flex items-center gap-4">
-            <img src="{{ asset('assets/images/N2/LivingThings/an5.png') }}" class="img-normal-md" />
-            <img src="{{ asset('assets/images/N2/LivingThings/an9.png') }}" class="img-normal-md" />
+        <div class="flex items-center gap-[1vw]">
+            <img src="{{ asset('assets/images/N2/LivingThings/an5.png') }}" class="!w-[25vw]" />
+            <img src="{{ asset('assets/images/N2/LivingThings/an9.png') }}" class="!w-[25vw]" />
         </div>
         <h2 class="stroke title">As we grow, we eat different types of food.
             Food has all the nutrients our body needs to live and grow.</h2>
@@ -208,8 +208,8 @@
 
     {{-- slide 15 --}}
     <div class="flex flex-col info-slide3 items-center justify-center slide hidden">
-        <div class="flex items-center gap-4">
-            <img src="{{ asset('assets/images/N2/LivingThings/an13.png') }}" class="img-normal-md" />
+        <div class="flex items-center gap-[1vw]">
+            <img src="{{ asset('assets/images/N2/LivingThings/an13.png') }}" class="!w-[25vw]" />
             <img src="{{ asset('assets/images/N2/LivingThings/an14.png') }}" class="img-h-md" />
         </div>
         <h2 class="stroke title">Without eating, you have no energy to do anything.
@@ -283,11 +283,11 @@
     {{-- slide 21 --}}
     <div class="flex flex-col info-slide5 items-center justify-center slide hidden">
         <div class="flex items-center gap-[1vw]">
-            <img src="{{ asset('assets/images/N2/LivingThings/an12.png') }}" class="img-h-sm"/>
+            <img src="{{ asset('assets/images/N2/LivingThings/an12.png') }}" class="!h-[20vw]"/>
             <img src="{{ asset('assets/images/N2/LivingThings/an7.png') }}" />
-            <img src="{{ asset('assets/images/N2/LivingThings/an22.png') }}" class="img-h-sm"/>
+            <img src="{{ asset('assets/images/N2/LivingThings/an22.png') }}" class="!h-[20vw]"/>
             <img src="{{ asset('assets/images/N2/LivingThings/an7.png') }}" />
-            <img src="{{ asset('assets/images/N2/LivingThings/an23.png') }}" class="img-h-sm"/>
+            <img src="{{ asset('assets/images/N2/LivingThings/an23.png') }}" class="!h-[20vw]"/>
         </div>
         <h2 class="stroke title">We <span class="!text-white">grow</span> .We get bigger.</h2>
     </div>
@@ -311,23 +311,23 @@
             <h2>Living things are things that...:</h2>
             <ul class="!text-white">
                 <li class="flex items-center gap-[1vw]"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}"
-                        class="!max-w-[2.5vw]" />
+                        class="!w-[2.5vw]" />
                     <p> Move on their own</p>
                 </li>
                 <li class="flex items-center gap-[1vw]"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}"
-                        class="!max-w-[2.5vw]" />
+                        class="!w-[2.5vw]" />
                     <p> Drink</p>
                 </li>
                 <li class="flex items-center gap-[1vw]"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}"
-                        class="!max-w-[2.5vw]" />
+                        class="!w-[2.5vw]" />
                     <p>Eat</p>
                 </li>
                 <li class="flex items-center gap-[1vw]"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}"
-                        class="!max-w-[2.5vw]" />
+                        class="!w-[2.5vw]" />
                     <p> Breath (need air)</p>
                 </li>
                 <li class="flex items-center gap-[1vw]"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}"
-                        class="!max-w-[2.5vw]" />
+                        class="!w-[2.5vw]" />
                     <p> Grow (get bigger)</p>
                 </li>
 
@@ -354,13 +354,13 @@
     </div>
 
     {{-- slide 26 --}}
-    <div class="flex flex-col  slide hidden items-center justify-around h-[50vh]">
+    <div class="flex flex-col  slide hidden items-center justify-around h-[30vw]">
         <div class="title stroke text-start relative">
             <h2 class="title stroke text-start ">Let's do:</h2>
             <img src="{{ asset('assets/images/N2/LivingThings/g3.png') }}" class="img-xl" />
             <button class="info-btn6 absolute right-[34%] top-[90%]">
-                <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="!max-w-[2.5vw]"
-                    class="!max-w-[2.5vw]" />
+                <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="!w-[2.5vw]"
+                    class="!w-[2.5vw]" />
             </button>
         </div>
         <p class="note">Note: Guide children to discuss each point and check if their prediction is correct;
@@ -389,7 +389,7 @@
 
 
     {{-- slide 27 --}}
-    <div class="flex flex-col items-center slide hidden justify-between h-[50vh]">
+    <div class="flex flex-col items-center slide hidden justify-between h-[30vw]">
         <div class="flex- flex-col items-center title stroke text-start">
             <h2 class="title stroke text-start ">Let's do:</h2>
             <img src="{{ asset('assets/images/N2/LivingThings/g4.png') }}" class="img-xl" />
@@ -400,7 +400,7 @@
     </div>
 
     {{-- slde 28 --}}
-    <div class="flex flex-col  slide hidden items-center justify-between h-[50vh] ">
+    <div class="flex flex-col  slide hidden items-center justify-between h-[30vw] ">
         <div class="flex- flex-col items-center title stroke text-start">
             <h2 class="title stroke text-start ">Let's do:</h2>
             <img src="{{ asset('assets/images/N2/LivingThings/g5.png') }}" class="img-xl" />
@@ -411,19 +411,19 @@
     </div>
 
     {{-- sslide 29 --}}
-    <div class="flex flex-col  slide hidden items-center justify-between h-[60vh]">
+    <div class="flex flex-col  slide hidden items-center justify-between h-[30vw]">
         <div class="title stroke text-center  relative">
             <h2 class="title stroke text-start ">Let's do:</h2>
             <img src="{{ asset('assets/images/N2/LivingThings/g6.png') }}" class="img-xl" />
 
-            <button class="info-btn7 absolute left-[50%] bottom-[-5vh]">
-                <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="!max-w-[2.5vw]" />
+            <button class="info-btn7 absolute left-[50%] bottom-[-2vw]">
+                <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="!w-[2.5vw]" />
             </button>
 
 
 
-            <button class="info-btn8 absolute right-[20%] bottom-[-5vh]">
-                <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="!max-w-[2.5vw]" />
+            <button class="info-btn8 absolute right-[20%] bottom-[-2vw]">
+                <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="!w-[2.5vw]" />
             </button>
         </div>
         <p class="note">Note: Guide children to discuss each point and check if their prediction is correct;
@@ -454,9 +454,9 @@
 
     {{-- end --}}
     {{-- slide 30  --}}
-    <div class="flex flex-col  slide hidden items-center justify-between gap-20">
-        <div class="flex flex-col items-center title stroke text-center">
-            <h2 class="title stroke text-start ">Let's do:</h2>
+    <div class="flex flex-col  slide hidden items-center">
+        <div class="flex flex-col text-start">
+            <h2 class="title stroke">Let's do:</h2>
 
             <img src="{{ asset('assets/images/N2/LivingThings/g7.png') }}" class="img-xl" />
         </div>
@@ -466,9 +466,9 @@
     </div>
 
     {{-- slide 31 --}}
-    <div class="flex flex-col  slide hidden items-center justify-between gap-20">
-        <div class="flex flex-col items-center title stroke text-center">
-            <h2 class="title stroke text-start ">Let's do:</h2>
+    <div class="flex flex-col  slide hidden items-center justify-between h-[30vw]">
+        <div class="flex flex-col text-start">
+            <h2 class="title stroke">Let's do:</h2>
             <img src="{{ asset('assets/images/N2/LivingThings/g6.png') }}" class="img-xl" />
         </div>
 
@@ -522,23 +522,23 @@
             <h2>All <span class="!text-white">animals</span>....</h2>
             <ul class="!text-white">
                 <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}"
-                        class="!max-w-[2.5vw]" />
+                        class="!w-[2.5vw]" />
                     <p> Move on their own</p>
                 </li>
                 <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}"
-                        class="!max-w-[2.5vw]" />
+                        class="!w-[2.5vw]" />
                     <p> Drink</p>
                 </li>
                 <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}"
-                        class="!max-w-[2.5vw]" />
+                        class="!w-[2.5vw]" />
                     <p>Eat</p>
                 </li>
                 <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}"
-                        class="!max-w-[2.5vw]" />
+                        class="!w-[2.5vw]" />
                     <p> Breath (need air)</p>
                 </li>
                 <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}"
-                        class="!max-w-[2.5vw]" />
+                        class="!w-[2.5vw]" />
                     <p> Grow (get bigger)</p>
                 </li>
             </ul>

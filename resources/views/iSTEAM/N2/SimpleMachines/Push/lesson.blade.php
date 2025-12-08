@@ -39,7 +39,7 @@
     </div>
 
     {{-- slide 5 --}}
-    <div class="flex flex-col items-center slide hidden h-[50vh] justify-between">
+    <div class="flex flex-col items-center slide hidden h-[30vw] justify-between">
         <h2 class="title stroke !text-white">Hands-on Time 1</h2>
         <h2 class="title stroke text-start">Mission:<br />Let’s follow the instructions to build two cars and a launcher.</h2>
         <p class="note">Note: Divide children into groups and give each group 3 sets of building bricks.</p>
@@ -70,7 +70,7 @@
     </div>
 
     {{-- slide 8 --}}
-    <div class="flex flex-col items-center click1 justify-center slide hidden">
+    <div class="flex flex-col items-center click1 justify-between h-[33vw] slide hidden">
         <h2 class="title stroke">How do we build the first car? - Step 1 of 4</h2>
         <img src="{{ asset('/assets/images/N2/SimpleMachines/b25.png') }}" class="img-lg" />
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
@@ -78,14 +78,14 @@
 
 
     {{-- slide 9 --}}
-    <div class="flex flex-col items-center click1 justify-center slide hidden">
+    <div class="flex flex-col items-center click1 justify-between h-[33vw] slide hidden">
         <h2 class="title stroke">How do we build the first car? - Step 2 of 4</h2>
         <img src="{{ asset('/assets/images/N2/SimpleMachines/b8.png') }}" class="img-lg" />
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
     </div>
 
     {{-- slide 10 --}}
-    <div class="flex flex-col items-center click1 justify-center slide hidden">
+    <div class="flex flex-col items-center click1 justify-between h-[33vw] slide hidden">
         <h2 class="title stroke">How do we build the first car? - Step 3 of 4</h2>
         <img src="{{ asset('/assets/images/N2/SimpleMachines/b27.png') }}" class="img-lg" />
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
@@ -93,7 +93,7 @@
 
 
     {{-- slide 12 --}}
-    <div class="flex flex-col items-center click1 justify-center slide hidden">
+    <div class="flex flex-col items-center click1 justify-between h-[33vw] slide hidden">
         <h2 class="title stroke">How do we build the first car? - Step 4 of 4</h2>
         <img src="{{ asset('/assets/images/N2/SimpleMachines/b28.png') }}" class="img-lg" />
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
@@ -125,41 +125,41 @@
 
 
     {{-- sldie 15 --}}
-    <div class="flex flex-col items-center click2 justify-center slide hidden">
+    <div class="flex flex-col items-center click2 justify-between h-[33vw] slide hidden">
         <h2 class="title stroke">How do we build the second car? - Step 1 of 6</h2>
         <img src="{{ asset('/assets/images/N2/SimpleMachines/b3.png') }}" class="img-lg" />
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
     </div>
 
     {{-- slide 16 --}}
-    <div class="flex flex-col items-center click2 justify-center slide hidden">
+    <div class="flex flex-col items-center click2 justify-between h-[33vw] slide hidden">
         <h2 class="title stroke">How do we build the second car? - Step 2 of 6</h2>
         <img src="{{ asset('/assets/images/N2/SimpleMachines/b4.png') }}" class="img-lg" />
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
     </div>
 
     {{-- slid3 17 --}}
-    <div class="flex flex-col items-center click2 justify-center slide hidden">
+    <div class="flex flex-col items-center click2 justify-between h-[33vw] slide hidden">
         <h2 class="title stroke">How do we build the second car? - Step 3 of 6</h2>
         <img src="{{ asset('/assets/images/N2/SimpleMachines/b5.png') }}" class="img-lg" />
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
     </div>
     {{-- slide 18 --}}
-    <div class="flex flex-col items-center click2 justify-center slide hidden">
+    <div class="flex flex-col items-center click2 justify-between h-[33vw] slide hidden">
         <h2 class="title stroke">How do we build the second car? - Step 4 of 6</h2>
         <img src="{{ asset('/assets/images/N2/SimpleMachines/b6.png') }}" class="img-lg" />
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
     </div>
 
     {{-- slide 19  --}}
-    <div class="flex flex-col items-center click2 justify-center slide hidden">
+    <div class="flex flex-col items-center click2 justify-between h-[33vw] slide hidden">
         <h2 class="title stroke">How do we build the second car? - Step 5 of 6</h2>
         <img src="{{ asset('/assets/images/N2/SimpleMachines/b7.png') }}" class="img-lg" />
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
     </div>
 
     {{-- slide 20  --}}
-    <div class="flex flex-col items-center click2 justify-center slide hidden">
+    <div class="flex flex-col items-center click2 justify-between h-[33vw] slide hidden">
         <h2 class="title stroke">How do we build the second car? - Step 6 of 6</h2>
         <img src="{{ asset('/assets/images/N2/SimpleMachines/b8.png') }}" class="img-lg" />
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
@@ -190,21 +190,21 @@
 
 
     {{-- slide 23 --}}
-    <div class="flex flex-col items-center click3 justify-center slide hidden">
+    <div class="flex flex-col items-center click3 justify-between h-[33vw] slide hidden">
         <h2 class="title stroke">How do we build the a launcher? - Step 1 of 3</h2>
         <img src="{{ asset('assets/images/N2/SimpleMachines/l1.png') }}" class="img-lg" />
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
     </div>
 
     {{-- slide 24 --}}
-    <div class="flex flex-col items-center click3 justify-center slide hidden">
+    <div class="flex flex-col items-center click3 justify-between h-[33vw] slide hidden">
         <h2 class="title stroke">How do we build the a launcher? - Step 2 of 3</h2>
         <img src="{{ asset('assets/images/N2/SimpleMachines/l2.png') }}" class="img-lg" />
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
     </div>
 
     {{-- slide 25 --}}
-    <div class="flex flex-col items-center click3 justify-center slide hidden">
+    <div class="flex flex-col items-center click3 justify-between h-[33vw] slide hidden">
         <h2 class="title stroke">How do we build the a launcher? - Step 3 of 3</h2>
         <img src="{{ asset('assets/images/N2/SimpleMachines/l3.png') }}" class="img-lg" />
         <p class="note">Note: Have each group of children pick up the right parts and then do the step together.</p>
@@ -231,7 +231,7 @@
 
 
     {{-- slide  27 --}}
-    <div class="flex flex-col h-[50vh] justify-between slide hidden items-center">
+    <div class="flex flex-col h-[30vw] justify-between slide hidden items-center">
 
         <h2 class="title stroke !text-white">Hands-on Time 2</h2>
         <div class="text-start">
@@ -271,7 +271,7 @@
 
 
     {{-- slide 30 --}}
-    <div class="flex flex-col h-[50vh] justify-between slide hidden items-center">
+    <div class="flex flex-col h-[30vw] justify-between slide hidden items-center">
 
         <h2 class="title stroke">Based on your experience. which car is easier to move up the inclined plane: first or
             second? Why? What do you find out from the test?</h2>
