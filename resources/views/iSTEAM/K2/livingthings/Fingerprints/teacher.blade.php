@@ -70,7 +70,7 @@
                     the fingerprints.</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f13.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f13.png') }}" class="!w-[35vw]" />
     </div>
 
 

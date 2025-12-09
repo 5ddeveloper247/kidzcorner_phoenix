@@ -20,7 +20,7 @@
 
         <div class="flex flex-col  items-start justify-between">
             <h2 class="t-title ">Keywords:</h2>
-            <div>
+            <div class="flex gap-[6vw] items-center">
                 <ul class="list-disc ">
                     <li>Living Thing</li>
                     <li>Non-living Thing</li>
@@ -109,7 +109,7 @@
                 <li>A stone or marble</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/pthings/p15.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K2/livingthings/pthings/p15.png') }}" class="!w-[30vw]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
@@ -124,7 +124,7 @@
                 <li>ut a stone or marble on top of the leaf so that the leaf is fully submerged under the water.</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/pthings/p15.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K2/livingthings/pthings/p15.png') }}" class="!w-[30vw]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
@@ -137,7 +137,7 @@
                 <li>5. Check and observe the leaf every hour for a few times.</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/pthings/p27.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K2/livingthings/pthings/p27.png') }}" class="!w-[30vw]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 

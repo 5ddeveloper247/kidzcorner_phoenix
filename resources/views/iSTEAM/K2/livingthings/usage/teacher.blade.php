@@ -46,7 +46,7 @@
                     <li>Plain papers</li>
                     <li>A suitable screen wipe</li>
                 </ul>
-                <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u8.png') }}" class="w-[150px] h-[150px]" />
+                <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u8.png') }}" class="!h-[10vw]" />
             </div>
         </div>
         <div>
@@ -169,7 +169,7 @@
                     mirror and redo the activity from step 1.] </li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u15.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/u15.png') }}" class="!w-[35vw]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
@@ -237,9 +237,9 @@
     {{-- slide 10 --}}
     <div class="t-slide flex  !text-white flex-col items-center justify-start  text-start">
         <div>
+            <h2 class=" t-title">How to dust and lift a fingerprint and things to consider:</h2>
+            <h2 class="t-title">At the end, have children discuss and share their activity experience.</h2>
             <ul class="list-disc !text-start">
-                <h2 class=" t-title">How to dust and lift a fingerprint and things to consider:</h2>
-                <li>At the end, have children discuss and share their activity experience.</li>
                 <li>Explain to children that:</li>
                 <li class="list-none text-[1.1vw]">- Lotion contains lots of oil and fat. When you apply it, your
                     fingertips become
@@ -262,9 +262,9 @@
     {{-- slide 11 --}}
     <div class="t-slide flex  !text-white flex-col items-center justify-start  text-start">
         <div>
+            <h2 class=" t-title">Preparations for Class Activity - Solve A Case:</h2>
+            <h2 class="t-title">A folder</h2>
             <ul class="list-disc !text-start">
-                <h2 class=" t-title">Preparations for Class Activity - Solve A Case:</h2>
-                <li>A folder</li>
                 <h2 class=" t-title">How to carry out Solve A Case activity and things to consider:</h2>
                 <li>Note: Print out all the details of the case beforehand and put them in a folder
                     (total of 10 pages from next page onwards).</li>
@@ -289,9 +289,9 @@
     {{-- slide 11 --}}
     <div class="t-slide flex  !text-white flex-col items-center justify-start  text-start">
         <div>
+            <h2 class=" t-title">Solve A Case:</h2>
+            <h2 class="t-title">What happened?</h2>
             <ul class=" !text-start">
-                <h2 class=" t-title">Solve A Case:</h2>
-                <li>What happened?</li>
                 <li>Teacher Sue walked into the art and craft room this morning, and was shocked to
                     see that the room was in
 
@@ -465,7 +465,7 @@
         <div>
             <h2 class="!text-white title stroke">Fun Facts</h2>
             <h2 class="t-title">What and how to set up:</h2>
-            <ul class="list-disc">
+            <ul class="list-disc space-y-[1vw]">
                 <p class="text-[1.4vw]">Use your creativity to design graphic fact sheet for every fun fact
                     below. Guide children to understand the facts.</p>
                 <li>Identical twins are indistinguishable via DNA testing, but

@@ -45,7 +45,7 @@
         <table class="w-full table-auto border-collapse !text-white text-[1.4vw]">
             <!-- Header -->
             <thead>
-                <tr class="border-2 border-white !text-[30px] font-normal">
+                <tr class="border-[.1vw] border-white !text-[30px] font-normal">
                     <th class="p-[.6vw] !text-[.8vw] text-center">People (Living Thing)</th>
                     <th class="p-[.6vw] !text-[.8vw] text-center "></th>
                     <th class="p-[.6vw] !text-[.8vw] text-left ">Teddy Bear (Non-Living Thing)</th>
@@ -54,35 +54,35 @@
 
             <!-- Body (6 rows) -->
             <tbody class="text-start">
-                <tr class="border-2 border-white">
-                    <td class="p-[.6vw] !text-[.8vw] border-2 border-white ">Do you move on your own?</td>
-                    <td class="p-[.6vw] !text-[.8vw] border-2 border-white ">
+                <tr class="border-[.1vw] border-white">
+                    <td class="p-[.6vw] !text-[.8vw] border-[.1vw] border-white ">Do you move on your own?</td>
+                    <td class="p-[.6vw] !text-[.8vw] border-[.1vw] border-white ">
                         <button class="info-btn1">
                             <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="!w-[3vw]" />
                         </button>
                     </td>
-                    <td class="p-[.6vw] !text-[.8vw] border-2  border-white">Rock</td>
+                    <td class="p-[.6vw] !text-[.8vw] border-[.1vw]  border-white">Rock</td>
                 </tr>
 
-                <tr class="border-2 border-white">
-                    <td class="p-[.6vw] !text-[.8vw] border-2 border-white">Do you need water?</td>
-                    <td class="p-[.6vw] !text-[.8vw] border-2 border-white ">
+                <tr class="border-[.1vw] border-white">
+                    <td class="p-[.6vw] !text-[.8vw] border-[.1vw] border-white">Do you need water?</td>
+                    <td class="p-[.6vw] !text-[.8vw] border-[.1vw] border-white ">
 
                     </td>
                     <td class="p-[.6vw] !text-[.8vw]">Plastic bottle</td>
                 </tr>
 
-                <tr class="border-2 border-white">
-                    <td class="p-[.6vw] !text-[.8vw] border-2 border-white">Do you need food?</td>
-                    <td class="p-[.6vw] !text-[.8vw] border-2 border-white ">
+                <tr class="border-[.1vw] border-white">
+                    <td class="p-[.6vw] !text-[.8vw] border-[.1vw] border-white">Do you need food?</td>
+                    <td class="p-[.6vw] !text-[.8vw] border-[.1vw] border-white ">
 
                     </td>
                     <td class="p-[.6vw] !text-[.8vw]">Paper</td>
                 </tr>
 
-                <tr class="border-2 border-white">
-                    <td class="p-[.6vw] !text-[.8vw] border-2 border-white">Do you need air?</td>
-                    <td class="p-[.6vw] !text-[.8vw] border-2  border-white ">
+                <tr class="border-[.1vw] border-white">
+                    <td class="p-[.6vw] !text-[.8vw] border-[.1vw] border-white">Do you need air?</td>
+                    <td class="p-[.6vw] !text-[.8vw] border-[.1vw]  border-white ">
                         <button class="info-btn2 ">
                             <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class=" !w-[3vw]" />
                         </button>
@@ -90,17 +90,17 @@
                     <td class="p-[.6vw] !text-[.8vw]">Glass jar</td>
                 </tr>
 
-                <tr class="border-2 border-white">
-                    <td class="p-[.6vw] !text-[.8vw] border-2 border-white">Do you grow (get bigger)?</td>
-                    <td class="p-[.6vw] !text-[.8vw] border-2 border-white  ">
+                <tr class="border-[.1vw] border-white">
+                    <td class="p-[.6vw] !text-[.8vw] border-[.1vw] border-white">Do you grow (get bigger)?</td>
+                    <td class="p-[.6vw] !text-[.8vw] border-[.1vw] border-white  ">
                         {{-- <button class="px-3 py-1 rounded-md border border-gray-300 hover:bg-gray-100">Observe</button> --}}
                     </td>
                     <td class="p-[.6vw] !text-[.8vw]">Toy car</td>
                 </tr>
 
-                <tr class="border-2 border-white">
-                    <td class="p-[.6vw] !text-[.8vw] border-2 border-white">Do mothers give births to babies?</td>
-                    <td class="p-[.6vw] !text-[.8vw] border-2 border-white  ">
+                <tr class="border-[.1vw] border-white">
+                    <td class="p-[.6vw] !text-[.8vw] border-[.1vw] border-white">Do mothers give births to babies?</td>
+                    <td class="p-[.6vw] !text-[.8vw] border-[.1vw] border-white  ">
                         <button class="info-btn3">
                             <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="!w-[3vw]" />
                         </button>

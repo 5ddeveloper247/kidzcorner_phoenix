@@ -18,7 +18,7 @@
     </div>
 
     {{-- Slide 2 --}}
-    <div class="slide hidden flex flex-col h-[50%] justify-between items-center">
+    <div class="slide hidden flex flex-col h-[50%] justify-between items-center self-end">
         <h2 class="title stroke">When do you think we started having these ridges
             on our fingers and thumbs?</h2>
         <p class="note">Note: Encourage children to guess boldly.</p>
@@ -155,7 +155,7 @@
     </div>
 
     {{-- Slide 18 --}}
-    <div class="slide hidden flex flex-col items-center justify-start">
+    <div class="slide hidden flex flex-col items-center justify-between h-[30vw]">
         <div class="self-start text-start">
             <h2 class="title stroke">What do you learn: <br>
                 Do you have the same fingerprint pattern on each finger?</h2>
@@ -165,7 +165,7 @@
     </div>
 
     {{-- Slide 19 --}}
-    <div class="slide hidden flex flex-col items-center justify-start">
+    <div class="slide hidden flex flex-col items-center justify-between h-[30vw]">
         <div class="self-start text-start">
             <h2 class="title stroke">What do you learn: <br>
                 Which fingerprint pattern do you have on each finger?</h2>
@@ -175,7 +175,7 @@
     </div>
 
     {{-- Slide 20 --}}
-    <div class="slide hidden flex flex-col items-center justify-start">
+    <div class="slide hidden flex flex-col items-center justify-between h-[30vw]">
         <div class="self-start text-start">
             <h2 class="title stroke">What do you learn: <br>
                 Do you have all three types of fingerprint patterns?</h2>
@@ -185,7 +185,7 @@
     </div>
 
     {{-- Slide 21 --}}
-    <div class="slide hidden flex flex-col items-center justify-start">
+    <div class="slide hidden flex flex-col items-center justify-between h-[30vw]">
         <div class="self-start text-start">
             <h2 class="title stroke">What do you learn: <br>
                 For the fingers with the same fingerprint pattern, do the
@@ -212,14 +212,14 @@
     {{-- Slide 24 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
         <h2 class="!text-white title stroke">Class Activity</h2>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/fp3.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/fp3.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke text-start">Let's find out: <br>
             How many fingers and thumbs in the class have loop, whorl
             and arch patterns?</h2>
     </div>
 
     {{-- Slide 25 --}}
-    <div class="slide hidden flex flex-col items-center justify-start">
+    <div class="slide hidden flex flex-col items-center justify-between h-[32vw]">
         <div class="self-start text-start">
             <h2 class="title stroke text-start">Let's do:</h2>
             <ol class="lesson-ul list-decimal stroke">
@@ -232,7 +232,7 @@
     </div>
 
     {{-- Slide 26 --}}
-    <div class="slide hidden flex flex-col items-center justify-start">
+    <div class="slide hidden flex flex-col items-center justify-between h-[32vw]">
         <div class="self-start text-start">
             <h2 class="title stroke text-start">Let's do:</h2>
             <ol class="lesson-ul list-decimal stroke" start="2">
@@ -269,7 +269,7 @@
     </div>
 
     {{-- Slide 30 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
+    <div class="slide hidden flex flex-col items-center justify-between h-[30vw]">
         <h2 class="title stroke text-start">What do you learn: <br>
             How many fingers and thumbs in the class have loop, whorl
             and arch patterns?</h2>
@@ -278,7 +278,7 @@
     </div>
 
     {{-- Slide 31 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
+    <div class="slide hidden flex flex-col items-center justify-between h-[30vw]">
         <h2 class="title stroke text-start">What do you learn: <br>
             Which is the most and least common fingerprint pattern
             in the class?</h2>
@@ -299,7 +299,7 @@
         <h2 class="title stroke !text-white">Learning Journal</h2>
         <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center p-[20px] flex flex-col justify-center items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
-            <img src="{{ asset('assets/images/K2/livingthings/fingerprints/fp14.png') }}"/>
+            <img src="{{ asset('assets/images/K2/livingthings/fingerprints/fp14.png') }}" class="w-full"/>
         </div>
     </div>
 

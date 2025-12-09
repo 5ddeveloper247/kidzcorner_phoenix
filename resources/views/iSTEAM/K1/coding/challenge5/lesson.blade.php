@@ -60,7 +60,7 @@
                     plan?</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/K1/coding/challenge5/ch3.png') }}" class="img-h-sm" />
+        <img src="{{ asset('assets/images/K1/coding/challenge5/ch3.png') }}" class="!h-[20vw]" />
         <p class="note text-center">Note: Have each child in the group plan 1 or 2 routes using the learning journals.</p>
     </div>
 
@@ -73,8 +73,8 @@
             </ol>
         </div>
         <div class="flex items-end gap-[1vw]">
-            <img src="{{ asset('assets/images/K1/coding/challenge5/ch3.png') }}" class="img-h-sm" />
-            <img src="{{ asset('assets/images/K1/coding/challenge4/ch11.png') }}" class="img-sm" />
+            <img src="{{ asset('assets/images/K1/coding/challenge5/ch3.png') }}" class="!h-[20vw]" />
+            <img src="{{ asset('assets/images/K1/coding/challenge4/ch11.png') }}" class="!w-[30vw]" />
         </div>
         <p class="note text-center">Note: Have children lay out the steps in their learning journals. Check the steps and
             advise if incorrect.</p>
@@ -89,8 +89,8 @@
             </ol>
         </div>
         <div class="flex items-end gap-[1vw]">
-            <img src="{{ asset('assets/images/K1/coding/challenge5/ch3.png') }}" class="img-h-sm" />
-            <img src="{{ asset('assets/images/K1/coding/challenge4/ch11.png') }}" class="img-sm" />
+            <img src="{{ asset('assets/images/K1/coding/challenge5/ch3.png') }}" class="!h-[20vw]" />
+            <img src="{{ asset('assets/images/K1/coding/challenge4/ch11.png') }}" class="!w-[30vw]" />
         </div>
         <p class="note text-center">Note: Have children compare the steps needed for each route (the learning journals) and
             decide from there.</p>
@@ -105,7 +105,7 @@
             </ol>
         </div>
         <div class="flex items-center gap-[1vw]">
-            <img src="{{ asset('assets/images/K1/coding/challenge5/ch3.png') }}" class="img-h-sm" />
+            <img src="{{ asset('assets/images/K1/coding/challenge5/ch3.png') }}" class="!h-[20vw]" />
             <img src="{{ asset('assets/images/K1/coding/challenge1/ch8.png') }}" class="img-sm" />
         </div>
         <p class="note text-center">Note: Have children work in groups to work out the programming steps in Blockly.</p>
@@ -121,7 +121,7 @@
             </ol>
         </div>
         <div class="flex items-center gap-[1vw]">
-            <img src="{{ asset('assets/images/K1/coding/challenge5/ch3.png') }}" class="img-h-sm" />
+            <img src="{{ asset('assets/images/K1/coding/challenge5/ch3.png') }}" class="!h-[20vw]" />
             <img src="{{ asset('assets/images/K1/coding/challenge1/ch8.png') }}" class="img-sm" />
         </div>
         <p class="note text-center">Note: Have children turn the programme on and start a stopwatch at the same time; stop
@@ -137,7 +137,7 @@
             </ol>
         </div>
         <div class="flex items-center gap-[1vw]">
-            <img src="{{ asset('assets/images/K1/coding/challenge5/ch3.png') }}" class="img-h-sm" />
+            <img src="{{ asset('assets/images/K1/coding/challenge5/ch3.png') }}" class="!h-[20vw]" />
             <img src="{{ asset('assets/images/K1/coding/challenge1/ch8.png') }}" class="img-sm" />
         </div>
         <p class="note text-center">Note: Have children work in groups to work out the programming steps in Blockly.</p>
@@ -153,7 +153,7 @@
             </ol>
         </div>
         <div class="flex items-center gap-[1vw]">
-            <img src="{{ asset('assets/images/K1/coding/challenge5/ch3.png') }}" class="img-h-sm" />
+            <img src="{{ asset('assets/images/K1/coding/challenge5/ch3.png') }}" class="!h-[20vw]" />
             <img src="{{ asset('assets/images/K1/coding/challenge1/ch8.png') }}" class="img-sm" />
         </div>
         <p class="note text-center">Note: Have children turn the programme on and start a stopwatch at the same time; stop
@@ -169,7 +169,7 @@
             </ol>
         </div>
         <div class="flex items-center gap-[1vw]">
-            <img src="{{ asset('assets/images/K1/coding/challenge5/ch3.png') }}" class="img-h-sm" />
+            <img src="{{ asset('assets/images/K1/coding/challenge5/ch3.png') }}" class="!h-[20vw]" />
             <img src="{{ asset('assets/images/K1/coding/challenge1/ch8.png') }}" class="img-sm" />
         </div>
         <p class="note text-center">Note: Have children work in groups to work out the programming steps in Blockly.</p>
@@ -185,7 +185,7 @@
             </ol>
         </div>
         <div class="flex items-center gap-[1vw]">
-            <img src="{{ asset('assets/images/K1/coding/challenge5/ch3.png') }}" class="img-h-sm" />
+            <img src="{{ asset('assets/images/K1/coding/challenge5/ch3.png') }}" class="!h-[20vw]" />
             <img src="{{ asset('assets/images/K1/coding/challenge1/ch8.png') }}" class="img-sm" />
         </div>
         <p class="note text-center">Note: Have children turn the programme on and start a stopwatch at the same time; stop
@@ -201,7 +201,7 @@
             </ol>
         </div>
         <div class="flex items-center gap-[1vw]">
-            <img src="{{ asset('assets/images/K1/coding/challenge5/ch3.png') }}" class="img-h-sm" />
+            <img src="{{ asset('assets/images/K1/coding/challenge5/ch3.png') }}" class="!h-[20vw]" />
             <img src="{{ asset('assets/images/K1/coding/challenge1/ch8.png') }}" class="img-sm" />
         </div>
         <p class="note text-center">Note: Have the groups take turns to show their findings to the class. After that, guide
@@ -215,7 +215,7 @@
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p class="text-center">How do you plan the route for a robot to find all the cats as soon as possible? <br>Draw
                 arrows to show the route.</p>
-            <img src="{{ asset('assets/images/K1/coding/challenge5/ch3.png') }}" class="img-h-sm" />
+            <img src="{{ asset('assets/images/K1/coding/challenge5/ch3.png') }}" class="!h-[20vw]" />
         </div>
     </div>
 

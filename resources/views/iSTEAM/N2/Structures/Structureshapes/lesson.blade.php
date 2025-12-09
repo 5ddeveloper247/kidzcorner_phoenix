@@ -8,8 +8,8 @@
     {{-- Slide 1 --}}
     <div class="slide flex flex-col items-center justify-center">
         <div class="flex flex-col gap-1 justify-center items-center">
-            <img src="{{ asset('/assets/images/N2/structure/str2/s1.png') }}" class="img-normal-md" />
-            <img src="{{ asset('/assets/images/N2/structure/str2/s2.png') }}" class="img-normal-md" />
+            <img src="{{ asset('/assets/images/N2/structure/str2/s1.png') }}" class="!w-[35vw]" />
+            <img src="{{ asset('/assets/images/N2/structure/str2/s2.png') }}" class="!w-[35vw]" />
         </div>
         <h2 class="title stroke">Children, do you remember what these are?</h2>
         <p class="note">Note: Guide children to share their answers.</p>
@@ -18,8 +18,8 @@
     {{-- Slide 2 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
         <div class="flex flex-col gap-1 justify-center items-center">
-            <img src="{{ asset('/assets/images/N2/structure/str2/s1.png') }}" class="img-normal-md" />
-            <img src="{{ asset('/assets/images/N2/structure/str2/s2.png') }}" class="img-normal-md" />
+            <img src="{{ asset('/assets/images/N2/structure/str2/s1.png') }}" class="!w-[35vw]" />
+            <img src="{{ asset('/assets/images/N2/structure/str2/s2.png') }}" class="!w-[35vw]" />
         </div>
         <h2 class="title stroke">These are different <span class="!text-white">structures</span> with different <span
                 class="text-white">shapes</span>.</h2>
@@ -29,8 +29,8 @@
     {{-- Slide 3 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
         <div class="flex flex-col gap-1 justify-center items-center">
-            <img src="{{ asset('/assets/images/N2/structure/str2/s1.png') }}" class="img-normal-md" />
-            <img src="{{ asset('/assets/images/N2/structure/str2/s2.png') }}" class="img-normal-md" />
+            <img src="{{ asset('/assets/images/N2/structure/str2/s1.png') }}" class="!w-[35vw]" />
+            <img src="{{ asset('/assets/images/N2/structure/str2/s2.png') }}" class="!w-[35vw]" />
         </div>
         <h2 class="title stroke">The <span class="!text-white">structures</span> have a base that helps them
             stand firmly on the ground.</h2>
@@ -108,7 +108,7 @@
     </div>
 
     {{-- Slide 13 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-[50vh]">
+    <div class="slide hidden flex flex-col items-center justify-between h-[30vw]">
         <h2 class="title stroke !text-white">Individual Activity 1</h2>
         <h2 class="title stroke">Create a block structure using the <br>
             parts from the construction set.</h2>
@@ -184,7 +184,7 @@
     </div>
 
     {{-- Slide 22 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-[50vh]">
+    <div class="slide hidden flex flex-col items-center justify-between h-[30vw]">
         <h2 class="title stroke !text-white">Class Activity</h2>
         <h2 class="title stroke">Design a structure using the different shapes.
             Build it with the construction set.</h2>
@@ -204,7 +204,7 @@
     </div>
 
     {{-- Slide 24 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-[50vh]">
+    <div class="slide hidden flex flex-col items-center justify-between h-[30vw]">
         <div class="text-start">
             <h2 class="title stroke text-start">Steps:</h2>
             <ol class="lesson-ul list-decimal stroke" start="3">
@@ -231,7 +231,7 @@
     </div>
 
     {{-- Slide 26 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-[55vh]">
+    <div class="slide hidden flex flex-col items-center justify-between h-[30vw]">
         <div class="text-start">
             <h2 class="title stroke text-start">Possible questions during hands-on:</h2>
             <ol class="lesson-ul list-decimal stroke">

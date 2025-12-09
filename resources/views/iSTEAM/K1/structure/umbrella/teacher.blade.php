@@ -134,9 +134,9 @@
 
     {{-- sldie 5 --}}
     <div class="flex !text-white flex-col t-slide justify-start  text-start">
-        <div>
-            <h2 class=" t-title">Possible questions for reflection:</h2>
-            <ul class="list-disc space-y-[1vw]">
+        <h2 class=" t-title">Possible questions for reflection:</h2>
+        <div class="space-y-[1vw]">
+            <ul class="list-disc space-y-[.5vw]">
                 <li>
                     What are the three main parts of the structure of an umbrella?
                 </li>
@@ -151,10 +151,10 @@
             </ul>
 
             <p>------------------------------------------------------</p>
-
-            <li>
-                At the end of the lesson, display all the umbrellas created in the classroom.
-            </li>
+            <ul class="list-disc">
+                <li>
+                    At the end of the lesson, display all the umbrellas created in the classroom.
+                </li>
             </ul>
         </div>
     </div>

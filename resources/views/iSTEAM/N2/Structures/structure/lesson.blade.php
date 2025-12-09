@@ -132,7 +132,7 @@
     </div>
 
     {{-- Slide 19 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-[50vh]">
+    <div class="slide hidden flex flex-col items-center justify-between h-[30vw]">
         <h2 class="title stroke !text-white">Individual Activity - Make a Square 1</h2>
         <h2 class="title stroke text-center">Create a square structure using the
             parts provided.</h2>
@@ -140,7 +140,7 @@
     </div>
 
     {{-- Slide 20 --}}
-    <div class="slide hidden flex flex-col items-center justify-start">
+    <div class="slide hidden flex flex-col items-center justify-between h-[30vw]">
         <div class="text-start">
             <h2 class="title stroke">Let's do:</h2>
             <ol class="lesson-ul list-decimal title stroke">
@@ -172,12 +172,12 @@
                 <li>Use the connectors to fix the rectangle pieces together at each connecting point.</li>
             </ol>
         </div>
-        <img src="{{ asset('/assets/images//N2/structure/str/st16.png') }}" class="img-md" />
+        <img src="{{ asset('/assets/images//N2/structure/str/st16.png') }}" class="!w-[35vw]" />
         <p class="note">Note: Teacher to assist if children are unable to connect the parts together.</p>
     </div>
 
     {{-- Slide 23 --}}
-    <div class="slide hidden flex flex-col items-center justify-start">
+    <div class="slide hidden flex flex-col items-center justify-between h-[30vw]">
         <div class="text-start">
             <h2 class="title stroke">Let's do:</h2>
             <ol class="lesson-ul list-decimal title stroke" start="4">
@@ -192,7 +192,7 @@
     </div>
 
     {{-- Slide 24 --}}
-    <div class="slide hidden flex flex-col items-center justify-start">
+    <div class="slide hidden flex flex-col items-center justify-between h-[30vw]">
         <div class="text-start">
             <h2 class="title stroke">Let's do:</h2>
             <ol class="lesson-ul list-decimal title stroke" start="5">
@@ -200,15 +200,15 @@
             </ol>
         </div>
         <div class="flex items-center gap-[1vw]">
-            <img src="{{ asset('/assets/images//N2/structure/str/st19.png') }}" class="img-xs" />
-            <img src="{{ asset('/assets/images//N2/structure/str/st20.png') }}" class="img-xs" />
-            <img src="{{ asset('/assets/images//N2/structure/str/st21.png') }}" class="img-xs" />
+            <img src="{{ asset('/assets/images//N2/structure/str/st19.png') }}" class="!w-[18vw]" />
+            <img src="{{ asset('/assets/images//N2/structure/str/st20.png') }}" class="!w-[18vw]" />
+            <img src="{{ asset('/assets/images//N2/structure/str/st21.png') }}" class="!w-[18vw]" />
         </div>
         <p class="note">Note: Teacher to assist if children are unable to connect the parts together.</p>
     </div>
 
     {{-- Slide 25 --}}
-    <div class="slide hidden flex flex-col items-center justify-start">
+    <div class="slide hidden flex flex-col items-center justify-between h-[30vw]">
         <div class="text-start">
             <h2 class="title stroke">Let's do:</h2>
             <ol class="lesson-ul list-decimal title stroke" start="6">
@@ -226,7 +226,7 @@
     </div>
 
     {{-- Slide 26 --}}
-    <div class="slide hidden flex flex-col items-center justify-center">
+    <div class="slide hidden flex flex-col items-center justify-between h-[20vw] self-end">
         <h2 class="title stroke">Children, why do you think the <span class="!text-white">structure</span> is
             unable to stand on its own?</h2>
         <p class="note align-bottom">Note: Teacher to assist if children are unable to connect the parts together.</p>
@@ -248,7 +248,7 @@
     </div>
 
     {{-- Slide 29 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-[50vh]">
+    <div class="slide hidden flex flex-col items-center justify-between h-[30vw]">
         <h2 class="title stroke !text-white">Individual Activity - Make a Square 2</h2>
         <h2 class="title stroke">Using the same parts provided,
             make a square that can stand on its own.</h2>
@@ -257,7 +257,7 @@
     </div>
 
     {{-- Slide 30 --}}
-    <div class="slide hidden flex flex-col items-center justify-start">
+    <div class="slide hidden flex flex-col items-center justify-between h-[32vw]">
         <div class="text-start">
             <h2 class="title stroke">Let's do:</h2>
             <ol class="lesson-ul list-decimal title stroke">
@@ -270,7 +270,7 @@
     </div>
 
     {{-- Slide 31 --}}
-    <div class="slide hidden flex flex-col items-center justify-start">
+    <div class="slide hidden flex flex-col items-center justify-between h-[32vw]">
         <div class="text-start">
             <h2 class="title stroke">Let's do:</h2>
             <ol class="lesson-ul list-decimal title stroke" start="2">
@@ -283,7 +283,7 @@
     </div>
 
     {{-- Slide 32 --}}
-    <div class="slide hidden flex flex-col items-center justify-start">
+    <div class="slide hidden flex flex-col items-center justify-between h-[32vw]">
         <div class="text-start">
             <h2 class="title stroke">Let's do:</h2>
             <ol class="lesson-ul list-decimal title stroke" start="3">
@@ -295,7 +295,7 @@
     </div>
 
     {{-- Slide 33 --}}
-    <div class="slide hidden flex flex-col items-center justify-start">
+    <div class="slide hidden flex flex-col items-center justify-between h-[32vw]">
         <div class="text-start">
             <h2 class="title stroke">Let's do:</h2>
             <ol class="lesson-ul list-decimal title stroke" start="4">
@@ -310,7 +310,7 @@
     </div>
 
     {{-- Slide 34 --}}
-    <div class="slide hidden flex flex-col items-center justify-start">
+    <div class="slide hidden flex flex-col items-center justify-between h-[32vw]">
         <div class="text-start">
             <h2 class="title stroke">Let's do:</h2>
             <ol class="lesson-ul list-decimal title stroke" start="5">
@@ -318,9 +318,9 @@
             </ol>
         </div>
         <div class="flex items-center justify-center gap-[1vw]">
-            <img src="{{ asset('/assets/images//N2/structure/str/st30.png') }}" class="img-xs" />
-            <img src="{{ asset('/assets/images//N2/structure/str/st31.png') }}" class="img-xs" />
-            <img src="{{ asset('/assets/images//N2/structure/str/st32.png') }}" class="img-xs" />
+            <img src="{{ asset('/assets/images//N2/structure/str/st30.png') }}" class="!w-[18vw]" />
+            <img src="{{ asset('/assets/images//N2/structure/str/st31.png') }}" class="!w-[18vw]" />
+            <img src="{{ asset('/assets/images//N2/structure/str/st32.png') }}" class="!w-[18vw]" />
         </div>
         <p class="note">Note: Encourage and guide the children to try.</p>
     </div>
@@ -344,7 +344,7 @@
     </div>
 
     {{-- Slide 36 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-[18vw]">
+    <div class="slide hidden flex flex-col items-center justify-between h-[18vw] self-end">
         <h2 class="title stroke">Children, why do you think the structure is
             now able to stand on its own?</h2>
         <p class="note">Note: Encourage children to share their answers.</p>

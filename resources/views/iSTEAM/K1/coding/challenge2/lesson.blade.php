@@ -43,7 +43,7 @@
                 <li>What is the arrangement of shapes on your coding mat? Plot them in your learning journal.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/K1/coding/challenge2/ch4.png') }}" class="img-h-sm" />
+        <img src="{{ asset('assets/images/K1/coding/challenge2/ch4.png') }}" class="!h-[20vw]" />
         <p class="note text-center">Note: Have children copy the arrangement of shapes in their learning journal.</p>
     </div>
 
@@ -55,7 +55,7 @@
                 <li>How do you plan the route? Draw arrows to show the route in your learning journal.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/K1/coding/challenge2/ch4.png') }}" class="img-h-sm" />
+        <img src="{{ asset('assets/images/K1/coding/challenge2/ch4.png') }}" class="!h-[20vw]" />
         <p class="note text-center">Note: Have children copy the arrangement of shapes in their learning journal.</p>
     </div>
 
@@ -68,14 +68,14 @@
             </ol>
         </div>
         <div class="flex items-center gap-[1vw]">
-            <img src="{{ asset('assets/images/K1/coding/challenge2/ch4.png') }}" class="img-h-sm" />
+            <img src="{{ asset('assets/images/K1/coding/challenge2/ch4.png') }}" class="!h-[20vw]" />
             <div class="flex flex-col items-start gap-[1vw]">
                 <div class="flex items-center gap-[1vw]">
-                    <img src="{{ asset('assets/images/K1/coding/challenge1/ch5.png') }}" class="img-xs" />
-                    <img src="{{ asset('assets/images/K1/coding/challenge1/ch4.png') }}" />
-                    <img src="{{ asset('assets/images/K1/coding/challenge1/ch6.png') }}" class="img-xs" />
+                    <img src="{{ asset('assets/images/K1/coding/challenge1/ch5.png') }}" class="!w-[6vw]" />
+                    <img src="{{ asset('assets/images/K1/coding/challenge1/ch4.png') }}" class="!w-[2vw]"/>
+                    <img src="{{ asset('assets/images/K1/coding/challenge1/ch6.png') }}" class="!w-[3vw]" />
                 </div>
-                <img src="{{ asset('assets/images/K1/coding/challenge1/ch7.png') }}" />
+                <img src="{{ asset('assets/images/K1/coding/challenge1/ch7.png') }}" class="!w-[30vw]" />
             </div>
         </div>
         <p class="note text-center">Note: Have children lay out the steps on the floor. Check the steps and advise if
@@ -91,8 +91,8 @@
             </ol>
         </div>
         <div class="flex items-center gap-[1vw]">
-            <img src="{{ asset('assets/images/K1/coding/challenge2/ch4.png') }}" class="img-h-sm" />
-            <img src="{{ asset('assets/images/K1/coding/challenge1/ch8.png') }}" class="img-h-sm" />
+            <img src="{{ asset('assets/images/K1/coding/challenge2/ch4.png') }}" class="!h-[20vw]" />
+            <img src="{{ asset('assets/images/K1/coding/challenge1/ch8.png') }}" class="!h-[20vw]" />
         </div>
         <p class="note text-center">Note: Have children work out the programming steps in Blockly and show the rest.</p>
     </div>
@@ -107,7 +107,7 @@
         </div>
         <div class="flex items-center gap-[1vw]">
             <img src="{{ asset('assets/images/K1/coding/challenge2/ch4.png') }}" class="img-xs" />
-            <img src="{{ asset('assets/images/K1/coding/challenge1/ch8.png') }}" class="img-h-sm" />
+            <img src="{{ asset('assets/images/K1/coding/challenge1/ch8.png') }}" class="!h-[20vw]" />
         </div>
         <p class="note text-center">Note: Remind children that they need to first record the names of different shapes and
             then think of where to insert the programming block of each sound into their programme (what is the order of
@@ -139,7 +139,7 @@
                 <li>What is the arrangement of shapes on your coding mat? Plot them in your learning journal.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/K1/coding/challenge2/ch4.png') }}" class="img-h-sm" />
+        <img src="{{ asset('assets/images/K1/coding/challenge2/ch4.png') }}" class="!h-[20vw]" />
         <p class="note text-center">Note: Have children copy the arrangement of shapes in their learning journal.</p>
     </div>
 
@@ -180,11 +180,11 @@
             <img src="{{ asset('assets/images/K1/coding/challenge2/ch8.png') }}" class="img-md" />
             <div class="flex flex-col items-start gap-[1vw]">
                 <div class="flex items-center gap-[1vw]">
-                    <img src="{{ asset('assets/images/K1/coding/challenge1/ch5.png') }}" class="img-xs" />
-                    <img src="{{ asset('assets/images/K1/coding/challenge1/ch4.png') }}" />
-                    <img src="{{ asset('assets/images/K1/coding/challenge1/ch6.png') }}" class="img-xs" />
+                    <img src="{{ asset('assets/images/K1/coding/challenge1/ch5.png') }}" class="!w-[6vw]" />
+                    <img src="{{ asset('assets/images/K1/coding/challenge1/ch4.png') }}" class="!w-[2vw]" />
+                    <img src="{{ asset('assets/images/K1/coding/challenge1/ch6.png') }}" class="!w-[3vw]" />
                 </div>
-                <img src="{{ asset('assets/images/K1/coding/challenge1/ch7.png') }}" />
+                <img src="{{ asset('assets/images/K1/coding/challenge1/ch7.png') }}" class="!w-[30vw]" />
             </div>
         </div>
         <p class="note text-center">Note: Have children lay out the steps in their learning journal. Check the steps and
@@ -192,7 +192,7 @@
     </div>
 
     {{-- Slide 16 --}}
-    <div class="slide hidden flex flex-col items-center justify-start">
+    <div class="slide hidden flex flex-col items-center justify-between h-[32vw]">
         <div class="text-start">
             <h2 class="title stroke">Steps:</h2>
             <ol class="lesson-ul list-decimal stroke"start="5">
@@ -208,7 +208,7 @@
     </div>
 
     {{-- Slide 17 --}}
-    <div class="slide hidden flex flex-col items-center justify-start">
+    <div class="slide hidden flex flex-col items-center justify-between h-[32vw]">
         <div class="text-start">
             <h2 class="title stroke">Steps:</h2>
             <ol class="lesson-ul list-decimal stroke"start="6">
@@ -231,7 +231,7 @@
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>What is the arrangement of colours on your coding mat? Plot them here. How do you plan the route for a robot
                 to hunt for all the shapes? Draw arrows to show the route.</p>
-            <img src="{{ asset('assets/images/K1/coding/challenge1/ch2.png') }}" class="img-h-sm" />
+            <img src="{{ asset('assets/images/K1/coding/challenge1/ch2.png') }}" class="!h-[20vw]" />
         </div>
     </div>
 
@@ -255,7 +255,7 @@
             <div class="flex items-center gap-[1vw]">
                 <div class="justify-start">What is the hunting order<br />based on colours?<br /> 1 - <br /> 2 - <br /> 3 -
                 </div>
-                <img src="{{ asset('assets/images/K1/coding/challenge1/ch2.png') }}"  class="img-xs" />
+                <img src="{{ asset('assets/images/K1/coding/challenge1/ch2.png') }}"  class="!w-[17vw]" />
             </div>
         </div>
     </div>

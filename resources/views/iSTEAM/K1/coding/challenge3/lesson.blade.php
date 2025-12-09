@@ -56,7 +56,7 @@
                 <li>Let your friends place the letters on the mat randomly.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/K1/coding/challenge3/ch3.png') }}" class="img-h-sm" />
+        <img src="{{ asset('assets/images/K1/coding/challenge3/ch3.png') }}" class="!h-[20vw]" />
         <p class="note text-center">Note: Have other group members help to set up the mat. Remind them to fix a starting
             point too.</p>
     </div>
@@ -69,7 +69,7 @@
                 <li>How do you plan the route? Plot your plan in the learning journal.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/K1/coding/challenge3/ch3.png') }}" class="img-h-sm" />
+        <img src="{{ asset('assets/images/K1/coding/challenge3/ch3.png') }}" class="!h-[20vw]" />
         <p class="note text-center">Note: Have children copy the arrangement of letters in their learning journal and plan a
             route by drawing arrows.</p>
     </div>
@@ -87,11 +87,11 @@
             <img src="{{ asset('assets/images/K1/coding/challenge3/ch3.png') }}" class="!w-[17vw] !h-[28vh]" />
             <div class="flex flex-col items-start">
                 <div class="flex items-center">
-                    <img src="{{ asset('assets/images/K1/coding/challenge1/ch5.png') }}" class="!w-[5vw]" />
-                    <img src="{{ asset('assets/images/K1/coding/challenge1/ch4.png') }}" />
-                    <img src="{{ asset('assets/images/K1/coding/challenge1/ch6.png') }}" class="!w-[2vw]" />
+                    <img src="{{ asset('assets/images/K1/coding/challenge1/ch5.png') }}" class="!w-[6vw]" />
+                    <img src="{{ asset('assets/images/K1/coding/challenge1/ch4.png') }}"  class="!w[2vw]"/>
+                    <img src="{{ asset('assets/images/K1/coding/challenge1/ch6.png') }}" class="!w-[3vw]" />
                 </div>
-                <img src="{{ asset('assets/images/K1/coding/challenge1/ch7.png') }}" />
+                <img src="{{ asset('assets/images/K1/coding/challenge1/ch7.png') }}" class="!w-[30vw]" />
             </div>
         </div>
         <p class="note text-center">Note: Have children lay out the steps in their learning journal. Check the steps and
@@ -107,7 +107,7 @@
             </ol>
         </div>
         <div class="flex items-center gap-[1.5vw]">
-            <img src="{{ asset('assets/images/K1/coding/challenge3/ch3.png') }}" class="img-h-sm" />
+            <img src="{{ asset('assets/images/K1/coding/challenge3/ch3.png') }}" class="!h-[20vw]" />
             <img src="{{ asset('assets/images/K1/coding/challenge1/ch8.png') }}" class="!w-[18vw]" />
         </div>
         <p class="note text-center">Note: Have children work out the programming steps in Blockly and show their answer to

@@ -7,7 +7,7 @@
     <h2 class="top-title stroke">Programme A Robot 4</h2>
 
     {{-- sldie 1  --}}
-    <div class="flex  !text-white flex-col justify-start text-start t-slide">
+    <div class="flex  !text-white flex-col justify-around text-start t-slide">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -44,7 +44,7 @@
 
 
     {{-- slide 2 --}}
-    <div class="hidden flex flex-col justify-start items-center text-start t-slide  !text-white">
+    <div class="hidden flex flex-col justify-between items-center text-start t-slide  !text-white">
         <div class="flex flex-col">
             <ul class="list-disc">
                 <h2 class=" t-title ">Preparations:</h2>
@@ -70,7 +70,7 @@
                     6 lawn mats (as shown)</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/N2/BasicCoding/tb15.png') }}" class="img-sm" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/tb15.png') }}" class="!w-[35vw]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
 
     </div>
@@ -111,10 +111,10 @@
 
 
     {{-- slide 6 --}}
-    <div class="hidden flex justify-start text-start t-slide  !text-white">
-        <div class="space-y-10">
+    <div class="hidden flex flex-col justify-around text-start t-slide  !text-white">
+        <div>
+            <h2 class=" t-title ">Things to note during hands-on sessions:</h2>
             <ul class="list-disc">
-                <h2 class=" t-title ">Things to note during hands-on sessions:</h2>
                 <li>Conduct the hands-on sessions on the floor (to prevent the tools from being damaged by falling).</li>
                 <li>Hold the robot and the pen controller firmly when you use them (to prevent the tools from spoiling
                     easily).</li>
@@ -124,8 +124,10 @@
                 <li>Always encourage children to attempt on their own before prompting.</li>
                 <li>Repeat the hands-on sessions for children that need further practice.</li>
             </ul>
+        </div>
+        <div>
+            <h2 class=" t-title ">Possible questions during hands-on sessions:</h2>
             <ul class="list-disc">
-                <h2 class=" t-title ">Possible questions during hands-on sessions:</h2>
                 <li>Which programming card comes first/next?</li>
             </ul>
         </div>

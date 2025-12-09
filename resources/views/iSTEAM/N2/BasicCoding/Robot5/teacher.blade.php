@@ -8,7 +8,7 @@
 
 
     {{-- sldie 1  --}}
-    <div class="flex !text-white flex-col justify-start text-start t-slide ">
+    <div class="flex !text-white flex-col justify-around text-start t-slide ">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -49,7 +49,7 @@
 
 
     {{-- slide 2 --}}
-    <div class="hidden flex flex-col justify-start items-center text-start t-slide !text-white">
+    <div class="hidden flex flex-col justify-between items-center text-start t-slide !text-white">
         <div class="flex flex-col">
             <ul class="list-disc">
                 <h2 class=" t-title ">Preparations:</h2>
@@ -83,7 +83,7 @@
 
 
     {{-- slide 4  --}}
-    <div class="hidden flex flex-col justify-start text-start t-slide !text-white">
+    <div class="hidden flex flex-col justify-around text-start t-slide !text-white">
         <div>
             <h2 class=" t-title ">When the hands-on session starts, guide each group of children to:</h2>
             <ul class="list-disc">
@@ -108,7 +108,7 @@
 
 
     {{-- slide 6 --}}
-    <div class="hidden flex justify-start text-start t-slide !text-white">
+    <div class="hidden flex justify-center text-start t-slide !text-white">
         <div>
             <h2 class=" t-title ">Things to note during hands-on sessions:</h2>
             <ul class="list-disc">

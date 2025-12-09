@@ -71,7 +71,7 @@
             </ul>
         </div>
         <div class="flex items-center gap-5">
-            <img src="{{ asset('/assets/images/N2/structure/str2/gl.png') }}" />
+            <img src="{{ asset('/assets/images/N2/structure/str2/gl.png') }}" class="!w-[45vw]" />
 
         </div>
         <ul class="list-disc ">

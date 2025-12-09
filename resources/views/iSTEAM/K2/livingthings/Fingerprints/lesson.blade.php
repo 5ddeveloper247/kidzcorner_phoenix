@@ -8,8 +8,8 @@
     {{-- Slide 1 --}}
     <div class="slide flex flex-col items-center justify-center gap-5">
         <div class="flex items-center gap-5">
-            <img src="{{ asset('assets/images/K2/livingthings/dna/h17.png') }}" class="img-sm" />
-            <img src="{{ asset('assets/images/K2/livingthings/dna/h16.png') }}" class="img-sm" />
+            <img src="{{ asset('assets/images/K2/livingthings/dna/h17.png') }}" class="!w-[25vw]" />
+            <img src="{{ asset('assets/images/K2/livingthings/dna/h16.png') }}" class="!w-[25vw]" />
         </div>
         <div class="title stroke">
             <h2>Children, do you still remember what determines our traits? What makes each one of us unique?</h2>
@@ -28,7 +28,7 @@
     </div>
 
     {{-- Slide 3 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-[50%]">
+    <div class="slide hidden flex flex-col items-center justify-between h-[60%] self-end">
         <h2 class="title stroke text-center">Find a friend and compare your physical look! What are the common traits you
             have?</h2>
         <p class="note">Note: Encourage children to find at least two shared traits and show the rest.</p>
@@ -57,7 +57,7 @@
     {{-- Slide 7 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
         <h2 class="!text-white title stroke">Small Group Activity</h2>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f2.png') }}" class="img-sm" />
+        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f2.png') }}" class="!w-[25vw]" />
         <div class="text-start">
             <h2 class="title stroke text-start">Let's find out: <br>How to make our own set of fingerprints? Do we have the
                 same fingerprints?</h2>
@@ -164,7 +164,7 @@
     </div>
 
     {{-- Slide 13 --}}
-    <div class="slide hidden flex flex-col items-center justify-start">
+    <div class="slide hidden flex flex-col items-center justify-between h-[30vw]">
         <div class="text-start">
             <h2 class="title stroke text-start">Let's do:</h2>
             <ol class="lesson-ul list-decimal title stroke text-start" start="6">
@@ -177,14 +177,14 @@
     </div>
 
     {{-- Slide 14 --}}
-    <div class="slide hidden flex flex-col items-center justify-start">
+    <div class="slide hidden flex flex-col justify-between h-[30vw]">
         <div class="text-start">
             <h2 class="title stroke text-start">Let's do:</h2>
             <ol class="lesson-ul list-decimal title stroke text-start" start="7">
                 <li>Observe your fingerprints.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f2.png') }}" class="img-xl" />
+        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f2.png') }}" class="!w-[35vw] self-center" />
         <p class="note text-center">Note: Have children observe and compare their own set of fingerprints on the record.
         </p>
     </div>
@@ -208,7 +208,7 @@
     </div>
 
     {{-- Slide 17 --}}
-    <div class="slide hidden flex flex-col items-center justify-start">
+    <div class="slide hidden flex flex-col justify-between h-[30vw]">
         <div class="text-start">
             <h2 class="title stroke text-start">Let's do:</h2>
             <ol class="lesson-ul list-decimal title stroke text-start" start="8">
@@ -229,7 +229,7 @@
     </div>
 
     {{-- Slide 19 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-y-2">
+    <div class="slide hidden flex flex-col items-center justify-between h-[30vw]">
         <div class="text-start">
             <h2 class="title stroke text-start">What do you learn: <br>What are the similarities between different
                 fingerprints?</h2>
@@ -273,7 +273,7 @@
         <h2 class="title stroke !text-white">Learning Journal</h2>
         <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center p-[20px] flex flex-col justify-center items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
-            <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f12.png') }}" />
+            <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f12.png') }}" class="w-full" />
         </div>
     </div>
 

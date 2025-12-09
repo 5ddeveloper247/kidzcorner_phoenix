@@ -74,7 +74,7 @@
                 <li>Get the following parts from the construction set.</li>
             </ol>
         </div>
-        <div class="flex gap-1 justify-center items-end">
+        <div class="flex gap-[1vw] justify-center items-end">
             <img src="{{ asset('assets/images/N2/structure/c-str/s5.png') }}" class="img-md" />
             <p class="note !text-white !text-start">small prism X 2 <br>
                 cube X 6 <br>
@@ -85,16 +85,16 @@
     </div>
 
     {{-- Slide 10 --}}
-    <div class="slide hidden flex flex-col justify-between items-center">
+    <div class="slide hidden flex flex-col justify-between h-[30vw] items-center">
         <div class="text-start">
             <h2 class="title stroke text-start">Steps:</h2>
             <ol class="lesson-ul list-decimal title stroke" start="2">
                 <li>Take 6 cubes and 5 connectors to form the long rectangle for the car's body.</li>
             </ol>
         </div>
-        <div class="flex gap-1 justify-center items-center gap-[1vw]">
-            <img src="{{ asset('assets/images/N2/structure/c-str/s6.png') }}" class="img-sm" />
-            <img src="{{ asset('assets/images/N2/structure/c-str/s7.png') }}" class="img-sm" />
+        <div class="flex gap-[1vw] justify-center items-center gap-[1vw]">
+            <img src="{{ asset('assets/images/N2/structure/c-str/s6.png') }}" class="!w-[27vw]" />
+            <img src="{{ asset('assets/images/N2/structure/c-str/s7.png') }}" class="!w-[27vw]" />
         </div>
         <p class="note">Note: Encourage and guide the children to try to connect the pieces.</p>
     </div>
@@ -113,14 +113,14 @@
     </div>
 
     {{-- Slide 12 --}}
-    <div class="slide hidden flex flex-col justify-between items-center">
+    <div class="slide hidden flex flex-col justify-between h-[30vw] items-center">
         <div class="text-start">
             <h2 class="title stroke text-start">Steps:</h2>
             <ol class="lesson-ul list-decimal title stroke" start="4">
                 <li>Take 2 cubes, 2 small prism and 3 block connector to form the top part of the car.</li>
             </ol>
         </div>
-        <div class="flex gap-1 justify-center items-center">
+        <div class="flex gap-[1vw] justify-center items-center">
             <img src="{{ asset('assets/images/N2/structure/c-str/s9.png') }}" class="img-sm" />
             <img src="{{ asset('assets/images/N2/structure/c-str/s10.png') }}" class="img-sm" />
         </div>
@@ -128,14 +128,14 @@
     </div>
 
     {{-- Slide 13 --}}
-    <div class="slide hidden flex flex-col justify-between items-center">
+    <div class="slide hidden flex flex-col justify-between h-[30vw] items-center">
         <div class="text-start">
             <h2 class="title stroke text-start">Steps:</h2>
             <ol class="lesson-ul list-decimal title stroke" start="5">
                 <li>Connect the prism to the cube using the connector</li>
             </ol>
         </div>
-        <div class="flex gap-1 justify-center items-center">
+        <div class="flex gap-[1vw] justify-center items-center">
             <img src="{{ asset('assets/images/N2/structure/c-str/s11.png') }}" class="img-sm" />
             <img src="{{ asset('assets/images/N2/structure/c-str/s12.png') }}" class="img-sm" />
         </div>
@@ -143,14 +143,14 @@
     </div>
 
     {{-- Slide 14 --}}
-    <div class="slide hidden flex flex-col justify-between items-center">
+    <div class="slide hidden flex flex-col justify-between h-[30vw] items-center">
         <div class="text-start">
             <h2 class="title stroke text-start">Steps:</h2>
             <ol class="lesson-ul list-decimal title stroke" start="6">
                 <li>Continue to connect another cube and prism to form the shape as shown.</li>
             </ol>
         </div>
-        <div class="flex gap-1 justify-center items-center">
+        <div class="flex gap-[1vw] justify-center items-center">
             <img src="{{ asset('assets/images/N2/structure/c-str/s13.png') }}" class="img-sm" />
             <img src="{{ asset('assets/images/N2/structure/c-str/s14.png') }}" class="img-sm" />
         </div>
@@ -158,14 +158,14 @@
     </div>
 
     {{-- Slide 15 --}}
-    <div class="slide hidden flex flex-col justify-between items-center">
+    <div class="slide hidden flex flex-col justify-between h-[30vw] items-center">
         <div class="text-start">
             <h2 class="title stroke text-start">Steps:</h2>
             <ol class="lesson-ul list-decimal title stroke" start="7">
                 <li>Connect two connectors on the prisms as shown.</li>
             </ol>
         </div>
-        <div class="flex gap-1 justify-center items-center">
+        <div class="flex gap-[1vw] justify-center items-center">
             <img src="{{ asset('assets/images/N2/structure/c-str/s15.png') }}" class="img-sm" />
             <img src="{{ asset('assets/images/N2/structure/c-str/s16.png') }}" class="img-sm" />
         </div>
@@ -173,14 +173,14 @@
     </div>
 
     {{-- Slide 16 --}}
-    <div class="slide hidden flex flex-col justify-between items-center">
+    <div class="slide hidden flex flex-col justify-between h-[30vw] items-center">
         <div class="text-start">
             <h2 class="title stroke text-start">Steps:</h2>
             <ol class="lesson-ul list-decimal title stroke" start="8">
                 <li>Now connect the two parts together to form the shape of the car.</li>
             </ol>
         </div>
-        <div class="flex gap-1 justify-center items-center">
+        <div class="flex gap-[1vw] justify-center items-center">
             <img src="{{ asset('assets/images/N2/structure/c-str/s17.png') }}" class="img-sm" />
             <img src="{{ asset('assets/images/N2/structure/c-str/s18.png') }}" class="img-sm" />
         </div>
@@ -196,12 +196,12 @@
                 <li>Connect one pair on the second cube and the other on the fifth cube.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/N2/structure/c-str/s19.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/N2/structure/c-str/s19.png') }}" class="!w-[35vw]" />
         <p class="note">Note: Assist children in fixing the pieces if required.</p>
     </div>
 
     {{-- Slide 18 --}}
-    <div class="slide hidden flex flex-col justify-between items-center">
+    <div class="slide hidden flex flex-col justify-between">
         <div class="text-start">
             <h2 class="title stroke text-start">Steps:</h2>
             <ol class="lesson-ul list-decimal title stroke" start="11">
@@ -221,9 +221,9 @@
 
     {{-- Slide 20 --}}
     <div class="slide hidden flex flex-col justify-start items-center">
-        <div class="flex gap-1 justify-center items-center">
-            <img src="{{ asset('assets/images/N2/structure/c-str/s22.png') }}" class="img-normal-md" />
-            <img src="{{ asset('assets/images/N2/structure/c-str/s23.png') }}" class="img-normal-md" />
+        <div class="flex gap-[1vw] justify-center items-center">
+            <img src="{{ asset('assets/images/N2/structure/c-str/s22.png') }}" class="!w-[25vw]" />
+            <img src="{{ asset('assets/images/N2/structure/c-str/s23.png') }}" class="!w-[25vw]" />
         </div>
         <h2 class="title stroke">Some cars have special <span class="!text-white">designs</span> and their
             <span class="!text-white">shape</span> structure looks different.
@@ -233,9 +233,9 @@
 
     {{-- Slide 21 --}}
     <div class="slide hidden flex flex-col justify-start items-center">
-        <div class="flex gap-1 justify-center items-center">
-            <img src="{{ asset('assets/images/N2/structure/c-str/s24.png') }}" class="img-normal-md" />
-            <img src="{{ asset('assets/images/N2/structure/c-str/s25.png') }}" class="img-normal-md" />
+        <div class="flex gap-[1vw] justify-center items-center">
+            <img src="{{ asset('assets/images/N2/structure/c-str/s24.png') }}" class="!w-[25vw]" />
+            <img src="{{ asset('assets/images/N2/structure/c-str/s25.png') }}" class="!w-[25vw]" />
         </div>
         <h2 class="title stroke">This is a convertible. <br>
             This car can fold its roof and keep it hidden.</h2>
@@ -256,8 +256,8 @@
     </div>
 
     {{-- Slide 23 --}}
-    <div class="slide hidden flex flex-col justify-start items-center">
-        <div class="flex gap-1 justify-center items-center">
+    <div class="slide hidden flex flex-col justify-between h-[30vw] items-center">
+        <div class="flex gap-[1vw] justify-center items-center">
             <img src="{{ asset('assets/images/N2/structure/c-str/s27.png') }}" class="img-sm" />
             <img src="{{ asset('assets/images/N2/structure/c-str/s28.png') }}" class="img-sm" />
         </div>
@@ -277,7 +277,7 @@
     </div>
 
     {{-- Slide 25 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-[50vh]">
+    <div class="slide hidden flex flex-col items-center justify-between h-[30vw]">
         <div class="text-start">
             <h2 class="title stroke text-start">Steps:</h2>
             <ol class="lesson-ul list-decimal title stroke">
@@ -319,7 +319,7 @@
     </div>
 
     {{-- Slide 30 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-[50vh]">
+    <div class="slide hidden flex flex-col items-center justify-between h-[30vw]">
         <div class="text-start">
             <h2 class="title stroke text-start">Guided Questions During Presentation:</h2>
             <ol class="lesson-ul list-decimal title stroke">
@@ -343,9 +343,9 @@
 
     {{-- Slide 32 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
-        <div class="flex gap-1">
-            <img src="{{ asset('assets/images/N2/structure/c-str/s1.png') }}" class="img-sm" />
-            <img src="{{ asset('assets/images/N2/structure/c-str/s20.png') }}" class="img-sm" />
+        <div class="flex gap-[1vw]">
+            <img src="{{ asset('assets/images/N2/structure/c-str/s1.png') }}" class="!w-[27vw]" />
+            <img src="{{ asset('assets/images/N2/structure/c-str/s20.png') }}" class="!w-[27vw]" />
         </div>
         <h2 class="title stroke">The shape structure of this car is made up
             of triangles and rectangles.</h2>

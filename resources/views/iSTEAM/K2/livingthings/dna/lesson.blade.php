@@ -6,7 +6,7 @@
     <h2 class="top-title stroke">What is DNA?</h2>
 
     {{-- Slide 1 --}}
-    <div class="slide flex flex-col items-center justify-between h-[18vw]">
+    <div class="slide flex flex-col items-center justify-between h-[20vw] self-end">
         <div class="title stroke">
             <h2>What are the common points of <span class="!text-white">living things</span>?</h2>
             <h2>Can you name some examples of <span class="!text-white">living things</span>?</h2>
@@ -67,7 +67,7 @@
 
     {{-- Slide 5 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
-        <img src="{{ asset('assets/images/K2/livingthings/dna/d1.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/d1.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">What is this? <br>
             Have you ever played it? How do you play it?</h2>
     </div>
@@ -157,7 +157,7 @@
         </h1>
         <!-- sound Button -->
         <button onclick="playSound()" class="absolute top-1/2 right-[-10vw] z-[99]">
-            <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" class="!max-w-[4w]" />
+            <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" class="!w-[4vw]" />
         </button>
         <h2 class="text-center title stroke">DNA stands for deoxyribonucleic acid. Can you pronounce it?
             Where do you think our DNA is in our body?</h2>
@@ -167,7 +167,7 @@
     <div class="slide hidden flex flex-col items-center justify-center">
         <div class="flex items-center gap-5">
             <img src="{{ asset('assets/images/K2/livingthings/dna/d2.png') }}" class="img-sm" />
-            <img src="{{ asset('assets/images/K2/livingthings/dna/d10.png') }}" class="!max-w-[30vw]" />
+            <img src="{{ asset('assets/images/K2/livingthings/dna/d10.png') }}" class="!w-[30vw]" />
         </div>
         <h2 class="text-center title stroke">Like this car is made up of different bricks, every living thing
             is made up of different tiny <span class="!text-white">cells</span>.</h2>
@@ -189,14 +189,14 @@
     {{-- Slide 19 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
         <h2 class="text-center justify-start text-[45px] !text-white stroke">Class Activity</h2>
-        <img src="{{ asset('assets/images/K2/livingthings/dna/d11.png') }}" class="img-h-sm" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/d11.png') }}" class="!h-[20vw]" />
         <h2 class="title stroke text-start">Let's find out: <br>
             How to extract DNA from one's mouth? What does it look like?</h2>
     </div>
 
 
     {{-- Slide 20 --}}
-    <div class="slide hidden flex flex-col items-center justify-start">
+    <div class="slide hidden flex flex-col items-center justify-between h-[30vw]">
         <div class="text-start">
             <h2 class="title stroke">Let's do:</h2>
             <ol class="lesson-ul list-decimal title stroke" start="1">
@@ -216,7 +216,7 @@
                 <li>Transfer 4 tablespoons of the salt water into another cup.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/dna/d13.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/d13.png') }}" class="!w-[35vw]" />
         <p class="note text-center">Note: Invite a child to do the step; can be 4 tablespoons or 30ml.</p>
     </div>
 
@@ -228,7 +228,7 @@
                 <li>Gargle the salt water for one minute. Try hard and don't swallow it!</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/dna/d14.png') }}" class="img-normal-md" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/d14.png') }}" class="!w-[30vw]" />
         <p class="note text-center">Note: Teacher to do the step; for better result, clean your mouth beforehand to remove
             any food residue.</p>
     </div>
@@ -364,7 +364,7 @@
                 <img src="{{ asset('assets/images/K2/livingthings/dna/d12.png') }}" class="img-sm" />
                 <img src="{{ asset('assets/images/K2/livingthings/dna/d18.png') }}" class="img-sm" />
             </div>
-            <img src="{{ asset('assets/images/K2/livingthings/dna/d21.png') }}" class="img-md" />
+            <img src="{{ asset('assets/images/K2/livingthings/dna/d21.png') }}" class="!w-[30vw]" />
         </div>
         <h2 class="title stroke text-center">The chemicals used in the process break down the outer
             covering of cheek cells and release <span class="!text-white">DNA</span> from the cells.</h2>

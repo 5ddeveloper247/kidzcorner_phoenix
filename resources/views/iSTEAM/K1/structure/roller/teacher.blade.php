@@ -72,7 +72,7 @@
                 <li>Adhesive tape (for fixing the position of the pyramids)</li>
             </ul>
         </div>
-        <video id="video1" class=" pointer-events-none">
+        <video id="video1" class=" pointer-events-none !min-w-[40vw]">
             <source src="{{ asset('assets/images/K1/str/157.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video> <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" />

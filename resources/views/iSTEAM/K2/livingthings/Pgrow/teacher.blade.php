@@ -71,7 +71,7 @@
                     and soak them for around 2 hours before the activity</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/pgrow/p16.png') }}" class="img-xl" />
+        <img src="{{ asset('assets/images/K2/livingthings/pgrow/p16.png') }}" class="!w-[45vw]" />
     </div>
 
     {{-- Slide 4 --}}
@@ -97,7 +97,7 @@
                     [Make sure that the glue dries before continue with the next step.]</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/pgrow/p6.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K2/livingthings/pgrow/p6.png') }}" class="!w-[35vw]" />
     </div>
 
     {{-- Slide 6 --}}
@@ -110,7 +110,7 @@
                     towel.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/pgrow/p7.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K2/livingthings/pgrow/p7.png') }}" class="!w-[35vw]" />
     </div>
 
     {{-- Slide 7 --}}
@@ -298,7 +298,7 @@
                 <source src="{{ asset('assets/images/K2/videos/171.mp4') }}" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
-            <p class="w-[24vw]">For
+            <p class="w-[14vw]">For
                 your info, the
                 plants grow taller
                 every day and

@@ -27,7 +27,7 @@
     </div>
 
     {{-- Slide 4 --}}
-    <div class="slide hidden flex flex-col items-center justify-center">
+    <div class="slide hidden flex flex-col items-center justify-between h-[20vw] self-end">
         <h2 class="title stroke">Today, we are going to look at big vehicles! <br>
             Can you name some big vehicles?</h2>
         <p class="note">Note: Encourage children to brainstorm on the different types of vehicles.</p>
@@ -191,7 +191,7 @@
     </div>
 
     {{-- Slide 23 --}}
-    <div class="slide hidden flex flex-col justify-between items-center">
+    <div class="slide hidden flex flex-col justify-between h-[30vw] items-center">
         <div class="text-start">
             <h2 class="title stroke text-start">Steps:</h2>
             <ol class="lesson-ul list-decimal title stroke">
@@ -206,7 +206,7 @@
     </div>
 
     {{-- Slide 24 --}}
-    <div class="slide hidden flex flex-col justify-around items-center">
+    <div class="slide hidden flex flex-col justify-between h-[20vw] self-end items-center">
         <h2 class="stroke title !text-start">Let's build a big vehicle!</h2>
         <p class="note">Note: Children can choose to build their own in pairs. Teachers do provide photos to assist them
             in <br>
@@ -223,7 +223,7 @@
     </div>
 
     {{-- Slide 26 --}}
-    <div class="slide hidden flex flex-col justify-start items-center">
+    <div class="slide hidden flex flex-col justify-start">
         <div class="text-start">
             <h2 class="title stroke text-start">Let's do:</h2>
             <ol class="lesson-ul list-decimal title stroke">
@@ -231,7 +231,7 @@
             </ol>
         </div>
         <div class="flex gap-1 items-end">
-            <img src="{{ asset('assets/images/N2/structure/b-str/s18.png') }}" class="img-md" />
+            <img src="{{ asset('assets/images/N2/structure/b-str/s18.png') }}" class="!w-[35vw]" />
             <p class="note !text-start">rectangle block X 5 <br>
                 cube X 4 <br>
                 long rectangle piece X 2<br>
@@ -247,7 +247,7 @@
     </div>
 
     {{-- Slide 27 --}}
-    <div class="slide hidden flex flex-col justify-between items-center">
+    <div class="slide hidden flex flex-col justify-between h-[30vw] items-center">
         <div class="text-start">
             <h2 class="title stroke text-start">Let's do:</h2>
             <ol class="lesson-ul list-decimal title stroke" start="2">
@@ -259,7 +259,7 @@
     </div>
 
     {{-- Slide 28 --}}
-    <div class="slide hidden flex flex-col justify-between items-center">
+    <div class="slide hidden flex flex-col justify-between h-[30vw] items-center">
         <div class="text-start">
             <h2 class="title stroke text-start">Let's do:</h2>
             <ol class="lesson-ul list-decimal title stroke" start="3">
@@ -272,7 +272,7 @@
     </div>
 
     {{-- Slide 29 --}}
-    <div class="slide hidden flex flex-col justify-between items-center">
+    <div class="slide hidden flex flex-col justify-between h-[30vw] items-center">
         <div class="text-start">
             <h2 class="title stroke text-start">Let's do:</h2>
             <ol class="lesson-ul list-decimal title stroke" start="4">
@@ -285,7 +285,7 @@
     </div>
 
     {{-- Slide 30 --}}
-    <div class="slide hidden flex flex-col justify-between items-center">
+    <div class="slide hidden flex flex-col justify-between h-[30vw] items-center">
         <div class="text-start">
             <h2 class="title stroke text-start">Let's do:</h2>
             <ol class="lesson-ul list-decimal title stroke" start="5">
@@ -298,7 +298,7 @@
     </div>
 
     {{-- Slide 31 --}}
-    <div class="slide hidden flex flex-col justify-between items-center">
+    <div class="slide hidden flex flex-col justify-between h-[30vw] items-center">
         <div class="text-start">
             <h2 class="title stroke text-start">Let's do:</h2>
             <ol class="lesson-ul list-decimal title stroke" start="6">
@@ -310,7 +310,7 @@
     </div>
 
     {{-- Slide 32 --}}
-    <div class="slide hidden flex flex-col justify-between items-center">
+    <div class="slide hidden flex flex-col justify-between h-[30vw] items-center">
         <div class="text-start">
             <h2 class="title stroke text-start">Let's do:</h2>
             <ol class="lesson-ul list-decimal title stroke" start="7">
@@ -323,7 +323,7 @@
     </div>
 
     {{-- Slide 33 --}}
-    <div class="slide hidden flex flex-col justify-between items-center">
+    <div class="slide hidden flex flex-col justify-between h-[30vw] items-center">
         <div class="text-start">
             <h2 class="title stroke text-start">Let's do:</h2>
             <ol class="lesson-ul list-decimal title stroke" start="8">
@@ -349,7 +349,7 @@
     </div>
 
     {{-- Slide 35 --}}
-    <div class="slide hidden flex flex-col justify-between items-center">
+    <div class="slide hidden flex flex-col justify-between h-[30vw] items-center">
         <div class="text-start">
             <h2 class="title stroke text-start">Let's do:</h2>
             <ol class="lesson-ul list-decimal title stroke" start="10">
@@ -361,7 +361,7 @@
     </div>
 
     {{-- Slide 36 --}}
-    <div class="slide hidden flex flex-col justify-between h-[50vh] items-center">
+    <div class="slide hidden flex flex-col justify-between h-[30vw] items-center">
         <h2 class="title stroke !text-white">Group Activity 2</h2>
         <h2 class="title stroke !text-start">Mission: <br>
             Make another big vehicle.</h2>
@@ -395,7 +395,7 @@
     </div>
 
     {{-- Slide 39 --}}
-    <div class="slide hidden flex flex-col justify-between items-center">
+    <div class="slide hidden flex flex-col justify-between h-[30vw] items-center">
         <div class="text-start">
             <h2 class="title stroke text-start">Guided Questions During Group Activity:</h2>
             <ol class="lesson-ul list-decimal title stroke">

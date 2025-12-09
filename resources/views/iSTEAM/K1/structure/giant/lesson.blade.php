@@ -9,7 +9,7 @@
 
     {{-- Slide 1 --}}
     <div class="slide flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/str/gw1.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/str/gw1.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">Children, this is another type of <span class="!text-white">structure</span>.
             What is it called? What do we use it for?</h2>
     </div>
@@ -27,7 +27,7 @@
 
     {{-- Slide 3 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/str/gw1.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/str/gw1.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">We may take a ride on a giant wheel for fun and excitement.</h2>
         <p class="note">Note: Have children share their giant wheel riding experiences (if any).</p>
     </div>
@@ -35,7 +35,7 @@
 
     {{-- Slide 4 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/str/gw3.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/str/gw3.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">Tourists may take a ride on a giant wheel to view
             the scenery around a city.</h2>
     </div>
@@ -43,7 +43,7 @@
 
     {{-- Slide 5 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K1/str/gw3.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/str/gw3.png') }}" class="!w-[35vw]" />
         <h2 class="text-start title stroke">Do you know how a giant wheel works?</h2>
         <p class="note text-center">Note: Guide children to recall and talk about how a wheel and axle works as a simple
             machine.</p>
@@ -106,7 +106,7 @@
                 <li>Learn how to build the structure of a giant wheel.</li>
             </ol>
         </div>
-        <video id="video2" class="pointer-events-none">
+        <video id="video2" class="pointer-events-none !min-w-[40vw]">
             <source src="{{ asset('assets/images/K1/str/146.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -121,7 +121,7 @@
     {{-- Slide 11 --}}
     <div class="slide hidden click1 flex flex-col items-center justify-start">
         <h2 class="text-center title stroke">How to build the structure of a giant wheel? - Step 1 of 8</h2>
-        <video id="video3" class="pointer-events-none">
+        <video id="video3" class="pointer-events-none !min-w-[40vw]">
             <source src="{{ asset('assets/images/K1/str/147.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -136,7 +136,7 @@
     {{-- Slide 12 --}}
     <div class="slide hidden click1 flex flex-col items-center justify-start">
         <h2 class="text-center title stroke">How to build the structure of a giant wheel? - Step 2 of 8</h2>
-        <video id="video4" class="pointer-events-none">
+        <video id="video4" class="pointer-events-none !min-w-[40vw]">
             <source src="{{ asset('assets/images/K1/str/148.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -151,7 +151,7 @@
     {{-- Slide 13 --}}
     <div class="slide hidden click1 flex flex-col items-center justify-start">
         <h2 class="text-center title stroke">How to build the structure of a giant wheel? - Step 3 of 8</h2>
-        <video id="video5" class="pointer-events-none">
+        <video id="video5" class="pointer-events-none !min-w-[40vw]">
             <source src="{{ asset('assets/images/K1/str/149.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -174,7 +174,7 @@
     {{-- Slide 15 --}}
     <div class="slide hidden click1 flex flex-col items-center justify-start">
         <h2 class="text-center title stroke">How to build the structure of a giant wheel? - Step 5 of 8</h2>
-        <video id="video6" class="pointer-events-none">
+        <video id="video6" class="pointer-events-none !min-w-[40vw]">
             <source src="{{ asset('assets/images/K1/str/150.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -189,7 +189,7 @@
     {{-- Slide 16 --}}
     <div class="slide hidden click1 flex flex-col items-center justify-start">
         <h2 class="text-center title stroke">How to build the structure of a giant wheel? - Step 6 of 8</h2>
-        <video id="video7" class="pointer-events-none">
+        <video id="video7" class="pointer-events-none !min-w-[40vw]">
             <source src="{{ asset('assets/images/K1/str/151.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -204,7 +204,7 @@
     {{-- Slide 17 --}}
     <div class="slide hidden click1 flex flex-col items-center justify-start">
         <h2 class="text-center title stroke">How to build the structure of a giant wheel? - Step 7 of 8</h2>
-        <video id="video8" class="pointer-events-none">
+        <video id="video8" class="pointer-events-none !min-w-[40vw]">
             <source src="{{ asset('assets/images/K1/str/152.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -220,7 +220,7 @@
     {{-- Slide 18 --}}
     <div class="slide hidden click1 flex flex-col items-center justify-start">
         <h2 class="text-center title stroke">How to build the structure of a giant wheel? - Step 8 of 8</h2>
-        <video id="video9" class="pointer-events-none">
+        <video id="video9" class="pointer-events-none !min-w-[40vw]">
             <source src="{{ asset('assets/images/K1/str/153.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -238,14 +238,14 @@
 
 
     {{-- Slide 19 --}}
-    <div class="slide hidden flex flex-col items-center justify-start">
+    <div class="slide hidden flex flex-col justify-start">
         <div class="text-start">
             <h2 class="title stroke">Steps:</h2>
             <ol class="lesson-ul list-decimal title stroke" start="3">
                 <li>Showcase your work.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/K1/str/gw4.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/str/gw4.png') }}" class="img-md self-center" />
         <p class="note text-center">Note: After the showcase, guide children to reflect and share things they learn from
             this engineering activity (refer to the possible questions for reflection in the teacher's mode).</p>
     </div>
@@ -264,7 +264,7 @@
 
     {{-- Slide 21 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <video id="video10" class="pointer-events-none">
+        <video id="video10" class="pointer-events-none !min-w-[40vw]">
             <source src="{{ asset('assets/images/K1/str/154.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -306,7 +306,7 @@
 
     {{-- Slide 24 --}}
     <div class="slide hidden click2 flex flex-col items-center justify-start">
-        <video id="video11" class="pointer-events-none">
+        <video id="video11" class="pointer-events-none !min-w-[40vw]">
             <source src="{{ asset('assets/images/K1/str/155.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>

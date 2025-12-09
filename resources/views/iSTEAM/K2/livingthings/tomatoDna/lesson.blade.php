@@ -31,7 +31,7 @@
                 <img src="{{ asset('assets/images/K2/livingthings/dna/d12.png') }}" class="img-sm" />
                 <img src="{{ asset('assets/images/K2/livingthings/dna/d18.png') }}" class="img-sm" />
             </div>
-            <img src="{{ asset('assets/images/K2/livingthings/dna/d21.png') }}" class="img-md" />
+            <img src="{{ asset('assets/images/K2/livingthings/dna/d21.png') }}" class="!w-[30vw]" />
         </div>
         <h2 class="title stroke text-center">These are the chemicals used to extract our DNA. Can you name them?</h2>
         <p class="note">Note: Explain to children that chemicals are things will cause changes/chemical reactions.</p>
@@ -44,7 +44,7 @@
                 <img src="{{ asset('assets/images/K2/livingthings/dna/d12.png') }}" class="img-sm" />
                 <img src="{{ asset('assets/images/K2/livingthings/dna/d18.png') }}" class="img-sm" />
             </div>
-            <img src="{{ asset('assets/images/K2/livingthings/dna/d21.png') }}" class="img-md" />
+            <img src="{{ asset('assets/images/K2/livingthings/dna/d21.png') }}" class="!w-[30vw]" />
         </div>
         <h2 class="title stroke text-center">Since our DNA can be extracted using these chemicals, do you think the same
             chemicals can be used to extract DNA from a plant?</h2>
@@ -67,11 +67,11 @@
     <div class="slide hidden flex flex-col items-center justify-start">
         <div class="text-start">
             <h2 class="title stroke text-start">Let's do:</h2>
+            <ol class="lesson-ul list-decimal title stroke text-start">
+                <li>Put a tomato into a zipper storage bag and seal it.</li>
+            </ol>
         </div>
-        <ol class="lesson-ul list-decimal title stroke text-start">
-            <li>Put a tomato into a zipper storage bag and seal it.</li>
-        </ol>
-        <img src="{{ asset('assets/images/K2/livingthings/dna/td3.png') }}" class="img-sm" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/td3.png') }}" class="!w-[30vw]" />
         <p class="note text-center">Note: Invite a child to do the step.</p>
     </div>
 
@@ -79,11 +79,11 @@
     <div class="slide hidden flex flex-col items-center justify-start">
         <div class="text-start">
             <h2 class="title stroke text-start">Let's do:</h2>
+            <ol class="lesson-ul list-decimal title stroke text-start" start="2">
+                <li>Smash and crush the tomato.</li>
+            </ol>
         </div>
-        <ol class="lesson-ul list-decimal title stroke text-start" start="2">
-            <li>Smash and crush the tomato.</li>
-        </ol>
-        <img src="{{ asset('assets/images/K2/livingthings/dna/td4.png') }}" class="img-sm" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/td4.png') }}" class="!w-[30vw]" />
         <p class="note text-center">Note: Invite a child to take turns to do so.</p>
     </div>
 
@@ -91,11 +91,11 @@
     <div class="slide hidden flex flex-col items-center justify-start">
         <div class="text-start">
             <h2 class="title stroke text-start">Let's do:</h2>
+            <ol class="lesson-ul list-decimal title stroke text-start" start="3">
+                <li>Mix together 100ml distilled water, 10ml clear liquid dish soap and half a teaspoon of salt in a clear cup.
+                </li>
+            </ol>
         </div>
-        <ol class="lesson-ul list-decimal title stroke text-start" start="3">
-            <li>Mix together 100ml distilled water, 10ml clear liquid dish soap and half a teaspoon of salt in a clear cup.
-            </li>
-        </ol>
         <img src="{{ asset('assets/images/K2/livingthings/dna/td5.png') }}" class="img-lg" />
         <p class="note text-center">Note: Guide children to measure and prepare the mixture; stir gently until salt is
             dissolved but avoid making bubbles.</p>
@@ -105,10 +105,10 @@
     <div class="slide hidden flex flex-col items-center justify-start">
         <div class="text-start">
             <h2 class="title stroke text-start">Let's do:</h2>
+            <ol class="lesson-ul list-decimal title stroke text-start" start="4">
+                <li>Add 10ml of the mixture prepared into the bag with tomato.</li>
+            </ol>
         </div>
-        <ol class="lesson-ul list-decimal title stroke text-start" start="4">
-            <li>Add 10ml of the mixture prepared into the bag with tomato.</li>
-        </ol>
         <img src="{{ asset('assets/images/K2/livingthings/dna/td6.png') }}" class="img-lg" />
         <p class="note text-center">Note: Guide children to measure and add the mixture into the bag.</p>
     </div>
@@ -117,11 +117,11 @@
     <div class="slide hidden flex flex-col items-center justify-start">
         <div class="text-start">
             <h2 class="title stroke text-start">Let's do:</h2>
+            <ol class="lesson-ul list-decimal title stroke text-start" start="5">
+                <li>Reseal the bag and gently smash for another minute.</li>
+            </ol>
         </div>
-        <ol class="lesson-ul list-decimal title stroke text-start" start="5">
-            <li>Reseal the bag and gently smash for another minute.</li>
-        </ol>
-        <img src="{{ asset('assets/images/K2/livingthings/dna/td4.png') }}" class="img-sm" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/td4.png') }}" class="!w-[30vw]" />
         <p class="note text-center">Note: Advise children try to avoid making too many soap bubbles.</p>
     </div>
 
@@ -129,10 +129,10 @@
     <div class="slide hidden flex flex-col items-center justify-start">
         <div class="text-start">
             <h2 class="title stroke text-start">Let's do:</h2>
+            <ol class="lesson-ul list-decimal title stroke text-start" start="6">
+                <li>Put a strainer on top of another clear cup.</li>
+            </ol>
         </div>
-        <ol class="lesson-ul list-decimal title stroke text-start" start="6">
-            <li>Put a strainer on top of another clear cup.</li>
-        </ol>
         <img src="{{ asset('assets/images/K2/livingthings/dna/td7.png') }}" class="img-md" />
         <p class="note text-center">Note: Invite a child to do the step.</p>
     </div>
@@ -141,11 +141,11 @@
     <div class="slide hidden flex flex-col items-center justify-start">
         <div class="text-start">
             <h2 class="title stroke text-start">Let's do:</h2>
+            <ol class="lesson-ul list-decimal title stroke text-start" start="7">
+                <li>Pour the tomato liquid into the strainer to separate the liquid from the flesh.</li>
+            </ol>
         </div>
-        <ol class="lesson-ul list-decimal title stroke text-start" start="7">
-            <li>Pour the tomato liquid into the strainer to separate the liquid from the flesh.</li>
-        </ol>
-        <img src="{{ asset('assets/images/K2/livingthings/dna/td8.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/td8.png') }}" class="!w-[35vw]" />
         <p class="note text-center">Note: Guide children to gently do so with a teaspoon.</p>
     </div>
 
@@ -153,10 +153,10 @@
     <div class="slide hidden flex flex-col items-center justify-start">
         <div class="text-start">
             <h2 class="title stroke text-start">Let's do:</h2>
+            <ol class="lesson-ul list-decimal title stroke text-start" start="8">
+                <li>Take 30ml of the filtrated liquid into another clear cup.</li>
+            </ol>
         </div>
-        <ol class="lesson-ul list-decimal title stroke text-start" start="8">
-            <li>Take 30ml of the filtrated liquid into another clear cup.</li>
-        </ol>
         <img src="{{ asset('assets/images/K2/livingthings/dna/td9.png') }}" class="img-md" />
         <p class="note text-center">Note: Guide children to do the step.</p>
     </div>
@@ -165,10 +165,10 @@
     <div class="slide hidden flex flex-col items-center justify-start">
         <div class="text-start">
             <h2 class="title stroke text-start">Let's do:</h2>
+            <ol class="lesson-ul list-decimal title stroke text-start" start="9">
+                <li>Pour 30ml of cold rubbing alcohol from the side into the cup.</li>
+            </ol>
         </div>
-        <ol class="lesson-ul list-decimal title stroke text-start" start="9">
-            <li>Pour 30ml of cold rubbing alcohol from the side into the cup.</li>
-        </ol>
         <img src="{{ asset('assets/images/K2/livingthings/dna/td10.png') }}" class="img-md" />
         <p class="note text-center">Note: Teacher to do the step; do not mix or stir.</p>
     </div>
@@ -177,10 +177,10 @@
     <div class="slide hidden flex flex-col items-center justify-start">
         <div class="text-start">
             <h2 class="title stroke text-start">Let's do:</h2>
+            <ol class="lesson-ul list-decimal title stroke text-start" start="10">
+                <li>Observe what happens in the cup.</li>
+            </ol>
         </div>
-        <ol class="lesson-ul list-decimal title stroke text-start" start="10">
-            <li>Observe what happens in the cup.</li>
-        </ol>
         <img src="{{ asset('assets/images/K2/livingthings/dna/td10.png') }}" class="img-md" />
         <p class="note text-center">Note: Teacher to do the step; do not mix or stir.</p>
     </div>
@@ -198,18 +198,18 @@
         <div class="text-start">
             <h2 class="title stroke">What do you learn: <br>What are the white strings and clumps in the cup?</h2>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/dna/td12.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/td12.png') }}" class="!w-[35vw]" />
     </div>
 
     {{-- Slide 19 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <h2 class="title stroke">What do you learn: <br>Do you think the DNA is extracted from one cell or many cells?</h2>
-        <img src="{{ asset('assets/images/K2/livingthings/dna/td12.png') }}" class="img-md" />
+        <h2 class="title stroke text-start">What do you learn: <br>Do you think the DNA is extracted from one cell or many cells?</h2>
+        <img src="{{ asset('assets/images/K2/livingthings/dna/td12.png') }}" class="!w-[30vw]" />
     </div>
 
     {{-- Slide 20 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K2/livingthings/dna/td12.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/td12.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">Through the activity, we know that the white strings and clumps are DNA strands from a
             tomato.</h2>
     </div>
@@ -222,14 +222,14 @@
 
     {{-- Slide 22 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
-        <img src="{{ asset('assets/images/K2/livingthings/dna/td12.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/td12.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">The reason we are able to see DNA in this activity is that there are so many of them
             clumped together at the end.</h2>
     </div>
 
     {{-- Slide 23 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
-        <img src="{{ asset('assets/images/K2/livingthings/dna/td12.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/td12.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">Therefore, the white strings and clumps are many DNA strands that are released from many
             tomato cells.</h2>
     </div>

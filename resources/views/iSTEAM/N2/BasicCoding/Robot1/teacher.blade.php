@@ -7,7 +7,7 @@
 
 
     {{-- sldie 1  --}}
-    <div class="flex !text-white flex-col justify-start text-start t-slide">
+    <div class="flex !text-white flex-col justify-around text-start t-slide">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -51,7 +51,7 @@
                     what you need to know and do before the lesson)</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/N2/BasicCoding/br19.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/br19.png') }}" class="!w-[35vw]" />
 
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
         <p class="note !text-red-400">Note: You’ll see steady blue lights when both tools are turned on and it means they
@@ -74,10 +74,10 @@
 
 
     {{-- slide 4 --}}
-    <div class="hidden flex  justify-start items-center text-start t-slide !text-white">
-        <div class="space-y-10">
+    <div class="hidden flex flex-col justify-around text-start t-slide !text-white">
+        <div>
+            <h2 class=" t-title ">Things to note during hands-on sessions:</h2>
             <ul class="list-disc">
-                <h2 class=" t-title ">Things to note during hands-on sessions:</h2>
                 <li>Conduct the hands-on sessions on the floor (to prevent the tools damage by
                     falling).</li>
                 <li>Hold the robot and the pen controller firmly when you use them (to prevent the
@@ -89,8 +89,10 @@
                 <li>Always encourage children to attempt on their own before prompting.</li>
                 <li>Repeat the hands-on session 2 for children that need further practise.</li>
             </ul>
+        </div>
+        <div>
+            <h2 class=" t-title ">Possible questions during hands-on sessions:</h2>
             <ul class="list-disc">
-                <h2 class=" t-title ">Possible questions during hands-on sessions:</h2>
                 <li>What facial expression comes first/next?</li>
             </ul>
         </div>
@@ -125,7 +127,7 @@
                     controller (by colour,number, name, etc).</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/N2/BasicCoding/br11.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/br11.png') }}" class="!w-[35vw]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
     </div>
 
@@ -222,10 +224,10 @@
 
 
     {{-- slide 13 --}}
-    <div class="hidden flex flex-col  justify-start items-center text-start t-slide !text-white">
-        <div class="flex flex-col  items-start">
+    <div class="hidden flex flex-col justify-around text-start t-slide !text-white">
+        <div>
+            <h2 class=" t-title ">What you need to know or do before the lesson:</h2>
             <ul class="list-disc">
-                <h2 class=" t-title ">What you need to know or do before the lesson:</h2>
                 <li>Do not throw away any item from the coding kit, including the frames that hold
                     the programming cards.</li>
                 <li>Do not put or expose the product to a damp or high temperature environment to
@@ -240,11 +242,13 @@
                 </li>
             </ul>
         </div>
-        <ul class="list-disc">
+        <div>
             <h2 class=" t-title ">Possible questions during hands-on sessions:</h2>
-            <li>What comes first/next?</li>
-            <li>Do you (go forward/go backward/turn right/turn left) now?</li>
-        </ul>
+            <ul class="list-disc">
+                <li>What comes first/next?</li>
+                <li>Do you (go forward/go backward/turn right/turn left) now?</li>
+            </ul>
+        </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
     </div>
 

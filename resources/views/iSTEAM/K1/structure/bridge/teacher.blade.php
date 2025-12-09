@@ -130,21 +130,26 @@
     <div class="flex  !text-white flex-col t-slide justify-start  text-start">
         <div>
             <h2 class=" t-title">Possible questions for reflection:</h2>
-            <ul class="list-disc ">
-                <li>Did you succeed in building a bridge that can hold up more weight? How much
-                    weight can the bridge hold up before and after you built the structure above or
-                    below the bridge?</li>
-                <li>What problems did you encounter during the process of engineering (constructing
-                    the bridge)? How did you overcome the problems?</li>
-                <li>What shapes did you find useful in designing a strong bridge?</li>
-                <li>Do you think your design worked well? If you get a chance to modify your bridge,
-                    which parts would you improve? Why?</li>
-                <li>If you get a chance to design and build a new bridge to hold up more weight,
-                    would you do it differently? Why?</li>
+            <div class="space-y-[2vw]">
+                <ul class="list-disc">
+                    <li>Did you succeed in building a bridge that can hold up more weight? How much
+                        weight can the bridge hold up before and after you built the structure above or
+                        below the bridge?</li>
+                    <li>What problems did you encounter during the process of engineering (constructing
+                        the bridge)? How did you overcome the problems?</li>
+                    <li>What shapes did you find useful in designing a strong bridge?</li>
+                    <li>Do you think your design worked well? If you get a chance to modify your bridge,
+                        which parts would you improve? Why?</li>
+                    <li>If you get a chance to design and build a new bridge to hold up more weight,
+                        would you do it differently? Why?</li>
 
-                <p>------------------------------------------------------------------</p>
-                <li>At the end of the lesson, display all the bridges created in the classroom.</li>
-            </ul>
+                </ul>
+                <p>-----------------------------------------------------------------</p>
+
+                <ul class="list-disc">
+                    <li>At the end of the lesson, display all the bridges created in the classroom.</li>
+                </ul>
+            </div>
         </div>
     </div>
 

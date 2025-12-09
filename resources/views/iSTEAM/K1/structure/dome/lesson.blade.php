@@ -40,8 +40,8 @@
     {{-- Slide 5 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
         <div class="flex gap-[1vw]">
-            <img src="{{ asset('assets/images/K1/str/st24.png') }}" class="img-h-sm" />
-            <img src="{{ asset('assets/images/K1/str/st25.png') }}" class="img-h-sm" />
+            <img src="{{ asset('assets/images/K1/str/st24.png') }}" class="!h-[20vw]" />
+            <img src="{{ asset('assets/images/K1/str/st25.png') }}" class="!h-[20vw]" />
         </div>
         <h2 class="title stroke">In its simplest form, a dome looks like
             the upper half of a ball or a sphere.</h2>
@@ -81,8 +81,8 @@
     {{-- Slide 9 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
         <div class="flex items-center justify-center gap-[1vw]">
-            <img src="{{ asset('assets/images/K1/str/st27.png') }}" class="img-sm" />
-            <img src="{{ asset('assets/images/K1/str/st28.png') }}" class="img-sm" />
+            <img src="{{ asset('assets/images/K1/str/st27.png') }}" class="!w-[25vw]" />
+            <img src="{{ asset('assets/images/K1/str/st28.png') }}" class="!w-[25vw]" />
         </div>
         <h2 class="title stroke">For an example, the Eden Project in England is a garden built
             with adjoining geodesic domes that attracts many visitors.</h2>
@@ -96,7 +96,7 @@
             <p class="text-white text-[1.6vw]">The Amazon <br>
                 Spheres in <br>
                 Seattle</p>
-            <img src="{{ asset('assets/images/K1/str/st29.png') }}" class="img-md" />
+            <img src="{{ asset('assets/images/K1/str/st29.png') }}" class="!w-[35vw]" />
         </div>
         <h2 class="title stroke">In fact, a geodesic dome can be designed differently when
             it is made of a network of different types of triangles.</h2>
@@ -219,7 +219,7 @@
                 <li>Learn how to build the structure of a geodesic dome: i. Make a pentagon.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/K1/str/st34.png') }}" class="img-h-sm" />
+        <img src="{{ asset('assets/images/K1/str/st34.png') }}" class="!h-[20vw]" />
         <p class="note text-center">Note: Give each group a set of materials to work on.
             <a href="" class="text-[#F7B94A] click-btn2">Click here</a> to have all children learn how to make a
             pentagon.
@@ -525,7 +525,7 @@
         <h2 class="title stroke !text-white">Learning Journal</h2>
         <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center flex flex-col justify-center items-start"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
-            <img src="{{ asset('assets/images/K1/str/st51.png') }}" />
+            <img src="{{ asset('assets/images/K1/str/st51.png') }}" class="!w-full" />
         </div>
     </div>
 

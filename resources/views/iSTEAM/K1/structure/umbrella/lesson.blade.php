@@ -17,8 +17,8 @@
     {{-- Slide 2 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
         <div class="flex items-center gap-[1vw]">
-            <img src="{{ asset('assets/images/K1/str/gl6.png') }}" class="img-sm" />
-            <img src="{{ asset('assets/images/K1/str/um2.png') }}" class="img-h-sm" />
+            <img src="{{ asset('assets/images/K1/str/gl6.png') }}" class="!w-[25vw]" />
+            <img src="{{ asset('assets/images/K1/str/um2.png') }}" class="!h-[20vw]" />
         </div>
         <h2 class="title stroke">An umbrella is a folding canopy designed
             to protect us from the rain or sunlight.</h2>
@@ -63,7 +63,7 @@
                 <li>Observe the structure of this umbrella and count how many ribs and stretchers there are.</li>
             </ol>
         </div>
-        <video id="video1" class="pointer-events-none">
+        <video id="video1" class="pointer-events-none !min-w-[40vw]">
             <source src="{{ asset('assets/images/K1/str/136.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -101,7 +101,7 @@
     {{-- Slide 8 --}}
     <div class="slide hidden click1 flex flex-col items-center justify-start">
         <h2 class="text-center title stroke">How to make the structure of an umbrella? - Step 1 of 9</h2>
-        <video id="video3" class="pointer-events-none">
+        <video id="video3" class="pointer-events-none !min-w-[40vw]">
             <source src="{{ asset('assets/images/K1/str/137.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -116,7 +116,7 @@
     {{-- Slide 9 --}}
     <div class="slide hidden click1 flex flex-col items-center justify-start">
         <h2 class="text-center title stroke">How to make the structure of an umbrella? - Step 2 of 9</h2>
-        <video id="video4" class="pointer-events-none">
+        <video id="video4" class="pointer-events-none !min-w-[40vw]">
             <source src="{{ asset('assets/images/K1/str/138.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -132,7 +132,7 @@
     <div class="slide hidden click1 flex flex-col items-center justify-start">
         <h2 class="text-center title stroke">How to make the structure of an umbrella? - Step 3 of 9</h2>
         <div class="flex items-center">
-            <video id="video5" class="pointer-events-none">
+            <video id="video5" class="pointer-events-none !min-w-[40vw]">
                 <source src="{{ asset('assets/images/K1/str/137.mp4') }}" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
@@ -149,7 +149,7 @@
     {{-- Slide 11 --}}
     <div class="slide hidden click1 flex flex-col items-center justify-start">
         <h2 class="text-center title stroke">How to make the structure of an umbrella? - Step 4 of 9</h2>
-        <video id="video6" class="pointer-events-none">
+        <video id="video6" class="pointer-events-none !min-w-[40vw]">
             <source src="{{ asset('assets/images/K1/str/139.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -164,7 +164,7 @@
     {{-- Slide 12 --}}
     <div class="slide hidden click1 flex flex-col items-center justify-start">
         <h2 class="text-center title stroke">How to make the structure of an umbrella? - Step 5 of 9</h2>
-        <video id="video7" class="pointer-events-none">
+        <video id="video7" class="pointer-events-none !min-w-[40vw]">
             <source src="{{ asset('assets/images/K1/str/140.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -180,11 +180,11 @@
     <div class="slide hidden click1 flex flex-col items-center justify-start">
         <h2 class="text-center title stroke">How to make the structure of an umbrella? - Step 6 of 9</h2>
         <div class="flex items-center">
-            <video id="video8" class="pointer-events-none">
+            <video id="video8" class="pointer-events-none !min-w-[40vw]">
                 <source src="{{ asset('assets/images/K1/str/141.mp4') }}" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
-            <p class="note w-[3vw]">Do the same for the other 4 parts!</p>
+            <p class="note w-[4vw]">Do the same for the other 4 parts!</p>
         </div>
         <p class="note text-center">Note: Have children observe the video and talk about how to do the step. Guide them to
             figure out all the sub-steps. Then have them work together in groups to complete the sub-steps.</p>
@@ -197,7 +197,7 @@
     {{-- Slide 14 --}}
     <div class="slide hidden click1 flex flex-col items-center justify-start">
         <h2 class="text-center title stroke">How to make the structure of an umbrella? - Step 7 of 9</h2>
-        <video id="video9" class="pointer-events-none">
+        <video id="video9" class="pointer-events-none !min-w-[40vw]">
             <source src="{{ asset('assets/images/K1/str/142.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -213,7 +213,7 @@
     {{-- Slide 15 --}}
     <div class="slide hidden click1 flex flex-col items-center justify-start">
         <h2 class="text-center title stroke">How to make the structure of an umbrella? - Step 8 of 9</h2>
-        <video id="video10" class="pointer-events-none">
+        <video id="video10" class="pointer-events-none !min-w-[40vw]">
             <source src="{{ asset('assets/images/K1/str/143.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -230,11 +230,11 @@
     <div class="slide hidden click1 flex flex-col items-center justify-start">
         <h2 class="text-center title stroke">How to make the structure of an umbrella? - Step 9 of 9</h2>
         <div class="flex items-center">
-            <video id="video11" class="pointer-events-none">
+            <video id="video11" class="pointer-events-none !min-w-[40vw]">
                 <source src="{{ asset('assets/images/K1/str/144.mp4') }}" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
-            <p class="note w-[3vw]">Do the same for the other 4 parts!</p>
+            <p class="note w-[4vw]">Do the same for the other 4 parts!</p>
         </div>
         <p class="note text-center">Note: Have children observe the video and talk about how to do the step. Guide them to
             figure out all the sub-steps. Then have them work together in groups to complete the sub-steps.</p>
@@ -280,7 +280,7 @@
 
 
     {{-- Slide 19 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-[28vw]">
+    <div class="slide hidden flex flex-col items-center justify-between h-[18vw] self-start">
         <h2 class="text-center justify-start text-[45px] !text-white stroke">Small Group Activity 2</h2>
         <div class="text-start">
             <h2 class="title stroke">Mission:</h2>
@@ -352,7 +352,7 @@
         <h2 class="title stroke !text-white">Learning Journal</h2>
         <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center flex flex-col justify-center items-start"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
-            <img src="{{ asset('assets/images/K1/str/um17.png') }}" />
+            <img src="{{ asset('assets/images/K1/str/um17.png') }}" class="!w-[100%]" />
         </div>
     </div>
 

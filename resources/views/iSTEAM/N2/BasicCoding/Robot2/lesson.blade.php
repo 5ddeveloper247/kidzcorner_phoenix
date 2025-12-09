@@ -150,7 +150,7 @@
 
 
     {{-- sldie 13 --}}
-    <div class="flex flex-col items-center justify-between h-[55vh] slide hidden">
+    <div class="flex flex-col items-center justify-between h-[32vw] slide hidden">
         <h2 class="!text-white title stroke">Hands-on Time 1</h2>
         <div class="text-start">
             <h2 class="title stroke text-start">Mission: <br>
@@ -278,7 +278,7 @@
     </div>
 
     {{-- slide 23 --}}
-    <div class="flex flex-col items-center justify-between h-[55vh] slide hidden">
+    <div class="flex flex-col items-center justify-between h-[32vw] slide hidden">
         <h2 class="!text-white title stroke">Hands-on Time 2</h2>
         <div class="text-start">
             <h2 class="title stroke text-start">Mission: <br>

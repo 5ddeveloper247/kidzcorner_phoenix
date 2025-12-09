@@ -102,7 +102,7 @@
 
     {{-- sldie 11 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="{{ asset('assets/images/N2/BasicCoding/br4.png') }}" class="img-h-sm" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/br4.png') }}" class="!h-[20vw]" />
         <h2 class="title stroke text-center">These are facial expression <span class="!text-white">programming
             </span> <span class="!text-white">cards</span>.
             Each card tells the <span class="!text-white">robot</span> what facial expression to show.
@@ -128,7 +128,7 @@
 
 
     {{-- sldie 13 --}}
-    <div class="flex flex-col items-center justify-between h-[55vh] slide hidden">
+    <div class="flex flex-col items-center justify-between h-[32vw] slide hidden">
         <h2 class="!text-white title stroke">Hands-on Time 1</h2>
         <div class="text-start">
             <h2 class="title stroke text-start">Mission: <br>
@@ -140,7 +140,7 @@
 
 
     {{-- slide 14 --}}
-    <div class="flex flex-col items-center justify-between h-[55vh] slide hidden">
+    <div class="flex flex-col items-center justify-between h-[32vw] slide hidden">
         <div class="text-start">
             <h2 class="title stroke">Steps:</h2>
             <ul class="list-decimal lesson-ul title stroke">
@@ -188,7 +188,7 @@
 
 
     {{-- sldie 18 --}}
-    <div class="flex flex-col items-center justify-between h-[55vh] slide hidden">
+    <div class="flex flex-col items-center justify-between h-[32vw] slide hidden">
         <h2 class="!text-white title stroke">Hands-on Time 2</h2>
         <div class="text-start">
             <h2 class="title stroke text-start">Mission: <br>

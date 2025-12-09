@@ -9,7 +9,7 @@
     <div class="slide flex flex-col items-center justify-center">
         <div class="flex items-center gap-[1vw]">
             <img src="{{ asset('assets/images/K1/coding/challenge4/ch1.png') }}" class="img-sm" />
-            <img src="{{ asset('assets/images/K1/coding/challenge4/ch2.png') }}" class="img-h-sm" />
+            <img src="{{ asset('assets/images/K1/coding/challenge4/ch2.png') }}" class="!h-[20vw]" />
         </div>
         <h2 class="title stroke">Children, what are these? Have you seen these before?</h2>
         <p class="note">Note: Have children discuss where they have seen these being used before.</p>
@@ -43,15 +43,15 @@
         <div class="flex items-end">
             <div class="flex gap-[1vw]">
                 <p class="note">Home </p>
-                <img src="{{ asset('assets/images/K1/coding/challenge4/ch5.png') }}" />
+                <img src="{{ asset('assets/images/K1/coding/challenge4/ch5.png') }}" class="!w-[4vw]" />
             </div>
-            <img src="{{ asset('assets/images/K1/coding/challenge4/ch3.png') }}" class="img-md" />
+            <img src="{{ asset('assets/images/K1/coding/challenge4/ch3.png') }}" class="!w-[35vw]" />
         </div>
         <h2 class="title stroke">We can use a map to help us find directions to reach a destination.</h2>
     </div>
 
     {{-- Slide 6 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-[17vw]">
+    <div class="slide hidden flex flex-col items-center justify-between h-[20vw] self-end">
         <h2 class="title stroke">Is it easy or difficult to find directions and plan a route from a map? Let's find out!
         </h2>
         <p class="note">Note: Have children share their views and feelings if they have ever used a map to find
@@ -92,7 +92,7 @@
     </div>
 
     {{-- Slide 12 --}}
-    <div class="slide hidden flex flex-col items-center justify-start">
+    <div class="slide hidden flex flex-col items-center justify-between h-[30vw]">
         <div class="text-start">
             <h2 class="title stroke">Steps:</h2>
             <ol class="lesson-ul list-decimal stroke" start="1">
@@ -107,7 +107,7 @@
     </div>
 
     {{-- Slide 13 --}}
-    <div class="slide hidden flex flex-col items-center justify-start">
+    <div class="slide hidden flex flex-col items-center justify-between h-[30vw]">
         <div class="text-start">
             <h2 class="title stroke">Steps:</h2>
             <ol class="lesson-ul list-decimal stroke" start="2">
@@ -119,7 +119,7 @@
     </div>
 
     {{-- Slide 14 --}}
-    <div class="slide hidden flex flex-col items-center justify-start">
+    <div class="slide hidden flex flex-col items-center justify-between h-[30vw]">
         <div class="text-start">
             <h2 class="title stroke">Steps:</h2>
             <ol class="lesson-ul list-decimal stroke" start="3">
@@ -128,14 +128,14 @@
         </div>
         <div class="flex items-end gap-[1vw]">
             <img src="{{ asset('assets/images/K1/coding/challenge4/ch9.png') }}" class="img-sm" />
-            <img src="{{ asset('assets/images/K1/coding/challenge4/ch11.png') }}" class="img-md" />
+            <img src="{{ asset('assets/images/K1/coding/challenge4/ch11.png') }}" class="!w-[30vw]" />
         </div>
         <p class="note text-center">Note: Have children lay out the steps in their learning journal. Check the steps and
             advise if incorrect.</p>
     </div>
 
     {{-- Slide 15 --}}
-    <div class="slide hidden flex flex-col items-center justify-start">
+    <div class="slide hidden flex flex-col items-center justify-between h-[30vw]">
         <div class="text-start">
             <h2 class="title stroke">Steps:</h2>
             <ol class="lesson-ul list-decimal stroke" start="4">

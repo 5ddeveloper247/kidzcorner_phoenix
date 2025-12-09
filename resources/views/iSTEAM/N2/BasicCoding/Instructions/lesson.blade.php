@@ -43,7 +43,7 @@
     </div>
 
     {{-- slide 5 --}}
-    <div class="flex flex-col items-center justify-center slide hidden">
+    <div class="flex flex-col items-center justify-between h-[30vw] self-end slide hidden">
         <img src="{{ asset('assets/images/N2/BasicCoding/bs11.png') }}" class="img-xl" />
         <h2 class="stroke title">Do you now how to wash your hands?
             What would you do step-by-step?</h2>
@@ -66,7 +66,7 @@
     </div>
 
     {{-- slide 8 --}}
-    <div class="flex flex-col items-center justify-center slide hidden">
+    <div class="flex flex-col items-center justify-between h-[30vw] slide hidden">
         <img src="{{ asset('assets/images/N2/BasicCoding/bs14.png') }}" class="img-xl" />
         <h2 class="stroke title">Look at these directional cards.Each card gives you an <span
                 class="text-white">instruction</span> on how to move.</h2>
@@ -74,7 +74,7 @@
     </div>
 
     {{-- slide 9 --}}
-    <div class="flex flex-col items-center justify-center slide hidden">
+    <div class="flex flex-col items-center justify-between h-[30vw] slide hidden">
         <div class="flex flex-col items-center">
             <img src="{{ asset('assets/images/N2/BasicCoding/bs14.png') }}" class="img-xl" />
             <div class="flex !text-white text-[1.5vw] gap-[2vw]">
@@ -99,42 +99,42 @@
 
 
     {{-- slide 11 --}}
-    <div class="flex flex-col items-center justify-center slide hidden">
+    <div class="flex flex-col items-center justify-between h-[25vw] self-end slide hidden">
         <img src="{{ asset('assets/images/N2/BasicCoding/bs15.png') }}" class="img-xl" />
         <p class="note">Note: Guide children to name each card and move accordingly.</p>
     </div>
 
 
     {{-- slide 12 --}}
-    <div class="flex flex-col items-center justify-center slide hidden">
+    <div class="flex flex-col items-center justify-between h-[25vw] self-end slide hidden">
         <img src="{{ asset('assets/images/N2/BasicCoding/bs16.png') }}" class="img-xl" />
         <p class="note">Note: Guide children to name each card and move accordingly.</p>
     </div>
 
 
     {{-- slide 13 --}}
-    <div class="flex flex-col items-center justify-center slide hidden">
+    <div class="flex flex-col items-center justify-between h-[25vw] self-end slide hidden">
         <img src="{{ asset('assets/images/N2/BasicCoding/bs28.png') }}" class="img-xl" />
         <p class="note">Note: Guide children to name each card and move accordingly.</p>
     </div>
 
 
     {{-- sldie 14 --}}
-    <div class="flex flex-col items-center justify-center slide hidden">
+    <div class="flex flex-col items-center justify-between h-[25vw] self-end slide hidden">
         <img src="{{ asset('assets/images/N2/BasicCoding/bs17.png') }}" class="img-xl" />
         <p class="note">Note: Guide children to name each card and move accordingly.</p>
     </div>
 
 
     {{-- slide 15 --}}
-    <div class="flex flex-col items-center justify-center slide hidden">
+    <div class="flex flex-col items-center justify-between h-[25vw] self-end slide hidden">
         <img src="{{ asset('assets/images/N2/BasicCoding/bs18.png') }}" class="img-xl" />
         <p class="note">Note: Guide children to name each card and move accordingly.</p>
     </div>
 
 
     {{-- slide 16 --}}
-    <div class="flex flex-col items-center justify-center slide hidden">
+    <div class="flex flex-col items-center justify-between h-[25vw] self-end slide hidden">
         <img src="{{ asset('assets/images/N2/BasicCoding/bs19.png') }}" class="img-xl" />
         <p class="note">Note: Guide children to name each card and move accordingly.</p>
     </div>
@@ -142,7 +142,7 @@
 
 
     {{-- slide 14 --}}
-    <div class="flex flex-col items-center justify-center slide hidden">
+    <div class="flex flex-col items-center justify-between h-[25vw] self-end slide hidden">
         <img src="{{ asset('assets/images/N2/BasicCoding/bs20.png') }}" class="img-xl" />
         <p class="note">Note: Guide children to name each card and move accordingly.</p>
     </div>

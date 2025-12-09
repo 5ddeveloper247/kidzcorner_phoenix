@@ -6,7 +6,7 @@
     <h2 class="top-title stroke">Structures in Shapes</h2>
 
     {{-- sldie 1  --}}
-    <div class="flex  !text-white flex-col justify-start text-start t-slide">
+    <div class="flex  !text-white flex-col justify-around text-start t-slide">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -61,7 +61,7 @@
 
 
     {{-- slide 3 --}}
-    <div class="flex  !text-white flex-col items-start  justify-start gap-[3rem] text-start t-slide">
+    <div class="flex  !text-white flex-col items-start justify-between gap-[3rem] text-start t-slide">
         <div>
             <h2 class=" t-title">Preparations:</h2>
             <ul class="list-disc ">
@@ -80,7 +80,7 @@
     </div>
 
     {{-- sldie 4 --}}
-    <div class="flex  !text-white flex-col justify-start items-start gap-[3vw] text-start t-slide">
+    <div class="flex  !text-white flex-col justify-between items-start gap-[3vw] text-start t-slide">
         <div>
             <h2 class=" t-title">Things to consider during hands-on sessions:</h2>
             <ul class="list-disc ">

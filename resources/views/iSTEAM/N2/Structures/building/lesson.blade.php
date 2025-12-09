@@ -8,8 +8,8 @@
     {{-- Slide 1 --}}
     <div class="slide flex flex-col items-center justify-center gap-6">
         <div class="flex flex-col gap-1 justify-center items-center">
-            <img src="{{ asset('/assets/images/N2/structure/str2/s1.png') }}" class="img-normal-md" />
-            <img src="{{ asset('/assets/images/N2/structure/str2/s2.png') }}" class="img-normal-md" />
+            <img src="{{ asset('/assets/images/N2/structure/str2/s1.png') }}" class="!w-[35vw]" />
+            <img src="{{ asset('/assets/images/N2/structure/str2/s2.png') }}" class="!w-[35vw]" />
         </div>
         <h2 class="title stroke">Children, do you remember what these are?</h2>
         <p class="note">Note: Encourage children to name the different types of structures.</p>
@@ -137,8 +137,8 @@
     <div class="slide hidden flex flex-col items-center justify-center">
         <div class="flex items-center">
             <img src="{{ asset('/assets/images/N2/structure/str3/s9.png') }}" class="img-sm" />
-            <img src="{{ asset('/assets/images/N2/structure/str3/s10.png') }}" class="img-sm" />
-            <img src="{{ asset('/assets/images/N2/structure/str3/s11.png') }}" class="img-sm" />
+            <img src="{{ asset('/assets/images/N2/structure/str3/s10.png') }}" class="!w-[3vw] pt-[2vw]" />
+            <img src="{{ asset('/assets/images/N2/structure/str3/s11.png') }}" class="img-sm pb-[2vw]" />
         </div>
         <h2 class="title stroke">We learned that the <span class="!text-white">structure</span> with a <span
                 class="text-white">thin base</span>
@@ -208,11 +208,11 @@
                 <li>Look at the shape of this office building. It looks like a rectangle.</li>
             </ol>
         </div>
-        <img src="{{ asset('/assets/images/N2/structure/str3/s17.png') }}" class="img-md" />
+        <img src="{{ asset('/assets/images/N2/structure/str3/s17.png') }}" class="!w-[35vw]" />
     </div>
 
     {{-- Slide 25 --}}
-    <div class="slide hidden flex flex-col items-center justify-start">
+    <div class="slide hidden flex flex-col items-center justify-between h-[30vw]">
         <div class="text-start">
             <h2 class="title stroke text-start">Steps:</h2>
             <ol class="lesson-ul list-decimal title stroke" start="2">
@@ -225,7 +225,7 @@
     </div>
 
     {{-- Slide 26 --}}
-    <div class="slide hidden flex flex-col items-center justify-start">
+    <div class="slide hidden flex flex-col items-center justify-between h-[30vw]">
         <div class="text-start">
             <h2 class="title stroke text-start">Steps:</h2>
             <ol class="lesson-ul list-decimal title stroke" start="3">
@@ -249,12 +249,12 @@
                 </li>
             </ol>
         </div>
-        <img src="{{ asset('/assets/images/N2/structure/str3/s21.png') }}" class="img-md" />
+        <img src="{{ asset('/assets/images/N2/structure/str3/s21.png') }}" class="!w-[35vw]" />
         <p class="note">Note: Teacher to assist the children as it may be hard for them to attach the parts.</p>
     </div>
 
     {{-- Slide 28 --}}
-    <div class="slide hidden flex flex-col items-center justify-start">
+    <div class="slide hidden flex flex-col items-center justify-between h-[30vw]">
         <div class="text-start">
             <h2 class="title stroke text-start">Steps:</h2>
             <ol class="lesson-ul list-decimal title stroke" start="6">
@@ -262,14 +262,14 @@
             </ol>
         </div>
         <div class="flex gap-3 justify-center items-center">
-            <img src="{{ asset('/assets/images/N2/structure/str3/s22.png') }}" class="img-h-sm" />
+            <img src="{{ asset('/assets/images/N2/structure/str3/s22.png') }}" class="!h-[20vw]" />
             <img src="{{ asset('/assets/images/N2/structure/str3/s17.png') }}" class="img-sm" />
         </div>
         <p class="note">Note: Teacher to assist the children as it may be hard for them to attach the parts.</p>
     </div>
 
     {{-- Slide 29 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-[50vh]">
+    <div class="slide hidden flex flex-col items-center justify-between h-[22vw]">
         <img src="{{ asset('/assets/images/N2/structure/str3/s23.png') }}" class="img-lg" />
         <h2 class="title stroke">Different shaped structures can also be created <br>
             using the blocks.</h2>
@@ -315,8 +315,8 @@
     {{-- Slide 34 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
         <div class="flex gap-[1vw]">
-            <img src="{{ asset('/assets/images/N2/structure/str3/s25.png') }}" class="img-h-sm" />
-            <img src="{{ asset('/assets/images/N2/structure/str3/s28.png') }}" class="img-h-sm" />
+            <img src="{{ asset('/assets/images/N2/structure/str3/s25.png') }}" class="!h-[20vw]" />
+            <img src="{{ asset('/assets/images/N2/structure/str3/s28.png') }}" class="!h-[20vw]" />
         </div>
         <h2 class="title stroke">A <span class="!text-white">structure</span> for this part of the house
             can formed using different <span class="!text-white">shapes</span>.</h2>
@@ -325,8 +325,8 @@
     {{-- Slide 35 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
         <div class="flex gap-[1vw]">
-            <img src="{{ asset('/assets/images/N2/structure/str3/s24.png') }}" class="img-h-sm" />
-            <img src="{{ asset('/assets/images/N2/structure/str3/s28.png') }}" class="img-h-sm" />
+            <img src="{{ asset('/assets/images/N2/structure/str3/s24.png') }}" class="!h-[20vw]" />
+            <img src="{{ asset('/assets/images/N2/structure/str3/s28.png') }}" class="!h-[20vw]" />
         </div>
         <h2 class="title stroke">This <span class="!text-white">rectangle structure</span> is made up of cubes.</h2>
         <p class="note">Note: Encourage children to point out the cubes.</p>
@@ -335,8 +335,8 @@
     {{-- Slide 36 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
         <div class="flex gap-[1vw]">
-            <img src="{{ asset('/assets/images/N2/structure/str3/s24.png') }}" class="img-h-sm" />
-            <img src="{{ asset('/assets/images/N2/structure/str3/s28.png') }}" class="img-h-sm" />
+            <img src="{{ asset('/assets/images/N2/structure/str3/s24.png') }}" class="!h-[20vw]" />
+            <img src="{{ asset('/assets/images/N2/structure/str3/s28.png') }}" class="!h-[20vw]" />
         </div>
         <h2 class="title stroke">This <span class="!text-white">triangle structure</span> is made up different types of
             blocks.</h2>
@@ -356,8 +356,8 @@
     {{-- Slide 38 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
         <div class="flex gap-[1vw]">
-            <img src="{{ asset('/assets/images/N2/structure/str3/s24.png') }}" class="img-h-sm" />
-            <img src="{{ asset('/assets/images/N2/structure/str3/s28.png') }}" class="img-h-sm" />
+            <img src="{{ asset('/assets/images/N2/structure/str3/s24.png') }}" class="!h-[20vw]" />
+            <img src="{{ asset('/assets/images/N2/structure/str3/s28.png') }}" class="!h-[20vw]" />
         </div>
         <h2 class="title stroke">Put all the <span class="!text-white"> structures</span> together to complete the
             whole building structure.</h2>
@@ -375,7 +375,7 @@
     {{-- Slide 40 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
         <h2 class="title stroke !text-white">Class Activity</h2>
-        <img src="{{ asset('/assets/images/N2/structure/str3/s30.png') }}" class="img-sm" />
+        <img src="{{ asset('/assets/images/N2/structure/str3/s30.png') }}" class="!w-[25vw]" />
         <h2 class="title stroke !text-start">Mission: <br>
             Choose a building that you like from the pictures. Use the
             constructions set and make a structure of the building.</h2>

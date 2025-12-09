@@ -109,7 +109,7 @@
 
     {{-- slide 5 --}}
     <div class="hidden flex  flex-col justify-start items-center text-start t-slide  !text-white">
-        <div class="flex flex-col">
+        <div>
             <p class="text-white text-[30px]">If needed, you may reuse the coding mats, start and end cards, as well as the
                 forward, turn left and turn right programming cards from Lesson 5 to repeat the
                 hands-on sessions.</p>
@@ -128,8 +128,8 @@
     {{-- slide 6 --}}
     <div class="hidden flex flex-col justify-start items-center text-start t-slide  !text-white">
         <div class="flex flex-col">
+            <h2 class=" t-title ">What you need to know or do before the lesson:</h2>
             <ul class="list-disc">
-                <h2 class=" t-title ">What you need to know or do before the lesson:</h2>
                 <li>Label each set of robot and pen controller to avoid confusion, especially
                     when you are going to use a few sets of robots and pen controllers at one
                     go. Suggest to paste the labels at the back of the robot and the pen
@@ -137,7 +137,7 @@
             </ul>
         </div>
 
-        <img src="{{ asset('assets/images/N2/BasicCoding/br11.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/br11.png') }}" class="!w-[35vw]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" class="absolute teacher-img1" />
     </div>
 

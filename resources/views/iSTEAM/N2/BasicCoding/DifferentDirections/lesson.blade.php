@@ -114,7 +114,7 @@
     </div>
 
     {{-- slide 13 --}}
-    <div class="flex flex-col items-center justify-center slide hidden">
+    <div class="flex flex-col items-center justify-between h-[30vw] slide hidden">
         <ul class="title text-center stroke">
             <li>Forward, Forward.</li>
             <li>Backward, backward.</li>
@@ -228,7 +228,7 @@
     </div>
 
     {{-- slide 24 --}}
-    <div class="flex flex-col items-center justify-center slide hidden">
+    <div class="flex flex-col items-center justify-between h-[30vw] slide hidden">
         <ul class="title text-center stroke">
             <li>Wave your left hand, wave your right.</li>
             <li>Wiggle your left leg, wiggle your right.</li>
@@ -255,8 +255,8 @@
     {{-- slide 25 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
         <div class="flex items-center gap-[9vw]">
-            <img src="{{ asset('assets/images/N2/BasicCoding/bs23.png') }}" class="rotate-[90deg]  img-normal-md ">
-            <img src="{{ asset('assets/images/N2/BasicCoding/bs23.png') }}" class="rotate-[-90deg] img-normal-md ">
+            <img src="{{ asset('assets/images/N2/BasicCoding/bs23.png') }}" class="rotate-[90deg]  !w-[10vw] ">
+            <img src="{{ asset('assets/images/N2/BasicCoding/bs23.png') }}" class="rotate-[-90deg] !w-[10vw] ">
         </div>
         <h2 class="stroke title">Which is pointing to the <span class="!text-white">left</span>? Which is pointing to the
             <span class="!text-white">right</span>?

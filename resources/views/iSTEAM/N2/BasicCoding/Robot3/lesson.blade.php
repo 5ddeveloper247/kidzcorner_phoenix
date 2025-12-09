@@ -18,7 +18,7 @@
 
     {{-- Slide 2 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="{{ asset('assets/images/N2/BasicCoding/gl7.png') }}"  />
+        <img src="{{ asset('assets/images/N2/BasicCoding/gl7.png') }}" class="!w-[45vw]"  />
         <h2 class="stroke title">Children, what are these? What do you use them for?</h2>
         <p class="note">Note: Guide children to name the cards and talk about their uses.</p>
     </div>
@@ -77,7 +77,7 @@
     </div>
 
     {{-- slide 8 --}}
-    <div class="flex flex-col items-center justify-between h-[55vh] slide hidden">
+    <div class="flex flex-col items-center justify-between h-[32vw] slide hidden">
         <h2 class="!text-white title stroke">Hands-on Time </h2>
         <div class="text-start">
             <h2 class="title stroke text-start">Mission: <br>
@@ -91,7 +91,7 @@
     </div>
     {{-- ==== --}}
     {{-- slide 9 --}}
-    <div class="slide flex flex-col items-center justify-center  ">
+    <div class="slide flex flex-col items-center justify-between h-[32vw]  ">
         <h2 class="title stroke text-center">Help the robot move from the mat with its picture
             to the mat with a <span class="!text-white">fish</span>.</h2>
         <img src="{{ asset('assets/images/N2/BasicCoding/rb6.png') }}" class="img-lg" />
@@ -103,7 +103,7 @@
 
 
     {{-- sldie 10 --}}
-    <div class="slide flex flex-col items-center justify-center  ">
+    <div class="slide flex flex-col items-center justify-between h-[32vw]  ">
         <h2 class="title stroke text-center">Help the robot move from the mat with its picture
             to the mat with a <span class="!text-white">piece of meat</span>.</h2>
 
@@ -116,7 +116,7 @@
 
 
     {{-- sldie 11 --}}
-    <div class="slide flex flex-col items-center justify-center  ">
+    <div class="slide flex flex-col items-center justify-between h-[32vw]  ">
         <h2 class="title stroke text-center">Help the robot move from the mat with its picture
             to the mat with a <span class="!text-white">corn</span>.</h2>
         <img src="{{ asset('assets/images/N2/BasicCoding/rb6.png') }}" class="img-lg" />
@@ -127,7 +127,7 @@
 
 
     {{-- slide 12 --}}
-    <div class="slide flex flex-col items-center justify-center  ">
+    <div class="slide flex flex-col items-center justify-between h-[32vw]  ">
         <h2 class="title stroke text-center">Help the robot move from the mat with its picture
             to the mat with a <span class="!text-white">bamboos</span>.</h2>
         <img src="{{ asset('assets/images/N2/BasicCoding/rb6.png') }}" class="img-lg" />
@@ -137,7 +137,7 @@
 
     {{-- ===== --}}
     {{-- slide 9 --}}
-    <div class="slide flex flex-col items-center justify-center  ">
+    <div class="slide flex flex-col items-center justify-between h-[32vw]  ">
         <h2 class="title stroke text-center">Help the robot move from the mat with its picture
             to the mat with a <span class="!text-white">fish</span>.</h2>
         <img src="{{ asset('assets/images/N2/BasicCoding/rb7.png') }}" class="img-lg" />
@@ -149,7 +149,7 @@
 
 
     {{-- sldie 10 --}}
-    <div class="slide flex flex-col items-center justify-center  ">
+    <div class="slide flex flex-col items-center justify-between h-[32vw]  ">
         <h2 class="title stroke text-center">Help the robot move from the mat with its picture
             to the mat with a <span class="!text-white">piece of meat</span>.</h2>
 
@@ -162,7 +162,7 @@
 
 
     {{-- sldie 11 --}}
-    <div class="slide flex flex-col items-center justify-center  ">
+    <div class="slide flex flex-col items-center justify-between h-[32vw]  ">
         <h2 class="title stroke text-center">Help the robot move from the mat with its picture
             to the mat with a <span class="!text-white">corn</span>.</h2>
         <img src="{{ asset('assets/images/N2/BasicCoding/rb7.png') }}" class="img-lg" />
@@ -173,7 +173,7 @@
 
 
     {{-- slide 12 --}}
-    <div class="slide flex flex-col items-center justify-center  ">
+    <div class="slide flex flex-col items-center justify-between h-[32vw]  ">
         <h2 class="title stroke text-center">Help the robot move from the mat with its picture
             to the mat with a <span class="!text-white">bamboos</span>.</h2>
         <img src="{{ asset('assets/images/N2/BasicCoding/rb7.png') }}" class="img-lg" />
@@ -183,7 +183,7 @@
 
     {{-- ======== --}}
     {{-- slide 9 --}}
-    <div class="slide flex flex-col items-center justify-center  ">
+    <div class="slide flex flex-col items-center justify-between h-[32vw]  ">
         <h2 class="title stroke text-center">Help the robot move from the mat with its picture
             to the mat with a <span class="!text-white">fish</span>.</h2>
         <img src="{{ asset('assets/images/N2/BasicCoding/rb8.png') }}" class="img-lg" />
@@ -195,7 +195,7 @@
 
 
     {{-- sldie 10 --}}
-    <div class="slide flex flex-col items-center justify-center  ">
+    <div class="slide flex flex-col items-center justify-between h-[32vw]  ">
         <h2 class="title stroke text-center">Help the robot move from the mat with its picture
             to the mat with a <span class="!text-white">piece of meat</span>.</h2>
 
@@ -208,7 +208,7 @@
 
 
     {{-- sldie 11 --}}
-    <div class="slide flex flex-col items-center justify-center  ">
+    <div class="slide flex flex-col items-center justify-between h-[32vw]  ">
         <h2 class="title stroke text-center">Help the robot move from the mat with its picture
             to the mat with a <span class="!text-white">corn</span>.</h2>
         <img src="{{ asset('assets/images/N2/BasicCoding/rb8.png') }}" class="img-lg" />
@@ -219,7 +219,7 @@
 
 
     {{-- slide 12 --}}
-    <div class="slide flex flex-col items-center justify-center  ">
+    <div class="slide flex flex-col items-center justify-between h-[32vw]  ">
         <h2 class="title stroke text-center">Help the robot move from the mat with its picture
             to the mat with a <span class="!text-white">bamboos</span>.</h2>
         <img src="{{ asset('assets/images/N2/BasicCoding/rb8.png') }}" class="img-lg" />
@@ -229,7 +229,7 @@
 
     {{-- ======== --}}
     {{-- slide 9 --}}
-    <div class="slide flex flex-col items-center justify-center  ">
+    <div class="slide flex flex-col items-center justify-between h-[32vw]  ">
         <h2 class="title stroke text-center">Help the robot move from the mat with its picture
             to the mat with a <span class="!text-white">fish</span>.</h2>
         <img src="{{ asset('assets/images/N2/BasicCoding/rb9.png') }}" class="img-lg" />
@@ -241,7 +241,7 @@
 
 
     {{-- sldie 10 --}}
-    <div class="slide flex flex-col items-center justify-center  ">
+    <div class="slide flex flex-col items-center justify-between h-[32vw]  ">
         <h2 class="title stroke text-center">Help the robot move from the mat with its picture
             to the mat with a <span class="!text-white">piece of meat</span>.</h2>
 
@@ -254,7 +254,7 @@
 
 
     {{-- sldie 11 --}}
-    <div class="slide flex flex-col items-center justify-center  ">
+    <div class="slide flex flex-col items-center justify-between h-[32vw]  ">
         <h2 class="title stroke text-center">Help the robot move from the mat with its picture
             to the mat with a <span class="!text-white">corn</span>.</h2>
         <img src="{{ asset('assets/images/N2/BasicCoding/rb9.png') }}" class="img-lg" />
@@ -265,7 +265,7 @@
 
 
     {{-- slide 12 --}}
-    <div class="slide flex flex-col items-center justify-center  ">
+    <div class="slide flex flex-col items-center justify-between h-[32vw]  ">
         <h2 class="title stroke text-center">Help the robot move from the mat with its picture
             to the mat with a <span class="!text-white">bamboos</span>.</h2>
         <img src="{{ asset('assets/images/N2/BasicCoding/rb9.png') }}" class="img-lg" />

@@ -7,7 +7,7 @@
 
 
     {{-- Slide 1 --}}
-    <div class="slide flex flex-col items-center justify-between h-[30vh]">
+    <div class="slide flex flex-col items-center justify-between h-[20vw] self-end">
         <h2 class="title stroke">Children, do you remember the different types of structures
             that we have learnt?</h2>
         <p class="note">Note: Encourage children to recall what they have learnt.</p>
@@ -41,8 +41,8 @@
     {{-- Slide 5 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
         <div class="flex gap-[1vw]">
-            <img src="{{ asset('assets/images/N2/structure/ci-str/s4.png') }}" class="img-sm" />
-            <img src="{{ asset('assets/images/N2/structure/ci-str/s5.png') }}" class="img-sm" />
+            <img src="{{ asset('assets/images/N2/structure/ci-str/s4.png') }}" class="!w-[25vw]" />
+            <img src="{{ asset('assets/images/N2/structure/ci-str/s5.png') }}" class="!w-[25vw]" />
         </div>
         <h2 class="title stroke">Lastly, we learnt that vehicles are structures too.
             Different vehicles have different shapes
@@ -51,7 +51,7 @@
 
 
     {{-- Slide 6 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-[30vh]">
+    <div class="slide hidden flex flex-col items-center justify-between h-[20vw] self-end">
         <h2 class="title stroke">Structures can be found everywhere in the world.
             What structures have you seen in Singapore?</h2>
         <p class="note">Note: Encourage children to brainstorm as a class on what they want to have in their city.</p>
@@ -181,7 +181,7 @@
 
 
     {{-- Slide 22 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-[50vh]">
+    <div class="slide hidden flex flex-col items-center justify-between h-[30vw]">
         <h2 class="title stroke !text-white">Class Activity</h2>
         <h2 class="title stroke !text-start">Mission: <br>
             Let's build a city using the construction set.</h2>
@@ -201,7 +201,7 @@
                 <li>Draw the structure that you would like to build in your learning journal.</li>
             </ol>
         </div>
-        <div class="w-[40vw] h-[30vh] border-2 border-white text-start flex flex-col justify-between">
+        <div class="w-[40vw] h-[20vw] border-2 border-white text-start flex flex-col justify-between">
             <p class="note">Draw the structure that you would like to <br>
                 create in the city.</p>
             <p class="note">This is____________________________</p>
@@ -212,7 +212,7 @@
 
 
     {{-- Slide 24 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-[50vh]">
+    <div class="slide hidden flex flex-col items-center justify-between h-[30vw]">
         <div class="text-start">
             <h2 class="title stroke">Steps:</h2>
             <ol class="lesson-ul list-decimal title stroke" start="3">

@@ -6,7 +6,7 @@
     <h2 class="top-title stroke">Lets Programme 2</h2>
 
     {{-- sldie 1  --}}
-    <div class="flex  !text-white flex-col justify-start  text-start t-slide">
+    <div class="flex  !text-white flex-col justify-around     text-start t-slide">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -38,7 +38,7 @@
                 </ul>
             </div>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}"  class="absolute teacher-img1" />
     </div>
 
 
@@ -52,18 +52,18 @@
                 <li>Reuse the start and end cards</li>
             </ul>
         </div>
-        <div class="flex justify-center items-center ">
-            <img src="{{ asset('assets/images/N2/BasicCoding/bs30.png') }}" />
+        <div class="flex justify-center items-center gap-[1.5vw]">
+            <img src="{{ asset('assets/images/N2/BasicCoding/bs30.png') }}" class="!w-[35vw]" />
             <div class="flex flex-col !text-white text-[20px] gap-[2rem]">
                 <div
-                    class="w-24 h-12 bg-zinc-300 rounded-[10px] flex justify-center items-center border-[3px] border-black">
+                    class="!w-[8vw] text-[1.5vw] bg-zinc-300 rounded-[.5vw] flex justify-center items-center border-[3px] border-black">
                     Start</div>
                 <div
-                    class="w-24 h-12 bg-zinc-300 rounded-[10px] flex justify-center items-center border-[3px] border-black">
+                    class="!w-[8vw] text-[1.5vw] bg-zinc-300 rounded-[.5vw] flex justify-center items-center border-[3px] border-black">
                     End</div>
             </div>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}"  class="absolute teacher-img1" />
     </div>
 
 
@@ -85,7 +85,7 @@
                     <p>turn right</p>
                 </div>
             </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
+            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}"  class="absolute teacher-img1" />
         </div>
     </div>
 
@@ -102,7 +102,7 @@
         </div>
 
         <img src="{{ asset('assets/images/N2/BasicCoding/bs42.png') }}" class="img-lg" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}"  class="absolute teacher-img1" />
     </div>
 
 
@@ -116,7 +116,7 @@
         </div>
 
         <img src="{{ asset('assets/images/N2/BasicCoding/bs43.png') }}" class="img-lg" />
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}"  class="absolute teacher-img1" />
     </div>
 
     {{-- slide 6 --}}
@@ -128,14 +128,14 @@
             </ul>
         </div>
 
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
-        <img src="{{ asset('assets/images/N2/BasicCoding/bs44.png') }}" class="img-h-sm" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}"  class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/bs44.png') }}" class="!h-[20vw]" />
     </div>
 
 
 
     {{-- slide 7 --}}
-    <div class="hidden flex flex-col  justify-start  text-start t-slide  !text-white">
+    <div class="hidden flex flex-col  justify-around  text-start t-slide  !text-white">
         <div class="flex flex-col ">
             <ul class="list-disc">
                 <h2 class=" t-title ">Things to note:</h2>
@@ -153,10 +153,10 @@
             <h2 class=" t-title ">Possible questions during hands-on sessions:</h2>
             <ul class="list-disc">
                 <li>Do you (go forward/go backward/turn right/turn left) now?</li>
+                <li>What comes first/next?</li>
             </ul>
-            <li>What comes first/next?</li>
         </div>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}"  class="absolute teacher-img1" />
     </div>
 
 
@@ -203,36 +203,35 @@
 
 
     {{-- slide 9 --}}
-    <div class="text-white flex flex-col items-center justify-center  text-start t-slide  hidden">
+    <div class="text-white flex flex-col justify-between text-start t-slide  hidden">
         <h2 class="!text-center title stroke">Learning Centre Idea</h2>
-        <div class="flex">
-            <div class="space-y-10">
-                <ul class="list-disc">
-                    <h2 class="!text-white title stroke">Move, Move, Move</h2>
-                    <h2 class="t-title">What and how to set up:</h2>
-                    <li>Create a grid maze programming game each day. Set the starting
-                        point and end point of the game. Place the programming cards next
-                        to the maze.</li>
-                </ul>
-
-                <ul>
-                    <h2 class="t-title">What to do:</h2>
-                    <li>Lay out the programming cards and move through the maze.</li>
-                </ul>
-            </div>
-            <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
+        <div>
+            <h2 class="!text-white title stroke">Move, Move, Move</h2>
+            <h2 class="t-title">What and how to set up:</h2>
+            <ul class="list-disc">
+                <li>Create a grid maze programming game each day. Set the starting
+                    point and end point of the game. Place the programming cards next
+                    to the maze.</li>
+            </ul>
         </div>
-        <p class="note">Note: Encourage children to take turns solving the maze.</p>
+        <div class="text-start">
+            <h2 class="t-title">What to do:</h2>
+            <ul>
+                <li>Lay out the programming cards and move through the maze.</li>
+            </ul>
+        </div>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}"  class="absolute teacher-img1" />
+        <p class="note text-center">Note: Encourage children to take turns solving the maze.</p>
     </div>
 
 
     {{-- slide 10 --}}
-    <div class="text-white flex flex-col items-center justify-center  text-start t-slide  hidden">
+    <div class="text-white flex flex-col justify-between  text-start t-slide  hidden">
         <h2 class="!text-center title stroke">Learning Centre Idea</h2>
         <div class="space-y-10 text-start">
             <h2 class="!text-white title stroke">Move Through The Maze and Pick Things Up</h2>
+            <h2 class="t-title">What and how to set up:</h2>
             <ul class="list-disc">
-                <h2 class="t-title">What and how to set up:</h2>
                 <li>Create a grid maze programming game to pick things up <a
                         class="text-[#F7B94A] info-btn1 z-[99]">(example)</a>.
                     Place the programming cards, a grid maze and a marker pen next to the maze.</li>
@@ -245,29 +244,29 @@
             </ul>
         </div>
         </dixv>
-        <p class="!note">Note: Encourage children to take turns solving the maze.</p>
-        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
+        <p class="!text-center note">Note: Encourage children to take turns solving the maze.</p>
+        <img src="{{ asset('assets/images/pptimages/teacher1.png') }}"  class="absolute teacher-img1" />
     </div>
 
+
     {{-- Example slides --}}
-    <div class="flex flex-col items-center  justify-betweeen h-[50vh] t-slide info-slide1 hidden">
+    <div class="flex flex-col items-center  justify-between h-[30vw] t-slide info-slide1 hidden">
         <h2 class="title stroke">Example: Move Through The Maze And Pick Things Up</h2>
         <div class="text-start ">
-            <h2 class="title stroke text-start">Mission: <br>
+            <h2 class="lesson-ul stroke text-start">Mission: <br>
                 Let's lay out a grid maze and play a programming game. Think
                 and plan how to move through the maze to pick up things.After that, lay out the programming cards and move
                 from the starting point to the end point.</h2>
         </div>
-        <p class="note">Note: Have children work together as a class to complete the mission.
-        <p>
+        <p class="note">Note: Have children work together as a class to complete the mission.<p>
     </div>
 
 
     {{-- slide 2 --}}
     <div class="flex flex-col items-center justify-center t-slide info-slide1 hidden">
         <div class="flex items-center">
-            <h2 class="text-[30px] !text-white">Sample Maze 1</h2>
-            <img src="{{ asset('assets/images/N2/BasicCoding/bs45.png') }}" class="img-h-sm" />
+            <h2 class="text-[1.2vw] !text-white">Sample Maze 1</h2>
+            <img src="{{ asset('assets/images/N2/BasicCoding/bs45.png') }}" class="!h-[20vw]" />
         </div>
         <h2 class="stroke title">How can you move through the maze and pick up the ball?</h2>
         <p class="note text-center">Note: Have children lay out the maze, plan the way (draw a way in the laminated grid
@@ -284,7 +283,7 @@
     {{-- slide 4 --}}
     <div class="flex flex-col items-center justify-center t-slide info-slide1 hidden">
         <h2 class="stroke title">One way to move through this maze and pick up the ball.</h2>
-        <img src="{{ asset('assets/images/N2/BasicCoding/bs47.png') }}" class="img-h-sm" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/bs47.png') }}" class="!h-[20vw]" />
         <p class="note text-center">Note: Accept other logical answers presented by children.</p>
     </div>
 
@@ -292,8 +291,8 @@
     {{-- sldie 5 --}}
     <div class="flex flex-col items-center justify-center t-slide info-slide1 hidden">
         <div class="flex items-center">
-            <h2 class="text-[30px] !text-white">Sample Maze 2</h2>
-            <img src="{{ asset('assets/images/N2/BasicCoding/bs48.png') }}" class="img-h-sm" />
+            <h2 class="text-[1.2vw] !text-white">Sample Maze 2</h2>
+            <img src="{{ asset('assets/images/N2/BasicCoding/bs48.png') }}" class="!h-[20vw]" />
         </div>
         <h2 class="stroke title">How can you move through the maze and pick up the ball?</h2>
         <p class="note text-center">Note: Have children lay out the maze, plan the way (draw a way in the laminated grid
@@ -312,7 +311,7 @@
     {{-- sldie 7 --}}
     <div class="flex flex-col items-center justify-center t-slide info-slide1 hidden">
         <h2 class="stroke title">One way to move through this maze and pick up the ball.</h2>
-        <img src="{{ asset('assets/images/N2/BasicCoding/bs50.png') }}" class="img-h-sm" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/bs50.png') }}" class="!h-[20vw]" />
         <p class="note text-center">Note: Accept other logical answers presented by children.</p>
     </div>
 

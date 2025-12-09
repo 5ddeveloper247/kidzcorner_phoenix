@@ -238,7 +238,7 @@
                 <li>Attach a strap over the DNA double helix.</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/dna/h20.png') }}" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h20.png') }}" class="img-xl" />
     </div>
 
 

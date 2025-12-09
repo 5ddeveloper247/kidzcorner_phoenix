@@ -54,7 +54,7 @@
             </ul>
         </div>
         <div class="flex justify-center">
-            <img src="{{ asset('assets/images/N2/BasicCoding/bs27.png') }}" alt="" />
+            <img src="{{ asset('assets/images/N2/BasicCoding/bs27.png') }}" class="!w-[45vw]" />
             <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="" class="absolute teacher-img1" />
         </div>
     </div>
@@ -141,7 +141,7 @@
             <ul class="list-disc">
                 <li>Prepare four directional signs.</li>
             </ul>
-            <img src="{{ asset('assets/images/N2/BasicCoding/bs27.png') }}" class="img-sm">
+            <img src="{{ asset('assets/images/N2/BasicCoding/bs27.png') }}" class="!w-[35vw]">
 
         </div>
         <div>

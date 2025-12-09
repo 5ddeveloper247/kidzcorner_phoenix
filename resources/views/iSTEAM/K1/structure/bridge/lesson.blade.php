@@ -215,7 +215,7 @@
     </div>
 
     {{-- Slide 22 --}}
-    <div class="slide hidden flex flex-col items-center justify-start">
+    <div class="slide hidden flex flex-col justify-start">
         <div class="text-start">
             <h2 class="title stroke">Steps:</h2>
             <ol class="lesson-ul list-decimal title stroke" start="2">
@@ -227,9 +227,9 @@
                 <source src="{{ asset('assets/images/K1/str/125.mp4') }}" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
-            <img src="{{ asset('assets/images/K1/str/arrow.png') }}" class="img-xs" />
+            <img src="{{ asset('assets/images/K1/str/arrow.png') }}" class="!w-[4vw]" />
 
-            <p class="text-white w-[8vw]">Each group prepares 5 long straws (same length)</p>
+            <p class="text-white w-[8vw] text-[1.2vw]">Each group prepares 5 long straws (same length)</p>
         </div>
         <p class="note text-center">Note: Have children observe the video, talk about how to do the step and then learn how
             to do so.</p>
@@ -257,7 +257,7 @@
     {{-- Slide 24 --}}
     <div class="slide hidden click1 flex flex-col items-center justify-start">
         <h2 class="text-center title stroke">How to make the structure of a beam bridge? - Step 1 of 9</h2>
-        <video id="video4" class="pointer-events-none">
+        <video id="video4" class="pointer-events-none !min-w-[40vw]">
             <source src="{{ asset('assets/images/K1/str/126.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -272,7 +272,7 @@
     {{-- Slide 25 --}}
     <div class="slide hidden click1 flex flex-col items-center justify-start">
         <h2 class="text-center title stroke">How to make the structure of a beam bridge? - Step 2 of 9</h2>
-        <video id="video5" class="pointer-events-none">
+        <video id="video5" class="pointer-events-none !min-w-[40vw]">
             <source src="{{ asset('assets/images/K1/str/127.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -287,7 +287,7 @@
     {{-- Slide 26 --}}
     <div class="slide hidden click1 flex flex-col items-center justify-start">
         <h2 class="text-center title stroke">How to make the structure of a beam bridge? - Step 3 of 9</h2>
-        <video id="video6" class="pointer-events-none">
+        <video id="video6" class="pointer-events-none !min-w-[40vw]">
             <source src="{{ asset('assets/images/K1/str/128.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -302,7 +302,7 @@
     {{-- Slide 27 --}}
     <div class="slide hidden click1 flex flex-col items-center justify-start">
         <h2 class="text-center title stroke">How to make the structure of a beam bridge? - Step 4 of 9</h2>
-        <video id="video7" class="pointer-events-none">
+        <video id="video7" class="pointer-events-none !min-w-[40vw]">
             <source src="{{ asset('assets/images/K1/str/129.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -317,7 +317,7 @@
     {{-- Slide 28 --}}
     <div class="slide hidden click1 flex flex-col items-center justify-start">
         <h2 class="text-center title stroke">How to make the structure of a beam bridge? - Step 5 of 9</h2>
-        <video id="video8" class="pointer-events-none">
+        <video id="video8" class="pointer-events-none !min-w-[40vw]">
             <source src="{{ asset('assets/images/K1/str/130.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -332,7 +332,7 @@
     {{-- Slide 29 --}}
     <div class="slide hidden click1 flex flex-col items-center justify-start">
         <h2 class="text-center title stroke">How to make the structure of a beam bridge? - Step 6 of 9</h2>
-        <video id="video9" class="pointer-events-none">
+        <video id="video9" class="pointer-events-none !min-w-[40vw]">
             <source src="{{ asset('assets/images/K1/str/131.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -347,7 +347,7 @@
     {{-- Slide 30 --}}
     <div class="slide hidden click1 flex flex-col items-center justify-start">
         <h2 class="text-center title stroke">How to make the structure of a beam bridge? - Step 7 of 9</h2>
-        <video id="video10" class="pointer-events-none">
+        <video id="video10" class="pointer-events-none !min-w-[40vw]">
             <source src="{{ asset('assets/images/K1/str/132.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -363,7 +363,7 @@
     {{-- Slide 31 --}}
     <div class="slide hidden click1 flex flex-col items-center justify-start">
         <h2 class="text-center title stroke">How to make the structure of a beam bridge? - Step 8 of 9</h2>
-        <video id="video11" class="pointer-events-none">
+        <video id="video11" class="pointer-events-none !min-w-[40vw]">
             <source src="{{ asset('assets/images/K1/str/133.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -379,7 +379,7 @@
     {{-- Slide 32 --}}
     <div class="slide hidden click1 flex flex-col items-center justify-start">
         <h2 class="text-center title stroke">How to make the structure of a beam bridge? - Step 9 of 9</h2>
-        <video id="video12" class="pointer-events-none">
+        <video id="video12" class="pointer-events-none !min-w-[40vw]">
             <source src="{{ asset('assets/images/K1/str/134.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -407,7 +407,7 @@
                 <source src="{{ asset('assets/images/K1/str/135.mp4') }}" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
-            <img src="{{ asset('assets/images/K1/str/arrow.png') }}" class="img-xs" />
+            <img src="{{ asset('assets/images/K1/str/arrow.png') }}" class="!w-[4vw]" />
             <p class="text-white w-[6vw]">What other
                 things can
                 you use for
@@ -440,7 +440,7 @@
 
 
     {{-- Slide 35 --}}
-    <div class="slide hidden flex flex-col items-center justify-start">
+    <div class="slide hidden flex flex-col items-center justify-between h-[30vw]">
         <div class="text-start">
             <h2 class="title stroke">Steps:</h2>
             <ol class="lesson-ul list-decimal title stroke" start="1">

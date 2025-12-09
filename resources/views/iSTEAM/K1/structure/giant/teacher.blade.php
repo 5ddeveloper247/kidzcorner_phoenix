@@ -178,8 +178,8 @@
             </ul>
         </div>
         <div class="flex items-center gap-[1vw]">
-            <img src="{{ asset('assets/images/K1/str/gw16.png') }}" class="img-md" />
-            <p class="note w-[160px]">The simplest way
+            <img src="{{ asset('assets/images/K1/str/gw16.png') }}" class="!w-[35vw]" />
+            <p class="note !w-[10vw]">The simplest way
                 to build the
                 carriages - think
                 of how a swing

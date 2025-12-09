@@ -66,7 +66,7 @@
                 <li>Observe the structure of a roller coaster and answer some questions.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/K1/str/r4.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/str/r4.png') }}" class="!w-[35vw]" />
         <p class="note text-center">Note: <a href="" class="text-[#F7B94A] click-btn1">Click here</a> for questions.
             Guide children to identify the characteristics of a roller coaster.</p>
     </div>
@@ -327,7 +327,7 @@
     </div>
 
     {{-- Slide 12 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-[28vw]">
+    <div class="slide hidden flex flex-col justify-between h-[28vw]">
         <div class="text-start">
             <h2 class="title stroke">Steps:</h2>
             <ol class="lesson-ul list-decimal title stroke" start="6">

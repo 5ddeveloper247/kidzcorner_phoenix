@@ -47,7 +47,7 @@
                 </ul>
             </div>
 
-            <img src="{{ asset('/assets/images/N2/structure/str2/s26.png') }}" />
+            <img src="{{ asset('/assets/images/N2/structure/str2/s26.png') }}" class="!w-[45vw]" />
 
             <ul class="list-disc ">
                 <li>Print out the learning journals required.</li>
@@ -67,7 +67,7 @@
                 </ul>
             </div>
 
-            <img src="{{ asset('/assets/images/N2/structure/str3/s32.png') }}" class="img-sm" />
+            <img src="{{ asset('/assets/images/N2/structure/str3/s32.png') }}" class="!w-[30vw]" />
 
 
             <ul class="list-disc ">
@@ -81,7 +81,7 @@
 
 
         {{-- sldie 4 --}}
-        <div class="flex !text-white flex-col justify-start items-start text-start t-slide">
+        <div class="flex !text-white flex-col justify-between items-start text-start t-slide">
             <div>
                 <h2 class=" t-title">Things to consider during Individual Activities:</h2>
                 <ul class="list-disc ">
@@ -97,19 +97,19 @@
                     </li>
             </div>
             <div>
-
                 <h2 class=" t-title">Things to consider during Class Activity:</h2>
-                <li>
-                    Encourage children to manipulate with the different pieces and
-                    explore how they can fix the pieces together. Encourage children to
-                    observe the shapes of the different pieces and how the pieces can be
-                    attached together.
-                </li>
-                <li>
-                    Encourage children to observe difference between the different types of
-                    connectors and what shapes/pattern they can create with the different
-                    connectors.
-                </li>
+                <ul class="list-disc">
+                    <li>
+                        Encourage children to manipulate with the different pieces and
+                        explore how they can fix the pieces together. Encourage children to
+                        observe the shapes of the different pieces and how the pieces can be
+                        attached together.
+                    </li>
+                    <li>
+                        Encourage children to observe difference between the different types of
+                        connectors and what shapes/pattern they can create with the different
+                        connectors.
+                    </li>
                 </ul>
             </div>
             <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />

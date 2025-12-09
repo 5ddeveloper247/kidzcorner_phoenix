@@ -116,7 +116,7 @@
 
     {{-- slide 10 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/BasicCoding/bs14.png') }}" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/bs14.png') }}" class="img-xl" />
         <h2 class="title stroke">Remember these directional cards?
             What kind of instructions do they tell you?</h2>
         <p class="note">Note: Display the cards. Have children recall and share what they have learnt.</p>
@@ -176,7 +176,7 @@
 
 
     {{-- slide 15 --}}
-    <div class="flex flex-col items-center justify-between h-[55vh] slide hidden">
+    <div class="flex flex-col items-center justify-between h-[32vw] slide hidden">
         <h2 class="!text-white title stroke">Hands-on Time 1</h2>
         <div class="text-start">
             <h2 class="title stroke text-start">Mission: <br>
@@ -190,7 +190,7 @@
 
     {{-- slide 16 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/BasicCoding/gl1.png') }}" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/gl1.png') }}" class="img-xl" />
         <h2 class="title stroke">How do you move through this maze?</h2>
         <p class="note">Note: Have children lay out the maze, plan the steps, layout the programming cards
             and move through the maze.</p>
@@ -209,7 +209,7 @@
 
     {{-- slide 17 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/BasicCoding/gl2.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/gl2.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">How do you move through this maze?</h2>
         <p class="note">Note: Have children lay out the maze, plan the steps, layout the programming cards
             and move through the maze.</p>
@@ -228,7 +228,7 @@
 
     {{-- slide 18 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/BasicCoding/gl3.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/gl3.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">How do you move through this maze?</h2>
         <p class="note">Note: Have children lay out the maze, plan the steps, layout the programming cards
             and move through the maze.</p>
@@ -241,13 +241,13 @@
     {{-- ans slide  --}}
     <div class="flex flex-col items-center info-slide3 justify-center slide hidden">
         <h2 class="title stroke">How do you move through maze?</h2>
-        <img src="{{ asset('assets/images/N2/BasicCoding/gla3.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/gla3.png') }}" class="!w-[35vw]" />
     </div>
 
 
     {{-- slide 19 --}}
     <div class="flex flex-col items-center justify-center slide hidden">
-        <img src="{{ asset('assets/images/N2/BasicCoding/gl4.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/gl4.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">How do you move through this maze?</h2>
         <p class="note">Note: Have children lay out the maze, plan the steps, layout the programming cards
             and move through the maze.</p>
@@ -260,7 +260,7 @@
     {{-- ans slide  --}}
     <div class="flex flex-col items-center info-slide4 justify-center slide hidden">
         <h2 class="title stroke">How do you move through maze?</h2>
-        <img src="{{ asset('assets/images/N2/BasicCoding/gla4.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/gla4.png') }}" class="!w-[35vw]" />
     </div>
 
     {{-- slide 20 --}}
@@ -283,7 +283,7 @@
 
 
     {{-- slide 21 --}}
-    <div class="flex flex-col items-center justify-between h-[50vh] slide hidden">
+    <div class="flex flex-col items-center justify-between h-[30vw] slide hidden">
         <h2 class="!text-white title stroke">Hands-on Time 2</h2>
         <div class="text-start">
             <h2 class="title stroke text-start">Mission: <br>

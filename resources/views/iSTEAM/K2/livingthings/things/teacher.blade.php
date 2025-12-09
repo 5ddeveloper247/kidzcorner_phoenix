@@ -53,7 +53,7 @@
             </ul>
         </div>
         <div>
-            <img src="{{ asset('assets/images/K2/livingthings/things/t23.png') }}" alt="Teacher" class="t-title" />
+            <img src="{{ asset('assets/images/K2/livingthings/things/t23.png') }}" class="!w-[40vw]"/>
         </div>
     </div>
 

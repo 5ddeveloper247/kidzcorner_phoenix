@@ -80,7 +80,7 @@
                     using a clear plastic container with lid instead.]</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/dna/d13.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/d13.png') }}" class="!w-[35vw]" />
     </div>
 
 
@@ -94,7 +94,7 @@
                     better result, clean your mouth beforehand to remove any food residue.]</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/dna/d14.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/d14.png') }}" class="!w-[35vw]" />
     </div>
 
 
@@ -108,7 +108,7 @@
                     that more cheek cells will be collected .]</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/dna/d15.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/d15.png') }}" class="!w-[35vw]" />
     </div>
 
 
@@ -232,7 +232,7 @@
         <div>
             <div class="flex ">
                 <h2 class="!text-white text-[2vw] stroke">DNA In A Cell</h2>
-                <img src="{{ asset('assets/images/K2/livingthings/dna/h24.png') }}" />
+                <img src="{{ asset('assets/images/K2/livingthings/dna/h24.png') }}" class="!w-[5vw]" />
 
             </div>
             <h2 class="t-title">What and how to set up:</h2>

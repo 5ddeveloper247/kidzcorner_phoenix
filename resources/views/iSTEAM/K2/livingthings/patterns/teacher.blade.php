@@ -58,7 +58,7 @@
                 <li>Individual Fingerprint Record (from the last lesson)</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f2.png') }}" class="img-sm" />
+        <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f2.png') }}" class="!w-[30vw]" />
 
     </div>
 
@@ -149,7 +149,7 @@
         <h2 class="text-center title stroke">Learning Centre Idea</h2>
         <div>
             <h2 class="!text-white text-[2vw] stroke">Toe Prints</h2>
-            <h2>Explanation:</h2>
+            <h2 class="t-title">Explanation:</h2>
             <ul>
                 <p>Your prints on each finger and each toe are different from all your
                     other fingers and toes, but the patterns should be almost the

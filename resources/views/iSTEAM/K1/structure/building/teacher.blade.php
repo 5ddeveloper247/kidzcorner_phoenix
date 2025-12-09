@@ -55,7 +55,7 @@
         </div>
 
 
-        <img src="{{ asset('assets/images/K1/str/st20.png') }}" class="img-xl"  />
+        <img src="{{ asset('assets/images/K1/str/st20.png') }}" class="!w-[40vw]"  />
         <p class="note !text-[#F7B94A]">Suggestion: Pre-pack these two materials in a bag for each child or group before
             each lesson.</p>
     </div>
@@ -181,9 +181,9 @@
             </ul>
         </div>
         <div class="flex justify-center gap-[1vw]">
-            <img src="{{ asset('assets/images/K1/str/st21.png') }}" class="img-xs"  />
-            <img src="{{ asset('assets/images/K1/str/st22.png') }}" class="img-xs"  />
-            <img src="{{ asset('assets/images/K1/str/st23.png') }}" class="img-xs"  />
+            <img src="{{ asset('assets/images/K1/str/st21.png') }}" class="!w-[15vw]"  />
+            <img src="{{ asset('assets/images/K1/str/st22.png') }}" class="!w-[15vw]"  />
+            <img src="{{ asset('assets/images/K1/str/st23.png') }}" class="!w-[15vw]"  />
         </div>
     </div>
 

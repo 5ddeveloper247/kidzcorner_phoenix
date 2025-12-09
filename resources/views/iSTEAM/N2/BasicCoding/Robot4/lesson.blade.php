@@ -6,7 +6,7 @@
     <h2 class="top-title stroke">Programme A Robot 4</h2>
 
     {{-- Slide 1 --}}
-    <div class="flex flex-col items-center justify-center  slide hidden">
+    <div class="flex flex-col items-center justify-between h-[32vw]  slide hidden">
         <img src="{{ asset('assets/images/N2/BasicCoding/sb1.png') }}" class="img-lg" />
         <h2 class="stroke title">Children, what are these? Do you like them?</h2>
         <p class="note">Note: Encourage children to share their views.</p>
@@ -14,18 +14,18 @@
 
 
     {{-- Slide 2 --}}
-    <div class="slide flex flex-col items-center justify-center  ">
-        <img src="{{ asset('assets/images/N2/BasicCoding/gl7.png') }}" />
+    <div class="slide flex flex-col items-center justify-between h-[32vw]  ">
+        <img src="{{ asset('assets/images/N2/BasicCoding/gl7.png') }}" class="!w-[45vw]" />
         <h2 class="stroke title">Children, what are these? What do you use them for?</h2>
         <p class="note">Note: Have children recall and share what they have learnt.</p>
     </div>
 
 
     {{-- Slide 3 --}}
-    <div class="slide flex flex-col items-center justify-center  ">
+    <div class="slide flex flex-col items-center justify-between h-[30vw]  ">
         <div class="flex items-center justify-center gap-x-10">
-            <img src="{{ asset('assets/images/N2/BasicCoding/rb4.png') }}" class="img-h-sm" />
-            <img src="{{ asset('assets/images/N2/BasicCoding/rb5.png') }}" class="img-h-sm" />
+            <img src="{{ asset('assets/images/N2/BasicCoding/rb4.png') }}" class="!h-[20vw]" />
+            <img src="{{ asset('assets/images/N2/BasicCoding/rb5.png') }}" class="!h-[20vw]" />
         </div>
         <h2 class="title stroke text-center">What about these? What do you use them for?</h2>
         <p class="note">Note: Have children recall and share what they have learnt.</p>
@@ -114,15 +114,15 @@
     {{-- slide 10 --}}
     <div class="slide flex flex-col items-center justify-center  ">
         <div class="flex items-center justify-center gap-x-10">
-            <img src="{{ asset('assets/images/N2/BasicCoding/rb4.png') }}" class="img-h-sm" />
-            <img src="{{ asset('assets/images/N2/BasicCoding/rb13.png') }}" class="img-h-sm" />
+            <img src="{{ asset('assets/images/N2/BasicCoding/rb4.png') }}" class="!h-[20vw]" />
+            <img src="{{ asset('assets/images/N2/BasicCoding/rb13.png') }}" class="!h-[20vw]" />
         </div>
         <h2 class="title stroke text-center">What will be the reactions of different animals when you
             programme them to move to these picture mats?</h2>
     </div>
 
     {{-- slide 11 --}}
-    <div class="flex flex-col items-center justify-between h-[55vh] slide hidden">
+    <div class="flex flex-col items-center justify-between h-[32vw] slide hidden">
         <h2 class="!text-white title stroke">Hands-on Time 1</h2>
         <div class="text-start">
             <h2 class="title stroke text-start">Mission: <br>
@@ -144,7 +144,7 @@
 
 
     {{-- sldie 13 --}}
-    <div class="slide flex flex-col items-center justify-center  ">
+    <div class="slide flex flex-col items-center justify-between h-[33vw]">
         <h2 class="title stroke text-center">Patchy Panda wants to take pictures with the clown.
             Help him to get there.</h2>
         <img src="{{ asset('assets/images/N2/BasicCoding/rb15.png') }}" class="img-lg" />
@@ -156,7 +156,7 @@
 
 
     {{-- sldie 14 --}}
-    <div class="slide flex flex-col items-center justify-center  ">
+    <div class="slide flex flex-col items-center justify-between h-[33vw]">
         <h2 class="title stroke text-center">Patchy Panda wants to visit the haunted house.
             Help him to get there.</h2>
         <img src="{{ asset('assets/images/N2/BasicCoding/dl1.png') }}" class="img-lg" />
@@ -168,7 +168,7 @@
 
 
     {{-- slide 15 --}}
-    <div class="slide flex flex-col items-center justify-center  ">
+    <div class="slide flex flex-col items-center justify-between h-[33vw]">
         <h2 class="title stroke text-center">Patchy Panda wants to ride on the merry-go-round.
             Help him to get there.</h2>
         <img src="{{ asset('assets/images/N2/BasicCoding/dl2.png') }}" class="img-lg" />
@@ -181,7 +181,7 @@
 
 
     {{-- slide 16 --}}
-    <div class="slide flex flex-col items-center justify-center  ">
+    <div class="slide flex flex-col items-center justify-between h-[33vw]">
         <h2 class="title stroke text-center">It’s time to go home. <br>
             Help Patchy find to way home.</h2>
         <img src="{{ asset('assets/images/N2/BasicCoding/dl3.png') }}" class="img-lg" />
@@ -192,7 +192,7 @@
     </div>
 
     {{-- sldie 17 --}}
-    <div class="flex flex-col items-center justify-between h-[55vh] slide hidden">
+    <div class="flex flex-col items-center justify-between h-[32vw] slide hidden">
         <h2 class="!text-white title stroke">Hands-on Time 2</h2>
         <div class="text-start">
             <h2 class="title stroke text-start">Mission: <br>
@@ -209,14 +209,14 @@
 
     {{-- sldie 18 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="{{ asset('assets/images/N2/BasicCoding/rb16.png') }}" class="img-h-sm" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/rb16.png') }}" class="!h-[20vw]" />
         <h2 class="title stroke text-center">It’s a bright and sunny day.
             Patchy Panda is planning what to do in the afternoon.</h2>
     </div>
 
 
     {{-- slide 19 --}}
-    <div class="slide flex flex-col items-center justify-center  ">
+    <div class="slide flex flex-col items-center justify-between h-[32vw]">
         <h2 class="title stroke text-center">First, he is going to eat the leftover birthday cake.
             Help him to get the cake.</h2>
         <img src="{{ asset('assets/images/N2/BasicCoding/dl4.png') }}" class="img-lg" />
@@ -226,7 +226,7 @@
     </div>
 
     {{-- slide 20 --}}
-    <div class="slide flex flex-col items-center justify-center  ">
+    <div class="slide flex flex-col items-center justify-between h-[32vw]">
         <h2 class="title stroke text-center">Next, he is going to play football with friends.
             Help him to get the ball.</h2>
         <img src="{{ asset('assets/images/N2/BasicCoding/dl5.png') }}" class="img-lg" />
@@ -236,7 +236,7 @@
     </div>
 
     {{-- sldie 21 --}}
-    <div class="slide flex flex-col items-center justify-center  ">
+    <div class="slide flex flex-col items-center justify-between h-[32vw]">
         <h2 class="title stroke text-center">Then, he is going to shower.
             Help him to get to the bathroom.</h2>
         <img src="{{ asset('assets/images/N2/BasicCoding/dl6.png') }}" class="img-lg" />
@@ -247,7 +247,7 @@
 
 
     {{-- sldie 22 --}}
-    <div class="slide flex flex-col items-center justify-center  ">
+    <div class="slide flex flex-col items-center justify-between h-[32vw]">
         <h2 class="title stroke text-center">He is also going to read a book.
             Help him to get to the book.</h2>
         <img src="{{ asset('assets/images/N2/BasicCoding/dl7.png') }}" class="img-lg" />
@@ -258,7 +258,7 @@
 
 
     {{-- slide 23 --}}
-    <div class="slide flex flex-col items-center justify-center  ">
+    <div class="slide flex flex-col items-center justify-between h-[32vw]">
         <h2 class="title stroke text-center">Finally, he is going to take a nap.
             Help him to get the bedroom.</h2>
         <img src="{{ asset('assets/images/N2/BasicCoding/dl8.png') }}" class="img-lg" />
@@ -269,7 +269,7 @@
 
 
     {{-- sldie 24 --}}
-    <div class="flex flex-col items-center justify-between h-[55vh] slide hidden">
+    <div class="flex flex-col items-center justify-between h-[32vw] slide hidden">
         <h2 class="!text-white title stroke">Hands-on Time 3</h2>
         <div class="text-start">
             <h2 class="title stroke text-start">Mission: <br>

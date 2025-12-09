@@ -50,7 +50,7 @@
             </div>
 
             {{-- slide 5 --}}
-            <div class="flex flex-col items-center justify-between h-[50vh] slide hidden">
+            <div class="flex flex-col items-center justify-between h-[32vw] slide hidden">
                 <h2 class="!text-white title stroke">Hands-on Time 1</h2>
                 <div class="text-start">
                     <h2 class="title stroke text-start">Mission: <br>
@@ -74,7 +74,7 @@
             </div>
 
             {{-- slide 7 --}}
-            <div class="flex flex-col items-center justify-center slide hidden">
+            <div class="flex flex-col items-center justify-between h-[30vw] slide hidden">
                 <img src="{{ asset('assets/images/N2/BasicCoding/bs34.png') }}" class="img-lg" />
                 <h2 class="stroke title">Jon wants to see the giraffes.Have can he go there?</h2>
                 <p class="note text-center">Note: Have children lay out the maze, plan the steps, lay out the programming cards
@@ -85,7 +85,7 @@
                 </button>
             </div>
             {{-- information --}}
-            <div class="flex flex-col info-slide1 items-center justify-center slide hidden">
+            <div class="flex flex-col info-slide1 items-center justify-between h-[30vw] slide hidden">
                 <h2 class="stroke title">Jon may move like this.</h2>
                 <img src="{{ asset('assets/images/N2/BasicCoding/bs35.png') }}" class="img-lg" />
                 <p class="note text-center">Note: Accept other logical answers presented by children,</p>
@@ -93,7 +93,7 @@
 
 
             {{-- slide 8 --}}
-            <div class="flex flex-col items-center justify-center slide hidden">
+            <div class="flex flex-col items-center justify-between h-[30vw] slide hidden">
                 <img src="{{ asset('assets/images/N2/BasicCoding/bs36.png') }}" class="img-lg" />
                 <h2 class="stroke title">Sally wants to see the lions.Have can he go there?</h2>
                 <p class="note text-center">Note: Have children lay out the maze, plan the steps, lay out the programming cards
@@ -104,14 +104,14 @@
                 </button>
             </div>
             {{-- information --}}
-            <div class="flex flex-col info-slide2 items-center justify-center slide hidden">
+            <div class="flex flex-col info-slide2 items-center justify-between h-[30vw] slide hidden">
                 <h2 class="stroke title">Sally may move like this.</h2>
                 <img src="{{ asset('assets/images/N2/BasicCoding/bs37.png') }}" class="img-lg" />
                 <p class="note text-center">Note: Accept other logical answers presented by children,</p>
             </div>
 
             {{-- slide 9 --}}
-            <div class="flex flex-col items-center justify-center slide hidden">
+            <div class="flex flex-col items-center justify-between h-[30vw] slide hidden">
                 <img src="{{ asset('assets/images/N2/BasicCoding/bs38.png') }}" class="img-lg" />
                 <h2 class="stroke title">Tom wants to see the lions.Have can he go there?</h2>
                 <p class="note text-center">Note: Have children lay out the maze, plan the steps, lay out the programming cards
@@ -122,7 +122,7 @@
                 </button>
             </div>
             {{-- information --}}
-            <div class="flex flex-col items-center info-slide3 justify-center slide hidden">
+            <div class="flex flex-col items-center info-slide3 justify-between h-[30vw] slide hidden">
                 <h2 class="stroke title">Tom may move like this.</h2>
                 <img src="{{ asset('assets/images/N2/BasicCoding/bs39.png') }}" class="img-lg" />
                 <p class="note text-center">Note: Accept other logical answers presented by children,</p>
@@ -131,7 +131,7 @@
 
 
             {{-- slide 10 --}}
-            <div class="flex flex-col items-center justify-center slide hidden">
+            <div class="flex flex-col items-center justify-between h-[30vw] slide hidden">
                 <img src="{{ asset('assets/images/N2/BasicCoding/bs40.png') }}" class="img-lg" />
                 <h2 class="stroke title">Mei wants to see the lions.Have can he go there?</h2>
                 <p class="note text-center">Note: Have children lay out the maze, plan the steps, lay out the programming cards
@@ -142,7 +142,7 @@
                 </button>
             </div>
             {{-- information --}}
-            <div class="flex flex-col items-center info-slide4 justify-center slide hidden">
+            <div class="flex flex-col items-center info-slide4 justify-between h-[30vw] slide hidden">
                 <h2 class="stroke title">Mei may move like this.</h2>
                 <img src="{{ asset('assets/images/N2/BasicCoding/bs41.png') }}" class="img-lg" />
                 <p class="note text-center">Note: Accept other logical answers presented by children,</p>
@@ -150,7 +150,7 @@
 
 
             {{-- slide 11 --}}
-            <div class="flex flex-col items-center justify-between h-[50vh] slide hidden">
+            <div class="flex flex-col items-center justify-between h-[32vw] slide hidden">
                 <h2 class="!text-white title stroke">Hands-on Time 2</h2>
                 <div class="text-start">
                     <h2 class="title stroke text-start">Mission: <br>
@@ -169,7 +169,7 @@
             {{-- Complete button --}}
             <div class="down-btn-container">
                 <button class="doneButton">
-                    <img src="{{ asset('assets/images/pptimages/done.png') }}" class="img-lg" />
+                    <img src="{{ asset('assets/images/pptimages/done.png') }}" />
                 </button>
             </div>
 
@@ -178,17 +178,17 @@
 
                 <!-- Return Button -->
                 <a id="returnButton">
-                    <img src="{{ asset('assets/images/pptimages/return.png') }}" class="img-lg" />
+                    <img src="{{ asset('assets/images/pptimages/return.png') }}" />
                 </a>
 
                 <!-- Home Button -->
                 <button id="homeButton">
-                    <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" class="img-lg" />
+                    <img src="{{ asset('assets/images/pptimages/home-btn.png') }}" />
                 </button>
 
                 <!-- Close Button -->
                 <button id="closeButton">
-                    <img src="{{ asset('assets/images/pptimages/cancel.png') }}" class="img-lg" />
+                    <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
                 </button>
 
             </div>
@@ -197,7 +197,7 @@
             <div class="down-btn-container">
 
                 <button class="nextButton ">
-                    <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" class="img-lg" />
+                    <img src="{{ asset('assets/images/pptimages/next-btn.png') }}"/>
 
                 </button>
             </div>

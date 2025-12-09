@@ -21,7 +21,7 @@
 
     {{-- Slide 3 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/N2/BasicCoding/rb16.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/N2/BasicCoding/rb16.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke text-center">How did Patchy move from one place to another?
             Do you like the story?</h2>
     </div>
@@ -48,7 +48,7 @@
     </div>
 
     {{-- Slide 7 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-[50vh]">
+    <div class="slide hidden flex flex-col items-center justify-between h-[30vw]">
         <h2 class="title stroke !text-white">Create Your Own Story</h2>
         <h2 class="title stroke text-start">Mission: <br>
             Use your imagination and creativity to create a story!</h2>
@@ -81,7 +81,7 @@
     </div>
 
     {{-- Slide 10 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-[50vh]">
+    <div class="slide hidden flex flex-col items-center justify-between h-[30vw]">
         <div class="text-start">
             <h2 class="title stroke text-start">Steps:</h2>
             <ol class="title stroke lesson-ul list-decimal" start="3">
@@ -93,7 +93,7 @@
     </div>
 
     {{-- Slide 11 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-[50vh]">
+    <div class="slide hidden flex flex-col items-center justify-between h-[30vw]">
         <h2 class="!text-white title stroke">Turn Your Story Into A Game</h2>
         <h2 class="title stroke text-start">Mission: <br>
             Turn your story into a programming game by designing a
@@ -116,7 +116,7 @@
     </div>
 
     {{-- Slide 13 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-[50vh]">
+    <div class="slide hidden flex flex-col items-center justify-between h-[30vw]">
         <h2 class="!text-white title stroke">Turn Your Story Into A Game</h2>
         <div class="text-start">
             <h2 class="title stroke text-start">Steps:</h2>

@@ -49,7 +49,7 @@
             </ul>
         </div>
         <div class="flex items-center gap-5">
-            <img src="/assets/images/N2/structure/str2/s26.png" />
+            <img src="/assets/images/N2/structure/str2/s26.png" class="!w-[45vw]" />
 
         </div>
         <ul class="list-disc ">
@@ -61,7 +61,7 @@
 
 
     {{-- slide 2 --}}
-    <div class="flex !text-white flex-col items-center  justify-between  text-start t-slide">
+    <div class="flex !text-white flex-col items-center  justify-around  text-start t-slide">
         <div>
             <h2 class=" t-title">Things to note for Group Activity:</h2>
             <ul class="list-disc ">
@@ -72,7 +72,7 @@
 
         <div class="flex gap-2 justify-center items-end">
 
-            <img src="/assets/images/N2/structure/tr-str/s34.png" />
+            <img src="/assets/images/N2/structure/tr-str/s34.png" class="!w-[25vw]" />
             <p class="note">small prism X 2 <br>
                 cube X 6 (any colours) <br>
                 block connector X 10 <br>

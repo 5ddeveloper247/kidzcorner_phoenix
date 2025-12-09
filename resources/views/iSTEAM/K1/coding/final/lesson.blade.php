@@ -79,7 +79,7 @@
                 <li>Set up coding mat according to your game design and test it out.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/K1/coding/final/f6.png') }}" class="img-h-sm" />
+        <img src="{{ asset('assets/images/K1/coding/final/f6.png') }}" class="!h-[20vw]" />
         <p class="note text-center">Note: Have each group of children set up the mat. Advise them to modify their design if
             needed.</p>
     </div>
@@ -92,7 +92,7 @@
                 <li>Present your coding game to your friends and let them try it out.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/K1/coding/final/f6.png') }}" class="img-h-sm" />
+        <img src="{{ asset('assets/images/K1/coding/final/f6.png') }}" class="!h-[20vw]" />
         <p class="note text-center">Note: Have children try on each other's game.</p>
     </div>
 
@@ -102,7 +102,7 @@
         <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center flex flex-col gap-[1vw] justify-center items-center p-[2vw]"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>Create your own coding game.</p>
-            <img src="{{ asset('assets/images/K1/coding/final/f8.png') }}" />
+            <img src="{{ asset('assets/images/K1/coding/final/f8.png') }}" class="w-full" />
         </div>
     </div>
 
@@ -112,7 +112,7 @@
         <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center flex flex-col gap-[1vw] justify-center items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p class="text-center">Design the coding mat for your coding game.</p>
-            <img src="{{ asset('assets/images/K1/coding/final/f7.png') }}" class="img-xs" />
+            <img src="{{ asset('assets/images/K1/coding/final/f7.png') }}" class="!w-[17vw]" />
         </div>
     </div>
 

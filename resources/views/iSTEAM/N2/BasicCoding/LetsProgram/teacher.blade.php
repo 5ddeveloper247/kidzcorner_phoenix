@@ -137,7 +137,7 @@
                 <ul class="list-disc">
                     <li>Reuse the programming cards.</li>
                 </ul>
-                <img src="{{ asset('assets/images/N2/BasicCoding/bs27.png') }}" class="w-[400px]">
+                <img src="{{ asset('assets/images/N2/BasicCoding/bs27.png') }}" class="!w-[35vw]">
                 <h2 class=" t-title ">What to do:</h2>
                 <ul>
                     <li>Lay different sets of programming cards on the

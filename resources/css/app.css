@@ -795,6 +795,9 @@ span img {
 }
 
 @media (min-width: 2600px) {
+    #sound-btn img ,.sound-btn img {
+        width: 4vw !important;
+    }
     .stroke {
         text-shadow: 9px 0 0 #533705, -9px 0 0 #533705, 0 9px 0 #533705,
             0 -9px 0 #533705, 6px 6px 0 #533705, -6px -6px 0 #533705,

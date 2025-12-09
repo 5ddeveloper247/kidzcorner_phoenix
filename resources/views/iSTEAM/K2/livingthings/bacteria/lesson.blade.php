@@ -6,7 +6,7 @@
     <h2 class="top-title stroke">What are Bacteria?</h2>
 
     {{-- Slide 1 --}}
-    <div class="slide flex flex-col items-center justify-between h-[17vw] hidden">
+    <div class="slide flex flex-col items-center justify-between h-[17vw] self-end hidden">
         <h2 class="title stroke">Children, do you still remember what <span class="!text-white">living things?</span> are?
             What are the common points of <span class="!text-white">living things?</span>
             What are the two groups of <span class="!text-white">living things?</span> ?</h2>

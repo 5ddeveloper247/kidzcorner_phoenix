@@ -80,7 +80,7 @@
                     child to do the step with hands wearing gloves .]</li>
             </ul>
         </div>
-        <video id="video1" class="video1 pointer-events-none">
+        <video id="video1" class="video-md pointer-events-none">
             <source src="{{ asset('assets/images/K2/videos/193.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -133,7 +133,7 @@
             </ol>
         </div>
 
-        <img src="{{ asset('/assets/images/K2/livingthings/bacteria/b30.png') }}" class="img-md" />
+        <img src="{{ asset('/assets/images/K2/livingthings/bacteria/b30.png') }}" class="!w-[35vw]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
@@ -148,7 +148,7 @@
                     another child to do the step. Help if needed.]</li>
             </ol>
         </div>
-        <img src="{{ asset('/assets/images/K2/livingthings/bacteria/b31.png') }}" class="img-md" />
+        <img src="{{ asset('/assets/images/K2/livingthings/bacteria/b31.png') }}" class="!w-[35vw]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
@@ -231,7 +231,7 @@
     <div class="flex flex-col items-center justify-center t-slide   ">
         <img src="{{ asset('/assets/images/K2/livingthings/bacteria/b26.png') }}" class="img-md" />
         <p class="note">Note: Plot children's prediction on the graph. At the end, put a star <span
-                class="text-yellow-300 text-xl">⭐</span>
+                class="text-yellow-300 text-[1vw]">⭐</span>
             to mark the final result.</p>
     </div>
 

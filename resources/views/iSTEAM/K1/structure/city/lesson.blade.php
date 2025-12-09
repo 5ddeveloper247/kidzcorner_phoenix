@@ -6,21 +6,21 @@
     <h2 class="top-title stroke">Our Amazing City</h2>
 
     {{-- Slide 1 --}}
-    <div class="slide flex flex-col items-center justify-between h-[17vw]">
+    <div class="slide flex flex-col items-center justify-between h-[20vw] self-end">
         <h2 class="title stroke">Children, how many types of structures have you learnt to build in the past few lessons?
         </h2>
         <p class="note">Note: Have children recall and name the structures that they built in the past few lessons.</p>
     </div>
 
     {{-- Slide 2 --}}
-    <div class="slide hidden flex flex-col justify-between h-[17vw] items-center">
+    <div class="slide hidden flex flex-col justify-between h-[20vw] self-end items-center">
         <h2 class="title stroke text-center">How confident are you in building different structures using the straws and pipe
             cleaners? <br>What are some of the points you have learned in building structures?</h2>
         <p class="note">Note: Encourage children to share their views and experiences.</p>
     </div>
 
     {{-- Slide 3 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-[17vw]">
+    <div class="slide hidden flex flex-col items-center justify-between h-[20vw] self-end">
         <h2 class="title stroke">We are going to design and build an amazing city. What do you think an amazing city has?
             <br>Let's look at some cities around the world!</h2>
         <p class="note">Note: Have children think and name the different types of structures in a city.</p>
@@ -73,7 +73,7 @@
     </div>
 
     {{-- Slide 10 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-[17vw]">
+    <div class="slide hidden flex flex-col items-center justify-between h-[20vw]">
         <h2 class="text-center justify-start !text-white stroke">Create an Amazing City</h2>
         <h2 class="text-start title stroke">Mission: <br>Let's design and build an amazing city using the straws and pipe
             cleaners.</h2>
@@ -142,7 +142,7 @@
     {{-- Slide 16 --}}
     <div class="slide hidden flex flex-col items-center justify-center gap-y-4">
         <h2 class="title stroke !text-white">Learning Journal</h2>
-        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center flex flex-col justify-start items-start"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center flex flex-col justify-start text-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>What do you want to have in your amazing city? List them. <br>Circle only those that you are going to build.
             </p>
@@ -152,7 +152,7 @@
     {{-- Slide 17 --}}
     <div class="slide hidden flex flex-col items-center justify-center gap-y-4">
         <h2 class="title stroke !text-white">Learning Journal</h2>
-        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center flex flex-col justify-start items-start"
+        <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center flex flex-col justify-start text-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>What are you going to build? <br>How do you design it? Draw it.</p>
         </div>

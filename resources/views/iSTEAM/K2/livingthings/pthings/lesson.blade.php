@@ -6,7 +6,7 @@
     <h2 class="top-title stroke">Are Plants Living Things?</h2>
 
     {{-- Slide 1 --}}
-    <div class="slide hidden flex flex-col items-center h-[40vh] justify-between">
+    <div class="slide hidden flex flex-col items-center h-[20vw] self-end justify-between">
         <h2 class="title stroke">Children, do you still remember how to grow seeds in a bag?
             What seeds did you plant?</h2>
         <p class="note">Note: Have children display their seed bag and the learning journal; <br>
@@ -77,7 +77,7 @@
     </div>
 
     {{-- Slide 8 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-[15vw]">
+    <div class="slide hidden flex flex-col items-center justify-between h-[20vw] self-end">
         <h2 class="title stroke">How about the green onions?
             How tall did they grow after a week?</h2>
         <p class="note">Note: Display the green onions. Have children refer to their learning
@@ -135,7 +135,7 @@
     </div>
 
     {{-- Slide 15 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-[15vw]">
+    <div class="slide hidden flex flex-col items-center justify-between h-[20vw] self-end">
         <h2 class="title stroke">Children, do you still remember the common points
             of <span class="!text-white">living thing</span>? What are they?</h2>
         <p class="note">Note: Encourage children to recall and share the six basic characteristics of living things.</p>
@@ -145,29 +145,29 @@
     <div class="slide hidden flex items-center">
         <div class="text-start space-y-3">
             <h2 class="title stroke ">Living things are things that...:</h2>
-            <ul class="!text-white pl-[4vw] text-[2.2vw]">
+            <ul class="!text-white pl-[4vw] text-[2.2vw] space-y-[1vw]">
                 <li class="flex items-center gap-[1vw]">
-                    <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" class="!max-w-[2.4vw]" />
+                    <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" class="!w-[2.5vw]" />
                     <p>Move on their own</p>
                 </li>
                 <li class="flex items-center gap-[1vw]">
-                    <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" class="!max-w-[2.4vw]" />
+                    <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" class="!w-[2.5vw]" />
                     <p>Need food</p>
                 </li>
                 <li class="flex items-center gap-[1vw]">
-                    <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" class="!max-w-[2.4vw]" />
+                    <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" class="!w-[2.5vw]" />
                     <p>Need Drink</p>
                 </li>
                 <li class="flex items-center gap-[1vw]">
-                    <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" class="!max-w-[2.4vw]" />
+                    <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" class="!w-[2.5vw]" />
                     <p>Need Eat</p>
                 </li>
                 <li class="flex items-center gap-[1vw]">
-                    <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" class="!max-w-[2.4vw]" />
+                    <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" class="!w-[2.5vw]" />
                     <p>Grow</p>
                 </li>
                 <li class="flex items-center gap-[1vw]">
-                    <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" class="!max-w-[2.4vw]" />
+                    <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}" class="!w-[2.5vw]" />
                     <p>Produce young</p>
                 </li>
             </ul>
@@ -202,7 +202,7 @@
             <h2 class="title stroke">Let’s do:</h2>
             <img src="{{ asset('assets/images/K2/livingthings/pthings/p6.png') }}" class="img-xl" />
             <button class="info-btn1 absolute top-[23%] right-[34%] ">
-                <img src="{{ asset('assets/images/K2/sustain/energy1/information.png') }}" class="!w-[3.5vw]" />
+                <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="!w-[3.2vw]" />
             </button>
         </div>
         <p class="note">Note: Guide children to discuss each point and check if their prediction is correct;
@@ -320,7 +320,7 @@
             <h2 class="text-start title stroke">Let’s do:</h2>
         </div>
         <div class="relative">
-            <img src="/assets/images/K2/livingthings/pthings/p9.png" />
+            <img src="/assets/images/K2/livingthings/pthings/p9.png" class="img-xl" />
             <span class="info-btn3 absolute top-[57%] right-[35%] ">
                 <img src="{{ asset('assets/images/pptimages/info-btn.png') }}" class="!w-[3.2vw]" />
             </span>
@@ -342,7 +342,7 @@
         <h2 class="title stroke">Here is an experiment that can prove plants do breathe air.</h2>
     </div>
     {{-- 3 --}}
-    <div class="slide hidden info-slide3  flex flex-col items-center justify-start  ">
+    <div class="slide hidden info-slide3  flex flex-col items-center justify-between h-[30vw]  ">
         <div class="title stroke text-start">
             <h3>How to do the experiment</h3>
             <ul class="list-decimal">
@@ -450,7 +450,7 @@
 
     {{-- 1 --}}
     <div class="slide hidden info-slide5  flex flex-col items-center justify-start  ">
-        <video id="video7" class=" pointer-events-none">
+        <video id="video7" class=" pointer-events-none !min-w-[40vw]">
             <source src="{{ asset('assets/images/K2/videos/182.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -463,7 +463,7 @@
     </div>
     {{-- 2 --}}
     <div class="slide hidden info-slide5  flex flex-col items-center justify-start  ">
-        <video id="video8" class=" pointer-events-none">
+        <video id="video8" class=" pointer-events-none !min-w-[40vw]">
             <source src="{{ asset('assets/images/K2/videos/182.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -486,7 +486,7 @@
     </div>
 
     {{-- slide 26 --}}
-    <div class="slide hidden flex flex-col items-center justify-center 0">
+    <div class="slide hidden flex flex-col items-center justify-between h-[20vw] self-end">
         <h2 class="text-start title stroke"> <span class="!text-white">What do you learn:</span> <br>
             Are plants living or non-living things? <br>
             How do you know that?</h2>
@@ -500,23 +500,23 @@
                 <h2>All plants...</h2>
                 <ul class="!text-white">
                     <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}"
-                            class="!max-w-[2.4vw]" />
+                            class="!w-[2.5vw]" />
                         <p> Move on their own</p>
                     </li>
                     <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}"
-                            class="!max-w-[2.4vw]" />
+                            class="!w-[2.5vw]" />
                         <p> Drink</p>
                     </li>
                     <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}"
-                            class="!max-w-[2.4vw]" />
+                            class="!w-[2.5vw]" />
                         <p>Eat</p>
                     </li>
                     <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}"
-                            class="!max-w-[2.4vw]" />
+                            class="!w-[2.5vw]" />
                         <p> Breath (need air)</p>
                     </li>
                     <li class="flex items-center gap-5"> <img src="{{ asset('assets/images/N2/LivingThings/an65.png') }}"
-                            class="!max-w-[2.4vw]" />
+                            class="!w-[2.5vw]" />
                         <p> Grow (get bigger)</p>
                     </li>
                 </ul>
@@ -546,7 +546,7 @@
         <div class="self-start title stroke space-y-20">
             <div class="text-start">
                 <h2 class="text-start">Mission:</h2>
-                <p>Draw 5 examples of living things and 5 examples of non-living things.</p>
+                <h2>Draw 5 examples of living things and 5 examples of non-living things.</h2>
             </div>
             <div class="text-start">
                 <h2 class="title stroke text-start">Let's do:</h2>
@@ -570,7 +570,7 @@
         <h2 class="title stroke !text-white">Learning Journal</h2>
         <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center flex flex-col justify-center items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
-            <img src="{{ asset('assets/images/K2/livingthings/pthings/p25.png') }}" />
+            <img src="{{ asset('assets/images/K2/livingthings/pthings/p25.png') }}" class="w-full" />
         </div>
     </div>
 
@@ -579,7 +579,7 @@
         <h2 class="title stroke !text-white">Learning Journal</h2>
         <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center flex flex-col justify-start items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
-            <img src="{{ asset('assets/images/K2/livingthings/pthings/p26.png') }}" />
+            <img src="{{ asset('assets/images/K2/livingthings/pthings/p26.png') }}" class="w-full" />
         </div>
     </div>
 

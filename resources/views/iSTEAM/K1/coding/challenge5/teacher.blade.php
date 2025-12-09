@@ -48,9 +48,9 @@
             </ul>
         </div>
         <div class="flex gap-5">
-            <img src="{{ asset('assets/images/K1/coding/challenge1/ch9.png') }}" class="img-h-sm" />
-            <img src="{{ asset('assets/images/K1/coding/challenge1/ch12.png') }}" class="img-h-sm" />
-            <img src="{{ asset('assets/images/K1/coding/challenge1/ch11.png') }}" class="img-h-sm" />
+            <img src="{{ asset('assets/images/K1/coding/challenge1/ch9.png') }}" class="!h-[20vw]" />
+            <img src="{{ asset('assets/images/K1/coding/challenge1/ch12.png') }}" class="!h-[20vw]" />
+            <img src="{{ asset('assets/images/K1/coding/challenge1/ch11.png') }}" class="!h-[20vw]" />
         </div>
     </div>
 
@@ -64,7 +64,7 @@
                 <li>Each group a stopwatch</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K1/coding/challenge5/ch5.png') }}" class="img-xs" />
+        <img src="{{ asset('assets/images/K1/coding/challenge5/ch5.png') }}" class="!w-[19vw]" />
     </div>
 
 
@@ -91,7 +91,7 @@
                 <li>Tender Loving Care Poster (refer to the teacher’s mode of Lesson 1)</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K1/coding/cd/cd13.png') }}" alt="Teacher" class="img-md" />
+        <img src="{{ asset('assets/images/K1/coding/cd/cd13.png') }}" alt="Teacher" class="!w-[35vw]" />
     </div>
 
     {{-- sldie 6 --}}

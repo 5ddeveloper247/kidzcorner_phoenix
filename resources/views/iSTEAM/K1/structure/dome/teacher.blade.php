@@ -132,7 +132,7 @@
 
 
     {{-- sldie 5 --}}
-    <div class="flex !text-white flex-col t-slide justify-start  text-start">
+    <div class="flex !text-white flex-col t-slide justify-around  text-start">
         <div>
             <!-- Reflection Questions -->
             <h3 class="t-title">Possible questions for reflection:</h3>

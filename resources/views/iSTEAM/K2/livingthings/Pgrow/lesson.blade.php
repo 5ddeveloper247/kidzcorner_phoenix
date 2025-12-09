@@ -50,7 +50,7 @@
                 <li>Write the name of the seed, today's date and your name on a label.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/pgrow/p4.png') }}" class="img-md" alt="Step 1" />
+        <img src="{{ asset('assets/images/K2/livingthings/pgrow/p4.png') }}" class="!w-[35vw]" alt="Step 1" />
         <p class="note text-center">Note: Help to apply 2 dots of glue with a gap in between roughly at the middle of
             the paper towel for each child.</p>
     </div>
@@ -153,7 +153,7 @@
                     container filled with some water.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/pgrow/p12.png') }}" class="img-sm" alt="Place in Water" />
+        <img src="{{ asset('assets/images/K2/livingthings/pgrow/p12.png') }}" class="!w-[30vw]" alt="Place in Water" />
         <p class="note text-center">Note: Be sure that only roots and partial of the white stems are in the water.</p>
     </div>
 
@@ -166,7 +166,7 @@
                 <li>Place the container near a sunny window.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/pgrow/p12.png') }}" class="img-sm" alt="Sunny Window" />
+        <img src="{{ asset('assets/images/K2/livingthings/pgrow/p12.png') }}" class="!w-[30vw]" alt="Sunny Window" />
     </div>
 
 

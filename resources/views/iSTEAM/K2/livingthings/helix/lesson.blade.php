@@ -29,32 +29,32 @@
 
     {{-- Slide 4 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
-        <img src="{{ asset('assets/images/K2/livingthings/dna/h1.png') }}" class="img-h-sm" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h1.png') }}" class="!h-[20vw]" />
         <h2 class="title stroke text-center">This is the scientific drawing of DNA in close-up. It has a special shape that
             is called a double helix.</h2>
     </div>
 
     {{-- Slide 5 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
-        <img src="{{ asset('assets/images/K2/livingthings/dna/h1.png') }}" class="img-h-sm" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h1.png') }}" class="!h-[20vw]" />
         <h2 class="title stroke">What does <span class="!text-white">DNA</span> look like?</h2>
     </div>
 
     {{-- Slide 6 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K2/livingthings/dna/h1.png') }}" class="img-h-sm" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h1.png') }}" class="!h-[20vw]" />
         <h2 class="title stroke">DNA actually looks like a twisted ladder.</h2>
     </div>
 
     {{-- Slide 7 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
-        <img src="{{ asset('assets/images/K2/livingthings/dna/h1.png') }}" class="img-h-sm" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h1.png') }}" class="!h-[20vw]" />
         <h2 class="title stroke">Its is made up of two long twisted rails and many rungs.</h2>
     </div>
 
     {{-- Slide 8 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
-        <img src="{{ asset('assets/images/K2/livingthings/dna/h1.png') }}" class="img-h-sm" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h1.png') }}" class="!h-[20vw]" />
         <h2 class="title stroke">The rungs are special. Each one formed by a pair of bases.</h2>
         <p class="note">Note: Have children guess how many bases are there (count the number of colours that formed
             rungs).</p>
@@ -94,7 +94,7 @@
 
     {{-- Slide 10 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
-        <img src="{{ asset('assets/images/K2/livingthings/dna/h3.png') }}" class="img-h-sm" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h3.png') }}" class="!h-[20vw]" />
         <h2 class="title stroke">The bases don't like to be alone, so they always pair up with a friend. A always pair with
             T and C always pair with G.</h2>
         <p class="note text-center">Note: Have children check if A always pair with T and C always pair with G.</p>
@@ -132,7 +132,7 @@
     </div>
 
     {{-- Slide 15 --}}
-    <div class="slide hidden flex flex-col items-center justify-start">
+    <div class="slide hidden flex flex-col items-center justify-between h-[32vw]">
         <div class="text-start">
             <h2 class="title stroke text-start">Let's do:</h2>
             <ol class="lesson-ul list-decimal title stroke text-start">
@@ -145,7 +145,7 @@
     </div>
 
     {{-- Slide 16 --}}
-    <div class="slide hidden flex flex-col items-center justify-start">
+    <div class="slide hidden flex flex-col items-center justify-between h-[32vw]">
         <div class="text-start">
             <h2 class="title stroke text-start">Let's do:</h2>
             <ol class="lesson-ul list-decimal title stroke text-start" start="2">
@@ -158,7 +158,7 @@
     </div>
 
     {{-- Slide 17 --}}
-    <div class="slide hidden flex flex-col items-center justify-start">
+    <div class="slide hidden flex flex-col items-center justify-between h-[32vw]">
         <div class="text-start">
             <h2 class="title stroke text-start">Let's do:</h2>
             <ol class="lesson-ul list-decimal title stroke text-start" start="3">
@@ -172,14 +172,14 @@
     </div>
 
     {{-- Slide 18 --}}
-    <div class="slide hidden flex flex-col items-center justify-start">
+    <div class="slide hidden flex flex-col items-center justify-between h-[32vw]">
         <div class="text-start">
             <h2 class="title stroke text-start">Let's do:</h2>
             <ol class="lesson-ul list-decimal title stroke text-start" start="4">
                 <li>Display and observe the ladder made.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/K2/livingthings/dna/h10.png') }}" class="img-sm" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h10.png') }}" class="!w-[30vw]" />
         <p class="note text-center">Note: Have children place all ladders made together for observations.</p>
     </div>
 
@@ -212,7 +212,7 @@
     </div>
 
     {{-- Slide 22 --}}
-    <div class="slide hidden flex flex-col items-center justify-start">
+    <div class="slide hidden flex flex-col justify-between h-[32vw]">
         <div class="text-start">
             <h2 class="title stroke text-start">Let's do:</h2>
             <ol class="lesson-ul list-decimal title stroke text-start" start="6">
@@ -224,7 +224,7 @@
     </div>
 
     {{-- Slide 23 --}}
-    <div class="slide hidden flex flex-col items-center justify-start">
+    <div class="slide hidden flex flex-col items-center justify-between h-[32vw]">
         <h2 class="text-start title stroke">What do you learn: <br>How many base patterns of DNA double helix have been designed by
             the class?</h2>
         <img src="{{ asset('assets/images/K2/livingthings/dna/h13.png') }}" class="img-xl" />
@@ -276,7 +276,7 @@
 
     {{-- Slide 29 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
-        <img src="{{ asset('assets/images/K2/livingthings/dna/h16.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K2/livingthings/dna/h16.png') }}" class="!w-[30vw]" />
         <h2 class="title stroke">As we get part of our DNA from father and part from mother, so we often hear of the term
             "family resemblance".</h2>
         <p class="note">Note: Guide children to understand the meaning of family resemblance (similarities between family
@@ -286,8 +286,8 @@
     {{-- Slide 30 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
         <div class="flex items-center">
-            <img src="{{ asset('assets/images/K2/livingthings/dna/h17.png') }}" class="img-sm" />
-            <img src="{{ asset('assets/images/K2/livingthings/dna/h16.png') }}" class="img-sm" />
+            <img src="{{ asset('assets/images/K2/livingthings/dna/h17.png') }}" class="!w-[25vw]" />
+            <img src="{{ asset('assets/images/K2/livingthings/dna/h16.png') }}" class="!w-[25vw]" />
         </div>
         <h2 class="title stroke">As a matter of fact. <br>we share some traits with people around.</h2>
     </div>
@@ -295,8 +295,8 @@
     {{-- Slide 31 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
         <div class="flex items-center">
-            <img src="{{ asset('assets/images/K2/livingthings/dna/h17.png') }}" class="img-sm" />
-            <img src="{{ asset('assets/images/K2/livingthings/dna/h16.png') }}" class="img-sm" />
+            <img src="{{ asset('assets/images/K2/livingthings/dna/h17.png') }}" class="!w-[25vw]" />
+            <img src="{{ asset('assets/images/K2/livingthings/dna/h16.png') }}" class="!w-[25vw]" />
         </div>
         <h2 class="title stroke">However, every one of us has a unique combination of traits that is different from anyone
             else! Do you know why?</h2>
@@ -305,8 +305,8 @@
     {{-- Slide 32 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
         <div class="flex items-center">
-            <img src="{{ asset('assets/images/K2/livingthings/dna/h17.png') }}" class="img-sm" />
-            <img src="{{ asset('assets/images/K2/livingthings/dna/h16.png') }}" class="img-sm" />
+            <img src="{{ asset('assets/images/K2/livingthings/dna/h17.png') }}" class="!w-[25vw]" />
+            <img src="{{ asset('assets/images/K2/livingthings/dna/h16.png') }}" class="!w-[25vw]" />
         </div>
         <h2 class="title stroke">We are all unique <br>because the bases in our DNA are arranged differently!</h2>
     </div>
@@ -316,7 +316,7 @@
         <h2 class="title stroke !text-white">Learning Journal</h2>
         <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center p-[20px] flex flex-col justify-center items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
-            <img src="{{ asset('assets/images/K2/livingthings/dna/h18.png') }}" />
+            <img src="{{ asset('assets/images/K2/livingthings/dna/h18.png') }}" class="w-full" />
         </div>
     </div>
 

@@ -50,9 +50,9 @@
             </ul>
         </div>
         <div class="flex gap-[1vw]">
-            <img src="{{ asset('assets/images/K1/coding/challenge1/ch9.png') }}" class="img-h-sm" />
-            <img src="{{ asset('assets/images/K1/coding/challenge1/ch12.png') }}" class="img-h-sm" />
-            <img src="{{ asset('assets/images/K1/coding/challenge1/ch11.png') }}" class="img-h-sm" />
+            <img src="{{ asset('assets/images/K1/coding/challenge1/ch9.png') }}" class="!h-[20vw]" />
+            <img src="{{ asset('assets/images/K1/coding/challenge1/ch12.png') }}" class="!h-[20vw]" />
+            <img src="{{ asset('assets/images/K1/coding/challenge1/ch11.png') }}" class="!h-[20vw]" />
         </div>
     </div>
 
@@ -93,7 +93,7 @@
                 <li>Tender Loving Care Poster (refer to the teacher’s mode of Lesson 1)</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K1/coding/cd/cd13.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K1/coding/cd/cd13.png') }}" class="!w-[30vw]" />
     </div>
 
     {{-- sldie 6 --}}
@@ -124,7 +124,7 @@
                 cards on the mat for different groups.</span></p>
 
         <div class="flex items-start gap-3">
-            <img src="/assets/images//K1/coding/challenge1/ch4.png" />
+            <img src="/assets/images//K1/coding/challenge1/ch4.png" class="!w-[3vw]" />
             <img src="/assets/images//K1/coding/challenge1/ch3.png" class="img-h-md" />
         </div>
     </div>
@@ -149,7 +149,7 @@
                 <li>
                     <div class="flex flex-col">If time allows, let children repeat the hands-on session by adding obstacles into the coding mat
                     (example as shown).  <img src="/assets/images//K1/coding/challenge1/ch15.png"
-                            class="img-xs self-end" /></div> </li>
+                            class="!w-[17vw] self-end" /></div> </li>
 
             </ul>
         </div>

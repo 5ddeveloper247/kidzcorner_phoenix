@@ -53,8 +53,8 @@
     {{-- Slide 7 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
         <div class="flex items-center justify-center gap-[1vw]">
-            <img src="{{ asset('assets/images/N2/structure/tr-str/s4.png') }}" class="img-h-sm" />
-            <img src="{{ asset('assets/images/N2/structure/tr-str/s5.png') }}" class="img-h-sm" />
+            <img src="{{ asset('assets/images/N2/structure/tr-str/s4.png') }}" class="!h-[20vw]" />
+            <img src="{{ asset('assets/images/N2/structure/tr-str/s5.png') }}" class="!h-[20vw]" />
         </div>
         <h2 class="title stroke">The Eiffel Tower structure is supported by four 'legs',
             helping it to stand tall into the sky
@@ -63,9 +63,9 @@
 
     {{-- Slide 8 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <div class="flex items-center justify-center">
-            <img src="{{ asset('assets/images/N2/structure/tr-str/s4.png') }}" class="img-h-sm" />
-            <img src="{{ asset('assets/images/N2/structure/tr-str/s5.png') }}" class="img-h-sm" />
+        <div class="flex items-center justify-center gap-[1vw]">
+            <img src="{{ asset('assets/images/N2/structure/tr-str/s4.png') }}" class="!h-[20vw]" />
+            <img src="{{ asset('assets/images/N2/structure/tr-str/s5.png') }}" class="!h-[20vw]" />
         </div>
         <h2 class="title stroke">The Eiffel Tower structure is supported by four 'legs',
             helping it to stand tall into the sky
@@ -93,8 +93,8 @@
     <div class="slide hidden flex flex-col items-center justify-start">
         <h2 class="title stroke !text-white">Class Activity</h2>
         <div class="flex items-center justify-center gap-[1vw]">
-            <img src="{{ asset('assets/images/N2/structure/tr-str/s8.png') }}" class="img-h-sm" />
-            <img src="{{ asset('assets/images/N2/structure/tr-str/s9.png') }}" class="img-h-sm" />
+            <img src="{{ asset('assets/images/N2/structure/tr-str/s8.png') }}" class="!h-[20vw]" />
+            <img src="{{ asset('assets/images/N2/structure/tr-str/s9.png') }}" class="!h-[20vw]" />
         </div>
         <h2 class="title stroke !text-start">Mission: <br>
             Make a tower in the shape of a triangle using the
@@ -109,7 +109,7 @@
                 <li>Look at the tower and observe the parts used. Point out the shapes on the structure.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/N2/structure/tr-str/s10.png') }}" class="img-h-sm" />
+        <img src="{{ asset('assets/images/N2/structure/tr-str/s10.png') }}" class="!h-[20vw]" />
         <p class="note">Note: Teacher can point out that the base is wide and the top is narrow, hence creating
             a triangular looking structure.</p>
     </div>
@@ -123,7 +123,7 @@
             </ol>
         </div>
         <div class="flex justify-center items-end">
-            <img src="{{ asset('assets/images/N2/structure/tr-str/s10.png') }}" class="img-h-sm" />
+            <img src="{{ asset('assets/images/N2/structure/tr-str/s10.png') }}" class="!h-[20vw]" />
             <p class="note !text-white !text-start">square piece X 1 <br>
                 long rectangle piece X 7 <br>
                 three directions connector X 5</p>
@@ -153,8 +153,8 @@
             </ol>
         </div>
         <div class="flex justify-center items-center gap-[1vw]">
-            <img src="{{ asset('assets/images/N2/structure/tr-str/s12.png') }}" class="img-h-sm" />
-            <img src="{{ asset('assets/images/N2/structure/tr-str/s13.png') }}" class="img-h-sm" />
+            <img src="{{ asset('assets/images/N2/structure/tr-str/s12.png') }}" class="!h-[18vw]" />
+            <img src="{{ asset('assets/images/N2/structure/tr-str/s13.png') }}" class="!h-[18vw]" />
         </div>
         <p class="note">Note: Encourage and assist the children to connect the pieces as it may
             be hard for them to fix the pieces.</p>
@@ -169,8 +169,8 @@
             </ol>
         </div>
         <div class="flex justify-center items-center gap-[1vw]">
-            <img src="{{ asset('assets/images/N2/structure/tr-str/s14.png') }}" class="img-h-sm" />
-            <img src="{{ asset('assets/images/N2/structure/tr-str/s15.png') }}" class="img-h-sm" />
+            <img src="{{ asset('assets/images/N2/structure/tr-str/s14.png') }}" class="!h-[18vw]" />
+            <img src="{{ asset('assets/images/N2/structure/tr-str/s15.png') }}" class="!h-[18vw]" />
         </div>
         <p class="note">Note: Assist children in fixing the pieces if required.</p>
     </div>
@@ -184,8 +184,8 @@
             </ol>
         </div>
         <div class="flex justify-center items-center gap-[1vw]">
-            <img src="{{ asset('assets/images/N2/structure/tr-str/s16.png') }}" class="img-h-sm" />
-            <img src="{{ asset('assets/images/N2/structure/tr-str/s17.png') }}" class="img-h-sm" />
+            <img src="{{ asset('assets/images/N2/structure/tr-str/s16.png') }}" class="!h-[20vw]" />
+            <img src="{{ asset('assets/images/N2/structure/tr-str/s17.png') }}" class="!h-[20vw]" />
         </div>
         <p class="note">Note: Assist children in fixing the pieces if required.</p>
     </div>
@@ -199,8 +199,8 @@
             </ol>
         </div>
         <div class="flex justify-center items-center gap-[1vw]">
-            <img src="{{ asset('assets/images/N2/structure/tr-str/s18.png') }}" class="img-h-sm" />
-            <img src="{{ asset('assets/images/N2/structure/tr-str/s19.png') }}" class="img-h-sm" />
+            <img src="{{ asset('assets/images/N2/structure/tr-str/s18.png') }}" class="!h-[20vw]" />
+            <img src="{{ asset('assets/images/N2/structure/tr-str/s19.png') }}" class="!h-[20vw]" />
         </div>
         <p class="note">Note: Assist children in fixing the pieces if required.</p>
     </div>
@@ -213,7 +213,7 @@
                 <li>After connecting four long rectangles, adjust the pieces and the tower is done!</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/N2/structure/tr-str/s10.png') }}" class="img-h-sm" />
+        <img src="{{ asset('assets/images/N2/structure/tr-str/s10.png') }}" class="!h-[20vw]" />
         <p class="note">Note: Assist children in fixing the pieces if required.</p>
     </div>
 
@@ -301,8 +301,8 @@
             </ol>
         </div>
         <div class="flex">
-            <img src="{{ asset('assets/images/N2/structure/tr-str/s27.png') }}" class="img-h-sm" />
-            <img src="{{ asset('assets/images/N2/structure/tr-str/s28.png') }}" class="img-h-sm" />
+            <img src="{{ asset('assets/images/N2/structure/tr-str/s27.png') }}" class="!h-[20vw]" />
+            <img src="{{ asset('assets/images/N2/structure/tr-str/s28.png') }}" class="!h-[20vw]" />
         </div>
     </div>
 
@@ -314,7 +314,7 @@
                 <li>Adjust the pieces to make the tower stand and the tower is completed!</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/N2/structure/tr-str/s10.png') }}" class="img-h-sm" />
+        <img src="{{ asset('assets/images/N2/structure/tr-str/s10.png') }}" class="!h-[20vw]" />
     </div>
 
     {{-- Slide 29 --}}
@@ -398,7 +398,7 @@
             <ol class="lesson-ul list-decimal title stroke" start="3">
                 <li>As the pyramid has stairs on the four sides, add blocks on each side to create the stairs.</li>
                 <li>Continue to expand the structure and see how big can your pyramid be!
-                    <img src="{{ asset('assets/images/N2/structure/tr-str/s32.png') }}" class="img-h-sm float-right" />
+                    <img src="{{ asset('assets/images/N2/structure/tr-str/s32.png') }}" class="!h-[20vw] float-right" />
                 </li>
             </ol>
         </div>
