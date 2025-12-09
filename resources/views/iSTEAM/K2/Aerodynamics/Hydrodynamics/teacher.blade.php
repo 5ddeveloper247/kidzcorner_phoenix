@@ -64,7 +64,7 @@
                 </li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/aero/hydro/h22.png') }}" class="img-normal-md" />
+        <img src="{{ asset('assets/images/K2/aero/hydro/h22.png') }}" class="!w-[30vw]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 

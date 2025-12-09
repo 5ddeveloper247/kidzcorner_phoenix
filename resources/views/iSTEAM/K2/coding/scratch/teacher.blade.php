@@ -67,7 +67,7 @@
 
         <div class="flex gap-3  items-center justify-center">
 
-            <img class="img-md" src="{{ asset('/assets/images/K2/coding/s35.png') }}" />
+            <img class="!min-w-[30vw]" src="{{ asset('/assets/images/K2/coding/s35.png') }}" />
 
             <div class="text-[1.3vw] space-y-[1.3vw]">
                 <p> While going through the guide in the app, you may tap on each number to understand the use of each part.

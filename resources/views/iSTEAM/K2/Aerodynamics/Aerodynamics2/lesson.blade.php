@@ -9,7 +9,7 @@
     <h2 class="top-title stroke">What is Aerodynamics? 2</h2>
 
     {{-- Slide 1 --}}
-    <div class="slide flex flex-col items-center justify-between h-[30vh]">
+    <div class="slide flex flex-col items-center justify-between h-[20vw] self-end">
         <div class="title stroke">
             <h2>Children, do you remember what makes an aeroplane
                 stay on the ground?</h2>
@@ -162,7 +162,7 @@
     </div>
 
     {{-- Slide 19 --}}
-    <div class="slide hidden  flex flex-col items-center justify-between h-[30vh]  ">
+    <div class="slide hidden  flex flex-col items-center justify-between h-[20vw] self-end  ">
         <h2 class="title stroke">Now, imagine you are trying to run forward but someone
             is pulling back your shirt in the opposite direction.
             Will it be hard to keep moving forward? Why?</h2>
@@ -253,7 +253,7 @@
     </div>
 
     {{-- Slide 29 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-[30vh]">
+    <div class="slide hidden flex flex-col items-center justify-between h-[20vw] self-end">
         <h2 class="title stroke">Now, you have learned about the aerodynamics of flight.
             Do you know what is aerodynamics?</h2>
         <p class="note">Note: Encourage children to share their answers.</p>
@@ -302,7 +302,7 @@
     </div>
 
     {{-- Slide 34 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-[50vh]">
+    <div class="slide hidden flex flex-col items-center justify-between h-[20vw] self-end">
         <h2 class="title stroke">How is the movement of the wings different during <br>
             take off and landing? <br>
             Why do you think this happen?</h2>
@@ -340,7 +340,7 @@
     </div>
 
     {{-- Slide 39 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-[30vh] ">
+    <div class="slide hidden flex flex-col items-center justify-between h-[20vw] self-end ">
         <h2 class="title stroke">Are you able to recall the four aerodynamic forces?
             Which force should be higher for the aeroplane to take off?
             Which force should be higher to help the aeroplane move
@@ -354,7 +354,7 @@
         <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center p-[1vw] flex flex-col justify-center items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>Label the four aerodynamic forces.</p>
-            <img src="{{ asset('assets/images/K2/aero/aero1/a34.png') }}" class="!max-w-[38vw]" />
+            <img src="{{ asset('assets/images/K2/aero/aero1/a34.png') }}" class="!w-[38vw]" />
         </div>
     </div>
 
@@ -364,18 +364,18 @@
         <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center p-[1vw] flex flex-col justify-center items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
             <p>Label the aerodynamic force that should be higher for the aeroplane to take off.</p>
-            <img src="{{ asset('assets/images/K2/aero/aero1/a34.png') }}" class="!max-w-[38vw]" />
+            <img src="{{ asset('assets/images/K2/aero/aero1/a34.png') }}" class="!w-[38vw]" />
         </div>
     </div>
 
     {{-- slide 42 --}}
     <div class="slide  hidden flex flex-col items-center justify-center gap-y-4">
         <h2 class=" title stroke !text-white">Learning Journal</h2>
-        <div class="w-[40vw] h-[47vh] bg-cover bg-center p-[1vw] flex flex-col justify-center items-center"
+        <div class="w-[55vw] h-[25vw] darwable bg-cover bg-center p-[1vw] flex flex-col justify-center items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
-            <p>Label the aerodynamic force that should be higher for the aeroplane to keep moving
+            <p class="text-[1vw]">Label the aerodynamic force that should be higher for the aeroplane to keep moving
                 forward while flying in the sky.</p>
-            <img src="{{ asset('assets/images/K2/aero/aero1/a34.png') }}" class="!max-w-[38vw]" />
+            <img src="{{ asset('assets/images/K2/aero/aero1/a34.png') }}" class="!w-[38vw]" />
         </div>
     </div>
 

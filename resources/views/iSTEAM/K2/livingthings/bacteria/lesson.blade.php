@@ -46,7 +46,7 @@
     </div>
 
     {{-- Slide 6 --}}
-    <div class="slide flex flex-col items-center justify-center gap-[5rem] hidden">
+    <div class="slide flex flex-col items-center justify-between h-[20vw] self-end hidden">
         <h2 class="title stroke">Today, we'll learn about another group <br>
             of <span class="!text-white">living things</span> called <span class="!text-white">bacteria</span>!</h2>
         <p class="note">Note: Have children share what they know about bacteria.</p>
@@ -125,8 +125,8 @@
     {{-- Slide 17 --}}
     <div class="slide flex flex-col items-center justify-center hidden">
         <div class="flex">
-            <img src="{{ asset('assets/images/K2/livingthings/bacteria/b12.png') }}" class="img-md" />
-            <img src="{{ asset('assets/images/K2/livingthings/bacteria/b13.png') }}" class="img-sm" />
+            <img src="{{ asset('assets/images/K2/livingthings/bacteria/b12.png') }}" class="!w-[40vw]" />
+            <img src="{{ asset('assets/images/K2/livingthings/bacteria/b13.png') }}" class="!h-[20vw]" />
         </div>
         <h2 class="title stroke">Most of our food come from plants.
             Bacteria in the soil work hard to help plants grow.</h2>
@@ -148,7 +148,7 @@
 
     {{-- Slide 20 --}}
     <div class="slide flex flex-col items-center justify-center hidden">
-        <img src="{{ asset('assets/images/K2/livingthings/bacteria/b16.png') }}" class="img-sm" />
+        <img src="{{ asset('assets/images/K2/livingthings/bacteria/b16.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">There are many good bacteria in our bodies. The main use of
             these bacteria is to help us digest and break down our food.</h2>
     </div>

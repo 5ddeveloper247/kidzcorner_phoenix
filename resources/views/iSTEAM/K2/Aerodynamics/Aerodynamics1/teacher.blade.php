@@ -85,7 +85,7 @@
                     paper to secure the shape.</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/aero/aero1/a20.png') }}" class="w-img2" />
+        <img src="{{ asset('assets/images/K2/aero/aero1/a20.png') }}" class="img-lg" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
@@ -100,7 +100,7 @@
                 <li>Thread the string through the straw.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/K2/aero/aero1/a21.png') }}" class="w-img2" />
+        <img src="{{ asset('assets/images/K2/aero/aero1/a21.png') }}" class="img-lg" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 

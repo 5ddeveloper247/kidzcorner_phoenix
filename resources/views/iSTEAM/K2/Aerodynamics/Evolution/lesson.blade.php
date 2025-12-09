@@ -85,7 +85,7 @@
 
 
     {{-- slide 10 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-[30vh] ">
+    <div class="slide hidden flex flex-col items-center justify-between h-[20vw] self-end ">
         <h2 class="title stroke">Can you think of other objects that use aerodynamic
             forces to move?</h2>
         <p class="note">Note: Guide children to discuss and share their views.</p>
@@ -117,7 +117,7 @@
 
     {{-- slide 14 --}}
     <div class="slide hidden flex flex-col items-center ">
-        <img src="{{ asset('assets/images/K2/aero/evo/e8.png') }}" class="img-semi-lg" />
+        <img src="{{ asset('assets/images/K2/aero/evo/e8.png') }}" class="!w-[40vw]" />
         <h2 class="title stroke">What do you notice about the shape of the car and truck?
             How does the shape affect the aerodynamic forces?</h2>
     </div>
@@ -125,7 +125,7 @@
 
     {{-- slide 15 --}}
     <div class="slide hidden flex flex-col items-center ">
-        <img src="{{ asset('assets/images/K2/aero/evo/e8.png') }}" class="img-semi-lg" />
+        <img src="{{ asset('assets/images/K2/aero/evo/e8.png') }}" class="!w-[40vw]" />
         <h2 class="title stroke">This is a Formula 1 race car. <br>
             It moves very fast.</h2>
     </div>
@@ -141,7 +141,7 @@
 
     {{-- slide 17 --}}
     <div class="slide hidden flex flex-col items-center ">
-        <img src="{{ asset('assets/images/K2/aero/evo/e9.png') }}" class="img-semi-lg" />
+        <img src="{{ asset('assets/images/K2/aero/evo/e9.png') }}" class="!w-[40vw]" />
         <h2 class="title stroke">Formula 1 cars have wings too! <br>
             They are called the front wings.</h2>
     </div>
@@ -149,7 +149,7 @@
 
     {{-- slide 18 --}}
     <div class="slide hidden flex flex-col items-center ">
-        <img src="{{ asset('assets/images/K2/aero/evo/e9.png') }}" class="img-semi-lg" />
+        <img src="{{ asset('assets/images/K2/aero/evo/e9.png') }}" class="!w-[40vw]" />
         <h2 class="title stroke">Do you think these wings have the same function
             as the aeroplane wings?</h2>
         <p class="note">Note: Encourage children to discuss and share their answers.</p>
@@ -172,7 +172,7 @@
     </div>
 
     {{-- slide 21 --}}
-    <div class="slide hidden flex flex-col items-center h-[30vh] justify-between">
+    <div class="slide hidden flex flex-col items-center h-[20vw] self-end justify-between">
         <h2 class="title stroke">How does aerodynamics affect the movement of other vehicles
             such as trains?</h2>
         <p class="note">Note: Encourage children to discuss and share their answers.</p>
@@ -190,7 +190,7 @@
 
     {{-- slide 23 --}}
     <div class="slide hidden flex flex-col items-center ">
-        <img src="{{ asset('assets/images/K2/aero/evo/e12.png') }}" class="img-semi-lg" />
+        <img src="{{ asset('assets/images/K2/aero/evo/e12.png') }}" class="!w-[40vw]" />
         <h2 class="title stroke">The head of the bullet train is designed in a pointed shape to
             reduce drag, so that it can move at a faster speed.</h2>
     </div>
@@ -212,28 +212,28 @@
 
     {{-- slide 25 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/aero/evo/e13.png') }}" class="img-semi-lg" />
+        <img src="{{ asset('assets/images/K2/aero/evo/e13.png') }}" class="!w-[40vw]" />
         <h2 class="title stroke">Wind tunnels are used to test how aerodynamic forces
             affect the movement of objects.</h2>
     </div>
 
     {{-- slide 26 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/aero/evo/e14.png') }}" class="img-semi-lg" />
+        <img src="{{ asset('assets/images/K2/aero/evo/e14.png') }}" class="!w-[40vw]" />
         <h2 class="title stroke">Meanwhile, the aerodynamic forces acting on the test model
             will be measured.</h2>
     </div>
 
     {{-- slide 27 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/aero/evo/e14.png') }}" class="img-semi-lg" />
+        <img src="{{ asset('assets/images/K2/aero/evo/e14.png') }}" class="!w-[40vw]" />
         <h2 class="title stroke">The test results will be used for improvement in the design of
             objects.</h2>
     </div>
 
     {{-- slide 28 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/aero/evo/e14.png') }}" class="img-semi-lg" />
+        <img src="{{ asset('assets/images/K2/aero/evo/e14.png') }}" class="!w-[40vw]" />
         <h2 class="title stroke">Sports coaches use wind tunnels to test aerodynamic drag on
             athletes too.</h2>
     </div>
@@ -241,8 +241,8 @@
     {{-- slide 29 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
         <div class="flex items-center gap-[1vw] ">
-            <img src="{{ asset('assets/images/K2/aero/evo/e15.png') }}" class="img-normal-md" />
-            <img src="{{ asset('assets/images/K2/aero/evo/e16.png') }}" class="img-normal-md" />
+            <img src="{{ asset('assets/images/K2/aero/evo/e15.png') }}" class="!w-[40vw]" />
+            <img src="{{ asset('assets/images/K2/aero/evo/e16.png') }}" class="!w-[40vw]" />
         </div>
         <h2 class="title stroke">How does the body position make a difference in the way
             these cyclists move? What about the clothes they are wearing?</h2>
@@ -251,7 +251,7 @@
 
     {{-- slide 29 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/aero/evo/e17.png') }}" class="img-semi-lg" />
+        <img src="{{ asset('assets/images/K2/aero/evo/e17.png') }}" class="!w-[40vw]" />
         <h2 class="title stroke">A professional cyclist curves his or her body and puts on tight
             clothing to reduce drag so that he or she can cycle faster
             with less effort.</h2>
@@ -263,7 +263,7 @@
         <h2 class=" title stroke !text-white">Learning Journal</h2>
         <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center p-[20px] flex flex-col justify-center items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
-            <img src="{{ asset('assets/images/K2/aero/evo/e18.png') }}" class="img-semi-lg" />
+            <img src="{{ asset('assets/images/K2/aero/evo/e18.png') }}" class="!w-[40vw]" />
         </div>
     </div>
 

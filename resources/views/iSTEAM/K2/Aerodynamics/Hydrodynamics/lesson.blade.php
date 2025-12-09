@@ -21,7 +21,6 @@
     <div class="slide hidden flex flex-col items-center">
         <img src="{{ asset('assets/images/K2/aero/hydro/h3.png') }}" class="img-lg" />
         <h2 class="title stroke">Can you name the <span class="!text-white">four aerodynamic forces?</span></h2>
-        <p class="text-white">Can you name the four aerodynamic forces?</p>
     </div>
 
 
@@ -91,7 +90,7 @@
     </div>
 
     {{-- slide 12 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-[30vh]">
+    <div class="slide hidden flex flex-col items-center justify-between h-[20vw] self-end">
         <h2 class="title stroke">Now you have learned about aerodynamics,
             what do you think is hydrodynamics?</h2>
         <p class="note">Note: Encourage children to discuss and share their answers.</p>
@@ -114,26 +113,26 @@
 
     {{-- slide 15 --}}
     <div class="slide hidden flex flex-col items-center relative">
-        <div class="flex items-center gap-[5rem]">
-            <div class="flex items-center gap-[4vw]">
+        <div class="flex items-center gap-[5rem] w-fit">
+            <div class="flex items-center gap-[4vw] !w-fit">
                 <!-- Video Trigger Button -->
-                <div onclick="toggleVideo('video1')"class="video-btn">
-                    <img src="/assets/images/pptimages/video.png" />
-                </div>
-                <video id="video1" class="pointer-events-none !max-w-[15vw] img-h-md">
+                <button onclick="toggleVideo('video1')"class="video-btn">
+                    <img src="/assets/images/pptimages/video.png" class="!w-[5vw]" />
+                </button>
+                <video id="video1" class="pointer-events-none !min-w-[15vw] img-h-md">
                     <source src="{{ asset('assets/images/K2/aero/hydro/215.mp4') }}" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
             </div>
-            <div class="flex items-center gap-[4vw]">
-                <video id="video2" class="pointer-events-none !max-w-[15vw] img-h-md">
+            <div class="flex items-center gap-[4vw] !w-fit">
+                <video id="video2" class="pointer-events-none !min-w-[15vw] img-h-md">
                     <source src="{{ asset('assets/images/K2/aero/hydro/216.mp4') }}" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
                 <!-- Video Trigger Button -->
-                <div onclick="toggleVideo('video2')"class="video-btn">
-                    <img src="/assets/images/pptimages/video.png" />
-                </div>
+                <button onclick="toggleVideo('video2')"class="video-btn">
+                    <img src="/assets/images/pptimages/video.png" class="!w-[5vw]" />
+                </button>
             </div>
         </div>
         <h2 class="title stroke">Hydrodynamics is the way water or liquid moves around things.</h2>
@@ -170,7 +169,7 @@
                 <li>Push the board/lid forward in the water with the flat surface in front</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/K2/aero/hydro/h12.png') }}" class="img-md"/>
+        <img src="{{ asset('assets/images/K2/aero/hydro/h12.png') }}" class="!w-[35vw]"/>
         <p class="note">Note: Submerge the board/lid at least 3/4 deep into the water and push it forward slowly.</p>
     </div>
 
@@ -183,14 +182,14 @@
                 <li>Turn the board/lid sideways (as shown) and push it through the water.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/K2/aero/hydro/h13.png') }}" class="img-md"/>
+        <img src="{{ asset('assets/images/K2/aero/hydro/h13.png') }}" class="!w-[35vw]"/>
         <p class="note text-center">Note: Submerge the board/lid at least 3/4 deep into the water and push it forward
             slowly.</p>
     </div>
 
 
     {{-- Slide 20 --}}
-    <div class="slide hidden  flex flex-col items-center justify-between h-[30vh]  ">
+    <div class="slide hidden  flex flex-col items-center justify-between h-[20vw] self-end  ">
         <h2 class="title stroke">Which way is easier to push the board/lid through the water?
             Why?</h2>
         <p class="note text-center">Note: Encourage children to discuss and share their answers.</p>

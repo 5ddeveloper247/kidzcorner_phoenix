@@ -108,7 +108,7 @@
                     should be at least 2 metres apart for best result.</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/aero/aero1/a23.png') }}" class="w-img2" />
+        <img src="{{ asset('assets/images/K2/aero/aero1/a23.png') }}" class="img-lg" />
         <p class="note">Note: This is the final look of the setup A.</p>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
@@ -123,7 +123,7 @@
                     straw.</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/aero/aero1/a35.png') }}" class="w-img2" />
+        <img src="{{ asset('assets/images/K2/aero/aero1/a35.png') }}" class="img-lg" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
@@ -136,7 +136,7 @@
                 <li>3. Inflate a balloon. Use a binder clip to secure the mouth of the balloon.</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/aero/aero1/a36.png') }}" class="w-img2" />
+        <img src="{{ asset('assets/images/K2/aero/aero1/a36.png') }}" class="img-lg" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
@@ -149,7 +149,7 @@
                 <li>4. Tape the balloon to the straw to complete the setup.</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/aero/aero1/a37.png') }}" class="w-img2" />
+        <img src="{{ asset('assets/images/K2/aero/aero1/a37.png') }}" class="img-lg" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
@@ -163,7 +163,7 @@
                     should be at least 2 metres apart for best result.</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/aero/aero1/a27.png') }}" class="w-img2" />
+        <img src="{{ asset('assets/images/K2/aero/aero1/a27.png') }}" class="img-lg" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 
@@ -177,7 +177,7 @@
                     straw.</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/aero/aero1/a35.png') }}" class="w-img2" />
+        <img src="{{ asset('assets/images/K2/aero/aero1/a35.png') }}" class="img-lg" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 

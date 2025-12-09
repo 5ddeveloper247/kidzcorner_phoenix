@@ -44,7 +44,7 @@
     </div>
 
     {{-- Slide 6 --}}
-    <div class="slide flex flex-col items-center justify-between h-[35vh] hidden">
+    <div class="slide flex flex-col items-center justify-between h-[20vw] self-end hidden">
         <h2 class="title stroke">Do you know how effective is some of the cleaning products
             that we used to fight against pathogens?
             Let's find out!</h2>
@@ -56,15 +56,19 @@
     <div class="slide flex flex-col items-center justify-center hidden">
         <h2 class="title stroke !text-white font-bold">Small Group Activity</h2>
         <img src="{{ asset('assets/images/K2/livingthings/killing/k7.png') }}" class="img-xs" />
-        <h2 class="title stroke !text-start">Let's find out: <br>
-            (Group 1) Do hand sanitizers really kill bacteria? <br>
-            (Group 2) Do hand soaps really kill bacteria? <br>
-            (Group 3) Do toothpastes really kill bacteria?</h2>
+        <div class="text-start">
+            <h2 class="title stroke">Let's find out: </h2>
+            <ul class="lesson-ul stroke">
+                <li>(Group 1) Do hand sanitizers really kill bacteria?</li>
+                <li>(Group 2) Do hand soaps really kill bacteria?</li>
+                <li>(Group 3) Do toothpastes really kill bacteria?</li>
+            </ul>
+        </div>
         <p class="note">Note: Display all the things needed. Guide children to name the things and know their use.</p>
     </div>
 
     {{-- Slide 8 --}}
-    <div class="slide flex flex-col items-center justify-center hidden">
+    <div class="slide flex flex-col items-center justify-between h-[30vw] hidden">
         <img src="{{ asset('assets/images/K2/livingthings/killing/k8.png') }}" class="img-sm" />
         <h2 class="title stroke !text-start">What do you think (Prediction): <br>
             (G1) Do hand sanitizers kill some or all the bacteria? <br>

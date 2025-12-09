@@ -17,8 +17,8 @@
     {{-- Slide 2 --}}
     <div class="slide hidden flex flex-col items-center">
         <div class="flex items-end gap-2 justify-center">
-            <img src="{{ asset('assets/images/K2/aero/aero1/a1.png') }}" class="img-md" />
-            <img src="{{ asset('assets/images/K2/aero/aero1/a2.png') }}" class="img-md" />
+            <img src="{{ asset('assets/images/K2/aero/aero1/a1.png') }}" class="!w-[30vw]" />
+            <img src="{{ asset('assets/images/K2/aero/aero1/a2.png') }}" class="!w-[30vw]" />
         </div>
         <h2 class="title stroke">These two objects will fall to the ground. Why?</h2>
         <p class="note">Note: Encourage children to discuss and share their views.</p>
@@ -68,7 +68,7 @@
 
     {{-- slide 7 --}}
     <div class="slide hidden flex flex-col items-center !gap-[4vw]">
-        <img src="{{ asset('assets/images/K2/aero/aero1/a6.png') }}" class="!max-w-[42vw]" />
+        <img src="{{ asset('assets/images/K2/aero/aero1/a6.png') }}" class="!w-[42vw]" />
         <h2 class="title stroke">Everything has <span class="!text-white">weight</span> of <span
                 class="text-white">gravity</span>.</h2>
     </div>
@@ -87,7 +87,7 @@
 
     {{-- slide 9 --}}
     <div class="slide hidden  flex flex-col items-center justify-start  ">
-        <img src="{{ asset('assets/images/K2/aero/aero1/a7.png') }}" class="img-semi-lg" />
+        <img src="{{ asset('assets/images/K2/aero/aero1/a7.png') }}" class="!w-[40vw]" />
         <h2 class="title stroke">Weight tells us how hard gravity is pulling objects down
             to the ground.</h2>
     </div>
@@ -141,7 +141,7 @@
 
 
     {{-- slide 15 --}}
-    <div class="slide hidden  flex flex-col items-center justify-between h-[30vh]  ">
+    <div class="slide hidden  flex flex-col items-center justify-between h-[20vw] self-end  ">
         <h2 class="title stroke">Which bag requires more force to be lifted up?
             Why?</h2>
         <p class="note">Note: Guide the children to share their thoughts.</p>
@@ -150,7 +150,7 @@
 
     {{-- slide 16 --}}
     <div class="slide hidden  flex flex-col items-center ">
-        <img src="{{ asset('assets/images/K2/aero/aero1/a11.png') }}" class="img-sm" />
+        <img src="{{ asset('assets/images/K2/aero/aero1/a11.png') }}" class="!w-[25vw]" />
         <h2 class="title stroke">The bag with heavier objects requires more force to be
             lifted up because it has to overcome the weight
             that is pulling the bag down.</h2>

@@ -19,7 +19,7 @@
                 <img src="/assets/images/K2/coding/s2.png" class="img-sm" />
                 <img src="/assets/images/K2/coding/s3.png" class="img-h-sm float-right" />
             </div>
-            <img src="{{ asset('/assets/images/K2/coding/s1.png') }}" class="img-normal-md" />
+            <img src="{{ asset('/assets/images/K2/coding/s1.png') }}" class="!w-[30vw]" />
         </div>
         <h2 class="title stroke">We used an application called Blockly in a tablet
             to programme the robot to do certain tasks.</h2>

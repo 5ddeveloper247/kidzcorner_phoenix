@@ -54,7 +54,7 @@
                 tablets before you start each lesson)</li>
 
         </ul>
-        <img class="img-semi-lg" src="{{ asset('/assets/images/K2/animate1/a50.png') }}" />
+        <img class="!w-[35vw]" src="{{ asset('/assets/images/K2/animate1/a50.png') }}" />
 
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
@@ -70,7 +70,7 @@
             <li>Whiteboard marker pens</li>
 
         </ul>
-        <img src="{{ asset('/assets/images/K2/animate1/a51.png') }}" class="img-md" />
+        <img src="{{ asset('/assets/images/K2/animate1/a51.png') }}" class="!w-[35vw]" />
 
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>

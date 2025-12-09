@@ -7,7 +7,7 @@
 
     {{-- Slide 1 --}}
     <div class="slide flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K2/animate1/a1.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K2/animate1/a1.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">Children, what is this new tool that we have been learning to
             use recently? What can we do with it?</h2>
     </div>
@@ -79,7 +79,7 @@
     </div>
 
     {{-- Slide 7 --}}
-    <div class="slide hidden flex flex-col items-center justify-center gap-[15rem]">
+    <div class="slide hidden flex flex-col items-center justify-between h-[20vw] self-end">
         <h2 class="title stroke">Do you still remember what a programme is?
             What is the meaning of programming or coding?</h2>
         <p class="note">Note: Encourage children to share what they know about a programme and the
@@ -88,7 +88,7 @@
 
     {{-- Slide 8 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K2/animate1/a4.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K2/animate1/a4.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">A programme is a set of step-by-step instructions that tells a
             machine what to do and how to do it, somewhat like a recipe.</h2>
     </div>
@@ -178,7 +178,7 @@
 
     {{-- Slide 17 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K2/animate1/a13.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K2/animate1/a13.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">This command is called Motion Blocks.
             It allows us to design movements for a character.</h2>
         <p class="note">Note: <a class="text-[#F7B94A] click-btn1">Click here</a> to guide
@@ -197,8 +197,8 @@
     {{-- Slide 19 --}}
     <div class="slide hidden click1 flex flex-col items-center justify-center">
         <div class="flex gap-[1vw]">
-            <img src="{{ asset('assets/images/K2/animate1/a20.png') }}" class="img-sm" />
-            <video id="video5" class="pointer-events-none video-md">
+            <img src="{{ asset('assets/images/K2/animate1/a20.png') }}" class="!h-[20vw]" />
+            <video id="video5" class="pointer-events-none !min-w-[30vw]">
                 <source src="{{ asset('assets/images/K2/animate1/226.mp4') }}" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
