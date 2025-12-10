@@ -105,7 +105,7 @@
                 <li>When you connect a Makey Makey Board to a computer, the computer may ask you to install drivers or do
                     other setup. Just close the pop-up window.</li>
             </ul>
-            <img src="{{ asset('assets/images/K2/circuit/makey/m14.png') }}" />
+            <img src="{{ asset('assets/images/K2/circuit/makey/m14.png') }}" class="img-lg" />
         </div>
 
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />

@@ -143,9 +143,9 @@
     <div class="text-start t-slide flex flex-col justify-center !text-white">
         <div>
             <h2 class="t-title">Design Thinking: a process for creative problem solving.</h2>
-            <div class="flex items-center gap-0">
-                <img src="{{ asset('assets/images/K2/final/f18.png') }}" class="img-h-sm" />
-                <img src="{{ asset('assets/images/K2/final/f17.png') }}" class="img-md" />
+            <div class="flex items-center gap-[1vw]">
+                <img src="{{ asset('assets/images/K2/final/f18.png') }}" class="!h-[20vw]" />
+                <img src="{{ asset('assets/images/K2/final/f17.png') }}" class="!w-[30vw]" />
             </div>
 
         </div>

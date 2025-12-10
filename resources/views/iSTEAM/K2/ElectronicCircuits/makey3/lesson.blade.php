@@ -101,8 +101,8 @@
             Makey into a fun music maker with the help of a piano
             application!</h2>
         <div class="flex flex-col items-center">
-            <img src="{{ asset('assets/images/K2/circuit/makey/m27.png') }}" class="img-tiny" />
-            <a href="https://apps.makeymakey.com/piano/" class="text-white">https://apps.makeymakey.com/piano/</a>
+            <img src="{{ asset('assets/images/K2/circuit/makey/m27.png') }}" class="!w-[12vw]" />
+            <a href="https://apps.makeymakey.com/piano/" class="text-white text-[1vw]">https://apps.makeymakey.com/piano/</a>
         </div>
         <p class="text-center note">Note: Decide if this is a class activity or small groups activity.</p>
     </div>
@@ -132,7 +132,7 @@
         </div>
         <div class="flex items-end">
             <img src="{{ asset('assets/images/K2/circuit/makey/m28.png') }}" class="img-xs" />
-            <p class="note w-[140px] text-end">The text only show
+            <p class="note w-[10vw] text-end">The text only show
                 when you roll the
                 mouse cursor over the
                 key.</p>
@@ -209,7 +209,7 @@
         <h2 class="title stroke !text-white">Learning Journal</h2>
         <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center flex flex-col items-start"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
-            <img src="{{ asset('assets/images/K2/circuit/makey/m33.png') }}" />
+            <img src="{{ asset('assets/images/K2/circuit/makey/m33.png') }}" class="w-full" />
         </div>
     </div>
 
@@ -218,7 +218,7 @@
         <h2 class="title stroke !text-white">Learning Journal</h2>
         <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center flex flex-col items-start"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
-            <img src="{{ asset('assets/images/K2/circuit/makey/m34.png') }}" />
+            <img src="{{ asset('assets/images/K2/circuit/makey/m34.png') }}" class="w-full" />
         </div>
     </div>
 
@@ -227,7 +227,7 @@
         <h2 class="title stroke !text-white">Learning Journal</h2>
         <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center flex flex-col items-start"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
-            <img src="{{ asset('assets/images/K2/circuit/makey/m35.png') }}" />
+            <img src="{{ asset('assets/images/K2/circuit/makey/m35.png') }}" class="w-full" />
         </div>
     </div>
 
@@ -236,7 +236,7 @@
         <h2 class="title stroke !text-white">Learning Journal</h2>
         <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center flex flex-col items-start"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
-            <img src="{{ asset('assets/images/K2/circuit/makey/m36.png') }}" />
+            <img src="{{ asset('assets/images/K2/circuit/makey/m36.png') }}" class="w-full" />
         </div>
     </div>
 

@@ -8,7 +8,7 @@
 
 
     {{-- Slide 1 --}}
-    <div class="slide flex flex-col items-center justify-between h-[50vh]">
+    <div class="slide flex flex-col items-center justify-between h-[20vw] self-end">
         <div class="title stroke">
             <h2>Children, do you still remember the six simple machines that
                 you have learnt? What are they?</h2>
@@ -50,7 +50,7 @@
     <div class="slide hidden flex flex-col items-center gap-y-3">
         <div class="flex items-center gap-5">
             <img src="{{ asset('assets/images/K2/final/f5.png') }}" class="img-h-md" />
-            <video id="video1" class="pointer-events-none">
+            <video id="video1" class="pointer-events-none video-md">
                 <source src="{{ asset('assets/images/K2/final/224.mp4') }}" type="video/mp4">
                 Your browser does not support the video tag.
             </video>

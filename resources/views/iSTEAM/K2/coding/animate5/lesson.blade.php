@@ -49,7 +49,7 @@
     </div>
 
     {{-- Slide 4 --}}
-    <div class="slide hidden flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-between h-[20vw] self-end ">
         <h2 class="title stroke">Now, let's find out how to create second page of a story and
             how to programme the story to auto play from page to page!</h2>
         <p class="note">Note: Use tablets to show children the following part.</p>
@@ -58,7 +58,7 @@
 
     {{-- Slide 5 --}}
     <div class="slide hidden flex flex-col items-center justify-center ">
-        <img src="{{ asset('assets/images/K2/animate5/a3.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K2/animate5/a3.png') }}" class="!w-[30vw]" />
         <h2 class="title stroke">What is the name and use of this command?</h2>
         <p class="note">Note: Guide children to recall and talk about the use of End Blocks command (ways to end a
             programme).</p>
@@ -67,7 +67,7 @@
 
     {{-- Slide 6 --}}
     <div class="slide hidden flex flex-col items-center justify-center ">
-        <img src="{{ asset('assets/images/K2/animate5/a4.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K2/animate5/a4.png') }}" class="!w-[32vw]" />
         <h2 class="title stroke">What are the two programming blocks here?</h2>
         <p class="note">Note: Guide children to recall and name the two programming blocks under End Blocks command.</p>
     </div>
@@ -76,7 +76,7 @@
 
     {{-- Slide 7 --}}
     <div class="slide hidden flex flex-col items-center justify-center ">
-        <img src="{{ asset('assets/images/K2/animate5/a5.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K2/animate5/a5.png') }}" class="img-lg" />
         <h2 class="title stroke">Usually, there are two programming blocks under End Blocks.
             Each block here represents a way to end a programme.</h2>
         <p class="note">Note: Show and name each programming block here.</p>
@@ -86,10 +86,10 @@
 
     {{-- Slide 8 --}}
     <div class="slide hidden flex flex-col items-center justify-center ">
-        <div class="flex gap-2">
+        <div class="flex gap-[1vw]">
             <div>
                 <h2 class="title stroke">Sample 1</h2>
-                <video id="video4" class="pointer-events-none video-md">
+                <video id="video4" class="pointer-events-none video-sm">
                     <source src="{{ asset('assets/images/K2/animate4/276.mp4') }}" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
@@ -101,7 +101,7 @@
             </div>
             <div>
                 <h2 class="title stroke">Sample 2</h2>
-                <video id="video5" class="pointer-events-none video-md">
+                <video id="video5" class="pointer-events-none video-sm">
                     <source src="{{ asset('assets/images/K2/animate4/277.mp4') }}" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
@@ -138,7 +138,7 @@
 
     {{-- Slide 10 --}}
     <div class="slide hidden flex flex-col items-center justify-center ">
-        <div class="flex gap-2">
+        <div class="flex gap-[1vw]">
             <div>
                 <video id="video7" class="pointer-events-none video-sm">
                     <source src="{{ asset('assets/images/K2/animate4/279.mp4') }}" type="video/mp4">
@@ -200,9 +200,9 @@
 
     {{-- Slide 13 --}}
     <div class="slide hidden flex flex-col items-center justify-center ">
-        <div class="flex gap-2 items-end">
-            <img src="{{ asset('assets/images/K2/animate5/a10.png') }}" class="img-xs" />
-             <video id="video11" class="pointer-events-none video-md">
+        <div class="flex gap-[1vw] items-end">
+            <img src="{{ asset('assets/images/K2/animate5/a10.png') }}" class="!h-[20vw]" />
+             <video id="video11" class="pointer-events-none video-sm">
             <source src="{{ asset('assets/images/K2/animate5/285.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -245,16 +245,16 @@
 
 
     {{-- Slide 16 --}}
-    <div class="slide hidden flex flex-col justify-start">
+    <div class="slide hidden flex flex-col justify-between h-[30vw] items-center">
         <div class="text-start">
             <h2 class="title stroke">Steps:</h2>
             <ol class="lesson-ul list-decimal title stroke" start="1">
                 <li>Choose the correct character for your story.</li>
             </ol>
         </div>
-        <div class="flex gap-2 items-center">
+        <div class="flex gap-[1vw] items-center">
             <img src="{{ asset('assets/images/K2/animate5/a13.png') }}" class="img-sm" />
-            <img class="img-xs" src="{{ asset('assets/images/K2/animate2/a16.png') }}" />
+            <img class="!w-[3vw]" src="{{ asset('assets/images/K2/animate2/a16.png') }}" />
             <img src="{{ asset('assets/images/K2/animate5/a14.png') }}" class="img-sm" />
         </div>
         <p class="note">Note: Remind children that it's a story about the adventure of a butterfly.</p>
@@ -263,16 +263,16 @@
 
 
     {{-- Slide 17 --}}
-    <div class="slide hidden flex flex-col justify-start">
+    <div class="slide hidden flex flex-col justify-between h-[30vw] items-center">
         <div class="text-start">
             <h2 class="title stroke">Steps:</h2>
             <ol class="lesson-ul list-decimal title stroke" start="2">
                 <li>Choose suitable backgrounds for your story.</li>
             </ol>
         </div>
-        <div class="flex gap-2 items-center">
+        <div class="flex gap-[1vw] items-center">
             <img src="{{ asset('assets/images/K2/animate5/a16.png') }}" class="img-sm" />
-            <img class="img-xs" src="{{ asset('assets/images/K2/animate2/a16.png') }}" />
+            <img class="!w-[3vw]" src="{{ asset('assets/images/K2/animate2/a16.png') }}" />
             <img src="{{ asset('assets/images/K2/animate5/a15.png') }}" class="img-sm" />
         </div>
         <p class="note">Note: Have children think what kind of adventure would the butterfly go on.</p>
@@ -280,7 +280,7 @@
 
 
     {{-- Slide 18 --}}
-    <div class="slide hidden flex flex-col justify-between h-[28vw]">
+    <div class="slide hidden flex flex-col justify-between h-[28vw] items-center">
         <div class="text-start">
             <h2 class="title stroke">Steps:</h2>
             <ol class="lesson-ul list-decimal title stroke" start="3">
@@ -292,15 +292,15 @@
 
 
     {{-- Slide 19 --}}
-    <div class="slide hidden flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-between h-[30vw] ">
         <div class="text-start">
             <h2 class="title stroke">Steps:</h2>
             <ol class="lesson-ul list-decimal title stroke" start="4">
                 <li>Make your story auto play from page to page.</li>
             </ol>
         </div>
-        <div class="flex gap-2 items-center">
-            <img src="{{ asset('assets/images/K2/animate5/a10.png') }}" class="img-xs" />
+        <div class="flex gap-[1vw] items-center">
+            <img src="{{ asset('assets/images/K2/animate5/a10.png') }}" class="!h-[20vw]" />
             <img src="{{ asset('assets/images/K2/animate5/a17.png') }}" class="img-sm" />
         </div>
     
@@ -310,14 +310,14 @@
 
 
     {{-- Slide 20 --}}
-    <div class="slide hidden flex flex-col items-center justify-center ">
+    <div class="slide hidden flex flex-col items-center justify-between h-[30vw] ">
         <div class="text-start">
             <h2 class="title stroke">Steps:</h2>
             <ol class="lesson-ul list-decimal title stroke" start="5">
                 <li>Share your story.</li>
             </ol>
         </div>
-        <div class="flex gap-2 items-center">
+        <div class="flex gap-[1vw] items-center">
             <img src="{{ asset('assets/images/K2/animate5/a18.png') }}" class="img-sm" />
             <img src="{{ asset('assets/images/K2/animate5/a19.png') }}" class="img-sm" />
         </div>

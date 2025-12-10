@@ -58,7 +58,7 @@
                 tablets before you start each lesson)</li>
 
         </ul>
-        <img src="/assets/images/K2/animate1/a50.png" class="img-lg" />
+        <img src="/assets/images/K2/animate1/a50.png" class="!w-[35vw]" />
 
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
@@ -76,7 +76,7 @@
         </ul>
         <div class="flex justify-center items-center">
             <div>
-                <img src="/assets/images/K2/animate1/a51.png" class="img-md" />
+                <img src="/assets/images/K2/animate1/a51.png" class="!w-[30vw]" />
             </div>
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
@@ -95,7 +95,7 @@
         </ul>
 
         <div class="flex justify-center items-center gap-2">
-            <img src="/assets/images/K2/animate1/a52.png" class="img-normal-md" />
+            <img src="/assets/images/K2/animate1/a52.png" class="!w-[25vw]" />
 
             <div class="flex-col gap-[1rem]">
                 <ul>

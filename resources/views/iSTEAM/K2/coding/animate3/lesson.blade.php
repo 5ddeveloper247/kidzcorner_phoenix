@@ -24,7 +24,7 @@
 
 
     {{-- Slide 2 --}}
-    <div class="slide hidden flex flex-col items-center gap-[18rem]">
+    <div class="slide hidden flex flex-col items-center justify-between h-[20vw] self-end">
         <h2 class="title stroke">Let's explore and learn how to programme <br>
             a character to have sound!</h2>
         <p class="note">Note: Use a tablet to show children the following part.</p>
@@ -40,7 +40,7 @@
 
     {{-- Slide 4 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img class="img-md" src="{{ asset('assets/images/K2/animate3/a2.png') }}" />
+        <img class="!w-[30vw]" src="{{ asset('assets/images/K2/animate3/a2.png') }}" />
         <h2 class="title stroke">This command is called Sound Blocks. <br>
             It allows us to design movements for a character.</h2>
         <p class="note">Note: <button class="text-[#F7B94A] click-btn1">Click here</button> to guide children
@@ -78,7 +78,7 @@
 
     {{-- Slide 7 --}}
     <div class="slide hidden click1 flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K2/animate3/a5.png') }}" />
+        <img src="{{ asset('assets/images/K2/animate3/a5.png') }}" class="img-xl" />
         <h2 class="title stroke">What is the use of this recording tool?</h2>
         <p class="note">Note: Show and guide children to know that this recording tool allows us to record sounds that we
             want. Explain that we can record our own voice or sound from other things (toys, mobile phones, etc).</p>
@@ -88,8 +88,8 @@
     {{-- Slide 8 --}}
     <div class="slide hidden click1 flex flex-col items-center justify-center">
         <div class="flex gap-[1vw] items-center">
-            <img src="{{ asset('assets/images/K2/animate3/a6.png') }}" class="!max-w-[10vw]" />
-            <video id="video3" class="pointer-events-none video-md">
+            <img src="{{ asset('assets/images/K2/animate3/a6.png') }}" class="!h-[20vw]" />
+            <video id="video3" class="pointer-events-none video-sm">
                 <source src="{{ asset('assets/images/K2/animate3/256.mp4') }}" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
@@ -149,7 +149,7 @@
 
     {{-- Slide 11 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img class="img-md" src="{{ asset('assets/images/K2/animate3/a8.png') }}" />
+        <img class="!w-[30vw]" src="{{ asset('assets/images/K2/animate3/a8.png') }}" />
         <h2 class="title stroke">This command is called Control Blocks. <br>
             It allows us to design movements for a character.</h2>
         <p class="note">Note: <button class="text-[#F7B94A] click-btn2">Click here</button> to guide children
@@ -330,7 +330,7 @@
 
 
     {{-- Slide 20 --}}
-    <div class="slide hidden flex flex-col justify-start items-center">
+    <div class="slide hidden flex flex-col justify-between h-[32vw] items-center">
         <div class="text-start">
             <h2 class="title stroke">Steps:</h2>
             <ol class="lesson-ul list-decimal title stroke" start="1">
@@ -339,7 +339,7 @@
         </div>
         <div class="flex gap-[1vw] items-center">
             <img src="{{ asset('assets/images/K2/animate2/a15.png') }}" class="img-sm" />
-            <img class="img-xs" src="{{ asset('assets/images/K2/animate2/a16.png') }}" />
+            <img class="!w-[3vw]" src="{{ asset('assets/images/K2/animate2/a16.png') }}" />
             <img src="{{ asset('assets/images/K2/animate2/a17.png') }}" class="img-sm" />
         </div>
         <p class="note">Note: Reply the <a class="text-[#f7b94a] click-btn3" href="">video</a> if needed.</p>
@@ -374,7 +374,7 @@
 
 
     {{-- Slide 22 --}}
-    <div class="slide hidden flex flex-col justify-start items-center">
+    <div class="slide hidden flex flex-col justify-between h-[32vw] items-center">
         <div class="text-start">
             <h2 class="title stroke">Steps:</h2>
             <ol class="lesson-ul list-decimal title stroke" start="2">
@@ -383,7 +383,7 @@
         </div>
         <div class="flex gap-[1vw] items-center">
             <img src="{{ asset('assets/images/K2/animate3/a20.png') }}" class="img-sm" />
-            <img class="img-xs" src="{{ asset('assets/images/K2/animate2/a16.png') }}" />
+            <img class="!w-[3vw]" src="{{ asset('assets/images/K2/animate2/a16.png') }}" />
             <img src="{{ asset('assets/images/K2/animate3/a21.png') }}" class="img-sm" />
         </div>
         <p class="note">Note: Reply the <a class="text-[#f7b94a] click-btn4" href="">video</a> if needed.</p>
@@ -418,7 +418,7 @@
 
 
     {{-- Slide 24 --}}
-    <div class="slide hidden flex flex-col justify-start items-center">
+    <div class="slide hidden flex flex-col justify-between h-[32vw] items-center">
         <div class="text-start">
             <h2 class="title stroke">Steps:</h2>
             <ol class="lesson-ul list-decimal title stroke" start="3">
@@ -431,7 +431,7 @@
 
 
     {{-- Slide 25 --}}
-    <div class="slide hidden flex flex-col justify-start items-center">
+    <div class="slide hidden flex flex-col justify-between h-[32vw] items-center">
         <div class="text-start">
             <h2 class="title stroke">Steps:</h2>
             <ol class="lesson-ul list-decimal title stroke" start="4">
@@ -447,7 +447,7 @@
 
     {{-- Slide 26 --}}
     {{-- where to add missing   --}}
-    <div class="slide hidden flex flex-col justify-start items-center">
+    <div class="slide hidden flex flex-col justify-between h-[32vw] items-center">
         <div class="text-start">
             <h2 class="title stroke">Steps:</h2>
             <ol class="lesson-ul list-decimal title stroke" start="5">
@@ -503,7 +503,7 @@
             </ol>
         </div>
         <div class="flex gap-3 items-center justify-center items-end">
-            <button class="!text-white w-[188px] h-[61px] bg-[#2D9CDB] rounded-[20px] click-btn6">Sample Answer</button>
+            <button class="!text-white w-[10vw] h-[5vw] bg-[#2D9CDB] rounded-[1vw] text-[1.2vw] click-btn6">Sample Answer</button>
         </div>
         <p class="note">Note: Give out clues if needed (Repeat block>hopping; Repeat and Wait blocks>sound).
             After the showcase, have children share what they have learnt through this problem solving process.</p>

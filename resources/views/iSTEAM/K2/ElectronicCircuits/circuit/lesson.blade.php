@@ -178,7 +178,7 @@
     {{-- slide 18 --}}
     <div class="slide hidden flex flex-col items-center  ">
         <h2 class="!text-white title stroke">Hands-on Time </h2>
-        <img src="{{ asset('assets/images/K2/circuit/ecity/e20.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K2/circuit/ecity/e20.png') }}" class="!w-[30vw]" />
         <h2 class="title stroke text-start">Mission: <br>
             Which machine around you uses electricity to work? Find one
             and share with the class.</h2>
@@ -187,7 +187,7 @@
     </div>
 
     {{-- slide 19 --}}
-    <div class="slide hidden flex flex-col items-center ">
+    <div class="slide hidden flex flex-col items-center justify-between h-[30vw] ">
         <ul class="text-start title stroke">
             <h2>Steps:</h2>
             <li>1. Name these basic circuit parts.</li>
@@ -197,7 +197,7 @@
     </div>
 
     {{-- slide 20 --}}
-    <div class="slide hidden flex flex-col items-center ">
+    <div class="slide hidden flex flex-col items-center justify-between h-[30vw] ">
         <ul class="text-start title stroke">
             <h2>Steps:</h2>
             <li>2. How do you form a simple circuit with these parts?
@@ -224,8 +224,9 @@
 
     {{-- slide 23 --}}
     <div class="slide hidden flex flex-col items-center h-[28vw] justify-between ">
-        <ul class="text-start list-disc title stroke">
-            <h2>Do you realise that:</h2>
+        <div class="text-start ">
+        <h2 class="stroke">Do you realise that:</h2>
+        <ul class="list-disc lesson-ul title stroke">
             <li>Playdough allows electricity to pass through it.</li>
             <li>
                 We call things that allow electricity to pass through them conductors.
@@ -234,6 +235,7 @@
             <li>The LED will not light up when the two playdough balls are stuck together.</li>
             <li>The LED will not light up when the legs of the LED are not inserted into the right playdough balls.</li>
         </ul>
+        </div>
         <p class="note">Note: Guide children to understand these points. Demo to convince children on some points.</p>
     </div>
 
@@ -269,7 +271,7 @@
 
     {{-- slide 26 --}}
     <div class="slide hidden flex flex-col items-center">
-        <video id="video4" class="video1 pointer-events-none">
+        <video id="video4" class="video-md pointer-events-none">
             <source src="{{ asset('assets/images/K2/circuit/ecity/313.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -317,8 +319,8 @@
     {{-- slide 29 --}}
     <div class="slide hidden flex flex-col items-center ">
         <div class="flex items-center gap-5">
-            <img src="{{ asset('assets/images/K2/circuit/ecity/e22.png') }}" class="img-sm" />
-            <img src="{{ asset('assets/images/K2/circuit/ecity/e13.png') }}" class="img-sm" />
+            <img src="{{ asset('assets/images/K2/circuit/ecity/e22.png') }}" class="!w-[26vw]" />
+            <img src="{{ asset('assets/images/K2/circuit/ecity/e13.png') }}" class="!w-[26vw]" />
         </div>
         <h2 class="title stroke">This activity is the real case of this simple circuit.</h2>
     </div>

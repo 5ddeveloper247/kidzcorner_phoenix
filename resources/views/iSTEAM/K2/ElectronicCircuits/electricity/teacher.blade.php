@@ -7,7 +7,7 @@
 
 
     {{-- sldie 1  --}}
-    <div class="flex !text-white flex-col t-slide justify-center  text-start">
+    <div class="flex !text-white flex-col t-slide justify-around  text-start">
         <div>
             <h2 class="t-title ">Children will be able to:</h2>
             <ul class="list-disc ">

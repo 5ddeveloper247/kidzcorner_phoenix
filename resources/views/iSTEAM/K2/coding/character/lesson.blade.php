@@ -75,7 +75,7 @@
     </div>
 
     {{-- Slide 3 --}}
-    <div class="slide flex flex-col items-center justify-between h-[15vw]">
+    <div class="slide flex flex-col items-center justify-between h-[20vw] self-end">
         <h2 class="title stroke">What is the main difference between Sample A, B and C?</h2>
         <p class="note">Note: Replay videos of the 3 samples. Guide children to compare and talk about the difference
             (speed of the ball). Ask children what speed is.</p>
@@ -89,7 +89,7 @@
     </div>
 
     {{-- Slide 5 --}}
-    <div class="slide flex flex-col items-center justify-center">
+    <div class="slide flex flex-col items-center justify-between h-[20vw] self-end">
         <h2 class="title stroke">By looking at the three samples, we know that when a
             character is programmed to move at different speeds, we may
             see different animation effects on the stage.</h2>
@@ -99,7 +99,7 @@
 
     {{-- Slide 6 --}}
     <div class="slide flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K2/character/a3.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K2/character/a3.png') }}" class="!w-[32vw]" />
         <h2 class="title stroke">What is the name and use of this command?</h2>
         <p class="note">Note: Guide children to recall and talk about the use of Control Blocks command
             (to plan and design a programme).</p>
@@ -107,7 +107,7 @@
 
     {{-- Slide 7 --}}
     <div class="slide flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K2/character/a4.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K2/character/a4.png') }}" class="!w-[32vw]" />
         <h2 class="title stroke">What are these programming blocks?</h2>
         <p class="note">Note: Guide children to recall and name the four programming blocks under Control Blocks command.
         </p>
@@ -125,7 +125,7 @@
     <div class="slide flex flex-col items-center justify-center">
         <div class="flex gap-[1vw] items-end">
             <div>
-                <img src="{{ asset('assets/images/K2/character/a6.png') }}" class="img-xs" />
+                <img src="{{ asset('assets/images/K2/character/a6.png') }}" class="!h-[18vw]" />
             </div>
             <div>
                 <video id="video5" class="pointer-events-none video-md">
@@ -173,7 +173,7 @@
     <div class="slide flex flex-col items-center justify-center">
         <div class="flex gap-[1vw] items-end">
             <div>
-                <img src="{{ asset('assets/images/K2/character/a10.png') }}" class="img-xs" />
+                <img src="{{ asset('assets/images/K2/character/a10.png') }}" class="!h-[18vw]" />
             </div>
             <div>
                 <video id="video7" class="pointer-events-none video-md">
@@ -229,7 +229,7 @@
     </div>
 
     {{-- Slide 22 --}}
-    <div class="slide flex flex-col justify-start items-center">
+    <div class="slide flex flex-col justify-between h-[30vw] items-center">
         <div class="text-start">
             <h2 class="title stroke">Steps:</h2>
             <ol class="lesson-ul list-decimal title stroke" start="1">
@@ -238,7 +238,7 @@
         </div>
         <div class="flex gap-[1vw] items-center">
             <img src="{{ asset('assets/images/K2/character/a13.png') }}" class="img-sm" />
-            <img class="img-xs" src="{{ asset('assets/images/K2/animate2/a16.png') }}" />
+            <img class="!w-[2.5vw]" src="{{ asset('assets/images/K2/animate2/a16.png') }}" />
             <img src="{{ asset('assets/images/K2/character/a14.png') }}" class="img-sm" />
         </div>
         <p class="note">Note: Replay the <button class="text-[#f7b94a] click-btn1">Video</button> if needed.</p>
@@ -262,7 +262,7 @@
 
 
     {{-- Slide 23 --}}
-    <div class="slide flex flex-col justify-start items-center">
+    <div class="slide flex flex-col justify-between h-[30vw] items-center">
         <div class="text-start">
             <h2 class="title stroke">Steps:</h2>
             <ol class="lesson-ul list-decimal title stroke" start="2">
@@ -276,7 +276,7 @@
 
 
     {{-- Slide 24 --}}
-    <div class="slide flex flex-col justify-between h-[28vw] items-center">
+    <div class="slide flex flex-col justify-between h-[30vw] items-center">
         <div class="text-start">
             <h2 class="title stroke">Steps:</h2>
             <ol class="lesson-ul list-decimal title stroke" start="3">
@@ -285,7 +285,7 @@
         </div>
         <div class="flex items-center justify-center items-end">
             <div>
-                <button class="!text-white w-[188px] h-[61px] bg-[#2D9CDB] rounded-[20px] click-btn2">Sample
+                <button class="!text-white w-[10vw] h-[5vw] bg-[#2D9CDB] rounded-[1vw] text-[1vw] click-btn2">Sample
                     Answer</button>
             </div>
         </div>
@@ -356,7 +356,7 @@
     </div>
 
     {{-- Slide 28 --}}
-    <div class="slide flex flex-col justify-start items-center">
+    <div class="slide flex flex-col justify-between h-[30vw] items-center">
         <div class="text-start">
             <h2 class="title stroke">Steps:</h2>
             <ol class="lesson-ul list-decimal title stroke" start="1">
@@ -365,7 +365,7 @@
         </div>
         <div class="flex gap-[1vw] items-center">
             <img src="{{ asset('assets/images/K2/character/a13.png') }}" class="img-sm" />
-            <img class="img-xs" src="{{ asset('assets/images/K2/animate2/a16.png') }}" />
+            <img class="!w-[2.5vw]" src="{{ asset('assets/images/K2/animate2/a16.png') }}" />
             <img src="{{ asset('assets/images/K2/character/a14.png') }}" class="img-sm" />
         </div>
         <p class="note">Note: Replay the <button class="text-[#f7b94a] click-btn3">Video</button> if needed.</p>
@@ -389,7 +389,7 @@
     </div>
 
     {{-- Slide 30 --}}
-    <div class="slide flex flex-col justify-start items-center">
+    <div class="slide flex flex-col justify-between h-[30vw] items-center">
         <div class="text-start">
             <h2 class="title stroke">Steps:</h2>
             <ol class="lesson-ul list-decimal title stroke" start="2">
@@ -411,7 +411,7 @@
         </div>
         <div class="flex items-center justify-center items-end">
             <div>
-                <button class="!text-white w-[188px] h-[61px] bg-[#2D9CDB] rounded-[20px] click-btn4">Sample
+                <button class="!text-white w-[10vw] h-[5vw] bg-[#2D9CDB] rounded-[1vw] text-[1vw] click-btn4">Sample
                     Answer</button>
             </div>
         </div>

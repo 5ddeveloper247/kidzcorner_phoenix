@@ -21,7 +21,7 @@
     </div>
 
     {{-- Slide 2 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-[25vw]">
+    <div class="slide hidden flex flex-col items-center justify-between h-[20vw] self-end">
         <h2 class="title stroke">Now, let's explore and learn how to design the look <br>
             of a character!</h2>
         <p class="note">Note: Use tablets to show children the following part.</p>
@@ -63,7 +63,7 @@
 
     {{-- Slide 4 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K2/animate4/a2.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K2/animate4/a2.png') }}" class="!w-[30vw]" />
         <h2 class="title stroke">This command is called Looks Blocks.
             It allows us to design the looks of a character.</h2>
         <p class="note">Note: <button class="text-[#f7b94a] click-btn1">Click here</button> to guide children explore and
@@ -81,7 +81,7 @@
 
     {{-- Slide 6 --}}
     <div class="slide hidden click1 flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K2/animate4/a4.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K2/animate4/a4.png') }}" class="!w-[30vw]" />
         <h2 class="title stroke">Now, let's see how each programming block under Looks Blocks
             controls the look of a character!</h2>
     </div>
@@ -90,7 +90,7 @@
     <div class="slide hidden click1 flex flex-col items-center justify-center">
         <div class="flex gap-[1vw] items-center">
             <img src="{{ asset('assets/images/K2/animate4/a5.png') }}" class="img-xs" />
-            <video id="video4" class="pointer-events-none video-md">
+            <video id="video4" class="pointer-events-none video-sm">
                 <source src="{{ asset('assets/images/K2/animate4/268.mp4') }}" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
@@ -109,7 +109,7 @@
     <div class="slide hidden click1 flex flex-col items-center justify-center">
         <div class="flex gap-[1vw] items-center">
             <img src="{{ asset('assets/images/K2/animate4/a28.png') }}" class="img-xs" />
-            <video id="video16" class="pointer-events-none video-md">
+            <video id="video16" class="pointer-events-none video-sm">
                 <source src="{{ asset('assets/images/K2/animate4/269.mp4') }}" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
@@ -234,7 +234,7 @@
     <div class="slide hidden click1 flex flex-col items-center justify-center">
         <div class="flex gap-[1vw] items-end">
             <img src="{{ asset('assets/images/K2/animate4/a12.png') }}" class="img-xs" />
-            <video id="video9" class="pointer-events-none video-md">
+            <video id="video9" class="pointer-events-none video-sm">
                 <source src="{{ asset('assets/images/K2/animate4/274.mp4') }}" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
@@ -252,7 +252,7 @@
     <div class="slide hidden click1 flex flex-col items-center justify-center">
         <div class="flex gap-[1vw] items-end">
             <img src="{{ asset('assets/images/K2/animate4/a14.png') }}" class="img-xs" />
-            <video id="video10" class="pointer-events-none video-md">
+            <video id="video10" class="pointer-events-none video-sm">
                 <source src="{{ asset('assets/images/K2/animate4/275.mp4') }}" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
@@ -269,7 +269,7 @@
     {{-- click here slides end --}}
 
     {{-- Slide 15 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-[15vw]">
+    <div class="slide hidden flex flex-col items-center justify-between h-[20vw] self-end">
         <h2 class="title stroke">Now, let's explore and learn about the use of another 
             command in ScratchJr app!</h2>
         <p class="note">Note: Use tablets to show children the following part.</p>
@@ -277,7 +277,7 @@
 
     {{-- Slide 16 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K2/animate4/a16.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K2/animate4/a16.png') }}" class="!w-[30vw]" />
         <h2 class="title stroke">This command is called End Blocks.
             It allows us to choose ways to end a programme.</h2>
         <p class="note">Note: <button class="text-[#f7b94a] click-btn2">Click here</button> to guide children explore
@@ -384,7 +384,7 @@
     </div>
 
     {{-- Slide 22 --}}
-    <div class="slide hidden flex flex-col justify-start items-center">
+    <div class="slide hidden flex flex-col justify-between h-[30vw] items-center">
         <div class="text-start">
             <h2 class="title stroke">Steps:</h2>
             <ol class="lesson-ul list-decimal title stroke" start="1">
@@ -393,14 +393,14 @@
         </div>
         <div class="flex gap-[1vw] items-center">
             <img src="{{ asset('assets/images/K2/animate4/a21.png') }}" class="img-sm" />
-            <img src="{{ asset('assets/images/K2/animate2/a16.png') }}" class="img-xs" />
+            <img src="{{ asset('assets/images/K2/animate2/a16.png') }}" class="!w-[2.5vw]" />
             <img src="{{ asset('assets/images/K2/animate4/a22.png') }}" class="img-sm" />
         </div>
         <p class="note">Note: Remind children that it's a story about a boy or girl who likes singing and dancing.</p>
     </div>
 
     {{-- Slide 23 --}}
-    <div class="slide hidden flex flex-col justify-start items-center">
+    <div class="slide hidden flex flex-col justify-between h-[30vw] items-center">
         <div class="text-start">
             <h2 class="title stroke">Steps:</h2>
             <ol class="lesson-ul list-decimal title stroke" start="2">
@@ -409,51 +409,51 @@
         </div>
         <div class="flex gap-[1vw] items-center">
             <img src="{{ asset('assets/images/K2/animate4/a23.png') }}" class="img-sm" />
-            <img src="{{ asset('assets/images/K2/animate2/a16.png') }}" class="img-xs" />
+            <img src="{{ asset('assets/images/K2/animate2/a16.png') }}" class="!w-[2.5vw]" />
             <img src="{{ asset('assets/images/K2/animate4/a24.png') }}" class="img-sm" />
         </div>
     </div>
 
     {{-- Slide 24 --}}
-    <div class="slide hidden flex flex-col justify-start items-center">
+    <div class="slide hidden flex flex-col justify-between h-[30vw] items-center">
         <div class="text-start">
             <h2 class="title stroke">Steps:</h2>
             <ol class="lesson-ul list-decimal title stroke" start="3">
                 <li>How do you design the look of your character?</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/K2/animate4/a25.png') }}" class="img-normal-md" />
+        <img src="{{ asset('assets/images/K2/animate4/a25.png') }}" class="!w-[25vw]" />
         <p class="note">Note: Encourage children to use Looks Blocks to design the look of their character.</p>
     </div>
 
     {{-- Slide 25 --}}
-    <div class="slide hidden flex flex-col justify-start items-center">
+    <div class="slide hidden flex flex-col justify-between h-[30vw] items-center">
         <div class="text-start">
             <h2 class="title stroke">Steps:</h2>
             <ol class="lesson-ul list-decimal title stroke" start="4">
                 <li>How do you animate your character to dance?</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/K2/animate4/a26.png') }}" class="img-normal-md" />
+        <img src="{{ asset('assets/images/K2/animate4/a26.png') }}" class="!w-[25vw]" />
         <p class="note">Note: Remind children to use blocks from different commands to create their programmes for the
             character.</p>
     </div>
 
     {{-- Slide 26 --}}
-    <div class="slide hidden flex flex-col justify-start items-center">
+    <div class="slide hidden flex flex-col justify-between h-[30vw] items-center">
         <div class="text-start">
             <h2 class="title stroke">Steps:</h2>
             <ol class="lesson-ul list-decimal title stroke" start="5">
                 <li>How do you add sound to your story?</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/K2/animate4/a26.png') }}" class="img-normal-md" />
+        <img src="{{ asset('assets/images/K2/animate4/a26.png') }}" class="!w-[25vw]" />
         <p class="note">Note: Remind children to use blocks from different commands to create their programmes for the
             character.</p>
     </div>
 
     {{-- Slide 27 --}}
-    <div class="slide hidden flex flex-col justify-start items-center">
+    <div class="slide hidden flex flex-col justify-between h-[30vw] items-center">
         <div class="text-start">
             <h2 class="title stroke">Steps:</h2>
             <ol class="lesson-ul list-decimal title stroke" start="6">
@@ -462,7 +462,7 @@
         </div>
         <div class="flex gap-[1vw] items-center">
             <img src="{{ asset('assets/images/K2/animate4/a23.png') }}" class="img-sm" />
-            <img src="{{ asset('assets/images/K2/animate2/a16.png') }}" class="img-xs" />
+            <img src="{{ asset('assets/images/K2/animate2/a16.png') }}" class="!w-[2.5vw]" />
             <img src="{{ asset('assets/images/K2/animate4/a27.png') }}" class="img-sm" />
         </div>
         <p class="note">Note: Have children share their stories with the class using the presentation mode.</p>

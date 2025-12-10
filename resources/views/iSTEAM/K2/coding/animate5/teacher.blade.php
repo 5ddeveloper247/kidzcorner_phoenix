@@ -74,7 +74,7 @@
         </ul>
         <div class="flex justify-center items-center">
             <div>
-                <img src="/assets/images/K2/animate1/a51.png" class="img-md" />
+                <img src="/assets/images/K2/animate1/a51.png" class="!w-[35vw]" />
             </div>
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
@@ -90,7 +90,7 @@
                 Tapping here enables you to change title of a project.</li>
         </ul>
         <div class="flex justify-center items-center">
-            <img src="/assets/images/K2/animate5/a20.png" class="img-md" />
+            <img src="/assets/images/K2/animate5/a20.png" class="!w-[35vw]" />
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
@@ -106,7 +106,7 @@
                 Tapping here enables you to add words or text on the stage.</li>
         </ul>
         <div class="flex justify-center items-center">
-                <img src="/assets/images/K2/animate5/a21.png" class="img-md" />
+                <img src="/assets/images/K2/animate5/a21.png" class="!w-[35vw]" />
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
@@ -122,7 +122,7 @@
                 The maximum number of pages you can create for a story is 4 pages.</li>
         </ul>
         <div class="flex justify-center items-center">
-                <img src="/assets/images/K2/animate5/a22.png" class="img-md" />
+                <img src="/assets/images/K2/animate5/a22.png" class="!w-[35vw]" />
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>

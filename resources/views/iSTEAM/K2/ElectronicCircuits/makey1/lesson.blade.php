@@ -8,7 +8,7 @@
 
     {{-- Slide 1 --}}
     <div class="slide flex flex-col items-center justify-center  ">
-        <img src="{{ asset('assets/images/K2/coding/s1.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K2/coding/s1.png') }}" class="!w-[30vw]" />
         <div class="title stroke">
             <h2>Children, Do you remember what there are? <br>
                 What did you do with them?</h2>
@@ -18,7 +18,7 @@
 
     {{-- Slide 2 --}}
     <div class="slide hidden flex flex-col items-center">
-        <img src="{{ asset('assets/images/K2/coding/s1.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K2/coding/s1.png') }}" class="!w-[30vw]" />
         <h2 class="title stroke">Both the tablet and the robot are <span class="!text-white">electronic machines</span>.
             They use the power of <span class="!text-white">electricity</span> to do work.</h2>
     </div>
@@ -28,7 +28,7 @@
     <div class="slide hidden flex flex-col items-center  ">
         <div class="flex items-center gap-[1vw]">
             <img src="{{ asset('assets/images/K2/circuit/makey/m12.png') }}" class="img-h-md" />
-            <video id="video1" class="video1 pointer-events-none">
+            <video id="video1" class="video-md pointer-events-none">
                 <source src="{{ asset('assets/images/K2/final/224.mp4') }}" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
@@ -106,12 +106,14 @@
 
     {{-- slide 11 --}}
     <div class="slide hidden flex flex-col items-center  h-[28vw] justify-between">
-        <ul class="text-start title stroke list-decimal">
-            <h2>Steps:</h2>
-            <li>This is a USB cable. Which end of it can connect to a
-                Makey Makey Board?</li>
-        </ul>
-        <img src="{{ asset('assets/images/K2/circuit/makey/m6.png') }}" class="img-sm" />
+        <div class="text-start">
+            <h2 class="stroke">Steps:</h2>
+            <ol class="title stroke list-decimal">
+                <li>This is a USB cable. Which end of it can connect to a
+                    Makey Makey Board?</li>
+            </ol>
+        </div>
+        <img src="{{ asset('assets/images/K2/circuit/makey/m6.png') }}" class="!w-[35vw]" />
         <p class="note">Note: Have children observe a Makey Makey Board and the 2 ends of a USB cable to find the answer.
         </p>
     </div>
@@ -119,13 +121,16 @@
 
     {{-- slide 12 --}}
     <div class="slide hidden flex flex-col items-center  h-[28vw] justify-between">
-        <ul class="text-start title stroke">
-            <h2>Steps:</h2>
-            <li>2. Connect a Makey Makey Board to a computer using a USB
-                cable. What happens to the board?</li>
-        </ul>
+        <div class="text-start">
+            <h2 class="stroke">Steps:</h2>
+            <ol class="title stroke list-decimal" start="2">
+                <li>Connect a Makey Makey Board to a computer using a USB
+                    cable. What happens to the board?</li>
+            </ol>
+        </div>
         <div class="flex">
-            <a class=" click-btn1"><img src="{{ asset('assets/images/K2/circuit/makey/btn.png') }}" /> </a>
+            <a class=" click-btn1"><img src="{{ asset('assets/images/K2/circuit/makey/btn.png') }}" class="!w-[7vw]" />
+            </a>
             <video id="video2" class="video-md pointer-events-none">
                 <source src="{{ asset('assets/images/K2/circuit/makey/315.mp4') }}" type="video/mp4">
                 Your browser does not support the video tag.
@@ -144,7 +149,7 @@
     {{-- slide 13 --}}
     <div class="slide hidden click1 flex flex-col items-center  h-[28vw] justify-between">
         <h2 class="title stroke">Do you see blinking lights at the back of the board?</h2>
-        <video id="video3" class="video1 pointer-events-none">
+        <video id="video3" class="video-md pointer-events-none">
             <source src="{{ asset('assets/images/K2/circuit/makey/316.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -159,7 +164,7 @@
     {{-- slide 14 --}}
     <div class="slide hidden click1 flex flex-col items-center  h-[28vw] justify-between">
         <h2 class="title stroke">This is how the lights blink or light up in slow motion.</h2>
-        <video id="video4" class="video1 pointer-events-none">
+        <video id="video4" class="video-md pointer-events-none">
             <source src="{{ asset('assets/images/K2/circuit/makey/317.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -173,7 +178,7 @@
     {{-- slide 15 --}}
     <div class="slide hidden click1 flex flex-col items-center ">
         <h2 class="title stroke">Which tiny small things on the board are light bulbs?</h2>
-        <img src="{{ asset('assets/images/K2/circuit/makey/m10.png') }}" class="img-lg" />
+        <img src="{{ asset('assets/images/K2/circuit/makey/m10.png') }}" class="!w-[35vw]" />
         <p class="note">Note: Replay the video on the last page, have children point out all the light bulbs on the
             board.
             Tell them that the tiny light bulb on a circuit board is called LED (ight-emitting diode);
@@ -184,7 +189,7 @@
     <div class="slide hidden click1 flex flex-col items-center ">
         <h2 class="title stroke">Which bulb is the power indicator of the board?
             What does it means?</h2>
-        <img src="{{ asset('assets/images/K2/circuit/makey/m10.png') }}" class="img-lg" />
+        <img src="{{ asset('assets/images/K2/circuit/makey/m10.png') }}" class="!w-[35vw]" />
         <p class="note">Note: Have children point out the power indicator of the board.
             Explain that when the power indicator is on, it means that the board is ready for use.</p>
     </div>
@@ -217,15 +222,17 @@
 
 
     {{-- slide 19 --}}
-    <div class="slide hidden flex flex-col items-center  h-[28vw] justify-between">
-        <ul class="text-start title stroke">
-            <h2>Steps:</h2>
-            <li>3. Open up the Microsoft Word application. Use keyboard to
-                create a document as shown.</li>
-        </ul>
+    <div class="slide hidden flex flex-col items-center">
+        <div class="text-start">
+            <h2 class="stroke">Steps:</h2>
+            <ol class="stroke lesson-ul list-decimal" start="3">
+                <li>Open up the Microsoft Word application. Use keyboard to
+                    create a document as shown.</li>
+            </ol>
+        </div>
         <div class="flex items-start gsp-5">
-            <img src="{{ asset('assets/images/K2/circuit/makey/m7.png') }}" class="img-md" />
-            <p class="note w-[140px] !text-start">Use big font
+            <img src="{{ asset('assets/images/K2/circuit/makey/m7.png') }}" class="!w-[30vw]" />
+            <p class="note w-[14vw] !text-start">Use big font
                 size (e.g.100)
                 to key in the
                 letters.</p>
@@ -235,12 +242,14 @@
     </div>
 
     {{-- sldie 20 --}}
-    <div class="slide hidden flex flex-col items-center  h-[28vw] justify-between">
-        <ul class="text-start title stroke">
-            <h2>Steps:</h2>
-            <li>4. Connect one end of an alligator clip to the EARTH at the
-                bottom of the board.</li>
-        </ul>
+    <div class="slide hidden flex flex-col items-center">
+        <div class="text-start">
+            <h2 class="stroke">Steps:</h2>
+            <ol class="stroke lesson-ul list-decimal" start="4">
+                <li>Connect one end of an alligator clip to the EARTH at the
+                    bottom of the board.</li>
+            </ol>
+        </div>
         <video id="video6" class="video-md pointer-events-none">
             <source src="{{ asset('assets/images/K2/circuit/makey/318.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
@@ -254,24 +263,28 @@
 
 
     {{-- sldie 21 --}}
-    <div class="slide hidden flex flex-col items-center  h-[28vw] justify-between">
-        <ul class="text-start title stroke">
-            <h2>Steps:</h2>
-            <li>5. Use the fingers of a hand to hold the metal part of the
-                other end of the alligator clip.</li>
-        </ul>
-        <img src="{{ asset('assets/images/K2/circuit/makey/m8.png') }}" class="img-md" />
+    <div class="slide hidden flex flex-col items-center">
+        <div class="text-start">
+            <h2 class="stroke">Steps:</h2>
+            <ol class="stroke lesson-ul list-decimal" start="5">
+                <li>Use the fingers of a hand to hold the metal part of the
+                    other end of the alligator clip.</li>
+            </ol>
+        </div>
+        <img src="{{ asset('assets/images/K2/circuit/makey/m8.png') }}" class="!w-[32vw]" />
         <p class="note">Note: Have children observe the demo.</p>
     </div>
 
 
     {{-- sldie 22 --}}
-    <div class="slide hidden flex flex-col items-center  h-[28vw] justify-between">
-        <ul class="text-start title stroke">
-            <h2>Steps:</h2>
-            <li>6. Use the fingers of another hand to touch on the SPACE and
-                different ARROWS. What happens?</li>
-        </ul>
+    <div class="slide hidden flex flex-col items-center">
+        <div class="text-start">
+            <h2 class="stroke">Steps:</h2>
+            <ol class="stroke lesson-ul list-decimal" start="6">
+                <li>Use the fingers of another hand to touch on the SPACE and
+                    different ARROWS. What happens?</li>
+            </ol>
+        </div>
         <video id="video7" class="video-md pointer-events-none">
             <source src="{{ asset('assets/images/K2/circuit/makey/319.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
@@ -287,12 +300,14 @@
 
     {{-- sldie 23 --}}
     <div class="slide hidden flex flex-col items-center justify-between">
-        <ul class="text-start title stroke">
-            <h2>Steps:</h2>
-            <li>7. Let go of this hand and use another hand to touch on the
-                SPACE and different ARROWS. What happens?</li>
-        </ul>
-            <img src="{{ asset('assets/images/K2/circuit/makey/m9.png') }}" class="img-md" />
+        <div class="text-start">
+            <h2 class="stroke">Steps:</h2>
+            <ol class="stroke lesson-ul list-decimal" start="7">
+                <li>Let go of this hand and use another hand to touch on the
+                    SPACE and different ARROWS. What happens?</li>
+            </ol>
+        </div>
+        <img src="{{ asset('assets/images/K2/circuit/makey/m9.png') }}" class="!w-[32vw]" />
         <p class="note">Note: Have children observe the demo, take turns to try this step and talk about what they see.
         </p>
     </div>
@@ -301,16 +316,18 @@
 
     {{-- sldie 24 --}}
     <div class="slide hidden flex flex-col items-center  h-[28vw] justify-between">
-        <ul class="text-start title stroke list-disc ">
-            <h2>Do you realise that:</h2>
-            <li>You need a computer to set up a Makey Makey Board.</li>
-            <li>The board is only ready for use when it gets electricity
-                from the computer.</li>
-            <li>You get to "see" the use of a Makey Makey Board with the
-                help of the Microsoft Word application.</li>
-            <li>The use of the SPACE on the board is just like the use of
-                the space key on a keyboard.</li>
-        </ul>
+        <div class="text-start">
+            <h2 class="stroke">Do you realise that:</h2>
+            <ul class="text-start lesson-ul stroke list-disc ">
+                <li>You need a computer to set up a Makey Makey Board.</li>
+                <li>The board is only ready for use when it gets electricity
+                    from the computer.</li>
+                <li>You get to "see" the use of a Makey Makey Board with the
+                    help of the Microsoft Word application.</li>
+                <li>The use of the SPACE on the board is just like the use of
+                    the space key on a keyboard.</li>
+            </ul>
+        </div>
 
         <p class="note">Note: Guide children to understand these points. Demo to convince children on some points.</p>
     </div>
@@ -319,15 +336,17 @@
 
     {{-- slide 25 --}}
     <div class="slide hidden flex flex-col items-center  h-[28vw] justify-between">
-        <ul class="text-start title stroke list-disc ">
-            <h2>Do you realise that:</h2>
-            <li>The use of the different ARROWS on the board is just like the use of the arrow (up, down, left, right) keys
-                on a keyboard.</li>
-            <li>The SPACE or different ARROWS of the board is not working when one of your hand is not connected to the
-                EARTH of the board.</li>
-            <li>You are a conductor because you let electricity pass through you to provide electricity for the board to do
-                work.</li>
-        </ul>
+        <div class="text-start">
+            <h2 class="stroke">Do you realise that:</h2>
+            <ul class="text-start lesson-ul stroke list-disc ">
+                <li>The use of the different ARROWS on the board is just like the use of the arrow (up, down, left, right)
+                    keys on a keyboard.</li>
+                <li>The SPACE or different ARROWS of the board is not working when one of your hand is not connected to the
+                    EARTH of the board.</li>
+                <li>You are a conductor because you let electricity pass through you to provide electricity for the board to
+                    do work.</li>
+            </ul>
+        </div>
 
         <p class="note">Note: Guide children to understand these points. Demo to convince children on some points.</p>
     </div>
@@ -335,7 +354,7 @@
 
     {{-- slide 26 --}}
     <div class="slide hidden flex flex-col items-center ">
-        <img src="{{ asset('assets/images/K2/circuit/makey/m11.png') }}" class="img-xl"/>
+        <img src="{{ asset('assets/images/K2/circuit/makey/m11.png') }}" class="img-xl" />
         <h2 class="title stroke">You are actually part of this complete circuit that makes the
             Makey Makey Board work!</h2>
         <p class="note">Note: Guide children to "see" how electricity flow in a circuit with reference to the drawing.

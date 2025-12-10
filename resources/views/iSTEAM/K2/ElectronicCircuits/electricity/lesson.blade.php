@@ -8,7 +8,7 @@
 
     {{-- Slide 1 --}}
     <div class="slide flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K2/circuit/ecity/e1.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K2/circuit/ecity/e1.png') }}" class="!w-[30vw]" />
         <h2 class="title stroke">Children, what are these? What are they for?</h2>
         <p class="note">Note: Have children share their prior knowledge.</p>
     </div>
@@ -16,7 +16,7 @@
 
     {{-- Slide 2 --}}
     <div class="slide hidden flex flex-col items-center">
-        <img src="{{ asset('assets/images/K2/circuit/ecity/e1.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K2/circuit/ecity/e1.png') }}" class="!w-[30vw]" />
         <h2 class="title stroke">Ovens, refrigerators, washing machines and vacuum cleaners
             are machines that help us do work.</h2>
     </div>
@@ -24,7 +24,7 @@
 
     {{-- Slide 3 --}}
     <div class="slide hidden flex flex-col items-center gap-y-4">
-        <img src="{{ asset('assets/images/K2/circuit/ecity/e1.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K2/circuit/ecity/e1.png') }}" class="!w-[30vw]" />
         <h2 class="title stroke text-center">What do they need in common?</h2>
         <p class="note">Note: Encourage children to boldly share their views.</p>
     </div>
@@ -32,7 +32,7 @@
 
     {{-- Slide 4 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
-        <img src="{{ asset('assets/images/K2/circuit/ecity/e1.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K2/circuit/ecity/e1.png') }}" class="!w-[30vw]" />
         <h2 class="title stroke text-center">These machines need the power of electricity to do work.</h2>
         <p class="note">Note: Have children share what they know about the power of electricity.</p>
     </div>
@@ -40,7 +40,7 @@
 
     {{-- Slide 5 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
-        <img src="{{ asset('assets/images/K2/circuit/ecity/e1.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K2/circuit/ecity/e1.png') }}" class="!w-[30vw]" />
         <h2 class="title stroke">Where do these machines get electricity from?</h2>
         <p class="note">Note: Have children recall and say how to put these machines to work.</p>
     </div>
@@ -49,7 +49,7 @@
     {{-- Slide 6 --}}
     <div class="slide hidden flex flex-col items-center">
         <div class="flex items-end">
-            <img src="{{ asset('assets/images/K2/circuit/ecity/e1.png') }}" class="img-md" />
+            <img src="{{ asset('assets/images/K2/circuit/ecity/e1.png') }}" class="!w-[30vw]" />
             <img src="{{ asset('assets/images/K2/circuit/ecity/e2.png') }}" class="img-h-md" />
         </div>
         <h2 class="title stroke">Most machines get electricity when its plug is inserted into
@@ -92,7 +92,7 @@
                 <li>What machines did you find that come with a plug? Tell your teacher and friends.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/K2/circuit/ecity/e3.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K2/circuit/ecity/e3.png') }}" class="!w-[30vw]" />
         <p class="note">Note: Guide children to pay attention to things with a plug around the place,
             especially those already connected to sockets.</p>
     </div>
@@ -216,7 +216,7 @@
     <div class="slide hidden flex flex-col items-center">
         <div class="flex items-center gap-[1vw]">
             <img src="{{ asset('assets/images/K2/circuit/ecity/e8.png') }}" class="img-tiny" />
-            <video id="video4" class="video1 pointer-events-none">
+            <video id="video4" class="video-md pointer-events-none">
                 <source src="{{ asset('assets/images/K2/circuit/ecity/310.mp4') }}" type="video/mp4">
                 Your browser does not support the video tag.
             </video>

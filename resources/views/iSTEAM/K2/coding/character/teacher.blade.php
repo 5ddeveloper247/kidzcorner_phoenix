@@ -65,7 +65,7 @@
         </ul>
         <div class="flex justify-center items-center">
             <div>
-                <img src="{{ asset('assets/images/K2/animate1/a51.png') }}" class="img-md" />
+                <img src="{{ asset('assets/images/K2/animate1/a51.png') }}" class="!w-[35vw]" />
             </div>
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />

@@ -198,7 +198,7 @@
     <div class="slide hidden click1 flex flex-col items-center justify-center">
         <div class="flex gap-[1vw]">
             <img src="{{ asset('assets/images/K2/animate1/a20.png') }}" class="!h-[20vw]" />
-            <video id="video5" class="pointer-events-none !min-w-[30vw]">
+            <video id="video5" class="pointer-events-none video-sm">
                 <source src="{{ asset('assets/images/K2/animate1/226.mp4') }}" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
@@ -215,7 +215,7 @@
     <div class="slide hidden click1 flex flex-col items-center justify-center">
         <div class="flex gap-[1vw] items-center">
             <img src="{{ asset('assets/images/K2/animate1/a22.png') }}" class="img-sm" />
-            <video id="video6" class="pointer-events-none video-md">
+            <video id="video6" class="pointer-events-none video-sm">
                 <source src="{{ asset('assets/images/K2/animate1/227.mp4') }}" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
@@ -232,7 +232,7 @@
     <div class="slide hidden click1 flex flex-col items-center justify-center">
         <div class="flex gap-[1vw] items-center">
             <img src="{{ asset('assets/images/K2/animate1/a22.png') }}" class="img-sm" />
-            <video id="video7" class="pointer-events-none video-md">
+            <video id="video7" class="pointer-events-none video-sm">
                 <source src="{{ asset('assets/images/K2/animate1/228.mp4') }}" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
@@ -249,7 +249,7 @@
     <div class="slide hidden click1 flex flex-col items-center justify-center">
         <div class="flex gap-[1vw] items-center">
             <img src="{{ asset('assets/images/K2/animate1/a24.png') }}" class="img-sm" />
-            <video id="video8" class="pointer-events-none video-md">
+            <video id="video8" class="pointer-events-none video-sm">
                 <source src="{{ asset('assets/images/K2/animate1/229.mp4') }}" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
@@ -266,7 +266,7 @@
     <div class="slide hidden click1 flex flex-col items-center justify-center">
         <div class="flex items-center">
             <img src="{{ asset('assets/images/K2/animate1/a25.png') }}" class="img-sm" />
-            <video id="video9" class="pointer-events-none video-md">
+            <video id="video9" class="pointer-events-none video-sm">
                 <source src="{{ asset('assets/images/K2/animate1/230.mp4') }}" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
@@ -284,7 +284,7 @@
     <div class="slide hidden click1 flex flex-col items-center justify-center">
         <div class="flex gap-[1vw] items-center">
             <img src="{{ asset('assets/images/K2/animate1/a27.png') }}" class="img-sm" />
-            <video id="video10" class="pointer-events-none video-md">
+            <video id="video10" class="pointer-events-none video-sm">
                 <source src="{{ asset('assets/images/K2/animate1/231.mp4') }}" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
@@ -300,7 +300,7 @@
     <div class="slide hidden click1 flex flex-col items-center justify-center">
         <div class="flex gap-[1vw] items-center">
             <img src="{{ asset('assets/images/K2/animate1/a28.png') }}" class="img-sm" />
-            <video id="video11" class="pointer-events-none video-md">
+            <video id="video11" class="pointer-events-none video-sm">
                 <source src="{{ asset('assets/images/K2/animate1/232.mp4') }}" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
@@ -314,14 +314,14 @@
 
     {{-- Slide 26 --}}
     <div class="slide hidden click1 flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K2/animate1/a30.png') }}" />
+        <img src="{{ asset('assets/images/K2/animate1/a30.png') }}" class="img-lg" />
         <h2 class="title stroke">How many grid squares did the character move?</h2>
         <p class="note">Note: Use a grid card to guide children to count (5 squares to the right).</p>
     </div>
 
     {{-- Slide 27 --}}
     <div class="slide hidden click1 flex flex-col items-center justify-center">
-        <video id="video12" class="pointer-events-none video-md">
+        <video id="video12" class="pointer-events-none video-sm">
             <source src="{{ asset('assets/images/K2/animate1/233.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -336,7 +336,7 @@
     <div class="slide hidden click1 flex flex-col items-center justify-center">
         <div class="flex gap-[1vw] items-center">
             <img src="{{ asset('assets/images/K2/animate1/a31.png') }}" class="img-sm" />
-            <video id="video13" class="pointer-events-none video-md">
+            <video id="video13" class="pointer-events-none video-sm">
                 <source src="{{ asset('assets/images/K2/animate1/234.mp4') }}" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
@@ -351,14 +351,14 @@
 
     {{-- Slide 29 --}}
     <div class="slide hidden click1 flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K2/animate1/a32.png') }}" />
+        <img src="{{ asset('assets/images/K2/animate1/a32.png') }}" class="img-xl" />
         <h2 class="title stroke">Now, let's see how other programming blocks under Motion
             Blocks control the character!</h2>
         <p class="note">Note: Guide children to explore the use of other programming blocks here; except Go Home.</p>
     </div>
 
     {{-- Slide 30 --}}
-    <div class="slide hidden click1 flex flex-col items-center justify-between h-[50vh]">
+    <div class="slide hidden click1 flex flex-col items-center justify-between h-[30vw]">
         <div class="text-start">
             <h2 class="title stroke text-start">What can you do if you want the character to...</h2>
             <ol class="lesson-ul list-decimal title stroke">
@@ -406,7 +406,7 @@
 
     {{-- Slide 32 --}}
     <div class="slide hidden click1 flex flex-col items-center justify-center">
-        <video id="video16" class="pointer-events-none video-md">
+        <video id="video16" class="pointer-events-none video-sm">
             <source src="{{ asset('assets/images/K2/animate1/237.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -421,7 +421,7 @@
 
     {{-- Slide 33 --}}
     <div class="slide hidden click1 flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K2/animate1/a34.png') }}" />
+        <img src="{{ asset('assets/images/K2/animate1/a34.png') }}" class="img-lg" />
         <h2 class="title stroke">At the end, what can you do if you want the character
             to return to its starting point?</h2>
     </div>
@@ -430,7 +430,7 @@
     <div class="slide hidden click1 flex flex-col items-center justify-center">
         <div class="flex gap-[1vw] items-center">
             <img src="{{ asset('assets/images/K2/animate1/a35.png') }}" class="img-sm" />
-            <video id="video17" class="pointer-events-none video-md">
+            <video id="video17" class="pointer-events-none video-sm">
                 <source src="{{ asset('assets/images/K2/animate1/238.mp4') }}" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
@@ -446,7 +446,7 @@
     <div class="slide hidden click1 flex flex-col items-center justify-center">
         <div class="flex gap-[1vw] items-center">
             <img src="{{ asset('assets/images/K2/animate1/a36.png') }}" class="img-sm" />
-            <video id="video18" class="pointer-events-none video-md">
+            <video id="video18" class="pointer-events-none video-sm">
                 <source src="{{ asset('assets/images/K2/animate1/239.mp4') }}" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
@@ -461,7 +461,7 @@
 
     {{-- Slide 36 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img class="img-sm" src="{{ asset('assets/images/K2/animate1/a37.png') }}" />
+        <img class="!w-[30vw]" src="{{ asset('assets/images/K2/animate1/a37.png') }}" />
         <h2 class="title stroke">This command is called Triggering Blocks It allows us to
             choose wayso start running a programme of a character.</h2>
         <p class="note">Note: <button class="text-[#F7B94A] click-btn2">Click here</button> to guide children
@@ -548,7 +548,7 @@
         </div>
         <div class="flex gap-[1vw] items-center">
             <img src="{{ asset('assets/images/K2/animate1/a45.png') }}" class="img-sm" />
-            <img src="{{ asset('assets/images/K2/animate1/a14.png') }}" class="!max-w-[2.5vw]" />
+            <img src="{{ asset('assets/images/K2/animate1/a14.png') }}" class="!w-[2.5vw]" />
             <img src="{{ asset('assets/images/K2/animate1/a46.png') }}" class="img-sm" />
         </div>
     </div>
@@ -563,7 +563,7 @@
         </div>
         <div class="flex gap-[1vw] items-center">
             <img src="{{ asset('assets/images/K2/animate1/a47.png') }}" class="img-sm" />
-            <img src="{{ asset('assets/images/K2/animate1/a14.png') }}" class="!max-w-[2.5vw]" />
+            <img src="{{ asset('assets/images/K2/animate1/a14.png') }}" class="!w-[2.5vw]" />
             <img src="{{ asset('assets/images/K2/animate1/a48.png') }}" class="img-sm" />
         </div>
     </div>
@@ -576,7 +576,7 @@
                 <li>Who will be your dancer? If the cat is not your choice, delete it and choose another character.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/K2/animate1/a48.png') }}" class="img-normal-md" />
+        <img src="{{ asset('assets/images/K2/animate1/a48.png') }}" class="!w-[26vw]" />
         <p class="note">Note: Verbally guide children that need help.</p>
     </div>
 
@@ -588,13 +588,13 @@
                 <li>Use your creativity to design and create a dance for your character.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/K2/animate1/a48.png') }}" class="img-normal-md" />
+        <img src="{{ asset('assets/images/K2/animate1/a48.png') }}" class="!w-[26vw]" />
         <p class="note">Note: Remind children that they can only use the programming blocks under the
             Motion Blocks to create the dance.</p>
     </div>
 
     {{-- Slide 46 --}}
-    <div class="slide hidden flex flex-col items-center justify-center">
+    <div class="slide hidden flex flex-col items-center justify-between h-[30vw]">
         <div class="text-start">
             <h2 class="title stroke text-start">Steps:</h2>
             <ol class="lesson-ul list-decimal title stroke" start="6">
@@ -604,6 +604,9 @@
         <img src="{{ asset('assets/images/K2/animate1/a49.png') }}" class="img-xl" />
         <p class="note">Note: After the showcase, have children vote for the best dancer created.</p>
     </div>
+
+
+
 
     {{-- Buttons --}}
     <div class="down-btn-container">

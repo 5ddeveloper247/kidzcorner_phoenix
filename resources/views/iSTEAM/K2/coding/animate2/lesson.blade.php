@@ -8,8 +8,8 @@
     {{-- Slide 1 --}}
     <div class="slide flex flex-col items-center justify-center">
         <div class="flex gap-[1vw] items-center">
-            <img class="img-normal-md" src="{{ asset('assets/images/K2/animate2/a1.png') }}" />
-            <img class="img-normal-md" src="{{ asset('assets/images/K2/animate2/a2.png') }}" />
+            <img class="!w-[25vw]" src="{{ asset('assets/images/K2/animate2/a1.png') }}" />
+            <img class="!w-[25vw]" src="{{ asset('assets/images/K2/animate2/a2.png') }}" />
         </div>
         <h2 class="title stroke">Children, what is the name of this app?
             What can you use it for?</h2>
@@ -35,14 +35,14 @@
 
     {{-- Slide 3 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K2/animate2/a5.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K2/animate2/a5.png') }}" class="!w-[30vw]" />
         <h2 class="title stroke">How do we get the background and character?</h2>
         <p class="note">Note: Have children point out the features that enable them to add background and character.</p>
     </div>
 
     {{-- Slide 4 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K2/animate2/a5.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K2/animate2/a5.png') }}" class="!w-[30vw]" />
         <h2 class="title stroke">Which command in the app allows us to animate a character?</h2>
         <p class="note">Note: Have children name and point out the Motion Blocks command.</p>
     </div>
@@ -111,7 +111,7 @@
     {{-- Slide 9 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
         <div class="flex gap-[1vw] items-center">
-            <img src="{{ asset('assets/images/K2/animate2/a10.png') }}" class="img-h-sm" />
+            <img src="{{ asset('assets/images/K2/animate2/a10.png') }}" class="!h-[18vw]" />
             <video id="video6" class="pointer-events-none video-sm">
                 <source src="{{ asset('assets/images/K2/animate2/247.mp4') }}" type="video/mp4">
                 Your browser does not support the video tag.
@@ -191,7 +191,7 @@
                 <li>Use different programming blocks under Motion Blocks to create two programmes for a character.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/K2/animate2/a14.png') }}" class="img-normal-md" />
+        <img src="{{ asset('assets/images/K2/animate2/a14.png') }}" class="!w-[25vw]" />
         <p class="note">Note: Encourage children to explore the fun of creating different animation effects together.</p>
     </div>
 
@@ -231,7 +231,7 @@
     </div>
 
     {{-- Slide 17 --}}
-    <div class="slide hidden flex flex-col justify-start">
+    <div class="slide hidden flex flex-col justify-start items-center">
         <div class="text-start">
             <h2 class="title stroke text-start">Steps:</h2>
             <ol class="lesson-ul list-decimal title stroke">
@@ -245,7 +245,7 @@
         </div>
         <h2 class="title stroke">Tap, drag and place a Move Right programming block
             to the programming area.</h2>
-        <p class="note">Note: Reply the <a class="text-[#f7b94a] click-btn1">video</a> if needed.</p>
+        <p class="note text-center">Note: Reply the <a class="text-[#f7b94a] click-btn1">video</a> if needed.</p>
     </div>
 
     {{-- Slide 18 --}}
@@ -263,7 +263,7 @@
     </div>
 
     {{-- Slide 19 --}}
-    <div class="slide hidden flex flex-col justify-start">
+    <div class="slide hidden flex flex-col justify-start items-center">
         <div class="text-start">
             <h2 class="title stroke text-start">Steps:</h2>
             <ol class="lesson-ul list-decimal title stroke" start="2">
@@ -276,12 +276,12 @@
                 Tap, drag and place it to
                 the point that you want!</h2>
         </div>
-        <p class="note">Note: This is the actual starting point of the character in the sample.
+        <p class="note text-center">Note: This is the actual starting point of the character in the sample.
             To be more flexible, let children decide their own starting point.</p>
     </div>
 
     {{-- Slide 20 --}}
-    <div class="slide hidden flex flex-col justify-start">
+    <div class="slide hidden flex flex-col justify-start items-center">
         <div class="text-start">
             <h2 class="title stroke text-start">Steps:</h2>
             <ol class="lesson-ul list-decimal title stroke" start="3">
@@ -290,9 +290,9 @@
         </div>
         <div class="flex gap-3 items-center justify-center items-end">
             <img class="img-sm" src="{{ asset('assets/images/K2/animate2/a18.png') }}" />
-            <button class="click-btn2 !text-white w-[188px] h-[61px] bg-[#2D9CDB] rounded-[20px]">Sample Answer</button>
+            <button class="click-btn2 !text-white text-[1vw] w-[9vw] h-[4vw] bg-[#2D9CDB] rounded-[1vw]">Sample Answer</button>
         </div>
-        <p class="note">Note: Accept all similar programmes presented by children.</p>
+        <p class="note text-center">Note: Accept all similar programmes presented by children.</p>
     </div>
 
     {{-- Slide 21 --}}

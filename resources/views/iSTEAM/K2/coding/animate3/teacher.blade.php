@@ -59,7 +59,7 @@
         <div class="flex justify-center items-center">
             <div>
 
-                <img class="img-lg" src="{{ asset('/assets/images/K2/animate1/a50.png') }}" />
+                <img class="!w-[35vw]" src="{{ asset('/assets/images/K2/animate1/a50.png') }}" />
             </div>
 
         </div>
@@ -78,7 +78,7 @@
         </div>
 
         <div class="flex justify-center items-center">
-            <img src="{{ asset('/assets/images/K2/animate1/a51.png') }}" class="img-md" />
+            <img src="{{ asset('/assets/images/K2/animate1/a51.png') }}" class="!w-[30vw]" />
         </div>
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>

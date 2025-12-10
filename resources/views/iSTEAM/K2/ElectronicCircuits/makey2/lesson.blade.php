@@ -3,12 +3,11 @@
 
 @section('content')
 
-    {{-- title --}}
+    {{-- Title --}}
     <h2 class="top-title stroke">Makey Makey (2)</h2>
 
-
     {{-- Slide 1 --}}
-    <div class="slide flex flex-col items-center justify-center  ">
+    <div class="slide flex flex-col items-center justify-center">
         <video id="video1" class="video1 pointer-events-none">
             <source src="{{ asset('assets/images/K2/circuit/makey/319.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
@@ -19,10 +18,9 @@
         </div>
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video1')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
-            <img src="/assets/images/pptimages/video.png" />
+            <img src="{{ asset('assets/images/pptimages/video.png') }}" />
         </div>
     </div>
-
 
     {{-- Slide 2 --}}
     <div class="slide hidden flex flex-col items-center">
@@ -33,9 +31,8 @@
             that allow us to use the 4 main parts in front.</h2>
     </div>
 
-
     {{-- Slide 3 --}}
-    <div class="slide hidden flex flex-col items-center  ">
+    <div class="slide hidden flex flex-col items-center">
         <img src="{{ asset('assets/images/K2/circuit/makey/m11.png') }}" class="img-xl" />
         <h2 class="title stroke">You need a <span class="!text-white">computer</span> to set up a <span
                 class="text-white">Makey Makey Board</span>.
@@ -43,77 +40,77 @@
             the <span class="!text-white">Makey Makey</span> Board to work!</h2>
     </div>
 
-    {{-- slide 4 --}}
-    <div class="slide hidden  flex flex-col items-center  ">
+    {{-- Slide 4 --}}
+    <div class="slide hidden flex flex-col items-center">
         <img src="{{ asset('assets/images/K2/circuit/makey/m8.png') }}" class="img-lg" />
         <h2 class="title stroke text-center">You get to "see" the use of a <span class="!text-white"> Makey Makey
                 Board</span> with the
-            help of the Microsoft Word <span class="!text-white">application</span>.</p>
+            help of the Microsoft Word <span class="!text-white">application</span>.</h2>
     </div>
 
-
     {{-- Slide 5 --}}
-    <div class="slide hidden  flex flex-col items-center justify-between h-[30vh]">
+    <div class="slide hidden flex flex-col items-center justify-between h-[20vw] self-end">
         <h2 class="title stroke">Makey Makey is an electronic toy. <br>
             Let's see how it can be turned into a toy that entertains us!</h2>
         <p class="note">Note: Display a set of Makey Makey. Have children name the items in a set of Makey Makey.</p>
     </div>
 
-
-    {{-- slide 6 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-[28vw]  ">
+    {{-- Slide 6 --}}
+    <div class="slide hidden flex flex-col items-center justify-between h-[28vw]">
         <h2 class="!text-white title stroke">Class Activity</h2>
         <h2 class="title stroke text-start">Let's find out: <br>
             How to turn a set of Makey Makey into a fun music maker?</h2>
         <p class="text-center note">Note: Have all children sit closer to watch the demo.</p>
     </div>
 
-
-    {{-- slide 7 --}}
-    <div class="slide hidden flex flex-col items-center  h-[28vw] justify-between">
-        <ul class="text-start title stroke list-decimal">
-            <h2>Steps:</h2>
-            <li>Connect 3 alligator clips to a Makey Makey Board.</li>
-        </ul>
+    {{-- Slide 7 --}}
+    <div class="slide hidden flex flex-col items-center h-[28vw] justify-between">
+        <div class="text-start">
+            <h2 class="title stroke">Steps:</h2>
+            <ol start="1" class="lesson-ul list-decimal title stroke">
+                <li>Connect 3 alligator clips to a Makey Makey Board.</li>
+            </ol>
+        </div>
         <img src="{{ asset('assets/images/K2/circuit/makey/m15.png') }}" class="img-lg" />
         <p class="note">Note: Invite three children help to do the step. Have other children observe the demo.</p>
     </div>
 
-
-    {{-- slide 8 --}}
-    <div class="slide hidden flex flex-col items-center  h-[28vw] justify-between">
-        <ul class="text-start title stroke">
-            <h2>Steps:</h2>
-            <li>2. Connect the board to a computer using a USB cable.</li>
-        </ul>
+    {{-- Slide 8 --}}
+    <div class="slide hidden flex flex-col items-center h-[28vw] justify-between">
+        <div class="text-start">
+            <h2 class="title stroke">Steps:</h2>
+            <ol start="2" class="lesson-ul list-decimal title stroke">
+                <li>Connect the board to a computer using a USB cable.</li>
+            </ol>
+        </div>
         <img src="{{ asset('assets/images/K2/circuit/makey/m16.png') }}" class="img-md" />
         <p class="note">Note: Invite a child helps to do the step. Have other children observe the demo.</p>
     </div>
 
-
-
-    {{-- slide 9 --}}
-    <div class="slide hidden flex flex-col items-center  h-[28vw] justify-between">
-        <ul class="text-start title stroke">
-            <h2>Steps:</h2>
-            <li>3. Open up the bongos application page from the Makey
-                Makey's website.</li>
-        </ul>
+    {{-- Slide 9 --}}
+    <div class="slide hidden flex flex-col items-center h-[28vw] justify-between">
+        <div class="text-start">
+            <h2 class="title stroke">Steps:</h2>
+            <ol start="3" class="lesson-ul list-decimal title stroke">
+                <li>Open up the bongos application page from the Makey
+                    Makey's website.</li>
+            </ol>
+        </div>
         <img src="{{ asset('assets/images/K2/circuit/makey/m17.png') }}" class="img-xl" />
         <p class="note">Note: Tell children that this is an application created by the Makey Makey Website.</p>
     </div>
 
-
-
-    {{-- slide 10 --}}
-    <div class="slide hidden flex flex-col items-center  h-[28vw] justify-between">
-        <ul class="text-start title stroke">
-            <h2>Steps:</h2>
-            <li>4. Use a mouse to play the bongos.</li>
-        </ul>
+    {{-- Slide 10 --}}
+    <div class="slide hidden flex flex-col items-center h-[28vw] justify-between">
+        <div class="text-start">
+            <h2 class="title stroke">Steps:</h2>
+            <ol start="4" class="lesson-ul list-decimal title stroke">
+                <li>Use a mouse to play the bongos.</li>
+            </ol>
+        </div>
         <div class="flex items-start gap-[1vw]">
-            <img src="{{ asset('assets/images/K2/circuit/makey/m18.png') }}" class="img-md"  />
-            <p class="note w-[130px]">Is it easy to play
+            <img src="{{ asset('assets/images/K2/circuit/makey/m18.png') }}" class="img-md" />
+            <p class="note w-[10vw]">Is it easy to play
                 the bongos and
                 create music
                 using a mouse?</p>
@@ -121,21 +118,21 @@
         <p class="note">Note: Demo. Then have children take turns to try the step and share their views.</p>
     </div>
 
-
-
-    {{-- slide 11 --}}
-    <div class="slide hidden flex flex-col items-center  h-[28vw] justify-between">
-        <ul class="text-start title stroke">
-            <h2>Steps:</h2>
-            <li>5. Use the Makey Makey to play the bongos.</li>
-        </ul>
-        <div class="flex items-start gap-[1vw] ">
-            <p class="note w-[120px] text-end">Is it easier to
+    {{-- Slide 11 --}}
+    <div class="slide hidden flex flex-col items-center h-[28vw] justify-between">
+        <div class="text-start">
+            <h2 class="title stroke">Steps:</h2>
+            <ol start="5" class="lesson-ul list-decimal title stroke">
+                <li>Use the Makey Makey to play the bongos.</li>
+            </ol>
+        </div>
+        <div class="flex items-start gap-[1vw]">
+            <p class="note w-[10vw] text-end">Is it easier to
                 play the bongos
                 and create music
                 using the Makey
                 Makey?</p>
-            <video id="video2" class="video1 pointer-events-none">
+            <video id="video2" class="video-md pointer-events-none">
                 <source src="{{ asset('assets/images/K2/circuit/makey/320.mp4') }}" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
@@ -143,33 +140,34 @@
         <p class="note">Note: Demo. Then have children take turns to try the step and share their views.</p>
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video2')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
-            <img src="/assets/images/pptimages/video.png" />
+            <img src="{{ asset('assets/images/pptimages/video.png') }}" />
         </div>
     </div>
 
-
-    {{-- slide 12 --}}
-    <div class="slide hidden flex flex-col items-center  h-[28vw] justify-between">
-        <ul class="text-start title stroke">
-            <h2>Steps:</h2>
-            <li>6. Use paper clips to form a band.</li>
-        </ul>
+    {{-- Slide 12 --}}
+    <div class="slide hidden flex flex-col items-center h-[28vw] justify-between">
+        <div class="text-start">
+            <h2 class="title stroke">Steps:</h2>
+            <ol start="6" class="lesson-ul list-decimal title stroke">
+                <li>Use paper clips to form a band.</li>
+            </ol>
+        </div>
         <img src="{{ asset('assets/images/K2/circuit/makey/m19.png') }}" class="img-lg" />
         <p class="note">Note: Have children use some paper clips to form the band (big enough to wear around your wrist).
         </p>
     </div>
 
-
-
-    {{-- slide 13 --}}
-    <div class="slide hidden flex flex-col items-center  h-[28vw] justify-between">
-        <ul class="text-start title stroke">
-            <h2>Steps:</h2>
-            <li>7. Wear the band and use the Makey Makey to play the
-                bongos.</li>
-        </ul>
+    {{-- Slide 13 --}}
+    <div class="slide hidden flex flex-col items-center h-[28vw] justify-between">
+        <div class="text-start">
+            <h2 class="title stroke">Steps:</h2>
+            <ol start="7" class="lesson-ul list-decimal title stroke">
+                <li>Wear the band and use the Makey Makey to play the
+                    bongos.</li>
+            </ol>
+        </div>
         <div class="flex items-end gap-[1vw]">
-            <p class="note w-[120px] text-end">Is it easier to
+            <p class="note w-[10vw] text-end">Is it easier to
                 play the bongos
                 and create music
                 this way?</p>
@@ -181,32 +179,33 @@
         <p class="note">Note: Demo. Then have children take turns to try the step and share their views.</p>
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video3')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
-            <img src="/assets/images/pptimages/video.png" />
+            <img src="{{ asset('assets/images/pptimages/video.png') }}" />
         </div>
     </div>
 
-
-    {{-- slide 14 --}}
-    <div class="slide hidden flex flex-col items-center  h-[28vw] justify-between">
-        <ul class="text-start title stroke">
-            <h2>Steps:</h2>
-            <li>8. Use playdough to form 2 balls.</li>
-        </ul>
+    {{-- Slide 14 --}}
+    <div class="slide hidden flex flex-col items-center h-[28vw] justify-between">
+        <div class="text-start">
+            <h2 class="title stroke">Steps:</h2>
+            <ol start="8" class="lesson-ul list-decimal title stroke">
+                <li>Use playdough to form 2 balls.</li>
+            </ol>
+        </div>
         <img src="{{ asset('assets/images/K2/circuit/makey/m20.png') }}" class="img-lg" />
         <p class="note">Note: Have children use different coloured playdough to form the balls.</p>
     </div>
 
-
-
-    {{-- slide 15 --}}
-    <div class="slide hidden flex flex-col items-center  h-[28vw] justify-between">
-        <ul class="text-start title stroke">
-            <h2>Steps:</h2>
-            <li>9. Change the setting and play the bongos.</li>
-        </ul>
-        <div class="flex items-start gap-[1vw] ">
+    {{-- Slide 15 --}}
+    <div class="slide hidden flex flex-col items-center h-[28vw] justify-between">
+        <div class="text-start">
+            <h2 class="title stroke">Steps:</h2>
+            <ol start="9" class="lesson-ul list-decimal title stroke">
+                <li>Change the setting and play the bongos.</li>
+            </ol>
+        </div>
+        <div class="flex items-start gap-[1vw]">
             <img src="{{ asset('assets/images/K2/circuit/makey/m21.png') }}" class="img-md" />
-            <p class="note w-[130px] text-start">Is it easier to
+            <p class="note w-[10vw] text-start">Is it easier to
                 play the bongos
                 and create music
                 this way?</p>
@@ -215,18 +214,19 @@
             Note: Demo (wear the band and tap on the 2 playdough balls).</p>
     </div>
 
-
-    {{-- slide 16 --}}
-    <div class="slide hidden flex flex-col items-center ">
-        <ul class="text-start title stroke">
-            <h2>Steps:</h2>
-            <li>10. Hold on to the alligator clip that is connected to the
-                Earth. Let 2 children to each hold on to one of the other
-                alligator clip. Tap on the children to play the bongos.</li>
-        </ul>
+    {{-- Slide 16 --}}
+    <div class="slide hidden flex flex-col items-center">
+        <div class="text-start">
+            <h2 class="title stroke">Steps:</h2>
+            <ol start="10" class="lesson-ul list-decimal title stroke">
+                <li>Hold on to the alligator clip that is connected to the
+                    Earth. Let 2 children to each hold on to one of the other
+                    alligator clip. Tap on the children to play the bongos.</li>
+            </ol>
+        </div>
         <div class="flex items-start gap-[1vw]">
             <img src="{{ asset('assets/images/K2/circuit/makey/m22.png') }}" class="img-lg" />
-            <p class="note w-[130px]">Is it easier to
+            <p class="note w-[10vw]">Is it easier to
                 play the bongos
                 and create music
                 this way?</p>
@@ -234,11 +234,10 @@
         <p class="note">Note: Demo. Then have children take turns to try the step and share their views.</p>
     </div>
 
-
-    {{-- slide 17 --}}
-    <div class="slide hidden flex flex-col items-center h-[28vw] justify-between ">
+    {{-- Slide 17 --}}
+    <div class="slide hidden flex flex-col items-center h-[28vw] justify-between">
         <div class="text-center space-y-10">
-            <h2 class="title stroke">Do you remember this simple circuit?Do you like to play the bongos and create music
+            <h2 class="title stroke">Do you remember this simple circuit? Do you like to play the bongos and create music
                 using a mouse or a set of Makey Makey? Why?</h2>
 
             <h2 class="title stroke">Which arrangement of the Makey Makey entertains you the
@@ -249,20 +248,17 @@
         </p>
     </div>
 
-
-    {{-- slide 18 --}}
-    <div class="slide hidden flex flex-col items-center ">
+    {{-- Slide 18 --}}
+    <div class="slide hidden flex flex-col items-center">
         <img src="{{ asset('assets/images/K2/circuit/makey/m23.png') }}" class="img-xl" />
         <h2 class="title stroke">Do you realise that you turned a set of Makey Makey into a
             music maker with the help of the bongos application.</h2>
         <p class="note">Note: Have children think can Makey Makey be a music maker without the bongos application.</p>
     </div>
 
-
-
-    {{-- slide 19 --}}
-    <div class="slide hidden flex flex-col items-center  h-[28vw] justify-between">
-        <div class="flex items-center gap-[.5vw] ">
+    {{-- Slide 19 --}}
+    <div class="slide hidden flex flex-col items-center h-[28vw] justify-between">
+        <div class="flex items-center gap-[.5vw]">
             <img src="{{ asset('assets/images/K2/circuit/makey/m24.png') }}" class="img-sm" />
             <video id="video4" class="video-md pointer-events-none">
                 <source src="{{ asset('assets/images/K2/circuit/makey/322.mp4') }}" type="video/mp4">
@@ -276,12 +272,12 @@
         </p>
         <!-- Video Trigger Button -->
         <div onclick="toggleVideo('video4')" class="absolute top-1/2 right-[-10vw] z-[99] -translate-y-1/2 video-btn">
-            <img src="/assets/images/pptimages/video.png" />
+            <img src="{{ asset('assets/images/pptimages/video.png') }}" />
         </div>
     </div>
 
-    {{-- sldie 20 --}}
-    <div class="slide hidden flex flex-col items-center ">
+    {{-- Slide 20 --}}
+    <div class="slide hidden flex flex-col items-center">
         <img src="{{ asset('assets/images/K2/circuit/makey/m25.png') }}" class="img-xl" />
         <h2 class="title stroke">You can add conductors into this complete circuit to make
             Makey Makey a better, fun and interesting music maker.</h2>
@@ -289,18 +285,14 @@
             Then have them name the conductors in these 2 arrangements of Makey Makey.</p>
     </div>
 
-
-    {{-- sldie 21 --}}
-    <div class="slide hidden flex flex-col items-center ">
+    {{-- Slide 21 --}}
+    <div class="slide hidden flex flex-col items-center">
         <img src="{{ asset('assets/images/K2/circuit/makey/m25.png') }}" class="img-xl" />
         <h2 class="title stroke">By adding in conductors to the tapping points, you actually
             turned these conductors into keypads.</h2>
         <p class="note">Note: Have children name the keypads (buttons) in these 2 arrangements of Makey Makey.</p>
     </div>
 
-
-
-    {{-- ====================================== --}}
     {{-- Buttons --}}
     <div class="down-btn-container">
         <button class="doneButton">
@@ -308,7 +300,7 @@
         </button>
     </div>
 
-    <div id="buttons" class="absolute  flex flex-row ">
+    <div id="buttons" class="absolute flex flex-row">
         <!-- Return Button -->
         <button id="returnButton">
             <img src="{{ asset('assets/images/pptimages/return.png') }}" />
@@ -323,17 +315,15 @@
         <button id="closeButton">
             <img src="{{ asset('assets/images/pptimages/cancel.png') }}" />
         </button>
-
     </div>
 
-    {{-- next Button --}}
+    {{-- Next Button --}}
     <div class="down-btn-container">
-        <button class=" nextButton ">
+        <button class="nextButton">
             <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
         </button>
     </div>
 @endsection
-
 
 @push('script')
     <script>
