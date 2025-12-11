@@ -30,7 +30,7 @@
 @section('content')
 
     {{-- panel 1 --}}
-    <div class="phonics-panel">
+    <div class="phonics-panel"  data-audio="{{ asset('assets/audio/phonics_audio/SingAlong.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_a/sing-along.png') }}" class="w-[40vw]" />
     </div>
 
@@ -301,7 +301,6 @@
 @push('script')
     <script>
         // SLIDE NAVIGATION SYSTEM
-        // SLIDE NAVIGATION SYSTEM
         document.addEventListener("DOMContentLoaded", function() {
 
             // Get all elements
@@ -322,10 +321,10 @@
             let returnToSlide = null;
             let specialSlideClass = null;
 
-            //  Global audio tracking
+            // Global audio tracking
             let currentAudio = null;
 
-            //  Function to stop all audio/speech
+            // Function to stop all audio/speech
             function stopAllAudio() {
                 // Stop any playing audio files
                 if (currentAudio) {
@@ -402,7 +401,7 @@
                 const ajaxSection = document.getElementById('ajax-section');
                 const currentSlideElement = slides[slideIndex];
 
-                //  Stop all audio when changing slides
+                // Stop all audio when changing slides
                 stopAllAudio();
 
                 // Hide all slides, show only current one
@@ -431,6 +430,19 @@
                         ajaxSection.classList.remove('no-bg');
                     }
                 }
+
+                // 🔊 Auto-play audio ONLY for the first slide (slideIndex === 0)
+                if (slideIndex === 0) {
+                    const slideAudioSrc = currentSlideElement.getAttribute('data-audio');
+                    if (slideAudioSrc) {
+                        // Small delay to ensure slide is visible before playing
+                        setTimeout(() => {
+                            currentAudio = new Audio(slideAudioSrc);
+                            currentAudio.play().catch(err => console.log('Auto-play failed:', err));
+                        }, 300);
+                    }
+                }
+                // For all other slides, audio will only play on button click
             }
 
             // NAVIGATION FUNCTIONS
@@ -453,7 +465,7 @@
 
             function goBack() {
                 if (currentSlide === 0 && !isInSpecialMode) {
-                    stopAllAudio(); //  Stop audio before leaving
+                    stopAllAudio(); // Stop audio before leaving
                     window.location.href = returnURL;
                     return;
                 }
@@ -487,7 +499,7 @@
             }
 
             function handleDone() {
-                stopAllAudio(); //  Stop audio before action
+                stopAllAudio(); // Stop audio before action
                 if (isInSpecialMode && returnToSlide !== null) {
                     currentSlide = returnToSlide;
                     isInSpecialMode = false;
@@ -503,7 +515,7 @@
             infoButtons.forEach(button => {
                 button.addEventListener("click", function(e) {
                     e.preventDefault();
-                    stopAllAudio(); //  Stop audio when entering info mode
+                    stopAllAudio(); // Stop audio when entering info mode
                     returnToSlide = currentSlide;
                     isInSpecialMode = true;
                     specialSlideClass = getSlideTypeFromButton(button);
@@ -529,7 +541,7 @@
                 doneButton.addEventListener("click", handleDone);
             }
 
-            //  Home and Close buttons also stop audio
+            // Home and Close buttons also stop audio
             const homeButton = document.getElementById("homeButton");
             const closeButton = document.getElementById("closeButton");
 
@@ -548,7 +560,7 @@
                     // Stop any previous audio first
                     stopAllAudio();
 
-                    // 1️⃣ If data-audio is provided → play audio file
+                    // If data-audio is provided → play audio file
                     const audioSrc = btn.getAttribute("data-audio");
                     if (audioSrc) {
                         currentAudio = new Audio(audioSrc);
@@ -556,7 +568,7 @@
                         return;
                     }
 
-                    // 2️⃣ Otherwise fallback to speaking the letter
+                    // Otherwise fallback to speaking the letter
                     const letter = btn.getAttribute("data-letter") || "a";
                     speakLetter(letter);
                 });

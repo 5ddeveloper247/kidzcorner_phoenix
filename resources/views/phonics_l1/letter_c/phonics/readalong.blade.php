@@ -147,7 +147,7 @@
                                 <img src="{{ asset('assets/images/phonicsl1/letter_a/cat.png') }}" />
                             </a>
                             {{-- sound Button --}}
-                            <button class="w-[3vw]" id="soundButton" data-letter="castle">
+                            <button class="w-[3vw]" id="soundButton" data-letter="cat">
                                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                             </button>
                         </div>

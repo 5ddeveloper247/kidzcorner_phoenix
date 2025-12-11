@@ -22,35 +22,35 @@
     <div id="phonics-slide" class="flex flex-col hidden">
         <h2c class="text-[3vw] stroke text-[#F7B94A]">Phonics</h2>
             <div class="grid grid-cols-4 gap-[2vw]">
-                <a href="{{ url('/phonics/letter_c/phonics/magicletters') }}">
+                <a href="{{ url('/phonics/letter_d/phonics/magicletters') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn8.png') }}" />
                 </a>
 
-                <a href="{{ url('/phonics/letter_c/phonics/alphabets') }}">
+                <a href="{{ url('/phonics/letter_d/phonics/alphabets') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn1.png') }}" />
                 </a>
 
-                <a href="{{ url('/phonics/letter_c/phonics/songalong') }}">
+                <a href="{{ url('/phonics/letter_d/phonics/songalong') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn2.png') }}" />
                 </a>
 
-                <a href="{{ url('/phonics/letter_c/phonics/readalong') }}">
+                <a href="{{ url('/phonics/letter_d/phonics/readalong') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn3.png') }}" />
                 </a>
 
-                <a href="{{ url('/phonics/letter_c/phonics/storytime') }}">
+                <a href="{{ url('/phonics/letter_d/phonics/storytime') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn4.png') }}" />
                 </a>
 
-                <a href="{{ url('/phonics/letter_c/phonics/animated') }}">
+                <a href="{{ url('/phonics/letter_d/phonics/animated') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn5.png') }}" />
                 </a>
 
-                <a href="{{ url('/phonics/letter_c/phonics/teaching') }}">
+                <a href="{{ url('/phonics/letter_d/phonics/teaching') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn6.png') }}" />
                 </a>
 
-                <a href="{{ url('/phonics/letter_c/phonics/about') }}">
+                <a href="{{ url('/phonics/letter_d/phonics/about') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn7.png') }}" />
                 </a>
 
@@ -63,24 +63,24 @@
     <div id="words-slide" class="flex flex-col gap-y-[2vw]">
         <h2 class="text-[3vw] stroke text-[#F7B94A]">High frequency Words</h2>
         <div class="grid grid-cols-3 gap-[2vw]">
-            <a href="{{ url('phonics/letter_c/frequencywords/storytime') }}">
+            <a href="{{ url('phonics/letter_d/frequencywords/storytime') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn9.png') }}" class="w-[14vw]" />
             </a>
 
-            <a href="{{ url('phonics/letter_c/frequencywords/flashcards') }}">
+            <a href="{{ url('phonics/letter_d/frequencywords/flashcards') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn13.png') }}" class="w-[14vw]" />
             </a>
 
-            <a href="{{ url('phonics/letter_c/frequencywords/treasure_trail') }}">
-                <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn12.png') }}" class="w-[14vw]" />
+            <a href="{{ url('phonics/letter_d/frequencywords/wordsearch') }}">
+                <img src="{{ asset('assets/images/phonicsl1/letter_d/search.png') }}" class="w-[14vw]" />
             </a>
 
             <div class="col-span-3 flex justify-center items-center gap-[2vw]">
-                <a href="{{ url('phonics/letter_c/frequencywords/wordhunt') }}">
+                <a href="{{ url('phonics/letter_d/frequencywords/wordhunt') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn14.png') }}" class="w-[14vw]" />
                 </a>
 
-                <a href="{{ url('phonics/letter_c/frequencywords/about') }}">
+                <a href="{{ url('phonics/letter_d/frequencywords/about') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn7.png') }}" class="w-[14vw]" />
                 </a>
             </div>

@@ -30,7 +30,7 @@
 @section('content')
 
     {{-- panel 1 --}}
-    <div class="phonics-panel">
+    <div class="phonics-panel"  data-audio="{{ asset('assets/audio/phonics_audio/SingAlong.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_a/sing-along.png') }}" class="w-[40vw]" />
     </div>
 
@@ -72,12 +72,12 @@
     <div class="phonics-panel info-panel-2">
         <div class="flex flex-col items-center">
             <h4 class="text-white">(Tune: The Farmer in the Dell)</h4>
-            <img src="{{ asset('assets/images/phonicsl1/letter_c/cat.png') }}" class="w-[10vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_d/dog.png') }}" class="w-[10vw]" />
             <div class="text-center text-white text-[2.8vw]">
-                <h3>cat' begins with /c/.</h3>
-                <h3>'cat' begins with /c/.</h3>
-                <h3>'cat' begins with /c/ /c/ /c/.</h3>
-                <h3>'cat' begins with /c/.</h3>
+                <h3>dog' begins with /d/.</h3>
+                <h3>'dog' begins with /d/.</h3>
+                <h3>'dog' begins with /d/ /d/ /d/.</h3>
+                <h3>'dog' begins with /d/.</h3>
 
             </div>
         </div>
@@ -88,7 +88,7 @@
 
         {{-- sound Button --}}
         <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton"
-            data-audio="{{ asset('assets/audio/phonics_audio/letter-b/begins.mp3') }}">
+            data-audio="{{ asset('assets/audio/phonics_audio/letter-d/dog-begin.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -116,12 +116,12 @@
         <h2 class="top-title stroke">I’ve got the Letter ‘a’</h2>
         <div class="flex flex-col items-center">
             <h4 class="text-white">(Tune: I’ve got the Whole World in my Hand)</h4>
-            <img src="{{ asset('assets/images/phonicsl1/letter_c/cat.png') }}" class="w-[10vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_d/duck.png') }}" class="w-[10vw]" />
             <div class="text-center text-white text-[3vw]">
-                <h3>I've got the letter 'c' for cat.</h3>
-                <h3>I've got the letter 'c' for cat.</h3>
-                <h3>I've got the letter 'c' for cat.</h3>
-                <h3>'c' goes /c/ /c/ /c/.</h3>
+                <h3>I've got the letter 'd' for duck.</h3>
+                <h3>I've got the letter 'd' for duck.</h3>
+                <h3>I've got the letter 'd' for duck.</h3>
+                <h3>'d' goes /d/ /d/ /d/.</h3>
 
             </div>
         </div>
@@ -130,7 +130,7 @@
 
         {{-- sound Button --}}
         <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton"
-            data-audio="{{ asset('assets/audio/phonics_audio/letter-c/letter-c.mp3') }}">
+            data-audio="{{ asset('assets/audio/phonics_audio/letter-d/letter-d.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -141,12 +141,12 @@
         <h2 class="top-title stroke">This is the Way</h2>
         <div class="flex flex-col items-center">
             <h4 class="text-white">(Tune: Here We Go Round the Mulberry Bush)</h4>
-            <img src="{{ asset('assets/images/phonicsl1/letter_c/cake.png') }}" class="w-[10vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_d/doll.png') }}" class="h-[13vw] rotate-[10deg]" />
             <div class="text-center text-white text-[3vw]">
-                <h3>This is the way I cut a cake.</h3>
-                <h3>Cut a cake. Cut a cake.</h3>
-                <h3>This is the way I cut a cake.</h3>
-                <h3>Cake goes /c/ /c/ /c/ /c/ /c/.</h3>
+                <h3>This is the way I dress a doll.</h3>
+                <h3>Dress a doll. Cut a doll.</h3>
+                <h3>This is the way I dress a doll.</h3>
+                <h3>Dress goes /d/ /d/ /d/ /d/ /d/.</h3>
 
             </div>
         </div>
@@ -154,7 +154,7 @@
 
         {{-- sound Button --}}
         <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton"
-            data-audio="{{ asset('assets/audio/phonics_audio/letter-c/way-cake.mp3') }}">
+            data-audio="{{ asset('assets/audio/phonics_audio/letter-d/doll.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -164,11 +164,11 @@
         <h2 class="top-title stroke">The ... In ...</h2>
         <div class="flex flex-col items-center">
             <h4 class="text-white">(Tune: The Wheels On The Bus Go Round And Round)</h4>
-            <img src="{{ asset('assets/images/phonicsl1/letter_c/car.png') }}" class="w-[10vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_d/duck.png') }}" class="w-[10vw]" />
             <div class="text-center text-white text-[3vw]">
-                <h3>The 'c' in car goes /c/ /c/ /c/.</h3>
-                <h3>/c/ /c/ /c/ /c/ /c/ /c/</h3>
-                <h3>The 'c' in car goes /c/ /c/ /c/.</h3>
+                <h3>The 'd' in duck goes /d/ /d/ /d/.</h3>
+                <h3>/d/ /d/ /d/ /d/ /d/ /d/</h3>
+                <h3>The 'd' in duck goes /d/ /d/ /d/.</h3>
                 <h3>Over and over again.</h3>
 
             </div>
@@ -177,7 +177,7 @@
 
         {{-- sound Button --}}
         <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton"
-            data-audio="{{ asset('assets/audio/phonics_audio/letter-c/c-car.mp3') }}">
+            data-audio="{{ asset('assets/audio/phonics_audio/letter-d/duck-goes.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -188,25 +188,32 @@
         <h2 class="top-title stroke">One Little, Two Little</h2>
         <div class="flex flex-col items-center">
             <h4 class="text-white">(Tune: Ten Little Indian Boys)</h4>
-            <div class="flex w-full justify-between">
+            <div class="flex w-full items-end">
 
-                <img src="{{ asset('assets/images/phonicsl1/letter_c/birds.png') }}" class="w-[10vw]" />
-
-                <img src="{{ asset('assets/images/phonicsl1/letter_c/birds.png') }}" class="w-[10vw]" />
+                <img src="{{ asset('assets/images/phonicsl1/letter_d/duck.png') }}" class="h-[3vw]" />
+                <img src="{{ asset('assets/images/phonicsl1/letter_d/duck.png') }}" class="h-[4vw]" />
+                <img src="{{ asset('assets/images/phonicsl1/letter_d/duck.png') }}" class="h-[5vw]" />
+                <img src="{{ asset('assets/images/phonicsl1/letter_d/duck.png') }}" class="h-[6vw]" />
+                <img src="{{ asset('assets/images/phonicsl1/letter_d/duck.png') }}" class="h-[7vw]" />
+                <img src="{{ asset('assets/images/phonicsl1/letter_d/duck.png') }}" class="h-[8vw]" />
+                <img src="{{ asset('assets/images/phonicsl1/letter_d/duck.png') }}" class="h-[9vw]" />
+                <img src="{{ asset('assets/images/phonicsl1/letter_d/duck.png') }}" class="h-[10vw]" />
+                <img src="{{ asset('assets/images/phonicsl1/letter_d/duck.png') }}" class="h-[11vw]" />
+                <img src="{{ asset('assets/images/phonicsl1/letter_d/duck.png') }}" class="h-[12vw]" />
             </div>
         </div>
         <div class="text-center text-white text-[2.5vw]">
-            <h3>One little, two little, three little canaries.</h3>
-            <h3>Four little, five little, six little canaries.</h3>
-            <h3>Seven little, eight little, nine little canaries</h3>
-            <h3>Ten little canaries.</h3>
+            <h3>One little, two little, three little ducklings.</h3>
+            <h3>Four little, five little, six little ducklings.</h3>
+            <h3>Seven little, eight little, nine little ducklings</h3>
+            <h3>Ten little cute ducklings.</h3>
 
         </div>
         <p class="p-note">Tip: Music will be automatically played twice. Click on the sound icon to repeat music.</p>
 
         {{-- sound Button --}}
         <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton"
-            data-audio="{{ asset('assets/audio/phonics_audio/letter-c/ries.mp3') }}">
+            data-audio="{{ asset('assets/audio/phonics_audio/letter-d/ducklings.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -218,38 +225,38 @@
         <div class="flex flex-col items-center gap-y-[2vw]">
             <h4 class="text-white">(Tune: Bingo)</h4>
             <div>
-                <img src="{{ asset('assets/images/phonicsl1/letter_c/group.png') }}" class="w-[45vw]" />
+                <img src="{{ asset('assets/images/phonicsl1/letter_d/group.png') }}" class="w-[45vw]" />
             </div>
         </div>
         <p class="p-note">Tip: Music will be automatically played twice. Click on the sound icon to repeat music.</p>
 
         {{-- sound Button --}}
         <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton"
-            data-audio="{{ asset('assets/audio/phonics_audio/letter-c/castle.mp3') }}">
+            data-audio="{{ asset('assets/audio/phonics_audio/letter-d/duck.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
 
     {{-- Infpo Panel 8 --}}
     <div class="phonics-panel info-panel-8 flex flex-col h-full">
-        <h2 class="top-title stroke">I Like ...</h2>
+        <h2 class="top-title stroke text-">I Like ...</h2>
         <div class="flex flex-col items-center justify-between h-full">
-            <h4 class="text-white">(Tune: Bingo)</h4>
-            <div>
+            <h4 class="text-white text-[1vw]">(Tune: Bingo)</h4>
+            <div class="flex flex-col items-center">
                 <div class="text-center text-white text-[2.5vw]">
-                    <h3>I like cupcakes, yes I do.</h3>
-                    <h3>I like cupcakes, yes I do.</h3>
-                    <h3>I like cupcakes, yes I do.</h3>
-                    <h3>Do you like cupcakes too?</h3>
+                    <h3>I like donuts, yes I do.</h3>
+                    <h3>I like donuts, yes I do.</h3>
+                    <h3>I like donuts, yes I do.</h3>
+                    <h3>Do you like donuts too?</h3>
                 </div>
-                <img src="{{ asset('assets/images/phonicsl1/letter_c/cupcakes.png') }}" />
+                <img src="{{ asset('assets/images/phonicsl1/letter_d/donuts.png') }}" class="w-[14vw]" />
             </div>
             <p class="p-note">Tip: Music will be automatically played twice. Click on the sound icon to repeat music.</p>
         </div>
 
         {{-- sound Button --}}
         <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton"
-            data-audio="{{ asset('assets/audio/phonics_audio/letter-c/cupcakes.mp3') }}">
+            data-audio="{{ asset('assets/audio/phonics_audio/letter-d/donuts.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -304,8 +311,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_c') }}";
-            const doneURL = "{{ url('/phonics/letter_c') }}";
+            const returnURL = "{{ url('/phonics/letter_d') }}";
+            const doneURL = "{{ url('/phonics/letter_d') }}";
 
             // Track current position
             let currentSlide = 0;
@@ -313,10 +320,10 @@
             let returnToSlide = null;
             let specialSlideClass = null;
 
-            //  Global audio tracking
+            // Global audio tracking
             let currentAudio = null;
 
-            //  Function to stop all audio/speech
+            // Function to stop all audio/speech
             function stopAllAudio() {
                 // Stop any playing audio files
                 if (currentAudio) {
@@ -393,7 +400,7 @@
                 const ajaxSection = document.getElementById('ajax-section');
                 const currentSlideElement = slides[slideIndex];
 
-                //  Stop all audio when changing slides
+                // Stop all audio when changing slides
                 stopAllAudio();
 
                 // Hide all slides, show only current one
@@ -422,6 +429,19 @@
                         ajaxSection.classList.remove('no-bg');
                     }
                 }
+
+                // 🔊 Auto-play audio ONLY for the first slide (slideIndex === 0)
+                if (slideIndex === 0) {
+                    const slideAudioSrc = currentSlideElement.getAttribute('data-audio');
+                    if (slideAudioSrc) {
+                        // Small delay to ensure slide is visible before playing
+                        setTimeout(() => {
+                            currentAudio = new Audio(slideAudioSrc);
+                            currentAudio.play().catch(err => console.log('Auto-play failed:', err));
+                        }, 300);
+                    }
+                }
+                // For all other slides, audio will only play on button click
             }
 
             // NAVIGATION FUNCTIONS
@@ -444,7 +464,7 @@
 
             function goBack() {
                 if (currentSlide === 0 && !isInSpecialMode) {
-                    stopAllAudio(); //  Stop audio before leaving
+                    stopAllAudio(); // Stop audio before leaving
                     window.location.href = returnURL;
                     return;
                 }
@@ -478,7 +498,7 @@
             }
 
             function handleDone() {
-                stopAllAudio(); //  Stop audio before action
+                stopAllAudio(); // Stop audio before action
                 if (isInSpecialMode && returnToSlide !== null) {
                     currentSlide = returnToSlide;
                     isInSpecialMode = false;
@@ -494,7 +514,7 @@
             infoButtons.forEach(button => {
                 button.addEventListener("click", function(e) {
                     e.preventDefault();
-                    stopAllAudio(); //  Stop audio when entering info mode
+                    stopAllAudio(); // Stop audio when entering info mode
                     returnToSlide = currentSlide;
                     isInSpecialMode = true;
                     specialSlideClass = getSlideTypeFromButton(button);
@@ -520,7 +540,7 @@
                 doneButton.addEventListener("click", handleDone);
             }
 
-            //  Home and Close buttons also stop audio
+            // Home and Close buttons also stop audio
             const homeButton = document.getElementById("homeButton");
             const closeButton = document.getElementById("closeButton");
 
@@ -539,7 +559,7 @@
                     // Stop any previous audio first
                     stopAllAudio();
 
-                    // 1️⃣ If data-audio is provided → play audio file
+                    // If data-audio is provided → play audio file
                     const audioSrc = btn.getAttribute("data-audio");
                     if (audioSrc) {
                         currentAudio = new Audio(audioSrc);
@@ -547,7 +567,7 @@
                         return;
                     }
 
-                    // 2️⃣ Otherwise fallback to speaking the letter
+                    // Otherwise fallback to speaking the letter
                     const letter = btn.getAttribute("data-letter") || "a";
                     speakLetter(letter);
                 });
