@@ -108,7 +108,7 @@
                 <li>This is how it should look like after top is sealed with the cling wrap.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/K2/sustain/energy1/e13.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K2/sustain/energy1/e13.png') }}" class="!w-[35vw]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 

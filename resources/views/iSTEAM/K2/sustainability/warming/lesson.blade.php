@@ -33,7 +33,7 @@
 
     {{-- Slide 4 --}}
     <div class="slide hidden flex flex-col items-center">
-        <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s2.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s2.png') }}" class="!w-[30vw]" />
         <h2 class="title stroke text-center">Earth's climate has been changing.
             Earth is getting warmer.</h2>
         <p class="note">Note: Explain that climate means the weather over a longer period of time.</p>
@@ -41,7 +41,7 @@
 
     {{-- Slide 5 --}}
     <div class="slide hidden flex flex-col items-center">
-        <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s2.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s2.png') }}" class="!w-[30vw]" />
         <h2 class="title stroke text-center">This is known as global warming.
             Make a guess - What causes Earth's temperature to rise?</h2>
         <p class="note">Note: Encourage children to share their thoughts with the class.</p>
@@ -77,7 +77,7 @@
     </div>
 
     {{-- Slide 10 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-[15vw]">
+    <div class="slide hidden flex flex-col items-center justify-between h-[20vw] self-end">
         <h2 class="title stroke">How do these greenhouse gases affect
             Earth's temperature?</h2>
         <p class="note">Note: Encourage children to share their thoughts with the class.</p>
@@ -126,7 +126,7 @@
     </div>
 
     {{-- Slide 17 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-[15vw]">
+    <div class="slide hidden flex flex-col items-center justify-between h-[20vw] self-end">
         <h2 class="title stroke">Let's work on an experiment to observe what happens to the
             temperature when air is being trapped.</h2>
         <p class="note">Note: Remind children on safety rules when using the thermometer and the glass container.</p>
@@ -142,7 +142,7 @@
     </div>
 
     {{-- Slide 19 --}}
-    <div class="slide hidden flex flex-col items-center justify-start">
+    <div class="slide hidden flex flex-col items-center justify-between h-[30vw]">
         <div class="text-start">
             <h2 class="title stroke">Let's do:</h2>
             <ol class="lesson-ul list-decimal title stroke" start="1">
@@ -155,7 +155,7 @@
     </div>
 
     {{-- Slide 20 --}}
-    <div class="slide hidden flex flex-col items-center justify-start">
+    <div class="slide hidden flex flex-col items-center justify-between h-[30vw]">
         <div class="text-start">
             <h2 class="title stroke">Let's do:</h2>
             <ol class="lesson-ul list-decimal title stroke" start="2">
@@ -250,7 +250,7 @@
 
 
     {{-- Slide 29 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-[13vw]">
+    <div class="slide hidden flex flex-col items-center justify-between h-[20vw] self-end">
         <h2 class="title stroke">What do you think will happen when glaciers melt?</h2>
         <p class="note">Note: Encourage children to share their thoughts.</p>
     </div>
@@ -258,20 +258,20 @@
 
     {{-- Slide 30 --}}
     <div class="slide hidden flex flex-col items-center">
-        <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s19.png') }}" class="img-normal-md" />
+        <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s19.png') }}" class="!w-[30vw]" />
         <h2 class="title stroke text-center">Let's find out: <br>
             What happens when glaciers melt?</h2>
     </div>
 
     {{-- Slide 31 --}}
-    <div class="slide hidden flex flex-col items-center">
+    <div class="slide hidden flex flex-col items-center justify-between h-[30vw]">
         <div class="text-start">
             <h2 class="title stroke">Let's do:</h2>
             <ol class="lesson-ul list-decimal title stroke" start="1">
                 <li>Use clay or dough to form land on one side of a container.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s20.png') }}" class="img-normal-md" />
+        <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s20.png') }}" class="!w-[30vw]" />
         <p class="note">Note: Teacher may get children to work in small groups</p>
     </div>
 
@@ -289,7 +289,7 @@
     </div>
 
     {{-- Slide 33 --}}
-    <div class="slide hidden flex flex-col items-center">
+    <div class="slide hidden flex flex-col items-center justify-between h-[30vw]">
         <div class="text-start">
             <h2 class="title stroke">Let's do:</h2>
             <ol class="lesson-ul list-decimal title stroke" start="3">
@@ -341,14 +341,14 @@
     </div>
 
     {{-- Slide 38 --}}
-    <div class="slide hidden flex flex-col items-center justify-center">
+    <div class="slide hidden flex flex-col items-center justify-between h-[20vw] self-end">
         <h2 class="title stroke">What have you learned about global warming?</h2>
         <p class="note">Note: Encourage children to share.</p>
     </div>
 
     {{-- Slide 39 --}}
     <div class="slide hidden flex flex-col items-center">
-        <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s2.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s2.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke text-center">Global warming is the process of Earth getting warmer
             and the temperature increases.</h2>
         <p class="note">Note: Explain that climate means the weather over a longer period of time.</p>
@@ -365,10 +365,10 @@
     <div class="slide hidden flex flex-col items-center">
         <div class="flex gap-[1vw] items-center">
             <div class="flex flex-col gap-[.8vw]">
-                <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s18.png') }}" class="img-xs" />
-                <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s16.png') }}" class="img-xs" />
+                <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s18.png') }}" class="!w-[17vw]" />
+                <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s16.png') }}" class="!w-[17vw]" />
             </div>
-            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s23.png') }}" class="img-md" />
+            <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s23.png') }}" class="!w-[33vw]" />
         </div>
         <h2 class="title stroke text-center">With the increased temperature, it affects the land, animals
             and plants. When glaciers melt, we will be affected too.</h2>
@@ -379,7 +379,7 @@
         <h2 class="title stroke !text-white">Learning Journal</h2>
         <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center p-[20px] flex flex-col justify-center items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
-            <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f12.png') }}" />
+            <img src="{{ asset('assets/images/K2/livingthings/fingerprints/f12.png') }}" class="w-full" />
         </div>
     </div>
 

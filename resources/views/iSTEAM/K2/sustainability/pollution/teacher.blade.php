@@ -10,7 +10,7 @@
     <div class="t-slide flex !text-white flex-col justify-center text-start hidden">
         <div>
             <h2 class="t-title">Children will be able to:</h2>
-            <ol class="lesson-ul list-disc">
+            <ol class="list-disc">
                 <li>Understand the meaning of pollution</li>
                 <li>Understand the meaning of biodegradable and non-biodegradable materials</li>
                 <li>Learn and discover the harmful effects of pollution on earth</li>
@@ -73,7 +73,7 @@
         <div>
             <h2 class="t-title">Preparations For Class Activity 1:</h2>
 
-            <ol class="list-disc lesson-ul">
+            <ol class="list-disc ">
                 <li>Prepare a spoon to scoop the filter materials into each bottle during the activity. Ensure each
                     group has the same amount.</li>
                 <li>Please get the following materials required for the activity: activated charcoal powder, sand, small
@@ -91,7 +91,7 @@
     <div class="t-slide flex  !text-white flex-col items-center justify-center text-start hidden">
         <div>
             <h2 class="t-title">Preparations For Class Activity 1:</h2>
-            <ol class="list-disc lesson-ul">
+            <ol class="list-disc ">
                 <li>You can plan such that different groups have a different set of filter materials or place materials
                     in different order.</li>
                 <li>Teacher will need to set up 2 sets accordingly to the guideline below.</li>
@@ -113,7 +113,7 @@
         <div>
             <h2 class="t-title">Preparations For Class Activity 1:</h2>
 
-            <ol class="lesson-ul">
+            <ol class="">
                 <li>2. Scoop the filter materials and add them in layer by layer in this order:
                     <div class="mt-2">
                         <h3><span class="text-[#f7b94a]">Bottle 1:</span> Activated charcoal, sand, gravel and pebbles
@@ -124,7 +124,7 @@
         </div>
         <img src="{{ asset('assets/images/K2/sustain/pollution/p35.png') }}" class="img-xl" />
         <div class="text-start  mt-4">
-            <ol class="lesson-ul">
+            <ol class="">
                 <li>
                     <h3> <span class="text-[#f7b94a]"> Bottle 2 :</span> Do the same preparations with the coffee filter
                         paper. But you
@@ -140,7 +140,7 @@
     <div class="t-slide flex  !text-white flex-col items-center justify-center text-start hidden">
         <div>
             <h2 class="t-title">Preparations For Class Activity 1:</h2>
-            <ol class="lesson-ul">
+            <ol class="">
                 <li>3. Pour half the dirty mixture into the water filter.</li>
                 <li>4. It may take more than 30 minutes to one hour to have some liquid being filtered out.</li>
                 <img src="{{ asset('assets/images/K2/sustain/pollution/p36.png') }}" class="img-sm" />
@@ -155,7 +155,7 @@
     <div class="t-slide flex  !text-white flex-col items-center justify-center text-start hidden">
         <div class="text-start ">
             <h2 class="t-title">Preparations for Class Activity 2 :</h2>
-            <ol class="lesson-ul list-disc">
+            <ol class="list-disc">
                 <li>Two 500ml water bottles of the same type.</li>
                 <li> Prepare a piece of plastic cut out from the plastic bag.
                     Ensure same size as the toilet paper.</li>
@@ -176,7 +176,7 @@
     <div class="t-slide flex  !text-white flex-col items-center justify-center text-start hidden">
         <div class="text-start ">
             <h2 class="t-title">Useful information:</h2>
-            <ol class="lesson-ul px-[1.5vw]">
+            <ol class="px-[1.5vw]">
                 <li>Oil destroys the insulating ability of fur-bearing mammals, such as sea otters, and
                     the water repellency of a bird's feathers, thus exposing these creatures to the
                     harsh elements. Without the ability to repel water and insulate from the cold

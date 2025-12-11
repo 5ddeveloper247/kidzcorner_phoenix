@@ -122,7 +122,7 @@
     {{-- sldie 3 --}}
     <div class="t-slide flex  !text-white flex-col items-center justify-center  text-start">
         <h2 class="title stroke  text-center">Learning Centre Idea</h2>
-        <div>
+        <div class="space-y-[3vw]">
             <div>
                 <h2 class="title stroke !text-white">Let's Sort!</h2>
                 <h2 class="t-title">What and how to set up:</h2>

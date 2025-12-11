@@ -6,7 +6,7 @@
     <h2 class="top-title stroke">Pollution and its Effects</h2>
 
     {{-- Slide 2 --}}
-    <div class="slide flex flex-col hidden items-center justify-between h-[15vw]">
+    <div class="slide flex flex-col hidden items-center justify-between h-[20vw] self-end">
         <div class="title stroke">
             <h2>Children, what do you remember
                 what clean energy is?</h2>
@@ -134,7 +134,7 @@
     {{-- Slide 18 --}}
     <div class="slide hidden flex flex-col click1 items-center">
 
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p37.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p37.png') }}" class="!w-[32vw]" />
         <h2 class="title stroke">Oil spills are sticky.
             It sticks onto animal fur and the bird feathers.</h2>
     </div>
@@ -142,7 +142,7 @@
     {{-- Slide 19 --}}
     <div class="slide hidden flex flex-col click1 items-center">
 
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p37.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p37.png') }}" class="!w-[32vw]" />
         <h2 class="title stroke">When the fur or feathers are covered with oil, the animals
             and birds are unable to keep warm.</h2>
     </div>
@@ -150,7 +150,7 @@
     {{-- Slide 20 --}}
     <div class="slide hidden flex flex-col click1 items-center">
 
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p37.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p37.png') }}" class="!w-[32vw]" />
         <h2 class="title stroke">Animals and birds may die because they are
             unable to keep warm.</h2>
     </div>
@@ -342,7 +342,7 @@
     {{-- Slide 40 --}}
     <div class="slide hidden flex click2 flex-col !text-start items-center">
         <h2 class="title stroke">Guiding Questions:</h2>
-        <ol class="list-disc lesson-ul">
+        <ol class="list-disc lesson-ul stroke">
             <li>Do you think this material will help to remove the dirt?</li>
             <li>What should be done to remove the bigger pieces of rubbish?</li>
             <li>Look at the sizes of the filter materials. Are they the same? How can they be placed in order?</li>
@@ -352,7 +352,7 @@
     </div>
 
     {{-- Slide 41 --}}
-    <div class="slide hidden flex flex-col items-between h-[28vw]">
+    <div class="slide hidden flex flex-col items-center justify-between h-[30vw]">
         <div class="text-start title stroke">
             <h2>Let's do:</h2>
             <ol class="lesson-ul space-y-4 list-decimal" start="9">
@@ -384,7 +384,7 @@
     {{-- Slide 43 --}}
     <div class="slide hidden flex flex-col items-center">
 
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p16.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p16.png') }}" class="!w-[33vw]" />
         <h2 class="title stroke">Dirty water will need to go through many layers of
             filters to get clean.</h2>
     </div>
@@ -392,7 +392,7 @@
     {{-- Slide 44 --}}
     <div class="slide hidden flex flex-col items-center">
 
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p17.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p17.png') }}" class="!w-[33vw]" />
         <h2 class="title stroke">Bigger pieces of rubbish such as straws and food wrapper are
             trapped on the top layer filled with large pebbles.</h2>
     </div>
@@ -608,7 +608,7 @@
             </ol>
         </div>
 
-        <img src="{{ asset('assets/images/K2/sustain/pollution/p28.png') }}" class="img-sm" />
+        <img src="{{ asset('assets/images/K2/sustain/pollution/p28.png') }}" class="img-lg" />
         <p class="note">Note: Teacher can keep the bottles and get children to shake it daily. Observe the changes after
             one week. Get children to compare and observe if there are any changes for the plastic sheet.</p>
     </div>

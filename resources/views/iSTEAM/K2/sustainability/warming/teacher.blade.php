@@ -120,7 +120,7 @@
                     needle.</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s26.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s26.png') }}" class="!w-[35vw]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 

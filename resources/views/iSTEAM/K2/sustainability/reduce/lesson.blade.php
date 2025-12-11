@@ -6,7 +6,7 @@
     <h2 class="top-title stroke">Reduce & Reuse</h2>
 
     {{-- Slide 1 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-[30vh] mt-[4vw]">
+    <div class="slide hidden flex flex-col items-center justify-between h-[20vw] self-end">
         <h2 class="title stroke">Children, let’s recap on what we have learned about pollution.</h2>
         <p class="note">Note: Encourage children to share.</p>
     </div>
@@ -52,11 +52,7 @@
     <div class="slide hidden flex flex-col items-center justify-start">
         <img src="{{ asset('assets/images/K2/sustain/pollution/p20.png') }}" class="img-lg" />
         <h2 class="title stroke">Children, how did these rubbish end up in the sea?</h2>
-        <div class="text-start title stroke">
-            <ol class="lesson-ul">
-                <li>Note: Encourage children to guess.</li>
-            </ol>
-        </div>
+        <p class="note">Note: Encourage children to guess.</p>
     </div>
 
     {{-- Slide 8 --}}
@@ -162,7 +158,8 @@
     {{-- Slide 23 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
         <img src="{{ asset('assets/images/K2/sustain/reduce/r15.png') }}" class="img-lg" />
-        <h2 class="title stroke">We should ask for a smaller portion of food if we think the serving is too much. This helps
+        <h2 class="title stroke">We should ask for a smaller portion of food if we think the serving is too much. This
+            helps
             to reduce food waste.</h2>
     </div>
 

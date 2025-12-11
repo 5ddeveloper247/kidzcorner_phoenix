@@ -42,10 +42,10 @@
 
     {{-- Slide 5 --}}
     <div class="slide hidden flex flex-col items-center">
-        <div class="flex gap-2 items-center">
+        <div class="flex gap-[1vw] items-center">
             <div class="flex flex-col gap-[.8vw]">
-                <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s16.png') }}" class="img-xs" />
-                <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s18.png') }}" class="img-xs" />
+                <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s16.png') }}" class="!w-[18vw]" />
+                <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s18.png') }}" class="!w-[18vw]" />
             </div>
             <img src="{{ asset('assets/images/K2/sustain/Globalwarming/s23.png') }}" class="img-md" />
         </div>
@@ -123,7 +123,7 @@
     </div>
 
     {{-- Slide 15 --}}
-    <div class="slide hidden flex flex-col items-center justify-center">
+    <div class="slide hidden flex flex-col items-center justify-between h-[20vw] self-end">
         <h2 class="title stroke">Do you know what is the meaning of sustainable?</h2>
         <p class="note">Note: Encourage children to share their thoughts.</p>
     </div>
@@ -349,7 +349,7 @@
         <h2 class="title stroke !text-white">Learning Journal</h2>
         <div class="w-[55vw] h-[25vw] drawable bg-cover bg-center p-[20px] flex flex-col justify-center items-center"
             style="background-image: url('{{ asset('assets/images/pptimages/dark4.png') }}');">
-            <img src="{{ asset('assets/images/K2/sustain/sustainability/a14.png') }}" />
+            <img src="{{ asset('assets/images/K2/sustain/sustainability/a14.png') }}" class="w-full" />
         </div>
     </div>
 

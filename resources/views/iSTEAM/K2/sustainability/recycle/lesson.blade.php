@@ -56,14 +56,14 @@
     </div>
 
     {{-- Slide 8 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-[15vw]">
+    <div class="slide hidden flex flex-col items-center justify-between h-[20vw] self-end">
         <h2 class="title stroke">Do you know the process of recycling?</h2>
         <p class="note">Note: Encourage children to share their answers.</p>
     </div>
 
     {{-- Slide 9 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K2/sustain/reduce/s2a.png') }}" class="img-sm" />
+        <img src="{{ asset('assets/images/K2/sustain/reduce/s2a.png') }}" class="!w-[30vw]" />
         <h2 class="title stroke">Recyclable items such as bottles should be washed and cleaned
             before being discarded at the recycling bins.</h2>
         <p class="note">Note: Teacher can explain it is important to wash before throwing the bottles.
@@ -173,7 +173,7 @@
 
     {{-- Slide 21 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/K2/sustain/recycle/s10.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K2/sustain/recycle/s10.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke">Boxes, books, newspaper and toilet rolls are some examples
             made from recycled paper.</h2>
     </div>
@@ -181,7 +181,7 @@
     {{-- Slide 22 --}}
     <div class="slide hidden flex flex-col items-center justify-center">
         <h2 class="!text-white title stroke">Class Activity</h2>
-        <img src="{{ asset('assets/images/K2/sustain/recycle/s11.png') }}" class="img-sm" />
+        <img src="{{ asset('assets/images/K2/sustain/recycle/s11.png') }}" class="!w-[30vw]" />
         <h2 class="title stroke text-start">Let's find out: <br> How do we recycle paper?</h2>
     </div>
 

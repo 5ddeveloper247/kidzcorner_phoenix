@@ -74,8 +74,8 @@
             <ul class="list-disc">
                 <li>For bottle A, plant some seeds 2-3 weeks before the activity</li>
                 <div class="flex gap-2 items-center">
-                    <img src="{{ asset('assets/images/K2/sustain/sustainability/a16.png') }}" class="imgsm" />
-                    <img src="{{ asset('assets/images/K2/sustain/sustainability/a17.png') }}" class="imgsm" />
+                    <img src="{{ asset('assets/images/K2/sustain/sustainability/a16.png') }}" class="img-sm" />
+                    <img src="{{ asset('assets/images/K2/sustain/sustainability/a17.png') }}" class="img-sm" />
                 </div>
                 <li>For the example above, green beans and cat grass were planted about 1-2 weeks
                     before the experiment.

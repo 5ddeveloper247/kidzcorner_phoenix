@@ -97,7 +97,7 @@
                     system inside the water tank. Push up until you hear a click.</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/K2/sustain/self/s20.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K2/sustain/self/s20.png') }}" class="!w-[35vw]" />
         <img src="{{ asset('assets/images/pptimages/teacher1.png') }}" alt="Teacher" class="absolute teacher-img1" />
     </div>
 

@@ -6,13 +6,14 @@
     <div id="topDiv" class="flex flex-col gap-[1.3vw] ">
         <div class="indexTitle stroke">Pollution and its Effect</div>
         <h2 class=" !text-white stroke ">
-            Explore fingerprints; <br>
-            learn to make own set of fingerprints <br>
-            for analysis</h2>
+            Understand the meaning of pollution; understand the <br>
+            meaning of biodegradable and non-biodegradable materials; <br>
+            learn and discover the harmful effects of
+            pollution on earth</h2>
 
-            <button class="nextButton">
-                <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
-            </button>
+        <button class="nextButton">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
+        </button>
     </div>
 
 

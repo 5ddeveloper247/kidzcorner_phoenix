@@ -6,9 +6,8 @@
     <div id="topDiv" class="flex flex-col ">
         <div class="indexTitle  stroke">Reduce & Ruse</div>
         <h2 class=" !text-white stroke ">
-            Explore fingerprints; <br>
-            learn to make own set of fingerprints <br>
-            for analysis</h2>
+           Understand what can be done to help Earth; <br>
+learn about the different ways to reduce and reuse waste</h2>
 
 
         <button class="nextButton">

@@ -56,7 +56,7 @@
     </div>
 
     {{-- Slide 8 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-[15vw]">
+    <div class="slide hidden flex flex-col items-center justify-between h-[20vw] self-end">
         <h2 class="title stroke">Do you know what clean energy is?</h2>
         <p class="note">Note: Encourage children to share their thoughts.</p>
     </div>
@@ -96,7 +96,7 @@
     </div>
 
     {{-- Slide 14 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-[15vw]">
+    <div class="slide hidden flex flex-col items-center justify-between h-[20vw] self-end">
         <h2 class="title stroke">Children, what can the sun's heat be used for?</h2>
         <p class="note">Note: Encourage children to share their thoughts.</p>
     </div>
@@ -149,14 +149,14 @@
 
     {{-- Info Slide 2-3 --}}
     <div class="slide hidden flex flex-col info-slide2 items-center">
-        <img src="{{ asset('assets/images/K2/sustain/energy1/e13.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K2/sustain/energy1/e13.png') }}" class="!w-[32vw]" />
         <h2 class="title stroke text-center">The colour black absorbs heat. Putting a piece of black paper in the box helps
             to absorb heat from the sun.</h2>
     </div>
 
     {{-- Info Slide 2-4 --}}
     <div class="slide hidden flex flex-col info-slide2 items-center">
-        <img src="{{ asset('assets/images/K2/sustain/energy1/e13.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K2/sustain/energy1/e13.png') }}" class="!w-[32vw]" />
         <h2 class="title stroke text-center">The black paper absorbs heat into the box and helps to increase the temperature
             in the box.</h2>
     </div>
@@ -171,7 +171,7 @@
     {{-- Slide 17 --}}
     <div class="slide hidden flex flex-col items-center">
         <h2 class="title stroke !text-white">Class Activity 1</h2>
-        <img src="{{ asset('assets/images/K2/sustain/energy1/e0a.png') }}" class="img-sm" />
+        <img src="{{ asset('assets/images/K2/sustain/energy1/e0a.png') }}" class="!w-[25vw]" />
         <h2 class="title stroke text-start">Let's find out: <br> Create a solar oven and find out if the sun's heat can
             cook
             food.</h2>
@@ -251,7 +251,7 @@
     {{-- Slide 25 --}}
     <div class="slide hidden flex flex-col items-center">
         <h2 class="title stroke">Class Activity 2</h2>
-        <img src="{{ asset('assets/images/K2/sustain/energy1/e7.png') }}" class="img-sm" />
+        <img src="{{ asset('assets/images/K2/sustain/energy1/e7.png') }}" class="!w-[30vw]" />
         <h2 class="title stroke text-center">Let's find out: How does a solar-powered light work?</h2>
     </div>
 
@@ -269,7 +269,7 @@
                     panel</p>
                 <img src="{{ asset('assets/images/K2/sustain/energy1/e8.png') }}" class="img-xs" />
             </div>
-            <img src="{{ asset('assets/images/K2/sustain/energy1/e9.png') }}" class="img-md" />
+            <img src="{{ asset('assets/images/K2/sustain/energy1/e9.png') }}" class="!w-[25vw]" />
         </div>
     </div>
 
@@ -347,7 +347,7 @@
 
     {{-- Slide 35 --}}
     <div class="slide hidden flex flex-col items-center">
-        <h2 class="note">Learning Journal</h2>
+        <h2 class="title stroke !text-white">Learning Journal</h2>
         <img src="{{ asset('assets/images/K2/sustain/energy1/e5.png') }}" class="img-lg" />
     </div>
 

@@ -6,14 +6,13 @@
     <div id="topDiv" class="flex flex-col  gap-[1.5vw] ">
         <div class="indexTitle stroke">What is Sustainability?</div>
         <h2 class=" !text-white stroke ">
-            Explore fingerprints; <br>
-            learn to make own set of fingerprints <br>
-            for analysis</h2>
+            Understand the meaning of sustainability; <br>
+            learn how sustainability can save Earth</h2>
 
         {{-- next Button --}}
-            <button class="nextButton">
-                <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
-            </button>
+        <button class="nextButton">
+            <img src="{{ asset('assets/images/pptimages/next-btn.png') }}" />
+        </button>
     </div>
 
 

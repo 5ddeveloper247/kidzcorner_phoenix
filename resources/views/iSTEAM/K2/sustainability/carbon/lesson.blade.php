@@ -9,7 +9,7 @@
         Food</h2>
 
     {{-- Slide 1 --}}
-    <div class="slide flex flex-col items-center justify-between h-[16vw]">
+    <div class="slide flex flex-col items-center justify-between h-[20vw] self-end">
         <div class="title stroke ">
             <h2>Children, what is global warming?
                 Why are we concerned about global warming?
@@ -71,7 +71,7 @@
     </div>
 
     {{-- Slide 9 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-[28vw]">
+    <div class="slide hidden flex flex-col items-center justify-between h-[30vw]">
         <h2 class="title stroke">Let's watch a video to help us understand more about
             ""carbon footprint".</h2>
         <a href="https://www.youtube.com/watch?v=8q7_aV8eLUE"
@@ -82,14 +82,14 @@
 
     {{-- Slide 10 --}}
     <div class="slide hidden flex flex-col items-center">
-        <img src="{{ asset('assets/images/K2/sustain/carbon/c2.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K2/sustain/carbon/c2.png') }}" class="!w-[30vw]" />
         <h2 class="title stroke text-center">In short, carbon footprint is an idea created to measure how
             much carbon dioxide a person, event, organization, service,
             place or product emitted to the atmosphere..</h2>
     </div>
 
     {{-- Slide 11 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-[28vw]">
+    <div class="slide hidden flex flex-col items-center justify-between h-[30vw]">
         <h2 class="title stroke">Let's see how a person's carbon footprint is calculated at the
             following website!</h2>
         <a href="https://mycarbonfootprint.spgroup.com.sg/" class="text-[#f7b94a] !text-[2vw] stroke">https://mycarbonfootprint.spgroup.com.sg/
@@ -100,7 +100,7 @@
     </div>
 
     {{-- Slide 12 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-[28vw]">
+    <div class="slide hidden flex flex-col items-center justify-between h-[30vw]">
         <h2 class="!text-white stroke">Class Activity 1 </h2>
         <div class="text-start title stroke">
             <h2 class="title stroke text-start">Let's do:
@@ -131,7 +131,7 @@
     </div>
 
     {{-- Slide 15 --}}
-    <div class="slide hidden flex flex-col items-center">
+    <div class="slide hidden flex flex-col items-center justify-between h-[20vw] self-end">
         <h2 class="title stroke text-center">As a suggestion, you can reduce your carbon footprint by <br>
             <span class="!text-white !text-[3vw]"> energy and natural resources </span> <br>
 
@@ -145,8 +145,8 @@
     {{-- Slide 16 --}}
     <div class="slide hidden flex flex-col items-center">
         <div class="flex gap-[1vw] items-center">
-            <img src="{{ asset('assets/images/K2/sustain/carbon/c4a.png') }}" class="img-h-sm" />
-            <img src="{{ asset('assets/images/K2/sustain/carbon/c4b.png') }}" class="img-h-sm" />
+            <img src="{{ asset('assets/images/K2/sustain/carbon/c4a.png') }}" class="!w-[16vw]" />
+            <img src="{{ asset('assets/images/K2/sustain/carbon/c4b.png') }}" class="!w-[16vw]" />
         </div>
         <h2 class="title stroke text-center">Turn off lights and electronics when you are not using them to
             save electricity and thus reduce your carbon footprint.</h2>
@@ -154,7 +154,7 @@
 
     {{-- Slide 17 --}}
     <div class="slide hidden flex flex-col items-center">
-        <img src="{{ asset('assets/images/K2/sustain/carbon/c6.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K2/sustain/carbon/c6.png') }}" class="!w-[30vw]" />
         <h2 class="title stroke text-center">Turn off the faucet while brushing your teeth or washing
             dishes to save water and thus reduce your carbon footprint.</h2>
     </div>
@@ -202,7 +202,7 @@
     </div>
 
     {{-- Slide 23 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-[16vw]">
+    <div class="slide hidden flex flex-col items-center justify-between h-[20vw] self-end">
         <h2 class="title stroke text-center">You can reduce your carbon footprint by
             <span class="!text-white !text-[3vw]">being a responsible consumer </span> too.
         </h2>
@@ -268,7 +268,7 @@
 
     {{-- Slide 31 --}}
     <div class="slide hidden flex flex-col items-center">
-        <img src="{{ asset('assets/images/K2/sustain/carbon/c18.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K2/sustain/carbon/c18.png') }}" class="!w-[32vw]" />
         <h2 class="title stroke text-center">So in the years to come, people must look for alternative ways
             to grow and produce food.</h2>
         <p class="note">Note: Guide children to view and understand this video <br> <span class="text-[#F7B94A]">
@@ -290,7 +290,7 @@
     </div>
 
     {{-- Slide 34 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-[28vw]">
+    <div class="slide hidden flex flex-col items-center justify-between h-[30vw]">
         <h2 class="!text-white stroke">Class Activity 2</h2>
         <div class="text-start title stroke">
             <h2>Let's do:</h2>
@@ -340,7 +340,7 @@
     </div>
 
     {{-- Slide 38 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-[28vw]">
+    <div class="slide hidden flex flex-col items-center justify-between h-[30vw]">
         <div class="text-start title stroke">
             <h2 class="title stroke text-start">Steps:</h2>
             <ol class="lesson-ul list-decimal" start="4">
@@ -352,7 +352,7 @@
     </div>
 
     {{-- Slide 39 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-[28vw]">
+    <div class="slide hidden flex flex-col items-center justify-between h-[30vw]">
         <div class="text-start title stroke">
             <h2 class="title stroke text-start">Steps:</h2>
             <ol class="lesson-ul list-decimal" start="6">
@@ -367,7 +367,7 @@
     </div>
 
     {{-- Slide 40 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-[28vw]">
+    <div class="slide hidden flex flex-col items-center justify-between h-[30vw]">
         <div class="text-start title stroke">
             <h2 class="title stroke text-start">Steps:</h2>
             <ol class="lesson-ul list-decimal" start="9">
@@ -396,7 +396,7 @@
 
     {{-- Slide 43 --}}
     <div class="slide hidden flex flex-col items-center">
-        <img src="{{ asset('assets/images/K2/sustain/carbon/c24.png') }}" class="img-sm" />
+        <img src="{{ asset('assets/images/K2/sustain/carbon/c24.png') }}" class="!w-[35vw]" />
         <h2 class="title stroke text-center">Anyway, the food of the future will be sustainable (produced
             with a smaller carbon footprint), healthier (nutritious, avoid
             food intolerances and allergies) and in sufficient quantities

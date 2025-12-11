@@ -6,16 +6,16 @@
 
 
 @section('content')
-    <div class="Selection flex items-center flex-col justify-center text-center z-[999]  max-w-[1000px]  m-auto">
+    <div class="Selection flex items-center flex-col justify-center text-center z-[999] w-full">
         <h2 class="text-[#F7B94A] stroke"> Pollution and its Effects</h2>
-        <div class="flex items-center justify-between gap-[10vw]">
+        <div class="flex items-center justify-around w-full">
             {{-- Lesson Button --}}
-            <a href="{{ route('pollutionLesson') }}" id="Lesson" class="flex flex-col gap-0">
+            <a href="{{ route('pollutionLesson') }}" id="Lesson">
                 <img src="/assets/images/pptimages/lesson-btn.png" />
             </a>
 
             {{-- Teacher Button --}}
-            <a href="{{ route('pollutionTeacher') }}" id="Lesson" class="flex flex-col gap-0">
+            <a href="{{ route('pollutionTeacher') }}" id="Lesson">
                 <img src="/assets/images/pptimages/teacher-btn.png" />
             </a>
         </div>

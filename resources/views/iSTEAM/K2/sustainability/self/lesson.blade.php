@@ -30,7 +30,7 @@
 
     {{-- Slide 4 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
-        <img src="{{ asset('assets/images/K2/sustain/reduce/s2a.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K2/sustain/reduce/s2a.png') }}" class="!w-[30vw]" />
         <h2 class="title stroke text-center">Recycling creates new things from old items. When we recycle, factories do not
             need to take resources from Earth to create the new things we need.</h2>
     </div>
@@ -62,7 +62,7 @@
     </div>
 
     {{-- Slide 9 --}}
-    <div class="slide hidden flex flex-col items-center justify-between h-[15vw]">
+    <div class="slide hidden flex flex-col items-center justify-between h-[20vw] self-end">
         <div class="self-start text-start">
             <h2 class="title stroke">What can be done to reduce greenhouse gases?</h2>
         </div>
@@ -255,7 +255,7 @@
 
     {{-- Slide 33 --}}
     <div class="slide hidden flex flex-col items-center justify-start">
-        <img src="{{ asset('assets/images/K2/sustain/reduce/r8.png') }}" class="img-md" />
+        <img src="{{ asset('assets/images/K2/sustain/reduce/r8.png') }}" class="!w-[32vw]" />
         <h2 class="title stroke">There's only one Earth.<br>Let's do our part in protecting our Earth together!</h2>
     </div>
 

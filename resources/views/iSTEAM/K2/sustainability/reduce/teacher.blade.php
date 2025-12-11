@@ -7,7 +7,7 @@
 
 
     {{-- sldie 1  --}}
-    <div class="flex t-slide !text-white flex-col justify-center text-start">
+    <div class="flex t-slide !text-white flex-col justify-around text-start">
         <div>
             <h2 class=" t-title">Children will be able to:</h2>
             <ul class="list-disc ">
@@ -109,7 +109,7 @@
     {{-- sldie 3 --}}
     <div class="flex t-slide !text-white flex-col items-center justify-center">
         <h2 class="title stroke text-center">Learning Centre Idea</h2>
-        <div class="text-start">
+        <div class="text-start space-y-[3vw]">
             <div>
                 <h2 class="text-[2vw] stroke !text-white">Create A Poster</h2>
                 <h2 class="t-title">What and how to set up:</h2>
@@ -117,7 +117,7 @@
             </div>
             <div>
                 <h2 class="t-title"> What to do:</h2>
-                <ol class="lesson-ul list-decimal">
+                <ol class="list-decimal">
                     <li>Encourage children to think of a message they want to tell others.</li>
                     <li>Prompt children to think of what they see in school e.g. to reduce wastage of paper, remind friends
                         to
