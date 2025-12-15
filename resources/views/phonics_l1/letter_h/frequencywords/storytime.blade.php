@@ -61,52 +61,47 @@
 
     {{-- Panel 2 --}}
     <div class="phonics-panel flex flex-col h-full items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-g/gift1.m4a') }}">
-        <h1 class="text-white text-[3vw]"> A <span class="text-[#f7b94a]">G</span>ift for a<span
-                class="text-[#f7b94a]">G</span>irl</h1>
-        <img src="{{ asset('assets/images/phonicsl1/letter_g/gifting.png') }}" class="w-[25vw]" />
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-h/story1.m4a') }}">
+        <h1 class="text-white text-[3vw]"><span class="text-[#f7b94a]">H</span>arry the <span
+                class="text-[#f7b94a]">H</span>orse</h1>
+        <img src="{{ asset('assets/images/phonicsl1/letter_h/stand.png') }}" class="w-[25vw]" />
     </div>
 
 
     {{-- Panel 3 --}}
     <div class="phonics-panel relative flex flex-col h-full gap-[2vw] items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-g/gift2.m4a') }}">
-        <img src="{{ asset('assets/images/phonicsl1/letter_g/happy.png') }}" class="w-[25vw]" />
-        <h1 class="text-white text-[3vw]"><span class="text-[#f7b94a]">G</span>us has a <span
-                class="text-[#f7b94a]">g</span>ift to <span class="text-[#f7b94a]">g</span>ive to his <span
-                class="text-[#f7b94a]">g</span>irl friend.</h1>
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-h/story2.m4a') }}">
+        <img src="{{ asset('assets/images/phonicsl1/letter_h/happy.gif') }}" class="w-[25vw]" />
+        <h1 class="text-white text-[3vw]"><span class="text-[#f7b94a]">H</span>arry is a <span
+                class="text-[#f7b94a]">h</span>appy <span class="text-[#f7b94a]">h</span>orse.</h1>
     </div>
 
 
     {{-- Panel 4 --}}
     <div class="phonics-panel relative flex flex-col h-full justify-between items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-g/gift3.m4a') }}">
-        <img src="{{ asset('assets/images/phonicsl1/letter_g/open.png') }}" class="w-[25vw]" />
-
-        <h1 class="text-white text-[2.5vw]"><span class="text-[#f7b94a]">G</span>ail looks at the <span
-                class="text-[#f7b94a]">G</span>ift.</h1>
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-h/story3.m4a') }}">
+        <img src="{{ asset('assets/images/phonicsl1/letter_h/eating.png') }}" class="w-[30vw]" />
+        <h1 class="text-white text-[2.5vw]">He likes <span class="text-[#f7b94a]">h</span>oney on his <span
+                class="text-[#f7b94a]">h</span>ay.</h1>
     </div>
 
 
     {{-- Panel 5 --}}
-    <div class="phonics-panel relative flex flex-col h-full items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-g/gift4.m4a') }}">
-        <img src="{{ asset('assets/images/phonicsl1/letter_g/happy-girl.png') }}" class="w-[25vw]" />
-        <h1 class="text-white text-[2.5vw]">She <span class="text-[#f7b94a]">g</span>iggles and <span
-                class="text-[#f7b94a]">g</span>iggles.</h1>
+    <div class="phonics-panel relative flex flex-col h-full items-center justify-between"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-h/story4.m4a') }}">
+        <img src="{{ asset('assets/images/phonicsl1/letter_h/eating.gif') }}" class="w-[25vw]" />
+        <h1 class="text-white text-[2.5vw]"><span class="text-[#f7b94a]">H</span>arry is <span
+                class="text-[#f7b94a]">h</span>ungry. He eats too much.</h1>
     </div>
 
 
     {{-- Panel 6 --}}
     <div class="phonics-panel relative flex flex-col"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-g/gift5.m4a') }}">
-        <div class="flex flex-col items-center">
-            <img src="{{ asset('assets/images/phonicsl1/letter_g/gift.gif') }}" class="w-[30vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_g/empty.png') }}" class="w-[20vw]" />
-        </div>
-        <h1 class="text-white text-[2.5vw]">Is it a <span class="text-[#f7b94a]">g</span>oose? or is it a <span
-                class="text-[#f7b94a]">g</span>oat?</h1>
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-h/story5.m4a') }}">
+        <img src="{{ asset('assets/images/phonicsl1/letter_h/sleepy.gif') }}" class="w-[30vw]" />
+        <h1 class="text-white text-[2.5vw]">Now he is not <span class="text-[#f7b94a]">h</span>appy.</h1>
     </div>
+
 
 
 
@@ -156,8 +151,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_g') }}";
-            const doneURL = "{{ url('/phonics/letter_g') }}";
+            const returnURL = "{{ url('/phonics/letter_h') }}";
+            const doneURL = "{{ url('/phonics/letter_h') }}";
 
             // Track current position
             let currentSlide = 0;

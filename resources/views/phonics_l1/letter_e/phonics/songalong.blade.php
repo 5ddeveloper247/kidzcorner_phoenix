@@ -166,7 +166,7 @@
             <img src="{{ asset('assets/images/phonicsl1/letter_e/hen.png') }}" class="w-[10vw]" />
             <div class="text-center text-white text-[3vw]">
                 <h3>The 'e' in hen goes /e/ /e/ /e/.</h3>
-                <h3>/e/ /e/ /e/         /e/ /e/ /e/</h3>
+                <h3>/e/ /e/ /e/ /e/ /e/ /e/</h3>
                 <h3>The 'e' in hen goes /e/ /e/ /e/.</h3>
                 <h3>Over and over again.</h3>
 
@@ -387,65 +387,65 @@
 
             // DISPLAY FUNCTIONS
             function showSlide(slideIndex) {
-    const ajaxSection = document.getElementById('ajax-section');
-    const currentSlideElement = slides[slideIndex];
+                const ajaxSection = document.getElementById('ajax-section');
+                const currentSlideElement = slides[slideIndex];
 
-    // Stop all audio when changing slides
-    stopAllAudio();
+                // Stop all audio when changing slides
+                stopAllAudio();
 
-    // Hide all slides, show only current one
-    slides.forEach((slide, index) => {
-        if (index === slideIndex) {
-            slide.classList.remove("hidden");
-        } else {
-            slide.classList.add("hidden");
-        }
-    });
+                // Hide all slides, show only current one
+                slides.forEach((slide, index) => {
+                    if (index === slideIndex) {
+                        slide.classList.remove("hidden");
+                    } else {
+                        slide.classList.add("hidden");
+                    }
+                });
 
-    // Show "Done" button on last slide, otherwise show "Next"
-    if (isLastSlide(slideIndex)) {
-        nextButtons.forEach(btn => btn.classList.add("hidden"));
-        if (doneButton) doneButton.classList.remove("hidden");
-    } else {
-        nextButtons.forEach(btn => btn.classList.remove("hidden"));
-        if (doneButton) doneButton.classList.add("hidden");
-    }
+                // Show "Done" button on last slide, otherwise show "Next"
+                if (isLastSlide(slideIndex)) {
+                    nextButtons.forEach(btn => btn.classList.add("hidden"));
+                    if (doneButton) doneButton.classList.remove("hidden");
+                } else {
+                    nextButtons.forEach(btn => btn.classList.remove("hidden"));
+                    if (doneButton) doneButton.classList.add("hidden");
+                }
 
-    // Toggle ajax-section background ONLY based on no-bg class
-    if (ajaxSection) {
-        if (currentSlideElement.classList.contains('no-bg')) {
-            ajaxSection.classList.add('no-bg');
-        } else {
-            ajaxSection.classList.remove('no-bg');
-        }
-    }
+                // Toggle ajax-section background ONLY based on no-bg class
+                if (ajaxSection) {
+                    if (currentSlideElement.classList.contains('no-bg')) {
+                        ajaxSection.classList.add('no-bg');
+                    } else {
+                        ajaxSection.classList.remove('no-bg');
+                    }
+                }
 
-    // ✨ NEW: Auto-play audio for info-panel-1
-    if (currentSlideElement.classList.contains('info-panel-1')) {
-        const soundButton = currentSlideElement.querySelector('#soundButton');
-        if (soundButton) {
-            const audioSrc = soundButton.getAttribute('data-audio');
-            if (audioSrc) {
-                // Small delay to ensure smooth transition
-                setTimeout(() => {
-                    currentAudio = new Audio(audioSrc);
-                    
-                    // Play twice as mentioned in the tip
-                    let playCount = 0;
-                    currentAudio.play();
-                    
-                    currentAudio.onended = function() {
-                        playCount++;
-                        if (playCount < 2) {
-                            currentAudio.currentTime = 0;
-                            currentAudio.play();
+                // ✨ NEW: Auto-play audio for info-panel-1
+                if (currentSlideElement.classList.contains('info-panel-1')) {
+                    const soundButton = currentSlideElement.querySelector('#soundButton');
+                    if (soundButton) {
+                        const audioSrc = soundButton.getAttribute('data-audio');
+                        if (audioSrc) {
+                            // Small delay to ensure smooth transition
+                            setTimeout(() => {
+                                currentAudio = new Audio(audioSrc);
+
+                                // Play twice as mentioned in the tip
+                                let playCount = 0;
+                                currentAudio.play();
+
+                                currentAudio.onended = function() {
+                                    playCount++;
+                                    if (playCount < 2) {
+                                        currentAudio.currentTime = 0;
+                                        currentAudio.play();
+                                    }
+                                };
+                            }, 300);
                         }
-                    };
-                }, 300);
+                    }
+                }
             }
-        }
-    }
-}
 
             // NAVIGATION FUNCTIONS
             function goNext() {

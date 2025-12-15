@@ -83,16 +83,16 @@
 
 
     {{-- Panel 2 --}}
-    <div class="phonics-panel flex flex-col justify-between h-full">
+    <div class="phonics-panel flex flex-col justify-between h-[80%] self-end">
         <div class="flex flex-col items-center justify-center gap-[2vw]">
-            <img src="{{ asset('assets/images/phonicsl1/letter_g/g-goose.png') }}" class="w-[25vw]" />
-            <h1 class="text-[2vw] text-[#f7b94a]">Gail gives a goose to Gus!</h1>
+            <img src="{{ asset('assets/images/phonicsl1/letter_h/h-horse.png') }}" class="w-[25vw]" />
+            <h1 class="text-[2vw] text-[#f7b94a]">He hides the hay from the horse.</h1>
         </div>
         <p class="p-note">Tip: Music will be automatically played twice. Click on the sound icon to repeat music.</p>
 
         {{-- sound Button --}}
         <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton"
-            data-audio="{{ asset('assets/audio/phonics_audio/letter-f/fish-fox.m4a') }}">
+            data-audio="{{ asset('assets/audio/phonics_audio/letter-h/horse.m4a') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -105,7 +105,7 @@
                     <img src="{{ asset('assets/images/phonicsl1/global/blank.png') }}" class="w-[18vw]" />
                     <h2 class="text-[1.2vw] !text-[#B76E33] absolute top-[2vw] right-[2vw]">Help me complete <br> the
                         sentence
-                        with <br> a word beginning <br> with ‘g’.</h2>
+                        with <br> a word beginning <br> with ‘h’.</h2>
                 </div>
                 <img src="{{ asset('assets/images/phonicsl1/global/teacher.png') }}" class="h-[20vw]" />
             </div>
@@ -128,11 +128,11 @@
                         {{-- falsde --}}
                         <div class="flex items-start mb-[1vw]">
 
-                            <a class="w-[6vw] hover:brightness-110 " id="false">
-                                <img src="{{ asset('assets/images/phonicsl1/letter_e/egg.png') }}" />
+                            <a class="w-[6vw] hover:brightness-110 " id="true">
+                                <img src="{{ asset('assets/images/phonicsl1/letter_h/horse.png') }}" />
                             </a>
                             {{-- sound Button --}}
-                            <button class="w-[3vw]" id="soundButton" data-letter="egg">
+                            <button class="w-[3vw]" id="soundButton" data-letter="horse">
                                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                             </button>
                         </div>
@@ -141,11 +141,11 @@
                         <div class="col-span-2 flex justify-center ">
                             <div class="flex items-start gap-x-[1vw]">
                                 <a class="hover:brightness-110" id="true">
-                                    <img src="{{ asset('assets/images/phonicsl1/letter_g/duck.png') }}"
+                                    <img src="{{ asset('assets/images/phonicsl1/letter_d/duck.png') }}"
                                         class="h-[6vw] " />
                                 </a>
                                 {{-- sound Button --}}
-                                <button class="w-[3vw]" id="soundButton" data-letter="goose">
+                                <button class="w-[3vw]" id="soundButton" data-letter="duck">
                                     <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                                 </button>
                             </div>
@@ -241,8 +241,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_g') }}";
-            const doneURL = "{{ url('/phonics/letter_g') }}";
+            const returnURL = "{{ url('/phonics/letter_h') }}";
+            const doneURL = "{{ url('/phonics/letter_h') }}";
 
             // Track current position
             let currentSlide = 0;
@@ -598,7 +598,7 @@
                 // Stop the sound if still playing
                 wellDoneSound.pause();
                 wellDoneSound.currentTime = 0;
-                window.location.href = '{{ url('/phonics/letter_g') }}';
+                window.location.href = '{{ url('/phonics/letter_h') }}';
             });
 
             // Optional: Sound button functionality
