@@ -190,7 +190,7 @@
         <p class="p-note">Tip: Click on the sound icon to listen to the letter sound. Then ask <br>
             children to select the correct letter that makes the sound.</p>
         {{-- sound Button --}}
-        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton" data-letter="a">
+        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton" data-letter="g">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
