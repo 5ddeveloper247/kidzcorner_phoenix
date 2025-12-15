@@ -56,7 +56,7 @@
     {{-- Info Panel 1 --}}
     <div class="phonics-panel info-panel-1">
         <div class="flex items-center justify-center">
-            <img src="{{ asset('assets/images/phonicsl1/letter_a/abc.png') }}" class="h-[25vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_a/abc.gif') }}" class="h-[33vw]" />
         </div>
         <p class="p-note">Tip: Music will be automatically played twice. Click on the sound icon to repeat music.</p>
 
