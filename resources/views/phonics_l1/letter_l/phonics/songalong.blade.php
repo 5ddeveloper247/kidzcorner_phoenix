@@ -72,19 +72,13 @@
     <div class="phonics-panel info-panel-2 space-y-[2vw]">
         <div class="flex flex-col items-center">
             <h4 class="text-white">(Tune: The Farmer in the Dell)</h4>
-            <img src="{{ asset('assets/images/phonicsl1/letter_k/kite.png') }}" class="h-[10vw] " />
-            <div class="text-center text-white text-[2.8vw]">
-                <h3>kite' begins with /k/.</h3>
-                <h3>'kite' begins with /k/.</h3>
-                <h3>'kite' begins with /k/ /k/ /k/.</h3>
-                <h3>'kite' begins with /k/.</h3>
+            <img src="{{ asset('assets/images/phonicsl1/letter_l/legs.png') }}" class="w-[40vw] " />
 
-            </div>
         </div>
 
         <p class="p-note">Tip: Music will be automatically played twice. Click on the sound icon to repeat music. <br>
             Use the <a href="" class="c-btn info-btn9">Rebus Song Chart</a> to substitute with other words beginning
-            with the /k/ sound.</p>
+            with the /l/ sound.</p>
 
         {{-- sound Button --}}
         <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton"
@@ -114,14 +108,14 @@
     {{-- Infpo Panel 3 --}}
     <div class="phonics-panel info-panel-3 flex flex-col items-center">
         <h2 class="top-title stroke">I’ve got the Letter ‘k’</h2>
-        <div class="flex flex-col items-center gap-[1vw]">
+        <div class="flex flex-col items-center gap-[1vw] relative">
             <h4 class="text-white">(Tune: I’ve got the Whole World in my Hand)</h4>
-            <img src="{{ asset('assets/images/phonicsl1/letter_k/kick.png') }}" class="w-[8vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_l/lick.png') }}" class="h-[8vw] absolute right-[-20%]" />
             <div class="text-center text-white text-[3vw]">
-                <h3>I've got the letter 'k' for kick.</h3>
-                <h3>I've got the letter 'k' for kick.</h3>
-                <h3>I've got the letter 'k' for kick.</h3>
-                <h3>'k' goes /k/ /k/ /k/.</h3>
+                <h3>I've got the letter 'l' for lick.</h3>
+                <h3>I've got the letter 'l' for lick.</h3>
+                <h3>I've got the letter 'l' for lick.</h3>
+                <h3>'l' goes /l/ /l/ /l/.</h3>
             </div>
         </div>
 
@@ -140,12 +134,12 @@
         <h2 class="top-title stroke">This is the Way</h2>
         <div class="flex flex-col items-center gap-[1vw]">
             <h4 class="text-white">(Tune: Here We Go Round the Mulberry Bush)</h4>
-            <img src="{{ asset('assets/images/phonicsl1/letter_k/kite.png') }}" class="h-[10vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_l/light.png') }}" class="w-[10vw]" />
             <div class="text-center text-white text-[2.5vw]">
-                <h3>This is the way we fle the kite.</h3>
-                <h3>Fly a kite. Fly a kite.</h3>
-                <h3>This is the way we fle the kite.</h3>
-                <h3>Kite goes /k/ /k/ /k/ /k/ /k/.</h3>
+                <h3>This is the way i shine the light.</h3>
+                <h3>Shine a light. Shine a light.</h3>
+                <h3>This is the way i shine the light.</h3>
+                <h3>Light goes /l/ /l/ /l/ /l/ /l/.</h3>
 
             </div>
         </div>
@@ -163,11 +157,11 @@
         <h2 class="top-title stroke">The ... In ...</h2>
         <div class="flex flex-col items-center">
             <h4 class="text-white">(Tune: The Wheels On The Bus Go Round And Round)</h4>
-            <img src="{{ asset('assets/images/phonicsl1/letter_k/king.png') }}" class="h-[10vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_l/king.png') }}" class="h-[10vw]" />
             <div class="text-center text-white text-[3vw]">
-                <h3>The 'k' in king goes /k/ /k/ /k/.</h3>
-                <h3>/k/ /k/ /k/ /k/ /k/ /k/</h3>
-                <h3>The 'k' in hat goes /k/ /k/ /k/.</h3>
+                <h3>The 'l' in king goes /l/ /l/ /l/.</h3>
+                <h3>/l/ /l/ /l/ /l/ /l/ /l/</h3>
+                <h3>The 'l' in hat goes /l/ /l/ /l/.</h3>
                 <h3>Over and over again.</h3>
 
             </div>
@@ -188,14 +182,14 @@
         <div class="flex flex-col items-center">
             <h4 class="text-white">(Tune: Ten Little Indian Boys)</h4>
             <div>
-                <img src="{{ asset('assets/images/phonicsl1/letter_k/kangaros.png') }}" class="h-[10vw]" />
+                <img src="{{ asset('assets/images/phonicsl1/letter_l/lolipops.png') }}" class="h-[10vw]" />
             </div>
         </div>
         <div class="text-center text-white text-[2.5vw]">
-            <h3>One little, two little, three little kangaroos.</h3>
-            <h3>Four little, five little, six little kangaroos.</h3>
-            <h3>Seven little, eight little, nine little kangaroos</h3>
-            <h3>Ten little kangaroos.</h3>
+            <h3>One little, two little, three little lollipops.</h3>
+            <h3>Four little, five little, six little lollipops.</h3>
+            <h3>Seven little, eight little, nine little lollipops</h3>
+            <h3>Ten little lollipops.</h3>
 
         </div>
         <p class="p-note">Tip: Music will be automatically played twice. Click on the sound icon to repeat music.</p>
@@ -214,7 +208,7 @@
         <div class="flex flex-col items-center gap-y-[2vw]">
             <h4 class="text-white">(Tune: Bingo)</h4>
             <div>
-                <img src="{{ asset('assets/images/phonicsl1/letter_k/group.png') }}" class="w-[45vw]" />
+                <img src="{{ asset('assets/images/phonicsl1/letter_l/group.png') }}" class="w-[45vw]" />
             </div>
         </div>
         <p class="p-note">Tip: Music will be automatically played twice. Click on the sound icon to repeat music.</p>
@@ -232,12 +226,12 @@
         <div class="flex flex-col items-center justify-between h-full">
             <h4 class="text-white text-[1vw]">(Tune: Bingo)</h4>
           <div class="flex flex-col items-center">
-              <img src="{{ asset('assets/images/phonicsl1/letter_k/kitten.png') }}" class="w-[10vw]" />
+              <img src="{{ asset('assets/images/phonicsl1/letter_l/lemon.png') }}" class="w-[10vw]" />
                 <div class="text-center text-white text-[2.5vw]">
-                    <h3>I like kittens, yes I do.</h3>
-                    <h3>I like kittens, yes I do.</h3>
-                    <h3>I like kittens, yes I do.</h3>
-                    <h3>Do you like kittens too?</h3>
+                    <h3>I like lemons, yes I do.</h3>
+                    <h3>I like lemons, yes I do.</h3>
+                    <h3>I like lemons, yes I do.</h3>
+                    <h3>Do you like lemons too?</h3>
                 </div>
             </div>
             <p class="p-note">Tip: Music will be automatically played twice. Click on the sound icon to repeat music.</p>
@@ -300,8 +294,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_k') }}";
-            const doneURL = "{{ url('/phonics/letter_k') }}";
+            const returnURL = "{{ url('/phonics/letter_l') }}";
+            const doneURL = "{{ url('/phonics/letter_l') }}";
 
             // Track current position
             let currentSlide = 0;

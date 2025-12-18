@@ -48,7 +48,7 @@
         <div class="flex relative">
             <h1
                 class="text-[#f7b94a] text-[6vw] bottom-[15%] left-[26%] stroke leading-none absolute hover:text-[#757571]">
-              k</h1>
+              l</h1>
             <img src="{{ asset('assets/images/phonicsl1/letter_a/alpha-house.png') }}" />
         </div>
         <p class="p-note">Tips: Click on the letter to listen to words beginning with the letter sound. <br>
@@ -76,12 +76,12 @@
     {{-- Panel 2 --}}
     <div class="phonics-panel">
         <div>
-            <img src="{{ asset('assets/images/phonicsl1/letter_k/kick.png') }}" class="w-[20vw]" />
-            <h1 class="text-white text-[5vw]"><span class="text-[#f7b94a]">k</span>ick</h1>
+            <img src="{{ asset('assets/images/phonicsl1/letter_l/lick.png') }}" class="h-[20vw]" />
+            <h1 class="text-white text-[5vw]"><span class="text-[#f7b94a]">l</span>ick</h1>
         </div>
 
         {{-- sound Button --}}
-        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton" data-letter="kick">
+        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton" data-letter="lick">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -90,12 +90,12 @@
     {{-- Panel 3 --}}
     <div class="phonics-panel">
         <div>
-            <img src="{{ asset('assets/images/phonicsl1/letter_k/kitten.png') }}" class="w-[20vw]" />
-            <h1 class="text-white text-[5vw]"><span class="text-[#f7b94a]">k</span>itten</h1>
+            <img src="{{ asset('assets/images/phonicsl1/letter_l/lollipop.png') }}" class="w-[20vw]" />
+            <h1 class="text-white text-[5vw]"><span class="text-[#f7b94a]">l</span>ollipop</h1>
         </div>
 
         {{-- sound Button --}}
-        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton" data-letter="kitten">
+        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton" data-letter="lollipop">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -104,12 +104,12 @@
     {{-- Panel 4 --}}
     <div class="phonics-panel">
         <div>
-            <img src="{{ asset('assets/images/phonicsl1/letter_k/kite.png') }}" class="w-[20vw]" />
-            <h1 class="text-white text-[5vw]"><span class="text-[#f7b94a]">k</span>ite</h1>
+            <img src="{{ asset('assets/images/phonicsl1/letter_l/lemon.png') }}" class="w-[20vw]" />
+            <h1 class="text-white text-[5vw]"><span class="text-[#f7b94a]">l</span>emon</h1>
         </div>
 
         {{-- sound Button --}}
-        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton" data-letter="kite">
+        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton" data-letter="lemon">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -118,11 +118,11 @@
     {{-- Panel 5 --}}
     <div class="phonics-panel">
         <div>
-            <img src="{{ asset('assets/images/phonicsl1/letter_k/kangaroo.png') }}" class="w-[20vw]" />
-            <h1 class="text-white text-[5vw]"> <span class="text-[#f7b94a]">k</span>angaroo</h1>
+            <img src="{{ asset('assets/images/phonicsl1/letter_l/pencil.png') }}" class="h-[25vw]" />
+            <h1 class="text-white text-[5vw]"> <span class="text-[#f7b94a]">l</span>ong</h1>
         </div>
         {{-- sound Button --}}
-        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton" data-letter="kangaroo">
+        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton" data-letter="long">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -145,15 +145,15 @@
             <div class="bg-no-repeat bg-center bg-contain h-[30vw] w-[28vw] mt-[-7vw]
             flex justify-center items-end"
             style="background-image: url('{{ asset('assets/images/phonicsl1/global/board.png') }}')">
-            <h2 class="text-white text-[2vw] absolute top-[15%]">kite</h2>
+            <h2 class="text-white text-[2vw] absolute top-[15%]">lemon</h2>
                 <div class="grid grid-cols-2 gap-x-[4vw] gap-y-[1.5vw] place-items-center mb-[3vw]">
                     {{-- this is false --}}
                     <div class="flex items-start">
-                        <a class="hover:brightness-110" id="false">
-                            <img src="{{ asset('assets/images/phonicsl1/letter_c/cat.png') }}" class="w-[6.5vw]" />
+                        <a class="hover:brightness-110" id="true">
+                            <img src="{{ asset('assets/images/phonicsl1/letter_l/lemon.png') }}" class="w-[6.5vw]" />
                         </a>
                         {{-- sound Button --}}
-                        <button class="w-[3vw]" id="soundButton" data-letter="cat">
+                        <button class="w-[3vw]" id="soundButton" data-letter="lemon">
                             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                         </button>
                     </div>
@@ -173,7 +173,7 @@
                     {{-- true --}}
                     <div class="col-span-2 flex justify-center ">
                         <div class="flex items-start gap-x-[1vw]">
-                            <a class=" hover:brightness-110" id="true">
+                            <a class=" hover:brightness-110" id="false">
                                 <img src="{{ asset('assets/images/phonicsl1/letter_k/kite.png') }}" class="w-[9vw]" />
                             </a>
                             {{-- sound Button --}}
@@ -271,8 +271,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_k') }}";
-            const doneURL = "{{ url('/phonics/letter_k') }}";
+            const returnURL = "{{ url('/phonics/letter_l') }}";
+            const doneURL = "{{ url('/phonics/letter_l') }}";
 
             // Track current position
             let currentSlide = 0; // Which slide we're on now
@@ -598,7 +598,7 @@
                 // Stop the sound if still playing
                 wellDoneSound.pause();
                 wellDoneSound.currentTime = 0;
-                window.location.href = '{{ url('/phonics/letter_k') }}';
+                window.location.href = '{{ url('/phonics/letter_l') }}';
             });
 
             // Optional: Sound button functionality

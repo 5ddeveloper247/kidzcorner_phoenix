@@ -72,10 +72,10 @@
 
     {{-- Panel 2 --}}
     <div class="phonics-panel">
-        <div class="flex h-[28vw]">
-            <a class="info-btn2 inline-flex w-auto large-title stroke h-fit p-0 m-0 self-end">l</a>
+        <div class="flex h-[28vw] relative">
+            <a class="info-btn2 inline-flex w-auto large-title stroke h-fit p-0 m-0">l</a>
 
-            <img src="{{ asset('assets/images/phonicsl1/global/click.png') }}" class="w-[27vw] h-fit" />
+            <img src="{{ asset('assets/images/phonicsl1/global/click.png') }}" class="w-[27vw] h-fit absolute top-[-17%] right-[-20%]" />
         </div>
         <p class="p-note">Tip: Click on the letter to listen to its name and sound.</p>
     </div>
@@ -132,7 +132,7 @@
                 <h1 class="large-title stroke h-fit" style="line-height:90%;">l</h1>
                 <h1 class="text-white text-[4vw]">lick</h1>
             </div>
-            <img src="{{ asset('assets/images/phonicsl1/letter_l/lick.png') }}" class="w-[30vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_l/lick.png') }}" class="h-[25vw]" />
         </div>
 
         {{-- sound Button --}}
