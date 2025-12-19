@@ -33,36 +33,35 @@
                 <img src="{{ asset('assets/images/phonicsl1/global/click3.png') }}" class="w-[30vw]" />
                 <h3 class="text-[#B76E33] text-[1.5vw] absolute top-1/2 left-[45%] -translate-x-1/2 -translate-y-1/2">Do you
                     remember <br>
-                    the story of kim's <br>
-                    kitten’? Help <br>
+                    the story of ‘Lick a <br>
+                    Lick’? Help <br>
                     me complete the <br>
                     story.</h3>
             </div>
             <img src="{{ asset('assets/images/phonicsl1/global/bear.png') }}" class="h-[25vw]" />
         </div>
-        <p class="p-note">Tips: Go through the story of 'Kim’s Kitten', if necessary. Ask children to turn to the Fun
-            Fill-ins Activity Sheet in the Pupil's Activity Book.</p>
+        <p class="p-note">Tips: Go through the story of 'Lick a Lick', if necessary. Ask children to turn to the Fun Fill-ins
+            Activity Sheet in the Pupil's Activity Book.</p>
     </div>
 
 
     {{-- Panel 1 --}}
     <div class="phonics-panel flex flex-col items-center gap-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-k/wordswall.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-l/wordswall.m4a') }}">
         <h2 class="text-white text-[1.5vw]">Listen to these words:</h2>
-        <img src="{{ asset('assets/images/phonicsl1/letter_k/wall.png') }}" class="w-[40vw]">
+        <img src="{{ asset('assets/images/phonicsl1/letter_l/wall.png') }}" class="w-[40vw]">
         <p class="p-note">Tips: Look at the Word Search Activity Sheet in the Pupil's Activity Book. <br>
             There are 8 words to be found in the puzzle.</p>
     </div>
 
     {{-- treasure Panel --}}
-    <div class="phonics-panel flex flex-col items-center justify-center">
+    <div class="phonics-panel flex flex-col items-center justify-between">
         <h2 class="text-white text-[1.5vw]">Choose a word to fill in the blank.</h2>
 
-        <h2 class="stroke panel-title">Kim cannot <span class="text-underline">________</span> her kitten.</h2>
-        <h2 class="stroke panel-title">Faith catches five fish!</h2>
+        <h2 class="stroke panel-title">Lingo <span class="text-underline">________</span> lemon lollipops.</h2>
 
-        <img src="{{ asset('assets/images/phonicsl1/letter_k/missing.gif') }}" class="w-[15vw]">
-        <img src="{{ asset('assets/images/phonicsl1/letter_k/line1.png') }}">
+        <img src="{{ asset('assets/images/phonicsl1/letter_l/lolipops.gif') }}" class="h-[15vw]">
+        <img src="{{ asset('assets/images/phonicsl1/letter_l/line1.png') }}">
         <p class="p-note">Tips: Use this slide to guide children to select the correct word to fill in the blank.
             Check result on next slide.</p>
 
@@ -71,21 +70,22 @@
     {{-- treasure panel --}}
     <div class="phonics-panel flex flex-col items-center justify-center">
         <div class="h-fit relative">
-            <span class="text-white text-[2vw] absolute left-[42%] top-[-1vw]"> find</span>
-            <h2 class="stroke panel-title">Kim cannot <span class="text-underline">________</span> her kitten.</h2>
+            <span class="text-white text-[2vw] absolute left-[30%] top-[-1vw]"> likes</span>
+            <h2 class="stroke panel-title">Lingo <span class="text-underline">________</span> lemon lollipops.</h2>
         </div>
 
-        <img src="{{ asset('assets/images/phonicsl1/letter_k/missing.gif') }}" class="w-[25vw]">
+        <img src="{{ asset('assets/images/phonicsl1/letter_l/lolipops.gif') }}" class="h-[25vw]">
     </div>
 
     {{-- treasure Panel --}}
     <div class="phonics-panel flex flex-col items-center justify-center gap-y-[1vw]">
         <h2 class="text-white text-[1.5vw]">Choose a word to fill in the blank.</h2>
 
-        <h2 class="stroke panel-title">Is it <span class="text-underline">_____</span> the kitchen?</h2>
+        <h2 class="stroke panel-title">Lick <span class="text-underline">___</span> lick. Lick <span
+                class="text-underline">___</span> lick.</h2>
 
-        <img src="{{ asset('assets/images/phonicsl1/letter_k/sad.gif') }}" class="w-[15vw]">
-        <img src="{{ asset('assets/images/phonicsl1/letter_k/line2.png') }}">
+        <img src="{{ asset('assets/images/phonicsl1/letter_l/lick.gif') }}" class="h-[15vw]">
+        <img src="{{ asset('assets/images/phonicsl1/letter_l/line2.png') }}">
         <p class="p-note">Tips: Use this slide to guide children to select the correct word to fill in the blank.
             Check result on next slide.</p>
 
@@ -94,22 +94,24 @@
     {{-- treasure panel --}}
     <div class="phonics-panel flex flex-col items-center justify-center">
         <div class="h-fit relative">
-            <span class="text-white text-[2vw] absolute left-[28%] top-[-1vw]"> in</span>
-            <h2 class="stroke panel-title">Is it <span class="text-underline">_____</span> the kitchen?</h2>
+            <span class="text-white text-[2vw] absolute left-[23%] top-[-1vw]">a</span>
+            <span class="text-white text-[2vw] absolute right-[23%] top-[-1vw]">a</span>
+            <h2 class="stroke panel-title">Lick <span class="text-underline">___</span> lick. Lick <span
+                    class="text-underline">___</span> lick.</h2>
         </div>
 
-        <img src="{{ asset('assets/images/phonicsl1/letter_k/sad.gif') }}" class="w-[20vw]">
+        <img src="{{ asset('assets/images/phonicsl1/letter_l/lick.gif') }}" class="h-[20vw]">
     </div>
 
 
     {{-- treasure Panel --}}
-    <div class="phonics-panel flex flex-col items-center justify-between h-full">
+    <div class="phonics-panel flex flex-col items-center justify-between gap-y-[1vw]">
         <h2 class="text-white text-[1.5vw]">Choose a word to fill in the blank.</h2>
 
-        <h2 class="stroke panel-title">Kim hears a kick <span class="text-underline">_____</span> the door.</h2>
+        <h2 class="stroke panel-title">She licks it for a <span class="text-underline">_____</span> time.</h2>
 
-        <img src="{{ asset('assets/images/phonicsl1/letter_k/knocking.gif') }}" class="w-[20vw]">
-        <img src="{{ asset('assets/images/phonicsl1/letter_k/line3.png') }}">
+        <img src="{{ asset('assets/images/phonicsl1/letter_l/long.gif') }}" class="h-[15vw]">
+        <img src="{{ asset('assets/images/phonicsl1/letter_l/line3.png') }}">
         <p class="p-note">Tips: Use this slide to guide children to select the correct word to fill in the blank.
             Check result on next slide.</p>
 
@@ -119,20 +121,20 @@
     {{-- treasure panel --}}
     <div class="phonics-panel flex flex-col items-center justify-center gap-y-[2vw]">
         <div class="h-fit relative">
-            <span class="text-white text-[2vw] absolute right-[35%] top-[-1vw]"> on</span>
-            <h2 class="stroke panel-title">Kim hears a kick <span class="text-underline">_____</span> the door.<h2>
+            <span class="text-white text-[2vw] absolute right-[25%] top-[-1vw]"> long</span>
+            <h2 class="stroke panel-title">She licks it for a <span class="text-underline">_____</span> time.</h2>
         </div>
-        <img src="{{ asset('assets/images/phonicsl1/letter_k/knocking.gif') }}" class="w-[25vw]">
+        <img src="{{ asset('assets/images/phonicsl1/letter_l/long.gif') }}" class="h-[20vw]">
     </div>
 
     {{-- treasure Panel --}}
     <div class="phonics-panel flex flex-col items-center gap-y-[1vw]">
         <h2 class="text-white text-[1.5vw]">Choose a word to fill in the blank.</h2>
 
-        <h2 class="stroke panel-title">A kind kangaroo has found <span class="text-underline">_____</span> kitten.</h2>
+        <h2 class="stroke panel-title">No <span class="text-underline">_____</span> lollipop left!</h2>
 
-        <img src="{{ asset('assets/images/phonicsl1/letter_k/kangaro-knock.png') }}" class="w-[20vw]">
-        <img src="{{ asset('assets/images/phonicsl1/letter_k/line4.png') }}">
+        <img src="{{ asset('assets/images/phonicsl1/letter_l/gone.gif') }}" class="h-[15vw]">
+        <img src="{{ asset('assets/images/phonicsl1/letter_l/line4.png') }}">
         <p class="p-note">Tips: Use this slide to guide children to select the correct word to fill in the blank.
             Check result on next slide.</p>
 
@@ -142,10 +144,10 @@
     {{-- treasure panel --}}
     <div class="phonics-panel flex flex-col items-center justify-center gap-y-[2vw]">
         <div class="h-fit relative">
-            <span class="text-white text-[2vw] absolute right-[23%] top-[-1vw]"> the</span>
-        <h2 class="stroke panel-title">A kind kangaroo has found <span class="text-underline">_____</span> kitten.</h2>
+            <span class="text-white text-[2vw] absolute left-[20%] top-[-1vw]"> more</span>
+            <h2 class="stroke panel-title">No <span class="text-underline">_______</span> lollipop left!</h2>
         </div>
-        <img src="{{ asset('assets/images/phonicsl1/letter_k/kangaro-knock.png') }}" class="w-[30vw]">
+        <img src="{{ asset('assets/images/phonicsl1/letter_l/gone.gif') }}" class="h-[25vw]">
     </div>
 
 
@@ -198,8 +200,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_k') }}";
-            const doneURL = "{{ url('/phonics/letter_k') }}";
+            const returnURL = "{{ url('/phonics/letter_l') }}";
+            const doneURL = "{{ url('/phonics/letter_l') }}";
 
             // Track current position
             let currentSlide = 0;

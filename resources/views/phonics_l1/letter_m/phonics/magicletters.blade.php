@@ -17,18 +17,18 @@
             color: #F7B94A !important;
         }
 
+        .panel-title {
+            color: #F7B94A;
+            font-size: 3vw;
+        }
+
         .large-title {
             color: #F7B94A;
             font-size: 20vw !important;
         }
 
-        .link:hover {
-            color: #a37d3adb;
-        }
-
-        .panel-title {
-            color: #F7B94A;
-            font-size: 3vw;
+        .large-title:hover {
+            color: #757571 !important;
         }
 
         .panel-ul {
@@ -39,129 +39,170 @@
 @endpush
 
 @section('content')
-
-    {{-- title --}}
-    <h2 class="top-title stroke"> Read Along</h2>
+    {{-- Top Title --}}
+    <h2 class="top-title stroke">Magic Letters</h2>
 
     {{-- panel 1 --}}
-    <div class="phonics-panel no-bg mb-[2vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-b/read-along.mp3') }}">
-        <div class="relative">
-            <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" />
-            {{-- gifs --}}
-            <img src="{{ asset('assets/images/phonicsl1/global/gifs/buddy.gif') }}" class="h-[20vw] bottom-0 absolute" />
-            <img src="{{ asset('assets/images/phonicsl1/global/gifs/lili.gif') }}"
-                class="h-[20vw] bottom-0 right-0 absolute" />
-
-            <h1 class="text-white text-[4vw] absolute top-[12vw] left-[19vw]"> Read along <br> with us!</h1>
-
-            <p class="p-note absolute bottom-[1vw] left-[22%]">Tip: <a class="c-btn info-btn1">Click here</a> to find out
-                why
-                reading words is important.</p>
+    <div class="phonics-panel">
+        <div class="flex">
+            <img src="{{ asset('assets/images/phonicsl1/global/click4.png') }}" class="w-[30vw] h-[20vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/global/bear.png') }}" class="h-[25vw]" />
         </div>
+        <p class="p-note">Tip: <a class="c-btn info-btn1">Click here</a> to find out about the alphabetic principle.</p>
     </div>
-
 
     {{-- Side Info Panel --}}
     <div class="phonics-panel info-panel-1 flex flex-col mt-[-2vw] gap-y-[2vw]">
-        <h1 class="panel-title stroke">Practice in Reading Words</h1>
+        <h1 class="panel-title stroke">Letter-sound Relationships</h1>
         <div class="flex items-end">
             <ul class="list-disc text-start panel-ul space-y-[1.5vw]">
-
-                <li>The ultimate purpose of phonics instruction is for children to learn to read words. Successful phonics
-                    programs provide a great deal of practice in reading words containing the
-                    letter-sound relationships that are taught.</li>
-                <li>Use this section with the children to practise reading words containing the letter-sound patterns in a
-                    sentence.Spelling patterns are learnt through continued practice in reading words containing those
-                    patterns.
-                    Children recognize words automatically by using spelling patterns.</li>
+                <li>To be able to read, children need to have the ability to hear sounds within a spoken word, and to
+                    understand that the sounds correspond to letters.</li>
+                <li>Knowledge of the alphabetic principle, that there are predictable relationships between written letters
+                    and spoken sounds, contributes to the ability to read words in isolation as well as in connected text.
+                </li>
+                <li>There are different opinions about whether knowing the names of letters is absolutely necessary. It is
+                    preferable to teach the names of letters, although children can begin to learn to read without knowing
+                    all the names of the letters.</li>
             </ul>
 
-            <img src="{{ asset('assets/images/phonicsl1/global/learning.png') }}" class="h-[20vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/global/learning.png') }}" class="w-[10vw]" />
         </div>
     </div>
 
-
     {{-- Panel 2 --}}
-    <div class="phonics-panel flex flex-col justify-between h-full self-end">
-        <div class="flex flex-col items-center justify-center gap-[2vw]">
-            <img src="{{ asset('assets/images/phonicsl1/letter_l/l-leg.png') }}" class="w-[20vw]" />
-            <h1 class="text-[2vw] text-[#f7b94a]">Linda has long legs.</h1>
-        </div>
-        <p class="p-note">Tip: Music will be automatically played twice. Click on the sound icon to repeat music.</p>
+    <div class="phonics-panel">
+        <div class="flex h-[28vw] relative">
+            <a class="info-btn2 inline-flex w-auto large-title stroke h-fit p-0 m-0">m</a>
 
-        {{-- sound Button --}}
-        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton"
-            data-audio="{{ asset('assets/audio/phonics_audio/letter-l/l-legs.m4a') }}">
+            <img src="{{ asset('assets/images/phonicsl1/global/click.png') }}" class="w-[27vw] h-fit absolute top-[-17%] right-[-20%]" />
+        </div>
+        <p class="p-note">Tip: Click on the letter to listen to its name and sound.</p>
+    </div>
+
+    {{-- Side Info Panel --}}
+    <div class="phonics-panel flex justify-center items-center info-panel-2">
+        <h1 class="large-title stroke">m</h1>
+        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton" data-letter="m">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
 
 
-    <div class="phonics-panel done-hide next-hide">
+    {{-- == 1 --}}
+
+
+    {{-- ==== 2 --}}
+    <div class="phonics-panel info-panel-2">
         <div class="flex gap-x-[4vw] items-center justify-center">
             <div>
-                <div class="relative ml-[10vw]">
-                    <img src="{{ asset('assets/images/phonicsl1/global/blank.png') }}" class="w-[18vw]" />
-                    <h2 class="text-[1.2vw] !text-[#B76E33] absolute top-[2vw] right-[2vw]">Help me complete <br> the
-                        sentence
-                        with <br> a word beginning <br> with ‘l’.</h2>
-                </div>
-                <img src="{{ asset('assets/images/phonicsl1/global/teacher.png') }}" class="h-[20vw]" />
+                <h1 class="large-title stroke h-fit" style="line-height:90%;">m</h1>
+                <h1 class="text-white text-[4vw]">monkey</h1>
             </div>
-            <div class="flex flex-col items-center">
-                <div class="bg-no-repeat bg-center bg-contain h-[30vw] w-[28vw] mt-[-7vw] flex justify-center items-end"
-                    style="background-image: url('{{ asset('assets/images/phonicsl1/global/board.png') }}')">
+            <img src="{{ asset('assets/images/phonicsl1/letter_m/monkey.png') }}" class="w-[20vw]" />
 
-                    <div class="grid grid-cols-2 gap-x-[4vw] gap-y-[1.5vw] place-items-center mb-[3vw]">
-                        {{-- this is false --}}
-                        <div class="flex items-start">
-                            <a class="hover:brightness-110" id="false">
-                                <img src="{{ asset('assets/images/phonicsl1/letter_f/fox.png') }}" class="w-[6vw]" />
-                            </a>
-                            {{-- sound Button --}}
-                            <button class="w-[3vw]" id="soundButton" data-letter="fox">
-                                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                            </button>
-                        </div>
-
-                        {{-- falsde --}}
-                        <div class="flex items-start mb-[1vw]">
-
-                            <a class="w-[6vw] hover:brightness-110 " id="true">
-                                <img src="{{ asset('assets/images/phonicsl1/letter_l/lemon.png') }}" />
-                            </a>
-                            {{-- sound Button --}}
-                            <button class="w-[3vw]" id="soundButton" data-letter="lemon">
-                                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                            </button>
-                        </div>
-
-                        {{-- true --}}
-                        <div class="col-span-2 flex justify-center ">
-                            <div class="flex items-start gap-x-[1vw]">
-                                <a class="hover:brightness-110" id="false">
-                                    <img src="{{ asset('assets/images/phonicsl1/letter_d/duck.png') }}" class="h-[6vw] " />
-                                </a>
-                                {{-- sound Button --}}
-                                <button class="w-[3vw]" id="soundButton" data-letter="duck">
-                                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <h2 class="text-white text-[1.5vw]">Linda likes _________ lollipops.</h2>
-
-            </div>
         </div>
-        <p class="p-note">Tip: Ask children to select the picture that matches the focus letter <br>
-            sound. If needed, click on the sound icons to listen to the words.</p>
+
+        {{-- sound Button --}}
+        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton" data-letter="monkey">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+        </button>
+    </div>
+
+    {{-- === 3 --}}
+    <div class="phonics-panel info-panel-2">
+        <div class="flex gap-x-[4vw] items-center justify-center">
+            <div>
+                <h1 class="large-title stroke h-fit" style="line-height:90%;">m</h1>
+                <h1 class="text-white text-[4vw]">milk</h1>
+            </div>
+            <img src="{{ asset('assets/images/phonicsl1/letter_m/milk.png') }}" class="w-[25vw]" />
+
+        </div>
+
+        {{-- sound Button --}}
+        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton" data-letter="milk">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+        </button>
+    </div>
+
+    <div class="phonics-panel info-panel-2">
+        <div class="flex gap-x-[4vw] items-center justify-center">
+            <div>
+                <h1 class="large-title stroke h-fit" style="line-height:90%;">m</h1>
+                <h1 class="text-white text-[4vw]">moon</h1>
+            </div>
+            <img src="{{ asset('assets/images/phonicsl1/letter_m/moon.png') }}" class="w-[20vw]" />
+        </div>
+
+        {{-- sound Button --}}
+        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton" data-letter="moon">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+        </button>
+    </div>
+
+
+    <div class="phonics-panel info-panel-2">
+        <div class="flex gap-x-[4vw] items-center justify-center">
+            <div>
+                <h1 class="large-title stroke h-fit" style="line-height:90%;">m</h1>
+                <h1 class="text-white text-[4vw]">mattress</h1>
+            </div>
+            <img src="{{ asset('assets/images/phonicsl1/letter_m/mattress.png') }}" class="w-[20vw]" />
+
+        </div>
+
+        {{-- sound Button --}}
+        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton" data-letter="mattress">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+        </button>
     </div>
 
 
 
-    {{-- Panel --}}
+
+    <div class="phonics-panel info-panel-2">
+        <div class="flex gap-x-[4vw] items-center justify-center">
+            <div>
+                <img src="{{ asset('assets/images/phonicsl1/global/click5.png') }}" class="w-[15vw] ml-[7vw]" />
+                <img src="{{ asset('assets/images/phonicsl1/global/teacher.png') }}" class="h-[20vw]" />
+            </div>
+
+            <div class="bg-no-repeat bg-center bg-contain h-[30vw] w-[28vw] mt-[-7vw]
+            flex justify-center items-end"
+                style="background-image: url('{{ asset('assets/images/phonicsl1/global/board.png') }}')">
+
+                <div class="grid grid-cols-2 gap-[1.5vw] place-items-center mb-[3vw]">
+                    {{-- this is false --}}
+                    <a class="w-[8.5vw] hover:brightness-110 " id="false">
+                        <img src="{{ asset('assets/images/phonicsl1/global/alphabets/k.png') }}" />
+                    </a>
+
+                    {{-- falsde --}}
+                    <a class="w-[8.5vw] hover:brightness-110 " id="true">
+                        <img src="{{ asset('assets/images/phonicsl1/global/alphabets/m.png') }}" />
+                    </a>
+
+                    {{-- true --}}
+                    <div class="col-span-2 flex justify-center " id="false">
+                        <a class="w-[8.5vw] hover:brightness-110">
+                            <img src="{{ asset('assets/images/phonicsl1/global/alphabets/l.png') }}" />
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <p class="p-note">Tip: Click on the sound icon to listen to the letter sound. Then ask <br>
+            children to select the correct letter that makes the sound.</p>
+        {{-- sound Button --}}
+        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton" data-letter="m">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+        </button>
+    </div>
+
+
     {{-- Try Again --}}
     <div id="tryAgain" class="fixed inset-0 z-[1000] hidden  items-center justify-center bg-[#0000002e]  backdrop-blur-sm">
         <div class="w-[60vw] relative h-[40vw] bg-contain bg-no-repeat bg-center flex flex-col justify-center items-center rounded-lg "
@@ -178,7 +219,8 @@
     </div>
 
     {{-- Well Done --}}
-    <div id="wellDone" class="fixed inset-0 z-[1000] hidden  items-center justify-center bg-[#0000002e]  backdrop-blur-sm">
+    <div id="wellDone"
+        class="fixed inset-0 z-[1000] hidden  items-center justify-center bg-[#0000002e]  backdrop-blur-sm">
         <div class="w-[60vw] relative h-[40vw] bg-contain bg-no-repeat bg-center flex flex-col justify-center items-center rounded-lg "
             style="background-image: url('{{ asset('assets/images/K2/exit.png') }}');">
             <p class="text-[3vw] !text-[#59967D] stroke font-bold">Well Done!</p>
@@ -191,6 +233,7 @@
                 class="text-[#59967D] text-[2vw] font-bold stroke hover:scale-110 transition-transform absolute bottom-[6vw] right-[10vw]">Close</a>
         </div>
     </div>
+
 
 
     {{-- All Buttons --}}
@@ -219,11 +262,11 @@
             <img src="{{ asset('assets/images/phonicsl1/global/btns/next-btn.png') }}" />
         </button>
     </div>
-    <div class="down-btn-container">
+    {{-- <div class="down-btn-container">
         <button class="doneButton hidden">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/done.png') }}" />
         </button>
-    </div>
+    </div> --}}
 @endsection
 
 @push('script')
@@ -240,39 +283,31 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_l') }}";
-            const doneURL = "{{ url('/phonics/letter_l') }}";
+            const returnURL = "{{ url('/phonics/letter_m') }}";
+            const doneURL = "{{ url('/phonics/letter_m') }}";
 
             // Track current position
-            let currentSlide = 0;
-            let isInSpecialMode = false;
-            let returnToSlide = null;
-            let specialSlideClass = null;
-
-            // 🔊 Global audio tracking
-            let currentAudio = null;
-
-            // 🛑 Function to stop all audio/speech
-            function stopAllAudio() {
-                // Stop any playing audio files
-                if (currentAudio) {
-                    currentAudio.pause();
-                    currentAudio.currentTime = 0;
-                    currentAudio = null;
-                }
-                // Stop text-to-speech
-                window.speechSynthesis.cancel();
-            }
+            let currentSlide = 0; // Which slide we're on now
+            let isInSpecialMode = false; // Are we viewing info slides?
+            let returnToSlide = null; // Which slide to return to
+            let specialSlideClass = null; // Which type of special slide (info-panel-1, info-panel-2, etc.)
 
             // HELPER FUNCTIONS
+
+            // Check if a slide is special (info panel)
             function isSpecialSlide(slide) {
                 const classList = Array.from(slide.classList);
+                // Check for info-panel-1, info-panel-2, etc.
                 return classList.some(cls => /^info-panel-\d+$/.test(cls));
             }
 
+            // Get special slide type from button class
+            // Example: "info-btn1" → "info-panel-1", "info-btn2" → "info-panel-2"
             function getSlideTypeFromButton(button) {
                 const classList = Array.from(button.classList);
+
                 for (let className of classList) {
+                    // Handle info-btn1 → info-panel-1
                     if (className.startsWith('info-btn')) {
                         const number = className.replace('info-btn', '');
                         return 'info-panel-' + number;
@@ -281,8 +316,10 @@
                 return null;
             }
 
+            // Check if there are more special slides after current one
             function hasMoreSpecialSlides(fromIndex) {
                 if (!specialSlideClass) return false;
+
                 for (let i = fromIndex + 1; i < slides.length; i++) {
                     if (slides[i].classList.contains(specialSlideClass)) {
                         return true;
@@ -291,25 +328,39 @@
                 return false;
             }
 
+            // Check if we're on the last slide
             function isLastSlide(slideIndex) {
+                // Last special slide in special mode
                 if (isInSpecialMode && !hasMoreSpecialSlides(slideIndex)) return true;
+
+                // In normal mode, check if this is the last non-special slide
                 if (!isInSpecialMode) {
+                    // Check if there are any more non-special slides after this one
                     for (let i = slideIndex + 1; i < slides.length; i++) {
                         if (!isSpecialSlide(slides[i])) {
-                            return false;
+                            return false; // Found another normal slide
                         }
                     }
-                    return true;
+                    return true; // No more normal slides found
                 }
+
                 return false;
             }
 
+            // TEXT-TO-SPEECH FUNCTION
             function speakLetter(letter) {
+                // Cancel any ongoing speech
                 window.speechSynthesis.cancel();
+
+                // Create speech utterance
                 const utterance = new SpeechSynthesisUtterance(letter);
-                utterance.rate = 0.8;
-                utterance.pitch = 1.2;
+
+                // Configure voice settings for girl/female voice
+                utterance.rate = 0.8; // Slightly slower speed
+                utterance.pitch = 1.2; // Higher pitch for female voice
                 utterance.volume = 1;
+
+                // Try to get a female voice
                 const voices = window.speechSynthesis.getVoices();
                 const femaleVoice = voices.find(voice =>
                     voice.name.includes('Female') ||
@@ -318,20 +369,18 @@
                     voice.name.includes('Google US English') ||
                     voice.name.includes('Microsoft Zira')
                 );
+
                 if (femaleVoice) {
                     utterance.voice = femaleVoice;
                 }
+
+                // Speak the letter
                 window.speechSynthesis.speak(utterance);
             }
 
             // DISPLAY FUNCTIONS
+
             function showSlide(slideIndex) {
-                const ajaxSection = document.getElementById('ajax-section');
-                const currentSlideElement = slides[slideIndex];
-
-                // 🛑 Stop all audio when changing slides
-                stopAllAudio();
-
                 // Hide all slides, show only current one
                 slides.forEach((slide, index) => {
                     if (index === slideIndex) {
@@ -341,107 +390,69 @@
                     }
                 });
 
-                // Check if current slide has 'next-hide' class
-                if (currentSlideElement.classList.contains('next-hide')) {
+                // Show "Done" button on last slide, otherwise show "Next"
+                if (isLastSlide(slideIndex)) {
                     nextButtons.forEach(btn => btn.classList.add("hidden"));
+                    if (doneButton) doneButton.classList.remove("hidden");
                 } else {
-                    // Show "Done" button on last slide, otherwise show "Next"
-                    if (isLastSlide(slideIndex)) {
-                        // Check if current slide has 'done-hide' class
-                        if (currentSlideElement.classList.contains('done-hide')) {
-                            // Hide done button if slide has done-hide class
-                            if (doneButton) doneButton.classList.add("hidden");
-                            nextButtons.forEach(btn => btn.classList.add("hidden"));
-                        } else {
-                            // Show done button normally
-                            nextButtons.forEach(btn => btn.classList.add("hidden"));
-                            if (doneButton) doneButton.classList.remove("hidden");
-                        }
-                    } else {
-                        nextButtons.forEach(btn => btn.classList.remove("hidden"));
-                        if (doneButton) doneButton.classList.add("hidden");
-                    }
-                }
-
-                // Toggle ajax-section background ONLY based on no-bg class
-                if (ajaxSection) {
-                    if (currentSlideElement.classList.contains('no-bg')) {
-                        ajaxSection.classList.add('no-bg');
-                    } else {
-                        ajaxSection.classList.remove('no-bg');
-                    }
-                }
-
-                // 🔊 AUTO-PLAY LOGIC (Priority order):
-                // 1. Check for data-slide-audio attribute on the slide itself
-                const slideAudioSrc = currentSlideElement.getAttribute('data-slide-audio');
-                if (slideAudioSrc) {
-                    setTimeout(() => {
-                        currentAudio = new Audio(slideAudioSrc);
-                        currentAudio.play().catch(err => console.log('Auto-play failed:', err));
-                    }, 300);
-                    return; // Exit early, don't check for sound button
-                }
-
-                // 2. Check for sound button with data-audio attribute
-                const soundButton = currentSlideElement.querySelector('#soundButton[data-audio]');
-                if (soundButton) {
-                    const audioSrc = soundButton.getAttribute('data-audio');
-                    if (audioSrc) {
-                        setTimeout(() => {
-                            currentAudio = new Audio(audioSrc);
-
-                            // Play twice as mentioned in tips
-                            let playCount = 0;
-                            currentAudio.play().catch(err => console.log('Auto-play failed:', err));
-
-                            currentAudio.onended = function() {
-                                playCount++;
-                                if (playCount < 2) {
-                                    currentAudio.currentTime = 0;
-                                    currentAudio.play();
-                                }
-                            };
-                        }, 300);
-                    }
+                    nextButtons.forEach(btn => btn.classList.remove("hidden"));
+                    if (doneButton) doneButton.classList.add("hidden");
                 }
             }
+
             // NAVIGATION FUNCTIONS
+
             function goNext() {
+                // Can't go beyond last slide
                 if (currentSlide >= slides.length - 1) return;
+
                 currentSlide++;
+
+                // Skip slides that don't match current mode
                 while (currentSlide < slides.length) {
                     const slide = slides[currentSlide];
+
                     if (isInSpecialMode) {
+                        // In special mode: only show slides with matching class
                         if (slide.classList.contains(specialSlideClass)) break;
                     } else {
+                        // In normal mode: skip all special slides
                         if (!isSpecialSlide(slide)) break;
                     }
+
                     currentSlide++;
                 }
+
+                // Show the slide if we found one
                 if (currentSlide < slides.length) {
                     showSlide(currentSlide);
                 }
             }
 
             function goBack() {
+                // If at first slide in normal mode, exit to selection page
                 if (currentSlide === 0 && !isInSpecialMode) {
-                    stopAllAudio(); // 🛑 Stop audio before leaving
                     window.location.href = returnURL;
                     return;
                 }
+
                 if (isInSpecialMode) {
+                    // Find previous special slide
                     let previousIndex = currentSlide - 1;
+
                     while (previousIndex >= 0) {
                         if (slides[previousIndex].classList.contains(specialSlideClass)) {
                             break;
                         }
                         previousIndex--;
                     }
+
                     if (previousIndex >= 0) {
+                        // Found previous special slide
                         currentSlide = previousIndex;
                         showSlide(currentSlide);
                     } else {
+                        // No more special slides, return to normal mode
                         currentSlide = returnToSlide;
                         isInSpecialMode = false;
                         specialSlideClass = null;
@@ -449,48 +460,47 @@
                         showSlide(currentSlide);
                     }
                 } else {
+                    // Normal mode: go to previous normal slide
                     if (currentSlide > 0) {
                         currentSlide--;
+
+                        // Skip any special slides
                         while (currentSlide > 0 && isSpecialSlide(slides[currentSlide])) {
                             currentSlide--;
                         }
+
                         showSlide(currentSlide);
                     }
                 }
             }
 
             function handleDone() {
-                stopAllAudio(); // 🛑 Stop audio before action
                 if (isInSpecialMode && returnToSlide !== null) {
+                    // Return to the slide we came from
                     currentSlide = returnToSlide;
                     isInSpecialMode = false;
                     specialSlideClass = null;
                     returnToSlide = null;
                     showSlide(currentSlide);
-
-                    // Toggle background when returning from info mode
-                    const ajaxSection = document.getElementById('ajax-section');
-                    const currentSlideElement = slides[currentSlide];
-                    if (ajaxSection) {
-                        if (currentSlideElement.classList.contains('no-bg')) {
-                            ajaxSection.classList.add('no-bg');
-                        } else {
-                            ajaxSection.classList.remove('no-bg');
-                        }
-                    }
                 } else {
+                    // Exit to selection page
                     window.location.href = doneURL;
                 }
             }
 
             // EVENT LISTENERS
+
+            // Info buttons - Enter special mode
             infoButtons.forEach(button => {
                 button.addEventListener("click", function(e) {
                     e.preventDefault();
-                    stopAllAudio(); // 🛑 Stop audio when entering info mode
+
+                    // Remember where we came from
                     returnToSlide = currentSlide;
                     isInSpecialMode = true;
                     specialSlideClass = getSlideTypeFromButton(button);
+
+                    // Find and show first special slide
                     for (let i = 0; i < slides.length; i++) {
                         if (slides[i].classList.contains(specialSlideClass)) {
                             currentSlide = i;
@@ -501,61 +511,41 @@
                 });
             });
 
+            // Next buttons
             nextButtons.forEach(btn => {
                 btn.addEventListener("click", goNext);
             });
 
+            // Return button
             if (returnButton) {
                 returnButton.addEventListener("click", goBack);
             }
 
+            // Done button
             if (doneButton) {
                 doneButton.addEventListener("click", handleDone);
             }
 
-            // 🔊 Home and Close buttons also stop audio
-            const homeButton = document.getElementById("homeButton");
-            const closeButton = document.getElementById("closeButton");
-
-            if (homeButton) {
-                homeButton.addEventListener("click", () => stopAllAudio());
-            }
-
-            if (closeButton) {
-                closeButton.addEventListener("click", () => stopAllAudio());
-            }
-
+            // SOUND buttons - speak the letter
             soundButtons.forEach(btn => {
                 btn.addEventListener("click", (e) => {
                     e.preventDefault();
-
-                    // Stop any previous audio first
-                    stopAllAudio();
-
-                    // 1️⃣ If data-audio is provided → play audio file
-                    const audioSrc = btn.getAttribute("data-audio");
-                    if (audioSrc) {
-                        currentAudio = new Audio(audioSrc);
-                        currentAudio.play();
-                        return;
-                    }
-
-                    // 2️⃣ Otherwise fallback to speaking the letter
-                    const letter = btn.getAttribute("data-letter") || "a";
+                    const letter = btn.getAttribute('data-letter') || 'a';
                     speakLetter(letter);
                 });
             });
 
+            // Click on letter link to play sound (exclude info buttons)
             const letterLinks = document.querySelectorAll('.phonics-panel a[href=""]:not([class*="info-btn"])');
             letterLinks.forEach(link => {
                 link.addEventListener('click', (e) => {
                     e.preventDefault();
-                    stopAllAudio(); // Stop previous audio
                     const letter = link.getAttribute('data-letter') || 'a';
                     speakLetter(letter);
                 });
             });
 
+            // Load voices (some browsers need this)
             window.speechSynthesis.onvoiceschanged = () => {
                 window.speechSynthesis.getVoices();
             };
@@ -566,6 +556,7 @@
 
 
         // panel
+
         document.addEventListener('DOMContentLoaded', function() {
             // Get elements
             const tryAgainPanel = document.getElementById('tryAgain');
@@ -620,7 +611,7 @@
                 // Stop the sound if still playing
                 wellDoneSound.pause();
                 wellDoneSound.currentTime = 0;
-                window.location.href = '{{ url('/phonics/letter_l') }}';
+                window.location.href = '{{ url('/phonics/letter_m') }}';
             });
 
             // Optional: Sound button functionality

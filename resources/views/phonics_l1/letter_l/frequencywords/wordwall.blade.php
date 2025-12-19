@@ -9,179 +9,68 @@
 @push('styles')
     <style>
         .p-note {
-            font-size: 1.2vw;
+            font-size: 1.2.2vw;
             color: white !important;
-            width: 50vw;
+        }
 
+        .c-btn {
+            color: #F7B94A !important;
+        }
+
+        .panel-title {
+            color: #F7B94A;
+            font-size: 3vw;
+        }
+
+        .large-title {
+            color: #F7B94A;
+            font-size: 25vw !important;
+            10
+        }
+
+        .large-title:hover {
+            color: #757571 !important;
+        }
+
+        .panel-ul {
+            color: white;
+            font-size: 1.4vw;
         }
     </style>
 @endpush
 
 @section('content')
     {{-- Top Title --}}
-    <h2 class="top-title stroke">Word Search</h2>
+    <h2 class="top-title stroke">Word Wall</h2>
+
 
     {{-- panel 1 --}}
-    <div class="phonics-panel mb-[2vw]">
+    <div class="phonics-panel flex justify-between items-center">
         <div class="flex items-start ">
-            <div class="relative">
+            <div class="relative w-fit h-fit">
                 <img src="{{ asset('assets/images/phonicsl1/global/click3.png') }}" class="w-[30vw]" />
-                <h3 class="text-[#B76E33] text-[2.5vw] absolute top-1/2 left-[45%] -translate-x-1/2 -translate-y-1/2">Help me
-                    <br>
-                    search for <br>
-                    these words!
+                <h3
+                    class="text-[#B76E33] text-[2.2vw] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center">
+                    let's build<br> a word wall!
                 </h3>
             </div>
             <img src="{{ asset('assets/images/phonicsl1/global/bear.png') }}" class="h-[25vw]" />
         </div>
     </div>
 
+    {{-- Panel 2 --}}
+    <div class="phonics-panel flex flex-col justify-between items-center h-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-l/falling.m4a') }}">
 
-    {{-- treasure  Panel 1 --}}
+        <img src="{{ asset('assets/images/phonicsl1/letter_l/falling.gif') }}" class="w-[40vw]" />
+        <p class="p-note">Tip: Answers on the next slide.</p>
+    </div>
+
+
+    {{-- Panel 3 --}}
     <div class="phonics-panel flex flex-col items-center gap-y-[1vw]">
-        <img src="{{ asset('assets/images/phonicsl1/letter_k/word-panel.png') }}" class="w-[45vw]">
-        <p class="p-note">Tips: Look at the Word Search Activity Sheet in the Pupil's Activity Book. <br>
-            There are 8 words to be found in the puzzle.</p>
-    </div>
-
-    {{-- treasure Panel --}}
-    <div class="phonics-panel flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-k/flashcard/use.m4a') }}">
-        <div
-            class="w-[30vw] text-center h-[10vw] rounded-2xl text-[5vw] bg-[#F7B94A] text-white flex justify-center items-center">
-            use</div>
-        <p class="p-note">Tips: This is the second of 8 words to be flashed <br>
-            Ask children to colour the word on their Treasure Trail Activity Sheet.</p>
-    </div>
-
-    {{-- treasure panel --}}
-    <div class="phonics-panel flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-k/flashcard/use.m4a') }}">
-        <img src="{{ asset('assets/images/phonicsl1/letter_k/word2.png') }}" class="w-[45vw]">
-    </div>
-
-    {{-- treasure Panel --}}
-    <div class="phonics-panel flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-k/flashcard/your.m4a') }}">
-        <div
-            class="w-[30vw] text-center h-[10vw] rounded-2xl text-[5vw] bg-[#F7B94A] text-white flex justify-center items-center">
-            your</div>
-        <p class="p-note">Tips: This is the second of 8 words to be flashed <br>
-            Ask children to colour the word on their Treasure Trail Activity Sheet.</p>
-    </div>
-
-    {{-- treasure panel --}}
-    <div class="phonics-panel flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-k/flashcard/your.m4a') }}">
-        <img src="{{ asset('assets/images/phonicsl1/letter_k/word3.png') }}" class="w-[45vw]">
-    </div>
-
-    {{-- treasure Panel --}}
-    <div class="phonics-panel flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-k/flashcard/find.m4a') }}">
-        <div
-            class="w-[30vw] text-center h-[10vw] rounded-2xl text-[5vw] bg-[#F7B94A] text-white flex justify-center items-center">
-            find</div>
-        <p class="p-note">Tips: This is the second of 8 words to be flashed <br>
-            Ask children to colour the word on their Treasure Trail Activity Sheet.</p>
-    </div>
-
-    {{-- treasure panel --}}
-    <div class="phonics-panel flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-k/flashcard/find.m4a') }}">
-        <img src="{{ asset('assets/images/phonicsl1/letter_k/word4.png') }}" class="w-[45vw]">
-    </div>
-
-    {{-- treasure Panel --}}
-    <div class="phonics-panel flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-k/flashcard/or.m4a') }}">
-        <div
-            class="w-[30vw] text-center h-[10vw] rounded-2xl text-[5vw] bg-[#F7B94A] text-white flex justify-center items-center">
-            or</div>
-        <p class="p-note">Tips: This is the second of 8 words to be flashed <br>
-            Ask children to colour the word on their Treasure Trail Activity Sheet.</p>
-    </div>
-
-    {{-- treasure panel --}}
-    <div class="phonics-panel flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-k/flashcard/or.m4a') }}">
-        <img src="{{ asset('assets/images/phonicsl1/letter_k/word5.png') }}" class="w-[45vw]">
-    </div>
-
-    {{-- treasure Panel --}}
-    <div class="phonics-panel flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-k/flashcard/time.m4a') }}">
-        <div
-            class="w-[30vw] text-center h-[10vw] rounded-2xl text-[5vw] bg-[#F7B94A] text-white flex justify-center items-center">
-            time</div>
-        <p class="p-note">Tips: This is the second of 8 words to be flashed <br>
-            Ask children to colour the word on their Treasure Trail Activity Sheet.</p>
-    </div>
-
-    {{-- treasure panel --}}
-    <div class="phonics-panel flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-k/flashcard/time.m4a') }}">
-        <img src="{{ asset('assets/images/phonicsl1/letter_k/word6.png') }}" class="w-[45vw]">
-    </div>
-
-
-    {{-- treasure Panel --}}
-    <div class="phonics-panel flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-k/flashcard/in.m4a') }}">
-        <div
-            class="w-[30vw] text-center h-[10vw] rounded-2xl text-[5vw] bg-[#F7B94A] text-white flex justify-center items-center">
-            in</div>
-        <p class="p-note">Tips: This is the second of 8 words to be flashed <br>
-            Ask children to colour the word on their Treasure Trail Activity Sheet.</p>
-    </div>
-
-    {{-- treasure panel --}}
-    <div class="phonics-panel flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-k/flashcard/in.m4a') }}">
-
-        <img src="{{ asset('assets/images/phonicsl1/letter_k/word7.png') }}" class="w-[45vw]">
-    </div>
-
-
-    {{-- treasure Panel --}}
-    <div class="phonics-panel flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-k/flashcard/long.m4a') }}">
-
-        <div
-            class="w-[30vw] text-center h-[10vw] rounded-2xl text-[5vw] bg-[#F7B94A] text-white flex justify-center items-center">
-            long</div>
-        <p class="p-note">Tips: This is the second of 8 words to be flashed <br>
-            Ask children to colour the word on their Treasure Trail Activity Sheet.</p>
-    </div>
-
-    {{-- treasure panel --}}
-    <div class="phonics-panel flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-k/flashcard/long.m4a') }}">
-
-        <img src="{{ asset('assets/images/phonicsl1/letter_k/word8.png') }}" class="w-[45vw]">
-    </div>
-
-    {{-- treasure Panel --}}
-    <div class="phonics-panel flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-k/flashcard/on.m4a') }}">
-
-        <div
-            class="w-[30vw] text-center h-[10vw] rounded-2xl text-[5vw] bg-[#F7B94A] text-white flex justify-center items-center">
-            on</div>
-        <p class="p-note">Tips: This is the second of 8 words to be flashed <br>
-            Ask children to colour the word on their Treasure Trail Activity Sheet.</p>
-    </div>
-
-    {{-- treasure panel --}}
-    <div class="phonics-panel flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-k/flashcard/on.m4a') }}">
-        <img src="{{ asset('assets/images/phonicsl1/letter_k/word9.png') }}" class="w-[45vw]">
-    </div>
-
-    {{-- treasure panel --}}
-    <div class="phonics-panel flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-k/allwords.m4a') }}">
-        <img src="{{ asset('assets/images/phonicsl1/letter_k/word10.png') }}" class="w-[45vw]">
+        <h2 class="text-white text-[2vw] text-center">Have you got the correct word wall?</h2>
+        <img src="{{ asset('assets/images/phonicsl1/letter_l/w-wall.png') }}" class="w-[35vw]" />
     </div>
 
 
@@ -213,7 +102,6 @@
             <img src="{{ asset('assets/images/phonicsl1/global/btns/next-btn.png') }}" />
         </button>
     </div>
-
     <div class="down-btn-container">
         <button class="doneButton hidden">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/done.png') }}" />
@@ -234,8 +122,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_k') }}";
-            const doneURL = "{{ url('/phonics/letter_k') }}";
+            const returnURL = "{{ url('/phonics/letter_l') }}";
+            const doneURL = "{{ url('/phonics/letter_l') }}";
 
             // Track current position
             let currentSlide = 0;
@@ -422,6 +310,38 @@
             window.speechSynthesis.onvoiceschanged = () => {
                 window.speechSynthesis.getVoices();
             };
+
+            // 🔊 ITEM CLICK AUDIO LOGIC (Items 1-4)
+            const items = document.querySelectorAll('.ietm-1, .ietm-2, .ietm-3, .ietm-4');
+
+            // Define audio paths for each item
+            const itemAudioPaths = {
+                'ietm-1': "{{ asset('assets/audio/phonics_audio/letter-d/getting-dark.m4a') }}",
+                'ietm-2': "{{ asset('assets/audio/phonics_audio/letter-d/cahse.m4a') }}",
+                'ietm-3': "{{ asset('assets/audio/phonics_audio/letter-d/buddy-chasing.m4a') }}",
+                'ietm-4': "{{ asset('assets/audio/phonics_audio/letter-d/late-dinner.m4a') }}"
+            };
+
+            items.forEach(item => {
+                item.addEventListener('click', function(e) {
+                    e.preventDefault();
+
+                    // Stop any currently playing audio
+                    stopAllAudio();
+
+                    // Get the item class to determine which audio to play
+                    const itemClass = Array.from(item.classList).find(cls => cls.startsWith(
+                        'ietm-'));
+
+                    if (itemClass && itemAudioPaths[itemClass]) {
+                        currentAudio = new Audio(itemAudioPaths[itemClass]);
+                        currentAudio.play().catch(err => console.log('Audio play failed:', err));
+                    }
+                });
+
+                // Add pointer cursor to indicate clickability
+                item.style.cursor = 'pointer';
+            });
 
             // INITIALIZE
             showSlide(currentSlide);

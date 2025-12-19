@@ -59,8 +59,6 @@
         <h2 class="text-white text-[1.5vw]">Choose a word to fill in the blank.</h2>
 
         <h2 class="stroke panel-title">Kim cannot <span class="text-underline">________</span> her kitten.</h2>
-        <h2 class="stroke panel-title">Faith catches five fish!</h2>
-
         <img src="{{ asset('assets/images/phonicsl1/letter_k/missing.gif') }}" class="w-[15vw]">
         <img src="{{ asset('assets/images/phonicsl1/letter_k/line1.png') }}">
         <p class="p-note">Tips: Use this slide to guide children to select the correct word to fill in the blank.
