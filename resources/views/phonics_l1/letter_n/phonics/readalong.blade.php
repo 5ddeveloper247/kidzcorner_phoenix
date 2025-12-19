@@ -41,40 +41,41 @@
 @section('content')
 
     {{-- title --}}
-    <h2 class="top-title stroke">Animated Letters</h2>
+    <h2 class="top-title stroke"> Read Along</h2>
 
     {{-- panel 1 --}}
-    <div class="phonics-panel no-bg mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio/SingAlong.mp3') }}">
+    <div class="phonics-panel no-bg mb-[2vw]"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-b/read-along.mp3') }}">
         <div class="relative">
-            <img src="{{ asset('assets/images/phonicsl1/letter_a/an-board.png') }}" />
+            <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" />
             {{-- gifs --}}
+            <img src="{{ asset('assets/images/phonicsl1/global/gifs/buddy.gif') }}" class="h-[20vw] bottom-0 absolute" />
             <img src="{{ asset('assets/images/phonicsl1/global/gifs/lili.gif') }}"
-                class="h-[20vw] bottom-[2vw] right-[18vw] absolute" />
+                class="h-[20vw] bottom-0 right-0 absolute" />
 
+            <h1 class="text-white text-[4vw] absolute top-[12vw] left-[19vw]"> Read along <br> with us!</h1>
 
-            <p class="p-note absolute bottom-[0vw] left-[10%]">Tip: Click on the appropriate rock to see the stroke for
-                an uppercase or lowercase letter. <br>
-                <a href="" class="c-btn info-btn1">Click here</a> to find out why writing is important in a phonics
-                programme.
-            </p>
+            <p class="p-note absolute bottom-[1vw] left-[22%]">Tip: <a class="c-btn info-btn1">Click here</a> to find out
+                why
+                reading words is important.</p>
         </div>
     </div>
 
+
     {{-- Side Info Panel --}}
     <div class="phonics-panel info-panel-1 flex flex-col mt-[-2vw] gap-y-[2vw]">
-        <h1 class="panel-title stroke">Reading Words in Stories</h1>
-        <div class="flex items-start">
-            <div class="flex flex-col justify-around h-100 text-start">
-                <ul class="list-disc text-start panel-ul space-y-[1.5vw]">
-                    <li>Adams (1990) suggested that children need to recognise the
-                        forms of the letters automatically to be able to recognise
-                        words fluently.</li>
-                    <li>In this section, children gain familiarity with both the upper and
-                        lowercase letters as they learn the forms of the letters.</li>
-                </ul>
-                <p class="text-white text-[.9vw]">Adams, M.J. (1990). Beginning to Read: Thinking and Learning About Print.
-                    Cambridge, MA: MIT Press.</p>
-            </div>
+        <h1 class="panel-title stroke">Practice in Reading Words</h1>
+        <div class="flex items-end">
+            <ul class="list-disc text-start panel-ul space-y-[1.5vw]">
+
+                <li>The ultimate purpose of phonics instruction is for children to learn to read words. Successful phonics
+                    programs provide a great deal of practice in reading words containing the
+                    letter-sound relationships that are taught.</li>
+                <li>Use this section with the children to practise reading words containing the letter-sound patterns in a
+                    sentence.Spelling patterns are learnt through continued practice in reading words containing those
+                    patterns.
+                    Children recognize words automatically by using spelling patterns.</li>
+            </ul>
 
             <img src="{{ asset('assets/images/phonicsl1/global/learning.png') }}" class="h-[20vw]" />
         </div>
@@ -82,36 +83,114 @@
 
 
     {{-- Panel 2 --}}
-    <div class="phonics-panel flex flex-col items-center gap-y-[3vw]">
-        <a class="info-btn2">
-            <img src="{{ asset('assets/images/phonicsl1/letter_m/mm1.png') }}" class="h-[17vw]" /></a>
-        <p class="p-note">Tip: Click on the letter to see a demonstration of the stroke. Follow up <br>
-            with the Writing Activity Sheet in the Pupil's Activity Book.</p>
+    <div class="phonics-panel flex flex-col justify-between h-[80%] self-end">
+        <div class="flex flex-col items-center justify-center gap-[2vw]">
+            <img src="{{ asset('assets/images/phonicsl1/letter_n/n-nest.png') }}" class="w-[25vw]" />
+            <h1 class="text-[2vw] text-[#f7b94a]">Never stand near a nest.</h1>
+        </div>
+        <p class="p-note">Tip: Music will be automatically played twice. Click on the sound icon to repeat music.</p>
+
+        {{-- sound Button --}}
+        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton"
+            data-audio="{{ asset('assets/audio/phonics_audio/letter-n/niga.m4a') }}">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+        </button>
     </div>
 
 
-    {{-- Panel 3 --}}
-    <div class="phonics-panel info-panel-2 flex flex-col items-center h-full justify-between">
-        <img src="{{ asset('assets/images/phonicsl1/letter_m/m-1.gif') }}" class="h-[20vw]" />
-        <p class="p-note">Tip: Click on the letter to see a demonstration of the stroke. </p>
+    <div class="phonics-panel done-hide next-hide">
+        <div class="flex gap-x-[4vw] items-center justify-center">
+            <div>
+                <div class="relative ml-[10vw]">
+                    <img src="{{ asset('assets/images/phonicsl1/global/blank.png') }}" class="w-[18vw]" />
+                    <h2 class="text-[1.2vw] !text-[#B76E33] absolute top-[2vw] right-[2vw]">Help me complete <br> the
+                        sentence
+                        with <br> a word beginning <br> with ‘m’.</h2>
+                </div>
+                <img src="{{ asset('assets/images/phonicsl1/global/teacher.png') }}" class="h-[20vw]" />
+            </div>
+            <div class="flex flex-col items-center">
+                <div class="bg-no-repeat bg-center bg-contain h-[30vw] w-[28vw] mt-[-7vw] flex justify-center items-end"
+                    style="background-image: url('{{ asset('assets/images/phonicsl1/global/board.png') }}')">
+
+                    <div class="grid grid-cols-2 gap-x-[4vw] gap-y-[1.5vw] place-items-center mb-[3vw]">
+                        {{-- this is false --}}
+                        <div class="flex items-start">
+                            <a class="hover:brightness-110" id="false">
+                                <img src="{{ asset('assets/images/phonicsl1/letter_f/fox.png') }}" class="w-[6vw]" />
+                            </a>
+                            {{-- sound Button --}}
+                            <button class="w-[3vw]" id="soundButton" data-letter="fox">
+                                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                            </button>
+                        </div>
+
+                        {{-- falsde --}}
+                        <div class="flex items-start mb-[1vw]">
+
+                            <a class="w-[6vw] hover:brightness-110 " id="false">
+                                <img src="{{ asset('assets/images/phonicsl1/letter_l/lemon.png') }}" />
+                            </a>
+                            {{-- sound Button --}}
+                            <button class="w-[3vw]" id="soundButton" data-letter="lemon">
+                                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                            </button>
+                        </div>
+
+                        {{-- true --}}
+                        <div class="col-span-2 flex justify-center ">
+                            <div class="flex items-start gap-x-[1vw]">
+                                <a class="hover:brightness-110" id="true">
+                                    <img src="{{ asset('assets/images/phonicsl1/letter_n/nur.png') }}" class="h-[6vw] " />
+                                </a>
+                                {{-- sound Button --}}
+                                <button class="w-[3vw]" id="soundButton" data-letter="nurse">
+                                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="text-white text-[1.5vw]">Look at the ________!</h2>
+
+            </div>
+        </div>
+        <p class="p-note">Tip: Ask children to select the picture that matches the focus letter <br>
+            sound. If needed, click on the sound icons to listen to the words.</p>
     </div>
 
 
-    {{-- Panel 4 --}}
-    <div class="phonics-panel flex flex-col items-center gap-y-[5vw]">
-        <a class="info-btn3">
-            <img src="{{ asset('assets/images/phonicsl1/letter_m/mm2.png') }}" class="h-[17vw]" /></a>
-        <p class="p-note">Tip: Click on the letter to see a demonstration of the stroke. Follow up <br>
-            with the Writing Activity Sheet in the Pupil's Activity Book.</p>
+
+    {{-- Panel --}}
+    {{-- Try Again --}}
+    <div id="tryAgain" class="fixed inset-0 z-[1000] hidden  items-center justify-center bg-[#0000002e]  backdrop-blur-sm">
+        <div class="w-[60vw] relative h-[40vw] bg-contain bg-no-repeat bg-center flex flex-col justify-center items-center rounded-lg "
+            style="background-image: url('{{ asset('assets/images/K2/exit.png') }}');">
+            <p class="text-[3vw] !text-[#F8473A] stroke font-bold">Try Again?</p>
+            <div class="mt-[1vw] ">
+                <img src="{{ asset('assets/images/phonicsl1/global/gifs/tryagain.gif') }}" class="h-[20vw]"
+                    alt="Animation" />
+
+            </div>
+            <a href="#" id="retry"
+                class="text-[#F8473A] text-[2vw] font-bold stroke hover:scale-110 transition-transform absolute bottom-[6vw] right-[10vw]">Retry</a>
+        </div>
     </div>
 
-    {{-- Panel 5 --}}
-    <div class="phonics-panel info-panel-3 flex flex-col items-center gap-y-[4vw]">
-        <img src="{{ asset('assets/images/phonicsl1/letter_m/m-2.gif') }}" class="h-[20vw]" />
-        <p class="p-note">Tip: Click on the letter to see a demonstration of the stroke. </p>
+    {{-- Well Done --}}
+    <div id="wellDone" class="fixed inset-0 z-[1000] hidden  items-center justify-center bg-[#0000002e]  backdrop-blur-sm">
+        <div class="w-[60vw] relative h-[40vw] bg-contain bg-no-repeat bg-center flex flex-col justify-center items-center rounded-lg "
+            style="background-image: url('{{ asset('assets/images/K2/exit.png') }}');">
+            <p class="text-[3vw] !text-[#59967D] stroke font-bold">Well Done!</p>
+            <div class="mt-[1vw] ">
+                <img src="{{ asset('assets/images/phonicsl1/global/gifs/welldone.gif') }}" class="h-[20vw]"
+                    alt="Animation" />
+
+            </div>
+            <a href="#" id="close"
+                class="text-[#59967D] text-[2vw] font-bold stroke hover:scale-110 transition-transform absolute bottom-[6vw] right-[10vw]">Close</a>
+        </div>
     </div>
-
-
 
 
     {{-- All Buttons --}}
@@ -161,8 +240,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_m') }}";
-            const doneURL = "{{ url('/phonics/letter_m') }}";
+            const returnURL = "{{ url('/phonics/letter_n') }}";
+            const doneURL = "{{ url('/phonics/letter_n') }}";
 
             // Track current position
             let currentSlide = 0;
@@ -170,7 +249,7 @@
             let returnToSlide = null;
             let specialSlideClass = null;
 
-            //  Global audio tracking
+            // 🔊 Global audio tracking
             let currentAudio = null;
 
             // 🛑 Function to stop all audio/speech
@@ -225,6 +304,26 @@
                 return false;
             }
 
+            function speakLetter(letter) {
+                window.speechSynthesis.cancel();
+                const utterance = new SpeechSynthesisUtterance(letter);
+                utterance.rate = 0.8;
+                utterance.pitch = 1.2;
+                utterance.volume = 1;
+                const voices = window.speechSynthesis.getVoices();
+                const femaleVoice = voices.find(voice =>
+                    voice.name.includes('Female') ||
+                    voice.name.includes('female') ||
+                    voice.name.includes('Woman') ||
+                    voice.name.includes('Google US English') ||
+                    voice.name.includes('Microsoft Zira')
+                );
+                if (femaleVoice) {
+                    utterance.voice = femaleVoice;
+                }
+                window.speechSynthesis.speak(utterance);
+            }
+
             // DISPLAY FUNCTIONS
             function showSlide(slideIndex) {
                 const ajaxSection = document.getElementById('ajax-section');
@@ -273,17 +372,40 @@
                     }
                 }
 
-                //  Auto-play audio if slide has data-slide-audio attribute
+                // 🔊 AUTO-PLAY LOGIC (Priority order):
+                // 1. Check for data-slide-audio attribute on the slide itself
                 const slideAudioSrc = currentSlideElement.getAttribute('data-slide-audio');
                 if (slideAudioSrc) {
-                    // Small delay to ensure slide is visible before playing
                     setTimeout(() => {
                         currentAudio = new Audio(slideAudioSrc);
                         currentAudio.play().catch(err => console.log('Auto-play failed:', err));
                     }, 300);
+                    return; // Exit early, don't check for sound button
+                }
+
+                // 2. Check for sound button with data-audio attribute
+                const soundButton = currentSlideElement.querySelector('#soundButton[data-audio]');
+                if (soundButton) {
+                    const audioSrc = soundButton.getAttribute('data-audio');
+                    if (audioSrc) {
+                        setTimeout(() => {
+                            currentAudio = new Audio(audioSrc);
+
+                            // Play twice as mentioned in tips
+                            let playCount = 0;
+                            currentAudio.play().catch(err => console.log('Auto-play failed:', err));
+
+                            currentAudio.onended = function() {
+                                playCount++;
+                                if (playCount < 2) {
+                                    currentAudio.currentTime = 0;
+                                    currentAudio.play();
+                                }
+                            };
+                        }, 300);
+                    }
                 }
             }
-
             // NAVIGATION FUNCTIONS
             function goNext() {
                 if (currentSlide >= slides.length - 1) return;
@@ -440,6 +562,78 @@
 
             // INITIALIZE
             showSlide(currentSlide);
+        });
+
+
+        // panel
+        document.addEventListener('DOMContentLoaded', function() {
+            // Get elements
+            const tryAgainPanel = document.getElementById('tryAgain');
+            const wellDonePanel = document.getElementById('wellDone');
+            const retryBtn = document.getElementById('retry');
+            const closeBtn = document.getElementById('close'); // Close button in Well Done panel
+
+            // Get all letter buttons by ID (multiple elements with same ID - need querySelectorAll)
+            const falseLetters = document.querySelectorAll('[id="false"]');
+            const trueLetters = document.querySelectorAll('[id="true"]');
+
+            // Create audio elements
+            const tryAgainSound = new Audio('{{ asset('assets/audio/phonics_audio/tryagain.mp3') }}');
+            const wellDoneSound = new Audio('{{ asset('assets/audio/phonics_audio/welldone.mp3') }}');
+
+            // Function to show panel and play sound automatically
+            function showPanelWithSound(panel, audioElement) {
+                panel.style.display = 'flex';
+                // Play sound automatically when panel opens
+                audioElement.currentTime = 0;
+                audioElement.play().catch(err => console.log('Audio play failed:', err));
+            }
+
+            // Handle FALSE letter clicks (show try again panel with sound)
+            falseLetters.forEach(letter => {
+                letter.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    showPanelWithSound(tryAgainPanel, tryAgainSound);
+                });
+            });
+
+            // Handle TRUE letter click (show well done panel with sound)
+            trueLetters.forEach(letter => {
+                letter.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    showPanelWithSound(wellDonePanel, wellDoneSound);
+                });
+            });
+
+            // Handle Retry button - close panel and stay on same slide
+            retryBtn.addEventListener('click', function(e) {
+                e.preventDefault();
+                tryAgainPanel.style.display = 'none';
+                // Stop the sound if still playing
+                tryAgainSound.pause();
+                tryAgainSound.currentTime = 0;
+            });
+
+            // Handle Close button - redirect to route
+            closeBtn.addEventListener('click', function(e) {
+                e.preventDefault();
+                // Stop the sound if still playing
+                wellDoneSound.pause();
+                wellDoneSound.currentTime = 0;
+                window.location.href = '{{ url('/phonics/letter_n') }}';
+            });
+
+            // Optional: Sound button functionality
+            const soundButtons = document.querySelectorAll('[id="soundButton"]');
+            soundButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const letter = this.getAttribute('data-letter');
+                    const letterSound = new Audio('{{ asset('sounds/letters/') }}' + letter +
+                        '.mp3');
+                    letterSound.currentTime = 0;
+                    letterSound.play().catch(err => console.log('Audio play failed:', err));
+                });
+            });
         });
     </script>
 @endpush
