@@ -161,33 +161,38 @@
 
     <div id="buttons" class="absolute flex flex-row gap-6 z-90">
 
-        <!-- Home Button -->
-        <button id="homeButton">
+        <!-- Return Button (goes back one slide) -->
+        <button id="returnButton">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/return-btn.png') }}" />
         </button>
 
-        <!-- return Button -->
+        <!-- Home Button (goes to specific URL) -->
         <button id="homeButton">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/home-btn.png') }}" />
         </button>
 
         <!-- Close Button -->
         <button id="closeButton">
-
             <img src="{{ asset('assets/images/phonicsl1/global/btns/cancel.png') }}" />
         </button>
     </div>
 @endsection
 
-
+@push('script')
 <script>
     document.addEventListener("DOMContentLoaded", () => {
         const slides = document.querySelectorAll("#slide-board");
         const startBtn = document.querySelector(".start-btn");
         const nextBtn = document.getElementById("next-btn");
         const doneBtn = document.getElementById("done-btn");
+        const returnButton = document.getElementById("returnButton");
+        const homeButton = document.getElementById("homeButton");
+        const closeButton = document.getElementById("closeButton");
 
         let currentSlide = 0;
+
+        // URL to redirect when on first slide or home button
+        const homeURL = "{{ url('/phonics') }}"; // Change this to your desired home URL
 
         // Function to show specific slide
         function showSlide(index) {
@@ -241,7 +246,37 @@
             });
         }
 
+        // Return button - go back one slide or redirect if on first slide
+        if (returnButton) {
+            returnButton.addEventListener("click", () => {
+                if (currentSlide === 0) {
+                    // If on first slide, redirect to home/previous page
+                    window.location.href = homeURL;
+                } else {
+                    // Otherwise, go back one slide
+                    currentSlide--;
+                    showSlide(currentSlide);
+                }
+            });
+        }
+
+        // Home button - always redirect to home
+        if (homeButton) {
+            homeButton.addEventListener("click", () => {
+                window.location.href = homeURL;
+            });
+        }
+
+        // Close button - redirect or close
+        if (closeButton) {
+            closeButton.addEventListener("click", () => {
+                window.location.href = homeURL;
+                // Or use: window.close(); if you want to close the window
+            });
+        }
+
         // Initialize - show first slide
         showSlide(0);
     });
 </script>
+@endpush

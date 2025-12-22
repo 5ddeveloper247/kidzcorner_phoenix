@@ -33,18 +33,18 @@
 
     {{-- Panel 2 --}}
     <div class="phonics-panel flex flex-col justify-between h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-m/flashcard/some.m4a') }}">
-        <img src="{{ asset('assets/images/phonicsl1/letter_m/some.png') }}" class="w-[14vw]" />
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-n/flashcard/is.m4a') }}">
+        <img src="{{ asset('assets/images/phonicsl1/letter_n/is.png') }}" class="w-[14vw]" />
         <p class="p-note">Tip: These are 10 words on the list. Guide children to read each word.</p>
     </div>
 
 
     {{-- Panel 3 --}}
     <div class="phonics-panel flex flex-col justify-between h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-m/flashcard/then.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-n/flashcard/not.m4a') }}">
         <div class="flex items-start">
-            <img src="{{ asset('assets/images/phonicsl1/letter_m/some.png') }}" class="w-[14vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_m/then.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_n/is.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_n/not.png') }}" class="w-[14vw]" />
         </div>
         <p class="p-note">Tip: These are 10 words on the list. Guide children to read each word.</p>
     </div>
@@ -52,11 +52,11 @@
 
     {{-- Panel 4 --}}
     <div class="phonics-panel flex flex-col justify-between h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-m/flashcard/go.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-n/flashcard/his.m4a') }}">
         <div class="flex items-start">
-            <img src="{{ asset('assets/images/phonicsl1/letter_m/some.png') }}" class="w-[14vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_m/then.png') }}" class="w-[14vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_m/go.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_n/is.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_n/not.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_n/his.png') }}" class="w-[14vw]" />
         </div>
         <p class="p-note">Tip: These are 10 words on the list. Guide children to read each word.</p>
     </div>
@@ -64,12 +64,12 @@
 
     {{-- Panel 5 --}}
     <div class="phonics-panel flex flex-col justify-between h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-m/flashcard/goes.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-n/flashcard/and.mp3') }}">
         <div class="grid grid-cols-3 items-start">
-            <img src="{{ asset('assets/images/phonicsl1/letter_m/some.png') }}" class="w-[14vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_m/then.png') }}" class="w-[14vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_m/go.png') }}" class="w-[14vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_m/goes.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_n/is.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_n/not.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_n/his.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_n/and.png') }}" class="w-[14vw]" />
         </div>
         <p class="p-note">Tip: These are 10 words on the list. Guide children to read each word.</p>
     </div>
@@ -77,27 +77,27 @@
 
     {{-- Panel 6 --}}
     <div class="phonics-panel flex flex-col justify-between h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-m/flashcard/for.mp3') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-n/flashcard/to.m4a') }}">
         <div class="grid grid-cols-3 items-start">
-            <img src="{{ asset('assets/images/phonicsl1/letter_m/some.png') }}" class="w-[14vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_m/then.png') }}" class="w-[14vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_m/go.png') }}" class="w-[14vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_m/goes.png') }}" class="w-[14vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_m/for.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_n/is.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_n/not.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_n/his.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_n/and.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_n/to.png') }}" class="w-[14vw]" />
         </div>
         <p class="p-note">Tip: These are 10 words on the list. Guide children to read each word.</p>
     </div>
 
     {{-- Panel 7 --}}
     <div class="phonics-panel flex flex-col justify-between h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-m/flashcard/she.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-n/flashcard/now.m4a') }}">
         <div class="grid grid-cols-3 items-start">
-            <img src="{{ asset('assets/images/phonicsl1/letter_m/some.png') }}" class="w-[14vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_m/then.png') }}" class="w-[14vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_m/go.png') }}" class="w-[14vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_m/goes.png') }}" class="w-[14vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_m/for.png') }}" class="w-[14vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_m/she.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_n/is.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_n/not.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_n/his.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_n/and.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_n/to.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_n/now.png') }}" class="w-[14vw]" />
         </div>
         <p class="p-note">Tip: These are 10 words on the list. Guide children to read each word.</p>
     </div>
@@ -105,31 +105,31 @@
 
     {{-- Panel 8 --}}
     <div class="phonics-panel flex flex-col justify-between h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-m/flashcard/at.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-n/flashcard/he.m4a') }}">
         <div class="grid grid-cols-3 items-start">
-            <img src="{{ asset('assets/images/phonicsl1/letter_m/some.png') }}" class="w-[14vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_m/then.png') }}" class="w-[14vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_m/go.png') }}" class="w-[14vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_m/goes.png') }}" class="w-[14vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_m/for.png') }}" class="w-[14vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_m/she.png') }}" class="w-[14vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_m/at.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_n/is.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_n/not.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_n/his.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_n/and.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_n/to.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_n/now.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_n/he.png') }}" class="w-[14vw]" />
         </div>
         <p class="p-note">Tip: These are 10 words on the list. Guide children to read each word.</p>
     </div>
 
     {{-- Panel 9 --}}
     <div class="phonics-panel flex flex-col justify-between h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-m/flashcard/of.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-n/flashcard/look.m4a') }}">
         <div class="grid grid-cols-3 items-start">
-            <img src="{{ asset('assets/images/phonicsl1/letter_m/some.png') }}" class="w-[14vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_m/then.png') }}" class="w-[14vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_m/go.png') }}" class="w-[14vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_m/goes.png') }}" class="w-[14vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_m/for.png') }}" class="w-[14vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_m/she.png') }}" class="w-[14vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_m/at.png') }}" class="w-[14vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_m/of.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_n/is.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_n/not.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_n/his.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_n/and.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_n/to.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_n/now.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_n/he.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_n/look.png') }}" class="w-[14vw]" />
         </div>
         <p class="p-note">Tip: These are 10 words on the list. Guide children to read each word.</p>
     </div>
@@ -137,17 +137,17 @@
 
     {{-- Panel 10 --}}
     <div class="phonics-panel flex flex-col justify-between h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-m/flashcard/me.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-n/flashcard/him.m4a') }}">
         <div class="grid grid-cols-3 items-start">
-            <img src="{{ asset('assets/images/phonicsl1/letter_m/some.png') }}" class="w-[14vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_m/then.png') }}" class="w-[14vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_m/go.png') }}" class="w-[14vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_m/goes.png') }}" class="w-[14vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_m/for.png') }}" class="w-[14vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_m/she.png') }}" class="w-[14vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_m/at.png') }}" class="w-[14vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_m/of.png') }}" class="w-[14vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_m/me.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_n/is.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_n/not.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_n/his.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_n/and.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_n/to.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_n/now.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_n/he.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_n/look.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_n/him.png') }}" class="w-[14vw]" />
         </div>
         <p class="p-note">Tip: These are 10 words on the list. Guide children to read each word.</p>
     </div>
@@ -155,19 +155,19 @@
 
     {{-- Panel 11 --}}
     <div class="phonics-panel flex flex-col justify-between h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-m/flashcard/my.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-n/flashcard/their.m4a') }}">
         <div class="grid grid-cols-3 items-start mt-[2vw]">
-            <img src="{{ asset('assets/images/phonicsl1/letter_m/some.png') }}" class="w-[14vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_m/then.png') }}" class="w-[14vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_m/go.png') }}" class="w-[14vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_m/goes.png') }}" class="w-[14vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_m/for.png') }}" class="w-[14vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_m/she.png') }}" class="w-[14vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_m/at.png') }}" class="w-[14vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_m/of.png') }}" class="w-[14vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_m/me.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_n/is.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_n/not.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_n/his.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_n/and.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_n/to.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_n/now.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_n/he.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_n/look.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_n/him.png') }}" class="w-[14vw]" />
             <div class="col-span-3 flex justify-center">
-                <img src="{{ asset('assets/images/phonicsl1/letter_m/my.png') }}" class="w-[14vw]" />
+                <img src="{{ asset('assets/images/phonicsl1/letter_n/their.png') }}" class="w-[14vw]" />
             </div>
         </div>
         <p class="p-note">Tip: These are 10 words on the list. Guide children to read each word.</p>
@@ -221,8 +221,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_m') }}";
-            const doneURL = "{{ url('/phonics/letter_m') }}";
+            const returnURL = "{{ url('/phonics/letter_n') }}";
+            const doneURL = "{{ url('/phonics/letter_n') }}";
 
             // Track current position
             let currentSlide = 0;

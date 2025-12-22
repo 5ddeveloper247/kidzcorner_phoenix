@@ -151,7 +151,7 @@
                         </div>
                     </div>
                 </div>
-                <h2 class="text-white text-[1.5vw]">Look at the ________!</h2>
+                <h2 class="text-white text-[1.5vw]">Where is the ________!</h2>
 
             </div>
         </div>

@@ -61,44 +61,44 @@
 
     {{-- Panel 2 --}}
     <div class="phonics-panel flex flex-col h-full items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-m/st1.m4a') }}">
-        <h1 class="text-white text-[3vw]"><span class="text-[#f7b94a]">M</span>eg</h1>
-        <img src="{{ asset('assets/images/phonicsl1/letter_m/meg.png') }}" class="h-[25vw]" />
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-n/stn1.m4a') }}">
+        <h1 class="text-white text-[3vw]"><span class="text-[#f7b94a]">N</span>ick</h1>
+        <img src="{{ asset('assets/images/phonicsl1/letter_n/hi.png') }}" class="h-[25vw]" />
     </div>
 
 
     {{-- Panel 3 --}}
     <div class="phonics-panel relative flex flex-col h-full items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-m/st2.m4a') }}">
-        <img src="{{ asset('assets/images/phonicsl1/letter_m/beging.gif') }}" class="h-[25vw]" />
-        <h1 class="text-white text-[3vw]"><span class="text-[#f7b94a]">M</span>ummy pours some <span
-                class="text-[#f7b94a]">m</span>ilk for <span class="text-[#f7b94a]">M</span>eg.</h1>
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-n/stn2.m4a') }}">
+        <img src="{{ asset('assets/images/phonicsl1/letter_n/sad.gif') }}" class="h-[25vw]" />
+        <h1 class="text-white text-[3vw]"><span class="text-[#f7b94a]">N</span>ick is not happy</h1>
     </div>
 
 
     {{-- Panel 4 --}}
     <div class="phonics-panel relative flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-m/st3.m4a') }}">
-        <img src="{{ asset('assets/images/phonicsl1/letter_m/praying.gif') }}" class="h-[25vw]" />
-        <h1 class="text-white text-[2.5vw]"> <span class="text-[#f7b94a]">M</span>eg looks up at the <span
-                class="text-[#f7b94a]">m</span>oon.</h1>
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-n/stn3.m4a') }}">
+        <img src="{{ asset('assets/images/phonicsl1/letter_n/sad.gif') }}" class="h-[25vw]" />
+        <h1 class="text-white text-[2.5vw]"> <span class="text-[#f7b94a]">N</span>ick feels sick.</h1>
     </div>
 
 
     {{-- Panel 5 --}}
     <div class="phonics-panel relative flex flex-col items-center justify-between h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-m/st4.m4a') }}">
-        <img src="{{ asset('assets/images/phonicsl1/letter_m/sleeping.gif') }}" class="h-[25vw]" />
-        <h1 class="text-white text-[2.5vw]">Then she goes to sleep on the <span class="text-[#f7b94a]">m</span>attress.</h1>
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-n/stn4.m4a') }}">
+        <img src="{{ asset('assets/images/phonicsl1/letter_n/nurse.gif') }}" class="h-[25vw] rounded-[1vw]" />
+        <h1 class="text-white text-[2.5vw]">The <span class="text-[#f7b94a]">n</span>urse tells <span
+                class="text-[#f7b94a]">N</span>ick to take a <span class="text-[#f7b94a]">n</span>ap.</h1>
     </div>
 
 
     {{-- Panel 6 --}}
     <div class="phonics-panel relative flex flex-col items-center h-full justify-between"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-m/st5.m4a') }}">
-        <img src="{{ asset('assets/images/phonicsl1/letter_m/dream.gif') }}" class="h-[25vw]" />
-        <h1 class="text-white text-[2.5vw]">She dreams of a <span class="text-[#f7b94a]">m</span>onkey on the moon.</h1>
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-n/stn5.m4a') }}">
+        <img src="{{ asset('assets/images/phonicsl1/letter_n/happy.gif') }}" class="h-[25vw] rounded-[1vw]" />
+        <h1 class="text-white text-[2.5vw]">Now he is <span class="text-[#f7b94a]">n</span>early better!</h1>
     </div>
+
 
 
 
@@ -149,8 +149,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_m') }}";
-            const doneURL = "{{ url('/phonics/letter_m') }}";
+            const returnURL = "{{ url('/phonics/letter_n') }}";
+            const doneURL = "{{ url('/phonics/letter_n') }}";
 
             // Track current position
             let currentSlide = 0;
