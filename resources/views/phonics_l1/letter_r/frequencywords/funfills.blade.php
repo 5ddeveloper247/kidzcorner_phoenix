@@ -33,58 +33,60 @@
                 <img src="{{ asset('assets/images/phonicsl1/global/click3.png') }}" class="w-[30vw]" />
                 <h3 class="text-[#B76E33] text-[1.5vw] absolute top-1/2 left-[45%] -translate-x-1/2 -translate-y-1/2">Do you
                     remember <br>
-                    the story of ‘Quilt <br>
-                    and Quill’? Help <br>
+                    the story of ‘Rain, <br>
+                    Rain’? Help <br>
                     me complete the <br>
                     story.</h3>
             </div>
             <img src="{{ asset('assets/images/phonicsl1/global/bear.png') }}" class="h-[25vw]" />
         </div>
-        <p class="p-note">Tips: Go through the story of 'Lick a Lick', if necessary. Ask children to turn to the Fun Fill-ins
+        <p class="p-note">Tips: Go through the story of 'Rain, Rain', if necessary. Ask children to turn to the Fun Fill-ins
             Activity Sheet in the Pupil's Activity Book.</p>
     </div>
 
 
     {{-- Panel 1 --}}
     <div class="phonics-panel flex flex-col items-center gap-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-q/funfills.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-r/funfills.m4a') }}">
         <h2 class="text-white text-[1.5vw]">Listen to these words:</h2>
-        <img src="{{ asset('assets/images/phonicsl1/letter_q/wordswall.png') }}" class="w-[40vw]">
+        <img src="{{ asset('assets/images/phonicsl1/letter_r/wordswall.png') }}" class="w-[40vw]">
         <p class="p-note">Tips: Look at the Word Search Activity Sheet in the Pupil's Activity Book. <br>
             There are 8 words to be found in the puzzle.</p>
     </div>
 
     {{-- treasure Panel --}}
-    <div class="phonics-panel flex flex-col items-center justify-between">
+    <div class="phonics-panel flex flex-col items-center justify-between gap-y-[1vw]">
         <h2 class="text-white text-[1.5vw]">Choose a word to fill in the blank.</h2>
 
-        <h2 class="stroke panel-title">A quill pen <span class="text-underline">______</span> Queenie.</h2>
+        <h2 class="stroke panel-title">Ron’s rabbit is ready <span class="text-underline">______</span> the rabbit race.
+        </h2>
 
-        <img src="{{ asset('assets/images/phonicsl1/letter_q/quill.gif') }}" class="h-[15vw]">
-        <img src="{{ asset('assets/images/phonicsl1/letter_q/line1.png') }}">
+        <img src="{{ asset('assets/images/phonicsl1/letter_r/race.png') }}" class="w-[20vw]">
+        <img src="{{ asset('assets/images/phonicsl1/letter_r/line1.png') }}">
         <p class="p-note">Tips: Use this slide to guide children to select the correct word to fill in the blank.
             Check result on next slide.</p>
 
     </div>
 
     {{-- treasure panel --}}
-    <div class="phonics-panel flex flex-col items-center justify-center">
+    <div class="phonics-panel flex flex-col items-center justify-center gap-[1vw]">
         <div class="h-fit relative">
-            <span class="text-white text-[2vw] absolute left-[45%] top-[-1vw]"> for</span>
-            <h2 class="stroke panel-title">A quill pen <span class="text-underline">______</span> Queenie.</h2>
+            <span class="text-white text-[2vw] absolute left-[52%] top-[-1vw]"> for</span>
+            <h2 class="stroke panel-title">Ron’s rabbit is ready <span class="text-underline">______</span> the rabbit race.
+            </h2>
         </div>
 
-        <img src="{{ asset('assets/images/phonicsl1/letter_q/quill.gif') }}" class="h-[25vw]">
+        <img src="{{ asset('assets/images/phonicsl1/letter_r/race.png') }}" class="w-[30vw]">
     </div>
 
     {{-- treasure Panel --}}
     <div class="phonics-panel flex flex-col items-center justify-center gap-y-[1vw]">
         <h2 class="text-white text-[1.5vw]">Choose a word to fill in the blank.</h2>
 
-        <h2 class="stroke panel-title">A quilt for <span class="text-underline">_____</span> queen.</h2>
+        <h2 class="stroke panel-title">It starts <span class="text-underline">_____</span> rain.</h2>
 
-        <img src="{{ asset('assets/images/phonicsl1/letter_q/queen.gif') }}" class="h-[15vw]">
-        <img src="{{ asset('assets/images/phonicsl1/letter_q/line2.png') }}">
+        <img src="{{ asset('assets/images/phonicsl1/letter_r/rain.png') }}" class="w-[15vw]">
+        <img src="{{ asset('assets/images/phonicsl1/letter_r/line2.png') }}">
         <p class="p-note">Tips: Use this slide to guide children to select the correct word to fill in the blank.
             Check result on next slide.</p>
 
@@ -93,11 +95,11 @@
     {{-- treasure panel --}}
     <div class="phonics-panel flex flex-col items-center justify-center">
         <div class="h-fit relative">
-            <span class="text-white text-[2vw] absolute right-[30%] top-[-1vw]">the</span>
-            <h2 class="stroke panel-title">A quilt for <span class="text-underline">_____</span> queen.</h2>
+            <span class="text-white text-[2vw] absolute right-[32%] top-[-1vw]">to</span>
+            <h2 class="stroke panel-title">It starts <span class="text-underline">_____</span> rain.</h2>
         </div>
 
-        <img src="{{ asset('assets/images/phonicsl1/letter_q/queen.gif') }}" class="h-[25vw]">
+        <img src="{{ asset('assets/images/phonicsl1/letter_r/rain.png') }}" class="w-[30vw]">
     </div>
 
 
@@ -105,13 +107,13 @@
     <div class="phonics-panel flex flex-col items-center justify-between gap-y-[1vw]">
         <h2 class="text-white text-[1.5vw]">Choose a word to fill in the blank.</h2>
 
-        <h2 class="stroke panel-title">Oh, the queen <span class="text-underline">_____</span> the quill pen.</h2>
+        <h2 class="stroke panel-title">Ron's rabbit run <span class="text-underline">_____</span> tha rock.</h2>
 
-        <div class="flex items-end">
-            <img src="{{ asset('assets/images/phonicsl1/letter_q/shocked.gif') }}" class="h-[17vw]">
-            <img src="{{ asset('assets/images/phonicsl1/letter_q/quill.gif') }}" class="h-[12vw]">
+        <div class="w-fit relative">
+            <img src="{{ asset('assets/images/phonicsl1/letter_r/run.gif') }}" class="w-[20vw] rounded-[1vw]">
+            <img src="{{ asset('assets/images/phonicsl1/letter_r/rain.gif') }}" class="absolute top-0 w-full h-full">
         </div>
-        <img src="{{ asset('assets/images/phonicsl1/letter_q/line3.png') }}">
+        <img src="{{ asset('assets/images/phonicsl1/letter_r/line3.png') }}">
         <p class="p-note">Tips: Use this slide to guide children to select the correct word to fill in the blank.
             Check result on next slide.</p>
 
@@ -121,12 +123,12 @@
     {{-- treasure panel --}}
     <div class="phonics-panel flex flex-col items-center justify-center gap-y-[2vw]">
         <div class="h-fit relative">
-            <span class="text-white text-[2vw] absolute right-[39%] top-[-1vw]"> wants</span>
-            <h2 class="stroke panel-title">Oh, the queen <span class="text-underline">_______</span> the quill pen.</h2>
+            <span class="text-white text-[2vw] absolute right-[28%] top-[-1vw]"> into</span>
+            <h2 class="stroke panel-title">Ron's rabbit run <span class="text-underline">_____</span> a rock.</h2>
         </div>
-        <div class="flex items-end">
-            <img src="{{ asset('assets/images/phonicsl1/letter_q/shocked.gif') }}" class="h-[25vw]">
-            <img src="{{ asset('assets/images/phonicsl1/letter_q/quill.gif') }}" class="h-[20vw]">
+        <div class="w-fit relative">
+            <img src="{{ asset('assets/images/phonicsl1/letter_r/run.gif') }}" class="w-[30vw] rounded-[1vw]">
+            <img src="{{ asset('assets/images/phonicsl1/letter_r/rain.gif') }}" class="absolute top-0 w-full h-full">
         </div>
     </div>
 
@@ -134,13 +136,10 @@
     <div class="phonics-panel flex flex-col items-center gap-y-[1vw]">
         <h2 class="text-white text-[1.5vw]">Choose a word to fill in the blank.</h2>
 
-        <h2 class="stroke panel-title">And Queenie wnats <span class="text-underline">_____</span> quilt.</h2>
+        <h2 class="stroke panel-title">Now the rabbit <span class="text-underline">_____</span> a red nose.</h2>
 
-        <div class="flex items-end">
-            <img src="{{ asset('assets/images/phonicsl1/letter_q/wow.gif') }}" class="h-[17vw]">
-            <img src="{{ asset('assets/images/phonicsl1/letter_q/gift.gif') }}" class="h-[13vw]">
-        </div>
-        <img src="{{ asset('assets/images/phonicsl1/letter_q/line4.png') }}">
+        <img src="{{ asset('assets/images/phonicsl1/letter_r/dizzy.gif') }}" class="w-[15vw]">
+        <img src="{{ asset('assets/images/phonicsl1/letter_r/line4.png') }}">
         <p class="p-note">Tips: Use this slide to guide children to select the correct word to fill in the blank.
             Check result on next slide.</p>
 
@@ -150,13 +149,10 @@
     {{-- treasure panel --}}
     <div class="phonics-panel flex flex-col items-center justify-center gap-y-[2vw]">
         <div class="h-fit relative">
-            <span class="text-white text-[2vw] absolute right-[20%] top-[-1vw]"> the</span>
-            <h2 class="stroke panel-title">And Queenie wnats <span class="text-underline">_____</span> quilt.</h2>
+            <span class="text-white text-[2vw] absolute right-[36%] top-[-1vw]">has</span>
+            <h2 class="stroke panel-title">Now the rabbit <span class="text-underline">_____</span> a red nose.</h2>
         </div>
-        <div class="flex items-end">
-            <img src="{{ asset('assets/images/phonicsl1/letter_q/wow.gif') }}" class="h-[25vw]">
-            <img src="{{ asset('assets/images/phonicsl1/letter_q/gift.gif') }}" class="h-[20vw]">
-        </div>
+        <img src="{{ asset('assets/images/phonicsl1/letter_r/dizzy.gif') }}" class="w-[25vw]">
     </div>
 
 
@@ -209,8 +205,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_q') }}";
-            const doneURL = "{{ url('/phonics/letter_q') }}";
+            const returnURL = "{{ url('/phonics/letter_r') }}";
+            const doneURL = "{{ url('/phonics/letter_r') }}";
 
             // Track current position
             let currentSlide = 0;

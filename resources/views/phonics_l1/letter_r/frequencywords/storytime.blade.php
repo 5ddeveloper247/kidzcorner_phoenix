@@ -11,154 +11,100 @@
         .p-note {
             font-size: 1.2vw;
             color: white !important;
-            width: 50vw;
+        }
 
+        .c-btn {
+            color: #F7B94A !important;
+        }
+
+        .large-title {
+            color: #F7B94A;
+            font-size: 20vw !important;
+        }
+
+        .link:hover {
+            color: #a37d3adb;
         }
 
         .panel-title {
             color: #F7B94A;
-            font-size: 2vw;
+            font-size: 3vw;
+        }
+
+        .panel-ul {
+            color: white;
+            font-size: 1.4vw;
         }
     </style>
 @endpush
 
 @section('content')
-    {{-- Top Title --}}
-    <h2 class="top-title stroke">Fun Fill-ins</h2>
+
+    {{-- title --}}
+    <h2 class="top-title stroke">Story Time</h2>
 
     {{-- panel 1 --}}
-    <div class="phonics-panel mb-[2vw]">
-        <div class="flex items-start ">
-            <div class="relative">
-                <img src="{{ asset('assets/images/phonicsl1/global/click3.png') }}" class="w-[30vw]" />
-                <h3 class="text-[#B76E33] text-[1.5vw] absolute top-1/2 left-[45%] -translate-x-1/2 -translate-y-1/2">Do you
-                    remember <br>
-                    the story of ‘Quilt <br>
-                    and Quill’? Help <br>
-                    me complete the <br>
-                    story.</h3>
-            </div>
-            <img src="{{ asset('assets/images/phonicsl1/global/bear.png') }}" class="h-[25vw]" />
-        </div>
-        <p class="p-note">Tips: Go through the story of 'Lick a Lick', if necessary. Ask children to turn to the Fun Fill-ins
-            Activity Sheet in the Pupil's Activity Book.</p>
-    </div>
+    <div class="phonics-panel no-bg mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio/storytime.mp3') }}">
+        <div class="relative">
+            <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" />
+            {{-- gifs --}}
+            <img src="{{ asset('assets/images/phonicsl1/global/gifs/buddy.gif') }}" class="h-[20vw] bottom-0 absolute" />
+            <img src="{{ asset('assets/images/phonicsl1/global/gifs/lili.gif') }}"
+                class="h-[20vw] bottom-0 right-0 absolute" />
 
+            <h1 class="text-white text-[4vw] absolute top-[12vw] left-[19vw]"> It's story <br> time!</h1>
 
-    {{-- Panel 1 --}}
-    <div class="phonics-panel flex flex-col items-center gap-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-q/funfills.m4a') }}">
-        <h2 class="text-white text-[1.5vw]">Listen to these words:</h2>
-        <img src="{{ asset('assets/images/phonicsl1/letter_q/wordswall.png') }}" class="w-[40vw]">
-        <p class="p-note">Tips: Look at the Word Search Activity Sheet in the Pupil's Activity Book. <br>
-            There are 8 words to be found in the puzzle.</p>
-    </div>
-
-    {{-- treasure Panel --}}
-    <div class="phonics-panel flex flex-col items-center justify-between">
-        <h2 class="text-white text-[1.5vw]">Choose a word to fill in the blank.</h2>
-
-        <h2 class="stroke panel-title">A quill pen <span class="text-underline">______</span> Queenie.</h2>
-
-        <img src="{{ asset('assets/images/phonicsl1/letter_q/quill.gif') }}" class="h-[15vw]">
-        <img src="{{ asset('assets/images/phonicsl1/letter_q/line1.png') }}">
-        <p class="p-note">Tips: Use this slide to guide children to select the correct word to fill in the blank.
-            Check result on next slide.</p>
-
-    </div>
-
-    {{-- treasure panel --}}
-    <div class="phonics-panel flex flex-col items-center justify-center">
-        <div class="h-fit relative">
-            <span class="text-white text-[2vw] absolute left-[45%] top-[-1vw]"> for</span>
-            <h2 class="stroke panel-title">A quill pen <span class="text-underline">______</span> Queenie.</h2>
-        </div>
-
-        <img src="{{ asset('assets/images/phonicsl1/letter_q/quill.gif') }}" class="h-[25vw]">
-    </div>
-
-    {{-- treasure Panel --}}
-    <div class="phonics-panel flex flex-col items-center justify-center gap-y-[1vw]">
-        <h2 class="text-white text-[1.5vw]">Choose a word to fill in the blank.</h2>
-
-        <h2 class="stroke panel-title">A quilt for <span class="text-underline">_____</span> queen.</h2>
-
-        <img src="{{ asset('assets/images/phonicsl1/letter_q/queen.gif') }}" class="h-[15vw]">
-        <img src="{{ asset('assets/images/phonicsl1/letter_q/line2.png') }}">
-        <p class="p-note">Tips: Use this slide to guide children to select the correct word to fill in the blank.
-            Check result on next slide.</p>
-
-    </div>
-
-    {{-- treasure panel --}}
-    <div class="phonics-panel flex flex-col items-center justify-center">
-        <div class="h-fit relative">
-            <span class="text-white text-[2vw] absolute right-[30%] top-[-1vw]">the</span>
-            <h2 class="stroke panel-title">A quilt for <span class="text-underline">_____</span> queen.</h2>
-        </div>
-
-        <img src="{{ asset('assets/images/phonicsl1/letter_q/queen.gif') }}" class="h-[25vw]">
-    </div>
-
-
-    {{-- treasure Panel --}}
-    <div class="phonics-panel flex flex-col items-center justify-between gap-y-[1vw]">
-        <h2 class="text-white text-[1.5vw]">Choose a word to fill in the blank.</h2>
-
-        <h2 class="stroke panel-title">Oh, the queen <span class="text-underline">_____</span> the quill pen.</h2>
-
-        <div class="flex items-end">
-            <img src="{{ asset('assets/images/phonicsl1/letter_q/shocked.gif') }}" class="h-[17vw]">
-            <img src="{{ asset('assets/images/phonicsl1/letter_q/quill.gif') }}" class="h-[12vw]">
-        </div>
-        <img src="{{ asset('assets/images/phonicsl1/letter_q/line3.png') }}">
-        <p class="p-note">Tips: Use this slide to guide children to select the correct word to fill in the blank.
-            Check result on next slide.</p>
-
-    </div>
-
-
-    {{-- treasure panel --}}
-    <div class="phonics-panel flex flex-col items-center justify-center gap-y-[2vw]">
-        <div class="h-fit relative">
-            <span class="text-white text-[2vw] absolute right-[39%] top-[-1vw]"> wants</span>
-            <h2 class="stroke panel-title">Oh, the queen <span class="text-underline">_______</span> the quill pen.</h2>
-        </div>
-        <div class="flex items-end">
-            <img src="{{ asset('assets/images/phonicsl1/letter_q/shocked.gif') }}" class="h-[25vw]">
-            <img src="{{ asset('assets/images/phonicsl1/letter_q/quill.gif') }}" class="h-[20vw]">
+            <p class="p-note absolute bottom-[1vw] left-[22%]">Tip: <a class="c-btn">Click here</a> to find
+                out why reading words is important.</p>
         </div>
     </div>
 
-    {{-- treasure Panel --}}
-    <div class="phonics-panel flex flex-col items-center gap-y-[1vw]">
-        <h2 class="text-white text-[1.5vw]">Choose a word to fill in the blank.</h2>
-
-        <h2 class="stroke panel-title">And Queenie wnats <span class="text-underline">_____</span> quilt.</h2>
-
-        <div class="flex items-end">
-            <img src="{{ asset('assets/images/phonicsl1/letter_q/wow.gif') }}" class="h-[17vw]">
-            <img src="{{ asset('assets/images/phonicsl1/letter_q/gift.gif') }}" class="h-[13vw]">
-        </div>
-        <img src="{{ asset('assets/images/phonicsl1/letter_q/line4.png') }}">
-        <p class="p-note">Tips: Use this slide to guide children to select the correct word to fill in the blank.
-            Check result on next slide.</p>
-
+    {{-- Panel 2 --}}
+    <div class="phonics-panel flex flex-col items-center justify-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-r/rst1.m4a') }}">
+        <h1 class="text-white text-[3vw]"><span class="text-[#f7b94a]">R</span>ain, <span class="text-[#f7b94a]">R</span>ain
+        </h1>
+        <img src="{{ asset('assets/images/phonicsl1/letter_r/rain.png') }}" class="w-[25vw]" />
     </div>
 
 
-    {{-- treasure panel --}}
-    <div class="phonics-panel flex flex-col items-center justify-center gap-y-[2vw]">
-        <div class="h-fit relative">
-            <span class="text-white text-[2vw] absolute right-[20%] top-[-1vw]"> the</span>
-            <h2 class="stroke panel-title">And Queenie wnats <span class="text-underline">_____</span> quilt.</h2>
-        </div>
-        <div class="flex items-end">
-            <img src="{{ asset('assets/images/phonicsl1/letter_q/wow.gif') }}" class="h-[25vw]">
-            <img src="{{ asset('assets/images/phonicsl1/letter_q/gift.gif') }}" class="h-[20vw]">
-        </div>
+    {{-- Panel 3 --}}
+    <div class="phonics-panel relative flex flex-col h-full items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-r/rst2.m4a') }}">
+        <img src="{{ asset('assets/images/phonicsl1/letter_r/race.png') }}" class="w-[30vw]" />
+        <h1 class="text-white text-[3vw]"><span class="text-[#f7b94a]">R</span>on’s <span
+                class="text-[#f7b94a]">r</span>abbit is <span class="text-[#f7b94a]">r</span>eady for the <span
+                class="text-[#f7b94a]">r</span>abbit <span class="text-[#f7b94a]">r</span>ace..</h1>
     </div>
 
+
+    {{-- Panel 4 --}}
+    <div class="phonics-panel relative flex flex-col items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-r/rst3.m4a') }}">
+        <img src="{{ asset('assets/images/phonicsl1/letter_r/rain.png') }}" class="w-[25vw]" />
+        <h1 class="text-white text-[2.5vw]">It starts to <span class="text-[#f7b94a]">r</span>ain.</h1>
+    </div>
+
+
+    {{-- Panel 5 --}}
+    <div class="phonics-panel relative flex flex-col items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-r/rst4.m4a') }}">
+        <div class="relative w-fit">
+            <img src="{{ asset('assets/images/phonicsl1/letter_r/rain.gif') }}" class="w-full h-full absolute top-0" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_r/run.gif') }}" class="w-[35vw] rounded-[1vw]" />
+        </div>
+        <h1 class="text-white text-[2.5vw]"><span class="text-[#f7b94a]">R</span>on’s <span
+                class="text-[#f7b94a]">r</span>abbit <span class="text-[#f7b94a]">r</span>uns into a <span
+                class="text-[#f7b94a]">r</span>ock.</h1>
+    </div>
+
+
+    {{-- Panel 6 --}}
+    <div class="phonics-panel relative flex flex-col items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-r/rst5.m4a') }}">
+        <img src="{{ asset('assets/images/phonicsl1/letter_r/dizzy.gif') }}" class="w-[25vw] rounded-[1vw]" />
+        <h1 class="text-white text-[2.5vw]">Now the <span class="text-[#f7b94a]">r</span>abbit has a red nose.</h1>
+    </div>
 
 
 
@@ -188,7 +134,6 @@
             <img src="{{ asset('assets/images/phonicsl1/global/btns/next-btn.png') }}" />
         </button>
     </div>
-
     <div class="down-btn-container">
         <button class="doneButton hidden">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/done.png') }}" />
@@ -209,8 +154,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_q') }}";
-            const doneURL = "{{ url('/phonics/letter_q') }}";
+            const returnURL = "{{ url('/phonics/letter_r') }}";
+            const doneURL = "{{ url('/phonics/letter_r') }}";
 
             // Track current position
             let currentSlide = 0;
@@ -226,10 +171,7 @@
                     currentAudio.currentTime = 0;
                     currentAudio = null;
                 }
-                // Stop text-to-speech
-                window.speechSynthesis.cancel();
             }
-
 
             // HELPER FUNCTIONS
             function isSpecialSlide(slide) {
@@ -302,15 +244,6 @@
                         currentAudio = new Audio(slideAudioSrc);
                         currentAudio.play().catch(err => console.log('Auto-play failed:', err));
                     }, 300);
-                }
-                // 🔊 Otherwise, speak the data-letter if present
-                else {
-                    const dataLetter = currentSlideElement.getAttribute('data-letter');
-                    if (dataLetter) {
-                        setTimeout(() => {
-                            speakLetter(dataLetter);
-                        }, 300);
-                    }
                 }
             }
 
@@ -386,17 +319,8 @@
                         currentAudio = new Audio(audioSrc);
                         currentAudio.play();
                     }
-                    // Otherwise speak the letter
-                    else {
-                        const letter = btn.getAttribute("data-letter") || "a";
-                        speakLetter(letter);
-                    }
                 });
             });
-
-            window.speechSynthesis.onvoiceschanged = () => {
-                window.speechSynthesis.getVoices();
-            };
 
             // INITIALIZE
             showSlide(currentSlide);

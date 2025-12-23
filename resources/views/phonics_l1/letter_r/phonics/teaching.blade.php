@@ -8,22 +8,9 @@
 
 @push('styles')
     <style>
-        .p-note {
-            font-size: 1.2vw;
-            color: white !important;
-        }
-
-        .c-btn {
-            color: #F7B94A !important;
-        }
-
         .large-title {
             color: #F7B94A;
             font-size: 20vw !important;
-        }
-
-        .link:hover {
-            color: #a37d3adb;
         }
 
         .panel-title {
@@ -33,77 +20,75 @@
 
         .panel-ul {
             color: white;
-            font-size: 1.4vw;
+            font-size: 1.3vw;
+            padding-left: 3vw;
         }
     </style>
 @endpush
 
 @section('content')
-
-    {{-- title --}}
-    <h2 class="top-title stroke">Story Time</h2>
-
     {{-- panel 1 --}}
-    <div class="phonics-panel no-bg mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio/storytime.mp3') }}">
-        <div class="relative">
-            <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" />
-            {{-- gifs --}}
-            <img src="{{ asset('assets/images/phonicsl1/global/gifs/buddy.gif') }}" class="h-[20vw] bottom-0 absolute" />
-            <img src="{{ asset('assets/images/phonicsl1/global/gifs/lili.gif') }}"
-                class="h-[20vw] bottom-0 right-0 absolute" />
+    <div class="phonics-panel flex flex-col mt-[-2vw] gap-y-[2vw]">
+        <h1 class="panel-title stroke">How Best To Teach Phonics</h1>
+        <div class="flex items-start">
+            <ul class="list-disc text-start panel-ul">
+                <li>Phonics is best taught in context, not in isolation, so that
+                    children make connections between letters, sounds and meaning
+                    in clearly defined sequence.</li>
+            </ul>
 
-            <h1 class="text-white text-[4vw] absolute top-[12vw] left-[19vw]"> It's story <br> time!</h1>
 
-            <p class="p-note absolute bottom-[1vw] left-[22%]">Tip: <a class="c-btn">Click here</a> to find
-                out why reading words is important.</p>
+            <img src="{{ asset('assets/images/phonicsl1/global/learning.png') }}" class="h-[20vw]" />
         </div>
     </div>
 
+
     {{-- Panel 2 --}}
-    <div class="phonics-panel flex flex-col items-center justify-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-q/qst1.m4a') }}">
-        <h1 class="text-white text-[3vw]"><span class="text-[#f7b94a]">Q</span>uilt and <span
-                class="text-[#f7b94a]">Q</span>uill</h1>
-        <img src="{{ asset('assets/images/phonicsl1/letter_q/q-q.png') }}" class="w-[25vw]" />
+    <div class="phonics-panel flex flex-col mt-[-2vw] gap-y-[2vw]">
+        <h1 class="panel-title stroke">How Best To Teach Phonics</h1>
+        <div class="flex items-start">
+            <div class="flex flex-col justify-around h-100">
+                <div class="text-start">
+                    <h3 class="text-white text-[1.5vw]">Effective phonics instruction in the early years should *:</h3>
+                    <ul class="list-disc text-start panel-ul">
+                        <li>Teach phonemic awareness</li>
+                        <li>Teach the common sound-spelling relationships in words</li>
+                        <li>Teach children how to say the sounds in the words</li>
+                        <li>Use text that is composed of words that use sound-spelling correspondences that children
+                            have learnt</li>
+                        <li>Use interesting stories to develop vocabulary and language comprehension</li>
+                    </ul>
+                </div>
+                <p class="text-white text-start pl-[3vw]">Article on 'National Institute of Child Health and Human Develop
+                    ment
+                    (NICHD) Research Supports The America
+                    Reads Challenge by Dr G Reid Lyon and Dr Edward Kameenui.</p>
+            </div>
+
+            <img src="{{ asset('assets/images/phonicsl1/global/learning.png') }}" class="h-[20vw]" />
+        </div>
     </div>
+
 
 
     {{-- Panel 3 --}}
-    <div class="phonics-panel relative flex flex-col h-full items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-q/qst2.m4a') }}">
-        <img src="{{ asset('assets/images/phonicsl1/letter_q/quill.gif') }}" class="h-[25vw]" />
-        <h1 class="text-white text-[3vw]">A quill pen for Queenie.</h1>
-    </div>
+    <div class="phonics-panel flex flex-col mt-[-2vw] gap-y-[2vw]">
+        <h1 class="panel-title stroke">How Best To Teach Phonics</h1>
+        <div class="flex items-start">
+            <ul class="list-disc text-start panel-ul">
+                <li>Phonics engages sight, sound, touch and movement as
+                    children learn phonemic awareness through letter sounds, words,
+                    songs, expressions, story readers and other activities.</li>
+            </ul>
 
 
-    {{-- Panel 4 --}}
-    <div class="phonics-panel relative flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-q/qst3.m4a') }}">
-        <img src="{{ asset('assets/images/phonicsl1/letter_q/queen.gif') }}" class="h-[25vw]" />
-        <h1 class="text-white text-[2.5vw]">A quilt for the queen.</h1>
-    </div>
-
-
-    {{-- Panel 5 --}}
-    <div class="phonics-panel relative flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-q/qst4.m4a') }}">
-        <div class="flex items-center">
-            <img src="{{ asset('assets/images/phonicsl1/letter_q/shocked.gif') }}" class="h-[30vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_q/quill.gif') }}" class="h-[20vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/global/learning.png') }}" class="h-[20vw]" />
         </div>
-        <h1 class="text-white text-[2.5vw]">Oh, the queen wants the quill pen</h1>
     </div>
 
 
-    {{-- Panel 6 --}}
-    <div class="phonics-panel relative flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-q/qst5.m4a') }}">
-        <div class="flex items-center">
-            <img src="{{ asset('assets/images/phonicsl1/letter_q/wow.gif') }}" class="h-[30vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_q/gift.gif') }}" class="h-[20vw]" />
-        </div>
-        <h1 class="text-white text-[2.5vw]">And Queenie wants the quilt.</h1>
-    </div>
+
+
 
 
 
@@ -150,27 +135,13 @@
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
             const doneButton = document.querySelector(".doneButton");
-            const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_q') }}";
-            const doneURL = "{{ url('/phonics/letter_q') }}";
+            const returnURL = "{{ url('/phonics/letter_r') }}";
+            const doneURL = "{{ url('/phonics/letter_r') }}";
 
             // Track current position
             let currentSlide = 0;
-
-            // 🔊 Global audio tracking
-            let currentAudio = null;
-
-            // 🛑 Function to stop all audio/speech
-            function stopAllAudio() {
-                // Stop any playing audio files
-                if (currentAudio) {
-                    currentAudio.pause();
-                    currentAudio.currentTime = 0;
-                    currentAudio = null;
-                }
-            }
 
             // HELPER FUNCTIONS
             function isSpecialSlide(slide) {
@@ -191,9 +162,6 @@
             function showSlide(slideIndex) {
                 const ajaxSection = document.getElementById('ajax-section');
                 const currentSlideElement = slides[slideIndex];
-
-                // 🛑 Stop all audio when changing slides
-                stopAllAudio();
 
                 // Hide all slides, show only current one
                 slides.forEach((slide, index) => {
@@ -234,16 +202,6 @@
                         ajaxSection.classList.remove('no-bg');
                     }
                 }
-
-                // 🔊 Auto-play audio if slide has data-slide-audio attribute
-                const slideAudioSrc = currentSlideElement.getAttribute('data-slide-audio');
-                if (slideAudioSrc) {
-                    // Small delay to ensure slide is visible before playing
-                    setTimeout(() => {
-                        currentAudio = new Audio(slideAudioSrc);
-                        currentAudio.play().catch(err => console.log('Auto-play failed:', err));
-                    }, 300);
-                }
             }
 
             // NAVIGATION FUNCTIONS
@@ -262,7 +220,6 @@
 
             function goBack() {
                 if (currentSlide === 0) {
-                    stopAllAudio(); // 🛑 Stop audio before leaving
                     window.location.href = returnURL;
                     return;
                 }
@@ -276,7 +233,6 @@
             }
 
             function handleDone() {
-                stopAllAudio(); // 🛑 Stop audio before action
                 window.location.href = doneURL;
             }
 
@@ -292,34 +248,6 @@
             if (doneButton) {
                 doneButton.addEventListener("click", handleDone);
             }
-
-            // 🔊 Home and Close buttons also stop audio
-            const homeButton = document.getElementById("homeButton");
-            const closeButton = document.getElementById("closeButton");
-
-            if (homeButton) {
-                homeButton.addEventListener("click", () => stopAllAudio());
-            }
-
-            if (closeButton) {
-                closeButton.addEventListener("click", () => stopAllAudio());
-            }
-
-            soundButtons.forEach(btn => {
-                btn.addEventListener("click", (e) => {
-                    e.preventDefault();
-
-                    // Stop any previous audio first
-                    stopAllAudio();
-
-                    // Play audio file if data-audio is provided
-                    const audioSrc = btn.getAttribute("data-audio");
-                    if (audioSrc) {
-                        currentAudio = new Audio(audioSrc);
-                        currentAudio.play();
-                    }
-                });
-            });
 
             // INITIALIZE
             showSlide(currentSlide);

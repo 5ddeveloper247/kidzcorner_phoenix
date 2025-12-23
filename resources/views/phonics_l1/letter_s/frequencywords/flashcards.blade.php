@@ -11,154 +11,167 @@
         .p-note {
             font-size: 1.2vw;
             color: white !important;
-            width: 50vw;
-
-        }
-
-        .panel-title {
-            color: #F7B94A;
-            font-size: 2vw;
         }
     </style>
 @endpush
 
 @section('content')
-    {{-- Top Title --}}
-    <h2 class="top-title stroke">Fun Fill-ins</h2>
+
+    {{-- title --}}
+    <h2 class="top-title stroke">Flash Cards</h2>
 
     {{-- panel 1 --}}
-    <div class="phonics-panel mb-[2vw]">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio/flashcard/help.mp3') }}">
+
         <div class="flex items-start ">
-            <div class="relative">
-                <img src="{{ asset('assets/images/phonicsl1/global/click3.png') }}" class="w-[30vw]" />
-                <h3 class="text-[#B76E33] text-[1.5vw] absolute top-1/2 left-[45%] -translate-x-1/2 -translate-y-1/2">Do you
-                    remember <br>
-                    the story of ‘Quilt <br>
-                    and Quill’? Help <br>
-                    me complete the <br>
-                    story.</h3>
-            </div>
+            <img src="{{ asset('assets/images/phonicsl1/letter_a/read.png') }}" class="w-[25vw]" />
             <img src="{{ asset('assets/images/phonicsl1/global/bear.png') }}" class="h-[25vw]" />
         </div>
-        <p class="p-note">Tips: Go through the story of 'Lick a Lick', if necessary. Ask children to turn to the Fun Fill-ins
-            Activity Sheet in the Pupil's Activity Book.</p>
-    </div>
-
-
-    {{-- Panel 1 --}}
-    <div class="phonics-panel flex flex-col items-center gap-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-q/funfills.m4a') }}">
-        <h2 class="text-white text-[1.5vw]">Listen to these words:</h2>
-        <img src="{{ asset('assets/images/phonicsl1/letter_q/wordswall.png') }}" class="w-[40vw]">
-        <p class="p-note">Tips: Look at the Word Search Activity Sheet in the Pupil's Activity Book. <br>
-            There are 8 words to be found in the puzzle.</p>
-    </div>
-
-    {{-- treasure Panel --}}
-    <div class="phonics-panel flex flex-col items-center justify-between">
-        <h2 class="text-white text-[1.5vw]">Choose a word to fill in the blank.</h2>
-
-        <h2 class="stroke panel-title">A quill pen <span class="text-underline">______</span> Queenie.</h2>
-
-        <img src="{{ asset('assets/images/phonicsl1/letter_q/quill.gif') }}" class="h-[15vw]">
-        <img src="{{ asset('assets/images/phonicsl1/letter_q/line1.png') }}">
-        <p class="p-note">Tips: Use this slide to guide children to select the correct word to fill in the blank.
-            Check result on next slide.</p>
+        <p class="p-note">Tip: Flash these high frequency words the first reading of the story.</p>
 
     </div>
 
-    {{-- treasure panel --}}
-    <div class="phonics-panel flex flex-col items-center justify-center">
-        <div class="h-fit relative">
-            <span class="text-white text-[2vw] absolute left-[45%] top-[-1vw]"> for</span>
-            <h2 class="stroke panel-title">A quill pen <span class="text-underline">______</span> Queenie.</h2>
+    {{-- Panel 2 --}}
+    <div class="phonics-panel flex flex-col justify-between h-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-r/flashcard/for.m4a') }}">
+        <img src="{{ asset('assets/images/phonicsl1/letter_r/for.png') }}" class="w-[14vw]" />
+        <p class="p-note">Tip: These are 10 words on the list. Guide children to read each word.</p>
+    </div>
+
+
+    {{-- Panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-between h-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-r/flashcard/it.m4a') }}">
+        <div class="flex items-start">
+            <img src="{{ asset('assets/images/phonicsl1/letter_r/for.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_r/it.png') }}" class="w-[14vw]" />
         </div>
-
-        <img src="{{ asset('assets/images/phonicsl1/letter_q/quill.gif') }}" class="h-[25vw]">
-    </div>
-
-    {{-- treasure Panel --}}
-    <div class="phonics-panel flex flex-col items-center justify-center gap-y-[1vw]">
-        <h2 class="text-white text-[1.5vw]">Choose a word to fill in the blank.</h2>
-
-        <h2 class="stroke panel-title">A quilt for <span class="text-underline">_____</span> queen.</h2>
-
-        <img src="{{ asset('assets/images/phonicsl1/letter_q/queen.gif') }}" class="h-[15vw]">
-        <img src="{{ asset('assets/images/phonicsl1/letter_q/line2.png') }}">
-        <p class="p-note">Tips: Use this slide to guide children to select the correct word to fill in the blank.
-            Check result on next slide.</p>
-
-    </div>
-
-    {{-- treasure panel --}}
-    <div class="phonics-panel flex flex-col items-center justify-center">
-        <div class="h-fit relative">
-            <span class="text-white text-[2vw] absolute right-[30%] top-[-1vw]">the</span>
-            <h2 class="stroke panel-title">A quilt for <span class="text-underline">_____</span> queen.</h2>
-        </div>
-
-        <img src="{{ asset('assets/images/phonicsl1/letter_q/queen.gif') }}" class="h-[25vw]">
+        <p class="p-note">Tip: These are 10 words on the list. Guide children to read each word.</p>
     </div>
 
 
-    {{-- treasure Panel --}}
-    <div class="phonics-panel flex flex-col items-center justify-between gap-y-[1vw]">
-        <h2 class="text-white text-[1.5vw]">Choose a word to fill in the blank.</h2>
-
-        <h2 class="stroke panel-title">Oh, the queen <span class="text-underline">_____</span> the quill pen.</h2>
-
-        <div class="flex items-end">
-            <img src="{{ asset('assets/images/phonicsl1/letter_q/shocked.gif') }}" class="h-[17vw]">
-            <img src="{{ asset('assets/images/phonicsl1/letter_q/quill.gif') }}" class="h-[12vw]">
+    {{-- Panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-between h-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-r/flashcard/to.mp3') }}">
+        <div class="flex items-start">
+            <img src="{{ asset('assets/images/phonicsl1/letter_r/for.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_r/it.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_r/to.png') }}" class="w-[14vw]" />
         </div>
-        <img src="{{ asset('assets/images/phonicsl1/letter_q/line3.png') }}">
-        <p class="p-note">Tips: Use this slide to guide children to select the correct word to fill in the blank.
-            Check result on next slide.</p>
-
+        <p class="p-note">Tip: These are 10 words on the list. Guide children to read each word.</p>
     </div>
 
 
-    {{-- treasure panel --}}
-    <div class="phonics-panel flex flex-col items-center justify-center gap-y-[2vw]">
-        <div class="h-fit relative">
-            <span class="text-white text-[2vw] absolute right-[39%] top-[-1vw]"> wants</span>
-            <h2 class="stroke panel-title">Oh, the queen <span class="text-underline">_______</span> the quill pen.</h2>
+    {{-- Panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-between h-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-r/flashcard/into.m4a') }}">
+        <div class="grid grid-cols-3 items-start">
+            <img src="{{ asset('assets/images/phonicsl1/letter_r/for.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_r/it.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_r/to.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_r/into.png') }}" class="w-[14vw]" />
         </div>
-        <div class="flex items-end">
-            <img src="{{ asset('assets/images/phonicsl1/letter_q/shocked.gif') }}" class="h-[25vw]">
-            <img src="{{ asset('assets/images/phonicsl1/letter_q/quill.gif') }}" class="h-[20vw]">
-        </div>
-    </div>
-
-    {{-- treasure Panel --}}
-    <div class="phonics-panel flex flex-col items-center gap-y-[1vw]">
-        <h2 class="text-white text-[1.5vw]">Choose a word to fill in the blank.</h2>
-
-        <h2 class="stroke panel-title">And Queenie wnats <span class="text-underline">_____</span> quilt.</h2>
-
-        <div class="flex items-end">
-            <img src="{{ asset('assets/images/phonicsl1/letter_q/wow.gif') }}" class="h-[17vw]">
-            <img src="{{ asset('assets/images/phonicsl1/letter_q/gift.gif') }}" class="h-[13vw]">
-        </div>
-        <img src="{{ asset('assets/images/phonicsl1/letter_q/line4.png') }}">
-        <p class="p-note">Tips: Use this slide to guide children to select the correct word to fill in the blank.
-            Check result on next slide.</p>
-
+        <p class="p-note">Tip: These are 10 words on the list. Guide children to read each word.</p>
     </div>
 
 
-    {{-- treasure panel --}}
-    <div class="phonics-panel flex flex-col items-center justify-center gap-y-[2vw]">
-        <div class="h-fit relative">
-            <span class="text-white text-[2vw] absolute right-[20%] top-[-1vw]"> the</span>
-            <h2 class="stroke panel-title">And Queenie wnats <span class="text-underline">_____</span> quilt.</h2>
+    {{-- Panel 6 --}}
+    <div class="phonics-panel flex flex-col justify-between h-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-r/flashcard/now.m4a') }}">
+        <div class="grid grid-cols-3 items-start">
+            <img src="{{ asset('assets/images/phonicsl1/letter_r/for.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_r/it.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_r/to.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_r/into.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_r/now.png') }}" class="w-[14vw]" />
         </div>
-        <div class="flex items-end">
-            <img src="{{ asset('assets/images/phonicsl1/letter_q/wow.gif') }}" class="h-[25vw]">
-            <img src="{{ asset('assets/images/phonicsl1/letter_q/gift.gif') }}" class="h-[20vw]">
-        </div>
+        <p class="p-note">Tip: These are 10 words on the list. Guide children to read each word.</p>
     </div>
 
+    {{-- Panel 7 --}}
+    <div class="phonics-panel flex flex-col justify-between h-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-r/flashcard/has.mp3') }}">
+        <div class="grid grid-cols-3 items-start">
+            <img src="{{ asset('assets/images/phonicsl1/letter_r/for.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_r/it.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_r/to.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_r/into.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_r/now.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_r/has.png') }}" class="w-[14vw]" />
+        </div>
+        <p class="p-note">Tip: These are 10 words on the list. Guide children to read each word.</p>
+    </div>
+
+
+    {{-- Panel 8 --}}
+    <div class="phonics-panel flex flex-col justify-between h-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-r/flashcard/see.m4a') }}">
+        <div class="grid grid-cols-3 items-start">
+            <img src="{{ asset('assets/images/phonicsl1/letter_r/for.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_r/it.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_r/to.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_r/into.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_r/now.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_r/has.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_r/see.png') }}" class="w-[14vw]" />
+        </div>
+        <p class="p-note">Tip: These are 10 words on the list. Guide children to read each word.</p>
+    </div>
+
+    {{-- Panel 9 --}}
+    <div class="phonics-panel flex flex-col justify-between h-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-r/flashcard/you.m4a') }}">
+        <div class="grid grid-cols-3 items-start">
+            <img src="{{ asset('assets/images/phonicsl1/letter_r/for.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_r/it.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_r/to.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_r/into.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_r/now.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_r/has.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_r/see.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_r/you.png') }}" class="w-[14vw]" />
+        </div>
+        <p class="p-note">Tip: These are 10 words on the list. Guide children to read each word.</p>
+    </div>
+
+
+    {{-- Panel 10 --}}
+    <div class="phonics-panel flex flex-col justify-between h-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-r/flashcard/how.m4a') }}">
+        <div class="grid grid-cols-3 items-start">
+            <img src="{{ asset('assets/images/phonicsl1/letter_r/for.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_r/it.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_r/to.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_r/into.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_r/now.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_r/has.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_r/see.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_r/you.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_r/how.png') }}" class="w-[14vw]" />
+        </div>
+        <p class="p-note">Tip: These are 10 words on the list. Guide children to read each word.</p>
+    </div>
+
+
+    {{-- Panel 11 --}}
+    <div class="phonics-panel flex flex-col justify-between h-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-r/flashcard/over.m4a') }}">
+        <div class="grid grid-cols-3 items-start mt-[2vw]">
+            <img src="{{ asset('assets/images/phonicsl1/letter_r/for.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_r/it.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_r/to.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_r/into.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_r/now.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_r/has.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_r/see.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_r/you.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_r/how.png') }}" class="w-[14vw]" />
+            <div class="col-span-3 flex justify-center">
+                <img src="{{ asset('assets/images/phonicsl1/letter_r/over.png') }}" class="w-[14vw]" />
+            </div>
+        </div>
+        <p class="p-note">Tip: These are 10 words on the list. Guide children to read each word.</p>
+    </div>
 
 
 
@@ -188,7 +201,6 @@
             <img src="{{ asset('assets/images/phonicsl1/global/btns/next-btn.png') }}" />
         </button>
     </div>
-
     <div class="down-btn-container">
         <button class="doneButton hidden">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/done.png') }}" />
@@ -209,8 +221,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_q') }}";
-            const doneURL = "{{ url('/phonics/letter_q') }}";
+            const returnURL = "{{ url('/phonics/letter_r') }}";
+            const doneURL = "{{ url('/phonics/letter_r') }}";
 
             // Track current position
             let currentSlide = 0;
