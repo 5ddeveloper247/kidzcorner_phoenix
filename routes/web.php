@@ -5,7 +5,7 @@ use App\Http\Controllers\AdminController;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\PasswordResetController;
 use Illuminate\Support\Facades\Auth;
-require __DIR__ . '\phonics\l1.php';
+require __DIR__ . '/phonics/l1.php';
 
 Route::get('/login', [AuthController::class, 'showLoginForm'])->name('login');
 Route::get('/signin', [AuthController::class, 'showLoginForm']);
