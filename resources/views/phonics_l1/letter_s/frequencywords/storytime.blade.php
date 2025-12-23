@@ -61,49 +61,45 @@
 
     {{-- Panel 2 --}}
     <div class="phonics-panel flex flex-col items-center justify-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-r/rst1.m4a') }}">
-        <h1 class="text-white text-[3vw]"><span class="text-[#f7b94a]">R</span>ain, <span class="text-[#f7b94a]">R</span>ain
-        </h1>
-        <img src="{{ asset('assets/images/phonicsl1/letter_r/rain.png') }}" class="w-[25vw]" />
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-s/st1.m4a') }}">
+        <h1 class="text-white text-[3vw]"><span class="text-[#f7b94a]">S</span>easide</h1>
+        <img src="{{ asset('assets/images/phonicsl1/letter_s/seaside.png') }}" class="w-[35vw]" />
     </div>
 
 
     {{-- Panel 3 --}}
     <div class="phonics-panel relative flex flex-col h-full items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-r/rst2.m4a') }}">
-        <img src="{{ asset('assets/images/phonicsl1/letter_r/race.png') }}" class="w-[30vw]" />
-        <h1 class="text-white text-[3vw]"><span class="text-[#f7b94a]">R</span>on’s <span
-                class="text-[#f7b94a]">r</span>abbit is <span class="text-[#f7b94a]">r</span>eady for the <span
-                class="text-[#f7b94a]">r</span>abbit <span class="text-[#f7b94a]">r</span>ace..</h1>
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-s/st2.m4a') }}">
+        <div class="relative w-fit">
+            <img src="{{ asset('assets/images/phonicsl1/letter_s/sun.png') }}" class="w-[10vw] absolute right-0 top-0" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_s/sally.gif') }}" class="w-[35vw] rounded-[1vw]" />
+        </div>
+        <h1 class="text-white text-[3vw]"><span class="text-[#f7b94a]">S</span>ally likes to <span
+                class="text-[#f7b94a]">s</span>it on the <span class="text-[#f7b94a]">s</span>and.</h1>
     </div>
 
 
     {{-- Panel 4 --}}
     <div class="phonics-panel relative flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-r/rst3.m4a') }}">
-        <img src="{{ asset('assets/images/phonicsl1/letter_r/rain.png') }}" class="w-[25vw]" />
-        <h1 class="text-white text-[2.5vw]">It starts to <span class="text-[#f7b94a]">r</span>ain.</h1>
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-s/st3.m4a') }}">
+        <img src="{{ asset('assets/images/phonicsl1/letter_s/swiming.gif') }}" class="w-[35vw] rounded-[1vw]" />
+        <h1 class="text-white text-[2.5vw]">She likes to swim in the <span class="text-[#f7b94a]">s</span>ea too.</h1>
     </div>
 
 
     {{-- Panel 5 --}}
     <div class="phonics-panel relative flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-r/rst4.m4a') }}">
-        <div class="relative w-fit">
-            <img src="{{ asset('assets/images/phonicsl1/letter_r/rain.gif') }}" class="w-full h-full absolute top-0" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_r/run.gif') }}" class="w-[35vw] rounded-[1vw]" />
-        </div>
-        <h1 class="text-white text-[2.5vw]"><span class="text-[#f7b94a]">R</span>on’s <span
-                class="text-[#f7b94a]">r</span>abbit <span class="text-[#f7b94a]">r</span>uns into a <span
-                class="text-[#f7b94a]">r</span>ock.</h1>
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-s/st4.m4a') }}">
+        <img src="{{ asset('assets/images/phonicsl1/letter_s/happy.gif') }}" class="w-[35vw] rounded-[1vw]" />
+        <h1 class="text-white text-[2.5vw]">She can see a <span class="text-[#f7b94a]">s</span>eahorse.</h1>
     </div>
 
 
     {{-- Panel 6 --}}
     <div class="phonics-panel relative flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-r/rst5.m4a') }}">
-        <img src="{{ asset('assets/images/phonicsl1/letter_r/dizzy.gif') }}" class="w-[25vw] rounded-[1vw]" />
-        <h1 class="text-white text-[2.5vw]">Now the <span class="text-[#f7b94a]">r</span>abbit has a red nose.</h1>
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-s/st5.m4a') }}">
+        <img src="{{ asset('assets/images/phonicsl1/letter_s/happy.gif') }}" class="w-[35vw] rounded-[1vw]" />
+        <h1 class="text-white text-[2.5vw]">What can you see?</h1>
     </div>
 
 
@@ -154,8 +150,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_r') }}";
-            const doneURL = "{{ url('/phonics/letter_r') }}";
+            const returnURL = "{{ url('/phonics/letter_s') }}";
+            const doneURL = "{{ url('/phonics/letter_s') }}";
 
             // Track current position
             let currentSlide = 0;

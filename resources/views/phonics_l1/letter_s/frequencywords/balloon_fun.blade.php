@@ -44,34 +44,34 @@
     {{-- Panel 2 --}}
     <div class="phonics-panel flex flex-col items-center justify-between h-full">
         <div class="space-y-[5vw]">
-            <h1 class="text-white text-[5vw]">for</h1>
+            <h1 class="text-white text-[5vw]">can</h1>
             <div class="flex gap-[1vw]">
 
                 <a id="false" class="h-fit relative inline-block">
                     <img src="{{ asset('assets/images/phonicsl1/letter_g/bg.png') }}" class="h-[10vw]">
                     <span class="bg-title absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-                        to
+                        as
                     </span>
                 </a>
 
                 <a id="false" class="h-fit relative inline-block">
                     <img src="{{ asset('assets/images/phonicsl1/letter_g/bg.png') }}" class="h-[10vw]">
                     <span class="bg-title absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-                        now
+                        so
                     </span>
                 </a>
 
                 <a id="true" class="h-fit relative inline-block">
                     <img src="{{ asset('assets/images/phonicsl1/letter_g/bg.png') }}" class="h-[10vw]">
                     <span class="bg-title absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-                        for
+                        can
                     </span>
                 </a>
 
                 <a id="false" class="h-fit relative inline-block">
                     <img src="{{ asset('assets/images/phonicsl1/letter_g/bg.png') }}" class="h-[10vw]">
                     <span class="bg-title absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-                        it
+                        what
                     </span>
                 </a>
 
@@ -85,8 +85,15 @@
     {{-- Panel 3 --}}
     <div class="phonics-panel flex flex-col items-center justify-between h-full">
         <div class="space-y-[5vw]">
-            <h1 class="text-white text-[5vw]">into</h1>
+            <h1 class="text-white text-[5vw]">what</h1>
            <div class="flex gap-[1vw]">
+
+                <a id="false" class="h-fit relative inline-block">
+                    <img src="{{ asset('assets/images/phonicsl1/letter_g/bg.png') }}" class="h-[10vw]">
+                    <span class="bg-title absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                        as
+                    </span>
+                </a>
 
                 <a id="false" class="h-fit relative inline-block">
                     <img src="{{ asset('assets/images/phonicsl1/letter_g/bg.png') }}" class="h-[10vw]">
@@ -98,21 +105,14 @@
                 <a id="false" class="h-fit relative inline-block">
                     <img src="{{ asset('assets/images/phonicsl1/letter_g/bg.png') }}" class="h-[10vw]">
                     <span class="bg-title absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-                        has
-                    </span>
-                </a>
-
-                <a id="false" class="h-fit relative inline-block">
-                    <img src="{{ asset('assets/images/phonicsl1/letter_g/bg.png') }}" class="h-[10vw]">
-                    <span class="bg-title absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-                        over
+                        in
                     </span>
                 </a>
 
                 <a id="true" class="h-fit relative inline-block">
                     <img src="{{ asset('assets/images/phonicsl1/letter_g/bg.png') }}" class="h-[10vw]">
                     <span class="bg-title absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-                        into
+                        what
                     </span>
                 </a>
 
@@ -125,10 +125,24 @@
     {{-- Panel 4 --}}
     <div class="phonics-panel flex flex-col items-center justify-between h-full">
         <div class="space-y-[5vw]">
-            <h1 class="text-white text-[5vw]">you</h1>
+            <h1 class="text-white text-[5vw]">as</h1>
             <div class="flex gap-[1vw]">
 
                 <a id="true" class="h-fit relative inline-block">
+                    <img src="{{ asset('assets/images/phonicsl1/letter_g/bg.png') }}" class="h-[10vw]">
+                    <span class="bg-title absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                        as
+                    </span>
+                </a>
+
+                <a id="false" class="h-fit relative inline-block">
+                    <img src="{{ asset('assets/images/phonicsl1/letter_g/bg.png') }}" class="h-[10vw]">
+                    <span class="bg-title absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                        so
+                    </span>
+                </a>
+
+                <a id="false" class="h-fit relative inline-block">
                     <img src="{{ asset('assets/images/phonicsl1/letter_g/bg.png') }}" class="h-[10vw]">
                     <span class="bg-title absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
                         you
@@ -138,21 +152,7 @@
                 <a id="false" class="h-fit relative inline-block">
                     <img src="{{ asset('assets/images/phonicsl1/letter_g/bg.png') }}" class="h-[10vw]">
                     <span class="bg-title absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-                        how
-                    </span>
-                </a>
-
-                <a id="false" class="h-fit relative inline-block">
-                    <img src="{{ asset('assets/images/phonicsl1/letter_g/bg.png') }}" class="h-[10vw]">
-                    <span class="bg-title absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-                        over
-                    </span>
-                </a>
-
-                <a id="false" class="h-fit relative inline-block">
-                    <img src="{{ asset('assets/images/phonicsl1/letter_g/bg.png') }}" class="h-[10vw]">
-                    <span class="bg-title absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-                        it
+                        she
                     </span>
                 </a>
 
@@ -165,34 +165,34 @@
     {{-- Panel 5 --}}
     <div class="phonics-panel flex flex-col items-center justify-between h-full">
         <div class="space-y-[5vw]">
-            <h1 class="text-white text-[5vw]">over</h1>
+            <h1 class="text-white text-[5vw]">so</h1>
             <div class="flex gap-[1vw]">
 
                 <a id="false" class="h-fit relative inline-block">
                     <img src="{{ asset('assets/images/phonicsl1/letter_g/bg.png') }}" class="h-[10vw]">
                     <span class="bg-title absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-                        see
+                        you
                     </span>
                 </a>
 
                 <a id="false" class="h-fit relative inline-block">
                     <img src="{{ asset('assets/images/phonicsl1/letter_g/bg.png') }}" class="h-[10vw]">
                     <span class="bg-title absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-                        how 
+                        what 
                     </span>
                 </a>
 
                 <a id="true" class="h-fit relative inline-block">
                     <img src="{{ asset('assets/images/phonicsl1/letter_g/bg.png') }}" class="h-[10vw]">
                     <span class="bg-title absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-                        over
+                        so
                     </span>
                 </a>
 
                 <a id="false" class="h-fit relative inline-block">
                     <img src="{{ asset('assets/images/phonicsl1/letter_g/bg.png') }}" class="h-[10vw]">
                     <span class="bg-title absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-                        has
+                        can
                     </span>
                 </a>
 
@@ -282,8 +282,8 @@ up with the 'Balloon Fun' Activity Sheet in the Pupil's Activity Book.</p>
             const doneButton = document.querySelector(".doneButton");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_r') }}";
-            const doneURL = "{{ url('/phonics/letter_r') }}";
+            const returnURL = "{{ url('/phonics/letter_s') }}";
+            const doneURL = "{{ url('/phonics/letter_s') }}";
 
             // Track current position
             let currentSlide = 0;

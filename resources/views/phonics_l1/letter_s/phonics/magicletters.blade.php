@@ -73,7 +73,7 @@
     {{-- Panel 2 --}}
     <div class="phonics-panel">
         <div class="flex h-[28vw] relative">
-            <a class="info-btn2 inline-flex w-auto large-title stroke h-fit p-0 m-0">r</a>
+            <a class="info-btn2 inline-flex w-auto large-title stroke h-fit p-0 m-0">s</a>
 
             <img src="{{ asset('assets/images/phonicsl1/global/click.png') }}"
                 class="w-[27vw] h-fit absolute top-[-17%] right-[-23%]" />
@@ -83,8 +83,8 @@
 
     {{-- Side Info Panel --}}
     <div class="phonics-panel flex justify-center items-center info-panel-2">
-        <h1 class="large-title stroke">r</h1>
-        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton" data-letter="r">
+        <h1 class="large-title stroke">s</h1>
+        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton" data-letter="s">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -97,15 +97,15 @@
     <div class="phonics-panel info-panel-2">
         <div class="flex gap-x-[4vw] items-center justify-center">
             <div>
-                <h1 class="large-title stroke h-fit" style="line-height:100%;">r</h1>
-                <h1 class="text-white text-[4vw]">rabbit</h1>
+                <h1 class="large-title stroke h-fit" style="line-height:100%;">s</h1>
+                <h1 class="text-white text-[4vw]">sand</h1>
             </div>
-            <img src="{{ asset('assets/images/phonicsl1/letter_r/rabbit.png') }}" class="w-[25vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_s/sand.png') }}" class="w-[25vw]" />
 
         </div>
 
         {{-- sound Button --}}
-        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton" data-letter="rabbit">
+        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton" data-letter="sand">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -114,15 +114,15 @@
     <div class="phonics-panel info-panel-2">
         <div class="flex gap-x-[4vw] items-center justify-center">
             <div>
-                <h1 class="large-title stroke h-fit" style="line-height:100%;">r</h1>
-                <h1 class="text-white text-[4vw]">rain</h1>
+                <h1 class="large-title stroke h-fit" style="line-height:100%;">s</h1>
+                <h1 class="text-white text-[4vw]">sit</h1>
             </div>
-            <img src="{{ asset('assets/images/phonicsl1/letter_r/rain.png') }}" class="w-[30vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_s/sit.png') }}" class="h-[25vw]" />
 
         </div>
 
         {{-- sound Button --}}
-        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton" data-letter="rain">
+        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton" data-letter="sit">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -130,14 +130,14 @@
     <div class="phonics-panel info-panel-2">
         <div class="flex gap-x-[4vw] items-center justify-center">
             <div>
-                <h1 class="large-title stroke h-fit" style="line-height:100%;">r</h1>
-                <h1 class="text-white text-[4vw]">rock</h1>
+                <h1 class="large-title stroke h-fit" style="line-height:100%;">s</h1>
+                <h1 class="text-white text-[4vw]">sea</h1>
             </div>
-            <img src="{{ asset('assets/images/phonicsl1/letter_r/rock.png') }}" class="w-[25vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_s/sea.png') }}" class="h-[25vw]" />
         </div>
 
         {{-- sound Button --}}
-        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton" data-letter="rock">
+        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton" data-letter="sea">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -146,15 +146,15 @@
     <div class="phonics-panel info-panel-2">
         <div class="flex gap-x-[4vw] items-center justify-center">
             <div>
-                <h1 class="large-title stroke h-fit" style="line-height:100%;">r</h1>
-                <h1 class="text-white text-[4vw]">run</h1>
+                <h1 class="large-title stroke h-fit" style="line-height:100%;">s</h1>
+                <h1 class="text-white text-[4vw]">seahorse</h1>
             </div>
-            <img src="{{ asset('assets/images/phonicsl1/letter_r/run.png') }}" class="h-[25vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_s/seahorse.png') }}" class="h-[25vw]" />
 
         </div>
 
         {{-- sound Button --}}
-        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton" data-letter="run">
+        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton" data-letter="seahorse">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -180,12 +180,12 @@
                     </a>
 
                     {{-- falsde --}}
-                    <a class="w-[8.5vw] hover:brightness-110 " id="false">
-                        <img src="{{ asset('assets/images/phonicsl1/global/alphabets/g.png') }}" />
+                    <a class="w-[8.5vw] hover:brightness-110 " id="true">
+                        <img src="{{ asset('assets/images/phonicsl1/global/alphabets/s.png') }}" />
                     </a>
 
                     {{-- true --}}
-                    <div class="col-span-2 flex justify-center " id="true">
+                    <div class="col-span-2 flex justify-center " id="false">
                         <a class="w-[8.5vw] hover:brightness-110">
                             <img src="{{ asset('assets/images/phonicsl1/global/alphabets/r.png') }}" />
                         </a>
@@ -284,8 +284,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_r') }}";
-            const doneURL = "{{ url('/phonics/letter_r') }}";
+            const returnURL = "{{ url('/phonics/letter_s') }}";
+            const doneURL = "{{ url('/phonics/letter_s') }}";
 
             // Track current position
             let currentSlide = 0; // Which slide we're on now
@@ -612,7 +612,7 @@
                 // Stop the sound if still playing
                 wellDoneSound.pause();
                 wellDoneSound.currentTime = 0;
-                window.location.href = '{{ url('/phonics/letter_r') }}';
+                window.location.href = '{{ url('/phonics/letter_s') }}';
             });
 
             // Optional: Sound button functionality

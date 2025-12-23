@@ -23,35 +23,35 @@
         <h2c class="text-[3vw] stroke text-[#F7B94A]">Phonics</h2>
             <div class="grid grid-cols-4 gap-[2vw]">
                 <a href="{{ url('/phonics/letter_s/phonics/magicletters') }}">
-                    <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn8.png') }}" />
+                    <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn8.png') }}"  class="w-[14vw]"  />
                 </a>
 
                 <a href="{{ url('/phonics/letter_s/phonics/alphabets') }}">
-                    <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn1.png') }}" />
+                    <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn1.png') }}"  class="w-[14vw]"  />
                 </a>
 
                 <a href="{{ url('/phonics/letter_s/phonics/songalong') }}">
-                    <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn2.png') }}" />
+                    <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn2.png') }}"  class="w-[14vw]"  />
                 </a>
 
                 <a href="{{ url('/phonics/letter_s/phonics/readalong') }}">
-                    <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn3.png') }}" />
+                    <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn3.png') }}"  class="w-[14vw]"  />
                 </a>
 
                 <a href="{{ url('/phonics/letter_s/phonics/storytime') }}">
-                    <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn4.png') }}" />
+                    <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn4.png') }}"  class="w-[14vw]"  />
                 </a>
 
                 <a href="{{ url('/phonics/letter_s/phonics/animated') }}">
-                    <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn5.png') }}" />
+                    <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn5.png') }}"  class="w-[14vw]"  />
                 </a>
 
                 <a href="{{ url('/phonics/letter_s/phonics/teaching') }}">
-                    <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn6.png') }}" />
+                    <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn6.png') }}"  class="w-[14vw]"  />
                 </a>
 
                 <a href="{{ url('/phonics/letter_s/phonics/about') }}">
-                    <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn7.png') }}" />
+                    <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn7.png') }}"  class="w-[14vw]"  />
                 </a>
 
 

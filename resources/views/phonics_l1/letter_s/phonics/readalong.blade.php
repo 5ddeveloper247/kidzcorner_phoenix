@@ -85,14 +85,14 @@
     {{-- Panel 2 --}}
     <div class="phonics-panel flex flex-col justify-between h-[80%] self-end">
         <div class="flex flex-col items-center justify-center gap-[2vw]">
-            <img src="{{ asset('assets/images/phonicsl1/letter_r/r-rabbit.png') }}" class="w-[25vw]" />
-            <h1 class="text-[2vw] text-[#f7b94a]">The rabbit is ready for the race.</h1>
+            <img src="{{ asset('assets/images/phonicsl1/letter_s/s-snake.png') }}" class="w-[25vw]" />
+            <h1 class="text-[2vw] text-[#f7b94a]">The snake slithers under the slide.</h1>
         </div>
         <p class="p-note">Tip: Music will be automatically played twice. Click on the sound icon to repeat music.</p>
 
         {{-- sound Button --}}
         <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton"
-            data-audio="{{ asset('assets/audio/phonics_audio/letter-r/r-rabbit.m4a') }}">
+            data-audio="{{ asset('assets/audio/phonics_audio/letter-s/s-snake.m4a') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -105,7 +105,7 @@
                     <img src="{{ asset('assets/images/phonicsl1/global/blank.png') }}" class="w-[18vw]" />
                     <h2 class="text-[1.2vw] !text-[#B76E33] absolute top-[2vw] right-[2vw]">Help me complete <br> the
                         sentence
-                        with <br> a word beginning <br> with ‘r’.</h2>
+                        with <br> a word beginning <br> with ‘s’.</h2>
                 </div>
                 <img src="{{ asset('assets/images/phonicsl1/global/teacher.png') }}" class="h-[20vw]" />
             </div>
@@ -128,11 +128,11 @@
                         {{-- falsde --}}
                         <div class="flex items-start mb-[1vw]">
 
-                            <a class="w-[6vw] hover:brightness-110 " id="false">
-                                <img src="{{ asset('assets/images/phonicsl1/letter_l/lemon.png') }}" />
+                            <a class="w-[6vw] hover:brightness-110 " id="true">
+                                <img src="{{ asset('assets/images/phonicsl1/letter_s/snake.png') }}" />
                             </a>
                             {{-- sound Button --}}
-                            <button class="w-[3vw]" id="soundButton" data-letter="lemon">
+                            <button class="w-[3vw]" id="soundButton" data-letter="snake">
                                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                             </button>
                         </div>
@@ -140,7 +140,7 @@
                         {{-- true --}}
                         <div class="col-span-2 flex justify-center ">
                             <div class="flex items-start gap-x-[1vw]">
-                                <a class="hover:brightness-110" id="true">
+                                <a class="hover:brightness-110" id="false">
                                     <img src="{{ asset('assets/images/phonicsl1/letter_r/rabbit.png') }}"
                                         class="w-[7vw] scale-x-[-1]" />
                                 </a>
@@ -241,8 +241,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_r') }}";
-            const doneURL = "{{ url('/phonics/letter_r') }}";
+            const returnURL = "{{ url('/phonics/letter_s') }}";
+            const doneURL = "{{ url('/phonics/letter_s') }}";
 
             // Track current position
             let currentSlide = 0;
@@ -621,7 +621,7 @@
                 // Stop the sound if still playing
                 wellDoneSound.pause();
                 wellDoneSound.currentTime = 0;
-                window.location.href = '{{ url('/phonics/letter_r') }}';
+                window.location.href = '{{ url('/phonics/letter_s') }}';
             });
 
             // Optional: Sound button functionality
