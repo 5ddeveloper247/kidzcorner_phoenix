@@ -2,7 +2,7 @@
 @section('title', 'Dynamic Presentation')
 
 @php
-    $showBackground = true;
+    $showBackground = false;
     $showVector1 = true;
     $showVector5 = false;
     $showMascot = true;
