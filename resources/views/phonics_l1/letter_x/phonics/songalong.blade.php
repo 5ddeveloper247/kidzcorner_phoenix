@@ -45,7 +45,7 @@
             <img src="{{ asset('assets/images/phonicsl1/letter_a/door.png') }}" />
             {{-- left --}}
             <a class="link info-btn1 absolute top-[10.5vw] left-[9vw]">Alphabet Song</a>
-            <a class="link info-btn2 absolute top-[17vw] left-[9vw]">...Begins with...</a>
+            <a class="link info-btn2 absolute top-[17vw] left-[9vw]">The Farmer Has an Ox</a>
             <a class="link info-btn3 absolute top-[23.5vw] left-[8vw]">I’ve got the Letter</a>
             <a class="link info-btn4 absolute bottom-[6vw] left-[9vw]">This is the Way</a>
             {{-- right --}}
@@ -74,27 +74,27 @@
 
     {{-- Info Panel 2 --}}
     <div class="phonics-panel info-panel-2 space-y-[2vw]">
-        <h2 class="top-title stroke">... Begins with ...</h2>
+        <h2 class="top-title stroke">The Farmer Has an Ox</h2>
 
         <div class="flex flex-col items-center">
             <h4 class="text-white">(Tune: The Farmer in the Dell)</h4>
-            <img src="{{ asset('assets/images/phonicsl1/letter_w/well.png') }}" class="w-[10vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_x/ox.png') }}" class="w-[10vw]" />
             <div class="text-center text-white text-[2.8vw]">
-                <h3>'well' begins with /w/.</h3>
-                <h3>'well' begins with /w/.</h3>
-                <h3>'well' begins with /w/ /w/ /w/.</h3>
-                <h3>'well' begins with /w/.</h3>
+                <h3>'The farmer has an ox.</h3>
+                <h3>'The farmer has an ox.</h3>
+                <h3>Hi-ho, the derry-o.</h3>
+                <h3>'The farmer has an ox.</h3>
 
             </div>
         </div>
 
         <p class="p-note">Tip: Music will be automatically played twice. Click on the sound icon to repeat music. <br>
             Use the <a href="" class="c-btn info-btn9">Rebus Song Chart</a> to substitute with other words beginning
-            with the /w/ sound.</p>
+            with the /x/ sound.</p>
 
         {{-- sound Button --}}
         <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton"
-            data-audio="{{ asset('assets/audio/phonics_audio/letter-w/ws1.mp3') }}">
+            data-audio="{{ asset('assets/audio/phonics_audio/letter-x/xs1.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -122,12 +122,12 @@
         <h2 class="top-title stroke">I’ve got the Letter ‘s’</h2>
         <div class="flex flex-col items-center gap-[1vw] relative">
             <h4 class="text-white">(Tune: I’ve got the Whole World in my Hand)</h4>
-            <img src="{{ asset('assets/images/phonicsl1/letter_w/worm.png') }}" class="w-[10vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_x/xray.png') }}" class="w-[10vw]" />
             <div class="text-center text-white text-[3vw]">
-                <h3>I've got the letter 'w' for worm.</h3>
-                <h3>I've got the letter 'w' for worm.</h3>
-                <h3>I've got the letter 'w' for worm.</h3>
-                <h3>'w' goes /w/ /w/ /w/.</h3>
+                <h3>I've got the letter 'x' for x-ray.</h3>
+                <h3>I've got the letter 'x' for x-ray.</h3>
+                <h3>I've got the letter 'x' for x-ray.</h3>
+                <h3>'x' goes /x/ /x/ /x/.</h3>
             </div>
         </div>
 
@@ -135,7 +135,7 @@
 
         {{-- sound Button --}}
         <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton"
-            data-audio="{{ asset('assets/audio/phonics_audio/letter-w/ws2.mp3') }}">
+            data-audio="{{ asset('assets/audio/phonics_audio/letter-x/xs2.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -146,13 +146,15 @@
         <h2 class="top-title stroke">This is the Way</h2>
         <div class="flex flex-col items-center gap-[1vw]">
             <h4 class="text-white">(Tune: Here We Go Round the Mulberry Bush)</h4>
-
-            <img src="{{ asset('assets/images/phonicsl1/letter_w/wiggles.png') }}" class="w-[15vw]" />
+            <div class="w-full flex justify-between items-center">
+                <img src="{{ asset('assets/images/phonicsl1/letter_x/fox.png') }}" class="h-[15vw]" />
+                <img src="{{ asset('assets/images/phonicsl1/letter_x/ox.png') }}" class="w-[15vw]" />
+            </div>
             <div class="text-center text-white text-[2.5vw]">
-                <h3>This is the way worm wiggles.</h3>
-                <h3>The worm wiggles.       The worm wiggles.</h3>
-                <h3>This is the way worm wiggles.</h3>
-                <h3>Worm goes /w/ /w/ /w/ /w/ /w/.</h3>
+                <h3>The angry fox goes after the ox.</h3>
+                <h3>After the ox.        After the ox.</h3>
+                <h3>The angry fox goes after the ox.</h3>
+                <h3>/x/ goes ox.</h3>
 
             </div>
         </div>
@@ -160,7 +162,7 @@
 
         {{-- sound Button --}}
         <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton"
-            data-audio="{{ asset('assets/audio/phonics_audio/letter-w/ws3.mp3') }}">
+            data-audio="{{ asset('assets/audio/phonics_audio/letter-x/xs3.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -170,11 +172,11 @@
         <h2 class="top-title stroke">The ... In ...</h2>
         <div class="flex flex-col items-center">
             <h4 class="text-white">(Tune: The Wheels On The Bus Go Round And Round)</h4>
-            <img src="{{ asset('assets/images/phonicsl1/letter_w/wall.png') }}" class="w-[15vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_x/box.png') }}" class="w-[15vw]" />
             <div class="text-center text-white text-[3vw]">
-                <h3>The 'w' in wall goes /w/ /w/ /w/.</h3>
-                <h3>/q/ /w/ /w/ /w/ /w/ /w/</h3>
-                <h3>The 'w' in wall goes /w/ /w/ /w/.</h3>
+                <h3>The 'x' in box goes /x/ /x/ /x/.</h3>
+                <h3>/q/ /x/ /x/ /x/ /x/ /x/</h3>
+                <h3>The 'x' in box goes /x/ /x/ /x/.</h3>
                 <h3>Over and over again.</h3>
 
             </div>
@@ -183,7 +185,7 @@
 
         {{-- sound Button --}}
         <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton"
-            data-audio="{{ asset('assets/audio/phonics_audio/letter-w/ws4.mp3') }}">
+            data-audio="{{ asset('assets/audio/phonics_audio/letter-x/xs4.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -193,19 +195,19 @@
     <div class="phonics-panel info-panel-6 flex flex-col gap-[1vw]">
         <h2 class="top-title stroke">One Little, Two Little</h2>
         <h4 class="text-white">(Tune: Ten Little Indian Boys)</h4>
-        <img src="{{ asset('assets/images/phonicsl1/letter_w/wells.png') }}" />
+        <img src="{{ asset('assets/images/phonicsl1/letter_x/boxes.png') }}" />
         <div class="text-center text-white text-[2vw]">
-            <h3>One little, two little, three little wishing wells.</h3>
-            <h3>Four little, five little, six little wishing wells.</h3>
-            <h3>Seven little, eight little, nine little wishing wells</h3>
-            <h3>Ten little wishing wells.</h3>
+            <h3>One little, two little, three little wishing boxes.</h3>
+            <h3>Four little, five little, six little wishing boxes.</h3>
+            <h3>Seven little, eight little, nine little wishing boxes</h3>
+            <h3>Ten little wishing boxes.</h3>
 
         </div>
         <p class="p-note">Tip: Music will be automatically played twice. Click on the sound icon to repeat music.</p>
 
         {{-- sound Button --}}
         <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton"
-            data-audio="{{ asset('assets/audio/phonics_audio/letter-w/ws5.mp3') }}">
+            data-audio="{{ asset('assets/audio/phonics_audio/letter-x/xs5.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -217,14 +219,14 @@
         <div class="flex flex-col items-center gap-y-[2vw]">
             <h4 class="text-white">(Tune: Bingo)</h4>
             <div>
-                <img src="{{ asset('assets/images/phonicsl1/letter_w/group.png') }}" class="w-[45vw]" />
+                <img src="{{ asset('assets/images/phonicsl1/letter_x/group.png') }}" class="w-[45vw]" />
             </div>
         </div>
         <p class="p-note">Tip: Music will be automatically played twice. Click on the sound icon to repeat music.</p>
 
         {{-- sound Button --}}
         <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton"
-            data-audio="{{ asset('assets/audio/phonics_audio/letter-w/ws6.mp3') }}">
+            data-audio="{{ asset('assets/audio/phonics_audio/letter-x/xs6.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -235,12 +237,12 @@
         <div class="flex flex-col items-center justify-between h-full">
             <h4 class="text-white text-[1vw]">(Tune: Bingo)</h4>
             <div class="flex flex-col items-center">
-                <img src="{{ asset('assets/images/phonicsl1/letter_w/walnuts.png') }}" class="h-[13vw]" />
+                <img src="{{ asset('assets/images/phonicsl1/letter_x/xmas.png') }}" class="h-[13vw]" />
                 <div class="text-center text-white text-[2vw]">
-                    <h3>I like walnuts, yes I do.</h3>
-                    <h3>I like walnuts, yes I do.</h3>
-                    <h3>I like walnuts, yes I do.</h3>
-                    <h3>Do you like walnuts too?</h3>
+                    <h3>Xmas bells are ringing.</h3>
+                    <h3>Xmas bells are ringing.</h3>
+                    <h3>Xmas bells are ringing.</h3>
+                    <h3>Merry, Merry Christmas.</h3>
                 </div>
             </div>
             <p class="p-note">Tip: Music will be automatically played twice. Click on the sound icon to repeat music.</p>
@@ -248,7 +250,7 @@
 
         {{-- sound Button --}}
         <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton"
-            data-audio="{{ asset('assets/audio/phonics_audio/letter-w/ws7.mp3') }}">
+            data-audio="{{ asset('assets/audio/phonics_audio/letter-x/xs7.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -303,8 +305,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_w') }}";
-            const doneURL = "{{ url('/phonics/letter_w') }}";
+            const returnURL = "{{ url('/phonics/letter_x') }}";
+            const doneURL = "{{ url('/phonics/letter_x') }}";
 
             // Track current position
             let currentSlide = 0;

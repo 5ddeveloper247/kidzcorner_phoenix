@@ -80,51 +80,55 @@
 
     {{-- Panel 2 --}}
     <div class="phonics-panel flex flex-col items-center justify-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/wst1.m4a') }}">
-        <h1 class="text-white text-[3vw]"><span class="text-[#f7b94a]">W</span>orm in Well</h1>
-        <img src="{{ asset('assets/images/phonicsl1/letter_w/w-well.png') }}" class="h-[25vw]" />
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-x/xst1.m4a') }}">
+        <h1 class="text-white text-[3vw]">O<span class="text-[#f7b94a]">x</span>'s <span class="text-[#f7b94a]">X</span>-ray
+        </h1>
+        <img src="{{ asset('assets/images/phonicsl1/letter_x/keep.png') }}" class="w-[25vw]" />
     </div>
 
 
     {{-- Panel 3 --}}
     <div class="phonics-panel relative flex flex-col h-full items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/wst2.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-x/xst2.m4a') }}">
 
-        <img src="{{ asset('assets/images/phonicsl1/letter_w/watering.gif') }}" class="h-[25vw] rounded-[1vw]" />
-        <h1 class="text-white text-[3vw]"><span class="text-[#f7b94a]">W</span>innie <span
-                class="text-[#f7b94a]">W</span>aters the plants around the <span class="text-[#f7b94a]">w</span>ell.</h1>
+        <img src="{{ asset('assets/images/phonicsl1/letter_x/keep.gif') }}" class="h-[25vw]" />
+        <h1 class="text-white text-[3vw]">The ox has and x-ray</h1>
     </div>
 
 
     {{-- Panel 4 --}}
     <div class="phonics-panel relative flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/wst3.m4a') }}">
-        <img src="{{ asset('assets/images/phonicsl1/letter_w/sees.gif') }}" class="h-[25vw] rounded-[1vw]" />
-        <h1 class="text-white text-[2.5vw]">She sees a <span class="text-[#f7b94a]">w</span>orm on the <span
-                class="text-[#f7b94a]">w</span>et <span class="text-[#f7b94a]">w</span>all.</h1>
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-x/xst3.m4a') }}">
+        <img src="{{ asset('assets/images/phonicsl1/letter_x/keep.gif') }}" class="w-[25vw]" />
+        <h1 class="text-white text-[2.5vw]">Ma<span class="text-[#f7b94a]">x</span> keeps it safe in a bo<span
+                class="text-[#f7b94a]">x</span></h1>
     </div>
 
 
     {{-- Panel 5 --}}
     <div class="phonics-panel relative flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/wst4.m4a') }}">
-        <img src="{{ asset('assets/images/phonicsl1/letter_w/wigling.gif') }}" class="w-[30vw] rounded-[1vw]" />
-        <h1 class="text-white text-[2.5vw]">It is <span class="text-[#f7b94a]">w</span>iggling.</h1>
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-x/xst4.m4a') }}">
+        <img src="{{ asset('assets/images/phonicsl1/letter_x/walking.gif') }}" class="h-[25vw] rounded-[1vw]" />
+        <h1 class="text-white text-[2.5vw]">Si<span class="text-[#f7b94a]">x</span> foxes find the bo<span
+                class="text-[#f7b94a]">x</span>.</h1>
     </div>
 
 
     {{-- Panel 6 --}}
     <div class="phonics-panel relative flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/wst5.m4a') }}">
-        <img src="{{ asset('assets/images/phonicsl1/letter_w/crying.gif') }}" class="h-[25vw] rounded-[1vw]" />
-        <h1 class="text-white text-[2.5vw]"><span class="text-[#f7b94a]">W</span>innie <span
-                class="text-[#f7b94a]">w</span>ishes it would go away.</h1>
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-x/xst5.m4a') }}">
+        <div class="w-fit h-fit relative">
+            <img src="{{ asset('assets/images/phonicsl1/letter_x/walking.gif') }}" class="h-[25vw] rounded-[1vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_x/xray.png') }}"
+                class="w-[8vw] rotate-[20deg] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 " />
+        </div>
+        <h1 class="text-white text-[2.5vw]">And play with the x-ray of the ox.</h1>
     </div>
 
 
     {{-- Panel 7 --}}
     <div class="phonics-panel no-bg mb-[2vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/wst6.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-x/xst6.m4a') }}">
         <div class="relative w-fit">
             <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" />
             {{-- gifs --}}
@@ -132,15 +136,15 @@
             <img src="{{ asset('assets/images/phonicsl1/global/gifs/lili.gif') }}"
                 class="h-[20vw] bottom-0 right-0 absolute" />
 
-            <h1 class="text-white text-[3vw] absolute top-[10vw] left-1/2 -translate-x-1/2 text-center">What is <br>
-                Winnie doing?</h1>
+            <h1 class="text-white text-[3vw] absolute top-[10vw] left-1/2 -translate-x-1/2 text-center">Who has an <br>
+                x-ray?</h1>
             <p class="p-note absolute bottom-[1vw] left-[35%]">Tip: Elicit response from children.</p>
 
         </div>
     </div>
 
     <div class="phonics-panel no-bg mb-[2vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/wst7.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-x/xst7.m4a') }}">
         <div class="relative">
             <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" />
             {{-- gifs --}}
@@ -149,14 +153,15 @@
                 class="h-[20vw] bottom-0 right-0 absolute" />
 
             <h1 class="text-white text-[3vw] absolute top-[10vw] left-1/2 -translate-x-1/2 text-center">Where is the <br>
-                worm?</h1>
+                x-ray <br>
+                kept?</h1>
             <p class="p-note absolute bottom-[1vw] left-[35%]">Tip: Elicit response from children.</p>
         </div>
     </div>
 
 
     <div class="phonics-panel no-bg mb-[2vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/wst8.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-x/xst8.m4a') }}">
         <div class="relative">
             <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" />
             {{-- gifs --}}
@@ -164,9 +169,9 @@
             <img src="{{ asset('assets/images/phonicsl1/global/gifs/lili.gif') }}"
                 class="h-[20vw] bottom-0 right-0 absolute" />
 
-            <h1 class="text-white text-[3vw] absolute top-[10vw] left-1/2 -translate-x-1/2 text-center">What happens <br>
-                to the <br>
-                worm? </h1>
+            <h1 class="text-white text-[3vw] absolute top-[10vw] left-1/2 -translate-x-1/2 text-center">What do the <br>
+                foxes do with the <br>
+                x-ray?</h1>
             <p class="p-note absolute bottom-[1vw] left-[35%]">Tip: Elicit response from children.</p>
         </div>
     </div>
@@ -220,8 +225,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_w') }}";
-            const doneURL = "{{ url('/phonics/letter_w') }}";
+            const returnURL = "{{ url('/phonics/letter_x') }}";
+            const doneURL = "{{ url('/phonics/letter_x') }}";
 
             // Track current position
             let currentSlide = 0;

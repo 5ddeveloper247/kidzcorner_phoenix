@@ -420,29 +420,46 @@
                     }
                 }
 
-                // ✨ NEW: Auto-play audio for info-panel-1
-                if (currentSlideElement.classList.contains('info-panel-1')) {
-                    const soundButton = currentSlideElement.querySelector('#soundButton');
-                    if (soundButton) {
-                        const audioSrc = soundButton.getAttribute('data-audio');
-                        if (audioSrc) {
-                            // Small delay to ensure smooth transition
-                            setTimeout(() => {
-                                currentAudio = new Audio(audioSrc);
+                // ✨ Auto-play audio for slides with data-audio attribute (like Panel 1)
+                const slideAudioSrc = currentSlideElement.getAttribute('data-audio');
+                if (slideAudioSrc) {
+                    setTimeout(() => {
+                        currentAudio = new Audio(slideAudioSrc);
 
-                                // Play twice as mentioned in the tip
-                                let playCount = 0;
+                        // Play twice as mentioned in tips
+                        let playCount = 0;
+                        currentAudio.play();
+
+                        currentAudio.onended = function() {
+                            playCount++;
+                            if (playCount < 2) {
+                                currentAudio.currentTime = 0;
                                 currentAudio.play();
+                            }
+                        };
+                    }, 300);
+                }
 
-                                currentAudio.onended = function() {
-                                    playCount++;
-                                    if (playCount < 2) {
-                                        currentAudio.currentTime = 0;
-                                        currentAudio.play();
-                                    }
-                                };
-                            }, 300);
-                        }
+                // ✨ Auto-play audio for info-panel slides with sound buttons
+                const soundButton = currentSlideElement.querySelector('#soundButton');
+                if (soundButton && !slideAudioSrc) { // Only if slide doesn't have its own audio
+                    const audioSrc = soundButton.getAttribute('data-audio');
+                    if (audioSrc) {
+                        setTimeout(() => {
+                            currentAudio = new Audio(audioSrc);
+
+                            // Play twice as mentioned in the tip
+                            let playCount = 0;
+                            currentAudio.play();
+
+                            currentAudio.onended = function() {
+                                playCount++;
+                                if (playCount < 2) {
+                                    currentAudio.currentTime = 0;
+                                    currentAudio.play();
+                                }
+                            };
+                        }, 300);
                     }
                 }
             }

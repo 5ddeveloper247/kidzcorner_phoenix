@@ -48,7 +48,7 @@
         <div class="flex relative">
             <h1
                 class="text-[#f7b94a] text-[6vw] bottom-[17%] left-[24%] stroke leading-none absolute hover:text-[#757571]">
-              w</h1>
+              x</h1>
             <img src="{{ asset('assets/images/phonicsl1/letter_a/alpha-house.png') }}" />
         </div>
         <p class="p-note">Tips: Click on the letter to listen to words beginning with the letter sound. <br>
@@ -76,12 +76,12 @@
     {{-- Panel 2 --}}
     <div class="phonics-panel">
         <div>
-            <img src="{{ asset('assets/images/phonicsl1/letter_w/water.png') }}" class="w-[25vw]" />
-            <h1 class="text-white text-[5vw]"><span class="text-[#f7b94a]">w</span>ater</h1>
+            <img src="{{ asset('assets/images/phonicsl1/letter_x/xray.png') }}" class="w-[25vw]" />
+            <h1 class="text-white text-[5vw]"><span class="text-[#f7b94a]">x</span>-ray</h1>
         </div>
 
         {{-- sound Button --}}
-        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton" data-letter="water">
+        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton" data-letter="xray">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -90,12 +90,12 @@
     {{-- Panel 3 --}}
     <div class="phonics-panel">
         <div>
-            <img src="{{ asset('assets/images/phonicsl1/letter_w/worm.png') }}" class="w-[20vw]" />
-            <h1 class="text-white text-[5vw]"><span class="text-[#f7b94a]">w</span>orm</h1>
+            <img src="{{ asset('assets/images/phonicsl1/letter_x/box.png') }}" class="w-[20vw]" />
+            <h1 class="text-white text-[5vw]">bo<span class="text-[#f7b94a]">x</span></h1>
         </div>
 
         {{-- sound Button --}}
-        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton" data-letter="worm">
+        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton" data-letter="box">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -104,12 +104,12 @@
     {{-- Panel 4 --}}
     <div class="phonics-panel">
         <div class="flex flex-col items-center">
-            <img src="{{ asset('assets/images/phonicsl1/letter_w/well.png') }}" class="w-[25vw]" />
-            <h1 class="text-white text-[5vw]"><span class="text-[#f7b94a]">w</span>ell</h1>
+            <img src="{{ asset('assets/images/phonicsl1/letter_x/fox.png') }}" class="h-[20vw]" />
+            <h1 class="text-white text-[5vw]">fo<span class="text-[#f7b94a]">x</span></h1>
         </div>
 
         {{-- sound Button --}}
-        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton" data-letter="well">
+        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton" data-letter="fox">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -117,11 +117,11 @@
     {{-- Panel 5 --}}
     <div class="phonics-panel">
         <div class="flex flex-col items-center">
-            <img src="{{ asset('assets/images/phonicsl1/letter_w/wall.png') }}" class="w-[25vw]" />
-            <h1 class="text-white text-[5vw]"><span class="text-[#f7b94a]">w</span>all</h1>
+            <img src="{{ asset('assets/images/phonicsl1/letter_x/ox.png') }}" class="w-[25vw]" />
+            <h1 class="text-white text-[5vw]">o<span class="text-[#f7b94a]">x</span></h1>
         </div>
         {{-- sound Button --}}
-        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton" data-letter="wall">
+        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton" data-letter="ox">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -142,15 +142,15 @@
             <div class="bg-no-repeat bg-center bg-contain h-[30vw] w-[28vw] mt-[-7vw]
             flex justify-center items-end"
             style="background-image: url('{{ asset('assets/images/phonicsl1/global/board.png') }}')">
-            <h2 class="text-white text-[2vw] absolute top-[15%]">worm</h2>
+            <h2 class="text-white text-[2vw] absolute top-[15%]">x-ray</h2>
                 <div class="grid grid-cols-2 gap-x-[4vw] gap-y-[1.5vw] place-items-center mb-[3vw]">
                     {{-- this is false --}}
                     <div class="flex items-start">
-                        <a class="hover:brightness-110" id="false">
-                            <img src="{{ asset('assets/images/phonicsl1/letter_t/toad.png') }}" class="w-[6.5vw]" />
+                        <a class="hover:brightness-110" id="true">
+                            <img src="{{ asset('assets/images/phonicsl1/letter_x/xray.png') }}" class="w-[6.5vw]" />
                         </a>
                         {{-- sound Button --}}
-                        <button class="w-[3vw]" id="soundButton" data-letter="toad">
+                        <button class="w-[3vw]" id="soundButton" data-letter="xray">
                             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                         </button>
                     </div>
@@ -170,7 +170,7 @@
                     {{-- true --}}
                     <div class="col-span-2 flex justify-center ">
                         <div class="flex items-start gap-x-[1vw]">
-                            <a class=" hover:brightness-110" id="true">
+                            <a class=" hover:brightness-110" id="false">
                                 <img src="{{ asset('assets/images/phonicsl1/letter_w/worm.png') }}" class="w-[6vw]" />
                             </a>
                             {{-- sound Button --}}
@@ -268,8 +268,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_w') }}";
-            const doneURL = "{{ url('/phonics/letter_w') }}";
+            const returnURL = "{{ url('/phonics/letter_x') }}";
+            const doneURL = "{{ url('/phonics/letter_x') }}";
 
             // Track current position
             let currentSlide = 0; // Which slide we're on now
@@ -595,7 +595,7 @@
                 // Stop the sound if still playing
                 wellDoneSound.pause();
                 wellDoneSound.currentTime = 0;
-                window.location.href = '{{ url('/phonics/letter_w') }}';
+                window.location.href = '{{ url('/phonics/letter_x') }}';
             });
 
             // Optional: Sound button functionality

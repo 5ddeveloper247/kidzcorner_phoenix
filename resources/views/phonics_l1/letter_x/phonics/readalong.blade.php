@@ -83,16 +83,16 @@
 
 
     {{-- Panel 2 --}}
-    <div class="phonics-panel flex flex-col justify-between h-[90%]">
+    <div class="phonics-panel flex flex-col justify-between h-[80%] self-end">
         <div class="flex flex-col items-center justify-center gap-[2vw]">
-            <img src="{{ asset('assets/images/phonicsl1/letter_w/w-worm.png') }}" class="w-[25vw]" />
-            <h1 class="text-[2vw] text-[#f7b94a]">The worm wiggles to the well.</h1>
+            <img src="{{ asset('assets/images/phonicsl1/letter_x/x-ray.png') }}" class="w-[25vw]" />
+            <h1 class="text-[2vw] text-[#f7b94a]">The ox has an x-ray.</h1>
         </div>
         <p class="p-note">Tip: Music will be automatically played twice. Click on the sound icon to repeat music.</p>
 
         {{-- sound Button --}}
         <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton"
-            data-audio="{{ asset('assets/audio/phonics_audio/letter-w/w-worm.m4a') }}">
+            data-audio="{{ asset('assets/audio/phonics_audio/letter-x/x-ray.m4a') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -105,7 +105,7 @@
                     <img src="{{ asset('assets/images/phonicsl1/global/blank.png') }}" class="w-[18vw]" />
                     <h2 class="text-[1.2vw] !text-[#B76E33] absolute top-[2vw] right-[2vw]">Help me complete <br> the
                         sentence
-                        with <br> a word beginning <br> with ‘W’.</h2>
+                        with <br> a word beginning <br> with ‘x’.</h2>
                 </div>
                 <img src="{{ asset('assets/images/phonicsl1/global/teacher.png') }}" class="h-[20vw]" />
             </div>
@@ -116,11 +116,11 @@
                     <div class="grid grid-cols-2 gap-x-[4vw] gap-y-[1.5vw] place-items-center mb-[3vw]">
                         {{-- this is false --}}
                         <div class="flex items-start">
-                            <a class="hover:brightness-110" id="false">
-                                <img src="{{ asset('assets/images/phonicsl1/letter_t/tortoise.png') }}" class="w-[6vw]" />
+                            <a class="hover:brightness-110" id="true">
+                                <img src="{{ asset('assets/images/phonicsl1/letter_x/xray.png') }}" class="w-[8vw]" />
                             </a>
                             {{-- sound Button --}}
-                            <button class="w-[3vw]" id="soundButton" data-letter="tortoise">
+                            <button class="w-[3vw]" id="soundButton" data-letter="xray">
                                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                             </button>
                         </div>
@@ -140,7 +140,7 @@
                         {{-- true --}}
                         <div class="col-span-2 flex justify-center ">
                             <div class="flex items-start gap-x-[1vw]">
-                                <a class="hover:brightness-110" id="true">
+                                <a class="hover:brightness-110" id="false">
                                     <img src="{{ asset('assets/images/phonicsl1/letter_w/wiggles.png') }}"
                                         class="w-[7vw] scale-x-[-1]" />
                                 </a>
@@ -152,7 +152,7 @@
                         </div>
                     </div>
                 </div>
-                <h2 class="text-white text-[1.5vw]">There is _______ in the jug.</h2>
+                <h2 class="text-white text-[1.5vw]">I have an _______.</h2>
 
             </div>
         </div>
@@ -241,8 +241,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_w') }}";
-            const doneURL = "{{ url('/phonics/letter_w') }}";
+            const returnURL = "{{ url('/phonics/letter_x') }}";
+            const doneURL = "{{ url('/phonics/letter_x') }}";
 
             // Track current position
             let currentSlide = 0;
@@ -621,7 +621,7 @@
                 // Stop the sound if still playing
                 wellDoneSound.pause();
                 wellDoneSound.currentTime = 0;
-                window.location.href = '{{ url('/phonics/letter_w') }}';
+                window.location.href = '{{ url('/phonics/letter_x') }}';
             });
 
             // Optional: Sound button functionality

@@ -11,179 +11,167 @@
         .p-note {
             font-size: 1.2vw;
             color: white !important;
-            width: 50vw;
-
         }
     </style>
 @endpush
 
 @section('content')
-    {{-- Top Title --}}
-    <h2 class="top-title stroke">Word Search</h2>
+
+    {{-- title --}}
+    <h2 class="top-title stroke">Flash Cards</h2>
 
     {{-- panel 1 --}}
-    <div class="phonics-panel mb-[2vw]">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio/flashcard/help.mp3') }}">
+
         <div class="flex items-start ">
-            <div class="relative">
-                <img src="{{ asset('assets/images/phonicsl1/global/click3.png') }}" class="w-[30vw]" />
-                <h3 class="text-[#B76E33] text-[2.5vw] absolute top-1/2 left-[45%] -translate-x-1/2 -translate-y-1/2">Help me
-                    <br>
-                    search for <br>
-                    these words!
-                </h3>
-            </div>
+            <img src="{{ asset('assets/images/phonicsl1/letter_a/read.png') }}" class="w-[25vw]" />
             <img src="{{ asset('assets/images/phonicsl1/global/bear.png') }}" class="h-[25vw]" />
         </div>
+        <p class="p-note">Tip: Flash these high frequency words the first reading of the story.</p>
+
+    </div>
+
+    {{-- Panel 2 --}}
+    <div class="phonics-panel flex flex-col justify-between h-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-y/flashcard/her.m4a') }}">
+        <img src="{{ asset('assets/images/phonicsl1/letter_y/her.png') }}" class="w-[14vw]" />
+        <p class="p-note">Tip: These are 10 words on the list. Guide children to read each word.</p>
     </div>
 
 
-    {{-- treasure  Panel 1 --}}
-    <div class="phonics-panel flex flex-col items-center gap-y-[1vw]">
-        <img src="{{ asset('assets/images/phonicsl1/letter_w/word1.png') }}" class="w-[45vw]">
-        <p class="p-note">Tips: Look at the Word Search Activity Sheet in the Pupil's Activity Book. <br>
-            There are 8 words to be found in the puzzle.</p>
-    </div>
-
-    {{--  Panel --}}
-    <div class="phonics-panel flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/flashcard/would.m4a') }}">
-        <div
-            class="w-[30vw] text-center h-[10vw] rounded-2xl text-[5vw] bg-[#F7B94A] text-white flex justify-center items-center">
-            would</div>
-        <p class="p-note">Tips: This is the second of 8 words to be flashed <br>
-            Ask children to colour the word on their Treasure Trail Activity Sheet.</p>
-    </div>
-
-    {{--  panel --}}
-    <div class="phonics-panel flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/flashcard/would.m4a') }}">
-        <img src="{{ asset('assets/images/phonicsl1/letter_w/word2.png') }}" class="w-[45vw]">
-    </div>
-
-    {{--  Panel --}}
-    <div class="phonics-panel flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/flashcard/when.m4a') }}">
-        <div
-            class="w-[30vw] text-center h-[10vw] rounded-2xl text-[5vw] bg-[#F7B94A] text-white flex justify-center items-center">
-            when</div>
-        <p class="p-note">Tips: This is the second of 8 words to be flashed <br>
-            Ask children to colour the word on their Treasure Trail Activity Sheet.</p>
-    </div>
-
-    {{--  panel --}}
-    <div class="phonics-panel flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/flashcard/when.m4a') }}">
-        <img src="{{ asset('assets/images/phonicsl1/letter_w/word3.png') }}" class="w-[45vw]">
-    </div>
-
-    {{--  Panel --}}
-    <div class="phonics-panel flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/flashcard/who.m4a') }}">
-        <div
-            class="w-[30vw] text-center h-[10vw] rounded-2xl text-[5vw] bg-[#F7B94A] text-white flex justify-center items-center">
-            who</div>
-        <p class="p-note">Tips: This is the second of 8 words to be flashed <br>
-            Ask children to colour the word on their Treasure Trail Activity Sheet.</p>
-    </div>
-
-    {{--  panel --}}
-    <div class="phonics-panel flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/flashcard/who.m4a') }}">
-        <img src="{{ asset('assets/images/phonicsl1/letter_w/word4.png') }}" class="w-[45vw]">
-    </div>
-
-    {{--  Panel --}}
-    <div class="phonics-panel flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/flashcard/which.m4a') }}">
-        <div
-            class="w-[30vw] text-center h-[10vw] rounded-2xl text-[5vw] bg-[#F7B94A] text-white flex justify-center items-center">
-            which</div>
-        <p class="p-note">Tips: This is the second of 8 words to be flashed <br>
-            Ask children to colour the word on their Treasure Trail Activity Sheet.</p>
-    </div>
-
-    {{--  panel --}}
-    <div class="phonics-panel flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/flashcard/which.m4a') }}">
-        <img src="{{ asset('assets/images/phonicsl1/letter_w/word5.png') }}" class="w-[45vw]">
-    </div>
-
-    {{--  Panel --}}
-    <div class="phonics-panel flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/flashcard/sees.m4a') }}">
-        <div
-            class="w-[30vw] text-center h-[10vw] rounded-2xl text-[5vw] bg-[#F7B94A] text-white flex justify-center items-center">
-            sees</div>
-        <p class="p-note">Tips: This is the second of 8 words to be flashed <br>
-            Ask children to colour the word on their Treasure Trail Activity Sheet.</p>
-    </div>
-
-    {{--  panel --}}
-    <div class="phonics-panel flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/flashcard/sees.m4a') }}">
-        <img src="{{ asset('assets/images/phonicsl1/letter_w/word6.png') }}" class="w-[45vw]">
+    {{-- Panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-between h-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-y/flashcard/it.m4a') }}">
+        <div class="flex items-start">
+            <img src="{{ asset('assets/images/phonicsl1/letter_y/her.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_y/it.png') }}" class="w-[14vw]" />
+        </div>
+        <p class="p-note">Tip: These are 10 words on the list. Guide children to read each word.</p>
     </div>
 
 
-    {{--  Panel --}}
-    <div class="phonics-panel flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/flashcard/is.m4a') }}">
-        <div
-            class="w-[30vw] text-center h-[10vw] rounded-2xl text-[5vw] bg-[#F7B94A] text-white flex justify-center items-center">
-            is</div>
-        <p class="p-note">Tips: This is the second of 8 words to be flashed <br>
-            Ask children to colour the word on their Treasure Trail Activity Sheet.</p>
-    </div>
-
-    {{--  panel --}}
-    <div class="phonics-panel flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/flashcard/is.m4a') }}">
-
-        <img src="{{ asset('assets/images/phonicsl1/letter_w/word7.png') }}" class="w-[45vw]">
+    {{-- Panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-between h-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-y/flashcard/not.m4a') }}">
+        <div class="flex items-start">
+            <img src="{{ asset('assets/images/phonicsl1/letter_y/her.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_y/it.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_y/not.png') }}" class="w-[14vw]" />
+        </div>
+        <p class="p-note">Tip: These are 10 words on the list. Guide children to read each word.</p>
     </div>
 
 
-    {{-- Panel --}}
-    <div class="phonics-panel flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/flashcard/on.m4a') }}">
-
-        <div
-            class="w-[30vw] text-center h-[10vw] rounded-2xl text-[5vw] bg-[#F7B94A] text-white flex justify-center items-center">
-            on</div>
-        <p class="p-note">Tips: This is the second of 8 words to be flashed <br>
-            Ask children to colour the word on their Treasure Trail Activity Sheet.</p>
+    {{-- Panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-between h-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-y/flashcard/in.m4a') }}">
+        <div class="grid grid-cols-3 items-start">
+            <img src="{{ asset('assets/images/phonicsl1/letter_y/her.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_y/it.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_y/not.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_y/in.png') }}" class="w-[14vw]" />
+        </div>
+        <p class="p-note">Tip: These are 10 words on the list. Guide children to read each word.</p>
     </div>
 
-    {{--  panel --}}
-    <div class="phonics-panel flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/flashcard/on.m4a') }}">
 
-        <img src="{{ asset('assets/images/phonicsl1/letter_w/word8.png') }}" class="w-[45vw]">
+    {{-- Panel 6 --}}
+    <div class="phonics-panel flex flex-col justify-between h-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-y/flashcard/she.m4a') }}">
+        <div class="grid grid-cols-3 items-start">
+            <img src="{{ asset('assets/images/phonicsl1/letter_y/her.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_y/it.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_y/not.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_y/in.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_y/she.png') }}" class="w-[14vw]" />
+        </div>
+        <p class="p-note">Tip: These are 10 words on the list. Guide children to read each word.</p>
     </div>
 
-    {{-- Panel --}}
-    <div class="phonics-panel flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/flashcard/go.m4a') }}">
-
-        <div
-            class="w-[30vw] text-center h-[10vw] rounded-2xl text-[5vw] bg-[#F7B94A] text-white flex justify-center items-center">
-            go</div>
-        <p class="p-note">Tips: This is the second of 8 words to be flashed <br>
-            Ask children to colour the word on their Treasure Trail Activity Sheet.</p>
+    {{-- Panel 7 --}}
+    <div class="phonics-panel flex flex-col justify-between h-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-y/flashcard/out.m4a') }}">
+        <div class="grid grid-cols-3 items-start">
+            <img src="{{ asset('assets/images/phonicsl1/letter_y/her.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_y/it.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_y/not.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_y/in.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_y/she.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_y/out.png') }}" class="w-[14vw]" />
+        </div>
+        <p class="p-note">Tip: These are 10 words on the list. Guide children to read each word.</p>
     </div>
 
-    {{--  panel --}}
-    <div class="phonics-panel flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/flashcard/go.m4a') }}">
-        <img src="{{ asset('assets/images/phonicsl1/letter_w/word9.png') }}" class="w-[45vw]">
+
+    {{-- Panel 8 --}}
+    <div class="phonics-panel flex flex-col justify-between h-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-y/flashcard/he.m4a') }}">
+        <div class="grid grid-cols-3 items-start">
+            <img src="{{ asset('assets/images/phonicsl1/letter_y/her.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_y/it.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_y/not.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_y/in.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_y/she.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_y/out.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_y/he.png') }}" class="w-[14vw]" />
+        </div>
+        <p class="p-note">Tip: These are 10 words on the list. Guide children to read each word.</p>
     </div>
 
-    {{--  panel --}}
-    <div class="phonics-panel flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/wordsearch.m4a') }}">
-        <img src="{{ asset('assets/images/phonicsl1/letter_w/word10.png') }}" class="w-[45vw]">
+    {{-- Panel 9 --}}
+    <div class="phonics-panel flex flex-col justify-between h-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-y/flashcard/has.m4a') }}">
+        <div class="grid grid-cols-3 items-start">
+            <img src="{{ asset('assets/images/phonicsl1/letter_y/her.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_y/it.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_y/not.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_y/in.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_y/she.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_y/out.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_y/he.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_y/has.png') }}" class="w-[14vw]" />
+        </div>
+        <p class="p-note">Tip: These are 10 words on the list. Guide children to read each word.</p>
     </div>
 
+
+    {{-- Panel 10 --}}
+    <div class="phonics-panel flex flex-col justify-between h-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-y/flashcard/other.m4a') }}">
+        <div class="grid grid-cols-3 items-start">
+            <img src="{{ asset('assets/images/phonicsl1/letter_y/has.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_y/it.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_y/not.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_y/in.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_y/she.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_y/out.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_y/he.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_y/has.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_y/other.png') }}" class="w-[14vw]" />
+        </div>
+        <p class="p-note">Tip: These are 10 words on the list. Guide children to read each word.</p>
+    </div>
+
+
+    {{-- Panel 11 --}}
+    <div class="phonics-panel flex flex-col justify-between h-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-y/flashcard/way.m4a') }}">
+        <div class="grid grid-cols-3 items-start mt-[2vw]">
+            <img src="{{ asset('assets/images/phonicsl1/letter_y/has.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_y/it.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_y/not.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_y/in.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_y/she.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_y/out.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_y/he.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_y/has.png') }}" class="w-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_y/other.png') }}" class="w-[14vw]" />
+            <div class="col-span-3 flex justify-center">
+                <img src="{{ asset('assets/images/phonicsl1/letter_y/way.png') }}" class="w-[14vw]" />
+            </div>
+        </div>
+        <p class="p-note">Tip: These are 10 words on the list. Guide children to read each word.</p>
+    </div>
 
 
 
@@ -213,7 +201,6 @@
             <img src="{{ asset('assets/images/phonicsl1/global/btns/next-btn.png') }}" />
         </button>
     </div>
-
     <div class="down-btn-container">
         <button class="doneButton hidden">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/done.png') }}" />
@@ -234,8 +221,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_w') }}";
-            const doneURL = "{{ url('/phonics/letter_w') }}";
+            const returnURL = "{{ url('/phonics/letter_y') }}";
+            const doneURL = "{{ url('/phonics/letter_y') }}";
 
             // Track current position
             let currentSlide = 0;

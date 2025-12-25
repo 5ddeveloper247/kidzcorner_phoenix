@@ -59,268 +59,271 @@
         </div>
     </div>
 
-     {{-- Panel 2 --}}
-    <div class="phonics-panel flex flex-col items-center justify-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/wst1.m4a') }}">
-        <h1 class="text-white text-[3vw]"><span class="text-[#f7b94a]">W</span>orm in Well</h1>
-        <img src="{{ asset('assets/images/phonicsl1/letter_w/w-well.png') }}" class="h-[25vw]" />
-    </div>
+    {{-- Panel 2 --}}
+    < {{-- Panel 2 --}} <div class="phonics-panel flex flex-col items-center justify-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-x/xst1.m4a') }}">
+        <h1 class="text-white text-[3vw]">O<span class="text-[#f7b94a]">x</span>'s <span class="text-[#f7b94a]">X</span>-ray
+        </h1>
+        <img src="{{ asset('assets/images/phonicsl1/letter_x/keep.png') }}" class="w-[25vw]" />
+        </div>
 
 
-    {{-- Panel 3 --}}
-    <div class="phonics-panel relative flex flex-col h-full items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/wst2.m4a') }}">
+        {{-- Panel 3 --}}
+        <div class="phonics-panel relative flex flex-col h-full items-center"
+            data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-x/xst2.m4a') }}">
 
-        <img src="{{ asset('assets/images/phonicsl1/letter_w/watering.gif') }}" class="h-[25vw] rounded-[1vw]" />
-        <h1 class="text-white text-[3vw]"><span class="text-[#f7b94a]">W</span>innie <span
-                class="text-[#f7b94a]">W</span>aters the plants around the <span class="text-[#f7b94a]">w</span>ell.</h1>
-    </div>
-
-
-    {{-- Panel 4 --}}
-    <div class="phonics-panel relative flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/wst3.m4a') }}">
-        <img src="{{ asset('assets/images/phonicsl1/letter_w/sees.gif') }}" class="h-[25vw] rounded-[1vw]" />
-        <h1 class="text-white text-[2.5vw]">She sees a <span class="text-[#f7b94a]">w</span>orm on the <span
-                class="text-[#f7b94a]">w</span>et <span class="text-[#f7b94a]">w</span>all.</h1>
-    </div>
+            <img src="{{ asset('assets/images/phonicsl1/letter_x/keep.gif') }}" class="h-[25vw]" />
+            <h1 class="text-white text-[3vw]">The ox has and x-ray</h1>
+        </div>
 
 
-    {{-- Panel 5 --}}
-    <div class="phonics-panel relative flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/wst4.m4a') }}">
-        <img src="{{ asset('assets/images/phonicsl1/letter_w/wigling.gif') }}" class="w-[30vw] rounded-[1vw]" />
-        <h1 class="text-white text-[2.5vw]">It is <span class="text-[#f7b94a]">w</span>iggling.</h1>
-    </div>
+        {{-- Panel 4 --}}
+        <div class="phonics-panel relative flex flex-col items-center"
+            data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-x/xst3.m4a') }}">
+            <img src="{{ asset('assets/images/phonicsl1/letter_x/keep.gif') }}" class="w-[25vw]" />
+            <h1 class="text-white text-[2.5vw]">Ma<span class="text-[#f7b94a]">x</span> keeps it safe in a bo<span
+                    class="text-[#f7b94a]">x</span></h1>
+        </div>
 
 
-    {{-- Panel 6 --}}
-    <div class="phonics-panel relative flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-w/wst5.m4a') }}">
-        <img src="{{ asset('assets/images/phonicsl1/letter_w/crying.gif') }}" class="h-[25vw] rounded-[1vw]" />
-        <h1 class="text-white text-[2.5vw]"><span class="text-[#f7b94a]">W</span>innie <span
-                class="text-[#f7b94a]">w</span>ishes it would go away.</h1>
-    </div>
+        {{-- Panel 5 --}}
+        <div class="phonics-panel relative flex flex-col items-center"
+            data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-x/xst4.m4a') }}">
+            <img src="{{ asset('assets/images/phonicsl1/letter_x/walking.gif') }}" class="h-[25vw] rounded-[1vw]" />
+            <h1 class="text-white text-[2.5vw]">Si<span class="text-[#f7b94a]">x</span> foxes find the bo<span
+                    class="text-[#f7b94a]">x</span>.</h1>
+        </div>
+
+
+        {{-- Panel 6 --}}
+        <div class="phonics-panel relative flex flex-col items-center"
+            data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-x/xst5.m4a') }}">
+            <div class="w-fit h-fit relative">
+                <img src="{{ asset('assets/images/phonicsl1/letter_x/walking.gif') }}" class="h-[25vw] rounded-[1vw]" />
+                <img src="{{ asset('assets/images/phonicsl1/letter_x/xray.png') }}"
+                    class="w-[8vw] rotate-[20deg] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 " />
+            </div>
+            <h1 class="text-white text-[2.5vw]">And play with the x-ray of the ox.</h1>
+        </div>
 
 
 
+        {{-- All Buttons --}}
+        <div id="buttons" class="absolute flex flex-row gap-6 z-90">
 
-    {{-- All Buttons --}}
-    <div id="buttons" class="absolute flex flex-row gap-6 z-90">
+            <!-- Home Button -->
+            <button id="returnButton">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/return-btn.png') }}" />
+            </button>
 
-        <!-- Home Button -->
-        <button id="returnButton">
-            <img src="{{ asset('assets/images/phonicsl1/global/btns/return-btn.png') }}" />
-        </button>
+            <!-- return Button -->
+            <button id="homeButton">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/home-btn.png') }}" />
+            </button>
 
-        <!-- return Button -->
-        <button id="homeButton">
-            <img src="{{ asset('assets/images/phonicsl1/global/btns/home-btn.png') }}" />
-        </button>
+            <!-- Close Button -->
+            <button id="closeButton">
 
-        <!-- Close Button -->
-        <button id="closeButton">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/cancel.png') }}" />
+            </button>
+        </div>
 
-            <img src="{{ asset('assets/images/phonicsl1/global/btns/cancel.png') }}" />
-        </button>
-    </div>
+        {{-- Next and Done Buttons --}}
+        <div class="down-btn-container">
+            <button class="nextButton">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/next-btn.png') }}" />
+            </button>
+        </div>
+        <div class="down-btn-container">
+            <button class="doneButton hidden">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/done.png') }}" />
+            </button>
+        </div>
+    @endsection
 
-    {{-- Next and Done Buttons --}}
-    <div class="down-btn-container">
-        <button class="nextButton">
-            <img src="{{ asset('assets/images/phonicsl1/global/btns/next-btn.png') }}" />
-        </button>
-    </div>
-    <div class="down-btn-container">
-        <button class="doneButton hidden">
-            <img src="{{ asset('assets/images/phonicsl1/global/btns/done.png') }}" />
-        </button>
-    </div>
-@endsection
+    @push('script')
+        <script>
+            // SLIDE NAVIGATION SYSTEM
+            document.addEventListener("DOMContentLoaded", function() {
 
-@push('script')
-    <script>
-        // SLIDE NAVIGATION SYSTEM
-        document.addEventListener("DOMContentLoaded", function() {
+                // Get all elements
+                const slides = document.querySelectorAll(".phonics-panel");
+                const nextButtons = document.querySelectorAll(".nextButton");
+                const returnButton = document.getElementById("returnButton");
+                const doneButton = document.querySelector(".doneButton");
+                const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
-            // Get all elements
-            const slides = document.querySelectorAll(".phonics-panel");
-            const nextButtons = document.querySelectorAll(".nextButton");
-            const returnButton = document.getElementById("returnButton");
-            const doneButton = document.querySelector(".doneButton");
-            const soundButtons = document.querySelectorAll("[id^='soundButton']");
+                // URLs for navigation
+                const returnURL = "{{ url('/phonics/letter_x') }}";
+                const doneURL = "{{ url('/phonics/letter_x') }}";
 
-            // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_w') }}";
-            const doneURL = "{{ url('/phonics/letter_w') }}";
+                // Track current position
+                let currentSlide = 0;
 
-            // Track current position
-            let currentSlide = 0;
+                // 🔊 Global audio tracking
+                let currentAudio = null;
 
-            // 🔊 Global audio tracking
-            let currentAudio = null;
-
-            // 🛑 Function to stop all audio/speech
-            function stopAllAudio() {
-                // Stop any playing audio files
-                if (currentAudio) {
-                    currentAudio.pause();
-                    currentAudio.currentTime = 0;
-                    currentAudio = null;
-                }
-            }
-
-            // HELPER FUNCTIONS
-            function isSpecialSlide(slide) {
-                const classList = Array.from(slide.classList);
-                return classList.some(cls => /^info-panel-\d+$/.test(cls));
-            }
-
-            function isLastSlide(slideIndex) {
-                for (let i = slideIndex + 1; i < slides.length; i++) {
-                    if (!isSpecialSlide(slides[i])) {
-                        return false;
+                // 🛑 Function to stop all audio/speech
+                function stopAllAudio() {
+                    // Stop any playing audio files
+                    if (currentAudio) {
+                        currentAudio.pause();
+                        currentAudio.currentTime = 0;
+                        currentAudio = null;
                     }
                 }
-                return true;
-            }
 
-            // DISPLAY FUNCTIONS
-            function showSlide(slideIndex) {
-                const ajaxSection = document.getElementById('ajax-section');
-                const currentSlideElement = slides[slideIndex];
+                // HELPER FUNCTIONS
+                function isSpecialSlide(slide) {
+                    const classList = Array.from(slide.classList);
+                    return classList.some(cls => /^info-panel-\d+$/.test(cls));
+                }
 
-                // 🛑 Stop all audio when changing slides
-                stopAllAudio();
-
-                // Hide all slides, show only current one
-                slides.forEach((slide, index) => {
-                    if (index === slideIndex) {
-                        slide.classList.remove("hidden");
-                    } else {
-                        slide.classList.add("hidden");
-                    }
-                });
-
-                // Check if current slide has 'next-hide' class
-                if (currentSlideElement.classList.contains('next-hide')) {
-                    nextButtons.forEach(btn => btn.classList.add("hidden"));
-                } else {
-                    // Show "Done" button on last slide, otherwise show "Next"
-                    if (isLastSlide(slideIndex)) {
-                        // Check if current slide has 'done-hide' class
-                        if (currentSlideElement.classList.contains('done-hide')) {
-                            // Hide done button if slide has done-hide class
-                            if (doneButton) doneButton.classList.add("hidden");
-                            nextButtons.forEach(btn => btn.classList.add("hidden"));
-                        } else {
-                            // Show done button normally
-                            nextButtons.forEach(btn => btn.classList.add("hidden"));
-                            if (doneButton) doneButton.classList.remove("hidden");
+                function isLastSlide(slideIndex) {
+                    for (let i = slideIndex + 1; i < slides.length; i++) {
+                        if (!isSpecialSlide(slides[i])) {
+                            return false;
                         }
-                    } else {
-                        nextButtons.forEach(btn => btn.classList.remove("hidden"));
-                        if (doneButton) doneButton.classList.add("hidden");
                     }
+                    return true;
                 }
 
-                // Toggle ajax-section background ONLY based on no-bg class
-                if (ajaxSection) {
-                    if (currentSlideElement.classList.contains('no-bg')) {
-                        ajaxSection.classList.add('no-bg');
-                    } else {
-                        ajaxSection.classList.remove('no-bg');
-                    }
-                }
+                // DISPLAY FUNCTIONS
+                function showSlide(slideIndex) {
+                    const ajaxSection = document.getElementById('ajax-section');
+                    const currentSlideElement = slides[slideIndex];
 
-                // 🔊 Auto-play audio if slide has data-slide-audio attribute
-                const slideAudioSrc = currentSlideElement.getAttribute('data-slide-audio');
-                if (slideAudioSrc) {
-                    // Small delay to ensure slide is visible before playing
-                    setTimeout(() => {
-                        currentAudio = new Audio(slideAudioSrc);
-                        currentAudio.play().catch(err => console.log('Auto-play failed:', err));
-                    }, 300);
-                }
-            }
-
-            // NAVIGATION FUNCTIONS
-            function goNext() {
-                if (currentSlide >= slides.length - 1) return;
-                currentSlide++;
-                while (currentSlide < slides.length) {
-                    const slide = slides[currentSlide];
-                    if (!isSpecialSlide(slide)) break;
-                    currentSlide++;
-                }
-                if (currentSlide < slides.length) {
-                    showSlide(currentSlide);
-                }
-            }
-
-            function goBack() {
-                if (currentSlide === 0) {
-                    stopAllAudio(); // 🛑 Stop audio before leaving
-                    window.location.href = returnURL;
-                    return;
-                }
-                if (currentSlide > 0) {
-                    currentSlide--;
-                    while (currentSlide > 0 && isSpecialSlide(slides[currentSlide])) {
-                        currentSlide--;
-                    }
-                    showSlide(currentSlide);
-                }
-            }
-
-            function handleDone() {
-                stopAllAudio(); // 🛑 Stop audio before action
-                window.location.href = doneURL;
-            }
-
-            // EVENT LISTENERS
-            nextButtons.forEach(btn => {
-                btn.addEventListener("click", goNext);
-            });
-
-            if (returnButton) {
-                returnButton.addEventListener("click", goBack);
-            }
-
-            if (doneButton) {
-                doneButton.addEventListener("click", handleDone);
-            }
-
-            // 🔊 Home and Close buttons also stop audio
-            const homeButton = document.getElementById("homeButton");
-            const closeButton = document.getElementById("closeButton");
-
-            if (homeButton) {
-                homeButton.addEventListener("click", () => stopAllAudio());
-            }
-
-            if (closeButton) {
-                closeButton.addEventListener("click", () => stopAllAudio());
-            }
-
-            soundButtons.forEach(btn => {
-                btn.addEventListener("click", (e) => {
-                    e.preventDefault();
-
-                    // Stop any previous audio first
+                    // 🛑 Stop all audio when changing slides
                     stopAllAudio();
 
-                    // Play audio file if data-audio is provided
-                    const audioSrc = btn.getAttribute("data-audio");
-                    if (audioSrc) {
-                        currentAudio = new Audio(audioSrc);
-                        currentAudio.play();
-                    }
-                });
-            });
+                    // Hide all slides, show only current one
+                    slides.forEach((slide, index) => {
+                        if (index === slideIndex) {
+                            slide.classList.remove("hidden");
+                        } else {
+                            slide.classList.add("hidden");
+                        }
+                    });
 
-            // INITIALIZE
-            showSlide(currentSlide);
-        });
-    </script>
-@endpush
+                    // Check if current slide has 'next-hide' class
+                    if (currentSlideElement.classList.contains('next-hide')) {
+                        nextButtons.forEach(btn => btn.classList.add("hidden"));
+                    } else {
+                        // Show "Done" button on last slide, otherwise show "Next"
+                        if (isLastSlide(slideIndex)) {
+                            // Check if current slide has 'done-hide' class
+                            if (currentSlideElement.classList.contains('done-hide')) {
+                                // Hide done button if slide has done-hide class
+                                if (doneButton) doneButton.classList.add("hidden");
+                                nextButtons.forEach(btn => btn.classList.add("hidden"));
+                            } else {
+                                // Show done button normally
+                                nextButtons.forEach(btn => btn.classList.add("hidden"));
+                                if (doneButton) doneButton.classList.remove("hidden");
+                            }
+                        } else {
+                            nextButtons.forEach(btn => btn.classList.remove("hidden"));
+                            if (doneButton) doneButton.classList.add("hidden");
+                        }
+                    }
+
+                    // Toggle ajax-section background ONLY based on no-bg class
+                    if (ajaxSection) {
+                        if (currentSlideElement.classList.contains('no-bg')) {
+                            ajaxSection.classList.add('no-bg');
+                        } else {
+                            ajaxSection.classList.remove('no-bg');
+                        }
+                    }
+
+                    // 🔊 Auto-play audio if slide has data-slide-audio attribute
+                    const slideAudioSrc = currentSlideElement.getAttribute('data-slide-audio');
+                    if (slideAudioSrc) {
+                        // Small delay to ensure slide is visible before playing
+                        setTimeout(() => {
+                            currentAudio = new Audio(slideAudioSrc);
+                            currentAudio.play().catch(err => console.log('Auto-play failed:', err));
+                        }, 300);
+                    }
+                }
+
+                // NAVIGATION FUNCTIONS
+                function goNext() {
+                    if (currentSlide >= slides.length - 1) return;
+                    currentSlide++;
+                    while (currentSlide < slides.length) {
+                        const slide = slides[currentSlide];
+                        if (!isSpecialSlide(slide)) break;
+                        currentSlide++;
+                    }
+                    if (currentSlide < slides.length) {
+                        showSlide(currentSlide);
+                    }
+                }
+
+                function goBack() {
+                    if (currentSlide === 0) {
+                        stopAllAudio(); // 🛑 Stop audio before leaving
+                        window.location.href = returnURL;
+                        return;
+                    }
+                    if (currentSlide > 0) {
+                        currentSlide--;
+                        while (currentSlide > 0 && isSpecialSlide(slides[currentSlide])) {
+                            currentSlide--;
+                        }
+                        showSlide(currentSlide);
+                    }
+                }
+
+                function handleDone() {
+                    stopAllAudio(); // 🛑 Stop audio before action
+                    window.location.href = doneURL;
+                }
+
+                // EVENT LISTENERS
+                nextButtons.forEach(btn => {
+                    btn.addEventListener("click", goNext);
+                });
+
+                if (returnButton) {
+                    returnButton.addEventListener("click", goBack);
+                }
+
+                if (doneButton) {
+                    doneButton.addEventListener("click", handleDone);
+                }
+
+                // 🔊 Home and Close buttons also stop audio
+                const homeButton = document.getElementById("homeButton");
+                const closeButton = document.getElementById("closeButton");
+
+                if (homeButton) {
+                    homeButton.addEventListener("click", () => stopAllAudio());
+                }
+
+                if (closeButton) {
+                    closeButton.addEventListener("click", () => stopAllAudio());
+                }
+
+                soundButtons.forEach(btn => {
+                    btn.addEventListener("click", (e) => {
+                        e.preventDefault();
+
+                        // Stop any previous audio first
+                        stopAllAudio();
+
+                        // Play audio file if data-audio is provided
+                        const audioSrc = btn.getAttribute("data-audio");
+                        if (audioSrc) {
+                            currentAudio = new Audio(audioSrc);
+                            currentAudio.play();
+                        }
+                    });
+                });
+
+                // INITIALIZE
+                showSlide(currentSlide);
+            });
+        </script>
+    @endpush

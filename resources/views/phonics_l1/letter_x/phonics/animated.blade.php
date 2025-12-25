@@ -44,7 +44,7 @@
     <h2 class="top-title stroke">Animated Letters</h2>
 
     {{-- panel 1 --}}
-    <div class="phonics-panel no-bg mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio/SingAlong.mp3') }}">
+    <div class="phonics-panel no-bg mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio/writing.mp3') }}">
         <div class="relative">
             <img src="{{ asset('assets/images/phonicsl1/letter_a/an-board.png') }}" />
             {{-- gifs --}}
@@ -84,7 +84,7 @@
     {{-- Panel 2 --}}
     <div class="phonics-panel flex flex-col items-center gap-y-[3vw]">
         <a class="info-btn2">
-            <img src="{{ asset('assets/images/phonicsl1/letter_w/ww1.png') }}" class="h-[20vw]" /></a>
+            <img src="{{ asset('assets/images/phonicsl1/letter_x/xx1.png') }}" class="h-[20vw]" /></a>
         <p class="p-note">Tip: Click on the letter to see a demonstration of the stroke. Follow up <br>
             with the Writing Activity Sheet in the Pupil's Activity Book.</p>
     </div>
@@ -92,7 +92,7 @@
 
     {{-- Panel 3 --}}
     <div class="phonics-panel info-panel-2 flex flex-col items-center h-full justify-between">
-        <img src="{{ asset('assets/images/phonicsl1/letter_w/w-1.gif') }}" class="h-[25vw]" />
+        <img src="{{ asset('assets/images/phonicsl1/letter_x/x-1.gif') }}" class="h-[25vw]" />
         <p class="p-note">Tip: Click on the letter to see a demonstration of the stroke. </p>
     </div>
 
@@ -100,14 +100,14 @@
     {{-- Panel 4 --}}
     <div class="phonics-panel flex flex-col items-center gap-y-[5vw]">
         <a class="info-btn3">
-            <img src="{{ asset('assets/images/phonicsl1/letter_w/ww2.png') }}" class="h-[13vw]" /></a>
+            <img src="{{ asset('assets/images/phonicsl1/letter_x/xx2.png') }}" class="w-[13vw]" /></a>
         <p class="p-note">Tip: Click on the letter to see a demonstration of the stroke. Follow up <br>
             with the Writing Activity Sheet in the Pupil's Activity Book.</p>
     </div>
 
     {{-- Panel 5 --}}
     <div class="phonics-panel info-panel-3 flex flex-col items-center gap-y-[4vw]">
-        <img src="{{ asset('assets/images/phonicsl1/letter_w/w-2.gif') }}" class="w-[15vw]" />
+        <img src="{{ asset('assets/images/phonicsl1/letter_x/x-2.gif') }}" class="w-[15vw]" />
         <p class="p-note">Tip: Click on the letter to see a demonstration of the stroke. </p>
     </div>
 
@@ -161,8 +161,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_w') }}";
-            const doneURL = "{{ url('/phonics/letter_w') }}";
+            const returnURL = "{{ url('/phonics/letter_x') }}";
+            const doneURL = "{{ url('/phonics/letter_x') }}";
 
             // Track current position
             let currentSlide = 0;

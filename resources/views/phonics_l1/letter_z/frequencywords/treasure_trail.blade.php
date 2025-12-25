@@ -40,7 +40,7 @@
 
     {{-- treasure  Panel 1 --}}
     <div class="phonics-panel flex flex-col items-center gap-y-[1vw]">
-        <img src="{{ asset('assets/images/phonicsl1/letter_c/trail.png') }}" class="w-[45vw]">
+        <img src="{{ asset('assets/images/phonicsl1/letter_u/trail.png') }}" class="w-[45vw]">
         <p class="p-note">Tips: Look at the Treasure Trail Activity Sheet in the Pupil's Activity Book. <br>
             There are 10 words from the start of the trail to the treasure.</p>
     </div>
@@ -49,7 +49,7 @@
     <div class="phonics-panel flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]">
         <div
             class="w-[30vw] text-center h-[10vw] rounded-2xl text-[5vw] bg-[#F7B94A] text-white flex justify-center items-center">
-            a</div>
+            could</div>
         <p class="p-note">Tips: This is the second of 10 words to be flashed <br>
             Ask children to colour the word on their Treasure Trail Activity Sheet.</p>
     </div>
@@ -58,7 +58,7 @@
     <div class="phonics-panel flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]">
         <div
             class="w-[30vw] text-center h-[10vw] rounded-2xl text-[5vw] bg-[#F7B94A] text-white flex justify-center items-center">
-            into</div>
+            up</div>
         <p class="p-note">Tips: This is the second of 10 words to be flashed <br>
             Ask children to colour the word on their Treasure Trail Activity Sheet.</p>
     </div>
@@ -67,7 +67,7 @@
     <div class="phonics-panel flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]">
         <div
             class="w-[30vw] text-center h-[10vw] rounded-2xl text-[5vw] bg-[#F7B94A] text-white flex justify-center items-center">
-            not</div>
+            and</div>
         <p class="p-note">Tips: This is the second of 10 words to be flashed <br>
             Ask children to colour the word on their Treasure Trail Activity Sheet.</p>
     </div>
@@ -76,7 +76,7 @@
     <div class="phonics-panel flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]">
         <div
             class="w-[30vw] text-center h-[10vw] rounded-2xl text-[5vw] bg-[#F7B94A] text-white flex justify-center items-center">
-            that</div>
+            I</div>
         <p class="p-note">Tips: This is the second of 10 words to be flashed <br>
             Ask children to colour the word on their Treasure Trail Activity Sheet.</p>
     </div>
@@ -85,7 +85,7 @@
     <div class="phonics-panel flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]">
         <div
             class="w-[30vw] text-center h-[10vw] rounded-2xl text-[5vw] bg-[#F7B94A] text-white flex justify-center items-center">
-            make</div>
+            an</div>
         <p class="p-note">Tips: This is the second of 10 words to be flashed <br>
             Ask children to colour the word on their Treasure Trail Activity Sheet.</p>
     </div>
@@ -94,7 +94,7 @@
     <div class="phonics-panel flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]">
         <div
             class="w-[30vw] text-center h-[10vw] rounded-2xl text-[5vw] bg-[#F7B94A] text-white flex justify-center items-center">
-            makes</div>
+            where</div>
         <p class="p-note">Tips: This is the second of 10 words to be flashed <br>
             Ask children to colour the word on their Treasure Trail Activity Sheet.</p>
     </div>
@@ -103,7 +103,7 @@
     <div class="phonics-panel flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]">
         <div
             class="w-[30vw] text-center h-[10vw] rounded-2xl text-[5vw] bg-[#F7B94A] text-white flex justify-center items-center">
-            is</div>
+            from</div>
         <p class="p-note">Tips: This is the second of 10 words to be flashed <br>
             Ask children to colour the word on their Treasure Trail Activity Sheet.</p>
     </div>
@@ -112,7 +112,7 @@
     <div class="phonics-panel flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]">
         <div
             class="w-[30vw] text-center h-[10vw] rounded-2xl text-[5vw] bg-[#F7B94A] text-white flex justify-center items-center">
-            now</div>
+            what</div>
         <p class="p-note">Tips: This is the second of 10 words to be flashed <br>
             Ask children to colour the word on their Treasure Trail Activity Sheet.</p>
     </div>
@@ -121,7 +121,7 @@
     <div class="phonics-panel flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]">
         <div
             class="w-[30vw] text-center h-[10vw] rounded-2xl text-[5vw] bg-[#F7B94A] text-white flex justify-center items-center">
-            get</div>
+            it</div>
         <p class="p-note">Tips: This is the second of 10 words to be flashed <br>
             Ask children to colour the word on their Treasure Trail Activity Sheet.</p>
     </div>
@@ -130,7 +130,7 @@
     <div class="phonics-panel flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]">
         <div
             class="w-[30vw] text-center h-[10vw] rounded-2xl text-[5vw] bg-[#F7B94A] text-white flex justify-center items-center">
-            getting</div>
+            very</div>
         <p class="p-note">Tips: This is the second of 10 words to be flashed <br>
             Ask children to colour the word on their Treasure Trail Activity Sheet.</p>
     </div>
@@ -138,8 +138,8 @@
 
 
     {{-- treasure  Panel 1 --}}
-    <div class="phonics-panel flex flex-col items-center h-full justify-between ">
-        <img src="{{ asset('assets/images/phonicsl1/letter_c/trail-ans.png') }}" class="w-[45vw]">
+    <div class="phonics-panel flex flex-col items-center justify-between ">
+        <img src="{{ asset('assets/images/phonicsl1/letter_u/trail-ans.png') }}" class="w-[45vw]">
         <p class="p-note">Tips: Ask children to draw a line linking the coloured words to form a trail to the treasure.</p>
     </div>
 
@@ -192,8 +192,8 @@
             const doneButton = document.querySelector(".doneButton");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_c') }}";
-            const doneURL = "{{ url('/phonics/letter_c') }}";
+            const returnURL = "{{ url('/phonics/letter_u') }}";
+            const doneURL = "{{ url('/phonics/letter_u') }}";
 
             // Track current position
             let currentSlide = 0;

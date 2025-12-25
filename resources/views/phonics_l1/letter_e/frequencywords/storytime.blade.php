@@ -52,81 +52,78 @@
             <img src="{{ asset('assets/images/phonicsl1/global/gifs/lili.gif') }}"
                 class="h-[20vw] bottom-0 right-0 absolute" />
 
-            <h1 class="text-white text-[4vw] absolute top-[12vw] left-[19vw]"> It's story <br> time!</h1>
+            <h1 class="text-white text-[4vw] absolute top-[55%] left-1/2 -translate-1/2"> It's story <br> time!</h1>
 
-            <p class="p-note absolute bottom-[1vw] left-[22%]">Tip: <a class="c-btn">Click here</a> to find
+            <p class="p-note absolute bottom-[1vw] left-[22%]">Tip: <a class="c-btn info-btn1">Click here</a> to find
                 out why reading words is important.</p>
         </div>
     </div>
 
-   <div class="phonics-panel flex flex-col h-full justify-between items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-e/readalong.m4a') }}">
-        <h1 class="text-white text-[3vw]">Buddy loves making a <span class="text-[#f7b94a]">C</span>astle</h1>
-        <img src="{{ asset('assets/images/phonicsl1/letter_e/egg-5.png') }}" class="w-[20vw]" />
+
+    {{-- Side Info Panel --}}
+    <div class="phonics-panel info-panel-1 flex flex-col mt-[-2vw] gap-y-[2vw]">
+        <h1 class="panel-title stroke">Reading Words in Stories</h1>
+        <div class="flex items-end">
+            <ul class="list-disc text-start panel-ul space-y-[1.5vw]">
+                <li>The purpose of reading is comprehension. It is important that children read words in stories or
+                    short pieces of expository text.</li>
+                <li>This section focuses on texts that contain words with patterns taught in the phonics lessons. These
+                    regular words can be used to reinforce phonics instruction.</li>
+                <li>For comprehension, children should engage in discussions and questioning about the content of what
+                    they read.</li>
+            </ul>
+
+            <img src="{{ asset('assets/images/phonicsl1/global/learning.png') }}" class="h-[20vw]" />
+        </div>
+    </div>
+
+
+    {{-- Panel 2 --}}
+    <div class="phonics-panel flex flex-col h-full items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-e/est1.m4a') }}">
+        <h1 class="text-white text-[3vw]"><span class="text-[#f7b94a]">E</span>ggs for <span
+                class="text-[#f7b94a]">E</span>ddy</h1>
+        <img src="{{ asset('assets/images/phonicsl1/letter_e/eddy.png') }}" class="w-[25vw]" />
     </div>
 
 
     {{-- Panel 3 --}}
-    <div class="phonics-panel relative flex flex-col h-full justify-between items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-c/story2.m4a') }}">
-        <div>
-            <img src="{{ asset('assets/images/phonicsl1/letter_c/castle.gif') }}" class="w-[27vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_c/bird.gif') }}" class="w-[6vw] absolute top-[-2vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_c/bird.gif') }}"
-                class="w-[3vw] absolute top-0 !left-[-3vw]" />
-        </div>
-        <h1 class="text-white text-[3vw]">Buddy makes a <span class="text-[#f7b94a]">C</span>astle</h1>
+    <div class="phonics-panel relative flex flex-col h-full items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-e/est2.m4a') }}">
+        <img src="{{ asset('assets/images/phonicsl1/letter_e/wake.gif') }}" class="w-[25vw]" />
+        <h1 class="text-white text-[3vw]"><span class="text-[#f7b94a]">E</span>ddy <span class="text-[#f7b94a]">
+                e</span>lephant g<span class="text-[#f7b94a]"> e</span>ts out of bed.</h1>
     </div>
 
 
     {{-- Panel 4 --}}
-    <div class="phonics-panel relative flex flex-col h-full justify-between items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-c/story3.m4a') }}">
-        <div>
-            <img src="{{ asset('assets/images/phonicsl1/letter_c/playing.gif') }}" class="w-[30vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_c/bird.gif') }}"
-                class="w-[6vw] absolute top-[-2vw] left-[13vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_c/bird.gif') }}"
-                class="w-[3vw] absolute top-0 left-[9vw]" />
-
-        </div>
-        <h1 class="text-white text-[2.5vw]">The <span class="text-[#f7b94a]">c</span>at plays <span
-                class="text-[#f7b94a]">c</span>atch with a <span class="text-[#f7b94a]">c</span>olourful <span
-                class="text-[#f7b94a]">c</span>an.</h1>
+    <div class="phonics-panel relative flex flex-col items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-e/est3.m4a') }}">
+        <img src="{{ asset('assets/images/phonicsl1/letter_e/cluck.gif') }}" class="w-[25vw]" />
+        <h1 class="text-white text-[2.5vw]">Cluck, cluck, cluck!</h1>
     </div>
 
 
     {{-- Panel 5 --}}
-    <div class="phonics-panel relative flex flex-col h-full justify-between items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-c/story4.m4a') }}">
-        <div>
-            <img src="{{ asset('assets/images/phonicsl1/letter_c/cat.gif') }}" class="w-[30vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_c/bird.gif') }}" class="w-[6vw] absolute top-[-4vw] left-[18vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_c/bird.gif') }}"
-                class="w-[3vw] absolute top-[-2vw] left-[14vw]" />
-
-        </div>
-        <h1 class="text-white text-[2.5vw]">The <span class="text-[#f7b94a]">c</span>at <span
-                class="text-[#f7b94a]">c</span>rashes into the <span class="text-[#f7b94a]">c</span>astle.</h1>
+    <div class="phonics-panel relative flex flex-col items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-e/est4.m4a') }}">
+        <img src="{{ asset('assets/images/phonicsl1/letter_e/eggs.gif') }}" class="w-[25vw]" />
+        <h1 class="text-white text-[2.5vw]">Little r<span class="text-[#f7b94a]">e</span>d h<span
+                class="text-[#f7b94a]">e</span>n lays her <span class="text-[#f7b94a]">e</span>ggs.</h1>
     </div>
 
 
     {{-- Panel 6 --}}
-    <div class="phonics-panel relative flex flex-col h-full justify-between items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-c/story5.m4a') }}">
-        <div>
-            <img src="{{ asset('assets/images/phonicsl1/letter_c/angry.gif') }}" class="w-[30vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_c/bird.gif') }}" class="w-[6vw] absolute top-[-4vw] right-[-3vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_c/bird.gif') }}"
-                class="w-[3vw] absolute top-[-2vw] right-[4vw]" />
-
-        </div>
-        <h1 class="text-white text-[2.5vw]">That’s not <span class="text-[#f7b94a]">c</span>lever!</h1>
+    <div class="phonics-panel relative flex flex-col items-centeR"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-e/est5.m4a') }}">
+        <img src="{{ asset('assets/images/phonicsl1/letter_e/happy.gif') }}" class="w-[25vw]" />
+        <h1 class="text-white text-[2.5vw]">S<span class="text-[#f7b94a]">e</span>v<span class="text-[#f7b94a]">e</span>n
+            <span class="text-[#f7b94a]">e</span>ggs for <span class="text-[#f7b94a]">E</span>ddy <span
+                class="text-[#f7b94a]">e</span>lephant.
+        </h1>
     </div>
 
 
-
-    
 
     {{-- All Buttons --}}
     <div id="buttons" class="absolute flex flex-row gap-6 z-90">
@@ -163,7 +160,7 @@
 
 @push('script')
     <script>
-        // SLIDE NAVIGATION SYSTEM
+        // S<span class="text-[#f7b94a]">L</span>IDE NAVI<span class="text-[#f7b94a]">G</span>ATION SYSTEM
         document.addEventListener("DOMContentLoaded", function() {
 
             // Get all elements
@@ -171,14 +168,18 @@
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
             const doneButton = document.querySelector(".doneButton");
+            const infoButtons = document.querySelectorAll("[class*='info-btn']");
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_c') }}";
-            const doneURL = "{{ url('/phonics/letter_c') }}";
+            const returnURL = "{{ url('/phonics/letter_e') }}";
+            const doneURL = "{{ url('/phonics/letter_e') }}";
 
             // Track current position
             let currentSlide = 0;
+            let isInSpecialMode = false;
+            let returnToSlide = null;
+            let specialSlideClass = null;
 
             // 🔊 Global audio tracking
             let currentAudio = null;
@@ -191,6 +192,8 @@
                     currentAudio.currentTime = 0;
                     currentAudio = null;
                 }
+                // Stop text-to-speech
+                window.speechSynthesis.cancel();
             }
 
             // HELPER FUNCTIONS
@@ -199,13 +202,58 @@
                 return classList.some(cls => /^info-panel-\d+$/.test(cls));
             }
 
-            function isLastSlide(slideIndex) {
-                for (let i = slideIndex + 1; i < slides.length; i++) {
-                    if (!isSpecialSlide(slides[i])) {
-                        return false;
+            function getSlideTypeFromButton(button) {
+                const classList = Array.from(button.classList);
+                for (let className of classList) {
+                    if (className.startsWith('info-btn')) {
+                        const number = className.replace('info-btn', '');
+                        return 'info-panel-' + number;
                     }
                 }
-                return true;
+                return null;
+            }
+
+            function hasMoreSpecialSlides(fromIndex) {
+                if (!specialSlideClass) return false;
+                for (let i = fromIndex + 1; i < slides.length; i++) {
+                    if (slides[i].classList.contains(specialSlideClass)) {
+                        return true;
+                    }
+                }
+                return false;
+            }
+
+            function isLastSlide(slideIndex) {
+                if (isInSpecialMode && !hasMoreSpecialSlides(slideIndex)) return true;
+                if (!isInSpecialMode) {
+                    for (let i = slideIndex + 1; i < slides.length; i++) {
+                        if (!isSpecialSlide(slides[i])) {
+                            return false;
+                        }
+                    }
+                    return true;
+                }
+                return false;
+            }
+
+            function speakLetter(letter) {
+                window.speechSynthesis.cancel();
+                const utterance = new SpeechSynthesisUtterance(letter);
+                utterance.rate = 0.8;
+                utterance.pitch = 1.2;
+                utterance.volume = 1;
+                const voices = window.speechSynthesis.getVoices();
+                const femaleVoice = voices.find(voice =>
+                    voice.name.includes('Female') ||
+                    voice.name.includes('female') ||
+                    voice.name.includes('Woman') ||
+                    voice.name.includes('Google US English') ||
+                    voice.name.includes('Microsoft Zira')
+                );
+                if (femaleVoice) {
+                    utterance.voice = femaleVoice;
+                }
+                window.speechSynthesis.speak(utterance);
             }
 
             // DISPLAY FUNCTIONS
@@ -273,7 +321,11 @@
                 currentSlide++;
                 while (currentSlide < slides.length) {
                     const slide = slides[currentSlide];
-                    if (!isSpecialSlide(slide)) break;
+                    if (isInSpecialMode) {
+                        if (slide.classList.contains(specialSlideClass)) break;
+                    } else {
+                        if (!isSpecialSlide(slide)) break;
+                    }
                     currentSlide++;
                 }
                 if (currentSlide < slides.length) {
@@ -282,26 +334,82 @@
             }
 
             function goBack() {
-                if (currentSlide === 0) {
+                if (currentSlide === 0 && !isInSpecialMode) {
                     stopAllAudio(); // 🛑 Stop audio before leaving
                     window.location.href = returnURL;
                     return;
                 }
-                if (currentSlide > 0) {
-                    currentSlide--;
-                    while (currentSlide > 0 && isSpecialSlide(slides[currentSlide])) {
-                        currentSlide--;
+                if (isInSpecialMode) {
+                    let previousIndex = currentSlide - 1;
+                    while (previousIndex >= 0) {
+                        if (slides[previousIndex].classList.contains(specialSlideClass)) {
+                            break;
+                        }
+                        previousIndex--;
                     }
-                    showSlide(currentSlide);
+                    if (previousIndex >= 0) {
+                        currentSlide = previousIndex;
+                        showSlide(currentSlide);
+                    } else {
+                        currentSlide = returnToSlide;
+                        isInSpecialMode = false;
+                        specialSlideClass = null;
+                        returnToSlide = null;
+                        showSlide(currentSlide);
+                    }
+                } else {
+                    if (currentSlide > 0) {
+                        currentSlide--;
+                        while (currentSlide > 0 && isSpecialSlide(slides[currentSlide])) {
+                            currentSlide--;
+                        }
+                        showSlide(currentSlide);
+                    }
                 }
             }
 
             function handleDone() {
                 stopAllAudio(); // 🛑 Stop audio before action
-                window.location.href = doneURL;
+                if (isInSpecialMode && returnToSlide !== null) {
+                    currentSlide = returnToSlide;
+                    isInSpecialMode = false;
+                    specialSlideClass = null;
+                    returnToSlide = null;
+                    showSlide(currentSlide);
+
+                    // Toggle background when returning from info mode
+                    const ajaxSection = document.getElementById('ajax-section');
+                    const currentSlideElement = slides[currentSlide];
+                    if (ajaxSection) {
+                        if (currentSlideElement.classList.contains('no-bg')) {
+                            ajaxSection.classList.add('no-bg');
+                        } else {
+                            ajaxSection.classList.remove('no-bg');
+                        }
+                    }
+                } else {
+                    window.location.href = doneURL;
+                }
             }
 
             // EVENT LISTENERS
+            infoButtons.forEach(button => {
+                button.addEventListener("click", function(e) {
+                    e.preventDefault();
+                    stopAllAudio(); // 🛑 Stop audio when entering info mode
+                    returnToSlide = currentSlide;
+                    isInSpecialMode = true;
+                    specialSlideClass = getSlideTypeFromButton(button);
+                    for (let i = 0; i < slides.length; i++) {
+                        if (slides[i].classList.contains(specialSlideClass)) {
+                            currentSlide = i;
+                            showSlide(currentSlide);
+                            break;
+                        }
+                    }
+                });
+            });
+
             nextButtons.forEach(btn => {
                 btn.addEventListener("click", goNext);
             });
@@ -333,14 +441,33 @@
                     // Stop any previous audio first
                     stopAllAudio();
 
-                    // Play audio file if data-audio is provided
+                    // 1️⃣ If data-audio is provided → play audio file
                     const audioSrc = btn.getAttribute("data-audio");
                     if (audioSrc) {
                         currentAudio = new Audio(audioSrc);
                         currentAudio.play();
+                        return;
                     }
+
+                    // 2️⃣ Otherwise fallback to speaking the letter
+                    const letter = btn.getAttribute("data-letter") || "a";
+                    speakLetter(letter);
                 });
             });
+
+            const letterLinks = document.querySelectorAll('.phonics-panel a[href=""]:not([class*="info-btn"])');
+            letterLinks.forEach(link => {
+                link.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    stopAllAudio(); // Stop previous audio
+                    const letter = link.getAttribute('data-letter') || 'a';
+                    speakLetter(letter);
+                });
+            });
+
+            window.speechSynthesis.onvoiceschanged = () => {
+                window.speechSynthesis.getVoices();
+            };
 
             // INITIALIZE
             showSlide(currentSlide);
