@@ -66,14 +66,14 @@
 
     {{-- Bingo  Panel 1 --}}
     <div class="phonics-panel info-panel-1 ">
-        <img src="{{ asset('assets/images/phonicsl1/letter_y/bingo1.png') }}" class="w-[40vw]">
+        <img src="{{ asset('assets/images/phonicsl1/letter_z/bingo1.png') }}" class="w-[40vw]">
     </div>
 
     {{-- Bingo Panel --}}
     <div class="phonics-panel info-panel-1  flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]">
         <div
             class="w-[20vw] text-center h-[9vw] rounded-2xl text-[4vw] bg-[#F7B94A] text-white flex justify-center items-center">
-            not</div>
+            one</div>
         <p class="p-note">Tips: This is the first of 5 words for <span class="text-[#f7b94a]">Bingo Sheet 1</span>. <br>
             Ask children to circle the word on their Bingo Sheet.</p>
     </div>
@@ -82,7 +82,7 @@
     <div class="phonics-panel info-panel-1  flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]">
         <div
             class="w-[20vw] text-center h-[9vw] rounded-2xl text-[4vw] bg-[#F7B94A] text-white flex justify-center items-center">
-            he</div>
+            them</div>
         <p class="p-note">Tips: This is the second of 5 words for <span class="text-[#f7b94a]">Bingo Sheet 1</span>. <br>
             Ask children to circle the word on their Bingo Sheet.</p>
     </div>
@@ -91,7 +91,7 @@
     <div class="phonics-panel info-panel-1  flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]">
         <div
             class="w-[20vw] text-center h-[9vw] rounded-2xl text-[4vw] bg-[#F7B94A] text-white flex justify-center items-center">
-            in</div>
+            the</div>
         <p class="p-note">Tips: This is the third of 5 words for <span class="text-[#f7b94a]">Bingo Sheet 1</span>. <br>
             Ask children to circle the word on their Bingo Sheet.</p>
     </div>
@@ -100,7 +100,7 @@
     <div class="phonics-panel info-panel-1  flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]">
         <div
             class="w-[20vw] text-center h-[9vw] rounded-2xl text-[4vw] bg-[#F7B94A] text-white flex justify-center items-center">
-            has</div>
+            this</div>
         <p class="p-note">Tips: This is the fourth of 5 words for <span class="text-[#f7b94a]">Bingo Sheet 1</span>. <br>
             Ask children to circle the word on their Bingo Sheet.</p>
     </div>
@@ -109,14 +109,14 @@
     <div class="phonics-panel info-panel-1  flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]">
         <div
             class="w-[20vw] text-center h-[9vw] rounded-2xl text-[4vw] bg-[#F7B94A] text-white flex justify-center items-center">
-            way</div>
+            about</div>
         <p class="p-note">Tips: This is the fifth of 5 words for <span class="text-[#f7b94a]">Bingo Sheet 1</span>. <br>
             Ask children to circle the word on their Bingo Sheet.</p>
     </div>
 
     {{-- Bingo  Panel 1 --}}
     <div class="phonics-panel info-panel-1 flex flex-col items-center h-full justify-between ">
-        <img src="{{ asset('assets/images/phonicsl1/letter_y/bs-ans1.png') }}" class="w-[40vw]">
+        <img src="{{ asset('assets/images/phonicsl1/letter_z/bs-ans1.png') }}" class="w-[40vw]">
         <p class="p-note">Tip: Ask children to shout "Bingo" and to draw a line across the 3 words that appear in a straight
             line.</p>
     </div>
@@ -124,14 +124,14 @@
     {{-- ========================== --}}
     {{-- Bingo  Panel 2 --}}
     <div class="phonics-panel info-panel-2 ">
-        <img src="{{ asset('assets/images/phonicsl1/letter_y/bingo2.png') }}" class="w-[40vw]">
+        <img src="{{ asset('assets/images/phonicsl1/letter_z/bingo2.png') }}" class="w-[40vw]">
     </div>
 
     {{-- Bingo Panel --}}
     <div class="phonics-panel info-panel-2  flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]">
         <div
             class="w-[20vw] text-center h-[9vw] rounded-2xl text-[4vw] bg-[#2D9CDB] text-white flex justify-center items-center">
-            her</div>
+            he</div>
         <p class="p-note">Tips: This is the first of 6 words for <span class="text-[#f7b94a]">Bingo Sheet 2</span>. <br>
             Ask children to circle the word on their Bingo Sheet.</p>
     </div>
@@ -140,7 +140,7 @@
     <div class="phonics-panel info-panel-2  flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]">
         <div
             class="w-[20vw] text-center h-[9vw] rounded-2xl text-[4vw] bg-[#2D9CDB] text-white flex justify-center items-center">
-            in</div>
+            and</div>
         <p class="p-note">Tips: This is the second of 6 words for <span class="text-[#f7b94a]">Bingo Sheet 2</span>. <br>
             Ask children to circle the word on their Bingo Sheet.</p>
     </div>
@@ -149,7 +149,7 @@
     <div class="phonics-panel info-panel-2  flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]">
         <div
             class="w-[20vw] text-center h-[9vw] rounded-2xl text-[4vw] bg-[#2D9CDB] text-white flex justify-center items-center">
-            she</div>
+            them</div>
         <p class="p-note">Tips: This is the third of 6 words for <span class="text-[#f7b94a]">Bingo Sheet 2</span>. <br>
             Ask children to circle the word on their Bingo Sheet.</p>
     </div>
@@ -158,7 +158,7 @@
     <div class="phonics-panel info-panel-2  flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]">
         <div
             class="w-[20vw] text-center h-[9vw] rounded-2xl text-[4vw] bg-[#2D9CDB] text-white flex justify-center items-center">
-            it</div>
+            two</div>
         <p class="p-note">Tips: This is the fourth of 6 words for <span class="text-[#f7b94a]">Bingo Sheet 2</span>. <br>
             Ask children to circle the word on their Bingo Sheet.</p>
     </div>
@@ -167,7 +167,7 @@
     <div class="phonics-panel info-panel-2  flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]">
         <div
             class="w-[20vw] text-center h-[9vw] rounded-2xl text-[4vw] bg-[#2D9CDB] text-white flex justify-center items-center">
-            out</div>
+            to</div>
         <p class="p-note">Tips: This is the fifth of 6 words for <span class="text-[#f7b94a]">Bingo Sheet 2</span>. <br>
             Ask children to circle the word on their Bingo Sheet.</p>
     </div>
@@ -176,14 +176,14 @@
     <div class="phonics-panel info-panel-2  flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]">
         <div
             class="w-[20vw] text-center h-[9vw] rounded-2xl text-[4vw] bg-[#2D9CDB] text-white flex justify-center items-center">
-            way</div>
+            these</div>
         <p class="p-note">Tips: This is the sixth of 6 words for <span class="text-[#f7b94a]">Bingo Sheet 2</span>. <br>
             Ask children to circle the word on their Bingo Sheet.</p>
     </div>
 
     {{-- Bingo  Panel 2 --}}
     <div class="phonics-panel info-panel-2 flex flex-col items-center h-full justify-between ">
-        <img src="{{ asset('assets/images/phonicsl1/letter_y/bs-ans2.png') }}" class="w-[40vw]">
+        <img src="{{ asset('assets/images/phonicsl1/letter_z/bs-ans2.png') }}" class="w-[40vw]">
         <p class="p-note">Tip: Ask children to shout "Bingo" and to draw a line across the 3 words that appear in a straight
             line.</p>
     </div>
@@ -238,8 +238,8 @@
             const infoButtons = document.querySelectorAll("[class*='info-btn']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_y') }}";
-            const doneURL = "{{ url('/phonics/letter_y') }}";
+            const returnURL = "{{ url('/phonics/letter_z') }}";
+            const doneURL = "{{ url('/phonics/letter_z') }}";
 
             // Track current position
             let currentSlide = 0;
