@@ -84,7 +84,7 @@
     {{-- Panel 2 --}}
     <div class="phonics-panel flex flex-col items-center gap-y-[3vw]">
         <a class="info-btn2">
-            <img src="{{ asset('assets/images/phonicsl1/letter_i/ii1.png') }}" class="h-[17vw]" /></a>
+            <img src="{{ asset('assets/images/phonicsl1/letter_j/jj1.png') }}" class="h-[17vw]" /></a>
         <p class="p-note">Tip: Click on the letter to see a demonstration of the stroke. Follow up <br>
             with the Writing Activity Sheet in the Pupil's Activity Book.</p>
     </div>
@@ -92,7 +92,7 @@
 
     {{-- Panel 3 --}}
     <div class="phonics-panel info-panel-2 flex flex-col items-center h-full justify-between">
-        <img src="{{ asset('assets/images/phonicsl1/letter_i/i-1.gif') }}" class="h-[20vw]" />
+        <img src="{{ asset('assets/images/phonicsl1/letter_j/j-1.gif') }}" class="h-[20vw]" />
         <p class="p-note">Tip: Click on the letter to see a demonstration of the stroke. </p>
     </div>
 
@@ -100,14 +100,14 @@
     {{-- Panel 4 --}}
     <div class="phonics-panel flex flex-col items-center gap-y-[5vw]">
         <a class="info-btn3">
-            <img src="{{ asset('assets/images/phonicsl1/letter_i/ii2.png') }}" class="h-[17vw]" /></a>
+            <img src="{{ asset('assets/images/phonicsl1/letter_j/jj2.png') }}" class="h-[17vw]" /></a>
         <p class="p-note">Tip: Click on the letter to see a demonstration of the stroke. Follow up <br>
             with the Writing Activity Sheet in the Pupil's Activity Book.</p>
     </div>
 
     {{-- Panel 5 --}}
     <div class="phonics-panel info-panel-3 flex flex-col items-center gap-y-[4vw]">
-        <img src="{{ asset('assets/images/phonicsl1/letter_i/i-2.gif') }}" class="h-[20vw]" />
+        <img src="{{ asset('assets/images/phonicsl1/letter_j/j-2.gif') }}" class="h-[20vw]" />
         <p class="p-note">Tip: Click on the letter to see a demonstration of the stroke. </p>
     </div>
 
@@ -161,8 +161,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_i') }}";
-            const doneURL = "{{ url('/phonics/letter_i') }}";
+            const returnURL = "{{ url('/phonics/letter_j') }}";
+            const doneURL = "{{ url('/phonics/letter_j') }}";
 
             // Track current position
             let currentSlide = 0;

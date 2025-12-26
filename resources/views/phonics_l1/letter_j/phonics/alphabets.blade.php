@@ -145,15 +145,15 @@
             <div class="bg-no-repeat bg-center bg-contain h-[30vw] w-[28vw] mt-[-7vw]
             flex justify-center items-end"
             style="background-image: url('{{ asset('assets/images/phonicsl1/global/board.png') }}')">
-            <h2 class="text-white text-[2vw] absolute top-[15%]">insect</h2>
+            <h2 class="text-white text-[2vw] absolute top-[15%]">jump</h2>
                 <div class="grid grid-cols-2 gap-x-[4vw] gap-y-[1.5vw] place-items-center mb-[3vw]">
                     {{-- this is false --}}
                     <div class="flex items-start">
                         <a class="hover:brightness-110" id="true">
-                            <img src="{{ asset('assets/images/phonicsl1/letter_j/insect.png') }}" class="w-[6.5vw]" />
+                            <img src="{{ asset('assets/images/phonicsl1/letter_j/jump.png') }}" class="h-[6.5vw]" />
                         </a>
                         {{-- sound Button --}}
-                        <button class="w-[3vw]" id="soundButton" data-letter="insect">
+                        <button class="w-[3vw]" id="soundButton" data-letter="jump">
                             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                         </button>
                     </div>

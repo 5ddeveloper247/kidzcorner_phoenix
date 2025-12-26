@@ -80,51 +80,57 @@
 
     {{-- Panel 2 --}}
     <div class="phonics-panel flex flex-col h-full items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-i/ist1.m4a') }}">
-        <h1 class="text-white text-[3vw]"><span class="text-[#f7b94a]">I</span>sh is <span
-                class="text-[#f7b94a]">I</span>ll</h1>
-        <img src="{{ asset('assets/images/phonicsl1/letter_i/ill.png') }}" class="h-[25vw]" />
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-j/jst1.m4a') }}">
+        <h1 class="text-white text-[3vw]"><span class="text-[#f7b94a]">J</span>ingle and <span
+                class="text-[#f7b94a]">J</span>im</h1>
+        <img src="{{ asset('assets/images/phonicsl1/letter_j/duo.png') }}" class="h-[25vw]" />
     </div>
 
 
     {{-- Panel 3 --}}
     <div class="phonics-panel relative flex flex-col h-full gap-[2vw] items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-i/ist2.m4a') }}">
-        <img src="{{ asset('assets/images/phonicsl1/letter_i/bites.gif') }}" class="h-[25vw]" />
-        <h1 class="text-white text-[3vw]"> An <span class="text-[#f7b94a]">i</span>nsect bites <span
-                class="text-[#f7b94a]">i</span>sh. <span class="text-[#f7b94a]">i</span>tch! <span class="text-[#f7b94a]">i</span>tch! </h1>
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-j/jst2.m4a') }}">
+        <div class="w-fit h-fit relative">
+            <img src="{{ asset('assets/images/phonicsl1/letter_j/hill.png') }}" class="w-[35vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_j/run1.gif') }}"
+                class="h-[10vw] absolute bottom-[18%] rotate-[-23deg] left-[40%]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_j/run2.gif') }}"
+                class="h-[10vw] absolute bottom-[4%] scale-x-[-1] left-[20%] rotate-[-17deg]" />
+        </div>
+        <h1 class="text-white text-[3vw]"><span class="text-[#f7b94a]">J</span>ingle and <span
+                class="text-[#f7b94a]">J</span>im <span class="text-[#f7b94a]">j</span>og up the hill. </h1>
     </div>
 
 
     {{-- Panel 4 --}}
     <div class="phonics-panel relative flex flex-col h-full justify-between items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-i/ist3.m4a') }}">
-        <img src="{{ asset('assets/images/phonicsl1/letter_i/itchy.gif') }}" class="h-[25vw]" />
-        <h1 class="text-white text-[2.5vw]"><span class="text-[#f7b94a]">I</span>sh is feeling <span
-                class="text-[#f7b94a]">i</span>tchy and <span class="text-[#f7b94a]">i</span>ll.</h1>
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-j/jst3.m4a') }}">
+        <img src="{{ asset('assets/images/phonicsl1/letter_j/reaching.gif') }}" class="h-[25vw]" />
+        <h1 class="text-white text-[2.5vw]">Jsut to get a <span class="text-[#f7b94a]">j</span>ar of <span
+                class="text-[#f7b94a]">j</span>ellies.</h1>
     </div>
 
 
     {{-- Panel 5 --}}
     <div class="phonics-panel relative flex flex-col h-full items-center justify-between"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-i/ist4.m4a') }}">
-        <img src="{{ asset('assets/images/phonicsl1/letter_i/doctor.png') }}" class="h-[25vw] rounded-[1vw]" />
-        <h1 class="text-white text-[2.5vw]">She sees Doctor <span
-                class="text-[#f7b94a]">I</span>nk.</h1>
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-j/jst4.m4a') }}">
+        <img src="{{ asset('assets/images/phonicsl1/letter_j/falling.gif') }}" class="h-[25vw]" />
+        <h1 class="text-white text-[2.5vw]"><span class="text-[#f7b94a]">J</span>im <span
+                class="text-[#f7b94a]">j</span>umps and jiggles about.</h1>
     </div>
 
 
     {{-- Panel 6 --}}
     <div class="phonics-panel relative flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-i/ist5.m4a') }}">
-        <img src="{{ asset('assets/images/phonicsl1/letter_i/inj.png') }}" class="w-[20vw] "/>
-        <h1 class="text-white text-[2.5vw]">He gives her an <span class="text-[#f7b94a]">i</span>njection.</h1>
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-j/jst5.m4a') }}">
+        <img src="{{ asset('assets/images/phonicsl1/letter_j/sad.gif') }}" class="h-[25vw] " />
+        <h1 class="text-white text-[2.5vw]">And breaks the <span class="text-[#f7b94a]">j</span>ar of jellies.</h1>
     </div>
 
 
     {{-- Panel 7 --}}
     <div class="phonics-panel no-bg mb-[2vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-i/ist6.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-j/jst6.m4a') }}">
         <div class="relative w-fit">
             <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" />
             {{-- gifs --}}
@@ -132,8 +138,9 @@
             <img src="{{ asset('assets/images/phonicsl1/global/gifs/lili.gif') }}"
                 class="h-[20vw] bottom-0 right-0 absolute" />
 
-            <h1 class="text-white text-[3.5vw] absolute top-[10vw] left-1/2 -translate-x-1/2 text-center">Who is at <br>
-Doctor Ink’s?</h1>
+            <h1 class="text-white text-[3.5vw] absolute top-[10vw] left-1/2 -translate-x-1/2 text-center">Why do Jingle <br>
+                and Jim jog up <br>
+                the hill?</h1>
 
 
             <p class="p-note absolute bottom-[1vw] left-[35%]">Tip: Elicit response from children.</p>
@@ -142,7 +149,7 @@ Doctor Ink’s?</h1>
     </div>
 
     <div class="phonics-panel no-bg mb-[2vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-i/ist7.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-j/jst7.m4a') }}">
         <div class="relative">
             <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" />
             {{-- gifs --}}
@@ -150,16 +157,15 @@ Doctor Ink’s?</h1>
             <img src="{{ asset('assets/images/phonicsl1/global/gifs/lili.gif') }}"
                 class="h-[20vw] bottom-0 right-0 absolute" />
 
-            <h1 class="text-white text-[3.5vw] absolute top-[10vw] left-1/2 -translate-x-1/2 text-center">Why is she <br>
-there? </h1>
-
+            <h1 class="text-white text-[3.5vw] absolute top-[10vw] left-1/2 -translate-x-1/2 text-center">Why happens <br>
+                to jim </h1>
             <p class="p-note absolute bottom-[1vw] left-[35%]">Tip: Elicit response from children.</p>
         </div>
     </div>
 
 
     <div class="phonics-panel no-bg mb-[2vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-i/ist8.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-j/jst8.m4a') }}">
         <div class="relative">
             <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" />
             {{-- gifs --}}
@@ -167,8 +173,10 @@ there? </h1>
             <img src="{{ asset('assets/images/phonicsl1/global/gifs/lili.gif') }}"
                 class="h-[20vw] bottom-0 right-0 absolute" />
 
-            <h1 class="text-white text-[3vw] absolute top-[10vw] left-1/2 -translate-x-1/2 text-center">What is he <br>
-giving her?</h1>
+            <h1 class="text-white text-[3vw] absolute top-[10vw] left-1/2 -translate-x-1/2 text-center">How do you think
+                <br>
+                Jingle and Jim <br>
+                are feeling?</h1>
 
             <p class="p-note absolute bottom-[1vw] left-[35%]">Tip: Elicit response from children.</p>
         </div>
@@ -223,8 +231,8 @@ giving her?</h1>
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_i') }}";
-            const doneURL = "{{ url('/phonics/letter_i') }}";
+            const returnURL = "{{ url('/phonics/letter_j') }}";
+            const doneURL = "{{ url('/phonics/letter_j') }}";
 
             // Track current position
             let currentSlide = 0;

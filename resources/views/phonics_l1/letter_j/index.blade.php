@@ -71,8 +71,8 @@
                 <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn13.png') }}" class="w-[14vw]" />
             </a>
 
-            <a href="{{ url('phonics/letter_j/frequencywords/treasuretrails') }}">
-                <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn12.png') }}" class="w-[14vw]" />
+            <a href="{{ url('phonics/letter_j/frequencywords/wordsearch') }}">
+                <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn-15.png') }}" class="w-[14vw]" />
             </a>
 
             <div class="col-span-3 flex justify-center items-center gap-[2vw]">

@@ -60,100 +60,110 @@
 
     {{-- Panel 2 --}}
     <div class="phonics-panel flex flex-col justify-between items-center h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-i/wordhunt.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-j/wordhunt.m4a') }}">
         <h2 class="text-white text-[2.2vw] text-center">Listen to these words:</h2>
-        <img src="{{ asset('assets/images/phonicsl1/letter_i/word-wall.png') }}" class="w-[40vw]" />
+        <img src="{{ asset('assets/images/phonicsl1/letter_j/word-wall.png') }}" class="w-[40vw]" />
         <p class="p-note">Tip: Ask children to refer to the Word Hunt Activity Sheet in the Pupil’s Activity Book.</p>
     </div>
 
 
     {{-- Panel 3 --}}
     <div class="phonics-panel flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-i/ist2.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-j/jst2.m4a') }}">
         <h2 class="text-white text-[1.6vw] text-center">How many of these words can you find <br>
             in the story? Circle them.</h2>
-        <img src="{{ asset('assets/images/phonicsl1/letter_i/stack1.png') }}" class="w-full" />
-        <div>
-            <img src="{{ asset('assets/images/phonicsl1/letter_i/bites.gif') }}" class="h-[14vw]" />
+        <img src="{{ asset('assets/images/phonicsl1/letter_j/stack1.png') }}" class="w-full" />
+        <div class="w-fit h-fit relative">
+            <img src="{{ asset('assets/images/phonicsl1/letter_j/hill.png') }}" class="w-[25vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_j/run1.gif') }}"
+                class="h-[7vw] absolute bottom-[18%] rotate-[-23deg] left-[40%]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_j/run2.gif') }}"
+                class="h-[7vw] absolute bottom-[4%] scale-x-[-1] left-[20%] rotate-[-17deg]" />
         </div>
-        <h1 class="text-white text-[2.2vw]">An insect bites Ish. Itch! Itch!</h1>
+        <h1 class="text-white text-[2.2vw]">Jingle and Jim jog up the hill.</h1>
         <p class="p-note w-[70%]">Tip: Ask children to circle the words that appear in the story on their Activity Sheet.
             Check result on next slide.</p>
     </div>
 
     {{-- Panel 4 --}}
     <div class="phonics-panel flex flex-col items-center justify-between h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-i/ist2.m4a') }}">
-        <img src="{{ asset('assets/images/phonicsl1/letter_i/stack2.png') }}" class="w-full" />
-        <div>
-            <img src="{{ asset('assets/images/phonicsl1/letter_i/bites.gif') }}" class="h-[14vw]" />
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-j/jst2.m4a') }}">
+        <img src="{{ asset('assets/images/phonicsl1/letter_j/stack2.png') }}" class="w-full" />
+        <div class="w-fit h-fit relative">
+            <img src="{{ asset('assets/images/phonicsl1/letter_j/hill.png') }}" class="w-[35vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_j/run1.gif') }}"
+                class="h-[10vw] absolute bottom-[18%] rotate-[-23deg] left-[40%]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_j/run2.gif') }}"
+                class="h-[10vw] absolute bottom-[4%] scale-x-[-1] left-[20%] rotate-[-17deg]" />
         </div>
-        <h1 class="text-white text-[2.7vw]"><span class="text-[#f7b94a]">An</span> insect bites Ish. Itch! Itch!</h1>
+        <h1 class="text-white text-[2.2vw]">Jingle <span class="text-[#f7b94a]">and</span> Jim jog <span
+                class="text-[#f7b94a]">up</span> the hill</h1>
         <p class="p-note">Tip: Highlight that the beginning letter in a sentence is written in uppercase.</p>
     </div>
 
 
     {{-- Panel 5 --}}
     <div class="phonics-panel flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-i/ist3.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-j/jst3.m4a') }}">
         <h2 class="text-white text-[1.6vw] text-center">How many of these words can you find <br>
             in the story? Circle them.</h2>
-        <img src="{{ asset('assets/images/phonicsl1/letter_i/stack1.png') }}" class="w-full" />
+        <img src="{{ asset('assets/images/phonicsl1/letter_j/stack2.png') }}" class="w-full" />
         <div>
-            <img src="{{ asset('assets/images/phonicsl1/letter_i/itchy.gif') }}" class="h-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_j/reaching.gif') }}" class="h-[14vw]" />
         </div>
-        <h1 class="text-white text-[2.2vw]">Ish is feeling itchy and ill.</h1>
+        <h1 class="text-white text-[2.2vw]">Just to get a jar of jellies.</h1>
         <p class="p-note w-[70%]">Tip: Ask children to circle the words that appear in the story on their Activity Sheet.
             Check result on next slide.</p>
     </div>
 
     {{-- Panel 6 --}}
     <div class="phonics-panel flex flex-col items-center justify-between h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-i/ist3.m4a') }}">
-        <img src="{{ asset('assets/images/phonicsl1/letter_i/stack3.png') }}" class="w-full" />
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-j/jst3.m4a') }}">
+        <img src="{{ asset('assets/images/phonicsl1/letter_j/stack3.png') }}" class="w-full" />
         <div>
-            <img src="{{ asset('assets/images/phonicsl1/letter_i/itchy.gif') }}" class="h-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_j/reaching.gif') }}" class="h-[15vw]" />
         </div>
-        <h1 class="text-white text-[2.2vw]">Ish<span class="text-[#f7b94a]">is</span> feeling itchy and ill.</h1>
+        <h1 class="text-white text-[2.2vw]"><span class="text-[#f7b94a]">Just</span> to <span
+                class="text-[#f7b94a]">get</span> a jar <span class="text-[#f7b94a]">of</span> jellies .</h1>
         <p class="p-note">Tip: Highlight that the beginning letter in a sentence is written in uppercase.</p>
 
     </div>
 
     {{-- Panel 7 --}}
     <div class="phonics-panel flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-i/ist4.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-j/jst4.m4a') }}">
         <h2 class="text-white text-[1.6vw] text-center">How many of these words can you find <br>
             in the story? Circle them.</h2>
-        <img src="{{ asset('assets/images/phonicsl1/letter_i/stack1.png') }}" class="w-full" />
+        <img src="{{ asset('assets/images/phonicsl1/letter_j/stack3.png') }}" class="w-full" />
         <div>
-            <img src="{{ asset('assets/images/phonicsl1/letter_i/doctor.png') }}" class="h-[14vw] rounded-[1vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_j/falling.gif') }}" class="h-[14vw]" />
         </div>
-        <h1 class="text-white text-[2.2vw]">She sees Doctor Ink.</h1>
+        <h1 class="text-white text-[2.2vw]">Jim jumps and giggles about</h1>
         <p class="p-note w-[70%]">Tip: Ask children to circle the words that appear in the story on their Activity Sheet.
             Check result on next slide.</p>
     </div>
 
     {{-- Panel 8 --}}
     <div class="phonics-panel flex flex-col items-center justify-between h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-i/ist4.m4a') }}">
-        <img src="{{ asset('assets/images/phonicsl1/letter_i/stack4.png') }}" class="w-full" />
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-j/jst4.m4a') }}">
+        <img src="{{ asset('assets/images/phonicsl1/letter_j/stack4.png') }}" class="w-full" />
         <div>
-            <img src="{{ asset('assets/images/phonicsl1/letter_i/doctor.png') }}" class="h-[14vw] rounded-[1vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_j/falling.gif') }}" class="h-[15vw]" />
         </div>
-        <h1 class="text-white text-[2.2vw]"><span class="text-[#f7b94a]">She sees</span> Doctor Ink.</h1>
+        <h1 class="text-white text-[2.2vw]">Jim jumps and giggles <span class="text-[#f7b94a]">about</span></h1>
         <p class="p-note">Tip: Highlight that the beginning letter in a sentence is written in uppercase.</p>
     </div>
 
     {{-- Panel 9 --}}
     <div class="phonics-panel flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-i/ist5.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-j/jst5.m4a') }}">
         <h2 class="text-white text-[1.6vw] text-center">How many of these words can you find <br>
             in the story? Circle them.</h2>
-        <img src="{{ asset('assets/images/phonicsl1/letter_i/stack1.png') }}" class="w-full" />
+        <img src="{{ asset('assets/images/phonicsl1/letter_j/stack4.png') }}" class="w-full" />
         <div>
-            <img src="{{ asset('assets/images/phonicsl1/letter_i/inj.png') }}" class="h-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_j/sad.gif') }}" class="h-[14vw]" />
         </div>
-        <h1 class="text-white text-[2.2vw]">He gives her an injection.</h1>
+        <h1 class="text-white text-[2.2vw]">And breaks the jar of jellies.</h1>
         <p class="p-note">Tip: Ask children to circle the words that appear in the story on their Activity Sheet. <br>
             Check result on next slide.</p>
 
@@ -161,56 +171,62 @@
 
     {{-- Panel 10 --}}
     <div class="phonics-panel flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-i/ist5.m4a') }}">
-        <img src="{{ asset('assets/images/phonicsl1/letter_i/stack4.png') }}" class="w-full" />
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-j/jst5.m4a') }}">
+        <img src="{{ asset('assets/images/phonicsl1/letter_j/stack4.png') }}" class="w-full" />
         <div>
-            <img src="{{ asset('assets/images/phonicsl1/letter_i/inj.png') }}" class="h-[14vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_j/sad.gif') }}" class="h-[16vw]" />
         </div>
-        <h1 class="text-white text-[2.2vw]">He gives her <span class="text-[#f7b94a]">an</span> injection.</h1>
+        <h1 class="text-white text-[2.2vw]"><span class="text-[#f7b94a]">And</span> breaks the jar <span
+                class="text-[#f7b94a]">of</span> jellies.</h1>
         <p class="p-note">Tip: Highlight that the beginning letter in a sentence is written in uppercase.</p>
     </div>
 
     {{-- Panel 11 --}}
     <div class="phonics-panel flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/phonicsl1/letter_i/stack4.png') }}" class="w-full" />
+        <img src="{{ asset('assets/images/phonicsl1/letter_j/stack4.png') }}" class="w-full" />
     </div>
 
 
 
-    <div class="phonics-panel grid grid-cols-2 gap-x-[4vw]">
+    <div class="phonics-panel grid grid-cols-2 gap-x-[2vw]">
 
         <!-- ITEM 1 -->
         <div class="flex flex-col items-center text-center w-fit">
-            <div class="item1">
-                <img src="{{ asset('assets/images/phonicsl1/letter_i/bites.gif') }}" class="h-[13vw]" />
+            <div class="item1 w-fit h-fit relative">
+                <img src="{{ asset('assets/images/phonicsl1/letter_j/hill.png') }}" class="w-[25vw]" />
+                <img src="{{ asset('assets/images/phonicsl1/letter_j/run1.gif') }}"
+                    class="h-[10vw] absolute bottom-[18%] rotate-[-23deg] left-[40%]" />
+                <img src="{{ asset('assets/images/phonicsl1/letter_j/run2.gif') }}"
+                    class="h-[10vw] absolute bottom-[4%] scale-x-[-1] left-[20%] rotate-[-17deg]" />
             </div>
-            <h1 class="text-white text-[1.4vw]"><span class="text-[#f7b94a]">An</span> insect bites Ish. Itch! Itch!</h1>
+            <h1 class="text-white text-[1.4vw]">Jingle <span class="text-[#f7b94a]">and</span> Jim jog <span
+                    class="text-[#f7b94a]">up</span> the hill</h1>
         </div>
 
         <!-- ITEM 2 -->
         <div class="flex flex-col items-center text-center w-fit">
             <div class="w-fit ietm-2">
-                <img src="{{ asset('assets/images/phonicsl1/letter_i/itchy.gif') }}" class="h-[13vw]" />
+                <img src="{{ asset('assets/images/phonicsl1/letter_j/reaching.gif') }}" class="h-[13vw]" />
             </div>
-            <h1 class="text-white text-[1.4vw]">Ish <span class="text-[#f7b94a]">is</span> feeling itchy and ill. </h1>
-
+            <h1 class="text-white text-[1.4vw]"><span class="text-[#f7b94a]">Just</span> to <span
+                    class="text-[#f7b94a]">get</span> a jar <span class="text-[#f7b94a]">of</span> jellies .</h1>
         </div>
 
         <!-- ITEM 3 -->
         <div class="flex flex-col items-center text-center w-fit mt-[1vw]">
             <div class="w-fit ietm-3">
-                <img src="{{ asset('assets/images/phonicsl1/letter_i/doctor.png') }}" class="h-[12vw] rounded-[1vw]" />
+                <img src="{{ asset('assets/images/phonicsl1/letter_j/falling.gif') }}" class="h-[12vw]" />
             </div>
-
-            <h1 class="text-white text-[1.4vw]"><span class="text-[#f7b94a]">She sees</span> Doctor ink.</h1>
+            <h1 class="text-white text-[1.4vw]">Jim jumps and giggles <span class="text-[#f7b94a]">about</span></h1>
         </div>
 
         <!-- ITEM 4 -->
         <div class="flex flex-col items-center text-center w-fit">
             <div class="w-fit ietm-4">
-                <img src="{{ asset('assets/images/phonicsl1/letter_i/inj.png') }}" class="h-[12vw]" />
+                <img src="{{ asset('assets/images/phonicsl1/letter_j/sad.gif') }}" class="h-[12vw]" />
             </div>
-            <h1 class="text-white text-[1.4vw]">He gives her <span class="text-[#f7b94a]">an</span> injection.</h1>
+            <h1 class="text-white text-[1.4vw]"><span class="text-[#f7b94a]">And</span> breaks the jar <span
+                    class="text-[#f7b94a]">of</span> jellies.</h1>
         </div>
     </div>
 
@@ -266,8 +282,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_i') }}";
-            const doneURL = "{{ url('/phonics/letter_i') }}";
+            const returnURL = "{{ url('/phonics/letter_j') }}";
+            const doneURL = "{{ url('/phonics/letter_j') }}";
 
             // Track current position
             let currentSlide = 0;
@@ -460,10 +476,10 @@
 
             // Define audio paths for each item
             const itemAudioPaths = {
-                'ietm-1': "{{ asset('assets/audio/phonics_audio/letter-i/ist2.m4a') }}",
-                'ietm-2': "{{ asset('assets/audio/phonics_audio/letter-i/ist3.m4a') }}",
-                'ietm-3': "{{ asset('assets/audio/phonics_audio/letter-i/ist4.m4a') }}",
-                'ietm-4': "{{ asset('assets/audio/phonics_audio/letter-i/ist5.m4a') }}"
+                'ietm-1': "{{ asset('assets/audio/phonics_audio/letter-j/jst2.m4a') }}",
+                'ietm-2': "{{ asset('assets/audio/phonics_audio/letter-j/jst3.m4a') }}",
+                'ietm-3': "{{ asset('assets/audio/phonics_audio/letter-j/jst4.m4a') }}",
+                'ietm-4': "{{ asset('assets/audio/phonics_audio/letter-j/jst5.m4a') }}"
             };
 
             items.forEach(item => {

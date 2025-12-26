@@ -83,16 +83,16 @@
 
 
     {{-- Panel 2 --}}
-    <div class="phonics-panel flex flex-col justify-between h-[80%] self-end">
+    <div class="phonics-panel flex flex-col justify-between h-[90%] self-end">
         <div class="flex flex-col items-center justify-center gap-[2vw]">
-            <img src="{{ asset('assets/images/phonicsl1/letter_i/i-insect.png') }}" class="w-[25vw]" />
-            <h1 class="text-[2vw] text-[#f7b94a]">An insect is in the igloo.</h1>
+            <img src="{{ asset('assets/images/phonicsl1/letter_j/j-jug.png') }}" class="w-[25vw]" />
+            <h1 class="text-[2vw] text-[#f7b94a]">Jack jumps over the jug of juice.</h1>
         </div>
         <p class="p-note">Tip: Music will be automatically played twice. Click on the sound icon to repeat music.</p>
 
         {{-- sound Button --}}
         <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton"
-            data-audio="{{ asset('assets/audio/phonics_audio/letter-i/insect.m4a') }}">
+            data-audio="{{ asset('assets/audio/phonics_audio/letter-j/j-jug.m4a') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -105,7 +105,7 @@
                     <img src="{{ asset('assets/images/phonicsl1/global/blank.png') }}" class="w-[18vw]" />
                     <h2 class="text-[1.2vw] !text-[#B76E33] absolute top-[2vw] right-[2vw]">Help me complete <br> the
                         sentence
-                        with <br> a word beginning <br> with ‘i’.</h2>
+                        with <br> a word beginning <br> with ‘j’.</h2>
                 </div>
                 <img src="{{ asset('assets/images/phonicsl1/global/teacher.png') }}" class="h-[20vw]" />
             </div>
@@ -129,10 +129,10 @@
                         <div class="flex items-start mb-[1vw]">
 
                             <a class="w-[6vw] hover:brightness-110 " id="true">
-                                <img src="{{ asset('assets/images/phonicsl1/letter_i/insect.png') }}" />
+                                <img src="{{ asset('assets/images/phonicsl1/letter_j/jug.png') }}" />
                             </a>
                             {{-- sound Button --}}
-                            <button class="w-[3vw]" id="soundButton" data-letter="insect">
+                            <button class="w-[3vw]" id="soundButton" data-letter="jug">
                                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                             </button>
                         </div>
@@ -151,7 +151,7 @@
                         </div>
                     </div>
                 </div>
-                <h2 class="text-white text-[1.5vw]">Where is the _________?</h2>
+                <h2 class="text-white text-[1.5vw]">Look at the.........!</h2>
 
             </div>
         </div>
@@ -240,8 +240,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_i') }}";
-            const doneURL = "{{ url('/phonics/letter_i') }}";
+            const returnURL = "{{ url('/phonics/letter_j') }}";
+            const doneURL = "{{ url('/phonics/letter_j') }}";
 
             // Track current position
             let currentSlide = 0;
@@ -620,7 +620,7 @@
                 // Stop the sound if still playing
                 wellDoneSound.pause();
                 wellDoneSound.currentTime = 0;
-                window.location.href = '{{ url('/phonics/letter_i') }}';
+                window.location.href = '{{ url('/phonics/letter_j') }}';
             });
 
             // Optional: Sound button functionality
