@@ -52,7 +52,7 @@
                 <img src="{{ asset('assets/images/phonicsl1/global/gifs/lili.gif') }}"
                     class="h-[20vw] bottom-0 right-0 absolute" />
 
-                <h1 class="text-white text-[4vw] absolute top-[12vw] left-[19vw]"> It's story <br> time!</h1>
+                  <h1 class="text-white text-[4vw] absolute top-[55%] left-1/2 -translate-1/2"> It's story <br> time!</h1>
 
                 <p class="p-note absolute bottom-[1vw] left-[22%]">Tip: <a class="c-btn info-btn1">Click here</a> to find
                     out

@@ -45,8 +45,8 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel no-bg mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio/storytime.mp3') }}">
-        <div class="relative">
-            <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" />
+        <div class="relative w-fit h-fit">
+            <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" class="w-[60vw]" />
             {{-- gifs --}}
             <img src="{{ asset('assets/images/phonicsl1/global/gifs/buddy.gif') }}" class="h-[20vw] bottom-0 absolute" />
             <img src="{{ asset('assets/images/phonicsl1/global/gifs/lili.gif') }}"
@@ -126,14 +126,14 @@
     {{-- Panel 7 --}}
     <div class="phonics-panel no-bg mb-[2vw]"
         data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-e/est6.m4a') }}">
-        <div class="relative w-fit">
-            <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" />
+        <div class="relative w-fit h-fit">
+            <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" class="w-[60vw]" />
             {{-- gifs --}}
             <img src="{{ asset('assets/images/phonicsl1/global/gifs/buddy.gif') }}" class="h-[20vw] bottom-0 absolute" />
             <img src="{{ asset('assets/images/phonicsl1/global/gifs/lili.gif') }}"
                 class="h-[20vw] bottom-0 right-0 absolute" />
 
-            <h1 class="text-white text-[3.5vw] absolute top-[10vw] left-1/2 -translate-x-1/2 text-center">What sound <br>
+             <h1 class="text-white text-[3.5vw] absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 text-center">What sound <br>
                 does the hen <br>
                 make?</h1>
             <p class="p-note absolute bottom-[1vw] left-[35%]">Tip: Elicit response from children.</p>
@@ -143,14 +143,14 @@
 
     <div class="phonics-panel no-bg mb-[2vw]"
         data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-e/est7.m4a') }}">
-        <div class="relative">
-            <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" />
+        <div class="relative w-fit h-fit">
+            <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" class="w-[60vw]" />
             {{-- gifs --}}
             <img src="{{ asset('assets/images/phonicsl1/global/gifs/buddy.gif') }}" class="h-[20vw] bottom-0 absolute" />
             <img src="{{ asset('assets/images/phonicsl1/global/gifs/lili.gif') }}"
                 class="h-[20vw] bottom-0 right-0 absolute" />
 
-            <h1 class="text-white text-[3vw] absolute top-[10vw] left-1/2 -translate-x-1/2 text-center">How many eggs <br>
+            <h1 class="text-white text-[3vw] absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 text-center">How many eggs <br>
                 has the hen <br>
                 laid?</h1>
             <p class="p-note absolute bottom-[1vw] left-[35%]">Tip: Elicit response from children.</p>
@@ -160,14 +160,14 @@
 
     <div class="phonics-panel no-bg mb-[2vw]"
         data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-e/est8.m4a') }}">
-        <div class="relative">
-            <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" />
+        <div class="relative w-fit h-fit">
+            <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" class="w-[60vw]" />
             {{-- gifs --}}
             <img src="{{ asset('assets/images/phonicsl1/global/gifs/buddy.gif') }}" class="h-[20vw] bottom-0 absolute" />
             <img src="{{ asset('assets/images/phonicsl1/global/gifs/lili.gif') }}"
                 class="h-[20vw] bottom-0 right-0 absolute" />
 
-            <h1 class="text-white text-[3vw] absolute top-[10vw] left-1/2 -translate-x-1/2 text-center">The hen lays <br>
+            <h1 class="text-white text-[3vw] absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 text-center">The hen lays <br>
                 some eggs. Who <br>
                 are they for?</h1>
             <p class="p-note absolute bottom-[1vw] left-[35%]">Tip: Elicit response from children.</p>

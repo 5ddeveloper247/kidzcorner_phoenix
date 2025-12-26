@@ -37,18 +37,18 @@
 
     {{-- Panel 2 --}}
     <div class="phonics-panel no-bg mb-[2vw]">
-        <div class="relative">
-            <img src="{{ asset('assets/images/phonicsl1/letter_a/door.png') }}" />
+        <div class="relative doorbox w-fit h-fit">
+            <img src="{{ asset('assets/images/phonicsl1/letter_a/door.png') }}" class="w-[60vw] h-40vw" />
             {{-- left --}}
-            <a class="link info-btn1 absolute top-[10.5vw] left-[9vw]">Alphabet Song</a>
-            <a class="link info-btn2 absolute top-[17vw] left-[9vw]">...Begins with...</a>
-            <a class="link info-btn3 absolute top-[23.5vw] left-[8vw]">I’ve got the Letter</a>
-            <a class="link info-btn4 absolute bottom-[6vw] left-[9vw]">This is the Way</a>
+            <a class="link text-[1.3vw] info-btn1 absolute top-[27%] left-[15%]">Alphabet Song</a>
+            <a class="link text-[1.3vw] info-btn2 absolute top-[44%] left-[15%]">...Begins with...</a>
+            <a class="link text-[1.3vw] info-btn3 absolute top-[62%] left-[13%]">I’ve got the Letter</a>
+            <a class="link text-[1.3vw] info-btn4 absolute bottom-[16%] left-[15%]">This is the Way</a>
             {{-- right --}}
-            <a class="link info-btn5 absolute top-[10.5vw] right-[10vw]">The ... In ...</a>
-            <a class="link info-btn6 absolute top-[17vw] right-[7.5vw]">One Little, Two Little</a>
-            <a class="link info-btn7 absolute top-[23.5vw] right-[9vw]">I Know a Word</a>
-            <a class="link info-btn8 absolute bottom-[6vw] right-[10vw]">I Like ...</a>
+            <a class="link text-[1.3vw] info-btn5 absolute top-[27%] right-[17%]">The ... In ...</a>
+            <a class="link text-[1.1vw] info-btn6 absolute top-[45%] right-[13%]">One Little, Two Little</a>
+            <a class="link text-[1.3vw] info-btn7 absolute top-[62%] right-[14%]">I Know a Word</a>
+            <a class="link text-[1.3vw] info-btn8 absolute bottom-[16%] right-[10vw]">I Like ...</a>
         </div>
     </div>
 
@@ -71,7 +71,7 @@
     {{-- Info Panel 2 --}}
     <div class="phonics-panel info-panel-2">
         <div class="flex flex-col items-center">
-            <h4 class="text-white">(Tune: The Farmer in the Dell)</h4>
+            <h4 class="text-white text-[1vw]">(Tune: The Farmer in the Dell)</h4>
             <img src="{{ asset('assets/images/phonicsl1/letter_f/fish.png') }}" class="w-[10vw]" />
             <div class="text-center text-white text-[2.8vw]">
                 <h3>fish' begins with /f/.</h3>
@@ -115,7 +115,7 @@
     <div class="phonics-panel info-panel-3">
         <h2 class="top-title stroke">I’ve got the Letter ‘f’</h2>
         <div class="flex flex-col items-center">
-            <h4 class="text-white">(Tune: I’ve got the Whole World in my Hand)</h4>
+            <h4 class="text-white text-[1vw]">(Tune: I’ve got the Whole World in my Hand)</h4>
             <img src="{{ asset('assets/images/phonicsl1/letter_f/fox.png') }}" class="w-[10vw]" />
             <div class="text-center text-white text-[3vw]">
                 <h3>I've got the letter 'f' for fox.</h3>
@@ -140,7 +140,7 @@
     <div class="phonics-panel info-panel-4">
         <h2 class="top-title stroke">This is the Way</h2>
         <div class="flex flex-col items-center">
-            <h4 class="text-white">(Tune: Here We Go Round the Mulberry Bush)</h4>
+            <h4 class="text-white text-[1vw]">(Tune: Here We Go Round the Mulberry Bush)</h4>
             <img src="{{ asset('assets/images/phonicsl1/letter_f/fishing.png') }}" class="h-[13vw]" />
             <div class="text-center text-white text-[3vw]">
                 <h3>This is the way I catch five fish.</h3>
@@ -163,7 +163,7 @@
     <div class="phonics-panel info-panel-5">
         <h2 class="top-title stroke">The ... In ...</h2>
         <div class="flex flex-col items-center">
-            <h4 class="text-white">(Tune: The Wheels On The Bus Go Round And Round)</h4>
+            <h4 class="text-white text-[1vw]">(Tune: The Wheels On The Bus Go Round And Round)</h4>
             <img src="{{ asset('assets/images/phonicsl1/letter_f/fan.png') }}" class="w-[10vw]" />
             <div class="text-center text-white text-[3vw]">
                 <h3>The 'f' in fan goes /f/ /f/ /f/.</h3>
@@ -187,7 +187,7 @@
     <div class="phonics-panel info-panel-6">
         <h2 class="top-title stroke">One Little, Two Little</h2>
         <div class="flex flex-col items-center">
-            <h4 class="text-white">(Tune: Ten Little Indian Boys)</h4>
+            <h4 class="text-white text-[1vw]">(Tune: Ten Little Indian Boys)</h4>
             <div>
                 <img src="{{ asset('assets/images/phonicsl1/letter_f/foxes.png') }}" class="h-[12vw]" />
             </div>
@@ -213,7 +213,7 @@
     <div class="phonics-panel info-panel-7 flex flex-col gap-y-[3vw]">
         <h2 class="top-title stroke">I Know a Word</h2>
         <div class="flex flex-col items-center gap-y-[2vw]">
-            <h4 class="text-white">(Tune: Bingo)</h4>
+            <h4 class="text-white text-[1vw]">(Tune: Bingo)</h4>
             <div>
                 <img src="{{ asset('assets/images/phonicsl1/letter_f/group.png') }}" class="w-[45vw]" />
             </div>

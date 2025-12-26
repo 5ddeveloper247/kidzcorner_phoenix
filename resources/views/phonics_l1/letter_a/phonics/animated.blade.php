@@ -44,7 +44,7 @@
         <h2 class="top-title stroke">Story Time</h2>
 
         {{-- panel 1 --}}
-        <div class="phonics-panel no-bg mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio/SingAlong.mp3') }}">
+        <div class="phonics-panel no-bg mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio/writing.mp3') }}">
             <div class="relative">
                 <img src="{{ asset('assets/images/phonicsl1/letter_a/an-board.png') }}" />
                 {{-- gifs --}}

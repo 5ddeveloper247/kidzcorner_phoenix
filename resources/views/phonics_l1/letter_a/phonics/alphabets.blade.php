@@ -41,15 +41,15 @@
 
 @section('content')
     {{-- Top Title --}}
-    <h2 class="top-title stroke">Magic Letters</h2>
+    <h2 class="top-title stroke">Alphabets House</h2>
 
     {{-- panel 1 --}}
     <div class="phonics-panel">
-        <div class="flex relative">
+        <div class="flex relative w-fit h-fit">
             <h1
                 class="text-[#f7b94a] text-[8vw] bottom-[4.5vw] left-[13.5vw] stroke leading-none absolute hover:text-[#757571]">
                 a</h1>
-            <img src="{{ asset('assets/images/phonicsl1/letter_a/alpha-house.png') }}" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_a/alpha-house.png') }}" class="w-[47vw]" />
         </div>
         <p class="p-note">Tips: Click on the letter to listen to words beginning with the letter sound. <br>
             <a class="c-btn info-btn1">Click here</a> to find out why it is important to practise reading words in isolation.
@@ -209,14 +209,14 @@
         class="fixed inset-0 z-[1000] hidden  items-center justify-center bg-[#0000002e]  backdrop-blur-sm">
         <div class="w-[60vw] relative h-[40vw] bg-contain bg-no-repeat bg-center flex flex-col justify-center items-center rounded-lg "
             style="background-image: url('{{ asset('assets/images/K2/exit.png') }}');">
-            <p class="text-[3vw] !text-[#59967D] stroke font-bold">Well Done!</p>
+            <p class="text-[3vw] !text-[#59967D] font-bold">Well Done!</p>
             <div class="mt-[1vw] ">
                 <img src="{{ asset('assets/images/phonicsl1/global/gifs/welldone.gif') }}" class="h-[20vw]"
                     alt="Animation" />
 
             </div>
             <a href="#" id="close"
-                class="text-[#59967D] text-[2vw] font-bold stroke hover:scale-110 transition-transform absolute bottom-[6vw] right-[10vw]">Close</a>
+                class="text-[#59967D] text-[2vw] hover:scale-110 transition-transform absolute bottom-[6vw] right-[10vw]">Close</a>
         </div>
     </div>
 

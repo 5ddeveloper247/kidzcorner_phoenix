@@ -45,14 +45,15 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel no-bg mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-b/read-along.mp3') }}">
-        <div class="relative">
-            <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" />
+        <div class="relative w-fit h-fit">
+            <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" class="w-[60vw]" />
             {{-- gifs --}}
             <img src="{{ asset('assets/images/phonicsl1/global/gifs/buddy.gif') }}" class="h-[20vw] bottom-0 absolute" />
             <img src="{{ asset('assets/images/phonicsl1/global/gifs/lili.gif') }}"
                 class="h-[20vw] bottom-0 right-0 absolute" />
 
-            <h1 class="text-white text-[4vw] absolute top-[12vw] left-[19vw]"> Read along <br> with us!</h1>
+                        <h1 class="text-white text-[4vw] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"> Read along <br> with us!</h1>
+
 
             <p class="p-note absolute bottom-[1vw] left-[22%]">Tip: <a class="c-btn info-btn1">Click here</a> to find out
                 why
@@ -85,7 +86,7 @@
     <div class="phonics-panel flex flex-col justify-between h-full">
         <div class="flex flex-col items-center justify-center gap-[2vw] mt-[5vw]">
             <div class="flex items-end gap-9">
-                <img src="{{ asset('assets/images/phonicsl1/letter_c/c-cat.png') }}"  />
+                <img src="{{ asset('assets/images/phonicsl1/letter_c/c-cat.png') }}" class="w-[20vw]"  />
                 <h2 class="text-white text-[5vw]">cat</h2>
             </div>
             <h1 class="text-[2vw] text-[#f7b94a]">Carol catches the cat.</h1>
@@ -94,7 +95,7 @@
 
         {{-- sound Button --}}
         <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton"
-            data-audio="{{ asset('assets/audio/phonics_audio/letter-c/carol.mp3') }}">
+            data-audio="{{ asset('assets/audio/phonics_audio/letter-c/carol.m4a') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -131,8 +132,8 @@
                     {{-- falsde --}}
                     <div class="flex items-start mb-[1vw]">
 
-                        <a class="w-[6vw] hover:brightness-110 " id="false">
-                            <img src="{{ asset('assets/images/phonicsl1/letter_a/apple.png') }}" />
+                        <a class=" hover:brightness-110 " id="false">
+                            <img src="{{ asset('assets/images/phonicsl1/letter_a/apple.png') }}" class="w-[6vw]" />
                         </a>
                         {{-- sound Button --}}
                         <button class="w-[3vw]" id="soundButton" data-letter="apple">
@@ -143,8 +144,8 @@
                     {{-- true --}}
                     <div class="col-span-2 flex justify-center ">
                         <div class="flex items-start gap-x-[1vw]">
-                            <a class="w-[6vw] hover:brightness-110" id="true">
-                                <img src="{{ asset('assets/images/phonicsl1/letter_a/cat.png') }}" />
+                            <a class=" hover:brightness-110" id="true">
+                                <img src="{{ asset('assets/images/phonicsl1/letter_a/cat.png') }}" class="w-[6vw]" />
                             </a>
                             {{-- sound Button --}}
                             <button class="w-[3vw]" id="soundButton" data-letter="cat">
@@ -182,14 +183,14 @@
     <div id="wellDone" class="fixed inset-0 z-[1000] hidden  items-center justify-center bg-[#0000002e]  backdrop-blur-sm">
         <div class="w-[60vw] relative h-[40vw] bg-contain bg-no-repeat bg-center flex flex-col justify-center items-center rounded-lg "
             style="background-image: url('{{ asset('assets/images/K2/exit.png') }}');">
-            <p class="text-[3vw] !text-[#59967D] stroke font-bold">Well Done!</p>
+            <p class="text-[3vw] !text-[#59967D] font-bold">Well Done!</p>
             <div class="mt-[1vw] ">
                 <img src="{{ asset('assets/images/phonicsl1/global/gifs/welldone.gif') }}" class="h-[20vw]"
                     alt="Animation" />
 
             </div>
             <a href="#" id="close"
-                class="text-[#59967D] text-[2vw] font-bold stroke hover:scale-110 transition-transform absolute bottom-[6vw] right-[10vw]">Close</a>
+                class="text-[#59967D] text-[2vw] hover:scale-110 transition-transform absolute bottom-[6vw] right-[10vw]">Close</a>
         </div>
     </div>
 

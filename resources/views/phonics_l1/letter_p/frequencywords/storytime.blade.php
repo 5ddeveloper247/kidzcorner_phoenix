@@ -45,14 +45,14 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel no-bg mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio/storytime.mp3') }}">
-        <div class="relative">
-            <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" />
+        <div class="relative w-fit h-fit">
+            <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" class="w-[60vw]" />
             {{-- gifs --}}
             <img src="{{ asset('assets/images/phonicsl1/global/gifs/buddy.gif') }}" class="h-[20vw] bottom-0 absolute" />
             <img src="{{ asset('assets/images/phonicsl1/global/gifs/lili.gif') }}"
                 class="h-[20vw] bottom-0 right-0 absolute" />
 
-            <h1 class="text-white text-[4vw] absolute top-[12vw] left-[19vw]"> It's story <br> time!</h1>
+              <h1 class="text-white text-[4vw] absolute top-[55%] left-1/2 -translate-1/2"> It's story <br> time!</h1>
 
             <p class="p-note absolute bottom-[1vw] left-[22%]">Tip: <a class="c-btn">Click here</a> to find
                 out why reading words is important.</p>

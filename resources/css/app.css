@@ -942,3 +942,15 @@ span img {
         height: 22vw;
     }
 }
+
+
+
+/* ======================== */
+/* Phonics */
+.box-grid a img{
+width: 14vw;
+}
+
+#soundButton img{
+    width: 5vw;
+}

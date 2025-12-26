@@ -20,8 +20,8 @@
 
     {{-- Phonics --}}
     <div id="phonics-slide" class="flex flex-col hidden">
-        <h2c class="text-[3vw] stroke text-[#F7B94A]">Phonics</h2>
-            <div class="grid grid-cols-4 gap-[2vw]">
+        <h2 class="text-[3vw] stroke text-[#F7B94A]">Phonics</h2>
+            <div class="box-grid grid grid-cols-4 gap-[2vw]">
                 <a href="{{ url('/phonics/letter_n/phonics/magicletters') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn8.png') }}" />
                 </a>

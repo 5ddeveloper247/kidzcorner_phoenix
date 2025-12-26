@@ -45,8 +45,8 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel no-bg mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio/storytime.mp3') }}">
-        <div class="relative">
-            <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" />
+        <div class="relative w-fit h-fit">
+            <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" class="w-[60vw]" />
             {{-- gifs --}}
             <img src="{{ asset('assets/images/phonicsl1/global/gifs/buddy.gif') }}" class="h-[20vw] bottom-0 absolute" />
             <img src="{{ asset('assets/images/phonicsl1/global/gifs/lili.gif') }}"
@@ -125,14 +125,14 @@
     {{-- Panel 7 --}}
     <div class="phonics-panel no-bg mb-[2vw]"
         data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-h/story6.m4a') }}">
-        <div class="relative w-fit">
-            <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" />
+        <div class="relative w-fit h-fit">
+            <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" class="w-[60vw]" />
             {{-- gifs --}}
             <img src="{{ asset('assets/images/phonicsl1/global/gifs/buddy.gif') }}" class="h-[20vw] bottom-0 absolute" />
             <img src="{{ asset('assets/images/phonicsl1/global/gifs/lili.gif') }}"
                 class="h-[20vw] bottom-0 right-0 absolute" />
 
-            <h1 class="text-white text-[3.5vw] absolute top-[10vw] left-1/2 -translate-x-1/2 text-center">What does <br>
+             <h1 class="text-white text-[3.5vw] absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 text-center">What does <br>
                 Harry like?</h1>
 
 
@@ -143,14 +143,14 @@
 
     <div class="phonics-panel no-bg mb-[2vw]"
         data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-h/story7.m4a') }}">
-        <div class="relative">
-            <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" />
+        <div class="relative w-fit h-fit">
+            <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" class="w-[60vw]" />
             {{-- gifs --}}
             <img src="{{ asset('assets/images/phonicsl1/global/gifs/buddy.gif') }}" class="h-[20vw] bottom-0 absolute" />
             <img src="{{ asset('assets/images/phonicsl1/global/gifs/lili.gif') }}"
                 class="h-[20vw] bottom-0 right-0 absolute" />
 
-            <h1 class="text-white text-[3.5vw] absolute top-[10vw] left-1/2 -translate-x-1/2 text-center">Why is Harry
+             <h1 class="text-white text-[3.5vw] absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 text-center">Why is Harry
                 <br>
                 not happy <br>
                 after his meal?
@@ -163,14 +163,14 @@
 
     <div class="phonics-panel no-bg mb-[2vw]"
         data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-h/story8.m4a') }}">
-        <div class="relative">
-            <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" />
+        <div class="relative w-fit h-fit">
+            <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" class="w-[60vw]" />
             {{-- gifs --}}
             <img src="{{ asset('assets/images/phonicsl1/global/gifs/buddy.gif') }}" class="h-[20vw] bottom-0 absolute" />
             <img src="{{ asset('assets/images/phonicsl1/global/gifs/lili.gif') }}"
                 class="h-[20vw] bottom-0 right-0 absolute" />
 
-            <h1 class="text-white text-[3vw] absolute top-[10vw] left-1/2 -translate-x-1/2 text-center">Why can’t Harry
+            <h1 class="text-white text-[3vw] absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 text-center">Why can’t Harry
                 <br>
                 have some more <br>
                 hay and honey?

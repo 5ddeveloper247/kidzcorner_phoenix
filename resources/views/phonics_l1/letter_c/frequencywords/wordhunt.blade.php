@@ -198,7 +198,7 @@
     <div class="phonics-panel flex flex-col items-center justify-between h-full"
         data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-c/story5.m4a') }}">
 
-        <img src="{{ asset('assets/images/phonicsl1/letter_c/stack5.png') }}" class="w-full" />
+        <img src="{{ asset('assets/images/phonicsl1/letter_c/stack5.png') }}" class="!w-[55vw]" />
         <div class="relative">
             <img src="{{ asset('assets/images/phonicsl1/letter_c/angry.gif') }}" class="w-[18vw]" />
             <img src="{{ asset('assets/images/phonicsl1/letter_c/bird.gif') }}" class="w-[4vw] absolute top-[0vw]" />
@@ -212,16 +212,16 @@
 
     {{-- Panel 11 --}}
     <div class="phonics-panel flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/phonicsl1/letter_c/stack5.png') }}" class="w-full" />
+        <img src="{{ asset('assets/images/phonicsl1/letter_c/stack5.png') }}" class="!w-[55vw]" />
     </div>
 
 
 
-    <div class="phonics-panel grid grid-cols-2 gap-[1vw]"
+    <div class="phonics-panel grid grid-cols-2 gap-[1vw] h-fit w-fit"
         data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-c/story5.m4a') }}">
 
         <!-- ITEM 1 -->
-        <a href="">
+        <a >
             <div class="relative flex flex-col items-center text-center w-fit">
                 <div class="relative w-fit ietm-1">
                     <img src="{{ asset('assets/images/phonicsl1/letter_c/castle.gif') }}" class="w-[17vw]" />

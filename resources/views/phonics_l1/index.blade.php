@@ -8,14 +8,21 @@
     $showMascot = true;
 @endphp
 
+@push('styles')
+    <style>
+        #slide-board a img {
+           width: 14vw;
+        }
+    </style>
+@endpush
 
 @section('content')
 
     {{--  Starting div --}}
     <div id="slide-board" class="flex flex-col items-center gap-y-[5vw] hidden">
         <div>
-            <h1 class="text-[80px] text-[#F7B94A] stroke">Phonics & Reading</h1>
-            <h3 class="text-[50px] text-white">e-Teaching</h3>
+            <h1 class="text-[4vw] text-[#F7B94A] stroke">Phonics & Reading</h1>
+            <h3 class="text-[3vw] text-white">e-Teaching</h3>
         </div>
         <button> <img src="{{ asset('assets/images/phonicsl1/global/btns/start.png') }}" class="start-btn w-[12vw]" />
         </button>
@@ -24,35 +31,35 @@
     {{-- Aplhabets a - h --}}
     <div id="slide-board" class="grid grid-cols-4 gap-[2vw] mb-[2vw] hidden">
 
-        <a href="{{url('/phonics/letter_a')}}">
+        <a href="{{ url('/phonics/letter_a') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/alphabets/a.png') }}" />
         </a>
 
-        <a href="{{url('/phonics/letter_b')}}">
+        <a href="{{ url('/phonics/letter_b') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/alphabets/b.png') }}" />
         </a>
 
-        <a href="{{url('/phonics/letter_c')}}">
+        <a href="{{ url('/phonics/letter_c') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/alphabets/c.png') }}" />
         </a>
 
-        <a href="{{url('/phonics/letter_d')}}">
+        <a href="{{ url('/phonics/letter_d') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/alphabets/d.png') }}" />
         </a>
 
-        <a href="{{url('/phonics/letter_e')}}">
+        <a href="{{ url('/phonics/letter_e') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/alphabets/e.png') }}" />
         </a>
 
-        <a href="{{url('/phonics/letter_f')}}">
+        <a href="{{ url('/phonics/letter_f') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/alphabets/f.png') }}" />
         </a>
 
-        <a href="{{url('/phonics/letter_g')}}">
+        <a href="{{ url('/phonics/letter_g') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/alphabets/g.png') }}" />
         </a>
 
-        <a href="{{url('/phonics/letter_h')}}">
+        <a href="{{ url('/phonics/letter_h') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/alphabets/h.png') }}" />
         </a>
 
@@ -62,35 +69,35 @@
     {{-- Aplhabets i - p --}}
     <div id="slide-board" class="grid grid-cols-4 gap-[2vw] mb-[2vw] hidden">
 
-        <a href="{{url('/phonics/letter_i')}}">
+        <a href="{{ url('/phonics/letter_i') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/alphabets/i.png') }}" />
         </a>
 
-        <a href="{{url('/phonics/letter_j')}}">
+        <a href="{{ url('/phonics/letter_j') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/alphabets/j.png') }}" />
         </a>
 
-        <a href="{{url('/phonics/letter_k')}}">
+        <a href="{{ url('/phonics/letter_k') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/alphabets/k.png') }}" />
         </a>
 
-        <a href="{{url('/phonics/letter_l')}}">
+        <a href="{{ url('/phonics/letter_l') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/alphabets/l.png') }}" />
         </a>
 
-        <a href="{{url('/phonics/letter_m')}}">
+        <a href="{{ url('/phonics/letter_m') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/alphabets/m.png') }}" />
         </a>
 
-        <a href="{{url('/phonics/letter_n')}}">
+        <a href="{{ url('/phonics/letter_n') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/alphabets/n.png') }}" />
         </a>
 
-        <a href="{{url('/phonics/letter_o')}}">
+        <a href="{{ url('/phonics/letter_o') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/alphabets/o.png') }}" />
         </a>
 
-        <a href="{{url('/phonics/letter_p')}}">
+        <a href="{{ url('/phonics/letter_p') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/alphabets/p.png') }}" />
         </a>
 
@@ -100,35 +107,35 @@
     {{-- Aplhabets q - x --}}
     <div id="slide-board" class="grid grid-cols-4 gap-[2vw] mb-[2vw] hidden">
 
-        <a href="{{url('/phonics/letter_q')}}">
+        <a href="{{ url('/phonics/letter_q') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/alphabets/q.png') }}" />
         </a>
 
-        <a href="{{url('/phonics/letter_r')}}">
+        <a href="{{ url('/phonics/letter_r') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/alphabets/r.png') }}" />
         </a>
 
-        <a href="{{url('/phonics/letter_s')}}">
+        <a href="{{ url('/phonics/letter_s') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/alphabets/s.png') }}" />
         </a>
 
-        <a href="{{url('/phonics/letter_t')}}">
+        <a href="{{ url('/phonics/letter_t') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/alphabets/t.png') }}" />
         </a>
 
-        <a href="{{url('/phonics/letter_u')}}">
+        <a href="{{ url('/phonics/letter_u') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/alphabets/u.png') }}" />
         </a>
 
-        <a href="{{url('/phonics/letter_v')}}">
+        <a href="{{ url('/phonics/letter_v') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/alphabets/v.png') }}" />
         </a>
 
-        <a href="{{url('/phonics/letter_w')}}">
+        <a href="{{ url('/phonics/letter_w') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/alphabets/w.png') }}" />
         </a>
 
-        <a href="{{url('/phonics/letter_x')}}">
+        <a href="{{ url('/phonics/letter_x') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/alphabets/x.png') }}" />
         </a>
 
@@ -137,11 +144,11 @@
     {{-- Aplhabets y & z --}}
     <div id="slide-board" class="grid grid-cols-2  gap-[2vw] mb-[2vw] ">
 
-        <a href="{{url('/phonics/letter_y')}}">
+        <a href="{{ url('/phonics/letter_y') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/alphabets/y.png') }}" />
         </a>
 
-        <a href="{{url('/phonics/letter_z')}}">
+        <a href="{{ url('/phonics/letter_z') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/alphabets/z.png') }}" />
         </a>
     </div>
@@ -179,104 +186,104 @@
 @endsection
 
 @push('script')
-<script>
-    document.addEventListener("DOMContentLoaded", () => {
-        const slides = document.querySelectorAll("#slide-board");
-        const startBtn = document.querySelector(".start-btn");
-        const nextBtn = document.getElementById("next-btn");
-        const doneBtn = document.getElementById("done-btn");
-        const returnButton = document.getElementById("returnButton");
-        const homeButton = document.getElementById("homeButton");
-        const closeButton = document.getElementById("closeButton");
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const slides = document.querySelectorAll("#slide-board");
+            const startBtn = document.querySelector(".start-btn");
+            const nextBtn = document.getElementById("next-btn");
+            const doneBtn = document.getElementById("done-btn");
+            const returnButton = document.getElementById("returnButton");
+            const homeButton = document.getElementById("homeButton");
+            const closeButton = document.getElementById("closeButton");
 
-        let currentSlide = 0;
+            let currentSlide = 0;
 
-        // URL to redirect when on first slide or home button
-        const homeURL = "{{ url('/phonics') }}"; // Change this to your desired home URL
+            // URL to redirect when on first slide or home button
+            const homeURL = "{{ url('/phonics') }}"; // Change this to your desired home URL
 
-        // Function to show specific slide
-        function showSlide(index) {
-            slides.forEach((slide, i) => {
-                if (i === index) {
-                    slide.classList.remove("hidden");
+            // Function to show specific slide
+            function showSlide(index) {
+                slides.forEach((slide, i) => {
+                    if (i === index) {
+                        slide.classList.remove("hidden");
+                    } else {
+                        slide.classList.add("hidden");
+                    }
+                });
+
+                // Show/hide buttons based on slide
+                if (index === 0) {
+                    // First slide - hide both next and done buttons
+                    nextBtn.classList.add("hidden");
+                    doneBtn.classList.add("hidden");
+                } else if (index === slides.length - 1) {
+                    // Last slide - show done button, hide next button
+                    nextBtn.classList.add("hidden");
+                    doneBtn.classList.remove("hidden");
                 } else {
-                    slide.classList.add("hidden");
+                    // Middle slides - show next button, hide done button
+                    nextBtn.classList.remove("hidden");
+                    doneBtn.classList.add("hidden");
                 }
-            });
-
-            // Show/hide buttons based on slide
-            if (index === 0) {
-                // First slide - hide both next and done buttons
-                nextBtn.classList.add("hidden");
-                doneBtn.classList.add("hidden");
-            } else if (index === slides.length - 1) {
-                // Last slide - show done button, hide next button
-                nextBtn.classList.add("hidden");
-                doneBtn.classList.remove("hidden");
-            } else {
-                // Middle slides - show next button, hide done button
-                nextBtn.classList.remove("hidden");
-                doneBtn.classList.add("hidden");
             }
-        }
 
-        // Start button - show second slide (index 1)
-        if (startBtn) {
-            startBtn.addEventListener("click", () => {
-                currentSlide = 1;
-                showSlide(currentSlide);
-            });
-        }
-
-        // Next button - go to next slide
-        if (nextBtn) {
-            nextBtn.addEventListener("click", () => {
-                if (currentSlide < slides.length - 1) {
-                    currentSlide++;
+            // Start button - show second slide (index 1)
+            if (startBtn) {
+                startBtn.addEventListener("click", () => {
+                    currentSlide = 1;
                     showSlide(currentSlide);
-                }
-            });
-        }
+                });
+            }
 
-        // Done button - go back to first slide
-        if (doneBtn) {
-            doneBtn.addEventListener("click", () => {
-                currentSlide = 0;
-                showSlide(currentSlide);
-            });
-        }
+            // Next button - go to next slide
+            if (nextBtn) {
+                nextBtn.addEventListener("click", () => {
+                    if (currentSlide < slides.length - 1) {
+                        currentSlide++;
+                        showSlide(currentSlide);
+                    }
+                });
+            }
 
-        // Return button - go back one slide or redirect if on first slide
-        if (returnButton) {
-            returnButton.addEventListener("click", () => {
-                if (currentSlide === 0) {
-                    // If on first slide, redirect to home/previous page
+            // Done button - go back to first slide
+            if (doneBtn) {
+                doneBtn.addEventListener("click", () => {
+                    currentSlide = 0;
+                    showSlide(currentSlide);
+                });
+            }
+
+            // Return button - go back one slide or redirect if on first slide
+            if (returnButton) {
+                returnButton.addEventListener("click", () => {
+                    if (currentSlide === 0) {
+                        // If on first slide, redirect to home/previous page
+                        window.location.href = homeURL;
+                    } else {
+                        // Otherwise, go back one slide
+                        currentSlide--;
+                        showSlide(currentSlide);
+                    }
+                });
+            }
+
+            // Home button - always redirect to home
+            if (homeButton) {
+                homeButton.addEventListener("click", () => {
                     window.location.href = homeURL;
-                } else {
-                    // Otherwise, go back one slide
-                    currentSlide--;
-                    showSlide(currentSlide);
-                }
-            });
-        }
+                });
+            }
 
-        // Home button - always redirect to home
-        if (homeButton) {
-            homeButton.addEventListener("click", () => {
-                window.location.href = homeURL;
-            });
-        }
+            // Close button - redirect or close
+            if (closeButton) {
+                closeButton.addEventListener("click", () => {
+                    window.location.href = homeURL;
+                    // Or use: window.close(); if you want to close the window
+                });
+            }
 
-        // Close button - redirect or close
-        if (closeButton) {
-            closeButton.addEventListener("click", () => {
-                window.location.href = homeURL;
-                // Or use: window.close(); if you want to close the window
-            });
-        }
-
-        // Initialize - show first slide
-        showSlide(0);
-    });
-</script>
+            // Initialize - show first slide
+            showSlide(0);
+        });
+    </script>
 @endpush
