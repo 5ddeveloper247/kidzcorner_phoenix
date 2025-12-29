@@ -622,7 +622,7 @@
                 // Stop the sound if still playing
                 wellDoneSound.pause();
                 wellDoneSound.currentTime = 0;
-               window.location.href = '{{ url('/phonics/letter_e'}}?view=phonics';
+               window.location.href = '{{ url('/phonics/letter_e') }}';
             });
 
             // Optional: Sound button functionality

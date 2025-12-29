@@ -604,7 +604,7 @@
                 // Stop the sound if still playing
                 wellDoneSound.pause();
                 wellDoneSound.currentTime = 0;
-               window.location.href = '{{ url('/phonics/letter_j'}}?view=phonics';
+               window.location.href = '{{ url('/phonics/letter_j') }}';
             });
 
             // Optional: Sound button functionality
