@@ -45,8 +45,12 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel no-bg mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio/writing.mp3') }}">
-        <div class="relative w-fit h-fit">
-            <img src="{{ asset('assets/images/phonicsl1/letter_a/an-board.png') }}" class="w-[60vw]" />
+         <div class="relative w-fit h-fit">
+                <img src="{{ asset('assets/images/phonicsl1/letter_a/an-board.png') }}" class="w-[60vw]" />
+                <img src="{{ asset('assets/images/phonicsl1/letter_a/capital.png') }}" id="cap-img"
+                    class="absolute left-[15%] bottom-[7%] w-[9vw] hover:brightness-125 cursor-pointer" />
+                <img src="{{ asset('assets/images/phonicsl1/letter_a/small.png') }}" id="sam-img"
+                    class="absolute right-[20%] bottom-[8%] w-[6vw] hover:brightness-125 cursor-pointer" />
             {{-- gifs --}}
             <img src="{{ asset('assets/images/phonicsl1/global/gifs/lili.gif') }}"
                 class="h-[20vw] bottom-[2vw] right-[18vw] absolute" />

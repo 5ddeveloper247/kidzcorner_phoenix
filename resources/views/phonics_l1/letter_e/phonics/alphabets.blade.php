@@ -598,7 +598,7 @@
                 // Stop the sound if still playing
                 wellDoneSound.pause();
                 wellDoneSound.currentTime = 0;
-               window.location.href = '{{ url('/phonics/letter_c') }}';
+               window.location.href = '{{ url('/phonics/letter_c') }}?view=phonics';
             });
 
             // Optional: Sound button functionality

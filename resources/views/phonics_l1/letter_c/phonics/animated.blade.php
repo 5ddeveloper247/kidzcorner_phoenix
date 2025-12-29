@@ -47,6 +47,10 @@
     <div class="phonics-panel no-bg mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio/writing.mp3') }}">
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonicsl1/letter_a/an-board.png') }}" class="w-[60vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_a/capital.png') }}" id="cap-img"
+                class="absolute left-[15%] bottom-[7%] w-[9vw] hover:brightness-125 cursor-pointer" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_a/small.png') }}" id="sam-img"
+                class="absolute right-[20%] bottom-[8%] w-[6vw] hover:brightness-125 cursor-pointer" />
             {{-- gifs --}}
             <img src="{{ asset('assets/images/phonicsl1/global/gifs/lili.gif') }}"
                 class="h-[20vw] bottom-[2vw] right-[18vw] absolute" />
@@ -149,7 +153,6 @@
 
 @push('script')
     <script>
-        // SLIDE NAVIGATION SYSTEM
         document.addEventListener("DOMContentLoaded", function() {
 
             // Get all elements
@@ -161,8 +164,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_c') }}";
-            const doneURL = "{{ url('/phonics/letter_c') }}";
+            const returnURL = "{{ url('/phonics/letter_c') }}?view=phonics";
+            const doneURL = "{{ url('/phonics/letter_c') }}?view=phonics";
 
             // Track current position
             let currentSlide = 0;
@@ -170,7 +173,7 @@
             let returnToSlide = null;
             let specialSlideClass = null;
 
-            //  Global audio tracking
+            // 🔊 Global audio tracking
             let currentAudio = null;
 
             // 🛑 Function to stop all audio/speech
@@ -225,6 +228,26 @@
                 return false;
             }
 
+            function speakLetter(letter) {
+                window.speechSynthesis.cancel();
+                const utterance = new SpeechSynthesisUtterance(letter);
+                utterance.rate = 0.8;
+                utterance.pitch = 1.2;
+                utterance.volume = 1;
+                const voices = window.speechSynthesis.getVoices();
+                const femaleVoice = voices.find(voice =>
+                    voice.name.includes('Female') ||
+                    voice.name.includes('female') ||
+                    voice.name.includes('Woman') ||
+                    voice.name.includes('Google US English') ||
+                    voice.name.includes('Microsoft Zira')
+                );
+                if (femaleVoice) {
+                    utterance.voice = femaleVoice;
+                }
+                window.speechSynthesis.speak(utterance);
+            }
+
             // DISPLAY FUNCTIONS
             function showSlide(slideIndex) {
                 const ajaxSection = document.getElementById('ajax-section');
@@ -273,7 +296,7 @@
                     }
                 }
 
-                //  Auto-play audio if slide has data-slide-audio attribute
+                // 🔊 Auto-play audio if slide has data-slide-audio attribute
                 const slideAudioSrc = currentSlideElement.getAttribute('data-slide-audio');
                 if (slideAudioSrc) {
                     // Small delay to ensure slide is visible before playing
