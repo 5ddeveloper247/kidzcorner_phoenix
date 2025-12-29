@@ -43,7 +43,7 @@
     <h2 class="top-title stroke">Magic Letters</h2>
 
     {{-- panel 1 --}}
-    <div class="phonics-panel">
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio/magicletters.mp3') }}">
         <div class="flex">
             <img src="{{ asset('assets/images/phonicsl1/global/click4.png') }}" class="w-[30vw] h-[20vw]" />
             <img src="{{ asset('assets/images/phonicsl1/global/bear.png') }}" class="h-[25vw]" />

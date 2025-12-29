@@ -371,17 +371,40 @@
                     }
                 }
 
-                // 🔊 Auto-play audio if slide has data-slide-audio attribute
+                // 🔊 AUTO-PLAY LOGIC (Priority order):
+                // 1. Check for data-slide-audio attribute on the slide itself
                 const slideAudioSrc = currentSlideElement.getAttribute('data-slide-audio');
                 if (slideAudioSrc) {
-                    // Small delay to ensure slide is visible before playing
                     setTimeout(() => {
                         currentAudio = new Audio(slideAudioSrc);
                         currentAudio.play().catch(err => console.log('Auto-play failed:', err));
                     }, 300);
+                    return; // Exit early, don't check for sound button
+                }
+
+                // 2. Check for sound button with data-audio attribute
+                const soundButton = currentSlideElement.querySelector('#soundButton[data-audio]');
+                if (soundButton) {
+                    const audioSrc = soundButton.getAttribute('data-audio');
+                    if (audioSrc) {
+                        setTimeout(() => {
+                            currentAudio = new Audio(audioSrc);
+
+                            // Play twice as mentioned in tips
+                            let playCount = 0;
+                            currentAudio.play().catch(err => console.log('Auto-play failed:', err));
+
+                            currentAudio.onended = function() {
+                                playCount++;
+                                if (playCount < 2) {
+                                    currentAudio.currentTime = 0;
+                                    currentAudio.play();
+                                }
+                            };
+                        }, 300);
+                    }
                 }
             }
-
             // NAVIGATION FUNCTIONS
             function goNext() {
                 if (currentSlide >= slides.length - 1) return;
@@ -540,7 +563,6 @@
             showSlide(currentSlide);
         });
 
-
         // panel
         document.addEventListener('DOMContentLoaded', function() {
             // Get elements
@@ -596,7 +618,7 @@
                 // Stop the sound if still playing
                 wellDoneSound.pause();
                 wellDoneSound.currentTime = 0;
-                window.location.href = '{{ url('/phonics/letter_d') }}';
+               window.location.href = '{{ url('/phonics/letter_d'}}?view=phonics';
             });
 
             // Optional: Sound button functionality

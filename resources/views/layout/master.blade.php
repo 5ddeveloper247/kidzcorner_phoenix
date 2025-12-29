@@ -193,11 +193,13 @@
                 });
             }
 
-            // Also show popup for home button (optional - remove if not needed)
+            // Redirect to custom home route when home button is clicked
             if (homeButton) {
                 homeButton.addEventListener("click", (e) => {
                     e.preventDefault();
-                    window.location.href = "{{ route('isteam') }}";
+                    // Get the custom home route from data attribute or use default
+                    const homeRoute = document.body.dataset.homeRoute || "{{ route('isteam') }}";
+                    window.location.href = homeRoute;
                 });
             }
 
@@ -210,11 +212,10 @@
                 });
             }
 
-            // Redirect to home when "Yes" is clicked
+            // Redirect to default route when "Yes" is clicked
             if (exitYes) {
                 exitYes.addEventListener("click", (e) => {
                     e.preventDefault();
-                    // Change 'home' to your actual home route name
                     window.location.href = "{{ route('admin.dashboard') }}";
                 });
             }

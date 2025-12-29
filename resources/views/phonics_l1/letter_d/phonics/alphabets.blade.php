@@ -45,7 +45,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel">
-        <div class="flex relative w-fit h-fit">
+        <div class="flex relative w-fit h-fit" data-slide-audio="{{ asset('assets/audio/phonics_audio/alphahouse.m4a') }}">
             <h1
                 class="text-[#f7b94a] text-[8vw] bottom-[10%] left-[24%] stroke leading-none absolute hover:text-[#757571]">
                 d</h1>
@@ -598,7 +598,7 @@
                 // Stop the sound if still playing
                 wellDoneSound.pause();
                 wellDoneSound.currentTime = 0;
-                window.location.href = '{{ url('/phonics/letter_d') }}';
+               window.location.href = '{{ url('/phonics/letter_d'}}?view=phonics';
             });
 
             // Optional: Sound button functionality

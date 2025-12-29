@@ -599,7 +599,7 @@
                 // Stop the sound if still playing
                 wellDoneSound.pause();
                 wellDoneSound.currentTime = 0;
-                window.location.href = '{{ url('/phonics/letter_g') }}';
+               window.location.href = '{{ url('/phonics/letter_g'}}?view=phonics';
             });
 
             // Optional: Sound button functionality

@@ -21,42 +21,42 @@
     {{-- Phonics --}}
     <div id="phonics-slide" class="flex flex-col hidden">
         <h2 class="text-[3vw] stroke text-[#F7B94A]">Phonics</h2>
-            <div class="box-grid grid grid-cols-4 gap-[2vw]">
-                <a href="{{ url('/phonics/letter_a/phonics/magicletters') }}">
-                    <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn8.png') }}" />
-                </a>
+        <div class="box-grid grid grid-cols-4 gap-[2vw]">
+            <a href="{{ url('/phonics/letter_a/phonics/magicletters') }}">
+                <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn8.png') }}" />
+            </a>
 
-                <a href="{{ url('/phonics/letter_a/phonics/alphabets') }}">
-                    <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn1.png') }}" />
-                </a>
+            <a href="{{ url('/phonics/letter_a/phonics/alphabets') }}">
+                <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn1.png') }}" />
+            </a>
 
-                <a href="{{ url('/phonics/letter_a/phonics/songalong') }}">
-                    <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn2.png') }}" />
-                </a>
+            <a href="{{ url('/phonics/letter_a/phonics/songalong') }}">
+                <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn2.png') }}" />
+            </a>
 
-                <a href="{{ url('/phonics/letter_a/phonics/readalong') }}">
-                    <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn3.png') }}" />
-                </a>
+            <a href="{{ url('/phonics/letter_a/phonics/readalong') }}">
+                <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn3.png') }}" />
+            </a>
 
-                <a href="{{ url('/phonics/letter_a/phonics/storytime') }}">
-                    <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn4.png') }}" />
-                </a>
+            <a href="{{ url('/phonics/letter_a/phonics/storytime') }}">
+                <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn4.png') }}" />
+            </a>
 
-                <a href="{{ url('/phonics/letter_a/phonics/animated') }}">
-                    <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn5.png') }}" />
-                </a>
+            <a href="{{ url('/phonics/letter_a/phonics/animated') }}">
+                <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn5.png') }}" />
+            </a>
 
-                <a href="{{ url('/phonics/letter_a/phonics/teaching') }}">
-                    <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn6.png') }}" />
-                </a>
+            <a href="{{ url('/phonics/letter_a/phonics/teaching') }}">
+                <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn6.png') }}" />
+            </a>
 
-                <a href="{{ url('/phonics/letter_a/phonics/about') }}">
-                    <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn7.png') }}" />
-                </a>
+            <a href="{{ url('/phonics/letter_a/phonics/about') }}">
+                <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn7.png') }}" />
+            </a>
 
 
 
-            </div>
+        </div>
     </div>
 
     {{-- High Frequency Words --}}
@@ -116,6 +116,7 @@
 
 @push('script')
     <script>
+        document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
         document.addEventListener("DOMContentLoaded", () => {
             // Get all elements
             const startSlide = document.querySelector('.flex.w-full.justify-around');
@@ -124,9 +125,9 @@
             const phonicsSlide = document.getElementById('phonics-slide');
             const wordsSlide = document.getElementById('words-slide');
             const returnButton = document.getElementById('returnButton');
-            let currentView = 'start'; // Track current view: 'start', 'phonics', 'words'
+            let currentView = 'start';
 
-            // Function to show specific slide
+
             function showSlide(slideName) {
                 // Hide all slides first
                 startSlide?.classList.add('hidden');
@@ -146,6 +147,20 @@
                 }
             }
 
+            // NEW: Check URL parameters on page load
+            function checkURLParameter() {
+                const urlParams = new URLSearchParams(window.location.search);
+                const view = urlParams.get('view');
+
+                if (view === 'phonics') {
+                    showSlide('phonics');
+                } else if (view === 'words') {
+                    showSlide('words');
+                } else {
+                    showSlide('start');
+                }
+            }
+
             // Phonics button click - show phonics slide
             if (phonicsBtn) {
                 phonicsBtn.addEventListener('click', () => {
@@ -160,7 +175,6 @@
                 });
             }
 
-            // Return button - goes back to parent slide
             if (returnButton) {
                 returnButton.addEventListener('click', (e) => {
                     e.preventDefault();
@@ -168,13 +182,17 @@
                     // If on phonics or words slide, return to start slide
                     if (currentView === 'phonics' || currentView === 'words') {
                         showSlide('start');
+                    } else if (currentView === 'start') {
+                        // If on start slide, go back to previous page
+                        window.location.href = "{{ url('/phonics/l1') }}";
                     }
                 });
             }
 
 
-            // Initialize - show start slide
-            showSlide('start');
+
+            // Initialize - check URL parameters first, then show appropriate slide
+            checkURLParameter();
         });
     </script>
 @endpush

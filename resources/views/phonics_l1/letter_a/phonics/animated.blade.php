@@ -45,8 +45,12 @@
 
         {{-- panel 1 --}}
         <div class="phonics-panel no-bg mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio/writing.mp3') }}">
-            <div class="relative">
-                <img src="{{ asset('assets/images/phonicsl1/letter_a/an-board.png') }}" />
+            <div class="relative w-fit h-fit">
+                <img src="{{ asset('assets/images/phonicsl1/letter_a/an-board.png') }}" class="w-[60vw]" />
+                <img src="{{ asset('assets/images/phonicsl1/letter_a/capital.png') }}" id="cap-img"
+                    class="absolute left-[15%] bottom-[7%] w-[9vw] hover:brightness-125 cursor-pointer" />
+                <img src="{{ asset('assets/images/phonicsl1/letter_a/small.png') }}" id="sam-img"
+                    class="absolute right-[20%] bottom-[8%] w-[6vw] hover:brightness-125 cursor-pointer" />
                 {{-- gifs --}}
                 <img src="{{ asset('assets/images/phonicsl1/global/gifs/lili.gif') }}"
                     class="h-[20vw] bottom-[2vw] right-[18vw] absolute" />
@@ -54,7 +58,8 @@
 
                 <p class="p-note absolute bottom-[0vw] left-[10%]">Tip: Click on the appropriate rock to see the stroke for
                     an uppercase or lowercase letter. <br>
-                    <a href="" class="c-btn info-btn1">Click here</a> to find out why writing is important in a phonics
+                    <a href="" class="c-btn info-btn1">Click here</a> to find out why writing is important in a
+                    phonics
                     programme.
                 </p>
             </div>
@@ -82,9 +87,9 @@
 
 
         {{-- Panel 2 --}}
-        <div class="phonics-panel flex flex-col items-center gap-y-[1vw]">
+        <div class="phonics-panel flex flex-col items-center gap-y-[1vw]" id="capital">
             <a class="info-btn2">
-                <img src="{{ asset('assets/images/phonicsl1/letter_a/aa1.png') }}" class="h-[25vw]" /></a>
+                <img src="{{ asset('assets/images/phonicsl1/letter_a/aa1.png') }}" class="h-[20vw]" /></a>
             <p class="p-note">Tip: Click on the letter to see a demonstration of the stroke. Follow up <br>
                 with the Writing Activity Sheet in the Pupil's Activity Book.</p>
         </div>
@@ -98,7 +103,7 @@
 
 
         {{-- Panel 4 --}}
-        <div class="phonics-panel flex flex-col items-center gap-y-[1vw]">
+        <div class="phonics-panel flex flex-col items-center gap-y-[1vw]" id="small">
             <a class="info-btn3">
                 <img src="{{ asset('assets/images/phonicsl1/letter_a/aa2.png') }}" /></a>
             <p class="p-note">Tip: Click on the letter to see a demonstration of the stroke. Follow up <br>
@@ -161,8 +166,8 @@
                 const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
                 // URLs for navigation
-                const returnURL = "{{ url('/phonics/letter_a') }}";
-                const doneURL = "{{ url('/phonics/letter_a') }}";
+                const returnURL = "{{ url('/phonics/letter_a') }}?view=phonics-slide";
+                const doneURL = "{{ url('/phonics/letter_a') }}?view=phonics";
 
                 // Track current position
                 let currentSlide = 0;

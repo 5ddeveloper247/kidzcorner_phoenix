@@ -44,7 +44,8 @@
     <h2 class="top-title stroke"> Read Along</h2>
 
     {{-- panel 1 --}}
-    <div class="phonics-panel no-bg mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-b/read-along.mp3') }}">
+    <div class="phonics-panel no-bg mb-[2vw]"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-b/read-along.mp3') }}">
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" class="w-[60vw]" />
             {{-- gifs --}}
@@ -52,7 +53,8 @@
             <img src="{{ asset('assets/images/phonicsl1/global/gifs/lili.gif') }}"
                 class="h-[20vw] bottom-0 right-0 absolute" />
 
-                        <h1 class="text-white text-[4vw] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"> Read along <br> with us!</h1>
+            <h1 class="text-white text-[4vw] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"> Read along <br>
+                with us!</h1>
 
 
             <p class="p-note absolute bottom-[1vw] left-[22%]">Tip: <a class="c-btn info-btn1">Click here</a> to find out
@@ -374,17 +376,40 @@
                     }
                 }
 
-                // 🔊 Auto-play audio if slide has data-slide-audio attribute
+                // 🔊 AUTO-PLAY LOGIC (Priority order):
+                // 1. Check for data-slide-audio attribute on the slide itself
                 const slideAudioSrc = currentSlideElement.getAttribute('data-slide-audio');
                 if (slideAudioSrc) {
-                    // Small delay to ensure slide is visible before playing
                     setTimeout(() => {
                         currentAudio = new Audio(slideAudioSrc);
                         currentAudio.play().catch(err => console.log('Auto-play failed:', err));
                     }, 300);
+                    return; // Exit early, don't check for sound button
+                }
+
+                // 2. Check for sound button with data-audio attribute
+                const soundButton = currentSlideElement.querySelector('#soundButton[data-audio]');
+                if (soundButton) {
+                    const audioSrc = soundButton.getAttribute('data-audio');
+                    if (audioSrc) {
+                        setTimeout(() => {
+                            currentAudio = new Audio(audioSrc);
+
+                            // Play twice as mentioned in tips
+                            let playCount = 0;
+                            currentAudio.play().catch(err => console.log('Auto-play failed:', err));
+
+                            currentAudio.onended = function() {
+                                playCount++;
+                                if (playCount < 2) {
+                                    currentAudio.currentTime = 0;
+                                    currentAudio.play();
+                                }
+                            };
+                        }, 300);
+                    }
                 }
             }
-
             // NAVIGATION FUNCTIONS
             function goNext() {
                 if (currentSlide >= slides.length - 1) return;
@@ -599,7 +624,7 @@
                 // Stop the sound if still playing
                 wellDoneSound.pause();
                 wellDoneSound.currentTime = 0;
-                window.location.href = '{{ url('/phonics/letter_b') }}';
+               window.location.href = '{{ url('/phonics/letter_b') }}?view=phonics';
             });
 
             // Optional: Sound button functionality
