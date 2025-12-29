@@ -47,7 +47,7 @@
     <div class="phonics-panel">
         <div class="flex relative w-fit h-fit" data-slide-audio="{{ asset('assets/audio/phonics_audio/alphahouse.m4a') }}">
             <h1
-                class="text-[#f7b94a] text-[8vw] bottom-[10%] left-[24%] stroke leading-none absolute hover:text-[#757571]">
+                class="text-[#f7b94a] text-[6vw] bottom-[12%] left-[24%] stroke leading-none absolute hover:text-[#757571]">
                 b</h1>
             <img src="{{ asset('assets/images/phonicsl1/letter_a/alpha-house.png') }}" class="w-[47vw]" />
         </div>
