@@ -191,7 +191,7 @@
         <div class="flex flex-col items-center relative">
             <h4 class="text-white text-[1vw]">(Tune: Ten Little Indian Boys)</h4>
             <img src="{{ asset('assets/images/phonicsl1/letter_m/monkeys.png') }}"
-                class="h-[20vw] absolute top-1/2 right-[-55%]  -translate-x-1/2" />
+                class="h-[10vw]" />
         </div>
         <div class="text-center text-white text-[2.5vw]">
             <h3>One little, two little, three little monkeys.</h3>
@@ -291,7 +291,8 @@
 @push('script')
     <script>
         // SLIDE NAVIGATION SYSTEM
-        document.addEventListener("DOMContentLoaded", function() {
+          document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
+document.addEventListener("DOMContentLoaded", function() {
 
             // Get all elements
             const slides = document.querySelectorAll(".phonics-panel");
@@ -302,8 +303,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_m') }}";
-            const doneURL = "{{ url('/phonics/letter_m') }}";
+            const returnURL = "{{ url('/phonics/letter_m') }}?view=phonics";
+            const doneURL = "{{ url('/phonics/letter_m') }}?view=phonics";
 
             // Track current position
             let currentSlide = 0;

@@ -78,15 +78,20 @@
                     Children recognize words automatically by using spelling patterns.</li>
             </ul>
 
-            <img src="{{ asset('assets/images/phonicsl1/global/learning.png') }}" class="h-[20vw]" />
+                 <img src="{{ asset('assets/images/phonicsl1/global/learning.png') }}" class="h-[20vw]" />
+        </div>
+        <div class="down-btn-container">
+            <button class="doneButton hidden">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/done.png') }}" />
+            </button>
         </div>
     </div>
 
 
     {{-- Panel 2 --}}
-    <div class="phonics-panel flex flex-col justify-between h-full self-end">
+    <div class="phonics-panel flex flex-col justify-between h-[80%] self-end">
         <div class="flex flex-col items-center justify-center gap-[2vw]">
-            <img src="{{ asset('assets/images/phonicsl1/letter_m/m-man.png') }}" class="w-[20vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_m/m-man.png') }}" class="w-[25vw]" />
             <h1 class="text-[2vw] text-[#f7b94a]">The man makes marmalade.</h1>
         </div>
         <p class="p-note">Tip: Music will be automatically played twice. Click on the sound icon to repeat music.</p>
@@ -230,7 +235,8 @@
 @push('script')
     <script>
         // SLIDE NAVIGATION SYSTEM
-        document.addEventListener("DOMContentLoaded", function() {
+          document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
+document.addEventListener("DOMContentLoaded", function() {
 
             // Get all elements
             const slides = document.querySelectorAll(".phonics-panel");
@@ -241,8 +247,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_m') }}";
-            const doneURL = "{{ url('/phonics/letter_m') }}";
+            const returnURL = "{{ url('/phonics/letter_m') }}?view=phonics";
+            const doneURL = "{{ url('/phonics/letter_m') }}?view=phonics";
 
             // Track current position
             let currentSlide = 0;
@@ -621,7 +627,7 @@
                 // Stop the sound if still playing
                 wellDoneSound.pause();
                 wellDoneSound.currentTime = 0;
-                window.location.href = '{{ url('/phonics/letter_m') }}';
+                window.location.href = '{{ url('/phonics/letter_m') }}?view=phonics';
             });
 
             // Optional: Sound button functionality

@@ -68,6 +68,11 @@
 
             <img src="{{ asset('assets/images/phonicsl1/global/learning.png') }}" class="w-[10vw]" />
         </div>
+        <div class="down-btn-container">
+            <button class="doneButton hidden">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/done.png') }}" />
+            </button>
+        </div>
     </div>
 
     {{-- Panel 2 --}}
@@ -87,10 +92,6 @@
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
-
-
-    {{-- == 1 --}}
-
 
     {{-- ==== 2 --}}
     <div class="phonics-panel info-panel-2">
@@ -272,7 +273,8 @@
 @push('script')
     <script>
         // SLIDE NAVIGATION SYSTEM
-        document.addEventListener("DOMContentLoaded", function() {
+          document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
+document.addEventListener("DOMContentLoaded", function() {
 
             // Get all elements
             const slides = document.querySelectorAll(".phonics-panel");
@@ -283,8 +285,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_n') }}";
-            const doneURL = "{{ url('/phonics/letter_n') }}";
+            const returnURL = "{{ url('/phonics/letter_n') }}?view=phonics";
+            const doneURL = "{{ url('/phonics/letter_n') }}?view=phonics";
 
             // Track current position
             let currentSlide = 0; // Which slide we're on now
@@ -611,7 +613,7 @@
                 // Stop the sound if still playing
                 wellDoneSound.pause();
                 wellDoneSound.currentTime = 0;
-                window.location.href = '{{ url('/phonics/letter_n') }}';
+                window.location.href = '{{ url('/phonics/letter_n') }}?view=phonics';
             });
 
             // Optional: Sound button functionality

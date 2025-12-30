@@ -192,7 +192,7 @@
 
         <!-- ITEM 1 -->
         <div class="flex flex-col items-center text-center w-fit">
-            <div class="item1 w-fit h-fit relative">
+            <div class="item-1 w-fit h-fit relative">
                 <img src="{{ asset('assets/images/phonicsl1/letter_j/hill.png') }}" class="w-[25vw]" />
                 <img src="{{ asset('assets/images/phonicsl1/letter_j/run1.gif') }}"
                     class="h-[10vw] absolute bottom-[18%] rotate-[-23deg] left-[40%]" />
@@ -205,7 +205,7 @@
 
         <!-- ITEM 2 -->
         <div class="flex flex-col items-center text-center w-fit">
-            <div class="w-fit ietm-2">
+            <div class="w-fit item-2">
                 <img src="{{ asset('assets/images/phonicsl1/letter_j/reaching.gif') }}" class="h-[13vw]" />
             </div>
             <h1 class="text-white text-[1.4vw]"><span class="text-[#f7b94a]">Just</span> to <span
@@ -214,7 +214,7 @@
 
         <!-- ITEM 3 -->
         <div class="flex flex-col items-center text-center w-fit mt-[1vw]">
-            <div class="w-fit ietm-3">
+            <div class="w-fit item-3">
                 <img src="{{ asset('assets/images/phonicsl1/letter_j/falling.gif') }}" class="h-[12vw]" />
             </div>
             <h1 class="text-white text-[1.4vw]">Jim jumps and giggles <span class="text-[#f7b94a]">about</span></h1>
@@ -222,7 +222,7 @@
 
         <!-- ITEM 4 -->
         <div class="flex flex-col items-center text-center w-fit">
-            <div class="w-fit ietm-4">
+            <div class="w-fit item-4">
                 <img src="{{ asset('assets/images/phonicsl1/letter_j/sad.gif') }}" class="h-[12vw]" />
             </div>
             <h1 class="text-white text-[1.4vw]"><span class="text-[#f7b94a]">And</span> breaks the jar <span
@@ -272,7 +272,9 @@
 @push('script')
     <script>
         // SLIDE NAVIGATION SYSTEM
-        document.addEventListener("DOMContentLoaded", function() {
+        // SLIDE NAVIGATION SYSTEM
+          document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
+document.addEventListener("DOMContentLoaded", function() {
 
             // Get all elements
             const slides = document.querySelectorAll(".phonics-panel");
@@ -282,14 +284,15 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_j') }}";
-            const doneURL = "{{ url('/phonics/letter_j') }}";
+            const returnURL = "{{ url('/phonics/letter_j') }}?view=words";
+            const doneURL = "{{ url('/phonics/letter_j') }}?view=words";
 
             // Track current position
             let currentSlide = 0;
 
             // 🔊 Global audio tracking
             let currentAudio = null;
+            let isPlayingSequence = false; // Track if sequential audio is playing
 
             // 🛑 Function to stop all audio/speech
             function stopAllAudio() {
@@ -301,8 +304,50 @@
                 }
                 // Stop text-to-speech
                 window.speechSynthesis.cancel();
+                isPlayingSequence = false;
             }
 
+            // 🔊 Function to play audio items sequentially
+            function playItemsSequentially() {
+                const itemAudioPaths = [
+                    "{{ asset('assets/audio/phonics_audio/letter-j/jst2.m4a') }}",
+                    "{{ asset('assets/audio/phonics_audio/letter-j/jst3.m4a') }}",
+                    "{{ asset('assets/audio/phonics_audio/letter-j/jst4.m4a') }}",
+                    "{{ asset('assets/audio/phonics_audio/letter-j/jst5.m4a') }}"
+                ];
+
+                let currentIndex = 0;
+                isPlayingSequence = true;
+
+                function playNext() {
+                    if (!isPlayingSequence || currentIndex >= itemAudioPaths.length) {
+                        isPlayingSequence = false;
+                        return;
+                    }
+
+                    currentAudio = new Audio(itemAudioPaths[currentIndex]);
+
+                    currentAudio.onended = function() {
+                        currentIndex++;
+                        // Small delay between audios for better listening experience
+                        setTimeout(playNext, 500);
+                    };
+
+                    currentAudio.onerror = function() {
+                        console.log('Audio failed to load, skipping...');
+                        currentIndex++;
+                        playNext();
+                    };
+
+                    currentAudio.play().catch(err => {
+                        console.log('Audio play failed:', err);
+                        currentIndex++;
+                        playNext();
+                    });
+                }
+
+                playNext();
+            }
 
             // HELPER FUNCTIONS
             function isSpecialSlide(slide) {
@@ -317,6 +362,12 @@
                     }
                 }
                 return true;
+            }
+
+            // Check if slide contains items 1-4
+            function hasItemsToPlay(slide) {
+                return slide.querySelector(
+                    '.item-1, .item-2, .item-3, .item-4, .item1, .item-2, .item-3, .item-4') !== null;
             }
 
             // DISPLAY FUNCTIONS
@@ -367,22 +418,30 @@
                     }
                 }
 
-                // 🔊 Auto-play audio if slide has data-slide-audio attribute
-                const slideAudioSrc = currentSlideElement.getAttribute('data-slide-audio');
-                if (slideAudioSrc) {
-                    // Small delay to ensure slide is visible before playing
+                // 🔊 Check if slide has items to play sequentially
+                if (hasItemsToPlay(currentSlideElement)) {
                     setTimeout(() => {
-                        currentAudio = new Audio(slideAudioSrc);
-                        currentAudio.play().catch(err => console.log('Auto-play failed:', err));
+                        playItemsSequentially();
                     }, 300);
                 }
-                // 🔊 Otherwise, speak the data-letter if present
+                // 🔊 Auto-play audio if slide has data-slide-audio attribute
                 else {
-                    const dataLetter = currentSlideElement.getAttribute('data-letter');
-                    if (dataLetter) {
+                    const slideAudioSrc = currentSlideElement.getAttribute('data-slide-audio');
+                    if (slideAudioSrc) {
+                        // Small delay to ensure slide is visible before playing
                         setTimeout(() => {
-                            speakLetter(dataLetter);
+                            currentAudio = new Audio(slideAudioSrc);
+                            currentAudio.play().catch(err => console.log('Auto-play failed:', err));
                         }, 300);
+                    }
+                    // 🔊 Otherwise, speak the data-letter if present
+                    else {
+                        const dataLetter = currentSlideElement.getAttribute('data-letter');
+                        if (dataLetter) {
+                            setTimeout(() => {
+                                speakLetter(dataLetter);
+                            }, 300);
+                        }
                     }
                 }
             }
@@ -471,15 +530,17 @@
                 window.speechSynthesis.getVoices();
             };
 
-            // 🔊 ITEM CLICK AUDIO LOGIC (Items 1-4)
-            const items = document.querySelectorAll('.ietm-1, .ietm-2, .ietm-3, .ietm-4');
+            // 🔊 ITEM CLICK AUDIO LOGIC (Items 1-4) - Individual playback on click
+            const items = document.querySelectorAll(
+                '.item-1, .item-2, .item-3, .item-4, .item1, .item-2, .item-3, .item-4');
 
             // Define audio paths for each item
             const itemAudioPaths = {
-                'ietm-1': "{{ asset('assets/audio/phonics_audio/letter-j/jst2.m4a') }}",
-                'ietm-2': "{{ asset('assets/audio/phonics_audio/letter-j/jst3.m4a') }}",
-                'ietm-3': "{{ asset('assets/audio/phonics_audio/letter-j/jst4.m4a') }}",
-                'ietm-4': "{{ asset('assets/audio/phonics_audio/letter-j/jst5.m4a') }}"
+                'item-1': "{{ asset('assets/audio/phonics_audio/letter-j/jst2.m4a') }}",
+                'item-2': "{{ asset('assets/audio/phonics_audio/letter-j/jst3.m4a') }}",
+                'item-3': "{{ asset('assets/audio/phonics_audio/letter-j/jst4.m4a') }}",
+                'item-4': "{{ asset('assets/audio/phonics_audio/letter-j/jst5.m4a') }}",
+                
             };
 
             items.forEach(item => {
@@ -490,8 +551,9 @@
                     stopAllAudio();
 
                     // Get the item class to determine which audio to play
-                    const itemClass = Array.from(item.classList).find(cls => cls.startsWith(
-                        'ietm-'));
+                    const itemClass = Array.from(item.classList).find(cls =>
+                        cls.startsWith('item-') || cls.startsWith('item')
+                    );
 
                     if (itemClass && itemAudioPaths[itemClass]) {
                         currentAudio = new Audio(itemAudioPaths[itemClass]);

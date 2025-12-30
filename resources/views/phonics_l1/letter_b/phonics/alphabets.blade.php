@@ -69,7 +69,12 @@
                     those words.</li>
             </ul>
 
-            <img src="{{ asset('assets/images/phonicsl1/global/learning.png') }}" class="w-[13vw]" />
+           <img src="{{ asset('assets/images/phonicsl1/global/learning.png') }}" class="w-[13vw]" />
+        </div>
+        <div class="down-btn-container">
+            <button class="doneButton hidden">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/done.png') }}" />
+            </button>
         </div>
     </div>
 

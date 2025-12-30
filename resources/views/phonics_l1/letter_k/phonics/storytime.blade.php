@@ -110,7 +110,7 @@
         data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-k/kst4.m4a') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_k/knocking.gif') }}" class="w-[30vw]" />
         <h1 class="text-white text-[2.5vw]"><span class="text-[#f7b94a]">k</span>im hears a <span
-                class="text-[#f7b94a]">k</span>nock.</h1>
+                class="text-[#f7b94a]">k</span>ick on the door.</h1>
     </div>
 
 
@@ -151,7 +151,7 @@
             <img src="{{ asset('assets/images/phonicsl1/global/gifs/lili.gif') }}"
                 class="h-[20vw] bottom-0 right-0 absolute" />
 
-            <h1 class="text-white text-[3vw] absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 text-center">How does Kim <br>
+            <h1 class="text-white text-[3vw] absolute top-[55%] -translate-y-1/2 left-1/2 -translate-x-1/2 text-center">How does Kim <br>
                 know that her <br>
                 kitten is lost?</h1>
 
@@ -225,8 +225,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_k') }}";
-            const doneURL = "{{ url('/phonics/letter_k') }}";
+            const returnURL = "{{ url('/phonics/letter_k') }}?view=phonics";
+            const doneURL = "{{ url('/phonics/letter_k') }}?view=phonics";
 
             // Track current position
             let currentSlide = 0;

@@ -79,7 +79,12 @@
                     Children recognize words automatically by using spelling patterns.</li>
             </ul>
 
-            <img src="{{ asset('assets/images/phonicsl1/global/learning.png') }}" class="h-[20vw]" />
+                 <img src="{{ asset('assets/images/phonicsl1/global/learning.png') }}" class="h-[20vw]" />
+        </div>
+        <div class="down-btn-container">
+            <button class="doneButton hidden">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/done.png') }}" />
+            </button>
         </div>
     </div>
 
@@ -233,7 +238,8 @@
 @push('script')
     <script>
         // SLIDE NAVIGATION SYSTEM
-        document.addEventListener("DOMContentLoaded", function() {
+          document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
+document.addEventListener("DOMContentLoaded", function() {
 
             // Get all elements
             const slides = document.querySelectorAll(".phonics-panel");

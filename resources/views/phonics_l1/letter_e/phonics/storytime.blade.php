@@ -92,7 +92,7 @@
         data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-e/est2.m4a') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_e/wake.gif') }}" class="w-[25vw]" />
         <h1 class="text-white text-[3vw]"><span class="text-[#f7b94a]">E</span>ddy <span class="text-[#f7b94a]">
-                e</span>lephant g<span class="text-[#f7b94a]"> e</span>ts out of bed.</h1>
+                e</span>lephant g<span class="text-[#f7b94a]">e</span>ts out of bed.</h1>
     </div>
 
 

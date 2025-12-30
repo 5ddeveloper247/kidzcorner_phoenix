@@ -216,7 +216,7 @@
         <div class="flex flex-col items-center gap-y-[2vw]">
             <h4 class="text-white text-[1vw]">(Tune: Bingo)</h4>
             <div>
-                <img src="{{ asset('assets/images/phonicsl1/letter_j/group1.png') }}" class="w-[45vw]" />
+                <img src="{{ asset('assets/images/phonicsl1/letter_j/group.png') }}" class="w-[45vw]" />
             </div>
         </div>
         <p class="p-note">Tip: Music will be automatically played twice. Click on the sound icon to repeat music.</p>
@@ -289,7 +289,8 @@
 @push('script')
     <script>
         // SLIDE NAVIGATION SYSTEM
-        document.addEventListener("DOMContentLoaded", function() {
+          document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
+document.addEventListener("DOMContentLoaded", function() {
 
             // Get all elements
             const slides = document.querySelectorAll(".phonics-panel");
@@ -300,8 +301,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_j') }}";
-            const doneURL = "{{ url('/phonics/letter_j') }}";
+            const returnURL = "{{ url('/phonics/letter_j') }}?view=phonics";
+            const doneURL = "{{ url('/phonics/letter_j') }}?view=phonics";
 
             // Track current position
             let currentSlide = 0;

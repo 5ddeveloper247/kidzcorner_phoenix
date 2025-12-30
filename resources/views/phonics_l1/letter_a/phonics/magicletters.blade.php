@@ -68,6 +68,11 @@
 
             <img src="{{ asset('assets/images/phonicsl1/global/learning.png') }}" class="w-[10vw]" />
         </div>
+        <div class="down-btn-container">
+            <button class="doneButton hidden">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/done.png') }}" />
+            </button>
+        </div>
     </div>
 
     {{-- Panel 2 --}}
@@ -199,7 +204,8 @@
 
 
     {{-- Try Again --}}
-    <div id="tryAgain" class="fixed inset-0 z-[1000] hidden  items-center justify-center bg-[#0000002e]  backdrop-blur-sm">
+    <div id="tryAgain"
+        class="fixed inset-0 z-[1000] hidden  items-center justify-center bg-[#0000002e]  backdrop-blur-sm">
         <div class="w-[60vw] relative h-[40vw] bg-contain bg-no-repeat bg-center flex flex-col justify-center items-center rounded-lg "
             style="background-image: url('{{ asset('assets/images/K2/exit.png') }}');">
             <p class="text-[3vw] !text-[#F8473A] stroke font-bold">Try Again?</p>
@@ -267,6 +273,8 @@
 @push('script')
     <script>
         // SLIDE NAVIGATION SYSTEM
+        document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
+        
         document.addEventListener("DOMContentLoaded", function() {
 
             // Get all elements

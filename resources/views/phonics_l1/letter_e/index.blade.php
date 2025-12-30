@@ -7,7 +7,7 @@
 
 @section('content')
 
-    <div class="flex w-full justify-around hidden">
+    <div id="top-panel" class="flex w-full justify-around hidden">
         <button id="phonics-btn">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/phonic-btn.png') }}" class="w-[15vw] h-[25vw]">
         </button>

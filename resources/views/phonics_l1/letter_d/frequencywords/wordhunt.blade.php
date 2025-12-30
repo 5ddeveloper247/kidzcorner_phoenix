@@ -60,9 +60,9 @@
 
     {{-- Panel 2 --}}
     <div class="phonics-panel flex flex-col justify-between items-center h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-c/flashcard/listen-to-words.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-d/wordhunt.m4a') }}">
         <h2 class="text-white text-[2.2vw] text-center">Listen to these words:</h2>
-        <img src="{{ asset('assets/images/phonicsl1/letter_d/hunt1.png') }}" class="w-[33vw]" />
+        <img src="{{ asset('assets/images/phonicsl1/letter_d/hunt1.png') }}" class="w-[40vw]" />
         <p class="p-note">Tip: Ask children to refer to the Word Hunt Activity Sheet in the Pupil’s Activity Book.</p>
     </div>
 
@@ -134,7 +134,7 @@
 
     {{-- Panel 7 --}}
     <div class="phonics-panel flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-c/buddy-chasing.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-d/buddy-chasing.m4a') }}">
         <h2 class="text-white text-[1.6vw] text-center">How many of these words can you find <br>
             in the story? Circle them.</h2>
         <img src="{{ asset('assets/images/phonicsl1/letter_d/stack2.png') }}" class="w-full" />
@@ -152,7 +152,7 @@
 
     {{-- Panel 8 --}}
     <div class="phonics-panel flex flex-col items-center justify-between h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-c/buddy-chasing.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-d/buddy-chasing.m4a') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_d/stack2.png') }}" class="w-full" />
         <div class="relative h-fit w-fit">
             <img src="{{ asset('assets/images/phonicsl1/letter_d/bg.jpg') }}" class="w-[18vw] rounded-[1vw]" />
@@ -167,7 +167,7 @@
 
     {{-- Panel 9 --}}
     <div class="phonics-panel flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-c/late-dinner.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-d/late-dinner.m4a') }}">
         <h2 class="text-white text-[1.6vw] text-center">How many of these words can you find <br>
             in the story? Circle them.</h2>
         <img src="{{ asset('assets/images/phonicsl1/letter_d/stack2.png') }}" class="w-full" />
@@ -182,7 +182,7 @@
 
     {{-- Panel 10 --}}
     <div class="phonics-panel flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-c/late-dinner.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-d/late-dinner.m4a') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_d/stack3.png') }}" class="w-full" />
         <div>
             <img src="{{ asset('assets/images/phonicsl1/letter_d/table.png') }}" class="h-[14vw]" />
@@ -204,7 +204,7 @@
 
         <!-- ITEM 1 -->
         <div class="relative flex flex-col items-center text-center w-fit">
-            <div class="relative w-fit ietm-1">
+            <div class="relative w-fit item-1">
 
                 <img src="{{ asset('assets/images/phonicsl1/letter_d/dark.gif') }}" class="w-[18vw]" />
             </div>
@@ -214,7 +214,7 @@
 
         <!-- ITEM 2 -->
         <div class="relative flex flex-col items-center text-center w-fit">
-            <div class="relative w-fit ietm-2">
+            <div class="relative w-fit item-2">
                 <img src="{{ asset('assets/images/phonicsl1/letter_d/bg.jpg') }}" class="w-[18vw] rounded-[1vw]" />
                 <img src="{{ asset('assets/images/phonicsl1/letter_d/dog.gif') }}"
                     class="w-[10vw] absolute bottom-0 left-0" />
@@ -229,7 +229,7 @@
 
         <!-- ITEM 3 -->
         <div class="relative flex flex-col items-center text-center w-fit mt-[1vw]">
-            <div class="relative w-fit ietm-3">
+            <div class="relative w-fit item-3">
                 <img src="{{ asset('assets/images/phonicsl1/letter_d/bg.jpg') }}" class="w-[18vw] rounded-[1vw]" />
                 <img src="{{ asset('assets/images/phonicsl1/letter_d/b-run.gif') }}"
                     class="h-[10vw] absolute bottom-0 left-0" />
@@ -243,7 +243,7 @@
 
         <!-- ITEM 4 -->
         <div class="relative flex flex-col items-center text-center w-fit">
-            <div class="w-fit ietm-4">
+            <div class="w-fit item-4">
                 <img src="{{ asset('assets/images/phonicsl1/letter_d/table.png') }}" class="h-[14vw]" />
             </div>
             <h1 class="text-white text-[1.2.2vw]"><span class="text-[#f7b94a]">Now</span> Buddy <span
@@ -259,138 +259,196 @@
 
 
 
-        {{-- All Buttons --}}
-        <div id="buttons" class="absolute flex flex-row gap-6 z-90">
+    {{-- All Buttons --}}
+    <div id="buttons" class="absolute flex flex-row gap-6 z-90">
 
-            <!-- Home Button -->
-            <button id="returnButton">
-                <img src="{{ asset('assets/images/phonicsl1/global/btns/return-btn.png') }}" />
-            </button>
+        <!-- Home Button -->
+        <button id="returnButton">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/return-btn.png') }}" />
+        </button>
 
-            <!-- return Button -->
-            <button id="homeButton">
-                <img src="{{ asset('assets/images/phonicsl1/global/btns/home-btn.png') }}" />
-            </button>
+        <!-- return Button -->
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/home-btn.png') }}" />
+        </button>
 
-            <!-- Close Button -->
-            <button id="closeButton">
+        <!-- Close Button -->
+        <button id="closeButton">
 
-                <img src="{{ asset('assets/images/phonicsl1/global/btns/cancel.png') }}" />
-            </button>
-        </div>
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/cancel.png') }}" />
+        </button>
+    </div>
 
-        {{-- Next and Done Buttons --}}
-        <div class="down-btn-container">
-            <button class="nextButton">
-                <img src="{{ asset('assets/images/phonicsl1/global/btns/next-btn.png') }}" />
-            </button>
-        </div>
-        <div class="down-btn-container">
-            <button class="doneButton hidden">
-                <img src="{{ asset('assets/images/phonicsl1/global/btns/done.png') }}" />
-            </button>
-        </div>
-    @endsection
+    {{-- Next and Done Buttons --}}
+    <div class="down-btn-container">
+        <button class="nextButton">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/next-btn.png') }}" />
+        </button>
+    </div>
+    <div class="down-btn-container">
+        <button class="doneButton hidden">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/done.png') }}" />
+        </button>
+    </div>
+@endsection
 
-    @push('script')
-        <script>
-            // SLIDE NAVIGATION SYSTEM
-            document.addEventListener("DOMContentLoaded", function() {
+@push('script')
+    <script>
+        // SLIDE NAVIGATION SYSTEM
+        // SLIDE NAVIGATION SYSTEM
+          document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
+document.addEventListener("DOMContentLoaded", function() {
 
-                // Get all elements
-                const slides = document.querySelectorAll(".phonics-panel");
-                const nextButtons = document.querySelectorAll(".nextButton");
-                const returnButton = document.getElementById("returnButton");
-                const doneButton = document.querySelector(".doneButton");
-                const soundButtons = document.querySelectorAll("[id^='soundButton']");
+            // Get all elements
+            const slides = document.querySelectorAll(".phonics-panel");
+            const nextButtons = document.querySelectorAll(".nextButton");
+            const returnButton = document.getElementById("returnButton");
+            const doneButton = document.querySelector(".doneButton");
+            const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
-                // URLs for navigation
-                const returnURL = "{{ url('/phonics/letter_d') }}?view=words";
-                const doneURL = "{{ url('/phonics/letter_d') }}?view=words";
+            // URLs for navigation
+            const returnURL = "{{ url('/phonics/letter_d') }}?view=words";
+            const doneURL = "{{ url('/phonics/letter_d') }}?view=words";
 
-                // Track current position
-                let currentSlide = 0;
+            // Track current position
+            let currentSlide = 0;
 
-                // 🔊 Global audio tracking
-                let currentAudio = null;
+            // 🔊 Global audio tracking
+            let currentAudio = null;
+            let isPlayingSequence = false; // Track if sequential audio is playing
 
-                // 🛑 Function to stop all audio/speech
-                function stopAllAudio() {
-                    // Stop any playing audio files
-                    if (currentAudio) {
-                        currentAudio.pause();
-                        currentAudio.currentTime = 0;
-                        currentAudio = null;
+            // 🛑 Function to stop all audio/speech
+            function stopAllAudio() {
+                // Stop any playing audio files
+                if (currentAudio) {
+                    currentAudio.pause();
+                    currentAudio.currentTime = 0;
+                    currentAudio = null;
+                }
+                // Stop text-to-speech
+                window.speechSynthesis.cancel();
+                isPlayingSequence = false;
+            }
+
+            // 🔊 Function to play audio items sequentially
+            function playItemsSequentially() {
+                const itemAudioPaths = [
+                    "{{ asset('assets/audio/phonics_audio/letter-d/getting-dark.m4a') }}",
+                    "{{ asset('assets/audio/phonics_audio/letter-d/cahse.m4a') }}",
+                    "{{ asset('assets/audio/phonics_audio/letter-d/buddy-chasing.m4a') }}",
+                    "{{ asset('assets/audio/phonics_audio/letter-d/late-dinner.m4a') }}"
+                ];
+
+                let currentIndex = 0;
+                isPlayingSequence = true;
+
+                function playNext() {
+                    if (!isPlayingSequence || currentIndex >= itemAudioPaths.length) {
+                        isPlayingSequence = false;
+                        return;
                     }
-                    // Stop text-to-speech
-                    window.speechSynthesis.cancel();
-                }
 
+                    currentAudio = new Audio(itemAudioPaths[currentIndex]);
 
-                // HELPER FUNCTIONS
-                function isSpecialSlide(slide) {
-                    const classList = Array.from(slide.classList);
-                    return classList.some(cls => /^info-panel-\d+$/.test(cls));
-                }
+                    currentAudio.onended = function() {
+                        currentIndex++;
+                        // Small delay between audios for better listening experience
+                        setTimeout(playNext, 500);
+                    };
 
-                function isLastSlide(slideIndex) {
-                    for (let i = slideIndex + 1; i < slides.length; i++) {
-                        if (!isSpecialSlide(slides[i])) {
-                            return false;
-                        }
-                    }
-                    return true;
-                }
+                    currentAudio.onerror = function() {
+                        console.log('Audio failed to load, skipping...');
+                        currentIndex++;
+                        playNext();
+                    };
 
-                // DISPLAY FUNCTIONS
-                function showSlide(slideIndex) {
-                    const ajaxSection = document.getElementById('ajax-section');
-                    const currentSlideElement = slides[slideIndex];
-
-                    // 🛑 Stop all audio when changing slides
-                    stopAllAudio();
-
-                    // Hide all slides, show only current one
-                    slides.forEach((slide, index) => {
-                        if (index === slideIndex) {
-                            slide.classList.remove("hidden");
-                        } else {
-                            slide.classList.add("hidden");
-                        }
+                    currentAudio.play().catch(err => {
+                        console.log('Audio play failed:', err);
+                        currentIndex++;
+                        playNext();
                     });
+                }
 
-                    // Check if current slide has 'next-hide' class
-                    if (currentSlideElement.classList.contains('next-hide')) {
-                        nextButtons.forEach(btn => btn.classList.add("hidden"));
+                playNext();
+            }
+
+            // HELPER FUNCTIONS
+            function isSpecialSlide(slide) {
+                const classList = Array.from(slide.classList);
+                return classList.some(cls => /^info-panel-\d+$/.test(cls));
+            }
+
+            function isLastSlide(slideIndex) {
+                for (let i = slideIndex + 1; i < slides.length; i++) {
+                    if (!isSpecialSlide(slides[i])) {
+                        return false;
+                    }
+                }
+                return true;
+            }
+
+            // Check if slide contains items 1-4
+            function hasItemsToPlay(slide) {
+                return slide.querySelector(
+                    '.item-1, .item-2, .item-3, .item-4, .item1, .item-2, .item-3, .item-4') !== null;
+            }
+
+            // DISPLAY FUNCTIONS
+            function showSlide(slideIndex) {
+                const ajaxSection = document.getElementById('ajax-section');
+                const currentSlideElement = slides[slideIndex];
+
+                // 🛑 Stop all audio when changing slides
+                stopAllAudio();
+
+                // Hide all slides, show only current one
+                slides.forEach((slide, index) => {
+                    if (index === slideIndex) {
+                        slide.classList.remove("hidden");
                     } else {
-                        // Show "Done" button on last slide, otherwise show "Next"
-                        if (isLastSlide(slideIndex)) {
-                            // Check if current slide has 'done-hide' class
-                            if (currentSlideElement.classList.contains('done-hide')) {
-                                // Hide done button if slide has done-hide class
-                                if (doneButton) doneButton.classList.add("hidden");
-                                nextButtons.forEach(btn => btn.classList.add("hidden"));
-                            } else {
-                                // Show done button normally
-                                nextButtons.forEach(btn => btn.classList.add("hidden"));
-                                if (doneButton) doneButton.classList.remove("hidden");
-                            }
-                        } else {
-                            nextButtons.forEach(btn => btn.classList.remove("hidden"));
+                        slide.classList.add("hidden");
+                    }
+                });
+
+                // Check if current slide has 'next-hide' class
+                if (currentSlideElement.classList.contains('next-hide')) {
+                    nextButtons.forEach(btn => btn.classList.add("hidden"));
+                } else {
+                    // Show "Done" button on last slide, otherwise show "Next"
+                    if (isLastSlide(slideIndex)) {
+                        // Check if current slide has 'done-hide' class
+                        if (currentSlideElement.classList.contains('done-hide')) {
+                            // Hide done button if slide has done-hide class
                             if (doneButton) doneButton.classList.add("hidden");
-                        }
-                    }
-
-                    // Toggle ajax-section background ONLY based on no-bg class
-                    if (ajaxSection) {
-                        if (currentSlideElement.classList.contains('no-bg')) {
-                            ajaxSection.classList.add('no-bg');
+                            nextButtons.forEach(btn => btn.classList.add("hidden"));
                         } else {
-                            ajaxSection.classList.remove('no-bg');
+                            // Show done button normally
+                            nextButtons.forEach(btn => btn.classList.add("hidden"));
+                            if (doneButton) doneButton.classList.remove("hidden");
                         }
+                    } else {
+                        nextButtons.forEach(btn => btn.classList.remove("hidden"));
+                        if (doneButton) doneButton.classList.add("hidden");
                     }
+                }
 
-                    // 🔊 Auto-play audio if slide has data-slide-audio attribute
+                // Toggle ajax-section background ONLY based on no-bg class
+                if (ajaxSection) {
+                    if (currentSlideElement.classList.contains('no-bg')) {
+                        ajaxSection.classList.add('no-bg');
+                    } else {
+                        ajaxSection.classList.remove('no-bg');
+                    }
+                }
+
+                // 🔊 Check if slide has items to play sequentially
+                if (hasItemsToPlay(currentSlideElement)) {
+                    setTimeout(() => {
+                        playItemsSequentially();
+                    }, 300);
+                }
+                // 🔊 Auto-play audio if slide has data-slide-audio attribute
+                else {
                     const slideAudioSrc = currentSlideElement.getAttribute('data-slide-audio');
                     if (slideAudioSrc) {
                         // Small delay to ensure slide is visible before playing
@@ -409,125 +467,128 @@
                         }
                     }
                 }
+            }
 
-                // NAVIGATION FUNCTIONS
-                function goNext() {
-                    if (currentSlide >= slides.length - 1) return;
+            // NAVIGATION FUNCTIONS
+            function goNext() {
+                if (currentSlide >= slides.length - 1) return;
+                currentSlide++;
+                while (currentSlide < slides.length) {
+                    const slide = slides[currentSlide];
+                    if (!isSpecialSlide(slide)) break;
                     currentSlide++;
-                    while (currentSlide < slides.length) {
-                        const slide = slides[currentSlide];
-                        if (!isSpecialSlide(slide)) break;
-                        currentSlide++;
-                    }
-                    if (currentSlide < slides.length) {
-                        showSlide(currentSlide);
-                    }
                 }
+                if (currentSlide < slides.length) {
+                    showSlide(currentSlide);
+                }
+            }
 
-                function goBack() {
-                    if (currentSlide === 0) {
-                        stopAllAudio(); // 🛑 Stop audio before leaving
-                        window.location.href = returnURL;
-                        return;
-                    }
-                    if (currentSlide > 0) {
+            function goBack() {
+                if (currentSlide === 0) {
+                    stopAllAudio(); // 🛑 Stop audio before leaving
+                    window.location.href = returnURL;
+                    return;
+                }
+                if (currentSlide > 0) {
+                    currentSlide--;
+                    while (currentSlide > 0 && isSpecialSlide(slides[currentSlide])) {
                         currentSlide--;
-                        while (currentSlide > 0 && isSpecialSlide(slides[currentSlide])) {
-                            currentSlide--;
-                        }
-                        showSlide(currentSlide);
                     }
+                    showSlide(currentSlide);
                 }
+            }
 
-                function handleDone() {
-                    stopAllAudio(); // 🛑 Stop audio before action
-                    window.location.href = doneURL;
-                }
+            function handleDone() {
+                stopAllAudio(); // 🛑 Stop audio before action
+                window.location.href = doneURL;
+            }
 
-                // EVENT LISTENERS
-                nextButtons.forEach(btn => {
-                    btn.addEventListener("click", goNext);
-                });
-
-                if (returnButton) {
-                    returnButton.addEventListener("click", goBack);
-                }
-
-                if (doneButton) {
-                    doneButton.addEventListener("click", handleDone);
-                }
-
-                // 🔊 Home and Close buttons also stop audio
-                const homeButton = document.getElementById("homeButton");
-                const closeButton = document.getElementById("closeButton");
-
-                if (homeButton) {
-                    homeButton.addEventListener("click", () => stopAllAudio());
-                }
-
-                if (closeButton) {
-                    closeButton.addEventListener("click", () => stopAllAudio());
-                }
-
-                soundButtons.forEach(btn => {
-                    btn.addEventListener("click", (e) => {
-                        e.preventDefault();
-
-                        // Stop any previous audio first
-                        stopAllAudio();
-
-                        // Play audio file if data-audio is provided
-                        const audioSrc = btn.getAttribute("data-audio");
-                        if (audioSrc) {
-                            currentAudio = new Audio(audioSrc);
-                            currentAudio.play();
-                        }
-                        // Otherwise speak the letter
-                        else {
-                            const letter = btn.getAttribute("data-letter") || "a";
-                            speakLetter(letter);
-                        }
-                    });
-                });
-
-                window.speechSynthesis.onvoiceschanged = () => {
-                    window.speechSynthesis.getVoices();
-                };
-
-                // 🔊 ITEM CLICK AUDIO LOGIC (Items 1-4)
-                const items = document.querySelectorAll('.ietm-1, .ietm-2, .ietm-3, .ietm-4');
-
-                // Define audio paths for each item
-                const itemAudioPaths = {
-                    'ietm-1': "{{ asset('assets/audio/phonics_audio/letter-d/getting-dark.m4a') }}",
-                    'ietm-2': "{{ asset('assets/audio/phonics_audio/letter-d/cahse.m4a') }}",
-                    'ietm-3': "{{ asset('assets/audio/phonics_audio/letter-d/buddy-chasing.m4a') }}",
-                    'ietm-4': "{{ asset('assets/audio/phonics_audio/letter-d/late-dinner.m4a') }}"
-                };
-
-                items.forEach(item => {
-                    item.addEventListener('click', function(e) {
-                        e.preventDefault();
-
-                        // Stop any currently playing audio
-                        stopAllAudio();
-
-                        // Get the item class to determine which audio to play
-                        const itemClass = Array.from(item.classList).find(cls => cls.startsWith(
-                            'ietm-'));
-
-                        if (itemClass && itemAudioPaths[itemClass]) {
-                            currentAudio = new Audio(itemAudioPaths[itemClass]);
-                            currentAudio.play().catch(err => console.log('Audio play failed:', err));
-                        }
-                    });
-
-                    // Add pointer cursor to indicate clickability
-                    item.style.cursor = 'pointer';
-                });
-
-                // INITIALIZE
-                showSlide(currentSlide);
+            // EVENT LISTENERS
+            nextButtons.forEach(btn => {
+                btn.addEventListener("click", goNext);
             });
-        </script>
-    @endpush
+
+            if (returnButton) {
+                returnButton.addEventListener("click", goBack);
+            }
+
+            if (doneButton) {
+                doneButton.addEventListener("click", handleDone);
+            }
+
+            // 🔊 Home and Close buttons also stop audio
+            const homeButton = document.getElementById("homeButton");
+            const closeButton = document.getElementById("closeButton");
+
+            if (homeButton) {
+                homeButton.addEventListener("click", () => stopAllAudio());
+            }
+
+            if (closeButton) {
+                closeButton.addEventListener("click", () => stopAllAudio());
+            }
+
+            soundButtons.forEach(btn => {
+                btn.addEventListener("click", (e) => {
+                    e.preventDefault();
+
+                    // Stop any previous audio first
+                    stopAllAudio();
+
+                    // Play audio file if data-audio is provided
+                    const audioSrc = btn.getAttribute("data-audio");
+                    if (audioSrc) {
+                        currentAudio = new Audio(audioSrc);
+                        currentAudio.play();
+                    }
+                    // Otherwise speak the letter
+                    else {
+                        const letter = btn.getAttribute("data-letter") || "a";
+                        speakLetter(letter);
+                    }
+                });
+            });
+
+            window.speechSynthesis.onvoiceschanged = () => {
+                window.speechSynthesis.getVoices();
+            };
+
+            // 🔊 ITEM CLICK AUDIO LOGIC (Items 1-4) - Individual playback on click
+            const items = document.querySelectorAll(
+                '.item-1, .item-2, .item-3, .item-4, .item1');
+
+            // Define audio paths for each item
+            const itemAudioPaths = {
+                'item-1': "{{ asset('assets/audio/phonics_audio/letter-d/getting-dark.m4a') }}",
+                'item-2': "{{ asset('assets/audio/phonics_audio/letter-d/cahse.m4a') }}",
+                'item-3': "{{ asset('assets/audio/phonics_audio/letter-d/buddy-chasing.m4a') }}",
+                'item-4': "{{ asset('assets/audio/phonics_audio/letter-d/late-dinner.m4a') }}"
+            };
+
+            items.forEach(item => {
+                item.addEventListener('click', function(e) {
+                    e.preventDefault();
+
+                    // Stop any currently playing audio
+                    stopAllAudio();
+
+                    // Get the item class to determine which audio to play
+                    const itemClass = Array.from(item.classList).find(cls =>
+                        cls.startsWith('item-') || cls.startsWith('item')
+                    );
+
+                    if (itemClass && itemAudioPaths[itemClass]) {
+                        currentAudio = new Audio(itemAudioPaths[itemClass]);
+                        currentAudio.play().catch(err => console.log('Audio play failed:', err));
+                    }
+                });
+
+                // Add pointer cursor to indicate clickability
+                item.style.cursor = 'pointer';
+            });
+
+            // INITIALIZE
+            showSlide(currentSlide);
+        });
+    </script>
+@endpush
