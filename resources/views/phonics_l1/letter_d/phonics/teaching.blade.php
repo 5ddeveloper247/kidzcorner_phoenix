@@ -137,8 +137,8 @@
             const doneButton = document.querySelector(".doneButton");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_d') }}";
-            const doneURL = "{{ url('/phonics/letter_d') }}";
+            const returnURL = "{{ url('/phonics/letter_d') }}?view=phonics";
+            const doneURL = "{{ url('/phonics/letter_d') }}?view=phonics";
 
             // Track current position
             let currentSlide = 0;

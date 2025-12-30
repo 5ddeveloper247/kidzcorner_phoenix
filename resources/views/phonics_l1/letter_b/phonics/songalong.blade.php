@@ -112,7 +112,7 @@
 
     {{-- Infpo Panel 3 --}}
     <div class="phonics-panel info-panel-3">
-        <h2 class="top-title stroke">I’ve got the Letter ‘a’</h2>
+        <h2 class="top-title stroke">I’ve got the Letter ‘b’</h2>
         <div class="flex flex-col items-center">
             <h4 class="text-white text-[1vw]">(Tune: I’ve got the Whole World in my Hand)</h4>
             <img src="{{ asset('assets/images/phonicsl1/letter_b/bird.gif') }}" class="w-[10vw]" />
@@ -327,6 +327,8 @@
             let isInSpecialMode = false;
             let returnToSlide = null;
             let specialSlideClass = null;
+            let parentSpecialSlide = null; // Track if we're in a nested special mode
+            let parentSpecialClass = null; // Track the parent's special class
 
             //  Global audio tracking
             let currentAudio = null;
@@ -518,11 +520,22 @@
                         currentSlide = previousIndex;
                         showSlide(currentSlide);
                     } else {
-                        currentSlide = returnToSlide;
-                        isInSpecialMode = false;
-                        specialSlideClass = null;
-                        returnToSlide = null;
-                        showSlide(currentSlide);
+                        // Check if we're in nested mode
+                        if (parentSpecialSlide !== null) {
+                            // Return to parent special slide
+                            currentSlide = parentSpecialSlide;
+                            specialSlideClass = parentSpecialClass;
+                            parentSpecialSlide = null;
+                            parentSpecialClass = null;
+                            showSlide(currentSlide);
+                        } else {
+                            // Return to regular slide
+                            currentSlide = returnToSlide;
+                            isInSpecialMode = false;
+                            specialSlideClass = null;
+                            returnToSlide = null;
+                            showSlide(currentSlide);
+                        }
                     }
                 } else {
                     if (currentSlide > 0) {
@@ -537,13 +550,26 @@
 
             function handleDone() {
                 stopAllAudio(); //  Stop audio before action
-                if (isInSpecialMode && returnToSlide !== null) {
+
+                // If we're in a nested special mode, return to the parent special slide
+                if (isInSpecialMode && parentSpecialSlide !== null) {
+                    currentSlide = parentSpecialSlide;
+                    specialSlideClass = parentSpecialClass; // Restore parent's special class
+                    parentSpecialSlide = null; // Clear the parent reference
+                    parentSpecialClass = null;
+                    // We're still in special mode, just returned to parent
+                    showSlide(currentSlide);
+                }
+                // If we're in special mode but not nested, return to the original slide
+                else if (isInSpecialMode && returnToSlide !== null) {
                     currentSlide = returnToSlide;
                     isInSpecialMode = false;
                     specialSlideClass = null;
                     returnToSlide = null;
                     showSlide(currentSlide);
-                } else {
+                }
+                // Otherwise, navigate to the done URL
+                else {
                     window.location.href = doneURL;
                 }
             }
@@ -553,7 +579,17 @@
                 button.addEventListener("click", function(e) {
                     e.preventDefault();
                     stopAllAudio(); //  Stop audio when entering info mode
-                    returnToSlide = currentSlide;
+
+                    // Check if we're already in a special mode (nested navigation)
+                    if (isInSpecialMode) {
+                        parentSpecialSlide = currentSlide; // Store the parent slide
+                        parentSpecialClass = specialSlideClass; // Store the parent's class
+                    } else {
+                        returnToSlide = currentSlide;
+                        parentSpecialSlide = null; // Not nested
+                        parentSpecialClass = null;
+                    }
+
                     isInSpecialMode = true;
                     specialSlideClass = getSlideTypeFromButton(button);
                     for (let i = 0; i < slides.length; i++) {

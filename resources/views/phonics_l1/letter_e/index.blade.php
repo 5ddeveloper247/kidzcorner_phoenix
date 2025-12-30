@@ -106,6 +106,8 @@
 
 @push('script')
     <script>
+        document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
+
         document.addEventListener("DOMContentLoaded", () => {
             // Get all elements
             const startSlide = document.querySelector('.flex.w-full.justify-around');
@@ -114,9 +116,9 @@
             const phonicsSlide = document.getElementById('phonics-slide');
             const wordsSlide = document.getElementById('words-slide');
             const returnButton = document.getElementById('returnButton');
-            let currentView = 'start'; // Track current view: 'start', 'phonics', 'words'
+            let currentView = 'start';
 
-            // Function to show specific slide
+
             function showSlide(slideName) {
                 // Hide all slides first
                 startSlide?.classList.add('hidden');
@@ -136,21 +138,19 @@
                 }
             }
 
-            // Return button - conditional behavior
-            if (returnButton) {
-                returnButton.addEventListener('click', (e) => {
-                    e.preventDefault();
+            // NEW: Check URL parameters on page load
+            function checkURLParameter() {
+                const urlParams = new URLSearchParams(window.location.search);
+                const view = urlParams.get('view');
 
-                    if (currentView === 'start') {
-                        // Slide index 0 → hit a route
-                        window.location.href = "{{ url('/phonics/l1') }}";
-                    } else if (currentView === 'phonics' || currentView === 'words') {
-                        // Go back to previous slide
-                        showSlide('start');
-                    }
-                });
+                if (view === 'phonics') {
+                    showSlide('phonics');
+                } else if (view === 'words') {
+                    showSlide('words');
+                } else {
+                    showSlide('start');
+                }
             }
-
 
             // Phonics button click - show phonics slide
             if (phonicsBtn) {
@@ -166,7 +166,6 @@
                 });
             }
 
-            // Return button - goes back to parent slide
             if (returnButton) {
                 returnButton.addEventListener('click', (e) => {
                     e.preventDefault();
@@ -174,13 +173,17 @@
                     // If on phonics or words slide, return to start slide
                     if (currentView === 'phonics' || currentView === 'words') {
                         showSlide('start');
+                    } else if (currentView === 'start') {
+                        // If on start slide, go back to previous page
+                        window.location.href = "{{ url('/phonics/l1') }}";
                     }
                 });
             }
 
 
-            // Initialize - show start slide
-            showSlide('start');
+
+            // Initialize - check URL parameters first, then show appropriate slide
+            checkURLParameter();
         });
     </script>
 @endpush

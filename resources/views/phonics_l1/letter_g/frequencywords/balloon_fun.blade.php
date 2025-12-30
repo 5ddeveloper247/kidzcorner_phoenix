@@ -282,8 +282,8 @@ up with the 'Balloon Fun' Activity Sheet in the Pupil's Activity Book.</p>
             const doneButton = document.querySelector(".doneButton");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_g') }}";
-            const doneURL = "{{ url('/phonics/letter_g') }}";
+            const returnURL = "{{ url('/phonics/letter_g') }}?view=words";
+            const doneURL = "{{ url('/phonics/letter_g') }}?view=words";
 
             // Track current position
             let currentSlide = 0;

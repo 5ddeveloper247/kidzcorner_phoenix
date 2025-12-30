@@ -106,7 +106,7 @@
                     <img src="{{ asset('assets/images/phonicsl1/global/blank.png') }}" class="w-[18vw]" />
                     <h2 class="text-[1.2vw] !text-[#B76E33] absolute top-[2vw] right-[2vw]">Help me complete <br> the
                         sentence
-                        with <br> a word beginning <br> with ‘W’.</h2>
+                        with <br> a word beginning <br> with ‘e’.</h2>
                 </div>
                 <img src="{{ asset('assets/images/phonicsl1/global/teacher.png') }}" class="h-[20vw]" />
             </div>
@@ -153,7 +153,6 @@
                         </div>
                     </div>
                 </div>
-                <h2 class="text-white text-[1.5vw]">There is _______ in the jug.</h2>
 
             </div>
         </div>
@@ -242,8 +241,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_e') }}";
-            const doneURL = "{{ url('/phonics/letter_e') }}";
+            const returnURL = "{{ url('/phonics/letter_e') }}?view=phonics";
+            const doneURL = "{{ url('/phonics/letter_e') }}?view=phonics";
 
             // Track current position
             let currentSlide = 0;

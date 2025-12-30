@@ -158,7 +158,7 @@
             <img src="{{ asset('assets/images/phonicsl1/global/gifs/lili.gif') }}"
                 class="h-[20vw] bottom-0 right-0 absolute" />
 
-             <h1 class="text-white text-[3.5vw] absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 text-center">Why do you <br>
+             <h1 class="text-white text-[3vw] absolute top-[55%] -translate-y-1/2 left-1/2 -translate-x-1/2 text-center">Why do you <br>
                 think she <br>
                 giggles?</h1>
 
@@ -176,7 +176,7 @@
             <img src="{{ asset('assets/images/phonicsl1/global/gifs/lili.gif') }}"
                 class="h-[20vw] bottom-0 right-0 absolute" />
 
-            <h1 class="text-white text-[3vw] absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 text-center">What do you <br>
+            <h1 class="text-white text-[3vw] absolute top-[55%] -translate-y-1/2 left-1/2 -translate-x-1/2 text-center">What do you <br>
                 think the gift is?</h1>
 
             <p class="p-note absolute bottom-[1vw] left-[35%]">Tip: Elicit response from children.</p>
@@ -232,8 +232,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_g') }}";
-            const doneURL = "{{ url('/phonics/letter_g') }}";
+            const returnURL = "{{ url('/phonics/letter_g') }}?view=phonics";
+            const doneURL = "{{ url('/phonics/letter_g') }}?view=phonics";
 
             // Track current position
             let currentSlide = 0;

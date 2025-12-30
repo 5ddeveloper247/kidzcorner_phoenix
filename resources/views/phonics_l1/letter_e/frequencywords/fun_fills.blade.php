@@ -199,8 +199,8 @@ Activity Sheet in the Pupil's Activity Book.</p>
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_e') }}";
-            const doneURL = "{{ url('/phonics/letter_e') }}";
+            const returnURL = "{{ url('/phonics/letter_e') }}?view=words";
+            const doneURL = "{{ url('/phonics/letter_e') }}?view=words";
 
             // Track current position
             let currentSlide = 0;

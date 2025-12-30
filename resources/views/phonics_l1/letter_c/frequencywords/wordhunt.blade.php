@@ -59,23 +59,11 @@
     </div>
 
     {{-- Panel 2 --}}
-    <div class="phonics-panel flex flex-col justify-between h-full"
+    <div class="phonics-panel flex flex-col justify-between h-full items-center"
         data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-c/flashcard/listen-to-words.m4a') }}">
         <h2 class="text-white text-[2vw] text-center">Listen to these words:</h2>
-        <div class="grid grid-cols-3 items-start ">
-            <img src="{{ asset('assets/images/phonicsl1/letter_c/make.png') }}" class="w-[14vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_c/makes.png') }}" class="w-[14vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_b/a.png') }}" class="w-[14vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_b/into.png') }}" class="w-[14vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_b/that.png') }}" class="w-[14vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_b/not.png') }}" class="w-[14vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_c/is.png') }}" class="w-[14vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_c/get.png') }}" class="w-[14vw]" />
-            <img src="{{ asset('assets/images/phonicsl1/letter_c/getting.png') }}" class="w-[14vw]" />
-            <div class="col-span-3 flex justify-center">
-                <img src="{{ asset('assets/images/phonicsl1/letter_c/now.png') }}" class="w-[14vw]" />
-            </div>
-        </div>
+      
+            <img src="{{ asset('assets/images/phonicsl1/letter_c/wordhunt.png') }}" class="w-[40vw]" />
         <p class="p-note">Tip: Ask children to refer to the Word Hunt Activity Sheet in the Pupil’s Activity Book.</p>
     </div>
 

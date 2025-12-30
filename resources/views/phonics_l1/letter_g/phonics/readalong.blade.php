@@ -53,7 +53,8 @@
             <img src="{{ asset('assets/images/phonicsl1/global/gifs/lili.gif') }}"
                 class="h-[20vw] bottom-0 right-0 absolute" />
 
-                        <h1 class="text-white text-[4vw] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"> Read along <br> with us!</h1>
+            <h1 class="text-white text-[4vw] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"> Read along <br>
+                with us!</h1>
 
 
             <p class="p-note absolute bottom-[1vw] left-[22%]">Tip: <a class="c-btn info-btn1">Click here</a> to find out
@@ -93,7 +94,7 @@
 
         {{-- sound Button --}}
         <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton"
-            data-audio="{{ asset('assets/audio/phonics_audio/letter-f/fish-fox.m4a') }}">
+            data-audio="{{ asset('assets/audio/phonics_audio/letter-g/g-goose.m4a') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -142,8 +143,7 @@
                         <div class="col-span-2 flex justify-center ">
                             <div class="flex items-start gap-x-[1vw]">
                                 <a class="hover:brightness-110" id="true">
-                                    <img src="{{ asset('assets/images/phonicsl1/letter_g/duck.png') }}"
-                                        class="h-[6vw] " />
+                                    <img src="{{ asset('assets/images/phonicsl1/letter_g/duck.png') }}" class="h-[6vw] " />
                                 </a>
                                 {{-- sound Button --}}
                                 <button class="w-[3vw]" id="soundButton" data-letter="goose">
@@ -242,8 +242,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_g') }}";
-            const doneURL = "{{ url('/phonics/letter_g') }}";
+            const returnURL = "{{ url('/phonics/letter_g') }}?view=phonics";
+            const doneURL = "{{ url('/phonics/letter_g') }}?view=phonics";
 
             // Track current position
             let currentSlide = 0;
@@ -374,17 +374,40 @@
                     }
                 }
 
-                // 🔊 Auto-play audio if slide has data-slide-audio attribute
+                // 🔊 AUTO-PLAY LOGIC (Priority order):
+                // 1. Check for data-slide-audio attribute on the slide itself
                 const slideAudioSrc = currentSlideElement.getAttribute('data-slide-audio');
                 if (slideAudioSrc) {
-                    // Small delay to ensure slide is visible before playing
                     setTimeout(() => {
                         currentAudio = new Audio(slideAudioSrc);
                         currentAudio.play().catch(err => console.log('Auto-play failed:', err));
                     }, 300);
+                    return; // Exit early, don't check for sound button
+                }
+
+                // 2. Check for sound button with data-audio attribute
+                const soundButton = currentSlideElement.querySelector('#soundButton[data-audio]');
+                if (soundButton) {
+                    const audioSrc = soundButton.getAttribute('data-audio');
+                    if (audioSrc) {
+                        setTimeout(() => {
+                            currentAudio = new Audio(audioSrc);
+
+                            // Play twice as mentioned in tips
+                            let playCount = 0;
+                            currentAudio.play().catch(err => console.log('Auto-play failed:', err));
+
+                            currentAudio.onended = function() {
+                                playCount++;
+                                if (playCount < 2) {
+                                    currentAudio.currentTime = 0;
+                                    currentAudio.play();
+                                }
+                            };
+                        }, 300);
+                    }
                 }
             }
-
             // NAVIGATION FUNCTIONS
             function goNext() {
                 if (currentSlide >= slides.length - 1) return;
@@ -544,6 +567,7 @@
         });
 
 
+
         // panel
         document.addEventListener('DOMContentLoaded', function() {
             // Get elements
@@ -599,7 +623,7 @@
                 // Stop the sound if still playing
                 wellDoneSound.pause();
                 wellDoneSound.currentTime = 0;
-               window.location.href = '{{ url('/phonics/letter_g') }}';
+                window.location.href = '{{ url('/phonics/letter_g') }}?view=phonics';
             });
 
             // Optional: Sound button functionality

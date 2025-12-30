@@ -30,7 +30,7 @@
 @section('content')
 
     {{-- panel 1 --}}
-    <div class="phonics-panel"  data-audio="{{ asset('assets/audio/phonics_audio/SingAlong.mp3') }}">
+    <div class="phonics-panel" data-audio="{{ asset('assets/audio/phonics_audio/SingAlong.mp3') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_a/sing-along.png') }}" class="w-[40vw]" />
     </div>
 
@@ -113,7 +113,7 @@
 
     {{-- Infpo Panel 3 --}}
     <div class="phonics-panel info-panel-3">
-        <h2 class="top-title stroke">I’ve got the Letter ‘a’</h2>
+        <h2 class="top-title stroke">I’ve got the Letter ‘c’</h2>
         <div class="flex flex-col items-center">
             <h4 class="text-white text-[1vw]">(Tune: I’ve got the Whole World in my Hand)</h4>
             <img src="{{ asset('assets/images/phonicsl1/letter_c/cat.png') }}" class="w-[10vw]" />
@@ -233,17 +233,16 @@
     {{-- Infpo Panel 8 --}}
     <div class="phonics-panel info-panel-8 flex flex-col h-full">
         <h2 class="top-title stroke">I Like ...</h2>
-        <div class="flex flex-col items-center justify-between h-full">
+        <div class="flex flex-col items-center">
             <h4 class="text-white text-[1vw]">(Tune: Bingo)</h4>
-            <div>
-                <div class="text-center text-white text-[2.5vw]">
-                    <h3>I like cupcakes, yes I do.</h3>
-                    <h3>I like cupcakes, yes I do.</h3>
-                    <h3>I like cupcakes, yes I do.</h3>
-                    <h3>Do you like cupcakes too?</h3>
-                </div>
-                <img src="{{ asset('assets/images/phonicsl1/letter_c/cupcakes.png') }}" />
+
+            <div class="text-center text-white text-[2.5vw]">
+                <h3>I like cupcakes, yes I do.</h3>
+                <h3>I like cupcakes, yes I do.</h3>
+                <h3>I like cupcakes, yes I do.</h3>
+                <h3>Do you like cupcakes too?</h3>
             </div>
+            <img src="{{ asset('assets/images/phonicsl1/letter_c/cupcakes.png') }}" class="h-[12vw]" />
             <p class="p-note">Tip: Music will be automatically played twice. Click on the sound icon to repeat music.</p>
         </div>
 
@@ -305,18 +304,20 @@
 
             // URLs for navigation
             const returnURL = "{{ url('/phonics/letter_c') }}?view=phonics";
-             const doneURL = "{{ url('/phonics/letter_c') }}?view=phonics";
+            const doneURL = "{{ url('/phonics/letter_c') }}?view=phonics";
 
             // Track current position
             let currentSlide = 0;
             let isInSpecialMode = false;
             let returnToSlide = null;
             let specialSlideClass = null;
+            let parentSpecialSlide = null; // Track if we're in a nested special mode
+            let parentSpecialClass = null; // Track the parent's special class
 
-            // Global audio tracking
+            //  Global audio tracking
             let currentAudio = null;
 
-            // Function to stop all audio/speech
+            //  Function to stop all audio/speech
             function stopAllAudio() {
                 // Stop any playing audio files
                 if (currentAudio) {
@@ -423,18 +424,48 @@
                     }
                 }
 
-                // 🔊 Auto-play audio ONLY for the first slide (slideIndex === 0)
-                if (slideIndex === 0) {
-                    const slideAudioSrc = currentSlideElement.getAttribute('data-audio');
-                    if (slideAudioSrc) {
-                        // Small delay to ensure slide is visible before playing
+                // ✨ Auto-play audio for slides with data-audio attribute (like Panel 1)
+                const slideAudioSrc = currentSlideElement.getAttribute('data-audio');
+                if (slideAudioSrc) {
+                    setTimeout(() => {
+                        currentAudio = new Audio(slideAudioSrc);
+
+                        // Play twice as mentioned in tips
+                        let playCount = 0;
+                        currentAudio.play();
+
+                        currentAudio.onended = function() {
+                            playCount++;
+                            if (playCount < 2) {
+                                currentAudio.currentTime = 0;
+                                currentAudio.play();
+                            }
+                        };
+                    }, 300);
+                }
+
+                // ✨ Auto-play audio for info-panel slides with sound buttons
+                const soundButton = currentSlideElement.querySelector('#soundButton');
+                if (soundButton && !slideAudioSrc) { // Only if slide doesn't have its own audio
+                    const audioSrc = soundButton.getAttribute('data-audio');
+                    if (audioSrc) {
                         setTimeout(() => {
-                            currentAudio = new Audio(slideAudioSrc);
-                            currentAudio.play().catch(err => console.log('Auto-play failed:', err));
+                            currentAudio = new Audio(audioSrc);
+
+                            // Play twice as mentioned in the tip
+                            let playCount = 0;
+                            currentAudio.play();
+
+                            currentAudio.onended = function() {
+                                playCount++;
+                                if (playCount < 2) {
+                                    currentAudio.currentTime = 0;
+                                    currentAudio.play();
+                                }
+                            };
                         }, 300);
                     }
                 }
-                // For all other slides, audio will only play on button click
             }
 
             // NAVIGATION FUNCTIONS
@@ -457,7 +488,7 @@
 
             function goBack() {
                 if (currentSlide === 0 && !isInSpecialMode) {
-                    stopAllAudio(); // Stop audio before leaving
+                    stopAllAudio(); //  Stop audio before leaving
                     window.location.href = returnURL;
                     return;
                 }
@@ -473,11 +504,22 @@
                         currentSlide = previousIndex;
                         showSlide(currentSlide);
                     } else {
-                        currentSlide = returnToSlide;
-                        isInSpecialMode = false;
-                        specialSlideClass = null;
-                        returnToSlide = null;
-                        showSlide(currentSlide);
+                        // Check if we're in nested mode
+                        if (parentSpecialSlide !== null) {
+                            // Return to parent special slide
+                            currentSlide = parentSpecialSlide;
+                            specialSlideClass = parentSpecialClass;
+                            parentSpecialSlide = null;
+                            parentSpecialClass = null;
+                            showSlide(currentSlide);
+                        } else {
+                            // Return to regular slide
+                            currentSlide = returnToSlide;
+                            isInSpecialMode = false;
+                            specialSlideClass = null;
+                            returnToSlide = null;
+                            showSlide(currentSlide);
+                        }
                     }
                 } else {
                     if (currentSlide > 0) {
@@ -491,14 +533,27 @@
             }
 
             function handleDone() {
-                stopAllAudio(); // Stop audio before action
-                if (isInSpecialMode && returnToSlide !== null) {
+                stopAllAudio(); //  Stop audio before action
+
+                // If we're in a nested special mode, return to the parent special slide
+                if (isInSpecialMode && parentSpecialSlide !== null) {
+                    currentSlide = parentSpecialSlide;
+                    specialSlideClass = parentSpecialClass; // Restore parent's special class
+                    parentSpecialSlide = null; // Clear the parent reference
+                    parentSpecialClass = null;
+                    // We're still in special mode, just returned to parent
+                    showSlide(currentSlide);
+                }
+                // If we're in special mode but not nested, return to the original slide
+                else if (isInSpecialMode && returnToSlide !== null) {
                     currentSlide = returnToSlide;
                     isInSpecialMode = false;
                     specialSlideClass = null;
                     returnToSlide = null;
                     showSlide(currentSlide);
-                } else {
+                }
+                // Otherwise, navigate to the done URL
+                else {
                     window.location.href = doneURL;
                 }
             }
@@ -507,8 +562,18 @@
             infoButtons.forEach(button => {
                 button.addEventListener("click", function(e) {
                     e.preventDefault();
-                    stopAllAudio(); // Stop audio when entering info mode
-                    returnToSlide = currentSlide;
+                    stopAllAudio(); //  Stop audio when entering info mode
+
+                    // Check if we're already in a special mode (nested navigation)
+                    if (isInSpecialMode) {
+                        parentSpecialSlide = currentSlide; // Store the parent slide
+                        parentSpecialClass = specialSlideClass; // Store the parent's class
+                    } else {
+                        returnToSlide = currentSlide;
+                        parentSpecialSlide = null; // Not nested
+                        parentSpecialClass = null;
+                    }
+
                     isInSpecialMode = true;
                     specialSlideClass = getSlideTypeFromButton(button);
                     for (let i = 0; i < slides.length; i++) {
@@ -533,7 +598,7 @@
                 doneButton.addEventListener("click", handleDone);
             }
 
-            // Home and Close buttons also stop audio
+            //  Home and Close buttons also stop audio
             const homeButton = document.getElementById("homeButton");
             const closeButton = document.getElementById("closeButton");
 
@@ -552,7 +617,7 @@
                     // Stop any previous audio first
                     stopAllAudio();
 
-                    // If data-audio is provided → play audio file
+                    // 1️⃣ If data-audio is provided → play audio file
                     const audioSrc = btn.getAttribute("data-audio");
                     if (audioSrc) {
                         currentAudio = new Audio(audioSrc);
@@ -560,7 +625,7 @@
                         return;
                     }
 
-                    // Otherwise fallback to speaking the letter
+                    // 2️⃣ Otherwise fallback to speaking the letter
                     const letter = btn.getAttribute("data-letter") || "a";
                     speakLetter(letter);
                 });

@@ -192,8 +192,8 @@
             const doneButton = document.querySelector(".doneButton");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_h') }}";
-            const doneURL = "{{ url('/phonics/letter_h') }}";
+            const returnURL = "{{ url('/phonics/letter_h') }}?view=words";
+            const doneURL = "{{ url('/phonics/letter_h') }}?view=words";
 
             // Track current position
             let currentSlide = 0;

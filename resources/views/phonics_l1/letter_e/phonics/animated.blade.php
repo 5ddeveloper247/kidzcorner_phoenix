@@ -86,9 +86,9 @@
 
 
     {{-- Panel 2 --}}
-    <div class="phonics-panel flex flex-col items-center gap-y-[1vw]">
+    <div class="phonics-panel flex flex-col items-center h-[90%] self-end justify-between">
         <a class="info-btn2">
-            <img src="{{ asset('assets/images/phonicsl1/letter_c/c1.png') }}" class="h-[25vw]" /></a>
+            <img src="{{ asset('assets/images/phonicsl1/letter_e/e1.png') }}" class="h-[20vw]" /></a>
         <p class="p-note">Tip: Click on the letter to see a demonstration of the stroke. Follow up <br>
             with the Writing Activity Sheet in the Pupil's Activity Book.</p>
     </div>
@@ -96,22 +96,22 @@
 
     {{-- Panel 3 --}}
     <div class="phonics-panel info-panel-2 flex flex-col items-center h-full justify-between">
-        <img src="{{ asset('assets/images/phonicsl1/letter_c/cc1.gif') }}" class="w-[18vw] h-[20vw]" />
+        <img src="{{ asset('assets/images/phonicsl1/letter_e/e-1.gif') }}" class="w-[18vw] h-[20vw]" />
         <p class="p-note">Tip: Click on the letter to see a demonstration of the stroke. </p>
     </div>
 
 
     {{-- Panel 4 --}}
-    <div class="phonics-panel flex flex-col items-center gap-y-[1vw]">
+    <div class="phonics-panel flex flex-col items-center h-[80%] self-end justify-between">
         <a class="info-btn3">
-            <img src="{{ asset('assets/images/phonicsl1/letter_c/c2.png') }}" class="h-[15vw]" /></a>
+            <img src="{{ asset('assets/images/phonicsl1/letter_e/e2.png') }}" class="h-[15vw]" /></a>
         <p class="p-note">Tip: Click on the letter to see a demonstration of the stroke. Follow up <br>
             with the Writing Activity Sheet in the Pupil's Activity Book.</p>
     </div>
 
     {{-- Panel 5 --}}
     <div class="phonics-panel info-panel-3 flex flex-col items-center gap-y-[4vw]">
-        <img src="{{ asset('assets/images/phonicsl1/letter_c/cc2.gif') }}" class="h-[15vw]" />
+        <img src="{{ asset('assets/images/phonicsl1/letter_e/e-2.gif') }}" class="w-[20vw]" />
         <p class="p-note">Tip: Click on the letter to see a demonstration of the stroke. </p>
     </div>
 
@@ -165,8 +165,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_c') }}?view=phonics";
-             const doneURL = "{{ url('/phonics/letter_c') }}?view=phonics";
+            const returnURL = "{{ url('/phonics/letter_e') }}?view=phonics";
+             const doneURL = "{{ url('/phonics/letter_e') }}?view=phonics";
 
             // Track current position
             let currentSlide = 0;

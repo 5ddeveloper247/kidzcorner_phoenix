@@ -46,8 +46,7 @@
     {{-- panel 1 --}}
     <div class="phonics-panel">
         <div class="flex relative w-fit h-fit" data-slide-audio="{{ asset('assets/audio/phonics_audio/alphahouse.m4a') }}">
-            <h1
-                class="text-[#f7b94a] text-[8vw] bottom-[10%] left-[24%] stroke leading-none absolute hover:text-[#757571]">
+            <h1 class="text-[#f7b94a] text-[8vw] bottom-[10%] left-[24%] stroke leading-none absolute hover:text-[#757571]">
                 e</h1>
             <img src="{{ asset('assets/images/phonicsl1/letter_a/alpha-house.png') }}" class="w-[47vw]" />
         </div>
@@ -145,7 +144,7 @@
             <div class="bg-no-repeat bg-center bg-contain h-[30vw] w-[28vw] mt-[-7vw]
             flex justify-center items-end"
                 style="background-image: url('{{ asset('assets/images/phonicsl1/global/board.png') }}')">
-
+                <h2 class="text-white text-[2vw] absolute top-[15%]">egg</h2>
                 <div class="grid grid-cols-2 gap-x-[4vw] gap-y-[1.5vw] place-items-center mb-[3vw]">
                     {{-- this is false --}}
                     <div class="flex items-start">
@@ -271,31 +270,29 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_e') }}";
-            const doneURL = "{{ url('/phonics/letter_e') }}";
+            const returnURL = "{{ url('/phonics/letter_e') }}?view=phonics-slide";
+            const doneURL = "{{ url('/phonics/letter_e') }}?view=phonics";
 
             // Track current position
-            let currentSlide = 0; // Which slide we're on now
-            let isInSpecialMode = false; // Are we viewing info slides?
-            let returnToSlide = null; // Which slide to return to
-            let specialSlideClass = null; // Which type of special slide (info-panel-1,, etc.)
+            let currentSlide = 0;
+            let isInSpecialMode = false;
+            let returnToSlide = null;
+            let specialSlideClass = null;
+
+            // Audio management
+            let currentAudio = null;
 
             // HELPER FUNCTIONS
 
-            // Check if a slide is special (info panel)
             function isSpecialSlide(slide) {
                 const classList = Array.from(slide.classList);
-                // Check for info-panel-1,, etc.
                 return classList.some(cls => /^info-panel-\d+$/.test(cls));
             }
 
-            // Get special slide type from button class
-            // Example: "info-btn1" → "info-panel-1", "info-btn2" → "
             function getSlideTypeFromButton(button) {
                 const classList = Array.from(button.classList);
 
                 for (let className of classList) {
-                    // Handle info-btn1 → info-panel-1
                     if (className.startsWith('info-btn')) {
                         const number = className.replace('info-btn', '');
                         return 'info-panel-' + number;
@@ -304,7 +301,6 @@
                 return null;
             }
 
-            // Check if there are more special slides after current one
             function hasMoreSpecialSlides(fromIndex) {
                 if (!specialSlideClass) return false;
 
@@ -316,39 +312,58 @@
                 return false;
             }
 
-            // Check if we're on the last slide
             function isLastSlide(slideIndex) {
-                // Last special slide in special mode
                 if (isInSpecialMode && !hasMoreSpecialSlides(slideIndex)) return true;
 
-                // In normal mode, check if this is the last non-special slide
                 if (!isInSpecialMode) {
-                    // Check if there are any more non-special slides after this one
                     for (let i = slideIndex + 1; i < slides.length; i++) {
                         if (!isSpecialSlide(slides[i])) {
-                            return false; // Found another normal slide
+                            return false;
                         }
                     }
-                    return true; // No more normal slides found
+                    return true;
                 }
 
                 return false;
             }
 
+            // AUDIO FUNCTIONS
+
+            function stopCurrentAudio() {
+                if (currentAudio) {
+                    currentAudio.pause();
+                    currentAudio.currentTime = 0;
+                }
+            }
+
+            function playSlideAudio(slideIndex) {
+                // Stop any currently playing audio
+                stopCurrentAudio();
+
+                // Get the slide element
+                const slide = slides[slideIndex];
+
+                // Look for element with data-slide-audio attribute
+                const audioElement = slide.querySelector('[data-slide-audio]');
+
+                if (audioElement) {
+                    const audioSrc = audioElement.getAttribute('data-slide-audio');
+                    if (audioSrc) {
+                        currentAudio = new Audio(audioSrc);
+                        currentAudio.play().catch(err => console.log('Audio play failed:', err));
+                    }
+                }
+            }
+
             // TEXT-TO-SPEECH FUNCTION
             function speakLetter(letter) {
-                // Cancel any ongoing speech
                 window.speechSynthesis.cancel();
 
-                // Create speech utterance
                 const utterance = new SpeechSynthesisUtterance(letter);
-
-                // Configure voice settings for girl/female voice
-                utterance.rate = 0.8; // Slightly slower speed
-                utterance.pitch = 1.2; // Higher pitch for female voice
+                utterance.rate = 0.8;
+                utterance.pitch = 1.2;
                 utterance.volume = 1;
 
-                // Try to get a female voice
                 const voices = window.speechSynthesis.getVoices();
                 const femaleVoice = voices.find(voice =>
                     voice.name.includes('Female') ||
@@ -362,13 +377,15 @@
                     utterance.voice = femaleVoice;
                 }
 
-                // Speak the letter
                 window.speechSynthesis.speak(utterance);
             }
 
             // DISPLAY FUNCTIONS
 
             function showSlide(slideIndex) {
+                // Stop audio from previous slide
+                stopCurrentAudio();
+
                 // Hide all slides, show only current one
                 slides.forEach((slide, index) => {
                     if (index === slideIndex) {
@@ -377,6 +394,9 @@
                         slide.classList.add("hidden");
                     }
                 });
+
+                // Play audio for current slide (if it has one)
+                playSlideAudio(slideIndex);
 
                 // Show "Done" button on last slide, otherwise show "Next"
                 if (isLastSlide(slideIndex)) {
@@ -391,41 +411,35 @@
             // NAVIGATION FUNCTIONS
 
             function goNext() {
-                // Can't go beyond last slide
                 if (currentSlide >= slides.length - 1) return;
 
                 currentSlide++;
 
-                // Skip slides that don't match current mode
                 while (currentSlide < slides.length) {
                     const slide = slides[currentSlide];
 
                     if (isInSpecialMode) {
-                        // In special mode: only show slides with matching class
                         if (slide.classList.contains(specialSlideClass)) break;
                     } else {
-                        // In normal mode: skip all special slides
                         if (!isSpecialSlide(slide)) break;
                     }
 
                     currentSlide++;
                 }
 
-                // Show the slide if we found one
                 if (currentSlide < slides.length) {
                     showSlide(currentSlide);
                 }
             }
 
             function goBack() {
-                // If at first slide in normal mode, exit to selection page
                 if (currentSlide === 0 && !isInSpecialMode) {
+                    stopCurrentAudio();
                     window.location.href = returnURL;
                     return;
                 }
 
                 if (isInSpecialMode) {
-                    // Find previous special slide
                     let previousIndex = currentSlide - 1;
 
                     while (previousIndex >= 0) {
@@ -436,11 +450,9 @@
                     }
 
                     if (previousIndex >= 0) {
-                        // Found previous special slide
                         currentSlide = previousIndex;
                         showSlide(currentSlide);
                     } else {
-                        // No more special slides, return to normal mode
                         currentSlide = returnToSlide;
                         isInSpecialMode = false;
                         specialSlideClass = null;
@@ -448,11 +460,9 @@
                         showSlide(currentSlide);
                     }
                 } else {
-                    // Normal mode: go to previous normal slide
                     if (currentSlide > 0) {
                         currentSlide--;
 
-                        // Skip any special slides
                         while (currentSlide > 0 && isSpecialSlide(slides[currentSlide])) {
                             currentSlide--;
                         }
@@ -463,32 +473,29 @@
             }
 
             function handleDone() {
+                stopCurrentAudio();
+
                 if (isInSpecialMode && returnToSlide !== null) {
-                    // Return to the slide we came from
                     currentSlide = returnToSlide;
                     isInSpecialMode = false;
                     specialSlideClass = null;
                     returnToSlide = null;
                     showSlide(currentSlide);
                 } else {
-                    // Exit to selection page
                     window.location.href = doneURL;
                 }
             }
 
             // EVENT LISTENERS
 
-            // Info buttons - Enter special mode
             infoButtons.forEach(button => {
                 button.addEventListener("click", function(e) {
                     e.preventDefault();
 
-                    // Remember where we came from
                     returnToSlide = currentSlide;
                     isInSpecialMode = true;
                     specialSlideClass = getSlideTypeFromButton(button);
 
-                    // Find and show first special slide
                     for (let i = 0; i < slides.length; i++) {
                         if (slides[i].classList.contains(specialSlideClass)) {
                             currentSlide = i;
@@ -499,22 +506,18 @@
                 });
             });
 
-            // Next buttons
             nextButtons.forEach(btn => {
                 btn.addEventListener("click", goNext);
             });
 
-            // Return button
             if (returnButton) {
                 returnButton.addEventListener("click", goBack);
             }
 
-            // Done button
             if (doneButton) {
                 doneButton.addEventListener("click", handleDone);
             }
 
-            // SOUND buttons - speak the letter
             soundButtons.forEach(btn => {
                 btn.addEventListener("click", (e) => {
                     e.preventDefault();
@@ -523,7 +526,6 @@
                 });
             });
 
-            // Click on letter link to play sound (exclude info buttons)
             const letterLinks = document.querySelectorAll('.phonics-panel a[href=""]:not([class*="info-btn"])');
             letterLinks.forEach(link => {
                 link.addEventListener('click', (e) => {
@@ -533,12 +535,11 @@
                 });
             });
 
-            // Load voices (some browsers need this)
             window.speechSynthesis.onvoiceschanged = () => {
                 window.speechSynthesis.getVoices();
             };
 
-            // INITIALIZE
+            // INITIALIZE - Show first slide and play its audio
             showSlide(currentSlide);
         });
 
@@ -598,7 +599,7 @@
                 // Stop the sound if still playing
                 wellDoneSound.pause();
                 wellDoneSound.currentTime = 0;
-               window.location.href = '{{ url('/phonics/letter_c') }}?view=phonics';
+                window.location.href = '{{ url('/phonics/letter_e') }}?view=phonics';
             });
 
             // Optional: Sound button functionality

@@ -150,7 +150,7 @@
             <img src="{{ asset('assets/images/phonicsl1/global/gifs/lili.gif') }}"
                 class="h-[20vw] bottom-0 right-0 absolute" />
 
-             <h1 class="text-white text-[3.5vw] absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 text-center">Why is Harry
+             <h1 class="text-white text-[3vw] absolute top-[55%] -translate-y-1/2 left-1/2 -translate-x-1/2 text-center">Why is Harry
                 <br>
                 not happy <br>
                 after his meal?
@@ -170,7 +170,7 @@
             <img src="{{ asset('assets/images/phonicsl1/global/gifs/lili.gif') }}"
                 class="h-[20vw] bottom-0 right-0 absolute" />
 
-            <h1 class="text-white text-[3vw] absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 text-center">Why can’t Harry
+            <h1 class="text-white text-[3vw] absolute top-[55%] -translate-y-1/2 left-1/2 -translate-x-1/2 text-center">Why can’t Harry
                 <br>
                 have some more <br>
                 hay and honey?
@@ -229,8 +229,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_h') }}";
-            const doneURL = "{{ url('/phonics/letter_h') }}";
+            const returnURL = "{{ url('/phonics/letter_h') }}?view=phonics";
+            const doneURL = "{{ url('/phonics/letter_h') }}?view=phonics";
 
             // Track current position
             let currentSlide = 0;

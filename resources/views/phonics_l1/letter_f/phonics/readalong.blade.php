@@ -44,7 +44,8 @@
     <h2 class="top-title stroke"> Read Along</h2>
 
     {{-- panel 1 --}}
-    <div class="phonics-panel no-bg mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-b/read-along.mp3') }}">
+    <div class="phonics-panel no-bg mb-[2vw]"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-b/read-along.mp3') }}">
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" class="w-[60vw]" />
             {{-- gifs --}}
@@ -52,7 +53,8 @@
             <img src="{{ asset('assets/images/phonicsl1/global/gifs/lili.gif') }}"
                 class="h-[20vw] bottom-0 right-0 absolute" />
 
-                        <h1 class="text-white text-[4vw] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"> Read along <br> with us!</h1>
+            <h1 class="text-white text-[4vw] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"> Read along <br>
+                with us!</h1>
 
 
             <p class="p-note absolute bottom-[1vw] left-[22%]">Tip: <a class="c-btn info-btn1">Click here</a> to find out
@@ -85,7 +87,7 @@
     {{-- Panel 2 --}}
     <div class="phonics-panel flex flex-col justify-between h-full">
         <div class="flex flex-col items-center justify-center gap-[2vw]">
-                <img src="{{ asset('assets/images/phonicsl1/letter_f/f-fish.png') }}" class="w-[25vw]"  />
+            <img src="{{ asset('assets/images/phonicsl1/letter_f/f-fish.png') }}" class="w-[25vw]" />
             <h1 class="text-[2vw] text-[#f7b94a]">Five fish for the fox.</h1>
         </div>
         <p class="p-note">Tip: Music will be automatically played twice. Click on the sound icon to repeat music.</p>
@@ -141,8 +143,8 @@
                     {{-- true --}}
                     <div class="col-span-2 flex justify-center ">
                         <div class="flex items-start gap-x-[1vw]">
-                            <a class="hover:brightness-110" id="flase">
-                                <img src="{{ asset('assets/images/phonicsl1/letter_f/duck.png') }}" class="h-[6vw] " />
+                            <a class="hover:brightness-110" id="false">
+                                <img src="{{ asset('assets/images/phonicsl1/letter_d/duck.png') }}" class="h-[6vw] " />
                             </a>
                             {{-- sound Button --}}
                             <button class="w-[3vw]" id="soundButton" data-letter="duck">
@@ -239,8 +241,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_f') }}";
-            const doneURL = "{{ url('/phonics/letter_f') }}";
+            const returnURL = "{{ url('/phonics/letter_f') }}?view=phonics";
+            const doneURL = "{{ url('/phonics/letter_f') }}?view=phonics";
 
             // Track current position
             let currentSlide = 0;
@@ -371,17 +373,40 @@
                     }
                 }
 
-                // 🔊 Auto-play audio if slide has data-slide-audio attribute
+                // 🔊 AUTO-PLAY LOGIC (Priority order):
+                // 1. Check for data-slide-audio attribute on the slide itself
                 const slideAudioSrc = currentSlideElement.getAttribute('data-slide-audio');
                 if (slideAudioSrc) {
-                    // Small delay to ensure slide is visible before playing
                     setTimeout(() => {
                         currentAudio = new Audio(slideAudioSrc);
                         currentAudio.play().catch(err => console.log('Auto-play failed:', err));
                     }, 300);
+                    return; // Exit early, don't check for sound button
+                }
+
+                // 2. Check for sound button with data-audio attribute
+                const soundButton = currentSlideElement.querySelector('#soundButton[data-audio]');
+                if (soundButton) {
+                    const audioSrc = soundButton.getAttribute('data-audio');
+                    if (audioSrc) {
+                        setTimeout(() => {
+                            currentAudio = new Audio(audioSrc);
+
+                            // Play twice as mentioned in tips
+                            let playCount = 0;
+                            currentAudio.play().catch(err => console.log('Auto-play failed:', err));
+
+                            currentAudio.onended = function() {
+                                playCount++;
+                                if (playCount < 1) {
+                                    currentAudio.currentTime = 0;
+                                    currentAudio.play();
+                                }
+                            };
+                        }, 300);
+                    }
                 }
             }
-
             // NAVIGATION FUNCTIONS
             function goNext() {
                 if (currentSlide >= slides.length - 1) return;
@@ -541,6 +566,7 @@
         });
 
 
+
         // panel
         document.addEventListener('DOMContentLoaded', function() {
             // Get elements
@@ -596,7 +622,7 @@
                 // Stop the sound if still playing
                 wellDoneSound.pause();
                 wellDoneSound.currentTime = 0;
-               window.location.href = '{{ url('/phonics/letter_f') }}';
+                window.location.href = '{{ url('/phonics/letter_f') }}?view=phonics';
             });
 
             // Optional: Sound button functionality
