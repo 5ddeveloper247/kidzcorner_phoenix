@@ -21,10 +21,6 @@
             color: #757571 !important;
         }
 
-        .link {
-            font-size: 1.2vw
-        }
-
         .link:hover {
             color: #a37d3adb;
         }
@@ -59,8 +55,9 @@
 
     {{-- Info Panel 1 --}}
     <div class="phonics-panel info-panel-1">
+        <h2 class="top-title stroke">Alphabets Song</h2>
         <div class="flex items-center justify-center">
-            <img src="{{ asset('assets/images/phonicsl1/letter_a/abc.gif') }}" class="h-[25vw]" id="abc" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_a/abc.gif') }}" class="h-[30vw]" id="abc" />
         </div>
         <p class="p-note">Tip: Music will be automatically played twice. Click on the sound icon to repeat music.</p>
 
@@ -303,8 +300,8 @@ document.addEventListener("DOMContentLoaded", function() {
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_z') }}";
-            const doneURL = "{{ url('/phonics/letter_z') }}";
+           const returnURL = "{{ url('/phonics/letter_z') }}?view=phonics";
+           const doneURL = "{{ url('/phonics/letter_z') }}?view=phonics";
 
             // Track current position
             let currentSlide = 0;

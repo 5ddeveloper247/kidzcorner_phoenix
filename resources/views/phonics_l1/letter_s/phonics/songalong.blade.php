@@ -21,10 +21,6 @@
             color: #757571 !important;
         }
 
-        .link {
-            font-size: 1.2vw
-        }
-
         .link:hover {
             color: #a37d3adb;
         }
@@ -50,7 +46,7 @@
             <a class="link text-[1.3vw] info-btn4 absolute bottom-[16%] left-[15%]">This is the Way</a>
             {{-- right --}}
             <a class="link text-[1.3vw] info-btn5 absolute top-[27%] right-[17%]">The ... In ...</a>
-            <a class="link text-[1.1vw] info-btn6 absolute top-[45%] right-[13%]">One Little, Two Little</a>
+            <a class="link text-[1.1vw] info-btn6 absolute top-[45%] right-[12%]">One Juicy, Two Juicy</a>
             <a class="link text-[1.3vw] info-btn7 absolute top-[62%] right-[14%]">I Know a Word</a>
             <a class="link text-[1.3vw] info-btn8 absolute bottom-[16%] right-[10vw]">I Like ...</a>
         </div>
@@ -59,8 +55,9 @@
 
     {{-- Info Panel 1 --}}
     <div class="phonics-panel info-panel-1">
+        <h2 class="top-title stroke">Alphabets Song</h2>
         <div class="flex items-center justify-center">
-            <img src="{{ asset('assets/images/phonicsl1/letter_a/abc.gif') }}" class="h-[25vw]" id="abc" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_a/abc.gif') }}" class="h-[30vw]" id="abc" />
         </div>
         <p class="p-note">Tip: Music will be automatically played twice. Click on the sound icon to repeat music.</p>
 
@@ -191,7 +188,7 @@
 
     {{-- Infpo Panel 6 --}}
     <div class="phonics-panel info-panel-6 flex flex-col gap-[1vw]">
-        <h2 class="top-title stroke">One Little, Two Little</h2>
+        <h2 class="top-title stroke">One Juicy, Two Juicy</h2>
         <h4 class="text-white text-[1vw]">(Tune: Ten Little Indian Boys)</h4>
         <img src="{{ asset('assets/images/phonicsl1/letter_s/starfruits.png') }}" />
         <div class="text-center text-white text-[2vw]">
@@ -292,8 +289,8 @@
 @push('script')
     <script>
         // SLIDE NAVIGATION SYSTEM
-          document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
-document.addEventListener("DOMContentLoaded", function() {
+        document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
+        document.addEventListener("DOMContentLoaded", function() {
 
             // Get all elements
             const slides = document.querySelectorAll(".phonics-panel");
@@ -304,8 +301,8 @@ document.addEventListener("DOMContentLoaded", function() {
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_s') }}";
-            const doneURL = "{{ url('/phonics/letter_s') }}";
+            const returnURL = "{{ url('/phonics/letter_s') }}?view=phonics";
+            const doneURL = "{{ url('/phonics/letter_s') }}?view=phonics";
 
             // Track current position
             let currentSlide = 0;

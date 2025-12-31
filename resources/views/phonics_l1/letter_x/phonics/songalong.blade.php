@@ -21,10 +21,6 @@
             color: #757571 !important;
         }
 
-        .link {
-            font-size: 1.2vw
-        }
-
         .link:hover {
             color: #a37d3adb;
         }
@@ -47,7 +43,7 @@
             <a class="link text-[1.3vw] info-btn1 absolute top-[27%] left-[15%]">Alphabet Song</a>
             <a class="link text-[1.3vw] info-btn2 absolute top-[44%] left-[15%]">...Begins with...</a>
             <a class="link text-[1.2vw] info-btn3 absolute top-[62%] left-[13%]">I’ve got the Letter</a>
-            <a class="link text-[1.3vw] info-btn4 absolute bottom-[16%] left-[15%]">This is the Way</a>
+            <a class="link text-[1.3vw] info-btn4 absolute bottom-[16%] left-[15%]">The angry fox</a>
             {{-- right --}}
             <a class="link text-[1.3vw] info-btn5 absolute top-[27%] right-[17%]">The ... In ...</a>
             <a class="link text-[1.1vw] info-btn6 absolute top-[45%] right-[13%]">One Little, Two Little</a>
@@ -59,8 +55,9 @@
 
     {{-- Info Panel 1 --}}
     <div class="phonics-panel info-panel-1">
+        <h2 class="top-title stroke">Alphabets Song</h2>
         <div class="flex items-center justify-center">
-            <img src="{{ asset('assets/images/phonicsl1/letter_a/abc.gif') }}" class="h-[25vw]" id="abc" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_a/abc.gif') }}" class="h-[30vw]" id="abc" />
         </div>
         <p class="p-note">Tip: Music will be automatically played twice. Click on the sound icon to repeat music.</p>
 
@@ -119,7 +116,7 @@
 
     {{-- Infpo Panel 3 --}}
     <div class="phonics-panel info-panel-3 flex flex-col items-center justify-between">
-        <h2 class="top-title stroke">I’ve got the Letter ‘s’</h2>
+        <h2 class="top-title stroke">I’ve got the Letter ‘x’</h2>
         <div class="flex flex-col items-center gap-[1vw] relative">
             <h4 class="text-white text-[1vw]">(Tune: I’ve got the Whole World in my Hand)</h4>
             <img src="{{ asset('assets/images/phonicsl1/letter_x/xray.png') }}" class="w-[10vw]" />
@@ -143,16 +140,16 @@
 
     {{-- Infpo Panel 4 --}}
     <div class="phonics-panel info-panel-4">
-        <h2 class="top-title stroke">This is the Way</h2>
+        <h2 class="top-title stroke">The angry fox</h2>
         <div class="flex flex-col items-center gap-[1vw]">
             <h4 class="text-white text-[1vw]">(Tune: Here We Go Round the Mulberry Bush)</h4>
             <div class="w-full flex justify-between items-center">
-                <img src="{{ asset('assets/images/phonicsl1/letter_x/fox.png') }}" class="h-[15vw]" />
-                <img src="{{ asset('assets/images/phonicsl1/letter_x/ox.png') }}" class="w-[15vw]" />
+                <img src="{{ asset('assets/images/phonicsl1/letter_x/fox.png') }}" class="h-[13vw]" />
+                <img src="{{ asset('assets/images/phonicsl1/letter_x/ox.png') }}" class="w-[13vw]" />
             </div>
             <div class="text-center text-white text-[2.5vw]">
                 <h3>The angry fox goes after the ox.</h3>
-                <h3>After the ox.        After the ox.</h3>
+                <h3>After the ox. After the ox.</h3>
                 <h3>The angry fox goes after the ox.</h3>
                 <h3>/x/ goes ox.</h3>
 
@@ -294,8 +291,8 @@
 @push('script')
     <script>
         // SLIDE NAVIGATION SYSTEM
-          document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
-document.addEventListener("DOMContentLoaded", function() {
+        document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
+        document.addEventListener("DOMContentLoaded", function() {
 
             // Get all elements
             const slides = document.querySelectorAll(".phonics-panel");
@@ -306,8 +303,8 @@ document.addEventListener("DOMContentLoaded", function() {
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_x') }}";
-            const doneURL = "{{ url('/phonics/letter_x') }}";
+            const returnURL = "{{ url('/phonics/letter_x') }}?view=phonics";
+            const doneURL = "{{ url('/phonics/letter_x') }}?view=phonics";
 
             // Track current position
             let currentSlide = 0;

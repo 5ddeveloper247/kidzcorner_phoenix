@@ -60,7 +60,7 @@
     </div>
 
     {{-- Panel 2 --}}
-    < {{-- Panel 2 --}} <div class="phonics-panel flex flex-col items-center justify-center"
+     {{-- Panel 2 --}} <div class="phonics-panel flex flex-col items-center justify-center"
         data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-x/xst1.m4a') }}">
         <h1 class="text-white text-[3vw]">O<span class="text-[#f7b94a]">x</span>'s <span class="text-[#f7b94a]">X</span>-ray
         </h1>
@@ -154,8 +154,8 @@
                 const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
                 // URLs for navigation
-                const returnURL = "{{ url('/phonics/letter_x') }}";
-                const doneURL = "{{ url('/phonics/letter_x') }}";
+                const returnURL = "{{ url('/phonics/letter_x') }}?view=words";
+                const doneURL = "{{ url('/phonics/letter_x') }}?view=words";
 
                 // Track current position
                 let currentSlide = 0;

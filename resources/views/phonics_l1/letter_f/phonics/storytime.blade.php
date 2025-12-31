@@ -101,8 +101,7 @@
         data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-f/st3.m4a') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_f/fihing.png') }}" class="h-[20vw]" />
 
-        <h1 class="text-white text-[2.5vw]">faith cathes <span class="text-[#f7b94a]">f</span>ive <span
-                class="text-[#f7b94a]">f</span>ive fishes. What a <span class="text-[#f7b94a]">f</span>east!</h1>
+        <h1 class="text-white text-[2.5vw]">faith cathes <span class="text-[#f7b94a]">f</span>ive fishes. What a <span class="text-[#f7b94a]">f</span>east!</h1>
     </div>
 
 

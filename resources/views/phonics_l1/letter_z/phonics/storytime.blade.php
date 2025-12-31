@@ -115,7 +115,7 @@
     {{-- Panel 6 --}}
     <div class="phonics-panel relative flex flex-col items-center"
         data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-z/zst5.m4a') }}">
-        <img src="{{ asset('assets/images/phonicsl1/letter_z/boy.gif') }}" class="h-[25vw] rounded-[1vw]" />
+        <img src="{{ asset('assets/images/phonicsl1/letter_z/boy.png') }}" class="h-[25vw] rounded-[1vw]" />
 
         <h1 class="text-white text-[2.5vw]">To feed the zebras, Zip and Zap.</h1>
     </div>
@@ -147,7 +147,7 @@
             <img src="{{ asset('assets/images/phonicsl1/global/gifs/lili.gif') }}"
                 class="h-[20vw] bottom-0 right-0 absolute" />
 
-            <h1 class="text-white text-[3vw] absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 text-center">What animal <br>
+            <h1 class="text-white text-[3vw] absolute top-[55%] -translate-y-1/2 left-1/2 -translate-x-1/2 text-center">What animal <br>
                 does <br>
                 he like?</h1>
             <p class="p-note absolute bottom-[1vw] left-[35%]">Tip: Elicit response from children.</p>
@@ -164,7 +164,7 @@
             <img src="{{ asset('assets/images/phonicsl1/global/gifs/lili.gif') }}"
                 class="h-[20vw] bottom-0 right-0 absolute" />
 
-            <h1 class="text-white text-[3vw] absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 text-center">What animals <br>
+            <h1 class="text-white text-[3vw] absolute top-[55%] -translate-y-1/2 left-1/2 -translate-x-1/2 text-center">What animals <br>
                 do you <br>
                 like?</h1>
             <p class="p-note absolute bottom-[1vw] left-[35%]">Tip: Elicit response from children.</p>
@@ -220,8 +220,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_z') }}";
-            const doneURL = "{{ url('/phonics/letter_z') }}";
+           const returnURL = "{{ url('/phonics/letter_z') }}?view=phonics";
+           const doneURL = "{{ url('/phonics/letter_z') }}?view=phonics";
 
             // Track current position
             let currentSlide = 0;

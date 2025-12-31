@@ -52,7 +52,7 @@
 
     {{-- Panel 4 --}}
     <div class="phonics-panel flex flex-col justify-between h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-r/flashcard/to.mp3') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-r/flashcard/to.m4a') }}">
         <div class="flex items-start">
             <img src="{{ asset('assets/images/phonicsl1/letter_r/for.png') }}" class="w-[14vw]" />
             <img src="{{ asset('assets/images/phonicsl1/letter_r/it.png') }}" class="w-[14vw]" />
@@ -90,7 +90,7 @@
 
     {{-- Panel 7 --}}
     <div class="phonics-panel flex flex-col justify-between h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-r/flashcard/has.mp3') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-r/flashcard/has.m4a') }}">
         <div class="grid grid-cols-3 items-start">
             <img src="{{ asset('assets/images/phonicsl1/letter_r/for.png') }}" class="w-[14vw]" />
             <img src="{{ asset('assets/images/phonicsl1/letter_r/it.png') }}" class="w-[14vw]" />
@@ -222,8 +222,8 @@ document.addEventListener("DOMContentLoaded", function() {
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_r') }}";
-            const doneURL = "{{ url('/phonics/letter_r') }}";
+            const returnURL = "{{ url('/phonics/letter_r') }}?view=words";
+            const doneURL = "{{ url('/phonics/letter_r') }}?view=words";
 
             // Track current position
             let currentSlide = 0;

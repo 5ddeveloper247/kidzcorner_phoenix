@@ -211,8 +211,8 @@
 @push('script')
     <script>
         // SLIDE NAVIGATION SYSTEM
-          document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
-document.addEventListener("DOMContentLoaded", function() {
+        document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
+        document.addEventListener("DOMContentLoaded", function() {
 
             // Get all elements
             const slides = document.querySelectorAll(".phonics-panel");
@@ -222,7 +222,7 @@ document.addEventListener("DOMContentLoaded", function() {
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const doneURL = "{{ url('/phonics/letter_n') }}?view=words";
+            const returnURL = "{{ url('/phonics/letter_n') }}?view=words";
             const doneURL = "{{ url('/phonics/letter_n') }}?view=words";
 
             // Track current position

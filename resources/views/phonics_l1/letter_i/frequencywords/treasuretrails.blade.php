@@ -50,7 +50,7 @@
         <div
             class="w-[30vw] text-center h-[10vw] rounded-2xl text-[5vw] bg-[#F7B94A] text-white flex justify-center items-center">
             sees</div>
-        <p class="p-note">Tips: This is the second of 10 words to be flashed <br>
+        <p class="p-note">Tips: This is the first of 10 words to be flashed <br>
             Ask children to colour the word on their Treasure Trail Activity Sheet.</p>
     </div>
 
@@ -68,7 +68,7 @@
         <div
             class="w-[30vw] text-center h-[10vw] rounded-2xl text-[5vw] bg-[#F7B94A] text-white flex justify-center items-center">
             come</div>
-        <p class="p-note">Tips: This is the second of 10 words to be flashed <br>
+        <p class="p-note">Tips: This is the third of 10 words to be flashed <br>
             Ask children to colour the word on their Treasure Trail Activity Sheet.</p>
     </div>
 
@@ -77,7 +77,7 @@
         <div
             class="w-[30vw] text-center h-[10vw] rounded-2xl text-[5vw] bg-[#F7B94A] text-white flex justify-center items-center">
             an</div>
-        <p class="p-note">Tips: This is the second of 10 words to be flashed <br>
+        <p class="p-note">Tips: This is the forth of 10 words to be flashed <br>
             Ask children to colour the word on their Treasure Trail Activity Sheet.</p>
     </div>
 
@@ -86,7 +86,7 @@
         <div
             class="w-[30vw] text-center h-[10vw] rounded-2xl text-[5vw] bg-[#F7B94A] text-white flex justify-center items-center">
             first</div>
-        <p class="p-note">Tips: This is the second of 10 words to be flashed <br>
+        <p class="p-note">Tips: This is the fifth of 10 words to be flashed <br>
             Ask children to colour the word on their Treasure Trail Activity Sheet.</p>
     </div>
 
@@ -95,7 +95,7 @@
         <div
             class="w-[30vw] text-center h-[10vw] rounded-2xl text-[5vw] bg-[#F7B94A] text-white flex justify-center items-center">
             about</div>
-        <p class="p-note">Tips: This is the second of 10 words to be flashed <br>
+        <p class="p-note">Tips: This is the sixth of 10 words to be flashed <br>
             Ask children to colour the word on their Treasure Trail Activity Sheet.</p>
     </div>
 
@@ -104,7 +104,7 @@
         <div
             class="w-[30vw] text-center h-[10vw] rounded-2xl text-[5vw] bg-[#F7B94A] text-white flex justify-center items-center">
             see</div>
-        <p class="p-note">Tips: This is the second of 10 words to be flashed <br>
+        <p class="p-note">Tips: This is the seventh of 10 words to be flashed <br>
             Ask children to colour the word on their Treasure Trail Activity Sheet.</p>
     </div>
 
@@ -113,7 +113,7 @@
         <div
             class="w-[30vw] text-center h-[10vw] rounded-2xl text-[5vw] bg-[#F7B94A] text-white flex justify-center items-center">
             get</div>
-        <p class="p-note">Tips: This is the second of 10 words to be flashed <br>
+        <p class="p-note">Tips: This is the eighth of 10 words to be flashed <br>
             Ask children to colour the word on their Treasure Trail Activity Sheet.</p>
     </div>
 
@@ -122,7 +122,7 @@
         <div
             class="w-[30vw] text-center h-[10vw] rounded-2xl text-[5vw] bg-[#F7B94A] text-white flex justify-center items-center">
             she</div>
-        <p class="p-note">Tips: This is the second of 10 words to be flashed <br>
+        <p class="p-note">Tips: This is the ninth of 10 words to be flashed <br>
             Ask children to colour the word on their Treasure Trail Activity Sheet.</p>
     </div>
 
@@ -131,7 +131,7 @@
         <div
             class="w-[30vw] text-center h-[10vw] rounded-2xl text-[5vw] bg-[#F7B94A] text-white flex justify-center items-center">
             is</div>
-        <p class="p-note">Tips: This is the second of 10 words to be flashed <br>
+        <p class="p-note">Tips: This is the last of 10 words to be flashed <br>
             Ask children to colour the word on their Treasure Trail Activity Sheet.</p>
     </div>
 
@@ -183,8 +183,8 @@
 @push('script')
     <script>
         // SLIDE NAVIGATION SYSTEM
-          document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
-document.addEventListener("DOMContentLoaded", function() {
+        document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
+        document.addEventListener("DOMContentLoaded", function() {
 
             // Get all elements
             const slides = document.querySelectorAll(".phonics-panel");

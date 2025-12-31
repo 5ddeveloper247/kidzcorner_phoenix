@@ -239,8 +239,8 @@ document.addEventListener("DOMContentLoaded", function() {
             const infoButtons = document.querySelectorAll("[class*='info-btn']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_t') }}";
-            const doneURL = "{{ url('/phonics/letter_t') }}";
+            const returnURL = "{{ url('/phonics/letter_t') }}?view=words";
+            const doneURL = "{{ url('/phonics/letter_t') }}?view=words";
 
             // Track current position
             let currentSlide = 0;

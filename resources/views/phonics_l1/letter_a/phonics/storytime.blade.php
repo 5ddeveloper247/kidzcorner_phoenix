@@ -143,7 +143,7 @@
 
         {{-- Panel 6 --}}
         <div class="phonics-panel flex flex-col"
-            data-slide-audio="{{ asset('assets/audio/phonics_audio/buddy-jam.mp3') }}">
+            data-slide-audio="{{ asset('assets/audio/phonics_audio/ast5.m4a') }}">
             <div class="flex flex-col items-center">
                 <h2 class="text-white text-[2.5vw]">Buddy and Lili are angry with the ants.</h2>
                 <div class="flex items-end w-fit relative">

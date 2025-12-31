@@ -52,7 +52,7 @@
             <img src="{{ asset('assets/images/phonicsl1/global/gifs/lili.gif') }}"
                 class="h-[20vw] bottom-0 right-0 absolute" />
 
-              <h1 class="text-white text-[4vw] absolute top-[55%] left-1/2 -translate-1/2"> It's story <br> time!</h1>
+            <h1 class="text-white text-[4vw] absolute top-[55%] left-1/2 -translate-1/2"> It's story <br> time!</h1>
 
             <p class="p-note absolute bottom-[1vw] left-[22%]">Tip: <a class="c-btn">Click here</a> to find
                 out why reading words is important.</p>
@@ -138,30 +138,26 @@
 
 @push('script')
     <script>
-        // SLIDE NAVIGATION SYSTEM
-          document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
-document.addEventListener("DOMContentLoaded", function() {
+        document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
 
-            // Get all elements
+        document.addEventListener("DOMContentLoaded", function() {
+
             const slides = document.querySelectorAll(".phonics-panel");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
             const doneButton = document.querySelector(".doneButton");
+            const homeButton = document.getElementById("homeButton");
+            const closeButton = document.getElementById("closeButton");
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
-            // URLs for navigation
-            const doneURL = "{{ url('/phonics/letter_n') }}?view=words";
-            const doneURL = "{{ url('/phonics/letter_n') }}?view=words";
+            const returnURL = "{{ url('/phonics/letter_n') }}?view=words"; // ✅ FIX
+            const doneURL = "{{ url('/phonics/letter_n') }}?view=words"; // ✅ single declaration
 
-            // Track current position
             let currentSlide = 0;
-
-            // 🔊 Global audio tracking
             let currentAudio = null;
 
-            // 🛑 Function to stop all audio/speech
+            // 🛑 Stop all audio
             function stopAllAudio() {
-                // Stop any playing audio files
                 if (currentAudio) {
                     currentAudio.pause();
                     currentAudio.currentTime = 0;
@@ -169,156 +165,106 @@ document.addEventListener("DOMContentLoaded", function() {
                 }
             }
 
-            // HELPER FUNCTIONS
             function isSpecialSlide(slide) {
-                const classList = Array.from(slide.classList);
-                return classList.some(cls => /^info-panel-\d+$/.test(cls));
+                return [...slide.classList].some(cls => /^info-panel-\d+$/.test(cls));
             }
 
-            function isLastSlide(slideIndex) {
-                for (let i = slideIndex + 1; i < slides.length; i++) {
-                    if (!isSpecialSlide(slides[i])) {
-                        return false;
-                    }
+            function isLastSlide(index) {
+                for (let i = index + 1; i < slides.length; i++) {
+                    if (!isSpecialSlide(slides[i])) return false;
                 }
                 return true;
             }
 
-            // DISPLAY FUNCTIONS
-            function showSlide(slideIndex) {
-                const ajaxSection = document.getElementById('ajax-section');
-                const currentSlideElement = slides[slideIndex];
+            function showSlide(index) {
+                const ajaxSection = document.getElementById("ajax-section");
+                const slide = slides[index];
 
-                // 🛑 Stop all audio when changing slides
                 stopAllAudio();
 
-                // Hide all slides, show only current one
-                slides.forEach((slide, index) => {
-                    if (index === slideIndex) {
-                        slide.classList.remove("hidden");
-                    } else {
-                        slide.classList.add("hidden");
-                    }
+                slides.forEach((s, i) => {
+                    s.classList.toggle("hidden", i !== index);
                 });
 
-                // Check if current slide has 'next-hide' class
-                if (currentSlideElement.classList.contains('next-hide')) {
-                    nextButtons.forEach(btn => btn.classList.add("hidden"));
+                // Next / Done logic
+                if (slide.classList.contains("next-hide")) {
+                    nextButtons.forEach(b => b.classList.add("hidden"));
+                } else if (isLastSlide(index)) {
+                    nextButtons.forEach(b => b.classList.add("hidden"));
+                    slide.classList.contains("done-hide") ?
+                        doneButton?.classList.add("hidden") :
+                        doneButton?.classList.remove("hidden");
                 } else {
-                    // Show "Done" button on last slide, otherwise show "Next"
-                    if (isLastSlide(slideIndex)) {
-                        // Check if current slide has 'done-hide' class
-                        if (currentSlideElement.classList.contains('done-hide')) {
-                            // Hide done button if slide has done-hide class
-                            if (doneButton) doneButton.classList.add("hidden");
-                            nextButtons.forEach(btn => btn.classList.add("hidden"));
-                        } else {
-                            // Show done button normally
-                            nextButtons.forEach(btn => btn.classList.add("hidden"));
-                            if (doneButton) doneButton.classList.remove("hidden");
-                        }
-                    } else {
-                        nextButtons.forEach(btn => btn.classList.remove("hidden"));
-                        if (doneButton) doneButton.classList.add("hidden");
-                    }
+                    nextButtons.forEach(b => b.classList.remove("hidden"));
+                    doneButton?.classList.add("hidden");
                 }
 
-                // Toggle ajax-section background ONLY based on no-bg class
+                // Background toggle
                 if (ajaxSection) {
-                    if (currentSlideElement.classList.contains('no-bg')) {
-                        ajaxSection.classList.add('no-bg');
-                    } else {
-                        ajaxSection.classList.remove('no-bg');
-                    }
+                    ajaxSection.classList.toggle("no-bg", slide.classList.contains("no-bg"));
                 }
 
-                // 🔊 Auto-play audio if slide has data-slide-audio attribute
-                const slideAudioSrc = currentSlideElement.getAttribute('data-slide-audio');
-                if (slideAudioSrc) {
-                    // Small delay to ensure slide is visible before playing
+                // 🔊 Auto-play slide audio
+                const audioSrc = slide.dataset.slideAudio;
+                if (audioSrc) {
                     setTimeout(() => {
-                        currentAudio = new Audio(slideAudioSrc);
-                        currentAudio.play().catch(err => console.log('Auto-play failed:', err));
+                        currentAudio = new Audio(audioSrc);
+                        currentAudio.play().catch(() => {});
                     }, 300);
                 }
             }
 
-            // NAVIGATION FUNCTIONS
             function goNext() {
                 if (currentSlide >= slides.length - 1) return;
+
                 currentSlide++;
-                while (currentSlide < slides.length) {
-                    const slide = slides[currentSlide];
-                    if (!isSpecialSlide(slide)) break;
+                while (slides[currentSlide] && isSpecialSlide(slides[currentSlide])) {
                     currentSlide++;
                 }
-                if (currentSlide < slides.length) {
-                    showSlide(currentSlide);
-                }
+
+                showSlide(currentSlide);
             }
 
             function goBack() {
                 if (currentSlide === 0) {
-                    stopAllAudio(); // 🛑 Stop audio before leaving
+                    stopAllAudio();
                     window.location.href = returnURL;
                     return;
                 }
-                if (currentSlide > 0) {
+
+                currentSlide--;
+                while (currentSlide > 0 && isSpecialSlide(slides[currentSlide])) {
                     currentSlide--;
-                    while (currentSlide > 0 && isSpecialSlide(slides[currentSlide])) {
-                        currentSlide--;
-                    }
-                    showSlide(currentSlide);
                 }
+
+                showSlide(currentSlide);
             }
 
             function handleDone() {
-                stopAllAudio(); // 🛑 Stop audio before action
+                stopAllAudio();
                 window.location.href = doneURL;
             }
 
-            // EVENT LISTENERS
-            nextButtons.forEach(btn => {
-                btn.addEventListener("click", goNext);
-            });
-
-            if (returnButton) {
-                returnButton.addEventListener("click", goBack);
-            }
-
-            if (doneButton) {
-                doneButton.addEventListener("click", handleDone);
-            }
-
-            // 🔊 Home and Close buttons also stop audio
-            const homeButton = document.getElementById("homeButton");
-            const closeButton = document.getElementById("closeButton");
-
-            if (homeButton) {
-                homeButton.addEventListener("click", () => stopAllAudio());
-            }
-
-            if (closeButton) {
-                closeButton.addEventListener("click", () => stopAllAudio());
-            }
+            // Events
+            nextButtons.forEach(btn => btn.addEventListener("click", goNext));
+            returnButton?.addEventListener("click", goBack);
+            doneButton?.addEventListener("click", handleDone);
+            homeButton?.addEventListener("click", stopAllAudio);
+            closeButton?.addEventListener("click", stopAllAudio);
 
             soundButtons.forEach(btn => {
-                btn.addEventListener("click", (e) => {
+                btn.addEventListener("click", e => {
                     e.preventDefault();
-
-                    // Stop any previous audio first
                     stopAllAudio();
-
-                    // Play audio file if data-audio is provided
-                    const audioSrc = btn.getAttribute("data-audio");
-                    if (audioSrc) {
-                        currentAudio = new Audio(audioSrc);
+                    const src = btn.dataset.audio;
+                    if (src) {
+                        currentAudio = new Audio(src);
                         currentAudio.play();
                     }
                 });
             });
 
-            // INITIALIZE
+            // Init
             showSlide(currentSlide);
         });
     </script>

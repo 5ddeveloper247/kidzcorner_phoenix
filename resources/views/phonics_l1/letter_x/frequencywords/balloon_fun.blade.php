@@ -86,7 +86,7 @@
     <div class="phonics-panel flex flex-col items-center justify-between h-full">
         <div class="space-y-[5vw]">
             <h1 class="text-white text-[5vw]">many</h1>
-           <div class="flex gap-[1vw]">
+            <div class="flex gap-[1vw]">
 
                 <a id="false" class="h-fit relative inline-block">
                     <img src="{{ asset('assets/images/phonicsl1/letter_g/bg.png') }}" class="h-[10vw]">
@@ -178,7 +178,7 @@
                 <a id="false" class="h-fit relative inline-block">
                     <img src="{{ asset('assets/images/phonicsl1/letter_g/bg.png') }}" class="h-[10vw]">
                     <span class="bg-title absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-                        how 
+                        how
                     </span>
                 </a>
 
@@ -198,14 +198,16 @@
 
             </div>
         </div>
-        <p class="p-note">Tips: Click on the word that matches the one shown. This is the last of 4 sets of activities. Follow
-up with the 'Balloon Fun' Activity Sheet in the Pupil's Activity Book.</p>
+        <p class="p-note">Tips: Click on the word that matches the one shown. This is the last of 4 sets of activities.
+            Follow
+            up with the 'Balloon Fun' Activity Sheet in the Pupil's Activity Book.</p>
     </div>
 
 
 
     {{-- Try Again --}}
-    <div id="tryAgain" class="fixed inset-0 z-[1000] hidden  items-center justify-center bg-[#0000002e]  backdrop-blur-sm">
+    <div id="tryAgain"
+        class="fixed inset-0 z-[1000] hidden  items-center justify-center bg-[#0000002e]  backdrop-blur-sm">
         <div class="w-[60vw] relative h-[40vw] bg-contain bg-no-repeat bg-center flex flex-col justify-center items-center rounded-lg "
             style="background-image: url('{{ asset('assets/images/K2/exit.png') }}');">
             <p class="text-[3vw] !text-[#F8473A] stroke font-bold">Try Again?</p>
@@ -220,7 +222,8 @@ up with the 'Balloon Fun' Activity Sheet in the Pupil's Activity Book.</p>
     </div>
 
     {{-- Well Done --}}
-    <div id="wellDone" class="fixed inset-0 z-[1000] hidden  items-center justify-center bg-[#0000002e]  backdrop-blur-sm">
+    <div id="wellDone"
+        class="fixed inset-0 z-[1000] hidden  items-center justify-center bg-[#0000002e]  backdrop-blur-sm">
         <div class="w-[60vw] relative h-[40vw] bg-contain bg-no-repeat bg-center flex flex-col justify-center items-center rounded-lg "
             style="background-image: url('{{ asset('assets/images/K2/exit.png') }}');">
             <p class="text-[3vw] !text-[#59967D] font-bold">Well Done!</p>
@@ -273,8 +276,8 @@ up with the 'Balloon Fun' Activity Sheet in the Pupil's Activity Book.</p>
 @push('script')
     <script>
         // SLIDE NAVIGATION SYSTEM
-          document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
-document.addEventListener("DOMContentLoaded", function() {
+        document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
+        document.addEventListener("DOMContentLoaded", function() {
 
             // Get all elements
             const slides = document.querySelectorAll(".phonics-panel");
@@ -283,8 +286,8 @@ document.addEventListener("DOMContentLoaded", function() {
             const doneButton = document.querySelector(".doneButton");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_r') }}";
-            const doneURL = "{{ url('/phonics/letter_r') }}";
+            const returnURL = "{{ url('/phonics/letter_x') }}?view=words";
+            const doneURL = "{{ url('/phonics/letter_x') }}?view=words";
 
             // Track current position
             let currentSlide = 0;

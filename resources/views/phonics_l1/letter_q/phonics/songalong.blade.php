@@ -55,8 +55,9 @@
 
     {{-- Info Panel 1 --}}
     <div class="phonics-panel info-panel-1">
+        <h2 class="top-title stroke">Alphabets Song</h2>
         <div class="flex items-center justify-center">
-            <img src="{{ asset('assets/images/phonicsl1/letter_a/abc.gif') }}" class="h-[25vw]" id="abc" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_a/abc.gif') }}" class="h-[30vw]" id="abc" />
         </div>
         <p class="p-note">Tip: Music will be automatically played twice. Click on the sound icon to repeat music.</p>
 
@@ -113,7 +114,7 @@
 
     {{-- Infpo Panel 3 --}}
     <div class="phonics-panel info-panel-3 flex flex-col items-center justify-between">
-        <h2 class="top-title stroke">I’ve got the Letter ‘k’</h2>
+        <h2 class="top-title stroke">I’ve got the Letter ‘q’</h2>
         <div class="flex flex-col items-center gap-[1vw] relative">
             <h4 class="text-white text-[1vw]">(Tune: I’ve got the Whole World in my Hand)</h4>
             <img src="{{ asset('assets/images/phonicsl1/letter_q/quilt.png') }}" class="w-[10vw]" />
@@ -300,8 +301,8 @@ document.addEventListener("DOMContentLoaded", function() {
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_q') }}";
-            const doneURL = "{{ url('/phonics/letter_q') }}";
+            const returnURL = "{{ url('/phonics/letter_q') }}?view=phonics";
+            const doneURL = "{{ url('/phonics/letter_q') }}?view=phonics";
 
             // Track current position
             let currentSlide = 0;

@@ -187,7 +187,7 @@
 
                 // URLs for navigation
                 const returnURL = "{{ url('/phonics/letter_n') }}?view=phonics";
-                const doneURL = "{{ url('/phonics/letter_n') }}?view=phonics";
+                const doneURL = "{{ url('/phonics/letter_n') }}";
 
                 // Track current position
                 let currentSlide = 0;

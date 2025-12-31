@@ -272,9 +272,8 @@
 @push('script')
     <script>
         // SLIDE NAVIGATION SYSTEM
-        // SLIDE NAVIGATION SYSTEM
-          document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
-document.addEventListener("DOMContentLoaded", function() {
+        document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
+        document.addEventListener("DOMContentLoaded", function() {
 
             // Get all elements
             const slides = document.querySelectorAll(".phonics-panel");
@@ -540,7 +539,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 'item-2': "{{ asset('assets/audio/phonics_audio/letter-j/jst3.m4a') }}",
                 'item-3': "{{ asset('assets/audio/phonics_audio/letter-j/jst4.m4a') }}",
                 'item-4': "{{ asset('assets/audio/phonics_audio/letter-j/jst5.m4a') }}",
-                
+
             };
 
             items.forEach(item => {

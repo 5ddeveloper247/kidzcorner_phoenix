@@ -186,7 +186,7 @@
                 const infoButtons = document.querySelectorAll("[class*='info-btn']");
 
                 // URLs for navigation
-                const returnURL = "{{ url('/phonics/letter_v') }}";
+                const returnURL = "{{ url('/phonics/letter_v') }}?view=phonics";
                 const doneURL = "{{ url('/phonics/letter_v') }}";
 
                 // Track current position

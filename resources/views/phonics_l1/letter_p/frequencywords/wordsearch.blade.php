@@ -235,8 +235,8 @@ document.addEventListener("DOMContentLoaded", function() {
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_p') }}";
-            const doneURL = "{{ url('/phonics/letter_p') }}";
+            const returnURL = "{{ url('/phonics/letter_p') }}?view=words";
+            const doneURL = "{{ url('/phonics/letter_p') }}?view=words";
 
             // Track current position
             let currentSlide = 0;

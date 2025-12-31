@@ -20,10 +20,10 @@
         .large-title:hover {
             color: #757571 !important;
         }
-
+/* 
         .link {
             font-size: 1.2vw
-        }
+        } */
 
         .link:hover {
             color: #a37d3adb;
@@ -50,7 +50,7 @@
             <a class="link text-[1.3vw] info-btn4 absolute bottom-[16%] left-[15%]">This is the Way</a>
             {{-- right --}}
             <a class="link text-[1.3vw] info-btn5 absolute top-[27%] right-[17%]">The ... In ...</a>
-            <a class="link text-[1.1vw] info-btn6 absolute top-[45%] right-[13%]">One Little, Two Little</a>
+            <a class="link text-[1.1vw] info-btn6 absolute top-[45%] right-[12%]">One Little, Two Little</a>
             <a class="link text-[1.3vw] info-btn7 absolute top-[62%] right-[14%]">I Know a Word</a>
             <a class="link text-[1.3vw] info-btn8 absolute bottom-[16%] right-[10vw]">I Like ...</a>
         </div>
@@ -59,8 +59,9 @@
 
     {{-- Info Panel 1 --}}
     <div class="phonics-panel info-panel-1">
+        <h2 class="top-title stroke">Alphabets Song</h2>
         <div class="flex items-center justify-center">
-            <img src="{{ asset('assets/images/phonicsl1/letter_a/abc.gif') }}" class="h-[25vw]" id="abc" />
+            <img src="{{ asset('assets/images/phonicsl1/letter_a/abc.gif') }}" class="h-[30vw]" id="abc" />
         </div>
         <p class="p-note">Tip: Music will be automatically played twice. Click on the sound icon to repeat music.</p>
 
@@ -119,7 +120,7 @@
 
     {{-- Infpo Panel 3 --}}
     <div class="phonics-panel info-panel-3 flex flex-col items-center justify-between">
-        <h2 class="top-title stroke">I’ve got the Letter ‘s’</h2>
+        <h2 class="top-title stroke">I’ve got the Letter ‘t’</h2>
         <div class="flex flex-col items-center gap-[1vw] relative">
             <h4 class="text-white text-[1vw]">(Tune: I’ve got the Whole World in my Hand)</h4>
             <img src="{{ asset('assets/images/phonicsl1/letter_t/ten.png') }}" class="w-[10vw]" />
@@ -304,8 +305,8 @@ document.addEventListener("DOMContentLoaded", function() {
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_t') }}";
-            const doneURL = "{{ url('/phonics/letter_t') }}";
+            const returnURL = "{{ url('/phonics/letter_t') }}?view=phonics";
+            const doneURL = "{{ url('/phonics/letter_t') }}?view=phonics";
 
             // Track current position
             let currentSlide = 0;

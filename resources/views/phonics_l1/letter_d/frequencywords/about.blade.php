@@ -188,7 +188,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
             // URLs for navigation
             const returnURL = "{{ url('/phonics/letter_d') }}?view=words";
-            const doneURL = "{{ url('/phonics/letter_d') }}";
+            const doneURL = "{{ url('/phonics/l1') }}";
 
             // Track current position
             let currentSlide = 0;
