@@ -9,7 +9,7 @@
 @push('styles')
     <style>
         .p-note {
-            font-size: 1.2.2vw;
+            font-size: 1.2vw;
             color: white !important;
         }
 
@@ -72,7 +72,7 @@
         data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-j/jst2.m4a') }}">
         <h2 class="text-white text-[1.6vw] text-center">How many of these words can you find <br>
             in the story? Circle them.</h2>
-        <img src="{{ asset('assets/images/phonicsl1/letter_j/stack1.png') }}" class="w-full" />
+        <img src="{{ asset('assets/images/phonicsl1/letter_j/stack1.png') }}" class="w-[55vw]" />
         <div class="w-fit h-fit relative">
             <img src="{{ asset('assets/images/phonicsl1/letter_j/hill.png') }}" class="w-[25vw]" />
             <img src="{{ asset('assets/images/phonicsl1/letter_j/run1.gif') }}"
@@ -88,7 +88,7 @@
     {{-- Panel 4 --}}
     <div class="phonics-panel flex flex-col items-center justify-between h-full"
         data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-j/jst2.m4a') }}">
-        <img src="{{ asset('assets/images/phonicsl1/letter_j/stack2.png') }}" class="w-full" />
+        <img src="{{ asset('assets/images/phonicsl1/letter_j/stack2.png') }}" class="w-[55vw]" />
         <div class="w-fit h-fit relative">
             <img src="{{ asset('assets/images/phonicsl1/letter_j/hill.png') }}" class="w-[35vw]" />
             <img src="{{ asset('assets/images/phonicsl1/letter_j/run1.gif') }}"
@@ -107,7 +107,7 @@
         data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-j/jst3.m4a') }}">
         <h2 class="text-white text-[1.6vw] text-center">How many of these words can you find <br>
             in the story? Circle them.</h2>
-        <img src="{{ asset('assets/images/phonicsl1/letter_j/stack2.png') }}" class="w-full" />
+        <img src="{{ asset('assets/images/phonicsl1/letter_j/stack2.png') }}" class="w-[55vw]" />
         <div>
             <img src="{{ asset('assets/images/phonicsl1/letter_j/reaching.gif') }}" class="h-[14vw]" />
         </div>
@@ -119,7 +119,7 @@
     {{-- Panel 6 --}}
     <div class="phonics-panel flex flex-col items-center justify-between h-full"
         data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-j/jst3.m4a') }}">
-        <img src="{{ asset('assets/images/phonicsl1/letter_j/stack3.png') }}" class="w-full" />
+        <img src="{{ asset('assets/images/phonicsl1/letter_j/stack3.png') }}" class="w-[55vw]" />
         <div>
             <img src="{{ asset('assets/images/phonicsl1/letter_j/reaching.gif') }}" class="h-[15vw]" />
         </div>
@@ -134,11 +134,11 @@
         data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-j/jst4.m4a') }}">
         <h2 class="text-white text-[1.6vw] text-center">How many of these words can you find <br>
             in the story? Circle them.</h2>
-        <img src="{{ asset('assets/images/phonicsl1/letter_j/stack3.png') }}" class="w-full" />
+        <img src="{{ asset('assets/images/phonicsl1/letter_j/stack3.png') }}" class="w-[55vw]" />
         <div>
             <img src="{{ asset('assets/images/phonicsl1/letter_j/falling.gif') }}" class="h-[14vw]" />
         </div>
-        <h1 class="text-white text-[2.2vw]">Jim jumps and giggles about</h1>
+        <h1 class="text-white text-[2.2vw]">Jim jumps and jiggles about</h1>
         <p class="p-note w-[70%]">Tip: Ask children to circle the words that appear in the story on their Activity Sheet.
             Check result on next slide.</p>
     </div>
@@ -146,11 +146,11 @@
     {{-- Panel 8 --}}
     <div class="phonics-panel flex flex-col items-center justify-between h-full"
         data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-j/jst4.m4a') }}">
-        <img src="{{ asset('assets/images/phonicsl1/letter_j/stack4.png') }}" class="w-full" />
+        <img src="{{ asset('assets/images/phonicsl1/letter_j/stack4.png') }}" class="w-[55vw]" />
         <div>
             <img src="{{ asset('assets/images/phonicsl1/letter_j/falling.gif') }}" class="h-[15vw]" />
         </div>
-        <h1 class="text-white text-[2.2vw]">Jim jumps and giggles <span class="text-[#f7b94a]">about</span></h1>
+        <h1 class="text-white text-[2.2vw]">Jim jumps and jiggles <span class="text-[#f7b94a]">about</span></h1>
         <p class="p-note">Tip: Highlight that the beginning letter in a sentence is written in uppercase.</p>
     </div>
 
@@ -159,7 +159,7 @@
         data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-j/jst5.m4a') }}">
         <h2 class="text-white text-[1.6vw] text-center">How many of these words can you find <br>
             in the story? Circle them.</h2>
-        <img src="{{ asset('assets/images/phonicsl1/letter_j/stack4.png') }}" class="w-full" />
+        <img src="{{ asset('assets/images/phonicsl1/letter_j/stack4.png') }}" class="w-[55vw]" />
         <div>
             <img src="{{ asset('assets/images/phonicsl1/letter_j/sad.gif') }}" class="h-[14vw]" />
         </div>
@@ -172,7 +172,7 @@
     {{-- Panel 10 --}}
     <div class="phonics-panel flex flex-col items-center"
         data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-j/jst5.m4a') }}">
-        <img src="{{ asset('assets/images/phonicsl1/letter_j/stack4.png') }}" class="w-full" />
+        <img src="{{ asset('assets/images/phonicsl1/letter_j/stack4.png') }}" class="w-[55vw]" />
         <div>
             <img src="{{ asset('assets/images/phonicsl1/letter_j/sad.gif') }}" class="h-[16vw]" />
         </div>
@@ -183,52 +183,76 @@
 
     {{-- Panel 11 --}}
     <div class="phonics-panel flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/phonicsl1/letter_j/stack4.png') }}" class="w-full" />
+        <img src="{{ asset('assets/images/phonicsl1/letter_j/stack4.png') }}" class="w-[55vw]" />
     </div>
 
 
 
-    <div class="phonics-panel grid grid-cols-2 gap-x-[2vw]">
+    <div class="phonics-panel flex items-center justify-center min-h-[60vh]">
 
-        <!-- ITEM 1 -->
-        <div class="flex flex-col items-center text-center w-fit">
-            <div class="item-1 w-fit h-fit relative">
-                <img src="{{ asset('assets/images/phonicsl1/letter_j/hill.png') }}" class="w-[25vw]" />
-                <img src="{{ asset('assets/images/phonicsl1/letter_j/run1.gif') }}"
-                    class="h-[10vw] absolute bottom-[18%] rotate-[-23deg] left-[40%]" />
-                <img src="{{ asset('assets/images/phonicsl1/letter_j/run2.gif') }}"
-                    class="h-[10vw] absolute bottom-[4%] scale-x-[-1] left-[20%] rotate-[-17deg]" />
+        <div class="grid grid-cols-2 gap-x-[2vw] gap-y-[2vw] mx-auto">
+
+            <!-- ITEM 1 -->
+            <div class="flex justify-center">
+                <div class="flex flex-col items-center text-center w-fit">
+                    <div class="item-1 w-fit h-fit relative">
+                        <img src="{{ asset('assets/images/phonicsl1/letter_j/hill.png') }}" class="w-[25vw]" />
+                        <img src="{{ asset('assets/images/phonicsl1/letter_j/run1.gif') }}"
+                            class="h-[10vw] absolute bottom-[18%] rotate-[-23deg] left-[40%]" />
+                        <img src="{{ asset('assets/images/phonicsl1/letter_j/run2.gif') }}"
+                            class="h-[10vw] absolute bottom-[4%] scale-x-[-1] left-[20%] rotate-[-17deg]" />
+                    </div>
+                    <h1 class="mt-[0.5vw] text-white text-[1.4vw]">
+                        Jingle <span class="text-[#f7b94a]">and</span> Jim jog
+                        <span class="text-[#f7b94a]">up</span> the hill
+                    </h1>
+                </div>
             </div>
-            <h1 class="text-white text-[1.4vw]">Jingle <span class="text-[#f7b94a]">and</span> Jim jog <span
-                    class="text-[#f7b94a]">up</span> the hill</h1>
+
+            <!-- ITEM 2 -->
+            <div class="flex justify-center">
+                <div class="flex flex-col items-center text-center w-fit">
+                    <div class="w-fit item-2">
+                        <img src="{{ asset('assets/images/phonicsl1/letter_j/reaching.gif') }}" class="h-[13vw]" />
+                    </div>
+                    <h1 class="mt-[0.5vw] text-white text-[1.4vw]">
+                        <span class="text-[#f7b94a]">Just</span> to
+                        <span class="text-[#f7b94a]">get</span> a jar
+                        <span class="text-[#f7b94a]">of</span> jellies.
+                    </h1>
+                </div>
+            </div>
+
+            <!-- ITEM 3 -->
+            <div class="flex justify-center">
+                <div class="flex flex-col items-center text-center w-fit mt-[1vw]">
+                    <div class="w-fit item-3">
+                        <img src="{{ asset('assets/images/phonicsl1/letter_j/falling.gif') }}" class="h-[12vw]" />
+                    </div>
+                    <h1 class="mt-[0.5vw] text-white text-[1.4vw]">
+                        Jim jumps and jiggles <span class="text-[#f7b94a]">about</span>
+                    </h1>
+                </div>
+            </div>
+
+            <!-- ITEM 4 -->
+            <div class="flex justify-center">
+                <div class="flex flex-col items-center text-center w-fit">
+                    <div class="w-fit item-4">
+                        <img src="{{ asset('assets/images/phonicsl1/letter_j/sad.gif') }}" class="h-[12vw]" />
+                    </div>
+                    <h1 class="mt-[0.5vw] text-white text-[1.4vw]">
+                        <span class="text-[#f7b94a]">And</span> breaks the jar
+                        <span class="text-[#f7b94a]">of</span> jellies.
+                    </h1>
+                </div>
+            </div>
+
         </div>
 
-        <!-- ITEM 2 -->
-        <div class="flex flex-col items-center text-center w-fit">
-            <div class="w-fit item-2">
-                <img src="{{ asset('assets/images/phonicsl1/letter_j/reaching.gif') }}" class="h-[13vw]" />
-            </div>
-            <h1 class="text-white text-[1.4vw]"><span class="text-[#f7b94a]">Just</span> to <span
-                    class="text-[#f7b94a]">get</span> a jar <span class="text-[#f7b94a]">of</span> jellies .</h1>
-        </div>
-
-        <!-- ITEM 3 -->
-        <div class="flex flex-col items-center text-center w-fit mt-[1vw]">
-            <div class="w-fit item-3">
-                <img src="{{ asset('assets/images/phonicsl1/letter_j/falling.gif') }}" class="h-[12vw]" />
-            </div>
-            <h1 class="text-white text-[1.4vw]">Jim jumps and giggles <span class="text-[#f7b94a]">about</span></h1>
-        </div>
-
-        <!-- ITEM 4 -->
-        <div class="flex flex-col items-center text-center w-fit">
-            <div class="w-fit item-4">
-                <img src="{{ asset('assets/images/phonicsl1/letter_j/sad.gif') }}" class="h-[12vw]" />
-            </div>
-            <h1 class="text-white text-[1.4vw]"><span class="text-[#f7b94a]">And</span> breaks the jar <span
-                    class="text-[#f7b94a]">of</span> jellies.</h1>
-        </div>
     </div>
+
+
 
 
 

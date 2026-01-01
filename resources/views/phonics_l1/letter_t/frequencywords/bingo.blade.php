@@ -72,7 +72,7 @@
     {{-- Bingo Panel --}}
     <div class="phonics-panel info-panel-1  flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]">
         <div
-            class="w-[20vw] text-center h-[9vw] rounded-2xl text-[4vw] bg-[#F7B94A] text-white flex justify-center items-center">
+            class="w-[25vw] text-center h-[9vw] rounded-2xl text-[4vw] bg-[#F7B94A] text-white flex justify-center items-center">
             and</div>
         <p class="p-note">Tips: This is the first of 5 words for <span class="text-[#f7b94a]">Bingo Sheet 1</span>. <br>
             Ask children to circle the word on their Bingo Sheet.</p>
@@ -81,7 +81,7 @@
     {{-- Bingo panel --}}
     <div class="phonics-panel info-panel-1  flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]">
         <div
-            class="w-[20vw] text-center h-[9vw] rounded-2xl text-[4vw] bg-[#F7B94A] text-white flex justify-center items-center">
+            class="w-[25vw] text-center h-[9vw] rounded-2xl text-[4vw] bg-[#F7B94A] text-white flex justify-center items-center">
             each</div>
         <p class="p-note">Tips: This is the second of 5 words for <span class="text-[#f7b94a]">Bingo Sheet 1</span>. <br>
             Ask children to circle the word on their Bingo Sheet.</p>
@@ -90,7 +90,7 @@
     {{-- Bingo panel --}}
     <div class="phonics-panel info-panel-1  flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]">
         <div
-            class="w-[20vw] text-center h-[9vw] rounded-2xl text-[4vw] bg-[#F7B94A] text-white flex justify-center items-center">
+            class="w-[25vw] text-center h-[9vw] rounded-2xl text-[4vw] bg-[#F7B94A] text-white flex justify-center items-center">
             a</div>
         <p class="p-note">Tips: This is the third of 5 words for <span class="text-[#f7b94a]">Bingo Sheet 1</span>. <br>
             Ask children to circle the word on their Bingo Sheet.</p>
@@ -99,7 +99,7 @@
     {{-- Bingo panel --}}
     <div class="phonics-panel info-panel-1  flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]">
         <div
-            class="w-[20vw] text-center h-[9vw] rounded-2xl text-[4vw] bg-[#F7B94A] text-white flex justify-center items-center">
+            class="w-[25vw] text-center h-[9vw] rounded-2xl text-[4vw] bg-[#F7B94A] text-white flex justify-center items-center">
             all</div>
         <p class="p-note">Tips: This is the fourth of 5 words for <span class="text-[#f7b94a]">Bingo Sheet 1</span>. <br>
             Ask children to circle the word on their Bingo Sheet.</p>
@@ -108,7 +108,7 @@
     {{-- Bingo panel --}}
     <div class="phonics-panel info-panel-1  flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]">
         <div
-            class="w-[20vw] text-center h-[9vw] rounded-2xl text-[4vw] bg-[#F7B94A] text-white flex justify-center items-center">
+            class="w-[25vw] text-center h-[9vw] rounded-2xl text-[4vw] bg-[#F7B94A] text-white flex justify-center items-center">
             in</div>
         <p class="p-note">Tips: This is the fifth of 5 words for <span class="text-[#f7b94a]">Bingo Sheet 1</span>. <br>
             Ask children to circle the word on their Bingo Sheet.</p>
@@ -130,7 +130,7 @@
     {{-- Bingo Panel --}}
     <div class="phonics-panel info-panel-2  flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]">
         <div
-            class="w-[20vw] text-center h-[9vw] rounded-2xl text-[4vw] bg-[#2D9CDB] text-white flex justify-center items-center">
+            class="w-[25vw] text-center h-[9vw] rounded-2xl text-[4vw] bg-[#2D9CDB] text-white flex justify-center items-center">
             in</div>
         <p class="p-note">Tips: This is the first of 6 words for <span class="text-[#f7b94a]">Bingo Sheet 2</span>. <br>
             Ask children to circle the word on their Bingo Sheet.</p>
@@ -139,7 +139,7 @@
     {{-- Bingo panel --}}
     <div class="phonics-panel info-panel-2  flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]">
         <div
-            class="w-[20vw] text-center h-[9vw] rounded-2xl text-[4vw] bg-[#2D9CDB] text-white flex justify-center items-center">
+            class="w-[25vw] text-center h-[9vw] rounded-2xl text-[4vw] bg-[#2D9CDB] text-white flex justify-center items-center">
             out</div>
         <p class="p-note">Tips: This is the second of 6 words for <span class="text-[#f7b94a]">Bingo Sheet 2</span>. <br>
             Ask children to circle the word on their Bingo Sheet.</p>
@@ -148,7 +148,7 @@
     {{-- Bingo panel --}}
     <div class="phonics-panel info-panel-2  flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]">
         <div
-            class="w-[20vw] text-center h-[9vw] rounded-2xl text-[4vw] bg-[#2D9CDB] text-white flex justify-center items-center">
+            class="w-[25vw] text-center h-[9vw] rounded-2xl text-[4vw] bg-[#2D9CDB] text-white flex justify-center items-center">
             and</div>
         <p class="p-note">Tips: This is the third of 6 words for <span class="text-[#f7b94a]">Bingo Sheet 2</span>. <br>
             Ask children to circle the word on their Bingo Sheet.</p>
@@ -157,7 +157,7 @@
     {{-- Bingo panel --}}
     <div class="phonics-panel info-panel-2  flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]">
         <div
-            class="w-[20vw] text-center h-[9vw] rounded-2xl text-[4vw] bg-[#2D9CDB] text-white flex justify-center items-center">
+            class="w-[25vw] text-center h-[9vw] rounded-2xl text-[4vw] bg-[#2D9CDB] text-white flex justify-center items-center">
             on</div>
         <p class="p-note">Tips: This is the fourth of 6 words for <span class="text-[#f7b94a]">Bingo Sheet 2</span>. <br>
             Ask children to circle the word on their Bingo Sheet.</p>
@@ -166,7 +166,7 @@
     {{-- Bingo panel --}}
     <div class="phonics-panel info-panel-2  flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]">
         <div
-            class="w-[20vw] text-center h-[9vw] rounded-2xl text-[4vw] bg-[#2D9CDB] text-white flex justify-center items-center">
+            class="w-[25vw] text-center h-[9vw] rounded-2xl text-[4vw] bg-[#2D9CDB] text-white flex justify-center items-center">
             I</div>
         <p class="p-note">Tips: This is the fifth of 6 words for <span class="text-[#f7b94a]">Bingo Sheet 2</span>. <br>
             Ask children to circle the word on their Bingo Sheet.</p>
@@ -175,7 +175,7 @@
     {{-- Bingo panel --}}
     <div class="phonics-panel info-panel-2  flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]">
         <div
-            class="w-[20vw] text-center h-[9vw] rounded-2xl text-[4vw] bg-[#2D9CDB] text-white flex justify-center items-center">
+            class="w-[25vw] text-center h-[9vw] rounded-2xl text-[4vw] bg-[#2D9CDB] text-white flex justify-center items-center">
             one</div>
         <p class="p-note">Tips: This is the sixth of 6 words for <span class="text-[#f7b94a]">Bingo Sheet 2</span>. <br>
             Ask children to circle the word on their Bingo Sheet.</p>

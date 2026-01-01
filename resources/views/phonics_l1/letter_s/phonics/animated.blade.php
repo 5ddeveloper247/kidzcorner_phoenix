@@ -8,14 +8,15 @@
 
 @push('styles')
     <style>
-        .p-note {
-            font-size: 1.2vw;
-            color: white !important;
-        }
+          .p-note {
+                font-size: 1vw;
+                /* line-height: 100%; */
+                color: white !important;
+            }
 
-        .c-btn {
-            color: #F7B94A !important;
-        }
+            .c-btn {
+                color: #F7B94A !important;
+            }
 
         .large-title {
             color: #F7B94A;
@@ -56,7 +57,7 @@
                 class="h-[20vw] bottom-[2vw] right-[18vw] absolute" />
 
 
-            <p class="p-note absolute bottom-[0vw] left-[10%]">Tip: Click on the appropriate rock to see the stroke for
+            <p class="p-note absolute bottom-[0vw] left-[15%]">Tip: Click on the appropriate rock to see the stroke for
                 an uppercase or lowercase letter. <br>
                 <a href="" class="c-btn info-btn1">Click here</a> to find out why writing is important in a phonics
                 programme.

@@ -72,6 +72,7 @@
 
     {{-- Info Panel 2 --}}
     <div class="phonics-panel info-panel-2 space-y-[2vw]">
+        <h2 class="top-title stroke">...Begins with...</h2>
         <div class="flex flex-col items-center relative gap-[5vw]">
             <h4 class="text-white text-[1vw]">(Tune: The Farmer in the Dell)</h4>
             <img src="{{ asset('assets/images/phonicsl1/letter_g/goat.png') }}" class="w-[10vw] absolute left-0" />
@@ -96,15 +97,19 @@
     </div>
 
     {{-- info Panel 9 --}}
-    <div class="phonics-panel info-panel-9">
-       <h2 class="top-title stroke">...Begins with...</h2>
- <div class="flex items-center gap-7">
+    <div class="phonics-panel info-panel-9 flex flex-col items-center h-[80%] justify-between self-end">
+        <h2 class="top-title stroke">...Begins with...</h2>
+        <div class="flex items-center gap-7">
             <div class="w-[12vw] h-[12vw] rounded-2xl bg-[#2D9CDB]">
             </div>
             <h1 class="text-white text-[4vw]">begins with</h1>
             <div class="w-[12vw] h-[12vw] rounded-2xl bg-[#F7B94A]">
             </div>
         </div>
+        <p class="p-note">Tips: Use this Song Chart with the song. Substitute with other words beginning with the /e/ sound.
+            <br>
+            Click on the sound icon to play music.</p>
+
 
         {{-- sound Button --}}
         <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton"
@@ -116,7 +121,7 @@
 
     {{-- Infpo Panel 3 --}}
     <div class="phonics-panel info-panel-3 flex flex-col h-full justify-between">
-        <h2 class="top-title stroke">I’ve got the Letter ‘f’</h2>
+        <h2 class="top-title stroke">I’ve got the Letter ‘g’</h2>
         <div class="flex flex-col items-center relative">
             <h4 class="text-white text-[1vw]">(Tune: I’ve got the Whole World in my Hand)</h4>
             <img src="{{ asset('assets/images/phonicsl1/letter_g/girl.png') }}"
@@ -294,8 +299,8 @@
     <script>
         // SLIDE NAVIGATION SYSTEM
         // SLIDE NAVIGATION SYSTEM
-          document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
-document.addEventListener("DOMContentLoaded", function() {
+        document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
+        document.addEventListener("DOMContentLoaded", function() {
 
             // Get all elements
             const slides = document.querySelectorAll(".phonics-panel");

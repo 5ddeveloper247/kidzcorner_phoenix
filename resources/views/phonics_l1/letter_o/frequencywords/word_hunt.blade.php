@@ -9,7 +9,7 @@
 @push('styles')
     <style>
         .p-note {
-            font-size: 1.2.2vw;
+            font-size: 1.2vw;
             color: white !important;
         }
 
@@ -178,40 +178,61 @@
 
 
 
-    <div class="phonics-panel grid grid-cols-2 gap-x-[4vw]">
+    <div class="phonics-panel flex items-center justify-center min-h-[60vh]">
 
-        <!-- ITEM 1 -->
-        <div class="flex flex-col items-center text-center w-fit">
-            <div class="item1">
-                <img src="{{ asset('assets/images/phonicsl1/letter_o/duo.gif') }}" class="w-[17vw]" />
+        <div class="grid grid-cols-2 gap-x-[4vw] gap-y-[2vw] mx-auto">
+
+            <!-- ITEM 1 -->
+            <div class="flex justify-center">
+                <div class="flex flex-col items-center text-center w-fit">
+                    <div class="item-1">
+                        <img src="{{ asset('assets/images/phonicsl1/letter_o/duo.gif') }}" class="w-[17vw]" />
+                    </div>
+                    <h1 class="mt-[0.5vw] text-white text-[1.4vw]">
+                        Ox and ostrich <span class="text-[#f7b94a]">like</span> oranges.
+                    </h1>
+                </div>
             </div>
-            <h1 class="text-white text-[1.4vw]">Ox and ostrich <span class="text-[#f7b94a]">like</span> oranges.</h1>
+
+            <!-- ITEM 2 -->
+            <div class="flex justify-center">
+                <div class="flex flex-col items-center text-center w-fit">
+                    <div class="item-2">
+                        <img src="{{ asset('assets/images/phonicsl1/letter_o/eat.gif') }}" class="w-[17vw]" />
+                    </div>
+                    <h1 class="mt-[0.5vw] text-white text-[1.4vw]">
+                        <span class="text-[#f7b94a]">Two</span> oranges
+                        <span class="text-[#f7b94a]">for</span> ox and ostrich.
+                    </h1>
+                </div>
+            </div>
+
+            <!-- ITEM 3 -->
+            <div class="flex justify-center">
+                <div class="flex flex-col items-center text-center w-fit mt-[1vw]">
+                    <div class="item-3">
+                        <img src="{{ asset('assets/images/phonicsl1/letter_o/sit.gif') }}" class="w-[17vw]" />
+                    </div>
+                    <h1 class="mt-[0.5vw] text-white text-[1.4vw]">
+                        Ox sits <span class="text-[#f7b94a]">on</span> the oranges.
+                    </h1>
+                </div>
+            </div>
+
+            <!-- ITEM 4 -->
+            <div class="flex justify-center items-end">
+                <div class="flex flex-col items-center text-center w-fit">
+                    <div class="item-4">
+                        <img src="{{ asset('assets/images/phonicsl1/letter_o/crushed.gif') }}" class="w-[17vw]" />
+                    </div>
+                    <h1 class="mt-[0.5vw] text-white text-[1.4vw]">
+                        Oh, <span class="text-[#f7b94a]">look</span>! Orange juice!
+                    </h1>
+                </div>
+            </div>
+
         </div>
 
-        <!-- ITEM 2 -->
-        <div class="flex flex-col items-center text-center w-fit">
-            <div class="w-fit item-2">
-                <img src="{{ asset('assets/images/phonicsl1/letter_o/eat.gif') }}" class="w-[17vw]" />
-            </div>
-            <h1 class="text-white text-[1.4vw]"><span class="text-[#f7b94a]">Two</span> oranges <span
-                    class="text-[#f7b94a]">for</span> ox and ostrich.</h1>
-        </div>
-
-        <!-- ITEM 3 -->
-        <div class="flex flex-col items-center text-center w-fit mt-[1vw]">
-            <div class="w-fit item-3">
-                <img src="{{ asset('assets/images/phonicsl1/letter_o/sit.gif') }}" class="w-[17vw]" />
-            </div>
-            <h1 class="text-white text-[1.4vw]">Ox sits <span class="text-[#f7b94a]">on</span> the oranges.</h1>
-        </div>
-
-        <!-- ITEM 4 -->
-        <div class="flex flex-col items-center text-center w-fit">
-            <div class="w-fit item-4">
-                <img src="{{ asset('assets/images/phonicsl1/letter_o/crushed.gif') }}" class="w-[17vw]" />
-            </div>
-            <h1 class="text-white text-[1.4vw]">Oh, <span class="text-[#f7b94a]">look</span>! Orange juice!</h1>
-        </div>
     </div>
 
 

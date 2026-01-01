@@ -9,7 +9,7 @@
 @push('styles')
     <style>
         .p-note {
-            font-size: 1.2.2vw;
+            font-size: 1.2vw;
             color: white !important;
         }
 
@@ -72,7 +72,7 @@
         data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-v/vst2.m4a') }}">
         <h2 class="text-white text-[1.6vw] text-center">How many of these words can you find <br>
             in the story? Circle them.</h2>
-        <img src="{{ asset('assets/images/phonicsl1/letter_v/stack1.png') }}" class="w-full" />
+        <img src="{{ asset('assets/images/phonicsl1/letter_v/stack1.png') }}" class="w-[55vw]" />
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonicsl1/letter_v/hi.gif') }}" class="h-[15vw] w-[15vw] rounded-[1vw]" />
             <img src="{{ asset('assets/images/phonicsl1/letter_v/vet.gif') }}" class="h-[7vw] absolute right-0 bottom-0" />
@@ -85,7 +85,7 @@
     {{-- Panel 4 --}}
     <div class="phonics-panel flex flex-col items-center justify-between h-full"
         data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-v/vst2.m4a') }}">
-        <img src="{{ asset('assets/images/phonicsl1/letter_v/stack2.png') }}" class="w-full" />
+        <img src="{{ asset('assets/images/phonicsl1/letter_v/stack2.png') }}" class="w-[55vw]" />
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonicsl1/letter_v/hi.gif') }}" class="h-[15vw] w-[15vw] rounded-[1vw]" />
             <img src="{{ asset('assets/images/phonicsl1/letter_v/vet.gif') }}" class="h-[7vw] absolute right-0 bottom-0" />
@@ -100,7 +100,7 @@
         data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-v/vst3.m4a') }}">
         <h2 class="text-white text-[1.6vw] text-center">How many of these words can you find <br>
             in the story? Circle them.</h2>
-        <img src="{{ asset('assets/images/phonicsl1/letter_v/stack2.png') }}" class="w-full" />
+        <img src="{{ asset('assets/images/phonicsl1/letter_v/stack2.png') }}" class="w-[55vw]" />
         <div>
             <img src="{{ asset('assets/images/phonicsl1/letter_v/sad.gif') }}" class="h-[13vw] rounded-[1vw]" />
         </div>
@@ -112,7 +112,7 @@
     {{-- Panel 6 --}}
     <div class="phonics-panel flex flex-col items-center justify-between h-full"
         data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-v/vst3.m4a') }}">
-        <img src="{{ asset('assets/images/phonicsl1/letter_v/stack3.png') }}" class="w-full" />
+        <img src="{{ asset('assets/images/phonicsl1/letter_v/stack3.png') }}" class="w-[55vw]" />
         <div>
             <img src="{{ asset('assets/images/phonicsl1/letter_v/sad.gif') }}" class="h-[15vw] rounded-[1vw]" />
         </div>
@@ -126,7 +126,7 @@
         data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-v/vst4.m4a') }}">
         <h2 class="text-white text-[1.6vw] text-center">How many of these words can you find <br>
             in the story? Circle them.</h2>
-        <img src="{{ asset('assets/images/phonicsl1/letter_v/stack3.png') }}" class="w-full" />
+        <img src="{{ asset('assets/images/phonicsl1/letter_v/stack3.png') }}" class="w-[55vw]" />
         <div>
             <img src="{{ asset('assets/images/phonicsl1/letter_v/happy.gif') }}" class="h-[13vw]" />
         </div>
@@ -138,7 +138,7 @@
     {{-- Panel 8 --}}
     <div class="phonics-panel flex flex-col items-center justify-between h-full"
         data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-v/vst4.m4a') }}">
-        <img src="{{ asset('assets/images/phonicsl1/letter_v/stack4.png') }}" class="w-full" />
+        <img src="{{ asset('assets/images/phonicsl1/letter_v/stack4.png') }}" class="w-[55vw]" />
         <div>
             <img src="{{ asset('assets/images/phonicsl1/letter_v/happy.gif') }}" class="h-[13vw]" />
         </div>
@@ -152,7 +152,7 @@
         data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-v/vst5.m4a') }}">
         <h2 class="text-white text-[1.6vw] text-center">How many of these words can you find <br>
             in the story? Circle them.</h2>
-        <img src="{{ asset('assets/images/phonicsl1/letter_v/stack4.png') }}" class="w-full" />
+        <img src="{{ asset('assets/images/phonicsl1/letter_v/stack4.png') }}" class="w-[55vw]" />
         <div>
             <img src="{{ asset('assets/images/phonicsl1/letter_v/put.png') }}" class="h-[13vw]" />
         </div>
@@ -165,7 +165,7 @@
     {{-- Panel 10 --}}
     <div class="phonics-panel flex flex-col items-center"
         data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-v/vst5.m4a') }}">
-        <img src="{{ asset('assets/images/phonicsl1/letter_v/stack4.png') }}" class="w-full" />
+        <img src="{{ asset('assets/images/phonicsl1/letter_v/stack4.png') }}" class="w-[55vw]" />
         <div>
             <img src="{{ asset('assets/images/phonicsl1/letter_v/put.png') }}" class="h-[13vw]" />
         </div>
@@ -175,51 +175,73 @@
 
     {{-- Panel 11 --}}
     <div class="phonics-panel flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/phonicsl1/letter_v/stack4.png') }}" class="w-full" />
+        <img src="{{ asset('assets/images/phonicsl1/letter_v/stack4.png') }}" class="w-[55vw]" />
     </div>
 
 
 
-    <div class="phonics-panel grid grid-cols-2 gap-x-[2vw] justify-items-center">
+    <div class="phonics-panel flex items-center justify-center min-h-[60vh]">
 
-        <!-- ITEM 1 -->
-        <div class="flex flex-col items-center text-center">
-            <div class="item-1 cursor-pointer relative w-fit h-fit">
-                <img src="{{ asset('assets/images/phonicsl1/letter_v/hi.gif') }}"
-                    class="h-[15vw] w-[15vw] rounded-[1vw]" />
-                <img src="{{ asset('assets/images/phonicsl1/letter_v/vet.gif') }}"
-                    class="h-[7vw] absolute right-0 bottom-0" />
-            </div>
-            <h1 class="text-white text-[1.4vw]">The vet visits Victor <span class="text-[#f7b94a]">in</span> the village.
-            </h1>
-        </div>
+        <div class="grid grid-cols-2 gap-x-[3vw] gap-y-[1vw] mx-auto">
 
-        <!-- ITEM 2 -->
-        <div class="flex flex-col items-center text-center">
-            <div class="item-2 cursor-pointer">
-                <img src="{{ asset('assets/images/phonicsl1/letter_v/sad.gif') }}" class="h-[15vw] rounded-[1vw]" />
+            <!-- ITEM 1 -->
+            <div class="flex justify-center">
+                <div class="flex flex-col items-center text-center w-fit">
+                    <div class="item-1 cursor-pointer relative w-fit h-fit">
+                        <img src="{{ asset('assets/images/phonicsl1/letter_v/hi.gif') }}"
+                            class="h-[13vw] w-[15vw] rounded-[1vw]" />
+                        <img src="{{ asset('assets/images/phonicsl1/letter_v/vet.gif') }}"
+                            class="h-[7vw] absolute right-0 bottom-0" />
+                    </div>
+                    <h1 class="mt-[0.5vw] text-white text-[1.4vw]">
+                        The vet visits Victor <span class="text-[#f7b94a]">in</span> the village.
+                    </h1>
+                </div>
             </div>
-            <h1 class="text-white text-[1.4vw]"><span class="text-[#f7b94a]">To see his </span> sick cat.</h1>
-        </div>
 
-        <!-- ITEM 3 -->
-        <div class="flex flex-col items-center text-center mt-[1vw]">
-            <div class="item-3 cursor-pointer">
-                <img src="{{ asset('assets/images/phonicsl1/letter_v/happy.gif') }}" class="h-[13vw]" />
+            <!-- ITEM 2 -->
+            <div class="flex justify-center">
+                <div class="flex flex-col items-center text-center w-fit">
+                    <div class="item-2 cursor-pointer">
+                        <img src="{{ asset('assets/images/phonicsl1/letter_v/sad.gif') }}"
+                            class="h-[13vw] rounded-[1vw]" />
+                    </div>
+                    <h1 class="mt-[0.5vw] text-white text-[1.4vw]">
+                        <span class="text-[#f7b94a]">To see his</span> sick cat.
+                    </h1>
+                </div>
             </div>
-            <h1 class="text-white text-[1.4vw]"><span class="text-[#f7b94a]">He</span> wraps <span
-                    class="text-[#f7b94a]">it in</span> a <span class="text-[#f7b94a]"> very </span> big blanket.</h1>
-        </div>
 
-        <!-- ITEM 4 -->
-        <div class="flex flex-col items-center text-center">
-            <div class="item-4 cursor-pointer">
-                <img src="{{ asset('assets/images/phonicsl1/letter_v/put.png') }}" class="h-[13vw]" />
+            <!-- ITEM 3 -->
+            <div class="flex justify-center">
+                <div class="flex flex-col items-center text-center w-fit mt-[1vw]">
+                    <div class="item-3 cursor-pointer">
+                        <img src="{{ asset('assets/images/phonicsl1/letter_v/happy.gif') }}" class="h-[13vw]" />
+                    </div>
+                    <h1 class="mt-[0.5vw] text-white text-[1.4vw]">
+                        <span class="text-[#f7b94a]">He</span> wraps
+                        <span class="text-[#f7b94a]">it in</span> a
+                        <span class="text-[#f7b94a]">very</span> big blanket.
+                    </h1>
+                </div>
             </div>
-            <h1 class="text-white text-[1.4vw]">And puts <span class="text-[#f7b94a]">it in his</span> van.</h1>
+
+            <!-- ITEM 4 -->
+            <div class="flex justify-center items-end">
+                <div class="flex flex-col items-center text-center w-fit">
+                    <div class="item-4 cursor-pointer">
+                        <img src="{{ asset('assets/images/phonicsl1/letter_v/put.png') }}" class="h-[13vw] rounded-[1vw]" />
+                    </div>
+                    <h1 class="mt-[0.5vw] text-white text-[1.4vw]">
+                        And puts <span class="text-[#f7b94a]">it in his</span> van.
+                    </h1>
+                </div>
+            </div>
+
         </div>
 
     </div>
+
 
 
 

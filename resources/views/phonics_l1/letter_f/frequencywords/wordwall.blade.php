@@ -9,7 +9,7 @@
 @push('styles')
     <style>
         .p-note {
-            font-size: 1.2.2vw;
+            font-size: 1.2vw;
             color: white !important;
         }
 

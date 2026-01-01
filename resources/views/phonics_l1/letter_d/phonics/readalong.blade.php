@@ -44,7 +44,8 @@
     <h2 class="top-title stroke"> Read Along</h2>
 
     {{-- panel 1 --}}
-    <div class="phonics-panel no-bg mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-b/read-along.mp3') }}">
+    <div class="phonics-panel no-bg mb-[2vw]"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-b/read-along.mp3') }}">
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonicsl1/global/jungle-board1.png') }}" class="w-[60vw]" />
             {{-- gifs --}}
@@ -52,7 +53,8 @@
             <img src="{{ asset('assets/images/phonicsl1/global/gifs/lili.gif') }}"
                 class="h-[20vw] bottom-0 right-0 absolute" />
 
-                        <h1 class="text-white text-[4vw] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"> Read along <br> with us!</h1>
+            <h1 class="text-white text-[4vw] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"> Read along <br>
+                with us!</h1>
 
 
             <p class="p-note absolute bottom-[1vw] left-[22%]">Tip: <a class="c-btn info-btn1">Click here</a> to find out
@@ -77,7 +79,7 @@
                     Children recognize words automatically by using spelling patterns.</li>
             </ul>
 
-                 <img src="{{ asset('assets/images/phonicsl1/global/learning.png') }}" class="h-[20vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/global/learning.png') }}" class="h-[20vw]" />
         </div>
         <div class="down-btn-container">
             <button class="doneButton hidden">
@@ -90,7 +92,7 @@
     {{-- Panel 2 --}}
     <div class="phonics-panel flex flex-col justify-between h-full">
         <div class="flex flex-col items-center justify-center gap-[2vw]">
-                <img src="{{ asset('assets/images/phonicsl1/letter_d/ducky.png') }}" class="w-[25vw]"  />
+            <img src="{{ asset('assets/images/phonicsl1/letter_d/ducky.png') }}" class="w-[25vw]" />
             <h1 class="text-[2vw] text-[#f7b94a]">These dogs dislike the duck.</h1>
         </div>
         <p class="p-note">Tip: Music will be automatically played twice. Click on the sound icon to repeat music.</p>
@@ -108,56 +110,57 @@
             <div class="w-fit h-fit">
                 <div class="relative ml-[10vw] w-fit h-fit">
                     <img src="{{ asset('assets/images/phonicsl1/global/blank.png') }}" class="w-[18vw]" />
-                    <h2 class="text-[1.5vw] !text-[#B76E33] absolute top-[2vw] right-[15%]">Help me complete <br> the
+                    <h2 class="text-[1.3vw] !text-[#B76E33] absolute top-[2vw] right-[15%]">Help me complete <br> the
                         sentence
                         with <br> a word beginning <br> with ‘d’.</h2>
                 </div>
                 <img src="{{ asset('assets/images/phonicsl1/global/teacher.png') }}" class="h-[20vw]" />
             </div>
-
-            <div class="bg-no-repeat bg-center bg-contain h-[30vw] w-[28vw] mt-[-7vw]
+            <div class="flex flex-col items-center">
+                <div class="bg-no-repeat bg-center bg-contain h-[30vw] w-[28vw] mt-[-7vw]
             flex justify-center items-end"
-                style="background-image: url('{{ asset('assets/images/phonicsl1/global/board.png') }}')">
+                    style="background-image: url('{{ asset('assets/images/phonicsl1/global/board.png') }}')">
 
-                <div class="grid grid-cols-2 gap-x-[4vw] gap-y-[1.5vw] place-items-center mb-[3vw]">
-                    {{-- this is false --}}
-                    <div class="flex items-start">
-                        <a class="hover:brightness-110" id="flase">
-                            <img src="{{ asset('assets/images/phonicsl1/letter_a/bird.png') }}" class="w-[7vw]" />
-                        </a>
-                        {{-- sound Button --}}
-                        <button class="w-[3vw]" id="soundButton" data-letter="bird">
-                            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                        </button>
-                    </div>
-
-                    {{-- falsde --}}
-                    <div class="flex items-start mb-[1vw]">
-
-                        <a class="w-[6vw] hover:brightness-110 " id="false">
-                            <img src="{{ asset('assets/images/phonicsl1/letter_a/apple.png') }}" />
-                        </a>
-                        {{-- sound Button --}}
-                        <button class="w-[3vw]" id="soundButton" data-letter="apple">
-                            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                        </button>
-                    </div>
-
-                    {{-- true --}}
-                    <div class="col-span-2 flex justify-center ">
-                        <div class="flex items-start gap-x-[1vw]">
-                            <a class="hover:brightness-110" id="true">
-                                <img src="{{ asset('assets/images/phonicsl1/letter_d/duck.png') }}" class="h-[6vw] " />
+                    <div class="grid grid-cols-2 gap-x-[4vw] gap-y-[1.5vw] place-items-center mb-[3vw]">
+                        {{-- this is false --}}
+                        <div class="flex items-start">
+                            <a class="hover:brightness-110" id="flase">
+                                <img src="{{ asset('assets/images/phonicsl1/letter_a/bird.png') }}" class="w-[7vw]" />
                             </a>
                             {{-- sound Button --}}
-                            <button class="w-[3vw]" id="soundButton" data-letter="duck">
+                            <button class="w-[3vw]" id="soundButton" data-letter="bird">
                                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                             </button>
                         </div>
+
+                        {{-- falsde --}}
+                        <div class="flex items-start mb-[1vw]">
+
+                            <a class="w-[6vw] hover:brightness-110 " id="false">
+                                <img src="{{ asset('assets/images/phonicsl1/letter_a/apple.png') }}" />
+                            </a>
+                            {{-- sound Button --}}
+                            <button class="w-[3vw]" id="soundButton" data-letter="apple">
+                                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                            </button>
+                        </div>
+
+                        {{-- true --}}
+                        <div class="col-span-2 flex justify-center ">
+                            <div class="flex items-start gap-x-[1vw]">
+                                <a class="hover:brightness-110" id="true">
+                                    <img src="{{ asset('assets/images/phonicsl1/letter_d/duck.png') }}" class="h-[6vw] " />
+                                </a>
+                                {{-- sound Button --}}
+                                <button class="w-[3vw]" id="soundButton" data-letter="duck">
+                                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                                </button>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                <h2 class="text-white text-[1.5vw]">I can see a  _________?</h2>
             </div>
-
         </div>
         <p class="p-note">Tip: Ask children to select the picture that matches the focus letter <br>
             sound. If needed, click on the sound icons to listen to the words.</p>
@@ -233,8 +236,8 @@
 @push('script')
     <script>
         // SLIDE NAVIGATION SYSTEM
-          document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
-document.addEventListener("DOMContentLoaded", function() {
+        document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
+        document.addEventListener("DOMContentLoaded", function() {
 
             // Get all elements
             const slides = document.querySelectorAll(".phonics-panel");

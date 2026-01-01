@@ -40,8 +40,9 @@
             </div>
             <img src="{{ asset('assets/images/phonicsl1/global/bear.png') }}" class="h-[25vw]" />
         </div>
-        <p class="p-note">Tips: Go through the story of 'Eggs for Eddy', if necessary. Ask children to turn to the Fun Fill-ins
-Activity Sheet in the Pupil's Activity Book.</p>
+        <p class="p-note">Tips: Go through the story of 'Eggs for Eddy', if necessary. Ask children to turn to the Fun
+            Fill-ins
+            Activity Sheet in the Pupil's Activity Book.</p>
     </div>
 
 
@@ -130,7 +131,7 @@ Activity Sheet in the Pupil's Activity Book.</p>
     <div class="phonics-panel flex flex-col items-center gap-y-[1vw]">
         <h2 class="text-white text-[1.5vw]">Choose a word to fill in the blank.</h2>
 
-        <h2 class="stroke panel-title">Seven eggs <span class="text-underline">_____</span> Eddt elephant.</h2>
+        <h2 class="stroke panel-title">Seven eggs <span class="text-underline">_____</span> Eddy elephant.</h2>
 
         <img src="{{ asset('assets/images/phonicsl1/letter_e/happy.gif') }}" class="w-[20vw]">
         <img src="{{ asset('assets/images/phonicsl1/letter_e/line4.png') }}">
@@ -144,7 +145,7 @@ Activity Sheet in the Pupil's Activity Book.</p>
     <div class="phonics-panel flex flex-col items-center justify-center gap-y-[2vw]">
         <div class="h-fit relative">
             <span class="text-white text-[2vw] absolute left-[40%] top-[-1vw]">for</span>
-            <h2 class="stroke panel-title">Seven eggs <span class="text-underline">_____</span> Eddt elephant.</h2>
+            <h2 class="stroke panel-title">Seven eggs <span class="text-underline">_____</span> Eddy elephant.</h2>
         </div>
         <img src="{{ asset('assets/images/phonicsl1/letter_e/happy.gif') }}" class="w-[30vw]">
     </div>
@@ -189,8 +190,8 @@ Activity Sheet in the Pupil's Activity Book.</p>
 @push('script')
     <script>
         // SLIDE NAVIGATION SYSTEM
-          document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
-document.addEventListener("DOMContentLoaded", function() {
+        document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
+        document.addEventListener("DOMContentLoaded", function() {
 
             // Get all elements
             const slides = document.querySelectorAll(".phonics-panel");

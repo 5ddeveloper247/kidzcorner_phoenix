@@ -53,9 +53,8 @@
             <img src="{{ asset('assets/images/phonicsl1/global/gifs/lili.gif') }}"
                 class="h-[20vw] bottom-0 right-0 absolute" />
 
-                        <h1 class="text-white text-[4vw] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"> Read along <br> with us!</h1>
-
-
+            <h1 class="text-white text-[4vw] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"> Read along <br>
+                with us!</h1>
             <p class="p-note absolute bottom-[1vw] left-[22%]">Tip: <a class="c-btn info-btn1">Click here</a> to find out
                 why
                 reading words is important.</p>
@@ -78,7 +77,7 @@
                     Children recognize words automatically by using spelling patterns.</li>
             </ul>
 
-                 <img src="{{ asset('assets/images/phonicsl1/global/learning.png') }}" class="h-[20vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/global/learning.png') }}" class="h-[20vw]" />
         </div>
         <div class="down-btn-container">
             <button class="doneButton hidden">
@@ -109,7 +108,8 @@
             <div class="w-fit h-fit">
                 <div class="relative ml-[10vw] w-fit h-fit">
                     <img src="{{ asset('assets/images/phonicsl1/global/blank.png') }}" class="w-[18vw]" />
-                   <h2 class="text-[1.2vw] !text-[#B76E33] absolute top-1/2 left-1/2 -translate-1/2">Help me complete <br> the
+                    <h2 class="text-[1.2vw] !text-[#B76E33] absolute top-1/2 left-1/2 -translate-1/2 text-nowrap">Help me complete <br>
+                        the
                         sentence
                         with <br> a word beginning <br> with ‘e’.</h2>
                 </div>
@@ -147,8 +147,7 @@
                         <div class="col-span-2 flex justify-center ">
                             <div class="flex items-start gap-x-[1vw]">
                                 <a class="hover:brightness-110" id="false">
-                                    <img src="{{ asset('assets/images/phonicsl1/letter_d/duck.png') }}"
-                                        class="h-[7vw]" />
+                                    <img src="{{ asset('assets/images/phonicsl1/letter_d/duck.png') }}" class="h-[7vw]" />
                                 </a>
                                 {{-- sound Button --}}
                                 <button class="w-[3vw]" id="soundButton" data-letter="duck">
@@ -158,6 +157,7 @@
                         </div>
                     </div>
                 </div>
+                <h2 class="text-white text-[1.5vw]">Eddie has an _________?</h2>
 
             </div>
         </div>
@@ -235,8 +235,8 @@
 @push('script')
     <script>
         // SLIDE NAVIGATION SYSTEM
-          document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
-document.addEventListener("DOMContentLoaded", function() {
+        document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
+        document.addEventListener("DOMContentLoaded", function() {
 
             // Get all elements
             const slides = document.querySelectorAll(".phonics-panel");
@@ -627,7 +627,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 // Stop the sound if still playing
                 wellDoneSound.pause();
                 wellDoneSound.currentTime = 0;
-               window.location.href = '{{ url('/phonics/letter_e') }}';
+                window.location.href = '{{ url('/phonics/letter_e') }}';
             });
 
             // Optional: Sound button functionality

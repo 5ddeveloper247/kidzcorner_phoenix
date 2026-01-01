@@ -50,7 +50,7 @@
         <div
             class="w-[30vw] text-center h-[10vw] rounded-2xl text-[5vw] bg-[#F7B94A] text-white flex justify-center items-center">
             gets</div>
-        <p class="p-note">Tips: This is the second of 8 words to be flashed <br>
+        <p class="p-note">Tips: This is the first of 8 words to be flashed <br>
             Ask children to colour the word on their Treasure Trail Activity Sheet.</p>
     </div>
 
@@ -82,7 +82,7 @@
         <div
             class="w-[30vw] text-center h-[10vw] rounded-2xl text-[5vw] bg-[#F7B94A] text-white flex justify-center items-center">
             of</div>
-        <p class="p-note">Tips: This is the second of 8 words to be flashed <br>
+        <p class="p-note">Tips: This is the third of 8 words to be flashed <br>
             Ask children to colour the word on their Treasure Trail Activity Sheet.</p>
     </div>
 
@@ -98,7 +98,7 @@
         <div
             class="w-[30vw] text-center h-[10vw] rounded-2xl text-[5vw] bg-[#F7B94A] text-white flex justify-center items-center">
             little</div>
-        <p class="p-note">Tips: This is the second of 8 words to be flashed <br>
+        <p class="p-note">Tips: This is the fourth of 8 words to be flashed <br>
             Ask children to colour the word on their Treasure Trail Activity Sheet.</p>
     </div>
 
@@ -114,7 +114,7 @@
         <div
             class="w-[30vw] text-center h-[10vw] rounded-2xl text-[5vw] bg-[#F7B94A] text-white flex justify-center items-center">
             her</div>
-        <p class="p-note">Tips: This is the second of 8 words to be flashed <br>
+        <p class="p-note">Tips: This is the fifth of 8 words to be flashed <br>
             Ask children to colour the word on their Treasure Trail Activity Sheet.</p>
     </div>
 
@@ -131,7 +131,7 @@
         <div
             class="w-[30vw] text-center h-[10vw] rounded-2xl text-[5vw] bg-[#F7B94A] text-white flex justify-center items-center">
             one</div>
-        <p class="p-note">Tips: This is the second of 8 words to be flashed <br>
+        <p class="p-note">Tips: This is the sixth of 8 words to be flashed <br>
             Ask children to colour the word on their Treasure Trail Activity Sheet.</p>
     </div>
 
@@ -150,7 +150,7 @@
         <div
             class="w-[30vw] text-center h-[10vw] rounded-2xl text-[5vw] bg-[#F7B94A] text-white flex justify-center items-center">
             two</div>
-        <p class="p-note">Tips: This is the second of 8 words to be flashed <br>
+        <p class="p-note">Tips: This is the seventh of 8 words to be flashed <br>
             Ask children to colour the word on their Treasure Trail Activity Sheet.</p>
     </div>
 
@@ -168,7 +168,7 @@
         <div
             class="w-[30vw] text-center h-[10vw] rounded-2xl text-[5vw] bg-[#F7B94A] text-white flex justify-center items-center">
             what</div>
-        <p class="p-note">Tips: This is the second of 8 words to be flashed <br>
+        <p class="p-note">Tips: This is the last of 8 words to be flashed <br>
             Ask children to colour the word on their Treasure Trail Activity Sheet.</p>
     </div>
 

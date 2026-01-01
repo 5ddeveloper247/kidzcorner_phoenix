@@ -46,8 +46,7 @@
     {{-- panel 1 --}}
     <div class="phonics-panel">
         <div class="flex relative w-fit h-fit" data-slide-audio="{{ asset('assets/audio/phonics_audio/alphahouse.m4a') }}">
-            <h1
-                class="text-[#f7b94a] text-[6vw] bottom-[12%] left-[24%] stroke leading-none absolute hover:text-[#757571]">
+            <h1 class="text-[#f7b94a] text-[6vw] bottom-[12%] left-[24%] stroke leading-none absolute hover:text-[#757571]">
                 b</h1>
             <img src="{{ asset('assets/images/phonicsl1/letter_a/alpha-house.png') }}" class="w-[47vw]" />
         </div>
@@ -69,7 +68,7 @@
                     those words.</li>
             </ul>
 
-           <img src="{{ asset('assets/images/phonicsl1/global/learning.png') }}" class="w-[13vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/global/learning.png') }}" class="w-[13vw]" />
         </div>
         <div class="down-btn-container">
             <button class="doneButton hidden">
@@ -146,12 +145,12 @@
                 </div>
                 <img src="{{ asset('assets/images/phonicsl1/global/teacher.png') }}" class="h-[20vw]" />
             </div>
-
             <div class="bg-no-repeat bg-center bg-contain h-[30vw] w-[28vw] mt-[-7vw]
             flex justify-center items-end"
                 style="background-image: url('{{ asset('assets/images/phonicsl1/global/board.png') }}')">
 
-                <div class="grid grid-cols-2 gap-x-[4vw] gap-y-[1.5vw] place-items-center mb-[2vw]">
+                <h2 class="text-white text-[2vw] absolute top-[15%]">bear</h2>
+                <div class="grid grid-cols-2 gap-x-[4vw] gap-y-[1vw] place-items-center mb-[3vw]">
                     {{-- this is false --}}
                     <div class="flex items-start">
                         <a class="hover:brightness-110" id="false">
@@ -265,7 +264,7 @@
 @push('script')
     <script>
         // SLIDE NAVIGATION SYSTEM
-          document.addEventListener("DOMContentLoaded", function() {
+        document.addEventListener("DOMContentLoaded", function() {
 
             // Get all elements
             const slides = document.querySelectorAll(".phonics-panel");
@@ -605,7 +604,7 @@
                 // Stop the sound if still playing
                 wellDoneSound.pause();
                 wellDoneSound.currentTime = 0;
-               window.location.href = '{{ url('/phonics/letter_b') }}?view=phonics';
+                window.location.href = '{{ url('/phonics/letter_b') }}?view=phonics';
             });
 
             // Optional: Sound button functionality

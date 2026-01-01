@@ -9,7 +9,7 @@
 @push('styles')
     <style>
         .p-note {
-            font-size: 1.2.2vw;
+            font-size: 1.2vw;
             color: white !important;
         }
 
@@ -50,7 +50,7 @@
             <div class="relative w-fit h-fit">
                 <img src="{{ asset('assets/images/phonicsl1/global/click3.png') }}" class="w-[30vw]" />
                 <h3
-                    class="text-[#B76E33] text-[2.2vw] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center">
+                    class="text-[#B76E33] text-[2.2vw] absolute top-1/2 left-[45%] -translate-x-1/2 -translate-y-1/2 text-center">
                     let's go on <br> a word hunt!
                 </h3>
             </div>
@@ -72,7 +72,7 @@
         data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-d/getting-dark.m4a') }}">
         <h2 class="text-white text-[1.6vw] text-center">How many of these words can you find <br>
             in the story? Circle them.</h2>
-        <img src="{{ asset('assets/images/phonicsl1/letter_d/stack.png') }}" class="w-full" />
+        <img src="{{ asset('assets/images/phonicsl1/letter_d/stack.png') }}" class="w-[55vw]" />
         <div>
             <img src="{{ asset('assets/images/phonicsl1/letter_d/dark.gif') }}" class="w-[18vw]" />
         </div>
@@ -84,7 +84,7 @@
     {{-- Panel 4 --}}
     <div class="phonics-panel flex flex-col items-center justify-between h-full"
         data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-d/getting-dark.m4a') }}">
-        <img src="{{ asset('assets/images/phonicsl1/letter_d/stack2.png') }}" class="w-full" />
+        <img src="{{ asset('assets/images/phonicsl1/letter_d/stack2.png') }}" class="w-[55vw]" />
         <div>
             <img src="{{ asset('assets/images/phonicsl1/letter_d/dark.gif') }}" class="w-[18vw]" />
         </div>
@@ -99,7 +99,7 @@
         data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-d/cahse.m4a') }}">
         <h2 class="text-white text-[1.6vw] text-center">How many of these words can you find <br>
             in the story? Circle them.</h2>
-        <img src="{{ asset('assets/images/phonicsl1/letter_d/stack2.png') }}" class="w-full" />
+        <img src="{{ asset('assets/images/phonicsl1/letter_d/stack2.png') }}" class="w-[55vw]" />
         <div class="relative h-fit w-fit">
             <img src="{{ asset('assets/images/phonicsl1/letter_d/bg.jpg') }}" class="w-[18vw] rounded-[1vw]" />
             <img src="{{ asset('assets/images/phonicsl1/letter_d/dog.gif') }}" class="w-[10vw] absolute bottom-0 left-0" />
@@ -117,7 +117,7 @@
     {{-- Panel 6 --}}
     <div class="phonics-panel flex flex-col items-center justify-between h-full"
         data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-d/cahse.m4a') }}">
-        <img src="{{ asset('assets/images/phonicsl1/letter_d/stack2.png') }}" class="w-full" />
+        <img src="{{ asset('assets/images/phonicsl1/letter_d/stack2.png') }}" class="w-[55vw]" />
         <div class="relative h-fit w-fit">
             <img src="{{ asset('assets/images/phonicsl1/letter_d/bg.jpg') }}" class="w-[18vw] rounded-[1vw]" />
             <img src="{{ asset('assets/images/phonicsl1/letter_d/dog.gif') }}" class="w-[10vw] absolute bottom-0 left-0" />
@@ -137,7 +137,7 @@
         data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-d/buddy-chasing.m4a') }}">
         <h2 class="text-white text-[1.6vw] text-center">How many of these words can you find <br>
             in the story? Circle them.</h2>
-        <img src="{{ asset('assets/images/phonicsl1/letter_d/stack2.png') }}" class="w-full" />
+        <img src="{{ asset('assets/images/phonicsl1/letter_d/stack2.png') }}" class="w-[55vw]" />
         <div class="relative h-fit w-fit">
             <img src="{{ asset('assets/images/phonicsl1/letter_d/bg.jpg') }}" class="w-[18vw] rounded-[1vw]" />
             <img src="{{ asset('assets/images/phonicsl1/letter_d/b-run.gif') }}"
@@ -153,7 +153,7 @@
     {{-- Panel 8 --}}
     <div class="phonics-panel flex flex-col items-center justify-between h-full"
         data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-d/buddy-chasing.m4a') }}">
-        <img src="{{ asset('assets/images/phonicsl1/letter_d/stack2.png') }}" class="w-full" />
+        <img src="{{ asset('assets/images/phonicsl1/letter_d/stack2.png') }}" class="w-[55vw]" />
         <div class="relative h-fit w-fit">
             <img src="{{ asset('assets/images/phonicsl1/letter_d/bg.jpg') }}" class="w-[18vw] rounded-[1vw]" />
             <img src="{{ asset('assets/images/phonicsl1/letter_d/b-run.gif') }}"
@@ -170,7 +170,7 @@
         data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-d/late-dinner.m4a') }}">
         <h2 class="text-white text-[1.6vw] text-center">How many of these words can you find <br>
             in the story? Circle them.</h2>
-        <img src="{{ asset('assets/images/phonicsl1/letter_d/stack2.png') }}" class="w-full" />
+        <img src="{{ asset('assets/images/phonicsl1/letter_d/stack2.png') }}" class="w-[55vw]" />
         <div>
             <img src="{{ asset('assets/images/phonicsl1/letter_d/table.png') }}" class="h-[14vw]" />
         </div>
@@ -183,7 +183,7 @@
     {{-- Panel 10 --}}
     <div class="phonics-panel flex flex-col items-center"
         data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-d/late-dinner.m4a') }}">
-        <img src="{{ asset('assets/images/phonicsl1/letter_d/stack3.png') }}" class="w-full" />
+        <img src="{{ asset('assets/images/phonicsl1/letter_d/stack3.png') }}" class="w-[55vw]" />
         <div>
             <img src="{{ asset('assets/images/phonicsl1/letter_d/table.png') }}" class="h-[14vw]" />
         </div>
@@ -195,62 +195,80 @@
 
     {{-- Panel 11 --}}
     <div class="phonics-panel flex flex-col items-center justify-center">
-        <img src="{{ asset('assets/images/phonicsl1/letter_d/stack3.png') }}" class="w-full" />
+        <img src="{{ asset('assets/images/phonicsl1/letter_d/stack3.png') }}" class="w-[55vw]" />
     </div>
 
 
 
-    <div class="phonics-panel grid grid-cols-2 gap-[1vw]">
+    <div class="phonics-panel flex items-center justify-center min-h-[60vh]">
 
-        <!-- ITEM 1 -->
-        <div class="relative flex flex-col items-center text-center w-fit">
-            <div class="relative w-fit item-1">
+        <div class="grid grid-cols-2 gap-[1vw] mx-auto">
 
-                <img src="{{ asset('assets/images/phonicsl1/letter_d/dark.gif') }}" class="w-[18vw]" />
-            </div>
-            <h1 class="text-white text-[1.2.2vw]"><span class="text-[#f7b94a]">The</span> day <span
-                    class="text-[#f7b94a]">is getting</span> dark.</h1>
-        </div>
-
-        <!-- ITEM 2 -->
-        <div class="relative flex flex-col items-center text-center w-fit">
-            <div class="relative w-fit item-2">
-                <img src="{{ asset('assets/images/phonicsl1/letter_d/bg.jpg') }}" class="w-[18vw] rounded-[1vw]" />
-                <img src="{{ asset('assets/images/phonicsl1/letter_d/dog.gif') }}"
-                    class="w-[10vw] absolute bottom-0 left-0" />
-                <img src="{{ asset('assets/images/phonicsl1/letter_d/duck.gif') }}"
-                    class="w-[7vw] absolute bottom-[5%] scale-x-[-1] right-0" />
-                <img src="{{ asset('assets/images/phonicsl1/letter_d/duck.gif') }}"
-                    class="w-[7vw] absolute bottom-[5%] scale-x-[-1] right-[15%]" />
-            </div>
-            <h1 class="text-white text-[1.2.2vw]">Buddy’s dog chases <span class="text-[#f7b94a]">the</span> ducks.</h1>
-
-        </div>
-
-        <!-- ITEM 3 -->
-        <div class="relative flex flex-col items-center text-center w-fit mt-[1vw]">
-            <div class="relative w-fit item-3">
-                <img src="{{ asset('assets/images/phonicsl1/letter_d/bg.jpg') }}" class="w-[18vw] rounded-[1vw]" />
-                <img src="{{ asset('assets/images/phonicsl1/letter_d/b-run.gif') }}"
-                    class="h-[10vw] absolute bottom-0 left-0" />
-                <img src="{{ asset('assets/images/phonicsl1/letter_d/dog.gif') }}"
-                    class="w-[7vw] absolute bottom-0 right-0" />
+            <!-- ITEM 1 -->
+            <div class="flex justify-center">
+                <div class="relative flex flex-col items-center text-center w-fit">
+                    <div class="relative w-fit item-1">
+                        <img src="{{ asset('assets/images/phonicsl1/letter_d/dark.gif') }}" class="w-[18vw]" />
+                    </div>
+                    <h1 class="mt-[0.5vw] text-white text-[1.2vw]">
+                        <span class="text-[#f7b94a]">The</span> day
+                        <span class="text-[#f7b94a]">is getting</span> dark.
+                    </h1>
+                </div>
             </div>
 
-            <h1 class="text-white text-[1.2.2vw]">Buddy chases <span class="text-[#f7b94a]">the</span> dog.</h1>
-
-        </div>
-
-        <!-- ITEM 4 -->
-        <div class="relative flex flex-col items-center text-center w-fit">
-            <div class="w-fit item-4">
-                <img src="{{ asset('assets/images/phonicsl1/letter_d/table.png') }}" class="h-[14vw]" />
+            <!-- ITEM 2 -->
+            <div class="flex justify-center">
+                <div class="relative flex flex-col items-center text-center w-fit">
+                    <div class="relative w-fit item-2">
+                        <img src="{{ asset('assets/images/phonicsl1/letter_d/bg.jpg') }}"
+                            class="w-[18vw] rounded-[1vw]" />
+                        <img src="{{ asset('assets/images/phonicsl1/letter_d/dog.gif') }}"
+                            class="w-[10vw] absolute bottom-0 left-0" />
+                        <img src="{{ asset('assets/images/phonicsl1/letter_d/duck.gif') }}"
+                            class="w-[7vw] absolute bottom-[5%] scale-x-[-1] right-0" />
+                        <img src="{{ asset('assets/images/phonicsl1/letter_d/duck.gif') }}"
+                            class="w-[7vw] absolute bottom-[5%] scale-x-[-1] right-[15%]" />
+                    </div>
+                    <h1 class="mt-[0.5vw] text-white text-[1.2vw]">
+                        Buddy’s dog chases <span class="text-[#f7b94a]">the</span> ducks.
+                    </h1>
+                </div>
             </div>
-            <h1 class="text-white text-[1.2.2vw]"><span class="text-[#f7b94a]">Now</span> Buddy <span
-                    class="text-[#f7b94a]">and his</span> dog are <span class="text-[#f7b94a]">late</span> for dinner.
-            </h1>
+
+            <!-- ITEM 3 -->
+            <div class="flex justify-center">
+                <div class="relative flex flex-col items-center text-center w-fit mt-[1vw]">
+                    <div class="relative w-fit item-3">
+                        <img src="{{ asset('assets/images/phonicsl1/letter_d/bg.jpg') }}"
+                            class="w-[18vw] rounded-[1vw]" />
+                        <img src="{{ asset('assets/images/phonicsl1/letter_d/b-run.gif') }}"
+                            class="h-[10vw] absolute bottom-0 left-0" />
+                        <img src="{{ asset('assets/images/phonicsl1/letter_d/dog.gif') }}"
+                            class="w-[7vw] absolute bottom-0 right-0" />
+                    </div>
+                    <h1 class="mt-[0.5vw] text-white text-[1.2vw]">
+                        Buddy chases <span class="text-[#f7b94a]">the</span> dog.
+                    </h1>
+                </div>
+            </div>
+
+            <!-- ITEM 4 -->
+            <div class="flex justify-center">
+                <div class="relative flex flex-col items-center text-center w-fit">
+                    <div class="w-fit item-4">
+                        <img src="{{ asset('assets/images/phonicsl1/letter_d/table.png') }}" class="h-[13vw]" />
+                    </div>
+                    <h1 class="mt-[0.5vw] text-white text-[1.2vw]">
+                        <span class="text-[#f7b94a]">Now</span> Buddy
+                        <span class="text-[#f7b94a]">and his</span> dog are
+                        <span class="text-[#f7b94a]">late</span> for dinner.
+                    </h1>
+                </div>
+            </div>
 
         </div>
+
     </div>
 
 
@@ -296,8 +314,8 @@
     <script>
         // SLIDE NAVIGATION SYSTEM
         // SLIDE NAVIGATION SYSTEM
-          document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
-document.addEventListener("DOMContentLoaded", function() {
+        document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
+        document.addEventListener("DOMContentLoaded", function() {
 
             // Get all elements
             const slides = document.querySelectorAll(".phonics-panel");

@@ -77,7 +77,7 @@
                     Children recognize words automatically by using spelling patterns.</li>
             </ul>
 
-                 <img src="{{ asset('assets/images/phonicsl1/global/learning.png') }}" class="h-[20vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/global/learning.png') }}" class="h-[20vw]" />
         </div>
         <div class="down-btn-container">
             <button class="doneButton hidden">
@@ -91,7 +91,7 @@
     <div class="phonics-panel flex flex-col justify-between h-[80%] self-end">
         <div class="flex flex-col items-center justify-center gap-[2vw]">
             <div class="flex items-center gap-9">
-                <img src="{{ asset('assets/images/phonicsl1/letter_a/a-l.png') }}" />
+                <img src="{{ asset('assets/images/phonicsl1/letter_a/a-l.png') }}" class="w-[16vw]" />
                 <h2 class="text-white text-[5vw]">apple</h2>
             </div>
             <h1 class="text-[2vw] text-[#f7b94a]">Lili asks for an apple again.</h1>
@@ -111,7 +111,7 @@
             <div class="w-fit h-fit">
                 <div class="relative ml-[10vw] w-fit h-fit">
                     <img src="{{ asset('assets/images/phonicsl1/global/blank.png') }}" class="w-[18vw]" />
-                    <h2 class="text-[1.5vw] !text-[#B76E33] absolute top-[2vw] right-[15%]">Help me complete <br> the
+                    <h2 class="text-[1.3vw] !text-[#B76E33] absolute top-[2vw] right-[15%]">Help me complete <br> the
                         sentence
                         with <br> a word beginning <br> with ‘a’.</h2>
                 </div>
@@ -122,7 +122,7 @@
             flex justify-center items-end"
                 style="background-image: url('{{ asset('assets/images/phonicsl1/global/board.png') }}')">
 
-                <div class="grid grid-cols-2 gap-x-[4vw] gap-y-[1.5vw] place-items-center mb-[2vw]">
+                <div class="grid grid-cols-2 gap-x-[4vw] gap-y-[1vw] place-items-center mb-[3vw]">
                     {{-- this is false --}}
                     <div class="flex items-start">
                         <a class="hover:brightness-110" id="false">
@@ -147,7 +147,7 @@
                     </div>
 
                     {{-- true --}}
-                    <div class="col-span-2 flex justify-center ">
+                    <div class="col-span-2 flex justify-center">
                         <div class="flex items-start gap-x-[1vw]">
                             <a class=" hover:brightness-110" id="false">
                                 <img src="{{ asset('assets/images/phonicsl1/letter_a/castle.png') }}" class="w-[6vw]" />
@@ -234,8 +234,8 @@
 @push('script')
     <script>
         // SLIDE NAVIGATION SYSTEM
-          document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
-document.addEventListener("DOMContentLoaded", function() {
+        document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
+        document.addEventListener("DOMContentLoaded", function() {
 
             // Get all elements
             const slides = document.querySelectorAll(".phonics-panel");
@@ -246,7 +246,7 @@ document.addEventListener("DOMContentLoaded", function() {
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-             const returnURL = "{{ url('/phonics/letter_a') }}?view=phonics";
+            const returnURL = "{{ url('/phonics/letter_a') }}?view=phonics";
             const doneURL = "{{ url('/phonics/letter_a') }}?view=phonics";
 
             // Track current position
@@ -626,7 +626,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 // Stop the sound if still playing
                 wellDoneSound.pause();
                 wellDoneSound.currentTime = 0;
-               window.location.href = '{{ url('/phonics/letter_a') }}?view=phonics';
+                window.location.href = '{{ url('/phonics/letter_a') }}?view=phonics';
             });
 
             // Optional: Sound button functionality

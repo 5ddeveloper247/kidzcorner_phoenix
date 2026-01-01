@@ -81,7 +81,7 @@
     {{-- Panel 2 --}}
     <div class="phonics-panel flex flex-col h-full justify-between items-center"
         data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-c/story1.m4a') }}">
-        <h1 class="text-white text-[3vw]">Buddy loves making a <span class="text-[#f7b94a]">C</span>astle</h1>
+        <h1 class="text-white text-[3vw]">Buddy loves making a <span class="text-[#f7b94a]">C</span>astle.</h1>
         <img src="{{ asset('assets/images/phonicsl1/letter_c/playing.png') }}" class="w-[20vw]" />
     </div>
 

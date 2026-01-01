@@ -109,7 +109,7 @@
             <div class="w-fit h-fit">
                 <div class="relative ml-[10vw] w-fit h-fit">
                     <img src="{{ asset('assets/images/phonicsl1/global/blank.png') }}" class="w-[18vw]" />
-                   <h2 class="text-[1.2vw] !text-[#B76E33] absolute top-1/2 left-1/2 -translate-1/2">Help me complete <br> the
+                   <h2 class="text-[1.2vw] !text-[#B76E33] absolute top-1/2 left-1/2 -translate-1/2 text-nowrap">Help me complete <br> the
                         sentence
                         with <br> a word beginning <br> with ‘j’.</h2>
                 </div>

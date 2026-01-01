@@ -72,6 +72,7 @@
 
     {{-- Info Panel 2 --}}
     <div class="phonics-panel info-panel-2 space-y-[2vw]">
+        <h2 class="top-title stroke">...Begins with...</h2>
         <div class="flex flex-col items-center">
             <h4 class="text-white text-[1vw]">(Tune: The Farmer in the Dell)</h4>
             <img src="{{ asset('assets/images/phonicsl1/letter_r/rock.png') }}" class="w-[13vw]" />
@@ -96,7 +97,7 @@
     </div>
 
     {{-- info Panel 9 --}}
-    <div class="phonics-panel info-panel-9">
+      <div class="phonics-panel info-panel-9 flex flex-col items-center h-[80%] justify-between self-end">
        <h2 class="top-title stroke">...Begins with...</h2>
  <div class="flex items-center gap-7">
             <div class="w-[12vw] h-[12vw] rounded-2xl bg-[#2D9CDB]">
@@ -105,6 +106,9 @@
             <div class="w-[12vw] h-[12vw] rounded-2xl bg-[#F7B94A]">
             </div>
         </div>
+        <p class="p-note">Tips: Use this Song Chart with the song. Substitute with other words beginning with the /e/ sound. <br>
+            Click on the sound icon to play music.</p>
+
 
         {{-- sound Button --}}
         <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton"

@@ -50,7 +50,7 @@
             <div class="relative w-fit h-fit">
                 <img src="{{ asset('assets/images/phonicsl1/global/click3.png') }}" class="w-[30vw]" />
                 <h3
-                    class="text-[#B76E33] text-[2.5vw] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center">
+                    class="text-[#B76E33] text-[2.2vw] absolute top-1/2 left-[45%] -translate-x-1/2 -translate-y-1/2 text-center">
                     let's go on <br> a word hunt!
                 </h3>
             </div>
@@ -77,7 +77,7 @@
         <div class="relative">
             <img src="{{ asset('assets/images/phonicsl1/letter_c/castle-p.gif') }}" class="w-[18vw]" />
         </div>
-        <h1 class="text-white text-[2.7vw]">Buddy makes a Castle</h1>
+        <h1 class="text-white text-[2.4vw]">Buddy makes a Castle</h1>
         <p class="p-note w-[70%]">Tip: Ask children to circle the words that appear in the story on their Activity Sheet.
             Check result on next slide.</p>
     </div>
@@ -89,7 +89,7 @@
         <div class="relative">
             <img src="{{ asset('assets/images/phonicsl1/letter_c/castle-p.gif') }}" class="w-[18vw]" />
         </div>
-        <h1 class="text-white text-[2.7vw]">Buddy <span class="text-[#f7b94a]">makes a</span> Castle</h1>
+        <h1 class="text-white text-[2.4vw]">Buddy <span class="text-[#f7b94a]">makes a</span> Castle</h1>
         <p class="p-note">Tip: Highlight that the beginning letter in a sentence is written in uppercase.</p>
     </div>
 
@@ -108,7 +108,7 @@
                 class="w-[2vw] absolute top-[10%] left-[11%]" />
 
         </div>
-        <h1 class="text-white text-[2.5vw]">The cat plays catch with a colourful can.</h1>
+        <h1 class="text-white text-[2.4vw]">The cat plays catch with a colourful can.</h1>
         <p class="p-note w-[70%]">Tip: Ask children to circle the words that appear in the story on their Activity Sheet.
             Check result on next slide.</p>
     </div>
@@ -125,7 +125,7 @@
                 class="w-[2vw] absolute top-[10%] left-[11%]" />
 
         </div>
-        <h1 class="text-white text-[2.5vw]">The cat plays catch <span class="text-[#f7b94a]">with a</span> colourful can.
+        <h1 class="text-white text-[2.4vw]">The cat plays catch <span class="text-[#f7b94a]">with a</span> colourful can.
         </h1>
         <p class="p-note">Tip: Highlight that the beginning letter in a sentence is written in uppercase.</p>
 
@@ -144,7 +144,7 @@
                 class="w-[2vw] absolute top-[1vw] !left-[-3vw]" />
 
         </div>
-        <h1 class="text-white text-[2.5vw]">The cat crashes into the castle.</h1>
+        <h1 class="text-white text-[2.4vw]">The cat crashes into the castle.</h1>
         <p class="p-note w-[70%]">Tip: Ask children to circle the words that appear in the story on their Activity Sheet.
             Check result on next slide.</p>
     </div>
@@ -160,7 +160,7 @@
                 class="w-[2vw] absolute top-[1vw] !left-[-3vw]" />
 
         </div>
-        <h1 class="text-white text-[2.5vw]">The cat crashes <span class="text-[#F7B94A]"> into the</span> castle.</h1>
+        <h1 class="text-white text-[2.4vw]">The cat crashes <span class="text-[#F7B94A]"> into the</span> castle.</h1>
         <p class="p-note">Tip: Highlight that the beginning letter in a sentence is written in uppercase.</p>
     </div>
 
@@ -177,7 +177,7 @@
                 class="w-[2vw] absolute top-[1vw] !left-[-3vw]" />
 
         </div>
-        <h1 class="text-white text-[2.5vw]">That’s not clever!</h1>
+        <h1 class="text-white text-[2.4vw]">That’s not clever!</h1>
         <p class="p-note w-[70%]">Tip: Ask children to circle the words that appear in the story on their Activity Sheet.
             Check result on next slide.</p>
     </div>
@@ -194,7 +194,7 @@
                 class="w-[2vw] absolute top-[1vw] !left-[-3vw]" />
 
         </div>
-        <h1 class="text-white text-[2.5vw]">That’s <span class="text-[#F7B94A]">not</span> clever!</h1>
+        <h1 class="text-white text-[2.4vw]">That’s <span class="text-[#F7B94A]">not</span> clever!</h1>
 
     </div>
 
@@ -205,80 +205,92 @@
 
 
 
-    <div class="phonics-panel grid grid-cols-2 gap-[1vw] h-fit w-fit"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-c/story5.m4a') }}">
+    <div class="phonics-panel flex items-center justify-center min-h-[60vh] mt-[-3vw]">
 
-        <!-- ITEM 1 -->
-        <a>
-            <div class="relative flex flex-col items-center text-center w-fit">
-                <div class="relative w-fit item-1">
-                    <img src="{{ asset('assets/images/phonicsl1/letter_c/castle.gif') }}" class="w-[17vw]" />
+        <div class="grid grid-cols-2 gap-[1vw] mx-auto">
 
-                    <!-- Birds -->
-                    <img src="{{ asset('assets/images/phonicsl1/letter_c/bird.gif') }}"
-                        class="w-[4vw] absolute top-[0vw] left-[1.5vw]" />
-                    <img src="{{ asset('assets/images/phonicsl1/letter_c/bird.gif') }}"
-                        class="w-[2vw] absolute top-[1vw] left-[0.5vw]" />
+            <!-- ITEM 1 -->
+            <div class="flex justify-center">
+                <a>
+                    <div class="relative flex flex-col items-center text-center w-fit">
+                        <div class="relative w-fit item-1">
+                            <img src="{{ asset('assets/images/phonicsl1/letter_c/castle.gif') }}" class="w-[17vw]" />
+
+                            <!-- Birds -->
+                            <img src="{{ asset('assets/images/phonicsl1/letter_c/bird.gif') }}"
+                                class="w-[4vw] absolute top-[0vw] left-[1.5vw]" />
+                            <img src="{{ asset('assets/images/phonicsl1/letter_c/bird.gif') }}"
+                                class="w-[2vw] absolute top-[1vw] left-[0.5vw]" />
+                        </div>
+
+                        <h1 class="text-white text-[1.3vw] mt-[0.5vw]">
+                            Buddy <span class="text-[#f7b94a]">makes a</span> Castle
+                        </h1>
+                    </div>
+                </a>
+            </div>
+
+            <!-- ITEM 2 -->
+            <div class="flex justify-center items-end">
+                <div class="relative flex flex-col items-center text-center w-fit mt-[2vw]">
+                    <div class="relative w-fit item-2">
+                        <img src="{{ asset('assets/images/phonicsl1/letter_c/playing.gif') }}" class="w-[17vw]" />
+
+                        <!-- Birds -->
+                        <img src="{{ asset('assets/images/phonicsl1/letter_c/bird.gif') }}"
+                            class="w-[4vw] absolute top-[0vw] left-[1.5vw]" />
+                        <img src="{{ asset('assets/images/phonicsl1/letter_c/bird.gif') }}"
+                            class="w-[2vw] absolute top-[1vw] left-[0.5vw]" />
+                    </div>
+
+                    <h1 class="text-white text-[1.3vw] mt-[0.5vw]">
+                        The cat plays catch <span class="text-[#f7b94a]">with a</span> colorful can.
+                    </h1>
                 </div>
-
-                <h1 class="text-white text-[1.2vw] mt-[0.5vw]">
-                    Buddy <span class="text-[#f7b94a]">makes a</span> Castle
-                </h1>
-            </div>
-        </a>
-
-        <!-- ITEM 2 -->
-        <div class="relative flex flex-col items-center text-center w-fit mt-[2vw]">
-            <div class="relative w-fit item-2">
-                <img src="{{ asset('assets/images/phonicsl1/letter_c/playing.gif') }}" class="w-[17vw]" />
-
-                <!-- Birds -->
-                <img src="{{ asset('assets/images/phonicsl1/letter_c/bird.gif') }}"
-                    class="w-[4vw] absolute top-[0vw] left-[1.5vw]" />
-                <img src="{{ asset('assets/images/phonicsl1/letter_c/bird.gif') }}"
-                    class="w-[2vw] absolute top-[1vw] left-[0.5vw]" />
             </div>
 
-            <h1 class="text-white text-[1.2vw] mt-[0.5vw]">
-                The cat plays catch <span class="text-[#f7b94a]">with a</span> colorful can.
-            </h1>
-        </div>
+            <!-- ITEM 3 -->
+            <div class="flex justify-center items-end">
+                <div class="relative flex flex-col items-center text-center w-fit">
+                    <div class="relative w-fit item-3">
+                        <img src="{{ asset('assets/images/phonicsl1/letter_c/cat.gif') }}" class="w-[17vw]" />
 
-        <!-- ITEM 3 -->
-        <div class="relative flex flex-col items-center text-center w-fit">
-            <div class="relative w-fit item-3">
-                <img src="{{ asset('assets/images/phonicsl1/letter_c/cat.gif') }}" class="w-[17vw]" />
+                        <!-- Birds -->
+                        <img src="{{ asset('assets/images/phonicsl1/letter_c/bird.gif') }}"
+                            class="w-[4vw] absolute top-[0vw] left-[1.5vw]" />
+                        <img src="{{ asset('assets/images/phonicsl1/letter_c/bird.gif') }}"
+                            class="w-[2vw] absolute top-[1vw] left-[0.5vw]" />
+                    </div>
 
-                <!-- Birds -->
-                <img src="{{ asset('assets/images/phonicsl1/letter_c/bird.gif') }}"
-                    class="w-[4vw] absolute top-[0vw] left-[1.5vw]" />
-                <img src="{{ asset('assets/images/phonicsl1/letter_c/bird.gif') }}"
-                    class="w-[2vw] absolute top-[1vw] left-[0.5vw]" />
+                    <h1 class="text-white text-[1.3vw] mt-[0.5vw]">
+                        The cat crashes <span class="text-[#f7b94a]">into the</span> castle.
+                    </h1>
+                </div>
             </div>
 
-            <h1 class="text-white text-[1.2vw] mt-[0.5vw]">
-                The cat crashes <span class="text-[#f7b94a]">into the</span> castle.
-            </h1>
-        </div>
+            <!-- ITEM 4 -->
+            <div class="flex justify-center">
+                <div class="relative flex flex-col items-center text-center w-fit">
+                    <div class="relative w-fit item-4">
+                        <img src="{{ asset('assets/images/phonicsl1/letter_c/angry.gif') }}" class="w-[17vw]" />
 
-        <!-- ITEM 4 -->
-        <div class="relative flex flex-col items-center text-center w-fit">
-            <div class="relative w-fit item-4">
-                <img src="{{ asset('assets/images/phonicsl1/letter_c/angry.gif') }}" class="w-[17vw]" />
+                        <!-- Birds -->
+                        <img src="{{ asset('assets/images/phonicsl1/letter_c/bird.gif') }}"
+                            class="w-[4vw] absolute top-[0vw] left-[1.5vw]" />
+                        <img src="{{ asset('assets/images/phonicsl1/letter_c/bird.gif') }}"
+                            class="w-[2vw] absolute top-[1vw] left-[0.5vw]" />
+                    </div>
 
-                <!-- Birds -->
-                <img src="{{ asset('assets/images/phonicsl1/letter_c/bird.gif') }}"
-                    class="w-[4vw] absolute top-[0vw] left-[1.5vw]" />
-                <img src="{{ asset('assets/images/phonicsl1/letter_c/bird.gif') }}"
-                    class="w-[2vw] absolute top-[1vw] left-[0.5vw]" />
+                    <h1 class="text-white text-[1.3vw] mt-[0.5vw]">
+                        That's <span class="text-[#f7b94a]">not</span> clever.
+                    </h1>
+                </div>
             </div>
 
-            <h1 class="text-white text-[1.2vw] mt-[0.5vw]">
-                That's <span class="text-[#f7b94a]">not</span> clever.
-            </h1>
         </div>
 
     </div>
+
 
 
 
@@ -324,8 +336,8 @@
     <script>
         // SLIDE NAVIGATION SYSTEM
         // SLIDE NAVIGATION SYSTEM
-          document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
-document.addEventListener("DOMContentLoaded", function() {
+        document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
+        document.addEventListener("DOMContentLoaded", function() {
 
             // Get all elements
             const slides = document.querySelectorAll(".phonics-panel");

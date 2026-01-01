@@ -81,7 +81,7 @@
     {{-- Panel 2 --}}
     <div class="phonics-panel flex flex-col h-full items-center"
         data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-g/gift1.m4a') }}">
-        <h1 class="text-white text-[3vw]"> A <span class="text-[#f7b94a]">G</span>ift for a<span
+        <h1 class="text-white text-[3vw]"> A <span class="text-[#f7b94a]">G</span>ift for a <span
                 class="text-[#f7b94a]">G</span>irl</h1>
         <img src="{{ asset('assets/images/phonicsl1/letter_g/gifting.png') }}" class="w-[25vw]" />
     </div>
