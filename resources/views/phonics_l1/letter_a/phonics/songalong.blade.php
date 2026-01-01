@@ -31,6 +31,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel" data-audio="{{ asset('assets/audio/phonics_audio/SingAlong.mp3') }}">
+        <h2 class="top-title stroke">Sing Along</h2>
         <img src="{{ asset('assets/images/phonicsl1/letter_a/sing-along.png') }}" class="w-[40vw]" />
     </div>
 
@@ -55,6 +56,7 @@
 
     {{-- Info Panel 1 --}}
     <div class="phonics-panel info-panel-1">
+        <h2 class="top-title stroke">Alphabet Song</h2>
         <div class="flex items-center justify-center">
             <img src="{{ asset('assets/images/phonicsl1/letter_a/abc.gif') }}" class="w-[30vw]" />
         </div>
@@ -70,6 +72,7 @@
 
     {{-- Info Panel 2 --}}
     <div class="phonics-panel info-panel-2">
+        <h2 class="top-title stroke">...Begins with...</h2>
         <div class="flex flex-col items-center">
             <h4 class="text-white text-[1vw]">(Tune: The Farmer in the Dell)</h4>
             <img src="{{ asset('assets/images/phonicsl1/global/gifs/ant.gif') }}" class="w-[10vw]" />
@@ -94,6 +97,7 @@
 
     {{-- info Panel 9 --}}
     <div class="phonics-panel info-panel-9">
+        <h2 class="top-title stroke">...Begins with...</h2>
         <div class="flex items-center gap-7">
             <div class="w-[12vw] h-[12vw] rounded-2xl bg-[#2D9CDB]">
             </div>
@@ -302,8 +306,8 @@
     <script>
         // SLIDE NAVIGATION SYSTEM
         // SLIDE NAVIGATION SYSTEM
-          document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
-document.addEventListener("DOMContentLoaded", function() {
+        document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
+        document.addEventListener("DOMContentLoaded", function() {
 
             // Get all elements
             const slides = document.querySelectorAll(".phonics-panel");

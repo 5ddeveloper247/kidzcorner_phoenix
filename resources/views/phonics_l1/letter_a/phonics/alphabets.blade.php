@@ -68,7 +68,7 @@
                     those words.</li>
             </ul>
 
-           <img src="{{ asset('assets/images/phonicsl1/global/learning.png') }}" class="w-[13vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/global/learning.png') }}" class="w-[13vw]" />
         </div>
         <div class="down-btn-container">
             <button class="doneButton hidden">
@@ -147,8 +147,8 @@
             <div class="bg-no-repeat bg-center bg-contain h-[30vw] w-[28vw] mt-[-7vw]
             flex justify-center items-end"
                 style="background-image: url('{{ asset('assets/images/phonicsl1/global/board.png') }}')">
-
-                <div class="grid grid-cols-2 gap-x-[4vw] gap-y-[1.5vw] place-items-center mb-[2vw]">
+                <h2 class="text-white text-[3vw] absolute top-[15%]">apple</h2>
+                <div class="grid grid-cols-2 gap-x-[4vw] gap-y-[1.5vw] place-items-center mb-[3vw]">
                     {{-- this is false --}}
                     <div class="flex items-start">
                         <a class="hover:brightness-110" id="false">
@@ -262,8 +262,8 @@
 @push('script')
     <script>
         // SLIDE NAVIGATION SYSTEM
-          document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
-document.addEventListener("DOMContentLoaded", function() {
+        document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
+        document.addEventListener("DOMContentLoaded", function() {
 
             // Get all elements
             const slides = document.querySelectorAll(".phonics-panel");

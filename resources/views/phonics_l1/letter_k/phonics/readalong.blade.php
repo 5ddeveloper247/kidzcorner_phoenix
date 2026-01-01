@@ -106,17 +106,17 @@
 
     <div class="phonics-panel done-hide next-hide">
         <div class="flex gap-x-[4vw] items-center justify-center">
-            <div>
-                <div class="relative ml-[10vw]">
+            <div class="w-fit h-fit">
+                <div class="relative ml-[10vw] w-fit h-fit">
                     <img src="{{ asset('assets/images/phonicsl1/global/blank.png') }}" class="w-[18vw]" />
-                    <h2 class="text-[1.2vw] !text-[#B76E33] absolute top-[2vw] right-[2vw]">Help me complete <br> the
+                   <h2 class="text-[1.2vw] !text-[#B76E33] absolute top-1/2 left-1/2 -translate-1/2">Help me complete <br> the
                         sentence
                         with <br> a word beginning <br> with ‘k’.</h2>
                 </div>
                 <img src="{{ asset('assets/images/phonicsl1/global/teacher.png') }}" class="h-[20vw]" />
             </div>
             <div class="flex flex-col items-center">
-                <div class="bg-no-repeat bg-center bg-contain h-[30vw] w-[28vw] mt-[-7vw] flex justify-center items-end"
+                <div class="bg-no-repeat bg-center bg-contain h-[30vw] w-[28vw] mt-[-3vw] flex justify-center items-end"
                     style="background-image: url('{{ asset('assets/images/phonicsl1/global/board.png') }}')">
 
                     <div class="grid grid-cols-2 gap-x-[4vw] gap-y-[1.5vw] place-items-center mb-[3vw]">

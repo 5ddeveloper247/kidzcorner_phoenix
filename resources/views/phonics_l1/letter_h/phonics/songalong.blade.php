@@ -31,6 +31,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel" data-audio="{{ asset('assets/audio/phonics_audio/SingAlong.mp3') }}">
+        <h2 class="top-title stroke">Sing Along</h2>
         <img src="{{ asset('assets/images/phonicsl1/letter_a/sing-along.png') }}" class="w-[40vw]" />
     </div>
 
@@ -96,7 +97,8 @@
 
     {{-- info Panel 9 --}}
     <div class="phonics-panel info-panel-9">
-        <div class="flex items-center gap-7">
+       <h2 class="top-title stroke">...Begins with...</h2>
+ <div class="flex items-center gap-7">
             <div class="w-[12vw] h-[12vw] rounded-2xl bg-[#2D9CDB]">
             </div>
             <h1 class="text-white text-[4vw]">begins with</h1>

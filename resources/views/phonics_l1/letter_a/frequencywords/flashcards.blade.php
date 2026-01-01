@@ -27,7 +27,7 @@
                 <img src="{{ asset('assets/images/phonicsl1/letter_a/read.png') }}" class="w-[25vw]" />
                 <img src="{{ asset('assets/images/phonicsl1/global/bear.png') }}" class="h-[25vw]" />
             </div>
-
+            <p class="p-note">Tip: Flash these high frequency words the first reading of the story.</p>
         </div>
 
         {{-- Panel 2 --}}

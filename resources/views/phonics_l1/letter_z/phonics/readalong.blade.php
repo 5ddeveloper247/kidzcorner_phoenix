@@ -53,7 +53,8 @@
             <img src="{{ asset('assets/images/phonicsl1/global/gifs/lili.gif') }}"
                 class="h-[20vw] bottom-0 right-0 absolute" />
 
-                        <h1 class="text-white text-[4vw] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"> Read along <br> with us!</h1>
+            <h1 class="text-white text-[4vw] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"> Read along <br>
+                with us!</h1>
 
 
             <p class="p-note absolute bottom-[1vw] left-[22%]">Tip: <a class="c-btn info-btn1">Click here</a> to find out
@@ -78,7 +79,7 @@
                     Children recognize words automatically by using spelling patterns.</li>
             </ul>
 
-                 <img src="{{ asset('assets/images/phonicsl1/global/learning.png') }}" class="h-[20vw]" />
+            <img src="{{ asset('assets/images/phonicsl1/global/learning.png') }}" class="h-[20vw]" />
         </div>
         <div class="down-btn-container">
             <button class="doneButton hidden">
@@ -106,17 +107,17 @@
 
     <div class="phonics-panel done-hide next-hide">
         <div class="flex gap-x-[4vw] items-center justify-center">
-            <div>
-                <div class="relative ml-[10vw]">
+           <div class="w-fit h-fit">
+                <div class="relative ml-[10vw] w-fit h-fit">
                     <img src="{{ asset('assets/images/phonicsl1/global/blank.png') }}" class="w-[18vw]" />
-                    <h2 class="text-[1.2vw] !text-[#B76E33] absolute top-[2vw] right-[2vw]">Help me complete <br> the
+                    <h2 class="text-[1.2vw] !text-[#B76E33] absolute top-1/2 left-1/2 -translate-1/2">Help me complete  the
                         sentence
-                        with <br> a word beginning <br> with ‘Z’.</h2>
+                        with  a word beginning  with ‘z’.</h2>
                 </div>
                 <img src="{{ asset('assets/images/phonicsl1/global/teacher.png') }}" class="h-[20vw]" />
             </div>
             <div class="flex flex-col items-center">
-                <div class="bg-no-repeat bg-center bg-contain h-[30vw] w-[28vw] mt-[-7vw] flex justify-center items-end"
+                <div class="bg-no-repeat bg-center bg-contain h-[30vw] w-[28vw] mt-[-3vw] flex justify-center items-end"
                     style="background-image: url('{{ asset('assets/images/phonicsl1/global/board.png') }}')">
 
                     <div class="grid grid-cols-2 gap-x-[4vw] gap-y-[1.5vw] place-items-center mb-[3vw]">
@@ -147,8 +148,7 @@
                         <div class="col-span-2 flex justify-center ">
                             <div class="flex items-start gap-x-[1vw]">
                                 <a class="hover:brightness-110" id="false">
-                                    <img src="{{ asset('assets/images/phonicsl1/letter_m/moon.png') }}"
-                                        class="h-[6vw]" />
+                                    <img src="{{ asset('assets/images/phonicsl1/letter_m/moon.png') }}" class="h-[6vw]" />
                                 </a>
                                 {{-- sound Button --}}
                                 <button class="w-[3vw]" id="soundButton" data-letter="moon">
@@ -236,8 +236,8 @@
 @push('script')
     <script>
         // SLIDE NAVIGATION SYSTEM
-          document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
-document.addEventListener("DOMContentLoaded", function() {
+        document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
+        document.addEventListener("DOMContentLoaded", function() {
 
             // Get all elements
             const slides = document.querySelectorAll(".phonics-panel");
@@ -248,8 +248,8 @@ document.addEventListener("DOMContentLoaded", function() {
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-           const returnURL = "{{ url('/phonics/letter_z') }}?view=phonics";
-           const doneURL = "{{ url('/phonics/letter_z') }}?view=phonics";
+            const returnURL = "{{ url('/phonics/letter_z') }}?view=phonics";
+            const doneURL = "{{ url('/phonics/letter_z') }}?view=phonics";
 
             // Track current position
             let currentSlide = 0;

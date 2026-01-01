@@ -110,10 +110,10 @@
 
     <div class="phonics-panel done-hide next-hide">
         <div class="flex gap-x-[4vw] items-center justify-center">
-            <div>
-                <div class="relative ml-[10vw]">
+            <div class="w-fit h-fit">
+                <div class="relative ml-[10vw] w-fit h-fit">
                     <img src="{{ asset('assets/images/phonicsl1/global/blank.png') }}" class="w-[18vw]" />
-                    <h2 class="text-[1.5vw] !text-[#B76E33] absolute top-[2vw] right-[2vw]">Help me complete <br> the
+                    <h2 class="text-[1.5vw] !text-[#B76E33] absolute top-[2vw] right-[15%]">Help me complete <br> the
                         sentence
                         with <br> a word beginning <br> with ‘b’.</h2>
                 </div>
