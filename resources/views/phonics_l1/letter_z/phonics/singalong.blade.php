@@ -44,7 +44,7 @@
             <a class="link text-[1.3vw] info-btn1 absolute top-[27%] left-[15%]">Alphabet Song</a>
             <a class="link text-[1.3vw] info-btn2 absolute top-[44%] left-[15%]">...Begins with...</a>
             <a class="link text-[1.2vw] info-btn3 absolute top-[62%] left-[13%]">I’ve got the Letter</a>
-            <a class="link text-[1.3vw] info-btn4 absolute bottom-[16%] left-[15%]">This is the Way</a>
+            <a class="link text-[1.3vw] info-btn4 absolute bottom-[16%] left-[13%]">The ZigZag Road</a>
             {{-- right --}}
             <a class="link text-[1.3vw] info-btn5 absolute top-[27%] right-[17%]">The ... In ...</a>
             <a class="link text-[1.1vw] info-btn6 absolute top-[45%] right-[13%]">One Little, Two Little</a>
