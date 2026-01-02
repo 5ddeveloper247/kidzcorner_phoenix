@@ -178,7 +178,7 @@
             <img src="{{ asset('assets/images/phonicsl1/letter_r/rope.png') }}" class="w-[12vw]" />
             <div class="text-center text-white text-[3vw]">
                 <h3>The 'r' in rope goes /r/ /r/ /r/.</h3>
-                <h3>/q/ /r/ /r/ /r/ /r/ /r/</h3>
+                <h3>/r/ /r/ /r/ /r/ /r/ /r/</h3>
                 <h3>The 'r' in rope goes /r/ /r/ /r/.</h3>
                 <h3>Over and over again.</h3>
 

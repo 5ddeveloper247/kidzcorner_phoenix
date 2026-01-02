@@ -177,7 +177,7 @@
             <img src="{{ asset('assets/images/phonicsl1/letter_u/bun.png') }}" class="w-[10vw]" />
             <div class="text-center text-white text-[3vw]">
                 <h3>The 'u' in bun goes /u/ /u/ /u/.</h3>
-                <h3>/q/ /u/ /u/ /u/ /u/ /u/</h3>
+                <h3>/u/ /u/ /u/ /u/ /u/ /u/</h3>
                 <h3>The 'u' in bun goes /u/ /u/ /u/.</h3>
                 <h3>Over and over again.</h3>
 

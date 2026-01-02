@@ -177,7 +177,7 @@
             <img src="{{ asset('assets/images/phonicsl1/letter_s/sack.png') }}" class="h-[10vw]" />
             <div class="text-center text-white text-[3vw]">
                 <h3>The 's' in sack goes /s/ /s/ /s/.</h3>
-                <h3>/q/ /s/ /s/ /s/ /s/ /s/</h3>
+                <h3>/s/ /s/ /s/ /s/ /s/ /s/</h3>
                 <h3>The 's' in sack goes /s/ /s/ /s/.</h3>
                 <h3>Over and over again.</h3>
 

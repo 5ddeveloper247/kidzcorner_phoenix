@@ -176,7 +176,7 @@
             <img src="{{ asset('assets/images/phonicsl1/letter_v/van.png') }}" class="w-[15vw]" />
             <div class="text-center text-white text-[3vw]">
                 <h3>The 'v' in van goes /v/ /v/ /v/.</h3>
-                <h3>/q/ /v/ /v/ /v/ /v/ /v/</h3>
+                <h3>/v/ /v/ /v/ /v/ /v/ /v/</h3>
                 <h3>The 'v' in van goes /v/ /v/ /v/.</h3>
                 <h3>Over and over again.</h3>
 

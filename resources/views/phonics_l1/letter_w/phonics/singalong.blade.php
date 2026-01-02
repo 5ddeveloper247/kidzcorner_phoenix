@@ -177,7 +177,7 @@
             <img src="{{ asset('assets/images/phonicsl1/letter_w/wall.png') }}" class="w-[15vw]" />
             <div class="text-center text-white text-[3vw]">
                 <h3>The 'w' in wall goes /w/ /w/ /w/.</h3>
-                <h3>/q/ /w/ /w/ /w/ /w/ /w/</h3>
+                <h3>/w/ /w/ /w/ /w/ /w/ /w/</h3>
                 <h3>The 'w' in wall goes /w/ /w/ /w/.</h3>
                 <h3>Over and over again.</h3>
 

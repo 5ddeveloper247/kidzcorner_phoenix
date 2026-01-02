@@ -182,7 +182,7 @@
             <img src="{{ asset('assets/images/phonicsl1/letter_t/tap.png') }}" class="h-[10vw]" />
             <div class="text-center text-white text-[3vw]">
                 <h3>The 't' in tap goes /t/ /t/ /t/.</h3>
-                <h3>/q/ /t/ /t/ /t/ /t/ /t/</h3>
+                <h3>/t/ /t/ /t/ /t/ /t/ /t/</h3>
                 <h3>The 't' in tap goes /t/ /t/ /t/.</h3>
                 <h3>Over and over again.</h3>
 
