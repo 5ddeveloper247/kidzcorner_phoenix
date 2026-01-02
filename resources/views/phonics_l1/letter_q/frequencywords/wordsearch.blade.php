@@ -163,7 +163,7 @@
 
     {{-- Panel --}}
     <div class="phonics-panel flex flex-col items-center justify-center space-y-[8vw] mt-[9vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-q/flashcard/if.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-q/flashcard/word-if.m4a') }}">
 
         <div
             class="w-[30vw] text-center h-[10vw] rounded-2xl text-[5vw] bg-[#F7B94A] text-white flex justify-center items-center">
@@ -174,7 +174,7 @@
 
     {{--  panel --}}
     <div class="phonics-panel flex flex-col items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-q/flashcard/if.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-q/flashcard/word-if.m4a') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_q/word9.png') }}" class="w-[45vw]">
     </div>
 

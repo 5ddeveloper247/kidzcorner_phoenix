@@ -41,7 +41,7 @@
 
     {{-- Panel 3 --}}
     <div class="phonics-panel flex flex-col justify-between h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-u/flashcard/i.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-u/flashcard/word-i.m4a') }}">
         <div class="flex items-start">
             <img src="{{ asset('assets/images/phonicsl1/letter_u/and.png') }}" class="w-[14vw]" />
             <img src="{{ asset('assets/images/phonicsl1/letter_u/i.png') }}" class="w-[14vw]" />

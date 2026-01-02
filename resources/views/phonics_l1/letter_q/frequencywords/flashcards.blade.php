@@ -105,7 +105,7 @@
 
     {{-- Panel 8 --}}
     <div class="phonics-panel flex flex-col justify-between h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-q/flashcard/if.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-q/flashcard/word-if.m4a') }}">
         <div class="grid grid-cols-3 items-start">
             <img src="{{ asset('assets/images/phonicsl1/letter_q/a.png') }}" class="w-[14vw]" />
             <img src="{{ asset('assets/images/phonicsl1/letter_q/for.png') }}" class="w-[14vw]" />
