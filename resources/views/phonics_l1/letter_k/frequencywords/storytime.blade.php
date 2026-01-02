@@ -52,7 +52,7 @@
             <img src="{{ asset('assets/images/phonicsl1/global/gifs/lili.gif') }}"
                 class="h-[20vw] bottom-0 right-0 absolute" />
 
-              <h1 class="text-white text-[4vw] absolute top-[55%] left-1/2 -translate-1/2"> It's story <br> time!</h1>
+            <h1 class="text-white text-[4vw] absolute top-[55%] left-1/2 -translate-1/2"> It's story <br> time!</h1>
 
             <p class="p-note absolute bottom-[1vw] left-[22%]">Tip: <a class="c-btn">Click here</a> to find
                 out why reading words is important.</p>
@@ -92,7 +92,7 @@
         data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-k/kst4.m4a') }}">
         <img src="{{ asset('assets/images/phonicsl1/letter_k/knocking.gif') }}" class="w-[30vw]" />
         <h1 class="text-white text-[2.5vw]"><span class="text-[#f7b94a]">k</span>im hears a <span
-                class="text-[#f7b94a]">k</span>nock.</h1>
+                class="text-[#f7b94a]">k</span>ick on the door.</h1>
     </div>
 
 
@@ -143,8 +143,8 @@
 @push('script')
     <script>
         // SLIDE NAVIGATION SYSTEM
-          document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
-document.addEventListener("DOMContentLoaded", function() {
+        document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
+        document.addEventListener("DOMContentLoaded", function() {
 
             // Get all elements
             const slides = document.querySelectorAll(".phonics-panel");

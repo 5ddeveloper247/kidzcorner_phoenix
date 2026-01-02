@@ -35,7 +35,6 @@
             color: white;
             font-size: 1.4vw;
         }
-
     </style>
 @endpush
 
@@ -123,7 +122,7 @@
             <div class="flex flex-col items-center">
 
                 <div class="bg-no-repeat bg-center bg-contain h-[30vw] w-[28vw] mt-[-7vw]
-    flex justify-center items-end"
+                        flex justify-center items-end"
                     style="background-image: url('{{ asset('assets/images/phonicsl1/global/board.png') }}')">
 
                     <div class="grid grid-cols-2 gap-x-[4vw] gap-y-[1vw] place-items-center mb-[3vw]">

@@ -30,7 +30,7 @@
                 <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn1.png') }}" />
             </a>
 
-            <a href="{{ url('/phonics/letter_h/phonics/songalong') }}">
+            <a href="{{ url('/phonics/letter_h/phonics/singalong') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn2.png') }}" />
             </a>
 

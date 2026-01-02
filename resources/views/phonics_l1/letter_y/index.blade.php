@@ -30,7 +30,7 @@
                     <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn1.png') }}" class="w-[14vw]" />
                 </a>
 
-                <a href="{{ url('/phonics/letter_y/phonics/songalong') }}">
+                <a href="{{ url('/phonics/letter_y/phonics/singalong') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn2.png') }}" class="w-[14vw]" />
                 </a>
 

@@ -94,7 +94,7 @@
                 <img src="{{ asset('assets/images/phonicsl1/letter_a/a-l.png') }}" class="w-[16vw]" />
                 <h2 class="text-white text-[5vw]">apple</h2>
             </div>
-            <h1 class="text-[2vw] text-[#f7b94a]">Lili asks for an apple again.</h1>
+            <h1 class="text-[2vw] text-[#f7b94a]">Annie asks for an apple again.</h1>
         </div>
         <p class="p-note">Tip: Music will be automatically played twice. Click on the sound icon to repeat music.</p>
 
@@ -118,47 +118,51 @@
                 <img src="{{ asset('assets/images/phonicsl1/global/teacher.png') }}" class="h-[20vw]" />
             </div>
 
-            <div class="bg-no-repeat bg-center bg-contain h-[30vw] w-[28vw] mt-[-7vw]
-            flex justify-center items-end"
-                style="background-image: url('{{ asset('assets/images/phonicsl1/global/board.png') }}')">
+            <div class="flex flex-col items-center">
+                <div class="bg-no-repeat bg-center bg-contain h-[30vw] w-[28vw] mt-[-7vw]
+                flex justify-center items-end"
+                    style="background-image: url('{{ asset('assets/images/phonicsl1/global/board.png') }}')">
 
-                <div class="grid grid-cols-2 gap-x-[4vw] gap-y-[1vw] place-items-center mb-[3vw]">
-                    {{-- this is false --}}
-                    <div class="flex items-start">
-                        <a class="hover:brightness-110" id="false">
-                            <img src="{{ asset('assets/images/phonicsl1/letter_a/bird.png') }}" class="w-[7vw]" />
-                        </a>
-                        {{-- sound Button --}}
-                        <button class="w-[3vw]" id="soundButton" data-letter="bird">
-                            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                        </button>
-                    </div>
-
-                    {{-- falsde --}}
-                    <div class="flex items-start">
-
-                        <a class="w-[6vw] hover:brightness-110 " id="true">
-                            <img src="{{ asset('assets/images/phonicsl1/letter_a/apple.png') }}" />
-                        </a>
-                        {{-- sound Button --}}
-                        <button class="w-[3vw]" id="soundButton" data-letter="apple">
-                            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                        </button>
-                    </div>
-
-                    {{-- true --}}
-                    <div class="col-span-2 flex justify-center">
-                        <div class="flex items-start gap-x-[1vw]">
-                            <a class=" hover:brightness-110" id="false">
-                                <img src="{{ asset('assets/images/phonicsl1/letter_a/castle.png') }}" class="w-[6vw]" />
+                    <div class="grid grid-cols-2 gap-x-[4vw] gap-y-[1vw] place-items-center mb-[3vw]">
+                        {{-- this is false --}}
+                        <div class="flex items-start">
+                            <a class="hover:brightness-110" id="false">
+                                <img src="{{ asset('assets/images/phonicsl1/letter_a/bird.png') }}" class="w-[7vw]" />
                             </a>
                             {{-- sound Button --}}
-                            <button class="w-[3vw]" id="soundButton" data-letter="castle">
+                            <button class="w-[3vw]" id="soundButton" data-letter="bird">
                                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                             </button>
                         </div>
+
+                        {{-- falsde --}}
+                        <div class="flex items-start">
+
+                            <a class="w-[6vw] hover:brightness-110 " id="true">
+                                <img src="{{ asset('assets/images/phonicsl1/letter_a/apple.png') }}" />
+                            </a>
+                            {{-- sound Button --}}
+                            <button class="w-[3vw]" id="soundButton" data-letter="apple">
+                                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                            </button>
+                        </div>
+
+                        {{-- true --}}
+                        <div class="col-span-2 flex justify-center">
+                            <div class="flex items-start gap-x-[1vw]">
+                                <a class=" hover:brightness-110" id="false">
+                                    <img src="{{ asset('assets/images/phonicsl1/letter_a/castle.png') }}"
+                                        class="w-[6vw]" />
+                                </a>
+                                {{-- sound Button --}}
+                                <button class="w-[3vw]" id="soundButton" data-letter="castle">
+                                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                                </button>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                                <h2 class="text-white text-[1.5vw]">Annie has a red _________?</h2>
             </div>
 
         </div>
