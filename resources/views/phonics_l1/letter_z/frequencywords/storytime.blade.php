@@ -62,8 +62,7 @@
     {{-- Panel 2 --}}
     <div class="phonics-panel flex flex-col items-center justify-center"
         data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-z/zst1.m4a') }}">
-        <h1 class="text-white text-[3vw]"><span class="text-[#f7b94a]">Z</span>ak likes <span
-                class="text-[#f7b94a]">Y</span>o-<span class="text-[#f7b94a]">Z</span>ebra </h1>
+        <h1 class="text-white text-[3vw]"><span class="text-[#f7b94a]">Z</span>ak likes <span class="text-[#f7b94a]">Z</span>ebras</h1>
         <img src="{{ asset('assets/images/phonicsl1/letter_z/caring.png') }}" class="h-[20vw]" />
     </div>
 

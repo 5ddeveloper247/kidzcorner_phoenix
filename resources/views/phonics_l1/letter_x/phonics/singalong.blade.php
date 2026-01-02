@@ -177,7 +177,7 @@
             <img src="{{ asset('assets/images/phonicsl1/letter_x/box.png') }}" class="w-[15vw]" />
             <div class="text-center text-white text-[3vw]">
                 <h3>The 'x' in box goes /x/ /x/ /x/.</h3>
-                <h3>/q/ /x/ /x/ /x/ /x/ /x/</h3>
+                <h3>/x/ /x/ /x/ /x/ /x/ /x/</h3>
                 <h3>The 'x' in box goes /x/ /x/ /x/.</h3>
                 <h3>Over and over again.</h3>
 

@@ -176,7 +176,7 @@
             <img src="{{ asset('assets/images/phonicsl1/letter_z/zip.png') }}" class="w-[10vw]" />
             <div class="text-center text-white text-[3vw]">
                 <h3>The 'z' in zip goes /z/ /z/ /z/.</h3>
-                <h3>/q/ /z/ /z/ /z/ /z/ /z/</h3>
+                <h3>/z/ /z/ /z/ /z/ /z/ /z/</h3>
                 <h3>The 'z' in zip goes /z/ /z/ /z/.</h3>
                 <h3>Over and over again.</h3>
 

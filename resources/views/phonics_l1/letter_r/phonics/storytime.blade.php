@@ -136,7 +136,7 @@
             <img src="{{ asset('assets/images/phonicsl1/global/gifs/lili.gif') }}"
                 class="h-[20vw] bottom-0 right-0 absolute" />
 
-             <h1 class="text-white text-[3.5vw] absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 text-center">Where are <br>
+             <h1 class="text-white text-[3vw] absolute top-[55%] -translate-y-1/2 left-1/2 -translate-x-1/2 text-center">Where are <br>
                 Ron and his <br>
                 rabbit?</h1>
             <p class="p-note absolute bottom-[1vw] left-[35%]">Tip: Elicit response from children.</p>

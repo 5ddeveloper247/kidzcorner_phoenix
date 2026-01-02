@@ -174,7 +174,7 @@
             <img src="{{ asset('assets/images/phonicsl1/letter_y/yolk.png') }}" class="w-[10vw]" />
             <div class="text-center text-white text-[3vw]">
                 <h3>The 'y' in yolk goes /y/ /y/ /y/.</h3>
-                <h3>/q/ /y/ /y/ /y/ /y/ /y/</h3>
+                <h3>/y/ /y/ /y/ /y/ /y/ /y/</h3>
                 <h3>The 'y' in yolk goes /y/ /y/ /y/.</h3>
                 <h3>Over and over again.</h3>
 

@@ -147,7 +147,7 @@
 
     {{-- Infpo Panel 4 --}}
     <div class="phonics-panel info-panel-4">
-        <h2 class="top-title stroke">The Quarrelsome Ducks</h2>
+        <h2 class="top-title stroke">This is the Way</h2>
         <div class="flex flex-col items-center gap-[1vw]">
             <h4 class="text-white text-[1vw]">(Tune: Here We Go Round the Mulberry Bush)</h4>
 
