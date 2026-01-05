@@ -2,7 +2,7 @@
 @section('title', 'Dynamic Presentation')
 
 @php
-    $showBackground = true;
+    $showBackground = false;
 @endphp
 
 @section('content')
