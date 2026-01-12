@@ -90,7 +90,8 @@
     {{-- Side Info Panel --}}
     <div class="phonics-panel info-panel-2">
         <h1 class="large-title stroke">a</h1>
-        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton" data-letter="a">
+        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton"
+            data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-a/a1.m4a') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -106,7 +107,7 @@
         </div>
 
         {{-- sound Button --}}
-        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton" data-letter="apple">
+        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton"  data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-a/a2.m4a') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -123,7 +124,7 @@
         </div>
 
         {{-- sound Button --}}
-        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton" data-letter="ant">
+        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton"  data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-a/a3.m4a') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -140,7 +141,7 @@
         </div>
 
         {{-- sound Button --}}
-        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton" data-letter="angry">
+        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton" data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-a/a4.m4a') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -156,7 +157,7 @@
         </div>
 
         {{-- sound Button --}}
-        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton" data-letter="jam">
+        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton"  data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-a/a5.m4a') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -197,7 +198,7 @@
         <p class="p-note">Tip: Click on the sound icon to listen to the letter sound. Then ask <br>
             children to select the correct letter that makes the sound.</p>
         {{-- sound Button --}}
-        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton" data-letter="a">
+        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton"  data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-a/a1.m4a') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -274,7 +275,7 @@
     <script>
         // SLIDE NAVIGATION SYSTEM
         document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
-        
+
         document.addEventListener("DOMContentLoaded", function() {
 
             // Get all elements
@@ -377,30 +378,6 @@
                 }
             }
 
-            // TEXT-TO-SPEECH FUNCTION
-            function speakLetter(letter) {
-                window.speechSynthesis.cancel();
-
-                const utterance = new SpeechSynthesisUtterance(letter);
-                utterance.rate = 0.8;
-                utterance.pitch = 1.2;
-                utterance.volume = 1;
-
-                const voices = window.speechSynthesis.getVoices();
-                const femaleVoice = voices.find(voice =>
-                    voice.name.includes('Female') ||
-                    voice.name.includes('female') ||
-                    voice.name.includes('Woman') ||
-                    voice.name.includes('Google US English') ||
-                    voice.name.includes('Microsoft Zira')
-                );
-
-                if (femaleVoice) {
-                    utterance.voice = femaleVoice;
-                }
-
-                window.speechSynthesis.speak(utterance);
-            }
 
             // DISPLAY FUNCTIONS
 
@@ -430,6 +407,20 @@
                 }
             }
 
+            soundButtons.forEach(btn => {
+                btn.addEventListener("click", (e) => {
+                    e.preventDefault();
+
+                    // Get audio source from data-slide-audio attribute
+                    const audioSrc = btn.getAttribute('data-slide-audio');
+
+                    if (audioSrc) {
+                        stopCurrentAudio();
+                        currentAudio = new Audio(audioSrc);
+                        currentAudio.play().catch(err => console.log('Audio play failed:', err));
+                    }
+                });
+            });
             // NAVIGATION FUNCTIONS
 
             function goNext() {
@@ -540,14 +531,6 @@
                 doneButton.addEventListener("click", handleDone);
             }
 
-            soundButtons.forEach(btn => {
-                btn.addEventListener("click", (e) => {
-                    e.preventDefault();
-                    const letter = btn.getAttribute('data-letter') || 'a';
-                    speakLetter(letter);
-                });
-            });
-
             const letterLinks = document.querySelectorAll('.phonics-panel a[href=""]:not([class*="info-btn"])');
             letterLinks.forEach(link => {
                 link.addEventListener('click', (e) => {
@@ -619,18 +602,6 @@
                 wellDoneSound.pause();
                 wellDoneSound.currentTime = 0;
                 window.location.href = '{{ url('/phonics/letter_a') }}?view=phonics';
-            });
-
-            // Sound button functionality
-            const soundButtons = document.querySelectorAll('[id="soundButton"]');
-            soundButtons.forEach(button => {
-                button.addEventListener('click', function() {
-                    const letter = this.getAttribute('data-letter');
-                    const letterSound = new Audio('{{ asset('sounds/letters/') }}' + letter +
-                        '.mp3');
-                    letterSound.currentTime = 0;
-                    letterSound.play().catch(err => console.log('Audio play failed:', err));
-                });
             });
         });
     </script>

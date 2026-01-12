@@ -88,7 +88,8 @@
     {{-- Side Info Panel --}}
     <div class="phonics-panel flex justify-center items-center info-panel-2">
         <h1 class="large-title stroke">g</h1>
-        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton" data-letter="g">
+        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton"
+            data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-g/g1.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -106,7 +107,8 @@
         </div>
 
         {{-- sound Button --}}
-        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton" data-letter="goose">
+        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton"
+            data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-g/g2.m4a') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -123,7 +125,8 @@
         </div>
 
         {{-- sound Button --}}
-        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton" data-letter="goat">
+        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton"
+            data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-g/g3.m4a') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -140,7 +143,8 @@
         </div>
 
         {{-- sound Button --}}
-        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton" data-letter="girl">
+        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton"
+            data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-g/g4.m4a') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -155,7 +159,8 @@
         </div>
 
         {{-- sound Button --}}
-        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton" data-letter="gift">
+        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton"
+            data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-g/g5.m4a') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -196,14 +201,16 @@
         <p class="p-note">Tip: Click on the sound icon to listen to the letter sound. Then ask <br>
             children to select the correct letter that makes the sound.</p>
         {{-- sound Button --}}
-        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton" data-letter="g">
+        <button class="absolute left-[-10vw] top-1/2 w-[5vw]" id="soundButton"
+            data-slide-audio="{{ asset('assets/audio/phonics_audio/letter-g/g1.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
 
 
     {{-- Try Again --}}
-    <div id="tryAgain" class="fixed inset-0 z-[1000] hidden  items-center justify-center bg-[#0000002e]  backdrop-blur-sm">
+    <div id="tryAgain"
+        class="fixed inset-0 z-[1000] hidden  items-center justify-center bg-[#0000002e]  backdrop-blur-sm">
         <div class="w-[60vw] relative h-[40vw] bg-contain bg-no-repeat bg-center flex flex-col justify-center items-center rounded-lg "
             style="background-image: url('{{ asset('assets/images/K2/exit.png') }}');">
             <p class="text-[3vw] !text-[#F8473A] stroke font-bold">Try Again?</p>
@@ -271,8 +278,9 @@
 @push('script')
     <script>
         // SLIDE NAVIGATION SYSTEM
-          document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
-document.addEventListener("DOMContentLoaded", function() {
+        document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
+
+        document.addEventListener("DOMContentLoaded", function() {
 
             // Get all elements
             const slides = document.querySelectorAll(".phonics-panel");
@@ -374,30 +382,6 @@ document.addEventListener("DOMContentLoaded", function() {
                 }
             }
 
-            // TEXT-TO-SPEECH FUNCTION
-            function speakLetter(letter) {
-                window.speechSynthesis.cancel();
-
-                const utterance = new SpeechSynthesisUtterance(letter);
-                utterance.rate = 0.8;
-                utterance.pitch = 1.2;
-                utterance.volume = 1;
-
-                const voices = window.speechSynthesis.getVoices();
-                const femaleVoice = voices.find(voice =>
-                    voice.name.includes('Female') ||
-                    voice.name.includes('female') ||
-                    voice.name.includes('Woman') ||
-                    voice.name.includes('Google US English') ||
-                    voice.name.includes('Microsoft Zira')
-                );
-
-                if (femaleVoice) {
-                    utterance.voice = femaleVoice;
-                }
-
-                window.speechSynthesis.speak(utterance);
-            }
 
             // DISPLAY FUNCTIONS
 
@@ -427,6 +411,20 @@ document.addEventListener("DOMContentLoaded", function() {
                 }
             }
 
+            soundButtons.forEach(btn => {
+                btn.addEventListener("click", (e) => {
+                    e.preventDefault();
+
+                    // Get audio source from data-slide-audio attribute
+                    const audioSrc = btn.getAttribute('data-slide-audio');
+
+                    if (audioSrc) {
+                        stopCurrentAudio();
+                        currentAudio = new Audio(audioSrc);
+                        currentAudio.play().catch(err => console.log('Audio play failed:', err));
+                    }
+                });
+            });
             // NAVIGATION FUNCTIONS
 
             function goNext() {
@@ -537,14 +535,6 @@ document.addEventListener("DOMContentLoaded", function() {
                 doneButton.addEventListener("click", handleDone);
             }
 
-            soundButtons.forEach(btn => {
-                btn.addEventListener("click", (e) => {
-                    e.preventDefault();
-                    const letter = btn.getAttribute('data-letter') || 'a';
-                    speakLetter(letter);
-                });
-            });
-
             const letterLinks = document.querySelectorAll('.phonics-panel a[href=""]:not([class*="info-btn"])');
             letterLinks.forEach(link => {
                 link.addEventListener('click', (e) => {
@@ -563,16 +553,15 @@ document.addEventListener("DOMContentLoaded", function() {
         });
 
 
-        // panel
-
+        // PANEL SYSTEM
         document.addEventListener('DOMContentLoaded', function() {
             // Get elements
             const tryAgainPanel = document.getElementById('tryAgain');
             const wellDonePanel = document.getElementById('wellDone');
             const retryBtn = document.getElementById('retry');
-            const closeBtn = document.getElementById('close'); // Close button in Well Done panel
+            const closeBtn = document.getElementById('close');
 
-            // Get all letter buttons by ID (multiple elements with same ID - need querySelectorAll)
+            // Get all letter buttons by ID
             const falseLetters = document.querySelectorAll('[id="false"]');
             const trueLetters = document.querySelectorAll('[id="true"]');
 
@@ -583,7 +572,6 @@ document.addEventListener("DOMContentLoaded", function() {
             // Function to show panel and play sound automatically
             function showPanelWithSound(panel, audioElement) {
                 panel.style.display = 'flex';
-                // Play sound automatically when panel opens
                 audioElement.currentTime = 0;
                 audioElement.play().catch(err => console.log('Audio play failed:', err));
             }
@@ -608,7 +596,6 @@ document.addEventListener("DOMContentLoaded", function() {
             retryBtn.addEventListener('click', function(e) {
                 e.preventDefault();
                 tryAgainPanel.style.display = 'none';
-                // Stop the sound if still playing
                 tryAgainSound.pause();
                 tryAgainSound.currentTime = 0;
             });
@@ -616,22 +603,9 @@ document.addEventListener("DOMContentLoaded", function() {
             // Handle Close button - redirect to route
             closeBtn.addEventListener('click', function(e) {
                 e.preventDefault();
-                // Stop the sound if still playing
                 wellDoneSound.pause();
                 wellDoneSound.currentTime = 0;
                 window.location.href = '{{ url('/phonics/letter_g') }}?view=phonics';
-            });
-
-            // Optional: Sound button functionality
-            const soundButtons = document.querySelectorAll('[id="soundButton"]');
-            soundButtons.forEach(button => {
-                button.addEventListener('click', function() {
-                    const letter = this.getAttribute('data-letter');
-                    const letterSound = new Audio('{{ asset('sounds/letters/') }}' + letter +
-                        '.mp3');
-                    letterSound.currentTime = 0;
-                    letterSound.play().catch(err => console.log('Audio play failed:', err));
-                });
             });
         });
     </script>
