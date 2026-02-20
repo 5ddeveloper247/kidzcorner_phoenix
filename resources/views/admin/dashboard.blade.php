@@ -232,11 +232,11 @@
                             </div>
 
                             <div class="col-12 col-lg-3">
-                                <a>
+                                <a href="{{ url('/phonics/l2') }}">
                                     <div class="card radius-15 overflow-hidden"
                                         style="min-height: 170px;  background: url('{{ asset('assets/images/K2/exit.png') }}') no-repeat center center; background-size: 125% 125%;">
-                                        <div class="upper-blur">
-                                        </div>
+                                        {{-- <div class="upper-blur">
+                                        </div> --}}
                                         <div
                                             class="card-body d-flex position-relative justify-content-center align-items-center mascot-container">
                                             <img src="{{ asset('assets/images/pptimages/phonic2.gif') }}"

@@ -10,7 +10,7 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
     })->name('Phonics-L1');
 
     // Supports: /phonics/letter_a/phonics/magicletters
-    Route::get('/phonics/{letter}/{category?}', function ($letter, $category = 'index') {
+    Route::get('/phonics_l1/{letter}/{category?}', function ($letter, $category = 'index') {
 
         // Replace slashes in category to match folder structure
         $category = str_replace('/', '.', $category);
