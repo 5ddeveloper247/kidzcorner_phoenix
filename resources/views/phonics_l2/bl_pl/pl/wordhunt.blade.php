@@ -15,7 +15,7 @@
 
         .large-title {
             color: #F7B94A;
-            font-size: 4vw !important;
+            font-size: 2vw !important;
         }
 
         .options {
@@ -25,7 +25,7 @@
             line-height: 100%;
             color: #A15E0D;
             background: #D9D9D9;
-            border: 7px solid #F8A23A;
+            border: 5px solid #F8A23A;
             border-radius: 20px;
             display: flex;
             justify-content: center;
@@ -41,105 +41,194 @@
     <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/bl1.m4a') }}">
         <h2 class="top-title stroke">Make a Match</h2>
         <div class="flex justify-center items-center">
-            <img src="{{ asset('assets/images/phonics_l2/global/common/word.png') }}" class="w-[30vw] h-[20vw]" />
+            <img src="{{ asset('assets/images/phonics_l2/global/common/play.png') }}" class="w-[30vw] h-[20vw]" />
             <img src="{{ asset('assets/images/phonicsl1/global/bear.png') }}" class="h-[25vw]" />
+            <img src="{{ asset('asets/images/phonicsl1/global/bear.png') }}" class="h-[25vw]" />
         </div>
+        <p class="p-note">Tips: Encourage children to say the 'pl' sound. <br>
+            Remind them to list en to the initial sound when naming each object.</p>
     </div>
+
 
 
     {{-- Panel 2 --}}
     <div class="phonics-panel flex flex-col justify-center space-y-[2vw] items-center w-full">
-        <div class="flex items-end justify-around w-full ">
-            <div class="flex items-end gap-[.5vw]">
-                <h2 class="large-title">bl</h2>
-                <div class="options"></div>
+        <h2 class="large-title stroke">Find the word that matches the picture.</h2>
+
+        <div class="flex items-center space-x-[1vw]">
+            <div class="options">mane</div>
+            <div class="flex flex-col items-center justify-center gap-3">
+                <img src="{{ asset('assets/images/phonics_l2/blpl/19.png') }}" class="w-[17vw]" />
+                <button class="w-[4vw]" id="soundButton"
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/bl2.m4a') }}">
+                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                </button>
             </div>
-            <div class="space-y-[1vw]">
-                <div class="options">ouse</div>
-                <div class="options">ack</div>
-                <div class="options">ow</div>
-                <div class="options">ue</div>
-            </div>
+            <div class="options">plane</div>
         </div>
 
-        <p class="note">Tips: Encourage children to try blending the word parts together to make a whole word.</p>
+        <p class="note">Tips: Invite children to sound out each word by parts (e.g. /pl/ ... /ane/) <br>
+            before selecting the word that matches the picture.</p>
     </div>
 
     {{-- Panel 3 --}}
     <div class="phonics-panel flex flex-col justify-center space-y-[2vw] items-center w-full">
-        <div class="flex items-end justify-around w-full ">
-            <div class="flex flex-col items-center">
-                <img src="{{ asset('assets/images/phonics_l2/blpl/11.png') }}" class="w-[20vw]" />
-                <div class="flex items-end gap-[.5vw]">
-                    <h2 class="large-title">bl</h2>
-                    <div class="options text-[#f7b94a]! text-[3vw]! text-end">blouse</div>
-                </div>
-            </div>
-            <div class="space-y-[1vw]">
-                <div class="options opacity-0!">ouse</div>
-                <div class="options">ack</div>
-                <div class="options">ow</div>
-                <div class="options">ue</div>
-            </div>
+        <h2 class="large-title stroke">Find the word that matches the picture.</h2>
+
+        <div class="flex flex-col items-center space-y-[1vw]">
+            <img src="{{ asset('assets/images/phonics_l2/blpl/19.png') }}" class="w-[17vw]" />
+            <div class="options">plane</div>
         </div>
     </div>
-    
+
     {{-- Panel 4 --}}
-     <div class="phonics-panel flex flex-col justify-center space-y-[2vw] items-center w-full">
-        <div class="flex items-end justify-around w-full ">
-            <div class="flex flex-col items-center gap-[2vw]">
-                <img src="{{ asset('assets/images/phonics_l2/blpl/12.png') }}" class="w-[20vw]" />
-                <div class="flex items-end gap-[.5vw]">
-                    <h2 class="large-title">bl</h2>
-                    <div class="options text-[#f7b94a]! text-[3vw]! text-end">black</div>
-                </div>
+      <div class="phonics-panel flex flex-col justify-center space-y-[2vw] items-center w-full">
+        <h2 class="large-title stroke">Find the word that matches the picture.</h2>
+
+        <div class="flex items-center space-x-[1vw]">
+            <div class="options">slant</div>
+            <div class="flex flex-col items-center justify-center gap-3">
+                <img src="{{ asset('assets/images/phonics_l2/blpl/26.png') }}" class="w-[17vw]" />
+                <button class="w-[4vw]" id="soundButton"
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/bl2.m4a') }}">
+                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                </button>
             </div>
-            <div class="space-y-[1vw]">
-                <div class="options">ouse</div>
-                <div class="options opacity-0!">ack</div>
-                <div class="options">ow</div>
-                <div class="options">ue</div>
-            </div>
+            <div class="options">plant</div>
         </div>
+
+        <p class="note">Tips: Invite children to sound out each word by parts (e.g. /pl/ ... /ane/) <br>
+            before selecting the word that matches the picture.</p>
     </div>
-    
 
     {{-- Panel 5 --}}
-      <div class="phonics-panel flex flex-col justify-center space-y-[2vw] items-center w-full">
-        <div class="flex items-end justify-around w-full ">
-            <div class="flex flex-col items-center">
-                <img src="{{ asset('assets/images/phonics_l2/blpl/1.png') }}" class="w-[20vw]" />
-                <div class="flex items-end gap-[.5vw]">
-                    <h2 class="large-title">bl</h2>
-                    <div class="options text-[#f7b94a]! text-[3vw]! text-end">blow</div>
-                </div>
-            </div>
-            <div class="space-y-[1vw]">
-                <div class="options">ouse</div>
-                <div class="options">ack</div>
-                <div class="options opacity-0!">ow</div>
-                <div class="options">ue</div>
-            </div>
+    <div class="phonics-panel flex flex-col justify-center space-y-[2vw] items-center w-full">
+        <h2 class="large-title stroke">Find the word that matches the picture.</h2>
+
+        <div class="flex flex-col items-center space-y-[1vw]">
+            <img src="{{ asset('assets/images/phonics_l2/blpl/26.png') }}" class="w-[17vw]" />
+            <div class="options">plant</div>
         </div>
     </div>
-    
+
 
     {{-- Panel 6 --}}
+       <div class="phonics-panel flex flex-col justify-center space-y-[2vw] items-center w-full">
+        <h2 class="large-title stroke">Find the word that matches the picture.</h2>
+
+        <div class="flex items-center space-x-[1vw]">
+            <div class="options">play</div>
+            <div class="flex flex-col items-center justify-center gap-3 ">
+                <img src="{{ asset('assets/images/phonics_l2/blpl/23.png') }}" class="w-[17vw] rounded-xl" />
+                <button class="w-[4vw]" id="soundButton"
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/bl2.m4a') }}">
+                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                </button>
+            </div>
+            <div class="options">clay</div>
+        </div>
+
+        <p class="note">Tips: Invite children to sound out each word by parts (e.g. /pl/ ... /ane/) <br>
+            before selecting the word that matches the picture.</p>
+    </div>
+
+    {{-- Panel 7 --}}
     <div class="phonics-panel flex flex-col justify-center space-y-[2vw] items-center w-full">
-        <div class="flex items-end justify-around w-full ">
-            <div class="flex flex-col items-center">
-                <img src="{{ asset('assets/images/phonics_l2/blpl/13.png') }}" class="w-[20vw]" />
-                <div class="flex items-end gap-[.5vw]">
-                    <h2 class="large-title">bl</h2>
-                    <div class="options text-[#f7b94a]! text-[3vw]! text-end">blue</div>
-                </div>
+        <h2 class="large-title stroke">Find the word that matches the picture.</h2>
+
+        <div class="flex flex-col items-center space-y-[1vw]">
+            <img src="{{ asset('assets/images/phonics_l2/blpl/23.png') }}" class="w-[17vw] rounded-xl" />
+            <div class="options">play</div>
+        </div>
+    </div>
+
+    {{-- panel 8 --}}
+        <div class="phonics-panel flex flex-col justify-center space-y-[2vw] items-center w-full">
+        <h2 class="large-title stroke">Find the word that matches the picture.</h2>
+
+        <div class="flex items-center space-x-[1vw]">
+            <div class="options">plate</div>
+            <div class="flex flex-col items-center justify-center gap-3">
+                <img src="{{ asset('assets/images/phonics_l2/blpl/24.png') }}" class="w-[17vw]" />
+                <button class="w-[4vw]" id="soundButton"
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/bl2.m4a') }}">
+                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                </button>
             </div>
-            <div class="space-y-[1vw]">
-                <div class="options">ouse</div>
-                <div class="options">ack</div>
-                <div class="options">ow</div>
-                <div class="options opacity-0!">ue</div>
+            <div class="options">slate</div>
+        </div>
+
+        <p class="note">Tips: Invite children to sound out each word by parts (e.g. /pl/ ... /ane/) <br>
+            before selecting the word that matches the picture.</p>
+    </div>
+
+    {{-- Panel 9 --}}
+    <div class="phonics-panel flex flex-col justify-center space-y-[2vw] items-center w-full">
+        <h2 class="large-title stroke">Find the word that matches the picture.</h2>
+
+        <div class="flex flex-col items-center space-y-[1vw]">
+            <img src="{{ asset('assets/images/phonics_l2/blpl/24.png') }}" class="w-[17vw]" />
+            <div class="options">plate</div>
+        </div>
+    </div>
+
+    {{-- Panel 10 --}}
+        <div class="phonics-panel flex flex-col justify-center space-y-[2vw] items-center w-full">
+        <h2 class="large-title stroke">Find the word that matches the picture.</h2>
+
+        <div class="flex items-center space-x-[1vw]">
+            <div class="options">plank</div>
+            <div class="flex flex-col items-center justify-center gap-3">
+                <img src="{{ asset('assets/images/phonics_l2/blpl/25.png') }}" class="w-[17vw]" />
+                <button class="w-[4vw]" id="soundButton"
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/bl2.m4a') }}">
+                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                </button>
             </div>
+            <div class="options">blank</div>
+        </div>
+
+        <p class="note">Tips: Invite children to sound out each word by parts (e.g. /pl/ ... /ane/) <br>
+            before selecting the word that matches the picture.</p>
+    </div>
+
+    {{-- Panel 11 --}}
+    <div class="phonics-panel flex flex-col justify-center space-y-[2vw] items-center w-full">
+        <h2 class="large-title stroke">Find the word that matches the picture.</h2>
+
+        <div class="flex flex-col items-center space-y-[1vw]">
+            <img src="{{ asset('assets/images/phonics_l2/blpl/25.png') }}" class="w-[17vw]" />
+            <div class="options">plank</div>
+        </div>
+    </div>
+
+    {{-- Panel 12 --}}
+        <div class="phonics-panel flex flex-col justify-center space-y-[2vw] items-center w-full">
+        <h2 class="large-title stroke">Find the word that matches the picture.</h2>
+
+        <div class="flex items-center space-x-[1vw]">
+            <div class="options">slums</div>
+            <div class="flex flex-col items-center justify-center gap-3">
+                <img src="{{ asset('assets/images/phonics_l2/blpl/18.png') }}" class="w-[17vw]" />
+                <button class="w-[4vw]" id="soundButton"
+                    data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/bl2.m4a') }}">
+                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                </button>
+            </div>
+            <div class="options">plums</div>
+        </div>
+
+        <p class="note">Tips: Invite children to sound out each word by parts (e.g. /pl/ ... /ane/) <br>
+            before selecting the word that matches the picture.</p>
+    </div>
+
+    {{-- Panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-center space-y-[2vw] items-center w-full">
+        <h2 class="large-title stroke">Find the word that matches the picture.</h2>
+
+        <div class="flex flex-col items-center space-y-[1vw]">
+            <img src="{{ asset('assets/images/phonics_l2/blpl/18.png') }}" class="w-[17vw]" />
+            <div class="options">plums</div>
         </div>
     </div>
 
@@ -191,8 +280,8 @@
             const infoButtons = document.querySelectorAll("[class*='info-btn']");
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
-            const returnURL = "{{ url('/phonics_l2/bl_pl/bl') }}";
-            const doneURL = "{{ url('/phonics_l2/bl_pl/bl') }}";
+            const returnURL = "{{ url('/phonics_l2/bl_pl/pl') }}";
+            const doneURL = "{{ url('/phonics_l2/bl_pl/pl') }}";
             const AUTO_PLAY_DELAY = 500;
 
             let currentSlide = 0;
