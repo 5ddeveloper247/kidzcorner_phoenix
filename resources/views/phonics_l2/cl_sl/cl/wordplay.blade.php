@@ -51,14 +51,14 @@
     <div class="phonics-panel flex flex-col justify-center space-y-[2vw] items-center w-full">
         <div class="flex items-end justify-around w-full ">
             <div class="flex items-end gap-[.5vw]">
-                <h2 class="large-title">bl</h2>
+                <h2 class="large-title">cl</h2>
                 <div class="options"></div>
             </div>
             <div class="space-y-[1vw]">
-                <div class="options">ouse</div>
-                <div class="options">ack</div>
-                <div class="options">ow</div>
-                <div class="options">ue</div>
+                <div class="options">ose</div>
+                <div class="options">am</div>
+                <div class="options">ips</div>
+                <div class="options">ap</div>
             </div>
         </div>
 
@@ -67,38 +67,34 @@
 
     {{-- Panel 3 --}}
     <div class="phonics-panel flex flex-col justify-center space-y-[2vw] items-center w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/bl-ouse.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/cl-ose.m4a') }}">
         <div class="flex items-end justify-around w-full ">
-            <div class="flex flex-col items-center">
-                <img src="{{ asset('assets/images/phonics_l2/blpl/11.png') }}" class="w-[20vw]" />
-                <div class="flex items-end gap-[.5vw]">
-                    <div class="options text-[#f7b94a]! text-[3vw]! text-end">blouse</div>
-                </div>
+            <div class="flex flex-col items-center gap-[1vw]">
+                <img src="{{ asset('assets/images/phonics_l2/clsl/close.png') }}" class="h-[20vw]" />
+                <div class="options text-[#f7b94a]! text-[3vw]! text-end">close</div>
             </div>
             <div class="space-y-[1vw]">
-                <div class="options opacity-0!">ouse</div>
-                <div class="options">ack</div>
-                <div class="options">ow</div>
-                <div class="options">ue</div>
+                <div class="options opacity-0!">ose</div>
+                <div class="options">am</div>
+                <div class="options">ips</div>
+                <div class="options">ap</div>
             </div>
         </div>
     </div>
 
     {{-- Panel 4 --}}
     <div class="phonics-panel flex flex-col justify-center space-y-[2vw] items-center w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/bl-ack.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/cl-am.m4a') }}">
         <div class="flex items-end justify-around w-full ">
-            <div class="flex flex-col items-center gap-[2vw]">
-                <img src="{{ asset('assets/images/phonics_l2/blpl/12.png') }}" class="w-[20vw]" />
-                <div class="flex items-end gap-[.5vw]">
-                    <div class="options text-[#f7b94a]! text-[3vw]! text-end">black</div>
-                </div>
+            <div class="flex flex-col items-center gap-[1vw]">
+                <img src="{{ asset('assets/images/phonics_l2/clsl/shell.png') }}" class="w-[20vw]" />
+                <div class="options text-[#f7b94a]! text-[3vw]! text-end">clam</div>
             </div>
             <div class="space-y-[1vw]">
-                <div class="options">ouse</div>
-                <div class="options opacity-0!">ack</div>
-                <div class="options">ow</div>
-                <div class="options">ue</div>
+                <div class="options">ose</div>
+                <div class="options opacity-0!">am</div>
+                <div class="options">ips</div>
+                <div class="options">ap</div>
             </div>
         </div>
     </div>
@@ -106,19 +102,17 @@
 
     {{-- Panel 5 --}}
     <div class="phonics-panel flex flex-col justify-center space-y-[2vw] items-center w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/bl-ow.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/cl-ips.m4a') }}">
         <div class="flex items-end justify-around w-full ">
-            <div class="flex flex-col items-center">
-                <img src="{{ asset('assets/images/phonics_l2/blpl/1.png') }}" class="w-[20vw]" />
-                <div class="flex items-end gap-[.5vw]">
-                    <div class="options text-[#f7b94a]! text-[3vw]! text-end">blow</div>
-                </div>
+            <div class="flex flex-col items-center gap-[1vw]">
+                <img src="{{ asset('assets/images/phonics_l2/clsl/clips.png') }}" class="w-[20vw]" />
+                <div class="options text-[#f7b94a]! text-[3vw]! text-end">clips</div>
             </div>
             <div class="space-y-[1vw]">
-                <div class="options">ouse</div>
-                <div class="options">ack</div>
-                <div class="options opacity-0!">ow</div>
-                <div class="options">ue</div>
+                <div class="options">ose</div>
+                <div class="options">am</div>
+                <div class="options opacity-0!">ips</div>
+                <div class="options">ap</div>
             </div>
         </div>
     </div>
@@ -126,26 +120,24 @@
 
     {{-- Panel 6 --}}
     <div class="phonics-panel flex flex-col justify-center space-y-[2vw] items-center w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/bl-ue.m4a') }}">
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/cl-ap.m4a') }}">
         <div class="flex items-end justify-around w-full ">
-            <div class="flex flex-col items-center">
-                <img src="{{ asset('assets/images/phonics_l2/blpl/13.png') }}" class="w-[20vw]" />
-                <div class="flex items-end gap-[.5vw]">
-                    <div class="options text-[#f7b94a]! text-[3vw]! text-end">blue</div>
-                </div>
+            <div class="flex flex-col items-center gap-[1vw]">
+                <img src="{{ asset('assets/images/phonics_l2/clsl/clap.png') }}" class="w-[20vw]" />
+                <div class="options text-[#f7b94a]! text-[3vw]! text-end">clap</div>
             </div>
             <div class="space-y-[1vw]">
-                <div class="options">ouse</div>
-                <div class="options">ack</div>
-                <div class="options">ow</div>
-                <div class="options opacity-0!">ue</div>
+                <div class="options">ose</div>
+                <div class="options">am</div>
+                <div class="options">ips</div>
+                <div class="options opacity-0!">ap</div>
             </div>
         </div>
     </div>
 
 
 
-
+    {{-- ================================================= --}}
     {{-- All Buttons --}}
     <div id="buttons" class="absolute flex flex-row gap-6 z-90">
 
@@ -191,8 +183,8 @@
             const infoButtons = document.querySelectorAll("[class*='info-btn']");
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
-            const returnURL = "{{ url('/phonics_l2/bl_pl/bl') }}";
-            const doneURL = "{{ url('/phonics_l2/bl_pl/bl') }}";
+            const returnURL = "{{ url('/phonics_l2/cl_sl/cl') }}";
+            const doneURL = "{{ url('/phonics_l2/cl_sl/cl') }}";
             const AUTO_PLAY_DELAY = 500;
 
             let currentSlide = 0;

@@ -26,29 +26,31 @@
 
 @section('content')
     {{-- Panel 1: Intro Slide --}}
-    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/rhymetime.m4a') }}">
-        <h2 class="top-title stroke">Rhyme Time</h2>
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/singalong.m4a') }}">
+        <h2 class="top-title stroke">Sing Along</h2>
         <div class="flex justify-center items-center">
-            <img src="{{ asset('assets/images/phonics_l2/global/common/rhyme.png') }}" class="w-[30vw] h-[20vw]" />
+            <img src="{{ asset('assets/images/phonics_l2/global/common/sing.png') }}" class="w-[30vw] h-[20vw]" />
             <img src="{{ asset('assets/images/phonicsl1/global/bear.png') }}" class="h-[25vw]" />
         </div>
     </div>
 
     {{-- Panel 2: Song Content Slide --}}
-    <div class="phonics-panel flex flex-col mt-[-3vw] h-full items-center">
-        <h2 class="large-title">Plippity, Ploppity, Plop</h2>
-        <img src="{{ asset('assets/images/phonics_l2/blpl/ppp.png') }}" />
+    <div class="phonics-panel flex flex-col h-full space-y-[2vw] items-center">
+        <div class="text-center">
+            <h2 class="large-title">CL</h2>
+            <p class="note">Sing to the tune of "Pop goes the Weasel</p>
+        </div>
 
-        <p class="p-note">Tips: After reciting the rhyme, invite children to find the words that begin with the target blend
-            sound. <br>
-            Encourage them to find words that rhyme too.</p>
+        <img src="{{ asset('assets/images/phonics_l2/clsl/singalong.png') }}" class="ml-20" />
+
+        <p class="p-note">Tips: Invite children to sing-along. Encourage them to listen to the target blend sounds. <br>
+            Extension: Encourage children to substitute other words with /cl/ and sing along.</p>
 
         <button class="absolute top-1/2 -translate-1/2 left-[-10vw] w-[4vw]" id="soundButton"
-            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/bl-singalong.mp3') }}">
+            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/cl-singalong.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
-
 
     {{-- Navigation Buttons (Top) --}}
     <div id="buttons" class="absolute flex flex-row gap-6 z-90">
@@ -96,8 +98,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
 
-            const returnURL = "{{ url('/phonics_l2/bl_pl/pl') }}";
-            const doneURL = "{{ url('/phonics_l2/bl_pl/pl') }}";
+            const returnURL = "{{ url('/phonics_l2/cl_sl/cl') }}";
+            const doneURL = "{{ url('/phonics_l2/cl_sl/cl') }}";
 
             let currentSlide = 0;
             let currentAudio = null;
