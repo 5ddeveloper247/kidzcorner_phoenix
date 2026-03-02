@@ -8,7 +8,7 @@
 @push('styles')
     <style>
         .p-note {
-            font-size: 1.2vw;
+            font-size: 1vw;
             color: white !important;
         }
 
@@ -35,21 +35,21 @@
     </div>
 
     {{-- Panel 2: Song Content Slide --}}
-    <div class="phonics-panel flex flex-col mt-[-3vw] h-full items-center">
-        <h2 class="large-title">Plippity, Ploppity, Plop</h2>
-        <img src="{{ asset('assets/images/phonics_l2/blpl/ppp.png') }}" />
+    <div class="phonics-panel flex flex-col mt-[-3vw] h-full items-center space-y-[1.5vw]">
+        <h2 class="large-title stroke">Slippity, Sloppity, Slop</h2>
+        <img src="{{ asset('assets/images/phonics_l2/clsl/rhyme.png') }}" class="h-[20vw]" />
 
         <p class="p-note">Tips: After reciting the rhyme, invite children to find the words that begin with the target blend
             sound. <br>
             Encourage them to find words that rhyme too.</p>
 
         <button class="absolute top-1/2 -translate-1/2 left-[-10vw] w-[4vw]" id="soundButton"
-            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/bl-singalong.mp3') }}">
+            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/sl-rhyme.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
 
-
+{{-- ============================================f --}}
     {{-- Navigation Buttons (Top) --}}
     <div id="buttons" class="absolute flex flex-row gap-6 z-90">
         <!-- Return/Back Button -->
@@ -96,8 +96,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
 
-            const returnURL = "{{ url('/phonics_l2/bl_pl/pl') }}";
-            const doneURL = "{{ url('/phonics_l2/bl_pl/pl') }}";
+            const returnURL = "{{ url('/phonics_l2/cl_sl/sl') }}";
+            const doneURL = "{{ url('/phonics_l2/cl_sl/sl') }}";
 
             let currentSlide = 0;
             let currentAudio = null;

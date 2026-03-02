@@ -19,23 +19,23 @@
 @section('content')
 
     <div>
-        <h2 class="stroke text-[3vw] text-[#f7b94a] ">PL</h2>
+        <h2 class="stroke text-[3vw] text-[#f7b94a] ">SL</h2>
         {{-- Navigations to Inner folders  --}}
         <div id="slide-board" class="grid grid-cols-2 gap-[2vw] mb-[2vw]  text-center justify-content-center">
 
-            <a href="{{ url('/phonics_l2/bl_pl/pl/blend') }}">
+            <a href="{{ url('/phonics_l2/cl_sl/sl/blend') }}">
                 <img src="{{ asset('assets/images/phonics_l2/global/b1.png') }}" class="mx-auto d-block" />
             </a>
 
-            <a href="{{ url('/phonics_l2/bl_pl/pl/rhyme') }}">
+            <a href="{{ url('/phonics_l2/cl_sl/sl/rhyme') }}">
                 <img src="{{ asset('assets/images/phonics_l2/global/b6.png') }}" class="mx-auto d-block" />
             </a>
 
-            <a href="{{ url('/phonics_l2/bl_pl/pl/match') }}">
-                <img src="{{ asset('assets/images/phonics_l2/global/b4.png') }}" class="mx-auto d-block" />
+            <a href="{{ url('/phonics_l2/cl_sl/sl/match') }}">
+                <img src="{{ asset('assets/images/phonics_l2/global/b8.png') }}" class="mx-auto d-block" />
             </a>
 
-            <a href="{{ url('/phonics_l2/bl_pl/pl/wordhunt') }}">
+            <a href="{{ url('/phonics_l2/cl_sl/sl/wordhunt') }}">
                 <img src="{{ asset('assets/images/phonics_l2/global/b7.png') }}" class="mx-auto d-block" />
             </a>
 
@@ -46,7 +46,7 @@
 
     <div id="buttons" class="absolute flex flex-row gap-6 z-90">
 
-        <a href="{{ url ('/phonics_l2/bl_pl') }}" id="returnButton">
+        <a href="{{ url ('/phonics_l2/cl_sl') }}" id="returnButton">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/return-btn.png') }}" />
         </a>
 
