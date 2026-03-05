@@ -69,8 +69,8 @@
 
 
     {{-- Panel 3 --}}
-    <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}">
+    <div class="answer phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/slime.m4a') }}">
         <h2 class="title-top stroke">Find the missing words to complete <br>
             the sentence.</h2>
 
@@ -102,7 +102,9 @@
 
 
     {{-- Panel 4 --}}
-    <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]">
+    <div class="answer phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/clock.m4a') }}">
+
         <h2 class="title-top stroke">Find the missing words to complete <br>
             the sentence.</h2>
 
@@ -115,7 +117,7 @@
             </button>
             {{-- answers --}}
             <span class="h-[4vw] absolute top-[-2vw]! left-[37%] text-[#f7b94a] text-[2vw]">slime</span>
-            <span class="h-[4vw] absolute top-[-2vw]! right-[11%] text-[#f7b94a] text-[2vw]">clock</span>
+            <span class="h-[4vw] absolute top-[-2vw]! right-[6%] text-[#f7b94a] text-[2vw]">clock</span>
 
             <span class="text-white">There is</span>
             <div class="w-[8vw] h-[4px] bg-[#E6A23C] border-t border-[#C47F1E]"></div>
@@ -164,8 +166,8 @@
     </div>
 
     {{-- Panel 6 --}}
-    <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}">
+    <div class="answer phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/clown.m4a') }}">
         <h2 class="title-top stroke">Find the missing words to complete <br>
             the sentence.</h2>
 
@@ -199,8 +201,8 @@
     </div>
 
     {{-- Panel 7 --}}
-    <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}">
+    <div class="answer phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/sleep.m4a') }}">
         <h2 class="title-top stroke">Find the missing words to complete <br>
             the sentence.</h2>
 
@@ -267,7 +269,8 @@
 
 
     {{-- Panel 9 --}}
-    <div class="phonics-panel h-full flex flex-col justify-between items-center space-y-[1vw]">
+    <div class="answer phonics-panel h-full flex flex-col justify-between items-center space-y-[1vw]"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/clam.m4a') }}">
         <h2 class="title-top stroke">Find the missing words to complete <br>
             the sentence.</h2>
 
@@ -301,7 +304,8 @@
     </div>
 
     {{-- Panel 10 --}}
-    <div class="phonics-panel h-full flex flex-col justify-between items-center space-y-[1vw]">
+    <div class="answer phonics-panel h-full flex flex-col justify-between items-center space-y-[1vw]"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/slide.m4a') }}">
         <h2 class="title-top stroke">Find the missing words to complete <br>
             the sentence.</h2>
 
@@ -445,34 +449,29 @@
                 stopCurrentAudio();
 
                 const slide = slides[slideIndex];
+                const isAnswerSlide = slide.classList.contains('answer');
+                const audioSources = [];
 
-                setTimeout(() => {
-                    const audioSources = [];
+                const slideSrc = slide.getAttribute('data-slide-audio');
+                if (slideSrc) audioSources.push(slideSrc);
 
-                    const slideSrc = slide.getAttribute('data-slide-audio');
-                    if (slideSrc) audioSources.push(slideSrc);
-
+                if (isAnswerSlide) {
+                    audioSources.push("{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}");
+                } else {
                     slide.querySelectorAll('[data-slide-audio]').forEach(el => {
                         const src = el.getAttribute('data-slide-audio');
-                        if (src && !audioSources.includes(src)) {
-                            audioSources.push(src);
-                        }
+                        if (src && !audioSources.includes(src)) audioSources.push(src);
                     });
+                }
 
-                    function playNext(index) {
-                        if (index >= audioSources.length) return;
+                function playNext(index) {
+                    if (index >= audioSources.length) return;
+                    currentAudio = new Audio(audioSources[index]);
+                    currentAudio.play().catch(err => console.log('Audio play failed:', err));
+                    currentAudio.onended = () => playNext(index + 1);
+                }
 
-                        currentAudio = new Audio(audioSources[index]);
-                        currentAudio.play().catch(err => console.log('Audio play failed:', err));
-
-                        currentAudio.onended = () => {
-                            playNext(index + 1);
-                        };
-                    }
-
-                    playNext(0);
-
-                }, AUTO_PLAY_DELAY);
+                playNext(0);
             }
 
             function showSlide(slideIndex) {

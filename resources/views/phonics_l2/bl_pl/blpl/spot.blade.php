@@ -45,6 +45,10 @@
         .marked {
             background: #FFD355 !important;
         }
+
+        .before {
+            cursor: pointer;
+        }
     </style>
 @endpush
 
@@ -73,7 +77,7 @@
     </div>
 
     {{-- Panel 2 --}}
-    <div class="phonics-panel no-bg">
+    <div class="phonics-panel no-bg" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/bl-spot.m4a') }}">
         <div class="title-top stroke -translate-1/2">
             Help the mouse get home. <br>
             Find the blend
@@ -88,7 +92,7 @@
                 class="w-[9vw] absolute top-[35%] left-[8%]" />
 
             <div class="flex items-center gap-[1.5vw] absolute top-[15%] left-1/2 -translate-1/2">
-                <div class="circle">
+                <div class="circle before">
                     <button class="w-[3vw]" id="soundButton"
                         data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
@@ -97,21 +101,21 @@
                 </div>
                 <div class="circle">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/pluh.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>pl</span>
                 </div>
                 <div class="circle">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/prah.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>pr</span>
                 </div>
                 <div class="circle">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/brah.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>br</span>
@@ -146,21 +150,21 @@
                 </div>
                 <div class="circle">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/pluh.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>pl</span>
                 </div>
                 <div class="circle">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-bl_plsl/prah.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>pr</span>
                 </div>
                 <div class="circle">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/brah.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>br</span>
@@ -170,7 +174,7 @@
     </div>
 
     {{-- Panel 4 --}}
-    <div class="phonics-panel no-bg">
+    <div class="phonics-panel no-bg"data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/bl-spot.m4a') }}">
         <div class="title-top stroke -translate-1/2">
             Help the mouse get home. <br>
             Find the blend
@@ -187,7 +191,7 @@
             <div class="flex items-center gap-[1.5vw] absolute top-[15%] left-1/2 -translate-1/2">
                 <div class="circle">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/brah.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>br</span>
@@ -199,16 +203,16 @@
                     </button>
                     <span>bl</span>
                 </div>
-                <div class="circle">
+                <div class="circle before">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/pluh.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>pl</span>
                 </div>
                 <div class="circle">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/slah.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>sl</span>
@@ -235,7 +239,7 @@
             <div class="flex items-center gap-[1.5vw] absolute top-[15%] left-1/2 -translate-1/2">
                 <div class="circle">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/brah.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>br</span>
@@ -249,14 +253,14 @@
                 </div>
                 <div class="circle marked">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/pluh.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>pl</span>
                 </div>
                 <div class="circle">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/slah.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>sl</span>
@@ -266,7 +270,7 @@
     </div>
 
     {{-- Panel 6 --}}
-    <div class="phonics-panel no-bg">
+    <div class="phonics-panel no-bg"data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/bl-spot.m4a') }}">
         <div class="title-top stroke -translate-1/2">
             Help the mouse get home. <br>
             Find the blend
@@ -283,28 +287,28 @@
             <div class="flex items-center gap-[1.5vw] absolute top-[15%] left-1/2 -translate-1/2">
                 <div class="circle">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/glah.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>gl</span>
                 </div>
-                <div class="circle">
+                <div class="circle before">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/pluh.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>pl</span>
                 </div>
                 <div class="circle">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/clah.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>cl</span>
                 </div>
                 <div class="circle">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/brah.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>br</span>
@@ -331,28 +335,28 @@
             <div class="flex items-center gap-[1.5vw] absolute top-[15%] left-1/2 -translate-1/2">
                 <div class="circle">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/glah.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>gl</span>
                 </div>
                 <div class="circle marked">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/pluh.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>pl</span>
                 </div>
                 <div class="circle">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/clah.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>cl</span>
                 </div>
                 <div class="circle">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/brah.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>br</span>
@@ -362,7 +366,7 @@
     </div>
 
     {{-- Panel 8 --}}
-    <div class="phonics-panel no-bg">
+    <div class="phonics-panel no-bg"data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/bl-spot.m4a') }}">
         <div class="title-top stroke -translate-1/2">
             Help the mouse get home. <br>
             Find the blend
@@ -379,26 +383,26 @@
             <div class="flex items-center gap-[1.5vw] absolute top-[15%] left-1/2 -translate-1/2">
                 <div class="circle">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/brah.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>br</span>
                 </div>
                 <div class="circle">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/pluh.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>pl</span>
                 </div>
                 <div class="circle">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/flah.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>fl</span>
                 </div>
-                <div class="circle">
+                <div class="circle before">
                     <button class="w-[3vw]" id="soundButton"
                         data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
@@ -427,21 +431,21 @@
             <div class="flex items-center gap-[1.5vw] absolute top-[15%] left-1/2 -translate-1/2">
                 <div class="circle">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/brah.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>br</span>
                 </div>
                 <div class="circle">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/pluh.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>pl</span>
                 </div>
                 <div class="circle">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/flah.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>fl</span>
@@ -458,7 +462,7 @@
     </div>
 
     {{-- Panel 10 --}}
-    <div class="phonics-panel no-bg">
+    <div class="phonics-panel no-bg"data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/bl-spot.m4a') }}">
         <div class="title-top stroke -translate-1/2">
             Help the mouse get home. <br>
             Find the blend
@@ -473,16 +477,16 @@
                 class="w-[9vw] absolute top-[35%] right-[12%]" />
 
             <div class="flex items-center gap-[1.5vw] absolute top-[15%] left-1/2 -translate-1/2">
-                <div class="circle">
+                <div class="circle before">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/pluh.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>pl</span>
                 </div>
                 <div class="circle">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/glah.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>gl</span>
@@ -496,7 +500,7 @@
                 </div>
                 <div class="circle">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-bl_plsl/prah.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>pr</span>
@@ -523,14 +527,14 @@
             <div class="flex items-center gap-[1.5vw] absolute top-[15%] left-1/2 -translate-1/2">
                 <div class="circle marked">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/pluh.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>pl</span>
                 </div>
                 <div class="circle">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/glah.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>gl</span>
@@ -544,7 +548,7 @@
                 </div>
                 <div class="circle">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-bl_plsl/prah.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>pr</span>
@@ -555,10 +559,7 @@
 
 
 
-
-
     {{-- ======================================================== --}}
-
     {{-- All Buttons --}}
     <div id="buttons" class="absolute flex flex-row gap-6 z-90">
 
@@ -594,19 +595,20 @@
 
 @push('script')
     <script>
-        document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
+        document.body.dataset.homeRoute = "{{ url('/phonics/l2') }}";
 
         document.addEventListener("DOMContentLoaded", function() {
 
             const slides = document.querySelectorAll(".phonics-panel");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
-            const infoButtons = document.querySelectorAll("[class*='info-btn']");
+            const homeButton = document.getElementById("homeButton");
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             const returnURL = "{{ url('/phonics_l2/bl_pl/blpl') }}";
             const doneURL = "{{ url('/phonics_l2/bl_pl/blpl') }}";
-            const AUTO_PLAY_DELAY = 500;
+            const homeURL = document.body.dataset.homeRoute;
+            const CHEERING = "{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}";
 
             let currentSlide = 0;
             let currentAudio = null;
@@ -614,48 +616,8 @@
             let returnToSlide = null;
             let specialSlideClass = null;
 
-            function isSpecialSlide(slide) {
-                const classList = Array.from(slide.classList);
-                return classList.some(cls => /^info-panel-\d+$/.test(cls));
-            }
-
-            function getSlideTypeFromButton(button) {
-                const classList = Array.from(button.classList);
-                for (let className of classList) {
-                    if (className.startsWith('info-btn')) {
-                        const number = className.replace('info-btn', '');
-                        return 'info-panel-' + number;
-                    }
-                }
-                return null;
-            }
-
-            function hasMoreSpecialSlides(fromIndex) {
-                if (!specialSlideClass) return false;
-                for (let i = fromIndex + 1; i < slides.length; i++) {
-                    if (slides[i].classList.contains(specialSlideClass)) {
-                        return true;
-                    }
-                }
-                return false;
-            }
-
-            function isLastSlide(slideIndex) {
-                if (isInSpecialMode && !hasMoreSpecialSlides(slideIndex)) {
-                    return true;
-                }
-                if (!isInSpecialMode) {
-                    for (let i = slideIndex + 1; i < slides.length; i++) {
-                        if (!isSpecialSlide(slides[i])) {
-                            return false;
-                        }
-                    }
-                    return true;
-                }
-                return false;
-            }
-
-            function stopCurrentAudio() {
+            /* ── Audio ── */
+            function stopAudio() {
                 if (currentAudio) {
                     currentAudio.onended = null;
                     currentAudio.pause();
@@ -664,189 +626,148 @@
                 }
             }
 
-            function playSlideAudio(slideIndex) {
-                stopCurrentAudio();
+            function playAudio(src) {
+                stopAudio();
+                if (!src) return;
+                currentAudio = new Audio(src);
+                currentAudio.play().catch(() => {});
+            }
 
-                const slide = slides[slideIndex];
+            function playSlideAudio(idx) {
+                const slide = slides[idx];
+                // Answer slide (has .marked) → cheering only
+                if (slide.querySelector('.marked')) {
+                    playAudio(CHEERING);
+                    return;
+                }
+                // All other slides → only the first audio source found
+                const src = slide.getAttribute('data-slide-audio') ||
+                    slide.querySelector('[data-slide-audio]')?.getAttribute('data-slide-audio');
+                playAudio(src);
+            }
 
-                setTimeout(() => {
-                    const audioSources = [];
+            /* ── Slides ── */
+            function isSpecialSlide(slide) {
+                return Array.from(slide.classList).some(c => /^info-panel-\d+$/.test(c));
+            }
 
-                    const slideSrc = slide.getAttribute('data-slide-audio');
-                    if (slideSrc) audioSources.push(slideSrc);
+            function isLastSlide(idx) {
+                if (isInSpecialMode) {
+                    for (let i = idx + 1; i < slides.length; i++) {
+                        if (slides[i].classList.contains(specialSlideClass)) return false;
+                    }
+                    return true;
+                }
+                for (let i = idx + 1; i < slides.length; i++) {
+                    if (!isSpecialSlide(slides[i])) return false;
+                }
+                return true;
+            }
 
-                    slide.querySelectorAll('[data-slide-audio]').forEach(el => {
-                        const src = el.getAttribute('data-slide-audio');
-                        if (src && !audioSources.includes(src)) {
-                            audioSources.push(src);
+            function showSlide(idx) {
+                stopAudio();
+                currentSlide = idx;
+                slides.forEach((s, i) => s.classList.toggle('hidden', i !== idx));
+                playSlideAudio(idx);
+
+                const last = isLastSlide(idx);
+                nextButtons.forEach(b => b.classList.toggle('hidden', last));
+                document.querySelectorAll('.doneButton').forEach(b => b.classList.toggle('hidden', !last));
+
+                // no-bg class on container
+                const container = document.getElementById('ajax-section');
+                if (container) container.classList.toggle('no-bg', slides[idx].classList.contains('no-bg'));
+            }
+
+            /* ── .before circle click → jump to next .marked slide ── */
+            document.querySelectorAll('.circle.before').forEach(circle => {
+                circle.addEventListener('click', () => {
+                    for (let i = currentSlide + 1; i < slides.length; i++) {
+                        if (slides[i].querySelector('.marked')) {
+                            showSlide(i);
+                            break;
                         }
-                    });
-
-                    function playNext(index) {
-                        if (index >= audioSources.length) return;
-
-                        currentAudio = new Audio(audioSources[index]);
-                        currentAudio.play().catch(err => console.log('Audio play failed:', err));
-
-                        currentAudio.onended = () => {
-                            playNext(index + 1);
-                        };
-                    }
-
-                    playNext(0);
-
-                }, AUTO_PLAY_DELAY);
-            }
-
-            function showSlide(slideIndex) {
-                stopCurrentAudio();
-
-                const currentSlideElement = slides[slideIndex]; // ← added
-
-                slides.forEach((slide, index) => {
-                    if (index === slideIndex) {
-                        slide.classList.remove("hidden");
-                    } else {
-                        slide.classList.add("hidden");
-                    }
-                });
-
-                playSlideAudio(slideIndex);
-
-                if (isLastSlide(slideIndex)) {
-                    nextButtons.forEach(btn => btn.classList.add("hidden"));
-                    document.querySelectorAll(".doneButton").forEach(btn => btn.classList.remove("hidden"));
-                } else {
-                    nextButtons.forEach(btn => btn.classList.remove("hidden"));
-                    document.querySelectorAll(".doneButton").forEach(btn => btn.classList.add("hidden"));
-                }
-
-                // ↓ no-bg logic merged from JS 1
-                const ajaxSection = document.getElementById('ajax-section');
-                if (ajaxSection) {
-                    if (currentSlideElement.classList.contains('no-bg')) {
-                        ajaxSection.classList.add('no-bg');
-                    } else {
-                        ajaxSection.classList.remove('no-bg');
-                    }
-                }
-            }
-
-            soundButtons.forEach(btn => {
-                btn.addEventListener("click", (e) => {
-                    e.preventDefault();
-                    const audioSrc = btn.getAttribute('data-slide-audio');
-                    if (audioSrc) {
-                        stopCurrentAudio();
-                        currentAudio = new Audio(audioSrc);
-                        currentAudio.play().catch(err => console.log('Audio play failed:', err));
                     }
                 });
             });
 
+            /* ── Sound buttons ── */
+            soundButtons.forEach(btn => {
+                btn.addEventListener('click', e => {
+                    e.stopPropagation();
+                    e.preventDefault();
+                    playAudio(btn.getAttribute('data-slide-audio'));
+                });
+            });
+
+            /* ── Navigation ── */
             function goNext() {
-                if (currentSlide >= slides.length - 1) return;
-
-                currentSlide++;
-
-                while (currentSlide < slides.length) {
-                    const slide = slides[currentSlide];
-                    if (isInSpecialMode) {
-                        if (slide.classList.contains(specialSlideClass)) break;
-                    } else {
-                        if (!isSpecialSlide(slide)) break;
-                    }
-                    currentSlide++;
+                let next = currentSlide + 1;
+                while (next < slides.length) {
+                    const s = slides[next];
+                    if (isInSpecialMode ? s.classList.contains(specialSlideClass) : !isSpecialSlide(s)) break;
+                    next++;
                 }
-
-                if (currentSlide < slides.length) {
-                    showSlide(currentSlide);
-                }
+                if (next < slides.length) showSlide(next);
             }
 
             function goBack() {
                 if (currentSlide === 0 && !isInSpecialMode) {
-                    stopCurrentAudio();
+                    stopAudio();
                     window.location.href = returnURL;
                     return;
                 }
-
                 if (isInSpecialMode) {
-                    let previousIndex = currentSlide - 1;
-
-                    while (previousIndex >= 0) {
-                        if (slides[previousIndex].classList.contains(specialSlideClass)) {
-                            break;
-                        }
-                        previousIndex--;
-                    }
-
-                    if (previousIndex >= 0) {
-                        currentSlide = previousIndex;
-                        showSlide(currentSlide);
+                    let prev = currentSlide - 1;
+                    while (prev >= 0 && !slides[prev].classList.contains(specialSlideClass)) prev--;
+                    if (prev >= 0) {
+                        showSlide(prev);
                     } else {
-                        currentSlide = returnToSlide;
                         isInSpecialMode = false;
                         specialSlideClass = null;
+                        showSlide(returnToSlide);
                         returnToSlide = null;
-                        showSlide(currentSlide);
                     }
                 } else {
-                    if (currentSlide > 0) {
-                        currentSlide--;
-                        while (currentSlide > 0 && isSpecialSlide(slides[currentSlide])) {
-                            currentSlide--;
-                        }
-                        showSlide(currentSlide);
-                    }
+                    let prev = currentSlide - 1;
+                    while (prev > 0 && isSpecialSlide(slides[prev])) prev--;
+                    showSlide(prev);
                 }
             }
 
-            function handleDone() {
-                stopCurrentAudio();
-
-                // ↓ no-bg logic merged from JS 1 (handles returning from info/special mode)
-                if (isInSpecialMode && returnToSlide !== null) {
-                    currentSlide = returnToSlide;
-                    isInSpecialMode = false;
-                    specialSlideClass = null;
-                    returnToSlide = null;
-                    showSlide(currentSlide); // showSlide already handles no-bg now
-                } else {
-                    window.location.href = doneURL;
-                }
-            }
-
-            infoButtons.forEach(button => {
-                button.addEventListener("click", function(e) {
+            /* ── Info buttons ── */
+            document.querySelectorAll("[class*='info-btn']").forEach(btn => {
+                btn.addEventListener('click', e => {
                     e.preventDefault();
                     returnToSlide = currentSlide;
                     isInSpecialMode = true;
-                    specialSlideClass = getSlideTypeFromButton(button);
-
+                    specialSlideClass = Array.from(btn.classList)
+                        .find(c => c.startsWith('info-btn'))
+                        ?.replace('info-btn', 'info-panel-');
                     for (let i = 0; i < slides.length; i++) {
                         if (slides[i].classList.contains(specialSlideClass)) {
-                            currentSlide = i;
-                            showSlide(currentSlide);
+                            showSlide(i);
                             break;
                         }
                     }
                 });
             });
 
-            nextButtons.forEach(btn => {
-                btn.addEventListener("click", goNext);
+            nextButtons.forEach(b => b.addEventListener('click', goNext));
+
+            if (returnButton) returnButton.addEventListener('click', goBack);
+
+            if (homeButton) homeButton.addEventListener('click', () => {
+                stopAudio();
+                window.location.href = homeURL;
             });
 
-            if (returnButton) {
-                returnButton.addEventListener("click", goBack);
-            }
+            document.querySelectorAll('.doneButton').forEach(b => b.addEventListener('click', () => {
+                stopAudio();
+                window.location.href = doneURL;
+            }));
 
-            document.querySelectorAll(".doneButton").forEach(btn => {
-                btn.addEventListener("click", handleDone);
-            });
-
-            showSlide(currentSlide);
+            showSlide(0);
         });
     </script>
 @endpush

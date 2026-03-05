@@ -31,6 +31,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            cursor: pointer;
         }
 
         .box span {
@@ -43,7 +44,7 @@
 @section('content')
 
     {{-- panel 1 --}}
-    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/bl1.m4a') }}">
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins.m4a') }}">
         <h2 class="top-title stroke">It Begins With</h2>
         <div class="flex justify-center items-center">
             <img src="{{ asset('assets/images/phonics_l2/global/common/play.png') }}" class="w-[30vw] h-[20vw]" />
@@ -65,7 +66,8 @@
     </div>
 
     {{-- Panel 2 --}}
-    <div class="phonics-panel h-full  space-y-[1vw]">
+    <div class="phonics-panel h-full  space-y-[1vw]"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins-with.m4a') }}">
         <h2 class="title-top stroke">Look at the picture. <br>
             Find the blend that completes the name of this item.</h2>
 
@@ -73,19 +75,19 @@
             <div class="flex items-center gap-[1.5vw]">
                 <div class="box">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/pluh.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>pl</span>
                 </div>
                 <div class="box">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/slah.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>sl</span>
                 </div>
-                <div class="box">
+                <div class="box answer">
                     <button class="w-[3vw]" id="soundButton"
                         data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
@@ -94,7 +96,7 @@
                 </div>
                 <div class="box">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/clah.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>cl</span>
@@ -115,7 +117,8 @@
 
 
     {{-- Panel 3 --}}
-    <div class="phonics-panel h-full  space-y-[1vw]">
+    <div class="phonics-panel h-full  space-y-[1vw]"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/bl-ouse.m4a') }}">
         <h2 class="title-top stroke">Look at the picture. <br>
             Find the blend that completes the name of this item.</h2>
 
@@ -123,14 +126,14 @@
             <div class="flex items-center gap-[1.5vw]">
                 <div class="box">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/pluh.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>pl</span>
                 </div>
                 <div class="box">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/slah.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>sl</span>
@@ -144,7 +147,7 @@
                 </div>
                 <div class="box">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/clah.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>cl</span>
@@ -163,22 +166,23 @@
     </div>
 
     {{-- Panel 4 --}}
-    <div class="phonics-panel h-full  space-y-[1vw]">
+    <div class="phonics-panel h-full  space-y-[1vw]"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins-with.m4a') }}">
         <h2 class="title-top stroke">Look at the picture. <br>
             Find the blend that completes the name of this item.</h2>
 
         <div>
             <div class="flex items-center gap-[1.5vw]">
-                <div class="box">
+                <div class="box answer">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/pluh.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>pl</span>
                 </div>
                 <div class="box">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/flah.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>fl</span>
@@ -192,7 +196,7 @@
                 </div>
                 <div class="box">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/clah.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>cl</span>
@@ -206,14 +210,12 @@
                 </div>
             </div>
         </div>
-
-        <p class="p-note">Tips: Invite children to name the object. <br>
-            Encourage them to listen and identify the initial blend while saying the word.</p>
     </div>
 
 
     {{-- Panel 5 --}}
-    <div class="phonics-panel h-full  space-y-[1vw]">
+    <div class="phonics-panel h-full  space-y-[1vw]"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/pl-ane.m4a') }}">
         <h2 class="title-top stroke">Look at the picture. <br>
             Find the blend that completes the name of this item.</h2>
 
@@ -221,14 +223,14 @@
             <div class="flex items-center gap-[1.5vw]">
                 <div class="box opacity-0">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/pluh.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>pl</span>
                 </div>
                 <div class="box">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/flah.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>fl</span>
@@ -242,7 +244,7 @@
                 </div>
                 <div class="box">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/clah.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>cl</span>
@@ -261,7 +263,8 @@
     </div>
 
     {{-- Panel 6 --}}
-    <div class="phonics-panel h-full  space-y-[1vw]">
+    <div class="phonics-panel h-full  space-y-[1vw]"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins-with.m4a') }}">
         <h2 class="title-top stroke">Look at the picture. <br>
             Find the blend that completes the name of this item.</h2>
 
@@ -269,12 +272,12 @@
             <div class="flex items-center gap-[1.5vw]">
                 <div class="box">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/flah.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>fl</span>
                 </div>
-                <div class="box">
+                <div class="box answer">
                     <button class="w-[3vw]" id="soundButton"
                         data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
@@ -283,14 +286,14 @@
                 </div>
                 <div class="box">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/slah.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>sl</span>
                 </div>
                 <div class="box">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/pluh.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>pl</span>
@@ -304,14 +307,12 @@
                 </div>
             </div>
         </div>
-
-        <p class="p-note">Tips: Invite children to name the object. <br>
-            Encourage them to listen and identify the initial blend while saying the word.</p>
     </div>
 
 
     {{-- Panel 7 --}}
-    <div class="phonics-panel h-full  space-y-[1vw]">
+    <div class="phonics-panel h-full  space-y-[1vw]"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/bl-ocks.m4a') }}">
         <h2 class="title-top stroke">Look at the picture. <br>
             Find the blend that completes the name of this item.</h2>
 
@@ -319,7 +320,7 @@
             <div class="flex items-center gap-[1.5vw]">
                 <div class="box">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/flah.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>fl</span>
@@ -333,14 +334,14 @@
                 </div>
                 <div class="box">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/slah.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>sl</span>
                 </div>
                 <div class="box">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/pluh.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>pl</span>
@@ -359,7 +360,8 @@
     </div>
 
     {{-- Panel 8 --}}
-    <div class="phonics-panel h-full  space-y-[1vw]">
+    <div class="phonics-panel h-full  space-y-[1vw]"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins-with.m4a') }}">
         <h2 class="title-top stroke">Look at the picture. <br>
             Find the blend that completes the name of this item.</h2>
 
@@ -367,7 +369,7 @@
             <div class="flex items-center gap-[1.5vw]">
                 <div class="box">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/glah.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>gl</span>
@@ -381,14 +383,14 @@
                 </div>
                 <div class="box">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/slah.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>sl</span>
                 </div>
-                <div class="box">
+                <div class="box answer">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/pluh.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>pl</span>
@@ -402,13 +404,11 @@
                 </div>
             </div>
         </div>
-
-        <p class="p-note">Tips: Invite children to name the object. <br>
-            Encourage them to listen and identify the initial blend while saying the word.</p>
     </div>
 
     {{-- Panel 9 --}}
-    <div class="phonics-panel h-full  space-y-[1vw]">
+    <div class="phonics-panel h-full  space-y-[1vw]"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/pl-ay.m4a') }}">
         <h2 class="title-top stroke">Look at the picture. <br>
             Find the blend that completes the name of this item.</h2>
 
@@ -416,7 +416,7 @@
             <div class="flex items-center gap-[1.5vw]">
                 <div class="box">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/glah.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>gl</span>
@@ -430,14 +430,14 @@
                 </div>
                 <div class="box">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/slah.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>sl</span>
                 </div>
                 <div class="box opacity-0">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/pluh.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>pl</span>
@@ -456,13 +456,14 @@
     </div>
 
     {{-- Panel 10 --}}
-    <div class="phonics-panel h-full  space-y-[1vw]">
+    <div class="phonics-panel h-full  space-y-[1vw]"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins-with.m4a') }}">
         <h2 class="title-top stroke">Look at the picture. <br>
             Find the blend that completes the name of this item.</h2>
 
         <div>
             <div class="flex items-center gap-[1.5vw]">
-                <div class="box">
+                <div class="box answer">
                     <button class="w-[3vw]" id="soundButton"
                         data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
@@ -471,21 +472,21 @@
                 </div>
                 <div class="box">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/flah.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>fl</span>
                 </div>
                 <div class="box">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/pluh.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>pl</span>
                 </div>
                 <div class="box">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/glah.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>gl</span>
@@ -499,13 +500,11 @@
                 </div>
             </div>
         </div>
-
-        <p class="p-note">Tips: Invite children to name the object. <br>
-            Encourage them to listen and identify the initial blend while saying the word.</p>
     </div>
 
     {{-- Panel 11 --}}
-    <div class="phonics-panel h-full  space-y-[1vw]">
+    <div class="phonics-panel h-full  space-y-[1vw]"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/bl-ue.m4a') }}">
         <h2 class="title-top stroke">Look at the picture. <br>
             Find the blend that completes the name of this item.</h2>
 
@@ -520,21 +519,21 @@
                 </div>
                 <div class="box">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/flah.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
-                    <span>gl</span>
+                    <span>fl</span>
                 </div>
                 <div class="box">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/pluh.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>pl</span>
                 </div>
                 <div class="box">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/glah.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>gl</span>
@@ -551,7 +550,8 @@
     </div>
 
     {{-- Panel 12 --}}
-    <div class="phonics-panel h-full  space-y-[1.5vw]">
+    <div class="phonics-panel h-full  space-y-[1.5vw]"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins-with.m4a') }}" >
         <h2 class="title-top stroke">Look at the picture. <br>
             Find the blend that completes the name of this item.</h2>
 
@@ -564,23 +564,23 @@
                     </button>
                     <span>bl</span>
                 </div>
-                <div class="box">
+                <div class="box answer">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/pluh.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>pl</span>
                 </div>
                 <div class="box">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/glah.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>gl</span>
                 </div>
                 <div class="box">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/slah.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>sl</span>
@@ -594,14 +594,12 @@
                 </div>
             </div>
         </div>
-
-        <p class="p-note">Tips: Invite children to name the object. <br>
-            Encourage them to listen and identify the initial blend while saying the word.</p>
     </div>
 
 
     {{-- Panel 13 --}}
-    <div class="phonics-panel h-full  space-y-[1vw]">
+    <div class="phonics-panel h-full  space-y-[1vw]"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/pl-ant.m4a') }}">
         <h2 class="title-top stroke">Look at the picture. <br>
             Find the blend that completes the name of this item.</h2>
 
@@ -616,21 +614,21 @@
                 </div>
                 <div class="box opacity-0">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/pluh.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>pl</span>
                 </div>
                 <div class="box">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/glah.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>gl</span>
                 </div>
                 <div class="box">
                     <button class="w-[3vw]" id="soundButton"
-                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/slah.m4a') }}">
                         <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                     </button>
                     <span>sl</span>
@@ -649,10 +647,7 @@
 
 
 
-
-
     {{-- ======================================================== --}}
-
     {{-- All Buttons --}}
     <div id="buttons" class="absolute flex flex-row gap-6 z-90">
 
@@ -688,19 +683,23 @@
 
 @push('script')
     <script>
-        document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
+        document.body.dataset.homeRoute = "{{ url('/phonics/l2') }}";
 
         document.addEventListener("DOMContentLoaded", function() {
 
+            /* ── DOM ── */
             const slides = document.querySelectorAll(".phonics-panel");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
+            const homeButton = document.getElementById("homeButton");
             const infoButtons = document.querySelectorAll("[class*='info-btn']");
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             const returnURL = "{{ url('/phonics_l2/bl_pl/blpl') }}";
             const doneURL = "{{ url('/phonics_l2/bl_pl/blpl') }}";
-            const AUTO_PLAY_DELAY = 500;
+            const homeURL = document.body.dataset.homeRoute;
+
+            const CHEERING_AUDIO = "{{ asset('assets/audio/phonics_audio-2/common/cheering.m4a') }}";
 
             let currentSlide = 0;
             let currentAudio = null;
@@ -708,48 +707,8 @@
             let returnToSlide = null;
             let specialSlideClass = null;
 
-            function isSpecialSlide(slide) {
-                const classList = Array.from(slide.classList);
-                return classList.some(cls => /^info-panel-\d+$/.test(cls));
-            }
-
-            function getSlideTypeFromButton(button) {
-                const classList = Array.from(button.classList);
-                for (let className of classList) {
-                    if (className.startsWith('info-btn')) {
-                        const number = className.replace('info-btn', '');
-                        return 'info-panel-' + number;
-                    }
-                }
-                return null;
-            }
-
-            function hasMoreSpecialSlides(fromIndex) {
-                if (!specialSlideClass) return false;
-                for (let i = fromIndex + 1; i < slides.length; i++) {
-                    if (slides[i].classList.contains(specialSlideClass)) {
-                        return true;
-                    }
-                }
-                return false;
-            }
-
-            function isLastSlide(slideIndex) {
-                if (isInSpecialMode && !hasMoreSpecialSlides(slideIndex)) {
-                    return true;
-                }
-                if (!isInSpecialMode) {
-                    for (let i = slideIndex + 1; i < slides.length; i++) {
-                        if (!isSpecialSlide(slides[i])) {
-                            return false;
-                        }
-                    }
-                    return true;
-                }
-                return false;
-            }
-
-            function stopCurrentAudio() {
+            /* ── Audio ── */
+            function stopAudio() {
                 if (currentAudio) {
                     currentAudio.onended = null;
                     currentAudio.pause();
@@ -758,189 +717,166 @@
                 }
             }
 
-            function playSlideAudio(slideIndex) {
-                stopCurrentAudio();
-
-                const slide = slides[slideIndex];
-
-                setTimeout(() => {
-                    const audioSources = [];
-
-                    const slideSrc = slide.getAttribute('data-slide-audio');
-                    if (slideSrc) audioSources.push(slideSrc);
-
-                    slide.querySelectorAll('[data-slide-audio]').forEach(el => {
-                        const src = el.getAttribute('data-slide-audio');
-                        if (src && !audioSources.includes(src)) {
-                            audioSources.push(src);
-                        }
-                    });
-
-                    function playNext(index) {
-                        if (index >= audioSources.length) return;
-
-                        currentAudio = new Audio(audioSources[index]);
-                        currentAudio.play().catch(err => console.log('Audio play failed:', err));
-
-                        currentAudio.onended = () => {
-                            playNext(index + 1);
-                        };
-                    }
-
-                    playNext(0);
-
-                }, AUTO_PLAY_DELAY);
+            function playAudio(src, onEnd) {
+                stopAudio();
+                if (!src) {
+                    if (onEnd) onEnd();
+                    return;
+                }
+                currentAudio = new Audio(src);
+                if (onEnd) currentAudio.onended = onEnd;
+                currentAudio.play().catch(() => {
+                    if (onEnd) onEnd();
+                });
             }
 
-            function showSlide(slideIndex) {
-                stopCurrentAudio();
+            function playSlideAudio(idx) {
+                const slide = slides[idx];
+                const src = slide.getAttribute('data-slide-audio') ||
+                    slide.querySelector('[data-slide-audio]')?.getAttribute('data-slide-audio');
+                playAudio(src);
+            }
 
-                const currentSlideElement = slides[slideIndex]; // ← added
+            /* ── Slides ── */
+            function isSpecialSlide(slide) {
+                return Array.from(slide.classList).some(c => /^info-panel-\d+$/.test(c));
+            }
 
-                slides.forEach((slide, index) => {
-                    if (index === slideIndex) {
-                        slide.classList.remove("hidden");
-                    } else {
-                        slide.classList.add("hidden");
+            function isLastSlide(idx) {
+                if (isInSpecialMode) {
+                    for (let i = idx + 1; i < slides.length; i++) {
+                        if (slides[i].classList.contains(specialSlideClass)) return false;
+                    }
+                    return true;
+                }
+                for (let i = idx + 1; i < slides.length; i++) {
+                    if (!isSpecialSlide(slides[i])) return false;
+                }
+                return true;
+            }
+
+            function updateNavButtons(idx) {
+                const last = isLastSlide(idx);
+                nextButtons.forEach(b => b.classList.toggle('hidden', last));
+                document.querySelectorAll('.doneButton').forEach(b => b.classList.toggle('hidden', !last));
+            }
+
+            function showSlide(idx) {
+                stopAudio();
+                currentSlide = idx;
+
+                slides.forEach((s, i) => {
+                    s.classList.toggle('hidden', i !== idx);
+
+                    // Reset answer boxes on question slides when revisited
+                    const answerBox = s.querySelector('.box.answer');
+                    if (answerBox) {
+                        answerBox.classList.remove('opacity-0');
+                        answerBox.style.pointerEvents = '';
+                    }
+
+                    // Reset the bottom box text on question slides
+                    const bottomBox = s.querySelector('.flex.items-center.gap-4 .box');
+                    if (bottomBox && !bottomBox.closest('.phonics-panel').querySelector('.box.opacity-0')) {
+                        // only clear if it's a question slide (has answer box)
+                        if (s.querySelector('.box.answer')) {
+                            bottomBox.innerHTML = '';
+                        }
                     }
                 });
 
-                playSlideAudio(slideIndex);
-
-                if (isLastSlide(slideIndex)) {
-                    nextButtons.forEach(btn => btn.classList.add("hidden"));
-                    document.querySelectorAll(".doneButton").forEach(btn => btn.classList.remove("hidden"));
-                } else {
-                    nextButtons.forEach(btn => btn.classList.remove("hidden"));
-                    document.querySelectorAll(".doneButton").forEach(btn => btn.classList.add("hidden"));
-                }
-
-                // ↓  logic merged from JS 1
-                const ajaxSection = document.getElementById('ajax-section');
-                if (ajaxSection) {
-                    if (currentSlideElement.classList.contains('')) {
-                        ajaxSection.classList.add('');
-                    } else {
-                        ajaxSection.classList.remove('');
-                    }
-                }
+                updateNavButtons(idx);
+                playSlideAudio(idx);
             }
 
-            soundButtons.forEach(btn => {
-                btn.addEventListener("click", (e) => {
-                    e.preventDefault();
-                    const audioSrc = btn.getAttribute('data-slide-audio');
-                    if (audioSrc) {
-                        stopCurrentAudio();
-                        currentAudio = new Audio(audioSrc);
-                        currentAudio.play().catch(err => console.log('Audio play failed:', err));
-                    }
+            /* ── Answer box click ── */
+            slides.forEach((slide, idx) => {
+                const answerBox = slide.querySelector('.box.answer');
+                if (!answerBox) return;
+
+                answerBox.addEventListener('click', () => {
+                    if (answerBox.classList.contains('opacity-0')) return;
+
+                    // Play cheering → then go to the next slide (pre-built answer slide)
+                    playAudio(CHEERING_AUDIO, () => goNext());
                 });
             });
 
+            /* ── Sound buttons ── */
+            soundButtons.forEach(btn => {
+                btn.addEventListener('click', e => {
+                    e.stopPropagation();
+                    e.preventDefault();
+                    playAudio(btn.getAttribute('data-slide-audio'));
+                });
+            });
+
+            /* ── Navigation ── */
             function goNext() {
-                if (currentSlide >= slides.length - 1) return;
-
-                currentSlide++;
-
-                while (currentSlide < slides.length) {
-                    const slide = slides[currentSlide];
-                    if (isInSpecialMode) {
-                        if (slide.classList.contains(specialSlideClass)) break;
-                    } else {
-                        if (!isSpecialSlide(slide)) break;
-                    }
-                    currentSlide++;
+                let next = currentSlide + 1;
+                while (next < slides.length) {
+                    if (isInSpecialMode ?
+                        slides[next].classList.contains(specialSlideClass) :
+                        !isSpecialSlide(slides[next])) break;
+                    next++;
                 }
-
-                if (currentSlide < slides.length) {
-                    showSlide(currentSlide);
-                }
+                if (next < slides.length) showSlide(next);
             }
 
             function goBack() {
                 if (currentSlide === 0 && !isInSpecialMode) {
-                    stopCurrentAudio();
+                    stopAudio();
                     window.location.href = returnURL;
                     return;
                 }
-
                 if (isInSpecialMode) {
-                    let previousIndex = currentSlide - 1;
-
-                    while (previousIndex >= 0) {
-                        if (slides[previousIndex].classList.contains(specialSlideClass)) {
-                            break;
-                        }
-                        previousIndex--;
-                    }
-
-                    if (previousIndex >= 0) {
-                        currentSlide = previousIndex;
-                        showSlide(currentSlide);
+                    let prev = currentSlide - 1;
+                    while (prev >= 0 && !slides[prev].classList.contains(specialSlideClass)) prev--;
+                    if (prev >= 0) {
+                        showSlide(prev);
                     } else {
-                        currentSlide = returnToSlide;
                         isInSpecialMode = false;
                         specialSlideClass = null;
+                        showSlide(returnToSlide);
                         returnToSlide = null;
-                        showSlide(currentSlide);
                     }
                 } else {
-                    if (currentSlide > 0) {
-                        currentSlide--;
-                        while (currentSlide > 0 && isSpecialSlide(slides[currentSlide])) {
-                            currentSlide--;
-                        }
-                        showSlide(currentSlide);
-                    }
+                    let prev = currentSlide - 1;
+                    while (prev > 0 && isSpecialSlide(slides[prev])) prev--;
+                    showSlide(prev);
                 }
             }
 
-            function handleDone() {
-                stopCurrentAudio();
-
-                // ↓  logic merged from JS 1 (handles returning from info/special mode)
-                if (isInSpecialMode && returnToSlide !== null) {
-                    currentSlide = returnToSlide;
-                    isInSpecialMode = false;
-                    specialSlideClass = null;
-                    returnToSlide = null;
-                    showSlide(currentSlide); // showSlide already handles  now
-                } else {
-                    window.location.href = doneURL;
-                }
-            }
-
-            infoButtons.forEach(button => {
-                button.addEventListener("click", function(e) {
+            /* ── Info buttons ── */
+            infoButtons.forEach(btn => {
+                btn.addEventListener('click', e => {
                     e.preventDefault();
                     returnToSlide = currentSlide;
                     isInSpecialMode = true;
-                    specialSlideClass = getSlideTypeFromButton(button);
-
+                    specialSlideClass = Array.from(btn.classList)
+                        .find(c => c.startsWith('info-btn'))
+                        ?.replace('info-btn', 'info-panel-');
                     for (let i = 0; i < slides.length; i++) {
                         if (slides[i].classList.contains(specialSlideClass)) {
-                            currentSlide = i;
-                            showSlide(currentSlide);
+                            showSlide(i);
                             break;
                         }
                     }
                 });
             });
 
-            nextButtons.forEach(btn => {
-                btn.addEventListener("click", goNext);
+            nextButtons.forEach(b => b.addEventListener('click', goNext));
+            if (returnButton) returnButton.addEventListener('click', goBack);
+            if (homeButton) homeButton.addEventListener('click', () => {
+                stopAudio();
+                window.location.href = homeURL;
             });
+            document.querySelectorAll('.doneButton').forEach(b => b.addEventListener('click', () => {
+                stopAudio();
+                window.location.href = doneURL;
+            }));
 
-            if (returnButton) {
-                returnButton.addEventListener("click", goBack);
-            }
-
-            document.querySelectorAll(".doneButton").forEach(btn => {
-                btn.addEventListener("click", handleDone);
-            });
-
-            showSlide(currentSlide);
+            showSlide(0);
         });
     </script>
 @endpush

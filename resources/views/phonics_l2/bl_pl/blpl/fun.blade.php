@@ -23,8 +23,8 @@
 @section('content')
 
     {{-- panel 1 --}}
-    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/bl1.m4a') }}">
-        <h2 class="top-title stroke">It Begins With</h2>
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/fun-blends.m4a') }}">
+        <h2 class="top-title stroke">Fun with Blends</h2>
         <div class="flex justify-center items-center">
             <img src="{{ asset('assets/images/phonics_l2/global/common/play.png') }}" class="w-[30vw] h-[20vw]" />
             <img src="{{ asset('assets/images/phonicsl1/global/bear.png') }}" class="h-[25vw]" />
@@ -36,14 +36,15 @@
 
 
     {{-- Panel 2 --}}
-    <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]">
+    <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/find-fun.m4a') }}">
         <h2 class="title-top stroke">Find the missing words to complete <br>
             the sentence.</h2>
 
         <img src="{{ asset('assets/images/phonics_l2/blpl/19.png') }}" class="w-[12vw]" />
         <div class="flex items-center gap-2 text-[2vw] relative h-fit w-fit mt-3">
             <button class="w-[3vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/fb1.m4a') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <span class="text-white">The</span>
@@ -53,7 +54,7 @@
             <span class="text-white">is flying.</span>
         </div>
         {{-- words --}}
-        <div class="flex gap-[1vw] text-[#f7b94a] text-[2vw] mt-0 mb-0">
+        <div class="flex gap-[3vw] text-[#f7b94a] text-[2vw] mt-0 mb-0">
             <span>blue</span>
             <span>plane</span>
             <span>black</span>
@@ -66,14 +67,15 @@
 
 
     {{-- Panel 3 --}}
-    <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]">
+    <div class="answer phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blue.m4a') }}">
         <h2 class="title-top stroke">Find the missing words to complete <br>
             the sentence.</h2>
 
         <img src="{{ asset('assets/images/phonics_l2/blpl/19.png') }}" class="w-[12vw]" />
         <div class="flex items-center gap-2 text-[2vw] relative h-fit w-fit mt-3">
             <button class="w-[3vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/fb1.m4a') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <span class="text-white">The</span>
@@ -85,7 +87,7 @@
             <span class="text-white">is flying.</span>
         </div>
         {{-- words --}}
-        <div class="flex gap-[1vw] text-[#f7b94a] text-[2vw] mt-0 mb-0">
+        <div class="flex gap-[3vw] text-[#f7b94a] text-[2vw] mt-0 mb-0">
             <span class="opacity-0">blue</span>
             <span>plane</span>
             <span>black</span>
@@ -94,14 +96,15 @@
 
 
     {{-- Panel 4 --}}
-    <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]">
+    <div class=" answer phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/plane.m4a') }}">
         <h2 class="title-top stroke">Find the missing words to complete <br>
             the sentence.</h2>
 
         <img src="{{ asset('assets/images/phonics_l2/blpl/19.png') }}" class="w-[12vw]" />
         <div class="flex items-center gap-2 text-[2vw] relative h-fit w-fit mt-3">
             <button class="w-[3vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/fb1.m4a') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <span class="text-white">The</span>
@@ -113,7 +116,7 @@
             <span class="text-white">is flying.</span>
         </div>
         {{-- words --}}
-        <div class="flex gap-[1vw] text-[#f7b94a] text-[2vw] mt-0 mb-0">
+        <div class="flex gap-[3vw] text-[#f7b94a] text-[2vw] mt-0 mb-0">
             <span class="opacity-0">blue</span>
             <span class="opacity-0">plane</span>
             <span>black</span>
@@ -122,7 +125,8 @@
 
 
     {{-- Panel 5 --}}
-    <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1.5vw]">
+    <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1.5vw]"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/find-fun.m4a') }}">
         <h2 class="title-top stroke">Find the missing words to complete <br>
             the sentence.</h2>
 
@@ -130,7 +134,7 @@
 
         <div class="flex items-center gap-2 text-[2vw] relative h-fit w-fit mt-4 mb-0">
             <button class="w-[3vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/fb2.m4a') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <span class="text-white">I like to</span>
@@ -150,7 +154,8 @@
     </div>
 
     {{-- Panel 6 --}}
-    <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]">
+    <div class="answer phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/play.m4a') }}">
         <h2 class="title-top stroke">Find the missing words to complete <br>
             the sentence.</h2>
 
@@ -158,7 +163,7 @@
 
         <div class="flex items-center gap-2 text-[2vw] relative h-fit w-fit mt-4 mb-0">
             <button class="w-[3vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/fb2.m4a') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <span class="text-white">I like to</span>
@@ -182,7 +187,8 @@
     </div>
 
     {{-- Panel 7 --}}
-    <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]">
+    <div class="answer phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blocks.m4a') }}">
         <h2 class="title-top stroke">Find the missing words to complete <br>
             the sentence.</h2>
 
@@ -190,7 +196,7 @@
 
         <div class="flex items-center gap-2 text-[2vw] relative h-fit w-fit mt-4 mb-0">
             <button class="w-[3vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/fb2.m4a') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <span class="text-white">I like to</span>
@@ -214,7 +220,8 @@
 
 
     {{-- Panel 8 --}}
-    <div class="phonics-panel h-full flex flex-col justify-between items-center space-y-[1vw]">
+    <div class="phonics-panel h-full flex flex-col justify-between items-center space-y-[1vw]"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/find-fun.m4a') }}">
         <h2 class="title-top stroke">Find the missing words to complete <br>
             the sentence.</h2>
 
@@ -222,7 +229,7 @@
 
         <div class="flex items-center gap-2 text-[2vw] relative h-fit w-fit mt-4 mb-0">
             <button class="w-[3vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/fb3.m4a') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <span class="text-white">There is a</span>
@@ -246,7 +253,8 @@
 
 
     {{-- Panel 9 --}}
-    <div class="phonics-panel h-full flex flex-col justify-between items-center space-y-[1vw]">
+    <div class="phonics-panel h-full flex flex-col justify-between items-center space-y-[1vw]"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blouse.m4a') }}">
         <h2 class="title-top stroke">Find the missing words to complete <br>
             the sentence.</h2>
 
@@ -254,7 +262,7 @@
 
         <div class="flex items-center gap-2 text-[2vw] relative h-fit w-fit mt-4 mb-0">
             <button class="w-[3vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/fb3.m4a') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <span class="text-white">There is a</span>
@@ -279,7 +287,8 @@
     </div>
 
     {{-- Panel 10 --}}
-    <div class="phonics-panel h-full flex flex-col justify-between items-center space-y-[1vw]">
+    <div class="phonics-panel h-full flex flex-col justify-between items-center space-y-[1vw]"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/plank.m4a') }}">
         <h2 class="title-top stroke">Find the missing words to complete <br>
             the sentence.</h2>
 
@@ -287,7 +296,7 @@
 
         <div class="flex items-center gap-2 text-[2vw] relative h-fit w-fit mt-4 mb-0">
             <button class="w-[3vw]" id="soundButton"
-                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/blah.mp3') }}">
+                data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/fb3.m4a') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
             </button>
             <span class="text-white">There is a</span>
@@ -348,7 +357,7 @@
 
 @push('script')
     <script>
-        document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
+        document.body.dataset.homeRoute = "{{ url('/phonics/l2') }}";
 
         document.addEventListener("DOMContentLoaded", function() {
 
@@ -422,34 +431,29 @@
                 stopCurrentAudio();
 
                 const slide = slides[slideIndex];
+                const isAnswerSlide = slide.classList.contains('answer');
+                const audioSources = [];
 
-                setTimeout(() => {
-                    const audioSources = [];
+                const slideSrc = slide.getAttribute('data-slide-audio');
+                if (slideSrc) audioSources.push(slideSrc);
 
-                    const slideSrc = slide.getAttribute('data-slide-audio');
-                    if (slideSrc) audioSources.push(slideSrc);
-
+                if (isAnswerSlide) {
+                    audioSources.push("{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}");
+                } else {
                     slide.querySelectorAll('[data-slide-audio]').forEach(el => {
                         const src = el.getAttribute('data-slide-audio');
-                        if (src && !audioSources.includes(src)) {
-                            audioSources.push(src);
-                        }
+                        if (src && !audioSources.includes(src)) audioSources.push(src);
                     });
+                }
 
-                    function playNext(index) {
-                        if (index >= audioSources.length) return;
+                function playNext(index) {
+                    if (index >= audioSources.length) return;
+                    currentAudio = new Audio(audioSources[index]);
+                    currentAudio.play().catch(err => console.log('Audio play failed:', err));
+                    currentAudio.onended = () => playNext(index + 1);
+                }
 
-                        currentAudio = new Audio(audioSources[index]);
-                        currentAudio.play().catch(err => console.log('Audio play failed:', err));
-
-                        currentAudio.onended = () => {
-                            playNext(index + 1);
-                        };
-                    }
-
-                    playNext(0);
-
-                }, AUTO_PLAY_DELAY);
+                playNext(0);
             }
 
             function showSlide(slideIndex) {

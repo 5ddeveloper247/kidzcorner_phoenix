@@ -35,13 +35,13 @@
     </div>
 
     {{-- Panel 2: Song Content Slide --}}
-    <div class="phonics-panel flex flex-col h-full space-y-[2vw] items-center">
+    <div class="phonics-panel flex flex-col h-full justify-between items-center">
         <div class="text-center">
             <h2 class="large-title">CL</h2>
             <p class="note">Sing to the tune of "Pop goes the Weasel</p>
         </div>
 
-        <img src="{{ asset('assets/images/phonics_l2/clsl/singalong.png') }}" class="ml-20" />
+        <img src="{{ asset('assets/images/phonics_l2/clsl/singalong.png') }}" class="ml-15" />
 
         <p class="p-note">Tips: Invite children to sing-along. Encourage them to listen to the target blend sounds. <br>
             Extension: Encourage children to substitute other words with /cl/ and sing along.</p>
@@ -87,23 +87,23 @@
 
 @push('script')
     <script>
-        document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
+        document.body.dataset.homeRoute = "{{ url('/phonics/l2') }}";
 
         document.addEventListener("DOMContentLoaded", function() {
 
             const slides = document.querySelectorAll(".phonics-panel");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
+            const homeButton = document.getElementById("homeButton");
             const doneButton = document.querySelector(".doneButton");
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
-
             const returnURL = "{{ url('/phonics_l2/cl_sl/cl') }}";
             const doneURL = "{{ url('/phonics_l2/cl_sl/cl') }}";
+            const homeURL = document.body.dataset.homeRoute;
 
             let currentSlide = 0;
             let currentAudio = null;
-
 
             function stopCurrentAudio() {
                 if (currentAudio) {
@@ -117,10 +117,8 @@
 
                 const slide = slides[slideIndex];
 
-                // Try to get audio from slide itself
                 let audioSrc = slide.getAttribute('data-slide-audio');
 
-                // If not on slide, look for element inside slide with audio
                 if (!audioSrc) {
                     const audioElement = slide.querySelector('[data-slide-audio]');
                     if (audioElement) {
@@ -128,7 +126,6 @@
                     }
                 }
 
-                // Play the audio if we found one
                 if (audioSrc) {
                     currentAudio = new Audio(audioSrc);
                     currentAudio.play().catch(err => console.log('Audio play failed:', err));
@@ -136,7 +133,6 @@
             }
 
             function isLastSlide(slideIndex) {
-                // Check if there are any more slides after this one
                 for (let i = slideIndex + 1; i < slides.length; i++) {
                     return false;
                 }
@@ -144,10 +140,8 @@
             }
 
             function showSlide(slideIndex) {
-                // Stop previous slide's audio
                 stopCurrentAudio();
 
-                // Hide all slides, show only current one
                 slides.forEach((slide, index) => {
                     if (index === slideIndex) {
                         slide.classList.remove("hidden");
@@ -156,10 +150,8 @@
                     }
                 });
 
-                // Play audio for this slide
                 playSlideAudio(slideIndex);
 
-                // Show correct button: "Done" on last slide, "Next" on others
                 if (isLastSlide(slideIndex)) {
                     nextButtons.forEach(btn => btn.classList.add("hidden"));
                     if (doneButton) doneButton.classList.remove("hidden");
@@ -170,38 +162,35 @@
             }
 
             function goNext() {
-                // Don't go past last slide
                 if (currentSlide >= slides.length - 1) return;
-
-                // Move to next slide
                 currentSlide++;
                 showSlide(currentSlide);
             }
 
             function goBack() {
-                // If on first slide, go to previous page
                 if (currentSlide === 0) {
                     stopCurrentAudio();
                     window.location.href = returnURL;
                     return;
                 }
-
                 currentSlide--;
                 showSlide(currentSlide);
             }
-
 
             function handleDone() {
                 stopCurrentAudio();
                 window.location.href = doneURL;
             }
 
+            function handleHome() {
+                stopCurrentAudio();
+                window.location.href = homeURL;
+            }
+
             soundButtons.forEach(btn => {
                 btn.addEventListener("click", (e) => {
                     e.preventDefault();
-
                     const audioSrc = btn.getAttribute('data-slide-audio');
-
                     if (audioSrc) {
                         stopCurrentAudio();
                         currentAudio = new Audio(audioSrc);
@@ -218,10 +207,13 @@
                 returnButton.addEventListener("click", goBack);
             }
 
+            if (homeButton) {
+                homeButton.addEventListener("click", handleHome);
+            }
+
             if (doneButton) {
                 doneButton.addEventListener("click", handleDone);
             }
-
 
             showSlide(currentSlide);
         });

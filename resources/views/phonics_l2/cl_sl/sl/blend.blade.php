@@ -179,7 +179,7 @@
             </button>
         </div>
 
-        <div class="flex items-center justify-center">
+        <div class="flex items-center justify-center new">
             <button class="w-[3.5vw]" id="soundButton"
                 data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/sl-eep.m4a') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
@@ -230,7 +230,7 @@
             </button>
         </div>
 
-        <div class="flex items-center justify-center mt-[2vw]">
+        <div class="flex items-center justify-center new mt-[2vw]">
             <button class="w-[3.5vw]" id="soundButton"
                 data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/sl-ide.m4a') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
@@ -281,7 +281,7 @@
             </button>
         </div>
 
-        <div class="flex items-center justify-center mt-[2vw]">
+        <div class="flex items-center justify-center new mt-[2vw]">
             <button class="w-[3.5vw]" id="soundButton"
                 data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/sl-ip.m4a') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
@@ -332,7 +332,7 @@
             </button>
         </div>
 
-        <div class="flex items-center justify-center mt-[2vw]">
+        <div class="flex items-center justify-center new mt-[2vw]">
             <button class="w-[3.5vw]" id="soundButton"
                 data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/sl-ing.m4a') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
@@ -383,7 +383,7 @@
         </div>
 
 
-        <div class="flex items-center justify-center mt-[2vw]">
+        <div class="flex items-center justify-center new mt-[2vw]">
             <button class="w-[3.5vw]" id="soundButton"
                 data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/sl-ug.m4a') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
@@ -434,7 +434,7 @@
             </button>
         </div>
 
-        <div class="flex items-center justify-center mt-[2vw]">
+        <div class="flex items-center justify-center new mt-[2vw]">
             <button class="w-[3.5vw]" id="soundButton"
                 data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/sl-ed.m4a') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
@@ -485,7 +485,7 @@
         </div>
 
 
-        <div class="flex items-center justify-center mt-[2vw]">
+        <div class="flex items-center justify-center new mt-[2vw]">
             <button class="w-[3.5vw]" id="soundButton"
                 data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/sl-ow.m4a') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
@@ -537,7 +537,7 @@
         </div>
 
 
-        <div class="flex items-center justify-center mt-[2vw]">
+        <div class="flex items-center justify-center new mt-[2vw]">
             <button class="w-[3.5vw]" id="soundButton"
                 data-slide-audio="{{ asset('assets/audio/phonics_audio-2/cl_sl/sl-ime.m4a') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
@@ -1002,7 +1002,6 @@
 
             const returnURL = "{{ url('/phonics_l2/cl_sl/sl') }}";
             const doneURL = "{{ url('/phonics_l2/cl_sl/sl') }}";
-            const AUTO_PLAY_DELAY = 500;
             const CHEERING_AUDIO = "{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}";
 
             let currentSlide = 0;
@@ -1065,36 +1064,52 @@
                 stopCurrentAudio();
 
                 const slide = slides[slideIndex];
+                const audioSources = [];
+                const answerSpans = slide.querySelectorAll('.answer');
+                const newContainer = slide.querySelector('.new');
 
-                setTimeout(() => {
-                    const audioSources = [];
-                    const answerSpans = slide.querySelectorAll('.answer');
-
-                    if (answerSpans.length > 0) {
-                        // Answer slide: collect audio only from buttons inside containers that have an .answer span
-                        answerSpans.forEach(span => {
-                            const container = span.closest('.relative');
-                            if (container) {
-                                const btn = container.querySelector(
-                                    '[id^="soundButton"][data-slide-audio]');
-                                if (btn) {
-                                    const src = btn.getAttribute('data-slide-audio');
-                                    if (src && !audioSources.includes(src)) {
-                                        audioSources.push(src);
-                                    }
+                if (answerSpans.length > 0) {
+                    // Answer slide: collect audio only from buttons inside containers that have an .answer span
+                    answerSpans.forEach(span => {
+                        const container = span.closest('.relative');
+                        if (container) {
+                            const btn = container.querySelector('[id^="soundButton"][data-slide-audio]');
+                            if (btn) {
+                                const src = btn.getAttribute('data-slide-audio');
+                                if (src && !audioSources.includes(src)) {
+                                    audioSources.push(src);
                                 }
                             }
+                        }
+                    });
+                    // Play cheering sound at the end
+                    audioSources.push(CHEERING_AUDIO);
+
+                } else if (newContainer) {
+                    // Slide has a .new container: play ONLY the sound button inside .new, nothing else
+                    const newBtn = newContainer.querySelector('[id^="soundButton"][data-slide-audio]');
+                    if (newBtn) {
+                        const src = newBtn.getAttribute('data-slide-audio');
+                        if (src) audioSources.push(src);
+                    }
+
+                } else {
+                    // Normal slide: play slide-level audio first
+                    const slideSrc = slide.getAttribute('data-slide-audio');
+                    if (slideSrc) audioSources.push(slideSrc);
+
+                    // Check if there are two side sound buttons (the flex-col gap container)
+                    const sideBtnContainer = slide.querySelector('.flex.flex-col.gap-\\[1vw\\]');
+                    if (sideBtnContainer) {
+                        // Two side buttons exist: play both sequentially
+                        sideBtnContainer.querySelectorAll('[id^="soundButton"][data-slide-audio]').forEach(btn => {
+                            const src = btn.getAttribute('data-slide-audio');
+                            if (src && !audioSources.includes(src)) {
+                                audioSources.push(src);
+                            }
                         });
-
-                        // Play cheering sound at the end
-                        audioSources.push(CHEERING_AUDIO);
-
                     } else {
-                        // Normal slide: play slide-level audio first
-                        const slideSrc = slide.getAttribute('data-slide-audio');
-                        if (slideSrc) audioSources.push(slideSrc);
-
-                        // Then all child elements with data-slide-audio
+                        // No side buttons: collect any remaining child data-slide-audio elements
                         slide.querySelectorAll('[data-slide-audio]').forEach(el => {
                             const src = el.getAttribute('data-slide-audio');
                             if (src && !audioSources.includes(src)) {
@@ -1102,22 +1117,19 @@
                             }
                         });
                     }
+                }
 
-                    // Play all sources sequentially
-                    function playNext(index) {
-                        if (index >= audioSources.length) return;
+                // Play all sources sequentially
+                function playNext(index) {
+                    if (index >= audioSources.length) return;
+                    currentAudio = new Audio(audioSources[index]);
+                    currentAudio.play().catch(err => console.log('Audio play failed:', err));
+                    currentAudio.onended = () => {
+                        playNext(index + 1);
+                    };
+                }
 
-                        currentAudio = new Audio(audioSources[index]);
-                        currentAudio.play().catch(err => console.log('Audio play failed:', err));
-
-                        currentAudio.onended = () => {
-                            playNext(index + 1);
-                        };
-                    }
-
-                    playNext(0);
-
-                }, AUTO_PLAY_DELAY);
+                playNext(0);
             }
 
             function showSlide(slideIndex) {

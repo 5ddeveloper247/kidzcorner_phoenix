@@ -600,271 +600,175 @@
 
         document.addEventListener("DOMContentLoaded", function() {
 
-            const slides        = document.querySelectorAll(".phonics-panel");
-            const nextButtons   = document.querySelectorAll(".nextButton");
-            const returnButton  = document.getElementById("returnButton");
-            const infoButtons   = document.querySelectorAll("[class*='info-btn']");
-            const soundButtons  = document.querySelectorAll("[id^='soundButton']");
-            const circleButtons = document.querySelectorAll(".circle");
+            const slides = document.querySelectorAll(".phonics-panel");
+            const nextButtons = document.querySelectorAll(".nextButton");
+            const returnButton = document.getElementById("returnButton");
+            const homeButton = document.getElementById("homeButton");
+            const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
-            const returnURL     = "{{ url('/phonics_l2/cl_sl/clsl') }}";
-            const doneURL       = "{{ url('/phonics_l2/cl_sl/clsl') }}";
-            const cheeringAudio = "{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}";
+            const returnURL = "{{ url('/phonics_l2/cl_sl/clsl') }}";
+            const doneURL = "{{ url('/phonics_l2/cl_sl/clsl') }}";
+            const homeURL = document.body.dataset.homeRoute;
+            const CHEERING = "{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}";
 
-            let currentSlide      = 0;
-            let currentAudio      = null;
-            let isInSpecialMode   = false;
-            let returnToSlide     = null;
+            let currentSlide = 0;
+            let currentAudio = null;
+            let isInSpecialMode = false;
+            let returnToSlide = null;
             let specialSlideClass = null;
 
-            // ─── Audio helpers ───────────────────────────────────────────────
-
-            /**
-             * Hard-stop whatever is playing right now.
-             * Nulls callbacks BEFORE pausing so nothing chains off a stopped track.
-             */
-            function stopCurrentAudio() {
+            /* ── Audio ── */
+            function stopAudio() {
                 if (currentAudio) {
                     currentAudio.onended = null;
-                    currentAudio.onerror = null;
-                    try {
-                        currentAudio.pause();
-                        currentAudio.currentTime = 0;
-                    } catch (_) {}
+                    currentAudio.pause();
+                    currentAudio.currentTime = 0;
                     currentAudio = null;
                 }
             }
 
-            /**
-             * Play a single audio file. Does NOT call stopCurrentAudio() itself.
-             * onDone fires exactly once on end OR error.
-             */
-            function playAudio(src, onDone) {
-                try {
-                    const audio = new Audio(src);
-                    currentAudio = audio;
+            function playAudio(src) {
+                stopAudio();
+                if (!src) return;
+                currentAudio = new Audio(src);
+                currentAudio.play().catch(() => {});
+            }
 
-                    let settled = false;
-                    function settle() {
-                        if (settled) return;
-                        settled = true;
-                        if (currentAudio === audio) currentAudio = null;
-                        if (onDone) onDone();
-                    }
-
-                    audio.onerror = () => { console.warn('Audio error:', src); settle(); };
-                    audio.onended = () => settle();
-                    audio.play().catch(err => { console.warn('Audio play() rejected:', src, err); settle(); });
-                } catch (err) {
-                    console.error('Audio creation failed:', src, err);
-                    currentAudio = null;
-                    if (onDone) onDone();
+            function playSlideAudio(idx) {
+                const slide = slides[idx];
+                // Answer slide (has .marked) → cheering only
+                if (slide.querySelector('.marked')) {
+                    playAudio(CHEERING);
+                    return;
                 }
+                // All other slides → only the first audio source found
+                const src = slide.getAttribute('data-slide-audio') ||
+                    slide.querySelector('[data-slide-audio]')?.getAttribute('data-slide-audio');
+                playAudio(src);
             }
 
-            /**
-             * Play an array of srcs sequentially, then call onAllDone.
-             */
-            function playQueue(srcs, onAllDone) {
-                (function next(i) {
-                    if (i >= srcs.length) { if (onAllDone) onAllDone(); return; }
-                    playAudio(srcs[i], () => next(i + 1));
-                })(0);
-            }
-
-            // ─── Core slide-audio logic ──────────────────────────────────────
-            //
-            //  .marked present  →  cheering ONLY (no other audio)
-            //  no .marked       →  slide-level audio → button audios in DOM order
-            //
-            function playSlideAudio(slideIndex) {
-                stopCurrentAudio();
-
-                const slide       = slides[slideIndex];
-                const hasMarked   = !!slide.querySelector('.marked');
-                const slideSrc    = slide.getAttribute('data-slide-audio') || null;
-
-                if (hasMarked) {
-                    // ── Answer-reveal slide: cheering only, immediately ──
-                    playAudio(cheeringAudio, null);
-
-                } else {
-                    // ── Question slide: slide audio → button audios ──
-                    const queue = [];
-                    if (slideSrc) queue.push(slideSrc);
-
-                    slide.querySelectorAll('button[data-slide-audio]').forEach(btn => {
-                        const src = btn.getAttribute('data-slide-audio');
-                        if (src && !queue.includes(src)) queue.push(src);
-                    });
-
-                    if (queue.length > 0) playQueue(queue, null);
-                }
-            }
-
-            // ─── Slide visibility helpers ────────────────────────────────────
-
+            /* ── Slides ── */
             function isSpecialSlide(slide) {
-                return Array.from(slide.classList).some(cls => /^info-panel-\d+$/.test(cls));
+                return Array.from(slide.classList).some(c => /^info-panel-\d+$/.test(c));
             }
 
-            function getSlideTypeFromButton(button) {
-                for (const cls of Array.from(button.classList)) {
-                    if (cls.startsWith('info-btn')) return 'info-panel-' + cls.replace('info-btn', '');
-                }
-                return null;
-            }
-
-            function hasMoreSpecialSlides(fromIndex) {
-                if (!specialSlideClass) return false;
-                for (let i = fromIndex + 1; i < slides.length; i++) {
-                    if (slides[i].classList.contains(specialSlideClass)) return true;
-                }
-                return false;
-            }
-
-            function isLastSlide(slideIndex) {
-                if (isInSpecialMode && !hasMoreSpecialSlides(slideIndex)) return true;
-                if (!isInSpecialMode) {
-                    for (let i = slideIndex + 1; i < slides.length; i++) {
-                        if (!isSpecialSlide(slides[i])) return false;
+            function isLastSlide(idx) {
+                if (isInSpecialMode) {
+                    for (let i = idx + 1; i < slides.length; i++) {
+                        if (slides[i].classList.contains(specialSlideClass)) return false;
                     }
                     return true;
                 }
-                return false;
+                for (let i = idx + 1; i < slides.length; i++) {
+                    if (!isSpecialSlide(slides[i])) return false;
+                }
+                return true;
             }
 
-            function showSlide(slideIndex) {
-                stopCurrentAudio();
+            function showSlide(idx) {
+                stopAudio();
+                currentSlide = idx;
+                slides.forEach((s, i) => s.classList.toggle('hidden', i !== idx));
+                playSlideAudio(idx);
 
-                const currentSlideElement = slides[slideIndex];
+                const last = isLastSlide(idx);
+                nextButtons.forEach(b => b.classList.toggle('hidden', last));
+                document.querySelectorAll('.doneButton').forEach(b => b.classList.toggle('hidden', !last));
 
-                slides.forEach((slide, index) => {
-                    slide.classList.toggle('hidden', index !== slideIndex);
-                });
-
-                playSlideAudio(slideIndex);
-
-                if (isLastSlide(slideIndex)) {
-                    nextButtons.forEach(btn => btn.classList.add("hidden"));
-                    document.querySelectorAll(".doneButton").forEach(btn => btn.classList.remove("hidden"));
-                } else {
-                    nextButtons.forEach(btn => btn.classList.remove("hidden"));
-                    document.querySelectorAll(".doneButton").forEach(btn => btn.classList.add("hidden"));
-                }
-
-                // no-bg logic
-                const ajaxSection = document.getElementById('ajax-section');
-                if (ajaxSection) {
-                    if (currentSlideElement.classList.contains('no-bg')) {
-                        ajaxSection.classList.add('no-bg');
-                    } else {
-                        ajaxSection.classList.remove('no-bg');
-                    }
-                }
+                // no-bg class on container
+                const container = document.getElementById('ajax-section');
+                if (container) container.classList.toggle('no-bg', slides[idx].classList.contains('no-bg'));
             }
 
-            // ─── Circle click (before class) ─────────────────────────────────
-
-            circleButtons.forEach(circle => {
-                circle.addEventListener("click", function(e) {
-                    if (circle.classList.contains('before')) {
-                        e.preventDefault();
-                        for (let i = currentSlide + 1; i < slides.length; i++) {
-                            if (slides[i].querySelector('.marked') !== null) {
-                                currentSlide = i;
-                                showSlide(currentSlide);
-                                break;
-                            }
+            /* ── .before circle click → jump to next .marked slide ── */
+            document.querySelectorAll('.circle.before').forEach(circle => {
+                circle.addEventListener('click', () => {
+                    for (let i = currentSlide + 1; i < slides.length; i++) {
+                        if (slides[i].querySelector('.marked')) {
+                            showSlide(i);
+                            break;
                         }
                     }
                 });
             });
 
-            // ─── Manual sound buttons ────────────────────────────────────────
-
+            /* ── Sound buttons ── */
             soundButtons.forEach(btn => {
-                btn.addEventListener("click", (e) => {
+                btn.addEventListener('click', e => {
                     e.stopPropagation();
-                    const src = btn.getAttribute('data-slide-audio');
-                    if (src) { stopCurrentAudio(); playAudio(src, null); }
+                    e.preventDefault();
+                    playAudio(btn.getAttribute('data-slide-audio'));
                 });
             });
 
-            // ─── Navigation ──────────────────────────────────────────────────
-
+            /* ── Navigation ── */
             function goNext() {
-                if (currentSlide >= slides.length - 1) return;
-                let nextIndex = currentSlide + 1;
-                while (nextIndex < slides.length) {
-                    const slide = slides[nextIndex];
-                    if (isInSpecialMode ? slide.classList.contains(specialSlideClass) : !isSpecialSlide(slide)) break;
-                    nextIndex++;
+                let next = currentSlide + 1;
+                while (next < slides.length) {
+                    const s = slides[next];
+                    if (isInSpecialMode ? s.classList.contains(specialSlideClass) : !isSpecialSlide(s)) break;
+                    next++;
                 }
-                if (nextIndex < slides.length) { currentSlide = nextIndex; showSlide(currentSlide); }
+                if (next < slides.length) showSlide(next);
             }
 
             function goBack() {
                 if (currentSlide === 0 && !isInSpecialMode) {
-                    stopCurrentAudio();
+                    stopAudio();
                     window.location.href = returnURL;
                     return;
                 }
                 if (isInSpecialMode) {
-                    let previousIndex = currentSlide - 1;
-                    while (previousIndex >= 0) {
-                        if (slides[previousIndex].classList.contains(specialSlideClass)) break;
-                        previousIndex--;
-                    }
-                    if (previousIndex >= 0) {
-                        currentSlide = previousIndex; showSlide(currentSlide);
+                    let prev = currentSlide - 1;
+                    while (prev >= 0 && !slides[prev].classList.contains(specialSlideClass)) prev--;
+                    if (prev >= 0) {
+                        showSlide(prev);
                     } else {
-                        currentSlide = returnToSlide; isInSpecialMode = false;
-                        specialSlideClass = null; returnToSlide = null;
-                        showSlide(currentSlide);
+                        isInSpecialMode = false;
+                        specialSlideClass = null;
+                        showSlide(returnToSlide);
+                        returnToSlide = null;
                     }
                 } else {
-                    if (currentSlide > 0) {
-                        let prevIndex = currentSlide - 1;
-                        while (prevIndex > 0 && isSpecialSlide(slides[prevIndex])) prevIndex--;
-                        currentSlide = prevIndex;
-                        showSlide(currentSlide);
-                    }
+                    let prev = currentSlide - 1;
+                    while (prev > 0 && isSpecialSlide(slides[prev])) prev--;
+                    showSlide(prev);
                 }
             }
 
-            function handleDone() {
-                stopCurrentAudio();
-                if (isInSpecialMode && returnToSlide !== null) {
-                    currentSlide = returnToSlide; isInSpecialMode = false;
-                    specialSlideClass = null; returnToSlide = null;
-                    showSlide(currentSlide);
-                } else {
-                    window.location.href = doneURL;
-                }
-            }
-
-            // ─── Event listeners ─────────────────────────────────────────────
-
-            infoButtons.forEach(button => {
-                button.addEventListener("click", function(e) {
+            /* ── Info buttons ── */
+            document.querySelectorAll("[class*='info-btn']").forEach(btn => {
+                btn.addEventListener('click', e => {
                     e.preventDefault();
-                    returnToSlide = currentSlide; isInSpecialMode = true;
-                    specialSlideClass = getSlideTypeFromButton(button);
+                    returnToSlide = currentSlide;
+                    isInSpecialMode = true;
+                    specialSlideClass = Array.from(btn.classList)
+                        .find(c => c.startsWith('info-btn'))
+                        ?.replace('info-btn', 'info-panel-');
                     for (let i = 0; i < slides.length; i++) {
                         if (slides[i].classList.contains(specialSlideClass)) {
-                            currentSlide = i; showSlide(currentSlide); break;
+                            showSlide(i);
+                            break;
                         }
                     }
                 });
             });
 
-            nextButtons.forEach(btn => btn.addEventListener("click", goNext));
-            if (returnButton) returnButton.addEventListener("click", goBack);
-            document.querySelectorAll(".doneButton").forEach(btn => btn.addEventListener("click", handleDone));
+            nextButtons.forEach(b => b.addEventListener('click', goNext));
 
-            // ─── Init ─────────────────────────────────────────────────────────
-            showSlide(currentSlide);
+            if (returnButton) returnButton.addEventListener('click', goBack);
+
+            if (homeButton) homeButton.addEventListener('click', () => {
+                stopAudio();
+                window.location.href = homeURL;
+            });
+
+            document.querySelectorAll('.doneButton').forEach(b => b.addEventListener('click', () => {
+                stopAudio();
+                window.location.href = doneURL;
+            }));
+
+            showSlide(0);
         });
     </script>
 @endpush
