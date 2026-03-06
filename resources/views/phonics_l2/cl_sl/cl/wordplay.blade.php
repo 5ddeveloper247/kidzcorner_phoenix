@@ -173,226 +173,73 @@
 
 @push('script')
     <script>
-        document.body.dataset.homeRoute = "{{ url('/phonics/l1') }}";
-
         document.addEventListener("DOMContentLoaded", function() {
 
             const slides = document.querySelectorAll(".phonics-panel");
             const nextButtons = document.querySelectorAll(".nextButton");
             const returnButton = document.getElementById("returnButton");
-            const infoButtons = document.querySelectorAll("[class*='info-btn']");
-            const soundButtons = document.querySelectorAll("[id^='soundButton']");
+            const homeButton = document.getElementById("homeButton");
 
             const returnURL = "{{ url('/phonics_l2/cl_sl/cl') }}";
             const doneURL = "{{ url('/phonics_l2/cl_sl/cl') }}";
+            const homeURL = "{{ url('/phonics/l2') }}";
             const AUTO_PLAY_DELAY = 500;
 
             let currentSlide = 0;
             let currentAudio = null;
-            let isInSpecialMode = false;
-            let returnToSlide = null;
-            let specialSlideClass = null;
 
-            function isSpecialSlide(slide) {
-                const classList = Array.from(slide.classList);
-                return classList.some(cls => /^info-panel-\d+$/.test(cls));
-            }
-
-            function getSlideTypeFromButton(button) {
-                const classList = Array.from(button.classList);
-                for (let className of classList) {
-                    if (className.startsWith('info-btn')) {
-                        const number = className.replace('info-btn', '');
-                        return 'info-panel-' + number;
-                    }
-                }
-                return null;
-            }
-
-            function hasMoreSpecialSlides(fromIndex) {
-                if (!specialSlideClass) return false;
-                for (let i = fromIndex + 1; i < slides.length; i++) {
-                    if (slides[i].classList.contains(specialSlideClass)) {
-                        return true;
-                    }
-                }
-                return false;
-            }
-
-            function isLastSlide(slideIndex) {
-                if (isInSpecialMode && !hasMoreSpecialSlides(slideIndex)) {
-                    return true;
-                }
-                if (!isInSpecialMode) {
-                    for (let i = slideIndex + 1; i < slides.length; i++) {
-                        if (!isSpecialSlide(slides[i])) {
-                            return false;
-                        }
-                    }
-                    return true;
-                }
-                return false;
-            }
-
-            function stopCurrentAudio() {
+            function stopAudio() {
                 if (currentAudio) {
                     currentAudio.pause();
                     currentAudio.currentTime = 0;
                 }
             }
 
-            function playSlideAudio(slideIndex) {
-                stopCurrentAudio();
-
-                const slide = slides[slideIndex];
-
+            function playSlideAudio(index) {
+                stopAudio();
+                const src = slides[index].getAttribute('data-slide-audio');
+                if (!src) return;
                 setTimeout(() => {
-                    let audioSrc = slide.getAttribute('data-slide-audio');
-
-                    if (!audioSrc) {
-                        const audioElement = slide.querySelector('[data-slide-audio]');
-                        if (audioElement) {
-                            audioSrc = audioElement.getAttribute('data-slide-audio');
-                        }
-                    }
-
-                    if (audioSrc) {
-                        currentAudio = new Audio(audioSrc);
-                        currentAudio.play().catch(err => console.log('Audio play failed:', err));
-                    }
+                    currentAudio = new Audio(src);
+                    currentAudio.play().catch(err => console.log('Audio play failed:', err));
                 }, AUTO_PLAY_DELAY);
             }
 
-            // ✅ FIX 1: showSlide now targets ALL .doneButton elements
-            function showSlide(slideIndex) {
-                stopCurrentAudio();
+            function showSlide(index) {
+                slides.forEach((slide, i) => slide.classList.toggle("hidden", i !== index));
+                playSlideAudio(index);
 
-                slides.forEach((slide, index) => {
-                    if (index === slideIndex) {
-                        slide.classList.remove("hidden");
-                    } else {
-                        slide.classList.add("hidden");
-                    }
-                });
-
-                playSlideAudio(slideIndex);
-
-                if (isLastSlide(slideIndex)) {
-                    nextButtons.forEach(btn => btn.classList.add("hidden"));
-                    document.querySelectorAll(".doneButton").forEach(btn => btn.classList.remove("hidden"));
-                } else {
-                    nextButtons.forEach(btn => btn.classList.remove("hidden"));
-                    document.querySelectorAll(".doneButton").forEach(btn => btn.classList.add("hidden"));
-                }
+                const isLast = index === slides.length - 1;
+                nextButtons.forEach(btn => btn.classList.toggle("hidden", isLast));
+                document.querySelectorAll(".doneButton").forEach(btn => btn.classList.toggle("hidden", !isLast));
             }
 
-            soundButtons.forEach(btn => {
-                btn.addEventListener("click", (e) => {
-                    e.preventDefault();
-                    const audioSrc = btn.getAttribute('data-slide-audio');
-                    if (audioSrc) {
-                        stopCurrentAudio();
-                        currentAudio = new Audio(audioSrc);
-                        currentAudio.play().catch(err => console.log('Audio play failed:', err));
-                    }
-                });
-            });
+            nextButtons.forEach(btn => btn.addEventListener("click", () => {
+                if (currentSlide < slides.length - 1) showSlide(++currentSlide);
+            }));
 
-            function goNext() {
-                if (currentSlide >= slides.length - 1) return;
-
-                currentSlide++;
-
-                while (currentSlide < slides.length) {
-                    const slide = slides[currentSlide];
-                    if (isInSpecialMode) {
-                        if (slide.classList.contains(specialSlideClass)) break;
-                    } else {
-                        if (!isSpecialSlide(slide)) break;
-                    }
-                    currentSlide++;
-                }
-
-                if (currentSlide < slides.length) {
-                    showSlide(currentSlide);
-                }
-            }
-
-            function goBack() {
-                if (currentSlide === 0 && !isInSpecialMode) {
-                    stopCurrentAudio();
+            returnButton?.addEventListener("click", () => {
+                if (currentSlide === 0) {
+                    stopAudio();
                     window.location.href = returnURL;
-                    return;
-                }
-
-                if (isInSpecialMode) {
-                    let previousIndex = currentSlide - 1;
-
-                    while (previousIndex >= 0) {
-                        if (slides[previousIndex].classList.contains(specialSlideClass)) {
-                            break;
-                        }
-                        previousIndex--;
-                    }
-
-                    if (previousIndex >= 0) {
-                        currentSlide = previousIndex;
-                        showSlide(currentSlide);
-                    } else {
-                        currentSlide = returnToSlide;
-                        isInSpecialMode = false;
-                        specialSlideClass = null;
-                        returnToSlide = null;
-                        showSlide(currentSlide);
-                    }
                 } else {
-                    if (currentSlide > 0) {
-                        currentSlide--;
-                        while (currentSlide > 0 && isSpecialSlide(slides[currentSlide])) {
-                            currentSlide--;
-                        }
-                        showSlide(currentSlide);
-                    }
+                    showSlide(--currentSlide);
                 }
-            }
+            });
 
-            // ✅ FIX 2: handleDone always navigates to doneURL
-            function handleDone() {
-                stopCurrentAudio();
-                window.location.href = doneURL;
-            }
+            homeButton?.addEventListener("click", () => {
+                stopAudio();
+                window.location.href = homeURL;
+            });
 
-            infoButtons.forEach(button => {
-                button.addEventListener("click", function(e) {
-                    e.preventDefault();
-                    returnToSlide = currentSlide;
-                    isInSpecialMode = true;
-                    specialSlideClass = getSlideTypeFromButton(button);
-
-                    for (let i = 0; i < slides.length; i++) {
-                        if (slides[i].classList.contains(specialSlideClass)) {
-                            currentSlide = i;
-                            showSlide(currentSlide);
-                            break;
-                        }
-                    }
+            document.querySelectorAll(".doneButton").forEach(btn => {
+                btn.addEventListener("click", () => {
+                    stopAudio();
+                    window.location.href = doneURL;
                 });
             });
 
-            nextButtons.forEach(btn => {
-                btn.addEventListener("click", goNext);
-            });
-
-            if (returnButton) {
-                returnButton.addEventListener("click", goBack);
-            }
-
-            // ✅ FIX 3: Attach handleDone to ALL .doneButton elements
-            document.querySelectorAll(".doneButton").forEach(btn => {
-                btn.addEventListener("click", handleDone);
-            });
-
-            showSlide(currentSlide);
+            showSlide(0);
         });
     </script>
 @endpush
