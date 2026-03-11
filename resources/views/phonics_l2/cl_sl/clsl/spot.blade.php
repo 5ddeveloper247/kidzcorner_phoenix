@@ -49,6 +49,12 @@
         .before {
             cursor: pointer;
         }
+
+        .panel-ul {
+            color: white;
+            font-size: 1.3vw;
+            padding-left: 3vw;
+        }
     </style>
 @endpush
 
@@ -66,8 +72,7 @@
 
     {{-- Side Info Panel --}}
     <div class="phonics-panel info-panel-1 flex flex-col items-start">
-        <h1 class="p-note">Tips:</h1>
-
+        <h1 class="text-white text-[1.6vw]">Tips:</h1>
         <ul class="list-disc text-start panel-ul space-y-[.2vw]">
             <li>The ability to understand that words are made up of sounds is an important beginning reading skill.</li>
             <li>Language and word games can help children develop the ability to listen for sounds in spoken words.</li>
@@ -765,9 +770,16 @@
 
             document.querySelectorAll('.doneButton').forEach(b => b.addEventListener('click', () => {
                 stopAudio();
-                window.location.href = doneURL;
-            }));
 
+                if (isInSpecialMode) {
+                    isInSpecialMode = false;
+                    specialSlideClass = null;
+                    showSlide(returnToSlide);
+                    returnToSlide = null;
+                } else {
+                    window.location.href = doneURL;
+                }
+            }));
             showSlide(0);
         });
     </script>

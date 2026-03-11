@@ -34,11 +34,11 @@
         </a>
 
         <div class="col-span-3 flex justify-center items-center gap-[2vw]">
-            <a href="{{ url('/phonics_l2/goals') }}">
+            <a href="{{ url('/phonics_l2/bl_pl/goal') }}">
                 <img src="{{ asset('assets/images/phonics_l2/global/goals.png') }}" class="mx-auto d-block" />
             </a>
 
-            <a href="{{ url('/phonics_l2/objectives') }}">
+            <a href="{{ url('/phonics_l2/bl_pl/objectives') }}">
                 <img src="{{ asset('assets/images/phonics_l2/global/objectives.png') }}" class="mx-auto d-block" />
             </a>
         </div>

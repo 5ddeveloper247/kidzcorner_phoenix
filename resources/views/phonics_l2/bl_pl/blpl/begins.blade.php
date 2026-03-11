@@ -38,6 +38,12 @@
             color: #A15E0D;
             font-size: 2.5vw;
         }
+
+        .panel-ul {
+            color: white;
+            font-size: 1.3vw;
+            padding-left: 3vw;
+        }
     </style>
 @endpush
 
@@ -55,7 +61,7 @@
 
     {{-- Side Info Panel --}}
     <div class="phonics-panel info-panel-1 flex flex-col items-start">
-        <h1 class="p-note">Tips:</h1>
+        <h1 class="text-white text-[1.6vw]">Tips:</h1>
 
         <ul class="list-disc text-start panel-ul space-y-[.2vw]">
             <li>The ability to understand that words are made up of sounds is an important beginning reading skill.</li>
@@ -551,7 +557,7 @@
 
     {{-- Panel 12 --}}
     <div class="phonics-panel h-full  space-y-[1.5vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins-with.m4a') }}" >
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/begins-with.m4a') }}">
         <h2 class="title-top stroke">Look at the picture. <br>
             Find the blend that completes the name of this item.</h2>
 
@@ -873,7 +879,15 @@
             });
             document.querySelectorAll('.doneButton').forEach(b => b.addEventListener('click', () => {
                 stopAudio();
-                window.location.href = doneURL;
+
+                if (isInSpecialMode) {
+                    isInSpecialMode = false;
+                    specialSlideClass = null;
+                    showSlide(returnToSlide);
+                    returnToSlide = null;
+                } else {
+                    window.location.href = doneURL;
+                }
             }));
 
             showSlide(0);

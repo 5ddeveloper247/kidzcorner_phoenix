@@ -606,7 +606,7 @@
             then encourage children to sound out the words by parts (click on audio if needed).</p>
     </div>
 
-   {{-- Panel 23 --}}
+    {{-- Panel 23 --}}
     <div class="phonics-panel flex flex-col items-center w-full">
         <div class="flex justify-between w-[100%] px-10">
             <div class="relative w-fit h-fit">
@@ -1270,7 +1270,16 @@
 
             function handleDone() {
                 stopCurrentAudio();
-                window.location.href = doneURL;
+
+                if (isInSpecialMode) {
+                    currentSlide = returnToSlide;
+                    isInSpecialMode = false;
+                    specialSlideClass = null;
+                    returnToSlide = null;
+                    showSlide(currentSlide);
+                } else {
+                    window.location.href = doneURL;
+                }
             }
 
             infoButtons.forEach(button => {

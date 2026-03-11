@@ -1164,7 +1164,16 @@
 
             function handleDone() {
                 stopCurrentAudio();
-                window.location.href = doneURL;
+
+                if (isInSpecialMode) {
+                    currentSlide = returnToSlide;
+                    isInSpecialMode = false;
+                    specialSlideClass = null;
+                    returnToSlide = null;
+                    showSlide(currentSlide);
+                } else {
+                    window.location.href = doneURL;
+                }
             }
 
             infoButtons.forEach(button => {
@@ -1200,4 +1209,3 @@
         });
     </script>
 @endpush
-

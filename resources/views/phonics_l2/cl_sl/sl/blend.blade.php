@@ -516,7 +516,7 @@
         </div>
     </div>
 
-    {{-- Panel 20--}}
+    {{-- Panel 20 --}}
     <div class="phonics-panel">
         <div class="flex gap-x-[5vw] items-center justify-around w-full">
             <h1 class="large-title">sl</h1>
@@ -1226,7 +1226,16 @@
 
             function handleDone() {
                 stopCurrentAudio();
-                window.location.href = doneURL;
+
+                if (isInSpecialMode) {
+                    currentSlide = returnToSlide;
+                    isInSpecialMode = false;
+                    specialSlideClass = null;
+                    returnToSlide = null;
+                    showSlide(currentSlide);
+                } else {
+                    window.location.href = doneURL;
+                }
             }
 
             infoButtons.forEach(button => {
@@ -1262,4 +1271,3 @@
         });
     </script>
 @endpush
-

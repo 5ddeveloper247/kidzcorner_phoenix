@@ -37,7 +37,8 @@
 
 @section('content')
     {{-- panel 1 --}}
-    <div class="phonics-panel flex flex-col justify-between items-center h-full" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/bl1.m4a') }}">
+    <div class="phonics-panel flex flex-col justify-between items-center h-full"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/bl1.m4a') }}">
         <h2 class="top-title stroke">Let's Blend</h2>
         <div class="flex justify-center items-center">
             <img src="{{ asset('assets/images/phonics_l2/global/common/blend.png') }}" class="w-[30vw] h-[20vw]" />
@@ -614,7 +615,7 @@
     </div>
 
     {{-- Panel 23 --}}
-    <div class="phonics-panel flex flex-col items-center w-full">   
+    <div class="phonics-panel flex flex-col items-center w-full">
         <div class="flex justify-between w-[100%] px-10">
             <div class="relative w-fit h-fit">
                 <img src="{{ asset('assets/images/phonics_l2/global/guess.png') }}" class="w-[15vw]" />
@@ -1276,7 +1277,16 @@
 
             function handleDone() {
                 stopCurrentAudio();
-                window.location.href = doneURL;
+
+                if (isInSpecialMode) {
+                    currentSlide = returnToSlide;
+                    isInSpecialMode = false;
+                    specialSlideClass = null;
+                    returnToSlide = null;
+                    showSlide(currentSlide);
+                } else {
+                    window.location.href = doneURL;
+                }
             }
 
             infoButtons.forEach(button => {
