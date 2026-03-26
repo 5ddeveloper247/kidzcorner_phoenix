@@ -47,7 +47,7 @@
             <img src="{{ asset('assets/images/phonics_l2/global/g4.png') }}" />
         </a>
 
-        <a href="{{ url('/phonics_l2/dr-gr') }}">
+        <a href="{{ url('/phonics_l2/dr_gr') }}">
             <img src="{{ asset('assets/images/phonics_l2/global/g5.png') }}" />
         </a>
 
