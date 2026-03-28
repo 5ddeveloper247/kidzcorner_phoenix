@@ -8,7 +8,7 @@
 @push('styles')
     <style>
         .p-note {
-            font-size: 1vw;
+            font-size: 1.2vw;
             color: white !important;
         }
 
@@ -26,30 +26,32 @@
 
 @section('content')
     {{-- Panel 1: Intro Slide --}}
-    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/rhymetime.m4a') }}">
-        <h2 class="top-title stroke">Rhyme Time</h2>
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/singalong.m4a') }}">
+        <h2 class="top-title stroke">Sing Along</h2>
         <div class="flex justify-center items-center">
-            <img src="{{ asset('assets/images/phonics_l2/global/common/rhyme.png') }}" class="w-[30vw] h-[20vw]" />
+            <img src="{{ asset('assets/images/phonics_l2/global/common/sing.png') }}" class="w-[30vw] h-[20vw]" />
             <img src="{{ asset('assets/images/phonicsl1/global/bear.png') }}" class="h-[25vw]" />
         </div>
     </div>
 
     {{-- Panel 2: Song Content Slide --}}
-    <div class="phonics-panel flex flex-col mt-[-3vw] h-full items-center space-y-[1.5vw]">
-        <h2 class="large-title stroke">Grey Grasshoppers</h2>
-        <img src="{{ asset('assets/images/phonics_l2/drgr/rhyme.png') }}" class="h-[20vw]" />
+    <div class="phonics-panel flex flex-col h-full justify-between space-y-[2vw] -mt-[3vw] items-center">
+        <div class="text-center">
+            <h2 class="large-title">Sw</h2>
+            <p class="note">Sing to the tune of "Pop goes the Weasel</p>
+        </div>
 
-        <p class="p-note">Tips: After reciting the rhyme, invite children to find the words that begin with the target blend
-            sound. <br>
-            Encourage them to find words that rhyme too.</p>
+        <img src="{{ asset('assets/images/phonics_l2/swsc/singalong.png') }}" class="ml-15" />
+
+        <p class="p-note">Tips: Invite children to sing-along. Encourage them to listen to the target blend sounds. <br>
+            Extension: Encourage children to substitute other words with /br/ and sing along.</p>
 
         <button class="absolute top-1/2 -translate-1/2 left-[-10vw] w-[4vw]" id="soundButton"
-            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/dr_gr/gr-rhyme.mp3') }}">
+            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sw_sc/singalong-sw.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
 
-{{-- ============================================f --}}
     {{-- Navigation Buttons (Top) --}}
     <div id="buttons" class="absolute flex flex-row gap-6 z-90">
         <!-- Return/Back Button -->
@@ -96,8 +98,8 @@
             const doneButton = document.querySelector(".doneButton");
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
-            const returnURL = "{{ url('/phonics_l2/dr_gr/gr') }}";
-            const doneURL = "{{ url('/phonics_l2/dr_gr/gr') }}";
+            const returnURL = "{{ url('/phonics_l2/sw_sc/sw') }}";
+            const doneURL = "{{ url('/phonics_l2/sw_sc/sw') }}";
             const homeURL = document.body.dataset.homeRoute;
 
             let currentSlide = 0;

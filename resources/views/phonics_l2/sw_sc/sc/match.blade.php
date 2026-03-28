@@ -5,43 +5,42 @@
     $showBackground = true;
 
     $box = [
-        'label' => 'gr', // text shown on the box
-        'audio' => 'assets/audio/phonics_audio-2/br_pr/prah.m4a', // sound for the box button
+        'label' => 'sc',
+        'audio' => 'assets/audio/phonics_audio-2/sw_sc/scah.m4a',
     ];
-
 
     $questions = [
         [
             [
-                'image' => 'assets/images/phonics_l2/blpl/13.png',
-                'audio' => 'assets/audio/phonics_audio-2/bl_pl/blue.m4a',
-                'correct' => false,
-                'size' => 'w-[6vw]',
+                'image' => 'assets/images/phonics_l2/swsc/scarf.png',
+                'audio' => 'assets/audio/phonics_audio-2/sw_sc/scarf.m4a',
+                'correct' => true,
+                'size' => 'h-[7vw]',
             ],
             [
                 'image' => 'assets/images/phonics_l2/brpr/press.png',
                 'audio' => 'assets/audio/phonics_audio-2/br_pr/press.m4a',
                 'correct' => false,
-                'size' => 'h-[7vw]',
+                'size' => 'w-[6vw]',
             ],
             [
-                'image' => 'assets/images/phonics_l2/drgr/grass.png',
-                'audio' => 'assets/audio/phonics_audio-2/dr_gr/grass.m4a',
-                'correct' => true,
+                'image' => 'assets/images/phonics_l2/clsl/slow.png',
+                'audio' => 'assets/audio/phonics_audio-2/cl_sl/slow.m4a',
+                'correct' => false,
                 'size' => 'w-[6vw]',
             ],
         ],
         [
             [
-                'image' => 'assets/images/phonics_l2/blpl/13.png',
-                'audio' => 'assets/audio/phonics_audio-2/bl_pl/blue.m4a',
-                'correct' => false,
+                'image' => 'assets/images/phonics_l2/swsc/swim.png',
+                'audio' => 'assets/audio/phonics_audio-2/sw_sc/swim.m4a',
+                'correct' => true,
                 'size' => 'w-[6vw]',
             ],
             [
-                'image' => 'assets/images/phonics_l2/drgr/grey.png',
-                'audio' => 'assets/audio/phonics_audio-2/dr_gr/grey.m4a',
-                'correct' => true,
+                'image' => 'assets/images/phonics_l2/swsc/scooter.png',
+                'audio' => 'assets/audio/phonics_audio-2/sw_sc/scooter.m4a',
+                'correct' => false,
                 'size' => 'w-[7vw]',
             ],
             [
@@ -53,62 +52,62 @@
         ],
         [
             [
-                'image' => 'assets/images/phonics_l2/brpr/pry.png',
-                'audio' => 'assets/audio/phonics_audio-2/br_pr/pry.m4a',
-                'correct' => false,
-                'size' => 'h-[8vw]',
+                'image' => 'assets/images/phonics_l2/swsc/sweep.png',
+                'audio' => 'assets/audio/phonics_audio-2/sw_sc/sweep.m4a',
+                'correct' => true,
+                'size' => 'w-[8vw]',
             ],
             [
                 'image' => 'assets/images/phonics_l2/clsl/slide.png',
                 'audio' => 'assets/audio/phonics_audio-2/cl_sl/slide.m4a',
                 'correct' => false,
-                'size' => 'w-[6vw]',
+                'size' => 'h-[8vw]',
             ],
             [
-                'image' => 'assets/images/phonics_l2/drgr/grapes.png',
-                'audio' => 'assets/audio/phonics_audio-2/dr_gr/grapes.m4a',
-                'correct' => true,
-                'size' => 'w-[8vw] rounded-xl',
+                'image' => 'assets/images/phonics_l2/swsc/scared.png',
+                'audio' => 'assets/audio/phonics_audio-2/sw_sc/scared.m4a',
+                'correct' => false,
+                'size' => 'h-[7vw]',
             ],
         ],
         [
             [
-                'image' => 'assets/images/phonics_l2/blpl/13.png',
-                'audio' => 'assets/audio/phonics_audio-2/bl_pl/blue.m4a',
-                'correct' => false,
-                'size' => 'w-[6vw]',
-            ],
-            [
-                'image' => 'assets/images/phonics_l2/flgl/glue.png',
-                'audio' => 'assets/audio/phonics_audio-2/fl_gl/glue.m4a',
-                'correct' => false,
-                'size' => 'h-[7vw]',
-            ],
-            [
-                'image' => 'assets/images/phonics_l2/drgr/green.png',
-                'audio' => 'assets/audio/phonics_audio-2/dr_gr/green.m4a',
+                'image' => 'assets/images/phonics_l2/swsc/scold.png',
+                'audio' => 'assets/audio/phonics_audio-2/sw_sc/scold.m4a',
                 'correct' => true,
+                'size' => 'h-[8vw]',
+            ],
+            [
+                'image' => 'assets/images/phonics_l2/swsc/sweet.png',
+                'audio' => 'assets/audio/phonics_audio-2/sw_sc/sweet.m4a',
+                'correct' => false,
+                'size' => 'w-[7vw]',
+            ],
+            [
+                'image' => 'assets/images/phonics_l2/brpr/present.png',
+                'audio' => 'assets/audio/phonics_audio-2/br_pr/present.m4a',
+                'correct' => false,
                 'size' => 'w-[7vw]',
             ],
         ],
         [
             [
-                'image' => 'assets/images/phonics_l2/brpr/bread.png',
-                'audio' => 'assets/audio/phonics_audio-2/br_pr/bread.m4a',
+                'image' => 'assets/images/phonics_l2/brpr/prince.png',
+                'audio' => 'assets/audio/phonics_audio-2/br_pr/prince.m4a',
                 'correct' => false,
-                'size' => 'w-[7vw]',
+                'size' => 'h-[7vw]',
             ],
             [
-                'image' => 'assets/images/phonics_l2/blpl/25.png',
-                'audio' => 'assets/audio/phonics_audio-2/bl_pl/plank.m4a',
-                'correct' => false,
-                'size' => 'w-[7vw]',
-            ],
-            [
-                'image' => 'assets/images/phonics_l2/drgr/grumpy.png',
-                'audio' => 'assets/audio/phonics_audio-2/dr_gr/grumpy.m4a',
+                'image' => 'assets/images/phonics_l2/swsc/scout.png',
+                'audio' => 'assets/audio/phonics_audio-2/sw_sc/scout.m4a',
                 'correct' => true,
                 'size' => 'h-[7vw]',
+            ],
+            [
+                'image' => 'assets/images/phonics_l2/frcr/crawl.png',
+                'audio' => 'assets/audio/phonics_audio-2/fr_cr/crawl.m4a',
+                'correct' => false,
+                'size' => 'w-[7vw]',
             ],
         ],
     ];
@@ -243,8 +242,8 @@
     <script>
         // Navigation URLs
         document.body.dataset.homeRoute = "{{ url('/phonics/l2') }}";
-        const returnURL = "{{ url('/phonics_l2/dr_gr/gr') }}";
-        const doneURL = "{{ url('/phonics_l2/dr_gr/gr') }}";
+        const returnURL = "{{ url('/phonics_l2/sw_sc/sc') }}";
+        const doneURL = "{{ url('/phonics_l2/sw_sc/sc') }}";
 
         document.addEventListener("DOMContentLoaded", function() {
 

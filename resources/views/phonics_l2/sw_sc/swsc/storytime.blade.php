@@ -36,6 +36,12 @@
         .answer {
             cursor: pointer;
         }
+
+        .box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
     </style>
 @endpush
 
@@ -45,68 +51,63 @@
 
         $storySlides = [
             [
-                'audio' => 'assets/audio/phonics_audio-2/dr_gr/st1.m4a',
-                'image' => 'assets/images/phonics_l2/drgr/st1.png',
-                'text' => 'Dragon and Grasshopper',
+                'audio' => 'assets/audio/phonics_audio-2/sw_sc/st1.m4a',
+                'image' => 'assets/images/phonics_l2/swsc/st1.png',
+                'text' => 'Swans on Scooters',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/dr_gr/st2.m4a',
-                'image' => 'assets/images/phonics_l2/drgr/st1.png',
-                'text' => 'Dragon and Grasshopper are best friends.',
+                'audio' => 'assets/audio/phonics_audio-2/sw_sc/st2.m4a',
+                'image' => 'assets/images/phonics_l2/swsc/st2.png',
+                'text' => 'Swans should only swim gently on water',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/dr_gr/st3.m4a',
-                'image' => 'assets/images/phonics_l2/drgr/st2.png',
-                'text' => 'They love driving fast around bends.',
+                'audio' => 'assets/audio/phonics_audio-2/sw_sc/st3.m4a',
+                'image' => 'assets/images/phonics_l2/swsc/st1.png',
+                'text' => 'And ride on scooters with a scarf trailing after.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/dr_gr/st4.m4a',
-                'image' => 'assets/images/phonics_l2/drgr/st3.png',
-                'text' => 'Grasshopper enjoys drawing on the sand.',
+                'audio' => 'assets/audio/phonics_audio-2/sw_sc/st4.m4a',
+                'image' => 'assets/images/phonics_l2/swsc/st3.png',
+                'text' => 'Scaring children on their way to school.,',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/dr_gr/st5.m4a',
-                'image' => 'assets/images/phonics_l2/drgr/st4.png',
-                'text' => 'While Dragon plays the drum with his band.',
+                'audio' => 'assets/audio/phonics_audio-2/sw_sc/st5.m4a',
+                'image' => 'assets/images/phonics_l2/swsc/st4.png',
+                'text' => 'Switching lanes and avoiding muddy pools.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/dr_gr/st6.m4a',
-                'image' => 'assets/images/phonics_l2/drgr/st5.png',
-                'text' => 'They also like growing green grapes.',
+                'audio' => 'assets/audio/phonics_audio-2/sw_sc/st6.m4a',
+                'image' => 'assets/images/phonics_l2/swsc/st5.png',
+                'text' => 'Swaying to miss sweaty scouts sweeping sweeps off the streets',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/dr_gr/st7.m4a',
-                'image' => 'assets/images/phonics_l2/drgr/st6.png',
-                'text' => 'And dreaming of feeding the drooling apes.',
-            ],
+                'audio' => 'assets/audio/phonics_audio-2/sw_sc/st7.m4a',
+                'image' => 'assets/images/phonics_l2/swsc/st6.png',
+                'text' => 'I think swans should only swim gently on water.',
+            ]
         ];
 
         $storyQuestions = [
             [
-                'audio' => 'assets/audio/phonics_audio-2/dr_gr/stq1.m4a',
-                'question' => "What do Dragon\nand Grasshopper\nlove to do?",
+                'audio' => 'assets/audio/phonics_audio-2/sw_sc/stq1.m4a',
+                'question' => "What should\nswans do?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/dr_gr/stq2.m4a',
-                'question' => "What does\nGrasshopper enjoy\ndoing?",
+                'audio' => 'assets/audio/phonics_audio-2/sw_sc/stq2.m4a',
+                'question' => "What were\nthe swans\nwearing?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/dr_gr/stq3.m4a',
-                'question' => "Who plays\nthe drum?",
+                'audio' => 'assets/audio/phonics_audio-2/sw_sc/stq3.m4a',
+                'question' => "What should\nswans not\ndo?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/dr_gr/stq4.m4a',
-                'question' => "What do Dragon\nand Grasshopper\ndream of?",
+                'audio' => 'assets/audio/phonics_audio-2/sw_sc/stq4.m4a',
+                'question' => "What would you\ndo if you were\na swan?",
                 'tip' => 'Tip: Elicit response from children.',
-            ],
-            [
-                'audio' => 'assets/audio/phonics_audio-2/dr_gr/stq5.m4a',
-                'question' => "What do you\ndream about?",
-                'tip' => 'Tip: Elicit response from children.',
-            ],
+            ]
         ];
 
     @endphp
@@ -133,9 +134,9 @@
     @foreach ($storySlides as $slide)
         <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
             data-slide-audio="{{ asset($slide['audio']) }}">
-            <h2 class="title-top stroke">{{ $storySlides[0]['text'] === $slide['text'] ? 'Dragon and Grasshopper' : '' }}
+            <h2 class="title-top stroke">{{ $storySlides[0]['text'] === $slide['text'] ? 'The Prince and his Tree' : '' }}
             </h2>
-            <img src="{{ asset($slide['image']) }}" class="{{ $loop->first ? 'w-[25vw]' : 'h-[25vw]' }}" />
+            <img src="{{ asset($slide['image']) }}" class="{{ $loop->first ? 'h-[20vw]' : 'h-[20vw]' }}" />
             @if (!$loop->first)
                 <h2 class="title-top">{{ $slide['text'] }}</h2>
             @endif
@@ -180,23 +181,27 @@
     </div>
 
     {{-- Panel 14 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/dr_gr/st4.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sw_sc/st2.m4a') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
-            <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a]"><img
-                    src="{{ asset('assets/images/phonics_l2/drgr/st6.png') }}" class="h-[10vw]" /></div>
-            <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a]"><img
-                    src="{{ asset('assets/images/phonics_l2/drgr/st5.png') }}" class="h-[10vw]" /></div>
-            <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a]"><img
-                    src="{{ asset('assets/images/phonics_l2/drgr/st3.png') }}" class="h-[10vw] answer" /></div>
-            <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a]"><img
-                    src="{{ asset('assets/images/phonics_l2/drgr/st4.png') }}" class="h-[10vw]" /></div>
+            <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
+                <img src="{{ asset('assets/images/phonics_l2/swsc/st3.png') }}" class="w-[20vw]" />
+            </div>
+            <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
+                <img src="{{ asset('assets/images/phonics_l2/swsc/st4.png') }}" class="w-[20vw]" />
+            </div>
+            <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
+                <img src="{{ asset('assets/images/phonics_l2/swsc/st1.png') }}" class="w-[20vw] answer" />
+            </div>
+            <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
+                <img src="{{ asset('assets/images/phonics_l2/swsc/st2.png') }}" class="w-[20vw]" />
+            </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question bg-[#f7b94a]! text-[#A15E0D]!">Grasshopper enjoys drawing on the sand,</div>
-            <div class="question">While Dragon plays drum with his band.</div>
-            <div class="question">They also like growing green grapes.</div>
-            <div class="question">And dream of feeding the drooling apes.</div>
+            <div class="question bg-[#f7b94a]! text-[#A15E0D]!">Swans should only swim gently on water</div>
+            <div class="question">And not ride on scooters with a scarf trailing after</div>
+            <div class="question">Scaring children on their way to school</div>
+            <div class="question">Switching lanes and avoiding muddy pools.</div>
         </div>
     </div>
 
@@ -204,48 +209,55 @@
     <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
-            <div class="p-[1vw] rounded-xl border-2 border-[#f7b94a] relative w-fit h-fit">
+            <div class="p-[1vw] rounded-xl border-2 border-[#f7b94a] relative w-fit box h-[10vw]">
                 <span class="absolute top-0 left-0 pl-4 text-white">1</span>
                 <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}"
                     class="h-[1.5vw] absolute right-0 top-0 pr-3" />
-                <img src="{{ asset('assets/images/phonics_l2/drgr/st3.png') }}" class="h-[8vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/swsc/st1.png') }}" class="w-[20vw]" />
             </div>
-            <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a]"><img
-                    src="{{ asset('assets/images/phonics_l2/drgr/st6.png') }}" class="h-[10vw]" /></div>
+            <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
+                <img src="{{ asset('assets/images/phonics_l2/swsc/st3.png') }}" class="w-[20vw]" />
+            </div>
 
-            <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a]"><img
-                    src="{{ asset('assets/images/phonics_l2/drgr/st5.png') }}" class="h-[10vw]" /></div>
+            <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
+                <img src="{{ asset('assets/images/phonics_l2/swsc/st4.png') }}" class="w-[20vw]" />
+            </div>
 
-            <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a]"><img
-                    src="{{ asset('assets/images/phonics_l2/drgr/st4.png') }}" class="h-[10vw]" /></div>
+            <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
+                <img src="{{ asset('assets/images/phonics_l2/swsc/st2.png') }}" class="w-[20vw]" />
+            </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question done"><span class="absolute left-0 pl-5">1</span> Grasshopper enjoys drawing on the sand,
+            <div class="question done"><span class="absolute left-0 pl-5">1</span> Swans should only swim gently on water
             </div>
-            <div class="question">While Dragon plays drum with his band.</div>
-            <div class="question">They also like growing green grapes.</div>
-            <div class="question">And dream of feeding the drooling apes.</div>
+            <div class="question">And not ride on scooters with a scarf trailing after</div>
+            <div class="question">Scaring children on their way to school</div>
+            <div class="question">Switching lanes and avoiding muddy pools.</div>
         </div>
     </div>
 
     {{-- Panel 16 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/dr_gr/st5.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sw_sc/st3.m4a') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
-            <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a]"><img
-                    src="{{ asset('assets/images/phonics_l2/drgr/st6.png') }}" class="h-[10vw]" /></div>
-            <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a]"><img
-                    src="{{ asset('assets/images/phonics_l2/drgr/st5.png') }}" class="h-[10vw]" /></div>
-            <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a]"><img
-                    src="{{ asset('assets/images/phonics_l2/drgr/st3.png') }}" class="h-[10vw]" /></div>
-            <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a]"><img
-                    src="{{ asset('assets/images/phonics_l2/drgr/st4.png') }}" class="h-[10vw] answer" /></div>
+            <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
+                <img src="{{ asset('assets/images/phonics_l2/swsc/st3.png') }}" class="w-[20vw]" />
+            </div>
+            <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
+                <img src="{{ asset('assets/images/phonics_l2/swsc/st4.png') }}" class="w-[20vw]" />
+            </div>
+            <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
+                <img src="{{ asset('assets/images/phonics_l2/swsc/st1.png') }}" class="w-[20vw]" />
+            </div>
+            <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
+                <img src="{{ asset('assets/images/phonics_l2/swsc/st2.png') }}" class="w-[20vw] answer" />
+            </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question">Grasshopper enjoys drawing on the sand,</div>
-            <div class="question bg-[#f7b94a]! text-[#A15E0D]!">While Dragon plays drum with his band.</div>
-            <div class="question">They also like growing green grapes.</div>
-            <div class="question">And dream of feeding the drooling apes.</div>
+            <div class="question">Swans should only swim gently on water</div>
+            <div class="question bg-[#f7b94a]! text-[#A15E0D]!">And not ride on scooters with a scarf trailing after</div>
+            <div class="question">Scaring children on their way to school</div>
+            <div class="question">Switching lanes and avoiding muddy pools.</div>
         </div>
     </div>
 
@@ -254,51 +266,57 @@
         data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
-            <div class="p-[1vw] rounded-xl border-2 border-[#f7b94a] relative w-fit h-fit">
+            <div class="p-[1vw] rounded-xl border-2 border-[#f7b94a] relative w-fit box h-[10vw]">
                 <span class="absolute top-0 left-0 pl-4 text-white">1</span>
                 <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}"
                     class="h-[1.5vw] absolute right-0 top-0 pr-3" />
-                <img src="{{ asset('assets/images/phonics_l2/drgr/st3.png') }}" class="h-[8vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/swsc/st1.png') }}" class="w-[20vw]" />
             </div>
-            <div class="p-[1vw] rounded-xl border-2 border-[#f7b94a] relative w-fit h-fit">
+            <div class="p-[1vw] rounded-xl border-2 border-[#f7b94a] relative w-fit box h-[10vw]">
                 <span class="absolute top-0 left-0 pl-4 text-white">2</span>
                 <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}"
                     class="h-[1.5vw] absolute right-0 top-0 pr-3" />
-                <img src="{{ asset('assets/images/phonics_l2/drgr/st4.png') }}" class="h-[9vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/swsc/st2.png') }}" class="w-[20vw]" />
             </div>
-            <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a]"><img
-                    src="{{ asset('assets/images/phonics_l2/drgr/st6.png') }}" class="h-[10vw]" /></div>
-            <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a]"><img
-                    src="{{ asset('assets/images/phonics_l2/drgr/st5.png') }}" class="h-[10vw]" /></div>
+            <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
+                <img src="{{ asset('assets/images/phonics_l2/swsc/st3.png') }}" class="w-[20vw]" />
+            </div>
+            <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
+                <img src="{{ asset('assets/images/phonics_l2/swsc/st4.png') }}" class="w-[20vw]" />
+            </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question done"><span class="absolute left-0 pl-5">1</span> Grasshopper enjoys drawing on the sand,
+            <div class="question done"><span class="absolute left-0 pl-5">1</span> Swans should only swim gently on water
             </div>
-            <div class="question done"><span class="absolute left-0 pl-5">2</span> While Dragon plays drum with his band.
+            <div class="question done"><span class="absolute left-0 pl-5">2</span> And not ride on scooters with a scarf trailing after
             </div>
-            <div class="question">They also like growing green grapes.</div>
-            <div class="question">And dream of feeding the drooling apes.</div>
+            <div class="question">Scaring children on their way to school</div>
+            <div class="question">Switching lanes and avoiding muddy pools.</div>
         </div>
     </div>
 
     {{-- Panel 18 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/dr_gr/st6.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sw_sc/st4.m4a') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
-            <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a]"><img
-                    src="{{ asset('assets/images/phonics_l2/drgr/st6.png') }}" class="h-[10vw]" /></div>
-            <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a]"><img
-                    src="{{ asset('assets/images/phonics_l2/drgr/st5.png') }}" class="h-[10vw] answer" /></div>
-            <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a]"><img
-                    src="{{ asset('assets/images/phonics_l2/drgr/st3.png') }}" class="h-[10vw]" /></div>
-            <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a]"><img
-                    src="{{ asset('assets/images/phonics_l2/drgr/st4.png') }}" class="h-[10vw]" /></div>
+            <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
+                <img src="{{ asset('assets/images/phonics_l2/swsc/st3.png') }}" class="w-[20vw]" />
+            </div>
+            <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
+                <img src="{{ asset('assets/images/phonics_l2/swsc/st4.png') }}" class="w-[10vw] answer" />
+            </div>
+            <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
+                <img src="{{ asset('assets/images/phonics_l2/swsc/st1.png') }}" class="w-[20vw]" />
+            </div>
+            <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
+                <img src="{{ asset('assets/images/phonics_l2/swsc/st2.png') }}" class="w-[20vw]" />
+            </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question">Grasshopper enjoys drawing on the sand,</div>
-            <div class="question">While Dragon plays drum with his band.</div>
-            <div class="question bg-[#f7b94a]! text-[#A15E0D]!">They also like growing green grapes.</div>
-            <div class="question">And dream of feeding the drooling apes.</div>
+            <div class="question">Swans should only swim gently on water</div>
+            <div class="question">And not ride on scooters with a scarf trailing after</div>
+            <div class="question bg-[#f7b94a]! text-[#A15E0D]!">Scaring children on their way to school</div>
+            <div class="question">Switching lanes and avoiding muddy pools.</div>
         </div>
     </div>
 
@@ -307,57 +325,61 @@
         data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
-            <div class="p-[1vw] rounded-xl border-2 border-[#f7b94a] relative w-fit h-fit">
+            <div class="p-[1vw] rounded-xl border-2 border-[#f7b94a] relative w-fit box h-[10vw]">
                 <span class="absolute top-0 left-0 pl-4 text-white">1</span>
                 <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}"
                     class="h-[1.5vw] absolute right-0 top-0 pr-3" />
-                <img src="{{ asset('assets/images/phonics_l2/drgr/st3.png') }}" class="h-[9vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/swsc/st1.png') }}" class="w-[20vw]" />
             </div>
-            <div class="p-[1vw] rounded-xl border-2 border-[#f7b94a] relative w-fit h-fit">
+            <div class="p-[1vw] rounded-xl border-2 border-[#f7b94a] relative w-fit box h-[10vw]">
                 <span class="absolute top-0 left-0 pl-4 text-white">2</span>
                 <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}"
                     class="h-[1.5vw] absolute right-0 top-0 pr-3" />
-                <img src="{{ asset('assets/images/phonics_l2/drgr/st4.png') }}" class="h-[9vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/swsc/st2.png') }}" class="w-[20vw]" />
             </div>
-            <div class="p-[1vw] rounded-xl border-2 border-[#f7b94a] relative w-fit h-fit">
+            <div class="p-[1vw] rounded-xl border-2 border-[#f7b94a] relative w-fit box h-[10vw]">
                 <span class="absolute top-0 left-0 pl-4 text-white">3</span>
                 <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}"
                     class="h-[1.5vw] absolute right-0 top-0 pr-3" />
-                <img src="{{ asset('assets/images/phonics_l2/drgr/st5.png') }}" class="h-[9vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/swsc/st4.png') }}" class="w-[20vw]" />
             </div>
             <div class="p-[1vw] rounded-xl border-2 border-[#f7b94a]">
-                <img src="{{ asset('assets/images/phonics_l2/drgr/st6.png') }}" class="h-[9vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/swsc/st3.png') }}" class="w-[20vw]" />
             </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question done"><span class="absolute left-0 pl-5">1</span> Grasshopper enjoys drawing on the sand,
+            <div class="question done"><span class="absolute left-0 pl-5">1</span> Swans should only swim gently on water
             </div>
-            <div class="question done"><span class="absolute left-0 pl-5">2</span> While Dragon plays drum with his band.
+            <div class="question done"><span class="absolute left-0 pl-5">2</span> And not ride on scooters with a scarf trailing after
             </div>
-            <div class="question done"><span class="absolute left-0 pl-5">3</span> They also like growing green grapes.
+            <div class="question done"><span class="absolute left-0 pl-5">3</span> Scaring children on their way to school
             </div>
-            <div class="question">And dream of feeding the drooling apes.</div>
+            <div class="question">Switching lanes and avoiding muddy pools.</div>
         </div>
     </div>
 
     {{-- Panel 20 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/dr_gr/st7.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sw_sc/st5.m4a') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
-            <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a]"><img
-                    src="{{ asset('assets/images/phonics_l2/drgr/st6.png') }}" class="h-[10vw] answer" /></div>
-            <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a]"><img
-                    src="{{ asset('assets/images/phonics_l2/drgr/st5.png') }}" class="h-[10vw]" /></div>
-            <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a]"><img
-                    src="{{ asset('assets/images/phonics_l2/drgr/st3.png') }}" class="h-[10vw]" /></div>
-            <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a]"><img
-                    src="{{ asset('assets/images/phonics_l2/drgr/st4.png') }}" class="h-[10vw]" /></div>
+            <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
+                <img src="{{ asset('assets/images/phonics_l2/swsc/st3.png') }}" class="w-[20vw] answer" />
+            </div>
+            <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
+                <img src="{{ asset('assets/images/phonics_l2/swsc/st4.png') }}" class="w-[20vw]" />
+            </div>
+            <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
+                <img src="{{ asset('assets/images/phonics_l2/swsc/st1.png') }}" class="w-[20vw]" />
+            </div>
+            <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
+                <img src="{{ asset('assets/images/phonics_l2/swsc/st2.png') }}" class="w-[20vw]" />
+            </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question">Grasshopper enjoys drawing on the sand,</div>
-            <div class="question">While Dragon plays drum with his band.</div>
-            <div class="question">They also like growing green grapes.</div>
-            <div class="question bg-[#f7b94a]! text-[#A15E0D]!">And dream of feeding the drooling apes.</div>
+            <div class="question">Swans should only swim gently on water</div>
+            <div class="question">And not ride on scooters with a scarf trailing after</div>
+            <div class="question">Scaring children on their way to school</div>
+            <div class="question bg-[#f7b94a]! text-[#A15E0D]!">Switching lanes and avoiding muddy pools.</div>
         </div>
     </div>
 
@@ -366,39 +388,39 @@
         data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
-            <div class="p-[1vw] rounded-xl border-2 border-[#f7b94a] relative w-fit h-fit">
+            <div class="p-[1vw] rounded-xl border-2 border-[#f7b94a] relative w-fit box h-[10vw]">
                 <span class="absolute top-0 left-0 pl-4 text-white">1</span>
                 <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}"
                     class="h-[1.5vw] absolute right-0 top-0 pr-3" />
-                <img src="{{ asset('assets/images/phonics_l2/drgr/st3.png') }}" class="h-[9vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/swsc/st1.png') }}" class="w-[20vw]" />
             </div>
-            <div class="p-[1vw] rounded-xl border-2 border-[#f7b94a] relative w-fit h-fit">
+            <div class="p-[1vw] rounded-xl border-2 border-[#f7b94a] relative w-fit box h-[10vw]">
                 <span class="absolute top-0 left-0 pl-4 text-white">2</span>
                 <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}"
                     class="h-[1.5vw] absolute right-0 top-0 pr-3" />
-                <img src="{{ asset('assets/images/phonics_l2/drgr/st4.png') }}" class="h-[9vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/swsc/st2.png') }}" class="w-[20vw]" />
             </div>
-            <div class="p-[1vw] rounded-xl border-2 border-[#f7b94a] relative w-fit h-fit">
+            <div class="p-[1vw] rounded-xl border-2 border-[#f7b94a] relative w-fit box h-[10vw]">
                 <span class="absolute top-0 left-0 pl-4 text-white">3</span>
                 <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}"
                     class="h-[1.5vw] absolute right-0 top-0 pr-3" />
-                <img src="{{ asset('assets/images/phonics_l2/drgr/st5.png') }}" class="h-[9vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/swsc/st4.png') }}" class="w-[20vw]" />
             </div>
-            <div class="p-[1vw] rounded-xl border-2 border-[#f7b94a] relative w-fit h-fit">
+            <div class="p-[1vw] rounded-xl border-2 border-[#f7b94a] relative w-fit box h-[10vw]">
                 <span class="absolute top-0 left-0 pl-4 text-white">4</span>
                 <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}"
                     class="h-[1.5vw] absolute right-0 top-0 pr-3" />
-                <img src="{{ asset('assets/images/phonics_l2/drgr/st6.png') }}" class="h-[9vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/swsc/st3.png') }}" class="w-[20vw]" />
             </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question done"><span class="absolute left-0 pl-5">1</span> Grasshopper enjoys drawing on the sand,
+            <div class="question done"><span class="absolute left-0 pl-5">1</span> Swans should only swim gently on water
             </div>
-            <div class="question done"><span class="absolute left-0 pl-5">2</span> While Dragon plays drum with his band.
+            <div class="question done"><span class="absolute left-0 pl-5">2</span> And not ride on scooters with a scarf trailing after
             </div>
-            <div class="question done"><span class="absolute left-0 pl-5">3</span> They also like growing green grapes.
+            <div class="question done"><span class="absolute left-0 pl-5">3</span> Scaring children on their way to school
             </div>
-            <div class="question done"><span class="absolute left-0 pl-5">4</span> And dream of feeding the drooling apes.
+            <div class="question done"><span class="absolute left-0 pl-5">4</span> Switching lanes and avoiding muddy pools.
             </div>
         </div>
     </div>
@@ -413,19 +435,22 @@
 
     {{-- ── Buttons (unchanged) ──────────────────────────────────── --}}
     <div id="buttons" class="absolute flex flex-row gap-6 z-90">
-        <button id="returnButton"><img
-                src="{{ asset('assets/images/phonicsl1/global/btns/return-btn.png') }}" /></button>
-        <button id="homeButton"><img src="{{ asset('assets/images/phonicsl1/global/btns/home-btn.png') }}" /></button>
-        <button id="closeButton"><img src="{{ asset('assets/images/phonicsl1/global/btns/cancel.png') }}" /></button>
+        <button id="returnButton">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/return-btn.png') }}" /></button>
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/home-btn.png') }}" /></button>
+        <button id="closeButton">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/cancel.png') }}" /></button>
     </div>
 
     <div class="down-btn-container">
-        <button class="nextButton"><img src="{{ asset('assets/images/phonicsl1/global/btns/next-btn.png') }}" /></button>
+        <button class="nextButton">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/next-btn.png') }}" /></button>
     </div>
 
     <div class="down-btn-container">
-        <button class="doneButton hidden"><img
-                src="{{ asset('assets/images/phonicsl1/global/btns/done.png') }}" /></button>
+        <button class="doneButton hidden">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/done.png') }}" /></button>
     </div>
 
 @endsection
@@ -437,8 +462,8 @@
         document.addEventListener("DOMContentLoaded", function() {
 
             /* CONFIG */
-            const returnURL = "{{ url('/phonics_l2/dr_gr/drgr') }}";
-            const doneURL = "{{ url('/phonics_l2/dr_gr/drgr') }}";
+            const returnURL = "{{ url('/phonics_l2/sw_sc/swsc') }}";
+            const doneURL = "{{ url('/phonics_l2/sw_sc/swsc') }}";
 
             /* DOM */
             const slides = document.querySelectorAll(".phonics-panel");
