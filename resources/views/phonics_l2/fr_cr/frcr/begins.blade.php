@@ -147,7 +147,7 @@
         <p class="p-note">Tips: To know more about this activity, <a class="c-btn info-btn1">Click here</a>.</p>
     </div>
 
-    {{-- Info panel (opened by "Click here" above) --}}
+    {{-- Info panel   --}}
     <div class="phonics-panel info-panel-1 flex flex-col items-start">
         <h1 class="text-white text-[1.6vw]">Tips:</h1>
         <ul class="list-disc text-start panel-ul space-y-[.2vw]">
@@ -159,7 +159,7 @@
     </div>
 
 
-    {{-- QUESTION PANELS — auto-generated from $questions --}}
+    {{-- QUESTION PANELS — s --}}
 
     @foreach ($questions as $qIndex => $q)
         <div class="phonics-panel h-full space-y-[1vw]"

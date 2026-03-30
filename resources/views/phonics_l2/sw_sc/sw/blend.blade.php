@@ -132,7 +132,7 @@
             For definitions of phonics terms, <a class="c-btn info-btn1">Click here</a>.</p>
     </div>
 
-    {{-- Info panel (opened by "Click here" above) --}}
+    {{-- Info panel   --}}
     <div class="phonics-panel info-panel-1 flex flex-col gap-y-[1vw]">
         <h1 class="panel-title">Definitions</h1>
         <ul class="list-disc text-start panel-ul space-y-[.2vw]">

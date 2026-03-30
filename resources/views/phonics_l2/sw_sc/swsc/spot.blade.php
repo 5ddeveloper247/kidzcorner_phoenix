@@ -40,14 +40,14 @@
             'ratImage' => 'rat.png',
             'circles' => [
                 ['label' => 'bl', 'audio' => 'assets/audio/phonics_audio-2/bl_pl/blah.mp3', 'correct' => false],
-                ['label' => 'sw', 'audio' => 'assets/audio/phonics_audio-2/sw_Sc/swah.m4a', 'correct' => true],
+                ['label' => 'sw', 'audio' => 'assets/audio/phonics_audio-2/sw_sc/swah.m4a', 'correct' => true],
                 ['label' => 'pr', 'audio' => 'assets/audio/phonics_audio-2/br_pr/prah.m4a', 'correct' => false],
                 ['label' => 'sl', 'audio' => 'assets/audio/phonics_audio-2/cl_sl/slah.m4a', 'correct' => false],
             ],
         ],
         [
-            'questionAudio' => 'assets/audio/phonics_audio-2/sw_Sc/spot-scah.m4a',
-            'titleAudio' => 'assets/audio/phonics_audio-2/sw_Sc/scah.m4a',
+            'questionAudio' => 'assets/audio/phonics_audio-2/sw_sc/spot-scah.m4a',
+            'titleAudio' => 'assets/audio/phonics_audio-2/sw_sc/scah.m4a',
             'ratPosition' => 'bottom-[15%] left-[45%]',
             'ratAnswerPos' => 'top-[35%] right-[12%]',
             'ratImage' => 'rat.png',
