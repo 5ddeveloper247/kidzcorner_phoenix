@@ -14,28 +14,29 @@
             width: 14vw;
         }
     </style>
+    
 @endpush
 
 @section('content')
 
     <div>
-        <h2 class="stroke text-[3vw] text-[#f7b94a] ">CL & SL</h2>
+        <h2 class="stroke text-[3vw] text-[#f7b94a] ">SH & CH</h2>
         {{-- Navigations to Inner folders  --}}
         <div id="slide-board" class="grid grid-cols-2 gap-[2vw] mb-[2vw]  text-center justify-content-center">
 
-            <a href="{{ url('/phonics_l2/cl_sl/clsl/spot') }}">
+            <a href="{{ url('/phonics_l2/sh_ch/shch/spot') }}">
                 <img src="{{ asset('assets/images/phonics_l2/global/b9.png') }}" class="mx-auto d-block" />
             </a>
 
-            <a href="{{ url('/phonics_l2/cl_sl/clsl/begins') }}">
+            <a href="{{ url('/phonics_l2/sh_ch/shch/begins') }}">
                 <img src="{{ asset('assets/images/phonics_l2/global/b10.png') }}" class="mx-auto d-block" />
             </a>
 
-            <a href="{{ url('/phonics_l2/cl_sl/clsl/fun') }}">
+            <a href="{{ url('/phonics_l2/sh_ch/shch/fun') }}">
                 <img src="{{ asset('assets/images/phonics_l2/global/b11.png') }}" class="mx-auto d-block" />
             </a>
 
-            <a href="{{ url('/phonics_l2/cl_sl/clsl/storytime') }}">
+            <a href="{{ url('/phonics_l2/sh_ch/shch/storytime') }}">
                 <img src="{{ asset('assets/images/phonics_l2/global/b2.png') }}" class="mx-auto d-block" />
             </a>
 
@@ -46,7 +47,7 @@
 
     <div id="buttons" class="absolute flex flex-row gap-6 z-90">
 
-        <a href="{{ url ('/phonics_l2/cl_sl') }}" id="returnButton">
+        <a href="{{ url ('/phonics_l2/sh_ch') }}" id="returnButton">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/return-btn.png') }}" />
         </a>
 
