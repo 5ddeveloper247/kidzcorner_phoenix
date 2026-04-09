@@ -4,86 +4,86 @@
 @php
     $showBackground = true;
 
-    $returnURL = '/phonics_l2/th_wh/thwh';
-    $doneURL = '/phonics_l2/th_wh/thwh';
+    $returnURL = '/phonics_l2/sh_th/shth';
+    $doneURL = '/phonics_l2/sh_th/shth';
 
-    $introPanelTip = "Tips: Encourage children to say the 'pl' sound. <br>
+    $introPanelTip = "Tips: Encourage children to say the 'th' sound. <br>
         Remind them to listen to the initial sound when naming each object.";
 
     $questions = [
         // ── Question 1 ──────────────────────────────────────────
         [
-            'image' => 'assets/images/phonics_l2/thwh/fun1.png',
+            'image' => 'assets/images/phonics_l2/shth/fun1.png',
             'imageSize' => 'h-[13vw]',
-            'audio' => 'assets/audio/phonics_audio-2/th_wh/fb-thwh1.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/sh_th/fb-shth1.m4a',
             'sentence' => [
-                ['type' => 'text', 'text' => 'I see'],
+                ['type' => 'text', 'text' => 'The childern'],
                 ['type' => 'blank'],
-                ['type' => 'text', 'text' => 'the '],
+                ['type' => 'text', 'text' => 'their '],
                 ['type' => 'blank'],
-                ['type' => 'text', 'text' => 'in the sea.'],
+                ['type' => 'text', 'text' => 'in the morning.'],
             ],
             'tip' => "Tips: Look at the picture, then read the sentence. <br>
                 Encourage children to sound out the words in parts when in doubt (click on audio if needed).",
             'words' => [
-                ['word' => 'three', 'answer' => true],
-                ['word' => 'thirty', 'answer' => false],
-                ['word' => 'wheat', 'answer' => false],
-                ['word' => 'whales', 'answer' => true],
+                ['word' => 'brush', 'answer' => true],
+                ['word' => 'teeth', 'answer' => true],
+                ['word' => 'tooth', 'answer' => false],
+                ['word' => 'push', 'answer' => false],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/th_wh/three.m4a',
-                'assets/audio/phonics_audio-2/th_wh/whales.m4a',
+                'assets/audio/phonics_audio-2/sh_th/brush.m4a',
+                'assets/audio/phonics_audio-2/sh_th/teeth.m4a',
             ],
         ],
 
         // ── Question 2 ──────────────────────────────────────────
         [
-            'image' => 'assets/images/phonics_l2/thwh/fun2.png',
+            'image' => 'assets/images/phonics_l2/shth/fun2.png',
             'imageSize' => 'h-[16vw]',
-            'audio' => 'assets/audio/phonics_audio-2/th_wh/fb-thwh2.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/sh_th/fb-shth2.m4a',
             'sentence' => [
-                ['type' => 'text', 'text' => 'Is that'],
+                ['type' => 'text', 'text' => 'The cat and the'],
                 ['type' => 'blank'],
-                ['type' => 'text', 'text' => 'on the cats '],
+                ['type' => 'text', 'text' => 'are taking a '],
                 ['type' => 'blank'],
                 ['type' => 'text', 'text' => '?'],
             ],
             'tip' => null,
             'words' => [
-                ['word' => 'throw', 'answer' => false],
-                ['word' => 'thread', 'answer' => true],
-                ['word' => 'whiskers', 'answer' => true],
-                ['word' => 'whispers', 'answer' => false],
+                ['word' => 'flush', 'answer' => false],
+                ['word' => 'fish', 'answer' => true],
+                ['word' => 'bath', 'answer' => true],
+                ['word' => 'path', 'answer' => false],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/th_wh/thread.m4a',
-                'assets/audio/phonics_audio-2/th_wh/whiskers.m4a',
+                'assets/audio/phonics_audio-2/sh_th/fish.m4a',
+                'assets/audio/phonics_audio-2/sh_th/bath.m4a',
             ],
         ],
 
         // ── Question 3 ──────────────────────────────────────────
         [
-            'image' => 'assets/images/phonics_l2/thwh/fun3.png',
+            'image' => 'assets/images/phonics_l2/shth/fun3.png',
             'imageSize' => 'h-[15vw]',
-            'audio' => 'assets/audio/phonics_audio-2/th_wh/fb-thwh3.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/sh_th/fb-shth3.m4a',
             'sentence' => [
                 ['type' => 'text', 'text' => 'The '],
                 ['type' => 'blank'],
-                ['type' => 'text', 'text' => 'sits on the big wheel'],
+                ['type' => 'text', 'text' => 'flew around the dirty'],
                 ['type' => 'blank'],
                 ['type' => 'text', 'text' => '.'],
             ],
             'tip' => null,
             'words' => [
-                ['word' => 'thief', 'answer' => true],
-                ['word' => 'whip', 'answer' => false],
-                ['word' => 'wheel', 'answer' => true],
-                ['word' => 'thin', 'answer' => false],
+                ['word' => 'moth', 'answer' => true],
+                ['word' => 'cloth', 'answer' => false],
+                ['word' => 'dish', 'answer' => true],
+                ['word' => 'bush', 'answer' => false],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/th_wh/thief.m4a',
-                'assets/audio/phonics_audio-2/th_wh/wheel.m4a',
+                'assets/audio/phonics_audio-2/sh_th/moth.m4a',
+                'assets/audio/phonics_audio-2/sh_th/dish.m4a',
             ],
         ],
     ];

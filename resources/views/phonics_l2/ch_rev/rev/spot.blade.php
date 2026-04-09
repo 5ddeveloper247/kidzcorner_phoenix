@@ -4,8 +4,8 @@
 @php
     $showBackground = true;
 
-    $targetSound = 'sl';
-    $targetSoundAudio = asset('assets/audio/phonics_audio-2/th_wh/thah.m4a');
+    $targetSound = 'th';
+    $targetSoundAudio = asset('assets/audio/phonics_audio-2/sh_th/shah.m4a');
 
     $slidesData = [
         // Slide 1: Introduction
@@ -19,11 +19,11 @@
         // Slide 2: Question with options
         [
             'type' => 'question',
-            'audio' => asset('assets/audio/phonics_audio-2/th_wh/spot-thah.m4a'),
+            'audio' => asset('assets/audio/phonics_audio-2/ch_rev/spot-chah.m4a'),
             'frogPosition' => 'top',
             'rowPosition' => '35%',
             'options' => [
-                ['text' => 'th', 'audio' => asset('assets/audio/phonics_audio-2/th_wh/thah.m4a'), 'isAnswer' => true],
+                ['text' => 'ch', 'audio' => asset('assets/audio/phonics_audio-2/ch_rev/chah.m4a'), 'isAnswer' => true],
                 ['text' => 'st', 'audio' => asset('assets/audio/phonics_audio-2/sp_st/stah.m4a'), 'isAnswer' => false],
                 ['text' => 'sp', 'audio' => asset('assets/audio/phonics_audio-2/sp_st/spah.m4a'), 'isAnswer' => false],
                 ['text' => 'sl', 'audio' => asset('assets/audio/phonics_audio-2/cl_sl/slah.m4a'), 'isAnswer' => false],
@@ -36,13 +36,13 @@
             'frogPosition' => 'on-pad',
             'frogPadIndex' => 0,
             'rowPosition' => '35%',
-            'options' => [['text' => 'th'], ['text' => 'st'], ['text' => 'sp'], ['text' => 'sl']],
+            'options' => [['text' => 'ch'], ['text' => 'st'], ['text' => 'sp'], ['text' => 'sl']],
         ],
 
         // Slide 4: Question
         [
             'type' => 'question',
-            'audio' => asset('assets/audio/phonics_audio-2/th_wh/spot-whah.m4a'),
+            'audio' => asset('assets/audio/phonics_audio-2/sh_th/spot-thah.m4a'),
             'frogPosition' => 'top',
             'rowPosition' => '35%',
             'layout' => 'with-bottom    ',
@@ -54,7 +54,7 @@
                     'position' => 'bottom',
                 ],
                 ['text' => 'cl', 'audio' => asset('assets/audio/phonics_audio-2/cl_sl/clah.m4a'), 'isAnswer' => false],
-                ['text' => 'wh', 'audio' => asset('assets/audio/phonics_audio-2/th_wh/whah.m4a'), 'isAnswer' => true],
+                ['text' => 'th', 'audio' => asset('assets/audio/phonics_audio-2/sh_th/thah.m4a'), 'isAnswer' => true],
                 ['text' => 'sl', 'audio' => asset('assets/audio/phonics_audio-2/cl_sl/slah.m4a'), 'isAnswer' => false],
             ],
         ],
@@ -65,19 +65,19 @@
             'frogPosition' => 'on-pad',
             'frogPadIndex' => 2,
             'rowPosition' => '45%',
-            'options' => [['text' => 'sw'], ['text' => 'cl'], ['text' => 'wh'], ['text' => 'sl']],
+            'options' => [['text' => 'sw'], ['text' => 'cl'], ['text' => 'th'], ['text' => 'sl']],
         ],
 
         // Slide 6: Question
         [
             'type' => 'question',
-            'audio' => asset('assets/audio/phonics_audio-2/th_wh/spot-thah.m4a'),
+            'audio' => asset('assets/audio/phonics_audio-2/ch_rev/spot-shah.m4a'),
             'frogPosition' => 'top',
             'rowPosition' => '45%',
             'layout' => 'with-bottom',
             'options' => [
                 ['text' => 'sn', 'audio' => asset('assets/audio/phonics_audio-2/sk_sn/snah.m4a'), 'isAnswer' => false],
-                ['text' => 'th', 'audio' => asset('assets/audio/phonics_audio-2/th_wh/thah.m4a'), 'isAnswer' => true],
+                ['text' => 'sh', 'audio' => asset('assets/audio/phonics_audio-2/sh_th/shah.m4a'), 'isAnswer' => true],
                 [
                     'text' => 'sm',
                     'audio' => asset('assets/audio/phonics_audio-2/sm_rev/smah.m4a'),
@@ -94,7 +94,7 @@
             'frogPosition' => 'on-pad',
             'frogPadIndex' => 1,
             'rowPosition' => '55%',
-            'options' => [['text' => 'sn'], ['text' => 'th'], ['text' => 'sm'], ['text' => 'ch']],
+            'options' => [['text' => 'sn'], ['text' => 'sh'], ['text' => 'sm'], ['text' => 'ch']],
         ],
 
         // Slide 8: Question
@@ -129,7 +129,7 @@
         // Slide 10: Question
         [
             'type' => 'question',
-            'audio' => asset('assets/audio/phonics_audio-2/th_wh/spot-thah.m4a'),
+            'audio' => asset('assets/audio/phonics_audio-2/sh_th/spot-shah.m4a'),
             'frogPosition' => 'top',
             'rowPosition' => '70%',
             'layout' => 'with-bottom',
@@ -140,7 +140,7 @@
                     'isAnswer' => false,
                     'position' => 'bottom',
                 ],
-                ['text' => 'th', 'audio' => asset('assets/audio/phonics_audio-2/th_wh/thah.m4a'), 'isAnswer' => true],
+                ['text' => 'sh', 'audio' => asset('assets/audio/phonics_audio-2/sh_th/shah.m4a'), 'isAnswer' => true],
                 ['text' => 'sl', 'audio' => asset('assets/audio/phonics_audio-2/cl_sl/slah.m4a'), 'isAnswer' => false],
                 ['text' => 'tr', 'audio' => asset('assets/audio/phonics_audio-2/sp_st/stah.m4a'), 'isAnswer' => false],
             ],
@@ -152,19 +152,19 @@
             'frogPosition' => 'on-pad',
             'frogPadIndex' => 1,
             'rowPosition' => '74%',
-            'options' => [['text' => 'st'], ['text' => 'th'], ['text' => 'sl'], ['text' => 'tr']],
+            'options' => [['text' => 'st'], ['text' => 'sh'], ['text' => 'sl'], ['text' => 'tr']],
         ],
 
         // Slide 12: Wood pads question
         [
             'type' => 'question-wood',
-            'audio' => asset('assets/audio/phonics_audio-2/th_wh/spot-whah.m4a'),
+            'audio' => asset('assets/audio/phonics_audio-2/ch_rev/spot-chah.m4a'),
             'frogPosition' => 'single-top',
-            'frogPadText' => 'wh',
+            'frogPadText' => 'sh',
             'options' => [
                 ['text' => 'st', 'audio' => asset('assets/audio/phonics_audio-2/sp_st/stah.m4a'), 'isAnswer' => false],
                 ['text' => 'sl', 'audio' => asset('assets/audio/phonics_audio-2/cl_sl/slah.m4a'), 'isAnswer' => false],
-                ['text' => 'wh', 'audio' => asset('assets/audio/phonics_audio-2/th_wh/whah.m4a'), 'isAnswer' => true],
+                ['text' => 'ch', 'audio' => asset('assets/audio/phonics_audio-2/ch_rev/chah.m4a'), 'isAnswer' => true],
                 ['text' => 'tr', 'audio' => asset('assets/audio/phonics_audio-2/tr_rev/trah.m4a'), 'isAnswer' => false],
             ],
         ],
@@ -172,8 +172,7 @@
         // Slide 13: Final answer wood
         [
             'type' => 'answer-wood',
-            'frogPadText' => 'wh',
-            // 'title' => 'Help the mouse get home. <br> Find the blend',
+            'frogPadText' => 'ch',
         ],
     ];
 
@@ -442,8 +441,8 @@
             const homeButton = document.getElementById("homeButton");
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
-            const returnURL = "{{ url('/phonics_l2/th_wh/thwh') }}";
-            const doneURL = "{{ url('/phonics_l2/th_wh/thwh') }}";
+            const returnURL = "{{ url('/phonics_l2/ch_rev/rev') }}";
+            const doneURL = "{{ url('/phonics_l2/ch_rev/rev') }}";
             const homeURL = document.body.dataset.homeRoute;
             const CHEERING = "{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}";
 

@@ -4,86 +4,86 @@
 @php
     $showBackground = true;
 
-    $returnURL = '/phonics_l2/th_wh/thwh';
-    $doneURL = '/phonics_l2/th_wh/thwh';
+    $returnURL = '/phonics_l2/ch_rev/rev';
+    $doneURL = '/phonics_l2/ch_rev/rev';
 
-    $introPanelTip = "Tips: Encourage children to say the 'pl' sound. <br>
+    $introPanelTip = "Tips: Encourage children to say the 'th' sound. <br>
         Remind them to listen to the initial sound when naming each object.";
 
     $questions = [
         // ── Question 1 ──────────────────────────────────────────
         [
-            'image' => 'assets/images/phonics_l2/thwh/fun1.png',
+            'image' => 'assets/images/phonics_l2/chrev/fun1.png',
             'imageSize' => 'h-[13vw]',
-            'audio' => 'assets/audio/phonics_audio-2/th_wh/fb-thwh1.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ch_rev/fb-chrev1.m4a',
             'sentence' => [
-                ['type' => 'text', 'text' => 'I see'],
+                ['type' => 'text', 'text' => 'She'],
                 ['type' => 'blank'],
-                ['type' => 'text', 'text' => 'the '],
+                ['type' => 'text', 'text' => 'while putting on her '],
                 ['type' => 'blank'],
-                ['type' => 'text', 'text' => 'in the sea.'],
+                ['type' => 'text', 'text' => '.'],
             ],
             'tip' => "Tips: Look at the picture, then read the sentence. <br>
                 Encourage children to sound out the words in parts when in doubt (click on audio if needed).",
             'words' => [
-                ['word' => 'three', 'answer' => true],
-                ['word' => 'thirty', 'answer' => false],
-                ['word' => 'wheat', 'answer' => false],
-                ['word' => 'whales', 'answer' => true],
+                ['word' => 'whistles', 'answer' => true],
+                ['word' => 'shirts', 'answer' => false],
+                ['word' => 'whiskers', 'answer' => false],
+                ['word' => 'shoes',  'answer' => true],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/th_wh/three.m4a',
-                'assets/audio/phonics_audio-2/th_wh/whales.m4a',
+                'assets/audio/phonics_audio-2/th_wh/whistles.m4a',
+                'assets/audio/phonics_audio-2/sh_ch/shoes.m4a',
             ],
         ],
 
         // ── Question 2 ──────────────────────────────────────────
         [
-            'image' => 'assets/images/phonics_l2/thwh/fun2.png',
+            'image' => 'assets/images/phonics_l2/chrev/fun2.png',
             'imageSize' => 'h-[16vw]',
-            'audio' => 'assets/audio/phonics_audio-2/th_wh/fb-thwh2.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ch_rev/fb-chrev2.m4a',
             'sentence' => [
-                ['type' => 'text', 'text' => 'Is that'],
+                ['type' => 'text', 'text' => 'The baby sucks his'],
                 ['type' => 'blank'],
-                ['type' => 'text', 'text' => 'on the cats '],
-                ['type' => 'blank'],
-                ['type' => 'text', 'text' => '?'],
-            ],
-            'tip' => null,
-            'words' => [
-                ['word' => 'throw', 'answer' => false],
-                ['word' => 'thread', 'answer' => true],
-                ['word' => 'whiskers', 'answer' => true],
-                ['word' => 'whispers', 'answer' => false],
-            ],
-            'answerAudios' => [
-                'assets/audio/phonics_audio-2/th_wh/thread.m4a',
-                'assets/audio/phonics_audio-2/th_wh/whiskers.m4a',
-            ],
-        ],
-
-        // ── Question 3 ──────────────────────────────────────────
-        [
-            'image' => 'assets/images/phonics_l2/thwh/fun3.png',
-            'imageSize' => 'h-[15vw]',
-            'audio' => 'assets/audio/phonics_audio-2/th_wh/fb-thwh3.m4a',
-            'sentence' => [
-                ['type' => 'text', 'text' => 'The '],
-                ['type' => 'blank'],
-                ['type' => 'text', 'text' => 'sits on the big wheel'],
+                ['type' => 'text', 'text' => 'in his'],
                 ['type' => 'blank'],
                 ['type' => 'text', 'text' => '.'],
             ],
             'tip' => null,
             'words' => [
-                ['word' => 'thief', 'answer' => true],
-                ['word' => 'whip', 'answer' => false],
-                ['word' => 'wheel', 'answer' => true],
-                ['word' => 'thin', 'answer' => false],
+                ['word' => 'thread', 'answer' => false],
+                ['word' => 'thumb', 'answer' => true],
+                ['word' => 'mouth', 'answer' => true],
+                ['word' => 'cloth', 'answer' => false],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/th_wh/thief.m4a',
-                'assets/audio/phonics_audio-2/th_wh/wheel.m4a',
+                'assets/audio/phonics_audio-2/th_wh/thumb.m4a',
+                'assets/audio/phonics_audio-2/sh_th/mouth.m4a',
+            ],
+        ],
+
+        // ── Question 3 ──────────────────────────────────────────
+        [
+            'image' => 'assets/images/phonics_l2/chrev/fun3.png',
+            'imageSize' => 'h-[15vw]',
+            'audio' => 'assets/audio/phonics_audio-2/ch_rev/fb-chrev3.m4a',
+            'sentence' => [
+                ['type' => 'text', 'text' => 'The scouts hide the'],
+                ['type' => 'blank'],
+                ['type' => 'text', 'text' => 'behind the'],
+                ['type' => 'blank'],
+                ['type' => 'text', 'text' => '.'],
+            ],
+            'tip' => null,
+            'words' => [
+                ['word' => 'bench', 'answer' => true],
+                ['word' => 'catch', 'answer' => false],
+                ['word' => 'bush', 'answer' => true],
+                ['word' => 'brush', 'answer' => false],
+            ],
+            'answerAudios' => [
+                'assets/audio/phonics_audio-2/ch_rev/bench.m4a',
+                'assets/audio/phonics_audio-2/sh_th/bush.m4a',
             ],
         ],
     ];

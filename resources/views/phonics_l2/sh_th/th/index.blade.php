@@ -14,30 +14,29 @@
             width: 14vw;
         }
     </style>
-    
 @endpush
 
 @section('content')
 
     <div>
-        <h2 class="stroke text-[3vw] text-[#f7b94a] ">TH & WH</h2>
+        <h2 class="stroke text-[3vw] text-[#f7b94a] ">TH</h2>
         {{-- Navigations to Inner folders  --}}
         <div id="slide-board" class="grid grid-cols-2 gap-[2vw] mb-[2vw]  text-center justify-content-center">
 
-            <a href="{{ url('/phonics_l2/th_wh/thwh/spot') }}">
-                <img src="{{ asset('assets/images/phonics_l2/global/b9.png') }}" class="mx-auto d-block" />
+            <a href="{{ url('/phonics_l2/sh_th/th/say') }}">
+                <img src="{{ asset('assets/images/phonics_l2/global/b12.png') }}" class="mx-auto d-block" />
             </a>
 
-            <a href="{{ url('/phonics_l2/th_wh/thwh/begins') }}">
-                <img src="{{ asset('assets/images/phonics_l2/global/b10.png') }}" class="mx-auto d-block" />
+            <a href="{{ url('/phonics_l2/sh_th/th/rhyme') }}">
+                <img src="{{ asset('assets/images/phonics_l2/global/b6.png') }}" class="mx-auto d-block" />
             </a>
 
-            <a href="{{ url('/phonics_l2/th_wh/thwh/fun') }}">
-                <img src="{{ asset('assets/images/phonics_l2/global/b11.png') }}" class="mx-auto d-block" />
+            <a href="{{ url('/phonics_l2/sh_th/th/match') }}">
+                <img src="{{ asset('assets/images/phonics_l2/global/b8.png') }}" class="mx-auto d-block" />
             </a>
 
-            <a href="{{ url('/phonics_l2/th_wh/thwh/storytime') }}">
-                <img src="{{ asset('assets/images/phonics_l2/global/b2.png') }}" class="mx-auto d-block" />
+            <a href="{{ url('/phonics_l2/sh_th/th/wordhunt') }}">
+                <img src="{{ asset('assets/images/phonics_l2/global/b7.png') }}" class="mx-auto d-block" />
             </a>
 
         </div>
@@ -47,7 +46,7 @@
 
     <div id="buttons" class="absolute flex flex-row gap-6 z-90">
 
-        <a href="{{ url ('/phonics_l2/th_wh') }}" id="returnButton">
+        <a href="{{ url ('/phonics_l2/sh_th') }}" id="returnButton">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/return-btn.png') }}" />
         </a>
 

@@ -51,83 +51,83 @@
 
         $storySlides = [
             [
-                'audio' => 'assets/audio/phonics_audio-2/th_wh/st1.m4a',
-                'image' => 'assets/images/phonics_l2/thwh/st1.png',
-                'text' => 'A Thick or Thin Whale?',
+                'audio' => 'assets/audio/phonics_audio-2/ch_rev/st1.m4a',
+                'image' => 'assets/images/phonics_l2/chrev/st1.png',
+                'text' => 'The Beach',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/th_wh/st2.m4a',
-                'image' => 'assets/images/phonics_l2/thwh/st2.png',
-                'text' => 'A whale made of thread',
+                'audio' => 'assets/audio/phonics_audio-2/ch_rev/st2.m4a',
+                'image' => 'assets/images/phonics_l2/chrev/st2.png',
+                'text' => 'March the Grouch was at the beach.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/th_wh/st3.m4a',
-                'image' => 'assets/images/phonics_l2/thwh/st3.png',
-                'text' => 'Isn’t tasty as a whale made of thread.',
+                'audio' => 'assets/audio/phonics_audio-2/ch_rev/st3.m4a',
+                'image' => 'assets/images/phonics_l2/chrev/st3.png',
+                'text' => 'Sitting on a cloth with her cheery fish and her shy chick.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/th_wh/st4.m4a',
-                'image' => 'assets/images/phonics_l2/thwh/st4.png',
-                'text' => 'Whistle while you add in the wheat,',
+                'audio' => 'assets/audio/phonics_audio-2/ch_rev/st4.m4a',
+                'image' => 'assets/images/phonics_l2/chrev/st4.png',
+                'text' => 'Sharing with them thirty-three cherries and a peach.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/th_wh/st5.m4a',
-                'image' => 'assets/images/phonics_l2/thwh/st5.png',
-                'text' => 'Stir with your thumb, it’s quite a treat.',
+                'audio' => 'assets/audio/phonics_audio-2/ch_rev/st5.m4a',
+                'image' => 'assets/images/phonics_l2/chrev/st5.png',
+                'text' => 'From behind the bush, Shelly Sheep come with a leap!',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/th_wh/st6.m4a',
-                'image' => 'assets/images/phonics_l2/thwh/st6.png',
-                'text' => 'You can make them thick or thin.',
+                'audio' => 'assets/audio/phonics_audio-2/ch_rev/st6.m4a',
+                'image' => 'assets/images/phonics_l2/chrev/st6.png',
+                'text' => 'Scaring the fish who couldn’t help but weep.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/th_wh/st7.m4a',
-                'image' => 'assets/images/phonics_l2/thwh/st7.png',
-                'text' => 'And make them with whiskers and fins.',
+                'audio' => 'assets/audio/phonics_audio-2/ch_rev/st7.m4a',
+                'image' => 'assets/images/phonics_l2/chrev/st7.png',
+                'text' => 'Frightening the chick which made her turn white.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/th_wh/st8.m4a',
-                'image' => 'assets/images/phonics_l2/thwh/st8.png',
-                'text' => 'Then sit on three white wheels while they bake.',
-            ],
-            [
-                'audio' => 'assets/audio/phonics_audio-2/th_wh/st9.m4a',
-                'image' => 'assets/images/phonics_l2/thwh/st9.png',
-                'text' => 'And think of what you want to make next!',
-            ],
+                'audio' => 'assets/audio/phonics_audio-2/ch_rev/st8.m4a',
+                'image' => 'assets/images/phonics_l2/chrev/st8.png',
+                'text' => 'And the cheeky sheep got scolding from March throughout the night',
+            ]
         ];
 
         $storyQuestions = [
             [
-                'audio' => 'assets/audio/phonics_audio-2/th_wh/stq1.m4a',
-                'question' => "What is the first\nwhale made\nof?",
+                'audio' => 'assets/audio/phonics_audio-2/ch_rev/stq1.m4a',
+                'question' => "Where was the\nmarch the\nGrouch?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/th_wh/stq2.m4a',
-                'question' => "Which kind\nof whale tastes\nbetter?",
+                'audio' => 'assets/audio/phonics_audio-2/ch_rev/stq2.m4a',
+                'question' => "Who were\nwith her?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/th_wh/stq3.m4a',
-                'question' => "What should you do\nwhen you add\nin the wheat?",
+                'audio' => 'assets/audio/phonics_audio-2/ch_rev/stq3.m4a',
+                'question' => "What are \nthey sharing?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/th_wh/stq4.m4a',
-                'question' => "What did he\nstir it\nwith?",
+                'audio' => 'assets/audio/phonics_audio-2/ch_rev/stq4.m4a',
+                'question' => "What did the shelly\nsheep leap from\nbehind the bush?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/th_wh/stq5.m4a',
-                'question' => "How else can you\ndecorate\nthe whales?",
+                'audio' => 'assets/audio/phonics_audio-2/ch_rev/stq5.m4a',
+                'question' => "What happened\nto the fish and \nthe chick?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/th_wh/stq6.m4a',
-                'question' => "What would you\nbake if you\nhad a choice?",
+                'audio' => 'assets/audio/phonics_audio-2/ch_rev/stq6.m4a',
+                'question' => "What happened\nto the Shelly Sheep\n at the end?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
+            [
+                'audio' => 'assets/audio/phonics_audio-2/ch_rev/stq7.m4a',
+                'question' => "What would you\ntell Shelly Sheep\nif you were March\nthe Grouch?",
+                'tip' => 'Tip: Elicit response from children.',
+            ]
         ];
 
     @endphp
@@ -154,7 +154,7 @@
     @foreach ($storySlides as $slide)
         <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
             data-slide-audio="{{ asset($slide['audio']) }}">
-            <h2 class="title-top stroke">{{ $storySlides[0]['text'] === $slide['text'] ? 'A Thick or Thin Whale?' : '' }}
+            <h2 class="title-top stroke">{{ $storySlides[0]['text'] === $slide['text'] ? 'The Beach' : '' }}
             </h2>
             <img src="{{ asset($slide['image']) }}" class="{{ $loop->first ? 'h-[20vw]' : 'h-[20vw]' }}" />
             @if (!$loop->first)
@@ -201,27 +201,27 @@
     </div>
 
     {{-- Panel 14 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/th_wh/st2.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ch_rev/st2.m4a') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/thwh/st5.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/chrev/st4.png') }}" class="w-[7vw]" />
             </div>
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/thwh/st4.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/chrev/st5.png') }}" class="w-[7vw]" />
             </div>
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/thwh/st3.png') }}" class="w-[7vw] answer" />
+                <img src="{{ asset('assets/images/phonics_l2/chrev/st3.png') }}" class="w-[7vw] answer" />
             </div>
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/thwh/st2.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/chrev/st2.png') }}" class="w-[7vw]" />
             </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question bg-[#f7b94a]! text-[#A15E0D]!">A whale made of thread</div>
-            <div class="question">Isn’t tasty as a whale made of bread.</div>
-            <div class="question">Whistle while you add in the wheat.</div>
-            <div class="question">Stir with your thumb, it’s quite a treat!</div>
+            <div class="question bg-[#f7b94a]! text-[#A15E0D]!">March the Grouch was at the beach,</div>
+            <div class="question">Sitting on a cloth with her cheesy fish and her shy chick</div>
+            <div class="question">Sharing with them thirty-three cherries and a peach</div>
+            <div class="question">From behind the bush, Shelly Sheep came with a leap!</div>
         </div>
     </div>
 
@@ -233,50 +233,50 @@
                 <span class="absolute top-0 left-0 pl-4 text-white">1</span>
                 <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}"
                     class="h-[1.5vw] absolute right-0 top-0 pr-3" />
-                <img src="{{ asset('assets/images/phonics_l2/thwh/st3.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/chrev/st2.png') }}" class="w-[7vw]" />
             </div>
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/thwh/st5.png') }}" class="w-[7vw]" />
-            </div>
-
-            <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/thwh/st4.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/chrev/st4.png') }}" class="w-[7vw]" />
             </div>
 
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/thwh/st2.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/chrev/st5.png') }}" class="w-[7vw]" />
+            </div>
+
+            <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
+                <img src="{{ asset('assets/images/phonics_l2/chrev/st3.png') }}" class="w-[7vw]" />
             </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question done"><span class="absolute left-0 pl-5">1</span> A whale made of thread</div>
-            <div class="question">Isn’t tasty as a whale made of bread.</div>
-            <div class="question">Whistle while you add in the wheat.</div>
-            <div class="question">Stir with your thumb, it’s quite a treat!</div>
+            <div class="question done"><span class="absolute left-0 pl-5">1</span> March the Grouch was at the beach,</div>
+            <div class="question">Sitting on a cloth with her cheesy fish and her shy chick</div>
+            <div class="question">Sharing with them thirty-three cherries and a peach</div>
+            <div class="question">From behind the bush, Shelly Sheep came with a leap!</div>
         </div>
     </div>
 
     {{-- Panel 16 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/th_wh/st3.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ch_rev/st3.m4a') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/thwh/st5.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/chrev/st4.png') }}" class="w-[7vw]" />
             </div>
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/thwh/st4.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/chrev/st5.png') }}" class="w-[7vw]" />
             </div>
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/thwh/st3.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/chrev/st3.png') }}" class="w-[7vw]" />
             </div>
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/thwh/st2.png') }}" class="w-[7vw] answer" />
+                <img src="{{ asset('assets/images/phonics_l2/chrev/st2.png') }}" class="w-[7vw] answer" />
             </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question">A whale made of thread</div>
-            <div class="question bg-[#f7b94a]! text-[#A15E0D]!">Isn’t tasty as a whale made of bread.</div>
-            <div class="question">Whistle while you add in the wheat.</div>
-            <div class="question">Stir with your thumb, it’s quite a treat!</div>
+            <div class="question">March the Grouch was at the beach,</div>
+            <div class="question bg-[#f7b94a]! text-[#A15E0D]!">Sitting on a cloth with her cheesy fish and her shy chick</div>
+            <div class="question">Sharing with them thirty-three cherries and a peach</div>
+            <div class="question">From behind the bush, Shelly Sheep came with a leap!</div>
         </div>
     </div>
 
@@ -289,52 +289,52 @@
                 <span class="absolute top-0 left-0 pl-4 text-white">1</span>
                 <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}"
                     class="h-[1.5vw] absolute right-0 top-0 pr-3" />
-                <img src="{{ asset('assets/images/phonics_l2/thwh/st3.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/chrev/st2.png') }}" class="w-[7vw]" />
             </div>
             <div class="p-[1vw] rounded-xl border-2 border-[#f7b94a] relative w-fit box h-[10vw]">
                 <span class="absolute top-0 left-0 pl-4 text-white">2</span>
                 <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}"
                     class="h-[1.5vw] absolute right-0 top-0 pr-3" />
-                <img src="{{ asset('assets/images/phonics_l2/thwh/st2.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/chrev/st3.png') }}" class="w-[7vw]" />
             </div>
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/thwh/st5.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/chrev/st4.png') }}" class="w-[7vw]" />
             </div>
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/thwh/st4.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/chrev/st5.png') }}" class="w-[7vw]" />
             </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question done"><span class="absolute left-0 pl-5">1</span> A whale made of thread</div>
-            <div class="question done"><span class="absolute left-0 pl-5">2</span> Isn’t tasty as a whale made of bread.
+            <div class="question done"><span class="absolute left-0 pl-5">1</span> March the Grouch was at the beach,</div>
+            <div class="question done"><span class="absolute left-0 pl-5">2</span> Sitting on a cloth with her cheesy fish and her shy chick
             </div>
-            <div class="question">Whistle while you add in the wheat.</div>
-            <div class="question">Stir with your thumb, it’s quite a treat!</div>
+            <div class="question">Sharing with them thirty-three cherries and a peach</div>
+            <div class="question">From behind the bush, Shelly Sheep came with a leap!</div>
         </div>
     </div>
 
     {{-- Panel 18 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/th_wh/st4.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ch_rev/st4.m4a') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/thwh/st5.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/chrev/st4.png') }}" class="w-[7vw]" />
             </div>
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/thwh/st4.png') }}" class="w-[7vw] answer" />
+                <img src="{{ asset('assets/images/phonics_l2/chrev/st5.png') }}" class="w-[7vw] answer" />
             </div>
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/thwh/st3.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/chrev/st3.png') }}" class="w-[7vw]" />
             </div>
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/thwh/st2.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/chrev/st2.png') }}" class="w-[7vw]" />
             </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question">A whale made of thread</div>
-            <div class="question">Isn’t tasty as a whale made of bread.</div>
-            <div class="question bg-[#f7b94a]! text-[#A15E0D]!">Whistle while you add in the wheat.</div>
-            <div class="question">Stir with your thumb, it’s quite a treat!</div>
+            <div class="question">March the Grouch was at the beach,</div>
+            <div class="question">Sitting on a cloth with her cheesy fish and her shy chick</div>
+            <div class="question bg-[#f7b94a]! text-[#A15E0D]!">Sharing with them thirty-three cherries and a peach</div>
+            <div class="question">From behind the bush, Shelly Sheep came with a leap!</div>
         </div>
     </div>
 
@@ -347,56 +347,56 @@
                 <span class="absolute top-0 left-0 pl-4 text-white">1</span>
                 <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}"
                     class="h-[1.5vw] absolute right-0 top-0 pr-3" />
-                <img src="{{ asset('assets/images/phonics_l2/thwh/st3.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/chrev/st2.png') }}" class="w-[7vw]" />
             </div>
             <div class="p-[1vw] rounded-xl border-2 border-[#f7b94a] relative w-fit box h-[10vw]">
                 <span class="absolute top-0 left-0 pl-4 text-white">2</span>
                 <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}"
                     class="h-[1.5vw] absolute right-0 top-0 pr-3" />
-                <img src="{{ asset('assets/images/phonics_l2/thwh/st2.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/chrev/st3.png') }}" class="w-[7vw]" />
             </div>
             <div class="p-[1vw] rounded-xl border-2 border-[#f7b94a] relative w-fit box h-[10vw]">
                 <span class="absolute top-0 left-0 pl-4 text-white">3</span>
                 <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}"
                     class="h-[1.5vw] absolute right-0 top-0 pr-3" />
-                <img src="{{ asset('assets/images/phonics_l2/thwh/st4.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/chrev/st4.png') }}" class="w-[7vw]" />
             </div>
             <div class="p-[1vw] rounded-xl border-2 border-[#f7b94a]">
-                <img src="{{ asset('assets/images/phonics_l2/thwh/st5.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/chrev/st5.png') }}" class="w-[7vw]" />
             </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question done"><span class="absolute left-0 pl-5">1</span> A whale made of thread</div>
-            <div class="question done"><span class="absolute left-0 pl-5">2</span> Isn’t tasty as a whale made of bread.
+            <div class="question done"><span class="absolute left-0 pl-5">1</span> March the Grouch was at the beach,</div>
+            <div class="question done"><span class="absolute left-0 pl-5">2</span> Sitting on a cloth with her cheesy fish and her shy chick
             </div>
-            <div class="question done"><span class="absolute left-0 pl-5">3</span> Whistle while you add in the wheat.
+            <div class="question done"><span class="absolute left-0 pl-5">3</span> Sharing with them thirty-three cherries and a peach
             </div>
-            <div class="question">Stir with your thumb, it’s quite a treat!</div>
+            <div class="question">From behind the bush, Shelly Sheep came with a leap!</div>
         </div>
     </div>
 
     {{-- Panel 20 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/th_wh/st5.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ch_rev/st5.m4a') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/thwh/st5.png') }}" class="w-[7vw] answer" />
+                <img src="{{ asset('assets/images/phonics_l2/chrev/st4.png') }}" class="w-[7vw] answer" />
             </div>
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/thwh/st4.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/chrev/st5.png') }}" class="w-[7vw]" />
             </div>
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/thwh/st3.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/chrev/st3.png') }}" class="w-[7vw]" />
             </div>
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/thwh/st2.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/chrev/st2.png') }}" class="w-[7vw]" />
             </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question">A whale made of thread</div>
-            <div class="question">Isn’t tasty as a whale made of bread.</div>
-            <div class="question">Whistle while you add in the wheat.</div>
-            <div class="question bg-[#f7b94a]! text-[#A15E0D]!">Stir with your thumb, it’s quite a treat!</div>
+            <div class="question">March the Grouch was at the beach,</div>
+            <div class="question">Sitting on a cloth with her cheesy fish and her shy chick</div>
+            <div class="question">Sharing with them thirty-three cherries and a peach</div>
+            <div class="question bg-[#f7b94a]! text-[#A15E0D]!">From behind the bush, Shelly Sheep came with a leap!</div>
         </div>
     </div>
 
@@ -409,32 +409,32 @@
                 <span class="absolute top-0 left-0 pl-4 text-white">1</span>
                 <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}"
                     class="h-[1.5vw] absolute right-0 top-0 pr-3" />
-                <img src="{{ asset('assets/images/phonics_l2/thwh/st3.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/chrev/st2.png') }}" class="w-[7vw]" />
             </div>
             <div class="p-[1vw] rounded-xl border-2 border-[#f7b94a] relative w-fit box h-[10vw]">
                 <span class="absolute top-0 left-0 pl-4 text-white">2</span>
                 <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}"
                     class="h-[1.5vw] absolute right-0 top-0 pr-3" />
-                <img src="{{ asset('assets/images/phonics_l2/thwh/st2.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/chrev/st3.png') }}" class="w-[7vw]" />
             </div>
             <div class="p-[1vw] rounded-xl border-2 border-[#f7b94a] relative w-fit box h-[10vw]">
                 <span class="absolute top-0 left-0 pl-4 text-white">3</span>
                 <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}"
                     class="h-[1.5vw] absolute right-0 top-0 pr-3" />
-                <img src="{{ asset('assets/images/phonics_l2/thwh/st4.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/chrev/st4.png') }}" class="w-[7vw]" />
             </div>
             <div class="p-[1vw] rounded-xl border-2 border-[#f7b94a] relative w-fit box h-[10vw]">
                 <span class="absolute top-0 left-0 pl-4 text-white">4</span>
                 <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}"
                     class="h-[1.5vw] absolute right-0 top-0 pr-3" />
-                <img src="{{ asset('assets/images/phonics_l2/thwh/st5.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/chrev/st5.png') }}" class="w-[7vw]" />
             </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question done"><span class="absolute left-0 pl-5">1</span> A whale made of thread</div>
-            <div class="question done"><span class="absolute left-0 pl-5">2</span> Isn’t tasty as a whale made of bread.</div>
-            <div class="question done"><span class="absolute left-0 pl-5">3</span> Whistle while you add in the wheat.</div>
-            <div class="question done"><span class="absolute left-0 pl-5">4</span> Stir with your thumb, it’s quite a treat!</div>
+            <div class="question done"><span class="absolute left-0 pl-5">1</span> March the Grouch was at the beach,</div>
+            <div class="question done"><span class="absolute left-0 pl-5">2</span> Sitting on a cloth with her cheesy fish and her shy chick</div>
+            <div class="question done"><span class="absolute left-0 pl-5">3</span> Sharing with them thirty-three cherries and a peach</div>
+            <div class="question done"><span class="absolute left-0 pl-5">4</span> From behind the bush, Shelly Sheep came with a leap!</div>
         </div>
     </div>
 
@@ -480,8 +480,8 @@
         document.addEventListener("DOMContentLoaded", function() {
 
             /* CONFIG */
-            const returnURL = "{{ url('/phonics_l2/th_wh/thwh') }}";
-            const doneURL = "{{ url('/phonics_l2/th_wh/thwh') }}";
+            const returnURL = "{{ url('/phonics_l2/ch_rev/rev') }}";
+            const doneURL = "{{ url('/phonics_l2/ch_rev/rev') }}";
 
             /* DOM */
             const slides = document.querySelectorAll(".phonics-panel");

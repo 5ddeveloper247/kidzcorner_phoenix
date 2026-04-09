@@ -7,15 +7,15 @@
     $questionGroups = [
         // slide 1
         [
-            'blend' => 'th',
-            'correctWord' => 'three',
+            'blend' => 'ch',
+            'correctWord' => 'catch',
             'questionAudio' => asset('assets/audio/phonics_audio-2/common/begins-with.m4a'),
-            'answerAudio' => asset('assets/audio/phonics_audio-2/th_wh/three.m4a'),
+            'answerAudio' => asset('assets/audio/phonics_audio-2/ch_rev/catch.m4a'),
             'options' => [
                 [
-                    'image' => asset('assets/images/phonics_l2/thwh/three.png'),
-                    'sound' => asset('assets/audio/phonics_audio-2/th_wh/three.m4a'),
-                    'wordPart' => 'ree',
+                    'image' => asset('assets/images/phonics_l2/chrev/catch.png'),
+                    'sound' => asset('assets/audio/phonics_audio-2/ch_rev/catch.m4a'),
+                    'wordPart' => 'cat',
                     'isCorrect' => true,
                 ],
                 [
@@ -34,26 +34,26 @@
         ],
         // slide 2
         [
-            'blend' => 'wh',
-            'correctWord' => 'whistle',
+            'blend' => 'th',
+            'correctWord' => 'mouth',
             'questionAudio' => asset('assets/audio/phonics_audio-2/common/begins-with.m4a'),
-            'answerAudio' => asset('assets/audio/phonics_audio-2/th_wh/whistle.m4a'),
+            'answerAudio' => asset('assets/audio/phonics_audio-2/ch_rev/mouth.m4a'),
             'options' => [
-                [
-                    'image' => asset('assets/images/phonics_l2/shch/chair.png'),
-                    'sound' => asset('assets/audio/phonics_audio-2/sh_ch/chair.m4a'),
-                    'wordPart' => 'air',
-                    'isCorrect' => false,
-                ],
                 [
                     'image' => asset('assets/images/phonics_l2/thwh/whistle.png'),
                     'sound' => asset('assets/audio/phonics_audio-2/th_wh/whistle.m4a'),
                     'wordPart' => 'istle',
+                    'isCorrect' => false,
+                ],
+                [
+                    'image' => asset('assets/images/phonics_l2/chrev/mouth.png'),
+                    'sound' => asset('assets/audio/phonics_audio-2/ch_rev/mouth.m4a'),
+                    'wordPart' => 'mou',
                     'isCorrect' => true,
                 ],
                 [
-                    'image' => asset('assets/images/phonics_l2/spst/spoon.png'),
-                    'sound' => asset('assets/audio/phonics_audio-2/sp_st/spoon.m4a'),
+                    'image' => asset('assets/images/phonics_l2/shch/fish.png'),
+                    'sound' => asset('assets/audio/phonics_audio-2/sh_ch/fish.m4a'),
                     'wordPart' => 'poon',
                     'isCorrect' => false,
                 ],
@@ -61,27 +61,27 @@
         ],
         // slide 3
         [
-            'blend' => 'th',
-            'correctWord' => 'thumb',
+            'blend' => 'ch',
+            'correctWord' => 'shirt',
             'questionAudio' => asset('assets/audio/phonics_audio-2/common/begins-with.m4a'),
-            'answerAudio' => asset('assets/audio/phonics_audio-2/th_wh/thumb.m4a'),
+            'answerAudio' => asset('assets/audio/phonics_audio-2/ch_rev/shirt.m4a'),
             'options' => [
                 [
-                    'image' => asset('assets/images/phonics_l2/spst/spider.png'),
-                    'sound' => asset('assets/audio/phonics_audio-2/sp_st/spider.m4a'),
+                    'image' => asset('assets/images/phonics_l2/thwh/hatch.png'),
+                    'sound' => asset('assets/audio/phonics_audio-2/ch_rev/hatch.m4a'),
+                    'wordPart' => 'hat',
+                    'isCorrect' => false,
+                ],
+                [
+                    'image' => asset('assets/images/phonics_l2/shch/bush.png'),
+                    'sound' => asset('assets/audio/phonics_audio-2/sh_ch/bush.m4a'),
                     'wordPart' => 'istle',
                     'isCorrect' => false,
                 ],
                 [
-                    'image' => asset('assets/images/phonics_l2/shch/chair.png'),
-                    'sound' => asset('assets/audio/phonics_audio-2/sh_ch/chair.m4a'),
+                    'image' => asset('assets/images/phonics_l2/shch/shirt.png'),
+                    'sound' => asset('assets/audio/phonics_audio-2/sh_ch/shirt.m4a'),
                     'wordPart' => 'air',
-                    'isCorrect' => false,
-                ],
-                [
-                    'image' => asset('assets/images/phonics_l2/thwh/thumb.png'),
-                    'sound' => asset('assets/audio/phonics_audio-2/th_wh/thumb.m4a'),
-                    'wordPart' => 'umb',
                     'isCorrect' => true,
                 ],
             ],
@@ -344,7 +344,6 @@
 
 @push('script')
     <script>
-        // CLEAN & SIMPLE SLIDE CONTROLLER
         (function() {
             // DOM elements
             const slides = document.querySelectorAll(".phonics-panel");
@@ -357,14 +356,14 @@
 
             // Audio & Routes
             const CHEERING_SOUND = "{{ asset('assets/audio/phonics_audio-2/common/cheering.m4a') }}";
-            const RETURN_URL = "{{ url('/phonics_l2/th_wh/thwh') }}";
-            const DONE_URL = "{{ url('/phonics_l2/th_wh/thwh') }}";
+            const RETURN_URL = "{{ url('/phonics_l2/ch_rev/rev') }}";
+            const DONE_URL = "{{ url('/phonics_l2/ch_rev/rev') }}";
             const HOME_URL = "{{ url('/phonics/l2') }}";
 
             let currentAudio = null;
             let currentSlideIdx = 0;
-            let isSpecialMode = false; // When showing info panel
-            let returnToSlide = null; // Slide to come back to after info panel
+            let isSpecialMode = false;
+            let returnToSlide = null;
 
             // Helper: stop any playing audio
             function stopAudio() {
@@ -572,8 +571,7 @@
                 });
             }
 
-            // Observe slide changes to re-attach handlers (using MutationObserver is overkill, but we can call after showSlide)
-            // Override showSlide to call refreshEventHandlers
+
             const originalShowSlide = showSlide;
             window.showSlide = function(index) {
                 originalShowSlide(index);
