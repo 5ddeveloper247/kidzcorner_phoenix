@@ -390,15 +390,15 @@
                     <img src="{{ asset('assets/images/phonics_l2/global/common/frogbg.png') }}"
                         class="h-[33vw] w-[74vw]" />
 
-                    <div class="pad absolute bottom-0 left-[70%] -translate-1/2 marked">
-                        <div class="relative w-fit h-fit">
-                            <img src="{{ asset('assets/images/phonics_l2/global/common/wood.png') }}" class="w-[7vw]">
-                            <img src="{{ asset('assets/images/phonics_l2/global/common/frog.png') }}"
-                                class="w-[4vw] absolute bottom-[40%] left-1/2 -translate-x-1/2 z-10" />
+                    {{-- <div class="pad absolute bottom-0 left-[70%] -translate-1/2 marked">
+                        <div class="relative w-fit h-fit"> --}}
+                            {{-- <img src="{{ asset('assets/images/phonics_l2/global/common/h-frog.png') }}" class="w-[15vw]"> --}}
+                            <img src="{{ asset('assets/images/phonics_l2/global/common/h-frog.png') }}"
+                                class="w-[16vw] absolute bottom-[5%] right-[20%] z-10" />
                             <span
-                                class="absolute top-[40%] left-1/2 -translate-1/2 text-white text-[2vw] z-20">{{ $slide['frogPadText'] }}</span>
-                        </div>
-                    </div>
+                                class="absolute bottom-[8%] right-[26%] text-white text-[2vw] z-20">{{ $slide['frogPadText'] }}</span>
+                        {{-- </div>
+                    </div> --}}
                 </div>
             </div>
         @endif

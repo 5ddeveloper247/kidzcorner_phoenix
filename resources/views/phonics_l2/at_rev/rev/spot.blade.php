@@ -4,8 +4,8 @@
 @php
     $showBackground = true;
 
-    $targetSound = 'ad';
-    $targetSoundAudio = asset('assets/audio/phonics_audio-2/ag_ab/apah.m4a');
+    $targetSound = 'at';
+    $targetSoundAudio = asset('assets/audio/phonics_audio-2/at_rev/atah.m4a');
 
     $slidesData = [
         // Slide 1: Introduction
@@ -19,11 +19,11 @@
         // Slide 2: Question with options
         [
             'type' => 'question',
-            'audio' => asset('assets/audio/phonics_audio-2/am_an/spot-amah.m4a'),
+            'audio' => asset('assets/audio/phonics_audio-2/at_rev/spot-atah.m4a'),
             'frogPosition' => 'top',
             'rowPosition' => '35%',
             'options' => [
-                ['text' => 'am', 'audio' => asset('assets/audio/phonics_audio-2/am_an/amah.m4a'), 'isAnswer' => true],
+                ['text' => 'at', 'audio' => asset('assets/audio/phonics_audio-2/at_rev/atah.m4a'), 'isAnswer' => true],
                 ['text' => 'st', 'audio' => asset('assets/audio/phonics_audio-2/sp_st/stah.m4a'), 'isAnswer' => false],
                 ['text' => 'sp', 'audio' => asset('assets/audio/phonics_audio-2/sp_st/spah.m4a'), 'isAnswer' => false],
                 ['text' => 'sl', 'audio' => asset('assets/audio/phonics_audio-2/cl_sl/slah.m4a'), 'isAnswer' => false],
@@ -36,13 +36,13 @@
             'frogPosition' => 'on-pad',
             'frogPadIndex' => 0,
             'rowPosition' => '35%',
-            'options' => [['text' => 'am'], ['text' => 'st'], ['text' => 'sp'], ['text' => 'sl']],
+            'options' => [['text' => 'at'], ['text' => 'st'], ['text' => 'sp'], ['text' => 'sl']],
         ],
 
         // Slide 4: Question
         [
             'type' => 'question',
-            'audio' => asset('assets/audio/phonics_audio-2/am_an/spot-anah.m4a'),
+            'audio' => asset('assets/audio/phonics_audio-2/ap_ad/spot-apah.m4a'),
             'frogPosition' => 'top',
             'rowPosition' => '35%',
             'layout' => 'with-bottom    ',
@@ -54,7 +54,7 @@
                     'position' => 'bottom',
                 ],
                 ['text' => 'cl', 'audio' => asset('assets/audio/phonics_audio-2/cl_sl/clah.m4a'), 'isAnswer' => false],
-                ['text' => 'an', 'audio' => asset('assets/audio/phonics_audio-2/am_an/anah.m4a'), 'isAnswer' => true],
+                ['text' => 'ap', 'audio' => asset('assets/audio/phonics_audio-2/ap_ad/apah.m4a'), 'isAnswer' => true],
                 ['text' => 'sl', 'audio' => asset('assets/audio/phonics_audio-2/cl_sl/slah.m4a'), 'isAnswer' => false],
             ],
         ],
@@ -65,19 +65,19 @@
             'frogPosition' => 'on-pad',
             'frogPadIndex' => 2,
             'rowPosition' => '45%',
-            'options' => [['text' => 'sw'], ['text' => 'cl'], ['text' => 'an'], ['text' => 'sl']],
+            'options' => [['text' => 'sw'], ['text' => 'cl'], ['text' => 'ap'], ['text' => 'sl']],
         ],
 
         // Slide 6: Question
         [
             'type' => 'question',
-            'audio' => asset('assets/audio/phonics_audio-2/am_an/spot-amah.m4a'),
+            'audio' => asset('assets/audio/phonics_audio-2/ag_ab/spot-agah.m4a'),
             'frogPosition' => 'top',
             'rowPosition' => '45%',
             'layout' => 'with-bottom',
             'options' => [
                 ['text' => 'sn', 'audio' => asset('assets/audio/phonics_audio-2/sk_sn/snah.m4a'), 'isAnswer' => false],
-                ['text' => 'am', 'audio' => asset('assets/audio/phonics_audio-2/am_an/amah.m4a'), 'isAnswer' => true],
+                ['text' => 'ag', 'audio' => asset('assets/audio/phonics_audio-2/ag_ab/agah.m4a'), 'isAnswer' => true],
                 [
                     'text' => 'sm',
                     'audio' => asset('assets/audio/phonics_audio-2/sm_rev/smah.m4a'),
@@ -94,7 +94,7 @@
             'frogPosition' => 'on-pad',
             'frogPadIndex' => 1,
             'rowPosition' => '55%',
-            'options' => [['text' => 'sn'], ['text' => 'am'], ['text' => 'sm'], ['text' => 'ch']],
+            'options' => [['text' => 'sn'], ['text' => 'ag'], ['text' => 'sm'], ['text' => 'ch']],
         ],
 
         // Slide 8: Question
@@ -158,13 +158,13 @@
         // Slide 12: Wood pads question
         [
             'type' => 'question-wood',
-            'audio' => asset('assets/audio/phonics_audio-2/am_an/spot-anah.m4a'),
+            'audio' => asset('assets/audio/phonics_audio-2/ag_ab/spot-abah.m4a'),
             'frogPosition' => 'single-top',
             'frogPadText' => 'ag',
             'options' => [
                 ['text' => 'st', 'audio' => asset('assets/audio/phonics_audio-2/sp_st/stah.m4a'), 'isAnswer' => false],
                 ['text' => 'sl', 'audio' => asset('assets/audio/phonics_audio-2/cl_sl/slah.m4a'), 'isAnswer' => false],
-                ['text' => 'an', 'audio' => asset('assets/audio/phonics_audio-2/am_an/anah.m4a'), 'isAnswer' => true],
+                ['text' => 'ab', 'audio' => asset('assets/audio/phonics_audio-2/ag_ab/abah.m4a'), 'isAnswer' => true],
                 ['text' => 'tr', 'audio' => asset('assets/audio/phonics_audio-2/tr_rev/trah.m4a'), 'isAnswer' => false],
             ],
         ],
@@ -172,7 +172,7 @@
         // Slide 13: Final answer wood
         [
             'type' => 'answer-wood',
-            'frogPadText' => 'an',
+            'frogPadText' => 'ab',
         ],
     ];
 
@@ -379,7 +379,7 @@
             </div>
         @elseif($slide['type'] === 'answer-wood')
             {{-- Wood Pads Answer --}}
-           <div class="phonics-panel no-bg" data-slide-audio="{{ $slide['audio'] ?? '' }}">
+            <div class="phonics-panel no-bg" data-slide-audio="{{ $slide['audio'] ?? '' }}">
                 <div class="title-top stroke -translate-1/2">
                     Help the frog get to the other side.
                     Find the <span> <button class="w-[3vw]" id="soundButton" data-slide-audio="{{ $targetSoundAudio }}">
@@ -441,8 +441,8 @@
             const homeButton = document.getElementById("homeButton");
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
-            const returnURL = "{{ url('/phonics_l2/am_an/aman') }}";
-            const doneURL = "{{ url('/phonics_l2/am_an/aman') }}";
+            const returnURL = "{{ url('/phonics_l2/at_rev/rev') }}";
+            const doneURL = "{{ url('/phonics_l2/at_rev/rev') }}";
             const homeURL = document.body.dataset.homeRoute;
             const CHEERING = "{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}";
 
