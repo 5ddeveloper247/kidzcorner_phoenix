@@ -51,71 +51,81 @@
 
         $storySlides = [
             [
-                'audio' => 'assets/audio/phonics_audio-2/ed_et/st1.m4a',
-                'image' => 'assets/images/phonics_l2/edet/story1.png',
-                'text' => 'Ned and His Pet',
+                'audio' => 'assets/audio/phonics_audio-2/ob_og/st1.m4a',
+                'image' => 'assets/images/phonics_l2/obog/story1.png',
+                'text' => 'Bab and the Frog',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ed_et/st2.m4a',
-                'image' => 'assets/images/phonics_l2/edet/story2.png',
-                'text' => 'Ned wanted to bring his pet to the vet.',
+                'audio' => 'assets/audio/phonics_audio-2/ob_og/st2.m4a',
+                'image' => 'assets/images/phonics_l2/obog/story2.png',
+                'text' => 'Bob the slob likes to jog.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ed_et/st3.m4a',
-                'image' => 'assets/images/phonics_l2/edet/story3.png',
-                'text' => 'The vet lived in a creepy old jet.',
+                'audio' => 'assets/audio/phonics_audio-2/ob_og/st3.m4a',
+                'image' => 'assets/images/phonics_l2/obog/story3.png',
+                'text' => 'Bob jogs with his dog through a fog.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ed_et/st4.m4a',
-                'image' => 'assets/images/phonics_l2/edet/story4.png',
-                'text' => 'That had only a bed shaped like a sled that was red.',
+                'audio' => 'assets/audio/phonics_audio-2/ob_og/st4.m4a',
+                'image' => 'assets/images/phonics_l2/obog/story4.png',
+                'text' => 'In the fog, he sees a frog on a log.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ed_et/st5.m4a',
-                'image' => 'assets/images/phonics_l2/edet/story5.png',
-                'text' => 'Trembling, Ned led his pet towards the vet.',
+                'audio' => 'assets/audio/phonics_audio-2/ob_og/st5.m4a',
+                'image' => 'assets/images/phonics_l2/obog/story5.png',
+                'text' => 'The frog sobs as he has just lost his golden knob.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ed_et/st6.m4a',
-                'image' => 'assets/images/phonics_l2/edet/story6.png',
-                'text' => 'Ned’s pet was now soaking wet with sweat.',
+                'audio' => 'assets/audio/phonics_audio-2/ob_og/st6.m4a',
+                'image' => 'assets/images/phonics_l2/obog/story6.png',
+                'text' => '“Don’t sob. I’ll help you find your golden knob, says Bob the slob.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ed_et/st7.m4a',
-                'image' => 'assets/images/phonics_l2/edet/story7.png',
-                'text' => 'When they met the vet holding a net, they just fled.',
+                'audio' => 'assets/audio/phonics_audio-2/ob_og/st7.m4a',
+                'image' => 'assets/images/phonics_l2/obog/story7.png',
+                'text' => 'They search and instead, they find a clog next to a blob.',
+            ],
+            [
+                'audio' => 'assets/audio/phonics_audio-2/ob_og/st8.m4a',
+                'image' => 'assets/images/phonics_l2/obog/story8.png',
+                'text' => 'Bob’s dog then points to the log and under it is the knob.',
             ]
         ];
 
         $storyQuestions = [
             [
-                'audio' => 'assets/audio/phonics_audio-2/ed_et/stq1.m4a',
-                'question' => "Why did Ned want \n to bring his pet \n to the vet?",
+                'audio' => 'assets/audio/phonics_audio-2/ob_og/stq1.m4a',
+                'question' => "What does Bob \n like to do?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ed_et/stq2.m4a',
-                'question' => "What was on \n the jet?",
+                'audio' => 'assets/audio/phonics_audio-2/ob_og/stq2.m4a',
+                'question' => "Who does\n he jog with?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ed_et/stq3.m4a',
-                'question' => "Why did Ned \n tremble?",
+                'audio' => 'assets/audio/phonics_audio-2/ob_og/stq3.m4a',
+                'question' => "Where is the\n frog?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ed_et/stq4.m4a',
-                'question' => "Why was Ned’s \n pet soaking wet?",
+                'audio' => 'assets/audio/phonics_audio-2/ob_og/stq4.m4a',
+                'question' => "Why does the\n frog sob?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ed_et/stq5.m4a',
-                'question' => "Why did Ned \n and his pet flee \n from the vet?",
+                'audio' => 'assets/audio/phonics_audio-2/ob_og/stq5.m4a',
+                'question' => "What does Bob\n do?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ed_et/stq6.m4a',
-                'question' => "Why was the \nvet holding the\n net?",
+                'audio' => 'assets/audio/phonics_audio-2/ob_og/stq6.m4a',
+                'question' => "What do they\n find next to the \n blob?",
+                'tip' => 'Tip: Elicit response from children.',
+            ],
+            [
+                'audio' => 'assets/audio/phonics_audio-2/ob_og/stq7.m4a',
+                'question' => "Where is\n the knob?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
         ];
@@ -144,7 +154,7 @@
     @foreach ($storySlides as $slide)
         <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
             data-slide-audio="{{ asset($slide['audio']) }}">
-            <h2 class="title-top stroke">{{ $storySlides[0]['text'] === $slide['text'] ? 'Ned and His Pet' : '' }}
+            <h2 class="title-top stroke">{{ $storySlides[0]['text'] === $slide['text'] ? 'Bab and the Frog' : '' }}
             </h2>
             <img src="{{ asset($slide['image']) }}" class="{{ $loop->first ? 'h-[20vw]' : 'h-[20vw]' }}" />
             @if (!$loop->first)
@@ -191,27 +201,27 @@
     </div>
 
     {{-- Panel 14 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ed_et/st2.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ob_og/st2.m4a') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/edet/story6.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/obog/story4.png') }}" class="w-[7vw]" />
             </div>
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/edet/story2.png') }}" class="h-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/obog/story8.png') }}" class="h-[7vw]" />
             </div>
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/edet/story3.png') }}" class="w-[7vw] answer" />
+                <img src="{{ asset('assets/images/phonics_l2/obog/story3.png') }}" class="w-[7vw] answer" />
             </div>
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/edet/story5.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/obog/story5.png') }}" class="w-[7vw]" />
             </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question bg-[#f7b94a]! text-[#A15E0D]!">Ned wanted to bring his pet to the vet.</div>
-            <div class="question">The vet lived in a creepy old jet.</div>
-            <div class="question">Trembling, Ned led his pet towards the vet,</div>
-            <div class="question">Ned’s pet was now soaking wet with sweat.</div>
+            <div class="question bg-[#f7b94a]! text-[#A15E0D]!">Bob jogs with his dog through a fog.</div>
+            <div class="question">In a fog, he sees a frog on a log.</div>
+            <div class="question">The frog sobs as he has just lost his golden knob</div>
+            <div class="question">Bob’s dog then points to the log and under it is the knob.</div>
         </div>
     </div>
 
@@ -223,50 +233,50 @@
                 <span class="absolute top-0 left-0 pl-4 text-white">1</span>
                 <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}"
                     class="h-[1.5vw] absolute right-0 top-0 pr-3" />
-                <img src="{{ asset('assets/images/phonics_l2/edet/story2.png') }}" class="h-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/obog/story3.png') }}" class="h-[7vw]" />
             </div>
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/edet/story6.png') }}" class="w-[7vw]" />
-            </div>
-
-            <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/edet/story3.png') }}" class="h-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/obog/story4.png') }}" class="w-[7vw]" />
             </div>
 
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/edet/story5.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/obog/story8.png') }}" class="h-[7vw]" />
+            </div>
+
+            <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
+                <img src="{{ asset('assets/images/phonics_l2/obog/story5.png') }}" class="w-[7vw]" />
             </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question done"><span class="absolute left-0 pl-5">1</span> Ned wanted to bring his pet to the vet. </div>
-            <div class="question">The vet lived in a creepy old jet.</div>
-            <div class="question">Trembling, Ned led his pet towards the vet,</div>
-            <div class="question">Ned’s pet was now soaking wet with sweat.</div>
+            <div class="question done"><span class="absolute left-0 pl-5">1</span> Bob jogs with his dog through a fog. </div>
+            <div class="question">In a fog, he sees a frog on a log.</div>
+            <div class="question">The frog sobs as he has just lost his golden knob</div>
+            <div class="question">Bob’s dog then points to the log and under it is the knob.</div>
         </div>
     </div>
 
     {{-- Panel 16 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ed_et/st3.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ob_og/st3.m4a') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/edet/story6.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/obog/story4.png') }}" class="w-[7vw]" />
             </div>
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/edet/story2.png') }}" class="h-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/obog/story8.png') }}" class="h-[7vw]" />
             </div>
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/edet/story3.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/obog/story3.png') }}" class="w-[7vw]" />
             </div>
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/edet/story5.png') }}" class="w-[7vw] answer" />
+                <img src="{{ asset('assets/images/phonics_l2/obog/story5.png') }}" class="w-[7vw] answer" />
             </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question">Ned wanted to bring his pet to the vet.</div>
-            <div class="question bg-[#f7b94a]! text-[#A15E0D]!">The vet lived in a creepy old jet.</div>
-            <div class="question">Trembling, Ned led his pet towards the vet,</div>
-            <div class="question">Ned’s pet was now soaking wet with sweat.</div>
+            <div class="question">Bob jogs with his dog through a fog.</div>
+            <div class="question bg-[#f7b94a]! text-[#A15E0D]!">In a fog, he sees a frog on a log.</div>
+            <div class="question">The frog sobs as he has just lost his golden knob</div>
+            <div class="question">Bob’s dog then points to the log and under it is the knob.</div>
         </div>
     </div>
 
@@ -279,51 +289,51 @@
                 <span class="absolute top-0 left-0 pl-4 text-white">1</span>
                 <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}"
                     class="h-[1.5vw] absolute right-0 top-0 pr-3" />
-                <img src="{{ asset('assets/images/phonics_l2/edet/story2.png') }}" class="h-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/obog/story3.png') }}" class="h-[7vw]" />
             </div>
             <div class="p-[1vw] rounded-xl border-2 border-[#f7b94a] relative w-fit box h-[10vw]">
                 <span class="absolute top-0 left-0 pl-4 text-white">2</span>
                 <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}"
                     class="h-[1.5vw] absolute right-0 top-0 pr-3" />
-                <img src="{{ asset('assets/images/phonics_l2/edet/story3.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/obog/story4.png') }}" class="w-[7vw]" />
             </div>
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/edet/story6.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/obog/story8.png') }}" class="w-[7vw]" />
             </div>
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/edet/story5.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/obog/story5.png') }}" class="w-[7vw]" />
             </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question done"><span class="absolute left-0 pl-5">1</span> Ned wanted to bring his pet to the vet.</div>
-            <div class="question done"><span class="absolute left-0 pl-5">2</span> The vet lived in a creepy old jet.</div>
-            <div class="question">Trembling, Ned led his pet towards the vet,</div>
-            <div class="question">Ned’s pet was now soaking wet with sweat.</div>
+            <div class="question done"><span class="absolute left-0 pl-5">1</span> Bob jogs with his dog through a fog.</div>
+            <div class="question done"><span class="absolute left-0 pl-5">2</span> In a fog, he sees a frog on a log.</div>
+            <div class="question">The frog sobs as he has just lost his golden knob</div>
+            <div class="question">Bob’s dog then points to the log and under it is the knob.</div>
         </div>
     </div>
 
     {{-- Panel 18 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ed_et/st4.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ob_og/st4.m4a') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/edet/story6.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/obog/story4.png') }}" class="w-[7vw]" />
             </div>
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/edet/story2.png') }}" class="h-[7vw] answer" />
+                <img src="{{ asset('assets/images/phonics_l2/obog/story8.png') }}" class="h-[7vw] answer" />
             </div>
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/edet/story3.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/obog/story3.png') }}" class="w-[7vw]" />
             </div>
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/edet/story5.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/obog/story5.png') }}" class="w-[7vw]" />
             </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question">Ned wanted to bring his pet to the vet.</div>
-            <div class="question">The vet lived in a creepy old jet.</div>
-            <div class="question bg-[#f7b94a]! text-[#A15E0D]!">Trembling, Ned led his pet towards the vet,</div>
-            <div class="question">Ned’s pet was now soaking wet with sweat.</div>
+            <div class="question">Bob jogs with his dog through a fog.</div>
+            <div class="question">In a fog, he sees a frog on a log.</div>
+            <div class="question bg-[#f7b94a]! text-[#A15E0D]!">The frog sobs as he has just lost his golden knob</div>
+            <div class="question">Bob’s dog then points to the log and under it is the knob.</div>
         </div>
     </div>
 
@@ -336,54 +346,54 @@
                 <span class="absolute top-0 left-0 pl-4 text-white">1</span>
                 <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}"
                     class="h-[1.5vw] absolute right-0 top-0 pr-3" />
-                <img src="{{ asset('assets/images/phonics_l2/edet/story2.png') }}" class="h-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/obog/story3.png') }}" class="h-[7vw]" />
             </div>
             <div class="p-[1vw] rounded-xl border-2 border-[#f7b94a] relative w-fit box h-[10vw]">
                 <span class="absolute top-0 left-0 pl-4 text-white">2</span>
                 <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}"
                     class="h-[1.5vw] absolute right-0 top-0 pr-3" />
-                <img src="{{ asset('assets/images/phonics_l2/edet/story3.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/obog/story4.png') }}" class="w-[7vw]" />
             </div>
             <div class="p-[1vw] rounded-xl border-2 border-[#f7b94a] relative w-fit box h-[10vw]">
                 <span class="absolute top-0 left-0 pl-4 text-white">3</span>
                 <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}"
                     class="h-[1.5vw] absolute right-0 top-0 pr-3" />
-                <img src="{{ asset('assets/images/phonics_l2/edet/story5.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/obog/story5.png') }}" class="w-[7vw]" />
             </div>
             <div class="p-[1vw] rounded-xl border-2 border-[#f7b94a]">
-                <img src="{{ asset('assets/images/phonics_l2/edet/story6.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/obog/story8.png') }}" class="w-[7vw]" />
             </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question done"><span class="absolute left-0 pl-5">1</span> Ned wanted to bring his pet to the vet.</div>
-            <div class="question done"><span class="absolute left-0 pl-5">2</span> The vet lived in a creepy old jet.</div>
-            <div class="question done"><span class="absolute left-0 pl-5">3</span> Trembling, Ned led his pet towards the vet,</div>
-            <div class="question">Ned’s pet was now soaking wet with sweat.</div>
+            <div class="question done"><span class="absolute left-0 pl-5">1</span> Bob jogs with his dog through a fog.</div>
+            <div class="question done"><span class="absolute left-0 pl-5">2</span> In a fog, he sees a frog on a log.</div>
+            <div class="question done"><span class="absolute left-0 pl-5">3</span> The frog sobs as he has just lost his golden knob</div>
+            <div class="question">Bob’s dog then points to the log and under it is the knob.</div>
         </div>
     </div>
 
     {{-- Panel 20 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ed_et/st5.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ob_og/st5.m4a') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/edet/story6.png') }}" class="w-[7vw] answer" />
+                <img src="{{ asset('assets/images/phonics_l2/obog/story4.png') }}" class="w-[7vw] answer" />
             </div>
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/edet/story2.png') }}" class="h-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/obog/story8.png') }}" class="h-[7vw]" />
             </div>
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/edet/story3.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/obog/story3.png') }}" class="w-[7vw]" />
             </div>
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/edet/story5.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/obog/story5.png') }}" class="w-[7vw]" />
             </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question">Ned wanted to bring his pet to the vet.</div>
-            <div class="question">The vet lived in a creepy old jet.</div>
-            <div class="question">Trembling, Ned led his pet towards the vet,</div>
-            <div class="question bg-[#f7b94a]! text-[#A15E0D]!">Ned’s pet was now soaking wet with sweat.
+            <div class="question">Bob jogs with his dog through a fog.</div>
+            <div class="question">In a fog, he sees a frog on a log.</div>
+            <div class="question">The frog sobs as he has just lost his golden knob</div>
+            <div class="question bg-[#f7b94a]! text-[#A15E0D]!">Bob’s dog then points to the log and under it is the knob.
             </div>
         </div>
     </div>
@@ -397,33 +407,33 @@
                 <span class="absolute top-0 left-0 pl-4 text-white">1</span>
                 <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}"
                     class="h-[1.5vw] absolute right-0 top-0 pr-3" />
-                <img src="{{ asset('assets/images/phonics_l2/edet/story2.png') }}" class="h-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/obog/story3.png') }}" class="h-[7vw]" />
             </div>
             <div class="p-[1vw] rounded-xl border-2 border-[#f7b94a] relative w-fit box h-[10vw]">
                 <span class="absolute top-0 left-0 pl-4 text-white">2</span>
                 <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}"
                     class="h-[1.5vw] absolute right-0 top-0 pr-3" />
-                <img src="{{ asset('assets/images/phonics_l2/edet/story3.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/obog/story4.png') }}" class="w-[7vw]" />
             </div>
             <div class="p-[1vw] rounded-xl border-2 border-[#f7b94a] relative w-fit box h-[10vw]">
                 <span class="absolute top-0 left-0 pl-4 text-white">3</span>
                 <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}"
                     class="h-[1.5vw] absolute right-0 top-0 pr-3" />
-                <img src="{{ asset('assets/images/phonics_l2/edet/story5.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/obog/story5.png') }}" class="w-[7vw]" />
             </div>
             <div class="p-[1vw] rounded-xl border-2 border-[#f7b94a] relative w-fit box h-[10vw]">
                 <span class="absolute top-0 left-0 pl-4 text-white">4</span>
                 <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}"
                     class="h-[1.5vw] absolute right-0 top-0 pr-3" />
-                <img src="{{ asset('assets/images/phonics_l2/edet/story6.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/obog/story8.png') }}" class="w-[7vw]" />
             </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question done"><span class="absolute left-0 pl-5">1</span> Ned wanted to bring his pet to the vet.
+            <div class="question done"><span class="absolute left-0 pl-5">1</span> Bob jogs with his dog through a fog.
             </div>
-            <div class="question done"><span class="absolute left-0 pl-5">2</span> The vet lived in a creepy old jet.</div>
-            <div class="question done"><span class="absolute left-0 pl-5">3</span> Trembling, Ned led his pet towards the vet,</div>
-            <div class="question done"><span class="absolute left-0 pl-5">4</span> Ned’s pet was now soaking wet with sweat.</div>
+            <div class="question done"><span class="absolute left-0 pl-5">2</span> In a fog, he sees a frog on a log.</div>
+            <div class="question done"><span class="absolute left-0 pl-5">3</span> The frog sobs as he has just lost his golden knob</div>
+            <div class="question done"><span class="absolute left-0 pl-5">4</span> Bob’s dog then points to the log and under it is the knob.</div>
         </div>
     </div>
 
@@ -469,8 +479,8 @@
         document.addEventListener("DOMContentLoaded", function() {
 
             /* CONFIG */
-            const returnURL = "{{ url('/phonics_l2/ed_et/edet') }}";
-            const doneURL = "{{ url('/phonics_l2/ed_et/edet') }}";
+            const returnURL = "{{ url('/phonics_l2/ob_og/obog') }}";
+            const doneURL = "{{ url('/phonics_l2/ob_og/obog') }}";
 
             /* DOM */
             const slides = document.querySelectorAll(".phonics-panel");

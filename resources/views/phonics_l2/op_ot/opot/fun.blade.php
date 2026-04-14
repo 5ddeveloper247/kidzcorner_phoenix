@@ -4,85 +4,85 @@
 @php
     $showBackground = true;
 
-    $returnURL = '/phonics_l2/ed_et/edet';
-    $doneURL = '/phonics_l2/ed_et/edet';
+    $returnURL = '/phonics_l2/ob_og/obog';
+    $doneURL = '/phonics_l2/ob_og/obog';
 
 
 
     $questions = [
         // ── Question 1 ──────────────────────────────────────────
         [
-            'image' => 'assets/images/phonics_l2/edet/fun1.png',
+            'image' => 'assets/images/phonics_l2/obog/fun1.png',
             'imageSize' => 'h-[13vw]',
-            'audio' => 'assets/audio/phonics_audio-2/ed_et/fb-edet1.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ob_og/fb-obog1.m4a',
             'sentence' => [
-                ['type' => 'text', 'text' => 'Ted places his'],
+                ['type' => 'text', 'text' => 'The small'],
                 ['type' => 'blank'],
-                ['type' => 'text', 'text' => 'on the big'],
+                ['type' => 'text', 'text' => 'jumps onto the green'],
                 ['type' => 'blank'],
                 ['type' => 'text', 'text' => '.'],
             ],
             'tip' => "Tips: Look at the picture, then read the sentence. <br>
                 Encourage children to sound out the words in parts when in doubt (click on audio if needed).",
             'words' => [
-                ['word' => 'pet', 'answer' => true],
-                ['word' => 'led', 'answer' => false],
-                ['word' => 'get',  'answer' => false],
-                ['word' => 'bed', 'answer' => true],
+                ['word' => 'frog', 'answer' => true],
+                ['word' => 'job', 'answer' => false],
+                ['word' => 'fog',  'answer' => false],
+                ['word' => 'knob', 'answer' => true],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/ed_et/pet.m4a',
-                'assets/audio/phonics_audio-2/ed_et/bed.m4a',
+                'assets/audio/phonics_audio-2/ob_og/frog.m4a',
+                'assets/audio/phonics_audio-2/ob_og/knob.m4a',
             ],
         ],
 
         // ── Question 2 ──────────────────────────────────────────
         [
-            'image' => 'assets/images/phonics_l2/edet/fun2.png',
+            'image' => 'assets/images/phonics_l2/obog/fun2.png',
             'imageSize' => 'h-[16vw]',
-            'audio' => 'assets/audio/phonics_audio-2/ed_et/fb-edet2.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ob_og/fb-obog2.m4a',
             'sentence' => [
-                ['type' => 'text', 'text' => 'The green'],
+                ['type' => 'text', 'text' => 'Bob and his friend'],
                 ['type' => 'blank'],
-                ['type' => 'text', 'text' => 'is'],
+                ['type' => 'text', 'text' => 'around the big brown'],
                 ['type' => 'blank'],
                 ['type' => 'text', 'text' => '.'],
             ],
             'tip' => null,
             'words' => [
-                ['word' => 'fled', 'answer' => false],
-                ['word' => 'sled', 'answer' => false],
-                ['word' => 'wet', 'answer' => true],
-                ['word' => 'vet', 'answer' => true],
+                ['word' => 'rob', 'answer' => false],
+                ['word' => 'jog', 'answer' => false],
+                ['word' => 'log', 'answer' => true],
+                ['word' => 'snob', 'answer' => true],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/ed_et/sled.m4a',
-                'assets/audio/phonics_audio-2/ed_et/wet.m4a',
+                'assets/audio/phonics_audio-2/ob_og/jog.m4a',
+                'assets/audio/phonics_audio-2/ob_og/log.m4a',
             ],
         ],
 
         // ── Question 3 ──────────────────────────────────────────
         [
-            'image' => 'assets/images/phonics_l2/edet/fun3.png',
+            'image' => 'assets/images/phonics_l2/obog/fun3.png',
             'imageSize' => 'h-[15vw]',
-            'audio' => 'assets/audio/phonics_audio-2/ed_et/fb-edet3.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ob_og/fb-obog3.m4a',
             'sentence' => [
-                ['type' => 'text', 'text' => 'Fred points to the'],
+                ['type' => 'text', 'text' => 'The boys'],
                 ['type' => 'blank'],
-                ['type' => 'text', 'text' => ' '],
+                ['type' => 'text', 'text' => 'as they have just kost their'],
                 ['type' => 'blank'],
-                ['type' => 'text', 'text' => 'in the sky.'],
+                ['type' => 'text', 'text' => '.'],
             ],
             'tip' => null,
             'words' => [
-                ['word' => 'red', 'answer' => true],
-                ['word' => 'fed', 'answer' => false],
-                ['word' => 'jet', 'answer' => true],
-                ['word' => 'net', 'answer' => false],
+                ['word' => 'sob', 'answer' => true],
+                ['word' => 'slov', 'answer' => false],
+                ['word' => 'dog', 'answer' => true],
+                ['word' => 'clog', 'answer' => false],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/ed_et/red.m4a',
-                'assets/audio/phonics_audio-2/ed_et/jet.m4a',
+                'assets/audio/phonics_audio-2/ob_og/sob.m4a',
+                'assets/audio/phonics_audio-2/ob_og/dog.m4a',
             ],
         ],
     ];
