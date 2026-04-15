@@ -14,30 +14,29 @@
             width: 14vw;
         }
     </style>
-    
 @endpush
 
 @section('content')
 
     <div>
-        <h2 class="stroke text-[3vw] text-[#f7b94a] ">OP & OT</h2>
+        <h2 class="stroke text-[3vw] text-[#f7b94a] ">ID</h2>
         {{-- Navigations to Inner folders  --}}
         <div id="slide-board" class="grid grid-cols-2 gap-[2vw] mb-[2vw]  text-center justify-content-center">
 
-            <a href="{{ url('/phonics_l2/op_ot/opot/spot') }}">
-                <img src="{{ asset('assets/images/phonics_l2/global/b9.png') }}" class="mx-auto d-block" />
+            <a href="{{ url('/phonics_l2/id_in/id/say') }}">
+                <img src="{{ asset('assets/images/phonics_l2/global/b12.png') }}" class="mx-auto d-block" />
             </a>
 
-            <a href="{{ url('/phonics_l2/op_ot/opot/begins') }}">
-                <img src="{{ asset('assets/images/phonics_l2/global/b10.png') }}" class="mx-auto d-block" />
+            <a href="{{ url('/phonics_l2/id_in/id/singalong') }}">
+                <img src="{{ asset('assets/images/phonics_l2/global/b3.png') }}" class="mx-auto d-block" />
             </a>
 
-            <a href="{{ url('/phonics_l2/op_ot/opot/fun') }}">
-                <img src="{{ asset('assets/images/phonics_l2/global/b11.png') }}" class="mx-auto d-block" />
+            <a href="{{ url('/phonics_l2/id_in/id/match') }}">
+                <img src="{{ asset('assets/images/phonics_l2/global/b4.png') }}" class="mx-auto d-block" />
             </a>
 
-            <a href="{{ url('/phonics_l2/op_ot/opot/storytime') }}">
-                <img src="{{ asset('assets/images/phonics_l2/global/b2.png') }}" class="mx-auto d-block" />
+            <a href="{{ url('/phonics_l2/id_in/id/wordplay') }}">
+                <img src="{{ asset('assets/images/phonics_l2/global/b5.png') }}" class="mx-auto d-block" />
             </a>
 
         </div>
@@ -47,7 +46,7 @@
 
     <div id="buttons" class="absolute flex flex-row gap-6 z-90">
 
-        <a href="{{ url ('/phonics_l2/op_ot') }}" id="returnButton">
+        <a href="{{ url ('/phonics_l2/id_in') }}" id="returnButton">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/return-btn.png') }}" />
         </a>
 

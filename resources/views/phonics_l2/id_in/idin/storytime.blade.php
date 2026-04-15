@@ -51,67 +51,66 @@
 
         $storySlides = [
             [
-                'audio' => 'assets/audio/phonics_audio-2/op_ot/st1.m4a',
-                'image' => 'assets/images/phonics_l2/opot/story1.png',
-                'text' => 'The Pot with a Dot on the Top',
+                'audio' => 'assets/audio/phonics_audio-2/id_in/st1.m4a',
+                'image' => 'assets/images/phonics_l2/idin/story1.png',
+                'text' => 'The Squid in the Tin',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/op_ot/st2.m4a',
-                'image' => 'assets/images/phonics_l2/opot/story2.png',
-                'text' => 'I placed my pot in a spot next to the cot before I
-went into my shop.',
+                'audio' => 'assets/audio/phonics_audio-2/id_in/st2.m4a',
+                'image' => 'assets/images/phonics_l2/idin/story2.png',
+                'text' => 'Sid the kid slid down a pole into a bin.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/op_ot/st3.m4a',
-                'image' => 'assets/images/phonics_l2/opot/story1.png',
-                'text' => 'The pot has a round dot on the top.',
+                'audio' => 'assets/audio/phonics_audio-2/id_in/st3.m4a',
+                'image' => 'assets/images/phonics_l2/idin/story3.png',
+                'text' => 'In the bin, he found a thin squid in a tin.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/op_ot/st4.m4a',
-                'image' => 'assets/images/phonics_l2/opot/story3.png',
-                'text' => 'I had the pot since I was a tot.',
+                'audio' => 'assets/audio/phonics_audio-2/id_in/st4.m4a',
+                'image' => 'assets/images/phonics_l2/idin/story4.png',
+                'text' => 'The squid hid a fin under the tin.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/op_ot/st5.m4a',
-                'image' => 'assets/images/phonics_l2/opot/story4.png',
-                'text' => 'I was afraid to drop the pot in my shop as it was hot.',
+                'audio' => 'assets/audio/phonics_audio-2/id_in/st5.m4a',
+                'image' => 'assets/images/phonics_l2/idin/story5.png',
+                'text' => 'And used it to tickle Sid’s chin.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/op_ot/st6.m4a',
-                'image' => 'assets/images/phonics_l2/opot/story5.png',
-                'text' => 'As I would have to then mop the spot.',
+                'audio' => 'assets/audio/phonics_audio-2/id_in/st6.m4a',
+                'image' => 'assets/images/phonics_l2/idin/story6.png',
+                'text' => 'It then hopped onto a lid and started to spin.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/op_ot/st7.m4a',
-                'image' => 'assets/images/phonics_l2/opot/story6.png',
-                'text' => 'Now I cannot stop thinking of my pot.',
+                'audio' => 'assets/audio/phonics_audio-2/id_in/st7.m4a',
+                'image' => 'assets/images/phonics_l2/idin/story7.png',
+                'text' => 'Before the squid knew it, down came the tin!',
             ],
         ];
 
         $storyQuestions = [
             [
-                'audio' => 'assets/audio/phonics_audio-2/op_ot/stq1.m4a',
-                'question' => "Where did he place \n the pot?",
+                'audio' => 'assets/audio/phonics_audio-2/id_in/stq1.m4a',
+                'question' => "How did Sid \n get into \n he bin?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/op_ot/stq2.m4a',
-                'question' => "What is on the \n top of the \n pot?",
+                'audio' => 'assets/audio/phonics_audio-2/id_in/stq2.m4a',
+                'question' => "What did he \n find in \n the tin?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/op_ot/stq3.m4a',
-                'question' => "Why didn’t he\n bring the pot \n into the shop?",
+                'audio' => 'assets/audio/phonics_audio-2/id_in/stq3.m4a',
+                'question' => "Why did the squid \n hide the fin?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/op_ot/stq4.m4a',
-                'question' => "Why can’t he \n stop thinking of \n his pot?",
+                'audio' => 'assets/audio/phonics_audio-2/id_in/stq4.m4a',
+                'question' => "What did the \n squid do \n with the fin?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/op_ot/stq5.m4a',
-                'question' => "What do you think \n is in the pot?",
+                'audio' => 'assets/audio/phonics_audio-2/id_in/stq5.m4a',
+                'question' => "What happened to \n the squid in\nthe end?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
         ];
@@ -141,7 +140,7 @@ went into my shop.',
         <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
             data-slide-audio="{{ asset($slide['audio']) }}">
             <h2 class="title-top stroke">
-                {{ $storySlides[0]['text'] === $slide['text'] ? 'The Pot with a Dot on the Top' : '' }}
+                {{ $storySlides[0]['text'] === $slide['text'] ? 'The Squid in the Tin' : '' }}
             </h2>
             <img src="{{ asset($slide['image']) }}" class="{{ $loop->first ? 'h-[20vw]' : 'h-[20vw]' }}" />
             @if (!$loop->first)
@@ -188,27 +187,27 @@ went into my shop.',
     </div>
 
     {{-- Panel 14 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/op_ot/st2.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/id_in/st2.m4a') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/opot/story4.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/idin/story5.png') }}" class="w-[7vw]" />
             </div>
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/opot/story3.png') }}" class="h-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/idin/story4.png') }}" class="h-[7vw]" />
             </div>
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/opot/story2.png') }}" class="w-[7vw] answer" />
+                <img src="{{ asset('assets/images/phonics_l2/idin/story2.png') }}" class="w-[7vw] answer" />
             </div>
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/opot/story1.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/idin/story3.png') }}" class="w-[7vw]" />
             </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question bg-[#f7b94a]! text-[#A15E0D]!">I placed my pot in a spot next to the cot.</div>
-            <div class="question">The pot has a round dot on the top.</div>
-            <div class="question">I had the pot since I was a tot.</div>
-            <div class="question">I was afraid to drop the pot in my shop as it was hot.</div>
+            <div class="question bg-[#f7b94a]! text-[#A15E0D]!">Sid the kid slid down a pole into a bin.</div>
+            <div class="question">In the bin, he found a thin squid in a tin.</div>
+            <div class="question">The squid hid a fin under the tin</div>
+            <div class="question">And used it to tickle Sid’s chin.</div>
         </div>
     </div>
 
@@ -216,54 +215,54 @@ went into my shop.',
     <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
-            <div class="p-[1vw] rounded-xl border-2 border-[#f7b94a] relative w-fit box h-[10vw]">
+            <div class="p-[1vw] rounded-xl border-2 border-[#f7b94a] relative w-[10vw] box h-[10vw]">
                 <span class="absolute top-0 left-0 pl-4 text-white">1</span>
                 <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}"
                     class="h-[1.5vw] absolute right-0 top-0 pr-3" />
-                <img src="{{ asset('assets/images/phonics_l2/opot/story2.png') }}" class="h-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/idin/story2.png') }}" class="h-[7vw]" />
             </div>
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/opot/story4.png') }}" class="w-[7vw]" />
-            </div>
-
-            <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/opot/story3.png') }}" class="h-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/idin/story5.png') }}" class="w-[7vw]" />
             </div>
 
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/opot/story1.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/idin/story4.png') }}" class="h-[7vw]" />
+            </div>
+
+            <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
+                <img src="{{ asset('assets/images/phonics_l2/idin/story3.png') }}" class="w-[7vw]" />
             </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question done"><span class="absolute left-0 pl-5">1</span> I placed my pot in a spot next to the cot. </div>
-            <div class="question">The pot has a round dot on the top.</div>
-            <div class="question">I had the pot since I was a tot.</div>
-            <div class="question">I was afraid to drop the pot in my shop as it was hot.</div>
+            <div class="question done"><span class="absolute left-0 pl-5">1</span> Sid the kid slid down a pole into a bin. </div>
+            <div class="question">In the bin, he found a thin squid in a tin.</div>
+            <div class="question">The squid hid a fin under the tin</div>
+            <div class="question">And used it to tickle Sid’s chin.</div>
         </div>
     </div>
 
     {{-- Panel 16 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/op_ot/st3.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/id_in/st3.m4a') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/opot/story4.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/idin/story5.png') }}" class="w-[7vw]" />
             </div>
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/opot/story3.png') }}" class="h-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/idin/story4.png') }}" class="h-[7vw]" />
             </div>
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/opot/story2.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/idin/story2.png') }}" class="w-[7vw]" />
             </div>
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/opot/story1.png') }}" class="w-[7vw] answer" />
+                <img src="{{ asset('assets/images/phonics_l2/idin/story3.png') }}" class="w-[7vw] answer" />
             </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question">I placed my pot in a spot next to the cot.</div>
-            <div class="question bg-[#f7b94a]! text-[#A15E0D]!">The pot has a round dot on the top.</div>
-            <div class="question">I had the pot since I was a tot.</div>
-            <div class="question">I was afraid to drop the pot in my shop as it was hot.</div>
+            <div class="question">Sid the kid slid down a pole into a bin.</div>
+            <div class="question bg-[#f7b94a]! text-[#A15E0D]!">In the bin, he found a thin squid in a tin.</div>
+            <div class="question">The squid hid a fin under the tin</div>
+            <div class="question">And used it to tickle Sid’s chin.</div>
         </div>
     </div>
 
@@ -272,55 +271,55 @@ went into my shop.',
         data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
-            <div class="p-[1vw] rounded-xl border-2 border-[#f7b94a] relative w-fit box h-[10vw]">
+            <div class="p-[1vw] rounded-xl border-2 border-[#f7b94a] relative w-[10vw] box h-[10vw]">
                 <span class="absolute top-0 left-0 pl-4 text-white">1</span>
                 <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}"
                     class="h-[1.5vw] absolute right-0 top-0 pr-3" />
-                <img src="{{ asset('assets/images/phonics_l2/opot/story2.png') }}" class="h-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/idin/story2.png') }}" class="h-[7vw]" />
             </div>
-            <div class="p-[1vw] rounded-xl border-2 border-[#f7b94a] relative w-fit box h-[10vw]">
+            <div class="p-[1vw] rounded-xl border-2 border-[#f7b94a] relative w-[10vw] box h-[10vw]">
                 <span class="absolute top-0 left-0 pl-4 text-white">2</span>
                 <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}"
                     class="h-[1.5vw] absolute right-0 top-0 pr-3" />
-                <img src="{{ asset('assets/images/phonics_l2/opot/story3.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/idin/story3.png') }}" class="w-[7vw]" />
             </div>
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/opot/story4.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/idin/story5.png') }}" class="w-[7vw]" />
             </div>
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/opot/story1.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/idin/story4.png') }}" class="w-[7vw]" />
             </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question done"><span class="absolute left-0 pl-5">1</span> I placed my pot in a spot next to the cot.</div>
-            <div class="question done"><span class="absolute left-0 pl-5">2</span> The pot has a round dot on the top. </div>
-            <div class="question">I had the pot since I was a tot.</div>
-            <div class="question">I was afraid to drop the pot in my shop as it was hot.</div>
+            <div class="question done"><span class="absolute left-0 pl-5">1</span> Sid the kid slid down a pole into a bin.</div>
+            <div class="question done"><span class="absolute left-0 pl-5">2</span> In the bin, he found a thin squid in a tin. </div>
+            <div class="question">The squid hid a fin under the tin</div>
+            <div class="question">And used it to tickle Sid’s chin.</div>
         </div>
     </div>
 
     {{-- Panel 18 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/op_ot/st4.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/id_in/st4.m4a') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/opot/story4.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/idin/story5.png') }}" class="w-[7vw]" />
             </div>
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/opot/story3.png') }}" class="h-[7vw] answer" />
+                <img src="{{ asset('assets/images/phonics_l2/idin/story4.png') }}" class="h-[7vw] answer" />
             </div>
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/opot/story2.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/idin/story2.png') }}" class="w-[7vw]" />
             </div>
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/opot/story1.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/idin/story3.png') }}" class="w-[7vw]" />
             </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question">I placed my pot in a spot next to the cot.</div>
-            <div class="question">The pot has a round dot on the top.</div>
-            <div class="question bg-[#f7b94a]! text-[#A15E0D]!">I had the pot since I was a tot.</div>
-            <div class="question">I was afraid to drop the pot in my shop as it was hot.</div>
+            <div class="question">Sid the kid slid down a pole into a bin.</div>
+            <div class="question">In the bin, he found a thin squid in a tin.</div>
+            <div class="question bg-[#f7b94a]! text-[#A15E0D]!">The squid hid a fin under the tin</div>
+            <div class="question">And used it to tickle Sid’s chin.</div>
         </div>
     </div>
 
@@ -329,58 +328,58 @@ went into my shop.',
         data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
-            <div class="p-[1vw] rounded-xl border-2 border-[#f7b94a] relative w-fit box h-[10vw]">
+            <div class="p-[1vw] rounded-xl border-2 border-[#f7b94a] relative w-[10vw] box h-[10vw]">
                 <span class="absolute top-0 left-0 pl-4 text-white">1</span>
                 <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}"
                     class="h-[1.5vw] absolute right-0 top-0 pr-3" />
-                <img src="{{ asset('assets/images/phonics_l2/opot/story2.png') }}" class="h-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/idin/story2.png') }}" class="h-[7vw]" />
             </div>
-            <div class="p-[1vw] rounded-xl border-2 border-[#f7b94a] relative w-fit box h-[10vw]">
+            <div class="p-[1vw] rounded-xl border-2 border-[#f7b94a] relative w-[10vw] box h-[10vw]">
                 <span class="absolute top-0 left-0 pl-4 text-white">2</span>
                 <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}"
                     class="h-[1.5vw] absolute right-0 top-0 pr-3" />
-                <img src="{{ asset('assets/images/phonics_l2/opot/story1.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/idin/story3.png') }}" class="w-[7vw]" />
             </div>
-            <div class="p-[1vw] rounded-xl border-2 border-[#f7b94a] relative w-fit box h-[10vw]">
+            <div class="p-[1vw] rounded-xl border-2 border-[#f7b94a] relative w-[10vw] box h-[10vw]">
                 <span class="absolute top-0 left-0 pl-4 text-white">3</span>
                 <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}"
                     class="h-[1.5vw] absolute right-0 top-0 pr-3" />
-                <img src="{{ asset('assets/images/phonics_l2/opot/story3.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/idin/story4.png') }}" class="w-[7vw]" />
             </div>
             <div class="p-[1vw] rounded-xl border-2 border-[#f7b94a]">
-                <img src="{{ asset('assets/images/phonics_l2/opot/story4.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/idin/story5.png') }}" class="w-[7vw]" />
             </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question done"><span class="absolute left-0 pl-5">1</span> I placed my pot in a spot next to the cot.</div>
-            <div class="question done"><span class="absolute left-0 pl-5">2</span> The pot has a round dot on the top.</div>
-            <div class="question done"><span class="absolute left-0 pl-5">3</span> I had the pot since I was a tot.</div>
-            <div class="question">I was afraid to drop the pot in my shop as it was hot.</div>
+            <div class="question done"><span class="absolute left-0 pl-5">1</span> Sid the kid slid down a pole into a bin.</div>
+            <div class="question done"><span class="absolute left-0 pl-5">2</span> In the bin, he found a thin squid in a tin.</div>
+            <div class="question done"><span class="absolute left-0 pl-5">3</span> The squid hid a fin under the tin</div>
+            <div class="question">And used it to tickle Sid’s chin.</div>
         </div>
     </div>
 
     {{-- Panel 20 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/op_ot/st5.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/id_in/st5.m4a') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/opot/story4.png') }}" class="w-[7vw] answer" />
+                <img src="{{ asset('assets/images/phonics_l2/idin/story5.png') }}" class="w-[7vw] answer" />
             </div>
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/opot/story3.png') }}" class="h-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/idin/story4.png') }}" class="h-[7vw]" />
             </div>
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/opot/story2.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/idin/story2.png') }}" class="w-[7vw]" />
             </div>
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/opot/story1.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/idin/story3.png') }}" class="w-[7vw]" />
             </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question">I placed my pot in a spot next to the cot.</div>
-            <div class="question">The pot has a round dot on the top.</div>
-            <div class="question">I had the pot since I was a tot.</div>
-            <div class="question bg-[#f7b94a]! text-[#A15E0D]!">I was afraid to drop the pot in my shop as it was hot.</div>
+            <div class="question">Sid the kid slid down a pole into a bin.</div>
+            <div class="question">In the bin, he found a thin squid in a tin.</div>
+            <div class="question">The squid hid a fin under the tin</div>
+            <div class="question bg-[#f7b94a]! text-[#A15E0D]!">And used it to tickle Sid’s chin.</div>
         </div>
     </div>
 
@@ -389,36 +388,36 @@ went into my shop.',
         data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
-            <div class="p-[1vw] rounded-xl border-2 border-[#f7b94a] relative w-fit box h-[10vw]">
+            <div class="p-[1vw] rounded-xl border-2 border-[#f7b94a] relative w-[10vw] box h-[10vw]">
                 <span class="absolute top-0 left-0 pl-4 text-white">1</span>
                 <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}"
                     class="h-[1.5vw] absolute right-0 top-0 pr-3" />
-                <img src="{{ asset('assets/images/phonics_l2/opot/story2.png') }}" class="h-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/idin/story2.png') }}" class="h-[7vw]" />
             </div>
-            <div class="p-[1vw] rounded-xl border-2 border-[#f7b94a] relative w-fit box h-[10vw]">
+            <div class="p-[1vw] rounded-xl border-2 border-[#f7b94a] relative w-[10vw] box h-[10vw]">
                 <span class="absolute top-0 left-0 pl-4 text-white">2</span>
                 <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}"
                     class="h-[1.5vw] absolute right-0 top-0 pr-3" />
-                <img src="{{ asset('assets/images/phonics_l2/opot/story1.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/idin/story3.png') }}" class="w-[7vw]" />
             </div>
-            <div class="p-[1vw] rounded-xl border-2 border-[#f7b94a] relative w-fit box h-[10vw]">
+            <div class="p-[1vw] rounded-xl border-2 border-[#f7b94a] relative w-[10vw] box h-[10vw]">
                 <span class="absolute top-0 left-0 pl-4 text-white">3</span>
                 <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}"
                     class="h-[1.5vw] absolute right-0 top-0 pr-3" />
-                <img src="{{ asset('assets/images/phonics_l2/opot/story3.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/idin/story4.png') }}" class="w-[7vw]" />
             </div>
-            <div class="p-[1vw] rounded-xl border-2 border-[#f7b94a] relative w-fit box h-[10vw]">
+            <div class="p-[1vw] rounded-xl border-2 border-[#f7b94a] relative w-[10vw] box h-[10vw]">
                 <span class="absolute top-0 left-0 pl-4 text-white">4</span>
                 <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}"
                     class="h-[1.5vw] absolute right-0 top-0 pr-3" />
-                <img src="{{ asset('assets/images/phonics_l2/opot/story4.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/idin/story5.png') }}" class="w-[7vw]" />
             </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question done"><span class="absolute left-0 pl-5">1</span> I placed my pot in a spot next to the cot. </div>
-            <div class="question done"><span class="absolute left-0 pl-5">2</span> The pot has a round dot on the top.</div>
-            <div class="question done"><span class="absolute left-0 pl-5">3</span> I had the pot since I was a tot.</div>
-            <div class="question done"><span class="absolute left-0 pl-5">4</span> I was afraid to drop the pot in my shop as it was hot.</div>
+            <div class="question done"><span class="absolute left-0 pl-5">1</span> Sid the kid slid down a pole into a bin. </div>
+            <div class="question done"><span class="absolute left-0 pl-5">2</span> In the bin, he found a thin squid in a tin.</div>
+            <div class="question done"><span class="absolute left-0 pl-5">3</span> The squid hid a fin under the tin</div>
+            <div class="question done"><span class="absolute left-0 pl-5">4</span> And used it to tickle Sid’s chin.</div>
         </div>
     </div>
 
@@ -464,8 +463,8 @@ went into my shop.',
         document.addEventListener("DOMContentLoaded", function() {
 
             /* CONFIG */
-            const returnURL = "{{ url('/phonics_l2/op_ot/opot') }}";
-            const doneURL = "{{ url('/phonics_l2/op_ot/opot') }}";
+            const returnURL = "{{ url('/phonics_l2/id_in/idin') }}";
+            const doneURL = "{{ url('/phonics_l2/id_in/idin') }}";
 
             /* DOM */
             const slides = document.querySelectorAll(".phonics-panel");

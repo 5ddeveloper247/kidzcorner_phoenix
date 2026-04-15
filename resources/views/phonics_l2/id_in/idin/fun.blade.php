@@ -4,85 +4,85 @@
 @php
     $showBackground = true;
 
-    $returnURL = '/phonics_l2/op_ot/opot';
-    $doneURL = '/phonics_l2/op_ot/opot';
+    $returnURL = '/phonics_l2/id_in/idin';
+    $doneURL = '/phonics_l2/id_in/idin';
 
 
 
     $questions = [
         // ── Question 1 ──────────────────────────────────────────
         [
-            'image' => 'assets/images/phonics_l2/opot/fun1.png',
+            'image' => 'assets/images/phonics_l2/idin/fun1.png',
             'imageSize' => 'h-[13vw]',
-            'audio' => 'assets/audio/phonics_audio-2/op_ot/fb-opot1.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/id_in/fb-idin1.m4a',
             'sentence' => [
-                ['type' => 'text', 'text' => 'My sister points to the blue'],
+                ['type' => 'text', 'text' => 'The'],
                 ['type' => 'blank'],
-                ['type' => 'text', 'text' => 'on the'],
+                ['type' => 'text', 'text' => 'with the blue shirt is tall and'],
                 ['type' => 'blank'],
                 ['type' => 'text', 'text' => '.'],
             ],
             'tip' => "Tips: Look at the picture, then read the sentence. <br>
                 Encourage children to sound out the words in parts when in doubt (click on audio if needed).",
             'words' => [
-                ['word' => 'dot', 'answer' => true],
-                ['word' => 'hot', 'answer' => false],
-                ['word' => 'stop',  'answer' => false],
-                ['word' => 'mop', 'answer' => true],
+                ['word' => 'kid', 'answer' => true],
+                ['word' => 'slid', 'answer' => false],
+                ['word' => 'fin',  'answer' => false],
+                ['word' => 'thin', 'answer' => true],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/op_ot/dot.m4a',
-                'assets/audio/phonics_audio-2/op_ot/mop.m4a',
+                'assets/audio/phonics_audio-2/id_in/kid.m4a',
+                'assets/audio/phonics_audio-2/id_in/thin.m4a',
             ],
         ],
 
         // ── Question 2 ──────────────────────────────────────────
         [
-            'image' => 'assets/images/phonics_l2/opot/fun2.png',
+            'image' => 'assets/images/phonics_l2/idin/fun2.png',
             'imageSize' => 'h-[16vw]',
-            'audio' => 'assets/audio/phonics_audio-2/op_ot/fb-opot2.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/id_in/fb-idin2.m4a',
             'sentence' => [
-                ['type' => 'text', 'text' => 'My dad buys a black'],
+                ['type' => 'text', 'text' => 'He'],
                 ['type' => 'blank'],
-                ['type' => 'text', 'text' => 'from the'],
+                ['type' => 'text', 'text' => 'the brown'],
                 ['type' => 'blank'],
-                ['type' => 'text', 'text' => '.'],
+                ['type' => 'text', 'text' => 'under the bed.'],
             ],
             'tip' => null,
             'words' => [
-                ['word' => 'chop', 'answer' => false],
-                ['word' => 'pot', 'answer' => true],
-                ['word' => 'shop', 'answer' => true],
-                ['word' => 'spot', 'answer' => false],
+                ['word' => 'pin', 'answer' => false],
+                ['word' => 'hid', 'answer' => true],
+                ['word' => 'tin', 'answer' => true],
+                ['word' => 'skid', 'answer' => false],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/op_ot/pot.m4a',
-                'assets/audio/phonics_audio-2/op_ot/shop.m4a',
+                'assets/audio/phonics_audio-2/id_in/hid.m4a',
+                'assets/audio/phonics_audio-2/id_in/tin.m4a',
             ],
         ],
 
         // ── Question 3 ──────────────────────────────────────────
         [
-            'image' => 'assets/images/phonics_l2/opot/fun3.png',
+            'image' => 'assets/images/phonics_l2/idin/fun3.png',
             'imageSize' => 'h-[15vw]',
-            'audio' => 'assets/audio/phonics_audio-2/op_ot/fb-opot3.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/id_in/fb-idin3.m4a',
             'sentence' => [
-                ['type' => 'text', 'text' => 'My mother puts the'],
+                ['type' => 'text', 'text' => 'The'],
                 ['type' => 'blank'],
-                ['type' => 'text', 'text' => 'in the baby’s'],
+                ['type' => 'text', 'text' => 'jumps into the yellow'],
                 ['type' => 'blank'],
                 ['type' => 'text', 'text' => '.'],
             ],
             'tip' => null,
             'words' => [
-                ['word' => 'top', 'answer' => true],
-                ['word' => 'rot', 'answer' => false],
-                ['word' => 'cot', 'answer' => true],
-                ['word' => 'drop', 'answer' => false],
+                ['word' => 'squid', 'answer' => true],
+                ['word' => 'lid', 'answer' => false],
+                ['word' => 'bin', 'answer' => true],
+                ['word' => 'chin', 'answer' => false],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/op_ot/top.m4a',
-                'assets/audio/phonics_audio-2/op_ot/cot.m4a',
+                'assets/audio/phonics_audio-2/id_in/squid.m4a',
+                'assets/audio/phonics_audio-2/id_in/bin.m4a',
             ],
         ],
     ];
@@ -138,7 +138,7 @@
 
     {{-- Panel 1: Intro --}}
     <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/fun-blends.m4a') }}">
-        <h2 class="top-title stroke">Fun with Digraphs</h2>
+        <h2 class="top-title stroke">Fun with Words</h2>
         <div class="flex justify-center items-center">
             <img src="{{ asset('assets/images/phonics_l2/global/common/play.png') }}" class="w-[30vw] h-[20vw]" />
             <img src="{{ asset('assets/images/phonicsl1/global/bear.png') }}" class="h-[25vw]" />

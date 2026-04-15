@@ -6,7 +6,7 @@
 
     $targetSound = [
         'text' => 'ot',
-        'audio' => 'assets/audio/phonics_audio-2/op_ot/otah.mp3',
+        'audio' => 'assets/audio/phonics_audio-2/id_in/idah.mp3',
     ];
     $lastBg = 'assets/images/phonics_l2/global/common/m7.png'; 
 
@@ -15,73 +15,73 @@
     $questions = [
         // ── Question 1 ──────────────────────────────────
         [
-            'slideAudio' =>'assets/audio/phonics_audio-2/op_ot/spot-opah.m4a',
+            'slideAudio' =>'assets/audio/phonics_audio-2/id_in/spot-idah.m4a',
             'bgImage' => 'assets/images/phonics_l2/global/common/m1.png',
             'circles' => [
-                ['text' => 'op', 'audio' => 'assets/audio/phonics_audio-2/op_ot/opah.m4a', 'isCorrect' => true],
-                ['text' => 'ag', 'audio' => 'assets/audio/phonics_audio-2/ob_og/agah.m4a', 'isCorrect' => false],
-                ['text' => 'og', 'audio' => 'assets/audio/phonics_audio-2/ob_og/ogah.m4a', 'isCorrect' => false],
-                ['text' => 'ab', 'audio' => 'assets/audio/phonics_audio-2/og_ob/abah.m4a', 'isCorrect' => false],
+                ['text' => 'id', 'audio' => 'assets/audio/phonics_audio-2/id_in/idah.m4a', 'isCorrect' => true],
+                ['text' => 'ig', 'audio' => 'assets/audio/phonics_audio-2/ig_ip/igah.m4a', 'isCorrect' => false],
+                ['text' => 'it', 'audio' => 'assets/audio/phonics_audio-2/it_rev/itah.m4a', 'isCorrect' => false],
+                ['text' => 'ip', 'audio' => 'assets/audio/phonics_audio-2/ig_ip/ipah.m4a', 'isCorrect' => false],
             ],
         ],
 
         // ── Question 2 ──────────────────────────────────
         [
-            'slideAudio' =>'assets/audio/phonics_audio-2/op_ot/spot-otah.m4a',
+            'slideAudio' =>'assets/audio/phonics_audio-2/id_in/spot-inah.m4a',
             'bgImage' => 'assets/images/phonics_l2/global/common/m2.png',
             'circles' => [
-                ['text' => 'ab', 'audio' => 'assets/audio/phonics_audio-2/og_ob/abah.m4a', 'isCorrect' => false],
-                ['text' => 'ot', 'audio' => 'assets/audio/phonics_audio-2/op_ot/otah.m4a', 'isCorrect' => true],
-                ['text' => 'ob', 'audio' => 'assets/audio/phonics_audio-2/ob_og/obah.m4a', 'isCorrect' => false],
-                ['text' => 'ag', 'audio' => 'assets/audio/phonics_audio-2/ob_og/agah.m4a', 'isCorrect' => false],
+                ['text' => 'ig', 'audio' => 'assets/audio/phonics_audio-2/ig_ip/igah.m4a', 'isCorrect' => false],
+                ['text' => 'in', 'audio' => 'assets/audio/phonics_audio-2/id_in/inah.m4a', 'isCorrect' => true],
+                ['text' => 'ip', 'audio' => 'assets/audio/phonics_audio-2/ig_ip/ip.m4a', 'isCorrect' => false],
+                ['text' => 'it', 'audio' => 'assets/audio/phonics_audio-2/it_rev/itah.m4a', 'isCorrect' => false],
             ],
         ],
 
         // ── Question 3 ──────────────────────────────────
         [
-            'slideAudio' =>'assets/audio/phonics_audio-2/op_ot/spot-opah.m4a',
+            'slideAudio' =>'assets/audio/phonics_audio-2/id_in/spot-idah.m4a',
             'bgImage' => 'assets/images/phonics_l2/global/common/m3.png',
             'circles' => [
-                ['text' => 'og', 'audio' => 'assets/audio/phonics_audio-2/ob_og/ogah.m4a', 'isCorrect' => false],
-                ['text' => 'ag', 'audio' => 'assets/audio/phonics_audio-2/ob_og/agah.m4a', 'isCorrect' => false],
-                ['text' => 'ab', 'audio' => 'assets/audio/phonics_audio-2/og_ob/abah.m4a', 'isCorrect' => false],
-                ['text' => 'op', 'audio' => 'assets/audio/phonics_audio-2/op_ot/opah.m4a', 'isCorrect' => true],
+                ['text' => 'it', 'audio' => 'assets/audio/phonics_audio-2/it_rev/itah.m4a', 'isCorrect' => false],
+                ['text' => 'ip', 'audio' => 'assets/audio/phonics_audio-2/ig_ip/ipah.m4a', 'isCorrect' => false],
+                ['text' => 'ig', 'audio' => 'assets/audio/phonics_audio-2/ig_ip/igah.m4a', 'isCorrect' => false],
+                ['text' => 'id', 'audio' => 'assets/audio/phonics_audio-2/id_in/idah.m4a', 'isCorrect' => true],
             ],
         ],
 
         // ── Question 4 ──────────────────────────────────
         [
-            'slideAudio' =>'assets/audio/phonics_audio-2/op_ot/spot-otah.m4a',
+            'slideAudio' =>'assets/audio/phonics_audio-2/id_in/spot-inah.m4a',
             'bgImage' => 'assets/images/phonics_l2/global/common/m4.png',
             'circles' => [
-                ['text' => 'ag', 'audio' => 'assets/audio/phonics_audio-2/ob_og/agah.m4a', 'isCorrect' => false],
-                ['text' => 'ab', 'audio' => 'assets/audio/phonics_audio-2/og_ob/abah.m4a', 'isCorrect' => false],
-                ['text' => 'ob', 'audio' => 'assets/audio/phonics_audio-2/ob_og/obah.m4a', 'isCorrect' => false],
-                ['text' => 'ot', 'audio' => 'assets/audio/phonics_audio-2/op_ot/otah.m4a', 'isCorrect' => true],
+                ['text' => 'ip', 'audio' => 'assets/audio/phonics_audio-2/ig_ip/ip.m4a', 'isCorrect' => false],
+                ['text' => 'ig', 'audio' => 'assets/audio/phonics_audio-2/ig_ip/igah.m4a', 'isCorrect' => false],
+                ['text' => 'it', 'audio' => 'assets/audio/phonics_audio-2/it_rev/itah.m4a', 'isCorrect' => false],
+                ['text' => 'in', 'audio' => 'assets/audio/phonics_audio-2/id_in/inah.m4a', 'isCorrect' => true],
             ],
         ],
 
         // ── Question 5 ──────────────────────────────────
         [
-            'slideAudio' =>'assets/audio/phonics_audio-2/op_ot/spot-opah.m4a',
+            'slideAudio' =>'assets/audio/phonics_audio-2/id_in/spot-idah.m4a',
             'bgImage' => 'assets/images/phonics_l2/global/common/m5.png',
             'circles' => [
-                ['text' => 'op', 'audio' => 'assets/audio/phonics_audio-2/op_ot/opah.m4a', 'isCorrect' => true],
-                ['text' => 'og', 'audio' => 'assets/audio/phonics_audio-2/ob_og/ogah.m4a', 'isCorrect' => false],
-                ['text' => 'ab', 'audio' => 'assets/audio/phonics_audio-2/og_ob/abah.m4a', 'isCorrect' => false],
-                ['text' => 'ag', 'audio' => 'assets/audio/phonics_audio-2/ob_og/agah.m4a', 'isCorrect' => false],
+                ['text' => 'id', 'audio' => 'assets/audio/phonics_audio-2/id_in/idah.m4a', 'isCorrect' => true],
+                ['text' => 'it', 'audio' => 'assets/audio/phonics_audio-2/it_rev/itah.m4a', 'isCorrect' => false],
+                ['text' => 'ig', 'audio' => 'assets/audio/phonics_audio-2/ig_ip/igah.m4a', 'isCorrect' => false],
+                ['text' => 'ip', 'audio' => 'assets/audio/phonics_audio-2/ig_ip/ipah.m4a', 'isCorrect' => false],
             ],
         ],
 
         // ── Question 6 ──────────────────────────────────
         [
-            'slideAudio' =>'assets/audio/phonics_audio-2/op_ot/spot-otah.m4a',
+            'slideAudio' =>'assets/audio/phonics_audio-2/id_in/spot-inah.m4a',
             'bgImage' => 'assets/images/phonics_l2/global/common/m6.png',
             'circles' => [
-                ['text' => 'ab', 'audio' => 'assets/audio/phonics_audio-2/og_ob/abah.m4a', 'isCorrect' => false],
-                ['text' => 'ob', 'audio' => 'assets/audio/phonics_audio-2/ob_og/obah.m4a', 'isCorrect' => false],
-                ['text' => 'ot', 'audio' => 'assets/audio/phonics_audio-2/op_ot/otah.m4a', 'isCorrect' => true],
-                ['text' => 'ag', 'audio' => 'assets/audio/phonics_audio-2/ob_og/agah.m4a', 'isCorrect' => false],
+                ['text' => 'ig', 'audio' => 'assets/audio/phonics_audio-2/ig_ip/igah.m4a', 'isCorrect' => false],
+                ['text' => 'ip', 'audio' => 'assets/audio/phonics_audio-2/ig_ip/ip.m4a', 'isCorrect' => false],
+                ['text' => 'in', 'audio' => 'assets/audio/phonics_audio-2/id_in/inah.m4a', 'isCorrect' => true],
+                ['text' => 'it', 'audio' => 'assets/audio/phonics_audio-2/it_rev/itah.m4a', 'isCorrect' => false],
             ],
         ],
 
@@ -267,8 +267,8 @@
         document.body.dataset.homeRoute = "{{ url('/phonics/l2') }}";
 
         const CONFIG = {
-            returnURL: "{{ url('/phonics_l2/op_ot/opot') }}",
-            doneURL: "{{ url('/phonics_l2/op_ot/opot') }}",
+            returnURL: "{{ url('/phonics_l2/id_in/idin') }}",
+            doneURL: "{{ url('/phonics_l2/id_in/idin') }}",
             cheerAudio: "{{ asset($cheerAudio) }}",
             autoPlayDelay: 500,
             autoAdvanceDelay: 1500,
