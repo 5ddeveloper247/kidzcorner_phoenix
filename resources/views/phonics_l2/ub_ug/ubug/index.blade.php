@@ -20,23 +20,23 @@
 @section('content')
 
     <div>
-        <h2 class="stroke text-[3vw] text-[#f7b94a] ">IG & IP</h2>
+        <h2 class="stroke text-[3vw] text-[#f7b94a] ">UB & UG</h2>
         {{-- Navigations to Inner folders  --}}
         <div id="slide-board" class="grid grid-cols-2 gap-[2vw] mb-[2vw]  text-center justify-content-center">
 
-            <a href="{{ url('/phonics_l2/ig_ip/igip/spot') }}">
+            <a href="{{ url('/phonics_l2/ub_ug/ubug/spot') }}">
                 <img src="{{ asset('assets/images/phonics_l2/global/b9.png') }}" class="mx-auto d-block" />
             </a>
 
-            <a href="{{ url('/phonics_l2/ig_ip/igip/begins') }}">
+            <a href="{{ url('/phonics_l2/ub_ug/ubug/begins') }}">
                 <img src="{{ asset('assets/images/phonics_l2/global/b10.png') }}" class="mx-auto d-block" />
             </a>
 
-            <a href="{{ url('/phonics_l2/ig_ip/igip/fun') }}">
+            <a href="{{ url('/phonics_l2/ub_ug/ubug/fun') }}">
                 <img src="{{ asset('assets/images/phonics_l2/global/b11.png') }}" class="mx-auto d-block" />
             </a>
 
-            <a href="{{ url('/phonics_l2/ig_ip/igip/storytime') }}">
+            <a href="{{ url('/phonics_l2/ub_ug/ubug/storytime') }}">
                 <img src="{{ asset('assets/images/phonics_l2/global/b2.png') }}" class="mx-auto d-block" />
             </a>
 
@@ -47,7 +47,7 @@
 
     <div id="buttons" class="absolute flex flex-row gap-6 z-90">
 
-        <a href="{{ url ('/phonics_l2/ig_ip') }}" id="returnButton">
+        <a href="{{ url ('/phonics_l2/ub_ug') }}" id="returnButton">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/return-btn.png') }}" />
         </a>
 

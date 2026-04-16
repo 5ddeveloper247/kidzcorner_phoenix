@@ -36,15 +36,15 @@
 
     {{-- Panel 2: Song Content Slide --}}
     <div class="phonics-panel flex flex-col mt-[-3vw] h-full items-center space-y-[1.5vw]">
-        <h2 class="large-title stroke">The Ship</h2>
-        <img src="{{ asset('assets/images/phonics_l2/igip/rhyme.png') }}" class="h-[20vw]" />
+        <h2 class="large-title stroke">The Bug</h2>
+        <img src="{{ asset('assets/images/phonics_l2/ubug/rhyme.png') }}" class="h-[20vw]" />
 
         <p class="p-note">Tips: After reciting the rhyme, invite children to find the words that begin with the target blend
             sound. <br>
             Encourage them to find words that rhyme too.</p>
 
         <button class="absolute top-1/2 -translate-1/2 left-[-10vw] w-[4vw]" id="soundButton"
-            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ig_ip/ip-rhyme.mp3') }}">
+            data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ub_ug/ug-rhyme.mp3') }}">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
         </button>
     </div>
@@ -96,8 +96,8 @@
             const doneButton = document.querySelector(".doneButton");
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
-            const returnURL = "{{ url('/phonics_l2/ig_ip/ip') }}";
-            const doneURL = "{{ url('/phonics_l2/ig_ip/ip') }}";
+            const returnURL = "{{ url('/phonics_l2/ub_ug/ug') }}";
+            const doneURL = "{{ url('/phonics_l2/ub_ug/ug') }}";
             const homeURL = document.body.dataset.homeRoute;
 
             let currentSlide = 0;

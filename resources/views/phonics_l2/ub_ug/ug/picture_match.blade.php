@@ -3,8 +3,8 @@
 
 @php
     $showBackground = true;
-    $returnURL = '/phonics_l2/ig_ip/ip';
-    $doneURL = '/phonics_l2/ig_ip/ip';
+    $returnURL = '/phonics_l2/ub_ug/ug';
+    $doneURL = '/phonics_l2/ub_ug/ug';
 
     $questions = [
         // slide 1
@@ -12,12 +12,12 @@
             'tip' => 'Tips: Encourage children to listen and identify the ending sound made when naming the objects.',
             'options' => [
                 [
-                    'image' => 'assets/images/phonics_l2/igip/drip.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ig_ip/drip.m4a',
+                    'image' => 'assets/images/phonics_l2/ubug/plug.png',
+                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/plug.m4a',
                     'image_size' => 'w-[8vw]',
                     'isCorrect' => true,
-                    'word' => 'drip',
-                    'highlight' => 'ip',
+                    'word' => 'plug',
+                    'highlight' => 'ug',
                 ],
                 [
                     'image' => 'assets/images/phonics_l2/opot/hop.png',
@@ -32,17 +32,17 @@
             'tip' => null,
             'options' => [
                 [
-                    'image' => 'assets/images/phonics_l2/idin/spin.png',
-                    'audio' => 'assets/audio/phonics_audio-2/id_in/spin.m4a',
+                    'image' => 'assets/images/phonics_l2/opot/rot.png',
+                    'audio' => 'assets/audio/phonics_audio-2/op_ot/rot.m4a',
                     'image_size' => 'h-[8vw]',
                     'isCorrect' => false,
                 ],
                 [
-                    'image' => 'assets/images/phonics_l2/igip/slip.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ig_ip/slip.m4a',
+                    'image' => 'assets/images/phonics_l2/ubug/mug.png',
+                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/mug.m4a',
                     'isCorrect' => true,
-                    'word' => 'slip',
-                    'highlight' => 'ip',
+                    'word' => 'mug',
+                    'highlight' => 'ug',
                 ],
             ],
         ],
@@ -52,17 +52,17 @@
             'tip' => null,
             'options' => [
                 [
-                    'image' => 'assets/images/phonics_l2/igip/skip.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ig_ip/skip.m4a',
+                    'image' => 'assets/images/phonics_l2/ubug/jug.png',
+                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/jug.m4a',
                     'image_size' => 'h-[8vw]',
                     'isCorrect' => true,
-                    'word' => 'skip',
-                    'highlight' => 'ip',
+                    'word' => 'jug',
+                    'highlight' => 'ug',
                 ],
                 [
-                    'image' => 'assets/images/phonics_l2/idin/spin.png',
-                    'audio' => 'assets/audio/phonics_audio-2/id_in/spin.m4a',
-                    'image_size' => 'h-[8vw]',
+                    'image' => 'assets/images/phonics_l2/obog/log.png',
+                    'audio' => 'assets/audio/phonics_audio-2/ob_og/log.m4a',
+                    'image_size' => 'w-[8vw]',
                     'isCorrect' => false,
                 ],
             ],
@@ -79,12 +79,12 @@
                     'isCorrect' => false,
                 ],
                 [
-                    'image' => 'assets/images/phonics_l2/igip/ship.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ig_ip/ship.m4a',
+                    'image' => 'assets/images/phonics_l2/ubug/hug.png',
+                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/hug.m4a',
                     'image_size' => 'w-[8vw]',
                     'isCorrect' => true,
-                    'word' => 'ship',
-                    'highlight' => 'ip',
+                    'word' => 'hug',
+                    'highlight' => 'ug',
                 ],
             ],
         ],

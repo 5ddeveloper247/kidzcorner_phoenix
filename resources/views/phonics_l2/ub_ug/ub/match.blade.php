@@ -12,37 +12,37 @@
         [
             'type' => 'grid',
             'cols' => 3,
-            'question' => 'Find the picture that end with the /ig/ sound.',
-            'audio' => 'assets/audio/phonics_audio-2/at_rev/match-at.m4a',
+            'question' => 'Find the picture that end with the /ub/ sound.',
+            'audio' => 'assets/audio/phonics_audio-2/ub_ug/match-ub.m4a',
             'cards' => [
                 [
-                    'image' => 'assets/images/phonics_l2/igip/big.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ig_ip/big.m4a',
+                    'image' => 'assets/images/phonics_l2/ubug/cub.png',
+                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/cub.m4a',
                     'correct' => true,
                 ],
                 [
-                    'image' => 'assets/images/phonics_l2/igip/twig.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ig_ip/twig.m4a',
+                    'image' => 'assets/images/phonics_l2/itrev/hit.png',
+                    'audio' => 'assets/audio/phonics_audio-2/it_rev/hit.m4a',
                     'correct' => false,
                 ],
                 [
-                    'image' => 'assets/images/phonics_l2/igip/wig.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ig_ip/wig.m4a',
+                    'image' => 'assets/images/phonics_l2/ubug/tub.png',
+                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/tub.m4a',
                     'correct' => false,
                 ],
                 [
-                    'image' => 'assets/images/phonics_l2/idin/hid.png',
-                    'audio' => 'assets/audio/phonics_audio-2/id_in/hid.m4a',
+                    'image' => 'assets/images/phonics_l2/ubug/rub.png',
+                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/rub.m4a',
                     'correct' => false,
                 ],
                 [
-                    'image' => 'assets/images/phonics_l2/igip/dig.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ig_ip/dig.m4a',
+                    'image' => 'assets/images/phonics_l2/ubug/scrub.png',
+                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/scrub.m4a',
                     'correct' => false,
                 ],
                 [
-                    'image' => 'assets/images/phonics_l2/obog/sob.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ed_et/sled.m4a',
+                    'image' => 'assets/images/phonics_l2/itrev/lit.png',
+                    'audio' => 'assets/audio/phonics_audio-2/it_rev/rev.m4a',
                     'correct' => false,
                 ],
             ],
@@ -51,10 +51,10 @@
         // ── Round 1: Answer —
         [
             'type' => 'answer_word',
-            'image' => 'assets/images/phonics_l2/igip/big.png',
+            'image' => 'assets/images/phonics_l2/ubug/cub.png',
             'imageSize' => 'w-[20vw]',
-            'word' => 'big',
-            'audio' => 'assets/audio/phonics_audio-2/ig_ip/big.m4a',
+            'word' => 'cub',
+            'audio' => 'assets/audio/phonics_audio-2/ub_ug/cub.m4a',
         ],
 
         // ── Round 2: Question grid ──
@@ -62,37 +62,37 @@
             'type' => 'grid',
             'cols' => 3,
             'showTicks' => true,
-            'question' => 'Find the picture that end with the /ig/ sound.',
-            'audio' => 'assets/audio/phonics_audio-2/at_rev/match-at.m4a',
+            'question' => 'Find the picture that end with the /ub/ sound.',
+            'audio' => 'assets/audio/phonics_audio-2/ub_ug/match-ub.m4a',
             'cards' => [
                 [
-                    'image' => 'assets/images/phonics_l2/igip/big.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ig_ip/big.m4a',
+                    'image' => 'assets/images/phonics_l2/ubug/cub.png',
+                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/cub.m4a',
                     'correct' => true,
                 ],
                 [
-                    'image' => 'assets/images/phonics_l2/igip/twig.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ig_ip/twig.m4a',
+                    'image' => 'assets/images/phonics_l2/itrev/hit.png',
+                    'audio' => 'assets/audio/phonics_audio-2/it_rev/hit.m4a',
                     'correct' => false,
                 ],
                 [
-                    'image' => 'assets/images/phonics_l2/igip/wig.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ig_ip/wig.m4a',
+                    'image' => 'assets/images/phonics_l2/ubug/tub.png',
+                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/tub.m4a',
                     'correct' => false,
                 ],
                 [
-                    'image' => 'assets/images/phonics_l2/idin/hid.png',
-                    'audio' => 'assets/audio/phonics_audio-2/id_in/hid.m4a',
+                    'image' => 'assets/images/phonics_l2/ubug/rub.png',
+                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/rub.m4a',
                     'correct' => false,
                 ],
                 [
-                    'image' => 'assets/images/phonics_l2/igip/dig.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ig_ip/dig.m4a',
+                    'image' => 'assets/images/phonics_l2/ubug/scrub.png',
+                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/scrub.m4a',
                     'correct' => false,
                 ],
                 [
-                    'image' => 'assets/images/phonics_l2/obog/sob.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ob_og/sob.m4a',
+                    'image' => 'assets/images/phonics_l2/itrev/lit.png',
+                    'audio' => 'assets/audio/phonics_audio-2/it_rev/lit.m4a',
                     'correct' => false,
                 ],
             ],
@@ -101,10 +101,10 @@
         // ── Round 2: Answer —
         [
             'type' => 'answer_word',
-            'image' => 'assets/images/phonics_l2/igip/twig.png',
+            'image' => 'assets/images/phonics_l2/ubug/tub.png',
             'imageSize' => 'w-[20vw]',
-            'word' => 'twig',
-            'audio' => 'assets/audio/phonics_audio-2/ig_ip/twig.m4a',
+            'word' => 'tub',
+            'audio' => 'assets/audio/phonics_audio-2/ub_ug/tub.m4a',
         ],
 
         // ── Round 3: Question grid ──
@@ -112,37 +112,37 @@
             'type' => 'grid',
             'cols' => 3,
             'showTicks' => true,
-            'question' => 'Find the picture that end with the /ig/ sound.',
-            'audio' => 'assets/audio/phonics_audio-2/at_rev/match-at.m4a',
+            'question' => 'Find the picture that end with the /ub/ sound.',
+            'audio' => 'assets/audio/phonics_audio-2/ub_ug/match-ub.m4a',
             'cards' => [
                 [
-                    'image' => 'assets/images/phonics_l2/igip/big.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ig_ip/big.m4a',
+                    'image' => 'assets/images/phonics_l2/ubug/cub.png',
+                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/cub.m4a',
                     'correct' => true,
                 ],
                 [
-                    'image' => 'assets/images/phonics_l2/igip/twig.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ig_ip/twig.m4a',
+                    'image' => 'assets/images/phonics_l2/itrev/hit.png',
+                    'audio' => 'assets/audio/phonics_audio-2/it_rev/hit.m4a',
+                    'correct' => false,
+                ],
+                [
+                    'image' => 'assets/images/phonics_l2/ubug/tub.png',
+                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/tub.m4a',
                     'correct' => true,
                 ],
                 [
-                    'image' => 'assets/images/phonics_l2/igip/wig.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ig_ip/wig.m4a',
+                    'image' => 'assets/images/phonics_l2/ubug/rub.png',
+                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/rub.m4a',
                     'correct' => false,
                 ],
                 [
-                    'image' => 'assets/images/phonics_l2/idin/hid.png',
-                    'audio' => 'assets/audio/phonics_audio-2/id_in/hid.m4a',
+                    'image' => 'assets/images/phonics_l2/ubug/scrub.png',
+                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/scrub.m4a',
                     'correct' => false,
                 ],
                 [
-                    'image' => 'assets/images/phonics_l2/igip/dig.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ig_ip/dig.m4a',
-                    'correct' => false,
-                ],
-                [
-                    'image' => 'assets/images/phonics_l2/obog/sob.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ob_og/sob.m4a',
+                    'image' => 'assets/images/phonics_l2/itrev/lit.png',
+                    'audio' => 'assets/audio/phonics_audio-2/it_rev/lit.m4a',
                     'correct' => false,
                 ],
             ],
@@ -151,10 +151,10 @@
         // ── Round 3: Answer —
         [
             'type' => 'answer_word',
-            'image' => 'assets/images/phonics_l2/igip/wig.png',
+            'image' => 'assets/images/phonics_l2/ubug/rub.png',
             'imageSize' => 'w-[20vw]',
-            'word' => 'wig',
-            'audio' => 'assets/audio/phonics_audio-2/ig_ip/wig.m4a',
+            'word' => 'rub',
+            'audio' => 'assets/audio/phonics_audio-2/ub_ug/rub.m4a',
         ],
 
         // ── Round 4: ──
@@ -162,37 +162,37 @@
             'type' => 'grid',
             'cols' => 3,
             'showTicks' => true,
-            'question' => 'Find the picture that end with the /ig/ sound.',
-            'audio' => 'assets/audio/phonics_audio-2/at_rev/match-at.m4a',
+            'question' => 'Find the picture that end with the /ub/ sound.',
+            'audio' => 'assets/audio/phonics_audio-2/ub_ug/match-ub.m4a',
             'cards' => [
                 [
-                    'image' => 'assets/images/phonics_l2/igip/big.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ig_ip/big.m4a',
+                    'image' => 'assets/images/phonics_l2/ubug/cub.png',
+                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/cub.m4a',
                     'correct' => true,
                 ],
                 [
-                    'image' => 'assets/images/phonics_l2/igip/twig.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ig_ip/twig.m4a',
-                    'correct' => true,
-                ],
-                [
-                    'image' => 'assets/images/phonics_l2/igip/wig.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ig_ip/wig.m4a',
-                    'correct' => true,
-                ],
-                [
-                    'image' => 'assets/images/phonics_l2/idin/hid.png',
-                    'audio' => 'assets/audio/phonics_audio-2/id_in/hid.m4a',
+                    'image' => 'assets/images/phonics_l2/itrev/hit.png',
+                    'audio' => 'assets/audio/phonics_audio-2/it_rev/hit.m4a',
                     'correct' => false,
                 ],
                 [
-                    'image' => 'assets/images/phonics_l2/igip/dig.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ig_ip/dig.m4a',
+                    'image' => 'assets/images/phonics_l2/ubug/tub.png',
+                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/tub.m4a',
+                    'correct' => true,
+                ],
+                [
+                    'image' => 'assets/images/phonics_l2/ubug/rub.png',
+                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/rub.m4a',
+                    'correct' => true,
+                ],
+                [
+                    'image' => 'assets/images/phonics_l2/ubug/scrub.png',
+                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/scrub.m4a',
                     'correct' => false,
                 ],
                 [
-                    'image' => 'assets/images/phonics_l2/obog/sob.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ob_og/sob.m4a',
+                    'image' => 'assets/images/phonics_l2/itrev/lit.png',
+                    'audio' => 'assets/audio/phonics_audio-2/it_rev/lit.m4a',
                     'correct' => false,
                 ],
             ],
@@ -200,10 +200,10 @@
         // ── Round 4: Answer —
         [
             'type' => 'answer_word',
-            'image' => 'assets/images/phonics_l2/igip/dig.png',
+            'image' => 'assets/images/phonics_l2/ubug/scrub.png',
             'imageSize' => 'w-[20vw]',
-            'word' => 'dig',
-            'audio' => 'assets/audio/phonics_audio-2/ig_ip/dig.m4a',
+            'word' => 'scrub',
+            'audio' => 'assets/audio/phonics_audio-2/ub_ug/scrub.m4a',
         ],
 
         // ── Round 5: ──
@@ -211,37 +211,37 @@
             'type' => 'grid',
             'cols' => 3,
             'showTicks' => true,
-            'question' => 'Find the picture that end with the /ig/ sound.',
-            'audio' => 'assets/audio/phonics_audio-2/at_rev/match-at.m4a',
+            'question' => 'Find the picture that end with the /ub/ sound.',
+            'audio' => 'assets/audio/phonics_audio-2/ub_ug/match-ub.m4a',
             'cards' => [
                 [
-                    'image' => 'assets/images/phonics_l2/igip/big.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ig_ip/big.m4a',
+                    'image' => 'assets/images/phonics_l2/ubug/cub.png',
+                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/cub.m4a',
                     'correct' => true,
                 ],
                 [
-                    'image' => 'assets/images/phonics_l2/igip/twig.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ig_ip/twig.m4a',
-                    'correct' => true,
-                ],
-                [
-                    'image' => 'assets/images/phonics_l2/igip/wig.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ig_ip/wig.m4a',
-                    'correct' => true,
-                ],
-                [
-                    'image' => 'assets/images/phonics_l2/idin/hid.png',
-                    'audio' => 'assets/audio/phonics_audio-2/id_in/hid.m4a',
+                    'image' => 'assets/images/phonics_l2/itrev/hit.png',
+                    'audio' => 'assets/audio/phonics_audio-2/it_rev/hit.m4a',
                     'correct' => false,
                 ],
                 [
-                    'image' => 'assets/images/phonics_l2/igip/dig.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ig_ip/dig.m4a',
+                    'image' => 'assets/images/phonics_l2/ubug/tub.png',
+                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/tub.m4a',
                     'correct' => true,
                 ],
                 [
-                    'image' => 'assets/images/phonics_l2/obog/sob.png',
-                    'audio' => 'assets/audio/phonics_audio-2/ob_og/sob.m4a',
+                    'image' => 'assets/images/phonics_l2/ubug/rub.png',
+                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/rub.m4a',
+                    'correct' => true,
+                ],
+                [
+                    'image' => 'assets/images/phonics_l2/ubug/scrub.png',
+                    'audio' => 'assets/audio/phonics_audio-2/ub_ug/scrub.m4a',
+                    'correct' => true,
+                ],
+                [
+                    'image' => 'assets/images/phonics_l2/itrev/lit.png',
+                    'audio' => 'assets/audio/phonics_audio-2/it_rev/lit.m4a',
                     'correct' => false,
                 ],
             ],
@@ -251,23 +251,23 @@
         [
             'type' => 'bear_summary',
             'audio' => 'assets/audio/phonics_audio-2/op_ot/matched.m4a',
-            'message' => "That's right! <br> Big, Twig, Wig and <br> dig end with the <br> /ig/ sound.",
+            'message' => "That's right! <br> Cub, Tub, Rub and <br> Scrub end with the <br> /ub/ sound.",
             'cols' => 2,
             'cards' => [
                 [
-                    'image' => 'assets/images/phonics_l2/igip/big.png',
+                    'image' => 'assets/images/phonics_l2/ubug/cub.png',
                     'correct' => false,
                 ],
                 [
-                    'image' => 'assets/images/phonics_l2/igip/twig.png',
+                    'image' => 'assets/images/phonics_l2/ubug/tub.png',
                     'correct' => false,
                 ],
                 [
-                    'image' => 'assets/images/phonics_l2/igip/wig.png',
+                    'image' => 'assets/images/phonics_l2/ubug/rub.png',
                     'correct' => false,
                 ],
                 [
-                    'image' => 'assets/images/phonics_l2/igip/dig.png',
+                    'image' => 'assets/images/phonics_l2/ubug/scrub.png',
                     'correct' => false,
                 ],
             ],

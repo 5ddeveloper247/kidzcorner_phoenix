@@ -15,73 +15,73 @@
     $questions = [
         // ── Question 1 ──────────────────────────────────
         [
-            'slideAudio' =>'assets/audio/phonics_audio-2/ig_ip/spot-igah.m4a',
+            'slideAudio' =>'assets/audio/phonics_audio-2/ub_ug/spot-ubah.m4a',
             'bgImage' => 'assets/images/phonics_l2/global/common/m1.png',
             'circles' => [
-                ['text' => 'ig', 'audio' => 'assets/audio/phonics_audio-2/ig_ip/igah.m4a', 'isCorrect' => true],
-                ['text' => 'id', 'audio' => 'assets/audio/phonics_audio-2/id_in/idah.m4a', 'isCorrect' => false],
-                ['text' => 'it', 'audio' => 'assets/audio/phonics_audio-2/it_rev/itah.m4a', 'isCorrect' => false],
-                ['text' => 'ip', 'audio' => 'assets/audio/phonics_audio-2/ig_ip/ipah.m4a', 'isCorrect' => false],
+                ['text' => 'ub', 'audio' => 'assets/audio/phonics_audio-2/ub_ug/ubah.m4a', 'isCorrect' => true],
+                ['text' => 'up', 'audio' => 'assets/audio/phonics_audio-2/un_up/upah.m4a', 'isCorrect' => false],
+                ['text' => 'un', 'audio' => 'assets/audio/phonics_audio-2/un_up/upah.m4a', 'isCorrect' => false],
+                ['text' => 'ug', 'audio' => 'assets/audio/phonics_audio-2/ub_ug/ugah.m4a', 'isCorrect' => false],
             ],
         ],
 
         // ── Question 2 ──────────────────────────────────
         [
-            'slideAudio' =>'assets/audio/phonics_audio-2/ig_ip/spot-ipah.m4a',
+            'slideAudio' =>'assets/audio/phonics_audio-2/ub_ug/spot-ugah.m4a',
             'bgImage' => 'assets/images/phonics_l2/global/common/m2.png',
             'circles' => [
-                ['text' => 'ig', 'audio' => 'assets/audio/phonics_audio-2/ig_ip/igah.m4a', 'isCorrect' => false],
-                ['text' => 'ip', 'audio' => 'assets/audio/phonics_audio-2/ig_ip/ipah.m4a', 'isCorrect' => true],
-                ['text' => 'in', 'audio' => 'assets/audio/phonics_audio-2/id_in/inah.m4a', 'isCorrect' => false],
-                ['text' => 'it', 'audio' => 'assets/audio/phonics_audio-2/it_rev/itah.m4a', 'isCorrect' => false],
+                ['text' => 'un', 'audio' => 'assets/audio/phonics_audio-2/un_up/upah.m4a', 'isCorrect' => false],
+                ['text' => 'ug', 'audio' => 'assets/audio/phonics_audio-2/ub_ug/ugah.m4a', 'isCorrect' => true],
+                ['text' => 'ub', 'audio' => 'assets/audio/phonics_audio-2/ub_ug/ubah.m4a', 'isCorrect' => false],
+                ['text' => 'up', 'audio' => 'assets/audio/phonics_audio-2/un_up/upah.m4a', 'isCorrect' => false],
             ],
         ],
 
         // ── Question 3 ──────────────────────────────────
         [
-            'slideAudio' =>'assets/audio/phonics_audio-2/ig_ip/spot-igah.m4a',
+            'slideAudio' =>'assets/audio/phonics_audio-2/ub_ug/spot-ubah.m4a',
             'bgImage' => 'assets/images/phonics_l2/global/common/m3.png',
             'circles' => [
-                ['text' => 'it', 'audio' => 'assets/audio/phonics_audio-2/it_rev/itah.m4a', 'isCorrect' => false],
-                ['text' => 'ip', 'audio' => 'assets/audio/phonics_audio-2/ig_ip/ipah.m4a', 'isCorrect' => false],
-                ['text' => 'id', 'audio' => 'assets/audio/phonics_audio-2/id_in/idah.m4a', 'isCorrect' => false],
-                ['text' => 'ig', 'audio' => 'assets/audio/phonics_audio-2/ig_ip/igah.m4a', 'isCorrect' => true],
+                ['text' => 'ug', 'audio' => 'assets/audio/phonics_audio-2/ub_ug/ugah.m4a', 'isCorrect' => false],
+                ['text' => 'up', 'audio' => 'assets/audio/phonics_audio-2/un_up/upah.m4a', 'isCorrect' => false],
+                ['text' => 'un', 'audio' => 'assets/audio/phonics_audio-2/un_up/upah.m4a', 'isCorrect' => false],
+                ['text' => 'ub', 'audio' => 'assets/audio/phonics_audio-2/ub_ug/ubah.m4a', 'isCorrect' => true],
             ],
         ],
 
         // ── Question 4 ──────────────────────────────────
         [
-            'slideAudio' =>'assets/audio/phonics_audio-2/ig_ip/spot-ipah.m4a',
+            'slideAudio' =>'assets/audio/phonics_audio-2/ub_ug/spot-ugah.m4a',
             'bgImage' => 'assets/images/phonics_l2/global/common/m4.png',
             'circles' => [
-                ['text' => 'in', 'audio' => 'assets/audio/phonics_audio-2/id_in/inah.m4a', 'isCorrect' => false],
-                ['text' => 'ig', 'audio' => 'assets/audio/phonics_audio-2/ig_ip/igah.m4a', 'isCorrect' => false],
-                ['text' => 'it', 'audio' => 'assets/audio/phonics_audio-2/it_rev/itah.m4a', 'isCorrect' => false],
-                ['text' => 'ip', 'audio' => 'assets/audio/phonics_audio-2/ig_ip/ipah.m4a', 'isCorrect' => true],
+                ['text' => 'un', 'audio' => 'assets/audio/phonics_audio-2/un_up/upah.m4a', 'isCorrect' => false],
+                ['text' => 'ug', 'audio' => 'assets/audio/phonics_audio-2/ub_ug/ugah.m4a', 'isCorrect' => true],
+                ['text' => 'ub', 'audio' => 'assets/audio/phonics_audio-2/ub_ug/ubah.m4a', 'isCorrect' => false],
+                ['text' => 'up', 'audio' => 'assets/audio/phonics_audio-2/un_up/upah.m4a', 'isCorrect' => false],
             ],
         ],
 
         // ── Question 5 ──────────────────────────────────
         [
-            'slideAudio' =>'assets/audio/phonics_audio-2/ig_ip/spot-igah.m4a',
+            'slideAudio' =>'assets/audio/phonics_audio-2/ub_ug/spot-ubah.m4a',
             'bgImage' => 'assets/images/phonics_l2/global/common/m5.png',
             'circles' => [
-                ['text' => 'ig', 'audio' => 'assets/audio/phonics_audio-2/ig_ip/igah.m4a', 'isCorrect' => true],
-                ['text' => 'it', 'audio' => 'assets/audio/phonics_audio-2/it_rev/itah.m4a', 'isCorrect' => false],
-                ['text' => 'id', 'audio' => 'assets/audio/phonics_audio-2/id_in/idah.m4a', 'isCorrect' => false],
-                ['text' => 'ip', 'audio' => 'assets/audio/phonics_audio-2/ig_ip/ipah.m4a', 'isCorrect' => false],
+                ['text' => 'ub', 'audio' => 'assets/audio/phonics_audio-2/ub_ug/ubah.m4a', 'isCorrect' => true],
+                ['text' => 'up', 'audio' => 'assets/audio/phonics_audio-2/un_up/upah.m4a', 'isCorrect' => false],
+                ['text' => 'un', 'audio' => 'assets/audio/phonics_audio-2/un_up/upah.m4a', 'isCorrect' => false],
+                ['text' => 'ug', 'audio' => 'assets/audio/phonics_audio-2/ub_ug/ugah.m4a', 'isCorrect' => false],
             ],
         ],
 
         // ── Question 6 ──────────────────────────────────
         [
-            'slideAudio' =>'assets/audio/phonics_audio-2/ig_ip/spot-ipah.m4a',
+            'slideAudio' =>'assets/audio/phonics_audio-2/ub_ug/spot-ugah.m4a',
             'bgImage' => 'assets/images/phonics_l2/global/common/m6.png',
             'circles' => [
-                ['text' => 'ig', 'audio' => 'assets/audio/phonics_audio-2/ig_ip/igah.m4a', 'isCorrect' => false],
-                ['text' => 'in', 'audio' => 'assets/audio/phonics_audio-2/id_in/inah.m4a', 'isCorrect' => false],
-                ['text' => 'ip', 'audio' => 'assets/audio/phonics_audio-2/ig_ip/ipah.m4a', 'isCorrect' => true],
-                ['text' => 'it', 'audio' => 'assets/audio/phonics_audio-2/it_rev/itah.m4a', 'isCorrect' => false],
+                ['text' => 'un', 'audio' => 'assets/audio/phonics_audio-2/un_up/upah.m4a', 'isCorrect' => false],
+                ['text' => 'ug', 'audio' => 'assets/audio/phonics_audio-2/ub_ug/ugah.m4a', 'isCorrect' => false],
+                ['text' => 'ub', 'audio' => 'assets/audio/phonics_audio-2/ub_ug/ubah.m4a', 'isCorrect' => true],
+                ['text' => 'up', 'audio' => 'assets/audio/phonics_audio-2/un_up/upah.m4a', 'isCorrect' => false],
             ],
         ],
 
@@ -267,8 +267,8 @@
         document.body.dataset.homeRoute = "{{ url('/phonics/l2') }}";
 
         const CONFIG = {
-            returnURL: "{{ url('/phonics_l2/ig_ip/igip') }}",
-            doneURL: "{{ url('/phonics_l2/ig_ip/igip') }}",
+            returnURL: "{{ url('/phonics_l2/ub_ug/ubug') }}",
+            doneURL: "{{ url('/phonics_l2/ub_ug/ubug') }}",
             cheerAudio: "{{ asset($cheerAudio) }}",
             autoPlayDelay: 500,
             autoAdvanceDelay: 1500,

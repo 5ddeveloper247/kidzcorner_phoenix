@@ -4,112 +4,112 @@
     @php
         $showBackground = true;
 
-        $returnURL = '/phonics_l2/ig_ip/igip';
-        $doneURL = '/phonics_l2/ig_ip/igip';
+        $returnURL = '/phonics_l2/ub_ug/ubug';
+        $doneURL = '/phonics_l2/ub_ug/ubug';
         $cheerAudio = 'assets/audio/phonics_audio-2/common/cheering.m4a';
 
         $questions = [
             // ── Question 1 ──────────────────────────────
             [
-                'image' => 'assets/images/phonics_l2/igip/wig.png',
+                'image' => 'assets/images/phonics_l2/ubug/cub.png',
                 'image_size' => 'w-[15vw]',
-                'audio' => 'assets/audio/phonics_audio-2/ig_ip/wig.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ub_ug/cub.m4a',
                 'tip' =>
                     'Tips: Invite children to name the object. <br> Encourage them to listen and identify the initial blend while saying the word.',
 
-                'word_prefix' => 'h',
-                'word_suffix' => 'ig',
+                'word_prefix' => 'c',
+                'word_suffix' => 'ub',
 
                 'boxes' => [
-                    ['text' => 'it', 'audio' => 'assets/audio/phonics_audio-2/it_rev/itah.m4a', 'isCorrect' => false],
-                    ['text' => 'in', 'audio' => 'assets/audio/phonics_audio-2/id_in/inah.m4a', 'isCorrect' => false],
-                    ['text' => 'id', 'audio' => 'assets/audio/phonics_audio-2/id_in/idah.m4a', 'isCorrect' => false],
-                    ['text' => 'ig', 'audio' => 'assets/audio/phonics_audio-2/ig_ip/igah.m4a', 'isCorrect' => true],
+                    ['text' => 'un', 'audio' => 'assets/audio/phonics_audio-2/un_up/unah.m4a', 'isCorrect' => false],
+                    ['text' => 'ug', 'audio' => 'assets/audio/phonics_audio-2/ub_ug/ugah.m4a', 'isCorrect' => false],
+                    ['text' => 'ub', 'audio' => 'assets/audio/phonics_audio-2/ub_ug/ubah.m4a', 'isCorrect' => true],
+                    ['text' => 'ug', 'audio' => 'assets/audio/phonics_audio-2/ub_ug/ugah.m4a', 'isCorrect' => false],
                 ],
             ],
             // ── Question 2 ──────────────────────────────
             [
-                'image' => 'assets/images/phonics_l2/igip/skip.png',
-                'image_size' => 'h-[15vw]',
-                'audio' => 'assets/audio/phonics_audio-2/ig_ip/skip.m4a',
+                'image' => 'assets/images/phonics_l2/ubug/rug.png',
+                'image_size' => 'w-[15vw]',
+                'audio' => 'assets/audio/phonics_audio-2/ub_ug/rug.m4a',
                 'tip' => null,
 
-                'word_prefix' => 'sk',
-                'word_suffix' => 'ip',
+                'word_prefix' => 'r',
+                'word_suffix' => 'ug',
 
                 'boxes' => [
-                    ['text' => 'it', 'audio' => 'assets/audio/phonics_audio-2/it_rev/itah.m4a', 'isCorrect' => false],
-                    ['text' => 'in', 'audio' => 'assets/audio/phonics_audio-2/id_in/inah.m4a', 'isCorrect' => false],
-                    ['text' => 'id', 'audio' => 'assets/audio/phonics_audio-2/id_in/idah.m4a', 'isCorrect' => false],
-                    ['text' => 'ip', 'audio' => 'assets/audio/phonics_audio-2/ig_ip/ipah.m4a', 'isCorrect' => true],
+                    ['text' => 'un', 'audio' => 'assets/audio/phonics_audio-2/un_up/unah.m4a', 'isCorrect' => false],
+                    ['text' => 'ug', 'audio' => 'assets/audio/phonics_audio-2/ub_ug/ugah.m4a', 'isCorrect' => true],
+                    ['text' => 'ub', 'audio' => 'assets/audio/phonics_audio-2/ub_ug/ubah.m4a', 'isCorrect' => false],
+                    ['text' => 'up', 'audio' => 'assets/audio/phonics_audio-2/un_up/upah.m4a', 'isCorrect' => false],
                 ],
             ],
             // ── Question 3 ──────────────────────────────
             [
-                'image' => 'assets/images/phonics_l2/igip/big.png',
+                'image' => 'assets/images/phonics_l2/ubug/tub.png',
                 'image_size' => 'w-[15vw]',
-                'audio' => 'assets/audio/phonics_audio-2/ig_ip/big.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ig_ip/tub.m4a',
                 'tip' => null,
 
-                'word_prefix' => 'b',
-                'word_suffix' => 'ig',
+                'word_prefix' => 't',
+                'word_suffix' => 'ub',
 
                 'boxes' => [
-                    ['text' => 'id', 'audio' => 'assets/audio/phonics_audio-2/id_in/idah.m4a', 'isCorrect' => false],
-                    ['text' => 'it', 'audio' => 'assets/audio/phonics_audio-2/it_rev/itah.m4a', 'isCorrect' => false],
-                    ['text' => 'ip', 'audio' => 'assets/audio/phonics_audio-2/ig_ip/ipah.m4a', 'isCorrect' => false],
-                    ['text' => 'ig', 'audio' => 'assets/audio/phonics_audio-2/ig_ip/igah.m4a', 'isCorrect' => true],
+                    ['text' => 'ub', 'audio' => 'assets/audio/phonics_audio-2/ub_ug/ubah.m4a', 'isCorrect' => true],
+                    ['text' => 'un', 'audio' => 'assets/audio/phonics_audio-2/un_up/unah.m4a', 'isCorrect' => false],
+                    ['text' => 'up', 'audio' => 'assets/audio/phonics_audio-2/un_up/upah.m4a', 'isCorrect' => false],
+                    ['text' => 'ug', 'audio' => 'assets/audio/phonics_audio-2/ub_ug/ugah.m4a', 'isCorrect' => false],
                 ],
             ],
             // ── Question 4 ──────────────────────────────
             [
-                'image' => 'assets/images/phonics_l2/igip/drip.png',
-                'image_size' => 'w-[15vw]',
-                'audio' => 'assets/audio/phonics_audio-2/ig_ip/drip.m4a',
+                'image' => 'assets/images/phonics_l2/ubug/hug.png',
+                'image_size' => 'h-[15vw]',
+                'audio' => 'assets/audio/phonics_audio-2/ub_ug/hug.m4a',
                 'tip' => null,
 
-                'word_prefix' => 'dr',
-                'word_suffix' => 'ip',
+                'word_prefix' => 'h',
+                'word_suffix' => 'ug',
 
                 'boxes' => [
-                    ['text' => 'ip', 'audio' => 'assets/audio/phonics_audio-2/ig_ip/ipah.m4a', 'isCorrect' => true],
-                    ['text' => 'it', 'audio' => 'assets/audio/phonics_audio-2/it_rev/itah.m4a', 'isCorrect' => false],
-                    ['text' => 'in', 'audio' => 'assets/audio/phonics_audio-2/id_in/inah.m4a', 'isCorrect' => false],
-                    ['text' => 'ig', 'audio' => 'assets/audio/phonics_audio-2/ig_ip/igah.m4a', 'isCorrect' => false],
+                    ['text' => 'up', 'audio' => 'assets/audio/phonics_audio-2/un_up/upah.m4a', 'isCorrect' => false],
+                    ['text' => 'un', 'audio' => 'assets/audio/phonics_audio-2/un_up/unah.m4a', 'isCorrect' => false],
+                    ['text' => 'ug', 'audio' => 'assets/audio/phonics_audio-2/ub_ug/ugah.m4a', 'isCorrect' => false],
+                    ['text' => 'ug', 'audio' => 'assets/audio/phonics_audio-2/ub_ug/ugah.m4a', 'isCorrect' => true],
                 ],
             ],
             // ── Question 5 ──────────────────────────────
             [
-                'image' => 'assets/images/phonics_l2/igip/dig.png',
+                'image' => 'assets/images/phonics_l2/ubug/scrub.png',
                 'image_size' => 'w-[15vw]',
-                'audio' => 'assets/audio/phonics_audio-2/ig_ip/dig.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ub_ug/scrub.m4a',
                 'tip' => null,
 
-                'word_prefix' => 'd',
-                'word_suffix' => 'ip',
+                'word_prefix' => 'scr',
+                'word_suffix' => 'ub',
 
                 'boxes' => [
-                    ['text' => 'ig', 'audio' => 'assets/audio/phonics_audio-2/ig_ip/igah.m4a', 'isCorrect' => true],
-                    ['text' => 'ip', 'audio' => 'assets/audio/phonics_audio-2/ig_ip/ipah.m4a', 'isCorrect' => false],
-                    ['text' => 'id', 'audio' => 'assets/audio/phonics_audio-2/id_in/idah.m4a', 'isCorrect' => false],
-                    ['text' => 'it', 'audio' => 'assets/audio/phonics_audio-2/it_rev/itah.m4a', 'isCorrect' => false],
+                    ['text' => 'up', 'audio' => 'assets/audio/phonics_audio-2/un_up/upah.m4a', 'isCorrect' => false],
+                    ['text' => 'ug', 'audio' => 'assets/audio/phonics_audio-2/ub_ug/ugah.m4a', 'isCorrect' => false],
+                    ['text' => 'ub', 'audio' => 'assets/audio/phonics_audio-2/ub_ug/ubah.m4a', 'isCorrect' => true],
+                    ['text' => 'un', 'audio' => 'assets/audio/phonics_audio-2/un_up/unah.m4a', 'isCorrect' => false],
                 ],
             ],
             // ── Question 6    ──────────────────────────────
             [
-                'image' => 'assets/images/phonics_l2/igip/skip.png',
+                'image' => 'assets/images/phonics_l2/ubug/mug.png',
                 'image_size' => 'h-[15vw]',
-                'audio' => 'assets/audio/phonics_audio-2/ig_ip/skip.m4a',
+                'audio' => 'assets/audio/phonics_audio-2/ig_ip/mug.m4a',
                 'tip' => null,
 
-                'word_prefix' => 'sk',
-                'word_suffix' => 'ip',
+                'word_prefix' => 'm',
+                'word_suffix' => 'ug',
 
                 'boxes' => [
-                    ['text' => 'ip', 'audio' => 'assets/audio/phonics_audio-2/ig_ip/ipah.m4a', 'isCorrect' => true],
-                    ['text' => 'in', 'audio' => 'assets/audio/phonics_audio-2/id_in/inah.m4a', 'isCorrect' => false],
-                    ['text' => 'it', 'audio' => 'assets/audio/phonics_audio-2/it_rev/itah.m4a', 'isCorrect' => false],
-                    ['text' => 'id', 'audio' => 'assets/audio/phonics_audio-2/id_in/idah.m4a', 'isCorrect' => false],
+                    ['text' => 'un', 'audio' => 'assets/audio/phonics_audio-2/un_up/unah.m4a', 'isCorrect' => false],
+                    ['text' => 'ug', 'audio' => 'assets/audio/phonics_audio-2/ub_ug/ugah.m4a', 'isCorrect' => true],
+                    ['text' => 'ub', 'audio' => 'assets/audio/phonics_audio-2/ub_ug/ubah.m4a', 'isCorrect' => false],
+                    ['text' => 'up', 'audio' => 'assets/audio/phonics_audio-2/un_up/upah.m4a', 'isCorrect' => false],
                 ],
             ],
         ];

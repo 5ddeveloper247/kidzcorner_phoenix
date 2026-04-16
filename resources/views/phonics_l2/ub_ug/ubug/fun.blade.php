@@ -4,85 +4,85 @@
 @php
     $showBackground = true;
 
-    $returnURL = '/phonics_l2/ig_ip/igip';
-    $doneURL = '/phonics_l2/ig_ip/igip';
+    $returnURL = '/phonics_l2/ub_ug/ubug';
+    $doneURL = '/phonics_l2/ub_ug/ubug';
 
 
 
     $questions = [
         // ── Question 1 ──────────────────────────────────────────
         [
-            'image' => 'assets/images/phonics_l2/igip/fun1.png',
+            'image' => 'assets/images/phonics_l2/ubug/fun1.png',
             'imageSize' => 'h-[13vw]',
-            'audio' => 'assets/audio/phonics_audio-2/ig_ip/fb-igip1.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ub_ug/fb-ubug1.m4a',
             'sentence' => [
-                ['type' => 'text', 'text' => 'My brother used a'],
+                ['type' => 'text', 'text' => 'My grandmother washed the'],
                 ['type' => 'blank'],
-                ['type' => 'text', 'text' => 'to'],
+                ['type' => 'text', 'text' => 'in the'],
                 ['type' => 'blank'],
-                ['type' => 'text', 'text' => 'a hole in the ground.'],
+                ['type' => 'text', 'text' => '.'],
             ],
             'tip' => "Tips: Look at the picture, then read the sentence. <br>
                 Encourage children to sound out the words in parts when in doubt (click on audio if needed).",
             'words' => [
-                ['word' => 'twig', 'answer' => true],
-                ['word' => 'rig', 'answer' => false],
-                ['word' => 'drip',  'answer' => false],
-                ['word' => 'dig', 'answer' => true],
+                ['word' => 'rug', 'answer' => true],
+                ['word' => 'grub', 'answer' => false],
+                ['word' => 'tug',  'answer' => false],
+                ['word' => 'tub', 'answer' => true],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/ig_ip/twig.m4a',
-                'assets/audio/phonics_audio-2/ig_ip/dig.m4a',
+                'assets/audio/phonics_audio-2/ub_ug/rug.m4a',
+                'assets/audio/phonics_audio-2/ub_ug/tub.m4a',
             ],
         ],
 
         // ── Question 2 ──────────────────────────────────────────
         [
-            'image' => 'assets/images/phonics_l2/igip/fun2.png',
+            'image' => 'assets/images/phonics_l2/ubug/fun2.png',
             'imageSize' => 'h-[16vw]',
-            'audio' => 'assets/audio/phonics_audio-2/ig_ip/fb-igip2.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ub_ug/fb-ubug2.m4a',
             'sentence' => [
-                ['type' => 'text', 'text' => 'I took a'],
+                ['type' => 'text', 'text' => 'The '],
                 ['type' => 'blank'],
-                ['type' => 'text', 'text' => 'from the'],
+                ['type' => 'text', 'text' => 'pours the milk from the'],
                 ['type' => 'blank'],
-                ['type' => 'text', 'text' => 'blue cup.'],
+                ['type' => 'text', 'text' => 'into the mug.'],
             ],
             'tip' => null,
             'words' => [
-                ['word' => 'slip', 'answer' => false],
-                ['word' => 'sip', 'answer' => true],
-                ['word' => 'big', 'answer' => true],
-                ['word' => 'fig', 'answer' => false],
+                ['word' => 'plug', 'answer' => false],
+                ['word' => 'cub', 'answer' => true],
+                ['word' => 'jug', 'answer' => true],
+                ['word' => 'rub', 'answer' => false],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/ig_ip/sip.m4a',
-                'assets/audio/phonics_audio-2/ig_ip/big.m4a',
+                'assets/audio/phonics_audio-2/ub_ug/cub.m4a',
+                'assets/audio/phonics_audio-2/ub_ug/jug.m4a',
             ],
         ],
 
         // ── Question 3 ──────────────────────────────────────────
         [
-            'image' => 'assets/images/phonics_l2/igip/fun3.png',
+            'image' => 'assets/images/phonics_l2/ubug/fun3.png',
             'imageSize' => 'h-[15vw]',
-            'audio' => 'assets/audio/phonics_audio-2/ig_ip/fb-igip3.m4a',
+            'audio' => 'assets/audio/phonics_audio-2/ub_ug/fb-ubug3.m4a',
             'sentence' => [
-                ['type' => 'text', 'text' => 'There is a'],
+                ['type' => 'text', 'text' => 'The bug'],
                 ['type' => 'blank'],
-                ['type' => 'text', 'text' => 'on my mother’s'],
+                ['type' => 'text', 'text' => 'a hole and found a'],
                 ['type' => 'blank'],
                 ['type' => 'text', 'text' => '.'],
             ],
             'tip' => null,
             'words' => [
-                ['word' => 'clip', 'answer' => true],
-                ['word' => 'trip', 'answer' => false],
-                ['word' => 'wig', 'answer' => true],
-                ['word' => 'jig', 'answer' => false],
+                ['word' => 'dug', 'answer' => true],
+                ['word' => 'scrub', 'answer' => false],
+                ['word' => 'club', 'answer' => true],
+                ['word' => 'hub', 'answer' => false],
             ],
             'answerAudios' => [
-                'assets/audio/phonics_audio-2/ig_ip/clip.m4a',
-                'assets/audio/phonics_audio-2/ig_ip/wig.m4a',
+                'assets/audio/phonics_audio-2/ub_ug/dug.m4a',
+                'assets/audio/phonics_audio-2/ub_ug/club.m4a',
             ],
         ],
     ];

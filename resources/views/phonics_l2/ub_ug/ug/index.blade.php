@@ -19,23 +19,23 @@
 @section('content')
 
     <div>
-        <h2 class="stroke text-[3vw] text-[#f7b94a] ">IP</h2>
+        <h2 class="stroke text-[3vw] text-[#f7b94a] ">UG</h2>
         {{-- Navigations to Inner folders  --}}
         <div id="slide-board" class="grid grid-cols-2 gap-[2vw] mb-[2vw]  text-center justify-content-center">
 
-            <a href="{{ url('/phonics_l2/ig_ip/ip/say') }}">
+            <a href="{{ url('/phonics_l2/ub_ug/ug/say') }}">
                 <img src="{{ asset('assets/images/phonics_l2/global/b12.png') }}" class="mx-auto d-block" />
             </a>
 
-            <a href="{{ url('/phonics_l2/ig_ip/ip/rhyme') }}">
+            <a href="{{ url('/phonics_l2/ub_ug/ug/rhyme') }}">
                 <img src="{{ asset('assets/images/phonics_l2/global/b6.png') }}" class="mx-auto d-block" />
             </a>
 
-            <a href="{{ url('/phonics_l2/ig_ip/ip/match') }}">
+            <a href="{{ url('/phonics_l2/ub_ug/ug/match') }}">
                 <img src="{{ asset('assets/images/phonics_l2/global/b8.png') }}" class="mx-auto d-block" />
             </a>
 
-            <a href="{{ url('/phonics_l2/ig_ip/ip/picture_match') }}">
+            <a href="{{ url('/phonics_l2/ub_ug/ug/picture_match') }}">
                 <img src="{{ asset('assets/images/phonics_l2/global/b13.png') }}" class="mx-auto d-block" />
             </a>
 
@@ -46,7 +46,7 @@
 
     <div id="buttons" class="absolute flex flex-row gap-6 z-90">
 
-        <a href="{{ url ('/phonics_l2/ig_ip') }}" id="returnButton">
+        <a href="{{ url ('/phonics_l2/ub_ug') }}" id="returnButton">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/return-btn.png') }}" />
         </a>
 

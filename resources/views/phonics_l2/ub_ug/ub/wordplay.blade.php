@@ -5,53 +5,53 @@
     $showBackground = true;
 
     // URLS
-    $returnURL = '/phonics_l2/ig_ip/ig';
-    $doneURL = '/phonics_l2/ig_ip/ig';
+    $returnURL = '/phonics_l2/ub_ug/ub';
+    $doneURL = '/phonics_l2/ub_ug/ub';
 
     $panels = [
         [
-            'image' => 'phonics_l2/igip/big.png',
+            'image' => 'phonics_l2/ubug/tub.png',
             'imageSize' => 'w-[16vw]',
-            'options' => ['bag', 'big'],
-            'answer' => 'big',
-            'before' => 'b', 
-            'highlight' => 'ig',
+            'options' => ['tab', 'tub'],
+            'answer' => 'tub',
+            'before' => 't', 
+            'highlight' => 'ub',
             'after' => '', 
-            'audio' => 'ig_ip/big.m4a',
+            'audio' => 'ub_ug/tub.m4a',
             'tip' =>
                 'Tip: Invite children to sound out each word by parts (e.g. /t/.../op/) <br> before selecting the word that matches the picture.',
         ],
         [
-            'image' => 'phonics_l2/igip/dig.png',
+            'image' => 'phonics_l2/ubug/rub.png',
             'imageSize' => 'w-[20vw]',
-            'options' => ['dig', 'dog'],
-            'answer' => 'dig',
-            'before' => 'd',
-            'highlight' => 'ig',
+            'options' => ['rub', 'rat'],
+            'answer' => 'rub',
+            'before' => 'r',
+            'highlight' => 'ub',
             'after' => '',
-            'audio' => 'ig_ip/dig.m4a',
+            'audio' => 'ub_ug/rub.m4a',
             'tip' => null,
         ],
         [
-            'image' => 'phonics_l2/igip/wig.png',
+            'image' => 'phonics_l2/ubug/cub.png',
             'imageSize' => 'w-[20vw]',
-            'options' => ['wag', 'wig'],
-            'answer' => 'wig',
-            'before' => 'w',
-            'highlight' => 'ig',
+            'options' => ['cup', 'cub'],
+            'answer' => 'cub',
+            'before' => 'c',
+            'highlight' => 'ub',
             'after' => '',
-            'audio' => 'ig_ip/wig.m4a',
+            'audio' => 'ub_ug/cub.m4a',
             'tip' => null,
         ],
         [
-            'image' => 'phonics_l2/igip/twig.png',
+            'image' => 'phonics_l2/ubug/scrub.png',
             'imageSize' => 'w-[20vw]',
-            'options' => ['twig', 'tag'],
-            'answer' => 'twig',
-            'before' => 'tw',
-            'highlight' => 'ig',
+            'options' => ['scrub', 'tag'],
+            'answer' => 'scrub',
+            'before' => 'scr',
+            'highlight' => 'ub',
             'after' => '',
-            'audio' => 'ig_ip/twig.m4a',
+            'audio' => 'ub_ug/scrub.m4a',
             'tip' => null,
         ],
     ];

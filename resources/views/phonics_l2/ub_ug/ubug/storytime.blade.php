@@ -51,76 +51,76 @@
 
         $storySlides = [
             [
-                'audio' => 'assets/audio/phonics_audio-2/ig_ip/st1.m4a',
-                'image' => 'assets/images/phonics_l2/igip/story1.png',
-                'text' => 'Zig and his Ship',
+                'audio' => 'assets/audio/phonics_audio-2/ub_ug/st1.m4a',
+                'image' => 'assets/images/phonics_l2/ubug/story1.png',
+                'text' => 'The Cub and the Bug',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ig_ip/st2.m4a',
-                'image' => 'assets/images/phonics_l2/igip/story2.png',
-                'text' => 'My name is Zig and I am the captain of the ship.',
+                'audio' => 'assets/audio/phonics_audio-2/ub_ug/st2.m4a',
+                'image' => 'assets/images/phonics_l2/ubug/story2.png',
+                'text' => 'Doug the cub was in his tub giving himself a scrub.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ig_ip/st3.m4a',
-                'image' => 'assets/images/phonics_l2/igip/story3.png',
-                'text' => 'The sail of my ship is help up by a big clip.',
+                'audio' => 'assets/audio/phonics_audio-2/ub_ug/st3.m4a',
+                'image' => 'assets/images/phonics_l2/ubug/story3.png',
+                'text' => 'A bug was merrily crawling up a plug.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ig_ip/st4.m4a',
-                'image' => 'assets/images/phonics_l2/igip/story4.png',
-                'text' => 'At sea, I like to skip around with my whip.',
+                'audio' => 'assets/audio/phonics_audio-2/ub_ug/st4.m4a',
+                'image' => 'assets/images/phonics_l2/ubug/story4.png',
+                'text' => 'Slipped and bounced off a hub that was on rug.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ig_ip/st5.m4a',
-                'image' => 'assets/images/phonics_l2/igip/story5.png',
-                'text' => 'Which sometimes makes me trip.',
+                'audio' => 'assets/audio/phonics_audio-2/ub_ug/st5.m4a',
+                'image' => 'assets/images/phonics_l2/ubug/story5.png',
+                'text' => 'The bug then flew straight into the tub.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ig_ip/st6.m4a',
-                'image' => 'assets/images/phonics_l2/igip/story6.png',
-                'text' => 'At night, I like to wear a wig and dance a fancy jig.',
+                'audio' => 'assets/audio/phonics_audio-2/ub_ug/st6.m4a',
+                'image' => 'assets/images/phonics_l2/ubug/story6.png',
+                'text' => 'Doug tried to scoop the bug out with his club.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ig_ip/st7.m4a',
-                'image' => 'assets/images/phonics_l2/igip/story7.png',
-                'text' => 'On land, I like to eat a fig just before I dig with my twig.',
+                'audio' => 'assets/audio/phonics_audio-2/ub_ug/st7.m4a',
+                'image' => 'assets/images/phonics_l2/ubug/story7.png',
+                'text' => 'But the frightened bug scurried out of the tub.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ig_ip/st8.m4a',
-                'image' => 'assets/images/phonics_l2/igip/story8.png',
-                'text' => 'My name is Zig and I love my ship.',
+                'audio' => 'assets/audio/phonics_audio-2/ub_ug/st8.m4a',
+                'image' => 'assets/images/phonics_l2/ubug/story8.png',
+                'text' => 'Slipped and ended up in Doug’s mug.',
             ],
         ];
 
         $storyQuestions = [
             [
-                'audio' => 'assets/audio/phonics_audio-2/ig_ip/stq1.m4a',
-                'question' => "Who is \n Zig?",
+                'audio' => 'assets/audio/phonics_audio-2/ub_ug/stq1.m4a',
+                'question' => "What was Doug \ndoing in hus \n tub?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ig_ip/stq2.m4a',
-                'question' => "What is used to\n hold up \nthe sail?",
+                'audio' => 'assets/audio/phonics_audio-2/ub_ug/stq2.m4a',
+                'question' => "What was the \n bug doing?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ig_ip/stq3.m4a',
-                'question' => "What makes\n him trip?",
+                'audio' => 'assets/audio/phonics_audio-2/ub_ug/stq3.m4a',
+                'question' => "How did the bug \n get into the \n tub?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ig_ip/stq4.m4a',
-                'question' => "What does he \n like to do \n at night?",
+                'audio' => 'assets/audio/phonics_audio-2/ub_ug/stq4.m4a',
+                'question' => "What did Doug\n do to help the \n bug?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ig_ip/stq5.m4a',
-                'question' => "What does he \n like to do \n on land?",
+                'audio' => 'assets/audio/phonics_audio-2/ub_ug/stq5.m4a',
+                'question' => "Why was the bug \n frightened?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
             [
-                'audio' => 'assets/audio/phonics_audio-2/ig_ip/stq5.m4a',
-                'question' => "What would you \n do if you are the \n captain of a ship?",
+                'audio' => 'assets/audio/phonics_audio-2/ub_ug/stq5.m4a',
+                'question' => "How would you \n help the bug?",
                 'tip' => 'Tip: Elicit response from children.',
             ],
         ];
@@ -197,27 +197,27 @@
     </div>
 
     {{-- Panel 14 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ig_ip/st2.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ub_ug/st2.m4a') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/igip/story7.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/ubug/story3.png') }}" class="w-[7vw]" />
             </div>
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/igip/story6.png') }}" class="h-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/ubug/story4.png') }}" class="h-[7vw]" />
             </div>
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/igip/story1.png') }}" class="w-[7vw] answer" />
+                <img src="{{ asset('assets/images/phonics_l2/ubug/story6.png') }}" class="w-[7vw] answer" />
             </div>
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/igip/story2.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/ubug/story2.png') }}" class="w-[7vw]" />
             </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question bg-[#f7b94a]! text-[#A15E0D]!">My name is Zig and I am the captain of the ship</div>
-            <div class="question">The sail of my ship is help up by a big clip</div>
-            <div class="question">At night, I like to wear a wig and dance a fancy jig</div>
-            <div class="question">On land, I like to eat a fig just before I dig with my twig.</div>
+            <div class="question bg-[#f7b94a]! text-[#A15E0D]!">Doug the cub was in his tub giving himself a scrub.</div>
+            <div class="question">A bug was merrily crawling up a plug.</div>
+            <div class="question">Slipped and bounced off a hub that was on a rug.</div>
+            <div class="question">Doug tried to scoop the bug out with his club.</div>
         </div>
     </div>
 
@@ -229,50 +229,50 @@
                 <span class="absolute top-0 left-0 pl-4 text-white">1</span>
                 <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}"
                     class="h-[1.5vw] absolute right-0 top-0 pr-3" />
-                <img src="{{ asset('assets/images/phonics_l2/igip/story1.png') }}" class="h-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/ubug/story2.png') }}" class="h-[7vw]" />
             </div>
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/igip/story7.png') }}" class="w-[7vw]" />
-            </div>
-
-            <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/igip/story6.png') }}" class="h-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/ubug/story3.png') }}" class="w-[7vw]" />
             </div>
 
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/igip/story2.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/ubug/story4.png') }}" class="h-[7vw]" />
+            </div>
+
+            <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
+                <img src="{{ asset('assets/images/phonics_l2/ubug/story6.png') }}" class="w-[7vw]" />
             </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question done"><span class="absolute left-0 pl-5">1</span> My name is Zig and I am the captain of the ship </div>
-            <div class="question">The sail of my ship is help up by a big clip</div>
-            <div class="question">At night, I like to wear a wig and dance a fancy jig</div>
-            <div class="question">On land, I like to eat a fig just before I dig with my twig.</div>
+            <div class="question done"><span class="absolute left-0 pl-5">1</span> Doug the cub was in his tub giving himself a scrub. </div>
+            <div class="question">A bug was merrily crawling up a plug.</div>
+            <div class="question">Slipped and bounced off a hub that was on a rug.</div>
+            <div class="question">Doug tried to scoop the bug out with his club.</div>
         </div>
     </div>
 
     {{-- Panel 16 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ig_ip/st3.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ub_ug/st3.m4a') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/igip/story7.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/ubug/story3.png') }}" class="w-[7vw]" />
             </div>
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/igip/story6.png') }}" class="h-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/ubug/story4.png') }}" class="h-[7vw]" />
             </div>
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/igip/story1.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/ubug/story6.png') }}" class="w-[7vw]" />
             </div>
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/igip/story2.png') }}" class="w-[7vw] answer" />
+                <img src="{{ asset('assets/images/phonics_l2/ubug/story2.png') }}" class="w-[7vw] answer" />
             </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question">My name is Zig and I am the captain of the ship</div>
-            <div class="question bg-[#f7b94a]! text-[#A15E0D]!">The sail of my ship is help up by a big clip</div>
-            <div class="question">At night, I like to wear a wig and dance a fancy jig</div>
-            <div class="question">On land, I like to eat a fig just before I dig with my twig.</div>
+            <div class="question">Doug the cub was in his tub giving himself a scrub.</div>
+            <div class="question bg-[#f7b94a]! text-[#A15E0D]!">A bug was merrily crawling up a plug.</div>
+            <div class="question">Slipped and bounced off a hub that was on a rug.</div>
+            <div class="question">Doug tried to scoop the bug out with his club.</div>
         </div>
     </div>
 
@@ -285,51 +285,51 @@
                 <span class="absolute top-0 left-0 pl-4 text-white">1</span>
                 <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}"
                     class="h-[1.5vw] absolute right-0 top-0 pr-3" />
-                <img src="{{ asset('assets/images/phonics_l2/igip/story1.png') }}" class="h-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/ubug/story2.png') }}" class="h-[7vw]" />
             </div>
             <div class="p-[1vw] rounded-xl border-2 border-[#f7b94a] relative w-[10vw] box h-[10vw]">
                 <span class="absolute top-0 left-0 pl-4 text-white">2</span>
                 <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}"
                     class="h-[1.5vw] absolute right-0 top-0 pr-3" />
-                <img src="{{ asset('assets/images/phonics_l2/igip/story2.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/ubug/story3.png') }}" class="w-[7vw]" />
             </div>
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/igip/story7.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/ubug/story6.png') }}" class="w-[7vw]" />
             </div>
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/igip/story6.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/ubug/story4.png') }}" class="w-[7vw]" />
             </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question done"><span class="absolute left-0 pl-5">1</span> My name is Zig and I am the captain of the ship</div>
-            <div class="question done"><span class="absolute left-0 pl-5">2</span> The sail of my ship is help up by a big clip </div>
-            <div class="question">At night, I like to wear a wig and dance a fancy jig</div>
-            <div class="question">On land, I like to eat a fig just before I dig with my twig.</div>
+            <div class="question done"><span class="absolute left-0 pl-5">1</span> Doug the cub was in his tub giving himself a scrub.</div>
+            <div class="question done"><span class="absolute left-0 pl-5">2</span> A bug was merrily crawling up a plug. </div>
+            <div class="question">Slipped and bounced off a hub that was on a rug.</div>
+            <div class="question">Doug tried to scoop the bug out with his club.</div>
         </div>
     </div>
 
     {{-- Panel 18 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ig_ip/st4.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ub_ug/st4.m4a') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/igip/story7.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/ubug/story3.png') }}" class="w-[7vw]" />
             </div>
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/igip/story6.png') }}" class="h-[7vw] answer" />
+                <img src="{{ asset('assets/images/phonics_l2/ubug/story4.png') }}" class="h-[7vw] answer" />
             </div>
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/igip/story1.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/ubug/story6.png') }}" class="w-[7vw]" />
             </div>
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/igip/story2.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/ubug/story2.png') }}" class="w-[7vw]" />
             </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question">My name is Zig and I am the captain of the ship</div>
-            <div class="question">The sail of my ship is help up by a big clip</div>
-            <div class="question bg-[#f7b94a]! text-[#A15E0D]!">At night, I like to wear a wig and dance a fancy jig</div>
-            <div class="question">On land, I like to eat a fig just before I dig with my twig.</div>
+            <div class="question">Doug the cub was in his tub giving himself a scrub.</div>
+            <div class="question">A bug was merrily crawling up a plug.</div>
+            <div class="question bg-[#f7b94a]! text-[#A15E0D]!">Slipped and bounced off a hub that was on a rug.</div>
+            <div class="question">Doug tried to scoop the bug out with his club.</div>
         </div>
     </div>
 
@@ -342,54 +342,54 @@
                 <span class="absolute top-0 left-0 pl-4 text-white">1</span>
                 <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}"
                     class="h-[1.5vw] absolute right-0 top-0 pr-3" />
-                <img src="{{ asset('assets/images/phonics_l2/igip/story1.png') }}" class="h-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/ubug/story2.png') }}" class="h-[7vw]" />
             </div>
             <div class="p-[1vw] rounded-xl border-2 border-[#f7b94a] relative w-[10vw] box h-[10vw]">
                 <span class="absolute top-0 left-0 pl-4 text-white">2</span>
                 <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}"
                     class="h-[1.5vw] absolute right-0 top-0 pr-3" />
-                <img src="{{ asset('assets/images/phonics_l2/igip/story2.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/ubug/story3.png') }}" class="w-[7vw]" />
             </div>
             <div class="p-[1vw] rounded-xl border-2 border-[#f7b94a] relative w-[10vw] box h-[10vw]">
                 <span class="absolute top-0 left-0 pl-4 text-white">3</span>
                 <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}"
                     class="h-[1.5vw] absolute right-0 top-0 pr-3" />
-                <img src="{{ asset('assets/images/phonics_l2/igip/story6.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/ubug/story4.png') }}" class="w-[7vw]" />
             </div>
             <div class="p-[1vw] rounded-xl border-2 border-[#f7b94a]">
-                <img src="{{ asset('assets/images/phonics_l2/igip/story7.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/ubug/story6.png') }}" class="w-[7vw]" />
             </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question done"><span class="absolute left-0 pl-5">1</span> My name is Zig and I am the captain of the ship</div>
-            <div class="question done"><span class="absolute left-0 pl-5">2</span> The sail of my ship is help up by a big clip</div>
-            <div class="question done"><span class="absolute left-0 pl-5">3</span> At night, I like to wear a wig and dance a fancy jig</div>
-            <div class="question">On land, I like to eat a fig just before I dig with my twig.</div>
+            <div class="question done"><span class="absolute left-0 pl-5">1</span> Doug the cub was in his tub giving himself a scrub.</div>
+            <div class="question done"><span class="absolute left-0 pl-5">2</span> A bug was merrily crawling up a plug.</div>
+            <div class="question done"><span class="absolute left-0 pl-5">3</span> Slipped and bounced off a hub that was on a rug.</div>
+            <div class="question">Doug tried to scoop the bug out with his club.</div>
         </div>
     </div>
 
     {{-- Panel 20 --}}
-    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ig_ip/st5.m4a') }}">
+    <div class="phonics-panel mb-[2vw]" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/ub_ug/st5.m4a') }}">
         <h2 class="title-top">Find the picture that goes with the sentence.</h2>
         <div class="flex items-center h-fit gap-[2vw]">
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/igip/story7.png') }}" class="w-[7vw] answer" />
+                <img src="{{ asset('assets/images/phonics_l2/ubug/story3.png') }}" class="w-[7vw] answer" />
             </div>
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/igip/story6.png') }}" class="h-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/ubug/story4.png') }}" class="h-[7vw]" />
             </div>
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/igip/story1.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/ubug/story6.png') }}" class="w-[7vw]" />
             </div>
             <div class="p-[0.5vw] rounded-xl border-2 border-[#f7b94a] w-[10vw] h-[10vw] box">
-                <img src="{{ asset('assets/images/phonics_l2/igip/story2.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/ubug/story2.png') }}" class="w-[7vw]" />
             </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question">My name is Zig and I am the captain of the ship</div>
-            <div class="question">The sail of my ship is help up by a big clip</div>
-            <div class="question">At night, I like to wear a wig and dance a fancy jig</div>
-            <div class="question bg-[#f7b94a]! text-[#A15E0D]!">On land, I like to eat a fig just before I dig with my twig.</div>
+            <div class="question">Doug the cub was in his tub giving himself a scrub.</div>
+            <div class="question">A bug was merrily crawling up a plug.</div>
+            <div class="question">Slipped and bounced off a hub that was on a rug.</div>
+            <div class="question bg-[#f7b94a]! text-[#A15E0D]!">Doug tried to scoop the bug out with his club.</div>
         </div>
     </div>
 
@@ -402,32 +402,32 @@
                 <span class="absolute top-0 left-0 pl-4 text-white">1</span>
                 <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}"
                     class="h-[1.5vw] absolute right-0 top-0 pr-3" />
-                <img src="{{ asset('assets/images/phonics_l2/igip/story1.png') }}" class="h-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/ubug/story2.png') }}" class="h-[7vw]" />
             </div>
             <div class="p-[1vw] rounded-xl border-2 border-[#f7b94a] relative w-[10vw] box h-[10vw]">
                 <span class="absolute top-0 left-0 pl-4 text-white">2</span>
                 <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}"
                     class="h-[1.5vw] absolute right-0 top-0 pr-3" />
-                <img src="{{ asset('assets/images/phonics_l2/igip/story2.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/ubug/story3.png') }}" class="w-[7vw]" />
             </div>
             <div class="p-[1vw] rounded-xl border-2 border-[#f7b94a] relative w-[10vw] box h-[10vw]">
                 <span class="absolute top-0 left-0 pl-4 text-white">3</span>
                 <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}"
                     class="h-[1.5vw] absolute right-0 top-0 pr-3" />
-                <img src="{{ asset('assets/images/phonics_l2/igip/story6.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/ubug/story4.png') }}" class="w-[7vw]" />
             </div>
             <div class="p-[1vw] rounded-xl border-2 border-[#f7b94a] relative w-[10vw] box h-[10vw]">
                 <span class="absolute top-0 left-0 pl-4 text-white">4</span>
                 <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}"
                     class="h-[1.5vw] absolute right-0 top-0 pr-3" />
-                <img src="{{ asset('assets/images/phonics_l2/igip/story7.png') }}" class="w-[7vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/ubug/story6.png') }}" class="w-[7vw]" />
             </div>
         </div>
         <div class="flex flex-col gap-[0.5vw] justify-center mt-4">
-            <div class="question done"><span class="absolute left-0 pl-5">1</span> My name is Zig and I am the captain of the ship </div>
-            <div class="question done"><span class="absolute left-0 pl-5">2</span> The sail of my ship is help up by a big clip</div>
-            <div class="question done"><span class="absolute left-0 pl-5">3</span> At night, I like to wear a wig and dance a fancy jig</div>
-            <div class="question done"><span class="absolute left-0 pl-5">4</span> On land, I like to eat a fig just before I dig with my twig.</div>
+            <div class="question done"><span class="absolute left-0 pl-5">1</span> Doug the cub was in his tub giving himself a scrub. </div>
+            <div class="question done"><span class="absolute left-0 pl-5">2</span> A bug was merrily crawling up a plug.</div>
+            <div class="question done"><span class="absolute left-0 pl-5">3</span> Slipped and bounced off a hub that was on a rug.</div>
+            <div class="question done"><span class="absolute left-0 pl-5">4</span> Doug tried to scoop the bug out with his club.</div>
         </div>
     </div>
 
@@ -473,8 +473,8 @@
         document.addEventListener("DOMContentLoaded", function() {
 
             /* CONFIG */
-            const returnURL = "{{ url('/phonics_l2/ig_ip/igip') }}";
-            const doneURL = "{{ url('/phonics_l2/ig_ip/igip') }}";
+            const returnURL = "{{ url('/phonics_l2/ub_ug/ubug') }}";
+            const doneURL = "{{ url('/phonics_l2/ub_ug/ubug') }}";
 
             /* DOM */
             const slides = document.querySelectorAll(".phonics-panel");
