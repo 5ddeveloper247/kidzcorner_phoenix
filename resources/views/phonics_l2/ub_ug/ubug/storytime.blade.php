@@ -150,7 +150,7 @@
         <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
             data-slide-audio="{{ asset($slide['audio']) }}">
             <h2 class="title-top stroke">
-                {{ $storySlides[0]['text'] === $slide['text'] ? 'Zig and his Ship' : '' }}
+                {{ $storySlides[0]['text'] === $slide['text'] ? 'The Cub and the Bug' : '' }}
             </h2>
             <img src="{{ asset($slide['image']) }}" class="{{ $loop->first ? 'h-[20vw]' : 'h-[20vw]' }}" />
             @if (!$loop->first)

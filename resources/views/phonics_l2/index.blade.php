@@ -156,7 +156,7 @@
             <img src="{{ asset('assets/images/phonics_l2/global/g27.png') }}" />
         </a>
 
-        <a href="{{ url('/phonics_l2/ut_ug') }}">
+        <a href="{{ url('/phonics_l2/ut_rev') }}">
             <img src="{{ asset('assets/images/phonics_l2/global/g28.png') }}" />
         </a>
 
