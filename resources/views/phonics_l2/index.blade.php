@@ -181,24 +181,24 @@
     {{-- Phonics l2 --}}
     <div id="slide-board" class="grid grid-cols-3 gap-[2vw] mb-[2vw] hidden text-center justify-content-center">
 
-        <a href="{{ url('/phonics_l2/write1') }}">
+        <a href="{{ url('/phonics_l2/lrw1') }}">
             <img src="{{ asset('assets/images/phonics_l2/global/g33.png') }}" class="mx-auto d-block" />
         </a>
 
-        <a href="{{ url('/phonics_l2/write2') }}">
+        <a href="{{ url('/phonics_l2/lrw2') }}">
             <img src="{{ asset('assets/images/phonics_l2/global/g34.png') }}" class="mx-auto d-block" />
         </a>
 
-        <a href="{{ url('/phonics_l2/write3') }}">
+        <a href="{{ url('/phonics_l2/lrw3') }}">
             <img src="{{ asset('assets/images/phonics_l2/global/g35.png') }}" class="mx-auto d-block" />
         </a>
 
         <div class="col-span-3 flex justify-center items-center gap-[2vw]">
-            <a href="{{ url('/phonics_l2/write4') }}">
+            <a href="{{ url('/phonics_l2/lrw4') }}">
                 <img src="{{ asset('assets/images/phonics_l2/global/g36.png') }}" class="mx-auto d-block" />
             </a>
 
-            <a href="{{ url('/phonics_l2/write5') }}">
+            <a href="{{ url('/phonics_l2/lrw5') }}">
                 <img src="{{ asset('assets/images/phonics_l2/global/g37.png') }}" class="mx-auto d-block" />
             </a>
         </div>
