@@ -52,8 +52,7 @@
 
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonics_l2/global/common/bear-ee.png') }}"class="w-[50vw] " />
-            <h2
-                class="absolute top-[40%]  right-[10%] -translate-y-1/2  text-[#A15E0D] text-[1.7vw] text-center">
+            <h2 class="absolute top-[40%]  right-[10%] -translate-y-1/2  text-[#A15E0D] text-[1.7vw] text-center">
                 Can you remember the story <br>
                 “”If you give a spider a <br>
                 spotted star””?</h2>
@@ -63,58 +62,59 @@
     {{-- ================ --}}
     {{-- Panel 2 --}}
     <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1_audio/st1.m4a') }}">
-        <h2 class="title-top stroke">If You Give a Spider a Spotted Star</h2>
-        <img src="{{ asset('assets/images/phonics_l2/spst/st1.png') }}" class="h-[25vw]" />
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw2_audio/st1.m4a') }}">
+        <h2 class="title-top stroke">The Sheep and the Chick</h2>
+        <img src="{{ asset('assets/images/phonics_l2/shch/st1.png') }}" class="h-[25vw]" />
     </div>
 
     {{-- Panel 3 --}}
     <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1_audio/st2.m4a') }}">
-        <img src="{{ asset('assets/images/phonics_l2/spst/st2.png') }}" class="h-[25vw]" />
-        <h2 class="title-top">If you give a spider a spotted star.</h2>
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw2_audio/st2.m4a') }}">
+        <img src="{{ asset('assets/images/phonics_l2/shch/st2.png') }}" class="h-[25vw]" />
+        <h2 class="title-top">A sheep with shoes and a shirt</h2>
     </div>
 
     {{-- Panel 4 --}}
     <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1_audio/st3.m4a') }}">
-        <img src="{{ asset('assets/images/phonics_l2/spst/st3.png') }}" class="h-[25vw]" />
-        <h2 class="title-top">It will stick it in a spaghetti jar.</h2>
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw2_audio/st3.m4a') }}">
+        <img src="{{ asset('assets/images/phonics_l2/shch/st3.png') }}" class="h-[25vw]" />
+        <h2 class="title-top">Was dancing with a chirpy chick in a skirt.</h2>
     </div>
 
     {{-- Panel 5 --}}
     <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1_audio/st4.m4a') }}">
-        <img src="{{ asset('assets/images/phonics_l2/spst/st4.png') }}" class="h-[25vw]" />
-        <h2 class="title-top">Fill it with stones and stamps.</h2>
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw2_audio/st4.m4a') }}">
+        <img src="{{ asset('assets/images/phonics_l2/shch/st4.png') }}" class="h-[25vw]" />
+        <h2 class="title-top">They were on a ship decorated with shiny shells.</h2>
     </div>
 
     {{-- Panel 6 --}}
     <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1_audio/st5.m4a') }}">
-        <img src="{{ asset('assets/images/phonics_l2/spst/st5.png') }}" class="h-[25vw]" />
-        <h2 class="title-top">Bury it under the stars with lamps.</h2>
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw2_audio/st5.m4a') }}">
+        <img src="{{ asset('assets/images/phonics_l2/shch/st5.png') }}" class="h-[25vw]" />
+        <h2 class="title-top">Where they ate too much chips which made them swell.</h2>
     </div>
 
     {{-- Panel 7 --}}
     <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1_audio/st6.m4a') }}">
-        <img src="{{ asset('assets/images/phonics_l2/spst/st6.png') }}" class="h-[25vw]" />
-        <h2 class="title-top">Spin around on its web and not stop.</h2>
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw2_audio/st6.m4a') }}">
+        <img src="{{ asset('assets/images/phonics_l2/shch/st6.png') }}" class="h-[25vw]" />
+        <h2 class="title-top">The sheep then pointed to a shark chewing <br>
+            on cherries and cheese.</h2>
     </div>
 
     {{-- Panel 8 --}}
     <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1_audio/st7.m4a') }}">
-        <img src="{{ asset('assets/images/phonics_l2/spst/st7.png') }}" class="h-[25vw]" />
-        <h2 class="title-top">Until its spectacles finally drop!</h2>
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw2_audio/st7.m4a') }}">
+        <img src="{{ asset('assets/images/phonics_l2/shch/st7.png') }}" class="h-[25vw]" />
+        <h2 class="title-top">That shocked the chick which made it freeze.</h2>
     </div>
 
     {{-- Panel 9 --}}
     <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1_audio/st8.m4a') }}">
-        <img src="{{ asset('assets/images/phonics_l2/spst/st8.png') }}" class="h-[25vw]" />
-        <h2 class="title-top">If you give a spider 2 spotted star.</h2>
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw2_audio/st8.m4a') }}">
+        <img src="{{ asset('assets/images/phonics_l2/shch/st8.png') }}" class="h-[25vw]" />
+        <h2 class="title-top">Both the sheep and the chick ran like the breeze.</h2>
     </div>
 
     {{-- =================== --}}
@@ -124,8 +124,7 @@
 
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonics_l2/global/common/bear-ee.png') }}"class="w-[50vw] " />
-            <h2
-                class="absolute top-[40%] right-[15%] -translate-y-1/2  text-[#A15E0D] text-[1.7vw] text-center">
+            <h2 class="absolute top-[40%] right-[15%] -translate-y-1/2  text-[#A15E0D] text-[1.7vw] text-center">
                 Now let’s try writing your <br>
                 own version of the story.</h2>
         </div>
@@ -133,8 +132,8 @@
 
     <div class="phonics-panel flex flex-col justify-center items-center"
         data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/sh1.m4a') }}">
-    
-        <img src="{{ asset('assets/images/phonics_l2/lrw1/storyq1.png') }}"class="w-[50vw] " />
+
+        <img src="{{ asset('assets/images/phonics_l2/lrw2/storyq1.png') }}"class="w-[50vw] " />
     </div>
 
     <div class="phonics-panel flex justify-center items-center"
@@ -142,8 +141,7 @@
 
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonics_l2/global/common/bear-ee.png') }}"class="w-[50vw] " />
-            <h2
-                class="absolute top-[40%] right-[15%] -translate-y-1/2  text-[#A15E0D] text-[1.7vw] text-center">
+            <h2 class="absolute top-[40%] right-[15%] -translate-y-1/2  text-[#A15E0D] text-[1.7vw] text-center">
                 Good job! You have just <br>
                 composed the main parts <br>
                 of the story!</h2>
@@ -153,8 +151,8 @@
 
     <div class="phonics-panel flex flex-col justify-center items-center"
         data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/sh1.m4a') }}">
-       
-        <img src="{{ asset('assets/images/phonics_l2/lrw1/storyq2.png') }}"class="w-[50vw] " />
+
+        <img src="{{ asset('assets/images/phonics_l2/lrw2/storyq2.png') }}"class="w-[50vw] " />
     </div>
 
     <div class="phonics-panel flex justify-center items-center"
@@ -162,14 +160,13 @@
 
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonics_l2/global/common/bear-ee.png') }}"class="w-[50vw] " />
-            <h2
-                class="absolute top-[40%] right-[15%] -translate-y-1/2  text-[#A15E0D] text-[1.7vw] text-center">
+            <h2 class="absolute top-[40%] right-[15%] -translate-y-1/2  text-[#A15E0D] text-[1.7vw] text-center">
                 Excellent! You have just <br>
                 created your own story!</h2>
         </div>
     </div>
 
-    
+
     {{-- Well Done Panel --}}
     <div class="phonics-panel h-full justify-between"
         data-slide-audio="{{ asset('assets/audio/phonics_audio/welldone.mp3') }}">
@@ -222,8 +219,8 @@
             const infoButtons = document.querySelectorAll("[class*='info-btn']");
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
-            const returnURL = "{{ url('/phonics_l2/lrw1/lets_write') }}";
-            const doneURL = "{{ url('/phonics_l2/lrw1/lets_write') }}";
+            const returnURL = "{{ url('/phonics_l2/lrw2/lets_write') }}";
+            const doneURL = "{{ url('/phonics_l2/lrw2/lets_write') }}";
 
             let currentSlide = 0;
             let currentAudio = null;

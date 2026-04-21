@@ -1,0 +1,69 @@
+@extends('layout.master')
+@section('title', 'Dynamic Presentation')
+
+@php
+    $showBackground = false;
+    $showVector1 = false;
+    $showVector5 = true;
+    $showMascot = false;
+@endphp
+
+@push('styles')
+    <style>
+        #slide-board a img {
+            width: 14vw;
+        }
+    </style>
+@endpush
+
+@section('content')
+
+    <div>
+        <h2 class="stroke text-[3vw] text-[#f7b94a] ">Synonyms</h2>
+        {{-- Navigations to Inner folders  --}}
+        <div id="slide-board" class="grid grid-cols-2 gap-[2vw] mb-[2vw]  text-center justify-content-center">
+
+            <a href="{{ url('/phonics_l2/lrw3/synonyms/synonyms') }}">
+                <img src="{{ asset('assets/images/phonics_l2/lrw3/p1.png') }}" class="mx-auto d-block" />
+            </a>
+
+            <a href="{{ url('/phonics_l2/lrw3/synonyms/finding') }}">
+                <img src="{{ asset('assets/images/phonics_l2/lrw3/p2.png') }}" class="mx-auto d-block" />
+            </a>
+
+            <a href="{{ url('/phonics_l2/lrw3/synonyms/where') }}">
+                <img src="{{ asset('assets/images/phonics_l2/lrw3/p3.png') }}" class="mx-auto d-block" />
+            </a>
+
+            <a href="{{ url('/phonics_l2/lrw3/synonyms/fun') }}">
+                <img src="{{ asset('assets/images/phonics_l2/lrw3/p4.png') }}" class="mx-auto d-block" />
+            </a>
+
+        </div>
+    </div>
+
+
+
+    <div id="buttons" class="absolute flex flex-row gap-6 z-90">
+
+        <a href="{{ url ('/phonics_l2/lrw3') }}" id="returnButton">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/return-btn.png') }}" />
+        </a>
+
+        <!-- Home Button (goes to specific URL) -->
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/home-btn.png') }}" />
+        </button>
+
+        <!-- Close Button -->
+        <button id="closeButton">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/cancel.png') }}" />
+        </button>
+    </div>
+@endsection
+
+@push('script')
+    <script>
+        document.body.dataset.homeRoute = "{{ url('/phonics/l2') }}";
+    </script>
+@endpush

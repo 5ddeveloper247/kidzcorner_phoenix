@@ -17,9 +17,9 @@
             color: #F7B94A !important;
         }
 
-        .title-top {
-            font-size: 2vw !important;
+        .panel-title {
             color: #F7B94A;
+            font-size: 2vw;
         }
 
         .panel-div {
@@ -36,146 +36,191 @@
             <img src="{{ asset('assets/images/phonics_l2/global/common/panel-bear.png') }}" class="w-[50vw]" />
             <h2
                 class="absolute top-[38%] left-[27%] -translate-x-1/2 -translate-y-1/2  text-[#A15E0D] text-[4vw] text-center">
-                Wrap Around <br>
-                Endings</h2>
+                Where’s the <br>
+                Verbs?</h2>
         </div>
-        <p class="p-note">Note: A common but effective way to end a piece of writing is to revisit the beginning. Show
-            children how they can pull a <br>
-            few key words from the lead sentence to create a concluding sentence that "wraps around" their piece of writing.
-        </p>
+        <p class="p-note">Tips: Encourage children to read the sentences.</p>
     </div>
 
 
-
-    <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/sh1.m4a') }}">
-
-        <div class="relative w-fit h-fit">
-            <img src="{{ asset('assets/images/phonics_l2/global/common/bear-ee.png') }}"class="w-[50vw] " />
-            <h2
-                class="absolute top-[40%]  right-[10%] -translate-y-1/2  text-[#A15E0D] text-[1.7vw] text-center">
-                Can you remember the story <br>
-                “”If you give a spider a <br>
-                spotted star””?</h2>
-        </div>
-    </div>
-
-    {{-- ================ --}}
+    {{-- ============================ --}}
     {{-- Panel 2 --}}
-    <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1_audio/st1.m4a') }}">
-        <h2 class="title-top stroke">If You Give a Spider a Spotted Star</h2>
-        <img src="{{ asset('assets/images/phonics_l2/spst/st1.png') }}" class="h-[25vw]" />
+    <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+        <h2 class="panel-title">Find the preposition in the sentence.</h2>
+
+        <h2 class="text-[2vw] text-white">The scouts hid the bench behind the bush.</h2>
+
+        <img src="{{ asset('assets/images/phonics_l2/lrw2/pw1.png') }}" class="w-[20vw]" />
     </div>
 
     {{-- Panel 3 --}}
-    <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1_audio/st2.m4a') }}">
-        <img src="{{ asset('assets/images/phonics_l2/spst/st2.png') }}" class="h-[25vw]" />
-        <h2 class="title-top">If you give a spider a spotted star.</h2>
-    </div>
+    <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+        <h2 class="panel-title">Find the preposition in the sentence.</h2>
 
-    {{-- Panel 4 --}}
-    <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1_audio/st3.m4a') }}">
-        <img src="{{ asset('assets/images/phonics_l2/spst/st3.png') }}" class="h-[25vw]" />
-        <h2 class="title-top">It will stick it in a spaghetti jar.</h2>
-    </div>
-
-    {{-- Panel 5 --}}
-    <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1_audio/st4.m4a') }}">
-        <img src="{{ asset('assets/images/phonics_l2/spst/st4.png') }}" class="h-[25vw]" />
-        <h2 class="title-top">Fill it with stones and stamps.</h2>
-    </div>
-
-    {{-- Panel 6 --}}
-    <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1_audio/st5.m4a') }}">
-        <img src="{{ asset('assets/images/phonics_l2/spst/st5.png') }}" class="h-[25vw]" />
-        <h2 class="title-top">Bury it under the stars with lamps.</h2>
-    </div>
-
-    {{-- Panel 7 --}}
-    <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1_audio/st6.m4a') }}">
-        <img src="{{ asset('assets/images/phonics_l2/spst/st6.png') }}" class="h-[25vw]" />
-        <h2 class="title-top">Spin around on its web and not stop.</h2>
-    </div>
-
-    {{-- Panel 8 --}}
-    <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1_audio/st7.m4a') }}">
-        <img src="{{ asset('assets/images/phonics_l2/spst/st7.png') }}" class="h-[25vw]" />
-        <h2 class="title-top">Until its spectacles finally drop!</h2>
-    </div>
-
-    {{-- Panel 9 --}}
-    <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1_audio/st8.m4a') }}">
-        <img src="{{ asset('assets/images/phonics_l2/spst/st8.png') }}" class="h-[25vw]" />
-        <h2 class="title-top">If you give a spider 2 spotted star.</h2>
-    </div>
-
-    {{-- =================== --}}
-
-    <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/sh1.m4a') }}">
-
-        <div class="relative w-fit h-fit">
-            <img src="{{ asset('assets/images/phonics_l2/global/common/bear-ee.png') }}"class="w-[50vw] " />
-            <h2
-                class="absolute top-[40%] right-[15%] -translate-y-1/2  text-[#A15E0D] text-[1.7vw] text-center">
-                Now let’s try writing your <br>
-                own version of the story.</h2>
-        </div>
-    </div>
-
-    <div class="phonics-panel flex flex-col justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/sh1.m4a') }}">
-    
-        <img src="{{ asset('assets/images/phonics_l2/lrw1/storyq1.png') }}"class="w-[50vw] " />
-    </div>
-
-    <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/sh1.m4a') }}">
-
-        <div class="relative w-fit h-fit">
-            <img src="{{ asset('assets/images/phonics_l2/global/common/bear-ee.png') }}"class="w-[50vw] " />
-            <h2
-                class="absolute top-[40%] right-[15%] -translate-y-1/2  text-[#A15E0D] text-[1.7vw] text-center">
-                Good job! You have just <br>
-                composed the main parts <br>
-                of the story!</h2>
-        </div>
+        <h2 class="text-[2vw] text-white flex items-end gap-[0.3vw]">
+            <span>The scouts hid the bench </span>
+            
+            <span class="flex flex-col items-center">
+                <span class="text-[#f7b94a]">behind</span>
+                <span class="w-full h-[.2vw] bg-[#f7b94a] mt-[2px]"></span>
+            </span>
+            <span>the bush.</span>
+        </h2>
+        <img src="{{ asset('assets/images/phonics_l2/lrw2/pw1.png') }}" class="w-[20vw]" />
     </div>
 
 
-    <div class="phonics-panel flex flex-col justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/sh1.m4a') }}">
-       
-        <img src="{{ asset('assets/images/phonics_l2/lrw1/storyq2.png') }}"class="w-[50vw] " />
+    {{-- =================================== --}}
+    {{-- Panel  --}}
+    <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+        <h2 class="panel-title">Find the preposition in the sentence.</h2>
+
+        <h2 class="text-[2vw] text-white">The white whale is on the wheel.</h2>
+
+        <img src="{{ asset('assets/images/phonics_l2/lrw2/pw2.png') }}" class="w-[20vw]" />
     </div>
 
-    <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/sh1.m4a') }}">
+    {{-- Panel  --}}
+    <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+        <h2 class="panel-title">Find the preposition in the sentence.</h2>
 
-        <div class="relative w-fit h-fit">
-            <img src="{{ asset('assets/images/phonics_l2/global/common/bear-ee.png') }}"class="w-[50vw] " />
-            <h2
-                class="absolute top-[40%] right-[15%] -translate-y-1/2  text-[#A15E0D] text-[1.7vw] text-center">
-                Excellent! You have just <br>
-                created your own story!</h2>
-        </div>
+        <h2 class="text-[2vw] text-white flex items-end gap-[0.3vw]">
+            <span>The white whale is</span>
+            
+            <span class="flex flex-col items-center">
+                <span class="text-[#f7b94a]">on </span>
+                <span class="w-full h-[.2vw] bg-[#f7b94a] mt-[2px]"></span>
+            </span>
+            <span>the wheel</span>
+        </h2>
+        <img src="{{ asset('assets/images/phonics_l2/lrw2/pw2.png') }}" class="w-[20vw]" />
     </div>
 
-    
-    {{-- Well Done Panel --}}
-    <div class="phonics-panel h-full justify-between"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/welldone.mp3') }}">
-        <h2 class="title-top">Well Done!</h2>
-        <img src="{{ asset('assets/images/phonicsl1/global/gifs/welldone.gif') }}" class="h-[25vw]" />
+
+
+    {{-- =================================== --}}
+    {{-- Panel  --}}
+    <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+        <h2 class="panel-title">Find the preposition in the sentence.</h2>
+
+        <h2 class="text-[2vw] text-white">A chick hatches from the egg.</h2>
+
+        <img src="{{ asset('assets/images/phonics_l2/lrw2/pw3.png') }}" class="h-[20vw]" />
     </div>
+
+    {{-- Panel  --}}
+    <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+        <h2 class="panel-title">Find the preposition in the sentence.</h2>
+
+        <h2 class="text-[2vw] text-white flex items-end gap-[0.3vw]">
+            <span>A chick hactches </span>
+
+            <span class="flex flex-col items-center">
+                <span class="text-[#f7b94a]">from</span>
+                <span class="w-full h-[.2vw] bg-[#f7b94a] mt-[2px]"></span>
+            </span>
+            <span>the egg.</span>
+        </h2>
+        <img src="{{ asset('assets/images/phonics_l2/lrw2/pw3.png') }}" class="h-[20vw]" />
+    </div>
+
+
+
+    {{-- =================================== --}}
+    {{-- Panel  --}}
+    <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+        <h2 class="panel-title">Find the preposition in the sentence.</h2>
+
+        <h2 class="text-[2vw] text-white">The sloth sees a fish bathing in a tub.</h2>
+
+        <img src="{{ asset('assets/images/phonics_l2/lrw2/pw4.png') }}" class="h-[20vw]" />
+    </div>
+
+    {{-- Panel  --}}
+    <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+        <h2 class="panel-title">Find the preposition in the sentence.</h2>
+
+        <h2 class="text-[2vw] text-white flex items-end gap-[0.3vw]">
+            <span>The sloth sees a fish bathing</span>
+
+            <span class="flex flex-col items-center">
+                <span class="text-[#f7b94a]">in</span>
+                <span class="w-full h-[.2vw] bg-[#f7b94a] mt-[2px]"></span>
+            </span>
+
+            <span>a tub.</span>
+        </h2>
+        <img src="{{ asset('assets/images/phonics_l2/lrw2/pw4.png') }}" class="h-[20vw]" />
+    </div>
+
+
+    {{-- =================================== --}}
+    {{-- Panel  --}}
+    <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+        <h2 class="panel-title">Find the preposition in the sentence.</h2>
+
+        <h2 class="text-[2vw] text-white">Lingo throws the ball to his friend.</h2>
+
+        <img src="{{ asset('assets/images/phonics_l2/lrw2/pw5.png') }}" class="h-[20vw]" />
+    </div>
+
+    {{-- Panel  --}}
+    <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+        <h2 class="panel-title">Find the preposition in the sentence.</h2>
+
+        <h2 class="text-[2vw] text-white flex items-end gap-[0.3vw]">
+            <span>Lingo throws the ball</span>
+
+            <span class="flex flex-col items-center">
+                <span class="text-[#f7b94a]">to</span>
+                <span class="w-full h-[.2vw] bg-[#f7b94a] mt-[2px]"></span>
+            </span>
+
+            <span>his friend.</span>
+        </h2>
+        <img src="{{ asset('assets/images/phonics_l2/lrw2/pw5.png') }}" class="h-[20vw]" />
+    </div>
+
+    {{-- =================================== --}}
+    {{-- Panel  --}}
+    <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+        <h2 class="panel-title">Find the preposition in the sentence.</h2>
+
+        <h2 class="text-[2vw] text-white">There are chips in the bowl.</h2>
+
+        <img src="{{ asset('assets/images/phonics_l2/lrw2/pw6.png') }}" class="h-[20vw]" />
+    </div>
+
+    {{-- Panel  --}}
+    <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+        <h2 class="panel-title">Find the preposition in the sentence.</h2>
+
+        <h2 class="text-[2vw] text-white flex items-end gap-[0.3vw]">
+            <span>There are chips</span>
+
+            <span class="flex flex-col items-center">
+                <span class="text-[#f7b94a]">in</span>
+                <span class="w-full h-[.2vw] bg-[#f7b94a] mt-[2px]"></span>
+            </span>
+
+            <span>the bowl.</span>
+        </h2>
+        <img src="{{ asset('assets/images/phonics_l2/lrw2/pw6.png') }}" class="h-[20vw]" />
+    </div>
+
+
 
     {{-- =========================================================== --}}
     {{-- All Buttons --}}
@@ -222,8 +267,8 @@
             const infoButtons = document.querySelectorAll("[class*='info-btn']");
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
-            const returnURL = "{{ url('/phonics_l2/lrw1/lets_write') }}";
-            const doneURL = "{{ url('/phonics_l2/lrw1/lets_write') }}";
+            const returnURL = "{{ url('/phonics_l2/lrw2/prepositional') }}";
+            const doneURL = "{{ url('/phonics_l2/lrw2/prepositional') }}";
 
             let currentSlide = 0;
             let currentAudio = null;

@@ -17,14 +17,32 @@
             color: #F7B94A !important;
         }
 
-        .title-top {
-            font-size: 2vw !important;
+        .panel-title {
             color: #F7B94A;
+            font-size: 2vw;
         }
 
         .panel-div {
             position: absolute;
             top: 4%;
+        }
+
+        .box {
+            width: 10vw;
+            height: 10vw;
+            background: #D9D9D9;
+            border: .3vw solid #70AF39;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .rectangle {
+            background: #F7B94A;
+            width: 12vw;
+            height: 3vw;
+            color: #A15E0D;
+            font-size: 2vw;
         }
     </style>
 @endpush
@@ -36,145 +54,182 @@
             <img src="{{ asset('assets/images/phonics_l2/global/common/panel-bear.png') }}" class="w-[50vw]" />
             <h2
                 class="absolute top-[38%] left-[27%] -translate-x-1/2 -translate-y-1/2  text-[#A15E0D] text-[4vw] text-center">
-                Wrap Around <br>
-                Endings</h2>
+                Finding <br>
+                Synonyms!</h2>
         </div>
-        <p class="p-note">Note: A common but effective way to end a piece of writing is to revisit the beginning. Show
-            children how they can pull a <br>
-            few key words from the lead sentence to create a concluding sentence that "wraps around" their piece of writing.
-        </p>
     </div>
 
-
-
+    {{-- Side Info Panel --}}
     <div class="phonics-panel flex justify-center items-center"
         data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/sh1.m4a') }}">
 
         <div class="relative w-fit h-fit">
-            <img src="{{ asset('assets/images/phonics_l2/global/common/bear-ee.png') }}"class="w-[50vw] " />
-            <h2
-                class="absolute top-[40%]  right-[10%] -translate-y-1/2  text-[#A15E0D] text-[1.7vw] text-center">
-                Can you remember the story <br>
-                “”If you give a spider a <br>
-                spotted star””?</h2>
+            <img src="{{ asset('assets/images/phonics_l2/global/common/bear-e.png') }}"class="w-[40vw] " />
+            <h2 class="absolute top-[28%] right-[15%] -translate-y-1/2  text-[#A15E0D] text-[1.7vw] text-center">
+                Try finding all the <br> <span class="text-[#70af39] underline">synonyms</span> in this <br>
+                activity.</h2>
         </div>
     </div>
 
-    {{-- ================ --}}
-    {{-- Panel 2 --}}
-    <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1_audio/st1.m4a') }}">
-        <h2 class="title-top stroke">If You Give a Spider a Spotted Star</h2>
-        <img src="{{ asset('assets/images/phonics_l2/spst/st1.png') }}" class="h-[25vw]" />
-    </div>
+    {{-- Panel  --}}
+    <div class="phonics-panel flex flex-col justify-between h-full w-full gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+        <div class="flex items-end">
+            <h2 class="panel-title">Which word is the synonym of happy</h2>
+            <img src="{{ asset('assets/images/phonics_l2/lrw3/glad.png') }}" class="h-[4vw]" />
+            <span class="panel-title">?</span>
+        </div>
 
-    {{-- Panel 3 --}}
-    <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1_audio/st2.m4a') }}">
-        <img src="{{ asset('assets/images/phonics_l2/spst/st2.png') }}" class="h-[25vw]" />
-        <h2 class="title-top">If you give a spider a spotted star.</h2>
-    </div>
 
-    {{-- Panel 4 --}}
-    <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1_audio/st3.m4a') }}">
-        <img src="{{ asset('assets/images/phonics_l2/spst/st3.png') }}" class="h-[25vw]" />
-        <h2 class="title-top">It will stick it in a spaghetti jar.</h2>
-    </div>
+        <div class="box">
+            <img src="{{ asset('assets/images/phonics_l2/lrw3/glad.png') }}" class="h-[5vw]" />
+        </div>
 
-    {{-- Panel 5 --}}
-    <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1_audio/st4.m4a') }}">
-        <img src="{{ asset('assets/images/phonics_l2/spst/st4.png') }}" class="h-[25vw]" />
-        <h2 class="title-top">Fill it with stones and stamps.</h2>
-    </div>
+        <div class="flex justify-around items-center w-full">
+            <div class="rectangle">sad</div>
 
-    {{-- Panel 6 --}}
-    <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1_audio/st5.m4a') }}">
-        <img src="{{ asset('assets/images/phonics_l2/spst/st5.png') }}" class="h-[25vw]" />
-        <h2 class="title-top">Bury it under the stars with lamps.</h2>
-    </div>
-
-    {{-- Panel 7 --}}
-    <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1_audio/st6.m4a') }}">
-        <img src="{{ asset('assets/images/phonics_l2/spst/st6.png') }}" class="h-[25vw]" />
-        <h2 class="title-top">Spin around on its web and not stop.</h2>
-    </div>
-
-    {{-- Panel 8 --}}
-    <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1_audio/st7.m4a') }}">
-        <img src="{{ asset('assets/images/phonics_l2/spst/st7.png') }}" class="h-[25vw]" />
-        <h2 class="title-top">Until its spectacles finally drop!</h2>
-    </div>
-
-    {{-- Panel 9 --}}
-    <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw1_audio/st8.m4a') }}">
-        <img src="{{ asset('assets/images/phonics_l2/spst/st8.png') }}" class="h-[25vw]" />
-        <h2 class="title-top">If you give a spider 2 spotted star.</h2>
-    </div>
-
-    {{-- =================== --}}
-
-    <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/sh1.m4a') }}">
-
-        <div class="relative w-fit h-fit">
-            <img src="{{ asset('assets/images/phonics_l2/global/common/bear-ee.png') }}"class="w-[50vw] " />
-            <h2
-                class="absolute top-[40%] right-[15%] -translate-y-1/2  text-[#A15E0D] text-[1.7vw] text-center">
-                Now let’s try writing your <br>
-                own version of the story.</h2>
+            <div class="rectangle">glad</div>
         </div>
     </div>
 
-    <div class="phonics-panel flex flex-col justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/sh1.m4a') }}">
-    
-        <img src="{{ asset('assets/images/phonics_l2/lrw1/storyq1.png') }}"class="w-[50vw] " />
+    {{-- Panel  --}}
+    <div class="phonics-panel flex flex-col justify-start h-full w-full gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+        <div class="flex items-end">
+            <h2 class="panel-title">Which word is the synonym of happy</h2>
+            <img src="{{ asset('assets/images/phonics_l2/lrw3/glad.png') }}" class="h-[4vw]" />
+            <span class="panel-title">?</span>
+        </div>
+
+        <div class="flex flex-col items-center gap-[3vw]">
+            <div class="box">
+                <img src="{{ asset('assets/images/phonics_l2/lrw3/glad.png') }}" class="h-[5vw]" />
+            </div>
+            <div class="rectangle">glad</div>
+        </div>
+
     </div>
 
-    <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/sh1.m4a') }}">
 
-        <div class="relative w-fit h-fit">
-            <img src="{{ asset('assets/images/phonics_l2/global/common/bear-ee.png') }}"class="w-[50vw] " />
-            <h2
-                class="absolute top-[40%] right-[15%] -translate-y-1/2  text-[#A15E0D] text-[1.7vw] text-center">
-                Good job! You have just <br>
-                composed the main parts <br>
-                of the story!</h2>
+    {{-- -======================================- --}}
+    {{-- Panel  --}}
+    <div class="phonics-panel flex flex-col justify-between h-full w-full gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+        <div class="flex items-end">
+            <h2 class="panel-title">Which word is the synonym of huge</h2>
+            <img src="{{ asset('assets/images/phonics_l2/ayue/huge.png') }}" class="w-[4vw]" />
+            <span class="panel-title">?</span>
+        </div>
+
+
+        <div class="box">
+            <img src="{{ asset('assets/images/phonics_l2/ayue/huge.png') }}" class="w-[5vw]" />
+        </div>
+
+        <div class="flex justify-around items-center w-full">
+            <div class="rectangle">old</div>
+
+            <div class="rectangle">big</div>
         </div>
     </div>
 
+    {{-- Panel  --}}
+    <div class="phonics-panel flex flex-col justify-start h-full w-full gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+        <div class="flex items-end">
+            <h2 class="panel-title">Which word is the synonym of huge</h2>
+            <img src="{{ asset('assets/images/phonics_l2/ayue/huge.png') }}" class="w-[4vw]" />
+            <span class="panel-title">?</span>
+        </div>
 
-    <div class="phonics-panel flex flex-col justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/sh1.m4a') }}">
-       
-        <img src="{{ asset('assets/images/phonics_l2/lrw1/storyq2.png') }}"class="w-[50vw] " />
+        <div class="flex flex-col items-center gap-[3vw]">
+            <div class="box">
+                <img src="{{ asset('assets/images/phonics_l2/ayue/huge.png') }}" class="w-[5vw]" />
+            </div>
+            <div class="rectangle">big</div>
+        </div>
+
     </div>
 
-    <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/sh1.m4a') }}">
 
-        <div class="relative w-fit h-fit">
-            <img src="{{ asset('assets/images/phonics_l2/global/common/bear-ee.png') }}"class="w-[50vw] " />
-            <h2
-                class="absolute top-[40%] right-[15%] -translate-y-1/2  text-[#A15E0D] text-[1.7vw] text-center">
-                Excellent! You have just <br>
-                created your own story!</h2>
+    {{-- ===================================== --}}
+    {{-- Panel  --}}
+    <div class="phonics-panel flex flex-col justify-between h-full w-full gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+        <div class="flex items-end">
+            <h2 class="panel-title">Which word is the synonym of little</h2>
+            <img src="{{ asset('assets/images/phonics_l2/lrw3/big.png') }}" class="w-[4vw]" />
+            <span class="panel-title">?</span>
+        </div>
+
+
+        <div class="box">
+            <img src="{{ asset('assets/images/phonics_l2/lrw3/big.png') }}" class="w-[5vw]" />
+        </div>
+
+        <div class="flex justify-around items-center w-full">
+            <div class="rectangle">small</div>
+
+            <div class="rectangle">spots</div>
         </div>
     </div>
 
-    
-    {{-- Well Done Panel --}}
-    <div class="phonics-panel h-full justify-between"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio/welldone.mp3') }}">
-        <h2 class="title-top">Well Done!</h2>
-        <img src="{{ asset('assets/images/phonicsl1/global/gifs/welldone.gif') }}" class="h-[25vw]" />
+    {{-- Panel  --}}
+    <div class="phonics-panel flex flex-col justify-start h-full w-full gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+        <div class="flex items-end">
+            <h2 class="panel-title">Which word is the synonym of little</h2>
+            <img src="{{ asset('assets/images/phonics_l2/lrw3/big.png') }}" class="w-[4vw]" />
+            <span class="panel-title">?</span>
+        </div>
+
+        <div class="flex flex-col items-center gap-[3vw]">
+            <div class="box">
+                <img src="{{ asset('assets/images/phonics_l2/lrw3/big.png') }}" class="w-[5vw]" />
+            </div>
+            <div class="rectangle">small</div>
+        </div>
+
+    </div>
+
+{{-- =========================================== --}}
+     {{-- Panel  --}}
+    <div class="phonics-panel flex flex-col justify-between h-full w-full gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+        <div class="flex items-end">
+            <h2 class="panel-title">Which word is the synonym of angry</h2>
+            <img src="{{ asset('assets/images/phonics_l2/lrw3/mad.png') }}" class="h-[4vw]" />
+            <span class="panel-title">?</span>
+        </div>
+
+
+        <div class="box">
+            <img src="{{ asset('assets/images/phonics_l2/lrw3/mad.png') }}" class="h-[5vw]" />
+        </div>
+
+        <div class="flex justify-around items-center w-full">
+            <div class="rectangle">cry</div>
+
+            <div class="rectangle">mad</div>
+        </div>
+    </div>
+
+    {{-- Panel  --}}
+    <div class="phonics-panel flex flex-col justify-start h-full w-full gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+        <div class="flex items-end">
+            <h2 class="panel-title">Which word is the synonym of angry</h2>
+            <img src="{{ asset('assets/images/phonics_l2/lrw3/mad.png') }}" class="h-[4vw]" />
+            <span class="panel-title">?</span>
+        </div>
+
+        <div class="flex flex-col items-center gap-[3vw]">
+            <div class="box">
+                <img src="{{ asset('assets/images/phonics_l2/lrw3/mad.png') }}" class="h-[5vw]" />
+            </div>
+            <div class="rectangle">mad</div>
+        </div>
+
     </div>
 
     {{-- =========================================================== --}}
@@ -222,8 +277,8 @@
             const infoButtons = document.querySelectorAll("[class*='info-btn']");
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
-            const returnURL = "{{ url('/phonics_l2/lrw1/lets_write') }}";
-            const doneURL = "{{ url('/phonics_l2/lrw1/lets_write') }}";
+            const returnURL = "{{ url('/phonics_l2/lrw3/synonyms') }}";
+            const doneURL = "{{ url('/phonics_l2/lrw3/synonyms') }}";
 
             let currentSlide = 0;
             let currentAudio = null;
