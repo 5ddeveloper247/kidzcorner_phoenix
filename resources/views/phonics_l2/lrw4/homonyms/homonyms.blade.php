@@ -43,7 +43,7 @@
             <h2
                 class="absolute top-[38%] left-[27%] -translate-x-1/2 -translate-y-1/2  text-[#A15E0D] text-[4vw] text-center">
                 All About <br>
-                Antonyms!</h2>
+                Homonyms!</h2>
         </div>
         <p class="p-note">Tips: Follow the sequence of activities numbered, or click on any activity of your choice. <br>
             For a definition of blends and other phonics terminologies,<a class="c-btn info-btn1">Click here</a>.</p>
@@ -97,11 +97,23 @@
 
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonics_l2/global/common/bear-e.png') }}"class="w-[40vw] " />
-            <h2 class="absolute top-[28%] right-[12%] -translate-y-1/2  text-[#A15E0D] text-[1.7vw] text-center">
-                <span class="text-[#70af39]">Antonyms</span> are pairs of <br>
-                words with opposite <br>
-                meanings.
+            <h2 class="absolute top-[28%] right-[12%] -translate-y-1/2  text-[#A15E0D] text-[1.5vw] text-center">
+                <span class="text-[#70af39]">Homonyms</span> are words <br>
+                 that sound the same <br>
+                  but have different <br>
+                   meanings and different <br>
+                   spellings.
             </h2>
+        </div>
+    </div>
+    <div class="phonics-panel flex justify-center items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/sh1.m4a') }}">
+
+        <div class="relative w-fit h-fit">
+            <img src="{{ asset('assets/images/phonics_l2/global/common/bear-e.png') }}"class="w-[40vw] " />
+            <h2 class="absolute top-[28%] right-[12%] -translate-y-1/2  text-[#A15E0D] text-[1.7vw] text-center">
+               Do you know of any <br>
+                <span class="text-[#70af39]">Homonyms</span>             </h2>
         </div>
     </div>
 
@@ -109,7 +121,7 @@
 
     <div class="phonics-panel flex justify-center items-center h-full w-full"
         data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/br1.m4a') }}">
-        <img src="{{ asset('assets/images/phonics_l2/lrw3/n1.png') }}" class="w-[50vw]" />
+        <img src="{{ asset('assets/images/phonics_l2/lrw4/n1.png') }}" class="w-[50vw]" />
 
     </div>
 
@@ -117,14 +129,14 @@
     {{-- Panel 4 --}}
     <div class="phonics-panel flex justify-center items-center h-full w-full"
         data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/br1.m4a') }}">
-        <img src="{{ asset('assets/images/phonics_l2/lrw3/n2.png') }}" class="w-[40vw]" />
+        <img src="{{ asset('assets/images/phonics_l2/lrw4/n2.png') }}" class="w-[40vw]" />
 
     </div>
 
     {{-- Panel 5 --}}
     <div class="phonics-panel flex justify-center items-center h-full w-full"
         data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/br1.m4a') }}">
-        <img src="{{ asset('assets/images/phonics_l2/lrw3/n3.png') }}" class="w-[40vw]" />
+        <img src="{{ asset('assets/images/phonics_l2/lrw4/n3.png') }}" class="w-[40vw]" />
 
     </div>
 
@@ -140,11 +152,12 @@
             <img src="{{ asset('assets/images/phonics_l2/global/common/blank.png') }}"class="w-[30vw] h-[25vw]" />
             <h2
                 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2  text-[#A15E0D] text-[1.7vw] text-center w-full">
-                <span class="text-[#70af39]">antonyms</span> make <br>
-                sentences more <br>
-                descriptive and more <br>
-                interesting! Now <br>
-                let’s try using them!
+                
+               We use <span class="text-[#70af39]">homonyms</span> <br> 
+               ato make a sentence <br> 
+               more interesting. <br> 
+               Now let’s try using <br>
+                them.
             </h2>
         </div>
     </div>
@@ -195,8 +208,8 @@
             const infoButtons = document.querySelectorAll("[class*='info-btn']");
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
-            const returnURL = "{{ url('/phonics_l2/lrw3/antonyms') }}";
-            const doneURL = "{{ url('/phonics_l2/lrw3/antonyms') }}";
+            const returnURL = "{{ url('/phonics_l2/lrw4/homonyms') }}";
+            const doneURL = "{{ url('/phonics_l2/lrw4/homonyms') }}";
             const CHEERING_AUDIO = "{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}";
 
             let currentSlide = 0;

@@ -21,12 +21,12 @@
     {{-- Navigations to Inner folders  --}}
     <div id="slide-board" class="grid grid-cols-2 gap-[2vw] mb-[2vw]  text-center justify-content-center">
 
-        <a href="{{ url('/phonics_l2/lrw4/antonyms') }}">
-            <img src="{{ asset('assets/images/phonics_l2/lrw4/antonyms.png') }}" class="mx-auto d-block" />
+        <a href="{{ url('/phonics_l2/lrw4/homonyms') }}">
+            <img src="{{ asset('assets/images/phonics_l2/lrw4/homonyms.png') }}" class="mx-auto d-block" />
         </a>
 
-        <a href="{{ url('/phonics_l2/lrw4/synonyms') }}">
-            <img src="{{ asset('assets/images/phonics_l2/lrw4/synonyms.png') }}" class="mx-auto d-block" />
+        <a href="{{ url('/phonics_l2/lrw4/onomatopoeia') }}">
+            <img src="{{ asset('assets/images/phonics_l2/lrw4/onom.png') }}" class="mx-auto d-block" />
         </a>
 
         <a href="{{ url('/phonics_l2/lrw4/lets_write') }}">
@@ -37,7 +37,7 @@
             <a href="{{ url('/phonics_l2/objectives') }}">
                 <img src="{{ asset('assets/images/phonics_l2/global/objectives.png') }}" class="mx-auto d-block" />
             </a>
-    </div>
+    </div>  
 
 
 

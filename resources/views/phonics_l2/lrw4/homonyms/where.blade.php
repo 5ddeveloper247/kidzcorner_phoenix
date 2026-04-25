@@ -37,7 +37,7 @@
             <h2
                 class="absolute top-[38%] left-[27%] -translate-x-1/2 -translate-y-1/2  text-[#A15E0D] text-[4vw] text-center">
                 Where’s the <br>
-                Antonyms?</h2>
+                Homonyms?</h2>
         </div>
         <p class="p-note">Tips: Encourage children to read the sentences.</p>
     </div>
@@ -50,7 +50,7 @@
             <img src="{{ asset('assets/images/phonics_l2/global/common/bear-e.png') }}"class="w-[40vw] " />
             <h2
                 class="absolute top-[28%] right-[1%] -translate-x-1/2 -translate-y-1/2  text-[#A15E0D] text-[1.7vw] text-center">
-                Now let’s find the <br> <span class="text-[#70af39]">antonyms</span> in each <br> sentence.</h2>
+                Now let’s find the <br> <span class="text-[#70af39]">homonyms</span> in each <br> sentence.</h2>
         </div>
     </div>
 
@@ -58,52 +58,52 @@
     {{-- Panel 2 --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
         data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
-        <h2 class="panel-title">Find the antonyms in the sentence.</h2>
+        <h2 class="panel-title">Find the homonyms in the sentence.</h2>
 
-        <h2 class="text-[2vw] text-white">Tom climbs up the slope and then slides down.</h2>
+        <h2 class="text-[2vw] text-white">The hare is playing with my curly hair.</h2>
 
-        <img src="{{ asset('assets/images/phonics_l2/lrw3/w1.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/phonics_l2/lrw4/w1.png') }}" class="h-[20vw]" />
     </div>
 
     {{-- Panel  --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
         data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
-        <h2 class="panel-title">Find the antonyms in the sentence.</h2>
+        <h2 class="panel-title">Find the homonyms in the sentence.</h2>
 
         <h2 class="text-[2vw] text-white flex items-end gap-[0.3vw]">
-            <span>Tom climbs</span>
+            <span>The</span>
 
             <span class="flex flex-col items-center">
-                <span class="text-[#f7b94a]">up</span>
+                <span class="text-[#f7b94a]">hare</span>
                 <span class="w-full h-[.2vw] bg-[#f7b94a] mt-[2px]"></span>
             </span>
 
-            <span>the slope and then slides down.</span>
+            <span>is playing with my curly hair.</span>
         </h2>
-        <img src="{{ asset('assets/images/phonics_l2/lrw3/w1.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/phonics_l2/lrw4/w1.png') }}" class="h-[20vw]" />
     </div>
 
     {{-- Panel  --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
         data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
-        <h2 class="panel-title">Find the antonyms in the sentence.</h2>
+        <h2 class="panel-title">Find the homonyms in the sentence.</h2>
 
         <h2 class="text-[2vw] text-white flex items-end gap-[0.3vw]">
-            <span>Tom climbs</span>
+            <span>The</span>
 
             <span class="flex flex-col items-center">
-                <span class="text-[#f7b94a]">up</span>
+                <span class="text-[#f7b94a]">Hare</span>
                 <span class="w-full h-[.2vw] bg-[#f7b94a] mt-[2px]"></span>
             </span>
 
-            <span>the slope and then slides</span>
+            <span>is playing with my curly</span>
 
             <span class="flex flex-col items-center">
-                <span class="text-[#f7b94a]">down.</span>
+                <span class="text-[#f7b94a]">hair.</span>
                 <span class="w-full h-[.2vw] bg-[#f7b94a] mt-[2px]"></span>
             </span>
         </h2>
-        <img src="{{ asset('assets/images/phonics_l2/lrw3/w1.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/phonics_l2/lrw4/w1.png') }}" class="h-[20vw]" />
     </div>
 
 
@@ -111,54 +111,52 @@
     {{-- Panel  --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
         data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
-        <h2 class="panel-title">Find the antonyms in the sentence.</h2>
+        <h2 class="panel-title">Find the homonyms in the sentence.</h2>
 
-        <h2 class="text-[2vw] text-white">The young boy is sitting next to the old man.</h2>
+        <h2 class="text-[2vw] text-white">Sam ate eight chocolate buns.</h2>
 
-        <img src="{{ asset('assets/images/phonics_l2/lrw3/w2.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/phonics_l2/lrw4/w2.png') }}" class="h-[20vw]" />
     </div>
 
     {{-- Panel  --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
         data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
-        <h2 class="panel-title">Find the antonyms in the sentence.</h2>
+        <h2 class="panel-title">Find the homonyms in the sentence.</h2>
 
         <h2 class="text-[2vw] text-white flex items-end gap-[0.3vw]">
-            <span>The</span>
+            <span>Sam</span>
 
             <span class="flex flex-col items-center">
-                <span class="text-[#f7b94a]">young</span>
+                <span class="text-[#f7b94a]">ate</span>
                 <span class="w-full h-[.2vw] bg-[#f7b94a] mt-[2px]"></span>
             </span>
 
-            <span>is sitting next to the old man.</span>
+            <span>eight chocolate buns.</span>
         </h2>
-        <img src="{{ asset('assets/images/phonics_l2/lrw3/w2.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/phonics_l2/lrw4/w2.png') }}" class="h-[20vw]" />
     </div>
 
     {{-- Panel  --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
         data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
-        <h2 class="panel-title">Find the antonyms in the sentence.</h2>
+        <h2 class="panel-title">Find the homonyms in the sentence.</h2>
 
         <h2 class="text-[2vw] text-white flex items-end gap-[0.3vw]">
-            <span>The</span>
+            <span>Sam</span>
 
             <span class="flex flex-col items-center">
-                <span class="text-[#f7b94a]">young</span>
+                <span class="text-[#f7b94a]">ate</span>
                 <span class="w-full h-[.2vw] bg-[#f7b94a] mt-[2px]"></span>
             </span>
 
-            <span>is sitting next to the old</span>
-
             <span class="flex flex-col items-center">
-                <span class="text-[#f7b94a]">old</span>
+                <span class="text-[#f7b94a]">eight</span>
                 <span class="w-full h-[.2vw] bg-[#f7b94a] mt-[2px]"></span>
             </span>
 
-            <span>man.</span>
+            <span>chocolate buns.</span>
         </h2>
-        <img src="{{ asset('assets/images/phonics_l2/lrw3/w2.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/phonics_l2/lrw4/w2.png') }}" class="h-[20vw]" />
     </div>
 
 
@@ -167,55 +165,52 @@
     {{-- Panel  --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
         data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
-        <h2 class="panel-title">Find the antonyms in the sentence.</h2>
+        <h2 class="panel-title">Find the homonyms in the sentence.</h2>
 
-        <h2 class="text-[2vw] text-white">The tall giraffe is behind the short tree.</h2>
+        <h2 class="text-[2vw] text-white">The maid made Tom an egg sandwich.</h2>
 
-        <img src="{{ asset('assets/images/phonics_l2/lrw3/w3.png') }}" class="h-[20vw]" />
+        <img src="{{ asset('assets/images/phonics_l2/lrw4/w3.png') }}" class="h-[20vw]" />
     </div>
 
     {{-- Panel  --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
         data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
-        <h2 class="panel-title">Find the antonyms in the sentence.</h2>
+        <h2 class="panel-title">Find the homonyms in the sentence.</h2>
 
         <h2 class="text-[2vw] text-white flex items-end gap-[0.3vw]">
             <span>The</span>
 
             <span class="flex flex-col items-center">
-                <span class="text-[#f7b94a]">tall</span>
+                <span class="text-[#f7b94a]">maid</span>
                 <span class="w-full h-[.2vw] bg-[#f7b94a] mt-[2px]"></span>
             </span>
 
-            <span>giraffe is behind the short tree.</span>
+            <span>made Tom an egg sandwich.</span>
         </h2>
-        <img src="{{ asset('assets/images/phonics_l2/lrw3/w3.png') }}" class="h-[20vw]" />
+        <img src="{{ asset('assets/images/phonics_l2/lrw4/w3.png') }}" class="h-[20vw]" />
     </div>
 
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
         data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
-        <h2 class="panel-title">Find the antonyms in the sentence.</h2>
+        <h2 class="panel-title">Find the homonyms in the sentence.</h2>
 
         <h2 class="text-[2vw] text-white flex items-end gap-[0.3vw] flex-wrap">
 
             <span>The</span>
-            {{-- skunk --}}
+
             <span class="flex flex-col items-center">
-                <span class="text-[#f7b94a] leading-none">tall</span>
+                <span class="text-[#f7b94a] leading-none">maid</span>
                 <span class="w-full h-[.2vw] bg-[#f7b94a] mt-[2px]"></span>
             </span>
 
-            <span>giraffe is behind the</span>
-
-            {{-- skirt --}}
             <span class="flex flex-col items-center">
-                <span class="text-[#f7b94a] leading-none">short</span>
+                <span class="text-[#f7b94a] leading-none">made</span>
                 <span class="w-full h-[.2vw] bg-[#f7b94a] mt-[2px]"></span>
             </span>
 
-            <span>tree.</span>
+            <span>Tom an egg sandwich.</span>
         </h2>
-        <img src="{{ asset('assets/images/phonics_l2/lrw3/w3.png') }}" class="h-[20vw]" />
+        <img src="{{ asset('assets/images/phonics_l2/lrw4/w3.png') }}" class="h-[20vw]" />
     </div>
 
 
@@ -224,55 +219,55 @@
     {{-- Panel  --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
         data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
-        <h2 class="panel-title">Find the antonyms in the sentence.</h2>
+        <h2 class="panel-title">Find the homonyms in the sentence.</h2>
 
-        <h2 class="text-[2vw] text-white">The cat opens the door but the crab shuts it.</h2>
+        <h2 class="text-[2vw] text-white">There are three pairs of pears on the tray.</h2>
 
-        <img src="{{ asset('assets/images/phonics_l2/lrw3/w4.png') }}" class="h-[20vw]" />
+        <img src="{{ asset('assets/images/phonics_l2/lrw4/w4.png') }}" class="w-[20vw]" />
     </div>
 
     {{-- Panel  --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
         data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
-        <h2 class="panel-title">Find the antonyms in the sentence.</h2>
+        <h2 class="panel-title">Find the homonyms in the sentence.</h2>
 
         <h2 class="text-[2vw] text-white flex items-end gap-[0.3vw]">
-            <span>The cat</span>
+            <span>There are three</span>
 
             <span class="flex flex-col items-center">
-                <span class="text-[#f7b94a]">opens</span>
+                <span class="text-[#f7b94a]">pairs</span>
                 <span class="w-full h-[.2vw] bg-[#f7b94a] mt-[2px]"></span>
             </span>
 
-            <span>the door but the crab shuts it.</span>
+            <span>of pears on the tray.</span>
         </h2>
-        <img src="{{ asset('assets/images/phonics_l2/lrw3/w4.png') }}" class="h-[20vw]" />
+        <img src="{{ asset('assets/images/phonics_l2/lrw4/w4.png') }}" class="w-[20vw]" />
     </div>
 
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] items-center"
         data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
-        <h2 class="panel-title">Find the antonyms in the sentence.</h2>
+        <h2 class="panel-title">Find the homonyms in the sentence.</h2>
 
         <h2 class="text-[2vw] text-white flex items-end gap-[0.3vw] flex-wrap">
-            <span>The cat </span>
+            <span>There are three</span>
 
             {{-- skunk --}}
             <span class="flex flex-col items-center">
-                <span class="text-[#f7b94a] leading-none">opens</span>
+                <span class="text-[#f7b94a] leading-none">pairs</span>
                 <span class="w-full h-[.2vw] bg-[#f7b94a] mt-[2px]"></span>
             </span>
 
-            <span>the door but the crab </span>
+            <span>of</span>
 
             {{-- skirt --}}
             <span class="flex flex-col items-center">
-                <span class="text-[#f7b94a] leading-none">shuts</span>
+                <span class="text-[#f7b94a] leading-none">pears</span>
                 <span class="w-full h-[.2vw] bg-[#f7b94a] mt-[2px]"></span>
             </span>
 
-            <span>it.</span>
+            <span>on the tray.</span>
         </h2>
-        <img src="{{ asset('assets/images/phonics_l2/lrw3/w4.png') }}" class="h-[20vw]" />
+        <img src="{{ asset('assets/images/phonics_l2/lrw4/w4.png') }}" class="w-[20vw]" />
     </div>
 
 
@@ -321,8 +316,8 @@
             const infoButtons = document.querySelectorAll("[class*='info-btn']");
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
-            const returnURL = "{{ url('/phonics_l2/lrw3/antonyms') }}";
-            const doneURL = "{{ url('/phonics_l2/lrw3/antonyms') }}";
+            const returnURL = "{{ url('/phonics_l2/lrw4/homonyms') }}";
+            const doneURL = "{{ url('/phonics_l2/lrw4/homonyms') }}";
 
             let currentSlide = 0;
             let currentAudio = null;

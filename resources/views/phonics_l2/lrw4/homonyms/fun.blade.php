@@ -27,22 +27,16 @@
             top: 4%;
         }
 
-        .box {
-            width: 10vw;
-            height: 10vw;
-            background: #D9D9D9;
-            border: .3vw solid #70AF39;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
         .rectangle {
-            background: #F7B94A;
-            width: 12vw;
-            height: 3vw;
-            color: #A15E0D;
-            font-size: 2vw;
+            background: #70AF39;
+            width: 13vw;
+            height: 4vw;
+            border: .2vw solid #f7b94a;
+            color: white;
+            font-size: 1.5vw;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
         }
     </style>
 @endpush
@@ -54,252 +48,51 @@
             <img src="{{ asset('assets/images/phonics_l2/global/common/panel-bear.png') }}" class="w-[50vw]" />
             <h2
                 class="absolute top-[38%] left-[27%] -translate-x-1/2 -translate-y-1/2  text-[#A15E0D] text-[4vw] text-center">
-                Finding <br>
-                Antonyms!</h2>
+                Fun with <br>
+                Adjectives!</h2>
         </div>
     </div>
 
-    {{-- Side Info Panel --}}
-    <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/sh1.m4a') }}">
 
-        <div class="relative w-fit h-fit">
-            <img src="{{ asset('assets/images/phonics_l2/global/common/bear-e.png') }}"class="w-[40vw] " />
-            <h2 class="absolute top-[28%] right-[14%] -translate-y-1/2  text-[#A15E0D] text-[1.5vw] text-center">
-                <span class="text-[#70af39]">Antonyms</span>
-                are pairs of <br> words with opposite <br> meanings. Try finding <br> the antonyms in this <br> activity
 
-            </h2>
-        </div>
-    </div>
-
+    {{-- ============================ --}}
     {{-- Panel 2 --}}
-    <div class="phonics-panel flex flex-col justify-center w-full gap-[2vw] items-center"
+    <div class="phonics-panel flex flex-col justify-between gap-[2vw] h-full items-center w-full"
         data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
-        <div class="flex items-end">
-            <h2 class="panel-title">Which word is the antonym of happy</h2>
-            <img src="{{ asset('assets/images/phonics_l2/lrw3/glad.png') }}" class="h-[4vw]" />
-            <span class="panel-title">?</span>
+        <h2 class="panel-title stroke">Choose the word that is <span class="text-white"> opposite</span> of each <span
+                class="text-[#A21E14]"> red word.</span></h2>
+
+        <img src="{{ asset('assets/images/phonics_l2/lrw4   /fun1.png') }}" class="w-[20vw]" />
+
+        <div class="flex flex-wrap items-end justify-center relative h-fit w-fit text-white text-[2vw]">
+            <span class="absolute top-0 right-[10%] text-[#A21E14] text-[2vw] ">dirty</span>
+
+            <span>The prince’s room is</span>
+            <div class="w-[9vw] h-[.3vw] bg-[#E6A23C] border-t border-[#C47F1E]"></div>
         </div>
 
-        <div class="flex justify-around items-center w-full">
-
-            <div class="box">
-                <img src="{{ asset('assets/images/phonics_l2/lrw3/glad.png') }}" class="h-[5vw]" />
-
-            </div>
-            <div class="box">
-
-            </div>
-        </div>
-
-        <div class="flex justify-around items-center w-full">
-            <div>
-                <img src="{{ asset('assets/images/phonics_l2/lrw3/sad.png') }}" class="h-[10vw]" />
-                <div class="rectangle">sad</div>
-            </div>
-
-            <div>
-                <img src="{{ asset('assets/images/phonics_l2/lrw3/nap.png') }}" class="h-[10vw]" />
-                <div class="rectangle">nap</div>
-            </div>
+        <div class="flex items-center justify-center gap-[2vw] w-full">
+            <div class="rectangle">clean</div>
+            <div class="rectangle">messy</div>
         </div>
     </div>
 
-    {{-- Panel 3 --}}
-    <div class="phonics-panel flex flex-col justify-start w-full h-full gap-[2vw] items-center"
+    {{-- Panel  --}}
+    <div class="phonics-panel flex flex-col justify-start h-full gap-[2vw] h-full items-center w-full"
         data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
-        <div class="flex items-end">
-            <h2 class="panel-title">Which word is the antonym of happy</h2>
-            <img src="{{ asset('assets/images/phonics_l2/lrw3/glad.png') }}" class="h-[4vw]" />
-            <span class="panel-title">?</span>
+        <h2 class="panel-title stroke">Choose the word that is <span class="text-white"> opposite</span> of each <span
+                class="text-[#A21E14]"> red word.</span></h2>
+
+        <img src="{{ asset('assets/images/phonics_l2/lrw4   /fun1.png') }}" class="w-[20vw]" />
+
+        <div class="flex flex-wrap items-end justify-center relative h-fit w-fit text-white text-[2vw]">
+            <span class="absolute top-0 right-[10%] text-[#f7b94a] text-[2vw] ">clean</span>
+
+            <span>The prince’s room is</span>
+            <div class="w-[9vw] h-[.3vw] bg-[#E6A23C] border-t border-[#C47F1E]"></div>
         </div>
 
-        <div class="flex justify-around items-center w-full">
-
-            <div class="box flex-col">
-                <img src="{{ asset('assets/images/phonics_l2/lrw3/glad.png') }}" class="h-[5vw]" />
-                <h2>happy</h2>
-            </div>
-            <div class="box flex-col">
-                <img src="{{ asset('assets/images/phonics_l2/lrw3/sad.png') }}" class="h-[5vw]" />
-                <h2>sad</h2>
-
-            </div>
-        </div>
     </div>
-
-    {{-- ======================================= --}}
-    {{-- Panel --}}
-    <div class="phonics-panel flex flex-col justify-center w-full gap-[2vw] items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
-        <div class="flex items-end">
-            <h2 class="panel-title">Which word is the antonym of thin</h2>
-            <img src="{{ asset('assets/images/phonics_l2/idin/thin.png') }}" class="h-[4vw]" />
-            <span class="panel-title">?</span>
-        </div>
-
-        <div class="flex justify-around items-center w-full">
-
-            <div class="box">
-                <img src="{{ asset('assets/images/phonics_l2/idin/thin.png') }}" class="h-[5vw]" />
-
-            </div>
-            <div class="box">
-
-            </div>
-        </div>
-
-        <div class="flex justify-around items-end w-full">
-            <div>
-                <img src="{{ asset('assets/images/phonics_l2/igip/big.png') }}" class="w-[10vw]" />
-                <div class="rectangle">big</div>
-            </div>
-
-            <div class="flex flex-col items-center ">
-                <img src="{{ asset('assets/images/phonics_l2/lrw3/fat.png') }}" class="h-[10vw]" />
-                <div class="rectangle">fat</div>
-            </div>
-        </div>
-    </div>
-
-    {{-- Panel --}}
-    <div class="phonics-panel flex flex-col justify-start w-full h-full gap-[2vw] items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
-        <div class="flex items-end">
-            <h2 class="panel-title">Which word is the antonym of thin</h2>
-            <img src="{{ asset('assets/images/phonics_l2/idin/thin.png') }}" class="h-[4vw]" />
-            <span class="panel-title">?</span>
-        </div>
-
-        <div class="flex justify-around items-center w-full">
-
-            <div class="box flex-col">
-                <img src="{{ asset('assets/images/phonics_l2/idin/thin.png') }}" class="h-[5vw]" />
-                <h2>thin</h2>
-            </div>
-            <div class="box flex-col">
-                <img src="{{ asset('assets/images/phonics_l2/lrw3/fat.png') }}" class="h-[5vw]" />
-                <h2>fat</h2>
-
-            </div>
-        </div>
-    </div>
-
-    {{-- ======================================= --}}
-    {{-- Panel --}}
-    <div class="phonics-panel flex flex-col justify-center w-full gap-[2vw] items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
-        <div class="flex items-end">
-            <h2 class="panel-title">Which word is the antonym of stand</h2>
-            <img src="{{ asset('assets/images/phonics_l2/lrw3/stand.png') }}" class="h-[4vw]" />
-            <span class="panel-title">?</span>
-        </div>
-
-        <div class="flex justify-around items-center w-full">
-
-            <div class="box">
-                <img src="{{ asset('assets/images/phonics_l2/lrw3/stand.png') }}" class="h-[5vw]" />
-
-            </div>
-            <div class="box">
-
-            </div>
-        </div>
-
-        <div class="flex justify-around items-end w-full">
-            <div>
-                <img src="{{ asset('assets/images/phonics_l2/lrw3/sit.png') }}" class="h-[10vw]" />
-                <div class="rectangle">sit</div>
-            </div>
-
-            <div class="flex flex-col items-center ">
-                <img src="{{ asset('assets/images/phonics_l2/lrw3/angry.png') }}" class="h-[10vw]" />
-                <div class="rectangle">angry</div>
-            </div>
-        </div>
-    </div>
-
-    {{-- Panel --}}
-    <div class="phonics-panel flex flex-col justify-start w-full h-full gap-[2vw] items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
-        <div class="flex items-end">
-            <h2 class="panel-title">Which word is the antonym of stand</h2>
-            <img src="{{ asset('assets/images/phonics_l2/lrw3/stand.png') }}" class="h-[4vw]" />
-            <span class="panel-title">?</span>
-        </div>
-
-        <div class="flex justify-around items-center w-full">
-
-            <div class="box flex-col">
-                <img src="{{ asset('assets/images/phonics_l2/lrw3/stand.png') }}" class="h-[5vw]" />
-                <h2>stand</h2>
-            </div>
-            <div class="box flex-col">
-                <img src="{{ asset('assets/images/phonics_l2/lrw3/sit.png') }}" class="h-[5vw]" />
-                <h2>sit</h2>
-
-            </div>
-        </div>
-    </div>
-
-    {{-- ======================================= --}}
-    {{-- Panel --}}
-    <div class="phonics-panel flex flex-col justify-center w-full gap-[2vw] items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
-        <div class="flex items-end">
-            <h2 class="panel-title">Which word is the antonym of cold</h2>
-            <img src="{{ asset('assets/images/phonics_l2/lrw3/cold.png') }}" class="h-[4vw]" />
-            <span class="panel-title">?</span>
-        </div>
-
-        <div class="flex justify-around items-center w-full">
-
-            <div class="box">
-                <img src="{{ asset('assets/images/phonics_l2/lrw3/cold.png') }}" class="h-[5vw]" />
-
-            </div>
-            <div class="box">
-
-            </div>
-        </div>
-
-        <div class="flex justify-around items-end w-full">
-            <div>
-                <img src="{{ asset('assets/images/phonics_l2/lrw3/sit.png') }}" class="h-[10vw]" />
-                <div class="rectangle">sit</div>
-            </div>
-
-            <div class="flex flex-col items-center ">
-                <img src="{{ asset('assets/images/phonics_l2/lrw3/hot.png') }}" class="h-[10vw]" />
-                <div class="rectangle">hot</div>
-            </div>
-        </div>
-    </div>
-
-    {{-- Panel --}}
-    <div class="phonics-panel flex flex-col justify-start w-full h-full gap-[2vw] items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
-        <div class="flex items-end">
-            <h2 class="panel-title">Which word is the antonym of cold</h2>
-            <img src="{{ asset('assets/images/phonics_l2/lrw3/cold.png') }}" class="h-[4vw]" />
-            <span class="panel-title">?</span>
-        </div>
-
-        <div class="flex justify-around items-center w-full">
-
-            <div class="box flex-col">
-                <img src="{{ asset('assets/images/phonics_l2/lrw3/cold.png') }}" class="h-[5vw]" />
-                <h2>cold</h2>
-            </div>
-            <div class="box flex-col">
-                <img src="{{ asset('assets/images/phonics_l2/lrw3/hot.png') }}" class="h-[5vw]" />
-                <h2>hot</h2>
-
-            </div>
-        </div>
-    </div>
-
 
 
     {{-- =========================================================== --}}
@@ -347,8 +140,8 @@
             const infoButtons = document.querySelectorAll("[class*='info-btn']");
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
-            const returnURL = "{{ url('/phonics_l2/lrw3/antonyms') }}";
-            const doneURL = "{{ url('/phonics_l2/lrw3/antonyms') }}";
+            const returnURL = "{{ url('/phonics_l2/lrw4 /homonyms') }}";
+            const doneURL = "{{ url('/phonics_l2/lrw4   /homonyms') }}";
 
             let currentSlide = 0;
             let currentAudio = null;

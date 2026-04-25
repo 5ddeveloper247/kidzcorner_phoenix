@@ -18,8 +18,8 @@
         }
 
         .panel-title {
-            color: #F7B94A;
-            font-size: 2vw;
+            color: #ffffff;
+            font-size: 2vw;``
         }
 
         .panel-div {
@@ -27,16 +27,22 @@
             top: 4%;
         }
 
-        .rectangle {
-            background: #70AF39;
-            width: 13vw;
-            height: 4vw;
-            border: .2vw solid #f7b94a;
-            color: white;
-            font-size: 1.5vw;
+        .box {
+            width: 10vw;
+            height: 10vw;
+            background: #D9D9D9;
+            border: .3vw solid #70AF39;
             display: flex;
-            justify-content: space-around;
+            justify-content: center;
             align-items: center;
+        }
+
+        .rectangle {
+            background: #F7B94A;
+            width: 12vw;
+            height: 3vw;
+            color: #A15E0D;
+            font-size: 2vw;
         }
     </style>
 @endpush
@@ -48,51 +54,236 @@
             <img src="{{ asset('assets/images/phonics_l2/global/common/panel-bear.png') }}" class="w-[50vw]" />
             <h2
                 class="absolute top-[38%] left-[27%] -translate-x-1/2 -translate-y-1/2  text-[#A15E0D] text-[4vw] text-center">
-                Fun with <br>
-                Adjectives!</h2>
+                Finding <br>
+                Homonyms!</h2>
+        </div>
+    </div>
+
+    {{-- Side Info Panel --}}
+    <div class="phonics-panel flex justify-center items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/sh1.m4a') }}">
+
+        <div class="relative w-fit h-fit">
+            <img src="{{ asset('assets/images/phonics_l2/global/common/bear-e.png') }}"class="w-[40vw] " />
+            <h2 class="absolute top-[28%] right-[17%] -translate-y-1/2  text-[#A15E0D] text-[1.5vw] text-center">
+                Try finding the <br>
+                <span class="text-[#70af39]">homonyms</span> in <br>
+                this activity.
+
+            </h2>
         </div>
     </div>
 
 
+    <div class="phonics-panel flex justify-center items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/sh1.m4a') }}">
+        <div class="relative w-fit h-fit">
+            <img src="{{ asset('assets/images/phonics_l2/global/common/bear-e.png') }}"class="w-[40vw] " />
+            <h2 class="absolute top-[28%] right-[14%] -translate-y-1/2  text-[#A15E0D] text-[1.5vw] text-center">
+                <span class="text-[#70af39]">Homonyms</span> are words <br>
+                that sound the same <br>
+                but have different <br>
+                meanings and different <br>
+                spellings.
+            </h2>
+        </div>
+    </div>
 
-    {{-- ============================ --}}
     {{-- Panel 2 --}}
-    <div class="phonics-panel flex flex-col justify-between gap-[2vw] h-full items-center w-full"
+    <div class="phonics-panel flex flex-col justify-center w-full gap-[2vw] items-center"
         data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
-        <h2 class="panel-title stroke">Choose the word that is <span class="text-white"> opposite</span> of each <span
-                class="text-[#A21E14]"> red word.</span></h2>
+        <h2 class="panel-title">Find the matching pair of homonyms.</h2>
 
-        <img src="{{ asset('assets/images/phonics_l2/lrw3/fun1.png') }}" class="w-[20vw]" />
+        <div class="flex justify-around items-center w-full">
 
-        <div class="flex flex-wrap items-end justify-center relative h-fit w-fit text-white text-[2vw]">
-            <span class="absolute top-0 right-[10%] text-[#A21E14] text-[2vw] ">dirty</span>
+            <div class="box">
+                <img src="{{ asset('assets/images/phonics_l2/lrw4/blue.png') }}" class="w-[5vw]" />
 
-            <span>The prince’s room is</span>
-            <div class="w-[9vw] h-[.3vw] bg-[#E6A23C] border-t border-[#C47F1E]"></div>
+            </div>
+            <div class="box">
+
+            </div>
         </div>
 
-        <div class="flex items-center justify-center gap-[2vw] w-full">
-            <div class="rectangle">clean</div>
-            <div class="rectangle">messy</div>
+        <div class="flex justify-around items-center w-full">
+            <div>
+                <img src="{{ asset('assets/images/phonics_l2/lrw4/blow.png') }}" class="h-[10vw]" />
+                <div class="rectangle">blow</div>
+            </div>
+
+            <div>
+                <img src="{{ asset('assets/images/phonics_l2/lrw4/black.png') }}" class="h-[10vw]" />
+                <div class="rectangle">black</div>
+            </div>
         </div>
     </div>
 
-    {{-- Panel  --}}
-    <div class="phonics-panel flex flex-col justify-start h-full gap-[2vw] h-full items-center w-full"
+    {{-- Panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start w-full h-full gap-[2vw] items-center"
         data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
-        <h2 class="panel-title stroke">Choose the word that is <span class="text-white"> opposite</span> of each <span
-                class="text-[#A21E14]"> red word.</span></h2>
+        <h2 class="panel-title">Find the matching pair of homonyms.</h2>
 
-        <img src="{{ asset('assets/images/phonics_l2/lrw3/fun1.png') }}" class="w-[20vw]" />
+        <div class="flex justify-around items-center w-full">
 
-        <div class="flex flex-wrap items-end justify-center relative h-fit w-fit text-white text-[2vw]">
-            <span class="absolute top-0 right-[10%] text-[#f7b94a] text-[2vw] ">clean</span>
+            <div class="box flex-col">
+                <img src="{{ asset('assets/images/phonics_l2/lrw4/blue.png') }}" class="w-[5vw]" />
+                <h2>blue</h2>
+            </div>
+            <div class="box flex-col">
+                <img src="{{ asset('assets/images/phonics_l2/lrw4/blow.png') }}" class="h-[8vw]" />
+                <h2>blow</h2>
 
-            <span>The prince’s room is</span>
-            <div class="w-[9vw] h-[.3vw] bg-[#E6A23C] border-t border-[#C47F1E]"></div>
+            </div>
+        </div>
+    </div>
+
+    {{-- ======================================= --}}
+    {{-- Panel --}}
+    <div class="phonics-panel flex flex-col justify-center w-full gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+        <h2 class="panel-title">Find the matching pair of homonyms.</h2>
+
+        <div class="flex justify-around items-center w-full">
+
+            <div class="box">
+                <img src="{{ asset('assets/images/phonics_l2/lrw4/son.png') }}" class="h-[8vw]" />
+
+            </div>
+            <div class="box">
+
+            </div>
         </div>
 
+        <div class="flex justify-around items-end w-full">
+            <div>
+                <img src="{{ asset('assets/images/phonics_l2/lrw4/swan.png') }}" class="w-[10vw]" />
+                <div class="rectangle">swan</div>
+            </div>
+
+            <div class="flex flex-col items-center ">
+                <img src="{{ asset('assets/images/phonics_l2/lrw4/sun.png') }}" class="w-[10vw]" />
+                <div class="rectangle">sun</div>
+            </div>
+        </div>
     </div>
+
+    {{-- Panel --}}
+    <div class="phonics-panel flex flex-col justify-start w-full h-full gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+        <h2 class="panel-title">Find the matching pair of homonyms.</h2>
+
+        <div class="flex justify-around items-center w-full">
+
+            <div class="box flex-col">
+                <img src="{{ asset('assets/images/phonics_l2/lrw4/son.png') }}" class="h-[8vw]" />
+                <h2>son</h2>
+            </div>
+            <div class="box flex-col">
+                <img src="{{ asset('assets/images/phonics_l2/lrw4/sun.png') }}" class="w-[10vw]" />
+                <h2>sun</h2>
+
+            </div>
+        </div>
+    </div>
+
+    {{-- ======================================= --}}
+    {{-- Panel --}}
+    <div class="phonics-panel flex flex-col justify-center w-full gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+        <h2 class="panel-title">Find the matching pair of homonyms.</h2>
+
+        <div class="flex justify-around items-center w-full">
+
+            <div class="box">
+                <img src="{{ asset('assets/images/phonics_l2/lrw4/rows.png') }}" class="h-[8vw]" />
+
+            </div>
+            <div class="box">
+
+            </div>
+        </div>
+
+        <div class="flex justify-around items-end w-full">
+            <div>
+                <img src="{{ asset('assets/images/phonics_l2/lrw4/rose.png') }}" class="h-[10vw]" />
+                <div class="rectangle">rose</div>
+            </div>
+
+            <div class="flex flex-col items-center ">
+                <img src="{{ asset('assets/images/phonics_l2/lrw4/grow.png') }}" class="w-[10vw]" />
+                <div class="rectangle">grows</div>
+            </div>
+        </div>
+    </div>
+
+    {{-- Panel --}}
+    <div class="phonics-panel flex flex-col justify-start w-full h-full gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+        <h2 class="panel-title">Find the matching pair of homonyms.</h2>
+        <div class="flex justify-around items-center w-full">
+
+            <div class="box flex-col">
+                <img src="{{ asset('assets/images/phonics_l2/lrw4/rows.png') }}" class="h-[8vw]" />
+                <h2>rows</h2>
+            </div>
+            <div class="box flex-col">
+                <img src="{{ asset('assets/images/phonics_l2/lrw4/rose.png') }}" class="h-[8vw]" />
+                <h2>rose</h2>
+
+            </div>
+        </div>
+    </div>
+
+    {{-- ======================================= --}}
+    {{-- Panel --}}
+    <div class="phonics-panel flex flex-col justify-center w-full gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+        <h2 class="panel-title">Find the matching pair of homonyms.</h2>
+
+
+        <div class="flex justify-around items-center w-full">
+
+            <div class="box">
+                <img src="{{ asset('assets/images/phonics_l2/lrw4/tow.png') }}" class="w-[10vw]" />
+
+            </div>
+            <div class="box">
+
+            </div>
+        </div>
+
+        <div class="flex justify-around items-end w-full">
+            <div>
+                <img src="{{ asset('assets/images/phonics_l2/lrw4/thumb.png') }}" class="w-[10vw]" />
+                <div class="rectangle">thumb</div>
+            </div>
+
+            <div class="flex flex-col items-center ">
+                <img src="{{ asset('assets/images/phonics_l2/lrw4/toe.png') }}" class="w-[10vw]" />
+                <div class="rectangle">toe</div>
+            </div>
+        </div>
+    </div>
+
+    {{-- Panel --}}
+    <div class="phonics-panel flex flex-col justify-start w-full h-full gap-[2vw] items-center"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+        <h2 class="panel-title">Find the matching pair of homonyms.</h2>
+
+        <div class="flex justify-around items-center w-full">
+
+            <div class="box flex-col">
+                <img src="{{ asset('assets/images/phonics_l2/lrw4/tow.png') }}" class="w-[10vw]" />
+                <h2>tow</h2>
+            </div>
+            <div class="box flex-col">
+                <img src="{{ asset('assets/images/phonics_l2/lrw4/toe.png') }}" class="w-[8vw]" />
+                <h2>toe</h2>
+
+            </div>
+        </div>
+    </div>
+
 
 
     {{-- =========================================================== --}}
@@ -140,8 +331,8 @@
             const infoButtons = document.querySelectorAll("[class*='info-btn']");
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
-            const returnURL = "{{ url('/phonics_l2/lrw3/antonyms') }}";
-            const doneURL = "{{ url('/phonics_l2/lrw3/antonyms') }}";
+            const returnURL = "{{ url('/phonics_l2/lrw4/homonyms') }}";
+            const doneURL = "{{ url('/phonics_l2/lrw4/homonyms') }}";
 
             let currentSlide = 0;
             let currentAudio = null;
