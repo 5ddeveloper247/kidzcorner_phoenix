@@ -150,8 +150,8 @@
             const closeButton = document.getElementById("closeButton");
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
-            const returnURL = "{{ url('/phonics/letter_n') }}?view=words"; // ✅ FIX
-            const doneURL = "{{ url('/phonics/letter_n') }}?view=words"; // ✅ single declaration
+            const returnURL = "{{ url('/phonics_l1/letter_n') }}?view=words"; // ✅ FIX
+            const doneURL = "{{ url('/phonics_l1/letter_n') }}?view=words"; // ✅ single declaration
 
             let currentSlide = 0;
             let currentAudio = null;

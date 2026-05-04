@@ -187,7 +187,7 @@ document.addEventListener("DOMContentLoaded", function() {
             const infoButtons = document.querySelectorAll("[class*='info-btn']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_e') }}?view=words";
+            const returnURL = "{{ url('/phonics_l1/letter_e') }}?view=words";
             const doneURL = "{{ url('/phonics/l1') }}";
 
             // Track current position

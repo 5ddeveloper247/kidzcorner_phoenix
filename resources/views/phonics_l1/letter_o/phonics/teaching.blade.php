@@ -138,9 +138,9 @@ document.addEventListener("DOMContentLoaded", function() {
             const doneButton = document.querySelector(".doneButton");
 
             // URLs for navigation
-                        const returnURL = "{{ url('/phonics/letter_o') }}?view=phonics";
+                        const returnURL = "{{ url('/phonics_l1/letter_o') }}?view=phonics";
 
-            const doneURL = "{{ url('/phonics/letter_o') }}?view=phonics";
+            const doneURL = "{{ url('/phonics_l1/letter_o') }}?view=phonics";
 
             // Track current position
             let currentSlide = 0;

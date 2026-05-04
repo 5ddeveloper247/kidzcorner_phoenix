@@ -276,8 +276,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_l') }}?view=phonics";
-            const doneURL = "{{ url('/phonics/letter_l') }}?view=phonics";
+            const returnURL = "{{ url('/phonics_l1/letter_l') }}?view=phonics";
+            const doneURL = "{{ url('/phonics_l1/letter_l') }}?view=phonics";
 
             // Track current position
             let currentSlide = 0;
@@ -605,7 +605,7 @@
                 // Stop the sound if still playing
                 wellDoneSound.pause();
                 wellDoneSound.currentTime = 0;
-                window.location.href = '{{ url('/phonics/letter_l') }}?view=phonics';
+                window.location.href = '{{ url('/phonics_l1/letter_l') }}?view=phonics';
             });
 
             // Optional: Sound button functionality

@@ -138,8 +138,8 @@ document.addEventListener("DOMContentLoaded", function() {
             const doneButton = document.querySelector(".doneButton");
 
             // URLs for navigation
-            const returnURL = "{{ url('/phonics/letter_j') }}?view=phonics";
-            const doneURL = "{{ url('/phonics/letter_j') }}?view=phonics";
+            const returnURL = "{{ url('/phonics_l1/letter_j') }}?view=phonics";
+            const doneURL = "{{ url('/phonics_l1/letter_j') }}?view=phonics";
 
             // Track current position
             let currentSlide = 0;

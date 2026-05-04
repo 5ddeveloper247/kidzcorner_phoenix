@@ -7,7 +7,7 @@ Route::middleware(['auth', 'role:1,2'])->group(function () {
 
     Route::get('/phonics/l2', function () {
         return view('phonics_l2.index');
-    })->name('Phonics-L1');
+    })->name('Phonics-L2');
 
     // Supports: /phonics/letter_a/phonics/magicletters
     Route::get('/phonics_l2/{folder}/{subfolder?}/{page?}', function ($folder, $subfolder = null, $page = 'index') {
