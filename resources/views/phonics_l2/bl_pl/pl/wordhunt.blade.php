@@ -46,8 +46,6 @@
             <img src="{{ asset('assets/images/phonics_l2/global/common/play.png') }}" class="w-[30vw] h-[20vw]" />
             <img src="{{ asset('assets/images/phonicsl1/global/bear.png') }}" class="h-[25vw]" />
         </div>
-        <p class="p-note">Tips: Encourage children to say the 'pl' sound. <br>
-            Remind them to listen to the initial sound when naming each object.</p>
     </div>
 
     {{-- Panel 2 — plane (question) --}}

@@ -44,7 +44,7 @@
         <div class="text-white text-[3vw]">
             <h1>Bl is for /bl/</h1>
             <h1>/Bl/ is for bl</h1>
-            <img src="{{ asset('assets/images/phonics_l2/blpl/song2.png') }}" class="ml-10" />
+            <img src="{{ asset('assets/images/phonics_l2/blpl/song2.png') }}" class="ml-[2vw]" />
             <h1>/bl/, /bl/, /bl/, /bl/</h1>
         </div>
 

@@ -26,6 +26,11 @@
             position: absolute;
             top: 4%;
         }
+         .panel-ul {
+            color: white;
+            font-size: 1.1vw;
+            padding-left: 3vw;
+        }
     </style>
 @endpush
 

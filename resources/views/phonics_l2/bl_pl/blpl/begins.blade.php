@@ -23,9 +23,9 @@
         }
 
         .box {
-            width: 160px;
-            height: 80px;
-            border-radius: 10px;
+            width: 12vw;
+            height: 5vw;
+            border-radius: 1vw;
             background: #FBF0D0;
             box-shadow: 0 4px 4px #00000040;
             display: flex;
