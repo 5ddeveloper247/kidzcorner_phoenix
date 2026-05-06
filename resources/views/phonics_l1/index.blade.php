@@ -198,7 +198,13 @@
 
             let currentSlide = 0;
 
-            // Function to show specific slide
+            // ✅ Restore last slide from sessionStorage
+            const savedSlide = sessionStorage.getItem("phonics_l1_slide");
+            if (savedSlide !== null) {
+                currentSlide = parseInt(savedSlide);
+                sessionStorage.removeItem("phonics_l1_slide");
+            }
+
             function showSlide(index) {
                 slides.forEach((slide, i) => {
                     if (i === index) {
@@ -208,7 +214,6 @@
                     }
                 });
 
-                // Hide return button on first slide, show on all others
                 if (returnButton) {
                     if (index === 0) {
                         returnButton.classList.add("hidden");
@@ -217,23 +222,25 @@
                     }
                 }
 
-                // Show/hide buttons based on slide
                 if (index === 0) {
-                    // First slide - hide both next and done buttons
                     nextBtn.classList.add("hidden");
                     doneBtn.classList.add("hidden");
                 } else if (index === slides.length - 1) {
-                    // Last slide - show done button, hide next button
                     nextBtn.classList.add("hidden");
                     doneBtn.classList.remove("hidden");
                 } else {
-                    // Middle slides - show next button, hide done button
                     nextBtn.classList.remove("hidden");
                     doneBtn.classList.add("hidden");
                 }
             }
 
-            // Start button - go to first content slide
+            // ✅ Save slide index before navigating away via any lesson link
+            document.querySelectorAll("#slide-board a").forEach(link => {
+                link.addEventListener("click", () => {
+                    sessionStorage.setItem("phonics_l1_slide", currentSlide);
+                });
+            });
+
             if (startBtn) {
                 startBtn.addEventListener("click", () => {
                     currentSlide = 1;
@@ -241,7 +248,6 @@
                 });
             }
 
-            // Next button - go to next slide
             if (nextBtn) {
                 nextBtn.addEventListener("click", () => {
                     if (currentSlide < slides.length - 1) {
@@ -251,7 +257,6 @@
                 });
             }
 
-            // Done button - go back to first slide
             if (doneBtn) {
                 doneBtn.addEventListener("click", () => {
                     currentSlide = 0;
@@ -259,7 +264,6 @@
                 });
             }
 
-            // Return button - go back one slide
             if (returnButton) {
                 returnButton.addEventListener("click", () => {
                     if (currentSlide > 0) {
@@ -269,8 +273,8 @@
                 });
             }
 
-            // Initialize - show first slide
-            showSlide(0);
+            // ✅ Initialize with restored or default slide
+            showSlide(currentSlide);
         });
     </script>
 @endpush

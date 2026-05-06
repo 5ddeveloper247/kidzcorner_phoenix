@@ -29,7 +29,7 @@
     </div>
 
     {{-- Phonics l2 --}}
-    <div id="slide-board" class="grid grid-cols-4 gap-[2vw] mb-[2vw] hidden">
+    <div id="slide-board" class=" home grid grid-cols-4 gap-[2vw] mb-[2vw] hidden">
 
         <a href="{{ url('/phonics_l2/bl_pl') }}">
             <img src="{{ asset('assets/images/phonics_l2/global/g1.png') }}" />
@@ -67,7 +67,7 @@
 
 
     {{-- Phonics l2 --}}
-    <div id="slide-board" class="grid grid-cols-4 gap-[2vw] mb-[2vw] hidden">
+    <div id="slide-board" class="first grid grid-cols-4 gap-[2vw] mb-[2vw] hidden">
 
         <a href="{{ url('/phonics_l2/sp_st') }}">
             <img src="{{ asset('assets/images/phonics_l2/global/g9.png') }}" />
@@ -105,7 +105,7 @@
 
 
     {{-- Phonics l2 --}}
-    <div id="slide-board" class="grid grid-cols-4 gap-[2vw] mb-[2vw] hidden">
+    <div id="slide-board" class="second grid grid-cols-4 gap-[2vw] mb-[2vw] hidden">
 
         <a href="{{ url('/phonics_l2/ag_ab') }}">
             <img src="{{ asset('assets/images/phonics_l2/global/g17.png') }}" />
@@ -142,7 +142,7 @@
     </div>
 
     {{-- Phonics l2 --}}
-    <div id="slide-board" class="grid grid-cols-4 gap-[2vw] mb-[2vw] hidden">
+    <div id="slide-board" class="third grid grid-cols-4 gap-[2vw] mb-[2vw] hidden">
 
         <a href="{{ url('/phonics_l2/it_rev') }}">
             <img src="{{ asset('assets/images/phonics_l2/global/g25.png') }}" />
@@ -179,7 +179,7 @@
     </div>
 
     {{-- Phonics l2 --}}
-    <div id="slide-board" class="grid grid-cols-3 gap-[2vw] mb-[2vw] hidden text-center justify-content-center">
+    <div id="slide-board" class="forth grid grid-cols-3 gap-[2vw] mb-[2vw] hidden text-center justify-content-center">
 
         <a href="{{ url('/phonics_l2/lrw1') }}">
             <img src="{{ asset('assets/images/phonics_l2/global/g33.png') }}" class="mx-auto d-block" />
@@ -248,7 +248,13 @@
 
             let currentSlide = 0;
 
-            // Function to show specific slide
+            // ✅ Restore last slide from sessionStorage
+            const savedSlide = sessionStorage.getItem("phonics_l2_slide");
+            if (savedSlide !== null) {
+                currentSlide = parseInt(savedSlide);
+                sessionStorage.removeItem("phonics_l2_slide");
+            }
+
             function showSlide(index) {
                 slides.forEach((slide, i) => {
                     if (i === index) {
@@ -258,7 +264,6 @@
                     }
                 });
 
-                // Hide return button on first slide, show on all others
                 if (returnButton) {
                     if (index === 0) {
                         returnButton.classList.add("hidden");
@@ -267,23 +272,25 @@
                     }
                 }
 
-                // Show/hide buttons based on slide
                 if (index === 0) {
-                    // First slide - hide both next and done buttons
                     nextBtn.classList.add("hidden");
                     doneBtn.classList.add("hidden");
                 } else if (index === slides.length - 1) {
-                    // Last slide - show done button, hide next button
                     nextBtn.classList.add("hidden");
                     doneBtn.classList.remove("hidden");
                 } else {
-                    // Middle slides - show next button, hide done button
                     nextBtn.classList.remove("hidden");
                     doneBtn.classList.add("hidden");
                 }
             }
 
-            // Start button - go to first content slide
+            // ✅ Save slide index before navigating away via any lesson link
+            document.querySelectorAll("#slide-board a").forEach(link => {
+                link.addEventListener("click", () => {
+                    sessionStorage.setItem("phonics_l2_slide", currentSlide);
+                });
+            });
+
             if (startBtn) {
                 startBtn.addEventListener("click", () => {
                     currentSlide = 1;
@@ -291,7 +298,6 @@
                 });
             }
 
-            // Next button - go to next slide
             if (nextBtn) {
                 nextBtn.addEventListener("click", () => {
                     if (currentSlide < slides.length - 1) {
@@ -301,7 +307,6 @@
                 });
             }
 
-            // Done button - go back to first slide
             if (doneBtn) {
                 doneBtn.addEventListener("click", () => {
                     currentSlide = 0;
@@ -309,7 +314,6 @@
                 });
             }
 
-            // Return button - go back one slide
             if (returnButton) {
                 returnButton.addEventListener("click", () => {
                     if (currentSlide > 0) {
@@ -319,8 +323,8 @@
                 });
             }
 
-            // Initialize - show first slide
-            showSlide(0);
+            // ✅ Initialize with restored or default slide
+            showSlide(currentSlide);
         });
     </script>
 @endpush
