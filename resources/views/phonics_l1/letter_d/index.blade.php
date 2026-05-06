@@ -63,24 +63,24 @@
     <div id="words-slide" class="flex flex-col gap-y-[2vw]">
         <h2 class="text-[3vw] stroke text-[#F7B94A]">High frequency Words</h2>
         <div class="grid grid-cols-3 gap-[2vw]">
-            <a href="{{ url('phonics/letter_d/frequencywords/storytime') }}">
+            <a href="{{ url('phonics_l1/letter_d/frequencywords/storytime') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn9.png') }}" class="w-[14vw]" />
             </a>
 
-            <a href="{{ url('phonics/letter_d/frequencywords/flashcards') }}">
+            <a href="{{ url('phonics_l1/letter_d/frequencywords/flashcards') }}">
                 <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn13.png') }}" class="w-[14vw]" />
             </a>
 
-            <a href="{{ url('phonics/letter_d/frequencywords/wordsearch') }}">
+            <a href="{{ url('phonics_l1/letter_d/frequencywords/wordsearch') }}">
                 <img src="{{ asset('assets/images/phonicsl1/letter_d/search.png') }}" class="w-[14vw]" />
             </a>
 
             <div class="col-span-3 flex justify-center items-center gap-[2vw]">
-                <a href="{{ url('phonics/letter_d/frequencywords/wordhunt') }}">
+                <a href="{{ url('phonics_l1/letter_d/frequencywords/wordhunt') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn14.png') }}" class="w-[14vw]" />
                 </a>
 
-                <a href="{{ url('phonics/letter_d/frequencywords/about') }}">
+                <a href="{{ url('phonics_l1/letter_d/frequencywords/about') }}">
                     <img src="{{ asset('assets/images/phonicsl1/global/slides-btn/btn7.png') }}" class="w-[14vw]" />
                 </a>
             </div>
