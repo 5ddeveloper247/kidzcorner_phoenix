@@ -474,8 +474,8 @@
         document.addEventListener("DOMContentLoaded", function() {
 
             /* CONFIG */
-            const returnURL = "{{ url('/phonics_l2/agab/agab') }}";
-            const doneURL = "{{ url('/phonics_l2/agab/agab') }}";
+            const returnURL = "{{ url('/phonics_l2/ag_ab/agab') }}";
+            const doneURL = "{{ url('/phonics_l2/ag_ab/agab') }}";
 
             /* DOM */
             const slides = document.querySelectorAll(".phonics-panel");

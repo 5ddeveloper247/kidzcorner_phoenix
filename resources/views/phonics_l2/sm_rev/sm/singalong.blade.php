@@ -37,7 +37,7 @@
     {{-- Panel 2: Song Content Slide --}}
     <div class="phonics-panel flex flex-col h-full justify-between space-y-[2vw] -mt-[3vw] items-center">
         <div class="text-center">
-            <h2 class="large-title">SK</h2>
+            <h2 class="large-title">SM</h2>
             <p class="note">Sing to the tune of "Pop goes the Weasel</p>
         </div>
 

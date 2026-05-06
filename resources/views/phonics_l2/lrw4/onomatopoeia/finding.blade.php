@@ -18,7 +18,7 @@
         }
 
         .panel-title {
-            color: #F7B94A;
+            color: #ffffff;
             font-size: 2vw;
         }
 
@@ -28,8 +28,8 @@
         }
 
         .box {
-            width: 10vw;
-            height: 10vw;
+            width: 13vw;
+            height: 13vw;
             background: #D9D9D9;
             border: .3vw solid #70AF39;
             display: flex;
@@ -49,63 +49,56 @@
 
 @section('content')
     {{-- panel 1 --}}
-    <div class="phonics-panel"  >
+    <div class="phonics-panel">
         <div class="relative">
             <img src="{{ asset('assets/images/phonics_l2/global/common/panel-bear.png') }}" class="w-[50vw]" />
             <h2
                 class="absolute top-[38%] left-[27%] -translate-x-1/2 -translate-y-1/2  text-[#A15E0D] text-[4vw] text-center">
                 Finding <br>
-                Synonyms!</h2>
+                onomatopoeia!</h2>
         </div>
     </div>
 
     {{-- Side Info Panel --}}
-    <div class="phonics-panel flex justify-center items-center"
-        >
+    <div class="phonics-panel flex justify-center items-center">
 
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonics_l2/global/common/bear-e.png') }}"class="w-[40vw] " />
             <h2 class="absolute top-[28%] right-[15%] -translate-y-1/2  text-[#A15E0D] text-[1.7vw] text-center">
-                Try finding all the <br> <span class="text-[#70af39] underline">synonyms</span> in this <br>
+                Try finding all the <br> <span class="text-[#70af39] underline">onomatopoeia</span> in this <br>
                 activity.</h2>
         </div>
     </div>
 
     {{-- Panel  --}}
-    <div class="phonics-panel flex flex-col justify-between h-full w-full gap-[2vw] items-center"
-         >
+    <div class="phonics-panel flex flex-col justify-between h-full w-full gap-[2vw] items-center">
         <div class="flex items-end">
-            <h2 class="panel-title">Which word is the synonym of happy</h2>
-            <img src="{{ asset('assets/images/phonics_l2/lrw3/glad.png') }}" class="h-[4vw]" />
-            <span class="panel-title">?</span>
+            <h2 class="panel-title">Find the correct sound to match the picture.</h2>
         </div>
 
 
         <div class="box">
-            <img src="{{ asset('assets/images/phonics_l2/lrw3/glad.png') }}" class="h-[5vw]" />
+            <img src="{{ asset('assets/images/phonics_l2/lrw4/snores.png') }}" class="h-[10vw]" />
         </div>
 
         <div class="flex justify-around items-center w-full">
-            <div class="rectangle">sad</div>
+            <div class="rectangle">snores</div>
 
-            <div class="rectangle">glad</div>
+            <div class="rectangle">moo</div>
         </div>
     </div>
 
     {{-- Panel  --}}
-    <div class="phonics-panel flex flex-col justify-start h-full w-full gap-[2vw] items-center"
-         >
+    <div class="phonics-panel flex flex-col justify-start h-full w-full gap-[2vw] items-center">
         <div class="flex items-end">
-            <h2 class="panel-title">Which word is the synonym of happy</h2>
-            <img src="{{ asset('assets/images/phonics_l2/lrw3/glad.png') }}" class="h-[4vw]" />
-            <span class="panel-title">?</span>
+            <h2 class="panel-title">Find the correct sound to match the picture.</h2>
         </div>
 
         <div class="flex flex-col items-center gap-[3vw]">
             <div class="box">
-                <img src="{{ asset('assets/images/phonics_l2/lrw3/glad.png') }}" class="h-[5vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/lrw4/snores.png') }}" class="h-[10vw]" />
             </div>
-            <div class="rectangle">glad</div>
+            <div class="rectangle">snores</div>
         </div>
 
     </div>
@@ -113,124 +106,279 @@
 
     {{-- -======================================- --}}
     {{-- Panel  --}}
-    <div class="phonics-panel flex flex-col justify-between h-full w-full gap-[2vw] items-center"
-         >
+    <div class="phonics-panel flex flex-col justify-between h-full w-full gap-[2vw] items-center">
         <div class="flex items-end">
-            <h2 class="panel-title">Which word is the synonym of huge</h2>
-            <img src="{{ asset('assets/images/phonics_l2/ayue/huge.png') }}" class="w-[4vw]" />
-            <span class="panel-title">?</span>
+            <h2 class="panel-title">Find the correct sound to match the picture.</h2>
         </div>
 
 
         <div class="box">
-            <img src="{{ asset('assets/images/phonics_l2/ayue/huge.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/phonics_l2/lrw4/zip.png') }}" class="w-[8vw]" />
         </div>
 
         <div class="flex justify-around items-center w-full">
-            <div class="rectangle">old</div>
+            <div class="rectangle">zip</div>
 
-            <div class="rectangle">big</div>
+            <div class="rectangle">bang</div>
         </div>
     </div>
 
     {{-- Panel  --}}
-    <div class="phonics-panel flex flex-col justify-start h-full w-full gap-[2vw] items-center"
-         >
+    <div class="phonics-panel flex flex-col justify-start h-full w-full gap-[2vw] items-center">
         <div class="flex items-end">
-            <h2 class="panel-title">Which word is the synonym of huge</h2>
-            <img src="{{ asset('assets/images/phonics_l2/ayue/huge.png') }}" class="w-[4vw]" />
-            <span class="panel-title">?</span>
+            <h2 class="panel-title">Find the correct sound to match the picture.</h2>
         </div>
 
         <div class="flex flex-col items-center gap-[3vw]">
             <div class="box">
-                <img src="{{ asset('assets/images/phonics_l2/ayue/huge.png') }}" class="w-[5vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/lrw4/zip.png') }}" class="w-[8vw]" />
             </div>
-            <div class="rectangle">big</div>
+            <div class="rectangle">zip</div>
         </div>
 
     </div>
 
 
-    {{-- ===================================== --}}
+    {{-- =========================================== --}}
     {{-- Panel  --}}
-    <div class="phonics-panel flex flex-col justify-between h-full w-full gap-[2vw] items-center"
-         >
+    <div class="phonics-panel flex flex-col justify-between h-full w-full gap-[2vw] items-center">
         <div class="flex items-end">
-            <h2 class="panel-title">Which word is the synonym of little</h2>
-            <img src="{{ asset('assets/images/phonics_l2/lrw3/big.png') }}" class="w-[4vw]" />
-            <span class="panel-title">?</span>
+            <h2 class="panel-title">Find the correct sound to match the picture.</h2>
         </div>
 
 
         <div class="box">
-            <img src="{{ asset('assets/images/phonics_l2/lrw3/big.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/phonics_l2/drgr/drip.png') }}" class="w-[8vw]" />
         </div>
 
         <div class="flex justify-around items-center w-full">
-            <div class="rectangle">small</div>
+            <div class="rectangle">clang</div>
 
-            <div class="rectangle">spots</div>
+            <div class="rectangle">drip</div>
         </div>
     </div>
 
     {{-- Panel  --}}
-    <div class="phonics-panel flex flex-col justify-start h-full w-full gap-[2vw] items-center"
-         >
+    <div class="phonics-panel flex flex-col justify-start h-full w-full gap-[2vw] items-center">
         <div class="flex items-end">
-            <h2 class="panel-title">Which word is the synonym of little</h2>
-            <img src="{{ asset('assets/images/phonics_l2/lrw3/big.png') }}" class="w-[4vw]" />
-            <span class="panel-title">?</span>
+            <h2 class="panel-title">Find the correct sound to match the picture.</h2>
         </div>
 
         <div class="flex flex-col items-center gap-[3vw]">
             <div class="box">
-                <img src="{{ asset('assets/images/phonics_l2/lrw3/big.png') }}" class="w-[5vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/drgr/drip.png') }}" class="w-[8vw]" />
             </div>
-            <div class="rectangle">small</div>
+            <div class="rectangle">drip</div>
         </div>
 
     </div>
 
-{{-- =========================================== --}}
-     {{-- Panel  --}}
-    <div class="phonics-panel flex flex-col justify-between h-full w-full gap-[2vw] items-center"
-         >
+
+    {{-- =========================================== --}}
+    {{-- Panel  --}}
+    <div class="phonics-panel flex flex-col justify-between h-full w-full gap-[2vw] items-center">
         <div class="flex items-end">
-            <h2 class="panel-title">Which word is the synonym of angry</h2>
-            <img src="{{ asset('assets/images/phonics_l2/lrw3/mad.png') }}" class="h-[4vw]" />
-            <span class="panel-title">?</span>
+            <h2 class="panel-title">Find the correct sound to match the picture.</h2>
         </div>
 
 
         <div class="box">
-            <img src="{{ asset('assets/images/phonics_l2/lrw3/mad.png') }}" class="h-[5vw]" />
+            <img src="{{ asset('assets/images/phonics_l2/lrw4/trumpet.png') }}" class="w-[8vw]" />
         </div>
 
         <div class="flex justify-around items-center w-full">
-            <div class="rectangle">cry</div>
-
-            <div class="rectangle">mad</div>
+            <div class="rectangle">trumpet</div>
+            <div class="rectangle">hoot</div>
         </div>
     </div>
 
     {{-- Panel  --}}
-    <div class="phonics-panel flex flex-col justify-start h-full w-full gap-[2vw] items-center"
-         >
+    <div class="phonics-panel flex flex-col justify-start h-full w-full gap-[2vw] items-center">
         <div class="flex items-end">
-            <h2 class="panel-title">Which word is the synonym of angry</h2>
-            <img src="{{ asset('assets/images/phonics_l2/lrw3/mad.png') }}" class="h-[4vw]" />
-            <span class="panel-title">?</span>
+            <h2 class="panel-title">Find the correct sound to match the picture.</h2>
         </div>
 
         <div class="flex flex-col items-center gap-[3vw]">
             <div class="box">
-                <img src="{{ asset('assets/images/phonics_l2/lrw3/mad.png') }}" class="h-[5vw]" />
+                <img src="{{ asset('assets/images/phonics_l2/lrw4/trumpet.png') }}" class="w-[8vw]" />
             </div>
-            <div class="rectangle">mad</div>
+            <div class="rectangle">trumpet</div>
         </div>
 
     </div>
+
+
+    {{-- =========================================== --}}
+    {{-- Panel  --}}
+    <div class="phonics-panel flex flex-col justify-between h-full w-full gap-[2vw] items-center">
+        <div class="flex items-end">
+            <h2 class="panel-title">Find the correct sound to match the picture.</h2>
+        </div>
+
+
+        <div class="box">
+            <img src="{{ asset('assets/images/phonics_l2/lrw4/crow.png') }}" class="w-[8vw]" />
+        </div>
+
+        <div class="flex justify-around items-center w-full">
+            <div class="rectangle">roar</div>
+
+            <div class="rectangle">crow</div>
+        </div>
+    </div>
+
+    {{-- Panel  --}}
+    <div class="phonics-panel flex flex-col justify-start h-full w-full gap-[2vw] items-center">
+        <div class="flex items-end">
+            <h2 class="panel-title">Find the correct sound to match the picture.</h2>
+        </div>
+
+        <div class="flex flex-col items-center gap-[3vw]">
+            <div class="box">
+                <img src="{{ asset('assets/images/phonics_l2/lrw4/crow.png') }}" class="w-[8vw]" />
+            </div>
+            <div class="rectangle">crow</div>
+        </div>
+    </div>
+
+    {{-- =========================================== --}}
+    {{-- Panel  --}}
+    <div class="phonics-panel flex flex-col justify-between h-full w-full gap-[2vw] items-center">
+        <div class="flex items-end">
+            <h2 class="panel-title">Find the correct sound to match the picture.</h2>
+        </div>
+
+
+        <div class="box">
+            <img src="{{ asset('assets/images/phonics_l2/lrw4/neigh.png') }}" class="w-[8vw]" />
+        </div>
+
+        <div class="flex justify-around items-center w-full">
+            <div class="rectangle">neigh</div>
+            <div class="rectangle">moo</div>
+        </div>
+    </div>
+
+    {{-- Panel  --}}
+    <div class="phonics-panel flex flex-col justify-start h-full w-full gap-[2vw] items-center">
+        <div class="flex items-end">
+            <h2 class="panel-title">Find the correct sound to match the picture.</h2>
+        </div>
+
+        <div class="flex flex-col items-center gap-[3vw]">
+            <div class="box">
+                <img src="{{ asset('assets/images/phonics_l2/lrw4/neigh.png') }}" class="w-[8vw]" />
+            </div>
+            <div class="rectangle">neigh</div>
+        </div>
+
+    </div>
+
+
+    {{-- =========================================== --}}
+    {{-- Panel  --}}
+    <div class="phonics-panel flex flex-col justify-between h-full w-full gap-[2vw] items-center">
+        <div class="flex items-end">
+            <h2 class="panel-title">Find the correct sound to match the picture.</h2>
+        </div>
+
+        <div class="box">
+            <img src="{{ asset('assets/images/phonics_l2/lrw4/howl.png') }}" class="w-[8vw]" />
+        </div>
+
+        <div class="flex justify-around items-center w-full">
+            <div class="rectangle">meow</div>
+            <div class="rectangle">howl</div>
+        </div>
+    </div>
+
+    {{-- Panel  --}}
+    <div class="phonics-panel flex flex-col justify-start h-full w-full gap-[2vw] items-center">
+        <div class="flex items-end">
+            <h2 class="panel-title">Find the correct sound to match the picture.</h2>
+        </div>
+
+        <div class="flex flex-col items-center gap-[3vw]">
+            <div class="box">
+                <img src="{{ asset('assets/images/phonics_l2/lrw4/howl.png') }}" class="w-[8vw]" />
+            </div>
+            <div class="rectangle">howl</div>
+        </div>
+
+    </div>
+
+
+    {{-- =========================================== --}}
+    {{-- Panel  --}}
+    <div class="phonics-panel flex flex-col justify-between h-full w-full gap-[2vw] items-center">
+        <div class="flex items-end">
+            <h2 class="panel-title">Find the correct sound to match the picture.</h2>
+        </div>
+
+        <div class="box">
+            <img src="{{ asset('assets/images/phonics_l2/lrw4/bray.png') }}" class="w-[8vw]" />
+        </div>
+
+        <div class="flex justify-around items-center w-full">
+            <div class="rectangle">bray</div>
+            <div class="rectangle">woof</div>
+        </div>
+    </div>
+
+    {{-- Panel  --}}
+    <div class="phonics-panel flex flex-col justify-start h-full w-full gap-[2vw] items-center">
+        <div class="flex items-end">
+            <h2 class="panel-title">Find the correct sound to match the picture.</h2>
+        </div>
+
+        <div class="flex flex-col items-center gap-[3vw]">
+            <div class="box">
+                <img src="{{ asset('assets/images/phonics_l2/lrw4/bray.png') }}" class="w-[8vw]" />
+            </div>
+            <div class="rectangle">bray</div>
+        </div>
+
+    </div>
+
+
+    {{-- =========================================== --}}
+    {{-- Panel  --}}
+    <div class="phonics-panel flex flex-col justify-between h-full w-full gap-[2vw] items-center">
+        <div class="flex items-end">
+            <h2 class="panel-title">Find the correct sound to match the picture.</h2>
+        </div>
+
+        <div class="box">
+            <img src="{{ asset('assets/images/phonics_l2/lrw4/croak.png') }}" class="w-[8vw]" />
+        </div>
+
+        <div class="flex justify-around items-center w-full">
+            <div class="rectangle">squeak</div>
+            <div class="rectangle">croak</div>
+        </div>
+    </div>
+
+    {{-- Panel  --}}
+    <div class="phonics-panel flex flex-col justify-start h-full w-full gap-[2vw] items-center">
+        <div class="flex items-end">
+            <h2 class="panel-title">Find the correct sound to match the picture.</h2>
+        </div>
+
+        <div class="flex flex-col items-center gap-[3vw]">
+            <div class="box">
+                <img src="{{ asset('assets/images/phonics_l2/lrw4/croak.png') }}" class="w-[8vw]" />
+            </div>
+            <div class="rectangle">croak</div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
 
     {{-- =========================================================== --}}
     {{-- All Buttons --}}
@@ -277,8 +425,8 @@
             const infoButtons = document.querySelectorAll("[class*='info-btn']");
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
-            const returnURL = "{{ url('/phonics_l2/lrw3/synonyms') }}";
-            const doneURL = "{{ url('/phonics_l2/lrw3/synonyms') }}";
+            const returnURL = "{{ url('/phonics_l2/lrw4/onomatopoeia') }}";
+            const doneURL = "{{ url('/phonics_l2/lrw4/onomatopoeia') }}";
 
             let currentSlide = 0;
             let currentAudio = null;

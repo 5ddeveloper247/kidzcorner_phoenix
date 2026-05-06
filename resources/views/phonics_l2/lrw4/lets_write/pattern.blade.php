@@ -66,29 +66,29 @@
             Complete each sentence in your own words to create a story.</h2>
         <div class="flex justify-center items-center gap-[3vw]">
 
-            <div>
-                <img src="{{ asset('assets/images/phonics_l2/itrev/story2.png') }}" class="h-[20vw]" />
+            <div class="space-y-[2vw]">
+                <img src="{{ asset('assets/images/phonics_l2/lrw4/pattern1.png') }}" class="w-[20vw]" />
                 <div class="flex items-end h-fit w-fit text-[#f7b94a] text-[1.7vw]">
-                    <span>My brother is</span>
+                    <span>The duke has</span>
                     <div class="w-[9vw] h-[4px] bg-[#E6A23C] border-t border-[#C47F1E]"></div>.
                 </div>
             </div>
 
-            <div>
-                <img src="{{ asset('assets/images/phonics_l2/itrev/story3.png') }}" class="h-[20vw]" />
+            <div class="space-y-[2vw]">
+                <img src="{{ asset('assets/images/phonics_l2/lrw4/pattern2.png') }}" class="w-[20vw]" />
                 <div class="flex items-end h-fit w-fit text-[#f7b94a] text-[1.7vw]">
-                    <span>My brother is</span>
+                    <span>The duke has</span>
                     <div class="w-[9vw] h-[4px] bg-[#E6A23C] border-t border-[#C47F1E]"></div>.
                 </div>
             </div>
 
             <div class="text-white text-[2vw] flex flex-col items-center">
-                <h2>happy</h2>
-                <h2>glad</h2>
-                <h2>thrilled</h2>
-                <h2>excited</h2>
-                <h2>sad</h2>
-                <h2>unhappy</h2>
+                <h2>bye</h2>
+                <h2>buy</h2>
+                <h2>blue</h2>
+                <h2>blew</h2>
+                <h2>break</h2>
+                <h2>break</h2>
             </div>
         </div>
     </div>
@@ -100,28 +100,28 @@
             Complete each sentence in your own words to create a story.</h2>
         <div class="flex justify-center items-center gap-[3vw]">
 
-            <div>
-                <img src="{{ asset('assets/images/phonics_l2/itrev/story5.png') }}" class="h-[20vw]" />
+            <div class="space-y-[2vw]">
+                <img src="{{ asset('assets/images/phonics_l2/lrw4/pattern3.png') }}" class="w-[20vw]" />
                 <div class="flex items-end h-fit w-fit text-[#f7b94a] text-[1.7vw]">
-                    <span>My brother is</span>
+                    <span>The duke has</span>
                     <div class="w-[9vw] h-[4px] bg-[#E6A23C] border-t border-[#C47F1E]"></div>.
                 </div>
             </div>
 
-            <div>
-                <img src="{{ asset('assets/images/phonics_l2/itrev/story7.png') }}" class="h-[20vw]" />
+            <div class="space-y-[2vw]">
+                <img src="{{ asset('assets/images/phonics_l2/lrw4/pattern4.png') }}" class="w-[20vw]" />
                 <div class="flex items-end h-fit w-fit text-[#f7b94a] text-[1.7vw]">
-                    <span>My brother is</span>
+                    <span>The duke has</span>
                     <div class="w-[9vw] h-[4px] bg-[#E6A23C] border-t border-[#C47F1E]"></div>.
                 </div>
             </div>
             <div class="text-white text-[2vw] flex flex-col items-center">
-                <h2>happy</h2>
-                <h2>glad</h2>
-                <h2>thrilled</h2>
-                <h2>excited</h2>
-                <h2>sad</h2>
-                <h2>unhappy</h2>
+                <h2>bye</h2>
+                <h2>buy</h2>
+                <h2>blue</h2>
+                <h2>blew</h2>
+                <h2>break</h2>
+                <h2>break</h2>
             </div>
         </div>
 
@@ -135,29 +135,29 @@
             Complete each sentence in your own words to create a story.</h2>
         <div class="flex justify-center items-center gap-[3vw]">
 
-            <div>
-                <img src="{{ asset('assets/images/phonics_l2/itrev/story8.png') }}" class="h-[20vw]" />
+            <div class="space-y-[2vw]">
+                <img src="{{ asset('assets/images/phonics_l2/lrw4/pattern5.png') }}" class="w-[20vw]" />
                 <div class="flex items-end h-fit w-fit text-[#f7b94a] text-[1.7vw]">
-                    <span>My brother is</span>
+                    <span>The duke has</span>
                     <div class="w-[9vw] h-[4px] bg-[#E6A23C] border-t border-[#C47F1E]"></div>.
                 </div>
             </div>
 
-            <div>
-                <img src="{{ asset('assets/images/phonics_l2/itrev/story9.png') }}" class="h-[20vw]" />
+            <div class="space-y-[2vw]">
+                <img src="{{ asset('assets/images/phonics_l2/lrw4/pattern6.png') }}" class="w-[20vw]" />
                 <div class="flex items-end h-fit w-fit text-[#f7b94a] text-[1.7vw]">
-                    <span>My brother is</span>
+                    <span>The duke has</span>
                     <div class="w-[9vw] h-[4px] bg-[#E6A23C] border-t border-[#C47F1E]"></div>.
                 </div>
             </div>
 
             <div class="text-white text-[2vw] flex flex-col items-center">
-                <h2>happy</h2>
-                <h2>glad</h2>
-                <h2>thrilled</h2>
-                <h2>excited</h2>
-                <h2>sad</h2>
-                <h2>unhappy</h2>
+                <h2>bye</h2>
+                <h2>buy</h2>
+                <h2>blue</h2>
+                <h2>blew</h2>
+                <h2>break</h2>
+                <h2>break</h2>
             </div>
         </div>
     </div>
@@ -219,8 +219,8 @@
             const infoButtons = document.querySelectorAll("[class*='info-btn']");
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
-            const returnURL = "{{ url('/phonics_l2/lrw3/lets_write') }}";
-            const doneURL = "{{ url('/phonics_l2/lrw3/lets_write') }}";
+            const returnURL = "{{ url('/phonics_l2/lrw4/lets_write') }}";
+            const doneURL = "{{ url('/phonics_l2/lrw4/lets_write') }}";
 
             let currentSlide = 0;
             let currentAudio = null;

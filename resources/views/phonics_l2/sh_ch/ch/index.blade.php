@@ -23,15 +23,15 @@
         {{-- Navigations to Inner folders  --}}
         <div id="slide-board" class="grid grid-cols-2 gap-[2vw] mb-[2vw]  text-center justify-content-center">
 
-            <a href="{{ url('/phonics_l2/sh_ch/ch/blend') }}">
-                <img src="{{ asset('assets/images/phonics_l2/global/b1.png') }}" class="mx-auto d-block" />
+            <a href="{{ url('/phonics_l2/sh_ch/ch/say') }}">
+                <img src="{{ asset('assets/images/phonics_l2/global/b12.png') }}" class="mx-auto d-block" />
             </a>
 
             <a href="{{ url('/phonics_l2/sh_ch/ch/rhyme') }}">
                 <img src="{{ asset('assets/images/phonics_l2/global/b6.png') }}" class="mx-auto d-block" />
             </a>
 
-            <a href="{{ url('/phonics_l2/sh_ch/ch/match') }}">
+            <a href="{{ url('/phonics_l2/sh_ch/wch/match') }}">
                 <img src="{{ asset('assets/images/phonics_l2/global/b8.png') }}" class="mx-auto d-block" />
             </a>
 

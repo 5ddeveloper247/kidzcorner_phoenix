@@ -37,13 +37,13 @@
 
 @section('content')
     {{-- panel 1 --}}
-    <div class="phonics-panel"  >
+    <div class="phonics-panel">
         <div class="relative">
             <img src="{{ asset('assets/images/phonics_l2/global/common/panel-bear.png') }}" class="w-[50vw]" />
             <h2
                 class="absolute top-[38%] left-[27%] -translate-x-1/2 -translate-y-1/2  text-[#A15E0D] text-[4vw] text-center">
                 All About <br>
-                Synonyms</h2>
+                onomatopoeia</h2>
         </div>
 
         <p class="p-note">Tips: Follow the sequence of activities numbered, or click on any activity of your choice. <br>
@@ -81,7 +81,7 @@
             </li>
 
             <li>
-                Synonyms - Words with similar meanings.
+                onomatopoeia - Words with similar meanings.
                 <br>Examples: see - look, under - below, big - huge
             </li>
         </ul>
@@ -94,66 +94,101 @@
     </div>
 
     {{-- panel  --}}
-    <div class="phonics-panel flex justify-center items-center"
-        >
+    <div class="phonics-panel flex justify-center items-center">
 
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonics_l2/global/common/bear-e.png') }}"class="w-[40vw] " />
             <h2 class="absolute top-[28%] right-[18%] -translate-y-1/2  text-[#A15E0D] text-[1.5vw] text-center">
-                <span class="text-[#70af39]">Synonyms</span> are the <br> different words that <br>
-                have almost the <br>
-                same meaning.
+                An <span class="text-[#70af39]">onomatopoeia</span> is <br>
+                a word which <br>
+                imitates a noise or <br>
+                an action.
             </h2>
         </div>
     </div>
 
     {{-- Panel 3 --}}
-    <div class="phonics-panel flex justify-center items-center h-full w-full"
-        >
-        <img src="{{ asset('assets/images/phonics_l2/lrw3/sr1.png') }}" class="w-[40vw]" />
+    <div class="phonics-panel flex justify-center items-center h-full w-full">
+        <img src="{{ asset('assets/images/phonics_l2/lrw4/sr1.png') }}" class="w-[40vw]" />
 
     </div>
 
 
     {{-- Panel 4 --}}
-    <div class="phonics-panel flex justify-center items-center h-full w-full"
-        >
-        <img src="{{ asset('assets/images/phonics_l2/lrw3/sr2.png') }}" class="w-[40vw]" />
+    <div class="phonics-panel flex justify-center items-center h-full w-full">
+        <img src="{{ asset('assets/images/phonics_l2/lrw4/sr2.png') }}" class="w-[40vw]" />
 
     </div>
 
 
 
     {{-- Panel 5 --}}
-    <div class="phonics-panel flex justify-center items-center h-full w-full"
-        >
-        <img src="{{ asset('assets/images/phonics_l2/lrw3/sr3.png') }}" class="w-[45vw]" />
+    <div class="phonics-panel flex justify-center items-center h-full w-full">
+        <img src="{{ asset('assets/images/phonics_l2/lrw4/sr3.png') }}" class="w-[45vw]" />
 
     </div>
 
     {{-- Panel 6 --}}
-    <div class="phonics-panel flex justify-center items-center h-full w-full"
-        >
-        <img src="{{ asset('assets/images/phonics_l2/lrw3/sr4.png') }}" class="w-[45vw]" />
+    <div class="phonics-panel flex justify-center items-center h-full w-full">
+        <img src="{{ asset('assets/images/phonics_l2/lrw4/sr4.png') }}" class="w-[45vw]" />
 
     </div>
 
     {{-- Panel 7 --}}
-    <div class="phonics-panel flex justify-center items-center h-full w-full"
-        >
-        <img src="{{ asset('assets/images/phonics_l2/lrw3/sr5.png') }}" class="w-[45vw]" />
+    <div class="phonics-panel flex justify-center items-center h-full w-full">
+        <img src="{{ asset('assets/images/phonics_l2/lrw4/sr5.png') }}" class="w-[45vw]" />
+    </div>
+
+    {{-- Panel 8 --}}
+    <div class="phonics-panel flex justify-center items-center h-full w-full">
+        <img src="{{ asset('assets/images/phonics_l2/lrw4/sr6.png') }}" class="w-[45vw]" />
+    </div>
+
+    {{-- Panel 9 --}}
+    <div class="phonics-panel flex justify-center items-center h-full w-full">
+        <img src="{{ asset('assets/images/phonics_l2/lrw4/sr7.png') }}" class="w-[45vw]" />
+    </div>
+
+    {{-- Panel 10 --}}
+    <div class="phonics-panel flex justify-center items-center h-full w-full">
+        <img src="{{ asset('assets/images/phonics_l2/lrw4/sr8.png') }}" class="w-[45vw]" />
+
+    </div>
+
+    {{-- Panel 11 --}}
+    <div class="phonics-panel flex justify-center items-center h-full w-full">
+        <img src="{{ asset('assets/images/phonics_l2/lrw4/sr9.png') }}" class="w-[45vw]" />
+    </div>
+
+    {{-- Panel 12 --}}
+    <div class="phonics-panel flex justify-center items-center h-full w-full">
+        <img src="{{ asset('assets/images/phonics_l2/lrw4/sr10.png') }}" class="w-[45vw]" />
+
+    </div>
+
+    {{-- Panel 13 --}}
+    <div class="phonics-panel flex justify-center items-center h-full w-full">
+        <img src="{{ asset('assets/images/phonics_l2/lrw4/sr11.png') }}" class="w-[45vw]" />
+    </div>
+
+    {{-- Panel 14 --}}
+    <div class="phonics-panel flex justify-center items-center h-full w-full">
+        <img src="{{ asset('assets/images/phonics_l2/lrw4/sr12.png') }}" class="w-[45vw]" />
+    </div>
+
+    {{-- Panel 15 --}}
+    <div class="phonics-panel flex justify-center items-center h-full w-full">
+        <img src="{{ asset('assets/images/phonics_l2/lrw4/sr13.png') }}" class="w-[45vw]" />
 
     </div>
 
 
 
-    <div class="phonics-panel flex justify-center items-center"
-        >
+    <div class="phonics-panel flex justify-center items-center">
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonics_l2/global/common/bear-e.png') }}"class="w-[40vw] " />
-            <h2
-                class="absolute top-[28%] right-[15%] -translate-y-1/2  text-[#A15E0D] text-[1.7vw] text-center">
-                We use <span class="text-[#70af39]">synonyms</span><br>
+            <h2 class="absolute top-[12%] right-[13%] text-[#A15E0D] text-[1.5vw] text-center">
+                We use <span class="text-[#70af39]">onomatopoeia</span><br>
                 to make a sentence <br>
                 more interesting. <br>
                 Now let’s try using <br> them.
@@ -208,8 +243,8 @@
             const infoButtons = document.querySelectorAll("[class*='info-btn']");
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
-            const returnURL = "{{ url('/phonics_l2/lrw3/synonyms') }}";
-            const doneURL = "{{ url('/phonics_l2/lrw3/synonyms') }}";
+            const returnURL = "{{ url('/phonics_l2/lrw4/onomatopoeia') }}";
+            const doneURL = "{{ url('/phonics_l2/lrw4/onomatopoeia') }}";
             const CHEERING_AUDIO = "{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}";
 
             let currentSlide = 0;

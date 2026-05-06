@@ -31,13 +31,13 @@
 
 @section('content')
     {{-- panel 1 --}}
-    <div class="phonics-panel"  >
+    <div class="phonics-panel">
         <div class="relative">
             <img src="{{ asset('assets/images/phonics_l2/global/common/panel-bear.png') }}" class="w-[50vw]" />
             <h2
                 class="absolute top-[38%] left-[27%] -translate-x-1/2 -translate-y-1/2  text-[#A15E0D] text-[4vw] text-center">
                 Where’s the <br>
-                Synonyms?</h2>
+                onomatopoeia?</h2>
         </div>
         <p class="p-note">Tips: Encourage children to read the sentences.</p>
     </div>
@@ -45,54 +45,65 @@
 
     {{-- ============================ --}}
     {{-- Panel 2 --}}
-    <div class="phonics-panel flex flex-col justify-between w-full items-center"
-         >
-        <h2 class="panel-title stroke">Match the synonym pairs.</h2>
+    <div class="phonics-panel flex flex-col justify-between w-full items-center">
+        <h2 class="panel-title stroke">Match the animals to the sounds they make.</h2>
         <div class="flex items-center justify-around w-full">
 
             <div>
                 <div class="relative w-fit h-fit">
                     <img src="{{ asset('assets/images/phonics_l2/global/simple-g.png') }}" class="h-[8vw]" />
-                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw] text-[#A15E0D]">fast
+                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw] text-[#A15E0D]">lion
                     </h2>
                 </div>
                 <div class="relative w-fit h-fit">
                     <img src="{{ asset('assets/images/phonics_l2/global/simple-g.png') }}" class="h-[8vw]" />
-                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">close
+                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">dog
                     </h2>
                 </div>
                 <div class="relative w-fit h-fit">
                     <img src="{{ asset('assets/images/phonics_l2/global/simple-g.png') }}" class="h-[8vw]" />
-                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">throw
+                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">chicken
                     </h2>
                 </div>
                 <div class="relative w-fit h-fit">
                     <img src="{{ asset('assets/images/phonics_l2/global/simple-g.png') }}" class="h-[8vw]" />
-                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">see
+                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">cat
                     </h2>
                 </div>
+
+            </div>
+
+            <div class="opacity-0">
+
+                <img src="{{ asset('assets/images/phonics_l2/lrw4/lion.png') }}" class="w-[8vw]" />
+
+                <img src="{{ asset('assets/images/phonics_l2/lrw4/dog.png') }}" class="w-[8vw]" />
+
+                <img src="{{ asset('assets/images/phonics_l2/lrw4/chicken.png') }}" class="h-[8vw]" />
+
+                <img src="{{ asset('assets/images/phonics_l2/lrw4/cat.png') }}" class="w-[8vw]" />
 
             </div>
 
             <div>
                 <div class="relative w-fit h-fit">
                     <img src="{{ asset('assets/images/phonics_l2/global/simple-g.png') }}" class="h-[8vw]" />
-                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">shut
+                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">bark
                     </h2>
                 </div>
                 <div class="relative w-fit h-fit">
                     <img src="{{ asset('assets/images/phonics_l2/global/simple-g.png') }}" class="h-[8vw]" />
-                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">quick
+                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">roar
                     </h2>
                 </div>
                 <div class="relative w-fit h-fit">
                     <img src="{{ asset('assets/images/phonics_l2/global/simple-g.png') }}" class="h-[8vw]" />
-                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">look
+                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">meow
                     </h2>
                 </div>
                 <div class="relative w-fit h-fit">
                     <img src="{{ asset('assets/images/phonics_l2/global/simple-g.png') }}" class="h-[8vw]" />
-                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">toss
+                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">cluck
                     </h2>
                 </div>
             </div>
@@ -102,24 +113,33 @@
     </div>
 
     {{-- Panel 3 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full w-full items-center"
-         >
-        <h2 class="panel-title stroke">Match the synonym pairs.</h2>
-        <div class="flex items-center justify-around w-full">
+    <div class="phonics-panel flex flex-col justify-start h-full w-full items-center">
+        <h2 class="panel-title stroke">Match the animals to the sounds they make.</h2>
+        <div class="flex items-start justify-around w-full">
 
             <div>
                 <div class="relative w-fit h-fit">
                     <img src="{{ asset('assets/images/phonics_l2/global/simple-g.png') }}" class="h-[8vw]" />
-                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw] text-[#F8473A]">fast
+                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw] text-[#F8473A]">lion
                     </h2>
                 </div>
-                
+
+            </div>
+
+            <div>
+                <img src="{{ asset('assets/images/phonics_l2/lrw4/lion.png') }}" class="w-[8vw]" />
+
+                <img src="{{ asset('assets/images/phonics_l2/lrw4/dog.png') }}" class="w-[8vw] opacity-0" />
+
+                <img src="{{ asset('assets/images/phonics_l2/lrw4/chicken.png') }}" class="h-[8vw] opacity-0" />
+
+                <img src="{{ asset('assets/images/phonics_l2/lrw4/cat.png') }}" class="w-[8vw] opacity-0" />
             </div>
 
             <div>
                 <div class="relative w-fit h-fit">
                     <img src="{{ asset('assets/images/phonics_l2/global/simple-g.png') }}" class="h-[8vw]" />
-                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw] text-[#F8473A]">quick
+                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw] text-[#F8473A]">roar
                     </h2>
                 </div>
             </div>
@@ -130,54 +150,52 @@
 
 
     {{-- panel 4 --}}
-       <div class="phonics-panel flex flex-col justify-between w-full items-center"
-         >
-        <h2 class="panel-title stroke">Match the synonym pairs.</h2>
+    <div class="phonics-panel flex flex-col justify-between w-full items-center">
+        <h2 class="panel-title stroke">Match the animals to the sounds they make.</h2>
         <div class="flex items-center justify-around w-full">
 
             <div>
                 <div class="relative w-fit h-fit">
                     <img src="{{ asset('assets/images/phonics_l2/global/simple-g.png') }}" class="h-[8vw]" />
-                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw] ">fast
+                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw] ">lion
                     </h2>
                 </div>
                 <div class="relative w-fit h-fit">
                     <img src="{{ asset('assets/images/phonics_l2/global/simple-g.png') }}" class="h-[8vw]" />
-                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw] text-[#A15E0D]">close
+                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw] text-[#A15E0D]">dog
                     </h2>
                 </div>
                 <div class="relative w-fit h-fit">
                     <img src="{{ asset('assets/images/phonics_l2/global/simple-g.png') }}" class="h-[8vw]" />
-                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">throw
+                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">chicken
                     </h2>
                 </div>
                 <div class="relative w-fit h-fit">
                     <img src="{{ asset('assets/images/phonics_l2/global/simple-g.png') }}" class="h-[8vw]" />
-                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">see
+                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">cat
                     </h2>
                 </div>
-
-            </div>
+            </div>  
 
             <div>
                 <div class="relative w-fit h-fit">
                     <img src="{{ asset('assets/images/phonics_l2/global/simple-g.png') }}" class="h-[8vw]" />
-                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">shut
+                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">bark
                     </h2>
                 </div>
                 <div class="relative w-fit h-fit">
                     <img src="{{ asset('assets/images/phonics_l2/global/simple-g.png') }}" class="h-[8vw]" />
-                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">quick
+                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">roar
                     </h2>
                 </div>
                 <div class="relative w-fit h-fit">
                     <img src="{{ asset('assets/images/phonics_l2/global/simple-g.png') }}" class="h-[8vw]" />
-                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">look
+                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">meow
                     </h2>
                 </div>
                 <div class="relative w-fit h-fit">
                     <img src="{{ asset('assets/images/phonics_l2/global/simple-g.png') }}" class="h-[8vw]" />
-                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">toss
+                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">cluck
                     </h2>
                 </div>
             </div>
@@ -188,34 +206,45 @@
 
 
     {{-- Panel 5 --}}
-     <div class="phonics-panel flex flex-col justify-start h-full w-full items-center"
-         >
-        <h2 class="panel-title stroke">Match the synonym pairs.</h2>
-        <div class="flex items-center justify-around w-full">
+    <div class="phonics-panel flex flex-col justify-start h-full w-full items-center">
+        <h2 class="panel-title stroke">Match the animals to the sounds they make.</h2>
+        <div class="flex items-start justify-around w-full">
 
             <div>
                 <div class="relative w-fit h-fit">
                     <img src="{{ asset('assets/images/phonics_l2/global/simple-g.png') }}" class="h-[8vw]" />
-                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">fast
+                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">lion
                     </h2>
                 </div>
                 <div class="relative w-fit h-fit">
                     <img src="{{ asset('assets/images/phonics_l2/global/simple-g.png') }}" class="h-[8vw]" />
-                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw] text-[#F8473A]">close
+                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw] text-[#F8473A]">
+                        dog
                     </h2>
                 </div>
-                
+
+            </div>
+
+            <div>
+                <img src="{{ asset('assets/images/phonics_l2/lrw4/lion.png') }}" class="w-[8vw]" />
+
+                <img src="{{ asset('assets/images/phonics_l2/lrw4/dog.png') }}" class="w-[8vw]" />
+
+                <img src="{{ asset('assets/images/phonics_l2/lrw4/chicken.png') }}" class="h-[8vw] opacity-0" />
+
+                <img src="{{ asset('assets/images/phonics_l2/lrw4/cat.png') }}" class="w-[8vw] opacity-0" />
             </div>
 
             <div>
                 <div class="relative w-fit h-fit">
                     <img src="{{ asset('assets/images/phonics_l2/global/simple-g.png') }}" class="h-[8vw]" />
-                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">quick
+                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">roar
                     </h2>
                 </div>
                 <div class="relative w-fit h-fit">
                     <img src="{{ asset('assets/images/phonics_l2/global/simple-g.png') }}" class="h-[8vw]" />
-                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw] text-[#F8473A]">quick
+                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw] text-[#F8473A]">
+                        roar
                     </h2>
                 </div>
             </div>
@@ -226,30 +255,30 @@
 
 
     {{-- panel 6 --}}
-       <div class="phonics-panel flex flex-col justify-between w-full items-center"
-         >
-        <h2 class="panel-title stroke">Match the synonym pairs.</h2>
+    <div class="phonics-panel flex flex-col justify-between w-full items-center">
+        <h2 class="panel-title stroke">Match the animals to the sounds they make.</h2>
         <div class="flex items-center justify-around w-full">
 
             <div>
                 <div class="relative w-fit h-fit">
                     <img src="{{ asset('assets/images/phonics_l2/global/simple-g.png') }}" class="h-[8vw]" />
-                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw] ">fast
+                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw] ">lion
                     </h2>
                 </div>
                 <div class="relative w-fit h-fit">
                     <img src="{{ asset('assets/images/phonics_l2/global/simple-g.png') }}" class="h-[8vw]" />
-                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">close
+                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">dog
                     </h2>
                 </div>
                 <div class="relative w-fit h-fit">
                     <img src="{{ asset('assets/images/phonics_l2/global/simple-g.png') }}" class="h-[8vw]" />
-                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw] text-[#A15E0D]">throw
+                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw] text-[#A15E0D]">
+                        chicken
                     </h2>
                 </div>
                 <div class="relative w-fit h-fit">
                     <img src="{{ asset('assets/images/phonics_l2/global/simple-g.png') }}" class="h-[8vw]" />
-                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">see
+                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">cat
                     </h2>
                 </div>
 
@@ -258,22 +287,22 @@
             <div>
                 <div class="relative w-fit h-fit">
                     <img src="{{ asset('assets/images/phonics_l2/global/simple-g.png') }}" class="h-[8vw]" />
-                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">shut
+                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">bark
                     </h2>
                 </div>
                 <div class="relative w-fit h-fit">
                     <img src="{{ asset('assets/images/phonics_l2/global/simple-g.png') }}" class="h-[8vw]" />
-                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">quick
+                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">roar
                     </h2>
                 </div>
                 <div class="relative w-fit h-fit">
                     <img src="{{ asset('assets/images/phonics_l2/global/simple-g.png') }}" class="h-[8vw]" />
-                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">look
+                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">meow
                     </h2>
                 </div>
                 <div class="relative w-fit h-fit">
                     <img src="{{ asset('assets/images/phonics_l2/global/simple-g.png') }}" class="h-[8vw]" />
-                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">toss
+                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">cluck
                     </h2>
                 </div>
             </div>
@@ -284,44 +313,55 @@
 
 
     {{-- Panel 7 --}}
-     <div class="phonics-panel flex flex-col justify-start h-full w-full items-center"
-         >
-        <h2 class="panel-title stroke">Match the synonym pairs.</h2>
+    <div class="phonics-panel flex flex-col justify-start h-full w-full items-center">
+        <h2 class="panel-title stroke">Match the animals to the sounds they make.</h2>
         <div class="flex items-center justify-around w-full">
 
             <div>
                 <div class="relative w-fit h-fit">
                     <img src="{{ asset('assets/images/phonics_l2/global/simple-g.png') }}" class="h-[8vw]" />
-                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">fast
+                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">lion
                     </h2>
                 </div>
                 <div class="relative w-fit h-fit">
                     <img src="{{ asset('assets/images/phonics_l2/global/simple-g.png') }}" class="h-[8vw]" />
-                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">close
+                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">dog
                     </h2>
                 </div>
                 <div class="relative w-fit h-fit">
                     <img src="{{ asset('assets/images/phonics_l2/global/simple-g.png') }}" class="h-[8vw]" />
-                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw] text-[#F8473A]">throw
+                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw] text-[#F8473A]">
+                        chicken
                     </h2>
                 </div>
-                
+
+            </div>
+
+            <div>
+                <img src="{{ asset('assets/images/phonics_l2/lrw4/lion.png') }}" class="w-[8vw]" />
+
+                <img src="{{ asset('assets/images/phonics_l2/lrw4/dog.png') }}" class="w-[8vw]" />
+
+                <img src="{{ asset('assets/images/phonics_l2/lrw4/chicken.png') }}" class="h-[8vw]" />
+
+                <img src="{{ asset('assets/images/phonics_l2/lrw4/cat.png') }}" class="w-[8vw] opacity-0" />
             </div>
 
             <div>
                 <div class="relative w-fit h-fit">
                     <img src="{{ asset('assets/images/phonics_l2/global/simple-g.png') }}" class="h-[8vw]" />
-                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">quick
+                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">roar
                     </h2>
                 </div>
                 <div class="relative w-fit h-fit">
                     <img src="{{ asset('assets/images/phonics_l2/global/simple-g.png') }}" class="h-[8vw]" />
-                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">quick
+                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">roar
                     </h2>
                 </div>
                 <div class="relative w-fit h-fit">
                     <img src="{{ asset('assets/images/phonics_l2/global/simple-g.png') }}" class="h-[8vw]" />
-                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw] text-[#F8473A]">toss
+                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw] text-[#F8473A]">
+                        cluck
                     </h2>
                 </div>
             </div>
@@ -329,30 +369,30 @@
     </div>
 
     {{-- panel 8 --}}
-       <div class="phonics-panel flex flex-col justify-between w-full items-center"
-         >
-        <h2 class="panel-title stroke">Match the synonym pairs.</h2>
+    <div class="phonics-panel flex flex-col justify-between w-full items-center">
+        <h2 class="panel-title stroke">Match the animals to the sounds they make.</h2>
         <div class="flex items-center justify-around w-full">
 
             <div>
                 <div class="relative w-fit h-fit">
                     <img src="{{ asset('assets/images/phonics_l2/global/simple-g.png') }}" class="h-[8vw]" />
-                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw] ">fast
+                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw] ">lion
                     </h2>
                 </div>
                 <div class="relative w-fit h-fit">
                     <img src="{{ asset('assets/images/phonics_l2/global/simple-g.png') }}" class="h-[8vw]" />
-                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">close
+                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">dog
                     </h2>
                 </div>
                 <div class="relative w-fit h-fit">
                     <img src="{{ asset('assets/images/phonics_l2/global/simple-g.png') }}" class="h-[8vw]" />
-                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">throw
+                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">chicken
                     </h2>
                 </div>
                 <div class="relative w-fit h-fit">
                     <img src="{{ asset('assets/images/phonics_l2/global/simple-g.png') }}" class="h-[8vw]" />
-                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw] text-[#A15E0D]">see
+                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw] text-[#A15E0D]">
+                        cat
                     </h2>
                 </div>
 
@@ -361,22 +401,22 @@
             <div>
                 <div class="relative w-fit h-fit">
                     <img src="{{ asset('assets/images/phonics_l2/global/simple-g.png') }}" class="h-[8vw]" />
-                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">shut
+                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">bark
                     </h2>
                 </div>
                 <div class="relative w-fit h-fit">
                     <img src="{{ asset('assets/images/phonics_l2/global/simple-g.png') }}" class="h-[8vw]" />
-                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">quick
+                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">roar
                     </h2>
                 </div>
                 <div class="relative w-fit h-fit">
                     <img src="{{ asset('assets/images/phonics_l2/global/simple-g.png') }}" class="h-[8vw]" />
-                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">look
+                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">meow
                     </h2>
                 </div>
                 <div class="relative w-fit h-fit">
                     <img src="{{ asset('assets/images/phonics_l2/global/simple-g.png') }}" class="h-[8vw]" />
-                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">toss
+                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">cluck
                     </h2>
                 </div>
             </div>
@@ -387,55 +427,66 @@
 
 
     {{-- Panel 9 --}}
-     <div class="phonics-panel flex flex-col justify-start h-full w-full items-center"
-         >
-        <h2 class="panel-title stroke">Match the synonym pairs.</h2>
+    <div class="phonics-panel flex flex-col justify-start w-full items-center">
+        <h2 class="panel-title stroke">Match the animals to the sounds they make.</h2>
         <div class="flex items-center justify-around w-full">
 
             <div>
                 <div class="relative w-fit h-fit">
                     <img src="{{ asset('assets/images/phonics_l2/global/simple-g.png') }}" class="h-[8vw]" />
-                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">fast
+                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">lion
                     </h2>
                 </div>
                 <div class="relative w-fit h-fit">
                     <img src="{{ asset('assets/images/phonics_l2/global/simple-g.png') }}" class="h-[8vw]" />
-                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">close
+                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">dog
                     </h2>
                 </div>
                 <div class="relative w-fit h-fit">
                     <img src="{{ asset('assets/images/phonics_l2/global/simple-g.png') }}" class="h-[8vw]" />
-                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">throw
+                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">chicken
                     </h2>
                 </div>
-                
+
                 <div class="relative w-fit h-fit">
                     <img src="{{ asset('assets/images/phonics_l2/global/simple-g.png') }}" class="h-[8vw]" />
-                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw] text-[#F8473A]">see
+                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw] text-[#F8473A]">
+                        cat
                     </h2>
                 </div>
-                
+
+            </div>
+
+            <div>
+                <img src="{{ asset('assets/images/phonics_l2/lrw4/lion.png') }}" class="w-[8vw]" />
+
+                <img src="{{ asset('assets/images/phonics_l2/lrw4/dog.png') }}" class="w-[8vw]" />
+
+                <img src="{{ asset('assets/images/phonics_l2/lrw4/chicken.png') }}" class="h-[8vw]" />
+
+                <img src="{{ asset('assets/images/phonics_l2/lrw4/cat.png') }}" class="w-[8vw]" />
             </div>
 
             <div>
                 <div class="relative w-fit h-fit">
                     <img src="{{ asset('assets/images/phonics_l2/global/simple-g.png') }}" class="h-[8vw]" />
-                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">quick
+                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">roar
                     </h2>
                 </div>
                 <div class="relative w-fit h-fit">
                     <img src="{{ asset('assets/images/phonics_l2/global/simple-g.png') }}" class="h-[8vw]" />
-                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">quick
+                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">roar
                     </h2>
                 </div>
                 <div class="relative w-fit h-fit">
                     <img src="{{ asset('assets/images/phonics_l2/global/simple-g.png') }}" class="h-[8vw]" />
-                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">toss
+                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw]">cluck
                     </h2>
                 </div>
                 <div class="relative w-fit h-fit">
                     <img src="{{ asset('assets/images/phonics_l2/global/simple-g.png') }}" class="h-[8vw]" />
-                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw] text-[#F8473A]">look
+                    <h2 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[2vw] text-[#F8473A]">
+                        meow
                     </h2>
                 </div>
             </div>
@@ -489,8 +540,8 @@
             const infoButtons = document.querySelectorAll("[class*='info-btn']");
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
-            const returnURL = "{{ url('/phonics_l2/lrw3/synonyms') }}";
-            const doneURL = "{{ url('/phonics_l2/lrw3/synonyms') }}";
+            const returnURL = "{{ url('/phonics_l2/lrw4/onomatopoeia') }}";
+            const doneURL = "{{ url('/phonics_l2/lrw4/onomatopoeia') }}";
 
             let currentSlide = 0;
             let currentAudio = null;

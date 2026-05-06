@@ -23,15 +23,15 @@
         {{-- Navigations to Inner folders  --}}
         <div id="slide-board" class="grid grid-cols-2 gap-[2vw] mb-[2vw]  text-center justify-content-center">
 
-            <a href="{{ url('/phonics_l2/lrw3/lets_write/pattern') }}">
+            <a href="{{ url('/phonics_l2/lrw4/lets_write/pattern') }}">
                 <img src="{{ asset('assets/images/phonics_l2/lrw1/ab1.png') }}" class="mx-auto d-block" />
             </a>
 
-            <a href="{{ url('/phonics_l2/lrw3/lets_write/five_sense') }}">
+            <a href="{{ url('/phonics_l2/lrw4/lets_write/five_sense') }}">
                 <img src="{{ asset('assets/images/phonics_l2/lrw1/ab2.png') }}" class="mx-auto d-block" />
             </a>
             <div class="col-span-2 flex justify-center items-center">
-                <a href="{{ url('/phonics_l2/lrw3/lets_write/wraparound') }}">
+                <a href="{{ url('/phonics_l2/lrw4/lets_write/wraparound') }}">
                     <img src="{{ asset('assets/images/phonics_l2/lrw1/ab3.png') }}" class="mx-auto d-block" />
                 </a>
             </div>
@@ -43,7 +43,7 @@
 
     <div id="buttons" class="absolute flex flex-row gap-6 z-90">
 
-        <a href="{{ url('/phonics_l2/lrw3') }}" id="returnButton">
+        <a href="{{ url('/phonics_l2/lrw4') }}" id="returnButton">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/return-btn.png') }}" />
         </a>
 

@@ -28,11 +28,10 @@
         }
 
         .rectangle {
-            background: #70AF39;
-            width: 100%;
-            height: 6vw;
-            border: .2vw solid #f7b94a;
-            color: white;
+            background: #D9D9D9;
+            width: 8vw;
+            height: 4vw;
+            color: #70AF39;
             font-size: 1.5vw;
             display: flex;
             justify-content: space-around;
@@ -43,155 +42,162 @@
 
 @section('content')
     {{-- panel 1 --}}
-    <div class="phonics-panel"  >
+    <div class="phonics-panel">
         <div class="relative">
             <img src="{{ asset('assets/images/phonics_l2/global/common/panel-bear.png') }}" class="w-[50vw]" />
             <h2
                 class="absolute top-[38%] left-[27%] -translate-x-1/2 -translate-y-1/2  text-[#A15E0D] text-[4vw] text-center">
                 Fun with <br>
-                Synonyms!</h2>
+                onomatopoeia!</h2>
         </div>
     </div>
 
     {{-- ============================= --}}
-    <div class="phonics-panel flex flex-col justify-between h-full items-center w-full"
-        >
+    <div class="phonics-panel flex flex-col justify-between h-full items-center w-full">
 
-        <h2 class="panel-title stroke">Find the correct synonyms to complete the sentence.</h2>
-
-        <div class="flex justify-around items-center w-full">
-            <h2 class="text-[2.5vw] text-[#f7b94a]">glad</h2>
-            <img src="{{ asset('assets/images/phonics_l2/lrw3/fp1.png') }}" class="w-[25vw]" />
-            <h2 class="text-[2.5vw] text-[#f7b94a]">sad</h2>
-        </div>
-        <div class="flex items-end relative h-fit w-fit text-[#fff] text-[2vw]">
-            <span class="absolute top-0 left-[15%] text-[#f7b94a] text-[1.6vw] ">unhappy</span>
-
-            <span>The</span>
-            <div class="w-[9vw] h-[4px] bg-[#E6A23C] border-t border-[#C47F1E]"></div>
-            <span>rat sits uder the hat.</span>
-        </div>
-    </div>
-
-    <div class="phonics-panel flex flex-col justify-between h-full items-center w-full"
-        >
-
-        <h2 class="panel-title stroke">Find the correct synonyms to complete the sentence.</h2>
-
-        <img src="{{ asset('assets/images/phonics_l2/lrw3/fp1.png') }}" class="w-[25vw]" />
-
-        <div class="flex items-end relative h-fit w-fit text-[#fff] text-[2vw]">
-            <span class="absolute top-0 left-[20%] text-[#f7b94a] text-[1.6vw] ">sad</span>
-            <span>The</span>
-            <div class="w-[9vw] h-[4px] bg-[#E6A23C] border-t border-[#C47F1E]"></div>
-            <span>rat sits uder the hat.</span>
-        </div>
-    </div>
-
-   {{-- ============================= --}}
-   <div class="phonics-panel flex flex-col justify-between h-full items-center w-full"
-        >
-
-        <h2 class="panel-title stroke">Find the correct synonyms to complete the sentence.</h2>
+        <h2 class="panel-title stroke">Choose the correct onomatopoeia to complete the sentence.</h2>
 
         <div class="flex justify-around items-center w-full">
-            <h2 class="text-[2.5vw] text-[#f7b94a]">glad</h2>
-            <img src="{{ asset('assets/images/phonics_l2/lrw3/fp2.png') }}" class="w-[25vw]" />
-            <h2 class="text-[2.5vw] text-[#f7b94a]">sad</h2>
-        </div>
-        <div class="flex items-end relative h-fit w-fit text-[#fff] text-[2vw]">
-            <span class="absolute top-0 left-[15%] text-[#f7b94a] text-[1.6vw] ">unhappy</span>
+            <div class="rectangle">pop </div>
 
-            <span>The</span>
-            <div class="w-[9vw] h-[4px] bg-[#E6A23C] border-t border-[#C47F1E]"></div>
-            <span>rat sits uder the hat.</span>
+            <img src="{{ asset('assets/images/phonics_l2/lrw4/pop.png') }}" class="h-[20vw]" />
+
+            <div class="rectangle">woof</div>
+        </div>
+
+        <div class="flex items-end relative h-fit w-fit text-[#fff] text-[2vw]">
+            <span>The balloon burst and went </span>
+            <div class="w-[7vw] h-[4px] bg-[#E6A23C] border-t border-[#C47F1E]"></div>
+            <span>!</span>
         </div>
     </div>
 
-    <div class="phonics-panel flex flex-col justify-between h-full items-center w-full"
-        >
 
-        <h2 class="panel-title stroke">Find the correct synonyms to complete the sentence.</h2>
+    <div class="phonics-panel flex flex-col justify-between h-full items-center w-full">
+        <h2 class="panel-title stroke">Choose the correct onomatopoeia to complete the sentence.</h2>
 
-        <img src="{{ asset('assets/images/phonics_l2/lrw3/fp2.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/phonics_l2/lrw4/pop.png') }}" class="h-[20vw]" />
 
         <div class="flex items-end relative h-fit w-fit text-[#fff] text-[2vw]">
-            <span class="absolute top-0 left-[20%] text-[#f7b94a] text-[1.6vw] ">sad</span>
-            <span>The</span>
-            <div class="w-[9vw] h-[4px] bg-[#E6A23C] border-t border-[#C47F1E]"></div>
-            <span>rat sits uder the hat.</span>
+            <span class="absolute top-0 right-[10%] text-[#f7b94a] text-[1.6vw] ">pop</span>
+            <span>The balloon burst and went </span>
+            <div class="w-[7vw] h-[4px] bg-[#E6A23C] border-t border-[#C47F1E]"></div>
+            <span>!</span>
         </div>
     </div>
 
- {{-- ============================= --}}
-    <div class="phonics-panel flex flex-col justify-between h-full items-center w-full"
-        >
 
-        <h2 class="panel-title stroke">Find the correct synonyms to complete the sentence.</h2>
+    {{-- ============================= --}}
+    <div class="phonics-panel flex flex-col justify-between h-full items-center w-full">
+
+        <h2 class="panel-title stroke">Choose the correct onomatopoeia to complete the sentence.</h2>
 
         <div class="flex justify-around items-center w-full">
-            <h2 class="text-[2.5vw] text-[#f7b94a]">glad</h2>
-            <img src="{{ asset('assets/images/phonics_l2/lrw3/fp3.png') }}" class="w-[25vw]" />
-            <h2 class="text-[2.5vw] text-[#f7b94a]">sad</h2>
-        </div>
-        <div class="flex items-end relative h-fit w-fit text-[#fff] text-[2vw]">
-            <span class="absolute top-0 left-[15%] text-[#f7b94a] text-[1.6vw] ">unhappy</span>
+            <div class="rectangle">moo</div>
+            
+            <img src="{{ asset('assets/images/phonics_l2/lrw4/tick-tock.png') }}" class="w-[22vw]" />
+            <div class="rectangle">tick-tock</div>
 
-            <span>The</span>
-            <div class="w-[9vw] h-[4px] bg-[#E6A23C] border-t border-[#C47F1E]"></div>
-            <span>rat sits uder the hat.</span>
+        </div>
+
+        <div class="flex items-end relative h-fit w-fit text-[#fff] text-[2vw]">
+            <span>The grandfather’s clock goes</span>
+            <div class="w-[7vw] h-[4px] bg-[#E6A23C] border-t border-[#C47F1E]"></div>
+            <span>all through the night!</span>
         </div>
     </div>
 
-    <div class="phonics-panel flex flex-col justify-between h-full items-center w-full"
-        >
 
-        <h2 class="panel-title stroke">Find the correct synonyms to complete the sentence.</h2>
+    <div class="phonics-panel flex flex-col justify-between h-full items-center w-full">
+        <h2 class="panel-title stroke">Choose the correct onomatopoeia to complete the sentence.</h2>
 
-        <img src="{{ asset('assets/images/phonics_l2/lrw3/fp3.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/phonics_l2/lrw4/tick-tock.png') }}" class="w-[22vw]" />
 
         <div class="flex items-end relative h-fit w-fit text-[#fff] text-[2vw]">
-            <span class="absolute top-0 left-[20%] text-[#f7b94a] text-[1.6vw] ">sad</span>
-            <span>The</span>
+            <span class="absolute top-0 right-[38%] text-[#f7b94a] text-[1.6vw] ">tick-tock</span>
+            <span>The grandfather’s clock goes</span>
             <div class="w-[9vw] h-[4px] bg-[#E6A23C] border-t border-[#C47F1E]"></div>
-            <span>rat sits uder the hat.</span>
+            <span>all through the night!</span>
         </div>
     </div>
 
-     {{-- ============================= --}}
-    <div class="phonics-panel flex flex-col justify-between h-full items-center w-full"
-        >
 
-        <h2 class="panel-title stroke">Find the correct synonyms to complete the sentence.</h2>
+    {{-- ============================= --}}
+    <div class="phonics-panel flex flex-col justify-between h-full items-center w-full">
+
+        <h2 class="panel-title stroke">Choose the correct onomatopoeia to complete the sentence.</h2>
 
         <div class="flex justify-around items-center w-full">
-            <h2 class="text-[2.5vw] text-[#f7b94a]">glad</h2>
-            <img src="{{ asset('assets/images/phonics_l2/lrw3/fp4.png') }}" class="w-[25vw]" />
-            <h2 class="text-[2.5vw] text-[#f7b94a]">sad</h2>
-        </div>
-        <div class="flex items-end relative h-fit w-fit text-[#fff] text-[2vw]">
-            <span class="absolute top-0 left-[15%] text-[#f7b94a] text-[1.6vw] ">unhappy</span>
+            <div class="rectangle">crash </div>
 
-            <span>The</span>
-            <div class="w-[9vw] h-[4px] bg-[#E6A23C] border-t border-[#C47F1E]"></div>
-            <span>rat sits uder the hat.</span>
+            <img src="{{ asset('assets/images/phonics_l2/lrw4/crash.png') }}" class="h-[20vw]" />
+
+            <div class="rectangle">growl</div>
+        </div>
+
+        <div class="flex items-end relative h-fit w-fit text-[#fff] text-[2vw]">
+            <span>The plates fell on the floor and went</span>
+            <div class="w-[7vw] h-[4px] bg-[#E6A23C] border-t border-[#C47F1E]"></div>
+            <span>.</span>
         </div>
     </div>
 
-    <div class="phonics-panel flex flex-col justify-between h-full items-center w-full"
-        >
 
-        <h2 class="panel-title stroke">Find the correct synonyms to complete the sentence.</h2>
+    <div class="phonics-panel flex flex-col justify-between h-full items-center w-full">
+        <h2 class="panel-title stroke">Choose the correct onomatopoeia to complete the sentence.</h2>
 
-        <img src="{{ asset('assets/images/phonics_l2/lrw3/fp4.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/phonics_l2/lrw4/crash.png') }}" class="h-[20vw]" />
 
         <div class="flex items-end relative h-fit w-fit text-[#fff] text-[2vw]">
-            <span class="absolute top-0 left-[20%] text-[#f7b94a] text-[1.6vw] ">sad</span>
-            <span>The</span>
-            <div class="w-[9vw] h-[4px] bg-[#E6A23C] border-t border-[#C47F1E]"></div>
-            <span>rat sits uder the hat.</span>
+            <span class="absolute top-0 right-[6%] text-[#f7b94a] text-[1.6vw] ">crash</span>
+            <span>The plates fell on the floor and went</span>
+            <div class="w-[7vw] h-[4px] bg-[#E6A23C] border-t border-[#C47F1E]"></div>
+            <span>.</span>
         </div>
     </div>
+
+
+
+    {{-- ============================= --}}
+    <div class="phonics-panel flex flex-col justify-between h-full items-center w-full">
+
+        <h2 class="panel-title stroke">Choose the correct onomatopoeia to complete the sentence.</h2>
+
+        <div class="flex justify-around items-center w-full">
+            <div class="rectangle">quacks</div>
+            
+            <img src="{{ asset('assets/images/phonics_l2/lrw4/burps.png') }}" class="h-[20vw]" />
+            
+            <div class="rectangle">burps </div>
+        </div>
+
+        <div class="flex items-end relative h-fit w-fit text-[#fff] text-[2vw]">
+            <span>Jane</span>
+            <div class="w-[7vw] h-[4px] bg-[#E6A23C] border-t border-[#C47F1E]"></div>
+            <span>after eating a big bowl of spaghetti.</span>
+        </div>
+    </div>
+
+
+    <div class="phonics-panel flex flex-col justify-between h-full items-center w-full">
+        <h2 class="panel-title stroke">Choose the correct onomatopoeia to complete the sentence.</h2>
+
+        <img src="{{ asset('assets/images/phonics_l2/lrw4/burps.png') }}" class="h-[20vw]" />
+
+        <div class="flex items-end relative h-fit w-fit text-[#fff] text-[2vw]">
+            <span class="absolute top-0 left-[13%] text-[#f7b94a] text-[1.6vw] ">burps</span>
+            <span>Jane</span>
+            <div class="w-[7vw] h-[4px] bg-[#E6A23C] border-t border-[#C47F1E]"></div>
+            <span>after eating a big bowl of spaghetti.</span>
+        </div>
+    </div>
+
+
+
+
+
+
+
 
     {{-- =========================================================== --}}
     {{-- All Buttons --}}
@@ -238,8 +244,8 @@
             const infoButtons = document.querySelectorAll("[class*='info-btn']");
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
-            const returnURL = "{{ url('/phonics_l2/lrw3/synonyms') }}";
-            const doneURL = "{{ url('/phonics_l2/lrw3/synonyms') }}";
+            const returnURL = "{{ url('/phonics_l2/lrw4/onomatopoeia') }}";
+            const doneURL = "{{ url('/phonics_l2/lrw4/onomatopoeia') }}";
 
             let currentSlide = 0;
             let currentAudio = null;

@@ -28,7 +28,7 @@
             'correctWord' => 'smelly',
             'answerAudio' => 'assets/audio/phonics_audio-2/sm_rev/sm-elly.m4a',
             'wrong' => 'assets/images/phonics_l2/spst/spin.png',
-            'wrongSize' => 'h-[15vw]',  
+            'wrongSize' => 'h-[15vw]',
             'wrongAudio' => 'assets/audio/phonics_audio-2/sp_st/spin.m4a',
             'wrongClass' => 'rounded-2xl',
         ],
@@ -53,7 +53,7 @@
             'wrong' => 'assets/images/phonics_l2/spst/spade.png',
             'wrongSize' => 'w-[17vw]',
             'wrongAudio' => 'assets/audio/phonics_audio-2/sp_st/spade.m4a',
-        ]
+        ],
     ];
     // ============================================================
 @endphp
@@ -78,6 +78,11 @@
         .panel-div {
             position: absolute;
             top: 4%;
+        }
+
+        .panel-ul {
+            color: white;
+            font-size: 1.2vw;
         }
     </style>
 @endpush
@@ -168,7 +173,7 @@
         <div class="phonics-panel flex flex-col justify-center items-center"
             data-slide-audio="{{ asset($q['answerAudio']) }}">
 
-             <div class="flex items-end panel-div gap-[.5vw]">
+            <div class="flex items-end panel-div gap-[.5vw]">
                 <h2 class="panel-title">Find the picture that has the same initial blend as</h2>
                 <img src="{{ asset($refImage) }}" class="w-[3vw]" />
                 <button class="w-[3vw]" id="soundButton" data-slide-audio="{{ asset($refAudio) }}">

@@ -22,7 +22,7 @@
     <div id="slide-board" class="grid grid-cols-3 gap-[2vw] mb-[2vw]  text-center justify-content-center">
 
         <a href="{{ url('/phonics_l2/ch_rev/ch') }}">
-            <img src="{{ asset('assets/images/phonics_l2/shth/sh.png') }}" class="mx-auto d-block" />
+            <img src="{{ asset('assets/images/phonics_l2/shch/ch.png') }}" class="mx-auto d-block" />
         </a>
 
         <a href="{{ url('/phonics_l2/ch_rev/th') }}">
@@ -30,7 +30,7 @@
         </a>
 
         <a href="{{ url('/phonics_l2/ch_rev/rev') }}">
-            <img src="{{ asset('assets/images/phonics_l2/shth/shth.png') }}" class="mx-auto d-block" />
+            <img src="{{ asset('assets/images/phonics_l2/trev/rev.png') }}" class="mx-auto d-block" />
         </a>
 
         <div class="col-span-3 flex justify-center items-center gap-[2vw]">
