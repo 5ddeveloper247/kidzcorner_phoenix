@@ -43,7 +43,7 @@
 
 @section('content')
     {{-- panel 1 --}}
-    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/letsplay.m4a') }}">
+    <div class="phonics-panel"  >
         <div class="relative">
             <img src="{{ asset('assets/images/phonics_l2/global/common/panel-bear.png') }}" class="w-[50vw]" />
             <h2
@@ -58,11 +58,11 @@
     {{-- ============================ --}}
     {{-- Panel 2 --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] h-full items-center w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+         >
         <h2 class="panel-title stroke">Choose the word that is <span class="text-white"> opposite</span> of each <span
                 class="text-[#A21E14]"> red word.</span></h2>
 
-        <img src="{{ asset('assets/images/phonics_l2/lrw4   /fun1.png') }}" class="w-[20vw]" />
+        <img src="{{ asset('assets/images/phonics_l2/lrw4/fun1.png') }}" class="h-[15vw]" />
 
         <div class="flex flex-wrap items-end justify-center relative h-fit w-fit text-white text-[2vw]">
             <span class="absolute top-0 right-[10%] text-[#A21E14] text-[2vw] ">dirty</span>
@@ -79,11 +79,11 @@
 
     {{-- Panel  --}}
     <div class="phonics-panel flex flex-col justify-start h-full gap-[2vw] h-full items-center w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+         >
         <h2 class="panel-title stroke">Choose the word that is <span class="text-white"> opposite</span> of each <span
                 class="text-[#A21E14]"> red word.</span></h2>
 
-        <img src="{{ asset('assets/images/phonics_l2/lrw4   /fun1.png') }}" class="w-[20vw]" />
+        <img src="{{ asset('assets/images/phonics_l2/lrw4/fun1.png') }}" class="h-[20vw]" />
 
         <div class="flex flex-wrap items-end justify-center relative h-fit w-fit text-white text-[2vw]">
             <span class="absolute top-0 right-[10%] text-[#f7b94a] text-[2vw] ">clean</span>
@@ -140,8 +140,8 @@
             const infoButtons = document.querySelectorAll("[class*='info-btn']");
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
-            const returnURL = "{{ url('/phonics_l2/lrw4 /homonyms') }}";
-            const doneURL = "{{ url('/phonics_l2/lrw4   /homonyms') }}";
+            const returnURL = "{{ url('/phonics_l2/lrw4/homonyms') }}";
+            const doneURL = "{{ url('/phonics_l2/lrw4/homonyms') }}";
 
             let currentSlide = 0;
             let currentAudio = null;

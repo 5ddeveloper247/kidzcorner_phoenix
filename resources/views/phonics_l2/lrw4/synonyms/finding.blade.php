@@ -49,7 +49,7 @@
 
 @section('content')
     {{-- panel 1 --}}
-    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/letsplay.m4a') }}">
+    <div class="phonics-panel"  >
         <div class="relative">
             <img src="{{ asset('assets/images/phonics_l2/global/common/panel-bear.png') }}" class="w-[50vw]" />
             <h2
@@ -61,7 +61,7 @@
 
     {{-- Side Info Panel --}}
     <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/sh1.m4a') }}">
+        >
 
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonics_l2/global/common/bear-e.png') }}"class="w-[40vw] " />
@@ -73,7 +73,7 @@
 
     {{-- Panel  --}}
     <div class="phonics-panel flex flex-col justify-between h-full w-full gap-[2vw] items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+         >
         <div class="flex items-end">
             <h2 class="panel-title">Which word is the synonym of happy</h2>
             <img src="{{ asset('assets/images/phonics_l2/lrw3/glad.png') }}" class="h-[4vw]" />
@@ -94,7 +94,7 @@
 
     {{-- Panel  --}}
     <div class="phonics-panel flex flex-col justify-start h-full w-full gap-[2vw] items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+         >
         <div class="flex items-end">
             <h2 class="panel-title">Which word is the synonym of happy</h2>
             <img src="{{ asset('assets/images/phonics_l2/lrw3/glad.png') }}" class="h-[4vw]" />
@@ -114,7 +114,7 @@
     {{-- -======================================- --}}
     {{-- Panel  --}}
     <div class="phonics-panel flex flex-col justify-between h-full w-full gap-[2vw] items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+         >
         <div class="flex items-end">
             <h2 class="panel-title">Which word is the synonym of huge</h2>
             <img src="{{ asset('assets/images/phonics_l2/ayue/huge.png') }}" class="w-[4vw]" />
@@ -135,7 +135,7 @@
 
     {{-- Panel  --}}
     <div class="phonics-panel flex flex-col justify-start h-full w-full gap-[2vw] items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+         >
         <div class="flex items-end">
             <h2 class="panel-title">Which word is the synonym of huge</h2>
             <img src="{{ asset('assets/images/phonics_l2/ayue/huge.png') }}" class="w-[4vw]" />
@@ -155,7 +155,7 @@
     {{-- ===================================== --}}
     {{-- Panel  --}}
     <div class="phonics-panel flex flex-col justify-between h-full w-full gap-[2vw] items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+         >
         <div class="flex items-end">
             <h2 class="panel-title">Which word is the synonym of little</h2>
             <img src="{{ asset('assets/images/phonics_l2/lrw3/big.png') }}" class="w-[4vw]" />
@@ -176,7 +176,7 @@
 
     {{-- Panel  --}}
     <div class="phonics-panel flex flex-col justify-start h-full w-full gap-[2vw] items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+         >
         <div class="flex items-end">
             <h2 class="panel-title">Which word is the synonym of little</h2>
             <img src="{{ asset('assets/images/phonics_l2/lrw3/big.png') }}" class="w-[4vw]" />
@@ -195,7 +195,7 @@
 {{-- =========================================== --}}
      {{-- Panel  --}}
     <div class="phonics-panel flex flex-col justify-between h-full w-full gap-[2vw] items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+         >
         <div class="flex items-end">
             <h2 class="panel-title">Which word is the synonym of angry</h2>
             <img src="{{ asset('assets/images/phonics_l2/lrw3/mad.png') }}" class="h-[4vw]" />
@@ -216,7 +216,7 @@
 
     {{-- Panel  --}}
     <div class="phonics-panel flex flex-col justify-start h-full w-full gap-[2vw] items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+         >
         <div class="flex items-end">
             <h2 class="panel-title">Which word is the synonym of angry</h2>
             <img src="{{ asset('assets/images/phonics_l2/lrw3/mad.png') }}" class="h-[4vw]" />

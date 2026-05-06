@@ -21,14 +21,14 @@
             ],
             'correct_answer' => 1,
             'answer_background' => 'oval-ans',
-            'highlight_position' => 'top', 
+            'highlight_position' => 'top',
 
             'word_prefix' => 'j',
             'word_suffix' => 'ug',
 
             'instruction' => 'Find the picture that <br> ends with the <br> /ug/ sound.',
         ],
-        // 2 - 
+        // 2 -
         [
             'top_image' => 'phonics_l2/obog/jog.png',
             'top_audio' => 'ob_og/jog.m4a',
@@ -40,7 +40,7 @@
             ],
             'correct_answer' => 0,
             'answer_background' => 'green',
-            'highlight_position' => 0, 
+            'highlight_position' => 0,
 
             'word_prefix' => 'm',
             'word_suffix' => 'ug',
@@ -48,7 +48,7 @@
             'instruction' => 'Find the picture that <br> ends with the <br> /ug/ sound.',
         ],
 
-        // 3 - 
+        // 3 -
         [
             'top_image' => 'phonics_l2/obog/log.png',
             'top_audio' => 'ob_og/log.m4a',
@@ -60,7 +60,7 @@
             ],
             'correct_answer' => 0,
             'answer_background' => 'yellow',
-            'highlight_position' => 1, 
+            'highlight_position' => 1,
 
             'word_prefix' => 'dr',
             'word_suffix' => 'ug',
@@ -87,8 +87,6 @@
 
             'instruction' => 'Find the picture that <br> ends with the <br> /ug/ sound.',
         ],
-
-        
     ];
 @endphp
 
@@ -124,7 +122,7 @@
 @section('content')
 
     {{-- Panel 1: Intro --}}
-    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/bl1.m4a') }}">
+    <div class="phonics-panel">
         <h2 class="top-title stroke">Match It</h2>
         <div class="flex justify-center items-center">
             <img src="{{ asset('assets/images/phonics_l2/global/common/play.png') }}" class="w-[30vw] h-[20vw]" />

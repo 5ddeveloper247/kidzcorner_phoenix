@@ -43,7 +43,7 @@
 
 @section('content')
     {{-- panel 1 --}}
-    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/letsplay.m4a') }}">
+    <div class="phonics-panel"  >
         <div class="relative">
             <img src="{{ asset('assets/images/phonics_l2/global/common/panel-bear.png') }}" class="w-[50vw]" />
             <h2
@@ -58,7 +58,7 @@
     {{-- ============================ --}}
     {{-- Panel 2 --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] h-full items-center w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+         >
         <h2 class="panel-title">Choose the correct adjectives to complete the sentence.</h2>
 
         <img src="{{ asset('assets/images/phonics_l2/lrw2/fun1.png') }}" class="w-[15vw]" />
@@ -85,7 +85,7 @@
 
     {{-- Panel  --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] h-full items-center w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+         >
         <h2 class="panel-title">Choose the correct adjectives to complete the sentence.</h2>
 
         <img src="{{ asset('assets/images/phonics_l2/lrw2/fun1.png') }}" class="w-[15vw]" />
@@ -115,7 +115,7 @@
 
     {{-- Panel  --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] h-full items-center w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+         >
         <h2 class="panel-title">Choose the correct adjectives to complete the sentence.</h2>
 
         <img src="{{ asset('assets/images/phonics_l2/lrw2/fun1.png') }}" class="w-[15vw]" />
@@ -148,7 +148,7 @@
     {{-- ======================================== --}}
     {{-- Panel 3 --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] h-full items-center w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+         >
         <h2 class="panel-title">Choose the correct adjectives to complete the sentence.</h2>
 
         <img src="{{ asset('assets/images/phonics_l2/lrw2/fun2.png') }}" class="w-[15vw]" />
@@ -175,7 +175,7 @@
 
     {{-- Panel  --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] h-full items-center w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+         >
         <h2 class="panel-title">Choose the correct adjectives to complete the sentence.</h2>
 
         <img src="{{ asset('assets/images/phonics_l2/lrw2/fun2.png') }}" class="w-[15vw]" />
@@ -205,7 +205,7 @@
 
     {{-- Panel  --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] h-full items-center w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+         >
         <h2 class="panel-title">Choose the correct adjectives to complete the sentence.</h2>
 
         <img src="{{ asset('assets/images/phonics_l2/lrw2/fun2.png') }}" class="w-[15vw]" />
@@ -238,7 +238,7 @@
     {{-- ============================ --}}
     {{-- Panel --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] h-full items-center w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+         >
         <h2 class="panel-title">Choose the correct adjectives to complete the sentence.</h2>
 
         <img src="{{ asset('assets/images/phonics_l2/lrw2/fun3.png') }}" class="w-[15vw]" />
@@ -271,7 +271,7 @@
 
     {{-- Panel  --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] h-full items-center w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+         >
         <h2 class="panel-title">Choose the correct adjectives to complete the sentence.</h2>
 
         <img src="{{ asset('assets/images/phonics_l2/lrw2/fun3.png') }}" class="w-[15vw]" />
@@ -305,7 +305,7 @@
 
     {{-- Panel  --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] h-full items-center w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+         >
         <h2 class="panel-title">Choose the correct adjectives to complete the sentence.</h2>
 
         <img src="{{ asset('assets/images/phonics_l2/lrw2/fun3.png') }}" class="w-[15vw]" />

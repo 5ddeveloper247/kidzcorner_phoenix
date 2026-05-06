@@ -31,7 +31,7 @@
 
 @section('content')
     {{-- panel 1 --}}
-    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/letsplay.m4a') }}">
+    <div class="phonics-panel"  >
         <div class="relative">
             <img src="{{ asset('assets/images/phonics_l2/global/common/panel-bear.png') }}" class="w-[50vw]" />
             <h2
@@ -46,7 +46,7 @@
     {{-- ============================ --}}
     {{-- Panel 2 --}}
     <div class="phonics-panel flex flex-col justify-between w-full items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+         >
         <h2 class="panel-title stroke">Match the synonym pairs.</h2>
         <div class="flex items-center justify-around w-full">
 
@@ -103,7 +103,7 @@
 
     {{-- Panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full w-full items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+         >
         <h2 class="panel-title stroke">Match the synonym pairs.</h2>
         <div class="flex items-center justify-around w-full">
 
@@ -131,7 +131,7 @@
 
     {{-- panel 4 --}}
        <div class="phonics-panel flex flex-col justify-between w-full items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+         >
         <h2 class="panel-title stroke">Match the synonym pairs.</h2>
         <div class="flex items-center justify-around w-full">
 
@@ -189,7 +189,7 @@
 
     {{-- Panel 5 --}}
      <div class="phonics-panel flex flex-col justify-start h-full w-full items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+         >
         <h2 class="panel-title stroke">Match the synonym pairs.</h2>
         <div class="flex items-center justify-around w-full">
 
@@ -227,7 +227,7 @@
 
     {{-- panel 6 --}}
        <div class="phonics-panel flex flex-col justify-between w-full items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+         >
         <h2 class="panel-title stroke">Match the synonym pairs.</h2>
         <div class="flex items-center justify-around w-full">
 
@@ -285,7 +285,7 @@
 
     {{-- Panel 7 --}}
      <div class="phonics-panel flex flex-col justify-start h-full w-full items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+         >
         <h2 class="panel-title stroke">Match the synonym pairs.</h2>
         <div class="flex items-center justify-around w-full">
 
@@ -330,7 +330,7 @@
 
     {{-- panel 8 --}}
        <div class="phonics-panel flex flex-col justify-between w-full items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+         >
         <h2 class="panel-title stroke">Match the synonym pairs.</h2>
         <div class="flex items-center justify-around w-full">
 
@@ -388,7 +388,7 @@
 
     {{-- Panel 9 --}}
      <div class="phonics-panel flex flex-col justify-start h-full w-full items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+         >
         <h2 class="panel-title stroke">Match the synonym pairs.</h2>
         <div class="flex items-center justify-around w-full">
 

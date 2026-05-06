@@ -43,7 +43,7 @@
 
 @section('content')
     {{-- panel 1 --}}
-    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/letsplay.m4a') }}">
+    <div class="phonics-panel"  >
         <div class="relative">
             <img src="{{ asset('assets/images/phonics_l2/global/common/panel-bear.png') }}" class="w-[50vw]" />
             <h2
@@ -55,7 +55,7 @@
 
 
     <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/sh1.m4a') }}">
+        >
 
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonics_l2/global/common/bear-e.png') }}"class="w-[40vw] " />
@@ -68,7 +68,7 @@
     {{-- ============================ --}}
     {{-- Panel 2 --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] h-full items-center w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+         >
         <h2 class="panel-title">Find the correct nouns to complete the sentence.</h2>
 
         <div class="rectangle">
@@ -91,7 +91,7 @@
 
     {{-- Panel 3 --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] h-full items-center w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+         >
         <h2 class="panel-title">Find the correct nouns to complete the sentence.</h2>
 
         <div class="rectangle">
@@ -117,7 +117,7 @@
     {{-- =================================== --}}
     {{-- Panel  --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] h-full items-center w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+         >
         <h2 class="panel-title">Find the correct nouns to complete the sentence.</h2>
 
         <div class="rectangle">
@@ -142,7 +142,7 @@
 
     {{-- Panel --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] h-full items-center w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+         >
         <h2 class="panel-title">Find the correct nouns to complete the sentence.</h2>
 
         <div class="rectangle">
@@ -166,7 +166,7 @@
 
     {{-- Panel --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] h-full items-center w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+         >
         <h2 class="panel-title">Find the correct nouns to complete the sentence.</h2>
 
         <div class="rectangle">
@@ -193,7 +193,7 @@
     {{-- =================================== --}}
     {{-- Panel  --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] h-full items-center w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+         >
         <h2 class="panel-title">Find the correct nouns to complete the sentence.</h2>
 
         <div class="rectangle">
@@ -220,7 +220,7 @@
 
     {{-- Panel --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] h-full items-center w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+         >
         <h2 class="panel-title">Find the correct nouns to complete the sentence.</h2>
 
         <div class="rectangle">
@@ -246,7 +246,7 @@
 
     {{-- Panel --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] h-full items-center w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+         >
         <h2 class="panel-title">Find the correct nouns to complete the sentence.</h2>
 
         <div class="rectangle">
@@ -276,7 +276,7 @@
     {{-- =================================== --}}
     {{-- Panel  --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] h-full items-center w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+         >
         <h2 class="panel-title">Find the correct nouns to complete the sentence.</h2>
 
         <div class="rectangle">
@@ -307,7 +307,7 @@
 
     {{-- Panel --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] h-full items-center w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+         >
         <h2 class="panel-title">Find the correct nouns to complete the sentence.</h2>
 
         <div class="rectangle">

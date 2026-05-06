@@ -31,7 +31,7 @@
 
 @section('content')
     {{-- panel 1 --}}
-    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/letsplay.m4a') }}">
+    <div class="phonics-panel"  >
         <div class="relative">
             <img src="{{ asset('assets/images/phonics_l2/global/common/panel-bear.png') }}" class="w-[50vw]" />
             <h2
@@ -47,7 +47,7 @@
 
 
     <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/sh1.m4a') }}">
+        >
 
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonics_l2/global/common/bear-ee.png') }}"class="w-[50vw] " />
@@ -61,7 +61,7 @@
     {{-- ============================ --}}
     {{-- Panel 2 --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] h-full items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+         >
         <h2 class="panel-title">Look at these pictures. <br>
             Complete each sentence in your own words .</h2>
         <div class="flex justify-center items-center gap-[4vw]">
@@ -85,7 +85,7 @@
 
     {{-- Panel 3 --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] h-full items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+         >
         <h2 class="panel-title">Look at these pictures. <br>
             Complete each sentence in your own words .</h2>
         <div class="flex flex-col-reverse justify-center items-center gap-[2vw]">
@@ -110,7 +110,7 @@
 
     {{-- Panel  --}}
     <div class="phonics-panel flex flex-col justify-between gap-[2vw] h-full items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/match-br.m4a') }}">
+         >
         <h2 class="panel-title">Look at these pictures. <br>
             Complete each sentence in your own words .</h2>
         <div class="flex flex-row-reverse justify-center items-center">

@@ -47,7 +47,7 @@
 
 @section('content')
     {{-- panel 1 --}}
-    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/letsplay.m4a') }}">
+    <div class="phonics-panel"  >
         <div class="relative">
             <img src="{{ asset('assets/images/phonics_l2/global/common/panel-bear.png') }}" class="w-[50vw]" />
             <h2
@@ -59,7 +59,7 @@
 
     {{-- ============================= --}}
     <div class="phonics-panel flex flex-col gap-[4vw] items-center w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/sh1.m4a') }}">
+        >
 
         <h2 class="panel-title stroke">Find the sentence that matches the picture.</h2>
         <div class="flex items-center">
@@ -74,7 +74,7 @@
     </div>
 
     <div class="phonics-panel flex flex-col gap-[4vw] items-center w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/sh1.m4a') }}">
+        >
 
         <h2 class="panel-title stroke">Find the sentence that matches the picture.</h2>
         <div class="flex items-center">
@@ -90,7 +90,7 @@
 
     {{-- ============================= --}}
     <div class="phonics-panel flex flex-col gap-[4vw] items-center w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/sh1.m4a') }}">
+        >
 
         <h2 class="panel-title stroke">Find the sentence that matches the picture.</h2>
         <div class="flex items-center">
@@ -105,7 +105,7 @@
     </div>
 
     <div class="phonics-panel flex flex-col gap-[4vw] items-center w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/sh1.m4a') }}">
+        >
 
         <h2 class="panel-title stroke">Find the sentence that matches the picture.</h2>
         <div class="flex items-center">
@@ -121,7 +121,7 @@
 
     {{-- ============================= --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/sh1.m4a') }}">
+        >
 
         <h2 class="panel-title stroke">Find the correct verb to complete the sentence.</h2>
 
@@ -137,7 +137,7 @@
     </div>
 
     <div class="phonics-panel flex flex-col justify-between h-full items-center w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/sh1.m4a') }}">
+        >
 
         <h2 class="panel-title stroke">Find the correct verb to complete the sentence.</h2>
 
@@ -152,7 +152,7 @@
 
     {{-- ============================= --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/sh1.m4a') }}">
+        >
 
         <h2 class="panel-title stroke">Find the correct verb to complete the sentence.</h2>
 
@@ -168,7 +168,7 @@
     </div>
 
     <div class="phonics-panel flex flex-col justify-between h-full items-center w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/sh1.m4a') }}">
+        >
 
         <h2 class="panel-title stroke">Find the correct verb to complete the sentence.</h2>
 

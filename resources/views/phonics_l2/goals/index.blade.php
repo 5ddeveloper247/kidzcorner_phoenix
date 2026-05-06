@@ -68,21 +68,22 @@
     <script>
         document.body.dataset.homeRoute = "{{ url('/phonics/l2') }}";
 
-        document.addEventListener("DOMContentLoaded", function () {
+        document.addEventListener("DOMContentLoaded", function() {
 
             const returnButton = document.getElementById("returnButton");
-            const returnURL = "{{ url('/phonics_l2/bl_pl') }}";
-            const doneURL = "{{ url('/phonics_l2/bl_pl') }}";
+
+            // ✅ Capture where user came from, fallback to bl_pl if no referrer
+            const returnURL = document.referrer || "{{ url('/phonics_l2/bl_pl') }}";
 
             if (returnButton) {
-                returnButton.addEventListener("click", function () {
+                returnButton.addEventListener("click", function() {
                     window.location.href = returnURL;
                 });
             }
 
             document.querySelectorAll(".doneButton").forEach(btn => {
-                btn.addEventListener("click", function () {
-                    window.location.href = doneURL;
+                btn.addEventListener("click", function() {
+                    window.location.href = returnURL;
                 });
             });
 

@@ -38,7 +38,7 @@
 @section('content')
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between items-center h-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/bl1.m4a') }}">
+        >
         <div class="flex justify-center items-center">
             <img src="{{ asset('assets/images/phonics_l2/global/common/blend.png') }}" class="w-[30vw] h-[20vw]" />
             <img src="{{ asset('assets/images/phonicsl1/global/bear.png') }}" class="h-[20vw]" />
@@ -92,14 +92,14 @@
 
     {{-- Panel 2 --}}
     <div class="phonics-panel flex justify-center items-center h-full w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/br1.m4a') }}">
+        >
         <img src="{{ asset('assets/images/phonics_l2/lrw1/n0.png') }}" class="w-[50vw]" />
 
     </div>
 
     {{-- Panel 3 --}}
     <div class="phonics-panel flex justify-center items-center h-full w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/br1.m4a') }}">
+        >
         <img src="{{ asset('assets/images/phonics_l2/lrw1/n1.png') }}" class="w-[50vw]" />
 
     </div>
@@ -107,42 +107,42 @@
 
     {{-- Panel 4 --}}
     <div class="phonics-panel flex justify-center items-center h-full w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/br1.m4a') }}">
+        >
         <img src="{{ asset('assets/images/phonics_l2/lrw1/n2.png') }}" class="w-[40vw]" />
 
     </div>
 
     {{-- Panel 5 --}}
     <div class="phonics-panel flex justify-center items-center h-full w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/br1.m4a') }}">
+        >
         <img src="{{ asset('assets/images/phonics_l2/lrw1/n3.png') }}" class="w-[40vw]" />
 
     </div>
 
     {{-- Panel 6 --}}
     <div class="phonics-panel flex justify-center items-center h-full w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/br1.m4a') }}">
+        >
         <img src="{{ asset('assets/images/phonics_l2/lrw1/n4.png') }}" class="w-[40vw]" />
 
     </div>
 
     {{-- Panel 7 --}}
     <div class="phonics-panel flex justify-center items-center h-full w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/br1.m4a') }}">
+        >
         <img src="{{ asset('assets/images/phonics_l2/lrw1/n5.png') }}" class="w-[40vw]" />
 
     </div>
 
     {{-- Panel 8 --}}
     <div class="phonics-panel flex justify-center items-center h-full w-full"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/br_pr/br1.m4a') }}">
+        >
         <img src="{{ asset('assets/images/phonics_l2/lrw1/n6.png') }}" class="w-[40vw]" />
 
     </div>
 
     {{-- panel 9 --}}
     <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/sh1.m4a') }}">
+        >
         <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
 
         <div class="relative w-fit h-fit">
@@ -156,7 +156,7 @@
     </div>
     {{-- panel 10 --}}
     <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/sh1.m4a') }}">
+        >
         <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
 
         <div class="relative w-fit h-fit">
@@ -171,7 +171,7 @@
 
     {{-- panel 11 --}}
     <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/sh1.m4a') }}">
+        >
         <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
 
         <div class="relative w-fit h-fit">
@@ -184,7 +184,7 @@
     </div>
     {{-- panel 12 --}}
     <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/sh1.m4a') }}">
+        >
         <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
 
         <div class="relative w-fit h-fit">
@@ -198,7 +198,7 @@
     </div>
     {{-- panel 13 --}}
     <div class="phonics-panel flex justify-center items-center"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_ch/sh1.m4a') }}">
+        >
         <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
 
         <div class="relative w-fit h-fit">

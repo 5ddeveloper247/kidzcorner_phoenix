@@ -72,8 +72,8 @@
         document.addEventListener("DOMContentLoaded", function() {
 
             const returnButton = document.getElementById("returnButton");
-            const returnURL = "{{ url('/phonics_l2/cl_sl') }}";
-            const doneURL = "{{ url('/phonics_l2/cl_sl') }}";
+
+            const returnURL = document.referrer || "{{ url('/phonics_l2/bl_pl') }}";
 
             if (returnButton) {
                 returnButton.addEventListener("click", function() {
@@ -83,7 +83,7 @@
 
             document.querySelectorAll(".doneButton").forEach(btn => {
                 btn.addEventListener("click", function() {
-                    window.location.href = doneURL;
+                    window.location.href = returnURL;
                 });
             });
 

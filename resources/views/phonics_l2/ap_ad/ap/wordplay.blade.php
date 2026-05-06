@@ -117,7 +117,7 @@
     {{-- ── Question + Answer panels (auto-generated) ── --}}
     @foreach ($panels as $panel)
         {{-- Question panel --}}
-        <div class="phonics-panel flex flex-col items-center space-y-[4vw] w-full relative"
+        <div class="phonics-panel flex flex-col items-center space-y-[2vw] w-full relative"
             data-slide-audio="{{ asset('assets/audio/phonics_audio-2/sh_th/find-word.m4a') }}">
 
             <h2 class="stroke panel-title">Find the word that matches the picture.</h2>
