@@ -28,7 +28,7 @@
             'correctWord' => 'swim',
             'answerAudio' => 'assets/audio/phonics_audio-2/sw_sc/swim.m4a',
             'wrong' => 'assets/images/phonics_l2/clsl/slip.png',
-            'wrongSize' => 'w-[15vw]',  
+            'wrongSize' => 'w-[15vw]',
             'wrongAudio' => 'assets/audio/phonics_audio-2/cl_sl/slip.m4a',
             'wrongClass' => 'rounded-2xl',
         ],
@@ -89,6 +89,17 @@
         .panel-div {
             position: absolute;
             top: 4%;
+        }
+.panel-ul {
+            color: white;
+            font-size: 1.1vw;
+            padding-left: 3vw;
+        }
+
+        .panel-ul {
+            color: white;
+            font-size: 1.1vw;
+            padding-left: 3vw;
         }
     </style>
 @endpush
@@ -364,11 +375,17 @@
                 stopAudio();
                 window.location.href = document.body.dataset.homeRoute;
             });
+            
             doneButtons.forEach(b => b.addEventListener('click', () => {
-                stopAudio();
-                window.location.href = doneURL;
+                if (infoMode) {
+                    infoMode = false;
+                    infoClass = null;
+                    showSlide(returnToSlide);
+                } else {
+                    stopAudio();
+                    window.location.href = doneURL;
+                }
             }));
-
             showSlide(0);
         });
     </script>

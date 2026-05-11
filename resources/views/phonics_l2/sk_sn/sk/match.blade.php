@@ -90,6 +90,11 @@
             position: absolute;
             top: 4%;
         }
+.panel-ul {
+            color: white;
+            font-size: 1.1vw;
+            padding-left: 3vw;
+        }
     </style>
 @endpush
 
@@ -359,9 +364,15 @@
                 window.location.href = document.body.dataset.homeRoute;
             });
             doneButtons.forEach(b => b.addEventListener('click', () => {
-                stopAudio();
-                window.location.href = doneURL;
-            }));
+    if (infoMode) {
+        infoMode = false;
+        infoClass = null;
+        showSlide(returnToSlide);
+    } else {
+        stopAudio();
+        window.location.href = doneURL;
+    }
+}));
 
             showSlide(0);
         });

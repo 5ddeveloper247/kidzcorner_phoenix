@@ -26,7 +26,7 @@
 
 @section('content')
     {{-- Panel 1: Intro Slide --}}
-    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/bl_pl/singalong.m4a') }}">
+    <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_a   udio-2/bl_pl/singalong.m4a') }}">
         <h2 class="top-title stroke">Sing Along</h2>
         <div class="flex justify-center items-center">
             <img src="{{ asset('assets/images/phonics_l2/global/common/sing.png') }}" class="w-[30vw] h-[20vw]" />
@@ -41,7 +41,7 @@
             <p class="note">Sing to the tune of "Pop goes the Weasel</p>
         </div>
 
-        <img src="{{ asset('assets/images/phonics_l2/clsl/singalong.png') }}" class="ml-15" />
+        <img src="{{ asset('assets/images/phonics_l2/clsl/singalong.png') }}" class="ml-[.5vw]" />
 
         <p class="p-note">Tips: Invite children to sing-along. Encourage them to listen to the target blend sounds. <br>
             Extension: Encourage children to substitute other words with /cl/ and sing along.</p>

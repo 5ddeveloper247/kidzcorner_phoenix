@@ -25,7 +25,7 @@
         .box {
             width: 19vw;
             height: 10vw;
-            border: 2px solid #F7B94A;
+            border: 0.15vw solid #F7B94A;
             border-radius: 7px;
             position: relative;
             display: flex;

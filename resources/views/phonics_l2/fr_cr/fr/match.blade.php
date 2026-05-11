@@ -28,7 +28,7 @@
             'correctWord' => 'fridge',
             'answerAudio' => 'assets/audio/phonics_audio-2/dr_gr/fridge.m4a',
             'wrong' => 'assets/images/phonics_l2/drgr/drive.png',
-            'wrongSize' => 'w-[20vw]',  
+            'wrongSize' => 'w-[20vw]',
             'wrongAudio' => 'assets/audio/phonics_audio-2/dr_gr/drive.m4a',
             'wrongClass' => 'rounded-2xl',
         ],
@@ -89,6 +89,17 @@
         .panel-div {
             position: absolute;
             top: 4%;
+        }
+.panel-ul {
+            color: white;
+            font-size: 1.1vw;
+            padding-left: 3vw;
+        }
+
+        .panel-ul {
+            color: white;
+            font-size: 1.1vw;
+            padding-left: 3vw;
         }
     </style>
 @endpush
@@ -246,8 +257,8 @@
     <script>
         document.body.dataset.homeRoute = "{{ url('/phonics/l2') }}";
 
-        const returnURL = "{{ url('/phonics_l2/dr_gr/dr') }}";
-        const doneURL = "{{ url('/phonics_l2/dr_gr/dr') }}";
+        const returnURL = "{{ url('/phonics_l2/fr_cr/fr') }}";
+        const doneURL = "{{ url('/phonics_l2/fr_cr/fr') }}";
 
         document.addEventListener("DOMContentLoaded", function() {
 
@@ -365,9 +376,15 @@
                 window.location.href = document.body.dataset.homeRoute;
             });
             doneButtons.forEach(b => b.addEventListener('click', () => {
-                stopAudio();
-                window.location.href = doneURL;
-            }));
+    if (infoMode) {
+        infoMode = false;
+        infoClass = null;
+        showSlide(returnToSlide);
+    } else {
+        stopAudio();
+        window.location.href = doneURL;
+    }
+}));
 
             showSlide(0);
         });

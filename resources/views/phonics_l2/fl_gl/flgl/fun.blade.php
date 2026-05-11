@@ -24,13 +24,11 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel" data-slide-audio="{{ asset('assets/audio/phonics_audio-2/common/fun-blends.m4a') }}">
-        <h2 class="top-title stroke">It Begins With</h2>
+        <h2 class="top-title stroke">Fun with Blends</h2>
         <div class="flex justify-center items-center">
             <img src="{{ asset('assets/images/phonics_l2/global/common/play.png') }}" class="w-[30vw] h-[20vw]" />
             <img src="{{ asset('assets/images/phonicsl1/global/bear.png') }}" class="h-[25vw]" />
         </div>
-        <p class="p-note">Tips: Encourage children to say the 'pl' sound. <br>
-            Remind them to list en to the initial sound when naming each object.</p>
     </div>
 
 

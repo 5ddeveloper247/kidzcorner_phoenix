@@ -25,7 +25,7 @@
         .box {
             width: 19vw;
             height: 10vw;
-            border: 2px solid #F7B94A;
+            border: 0.15vw solid #F7B94A;
             border-radius: 7px;
             position: relative;
             display: flex;
@@ -663,9 +663,18 @@
 
             // ✅ FIX 2: handleDone always navigates to doneURL
             function handleDone() {
-                stopCurrentAudio();
-                window.location.href = doneURL;
-            }
+    stopCurrentAudio();
+
+    if (isInSpecialMode) {
+        currentSlide = returnToSlide;
+        isInSpecialMode = false;
+        specialSlideClass = null;
+        returnToSlide = null;
+        showSlide(currentSlide);
+    } else {
+        window.location.href = doneURL;
+    }
+}
 
             infoButtons.forEach(button => {
                 button.addEventListener("click", function(e) {

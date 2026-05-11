@@ -28,7 +28,7 @@
             'correctWord' => 'spin',
             'answerAudio' => 'assets/audio/phonics_audio-2/sp_st/spin.m4a',
             'wrong' => 'assets/images/phonics_l2/clsl/slip.png',
-            'wrongSize' => 'w-[15vw]',  
+            'wrongSize' => 'w-[15vw]',
             'wrongAudio' => 'assets/audio/phonics_audio-2/cl_sl/slip.m4a',
             'wrongClass' => 'rounded-2xl',
         ],
@@ -89,6 +89,12 @@
         .panel-div {
             position: absolute;
             top: 4%;
+        }
+
+        .panel-ul {
+            color: white;
+            font-size: 1.1vw;
+            padding-left: 3vw;
         }
     </style>
 @endpush
@@ -179,7 +185,7 @@
         <div class="phonics-panel flex flex-col justify-center items-center"
             data-slide-audio="{{ asset($q['answerAudio']) }}">
 
-             <div class="flex items-end panel-div gap-[.5vw]">
+            <div class="flex items-end panel-div gap-[.5vw]">
                 <h2 class="panel-title">Find the picture that has the same initial blend as</h2>
                 <img src="{{ asset($refImage) }}" class="w-[3vw]" />
                 <button class="w-[3vw]" id="soundButton" data-slide-audio="{{ asset($refAudio) }}">
@@ -359,8 +365,14 @@
                 window.location.href = document.body.dataset.homeRoute;
             });
             doneButtons.forEach(b => b.addEventListener('click', () => {
-                stopAudio();
-                window.location.href = doneURL;
+                if (infoMode) {
+                    infoMode = false;
+                    infoClass = null;
+                    showSlide(returnToSlide);
+                } else {
+                    stopAudio();
+                    window.location.href = doneURL;
+                }
             }));
 
             showSlide(0);

@@ -65,7 +65,7 @@
 
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonics_l2/global/common/bear-e.png') }}"class="w-[40vw] " />
-            <h2 class="absolute top-[28%] right-[15%] -translate-y-1/2  text-[#A15E0D] text-[1.7vw] text-center">
+            <h2 class="absolute top-[17%] right-[15%]  text-[#A15E0D] text-[1.7vw] text-center">
                 Try finding all the <br> <span class="text-[#70af39] underline">synonyms</span> in this <br>
                 activity.</h2>
         </div>

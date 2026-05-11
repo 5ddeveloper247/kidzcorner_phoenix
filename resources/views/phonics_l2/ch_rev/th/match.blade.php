@@ -179,7 +179,7 @@
         .box {
             width: 19vw;
             height: 10vw;
-            border: 2px solid #F7B94A;
+            border: 0.15vw solid #F7B94A;
             border-radius: 7px;
             display: flex;
             justify-content: center;
@@ -378,9 +378,15 @@
             });
 
             doneButtons.forEach(b => b.addEventListener('click', () => {
-                stopAudio();
-                window.location.href = doneURL;
-            }));
+    if (infoMode) {
+        infoMode = false;
+        infoClass = null;
+        showSlide(returnToSlide);
+    } else {
+        stopAudio();
+        window.location.href = doneURL;
+    }
+}));
 
             // ── Sound buttons ─────────────────────────────────────
             soundButtons.forEach(b => b.addEventListener('click', e => {

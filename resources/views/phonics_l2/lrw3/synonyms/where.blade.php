@@ -387,7 +387,7 @@
 
 
     {{-- Panel 9 --}}
-     <div class="phonics-panel flex flex-col justify-start h-full w-full items-center"
+     <div class="phonics-panel flex flex-col justify-start w-full items-center"
          >
         <h2 class="panel-title stroke">Match the synonym pairs.</h2>
         <div class="flex items-center justify-around w-full">

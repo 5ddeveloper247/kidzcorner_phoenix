@@ -26,6 +26,17 @@
             position: absolute;
             top: 4%;
         }
+.panel-ul {
+            color: white;
+            font-size: 1.1vw;
+            padding-left: 3vw;
+        }
+
+        .panel-ul {
+            color: white;
+            font-size: 1.1vw;
+            padding-left: 3vw;
+        }
     </style>
 @endpush
 
@@ -569,7 +580,16 @@
 
             function handleDone() {
                 stopCurrentAudio();
-                window.location.href = doneURL;
+
+                if (isInSpecialMode) {
+                    currentSlide = returnToSlide;
+                    isInSpecialMode = false;
+                    specialSlideClass = null;
+                    returnToSlide = null;
+                    showSlide(currentSlide);
+                } else {
+                    window.location.href = doneURL;
+                }
             }
 
             infoButtons.forEach(button => {

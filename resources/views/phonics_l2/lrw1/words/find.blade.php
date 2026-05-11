@@ -39,7 +39,7 @@
 
 @section('content')
     {{-- panel 1 --}}
-    <div class="phonics-panel"  >
+    <div class="phonics-panel">
         <div class="relative">
             <img src="{{ asset('assets/images/phonics_l2/global/common/panel-bear.png') }}" class="w-[50vw]" />
             <h2
@@ -50,24 +50,21 @@
     </div>
 
     {{-- Side Info Panel --}}
-    <div class="phonics-panel flex justify-center items-center"
-        >
+    <div class="phonics-panel flex justify-center items-center">
 
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonics_l2/global/common/bear-e.png') }}"class="w-[40vw] " />
-            <h2
-                class="absolute top-[28%] right-[1%] -translate-x-1/2 -translate-y-1/2  text-[#A15E0D] text-[1.7vw] text-center">
+            <h2 class="absolute top-[18%] right-[13%] text-[#A15E0D] text-[1.7vw] text-center">
                 Try finding all the <br> <span class="text-[#70af39]">noun</span> in this <br>
                 activity.</h2>
         </div>
     </div>
 
     {{-- Panel 2 --}}
-    <div class="phonics-panel flex flex-col justify-center gap-[2vw] items-center"
-         >
+    <div class="phonics-panel flex flex-col justify-center gap-[2vw] items-center">
         <h2 class="panel-title">Find the nouns!</h2>
 
-        <div class="grid grid-cols-3 w-full gap-x-[4vw] place-items-end">
+        <div class="grid grid-cols-3 w-full gap-x-[4vw]" style="place-items: end;">
             <div>
                 <img src="{{ asset('assets/images/phonics_l2/lrw1/planes.png') }}" class="w-[10vw]" />
                 <div class="rectangle">planes</div>
@@ -97,14 +94,13 @@
     </div>
 
     {{-- Panel 3 --}}
-    <div class="phonics-panel flex justify-center items-center"
-        >
+    <div class="phonics-panel flex justify-center items-center">
 
 
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonics_l2/global/common/bear-e.png') }}"class="w-[40vw] " />
             <h2
-                class="absolute top-[28%] right-[1%] -translate-x-1/2 -translate-y-1/2  text-[#A15E0D] text-[1.7vw] text-center">
+                class="absolute top-[16%] right-[14%] text-[#A15E0D] text-[1.7vw] text-center">
                 You’re right! <br>
                 The word ‘planes’ <br>
                 is a <span class="text-[#70af39]">noun</span>.</h2>
@@ -113,11 +109,10 @@
         </div>
     </div>
 
-    <div class="phonics-panel flex flex-col justify-center gap-[2vw] items-center"
-         >
+    <div class="phonics-panel flex flex-col justify-center gap-[2vw] items-center">
         <h2 class="panel-title">Find the nouns!</h2>
 
-        <div class="grid grid-cols-3 w-full gap-x-[4vw] place-items-end relative">
+        <div class="grid grid-cols-3 w-full gap-x-[4vw] relative" style="place-items: end">
 
             <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}" class="w-[3 h-[3vw] absolute top-[25%]"
                 style="left: -6%" />
@@ -151,14 +146,13 @@
     </div>
 
     {{-- Panel  --}}
-    <div class="phonics-panel flex justify-center items-center"
-        >
+    <div class="phonics-panel flex justify-center items-center">
 
 
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonics_l2/global/common/bear-e.png') }}"class="w-[40vw] " />
             <h2
-                class="absolute top-[28%] right-[1%] -translate-x-1/2 -translate-y-1/2  text-[#A15E0D] text-[1.7vw] text-center">
+                class="absolute top-[16%] right-[14%] text-[#A15E0D] text-[1.7vw] text-center">
                 You’re right! <br>
                 The word ‘planes’ <br>
                 is a <span class="text-[#70af39]">noun</span>.</h2>
@@ -167,11 +161,10 @@
         </div>
     </div>
 
-    <div class="phonics-panel flex flex-col justify-center gap-[2vw] items-center"
-         >
+    <div class="phonics-panel flex flex-col justify-center gap-[2vw] items-center">
         <h2 class="panel-title">Find the nouns!</h2>
 
-        <div class="grid grid-cols-3 w-full gap-x-[4vw] place-items-end relative">
+        <div class="grid grid-cols-3 w-full gap-x-[4vw] relative" style="place-items: end">
             <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}" class="w-[3 h-[3vw] absolute top-[25%]"
                 style="left: -6%" />
             <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}"
@@ -206,14 +199,13 @@
     </div>
 
     {{-- Panel  --}}
-    <div class="phonics-panel flex justify-center items-center"
-        >
+    <div class="phonics-panel flex justify-center items-center">
 
 
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonics_l2/global/common/bear-e.png') }}"class="w-[40vw] " />
             <h2
-                class="absolute top-[28%] right-[1%] -translate-x-1/2 -translate-y-1/2  text-[#A15E0D] text-[1.7vw] text-center">
+                class="absolute top-[16%] right-[14%] text-[#A15E0D] text-[1.7vw] text-center">
                 You’re right! <br>
                 The word ‘planes’ <br>
                 is a <span class="text-[#70af39]">noun</span>.</h2>
@@ -222,11 +214,10 @@
         </div>
     </div>
 
-    <div class="phonics-panel flex flex-col justify-center gap-[2vw] items-center"
-         >
+    <div class="phonics-panel flex flex-col justify-center gap-[2vw] items-center">
         <h2 class="panel-title">Find the nouns!</h2>
 
-        <div class="grid grid-cols-3 w-full gap-x-[4vw] place-items-end relative">
+        <div class="grid grid-cols-3 w-full gap-x-[4vw] relative" style="place-items: end">
             <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}" class="w-[3 h-[3vw] absolute top-[25%]"
                 style="left: -6%" />
             <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}"
@@ -263,14 +254,13 @@
     </div>
 
     {{-- Panel  --}}
-    <div class="phonics-panel flex justify-center items-center"
-        >
+    <div class="phonics-panel flex justify-center items-center">
 
 
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonics_l2/global/common/bear-e.png') }}"class="w-[40vw] " />
             <h2
-                class="absolute top-[28%] right-[1%] -translate-x-1/2 -translate-y-1/2  text-[#A15E0D] text-[1.7vw] text-center">
+                class="absolute top-[16%] right-[14%] text-[#A15E0D] text-[1.7vw] text-center">
                 You’re right! <br>
                 The word ‘planes’ <br>
                 is a <span class="text-[#70af39]">noun</span>.</h2>
@@ -279,11 +269,10 @@
         </div>
     </div>
 
-    <div class="phonics-panel flex flex-col justify-center gap-[2vw] items-center"
-         >
+    <div class="phonics-panel flex flex-col justify-center gap-[2vw] items-center">
         <h2 class="panel-title">Find the nouns!</h2>
 
-        <div class="grid grid-cols-3 w-full gap-x-[4vw] place-items-end relative">
+        <div class="grid grid-cols-3 w-full gap-x-[4vw] relative" style="place-items: end">
             <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}" class="w-[3 h-[3vw] absolute top-[39%]"
                 style="left: -6%" />
             <img src="{{ asset('assets/images/phonics_l2/blpl/tick.png') }}"
@@ -335,7 +324,7 @@
 
         {{-- Card grid on the left --}}
         <div>
-            <div class="grid grid-cols-2 place-items-end gap-x-[2vw] w-full">
+            <div class="grid grid-cols-2 gap-x-[2vw] w-full" style="place-items: end;">
                 <div class="w-fit flex flex-col items-center h-fit">
                     <img class="w-[10vw]" src="{{ asset('assets/images/phonics_l2/lrw1/planes.png') }}" />
                     <div class="rectangle">planes</div>

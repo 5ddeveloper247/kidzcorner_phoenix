@@ -304,9 +304,15 @@
             }));
 
             doneButtons.forEach(b => b.addEventListener('click', () => {
-                stopAudio();
-                window.location.href = doneURL;
-            }));
+    if (infoMode) {
+        infoMode = false;
+        infoClass = null;
+        showSlide(returnToSlide);
+    } else {
+        stopAudio();
+        window.location.href = doneURL;
+    }
+}));
 
             soundButtons.forEach(b => b.addEventListener('click', e => {
                 e.stopPropagation();

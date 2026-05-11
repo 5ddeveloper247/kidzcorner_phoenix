@@ -51,7 +51,7 @@
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonics_l2/global/common/bear-e.png') }}"class="w-[40vw] " />
             <h2
-                class="absolute top-[28%] right-[1%] -translate-x-1/2 -translate-y-1/2  text-[#A15E0D] text-[1.7vw] text-center">
+                class="absolute top-[20%] right-[13%] text-[#A15E0D] text-[1.7vw] text-center">
                 Now let’s have fun <br>
                 creating stories!</h2>
         </div>

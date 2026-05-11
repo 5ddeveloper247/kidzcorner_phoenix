@@ -28,7 +28,7 @@
             'correctWord' => 'tractor',
             'answerAudio' => 'assets/audio/phonics_audio-2/tr_rev/tractor.m4a',
             'wrong' => 'assets/images/phonics_l2/trev/car.png',
-            'wrongSize' => 'w-[20vw]',  
+            'wrongSize' => 'w-[20vw]',
             'wrongAudio' => 'assets/audio/phonics_audio-2/dr_gr/drive.m4a',
             'wrongClass' => 'rounded-2xl',
         ],
@@ -89,6 +89,17 @@
         .panel-div {
             position: absolute;
             top: 4%;
+        }
+.panel-ul {
+            color: white;
+            font-size: 1.1vw;
+            padding-left: 3vw;
+        }
+
+        .panel-ul {
+            color: white;
+            font-size: 1.1vw;
+            padding-left: 3vw;
         }
     </style>
 @endpush
@@ -365,9 +376,15 @@
                 window.location.href = document.body.dataset.homeRoute;
             });
             doneButtons.forEach(b => b.addEventListener('click', () => {
-                stopAudio();
-                window.location.href = doneURL;
-            }));
+    if (infoMode) {
+        infoMode = false;
+        infoClass = null;
+        showSlide(returnToSlide);
+    } else {
+        stopAudio();
+        window.location.href = doneURL;
+    }
+}));
 
             showSlide(0);
         });
