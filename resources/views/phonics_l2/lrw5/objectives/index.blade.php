@@ -72,8 +72,8 @@
         document.addEventListener("DOMContentLoaded", function() {
 
             const returnButton = document.getElementById("returnButton");
-            const returnURL = "{{ url('/phonics_l2/fl_gl') }}";
-            const doneURL = "{{ url('/phonics_l2/fl_gl') }}";
+            const returnURL = "{{ url('/phonics_l2/lrw5') }}";
+            const doneURL = "{{ url('/phonics_l2/lrw5') }}";
 
             if (returnButton) {
                 returnButton.addEventListener("click", function() {

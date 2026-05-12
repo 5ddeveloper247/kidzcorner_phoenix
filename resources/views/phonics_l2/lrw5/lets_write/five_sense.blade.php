@@ -52,7 +52,7 @@
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonics_l2/global/common/bear-ee.png') }}"class="w-[50vw] " />
             <h2
-                class="absolute top-[40%] right-[1%] -translate-x-1/2 -translate-y-1/2  text-[#A15E0D] text-[1.7vw] text-center">
+                class="absolute top-[40%] right-[13%] text-[#A15E0D] text-[2vw] text-center">
                 Let’s have fun writing!</h2>
         </div>
     </div>
@@ -65,13 +65,13 @@
         <h2 class="panel-title">Look at these pictures. <br>
             Complete each sentence in your own words .</h2>
 
-            <img src="{{ asset('assets/images/phonics_l2/lrw3/board.png') }}"class="h-[12vw] w-full " />
+            <img src="{{ asset('assets/images/phonics_l2/lrw4/board.png') }}"class="h-[13vw] w-full " />
 
         <div class="flex justify-center items-center gap-[4vw]">
 
             <div class="flex flex-col justify-around h-full">
                 <div class="flex items-end h-fit w-fit text-[#f7b94a] text-[2vw]">
-                    <span>My carrot looks like </span>
+                    <span>My corn looks like </span>
                     <div class="w-[9vw] h-[.2vw] bg-[#E6A23C] border-t border-[#C47F1E]"></div>.
                 </div>
 
@@ -81,7 +81,7 @@
                 </div>
             </div>
 
-            <img src="{{ asset('assets/images/phonics_l2/lrw3/fs1.png') }}"class="h-[10vw] " />
+            <img src="{{ asset('assets/images/phonics_l2/lrw4/fs1.png') }}"class="h-[10vw] " />
 
         </div>
     </div>
@@ -92,7 +92,7 @@
         <h2 class="panel-title">Look at these pictures. <br>
             Complete each sentence in your own words .</h2>
 
-            <img src="{{ asset('assets/images/phonics_l2/lrw3/board.png') }}"class="h-[12vw] w-full " />
+            <img src="{{ asset('assets/images/phonics_l2/lrw4/board.png') }}"class="h-[13vw] w-full " />
 
         <div class="flex justify-center items-center gap-[2vw]">
 
@@ -108,7 +108,7 @@
                 </div>
             </div>
 
-            <img src="{{ asset('assets/images/phonics_l2/lrw3/fs1.png') }}"class="h-[10vw] scale-x-[-1]" />
+            <img src="{{ asset('assets/images/phonics_l2/lrw4/fs1.png') }}"class="h-[10vw] scale-x-[-1]" />
 
         </div>
     </div>
@@ -120,7 +120,7 @@
         <h2 class="panel-title">Look at these pictures. <br>
             Complete each sentence in your own words .</h2>
 
-            <img src="{{ asset('assets/images/phonics_l2/lrw3/board.png') }}"class="h-[12vw] w-full " />
+            <img src="{{ asset('assets/images/phonics_l2/lrw4/board.png') }}"class="h-[13vw] w-full " />
 
         <div class="flex flex-row-reverse justify-center items-center">
 
@@ -131,12 +131,12 @@
                 </div>
 
                 <div class="flex items-end h-fit w-fit text-[#f7b94a] text-[2vw]">
-                    <span>My carrot is</span>
+                    <span>My corn is</span>
                     <div class="w-[19vw] h-[.2vw] bg-[#E6A23C] border-t border-[#C47F1E]"></div>.
                 </div>
             </div>
 
-            <img src="{{ asset('assets/images/phonics_l2/lrw3/fs1.png') }}"class="h-[10vw] scale-x-[-1] " />
+            <img src="{{ asset('assets/images/phonics_l2/lrw4/fs1.png') }}"class="h-[10vw] scale-x-[-1] " />
 
         </div>
     </div>
@@ -189,8 +189,8 @@
             const infoButtons = document.querySelectorAll("[class*='info-btn']");
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
-            const returnURL = "{{ url('/phonics_l2/lrw3/lets_write') }}";
-            const doneURL = "{{ url('/phonics_l2/lrw3/lets_write') }}";
+            const returnURL = "{{ url('/phonics_l2/lrw4/lets_write') }}";
+            const doneURL = "{{ url('/phonics_l2/lrw4/lets_write') }}";
 
             let currentSlide = 0;
             let currentAudio = null;

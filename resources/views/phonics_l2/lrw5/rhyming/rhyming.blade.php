@@ -9,7 +9,7 @@
 @push('styles')
     <style>
         .p-note {
-            font-size: 1.2vw;
+            font-size: 1vw;
             color: white !important;
         }
 
@@ -19,31 +19,43 @@
 
         .panel-title {
             color: #F7B94A;
-            font-size: 3vw;
+            font-size: 2vw;
         }
 
-        .large-title {
-            color: #F7B94A;
-            font-size: 9vw !important;
+        .panel-div {
+            position: absolute;
+            top: 4%;
         }
 
-        .panel-ul {
-            color: white;
-            font-size: 1.1vw;
-            padding-left: 3vw;
+        .box {
+            width: 10vw;
+            height: 10vw;
+            background: #D9D9D9;
+            border: .3vw solid #70AF39;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .rectangle {
+            background: #F7B94A;
+            width: 12vw;
+            height: 3vw;
+            color: #A15E0D;
+            font-size: 2vw;
         }
     </style>
 @endpush
 
 @section('content')
     {{-- panel 1 --}}
-    <div class="phonics-panel"  >
+    <div class="phonics-panel">
         <div class="relative">
             <img src="{{ asset('assets/images/phonics_l2/global/common/panel-bear.png') }}" class="w-[50vw]" />
             <h2
                 class="absolute top-[38%] left-[27%] -translate-x-1/2 -translate-y-1/2  text-[#A15E0D] text-[4vw] text-center">
-                All About <br>
-                Antonyms!</h2>
+                Rhyming <br>
+                Pairs!</h2>
         </div>
         <p class="p-note">Tips: Follow the sequence of activities numbered, or click on any activity of your choice. <br>
             For a definition of blends and other phonics terminologies,<a class="c-btn info-btn1">Click here</a>.</p>
@@ -92,64 +104,232 @@
         </div>
     </div>
 
-    <div class="phonics-panel flex justify-center items-center"
-        >
-
-        <div class="relative w-fit h-fit">
-            <img src="{{ asset('assets/images/phonics_l2/global/common/bear-e.png') }}"class="w-[40vw] " />
-            <h2 class="absolute top-[28%] right-[12%] -translate-y-1/2  text-[#A15E0D] text-[1.7vw] text-center">
-                <span class="text-[#70af39]">Antonyms</span> are pairs of <br>
-                words with opposite <br>
-                meanings.
-            </h2>
-        </div>
-    </div>
 
     {{-- Panel 2 --}}
+    <div class="phonics-panel flex flex-col justify-center w-full gap-[2vw] items-center">
+        <div class="flex items-end">
+            <h2 class="panel-title">Find the word that rhymes with</h2>
+            <img src="{{ asset('assets/images/phonics_l2/lrw5/flush.png') }}" class="h-[4vw]" />
+            <span class="panel-title">.</span>
+        </div>
 
-    <div class="phonics-panel flex justify-center items-center h-full w-full"
-        >
-        <img src="{{ asset('assets/images/phonics_l2/lrw3/n1.png') }}" class="w-[50vw]" />
+        <div class="flex justify-around items-center w-full">
 
-    </div>
+            <div class="box">
+                <img src="{{ asset('assets/images/phonics_l2/lrw5/flush.png') }}" class="h-[8vw]" />
 
+            </div>
+            <div class="box">
 
-    {{-- Panel 4 --}}
-    <div class="phonics-panel flex justify-center items-center h-full w-full"
-        >
-        <img src="{{ asset('assets/images/phonics_l2/lrw3/n2.png') }}" class="w-[40vw]" />
+            </div>
+        </div>
 
-    </div>
+        <div class="flex justify-around items-center w-full">
+            <div>
+                <img src="{{ asset('assets/images/phonics_l2/lrw5/brush.png') }}" class="w-[10vw]" />
+                <div class="rectangle">brush</div>
+            </div>
 
-    {{-- Panel 5 --}}
-    <div class="phonics-panel flex justify-center items-center h-full w-full"
-        >
-        <img src="{{ asset('assets/images/phonics_l2/lrw3/n3.png') }}" class="w-[40vw]" />
-
-    </div>
-
-
-
-
-    {{-- panel 9 --}}
-    <div class="phonics-panel flex justify-center items-center"
-        >
-        <img src="{{ asset('assets/images/phonics_l2/global/common/mascot.png') }}" class="h-[20vw]" />
-
-        <div class="relative w-fit h-fit">
-            <img src="{{ asset('assets/images/phonics_l2/global/common/blank.png') }}"class="w-[30vw] h-[25vw]" />
-            <h2
-                class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2  text-[#A15E0D] text-[1.7vw] text-center w-full">
-                <span class="text-[#70af39]">antonyms</span> make <br>
-                sentences more <br>
-                descriptive and more <br>
-                interesting! Now <br>
-                let’s try using them!
-            </h2>
+            <div>
+                <img src="{{ asset('assets/images/phonics_l2/lrw5/trap.png') }}" class="w-[10vw]" />
+                <div class="rectangle">trap</div>
+            </div>
         </div>
     </div>
 
-    {{-- ============================================================= --}}
+    {{-- Panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start w-full h-full gap-[2vw] items-center">
+        <div class="flex items-end">
+            <h2 class="panel-title">Which word is the antonym of happy</h2>
+            <img src="{{ asset('assets/images/phonics_l2/lrw5/flush.png') }}" class="h-[4vw]" />
+            <span class="panel-title">.</span>
+        </div>
+
+        <div class="flex justify-around items-center w-full">
+            <div>
+                <div class="box flex-col">
+                    <img src="{{ asset('assets/images/phonics_l2/lrw5/flush.png') }}" class="h-[8vw]" />
+                </div>
+                <h2 class="panel-title">flush</h2>
+            </div>
+
+            <div>
+                <div class="box flex-col">
+                    <img src="{{ asset('assets/images/phonics_l2/lrw5/brush.png') }}" class="w-[8vw]" />
+                </div>
+                <h2 class="panel-title">brush</h2>
+            </div>
+        </div>
+    </div>
+
+    {{-- ======================================= --}}
+    {{-- Panel --}}
+    <div class="phonics-panel flex flex-col justify-center w-full gap-[2vw] items-center">
+        <div class="flex items-end">
+            <h2 class="panel-title">Which word is the antonym of thin</h2>
+            <img src="{{ asset('assets/images/phonics_l2/idin/thin.png') }}" class="h-[4vw]" />
+            <span class="panel-title">?</span>
+        </div>
+
+        <div class="flex justify-around items-center w-full">
+
+            <div class="box">
+                <img src="{{ asset('assets/images/phonics_l2/idin/thin.png') }}" class="h-[5vw]" />
+
+            </div>
+            <div class="box">
+
+            </div>
+        </div>
+
+        <div class="flex justify-around items-end w-full">
+            <div>
+                <img src="{{ asset('assets/images/phonics_l2/igip/big.png') }}" class="w-[10vw]" />
+                <div class="rectangle">big</div>
+            </div>
+
+            <div class="flex flex-col items-center ">
+                <img src="{{ asset('assets/images/phonics_l2/lrw5/fat.png') }}" class="h-[10vw]" />
+                <div class="rectangle">fat</div>
+            </div>
+        </div>
+    </div>
+
+    {{-- Panel --}}
+    <div class="phonics-panel flex flex-col justify-start w-full h-full gap-[2vw] items-center">
+        <div class="flex items-end">
+            <h2 class="panel-title">Which word is the antonym of thin</h2>
+            <img src="{{ asset('assets/images/phonics_l2/idin/thin.png') }}" class="h-[4vw]" />
+            <span class="panel-title">?</span>
+        </div>
+
+        <div class="flex justify-around items-center w-full">
+
+            <div class="box flex-col">
+                <img src="{{ asset('assets/images/phonics_l2/idin/thin.png') }}" class="h-[5vw]" />
+                <h2>thin</h2>
+            </div>
+            <div class="box flex-col">
+                <img src="{{ asset('assets/images/phonics_l2/lrw5/fat.png') }}" class="h-[5vw]" />
+                <h2>fat</h2>
+
+            </div>
+        </div>
+    </div>
+
+    {{-- ======================================= --}}
+    {{-- Panel --}}
+    <div class="phonics-panel flex flex-col justify-center w-full gap-[2vw] items-center">
+        <div class="flex items-end">
+            <h2 class="panel-title">Which word is the antonym of stand</h2>
+            <img src="{{ asset('assets/images/phonics_l2/lrw5/stand.png') }}" class="h-[4vw]" />
+            <span class="panel-title">?</span>
+        </div>
+
+        <div class="flex justify-around items-center w-full">
+
+            <div class="box">
+                <img src="{{ asset('assets/images/phonics_l2/lrw5/stand.png') }}" class="h-[5vw]" />
+
+            </div>
+            <div class="box">
+
+            </div>
+        </div>
+
+        <div class="flex justify-around items-end w-full">
+            <div>
+                <img src="{{ asset('assets/images/phonics_l2/lrw5/sit.png') }}" class="h-[10vw]" />
+                <div class="rectangle">sit</div>
+            </div>
+
+            <div class="flex flex-col items-center ">
+                <img src="{{ asset('assets/images/phonics_l2/lrw5/angry.png') }}" class="h-[10vw]" />
+                <div class="rectangle">angry</div>
+            </div>
+        </div>
+    </div>
+
+    {{-- Panel --}}
+    <div class="phonics-panel flex flex-col justify-start w-full h-full gap-[2vw] items-center">
+        <div class="flex items-end">
+            <h2 class="panel-title">Which word is the antonym of stand</h2>
+            <img src="{{ asset('assets/images/phonics_l2/lrw5/stand.png') }}" class="h-[4vw]" />
+            <span class="panel-title">?</span>
+        </div>
+
+        <div class="flex justify-around items-center w-full">
+
+            <div class="box flex-col">
+                <img src="{{ asset('assets/images/phonics_l2/lrw5/stand.png') }}" class="h-[5vw]" />
+                <h2>stand</h2>
+            </div>
+            <div class="box flex-col">
+                <img src="{{ asset('assets/images/phonics_l2/lrw5/sit.png') }}" class="h-[5vw]" />
+                <h2>sit</h2>
+
+            </div>
+        </div>
+    </div>
+
+    {{-- ======================================= --}}
+    {{-- Panel --}}
+    <div class="phonics-panel flex flex-col justify-center w-full gap-[2vw] items-center">
+        <div class="flex items-end">
+            <h2 class="panel-title">Which word is the antonym of cold</h2>
+            <img src="{{ asset('assets/images/phonics_l2/lrw5/cold.png') }}" class="h-[4vw]" />
+            <span class="panel-title">?</span>
+        </div>
+
+        <div class="flex justify-around items-center w-full">
+
+            <div class="box">
+                <img src="{{ asset('assets/images/phonics_l2/lrw5/cold.png') }}" class="h-[5vw]" />
+
+            </div>
+            <div class="box">
+
+            </div>
+        </div>
+
+        <div class="flex justify-around items-end w-full">
+            <div>
+                <img src="{{ asset('assets/images/phonics_l2/lrw5/sit.png') }}" class="h-[10vw]" />
+                <div class="rectangle">sit</div>
+            </div>
+
+            <div class="flex flex-col items-center ">
+                <img src="{{ asset('assets/images/phonics_l2/lrw5/hot.png') }}" class="h-[10vw]" />
+                <div class="rectangle">hot</div>
+            </div>
+        </div>
+    </div>
+
+    {{-- Panel --}}
+    <div class="phonics-panel flex flex-col justify-start w-full h-full gap-[2vw] items-center">
+        <div class="flex items-end">
+            <h2 class="panel-title">Which word is the antonym of cold</h2>
+            <img src="{{ asset('assets/images/phonics_l2/lrw5/cold.png') }}" class="h-[4vw]" />
+            <span class="panel-title">?</span>
+        </div>
+
+        <div class="flex justify-around items-center w-full">
+
+            <div class="box flex-col">
+                <img src="{{ asset('assets/images/phonics_l2/lrw5/cold.png') }}" class="h-[5vw]" />
+                <h2>cold</h2>
+            </div>
+            <div class="box flex-col">
+                <img src="{{ asset('assets/images/phonics_l2/lrw5/hot.png') }}" class="h-[5vw]" />
+                <h2>hot</h2>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    {{-- =========================================================== --}}
     {{-- All Buttons --}}
     <div id="buttons" class="absolute flex flex-row gap-6 z-90">
 
@@ -175,7 +355,6 @@
             <img src="{{ asset('assets/images/phonicsl1/global/btns/next-btn.png') }}" />
         </button>
     </div>
-
     <div class="down-btn-container">
         <button class="doneButton hidden">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/done.png') }}" />
@@ -195,9 +374,8 @@
             const infoButtons = document.querySelectorAll("[class*='info-btn']");
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
-            const returnURL = "{{ url('/phonics_l2/lrw3/antonyms') }}";
-            const doneURL = "{{ url('/phonics_l2/lrw3/antonyms') }}";
-            const CHEERING_AUDIO = "{{ asset('assets/audio/phonics_audio-2/common/cheering.mp3') }}";
+            const returnURL = "{{ url('/phonics_l2/lrw5/rhyming') }}";
+            const doneURL = "{{ url('/phonics_l2/lrw5/rhyming') }}";
 
             let currentSlide = 0;
             let currentAudio = null;
@@ -248,10 +426,8 @@
 
             function stopCurrentAudio() {
                 if (currentAudio) {
-                    currentAudio.onended = null;
                     currentAudio.pause();
                     currentAudio.currentTime = 0;
-                    currentAudio = null;
                 }
             }
 
@@ -259,72 +435,20 @@
                 stopCurrentAudio();
 
                 const slide = slides[slideIndex];
-                const audioSources = [];
-                const answerSpans = slide.querySelectorAll('.answer');
-                const newContainer = slide.querySelector('.new');
 
-                if (answerSpans.length > 0) {
-                    // Answer slide: collect audio only from buttons inside containers that have an .answer span
-                    answerSpans.forEach(span => {
-                        const container = span.closest('.relative');
-                        if (container) {
-                            const btn = container.querySelector('[id^="soundButton"][data-slide-audio]');
-                            if (btn) {
-                                const src = btn.getAttribute('data-slide-audio');
-                                if (src && !audioSources.includes(src)) {
-                                    audioSources.push(src);
-                                }
-                            }
-                        }
-                    });
-                    // Play cheering sound at the end
-                    audioSources.push(CHEERING_AUDIO);
+                let audioSrc = slide.getAttribute('data-slide-audio');
 
-                } else if (newContainer) {
-                    // Slide has a .new container: play ONLY the sound button inside .new, nothing else
-                    const newBtn = newContainer.querySelector('[id^="soundButton"][data-slide-audio]');
-                    if (newBtn) {
-                        const src = newBtn.getAttribute('data-slide-audio');
-                        if (src) audioSources.push(src);
-                    }
-
-                } else {
-                    // Normal slide: play slide-level audio first
-                    const slideSrc = slide.getAttribute('data-slide-audio');
-                    if (slideSrc) audioSources.push(slideSrc);
-
-                    // Check if there are two side sound buttons (the flex-col gap container)
-                    const sideBtnContainer = slide.querySelector('.flex.flex-col.gap-\\[1vw\\]');
-                    if (sideBtnContainer) {
-                        // Two side buttons exist: play both sequentially
-                        sideBtnContainer.querySelectorAll('[id^="soundButton"][data-slide-audio]').forEach(btn => {
-                            const src = btn.getAttribute('data-slide-audio');
-                            if (src && !audioSources.includes(src)) {
-                                audioSources.push(src);
-                            }
-                        });
-                    } else {
-                        // No side buttons: collect any remaining child data-slide-audio elements
-                        slide.querySelectorAll('[data-slide-audio]').forEach(el => {
-                            const src = el.getAttribute('data-slide-audio');
-                            if (src && !audioSources.includes(src)) {
-                                audioSources.push(src);
-                            }
-                        });
+                if (!audioSrc) {
+                    const audioElement = slide.querySelector('[data-slide-audio]');
+                    if (audioElement) {
+                        audioSrc = audioElement.getAttribute('data-slide-audio');
                     }
                 }
 
-                // Play all sources sequentially
-                function playNext(index) {
-                    if (index >= audioSources.length) return;
-                    currentAudio = new Audio(audioSources[index]);
+                if (audioSrc) {
+                    currentAudio = new Audio(audioSrc);
                     currentAudio.play().catch(err => console.log('Audio play failed:', err));
-                    currentAudio.onended = () => {
-                        playNext(index + 1);
-                    };
                 }
-
-                playNext(0);
             }
 
             function showSlide(slideIndex) {
@@ -421,16 +545,7 @@
 
             function handleDone() {
                 stopCurrentAudio();
-
-                if (isInSpecialMode) {
-                    currentSlide = returnToSlide;
-                    isInSpecialMode = false;
-                    specialSlideClass = null;
-                    returnToSlide = null;
-                    showSlide(currentSlide);
-                } else {
-                    window.location.href = doneURL;
-                }
+                window.location.href = doneURL;
             }
 
             infoButtons.forEach(button => {

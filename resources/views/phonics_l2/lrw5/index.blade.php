@@ -21,20 +21,20 @@
     {{-- Navigations to Inner folders  --}}
     <div id="slide-board" class="grid grid-cols-2 gap-[2vw] mb-[2vw]  text-center justify-content-center">
 
-        <a href="{{ url('/phonics_l2/lrw3/antonyms') }}">
-            <img src="{{ asset('assets/images/phonics_l2/lrw3/antonyms.png') }}" class="mx-auto d-block" />
+        <a href="{{ url('/phonics_l2/lrw5/rhyming') }}">
+            <img src="{{ asset('assets/images/phonics_l2/lrw5/rhyming.png') }}" class="mx-auto d-block" />
         </a>
 
-        <a href="{{ url('/phonics_l2/lrw3/synonyms') }}">
-            <img src="{{ asset('assets/images/phonics_l2/lrw3/synonyms.png') }}" class="mx-auto d-block" />
+        <a href="{{ url('/phonics_l2/lrw5/pronounciation') }}">
+            <img src="{{ asset('assets/images/phonics_l2/lrw5/pronounciation.png') }}" class="mx-auto d-block" />
         </a>
 
-        <a href="{{ url('/phonics_l2/lrw3/lets_write') }}">
+        <a href="{{ url('/phonics_l2/lrw5/lets_write') }}">
             <img src="{{ asset('assets/images/phonics_l2/global/lr3.png') }}" class="mx-auto d-block" />
         </a>
 
       
-            <a href="{{ url('/phonics_l2/objectives') }}">
+            <a href="{{ url('/phonics_l2/lrw5/objectives') }}">
                 <img src="{{ asset('assets/images/phonics_l2/global/objectives.png') }}" class="mx-auto d-block" />
             </a>
     </div>

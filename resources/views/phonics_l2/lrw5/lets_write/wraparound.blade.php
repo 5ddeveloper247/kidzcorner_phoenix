@@ -31,7 +31,7 @@
 
 @section('content')
     {{-- panel 1 --}}
-    <div class="phonics-panel"  >
+    <div class="phonics-panel">
         <div class="relative">
             <img src="{{ asset('assets/images/phonics_l2/global/common/panel-bear.png') }}" class="w-[50vw]" />
             <h2
@@ -47,74 +47,78 @@
 
 
 
-    <div class="phonics-panel flex justify-center items-center"
-        >
+    <div class="phonics-panel flex justify-center items-center">
 
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonics_l2/global/common/bear-ee.png') }}"class="w-[50vw] " />
             <h2 class="absolute top-[40%]  right-[10%] -translate-y-1/2  text-[#A15E0D] text-[1.7vw] text-center">
                 Can you remember the story <br>
-                “”If you give a spider a <br>
-                spotted star””?</h2>
+                “”Ray The Mule””?</h2>
         </div>
     </div>
 
     {{-- ================ --}}
     {{-- Panel 2 --}}
     <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw3_audio/st1.m4a') }}">
-        <h2 class="title-top stroke">The Pot with a Dot on the Top</h2>
-        <img src="{{ asset('assets/images/phonics_l2/opot/story1.png') }}" class="h-[25vw]" />
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4_audio/st1.m4a') }}">
+        <h2 class="title-top stroke">Ray the Mule</h2>
+        <img src="{{ asset('assets/images/phonics_l2/ayue/story1.png') }}" class="h-[25vw]" />
     </div>
 
     {{-- Panel 3 --}}
     <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw3_audio/st2.m4a') }}">
-        <img src="{{ asset('assets/images/phonics_l2/opot/story2.png') }}" class="h-[25vw]" />
-        <h2 class="title-top">I placed my pot in a spot next to the cot before I <br>
-went into my shop.</h2>
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4_audio/st2.m4a') }}">
+        <img src="{{ asset('assets/images/phonics_l2/ayue/story2.png') }}" class="h-[25vw]" />
+        <h2 class="title-top">Ray the mule likes to play with clay.</h2>
     </div>
 
     {{-- Panel 4 --}}
     <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw3_audio/st3.m4a') }}">
-        <img src="{{ asset('assets/images/phonics_l2/opot/story1.png') }}" class="h-[25vw]" />
-        <h2 class="title-top">The pot has a round dot on the top.</h2>
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4_audio/st3.m4a') }}">
+        <img src="{{ asset('assets/images/phonics_l2/ayue/story3.png') }}" class="h-[25vw]" />
+        <h2 class="title-top">“”What can I say... playing with clay always makes my day!”” Says Ray.</h2>
     </div>
 
     {{-- Panel  --}}
     <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw3_audio/st3.m4a') }}">
-        <img src="{{ asset('assets/images/phonics_l2/opot/story3.png') }}" class="h-[25vw]" />
-        <h2 class="title-top">I had the pot since I was a tot.</h2>
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4_audio/st3.m4a') }}">
+        <img src="{{ asset('assets/images/phonics_l2/ayue/story4.png') }}" class="h-[25vw]" />
+        <h2 class="title-top">One day, while walking with his lump of clay.</h2>
     </div>
 
     {{-- Panel 5 --}}
     <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw3_audio/st4.m4a') }}">
-        <img src="{{ asset('assets/images/phonics_l2/opot/story4.png') }}" class="h-[25vw]" />
-        <h2 class="title-top">I was afraid to drop the pot in my shop as it was hot.</h2>
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4_audio/st4.m4a') }}">
+        <img src="{{ asset('assets/images/phonics_l2/ayue/story5.png') }}" class="h-[25vw]" />
+        <h2 class="title-top">Ray spots a huge tray of hay right in front of the walkway.</h2>
     </div>
 
     {{-- Panel 6 --}}
     <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw3_audio/st5.m4a') }}">
-        <img src="{{ asset('assets/images/phonics_l2/opot/story5.png') }}" class="h-[25vw]" />
-        <h2 class="title-top">As I would have to then mop the spot.</h2>
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4_audio/st5.m4a') }}">
+        <img src="{{ asset('assets/images/phonics_l2/ayue/story6.png') }}" class="h-[25vw]" />
+        <h2 class="title-top">Along comes the Duke and says that Ray has to pay.</h2>
     </div>
 
     {{-- Panel 7 --}}
     <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
-        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw3_audio/st6.m4a') }}">
-        <img src="{{ asset('assets/images/phonics_l2/opot/story6.png') }}" class="h-[25vw]" />
-        <h2 class="title-top">Now I cannot stop thinking of my pot.</h2>
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4_audio/st6.m4a') }}">
+        <img src="{{ asset('assets/images/phonics_l2/ayue/story7.png') }}" class="h-[25vw]" />
+        <h2 class="title-top">Ray takes out his clay and molds it into a cube and a tube.</h2>
     </div>
 
- 
+    {{-- Panel 8 --}}
+    <div class="phonics-panel h-full flex flex-col justify-center items-center space-y-[1vw]"
+        data-slide-audio="{{ asset('assets/audio/phonics_audio-2/lrw4_audio/st6.m4a') }}">
+        <img src="{{ asset('assets/images/phonics_l2/ayue/story8.png') }}" class="h-[25vw]" />
+        <h2 class="title-top">He gives them to the Duke who finds them rather cute. <br>
+            And so Ray does not need to pay for his hay.</h2>
+    </div>
+   
+
     {{-- =================== --}}
 
-    <div class="phonics-panel flex justify-center items-center"
-        >
+    <div class="phonics-panel flex justify-center items-center">
 
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonics_l2/global/common/bear-ee.png') }}"class="w-[50vw] " />
@@ -124,14 +128,11 @@ went into my shop.</h2>
         </div>
     </div>
 
-    <div class="phonics-panel flex flex-col justify-center items-center"
-        >
-
-        <img src="{{ asset('assets/images/phonics_l2/lrw3/storyq1.png') }}"class="w-[50vw] " />
+    <div class="phonics-panel flex flex-col justify-center items-center">
+        <img src="{{ asset('assets/images/phonics_l2/lrw4/storyq1.png') }}"class="w-[50vw] " />
     </div>
 
-    <div class="phonics-panel flex justify-center items-center"
-        >
+    <div class="phonics-panel flex justify-center items-center">
 
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonics_l2/global/common/bear-ee.png') }}"class="w-[50vw] " />
@@ -143,14 +144,11 @@ went into my shop.</h2>
     </div>
 
 
-    <div class="phonics-panel flex flex-col justify-center items-center"
-        >
-
-        <img src="{{ asset('assets/images/phonics_l2/lrw3/storyq2.png') }}"class="w-[50vw] " />
+    <div class="phonics-panel flex flex-col justify-center items-center">
+        <img src="{{ asset('assets/images/phonics_l2/lrw4/storyq2.png') }}"class="w-[50vw] " />
     </div>
 
-    <div class="phonics-panel flex justify-center items-center"
-        >
+    <div class="phonics-panel flex justify-center items-center">
 
         <div class="relative w-fit h-fit">
             <img src="{{ asset('assets/images/phonics_l2/global/common/bear-ee.png') }}"class="w-[50vw] " />
@@ -213,8 +211,8 @@ went into my shop.</h2>
             const infoButtons = document.querySelectorAll("[class*='info-btn']");
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
-            const returnURL = "{{ url('/phonics_l2/lrw3/lets_write') }}";
-            const doneURL = "{{ url('/phonics_l2/lrw3/lets_write') }}";
+            const returnURL = "{{ url('/phonics_l2/lrw4/lets_write') }}";
+            const doneURL = "{{ url('/phonics_l2/lrw4/lets_write') }}";
 
             let currentSlide = 0;
             let currentAudio = null;
