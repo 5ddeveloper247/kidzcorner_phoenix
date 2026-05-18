@@ -146,7 +146,7 @@
                             </div>
 
                             <div class="col-12 col-lg-3">
-                                <a>
+                                <a href="{{ url('/micet') }}">
                                     <div class="card radius-15 overflow-hidden"
                                         style="min-height: 170px; background:#f2e9cc;">
                                         <div
