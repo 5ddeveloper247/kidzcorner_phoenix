@@ -29,19 +29,19 @@
     <div id="slide-board" class=" home grid grid-cols-4 gap-[2vw] mb-[2vw] hidden">
 
         <a href="{{ url('/micet/n1') }}">
-            <img src="{{ asset('assets/images/pptimages/n1.png.png') }}" />
+            <img src="{{ asset('assets/images/isteam/n1.png.png') }}" />
         </a>
 
         <a href="{{ url('/micet/n2') }}">
-            <img src="{{ asset('assets/images/pptimages/n2.png.png') }}" />
+            <img src="{{ asset('assets/images/isteam/n2.png.png') }}" />
         </a>
 
         <a href="{{ url('/micet/k1') }}">
-            <img src="{{ asset('assets/images/pptimages/k1.png.png') }}" />
+            <img src="{{ asset('assets/images/isteam/k1.png.png') }}" />
         </a>
 
         <a href="{{ url('/micet/k2') }}">
-            <img src="{{ asset('assets/images/pptimages/k2.png.png') }}" />
+            <img src="{{ asset('assets/images/isteam/k2.png.png') }}" />
         </a>
 
     </div>
