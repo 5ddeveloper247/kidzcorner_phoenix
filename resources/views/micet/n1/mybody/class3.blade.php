@@ -21,9 +21,9 @@
             font-size: 2.5vw;
         }
 
-        title {
+        .ptitle {
             color: #F7B94A;
-            font-size: 2vw;
+            font-size: 1.7vw;
         }
 
         .panel-ul {
@@ -38,179 +38,27 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 1: The Gingerbread Man</h1>
-        <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
+        <h1 class="panel-title stroke">Classroom Activity 1: I Can See</h1>
+        <div class="flex ">
+            <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
+            <img src="{{ asset('assets/images/micet/n1/mybody/class2/c1.png') }}" class="h-[12vw]" />
+        </div>
 
 
-        <h3 class="title">Objectives:</h3>
+        <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul">
-            <li>Identify the five senses</li>
-            <li>Develop observation and prediction skills</li>
-            <li>Enjoy listening to a story</li>
+            <li>Understand that our eyes enable us to see the colours and <br>
+                shapes of objects</li>
+            <li>Express what they like and dislike to see</li>
         </ul>
     </div>
 
 
-    {{-- panel 2 --}}
-    <div class="phonics-panel flex flex-col justify-between items-center">
-        <h1 class="panel-title stroke">Classroom Activity 1: The Gingerbread Man</h1>
+    
 
-        <div>
-            <h3 class="title">Preparations</h3>
-            
-            <ul class="list-disc panel-ul">
-                <li>Thematic Activity Book</li>
-            </ul>
-        </div>
-    </div>
-
-
-    {{-- panel 3 --}}
-    <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">The Gingerbread Man</h1>
-        <h3 class="text-white text-[2vw]">Theme: My Body</h3>
-        <img src="{{ asset('assets/images/micet/n1/mybody/class1/c2.png') }}" class="h-[20vw]" />
-    </div>
-
-
-    {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col items-center space-y-[2vw]">
-        <p class="text-white text-[1.5vw]">A baker makes a gingerbread man. <br>
-            What is missing on the face of the gingerbread man?</p>
-        <img src="{{ asset('assets/images/micet/n1/mybody/class1/c3.png') }}" class="w-[25vw]" />
-
-        <div class="flex justify-between items-center">
-            <p class="text-[1.5vw] text-white">What is missing on the face of the gingerbread man? <br>
-                <span class="text-[#f7b94a]">Encourage children to guess, accept all logical answers.</span>
-            </p>
-            <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[8vw]" />
-        </div>
-    </div>
-
-
-    {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col items-center space-y-[2vw]">
-        <p class="text-white text-[1.5vw]">Look, the baker uses icing to draw two eyes on the <br>
-            gingerbread man. But what is still missing?</p>
-        <img src="{{ asset('assets/images/micet/n1/mybody/class1/c4.png') }}" class="w-[25vw]" />
-
-        <div class="flex justify-between items-center">
-            <p class="text-[1.5vw] text-white">What is still missing on the face of the gingerbread man? <br>
-                <span class="text-[#f7b94a]">Encourage children to guess, accept all logical answers.</span>
-            </p>
-            <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[8vw]" />
-        </div>
-    </div>
-
-
-    {{-- panel 6 --}}
-    <div class="phonics-panel flex flex-col items-center space-y-[2vw]">
-        <p class="text-white text-[1.5vw] text-center">The baker draws two ears on the gingerbread man. <br>
-            What else is still missing?</p>
-        <img src="{{ asset('assets/images/micet/n1/mybody/class1/c5.png') }}" class="w-[25vw]" />
-
-        <div class="flex justify-between items-center">
-            <p class="text-[1.5vw] text-white">What is missing on the face of the gingerbread man? <br>
-                <span class="text-[#f7b94a]">Encourage children to guess, accept all logical answers.</span>
-            </p>
-            <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[8vw]" />
-        </div>
-    </div>
-
-    {{-- panel 7 --}}
-    <div class="phonics-panel flex flex-col items-center space-y-[2vw]">
-        <p class="text-white text-[1.5vw]">The baker draws a nose on the gingerbread man. <br>
-            What else is still missing?</p>
-        <img src="{{ asset('assets/images/micet/n1/mybody/class1/c6.png') }}" class="w-[25vw]" />
-
-        <div class="flex justify-between items-center">
-            <p class="text-[1.5vw] text-white">What is missing on the face of the gingerbread man? <br>
-                <span class="text-[#f7b94a]">Encourage children to guess, accept all logical answers.</span>
-            </p>
-            <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[8vw]" />
-        </div>
-    </div>
-
-
-    {{-- panel 8 --}}
-    <div class="phonics-panel flex flex-col items-center space-y-[2vw]">
-        <p class="text-white text-[1.5vw]">The baker uses icing to draw a mouth on the gingerbread man. <br>
-            What is missing on the body of the gingerbread man?</p>
-        <img src="{{ asset('assets/images/micet/n1/mybody/class1/c7.png') }}" class="w-[25vw]" />
-
-        <div class="flex justify-between items-center">
-            <p class="text-[1.5vw] text-white">What is missing on the face of the gingerbread man? <br>
-                <span class="text-[#f7b94a]">Encourage children to guess, accept all logical answers.</span>
-            </p>
-            <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[8vw]" />
-        </div>
-    </div>
-
-
-    {{-- panel 9 --}}
-    <div class="phonics-panel flex flex-col items-center space-y-[2vw]">
-        <p class="text-white text-[1.5vw]">The baker draws the hands and legs on the gingerbread man. <br>
-            What else can be drawn on the body of the gingerbread man?</p>
-        <img src="{{ asset('assets/images/micet/n1/mybody/class1/c8.png') }}" class="w-[25vw]" />
-
-        <div class="flex justify-between items-center">
-            <p class="text-[1.5vw] text-white">What is missing on the face of the gingerbread man? <br>
-                <span class="text-[#f7b94a]">Encourage children to guess, accept all logical answers.</span>
-            </p>
-            <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[8vw]" />
-        </div>
-    </div>
-
-
-    {{-- panel 10 --}}
-    <div class="phonics-panel flex flex-col items-center space-y-[2vw]">
-        <p class="text-white text-[1.5vw]">The baker draws clothes on the gingerbread man! Great! The <br>
-            cute gingerbread man is finally done!</p>
-        <img src="{{ asset('assets/images/micet/n1/mybody/class1/c9.png') }}" class="w-[25vw]" />
-
-        <div class="flex justify-between items-center">
-            <p class="text-[1.5vw] text-white">Have you ever eaten a gingerbread man? Do you like it? Why? <br>
-                <span class="text-[#f7b94a]">Encourage children to answer according to their own experience and
-                    preference.</span>
-            </p>
-            <img src="{{ asset('assets/images/micet/n1/mybody/class1/c10.png') }}" class="h-[8vw]" />
-        </div>
-    </div>
-
-
-    {{-- panel 11 --}}
-    <div class="phonics-panel flex flex-col justify-start space-y-[2vw] h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 1: The Gingerbread Man</h1>
-
-        <ol class="list-decimal panel-ul" start="2">
-            <li>Guide children to complete the corresponding activity int he <br>
-                Thematic Activity Book.</li>
-        </ol>
-    </div>
-
-    {{-- panel 12 --}}
-    <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 1: The Gingerbread Man</h1>
-
-        <h3 class="title">Closure</h3>
-
-        <ul class="list-disc panel-ul">
-            <li>Have children recall what are the things drawn by the <br>
-                baker on the gingerbread man.</li>
-        </ul>
-
-        <h3 class="title">Evaluation</h3>
-
-        <ul class="list-disc panel-ul">
-            <li>Able to answer questions based on observation.</li>
-            <li>Able to enjoy listening to the story.</li>
-        </ul>
-
-
-    </div>
-
-
+    
+    {{-- =============================================== --}}
     {{-- All Buttons --}}
     <div id="buttons" class="absolute flex flex-row gap-6 z-90">
 

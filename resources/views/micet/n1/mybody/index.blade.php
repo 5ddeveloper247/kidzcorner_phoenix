@@ -18,33 +18,62 @@
 
 @section('content')
 
-    {{--  Starting div --}}
-    <div id="slide-board" class="flex flex-col items-center gap-y-[1vw] hidden">
-        <h1 class="text-[6vw] text-[#F7B94A] stroke">Mi Curriculum</h1>
-        <button> <img src="{{ asset('assets/images/phonicsl1/global/btns/start.png') }}" class="start-btn w-[12vw]" />
-        </button>
-    </div>
 
     {{-- Phonics l2 --}}
-    <div id="slide-board" class=" home grid grid-cols-4 gap-[2vw] mb-[2vw] hidden">
+    <div id="slide-board" class=" home grid grid-cols-4 gap-[2vw] mb-[2vw]">
 
         <a href="{{ url('/micet/n1/mybody/class1') }}">
-            <img src="{{ asset('assets/images/isteam/n1.png.png') }}" />
+            <img src="{{ asset('assets/images/micet/n1/mybody/class1.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/n2') }}">
-            <img src="{{ asset('assets/images/isteam/n2.png.png') }}" />
+        <a href="{{ url('/micet/n1/mybody/class2') }}">
+            <img src="{{ asset('assets/images/micet/n1/mybody/class2.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/k1') }}">
-            <img src="{{ asset('assets/images/isteam/k1.png.png') }}" />
+        <a href="{{ url('/micet/n1/mybody/class3') }}">
+            <img src="{{ asset('assets/images/micet/n1/mybody/class3.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/k2') }}">
-            <img src="{{ asset('assets/images/isteam/k2.png.png') }}" />
+        <a href="{{ url('/micet/n1/mybody/class4') }}">
+            <img src="{{ asset('assets/images/micet/n1/mybody/class4.png') }}" />
+        </a>
+
+        <a href="{{ url('/micet/n1/mybody/class5') }}">
+            <img src="{{ asset('assets/images/micet/n1/mybody/class5.png') }}" />
+        </a>
+
+        <a href="{{ url('/micet/n1/mybody/class6') }}">
+            <img src="{{ asset('assets/images/micet/n1/mybody/class6.png') }}" />
+        </a>
+
+        <a href="{{ url('/micet/n1/mybody/class7') }}">
+            <img src="{{ asset('assets/images/micet/n1/mybody/class7.png') }}" />
+        </a>
+
+        <a href="{{ url('/micet/n1/mybody/class8') }}">
+            <img src="{{ asset('assets/images/micet/n1/mybody/class8.png') }}" />
         </a>
 
     </div>
+
+
+    {{-- Phonics l2 --}}
+    <div id="slide-board" class="first grid grid-cols-3 gap-[2vw] mb-[2vw] hidden">
+
+        <a href="{{ url('/micet/n1/mybody/class9') }}">
+            <img src="{{ asset('assets/images/micet/n1/mybody/class9.png') }}" />
+        </a>
+
+        <a href="{{ url('/micet/n1/mybody/class10') }}">
+            <img src="{{ asset('assets/images/micet/n1/mybody/class10.png') }}" />
+        </a>
+
+        <a href="{{ url('/micet/n1/mybody/tables') }}">
+            <img src="{{ asset('assets/images/micet/n1/mybody/tables.png') }}" />
+        </a>
+
+    </div>
+
 
 
     {{-- All Buttons --}}
@@ -81,20 +110,23 @@
 
         document.addEventListener("DOMContentLoaded", () => {
             const slides = document.querySelectorAll("#slide-board");
-            const startBtn = document.querySelector(".start-btn");
             const nextBtn = document.getElementById("next-btn");
             const doneBtn = document.getElementById("done-btn");
             const returnButton = document.getElementById("returnButton");
-            const homeButton = document.getElementById("homeButton");
 
             let currentSlide = 0;
 
-            // ✅ Restore last slide from sessionStorage
-            // const savedSlide = sessionStorage.getItem("phonics_l2_slide");
-            // if (savedSlide !== null) {
-            //     currentSlide = parseInt(savedSlide);
-            //     sessionStorage.removeItem("phonics_l2_slide");
-            // }
+            // ✅ Only restore if we came back from a lesson link (not from parent)
+            const savedSlide = sessionStorage.getItem("micet_n1_mybody_slide");
+            const cameFromLesson = sessionStorage.getItem("micet_n1_mybody_from_lesson");
+
+            if (savedSlide !== null && cameFromLesson === "1") {
+                currentSlide = parseInt(savedSlide);
+            }
+
+            // Always clear after reading
+            sessionStorage.removeItem("micet_n1_mybody_slide");
+            sessionStorage.removeItem("micet_n1_mybody_from_lesson");
 
             function showSlide(index) {
                 slides.forEach((slide, i) => {
@@ -113,10 +145,7 @@
                     }
                 }
 
-                if (index === 0) {
-                    nextBtn.classList.add("hidden");
-                    doneBtn.classList.add("hidden");
-                } else if (index === slides.length - 1) {
+                if (index === slides.length - 1) {
                     nextBtn.classList.add("hidden");
                     doneBtn.classList.remove("hidden");
                 } else {
@@ -125,19 +154,13 @@
                 }
             }
 
-            // ✅ Save slide index before navigating away via any lesson link
+            // ✅ Save slide + flag only when clicking a lesson link
             document.querySelectorAll("#slide-board a").forEach(link => {
                 link.addEventListener("click", () => {
-                    sessionStorage.setItem("phonics_l2_slide", currentSlide);
+                    sessionStorage.setItem("micet_n1_mybody_slide", currentSlide);
+                    sessionStorage.setItem("micet_n1_mybody_from_lesson", "1");
                 });
             });
-
-            if (startBtn) {
-                startBtn.addEventListener("click", () => {
-                    currentSlide = 1;
-                    showSlide(currentSlide);
-                });
-            }
 
             if (nextBtn) {
                 nextBtn.addEventListener("click", () => {
@@ -164,7 +187,6 @@
                 });
             }
 
-            // ✅ Initialize with restored or default slide
             showSlide(currentSlide);
         });
     </script>

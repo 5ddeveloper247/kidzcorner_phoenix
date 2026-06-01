@@ -26,23 +26,29 @@
     </div>
 
     {{-- Phonics l2 --}}
-    <div id="slide-board" class=" home grid grid-cols-4 gap-[2vw] mb-[2vw] hidden">
+    <div id="slide-board" class=" home grid grid-cols-2 gap-[2vw] mb-[2vw] hidden">
 
-        <a href="{{ url('/micet/n1') }}">
-            <img src="{{ asset('assets/images/isteam/n1.png.png') }}" />
+       <a href="{{ url ('/micet/n1/index') }}" style="background-image: url('{{ asset('/assets/images/pptimages/n1.png') }}');"
+            class=" bg-no-repeat bg-contain bg-center w-[15vw] h-[13vw] relative transition hover:brightness-110 ">
+            <p class="text-[#AF6E39] text-[2.5vw] absolute top-[2.5vw] right-[2vw]">N1</p>
         </a>
 
-        <a href="{{ url('/micet/n2') }}">
-            <img src="{{ asset('assets/images/isteam/n2.png.png') }}" />
+        <a href="{{ url ('/micet/n2/index') }}" style="background-image: url('{{ asset('/assets/images/pptimages/n2.png') }}');"
+            class="bg-no-repeat bg-contain bg-center w-[15vw] h-[13vw] relative transition hover:brightness-110 ">
+            <p class="text-[#AF6E39] text-[2.5vw] absolute top-[3.3vw] left-[4vw]">N2</p>
         </a>
 
-        <a href="{{ url('/micet/k1') }}">
-            <img src="{{ asset('assets/images/isteam/k1.png.png') }}" />
+        <a href="{{ url ('/micet/k1/index') }}" style="background-image: url('{{ asset('/assets/images/pptimages/k1.png') }}');"
+            class="bg-no-repeat bg-contain bg-center w-[15vw] h-[13vw] relative transition hover:brightness-110 ">
+            <p class="text-[#AF6E39] text-[2.5vw] absolute top-[3vw] right-[2vw]">K1</p>
         </a>
 
-        <a href="{{ url('/micet/k2') }}">
-            <img src="{{ asset('assets/images/isteam/k2.png.png') }}" />
+
+        <a href="{{ url ('/micet/k2/index') }}" style="background-image: url('{{ asset('/assets/images/pptimages/k2.png') }}');"
+            class="bg-no-repeat bg-contain bg-center w-[15vw] h-[13vw] relative transition hover:brightness-110 ">
+            <p class="text-[#AF6E39] text-[2.5vw] absolute top-[4vw] left-[3.8vw]">K2</p>
         </a>
+        
 
     </div>
 
@@ -51,10 +57,10 @@
     <button class="mt-[2vw] absolute bottom-[1vw]" id="next-btn">
         <img src="{{ asset('assets/images/phonicsl1/global/btns/next-btn.png') }}" class="w-[10vw]" />
     </button>
-
+{{-- 
     <button class="mt-[2vw] absolute bottom-[1vw] hidden" id="done-btn">
         <img src="{{ asset('assets/images/phonicsl1/global/btns/done.png') }}" class="w-[10vw]" />
-    </button>
+    </button> --}}
 
 
     <div id="buttons" class="absolute flex flex-row gap-6 z-90">
