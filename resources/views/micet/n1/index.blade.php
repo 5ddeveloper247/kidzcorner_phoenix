@@ -151,7 +151,7 @@
 
 @push('script')
     <script>
-        document.body.dataset.homeRoute = "{{ url('/phonics/l2') }}";
+        document.body.dataset.homeRoute = "{{ url('/micet') }}";
 
         document.addEventListener("DOMContentLoaded", () => {
             const slides = document.querySelectorAll("#slide-board");
