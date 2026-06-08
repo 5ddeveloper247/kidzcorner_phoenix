@@ -31,7 +31,8 @@
             font-size: 1.4vw;
             text-align: left;
         }
-        ol{
+
+        ol {
             width: 47vw;
         }
     </style>
@@ -41,503 +42,336 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: I Can Hear</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Vegetables and Fruits Group</h1>
         <div class="flex ">
             <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
             <img src="{{ asset('assets/images/micet/n1/mybody/class2/c1.png') }}" class="h-[12vw]" />
         </div>
 
-
         <h3 class="ptitle">Objectives:</h3>
 
-        <ul class="list-disc panel-ul">
-            <li>Understand that our ears enable us to hear sounds</li>
-            <li>Express what sounds they like and dislike to hear</li>
+        <ul class="list-disc panel-ul w-[45vw]">
+            <li>To identify some common vegetables and fruits</li>
+            <li>To know that most fruits are sweet and can be eaten raw</li>
+            <li>To know that food from the vegetables and fruits group
+                promotes good digestive system and regular bowel
+                movement</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
-    <div class="phonics-panel flex flex-col justify-start space-y-[2vw] h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: I Can Hear</h1>
+    <div class="phonics-panel flex flex-col justify-start space-y-[5vw] h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Vegetables and Fruits Group</h1>
 
-        <h3 class="ptitle mt-[5vw]">Preparations</h3>
+        <div class="space-y-[2vw]">
+            <h3 class="ptitle">Preparations</h3>
 
-        <ul class="list-disc panel-ul">
-            <li>Thematic Activity Book</li>
-        </ul>
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Thematic Activity Book</li>
+                <li>Leafy vegetables, Chinese cabbage, carrot, tomato,
+                    cucumber, potato, apple, orange, grapes, watermelon
+                    and banana (let children observe them while looking at
+                    the pictures)</li>
+            </ul>
+        </div>
     </div>
 
 
     {{-- panel 3 --}}
-    <div class="phonics-panel flex flex-col space-y-[1vw] items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: I Can Hear</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw] items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Vegetables and Fruits Group</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
-            <ol class="list-decimal panel-ul">
-                <li>Ask children: “”Where are the ears of the gingerbread man?”” Have the children
-                    point to the ears.</li>
+            <ol class="list-decimal panel-ul w-[45vw]">
+                <li>Ask children: "Besides the rice and noodles group and meat and seafood
+                    group, what other food do you eat everyday?"</li>
+                <li>Tell children that they are going to identify another group of food that we
+                    eat everyday.</li>
             </ol>
         </div>
-
-        <img src="{{ asset('assets/images/micet/n1/mybody/class1/c2.png') }}" class="h-[20vw]" />
     </div>
 
 
     {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col space-y-[1vw] items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: I Can Hear</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw] items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Vegetables and Fruits Group</h1>
 
-        <div class="text-start">
-            <ol class="list-decimal panel-ul" start="2">
-                <li>Ask children: "Where are your eards?" "How many eyes do you have?" Have
-                    children point to their own ears. Tell them that everyone has two ears. Point to
-                    the ears and guide children in counting.</li>
-            </ol>
-        </div>
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Ask children: "What is this?" "Have you seen it before?" "What is its colour
+                and shape?" "What food can it be made into?"</li>
+        </ol>
 
-        <img src="{{ asset('assets/images/micet/n1/mybody/class3/c1.png') }}" class="h-[15vw]" />
-        <h5 class="text-[#f7b94a] text-[1.7vw]">ears</h5>
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c1.png') }}" class="h-[16vw]" />
+        <h5 class="text-[#f7b94a] text-[1.7vw]">Choy Sum <br> <span class="text-[1.2vw]">(Chinese Flowering Cabbage)</span>
+        </h5>
     </div>
 
 
     {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col space-y-[1vw] items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: I Can Hear</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw] items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Vegetables and Fruits Group</h1>
 
-        <div class="text-start">
-            <ol class="list-decimal panel-ul" start="3">
-                <li>Ask children: "What will happen if we have no ears?"</li>
-                <li>Have children do an experiment to confirm the functions of the ears.</li>
-            </ol>
-        </div>
+        <ol class="list-decimal panel-ul w-[45vw]" start="4">
+            <li>Choy Sum can be cooked with boiling water, such as boiled Choy Sum!
+                Have you ever eaten boiled Choy Sum? Do you like to eat it?</li>
+        </ol>
 
-        <img src="{{ asset('assets/images/micet/n1/mybody/class3/c1.png') }}" class="h-[15vw]" />
-        <h5 class="text-[#f7b94a] text-[1.7vw]">ears</h5>
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c2.png') }}" class="w-[30vw]" />
+        <h5 class="text-[#f7b94a] text-[1.7vw]">boiled Choy Sum</h5>
     </div>
 
 
     {{-- panel 6 --}}
-    <div class="phonics-panel flex flex-col space-y-[2vw] justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: I Can Hear</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw] items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Vegetables and Fruits Group</h1>
 
-        <ol class="list-decimal panel-ul" start="5">
-            <li>Have children cover their ears with their hands. Teacher can use a
-                handkerchief to cover her mouth and speak a short sentence (e.g. Let's sing
-                together!). Let the children take their hands off their ears. Ask them whether
-                they heard what was said.</li>
-            <li>Teacher repeats previous actions and then asks children again whether they
-                heard what was said. Let the children say what they hear.</li>
-            <li>Tell children that without ears, they will not be able to hear anything a person
-                says.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="5">
+            <li>Ask children: “”How is Choy Sum boiled?””</li>
         </ol>
+
+        <div class="flex items-center gap-[2vw]">
+            <div>
+                <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c1.png') }}" class="h-[17vw]" />
+                <h5 class="text-[#f7b94a] text-[1.7vw]">Choy Sum</h5>
+            </div>
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class1/arrow.png') }}" class="w-[1.5vw]" />
+            <div>
+                <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c2.png') }}" class="w-[30vw]" />
+                <h5 class="text-[#f7b94a] text-[1.7vw]">boiled Choy Sum</h5>
+            </div>
+        </div>
     </div>
 
-    {{-- panel 7 --}}
-    <div class="phonics-panel flex flex-col space-y-[2vw] justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: I Can Hear</h1>
 
-        <ol class="list-decimal panel-ul" start="8">
-            <li>Let the children cover their ears with their hands. Click on the speaker. Now
-                let the children take their hands off their ears. Ask them whether they heard
-                the sound that was played.</li>
-            <li>Click on the speaker again, ask children if they can hear the sound. Have
-                children guess what the sound is.</li>
+    {{-- panel 7 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw] items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Vegetables and Fruits Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="6">
+            <li>Click on the video, have children look at the Choy Sum boiling process and talk
+                about it.</li>
         </ol>
 
-        <button id="sound-btn" class="w-[5vw]">
-            <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
-        </button>
+        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/n1/nutrition/class3/v1.mp4') }}" type="video/mp4">
+        </video>
     </div>
 
 
     {{-- panel 8 --}}
-    <div class="phonics-panel flex flex-col space-y-[2vw] justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: I Can Hear</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw] items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Vegetables and Fruits Group</h1>
 
-        <ol class="list-decimal panel-ul" start="10">
-            <li>Ask children: "Now, do you know the functions of our ears?" Guide children to
-                understand that our ears enable us to hear sounds. Without our ears, we will
-                not be able to hear anything.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="7">
+            <li>Ask children: "What is this?" "Have you seen it before?" "What is its colour
+                and shape?" "What food can it be made into?"</li>
         </ol>
+
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c3.png') }}" class="w-[20vw]" />
+        <h5 class="text-[#f7b94a] text-[1.7vw]">Chinese White Cabbage <br> <span class="text-[1.2vw]">(Napa Cabbage)</span>
+        </h5>
     </div>
 
-    {{-- panel 9 --}}
-    <div class="phonics-panel flex flex-col space-y-[2vw] justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: I Can Hear</h1>
 
-        <ol class="list-decimal panel-ul" start="8">
-            <li>Let the children cover their ears with their hands. Click on the speaker. Now
-                let the children take their hands off their ears. Ask them whether they heard
-                the sound that was played.</li>
-            <li>Click on the speaker again, ask children if they can hear the sound. Have
-                children guess what the sound is.</li>
+    {{-- panel 9 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw] items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Vegetables and Fruits Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="8">
+            <li>Chinese white cabbage can be cooked with oil, such as stir-fried Chinese
+                white cabbage. Have you ever eaten it? Do you like to eat it?</li>
         </ol>
 
-        <button id="sound-btn" class="w-[5vw]">
-            <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
-        </button>
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c4.png') }}" class="w-[30vw]" />
+        <h5 class="text-[#f7b94a] text-[1.7vw]">Chinese White Cabbage</h5>
     </div>
 
 
     {{-- panel 10 --}}
-    <div class="phonics-panel flex flex-col space-y-[2vw] justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: I Can Hear</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw] items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Vegetables and Fruits Group</h1>
 
-        <ol class="list-decimal panel-ul" start="10">
-            <li>Ask children: "Now, do you know the functions of our ears?" Guide children to
-                understand that our ears enable us to hear sounds. Without our ears, we will
-                not be able to hear anything.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="9">
+            <li>Ask children: "What is this?" "Have you seen it before?" "What is its colour
+                and shape?" "What food can it be made into?"</li>
         </ol>
+
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c5.png') }}" class="w-[35vw]" />
+        <h5 class="text-[#f7b94a] text-[1.7vw]">Carrot</h5>
     </div>
 
 
     {{-- panel 11 --}}
-    <div class="phonics-panel flex flex-col space-y-[2vw] justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: I Can Hear</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw] items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Vegetables and Fruits Group</h1>
 
-        <ol class="list-decimal panel-ul" start="8">
-            <li>Let the children cover their ears with their hands. Click on the speaker. Now
-                let the children take their hands off their ears. Ask them whether they heard
-                the sound that was played.</li>
-            <li>Click on the speaker again, ask children if they can hear the sound. Have
-                children guess what the sound is.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="10">
+            <li>Carrot can be cooked with other vegetables, such as vegetable soup.
+                Have you ever had vegetable soup? Do you like it?</li>
         </ol>
 
-        <button id="sound-btn" class="w-[5vw]">
-            <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
-        </button>
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c6.png') }}" class="w-[30vw]" />
+        <h5 class="text-[#f7b94a] text-[1.7vw]">vegetable soup</h5>
     </div>
 
 
     {{-- panel 12 --}}
-    <div class="phonics-panel flex flex-col space-y-[2vw] justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: I Can Hear</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw] items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Vegetables and Fruits Group</h1>
 
-        <ol class="list-decimal panel-ul" start="10">
-            <li>Ask children: "Now, do you know the functions of our ears?" Guide children to
-                understand that our ears enable us to hear sounds. Without our ears, we will
-                not be able to hear anything.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="11">
+            <li>Ask children: "What is this?" "Have you seen it before?" "What is its colour
+                and shape?" "What food can it be made into?"</li>
         </ol>
+
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c7.png') }}" class="w-[30vw]" />
+        <h5 class="text-[#f7b94a] text-[1.7vw]">Tomato</h5>
     </div>
 
 
     {{-- panel 13 --}}
-    <div class="phonics-panel flex flex-col space-y-[2vw] justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: I Can Hear</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw] items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Vegetables and Fruits Group</h1>
 
-        <ol class="list-decimal panel-ul" start="11">
-            <li>Click on the speaker, ask children whether they heard what was played.
-                Have children guess what the sound is.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="12">
+            <li>Tomato can be crushed in a pot, then cooked with water and egg, such as
+                tomato egg soup. Have you ever had tomato egg soup? Do you like it?</li>
         </ol>
 
-        <button id="sound-btn" class="w-[5vw]">
-            <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
-        </button>
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c8.png') }}" class="w-[30vw]" />
+        <h5 class="text-[#f7b94a] text-[1.7vw]">Tomato</h5>
     </div>
 
 
     {{-- panel 14 --}}
-    <div class="phonics-panel flex flex-col space-y-[2vw] justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: I Can Hear</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw] items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Vegetables and Fruits Group</h1>
 
-        <ol class="list-decimal panel-ul" start="12">
-            <li>Click on the speaker, ask children whether they heard what was played.
-                Have children guess what the sound is.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="13">
+            <li>Ask children: "What is this?" "Have you seen it before?" "What is its colour
+                and shape?" "What food can it be made into?"</li>
         </ol>
 
-        <button id="sound-btn" class="w-[5vw]">
-            <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
-        </button>
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c9.png') }}" class="h-[17vw]" />
+        <h5 class="text-[#f7b94a] text-[1.7vw]">cucumber</h5>
     </div>
 
 
     {{-- panel 15 --}}
-    <div class="phonics-panel flex flex-col space-y-[2vw] justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: I Can Hear</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw] items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Vegetables and Fruits Group</h1>
 
-        <ol class="list-decimal panel-ul" start="13">
-            <li>Click on the speaker, ask children whether they heard what was played.
-                Have children guess what the sound is.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="14">
+            <li>Cucumber can be cut in slices and placed in between slices of bread,
+                such as sandwich. Have you ever eaten a sandwich? Do you like to eat it?</li>
         </ol>
 
-        <button id="sound-btn" class="w-[5vw]">
-            <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
-        </button>
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c10.png') }}" class="w-[30vw]" />
+        <h5 class="text-[#f7b94a] text-[1.7vw]">sandwich</h5>
     </div>
 
 
     {{-- panel 16 --}}
-    <div class="phonics-panel flex flex-col space-y-[2vw] justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: I Can Hear</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw] items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Vegetables and Fruits Group</h1>
 
-        <ol class="list-decimal panel-ul" start="14">
-            <li>Click on the speaker, ask children whether they heard what was played.
-                Have children guess what the sound is.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="15">
+            <li>Ask children: "What is this?" "Have you seen it before?" "What is its colour
+                and shape?" "What food can it be made into?"</li>
         </ol>
 
-        <button id="sound-btn" class="w-[5vw]">
-            <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
-        </button>
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c11.png') }}" class="w-[26vw]" />
+        <h5 class="text-[#f7b94a] text-[1.7vw]">potato</h5>
     </div>
 
 
     {{-- panel 17 --}}
-    <div class="phonics-panel flex flex-col space-y-[2vw] justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: I Can Hear</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw] items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Vegetables and Fruits Group</h1>
 
-        <ol class="list-decimal panel-ul" start="15">
-            <li>Click on the speaker, ask children whether they heard what was played.
-                Have children guess what the sound is.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="16">
+            <li>Potato can be boiled and then mashed, such as mashed potato. Have you
+                ever eaten mashed potato? Do you like to eat it?</li>
         </ol>
 
-        <button id="sound-btn" class="w-[5vw]">
-            <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
-        </button>
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c12.png') }}" class="w-[30vw]" />
+        <h5 class="text-[#f7b94a] text-[1.7vw]">mashed potato</h5>
     </div>
 
 
     {{-- panel 18 --}}
-    <div class="phonics-panel flex flex-col space-y-[2vw] justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: I Can Hear</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw] items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Vegetables and Fruits Group</h1>
 
-        <ol class="list-decimal panel-ul" start="16">
-            <li>Click on the speaker, ask children whether they heard what was played.
-                Have children guess what the sound is.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="17">
+            <li>Tell children that these are vegetables. Have children name each of them.</li>
         </ol>
 
-        <button id="sound-btn" class="w-[5vw]">
-            <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
-        </button>
+        <div class="grid grid-cols-3 gap-[.5vw] items-end">
+            <div class="flex flex-col items-center">
+                <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c1.png') }}" class="h-[10vw]" />
+                <h5 class="text-[#f7b94a] text-[1.7vw]">Choy Sum</h5>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c3.png') }}" class="w-[10vw]" />
+                <h5 class="text-[#f7b94a] text-[1.7vw]">Chine White Cabbage</h5>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c5.png') }}" class="w-[15vw]" />
+                <h5 class="text-[#f7b94a] text-[1.7vw]">carrot</h5>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c7.png') }}" class="w-[10vw]" />
+                <h5 class="text-[#f7b94a] text-[1.7vw]">tomato</h5>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c9.png') }}" class="h-[8vw]" />
+                <h5 class="text-[#f7b94a] text-[1.7vw]">cucumber</h5>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c11.png') }}" class="w-[12vw]" />
+                <h5 class="text-[#f7b94a] text-[1.7vw]">potato</h5>
+            </div>
+        </div>
     </div>
 
 
     {{-- panel 19 --}}
-    <div class="phonics-panel flex flex-col space-y-[2vw] justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: I Can Hear</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw] items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Vegetables and Fruits Group</h1>
 
-        <ol class="list-decimal panel-ul" start="17">
-            <li>Click on the speaker, ask children whether they heard what was played.
-                Have children guess what the sound is.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="18">
+            <li>Ask children: "Do you know what is a fruit?" "Name some fruits that you
+                know."</li>
+            <li>Tell children that they are going to talk about some of the common fruits.</li>
         </ol>
-
-        <button id="sound-btn" class="w-[5vw]">
-            <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
-        </button>
     </div>
 
 
     {{-- panel 20 --}}
-    <div class="phonics-panel flex flex-col space-y-[2vw] justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: I Can Hear</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw] items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Vegetables and Fruits Group</h1>
 
-        <ol class="list-decimal panel-ul" start="18">
-            <li>Click on the speaker, ask children whether they heard what was played.
-                Have children guess what the sound is.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="20">
+            <li>Ask children: "What is this?" "Have you seen it before?" "What is its colour
+                and shape?" "What food can it be made into?"</li>
         </ol>
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c12.png') }}" class="w-[12vw]" />
+        <h5 class="text-[#f7b94a] text-[1.7vw]">apples</h5>
     </div>
 
 
-    {{-- panel 21 --}}
-    <div class="phonics-panel flex flex-col space-y-[2vw] justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: I Can Hear</h1>
-
-        <ol class="list-decimal panel-ul" start="19">
-            <li>Ask children: "What do you hear?" (alarm clock sound)</li>
-            <li>"How does hearing the sound of an alarm clock help us?" (give us information
-                - know that it's time to wake up)</li>
-        </ol>
-
-        <button id="sound-btn" class="w-[5vw]">
-            <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
-        </button>
-    </div>
 
 
-    {{-- panel 22 --}}
-    <div class="phonics-panel flex flex-col space-y-[2vw] justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: I Can Hear</h1>
-
-        <ol class="list-decimal panel-ul" start="19">
-            <li>Ask children: "What do you hear?" (telephone sound)</li>
-            <li>"How does hearing the sound of an alarm clock help us?" (give us information
-                - know that it's time to wake up)</li>
-        </ol>
-
-        <button id="sound-btn" class="w-[5vw]">
-            <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
-        </button>
-    </div>
 
 
-    {{-- panel 23 --}}
-    <div class="phonics-panel flex flex-col space-y-[2vw] justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: I Can Hear</h1>
-
-        <ol class="list-decimal panel-ul" start="19">
-            <li>Ask children: "What do you hear?" (Fire alarm sound)</li>
-            <li>"How does hearing the sound of an alarm clock help us?" (give us information
-                - know that it's time to wake up)</li>
-        </ol>
-
-        <button id="sound-btn" class="w-[5vw]">
-            <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
-        </button>
-    </div>
-
-
-    {{-- panel 24 --}}
-    <div class="phonics-panel flex flex-col space-y-[2vw] justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: I Can Hear</h1>
-
-        <ol class="list-decimal panel-ul" start="19">
-            <li>Ask children: "What do you hear?" (weather forecast on the radio)</li>
-            <li>"How does hearing the sound of an alarm clock help us?" (give us information
-                - know that it's time to wake up)</li>
-        </ol>
-
-        <button id="sound-btn" class="w-[5vw]">
-            <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
-        </button>
-    </div>
-
-
-    {{-- panel 25 --}}
-    <div class="phonics-panel flex flex-col space-y-[2vw] justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: I Can Hear</h1>
-
-        <ol class="list-decimal panel-ul" start="19">
-            <li>Ask children: "What do you hear?" (safety announcement in train station)</li>
-            <li>"How does hearing the sound of an alarm clock help us?" (give us information
-                - know that it's time to wake up)</li>
-        </ol>
-
-        <button id="sound-btn" class="w-[5vw]">
-            <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
-        </button>
-    </div>
-
-
-    {{-- panel 26 --}}
-    <div class="phonics-panel flex flex-col space-y-[2vw] justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: I Can Hear</h1>
-
-        <ol class="list-decimal panel-ul" start="21">
-            <li>Ask children: "Do you like all the sounds that you hear? Let's find out
-                together!"</li>
-        </ol>
-    </div>
-
-
-    {{-- panel 27 --}}
-    <div class="phonics-panel flex flex-col space-y-[2vw] justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: I Can Hear</h1>
-
-        <ol class="list-decimal panel-ul" start="22">
-            <li>Ask children: "What do you hear?" "Do you like it?"</li>
-            <li>Guide children in understanding: Sometimes we like the sounds we hear and
-                sometimes we dislike the sounds we hear.</li>
-        </ol>
-
-        <button id="sound-btn" class="w-[5vw]">
-            <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
-        </button>
-    </div>
-
-
-    {{-- panel 28 --}}
-    <div class="phonics-panel flex flex-col space-y-[2vw] justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: I Can Hear</h1>
-
-        <ol class="list-decimal panel-ul" start="24">
-            <li>Ask children: "What do you hear?" "Do you like it?"</li>
-            <li>Guide children in understanding: Sometimes we like the sounds we hear and
-                sometimes we dislike the sounds we hear.</li>
-        </ol>
-
-        <button id="sound-btn" class="w-[5vw]">
-            <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
-        </button>
-    </div>
-
-
-    {{-- panel 29 --}}
-    <div class="phonics-panel flex flex-col space-y-[2vw] justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: I Can Hear</h1>
-
-        <ol class="list-decimal panel-ul" start="26">
-            <li>Ask children: "What do you hear?" "Do you like it?"</li>
-            <li>Guide children in understanding: Sometimes we like the sounds we hear and
-                sometimes we dislike the sounds we hear.</li>
-        </ol>
-
-        <button id="sound-btn" class="w-[5vw]">
-            <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
-        </button>
-    </div>
-
-
-    {{-- panel 30 --}}
-    <div class="phonics-panel flex flex-col space-y-[2vw] justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: I Can Hear</h1>
-
-        <ol class="list-decimal panel-ul" start="28">
-            <li>Ask children: "What do you hear?" "Do you like it?"</li>
-            <li>Guide children in understanding: Sometimes we like the sounds we hear and
-                sometimes we dislike the sounds we hear.</li>
-        </ol>
-
-        <button id="sound-btn" class="w-[5vw]">
-            <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
-        </button>
-    </div>
-
-
-    {{-- panel 31 --}}
-    <div class="phonics-panel flex flex-col space-y-[2vw] justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: I Can Hear</h1>
-
-        <ol class="list-decimal panel-ul" start="30">
-            <li>Ask children: "What do you hear?" "Do you like it?"</li>
-            <li>Guide children in understanding: Sometimes we like the sounds we hear and
-                sometimes we dislike the sounds we hear.</li>
-        </ol>
-
-        <button id="sound-btn" class="w-[5vw]">
-            <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
-        </button>
-    </div>
-
-
-    {{-- panel 32 --}}
-    <div class="phonics-panel flex flex-col space-y-[2vw] justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: I Can Hear</h1>
-
-        <ol class="list-decimal panel-ul" start="32">
-            <li>Teacher concludes: Our ears do not just enable us to hear sounds, but also
-                give us useful information. Sometimes we like the sounds we hear and
-                sometimes we dislike the sounds we hear.</li>
-            <li>Ask children: "Are ears important?" Tell children that ears are important
-                parts of our body and we must take good care of them.</li>
-        </ol>
-    </div>
-
-
-    {{-- panel 33 --}}
-    <div class="phonics-panel flex flex-col space-y-[2vw] justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: I Can Hear</h1>
-
-        <ol class="list-decimal panel-ul" start="34">
-            <li>Guide children to complete the corresponding activity in the Thematic
-                Activity Book.</li>
-        </ol>
-    </div>
 
 
     {{-- panel 34 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 3: I Can Hear</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Vegetables and Fruits Group</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
@@ -560,7 +394,7 @@
 
     {{-- panel 35 --}}
     <div class="phonics-panel flex flex-col items-center justify-start h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 3: I Can Hear</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Vegetables and Fruits Group</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Extension</h3>
@@ -629,8 +463,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n1/mybody/index') }}";
-            const doneURL = "{{ url('/micet/n1/mybody/index') }}";
+            const returnURL = "{{ url('/micet/n1/nutrition/index') }}";
+            const doneURL = "{{ url('/micet/n1/nutrition/index') }}";
 
             // Track current position
             let currentSlide = 0;

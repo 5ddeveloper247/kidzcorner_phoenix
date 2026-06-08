@@ -23,35 +23,35 @@
     <div id="slide-board" class=" home grid grid-cols-4 gap-[2vw] mb-[2vw]">
 
         <a href="{{ url('/micet/n1/nutrition/class1') }}">
-            <img src="{{ asset('assets/images/micet/n1/nutrtion/class1.png') }}" />
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class1.png') }}" />
         </a>
 
         <a href="{{ url('/micet/n1/nutrition/class2') }}">
-            <img src="{{ asset('assets/images/micet/n1/nutrtion/class2.png') }}" />
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class2.png') }}" />
         </a>
 
         <a href="{{ url('/micet/n1/nutrition/class3') }}">
-            <img src="{{ asset('assets/images/micet/n1/nutrtion/class3.png') }}" />
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class3.png') }}" />
         </a>
 
         <a href="{{ url('/micet/n1/nutrition/class4') }}">
-            <img src="{{ asset('assets/images/micet/n1/nutrtion/class4.png') }}" />
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class4.png') }}" />
         </a>
 
         <a href="{{ url('/micet/n1/nutrition/class5') }}">
-            <img src="{{ asset('assets/images/micet/n1/nutrtion/class5.png') }}" />
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class5.png') }}" />
         </a>
 
         <a href="{{ url('/micet/n1/nutrition/class6') }}">
-            <img src="{{ asset('assets/images/micet/n1/nutrtion/class6.png') }}" />
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class6.png') }}" />
         </a>
 
         <a href="{{ url('/micet/n1/nutrition/class7') }}">
-            <img src="{{ asset('assets/images/micet/n1/nutrtion/class7.png') }}" />
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class7.png') }}" />
         </a>
 
         <a href="{{ url('/micet/n1/nutrition/class8') }}">
-            <img src="{{ asset('assets/images/micet/n1/nutrtion/class8.png') }}" />
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class8.png') }}" />
         </a>
 
     </div>
@@ -61,15 +61,15 @@
     <div id="slide-board" class="first grid grid-cols-3 gap-[2vw] mb-[2vw] hidden">
 
         <a href="{{ url('/micet/n1/nutrition/class9') }}">
-            <img src="{{ asset('assets/images/micet/n1/nutrtion/class9.png') }}" />
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class9.png') }}" />
         </a>
 
         <a href="{{ url('/micet/n1/nutrition/class10') }}">
-            <img src="{{ asset('assets/images/micet/n1/nutrtion/class10.png') }}" />
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class10.png') }}" />
         </a>
 
         <a href="{{ url('/micet/n1/nutrition/tables') }}">
-            <img src="{{ asset('assets/images/micet/n1/nutrtion/tables.png') }}" />
+            <img src="{{ asset('assets/images/micet/n1/nutrition/tables.png') }}" />
         </a>
 
     </div>
@@ -117,16 +117,16 @@
             let currentSlide = 0;
 
             // ✅ Only restore if we came back from a lesson link (not from parent)
-            const savedSlide = sessionStorage.getItem("micet_n1_nutrtion_slide");
-            const cameFromLesson = sessionStorage.getItem("micet_n1_nutrtion_from_lesson");
+            const savedSlide = sessionStorage.getItem("micet_n1_nutrition_slide");
+            const cameFromLesson = sessionStorage.getItem("micet_n1_nutrition_from_lesson");
 
             if (savedSlide !== null && cameFromLesson === "1") {
                 currentSlide = parseInt(savedSlide);
             }
 
             // Always clear after reading
-            sessionStorage.removeItem("micet_n1_nutrtion_slide");
-            sessionStorage.removeItem("micet_n1_nutrtion_from_lesson");
+            sessionStorage.removeItem("micet_n1_nutrition_slide");
+            sessionStorage.removeItem("micet_n1_nutrition_from_lesson");
 
             function showSlide(index) {
                 slides.forEach((slide, i) => {
@@ -157,8 +157,8 @@
             // ✅ Save slide + flag only when clicking a lesson link
             document.querySelectorAll("#slide-board a").forEach(link => {
                 link.addEventListener("click", () => {
-                    sessionStorage.setItem("micet_n1_nutrtion_slide", currentSlide);
-                    sessionStorage.setItem("micet_n1_nutrtion_from_lesson", "1");
+                    sessionStorage.setItem("micet_n1_nutrition_slide", currentSlide);
+                    sessionStorage.setItem("micet_n1_nutrition_from_lesson", "1");
                 });
             });
 

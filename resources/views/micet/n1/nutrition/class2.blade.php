@@ -38,7 +38,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 1: I Can See</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Meat and Seafood Group</h1>
         <div class="flex ">
             <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
             <img src="{{ asset('assets/images/micet/n1/mybody/class2/c1.png') }}" class="h-[12vw]" />
@@ -47,461 +47,888 @@
 
         <h3 class="ptitle">Objectives:</h3>
 
-        <ul class="list-disc panel-ul">
-            <li>Understand that our eyes enable us to see the colours and <br>
-                shapes of objects</li>
-            <li>Express what they like and dislike to see</li>
+        <ul class="list-disc panel-ul w-[45vw]">
+            <li>Identify some food from the rice and noodles group</li>
+            <li>Know that food from the meat and seafood group helps to
+                build and strengthen our muscles for growing. </li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
-    <div class="phonics-panel flex flex-col items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: I Can See</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Meat and Seafood Group</h1>
 
-        <div class="text-start">
+        <div class="space-y-[2vw]">
             <h3 class="ptitle">Preparations</h3>
 
-            <ul class="list-decimal panel-ul">
-                <li>Ask children: “”What is this?”” “”Where are the eyes?”” Have children pont <br>
-                    to the eyes.</li>
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Thematic Activity Book</li>
+                <li>Fish, prawn, chicken, pork and beef (let children observe
+                    them while looking at the pictures)</li>
             </ul>
         </div>
-        <img src="{{ asset('assets/images/micet/n1/mybody/class1/c2.png') }}" class="h-[20vw]" />
-
     </div>
 
 
     {{-- panel 3 --}}
-    <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: I Can See</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Meat and Seafood Group</h1>
 
-        <ol class="list-decimal panel-ul" start="2">
-            <li>Ask children: "Where are your eyes?" "How many eyes do you have?" Have
-                children point to their own eyes. Tell them that everyone has two eyes. Point to
-                the eyes and guide children in counting.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n1/mybody/class2/c2.png') }}" class="h-[15vw]" />
-        <h5 class="text-[#f7b94a] text-[1.7vw]">eyes</h5>
+        <div class="text-start space-y-[1vw]">
+            <h3 class="ptitle">Lesson Development</h3>
+
+            <ul class="list-decimal panel-ul w-[45vw]">
+                <li>Ask children: "Besides the rice and noodles group, what other food will you
+                    eat everyday?"</li>
+                <li>Tell children that they are going to identify another group of food that we
+                    eat everyday.</li>
+            </ul>
+        </div>
     </div>
 
 
     {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: I Can See</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Meat and Seafood Group</h1>
 
-        <ol class="list-decimal panel-ul" start="3">
-            <li>Ask children: "What will happen if we have no eyes?"</li>
-            <li>Have children do an experiment to confirm the functions of the eyes.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Ask children: "What is this?" "Have you seen it before?" "What is its colour
+                and shape?" "What food can it be made into?"</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n1/mybody/class2/c2.png') }}" class="h-[15vw]" />
-        <h5 class="text-[#f7b94a] text-[1.7vw]">eyes</h5>
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c1.png') }}" class="w-[30vw]" />
+        <h5 class="text-[#f7b94a] text-[1.7vw]">fish</h5>
     </div>
 
 
     {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: I Can See</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Meat and Seafood Group</h1>
 
-        <ol class="list-decimal panel-ul" start="5">
-            <li>Have children close their eyes.</li>
-            <li>Click to display picture, ask children whether they know what picture has
-                been displayed.</li>
-            <li>Have children open their eyes, look at the picture and answer the questions:
-                <ul class="list-disc">
-                    <li>What are these? (circles of different sizes)</li>
-                    <li>What colour are they? (red)</li>
-                </ul>
-            </li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="4">
+            <li>Fish can be cooked with steam, such as steamed fish! Have you ever eaten
+                steamed fish? Do you like to eat steamed fish?</li>
         </ol>
-
-        <img src="{{ asset('assets/images/micet/n1/mybody/class2/c2.png') }}" class="h-[15vw] opacity-0" />
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c2.png') }}" class="w-[30vw]" />
+        <h5 class="text-[#f7b94a] text-[1.7vw]"> staemed fish</h5>
     </div>
 
 
     {{-- panel 6 --}}
-    <div class="phonics-panel flex flex-col items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: I Can See</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Meat and Seafood Group</h1>
 
-        <ol class="list-decimal panel-ul" start="8">
-            <li>Ask children: "Now, do you know the functions of our eyes?" Guide children to
-                understand that our eyes enable us to see the colours and shapes of objects.
-                Without our eyes, we will not be able to see anything.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="5">
+            <li>Ask children: “”How is fish steamed?””</li>
         </ol>
+        <div class="flex items-center gap-[1vw]">
+            <div>
+                <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c1.png') }}" class="w-[25vw]" />
+                <h5 class="text-[#f7b94a] text-[1.7vw]"> fish</h5>
+            </div>
 
-        <img src="{{ asset('assets/images/micet/n1/mybody/class2/c3.png') }}" class="w-[25vw]" />
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class1/arrow.png') }}" class="w-[1.5vw]" />
+
+            <div>
+                <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c2.png') }}" class="w-[25vw]" />
+                <h5 class="text-[#f7b94a] text-[1.7vw]"> staemed fish</h5>
+            </div>
+
+        </div>
     </div>
 
 
     {{-- panel 7 --}}
-    <div class="phonics-panel flex flex-col items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: I Can See</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Meat and Seafood Group</h1>
 
-        <ol class="list-decimal panel-ul" start="5">
-            <li>Have children close their eyes.</li>
-            <li>Click to display picture, ask children whether they know what picture has
-                been displayed.</li>
-            <li>Have children open their eyes, look at the picture and answer the questions:
-                <ul class="list-disc">
-                    <li>What are these? (square of different sizes)</li>
-                    <li>What colour are they? (green)</li>
-                </ul>
-            </li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="6">
+            <li>Click on the video, have children look at the fish steaming process and talk
+                about it.</li>
         </ol>
 
-        <img src="{{ asset('assets/images/micet/n1/mybody/class2/c2.png') }}" class="h-[15vw] opacity-0" />
+        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/n1/nutrition/class2/v1.mp4') }}" type="video/mp4">
+        </video>
     </div>
 
 
     {{-- panel 8 --}}
-    <div class="phonics-panel flex flex-col items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: I Can See</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Meat and Seafood Group</h1>
 
-        <ol class="list-decimal panel-ul" start="8">
-            <li>Ask children: "Now, do you know the functions of our eyes?" Guide children to
-                understand that our eyes enable us to see the colours and shapes of objects.
-                Without our eyes, we will not be able to see anything.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="7">
+            <li>Ask children: "What food can fish be made into?"</li>
         </ol>
 
-        <img src="{{ asset('assets/images/micet/n1/mybody/class2/c4.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c1.png') }}" class="w-[30vw]" />
+        <h5 class="text-[#f7b94a] text-[1.7vw]">fish</h5>
     </div>
 
 
     {{-- panel 9 --}}
-    <div class="phonics-panel flex flex-col items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: I Can See</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Meat and Seafood Group</h1>
 
-        <ol class="list-decimal panel-ul" start="5">
-            <li>Have children close their eyes.</li>
-            <li>Click to display picture, ask children whether they know what picture has
-                been displayed.</li>
-            <li>Have children open their eyes, look at the picture and answer the questions:
-                <ul class="list-disc">
-                    <li>What are these? (rectangle of different sizes)</li>
-                    <li>What colour are they? (blue)</li>
-                </ul>
-            </li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="8">
+            <li>Fish can be cooked with oil, such as fried fish! Have you ever eaten fried
+                fish? Do you like to eat fried fish?</li>
         </ol>
 
-        <img src="{{ asset('assets/images/micet/n1/mybody/class2/c2.png') }}" class="h-[15vw] opacity-0" />
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c3.png') }}" class="w-[30vw]" />
+        <h5 class="text-[#f7b94a] text-[1.7vw]">fried fish</h5>
     </div>
 
 
     {{-- panel 10 --}}
-    <div class="phonics-panel flex flex-col items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: I Can See</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Meat and Seafood Group</h1>
 
-        <ol class="list-decimal panel-ul" start="8">
-            <li>Ask children: "Now, do you know the functions of our eyes?" Guide children to
-                understand that our eyes enable us to see the colours and shapes of objects.
-                Without our eyes, we will not be able to see anything.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="9">
+            <li>Fish can also be cooked on a grill pan, such as grilled fish! Have you ever
+                eaten grilled fish? Do you like to eat grilled fish?</li>
         </ol>
 
-        <img src="{{ asset('assets/images/micet/n1/mybody/class2/c5.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c4.png') }}" class="w-[30vw]" />
+        <h5 class="text-[#f7b94a] text-[1.7vw]">griled fish</h5>
     </div>
 
 
     {{-- panel 11 --}}
-    <div class="phonics-panel flex flex-col items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: I Can See</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Meat and Seafood Group</h1>
 
-        <ol class="list-decimal panel-ul" start="5">
-            <li>Have children close their eyes.</li>
-            <li>Click to display picture, ask children whether they know what picture has
-                been displayed.</li>
-            <li>Have children open their eyes, look at the picture and answer the questions:
-                <ul class="list-disc">
-                    <li>What are these? (triangle of different sizes)</li>
-                    <li>What colour are they? (yellow)</li>
-                </ul>
-            </li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="10">
+            <li>Ask children: "What is this?" "Have you seen it before?" "What is its colour
+                and shape?" "What food can it be made into?"</li>
         </ol>
 
-        <img src="{{ asset('assets/images/micet/n1/mybody/class2/c2.png') }}" class="h-[15vw] opacity-0" />
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c5.png') }}" class="w-[30vw]" />
+        <h5 class="text-[#f7b94a] text-[1.7vw]">prawn</h5>
     </div>
 
 
     {{-- panel 12 --}}
-    <div class="phonics-panel flex flex-col items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: I Can See</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Meat and Seafood Group</h1>
 
-        <ol class="list-decimal panel-ul" start="8">
-            <li>Ask children: "Now, do you know the functions of our eyes?" Guide children to
-                understand that our eyes enable us to see the colours and shapes of objects.
-                Without our eyes, we will not be able to see anything.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="11">
+            <li>Prawns can be cooked with steam, such as steamed prawns. Have you
+                ever eaten steamed prawns? Do you like to eat steamed prawns?</li>
         </ol>
 
-        <img src="{{ asset('assets/images/micet/n1/mybody/class2/c6.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c6.png') }}" class="w-[30vw]" />
+        <h5 class="text-[#f7b94a] text-[1.7vw]">steamed prawns</h5>
     </div>
 
 
     {{-- panel 13 --}}
-    <div class="phonics-panel flex flex-col items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: I Can See</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Meat and Seafood Group</h1>
 
-        <ol class="list-decimal panel-ul" start="5">
-            <li>Have children close their eyes.</li>
-            <li>Click to display picture, ask children whether they know what picture has
-                been displayed.</li>
-            <li>Have children open their eyes, look at the picture and answer the questions:
-                <ul class="list-disc">
-                    <li>What colours are they? (red, yellow, green, blue, orange and white)</li>
-                    <li>What shape is it? (square)</li>
-                </ul>
-            </li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="12">
+            <li>Prawns can be cooked with oil, such as stir-fried prawns. Have you ever
+                eaten stir-fried prawns? Do you like to eat stir-fried prawns?</li>
         </ol>
 
-        <img src="{{ asset('assets/images/micet/n1/mybody/class2/c2.png') }}" class="h-[15vw] opacity-0" />
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c7.png') }}" class="w-[30vw]" />
+        <h5 class="text-[#f7b94a] text-[1.7vw]">stir-fried prawns</h5>
     </div>
 
 
     {{-- panel 14 --}}
-    <div class="phonics-panel flex flex-col items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: I Can See</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Meat and Seafood Group</h1>
 
-        <ol class="list-decimal panel-ul" start="5">
-            <li>Have children close their eyes.</li>
-            <li>Click to display picture, ask children whether they know what picture has
-                been displayed.</li>
-            <li>Have children open their eyes, look at the picture and answer the questions:
-                <ul class="list-disc">
-                    <li>What colours are they? (red, yellow, green, blue, orange and white)</li>
-                    <li>What shape is it? (circle)</li>
-                </ul>
-            </li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="13">
+            <li>Prawns can also be cooked with oil, such as fried prawns. Have you ever
+                eaten fried prawns? Do you like to eat fried prawns?</li>
         </ol>
 
-        <img src="{{ asset('assets/images/micet/n1/mybody/class2/c2.png') }}" class="h-[15vw] opacity-0" />
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c8.png') }}" class="w-[30vw]" />
+        <h5 class="text-[#f7b94a] text-[1.7vw]">fried prawns</h5>
     </div>
 
 
     {{-- panel 15 --}}
-    <div class="phonics-panel flex flex-col items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: I Can See</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Meat and Seafood Group</h1>
 
-        <ol class="list-decimal panel-ul" start="5">
-            <li>Have children close their eyes.</li>
-            <li>Click to display picture, ask children whether they know what picture has
-                been displayed.</li>
-            <li>Have children open their eyes, look at the picture and answer the questions:
-                <ul class="list-disc">
-                    <li>What colours are they? (red, yellow, green, blue, orange and white)</li>
-                    <li>What shape is it? (rectangle)</li>
-                </ul>
-            </li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="14">
+            <li>Prawns can also be cooked on a grill pan, such as grilled prawns. Have
+                you ever eaten a grilled prawn? Do you like to eat grilled prawns?</li>
         </ol>
 
-        <img src="{{ asset('assets/images/micet/n1/mybody/class2/c2.png') }}" class="h-[15vw] opacity-0" />
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c9.png') }}" class="w-[30vw]" />
+        <h5 class="text-[#f7b94a] text-[1.7vw]">grilled prawns</h5>
     </div>
 
-    {{-- panel 16 --}}
-    <div class="phonics-panel flex flex-col items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: I Can See</h1>
 
-        <ol class="list-decimal panel-ul" start="5">
-            <li>Have children close their eyes.</li>
-            <li>Click to display picture, ask children whether they know what picture has
-                been displayed.</li>
-            <li>Have children open their eyes, look at the picture and answer the questions:
-                <ul class="list-disc">
-                    <li>What colours are they? (red, yellow, green, blue, orange and white)</li>
-                    <li>What shape is it? (triangle)</li>
-                </ul>
-            </li>
+    {{-- panel 16 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Meat and Seafood Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="15">
+            <li>Ask children: "What is this?" "Have you seen it before?" "What is its colour
+                and shape?" "What food can it be made into?"</li>
         </ol>
 
-        <img src="{{ asset('assets/images/micet/n1/mybody/class2/c2.png') }}" class="h-[15vw] opacity-0" />
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c25.png') }}" class="h-[17vw]" />
+        <h5 class="text-[#f7b94a] text-[1.7vw]">chicken</h5>
     </div>
 
 
     {{-- panel 17 --}}
-    <div class="phonics-panel flex flex-col items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: I Can See</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Meat and Seafood Group</h1>
 
-        <ol class="list-decimal panel-ul" start="9">
-            <li>Tell children that our eyes enable us to see the colours and shapes of objetcs.
-                Ask them what the benefits of seeing are?
-                Let children find out together.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="16">
+            <li>Chicken can be cooked in an oven, such as roasted chicken. Have you
+                ever eaten roasted chicken? Do you like to eat roasted chicken?</li>
         </ol>
 
-        <img src="{{ asset('assets/images/micet/n1/mybody/class2/c2.png') }}" class="h-[15vw] opacity-0" />
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c10.png') }}" class="w-[30vw]" />
+        <h5 class="text-[#f7b94a] text-[1.7vw]">roasted chicken</h5>
     </div>
 
 
     {{-- panel 18 --}}
-    <div class="phonics-panel flex flex-col items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: I Can See</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Meat and Seafood Group</h1>
 
-        <ol class="list-decimal panel-ul" start="10">
-            <li>Ask children: “”What do you see?”” (a clock)</li>
-            <li>“”Hose does looking at a clock help us?”” (give us information - know what time
-                to do what thing) </li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="17">
+            <li>Ask children: “”How is chicken roasted?””</li>
         </ol>
 
-        <img src="{{ asset('assets/images/micet/n1/mybody/class2/c7.png') }}" class="w-[20vw]" />
+        <div class="flex items-center gap-[2vw]">
+            <div>
+                <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c25.png') }}" class="w-[20vw]" />
+                <h5 class="text-[#f7b94a] text-[1.7vw]">chicken</h5>
+            </div>
+
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class1/arrow.png') }}" class="w-[1.5vw]" />
+
+            <div>
+                <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c10.png') }}" class="w-[25vw]" />
+                <h5 class="text-[#f7b94a] text-[1.7vw]">roasted chicken</h5>
+            </div>
+        </div>
     </div>
 
 
     {{-- panel 19 --}}
-    <div class="phonics-panel flex flex-col items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: I Can See</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Meat and Seafood Group</h1>
 
-        <ol class="list-decimal panel-ul" start="10">
-            <li>Ask children: “”What do you see?”” (toilet signs)</li>
-            <li>“”Hose does looking at a clock help us?”” (give us information - know which toilet
-                should we use)</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="18">
+            <li>Click on the video, have children look at the chicken roasting process and
+                talk about it.</li>
         </ol>
 
-        <img src="{{ asset('assets/images/micet/n1/mybody/class2/c8.png') }}" class="w-[20vw]" />
+        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/n1/nutrition/class2/v2.mp4') }}" type="video/mp4">
+        </video>
     </div>
 
 
     {{-- panel 20 --}}
-    <div class="phonics-panel flex flex-col items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: I Can See</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Meat and Seafood Group</h1>
 
-        <ol class="list-decimal panel-ul" start="10">
-            <li>Ask children: “”What do you see?”” (a wet floor sign)</li>
-            <li>"Hose does looking at a clock help us?”” (give us information - know that the
-                floor is wet, we need to be careful in walking to avoid slipping and falling)</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="19">
+            <li>Ask children: "What other food can chicken be made into?"</li>
         </ol>
 
-        <img src="{{ asset('assets/images/micet/n1/mybody/class2/c9.png') }}" class="h-[15vw]" />
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c25.png') }}" class="w-[20vw]" />
+        <h5 class="text-[#f7b94a] text-[1.7vw]">chicken</h5>
     </div>
 
 
     {{-- panel 21 --}}
-    <div class="phonics-panel flex flex-col items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: I Can See</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Meat and Seafood Group</h1>
 
-        <ol class="list-decimal panel-ul" start="12">
-            <li>Ask children: “”Do you like all the things that you see?””
-                Let’s find out together!</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="20">
+            <li>Chicken can be cooked with oil, such as fried chicken. Have you ever
+                eaten fried chicken? Do you like to eat fried chicken?</li>
         </ol>
 
-        <img src="{{ asset('assets/images/micet/n1/mybody/class2/c9.png') }}" class="h-[15vw] opacity-0" />
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c11.png') }}" class="w-[30vw]" />
+        <h5 class="text-[#f7b94a] text-[1.7vw]">fried chicken</h5>
     </div>
 
 
     {{-- panel 22 --}}
-    <div class="phonics-panel flex flex-col items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: I Can See</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Meat and Seafood Group</h1>
 
-        <ol class="list-decimal panel-ul" start="13">
-            <li>Ask children: “”What do you see?”” “”Do you like it?””</li>
-            <li>Guide children in understanding: Sometimes we like the things that we see and
-                sometimes we dislike the things we see.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="21">
+            <li>Chicken can also be cooked in a clay pot, such as clay pot chicken. Have
+                you ever eaten clay pot chicken? Do you like to eat clay pot chicken?</li>
         </ol>
 
-        <img src="{{ asset('assets/images/micet/n1/mybody/class2/c9.png') }}" class="h-[15vw]" />
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c12.png') }}" class="w-[30vw]" />
+        <h5 class="text-[#f7b94a] text-[1.7vw]">clay pot chicken</h5>
+    </div>
+
+
+    {{-- panel 22 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Meat and Seafood Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="21">
+            <li>Chicken can also be cooked in a clay pot, such as clay pot chicken. Have
+                you ever eaten clay pot chicken? Do you like to eat clay pot chicken?</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c12.png') }}" class="w-[30vw]" />
+        <h5 class="text-[#f7b94a] text-[1.7vw]">clay pot chicken</h5>
     </div>
 
 
     {{-- panel 23 --}}
-    <div class="phonics-panel flex flex-col items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: I Can See</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Meat and Seafood Group</h1>
 
-        <ol class="list-decimal panel-ul" start="13">
-            <li>Ask children: “”What do you see?”” “”Do you like it?””</li>
-            <li>Guide children in understanding: Sometimes we like the things that we see and
-                sometimes we dislike the things we see.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="22">
+            <li>Ask children: "What is this?" "Have you seen it before?" "What is its colour
+                and shape?" "What food can it be made into?"</li>
         </ol>
 
-        <img src="{{ asset('assets/images/micet/n1/mybody/class2/c10.png') }}" class="h-[15vw]" />
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c13.png') }}" class="w-[30vw]" />
+        <h5 class="text-[#f7b94a] text-[1.7vw]">pork</h5>
     </div>
 
 
     {{-- panel 24 --}}
-    <div class="phonics-panel flex flex-col items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: I Can See</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Meat and Seafood Group</h1>
 
-        <ol class="list-decimal panel-ul" start="13">
-            <li>Ask children: “”What do you see?”” “”Do you like it?””</li>
-            <li>Guide children in understanding: Sometimes we like the things that we see and
-                sometimes we dislike the things we see.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="23">
+            <li>Pork can be cooked on fire, such as roasted pork. Have you ever eaten
+                roasted pork? Do you like to eat roasted pork?</li>
         </ol>
 
-        <img src="{{ asset('assets/images/micet/n1/mybody/class2/c11.png') }}" class="h-[15vw]" />
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c14.png') }}" class="w-[30vw]" />
+        <h5 class="text-[#f7b94a] text-[1.7vw]">roasted pork</h5>
     </div>
 
 
     {{-- panel 25 --}}
-    <div class="phonics-panel flex flex-col items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: I Can See</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Meat and Seafood Group</h1>
 
-        <ol class="list-decimal panel-ul" start="13">
-            <li>Ask children: “”What do you see?”” “”Do you like it?””</li>
-            <li>Guide children in understanding: Sometimes we like the things that we see and
-                sometimes we dislike the things we see.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="24">
+            <li>Pork can also be cooked in a pot with water, such as pork soup. Have you
+                ever tried pork soup? Do you like its taste?</li>
         </ol>
 
-        <img src="{{ asset('assets/images/micet/n1/mybody/class2/c12.png') }}" class="w-[20vw]" />
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c15.png') }}" class="w-[30vw]" />
+        <h5 class="text-[#f7b94a] text-[1.7vw]">pork soup</h5>
     </div>
 
-    {{-- panel 26 --}}
-    <div class="phonics-panel flex flex-col items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: I Can See</h1>
 
-        <ol class="list-decimal panel-ul" start="13">
-            <li>Ask children: “”What do you see?”” “”Do you like it?””</li>
-            <li>Guide children in understanding: Sometimes we like the things that we see and
-                sometimes we dislike the things we see.</li>
+    {{-- panel 26 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Meat and Seafood Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="25">
+            <li>Pork can be cooked in a pot with gravy, such as braised pork trotters. Have
+                you ever eaten them? Do you like to eat them?</li>
         </ol>
 
-        <img src="{{ asset('assets/images/micet/n1/mybody/class2/c13.png') }}" class="w-[20vw]" />
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c16.png') }}" class="w-[30vw]" />
+        <h5 class="text-[#f7b94a] text-[1.7vw]">braised pork trotters</h5>
     </div>
 
 
     {{-- panel 27 --}}
-    <div class="phonics-panel flex flex-col items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: I Can See</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Meat and Seafood Group</h1>
 
-        <ol class="list-decimal panel-ul" start="15">
-            <li>Teacher concludes: Our eyes do not just enable us to see the colours and
-                shapes of objects, but also give us useful information. Sometimes we like the
-                things we see and sometimes we dislike the things we see.</li>
-
-            <li>Ask children: "Are eyes important?" Tell children that our eyes are most
-                frequently used by us to see and to know the world, so we must take good
-                care of them.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="26">
+            <li>A whole pig can be roasted on fire, such as roasted pig. Have you ever
+                seen a roasted pig? Do you like eating it?</li>
         </ol>
 
-        <img src="{{ asset('assets/images/micet/n1/mybody/class2/c13.png') }}" class="w-[20vw] opacity-0" />
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c17.png') }}" class="w-[30vw]" />
+        <h5 class="text-[#f7b94a] text-[1.7vw]">roasted pig</h5>
     </div>
 
 
     {{-- panel 28 --}}
-    <div class="phonics-panel flex flex-col items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: I Can See</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Meat and Seafood Group</h1>
 
-        <ol class="list-decimal panel-ul" start="17">
-            <li>Guide children to complete the corresponding activity ni the
-                Thematic Activity Book.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="27">
+            <li>Ask children: "What is this?" "Have you seen it before?" "What is its colour
+                and shape?"</li>
         </ol>
 
-        <img src="{{ asset('assets/images/micet/n1/mybody/class2/c13.png') }}" class="w-[20vw] opacity-0" />
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c18.png') }}" class="w-[25vw]" />
+        <h5 class="text-[#f7b94a] text-[1.7vw]">beef</h5>
     </div>
 
 
     {{-- panel 29 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Meat and Seafood Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="28">
+            <li>Ask children: "What is the difference between the colour of beef and
+                pork?".</li>
+            <li>Tell children that beef is red while pork is pink.</li>
+        </ol>
+
+        <div class="flex items-center gap-[2vw]">
+            <div>
+                <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c18.png') }}" class="w-[25vw]" />
+                <h5 class="text-[#f7b94a] text-[1.7vw]">beef</h5>
+            </div>
+
+            <div>
+                <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c13.png') }}" class="w-[25vw]" />
+                <h5 class="text-[#f7b94a] text-[1.7vw]">prok</h5>
+            </div>
+        </div>
+    </div>
+
+
+    {{-- panel 30 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Meat and Seafood Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="30">
+            <li>Ask children: "What food can beef be made into?"</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c18.png') }}" class="w-[25vw]" />
+        <h5 class="text-[#f7b94a] text-[1.7vw]">beef</h5>
+    </div>
+
+
+    {{-- panel 31 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Meat and Seafood Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="31">
+            <li>Beef can be cooked with oil, such as fried steaks. Have you ever eaten
+                fried steaks? Do you like to eat fried steaks?</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c19.png') }}" class="w-[30vw]" />
+        <h5 class="text-[#f7b94a] text-[1.7vw]">beef steak</h5>
+    </div>
+
+
+    {{-- panel 32 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Meat and Seafood Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="32">
+            <li>Ask children: “””How is steak pan-fried””</li>
+        </ol>
+
+        <div class="flex items-center gap-[2vw]">
+            <div>
+                <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c18.png') }}" class="w-[25vw]" />
+                <h5 class="text-[#f7b94a] text-[1.7vw]">beef</h5>
+            </div>
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class1/arrow.png') }}" class="w-[1.5vw]" />
+            <div>
+                <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c19.png') }}" class="w-[25vw]" />
+                <h5 class="text-[#f7b94a] text-[1.7vw]">beef steak</h5>
+            </div>
+        </div>
+    </div>
+
+
+    {{-- panel 33 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Meat and Seafood Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="33">
+            <li>Click on the video, have children look at the steak pan-frying process
+                and talk about it.</li>
+        </ol>
+
+        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/n1/nutrition/class2/v3.mp4') }}" type="video/mp4">
+        </video>
+    </div>
+
+
+    {{-- panel 34 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Meat and Seafood Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="34">
+            <li>Ask children: "What food can beef be made into?"</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c18.png') }}" class="w-[25vw]">
+        <h5 class="text-[#f7b94a] text-[1.7vw]">beef</h5>
+    </div>
+
+
+    {{-- panel 35 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Meat and Seafood Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="35">
+            <li>Beef can be made into a patty and fried to be the filling of a hamburger.
+                Have you ever eaten a hamburger? Do you like to eat hamburgers?</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c20.png') }}" class="h-[17vw]">
+        <h5 class="text-[#f7b94a] text-[1.7vw]">hamburger</h5>
+    </div>
+
+
+    {{-- panel 36 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Meat and Seafood Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="36">
+            <li>Ask children: "What is this?" "Have you seen it before?" "What is its colour
+                and shape?" "Where does it come from?"</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c21.png') }}" class="h-[17vw]">
+        <h5 class="text-[#f7b94a] text-[1.7vw]">egg</h5>
+    </div>
+
+
+    {{-- panel 37 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Meat and Seafood Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="37">
+            <li>An egg comes from a hen.</li>
+        </ol>
+
+        <div class=" flex items-center gap-[2vw]">
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c21.png') }}" class="h-[20vw]">
+
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class1/arrow.png') }}" class="w-[1.5vw]">
+
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c22.png') }}" class="w-[25vw]">
+
+        </div>
+    </div>
+
+
+    {{-- panel 38 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Meat and Seafood Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="38">
+            <li>Eggs can be cooked with oil, such as fried eggs. Have you ever eaten fried
+                eggs? Do you like to eat fried eggs?</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c23.png') }}" class="w-[30vw]">
+        <h5 class="text-[#f7b94a] text-[1.7vw]">egg</h5>
+    </div>
+
+
+    {{-- panel 39 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Meat and Seafood Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="39">
+            <li>Eggs can be cooked with water, such as hard-boiled eggs. Have you ever
+                eaten hard-boiled eggs? Do you like to eat hard-boiled eggs?</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c24.png') }}" class="w-[30vw]">
+        <h5 class="text-[#f7b94a] text-[1.7vw]">egg</h5>
+    </div>
+
+
+    {{-- panel 40 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Meat and Seafood Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="40">
+            <li>Have children name these food items.</li>
+        </ol>
+
+        <div class="grid grid-cols-3 gap-[1vw]">
+            <div>
+                <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c1.png') }}" class="w-[15vw]">
+                <h5 class="text-[#f7b94a] text-[1.7vw]">fish</h5>
+            </div>
+            <div>
+                <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c5.png') }}" class="w-[15vw]">
+                <h5 class="text-[#f7b94a] text-[1.7vw]">prawn</h5>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c21.png') }}" class="h-[10vw]">
+                <h5 class="text-[#f7b94a] text-[1.7vw]">egg</h5>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c25.png') }}" class="h-[7vw]">
+                <h5 class="text-[#f7b94a] text-[1.7vw]">chicken</h5>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c13.png') }}" class="w-[10vw]">
+                <h5 class="text-[#f7b94a] text-[1.7vw]">pork</h5>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c18.png') }}" class="w-[10vw]">
+                <h5 class="text-[#f7b94a] text-[1.7vw]">beef</h5>
+            </div>
+        </div>
+    </div>
+
+
+    {{-- panel 41 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Meat and Seafood Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="41">
+            <li>Tell children that food from the sea is called seafood.</li>
+        </ol>
+
+        <div class="grid grid-cols-3 gap-[1vw]">
+            <div>
+                <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c1.png') }}" class="w-[15vw]">
+                <h5 class="text-[#f7b94a] text-[1.7vw]">fish</h5>
+            </div>
+            <div>
+                <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c5.png') }}" class="w-[15vw]">
+                <h5 class="text-[#f7b94a] text-[1.7vw]">prawn</h5>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c21.png') }}" class="h-[10vw]">
+                <h5 class="text-[#f7b94a] text-[1.7vw]">egg</h5>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c25.png') }}" class="h-[7vw]">
+                <h5 class="text-[#f7b94a] text-[1.7vw]">chicken</h5>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c13.png') }}" class="w-[10vw]">
+                <h5 class="text-[#f7b94a] text-[1.7vw]">pork</h5>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c18.png') }}" class="w-[10vw]">
+                <h5 class="text-[#f7b94a] text-[1.7vw]">beef</h5>
+            </div>
+        </div>
+    </div>
+
+
+    {{-- panel 42 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Meat and Seafood Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="42">
+            <li>Have children point to the seafood.</li>
+        </ol>
+
+        <div class="grid grid-cols-3 gap-[1vw]">
+            <div>
+                <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c1.png') }}" class="w-[15vw]">
+                <h5 class="text-[#f7b94a] text-[1.7vw]">fish</h5>
+            </div>
+            <div>
+                <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c5.png') }}" class="w-[15vw]">
+                <h5 class="text-[#f7b94a] text-[1.7vw]">prawn</h5>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c21.png') }}" class="h-[10vw]">
+                <h5 class="text-[#f7b94a] text-[1.7vw]">egg</h5>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c25.png') }}" class="h-[7vw]">
+                <h5 class="text-[#f7b94a] text-[1.7vw]">chicken</h5>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c13.png') }}" class="w-[10vw]">
+                <h5 class="text-[#f7b94a] text-[1.7vw]">pork</h5>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c18.png') }}" class="w-[10vw]">
+                <h5 class="text-[#f7b94a] text-[1.7vw]">beef</h5>
+            </div>
+        </div>
+    </div>
+
+
+    {{-- panel 43 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Meat and Seafood Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="43">
+            <li>Tell children that fish and prawn from the sea are known as seafood.</li>
+        </ol>
+
+        <div class="grid grid-cols-3 gap-[1vw]">
+            <div>
+                <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c1.png') }}" class="w-[15vw]">
+                <h5 class="text-[#f7b94a] text-[1.7vw]">fish</h5>
+            </div>
+            <div>
+                <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c5.png') }}" class="w-[15vw]">
+                <h5 class="text-[#f7b94a] text-[1.7vw]">prawn</h5>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c21.png') }}" class="h-[10vw]">
+                <h5 class="text-[#f7b94a] text-[1.7vw]">egg</h5>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c25.png') }}" class="h-[7vw]">
+                <h5 class="text-[#f7b94a] text-[1.7vw]">chicken</h5>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c13.png') }}" class="w-[10vw]">
+                <h5 class="text-[#f7b94a] text-[1.7vw]">pork</h5>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c18.png') }}" class="w-[10vw]">
+                <h5 class="text-[#f7b94a] text-[1.7vw]">beef</h5>
+            </div>
+        </div>
+    </div>
+
+
+    {{-- panel 44 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Meat and Seafood Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="44">
+            <li>Tell children that besides seafood, this food group also includes chicken,
+                pork, beef and egg, that's why this food group is called the meat and
+                seafood group.</li>
+        </ol>
+
+        <div class="grid grid-cols-3 gap-[1vw]">
+            <div>
+                <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c1.png') }}" class="w-[10vw]">
+                <h5 class="text-[#f7b94a] text-[1.7vw]">fish</h5>
+            </div>
+            <div>
+                <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c5.png') }}" class="w-[10vw]">
+                <h5 class="text-[#f7b94a] text-[1.7vw]">prawn</h5>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c21.png') }}" class="h-[7vw]">
+                <h5 class="text-[#f7b94a] text-[1.7vw]">egg</h5>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c25.png') }}" class="h-[7vw]">
+                <h5 class="text-[#f7b94a] text-[1.7vw]">chicken</h5>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c13.png') }}" class="w-[10vw]">
+                <h5 class="text-[#f7b94a] text-[1.7vw]">pork</h5>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c18.png') }}" class="w-[7vw]">
+                <h5 class="text-[#f7b94a] text-[1.7vw]">beef</h5>
+            </div>
+        </div>
+    </div>
+
+
+    {{-- panel 45 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Meat and Seafood Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="45">
+            <li>Ask children: “”Where can we buy food from the meat and seafood group?””</li>
+        </ol>
+
+        <div class="grid grid-cols-3 gap-[1vw]">
+            <div>
+                <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c1.png') }}" class="w-[15vw]">
+                <h5 class="text-[#f7b94a] text-[1.7vw]">fish</h5>
+            </div>
+            <div>
+                <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c5.png') }}" class="w-[15vw]">
+                <h5 class="text-[#f7b94a] text-[1.7vw]">prawn</h5>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c21.png') }}" class="h-[10vw]">
+                <h5 class="text-[#f7b94a] text-[1.7vw]">egg</h5>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c25.png') }}" class="h-[7vw]">
+                <h5 class="text-[#f7b94a] text-[1.7vw]">chicken</h5>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c13.png') }}" class="w-[10vw]">
+                <h5 class="text-[#f7b94a] text-[1.7vw]">pork</h5>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c18.png') }}" class="w-[10vw]">
+                <h5 class="text-[#f7b94a] text-[1.7vw]">beef</h5>
+            </div>
+        </div>
+    </div>
+
+
+    {{-- panel 46 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Meat and Seafood Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="46">
+            <li>Look, we can buy them from the supermarket.</li>
+        </ol>
+
+        <div class="flex items-center">
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c26.png') }}" class="w-[25vw]">
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c27.png') }}" class="w-[27vw]">
+        </div>
+    </div>
+
+
+    {{-- panel 47 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Meat and Seafood Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="47">
+            <li>Ask children: "Do you know why we need to eat from the meat and
+                seafood group everyday?" Encourage children to guess boldly, teacher
+                assists when needed.</li>
+            <li>Tell children that food from the meat and seafood group helps to build and
+                strengthen our muscles for growing.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class2/c28.png') }}" class="h-[15vw]">
+    </div>
+
+
+    {{-- panel 49 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Meat and Seafood Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="49">
+            <li>Guide children to complete the corresponding activities in the Thematic
+                Activity Book.</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 50 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: I Can See</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Meat and Seafood Group</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
-            <ul class="list-disc panel-ul">
-                <li>Guide children to complete the corresponding activity ni the
-                    Thematic Activity Book.</li>
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Have children take turns to talk about their favourite food
+                    from the meat and seafood group and give a reason.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
-            <ul class="list-disc panel-ul">
-                <li>Able to understand that our eyes enable us to see the
-                    colours and shapes of objects.</li>
-                <li>Able to express what they like to see and what they dislike
-                    to see.</li>
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Able to name some food from the meat and seafood group.</li>
+                <li> Able to know that food from the meat and seafood group helps to build
+                    and strengthen our muscles for growing.</li>
             </ul>
         </div>
     </div>
@@ -509,15 +936,16 @@
 
     {{-- panel 30 --}}
     <div class="phonics-panel flex flex-col items-center justify-start h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 2: I Can See</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Meat and Seafood Group</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Extension</h3>
 
-            <ul class="list-disc panel-ul">
-                <li>Get children to find out from their parents at home on how
-                    to take care of their eyes, then share the information with
-                    the class.</li>
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>At home, have children spot food from the meat and seafood
+                    group when having dinner and tell their parents about the benefit
+                    of eating them. Back in the class, have children take turns to share
+                    what food they had from the meat and seafood group.</li>
             </ul>
         </div>
     </div>
@@ -577,8 +1005,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n1/mybody/index') }}";
-            const doneURL = "{{ url('/micet/n1/mybody/index') }}";
+            const returnURL = "{{ url('/micet/n1/nutrition/index') }}";
+            const doneURL = "{{ url('/micet/n1/nutrition/index') }}";
 
             // Track current position
             let currentSlide = 0;

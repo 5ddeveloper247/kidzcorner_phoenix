@@ -26,10 +26,15 @@
             font-size: 2vw;
         }
 
+        .ptitle {
+            color: #F7B94A;
+            font-size: 1.7vw;
+        }
+
         .panel-ul {
             color: white;
             font-size: 1.4vw;
-            text-align: left
+            text-align: left !important;
         }
     </style>
 @endpush
@@ -53,10 +58,10 @@
 
 
     {{-- panel 2 --}}
-    <div class="phonics-panel flex flex-col justify-between items-center">
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
         <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
 
-        <div>
+        <div class="space-y-[3vw]">
             <h3 class="title">Preparations</h3>
 
             <ul class="list-disc panel-ul">
@@ -68,22 +73,337 @@
     </div>
 
     {{-- panel 3 --}}
-    <div class="phonics-panel flex flex-col justify-between items-center">
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
         <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
 
-        <div>
-            <h3 class="title">Lesson Development</h3>
+        <div class="text-start">
+            <h3 class="ptitle">Lesson Development</h3>
 
-            <ul class="list-disc panel-ul">
+            <ol class="list-decimal panel-ul">
                 <li>Ask children: "Do you like eating?" "What do you eat everyday?"</li>
                 <li>Tell children that they are going to identify some food items that we eat
                     everyday.</li>
+            </ol>
+        </div>
+    </div>
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
+        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Ask children: "What is this?" "Have you seen it before?" "What is its colour
+                and shape?" "What food can it be made into?"</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c1.png') }}" class="w-[25vw]" />
+    </div>
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
+        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="4">
+            <li>Yes, rice can be cooked! Have you ever eaten rice? Do you like to ea rice?</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c2.png') }}" class="w-[25vw]" />
+    </div>
+
+    {{-- panel 6 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
+        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="5">
+            <li>Ask children: “”How is rice cooked?””</li>
+        </ol>
+
+        <div class="flex items-center gap-[1vw]">
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c1.png') }}" class="w-[25vw]" />
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class1/arrow.png') }}" class="w-[2vw]" />
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c2.png') }}" class="w-[25vw]" />
+        </div>
+    </div>
+
+    {{-- panel 7 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="6">
+            <li>Click on the video, have children look at the process of cooking rice and
+                talk about it,</li>
+        </ol>
+
+        <video class="w-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/n1/nutrition/class1/v1.mp4') }}" type="video/mp4">
+        </video>
+    </div>
+
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="7">
+            <li>Ask children: “”What other food can rice be made into?””</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c1.png') }}" class="w-[25vw]" />
+    </div>
+
+    {{-- panel 9 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="8">
+            <li>Yes, rice can be cooked as porridge! Have you ever eaten porridge? Do
+                you like to ear porridge?</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c4.png') }}" class="w-[25vw]" />
+    </div>
+
+    {{-- panel 10 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="9">
+            <li>Rice can be also be cooked, then fried, such as fried rice. Have you ever
+                eaten fried rice? Do you like to eat fried rice?</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c5.png') }}" class="w-[25vw]" />
+    </div>
+
+    {{-- panel 11 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="10">
+            <li>Ask children: "What is this?" "Have you seen it before?" "What is its colour
+                and shape?" "What food can it be made into?"</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c6.png') }}" class="w-[25vw]" />
+    </div>
+
+    {{-- panel 12 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="11">
+            <li>Flour can be used to make bread. Have you ever eaten bread? Do you like
+                to eat bread?</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c7.png') }}" class="w-[25vw]" />
+    </div>
+
+    {{-- panel 13 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="12">
+            <li>Ask children: “”How is bread made?””</li>
+        </ol>
+
+        <div class="flex items-center gap-[2vw]">
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c6.png') }}" class="w-[25vw]" />
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class1/arrow.png') }}" class="w-[25vw]" />
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c7.png') }}" class="w-[25vw]" />
+        </div>
+    </div>
+
+    {{-- panel 14 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="13">
+            <li>Click on the video, have children look at the bread making process and talk
+                about it.</li>
+        </ol>
+
+        <video class="w-[18vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/n1/nutrition/class1/v2.mp4') }}" type="video/mp4">
+        </video>
+    </div>
+
+    {{-- panel 15 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="14">
+            <li>Ask children: “”Beside bread, what food can flour be made into?””</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c6.png') }}" class="w-[25vw]" />
+    </div>
+
+    {{-- panel 16 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="15">
+            <li>Flour can also be used to make a variety of biscuits. Have you ever eaten
+                biscuits? Do you like to eat biscuits?</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c9.png') }}" class="w-[25vw]" />
+    </div>
+
+    {{-- panel 17 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="16">
+            <li>Flour can also be used to make cakes too. Have you ever eaten
+                cakes? Do you like to eat cakes?</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c13.png') }}" class="w-[20vw]" />
+    </div>
+
+    {{-- panel 18 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="17">
+            <li>Flour can also be used to make noodles. Have you ever eaten
+                noodles? Do you like to eat noodles?</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c10.png') }}" class="w-[25vw]" />
+    </div>
+
+    {{-- panel 19 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="18">
+            <li>Click on the video, have children look at the noodle cooking process and talk
+                about it.</li>
+        </ol>
+
+        <video class="w-[18vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/n1/nutrition/class1/v3.mp4') }}" type="video/mp4">
+        </video>
+    </div>
+
+    {{-- panel 20 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="19">
+            <li>Flour can be used to make buns as well. Have you ever eaten buns? Do
+                you like to eat buns?</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c12.png') }}" class="w-[25vw]" />
+    </div>
+
+    {{-- panel 21 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="20">
+            <li>Tell children that these food are made of rice and flour, so we call them the
+                rice and noodles group.</li>
+        </ol>
+
+        <div class="grid grid-cols-2 gap-[2vw]">
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c2.png') }}" class="w-[15vw]" />
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c7.png') }}" class="w-[15vw]" />
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c12.png') }}" class="w-[15vw]" />
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c10.png') }}" class="w-[15vw]" />
+        </div>
+    </div>
+
+    {{-- panel 22 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="21">
+            <li>Ask children: “”Among these, which food do you eat most frequently?””</li>
+        </ol>
+
+        <div class="grid grid-cols-2 gap-[2vw]">
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c2.png') }}" class="w-[15vw]" />
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c7.png') }}" class="w-[15vw]" />
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c12.png') }}" class="w-[15vw]" />
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c10.png') }}" class="w-[15vw]" />
+        </div>
+    </div>
+
+    {{-- panel 23 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="22">
+            <li>Ask children: "Do you know why we need to eat from the rice and noodles group
+                everyday?" Encourage children to guess boldly, teacher assists when needed.</li>
+            <li>Tell children that food from the rice and noodles group gives us energy to
+                carry out daily activities like running, jumping and playing ball.</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class1/c14.png') }}" class="w-[25vw]" />
+    </div>
+
+    {{-- panel 24 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="24">
+            <li>Guide children to complete the corresponding activities in the Thematic
+                Activity Book,</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 25 --}}
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
+        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group </h1>
+
+        <div class="text-start flex flex-col justify-between h-full">
+            <h3 class="ptitle">Clousre</h3>
+
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Refer to the page showing food from the rice and noodles group (3rd page
+                    from the end). Point to the food, one by one, have children raise hands to
+                    the food that they frequently eat. Record the numbers to find out which
+                    food is most frequently eaten by the class.</li>
+            </ul>
+
+            <h3 class="ptitle">Evaluation</h3>
+
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Able to name some food from the rice and noodles group.</li>
+                <li>Able to know that food from the rice and noodles group gives us energy
+                    to carry out daily activities.</li>
+            </ul>
+        </div>
+    </div>
+
+
+    {{-- panel 30 --}}
+    <div class="phonics-panel flex flex-col items-center justify-start h-full space-y-[2vw]">
+        <h1 class="panel-title stroke">Classroom Activity 1: Rice and Noodles Group </h1>
+
+        <div class="text-start">
+            <h3 class="ptitle">Extension</h3>
+
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>At home, have children spot food from the rice and noodles group
+                    when having dinner and tell their parents about the benefit of
+                    eating them. Back in the class, have children take turns to share
+                    what food they had from the rice and noodles group.</li>
             </ul>
         </div>
     </div>
 
 
 
+
+
+    {{-- ================================ --}}
     {{-- All Buttons --}}
     <div id="buttons" class="absolute flex flex-row gap-6 z-90">
 
