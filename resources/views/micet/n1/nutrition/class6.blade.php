@@ -38,273 +38,191 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: I Can Touch and Feel</h1>
-        <div class="flex ">
-            <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
-            <img src="{{ asset('assets/images/micet/n1/mybody/class2/c1.png') }}" class="h-[12vw]" />
-        </div>
-
+        <h1 class="panel-title stroke">Classroom Activity 6: Mixing Fruit Juice</h1>
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class6/c1.png') }}" class="h-[12vw]" />
 
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul">
-            <li>Understand that our hands enable us to hold things</li>
-            <li>Understand that our hands enable us to touch and feel objects</li>
-            <li>Express likes and dislikes of touching certain things</li>
+            <li>Learn to make fruits into juices</li>
+            <li>Know that when two juices are mixed together, the colour
+                and taste will change</li>
+            <li> Learn to share with group members</li>
+            <li>Practise self-help skills (pour juices from bigger containers
+                into cups)</li>
         </ul>
+
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: I Can Touch and Feel</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Mixing Fruit Juice</h1>
 
-        <h3 class="ptitle">Preparations</h3>
+        <div>
+            <h3 class="ptitle">Preparations</h3>
 
-        <ul class="list-disc panel-ul w-[42vw]">
-            <li>Thematic Activity Book</li>
-            <li>Objects with different textures like silk, yarn, sandpaper,
-                metal, plank, ice cube, sand, leaf, sponge, rubber
-                products, etc</li>
-        </ul>
+            <ul class="list-disc panel-ul w-[42vw]">
+                <li>Thematic Activity Book</li>
+                <li>4 types of common fruits (e.g., orange, apple, watermelon, and grapes)</li>
+                <li>Before the lesson, cut the fruits in half</li>
+                <li>4 fruit juices in 4 transparent containers (bought from the supermarket or prepared using a juicer)</li>
+                <li>Each group: 4 medium-sized transparent containers</li>
+                <li>Each child: 1 small cup</li>
+            </ul>
+        </div>
     </div>
 
 
     {{-- panel 3 --}}
-    <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: I Can Touch and Feel</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 6: Mixing Fruit Juice</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
-
-            <ol class="list-decimal panel-ul w-[50vw]">
-                <li>Ask children: “”Where is the nose of the gingerbread man?”” Have the children
-                    point to the nose.</li>
+            <ol class="list-decimal panel-ul w-[45vw]">
+                <li>AskAsk children: "What are these?" "Have you ever eaten them?" "Do you like
+                    them?"</li>
             </ol>
         </div>
 
-        <img src="{{ asset('assets/images/micet/n1/mybody/class1/c2.png') }}" class="h-[20vw]" />
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class6/c2.png') }}" class="w-[30vw]" />
+        <h5 class="text-[#f7b94a] text-[1.7vw]">oranges</h5>
     </div>
 
 
     {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: I Can Touch and Feel</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 6: Mixing Fruit Juice</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="2">
-            <li>Ask children: "Where are your hands?" "How many hands do you have?"
-                Have children show their hands. Tell them that everyone has (or most people
-                have) two hands.</li>
-            <li>Ask children: "What are the functions of our hands?" Guide children to say
-                that our hands enable us to hold things, write and draw.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="2">
+            <li>Display the container with orange juice, pour the juice into a cup. Ask
+                children: "What is this?" "Have you ever drank it?" "What does it taste like?"</li>
+            <li>Ask children: "How do we get the orange juice?" Encourage children to
+                guess boldly and accept all logical answers.</li>
         </ol>
-
-        <img src="{{ asset('assets/images/micet/n1/mybody/class6/c1.png') }}" class="w-[25vw]" />
-        <h5 class="text-[#f7b94a] text-[1.7vw]">hands</h5>
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: I Can Touch and Feel</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Mixing Fruit Juice</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="4">
-            <li>Tell children that the main function of our hands is to hold things. Besides that,
-                our hands also enable us to touch and feel objects.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="4">
+            <li>Click on the video, have children look at one of the ways to get orange
+                juice (use blender to squeeze orange juice).</li>
         </ol>
-
-        <img src="{{ asset('assets/images/micet/n1/mybody/class6/c2.png') }}" class="h-[20vw]" />
-        <h5 class="text-[#f7b94a] text-[1.7vw]">hands</h5>
+        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/n1/nutrition/class6/v1.mp4') }}" type="video/mp4">
+        </video>
     </div>
 
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: I Can Touch and Feel</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Mixing Fruit Juice</h1>
 
-        <ol class="list-decimal panel-ul" start="5">
-            <li>Have children do an experiment to explore the sensation of touch.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="5">
+            <li>Display the 4 types of fruits in half, have children name them and talk about
+                the colour of the flesh.</li>
+            <li>Display the 4 transparent containers with different fruit juices, have children
+                match each fruit to the correct juice.</li>
+            <li>Have children talk about the logic used for their matching.</li>
         </ol>
     </div>
 
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: I Can Touch and Feel</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Mixing Fruit Juice</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="6">
-            <li>Display the objects. Tell children that each of the objects has a different
-                texture.</li>
-            <li>Have children touch the different objects, then talk about the texture and
-                whether they like or dislike the feel of it.</li>
-            <li>Tell children that without our hands, we'll not be able to touch and feel
-                anything.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="8">
+            <li>Give each child a cup. Based on the sequence of containers, pour a bit of
+                each fruit juice for children to taste. After children taste a juice, have them
+                check whether they have matched them correctly. If there is any mistake,
+                have them correct it immediately.</li>
         </ol>
     </div>
 
 
     {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: I Can Touch and Feel</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Mixing Fruit Juice</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="9">
-            <li>Ask children: "What are the objects in each picture?" "What does it feel like to
-                touch each of the object?" "Do you like to touch them?"</li>
-            <li>Guide children in understanding: Sometimes we like the feeling of touching
-                certain things and sometimes we dislike the feeling of touching certain things.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="9">
+            <li>Ask children: "Have you ever drank mixed fruit juice?" "What fruits were
+                used to make the mixed juice that you drank?" "Was the taste of the
+                different mixed fruit juice nice?" Guide children in sharing their own
+                experiences.</li>
         </ol>
-
-        <div class="flex justify-between items-center w-full">
-            <div>
-                <img src="{{ asset('assets/images/micet/n1/mybody/class6/c3.png') }}" class="w-[20vw]" />
-                <h5 class="text-[#f7b94a] text-[1.7vw]">blocks</h5>
-            </div>
-
-            <div>
-                <img src="{{ asset('assets/images/micet/n1/mybody/class6/c4.png') }}" class="h-[13vw]" />
-                <h5 class="text-[#f7b94a] text-[1.7vw]">sponge</h5>
-            </div>
-        </div>
     </div>
 
 
     {{-- panel 9 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: I Can Touch and Feel</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Mixing Fruit Juice</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="9">
-            <li>Ask children: "What are the objects in each picture?" "What does it feel like to
-                touch each of the object?" "Do you like to touch them?"</li>
-            <li>Guide children in understanding: Sometimes we like the feeling of touching
-                certain things and sometimes we dislike the feeling of touching certain things.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="10">
+            <li>Mix 2 types of fruit juices, have children observe the process. Ask children:
+                "When two fruit juices are mixed together, are there changes in colour and
+                taste?"</li>
+            <li>Tell children that we are going to make mixed fruit juice in groups, have
+                them observe the change in colour and taste the juice.</li>
         </ol>
-
-        <div class="flex justify-between items-center w-full">
-            <div>
-                <img src="{{ asset('assets/images/micet/n1/mybody/class6/c5.png') }}" class="w-[20vw]" />
-                <h5 class="text-[#f7b94a] text-[1.7vw]">silks</h5>
-            </div>
-
-            <div>
-                <img src="{{ asset('assets/images/micet/n1/mybody/class6/c6.png') }}" class="w-[20vw]" />
-                <h5 class="text-[#f7b94a] text-[1.7vw]">sackcloth</h5>
-            </div>
-        </div>
     </div>
 
 
     {{-- panel 9 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: I Can Touch and Feel</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Mixing Fruit Juice</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="9">
-            <li>Ask children: "What are the objects in each picture?" "What does it feel like to
-                touch each of the object?" "Do you like to touch them?"</li>
-            <li>Guide children in understanding: Sometimes we like the feeling of touching
-                certain things and sometimes we dislike the feeling of touching certain things.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="12">
+            <li>Divide children into 4 groups, give each group 4 medium size transparent
+                containers (each with different juices).</li>
+            <li>Have children share the ingredients, have them freely choose 2 types of
+                juices and mix them (pour the juice into own cup), have them observe the
+                change in colour and taste the juice.
+            </li>
         </ol>
-
-        <div class="flex justify-between items-center w-full">
-            <div>
-                <img src="{{ asset('assets/images/micet/n1/mybody/class4/c2.png') }}" class="w-[20vw]" />
-                <h5 class="text-[#f7b94a] text-[1.7vw]">hot chocolate</h5>
-            </div>
-
-            <div>
-                <img src="{{ asset('assets/images/micet/n1/mybody/class6/c7.png') }}" class="w-[20vw]" />
-                <h5 class="text-[#f7b94a] text-[1.7vw]">ice cubes</h5>
-            </div>
-        </div>
     </div>
 
 
     {{-- panel 10 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: I Can Touch and Feel</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Mixing Fruit Juice</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="9">
-            <li>Ask children: "What are the objects in each picture?" "What does it feel like to
-                touch each of the object?" "Do you like to touch them?"</li>
-            <li>Guide children in understanding: Sometimes we like the feeling of touching
-                certain things and sometimes we dislike the feeling of touching certain things.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="14">
+            <li>Guide children to complete the corresponding activities in the
+                Thematic Activity Book.</li>
         </ol>
-
-        <div class="flex justify-between items-center w-full">
-            <div>
-                <img src="{{ asset('assets/images/micet/n1/mybody/class4/c8.png') }}" class="w-[20vw]" />
-                <h5 class="text-[#f7b94a] text-[1.7vw]">water</h5>
-            </div>
-
-            <div>
-                <img src="{{ asset('assets/images/micet/n1/mybody/class6/c9.png') }}" class="w-[20vw]" />
-                <h5 class="text-[#f7b94a] text-[1.7vw]">toothpaste</h5>
-            </div>
-        </div>
     </div>
 
 
     {{-- panel 11 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: I Can Touch and Feel</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="11">
-            <li>Teacher concludes: Our hands enable us to touch and feel objects.
-                Sometimes we like the feeling of touching certain things and sometimes we
-                dislike the feeling of touching certain things.</li>
-
-            <li>Ask children: "Are our hands important?" Tell children that our hands are
-                important and we must take good care of them.</li>
-        </ol>
-    </div>
-
-
-    {{-- panel 12 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: I Can Touch and Feel</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="13">
-            <li>Guide children to complete the corresponding activity in the Thematic
-                Activity Book.</li>
-        </ol>
-    </div>
-
-
-    {{-- panel 13 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: I Can Touch and Feel</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Mixing Fruit Juice</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
-            <ul class="list-disc panel-ul">
-                <li>Let the children take turns to say what things they like and
-                    dislike to touch.</li>
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Have children take turns to talk about the 2 fruits that were used to make
+                    their favourite juice, then find out which is the most popular mixed fruit
+                    juice in the class.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
-            <ul class="list-disc panel-ul">
-                <li>Able to understand that our hands enables us to hold, touch and feel objects.</li>
-                <li>Able to express likes and dislikes of touching certain things.</li>
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Able to pour juice from bigger container into own cup.</li>
+                <li>Able to know that when two juices are mixed together, the colour and
+                    taste will change.</li>
+                <li>Able to share with group members.</li>
+                <li>Able to choose a favourite mixed fruit juice.</li>
             </ul>
         </div>
     </div>
 
-
-    {{-- panel 14 --}}
-    <div class="phonics-panel flex flex-col items-center justify-start h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: I Can Touch and Feel</h1>
-
-        <div class="text-start">
-            <h3 class="ptitle">Extension</h3>
-
-            <ul class="list-disc panel-ul">
-                <li>Get children to move around and touch different objects at
-                    home. Have them identify things that they like and dislike
-                    touching, then share the experience with their parents.</li>
-            </ul>
-        </div>
-    </div>
 
 
 
@@ -360,8 +278,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n1/mybody/index') }}";
-            const doneURL = "{{ url('/micet/n1/mybody/index') }}";
+            const returnURL = "{{ url('/micet/n1/nutrition/index') }}";
+            const doneURL = "{{ url('/micet/n1/nutrition/index') }}";
 
             // Track current position
             let currentSlide = 0;

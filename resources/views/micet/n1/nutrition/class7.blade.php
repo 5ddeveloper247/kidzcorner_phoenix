@@ -38,170 +38,163 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 7: My Facial Expression</h1>
-        <img src="{{ asset('assets/images/micet/n1/mybody/class7/c1.png') }}" class="h-[12vw]" />
+        <h1 class="panel-title stroke">Classroom Activity 7: Vegatables Prints</h1>
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class7/c1.png') }}" class="h-[12vw]" />
 
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul">
-            <li>Identify happy and unhappy facial expressions</li>
-            <li>Make different facial expressions</li>
+            <li>Use imagination to make interesting vegetable prints</li>
+            <li>Learn to sing a song about vegetables</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: My Facial Expression</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: Vegatables Prints</h1>
+
+        <div>
             <h3 class="ptitle">Preparations</h3>
-
-            <ul class="list-disc panel-ul">
+            <ul class="list-disc panel-ul w-[45vw]">
                 <li>Thematic Activity Book</li>
+                <li>Cut vegetables and use them as stamps for making prints
+                    (e.g .: cucumber, loofah, onion, potato, celery, capsicum, carrot,
+                    okra) [Note: Cut into a size that is easy for children to hold.]
+                    Watercolour and watercolour brushes</li>
+                <li>Each a drawing paper</li>
+                <li>A printmaking artwork</li>
             </ul>
-    </div>
-
-
-    {{-- panel 3 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: My Facial Expression</h1>
-
-        <div class="text-start">
-            <h3 class="ptitle">Lesson Development</h3>
-
-            <ol class="list-decimal panel-ul w-[50vw]">
-                <li>Ask children: “”Where is the nose of the gingerbread man?”” Have the children
-                    point to the nose.</li>
-            </ol>
         </div>
     </div>
 
 
-    {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: My Facial Expression</h1>
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7: Vegatables Prints</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="2">
-            <li>Ask children: "Look at the child's face, is he happy?" Have children name
-                some occasions where they may show a similar facial expression. Then
-                encourage them to make this facial expression.</li>
+        <div class="text-start">
+            <h3 class="ptitle">Lesson Development</h3>
+
+            <ol class="list-decimal panel-ul w-[45vw]">
+                <li>Ask children: "What are these?"</li>
+                <li> Have children name some common vegetables and talk about the
+                    benefits of eating vegetables.</li>
+                <li> Tell children that they are going to learn to sing a song about vegetables.</li>
+            </ol>
+        </div>
+
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class7/c2.png') }}" class="w-[25vw]" />
+        <h5 class="text-[#f7b94a] text-[1.7vw]">vegatables</h5>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7: Vegatables Prints</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="4">
+            <li>Play music and sing the song, then explain the meaning of the lyrics to
+                children.</li>
+            <li>Replay the music and let children sing along. Encourage them to learn to
+                sing the song.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n1/mybody/class7/c2.png') }}" class="w-[15vw]" />
-        <h5 class="text-[#f7b94a] text-[1.7vw]">laugh - happy</h5>
+        <div class="flex flex-col items-center">
+            <h3 class="text-[1.7vw] text-[#f7b94a]">Vegetables are good for me. <br>
+                Keep me healthy, not fall sick. <br>
+                Help me digest and pass motion. <br>
+                They are really good to eat. <br>
+                Vegetables are good for me. <br>
+                Keep me healthy, not fall sick.</h3>
+
+            <button class="w-[3vw]" id="soundButton">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            </button>
+        </div>
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: My Facial Expression</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: Vegatables Prints</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="3">
-            <li>Ask children: "Look at the child's face, is he happy?" Have children name
-                some occasions where they may show a similar facial expression. Then
-                encourage them to make this facial expression.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="6">
+            <li>Display the vegetables, guide children to name each of them.</li>
+            <li>Tell children that besides eating them, we can also use vegetables to
+                make prints.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n1/mybody/class7/c3.png') }}" class="w-[17vw]" />
-        <h5 class="text-[#f7b94a] text-[1.7vw]">cry - unhappy</h5>
     </div>
 
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: My Facial Expression</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: Vegatables Prints</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="4">
-            <li>Ask children: "Look at the child's face, is he happy?" Have children name
-                some occasions where they may show a similar facial expression. Then
-                encourage them to make this facial expression.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="8">
+            <li>Display the printmaking artwork, ask children: "Is this artwork beautiful?"
+                Tell children that it is made of different vegetable prints.</li>
+            <li>Demonstrate using the different vegetables to create a printmaking
+                artwork: use a brush to colour the desired vegetable part, then press it onto
+                a drawing paper.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n1/mybody/class7/c4.png') }}" class="h-[15vw]" />
-        <h5 class="text-[#f7b94a] text-[1.7vw]">angry - unhappy</h5>
     </div>
 
 
     {{-- panel 7 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: My Facial Expression</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7: Vegatables Prints</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="5">
-            <li>Ask children: "Look at the child's face, is he happy?" Have children name
-                some occasions where they may show a similar facial expression. Then
-                encourage them to make this facial expression.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="10">
+            <li>Distribute the drawing papers. Have children freely choose the vegetables
+                and colours, then use their imagination to make an interesting printmaking
+                artwork.</li>
+            <li>Encourage children to sing along while they are working.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n1/mybody/class7/c5.png') }}" class="h-[15vw]" />
-        <h5 class="text-[#f7b94a] text-[1.7vw]">sad - unhappy</h5>
+
+        <div class="flex flex-col items-center">
+            <h3 class="text-[1.7vw] text-[#f7b94a]">Vegetables are good for me. <br>
+                Keep me healthy, not fall sick. <br>
+                Help me digest and pass motion. <br>
+                They are really good to eat. <br>
+                Vegetables are good for me. <br>
+                Keep me healthy, not fall sick.</h3>
+
+            <button class="w-[3vw]" id="soundButton">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            </button>
+        </div>
     </div>
 
 
     {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: My Facial Expression</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: Vegatables Prints</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="6">
-            <li>Ask children: "Look at the child's face, is he happy?" Have children name
-                some occasions where they may show a similar facial expression. Then
-                encourage them to make this facial expression.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="12">
+            <li>Guide children to complete the corresponding activities in the
+                Thematic Activity Book.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n1/mybody/class7/c6.png') }}" class="w-[25vw]" />
-        <h5 class="text-[#f7b94a] text-[1.7vw]">scared - unhappy</h5>
     </div>
 
 
     {{-- panel 9 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: My Facial Expression</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="7">
-            <li>Ask children: "Look at the child's face, is he happy?" Have children name
-                some occasions where they may show a similar facial expression. Then
-                encourage them to make this facial expression.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n1/mybody/class7/c7.png') }}" class="w-[25vw]" />
-        <h5 class="text-[#f7b94a] text-[1.7vw]">surprise - happy</h5>
-    </div>
-
-
-    {{-- panel 10 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: My Facial Expression</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="8">
-            <li>Tell children that we can tell whether a person is happy or unhappy through
-                his/her facial expression.</li>
-            <li>Teacher makes different facial expressions. Let the children name each of the
-                facial expressions and guess whether it is a happy or an unhappy face.</li>
-        </ol>
-    </div>
-
-
-    {{-- panel 11 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: My Facial Expression</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="10">
-            <li>Guide children to complete the corresponding activity in the Thematic
-                Activity Book.</li>
-        </ol>
-    </div>
-
-
-    {{-- panel 12 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: My Facial Expression</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: Vegatables Prints</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have children take turns to make a facial expression and
-                    let the others guess whether it is a happy or an unhappy
-                    face (guide children in naming some common expressions).</li>
+                <li>Have children take turns to display their artwork and talk about the
+                    vegetables used to make the prints.</li>
+                <li>Display all the artworks in class.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to differentiate between happy and unhappy facial expressions.</li>
-                <li>Able to make a few facial expressions.</li>
+                <li>Able to use imagination to make interesting vegetable prints.</li>
+                <li>Able to sing the song.</li>
             </ul>
         </div>
     </div>
@@ -261,8 +254,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n1/mybody/index') }}";
-            const doneURL = "{{ url('/micet/n1/mybody/index') }}";
+            const returnURL = "{{ url('/micet/n1/nutrition/index') }}";
+            const doneURL = "{{ url('/micet/n1/nutrition/index') }}";
 
             // Track current position
             let currentSlide = 0;

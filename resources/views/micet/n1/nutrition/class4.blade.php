@@ -38,259 +38,493 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: I Can Smell</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
         <div class="flex ">
             <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
             <img src="{{ asset('assets/images/micet/n1/mybody/class2/c1.png') }}" class="h-[12vw]" />
         </div>
 
-
         <h3 class="ptitle">Objectives:</h3>
 
-        <ul class="list-disc panel-ul">
-            <li>Understand that our ears enable us to hear sounds</li>
-            <li>Express what sounds they like and dislike to hear</li>
+        <ul class="list-disc panel-ul w-[45vw]">
+            <li>Know that we need to eat from the 3 main food groups
+                daily in order to have a balanced diet</li>
+            <li>Know that a balanced diet will help us stay healthy and
+                not fall sick easily</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
-    <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: I Can Smell</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
+        <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
+        <div class="text-center space-y-[2vw]">
+            <h3 class="ptitle">Preparations</h3>
 
-        <h3 class="ptitle">Preparations</h3>
-
-        <ul class="list-disc panel-ul w-[42vw]">
-            <li>Thematic Activity Book</li>
-            <li>Opaque containers (make some tiny holes on them, so that
-                the smell of things inside can be detected)</li>
-            <li>Things with smell like orange, banana, lemon, pineapple or
-                other fruits that are peeled or cut, rose flower, chilli sauce,
-                vinegar, raw fish, used socks, used matches, etc</li>
-            <li>Before lesson, place these things into different containers</li>
-        </ul>
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Thematic Activity Book</li>
+            </ul>
+        </div>
     </div>
 
 
     {{-- panel 3 --}}
-    <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: I Can Smell</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center sapce-y-[4vw]">
+        <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
-            <ol class="list-decimal panel-ul w-[50vw]">
-                <li>Ask children: “”Where is the nose of the gingerbread man?”” Have the children
-                    point to the nose.</li>
+            <ol class="list-decimal panel-ul w-[45vw]">
+                <li>Ask children:
+                    <ul class="list-disc">
+                        <li>What 3 main food groups did we learn previously? [1) rice and noodles group, 2) meat and seafood
+                            group, 3) vegetables and fruits group]
+                        <li> What are the benefits of eating from each food group? <br>
+                            [Food from: <br>
+                            1) rice and noodles group gives us energy to carry out daily activities; <br>
+                            2) meat and seafood group helps to build and strengthen our muscles <br>
+                            for growing; <br>
+                            3) vegetables and fruits group promotes good digestive system and
+                            regular bowel movement]</li>
+                    </ul>
+                </li>
             </ol>
         </div>
-
-        <img src="{{ asset('assets/images/micet/n1/mybody/class1/c2.png') }}" class="h-[20vw]" />
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: I Can Smell</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="2">
-            <li>Ask children: "Where is your nose?" "How many nose do you have?" Have
-                children point to their own nose. Tell them that everyone has a nose.</li>
+            <li>Tell children that each food group has something (nutrients) that we need
+                for our body, so we need to eat them daily to have a balanced diet to
+                keep us healthy..</li>
         </ol>
 
-        <img src="{{ asset('assets/images/micet/n1/mybody/class4/c1.png') }}" class="w-[20vw]" />
-        <h5 class="text-[#f7b94a] text-[1.7vw]">nose</h5>
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class4/c1.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: I Can Smell</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="3">
-            <li>Ask children: "What will happen if we have no nose?"</li>
-            <li>Have children do an experiment to confirm the functions of the nose.</li>
+            <li>Tell children that this is Ling's breakfast. Have children look at the food
+                items and answer the following questions.</li>
         </ol>
 
-        <img src="{{ asset('assets/images/micet/n1/mybody/class4/c1.png') }}" class="w-[20vw]" />
-        <h5 class="text-[#f7b94a] text-[1.7vw]">nose</h5>
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class4/c2.png') }}" class="w-[35vw]" />
     </div>
 
 
     {{-- panel 6 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[3vw]">
-        <h1 class="panel-title stroke">Classroom Activity 4: I Can Smell</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="5">
-            <li>Have children use two fingers to press their nose. Teacher holds a container
-                with an orange and have children sniff it. Ask children whether they can
-                detect any smell.</li>
-            <li>Have children stop pressing their nose and sniff the container again. Ask
-                children whether they can detect any smell. Then have them guess what is
-                inside the container.</li>
-            <li>Tell children that without our nose, we'll not be able to smell.</li>
-            <li>Repeat steps 5-7 with different containers, let children guess the thing inside
-                each container.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="4">
+            <li>Ask children: “”Has Ling eaten food from the rice and noodles group?””
+                “”What are they?””</li>
         </ol>
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class4/c2.png') }}" class="w-[35vw]" />
     </div>
 
 
     {{-- panel 7 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[3vw]">
-        <h1 class="panel-title stroke">Classroom Activity 4: I Can Smell</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="9">
-            <li>Ask children: “”Do you like all the smells? Let’s find out together!””</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="5">
+            <li>Ling has taken bread and biscuits from the rice and noodles group.</li>
         </ol>
+        <div class="w-fit h-fit relative">
+            <div class="w-[11vw] h-[11vw] border-2 border-[#f7b94a] rounded-[2vw] absolute"></div>
+            <div class="w-[10vw] h-[10vw] border-2 border-[#f7b94a] rounded-[2vw] absolute left-[35%] bottom-0"></div>
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class4/c2.png') }}" class="w-[35vw]" />
+        </div>
     </div>
 
 
     {{-- panel 8 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1.5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 4: I Can Smell</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="10">
-            <li>Ask children: "What do you see?" "Do you like the smell of it?"</li>
-            <li>Guide children in understanding: Sometimes we like certain smells and
-                sometimes we dislike certain smells.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="6">
+            <li>Ask children: "What are the benefits of eating food from the rice and
+                noodles group?" (they provide energy for Ling to carry out daily activities)</li>
         </ol>
-
-        <img src="{{ asset('assets/images/micet/n1/mybody/class4/c2.png') }}" class="w-[20vw]" />
+        <div class="w-fit h-fit relative">
+            <div class="w-[11vw] h-[11vw] border-2 border-[#f7b94a] rounded-[2vw] absolute"></div>
+            <div class="w-[10vw] h-[10vw] border-2 border-[#f7b94a] rounded-[2vw] absolute left-[35%] bottom-0"></div>
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class4/c2.png') }}" class="w-[35vw]" />
+        </div>
     </div>
 
 
     {{-- panel 9 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1.5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 4: I Can Smell</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="10">
-            <li>Ask children: "What do you see?" "Do you like the smell of it?"</li>
-            <li>Guide children in understanding: Sometimes we like certain smells and
-                sometimes we dislike certain smells.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="7">
+            <li>Ask children: "Has Ling eaten food from the vegetables and fruits group?"
+                "What are they?"</li>
         </ol>
 
-        <img src="{{ asset('assets/images/micet/n1/mybody/class4/c3.png') }}" class="h-[15vw]" />
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class4/c2.png') }}" class="w-[35vw]" />
     </div>
 
 
     {{-- panel 10 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1.5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 4: I Can Smell</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="10">
-            <li>Ask children: "What do you see?" "Do you like the smell of it?"</li>
-            <li>Guide children in understanding: Sometimes we like certain smells and
-                sometimes we dislike certain smells.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="8">
+            <li>Ling has taken an orange, an apple, a banana, an orange juice, some
+                strawberry jam and a salad from the vegetables and fruits group.</li>
         </ol>
 
-        <img src="{{ asset('assets/images/micet/n1/mybody/class4/c4.png') }}" class="h-[15vw]" />
+        <div class="w-fit h-fit relative">
+            <div class="w-[10vw] h-[9vw] border-2 border-[#f7b94a] rounded-[2vw] left-[35%] absolute top-[8%]"></div>
+            <div class="w-[10vw] h-[9vw] border-2 border-[#f7b94a] rounded-[2vw] absolute top-[8%] right-0"></div>
+            <div class="w-[10vw] h-[9vw] border-2 border-[#f7b94a] rounded-[2vw] absolute left-0 bottom-0"></div>
+            <div class="w-[10vw] h-[9vw] border-2 border-[#f7b94a] rounded-[2vw] absolute right-0 bottom-0"></div>
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class4/c2.png') }}" class="w-[35vw]" />
+        </div>
     </div>
 
 
     {{-- panel 11 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1.5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 4: I Can Smell</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="10">
-            <li>Ask children: "What do you see?" "Do you like the smell of it?"</li>
-            <li>Guide children in understanding: Sometimes we like certain smells and
-                sometimes we dislike certain smells.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="9">
+            <li>Ask children: "What are the benefits of eating food from the vegetables
+                and fruits group?" (they help Ling digest her food more easily and have
+                regular bowel movement)</li>
         </ol>
 
-        <img src="{{ asset('assets/images/micet/n1/mybody/class4/c5.png') }}" class="w-[25vw]" />
+        <div class="w-fit h-fit relative">
+            <div class="w-[10vw] h-[9vw] border-2 border-[#f7b94a] rounded-[2vw] left-[35%] absolute top-[8%]"></div>
+            <div class="w-[10vw] h-[9vw] border-2 border-[#f7b94a] rounded-[2vw] absolute top-[8%] right-0"></div>
+            <div class="w-[10vw] h-[9vw] border-2 border-[#f7b94a] rounded-[2vw] absolute left-0 bottom-0"></div>
+            <div class="w-[10vw] h-[9vw] border-2 border-[#f7b94a] rounded-[2vw] absolute right-0 bottom-0"></div>
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class4/c2.png') }}" class="w-[35vw]" />
+        </div>
     </div>
 
 
     {{-- panel 12 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1.5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 4: I Can Smell</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="10">
-            <li>Ask children: "What do you see?" "Do you like the smell of it?"</li>
-            <li>Guide children in understanding: Sometimes we like certain smells and
-                sometimes we dislike certain smells.</li>
+            <li>Ask children: "Has Ling eaten food from the meat and seafood group?"
+                (no) "Does she have a balanced diet?" (no)</li>
         </ol>
 
-        <img src="{{ asset('assets/images/micet/n1/mybody/class4/c6.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class4/c2.png') }}" class="w-[35vw]" />
     </div>
 
 
     {{-- panel 13 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1.5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 4: I Can Smell</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="10">
-            <li>Ask children: "What do you see?" "Do you like the smell of it?"</li>
-            <li>Guide children in understanding: Sometimes we like certain smells and
-                sometimes we dislike certain smells.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="11">
+            <li>Tell children that this is Mike's breakfast. Have children look at the food
+                items and answer the following questions.</li>
         </ol>
 
-        <img src="{{ asset('assets/images/micet/n1/mybody/class4/c7.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class4/c3.png') }}" class="w-[35vw]" />
+    </div>
+
+
+    {{-- panel 13 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="12">
+            <li>Ask children: “”Has Mike eaten food from the rice and noodles group?””
+                “”What are they?””</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class4/c3.png') }}" class="w-[35vw]" />
     </div>
 
 
     {{-- panel 14 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[3vw]">
-        <h1 class="panel-title stroke">Classroom Activity 4: I Can Smell</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="12">
-            <li>Teacher concludes: Our nose enables us to smell. Sometimes we like
-                certain smells and sometimes we dislike certain smells.</li>
-            <li>Ask children: "Is the nose important?" Tell children that the nose is an
-                important part of our body and we must take good care of it.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="13">
+            <li>Mike has taken porridge and bun from the rice and noodles group.</li>
         </ol>
+
+        <div class="w-fit h-fit relative">
+            <div class="w-[10vw] h-[10vw] border-2 border-[#f7b94a] rounded-[2vw] absolute left-[25%]"></div>
+            <div class="w-[10vw] h-[9vw] border-2 border-[#f7b94a] rounded-[2vw] absolute right-[5%] bottom-0"></div>
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class4/c3.png') }}" class="w-[35vw]" />
+        </div>
     </div>
 
 
     {{-- panel 15 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[3vw]">
-        <h1 class="panel-title stroke">Classroom Activity 4: I Can Smell</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="14">
-            <li>Guide children to complete the corresponding activity in the Thematic
-                Activity Book.</li>
+            <li>Ask children: "What are the benefits of eating food from the rice and
+                noodles group?" (they provide energy for Mike to carry out daily activities)</li>
         </ol>
+
+        <div class="w-fit h-fit relative">
+            <div class="w-[10vw] h-[10vw] border-2 border-[#f7b94a] rounded-[2vw] absolute left-[25%]"></div>
+            <div class="w-[10vw] h-[9vw] border-2 border-[#f7b94a] rounded-[2vw] absolute right-[5%] bottom-0"></div>
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class4/c3.png') }}" class="w-[35vw]" />
+        </div>
     </div>
 
 
     {{-- panel 16 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="15">
+            <li>Ask children: "Has Mike eaten food from the meat and seafood group?"
+                "What are they?"</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class4/c3.png') }}" class="w-[35vw]" />
+    </div>
+
+
+    {{-- panel 17 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="16">
+            <li>Ask children: "Has Mike eaten food from the meat and seafood group?"
+                "What are they?"</li>
+        </ol>
+
+        <div class="w-fit h-fit relative">
+            <div class="w-[15vw] h-[7vw] border-2 border-[#f7b94a] rounded-[2vw] absolute right-0 top-[12%]"></div>
+            <div class="w-[8vw] h-[9vw] border-2 border-[#f7b94a] rounded-[2vw] absolute left-0 top-[25%]"></div>
+            <div class="w-[15vw] h-[7vw] border-2 border-[#f7b94a] rounded-[2vw] absolute left-[15%] bottom-0"></div>
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class4/c3.png') }}" class="w-[35vw]" />
+        </div>
+    </div>
+
+
+    {{-- panel 18 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="17">
+            <li>Ask children: "What are the benefits of eating food from the meat and
+                seafood group?" (they help Mike build and strengthen his muscles for
+                growing)</li>
+        </ol>
+
+        <div class="w-fit h-fit relative">
+            <div class="w-[15vw] h-[7vw] border-2 border-[#f7b94a] rounded-[2vw] absolute right-0 top-[12%]"></div>
+            <div class="w-[8vw] h-[9vw] border-2 border-[#f7b94a] rounded-[2vw] absolute left-0 top-[25%]"></div>
+            <div class="w-[15vw] h-[7vw] border-2 border-[#f7b94a] rounded-[2vw] absolute left-[15%] bottom-0"></div>
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class4/c3.png') }}" class="w-[35vw]" />
+        </div>
+    </div>
+
+
+    {{-- panel 19 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="18">
+            <li>Ask children: "Has Mike eaten food from the vegetables and fruits group?"
+                (no) "Does he have a balanced diet?" (no).</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class4/c3.png') }}" class="w-[35vw]" />
+    </div>
+
+
+    {{-- panel 20 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="19">
+            <li>Tell children that this is Danny's breakfast. Have children look at the food
+                items and answer the following questions.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class4/c4.png') }}" class="w-[40vw]" />
+    </div>
+
+
+    {{-- panel 21 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="20">
+            <li>Ask children: "Has Danny eaten food from the meat and seafood group?"
+                "What are they?"</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class4/c4.png') }}" class="w-[40vw]" />
+    </div>
+
+
+    {{-- panel 22 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="21">
+            <li>Danny has taken steamed fish, fried steaks and fried prawns from the meat
+                and seafood group.</li>
+        </ol>
+
+        <div class="w-fit h-fit relative">
+            <div class="w-[15vw] h-[8vw] border-[.25vw] border-[#f7b94a] rounded-[2vw] absolute left-[7%] top-[5%]"></div>
+            <div class="w-[15vw] h-[8vw] border-[.25vw] border-[#f7b94a] rounded-[2vw] absolute right-[2%] top-[5%]"></div>
+            <div class="w-[15vw] h-[7vw] border-[.25vw] border-[#f7b94a] rounded-[2vw] absolute left-[33%] top-[40%]">
+            </div>
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class4/c4.png') }}" class="w-[40vw]" />
+        </div>
+    </div>
+
+
+    {{-- panel 23 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="22">
+            <li>Ask children: "What are the benefits of eating food from the meat and
+                seafood group?" (they help Danny build and strengthen his muscles for growing)</li>
+        </ol>
+
+        <div class="w-fit h-fit relative">
+            <div class="w-[15vw] h-[8vw] border-[.25vw] border-[#f7b94a] rounded-[2vw] absolute left-[7%] top-[5%]"></div>
+            <div class="w-[15vw] h-[8vw] border-[.25vw] border-[#f7b94a] rounded-[2vw] absolute right-[2%] top-[5%]"></div>
+            <div class="w-[15vw] h-[7vw] border-[.25vw] border-[#f7b94a] rounded-[2vw] absolute left-[33%] top-[40%]">
+            </div>
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class4/c4.png') }}" class="w-[40vw]" />
+        </div>
+    </div>
+
+
+    {{-- panel 24 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="23">
+            <li>Ask children: "Has Danny eaten food from the vegetables and fruits
+                group?" "What are they?"</li>
+        </ol>
+
+        <div class="w-fit h-fit relative">
+            <div class="w-[15vw] h-[8vw] border-[.25vw] border-[#f7b94a] rounded-[2vw] absolute left-[7%] top-[5%]"></div>
+            <div class="w-[15vw] h-[8vw] border-[.25vw] border-[#f7b94a] rounded-[2vw] absolute right-[2%] top-[5%]"></div>
+            <div class="w-[15vw] h-[7vw] border-[.25vw] border-[#f7b94a] rounded-[2vw] absolute left-[33%] top-[40%]">
+            </div>
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class4/c4.png') }}" class="w-[40vw]" />
+        </div>
+    </div>
+
+
+    {{-- panel 25 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="24">
+            <li>Danny has taken watermelon, grapes and stir-fried vegetables from the
+                vegetables and fruits group.</li>
+        </ol>
+
+        <div class="w-fit h-fit relative">
+            <div class="w-[13vw] h-[12vw] border-[.25vw] border-[#f7b94a] rounded-[2vw] absolute left-[2%] bottom-0"></div>
+            <div class="w-[15vw] h-[8vw] border-[.25vw] border-[#f7b94a] rounded-[2vw] absolute right-[2%] bottom-0"></div>
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class4/c4.png') }}" class="w-[40vw]" />
+        </div>
+    </div>
+
+
+    {{-- panel 26 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="25">
+            <li>Ask children: "What are the benefits of eating food from the vegetables
+                and fruits group?" (they help Danny digest his food more easily and have
+                regular bowel movement)</li>
+        </ol>
+
+        <div class="w-fit h-fit relative">
+            <div class="w-[12vw] h-[11vw] border-[.25vw] border-[#f7b94a] rounded-[2vw] absolute left-[2%] bottom-0"></div>
+            <div class="w-[15vw] h-[7vw] border-[.25vw] border-[#f7b94a] rounded-[2vw] absolute right-[2%] bottom-0"></div>
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class4/c4.png') }}" class="w-[37vw]" />
+        </div>
+    </div>
+
+
+    {{-- panel 27 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="26">
+            <li>Ask children: "Has Danny eaten food from the rice and noodles group?"
+                (no) "Does he have a balanced diet?" (no)</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class4/c4.png') }}" class="w-[40vw]" />
+    </div>
+
+
+    {{-- panel 28 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="27">
+            <li>Click on the picture to open the Software Magnetic Board. Guide children
+                to prepare a balanced breakfast, lunch or dinner by selecting food from
+                the 3 main groups.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class4/c5.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 29 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Eat a Balanced Meal</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="28">
+            <li>Guide children to complete the corresponding activities in the Thematic
+                Activity Book.</li>
+        </ol>
+    </div>
+
+    {{-- panel 30 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
         <h1 class="panel-title stroke">Classroom Activity 3: I Can Hear</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
-            <ul class="list-disc panel-ul">
-                <li>Let the children take turns and share what smells they like and
-                    dislike.</li>
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Have children take turns to talk about their balanced meals and let others
+                    check whether it's a balanced meal.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
-            <ul class="list-disc panel-ul">
-                <li>Able to understand that our nose enable us to smell.</li>
-                <li>Able to express what smell they like dislike.</li>
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>.Able to know that we need to eat from the 3 main food groups daily in order
+                    to have balanced diet.</li>
+                <li>
+                    Able to know that eating a balanced diet will help us stay healthy and not
+                    fall sick easily.</li>
             </ul>
         </div>
     </div>
 
 
-    {{-- panel 17 --}}
-    <div class="phonics-panel flex flex-col items-center justify-start h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 3: I Can Hear</h1>
-
-        <div class="text-start">
-            <h3 class="ptitle">Extension</h3>
-
-            <ul class="list-disc panel-ul">
-                <li>Let the children find things with a distinct smell at home, and
-                    then bring and show them to the class.</li>
-            </ul>
-        </div>
-    </div>
-
-
-    
 
 
     {{-- =============================================== --}}
@@ -344,8 +578,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n1/mybody/index') }}";
-            const doneURL = "{{ url('/micet/n1/mybody/index') }}";
+            const returnURL = "{{ url('/micet/n1/nutrition/index') }}";
+            const doneURL = "{{ url('/micet/n1/nutrition/index') }}";
 
             // Track current position
             let currentSlide = 0;

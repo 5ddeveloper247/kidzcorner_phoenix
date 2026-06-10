@@ -358,18 +358,337 @@
             <li>Ask children: "What is this?" "Have you seen it before?" "What is its colour
                 and shape?" "What food can it be made into?"</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c12.png') }}" class="w-[12vw]" />
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c13.png') }}" class="w-[20vw]" />
         <h5 class="text-[#f7b94a] text-[1.7vw]">apples</h5>
     </div>
 
 
+    {{-- panel 21 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw] items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Vegetables and Fruits Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="21">
+            <li>Ask children: “””Have you ever eaten an apple?”” “”What does it taste like?””
+                “”How do you eat it?””</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c14.png') }}" class="w-[20vw]" />
+    </div>
 
 
+    {{-- panel 22 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw] items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Vegetables and Fruits Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="22">
+            <li>Ask children: "What is this?" "Have you seen it before?" "What is its colour
+                and shape?" "What food can it be made into?"</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c15.png') }}" class="h-[20vw]" />
+        <h5 class="text-[#f7b94a] text-[1.7vw]">oranges</h5>
+    </div>
 
 
+    {{-- panel 23 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw] items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Vegetables and Fruits Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="23">
+            <li>Ask children: "What is this?" "Have you seen it before?" "What is its colour
+                and shape?" "What food can it be made into?"</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c16.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 24 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw] items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Vegetables and Fruits Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="24">
+            <li>Ask children: "What is this?" "Have you seen it before?" "What is its colour
+                and shape?" "What food can it be made into?"</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c17.png') }}" class="w-[20vw]" />
+        <h5 class="text-[#f7b94a] text-[1.7vw]">grapes</h5>
+    </div>
+
+
+    {{-- panel 25 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw] items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Vegetables and Fruits Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="25">
+            <li>Ask children: “””Have you ever eaten a grape?”” “”What does it taste like?””
+                “”How do you eat it?””</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c18.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 26 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw] items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Vegetables and Fruits Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="26">
+            <li>Ask children: "What is this?" "Have you seen it before?" "What is its colour
+                and shape?" "What food can it be made into?"</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c19.png') }}" class="h-[20vw]" />
+        <h5 class="text-[#f7b94a] text-[1.7vw]">watermelon</h5>
+    </div>
+
+
+    {{-- panel 27 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw] items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Vegetables and Fruits Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="27">
+            <li>Ask children: “””Have you ever eaten a watermelon?”” “”What does it taste like?””
+                “”How do you eat it?””</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c20.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 28 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw] items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Vegetables and Fruits Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="28">
+            <li>Ask children: "What is this?" "Have you seen it before?" "What is its colour
+                and shape?" "What food can it be made into?"</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c21.png') }}" class="w-[25vw]" />
+        <h5 class="text-[#f7b94a] text-[1.7vw]">bananas</h5>
+    </div>
+
+
+    {{-- panel 29 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw] items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Vegetables and Fruits Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="29">
+            <li>Ask children: “””Have you ever eaten a banana?”” “”What does it taste like?””
+                “”How do you eat it?””</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c22.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 30 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw] items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Vegetables and Fruits Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="30">
+            <li>Have the children name the fruits.</li>
+        </ol>
+        <div class="grid grid-cols-6 gap-4 justify-items-center">
+
+            <div class="col-span-3">
+                <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c19.png') }}" class="h-[8vw]" />
+                <h5 class="text-[#f7b94a] text-[1.7vw] text-center">watermelon</h5>
+            </div>
+
+            <div class="col-span-3">
+                <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c22.png') }}" class="w-[10vw]" />
+                <h5 class="text-[#f7b94a] text-[1.7vw] text-center">bananas</h5>
+            </div>
+
+            <div class="col-span-2">
+                <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c13.png') }}" class="w-[10vw]" />
+                <h5 class="text-[#f7b94a] text-[1.7vw] text-center">apples</h5>
+            </div>
+
+            <div class="col-span-2">
+                <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c15.png') }}" class="h-[8vw]" />
+                <h5 class="text-[#f7b94a] text-[1.7vw] text-center">orange</h5>
+            </div>
+
+            <div class="col-span-2">
+                <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c17.png') }}" class="h-[8vw]" />
+                <h5 class="text-[#f7b94a] text-[1.7vw] text-center">grapes</h5>
+            </div>
+
+        </div>
+    </div>
+
+
+    {{-- panel 31 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw] items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Vegetables and Fruits Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="31">
+            <li>Ask children: “”What are the differences between the taste of vegetables
+                and fruits””</li>
+        </ol>
+
+        <div class="flex justify-between w-full">
+
+            <div class="flex flex-col items-center gap-4 border-4 border-[#f7b94a] rounded-full">
+
+                <!-- Top Image -->
+                <div>
+                    <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c11.png') }}" class="w-[10vw]" />
+                </div>
+
+                <!-- Bottom 2 Images -->
+                <div class="flex gap-4">
+                    <div>
+                        <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c3.png') }}" class="w-[10vw]" />
+                    </div>
+
+                    <div>
+                        <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c1.png') }}" class="w-[10vw]" />
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="flex flex-col items-center gap-4 border-4 border-[#f7b94a] rounded-full">
+
+                <!-- Top Image -->
+                <div>
+                    <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c17.png') }}" class="w-[10vw]" />
+                </div>
+
+                <!-- Bottom 2 Images -->
+                <div class="flex gap-4">
+                    <div>
+                        <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c15.png') }}" class="h-[10vw]" />
+                    </div>
+
+                    <div>
+                        <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c21.png') }}" class="w-[10vw]" />
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    {{-- panel 32 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw] items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Vegetables and Fruits Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="32">
+            <li>Tell children that most fruits are sweet and can be eaten raw, while
+                vegetables are normally cooked before eaten.</li>
+        </ol>
+
+        <div class="flex justify-between w-full">
+
+            <div class="flex flex-col items-center gap-4 border-4 border-[#f7b94a] rounded-full">
+
+                <!-- Top Image -->
+                <div>
+                    <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c11.png') }}" class="w-[10vw]" />
+                </div>
+
+                <!-- Bottom 2 Images -->
+                <div class="flex gap-4">
+                    <div>
+                        <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c3.png') }}" class="w-[10vw]" />
+                    </div>
+
+                    <div>
+                        <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c1.png') }}" class="w-[10vw]" />
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="flex flex-col items-center gap-4 border-4 border-[#f7b94a] rounded-full">
+
+                <!-- Top Image -->
+                <div>
+                    <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c17.png') }}" class="w-[10vw]" />
+                </div>
+
+                <!-- Bottom 2 Images -->
+                <div class="flex gap-4">
+                    <div>
+                        <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c15.png') }}" class="h-[10vw]" />
+                    </div>
+
+                    <div>
+                        <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c21.png') }}" class="w-[10vw]" />
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    {{-- panel 33 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw] items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Vegetables and Fruits Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="33">
+            <li>Have children say whether these fruits are sweet.</li>
+        </ol>
+        <div class="grid grid-cols-6 gap-4 justify-items-center">
+
+            <div class="col-span-3">
+                <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c19.png') }}" class="h-[8vw]" />
+                <h5 class="text-[#f7b94a] text-[1.7vw] text-center">watermelon</h5>
+            </div>
+
+            <div class="col-span-3">
+                <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c22.png') }}" class="w-[10vw]" />
+                <h5 class="text-[#f7b94a] text-[1.7vw] text-center">bananas</h5>
+            </div>
+
+            <div class="col-span-2">
+                <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c13.png') }}" class="w-[10vw]" />
+                <h5 class="text-[#f7b94a] text-[1.7vw] text-center">apples</h5>
+            </div>
+
+            <div class="col-span-2">
+                <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c15.png') }}" class="h-[8vw]" />
+                <h5 class="text-[#f7b94a] text-[1.7vw] text-center">orange</h5>
+            </div>
+
+            <div class="col-span-2">
+                <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c17.png') }}" class="h-[8vw]" />
+                <h5 class="text-[#f7b94a] text-[1.7vw] text-center">grapes</h5>
+            </div>
+
+        </div>
+    </div>
 
 
     {{-- panel 34 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw] items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Vegetables and Fruits Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="34">
+            <li>Ask children: "Do you know why we need to eat from the vegetables and
+                fruits group everyday?" Encourage children to guess boldly, teacher assists
+                when needed.</li>
+            <li>Tell children that food from the vegetables and fruits group help us to digest
+                our food more easily and have regular bowel movement.</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class3/c23.png') }}" class="w-[20vw]" />
+    </div>
+
+
+    {{-- panel 35 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw] items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Vegetables and Fruits Group</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="36">
+            <li>Guide children to complete the corresponding activities in the Thematic
+                Activity Book.</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 36 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
         <h1 class="panel-title stroke">Classroom Activity 3: Vegetables and Fruits Group</h1>
 
@@ -377,22 +696,22 @@
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul">
-                <li>Let the children take turns and share what sounds they like and
-                    dislike to hear.</li>
+                <li>Have children take turns to talk about the fruits and vegetables that they
+                    have eaten and the benefits of eating them.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul">
-                <li>Able to understand that our ears enable us to hear sounds.</li>
-                <li>Able to express what sounds they like and don't like to
-                    hear.</li>
+                <li>Able to know that most fruits are sweet and can be eaten raw.</li>
+                <li>Able to know that food from the vegetables and fruits group promotes
+                    good digestive system and regular bowel movement.</li>
             </ul>
         </div>
     </div>
 
 
-    {{-- panel 35 --}}
+    {{-- panel 37 --}}
     <div class="phonics-panel flex flex-col items-center justify-start h-full space-y-[2vw]">
         <h1 class="panel-title stroke">Classroom Activity 3: Vegetables and Fruits Group</h1>
 
@@ -400,15 +719,13 @@
             <h3 class="ptitle">Extension</h3>
 
             <ul class="list-disc panel-ul">
-                <li>Get children to find out from their parents at home on how
-                    to take care of their ears, then share the information with
-                    the class.</li>
+                <li>At home, have children spot food from the vegetables and fruits
+                    group when having dinner and tell their parents about the benefit
+                    of eating them. Back in the class, have children take turns to share
+                    what food they had from the vegetables and fruits group.</li>
             </ul>
         </div>
     </div>
-
-
-
 
 
 

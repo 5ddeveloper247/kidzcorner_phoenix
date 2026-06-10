@@ -38,7 +38,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: I Can Taste</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Making Sandwiches</h1>
         <div class="flex ">
             <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
             <img src="{{ asset('assets/images/micet/n1/mybody/class2/c1.png') }}" class="h-[12vw]" />
@@ -48,296 +48,232 @@
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul">
-            <li>Understand that our ears enable us to hear sounds</li>
-            <li>Express what sounds they like and dislike to hear</li>
+            <li>Make a sandwich based on individual preference following the balanced diet principle</li>
+            <li>Know that we must wash hands before and after touching food</li>
+            <li>Learn the correct way of washing hands</li>
+            <li>Practice self-help skills (spread butter on the bread) </li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 5: I Can Taste</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Making Sandwiches</h1>
 
-        <h3 class="ptitle">Preparations</h3>
+        <div>
+            <h3 class="ptitle">Preparations</h3>
 
-        <ul class="list-disc panel-ul w-[42vw]">
-            <li>Thematic Activity Book</li>
-            <li>Each child to have a plate containing: a bit of sugar, salt,
-                diluted lemon juice, diluted bitter gourd juice and diluted
-                chilli sauce</li>
-        </ul>
+            <ul class="list-disc panel-ul w-[42vw]">
+                <li>Thematic Activity Book</li>
+                <li>Butter, knife</li>
+                <li>Sandwich ingredients (E.g .: rice and noodles group - plain bread,
+                    wholemeal bread; vegetables and fruits group - shredded lettuce,
+                    cucumber slices, tomato slices, strawberry slices; meat and
+                    seafood group - sardine, tuna, salmon, chicken hotdog)
+                    [Note: Categorise all the ingredients and place them at 3
+                    different places.]</li>
+            </ul>
+        </div>
     </div>
 
 
     {{-- panel 3 --}}
-    <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: I Can Taste</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 5: Making Sandwiches</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
-            <ol class="list-decimal panel-ul w-[50vw]">
-                <li>Ask children: “”Where is the nose of the gingerbread man?”” Have the children
-                    point to the nose.</li>
+            <ol class="list-decimal panel-ul w-[45vw]">
+                <li>Ask children: "What are these?" "Have you ever eaten them?" "Do you like them?"</li>
             </ol>
         </div>
 
-        <img src="{{ asset('assets/images/micet/n1/mybody/class1/c2.png') }}" class="h-[20vw]" />
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class5/c1.png') }}" class="w-[30vw]" />
+        <h5 class="text-[#f7b94a] text-[1.7vw]">sandwiches</h5>
     </div>
 
 
     {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: I Can Taste</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 5: Making Sandwiches</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="2">
-            <li>Ask children: "Where is your mouth?" "How many mouth do you have?" Have
-                children point to their own mouth. Tell them that everyone has a mouth.</li>
-            <li>Ask children: "What are the functions of the mouth?" Guide children to say
-                that our mouth enables us to eat, talk and sing.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="2">
+            <li>Ask children: "Do you know how to make sandwiches?"</li>
         </ol>
-
-        <img src="{{ asset('assets/images/micet/n1/mybody/class5/c1.png') }}" class="w-[20vw]" />
-        <h5 class="text-[#f7b94a] text-[1.7vw]">mouth</h5>
     </div>
 
 
     {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: I Can Taste</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 5: Making Sandwiches</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="4">
-            <li>Ask children: "Do you enjoy eating?" "Do you know which parts of our mouth help us eat?"
-                Have children point to their teeth and tongue. Tell children that the teeth help us bite
-                and chew food, while the tongue helps us taste the food.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Click on the video, have children look at the steps in making a sandwich,</li>
         </ol>
-
-        <img src="{{ asset('assets/images/micet/n1/mybody/class5/c1.png') }}" class="w-[20vw]" />
+        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/n1/nutrition/class5/v1.mp4') }}" type="video/mp4">
+        </video>
     </div>
 
 
     {{-- panel 6 --}}
-    <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: I Can Taste</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 5: Making Sandwiches</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="5">
-            <li>Ask children: "What is your favourite food?" "Why?" Guide children to say that they like
-                to eat certain food because they are tasty. Tell children that our tongue enables us to
-                taste the food.</li>
-            <li>Have children do an experiment to confirm the functions of the tongue.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="4">
+            <li>Click on the picture to open the Software Magnetic Board. Guide children
+                to name and categorise the food.</li>
         </ol>
 
-        <img src="{{ asset('assets/images/micet/n1/mybody/class5/c1.png') }}" class="w-[20vw]" />
+        <div class="bg-[#D9D9D9] rounded-[.5vw] p-[1vw]">
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class5/c2.png') }}" class="w-[30vw]" />
+        </div>
     </div>
 
 
     {{-- panel 7 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full space-y-[1.5vw] items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: I Can Taste</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 5: Making Sandwiches</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="7">
-            <li>Display the prepared food items in a plate. Tell children that each of the food
-                items in the plate has a different taste</li>
-            <li>Distribute a plate with the food items to each child. Have children taste the
-                different food items, then talk about the taste of each food item and whether
-                they like or dislike its taste.</li>
-            <li>Tell children that without the tongue, we'll not be able to taste the different
-                food items.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="5">
+            <li>Click on the picture to open the Software Magnetic Board. Guide children to select food
+                from each category to make a well-balanced sandwich.
+                [Note: Guide children to place the food items apart, so each can be seen.]</li>
         </ol>
+        <div class="bg-[#D9D9D9] rounded-[.5vw] p-[.5vw]">
+            <img src="{{ asset('assets/images/micet/n1/nutrition/class5/c2.png') }}" class="h-[15vw]" />
+        </div>
     </div>
 
 
     {{-- panel 8 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full space-y-[3vw] items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: I Can Taste</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw] items-center">
+        <h1 class="panel-title stroke">Classroom Activity 5: Making Sandwiches</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="10">
-            <li>Ask children: “”Do you like all the different tastes? Let’s find out together!””</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="6">
+            <li>Inform children that they are going to make a healthy and yummy
+                sandwich</li>
+            <li>Tell children that we must wash hands before touching any food because
+                our hands are full of dirt (germs).</li>
+            <li>Ask children: "What will happen if you eat with dirty hands?" Encourage
+                children to guess boldly and accept all logical answers.</li>
         </ol>
     </div>
 
 
     {{-- panel 9 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full space-y-[1.5vw] items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: I Can Taste</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw] items-center">
+        <h1 class="panel-title stroke">Classroom Activity 5: Making Sandwiches</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="11">
-            <li>Ask children: "What is this?" "Do you like its taste?"</li>
-            <li>Guide children in understanding: Sometimes we like the food we've tasted
-                and sometimes we dislike the food we've tasted.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="9">
+            <li>Have children look at the animation, then talk about the consequence of
+                eating with dirty hands. [stomach ache]</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n1/mybody/class5/c2.png') }}" class="w-[25vw]" />
-        <h5 class="text-[#f7b94a] text-[1.7vw]">cake</h5>
+        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/n1/nutrition/class5/v2.mp4') }}" type="video/mp4">
+        </video>
     </div>
 
 
     {{-- panel 10 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full space-y-[1.5vw] items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: I Can Taste</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw] items-center">
+        <h1 class="panel-title stroke">Classroom Activity 5: Making Sandwiches</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="11">
-            <li>Ask children: "What is this?" "Do you like its taste?"</li>
-            <li>Guide children in understanding: Sometimes we like the food we've tasted
-                and sometimes we dislike the food we've tasted.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="10">
+            <li>Have children look at the animation, then talk about why we need to wash
+                our hands with soap. [Soap can wash away dirt (kill germs).]</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n1/mybody/class5/c3.png') }}" class="w-[25vw]" />
-        <h5 class="text-[#f7b94a] text-[1.7vw]">chillies</h5>
+        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/n1/nutrition/class5/v3.mp4') }}" type="video/mp4">
+        </video>
     </div>
 
 
     {{-- panel 11 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full space-y-[1.5vw] items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: I Can Taste</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw] items-center">
+        <h1 class="panel-title stroke">Classroom Activity 5: Making Sandwiches</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="11">
-            <li>Ask children: "What is this?" "Do you like its taste?"</li>
-            <li>Guide children in understanding: Sometimes we like the food we've tasted
-                and sometimes we dislike the food we've tasted.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="11">
+            <li>Demonstrate the correct way to wash hands. After that, have children
+                queue up to wash their hands. Teacher assists when needed.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n1/mybody/class5/c4.png') }}" class="w-[18vw]" />
-        <h5 class="text-[#f7b94a] text-[1.7vw]">pizza</h5>
+        <img src="{{ asset('assets/images/micet/n1/nutrition/class5/c3.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 12 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full space-y-[1.5vw] items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: I Can Taste</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw] items-center">
+        <h1 class="panel-title stroke">Classroom Activity 5: Making Sandwiches</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="11">
-            <li>Ask children: "What is this?" "Do you like its taste?"</li>
-            <li>Guide children in understanding: Sometimes we like the food we've tasted
-                and sometimes we dislike the food we've tasted.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="12">
+            <li>After washing hands, display the sandwich ingredients. Have children
+                name each of them.</li>
+            <li>Demonstrate and explain how to make a sandwich:
+                <ul class="list-disc">
+                    <li>First, choose a slice of bread and spread butter on it.</li>
+                    <li>Then choose and place a kind of food from the meat and seafood
+                        group on the bread.</li>
+                    <li>Now choose and place one or two kinds of food from the vegetables
+                        and fruits group on the bread.</li>
+                    <li>Finally, place another slice of bread on top to complete the
+                        sandwich making.</li>
+                </ul>
+            </li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n1/mybody/class5/c5.png') }}" class="w-[18vw]" />
-        <h5 class="text-[#f7b94a] text-[1.7vw]">bitter gourd</h5>
+    </div>
+
+
+    {{-- panel 13 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full space-y-[1vw] items-center">
+        <h1 class="panel-title stroke">Classroom Activity 5: Making Sandwiches</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="14">
+            <li>Have children choose the ingredients they like to make a sandwich,
+                teacher assists when needed.</li>
+            <li>Allow children to choose freely to make a well-balanced sandwich: one or
+                more kinds of ingredients from the meat and seafood group, as well as the
+                vegetables and fruits group; two or more slices of bread. [Key 1: learn to
+                choose ingredients from the 3 main food groups to make a well-balanced
+                sandwich; Key 2: learn to make things with own hands]</li>
+        </ol>
     </div>
 
 
     {{-- panel 13 --}}
     <div class="phonics-panel flex flex-col justify-start h-full space-y-[1.5vw] items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: I Can Taste</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Making Sandwiches</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="11">
-            <li>Ask children: "What is this?" "Do you like its taste?"</li>
-            <li>Guide children in understanding: Sometimes we like the food we've tasted
-                and sometimes we dislike the food we've tasted.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="16">
+            <li>Guide children to complete the corresponding activities in the
+                Thematic Activity Book.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n1/mybody/class5/c6.png') }}" class="w-[18vw]" />
-        <h5 class="text-[#f7b94a] text-[1.7vw]">chocolate bar</h5>
     </div>
 
-
-    {{-- panel 13 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full space-y-[1.5vw] items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: I Can Taste</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="11">
-            <li>Ask children: "What is this?" "Do you like its taste?"</li>
-            <li>Guide children in understanding: Sometimes we like the food we've tasted
-                and sometimes we dislike the food we've tasted.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n1/mybody/class5/c7.png') }}" class="w-[18vw]" />
-        <h5 class="text-[#f7b94a] text-[1.7vw]">lemons</h5>
-    </div>
 
 
     {{-- panel 14 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full space-y-[1.5vw] items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: I Can Taste</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="11">
-            <li>Ask children: "What is this?" "Do you like its taste?"</li>
-            <li>Guide children in understanding: Sometimes we like the food we've tasted
-                and sometimes we dislike the food we've tasted.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n1/mybody/class5/c8.png') }}" class="w-[18vw]" />
-        <h5 class="text-[#f7b94a] text-[1.7vw]">potato chips</h5>
-    </div>
-
-
-    {{-- panel 15 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full space-y-[1.5vw] items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: I Can Taste</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="11">
-            <li>Ask children: "What is this?" "Do you like its taste?"</li>
-            <li>Guide children in understanding: Sometimes we like the food we've tasted
-                and sometimes we dislike the food we've tasted.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n1/mybody/class4/c2.png') }}" class="w-[18vw]" />
-        <h5 class="text-[#f7b94a] text-[1.7vw]">hot chocolate</h5>
-    </div>
-
-
-    {{-- panel 16 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full space-y-[1.5vw] items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: I Can Taste</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="11">
-            <li>Ask children: "What is this?" "Do you like its taste?"</li>
-            <li>Guide children in understanding: Sometimes we like the food we've tasted
-                and sometimes we dislike the food we've tasted.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n1/mybody/class5/c9.png') }}" class="w-[18vw]" />
-        <h5 class="text-[#f7b94a] text-[1.7vw]">apples</h5>
-    </div>
-
-
-    {{-- panel 17 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full space-y-[1.5vw] items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: I Can Taste</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="11">
-            <li>Ask children: "What is this?" "Do you like its taste?"</li>
-            <li>Guide children in understanding: Sometimes we like the food we've tasted
-                and sometimes we dislike the food we've tasted.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n1/mybody/class5/c10.png') }}" class="w-[20vw]" />
-        <h5 class="text-[#f7b94a] text-[1.7vw]">chilli sauce</h5>
-    </div>
-
-
-    {{-- panel 18 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full space-y-[2vw] items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: I Can Taste</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="13">
-            <li>Teacher concludes: Our tongue enables us to taste food. Sometimes we like
-                the food we've tasted and sometimes we dislike the food we've tasted.</li>
-            <li>Ask children: "Are our mouth and tongue important?" Tell children that our
-                mouth and tongue are important and we must take good care of them.</li>
-        </ol>
-    </div>
-
-
-    {{-- panel 17 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full space-y-[2vw] items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: I Can Taste</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="15">
-            <li>Guide children to complete the corresponding activity in the Thematic
-                Activity Book.</li>
-        </ol>
-    </div>
-
-
-    {{-- panel 18 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 5: I Can Taste</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Making Sandwiches</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
-            <ul class="list-disc panel-ul">
-                <li>Let the children take turns and share what food tastes they like and
-                    dislike.</li>
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Have children take turns to display their sandwiches and talk about the
+                    ingredients used. Have the other children check whether it's a well-balanced
+                    sandwich.</li>
+                <li>Finally, have children eat the sandwiches together. Remind children to wash
+                    their hands after eating.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
-            <ul class="list-disc panel-ul">
-                <li>Able to understand that our tongue enables us to taste food.</li>
-                <li>Able to express what food tastes they like and dislike.</li>
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Able to choose ingredients from the 3 main food groups to make a
+                    well-balanced sandwich.</li>
+                <li>Able to know that we must wash hands before and after touching food.</li>
+                <li>Able to wash hands correctly.</li>
             </ul>
         </div>
     </div>
@@ -345,14 +281,14 @@
 
     {{-- panel 19 --}}
     <div class="phonics-panel flex flex-col items-center justify-start h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 5: I Can Taste</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Making Sandwiches</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Extension</h3>
 
-            <ul class="list-disc panel-ul">
-                <li>Get children to tell their parents which food tastes good
-                    during dinner time.</li>
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Encourage children to invite their parents to buy ingredients and
+                    make sandwiches together during their free time.</li>
             </ul>
         </div>
     </div>
@@ -413,8 +349,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n1/mybody/index') }}";
-            const doneURL = "{{ url('/micet/n1/mybody/index') }}";
+            const returnURL = "{{ url('/micet/n1/nutrition/index') }}";
+            const doneURL = "{{ url('/micet/n1/nutrition/index') }}";
 
             // Track current position
             let currentSlide = 0;
