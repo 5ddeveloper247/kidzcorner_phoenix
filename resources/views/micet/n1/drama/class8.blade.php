@@ -1,0 +1,872 @@
+@extends('layout.master')
+@section('title', 'Dynamic Presentation')
+
+@php
+    $showBackground = false;
+    $showVector1 = true;
+    $showVector5 = false;
+    $showMascot = true;
+@endphp
+
+
+@push('styles')
+    <style>
+        .p-note {
+            font-size: 1.2vw;
+            color: white !important;
+        }
+
+        .panel-title {
+            color: #F7B94A;
+            font-size: 2.5vw;
+        }
+
+        .ptitle {
+            color: #F7B94A;
+            font-size: 1.7vw;
+        }
+
+        .panel-ul {
+            color: white;
+            font-size: 1.4vw;
+            text-align: left;
+        }
+    </style>
+@endpush
+
+@section('content')
+
+    {{-- panel 1 --}}
+    <div class="phonics-panel flex flex-col justify-between h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 8: Animal Sounds</h1>
+        <div class="flex items-center">
+            <img src="{{ asset('assets/images/micet/n1/colours/class8/b1.png') }}" class="h-[8vw]" />
+            <img src="{{ asset('assets/images/micet/n1/colours/class8/b2.png') }}" class="h-[8vw]" />
+        </div>
+
+        <h3 class="ptitle">Objectives:</h3>
+
+        <ul class="list-disc panel-ul">
+            <li>Identify different animal sounds</li>
+            <li>Learn to sing a song about animal sounds</li>
+            <li>Do actions of animals when singing the song</li>
+            <li>Learn to work with friends</li>
+        </ul>
+    </div>
+
+
+    {{-- panel 2 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 8: Animal Sounds</h1>
+
+        <h3 class="ptitle">Preparations</h3>
+
+        <ul class="list-disc panel-ul">
+            <li>Thematic Activity Book</li>
+        </ul>
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
+        <h1 class="panel-title stroke">Classroom Activity 8: Animal Sounds</h1>
+
+        <div class="text-start">
+            <h3 class="ptitle">Lesson Development</h3>
+
+            <ol class="list-decimal panel-ul w-[50vw]">
+                <li>Tell children that they are going to name the animals after listening to the
+                    different animal sounds.</li>
+            </ol>
+        </div>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 8: Animal Sounds</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="2">
+            <li>Play the sound, ask children: "What animal makes this sound?" "Does this
+                animal have legs, fins or wings?" </li>
+        </ol>
+
+        <button class="w-[4vw] mt-[7vw]" id="soundButton">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+        </button>
+
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 8: Animal Sounds</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="3">
+            <li>Did you guess correctly? It's the sound of a lamb. It has 4 legs but no fins
+                and wings.</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/n1/animals/class8/c1.png') }}" class="w-[20vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">lamb</h5>
+    </div>
+
+
+    {{-- panel 6 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 8: Animal Sounds</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="4">
+            <li>Play the sound, ask children: "What animal makes this sound?" "Does this
+                animal have legs, fins or wings?"</li>
+        </ol>
+
+        <button class="w-[4vw] mt-[7vw]" id="soundButton">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+        </button>
+    </div>
+
+
+    {{-- panel 7 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 8: Animal Sounds</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="5">
+            <li>Did you guess correctly? It's the sound of a tiger. It has 4 legs but no fins
+                and wings.</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/n1/animals/class8/c2.png') }}" class="h-[17vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">tiger</h5>
+    </div>
+
+
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 8: Animal Sounds</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="6">
+            <li>Play the sound, ask children: "What animal makes this sound?" "Does this
+                animal have legs, fins or wings?"</li>
+        </ol>
+
+        <button class="w-[4vw] mt-[7vw]" id="soundButton">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+        </button>
+    </div>
+
+
+    {{-- panel 9 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 8: Animal Sounds</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="7">
+            <li>Did you guess correctly? It's the sound of a wolf. It has 4 legs but no fins
+                and wings.</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/n1/animals/class8/c3.png') }}" class="w-[19vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">wolf</h5>
+    </div>
+
+
+    {{-- panel 10 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 8: Animal Sounds</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="8">
+            <li>Play the sound, ask children: "What animal makes this sound?" "Does this
+                animal have legs, fins or wings?"</li>
+        </ol>
+
+        <button class="w-[4vw] mt-[7vw]" id="soundButton">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+        </button>
+    </div>
+
+
+    {{-- panel 11 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 8: Animal Sounds</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="9">
+            <li>Did you guess correctly? It's the sound of a elephant. It has 4 legs but no fins
+                and wings.</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/n1/animals/class8/c4.png') }}" class="w-[25vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">elephant</h5>
+    </div>
+
+
+    {{-- panel 12 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 8: Animal Sounds</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="10">
+            <li>Play the sound, ask children: "What animal makes this sound?" "Does this
+                animal have legs, fins or wings?"</li>
+        </ol>
+
+        <button class="w-[4vw] mt-[7vw]" id="soundButton">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+        </button>
+    </div>
+
+
+    {{-- panel 13 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 8: Animal Sounds</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="11">
+            <li>Did you guess correctly? It's the sound of a dolphin. It has fins (and flippers)
+                but no legs and wings.</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/n1/animals/class8/c5.png') }}" class="w-[25vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">dolphin</h5>
+    </div>
+
+
+    {{-- panel 14 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 8: Animal Sounds</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="12">
+            <li>Play the sound, ask children: "What animal makes this sound?" "Does this
+                animal have legs, fins or wings?"</li>
+        </ol>
+
+        <button class="w-[4vw] mt-[7vw]" id="soundButton">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+        </button>
+    </div>
+
+
+    {{-- panel 15 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 8: Animal Sounds</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="13">
+            <li>Did you guess correctly? It's the sound of a sealion. It has flippers
+                but no legs and wings.</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/n1/animals/class8/c6.png') }}" class="w-[19vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">sealion</h5>
+    </div>
+
+
+    {{-- panel 16 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 8: Animal Sounds</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="14">
+            <li>Play the sound, ask children: "What animal makes this sound?" "Does this
+                animal have legs, fins or wings?"</li>
+        </ol>
+
+        <button class="w-[4vw] mt-[7vw]" id="soundButton">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+        </button>
+    </div>
+
+
+    {{-- panel 17 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 8: Animal Sounds</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="15">
+            <li>Did you guess correctly? It's the sound of a parrot. It has wings and legs
+                but no fins.</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/n1/animals/class8/c7.png') }}" class="w-[18vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">parrot</h5>
+    </div>
+
+
+    {{-- panel 18 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 8: Animal Sounds</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="16">
+            <li>Play the sound, ask children: "What animal makes this sound?" "Does this
+                animal have legs, fins or wings?"</li>
+        </ol>
+
+        <button class="w-[4vw] mt-[7vw]" id="soundButton">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+        </button>
+    </div>
+
+
+    {{-- panel 19 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 8: Animal Sounds</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="17">
+            <li>Did you guess correctly? It's the sound of an eagle. It has wings and legs
+                but no fins.</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/n1/animals/class8/c8.png') }}" class="h-[17vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">eagle</h5>
+    </div>
+
+
+    {{-- panel 20 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 8: Animal Sounds</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="18">
+            <li>Play the sound, ask children: "What animal makes this sound?" "Does this
+                animal have legs, fins or wings?"</li>
+        </ol>
+
+        <button class="w-[4vw] mt-[7vw]" id="soundButton">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+        </button>
+    </div>
+
+
+    {{-- panel 21 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 8: Animal Sounds</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="19">
+            <li>Did you guess correctly? It's the sound of an owl. It has wings and legs
+                but no fins.</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/n1/animals/class8/c9.png') }}" class="h-[17vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">owl</h5>
+    </div>
+
+
+    {{-- panel 22 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 8: Animal Sounds</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="20">
+            <li>Play the sound, ask children: "What animal makes this sound?" "Does this
+                animal have legs, fins or wings?"</li>
+        </ol>
+
+        <button class="w-[4vw] mt-[7vw]" id="soundButton">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+        </button>
+    </div>
+
+
+    {{-- panel 23 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 8: Animal Sounds</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="21">
+            <li>Did you guess correctly? It's the sound of a seagull. It has wings and legs
+                but no fins.</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/n1/animals/class8/c10.png') }}" class="w-[25vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">seagull</h5>
+    </div>
+
+
+    {{-- panel 24 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 8: Animal Sounds</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="22">
+            <li>Tell children that they are going to learn to sing a song about animal sounds.</li>
+            <li>First, have them learn the sounds of dolphins, bees, lambs and kittens.</li>
+            <li>Then play the music and have children listen to the teacher sing.</li>
+        </ol>
+
+        <div class="flex items-center gap-[1vw]">
+
+            <button class="w-[4vw] mt-[7vw]" id="soundButton">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            </button>
+
+            <h5 class="text-start text-[1.4vw] text-[#f7b94a]">There are many animals, <br>
+                E-I-E-I-O! <br>
+                Dolphins, bees, lambs and kittens, <br>
+                E-I-E-I-O! <br>
+                Squeak-squeak-squeak, <br>
+                buzz-buzz-buzz, <br>
+                Bleat-bleat-bleat-bleat, <br>
+                and meow-meow-meow-meow-meow! <br>
+                There are many animals, <br>
+                E-I-E-I-O!</h5>
+        </div>
+    </div>
+
+
+    {{-- panel 25 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 8: Animal Sounds</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="25">
+            <li>Explain the meaning of the lyrics to children.</li>
+            <li>Replay music, have children sing along.</li>
+        </ol>
+
+        <div class="flex items-center gap-[1vw]">
+
+            <button class="w-[4vw] mt-[7vw]" id="soundButton">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            </button>
+
+            <h5 class="text-start text-[1.4vw] text-[#f7b94a]">There are many animals, <br>
+                E-I-E-I-O! <br>
+                Dolphins, bees, lambs and kittens, <br>
+                E-I-E-I-O! <br>
+                Squeak-squeak-squeak, <br>
+                buzz-buzz-buzz, <br>
+                Bleat-bleat-bleat-bleat, <br>
+                and meow-meow-meow-meow-meow! <br>
+                There are many animals, <br>
+                E-I-E-I-O!</h5>
+        </div>
+    </div>
+
+
+    {{-- panel 26 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 8: Animal Sounds</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="27">
+            <li>Have children do the actions of respective animals when singing.</li>
+        </ol>
+
+        <div class="flex items-center gap-[1vw]">
+
+            <button class="w-[4vw] mt-[7vw]" id="soundButton">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            </button>
+
+            <h5 class="text-start text-[1.4vw] text-[#f7b94a]">There are many animals, <br>
+                E-I-E-I-O! <br>
+                Dolphins, bees, lambs and kittens, <br>
+                E-I-E-I-O! <br>
+                Squeak-squeak-squeak, <br>
+                buzz-buzz-buzz, <br>
+                Bleat-bleat-bleat-bleat, <br>
+                and meow-meow-meow-meow-meow! <br>
+                There are many animals, <br>
+                E-I-E-I-O!</h5>
+        </div>
+    </div>
+
+
+    {{-- panel 27 --}}
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 8: Animal Sounds</h1>
+
+        <div class="text-start flex flex-col justify-between h-full">
+            <h3 class="ptitle">Clousre</h3>
+
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Divide children into four groups, each representing an animal in the song.
+                    Have them work together to perform the song [sounds and actions of
+                    the animals in the song].</li>
+            </ul>
+
+            <h3 class="ptitle">Evaluation</h3>
+
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Able to identify different animal sounds.</li>
+                <li>Able to sing the song about animal sounds.</li>
+                <li>Able to work with friends to perform the song.</li>
+            </ul>
+        </div>
+    </div>
+
+    {{-- panel 28 --}}
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 8: Animal Sounds</h1>
+
+        <div class="text-start flex flex-col">
+            <h3 class="ptitle">Extension</h3>
+
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Guide children to compose a new song by replacing the 4 animals in
+                    the song.</li>
+            </ul>
+        </div>
+    </div>
+
+
+
+
+    {{-- =============================================== --}}
+    {{-- All Buttons --}}
+    <div id="buttons" class="absolute flex flex-row gap-6 z-90">
+
+        <!-- Home Button -->
+        <button id="returnButton">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/return-btn.png') }}" />
+        </button>
+
+        <!-- return Button -->
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/home-btn.png') }}" />
+        </button>
+
+        <!-- Close Button -->
+        <button id="closeButton">
+
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/cancel.png') }}" />
+        </button>
+    </div>
+
+    {{-- Next and Done Buttons --}}
+    <div class="down-btn-container">
+        <button class="nextButton">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/next-btn.png') }}" />
+        </button>
+    </div>
+
+    <div class="down-btn-container">
+        <button class="doneButton hidden">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/done.png') }}" />
+        </button>
+    </div>
+@endsection
+
+@push('script')
+    <script>
+        // SLIDE NAVIGATION SYSTEM
+        document.body.dataset.homeRoute = "{{ url('/micet') }}";
+
+        document.addEventListener("DOMContentLoaded", function() {
+
+            // Get all elements
+            const slides = document.querySelectorAll(".phonics-panel");
+            const nextButtons = document.querySelectorAll(".nextButton");
+            const returnButton = document.getElementById("returnButton");
+            const doneButton = document.querySelector(".doneButton");
+            const infoButtons = document.querySelectorAll("[class*='info-btn']");
+            const soundButtons = document.querySelectorAll("[id^='soundButton']");
+
+            // URLs for navigation
+            const returnURL = "{{ url('/micet/n1/animals/index') }}";
+            const doneURL = "{{ url('/micet/n1/animals/index') }}";
+
+            // Track current position
+            let currentSlide = 0;
+            let isInSpecialMode = false;
+            let returnToSlide = null;
+            let specialSlideClass = null;
+
+            // Audio management
+            let currentAudio = null;
+
+            // HELPER FUNCTIONS
+
+            function isSpecialSlide(slide) {
+                const classList = Array.from(slide.classList);
+                return classList.some(cls => /^info-panel-\d+$/.test(cls));
+            }
+
+            function getSlideTypeFromButton(button) {
+                const classList = Array.from(button.classList);
+
+                for (let className of classList) {
+                    if (className.startsWith('info-btn')) {
+                        const number = className.replace('info-btn', '');
+                        return 'info-panel-' + number;
+                    }
+                }
+                return null;
+            }
+
+            function hasMoreSpecialSlides(fromIndex) {
+                if (!specialSlideClass) return false;
+
+                for (let i = fromIndex + 1; i < slides.length; i++) {
+                    if (slides[i].classList.contains(specialSlideClass)) {
+                        return true;
+                    }
+                }
+                return false;
+            }
+
+            function isLastSlide(slideIndex) {
+                if (isInSpecialMode && !hasMoreSpecialSlides(slideIndex)) return true;
+
+                if (!isInSpecialMode) {
+                    for (let i = slideIndex + 1; i < slides.length; i++) {
+                        if (!isSpecialSlide(slides[i])) {
+                            return false;
+                        }
+                    }
+                    return true;
+                }
+
+                return false;
+            }
+
+            // AUDIO FUNCTIONS
+
+            function stopCurrentAudio() {
+                if (currentAudio) {
+                    currentAudio.pause();
+                    currentAudio.currentTime = 0;
+                }
+            }
+
+            function playSlideAudio(slideIndex) {
+                // Stop any currently playing audio
+                stopCurrentAudio();
+
+                // Get the slide element
+                const slide = slides[slideIndex];
+
+                // Check if the slide itself has data-slide-audio attribute
+                let audioSrc = slide.getAttribute('data-slide-audio');
+
+                // If not, look for element inside the slide with data-slide-audio attribute
+                if (!audioSrc) {
+                    const audioElement = slide.querySelector('[data-slide-audio]');
+                    if (audioElement) {
+                        audioSrc = audioElement.getAttribute('data-slide-audio');
+                    }
+                }
+
+                // Play the audio if we found a source
+                if (audioSrc) {
+                    currentAudio = new Audio(audioSrc);
+                    currentAudio.play().catch(err => console.log('Audio play failed:', err));
+                }
+            }
+
+
+            // DISPLAY FUNCTIONS
+
+            function showSlide(slideIndex) {
+                // Stop audio from previous slide
+                stopCurrentAudio();
+
+                // Hide all slides, show only current one
+                slides.forEach((slide, index) => {
+                    if (index === slideIndex) {
+                        slide.classList.remove("hidden");
+                    } else {
+                        slide.classList.add("hidden");
+                    }
+                });
+
+                // Play audio for current slide (if it has one)
+                playSlideAudio(slideIndex);
+
+                // Show "Done" button on last slide, otherwise show "Next"
+                if (isLastSlide(slideIndex)) {
+                    nextButtons.forEach(btn => btn.classList.add("hidden"));
+                    if (doneButton) doneButton.classList.remove("hidden");
+                } else {
+                    nextButtons.forEach(btn => btn.classList.remove("hidden"));
+                    if (doneButton) doneButton.classList.add("hidden");
+                }
+            }
+
+            soundButtons.forEach(btn => {
+                btn.addEventListener("click", (e) => {
+                    e.preventDefault();
+
+                    // Get audio source from data-slide-audio attribute
+                    const audioSrc = btn.getAttribute('data-slide-audio');
+
+                    if (audioSrc) {
+                        stopCurrentAudio();
+                        currentAudio = new Audio(audioSrc);
+                        currentAudio.play().catch(err => console.log('Audio play failed:', err));
+                    }
+                });
+            });
+            // NAVIGATION FUNCTIONS
+
+            function goNext() {
+                if (currentSlide >= slides.length - 1) return;
+
+                currentSlide++;
+
+                while (currentSlide < slides.length) {
+                    const slide = slides[currentSlide];
+
+                    if (isInSpecialMode) {
+                        if (slide.classList.contains(specialSlideClass)) break;
+                    } else {
+                        if (!isSpecialSlide(slide)) break;
+                    }
+
+                    currentSlide++;
+                }
+
+                if (currentSlide < slides.length) {
+                    showSlide(currentSlide);
+                }
+            }
+
+            function goBack() {
+                if (currentSlide === 0 && !isInSpecialMode) {
+                    stopCurrentAudio();
+                    window.location.href = returnURL;
+                    return;
+                }
+
+                if (isInSpecialMode) {
+                    let previousIndex = currentSlide - 1;
+
+                    while (previousIndex >= 0) {
+                        if (slides[previousIndex].classList.contains(specialSlideClass)) {
+                            break;
+                        }
+                        previousIndex--;
+                    }
+
+                    if (previousIndex >= 0) {
+                        currentSlide = previousIndex;
+                        showSlide(currentSlide);
+                    } else {
+                        currentSlide = returnToSlide;
+                        isInSpecialMode = false;
+                        specialSlideClass = null;
+                        returnToSlide = null;
+                        showSlide(currentSlide);
+                    }
+                } else {
+                    if (currentSlide > 0) {
+                        currentSlide--;
+
+                        while (currentSlide > 0 && isSpecialSlide(slides[currentSlide])) {
+                            currentSlide--;
+                        }
+
+                        showSlide(currentSlide);
+                    }
+                }
+            }
+
+            function handleDone() {
+                stopCurrentAudio();
+
+                if (isInSpecialMode && returnToSlide !== null) {
+                    currentSlide = returnToSlide;
+                    isInSpecialMode = false;
+                    specialSlideClass = null;
+                    returnToSlide = null;
+                    showSlide(currentSlide);
+                } else {
+                    window.location.href = doneURL;
+                }
+            }
+
+            // EVENT LISTENERS
+
+            infoButtons.forEach(button => {
+                button.addEventListener("click", function(e) {
+                    e.preventDefault();
+
+                    returnToSlide = currentSlide;
+                    isInSpecialMode = true;
+                    specialSlideClass = getSlideTypeFromButton(button);
+
+                    for (let i = 0; i < slides.length; i++) {
+                        if (slides[i].classList.contains(specialSlideClass)) {
+                            currentSlide = i;
+                            showSlide(currentSlide);
+                            break;
+                        }
+                    }
+                });
+            });
+
+            nextButtons.forEach(btn => {
+                btn.addEventListener("click", goNext);
+            });
+
+            if (returnButton) {
+                returnButton.addEventListener("click", goBack);
+            }
+
+            if (doneButton) {
+                doneButton.addEventListener("click", handleDone);
+            }
+
+            const letterLinks = document.querySelectorAll('.phonics-panel a[href=""]:not([class*="info-btn"])');
+            letterLinks.forEach(link => {
+                link.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const letter = link.getAttribute('data-letter') || 'a';
+                    speakLetter(letter);
+                });
+            });
+
+            window.speechSynthesis.onvoiceschanged = () => {
+                window.speechSynthesis.getVoices();
+            };
+
+            // INITIALIZE - Show first slide and play its audio automatically
+            showSlide(currentSlide);
+        });
+
+
+        // PANEL SYSTEM
+        document.addEventListener('DOMContentLoaded', function() {
+            // Get elements
+            const tryAgainPanel = document.getElementById('tryAgain');
+            const wellDonePanel = document.getElementById('wellDone');
+            const retryBtn = document.getElementById('retry');
+            const closeBtn = document.getElementById('close');
+
+            // Get all letter buttons by ID
+            const falseLetters = document.querySelectorAll('[id="false"]');
+            const trueLetters = document.querySelectorAll('[id="true"]');
+
+            // Create audio elements
+            const tryAgainSound = new Audio('{{ asset('assets/audio/phonics_audio/tryagain.mp3') }}');
+            const wellDoneSound = new Audio('{{ asset('assets/audio/phonics_audio/welldone.mp3') }}');
+
+            // Function to show panel and play sound automatically
+            function showPanelWithSound(panel, audioElement) {
+                panel.style.display = 'flex';
+                audioElement.currentTime = 0;
+                audioElement.play().catch(err => console.log('Audio play failed:', err));
+            }
+
+            // Handle FALSE letter clicks (show try again panel with sound)
+            falseLetters.forEach(letter => {
+                letter.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    showPanelWithSound(tryAgainPanel, tryAgainSound);
+                });
+            });
+
+            // Handle TRUE letter click (show well done panel with sound)
+            trueLetters.forEach(letter => {
+                letter.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    showPanelWithSound(wellDonePanel, wellDoneSound);
+                });
+            });
+
+            // Handle Retry button - close panel and stay on same slide
+            retryBtn.addEventListener('click', function(e) {
+                e.preventDefault();
+                tryAgainPanel.style.display = 'none';
+                tryAgainSound.pause();
+                tryAgainSound.currentTime = 0;
+            });
+
+            // Handle Close button - redirect to route
+            closeBtn.addEventListener('click', function(e) {
+                e.preventDefault();
+                wellDoneSound.pause();
+                wellDoneSound.currentTime = 0;
+                window.location.href = '{{ url('/phonics_l1/letter_b') }}?view=phonics';
+            });
+        });
+    </script>
+@endpush
