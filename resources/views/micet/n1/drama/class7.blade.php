@@ -38,42 +38,36 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 7: Flying Animal Kingdom</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: Precussion Perfomance</h1>
         <div class="flex items-center">
             <img src="{{ asset('assets/images/micet/n1/animals/class4/b2.png') }}" class="h-[10vw]" />
-            <img src="{{ asset('assets/images/micet/n1/animals/class7/b1.png') }}" class="h-[8vw]" />
             <img src="{{ asset('assets/images/micet/n1/colours/class6/b1.png') }}" class="h-[9vw]" />
+            <img src="{{ asset('assets/images/micet/n1/drama/class7/b1.png') }}" class="h-[9vw]" />
+            <img src="{{ asset('assets/images/micet/n1/drama/class7/b2.png') }}" class="h-[9vw]" />
         </div>
 
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul w-[42vw]">
-            <li>Identify bald eagles</li>
-            <li>Make a bald eagle</li>
-            <li>Name a favourite animal that moves in the air and give a
-                reason for their choice</li>
+            <li>Play different percussion instruments to the rhythm of the music</li>
+            <li>Learn to share resources with friends</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: Flying Animal Kingdom</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: Precussion Perfomance</h1>
 
         <div>
             <h3 class="ptitle">Preparations</h3>
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Thematic Activity Book</li>
-                <li>Letter to parents (refer to the letter in Activity 3)</li>
-                <li>Before lesson, set up a flying animal kingdom in the
-                    corner of the classroom [If possible, decorate the ceiling
-                    or wall of this corner to look like the blue sky]</li>
-                <li>Gather all the toys that children brought from home and
-                    place the appropriate animal toys in the flying animal kingdom</li>
-                <li>Glue, colour pencils</li>
-                <li>A pre-made bald eagle</li>
-                <li>Print the different body parts of the bald eagle as shown in
-                    lesson development,one set for each child</li>
+                <li>Each child a percussion instrument (e.g. maraca, drum,
+                    triangle, cymbals; can be replaced with other percussion
+                    instruments)
+                    [Note: During lesson, observe the performance of each
+                    child playing the different percussion instruments so as to
+                    choose appropriately for the Activity 8-10 mini drama.]</li>
             </ul>
         </div>
     </div>
@@ -81,89 +75,129 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 7: Flying Animal Kingdom</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: Precussion Perfomance</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[45vw]">
-                <li> Let children look at the flying animal kingdom set up in the classroom.
-                    Ask the children: "What animals do you see in this flying animal kingdom?"</li>
+                <li>Ask children: "What percussion instruments are these?" Guide children to
+                    name each of the percussion instruments and describe the way to play
+                    them (shake, hit, strike).</li>
             </ol>
         </div>
+        <img src="{{ asset('assets/images/micet/n1/drama/class7/c1.png') }}" class="w-[30vw]" />
+
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 7: Flying Animal Kingdom</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: Precussion Perfomance</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="2">
-            <li>Display the pre-made bald eagle, ask children: "What bird is this?" Tell
-                children that they are going to make their own bald eagles.</li>
+            <li>Tell children that today they are going to play different percussion
+                instruments to the rhythm of the music.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n1/animals/class7/c1.png') }}" class="w-[30vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">bald eagle</h5>
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: Flying Animal Kingdom</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: Precussion Perfomance</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Distribute the printouts of the body parts of a bald eagle (or use the
-                Thematic Activity Book). Let children colour the different body parts of the
-                bald eagle (on both sides).</li>
+            <li>Click on the video, have children watch how the percussion instruments
+                (drum and maraca) are played to the rhythm of the music.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n1/animals/class7/c2.png') }}" class="w-[30vw]" />
+        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/n1/drama/class7/v1.mp4') }}" type="video/mp4">
+        </video>
     </div>
 
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: Flying Animal Kingdom</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: Precussion Perfomance</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Based on the picture below, let children place the different body parts
-                together to form the bald eagle.</li>
-            <li>Have children glue the body parts to complete making the bald eagle.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Click on the video, have children watch how the percussion instruments
+                (drum and maraca) are played to the rhythm of the music.</li>
         </ol>
-        <div class="flex items-center gap-[1vw]">
-            <img src="{{ asset('assets/images/micet/n1/animals/class7/c3.png') }}" class="h-[17vw]" />
-            <img src="{{ asset('assets/images/micet/n1/animals/class7/c4.png') }}" class="h-[17vw]" />
-        </div>
+        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/n1/drama/class7/v2.mp4') }}" type="video/mp4">
+        </video>
     </div>
 
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 7: Flying Animal Kingdom</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: Precussion Perfomance</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="4">
+            <li>Give each child a percussion instrument. Play music, have children follow
+                the clapping of teacher while playing the percussion instruments to the
+                rhythm of the music.</li>
+        </ol>
+        <button class="mt-[7vw] w-[4vw]" id="sound-btn">
+            <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
+        </button>
+    </div>
+
+
+    {{-- panel 7 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7: Precussion Perfomance</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="5">
+            <li>Repeat playing the music, have children practise playing the percussion
+                instruments to the rhythm of the music.</li>
+        </ol>
+        <button class="mt-[7vw] w-[4vw]" id="sound-btn">
+            <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
+        </button>
+    </div>
+
+
+    {{-- panel 7 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7: Precussion Perfomance</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="6">
-            <li>Lastly, assist children to write their name on the corner of the bald eagle
-                and put it into the flying animal kingdom.</li>
+            <li>Now, let children exchange the percussion instruments. Repeat playing the
+                music, have children practise playing the different percussion instruments
+                to the rhythm of the music.</li>
         </ol>
+        <button class="mt-[7vw] w-[4vw]" id="sound-btn">
+            <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
+        </button>
     </div>
 
 
     {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: Flying Animal Kingdom</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: Precussion Perfomance</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have children take turns to talk about their favourite animal that moves
-                    in the air and give a reason.</li>
+                <li>
+                    <span class="flex items-center">
+                        Play music <span>
+                            <button id="sound-btn" class="3vw">
+                                <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
+                            </button>
+                        </span> have children play the different percussion instruments to
+                        the rhythm of the music.
+                    </span>
+                </li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to make a bald eagle.</li>
-                <li>Able to name a favourite animal that moves in the air and give a reason.</li>
+                <li>Able to play different percussion instruments to the rhythm of the music.</li>
             </ul>
         </div>
     </div>
@@ -222,8 +256,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n1/animals/index') }}";
-            const doneURL = "{{ url('/micet/n1/animals/index') }}";
+            const returnURL = "{{ url('/micet/n1/drama/index') }}";
+            const doneURL = "{{ url('/micet/n1/drama/index') }}";
 
             // Track current position
             let currentSlide = 0;

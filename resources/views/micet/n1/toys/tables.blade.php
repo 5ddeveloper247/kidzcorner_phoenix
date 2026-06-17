@@ -41,9 +41,11 @@
         <h1 class="panel-title stroke">Table 1 : Theme Goals</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]">
-            <li>To know that we shouldn't open the door to strangers</li>
-            <li>To know that we can tell a story by singing</li>
-            <li>To develop the ability to perform in a drama</li>
+            <li>To identify some toys and their characteristics</li>
+            <li>To develop the ability to express oneself verbally</li>
+            <li>To inculcate the habits of sharing and taking care of toys</li>
+            <li>To stimulate interest in making one's own toys</li>
+            <li>To find toys based on specific characteristics</li>
         </ol>
     </div>
 
@@ -51,7 +53,7 @@
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Table 2 : MI Learning Web</h1>
-        <img src="{{ asset('assets/images/micet/n1/drama/tables/t1.png') }}" class="w-[28vw]" />
+        <img src="{{ asset('assets/images/micet/n1/toys/tables/t1.png') }}" class="w-[28vw]" />
 
     </div>
 
@@ -59,7 +61,7 @@
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Table 2 : MI Activities</h1>
-        <img src="{{ asset('assets/images/micet/n1/drama/tables/t2.png') }}" class="h-[20vw]" />
+        <img src="{{ asset('assets/images/micet/n1/toys/tables/t2.png') }}" class="h-[20vw]" />
 
     </div>
 
@@ -119,8 +121,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n1/drama/index') }}";
-            const doneURL = "{{ url('/micet/n1/drama/index') }}";
+            const returnURL = "{{ url('/micet/n1/toys/index') }}";
+            const doneURL = "{{ url('/micet/n1/toys/index') }}";
 
             // Track current position
             let currentSlide = 0;

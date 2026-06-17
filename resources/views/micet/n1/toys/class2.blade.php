@@ -18,7 +18,7 @@
 
         .panel-title {
             color: #F7B94A;
-            font-size: 2.5vw;
+            font-size: 2.3vw;
         }
 
         .ptitle {
@@ -29,7 +29,7 @@
         .panel-ul {
             color: white;
             font-size: 1.4vw;
-            text-align: left;
+            text-align: left
         }
     </style>
 @endpush
@@ -37,33 +37,261 @@
 @section('content')
 
     {{-- panel 1 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[3vw]">
-        <h1 class="panel-title stroke">Table 1 : Theme Goals</h1>
+    <div class="phonics-panel flex flex-col justify-between h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Toys with Wheels</h1>
+        <div class="flex items-center">
+            <img src="{{ asset('assets/images/micet/n1/toys/class2/b1.png') }}" class="h-[8vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/class2/b2.png') }}" class="h-[8vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/class2/b3.png') }}" class="h-[8vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/class2/b4.png') }}" class="h-[8vw]" />
+        </div>
 
-        <ol class="list-decimal panel-ul w-[45vw]">
-            <li>To know that we shouldn't open the door to strangers</li>
-            <li>To know that we can tell a story by singing</li>
-            <li>To develop the ability to perform in a drama</li>
+
+        <h3 class="ptitle">Objectives:</h3>
+
+        <ul class="list-disc panel-ul ">
+            <li>Identify some toys with wheels</li>
+            <li>Identify the function of wheels on the toys</li>
+            <li>Inculcate the habits of sharing and taking care of toys</li>
+        </ul>
+    </div>
+
+
+    {{-- panel 2 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Toys with Wheels</h1>
+
+        <div class="space-y-[1vw] text-center">
+            <h3 class="ptitle">Preparations</h3>
+
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Thematic Activity Book</li>
+                <li>Letter to parents (refer to next page)</li>
+                <li>A box: to keep the toys that children bring from home</li>
+            </ul>
+        </div>
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Toys with Wheels</h1>
+        <img src="{{ asset('assets/images/micet/n1/toys/class2/c1.png') }}" class="w-[35vw]" />
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Toys with Wheels</h1>
+
+        <div class="text-start space-y-[1vw]">
+            <h3 class="ptitle">Lesson Development</h3>
+
+            <ul class="list-decimal panel-ul w-[45vw]">
+                <li>Ask children: “”What is this?”” “”What shape is it?””</li>
+            </ul>
+        </div>
+        <img src="{{ asset('assets/images/micet/n1/toys/class2/c2.png') }}" class="w-[17vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">wheel</h5>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Toys with Wheels</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="2">
+            <li>Ask children: "What is this?" (truck) "Whose favourite toy is it?" (Logi) "What
+                colour is it?" "Where are its four wheels?" "What can the wheels do?"</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/toys/class2/c3.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Toys with Wheels</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Display picture. Have children name the toy, then point to the wheel and
+                talk about the function of the wheels. Click on the picture to see the wheel.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/toys/class2/c4.png') }}" class="w-[30vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">pull cart</h5>
+    </div>
+
+
+    {{-- panel 6 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Toys with Wheels</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Display picture. Have children name the toy, then point to the wheel and
+                talk about the function of the wheels. Click on the picture to see the wheel.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/toys/class2/c5.png') }}" class="w-[20vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">excavator</h5>
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Toys with Wheels</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Display picture. Have children name the toy, then point to the wheel and
+                talk about the function of the wheels. Click on the picture to see the wheel.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/toys/class2/c6.png') }}" class="w-[25vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">garbage truck</h5>
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Toys with Wheels</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Display picture. Have children name the toy, then point to the wheel and
+                talk about the function of the wheels. Click on the picture to see the wheel.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/toys/class2/c7.png') }}" class="w-[17vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">train</h5>
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Toys with Wheels</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Display picture. Have children name the toy, then point to the wheel and
+                talk about the function of the wheels. Click on the picture to see the wheel.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/toys/class2/c8.png') }}" class="w-[20vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">duck</h5>
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Toys with Wheels</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Display picture. Have children name the toy, then point to the wheel and
+                talk about the function of the wheels. Click on the picture to see the wheel.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/toys/class2/c9.png') }}" class="h-[17vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">robot</h5>
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Toys with Wheels</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Display picture. Have children name the toy, then point to the wheel and
+                talk about the function of the wheels. Click on the picture to see the wheel.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/toys/class2/c10.png') }}" class="w-[20vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">tricycle</h5>
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Toys with Wheels</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="4">
+            <li>Have children sit in a circle and display the toy that they brought from
+                home. Have them take turns to name their toy and share how they would
+                play with it. Then point to its wheels and talk about the function of the
+                wheels on the toy.</li>
         </ol>
     </div>
 
 
-    {{-- panel 2 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Table 2 : MI Learning Web</h1>
-        <img src="{{ asset('assets/images/micet/n1/drama/tables/t1.png') }}" class="w-[28vw]" />
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Toys with Wheels</h1>
 
+        <ol class="list-decimal panel-ul w-[45vw]" start="5">
+            <li>Ask children: "All the toys that you brought from home have one thing in
+                common, do you know what it is?" Tell children that all these toys have
+                wheels on them, they are toys with wheels.</li>
+        </ol>
     </div>
 
 
-    {{-- panel 2 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Table 2 : MI Activities</h1>
-        <img src="{{ asset('assets/images/micet/n1/drama/tables/t2.png') }}" class="h-[20vw]" />
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Toys with Wheels</h1>
 
+        <ol class="list-decimal panel-ul w-[45vw]" start="6">
+            <li>Ask children: "Do you think we should throw the toys around after playing
+                with them?" Guide children to understand that we should handle the toys
+                with care, or they may get spoilt and we will have less toys to play with.</li>
+        </ol>
     </div>
 
 
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Toys with Wheels</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="7">
+            <li>Place a box in the middle, have children put their toys into the box. Ask
+                children: "Would you like to play with the different toys in the box?" Invite
+                children to share the toys, so they can play with the different toys.</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Toys with Wheels</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="8">
+            <li>Have children take turns to play with the different toys. Advise them to
+                place the toy back to its original place after playing.</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[.5vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Toys with Wheels</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="9">
+            <li>Guide children to complete the corresponding activity in the Thematic
+                Activity Book.</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 14 --}}
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 2: Toys with Wheels</h1>
+
+        <div class="text-start flex flex-col justify-between h-full">
+            <h3 class="ptitle">Clousre</h3>
+
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Have children take turns to talk about their favourite toy with wheels
+                    and give a reason.</li>
+            </ul>
+
+            <h3 class="ptitle">Evaluation</h3>
+
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Able to identify some toys with wheels.</li>
+                <li>Able to name the function of wheels on the toys.</li>
+                <li>Able to handle toys with care and place them back to their original
+                    places after playing.</li>
+            </ul>
+        </div>
+    </div>
 
 
 
@@ -119,8 +347,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n1/drama/index') }}";
-            const doneURL = "{{ url('/micet/n1/drama/index') }}";
+            const returnURL = "{{ url('/micet/n1/toys/index') }}";
+            const doneURL = "{{ url('/micet/n1/toys/index') }}";
 
             // Track current position
             let currentSlide = 0;

@@ -38,7 +38,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: Animal Sounds</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Practice (1)</h1>
         <div class="flex items-center">
             <img src="{{ asset('assets/images/micet/n1/colours/class8/b1.png') }}" class="h-[8vw]" />
             <img src="{{ asset('assets/images/micet/n1/colours/class8/b2.png') }}" class="h-[8vw]" />
@@ -47,36 +47,42 @@
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul">
-            <li>Identify different animal sounds</li>
-            <li>Learn to sing a song about animal sounds</li>
-            <li>Do actions of animals when singing the song</li>
-            <li>Learn to work with friends</li>
+            <li>Practise performing the assigned role</li>
+            <li>Learn to perform a drama together with friends</li>
+            <li>Express like or dislike for a drama performance</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: Animal Sounds</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Practice (1)</h1>
 
         <h3 class="ptitle">Preparations</h3>
 
-        <ul class="list-disc panel-ul">
-            <li>Thematic Activity Book</li>
+        <ul class="list-disc panel-ul w-[45vw]">
+            <li>Different musical instruments</li>
+            <li>Rabbit and wolf headgears/masks</li>
+            <li>Divide children into 4 performing groups based on their
+                ability in singing, role playing, storytelling and playing
+                musical instruments. [Note: Teacher to be the narrator if
+                there is no other storyteller; teacher may choose different
+                children to sing different songs; all the performing details
+                can be changed according to teacher's requirements.]</li>
         </ul>
     </div>
 
 
     {{-- panel 3 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: Animal Sounds</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 8: Practice (1)</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[50vw]">
-                <li>Tell children that they are going to name the animals after listening to the
-                    different animal sounds.</li>
+                <li>Tell children that they are going to perform a mini drama together, so they
+                    will spend the time practising for the mini drama "The Rabbits And The Wolf".</li>
             </ol>
         </div>
     </div>
@@ -84,415 +90,91 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: Animal Sounds</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Practice (1)</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="2">
-            <li>Play the sound, ask children: "What animal makes this sound?" "Does this
-                animal have legs, fins or wings?" </li>
+            <li>Ask children: "Have you ever seen a drama performance?" "What kind of
+                performance was it?" "Did you like it?" "Was there any storytelling or
+                singing?" "Did they use any musical instruments?"</li>
         </ol>
-
-        <button class="w-[4vw] mt-[7vw]" id="soundButton">
-            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-        </button>
-
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: Animal Sounds</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Practice (1)</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="3">
-            <li>Did you guess correctly? It's the sound of a lamb. It has 4 legs but no fins
-                and wings.</li>
+            <li>Tell children that a drama can be performed in many ways, such as
+                storytelling, singing, dancing and playing different musical instruments.</li>
         </ol>
-
-        <img src="{{ asset('assets/images/micet/n1/animals/class8/c1.png') }}" class="w-[20vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">lamb</h5>
     </div>
 
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: Animal Sounds</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Practice (1)</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="4">
-            <li>Play the sound, ask children: "What animal makes this sound?" "Does this
-                animal have legs, fins or wings?"</li>
+            <li>Give each child a role to play in the drama (e.g .: singing group, role
+                playing group, storytelling group and musical instruments group). Let each
+                group of children practise their role at different corners of the class.</li>
         </ol>
-
+        {{-- 
         <button class="w-[4vw] mt-[7vw]" id="soundButton">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-        </button>
+        </button> --}}
     </div>
 
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: Animal Sounds</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Practice (1)</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="5">
-            <li>Did you guess correctly? It's the sound of a tiger. It has 4 legs but no fins
-                and wings.</li>
+            <li>Teacher may walk around the class to help the different groups:
+                <ul class="list-disc">
+                    <li>Remind children to synchronise their performance as a group
+                        (especially the singing and musical instrument groups).</li>
+                    <li>Use story scenes/pictures to help the storytelling and role playing
+                        groups with their performance.</li>
+                </ul>
+            </li>
         </ol>
-
-        <img src="{{ asset('assets/images/micet/n1/animals/class8/c2.png') }}" class="h-[17vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">tiger</h5>
     </div>
 
 
     {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: Animal Sounds</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Practice (1)</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="6">
             <li>Play the sound, ask children: "What animal makes this sound?" "Does this
                 animal have legs, fins or wings?"</li>
         </ol>
-
-        <button class="w-[4vw] mt-[7vw]" id="soundButton">
-            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-        </button>
     </div>
 
 
     {{-- panel 9 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: Animal Sounds</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="7">
-            <li>Did you guess correctly? It's the sound of a wolf. It has 4 legs but no fins
-                and wings.</li>
-        </ol>
-
-        <img src="{{ asset('assets/images/micet/n1/animals/class8/c3.png') }}" class="w-[19vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">wolf</h5>
-    </div>
-
-
-    {{-- panel 10 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: Animal Sounds</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="8">
-            <li>Play the sound, ask children: "What animal makes this sound?" "Does this
-                animal have legs, fins or wings?"</li>
-        </ol>
-
-        <button class="w-[4vw] mt-[7vw]" id="soundButton">
-            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-        </button>
-    </div>
-
-
-    {{-- panel 11 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: Animal Sounds</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="9">
-            <li>Did you guess correctly? It's the sound of a elephant. It has 4 legs but no fins
-                and wings.</li>
-        </ol>
-
-        <img src="{{ asset('assets/images/micet/n1/animals/class8/c4.png') }}" class="w-[25vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">elephant</h5>
-    </div>
-
-
-    {{-- panel 12 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: Animal Sounds</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="10">
-            <li>Play the sound, ask children: "What animal makes this sound?" "Does this
-                animal have legs, fins or wings?"</li>
-        </ol>
-
-        <button class="w-[4vw] mt-[7vw]" id="soundButton">
-            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-        </button>
-    </div>
-
-
-    {{-- panel 13 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: Animal Sounds</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="11">
-            <li>Did you guess correctly? It's the sound of a dolphin. It has fins (and flippers)
-                but no legs and wings.</li>
-        </ol>
-
-        <img src="{{ asset('assets/images/micet/n1/animals/class8/c5.png') }}" class="w-[25vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">dolphin</h5>
-    </div>
-
-
-    {{-- panel 14 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: Animal Sounds</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="12">
-            <li>Play the sound, ask children: "What animal makes this sound?" "Does this
-                animal have legs, fins or wings?"</li>
-        </ol>
-
-        <button class="w-[4vw] mt-[7vw]" id="soundButton">
-            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-        </button>
-    </div>
-
-
-    {{-- panel 15 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: Animal Sounds</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="13">
-            <li>Did you guess correctly? It's the sound of a sealion. It has flippers
-                but no legs and wings.</li>
-        </ol>
-
-        <img src="{{ asset('assets/images/micet/n1/animals/class8/c6.png') }}" class="w-[19vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">sealion</h5>
-    </div>
-
-
-    {{-- panel 16 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: Animal Sounds</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="14">
-            <li>Play the sound, ask children: "What animal makes this sound?" "Does this
-                animal have legs, fins or wings?"</li>
-        </ol>
-
-        <button class="w-[4vw] mt-[7vw]" id="soundButton">
-            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-        </button>
-    </div>
-
-
-    {{-- panel 17 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: Animal Sounds</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="15">
-            <li>Did you guess correctly? It's the sound of a parrot. It has wings and legs
-                but no fins.</li>
-        </ol>
-
-        <img src="{{ asset('assets/images/micet/n1/animals/class8/c7.png') }}" class="w-[18vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">parrot</h5>
-    </div>
-
-
-    {{-- panel 18 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: Animal Sounds</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="16">
-            <li>Play the sound, ask children: "What animal makes this sound?" "Does this
-                animal have legs, fins or wings?"</li>
-        </ol>
-
-        <button class="w-[4vw] mt-[7vw]" id="soundButton">
-            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-        </button>
-    </div>
-
-
-    {{-- panel 19 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: Animal Sounds</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="17">
-            <li>Did you guess correctly? It's the sound of an eagle. It has wings and legs
-                but no fins.</li>
-        </ol>
-
-        <img src="{{ asset('assets/images/micet/n1/animals/class8/c8.png') }}" class="h-[17vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">eagle</h5>
-    </div>
-
-
-    {{-- panel 20 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: Animal Sounds</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="18">
-            <li>Play the sound, ask children: "What animal makes this sound?" "Does this
-                animal have legs, fins or wings?"</li>
-        </ol>
-
-        <button class="w-[4vw] mt-[7vw]" id="soundButton">
-            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-        </button>
-    </div>
-
-
-    {{-- panel 21 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: Animal Sounds</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="19">
-            <li>Did you guess correctly? It's the sound of an owl. It has wings and legs
-                but no fins.</li>
-        </ol>
-
-        <img src="{{ asset('assets/images/micet/n1/animals/class8/c9.png') }}" class="h-[17vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">owl</h5>
-    </div>
-
-
-    {{-- panel 22 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: Animal Sounds</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="20">
-            <li>Play the sound, ask children: "What animal makes this sound?" "Does this
-                animal have legs, fins or wings?"</li>
-        </ol>
-
-        <button class="w-[4vw] mt-[7vw]" id="soundButton">
-            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-        </button>
-    </div>
-
-
-    {{-- panel 23 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: Animal Sounds</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="21">
-            <li>Did you guess correctly? It's the sound of a seagull. It has wings and legs
-                but no fins.</li>
-        </ol>
-
-        <img src="{{ asset('assets/images/micet/n1/animals/class8/c10.png') }}" class="w-[25vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">seagull</h5>
-    </div>
-
-
-    {{-- panel 24 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: Animal Sounds</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="22">
-            <li>Tell children that they are going to learn to sing a song about animal sounds.</li>
-            <li>First, have them learn the sounds of dolphins, bees, lambs and kittens.</li>
-            <li>Then play the music and have children listen to the teacher sing.</li>
-        </ol>
-
-        <div class="flex items-center gap-[1vw]">
-
-            <button class="w-[4vw] mt-[7vw]" id="soundButton">
-                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-            </button>
-
-            <h5 class="text-start text-[1.4vw] text-[#f7b94a]">There are many animals, <br>
-                E-I-E-I-O! <br>
-                Dolphins, bees, lambs and kittens, <br>
-                E-I-E-I-O! <br>
-                Squeak-squeak-squeak, <br>
-                buzz-buzz-buzz, <br>
-                Bleat-bleat-bleat-bleat, <br>
-                and meow-meow-meow-meow-meow! <br>
-                There are many animals, <br>
-                E-I-E-I-O!</h5>
-        </div>
-    </div>
-
-
-    {{-- panel 25 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: Animal Sounds</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="25">
-            <li>Explain the meaning of the lyrics to children.</li>
-            <li>Replay music, have children sing along.</li>
-        </ol>
-
-        <div class="flex items-center gap-[1vw]">
-
-            <button class="w-[4vw] mt-[7vw]" id="soundButton">
-                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-            </button>
-
-            <h5 class="text-start text-[1.4vw] text-[#f7b94a]">There are many animals, <br>
-                E-I-E-I-O! <br>
-                Dolphins, bees, lambs and kittens, <br>
-                E-I-E-I-O! <br>
-                Squeak-squeak-squeak, <br>
-                buzz-buzz-buzz, <br>
-                Bleat-bleat-bleat-bleat, <br>
-                and meow-meow-meow-meow-meow! <br>
-                There are many animals, <br>
-                E-I-E-I-O!</h5>
-        </div>
-    </div>
-
-
-    {{-- panel 26 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: Animal Sounds</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="27">
-            <li>Have children do the actions of respective animals when singing.</li>
-        </ol>
-
-        <div class="flex items-center gap-[1vw]">
-
-            <button class="w-[4vw] mt-[7vw]" id="soundButton">
-                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-            </button>
-
-            <h5 class="text-start text-[1.4vw] text-[#f7b94a]">There are many animals, <br>
-                E-I-E-I-O! <br>
-                Dolphins, bees, lambs and kittens, <br>
-                E-I-E-I-O! <br>
-                Squeak-squeak-squeak, <br>
-                buzz-buzz-buzz, <br>
-                Bleat-bleat-bleat-bleat, <br>
-                and meow-meow-meow-meow-meow! <br>
-                There are many animals, <br>
-                E-I-E-I-O!</h5>
-        </div>
-    </div>
-
-
-    {{-- panel 27 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: Animal Sounds</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Practice (1)</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Divide children into four groups, each representing an animal in the song.
-                    Have them work together to perform the song [sounds and actions of
-                    the animals in the song].</li>
+                <li>Have each group take turns to perform their roles. Teacher encourages
+                    all the children.</li>
+                <li>Ask children: Is the mini drama performance interesting?
+                    Do you like it?</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to identify different animal sounds.</li>
-                <li>Able to sing the song about animal sounds.</li>
-                <li>Able to work with friends to perform the song.</li>
-            </ul>
-        </div>
-    </div>
-
-    {{-- panel 28 --}}
-    <div class="phonics-panel flex flex-col items-center h-full space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: Animal Sounds</h1>
-
-        <div class="text-start flex flex-col">
-            <h3 class="ptitle">Extension</h3>
-
-            <ul class="list-disc panel-ul w-[45vw]">
-                <li>Guide children to compose a new song by replacing the 4 animals in
-                    the song.</li>
+                <li>Able to practise performing the assigned role.</li>
+                <li>Able to perform a drama together with friends.</li>
+                <li>Able to express like or dislike for the mini drama performance.</li>
             </ul>
         </div>
     </div>
@@ -551,8 +233,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n1/animals/index') }}";
-            const doneURL = "{{ url('/micet/n1/animals/index') }}";
+            const returnURL = "{{ url('/micet/n1/drama/index') }}";
+            const doneURL = "{{ url('/micet/n1/drama/index') }}";
 
             // Track current position
             let currentSlide = 0;

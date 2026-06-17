@@ -38,41 +38,45 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 9: Record of Animals</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: Practice (2)</h1>
         <img src="{{ asset('assets/images/micet/n1/colours/c9.1.png') }}" class="h-[8vw]" />
 
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul">
-            <li>Identify whether an animal has legs, fins or wings</li>
-            <li>Record findings based on observation</li>
+            <li>Practise performing the assigned role</li>
+            <li>Learn to perform a drama together with friends</li>
+            <li>Express like or dislike for a drama performance</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Record of Animals</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: Practice (2)</h1>
 
-        <h3 class="ptitle">Preparations</h3>
+        <div>
+            <h3 class="ptitle">Preparations</h3>
 
-        <ul class="list-disc panel-ul">
-            <li>Thematic Activity Book</li>
-            <li>Print the tables as shown in the lesson development, one
-                set for each child</li>
-        </ul>
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Different musical instruments</li>
+                <li>Rabbit and wolf headgears/masks</li>
+                <li>Make necessary changes based on the observations of
+                    first practice (e.g .: change the roles of some children)</li>
+                <li>Decorate the class like a performing stage</li>
+            </ul>
+        </div>
     </div>
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Record of Animals</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: Practice (2)</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[45vw]">
-                <li>Tell children that today they are going to make a record of animals based
-                    on their observations.</li>
+                <li>Let children continue practising their performing roles in groups.</li>
             </ol>
         </div>
     </div>
@@ -80,267 +84,288 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 9: Record of Animals</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: Practice (2)</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="2">
-            <li>Distribute the tables (or use the Thematic Activity Book). Have children look
-                at the tables. Tell them that they are going to observe each animal in the
-                table, identify it and then record whether the animal has legs, fins or</li>
+            <li>Teacher may walk around the class to help the different groups:
+                <ul class="list-disc">
+                    <li>Remind children to synchronise their performance as a group
+                        (especially the singing and musical instrument groups).</li>
+                    <li>Use story scenes/pictures to help the storytelling and role playing
+                        groups with their performance.</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 9: Practice (2)</h1>
+
+        <ol class="list-decimal panel-ul" start="3">
+            <li>Teacher guides children in understanding the sequence of the
+                performance:
+                <ul class="list-disc">
+                    <li>Scene 1: Storyteller tells the story at one side of the stage; children role playing
+                        Mother Rabbit and baby rabbits perform in the middle of the stage; while children
+                        who sing (song 1) and play musical instruments stand at the back of the stage.</li>
+                </ul>
+            </li>
         </ol>
 
-        <div class="flex items-center gap-[1vw]">
-            <img src="{{ asset('assets/images/micet/n1/animals/class9/c1.1.png') }}" class="h-[17vw]" />
-            <img src="{{ asset('assets/images/micet/n1/animals/class9/c1.2.png') }}" class="h-[17vw]" />
+        <div class="flex items-start justify-start">
+            <button class="w-[3vw]" id="soundButton">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            </button>
+            <h5 class="text-[1.5vw] text-white">
+                <span class="text-[#f7b94a]">Song I: Mother Rabbit</span> <br>
+                Oh my dear children, <br>
+                please lock the door. <br>
+                Mummy's going out <br>
+                to pick some carrots. <br>
+                Before mummy comes home, <br>
+                Don't open the door <br>
+                to let anyone in.
+            </h5>
         </div>
     </div>
 
 
     {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Record of Animals</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 9: Practice (2)</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Ask children: "What animal is this?" "Does it have legs, fins or wings?" Have
-                children look carefully at the animal, then colour the correct boxes in the table.</li>
+        <ol class="list-decimal panel-ul" start="3">
+            <li>Teacher guides children in understanding the sequence of the
+                performance:
+                <ul class="list-disc">
+                    <li>Scene 2: Storyteller tells the story at one side of the stage; children role playing
+                        the wolf and baby rabbits perform in the middle of the stage; while children who sing
+                        (song 2 & 3) and play musical instruments stand at the back of the stage.</li>
+                </ul>
+            </li>
         </ol>
 
-        <img src="{{ asset('assets/images/micet/n1/animals/class9/c1.png') }}" class="w-[20vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">mouse</h5>
+        <div class="flex items-start justify-start">
+            <button class="w-[3vw]" id="soundButton">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            </button>
+            <h5 class="text-[1.5vw] text-white">
+                <span class="text-[#f7b94a]">Song 2: The Wolf</span> <br>
+                Oh my dear children, <br>
+                please open the door. <br>
+                Mummy is home, <br>
+                do open the door. <br>
+                Mummy has now come home, <br>
+                Please open the door <br>
+                and let mummy in. <br>
+            </h5>
+        </div>
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 9: Practice (2)</h1>
+
+        <ol class="list-decimal panel-ul" start="3">
+            <li>Teacher guides children in understanding the sequence of the
+                performance:
+                <ul class="list-disc">
+                    <li>Scene 2: Storyteller tells the story at one side of the stage; children role playing
+                        the wolf and baby rabbits perform at the middle of the stage; while children who sing
+                        (song 2 & 3) and play musical instruments stand at the back of the stage.</li>
+                </ul>
+            </li>
+        </ol>
+
+        <div class="flex items-start justify-start">
+            <button class="w-[3vw]" id="soundButton">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            </button>
+            <h5 class="text-[1.5vw] text-white">
+                <span class="text-[#f7b94a]">Song 3: Baby Rabbits</span> <br>
+                We are good children, <br>
+                can't open the door. <br>
+                You're not our mummy, <br>
+                can't open the door. <br>
+                Before mummy comes home, <br>
+                Can't open the door <br>
+                to let anyone in.
+            </h5>
+        </div>
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 9: Practice (2)</h1>
+
+        <ol class="list-decimal panel-ul" start="3">
+            <li>Teacher guides children in understanding the sequence of the
+                performance:
+                <ul class="list-disc">
+                    <li>Scene 2: Storyteller tells the story at one side of the stage; children role playing
+                        the wolf and baby rabbits perform in the middle of the stage; while children who sing
+                        (song 2 & 3) and play musical instruments stand at the back of the stage.</li>
+                </ul>
+            </li>
+        </ol>
+
+        <div class="flex items-start justify-start">
+            <button class="w-[3vw]" id="soundButton">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            </button>
+            <h5 class="text-[1.5vw] text-white">
+                <span class="text-[#f7b94a]">Song 2: The Wolf</span> <br>
+                Oh my dear children, <br>
+                please open the door. <br>
+                Mummy is home, <br>
+                do open the door. <br>
+                Mummy has now come home, <br>
+                Please open the door <br>
+                and let mummy in.
+            </h5>
+        </div>
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 9: Practice (2)</h1>
+
+        <ol class="list-decimal panel-ul" start="3">
+            <li>Teacher guides children in understanding the sequence of the
+                performance:
+                <ul class="list-disc">
+                    <li>Scene 2: Storyteller tells the story at one side of the stage; children role playing
+                        the wolf and baby rabbits perform at the middle of the stage; while children who sing
+                        (song 2 & 3) and play musical instruments stand at the back of the stage.</li>
+                </ul>
+            </li>
+        </ol>
+
+        <div class="flex items-start justify-start">
+            <button class="w-[3vw]" id="soundButton">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            </button>
+            <h5 class="text-[1.5vw] text-white">
+                <span class="text-[#f7b94a]">Song 3: Baby Rabbits</span> <br>
+                We are good children, <br>
+                can't open the door. <br>
+                You're not our mummy, <br>
+                can't open the door. <br>
+                Before mummy comes home, <br>
+                Can't open the door <br>
+                to let anyone in.
+            </h5>
+        </div>
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 9: Practice (2)</h1>
+
+        <ol class="list-decimal panel-ul" start="3">
+            <li>Teacher guides children in understanding the sequence of the
+                performance:
+                <ul class="list-disc">
+                    <li>Scene 3: Storyteller tells the story at one side of the stage; children role playing
+                        Mother Rabbit and baby rabbits perform in the middle of the stage; while children
+                        who sing (song 2 & 4) and play musical instruments stand at the back of the stage</li>
+                </ul>
+            </li>
+        </ol>
+
+        <div class="flex items-start justify-start">
+            <button class="w-[3vw]" id="soundButton">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            </button>
+            <h5 class="text-[1.5vw] text-white">
+                <span class="text-[#f7b94a]">Song 2: Mother Rabbit</span> <br>
+                Oh my dear children, <br>
+                please open the door. <br>
+                Mummy is home, <br>
+                do open the door. <br>
+                Mummy has now come home, <br>
+                Please open the door <br>
+                and let mummy in.
+            </h5>
+        </div>
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 9: Practice (2)</h1>
+
+        <ol class="list-decimal panel-ul" start="3">
+            <li>Teacher guides children in understanding the sequence of the
+                performance:
+                <ul class="list-disc">
+                    <li>Scene 3: Storyteller tells the story at one side of the stage; children role playing
+                        Mother Rabbit and baby rabbits perform in the middle of the stage; while children
+                        who sing (song 2 & 4) and play musical instruments stand at the back of the stage.</li>
+                </ul>
+            </li>
+        </ol>
+
+        <div class="flex items-start justify-start">
+            <button class="w-[3vw]" id="soundButton">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            </button>
+            <h5 class="text-[1.5vw] text-white">
+                <span class="text-[#f7b94a]">Song 4: Baby Rabbits</span> <br>
+                We are good children, <br>
+                we'll open the door. <br>
+                You are our mummy, <br>
+                we'll open the door. <br>
+                Mummy has now come home, <br>
+                Please open the door <br>
+                and let mummy in.
+            </h5>
+        </div>
     </div>
 
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Record of Animals</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: Practice (2)</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Ask children: "What animal is this?" "Does it have legs, fins or wings?" Have
-                children look carefully at the animal, then colour the correct boxes in the table.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="4">
+            <li>Have children practise the mini drama performance according to the
+                instructions of teacher. Teacher guides each child in knowing his/her own
+                position while performing.</li>
         </ol>
-
-        <img src="{{ asset('assets/images/micet/n1/animals/class9/c2.png') }}" class="h-[15vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">camel</h5>
     </div>
 
 
     {{-- panel 7 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Record of Animals</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Ask children: "What animal is this?" "Does it have legs, fins or wings?" Have
-                children look carefully at the animal, then colour the correct boxes in the table.</li>
-        </ol>
-
-        <img src="{{ asset('assets/images/micet/n1/animals/class9/c2.png') }}" class="h-[15vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">camel</h5>
-    </div>
-
-
-    {{-- panel 8 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Record of Animals</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Ask children: "What animal is this?" "Does it have legs, fins or wings?" Have
-                children look carefully at the animal, then colour the correct boxes in the table.</li>
-        </ol>
-
-        <img src="{{ asset('assets/images/micet/n1/animals/class9/c3.png') }}" class="w-[20vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">spider</h5>
-    </div>
-
-
-    {{-- panel 9 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Record of Animals</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Ask children: "What animal is this?" "Does it have legs, fins or wings?" Have
-                children look carefully at the animal, then colour the correct boxes in the table.</li>
-        </ol>
-
-        <img src="{{ asset('assets/images/micet/n1/animals/class9/c4.png') }}" class="w-[17vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">kangaroo</h5>
-    </div>
-
-
-    {{-- panel 10 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Record of Animals</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Ask children: "What animal is this?" "Does it have legs, fins or wings?" Have
-                children look carefully at the animal, then colour the correct boxes in the table.</li>
-        </ol>
-
-        <img src="{{ asset('assets/images/micet/n1/animals/class9/c5.png') }}" class="w-[25vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">fish</h5>
-    </div>
-
-
-    {{-- panel 11 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Record of Animals</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Ask children: "What animal is this?" "Does it have legs, fins or wings?" Have
-                children look carefully at the animal, then colour the correct boxes in the table.</li>
-        </ol>
-
-        <img src="{{ asset('assets/images/micet/n1/animals/class9/c6.png') }}" class="w-[20vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">gold fish</h5>
-    </div>
-
-
-    {{-- panel 12 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Record of Animals</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Ask children: "What animal is this?" "Does it have legs, fins or wings?" Have
-                children look carefully at the animal, then colour the correct boxes in the table.</li>
-        </ol>
-
-        <img src="{{ asset('assets/images/micet/n1/animals/class9/c7.png') }}" class="w-[25vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">shark</h5>
-    </div>
-
-
-    {{-- panel 13 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Record of Animals</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Ask children: "What animal is this?" "Does it have legs, fins or wings?" Have
-                children look carefully at the animal, then colour the correct boxes in the table.</li>
-        </ol>
-
-        <img src="{{ asset('assets/images/micet/n1/animals/class9/c8.png') }}" class="w-[25vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">whale</h5>
-    </div>
-
-
-    {{-- panel 14 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Record of Animals</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Ask children: "What animal is this?" "Does it have legs, fins or wings?" Have
-                children look carefully at the animal, then colour the correct boxes in the table.</li>
-        </ol>
-
-        <img src="{{ asset('assets/images/micet/n1/animals/class9/c9.png') }}" class="w-[25vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">pigeon</h5>
-    </div>
-
-
-    {{-- panel 15 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Record of Animals</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Ask children: "What animal is this?" "Does it have legs, fins or wings?" Have
-                children look carefully at the animal, then colour the correct boxes in the table.</li>
-        </ol>
-
-        <img src="{{ asset('assets/images/micet/n1/animals/class9/c10.png') }}" class="w-[20vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">pigeon</h5>
-    </div>
-
-
-    {{-- panel 16 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Record of Animals</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Ask children: "What animal is this?" "Does it have legs, fins or wings?" Have
-                children look carefully at the animal, then colour the correct boxes in the table.</li>
-        </ol>
-
-        <img src="{{ asset('assets/images/micet/n1/animals/class9/c11.png') }}" class="w-[20vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">bee</h5>
-    </div>
-
-
-    {{-- panel 17 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Record of Animals</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Ask children: "What animal is this?" "Does it have legs, fins or wings?" Have
-                children look carefully at the animal, then colour the correct boxes in the table.</li>
-        </ol>
-
-        <img src="{{ asset('assets/images/micet/n1/animals/class9/c12.png') }}" class="w-[20vw]" />
-        <h5 class="text-[2vw] text-[#f7b94a]">bat</h5>
-    </div>
-
-
-    {{-- panel 18 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Record of Animals</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="15">
-            <li>Display the record of animals, have children check whether their answers
-                are correct.</li>
-        </ol>
-
-        <div class="flex items-center gap-[1vw]">
-            <img src="{{ asset('assets/images/micet/n1/animals/class9/c13.png') }}" class="h-[20vw]" />
-            <img src="{{ asset('assets/images/micet/n1/animals/class9/c14.png') }}" class="h-[20vw]" />
-        </div>
-    </div>
-
-
-    {{-- panel 19 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Record of Animals</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="16">
-            <li>Guide children to make conclusions based on their final record of the
-                animals. E.g. the mouse has legs, it can move on land; the fish has fins, it
-                can move in the water; the pigeon has legs and wings, it can move on
-                land and in the air.</li>
-        </ol>
-    </div>
-
-
-    {{-- panel 20 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Record of Animals</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: Practice (2)</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have children look at the record of animals, then list the animals according
-                    to their groups, those with legs, fins and wings.</li>
+                <li>Have children perform the mini drama according to the instructions of teacher;
+                    teacher to give encouragement.</li>
+                <li>Ask children: Is the mini drama performance interesting?</li>
+                <li>Do you like it?</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to identify whether an animal has legs, fins or wings.</li>
-                <li>Able to record their findings based on observation.</li>
+                <li>Able to practise performing the assigned role.</li>
+                <li>Able to perform a drama together with friends.</li>
+                <li>Able to express like or dislike for the mini drama performance.</li>
             </ul>
         </div>
     </div>
 
-
-    {{-- panel 21 --}}
-    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Record of Animals</h1>
-
-        <div class="text-start flex flex-col">
-            <h3 class="ptitle">Extension</h3>
-
-            <ul class="list-disc panel-ul w-[45vw]">
-                <li>If possible, replace the animals in the table. Have children observe
-                    the other animals and record their observations.</li>
-            </ul>
-        </div>
-    </div>
 
 
 
@@ -397,8 +422,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n1/animals/index') }}";
-            const doneURL = "{{ url('/micet/n1/animals/index') }}";
+            const returnURL = "{{ url('/micet/n1/drama/index') }}";
+            const doneURL = "{{ url('/micet/n1/drama/index') }}";
 
             // Track current position
             let currentSlide = 0;

@@ -37,33 +37,145 @@
 @section('content')
 
     {{-- panel 1 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[3vw]">
-        <h1 class="panel-title stroke">Table 1 : Theme Goals</h1>
+    <div class="phonics-panel flex flex-col justify-between h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7: Make a Puppet</h1>
+        <div class="flex items-center">
+            <img src="{{ asset('assets/images/micet/n1/colours/class6/b1.png') }}" class="h-[9vw]" />
+            <img src="{{ asset('assets/images/micet/n1/drama/class7/b1.png') }}" class="h-[9vw]" />
+            <img src="{{ asset('assets/images/micet/n1/animals/class4/b2.png') }}" class="h-[10vw]" />
+        </div>
 
-        <ol class="list-decimal panel-ul w-[45vw]">
-            <li>To know that we shouldn't open the door to strangers</li>
-            <li>To know that we can tell a story by singing</li>
-            <li>To develop the ability to perform in a drama</li>
+        <h3 class="ptitle">Objectives:</h3>
+
+        <ul class="list-disc panel-ul w-[42vw]">
+            <li>Make a puppet with recycled materials</li>
+            <li>Stimulate interest in making one's own toy</li>
+            <li>Use recycled materials to make simple toys</li>
+        </ul>
+    </div>
+
+
+    {{-- panel 2 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
+        <h1 class="panel-title stroke">Classroom Activity 7: Make a Puppet</h1>
+
+        <div>
+            <h3 class="ptitle">Preparations</h3>
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Thematic Activity Book</li>
+                <li>Recycled materials that children brought from home (from
+                    Activity 6)</li>
+                <li>Paper plates</li>
+                <li>Tape, glue</li>
+                <li>Watercolours and brushes</li>
+                <li>Disposable chopsticks</li>
+                <li>A pre-made puppet</li>
+            </ul>
+
+        </div>
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7: Make a Puppet</h1>
+
+        <div class="text-start">
+            <h3 class="ptitle">Lesson Development</h3>
+
+            <ol class="list-decimal panel-ul w-[45vw]">
+                <li>Display the pre-made puppet, ask children: “””What is this? What colour is it?
+                    is it pretty?“”</li>
+            </ol>
+        </div>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7: Make a Puppet</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="2">
+            <li>Inform children that they are going to use some recycled materials to
+                make a puppet.</li>
+            <li>Guide them to listen to the teacher's instructions carefully and watch the
+                demonstration closely, so that they can follow and make their own puppet</li>
         </ol>
     </div>
 
 
-    {{-- panel 2 --}}
+    {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Table 2 : MI Learning Web</h1>
-        <img src="{{ asset('assets/images/micet/n1/drama/tables/t1.png') }}" class="w-[28vw]" />
+        <h1 class="panel-title stroke">Classroom Activity 7: Make a Puppet</h1>
 
+        <ol class="list-decimal panel-ul w-[45vw]" start="4">
+            <li>First, distribute a paper plate to each child. Have children paint the plate
+                with their favourite colour and leave it to dry.</li>
+        </ol>
     </div>
 
 
-    {{-- panel 2 --}}
+    {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Table 2 : MI Activities</h1>
-        <img src="{{ asset('assets/images/micet/n1/drama/tables/t2.png') }}" class="h-[20vw]" />
+        <h1 class="panel-title stroke">Classroom Activity 7: Make a Puppet</h1>
 
+        <ol class="list-decimal panel-ul w-[45vw]" start="5">
+            <li>Then teacher demonstrates how to make the facial features (e.g. eyes,
+                nose) of the puppet by pasting on the different materials (e.g. seeds,
+                beans, sand) with glue.</li>
+            <li>Have children pick the materials that they like to make the facial features
+                of their puppets. Encourage them to use their imagination and creativity in
+                making the facial features, so that each of their puppet looks unique.</li>
+        </ol>
     </div>
 
 
+    {{-- panel 7 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7: Make a Puppet</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="7">
+            <li>Lastly, teacher uses tape to paste a chopstick in the middle (at the back)
+                of the plate.</li>
+            <li>Have children do the same to their plates to complete the making of the
+                puppets.</li>
+            <li>Teacher then helps children to write their names at the back of the
+                puppets.</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 7 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7: Make a Puppet</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="12">
+            <li>Guide children to complete the corresponding activity in the Thematic
+                Activity Book.</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
+        <h1 class="panel-title stroke">Classroom Activity 7: Make a Puppet</h1>
+
+        <div class="text-start flex flex-col justify-between h-full">
+            <h3 class="ptitle">Clousre</h3>
+
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Have children take turns to display their puppets.</li>
+            </ul>
+
+            <h3 class="ptitle">Evaluation</h3>
+
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Able to choose according to their own preferences to make the face
+                    features of the puppet.</li>
+                <li>Able to make a puppet.</li>
+            </ul>
+        </div>
+    </div>
 
 
 
@@ -119,8 +231,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n1/drama/index') }}";
-            const doneURL = "{{ url('/micet/n1/drama/index') }}";
+            const returnURL = "{{ url('/micet/n1/toys/index') }}";
+            const doneURL = "{{ url('/micet/n1/toys/index') }}";
 
             // Track current position
             let currentSlide = 0;

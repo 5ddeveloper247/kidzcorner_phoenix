@@ -18,18 +18,28 @@
 
         .panel-title {
             color: #F7B94A;
-            font-size: 2.5vw;
+            font-size: 2.2vw;
+        }
+
+        title {
+            color: #F7B94A;
+            font-size: 2vw;
         }
 
         .ptitle {
-            color: #F7B94A;
-            font-size: 1.7vw;
+            color: #f7b94a;
+            font-size: 1.5vw;
+        }
+
+        .p-title {
+            color: #ffffff;
+            font-size: 1.5vw;
         }
 
         .panel-ul {
             color: white;
             font-size: 1.4vw;
-            text-align: left;
+            text-align: left !important;
         }
     </style>
 @endpush
@@ -37,38 +47,258 @@
 @section('content')
 
     {{-- panel 1 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[3vw]">
-        <h1 class="panel-title stroke">Table 1 : Theme Goals</h1>
+    <div class="phonics-panel flex flex-col justify-between h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 1: Happy Toy's Day</h1>
+        <div class="flex items-center">
+            <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
+            <img src="{{ asset('assets/images/micet/n1/animals/class1/b1.png') }}" class="h-[8vw]" />
+        </div>
 
-        <ol class="list-decimal panel-ul w-[45vw]">
-            <li>To know that we shouldn't open the door to strangers</li>
-            <li>To know that we can tell a story by singing</li>
-            <li>To develop the ability to perform in a drama</li>
+
+        <h3 class="title">Objectives:</h3>
+
+        <ul class="list-disc panel-ul w-[40vw]">
+            <li>Identify some toys and their characteristics</li>
+            <li>Encourage sharing among children</li>
+            <li>Enjoy listening to a story</li>
+        </ul>
+    </div>
+
+
+    {{-- panel 2 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
+        <h1 class="panel-title stroke">Classroom Activity 1: Happy Toy's Day</h1>
+
+        <div>
+            <h3 class="title">Preparations</h3>
+
+            <ol class="list-disc panel-ul">
+                <li>Thematic Activity Book</li>
+            </ol>
+        </div>
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 1: Happy Toy's Day</h1>
+
+        <ol class="list-decimal panel-ul">
+            <li>Tell the story using suggested questions and activities to reinforce the
+                teaching points of the story.</li>
+        </ol>
+
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">The Rabbits and the Wolf</h1>
+
+        <h3 class="p-title">Theme: Toys</h3>
+        <img src="{{ asset('assets/images/micet/n1/toys/class1/c1.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h3 class="p-title">It's Toys' Day at Apple Class. Look, all the children have brought <br>
+            their favourite toy.</h3>
+
+        <img src="{{ asset('assets/images/micet/n1/toys/class1/c2.png') }}" class="w-[25vw]" />
+        <div class="flex items-center justify-between w-full">
+            <h3 class="p-title">
+                Do you like toys? What is your favourite toy? <br>
+                <span class="text-[#f7b94a]">Help children to develop language skills.</span>
+            </h3>
+            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+        </div>
+    </div>
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h3 class="p-title">After Mother Rabbit leaves, the baby rabbits lock the door. They <br>
+            play hide and seek happily inside the house.</h3>
+
+        <img src="{{ asset('assets/images/micet/n1/toys/class1/c3.png') }}" class="w-[25vw]" />
+        <div class="flex items-center justify-between w-full">
+            <h3 class="p-title">
+                Have you ever played hide and seek? How do you play the game?<br>
+                <span class="text-[#f7b94a]">Guide children to talk about their experiences in playing the hide
+                    and seek game.</span>
+            </h3>
+            <div class="flex items-center">
+                <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+                <img src="{{ asset('assets/images/micet/n1/colours/class1/b3.png') }}" class="w-[5vw]" />
+            </div>
+        </div>
+    </div>
+
+    {{-- panel 6 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h3 class="p-title">Logi says, "This is my favourite toy. It has wheels. It moves very
+            fast!"</h3>
+
+        <img src="{{ asset('assets/images/micet/n1/toys/class1/c4.png') }}" class="w-[25vw]" />
+        <div class="flex items-center justify-between w-full">
+            <h3 class="p-title text-start">
+                What is Logi's favourite toy? Have you ever played with this kind of toy?<br>
+                <span class="text-[#f7b94a]">Help children to develop observation and language skills.</span>
+            </h3>
+            <div class="flex items-center">
+                <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+                <img src="{{ asset('assets/images/micet/n1/colours/class1/b3.png') }}" class="w-[5vw]" />
+            </div>
+        </div>
+    </div>
+
+    {{-- panel 7 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h3 class="p-title">Lingo says, "This is my favourite toy. Isn't it adorable?"</h3>
+
+        <img src="{{ asset('assets/images/micet/n1/toys/class1/c5.png') }}" class="w-[25vw]" />
+        <div class="flex items-center justify-between w-full">
+            <h3 class="p-title">
+                What is Lingo's favourite toy? Have you ever played with this kind of toy?<br>
+                <span class="text-[#f7b94a]">Help children to develop observation and language skills.</span>
+            </h3>
+            <div class="flex items-center">
+                <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+                <img src="{{ asset('assets/images/micet/n1/colours/class1/b2.png') }}" class="w-[5vw]" />
+            </div>
+        </div>
+    </div>
+
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h3 class="p-title">Peace says, "This is my favourite toy. It makes beautiful sounds!"</h3>
+
+        <img src="{{ asset('assets/images/micet/n1/toys/class1/c6.png') }}" class="w-[25vw]" />
+        <div class="flex items-center justify-between w-full">
+            <h3 class="p-title">
+                What is Peace's favourite toy? Have you ever played with this kind of toy?<br>
+                <span class="text-[#f7b94a]">Help children to develop observation and language skills.</span>
+            </h3>
+            <div class="flex items-center">
+                <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+                <img src="{{ asset('assets/images/micet/n1/colours/class1/b3.png') }}" class="w-[5vw]" />
+            </div>
+        </div>
+    </div>
+
+    {{-- panel 9 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h3 class="p-title">Dex says, "This is my favourite toy. When I throw it, it goes very far!"</h3>
+
+        <img src="{{ asset('assets/images/micet/n1/toys/class1/c7.png') }}" class="w-[25vw]" />
+        <div class="flex items-center justify-between w-full">
+            <h3 class="p-title">
+                What is Dex's favourite toy? Have you ever played with this kind of toy?<br>
+                <span class="text-[#f7b94a]">Help children to develop observation and language skills.</span>
+            </h3>
+            <div class="flex items-center">
+                <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+                <img src="{{ asset('assets/images/micet/n1/colours/class1/b3.png') }}" class="w-[5vw]" />
+            </div>
+        </div>
+    </div>
+
+
+    {{-- panel 9 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h3 class="p-title">Doodle says, "This is my favourite toy. I made it myself!"</h3>
+
+        <img src="{{ asset('assets/images/micet/n1/toys/class1/c7.png') }}" class="w-[25vw]" />
+        <div class="flex items-center justify-between w-full">
+            <h3 class="p-title">
+                What is Doodle's favourite toy? Have you ever played with this kind of toy?<br>
+                <span class="text-[#f7b94a]">Help children to develop observation and language skills.</span>
+            </h3>
+            <div class="flex items-center">
+                <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+                <img src="{{ asset('assets/images/micet/n1/colours/class1/b3.png') }}" class="w-[5vw]" />
+            </div>
+        </div>
+    </div>
+
+
+    {{-- panel 10 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h3 class="p-title">The teacher says, "We have different types of toys here. Now, share <br>
+            them with your friends! Remember to take good care of them!"</h3>
+
+        <img src="{{ asset('assets/images/micet/n1/toys/class1/c8.png') }}" class="w-[25vw]" />
+        <div class="flex items-center justify-between w-full">
+            <h3 class="p-title">
+                What did Logi tell Dex? Will you say it the same way?<br>
+                <span class="text-[#f7b94a]">Inculcate the habits of sharing and taking care of toys.</span>
+            </h3>
+            <div class="flex items-center">
+                <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+                <img src="{{ asset('assets/images/micet/n1/colours/class1/b3.png') }}" class="w-[5vw]" />
+            </div>
+        </div>
+    </div>
+
+
+    {{-- panel 11 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h3 class="p-title">Now everyone gets to play with a "new" toy. All the children <br>
+            are so happy!</h3>
+
+        <img src="{{ asset('assets/images/micet/n1/toys/class1/c9.png') }}" class="w-[25vw]" />
+        <div class="flex items-center justify-between w-full">
+            <h3 class="p-title">
+                Why does everyone get to play with a "new" toy?<br>
+                <span class="text-[#f7b94a]">Help children to develop logical thinking skills.</span>
+            </h3>
+            <div class="flex items-center">
+                <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
+                <img src="{{ asset('assets/images/micet/n1/colours/class1/b3.png') }}" class="w-[5vw]" />
+            </div>
+        </div>
+    </div>
+
+
+    {{-- panel 9 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 1: Happy Toy's Day</h1>
+
+        <ol class="list-decimal panel-ul" start="2">
+            <li>Guide children to complete the corresponding activities in the Thematic
+                Activity Book.</li>
         </ol>
     </div>
 
 
-    {{-- panel 2 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Table 2 : MI Learning Web</h1>
-        <img src="{{ asset('assets/images/micet/n1/drama/tables/t1.png') }}" class="w-[28vw]" />
+    {{-- panel 10 --}}
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 1: Happy Toy's Day </h1>
 
+        <div class="text-start flex flex-col justify-between h-full">
+            <h3 class="ptitle">Clousre</h3>
+
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Have children recall the story and answer the questions: Why are the children
+                    bringing their favourite toys to class? Have you ever played with the
+                    different types of toys in the story?</li>
+            </ul>
+
+            <h3 class="ptitle">Evaluation</h3>
+
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Able to identify some toys.</li>
+                <li>Able to answer questions based on observation and listening skills.</li>
+                <li>Able to enjoy listening to the story.</li>
+            </ul>
+        </div>
     </div>
 
 
-    {{-- panel 2 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Table 2 : MI Activities</h1>
-        <img src="{{ asset('assets/images/micet/n1/drama/tables/t2.png') }}" class="h-[20vw]" />
-
-    </div>
 
 
 
-
-
-
-    {{-- =============================================== --}}
+    {{-- ================================ --}}
     {{-- All Buttons --}}
     <div id="buttons" class="absolute flex flex-row gap-6 z-90">
 
@@ -119,8 +349,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n1/drama/index') }}";
-            const doneURL = "{{ url('/micet/n1/drama/index') }}";
+            const returnURL = "{{ url('/micet/n1/toys/index') }}";
+            const doneURL = "{{ url('/micet/n1/toys/index') }}";
 
             // Track current position
             let currentSlide = 0;

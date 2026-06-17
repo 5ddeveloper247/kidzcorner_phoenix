@@ -38,33 +38,38 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 10: My Favourite Animal</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: Mini Drama Performance</h1>
         <div class="flex items-center">
-            <img src="{{ asset('assets/images/micet/n1/colours/b10.1.png') }}" class="h-[7vw]" />
             <img src="{{ asset('assets/images/micet/n1/colours/class4/b1.png') }}" class="h-[8vw]" />
             <img src="{{ asset('assets/images/micet/n1/colours/b10.2.png') }}" class="h-[8vw]" />
             <img src="{{ asset('assets/images/micet/n1/colours/b10.3.png') }}" class="h-[8vw]" />
+            <img src="{{ asset('assets/images/micet/n1/colours/b10.1.png') }}" class="h-[7vw]" />
         </div>
 
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul">
-            <li>Name a favourite animal and give a reason</li>
-            <li>Use simple words to introduce a favourite animal</li>
-            <li>Inculcate the habit of sharing</li>
+            <li>Perform the assigned role</li>
+            <li>Learn to perform a drama together with friends</li>
+            <li>Express like or dislike for a drama performance</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: My Favourite Animal</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: Mini Drama Performance</h1>
 
         <div class="space-y-[2vw]">
             <h3 class="ptitle">Preparations</h3>
 
-            <ol class="list-decimal panel-ul">
-                <li>Letter to parents (refer to the letter in Activity 3)</li>
+            <ol class="list-decimal panel-ul w-[45vw]">
+                <li>Different musical instruments</li>
+                <li>Rabbit and wolf headgears/masks</li>
+                <li>Decorate the class like a performing stage</li>
+                <li>If possible, prepare stage costumes for the performance
+                    (e.g. costumes of different characters, costumes of singing
+                    and musical instruments groups)</li>
             </ol>
         </div>
     </div>
@@ -72,76 +77,177 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: My Favourite Animal</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: Mini Drama Performance</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[50vw]">
-                <li>Have children sit in a circle and display their favourite animal toys.</li>
-                <li>Have them take turns to name their favourite animal toys and give a
-                    reason, then use simple words to describe them (physical features,
-                    characteristics, etc).</li>
+                <li>Have children work together to perform the mini drama.</li>
             </ol>
         </div>
     </div>
 
 
     {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 10: My Favourite Animal</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 10: Mini Drama Performance</h1>
 
         <ol class="list-decimal text-white text-[1.35vw] text-left" start="2">
-            <li>Ask the following questions, have children raise their hands to give answers.
-                <ul class="list-disc">
-                    <li>Whose favourite animal can move on land?</li>
-                    <li>Whose favourite animal can move in the water?</li>
-                    <li>Whose favourite animal can move in the air?</li>
-                    <li>Whose favourite animal has legs?</li>
-                    <li>Whose favourite animal has fins?</li>
-                    <li>Whose favourite animal has wings? </li>
-                    <li>Whose favourite animal has legs and wings?</li>
-                </ul>
-            </li>
-
+            <li>Scene 1: Storyteller tells the story at one side of the stage; children role playing
+                Mother Rabbit and baby rabbits perform in the middle of the stage; while children
+                who sing (song 1) and play musical instruments stand at the back of the stage.</li>
         </ol>
+        <div class="flex items-start justify-start">
+            <button class="w-[3vw]" id="soundButton">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            </button>
+            <h5 class="text-[1.5vw] text-white">
+                <span class="text-[#f7b94a]">Song I: Mother Rabbit</span> <br>
+                Oh my dear children, <br>
+                please lock the door. <br>
+                Mummy's going out <br>
+                to pick some carrots. <br>
+                Before mummy comes home, <br>
+                Don't open the door <br>
+                to let anyone in.
+            </h5>
+        </div>
     </div>
 
 
     {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 10: My Favourite Animal</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 10: Mini Drama Performance</h1>
 
-        <ol class="list-decimal text-white text-[1.35vw] text-left" start="2">
-            <li>Ask children: "Would you like to play with the different animal toys?" Invite
-                children to share their toys, so that they can play with the different animal toys.
-            </li>
-            <li>Have children pass their favourite toy to a friend on the right, let them play
-                with the toy for 5-10 minutes. Keep repeating this step until everyone gets
-                back their favourite toy.</li>
+        <ol class="list-decimal text-white text-[1.35vw] text-left" start="3">
+            <li>Scene 2: Storyteller tells the story at one side of the stage; children role playing
+                the wolf and baby rabbits perform in the middle of the stage; while children who sing
+                (song 2 & 3) and play musical instruments stand at the back of the stage.</li>
         </ol>
+
+        <div class="flex items-start justify-start">
+            <button class="w-[3vw]" id="soundButton">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            </button>
+            <h5 class="text-[1.5vw] text-white">
+                <span class="text-[#f7b94a]">Song 2: The Wolf</span> <br>
+                Oh my dear children, <br>
+                please open the door. <br>
+                Mummy is home, <br>
+                do open the door. <br>
+                Mummy has now come home, <br>
+                Please open the door <br>
+                and let mummy in
+            </h5>
+        </div>
+    </div>
+
+
+    {{-- panel 6 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 10: Mini Drama Performance</h1>
+
+        <ol class="list-decimal text-white text-[1.35vw] text-left" start="3">
+            <li>Scene 2: Storyteller tells the story at one side of the stage; children role playing
+                the wolf and baby rabbits perform in the middle of the stage; while children who sing
+                (song 2 & 3) and play musical instruments stand at the back of the stage.</li>
+        </ol>
+
+        <div class="flex items-start justify-start">
+            <button class="w-[3vw]" id="soundButton">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            </button>
+            <h5 class="text-[1.5vw] text-white">
+                <span class="text-[#f7b94a]">Song 3: Baby Rabbits</span> <br>
+                We are good children, <br>
+                can't open the door. <br>
+                You're not our mummy, <br>
+                can't open the door. <br>
+                Before mummy comes home, <br>
+                Can't open the door <br>
+                to let anyone in.
+            </h5>
+        </div>
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 10: Mini Drama Performance</h1>
+
+        <ol class="list-decimal text-white text-[1.35vw] text-left" start="4">
+            <li>Scene 3: Storyteller tells the story at one side of the stage; children role playing
+                Mother Rabbit and baby rabbits perform in the middle of the stage; while children
+                who sing (song 2 & 4) and play musical instruments stand at the back of the stage.</li>
+        </ol>
+
+        <div class="flex items-start justify-start">
+            <button class="w-[3vw]" id="soundButton">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            </button>
+            <h5 class="text-[1.5vw] text-white">
+                <span class="text-[#f7b94a]">Song 2: Mother Rabbit</span> <br>
+                Oh my dear children, <br>
+                please open the door. <br>
+                Mummy is home, <br>
+                do open the door. <br>
+                Mummy has now come home, <br>
+                Please open the door <br>
+                and let mummy in
+            </h5>
+        </div>
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 10: Mini Drama Performance</h1>
+
+        <ol class="list-decimal text-white text-[1.35vw] text-left" start="4">
+            <li>Scene 3: Storyteller tells the story at one side of the stage; children role playing
+                Mother Rabbit and baby rabbits perform in the middle of the stage; while children
+                who sing (song 2 & 4) and play musical instruments stand at the back of the stage.</li>
+        </ol>
+
+        <div class="flex items-start justify-start">
+            <button class="w-[3vw]" id="soundButton">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            </button>
+            <h5 class="text-[1.5vw] text-white">
+                <span class="text-[#f7b94a]">Song 4: Baby Rabbits</span> <br>
+                We are good children, <br>
+                we'll open the door. <br>
+                You are our mummy, <br>
+                we'll open the door. <br>
+                Mummy has now come home, <br>
+                Please open the door <br>
+                and let mummy in.
+            </h5>
+        </div>
     </div>
 
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: My Favourite Animal</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: Mini Drama Performance</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have children take turns to place their favourite toy in the appropriate
-                    places in the classroom - the Land Animal Kingdom, the Aquarium or the
-                    Flying Animal Kingdom.</li>
+                <li>Have children take turns to share their experience of
+                    performing in the mini drama.</li>
+                <li>Ask children: Is the mini drama performance interesting?
+                    Do you like it?</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to name a favourite animal and give a reason.</li>
-                <li>Able to use simple words to introduce a favourite animal.</li>
-                <li>Able to share toys with friends.</li>
+                <li>Able to perform the assigned role.</li>
+                <li>Able to perform a drama together with friends.</li>
+                <li>Able to express like or dislike for the mini drama performance.</li>
             </ul>
         </div>
     </div>
@@ -201,8 +307,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n1/animals/index') }}";
-            const doneURL = "{{ url('/micet/n1/animals/index') }}";
+            const returnURL = "{{ url('/micet/n1/drama/index') }}";
+            const doneURL = "{{ url('/micet/n1/drama/index') }}";
 
             // Track current position
             let currentSlide = 0;

@@ -18,7 +18,7 @@
 
         .panel-title {
             color: #F7B94A;
-            font-size: 2.5vw;
+            font-size: 2.2vw;
         }
 
         .ptitle {
@@ -37,33 +37,316 @@
 @section('content')
 
     {{-- panel 1 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[3vw]">
-        <h1 class="panel-title stroke">Table 1 : Theme Goals</h1>
+    <div class="phonics-panel flex flex-col justify-between h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Toys with Sounds</h1>
+        <div class="flex items-center">
+            <img src="{{ asset('assets/images/micet/n1/animals/class4/b1.png') }}" class="h-[8vw]" />
+            <img src="{{ asset('assets/images/micet/n1/animals/class4/b2.png') }}" class="h-[8vw]" />
+        </div>
 
-        <ol class="list-decimal panel-ul w-[45vw]">
-            <li>To know that we shouldn't open the door to strangers</li>
-            <li>To know that we can tell a story by singing</li>
-            <li>To develop the ability to perform in a drama</li>
+        <h3 class="ptitle">Objectives:</h3>
+
+        <ul class="list-disc panel-ul w-[45vw]">
+            <li>Identify some toys with sounds</li>
+            <li>Guess the sounds of some toys based on visual clues</li>
+            <li>Inculcate the habits of sharing and taking care of toys</li>
+        </ul>
+    </div>
+
+
+    {{-- panel 2 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
+        <h1 class="panel-title stroke">Classroom Activity 4: Toys with Sounds</h1>
+        <div class="text-center space-y-[2vw]">
+            <h3 class="ptitle">Preparations</h3>
+
+            <ul class="list-disc panel-ul">
+                <li>Thematic Activity Book</li>
+                <li>Letter to parents (refer to the letter in Activity 2)</li>
+                <li>A box: to keep the toys that children brought from home</li>
+            </ul>
+        </div>
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center sapce-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 4: Toys with Sounds</h1>
+
+        <div class="text-start">
+            <h3 class="ptitle">Lesson Development</h3>
+
+            <ol class="list-decimal panel-ul w-[45vw]">
+                <li>Ask children: "What are these?" "What do we use them for?" (enable us to
+                    hear sounds)</li>
+            </ol>
+        </div>
+        <img src="{{ asset('assets/images/micet/n1/toys/class4/c1.png') }}" class="w-[25vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">ears</h5>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Toys with Sounds</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="2">
+            <li>Ask children: "What is this?" (chirping bird toy) "Whose favourite toy is it?"
+                (Peace) "What colour is it?" "Where does the sound come out from?"
+                "What kind of sounds can be heard?" Click on the speaker to hear one of
+                the sounds it makes.</li>
+        </ol>
+        <div class="flex ">
+            <button class="w-[4vw]" id="soundButton">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            </button>
+            <img src="{{ asset('assets/images/micet/n1/toys/class4/c2.png') }}" class="h-[20vw]" />
+        </div>
+
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center sapce-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 4: Toys with Sounds</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Display picture, have children identify the toy, talk about where the sound
+                comes out from and what kind of sounds it makes. Click on the speaker to
+                hear one of the sounds it makes.</li>
+        </ol>
+        <div class="flex ">
+            <button class="w-[4vw]" id="soundButton">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            </button>
+
+            <div>
+                <img src="{{ asset('assets/images/micet/n1/toys/class4/c3.png') }}" class="w-[20vw]" />
+                <h5 class="text-[2vw] text-[#f7b94a]">farm animal sounds</h5>
+            </div>
+        </div>
+    </div>
+
+
+    {{-- panel 6 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center sapce-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 4: Toys with Sounds</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Display picture, have children identify the toy, talk about where the sound
+                comes out from and what kind of sounds it makes. Click on the speaker to
+                hear one of the sounds it makes.</li>
+        </ol>
+        <div class="flex ">
+            <button class="w-[4vw]" id="soundButton">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            </button>
+
+            <div>
+                <img src="{{ asset('assets/images/micet/n1/toys/class4/c4.png') }}" class="w-[20vw]" />
+                <h5 class="text-[2vw] text-[#f7b94a]">fire engine</h5>
+            </div>
+        </div>
+    </div>
+
+
+    {{-- panel 7 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center sapce-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 4: Toys with Sounds</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Display picture, have children identify the toy, talk about where the sound
+                comes out from and what kind of sounds it makes. Click on the speaker to
+                hear one of the sounds it makes.</li>
+        </ol>
+        <div class="flex ">
+            <button class="w-[4vw]" id="soundButton">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            </button>
+
+            <div>
+                <img src="{{ asset('assets/images/micet/n1/toys/class4/c5.png') }}" class="w-[20vw]" />
+                <h5 class="text-[2vw] text-[#f7b94a]">musical toy</h5>
+            </div>
+        </div>
+    </div>
+
+
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center sapce-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 4: Toys with Sounds</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Display picture, have children identify the toy, talk about where the sound
+                comes out from and what kind of sounds it makes. Click on the speaker to
+                hear one of the sounds it makes.</li>
+        </ol>
+        <div class="flex ">
+            <button class="w-[4vw]" id="soundButton">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            </button>
+
+            <div>
+                <img src="{{ asset('assets/images/micet/n1/toys/class4/c6.png') }}" class="w-[20vw]" />
+                <h5 class="text-[2vw] text-[#f7b94a]">transport town</h5>
+            </div>
+        </div>
+    </div>
+
+
+    {{-- panel 9 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center sapce-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 4: Toys with Sounds</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Display picture, have children identify the toy, talk about where the sound
+                comes out from and what kind of sounds it makes. Click on the speaker to
+                hear one of the sounds it makes.</li>
+        </ol>
+        <div class="flex ">
+            <button class="w-[4vw]" id="soundButton">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            </button>
+
+            <div>
+                <img src="{{ asset('assets/images/micet/n1/toys/class4/c7.png') }}" class="w-[20vw]" />
+                <h5 class="text-[2vw] text-[#f7b94a]">trumpet</h5>
+            </div>
+        </div>
+    </div>
+
+
+    {{-- panel 10 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center sapce-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 4: Toys with Sounds</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Display picture, have children identify the toy, talk about where the sound
+                comes out from and what kind of sounds it makes. Click on the speaker to
+                hear one of the sounds it makes.</li>
+        </ol>
+        <div class="flex ">
+            <button class="w-[4vw]" id="soundButton">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            </button>
+
+            <div>
+                <img src="{{ asset('assets/images/micet/n1/toys/class4/c7.png') }}" class="w-[20vw]" />
+                <h5 class="text-[2vw] text-[#f7b94a]">trumpet</h5>
+            </div>
+        </div>
+    </div>
+
+
+    {{-- panel 11 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center sapce-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 4: Toys with Sounds</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="4">
+            <li>Have children sit in a circle and display the toy that they brought from
+                home. Have them take turns to talk about the toy's name and how to play
+                with it and describe the sounds it makes. Encourage children to ask
+                questions.</li>
         </ol>
     </div>
 
 
-    {{-- panel 2 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Table 2 : MI Learning Web</h1>
-        <img src="{{ asset('assets/images/micet/n1/drama/tables/t1.png') }}" class="w-[28vw]" />
+    {{-- panel 12 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center sapce-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 4: Toys with Sounds</h1>
 
+        <ol class="list-decimal panel-ul w-[45vw]" start="5">
+            <li>Ask children: "All the toys that you brought from home have one thing in
+                common, do you know what it is?" Tell children that all these toys can
+                make sounds, they are toys with sounds.</li>
+        </ol>
     </div>
 
 
-    {{-- panel 2 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Table 2 : MI Activities</h1>
-        <img src="{{ asset('assets/images/micet/n1/drama/tables/t2.png') }}" class="h-[20vw]" />
+    {{-- panel 13 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center sapce-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 4: Toys with Sounds</h1>
 
+        <ol class="list-decimal panel-ul w-[45vw]" start="6">
+            <li>Ask children: "Do you think we should hit the sound button very hard when
+                playing with these toys? Should we throw them around after playing with
+                them?" Guide children to understand that we should handle the toys with
+                care, or they may get spoilt and we will have less toys to play with.</li>
+        </ol>
     </div>
 
 
+    {{-- panel 14 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center sapce-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 4: Toys with Sounds</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="7">
+            <li>Place a box in the middle, have children put their toys into the box. Ask
+                children: "Would you like to play with the different toys in the box?" Invite
+                children to share the toys, so they can play with the different toys.</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 15 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center sapce-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 4: Toys with Sounds</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="8">
+            <li>Have children take turns to play with the different toys. Advise them to
+                place the toy back to its original place after playing.</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 16 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center sapce-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 4: Toys with Sounds</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="9">
+            <li>Guide children to complete the corresponding activity in the Thematic
+                Activity Book.</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 17 --}}
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
+        <h1 class="panel-title stroke">Classroom Activity 4: Toys with Sounds</h1>
+
+        <div class="text-start flex flex-col justify-between h-full">
+            <h3 class="ptitle">Clousre</h3>
+
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Have children take turns to talk about their favourite toy
+                    with sounds and give a reason.</li>
+            </ul>
+
+            <h3 class="ptitle">Evaluation</h3>
+
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Able to identify some toys with sounds.</li>
+                <li>Able to guess the sounds of some toys based on visual clues.</li>
+                <li>Able to handle toys with care and place them back to
+                    their original places after playing.</li>
+            </ul>
+        </div>
+    </div>
+
+
+    {{-- panel 18 --}}
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
+        <h1 class="panel-title stroke">Classroom Activity 4: Toys with Sounds</h1>
+
+        <div class="text-start flex flex-col">
+            <h3 class="ptitle">Extension</h3>
+
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Have children check whether they have another toy with sounds that is
+                    special at home. If they do, have them bring and show it to the class.</li>
+            </ul>
+        </div>
+    </div>
 
 
 
@@ -119,8 +402,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n1/drama/index') }}";
-            const doneURL = "{{ url('/micet/n1/drama/index') }}";
+            const returnURL = "{{ url('/micet/n1/toys/index') }}";
+            const doneURL = "{{ url('/micet/n1/toys/index') }}";
 
             // Track current position
             let currentSlide = 0;

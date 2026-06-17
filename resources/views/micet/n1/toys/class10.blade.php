@@ -18,7 +18,7 @@
 
         .panel-title {
             color: #F7B94A;
-            font-size: 2.5vw;
+            font-size: 2.2vw;
         }
 
         .ptitle {
@@ -37,32 +37,157 @@
 @section('content')
 
     {{-- panel 1 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[3vw]">
-        <h1 class="panel-title stroke">Table 1 : Theme Goals</h1>
+    <div class="phonics-panel flex flex-col justify-between h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 10: Characteristics of Toys</h1>
+        <div class="flex items-center">
+            <img src="{{ asset('assets/images/micet/n1/toys/b1.png') }}" class="h-[8vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b3.png') }}" class="h-[8vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b2.png') }}" class="h-[8vw]" />
+        </div>
 
-        <ol class="list-decimal panel-ul w-[45vw]">
-            <li>To know that we shouldn't open the door to strangers</li>
-            <li>To know that we can tell a story by singing</li>
-            <li>To develop the ability to perform in a drama</li>
+        <h3 class="ptitle">Objectives:</h3>
+
+        <ul class="list-disc panel-ul">
+            <li>Find toys based on specific characteristics</li>
+            <li>Work with friends to complete a task</li>
+            <li>Cultivate patience</li>
+        </ul>
+    </div>
+
+
+    {{-- panel 2 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
+        <h1 class="panel-title stroke">Classroom Activity 10: Characteristics of Toys</h1>
+
+        <div class="space-y-[2vw]">
+            <h3 class="ptitle">Preparations</h3>
+
+            <ol class="list-decimal panel-ul w-[45vw]">
+                <li>Thematic Activity Book</li>
+                <li>Before lesson, place a variety of toys at different places of
+                    the classroom.</li>
+            </ol>
+        </div>
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 10: Characteristics of Toys</h1>
+
+        <div class="text-start">
+            <h3 class="ptitle">Lesson Development</h3>
+
+            <ol class="list-decimal panel-ul w-[50vw]">
+                <li>Have children sit in a circle and sing the song.</li>
+            </ol>
+        </div>
+
+        <div class="flex items-start">
+            <button class="w-[3vw]" id="soundButton">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            </button>
+            <h5 class="text-[1.5vw] text-[#f7b94a]">
+                There are many different toys, <br>
+                Different toys, different toys. <br>
+                There are many different toys. <br>
+                They are really fun.
+            </h5>
+        </div>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 10: Characteristics of Toys</h1>
+
+        <ol class="list-decimal panel-ul" start="2">
+            <li>Display a toy, ask leading questions that help children talk about the
+                characteristics of the toy (e.g. colour, shape, with or without wheels, with or
+                without sound, can or cannot be thrown).</li>
+            <li>Point to another toy, repeat step 2.</li>
         </ol>
     </div>
 
 
-    {{-- panel 2 --}}
+    {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Table 2 : MI Learning Web</h1>
-        <img src="{{ asset('assets/images/micet/n1/drama/tables/t1.png') }}" class="w-[28vw]" />
+        <h1 class="panel-title stroke">Classroom Activity 10: Characteristics of Toys</h1>
 
+        <ol class="list-decimal panel-ul" start="4">
+            <li>Tell children that they are going to play an interesting toys game in groups.</li>
+            <li>Demonstrate how to play the game:
+                <ul class="list-disc">
+                    <li>Divide children into 4 groups for a race.</li>
+                    <li>Teacher names a characteristic of a toy (e.g. toy with wheels), have
+                        the children in each group take turns to find a toy with that
+                        characteristic from the classroom. [Allow children in a group helping
+                        each other verbally.]</li>
+                    <li>When a child finds a right toy, he/she has to bring the toy back to
+                        his/her group. The task is only completed when everyone in the group
+                        finds the right toys and then sings the toy song together before
+                        reporting to teacher.</li>
+                    <li>During the race, teacher has to pay attention to the progress of each
+                        group.</li>
+                </ul>
+            </li>
+        </ol>
     </div>
 
 
-    {{-- panel 2 --}}
+    {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Table 2 : MI Activities</h1>
-        <img src="{{ asset('assets/images/micet/n1/drama/tables/t2.png') }}" class="h-[20vw]" />
+        <h1 class="panel-title stroke">Classroom Activity 10: Characteristics of Toys</h1>
 
+        <ol class="list-disc panel-ul">
+            <li>Teacher has to check if toys selected are correct when a group
+                reports to her. The fastest group to complete the task correctly will
+                earn 2 marks for that round. The remaining groups to complete the
+                task successfully will earn a mark. No mark is given to the group that
+                is unsuccessful in completing the task
+            </li>
+            <li>After recording the marks of each group, have children put the toys
+                back to different places of the classroom. Then, repeat the game.
+            </li>
+            <li>At the end of the last game, the group with the highest marks is the
+                winner.</li>
+        </ol>
     </div>
 
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 10: Characteristics of Toys</h1>
+
+        <ol class="list-decimal panel-ul" start="6">
+            <li>Guide children to complete the corresponding activity in the Thematic
+                Activity Book.</li>
+        </ol>
+    </div>
+
+
+
+    {{-- panel 6 --}}
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
+        <h1 class="panel-title stroke">Classroom Activity 10: Characteristics of Toys</h1>
+
+        <div class="text-start flex flex-col justify-between h-full">
+            <h3 class="ptitle">Clousre</h3>
+
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Have children take turns to share whether they like or dislike the game
+                    and give a reason.</li>
+            </ul>
+
+            <h3 class="ptitle">Evaluation</h3>
+
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Able to find toys based on specific characteristics.</li>
+                <li>Able to wait for one's turn when playing game.</li>
+                <li>Able to work with friends to complete a task.</li>
+            </ul>
+        </div>
+    </div>
 
 
 
@@ -119,8 +244,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n1/drama/index') }}";
-            const doneURL = "{{ url('/micet/n1/drama/index') }}";
+            const returnURL = "{{ url('/micet/n1/toys/index') }}";
+            const doneURL = "{{ url('/micet/n1/toys/index') }}";
 
             // Track current position
             let currentSlide = 0;

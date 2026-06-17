@@ -18,7 +18,7 @@
 
         .panel-title {
             color: #F7B94A;
-            font-size: 2.5vw;
+            font-size: 2.3vw;
         }
 
         .ptitle {
@@ -29,7 +29,7 @@
         .panel-ul {
             color: white;
             font-size: 1.4vw;
-            text-align: left;
+            text-align: left
         }
     </style>
 @endpush
@@ -37,33 +37,256 @@
 @section('content')
 
     {{-- panel 1 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[3vw]">
-        <h1 class="panel-title stroke">Table 1 : Theme Goals</h1>
+    <div class="phonics-panel flex flex-col justify-between h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Character Toys</h1>
+        <div class="flex items-center">
+            <img src="{{ asset('assets/images/micet/n1/toys/class2/b2.png') }}" class="h-[10vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/class2/b3.png') }}" class="h-[10vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/class2/b4.png') }}" class="h-[10vw]" />
+        </div>
 
-        <ol class="list-decimal panel-ul w-[45vw]">
-            <li>To know that we shouldn't open the door to strangers</li>
-            <li>To know that we can tell a story by singing</li>
-            <li>To develop the ability to perform in a drama</li>
+
+        <h3 class="ptitle">Objectives:</h3>
+
+        <ul class="list-disc panel-ul ">
+            <li>Identify some character toys</li>
+            <li>Inculcate the habits of sharing and taking care of toys</li>
+        </ul>
+    </div>
+
+
+    {{-- panel 2 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
+        <h1 class="panel-title stroke">Classroom Activity 3: Character Toys</h1>
+
+        <div class="space-y-[1vw] text-center">
+            <h3 class="ptitle">Preparations</h3>
+
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Thematic Activity Book</li>
+                <li>Letter to parents (refer to the letter in Activity 2)</li>
+                <li>A box: to keep the toys that children brought from home</li>
+            </ul>
+        </div>
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Character Toys</h1>
+
+        <div class="text-start space-y-[1vw]">
+            <h3 class="ptitle">Lesson Development</h3>
+
+            <ul class="list-decimal panel-ul w-[50vw]">
+                <li>Ask children: "What is this?" (bear) "Whose favourite toy is it?" (Lingo)
+                    "What colour is it?" "How does Lingo play with it?" "Do you have the same
+                    kind of toy?"</li>
+            </ul>
+        </div>
+        <img src="{{ asset('assets/images/micet/n1/toys/class3/c1.png') }}" class="w-[17vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Character Toys</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="2">
+            <li>Tell children that a toy bear is a kind of character toy. Character toys like
+                dolls, stuffed toys, puppets and figurines can be like our best friends
+                because they keep us company and we can tell them anything.</li>
         </ol>
     </div>
 
 
-    {{-- panel 2 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Table 2 : MI Learning Web</h1>
-        <img src="{{ asset('assets/images/micet/n1/drama/tables/t1.png') }}" class="w-[28vw]" />
+    {{-- panel 6 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Character Toys</h1>
 
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Display picture. Have children identify the toy and share how they would
+                play with it.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/toys/class3/c2.png') }}" class="w-[20vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">doll</h5>
     </div>
 
 
-    {{-- panel 2 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Table 2 : MI Activities</h1>
-        <img src="{{ asset('assets/images/micet/n1/drama/tables/t2.png') }}" class="h-[20vw]" />
+    {{-- panel 7 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Character Toys</h1>
 
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Display picture. Have children identify the toy and share how they would
+                play with it.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/toys/class3/c3.png') }}" class="w-[25vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">finger puppets</h5>
     </div>
 
 
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Character Toys</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Display picture. Have children identify the toy and share how they would
+                play with it.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/toys/class3/c4.png') }}" class="w-[25vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">animal figurines</h5>
+    </div>
+
+
+    {{-- panel 9 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Character Toys</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Display picture. Have children identify the toy and share how they would
+                play with it.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/toys/class3/c5.png') }}" class="w-[20vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">stuffed teddy bear</h5>
+    </div>
+
+
+    {{-- panel 10 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Character Toys</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Display picture. Have children identify the toy and share how they would
+                play with it.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/toys/class3/c6.png') }}" class="w-[25vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">puppet</h5>
+    </div>
+
+
+    {{-- panel 11 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Character Toys</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Display picture. Have children identify the toy and share how they would
+                play with it.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/toys/class3/c7.png') }}" class="w-[20vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">stuffed Ernie doll</h5>
+    </div>
+
+
+    {{-- panel 12 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Character Toys</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Display picture. Have children identify the toy and share how they would
+                play with it.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/toys/class3/c8.png') }}" class="w-[25vw]" />
+        <h5 class="text-[2vw] text-[#f7b94a]">Transformer toy</h5>
+    </div>
+
+
+    {{-- panel 13 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Character Toys</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="4">
+            <li>Have children sit in a circle and display the toy that they brought from
+                home. Have them take turns to name their toy and share how they would
+                play with it. Encourage the children to ask questions.</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 14 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Character Toys</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="5">
+            <li>Ask children: "Do you think we should throw the character toys around
+                after playing with them?" Guide children to understand that we should
+                handle the toys with care, or they may get spoilt and we will have less toys
+                to play with.</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 15 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Character Toys</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="6">
+            <li>Place a box in the middle, have children put their character toys into the
+                box. Ask children: "Would you like to play with the different character toys
+                in the box?" Invite children to share the toys, so they can play with the
+                different toys.</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 16 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Character Toys</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="7">
+            <li>Have children take turns to play with the different toys. Advise them to
+                place the toy back to its original place after playing.</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 17 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Character Toys</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="8">
+            <li>Guide children to complete the corresponding activity in the Thematic
+                Activity Book.</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 18 --}}
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 3: Character Toys</h1>
+
+        <div class="text-start flex flex-col justify-between h-full">
+            <h3 class="ptitle">Clousre</h3>
+
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Have children take turns to show and talk about their favourite character
+                    toy and give a reason.</li>
+            </ul>
+
+            <h3 class="ptitle">Evaluation</h3>
+
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Able to identify some character toys.</li>
+                <li>Able to handle toys with care and place them back to their original
+                    places after playing.</li>
+            </ul>
+        </div>
+    </div>
+
+
+    {{-- panel 19 --}}
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 3: Character Toys</h1>
+
+        <div class="text-start flex flex-col">
+            <h3 class="ptitle">Extension</h3>
+
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Place the box containing character toys at the activity corner, encourage
+                    children to play with the toys when they are free.</li>
+            </ul>
+        </div>
+    </div>
 
 
 
@@ -119,8 +342,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n1/drama/index') }}";
-            const doneURL = "{{ url('/micet/n1/drama/index') }}";
+            const returnURL = "{{ url('/micet/n1/toys/index') }}";
+            const doneURL = "{{ url('/micet/n1/toys/index') }}";
 
             // Track current position
             let currentSlide = 0;

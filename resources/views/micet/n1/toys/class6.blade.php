@@ -37,31 +37,179 @@
 @section('content')
 
     {{-- panel 1 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[3vw]">
-        <h1 class="panel-title stroke">Table 1 : Theme Goals</h1>
+    <div class="phonics-panel flex flex-col justify-between h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 6: Make the Maracas</h1>
+        <div class="flex items-center">
+            <img src="{{ asset('assets/images/micet/n1/animals/class6/b1.png') }}" class="h-[9vw]" />
+            <img src="{{ asset('assets/images/micet/n1/animals/class4/b2.png') }}" class="h-[9vw]" />
+        </div>
 
-        <ol class="list-decimal panel-ul w-[45vw]">
-            <li>To know that we shouldn't open the door to strangers</li>
-            <li>To know that we can tell a story by singing</li>
-            <li>To develop the ability to perform in a drama</li>
+        <h3 class="ptitle">Objectives:</h3>
+
+        <ul class="list-disc panel-ul">
+            <li>Make a maraca with recycled materials</li>
+            <li>Stimulate interest in making one's own toy</li>
+            <li>Use recycled materials to make simple toys</li>
+        </ul>
+
+    </div>
+
+
+    {{-- panel 2 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
+        <h1 class="panel-title stroke">Classroom Activity 6: Make the Maracas</h1>
+
+        <div>
+            <h3 class="ptitle">Preparations</h3>
+
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Thematic Activity Book</li>
+                <li>Letter to parents (refer to next page)</li>
+                <li>Recycled materials that children bring from home</li>
+                <li>Kraft paper (or other types of paper that can be used to
+                    cover the opening of the container), plain paper</li>
+                <li>Rubber bands, glue</li>
+                <li>Crayons</li>
+                <li>A pre-made maraca</li>
+            </ul>
+        </div>
+    </div>
+
+
+    {{-- Panel --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 6: Make the Maracas</h1>
+        <img src="{{ asset('assets/images/micet/n1/toys/class6/c1.png') }}" class="w-[35vw]" />
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 6: Make the Maracas</h1>
+
+        <div class="text-start">
+            <h3 class="ptitle">Lesson Development</h3>
+            <ol class="list-decimal panel-ul w-[45vw]">
+                <li>Ask children: "What is this?" (maraca) "Whose favourite toy is it?" (Doodle)
+                    "What colour is it?" "Do you know how to play with it?"</li>
+            </ol>
+        </div>
+        <img src="{{ asset('assets/images/micet/n1/toys/class6/c2.png') }}" class="h-[20vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 6: Make the Maracas</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="2">
+            <li>Display the pre-made maraca, ask children: "I made this maraca. Is it
+                pretty? What colour is it? Is it the same as Doodle's maraca?"</li>
         </ol>
     </div>
 
 
-    {{-- panel 2 --}}
+    {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Table 2 : MI Learning Web</h1>
-        <img src="{{ asset('assets/images/micet/n1/drama/tables/t1.png') }}" class="w-[28vw]" />
+        <h1 class="panel-title stroke">Classroom Activity 6: Make the Maracas</h1>
 
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Display these pictures. Inform children that we can use different materials
+                to make maracas. Each pair of maracas is different, so they are all special
+                and unique.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n1/toys/class6/c3.png') }}" class="w-[30vw]" />
     </div>
 
 
-    {{-- panel 2 --}}
+    {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Table 2 : MI Activities</h1>
-        <img src="{{ asset('assets/images/micet/n1/drama/tables/t2.png') }}" class="h-[20vw]" />
+        <h1 class="panel-title stroke">Classroom Activity 6: Make the Maracas</h1>
 
+        <ol class="list-decimal panel-ul w-[45vw]" start="4">
+            <li>Inform children that they are going to use some recycled materials to
+                make their own maracas.</li>
+            <li>Guide them to listen to the teacher's instructions carefully and watch the
+                demonstration closely, so that they can follow and make their own
+                maracas.</li>
+        </ol>
     </div>
+
+
+    {{-- panel 7 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 6: Make the Maracas</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="6">
+            <li>First, have children pick a container (box, can or bottle) based on their
+                own preferences. Teacher will also pick a container.</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 6: Make the Maracas</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="7">
+            <li>Teacher then adds 2 types of materials (e.g. seeds, beans, sand), one after
+                another, into the container and shakes it lightly. Tell children that using
+                different types of containers and materials will make different sounds.</li>
+            <li>Have children pick the materials that they like and put into their containers.
+                Advise them not to put too many materials into a container because it will
+                not sound nice.</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 9 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 6: Make the Maracas</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="9">
+            <li>Lastly, teacher demonstrates how to cover the opening of the container
+                with kraft paper and a rubber band. Have children do the same to theirs
+                [teacher assists when needed].</li>
+            <li>Distribute a sheet of plain paper to each child. Have children draw the
+                pictures or patterns that they like on the paper, then paste it on their own
+                containers to complete the making of the maracas.</li>
+            <li>Teacher then helps children to write their names on the maracas.</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 10 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 6: Make the Maracas</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="12">
+            <li>Guide children to complete the corresponding activity in the Thematic
+                Activity Book.</li>
+        </ol>
+    </div>
+
+
+    {{-- Panel 11 --}}
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
+        <h1 class="panel-title stroke">Classroom Activity 6: Make the Maracas</h1>
+
+        <div class="text-start flex flex-col justify-between h-full">
+            <h3 class="ptitle">Clousre</h3>
+
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Have children take turns to display and shake their maracas.</li>
+            </ul>
+
+            <h3 class="ptitle">Evaluation</h3>
+
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Able to independently choose the container and materials according to
+                    their own preferences.</li>
+                <li>Able to make a maraca.</li>
+            </ul>
+        </div>
+    </div>
+
 
 
 
@@ -119,8 +267,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n1/drama/index') }}";
-            const doneURL = "{{ url('/micet/n1/drama/index') }}";
+            const returnURL = "{{ url('/micet/n1/toys/index') }}";
+            const doneURL = "{{ url('/micet/n1/toys/index') }}";
 
             // Track current position
             let currentSlide = 0;

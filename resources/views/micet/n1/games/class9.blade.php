@@ -37,30 +37,116 @@
 @section('content')
 
     {{-- panel 1 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[3vw]">
-        <h1 class="panel-title stroke">Table 1 : Theme Goals</h1>
+    <div class="phonics-panel flex flex-col justify-between h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 9: Let's Play Together</h1>
+        <div class="flex items-center">
+            <img src="{{ asset('assets/images/micet/n1/toys/b1.png') }}" class="h-[8vw]" />
+            <img src="{{ asset('assets/images/micet/n1/toys/b2.png') }}" class="h-[8vw]" />
+        </div>
 
-        <ol class="list-decimal panel-ul w-[45vw]">
-            <li>To know that we shouldn't open the door to strangers</li>
-            <li>To know that we can tell a story by singing</li>
-            <li>To develop the ability to perform in a drama</li>
+        <h3 class="ptitle">Objectives:</h3>
+
+        <ul class="list-disc panel-ul">
+            <li>Name a favourite toy and give a reason</li>
+            <li>Share toys with friends</li>
+            <li>Enjoy playing toys together with friends</li>
+        </ul>
+    </div>
+
+
+    {{-- panel 2 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
+        <h1 class="panel-title stroke">Classroom Activity 9: Let's Play Together</h1>
+
+        <div>
+            <h3 class="ptitle">Preparations</h3>
+
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Thematic Activity Book</li>
+                <li>Before lesson, return all the toys to children (total 6 for
+                    each child: 4 from home and 2 handmade)</li>
+            </ul>
+        </div>
+    </div>
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 9: Let's Play Together</h1>
+
+        <div class="text-start">
+            <h3 class="ptitle">Lesson Development</h3>
+
+            <ol class="list-decimal panel-ul w-[45vw]">
+                <li>Have children sit in a circle, ask them: "Look at your toys, which is your
+                    favourite toy? Why?" Have children take turns to answer the questions.</li>
+            </ol>
+        </div>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 9: Let's Play Together</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="2">
+            <li>Have children put their favourite toys aside and keep the rest of the toys.</li>
         </ol>
     </div>
 
 
-    {{-- panel 2 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Table 2 : MI Learning Web</h1>
-        <img src="{{ asset('assets/images/micet/n1/drama/tables/t1.png') }}" class="w-[28vw]" />
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 9: Let's Play Together</h1>
 
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Teacher holds up a toy and tells children: "Each one of us has a different
+                favourite toy. Let's share them, so that we can all get to play with the
+                different toys!"</li>
+            <li>Teacher demonstrates how to politely borrow a toy from a child: "Please
+                lend me your toy." If the child is willing to share the toy, get him/her to then
+                borrow a toy from another child. If the child is unwilling to share the toy, tell
+                him/her that it's okay, then approach another child. [Give the child time to
+                observe the reactions of his/her friends, approach the child again after
+                that.]
+            </li>
+            <li>Have children take turns to borrow a toy from another friend.</li>
+        </ol>
     </div>
 
 
-    {{-- panel 2 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Table 2 : MI Activities</h1>
-        <img src="{{ asset('assets/images/micet/n1/drama/tables/t2.png') }}" class="h-[20vw]" />
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 9: Let's Play Together</h1>
 
+        <ol class="list-decimal panel-ul w-[45vw]" start="6">
+            <li>Tell children that they can play with their friends' toys. Remind them to
+                handle the toys with care and return them to their friends after playing.</li>
+            <li>Encourage children to share their toys willingly with friends and have fun
+                playing together.</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 7 --}}
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
+        <h1 class="panel-title stroke">Classroom Activity 9: Let's Play Together</h1>
+
+        <div class="text-start flex flex-col justify-between h-full">
+            <h3 class="ptitle">Clousre</h3>
+
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Have children that were willing to share toys with their friends answer
+                    the following questions: Were you happy playing with the different toys?
+                    Were you happy playing the toys together with your friends?</li>
+            </ul>
+
+            <h3 class="ptitle">Evaluation</h3>
+
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Able to share toys with friends.</li>
+                <li>Able to play toys with friends.</li>
+            </ul>
+        </div>
     </div>
 
 
@@ -119,8 +205,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n1/drama/index') }}";
-            const doneURL = "{{ url('/micet/n1/drama/index') }}";
+            const returnURL = "{{ url('/micet/n1/toys/index') }}";
+            const doneURL = "{{ url('/micet/n1/toys/index') }}";
 
             // Track current position
             let currentSlide = 0;

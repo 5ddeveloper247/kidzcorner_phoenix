@@ -37,33 +37,148 @@
 @section('content')
 
     {{-- panel 1 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[3vw]">
-        <h1 class="panel-title stroke">Table 1 : Theme Goals</h1>
+    <div class="phonics-panel flex flex-col justify-between h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 8: Toys Song</h1>
+        <div class="flex items-center">
+            <img src="{{ asset('assets/images/micet/n1/colours/class8/b1.png') }}" class="h-[8vw]" />
+            <img src="{{ asset('assets/images/micet/n1/colours/class8/b2.png') }}" class="h-[8vw]" />
+        </div>
 
-        <ol class="list-decimal panel-ul w-[45vw]">
-            <li>To know that we shouldn't open the door to strangers</li>
-            <li>To know that we can tell a story by singing</li>
-            <li>To develop the ability to perform in a drama</li>
+        <h3 class="ptitle">Objectives:</h3>
+
+        <ul class="list-disc panel-ul">
+            <li>Learn to sing a song about toys</li>
+            <li>Learn to shake a maraca and move to music when singing</li>
+        </ul>
+    </div>
+
+
+    {{-- panel 2 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 8: Toys Song</h1>
+
+        <h3 class="ptitle">Preparations</h3>
+
+        <ul class="list-disc panel-ul w-[45vw]">
+            <li>Different musical instruments</li>
+            <li>Maracas (from Activity 6)</li>
+        </ul>
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 8: Toys Song</h1>
+
+        <div class="text-start">
+            <h3 class="ptitle">Lesson Development</h3>
+
+            <ol class="list-decimal panel-ul w-[50vw]">
+                <li>Ask children: "Do you like toys? Do you like to play with toys?"</li>
+                <li>Tell children that they are going to learn to sing a song about toys.</li>
+            </ol>
+        </div>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 8: Toys Song</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="3">
+            <li>Play music and sing.</li>
+            <li>Explain the meaning of the lyrics to children.</li>
+            <li>Replay music, have children sing along.</li>
+        </ol>
+        <div class="flex">
+            <button class="w-[4vw]" id="soundButton">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            </button>
+            <h5 class="text-[1.5vw] text-[#f7b94a]">
+                There are many different toys, <br>
+                Different toys, different toys. <br>
+                There are many different toys. <br>
+                They are really fun.
+            </h5>
+        </div>
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 8: Toys Song</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="6">
+            <li>Have children take out their maracas and shake them while singing.</li>
+        </ol>
+        <div class="flex">
+            <button class="w-[4vw]" id="soundButton">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            </button>
+            <h5 class="text-[1.5vw] text-[#f7b94a]">
+                There are many different toys, <br>
+                Different toys, different toys. <br>
+                There are many different toys. <br>
+                They are really fun.
+            </h5>
+        </div>
+    </div>
+
+
+    {{-- panel 6 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 8: Toys Song</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="7">
+            <li>Have children shake their maracas and move to the music when singing
+                the song.</li>
+        </ol>
+        <div class="flex">
+            <button class="w-[4vw]" id="soundButton">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            </button>
+            <h5 class="text-[1.5vw] text-[#f7b94a]">
+                There are many different toys, <br>
+                Different toys, different toys. <br>
+                There are many different toys. <br>
+                They are really fun.
+            </h5>
+        </div>
+    </div>
+
+
+    {{-- panel 7 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 8: Toys Song</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="8">
+            <li>Guide children to complete the corresponding activity in the Thematic
+                Activity Book.</li>
         </ol>
     </div>
 
 
-    {{-- panel 2 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Table 2 : MI Learning Web</h1>
-        <img src="{{ asset('assets/images/micet/n1/drama/tables/t1.png') }}" class="w-[28vw]" />
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 8: Toys Song</h1>
 
+        <div class="text-start flex flex-col justify-between h-full">
+            <h3 class="ptitle">Clousre</h3>
+
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Divide children into 2 groups, have them take turns to
+                    shake their maracas and move to the music when singing
+                    the song.</li>
+            </ul>
+
+            <h3 class="ptitle">Evaluation</h3>
+
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Able to sing the song about toys.</li>
+                <li>Able to shake a maraca and move to music when singing.</li>
+            </ul>
+        </div>
     </div>
-
-
-    {{-- panel 2 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Table 2 : MI Activities</h1>
-        <img src="{{ asset('assets/images/micet/n1/drama/tables/t2.png') }}" class="h-[20vw]" />
-
-    </div>
-
-
 
 
 
@@ -119,8 +234,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n1/drama/index') }}";
-            const doneURL = "{{ url('/micet/n1/drama/index') }}";
+            const returnURL = "{{ url('/micet/n1/toys/index') }}";
+            const doneURL = "{{ url('/micet/n1/toys/index') }}";
 
             // Track current position
             let currentSlide = 0;

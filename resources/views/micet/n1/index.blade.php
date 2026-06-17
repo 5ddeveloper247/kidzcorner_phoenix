@@ -68,19 +68,19 @@
             <img src="{{ asset('assets/images/micet/global/n1/mi10.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/n1/sm_rev') }}">
+        <a href="{{ url('/micet/n1/toys/index') }}">
             <img src="{{ asset('assets/images/micet/global/n1/mi11.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/n1/sh_ch') }}">
+        <a href="{{ url('/micet/n1/toys/index') }}">
             <img src="{{ asset('assets/images/micet/global/n1/mi12.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/n1/th_wh') }}">
+        <a href="{{ url('/micet/n1/games/index') }}">
             <img src="{{ asset('assets/images/micet/global/n1/mi13.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/n1/sh_th') }}">
+        <a href="{{ url('/micet/n1/games/index') }}">
             <img src="{{ asset('assets/images/micet/global/n1/mi14.png') }}" />
         </a>
 
