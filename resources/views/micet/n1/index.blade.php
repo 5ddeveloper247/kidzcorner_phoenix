@@ -84,11 +84,11 @@
             <img src="{{ asset('assets/images/micet/global/n1/mi14.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/n1/ch_rev') }}">
+        <a href="{{ url('/micet/n1/music/index') }}">
             <img src="{{ asset('assets/images/micet/global/n1/mi15.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/n1/ap_ad') }}">
+        <a href="{{ url('/micet/n1/music/index') }}">
             <img src="{{ asset('assets/images/micet/global/n1/mi16.png') }}" />
         </a>
 

@@ -48,7 +48,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 1: Drop the Handkerchief</h1>
+        <h1 class="panel-title stroke">Classroom Activity 1: Rhythm of Music</h1>
         <div class="flex items-center">
             <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
             <img src="{{ asset('assets/images/micet/n1/animals/class1/b1.png') }}" class="h-[8vw]" />
@@ -58,24 +58,24 @@
         <h3 class="title">Objectives:</h3>
 
         <ul class="list-disc panel-ul w-[40vw]">
-            <li>Learn how to play the "Drop the Handkerchief" game</li>
-            <li>Learn to follow the rules of the game</li>
-            <li>Develop physical skills like coordination and movement</li>
-            <li>Enjoy playing with friends</li>
+            <li>LeKnow that all music has rhythm</li>
+            <li>Know that we can clap to the rhythm of the music</li>
+            <li>Learn to clap to the rhythm of the music</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Drop the Handkerchief</h1>
+        <h1 class="panel-title stroke">Classroom Activity 1: Rhythm of Music</h1>
 
         <div>
             <h3 class="title">Preparations</h3>
 
             <ol class="list-disc panel-ul">
-                <li>A handkerchief (can use other replacement)</li>
-                <li>A suitable music (e.g. song "Drop the Handkerchief")</li>
+                <li>Before the lesson, practise clapping to the rhythm of the
+                    music. [Note: After prelude, clap every time you hear the
+                    sound of the drum]</li>
             </ol>
         </div>
     </div>
@@ -83,22 +83,19 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Drop the Handkerchief</h1>
+        <h1 class="panel-title stroke">Classroom Activity 1: Rhythm of Music</h1>
         <h3 class="ptitle">Lesson Development</h3>
 
         <ol class="list-decimal panel-ul w-[45vw]">
-            <li>Display the handkerchief and ask children: "What is this?" "What do you
-                use it for?" (wipe face and hands)</li>
-            <li>Tell children that we are going to learn how to play "Drop the
-                Handkerchief" game today.</li>
+            <li>Play the music and let children listen to the music.</li>
+            <li>Ask children: "What did you hear?" (a piece of music) "Do you like it?"</li>
         </ol>
-
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Drop the Handkerchief</h1>
+        <h1 class="panel-title stroke">Classroom Activity 1: Rhythm of Music</h1>
 
         <ol class="list-decimal panel-ul" start="3">
             <li>Have children assist in demonstrating how to play the game (indoors or
@@ -123,7 +120,7 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Drop the Handkerchief</h1>
+        <h1 class="panel-title stroke">Classroom Activity 1: Rhythm of Music</h1>
 
         <ul class="list-disc panel-ul">
             <li>When the music stops, have children search behind their backs for the
@@ -150,7 +147,7 @@
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Drop the Handkerchief</h1>
+        <h1 class="panel-title stroke">Classroom Activity 1: Rhythm of Music</h1>
 
         <ol class="list-decimal panel-ul" start="4">
             <li>Invite children to start the game, teacher assist if needed.</li>
@@ -160,7 +157,7 @@
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Drop the Handkerchief </h1>
+        <h1 class="panel-title stroke">Classroom Activity 1: Rhythm of Music </h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
@@ -184,7 +181,7 @@
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Drop the Handkerchief </h1>
+        <h1 class="panel-title stroke">Classroom Activity 1: Rhythm of Music </h1>
 
         <div class="text-start flex flex-col">
             <h3 class="ptitle">Extension</h3>

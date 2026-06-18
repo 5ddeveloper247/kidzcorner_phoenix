@@ -22,36 +22,36 @@
     {{-- Phonics l2 --}}
     <div id="slide-board" class=" home grid grid-cols-4 gap-[2vw] mb-[2vw]">
 
-        <a href="{{ url('/micet/n1/games/class1') }}">
-            <img src="{{ asset('assets/images/micet/n1/games/class1.png') }}" />
+        <a href="{{ url('/micet/n1/music/class1') }}">
+            <img src="{{ asset('assets/images/micet/n1/music/class1.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/n1/games/class2') }}">
-            <img src="{{ asset('assets/images/micet/n1/games/class2.png') }}" />
+        <a href="{{ url('/micet/n1/music/class2') }}">
+            <img src="{{ asset('assets/images/micet/n1/music/class2.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/n1/games/class3') }}">
-            <img src="{{ asset('assets/images/micet/n1/games/class3.png') }}" />
+        <a href="{{ url('/micet/n1/music/class3') }}">
+            <img src="{{ asset('assets/images/micet/n1/music/class3.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/n1/games/class4') }}">
-            <img src="{{ asset('assets/images/micet/n1/games/class4.png') }}" />
+        <a href="{{ url('/micet/n1/music/class4') }}">
+            <img src="{{ asset('assets/images/micet/n1/music/class4.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/n1/games/class5') }}">
-            <img src="{{ asset('assets/images/micet/n1/games/class5.png') }}" />
+        <a href="{{ url('/micet/n1/music/class5') }}">
+            <img src="{{ asset('assets/images/micet/n1/music/class5.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/n1/games/class6') }}">
-            <img src="{{ asset('assets/images/micet/n1/games/class6.png') }}" />
+        <a href="{{ url('/micet/n1/music/class6') }}">
+            <img src="{{ asset('assets/images/micet/n1/music/class6.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/n1/games/class7') }}">
-            <img src="{{ asset('assets/images/micet/n1/games/class7.png') }}" />
+        <a href="{{ url('/micet/n1/music/class7') }}">
+            <img src="{{ asset('assets/images/micet/n1/music/class7.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/n1/games/class8') }}">
-            <img src="{{ asset('assets/images/micet/n1/games/class8.png') }}" />
+        <a href="{{ url('/micet/n1/music/class8') }}">
+            <img src="{{ asset('assets/images/micet/n1/music/class8.png') }}" />
         </a>
 
     </div>
@@ -60,16 +60,16 @@
     {{-- Phonics l2 --}}
     <div id="slide-board" class="first grid grid-cols-3 gap-[2vw] mb-[2vw] hidden">
 
-        <a href="{{ url('/micet/n1/games/class9') }}">
-            <img src="{{ asset('assets/images/micet/n1/games/class9.png') }}" />
+        <a href="{{ url('/micet/n1/music/class9') }}">
+            <img src="{{ asset('assets/images/micet/n1/music/class9.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/n1/games/class10') }}">
-            <img src="{{ asset('assets/images/micet/n1/games/class10.png') }}" />
+        <a href="{{ url('/micet/n1/music/class10') }}">
+            <img src="{{ asset('assets/images/micet/n1/music/class10.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/n1/games/tables') }}">
-            <img src="{{ asset('assets/images/micet/n1/games/tables.png') }}" />
+        <a href="{{ url('/micet/n1/music/tables') }}">
+            <img src="{{ asset('assets/images/micet/n1/music/tables.png') }}" />
         </a>
 
     </div>
@@ -116,16 +116,16 @@
 
             let currentSlide = 0;
 
-            const savedSlide = sessionStorage.getItem("micet_n1_games_slide");
-            const cameFromLesson = sessionStorage.getItem("micet_n1_games_from_lesson");
+            const savedSlide = sessionStorage.getItem("micet_n1_music_slide");
+            const cameFromLesson = sessionStorage.getItem("micet_n1_music_from_lesson");
 
             if (savedSlide !== null && cameFromLesson === "1") {
                 currentSlide = parseInt(savedSlide);
             }
 
             // Always clear after reading
-            sessionStorage.removeItem("micet_n1_games_slide");
-            sessionStorage.removeItem("micet_n1_games_from_lesson");
+            sessionStorage.removeItem("micet_n1_music_slide");
+            sessionStorage.removeItem("micet_n1_music_from_lesson");
 
             function showSlide(index) {
                 slides.forEach((slide, i) => {
@@ -148,8 +148,8 @@
             // ✅ Save slide + flag only when clicking a lesson link
             document.querySelectorAll("#slide-board a").forEach(link => {
                 link.addEventListener("click", () => {
-                    sessionStorage.setItem("micet_n1_games_slide", currentSlide);
-                    sessionStorage.setItem("micet_n1_games_from_lesson", "1");
+                    sessionStorage.setItem("micet_n1_music_slide", currentSlide);
+                    sessionStorage.setItem("micet_n1_music_from_lesson", "1");
                 });
             });
 
