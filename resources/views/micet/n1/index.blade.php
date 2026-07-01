@@ -78,7 +78,7 @@
 
         <a href="{{ url('/micet/n1/games/index') }}">
             <img src="{{ asset('assets/images/micet/global/n1/mi13.png') }}" />
-        </a>
+        </a> 
 
         <a href="{{ url('/micet/n1/games/index') }}">
             <img src="{{ asset('assets/images/micet/global/n1/mi14.png') }}" />
@@ -98,11 +98,11 @@
     {{-- Phonics l2 --}}
     <div id="slide-board" class="forth grid grid-cols-2 gap-[2vw] mb-[2vw] hidden text-center justify-content-center">
 
-        <a href="{{ url('/micet/n1/lrw1') }}">
+        <a href="{{ url('/micet/n1/shapes/index') }}">
             <img src="{{ asset('assets/images/micet/global/n1/mi17.png') }}" class="mx-auto d-block" />
         </a>
 
-        <a href="{{ url('/micet/n1/lrw2') }}">
+        <a href="{{ url('/micet/n1/shapes/index') }}">
             <img src="{{ asset('assets/images/micet/global/n1/mi18.png') }}" class="mx-auto d-block" />
         </a>
 

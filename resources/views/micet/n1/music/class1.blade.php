@@ -28,7 +28,7 @@
 
         .ptitle {
             color: #f7b94a;
-            font-size: 1.5vw;
+            font-size: 1.7vw;
         }
 
         .p-title {
@@ -72,7 +72,7 @@
         <div>
             <h3 class="title">Preparations</h3>
 
-            <ol class="list-disc panel-ul">
+            <ol class="list-disc panel-ul w-[45vw]">
                 <li>Before the lesson, practise clapping to the rhythm of the
                     music. [Note: After prelude, clap every time you hear the
                     sound of the drum]</li>
@@ -84,12 +84,18 @@
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Classroom Activity 1: Rhythm of Music</h1>
-        <h3 class="ptitle">Lesson Development</h3>
 
-        <ol class="list-decimal panel-ul w-[45vw]">
-            <li>Play the music and let children listen to the music.</li>
-            <li>Ask children: "What did you hear?" (a piece of music) "Do you like it?"</li>
-        </ol>
+        <div class="text-start">
+            <h3 class="ptitle">Lesson Development</h3>
+            <ol class="list-decimal panel-ul w-[45vw]">
+                <li>Play the music and let children listen to the music.</li>
+                <li>Ask children: "What did you hear?" (a piece of music) "Do you like it?"</li>
+            </ol>
+        </div>
+
+        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-letter="cat">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+        </button>
     </div>
 
 
@@ -97,24 +103,11 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Classroom Activity 1: Rhythm of Music</h1>
 
-        <ol class="list-decimal panel-ul" start="3">
-            <li>Have children assist in demonstrating how to play the game (indoors or
-                outdoors):
-                <ul class="list-disc">
-                    <li>Have children hold hands to form a circle and then sit down. Leave a child (A)
-                        standing outside the circle who will be the one who drops the handkerchief.</li>
-                    <li>Play music, have children cover their eyes with their hands while child A walks
-                        round the circle and drops the handkerchief behind a friend before the music stops</li>
-                </ul>
-            </li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Inform children that all music has rhythm.</li>
+            <li>Invite children to look at the following demonstrations to learn about
+                rhythm.</li>
         </ol>
-        <div class="flex gap-[1vw]">
-            <button class="w-[4vw]" id="soundButton" data-letter="cat">
-                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-            </button>
-
-            <img src="{{ asset('assets/images/micet/n1/games/class1/c1.png') }}" class="w-[20vw]" />
-        </div>
     </div>
 
 
@@ -122,26 +115,15 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Classroom Activity 1: Rhythm of Music</h1>
 
-        <ul class="list-disc panel-ul">
-            <li>When the music stops, have children search behind their backs for the
-                handkerchief. The one who finds the handkerchief behind him/her (B),
-                will pick it up and then chase child A.
-            </li>
-            <li>If child B is unable to catch child A after 2 rounds, then child A gets to
-                sit down and child B will be the one who drops the handkerchief.
-            </li>
-            <li>If child B manages to catch child A within 2 rounds, then child B returns to the
-                seat and child A continues to be the one who drops the handkerchief.
-            </li>
-        </ul>
+        <ol class="list-disc panel-ul w-[45vw]" start="5">
+            <li>Play the music; teacher demonstrates clapping to the rhythm of the music. </li>
+            <li>Tell children that rhythm is the pattern of beats in a music and every clap to
+                the music is a beat.</li>
+        </ol>
 
-        <div class="flex gap-[1vw]">
-            <button class="w-[4vw]" id="soundButton" data-letter="cat">
-                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-            </button>
-
-            <img src="{{ asset('assets/images/micet/n1/games/class1/c1.png') }}" class="w-[20vw]" />
-        </div>
+        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-letter="cat">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+        </button>
     </div>
 
 
@@ -149,9 +131,29 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Classroom Activity 1: Rhythm of Music</h1>
 
-        <ol class="list-decimal panel-ul" start="4">
-            <li>Invite children to start the game, teacher assist if needed.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="7">
+            <li>InvitePlay the music; once again teacher demonstrates clapping to the rhythm
+                of the music.</li>
+            <li>Tell children that there are many rhythms in a piece of music.</li>
         </ol>
+        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-letter="cat">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+        </button>
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 1: Rhythm of Music</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="9">
+            <li>Now, invite children to learn how to clap to the rhythm of the music together</li>
+            <li>Repeat playing the music. Let children follow the teacher to clap to the
+                rhythm of the music together.</li>
+        </ol>
+        <button class="w-[4vw] mt-[7vw]" id="soundButton" data-letter="cat">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+        </button>
     </div>
 
 
@@ -163,17 +165,19 @@
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have children answer the following questions: Do you like this game?
-                    What is the name of this game? How many people does it take to
-                    play this game?</li>
+                <li>
+                    <span class="flex items-end">Play music <span class="w-[3vw]">
+                            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                        </span> , have children clap to the rhythm of the
+                        music together. </span>
+                </li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to play the game.</li>
-                <li>Able to follow rules of the game.</li>
-                <li>Able to enjoy playing with friends</li>
+                <li>Able to say that all music has rhythm.</li>
+                <li>Able to clap to the rhythm of the music.</li>
             </ul>
         </div>
     </div>
@@ -187,25 +191,11 @@
             <h3 class="ptitle">Extension</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Teach children to sing "Drop the Handkerchief".</li>
-                <li>Lyrics:</li>
+                <li>Play other music that children are familiar with, lead them in clapping to
+                    the rhythm of the music.</li>
             </ul>
-            <div class="flex gap-[1vw]">
-                <button class="w-[4vw]" id="soundButton" data-letter="cat">
-                    <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                </button>
-                <h5 class="text-white text-[1.5vw]">
-                    Drop the handkerchief, drop the handkerchief. <br>
-                    Drop the handkerchief behind the back of a friend. <br>
-                    Then run as fast as I can. <br>
-                    Oh, come on, try to catch me! <br>
-                    Come on, try to catch me, friend!
-                </h5>
-
-            </div>
         </div>
     </div>
-
 
 
 
@@ -261,8 +251,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n1/games/index') }}";
-            const doneURL = "{{ url('/micet/n1/games/index') }}";
+            const returnURL = "{{ url('/micet/n1/music/index') }}";
+            const doneURL = "{{ url('/micet/n1/music/index') }}";
 
             // Track current position
             let currentSlide = 0;
