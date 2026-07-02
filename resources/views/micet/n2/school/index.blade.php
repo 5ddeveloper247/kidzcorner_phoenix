@@ -58,7 +58,7 @@
 
 
     {{-- Phonics l2 --}}
-    <div id="slide-board" class="first grid grid-cols-4 gap-[2vw] mb-[2vw] hidden">
+    <div id="slide-board" class="first grid grid-cols-2 gap-[2vw] mb-[2vw] hidden">
 
         <a href="{{ url('/micet/n2/school/class9') }}">
             <img src="{{ asset('assets/images/micet/n2/school/class9.png') }}" />
@@ -68,12 +68,12 @@
             <img src="{{ asset('assets/images/micet/n2/school/class10.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/n2/school/tables') }}">
-            <img src="{{ asset('assets/images/micet/n2/school/form1.png') }}" />
+        <a href="{{ url('/micet/n2/school/activity') }}">
+            <img src="{{ asset('assets/images/micet/n2/school/activities.png') }}" />
         </a>
 
         <a href="{{ url('/micet/n2/school/tables') }}">
-            <img src="{{ asset('assets/images/micet/n2/school/form2.png') }}" />
+            <img src="{{ asset('assets/images/micet/n2/school/tables.png') }}" />
         </a>
 
     </div>

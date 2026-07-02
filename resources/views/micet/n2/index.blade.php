@@ -30,11 +30,11 @@
             <img src="{{ asset('assets/images/micet/global/n2/mi2.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/n2/nutrition/index') }}">
+        <a href="{{ url('/micet/n2/animals/index') }}">
             <img src="{{ asset('assets/images/micet/global/n2/mi3.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/n2/nutrition/index') }}">
+        <a href="{{ url('/micet/n2/animals/index') }}">
             <img src="{{ asset('assets/images/micet/global/n2/mi4.png') }}" />
         </a>
 
