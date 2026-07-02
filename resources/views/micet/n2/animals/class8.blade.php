@@ -38,94 +38,144 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: Good Friends</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Guess Who?</h1>
         <img src="{{ asset('assets/images/micet/n1/mybody/c8.1.png') }}" class="h-[8vw]" />
 
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul w-[45vw]">
-            <li>Identify some percussion instruments and understand the
-                correct way to play them</li>
-            <li>Learn to play the percussion instruments according to the
-                beat of the music</li>
+            <li>Learn to describe the characteristics of animals</li>
+            <li>Listen to riddles and guess the answer</li>
+            <li>Develop listening skills, logical thinking skills and
+                comprehension skills</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: Good Friends</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Guess Who?</h1>
 
-        <h3 class="ptitle">Preparations</h3>
+        <div>
 
-        <ul class="list-disc panel-ul w-[45vw]">
-            <li>Thematic Activity Book</li>
-            <li>Some percussion instruments, for example, the triangle,
-                bells, maracas, tambourine, castanets and wood block
-                (one instrument per child). If there are not enough
-                instruments, substitute with cups, bowls, chopsticks, ladles, etc</li>
-        </ul>
+            <h3 class="ptitle">Preparations</h3>
+
+            <ul class="list-disc panel-ul">
+                <li>Thematic Activity Book</li>
+                <li>Pictures of Different Animals</li>
+            </ul>
+        </div>
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: Good Friends</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Guess Who?</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[45vw]">
-                <li>Let the children listen to the "Good Friends" song. Guide them to understand
-                    the lyrics.</li>
+                <li>Invite children to play a riddle game.</li>
+                <li>Let the children listen to a riddle and guess the animal. (What animal is it?)</li>
             </ol>
+        </div>
 
-            <h4 class="text-white text-[1.5vw] text-start mt-[1vw]">Friends are playing together, <br>
-                having fun. <br>
-                You're singing, I'm dancing, <br>
-                having so much fun. <br>
-                Friends are playing together, <br>
-                having fun. <br>
-                Singing, dancing so much fun, <br>
-                so much fun.</h4>
+        <div class="flex gap-[2vw] items-start">
+            <button class="w-[3.5vw]" id="soundButton">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            </button>
+            <ul class="list-disc text-white text-[1.7vw] text-start">
+                <li>This animal lives in the sea.</li>
+                <li> It has whiskers and ear flaps. </li>
+                <li> It can balance a ball. </li>
+                <li> It produces this sound </li>
+                <li> (Answer: Sea lion)</li>
+            </ul>
         </div>
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: Good Friends</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Guess Who?</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="2">
-            <li>Encourage the children to learn the "Good Friends" song.</li>
-            <li> <span class="self-end">Once the children are familiar with the song, let them form a circle, hold
-                    hands and sing the song. <button id="sound-btn" class="w-[3vw]">
-                        <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
-                    </button> </span></li>
+            <li>When the children answer correctly, click to play the animation. Let the
+                children check if their answer matches the animal description in the riddle.</li>
         </ol>
 
-        <div class="w-[45vw]">
-
-
-            <h4 class="text-white text-[1.5vw] text-start">Friends are playing together, <br>
-                having fun. <br>
-                You're singing, I'm dancing, <br>
-                having so much fun. <br>
-                Friends are playing together, <br>
-                having fun. <br>
-                Singing, dancing so much fun, <br>
-                so much fun.</h4>
-        </div>
+        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/n2/school/class6/v2.mp4') }}" type="video/mp4">
+        </video>
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: Good Friends</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Guess Who?</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Click on the animation. Ask the children to sing along and observe how the
-                musical instruments are played.</li>
+            <li>Let the children listen to a riddle and guess the animal. (What animal is it?)</li>
+        </ol>
+        <div class="flex gap-[2vw] items-start">
+            <button class="w-[3.5vw]" id="soundButton">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            </button>
+            <ul class="list-disc text-white text-[1.7vw] text-start">
+                <li>This animal lives on the lnad.</li>
+                <li> It has a very long nose. </li>
+                <li> It can spray water. </li>
+                <li> It produces this sound <br>
+                    (Answer: Elephant)</li>
+            </ul>
+        </div>
+    </div>
+
+
+    {{-- panel 6 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 8: Guess Who?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="5">
+            <li>When the children answer correctly, click to play the animation. Let the
+                children check if their answer matches the animal description in the riddle.</li>
+        </ol>
+        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/n2/school/class6/v3.mp4') }}" type="video/mp4">
+        </video>
+    </div>
+
+
+    {{-- panel 6 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 8: Guess Who?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="6">
+            <li>Let the children listen to a riddle and guess the animal. (What animal is it?)</li>
+        </ol>
+        <div class="flex gap-[2vw] items-start">
+            <button class="w-[3.5vw]" id="soundButton">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            </button>
+            <ul class="list-disc text-white text-[1.7vw] text-start">
+                <li>This animal lives in the sky.</li>
+                <li> It has very big eyes.</li>
+                <li> It can catch mice. </li>
+                <li> It produces this sound <br>
+                    (Answer: Owl)</li>
+            </ul>
+        </div>
+    </div>
+
+
+    {{-- panel 6 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 8: Guess Who?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="7">
+            <li>When the children answer correctly, click to play the animation. Let the
+                children check if their answer matches the animal description in the riddle.</li>
         </ol>
         <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
             <source src="{{ asset('assets/images/micet/n2/school/class8/v1.mp4') }}" type="video/mp4">
@@ -135,36 +185,56 @@
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: Good Friends</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Guess Who?</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="5">
-            <li>Display the musical instruments. Tell the children the name of each of the
-                instruments and show them how each musical instrument should be played.
-                Ask the children to listen carefully to the sound produced by each musical
-                instrument.</li>
-            <li>Distribute the musical instruments. Let the children practise playing them.
-                Teach the children the correct way to play each instrument.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="8">
+            <li>Guide the children to compose one or two riddles of their own using these
+                sentence structures.</li>
         </ol>
+        <ul class="list-disc text-white text-[1.7vw] text-start">
+            <li>This animal ________________.</li>
+            <li> It has _______________.</li>
+            <li> It can ____________. </li>
+            <li> It produces this sound........ <br>
+                (Answer: ________)</li>
+        </ul>
     </div>
 
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: Good Friends</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="7">
-            <li>Have children with the same instruments form a circle to practise playing the
-                instruments according to the beat of the music. Help them, if needed</li>
-            <li>Have each group of children take turns to play the instruments according to
-                the beat of the music.</li>
-        </ol>
-    </div>
-
-    {{-- panel 6 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: Good Friends</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Guess Who?</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="9">
+            <li>Organise the children in pairs. Let the teacher hold some animal pictures.
+                Invite each pair to draw one animal picture from the teacher. Remind the
+                children not to let the others see the animal picture.Let each pair compose a
+                riddle based on the animal in the picture.</li>
+            <li>When all the pairs have composed their riddles, ask each pair to take turns to
+                say their riddle and let others guess the answer. If the other children guess the
+                answer correctly, let the pair show the picture of the animal. If the answer is
+                wrong, guide the pair to change the words in the riddle so that it is easier to
+                get the answer.</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 6 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 8: Guess Who?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="11">
+            <li>If time permits, have each pair draw another animal picture from the teacher,
+                to repeat the game.</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 6 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 8: Guess Who?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="12">
             <li>Guide children to complete the corresponding activities in the Thematic
                 Activity Book.</li>
         </ol>
@@ -173,23 +243,21 @@
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: Good Friends</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Guess Who?</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have different groups of children play the instruments
-                    together.</li>
+                <li>Display any animal picture and let the children compose a
+                    riddle together.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to identify some percussion instruments.</li>
-                <li>Able to play a type of percussion instrument.</li>
-                <li>Able to play a percussion instrument according to the beat
-                    of music.</li>
+                <li>Able to use the sentence structures provided to compose a riddle.</li>
+                <li>Able to guess the answers to the riddles composed by others.</li>
             </ul>
         </div>
     </div>
@@ -249,8 +317,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/school/index') }}";
-            const doneURL = "{{ url('/micet/n2/school/index') }}";
+            const returnURL = "{{ url('/micet/n2/animals/index') }}";
+            const doneURL = "{{ url('/micet/n2/animals/index') }}";
 
             // Track current position
             let currentSlide = 0;

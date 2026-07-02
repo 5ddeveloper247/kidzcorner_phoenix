@@ -38,7 +38,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Finding Friends</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Let’s Imitate the Animals</h1>
         <div class="flex ">
             <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
             <img src="{{ asset('assets/images/micet/n1/mybody/class2/c1.png') }}" class="h-[12vw]" />
@@ -48,15 +48,15 @@
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul">
-            <li>Identify some objects and state their uses</li>
-            <li>Pair objects that would commonly go together</li>
+            <li>Differentiate the sounds produced by three animals</li>
+            <li>Differentiate the sounds produced by three animals</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Finding Friends</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Let’s Imitate the Animals</h1>
 
         <div>
             <h3 class="ptitle">Preparations</h3>
@@ -70,287 +70,134 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Finding Friends</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Let’s Imitate the Animals</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[50vw]">
-                <li>Ask the children if they have good friends in school. Ask them whether good
-                    friends spend time together?</li>
+                <li>Click to play the animal sound. Let the children listen carefully for a few times
+                    and name the animal that makes this sound. Provide some hints if the children
+                    are unable to guess correctly.</li>
+                <li>Let the children describe the movements of this animal.</li>
             </ol>
         </div>
+        <button class="w-[5vw] mt-[7vw]" id="soundButton">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+        </button>
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Finding Friends</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Let’s Imitate the Animals</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="2">
-            <li>Ask children to name the object and explain its use.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="3">
+            <li>Click to play the animation. Let the children look at the actions of the animal.
+                Describe the actions as the animation is played. Encourage children to use
+                appropriate adjectives and describe the actions of the animal.</li>
+            <li>Invite a few children to perform these actions.</li>
         </ol>
 
-        <img src="{{ asset('assets/images/micet/n2/school/class6/c1.png') }}" class="w-[25vw]" />
+        <video class="h-[17vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/n2/animals/class6/v1.mp4') }}" type="video/mp4">
+        </video>
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 6: Let’s Imitate the Animals</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="5">
+            <li>Click to play the animal sound. Let the children listen carefully for a few times
+                and name the animal that makes this sound. Provide some hints if the children
+                are unable to guess correctly.</li>
+            <li>Let the children describe the movements of this animal.</li>
+        </ol>
+
+        <button class="w-[5vw] mt-[7vw]" id="soundButton">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+        </button>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 6: Let’s Imitate the Animals</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="7">
+            <li>Click to play the animation. Let the children look at the actions of the animal.
+                Describe the actions as the animation is played. Encourage children to use
+                appropriate adjectives and describe the actions of the animal.</li>
+            <li>Invite a few children to perform these actions.</li>
+        </ol>
+
+        <video class="h-[17vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/n2/animals/class6/v2.mp4') }}" type="video/mp4">
+        </video>
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 6: Let’s Imitate the Animals</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="9">
+            <li>Click to play the animal sound. Let the children listen carefully for a few times
+                and name the animal that makes this sound. Provide some hints if the children
+                are unable to guess correctly.</li>
+            <li>Let the children describe the movements of this animal.</li>
+        </ol>
+
+        <button class="w-[5vw] mt-[7vw]" id="soundButton">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+        </button>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 6: Let’s Imitate the Animals</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="11">
+            <li>Click to play the animation. Let the children look at the actions of the animal.
+                Describe the actions as the animation is played. Encourage children to use
+                appropriate adjectives and describe the actions of the animal.</li>
+            <li>Invite a few children to perform these actions.</li>
+        </ol>
+
+        <video class="h-[17vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/n2/animals/class6/v3.mp4') }}" type="video/mp4">
+        </video>
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Finding Friends</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Let’s Imitate the Animals</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="3">
-            <li>Ask children to name the object and explain its use.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="13">
+            <li>Guide the children to play the "Let's Imitate the Animals" game.</li>
+            <li>Organise the children into groups. Each group represents an animal (choose
+                between the three animals mentioned earlier). Tell a story about the three
+                animals. When an animal is mentioned, the group of children representing the
+                animal have to imitate that animal's movement and sound. For example :
+                "There is an animal party today. All the animals are attending the party.
+                Everybody is happy and excited to see the animals perform. It's the sea lion's
+                turn to perform. The sea lion performs by heading a ball. (One group of children
+                will act like sea lions heading a ball with their heads and snouts.) It's the
+                duckling's turn now. The yellow duckling sings (another group of children will
+                imitate the way ducks waddle and the sounds they produce)."</li>
         </ol>
-
-        <img src="{{ asset('assets/images/micet/n2/school/class6/c2.png') }}" class="h-[20vw]" />
     </div>
 
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Finding Friends</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Let’s Imitate the Animals</h1>
 
-        <ol class="list-decimal panel-ul" start="4">
-            <li>Ask children to name the object and explain its use.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/school/class6/c3.png') }}" class="h-[20vw]" />
-    </div>
-
-
-    {{-- panel 7 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Finding Friends</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="5">
-            <li>Ask children to name the object and explain its use.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/school/class6/c4.png') }}" class="h-[20vw]" />
-    </div>
-
-    {{-- panel 8 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Finding Friends</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="6">
-            <li>Ask children to name the object and explain its use.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/school/class6/c5.png') }}" class="h-[20vw]" />
-    </div>
-
-    {{-- panel 9 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Finding Friends</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="7">
-            <li>Ask children to name the object and explain its use.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/school/class6/c6.png') }}" class="h-[20vw]" />
-    </div>
-
-    {{-- panel 10 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Finding Friends</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="8">
-            <li>Ask children to name the object and explain its use.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/school/class6/c7.png') }}" class="h-[20vw]" />
-    </div>
-
-
-    {{-- panel 11 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Finding Friends</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="9">
-            <li>Ask children to name the object and explain its use.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/school/class6/c8.png') }}" class="h-[20vw]" />
-    </div>
-
-
-    {{-- panel 12 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Finding Friends</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="10">
-            <li>Ask children to name the object and explain its use.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/school/class6/c9.png') }}" class="h-[20vw]" />
-    </div>
-
-
-    {{-- panel 13 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Finding Friends</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="11">
-            <li>Ask children to name the object and explain its use.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/school/class6/c10.png') }}" class="h-[20vw]" />
-    </div>
-
-
-    {{-- panel 14 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Finding Friends</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="12">
-            <li>Ask children to name the object and explain its use.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/school/class6/c11.png') }}" class="h-[20vw]" />
-    </div>
-
-
-    {{-- panel 15 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Finding Friends</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="13">
-            <li>Ask children to name the object and explain its use.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/school/class6/c12.png') }}" class="h-[20vw]" />
-    </div>
-
-
-    {{-- panel 16 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Finding Friends</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="14">
-            <li>Ask children to name the object and explain its use.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/school/class6/c13.png') }}" class="h-[20vw]" />
-    </div>
-
-
-    {{-- panel 17 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Finding Friends</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="15">
-            <li>Ask children to name the object and explain its use.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/school/class6/c14.png') }}" class="h-[20vw]" />
-    </div>
-
-
-    {{-- panel 18 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Finding Friends</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="16">
-            <li>Have children name the pair of objects that would commonly go together.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/school/class6/c15.png') }}" class="h-[20vw]" />
-    </div>
-
-
-    {{-- panel 19 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Finding Friends</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="17">
-            <li>Have the children verify their answers and term the pair as "Good friends".</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/school/class6/c16.png') }}" class="h-[20vw]" />
-    </div>
-
-
-    {{-- panel 20 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Finding Friends</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="18">
-            <li>Have the children verify their answers and term the pair as "Good friends".</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/school/class6/c17.png') }}" class="h-[20vw]" />
-    </div>
-
-
-    {{-- panel 21 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Finding Friends</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="19">
-            <li>Have the children verify their answers and term the pair as "Good friends".</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/school/class6/c18.png') }}" class="h-[20vw]" />
-    </div>
-
-
-    {{-- panel 22 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Finding Friends</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="20">
-            <li>Have the children verify their answers and term the pair as "Good friends".</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/school/class6/c19.png') }}" class="h-[20vw]" />
-    </div>
-
-
-    {{-- panel 23 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Finding Friends</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="21">
-            <li>Have children name the pair of objects that would commonly go together.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/school/class6/c20.png') }}" class="h-[20vw]" />
-    </div>
-
-
-    {{-- panel 24 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Finding Friends</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="22">
-            <li>Have children name the pair of objects that would commonly go together.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/school/class6/c21.png') }}" class="h-[20vw]" />
-    </div>
-
-
-    {{-- panel 25 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Finding Friends</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="23">
-            <li>Have children name the pair of objects that would commonly go together.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/school/class6/c22.png') }}" class="h-[20vw]" />
-    </div>
-
-
-    {{-- panel 26 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Finding Friends</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="24">
-            <li>Have children name the pair of objects that would commonly go together.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/school/class6/c23.png') }}" class="h-[20vw]" />
-    </div>
-
-
-    {{-- panel 27 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Finding Friends</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="25">
-            <li>Have children name the pair of objects that would commonly go together.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/school/class6/c24.png') }}" class="h-[20vw]" />
-    </div>
-
-
-    {{-- panel 27 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Finding Friends</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="26">
+        <ol class="list-decimal panel-ul" start="15">
             <li>Guide children to complete the corresponding activities in the Thematic
                 Activity Book.</li>
         </ol>
@@ -359,21 +206,20 @@
 
     {{-- panel 28 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Finding Friends</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Let’s Imitate the Animals</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul">
-                <li>Ask children to look around the classroom for pairs of
-                    objects that would commonly go together.</li>
+                <li>Swap the groups and repeat the game.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul">
-                <li>Able to identify some objects and their uses.</li>
-                <li>Able to pair objects that would commonly go together.</li>
+                <li>Able to differentiate the sounds produced by three animals.</li>
+                <li>Able to imitate the sounds and actions of three animals.</li>
             </ul>
         </div>
     </div>
@@ -381,15 +227,14 @@
 
     {{-- panel 29 --}}
     <div class="phonics-panel flex flex-col items-center justify-start h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Finding Friends</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Let’s Imitate the Animals</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Extension</h3>
 
             <ul class="list-disc panel-ul">
-                <li>Place some pictures of objects that would commonly go
-                    together in the activity corner. Encourage children to pair
-                    up the object pictures.</li>
+                <li>Imitate the sounds of other animals. Let the children guess each
+                    animal and imitate the sounds and actions of that animal.</li>
             </ul>
         </div>
     </div>
@@ -446,8 +291,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/school/index') }}";
-            const doneURL = "{{ url('/micet/n2/school/index') }}";
+            const returnURL = "{{ url('/micet/n2/animals/index') }}";
+            const doneURL = "{{ url('/micet/n2/animals/index') }}";
 
             // Track current position
             let currentSlide = 0;

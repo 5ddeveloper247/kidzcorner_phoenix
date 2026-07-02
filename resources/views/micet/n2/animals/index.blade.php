@@ -69,7 +69,7 @@
         </a>
 
         <a href="{{ url('/micet/n2/animals/activity') }}">
-            <img src="{{ asset('assets/images/micet/n2/animals/activities.png') }}" />
+            <img src="{{ asset('assets/images/micet/n2/animals/activity.png') }}" />
         </a>
 
         <a href="{{ url('/micet/n2/animals/tables') }}">

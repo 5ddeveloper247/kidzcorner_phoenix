@@ -38,7 +38,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: Learning to be Independent</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Where Do They Live?</h1>
         <div class="flex ">
             <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
             <img src="{{ asset('assets/images/micet/n1/mybody/class2/c1.png') }}" class="h-[12vw]" />
@@ -48,95 +48,116 @@
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul">
-            <li>Imitate the movements of various animals</li>
-            <li>Develop a sense of independence</li>
+            <li>Understand more about the living environments of some animals</li>
+            <li>Use imagination to draw an animal and its living environment</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 5: Learning to be Independent</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Where Do They Live?</h1>
 
         <div>
             <h3 class="ptitle">Preparations</h3>
 
             <ul class="list-disc panel-ul">
                 <li>Thematic Activity Book</li>
+                <li>Drawing papers</li>
+                <li>Colour pencils</li>
             </ul>
         </div>
     </div>
 
 
     {{-- panel 3 --}}
-    <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: Learning to be Independent</h1>
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 5: Where Do They Live?</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[50vw]">
-                <li>Ask the children to describe how the animals in the story go to school, for
-                    example, the bird flies to school; the rabbit hops to school, the duck waddles
-                    to school.</li>
-                <li>Get the children to listen to the "Bunny Rabbit" song. Help the children to
-                    understand the meaning of the lyrics.</li>
-                <li>Encourage the children to learn to sing the song.</li>
+                <li>Let the children compare the three living environments of animals and talk
+                    about the differences that they can see. For example, there are water plants
+                    and reefs in the sea; there are trees and mountains on land; there are clouds,
+                    rainbows and the Sun in the sky.</li>
             </ol>
-            <h4 class="text-[#f7b94a] text-[1.7vw] text-start">
-                Little birdies fly. <br>
-                Little bunnies hop. <br>
-                Flying, hopping on their own. <br>
-                Without any fear and <br>
-                Without any help.
-            </h4>
         </div>
+        <img src="{{ asset('assets/images/micet/n2/animals/class5/c1.png') }}" class="h-[17vw]" />
     </div>
 
 
     {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: Learning to be Independent</h1>
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 5: Where Do They Live?</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="4">
-            <li>When the children are familiar with the song, encourage them to imitate the
-                various animals' movements while singing.</li>
-            <li>Click on the animation and encourage the children to imitate the animals.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="2">
+            <li>Invite children to think and talk about other living environments such as river,
+                lake, dessert, forest, etc.</li>
         </ol>
-
-        <img src="{{ asset('assets/images/micet/n2/school/class5/c1.png') }}" class="w-[20vw]" />
     </div>
 
 
     {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: Learning to be Independent</h1>
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 5: Where Do They Live?</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="6">
-            <li>Ask the children to talk about how they go to school. Help the children to understand that they
-                should walk on their own instead of being carried.</li>
-            <li>Ask the children to substitute their own names in the lyrics of the song and sing
-                the modified version. For example:</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="3">
+            <li>Let the children look at the animal pictures below and name the environment
+                that the animals live in.</li>
         </ol>
-
-        <h3 class="text-white text-[1.7vw] text-start">
-            Little Johnny walks. <br>
-            Little Johnny runs. <br>
-            Walking and running on his own. <br>
-            Without any fear and <br>
-            Without any help.
-        </h3>
-
-        <p class="text-white text-[1.2vw]">(If the teacher knows which children are still being carried to school, she can
-            add these children's names to the song to encourage them to be independent. )</p>
+        <img src="{{ asset('assets/images/micet/n2/animals/class5/c2.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: Learning to be Independent</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Where Do They Live?</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="8">
+        <ol class="list-decimal panel-ul w-[50vw]" start="4">
+            <li>Let the children look at the animal pictures below and name the environment
+                that the animals live in.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/animals/class5/c3.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 6 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 5: Where Do They Live?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="5">
+            <li>Let the children look at the animal pictures below and name the environment
+                that the animals live in.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/animals/class5/c4.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 6 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 5: Where Do They Live?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="6">
+            <li>Ask the children; 'If you could be an animal, which animal would you want to
+                be? Why? Where does this animal live?</li>
+            <li>Let the children express what they think and say what animal they would want
+                to be and the environment that they would want to live in (sea, land or sky).</li>
+            <li>Distribute drawing papers. Ask children to use their imagination to draw the
+                animal they would want to be and its living environment. Guide the children to
+                include distinctive features of the environment, e.g. waves or trees or clouds.</li>
+            <li>If time permits, children may also draw other animals that live in the
+                environment that they have drawn.</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 6 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 5: Where Do They Live?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="10">
             <li>Guide children to complete the corresponding activities in the Thematic
                 Activity Book.</li>
         </ol>
@@ -145,23 +166,21 @@
 
     {{-- panel 18 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 5: Learning to be Independent</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Where Do They Live?</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Invite all the children to sing the song by incorporating their names into it.
-                    Encourage them to make movements according to the song. This activity can
-                    be repeated a few times.</li>
+                <li>Invite children to take turns to present and describe their drawings.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Be able to imitate the way animals move.</li>
-                <li>Be able to understand the importance of walking to school,
-                    instead of being carried to school by one's parent.</li>
+                <li>Able to talk about the living environments of some animals.</li>
+                <li>Able to say why they want to be a certain animal.</li>
+                <li>Able to draw an animal and its living environment.</li>
             </ul>
         </div>
     </div>
@@ -220,8 +239,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/school/index') }}";
-            const doneURL = "{{ url('/micet/n2/school/index') }}";
+            const returnURL = "{{ url('/micet/n2/animals/index') }}";
+            const doneURL = "{{ url('/micet/n2/animals/index') }}";
 
             // Track current position
             let currentSlide = 0;

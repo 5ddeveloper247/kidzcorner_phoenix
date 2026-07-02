@@ -38,154 +38,145 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 7: My Little Hands are so Clean</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: Star Singer</h1>
         <img src="{{ asset('assets/images/micet/n1/mybody/class7/c1.png') }}" class="h-[12vw]" />
 
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul">
-            <li>Acquire some basic knowledge on hygiene </li>
-            <li>Learn to wash one's hands</li>
+            <li>Learn to sing the song "The Little Duckling" </li>
+            <li>Learn to compose new songs by substituting the lyrics</li>
+            <li>Develop imagination, creativity and locomotor skills</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: My Little Hands are so Clean</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: Star Singer</h1>
         <h3 class="ptitle">Preparations</h3>
 
         <ul class="list-disc panel-ul">
             <li>Thematic Activity Book</li>
-            <li>Hand washing liquid or soap</li>
         </ul>
     </div>
 
 
     {{-- panel 3 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: My Little Hands are so Clean</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7: Star Singer</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[50vw]">
-                <li>Ask the children to examine their hands carefully for traces of dirt.</li>
+                <li>Let the children listen to the song once and discuss the lyrics.
+                    <button class="w-[3.5vw]" id="soundButton">
+                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                    </button>
+                </li>
+
+                <li>Lead children in singing the song.</li>
             </ol>
         </div>
-
-        <img src="{{ asset('assets/images/micet/n2/school/class7/c1.png') }}" class="w-[20vw]" />
+        <h4 class="text-white text-[1.7vw] text-start">
+            Quack quack quack, <br>
+            Quack quack quack. <br>
+            Quack quack quack, <br>
+            Quack quack quack. <br>
+            I'm a happy little duckling. <br>
+            I'm a happy little duckling.
+        </h4>
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: My Little Hands are so Clean</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: Star Singer</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="2">
-            <li>Explain to the children that hands which are not washed contain germs, which
-                will enter the body through the mouth when one consumes food. That is how
-                one can suffer from diarrhoea.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="3">
+            <li>Click to play the animation. Guide children to imitate the sounds and the
+                walking movements of a duckling.</li>
+            <li>Let the children sing the song and do the actions.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/school/class7/c2.png') }}" class="h-[15vw]" />
+        <video class="h-[17vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/n2/animals/class7/v1.mp4') }}" type="video/mp4">
+        </video>
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: My Little Hands are so Clean</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: Star Singer</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="3">
-            <li>Explain to the children that hands which are not washed contain germs, which
-                will enter the body through the mouth when one consumes food. That is how
-                one can suffer from diarrhoea.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="5">
+            <li>Let the children name some zoo animals and describe what they look like.</li>
+            <li>Guide the children to compose a new song by substituting the lyrics of the song
+                with the sounds and description of their favourite animal. For example:</li>
         </ol>
+        <div class="flex items-start gap-[1vw]">
+            <button class="w-[3.5vw]" id="soundButton">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            </button>
+            <h4 class="text-white text-[1.7vw] text-start">
+                Roar roar roar, <br>
+                Roar roar roar. <br>
+                Roar roar roar, <br>
+                Roar roar roar. <br>
+                I'm a strong little tiger. <br>
+                I'm a strong little tiger.
+            </h4>
+        </div>
+    </div>
 
-        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-            <source src="{{ asset('assets/images/micet/n2/school/class7/v1.mp4') }}" type="video/mp4">
-        </video>
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 7: Star Singer</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="5">
+            <li>Let the children name some zoo animals and describe what they look like.</li>
+            <li>Guide the children to compose a new song by substituting the lyrics of the song
+                with the sounds and description of their favourite animal. For example:</li>
+        </ol>
+        <div class="flex items-start gap-[1vw]">
+            <button class="w-[3.5vw]" id="soundButton">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            </button>
+            <h4 class="text-white text-[1.7vw] text-start">
+                Chitter chatter, <br>
+                Chitter chat. <br>
+                Chitter chatter, <br>
+                Chitter chat. <br>
+                I'm a smart little monkey. <br>
+                I'm a smart little monkey.
+            </h4>
+        </div>
     </div>
 
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: My Little Hands are so Clean</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: Star Singer</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="4">
-            <li>Explain to the children that washing hands with soap will kill germs.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/school/class7/c3.png') }}" class="w-[20vw]" />
-    </div>
-
-
-    {{-- panel 7 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: My Little Hands are so Clean</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="5">
-            <li>Explain to the children that washing hands with soap will kill germs.</li>
-        </ol>
-        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-            <source src="{{ asset('assets/images/micet/n2/school/class7/v2.mp4') }}" type="video/mp4">
-        </video>
-    </div>
-
-
-    {{-- panel 8 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: My Little Hands are so Clean</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="6">
-            <li>Take the children to the toilet. Demonstrate how to wash one's hands. Remind
-                the children to take note of the important steps. For example:
-
-                <ul class="list-disc">
-                    <li>First, wet their hands with water; next, use hand washing liquid or soap to
-                        scrub their hands.</li>
-                    <li>Remember to clean their fingernails and the gaps between the fingers,
-                        before rinsing the soap off with water.</li>
-                    <li>When rinsing, be careful not to splash water all over themselves.</li>
-                    <li>After washing, use a clean towel to dry their hands.</li>
-                </ul>
+        <ol class="list-decimal panel-ul w-[50vw]" start="7">
+            <li>Guide the children to imitate the walking movements of the animal they have
+                substituted in the song.</li>
+            <li> <span class="flex">Invite the children to perform their actions and sing their new song.
+                    <button class="w-[3.5vw]" id="soundButton">
+                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                    </button>
+                </span>
             </li>
         </ol>
     </div>
 
 
-    {{-- panel 9 --}}
+    {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: My Little Hands are so Clean</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="7">
-            <li>Organise the children into groups and have them wash their hands in batches.</li>
-            <li>Have the children show their hands to one another and explain how they wash
-                their hands.</li>
-        </ol>
-    </div>
-
-
-    {{-- panel 10 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: My Little Hands are so Clean</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: Star Singer</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="9">
-            <li>When everyone is back in the classroom, help the children to compose their
-                own "Washing hands" song.</li>
-        </ol>
-        <h2 class="text-white text-[1.7vw] text-start">Wash hands, wash hands, <br>
-            let's wash hands. <br>
-            Scrub and scrub, rinse and rinse. <br>
-            Wash hands, wash hands, <br>
-            let's wash hands. <br>
-            My little hands are so clean.</h2>
-    </div>
-
-
-    {{-- panel 11 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: My Little Hands are so Clean</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="10">
             <li>Guide children to complete the corresponding activities in the Thematic
                 Activity Book.</li>
         </ol>
@@ -194,22 +185,21 @@
 
     {{-- panel 12 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: My Little Hands are so Clean</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: Star Singer</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have all the children show each other their clean hands
-                    and inspect to see whose hands are the cleanest.</li>
+                <li>Let all children sing some of the composed songs and do the
+                    actions together.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have a basic understanding of good hygiene, in particular,
-                    the importance of washing one's hands.</li>
-                <li>Able to wash one's hands.</li>
+                <li>Able to sing the song "The Little Duckling".</li>
+                <li>Able to perform the new song.</li>
             </ul>
         </div>
     </div>
@@ -269,8 +259,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/school/index') }}";
-            const doneURL = "{{ url('/micet/n2/school/index') }}";
+            const returnURL = "{{ url('/micet/n2/animals/index') }}";
+            const doneURL = "{{ url('/micet/n2/animals/index') }}";
 
             // Track current position
             let currentSlide = 0;

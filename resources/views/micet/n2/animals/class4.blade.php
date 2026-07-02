@@ -38,7 +38,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Going to School is Fun</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: Animal Family</h1>
         <div class="flex ">
             <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
             <img src="{{ asset('assets/images/micet/n1/mybody/class2/c1.png') }}" class="h-[12vw]" />
@@ -57,106 +57,133 @@
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 4: Going to School is Fun</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: Animal Family</h1>
 
         <div>
             <h3 class="ptitle">Preparations</h3>
 
             <ul class="list-disc panel-ul">
                 <li>Thematic Activity Book</li>
-                <li>Drawing papers</li>
-                <li>Colour pencils/ crayons</li>
             </ul>
         </div>
     </div>
 
 
     {{-- panel 3 --}}
-    <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Going to School is Fun</h1>
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Animal Family</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[45vw]">
-                <li>Let the children recall the story "First Day At School". Ask them to describe
-                    Patchy's feeling on his first day of school and explain why he felt that way.</li>
+                <li>Ask the children : What are the animals that can be seen in water? What are
+                    the animals that can be seen on land? What are the animals that can be seen
+                    in the sky?</li>
             </ol>
         </div>
-
-        <img src="{{ asset('assets/images/micet/n2/school/class4/c1.png') }}" class="h-[18vw]" />
     </div>
 
 
     {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Going to School is Fun</h1>
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Animal Family</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="2">
-            <li>Let the children recall the story "First Day At School". Ask them to describe
-                Patchy's feeling on his first day of school and explain why he felt that way.</li>
+            <li>Let the children name the animals and talk about their characteristics. Let
+                them say whether the animal lives in water, on land or in the sky.</li>
         </ol>
-
-        <div class="flex items-center">
-            <img src="{{ asset('assets/images/micet/n2/school/class4/c2.png') }}" class="w-[20vw]" />
-            <img src="{{ asset('assets/images/micet/n2/school/class4/c3.png') }}" class="w-[20vw]" />
-        </div>
+        <img src="{{ asset('assets/images/micet/n2/animals/class4/c1.png') }}" class="w-[35vw]" />
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Going to School is Fun</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: Animal Family</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Ask the children: "How did you feel when you stepped in school today?" "How
-                are you feeling now?" Guide the children to express their feelings with the
-                help of these two pictures which show two different expressions.</li>
+            <li>Let the children name the animals and talk about their characteristics. Let
+                them say whether the animal lives in water, on land or in the sky.</li>
         </ol>
 
-        <img src="{{ asset('assets/images/micet/n2/school/class4/c4.png') }}" class="h-[20vw]" />
+        <img src="{{ asset('assets/images/micet/n2/animals/class4/c2.png') }}" class="w-[35vw]" />
     </div>
 
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 4: Going to School is Fun</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: Animal Family</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Encourage children to talk about the things that make them happy at school.</li>
+            <li>Guide the children in comparing the characteristics of these six animals. Guide
+                them to conclude that some animals live in water; some animals live on land;
+                some animals live in the sky. Animals can be categorized into three big
+                families: animals that live in water, animals that live on land and animals that
+                live in the sky.</li>
         </ol>
+        <img src="{{ asset('assets/images/micet/n2/animals/class4/c3.png') }}" class="h-[15vw]" />
     </div>
 
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 4: Going to School is Fun</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: Animal Family</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="5">
-            <li>Let the children recall one happy event and draw their feelings (Guide the
-                children in drawing a happy face).</li>
+            <li>Click to open the Software Magnetic Board. Ask children to name the animals
+                and compare their characteristics. Then let the children categorize the animals
+                into the three big families.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/school/class4/c5.png') }}" class="w-[20vw]" />
+        <img src="{{ asset('assets/images/micet/n2/animals/class4/c4.png') }}" class="w-[25vw]" />
 
     </div>
 
 
     {{-- panel 8 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 4: Going to School is Fun</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Animal Family</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="6">
-            <li>Let the children recall one happy event and draw their feelings (Guide the
-                children in drawing a sad face).</li>
+            <li>Let children observe the animals that live in water and talk about their
+                distinguishing characteristics. For example, most animals that live in water
+                have fins.</li>
         </ol>
+        <img src="{{ asset('assets/images/micet/n2/animals/class4/c5.png') }}" class="h-[20vw]" />
+    </div>
+
+
+
+    {{-- panel 9 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Animal Family</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="7">
+            <li>Let children observe the animals that live on land and talk about their
+                distinguishing characteristics. For example, most animals that live on land
+                have legs.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/animals/class4/c6.png') }}" class="h-[20vw]" />
+    </div>
+
+
+    {{-- panel 9 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Animal Family</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="8">
+            <li>Let children observe the animals that live in the sky and talk about their
+                distinguishing characteristics. For example, animals that live in the sky have
+                wings.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/animals/class4/c7.png') }}" class="h-[20vw]" />
     </div>
 
 
     {{-- panel 9 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 4: Going to School is Fun</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: Animal Family</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="7">
+        <ol class="list-decimal panel-ul w-[45vw]" start="9">
             <li>Guide children to complete the corresponding activities in the Thematic
                 Activity Book.</li>
         </ol>
@@ -171,17 +198,33 @@
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Ask the children to display their drawings. Let the children
-                    talk about the happy and sad event that they recalled
-                    while drawing .</li>
+                <li>Invite the children to list some animals that live in water, on
+                    land and in the sky.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Be able to express one's feelings about going to school.</li>
-                <li>Be able to express feelings through pictures.</li>
+                <li>Able to list some animals that live in water, on land and in the sky.</li>
+                <li>Able to talk about the characteristics of the animals and
+                    classify them according to their living environments.</li>
             </ul>
+        </div>
+    </div>
+
+
+    {{-- panel 10 --}}
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
+        <h1 class="panel-title stroke">Classroom Activity 3: I Can Hear</h1>
+
+        <div class="text-start flex flex-col">
+            <h3 class="ptitle">Extension</h3>
+
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Invite children to draw the living environments of animals
+                    that live in water, on land and in the sky.</li>
+            </ul>
+
         </div>
     </div>
 
@@ -241,8 +284,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/school/index') }}";
-            const doneURL = "{{ url('/micet/n2/school/index') }}";
+            const returnURL = "{{ url('/micet/n2/animals/index') }}";
+            const doneURL = "{{ url('/micet/n2/animals/index') }}";
 
             // Track current position
             let currentSlide = 0;
