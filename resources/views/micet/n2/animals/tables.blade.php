@@ -41,12 +41,13 @@
         <h1 class="panel-title stroke">Table 1 : Theme Goals</h1>
 
         <ol class="list-decimal panel-ul">
-            <li>Understand what school life is all about, develop a love for school</li>
-            <li>Develop a sense of independence</li>
-            <li>Understand the concepts of 'front' and 'back'</li>
-            <li>Understand what ordinal numbers are</li>
-            <li>Learn to express one's emotions and thoughts</li>
-            <li>Learn to identify one's belongings by marking them</li>
+            <li>Identify some animals and know their characteristics</li>
+            <li>Explore the concept of "more" and "less"</li>
+            <li>Understand the characteristics of animals that live on land, in
+                water and in the sky</li>
+            <li>Learn to differentiate the sounds produced by different animals
+                and imitate the sounds and actions of some animals</li>
+            <li>Learn to describe the characteristics of animals</li>
         </ol>
     </div>
 
@@ -122,8 +123,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/school/index') }}";
-            const doneURL = "{{ url('/micet/n2/school/index') }}";
+            const returnURL = "{{ url('/micet/n2/animals/index') }}";
+            const doneURL = "{{ url('/micet/n2/animals/index') }}";
 
             // Track current position
             let currentSlide = 0;
@@ -381,63 +382,6 @@
 
             // INITIALIZE - Show first slide and play its audio automatically
             showSlide(currentSlide);
-        });
-
-
-        // PANEL SYSTEM
-        document.addEventListener('DOMContentLoaded', function() {
-            // Get elements
-            const tryAgainPanel = document.getElementById('tryAgain');
-            const wellDonePanel = document.getElementById('wellDone');
-            const retryBtn = document.getElementById('retry');
-            const closeBtn = document.getElementById('close');
-
-            // Get all letter buttons by ID
-            const falseLetters = document.querySelectorAll('[id="false"]');
-            const trueLetters = document.querySelectorAll('[id="true"]');
-
-            // Create audio elements
-            const tryAgainSound = new Audio('{{ asset('assets/audio/phonics_audio/tryagain.mp3') }}');
-            const wellDoneSound = new Audio('{{ asset('assets/audio/phonics_audio/welldone.mp3') }}');
-
-            // Function to show panel and play sound automatically
-            function showPanelWithSound(panel, audioElement) {
-                panel.style.display = 'flex';
-                audioElement.currentTime = 0;
-                audioElement.play().catch(err => console.log('Audio play failed:', err));
-            }
-
-            // Handle FALSE letter clicks (show try again panel with sound)
-            falseLetters.forEach(letter => {
-                letter.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    showPanelWithSound(tryAgainPanel, tryAgainSound);
-                });
-            });
-
-            // Handle TRUE letter click (show well done panel with sound)
-            trueLetters.forEach(letter => {
-                letter.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    showPanelWithSound(wellDonePanel, wellDoneSound);
-                });
-            });
-
-            // Handle Retry button - close panel and stay on same slide
-            retryBtn.addEventListener('click', function(e) {
-                e.preventDefault();
-                tryAgainPanel.style.display = 'none';
-                tryAgainSound.pause();
-                tryAgainSound.currentTime = 0;
-            });
-
-            // Handle Close button - redirect to route
-            closeBtn.addEventListener('click', function(e) {
-                e.preventDefault();
-                wellDoneSound.pause();
-                wellDoneSound.currentTime = 0;
-                window.location.href = '{{ url('/phonics_l1/letter_b') }}?view=phonics';
-            });
         });
     </script>
 @endpush

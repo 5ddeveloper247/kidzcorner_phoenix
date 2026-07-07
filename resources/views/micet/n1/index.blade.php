@@ -78,7 +78,7 @@
 
         <a href="{{ url('/micet/n1/games/index') }}">
             <img src="{{ asset('assets/images/micet/global/n1/mi13.png') }}" />
-        </a> 
+        </a>
 
         <a href="{{ url('/micet/n1/games/index') }}">
             <img src="{{ asset('assets/images/micet/global/n1/mi14.png') }}" />
@@ -161,7 +161,6 @@
 
             let currentSlide = 0;
 
-            // ✅ Only restore if we came back from a lesson link (not from parent)
             const savedSlide = sessionStorage.getItem("micet_n1_slide");
             const cameFromLesson = sessionStorage.getItem("micet_n1_from_lesson");
 
@@ -182,13 +181,6 @@
                     }
                 });
 
-                if (returnButton) {
-                    if (index === 0) {
-                        returnButton.classList.add("hidden");
-                    } else {
-                        returnButton.classList.remove("hidden");
-                    }
-                }
 
                 if (index === slides.length - 1) {
                     nextBtn.classList.add("hidden");
@@ -199,7 +191,6 @@
                 }
             }
 
-            // ✅ Save slide + flag only when clicking a lesson link
             document.querySelectorAll("#slide-board a").forEach(link => {
                 link.addEventListener("click", () => {
                     sessionStorage.setItem("micet_n1_slide", currentSlide);
@@ -228,6 +219,8 @@
                     if (currentSlide > 0) {
                         currentSlide--;
                         showSlide(currentSlide);
+                    } else {
+                        window.location.href = document.body.dataset.homeRoute;
                     }
                 });
             }

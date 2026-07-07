@@ -111,6 +111,7 @@
 @push('script')
     <script>
         document.body.dataset.homeRoute = "{{ url('/micet') }}";
+        document.body.dataset.parentRoute = "{{ url('/micet/n2/index') }}";
 
         document.addEventListener("DOMContentLoaded", () => {
             const slides = document.querySelectorAll("#slide-board");
@@ -120,7 +121,6 @@
 
             let currentSlide = 0;
 
-            // ✅ Only restore if we came back from a lesson link (not from parent)
             const savedSlide = sessionStorage.getItem("micet_n2_colour_slide");
             const cameFromLesson = sessionStorage.getItem("micet_n2_colour_from_lesson");
 
@@ -141,14 +141,6 @@
                     }
                 });
 
-                if (returnButton) {
-                    if (index === 0) {
-                        returnButton.classList.add("hidden");
-                    } else {
-                        returnButton.classList.remove("hidden");
-                    }
-                }
-
                 if (index === slides.length - 1) {
                     nextBtn.classList.add("hidden");
                     doneBtn.classList.remove("hidden");
@@ -158,7 +150,7 @@
                 }
             }
 
-            // ✅ Save slide + flag only when clicking a lesson link
+            // Save slide + flag only when clicking a lesson link
             document.querySelectorAll("#slide-board a").forEach(link => {
                 link.addEventListener("click", () => {
                     sessionStorage.setItem("micet_n2_colour_slide", currentSlide);
@@ -187,6 +179,9 @@
                     if (currentSlide > 0) {
                         currentSlide--;
                         showSlide(currentSlide);
+                    } else {
+                        // On the first slide, go up to the parent (N1 index), not the site root
+                        window.location.href = document.body.dataset.parentRoute;
                     }
                 });
             }

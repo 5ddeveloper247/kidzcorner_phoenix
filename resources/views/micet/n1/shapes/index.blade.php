@@ -92,7 +92,6 @@
             <img src="{{ asset('assets/images/phonicsl1/global/btns/return-btn.png') }}" />
         </button>
 
-        <!-- Home Button (goes to specific URL) -->
         <button id="homeButton">
             <img src="{{ asset('assets/images/phonicsl1/global/btns/home-btn.png') }}" />
         </button>
@@ -107,6 +106,7 @@
 @push('script')
     <script>
         document.body.dataset.homeRoute = "{{ url('/micet') }}";
+        document.body.dataset.parentRoute = "{{ url('/micet/n1/index') }}";
 
         document.addEventListener("DOMContentLoaded", () => {
             const slides = document.querySelectorAll("#slide-board");
@@ -145,7 +145,7 @@
                 }
             }
 
-            // ✅ Save slide + flag only when clicking a lesson link
+            // Save slide + flag only when clicking a lesson link
             document.querySelectorAll("#slide-board a").forEach(link => {
                 link.addEventListener("click", () => {
                     sessionStorage.setItem("micet_n1_shapes_slide", currentSlide);
@@ -175,9 +175,8 @@
                         currentSlide--;
                         showSlide(currentSlide);
                     } else {
-                        // On the first slide, return navigates back to a route
-                        // instead of switching slides.
-                        window.location.href = document.body.dataset.homeRoute;
+                        // On the first slide, go up to the parent (N1 index), not the site root
+                        window.location.href = document.body.dataset.parentRoute;
                     }
                 });
             }
