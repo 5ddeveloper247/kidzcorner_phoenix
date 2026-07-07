@@ -38,140 +38,128 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 10: My School is My Home</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: The Animals’ Joint Performance</h1>
         <img src="{{ asset('assets/images/micet/n1/mybody/c10.1.png') }}" class="h-[8vw]" />
 
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul">
-            <li>Develop a love for school</li>
-            <li>Deepen their relationships with peers and teacher</li>
+            <li>Promote active learning</li>
+            <li>Learn to cooperate with group members to complete a
+                given task</li>
+            <li>Imitate animal sounds and movements and perform them
+                to a tune</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: My School is My Home</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
+        <h1 class="panel-title stroke">Classroom Activity 10: The Animals’ Joint Performance</h1>
 
         <h3 class="ptitle">Preparations</h3>
 
-        <ol class="list-decimal panel-ul w-[45vw]">
+        <ol class="list-decimal panel-ul">
             <li>Thematic Activity Book</li>
-            <li>Everyone, including the teacher, to have a photograph of
-                himself or herself (Ask the parents to send their child's
-                photograph beforehand)</li>
-            <li>A large paper with a big house drawn beforehand</li>
-            <li>Art and craft materials</li>
         </ol>
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 10: My School is My Home</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: The Animals’ Joint Performance</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[50vw]">
-                <li>Let the children recall the story "First Day At School" . Ask why Patchy from
-                    the story cries. After the children have given their answers like he "misses his
-                    mother" or he "misses home", ask them if school is like a home to them.</li>
+                <li>Ask children: Have you ever been to a zoo? Who did you go with? Did you
+                    watch any animal performance there? What animals where taking part in the
+                    performance? What did the animals do? Where there many visitors?</li>
+                <li>Tell children now that we have our own zoo, we will organise our own animals'
+                    performances, just like other zoos.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/micet/n2/school/class10/c1.png') }}" class="h-[18vw]" />
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 10: My School is My Home</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: The Animals’ Joint Performance</h1>
 
-        <ol class="list-decimal panel-ul" start="2">
-            <li>Click on the picture below to open the Soflware Magnetic Board. Tell the children that Mrs. Moo
-                takes care of these children at school. Mrs. Moo is like a mother, who takes care of her children
-                at home. School is like a home. Then place the picture of Mrs. Moo inside the "home".</li>
-            <li>Tell the children that these little animals are the children of this home. So we invite them into
-                their home. Invite some children to place the animals inside their "home".</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/school/class10/c2.png') }}" class="h-[15vw]" />
-    </div>
-
-
-    {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: My School is My Home</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="4">
-            <li>Paste the large paper with a big house ( drawn beforehand) on the wall. Tell
-                children that a school is like a home.</li>
-            <li>Display a photograph of the teacher. Tell the children that the teacher is like a
-                mother /father of this home. She/He loves the children and takes care of them.
-                Then paste the photograph, inside the "home", on the large paper.
-            </li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Divide the children into few groups. Have each group discuss and decide
+                what animal they want to be. Let them inform the teacher of their decision. The
+                teacher can make sure that each group represents a different animal.</li>
+            <li>Let each group decide on the animal movements and sounds that they want
+                to perform. Teacher may walk around the groups and provide hints that stir the
+                creative thinking of children. For e.g .: What do monkeys usually do? (jump
+                from tree to tree, help each other pick lice); What do elephants usually do?
+                (sway its trunk, flap its ears, spray water)</li>
         </ol>
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: My School is My Home</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: The Animals’ Joint Performance</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="6">
-            <li>Place each child's photograph on a table. Tell children that they are the
-                children of this home. Invite them to join the teacher at this home. Ask them
-                to take turns to find their photograph , hold it in their hands and introduce
-                themselves.</li>
-            <li>Encourage children to use complete sentences to introduce themselves.
-                Example: " My name is..... I am also a child of this home."</li>
-            <li>Encourage the children to choose their favourite spot inside the "home" on
-                the big sheet of paper and paste their photograph on it.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="5">
+            <li>Repeatedly play the tune of " The little Duckling". Let each group practise their
+                performance to the tune of the song.</li>
+            <li>Let each group take turns to perform for the class.</li>
         </ol>
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: My School is My Home</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: The Animals’ Joint Performance</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="9">
-            <li>Lastly, let the children discuss what art and craft materials they want to use to
-                decorate this "home".</li>
-            <li>Assist the children to decorate their home.</li>
-        </ol>
-    </div>
-
-
-    {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: My School is My Home</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="11">
+        <ol class="list-decimal panel-ul w-[50vw]" start="7">
             <li>Guide children to complete the corresponding activities in the Thematic
                 Activity Book.</li>
         </ol>
     </div>
 
 
+
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: My School is My Home</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: The Animals’ Joint Performance</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Hold hands with the children and form a circle. Together, sing
-                    and dance to the "Good Friends" song. </li>
-                <li>Have children take turns to say whether they like their school,
-                    whether they like the people in the school and why.</li>
+                <li>Encourage the children to applaud all performances. Let them
+                    then evaluate and give feedback on each other's
+                    performance and decide which group's performance was the
+                    best.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to express one's love for school.</li>
+                <li>Able to express one's views and ideas clearly.</li>
+                <li>Able to cooperate with group members for the animal performance.</li>
+                <li>Able to imitate sounds and actions of an animal and perform
+                    them to a tune.</li>
+            </ul>
+        </div>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
+        <h1 class="panel-title stroke">Classroom Activity 10: The Animals’ Joint Performance</h1>
+
+        <div class="text-start flex flex-col">
+            <h3 class="ptitle">Extension</h3>
+
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Invite parents to visit the classroom zoo set up by their children
+                    and view the performances.</li>
             </ul>
         </div>
     </div>
@@ -231,8 +219,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/school/index') }}";
-            const doneURL = "{{ url('/micet/n2/school/index') }}";
+            const returnURL = "{{ url('/micet/n2/animals/index') }}";
+            const doneURL = "{{ url('/micet/n2/animals/index') }}";
 
             // Track current position
             let currentSlide = 0;

@@ -38,7 +38,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Let’s Queue Up and Wash Our Hands</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: The Mystery Animal</h1>
         <div class="flex ">
             <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
             <img src="{{ asset('assets/images/micet/n1/mybody/class2/c1.png') }}" class="h-[12vw]" />
@@ -48,140 +48,299 @@
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul">
-            <li>Understand the concepts of 'front' and 'back'</li>
-            <li>Able to explain the eating patterns of some animals</li>
+            <li>Guess the animal based on a part of its body</li>
+            <li>Draw an animal that one has seen before</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start space-y-[2vw] h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Let’s Queue Up and Wash Our Hands</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: The Mystery Animal</h1>
 
         <h3 class="ptitle mt-[5vw]">Preparations</h3>
 
         <ul class="list-disc panel-ul">
             <li>Thematic Activity Book</li>
+            <li>Drawing Papers</li>
+            <li>Colour Pencils</li>
         </ul>
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
-        <h1 class="panel-title stroke">Classroom Activity 3: Let’s Queue Up and Wash Our Hands</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: The Mystery Animal</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
             <ol class="list-decimal panel-ul w-[45vw]">
-                <li>Get six children to stand in front of the class and form a line.</li>
-                <li>Ask the other children to count the number of children in the line.</li>
-                <li>Ask the children to name the child in front of the line and at the end (If the
-                    children are not familiar with each other's names, get the children in the line to
-                    do a self introduction first).</li>
-                <li>Choose a child 'A' in the line. Ask the children, "Who is standing in front of and
-                    behind the child A?" Guide the children in understanding the relationship
-                    between "in front of' and "behind".</li>
+                <li>Ask children to look at this part of an animal and guess what animal it is.</li>
             </ol>
         </div>
-
+        <img src="{{ asset('assets/images/micet/n2/animals/class3/c1.png') }}" class="h-[20vw]" />
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
-        <h1 class="panel-title stroke">Classroom Activity 3: Let’s Queue Up and Wash Our Hands</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: The Mystery Animal</h1>
 
-        <div class="text-start">
-            <ol class="list-decimal panel-ul w-[45vw]" start="5">
-                <li>Ask the children to name the children in the first and third positions. Repeat the
-                    questions following a sequence or at random order.</li>
-                <li>Get the children in the line to call out the numbers in ascending order and say
-                    their positions in the line. Guide the children in understanding that "number X"
-                    refers to a position in the queue.</li>
-            </ol>
-        </div>
+        <ol class="list-decimal panel-ul w-[45vw]" start="2">
+            <li>Ask children to explain how they derived the answer.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/animals/class3/c2.png') }}" class="w-[30vw]" />
     </div>
-
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
-        <h1 class="panel-title stroke">Classroom Activity 3: Let’s Queue Up and Wash Our Hands</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: The Mystery Animal</h1>
 
-        <div class="text-start">
-            <ol class="list-decimal panel-ul w-[45vw]" start="7">
-                <li>Click on the picture below to open the Software Magnetic Board. Guide the
-                    children to place the numbers in the order of the line up and then count the</li>
-                <li>Ask the children to say who is first and last in the queue, for example, "Who is
-                    in front of Patchy?"</li>
-            </ol>
-        </div>
-
-        <img src="{{ asset('assets/images/micet/n2/school/class3/c1.png') }}" class="w-[20vw]" />
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Ask children to look at this part of an animal and guess what animal it is.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/animals/class3/c3.png') }}" class="w-[30vw]" />
     </div>
 
-
     {{-- panel 6 --}}
-    <div class="phonics-panel flex flex-col space-y-[2vw] justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Let’s Queue Up and Wash Our Hands</h1>
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: The Mystery Animal</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="9">
-            <li>Click on the picture below to open the Software Magnetic Board. Guide the
-                children in matching the animals with their corresponding hooks.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="4">
+            <li>Ask children to explain how they derived the answer.</li>
         </ol>
-
-        <img src="{{ asset('assets/images/micet/n2/school/class3/c2.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n2/animals/class3/c4.png') }}" class="w-[30vw]" />
     </div>
 
     {{-- panel 7 --}}
-    <div class="phonics-panel flex flex-col space-y-[2vw] justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Let’s Queue Up and Wash Our Hands</h1>
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: The Mystery Animal</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="5">
+            <li>Ask children to look at this part of an animal and guess what animal it is.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/animals/class3/c5.png') }}" class="h-[20vw]" />
+    </div>
+
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: The Mystery Animal</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="6">
+            <li>Ask children to explain how they derived the answer.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/animals/class3/c6.png') }}" class="h-[20vw]" />
+    </div>
+
+    {{-- panel 9 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: The Mystery Animal</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="7">
+            <li>Ask children to look at this part of an animal and guess what animal it is.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/animals/class3/c7.png') }}" class="h-[20vw]" />
+    </div>
+
+    {{-- panel 10 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: The Mystery Animal</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="8">
+            <li>Ask children to explain how they derived the answer.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/animals/class3/c8.png') }}" class="w-[30vw]" />
+    </div>
+
+    {{-- panel 11 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: The Mystery Animal</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="9">
+            <li>Ask children to look at this part of an animal and guess what animal it is.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/animals/class3/c9.png') }}" class="w-[30vw]" />
+    </div>
+
+    {{-- panel 12 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: The Mystery Animal</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="10">
-            <li>Guide children to complete the corresponding activities in the Thematic
-                Activity Book.</li>
+            <li>Ask children to explain how they derived the answer.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/animals/class3/c10.png') }}" class="w-[30vw]" />
+    </div>
+
+    {{-- panel 13 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: The Mystery Animal</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="11">
+            <li>Ask children to look at this part of an animal and guess what animal it is.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/animals/class3/c11.png') }}" class="w-[30vw]" />
+    </div>
+
+    {{-- panel 14 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: The Mystery Animal</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="12">
+            <li>Ask children to explain how they derived the answer.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/animals/class3/c12.png') }}" class="w-[30vw]" />
+    </div>
+
+    {{-- panel 15 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: The Mystery Animal</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="13">
+            <li>Ask children to look at this part of an animal and guess what animal it is.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/animals/class3/c13.png') }}" class="w-[30vw]" />
+    </div>
+
+    {{-- panel 16 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: The Mystery Animal</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="14">
+            <li>Ask children to explain how they derived the answer.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/animals/class3/c14.png') }}" class="w-[30vw]" />
+    </div>
+
+    {{-- panel 17 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: The Mystery Animal</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="15">
+            <li>Ask children to look at this part of an animal and guess what animal it is.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/animals/class3/c15.png') }}" class="w-[30vw]" />
+    </div>
+
+    {{-- panel 18 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: The Mystery Animal</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="16">
+            <li>Ask children to explain how they derived the answer.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/animals/class3/c16.png') }}" class="w-[30vw]" />
+    </div>
+
+    {{-- panel 19 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: The Mystery Animal</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="17">
+            <li>Ask children to look at this part of an animal and guess what animal it is.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/animals/class3/c17.png') }}" class="w-[30vw]" />
+    </div>
+
+    {{-- panel 20 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: The Mystery Animal</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="18">
+            <li>Ask children to explain how they derived the answer.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/animals/class3/c18.png') }}" class="w-[30vw]" />
+    </div>
+
+    {{-- panel 21 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: The Mystery Animal</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="19">
+            <li>Ask children to look at this part of an animal and guess what animal it is.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/animals/class3/c19.png') }}" class="w-[30vw]" />
+    </div>
+
+    {{-- panel 22 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: The Mystery Animal</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="20">
+            <li>Ask children to explain how they derived the answer.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/animals/class3/c20.png') }}" class="w-[30vw]" />
+    </div>
+
+    {{-- panel 23 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: The Mystery Animal</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="21">
+            <li>Ask children to look at this part of an animal and guess what animal it is.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/animals/class3/c21.png') }}" class="w-[30vw]" />
+    </div>
+
+    {{-- panel 24 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: The Mystery Animal</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="22">
+            <li>Ask children to explain how they derived the answer.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/animals/class3/c22.png') }}" class="w-[30vw]" />
+    </div>
+
+    {{-- panel 25 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: The Mystery Animal</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="23">
+            <li>Distribute drawing papers. Ask children to think about the physical
+                characteristics of an animal that they have seen before and then draw it.
+                Guide the children in drawing the animal by capturing its distinctive
+                characteristic. For example, a giraffe has a long neck, a rabbit has long ears
+                and an elephant has a long trunk.</li>
+            <li>Ask the children to show their drawings to a partner and to identify the animal
+                in each other's drawings.</li>
         </ol>
     </div>
 
 
-    {{-- panel 34 --}}
+    {{-- panel 26 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: The Mystery Animal</h1>
+
+        <div class="text-start">
+            <ol class="list-decimal panel-ul w-[45vw]" start="25">
+                <li>Guide children to complete the corresponding activity in the Thematic
+                    Activity Book.</li>
+            </ol>
+        </div>
+    </div>
+
+
+    {{-- panel 28 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 3: Let’s Queue Up and Wash Our Hands</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: The Mystery Animal</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Get the children to queue up with 8 to 10 children in each
-                    row. Ask them to say their positions in the queue and who is
-                    standing in front of and behind them.</li>
+                <li>Display all the drawings. Encourage children to guess the
+                    animals that are drawn and appreciate each other's work.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to understand the concepts of 'front' and 'back'.</li>
+                <li>Able to guess the animal based on a part of its body.</li>
+                <li>Able to draw an animal that one has seen before.</li>
             </ul>
         </div>
     </div>
-
-
-    {{-- panel 35 --}}
-    <div class="phonics-panel flex flex-col items-center justify-start h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 3: Let’s Queue Up and Wash Our Hands</h1>
-
-        <div class="text-start">
-            <h3 class="ptitle">Extension</h3>
-
-            <ul class="list-disc panel-ul w-[45vw]">
-                <li>Get the children to call out their positions in the queue
-                    when they queue up for routine activities.</li>
-            </ul>
-        </div>
-    </div>
-
-
-
-
 
 
     {{-- =============================================== --}}
@@ -235,8 +394,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/school/index') }}";
-            const doneURL = "{{ url('/micet/n2/school/index') }}";
+            const returnURL = "{{ url('/micet/n2/animals/index') }}";
+            const doneURL = "{{ url('/micet/n2/animals/index') }}";
 
             // Track current position
             let currentSlide = 0;

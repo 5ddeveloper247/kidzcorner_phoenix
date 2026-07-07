@@ -38,192 +38,131 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 9: Marking My Belongings</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: Our Zoo</h1>
         <img src="{{ asset('assets/images/micet/n1/mybody/c9.1.png') }}" class="h-[8vw]" />
 
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul">
-            <li>Know that some things can be shared and others cannot
-                be shared</li>
-            <li>Understand that personal labels can be used to mark
-                personal belongings</li>
-            <li>Design personal labels</li>
+            <li>Draw one's favourite animal</li>
+            <li>Learn to work with group members to decorate the
+                classroom like a zoo</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Marking My Belongings</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: Our Zoo</h1>
 
         <div>
             <h3 class="ptitle">Preparations</h3>
 
             <ol class="list-disc panel-ul w-[45vw]">
-                <li>Tell children that today they will learn to play an action game.</li>
-                <li>For each child, 2-3 pieces of personal labels
-                    (half of an A-4 size paper) </li>
+                <li>Thematic Activity Book</li>
+                <li>A4 size papers</li>
+                <li>Colour pencils</li>
+                <li>Old newspapers, magazines, books etc with different animals
+                    pictures</li>
+                <li>Glue</li>
+                <li>Prepare craft items that are a part of the three living
+                    environments (land, water, sky) beforehand. e.g. Mountains,
+                    trees, the sun, clouds, sea weeds, rocks, etc</li>
             </ol>
         </div>
     </div>
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Marking My Belongings</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: Our Zoo</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[45vw]">
-                <li>Let the children list some things that they share and some that they do not
-                    share in school. Focus the discussion on things that should be shared and
-                    things that should not be. Give some examples: crayons can be shared,
-                    handkerchief cannot be shared. Encourage children to give reasons. </li>
+                <li>Inform the class that they are going to construct a zoo in the classroom.</li>
+                <li>Divide the classroom into three regions, one for the animals that live in water,
+                    one for the animals that live on land, and one for the animals that live in the
+                    sky.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/micet/n2/school/class9/c1.png') }}" class="h-[15vw]" />
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Marking My Belongings</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: Our Zoo</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="2">
             <li>Let the children name the things that can be shared and that cannot be
                 shared. Ask them to explain why.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/school/class9/c2.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Marking My Belongings</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: Our Zoo</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Let the children name the things that can be shared and that cannot be
-                shared. Ask them to explain why.</li>
+            <li>Have the children name some zoo animals and let them say whether the
+                animal lives on land, in water or in the sky.</li>
+            <li>Let the children now name their favourite animal and say where it lives. Then let
+                the children draw their favourite animal.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/school/class9/c3.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Marking My Belongings</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Let the children name the things that can be shared and that cannot be
-                shared. Ask them to explain why.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/school/class9/c4.png') }}" class="w-[30vw]" />
-    </div>
-
-
-    {{-- panel 3 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Marking My Belongings</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: Our Zoo</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="5">
-            <li>Let the children name the things that can be shared and that cannot be
-                shared. Ask them to explain why.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/school/class9/c5.png') }}" class="w-[30vw]" />
-    </div>
-
-
-    {{-- panel 3 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Marking My Belongings</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="6">
-            <li>Explain to the children that we need to use our own cups for drinking and use
-                our own towels for cleaning our hands and body. Tell them that we should
-                keep our belongings in our own cabinets.</li>
-            <li>Let the children know that personal belongings can be easily identified with
-                the use of personal labels.</li>
+            <li>Ask children to tear out pictures of different animals from old newspapers,
+                magazines or books. Let them categorize the pictures and their drawings
+                according to the living environment( land, water, sky) that the animal belongs
+                to.</li>
+            <li>Divide the children into three groups. Let each group be in charge of one
+                region. Encourage the children to work in groups to decorate their region with
+                animal pictures, drawings and other features reflecting that living environment.</li>
         </ol>
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Marking My Belongings</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: Our Zoo</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="8">
-            <li>Display a sample personal label. Explain its use.</li>
-            <LI>Distribute some labels. Ask the children to use their creativity to design
-                personal labels for themselves (or do the same in the Thematic Activity Book).</LI>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/school/class9/c6.png') }}" class="w-[30vw]" />
-    </div>
-
-
-    {{-- panel 3 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Marking My Belongings</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="10">
-            <li>Encourage the children to write their names on their labels (Help them, if
-                needed).</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/school/class9/c7.png') }}" class="w-[30vw]" />
-    </div>
-
-
-    {{-- panel 3 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Marking My Belongings</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="11">
+        <ol class="list-decimal panel-ul w-[45vw]" start="7">
             <li>Guide children to complete the corresponding activities in the Thematic
                 Activity Book.</li>
         </ol>
     </div>
 
 
+
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Marking My Belongings</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: Our Zoo</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Ask children to mark their belongings like their cabinet
-                    and bag with the personal labels they have designed.</li>
+                <li>Let the children enjoy a walk around their classroom zoo and
+                    see and name the animals in the different living regions.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Know that some things can be shared and others cannot
-                    be shared.</li>
-                <li>Able to design personal labels.</li>
+                <li>Able to draw one's favourite animal.</li>
+                <li>Able to work with group members to decorate the classroom
+                    like a zoo.</li>
             </ul>
         </div>
     </div>
 
-
-    {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Marking My Belongings</h1>
-
-        <div class="text-start flex flex-col">
-            <h3 class="ptitle">Extension</h3>
-
-            <ul class="list-disc panel-ul w-[45vw]">
-                <li>Ask parents to help their child design and duplicate their
-                    own personal labels at home. Have their child bring their
-                    personal labels to school and paste them on their personal
-                    items.</li>
-                <li>Provide opportunities for the children to use and put away
-                    their own towels, cups and personal items .</li>
-            </ul>
-        </div>
-    </div>
 
 
 
@@ -280,8 +219,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/school/index') }}";
-            const doneURL = "{{ url('/micet/n2/school/index') }}";
+            const returnURL = "{{ url('/micet/n2/animals/index') }}";
+            const doneURL = "{{ url('/micet/n2/animals/index') }}";
 
             // Track current position
             let currentSlide = 0;

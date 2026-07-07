@@ -48,7 +48,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 1: First Day At School</h1>
+        <h1 class="panel-title stroke">Classroom Activity 1: Animal Land</h1>
         <div class="flex items-center">
             <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
             <img src="{{ asset('assets/images/micet/n1/animals/class1/b1.png') }}" class="h-[8vw]" />
@@ -58,16 +58,16 @@
         <h3 class="title">Objectives:</h3>
 
         <ul class="list-disc panel-ul w-[40vw]">
-            <li>Understand what school life is all about and be willing to
-                participate in school activities</li>
-            <li>Learn to express emotions in words</li>
+            <li>Know the different animals</li>
+            <li>Understand the physical characteristics of some animals</li>
+            <li>Strengthen verbal communication skills</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: First Day At School</h1>
+        <h1 class="panel-title stroke">Classroom Activity 1: Animal Land</h1>
 
         <div>
             <h3 class="title">Preparations</h3>
@@ -81,7 +81,7 @@
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: First Day At School</h1>
+        <h1 class="panel-title stroke">Classroom Activity 1: Animal Land</h1>
 
         <div>
             <h3 class="title">Lesson Development</h3>
@@ -96,25 +96,24 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">First Day at School</h1>
+        <h1 class="panel-title stroke">Animal Land</h1>
 
-        <h3 class="p-title">Theme: My School</h3>
-        <img src="{{ asset('assets/images/micet/n2/school/class1/c1.png') }}" class="w-[30vw]" />
+        <h3 class="p-title">Theme: The World of Animals</h3>
+        <img src="{{ asset('assets/images/micet/n2/animals/class1/c1.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">All the animals are excited about the first day of school. <br>
-            Only Patchy, the little panda, does not want to go to school. <br>
-            He clings on to his mother, crying loudly.</h3>
-        <img src="{{ asset('assets/images/micet/n2/school/class1/c2.png') }}" class="w-[25vw]" />
+        <h3 class="p-title">Bobo is very happy today! Mummy is bringing him to the zoo. He has <br>
+            heard that there are interesting animal shows in the zoo.</h3>
+        <img src="{{ asset('assets/images/micet/n2/animals/class1/c2.png') }}" class="w-[30vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                Why is Patchy unwilling to go to school? How was your first day of school?<br>
-                <span class="text-[#f7b94a]">Help the children to overcome their fear of school. Help the children <br>
-                    to express their thoughts and feelings by using complefe sentences.</span>
+                Have you been to the zoo? Which are your favourite animals? Why?<br>
+                <span class="text-[#f7b94a]">Guide the children in naming their favourite animal and its
+                    characteristics.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -123,16 +122,14 @@
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Patchy's mother leaves him at the school and goes to work. Teacher <br>
-            Mrs. Moo takes Patchy to the classroom. The other animals hear <br>
-            Patchy's wails and hurry over. They invite himto play and soon Patchy is playing happily with them.</h3>
-        <img src="{{ asset('assets/images/micet/n2/school/class1/c3.png') }}" class="w-[25vw]" />
+        <h3 class="p-title">In the zoo, Bobo first sees a giraffe. It is stretching its long neck to <br>
+            eat the leaves on a tree.</h3>
+        <img src="{{ asset('assets/images/micet/n2/animals/class1/c3.png') }}" class="w-[30vw]" />
 
         <div class="flex items-center justify-around w-full">
             <h3 class="p-title text-left">
-                If you see another child crying, what would you do? <br>
-                <span class="text-[#f7b94a]">Help the children to understand the emotions felt by others <br>
-                    and to learn to console those who are sad.</span>
+                What are the other uses of the giraffe's long neck? <br>
+                <span class="text-[#f7b94a]">Encourage the children to express their ideas clearly.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -141,14 +138,15 @@
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Patchy and his friends build a skyscraper and take turns to drive a toy <br>
-            car. Patchy also plays with a ball. There are many toys in school!</h3>
-        <img src="{{ asset('assets/images/micet/n2/school/class1/c4.png') }}" class="w-[30vw]" />
+        <h3 class="p-title">The rhinoceros lives beside the giraffe. It has a powerful sharp hom. It <br>
+            uses its hom as a weapon to protect itself from enemies when in danger.</h3>
+        <img src="{{ asset('assets/images/micet/n2/animals/class1/c4.png') }}" class="w-[30vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                What do you like to play in school? <br>
-                <span class="text-[#f7b94a]">Encourage the children to name their favourite toys.</span>
+                What other animals have sharp homs? <br>
+                How many homs do they have on their heads? <br>
+                <span class="text-[#f7b94a]">Help the children to identify the animals that have homs.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -157,15 +155,15 @@
 
     {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Soon it is tea time. Teacher Mrs. Moo gets the class in line to take <br>
-            tums to wash their hands. We have to wash our hands before we eat.</h3>
-        <img src="{{ asset('assets/images/micet/n2/school/class1/c5.png') }}" class="w-[30vw]" />
+        <h3 class="p-title">Ah, it is so cold in here! They have come to the polar bears' house. <br>
+            However, the polar bears are not feeling cold. Their house in North Pole is <br>
+            even colder.</h3>
+        <img src="{{ asset('assets/images/micet/n2/animals/class1/c5.png') }}" class="w-[30vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                Why do we wash our hands before we eat? Why do we need to queue up?<br>
-                <span class="text-[#f7b94a]">Help the children to cultivate the habit of washing hands before <br>
-                    eating and queuing up while waiting for their tum.</span>
+                Why are the polar bears not feeling cold?<br>
+                <span class="text-[#f7b94a]">Help the children to express their ideas clearly.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -174,15 +172,15 @@
 
     {{-- panel 9 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Aftertea, the children learnt to sing and play musical instruments <br>
-            from Mrs. Moo. Listen! The music produced was lovely!</h3>
-        <img src="{{ asset('assets/images/micet/n2/school/class1/c6.png') }}" class="w-[30vw]" />
+        <h3 class="p-title">Wow, it is so crowded over there! The animal show has started! The <br>
+            monkeys perform first. They clap their hands, nod their heads and <br>
+            scratch their backs. They are so playful and loveable.</h3>
+        <img src="{{ asset('assets/images/micet/n2/animals/class1/c6.png') }}" class="w-[30vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                What kinds of musical instruments are the children holding? <br>
-                <span class="text-[#f7b94a]">Help the children to identify the common musical instruments as well <br>
-                    as the sounds they produce.</span>
+                Let's imitate the monkeys' actions. <br>
+                <span class="text-[#f7b94a]">Encourage the children to imitate the various actions of the monkeys.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -191,14 +189,15 @@
 
     {{-- panel 10 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">After that, Mrs. Moo teaches the children how to dance. They form a <br>
-            circle and sing and dance. Everyone dances very well.</h3>
-        <img src="{{ asset('assets/images/micet/n2/school/class1/c7.png') }}" class="w-[25vw]" />
+        <h3 class="p-title">Next, the tigress and her cubs sing. Although the cubs look like kittens, <br>
+            they have loud voices!</h3>
+        <img src="{{ asset('assets/images/micet/n2/animals/class1/c7.png') }}" class="w-[30vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                What dance can you do? Demonstrate it to the class.<br>
-                <span class="text-[#f7b94a]">Encourage the children to dance according to the rhythm of music.</span>
+                Let's roar like the tiger. Can you imitate the sounds made by other animals?<br>
+                <span class="text-[#f7b94a]">Guide the children in imitating the sounds made by the tiger and other
+                    animals.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -207,16 +206,15 @@
 
     {{-- panel 11 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Mrs. Moo then takes everyone to the playground. Patchy and his <br>
-            friends play on the see-saw and slide. Patchy has a great time!</h3>
-        <img src="{{ asset('assets/images/micet/n2/school/class1/c7.png') }}" class="w-[25vw]" />
+        <h3 class="p-title">The little animals are hiding as they are frightened by the tigress and the <br>
+            cubs' singing. Look! The tortoise is so frightened that it has shrunk its <br>
+            head and legs into its shell.</h3>
+        <img src="{{ asset('assets/images/micet/n2/animals/class1/c7.png') }}" class="w-[30vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                Name the things that you can find in your school playground. <br>
-                What is your favourite game there?<br>
-                <span class="text-[#f7b94a]">Help the children to identity the various toys in school and <br>
-                    show them how each should be handled.</span>
+                What other animals have shells?<br>
+                <span class="text-[#f7b94a]">Help the children to identify other animals that have shells.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -225,16 +223,16 @@
 
     {{-- panel 12 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Time flies! Soon it is time for the mothers to fetch their children. <br>
-            Patchy tells his mother that school is fun, and that he will not cry <br>
-            again when he has to go to school.</h3>
-        <img src="{{ asset('assets/images/micet/n2/school/class1/c7.png') }}" class="w-[25vw]" />
+        <h3 class="p-title">The last to perform are the elephants. Although the elephants are big <br>
+            and heavy, they are talented danceis! They flap their big ears and swing <br>
+            theirlong trunk. Their movements are very agile.</h3>
+        <img src="{{ asset('assets/images/micet/n2/animals/class1/c7.png') }}" class="w-[30vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                Who usually takes you to school and fetches you from school?<br>
-                <span class="text-[#f7b94a]">Help the children to appreciate the effort put in by their family <br>
-                    members and encourage them to show their appreciation.</span>
+                What are the uses of the elephant's long trunk?<br>
+                <span class="text-[#f7b94a]">Encourage the children to use their imagination and express their ideas
+                    clearly.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -243,7 +241,7 @@
 
     {{-- panel 13 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: First Day At School</h1>
+        <h1 class="panel-title stroke">Classroom Activity 1: Animal Land</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="2">
             <li>Guide children to complete the corresponding activity in the Thematic
@@ -254,21 +252,37 @@
 
     {{-- panel 13 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: First Day At School </h1>
+        <h1 class="panel-title stroke">Classroom Activity 1: Animal Land</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Get the children to name their favourite activity in school. </li>
+                <li>Ask the children to name some animals and describe their characteristics. </li>
+                <li>Ask the children to name their favourite animals and describe
+                    their characteristics.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to describe a day in school.</li>
-                <li>Be willing to go to school.</li>
-                <li>Able to express one's emotion in words.</li>
+                <li>Able to name the animals introduced in the story and describe
+                    their characteristics.</li>
+            </ul>
+        </div>
+    </div>
+
+
+    {{-- panel 13 --}}
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 1: Animal Land</h1>
+
+        <div class="text-start flex flex-col">
+            <h3 class="ptitle">Extension</h3>
+
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Invite the children to imitate the animals in the story and
+                    perform for the class.</li>
             </ul>
         </div>
     </div>
@@ -327,8 +341,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/school/index') }}";
-            const doneURL = "{{ url('/micet/n2/school/index') }}";
+            const returnURL = "{{ url('/micet/n2/animals/index') }}";
+            const doneURL = "{{ url('/micet/n2/animals/index') }}";
 
             // Track current position
             let currentSlide = 0;

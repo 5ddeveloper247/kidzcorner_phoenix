@@ -83,95 +83,88 @@
 
 @push('script')
     <script>
-        document.body.dataset.homeRoute = "{{ url('/micet') }}";
+      document.body.dataset.homeRoute = "{{ url('/micet') }}";
 
-        document.addEventListener("DOMContentLoaded", () => {
-            const slides = document.querySelectorAll("#slide-board");
-            const startBtn = document.querySelector(".start-btn");
-            const nextBtn = document.getElementById("next-btn");
-            const doneBtn = document.getElementById("done-btn");
-            const returnButton = document.getElementById("returnButton");
-            const homeButton = document.getElementById("homeButton");
+document.addEventListener("DOMContentLoaded", () => {
+    const slides = document.querySelectorAll("#slide-board");
+    const startBtn = document.querySelector(".start-btn");
+    const nextBtn = document.getElementById("next-btn");
+    const doneBtn = document.getElementById("done-btn");
+    const returnButton = document.getElementById("returnButton");
+    const homeButton = document.getElementById("homeButton");
 
-            let currentSlide = 0;
+    let currentSlide = 0;
 
-            // ✅ Restore last slide from sessionStorage
-            // const savedSlide = sessionStorage.getItem("phonics_l2_slide");
-            // if (savedSlide !== null) {
-            //     currentSlide = parseInt(savedSlide);
-            //     sessionStorage.removeItem("phonics_l2_slide");
-            // }
+    // ✅ Skip the start screen if the user has already started this session
+    // (covers: Home button from a child page, Return button chain, browser back — anything)
+    const visited = sessionStorage.getItem("micet_root_visited");
+    if (visited === "1") {
+        currentSlide = 1;
+    }
 
-            function showSlide(index) {
-                slides.forEach((slide, i) => {
-                    if (i === index) {
-                        slide.classList.remove("hidden");
-                    } else {
-                        slide.classList.add("hidden");
-                    }
-                });
-
-                if (returnButton) {
-                    if (index === 0) {
-                        returnButton.classList.add("hidden");
-                    } else {
-                        returnButton.classList.remove("hidden");
-                    }
-                }
-
-                if (index === 0) {
-                    nextBtn.classList.add("hidden");
-                    doneBtn.classList.add("hidden");
-                } else if (index === slides.length - 1) {
-                    nextBtn.classList.add("hidden");
-                    doneBtn.classList.remove("hidden");
-                } else {
-                    nextBtn.classList.remove("hidden");
-                    doneBtn.classList.add("hidden");
-                }
+    function showSlide(index) {
+        slides.forEach((slide, i) => {
+            if (i === index) {
+                slide.classList.remove("hidden");
+            } else {
+                slide.classList.add("hidden");
             }
+        });
 
-            // ✅ Save slide index before navigating away via any lesson link
-            document.querySelectorAll("#slide-board a").forEach(link => {
-                link.addEventListener("click", () => {
-                    sessionStorage.setItem("phonics_l2_slide", currentSlide);
-                });
-            });
-
-            if (startBtn) {
-                startBtn.addEventListener("click", () => {
-                    currentSlide = 1;
-                    showSlide(currentSlide);
-                });
+        if (returnButton) {
+            if (index === 0) {
+                returnButton.classList.add("hidden");
+            } else {
+                returnButton.classList.remove("hidden");
             }
+        }
 
-            if (nextBtn) {
-                nextBtn.addEventListener("click", () => {
-                    if (currentSlide < slides.length - 1) {
-                        currentSlide++;
-                        showSlide(currentSlide);
-                    }
-                });
-            }
+        if (index === 0) {
+            nextBtn.classList.add("hidden");
+            doneBtn.classList.add("hidden");
+        } else if (index === slides.length - 1) {
+            nextBtn.classList.add("hidden");
+            doneBtn.classList.remove("hidden");
+        } else {
+            nextBtn.classList.remove("hidden");
+            doneBtn.classList.add("hidden");
+        }
+    }
 
-            if (doneBtn) {
-                doneBtn.addEventListener("click", () => {
-                    currentSlide = 0;
-                    showSlide(currentSlide);
-                });
-            }
-
-            if (returnButton) {
-                returnButton.addEventListener("click", () => {
-                    if (currentSlide > 0) {
-                        currentSlide--;
-                        showSlide(currentSlide);
-                    }
-                });
-            }
-
-            // ✅ Initialize with restored or default slide
+    if (startBtn) {
+        startBtn.addEventListener("click", () => {
+            currentSlide = 1;
+            sessionStorage.setItem("micet_root_visited", "1");
             showSlide(currentSlide);
         });
+    }
+
+    if (nextBtn) {
+        nextBtn.addEventListener("click", () => {
+            if (currentSlide < slides.length - 1) {
+                currentSlide++;
+                showSlide(currentSlide);
+            }
+        });
+    }
+
+    if (doneBtn) {
+        doneBtn.addEventListener("click", () => {
+            currentSlide = 0;
+            showSlide(currentSlide);
+        });
+    }
+
+    if (returnButton) {
+        returnButton.addEventListener("click", () => {
+            if (currentSlide > 0) {
+                currentSlide--;
+                showSlide(currentSlide);
+            }
+        });
+    }
+
+    showSlide(currentSlide);
+});
     </script>
 @endpush
