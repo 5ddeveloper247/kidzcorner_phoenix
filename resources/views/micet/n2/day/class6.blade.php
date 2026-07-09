@@ -38,7 +38,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Left turn, Right turn</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Changing Shadows</h1>
         <div class="flex ">
             <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
             <img src="{{ asset('assets/images/micet/n1/mybody/class2/c1.png') }}" class="h-[12vw]" />
@@ -48,22 +48,24 @@
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul">
-            <li>To identify the common features of vehicles (such as signal lights).</li>
-            <li>To imitate vehicle movements using various parts of the body.</li>
-            <li>To differentiate between left and right.</li>
+            <li>Explore the relationship between light and shadow</li>
+            <li>Explore the relationship between an object and its shadow</li>
+            <li>Explore the relationship between the source of light and a shadow</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Left turn, Right turn</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Changing Shadows</h1>
 
         <div>
             <h3 class="ptitle">Preparations</h3>
 
             <ul class="list-disc panel-ul">
                 <li>Thematic Activity Book</li>
+                <li>A table lamp</li>
+                <li>A teddy bear and a doll</li>
             </ul>
         </div>
     </div>
@@ -71,119 +73,93 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Left turn, Right turn</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Changing Shadows</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[50vw]">
-                <li>Ask the children to stretch out their hands. Then ask: "Which is your left hand?";
-                    "Which is your right hand?".</li>
+                <li>Draw the curtains in the classroom and switch off all the lights. Switch on the
+                    table lamp and shine the light on the wall. Put one hand in front of the light
+                    and ask the children what they see.</li>
+                <li>Ask children: Where and when do you see a shadow? Guide children to
+                    understand that a shadow is formed when an object blocks the path of the
+                    light. And the shadow is always in the opposite direction of the light source.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/micet/n2/transport/class6/c1.png') }}" class="w-[25vw]" />
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Left turn, Right turn</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Changing Shadows</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="2">
-            <li>Guide the children to learn the action rhyme "Left and right". Then add
-                corresponding movements to reinforce the concept of left and right.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="3">
+            <li>Ask children: Can you identify an object by just looking at its shadow? If
+                possible, play a shadow guessing game.</li>
+            <li>Show children the shadow of a doll and shadow of a teddy bear. Guide
+                children to understand that the shapes of the objects correspond to their
+                shadows.</li>
         </ol>
-        <h4 class="text-white text-[2vw] text-center">
-            Left side, right side, <br>
-            Right side, left side; <br>
-            Turn left, turn right. <br>
-            Turn right, turn left. <br>
-            Squat down, stand up, <br>
-            Turn left, turn right, <br>
-            Jump! Jump! Jump!
-
-        </h4>
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Left turn, Right turn</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="3">
-            <li>Ask the children: "Where are the turn signal lights?"; "What are these signal
-                lights used for?".</li>
-            <li>Ask the children to point to the signal light that is used for turning right; for
-                turning left.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class6/c2.png') }}" class="w-[30vw]" />
-    </div>
-
-
-    {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Left turn, Right turn</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Changing Shadows</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="5">
-            <li>Click on the video and ask the children to observe how a vehicle uses its
-                indicator. As the indicator light blinks, ask: "Which direction will the vehicle be
-                turning?".</li>
+            <li>Ask children: Which is the shadow of the bear?</li>
         </ol>
-        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-            <source src="{{ asset('assets/images/micet/n2/transport/class6/v1.mp4') }}" type="video/mp4">
-        </video>
+        <img src="{{ asset('assets/images/micet/n2/day/class6/c1.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Left turn, Right turn</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="5">
-            <li>Click on the video and ask the children to observe how a vehicle uses its
-                indicator. As the indicator light blinks, ask: "Which direction will the vehicle be
-                turning?".</li>
-        </ol>
-        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-            <source src="{{ asset('assets/images/micet/n2/transport/class6/v2.mp4') }}" type="video/mp4">
-        </video>
-    </div>
-
-
-    {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Left turn, Right turn</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Changing Shadows</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="6">
-            <li>Teacher stretches out both hands with closed fists. Then open and close one
-                of the fist repetitively to represent the car's blinking turn signal. Have the
-                children do likewise. Alternate randomly between "Turn left", "Turn right" to
-                reinforce the concepts of left and right.</li>
+            <li>Adjust the table lamp and let children observe the changes in the shadow's
+                shape. Help children understand that the shadow of an object changes
+                when the distance or the position of the light source changes. In other words,
+                when the position of the light source changes, the shape of the shadow
+                changes; when the light source is closer to/ further away from an object, the
+                shadow is bigger/ smaller.</li>
+            <li>Let children change the position of the teddy bear from the light source to
+                observe the changes in its shadow.</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 6: Changing Shadows</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="8">
+            <li>Ask children: Which is the shadow of the bear?</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/day/class6/c2.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 6: Changing Shadows</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="9">
+            <li>Ask children: What will happen to the shadow of the teddy bear if the light is
+                switched off? Where will it be? Why?</li>
+            <li>Switch off the light to let children find out the answer on their own.</li>
         </ol>
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Left turn, Right turn</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Changing Shadows</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="7">
-            <li>Everyone stands in line, with the teacher in front as the driver. Get the children
-                to place their hands on the shoulders of the person in front. When the 'vehicle'
-                is turning right, the teacher will say "Turn right", she then stretches out her right
-                hand to the side, and performs the "blinking" action. The children will repeat
-                the instruction and action.</li>
-            <li>Add variation to the activity by incorporating other actions. For example,
-                varying the speed, stopping, sounding of horn, turning on the wipers, etc.</li>
-        </ol>
-    </div>
-
-
-    {{-- panel 6 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Left turn, Right turn</h1>
-
-        <ol class="list-decimal panel-ul" start="9">
+        <ol class="list-decimal panel-ul w-[50vw]" start="11">
             <li>Guide children to complete the corresponding activities in the Thematic
                 Activity Book.</li>
         </ol>
@@ -192,22 +168,22 @@
 
     {{-- panel 28 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Left turn, Right turn</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Changing Shadows</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Invite a few of the children to share their experiences about
-                    the above activity. Invite the children to recite the action
-                    rhyme "Left and right" again.</li>
+                <li>Invite children to observe the shadow of their favourite toy
+                    and then change the position of the table lamp to observe
+                    the changes in the toy's shadow.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to distinguish between left and right.</li>
-                <li>Able to follow instructions and perform the correct actions.</li>
+                <li>Able to know the relationship between light and shadow.</li>
+                <li>Able to know the relationship between an object and its shadow.</li>
             </ul>
         </div>
     </div>
@@ -215,15 +191,14 @@
 
     {{-- panel 28 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Left turn, Right turn</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Changing Shadows</h1>
 
         <div class="text-start flex flex-col">
             <h3 class="ptitle">Extension</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Select a child who has grasped the concept of left and right
-                    to be the "driver". This child will lead the other children in
-                    the activity.</li>
+                <li>Change the height of the table lamp, and get children to
+                    observe the changes in an object's shadow.</li>
             </ul>
         </div>
     </div>
@@ -283,8 +258,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/transport/index') }}";
-            const doneURL = "{{ url('/micet/n2/transport/index') }}";
+            const returnURL = "{{ url('/micet/n2/day/index') }}";
+            const doneURL = "{{ url('/micet/n2/day/index') }}";
 
             // Track current position
             let currentSlide = 0;
@@ -543,6 +518,5 @@
             // INITIALIZE - Show first slide and play its audio automatically
             showSlide(currentSlide);
         });
-
     </script>
 @endpush

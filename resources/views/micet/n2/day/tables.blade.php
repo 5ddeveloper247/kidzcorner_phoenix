@@ -41,11 +41,12 @@
         <h1 class="panel-title stroke">Table 1 : Theme Goals</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]">
-            <li>To identify and name some common means of transport.</li>
-            <li>To be aware of the different kinds of transport and traffic regulations.</li>
-            <li>To distinguish between the different kinds of transport and classify them into groups.</li>
-            <li>To observe and be aware of road safety procedures.</li>
-            <li>To distinguish between left and right.</li>
+            <li>Understand the characteristics of day and night.</li>
+            <li>Learn to tell time by the hour.</li>
+            <li>Learn about shadows and explore the relationship between light and shadow.</li>
+            <li>Understand the uses of shadows.</li>
+            <li>Learn about the Sun and the Moon.</li>
+            <li>Understand one's daily schedule to reinforce the concept of time.</li>
         </ol>
     </div>
 
@@ -121,8 +122,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/transport/index') }}";
-            const doneURL = "{{ url('/micet/n2/transport/index') }}";
+            const returnURL = "{{ url('/micet/n2/day/index') }}";
+            const doneURL = "{{ url('/micet/n2/day/index') }}";
 
             // Track current position
             let currentSlide = 0;

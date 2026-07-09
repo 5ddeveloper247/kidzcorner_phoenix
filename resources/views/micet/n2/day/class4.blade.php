@@ -38,7 +38,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Transportation</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: What’s The Time, Mr Wolf?</h1>
         <div class="flex ">
             <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
             <img src="{{ asset('assets/images/micet/n1/mybody/class2/c1.png') }}" class="h-[12vw]" />
@@ -48,46 +48,44 @@
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul w-[45vw]">
-            <li>To be aware of the different types of transports and their uses</li>
-            <li>To identify the similarities and differences between the
-                different types of transports.</li>
-            <li>To describe observations using complete sentences.</li>
+            <li>Understand time in sequence, develop concept of time</li>
+            <li>Develop body co-ordination skills and responsiveness</li>
+            <li>Learn to follow the rules of the game</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 4: Transportation</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: What’s The Time, Mr Wolf?</h1>
 
         <div>
             <h3 class="ptitle">Preparations</h3>
 
             <ul class="list-disc panel-ul">
                 <li>Thematic Activity Book</li>
-                <li>Letter to parents (next page)</li>
+                <li>A large clock</li>
+                <li>A wolf mask</li>
+                <li>Draw a starting line at one end of the field</li>
             </ul>
         </div>
     </div>
 
 
-    {{-- panel 3 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Transportation</h1>
-
-        <img src="{{ asset('assets/images/micet/n2/transport/class4/letter.png') }}" class="w-[35vw]" />
-    </div>
-
-
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Transportation</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: What’s The Time, Mr Wolf?</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[45vw]">
-                <li>Have children identify this vehicle, such as its name, use and characteristics.</li>
+                <li>Display a clock. Set the time to 6 o'clock. Ask children: What time is it? What
+                    would you do at 6 o'clock in the morning?</li>
+                <li>Set the time to 10 o'clock. Ask children: What time is it? What would you do
+                    at 10 o'clock in the morning?</li>
+                <li>Set the time to lunch time, school dismissal time, evening time and ask
+                    the children to tell the time and relate what they do at the respective times.</li>
             </ol>
         </div>
     </div>
@@ -95,378 +93,63 @@
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Transportation</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: What’s The Time, Mr Wolf?</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]">
-            <li>Have children identify this vehicle, such as its name, use and characteristics.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="4">
+            <li>Next, set the time in sequence from day to night, start from 6 o'clock in the
+                morning, and have children tell the time. Guide children to understand time
+                in sequence.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class4/c1.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Transportation</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: What’s The Time, Mr Wolf?</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]">
-            <li>Have children identify this vehicle, such as its name, use and characteristics.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="5">
+            <li>Bring children to the field to play the game "What's the time, Mr Wolf?". Tell
+                children that all the little animals are out to play during the day but have to
+                go home at night, or else they will be eaten by Mr Wolf.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class4/c2.png') }}" class="w-[30vw]" />
     </div>
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Transportation</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: What’s The Time, Mr Wolf?</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]">
-            <li>Have children identify this vehicle, such as its name, use and characteristics.</li>
+        <ol class="list-decimal panel-ul" start="6">
+            <li>Explain and demonstrate the rules of the game:
+                <ol class="list-[lower-alpha] pl-[1vw] text-[1.25vw]">
+                    <li>Before the game starts, all children (except one) will pretend to be "little animals" and stand at
+                        the starting line. One child will be the "wolf" and will stand with his/her back facing the little
+                        animals, a few metres from the starting line.</li>
+
+                    <li>When the game begins, the little animals will move together towards the wolf and ask,"What's the
+                        time, Mr Wolf?" The wolf will answer each time, telling the
+                        time in sequence, for example: "It's 6 o'clock in the morning", "It's 10
+                        o'clock in the morning", "It's 3 o'clock in the afternoon", and"It's 6 o'clock in the evening".</li>
+
+                    <li>The little animals will have to move towards the wolf each time they ask for the time.</li>
+
+                    <li>The wolf is not allowed to turn his/her head and look at the animals when answering their questions.
+                    </li>
+
+                    <li>When the wolf says "It's night time", the little animals will quickly
+                        turn and run back to the starting point. The wolf will chase after them but is not allowed to cross
+                        the starting line.</li>
+
+                    <li>The little animal that is caught by the wolf will be the wolf for the next game.</li>
+                </ol>
+            </li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class4/c3.png') }}" class="w-[30vw]" />
     </div>
 
     {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Transportation</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: What’s The Time, Mr Wolf?</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]">
-            <li>Have children identify this vehicle, such as its name, use and characteristics.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class4/c4.png') }}" class="h-[20vw]" />
-    </div>
-
-    {{-- panel 9 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Transportation</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]">
-            <li>Have children identify this vehicle, such as its name, use and characteristics.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class4/c5.png') }}" class="w-[30vw]" />
-    </div>
-
-    {{-- panel 10 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Transportation</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]">
-            <li>Have children identify this vehicle, such as its name, use and characteristics.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class4/c6.png') }}" class="w-[30vw]" />
-    </div>
-
-    {{-- panel 11 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Transportation</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]">
-            <li>Have children identify this vehicle, such as its name, use and characteristics.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class4/c7.png') }}" class="w-[30vw]" />
-    </div>
-
-    {{-- panel 12 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Transportation</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]">
-            <li>Have children identify this vehicle, such as its name, use and characteristics.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class4/c8.png') }}" class="w-[30vw]" />
-    </div>
-
-    {{-- panel 13 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Transportation</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]">
-            <li>Have children identify this vehicle, such as its name, use and characteristics.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class4/c9.png') }}" class="w-[30vw]" />
-    </div>
-
-    {{-- panel 14 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Transportation</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]">
-            <li>Have children identify this vehicle, such as its name, use and characteristics.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class4/c10.png') }}" class="w-[30vw]" />
-    </div>
-
-    {{-- panel 15 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Transportation</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]">
-            <li>Have children identify this vehicle, such as its name, use and characteristics.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class4/c11.png') }}" class="w-[30vw]" />
-    </div>
-
-    {{-- panel 16 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Transportation</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]">
-            <li>Have children identify this vehicle, such as its name, use and characteristics.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class4/c12.png') }}" class="w-[30vw]" />
-    </div>
-
-    {{-- panel 17 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Transportation</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]">
-            <li>Have children identify this vehicle, such as its name, use and characteristics.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class4/c13.png') }}" class="w-[30vw]" />
-    </div>
-
-    {{-- panel 18 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Transportation</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]">
-            <li>Have children identify this vehicle, such as its name, use and characteristics.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class4/c14.png') }}" class="w-[30vw]" />
-    </div>
-
-    {{-- panel 19 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Transportation</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]">
-            <li>Have children identify this vehicle, such as its name, use and characteristics.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class4/c15.png') }}" class="w-[30vw]" />
-    </div>
-
-    {{-- panel 20 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Transportation</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]">
-            <li>Have children identify this vehicle, such as its name, use and characteristics.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class4/c16.png') }}" class="w-[30vw]" />
-    </div>
-
-    {{-- panel 21 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Transportation</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]">
-            <li>Have children identify this vehicle, such as its name, use and characteristics.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class4/c17.png') }}" class="h-[20vw]" />
-    </div>
-
-    {{-- panel 22 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Transportation</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]">
-            <li>Have children identify this vehicle, such as its name, use and characteristics.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class4/c18.png') }}" class="w-[30vw]" />
-    </div>
-
-    {{-- panel 23 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Transportation</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]">
-            <li>Have children identify this vehicle, such as its name, use and characteristics.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class4/c19.png') }}" class="w-[25vw]" />
-    </div>
-
-    {{-- panel 24 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Transportation</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]">
-            <li>Have children identify this vehicle, such as its name, use and characteristics.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class4/c20.png') }}" class="w-[30vw]" />
-    </div>
-
-    {{-- panel 25 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Transportation</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]">
-            <li>Have children identify this vehicle, such as its name, use and characteristics.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class4/c21.png') }}" class="w-[30vw]" />
-    </div>
-
-    {{-- panel 26 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Transportation</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]">
-            <li>Have children identify this vehicle, such as its name, use and characteristics.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class4/c22.png') }}" class="w-[30vw]" />
-    </div>
-
-    {{-- panel 27 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Transportation</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]">
-            <li>Have children identify this vehicle, such as its name, use and characteristics.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class4/c23.png') }}" class="w-[30vw]" />
-    </div>
-
-    {{-- panel 28 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Transportation</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]">
-            <li>Have children identify this vehicle, such as its name, use and characteristics.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class4/c24.png') }}" class="w-[30vw]" />
-    </div>
-
-    {{-- panel 29 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Transportation</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]">
-            <li>Have children identify this vehicle, such as its name, use and characteristics.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class4/c25.png') }}" class="w-[30vw]" />
-    </div>
-
-    {{-- panel 30 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Transportation</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]">
-            <li>Have children identify this vehicle, such as its name, use and characteristics.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class4/c26.png') }}" class="h-[20vw]" />
-    </div>
-
-    {{-- panel 31 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Transportation</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]">
-            <li>Have children identify this vehicle, such as its name, use and characteristics.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class4/c27.png') }}" class="w-[30vw]" />
-    </div>
-
-    {{-- panel 32 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Transportation</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]">
-            <li>Have children identify this vehicle, such as its name, use and characteristics.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class4/c28.png') }}" class="w-[30vw]" />
-    </div>
-
-    {{-- panel 33 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Transportation</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]">
-            <li>Have children identify this vehicle, such as its name, use and characteristics.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class4/c29.png') }}" class="w-[30vw]" />
-    </div>
-
-    {{-- panel 34 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Transportation</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]">
-            <li>Have children identify this vehicle, such as its name, use and characteristics.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class4/c30.png') }}" class="w-[30vw]" />
-    </div>
-
-    {{-- panel 35 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Transportation</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]">
-            <li>Have children identify this vehicle, such as its name, use and characteristics.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class4/c31.png') }}" class="w-[30vw]" />
-    </div>
-
-    {{-- panel 36 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Transportation</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]">
-            <li>Have children identify this vehicle, such as its name, use and characteristics.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class4/c32.png') }}" class="w-[30vw]" />
-    </div>
-
-    {{-- panel 37 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Transportation</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]">
-            <li>Have children identify this vehicle, such as its name, use and characteristics.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class4/c33.png') }}" class="w-[30vw]" />
-    </div>
-
-    {{-- panel 38 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Transportation</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]">
-            <li>Have children identify this vehicle, such as its name, use and characteristics.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class4/c34.png') }}" class="w-[30vw]" />
-    </div>
-
-    {{-- panel 39 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Transportation</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]">
-            <li>Have children identify this vehicle, such as its name, use and characteristics.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class4/c35.png') }}" class="w-[30vw]" />
-    </div>
-
-
-    {{-- panel 40- --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Transportation</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="2">
-            <li>Invite children to bring their toy vehicles for Show and Tell. Get them to take
-                turns to name the toy they have brought from home, describe its purpose and
-                characteristics.</li>
-            <li>Get two children with different toy vehicles to share with the others what they
-                brought. Ask the children to look at the two toys closely and note the
-                similarities and differences.</li>
-            <li>Choose another set of different toy vehicles and repeat the above activity.</li>
-        </ol>
-
-    </div>
-
-
-    {{-- panel 41 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 4: Transportation</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="5">
+        <ol class="list-decimal panel-ul w-[45vw]" start="7">
             <li>Guide children to complete the corresponding activities in the Thematic
                 Activity Book.</li>
         </ol>
@@ -481,18 +164,17 @@
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Get a few children to take turns to describe their toy vehicle
-                    using sentences, such as "This is a truck. It has four wheels
-                    and can carry many things.".</li>
+                <li>Invite children to share their experiences after the game:
+                    what should the little animals do to win the game? What
+                    should the wolf do to catch the little animals?</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to name various transport vehicles.</li>
-                <li>Able to use complete sentences to describe different
-                    vehicles and their special features.</li>
-                <li>Able to identify similarities and differences among vehicles.</li>
+                <li>Able to tell time in sequence.</li>
+                <li>Able to listen and respond quickly while playing the game.</li>
+                <li>Able to follow the rules of the game.</li>
             </ul>
         </div>
     </div>
@@ -549,8 +231,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/transport/index') }}";
-            const doneURL = "{{ url('/micet/n2/transport/index') }}";
+            const returnURL = "{{ url('/micet/n2/day/index') }}";
+            const doneURL = "{{ url('/micet/n2/day/index') }}";
 
             // Track current position
             let currentSlide = 0;

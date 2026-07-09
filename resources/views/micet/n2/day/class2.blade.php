@@ -38,7 +38,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: Toot Toot Needs Help</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Day and Night</h1>
         <div class="flex ">
             <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
             <img src="{{ asset('assets/images/micet/n1/mybody/class2/c1.png') }}" class="h-[12vw]" />
@@ -48,22 +48,23 @@
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul">
-            <li>To go through a maze developing observation skills.</li>
-            <li>To learn about the numerals 1-10.</li>
-            <li>To develop fine motor skills through colouring.</li>
+            <li>Know the characteristics of day and night</li>
+            <li>Know things that are done during the day and at night</li>
+            <li>Establish the concept of time</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col items-center space-y-[3vw] h-full">
-        <h1 class="panel-title stroke">Classroom Activity 2: Toot Toot Needs Help</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Day and Night</h1>
 
         <div>
             <h3 class="ptitle">Preparations</h3>
 
             <ul class="list-disc panel-ul">
                 <li>Thematic Activity Book</li>
+                <li>Drawing paper and crayons</li>
             </ul>
         </div>
     </div>
@@ -71,138 +72,78 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: Toot Toot Needs Help</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Day and Night</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[45vw]">
-                <li>Guide the children to talk about the exterior characteristics of vehicles, such
-                    as: doors, windows, windscreen, mirrors, tyres, headlights, etc.</li>
+                <li>Invite children to say what it is like during the day, and what it is like at night.</li>
+                <li>Let children say things that are normally seen and done during the day. For
+                    example: during the day, children can see the sun, clouds, butterflies; they
+                    eat breakfast, go to school, exercise, play with friends, etc.</li>
+                <li>Let children say things that are normally seen and done during the night. For
+                    example: during the night, children can see the moon, stars, owl, bat, fireflies,
+                    they eat dinner, rest, go to sleep, etc.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/micet/n2/transport/class2/c1.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: Toot Toot Needs Help</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Day and Night</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]">
-            <li>Guide the children to talk about the exterior characteristics of vehicles, such
-                as: doors, windows, windscreen, mirrors, tyres, headlights, etc.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="4">
+            <li>Ask children to identify things that can be done both during the day and at
+                night.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class2/c2.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: Toot Toot Needs Help</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Day and Night</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]">
-            <li>Guide the children to talk about the exterior characteristics of vehicles, such
-                as: doors, windows, windscreen, mirrors, tyres, headlights, etc.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="5">
+            <li>Distribute the drawing papers. Let children use their imagination to draw what
+                their day and night may be like (or use Thematic Activity Book). Remind
+                children to draw the characteristics of day and night.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class2/c3.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: Toot Toot Needs Help</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Day and Night</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="2">
-            <li>Have the children talk about the special features under the bonnet. Guide the
-                children to understand that the engine is under the bonnet.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="6">
+            <li>Guide children to complete the corresponding activities in the Thematic
+                Activity Book.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class2/c4.png') }}" class="w-[30vw]" />
-    </div>
-
-
-    {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: Toot Toot Needs Help</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="2">
-            <li>Have the children talk about the special features under the bonnet. Guide the
-                children to understand that the engine is under the bonnet.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class2/c5.png') }}" class="h-[20vw]" />
     </div>
 
 
     {{-- panel 6 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: Toot Toot Needs Help</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Have the children talk about the special features under the bonnet. Guide the
-                children to understand that the engine is under the bonnet.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class2/c6.png') }}" class="h-[20vw]" />
-    </div>
-
-
-    {{-- panel 7 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: Toot Toot Needs Help</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Ask children to turn to Activity 2 in the Thematic Activity Book, and say what is
-                missing from Toot Toot's body. Identify the numbers 1-10 together with the children. Then,
-                have the children join the numbered dots in sequence to complete the picture.</li>
-            <li>When the task is completed, ask the children to colour the picture.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class2/c7.png') }}" class="w-[25vw]" />
-
-    </div>
-
-
-    {{-- panel 8 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: Toot Toot Needs Help</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="6">
-            <li>Ask the children whether vehicles are allowed to travel on a field or in a park.
-                Guide the children to understand that moving vehicles need to observe traffic
-                rules and should only drive on the road.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class2/c8.png') }}" class="h-[20vw]" />
-    </div>
-
-
-    {{-- panel 9 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: Toot Toot Needs Help</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="7">
-            <li>Ask the children to refer to Activity 2 in the Thematic Activity Book. Decide which road
-                will take Toot Toot home. Have them use coloured pencils to mark out the correct route.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class2/c9.png') }}" class="w-[25vw]" />
-    </div>
-
-
-
-    {{-- panel 19 --}}
     <div class="phonics-panel flex flex-col items-center h-full">
-        <h1 class="panel-title stroke">Classroom Activity 2: Toot Toot Needs Help</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Day and Night</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Invite the children to show the pictures that they have coloured and
-                    explain their choice of colour for Toot Toot.</li>
+                <li>Invite children to take turns to display their drawing and say
+                    whether they like daytime or night time , and explain why.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to follow the number sequence when joining the dots to complete the picture.</li>
-                <li>Able to locate the correct route to help Toot Toot get home.</li>
+                <li>Able to state some of the things that are normally seen and
+                    done during the day.</li>
+                <li>Able to state some of the things that are normally seen and
+                    done at night.</li>
+                <li>Able to draw the characteristics of day and night.</li>
             </ul>
         </div>
     </div>
@@ -210,14 +151,14 @@
 
     {{-- panel 37 --}}
     <div class="phonics-panel flex flex-col items-center h-full">
-        <h1 class="panel-title stroke">Classroom Activity 2: Toot Toot Needs Help</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Day and Night</h1>
 
         <div class="text-start flex flex-col">
             <h3 class="ptitle">Extension</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Ask the children to draw a few spare tyres for Toot Toot.
-                    Guide the children in drawing circles.</li>
+                <li>Invite children to decorate a wall in the classroom as day
+                    and another wall as night.</li>
             </ul>
         </div>
     </div>
@@ -275,8 +216,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/transport/index') }}";
-            const doneURL = "{{ url('/micet/n2/transport/index') }}";
+            const returnURL = "{{ url('/micet/n2/day/index') }}";
+            const doneURL = "{{ url('/micet/n2/day/index') }}";
 
             // Track current position
             let currentSlide = 0;

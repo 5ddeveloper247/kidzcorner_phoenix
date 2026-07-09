@@ -38,28 +38,27 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 10: Let’s play together</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: My Life in a Day</h1>
         <img src="{{ asset('assets/images/micet/n1/mybody/c10.1.png') }}" class="h-[8vw]" />
 
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul">
-            <li>To learn to share toys with friends.</li>
-            <li>To learn to identify the features of different types of vehicles.</li>
+            <li>Understand one's daily schedule to reinforce the concept of time</li>
+            <li>Develop observation and language skills</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[3vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: Let’s play together</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: My Life in a Day</h1>
         <div>
             <h3 class="ptitle">Preparations</h3>
 
-            <ol class="list-decimal panel-ul w-[45vw]">
+            <ol class="list-decimal panel-ul">
                 <li>Thematic Activity Book</li>
-                <li>Toy vehicles brought from home (from Activity 4).</li>
-                <li>Toy vehicles within the classroom.</li>
+                <li>One alarm clock</li>
             </ol>
         </div>
     </div>
@@ -67,130 +66,168 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 10: Let’s play together</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: My Life in a Day</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[50vw]">
-                <li>Have the children identify and name the place shown. Ask children what the
-                    place is used for. Explain that vehicles are parked in a parking lot.</li>
+                <li>Set the alarm clock at 6 am and make it sound. Ask children: What is this
+                    sound? When do you normally hear this sound? What time do you wake up
+                    very morning? What do you do after you wake up? Let children answer the
+                    questions and share what they do every morning.</li>
+                <li>Teacher shares her usual day's schedule. For example: "I wake up at 6
+                    o'clock in the morning. After brushing teeth and taking a shower, I change
+                    into clean clothes. After eating breakfast, I come to school. During school
+                    time, I learn, sing, dance and play with children, After that I go home ... ,etc."</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/micet/n2/transport/class10/c1.png') }}" class="w-[30vw]" />
-    </div>
-
-
-    {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 10: Let’s play together</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="2">
-            <li>Have the children identify and name the place shown. Ask children what the
-                place is used for. Explain that aeroplanes take off and land at an airport.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class10/c2.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: Let’s play together</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: My Life in a Day</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="3">
-            <li>Have the children identify and name the place shown. Ask children what the
-                place is used for. Explain that trains travel on tracks and stop at a train station
-                for people to get on or off the train.</li>
+            <li>Show the pictures in sequence. Invite a child to describe the scene.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class10/c3.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/n2/day/class10/c1.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 10: My Life in a Day</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="3">
+            <li>Show the pictures in sequence. Invite a child to describe the scene.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/day/class10/c2.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 10: My Life in a Day</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="3">
+            <li>Show the pictures in sequence. Invite a child to describe the scene.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/day/class10/c3.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 10: My Life in a Day</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="3">
+            <li>Show the pictures in sequence. Invite a child to describe the scene.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/day/class10/c4.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 10: My Life in a Day</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="3">
+            <li>Show the pictures in sequence. Invite a child to describe the scene.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/day/class10/c5.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 10: My Life in a Day</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="3">
+            <li>Show the pictures in sequence. Invite a child to describe the scene.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/day/class10/c6.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 10: My Life in a Day</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="3">
+            <li>Show the pictures in sequence. Invite a child to describe the scene.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/day/class10/c7.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 10: My Life in a Day</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="3">
+            <li>Show the pictures in sequence. Invite a child to describe the scene.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/day/class10/c8.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 10: Let’s play together</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: My Life in a Day</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="4">
-            <li>Have the children identify and name the place shown. Ask children what the
-                place is used for. Explain that ships and boats anchor off the piers at a
-                harbour.</li>
+            <li>Invite children to form small groups. Let children in each group take turns to
+                describe his/her daily schedule. Teacher can move around the groups to
+                facilitate the sharing. Encourage children to use simple and complete
+                sentences to describe their day's schedule.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class10/c4.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: Let’s play together</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: My Life in a Day</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="5">
-            <li>Divide the classroom into four sections. Use picture cards to mark the different
-                sections, for example, a car park, an airport, a train station and a harbour.</li>
-            <li>Ask the children to place their toy vehicles at the correct location.</li>
-            <li>Divide children into 4 groups. Ask the children to choose a toy that they like
-                and return to the group. Each child has to present his/her toy vehicle to the
-                group members, give details like the name of the vehicle, its features and its
-                use. Thereafter, the child should exchange the toy with other group members
-                and the game continues.</li>
-        </ol>
-    </div>
-
-
-    {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: Let’s play together</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="8">
-            <li>Encourage the children to share ways to take good care of their toys, for
-                example, do not throw, snatch, or smash their toys. Remind them to take
-                good care of their toys when playing with them.</li>
-            <li>Invite the children to take turns playing the different toys.</li>
-        </ol>
-    </div>
-
-
-    {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: Let’s play together</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="10">
-            <li>When the groups have finished the game, get the children to return the toys to
-                their respective locations, i.e., the car park, harbour, airport, etc.</li>
-            <li>If time permits, allow them to play another round of the game.</li>
-        </ol>
-    </div>
-
-
-    {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: Let’s play together</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="12">
             <li>Guide children to complete the corresponding activities in the Thematic
                 Activity Book.</li>
         </ol>
     </div>
 
 
-
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: Let’s play together</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: My Life in a Day</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Invite the children to take turns to talk about the toy which
-                    they feel is the most fun to play with.</li>
+                <li>Invite some children who are able to verbally express
+                    themselves well, to describe their day's schedule to the class.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to place a toy vehicle in its correct location.</li>
-                <li>Able to describe the features of vehicles in simple sentences.</li>
-                <li>Able to share toys with others.</li>
+                <li>Able to describe one's daily schedule.</li>
+            </ul>
+        </div>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
+        <h1 class="panel-title stroke">Classroom Activity 10: My Life in a Day</h1>
+
+        <div class="text-start flex flex-col h-full">
+            <h3 class="ptitle">Extension</h3>
+
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Ask children to share their day's schedule with their parents
+                    at home.</li>
             </ul>
         </div>
     </div>
@@ -250,8 +287,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/transport/index') }}";
-            const doneURL = "{{ url('/micet/n2/transport/index') }}";
+            const returnURL = "{{ url('/micet/n2/day/index') }}";
+            const doneURL = "{{ url('/micet/n2/day/index') }}";
 
             // Track current position
             let currentSlide = 0;

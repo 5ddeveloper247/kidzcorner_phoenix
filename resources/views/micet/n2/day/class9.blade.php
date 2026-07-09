@@ -38,205 +38,172 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 9: Traffic Light</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: Twinkle, Twinkle, Little Star</h1>
         <img src="{{ asset('assets/images/micet/n1/mybody/c9.1.png') }}" class="h-[8vw]" />
 
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul w-[45vw]">
-            <li>To understand the functions of traffic lights.</li>
-            <li>To understand the need to obey traffic rules.</li>
-            <li>To learn road safety rules and apply them.</li>
-            <li>To practise following instructions.</li>
+            <li>Learn to sing "Twinkle Twinkle Little Star" with actions</li>
+            <li>Cooperate with friends to complete the given task</li>
+            <li>Use imagination to make their own star</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[3vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Traffic Light</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: Twinkle, Twinkle, Little Star</h1>
 
         <div>
             <h3 class="ptitle">Preparations</h3>
 
             <ol class="list-disc panel-ul w-[45vw]">
                 <li>Thematic Activity Book</li>
-                <li>Two 'traffic lights' (use cardboard, one with a human figure
-                    in red, the other with a human figure in green).</li>
+                <li>Stars made from cardboard (one per child)</li>
+                <li>Colour pencils</li>
             </ol>
         </div>
     </div>
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Traffic Light</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: Twinkle, Twinkle, Little Star</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[45vw]">
-                <li>Ask the children to name the three colours of the traffic light.</li>
-                <li>Ask: "Which colour tells vehicles to stop?"; "Which colour tells vehicles to go?";
-                    "What does the yellow light tell the vehicles to do?".</li>
+                <li>Ask children: Besides the moon, what can you see in the sky at night? Guide
+                    children to talk about how stars look like. Ask children to use hands
+                    movements to show a twinkling star.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/micet/n2/transport/class9/c1.png') }}" class="w-[25vw]" />
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 9: Traffic Light</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: Twinkle, Twinkle, Little Star</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Ask the children to talk about the types of traffic lights. Guide them to
-                understand that there are two types of traffic light, one for vehicles and the
-                other for pedestrians. Pedestrian traffic lights have red and green human
-                figures but some use other symbols.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="2">
+            <li>Play the song "Twinkle, Twinkle, Little Star". Let children sing along and do
+                    <span class="flex items-end">actions.
+                    <button class="w-[2.5vw]" id="sound-btn">
+                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                    </button></span></li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class9/c2.png') }}" class="w-[25vw]" />
+
+        <h4 class="text-white text-[2.2vw]">
+            Twinkle, twinkle, little star, <br>
+            How I wonder what you are. <br>
+            Up above the world so high, <br>
+            Like a diamond in the sky. <br>
+            Twinkle, twinkle, little star, <br>
+            How I wonder what you are.
+        </h4>
     </div>
 
 
     {{-- panel 3 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Traffic Light</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 9: Twinkle, Twinkle, Little Star</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Discuss what one should do when the red or green lights appears respectively.
-                Discuss what could happen if we ignored the colours on the lights.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="3">
+            <li>Divide children into small groups. Let each group form a circle and then sing
+                <span class="flex items-end">the song with actions.
+                    <button class="w-[2.5vw]" id="sound-btn">
+                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                    </button></span>
+            </li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class9/c2.png') }}" class="w-[25vw]" />
-    </div>
-
-
-    {{-- panel 3 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Traffic Light</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="5">
-            <li><span>Lead the children in singing the "Traffic light" song.</span></li>
-        </ol>
-        <h4 class="text-white text-[2vw] text-start">
-            "Stop" says the red man, <br>
-            "Go" says the green man, <br>
-            "Stop" says the red man, <br>
-            "Go" says the green.
+        <h4 class="text-white text-[1.9vw] text-center leading-none">
+            Twinkle, twinkle, little star, <br>
+            <span class="text-[1.2vw] leading-none">(Open and close fingers)</span> <br>
+            How I wonder what you are. <br>
+            <span class="text-[1.2vw] leading-none">(One foot forward, move body back and forth)</span> <br>
+            Up above the world so high, <br>
+            <span class="text-[1.2vw] leading-none">(Raise and sway hands side to side)</span> <br>
+            Like a diamond in the sky. <br>
+            <span class="text-[1.2vw] leading-none">(Use pointers and thumbs to form a diamond)</span> <br>
+            Twinkle, twinkle, little star, <br>
+            <span class="text-[1.2vw] leading-none">(Open and close fingers)</span> <br>
+            How I wonder what you are. <br>
+            <span class="text-[1.2vw] leading-none">(One foot forward, move body back and forth)</span>
         </h4>
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Traffic Light</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: Twinkle, Twinkle, Little Star</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="4">
+            <li>After the children have performed the song a few times, distribute the stars to
+                the children. Let children personalise their own star by colouring it with their
+                favourite colours and drawing some designs or cartoon characters on it.</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 9: Twinkle, Twinkle, Little Star</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="5">
+            <li>Let children hold their stars and move to the rhythm of the song, as they sing
+                   <span class="flex items-end"> "Twinkle, Twinkle, Little Star".
+                    <button class="w-[2.5vw]" id="sound-btn">
+                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                    </button>
+                </span></li>
+        </ol>
+        <h4 class="text-white text-[2.2vw]">
+            Twinkle, twinkle, little star, <br>
+            How I wonder what you are. <br>
+            Up above the world so high, <br>
+            Like a diamond in the sky. <br>
+            Twinkle, twinkle, little star, <br>
+            How I wonder what you are.
+        </h4>
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 9: Twinkle, Twinkle, Little Star</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="6">
-            <li>Tell the children that they need to be careful when crossing roads. They should
-                first check to see that the pedestrian traffic light is green and there is no on-
-                coming vehicle before crossing. They should also hold an adult's hand when
-                crossing the road.</li>
-            <li>Remind the children that it is dangerous to play near the road. Remind them to
-                be alert when crossing the road.</li>
-        </ol>
-    </div>
-
-
-    {{-- panel 3 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 9: Traffic Light</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="8">
-            <li>Click on the video. Let the children observe how pedestrians and vehicles
-                obey traffic signals at the road junction.</li>
-            <li>Replay the video and ask children to share their observations.</li>
-        </ol>
-        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-            <source src="{{ asset('assets/images/micet/n2/transport/class9/v1.mp4') }}" type="video/mp4">
-        </video>
-    </div>
-
-
-    {{-- panel 3 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 9: Traffic Light</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="10">
-            <li>Take the children out to an open space, and draw "zebra crossings" on the
-                ground.</li>
-            <li>Select one child to be a "traffic light". The child will stand about 3 metres from
-                the rest of the children. Get children to form two small groups and have them
-                stand in line on one side of the "zebra crossing". Instruct the children to watch
-                the traffic light ahead.</li>
-            <li>When the "traffic light" says "red light" and shows the "red light", all children
-                are to remain where they are. When the "traffic light" says "green light" and
-                shows the "green light", a child from each group will walk in the direction
-                towards the traffic light.</li>
-        </ol>
-    </div>
-
-
-    {{-- panel 3 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 9: Traffic Light</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="13">
-            <li>If a child walks forward when the light is "red" or runs across the road when
-                the light is "green", he/she will have to return to the starting point and wait for
-                the right cue to cross the road in a correct manner.</li>
-            <li>Every child will wait for his turn to cross the road and the group which
-                completes the activity first is the winner.</li>
-            <li>The "traffic light" can flash "red light" or "green light" at varying durations. The
-                child who is the "traffic light" decides.</li>
-        </ol>
-    </div>
-
-
-    {{-- panel 3 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 9: Traffic Light</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="16">
             <li>Guide children to complete the corresponding activities in the Thematic
                 Activity Book.</li>
         </ol>
     </div>
 
 
+
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Traffic Light</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: Twinkle, Twinkle, Little Star</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Invite the children to share their thoughts about the above
-                    activity. Emphasize the importance of observing traffic rules.</li>
+                <li>Let children take turns to display their beautiful stars and
+                    then perform the song together.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to listen and carry out the activity according to instructions.</li>
-                <li>Able to obey traffic rules during the activity.</li>
+                <li>Able to sing "Twinkle Twinkle Little Star" with actions.</li>
+                <li>Able to cooperate with friends to complete the given task.</li>
+                <li>Able to make their own star.</li>
             </ul>
         </div>
     </div>
 
 
-    {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Traffic Light</h1>
-
-        <div class="text-start flex flex-col">
-            <h3 class="ptitle">Extension</h3>
-
-            <ul class="list-disc panel-ul w-[45vw]">
-                <li>Let the children carry on with the above activity by
-                    pretending to be pedestrians and various types of vehicles.</li>
-            </ul>
-        </div>
-    </div>
 
 
 
@@ -294,8 +261,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/transport/index') }}";
-            const doneURL = "{{ url('/micet/n2/transport/index') }}";
+            const returnURL = "{{ url('/micet/n2/day/index') }}";
+            const doneURL = "{{ url('/micet/n2/day/index') }}";
 
             // Track current position
             let currentSlide = 0;

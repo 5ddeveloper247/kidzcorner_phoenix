@@ -98,21 +98,21 @@
     {{-- Phonics l2 --}}
     <div id="slide-board" class="forth grid grid-cols-2 gap-[2vw] mb-[2vw] hidden text-center justify-content-center">
 
-        <a href="{{ url('/micet/n2/lrw1') }}">
+        <a href="{{ url('/micet/n2/habit1/index') }}">
             <img src="{{ asset('assets/images/micet/global/n2/mi17.png') }}" class="mx-auto d-block" />
         </a>
 
-        <a href="{{ url('/micet/n2/lrw2') }}">
+        <a href="{{ url('/micet/n2/habit1/index') }}">
             <img src="{{ asset('assets/images/micet/global/n2/mi18.png') }}" class="mx-auto d-block" />
         </a>
 
 
         <div class="col-span-3 flex justify-center items-center gap-[2vw]">
-            <a href="{{ url('/micet/n2/lrw4') }}">
+        <a href="{{ url('/micet/n2/music/index') }}">
                 <img src="{{ asset('assets/images/micet/global/n2/mi19.png') }}" class="mx-auto d-block" />
             </a>
 
-            <a href="{{ url('/micet/n2/lrw5') }}">
+        <a href="{{ url('/micet/n2/music/index') }}">
                 <img src="{{ asset('assets/images/micet/global/n2/mi20.png') }}" class="mx-auto d-block" />
             </a>
         </div>

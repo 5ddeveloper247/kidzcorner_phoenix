@@ -38,7 +38,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: What Shape is it?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: What Time is it?</h1>
         <div class="flex ">
             <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
             <img src="{{ asset('assets/images/micet/n1/mybody/class2/c1.png') }}" class="h-[12vw]" />
@@ -47,17 +47,15 @@
 
         <h3 class="ptitle">Objectives:</h3>
 
-        <ul class="list-disc panel-ul w-[45vw]">
-            <li>To develop observation skills.</li>
-            <li>To reinforce the concept of shapes: square, rectangle, circle and triangle.</li>
-            <li>To develop fine motor skills.</li>
+        <ul class="list-disc panel-ul">
+            <li>Learn to tell time by the hour from a clock face</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start space-y-[2vw] h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: What Shape is it?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: What Time is it?</h1>
 
         <div>
             <h3 class="ptitle mt-[5vw]">Preparations</h3>
@@ -71,100 +69,181 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
-        <h1 class="panel-title stroke">Classroom Activity 3: What Shape is it?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: What Time is it?</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
             <ol class="list-decimal panel-ul w-[45vw]">
-                <li>Ask the children: “”What shape is this?””.</li>
+                <li>Ask children: At what time do you wake up each morning? At what time do
+                    you come to school? How do you tell the time of the day? Guide children to
+                    know that we can tell the time by looking at a clock face on a clock, watch, etc.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/micet/n2/rhymes/class3/c1.png') }}" class="h-[20vw]" />
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
-        <h1 class="panel-title stroke">Classroom Activity 3: What Shape is it?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: What Time is it?</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="2">
-            <li>Lead the children in reading the lyrics with rhythm.</li>
+            <li>Ask children to observe and say what they see on the clock face (numbers,
+                long and short hands, etc).</li>
         </ol>
-        <h4 class="text-white text-start text-[2vw]">Mary had a little lamb, <br>
-            Little lamb, little lamb. <br>
-            Mary had a little lamb, <br>
-            Its fleece was white as snow.</h4>
+        <img src="{{ asset('assets/images/micet/n2/day/class3/c1.png') }}" class="h-[20vw]" />
     </div>
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col space-y-[2vw] items-center h-full">
-        <h1 class="panel-title stroke">Classroom Activity 3: What Shape is it?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: What Time is it?</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li><span class="flex items-end">Let the children learn to sing the song.
-                    <button id="sound-btn" class="w-[3vw]">
-                        <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
-                    </button> </span></li>
+            <li>Guide children to read in sequence, the numbers on the clock face.</li>
         </ol>
-        <h4 class="text-white text-start text-[2vw]">Mary had a little lamb, <br>
-            Little lamb, little lamb. <br>
-            Mary had a little lamb, <br>
-            Its fleece was white as snow.</h4>
+        <img src="{{ asset('assets/images/micet/n2/day/class3/c1.png') }}" class="h-[20vw]" />
+
     </div>
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
-        <h1 class="panel-title stroke">Classroom Activity 3: What Shape is it?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: What Time is it?</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li><span class="flex items-end">Guide children to sing the song and clap to the beat of the music.
-                    <button id="sound-btn" class="w-[3vw]">
-                        <img src="{{ asset('assets/images/pptimages/sound-btn.png') }}" />
-                    </button> </span></li>
+            <li>Ask children: What time is it? (one o'clock) If children answer correctly, ask
+                them how they know.</li>
         </ol>
-        <h4 class="text-white text-start text-[2vw]">Mary had a little lamb, <br>
-            Little lamb, little lamb. <br>
-            Mary had a little lamb, <br>
-            Its fleece was white as snow.</h4>
+        <img src="{{ asset('assets/images/micet/n2/day/class3/c1.png') }}" class="h-[20vw]" />
     </div>
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
-        <h1 class="panel-title stroke">Classroom Activity 3: What Shape is it?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: What Time is it?</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="5">
-            <li>Ask the children: If you too had a little lamb what colour would you like the
-                lamb's wool to be?</li>
-            <li>Guide children to substitute words in the lyrics with their own names and the
-                colour of their lamb's wool, to create a new song. For e.g.</li>
+            <li>Guide children to understand that when the long hand points at 12, then the
+                number at which the short hand is pointing at will indicate the time by the
+                hour. This means that it tells us what time it is now.</li>
         </ol>
-        <h4 class="text-white text-start text-[2vw]">
-            Sally had a little lamb, <br>
-            Little lamb, little lamb. <br>
-            Sally had a little lamb, <br>
-            Its fleece was black as coal.</h4>
+        <img src="{{ asset('assets/images/micet/n2/day/class3/c1.png') }}" class="h-[20vw]" />
     </div>
 
     {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
-        <h1 class="panel-title stroke">Classroom Activity 3: What Shape is it?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: What Time is it?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="6">
+            <li>Ask children: What time is it? (three o’clock)</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/day/class3/c2.png') }}" class="h-[20vw]" />
+    </div>
+
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: What Time is it?</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="7">
-            <li>Invite children to sing the new song together.</li>
-            <li>Ask children to sing the song and clap to the beat of the music.</li>
+            <li>Ask children: What time is it? (six o’clock)</li>
         </ol>
-        <h4 class="text-white text-start text-[2vw]">
-            Sally had a little lamb, <br>
-            Little lamb, little lamb. <br>
-            Sally had a little lamb, <br>
-            Its fleece was black as coal.</h4>
+        <img src="{{ asset('assets/images/micet/n2/day/class3/c3.png') }}" class="h-[20vw]" />
     </div>
+
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: What Time is it?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="8">
+            <li>Ask children: What time is it? (two o’clock)</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/day/class3/c4.png') }}" class="h-[20vw]" />
+    </div>
+
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: What Time is it?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="9">
+            <li>Ask children: What time is it? (ten o’clock)</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/day/class3/c5.png') }}" class="h-[20vw]" />
+    </div>
+
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: What Time is it?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="10">
+            <li>Ask children: What time is it? (eight o’clock)</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/day/class3/c6.png') }}" class="h-[20vw]" />
+    </div>
+
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: What Time is it?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="11">
+            <li>Ask children: What time is it? (four o’clock)</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/day/class3/c7.png') }}" class="h-[20vw]" />
+    </div>
+
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: What Time is it?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="12">
+            <li>Ask children: What time is it? (five o’clock)</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/day/class3/c8.png') }}" class="h-[20vw]" />
+    </div>
+
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: What Time is it?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="13">
+            <li>Ask children: What time is it? (seven o’clock)</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/day/class3/c9.png') }}" class="h-[20vw]" />
+    </div>
+
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: What Time is it?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="14">
+            <li>Ask children: What time is it? (eleven o’clock)</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/day/class3/c10.png') }}" class="h-[20vw]" />
+    </div>
+
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: What Time is it?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="15">
+            <li>Ask children: What time is it? (nine o’clock)</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/day/class3/c11.png') }}" class="h-[20vw]" />
+    </div>
+
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: What Time is it?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="16">
+            <li>Ask children: What time is it? (twelve o’clock)</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/day/class3/c12.png') }}" class="h-[20vw]" />
+    </div>
+
+
 
     {{-- panel 9 --}}
     <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
-        <h1 class="panel-title stroke">Classroom Activity 3: What Shape is it?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: What Time is it?</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="9">
+        <ol class="list-decimal panel-ul w-[45vw]" start="17">
             <li>Guide children to complete the corresponding activities in the Thematic
                 Activity Book.</li>
         </ol>
@@ -173,21 +252,20 @@
 
     {{-- panel 10 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 3: What Shape is it?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: What Time is it?</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Invite children to take turns to sing their new song.</li>
+                <li>Have children look at the clock in the classroom and tell
+                    the time by the hour.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to sing the song "Mary Had A Little Lamb".</li>
-                <li>Able to create a new song by substituting some words in
-                    the lyrics.</li>
+                <li>Able to tell time by the hour.</li>
             </ul>
         </div>
     </div>
@@ -195,14 +273,23 @@
 
     {{-- panel 19 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 3: What Shape is it?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: What Time is it?</h1>
 
         <div class="text-start flex flex-col">
             <h3 class="ptitle">Extension</h3>
 
-            <ul class="list-disc panel-ul w-[45vw]">
-                <li>Invite children to sing the song to their parents at home
-                    and to edit the lyrics with their parents; e.g. Mummy had a little lamb ...</li>
+            <ul class="list-decimal panel-ul w-[45vw]">
+                <li>Provide a deck/stack of clock face picture cards that show different times
+                    by the hour at the Activity Corner. Encourage children to play a game:
+                    "What time is it?".</li>
+                <li>How to play: The children take turns to pick a card and tell the time as
+                    shown in the card after being asked, "What time is it?". If the answer is
+                    correct, he/she gets to keep the card. If the answer is incorrect, hints
+                    are to be given such as "It's too late" or "It's too early", etc. If the
+                    child is still not able to tell the time, he/she needs to put the card back into
+                    the deck. The child with the most number of cards at the end of the game is
+                    the winner. Game ends when all cards have been taken or when activity time
+                    is up.</li>
             </ul>
         </div>
     </div>
@@ -259,8 +346,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/rhymes/index') }}";
-            const doneURL = "{{ url('/micet/n2/rhymes/index') }}";
+            const returnURL = "{{ url('/micet/n2/day/index') }}";
+            const doneURL = "{{ url('/micet/n2/day/index') }}";
 
             // Track current position
             let currentSlide = 0;
