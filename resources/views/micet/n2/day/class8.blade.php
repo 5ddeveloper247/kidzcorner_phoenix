@@ -38,21 +38,23 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: The wheels on the bus</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Sun and Moon</h1>
         <img src="{{ asset('assets/images/micet/n1/mybody/c8.1.png') }}" class="h-[8vw]" />
 
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul">
-            <li>To develop music appreciation.</li>
-            <li>To sing the song "The wheels on the bus".</li>
+            <li>Learn about the Sun and the moon</li>
+            <li>Understand that we cannot look at the Sun directly</li>
+            <li>Understand that the Sun is always round but the moon
+                changes its shapes</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: The wheels on the bus</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Sun and Moon</h1>
 
         <div>
             <h3 class="ptitle">Preparations</h3>
@@ -66,219 +68,261 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: The wheels on the bus</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Sun and Moon</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[45vw]">
-                <li>Have the children talk about the features of a bus, such as: a long body, many
-                    windows, a front door and a back door, many seats, etc.</li>
+                <li>Ask children : When do you see the Sun? What is the shape of the Sun?</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/micet/n2/transport/class8/c1.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: The wheels on the bus</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Sun and Moon</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]">
-            <li>Have the children talk about the features of a bus, such as: a long body, many
-                windows, a front door and a back door, many seats, etc. </li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="2">
+            <li>Click to play the video. Let children observe the sunrise. Guide children to
+                understand that the round Sun rises in the east every morning.</li>
         </ol>
 
-        <img src="{{ asset('assets/images/micet/n2/transport/class8/c2.png') }}" class="w-[30vw]" />
+        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/n2/day/class8/v1.mp4') }}" type="video/mp4">
+        </video>
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: The wheels on the bus</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Sun and Moon</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]">
-            <li>Have the children talk about the features of a bus, such as: a long body, many
-                windows, a front door and a back door, many seats, etc.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Click to play the video. Let children talk about the changes that take place
+                in the sky during sunrise. Guide children to understand that when the Sun
+                rises, the sky becomes brighter and brighter.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class8/c3.png') }}" class="w-[30vw]" />
+        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/n2/day/class8/v1.mp4') }}" type="video/mp4">
+        </video>
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: The wheels on the bus</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Sun and Moon</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]">
-            <li>Have the children talk about the features of a bus, such as: a long body, many
-                windows, a front door and a back door, many seats, etc.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="4">
+            <li>Inform children that because the sunlight is so bright we are able to see our
+                surroundings clearly during the day.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class8/c4.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/n2/day/class8/c6.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: The wheels on the bus</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Sun and Moon</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]">
-            <li>Have the children talk about the features of a bus, such as: a long body, many
-                windows, a front door and a back door, many seats, etc.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="5">
+            <li>Ask children: Is the Sun important? Why? Guide children to understand that
+                sunlight helps us to see things clearly, so we can work, play and move
+                around easily. Besides that, plants also need sunlight to make their food and
+                grow. Without sunlight, all plants will die.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class8/c5.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: The wheels on the bus</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Sun and Moon</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="2">
-            <li>Let children listen to the song "The wheels on the bus". Have the children sing
-                along with their teacher.</li>
-            <li>Encourage the children to add actions as they sing the song.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="6">
+            <li>Inform children that:
+                <ul class="list-disc">
+                    <li>the Sun is bright and hot, like a fireball. It is the brightest object in the sky.</li>
+                    <li>we should never look at the Sun directly as it is so bright that the sun rays can
+                        damage our eyes and may even make us blind.</li>
+                </ul>
+            </li>
         </ol>
-        <h4 class="text-white text-[2vw] text-start">
-            The wheels on the bus go <br>
-            Round and round, <br>
-            Round and round, <br>
-            Round and round. <br>
-            The wheels on the bus go <br>
-            Round and round, <br>
-            All around the town.
-        </h4>
+        <img src="{{ asset('assets/images/micet/n2/day/class8/c1.png') }}" class="w-[25vw]" />
     </div>
 
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: The wheels on the bus</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Ask the children to talk about what people do while travelling on a bus.</li>
-            <li><span class="flex items-end">Let children listen to the song again and sing along.
-                    <button class="w-[2.5vw]" id="soundButton">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button>
-                </span></li>
-            <li>Encourage the children to add actions as they sing the song.</li>
-        </ol>
-        <div class="flex gap-[2vw] items-start">
-
-            <h4 class="text-white text-[2vw] text-start">
-                The babies on the bus <br>
-                Bounce up and down, <br>
-                Up and down, <br>
-                Up and down. <br>
-                The babies on the bus <br>
-                Bounce up and down, <br>
-                All around the town.
-            </h4>
-        </div>
-    </div>
-
-
-    {{-- panel 6 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: The wheels on the bus</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Ask the children to talk about what people do while travelling on a bus.</li>
-            <li><span class="flex items-end">Let children listen to the song again and sing along.
-                    <button class="w-[2.5vw]" id="soundButton">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button>
-                </span></li>
-            <li>Encourage the children to add actions as they sing the song.</li>
-        </ol>
-        <div class="flex gap-[2vw] items-start">
-
-            <h4 class="text-white text-[2vw] text-start">
-                The children on the bus go <br>
-                Hee, hee, hee, <br>
-                Hee, hee, hee, <br>
-                Hee, hee, hee. <br>
-                The children on the bus go <br>
-                Hee, hee, hee, <br>
-                All around the town.
-            </h4>
-        </div>
-    </div>
-
-
-    {{-- panel 6 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: The wheels on the bus</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Ask the children to talk about what people do while travelling on a bus.</li>
-            <li><span class="flex items-end">Let children listen to the song again and sing along.
-                    <button class="w-[2.5vw]" id="soundButton">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button>
-                </span></li>
-            <li>Encourage the children to add actions as they sing the song.</li>
-        </ol>
-        <div class="flex gap-[2vw] items-start">
-
-            <h4 class="text-white text-[2vw] text-start">
-                The mummies on the bus go <br>
-                Chitter, chatter, chatter, <br>
-                Chitter, chatter, chatter, <br>
-                Chitter, chatter, chatter. <br>
-                The mummies on the bus go <br>
-                Chitter, chatter, chatter, <br>
-                All around the town.
-            </h4>
-        </div>
-    </div>
-
-
-    {{-- panel 6 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: The wheels on the bus</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Ask the children to talk about what people do while travelling on a bus.</li>
-            <li><span class="flex items-end">Let children listen to the song again and sing along.
-                    <button class="w-[2.5vw]" id="soundButton">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button>
-                </span></li>
-            <li>Encourage the children to add actions as they sing the song.</li>
-        </ol>
-        <div class="flex gap-[2vw] items-start">
-
-            <h4 class="text-white text-[2vw] text-start">
-                The daddies on the bus go <br>
-                Nod, nod, nod, <br>
-                Nod, nod, nod, <br>
-                Nod, nod, nod. <br>
-                The daddies on the bus go <br>
-                Nod, nod, nod, <br>
-                All around the town.
-            </h4>
-        </div>
-    </div>
-
-
-    {{-- panel 6 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: The wheels on the bus</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Sun and Moon</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="7">
-            <li>Encourage the children to imagine travelling on a public bus with the family.
-                Act out different scenarios by changing the lyrics of the song.</li>
-            <li>Encourage the children to add actions wherever possible.</li>
+            <li>Click to play the video. Let children observe the sunset. Encourage children
+                to talk about the changes that takes place in the sky during sunset. Guide
+                children to understand that when the Sun sets in the west, the sky becomes
+                darker and darker.</li>
+        </ol>
+        <video class="h-[17vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/n2/day/class8/v2.mp4') }}" type="video/mp4">
+        </video>
+    </div>
+
+
+    {{-- panel 6 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 8: Sun and Moon</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="8">
+            <li>Inform children that when the sky becomes dark, we are not able to see our
+                surroundings unless we switch on the lights.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/day/class8/c2.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 6 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 8: Sun and Moon</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="9">
+            <li>Ask children: When do you see the moon? What is the shape of the moon?
+                Invite children to draw on the white board.</li>
         </ol>
     </div>
 
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: The wheels on the bus</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Sun and Moon</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="9">
+        <ol class="list-decimal panel-ul w-[45vw]" start="10">
+            <li>Click to play the video. Let children observe the moon rising. Encourage the
+                children to talk about the changes that takes place in the sky when the
+                moon rises. Guide children to understand that the moon rises in the east just
+                like a lamp in the dark sky.</li>
+        </ol>
+        <video class="h-[18vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/n2/day/class8/v3.mp4') }}" type="video/mp4">
+        </video>
+    </div>
+
+
+    {{-- panel 6 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 8: Sun and Moon</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="11">
+            <li>Guide children to understand that the moon is seen in different shapes.
+                Inform children that all the moons that they have drawn on the whiteboard
+                are correct (unless otherwise).</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 6 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 8: Sun and Moon</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="12">
+            <li>Explain to the children that the moon is sometimes curved and called a
+                crescent moon. When the moon is round, it is called full moon. These different
+                shapes are called the phases of the moon.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/day/class8/c3.png') }}" class="h-[20vw]" />
+    </div>
+
+
+    {{-- panel 6 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 8: Sun and Moon</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="13">
+            <li>Explain to children: The moon changes its shape slowly from night to night.
+                After it changes from crescent moon to full moon, it changes again from full
+                moon to crescent moon. These phases of moon are seen every month.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/day/class8/c3.png') }}" class="h-[20vw]" />
+    </div>
+
+
+    {{-- panel 6 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 8: Sun and Moon</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="14">
+            <li>Click to play the video. Let the children observe how the moon changes its
+                phases.</li>
+        </ol>
+        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/n2/day/class8/v4.mp4') }}" type="video/mp4">
+        </video>
+    </div>
+
+
+    {{-- panel 6 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 8: Sun and Moon</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="15">
+            <li>Ask children: Why does the moon change its shape? Why is it not seen as
+                round all the time?</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 6 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 8: Sun and Moon</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="16">
+            <li>Explain to children: The moon has no light of its own. It reflects the light of the
+                Sun. Sunlight reflected off the moon helps us to see the moon.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/day/class8/c4.png') }}" class="w-[20vw]" />
+    </div>
+
+
+    {{-- panel 6 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 8: Sun and Moon</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="17">
+            <li>Explain to children: Our Earth and the moon move around the Sun. The shape
+                of the moon seems to change because we can only see that part of the
+                moon that the Sun is shining on.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/day/class8/c3.png') }}" class="h-[20vw]" />
+    </div>
+
+
+    {{-- panel 6 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 8: Sun and Moon</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="18">
+            <li>Ask children: Besides the moon, What do we see in the night sky?</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/day/class8/c5.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 6 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 8: Sun and Moon</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="19">
+            <li>Explain to children: The stars are always there in the sky, regardless of
+                whether it is day or night. We cannot see the stars during the day because
+                they are so much fainter than the bright sunlight.</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 6 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 8: Sun and Moon</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="20">
             <li>Guide children to complete the corresponding activities in the Thematic
                 Activity Book.</li>
         </ol>
@@ -287,20 +331,20 @@
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: The wheels on the bus</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Sun and Moon</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Invite a few of the children to perform the song.</li>
+                <li>Let children talk about the differences in the Sun and the moon.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to sing "The wheels on the bus".</li>
-                <li>Able to perform simple actions according to the lyrics of a song.</li>
+                <li>Able to state differences between the Sun and the moon.</li>
+                <li>Know that we cannot look at the Sun directly.</li>
             </ul>
         </div>
     </div>
@@ -308,14 +352,16 @@
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: The wheels on the bus</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Sun and Moon</h1>
 
         <div class="text-start flex flex-col">
             <h3 class="ptitle">Extension</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Incorporate other vehicles in the lyrics by replacing the
-                    words accordingly.</li>
+                <li>Seek parents' help to assist their children to observe the
+                    shape of the moon everyday for a month, and record their
+                    observations so that children are able to see for themselves
+                    the phases of the moon.</li>
             </ul>
         </div>
     </div>
@@ -372,8 +418,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/transport/index') }}";
-            const doneURL = "{{ url('/micet/n2/transport/index') }}";
+            const returnURL = "{{ url('/micet/n2/day/index') }}";
+            const doneURL = "{{ url('/micet/n2/day/index') }}";
 
             // Track current position
             let currentSlide = 0;

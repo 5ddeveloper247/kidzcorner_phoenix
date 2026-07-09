@@ -97,25 +97,23 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Toot Toot’s Playland</h1>
+        <h1 class="panel-title stroke">Daytime, Night Time</h1>
 
-        <h3 class="p-title">Theme: Transportation</h3>
-        <img src="{{ asset('assets/images/micet/n2/transport/class1/c1.png') }}" class="w-[30vw]" />
+        <h3 class="p-title">Theme: Day and Night</h3>
+        <img src="{{ asset('assets/images/micet/n2/day/class1/c1.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">One moming, Little Bear and his family decide to visit their grandma. <br>
-            They place their luggage in their little car, Toot Toot, and set off.</h3>
-        <img src="{{ asset('assets/images/micet/n2/transport/class1/c2.png') }}" class="w-[25vw]" />
+        <h3 class="p-title">It is 7 o'clock in the evening. The sun is setting after a hard day's work. <br>
+            However, Little Bear refuses to go home; he wants to find his friends and play.</h3>
+        <img src="{{ asset('assets/images/micet/n2/day/class1/c2.png') }}" class="w-[25vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                What is it like travelling in a car, bus, etc? What is special about the car <br>
-                in the picture?<br>
-                <span class="text-[#f7b94a]">Encourage the children to talk about their experiences of travelling on the
-                    road.</span>
+                What does the sky look like when the sun is setting?<br>
+                <span class="text-[#f7b94a]">Guide children to know how the sky looks like at evening time.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -124,14 +122,16 @@
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Toot Toot goes too fast. Suddenly, a pair of trousers flies out of the car. It <br>
-            lands on Fast Fox, who is riding a motorcycle just behind Toot Toot.</h3>
-        <img src="{{ asset('assets/images/micet/n2/transport/class1/c3.png') }}" class="w-[25vw]" />
+        <h3 class="p-title">Little Bear sees Susie Swan and invites her to play ball. Susie Swan turns <br>
+            down his invitation and says that she needs to get home before it gets <br>
+            dark. She advises Little Bearto go home too.</h3>
+        <img src="{{ asset('assets/images/micet/n2/day/class1/c3.png') }}" class="w-[25vw]" />
 
         <div class="flex items-center justify-around w-full">
             <h3 class="p-title text-left">
-                How many wheels does a motorcycle have?<br>
-                <span class="text-[#f7b94a]">What do you wear on your head when riding a motorcycle?</span>
+                If you are Little Bear, will you go home or continue playing?<br>
+                <span class="text-[#f7b94a]">Guide children to understand that they should go home when the sky begins
+                    to tum dark.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -140,16 +140,15 @@
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Toot Toot does not know that things are falling out from the boot of the <br>
-            car. He continues speeding along the road ... "Toot! Toot!". As Toot Toot drives on, <br>
-            grandma's present and a hat fly out of the car and land on Mr Monkey's police car.</h3>
-        <img src="{{ asset('assets/images/micet/n2/transport/class1/c4.png') }}" class="w-[25vw]" />
+        <h3 class="p-title">Little Bear asks Duffy Dog to play with him. Duffy Dog feels that it is <br>
+            getting late and does not want to play outside. He gives Little Bear an <br>
+            apple and asks Little Bear to hurry home.</h3>
+        <img src="{{ asset('assets/images/micet/n2/day/class1/c4.png') }}" class="w-[25vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                Who is driving the police car? What is special about a police car? <br>
-                What sound does a police car make?<br>
-                <span class="text-[#f7b94a]">Encourage the children to observe and express about what has happened.</span>
+                Will you give your food and toys to your friends?<br>
+                <span class="text-[#f7b94a]">Reinforce the concept of sharing.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -158,16 +157,15 @@
 
     {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Toot Toot is not aware of what has happened. He continues to go very fast. Just <br>
-            then, a bolster flies out from the car and hits Harry Hippo, who is travelling behind on a bicycle.</h3>
-        <img src="{{ asset('assets/images/micet/n2/transport/class1/c5.png') }}" class="w-[25vw]" />
+        <h3 class="p-title">Little Bear refuses to listen to anyone and continues playing outside. <br>
+            Suddenly, he finds a black monster following him. He feels scared and <br>
+            runs to Candy Cat's house.</h3>
+        <img src="{{ asset('assets/images/micet/n2/day/class1/c5.png') }}" class="w-[25vw]" />
 
         <div class="flex items-center justify-around w-full">
             <h3 class="p-title text-left">
-                Have you ridden on a bicycle? What is the difference between a car
-                and a bicycle?<br>
-                <span class="text-[#f7b94a]">Ask the children to take note of the similarities and differences between <br>
-                    a car and a bicycle.</span>
+                Do you know what the black monster is?<br>
+                <span class="text-[#f7b94a]">Encourage children to use their imagination and infer.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -176,15 +174,16 @@
 
     {{-- panel 9 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Fast Fox, Mr Monkey, and Hary Hippo chase Little Bear and his family to <br>
-            retum the things that they dropped. However, Toot Toot speeds ahead <br>
-            unaware of the chase.</h3>
-        <img src="{{ asset('assets/images/micet/n2/transport/class1/c6.png') }}" class="w-[30vw]" />
+        <h3 class="p-title">Candy's mother looks behind Little Bear and laughs. It is not a black <br>
+            monster, it is only Little Bear's shadow! Now, Little Bear is not afraid <br>
+            anymore.</h3>
+        <img src="{{ asset('assets/images/micet/n2/day/class1/c6.png') }}" class="w-[30vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                Why are Fast Fox, MrMonkey and Hany Hippo chasing Toot To of? <br>
-                <span class="text-[#f7b94a]">Encourage the children to express thei rviews and anticipate events.</span>
+                When will you see a shadow?<br>
+                <span class="text-[#f7b94a]">Guide children to know about shadow, and the relationship between light and
+                    shadow.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -193,15 +192,15 @@
 
     {{-- panel 10 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Toot Toot drives too fast. Suddenly, the car comes to a halt. One of the <br>
-            tyres is punctured. Finally, Fast Fox, Mr Monkey and Harry Hippo catch <br>
-            up with Toot Toot. They retum all the things to Little Bear's family.</h3>
-        <img src="{{ asset('assets/images/micet/n2/transport/class1/c7.png') }}" class="w-[25vw]" />
+        <h3 class="p-title">Candy's mother tells that children should go to bed early to rest, and <br>
+            then rise early the next moming. After listening to Candy's mother, Little <br>
+            Beartakes her advice and goes home.</h3>
+        <img src="{{ asset('assets/images/micet/n2/day/class1/c7.png') }}" class="w-[25vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                What would you do if you found things that someone dropped?<br>
-                <span class="text-[#f7b94a]">Teach the children about honesty and helpfulness.</span>
+                What should we do when everyone is sleeping?<br>
+                <span class="text-[#f7b94a]">Tell children that they should keep quiet when everyone else is resting.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -210,15 +209,15 @@
 
     {{-- panel 11 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Little Bear and his family thank everyone. They hire a taxi to take them <br>
-            to grandma's house. They remember the policeman's advice to fasten <br>
-            their seat belts and secure their bags .</h3>
-        <img src="{{ asset('assets/images/micet/n2/transport/class1/c8.png') }}" class="w-[30vw]" />
+        <h3 class="p-title">The sun rises again the next moming! The rooster crows and the children <br>
+            run to Little Bear's house to wake him up. They are going for their <br>
+            moming exercise!</h3>
+        <img src="{{ asset('assets/images/micet/n2/day/class1/c8.png') }}" class="w-[30vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                What do you say when some one retums your lost belongings?<br>
-                <span class="text-[#f7b94a]">Teach the children to show appreciation.</span>
+                What time do you wake up every moming? What do you do when you wake up?<br>
+                <span class="text-[#f7b94a]">Guide children to establish basic concept of time.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -227,15 +226,15 @@
 
     {{-- panel 12 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Poor Toot Toot is left on the road waiting for the tow truck to tow him to <br>
-            the repair shop. Toot Toot promises himself that he will never speed again.</h3>
-        <img src="{{ asset('assets/images/micet/n2/transport/class1/c9.png') }}" class="w-[30vw]" />
+        <h3 class="p-title">Little Bear and his friends have their physical exercise at the park. The <br>
+            momning air feels good! He decides from then on, that he will sleep early <br>
+            and wake up early to exercise and keep fit.</h3>
+        <img src="{{ asset('assets/images/micet/n2/day/class1/c9.png') }}" class="w-[30vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                Do you know the function of a tow truck? Why does the tow truck tow Toot To of away?<br>
-                <span class="text-[#f7b94a]">Talk to the children about the functions of a tow truck to increase their
-                    general <br> knowledge.</span>
+                What are some of the exercises which you do in the moming? Let's try some of them.<br>
+                <span class="text-[#f7b94a]">Encourage children to rise earty in the moming to exercise.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -261,17 +260,15 @@
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Encourage the children to talk about the different types of transports.</li>
-                <li>Ask the children to recall the road safety rules they should
-                    observe when travelling.</li>
+                <li>Invite children to talk about their daily routine in the
+                    morning and at night.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to name some of the vehicles mentioned in the courseware.</li>
-                <li>Able to talk about road safety rules which should be
-                    observed when travelling.</li>
+                <li>Able to say the differences between day and night.</li>
+                <li>Able to know the relationship between light and shadow.</li>
             </ul>
         </div>
     </div>
@@ -332,8 +329,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/transport/index') }}";
-            const doneURL = "{{ url('/micet/n2/transport/index') }}";
+            const returnURL = "{{ url('/micet/n2/day/index') }}";
+            const doneURL = "{{ url('/micet/n2/day/index') }}";
 
             // Track current position
             let currentSlide = 0;

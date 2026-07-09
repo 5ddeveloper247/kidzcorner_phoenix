@@ -38,98 +38,235 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 7: On Land, sea and air</h1>
-        <img src="{{ asset('assets/images/micet/n1/mybody/class7/c1.png') }}" class="h-[12vw]" />
+        <h1 class="panel-title stroke">Classroom Activity 7: Uses of Shadow</h1>
+        <img src="{{ asset('assets/images/micet/n1/mybody/class7/c1.png') }}" class="h-[8vw]" />
 
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul">
-            <li>To have a better understanding of the different modes of
-                transportation.</li>
-            <li>To be able to differentiate and classify land, sea and air
-                transports.</li>
-            <li>To practise expressive language skills.</li>
+            <li>Understand the uses of shadow</li>
+            <li>Develop fine motor skills</li>
+            <li>Use imagination to create a hand shadow play</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: On Land, sea and air</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: Uses of Shadow</h1>
 
         <div>
             <h3 class="ptitle">Preparations</h3>
 
             <ul class="list-disc panel-ul">
                 <li>Thematic Activity Book</li>
+                <li>A table lamp</li>
+                <li>A transparent and an opaque object</li>
             </ul>
+
+            <div class="text-start mt-[2vw]">
+                <h3 class="panel-ul">For Optional Activity:</h3>
+                <ul class="list-disc panel-ul pl-[1vw]">
+                    <li>Theatre for shadow play; puppets</li>
+                </ul>
+            </div>
         </div>
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 7: On Land, sea and air</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: Uses of Shadow</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[50vw]">
-                <li>Click on the video and ask: "What kind of vehicle is this? In what way does it
-                    move? Does it move on land, on the sea or in the air?".</li>
+                <li>Draw the curtain in the classroom, switch off all lights and then switch on the
+                    table lamp (like the setting in classroom activity6). Display the two objects:
+                    one transparent, and the other opaque. First, use the table lamp to shine on
+                    the opaque object and let the children say what they see. Then use the table
+                    lamp to shine on the transparent object and let the children say what they
+                    see.</li>
+                <li>Ask children: Why is a shadow formed? Reinforce the relationship between
+                    light and shadow: a shadow is formed when an object blocks the path of the
+                    light. And the shadow is always in the opposite direction of the light source.</li>
             </ol>
         </div>
-        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-            <source src="{{ asset('assets/images/micet/n2/transport/class7/v1.mp4') }}" type="video/mp4">
-        </video>
     </div>
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 7: On Land, sea and air</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: Uses of Shadow</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]">
-            <li>Click on the video and ask: "What kind of vehicle is this? In what way does it
-                move? Does it move on land, on the sea or in the air?".</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="3">
+            <li>Ask children: What are these people doing?( Holding an umbrella.) Why do
+                they do so?</li>
         </ol>
 
-        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-            <source src="{{ asset('assets/images/micet/n2/transport/class7/v2.mp4') }}" type="video/mp4">
-        </video>
+        <img src="{{ asset('assets/images/micet/n2/day/class7/c1.png') }}" class="w-[30vw]" />
     </div>
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 7: On Land, sea and air</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: Uses of Shadow</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]">
-            <li>Click on the video and ask: "What kind of vehicle is this? In what way does it
-                move? Does it move on land, on the sea or in the air?".</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="4">
+            <li>Guide children to understand the use of shadow ( the shade provided by the
+                umbrellas can protect us from sunburn).</li>
         </ol>
-
-        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-            <source src="{{ asset('assets/images/micet/n2/transport/class7/v2.mp4') }}" type="video/mp4">
-        </video>
+        <img src="{{ asset('assets/images/micet/n2/day/class7/c2.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 7: On Land, sea and air</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: Uses of Shadow</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="2">
-            <li>Click on the picture below to open the Software Magnetic Board. Guide the
-                children in classifying the different transport vehicles into land, sea and air.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="5">
+            <li>Guide children to understand the use of shadow ( the shade provided by the
+                canopy tents can protect us from sunburn).</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class7/c1.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/n2/day/class7/c3.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7: Uses of Shadow</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="6">
+            <li>Guide children to understand the use of shadow ( the shade provided by the
+                canopy tents can protect us from sunburn).</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/day/class7/c4.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7: Uses of Shadow</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="7">
+            <li>Guide children to understand the use of shadow ( the shade provided by the
+                canopy tents can protect us from sunburn).</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/day/class7/c5.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7: Uses of Shadow</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="8">
+            <li>Ask children: What is this person doing?( hand show). Why does he do so?</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/day/class7/c6.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7: Uses of Shadow</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="9">
+            <li>Guide children to understand another use of shadow( for entertainment).</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/day/class7/c7.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7: Uses of Shadow</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="10">
+            <li>Demonstrate how to use hands to create different hand shadows. Encourage
+                children to follow.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/day/class7/c8.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7: Uses of Shadow</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="11">
+            <li>Demonstrate how to use hands to create different hand shadows. Encourage
+                children to follow.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/day/class7/c9.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7: Uses of Shadow</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="12">
+            <li>Demonstrate how to use hands to create different hand shadows. Encourage
+                children to follow.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/day/class7/c10.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7: Uses of Shadow</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="13">
+            <li>Demonstrate how to use hands to create different hand shadows. Encourage
+                children to follow.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/day/class7/c11.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7: Uses of Shadow</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="14">
+            <li>Click to play the video. Guide children to understand that we can create a
+                hand shadow play by changing the position of our hands.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/n2/day/class7/c12.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 7: On Land, sea and air</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: Uses of Shadow</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="4">
+        <ol class="list-decimal panel-ul w-[50vw]" start="15">
+            <li>Help children practise hand movements to create different hand shadows.
+                Encourage children to use their imagination and the hand movements learnt,
+                to create and perform a shadow play.</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7: Uses of Shadow</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="16">
+            <li>(Optional) Display the shadow play theatre. Use puppets to perform a shadow
+                puppet show. Guide children to understand that we can have use hands or
+                puppets to perform shadow play. Help children to create and perform a
+                shadow puppet show.</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7: Uses of Shadow</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="17">
             <li>Guide children to complete the corresponding activities in the Thematic
                 Activity Book.</li>
         </ol>
@@ -139,24 +276,22 @@
 
     {{-- panel 12 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: On Land, sea and air</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: Uses of Shadow</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Ask the children to think of a place they wish to visit and select the mode
-                    of transportation to take them there. Give reasons for their choice
-                    of transportation.</li>
+                <li>Invite children to use their imagination to create some
+                    hand shadows for their friends to guess.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to identify and name the different kinds of transportation.</li>
-                <li>Able to classify the different kinds of transport into land, sea and air.</li>
-                <li>Able to select the appropriate mode of transportation when
-                    travelling to a particular destination.</li>
+                <li>Know some uses of shadows.</li>
+                <li>Able to use hands to form different shadows.</li>
+                <li>Able to use imagination to create and perform a hand shadow play.</li>
             </ul>
         </div>
     </div>
@@ -164,14 +299,15 @@
 
     {{-- panel 12 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: On Land, sea and air</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: Uses of Shadow</h1>
 
         <div class="text-start flex flex-col">
             <h3 class="ptitle">Extension</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Provide the song in the activity corner for the children to
-                    sing and perform the song on their own.</li>
+                <li>Encourage children to learn and do a hand shadow play
+                    with their parents at home and subsequently perform for
+                    their friends in class.</li>
             </ul>
         </div>
     </div>
@@ -231,8 +367,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/transport/index') }}";
-            const doneURL = "{{ url('/micet/n2/transport/index') }}";
+            const returnURL = "{{ url('/micet/n2/day/index') }}";
+            const doneURL = "{{ url('/micet/n2/day/index') }}";
 
             // Track current position
             let currentSlide = 0;

@@ -38,15 +38,15 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Computer Activities: Toot Toot’s playland</h1>
+        <h1 class="panel-title stroke">Computer Activities: Day Time, Night Time</h1>
         <img src="{{ asset('assets/images/micet/n1/mybody/c10.1.png') }}" class="h-[8vw]" />
-        <img src="{{ asset('assets/images/micet/n2/transport/activity/c1.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/n2/day/activity/c1.png') }}" class="w-[25vw]" />
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Computer Activities: Toot Toot’s playland</h1>
+        <h1 class="panel-title stroke">Computer Activities: Day Time, Night Time</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Tuning-in</h3>
@@ -54,21 +54,20 @@
             <ol class="list-decimal panel-ul w-[45vw]">
                 <li>
                     To begin the lesson, ask the following questions to arouse the children's
-                    curiosity and interest.
                     <ol class="list-[lower-alpha] pl-[2vw]">
-                        <li>Have you sat in a car before?</li>
-                        <li>What safety issues would you need to take note of when travelling in a car?</li>
-                        <li>Can you name some transport vehicles?</li>
+                        <li>What do you do during the day?</li>
+                        <li>What do you do at night?</li>
+                        <li>What can we see in the day, and what can we see in the night?</li>
                     </ol>
                 </li>
 
                 <li>
-                    Elicit answers from the children and then continue with the following questions
-                    to focus their attention on the key points of the courseware.
+                    Elicit answers from the children, then continue with the following questions to
+                    focus the children's attention on the key points of the courseware.
                     <ol class="list-[lower-alpha] pl-[2vw]">
-                        <li>What kind of vehicle is Toot Toot?</li>
-                        <li>What happens to Toot Toot when he is on the road?</li>
-                        <li>What happens to Toot Toot in the end?</li>
+                        <li>What do you do during the day?</li>
+                        <li>What do you do at night?</li>
+                        <li>What can we see in the day, and what can we see in the night?</li>
                     </ol>
                 </li>
             </ol>
@@ -78,22 +77,18 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Computer Activities: Toot Toot’s playland</h1>
+        <h1 class="panel-title stroke">Computer Activities: Day Time, Night Time</h1>
 
         <div class="text-start space-y-[1vw]">
-            <h3 class="ptitle">Activity 1: Story - Toot Toot’s playland</h3>
+            <h3 class="ptitle">Activity 1: Story - Day Time, Night Time</h3>
 
             <div class="flex justify-center items-start gap-[3vw]">
-                <img src="{{ asset('assets/images/micet/n2/transport/activity/c2.png') }}" class="w-[25vw]" />
+                <img src="{{ asset('assets/images/micet/n2/day/activity/c2.png') }}" class="w-[25vw]" />
                 <div>
                     <h3 class="ptitle">Objectives</h3>
                     <ul class="list-disc panel-ul w-[25vw]">
-                        <li>To learn to be aware of road safety
-                            rules when travelling.</li>
-                        <li>To be able to identify some common
-                            modes of transport.</li>
-                        <li>To practise language and
-                            communication skills.</li>
+                        <li>To establish the correct concept of time</li>
+                        <li>To cultivate good work and rest habits</li>
                     </ul>
                 </div>
             </div>
@@ -104,162 +99,44 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Computer Activities: Toot Toot’s playland</h1>
+        <h1 class="panel-title stroke">Computer Activities: Day Time, Night Time</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Story</h3>
 
-            <p class="panel-ul">Toot Toot is a small, yellow car. On this day, Toot Toot takes Little Bear and
-                his family to visit grandma. Along the way, things begin to fly out of the car
-                because the bags have not been properly closed when placed in the car.
-                Moreover, Toot Toot is driving very fast. Papa Bear loses a pair of trousers,
-                Little Bear loses his bolster and they almost lose grandma's present too.
-                Luckily, Fast Fox, who is riding a motorcycle, Mr Monkey, who is driving a
-                police car, and Harry Hippo, who is riding a bicycle, help them to retrieve
-                their lost items. However, Toot Toot continues to drive very fast and he
-                punctures a tyre. Little Bear and his family have to rent a car to get to
-                grandma's house. This incident has taught Little Bear and his family the need
-                to drive carefully and the importance of obeying traffic rules.</p>
+            <p class="panel-ul">It's seven o'clock at night. Little Bear still wants to play outside and does not
+                want to go home. Just then, he notices a black figure following him. He is
+                very scared and runs to Candy Cat's house. Candy's mother tells him that
+                the black figure is his shadow! <br>
+                It's six o'clock in the morning. All the little animals are ready for their
+                morning exercise, but Little Bear is still sleeping and does not want to get up.
+                All his friends hurry him to join them for the morning exercise. Everyone goes
+                to the big field to do physical exercises and play games.</p>
         </div>
     </div>
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Computer Activities: Toot Toot’s playland</h1>
+        <h1 class="panel-title stroke">Computer Activities: Day Time, Night Time</h1>
 
         <div class="text-start space-y-[1vw]">
-            <h3 class="ptitle">Activity 2: The wheels on the bus</h3>
+            <h3 class="ptitle">Activity 2: Eggs Sorting Game</h3>
 
             <div class="flex justify-center items-start gap-[3vw]">
-                <img src="{{ asset('assets/images/micet/n2/transport/activity/c3.png') }}" class="w-[25vw]" />
+                <img src="{{ asset('assets/images/micet/n2/day/activity/c3.png') }}" class="w-[25vw]" />
                 <div>
                     <h3 class="ptitle">Objectives</h3>
                     <ul class="panel-ul w-[30vw]">
-                        <li>To develop music appreciation.</li>
-                        <li>To experience the joy of singing.</li>
+                        <li>To learn to differentiate big and small</li>
+                        <li>To reinforce the concept of numbers</li>
+                        <li>To develop observation skill</li>
                     </ul>
                     <h3 class="ptitle">Porcess</h3>
                     <ul class="panel-ul w-[27vw]">
-                        <li>The child will hear songs of either mothers,
-                            children, fathers or babies on the bus,
-                            which correspond to his/her selection of
-                            pictures, found at the bottom of the
-                            screen. The child learns the song and
-                            joins in the singing.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    {{-- panel 3 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Computer Activities: Toot Toot’s playland</h1>
-
-        <div class="text-start">
-            <h3 class="ptitle">Activity 2: The wheels on the bus</h3>
-
-            <div class="flex justify-center items-start gap-[3vw]">
-                <img src="{{ asset('assets/images/micet/n2/transport/activity/c4.png') }}" class="w-[25vw]" />
-                <div class="text-white text-[1.1vw]">
-                    <h3>"The wheels on the bus"</h3>
-                    <ul class="w-[25vw]">
-                        <li>The wheels on the bus go </li>
-                        <li>Round and round, </li>
-                        <li>Round and round, </li>
-                        <li>Round and round. </li>
-                        <li>The wheels on the bus go </li>
-                        <li>Round and round, </li>
-                        <li>All around the town.</li>
-                    </ul>
-                    <ul class="w-[25vw]">
-                        <li>The babies on the bus </li>
-                        <li>Bounce up and down, </li>
-                        <li>Up and down, </li>
-                        <li>Up and down. </li>
-                        <li>The babies on the bus</li>
-                        <li>Bounce up and down,</li>
-                        <li>All around the town.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    {{-- panel 3 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center mt-[-4vw]">
-        <h1 class="panel-title stroke">Computer Activities: Toot Toot’s playland</h1>
-
-        <div class="flex gap-[6vw]">
-
-            <div class="text-start">
-                <h3 class="ptitle">Activity 2: The wheels on the bus</h3> <img
-                    src="{{ asset('assets/images/micet/n2/transport/activity/c4.png') }}" class="w-[25vw]" />
-            </div>
-
-            <div class="text-white text-[1vw] text-start">
-                <ul>
-                    <li>The children on the bus go <br>
-                        Hee, hee, hee, <br>
-                        Hee, hee, hee, <br>
-                        Hee, hee, hee. <br>
-                        The children on the bus go <br>
-                        Hee, hee, hee, <br>
-                        All around the town.
-                    </li>
-                </ul>
-                <ul>
-                    <li>The mummies on the bus go <br>
-                        Chitter, chatter, chatter, <br>
-                        Chitter, chatter, chatter, <br>
-                        Chitter, chatter, chatter. <br>
-                        The mummies on the bus go <br>
-                        Chitter, chatter, chatter, <br>
-                        All around the town.</li>
-                </ul>
-                <ul>
-                    <li>The daddies on the bus go, <br>
-                        Nod, nod, nod, <br>
-                        Nod, nod, nod, <br>
-                        Nod, nod, nod. <br>
-                        The daddies on the bus go <br>
-                        Nod, nod, nod, <br>
-                        All around the town.</li>
-                </ul>
-            </div>
-        </div>
-
-    </div>
-
-
-    {{-- Panel 4 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Computer Activities: Toot Toot’s playland</h1>
-
-        <div class="text-start space-y-[1vw]">
-            <h3 class="ptitle">Activity 3: Put out the fire</h3>
-
-            <div class="flex justify-center items-start gap-[3vw]">
-                <img src="{{ asset('assets/images/micet/n2/transport/activity/c4.png') }}" class="w-[25vw]" />
-                <div>
-                    <h3 class="ptitle">Objectives</h3>
-                    <ul class="panel-ul w-[30vw]">
-                        <li>To learn to respond in an emergency situation.</li>
-                        <li>To practise hand-eye coordination.</li>
-                    </ul>
-                    <h3 class="ptitle">Porcess</h3>
-                    <ul class="panel-ul w-[27vw]">
-                        <li>Level 1: The child has to select the correct red
-                            dot on the screen to help the fire engine get
-                            to the hot spot to rescue.</li>
-                        <li>Level 2: The fire engine tank has only
-                            enough water to put out three fires.
-                            When all the water has been used up,
-                            the child has to fill the fire engine with
-                            more water before going off to put out
-                            more fires.</li>
+                        <li>Children to put the big eggs and small
+                            eggs in separate baskets, and distinguish
+                            the duck's eggs from goose's eggs,
+                            according to instruction.</li>
                     </ul>
                 </div>
             </div>
@@ -269,27 +146,25 @@
 
     {{-- Panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Computer Activities: Toot Toot’s playland</h1>
+        <h1 class="panel-title stroke">Computer Activities: Day Time, Night Time</h1>
 
         <div class="text-start space-y-[1vw]">
-            <h3 class="ptitle">Activity 4: Police chase</h3>
+            <h3 class="ptitle">Activity 3: Plucking Apples</h3>
 
             <div class="flex justify-center items-start gap-[3vw]">
-                <img src="{{ asset('assets/images/micet/n2/transport/activity/c5.png') }}" class="w-[25vw]" />
+                <img src="{{ asset('assets/images/micet/n2/day/activity/c4.png') }}" class="w-[25vw]" />
                 <div>
                     <h3 class="ptitle">Objectives</h3>
                     <ul class="panel-ul w-[30vw]">
-                        <li>To learn how to respond to an emergency situation.</li>
-                        <li>To develop a sense of direction.</li>
+                        <li>To learn to differentiate big and small</li>
+                        <li>To develop observation skill</li>
                     </ul>
                     <h3 class="ptitle">Porcess</h3>
                     <ul class="panel-ul w-[27vw]">
-                        <li>Level 1: There is a thief who is trying to
-                            escape from the police. The child
-                            moves the police car using the mouse
-                            and helps the police to catch the thief</li>
-                        <li>Level 2: Same as above. However, this
-                            time, there are two thieves.</li>
+                        <li>Children to pluck apples, thereafter,
+                            separate the big apples from the small
+                            apples, and put them onto the
+                            respective plates.</li>
                     </ul>
                 </div>
             </div>
@@ -299,56 +174,54 @@
 
     {{-- Panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Computer Activities: Toot Toot’s playland</h1>
+        <h1 class="panel-title stroke">Computer Activities: Day Time, Night Time</h1>
 
         <div class="text-start space-y-[1vw]">
-            <h3 class="ptitle">Activity 5: Submarine game</h3>
+            <h3 class="ptitle">Activity 3: Shadow Game</h3>
 
             <div class="flex justify-center items-start gap-[3vw]">
-                <img src="{{ asset('assets/images/micet/n2/transport/activity/c5.png') }}" class="w-[25vw]" />
+                <img src="{{ asset('assets/images/micet/n2/day/activity/c5.png') }}" class="w-[25vw]" />
                 <div>
                     <h3 class="ptitle">Objectives</h3>
-                    <ul class="panel-ul w-[30vw]">
-                        <li>To develop a sense of direction.</li>
-                        <li>To reinforce the concepts of colours, shapes, numbers, etc.</li>
+                    <ul class="panel-ul w-[25vw]">
+                        <li>To explore the relationship between
+                            light and shadow</li>
                     </ul>
                     <h3 class="ptitle">Porcess</h3>
-                    <ul class="panel-ul w-[27vw]">
-                        <li>Level 1: Help the captain pilot the
-                            submarine by avoiding the obstacles.
-                            At the same time, shoot at the bubbles
-                            with matching picture to the submarine.</li>
-                        <li>Level 2: Same as above but with
-                            increased level of difficulty.</li>
+                    <ul class="panel-ul w-[25vw]">
+                        <li>Children to observe the changes to
+                            Little Bear's shadow by clicking the
+                            computer mouse to move the candle
+                            to the left or right.</li>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
+
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Computer Activities: Toot Toot’s playland</h1>
+        <h1 class="panel-title stroke">Computer Activities: Day Time, Night Time</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Before the lesson ends, invite a few of the children to
-                    answer some of the questions raised at the beginning of the lesson.</li>
-                <li>Invite the children to sing and perform the song.</li>
+                <li>Before the lesson ends, invite a few children to answer
+                    some of the questions raised at the beginning of the lesson.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>The children are able to name some of the means of
-                    transport mentioned in the courseware.</li>
-                <li>The children are able to complete the activities in the
-                    courseware independently.</li>
-                <li>The children are able to state some basic traffic rules and
-                    safety precautions.</li>
+                <li>Able to say the differences between day and night.</li>
+                <li>Able to complete activities in the courseware
+                    independently.</li>
+                <li>Able to differentiate big and small correctly.</li>
+                <li>Have a basic understanding of the relationship between
+                    light and shadow.</li>
             </ul>
         </div>
     </div>
@@ -407,8 +280,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/transport/index') }}";
-            const doneURL = "{{ url('/micet/n2/transport/index') }}";
+            const returnURL = "{{ url('/micet/n2/day/index') }}";
+            const doneURL = "{{ url('/micet/n2/day/index') }}";
 
             // Track current position
             let currentSlide = 0;

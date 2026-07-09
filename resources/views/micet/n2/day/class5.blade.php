@@ -38,7 +38,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: My Favourite Vehicle</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Morning Exercise</h1>
         <div class="flex ">
             <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
             <img src="{{ asset('assets/images/micet/n1/mybody/class2/c1.png') }}" class="h-[12vw]" />
@@ -48,25 +48,23 @@
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul">
-            <li>To design one's favourite vehicle.</li>
-            <li>To identify the special features of different modes of
-                transport.</li>
-            <li>To exercise fine motor skills.</li>
+            <li>Learn to recite the rhyme "Morning Exercise"</li>
+            <li>Exercise different parts of the body by moving according to the
+                words in the rhyme</li>
+            <li>Learn to modify the rhyme by changing the words in the rhyme</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 5: My Favourite Vehicle</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Morning Exercise</h1>
 
         <div>
             <h3 class="ptitle">Preparations</h3>
 
             <ul class="list-disc panel-ul">
                 <li>Thematic Activity Book</li>
-                <li>A4 sized paper</li>
-                <li>Drawing Pencil</li>
             </ul>
         </div>
     </div>
@@ -74,214 +72,156 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: My Favourite Vehicle</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Morning Exercise</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[50vw]">
-                <li>Ask the children: "What shape is this?"; "Why is this called a triangle?". Explain
-                    that a triangle has three corners.</li>
+                <li>Let children listen to the rhyme "Morning Exercise". Ask them: What is this
+                    rhyme about?</li>
+                <li>Ask children: What do you do when you wake up in the morning? Do you
+                    exercise? If yes, what kind of exercises do you do? Let children demonstrate
+                    them.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/micet/n2/transport/class5/c1.png') }}" class="w-[20vw]" />
+        <div class="flex gap-[1vw]">
+            <button class="w-[3vw]" id="soundButton">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            </button>
+            <h4 class="text-white text-[2vw] text-start">
+                In the morning, <br>
+                The air is fresh as we exercise. <br>
+                We stretch our legs, <br>
+                Bend our waists and jump up high.
+            </h4>
+        </div>
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: My Favourite Vehicle</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="2">
-            <li>Teacher demonstrates how a triangle is drawn and encourages the children to
-                practise drawing triangles.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class5/c2.png') }}" class="w-[25vw]" />
-    </div>
-
-
-    {{-- panel 3 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: My Favourite Vehicle</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Morning Exercise</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="3">
-            <li>Ask the children: "What shape is this?" ; "How many corners are there?".
-                Explain that a square has four equal sides.</li>
+            <li>Point to the words in the rhyme and have children read along.</li>
+            <li>Once the children are familiar with the rhyme, get them to recite together as
+                a group.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class5/c3.png') }}" class="w-[20vw]" />
-    </div>
-
-
-    {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: My Favourite Vehicle</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="4">
-            <li>Teacher demonstrates how a triangle is drawn and encourages the children to
-                practise drawing triangles.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class5/c4.png') }}" class="w-[25vw]" />
+        <div class="flex gap-[1vw]">
+            <button class="w-[3vw]" id="soundButton">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            </button>
+            <h4 class="text-white text-[2vw] text-start">
+                In the morning, <br>
+                The air is fresh as we exercise. <br>
+                We stretch our legs, <br>
+                Bend our waists and jump up high.
+            </h4>
+        </div>
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: My Favourite Vehicle</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Morning Exercise</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="5">
-            <li>Ask the children: "What shape is this?" ; "How many corners are there?".
-                Explain that a square has four equal sides.</li>
+            <li>Ask children to do actions according to the words in the rhyme For example:
+                deep breath, stretch legs, bend at waist and jump up high.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class5/c5.png') }}" class="w-[20vw]" />
+        <div class="flex gap-[1vw]">
+            <button class="w-[3vw]" id="soundButton">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            </button>
+            <h4 class="text-white text-[2vw] text-start">
+                In the morning, <br>
+                The air is fresh as we exercise. <br>
+                We stretch our legs, <br>
+                Bend our waists and jump up high.
+            </h4>
+        </div>
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: My Favourite Vehicle</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Morning Exercise</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="6">
-            <li>Teacher demonstrates how a triangle is drawn and encourages the children to
-                practise drawing triangles.</li>
+            <li>Ask children: What other actions would you do during morning exercise?
+                Show them. Guide children to demonstrate their actions (e.g. nodding head,
+                stamping feet, waving hands, tiptoeing, turning around).</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class5/c2.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 5: Morning Exercise</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="7">
+            <li>Guide children to modify the rhyme by changing the actions stated in the
+                rhyme. For example:</li>
+        </ol>
+        <h4 class="text-white text-[2vw] text-start">
+            In the morning, <br>
+            The air is fresh as we exercise. <br>
+            We stretch our legs, <br>
+            Bend our waists and jump up high.
+        </h4>
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: My Favourite Vehicle</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Morning Exercise</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="7">
-            <li>Demonstrate to the children how to use a combination of shapes to draw
-                different types of vehicles. Let the children practise on paper.</li>
-            <li>Ask the children to include the special characteristics of the vehicle drawn. For
-                example the police car siren, lights and so on.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="8">
+            <li>Guide children to complete the corresponding activities in the Thematic
+                Activity Book.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class5/c2.png') }}" class="w-[25vw]" />
-    </div>
-
-
-    {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: My Favourite Vehicle</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="7">
-            <li>Demonstrate to the children how to use a combination of shapes to draw
-                different types of vehicles. Let the children practise on paper.</li>
-            <li>Ask the children to include the special characteristics of the vehicle drawn. For
-                example the police car siren, lights and so on.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class5/c6.png') }}" class="w-[25vw]" />
-    </div>
-
-
-    {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: My Favourite Vehicle</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="7">
-            <li>Demonstrate to the children how to use a combination of shapes to draw
-                different types of vehicles. Let the children practise on paper.</li>
-            <li>Ask the children to include the special characteristics of the vehicle drawn. For
-                example the police car siren, lights and so on.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class5/c2.png') }}" class="w-[25vw]" />
-    </div>
-
-
-    {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: My Favourite Vehicle</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="7">
-            <li>Demonstrate to the children how to use a combination of shapes to draw
-                different types of vehicles. Let the children practise on paper.</li>
-            <li>Ask the children to include the special characteristics of the vehicle drawn. For
-                example the police car siren, lights and so on.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class5/c7.png') }}" class="w-[25vw]" />
-    </div>
-
-
-    {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: My Favourite Vehicle</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="7">
-            <li>Demonstrate to the children how to use a combination of shapes to draw
-                different types of vehicles. Let the children practise on paper.</li>
-            <li>Ask the children to include the special characteristics of the vehicle drawn. For
-                example the police car siren, lights and so on.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class5/c8.png') }}" class="w-[25vw]" />
-    </div>
-
-
-    {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: My Favourite Vehicle</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="7">
-            <li>Demonstrate to the children how to use a combination of shapes to draw
-                different types of vehicles. Let the children practise on paper.</li>
-            <li>Ask the children to include the special characteristics of the vehicle drawn. For
-                example the police car siren, lights and so on.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class5/c2.png') }}" class="w-[25vw]" />
-    </div>
-
-
-    {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: My Favourite Vehicle</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="7">
-            <li>Demonstrate to the children how to use a combination of shapes to draw
-                different types of vehicles. Let the children practise on paper.</li>
-            <li>Ask the children to include the special characteristics of the vehicle drawn. For
-                example the police car siren, lights and so on.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class5/c2.png') }}" class="w-[25vw]" />
-    </div>
-
-
-    {{-- panel 6 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: My Favourite Vehicle</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="9">
-            <li>Have the children use a combination of shapes to create their favourite
-      vehicle in the Thematic Activity Book.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class5/c2.png') }}" class="w-[30vw]" />
     </div>
 
 
 
     {{-- panel 23 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 5: My Favourite Vehicle</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Morning Exercise</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have the children present and explain their drawings to the class.</li>
-                <li>Display the children's drawings.</li>
+                <li>Invite all children to recite the modified rhyme and do the actions.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to draw one's favourite vehicle.</li>
-                <li>Able to give a simple presentation of the vehicle drawn.</li>
+                <li>Able to recite the rhyme "Morning Exercise".</li>
+                <li>Able to do actions according to the words in the rhyme.</li>
+                <li>Able to modify the rhyme.</li>
             </ul>
         </div>
     </div>
 
 
-    
+    {{-- panel 23 --}}
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
+        <h1 class="panel-title stroke">Classroom Activity 5: Morning Exercise</h1>
+
+        <div class="text-start flex flex-col h-full">
+            <h3 class="ptitle">Extension</h3>
+
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Every morning, lead children in reciting the rhyme and
+                    doing morning exercise.</li>
+            </ul>
+        </div>
+    </div>
+
+
 
 
 
@@ -336,8 +276,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/transport/index') }}";
-            const doneURL = "{{ url('/micet/n2/transport/index') }}";
+            const returnURL = "{{ url('/micet/n2/day/index') }}";
+            const doneURL = "{{ url('/micet/n2/day/index') }}";
 
             // Track current position
             let currentSlide = 0;
