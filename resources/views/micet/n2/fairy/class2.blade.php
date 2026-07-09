@@ -18,7 +18,7 @@ $showMascot = true;
 
     .panel-title {
         color: #F7B94A;
-        font-size: 2.2vw;
+        font-size: 2.5vw;
     }
 
     .ptitle {
@@ -29,7 +29,7 @@ $showMascot = true;
     .panel-ul {
         color: white;
         font-size: 1.4vw;
-        text-align: left;
+        text-align: left
     }
 </style>
 @endpush
@@ -37,185 +37,141 @@ $showMascot = true;
 @section('content')
 
 {{-- panel 1 --}}
-<div class="phonics-panel flex flex-col justify-between h-full items-center">
-    <h1 class="panel-title stroke">Computer Activities: Our Colourful World</h1>
-    <div class="flex">
-        <img src="{{ asset('assets/images/micet/n2/colour/activity/c1.png') }}" class="h-[8vw]" />
-        <img src="{{ asset('assets/images/micet/n2/colour/activity/c2.png') }}" class="h-[8vw]" />
-    </div>
+<div class="phonics-panel flex flex-col h-full items-center">
+    <h1 class="panel-title stroke">Classroom Activity 2: A Perfect Fit</h1>
+    <img src="{{ asset('assets/images/micet/n2/fairy/class2/c1.png') }}" class="h-[8vw]" />
 
-    <img src="{{ asset('assets/images/micet/n2/colour/activity/c3.png') }}" class="w-[25vw]" />
+    <h3 class="ptitle">Objectives:</h3>
+
+    <ul class="list-disc panel-ul">
+        <li>Learn to compare the sizes of three objects; understand the
+            concept of big, medium and small</li>
+    </ul>
 </div>
 
 
 {{-- panel 2 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center">
-    <h1 class="panel-title stroke">Computer Activities: Our Colourful World</h1>
-
-    <div class="text-start">
-        <h3 class="ptitle">Tuning-in</h3>
-
-        <ol class="list-decimal panel-ul w-[45vw]">
-            <li>
-                To begin the lesson, ask the following questions to arouse children's curiosity
-                and interest.
-                <ol class="list-[lower-alpha]">
-                    <li>Look around, what are the colours that you can see?</li>
-                    <li>Name the colours on my clothes.</li>
-                    <li>What is your favourite colour?</li>
-                </ol>
-            </li>
-
-            <li>
-                Elicit answers from children, then continue with the following questions to focus
-                children's attention on the key points of the courseware.
-                <ol class="list-[lower-alpha]">
-                    <li>Where can you see a rainbow?</li>
-                    <li>How many colours are there in a rainbow?</li>
-                    <li>Find out during the computer lesson. Play the games and tell me the
-                        insect you have to catch.</li>
-                </ol>
-            </li>
-        </ol>
-    </div>
-</div>
-
-
-{{-- panel 3 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center">
-    <h1 class="panel-title stroke">Computer Activities: Our Colourful World</h1>
-
-    <div class="text-start space-y-[2vw]">
-        <h3 class="ptitle">Activity 1: Story - First Day At School</h3>
-
-        <div class="flex justify-center items-center gap-[3vw]">
-            <img src="{{ asset('assets/images/micet/n2/colour/activity/c4.png') }}" class="w-[25vw]" />
-            <div>
-                <h3 class="ptitle">Objectives</h3>
-                <ul class="list-disc panel-ul w-[20vw]">
-                    <li> To be aware of the beautiful colours
-                        around us</li>
-                    <li>To learn the names of colours</li>
-                    <li>To practise navigational skills</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-{{-- panel 4 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Computer Activities: Our Colourful World</h1>
+<div class="phonics-panel flex flex-col items-center space-y-[3vw] h-full">
+    <h1 class="panel-title stroke">Classroom Activity 2: A Perfect Fit</h1>
 
     <div>
-        <h3 class="ptitle">Story</h3>
+        <h3 class="ptitle">Preparations</h3>
 
-        <p class="panel-ul">Every one of the Rainbow Fairies is very beautiful. However, they
-            want to know which one is most beautiful. They ask the sun to be the
-            judge. They visit seven different coloured places such as the yellow
-            desert, the green forest and the blue beach. In the end, the sun tells
-            them that each one is beautiful but when they are all together, they
-            are even more beautiful.</p>
+        <ul class="list-disc panel-ul">
+            <li>Thematic Activity Book</li>
+            <li>Three hats in large, medium and small sizes</li>
+            <li>Collect some objects in large, medium and small sizes
+                beforehand</li>
+        </ul>
     </div>
 </div>
 
 
 {{-- panel 3 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center">
-    <h1 class="panel-title stroke">Computer Activities: Our Colourful World</h1>
+<div class="phonics-panel flex flex-col h-full items-center">
+    <h1 class="panel-title stroke">Classroom Activity 2: A Perfect Fit</h1>
 
-    <div class="text-start space-y-[0.1vw]">
-        <h3 class="ptitle">Activity 2: The little artists</h3>
+    <div class="text-start">
+        <h3 class="ptitle">Lesson Development</h3>
 
-        <div class="flex justify-center items-start gap-[3vw]">
-            <img src="{{ asset('assets/images/micet/n2/colour/activity/c5.png') }}" class="w-[20vw] h-[15vw]" />
-            <div>
-                <h3 class="ptitle">Objectives</h3>
-                <ul class="list-disc panel-ul w-[30vw]">
-                    <li> To listen and carry out instructions</li>
-                    <li>To learn about mixing of colours</li>
-                    <li>To learn about secondary colours</li>
-                </ul>
-                <h3 class="ptitle">Process</h3>
-                <ul class="panel-ul w-[30vw]">
-                    <span>There are 2 levels of difficulties in this game</span>
-                    <li>Level one: <span class="text-[1.1vw]"> Children listen and then fill a space with
-                            red, yellow or blue accordingly.Children
-                            will be given a hint if the colour is wrong
-                            and rewarded with an animation if correct.</span>
-                    </li>
-                    <li>Level two: <span class="text-[1.1vw]"> Children mix primary colours to obtain a
-                            secondary colour. They add to the given
-                            colour to obtain the required colour.</span></li>
-                </ul>
-            </div>
-        </div>
+        <ol class="list-decimal panel-ul w-[45vw]">
+            <li>Ask the children: Which bed is the biggest? Which bed is smaller? Which bed
+                is the smallest? Which bed is most suitable for Goldilocks? Why? Guide
+                children to understand the concept of big, medium and small.</li>
+        </ol>
     </div>
+    <img src="{{ asset('assets/images/micet/n2/fairy/class2/c2.png') }}" class="w-[25vw]" />
 </div>
 
 
 {{-- panel 4 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center">
-    <h1 class="panel-title stroke">Computer Activities: Our Colourful World</h1>
+<div class="phonics-panel flex flex-col h-full items-center">
+    <h1 class="panel-title stroke">Classroom Activity 2: A Perfect Fit</h1>
 
-    <div class="text-start space-y-[0.1vw]">
-        <h3 class="ptitle">Activity 3: Let's catch butterflies</h3>
+    <ol class="list-decimal panel-ul w-[45vw]" start="2">
+        <li>Display the hats. Have the children name the item and arrange the hats
+            according to their sizes, from the biggest to the smallest.</li>
+        <li>Then, let the children point to the hat and describe which is the biggest, which
+            is medium-sized and which is the smallest.</li>
+        <li>Have the children find the hat that is suitable for the teacher to wear. Next,
+            have them look for the hat that is suitable for them to put on their own head.
+            Let them give reasons for their choice.</li>
+    </ol>
+</div>
 
-        <div class="flex items-start gap-[3vw]">
-            <img src="{{ asset('assets/images/micet/n2/colour/activity/c5.png') }}" class="w-[20vw] h-[15vw]" />
-            <div>
-                <h3 class="ptitle">Objectives</h3>
-                <ul class="list-disc panel-ul w-[30vw]">
-                    <li> To listen to and follow instructions</li>
-                    <li>To practise visual discrimination</li>
-                    <li>To practise hand-eye coordination</li>
-                    <li>To learn the numerals 1 to 5</li>
-                </ul>
-                <h3 class="ptitle">Process</h3>
-                <ul class="panel-ul w-[30vw]">
-                    <span>There are 2 levels of difficulties in this game.</span>
-                    <li>Level one: <span class="text-[1.1vw]">Children match and click on
-                            butterflies of one colour.</span>
-                    </li>
-                    <li>Level two: <span class="text-[1.1vw]"> Children match and click on
-                            butterflies with the same
-                            colours and patterns.</span></li>
-                </ul>
-            </div>
-        </div>
-    </div>
+
+{{-- panel 4 --}}
+<div class="phonics-panel flex flex-col h-full items-center">
+    <h1 class="panel-title stroke">Classroom Activity 2: A Perfect Fit</h1>
+
+    <ol class="list-decimal panel-ul w-[45vw]" start="5">
+        <li>Click to open the Software Magnetic Board. Guide the children in helping
+            Goldilocks find the hat, shoes and clothes that fit her.</li>
+    </ol>
+    <img src="{{ asset('assets/images/micet/n2/fairy/class2/c3.png') }}" class="w-[30vw]" />
 </div>
 
 
 {{-- panel 5 --}}
-<div class="phonics-panel flex flex-col items-center h-full space-y-[0.1vw]">
-    <h1 class="panel-title stroke">Computer Activities: Our Colourful World</h1>
+<div class="phonics-panel flex flex-col h-full items-center">
+    <h1 class="panel-title stroke">Classroom Activity 2: A Perfect Fit</h1>
+
+    <ol class="list-decimal panel-ul w-[45vw]" start="6">
+        <li>Click to open the Software Magnetic Board. Guide the children in helping
+            the three bears find the things that fit each of them.</li>
+    </ol>
+    <img src="{{ asset('assets/images/micet/n2/fairy/class2/c4.png') }}" class="w-[30vw]" />
+</div>
+
+
+{{-- panel 5 --}}
+<div class="phonics-panel flex flex-col h-full items-center">
+    <h1 class="panel-title stroke">Classroom Activity 2: A Perfect Fit</h1>
+
+    <ol class="list-decimal panel-ul w-[45vw]" start="7">
+        <li>Guide children to complete the corresponding activities in the Thematic
+            Activity Book.</li>
+    </ol>
+</div>
+
+
+
+
+{{-- panel 19 --}}
+<div class="phonics-panel flex flex-col items-center h-full">
+    <h1 class="panel-title stroke">Classroom Activity 2: A Perfect Fit</h1>
 
     <div class="text-start flex flex-col h-full">
         <h3 class="ptitle">Clousre</h3>
 
         <ul class="list-disc panel-ul w-[45vw]">
-            <li>At the end of the lesson, gather children and talk about what they have
-                watched on the computer. Touch on the questions asked at the beginning of
-                the lesson.</li>
-            <li>Children try to name the seven colours of rainbow, beginning from the top.</li>
+            <li>Display the objects collected beforehand and ask children to categorise
+                them according to whether they are big, small or medium.</li>
         </ul>
 
         <h3 class="ptitle">Evaluation</h3>
 
         <ul class="list-disc panel-ul w-[45vw]">
-            <li>Children are able to complete the various activities in the
-                courseware independently. </li>
-            <li>Children are able to name the seven colours of the rainbow.</li>
-            <li>Children know that: <span class="text-right">red + yellow = orange,<br>
-                red + blue = purple,<br>
-                blue + yellow = green.</span></li>
+            <li>Able to differentiate between big, medium and small.</li>
         </ul>
     </div>
 </div>
 
 
+{{-- panel 37 --}}
+<div class="phonics-panel flex flex-col items-center h-full">
+    <h1 class="panel-title stroke">Classroom Activity 2: A Perfect Fit</h1>
+
+    <div class="text-start flex flex-col">
+        <h3 class="ptitle">Extension</h3>
+
+        <ul class="list-disc panel-ul w-[45vw]">
+            <li>Have the children look for items that come in large,<br>
+                medium and small sizes at home. If possible, have them <br>
+                bring the items to school to share with the class.</li>
+        </ul>
+    </div>
+</div>
 
 
 
@@ -270,8 +226,8 @@ $showMascot = true;
         const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
         // URLs for navigation
-        const returnURL = "{{ url('/micet/n2/colour/index') }}";
-        const doneURL = "{{ url('/micet/n2/colour/index') }}";
+        const returnURL = "{{ url('/micet/n2/fairy/index') }}";
+        const doneURL = "{{ url('/micet/n2/fairy/index') }}";
 
         // Track current position
         let currentSlide = 0;
