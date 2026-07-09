@@ -18,7 +18,7 @@ $showMascot = true;
 
     .panel-title {
         color: #F7B94A;
-        font-size: 2.2vw;
+        font-size: 2.5vw;
     }
 
     .ptitle {
@@ -38,185 +38,158 @@ $showMascot = true;
 
 {{-- panel 1 --}}
 <div class="phonics-panel flex flex-col justify-between h-full items-center">
-    <h1 class="panel-title stroke">Computer Activities: Our Colourful World</h1>
+    <h1 class="panel-title stroke">Classroom Activity 8: Make a Mask</h1>
     <div class="flex">
-        <img src="{{ asset('assets/images/micet/n2/colour/activity/c1.png') }}" class="h-[8vw]" />
-        <img src="{{ asset('assets/images/micet/n2/colour/activity/c2.png') }}" class="h-[8vw]" />
+        <img src="{{ asset('assets/images/micet/n2/fairy/class8/c1.png') }}" class="h-[8vw]" />
+        <img src="{{ asset('assets/images/micet/n2/fairy/class8/c2.png') }}" class="h-[8vw]" />
     </div>
 
-    <img src="{{ asset('assets/images/micet/n2/colour/activity/c3.png') }}" class="w-[25vw]" />
+
+    <h3 class="ptitle">Objectives:</h3>
+
+    <ul class="list-disc panel-ul">
+        <li>Make a mask of one of the characters in the story</li>
+        <li>Develop skills in resolving conflict</li>
+        <li>Develop fine motor skills</li>
+    </ul>
 </div>
 
 
 {{-- panel 2 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
+    <h1 class="panel-title stroke">Classroom Activity 8: Make a Mask</h1>
+
+    <div>
+        <h3 class="ptitle">Preparations</h3>
+
+        <ul class="list-disc panel-ul">
+            <li>Thematic Activity Book</li>
+            <li>Scissors, hole punch</li>
+            <li>Cardboards, glue, crayons</li>
+            <li>15-20cm elastic band (one piece per child)</li>
+            <li>One ready-made mask</li>
+            <li>Print out a few sets of the outlines of the different
+                characters in the story( Refer to the lesson development)
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+{{-- panel 3 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center">
-    <h1 class="panel-title stroke">Computer Activities: Our Colourful World</h1>
+    <h1 class="panel-title stroke">Classroom Activity 8: Make a Mask</h1>
 
     <div class="text-start">
-        <h3 class="ptitle">Tuning-in</h3>
+        <h3 class="ptitle">Lesson Development</h3>
 
         <ol class="list-decimal panel-ul w-[45vw]">
-            <li>
-                To begin the lesson, ask the following questions to arouse children's curiosity
-                and interest.
-                <ol class="list-[lower-alpha]">
-                    <li>Look around, what are the colours that you can see?</li>
-                    <li>Name the colours on my clothes.</li>
-                    <li>What is your favourite colour?</li>
-                </ol>
-            </li>
-
-            <li>
-                Elicit answers from children, then continue with the following questions to focus
-                children's attention on the key points of the courseware.
-                <ol class="list-[lower-alpha]">
-                    <li>Where can you see a rainbow?</li>
-                    <li>How many colours are there in a rainbow?</li>
-                    <li>Find out during the computer lesson. Play the games and tell me the
-                        insect you have to catch.</li>
-                </ol>
-            </li>
+            <li>Display the ready-made mask and invite the children to make a mask.</li>
         </ol>
     </div>
 </div>
 
 
-{{-- panel 3 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center">
-    <h1 class="panel-title stroke">Computer Activities: Our Colourful World</h1>
-
-    <div class="text-start space-y-[2vw]">
-        <h3 class="ptitle">Activity 1: Story - First Day At School</h3>
-
-        <div class="flex justify-center items-center gap-[3vw]">
-            <img src="{{ asset('assets/images/micet/n2/colour/activity/c4.png') }}" class="w-[25vw]" />
-            <div>
-                <h3 class="ptitle">Objectives</h3>
-                <ul class="list-disc panel-ul w-[20vw]">
-                    <li> To be aware of the beautiful colours
-                        around us</li>
-                    <li>To learn the names of colours</li>
-                    <li>To practise navigational skills</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>
-
-
 {{-- panel 4 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Computer Activities: Our Colourful World</h1>
-
-    <div>
-        <h3 class="ptitle">Story</h3>
-
-        <p class="panel-ul">Every one of the Rainbow Fairies is very beautiful. However, they
-            want to know which one is most beautiful. They ask the sun to be the
-            judge. They visit seven different coloured places such as the yellow
-            desert, the green forest and the blue beach. In the end, the sun tells
-            them that each one is beautiful but when they are all together, they
-            are even more beautiful.</p>
-    </div>
-</div>
-
-
-{{-- panel 3 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center">
-    <h1 class="panel-title stroke">Computer Activities: Our Colourful World</h1>
+    <h1 class="panel-title stroke">Classroom Activity 8: Make a Mask</h1>
 
-    <div class="text-start space-y-[0.1vw]">
-        <h3 class="ptitle">Activity 2: The little artists</h3>
+    <ol class="list-decimal panel-ul w-[45vw]" start="2">
+        <li>Display the outlines of the different characters in the story and have the
+            children name them. </li>
+    </ol>
 
-        <div class="flex justify-center items-start gap-[3vw]">
-            <img src="{{ asset('assets/images/micet/n2/colour/activity/c5.png') }}" class="w-[20vw] h-[15vw]" />
-            <div>
-                <h3 class="ptitle">Objectives</h3>
-                <ul class="list-disc panel-ul w-[30vw]">
-                    <li> To listen and carry out instructions</li>
-                    <li>To learn about mixing of colours</li>
-                    <li>To learn about secondary colours</li>
-                </ul>
-                <h3 class="ptitle">Process</h3>
-                <ul class="panel-ul w-[30vw]">
-                    <span>There are 2 levels of difficulties in this game</span>
-                    <li>Level one: <span class="text-[1.1vw]"> Children listen and then fill a space with
-                            red, yellow or blue accordingly.Children
-                            will be given a hint if the colour is wrong
-                            and rewarded with an animation if correct.</span>
-                    </li>
-                    <li>Level two: <span class="text-[1.1vw]"> Children mix primary colours to obtain a
-                            secondary colour. They add to the given
-                            colour to obtain the required colour.</span></li>
-                </ul>
-            </div>
-        </div>
-    </div>
+    <img src="{{ asset('assets/images/micet/n2/fairy/class8/c3.png') }}" class="w-[30vw]" />
 </div>
 
 
 {{-- panel 4 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center">
-    <h1 class="panel-title stroke">Computer Activities: Our Colourful World</h1>
+    <h1 class="panel-title stroke">Classroom Activity 8: Make a Mask</h1>
 
-    <div class="text-start space-y-[0.1vw]">
-        <h3 class="ptitle">Activity 3: Let's catch butterflies</h3>
+    <ul class="list-disc panel-ul w-[45vw]">
+        <li>Display the outlines of the different characters in the story and have the
+            children name them.</li>
+    </ul>
+    <img src="{{ asset('assets/images/micet/n2/fairy/class8/c4.png') }}" class="w-[30vw]" />
+</div>
 
-        <div class="flex items-start gap-[3vw]">
-            <img src="{{ asset('assets/images/micet/n2/colour/activity/c5.png') }}" class="w-[20vw] h-[15vw]" />
-            <div>
-                <h3 class="ptitle">Objectives</h3>
-                <ul class="list-disc panel-ul w-[30vw]">
-                    <li> To listen to and follow instructions</li>
-                    <li>To practise visual discrimination</li>
-                    <li>To practise hand-eye coordination</li>
-                    <li>To learn the numerals 1 to 5</li>
-                </ul>
-                <h3 class="ptitle">Process</h3>
-                <ul class="panel-ul w-[30vw]">
-                    <span>There are 2 levels of difficulties in this game.</span>
-                    <li>Level one: <span class="text-[1.1vw]">Children match and click on
-                            butterflies of one colour.</span>
-                    </li>
-                    <li>Level two: <span class="text-[1.1vw]"> Children match and click on
-                            butterflies with the same
-                            colours and patterns.</span></li>
-                </ul>
-            </div>
-        </div>
-    </div>
+
+{{-- panel 4 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center">
+    <h1 class="panel-title stroke">Classroom Activity 8: Make a Mask</h1>
+
+    <ul class="list-disc panel-ul w-[45vw]">
+        <li>Display the outlines of the different characters in the story and have the
+            children name them.</li>
+    </ul>
+    <img src="{{ asset('assets/images/micet/n2/fairy/class8/c5.png') }}" class="w-[30vw]" />
+</div>
+
+
+{{-- panel 4 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center">
+    <h1 class="panel-title stroke">Classroom Activity 8: Make a Mask</h1>
+
+    <ul class="list-disc panel-ul w-[45vw]">
+        <li>Display the outlines of the different characters in the story and have the
+            children name them.</li>
+    </ul>
+    <img src="{{ asset('assets/images/micet/n2/fairy/class8/c6.png') }}" class="w-[30vw]" />
 </div>
 
 
 {{-- panel 5 --}}
-<div class="phonics-panel flex flex-col items-center h-full space-y-[0.1vw]">
-    <h1 class="panel-title stroke">Computer Activities: Our Colourful World</h1>
+<div class="phonics-panel flex flex-col justify-start h-full items-center">
+    <h1 class="panel-title stroke">Classroom Activity 8: Make a Mask</h1>
 
-    <div class="text-start flex flex-col h-full">
+    <ol class="list-decimal panel-ul w-[45vw]" start="3">
+        <li>Have the children form groups of four. Have each child in a group choose a
+            character to make a mask. If there are any conflicts or disagreements
+            during the process of choosing, guide children to resolve the issue through
+            negotiations.
+        </li>
+        <li>Distribute the outline pictures of the characters( or use the Thematic Activity
+            Book). Ask children to colour the picture and then paste it on a cardboard.
+            Help the children cut out the masks along the dotted line.</li>
+    </ol>
+</div>
+
+
+{{-- panel 6 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center">
+    <h1 class="panel-title stroke">Classroom Activity 8: Make a Mask</h1>
+
+    <ol class="list-decimal panel-ul w-[45vw]" start="5">
+        <li>Assist children to make a hole on each side of the mask, and then thread an
+            elastic band through the holes.</li>
+        <li>Ask each group to wear their masks and practise imitating the movements
+            and tone of the characters.</li>
+    </ol>
+</div>
+
+
+{{-- panel 7 --}}
+<div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
+    <h1 class="panel-title stroke">Classroom Activity 8: Make a Mask</h1>
+
+    <div class="text-start flex flex-col justify-between h-full">
         <h3 class="ptitle">Clousre</h3>
 
         <ul class="list-disc panel-ul w-[45vw]">
-            <li>At the end of the lesson, gather children and talk about what they have
-                watched on the computer. Touch on the questions asked at the beginning of
-                the lesson.</li>
-            <li>Children try to name the seven colours of rainbow, beginning from the top.</li>
+            <li>Have the children show their masks to each other.</li>
+            <li>Gather and put aside all the masks. They will be used in
+                Classroom Activity 10.</li>
         </ul>
 
         <h3 class="ptitle">Evaluation</h3>
 
         <ul class="list-disc panel-ul w-[45vw]">
-            <li>Children are able to complete the various activities in the
-                courseware independently. </li>
-            <li>Children are able to name the seven colours of the rainbow.</li>
-            <li>Children know that: <span class="text-right">red + yellow = orange,<br>
-                red + blue = purple,<br>
-                blue + yellow = green.</span></li>
+            <li>Able to make a mask.</li>
+            <li>Able to resolve conflicts with teacher's guidance.</li>
         </ul>
     </div>
 </div>
-
-
-
 
 
 {{-- =============================================== --}}
@@ -270,8 +243,8 @@ $showMascot = true;
         const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
         // URLs for navigation
-        const returnURL = "{{ url('/micet/n2/colour/index') }}";
-        const doneURL = "{{ url('/micet/n2/colour/index') }}";
+        const returnURL = "{{ url('/micet/n2/fairy/index') }}";
+        const doneURL = "{{ url('/micet/n2/fairy/index') }}";
 
         // Track current position
         let currentSlide = 0;

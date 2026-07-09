@@ -21,15 +21,25 @@ $showMascot = true;
         font-size: 2.2vw;
     }
 
-    .ptitle {
+    title {
         color: #F7B94A;
+        font-size: 2vw;
+    }
+
+    .ptitle {
+        color: #f7b94a;
         font-size: 1.7vw;
+    }
+
+    .p-title {
+        color: #ffffff;
+        font-size: 1.25vw;
     }
 
     .panel-ul {
         color: white;
         font-size: 1.4vw;
-        text-align: left;
+        text-align: left !important;
     }
 </style>
 @endpush
@@ -38,179 +48,233 @@ $showMascot = true;
 
 {{-- panel 1 --}}
 <div class="phonics-panel flex flex-col justify-between h-full items-center">
-    <h1 class="panel-title stroke">Computer Activities: Our Colourful World</h1>
-    <div class="flex">
-        <img src="{{ asset('assets/images/micet/n2/colour/activity/c1.png') }}" class="h-[8vw]" />
-        <img src="{{ asset('assets/images/micet/n2/colour/activity/c2.png') }}" class="h-[8vw]" />
+    <h1 class="panel-title stroke">Classroom Activity 1: Goldilocks and the Three Bears</h1>
+    <div class="flex items-center">
+        <img src="{{ asset('assets/images/micet/n2/fairy/class1/c1.png') }}" class="h-[8vw]" />
+        <img src="{{ asset('assets/images/micet/n2/fairy/class1/c2.png') }}" class="h-[8vw]" />
+        <img src="{{ asset('assets/images/micet/n2/fairy/class1/c3.png') }}" class="h-[8vw]" />
     </div>
 
-    <img src="{{ asset('assets/images/micet/n2/colour/activity/c3.png') }}" class="w-[25vw]" />
+
+    <h3 class="title">Objectives:</h3>
+
+    <ul class="list-disc panel-ul w-[40vw]">
+        <li>Develop the good habit of not entering people's home
+            without permission</li>
+        <li>Understand the consequences of one's actions (principle of
+            compensation) if one damages items that belong to others</li>
+        <li>Compare sizes of objects</li>
+
+    </ul>
 </div>
 
 
 {{-- panel 2 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center">
-    <h1 class="panel-title stroke">Computer Activities: Our Colourful World</h1>
+<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
+    <h1 class="panel-title stroke">Classroom Activity 1: Goldilocks and the Three Bears</h1>
 
-    <div class="text-start">
-        <h3 class="ptitle">Tuning-in</h3>
+    <div>
+        <h3 class="title">Preparations</h3>
 
-        <ol class="list-decimal panel-ul w-[45vw]">
-            <li>
-                To begin the lesson, ask the following questions to arouse children's curiosity
-                and interest.
-                <ol class="list-[lower-alpha]">
-                    <li>Look around, what are the colours that you can see?</li>
-                    <li>Name the colours on my clothes.</li>
-                    <li>What is your favourite colour?</li>
-                </ol>
-            </li>
-
-            <li>
-                Elicit answers from children, then continue with the following questions to focus
-                children's attention on the key points of the courseware.
-                <ol class="list-[lower-alpha]">
-                    <li>Where can you see a rainbow?</li>
-                    <li>How many colours are there in a rainbow?</li>
-                    <li>Find out during the computer lesson. Play the games and tell me the
-                        insect you have to catch.</li>
-                </ol>
-            </li>
+        <ol class="list-disc panel-ul">
+            <li>Thematic Activity Book</li>
         </ol>
     </div>
 </div>
 
 
-{{-- panel 3 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center">
-    <h1 class="panel-title stroke">Computer Activities: Our Colourful World</h1>
+{{-- panel 2 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
+    <h1 class="panel-title stroke">Classroom Activity 1: Goldilocks and the Three Bears</h1>
 
-    <div class="text-start space-y-[2vw]">
-        <h3 class="ptitle">Activity 1: Story - First Day At School</h3>
+    <div>
+        <h3 class="title">Lesson Development</h3>
 
-        <div class="flex justify-center items-center gap-[3vw]">
-            <img src="{{ asset('assets/images/micet/n2/colour/activity/c4.png') }}" class="w-[25vw]" />
-            <div>
-                <h3 class="ptitle">Objectives</h3>
-                <ul class="list-disc panel-ul w-[20vw]">
-                    <li> To be aware of the beautiful colours
-                        around us</li>
-                    <li>To learn the names of colours</li>
-                    <li>To practise navigational skills</li>
-                </ul>
-            </div>
-        </div>
+        <ol class="list-decimal panel-ul w-[45vw]">
+            <li>Tell the story using suggested questions and activities to reinforce the
+                teaching points of the story.</li>
+        </ol>
     </div>
 </div>
 
 
 {{-- panel 4 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Computer Activities: Our Colourful World</h1>
+    <h1 class="panel-title stroke">Goldilocks and the Three Bears</h1>
 
-    <div>
-        <h3 class="ptitle">Story</h3>
-
-        <p class="panel-ul">Every one of the Rainbow Fairies is very beautiful. However, they
-            want to know which one is most beautiful. They ask the sun to be the
-            judge. They visit seven different coloured places such as the yellow
-            desert, the green forest and the blue beach. In the end, the sun tells
-            them that each one is beautiful but when they are all together, they
-            are even more beautiful.</p>
-    </div>
-</div>
-
-
-{{-- panel 3 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center">
-    <h1 class="panel-title stroke">Computer Activities: Our Colourful World</h1>
-
-    <div class="text-start space-y-[0.1vw]">
-        <h3 class="ptitle">Activity 2: The little artists</h3>
-
-        <div class="flex justify-center items-start gap-[3vw]">
-            <img src="{{ asset('assets/images/micet/n2/colour/activity/c5.png') }}" class="w-[20vw] h-[15vw]" />
-            <div>
-                <h3 class="ptitle">Objectives</h3>
-                <ul class="list-disc panel-ul w-[30vw]">
-                    <li> To listen and carry out instructions</li>
-                    <li>To learn about mixing of colours</li>
-                    <li>To learn about secondary colours</li>
-                </ul>
-                <h3 class="ptitle">Process</h3>
-                <ul class="panel-ul w-[30vw]">
-                    <span>There are 2 levels of difficulties in this game</span>
-                    <li>Level one: <span class="text-[1.1vw]"> Children listen and then fill a space with
-                            red, yellow or blue accordingly.Children
-                            will be given a hint if the colour is wrong
-                            and rewarded with an animation if correct.</span>
-                    </li>
-                    <li>Level two: <span class="text-[1.1vw]"> Children mix primary colours to obtain a
-                            secondary colour. They add to the given
-                            colour to obtain the required colour.</span></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-{{-- panel 4 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center">
-    <h1 class="panel-title stroke">Computer Activities: Our Colourful World</h1>
-
-    <div class="text-start space-y-[0.1vw]">
-        <h3 class="ptitle">Activity 3: Let's catch butterflies</h3>
-
-        <div class="flex items-start gap-[3vw]">
-            <img src="{{ asset('assets/images/micet/n2/colour/activity/c5.png') }}" class="w-[20vw] h-[15vw]" />
-            <div>
-                <h3 class="ptitle">Objectives</h3>
-                <ul class="list-disc panel-ul w-[30vw]">
-                    <li> To listen to and follow instructions</li>
-                    <li>To practise visual discrimination</li>
-                    <li>To practise hand-eye coordination</li>
-                    <li>To learn the numerals 1 to 5</li>
-                </ul>
-                <h3 class="ptitle">Process</h3>
-                <ul class="panel-ul w-[30vw]">
-                    <span>There are 2 levels of difficulties in this game.</span>
-                    <li>Level one: <span class="text-[1.1vw]">Children match and click on
-                            butterflies of one colour.</span>
-                    </li>
-                    <li>Level two: <span class="text-[1.1vw]"> Children match and click on
-                            butterflies with the same
-                            colours and patterns.</span></li>
-                </ul>
-            </div>
-        </div>
-    </div>
+    <h3 class="p-title">Theme: Fairy Tales</h3>
+    <img src="{{ asset('assets/images/micet/n2/fairy/class1/c4.png') }}" class="w-[30vw]" />
 </div>
 
 
 {{-- panel 5 --}}
-<div class="phonics-panel flex flex-col items-center h-full space-y-[0.1vw]">
-    <h1 class="panel-title stroke">Computer Activities: Our Colourful World</h1>
+<div class="phonics-panel flex flex-col justify-start h-full items-center">
+    <h3 class="p-title">One momning, Mama Bear makes Baby Bear's favourite porridge for
+        breakfast. However, the porridge is too hot, so they decide to go for a
+        walk and have the porridge when they come back.</h3>
+    <img src="{{ asset('assets/images/micet/n2/fairy/class1/c5.png') }}" class="w-[25vw]" />
 
-    <div class="text-start flex flex-col h-full">
+    <div class="flex items-center justify-between w-[45vw]">
+        <h3 class="p-title text-left">
+            What will you do if your food is too hot?<br>
+            <span class="text-[#f7b94a]">Guide the children to solve problems that they face in their daily life.</span>
+        </h3>
+        <div class="flex">
+            <img src="{{ asset('assets/images/micet/n2/fairy/class1/b2.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/n2/fairy/class1/b3.png') }}" class="w-[5vw] h-[4.5vw]] " />
+        </div>
+    </div>
+</div>
+
+
+{{-- panel 6 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center">
+    <h3 class="p-title">Careless Baby Bear forgets to shut the door when it leaves. Goldilocks
+        passes by and discovers that there is nobody at home so she quietly
+        enters the house.</h3>
+    <img src="{{ asset('assets/images/micet/n2/fairy/class1/c6.png') }}" class="w-[25vw]" />
+
+    <div class="flex items-center justify-around w-[45vw]">
+        <h3 class="p-title text-left">
+            What will you do if you see that the door of somebody's house is open?<br>
+            <span class="text-[#f7b94a]">Lead the children to reflect and help them develop good practices.</span>
+        </h3>
+        <img src="{{ asset('assets/images/micet/n2/fairy/class1/b3.png') }}" class="w-[5vw]" />
+    </div>
+</div>
+
+
+{{-- panel 7 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center">
+    <h3 class="p-title">Goldilocks is hungry. She sees the bowls of porridge on the table and
+        she tries them one by one. She finds that the porridge in Baby Bear's
+        bowl is the most delicious and finishes it.</h3>
+    <img src="{{ asset('assets/images/micet/n2/fairy/class1/c7.png') }}" class="w-[25vw]" />
+
+    <div class="flex items-center justify-between w-[45vw]">
+        <h3 class="p-title text-left">
+            Which is the biggest bowl on the table? Which is the smallest? To whom do
+            the bowls belong to?<br>
+            <span class="text-[#f7b94a]">Get children to compare the sizes of the bowls.</span>
+        </h3>
+        <img src="{{ asset('assets/images/micet/n2/fairy/class1/b2.png') }}" class="w-[5vw]" />
+    </div>
+</div>
+
+
+{{-- panel 8 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center">
+    <h3 class="p-title">Goldilocks walks into the living room and sees three beautiful chairs. She
+        tries them one by one. She discovers that Baby Bear's bubble chair is the
+        most comfortable. She accidentally spoils the chair.</h3>
+    <img src="{{ asset('assets/images/micet/n2/fairy/class1/c8.png') }}" class="w-[25vw]" />
+
+    <div class="flex items-center justify-around w-[45vw]">
+        <h3 class="p-title text-left">
+            Name the things in the bears' living room from left to right.<br>
+            <span class="text-[#f7b94a]">Guide children in understanding the concept of left and right by
+                relating the things in order.</span>
+        </h3>
+        <div class="flex">
+            <img src="{{ asset('assets/images/micet/n2/fairy/class1/b4.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/n2/fairy/class1/b1.png') }}" class="w-[5vw] h-[4.5vw]] " />
+        </div>
+    </div>
+</div>
+
+
+{{-- panel 9 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center">
+    <h3 class="p-title">Goldilocks feels a little tired. She goes to the bedroom and lies down on
+        Baby Bear's bed. The small bed is very comfortable! She lies there for
+        only awhile but soon falls asleep.</h3>
+    <img src="{{ asset('assets/images/micet/n2/fairy/class1/c9.png') }}" class="w-[30vw]" />
+
+    <div class="flex items-center justify-between w-[45vw]">
+        <h3 class="p-title text-left">
+            When do you think Goldilocks will wake up? <br>
+            <span class="text-[#f7b94a]">Encourage the children to predict what will happen next.</span>
+        </h3>
+        <img src="{{ asset('assets/images/micet/n2/fairy/class1/b5.png') }}" class="w-[10vw]" />
+    </div>
+</div>
+
+
+{{-- panel 10 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center">
+    <h3 class="p-title">Not long after, the bears return home. They see the messy room, the
+        empty bowl and the damaged chair. They are very angry!</h3>
+    <img src="{{ asset('assets/images/micet/n2/fairy/class1/c10.png') }}" class="w-[25vw]" />
+
+    <div class="flex items-center justify-between w-[45vw]">
+        <h3 class="p-title text-left">
+            What will you do if someone messes up your room?<br>
+            <span class="text-[#f7b94a]">Guide the children to empathise with the feelings of others.</span>
+        </h3>
+        <div class="flex">
+            <img src="{{ asset('assets/images/micet/n2/fairy/class1/b4.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/n2/fairy/class1/b3.png') }}" class="w-[5vw] " />
+        </div>
+    </div>
+</div>
+
+
+{{-- panel 11 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center">
+    <h3 class="p-title">They rush to the bedroom and see Goldilocks sound asleep. Just then,
+        Goldilocks wakes up. She runs away when she sees the bears.</h3>
+    <img src="{{ asset('assets/images/micet/n2/fairy/class1/c11.png') }}" class="w-[30vw]" />
+
+    <div class="flex items-center justify-between w-[45vw]">
+        <h3 class="p-title text-left">
+            Is it right for Goldilocks to behave in this manner?<br>
+            <span class="text-[#f7b94a]">Encourage the children to give their reasons for their answer.</span>
+        </h3>
+        <img src="{{ asset('assets/images/micet/n2/fairy/class1/b3.png') }}" class="w-[5vw]" />
+    </div>
+</div>
+
+
+{{-- panel 12 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center">
+    <h3 class="p-title">Later, Goldilocks feels that what she did is wrong. The next day, she
+        brings a new stool and goes to the bears' house. She apologises to
+        them. The bears are very happy and they forgive her.</h3>
+    <img src="{{ asset('assets/images/micet/n2/fairy/class1/c12.png') }}" class="w-[30vw]" />
+
+    <div class="flex items-center justify-between w-[45vw]">
+        <h3 class="p-title text-left">
+            Have you damaged other people's things before? What did you do?<br>
+            <span class="text-[#f7b94a]">Help the children understand the consequences of their actions<br>
+                (principle of compensation) if they damage other people's things.</span>
+        </h3>
+        <img src="{{ asset('assets/images/micet/n2/fairy/class1/b6.png') }}" class="w-[8vw]" />
+    </div>
+</div>
+
+
+
+{{-- panel 13 --}}
+<div class="phonics-panel flex flex-col items-center h-full space-y-[1vw]">
+    <h1 class="panel-title stroke">Classroom Activity 1: Goldilocks and the Three Bears</h1>
+
+    <div class="text-start flex flex-col justify-between h-full">
         <h3 class="ptitle">Clousre</h3>
 
         <ul class="list-disc panel-ul w-[45vw]">
-            <li>At the end of the lesson, gather children and talk about what they have
-                watched on the computer. Touch on the questions asked at the beginning of
-                the lesson.</li>
-            <li>Children try to name the seven colours of rainbow, beginning from the top.</li>
+            <li>Have the children retell the story in their own words, then</li>
+            <li>invite them to role play the characters in the story.</li>
         </ul>
 
         <h3 class="ptitle">Evaluation</h3>
 
         <ul class="list-disc panel-ul w-[45vw]">
-            <li>Children are able to complete the various activities in the
-                courseware independently. </li>
-            <li>Children are able to name the seven colours of the rainbow.</li>
-            <li>Children know that: <span class="text-right">red + yellow = orange,<br>
-                red + blue = purple,<br>
-                blue + yellow = green.</span></li>
+            <li>Able to compare sizes of objects.
+            </li>
+            <li>Able to understand consequences of one's actions (the
+                principle of compensation) if damage is caused to items
+                that belong to others.</li>
+            <li>Able to retell the story using own words.</li>
         </ul>
     </div>
 </div>
@@ -219,7 +283,8 @@ $showMascot = true;
 
 
 
-{{-- =============================================== --}}
+
+{{-- ================================ --}}
 {{-- All Buttons --}}
 <div id="buttons" class="absolute flex flex-row gap-6 z-90">
 
@@ -270,8 +335,8 @@ $showMascot = true;
         const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
         // URLs for navigation
-        const returnURL = "{{ url('/micet/n2/colour/index') }}";
-        const doneURL = "{{ url('/micet/n2/colour/index') }}";
+        const returnURL = "{{ url('/micet/n2/fairy/index') }}";
+        const doneURL = "{{ url('/micet/n2/fairy/index') }}";
 
         // Track current position
         let currentSlide = 0;
