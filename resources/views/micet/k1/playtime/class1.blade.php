@@ -50,18 +50,17 @@
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 1: Little Elephant Goes Missing</h1>
         <div class="flex items-center">
-            <img src="{{ asset('assets/images/micet/n2/colour/class1/c1.png') }}" class="h-[8vw]" />
-            <img src="{{ asset('assets/images/micet/n2/colour/class1/c2.png') }}" class="h-[8vw]" />
-            <img src="{{ asset('assets/images/micet/n2/colour/class1/c3.png') }}" class="h-[8vw]" />
-            <img src="{{ asset('assets/images/micet/n2/colour/class1/c4.png') }}" class="h-[8vw]" />
+            <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
+            <img src="{{ asset('assets/images/micet/n1/animals/class1/b1.png') }}" class="h-[8vw]" />
         </div>
+
 
         <h3 class="title">Objectives:</h3>
 
-        <ul class="list-disc panel-ul">
+        <ul class="list-disc panel-ul w-[45vw]">
             <li>Enjoy listening to a story</li>
             <li>Identify the recreational facilities in school</li>
-            <li>Learn to take care of the recreational facilities in school </li>
+            <li>Learn to take care of the recreational facilities in school</li>
         </ul>
     </div>
 
@@ -97,220 +96,176 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Our Colourful World</h1>
+        <h1 class="panel-title stroke">Little Elephant Goes Missing</h1>
 
-        <h3 class="p-title">Theme: Beautiful Colours</h3>
-        <img src="{{ asset('assets/images/micet/n2/colour/class1/c5.png') }}" class="w-[30vw]" />
+        <h3 class="p-title">Theme: Playtime</h3>
+        <img src="{{ asset('assets/images/micet/k1/playtime/class1/c1.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Each of the rainbow fairies thinks that she is the most beautiful.
-            They invite Mr Sun to be the judge.</h3>
-        <img src="{{ asset('assets/images/micet/n2/colour/class1/c6.png') }}" class="w-[30vw]" />
+        <h3 class="p-title">There are many toys to play with in the school playground. The Little <br>
+            Elephant slide is the children's favourite. At playtime, all the children <br>
+            want to play with Little Elephant. Little Elephant is very happy!</h3>
+        <img src="{{ asset('assets/images/micet/k1/playtime/class1/c2.png') }}" class="w-[30vw]" />
 
-        <div class="flex items-center justify-center w-full">
+        <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                Have you ever seen a rainbow?<br>
-                <span class="text-[#f7b94a]">Name the colours in the rainbow.</span>
+                What sort of recreational facilities or games do you have in your school?<br>
+                <span class="text-[#f7b94a]">Develop children's memory and expression skills.</span>
             </h3>
+            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
     </div>
 
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Red Fairy takes everyone to a place where the people are celebrating
-            Chinese New Year. Almost everything is red, even the mandarin oranges!
-            Unhappy Orange Fairy says mandarin oranges should be orange.</h3>
-        <img src="{{ asset('assets/images/micet/n2/colour/class1/c7.png') }}" class="w-[27vw]" />
+        <h3 class="p-title">However, as new toys are added to the playground, the children begin to <br>
+            lose interest in Little Elephant. Time passes, and Little Elephant becomes dirty. Its <br>
+            body is covered with scratches. The children do not want to play with it anymore.</h3>
+        <img src="{{ asset('assets/images/micet/k1/playtime/class1/c3.png') }}" class="w-[25vw]" />
 
         <div class="flex items-center justify-around w-full">
             <h3 class="p-title text-left">
-                Why are many things red during Chinese New Year?
-                <br>
-                <span class="text-[#f7b94a]">Talk about the significance of this colour in the Chinese culture.</span>
+                What was your favourite toy? What is your favourite toy now?<br>
+                <span class="text-[#f7b94a]">Develop children's reflective skills.</span>
             </h3>
+            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
     </div>
 
 
     {{-- panel 7 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Orange Fairy takes everyone to an orchard. The mandarin oranges and
-            orange peais look so delicious that all the fairies want to eat them.
-            Unhappy Yellow Fairy says that peais should be yellow.</h3>
-        <img src="{{ asset('assets/images/micet/n2/colour/class1/c8.png') }}" class="w-[25vw]" />
+    <div class="phonics-panel flex flex-col justify-start h-full items-center mt-[-4vw]">
+        <h3 class="p-title">Little Elephant is very sad. It wants to leave the school with Springy Horse <br>
+            but Springy Hoise's legs are tied so Springy Horse is not able to walk. <br>
+            Hence, Little Elephant leaves the school on its own.</h3>
+        <img src="{{ asset('assets/images/micet/k1/playtime/class1/c4.png') }}" class="w-[30vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                Which 2 colours make orange? <br>
-                <span class="text-[#f7b94a]">Children recoll the c'her 2 secondary colours and how these colours are
-                    obtained.</span>
+                Why does Little Elephant want to leave school? Where does it want to go to?<br>
+                <span class="text-[#f7b94a]">Help children understand Little Elephant's feelings and anticipate <br>
+                    where it wants to go.</span>
             </h3>
+            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
     </div>
 
 
     {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Yellow Fairy takes everyone to a desert. The cactus flowers, the sand
-            and even the trees are yellow. Unhappy Green Fairy says that trees
-            should be green.</h3>
-        <img src="{{ asset('assets/images/micet/n2/colour/class1/c9.png') }}" class="w-[30vw]" />
+        <h3 class="p-title">Little Elephant anives at a park and sees Jojo crying. Jojo is sad because <br>
+            she is unable to find her mother. Little Elephant asks Jojo to play and that <br>
+            brings a smile to Jojo's face. Mummy finds Jojo upon hearing herlaughter.</h3>
+        <img src="{{ asset('assets/images/micet/k1/playtime/class1/c5.png') }}" class="w-[25vw]" />
 
-        <div class="flex items-center justify-center w-full">
+        <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                Name the yellow things you can see around us.<br>
-                <span class="text-[#f7b94a]">Draw children's attention to the different shades of yellow.</span>
+                Have you ever been separated from your parents when they took you <br>
+                out? What should you do when you are separated from them?<br>
+                <span class="text-[#f7b94a]">Help children develop problem solving skills independently.</span>
             </h3>
+            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
     </div>
 
 
     {{-- panel 9 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Green Fairy takes everyone to a big green forest. There they see
-            morning glory crying sadly. Unhappy Violet Fairy says that the morning
-            glory should be violet and quickly turns it back to violet.</h3>
-        <img src="{{ asset('assets/images/micet/n2/colour/class1/c10.png') }}" class="w-[25vw]" />
+        <h3 class="p-title">The next day, Jojo brings her friends to play with Little Elephant. They <br>
+            notice that Little Elephant's clothes are old and dirty, so they give it a <br>
+            new coat of paint.</h3>
+        <img src="{{ asset('assets/images/micet/k1/playtime/class1/c6.png') }}" class="w-[30vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                Why did the moming glory cry? <br>
-                <span class="text-[#f7b94a]">Children relate instances when they have cried. Help children be
-                    sensitive to the feelings of others.</span>
+                What is paint? What is it used for? When is it used? <br>
+                <span class="text-[#f7b94a]">Help children understand the uses of paint.</span>
             </h3>
-            <img src="{{ asset('assets/images/micet/n2/colour/class1/b1.png') }}" class="w-[5vw]" />
-            <img src="{{ asset('assets/images/micet/n2/colour/class1/b2.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
     </div>
 
 
     {{-- panel 10 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Violet Fairy takes everyone to a big field. The colour of the flowers,
-            grapes, eggplants, butterflies and even the sky is violet. Unhappy Blue Fairy says
-            that the sky should be blue.</h3>
-        <img src="{{ asset('assets/images/micet/n2/colour/class1/c11.png') }}" class="w-[25vw]" />
+        <h3 class="p-title">Little Elephant looks smart in its new clothes. Everyone likes him, but <br>
+            soon, Little Elephant begins to miss home. It decides to go back to <br>
+            school to play with the children.</h3>
+        <img src="{{ asset('assets/images/micet/k1/playtime/class1/c7.png') }}" class="w-[30vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                Look at the colour violet. What colours do you need to mix to get violet?<br>
-                <span class="text-[#f7b94a]">Find out when you are at the art comer.</span>
+                What is the difference between Little Elephant's feelings in the past <br>
+                and in the present?<br>
+                <span class="text-[#f7b94a]">Enhance children's observation skills.</span>
             </h3>
-            <div class="flex items-center">
-                <img src="{{ asset('assets/images/micet/n2/colour/class1/b3.png') }}" class="w-[5vw]" />
-                <img src="{{ asset('assets/images/micet/n2/colour/class1/b4.png') }}" class="w-[5vw]" />
-            </div>
+            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
     </div>
 
 
     {{-- panel 11 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Blue Fairy takes everyone to the beach. The blue ocean and sky look <br>
-            beautiful. Everyone sits here and enjoys the scenery. Evening comes but <br>
-            the sky is still a bright blue. It feels strange.</h3>
-        <img src="{{ asset('assets/images/micet/n2/colour/class1/c12.png') }}" class="w-[25vw]" />
+        <h3 class="p-title">Little Elephant returns to school! Springy Horse and its other friends are <br>
+            very happy to see it. Springy Horse tells Little Elephant that the children <br>
+            missed it.</h3>
+        <img src="{{ asset('assets/images/micet/k1/playtime/class1/c8.png') }}" class="w-[30vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                Name the things that are blue.
-                <br>
-                <span class="text-[#f7b94a]">Say what the colours blue, green and purple have in common.</span>
+                Count the number of toys in school.<br>
+                <span class="text-[#f7b94a]">Enhance children's observation and counting skills.</span>
             </h3>
-            <div class="flex items-center">
-                <img src="{{ asset('assets/images/micet/n2/colour/class1/b5.png') }}" class="h-[5vw]" />
-                <img src="{{ asset('assets/images/micet/n2/colour/class1/b6.png') }}" class="h-[6vw]" />
-            </div>
+            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
     </div>
 
 
     {{-- panel 12 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Finally, Indigo fairy tums the sky into indigo. Everyone cheers when they<br>
-            see the bright shining stars appear. Mr Sun says it feels strange when<br>
-            many things are of the same colour.</h3>
-        <img src="{{ asset('assets/images/micet/n2/colour/class1/c13.png') }}" class="w-[25vw]" />
+        <h3 class="p-title">It is playtime at school. The children see Little Elephant and rush to play <br>
+            with it. Everyone agrees that they must take good care of Little Elephant <br>
+            from now on.</h3>
+        <img src="{{ asset('assets/images/micet/k1/playtime/class1/c9.png') }}" class="w-[25vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                Are these colours - blue and indigo - the same?<br>
-                <span class="text-[#f7b94a]">Children look for things in shades of blue and indigo.</span>
+                Why should the children take care of the Little Elephant slide? <br>
+                How would you take care of the toys?<br>
+                <span class="text-[#f7b94a]">Help children understand how they should treasure theirtoys.</span>
             </h3>
-            <div class="flex items-center">
-                <img src="{{ asset('assets/images/micet/n2/colour/class1/b7.png') }}" class="h-[5vw]" />
-                <img src="{{ asset('assets/images/micet/n2/colour/class1/b8.png') }}" class="h-[5vw]" />
-            </div>
+            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
     </div>
 
 
     {{-- panel 13 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">He says that it is very beautiful when we can see many different colours.
-            So the Rainbow Fairies must always be together to be really beautiful.</h3>
-        <img src="{{ asset('assets/images/micet/n2/colour/class1/c14.png') }}" class="w-[25vw]" />
-
-        <div class="flex items-center justify-between w-full">
-            <h3 class="p-title text-left">
-                What are the children doing?<br>
-                <span class="text-[#f7b94a]">Talk about instances when "rainbows" are created, for example when the light
-                    roys travel thraugh water, prisms, mists.</span>
-            </h3>
-            <div class="flex items-center">
-                <img src="{{ asset('assets/images/micet/n2/colour/class1/b9.png') }}" class="w-[5vw]" />
-            </div>
-        </div>
-    </div>
-
-
-    {{-- panel 14 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Little Elephant Goes Missing</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="2">
-            <li>Guide children to complete the corresponding activity in the Thematic
-                Activity Book.</li>
-        </ol>
-    </div>
-
-
-    {{-- panel 14 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Little Elephant Goes Missing </h1>
+        <h1 class="panel-title stroke">Classroom Activity 1: Little Elephant Goes Missing</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Let the children name the seven colours of a rainbow.<br>
-                    Ask children to name the colours on their clothes. </li>
+                <li>Let children name some recreational facilities in school and ways to take care of them.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to name the seven colours of a rainbow.</li>
-                <li>Understand that like the rainbow, we can be at our best when<br>we work as a team.</li>
+                <li>Able to state why the Little Elephant leaves school.</li>
+                <li>Able to name some recreational facilities in school.</li>
+                <li>Able to state some ways of taking care of recreational facilities.</li>
             </ul>
         </div>
     </div>
 
 
-    {{-- panel 15 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Little Elephant Goes Missing</h1>
-        <div>
-            <h3 class="ptitle">Evaluation</h3>
-            <ol class="list-decimal panel-ul w-[45vw]" start="2">
-                <li>Encourage children to paint the rainbow in the art corner.</li>
-            </ol>
-        </div>
-    </div>
+
 
 
     {{-- ================================ --}}
@@ -364,8 +319,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/colour/index') }}";
-            const doneURL = "{{ url('/micet/n2/colour/index') }}";
+            const returnURL = "{{ url('/micet/k1/playtime/index') }}";
+            const doneURL = "{{ url('/micet/k1/playtime/index') }}";
 
             // Track current position
             let currentSlide = 0;
