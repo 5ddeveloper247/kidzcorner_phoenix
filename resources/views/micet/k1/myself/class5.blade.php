@@ -38,7 +38,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: Where Do They Live?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Wear it Myself</h1>
         <div class="flex ">
             <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
             <img src="{{ asset('assets/images/micet/n1/mybody/class2/c1.png') }}" class="h-[12vw]" />
@@ -48,23 +48,28 @@
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul">
-            <li>Understand more about the living environments of some animals</li>
-            <li>Use imagination to draw an animal and its living environment</li>
+            <li>Learn to put on clothes and button up</li>
+            <li>Learn to put on shoes and tie shoelaces</li>
+            <li>Develop self-help skills</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 5: Where Do They Live?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Wear it Myself</h1>
 
         <div>
             <h3 class="ptitle">Preparations</h3>
 
             <ul class="list-disc panel-ul">
                 <li>Thematic Activity Book</li>
-                <li>Drawing papers</li>
-                <li>Colour pencils</li>
+                <li>Before this activity, remind the children to wear clothes with
+                    buttons to school</li>
+                <li>Before this activity, remind the children to wear shoes with
+                    shoelaces to school</li>
+                <li>Prepare some extra pairs of children shoes with shoelaces
+                    and clothes with buttons</li>
             </ul>
         </div>
     </div>
@@ -72,92 +77,100 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: Where Do They Live?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Wear it Myself</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[50vw]">
-                <li>Let the children compare the three living environments of animals and talk
-                    about the differences that they can see. For example, there are water plants
-                    and reefs in the sea; there are trees and mountains on land; there are clouds,
-                    rainbows and the Sun in the sky.</li>
+                <li>Ask the children if they know how to put on their clothes? Let the children
+                    describe how to put on their clothes and button them.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/micet/n2/animals/class5/c1.png') }}" class="h-[17vw]" />
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: Where Do They Live?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Wear it Myself</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="2">
-            <li>Invite children to think and talk about other living environments such as river,
-                lake, dessert, forest, etc.</li>
+            <li>Ask a few children to demonstrate how to button their clothes.</li>
+            <li>Pair up one child who is able to button his clothes with another child who is
+                unable to, encouraging the former to teach the latter.</li>
         </ol>
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: Where Do They Live?</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="3">
-            <li>Let the children look at the animal pictures below and name the environment
-                that the animals live in.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/animals/class5/c2.png') }}" class="w-[30vw]" />
-    </div>
-
-
-    {{-- panel 6 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: Where Do They Live?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Wear it Myself</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="4">
-            <li>Let the children look at the animal pictures below and name the environment
-                that the animals live in.</li>
+            <li>Teacher can compose a rhyme and help the children to read it aloud and
+                practise buttoning their clothes. For example:</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/animals/class5/c3.png') }}" class="w-[30vw]" />
+        <h4 class="text-white text-[2vw] mt-[5vw] text-start">
+            I know how to wear my clothes. <br>
+            Put it on and button it up. <br>
+            Push the buttons through the holes. <br>
+            I have nimble fingers.
+        </h4>
     </div>
 
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: Where Do They Live?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Wear it Myself</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="5">
-            <li>Let the children look at the animal pictures below and name the environment
-                that the animals live in.</li>
+            <li>Invite the children to say the rhyme aloud and compete to see who can
+                button their clothes /who can button their clothes the fastest. Encourage all
+                the children for their effort.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/animals/class5/c4.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: Where Do They Live?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Wear it Myself</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="6">
-            <li>Ask the children; 'If you could be an animal, which animal would you want to
-                be? Why? Where does this animal live?</li>
-            <li>Let the children express what they think and say what animal they would want
-                to be and the environment that they would want to live in (sea, land or sky).</li>
-            <li>Distribute drawing papers. Ask children to use their imagination to draw the
-                animal they would want to be and its living environment. Guide the children to
-                include distinctive features of the environment, e.g. waves or trees or clouds.</li>
-            <li>If time permits, children may also draw other animals that live in the
-                environment that they have drawn.</li>
+            <li>Follow a similar pattern as earlier for teaching the skill of tying shoelaces.
+                Teacher can compose a rhyme and help the children to read it aloud and
+                practise tying their shoe laces. For example:</li>
+        </ol>
+        <h4 class="text-white text-start text-[1.5vw]">
+            Come on everybody, put on your shoes, <br>
+            Pick up the laces, one and two, <br>
+            Cross them over, make an X, <br>
+            Pass one under, pull them tight, <br>
+            Fold each over, for two bunny ears, <br>
+            One runs around the other, <br>
+            Then goes through the hole, <br>
+            Pull tight again, <br>
+            And now we're done.
+        </h4>
+    </div>
+
+
+    {{-- panel 6 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 5: Wear it Myself</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="7">
+            <li>Invite a few of the children to stand in front of the class and have a
+                competition of tying shoelaces to see who can do it/ who can do it the fastest.
+                Praise all the children for their effort.</li>
         </ol>
     </div>
 
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: Where Do They Live?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Wear it Myself</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="10">
+        <ol class="list-decimal panel-ul w-[50vw]" start="8">
             <li>Guide children to complete the corresponding activities in the Thematic
                 Activity Book.</li>
         </ol>
@@ -166,21 +179,38 @@
 
     {{-- panel 18 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 5: Where Do They Live?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Wear it Myself</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Invite children to take turns to present and describe their drawings.</li>
+                <li>Lead the children in reading aloud "Buttoning My Clothes"
+                    and "Tying My Shoelaces" rhymes and doing the
+                    corresponding actions.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to talk about the living environments of some animals.</li>
-                <li>Able to say why they want to be a certain animal.</li>
-                <li>Able to draw an animal and its living environment.</li>
+                <li>Able to button clothes and tie shoelaces.</li>
+                <li>Able to put on clothes and shoes independently.</li>
+            </ul>
+        </div>
+    </div>
+
+    {{-- Panel --}}
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
+        <h1 class="panel-title stroke">Classroom Activity 5: Wear it Myself</h1>
+
+        <div class="text-start flex flex-col h-full">
+            <h3 class="ptitle">Extension</h3>
+
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Place some clothes with buttons and shoes with shoelaces
+                    in the activity corner for the children to practise further</li>
+                <li>Encourage the children to button their own clothes and tie
+                    their shoelaces daily.</li>
             </ul>
         </div>
     </div>
@@ -239,8 +269,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/animals/index') }}";
-            const doneURL = "{{ url('/micet/n2/animals/index') }}";
+            const returnURL = "{{ url('/micet/k1/myself/index') }}";
+            const doneURL = "{{ url('/micet/k1/myself/index') }}";
 
             // Track current position
             let currentSlide = 0;
@@ -499,6 +529,5 @@
             // INITIALIZE - Show first slide and play its audio automatically
             showSlide(currentSlide);
         });
-
     </script>
 @endpush

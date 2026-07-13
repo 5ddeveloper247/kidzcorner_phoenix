@@ -38,7 +38,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Let’s Imitate the Animals</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Let’s Exercise</h1>
         <div class="flex ">
             <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
             <img src="{{ asset('assets/images/micet/n1/mybody/class2/c1.png') }}" class="h-[12vw]" />
@@ -48,15 +48,16 @@
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul">
-            <li>Differentiate the sounds produced by three animals</li>
-            <li>Differentiate the sounds produced by three animals</li>
+            <li>Sing "Let's Exercise" song</li>
+            <li>Learn to substitute words in the lyrics</li>
+            <li>Create different movements according to the song and perform them</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Let’s Imitate the Animals</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Let’s Exercise</h1>
 
         <div>
             <h3 class="ptitle">Preparations</h3>
@@ -70,134 +71,76 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Let’s Imitate the Animals</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Let’s Exercise</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[50vw]">
-                <li>Click to play the animal sound. Let the children listen carefully for a few times
-                    and name the animal that makes this sound. Provide some hints if the children
-                    are unable to guess correctly.</li>
-                <li>Let the children describe the movements of this animal.</li>
+                <li> <span class="flex items-end">Let the children listen to the "Let's Exercise" song.
+                        <button class="w-[2.5vw]" id="soundButton">
+                            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                        </button></span></li>
+                <li>Ask the children to name the parts of the body mentioned in the song and
+                    describe their corresponding movements.</li>
             </ol>
         </div>
-        <button class="w-[5vw] mt-[7vw]" id="soundButton">
-            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-        </button>
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Let’s Imitate the Animals</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Let’s Exercise</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="3">
-            <li>Click to play the animation. Let the children look at the actions of the animal.
-                Describe the actions as the animation is played. Encourage children to use
-                appropriate adjectives and describe the actions of the animal.</li>
-            <li>Invite a few children to perform these actions.</li>
+            <li>Teach the children lyrics of the song.</li>
+            <li>Have the children follow and read out the lyrics according to the rhythm of the
+                <span class="flex items-end">music.<button class="w-[2.5vw]" id="soundButton">
+                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                    </button>
+                </span>
+            </li>
         </ol>
-
-        <video class="h-[17vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-            <source src="{{ asset('assets/images/micet/n2/animals/class6/v1.mp4') }}" type="video/mp4">
-        </video>
+        <h4 class="text-white text-[1.7vw] text-start">
+            Choose a partner, dance around, <br>
+            Tap your feet on the ground. <br>
+            Rub your tummy, wiggle your nose, <br>
+            Shake your bottom, touch your toes. <br>
+            Choose a partner, dance around, <br>
+            Tap your feet on the ground. <br>
+            Rub your tummy, wiggle your nose, <br>
+            Shake your bottom, touch your toes.</h4>
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Let’s Imitate the Animals</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Let’s Exercise</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="5">
-            <li>Click to play the animal sound. Let the children listen carefully for a few times
-                and name the animal that makes this sound. Provide some hints if the children
-                are unable to guess correctly.</li>
-            <li>Let the children describe the movements of this animal.</li>
+            <li>When the children are familiar with the lyrics, click on the animation. Let them
+                sing the song and perform the corresponding movements.</li>
         </ol>
-
-        <button class="w-[5vw] mt-[7vw]" id="soundButton">
-            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-        </button>
+        <img src="{{ asset('assets/images/micet/k1/myself/class6/c1.png') }}" class="h-[20vw]">
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Let’s Imitate the Animals</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Let’s Exercise</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="7">
-            <li>Click to play the animation. Let the children look at the actions of the animal.
-                Describe the actions as the animation is played. Encourage children to use
-                appropriate adjectives and describe the actions of the animal.</li>
-            <li>Invite a few children to perform these actions.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="6">
+            <li>Invite children to substitute the words in the song with their own words, and do
+                the corresponding new movements.</li>
         </ol>
-
-        <video class="h-[17vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-            <source src="{{ asset('assets/images/micet/n2/animals/class6/v2.mp4') }}" type="video/mp4">
-        </video>
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Let’s Imitate the Animals</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Let’s Exercise</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="9">
-            <li>Click to play the animal sound. Let the children listen carefully for a few times
-                and name the animal that makes this sound. Provide some hints if the children
-                are unable to guess correctly.</li>
-            <li>Let the children describe the movements of this animal.</li>
-        </ol>
-
-        <button class="w-[5vw] mt-[7vw]" id="soundButton">
-            <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-        </button>
-    </div>
-
-
-    {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Let’s Imitate the Animals</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="11">
-            <li>Click to play the animation. Let the children look at the actions of the animal.
-                Describe the actions as the animation is played. Encourage children to use
-                appropriate adjectives and describe the actions of the animal.</li>
-            <li>Invite a few children to perform these actions.</li>
-        </ol>
-
-        <video class="h-[17vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-            <source src="{{ asset('assets/images/micet/n2/animals/class6/v3.mp4') }}" type="video/mp4">
-        </video>
-    </div>
-
-
-    {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Let’s Imitate the Animals</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="13">
-            <li>Guide the children to play the "Let's Imitate the Animals" game.</li>
-            <li>Organise the children into groups. Each group represents an animal (choose
-                between the three animals mentioned earlier). Tell a story about the three
-                animals. When an animal is mentioned, the group of children representing the
-                animal have to imitate that animal's movement and sound. For example :
-                "There is an animal party today. All the animals are attending the party.
-                Everybody is happy and excited to see the animals perform. It's the sea lion's
-                turn to perform. The sea lion performs by heading a ball. (One group of children
-                will act like sea lions heading a ball with their heads and snouts.) It's the
-                duckling's turn now. The yellow duckling sings (another group of children will
-                imitate the way ducks waddle and the sounds they produce)."</li>
-        </ol>
-    </div>
-
-
-    {{-- panel 6 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Let’s Imitate the Animals</h1>
-
-        <ol class="list-decimal panel-ul" start="15">
+        <ol class="list-decimal panel-ul w-[50vw]" start="7">
             <li>Guide children to complete the corresponding activities in the Thematic
                 Activity Book.</li>
         </ol>
@@ -206,38 +149,28 @@
 
     {{-- panel 28 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Let’s Imitate the Animals</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Let’s Exercise</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
-            <ul class="list-disc panel-ul">
-                <li>Swap the groups and repeat the game.</li>
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Have a few children volunteer to sing their versions of the
+                    song and perform the corresponding movements in front of
+                    the class.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
-            <ul class="list-disc panel-ul">
-                <li>Able to differentiate the sounds produced by three animals.</li>
-                <li>Able to imitate the sounds and actions of three animals.</li>
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Able to sing the "Let's Exercise" song and do the movements.</li>
+                <li>Able to change the lyrics and create their own version of the
+                    song with corresponding movements.</li>
             </ul>
         </div>
     </div>
 
 
-    {{-- panel 29 --}}
-    <div class="phonics-panel flex flex-col items-center justify-start h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Let’s Imitate the Animals</h1>
-
-        <div class="text-start">
-            <h3 class="ptitle">Extension</h3>
-
-            <ul class="list-disc panel-ul">
-                <li>Imitate the sounds of other animals. Let the children guess each
-                    animal and imitate the sounds and actions of that animal.</li>
-            </ul>
-        </div>
-    </div>
 
 
     {{-- =============================================== --}}
@@ -291,8 +224,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/animals/index') }}";
-            const doneURL = "{{ url('/micet/n2/animals/index') }}";
+            const returnURL = "{{ url('/micet/k1/myself/index') }}";
+            const doneURL = "{{ url('/micet/k1/myself/index') }}";
 
             // Track current position
             let currentSlide = 0;
@@ -551,6 +484,5 @@
             // INITIALIZE - Show first slide and play its audio automatically
             showSlide(currentSlide);
         });
-
     </script>
 @endpush

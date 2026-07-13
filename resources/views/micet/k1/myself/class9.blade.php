@@ -38,52 +38,45 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 9: Our Zoo</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: Let Me Help You</h1>
         <img src="{{ asset('assets/images/micet/n1/mybody/c9.1.png') }}" class="h-[8vw]" />
 
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul">
-            <li>Draw one's favourite animal</li>
-            <li>Learn to work with group members to decorate the
-                classroom like a zoo</li>
+            <li>To be willing to help others according to one's ability</li>
+            <li>Cultivate the spirit of helping others</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Our Zoo</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: Let Me Help You</h1>
 
         <div>
             <h3 class="ptitle">Preparations</h3>
 
             <ol class="list-disc panel-ul w-[45vw]">
                 <li>Thematic Activity Book</li>
-                <li>A4 size papers</li>
-                <li>Colour pencils</li>
-                <li>Old newspapers, magazines, books etc with different animals
-                    pictures</li>
-                <li>Glue</li>
-                <li>Prepare craft items that are a part of the three living
-                    environments (land, water, sky) beforehand. e.g. Mountains,
-                    trees, the sun, clouds, sea weeds, rocks, etc</li>
+                <li>Keep story books about being helpful in the reading area of
+                    the classroom for the children to read</li>
             </ol>
         </div>
     </div>
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Our Zoo</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: Let Me Help You</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[45vw]">
-                <li>Inform the class that they are going to construct a zoo in the classroom.</li>
-                <li>Divide the classroom into three regions, one for the animals that live in water,
-                    one for the animals that live on land, and one for the animals that live in the
-                    sky.</li>
+                <li>Ask children to recall the story "Just like Big Brother!" and identify who Danny
+                    helped. Ask them," What did Danny do? Why?"</li>
+                <li>Let the children share about the times when they helped other family
+                    members and describe what they did.</li>
             </ol>
         </div>
     </div>
@@ -91,49 +84,68 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Our Zoo</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="2">
-            <li>Let the children name the things that can be shared and that cannot be
-                shared. Ask them to explain why.</li>
-        </ol>
-    </div>
-
-
-    {{-- panel 3 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Our Zoo</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: Let Me Help You</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Have the children name some zoo animals and let them say whether the
-                animal lives on land, in water or in the sky.</li>
-            <li>Let the children now name their favourite animal and say where it lives. Then let
-                the children draw their favourite animal.</li>
+            <li>Help the children to understand that different family members of different ages
+                require different forms of assistance. For example, they can help the aged,
+                who have difficulty moving, by fetching things for them and they can help
+                their working parents to tidy the house.</li>
         </ol>
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Our Zoo</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: Let Me Help You</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="4">
+            <li>Let the children think and talk about the chores they can do or like to do at
+                home. Teacher can record their actions on the white board.</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 9: Let Me Help You</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="5">
-            <li>Ask children to tear out pictures of different animals from old newspapers,
-                magazines or books. Let them categorize the pictures and their drawings
-                according to the living environment( land, water, sky) that the animal belongs
-                to.</li>
-            <li>Divide the children into three groups. Let each group be in charge of one
-                region. Encourage the children to work in groups to decorate their region with
-                animal pictures, drawings and other features reflecting that living environment.</li>
+            <li>Ask the children to form small groups. Let them discuss how they can help
+                each of their family members. Encourage the children to share their own
+                experience in doing certain things. For example how to tidy up their toys, how
+                to water the plants, how to clear the table and how to get the newspaper.</li>
         </ol>
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Our Zoo</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: Let Me Help You</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="6">
+            <li>Encourage the children to keep their word and help their family members to
+                do household chores.</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 9: Let Me Help You</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="7">
+            <li>Ask the children: "Have you ever helped others (non-family members)?";
+                "Have you ever been helped by others?"</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 9: Let Me Help You</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="8">
             <li>Guide children to complete the corresponding activities in the Thematic
                 Activity Book.</li>
         </ol>
@@ -143,22 +155,24 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Our Zoo</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: Let Me Help You</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Let the children enjoy a walk around their classroom zoo and
-                    see and name the animals in the different living regions.</li>
+                <li>Ask children : "How do you feel when you help others?";
+                    "How do you feel when others help you?"
+                    Guide children to understand that we feel happy in both the
+                    situations.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to draw one's favourite animal.</li>
-                <li>Able to work with group members to decorate the classroom
-                    like a zoo.</li>
+                <li>Willing to help others to perform tasks according to one's
+                    own ability.</li>
+                <li>Know the joy of helping.</li>
             </ul>
         </div>
     </div>
@@ -219,8 +233,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/animals/index') }}";
-            const doneURL = "{{ url('/micet/n2/animals/index') }}";
+            const returnURL = "{{ url('/micet/k1/myself/index') }}";
+            const doneURL = "{{ url('/micet/k1/myself/index') }}";
 
             // Track current position
             let currentSlide = 0;
@@ -479,6 +493,5 @@
             // INITIALIZE - Show first slide and play its audio automatically
             showSlide(currentSlide);
         });
-
     </script>
 @endpush

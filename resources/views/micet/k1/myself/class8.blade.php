@@ -38,23 +38,21 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: Guess Who?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: This is How I Grow Up</h1>
         <img src="{{ asset('assets/images/micet/n1/mybody/c8.1.png') }}" class="h-[8vw]" />
 
         <h3 class="ptitle">Objectives:</h3>
 
-        <ul class="list-disc panel-ul w-[45vw]">
-            <li>Learn to describe the characteristics of animals</li>
-            <li>Listen to riddles and guess the answer</li>
-            <li>Develop listening skills, logical thinking skills and
-                comprehension skills</li>
+        <ul class="list-disc panel-ul">
+            <li>Identify the stages of human growth</li>
+            <li>Understand one's growing up stages</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: Guess Who?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: This is How I Grow Up</h1>
 
         <div>
 
@@ -62,7 +60,8 @@
 
             <ul class="list-disc panel-ul">
                 <li>Thematic Activity Book</li>
-                <li>Pictures of Different Animals</li>
+                <li>Prior to this activity, inform parents to let their children bring</li>
+                <li>a baby photo of themselves to school</li>
             </ul>
         </div>
     </div>
@@ -70,171 +69,60 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: Guess Who?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: This is How I Grow Up</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[45vw]">
-                <li>Invite children to play a riddle game.</li>
-                <li>Let the children listen to a riddle and guess the animal. (What animal is it?)</li>
+                <li>Ask the children to describe how they have changed from when they were an
+                    infant up until the present. They can compare their physical appearance (size,
+                    facial features, hair etc) and their abilities (to walk, talk, sing etc).</li>
             </ol>
-        </div>
-
-        <div class="flex gap-[2vw] items-start">
-            <button class="w-[3.5vw]" id="soundButton">
-                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-            </button>
-            <ul class="list-disc text-white text-[1.7vw] text-start">
-                <li>This animal lives in the sea.</li>
-                <li> It has whiskers and ear flaps. </li>
-                <li> It can balance a ball. </li>
-                <li> It produces this sound </li>
-                <li> (Answer: Sea lion)</li>
-            </ul>
         </div>
     </div>
 
 
     {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: Guess Who?</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 8: This is How I Grow Up</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="2">
-            <li>When the children answer correctly, click to play the animation. Let the
-                children check if their answer matches the animal description in the riddle.</li>
+            <li>Click on the picture below to open the Software Magnetic Board. Guide the
+                children to arrange in sequence, the development of men and women from
+                birth to old age.</li>
         </ol>
 
-        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-            <source src="{{ asset('assets/images/micet/n2/school/class6/v2.mp4') }}" type="video/mp4">
-        </video>
+        <img src="{{ asset('assets/images/micet/k1/myself/class8/c1.png') }}" class="h-[20vw]">
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: Guess Who?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: This is How I Grow Up</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Let the children display their baby photo and have them look at each other's
+                photographs.</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 6 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 8: This is How I Grow Up</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Let the children listen to a riddle and guess the animal. (What animal is it?)</li>
+            <li>Let the children form pairs and share their growing up story with their partner.</li>
         </ol>
-        <div class="flex gap-[2vw] items-start">
-            <button class="w-[3.5vw]" id="soundButton">
-                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-            </button>
-            <ul class="list-disc text-white text-[1.7vw] text-start">
-                <li>This animal lives on the lnad.</li>
-                <li> It has a very long nose. </li>
-                <li> It can spray water. </li>
-                <li> It produces this sound <br>
-                    (Answer: Elephant)</li>
-            </ul>
-        </div>
     </div>
 
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: Guess Who?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: This is How I Grow Up</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="5">
-            <li>When the children answer correctly, click to play the animation. Let the
-                children check if their answer matches the animal description in the riddle.</li>
-        </ol>
-        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-            <source src="{{ asset('assets/images/micet/n2/school/class6/v3.mp4') }}" type="video/mp4">
-        </video>
-    </div>
-
-
-    {{-- panel 6 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: Guess Who?</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="6">
-            <li>Let the children listen to a riddle and guess the animal. (What animal is it?)</li>
-        </ol>
-        <div class="flex gap-[2vw] items-start">
-            <button class="w-[3.5vw]" id="soundButton">
-                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-            </button>
-            <ul class="list-disc text-white text-[1.7vw] text-start">
-                <li>This animal lives in the sky.</li>
-                <li> It has very big eyes.</li>
-                <li> It can catch mice. </li>
-                <li> It produces this sound <br>
-                    (Answer: Owl)</li>
-            </ul>
-        </div>
-    </div>
-
-
-    {{-- panel 6 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: Guess Who?</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="7">
-            <li>When the children answer correctly, click to play the animation. Let the
-                children check if their answer matches the animal description in the riddle.</li>
-        </ol>
-        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-            <source src="{{ asset('assets/images/micet/n2/school/class8/v1.mp4') }}" type="video/mp4">
-        </video>
-    </div>
-
-
-    {{-- panel 6 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: Guess Who?</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="8">
-            <li>Guide the children to compose one or two riddles of their own using these
-                sentence structures.</li>
-        </ol>
-        <ul class="list-disc text-white text-[1.7vw] text-start">
-            <li>This animal ________________.</li>
-            <li> It has _______________.</li>
-            <li> It can ____________. </li>
-            <li> It produces this sound........ <br>
-                (Answer: ________)</li>
-        </ul>
-    </div>
-
-
-    {{-- panel 6 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: Guess Who?</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="9">
-            <li>Organise the children in pairs. Let the teacher hold some animal pictures.
-                Invite each pair to draw one animal picture from the teacher. Remind the
-                children not to let the others see the animal picture.Let each pair compose a
-                riddle based on the animal in the picture.</li>
-            <li>When all the pairs have composed their riddles, ask each pair to take turns to
-                say their riddle and let others guess the answer. If the other children guess the
-                answer correctly, let the pair show the picture of the animal. If the answer is
-                wrong, guide the pair to change the words in the riddle so that it is easier to
-                get the answer.</li>
-        </ol>
-    </div>
-
-
-    {{-- panel 6 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: Guess Who?</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="11">
-            <li>If time permits, have each pair draw another animal picture from the teacher,
-                to repeat the game.</li>
-        </ol>
-    </div>
-
-
-    {{-- panel 6 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: Guess Who?</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="12">
             <li>Guide children to complete the corresponding activities in the Thematic
                 Activity Book.</li>
         </ol>
@@ -243,21 +131,36 @@
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: Guess Who?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: This is How I Grow Up</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Display any animal picture and let the children compose a
-                    riddle together.</li>
+                <li>Invite a few of the children to show their baby photo and
+                    share their growing up story with the class.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to use the sentence structures provided to compose a riddle.</li>
-                <li>Able to guess the answers to the riddles composed by others.</li>
+                <li>Able to arrange the pictures in sequence to show the
+                    development of men and women from birth to old age.</li>
+                <li>Able to share one's growing up story.</li>
+            </ul>
+        </div>
+    </div>
+
+    {{-- panel 7 --}}
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
+        <h1 class="panel-title stroke">Classroom Activity 8: This is How I Grow Up</h1>
+
+        <div class="text-start flex flex-col h-full">
+            <h3 class="ptitle">Extension</h3>
+
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Share animal and plant picture books with children to show
+                    the stages of growth in animals and plants.</li>
             </ul>
         </div>
     </div>
@@ -317,8 +220,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/animals/index') }}";
-            const doneURL = "{{ url('/micet/n2/animals/index') }}";
+            const returnURL = "{{ url('/micet/k1/myself/index') }}";
+            const doneURL = "{{ url('/micet/k1/myself/index') }}";
 
             // Track current position
             let currentSlide = 0;
@@ -577,6 +480,5 @@
             // INITIALIZE - Show first slide and play its audio automatically
             showSlide(currentSlide);
         });
-
     </script>
 @endpush

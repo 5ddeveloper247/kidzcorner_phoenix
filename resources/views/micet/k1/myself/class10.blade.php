@@ -38,85 +38,169 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 10: The Animals’ Joint Performance</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: Listen To Me Daddy, Mommy</h1>
         <img src="{{ asset('assets/images/micet/n1/mybody/c10.1.png') }}" class="h-[8vw]" />
 
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul">
-            <li>Promote active learning</li>
-            <li>Learn to cooperate with group members to complete a
-                given task</li>
-            <li>Imitate animal sounds and movements and perform them
-                to a tune</li>
+            <li>Learn to admit and correct one's mistake</li>
+            <li>Learn to tell parents promptly after committing a misdeed</li>
+            <li>Learn to exchange thoughts with one's parents</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: The Animals’ Joint Performance</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: Listen To Me Daddy, Mommy</h1>
 
-        <h3 class="ptitle">Preparations</h3>
+        <div>
 
-        <ol class="list-decimal panel-ul">
-            <li>Thematic Activity Book</li>
-        </ol>
+            <h3 class="ptitle">Preparations</h3>
+
+            <ol class="list-disc panel-ul">
+                <li>Thematic Activity Book</li>
+            </ol>
+            <div class="mt-[2vw]">
+                <h3 class="panel-ul">For Optional Activity:</h3>
+                <ol class="list-disc panel-ul w-[45vw]">
+                    <li>Invite some parents to come and share their thoughts about
+                        admitting our mistakes.</li>
+                </ol>
+            </div>
+
+        </div>
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 10: The Animals’ Joint Performance</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: Listen To Me Daddy, Mommy</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[50vw]">
-                <li>Ask children: Have you ever been to a zoo? Who did you go with? Did you
-                    watch any animal performance there? What animals where taking part in the
-                    performance? What did the animals do? Where there many visitors?</li>
-                <li>Tell children now that we have our own zoo, we will organise our own animals'
-                    performances, just like other zoos.</li>
+                <li>With the aid of the next five slides, help children to recall the story about
+                    Danny and Denise from the computer courseware. Talk about how they got
+                    the kitten. How they lost the kitten. And how they got it back.</li>
             </ol>
         </div>
+        <img src="{{ asset('assets/images/micet/k1/myself/class10/c1.png') }}" class="w-[25vw]">
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 10: The Animals’ Joint Performance</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: Listen To Me Daddy, Mommy</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Divide the children into few groups. Have each group discuss and decide
-                what animal they want to be. Let them inform the teacher of their decision. The
-                teacher can make sure that each group represents a different animal.</li>
-            <li>Let each group decide on the animal movements and sounds that they want
-                to perform. Teacher may walk around the groups and provide hints that stir the
-                creative thinking of children. For e.g .: What do monkeys usually do? (jump
-                from tree to tree, help each other pick lice); What do elephants usually do?
-                (sway its trunk, flap its ears, spray water)</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="2">
+            <li>With the aid of the these slides, help children to recall the story about Danny
+                and Denise from the computer courseware. Talk about how they got the kitten.
+                How they lost the kitten. And how they got it back.</li>
         </ol>
+        <img src="{{ asset('assets/images/micet/k1/myself/class10/c2.png') }}" class="h-[20vw]">
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: The Animals’ Joint Performance</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: Listen To Me Daddy, Mommy</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="3">
+            <li>With the aid of these slides, help children to recall the story about Danny and
+                Denise from the computer courseware. Talk about how they got the kitten.
+                How they lost the kitten. And how they got it back.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/myself/class10/c3.png') }}" class="h-[20vw]">
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 10: Listen To Me Daddy, Mommy</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="4">
+            <li>With the aid of these slides, help children to recall the story about Danny and
+                Denise from the computer courseware. Talk about how they got the kitten.
+                How they lost the kitten. And how they got it back.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/myself/class10/c4.png') }}" class="h-[20vw]">
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 10: Listen To Me Daddy, Mommy</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="5">
-            <li>Repeatedly play the tune of " The little Duckling". Let each group practise their
-                performance to the tune of the song.</li>
-            <li>Let each group take turns to perform for the class.</li>
+            <li>With the aid of these slides, help children to recall the story about Danny and
+                Denise from the computer courseware. Talk about how they got the kitten.
+                How they lost the kitten. And how they got it back.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/myself/class10/c5.png') }}" class="h-[20vw]">
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 10: Listen To Me Daddy, Mommy</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="6">
+            <li>Ask the children: "Do Danny and Denise tell their parents about losing the
+                kitten?"</li>
+            <li>Ask the children who reply "No" to explain why Danny and Denise do not want
+                to report the incident to their parents.</li>
+            <li>Ask the children who reply "Yes" to predict what will happen after Danny and
+                Denise report the incident to their parents.</li>
         </ol>
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: The Animals’ Joint Performance</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: Listen To Me Daddy, Mommy</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="7">
+        <ol class="list-decimal panel-ul w-[50vw]" start="9">
+            <li>Ask the children whether they would tell their parents if they did something
+                wrong and what they think will be their parent's reaction. Let the children
+                share such experiences from the past.</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 10: Listen To Me Daddy, Mommy</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="10">
+            <li>Guide the children in understanding that they should tell their parents if they
+                have done something wrong. Even though parents may get angry, it is
+                because they want them to learn from their mistakes and not repeat them.
+                Explain to the children that their parents love them and they will forgive them.</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 10: Listen To Me Daddy, Mommy</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="11">
+            <li>If there are parents around, ask them to express their opinions. Guide the
+                children in understanding that if they truthfully admit their mistakes to their
+                parents, their parents will forgive them. Encourage the children to tell their
+                parents their thoughts.</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 10: Listen To Me Daddy, Mommy</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="12">
             <li>Guide children to complete the corresponding activities in the Thematic
                 Activity Book.</li>
         </ol>
@@ -126,44 +210,23 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: The Animals’ Joint Performance</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: Listen To Me Daddy, Mommy</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Encourage the children to applaud all performances. Let them
-                    then evaluate and give feedback on each other's
-                    performance and decide which group's performance was the
-                    best.</li>
+                <li>Ask the children to share what they will do in future if they
+                    make a mistake.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to express one's views and ideas clearly.</li>
-                <li>Able to cooperate with group members for the animal performance.</li>
-                <li>Able to imitate sounds and actions of an animal and perform
-                    them to a tune.</li>
+                <li> Able to tell parents about any mistake they commit.</li>
             </ul>
         </div>
     </div>
-
-
-    {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: The Animals’ Joint Performance</h1>
-
-        <div class="text-start flex flex-col">
-            <h3 class="ptitle">Extension</h3>
-
-            <ul class="list-disc panel-ul w-[45vw]">
-                <li>Invite parents to visit the classroom zoo set up by their children
-                    and view the performances.</li>
-            </ul>
-        </div>
-    </div>
-
 
 
 
@@ -219,8 +282,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/animals/index') }}";
-            const doneURL = "{{ url('/micet/n2/animals/index') }}";
+            const returnURL = "{{ url('/micet/k1/myself/index') }}";
+            const doneURL = "{{ url('/micet/k1/myself/index') }}";
 
             // Track current position
             let currentSlide = 0;
@@ -479,6 +542,5 @@
             // INITIALIZE - Show first slide and play its audio automatically
             showSlide(currentSlide);
         });
-
     </script>
 @endpush

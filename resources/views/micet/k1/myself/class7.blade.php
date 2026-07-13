@@ -38,22 +38,21 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 7: Star Singer</h1>
-        <img src="{{ asset('assets/images/micet/n1/mybody/class7/c1.png') }}" class="h-[12vw]" />
+        <h1 class="panel-title stroke">Classroom Activity 7: Boy or Girl?</h1>
+        <img src="{{ asset('assets/images/micet/n1/mybody/class7/c1.png') }}" class="h-[8vw]" />
 
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul">
-            <li>Learn to sing the song "The Little Duckling" </li>
-            <li>Learn to compose new songs by substituting the lyrics</li>
-            <li>Develop imagination, creativity and locomotor skills</li>
+            <li>Identify one's sex </li>
+            <li>Understand the differences between boys and girls</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: Star Singer</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: Boy or Girl?</h1>
         <h3 class="ptitle">Preparations</h3>
 
         <ul class="list-disc panel-ul">
@@ -64,119 +63,130 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 7: Star Singer</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: Boy or Girl?</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[50vw]">
-                <li>Let the children listen to the song once and discuss the lyrics.
-                    <button class="w-[3.5vw]" id="soundButton">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button>
-                </li>
-
-                <li>Lead children in singing the song.</li>
+                <li>Ask the children to point out who is a boy and who is a girl in the picture.</li>
             </ol>
         </div>
-        <h4 class="text-white text-[1.7vw] text-start">
-            Quack quack quack, <br>
-            Quack quack quack. <br>
-            Quack quack quack, <br>
-            Quack quack quack. <br>
-            I'm a happy little duckling. <br>
-            I'm a happy little duckling.
-        </h4>
+        <img src="{{ asset('assets/images/micet/k1/myself/class7/c1.png') }}" class="h-[20vw]">
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: Star Singer</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: Boy or Girl?</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="3">
-            <li>Click to play the animation. Guide children to imitate the sounds and the
-                walking movements of a duckling.</li>
-            <li>Let the children sing the song and do the actions.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="2">
+            <li>Ask the children to identify their sex and to stand in two rows in front of the boy
+                and girl shown on the projection screen.</li>
+            <li>Ask the children from the two rows to sit face to face in boy-girl pairs.</li>
         </ol>
-        <video class="h-[17vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-            <source src="{{ asset('assets/images/micet/n2/animals/class7/v1.mp4') }}" type="video/mp4">
-        </video>
+        <img src="{{ asset('assets/images/micet/k1/myself/class7/c1.png') }}" class="h-[20vw]">
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: Star Singer</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: Boy or Girl?</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="5">
-            <li>Let the children name some zoo animals and describe what they look like.</li>
-            <li>Guide the children to compose a new song by substituting the lyrics of the song
-                with the sounds and description of their favourite animal. For example:</li>
-        </ol>
-        <div class="flex items-start gap-[1vw]">
-            <button class="w-[3.5vw]" id="soundButton">
-                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-            </button>
-            <h4 class="text-white text-[1.7vw] text-start">
-                Roar roar roar, <br>
-                Roar roar roar. <br>
-                Roar roar roar, <br>
-                Roar roar roar. <br>
-                I'm a strong little tiger. <br>
-                I'm a strong little tiger.
-            </h4>
-        </div>
-    </div>
-
-
-    {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: Star Singer</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="5">
-            <li>Let the children name some zoo animals and describe what they look like.</li>
-            <li>Guide the children to compose a new song by substituting the lyrics of the song
-                with the sounds and description of their favourite animal. For example:</li>
-        </ol>
-        <div class="flex items-start gap-[1vw]">
-            <button class="w-[3.5vw]" id="soundButton">
-                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-            </button>
-            <h4 class="text-white text-[1.7vw] text-start">
-                Chitter chatter, <br>
-                Chitter chat. <br>
-                Chitter chatter, <br>
-                Chitter chat. <br>
-                I'm a smart little monkey. <br>
-                I'm a smart little monkey.
-            </h4>
-        </div>
-    </div>
-
-
-    {{-- panel 6 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: Star Singer</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="7">
-            <li>Guide the children to imitate the walking movements of the animal they have
-                substituted in the song.</li>
-            <li> <span class="flex">Invite the children to perform their actions and sing their new song.
-                    <button class="w-[3.5vw]" id="soundButton">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button>
-                </span>
+        <ol class="list-decimal panel-ul w-[50vw]" start="4">
+            <li>Let the children name some zoo animals and describe what they look like. Ask the children the following
+                questions to guide their discussion.
+                <ul class="list-disc pl-[1vw]">
+                    <li>Does your hair look the same as your friend's? If not, what are the differences?</li>
+                    <li>Are your clothes similar to your friend's clothes? If not, what are the differences?</li>
+                    <li>Is your body size similar to your friend's? If not, what is the difference?</li>
+                    <li>Do you both like the same food?</li>
+                    <li>Do you both like the same colour?</li>
+                    <li>Do you both like the same game?</li>
+                    <li>Do you both like the same toy?</li>
+                </ul>
             </li>
         </ol>
     </div>
 
 
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 7: Boy or Girl?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="5">
+            <li>Click on the picture below to open the Software Magnetic Board. Guide the
+                children to analyse the similarities and differences between boys and girls.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/myself/class7/c2.png') }}" class="h-[20vw]">
+    </div>
+
+
+    {{-- panel 6 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 7: Boy or Girl?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="6">
+            <li>Click on the picture below to open the Software Magnetic Board. Guide the
+                children to analyse the similarities and differences between boys and girls.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/myself/class7/c3.png') }}" class="h-[20vw]">
+    </div>
+
+
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: Star Singer</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: Boy or Girl?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="7">
+            <li>Click on the picture below to open the Software Magnetic Board. Guide the
+                children to analyse the similarities and differences between boys and girls.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/myself/class7/c4.png') }}" class="h-[20vw]">
+    </div>
+
+
+    {{-- panel 7 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 7: Boy or Girl?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="8">
+            <li>Click on the picture below to open the Software Magnetic Board. Guide the
+                children to analyse the similarities and differences between boys and girls.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/myself/class7/c5.png') }}" class="h-[20vw]">
+    </div>
+
+
+    {{-- panel 7 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 7: Boy or Girl?</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="9">
+            <li>Click on the picture below to open the Software Magnetic Board. Guide the
+                children to analyse the similarities and differences between boys and girls.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/myself/class7/c6.png') }}" class="h-[20vw]">
+    </div>
+
+
+    {{-- panel 7 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 7: Boy or Girl?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="10">
+            <li>Click on the picture below to open the Software Magnetic Board. Guide the
+                children to analyse the similarities and differences between boys and girls.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/myself/class7/c7.png') }}" class="h-[20vw]">
+    </div>
+
+
+    {{-- panel 7 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 7: Boy or Girl?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="11">
             <li>Guide children to complete the corresponding activities in the Thematic
                 Activity Book.</li>
         </ol>
@@ -185,21 +195,23 @@
 
     {{-- panel 12 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: Star Singer</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: Boy or Girl?</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Let all children sing some of the composed songs and do the
-                    actions together.</li>
+                <li>Let the children talk about the similarities and differences
+                    between boys and girls based on their earlier observation
+                    and discussion.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to sing the song "The Little Duckling".</li>
-                <li>Able to perform the new song.</li>
+                <li>Able to identify one's sex.</li>
+                <li>Able to describe the similarities and differences between
+                    boys and girls.</li>
             </ul>
         </div>
     </div>
@@ -259,8 +271,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/animals/index') }}";
-            const doneURL = "{{ url('/micet/n2/animals/index') }}";
+            const returnURL = "{{ url('/micet/k1/myself/index') }}";
+            const doneURL = "{{ url('/micet/k1/myself/index') }}";
 
             // Track current position
             let currentSlide = 0;
@@ -519,6 +531,5 @@
             // INITIALIZE - Show first slide and play its audio automatically
             showSlide(currentSlide);
         });
-
     </script>
 @endpush

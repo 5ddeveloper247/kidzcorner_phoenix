@@ -104,8 +104,8 @@
                 </ol>
             </li>
         </ol>
-        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-            <source src="{{ asset('assets/images/micet/k1/nutrition/class1/c3.mp4') }}" type="video/mp4">
+        <video class="h-[13vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/k1/myself/class4/v1.mp4') }}" type="video/mp4">
         </video>
     </div>
 
@@ -114,12 +114,17 @@
     <div class="phonics-panel flex flex-col h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 4: I Can Brush, I Can Wash</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Let the children name the animals and talk about their characteristics. Let
-                them say whether the animal lives in water, on land or in the sky.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="2">
+            <li>Use the animation to demonstrate the correct technique of brushing teeth:
+                <ol type="a" start="3" class="pl-[1vw]">
+                    <li>Then, place the toothbrush on the inner surface gum line. Repeat process.</li>
+                </ol>
+            </li>
         </ol>
 
-        <img src="{{ asset('assets/images/micet/n2/animals/class4/c2.png') }}" class="w-[35vw]" />
+        <video class="h-[18vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/k1/myself/class4/v2.mp4') }}" type="video/mp4">
+        </video>
     </div>
 
 
@@ -128,13 +133,16 @@
         <h1 class="panel-title stroke">Classroom Activity 4: I Can Brush, I Can Wash</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Guide the children in comparing the characteristics of these six animals. Guide
-                them to conclude that some animals live in water; some animals live on land;
-                some animals live in the sky. Animals can be categorized into three big
-                families: animals that live in water, animals that live on land and animals that
-                live in the sky.</li>
+            <li>Use the animation to demonstrate the correct technique of brushing teeth:
+                <ol type="a" start="4" class="pl-[1vw]">
+                    <li>Then, place the toothbrush on the chewing surface and brush gently.</li>
+                    <li>Lastly, don't forget to brush the tongue.</li>
+                </ol>
+            </li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/animals/class4/c3.png') }}" class="h-[15vw]" />
+        <video class="h-[17vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/k1/myself/class4/v3.mp4') }}" type="video/mp4">
+        </video>
     </div>
 
 
@@ -142,13 +150,20 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Classroom Activity 4: I Can Brush, I Can Wash</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="5">
-            <li>Click to open the Software Magnetic Board. Ask children to name the animals
-                and compare their characteristics. Then let the children categorize the animals
-                into the three big families.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>(Optional Activity) Use the plastic model of teeth to demonstrate the correct
+                technique of brushing teeth:
+                <ol type="a" class="pl-[1vw]">
+                    <li>First, squeeze some toothpaste onto the toothbrush. Explain to the children that fluoride toothpaste
+                        can protect against tooth decay.</li>
+                    <li>Place the toothbrush against the outer teeth gum line, then brush downward and outward. Brush gently
+                        so as not to hurt the gum. Repeat the process until all the teeth have been brushed.</li>
+                    <li>Then, place the toothbrush on the inner surface gum line. Repeat the process.</li>
+                    <li>Then, place the toothbrush on the chewing surface and brush gently.</li>
+                    <li>Lastly, don't forget to brush the tongue.</li>
+                </ol>
+            </li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/animals/class4/c4.png') }}" class="w-[25vw]" />
-
     </div>
 
 
@@ -156,39 +171,85 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 4: I Can Brush, I Can Wash</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="6">
-            <li>Let children observe the animals that live in water and talk about their
-                distinguishing characteristics. For example, most animals that live in water
-                have fins.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="4">
+            <li>Teacher can compose a rhyme to help children rememberthe sequence of
+                brushing teeth. For example:</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/animals/class4/c5.png') }}" class="h-[20vw]" />
+        <h4 class="text-white text-[2vw] text-start">
+            Brush up, brush down, <br>
+            Brush left, brush right, <br>
+            Brush outside, brush inside, <br>
+            To help stop tooth decay.
+        </h4>
     </div>
 
 
 
     {{-- panel 9 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: I Can Brush, I Can Wash</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="5">
+            <li>Help children learn the "Brush Our Teeth" song and let them sing it together.</li>
+        </ol>
+        <div class="flex gap-[3vw]">
+            <button class="w-[3vw]" id="soundButton">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            </button>
+            <h4 class="text-white text-[2vw] text-start">
+                This is the way we brush our teeth, <br>
+                Brush our teeth, brush our teeth. <br>
+                This is the way we brush our teeth, <br>
+                So early in the morning.
+            </h4>
+        </div>
+    </div>
+
+
+    {{-- panel 9 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: I Can Brush, I Can Wash</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="6">
+            <li>Let the children take turns to brush their teeth with their own toothbrush at the
+                bathroom sink. Encourage them to brush their teeth in the proper way. Remind
+                the children not to waste water.</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 9 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Classroom Activity 4: I Can Brush, I Can Wash</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="7">
-            <li>Let children observe the animals that live on land and talk about their
-                distinguishing characteristics. For example, most animals that live on land
-                have legs.</li>
+            <li>Help children learn the "Wash Our Face" song and get them to sing it together.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/animals/class4/c6.png') }}" class="h-[20vw]" />
+        <h4 class="text-white text-[2vw] text-start">
+            This is the way we wash our face, <br>
+            Wash our face, wash our face. <br>
+            This is the way we wash our face, <br>
+            So early in the morning.
+        </h4>
     </div>
 
 
     {{-- panel 9 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Classroom Activity 4: I Can Brush, I Can Wash</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="8">
-            <li>Let children observe the animals that live in the sky and talk about their
-                distinguishing characteristics. For example, animals that live in the sky have
-                wings.</li>
+            <li>Let the children take turns to wash their face at the bathroom sink. Remind the
+                children not to waste water. Teacher can compose a rhyme to help the
+                children remember the sequence of washing their face. For example:</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/animals/class4/c7.png') }}" class="h-[20vw]" />
+        <h4 class="text-white text-[2vw] text-start">
+            This is how I wash my face. <br>
+            Rinse and squeeze the cloth dry. <br>
+            Then wipe my face, <br>
+            Up and down, left and right. <br>
+            Now it's clean and bright.
+        </h4>
     </div>
 
 
@@ -211,16 +272,17 @@
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Invite the children to list some animals that live in water, on
-                    land and in the sky.</li>
+                <li>Have the children sing the songs "Brush Our Teeth" and
+                    "Wash Our Face" with the corresponding actions./li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to list some animals that live in water, on land and in the sky.</li>
-                <li>Able to talk about the characteristics of the animals and
-                    classify them according to their living environments.</li>
+                <li>Know how to sing the "Brush Our Teeth" and "Wash Our Face" song.</li>
+                <li>Know how to brush one's teeth and wash one's face.</li>
+                <li>Able to describe the correct way of brushing our teeth and
+                    washing our face.</li>
             </ul>
         </div>
     </div>
@@ -234,13 +296,12 @@
             <h3 class="ptitle">Extension</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Invite children to draw the living environments of animals
-                    that live in water, on land and in the sky.</li>
+                <li>Play the above songs before afternoon nap time to remind
+                    the children the correct techniques of brushing teeth and
+                    washing face.</li>
             </ul>
-
         </div>
     </div>
-
 
 
 
@@ -297,8 +358,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/animals/index') }}";
-            const doneURL = "{{ url('/micet/n2/animals/index') }}";
+            const returnURL = "{{ url('/micet/k1/myself/index') }}";
+            const doneURL = "{{ url('/micet/k1/myself/index') }}";
 
             // Track current position
             let currentSlide = 0;
