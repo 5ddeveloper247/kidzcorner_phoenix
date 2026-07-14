@@ -369,7 +369,7 @@ $showMascot = true;
 
 {{-- panel 37 --}}
 <div class="phonics-panel flex flex-col items-center h-full">
-    <h1 class="panel-title stroke">Classroom Activity 2: My Home</h1>
+    <h1 class="panel-title stroke">Classroom Activity 4: Our House</h1>
 
     <div class="text-start flex flex-col">
         <h3 class="ptitle">Extension</h3>

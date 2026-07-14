@@ -22,63 +22,67 @@
     {{-- Phonics l2 --}}
     <div id="slide-board" class=" home grid grid-cols-4 gap-[2vw] mb-[2vw]">
 
-        <a href="{{ url('/micet/n2/fruits/class1') }}">
-            <img src="{{ asset('assets/images/micet/n2/fruits/class1.png') }}" />
+        <a href="{{ url('/micet/k1/fruits/class1') }}">
+            <img src="{{ asset('assets/images/micet/k1/fruits/class1.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/n2/fruits/class2') }}">
-            <img src="{{ asset('assets/images/micet/n2/fruits/class2.png') }}" />
+        <a href="{{ url('/micet/k1/fruits/class2') }}">
+            <img src="{{ asset('assets/images/micet/k1/fruits/class2.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/n2/fruits/class3') }}">
-            <img src="{{ asset('assets/images/micet/n2/fruits/class3.png') }}" />
+        <a href="{{ url('/micet/k1/fruits/class3') }}">
+            <img src="{{ asset('assets/images/micet/k1/fruits/class3.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/n2/fruits/class4') }}">
-            <img src="{{ asset('assets/images/micet/n2/fruits/class4.png') }}" />
+        <a href="{{ url('/micet/k1/fruits/class4') }}">
+            <img src="{{ asset('assets/images/micet/k1/fruits/class4.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/n2/fruits/class5') }}">
-            <img src="{{ asset('assets/images/micet/n2/fruits/class5.png') }}" />
+        <a href="{{ url('/micet/k1/fruits/class5') }}">
+            <img src="{{ asset('assets/images/micet/k1/fruits/class5.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/n2/fruits/class6') }}">
-            <img src="{{ asset('assets/images/micet/n2/fruits/class6.png') }}" />
+        <a href="{{ url('/micet/k1/fruits/class6') }}">
+            <img src="{{ asset('assets/images/micet/k1/fruits/class6.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/n2/fruits/class7') }}">
-            <img src="{{ asset('assets/images/micet/n2/fruits/class7.png') }}" />
+        <a href="{{ url('/micet/k1/fruits/class7') }}">
+            <img src="{{ asset('assets/images/micet/k1/fruits/class7.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/n2/fruits/class8') }}">
-            <img src="{{ asset('assets/images/micet/n2/fruits/class8.png') }}" />
+        <a href="{{ url('/micet/k1/fruits/class8') }}">
+            <img src="{{ asset('assets/images/micet/k1/fruits/class8.png') }}" />
         </a>
 
     </div>
 
 
     {{-- Phonics l2 --}}
-    <div id="slide-board" class="first grid grid-cols-2 gap-[2vw] mb-[2vw] hidden">
-
-        <a href="{{ url('/micet/n2/fruits/class9') }}">
-            <img src="{{ asset('assets/images/micet/n2/fruits/class9.png') }}" />
+<div id="slide-board" class="first flex flex-col gap-[2vw] mb-[2vw] hidden">
+    <div class="flex justify-center gap-[2vw]">
+        <a href="{{ url('/micet/k1/fruits/class9') }}" class="w-[calc(33.333%-1.33vw)]">
+            <img src="{{ asset('assets/images/micet/k1/fruits/class9.png') }}" class="w-full" />
         </a>
 
-        <a href="{{ url('/micet/n2/fruits/class10') }}">
-            <img src="{{ asset('assets/images/micet/n2/fruits/class10.png') }}" />
+        <a href="{{ url('/micet/k1/fruits/class10') }}" class="w-[calc(33.333%-1.33vw)]">
+            <img src="{{ asset('assets/images/micet/k1/fruits/class10.png') }}" class="w-full" />
+        </a>
+    </div>
+    <div class="grid grid-cols-3 gap-[2vw]">
+        <a href="{{ url('/micet/k1/fruits/cards') }}">
+            <img src="{{ asset('assets/images/micet/k1/fruits/cards.png') }}" class="w-full" />
         </a>
 
-        <a href="{{ url('/micet/n2/fruits/activity') }}">
-            <img src="{{ asset('assets/images/micet/n2/fruits/activity.png') }}" />
+        <a href="{{ url('/micet/k1/fruits/activity') }}">
+            <img src="{{ asset('assets/images/micet/k1/fruits/activity.png') }}" class="w-full" />
         </a>
 
-        <a href="{{ url('/micet/n2/fruits/tables') }}">
-            <img src="{{ asset('assets/images/micet/n2/fruits/tables.png') }}" />
+        <a href="{{ url('/micet/k1/fruits/tables') }}">
+            <img src="{{ asset('assets/images/micet/k1/fruits/tables.png') }}" class="w-full" />
         </a>
-
     </div>
 
-
+</div>
 
     {{-- All Buttons --}}
     <button class="mt-[2vw] absolute bottom-[1vw]" id="next-btn">

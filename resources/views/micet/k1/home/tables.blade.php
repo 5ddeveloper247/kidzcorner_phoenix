@@ -41,12 +41,12 @@
         <h1 class="panel-title stroke">Table 1 : Theme Goals</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]">
-            <li>Understand the characteristics of day and night.</li>
-            <li>Learn to tell time by the hour.</li>
-            <li>Learn about shadows and explore the relationship between light and shadow.</li>
-            <li>Understand the uses of shadows.</li>
-            <li>Learn about the Sun and the Moon.</li>
-            <li>Understand one's daily schedule to reinforce the concept of time.</li>
+            <li>Know the different rooms in a house and understand their uses</li>
+            <li>Understand the surrounding environment and facilities around one's neighbourhood</li>
+            <li>Understand the functions of different parts of a house</li>
+            <li>Know different types of household items and their uses and then sort them based on different criteria</li>
+            <li>Use imagination to design a house and an ideal residential estate with friends</li>
+            <li>Understand what an address is and know its uses; Learn to state and write one's home address</li>
         </ol>
     </div>
 
@@ -54,7 +54,7 @@
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Table 2 : MI Learning Web</h1>
-        <img src="{{ asset('assets/images/micet/n1/mybody/tables/t1.png') }}" class="w-[28vw]" />
+        <img src="{{ asset('assets/images/micet/k1/home/tables/t1.png') }}" class="w-[28vw]" />
 
     </div>
 
@@ -62,7 +62,7 @@
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Table 2 : MI Activities</h1>
-        <img src="{{ asset('assets/images/micet/n1/mybody/tables/t2.png') }}" class="h-[20vw]" />
+        <img src="{{ asset('assets/images/micet/k1/home/tables/t2.png') }}" class="h-[20vw]" />
 
     </div>
 
@@ -122,8 +122,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/day/index') }}";
-            const doneURL = "{{ url('/micet/n2/day/index') }}";
+            const returnURL = "{{ url('/micet/k1/home/index') }}";
+            const doneURL = "{{ url('/micet/k1/home/index') }}";
 
             // Track current position
             let currentSlide = 0;

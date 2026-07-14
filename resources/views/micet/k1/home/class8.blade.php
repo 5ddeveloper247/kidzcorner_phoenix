@@ -82,7 +82,7 @@ $showMascot = true;
 
 {{-- panel 3 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 7: Uses of Rooms</h1>
+    <h1 class="panel-title stroke">Classroom Activity 8: The Little Planner</h1>
 
     <div class="text-start">
         <h3 class="ptitle">Lesson Development</h3>
@@ -98,7 +98,7 @@ $showMascot = true;
 
 {{-- panel 3 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 7: Uses of Rooms</h1>
+    <h1 class="panel-title stroke">Classroom Activity 8: The Little Planner</h1>
     <div class="text-start">
         <ol class="list-decimal panel-ul w-[50vw]" start="2">
             <li>Guide children to discuss the convenience that buildings and facilities around the residential estate provide.</li>
@@ -126,7 +126,7 @@ $showMascot = true;
 
 {{-- panel 3 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 7: Uses of Rooms</h1>
+    <h1 class="panel-title stroke">Classroom Activity 8: The Little Planner</h1>
     <div class="text-start">
         <ol class="list-decimal panel-ul w-[50vw]" start="4">
             <li>Guide children to discuss the convenience that buildings and facilities around the residential estate provide.</li>
@@ -143,7 +143,7 @@ $showMascot = true;
 
 {{-- panel 3 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 7: Uses of Rooms</h1>
+    <h1 class="panel-title stroke">Classroom Activity 8: The Little Planner</h1>
     <div class="text-start">
         <ol class="list-decimal panel-ul w-[50vw]" start="5">
             <li>Guide children to discuss the convenience that buildings and facilities around the residential estate provide.</li>
@@ -160,7 +160,7 @@ $showMascot = true;
 
 {{-- panel 3 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 7: Uses of Rooms</h1>
+    <h1 class="panel-title stroke">Classroom Activity 8: The Little Planner</h1>
     <div class="text-start">
         <ol class="list-decimal panel-ul w-[50vw]" start="6">
             <li>Guide children to discuss the convenience that buildings and facilities around the residential estate provide.</li>
@@ -176,7 +176,7 @@ $showMascot = true;
 
 {{-- panel 3 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 7: Uses of Rooms</h1>
+    <h1 class="panel-title stroke">Classroom Activity 8: The Little Planner</h1>
     <div class="text-start">
         <ol class="list-decimal panel-ul w-[50vw]" start="7">
             <li>Guide children to discuss the convenience that buildings and facilities around the residential estate provide.</li>
@@ -191,7 +191,7 @@ $showMascot = true;
 
 {{-- panel 3 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 7: Uses of Rooms</h1>
+    <h1 class="panel-title stroke">Classroom Activity 8: The Little Planner</h1>
     <div class="text-start">
         <ol class="list-decimal panel-ul w-[50vw]" start="8">
             <li>Guide children to discuss the convenience that buildings and facilities around the residential estate provide.</li>
@@ -207,7 +207,7 @@ $showMascot = true;
 
 {{-- panel 3 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 7: Uses of Rooms</h1>
+    <h1 class="panel-title stroke">Classroom Activity 8: The Little Planner</h1>
     <div class="text-start">
         <ol class="list-decimal panel-ul w-[50vw]" start="9">
             <li>Guide children to discuss the convenience that buildings and facilities around the residential estate provide.</li>
@@ -223,7 +223,7 @@ $showMascot = true;
 
 {{-- panel 3 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 7: Uses of Rooms</h1>
+    <h1 class="panel-title stroke">Classroom Activity 8: The Little Planner</h1>
     <div class="text-start">
         <ol class="list-decimal panel-ul w-[50vw]" start="10">
             <li>Guide children to discuss the convenience that buildings and facilities around the residential estate provide.</li>
@@ -240,7 +240,7 @@ $showMascot = true;
 
 {{-- panel 3 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 7: Uses of Rooms</h1>
+    <h1 class="panel-title stroke">Classroom Activity 8: The Little Planner</h1>
     <div class="text-start">
         <ol class="list-decimal panel-ul w-[50vw]" start="11">
             <li>Guide children to discuss the convenience that buildings and facilities around the residential estate provide.</li>
@@ -257,7 +257,7 @@ $showMascot = true;
 
 {{-- panel 3 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 7: Uses of Rooms</h1>
+    <h1 class="panel-title stroke">Classroom Activity 8: The Little Planner</h1>
     <div class="text-start">
         <ol class="list-decimal panel-ul w-[50vw]" start="12">
             <li>Guide children to discuss the convenience that buildings and facilities around the residential estate provide.</li>
@@ -273,7 +273,7 @@ $showMascot = true;
 
 {{-- panel 3 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 7: Uses of Rooms</h1>
+    <h1 class="panel-title stroke">Classroom Activity 8: The Little Planner</h1>
     <div class="text-start">
         <ol class="list-decimal panel-ul w-[50vw]" start="13">
             <li>Guide children to discuss the convenience that buildings and facilities around the residential estate provide.</li>
@@ -290,7 +290,7 @@ $showMascot = true;
 
 {{-- panel 3 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 7: Uses of Rooms</h1>
+    <h1 class="panel-title stroke">Classroom Activity 8: The Little Planner</h1>
     <div class="text-start">
         <ol class="list-decimal panel-ul w-[50vw]" start="14">
             <li>Guide children to discuss the convenience that buildings and facilities around the residential estate provide.</li>
@@ -308,7 +308,7 @@ $showMascot = true;
 
 {{-- panel 3 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 7: Uses of Rooms</h1>
+    <h1 class="panel-title stroke">Classroom Activity 8: The Little Planner</h1>
     <div class="text-start">
         <ol class="list-decimal panel-ul w-[50vw]" start="15">
             <li>Guide children to discuss the convenience that buildings and facilities around the residential estate provide.</li>
