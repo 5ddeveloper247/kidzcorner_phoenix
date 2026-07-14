@@ -26,6 +26,11 @@
             font-size: 1.7vw;
         }
 
+        .p-title {
+            color: #ffffff;
+            font-size: 2.5vw;
+        }
+
         .panel-ul {
             color: white;
             font-size: 1.4vw;
@@ -48,9 +53,9 @@
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul">
-            <li>Learn to put on clothes and button up</li>
-            <li>Learn to put on shoes and tie shoelaces</li>
-            <li>Develop self-help skills</li>
+            <li>Understand different types of games</li>
+            <li>Guess the name of the game, based on the actions shown</li>
+            <li>Develop logical-thinking skills</li>
         </ul>
     </div>
 
@@ -62,14 +67,10 @@
         <div>
             <h3 class="ptitle">Preparations</h3>
 
-            <ul class="list-disc panel-ul">
+            <ul class="list-disc panel-ul w-[45vw]">
                 <li>Thematic Activity Book</li>
-                <li>Before this activity, remind the children to wear clothes with
-                    buttons to school</li>
-                <li>Before this activity, remind the children to wear shoes with
-                    shoelaces to school</li>
-                <li>Prepare some extra pairs of children shoes with shoelaces
-                    and clothes with buttons</li>
+                <li>Plan actions for some games that children are familiar with
+                    [Note: Games can be leisure activities or sports]</li>
             </ul>
         </div>
     </div>
@@ -83,10 +84,18 @@
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[50vw]">
-                <li>Ask the children if they know how to put on their clothes? Let the children
-                    describe how to put on their clothes and button them.</li>
+                <li>Demonstrate the actions of playing a game (e.g. kicking a football). Let children guess what game it is.
+                    If they guess correctly, guide the children to do the actions together.</li>
             </ol>
         </div>
+    </div>
+
+    {{-- Panel --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 5: What Am I Playing?</h1>
+
+        <img src="{{ asset('assets/images/micet/k1/playtime/class5/c1.png') }}" class="w-[20vw]" />
+        <h3 class="p-title">football</h3>
     </div>
 
 
@@ -95,10 +104,37 @@
         <h1 class="panel-title stroke">Classroom Activity 5: What Am I Playing?</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="2">
-            <li>Ask a few children to demonstrate how to button their clothes.</li>
-            <li>Pair up one child who is able to button his clothes with another child who is
-                unable to, encouraging the former to teach the latter.</li>
+            <li>Demonstrate the actions of playing a game (e.g. flying a kite). Let children guess what game it is. If they
+                guess correctly, guide the children to do the actions together.</li>
         </ol>
+    </div>
+
+    {{-- Panrl --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 5: What Am I Playing?</h1>
+
+        <img src="{{ asset('assets/images/micet/k1/playtime/class5/c2.png') }}" class="h-[20vw]" />
+        <h3 class="p-title">kite</h3>
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 5: What Am I Playing?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="3">
+            <li>Demonstrate the actions of playing a game (e.g. roller skating). Let children guess what game it is. If they
+                guess correctly, guide the children to do the actions together.</li>
+        </ol>
+    </div>
+
+
+    {{-- Panrl --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 5: What Am I Playing?</h1>
+
+        <img src="{{ asset('assets/images/micet/k1/playtime/class5/c3.png') }}" class="w-[25vw]" />
+        <h3 class="p-title">skates</h3>
     </div>
 
 
@@ -107,15 +143,18 @@
         <h1 class="panel-title stroke">Classroom Activity 5: What Am I Playing?</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="4">
-            <li>Teacher can compose a rhyme and help the children to read it aloud and
-                practise buttoning their clothes. For example:</li>
+            <li>Demonstrate the actions of playing a game (e.g. skateboarding). Let children guess what game it is. If they
+                guess correctly, guide the children to do the actions together.</li>
         </ol>
-        <h4 class="text-white text-[2vw] mt-[5vw] text-start">
-            I know how to wear my clothes. <br>
-            Put it on and button it up. <br>
-            Push the buttons through the holes. <br>
-            I have nimble fingers.
-        </h4>
+    </div>
+
+
+    {{-- Panrl --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 5: What Am I Playing?</h1>
+
+        <img src="{{ asset('assets/images/micet/k1/playtime/class5/c4.png') }}" class="w-[25vw]" />
+        <h3 class="p-title">skateboard</h3>
     </div>
 
 
@@ -124,10 +163,18 @@
         <h1 class="panel-title stroke">Classroom Activity 5: What Am I Playing?</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="5">
-            <li>Invite the children to say the rhyme aloud and compete to see who can
-                button their clothes /who can button their clothes the fastest. Encourage all
-                the children for their effort.</li>
+            <li>Demonstrate the actions of playing a game (e.g. fixing a jigsaw puzzle). Let children guess what game it is.
+                If they guess correctly, guide the children to do the actions together.</li>
         </ol>
+    </div>
+
+
+    {{-- Panrl --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 5: What Am I Playing?</h1>
+
+        <img src="{{ asset('assets/images/micet/k1/playtime/class5/c5.png') }}" class="w-[25vw]" />
+        <h3 class="p-title">jigsaw puzzle</h3>
     </div>
 
 
@@ -136,22 +183,20 @@
         <h1 class="panel-title stroke">Classroom Activity 5: What Am I Playing?</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="6">
-            <li>Follow a similar pattern as earlier for teaching the skill of tying shoelaces.
-                Teacher can compose a rhyme and help the children to read it aloud and
-                practise tying their shoe laces. For example:</li>
+            <li>Demonstrate the actions of playing a game (e.g. playing tennis). Let children guess what game it is. If they
+                guess correctly, guide the children to do the actions together.</li>
         </ol>
-        <h4 class="text-white text-start text-[1.5vw]">
-            Come on everybody, put on your shoes, <br>
-            Pick up the laces, one and two, <br>
-            Cross them over, make an X, <br>
-            Pass one under, pull them tight, <br>
-            Fold each over, for two bunny ears, <br>
-            One runs around the other, <br>
-            Then goes through the hole, <br>
-            Pull tight again, <br>
-            And now we're done.
-        </h4>
     </div>
+
+
+    {{-- Panrl --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 5: What Am I Playing?</h1>
+
+        <img src="{{ asset('assets/images/micet/k1/playtime/class5/c6.png') }}" class="w-[25vw]" />
+        <h3 class="p-title">tennis ball and racket</h3>
+    </div>
+
 
 
     {{-- panel 6 --}}
@@ -159,9 +204,12 @@
         <h1 class="panel-title stroke">Classroom Activity 5: What Am I Playing?</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="7">
-            <li>Invite a few of the children to stand in front of the class and have a
-                competition of tying shoelaces to see who can do it/ who can do it the fastest.
-                Praise all the children for their effort.</li>
+            <li>Invite two children out and tell them the name of a game. Ask them to show the actions of the game to the
+                class. Let the other children guess what game it is.</li>
+            <li>Organise children into groups. Let each group of children plan actions for two
+                games in about 10 minutes.</li>
+            <li>Invite each group of children to take turns and perform the actions planned. Let the other groups guess what
+                game it is.</li>
         </ol>
     </div>
 
@@ -170,7 +218,7 @@
     <div class="phonics-panel flex flex-col h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 5: What Am I Playing?</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="8">
+        <ol class="list-decimal panel-ul w-[50vw]" start="10">
             <li>Guide children to complete the corresponding activities in the Thematic
                 Activity Book.</li>
         </ol>
@@ -185,35 +233,19 @@
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Lead the children in reading aloud "Buttoning My Clothes"
-                    and "Tying My Shoelaces" rhymes and doing the
-                    corresponding actions.</li>
+                <li>Name a game and let the children show the actions for that game.
+                    Review all the games in a similar way. </li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to button clothes and tie shoelaces.</li>
-                <li>Able to put on clothes and shoes independently.</li>
+                <li>Able to guess the name of the game based on the actions shown.</li>
+                <li>Able to do actions for some of the games.</li>
             </ul>
         </div>
     </div>
 
-    {{-- Panel --}}
-    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 5: What Am I Playing?</h1>
-
-        <div class="text-start flex flex-col h-full">
-            <h3 class="ptitle">Extension</h3>
-
-            <ul class="list-disc panel-ul w-[45vw]">
-                <li>Place some clothes with buttons and shoes with shoelaces
-                    in the activity corner for the children to practise further</li>
-                <li>Encourage the children to button their own clothes and tie
-                    their shoelaces daily.</li>
-            </ul>
-        </div>
-    </div>
 
 
 
@@ -269,8 +301,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/k1/myself/index') }}";
-            const doneURL = "{{ url('/micet/k1/myself/index') }}";
+            const returnURL = "{{ url('/micet/k1/playtime/index') }}";
+            const doneURL = "{{ url('/micet/k1/playtime/index') }}";
 
             // Track current position
             let currentSlide = 0;

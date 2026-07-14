@@ -44,10 +44,9 @@
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[50vw]">
-                <li>Teacher to show the electronic word cards (next slide onwards). First show the
-                    picture and ask children what it is. Then show the word and help children to
-                    recognise and pronounce the word. Tell children that these words appear in
-                    Activity 1's story. Let children try to identify them during story telling.</li>
+                <li>Teacher to show the electronic word cards (next slide onwards). First show the picture and ask children
+                    what it is. Then show the word and help children to recognise and pronounce the word. Tell children that
+                    these words appear in Activity 1's story. Let children try to identify them during story telling.</li>
             </ol>
         </div>
     </div>
@@ -55,84 +54,84 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex justify-center h-full items-center">
-        <img src="{{ asset('assets/images/micet/k1/myself/cards/c1.png') }}" class="h-[25vw]" />
+        <img src="{{ asset('assets/images/micet/k1/playtime/cards/c1.png') }}" class="h-[25vw]" />
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex justify-center h-full items-center">
-        <h1 class="cardtitle">brother</h1>
+        <h1 class="cardtitle">old</h1>
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex justify-center h-full items-center">
-        <img src="{{ asset('assets/images/micet/k1/myself/cards/c2.png') }}" class="h-[25vw]" />
+        <img src="{{ asset('assets/images/micet/k1/playtime/cards/c2.png') }}" class="h-[25vw]" />
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex justify-center h-full items-center">
-        <h1 class="cardtitle">sister</h1>
+        <h1 class="cardtitle">new</h1>
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex justify-center h-full items-center">
-        <img src="{{ asset('assets/images/micet/k1/myself/cards/c3.png') }}" class="h-[25vw]" />
+        <img src="{{ asset('assets/images/micet/k1/playtime/cards/c3.png') }}" class="h-[25vw]" />
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex justify-center h-full items-center">
-        <h1 class="cardtitle">wake up</h1>
+        <h1 class="cardtitle">slide</h1>
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex justify-center h-full items-center">
-        <img src="{{ asset('assets/images/micet/k1/myself/cards/c4.png') }}" class="h-[25vw]" />
+        <img src="{{ asset('assets/images/micet/k1/playtime/cards/c4.png') }}" class="h-[25vw]" />
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex justify-center h-full items-center">
-        <h1 class="cardtitle">morning exercise</h1>
+        <h1 class="cardtitle">springy horse</h1>
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex justify-center h-full items-center">
-        <img src="{{ asset('assets/images/micet/k1/myself/cards/c5.png') }}" class="h-[25vw]" />
+        <img src="{{ asset('assets/images/micet/k1/playtime/cards/c5.png') }}" class="h-[25vw]" />
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex justify-center h-full items-center">
-        <h1 class="cardtitle">brush teeth</h1>
+        <h1 class="cardtitle">seasaw</h1>
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex justify-center h-full items-center">
-        <img src="{{ asset('assets/images/micet/k1/myself/cards/c6.png') }}" class="h-[25vw]" />
+        <img src="{{ asset('assets/images/micet/k1/playtime/cards/c6.png') }}" class="h-[25vw]" />
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex justify-center h-full items-center">
-        <h1 class="cardtitle">wash face</h1>
+        <h1 class="cardtitle">playground</h1>
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        
+
         <ol class="list-decimal panel-ul w-[45vw]" start="2">
             <li>Click on the picture below to open the Software Magnetic Board. Guide the
                 children to match the words with the pictures.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/k1/myself/cards/c7.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/k1/playtime/cards/c7.png') }}" class="w-[30vw]" />
     </div>
 
 
@@ -190,8 +189,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/k1/myself/index') }}";
-            const doneURL = "{{ url('/micet/k1/myself/index') }}";
+            const returnURL = "{{ url('/micet/k1/playtime/index') }}";
+            const doneURL = "{{ url('/micet/k1/playtime/index') }}";
 
             // Track current position
             let currentSlide = 0;

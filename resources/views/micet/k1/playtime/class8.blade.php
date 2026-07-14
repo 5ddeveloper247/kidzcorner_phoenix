@@ -38,21 +38,21 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: This is How I Grow Up</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Classifying Games</h1>
         <img src="{{ asset('assets/images/micet/n1/mybody/c8.1.png') }}" class="h-[8vw]" />
 
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul">
-            <li>Identify the stages of human growth</li>
-            <li>Understand one's growing up stages</li>
+            <li>Understand different types of games</li>
+            <li>Learn to sort games in different ways</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: This is How I Grow Up</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Classifying Games</h1>
 
         <div>
 
@@ -60,8 +60,6 @@
 
             <ul class="list-disc panel-ul">
                 <li>Thematic Activity Book</li>
-                <li>Prior to this activity, inform parents to let their children bring</li>
-                <li>a baby photo of themselves to school</li>
             </ul>
         </div>
     </div>
@@ -69,98 +67,137 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: This is How I Grow Up</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Classifying Games</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[45vw]">
-                <li>Ask the children to describe how they have changed from when they were an
-                    infant up until the present. They can compare their physical appearance (size,
-                    facial features, hair etc) and their abilities (to walk, talk, sing etc).</li>
+                <li>Display the pictures of a slide and a seesaw. Ask children: Which game can be played alone? Which game
+                    requires at least two players? Guide children to understand that some games can be played alone while
+                    some other games can be played in a pair or a group.</li>
             </ol>
         </div>
+        <img src="{{ asset('assets/images/micet/k1/playtime/class8/c1.png') }}" class="h-[15vw]">
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: This is How I Grow Up</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Classifying Games</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="2">
-            <li>Click on the picture below to open the Software Magnetic Board. Guide the
-                children to arrange in sequence, the development of men and women from
-                birth to old age.</li>
+            <li>Ask children to first name some games that can be played alone (e.g. puzzles and climbing frame) and then
+                name some games that can be played in a pair or a group (e.g. chess and badminton).</li>
         </ol>
-
-        <img src="{{ asset('assets/images/micet/k1/myself/class8/c1.png') }}" class="h-[20vw]">
     </div>
 
 
     {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: This is How I Grow Up</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 8: Classifying Games</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Let the children display their baby photo and have them look at each other's
-                photographs.</li>
+            <li>Click to open the Software Magnetic Board. Guide children to sort the games according to games that can be
+                played alone and games that require at least two to play.</li>
+            <li>Remind children that not all games belong to only one category. Some games can be played alone as well as
+                played by two players.</li>
         </ol>
+        <img src="{{ asset('assets/images/micet/k1/playtime/class8/c2.png') }}" class="h-[15vw]">
     </div>
 
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: This is How I Grow Up</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Let the children form pairs and share their growing up story with their partner.</li>
-        </ol>
-    </div>
-
-
-    {{-- panel 6 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: This is How I Grow Up</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Classifying Games</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="5">
+            <li>Click to open the Software Magnetic Board. Guide children to sort the games as indoor games and outdoor
+                games.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/playtime/class8/c3.png') }}" class="h-[20vw]">
+    </div>
+
+
+    {{-- panel 6 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 8: Classifying Games</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="6">
+            <li>Click to open the Software Magnetic Board. Guide children to sort the games according to games that require
+                a lot of body movements and games that require few body movements.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/playtime/class8/c4.png') }}" class="h-[20vw]">
+    </div>
+
+
+    {{-- panel 6 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 8: Classifying Games</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="7">
+            <li>Click to open the Sofiware Magnetic Board. Guide children to sort the games according to games that require
+                a referee and games that do not require a referee.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/playtime/class8/c5.png') }}" class="h-[20vw]">
+    </div>
+
+
+
+    {{-- panel 6 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 8: Classifying Games</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="8">
+            <li>Guide children to discuss what other ways can be used to sort the different games.</li>
+            <li>Organise children into groups. Let each group of children think of a way to sort games.</li>
+        </ol>
+    </div>
+
+
+
+    {{-- panel 6 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 8: Classifying Games</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="10">
             <li>Guide children to complete the corresponding activities in the Thematic
                 Activity Book.</li>
         </ol>
     </div>
 
 
+
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: This is How I Grow Up</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Classifying Games</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Invite a few of the children to show their baby photo and
-                    share their growing up story with the class.</li>
+                <li>Let each group of children take turns to present their ideas.</li>
+                <li>Finally guide children to summarize the different ways to sort the games.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to arrange the pictures in sequence to show the
-                    development of men and women from birth to old age.</li>
-                <li>Able to share one's growing up story.</li>
+                <li>Able to think of a few ways to sort the different games.</li>
             </ul>
         </div>
     </div>
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: This is How I Grow Up</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Classifying Games</h1>
 
         <div class="text-start flex flex-col h-full">
             <h3 class="ptitle">Extension</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Share animal and plant picture books with children to show
-                    the stages of growth in animals and plants.</li>
+                <li>Place some pictures of different games at the activity corner. Encourage children to work with friends
+                    and think of different ways to sort the games.</li>
             </ul>
         </div>
     </div>
@@ -220,8 +257,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/k1/myself/index') }}";
-            const doneURL = "{{ url('/micet/k1/myself/index') }}";
+            const returnURL = "{{ url('/micet/k1/playtime/index') }}";
+            const doneURL = "{{ url('/micet/k1/playtime/index') }}";
 
             // Track current position
             let currentSlide = 0;

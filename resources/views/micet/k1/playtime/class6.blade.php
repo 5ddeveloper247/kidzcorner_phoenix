@@ -38,7 +38,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Let’s Exercise</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Throw The Handkerchief</h1>
         <div class="flex ">
             <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
             <img src="{{ asset('assets/images/micet/n1/mybody/class2/c1.png') }}" class="h-[12vw]" />
@@ -48,22 +48,23 @@
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul">
-            <li>Sing "Let's Exercise" song</li>
-            <li>Learn to substitute words in the lyrics</li>
-            <li>Create different movements according to the song and perform them</li>
+            <li>Learn to sing the "Handkerchief song</li>
+            <li>Enjoy playing games with friends</li>
+            <li>Develop gross motor skills</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Let’s Exercise</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Throw The Handkerchief</h1>
 
         <div>
             <h3 class="ptitle">Preparations</h3>
 
             <ul class="list-disc panel-ul">
                 <li>Thematic Activity Book</li>
+                <li>One handkerchief</li>
             </ul>
         </div>
     </div>
@@ -71,76 +72,65 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Let’s Exercise</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Throw The Handkerchief</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[50vw]">
-                <li> <span class="flex items-end">Let the children listen to the "Let's Exercise" song.
+                <li> <span class="flex items-end">Click to play the song. Let children listen to the "Handkerchief' song.
                         <button class="w-[2.5vw]" id="soundButton">
                             <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
                         </button></span></li>
-                <li>Ask the children to name the parts of the body mentioned in the song and
-                    describe their corresponding movements.</li>
+                <li>Let children learn to sing the song.</li>
             </ol>
         </div>
+
+        <h4 class="text-white text-[2vw] text-start">
+            Handkerchief, handkerchief, <br>
+            Where are you now? <br>
+            Handkerchief, handkerchief, <br>
+            Where are you now? <br>
+            Handkerchief, handkerchief, <br>
+            Please tell me now. <br>
+            Who are you hiding behind?</h4>
     </div>
 
 
     {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Let’s Exercise</h1>
+    <div class="phonics-panel flex flex-col h-full items-center mt-[-4vw]">
+        <h1 class="panel-title stroke">Classroom Activity 6: Throw The Handkerchief</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="3">
-            <li>Teach the children lyrics of the song.</li>
-            <li>Have the children follow and read out the lyrics according to the rhythm of the
-                <span class="flex items-end">music.<button class="w-[2.5vw]" id="soundButton">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button>
-                </span>
+        <ol class="list-decimal panel-ul" start="3">
+            <li>When children are familiar with the song, invite children to play the handkerchief game.</li>
+            <li>Demonstrate and explain how to play the game:
+                <ul class="list-disc text-[1.1vw]!">
+                    <li>Let children sit in a circle and sing the "Handkerchief song.</li>
+                    <li>Teacher holds a handkerchief and walks around the circle. Before the songends, teacher places the
+                        handkerchief behind a child.</li>
+                    <li>If the child discovers the handkerchief, he/she has to pick up the handkerchief and chase after the
+                        teacher. If the child manages to catch up with the teacher in two rounds, he/she has to return to
+                        the seat and the teacher will restart the game. However, if the child is unable to catch the teacher
+                        within two rounds, the teacher will then take overthe child's seat and the child will start the game
+                        anew by becoming the one who places the handkerchief.</li>
+                    <li>If the child fails to discover the handkerchief placed behind him/her even after teacher has
+                        completed running one full round, pause the game.</li>
+                    <li>The teacher will stand in the middle of the circle and describe the characteristics of the child to
+                        the other children to help them identify the child (e.g. "He has short hair and a pair of big eyes.
+                        He is wearing a blue shirt, black shorts and a pair of white shoes".)</li>
+                    <li>After that, let the child who fits the description start the game anew by becoming the one who
+                        places the handkerchief.</li>
+                </ul>
             </li>
         </ol>
-        <h4 class="text-white text-[1.7vw] text-start">
-            Choose a partner, dance around, <br>
-            Tap your feet on the ground. <br>
-            Rub your tummy, wiggle your nose, <br>
-            Shake your bottom, touch your toes. <br>
-            Choose a partner, dance around, <br>
-            Tap your feet on the ground. <br>
-            Rub your tummy, wiggle your nose, <br>
-            Shake your bottom, touch your toes.</h4>
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Let’s Exercise</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Throw The Handkerchief</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="5">
-            <li>When the children are familiar with the lyrics, click on the animation. Let them
-                sing the song and perform the corresponding movements.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/k1/myself/class6/c1.png') }}" class="h-[20vw]">
-    </div>
-
-
-    {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Let’s Exercise</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="6">
-            <li>Invite children to substitute the words in the song with their own words, and do
-                the corresponding new movements.</li>
-        </ol>
-    </div>
-
-
-    {{-- panel 3 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Let’s Exercise</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="7">
             <li>Guide children to complete the corresponding activities in the Thematic
                 Activity Book.</li>
         </ol>
@@ -149,23 +139,20 @@
 
     {{-- panel 28 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Let’s Exercise</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Throw The Handkerchief</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have a few children volunteer to sing their versions of the
-                    song and perform the corresponding movements in front of
-                    the class.</li>
+                <li>Ask children: Do you like to play this game? Why?</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to sing the "Let's Exercise" song and do the movements.</li>
-                <li>Able to change the lyrics and create their own version of the
-                    song with corresponding movements.</li>
+                <li>Able to sing the "Handkerchief song.</li>
+                <li>Able to participate actively in the game.</li>
             </ul>
         </div>
     </div>
@@ -224,8 +211,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/k1/myself/index') }}";
-            const doneURL = "{{ url('/micet/k1/myself/index') }}";
+            const returnURL = "{{ url('/micet/k1/playtime/index') }}";
+            const doneURL = "{{ url('/micet/k1/playtime/index') }}";
 
             // Track current position
             let currentSlide = 0;

@@ -18,7 +18,7 @@
 
         .panel-title {
             color: #F7B94A;
-            font-size: 2.5vw;
+            font-size: 2.2vw;
         }
 
         .ptitle {
@@ -38,45 +38,43 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 9: Let Me Help You</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: The Need To Take Care Of Toys</h1>
         <img src="{{ asset('assets/images/micet/n1/mybody/c9.1.png') }}" class="h-[8vw]" />
 
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul">
-            <li>To be willing to help others according to one's ability</li>
-            <li>Cultivate the spirit of helping others</li>
+            <li>Understand the need to take care of things in school</li>
+            <li>Reflect on one's actions</li>
+            <li>Learn to set rules</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Let Me Help You</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: The Need To Take Care Of Toys</h1>
 
         <div>
             <h3 class="ptitle">Preparations</h3>
 
-            <ol class="list-disc panel-ul w-[45vw]">
+            <ol class="list-disc panel-ul">
                 <li>Thematic Activity Book</li>
-                <li>Keep story books about being helpful in the reading area of
-                    the classroom for the children to read</li>
+                <li>Drawing papers and colour pencils</li>
             </ol>
         </div>
     </div>
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Let Me Help You</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: The Need To Take Care Of Toys</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[45vw]">
-                <li>Ask children to recall the story "Just like Big Brother!" and identify who Danny
-                    helped. Ask them," What did Danny do? Why?"</li>
-                <li>Let the children share about the times when they helped other family
-                    members and describe what they did.</li>
+                <li>Review the storyline of "Little Elephant Goes Missing" with children. Let children explain why Little
+                    Elephant leaves the school.</li>
             </ol>
         </div>
     </div>
@@ -84,70 +82,54 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Let Me Help You</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: The Need To Take Care Of Toys</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="2">
+            <li>Let children discuss: Is there anything in the school that has been treated like Little Elephant and is
+                therefore dirty and full of scratch marks? If needed, give an example to guide children in their discussion.
+                Encourage them to share their views.</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 9: The Need To Take Care Of Toys</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Help the children to understand that different family members of different ages
-                require different forms of assistance. For example, they can help the aged,
-                who have difficulty moving, by fetching things for them and they can help
-                their working parents to tidy the house.</li>
+            <li>Let children take turns to share how they usually treat the toys in the school. Encourage them to boldly
+                point out their good and bad actions.</li>
+            <li>Guide children in their discussion of why certain actions are acceptable while others are not. Ask children:
+                If everyone treats toys badly in school, what would happen?</li>
         </ol>
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Let Me Help You</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Let the children think and talk about the chores they can do or like to do at
-                home. Teacher can record their actions on the white board.</li>
-        </ol>
-    </div>
-
-
-    {{-- panel 3 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Let Me Help You</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: The Need To Take Care Of Toys</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="5">
-            <li>Ask the children to form small groups. Let them discuss how they can help
-                each of their family members. Encourage the children to share their own
-                experience in doing certain things. For example how to tidy up their toys, how
-                to water the plants, how to clear the table and how to get the newspaper.</li>
+            <li>Guide children to discuss how to take care of toys and set rules for that. Write all the rules on the white
+                board. For e.g.</li>
         </ol>
+        <h4 class="text-white text-[2vw] text-start">
+            Do not throw toys. <br>
+            Do not snatch toys. <br>
+            Do not place toys around or <br>
+            everywhere. <br>
+            Keep the toys clean.
+        </h4>
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Let Me Help You</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: The Need To Take Care Of Toys</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="6">
-            <li>Encourage the children to keep their word and help their family members to
-                do household chores.</li>
-        </ol>
-    </div>
-
-
-    {{-- panel 3 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Let Me Help You</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="7">
-            <li>Ask the children: "Have you ever helped others (non-family members)?";
-                "Have you ever been helped by others?"</li>
-        </ol>
-    </div>
-
-
-    {{-- panel 3 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Let Me Help You</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="8">
-            <li>Guide children to complete the corresponding activities in the Thematic
-                Activity Book.</li>
+            <li>Distribute drawing papers (or use Thematic Activity Book). Ask children to draw one of the rules listed for
+                taking care of toys. Let them then make a signage for the chosen rule.</li>
         </ol>
     </div>
 
@@ -155,24 +137,36 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Let Me Help You</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: The Need To Take Care Of Toys</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Ask children : "How do you feel when you help others?";
-                    "How do you feel when others help you?"
-                    Guide children to understand that we feel happy in both the
-                    situations.</li>
+                <li>Paste the different signage that show different rules of taking care of the toys, in different parts of
+                    the classroom. Let children paste their drawings at the bottom of the corresponding signage.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Willing to help others to perform tasks according to one's
-                    own ability.</li>
-                <li>Know the joy of helping.</li>
+                <li>Able to express clearly good ways and bad ways of treating toys.</li>
+                <li>Able to draw a rule and design a signage for taking care of toys.</li>
+            </ul>
+        </div>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
+        <h1 class="panel-title stroke">Classroom Activity 9: The Need To Take Care Of Toys</h1>
+
+        <div class="text-start flex flex-col h-full">
+            <h3 class="ptitle">Extension</h3>
+
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Encourage children to always observe the rules of taking care of toys. Remind them to take care of
+                    public property as well.</li>
             </ul>
         </div>
     </div>
@@ -233,8 +227,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/k1/myself/index') }}";
-            const doneURL = "{{ url('/micet/k1/myself/index') }}";
+            const returnURL = "{{ url('/micet/k1/playtime/index') }}";
+            const doneURL = "{{ url('/micet/k1/playtime/index') }}";
 
             // Track current position
             let currentSlide = 0;

@@ -38,22 +38,21 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 10: Listen To Me Daddy, Mommy</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: The Boy’s Bodyguard</h1>
         <img src="{{ asset('assets/images/micet/n1/mybody/c10.1.png') }}" class="h-[8vw]" />
 
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul">
-            <li>Learn to admit and correct one's mistake</li>
-            <li>Learn to tell parents promptly after committing a misdeed</li>
-            <li>Learn to exchange thoughts with one's parents</li>
+            <li>Enhance the understanding of the need to take care of things in school</li>
+            <li>Use imagination to design a signage of taking care of public property with friends</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: Listen To Me Daddy, Mommy</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: The Boy’s Bodyguard</h1>
 
         <div>
 
@@ -61,169 +60,86 @@
 
             <ol class="list-disc panel-ul">
                 <li>Thematic Activity Book</li>
+                <li>Cleaning tools</li>
+                <li>Cardboards (one piece per group)</li>
+                <li>Red, yellow and blue paint</li>
+                <li>Brushes, palettes</li>
             </ol>
-            <div class="mt-[2vw]">
-                <h3 class="panel-ul">For Optional Activity:</h3>
-                <ol class="list-disc panel-ul w-[45vw]">
-                    <li>Invite some parents to come and share their thoughts about
-                        admitting our mistakes.</li>
-                </ol>
-            </div>
-
         </div>
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 10: Listen To Me Daddy, Mommy</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: The Boy’s Bodyguard</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[50vw]">
-                <li>With the aid of the next five slides, help children to recall the story about
-                    Danny and Denise from the computer courseware. Talk about how they got
-                    the kitten. How they lost the kitten. And how they got it back.</li>
+                <li>Review the rules of taking care of toys as listed in Activity 9.</li>
+                <li>Invite children to be the toy's bodyguard. Ask them to organise and clean the toys in the classroom or
+                    school together.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/micet/k1/myself/class10/c1.png') }}" class="w-[25vw]">
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 10: Listen To Me Daddy, Mommy</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: The Boy’s Bodyguard</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="2">
-            <li>With the aid of the these slides, help children to recall the story about Danny
-                and Denise from the computer courseware. Talk about how they got the kitten.
-                How they lost the kitten. And how they got it back.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>During the cleaning process, let children take note of the toys that need repair.</li>
+            <li>After that, let children discuss how the repair work should be done. Give suggestions and help children find
+                solutions.</li>
+            <li>Complete the repair works together with the children.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/k1/myself/class10/c2.png') }}" class="h-[20vw]">
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: Listen To Me Daddy, Mommy</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="3">
-            <li>With the aid of these slides, help children to recall the story about Danny and
-                Denise from the computer courseware. Talk about how they got the kitten.
-                How they lost the kitten. And how they got it back.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/k1/myself/class10/c3.png') }}" class="h-[20vw]">
-    </div>
-
-
-    {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: Listen To Me Daddy, Mommy</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="4">
-            <li>With the aid of these slides, help children to recall the story about Danny and
-                Denise from the computer courseware. Talk about how they got the kitten.
-                How they lost the kitten. And how they got it back.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/k1/myself/class10/c4.png') }}" class="h-[20vw]">
-    </div>
-
-
-    {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: Listen To Me Daddy, Mommy</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="5">
-            <li>With the aid of these slides, help children to recall the story about Danny and
-                Denise from the computer courseware. Talk about how they got the kitten.
-                How they lost the kitten. And how they got it back.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/k1/myself/class10/c5.png') }}" class="h-[20vw]">
-    </div>
-
-
-    {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: Listen To Me Daddy, Mommy</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: The Boy’s Bodyguard</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="6">
-            <li>Ask the children: "Do Danny and Denise tell their parents about losing the
-                kitten?"</li>
-            <li>Ask the children who reply "No" to explain why Danny and Denise do not want
-                to report the incident to their parents.</li>
-            <li>Ask the children who reply "Yes" to predict what will happen after Danny and
-                Denise report the incident to their parents.</li>
+            <li>Inform children that besides toys, we should also take care of other things such as recreational facilities,
+                stationery and story books in the school./li>
+            <li>Invite children to design a signage to remind everyone to take care of the things at school. First guide
+                children to list down the different parts of school that need signage. Then organise children into groups
+                and have each group of children use their imagination to design a signage for a part of the school. For
+                consistency, you may fix "Take care of things" as the standard text for all the signages.</li>
         </ol>
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: Listen To Me Daddy, Mommy</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: The Boy’s Bodyguard</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="9">
-            <li>Ask the children whether they would tell their parents if they did something
-                wrong and what they think will be their parent's reaction. Let the children
-                share such experiences from the past.</li>
-        </ol>
-    </div>
-
-
-    {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: Listen To Me Daddy, Mommy</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="10">
-            <li>Guide the children in understanding that they should tell their parents if they
-                have done something wrong. Even though parents may get angry, it is
-                because they want them to learn from their mistakes and not repeat them.
-                Explain to the children that their parents love them and they will forgive them.</li>
-        </ol>
-    </div>
-
-
-    {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: Listen To Me Daddy, Mommy</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="11">
-            <li>If there are parents around, ask them to express their opinions. Guide the
-                children in understanding that if they truthfully admit their mistakes to their
-                parents, their parents will forgive them. Encourage the children to tell their
-                parents their thoughts.</li>
-        </ol>
-    </div>
-
-
-    {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: Listen To Me Daddy, Mommy</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="12">
+        <ol class="list-decimal panel-ul w-[50vw]" start="8">
             <li>Guide children to complete the corresponding activities in the Thematic
                 Activity Book.</li>
         </ol>
     </div>
 
 
-
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: Listen To Me Daddy, Mommy</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: The Boy’s Bodyguard</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Ask the children to share what they will do in future if they
-                    make a mistake.</li>
+                <li>Ask each group to display their signage and place it at the appropriate location in school.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li> Able to tell parents about any mistake they commit.</li>
+                <li>Able to participate actively in the task of cleaning and repairing the toys.</li>
+                <li>Able to use imagination to design a signage together with friends.</li>
             </ul>
         </div>
     </div>
@@ -282,8 +198,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/k1/myself/index') }}";
-            const doneURL = "{{ url('/micet/k1/myself/index') }}";
+            const returnURL = "{{ url('/micet/k1/playtime/index') }}";
+            const doneURL = "{{ url('/micet/k1/playtime/index') }}";
 
             // Track current position
             let currentSlide = 0;

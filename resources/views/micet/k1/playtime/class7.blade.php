@@ -38,155 +38,146 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 7: Boy or Girl?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: Amazing Colours</h1>
         <img src="{{ asset('assets/images/micet/n1/mybody/class7/c1.png') }}" class="h-[8vw]" />
 
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul">
-            <li>Identify one's sex </li>
-            <li>Understand the differences between boys and girls</li>
+            <li>Identify different colours</li>
+            <li>Learn that mixing of colours will produce different colours</li>
+            <li>Develop the spirit of exploration</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: Boy or Girl?</h1>
-        <h3 class="ptitle">Preparations</h3>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[3vw]">
+        <h1 class="panel-title stroke">Classroom Activity 7: Amazing Colours</h1>
 
-        <ul class="list-disc panel-ul">
-            <li>Thematic Activity Book</li>
-        </ul>
+        <div>
+            <h3 class="ptitle">Preparations</h3>
+
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Thematic Activity Book</li>
+                <li>Dilute red, yellow and blue watercolours (to moderate consistency) and fill them in mineral bottles.
+                    Allocate one set per group</li>
+                <li>Clear plastic cups</li>
+                <li>One small brush for each group</li>
+                <li>Crepe paper cut into 3 cm in size, glue</li>
+                <li>Colour mixing chart (refer to lesson development), A4 size, one sheet per group</li>
+            </ul>
+        </div>
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 7: Boy or Girl?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: Amazing Colours</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[50vw]">
-                <li>Ask the children to point out who is a boy and who is a girl in the picture.</li>
+                <li>Display the watercolours and have children identify the colours.</li>
+                <li>Invite the children to do a colour mixing experiment.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/micet/k1/myself/class7/c1.png') }}" class="h-[20vw]">
+        <img src="{{ asset('assets/images/micet/k1/playtime/class7/c1.png') }}" class="h-[20vw]">
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: Boy or Girl?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: Amazing Colours</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="2">
-            <li>Ask the children to identify their sex and to stand in two rows in front of the boy
-                and girl shown on the projection screen.</li>
-            <li>Ask the children from the two rows to sit face to face in boy-girl pairs.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="3">
+            <li>Click to play the video. Let children observe the colour change that occurs when blue and red watercolours
+                are mixed.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/k1/myself/class7/c1.png') }}" class="h-[20vw]">
+        <video class="h-[18vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/k1/playtime/class7/v1.mp4') }}" type="video/mp4">
+        </video>
     </div>
 
 
     {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: Boy or Girl?</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7: Amazing Colours</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="4">
-            <li>Let the children name some zoo animals and describe what they look like. Ask the children the following
-                questions to guide their discussion.
-                <ul class="list-disc pl-[1vw]">
-                    <li>Does your hair look the same as your friend's? If not, what are the differences?</li>
-                    <li>Are your clothes similar to your friend's clothes? If not, what are the differences?</li>
-                    <li>Is your body size similar to your friend's? If not, what is the difference?</li>
-                    <li>Do you both like the same food?</li>
-                    <li>Do you both like the same colour?</li>
-                    <li>Do you both like the same game?</li>
-                    <li>Do you both like the same toy?</li>
-                </ul>
-            </li>
+            <li>Click to play the video. Let children observe how to record the experiment: Dip a strip of crepe paper in
+                the watercolour to absorb the colour and paste on the chart. First paste the papers dipped in the original
+                colours on the left side and center of the chart, and then paste the paper dipped in the new colour on the
+                right side of the chart.</li>
         </ol>
+        <video class="h-[18vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/k1/playtime/class7/v2.mp4') }}" type="video/mp4">
+        </video>
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: Boy or Girl?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: Amazing Colours</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="5">
-            <li>Click on the picture below to open the Software Magnetic Board. Guide the
-                children to analyse the similarities and differences between boys and girls.</li>
+            <li>Click to play the video. Let children observe the colour change that occurs when blue and yellow
+                watercolours are mixed.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/k1/myself/class7/c2.png') }}" class="h-[20vw]">
+        <video class="h-[18vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/k1/playtime/class7/v3.mp4') }}" type="video/mp4">
+        </video>
     </div>
 
 
     {{-- panel 6 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: Boy or Girl?</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7: Amazing Colours</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="6">
-            <li>Click on the picture below to open the Software Magnetic Board. Guide the
-                children to analyse the similarities and differences between boys and girls.</li>
+            <li>Click to play the video. Let children observe how to record the experiment: Dip a strip of crepe paper in
+                the watercolour to absorb the colour and paste on the chart. First paste the papers dipped in the original
+                colours on the left side and center of the chart, and then paste the paper dipped in the new colour on the
+                right of the chart.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/k1/myself/class7/c3.png') }}" class="h-[20vw]">
+        <video class="h-[16vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/k1/playtime/class4/v1.mp4') }}" type="video/mp4">
+        </video>
     </div>
 
 
     {{-- panel 7 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: Boy or Girl?</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7: Amazing Colours</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="7">
-            <li>Click on the picture below to open the Software Magnetic Board. Guide the
-                children to analyse the similarities and differences between boys and girls.</li>
+            <li>Organise children into groups. Distribute a set of experiment materials and a sheet of colour mixing chart
+                to each group. Encourage children to explore freely to find out what new colours are formed by mixing any
+                two colours. [Note: Remind children that the watercolours are not for drinking.)</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/k1/myself/class7/c4.png') }}" class="h-[20vw]">
+        <img src="{{ asset('assets/images/micet/k1/playtime/class7/c2.png') }}" class="h-[17vw]">
     </div>
 
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: Boy or Girl?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: Amazing Colours</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="8">
-            <li>Click on the picture below to open the Software Magnetic Board. Guide the
-                children to analyse the similarities and differences between boys and girls.</li>
+            <li>Invite each group to display their chart and share their findings.</li>
+            <li>Let all the groups compare their charts. Help children explore the different new colours formed. Guide them
+                to understand that the shade of the new colour that is formed depends on the amount of the individual
+                colours that are used in making it.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/k1/myself/class7/c5.png') }}" class="h-[20vw]">
     </div>
 
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: Boy or Girl?</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="9">
-            <li>Click on the picture below to open the Software Magnetic Board. Guide the
-                children to analyse the similarities and differences between boys and girls.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/k1/myself/class7/c6.png') }}" class="h-[20vw]">
-    </div>
-
-
-    {{-- panel 7 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: Boy or Girl?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: Amazing Colours</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="10">
-            <li>Click on the picture below to open the Software Magnetic Board. Guide the
-                children to analyse the similarities and differences between boys and girls.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/k1/myself/class7/c7.png') }}" class="h-[20vw]">
-    </div>
-
-
-    {{-- panel 7 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: Boy or Girl?</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="11">
             <li>Guide children to complete the corresponding activities in the Thematic
                 Activity Book.</li>
         </ol>
@@ -195,23 +186,21 @@
 
     {{-- panel 12 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: Boy or Girl?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: Amazing Colours</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Let the children talk about the similarities and differences
-                    between boys and girls based on their earlier observation
-                    and discussion.</li>
+                <li>Ask children: What colour is formed when red and yellow/ red and blue/yellow and blue are mixed
+                    together?</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to identify one's sex.</li>
-                <li>Able to describe the similarities and differences between
-                    boys and girls.</li>
+                <li>Able to participate actively in exploring colours.</li>
+                <li>Able to know through experimentation that mixing of colours will produce new colours.</li>
             </ul>
         </div>
     </div>
@@ -271,8 +260,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/k1/myself/index') }}";
-            const doneURL = "{{ url('/micet/k1/myself/index') }}";
+            const returnURL = "{{ url('/micet/k1/playtime/index') }}";
+            const doneURL = "{{ url('/micet/k1/playtime/index') }}";
 
             // Track current position
             let currentSlide = 0;
