@@ -56,25 +56,35 @@
 
     </div>
 
+    {{-- MICET K1 --}}
+    <div id="slide-board" class="flex justify-center items-center flex-col mb-[2vw] hidden">
 
-    {{-- Phonics l2 --}}
-    <div id="slide-board" class="first grid grid-cols-2 gap-[2vw] mb-[2vw] hidden">
+        <div class="grid grid-cols-2 gap-[2vw] mb-[2vw]">
 
-        <a href="{{ url('/micet/k1/transport/class9') }}">
-            <img src="{{ asset('assets/images/micet/k1/transport/class9.png') }}" />
-        </a>
+            <a href="{{ url('/micet/k1/transport/class9') }}">
+                <img src="{{ asset('assets/images/micet/k1/transport/class9.png') }}" />
+            </a>
 
-        <a href="{{ url('/micet/k1/transport/class10') }}">
-            <img src="{{ asset('assets/images/micet/k1/transport/class10.png') }}" />
-        </a>
+            <a href="{{ url('/micet/k1/transport/class10') }}">
+                <img src="{{ asset('assets/images/micet/k1/transport/class10.png') }}" />
+            </a>
+        </div>
+        
+        <div class="col-span-2 grid grid-cols-3 gap-[2vw]">
 
-        <a href="{{ url('/micet/k1/transport/activity') }}">
-            <img src="{{ asset('assets/images/micet/k1/transport/activity.png') }}" />
-        </a>
+            <a href="{{ url('/micet/k1/transport/cards') }}">
+                <img src="{{ asset('assets/images/micet/k1/transport/cards.png') }}" />
+            </a>
 
-        <a href="{{ url('/micet/k1/transport/tables') }}">
-            <img src="{{ asset('assets/images/micet/k1/transport/tables.png') }}" />
-        </a>
+            <a href="{{ url('/micet/k1/transport/activity') }}">
+                <img src="{{ asset('assets/images/micet/k1/transport/activity.png') }}" />
+            </a>
+
+            <a href="{{ url('/micet/k1/transport/tables') }}">
+                <img src="{{ asset('assets/images/micet/k1/transport/tables.png') }}" />
+            </a>
+
+        </div>
 
     </div>
 
@@ -122,16 +132,16 @@
 
             let currentSlide = 0;
 
-            const savedSlide = sessionStorage.getItem("micet_k1_transport_slide");
-            const cameFromLesson = sessionStorage.getItem("micet_k1_transport_from_lesson");
+            const savedSlide = sessionStorage.getItem("micet_n2_transport_slide");
+            const cameFromLesson = sessionStorage.getItem("micet_n2_transport_from_lesson");
 
             if (savedSlide !== null && cameFromLesson === "1") {
                 currentSlide = parseInt(savedSlide);
             }
 
             // Always clear after reading
-            sessionStorage.removeItem("micet_k1_transport_slide");
-            sessionStorage.removeItem("micet_k1_transport_from_lesson");
+            sessionStorage.removeItem("micet_n2_transport_slide");
+            sessionStorage.removeItem("micet_n2_transport_from_lesson");
 
             function showSlide(index) {
                 slides.forEach((slide, i) => {
@@ -154,8 +164,8 @@
             // Save slide + flag only when clicking a lesson link
             document.querySelectorAll("#slide-board a").forEach(link => {
                 link.addEventListener("click", () => {
-                    sessionStorage.setItem("micet_k1_transport_slide", currentSlide);
-                    sessionStorage.setItem("micet_k1_transport_from_lesson", "1");
+                    sessionStorage.setItem("micet_n2_transport_slide", currentSlide);
+                    sessionStorage.setItem("micet_n2_transport_from_lesson", "1");
                 });
             });
 

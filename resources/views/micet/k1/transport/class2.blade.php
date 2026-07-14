@@ -38,7 +38,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: Toot Toot Needs Help</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Searching For Wheels</h1>
         <div class="flex ">
             <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
             <img src="{{ asset('assets/images/micet/n1/mybody/class2/c1.png') }}" class="h-[12vw]" />
@@ -57,7 +57,7 @@
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col items-center space-y-[3vw] h-full">
-        <h1 class="panel-title stroke">Classroom Activity 2: Toot Toot Needs Help</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Searching For Wheels</h1>
 
         <div>
             <h3 class="ptitle">Preparations</h3>
@@ -65,162 +65,169 @@
             <ul class="list-disc panel-ul">
                 <li>Thematic Activity Book</li>
             </ul>
+
+            <div>
+                <h3 class="panel-ul">Optional Activity:</h3>
+                <ul class="list-disc panel-ul pl-[2vw]">
+                    <li>Thematic Activity Book</li>
+                </ul>
+            </div>
         </div>
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: Toot Toot Needs Help</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Searching For Wheels</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[45vw]">
-                <li>Guide the children to talk about the exterior characteristics of vehicles, such
-                    as: doors, windows, windscreen, mirrors, tyres, headlights, etc.</li>
+                <li>Display the picture. Guide children to identify the wheels of different types of vehicles.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/micet/n2/transport/class2/c1.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/k1/transport/class2/c1.png') }}" class="w-[25vw]" />
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: Toot Toot Needs Help</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Searching For Wheels</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]">
-            <li>Guide the children to talk about the exterior characteristics of vehicles, such
-                as: doors, windows, windscreen, mirrors, tyres, headlights, etc.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="2">
+            <li>Display the picture. Guide children to identify the wheels of different types of vehicles.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class2/c2.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/k1/transport/class2/c2.png') }}" class="h-[20vw]" />
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: Toot Toot Needs Help</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Searching For Wheels</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]">
-            <li>Guide the children to talk about the exterior characteristics of vehicles, such
-                as: doors, windows, windscreen, mirrors, tyres, headlights, etc.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Display the picture. Guide children to identify the wheels of different types of vehicles.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class2/c3.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/k1/transport/class2/c3.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: Toot Toot Needs Help</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Searching For Wheels</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="2">
-            <li>Have the children talk about the special features under the bonnet. Guide the
-                children to understand that the engine is under the bonnet.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="4">
+            <li>Display the picture. Guide children to identify the wheels of different types of vehicles.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class2/c4.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/k1/transport/class2/c4.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: Toot Toot Needs Help</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Searching For Wheels</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="2">
-            <li>Have the children talk about the special features under the bonnet. Guide the
-                children to understand that the engine is under the bonnet.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="5">
+            <li>Display the picture. Guide children to identify the wheels of different types of vehicles.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class2/c5.png') }}" class="h-[20vw]" />
+        <img src="{{ asset('assets/images/micet/k1/transport/class2/c5.png') }}" class="w-[25vw]" />
     </div>
 
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: Toot Toot Needs Help</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Searching For Wheels</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Have the children talk about the special features under the bonnet. Guide the
-                children to understand that the engine is under the bonnet.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="6">
+            <li>Display the picture. Guide children to identify the wheels of different types of vehicles.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class2/c6.png') }}" class="h-[20vw]" />
+        <img src="{{ asset('assets/images/micet/k1/transport/class2/c6.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: Toot Toot Needs Help</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Searching For Wheels</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Ask children to turn to Activity 2 in the Thematic Activity Book, and say what is
-                missing from Toot Toot's body. Identify the numbers 1-10 together with the children. Then,
-                have the children join the numbered dots in sequence to complete the picture.</li>
-            <li>When the task is completed, ask the children to colour the picture.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="7">
+            <li>Let children compare the wheels of different types of vehicles and state the similarities and differences in
+                the shapes and sizes of the wheels (e.g. all wheels are round; their size vary according to the type of
+                vehicle)</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class2/c7.png') }}" class="w-[25vw]" />
 
+        <div>
+            <img src="{{ asset('assets/images/micet/k1/transport/class2/c7.png') }}" class="h-[9vw] w-[45vw]" />
+            <img src="{{ asset('assets/images/micet/k1/transport/class2/c8.png') }}" class="h-[9vw] w-[45vw]" />
+        </div>
     </div>
 
 
     {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: Toot Toot Needs Help</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Searching For Wheels</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="6">
-            <li>Ask the children whether vehicles are allowed to travel on a field or in a park.
-                Guide the children to understand that moving vehicles need to observe traffic
-                rules and should only drive on the road.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="8">
+            <li>(Optional Activity) Display an old tyre. Let children observe it and state its shape and size. Let children
+                guess which type of vehicle the tyre belongs to.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class2/c8.png') }}" class="h-[20vw]" />
     </div>
 
 
     {{-- panel 9 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: Toot Toot Needs Help</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Searching For Wheels</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="7">
-            <li>Ask the children to refer to Activity 2 in the Thematic Activity Book. Decide which road
-                will take Toot Toot home. Have them use coloured pencils to mark out the correct route.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="9">
+            <li>Ask children: Do different vehicles have the same number of wheels? How many wheels do most of the common
+                vehicles have? Which vehicles have the least or most number of wheels? Guide children to name some vehicles
+                having a certain number of wheels.
+                For example:
+                <ul class="list-disc">
+                    <li>two wheels - bicycle, motorcycle</li>
+                    <li>three wheels - tricycle, trishaw, steamroller</li>
+                    <li>four wheels- car, bus</li>
+                    <li>six to eight wheels - big truck, oil tank truck</li>
+                    <li>six to eight wheels - big truck, oil tank truck</li>
+                </ul>
+            </li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class2/c9.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 9 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: Searching For Wheels</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="10">
+            <li>Guide children to complete the corresponding activities in the Thematic
+                Activity Book.</li>
+        </ol>
     </div>
 
 
 
     {{-- panel 19 --}}
     <div class="phonics-panel flex flex-col items-center h-full">
-        <h1 class="panel-title stroke">Classroom Activity 2: Toot Toot Needs Help</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: Searching For Wheels</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Invite the children to show the pictures that they have coloured and
-                    explain their choice of colour for Toot Toot.</li>
+                <li>Ask children: Which vehicles have the most/least number of wheels? Which vehicle has the biggest wheel?
+                    Which vehicle has the smallest wheel?</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to follow the number sequence when joining the dots to complete the picture.</li>
-                <li>Able to locate the correct route to help Toot Toot get home.</li>
+                <li>Able to compare the wheels of different vehicles.</li>
+                <li>Able to name vehicles having a certain number of wheels.</li>
             </ul>
         </div>
     </div>
 
-
-    {{-- panel 37 --}}
-    <div class="phonics-panel flex flex-col items-center h-full">
-        <h1 class="panel-title stroke">Classroom Activity 2: Toot Toot Needs Help</h1>
-
-        <div class="text-start flex flex-col">
-            <h3 class="ptitle">Extension</h3>
-
-            <ul class="list-disc panel-ul w-[45vw]">
-                <li>Ask the children to draw a few spare tyres for Toot Toot.
-                    Guide the children in drawing circles.</li>
-            </ul>
-        </div>
-    </div>
 
 
 
@@ -275,8 +282,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/transport/index') }}";
-            const doneURL = "{{ url('/micet/n2/transport/index') }}";
+            const returnURL = "{{ url('/micet/k1/transport/index') }}";
+            const doneURL = "{{ url('/micet/k1/transport/index') }}";
 
             // Track current position
             let currentSlide = 0;
