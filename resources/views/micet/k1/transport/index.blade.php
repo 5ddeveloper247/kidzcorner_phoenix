@@ -22,36 +22,36 @@
     {{-- Phonics l2 --}}
     <div id="slide-board" class=" home grid grid-cols-4 gap-[2vw] mb-[2vw]">
 
-        <a href="{{ url('/micet/n2/transport/class1') }}">
-            <img src="{{ asset('assets/images/micet/n2/transport/class1.png') }}" />
+        <a href="{{ url('/micet/k1/transport/class1') }}">
+            <img src="{{ asset('assets/images/micet/k1/transport/class1.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/n2/transport/class2') }}">
-            <img src="{{ asset('assets/images/micet/n2/transport/class2.png') }}" />
+        <a href="{{ url('/micet/k1/transport/class2') }}">
+            <img src="{{ asset('assets/images/micet/k1/transport/class2.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/n2/transport/class3') }}">
-            <img src="{{ asset('assets/images/micet/n2/transport/class3.png') }}" />
+        <a href="{{ url('/micet/k1/transport/class3') }}">
+            <img src="{{ asset('assets/images/micet/k1/transport/class3.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/n2/transport/class4') }}">
-            <img src="{{ asset('assets/images/micet/n2/transport/class4.png') }}" />
+        <a href="{{ url('/micet/k1/transport/class4') }}">
+            <img src="{{ asset('assets/images/micet/k1/transport/class4.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/n2/transport/class5') }}">
-            <img src="{{ asset('assets/images/micet/n2/transport/class5.png') }}" />
+        <a href="{{ url('/micet/k1/transport/class5') }}">
+            <img src="{{ asset('assets/images/micet/k1/transport/class5.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/n2/transport/class6') }}">
-            <img src="{{ asset('assets/images/micet/n2/transport/class6.png') }}" />
+        <a href="{{ url('/micet/k1/transport/class6') }}">
+            <img src="{{ asset('assets/images/micet/k1/transport/class6.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/n2/transport/class7') }}">
-            <img src="{{ asset('assets/images/micet/n2/transport/class7.png') }}" />
+        <a href="{{ url('/micet/k1/transport/class7') }}">
+            <img src="{{ asset('assets/images/micet/k1/transport/class7.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/n2/transport/class8') }}">
-            <img src="{{ asset('assets/images/micet/n2/transport/class8.png') }}" />
+        <a href="{{ url('/micet/k1/transport/class8') }}">
+            <img src="{{ asset('assets/images/micet/k1/transport/class8.png') }}" />
         </a>
 
     </div>
@@ -60,20 +60,20 @@
     {{-- Phonics l2 --}}
     <div id="slide-board" class="first grid grid-cols-2 gap-[2vw] mb-[2vw] hidden">
 
-        <a href="{{ url('/micet/n2/transport/class9') }}">
-            <img src="{{ asset('assets/images/micet/n2/transport/class9.png') }}" />
+        <a href="{{ url('/micet/k1/transport/class9') }}">
+            <img src="{{ asset('assets/images/micet/k1/transport/class9.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/n2/transport/class10') }}">
-            <img src="{{ asset('assets/images/micet/n2/transport/class10.png') }}" />
+        <a href="{{ url('/micet/k1/transport/class10') }}">
+            <img src="{{ asset('assets/images/micet/k1/transport/class10.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/n2/transport/activity') }}">
-            <img src="{{ asset('assets/images/micet/n2/transport/activity.png') }}" />
+        <a href="{{ url('/micet/k1/transport/activity') }}">
+            <img src="{{ asset('assets/images/micet/k1/transport/activity.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/n2/transport/tables') }}">
-            <img src="{{ asset('assets/images/micet/n2/transport/tables.png') }}" />
+        <a href="{{ url('/micet/k1/transport/tables') }}">
+            <img src="{{ asset('assets/images/micet/k1/transport/tables.png') }}" />
         </a>
 
     </div>
@@ -112,7 +112,7 @@
 @push('script')
     <script>
         document.body.dataset.homeRoute = "{{ url('/micet') }}";
-        document.body.dataset.parentRoute = "{{ url('/micet/n2/index') }}";
+        document.body.dataset.parentRoute = "{{ url('/micet/k1/index') }}";
 
         document.addEventListener("DOMContentLoaded", () => {
             const slides = document.querySelectorAll("#slide-board");
@@ -122,16 +122,16 @@
 
             let currentSlide = 0;
 
-            const savedSlide = sessionStorage.getItem("micet_n2_transport_slide");
-            const cameFromLesson = sessionStorage.getItem("micet_n2_transport_from_lesson");
+            const savedSlide = sessionStorage.getItem("micet_k1_transport_slide");
+            const cameFromLesson = sessionStorage.getItem("micet_k1_transport_from_lesson");
 
             if (savedSlide !== null && cameFromLesson === "1") {
                 currentSlide = parseInt(savedSlide);
             }
 
             // Always clear after reading
-            sessionStorage.removeItem("micet_n2_transport_slide");
-            sessionStorage.removeItem("micet_n2_transport_from_lesson");
+            sessionStorage.removeItem("micet_k1_transport_slide");
+            sessionStorage.removeItem("micet_k1_transport_from_lesson");
 
             function showSlide(index) {
                 slides.forEach((slide, i) => {
@@ -154,8 +154,8 @@
             // Save slide + flag only when clicking a lesson link
             document.querySelectorAll("#slide-board a").forEach(link => {
                 link.addEventListener("click", () => {
-                    sessionStorage.setItem("micet_n2_transport_slide", currentSlide);
-                    sessionStorage.setItem("micet_n2_transport_from_lesson", "1");
+                    sessionStorage.setItem("micet_k1_transport_slide", currentSlide);
+                    sessionStorage.setItem("micet_k1_transport_from_lesson", "1");
                 });
             });
 
