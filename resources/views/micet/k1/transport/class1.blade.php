@@ -48,7 +48,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 1: Toot Toot’s Adventure</h1>
+        <h1 class="panel-title stroke">Classroom Activity 1: A New Rubber Tyre For Billy</h1>
         <div class="flex items-center">
             <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
             <img src="{{ asset('assets/images/micet/n1/animals/class1/b1.png') }}" class="h-[8vw]" />
@@ -58,17 +58,16 @@
         <h3 class="title">Objectives:</h3>
 
         <ul class="list-disc panel-ul w-[40vw]">
-            <li>To learn road safety rules.</li>
-            <li>To be able to identify some common means of transport.</li>
-            <li>To practise language and communication skills.</li>
-            <li>To introduce and increase awareness of some traffic rules.</li>
+            <li>Enjoy listening to a story</li>
+            <li>Identify wheels of different types of transport</li>
+            <li>Inculcate the spirit of helping</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Toot Toot’s Adventure</h1>
+        <h1 class="panel-title stroke">Classroom Activity 1: A New Rubber Tyre For Billy</h1>
 
         <div>
             <h3 class="title">Preparations</h3>
@@ -82,7 +81,7 @@
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Toot Toot’s Adventure</h1>
+        <h1 class="panel-title stroke">Classroom Activity 1: A New Rubber Tyre For Billy</h1>
 
         <div>
             <h3 class="title">Lesson Development</h3>
@@ -97,25 +96,25 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Toot Toot’s Playland</h1>
+        <h1 class="panel-title stroke">A New Rubber Tyre For Billy</h1>
 
         <h3 class="p-title">Theme: Transportation</h3>
-        <img src="{{ asset('assets/images/micet/n2/transport/class1/c1.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/k1/transport/class1/c1.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">One moming, Little Bear and his family decide to visit their grandma. <br>
-            They place their luggage in their little car, Toot Toot, and set off.</h3>
-        <img src="{{ asset('assets/images/micet/n2/transport/class1/c2.png') }}" class="w-[25vw]" />
+        <h3 class="p-title">Billy was an old bus. One day as it was travelling on the road, there was <br>
+            a loud sound. It had punctured its tyre. The bus driver left Billy by the <br>
+            road side as he could not find a suitable tyre.</h3>
+        <img src="{{ asset('assets/images/micet/k1/transport/class1/c2.png') }}" class="w-[25vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                What is it like travelling in a car, bus, etc? What is special about the car <br>
-                in the picture?<br>
-                <span class="text-[#f7b94a]">Encourage the children to talk about their experiences of travelling on the
-                    road.</span>
+                Have you traveled in a bus before?<br>
+                What is the difference between a bus and a car? <br>
+                <span class="text-[#f7b94a]">Guide children to compare a bus to a car based on their prior knowledge.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -124,14 +123,15 @@
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Toot Toot goes too fast. Suddenly, a pair of trousers flies out of the car. It <br>
-            lands on Fast Fox, who is riding a motorcycle just behind Toot Toot.</h3>
-        <img src="{{ asset('assets/images/micet/n2/transport/class1/c3.png') }}" class="w-[25vw]" />
+        <h3 class="p-title">Just then, Tina passed by. Billy stopped her and asked Tina to help find a <br>
+            new tyre. Billy did not want to stop working as there were many old <br>
+            customers waiting for Billy to transport them.</h3>
+        <img src="{{ asset('assets/images/micet/k1/transport/class1/c3.png') }}" class="w-[25vw]" />
 
         <div class="flex items-center justify-around w-full">
             <h3 class="p-title text-left">
-                How many wheels does a motorcycle have?<br>
-                <span class="text-[#f7b94a]">What do you wear on your head when riding a motorcycle?</span>
+                If you were Tina, where would you find a new tyre for Billy?<br>
+                <span class="text-[#f7b94a]">Enhance children's thinking skills.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -140,16 +140,15 @@
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Toot Toot does not know that things are falling out from the boot of the <br>
-            car. He continues speeding along the road ... "Toot! Toot!". As Toot Toot drives on, <br>
-            grandma's present and a hat fly out of the car and land on Mr Monkey's police car.</h3>
-        <img src="{{ asset('assets/images/micet/n2/transport/class1/c4.png') }}" class="w-[25vw]" />
+        <h3 class="p-title">The kind-hearted Tina immediately left to look for a new tyre. First, she saw a <br>
+            motorcycle and a racing car which had big tyres that could travel very fast. <br>
+            However, Billy was a bus and these tyres were not suitable.</h3>
+        <img src="{{ asset('assets/images/micet/k1/transport/class1/c4.png') }}" class="w-[25vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                Who is driving the police car? What is special about a police car? <br>
-                What sound does a police car make?<br>
-                <span class="text-[#f7b94a]">Encourage the children to observe and express about what has happened.</span>
+                What is special about a motorcycle and a racing car?<br>
+                <span class="text-[#f7b94a]">Develop children's verbal description skills.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -158,16 +157,15 @@
 
     {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Toot Toot is not aware of what has happened. He continues to go very fast. Just <br>
-            then, a bolster flies out from the car and hits Harry Hippo, who is travelling behind on a bicycle.</h3>
-        <img src="{{ asset('assets/images/micet/n2/transport/class1/c5.png') }}" class="w-[25vw]" />
+        <h3 class="p-title">As Tina continued walking, she saw a steamroller. Its wheels were made <br>
+            of steel. They were big and heavy. But these wheels were not what Billy <br>
+            needed.</h3>
+        <img src="{{ asset('assets/images/micet/k1/transport/class1/c5.png') }}" class="w-[25vw]" />
 
         <div class="flex items-center justify-around w-full">
             <h3 class="p-title text-left">
-                Have you ridden on a bicycle? What is the difference between a car
-                and a bicycle?<br>
-                <span class="text-[#f7b94a]">Ask the children to take note of the similarities and differences between <br>
-                    a car and a bicycle.</span>
+                What is a steamroller used for?<br>
+                <span class="text-[#f7b94a]">Help children understand the uses of a steamroller.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -176,15 +174,17 @@
 
     {{-- panel 9 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Fast Fox, Mr Monkey, and Hary Hippo chase Little Bear and his family to <br>
-            retum the things that they dropped. However, Toot Toot speeds ahead <br>
-            unaware of the chase.</h3>
-        <img src="{{ asset('assets/images/micet/n2/transport/class1/c6.png') }}" class="w-[30vw]" />
+        <h3 class="p-title">"Choo choo ... " A train passed by. The train told Tina that its wheels were <br>
+            made of steel and could only travel on rails. The train invited Tina to travel <br>
+            on it to the beach to look for tyres.</h3>
+        <img src="{{ asset('assets/images/micet/k1/transport/class1/c6.png') }}" class="w-[30vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                Why are Fast Fox, MrMonkey and Hany Hippo chasing Toot To of? <br>
-                <span class="text-[#f7b94a]">Encourage the children to express thei rviews and anticipate events.</span>
+                What is the distinguishing feature of a train compared to a car? <br>
+                <span class="text-[#f7b94a]">Enhance children's comparison skills. <br>
+                    Help children understand the characteristics nftrains.
+                </span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -193,15 +193,15 @@
 
     {{-- panel 10 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Toot Toot drives too fast. Suddenly, the car comes to a halt. One of the <br>
-            tyres is punctured. Finally, Fast Fox, Mr Monkey and Harry Hippo catch <br>
-            up with Toot Toot. They retum all the things to Little Bear's family.</h3>
-        <img src="{{ asset('assets/images/micet/n2/transport/class1/c7.png') }}" class="w-[25vw]" />
+        <h3 class="p-title">At the beach, Tina saw a small boat, motorboat and a big ship. However, <br>
+            none of them had tyres so they were unable to help Tina. Tina sat in the <br>
+            big ship and continued looking for a tyre.</h3>
+        <img src="{{ asset('assets/images/micet/k1/transport/class1/c7.png') }}" class="w-[25vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                What would you do if you found things that someone dropped?<br>
-                <span class="text-[#f7b94a]">Teach the children about honesty and helpfulness.</span>
+                How do ships travel without tyres?<br>
+                <span class="text-[#f7b94a]">Help children understand how a ship moves and the use of propellers.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -210,15 +210,15 @@
 
     {{-- panel 11 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Little Bear and his family thank everyone. They hire a taxi to take them <br>
-            to grandma's house. They remember the policeman's advice to fasten <br>
-            their seat belts and secure their bags .</h3>
-        <img src="{{ asset('assets/images/micet/n2/transport/class1/c8.png') }}" class="w-[30vw]" />
+        <h3 class="p-title">On the ship, Tina saw a helicopter. But it also did not have suitable tyres <br>
+            for Billy. It brought Tina to an automobile service centre.</h3>
+        <img src="{{ asset('assets/images/micet/k1/transport/class1/c8.png') }}" class="w-[30vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                What do you say when some one retums your lost belongings?<br>
-                <span class="text-[#f7b94a]">Teach the children to show appreciation.</span>
+                What is the difference between a helicopter and an aeroplane?<br>
+                <span class="text-[#f7b94a]">Introduce position and use of propellers of a helicopter and an
+                    aeroplane.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -227,15 +227,15 @@
 
     {{-- panel 12 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Poor Toot Toot is left on the road waiting for the tow truck to tow him to <br>
-            the repair shop. Toot Toot promises himself that he will never speed again.</h3>
-        <img src="{{ asset('assets/images/micet/n2/transport/class1/c9.png') }}" class="w-[30vw]" />
+        <h3 class="p-title">Tina finally found a rubber tyre for Billy in the automobile service centre. <br>
+            Billy could transport passengeis again, just like before. Tina was very <br>
+            happy for Billy.</h3>
+        <img src="{{ asset('assets/images/micet/k1/transport/class1/c9.png') }}" class="w-[30vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                Do you know the function of a tow truck? Why does the tow truck tow Toot To of away?<br>
-                <span class="text-[#f7b94a]">Talk to the children about the functions of a tow truck to increase their
-                    general <br> knowledge.</span>
+                Count the number of tyres.<br>
+                <span class="text-[#f7b94a]">Enhance children's counting skills.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -243,35 +243,22 @@
 
 
     {{-- panel 13 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Toot Toot’s Adventure</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="2">
-            <li>Guide children to complete the corresponding activity in the Thematic
-                Activity Book.</li>
-        </ol>
-    </div>
-
-
-    {{-- panel 13 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Toot Toot’s Adventure</h1>
+        <h1 class="panel-title stroke">Classroom Activity 1: A New Rubber Tyre For Billy</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Encourage the children to talk about the different types of transports.</li>
-                <li>Ask the children to recall the road safety rules they should
-                    observe when travelling.</li>
+                <li>Let children name some vehicles and then talk about the wheels of these vehicles (describe their size,
+                    number, etc)</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to name some of the vehicles mentioned in the courseware.</li>
-                <li>Able to talk about road safety rules which should be
-                    observed when travelling.</li>
+                <li>Able to name some common types of transport.</li>
+                <li>Know the uses of wheels.</li>
             </ul>
         </div>
     </div>
@@ -332,8 +319,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/transport/index') }}";
-            const doneURL = "{{ url('/micet/n2/transport/index') }}";
+            const returnURL = "{{ url('/micet/k1/transport/index') }}";
+            const doneURL = "{{ url('/micet/k1/transport/index') }}";
 
             // Track current position
             let currentSlide = 0;

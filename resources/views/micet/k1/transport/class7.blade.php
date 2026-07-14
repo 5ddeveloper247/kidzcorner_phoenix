@@ -18,7 +18,7 @@
 
         .panel-title {
             color: #F7B94A;
-            font-size: 2.5vw;
+            font-size: 2.2vw;
         }
 
         .ptitle {
@@ -38,24 +38,21 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 7: On Land, sea and air</h1>
-        <img src="{{ asset('assets/images/micet/n1/mybody/class7/c1.png') }}" class="h-[12vw]" />
+        <h1 class="panel-title stroke">Classroom Activity 7:Where Does Rubber Come From?</h1>
+        <img src="{{ asset('assets/images/micet/n1/mybody/class7/c1.png') }}" class="h-[8vw]" />
 
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul">
-            <li>To have a better understanding of the different modes of
-                transportation.</li>
-            <li>To be able to differentiate and classify land, sea and air
-                transports.</li>
-            <li>To practise expressive language skills.</li>
+            <li>Be aware that many things are made of rubber</li>
+            <li>Understand the characteristics of rubber and where it comes from</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: On Land, sea and air</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[4vw]">
+        <h1 class="panel-title stroke">Classroom Activity 7:Where Does Rubber Come From?</h1>
 
         <div>
             <h3 class="ptitle">Preparations</h3>
@@ -63,30 +60,44 @@
             <ul class="list-disc panel-ul">
                 <li>Thematic Activity Book</li>
             </ul>
+
+            <div class="mt-[2vw] text-start">
+                <h3 class="text-white text-[1.5vw]">Optional Activity Preparations:</h3>
+
+                <ul class="list-disc panel-ul w-[45vw]">
+                    <li>A few days before the activity send out the letter to parents (see next slide).</li>
+                </ul>
+            </div>
         </div>
     </div>
 
 
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7:Where Does Rubber Come From?</h1>
+        <img src="{{ asset('assets/images/micet/k1/transport/class7/c1.png') }}" class="w-[35vw]" />
+    </div>
+
+
+
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 7: On Land, sea and air</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7:Where Does Rubber Come From?</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[50vw]">
-                <li>Click on the video and ask: "What kind of vehicle is this? In what way does it
-                    move? Does it move on land, on the sea or in the air?".</li>
+                <li>Display photos of things made of rubber. Ask children: What is this? What is it made of? What are its
+                    characteristics? Emphasize the uniqueness of rubber (elastic, waterproof, etc).</li>
             </ol>
         </div>
-        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-            <source src="{{ asset('assets/images/micet/n2/transport/class7/v1.mp4') }}" type="video/mp4">
-        </video>
+        <img src="{{ asset('assets/images/micet/k1/transport/class7/c2.png') }}" class="w-[35vw]" />
     </div>
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 7: On Land, sea and air</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7:Where Does Rubber Come From?</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]">
             <li>Click on the video and ask: "What kind of vehicle is this? In what way does it
@@ -94,13 +105,13 @@
         </ol>
 
         <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-            <source src="{{ asset('assets/images/micet/n2/transport/class7/v2.mp4') }}" type="video/mp4">
+            <source src="{{ asset('assets/images/micet/k1/transport/class7/v2.mp4') }}" type="video/mp4">
         </video>
     </div>
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 7: On Land, sea and air</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7:Where Does Rubber Come From?</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]">
             <li>Click on the video and ask: "What kind of vehicle is this? In what way does it
@@ -108,26 +119,26 @@
         </ol>
 
         <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-            <source src="{{ asset('assets/images/micet/n2/transport/class7/v2.mp4') }}" type="video/mp4">
+            <source src="{{ asset('assets/images/micet/k1/transport/class7/v2.mp4') }}" type="video/mp4">
         </video>
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 7: On Land, sea and air</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7:Where Does Rubber Come From?</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="2">
             <li>Click on the picture below to open the Software Magnetic Board. Guide the
                 children in classifying the different transport vehicles into land, sea and air.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class7/c1.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/k1/transport/class7/c1.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 7: On Land, sea and air</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7:Where Does Rubber Come From?</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="4">
             <li>Guide children to complete the corresponding activities in the Thematic
@@ -139,7 +150,7 @@
 
     {{-- panel 12 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: On Land, sea and air</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7:Where Does Rubber Come From?</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
@@ -164,7 +175,7 @@
 
     {{-- panel 12 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: On Land, sea and air</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7:Where Does Rubber Come From?</h1>
 
         <div class="text-start flex flex-col">
             <h3 class="ptitle">Extension</h3>
@@ -231,8 +242,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/transport/index') }}";
-            const doneURL = "{{ url('/micet/n2/transport/index') }}";
+            const returnURL = "{{ url('/micet/k1/transport/index') }}";
+            const doneURL = "{{ url('/micet/k1/transport/index') }}";
 
             // Track current position
             let currentSlide = 0;

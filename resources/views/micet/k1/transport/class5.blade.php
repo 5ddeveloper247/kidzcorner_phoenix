@@ -38,7 +38,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: My Favourite Vehicle</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: The Magical Effect of Air</h1>
         <div class="flex ">
             <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
             <img src="{{ asset('assets/images/micet/n1/mybody/class2/c1.png') }}" class="h-[12vw]" />
@@ -48,240 +48,341 @@
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul">
-            <li>To design one's favourite vehicle.</li>
-            <li>To identify the special features of different modes of
-                transport.</li>
-            <li>To exercise fine motor skills.</li>
+            <li>Understand that air is there in our surroundings</li>
+            <li>Understand the uses of air</li>
+            <li>Promote an interest in finding answers through experiments</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 5: My Favourite Vehicle</h1>
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[3vw]">
+        <h1 class="panel-title stroke">Classroom Activity 5: The Magical Effect of Air</h1>
 
         <div>
             <h3 class="ptitle">Preparations</h3>
 
             <ul class="list-disc panel-ul">
                 <li>Thematic Activity Book</li>
-                <li>A4 sized paper</li>
-                <li>Drawing Pencil</li>
+                <li>A plastic bag for each child</li>
             </ul>
+
+            <div class="mt-[2vw]">
+                <h3 class="text-white text-[1.5vw]">For hands-on experiment:</h3>
+
+                <ul class="list-disc panel-ul">
+                    <li>Inflatable float</li>
+                    <li>Balloons, basketballs, air pumps</li>
+                    <li>Bubble wraps</li>
+                    <li>Soap water for blowing bubbles</li>
+                    <li>Two hardboiled eggs</li>
+                    <li>A bicycle tyre (if available).</li>
+                </ul>
+            </div>
         </div>
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: My Favourite Vehicle</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: The Magical Effect of Air</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[50vw]">
-                <li>Ask the children: "What shape is this?"; "Why is this called a triangle?". Explain
-                    that a triangle has three corners.</li>
+                <li>Use a plastic bag to trap air and close the opening by holding it tight. Let children touch the plastic
+                    bag. Ask children: What is inside the plastic bag? (air)</li>
+                <li>Guide children to conduct an experiment to explore what air is:
+                    <ul class="list-disc">
+                        <li>Distribute the plastic bags. Let children use the plastic bags to trap air.</li>
+                        <li>Let the children open the bag to see, smell and touch the air.</li>
+                        <li>Ask them: Can you see, smell or touch air?</li>
+                    </ul>
+                </li>
+                <li>Guide children to conclude that: Our surroundings has air but we cannot see, smell and touch the air. In
+                    other words, air has no colour, no smell and is invisible.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/micet/n2/transport/class5/c1.png') }}" class="w-[20vw]" />
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: My Favourite Vehicle</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="2">
-            <li>Teacher demonstrates how a triangle is drawn and encourages the children to
-                practise drawing triangles.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class5/c2.png') }}" class="w-[25vw]" />
-    </div>
-
-
-    {{-- panel 3 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: My Favourite Vehicle</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="3">
-            <li>Ask the children: "What shape is this?" ; "How many corners are there?".
-                Explain that a square has four equal sides.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class5/c3.png') }}" class="w-[20vw]" />
-    </div>
-
-
-    {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: My Favourite Vehicle</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: The Magical Effect of Air</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="4">
-            <li>Teacher demonstrates how a triangle is drawn and encourages the children to
-                practise drawing triangles.</li>
+            <li>Ask children: Why is there air in our surroundings? What do you think are the uses of air?</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class5/c4.png') }}" class="w-[25vw]" />
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: My Favourite Vehicle</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: The Magical Effect of Air</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="5">
-            <li>Ask the children: "What shape is this?" ; "How many corners are there?".
-                Explain that a square has four equal sides.</li>
+            <li>Guide children to do the following experiment to understand why we need air: Ask children to hold their
+                breath for 10 seconds, then say how they feel when they stop breathing (chest feels stuffy, giddy, unable to
+                breathe, feels uncomfortable, etc).</li>
+            <li>Guide children to conclude from the result of the experiment: we breathe air and need air to survive.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class5/c5.png') }}" class="w-[20vw]" />
+
+        <video class="h-[15vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/k1/transport/class5/v1.mp4') }}" type="video/mp4">
+        </video>
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: My Favourite Vehicle</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: The Magical Effect of Air</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="6">
-            <li>Teacher demonstrates how a triangle is drawn and encourages the children to
-                practise drawing triangles.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="7">
+            <li>Inform children that all living things that is plants, animals and humans need air to survive.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class5/c2.png') }}" class="w-[25vw]" />
+        <div class="flex">
+            <img src="{{ asset('assets/images/micet/k1/transport/class5/c1.png') }}" class="h-[22vw]" />
+            <img src="{{ asset('assets/images/micet/k1/transport/class5/c2.png') }}" class="h-[22vw]" />
+        </div>
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 5: The Magical Effect of Air</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="8">
+            <li>Ask children: What happens when air leaks out from a tyre?</li>
+            <li>Click to play the video. Let children observe what happens when air leaks out of a tyre.</li>
+        </ol>
+        <video class="h-[18vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/k1/transport/class5/v2.mp4') }}" type="video/mp4">
+        </video>
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: My Favourite Vehicle</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: The Magical Effect of Air</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="7">
-            <li>Demonstrate to the children how to use a combination of shapes to draw
-                different types of vehicles. Let the children practise on paper.</li>
-            <li>Ask the children to include the special characteristics of the vehicle drawn. For
-                example the police car siren, lights and so on.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="10">
+            <li>Ask children: What happens when air is pumped into a tyre?</li>
+            <li>Click to play the video. Let children observe what happens when air is pumped into a tyre.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class5/c2.png') }}" class="w-[25vw]" />
+        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/k1/transport/class5/v3.mp4') }}" type="video/mp4">
+        </video>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 5: The Magical Effect of Air</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="12">
+            <li>Let children discuss: If the tyres are without any air, what would happen to a car, motorcycle or bicycle?
+                Ifthe entire tyre is solid rubber what would happen to a car, motorcycle or a bicycle?</li>
+            <li>Guide children to conclude that: Air is very useful for filling up things because it gives shape to things
+                and makes them functional. Besides that, air is light and therefore does not add much to the weight of the
+                things.</li>
+        </ol>
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: My Favourite Vehicle</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: The Magical Effect of Air</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="7">
-            <li>Demonstrate to the children how to use a combination of shapes to draw
-                different types of vehicles. Let the children practise on paper.</li>
-            <li>Ask the children to include the special characteristics of the vehicle drawn. For
-                example the police car siren, lights and so on.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="14">
+            <li>Ask children: Besides tyres, what other things need to be filled with air in order to be used.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class5/c6.png') }}" class="w-[25vw]" />
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: My Favourite Vehicle</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: The Magical Effect of Air</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="7">
-            <li>Demonstrate to the children how to use a combination of shapes to draw
-                different types of vehicles. Let the children practise on paper.</li>
-            <li>Ask the children to include the special characteristics of the vehicle drawn. For
-                example the police car siren, lights and so on.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="15">
+            <li>Balloons need to be filled with air in order to have shape and be used.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class5/c2.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/k1/transport/class5/c3.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: My Favourite Vehicle</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: The Magical Effect of Air</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="7">
-            <li>Demonstrate to the children how to use a combination of shapes to draw
-                different types of vehicles. Let the children practise on paper.</li>
-            <li>Ask the children to include the special characteristics of the vehicle drawn. For
-                example the police car siren, lights and so on.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="16">
+            <li>A basketball need to be filled with air in order to have shape and be used.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class5/c7.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/k1/transport/class5/c4.png') }}" class="w-[25vw]" />
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: My Favourite Vehicle</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: The Magical Effect of Air</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="7">
-            <li>Demonstrate to the children how to use a combination of shapes to draw
-                different types of vehicles. Let the children practise on paper.</li>
-            <li>Ask the children to include the special characteristics of the vehicle drawn. For
-                example the police car siren, lights and so on.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="17">
+            <li>Floats need to be filled with air in order to have shape and be used.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class5/c8.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/k1/transport/class5/c5.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: My Favourite Vehicle</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: The Magical Effect of Air</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="7">
-            <li>Demonstrate to the children how to use a combination of shapes to draw
-                different types of vehicles. Let the children practise on paper.</li>
-            <li>Ask the children to include the special characteristics of the vehicle drawn. For
-                example the police car siren, lights and so on.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="18">
+            <li>Bubbles need to be filled with air in order to have shape and be used.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class5/c2.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/k1/transport/class5/c6.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: My Favourite Vehicle</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: The Magical Effect of Air</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="7">
-            <li>Demonstrate to the children how to use a combination of shapes to draw
-                different types of vehicles. Let the children practise on paper.</li>
-            <li>Ask the children to include the special characteristics of the vehicle drawn. For
-                example the police car siren, lights and so on.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="19">
+            <li>Ask children: What happens when we drop a balloon without air on the floor?</li>
+            <li>Click to play the video. Let children observe what happens.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class5/c2.png') }}" class="w-[25vw]" />
+        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/k1/transport/class5/v4.mp4') }}" type="video/mp4">
+        </video>
     </div>
 
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: My Favourite Vehicle</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: The Magical Effect of Air</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="9">
-            <li>Have the children use a combination of shapes to create their favourite
-      vehicle in the Thematic Activity Book.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="21">
+            <li>Ask children: What happens when we drop a balloon with air on the floor?</li>
+            <li>Click to play the video. Let children observe what happens.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class5/c2.png') }}" class="w-[30vw]" />
+        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/k1/transport/class5/v5.mp4') }}" type="video/mp4">
+        </video>
+    </div>
+
+
+    {{-- panel 6 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 5: The Magical Effect of Air</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="23">
+            <li>Guide children to conclude from the result of the experiment: When things filled with air drop on the floor,
+                they will bounce. Air makes things bounce.</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 6 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 5: The Magical Effect of Air</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="24">
+            <li>Ask children: What happens when an egg is dropped from a height of one metre to the ground? What happens
+                when an egg wrapped in a few layers of bubble wrap is dropped from a height of one metre to the ground?</li>
+            <li>Click to play the video. Let children observe the process and the result of the experiment.</li>
+        </ol>
+        <video class="h-[18vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/k1/transport/class5/v6.mp4') }}" type="video/mp4">
+        </video>
+    </div>
+
+
+    {{-- panel 6 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 5: The Magical Effect of Air</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="26">
+            <li>Guide children to conclude from the result of the experiment: Air is a good shock absorber that protects
+                things from damage.</li>
+            <li>Let children discuss: Why seats in a car are fitted with air bags? Guide children to understand that in the
+                case of an accident, the air bags will inflate rapidly. As air is a good shock absorber, the inflated air
+                bags will protect the driver and the passengers from getting hurt and will thus reduce injury.</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 6 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 5: The Magical Effect of Air</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="28">
+            <li>Finally, let children choose from the prepared items to conduct experiments to help explore the uses of air
+                (e.g. blow balloons; pump air into a basketball or a float; bounce a balloon or a basketball; drop a
+                hardboiled egg to the ground and then drop a hardboiled egg wrapped in a bubble wrap to the ground).</li>
+            <li>Guide children to summarise the uses of air:
+                <ul class="list-disc">
+                    <li>We need to breathe air to survive.</li>
+                    <li>Air can be used to fill up things; it is light, gives things shape and makes them functional.</li>
+                    <li>Air can make things bounce.</li>
+                    <li>Air is a good shock absorber and protects things from damage.</li>
+                </ul>
+
+            </li>
+        </ol>
+    </div>
+
+
+    {{-- panel 6 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 5: The Magical Effect of Air</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="30">
+            <li>Guide children to complete the corresponding activities in the Thematic
+                Activity Book.</li>
+        </ol>
     </div>
 
 
 
     {{-- panel 23 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 5: My Favourite Vehicle</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: The Magical Effect of Air</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have the children present and explain their drawings to the class.</li>
-                <li>Display the children's drawings.</li>
+                <li>Ask children to state where air is and the uses of air.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to draw one's favourite vehicle.</li>
-                <li>Able to give a simple presentation of the vehicle drawn.</li>
+                <li>Know that air is in our surroundings.</li>
+                <li>Able to state some uses of air.</li>
+                <li>Understand that we can find answers to questions through experiments.</li>
             </ul>
         </div>
     </div>
 
 
-    
+    {{-- panel 23 --}}
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
+        <h1 class="panel-title stroke">Classroom Activity 5: The Magical Effect of Air</h1>
+
+        <div class="text-start flex flex-col h-full">
+            <h3 class="ptitle">Extension</h3>
+
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Ask children to find examples of objects at home that need to be filled with air and share the
+                    information with their classmates.</li>
+            </ul>
+        </div>
+    </div>
+
+
+
 
 
 
@@ -336,8 +437,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/transport/index') }}";
-            const doneURL = "{{ url('/micet/n2/transport/index') }}";
+            const returnURL = "{{ url('/micet/k1/transport/index') }}";
+            const doneURL = "{{ url('/micet/k1/transport/index') }}";
 
             // Track current position
             let currentSlide = 0;
