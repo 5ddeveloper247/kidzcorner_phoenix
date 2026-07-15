@@ -38,27 +38,29 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: The wheels on the bus</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Rotating Wheels</h1>
         <img src="{{ asset('assets/images/micet/n1/mybody/c8.1.png') }}" class="h-[8vw]" />
 
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul">
-            <li>To develop music appreciation.</li>
-            <li>To sing the song "The wheels on the bus".</li>
+            <li>Understand the uses and importance of wheels</li>
+            <li>Use imagination to design an object with wheels</li>
+            <li>Learn to sing a song and modify the song based on one's design</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: The wheels on the bus</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Rotating Wheels</h1>
 
         <div>
             <h3 class="ptitle">Preparations</h3>
 
             <ul class="list-disc panel-ul">
                 <li>Thematic Activity Book</li>
+                <li>Colour Pencils, papers</li>
             </ul>
         </div>
     </div>
@@ -66,241 +68,200 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: The wheels on the bus</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Rotating Wheels</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[45vw]">
-                <li>Have the children talk about the features of a bus, such as: a long body, many
-                    windows, a front door and a back door, many seats, etc.</li>
+                <li>Ask children: What is the shape of a wheel? What are the uses of wheels?</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/micet/n2/transport/class8/c1.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: The wheels on the bus</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Rotating Wheels</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]">
-            <li>Have the children talk about the features of a bus, such as: a long body, many
-                windows, a front door and a back door, many seats, etc. </li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="2">
+            <li>Ask children: Besides normal modes of transport, what other things have wheels?</li>
         </ol>
-
-        <img src="{{ asset('assets/images/micet/n2/transport/class8/c2.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: The wheels on the bus</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Rotating Wheels</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]">
-            <li>Have the children talk about the features of a bus, such as: a long body, many
-                windows, a front door and a back door, many seats, etc.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Ask children: Wheelchairs have wheels. Why?</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class8/c3.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/k1/transport/class8/c1.png') }}" class="h-[20vw]" />
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: The wheels on the bus</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Rotating Wheels</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]">
-            <li>Have the children talk about the features of a bus, such as: a long body, many
-                windows, a front door and a back door, many seats, etc.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="4">
+            <li>Ask children: Wheelbarrows have wheels. Why?</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class8/c4.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/k1/transport/class8/c2.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: The wheels on the bus</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Rotating Wheels</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]">
-            <li>Have the children talk about the features of a bus, such as: a long body, many
-                windows, a front door and a back door, many seats, etc.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="5">
+            <li>Ask children: Shopping Carts have wheels. Why?</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class8/c5.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/k1/transport/class8/c3.png') }}" class="h-[20vw]" />
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: The wheels on the bus</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Rotating Wheels</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="2">
-            <li>Let children listen to the song "The wheels on the bus". Have the children sing
-                along with their teacher.</li>
-            <li>Encourage the children to add actions as they sing the song.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="6">
+            <li>Ask children: Prams have wheels. Why?</li>
         </ol>
-        <h4 class="text-white text-[2vw] text-start">
-            The wheels on the bus go <br>
-            Round and round, <br>
-            Round and round, <br>
-            Round and round. <br>
-            The wheels on the bus go <br>
-            Round and round, <br>
-            All around the town.
-        </h4>
+        <img src="{{ asset('assets/images/micet/k1/transport/class8/c4.png') }}" class="h-[20vw]" />
     </div>
 
 
-    {{-- panel 6 --}}
+    {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: The wheels on the bus</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Ask the children to talk about what people do while travelling on a bus.</li>
-            <li><span class="flex items-end">Let children listen to the song again and sing along.
-                    <button class="w-[2.5vw]" id="soundButton">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button>
-                </span></li>
-            <li>Encourage the children to add actions as they sing the song.</li>
-        </ol>
-        <div class="flex gap-[2vw] items-start">
-
-            <h4 class="text-white text-[2vw] text-start">
-                The babies on the bus <br>
-                Bounce up and down, <br>
-                Up and down, <br>
-                Up and down. <br>
-                The babies on the bus <br>
-                Bounce up and down, <br>
-                All around the town.
-            </h4>
-        </div>
-    </div>
-
-
-    {{-- panel 6 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: The wheels on the bus</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Ask the children to talk about what people do while travelling on a bus.</li>
-            <li><span class="flex items-end">Let children listen to the song again and sing along.
-                    <button class="w-[2.5vw]" id="soundButton">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button>
-                </span></li>
-            <li>Encourage the children to add actions as they sing the song.</li>
-        </ol>
-        <div class="flex gap-[2vw] items-start">
-
-            <h4 class="text-white text-[2vw] text-start">
-                The children on the bus go <br>
-                Hee, hee, hee, <br>
-                Hee, hee, hee, <br>
-                Hee, hee, hee. <br>
-                The children on the bus go <br>
-                Hee, hee, hee, <br>
-                All around the town.
-            </h4>
-        </div>
-    </div>
-
-
-    {{-- panel 6 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: The wheels on the bus</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Ask the children to talk about what people do while travelling on a bus.</li>
-            <li><span class="flex items-end">Let children listen to the song again and sing along.
-                    <button class="w-[2.5vw]" id="soundButton">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button>
-                </span></li>
-            <li>Encourage the children to add actions as they sing the song.</li>
-        </ol>
-        <div class="flex gap-[2vw] items-start">
-
-            <h4 class="text-white text-[2vw] text-start">
-                The mummies on the bus go <br>
-                Chitter, chatter, chatter, <br>
-                Chitter, chatter, chatter, <br>
-                Chitter, chatter, chatter. <br>
-                The mummies on the bus go <br>
-                Chitter, chatter, chatter, <br>
-                All around the town.
-            </h4>
-        </div>
-    </div>
-
-
-    {{-- panel 6 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: The wheels on the bus</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Ask the children to talk about what people do while travelling on a bus.</li>
-            <li><span class="flex items-end">Let children listen to the song again and sing along.
-                    <button class="w-[2.5vw]" id="soundButton">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button>
-                </span></li>
-            <li>Encourage the children to add actions as they sing the song.</li>
-        </ol>
-        <div class="flex gap-[2vw] items-start">
-
-            <h4 class="text-white text-[2vw] text-start">
-                The daddies on the bus go <br>
-                Nod, nod, nod, <br>
-                Nod, nod, nod, <br>
-                Nod, nod, nod. <br>
-                The daddies on the bus go <br>
-                Nod, nod, nod, <br>
-                All around the town.
-            </h4>
-        </div>
-    </div>
-
-
-    {{-- panel 6 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: The wheels on the bus</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Rotating Wheels</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="7">
-            <li>Encourage the children to imagine travelling on a public bus with the family.
-                Act out different scenarios by changing the lyrics of the song.</li>
-            <li>Encourage the children to add actions wherever possible.</li>
+            <li>Ask children: Roller Skates have wheels. Why?</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/transport/class8/c5.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 8: Rotating Wheels</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="8">
+            <li>Ask children: Roller Skates have wheels. Why?</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/transport/class8/c6.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 8: Rotating Wheels</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="9">
+            <li>Ask children: Scooters have wheels. Why?</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/transport/class8/c7.png') }}" class="h-[20vw]" />
+    </div>
+
+
+    {{-- panel 6 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 8: Rotating Wheels</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="10">
+            <li>Guide children to conclude: Some things have wheels as wheels save effort and make it easier to move around.
+            </li>
         </ol>
     </div>
 
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: The wheels on the bus</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Rotating Wheels</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="9">
+        <ol class="list-decimal panel-ul w-[45vw]" start="11">
+            <li>Distribute the papers. Invite children to design an object with wheels. Encourage children to use their
+                imagination and creativity to design something new and different.</li>
+            <li>After that, let children learn to sing the song "The Wheels On The Bus Go Round And Round".</li>
+        </ol>
+
+        <div class="flex gap-[2vw] items-start">
+
+            <button class="w-[3vw]" id="soundButton">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            </button>
+
+            <h4 class="text-white text-[1.7vw] text-start">
+                The wheels on the bus go <br>
+                round and round, <br>
+                round and round, <br>
+                round and round. <br>
+                The wheels on the bus go <br>
+                round and round, <br>
+                all around the town.
+            </h4>
+        </div>
+    </div>
+
+
+    {{-- panel 6 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 8: Rotating Wheels</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="4">
+            <li>When children are familiar with the song, let them modify the song by substituting the lyrics based on their
+                design.</li>
+        </ol>
+        <div class="flex gap-[2vw] items-start">
+            <button class="w-[3vw]" id="soundButton">
+                <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+            </button>
+            <h4 class="text-white text-[1.8vw] text-start">
+                The wheels on the skateboard go <br>
+                round and round, <br>
+                round and round, <br>
+                round and round. <br>
+                The wheels on the skateboard go <br>
+                round and round, <br>
+                all around the town.
+            </h4>
+        </div>
+    </div>
+
+
+    {{-- panel 6 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 8: Rotating Wheels</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="14">
             <li>Guide children to complete the corresponding activities in the Thematic
                 Activity Book.</li>
         </ol>
     </div>
 
 
+
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: The wheels on the bus</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Rotating Wheels</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Invite a few of the children to perform the song.</li>
+                <li>Let children take turns to display their drawings. Let them introduce and explain their design and sing
+                    their modified song.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to sing "The wheels on the bus".</li>
-                <li>Able to perform simple actions according to the lyrics of a song.</li>
+                <li>Able to state the uses and importance of wheels.</li>
+                <li>Able to design an object with wheels using one's imagination and creativity.</li>
+                <li>Able to sing a song and modify it based on one's design.</li>
             </ul>
         </div>
     </div>
@@ -308,14 +269,14 @@
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: The wheels on the bus</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Rotating Wheels</h1>
 
         <div class="text-start flex flex-col">
             <h3 class="ptitle">Extension</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Incorporate other vehicles in the lyrics by replacing the
-                    words accordingly.</li>
+                <li>Ask children to find things at home that have wheels and draw them. Let them share their drawings with
+                    the class and discuss what will happen if these things do not have wheels.</li>
             </ul>
         </div>
     </div>
@@ -372,8 +333,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/transport/index') }}";
-            const doneURL = "{{ url('/micet/n2/transport/index') }}";
+            const returnURL = "{{ url('/micet/k1/transport/index') }}";
+            const doneURL = "{{ url('/micet/k1/transport/index') }}";
 
             // Track current position
             let currentSlide = 0;

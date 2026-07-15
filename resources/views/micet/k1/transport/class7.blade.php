@@ -72,15 +72,14 @@
     </div>
 
 
-    {{-- panel 4 --}}
+    {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 7:Where Does Rubber Come From?</h1>
-        <img src="{{ asset('assets/images/micet/k1/transport/class7/c1.png') }}" class="w-[35vw]" />
+        <img src="{{ asset('assets/images/micet/k1/transport/class7/c1.png') }}" class="w-[30vw]" />
     </div>
 
 
-
-    {{-- panel 3 --}}
+    {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 7:Where Does Rubber Come From?</h1>
 
@@ -92,47 +91,7 @@
                     characteristics? Emphasize the uniqueness of rubber (elastic, waterproof, etc).</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/micet/k1/transport/class7/c2.png') }}" class="w-[35vw]" />
-    </div>
-
-    {{-- panel 3 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 7:Where Does Rubber Come From?</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]">
-            <li>Click on the video and ask: "What kind of vehicle is this? In what way does it
-                move? Does it move on land, on the sea or in the air?".</li>
-        </ol>
-
-        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-            <source src="{{ asset('assets/images/micet/k1/transport/class7/v2.mp4') }}" type="video/mp4">
-        </video>
-    </div>
-
-    {{-- panel 3 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 7:Where Does Rubber Come From?</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]">
-            <li>Click on the video and ask: "What kind of vehicle is this? In what way does it
-                move? Does it move on land, on the sea or in the air?".</li>
-        </ol>
-
-        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-            <source src="{{ asset('assets/images/micet/k1/transport/class7/v2.mp4') }}" type="video/mp4">
-        </video>
-    </div>
-
-
-    {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 7:Where Does Rubber Come From?</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="2">
-            <li>Click on the picture below to open the Software Magnetic Board. Guide the
-                children in classifying the different transport vehicles into land, sea and air.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/k1/transport/class7/c1.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/k1/transport/class7/c2.png') }}" class="w-[17vw]" />
     </div>
 
 
@@ -140,15 +99,231 @@
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
         <h1 class="panel-title stroke">Classroom Activity 7:Where Does Rubber Come From?</h1>
 
+        <ol class="list-decimal panel-ul w-[50vw]" start="2">
+            <li>Display photos of things made of rubber. Ask children: What is this? What is it made of? What are its
+                characteristics? Emphasize the uniqueness of rubber (elastic, waterproof, etc).</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/k1/transport/class7/c3.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 6 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7:Where Does Rubber Come From?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="3">
+            <li>Display photos of things made of rubber. Ask children: What is this? What is it made of? What are its
+                characteristics? Emphasize the uniqueness of rubber (elastic, waterproof, etc).</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/k1/transport/class7/c4.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 7 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7:Where Does Rubber Come From?</h1>
+
         <ol class="list-decimal panel-ul w-[50vw]" start="4">
+            <li>Display photos of things made of rubber. Ask children: What is this? What is it made of? What are its
+                characteristics? Emphasize the uniqueness of rubber (elastic, waterproof, etc).</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/k1/transport/class7/c5.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 8 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7:Where Does Rubber Come From?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="5">
+            <li>Display photos of things made of rubber. Ask children: What is this? What is it made of? What are its
+                characteristics? Emphasize the uniqueness of rubber (elastic, waterproof, etc).</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/k1/transport/class7/c6.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 9 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7:Where Does Rubber Come From?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="6">
+            <li>Display photos of things made of rubber. Ask children: What is this? What is it made of? What are its
+                characteristics? Emphasize the uniqueness of rubber (elastic, waterproof, etc).</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/k1/transport/class7/c7.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 10 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7:Where Does Rubber Come From?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="7">
+            <li>Display photos of things made of rubber. Ask children: What is this? What is it made of? What are its
+                characteristics? Emphasize the uniqueness of rubber (elastic, waterproof, etc).</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/k1/transport/class7/c8.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 11 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7:Where Does Rubber Come From?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="8">
+            <li>Display photos of things made of rubber. Ask children: What is this? What is it made of? What are its
+                characteristics? Emphasize the uniqueness of rubber (elastic, waterproof, etc).</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/k1/transport/class7/c9.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 12 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7:Where Does Rubber Come From?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="9">
+            <li>Display photos of things made of rubber. Ask children: What is this? What is it made of? What are its
+                characteristics? Emphasize the uniqueness of rubber (elastic, waterproof, etc).</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/k1/transport/class7/c10.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 13 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7:Where Does Rubber Come From?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="10">
+            <li>Display photos of things made of rubber. Ask children: What is this? What is it made of? What are its
+                characteristics? Emphasize the uniqueness of rubber (elastic, waterproof, etc).</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/k1/transport/class7/c11.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 14 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7:Where Does Rubber Come From?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="11">
+            <li>Display photos of things made of rubber. Ask children: What is this? What is it made of? What are its
+                characteristics? Emphasize the uniqueness of rubber (elastic, waterproof, etc).</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/k1/transport/class7/c12.png') }}" class="h-[20vw]" />
+    </div>
+
+
+    {{-- panel 15 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7:Where Does Rubber Come From?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="12">
+            <li>Display photos of things made of rubber. Ask children: What is this? What is it made of? What are its
+                characteristics? Emphasize the uniqueness of rubber (elastic, waterproof, etc).</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/k1/transport/class7/c13.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 16 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7:Where Does Rubber Come From?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="13">
+            <li>Display photos of things made of rubber. Ask children: What is this? What is it made of? What are its
+                characteristics? Emphasize the uniqueness of rubber (elastic, waterproof, etc).</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/k1/transport/class7/c14.png') }}" class="h-[20vw]" />
+    </div>
+
+
+    {{-- panel 17 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7:Where Does Rubber Come From?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="14">
+            <li>Ask children: Where does rubber come from? Explain to children that rubber comes from the rubber trees.</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/k1/transport/class7/c15.png') }}" class="h-[20vw]" />
+    </div>
+
+
+    {{-- panel 18 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7:Where Does Rubber Come From?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="15">
+            <li>Ask children: Which part of the rubber tree does rubber come from?</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/k1/transport/class7/c16.png') }}" class="h-[20vw]" />
+    </div>
+
+
+    {{-- panel 19 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7:Where Does Rubber Come From?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="16">
+            <li>Help children understand that rubber is made from the liquid rubber latex that comes from the tree trunk.
+            </li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/k1/transport/class7/c17.png') }}" class="h-[20vw]" />
+    </div>
+
+
+    {{-- panel 20 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7:Where Does Rubber Come From?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="17">
+            <li>Explain to the children how people collect rubber latex: a cut is made into the tree bark so that the white
+                liquid rubber latex( that looks like milk) flows into a container.</li>
+        </ol>
+
+        <img src="{{ asset('assets/images/micet/k1/transport/class7/c18.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 21 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7:Where Does Rubber Come From?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="18">
+            <li>(Optional activity) Let children display the rubber items brought from home. Have them name the item and
+                talk about its uses and characteristics.</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 22 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 7:Where Does Rubber Come From?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="19">
             <li>Guide children to complete the corresponding activities in the Thematic
                 Activity Book.</li>
         </ol>
     </div>
 
 
-
-    {{-- panel 12 --}}
+    {{-- panel 23 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
         <h1 class="panel-title stroke">Classroom Activity 7:Where Does Rubber Come From?</h1>
 
@@ -156,24 +331,23 @@
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Ask the children to think of a place they wish to visit and select the mode
-                    of transportation to take them there. Give reasons for their choice
-                    of transportation.</li>
+                <li>Ask children: Why are balls made of rubber? Let children share their views based on their experience in
+                    playing balls.</li>
+                <li>Let children name some things made of rubber, state some characteristics of rubber and where it comes
+                    from.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to identify and name the different kinds of transportation.</li>
-                <li>Able to classify the different kinds of transport into land, sea and air.</li>
-                <li>Able to select the appropriate mode of transportation when
-                    travelling to a particular destination.</li>
+                <li>Able to state the characteristics of rubber and where it comes from</li>
+                <li>Able to name some things made of rubber.</li>
             </ul>
         </div>
     </div>
 
 
-    {{-- panel 12 --}}
+    {{-- panel 25 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
         <h1 class="panel-title stroke">Classroom Activity 7:Where Does Rubber Come From?</h1>
 
@@ -181,8 +355,9 @@
             <h3 class="ptitle">Extension</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Provide the song in the activity corner for the children to
-                    sing and perform the song on their own.</li>
+                <li>Guide children to compare the toys made of different materials such as rubber toys, plastic toys,
+                    stuffed toys and wooden toys. Discussion can be based on the texture, elasticity, flexibility,
+                    durability etc of the toys.</li>
             </ul>
         </div>
     </div>

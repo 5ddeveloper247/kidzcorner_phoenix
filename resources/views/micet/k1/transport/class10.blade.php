@@ -38,28 +38,31 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 10: Let’s play together</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: I am the Best Racer</h1>
         <img src="{{ asset('assets/images/micet/n1/mybody/c10.1.png') }}" class="h-[8vw]" />
 
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul">
-            <li>To learn to share toys with friends.</li>
-            <li>To learn to identify the features of different types of vehicles.</li>
+            <li>Feel the excitement of a competition</li>
+            <li>Enjoy taking part in a competition with friends</li>
+            <li>Reflect on why one won or lost the competition</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[3vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: Let’s play together</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: I am the Best Racer</h1>
         <div>
             <h3 class="ptitle">Preparations</h3>
 
             <ol class="list-decimal panel-ul w-[45vw]">
                 <li>Thematic Activity Book</li>
-                <li>Toy vehicles brought from home (from Activity 4).</li>
-                <li>Toy vehicles within the classroom.</li>
+                <li>Handmade racing cars from Activity 9</li>
+                <li>Some toy racing cars (children may bring from home)</li>
+                <li>A small flag</li>
+                <li>Label all the racing cars with numbers beforehand</li>
             </ol>
         </div>
     </div>
@@ -67,105 +70,103 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 10: Let’s play together</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: I am the Best Racer</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[50vw]">
-                <li>Have the children identify and name the place shown. Ask children what the
-                    place is used for. Explain that vehicles are parked in a parking lot.</li>
+                <li>Invite children to take part in a car racing competition.</li>
+                <li>Display all the racing cars ( handmade from Activity 9 and brought from home). Let each child pick one
+                    racing car to take part in the competition.</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/micet/n2/transport/class10/c1.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 10: Let’s play together</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: I am the Best Racer</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="2">
-            <li>Have the children identify and name the place shown. Ask children what the
-                place is used for. Explain that aeroplanes take off and land at an airport.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Ask children: Which racing car do you think will move the fastest? Why? Guide children to predict the result
+                and give reasons for their prediction. (If using Thematic Activity Book ask children to record their
+                prediction.)</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class10/c2.png') }}" class="w-[30vw]" />
-    </div>
-
-
-    {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: Let’s play together</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="3">
-            <li>Have the children identify and name the place shown. Ask children what the
-                place is used for. Explain that trains travel on tracks and stop at a train station
-                for people to get on or off the train.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class10/c3.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 10: Let’s play together</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: I am the Best Racer</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="4">
-            <li>Have the children identify and name the place shown. Ask children what the
-                place is used for. Explain that ships and boats anchor off the piers at a
-                harbour.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/transport/class10/c4.png') }}" class="w-[30vw]" />
-    </div>
-
-
-    {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: Let’s play together</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="5">
-            <li>Divide the classroom into four sections. Use picture cards to mark the different
-                sections, for example, a car park, an airport, a train station and a harbour.</li>
-            <li>Ask the children to place their toy vehicles at the correct location.</li>
-            <li>Divide children into 4 groups. Ask the children to choose a toy that they like
-                and return to the group. Each child has to present his/her toy vehicle to the
-                group members, give details like the name of the vehicle, its features and its
-                use. Thereafter, the child should exchange the toy with other group members
-                and the game continues.</li>
+            <li>Find an empty space of at least five metres in length to have the competition. Conduct the competition in
+                rounds: first round, semifinal round, final round. In each round let only 3-4 children take part at a time,
+                and the rest will watch the race.</li>
+            <li>Inform children the rules of the competition:
+                <ul class="list-disc">
+                    <li>When the small flag is waved, the round of the competition starts.</li>
+                    <li>Once the competition round starts, racers who are taking part need to push their racing car hard to
+                        make their car move forward until the cars reach the finishing line.</li>
+                    <li>After all the children have participated in the first round, winners of the first round will take
+                        part in the next ( semi final) round and so on.</li>
+                </ul>
+            </li>
         </ol>
     </div>
 
 
     {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 10: I am the Best Racer</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="6">
+            <li>After the competition, let children state if their predictions are accurate. (If using Thematic Activity
+                Book, let children record the result. )</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: Let’s play together</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: I am the Best Racer</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="7">
+            <li>Now ask children: If only a push is given, which racing car do you think will move the furthest? Guide
+                children to predict the result and give reasons for their prediction. (If using Thematic Activity Book ask
+                children to record their prediction.)</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+        <h1 class="panel-title stroke">Classroom Activity 10: I am the Best Racer</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="8">
-            <li>Encourage the children to share ways to take good care of their toys, for
-                example, do not throw, snatch, or smash their toys. Remind them to take
-                good care of their toys when playing with them.</li>
-            <li>Invite the children to take turns playing the different toys.</li>
+            <li>Repeat the competition but racers only need to give their cars a push at the starting line.</li>
+            <li>After the competition, let children state if their predictions are accurate. (If using Thematic Activity
+                Book, let children record the result. )</li>
         </ol>
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: Let’s play together</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: I am the Best Racer</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="10">
-            <li>When the groups have finished the game, get the children to return the toys to
-                their respective locations, i.e., the car park, harbour, airport, etc.</li>
-            <li>If time permits, allow them to play another round of the game.</li>
+            <li>After the competition, let children reflect and share why they won/ lost in the competition.</li>
         </ol>
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: Let’s play together</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: I am the Best Racer</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="12">
+        <ol class="list-decimal panel-ul w-[50vw]" start="11">
             <li>Guide children to complete the corresponding activities in the Thematic
                 Activity Book.</li>
         </ol>
@@ -175,22 +176,21 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 10: Let’s play together</h1>
+        <h1 class="panel-title stroke">Classroom Activity 10: I am the Best Racer</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Invite the children to take turns to talk about the toy which
-                    they feel is the most fun to play with.</li>
+                <li>Organise children into small groups and have a car racing competition again. Let each group reflect
+                    about which cars are most suitable and then choose cars to race again.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to place a toy vehicle in its correct location.</li>
-                <li>Able to describe the features of vehicles in simple sentences.</li>
-                <li>Able to share toys with others.</li>
+                <li>Able to participate actively in the car racing competition.</li>
+                <li>Able to reflect on why one won or lost in the competition.</li>
             </ul>
         </div>
     </div>
@@ -250,8 +250,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/transport/index') }}";
-            const doneURL = "{{ url('/micet/n2/transport/index') }}";
+            const returnURL = "{{ url('/micet/k1/transport/index') }}";
+            const doneURL = "{{ url('/micet/k1/transport/index') }}";
 
             // Track current position
             let currentSlide = 0;
