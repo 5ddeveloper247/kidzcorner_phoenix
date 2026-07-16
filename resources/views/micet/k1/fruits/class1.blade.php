@@ -49,7 +49,7 @@ $showMascot = true;
 {{-- panel 1 --}}
 <div class="phonics-panel flex flex-col justify-between h-full items-center">
     <h1 class="panel-title stroke">Classroom Activity 1: Little Seeds Find Their Mummy</h1>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class1/c1.png') }}" class="h-[45vw]" />
+    <img src="{{ asset('assets/images/micet/k1/fruits/class1/c1.png') }}" class="h-[7vw]" />
 
 
     <h3 class="title">Objectives:</h3>
@@ -124,16 +124,16 @@ $showMascot = true;
     <h3 class="p-title">Susie Swallow takes them to an orchard. The Little Seeds think that Mrs.
         Banana is their mother, but she tells them that banana seeds are small
         like sesame seeds, and not like them at all.</h3>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class1/c4.png') }}" class="w-[30vw]" />
+    <img src="{{ asset('assets/images/micet/k1/fruits/class1/c4.png') }}" class="w-[25vw]" />
 
-    <div class="flex items-center justify-around w-full">
+    <div class="flex items-center justify-around w-[45vw]">
         <h3 class="p-title text-left">
             Do you know what banana seeds look like? How are they different
             from apple seeds?<br>
             <span class="text-[#f7b94a]">Guide the children to do a comparison study, and help them to
                 express their findings.</span>
         </h3>
-        <img src="{{ asset('assets/images/micet/k1/fruits/class1/b1.png') }}" class="w-[5vw]" />
+        <img src="{{ asset('assets/images/micet/k1/fruits/class1/b1.png') }}" class="w-[8vw]" />
     </div>
 </div>
 
@@ -145,10 +145,10 @@ $showMascot = true;
         and you will find your mummy", says the fairy.</h3>
     <img src="{{ asset('assets/images/micet/k1/fruits/class1/c5.png') }}" class="w-[25vw]" />
 
-    <div class="flex items-center justify-between w-full">
+    <div class="flex items-center justify-between ">
         <h3 class="p-title text-left">
             Why does the fruit fairy not tell the Little Seeds who their mother is? <br>
-            <span class="text-[#f7b94a]">Teach the children to be independent by helping them understand the
+            <span class="text-[#f7b94a]">Teach the children to be independent by helping them understand the <br>
                 importance of overcoming an obstacle by themselves.</span>
         </h3>
         <img src="{{ asset('assets/images/micet/k1/fruits/class1/b3.png') }}" class="w-[5vw]" />
@@ -161,11 +161,11 @@ $showMascot = true;
     <h3 class="p-title">"Your mummy is round", says the first treasure box. So, the Little Seeds
         find a watermelon. But their mother is not a watermelon because
         watermelons have black and flat seeds.</h3>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class1/c6.png') }}" class="w-[30vw]" />
+    <img src="{{ asset('assets/images/micet/k1/fruits/class1/c6.png') }}" class="w-[25vw]" />
 
-    <div class="flex items-center justify-between w-full">
+    <div class="flex items-center justify-between w-[45vw]">
         <h3 class="p-title text-left">
-            Can you name some othertypes of melon other than the watermelon? Do
+            Can you name some othertypes of melon other than the watermelon? Do 
             they have special features?<br>
             <span class="text-[#f7b94a]">Help the children to identify othertypes of melons by their names, shape,
                 colour and other characte ristics.</span>
@@ -180,9 +180,9 @@ $showMascot = true;
     <h3 class="p-title">"Your mummy grows on trees", says the second treasure box. So, the
         Little Seeds find an orange. But their mother is not an orange because
         oranges have small white seeds.</h3>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class1/c7.png') }}" class="w-[30vw]" />
+    <img src="{{ asset('assets/images/micet/k1/fruits/class1/c7.png') }}" class="w-[25vw]" />
 
-    <div class="flex items-center justify-between w-full">
+    <div class="flex items-center justify-between w-[45vw]">
         <h3 class="p-title text-left">
             Do you know what is special about the orange skin? What other fruits are
             similar to the orange?<br>
@@ -201,14 +201,14 @@ $showMascot = true;
         brown seeds.</h3>
     <img src="{{ asset('assets/images/micet/k1/fruits/class1/c8.png') }}" class="w-[25vw]" />
 
-    <div class="flex items-center justify-between w-full">
+    <div class="flex items-center justify-between w-[45vw]">
         <h3 class="p-title text-left">
             Do you like to eat apples? Do you know what nutrients apples have?<br>
             <span class="text-[#f7b94a]">Encourage the children to eat more fruits as they are a good sourceof vitamins.</span>
         </h3>
         <div class="flex">
-            <img src="{{ asset('assets/images/micet/k1/fruits/class1/b2.png') }}" class="w-[5vw]" />
-            <img src="{{ asset('assets/images/micet/k1/fruits/class1/b3.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/k1/fruits/class1/b2.png') }}" class="h-[5vw]" />
+            <img src="{{ asset('assets/images/micet/k1/fruits/class1/b3.png') }}" class="h-[4.8vw]" />
         </div>
     </div>
 </div>
@@ -219,17 +219,17 @@ $showMascot = true;
     <h3 class="p-title">"Your mummy is small", says the fourth treasure box. So, the Little
         Seeds find a rambutan. But their mother is not a rambutan because
         rambutans have big white seeds.</h3>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class1/c9.png') }}" class="w-[30vw]" />
+    <img src="{{ asset('assets/images/micet/k1/fruits/class1/c9.png') }}" class="w-[25vw]" />
 
-    <div class="flex items-center justify-between w-full">
+    <div class="flex items-center justify-between w-[45vw]">
         <h3 class="p-title text-left">
             What do you think a rambutan looks like?<br>
             <span class="text-[#f7b94a]">Encourage the children to use their imagination/ observation and
                 express their thoughts.</span>
         </h3>
         <div class="flex">
-            <img src="{{ asset('assets/images/micet/k1/fruits/class1/b2.png') }}" class="w-[5vw]" />
-            <img src="{{ asset('assets/images/micet/k1/fruits/class1/b3.png') }}" class="w-[5vw]" />
+            <img src="{{ asset('assets/images/micet/k1/fruits/class1/b2.png') }}" class="h-[5vw]" />
+            <img src="{{ asset('assets/images/micet/k1/fruits/class1/b3.png') }}" class="h-[4.8vw]" />
         </div>
     </div>
 </div>
@@ -242,9 +242,9 @@ $showMascot = true;
         appears and congratulates them.</h3>
     <img src="{{ asset('assets/images/micet/k1/fruits/class1/c9.png') }}" class="w-[25vw]" />
 
-    <div class="flex items-center justify-between ">
+    <div class="flex items-center justify-between w-[55vw]">
         <h3 class="p-title text-left">
-            Can you recall how the Little Seeds found their mother? What other<br>
+            Can you recall how the Little Seeds found their mother? What other
             fruits did they meet before they eventually found their mother?<br>
             <span class="text-[#f7b94a]">Deepen the children's understanding of the story and help them to
                 develop logical thinking skills.</span>
