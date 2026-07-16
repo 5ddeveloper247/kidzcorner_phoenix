@@ -18,186 +18,131 @@ $showMascot = true;
 
     .panel-title {
         color: #F7B94A;
-        font-size: 2.5vw;
+        font-size: 2.2vw;
+    }
+
+    title {
+        color: #F7B94A;
+        font-size: 2vw;
     }
 
     .ptitle {
-        color: #F7B94A;
+        color: #f7b94a;
         font-size: 1.7vw;
+    }
+
+    .p-title {
+        color: #ffffff;
+        font-size: 1.25vw;
     }
 
     .panel-ul {
         color: white;
         font-size: 1.4vw;
-        text-align: left;
+        text-align: left !important;
     }
 </style>
 @endpush
 
 @section('content')
 
-{{-- panel 1 --}}
-<div class="phonics-panel flex flex-col justify-between h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 4: Fruit Picking Contest</h1>
-    <div class="flex ">
-        <img src="{{ asset('assets/images/micet/k1/fruits/class4/c1.png') }}" class="h-[7vw]" />
-        <img src="{{ asset('assets/images/micet/k1/fruits/class4/c2.png') }}" class="h-[7vw]" />
-    </div>
-
-
-    <h3 class="ptitle">Objectives:</h3>
-
-    <ul class="list-disc panel-ul">
-        <li>To practise gross motor and body coordination skills</li>
-        <li>Develop cooperation skills</li>
-        <li>Learn to obtain information from a chart/table</li>
-    </ul>
-</div>
-
 
 {{-- panel 2 --}}
-<div class="phonics-panel flex flex-col h-full items-center space-y-[5vw]">
-    <h1 class="panel-title stroke">Classroom Activity 4: Fruit Picking Contest</h1>
+<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
+    <h1 class="panel-title stroke">Word Cards</h1>
 
     <div>
-        <h3 class="ptitle">Preparations</h3>
-
-        <ul class="list-disc panel-ul">
-            <li>Thematic Activity Book</li>
-            <li>Set up an orchard in the classroom with different fruit plants such as apple, pear, orange, lychee, mango, banana, jackfruit, pineapple, durian, strawberry, grape and watermelon</li>
-            <li>Cut out the different types of paper fruits and hang them on the trees, minimum 6 to 8 fruits per plant. The height of the fruits should be within the children's reach
-                A basket for each group to collect the fruits</li>
-            <li>Draw a fruit chart on the white board to record the results of the game. Refer to the sample chart in Lesson Development, Point 7</li>
-        </ul>
-    </div>
-</div>
-
-
-{{-- panel 3 --}}
-<div class="phonics-panel flex flex-col h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 4: Fruit Picking Contest</h1>
-
-    <div class="text-start">
-        <h3 class="ptitle">Lesson Development</h3>
+        <h3 class="title">Lesson Development</h3>
 
         <ol class="list-decimal panel-ul w-[45vw]">
-            <li>Ask the children: What is the girl doing? Where is she?</li>
+            <li>Teacher to show the electronic word cards (next slide onwards).
+                First show the picture and ask children what it is. Then show
+                the word and help children to recognise and pronounce the word.
+                Tell children that these words appear in Activity 1's story.
+                Let children try to identify them during story telling.</li>
         </ol>
     </div>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class4/c3.png') }}" class="h-[20vw]" />
 </div>
 
 
 {{-- panel 4 --}}
-<div class="phonics-panel flex flex-col h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 4: Fruit Picking Contest</h1>
-
-    <ol class="list-decimal panel-ul w-[45vw]" start="2">
-        <li>Ask the children: "Have you ever seen anyone picking fruits?
-            Have you ever picked fruits? Invite the children to share their
-            experiences.</li>
-    </ol>
-    <div class="grid grid-cols-2 gap-4">
-        <img src="{{ asset('assets/images/micet/k1/fruits/class4/c4.png') }}" class="h-[20vw]" />
-        <img src="{{ asset('assets/images/micet/k1/fruits/class4/c5.png') }}" class="h-[20vw]" />
-    </div>
+<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+    <img src="{{ asset('assets/images/micet/k1/fruits/words/c1.png') }}" class="w-[25vw]" />
 </div>
 
 
 {{-- panel 5 --}}
+<div class="phonics-panel flex flex-col justify-center h-full items-center">
+    <p class="text-[#f7b94a] text-[5vw]">seeds</p>
+</div>
+
+
+{{-- panel 4 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+    <img src="{{ asset('assets/images/micet/k1/fruits/words/c2.png') }}" class="w-[25vw]" />
+</div>
+
+
+{{-- panel 5 --}}
+<div class="phonics-panel flex flex-col justify-center h-full items-center">
+    <p class="text-[#f7b94a] text-[5vw]">fruits</p>
+</div>
+
+
+{{-- panel 4 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+    <img src="{{ asset('assets/images/micet/k1/fruits/words/c3.png') }}" class="w-[25vw]" />
+</div>
+
+{{-- panel 5 --}}
+<div class="phonics-panel flex flex-col justify-center h-full items-center">
+    <p class="text-[#f7b94a] text-[5vw]">banana</p>
+</div>
+
+{{-- panel 4 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+    <img src="{{ asset('assets/images/micet/k1/fruits/words/c4.png') }}" class="w-[25vw]" />
+</div>
+
+
+{{-- panel 5 --}}
+<div class="phonics-panel flex flex-col justify-center h-full items-center">
+    <p class="text-[#f7b94a] text-[5vw]">watermelon</p>
+</div>
+
+
+{{-- panel 4 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+    <img src="{{ asset('assets/images/micet/k1/fruits/words/c5.png') }}" class="w-[25vw]" />
+</div>
+
+
+{{-- panel 5 --}}
+<div class="phonics-panel flex flex-col justify-center h-full items-center">
+    <p class="text-[#f7b94a] text-[5vw]">cherries</p>
+</div>
+
+
+{{-- panel 4 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+    <img src="{{ asset('assets/images/micet/k1/fruits/words/c6.png') }}" class="w-[25vw]" />
+</div>
+
+
+{{-- panel 5 --}}
+<div class="phonics-panel flex flex-col justify-center h-full items-center">
+    <p class="text-[#f7b94a] text-[5vw]">orange</p>
+</div>
+
+
+
 <div class="phonics-panel flex flex-col h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 4: Fruit Picking Contest</h1>
 
-    <ol class="list-decimal panel-ul w-[45vw]" start="3">
-        <li>Invite the children to a fruit picking contest.
-            Let the children look around the orchard set up
-            and name the fruits in it.</li>
-        <li>Let the children form groups. Let each group form a line.</li>
+    <ol class="list-decimal panel-ul w-[45vw]" start="2">
+        <li>Click on the picture below to open the Software Magnetic Board. Guide the
+            children to match the words with the pictures.</li>
     </ol>
-</div>
-
-
-{{-- panel 6 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 4: Fruit Picking Contest</h1>
-
-    <ol class="list-decimal panel-ul w-[45vw]" start="5">
-        <li>Explain the rules of the contest : The children
-            are to stand at the starting line away from the
-            fruit trees. At the signal "Ready, go!" the first
-            child from each group will run to a fruit tree to
-            pick a fruit. The child will run back and put the
-            fruit into the basket in front of the group and
-            then queue behind the line. Then the second child
-            in line will continue.</li>
-        <li>The contest ends when all the fruits have been picked.
-            Remind the children that all group members need to be
-            fast so that they can pick up many fruits. The winner
-            will be the group that picks up the most number of
-            fruits. Once children understand the rules, let
-            the contest begin.</li>
-    </ol>
-</div>
-
-
-{{-- panel 7 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 4: Fruit Picking Contest</h1>
-
-    <ol class="list-decimal panel-ul w-[45vw]" start="7">
-        <li>After the contest, let each group count the number of fruits in their basket.
-            Teacher can help to record the numbers in the chart on the white board.</li>
-    </ol>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class4/c6.png') }}" class="h-[17vw]" />
-
-</div>
-
-
-{{-- panel 8 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 4: Fruit Picking Contest</h1>
-
-    <ol class="list-decimal panel-ul w-[45vw]" start="8">
-        <li>Based on the recorded numbers, let the children name the group that picks the
-            maximum number of fruits and declare that group as the winner of the contest.
-            Applaud all the children for their effort.</li>
-        <li>Invite the children to study the chart and decide on the following: Which group
-            has the most apples, which group has the most bananas, etc.</li>
-    </ol>
-</div>
-
-
-{{-- panel 9 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 4: Fruit Picking Contest</h1>
-
-    <ol class="list-decimal panel-ul w-[45vw]" start="10">
-        <li>Guide children to complete the corresponding activities in the Thematic
-            Activity Book.</li>
-    </ol>
-</div>
-
-
-{{-- panel 10 --}}
-<div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-    <h1 class="panel-title stroke">Classroom Activity 4: Fruit Picking Contest</h1>
-
-    <div class="text-start flex flex-col justify-between h-full">
-        <h3 class="ptitle">Clousre</h3>
-
-        <ul class="list-disc panel-ul w-[45vw]">
-            <li>Invite the children to look at the chart and say which group
-                has the least apples, which group has the least lychees, etc.</li>
-        </ul>
-
-        <h3 class="ptitle">Evaluation</h3>
-
-        <ul class="list-disc panel-ul w-[45vw]">
-            <li>Able to cooperate with the group members to complete the contest of picking fruits.</li>
-            <li>Able to count the fruits.</li>
-            <li>Able to obtain information from a chart/table.</li>
-        </ul>
-    </div>
+    <img src="{{ asset('assets/images/micet/k1/fruits/words/c7.png') }}" class="w-[25vw]" />
 </div>
 
 
@@ -205,7 +150,7 @@ $showMascot = true;
 
 
 
-{{-- =============================================== --}}
+{{-- ================================ --}}
 {{-- All Buttons --}}
 <div id="buttons" class="absolute flex flex-row gap-6 z-90">
 

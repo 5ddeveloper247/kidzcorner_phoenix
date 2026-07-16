@@ -76,7 +76,6 @@ $showMascot = true;
 
     <div class="text-start">
         <h3 class="ptitle">Lesson Development</h3>
-
         <ol class="list-decimal panel-ul w-[45vw]" start="2">
             <li>Display different types of houses (next page onwards). Let children observe
                 and state the name and characteristics (structure and style) of each type of
@@ -95,8 +94,7 @@ $showMascot = true;
     <h1 class="panel-title stroke">Classroom Activity 4: Our House</h1>
 
     <div class="text-start">
-        <h3 class="ptitle">Lesson Development</h3>
-
+        
         <ol class="list-decimal panel-ul w-[45vw]" start="3">
             <li>Display different types of houses (next page onwards). Let children observe
                 and state the name and characteristics (structure and style) of each type of
@@ -115,8 +113,7 @@ $showMascot = true;
     <h1 class="panel-title stroke">Classroom Activity 4: Our House</h1>
 
     <div class="text-start">
-        <h3 class="ptitle">Lesson Development</h3>
-
+        
         <ol class="list-decimal panel-ul w-[45vw]" start="4">
             <li>Display different types of houses (next page onwards). Let children observe
                 and state the name and characteristics (structure and style) of each type of
@@ -135,8 +132,7 @@ $showMascot = true;
     <h1 class="panel-title stroke">Classroom Activity 4: Our House</h1>
 
     <div class="text-start">
-        <h3 class="ptitle">Lesson Development</h3>
-
+        
         <ol class="list-decimal panel-ul w-[45vw]" start="5">
             <li>Display different types of houses (next page onwards). Let children observe
                 and state the name and characteristics (structure and style) of each type of
@@ -155,8 +151,7 @@ $showMascot = true;
     <h1 class="panel-title stroke">Classroom Activity 4: Our House</h1>
 
     <div class="text-start">
-        <h3 class="ptitle">Lesson Development</h3>
-
+        
         <ol class="list-decimal panel-ul w-[45vw]" start="6">
             <li>Display different types of houses (next page onwards). Let children observe
                 and state the name and characteristics (structure and style) of each type of
@@ -175,8 +170,7 @@ $showMascot = true;
     <h1 class="panel-title stroke">Classroom Activity 4: Our House</h1>
 
     <div class="text-start">
-        <h3 class="ptitle">Lesson Development</h3>
-
+        
         <ol class="list-decimal panel-ul w-[45vw]" start="7">
             <li>Display different types of houses (next page onwards). Let children observe
                 and state the name and characteristics (structure and style) of each type of
@@ -195,8 +189,7 @@ $showMascot = true;
     <h1 class="panel-title stroke">Classroom Activity 4: Our House</h1>
 
     <div class="text-start">
-        <h3 class="ptitle">Lesson Development</h3>
-
+        
         <ol class="list-decimal panel-ul w-[45vw]" start="8">
             <li>Display different types of houses (next page onwards). Let children observe
                 and state the name and characteristics (structure and style) of each type of
@@ -215,8 +208,7 @@ $showMascot = true;
     <h1 class="panel-title stroke">Classroom Activity 4: Our House</h1>
 
     <div class="text-start">
-        <h3 class="ptitle">Lesson Development</h3>
-
+        
         <ol class="list-decimal panel-ul w-[45vw]" start="9">
             <li>Display different types of houses (next page onwards). Let children observe
                 and state the name and characteristics (structure and style) of each type of
@@ -235,8 +227,7 @@ $showMascot = true;
     <h1 class="panel-title stroke">Classroom Activity 4: Our House</h1>
 
     <div class="text-start">
-        <h3 class="ptitle">Lesson Development</h3>
-
+        
         <ol class="list-decimal panel-ul w-[45vw]" start="10">
             <li>Display different types of houses (next page onwards). Let children observe
                 and state the name and characteristics (structure and style) of each type of
@@ -255,8 +246,7 @@ $showMascot = true;
     <h1 class="panel-title stroke">Classroom Activity 4: Our House</h1>
 
     <div class="text-start">
-        <h3 class="ptitle">Lesson Development</h3>
-
+        
         <ol class="list-decimal panel-ul w-[45vw]" start="11">
             <li>Display different types of houses (next page onwards). Let children observe
                 and state the name and characteristics (structure and style) of each type of
@@ -275,8 +265,7 @@ $showMascot = true;
     <h1 class="panel-title stroke">Classroom Activity 4: Our House</h1>
 
     <div class="text-start">
-        <h3 class="ptitle">Lesson Development</h3>
-
+        
         <ol class="list-decimal panel-ul w-[45vw]" start="12">
             <li>Display different types of houses (next page onwards). Let children observe
                 and state the name and characteristics (structure and style) of each type of
