@@ -54,73 +54,73 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex justify-center h-full items-center">
-        <img src="{{ asset('assets/images/micet/k1/transport/cards/c1.png') }}" class="h-[25vw]" />
+        <img src="{{ asset('assets/images/micet/k1/clothes/cards/c1.png') }}" class="h-[25vw]" />
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex justify-center h-full items-center">
-        <h1 class="cardtitle">tyre</h1>
+        <h1 class="cardtitle">T-shirt</h1>
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex justify-center h-full items-center">
-        <img src="{{ asset('assets/images/micet/k1/transport/cards/c2.png') }}" class="h-[25vw]" />
+        <img src="{{ asset('assets/images/micet/k1/clothes/cards/c2.png') }}" class="h-[25vw]" />
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex justify-center h-full items-center">
-        <h1 class="cardtitle">motorcycle</h1>
+        <h1 class="cardtitle">Shirt</h1>
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex justify-center h-full items-center">
-        <img src="{{ asset('assets/images/micet/k1/transport/cards/c3.png') }}" class="h-[25vw]" />
+        <img src="{{ asset('assets/images/micet/k1/clothes/cards/c3.png') }}" class="h-[25vw]" />
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex justify-center h-full items-center">
-        <h1 class="cardtitle">train</h1>
+        <h1 class="cardtitle">shorts</h1>
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex justify-center h-full items-center">
-        <img src="{{ asset('assets/images/micet/k1/transport/cards/c4.png') }}" class="h-[25vw]" />
+        <img src="{{ asset('assets/images/micet/k1/clothes/cards/c4.png') }}" class="h-[25vw]" />
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex justify-center h-full items-center">
-        <h1 class="cardtitle">bus</h1>
+        <h1 class="cardtitle">short skirt</h1>
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex justify-center h-full items-center">
-        <img src="{{ asset('assets/images/micet/k1/transport/cards/c5.png') }}" class="h-[25vw]" />
+        <img src="{{ asset('assets/images/micet/k1/clothes/cards/c5.png') }}" class="h-[25vw]" />
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex justify-center h-full items-center">
-        <h1 class="cardtitle">ship</h1>
+        <h1 class="cardtitle">long skirt</h1>
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex justify-center h-full items-center">
-        <img src="{{ asset('assets/images/micet/k1/transport/cards/c6.png') }}" class="h-[25vw]" />
+        <img src="{{ asset('assets/images/micet/k1/clothes/cards/c6.png') }}" class="h-[25vw]" />
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex justify-center h-full items-center">
-        <h1 class="cardtitle">aeroplane</h1>
+        <h1 class="cardtitle">pyjama</h1>
     </div>
 
 
@@ -131,7 +131,7 @@
             <li>Click on the picture below to open the Software Magnetic Board. Guide the
                 children to match the words with the pictures.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/k1/transport/cards/c7.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/k1/clothes/cards/c7.png') }}" class="w-[30vw]" />
     </div>
 
 
@@ -189,8 +189,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/k1/transport/index') }}";
-            const doneURL = "{{ url('/micet/k1/transport/index') }}";
+            const returnURL = "{{ url('/micet/k1/clothes/index') }}";
+            const doneURL = "{{ url('/micet/k1/clothes/index') }}";
 
             // Track current position
             let currentSlide = 0;

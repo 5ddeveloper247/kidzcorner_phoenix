@@ -48,7 +48,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 1: Goldilocks and the Three Bears</h1>
+        <h1 class="panel-title stroke">Classroom Activity 1: Patchwork Jacket</h1>
         <div class="flex items-center">
             <img src="{{ asset('assets/images/micet/n2/fairy/class1/c1.png') }}" class="h-[8vw]" />
             <img src="{{ asset('assets/images/micet/n2/fairy/class1/c2.png') }}" class="h-[8vw]" />
@@ -56,14 +56,11 @@
         </div>
 
 
-        <h3 class="title">Objectives:</h3>
+        <h3 class="ptitle">Objectives:</h3>
 
-        <ul class="list-disc panel-ul w-[40vw]">
-            <li>Develop the good habit of not entering people's home
-                without permission</li>
-            <li>Understand the consequences of one's actions (principle of
-                compensation) if one damages items that belong to others</li>
-            <li>Compare sizes of objects</li>
+        <ul class="list-disc panel-ul">
+            <li>Be aware of the different designs on clothes</li>
+            <li>Identify clothes for different occasions</li>
 
         </ul>
     </div>
@@ -71,10 +68,10 @@
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Goldilocks and the Three Bears</h1>
+        <h1 class="panel-title stroke">Classroom Activity 1: Patchwork Jacket</h1>
 
         <div>
-            <h3 class="title">Preparations</h3>
+            <h3 class="ptitle">Preparations</h3>
 
             <ol class="list-disc panel-ul">
                 <li>Thematic Activity Book</li>
@@ -85,10 +82,10 @@
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Goldilocks and the Three Bears</h1>
+        <h1 class="panel-title stroke">Classroom Activity 1: Patchwork Jacket</h1>
 
-        <div>
-            <h3 class="title">Lesson Development</h3>
+        <div class="text-start">
+            <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[45vw]">
                 <li>Tell the story using suggested questions and activities to reinforce the
@@ -100,24 +97,24 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Goldilocks and the Three Bears</h1>
+        <h1 class="panel-title stroke">Patchwork Jacket</h1>
 
-        <h3 class="p-title">Theme: Fairy Tales</h3>
-        <img src="{{ asset('assets/images/micet/n2/fairy/class1/c4.png') }}" class="w-[30vw]" />
+        <h3 class="p-title">Theme: Beautiful Clothes</h3>
+        <img src="{{ asset('assets/images/micet/k1/clothes/class1/c1.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">One momning, Mama Bear makes Baby Bear's favourite porridge for
-            breakfast. However, the porridge is too hot, so they decide to go for a
-            walk and have the porridge when they come back.</h3>
-        <img src="{{ asset('assets/images/micet/n2/fairy/class1/c5.png') }}" class="w-[25vw]" />
+        <h3 class="p-title">Sue's mummy is hospitalised, and she misses her mummy. She takes out <br>
+            the patchwork jacket her mummy had sewn for her. Looking at the <br>
+            jacket, she begins to recall many happy moments.</h3>
+        <img src="{{ asset('assets/images/micet/k1/clothes/class1/c2.png') }}" class="w-[25vw]" />
 
         <div class="flex items-center justify-between w-[45vw]">
             <h3 class="p-title text-left">
-                What will you do if your food is too hot?<br>
-                <span class="text-[#f7b94a]">Guide the children to solve problems that they face in their daily life.</span>
+                What things do you have that remind you of happy times?<br>
+                <span class="text-[#f7b94a]">Help children recoll some of the happy moments they have had.</span>
             </h3>
             <div class="flex">
                 <img src="{{ asset('assets/images/micet/n2/fairy/class1/b2.png') }}" class="w-[5vw]" />
@@ -129,15 +126,16 @@
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Careless Baby Bear forgets to shut the door when it leaves. Goldilocks
-            passes by and discovers that there is nobody at home so she quietly
-            enters the house.</h3>
-        <img src="{{ asset('assets/images/micet/n2/fairy/class1/c6.png') }}" class="w-[25vw]" />
+        <h3 class="p-title">Look! The piece of white cloth on the patchwork jacket was taken from <br>
+            Sue's old dress. She wore that dress on her parents' wedding <br>
+            anniversary. Sue looked like a princess in her white dress.</h3>
+        <img src="{{ asset('assets/images/micet/k1/clothes/class1/c3.png') }}" class="w-[28vw]" />
 
         <div class="flex items-center justify-around w-[45vw]">
             <h3 class="p-title text-left">
-                What will you do if you see that the door of somebody's house is open?<br>
-                <span class="text-[#f7b94a]">Lead the children to reflect and help them develop good practices.</span>
+                Have you wom a gown before?<br>
+                <span class="text-[#f7b94a]">Create awareness of the differences in clothes worn by different
+                    genders.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n2/fairy/class1/b3.png') }}" class="w-[5vw]" />
         </div>
@@ -146,16 +144,16 @@
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Goldilocks is hungry. She sees the bowls of porridge on the table and
-            she tries them one by one. She finds that the porridge in Baby Bear's
-            bowl is the most delicious and finishes it.</h3>
-        <img src="{{ asset('assets/images/micet/n2/fairy/class1/c7.png') }}" class="w-[25vw]" />
+        <h3 class="p-title">Looking at the piece of brown cloth on the patchwork reminds Sue of a <br>
+            funny incident. Daddy wore a pair of brown trousers when he was <br>
+            playing football. He kicked the ball too hard and tore his pants!</h3>
+        <img src="{{ asset('assets/images/micet/k1/clothes/class1/c4.png') }}" class="w-[25vw]" />
 
         <div class="flex items-center justify-between w-[45vw]">
             <h3 class="p-title text-left">
-                Which is the biggest bowl on the table? Which is the smallest? To whom do
-                the bowls belong to?<br>
-                <span class="text-[#f7b94a]">Get children to compare the sizes of the bowls.</span>
+                Why was daddy's trousers torn?<br>
+                What should you wear when you play football?<br>
+                <span class="text-[#f7b94a]">Explain why a sports attire needs to be worn while playing sports.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n2/fairy/class1/b2.png') }}" class="w-[5vw]" />
         </div>
@@ -164,16 +162,16 @@
 
     {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Goldilocks walks into the living room and sees three beautiful chairs. She
-            tries them one by one. She discovers that Baby Bear's bubble chair is the
-            most comfortable. She accidentally spoils the chair.</h3>
-        <img src="{{ asset('assets/images/micet/n2/fairy/class1/c8.png') }}" class="w-[25vw]" />
+        <h3 class="p-title">Sue remembers the happy time at the beach when she sees the heart- <br>
+            shaped prints on the patchwork. It reminds her of the T-shirt, sun hat and <br>
+            beach slippers she wore while building sandcastles on the beach.</h3>
+        <img src="{{ asset('assets/images/micet/k1/clothes/class1/c5.png') }}" class="w-[25vw]" />
 
         <div class="flex items-center justify-around w-[45vw]">
             <h3 class="p-title text-left">
-                Name the things in the bears' living room from left to right.<br>
-                <span class="text-[#f7b94a]">Guide children in understanding the concept of left and right by
-                    relating the things in order.</span>
+                What is the purpose of wearing a sun hat?<br>
+                What other types of hats do you know of? <br>
+                <span class="text-[#f7b94a]">Help children understand that different hats have different uses.</span>
             </h3>
             <div class="flex">
                 <img src="{{ asset('assets/images/micet/n2/fairy/class1/b4.png') }}" class="w-[5vw]" />
@@ -185,15 +183,15 @@
 
     {{-- panel 9 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Goldilocks feels a little tired. She goes to the bedroom and lies down on
-            Baby Bear's bed. The small bed is very comfortable! She lies there for
-            only awhile but soon falls asleep.</h3>
-        <img src="{{ asset('assets/images/micet/n2/fairy/class1/c9.png') }}" class="w-[30vw]" />
+        <h3 class="p-title">Sue and her mummy wore shorts of the same prints to the zoo. They <br>
+            looked so gorgeous that even the animals envied their purple-striped <br>
+            shorts!</h3>
+        <img src="{{ asset('assets/images/micet/k1/clothes/class1/c6.png') }}" class="w-[30vw]" />
 
         <div class="flex items-center justify-between w-[45vw]">
             <h3 class="p-title text-left">
-                When do you think Goldilocks will wake up? <br>
-                <span class="text-[#f7b94a]">Encourage the children to predict what will happen next.</span>
+                When do you wear shorts?<br>
+                <span class="text-[#f7b94a]">Explain that what we wear varies according to the season.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n2/fairy/class1/b5.png') }}" class="w-[10vw]" />
         </div>
@@ -202,14 +200,17 @@
 
     {{-- panel 10 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Not long after, the bears return home. They see the messy room, the
-            empty bowl and the damaged chair. They are very angry!</h3>
-        <img src="{{ asset('assets/images/micet/n2/fairy/class1/c10.png') }}" class="w-[25vw]" />
+        <h3 class="p-title">Sue also remembers the time that Daddy gave her a short skirt with <br>
+            zigzag prints for her birthday. He even performed a magic show at her birthday party. <br>
+            Sue remembers the feeling of being the most fortunate girl in the world.</h3>
+        <img src="{{ asset('assets/images/micet/k1/clothes/class1/c7.png') }}" class="w-[25vw]" />
 
         <div class="flex items-center justify-between w-[45vw]">
             <h3 class="p-title text-left">
-                What will you do if someone messes up your room?<br>
-                <span class="text-[#f7b94a]">Guide the children to empathise with the feelings of others.</span>
+                What special clothes are wom by Sue's daddy?<br>
+                <span class="text-[#f7b94a]">Explain that different clothes serve different purposes e.g. a costume is worn
+                    <br>
+                    for a concert performance and office wear is worn for work.</span>
             </h3>
             <div class="flex">
                 <img src="{{ asset('assets/images/micet/n2/fairy/class1/b4.png') }}" class="w-[5vw]" />
@@ -221,14 +222,16 @@
 
     {{-- panel 11 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">They rush to the bedroom and see Goldilocks sound asleep. Just then,
-            Goldilocks wakes up. She runs away when she sees the bears.</h3>
-        <img src="{{ asset('assets/images/micet/n2/fairy/class1/c11.png') }}" class="w-[30vw]" />
+        <h3 class="p-title">Sue and her daddy once went shopping. It was strange that people kept <br>
+            approaching daddy to check on the prices of the items on sale. They <br>
+            finally realised that daddy was wearing a red-striped printed shirt which <br>
+            looked the same as the uniform of the shop assistants!</h3>
+        <img src="{{ asset('assets/images/micet/k1/clothes/class1/c8.png') }}" class="w-[25vw]" />
 
         <div class="flex items-center justify-between w-[45vw]">
             <h3 class="p-title text-left">
-                Is it right for Goldilocks to behave in this manner?<br>
-                <span class="text-[#f7b94a]">Encourage the children to give their reasons for their answer.</span>
+                Do you know of any occupation that requires one to wear a uniform?<br>
+                <span class="text-[#f7b94a]">Give examples such as nurses and people in the postal services.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n2/fairy/class1/b3.png') }}" class="w-[5vw]" />
         </div>
@@ -237,16 +240,15 @@
 
     {{-- panel 12 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Later, Goldilocks feels that what she did is wrong. The next day, she
-            brings a new stool and goes to the bears' house. She apologises to
-            them. The bears are very happy and they forgive her.</h3>
-        <img src="{{ asset('assets/images/micet/n2/fairy/class1/c12.png') }}" class="w-[30vw]" />
+        <h3 class="p-title">Sue likes her pyjamas with stars and moons, the most. When she wears <br>
+            them, she feels like she is sleeping with the stars. As Sue hugs her patchwork <br>
+            jacket, she recalls the happy memories it brings and she is soon fast asleep.</h3>
+        <img src="{{ asset('assets/images/micet/k1/clothes/class1/c9.png') }}" class="w-[30vw]" />
 
         <div class="flex items-center justify-between w-[45vw]">
             <h3 class="p-title text-left">
-                Have you damaged other people's things before? What did you do?<br>
-                <span class="text-[#f7b94a]">Help the children understand the consequences of their actions<br>
-                    (principle of compensation) if they damage other people's things.</span>
+                What do you wearto bed? What are your pyjamas like?<br>
+                <span class="text-[#f7b94a]">Ask the children to describe their favourite pair of pyjamas.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n2/fairy/class1/b6.png') }}" class="w-[8vw]" />
         </div>
@@ -256,25 +258,21 @@
 
     {{-- panel 13 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Goldilocks and the Three Bears</h1>
+        <h1 class="panel-title stroke">Classroom Activity 1: Patchwork Jacket</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have the children retell the story in their own words, then</li>
-                <li>invite them to role play the characters in the story.</li>
+                <li>Ask questions related to the theme.</li>
+                <li>Ask the children to describe the clothes they are wearing stating the designs, colours and patterns.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to compare sizes of objects.
-                </li>
-                <li>Able to understand consequences of one's actions (the
-                    principle of compensation) if damage is caused to items
-                    that belong to others.</li>
-                <li>Able to retell the story using own words.</li>
+                <li>Able to know that clothes have different functions. </li>
+                <li>Able to describe the designs, colours and patterns on clothes.</li>
             </ul>
         </div>
     </div>
@@ -335,8 +333,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/fairy/index') }}";
-            const doneURL = "{{ url('/micet/n2/fairy/index') }}";
+            const returnURL = "{{ url('/micet/k1/clothes/index') }}";
+            const doneURL = "{{ url('/micet/k1/clothes/index') }}";
 
             // Track current position
             let currentSlide = 0;

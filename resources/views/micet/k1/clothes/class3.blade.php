@@ -2,805 +2,572 @@
 @section('title', 'Dynamic Presentation')
 
 @php
-$showBackground = false;
-$showVector1 = true;
-$showVector5 = false;
-$showMascot = true;
+    $showBackground = false;
+    $showVector1 = true;
+    $showVector5 = false;
+    $showMascot = true;
 @endphp
 
 
 @push('styles')
-<style>
-    .p-note {
-        font-size: 1.2vw;
-        color: white !important;
-    }
+    <style>
+        .p-note {
+            font-size: 1.2vw;
+            color: white !important;
+        }
 
-    .panel-title {
-        color: #F7B94A;
-        font-size: 2.2vw;
-    }
+        .panel-title {
+            color: #F7B94A;
+            font-size: 2.2vw;
+        }
 
-    .ptitle {
-        color: #F7B94A;
-        font-size: 1.7vw;
-    }
+        .ptitle {
+            color: #F7B94A;
+            font-size: 1.7vw;
+        }
 
-    .panel-ul {
-        color: white;
-        font-size: 1.4vw;
-        text-align: left;
-    }
-</style>
+        .panel-ul {
+            color: white;
+            font-size: 1.4vw;
+            text-align: left;
+        }
+    </style>
 @endpush
 
 @section('content')
 
-{{-- panel 1 --}}
-<div class="phonics-panel flex flex-col justify-between h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 3: Let’s Compare</h1>
+    {{-- panel 1 --}}
+    <div class="phonics-panel flex flex-col justify-between h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Beautiful Patterns</h1>
 
-    <img src="{{ asset('assets/images/micet/n2/fairy/class3/c1.png') }}" class="h-[8vw]" />
+        <img src="{{ asset('assets/images/micet/n2/fairy/class3/c1.png') }}" class="h-[8vw]" />
 
-    <h3 class="ptitle">Objectives:</h3>
-
-    <ul class="list-disc panel-ul w-[45vw]">
-        <li>Learn to compare two objects based on a specific
-            characteristic</li>
-        <li>Understand the concept of antonyms and learn some
-            antonyms</li>
-    </ul>
-</div>
-
-
-{{-- panel 2 --}}
-<div class="phonics-panel flex flex-col justify-start space-y-[2vw] h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 3: Let’s Compare</h1>
-
-    <div>
-        <h3 class="ptitle mt-[5vw]">Preparations</h3>
+        <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul">
-            <li>Thematic Activity Book</li>
-            <li>Sets of two objects: Two balls of the same colour and
-                design but of different sizes; two sticks of different thickness;
-                two ropes of different lengths; two glasses of water-one hot
-                and the other cold; two books of different thickness; two
-                handkerchiefs- one new and the other old; two bottles
-                filled with different amount of beads</li>
+            <li>Learn to describe the colours and patterns on clothes</li>
+            <li>Use creativity to design a piece of patterned cloth</li>
+            <li>Develop observation and logical thinking skills</li>
         </ul>
     </div>
-</div>
 
 
-{{-- panel 3 --}}
-<div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
-    <h1 class="panel-title stroke">Classroom Activity 3: Let’s Compare</h1>
+    {{-- panel 2 --}}
+    <div class="phonics-panel flex flex-col justify-start space-y-[2vw] h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 3: Beautiful Patterns</h1>
 
-    <div class="text-start">
-        <h3 class="ptitle">Lesson Development</h3>
-        <ol class="list-decimal panel-ul w-[45vw]">
-            <li>Have the children state the difference between the two balls. Guide the
-                children to describe the balls (e.g. big and small).</li>
+        <div>
+            <h3 class="ptitle">Preparations</h3>
+
+            <ul class="list-disc panel-ul">
+                <li>Thematic Activity Book</li>
+                <li>Drawing papers</li>
+                <li>Colour pencils</li>
+            </ul>
+        </div>
+        <div class="text-start">
+            <h3 class="text-white text-[1.7vw] mt-[2vw]">For Optional Activity:</h3>
+
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Samples of cloth with different patterns and colours (such as heart-shaped designs, flowers, birds,
+                    stripes, checks, etc)</li>
+            </ul>
+        </div>
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: Beautiful Patterns</h1>
+
+        <div class="text-start">
+            <h3 class="ptitle">Lesson Development</h3>
+            <ol class="list-decimal panel-ul w-[45vw]">
+                <li>Recap the story with the children. Ask them if they remember the different designs on the patches which
+                    were used to sew Sue's patchwork jacket e.g. heart-shaped patch, purple striped patch, brown patch, etc.
+                </li>
+            </ol>
+        </div>
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: Beautiful Patterns</h1>
+
+        <div class="text-start">
+            <ol class="list-decimal panel-ul w-[50vw]" start="2">
+                <li>Show the children examples of fabrics with different patterns. Ask children to describe the patterns and
+                    colours. Ask the children to describe the special designs using appropriate vocabulary such as: "flowery
+                    pattern", "stripes", "checks", etc. Ask the children if they notice any repeating patterns.</li>
+            </ol>
+        </div>
+        <img src="{{ asset('assets/images/micet/k1/clothes/class3/c1.png') }}" class="w-[30vw]" />
+    </div>
+
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: Beautiful Patterns</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="3">
+            <li>Show the children examples of fabrics with different patterns. Ask children to describe the patterns and
+                colours. Ask the children to describe the special designs using appropriate vocabulary such as: "flowery
+                pattern", "stripes", "checks", etc. Ask the children if they notice any repeating patterns.</li>
         </ol>
+        <img src="{{ asset('assets/images/micet/k1/clothes/class3/c2.png') }}" class="w-[30vw]" />
     </div>
-    <div class="flex gap-15">
-        <img src="{{ asset('assets/images/micet/n2/fairy/class3/c2.png') }}" class="w-[15vw] h-[15vw]" />
-        <img src="{{ asset('assets/images/micet/n2/fairy/class3/c3.png') }}" class="w-[11vw] h-[11vw]" />
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: Beautiful Patterns</h1>
+
+        <div class="text-start">
+            <ol class="list-decimal panel-ul w-[50vw]" start="4">
+                <li>Show the children examples of fabrics with different patterns. Ask children to describe the patterns and
+                    colours. Ask the children to describe the special designs using appropriate vocabulary such as: "flowery
+                    pattern", "stripes", "checks", etc. Ask the children if they notice any repeating patterns.</li>
+            </ol>
+        </div>
+        <img src="{{ asset('assets/images/micet/k1/clothes/class3/c3.png') }}" class="w-[30vw]" />
     </div>
-</div>
 
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: Beautiful Patterns</h1>
 
-{{-- panel 3 --}}
-<div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
-    <h1 class="panel-title stroke">Classroom Activity 3: Let’s Compare</h1>
-
-    <div class="text-start">
-        <ol class="list-decimal panel-ul w-[45vw]" start="2">
-            <li>Point out the words big and small</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="5">
+            <li>Show the children examples of fabrics with different patterns. Ask children to describe the patterns and
+                colours. Ask the children to describe the special designs using appropriate vocabulary such as: "flowery
+                pattern", "stripes", "checks", etc. Ask the children if they notice any repeating patterns.</li>
         </ol>
+        <img src="{{ asset('assets/images/micet/k1/clothes/class3/c4.png') }}" class="w-[30vw]" />
     </div>
-    <div class="flex gap-15">
-        <div class="text-white text-[2vw]">
-            <img src="{{ asset('assets/images/micet/n2/fairy/class3/c2.png') }}" class="w-[15vw] h-[15vw]" />big
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: Beautiful Patterns</h1>
+
+        <div class="text-start">
+            <ol class="list-decimal panel-ul w-[50vw]" start="6">
+                <li>Show the children examples of fabrics with different patterns. Ask children to describe the patterns and
+                    colours. Ask the children to describe the special designs using appropriate vocabulary such as: "flowery
+                    pattern", "stripes", "checks", etc. Ask the children if they notice any repeating patterns.</li>
+            </ol>
         </div>
-        <div class="text-white text-[2vw]">
-            <img src="{{ asset('assets/images/micet/n2/fairy/class3/c3.png') }}" class="w-[11vw] h-[11vw]" />small
+        <img src="{{ asset('assets/images/micet/k1/clothes/class3/c5.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: Beautiful Patterns</h1>
+
+        <div class="text-start">
+            <ol class="list-decimal panel-ul w-[50vw]" start="7">
+                <li>Show the children examples of fabrics with different patterns. Ask children to describe the patterns and
+                    colours. Ask the children to describe the special designs using appropriate vocabulary such as: "flowery
+                    pattern", "stripes", "checks", etc. Ask the children if they notice any repeating patterns.</li>
+            </ol>
         </div>
+        <img src="{{ asset('assets/images/micet/k1/clothes/class3/c6.png') }}" class="w-[30vw]" />
     </div>
-</div>
 
 
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: Beautiful Patterns</h1>
 
-{{-- panel 4 --}}
-<div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
-    <h1 class="panel-title stroke">Classroom Activity 3: Let’s Compare</h1>
-
-    <ol class="list-decimal panel-ul w-[45vw]" start="3">
-        <li>Invite two children of the same gender but having a marked difference in their
-            heights to stand side by side in front of the class. Have the other children state
-            the differences between the two children. Guide the children in saying
-            (child's name) is tall, (child's name) is short.</li>
-    </ol>
-</div>
-
-
-{{-- panel 3 --}}
-<div class="phonics-panel flex flex-col space-y-[1vw] justify-between items-center h-full">
-    <h1 class="panel-title stroke">Classroom Activity 3: Let’s Compare</h1>
-
-    <div class="text-start">
-        <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Point out the words big and small</li>
-        </ol>
-    </div>
-    <div class="flex gap-15 items-center justify-center">
-        <div class="text-white text-[2vw]">
-            <img src="{{ asset('assets/images/micet/n2/fairy/class3/c4.png') }}" class="w-[10vw] h-[20vw]" />tall
+        <div class="text-start">
+            <ol class="list-decimal panel-ul w-[50vw]" start="8">
+                <li>Show the children examples of fabrics with different patterns. Ask children to describe the patterns and
+                    colours. Ask the children to describe the special designs using appropriate vocabulary such as: "flowery
+                    pattern", "stripes", "checks", etc. Ask the children if they notice any repeating patterns.</li>
+            </ol>
         </div>
-        <div class="text-white text-[2vw]">
-            <img src="{{ asset('assets/images/micet/n2/fairy/class3/c5.png') }}" class="w-[10vw] h-[13vw]" />short
-        </div>
-    </div>
-</div>
-
-{{-- panel 5 --}}
-<div class="phonics-panel flex flex-col space-y-[2vw] items-center h-full">
-    <h1 class="panel-title stroke">Classroom Activity 3: Let’s Compare</h1>
-
-    <ol class="list-decimal panel-ul w-[45vw]" start="6">
-        <li>Explain to the children that words that have opposite meanings such as big
-            and small, tall and short are called antonyms.
-        </li>
-        <li> Guide the children in listing other antonyms that they know. Write them on the
-            whiteboard.</li>
-    </ol>
-</div>
-
-
-{{-- panel 3 --}}
-<div class="phonics-panel flex flex-col space-y-[1vw] justify-between items-center h-full">
-    <h1 class="panel-title stroke">Classroom Activity 3: Let’s Compare</h1>
-
-    <div class="text-start">
-        <ol class="list-decimal panel-ul w-[45vw]" start="7">
-            <li>Have the children state the differences between the two bears. Guide the
-                children to describe the bears (e.g. fat and thin).</li>
-        </ol>
-    </div>
-    <div class="flex gap-15 items-center justify-center">
-        <div class="text-white text-[2vw]">
-            <img src="{{ asset('assets/images/micet/n2/fairy/class3/c5.png') }}" class="w-[15vw] h-[20vw]" />
-        </div>
-        <div class="text-white text-[2vw]">
-            <img src="{{ asset('assets/images/micet/n2/fairy/class3/c4.png') }}" class="w-[10vw] h-[20vw]" />
-        </div>
-    </div>
-</div>
-
-
-{{-- panel 3 --}}
-<div class="phonics-panel flex flex-col space-y-[1vw] justify-between items-center h-full">
-    <h1 class="panel-title stroke">Classroom Activity 3: Let’s Compare</h1>
-
-    <div class="text-start">
-        <ol class="list-decimal panel-ul w-[45vw]" start="8">
-            <li>Have the children state the differences between the two bears. Guide the
-                children to describe the bears (e.g. fat and thin).</li>
-        </ol>
-    </div>
-    <div class="flex gap-15 items-center justify-center">
-        <div class="text-white text-[2vw]">
-            <img src="{{ asset('assets/images/micet/n2/fairy/class3/c5.png') }}" class="w-[15vw] h-[20vw]" />fat
-        </div>
-        <div class="text-white text-[2vw]">
-            <img src="{{ asset('assets/images/micet/n2/fairy/class3/c4.png') }}" class="w-[10vw] h-[20vw]" />thin
-        </div>
-    </div>
-</div>
-
-
-{{-- panel 3 --}}
-<div class="phonics-panel flex flex-col space-y-[1vw] justify-between items-center h-full">
-    <h1 class="panel-title stroke">Classroom Activity 3: Let’s Compare</h1>
-
-    <div class="text-start">
-        <ol class="list-decimal panel-ul w-[45vw]" start="9">
-            <li>Have the children state the differences between the two pencils. Guide the
-                children to describe the lengths of the pencils (e.g. long and short).</li>
-        </ol>
-    </div>
-    <img src="{{ asset('assets/images/micet/n2/fairy/class3/c7.png') }}" class="w-[25vw]" />
-</div>
-
-
-{{-- panel 3 --}}
-<div class="phonics-panel flex flex-col space-y-[2vw] justify-between items-center h-full">
-    <h1 class="panel-title stroke">Classroom Activity 3: Let’s Compare</h1>
-
-    <div class="text-start w-full max-w-[45vw]">
-        <ol class="list-decimal panel-ul" start="10">
-            <li class="text-[1.5vw]">Point out the words big and small</li>
-        </ol>
+        <img src="{{ asset('assets/images/micet/k1/clothes/class3/c7.png') }}" class="w-[25vw]" />
     </div>
 
-    <div class="flex items-center gap-[1.5vw]">
-        <div class="flex flex-col justify-around h-[10.5vw] text-[2vw] font-bold text-white  text-right">
-            <div>long</div>
-            <div>short</div>
-        </div>
-        <div class="flex items-center">
-            <img src="{{ asset('assets/images/micet/n2/fairy/class3/c7.png') }}" class="w-[25vw] h-auto" />
-        </div>
-    </div>
-</div>
 
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: Beautiful Patterns</h1>
 
-
-{{-- panel 3 --}}
-<div class="phonics-panel flex flex-col space-y-[1vw] justify-between items-center h-full">
-    <h1 class="panel-title stroke">Classroom Activity 3: Let’s Compare</h1>
-
-    <div class="text-start">
-        <ol class="list-decimal panel-ul w-[45vw]" start="11">
-            <li>Have the children state the differences between the two pencils. Guide the
-                children to describe the size of the pencils (e.g. thick and thin).</li>
-        </ol>
-    </div>
-    <img src="{{ asset('assets/images/micet/n2/fairy/class3/c8.png') }}" class="w-[25vw]" />
-</div>
-
-
-{{-- panel 3 --}}
-<div class="phonics-panel flex flex-col space-y-[2vw] justify-between items-center h-full">
-    <h1 class="panel-title stroke">Classroom Activity 3: Let’s Compare</h1>
-
-    <div class="text-start w-full max-w-[45vw]">
-        <ol class="list-decimal panel-ul" start="12">
-            <li class="text-[1.5vw]">Point out the words big and small</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="9">
+            <li>(Optional Activity) Display the different samples of cloth. Let the children sort them according to patterns
+                and colours.</li>
+            <li>Encourage the children to design a pattern for a cloth on a drawing paper or in the Thematic Activity Book.
+            </li>
         </ol>
     </div>
 
-    <div class="flex items-center gap-[1.5vw]">
-        <div class="flex flex-col justify-around h-[10.5vw] text-[2vw] font-bold text-white  text-right">
-            <div>thick</div>
-            <div>thin</div>
-        </div>
-        <div class="flex items-center">
-            <img src="{{ asset('assets/images/micet/n2/fairy/class3/c8.png') }}" class="w-[25vw] h-auto" />
-        </div>
-    </div>
-</div>
 
 
-{{-- panel 3 --}}
-<div class="phonics-panel flex flex-col space-y-[1vw] justify-between items-center h-full">
-    <h1 class="panel-title stroke">Classroom Activity 3: Let’s Compare</h1>
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: Beautiful Patterns</h1>
 
-    <div class="text-start">
-        <ol class="list-decimal panel-ul w-[45vw]" start="13">
-            <li>Have the children state the differences between the two groups of stools.
-                Guide the children to describe the quantity (e.g. many and few).</li>
-        </ol>
-    </div>
-    <img src="{{ asset('assets/images/micet/n2/fairy/class3/c9.png') }}" class="w-[25vw]" />
-</div>
-
-
-{{-- panel 3 --}}
-<div class="phonics-panel flex flex-col space-y-[2vw] justify-between items-center h-full">
-    <h1 class="panel-title stroke">Classroom Activity 3: Let’s Compare</h1>
-
-    <div class="text-start w-full max-w-[45vw]">
-        <ol class="list-decimal panel-ul" start="14">
-
-            <li class="text-[1.5vw]">Point out the words many and few</li>
-        </ol>
-    </div>
-    <div class="flex flex-col items-center gap-[1.5vw]">
-        <!-- Top Side: Image -->
-        <div class="flex items-center">
-            <img src="{{ asset('assets/images/micet/n2/fairy/class3/c9.png') }}" class="w-[25vw] h-auto" />
-        </div>
-        <div class="flex flex-row justify-around w-[25vw] text-[2vw] font-bold text-white text-center">
-            <div>many</div>
-            <div>few</div>
+        <div class="text-start">
+            <ol class="list-decimal panel-ul w-[45vw]" start="11">
+                <li>Guide children to complete the corresponding activities in the Thematic
+                    Activity Book.</li>
+            </ol>
         </div>
     </div>
-</div>
-
-
-{{-- panel 3 --}}
-<div class="phonics-panel flex flex-col space-y-[1vw] justify-between items-center h-full">
-    <h1 class="panel-title stroke">Classroom Activity 3: Let’s Compare</h1>
-
-    <div class="text-start">
-        <ol class="list-decimal panel-ul w-[45vw]" start="15">
-            <li>Have the children state the differences between the two books. Guide the
-                children to describe the thickness of the books (e.g. thick and thin).</li>
-        </ol>
-    </div>
-    <img src="{{ asset('assets/images/micet/n2/fairy/class3/c10.png') }}" class="w-[25vw]" />
-</div>
 
 
 
-{{-- panel 3 --}}
-<div class="phonics-panel flex flex-col space-y-[2vw] justify-between items-center h-full">
-    <h1 class="panel-title stroke">Classroom Activity 3: Let’s Compare</h1>
+    {{-- panel 10 --}}
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
+        <h1 class="panel-title stroke">Classroom Activity 3: Beautiful Patterns</h1>
 
-    <div class="text-start w-full max-w-[45vw]">
-        <ol class="list-decimal panel-ul" start="16">
+        <div class="text-start flex flex-col justify-between h-full">
+            <h3 class="ptitle">Clousre</h3>
 
-            <li class="text-[1.5vw]">Point out the words big and small</li>
-        </ol>
-    </div>
-    <div class="flex flex-col items-center gap-[1.5vw]">
-        <!-- Top Side: Image -->
-        <div class="flex items-center">
-            <img src="{{ asset('assets/images/micet/n2/fairy/class3/c10.png') }}" class="w-[25vw] h-auto" />
-        </div>
-        <div class="flex flex-row justify-around w-[25vw] text-[2vw] font-bold text-white text-center">
-            <div>thick</div>
-            <div>thin</div>
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Invite the children to show and describe their work to their
+                    classmates.</li>
+            </ul>
+
+            <h3 class="ptitle">Evaluation</h3>
+
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Able to describe the colours and patterns on the cloths.</li>
+                <li>Able to complete designing a pattern independently.</li>
+            </ul>
         </div>
     </div>
-</div>
 
 
-{{-- panel 3 --}}
-<div class="phonics-panel flex flex-col space-y-[1vw] justify-between items-center h-full">
-    <h1 class="panel-title stroke">Classroom Activity 3: Let’s Compare</h1>
+    {{-- panel 19 --}}
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
+        <h1 class="panel-title stroke">Classroom Activity 3: Beautiful Patterns</h1>
 
-    <div class="text-start">
-        <ol class="list-decimal panel-ul w-[45vw]" start="17">
-            <li>Have the children state the differences between the two toys. Guide the
-                children to describe the condition of the toys (e.g. new and old).</li>
-        </ol>
-    </div>
-    <img src="{{ asset('assets/images/micet/n2/fairy/class3/c11.png') }}" class="w-[25vw]" />
-</div>
+        <div class="text-start flex flex-col ">
+            <h3 class="ptitle">Extension</h3>
 
-
-{{-- panel 3 --}}
-<div class="phonics-panel flex flex-col space-y-[2vw] justify-between items-center h-full">
-    <h1 class="panel-title stroke">Classroom Activity 3: Let’s Compare</h1>
-
-    <div class="text-start w-full max-w-[45vw]">
-        <ol class="list-decimal panel-ul" start="18">
-
-            <li class="text-[1.5vw]">Point out the words big and small</li>
-        </ol>
-    </div>
-    <div class="flex flex-col items-center gap-[1.5vw]">
-        <!-- Top Side: Image -->
-        <div class="flex items-center">
-            <img src="{{ asset('assets/images/micet/n2/fairy/class3/c11.png') }}" class="w-[25vw] h-auto" />
-        </div>
-        <div class="flex flex-row justify-around w-[25vw] text-[2vw] font-bold text-white text-center">
-            <div>new</div>
-            <div>old</div>
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Let the children design their own patterned paper clothing. First, get the children to draw an outline
+                    of their favourite piece of clothing (such as at-shirt or a dress) on a piece of paper. Then let them
+                    draw their patterns onto the paper clothing. Finally, let them cut out the piece of "clothing".</li>
+            </ul>
         </div>
     </div>
-</div>
 
 
-{{-- panel 3 --}}
-<div class="phonics-panel flex flex-col space-y-[1vw] justify-between items-center h-full">
-    <h1 class="panel-title stroke">Classroom Activity 3: Let’s Compare</h1>
+    {{-- =============================================== --}}
+    {{-- All Buttons --}}
+    <div id="buttons" class="absolute flex flex-row gap-6 z-90">
 
-    <div class="text-start">
-        <ol class="list-decimal panel-ul w-[45vw]" start="19">
-            <li>Have the children state the differences between the two glasses of water.
-                Guide the children to describe the temperature of the water (e.g. hot and cold).</li>
-        </ol>
+        <!-- Home Button -->
+        <button id="returnButton">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/return-btn.png') }}" />
+        </button>
+
+        <!-- return Button -->
+        <button id="homeButton">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/home-btn.png') }}" />
+        </button>
+
+        <!-- Close Button -->
+        <button id="closeButton">
+
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/cancel.png') }}" />
+        </button>
     </div>
-    <img src="{{ asset('assets/images/micet/n2/fairy/class3/c12.png') }}" class="w-[25vw]" />
-</div>
 
-
-{{-- panel 3 --}}
-<div class="phonics-panel flex flex-col space-y-[2vw] justify-between items-center h-full">
-    <h1 class="panel-title stroke">Classroom Activity 3: Let’s Compare</h1>
-
-    <div class="text-start w-full max-w-[45vw]">
-        <ol class="list-decimal panel-ul" start="20">
-            <li class="text-[1.5vw]">Point out the words cold and hot</li>
-        </ol>
+    {{-- Next and Done Buttons --}}
+    <div class="down-btn-container">
+        <button class="nextButton">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/next-btn.png') }}" />
+        </button>
     </div>
-    
-    <div class="flex flex-col items-center gap-[1.5vw]">
-        <div class="flex items-center">
-            <img src="{{ asset('assets/images/micet/n2/fairy/class3/c12.png') }}" class="w-[20vw] h-auto" />
-        </div>
-        
-        <div class="flex flex-row justify-around w-[25vw] text-[2vw] font-bold text-white text-center">
-            <div>cold</div>
-            <div>hot</div>
-        </div>
+
+    <div class="down-btn-container">
+        <button class="doneButton hidden">
+            <img src="{{ asset('assets/images/phonicsl1/global/btns/done.png') }}" />
+        </button>
     </div>
-</div>
-
-
-{{-- panel 3 --}}
-<div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
-    <h1 class="panel-title stroke">Classroom Activity 3: Let’s Compare</h1>
-
-    <div class="text-start">
-        <ol class="list-decimal panel-ul w-[45vw]" start="21">
-            <li>One by one display the sets of two objects (prepared earlier). Let the
-                children compare the two objects in each set and use antonyms to describe
-                them.</li>
-            <li>Have the children find things in the classroom where comparisons can be
-                made, then use antonyms to describe them. For example, the table is high
-                but the chair is low; the teacher is tall but the children are short; there are
-                many children but a few teachers, etc.</li>
-        </ol>
-    </div>
-</div>
-
-
-{{-- panel 9 --}}
-<div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
-    <h1 class="panel-title stroke">Classroom Activity 3: Let’s Compare</h1>
-
-    <ol class="list-decimal panel-ul w-[45vw]" start="23">
-        <li>Guide children to complete the corresponding activities in the Thematic
-            Activity Book.</li>
-    </ol>
-</div>
-
-
-{{-- panel 10 --}}
-<div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-    <h1 class="panel-title stroke">Classroom Activity 3: Let’s Compare</h1>
-
-    <div class="text-start flex flex-col justify-between h-full">
-        <h3 class="ptitle">Clousre</h3>
-
-        <ul class="list-disc panel-ul w-[45vw]">
-            <li>Teacher to say a word and children to give the antonym of
-                the word, e.g. tall - short, fat - thin.</li>
-        </ul>
-
-        <h3 class="ptitle">Evaluation</h3>
-
-        <ul class="list-disc panel-ul w-[45vw]">
-            <li>Able to understand the concept of antonyms.</li>
-            <li>Able to name some antonyms.</li>
-            <li>Able to find things in the classroom that have opposite
-                characteristics and use antonyms to describe them.</li>
-        </ul>
-    </div>
-</div>
-
-
-{{-- panel 19 --}}
-<div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-    <h1 class="panel-title stroke">Classroom Activity 3: Let’s Compare</h1>
-
-    <div class="text-start flex flex-col">
-        <h3 class="ptitle">Extension</h3>
-
-        <ul class="list-disc panel-ul w-[45vw]">
-            <li>Group the children in twos - one child says a word and the
-                other child gives its antonym. Let them take turns to say the
-                word.</li>
-        </ul>
-    </div>
-</div>
-
-
-{{-- =============================================== --}}
-{{-- All Buttons --}}
-<div id="buttons" class="absolute flex flex-row gap-6 z-90">
-
-    <!-- Home Button -->
-    <button id="returnButton">
-        <img src="{{ asset('assets/images/phonicsl1/global/btns/return-btn.png') }}" />
-    </button>
-
-    <!-- return Button -->
-    <button id="homeButton">
-        <img src="{{ asset('assets/images/phonicsl1/global/btns/home-btn.png') }}" />
-    </button>
-
-    <!-- Close Button -->
-    <button id="closeButton">
-
-        <img src="{{ asset('assets/images/phonicsl1/global/btns/cancel.png') }}" />
-    </button>
-</div>
-
-{{-- Next and Done Buttons --}}
-<div class="down-btn-container">
-    <button class="nextButton">
-        <img src="{{ asset('assets/images/phonicsl1/global/btns/next-btn.png') }}" />
-    </button>
-</div>
-
-<div class="down-btn-container">
-    <button class="doneButton hidden">
-        <img src="{{ asset('assets/images/phonicsl1/global/btns/done.png') }}" />
-    </button>
-</div>
 @endsection
 
 @push('script')
-<script>
-    // SLIDE NAVIGATION SYSTEM
-    document.body.dataset.homeRoute = "{{ url('/micet') }}";
+    <script>
+        // SLIDE NAVIGATION SYSTEM
+        document.body.dataset.homeRoute = "{{ url('/micet') }}";
 
-    document.addEventListener("DOMContentLoaded", function() {
+        document.addEventListener("DOMContentLoaded", function() {
 
-        // Get all elements
-        const slides = document.querySelectorAll(".phonics-panel");
-        const nextButtons = document.querySelectorAll(".nextButton");
-        const returnButton = document.getElementById("returnButton");
-        const doneButton = document.querySelector(".doneButton");
-        const infoButtons = document.querySelectorAll("[class*='info-btn']");
-        const soundButtons = document.querySelectorAll("[id^='soundButton']");
+            // Get all elements
+            const slides = document.querySelectorAll(".phonics-panel");
+            const nextButtons = document.querySelectorAll(".nextButton");
+            const returnButton = document.getElementById("returnButton");
+            const doneButton = document.querySelector(".doneButton");
+            const infoButtons = document.querySelectorAll("[class*='info-btn']");
+            const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
-        // URLs for navigation
-        const returnURL = "{{ url('/micet/n2/fairy/index') }}";
-        const doneURL = "{{ url('/micet/n2/fairy/index') }}";
+            // URLs for navigation
+            const returnURL = "{{ url('/micet/k1/clothes/index') }}";
+            const doneURL = "{{ url('/micet/k1/clothes/index') }}";
 
-        // Track current position
-        let currentSlide = 0;
-        let isInSpecialMode = false;
-        let returnToSlide = null;
-        let specialSlideClass = null;
+            // Track current position
+            let currentSlide = 0;
+            let isInSpecialMode = false;
+            let returnToSlide = null;
+            let specialSlideClass = null;
 
-        // Audio management
-        let currentAudio = null;
+            // Audio management
+            let currentAudio = null;
 
-        // HELPER FUNCTIONS
+            // HELPER FUNCTIONS
 
-        function isSpecialSlide(slide) {
-            const classList = Array.from(slide.classList);
-            return classList.some(cls => /^info-panel-\d+$/.test(cls));
-        }
-
-        function getSlideTypeFromButton(button) {
-            const classList = Array.from(button.classList);
-
-            for (let className of classList) {
-                if (className.startsWith('info-btn')) {
-                    const number = className.replace('info-btn', '');
-                    return 'info-panel-' + number;
-                }
+            function isSpecialSlide(slide) {
+                const classList = Array.from(slide.classList);
+                return classList.some(cls => /^info-panel-\d+$/.test(cls));
             }
-            return null;
-        }
 
-        function hasMoreSpecialSlides(fromIndex) {
-            if (!specialSlideClass) return false;
+            function getSlideTypeFromButton(button) {
+                const classList = Array.from(button.classList);
 
-            for (let i = fromIndex + 1; i < slides.length; i++) {
-                if (slides[i].classList.contains(specialSlideClass)) {
-                    return true;
-                }
-            }
-            return false;
-        }
-
-        function isLastSlide(slideIndex) {
-            if (isInSpecialMode && !hasMoreSpecialSlides(slideIndex)) return true;
-
-            if (!isInSpecialMode) {
-                for (let i = slideIndex + 1; i < slides.length; i++) {
-                    if (!isSpecialSlide(slides[i])) {
-                        return false;
+                for (let className of classList) {
+                    if (className.startsWith('info-btn')) {
+                        const number = className.replace('info-btn', '');
+                        return 'info-panel-' + number;
                     }
                 }
-                return true;
+                return null;
             }
 
-            return false;
-        }
+            function hasMoreSpecialSlides(fromIndex) {
+                if (!specialSlideClass) return false;
 
-        // AUDIO FUNCTIONS
-
-        function stopCurrentAudio() {
-            if (currentAudio) {
-                currentAudio.pause();
-                currentAudio.currentTime = 0;
+                for (let i = fromIndex + 1; i < slides.length; i++) {
+                    if (slides[i].classList.contains(specialSlideClass)) {
+                        return true;
+                    }
+                }
+                return false;
             }
-        }
 
-        function playSlideAudio(slideIndex) {
-            // Stop any currently playing audio
-            stopCurrentAudio();
+            function isLastSlide(slideIndex) {
+                if (isInSpecialMode && !hasMoreSpecialSlides(slideIndex)) return true;
 
-            // Get the slide element
-            const slide = slides[slideIndex];
+                if (!isInSpecialMode) {
+                    for (let i = slideIndex + 1; i < slides.length; i++) {
+                        if (!isSpecialSlide(slides[i])) {
+                            return false;
+                        }
+                    }
+                    return true;
+                }
 
-            // Check if the slide itself has data-slide-audio attribute
-            let audioSrc = slide.getAttribute('data-slide-audio');
+                return false;
+            }
 
-            // If not, look for element inside the slide with data-slide-audio attribute
-            if (!audioSrc) {
-                const audioElement = slide.querySelector('[data-slide-audio]');
-                if (audioElement) {
-                    audioSrc = audioElement.getAttribute('data-slide-audio');
+            // AUDIO FUNCTIONS
+
+            function stopCurrentAudio() {
+                if (currentAudio) {
+                    currentAudio.pause();
+                    currentAudio.currentTime = 0;
                 }
             }
 
-            // Play the audio if we found a source
-            if (audioSrc) {
-                currentAudio = new Audio(audioSrc);
-                currentAudio.play().catch(err => console.log('Audio play failed:', err));
-            }
-        }
+            function playSlideAudio(slideIndex) {
+                // Stop any currently playing audio
+                stopCurrentAudio();
 
+                // Get the slide element
+                const slide = slides[slideIndex];
 
-        // DISPLAY FUNCTIONS
+                // Check if the slide itself has data-slide-audio attribute
+                let audioSrc = slide.getAttribute('data-slide-audio');
 
-        function showSlide(slideIndex) {
-            // Stop audio from previous slide
-            stopCurrentAudio();
-
-            // Hide all slides, show only current one
-            slides.forEach((slide, index) => {
-                if (index === slideIndex) {
-                    slide.classList.remove("hidden");
-                } else {
-                    slide.classList.add("hidden");
+                // If not, look for element inside the slide with data-slide-audio attribute
+                if (!audioSrc) {
+                    const audioElement = slide.querySelector('[data-slide-audio]');
+                    if (audioElement) {
+                        audioSrc = audioElement.getAttribute('data-slide-audio');
+                    }
                 }
-            });
 
-            // Play audio for current slide (if it has one)
-            playSlideAudio(slideIndex);
-
-            // Show "Done" button on last slide, otherwise show "Next"
-            if (isLastSlide(slideIndex)) {
-                nextButtons.forEach(btn => btn.classList.add("hidden"));
-                if (doneButton) doneButton.classList.remove("hidden");
-            } else {
-                nextButtons.forEach(btn => btn.classList.remove("hidden"));
-                if (doneButton) doneButton.classList.add("hidden");
-            }
-        }
-
-        soundButtons.forEach(btn => {
-            btn.addEventListener("click", (e) => {
-                e.preventDefault();
-
-                // Get audio source from data-slide-audio attribute
-                const audioSrc = btn.getAttribute('data-slide-audio');
-
+                // Play the audio if we found a source
                 if (audioSrc) {
-                    stopCurrentAudio();
                     currentAudio = new Audio(audioSrc);
                     currentAudio.play().catch(err => console.log('Audio play failed:', err));
                 }
-            });
-        });
-        // NAVIGATION FUNCTIONS
+            }
 
-        function goNext() {
-            if (currentSlide >= slides.length - 1) return;
 
-            currentSlide++;
+            // DISPLAY FUNCTIONS
 
-            while (currentSlide < slides.length) {
-                const slide = slides[currentSlide];
+            function showSlide(slideIndex) {
+                // Stop audio from previous slide
+                stopCurrentAudio();
 
-                if (isInSpecialMode) {
-                    if (slide.classList.contains(specialSlideClass)) break;
+                // Hide all slides, show only current one
+                slides.forEach((slide, index) => {
+                    if (index === slideIndex) {
+                        slide.classList.remove("hidden");
+                    } else {
+                        slide.classList.add("hidden");
+                    }
+                });
+
+                // Play audio for current slide (if it has one)
+                playSlideAudio(slideIndex);
+
+                // Show "Done" button on last slide, otherwise show "Next"
+                if (isLastSlide(slideIndex)) {
+                    nextButtons.forEach(btn => btn.classList.add("hidden"));
+                    if (doneButton) doneButton.classList.remove("hidden");
                 } else {
-                    if (!isSpecialSlide(slide)) break;
+                    nextButtons.forEach(btn => btn.classList.remove("hidden"));
+                    if (doneButton) doneButton.classList.add("hidden");
                 }
+            }
+
+            soundButtons.forEach(btn => {
+                btn.addEventListener("click", (e) => {
+                    e.preventDefault();
+
+                    // Get audio source from data-slide-audio attribute
+                    const audioSrc = btn.getAttribute('data-slide-audio');
+
+                    if (audioSrc) {
+                        stopCurrentAudio();
+                        currentAudio = new Audio(audioSrc);
+                        currentAudio.play().catch(err => console.log('Audio play failed:', err));
+                    }
+                });
+            });
+            // NAVIGATION FUNCTIONS
+
+            function goNext() {
+                if (currentSlide >= slides.length - 1) return;
 
                 currentSlide++;
-            }
 
-            if (currentSlide < slides.length) {
-                showSlide(currentSlide);
-            }
-        }
+                while (currentSlide < slides.length) {
+                    const slide = slides[currentSlide];
 
-        function goBack() {
-            if (currentSlide === 0 && !isInSpecialMode) {
-                stopCurrentAudio();
-                window.location.href = returnURL;
-                return;
-            }
-
-            if (isInSpecialMode) {
-                let previousIndex = currentSlide - 1;
-
-                while (previousIndex >= 0) {
-                    if (slides[previousIndex].classList.contains(specialSlideClass)) {
-                        break;
+                    if (isInSpecialMode) {
+                        if (slide.classList.contains(specialSlideClass)) break;
+                    } else {
+                        if (!isSpecialSlide(slide)) break;
                     }
-                    previousIndex--;
+
+                    currentSlide++;
                 }
 
-                if (previousIndex >= 0) {
-                    currentSlide = previousIndex;
+                if (currentSlide < slides.length) {
                     showSlide(currentSlide);
+                }
+            }
+
+            function goBack() {
+                if (currentSlide === 0 && !isInSpecialMode) {
+                    stopCurrentAudio();
+                    window.location.href = returnURL;
+                    return;
+                }
+
+                if (isInSpecialMode) {
+                    let previousIndex = currentSlide - 1;
+
+                    while (previousIndex >= 0) {
+                        if (slides[previousIndex].classList.contains(specialSlideClass)) {
+                            break;
+                        }
+                        previousIndex--;
+                    }
+
+                    if (previousIndex >= 0) {
+                        currentSlide = previousIndex;
+                        showSlide(currentSlide);
+                    } else {
+                        currentSlide = returnToSlide;
+                        isInSpecialMode = false;
+                        specialSlideClass = null;
+                        returnToSlide = null;
+                        showSlide(currentSlide);
+                    }
                 } else {
+                    if (currentSlide > 0) {
+                        currentSlide--;
+
+                        while (currentSlide > 0 && isSpecialSlide(slides[currentSlide])) {
+                            currentSlide--;
+                        }
+
+                        showSlide(currentSlide);
+                    }
+                }
+            }
+
+            function handleDone() {
+                stopCurrentAudio();
+
+                if (isInSpecialMode && returnToSlide !== null) {
                     currentSlide = returnToSlide;
                     isInSpecialMode = false;
                     specialSlideClass = null;
                     returnToSlide = null;
                     showSlide(currentSlide);
-                }
-            } else {
-                if (currentSlide > 0) {
-                    currentSlide--;
-
-                    while (currentSlide > 0 && isSpecialSlide(slides[currentSlide])) {
-                        currentSlide--;
-                    }
-
-                    showSlide(currentSlide);
+                } else {
+                    window.location.href = doneURL;
                 }
             }
-        }
 
-        function handleDone() {
-            stopCurrentAudio();
+            // EVENT LISTENERS
 
-            if (isInSpecialMode && returnToSlide !== null) {
-                currentSlide = returnToSlide;
-                isInSpecialMode = false;
-                specialSlideClass = null;
-                returnToSlide = null;
-                showSlide(currentSlide);
-            } else {
-                window.location.href = doneURL;
-            }
-        }
+            infoButtons.forEach(button => {
+                button.addEventListener("click", function(e) {
+                    e.preventDefault();
 
-        // EVENT LISTENERS
+                    returnToSlide = currentSlide;
+                    isInSpecialMode = true;
+                    specialSlideClass = getSlideTypeFromButton(button);
 
-        infoButtons.forEach(button => {
-            button.addEventListener("click", function(e) {
-                e.preventDefault();
-
-                returnToSlide = currentSlide;
-                isInSpecialMode = true;
-                specialSlideClass = getSlideTypeFromButton(button);
-
-                for (let i = 0; i < slides.length; i++) {
-                    if (slides[i].classList.contains(specialSlideClass)) {
-                        currentSlide = i;
-                        showSlide(currentSlide);
-                        break;
+                    for (let i = 0; i < slides.length; i++) {
+                        if (slides[i].classList.contains(specialSlideClass)) {
+                            currentSlide = i;
+                            showSlide(currentSlide);
+                            break;
+                        }
                     }
-                }
+                });
             });
-        });
 
-        nextButtons.forEach(btn => {
-            btn.addEventListener("click", goNext);
-        });
-
-        if (returnButton) {
-            returnButton.addEventListener("click", goBack);
-        }
-
-        if (doneButton) {
-            doneButton.addEventListener("click", handleDone);
-        }
-
-        const letterLinks = document.querySelectorAll('.phonics-panel a[href=""]:not([class*="info-btn"])');
-        letterLinks.forEach(link => {
-            link.addEventListener('click', (e) => {
-                e.preventDefault();
-                const letter = link.getAttribute('data-letter') || 'a';
-                speakLetter(letter);
+            nextButtons.forEach(btn => {
+                btn.addEventListener("click", goNext);
             });
+
+            if (returnButton) {
+                returnButton.addEventListener("click", goBack);
+            }
+
+            if (doneButton) {
+                doneButton.addEventListener("click", handleDone);
+            }
+
+            const letterLinks = document.querySelectorAll('.phonics-panel a[href=""]:not([class*="info-btn"])');
+            letterLinks.forEach(link => {
+                link.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const letter = link.getAttribute('data-letter') || 'a';
+                    speakLetter(letter);
+                });
+            });
+
+            window.speechSynthesis.onvoiceschanged = () => {
+                window.speechSynthesis.getVoices();
+            };
+
+            // INITIALIZE - Show first slide and play its audio automatically
+            showSlide(currentSlide);
         });
-
-        window.speechSynthesis.onvoiceschanged = () => {
-            window.speechSynthesis.getVoices();
-        };
-
-        // INITIALIZE - Show first slide and play its audio automatically
-        showSlide(currentSlide);
-    });
-</script>
+    </script>
 @endpush
