@@ -38,7 +38,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Who’s fishing rod is longer?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: How Many Pair Of Wings?</h1>
         <div class="flex ">
             <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
             <img src="{{ asset('assets/images/micet/n1/mybody/class2/c1.png') }}" class="h-[12vw]" />
@@ -48,24 +48,22 @@
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul">
-            <li>To understand the concept of length.</li>
-            <li>To learn to compare the lengths of two or three objects.</li>
+            <li>Know that not all insects have wings</li>
+            <li>Know that different insects have different number of wings</li>
+            <li>Understand the concept of a "pair" and practise counting in pairs</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start space-y-[2vw] h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Who’s fishing rod is longer?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: How Many Pair Of Wings?</h1>
 
         <div>
             <h3 class="ptitle mt-[5vw]">Preparations</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
                 <li>Thematic Activity Book</li>
-                <li>Two pencils of different lengths.</li>
-                <li>Three different lengths of fishing rods made in advance.</li>
-                <li>Crayons</li>
             </ul>
         </div>
     </div>
@@ -73,30 +71,21 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
-        <h1 class="panel-title stroke">Classroom Activity 3: Who’s fishing rod is longer?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: How Many Pair Of Wings?</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
             <ol class="list-decimal panel-ul w-[45vw]">
-                <li>Display the two pencils of different lengths. Have the children state which
-                    pencil is longer and which is shorter. Guide the children in understanding the
-                    concept of length.</li>
-                <li>Have the children look for things in the classroom that are long and short.</li>
+                <li>Ask the children: What insect is this?</li>
             </ol>
         </div>
-        <div class="flex">
-            <div class=" flex flex-col justify-between">
-                <h2 class="text-white text-[2vw]">long</h2>
-                <h2 class="text-white text-[2vw]">short</h2>
-            </div>
-            <img src="{{ asset('assets/images/micet/n2/habit1/class3/c1.png') }}" class="h-[12vw]" />
-        </div>
+        <img src="{{ asset('assets/images/micet/n2/habit1/class3/c1.png') }}" class="h-[12vw]" />
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
-        <h1 class="panel-title stroke">Classroom Activity 3: Who’s fishing rod is longer?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: How Many Pair Of Wings?</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="3">
             <li>Display the first 2 fishing rods (exclude the shortest fishing rod). Have the
@@ -107,7 +96,7 @@
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col space-y-[2vw] items-center h-full">
-        <h1 class="panel-title stroke">Classroom Activity 3: Who’s fishing rod is longer?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: How Many Pair Of Wings?</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="4">
             <li>Display the shorter two of the three fishing rods. Have the children state which
@@ -119,7 +108,7 @@
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
-        <h1 class="panel-title stroke">Classroom Activity 3: Who’s fishing rod is longer?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: How Many Pair Of Wings?</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="5">
             <li>Display the three fishing rods. Have the children observe that when the middle
@@ -135,7 +124,7 @@
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
-        <h1 class="panel-title stroke">Classroom Activity 3: Who’s fishing rod is longer?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: How Many Pair Of Wings?</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="6">
             <li>Ask the children: "Which is the longest fishing rod?"; "Which is the shortest
@@ -150,7 +139,7 @@
 
     {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col items-center h-full">
-        <h1 class="panel-title stroke">Classroom Activity 3: Who’s fishing rod is longer?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: How Many Pair Of Wings?</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="7">
             <li>Click on the picture below to open the Software Magnetic Board. Randomly
@@ -164,7 +153,7 @@
 
     {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col items-center h-full">
-        <h1 class="panel-title stroke">Classroom Activity 3: Who’s fishing rod is longer?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: How Many Pair Of Wings?</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="8">
             <li>Guide children to complete the corresponding activities in the Thematic
@@ -175,7 +164,7 @@
 
     {{-- panel 10 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 3: Who’s fishing rod is longer?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: How Many Pair Of Wings?</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
@@ -198,7 +187,7 @@
 
     {{-- panel 19 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 3: Who’s fishing rod is longer?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: How Many Pair Of Wings?</h1>
 
         <div class="text-start flex flex-col">
             <h3 class="ptitle">Extension</h3>

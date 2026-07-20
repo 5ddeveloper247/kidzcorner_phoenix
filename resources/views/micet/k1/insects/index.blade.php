@@ -22,62 +22,72 @@
     {{-- Phonics l2 --}}
     <div id="slide-board" class=" home grid grid-cols-4 gap-[2vw] mb-[2vw]">
 
-        <a href="{{ url('/micet/n2/habit1/class1') }}">
-            <img src="{{ asset('assets/images/micet/n2/habit1/class1.png') }}" />
+        <a href="{{ url('/micet/k1/insects/class1') }}">
+            <img src="{{ asset('assets/images/micet/k1/insects/class1.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/n2/habit1/class2') }}">
-            <img src="{{ asset('assets/images/micet/n2/habit1/class2.png') }}" />
+        <a href="{{ url('/micet/k1/insects/class2') }}">
+            <img src="{{ asset('assets/images/micet/k1/insects/class2.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/n2/habit1/class3') }}">
-            <img src="{{ asset('assets/images/micet/n2/habit1/class3.png') }}" />
+        <a href="{{ url('/micet/k1/insects/class3') }}">
+            <img src="{{ asset('assets/images/micet/k1/insects/class3.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/n2/habit1/class4') }}">
-            <img src="{{ asset('assets/images/micet/n2/habit1/class4.png') }}" />
+        <a href="{{ url('/micet/k1/insects/class4') }}">
+            <img src="{{ asset('assets/images/micet/k1/insects/class4.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/n2/habit1/class5') }}">
-            <img src="{{ asset('assets/images/micet/n2/habit1/class5.png') }}" />
+        <a href="{{ url('/micet/k1/insects/class5') }}">
+            <img src="{{ asset('assets/images/micet/k1/insects/class5.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/n2/habit1/class6') }}">
-            <img src="{{ asset('assets/images/micet/n2/habit1/class6.png') }}" />
+        <a href="{{ url('/micet/k1/insects/class6') }}">
+            <img src="{{ asset('assets/images/micet/k1/insects/class6.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/n2/habit1/class7') }}">
-            <img src="{{ asset('assets/images/micet/n2/habit1/class7.png') }}" />
+        <a href="{{ url('/micet/k1/insects/class7') }}">
+            <img src="{{ asset('assets/images/micet/k1/insects/class7.png') }}" />
         </a>
 
-        <a href="{{ url('/micet/n2/habit1/class8') }}">
-            <img src="{{ asset('assets/images/micet/n2/habit1/class8.png') }}" />
+        <a href="{{ url('/micet/k1/insects/class8') }}">
+            <img src="{{ asset('assets/images/micet/k1/insects/class8.png') }}" />
         </a>
 
     </div>
 
 
     {{-- Phonics l2 --}}
-    <div id="slide-board" class="first grid grid-cols-2 gap-[2vw] mb-[2vw] hidden">
+    <div id="slide-board" class="flex justify-center items-center flex-col mb-[2vw] hidden">
 
-        <a href="{{ url('/micet/n2/habit1/class9') }}">
-            <img src="{{ asset('assets/images/micet/n2/habit1/class9.png') }}" />
-        </a>
+        <div class="grid grid-cols-2 gap-[2vw] mb-[2vw]">
 
-        <a href="{{ url('/micet/n2/habit1/class10') }}">
-            <img src="{{ asset('assets/images/micet/n2/habit1/class10.png') }}" />
-        </a>
+            <a href="{{ url('/micet/k1/insects/class9') }}">
+                <img src="{{ asset('assets/images/micet/k1/insects/class9.png') }}" />
+            </a>
 
-        <a href="{{ url('/micet/n2/habit1/activity') }}">
-            <img src="{{ asset('assets/images/micet/n2/habit1/activity.png') }}" />
-        </a>
+            <a href="{{ url('/micet/k1/insects/class10') }}">
+                <img src="{{ asset('assets/images/micet/k1/insects/class10.png') }}" />
+            </a>
+        </div>
 
-        <a href="{{ url('/micet/n2/habit1/tables') }}">
-            <img src="{{ asset('assets/images/micet/n2/habit1/tables.png') }}" />
-        </a>
+        <div class="col-span-2 grid grid-cols-3 gap-[2vw]">
+
+            <a href="{{ url('/micet/k1/insects/cards') }}">
+                <img src="{{ asset('assets/images/micet/k1/insects/cards.png') }}" />
+            </a>
+
+            <a href="{{ url('/micet/k1/insects/activity') }}">
+                <img src="{{ asset('assets/images/micet/k1/insects/activity.png') }}" />
+            </a>
+
+            <a href="{{ url('/micet/k1/insects/tables') }}">
+                <img src="{{ asset('assets/images/micet/k1/insects/tables.png') }}" />
+            </a>
+
+        </div>
 
     </div>
-
 
 
     {{-- All Buttons --}}
@@ -112,7 +122,7 @@
 @push('script')
     <script>
         document.body.dataset.homeRoute = "{{ url('/micet') }}";
-        document.body.dataset.parentRoute = "{{ url('/micet/n2/index') }}";
+        document.body.dataset.parentRoute = "{{ url('/micet/k1/index') }}";
 
         document.addEventListener("DOMContentLoaded", () => {
             const slides = document.querySelectorAll("#slide-board");
@@ -122,16 +132,16 @@
 
             let currentSlide = 0;
 
-            const savedSlide = sessionStorage.getItem("micet_n2_habit1_slide");
-            const cameFromLesson = sessionStorage.getItem("micet_n2_habit1_from_lesson");
+            const savedSlide = sessionStorage.getItem("micet_k1_insects_slide");
+            const cameFromLesson = sessionStorage.getItem("micet_k1_insects_from_lesson");
 
             if (savedSlide !== null && cameFromLesson === "1") {
                 currentSlide = parseInt(savedSlide);
             }
 
             // Always clear after reading
-            sessionStorage.removeItem("micet_n2_habit1_slide");
-            sessionStorage.removeItem("micet_n2_habit1_from_lesson");
+            sessionStorage.removeItem("micet_k1_insects_slide");
+            sessionStorage.removeItem("micet_k1_insects_from_lesson");
 
             function showSlide(index) {
                 slides.forEach((slide, i) => {
@@ -154,8 +164,8 @@
             // Save slide + flag only when clicking a lesson link
             document.querySelectorAll("#slide-board a").forEach(link => {
                 link.addEventListener("click", () => {
-                    sessionStorage.setItem("micet_n2_habit1_slide", currentSlide);
-                    sessionStorage.setItem("micet_n2_habit1_from_lesson", "1");
+                    sessionStorage.setItem("micet_k1_insects_slide", currentSlide);
+                    sessionStorage.setItem("micet_k1_insects_from_lesson", "1");
                 });
             });
 

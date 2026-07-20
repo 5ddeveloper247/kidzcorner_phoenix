@@ -38,7 +38,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: Candy’s Fish</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: What is an Insect?</h1>
         <div class="flex ">
             <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
             <img src="{{ asset('assets/images/micet/n1/mybody/class2/c1.png') }}" class="h-[12vw]" />
@@ -48,24 +48,22 @@
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul">
-            <li>To learn to draw a fish.</li>
-            <li>To differentiate sizes.</li>
-            <li>To learn to count up to 7.</li>
-            <li>To imitate the movements of a fish swimming.</li>
+            <li>Identify some common insects</li>
+            <li>Identify the main characteristics of insects</li>
+            <li>Understand the body parts of an insect</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col items-center space-y-[3vw] h-full">
-        <h1 class="panel-title stroke">Classroom Activity 2: Candy’s Fish</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: What is an Insect?</h1>
 
         <div>
             <h3 class="ptitle">Preparations</h3>
 
             <ul class="list-disc panel-ul">
                 <li>Thematic Activity Book</li>
-                <li>Crayons.</li>
             </ul>
         </div>
     </div>
@@ -73,107 +71,678 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: Candy’s Fish</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: What is an Insect?</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[45vw]">
-                <li>Display the picture of a fish. Have the children name it and describe where it
-                    lives.</li>
+                <li>Have the children observe the human body. Ask the children: How many main body parts do we have? How
+                    many arms and legs do we have?</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class2/c1.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/k1/insects/class2/c1.png') }}" class="h-[20vw]" />
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: Candy’s Fish</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: What is an Insect?</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="2">
-            <li>Click on the video. Have the children observe and describe how a fish swims
-                in the water. Guide the children in imitating the movements of the fish by
-                swinging their arms left and right.</li>
+            <li>Guide children to know that we have two main body parts.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class2/c1.png') }}" class="h-[20vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: What is an Insect?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>We have four limbs, two arms and two legs.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class2/c1.png') }}" class="h-[20vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: What is an Insect?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="4">
+            <li>Have children observe an ant. Ask the children: What animal is this? How many main body parts does it have?
+            </li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class2/c2.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: What is an Insect?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="5">
+            <li>Guide children to know that the body of an ant is different from our body. An ant has three main body parts:
+                head, thorax and abdomen.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class2/c2.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: What is an Insect?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="6">
+            <li>How many legs does an ant have?</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class2/c2.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: What is an Insect?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="6">
+            <li>How many legs does an ant have?</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class2/c2.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: What is an Insect?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="7">
+            <li>An and has six legs.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class2/c2.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: What is an Insect?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="8">
+            <li>What are these that the and has?</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class2/c2.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: What is an Insect?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="9">
+            <li>Guide children to know that the ant has two antennae on its head.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class2/c2.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: What is an Insect?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="10">
+            <li>Help children understand that animals with three main body parts, six legs and two antennae are called
+                insects. That's why the ant is an insect.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class2/c2.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: What is an Insect?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="11">
+            <li>Have children observe a mosquito. Ask the children: What animal is this? How many main body parts does it
+                have?</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class2/c3.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: What is an Insect?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="12">
+            <li>Guide children to know that a mosquito has three main body parts: head, thorax and abdomen.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class2/c3.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: What is an Insect?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="13">
+            <li>How many legs does a mosquito have?</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class2/c3.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: What is an Insect?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="14">
+            <li>A mosquito has six legs.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class2/c3.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: What is an Insect?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="15">
+            <li>How many antennae does a mosquito have?</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class2/c3.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: What is an Insect?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="16">
+            <li>A mosquito has two antennae.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class2/c3.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: What is an Insect?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="17">
+            <li>Is it an insect?</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class2/c3.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: What is an Insect?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="18">
+            <li>Guide children to know that a mosquito is an insect, as all insects have three main body parts, six legs and
+                two antennae.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class2/c3.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: What is an Insect?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="19">
+            <li>Let the children observe a housefly. Ask children: What animal is this? How many main body parts does it
+                have? How many legs does it have? How many antennae does it have? Is it an insect?</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class2/c4.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: What is an Insect?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="20">
+            <li>A housefly is an insect. Like all insects, it has three main body parts, six legs and two antennae.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class2/c4.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: What is an Insect?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="21">
+            <li>Let the children observe a bee. Ask children: What animal is this? How many main body parts does it have?
+                How many legs does it have? How many antennae does it have? Is it an insect?</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class2/c5.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: What is an Insect?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="22">
+            <li>A bee is an insect. Like all insects, it has three main body parts, six legs and two antennae.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class2/c5.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: What is an Insect?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="23">
+            <li>Let the children observe a wasp. Ask children: What animal is this? How many main body parts does it have?
+                How many legs does it have? How many antennae does it have? Is it an insect?</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class2/c6.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: What is an Insect?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="24">
+            <li>A wasp is an insect. Like all insects, it has three main body parts, six legs and two antennae.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class2/c6.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: What is an Insect?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="25">
+            <li>Let the children observe a butterfly. Ask children: What animal is this? How many main body parts does it
+                have? How many legs does it have? How many antennae does it have? Is it an insect?</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class2/c7.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: What is an Insect?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="26">
+            <li>A butterfly is an insect. Like all insects, it has three main body parts, six legs and two antennae.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class2/c7.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: What is an Insect?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="26">
+            <li>A butterfly is an insect. Like all insects, it has three main body parts, six legs and two antennae.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class2/c8.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: What is an Insect?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="27">
+            <li>Let the children observe a dragonfly. Ask children: What animal is this? How many main body parts does it
+                have? How many legs does it have? How many antennae does it have? Is it an insect?</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class2/c9.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: What is an Insect?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="28">
+            <li>A dragonfly is an insect. Like all insects, it has three main body parts, six legs and two antennae.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class2/c9.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: What is an Insect?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="29">
+            <li>Let the children observe a cockroach. Ask children: What animal is this? How many main body parts does it
+                have? How many legs does it have? How many antennae does it have? Is it an insect?</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class2/c10.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: What is an Insect?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="30">
+            <li>A cockroach is an insect. Like all insects, it has three main body parts, six legs and two antennae.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class2/c10.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: What is an Insect?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="31">
+            <li>Let the children observe a beetle. Ask children: What animal is this? How many main body parts does it have?
+                How many legs does it have? How many antennae does it have? Is it an insect?</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class2/c11.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: What is an Insect?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="32">
+            <li>A beetle is an insect. Like all insects, it has three main body parts, six legs and two antennae.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class2/c11.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: What is an Insect?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="32">
+            <li>Beetles are insects. Like all insects, it has three main body parts, six legs and two antennae.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class2/c12.png') }}" class="h-[20vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: What is an Insect?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="33">
+            <li>Let the children observe a ladybird. Ask children: What animal is this? How many main body parts does it
+                have? How many legs does it have? How many antennae does it have? Is it an insect?</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class2/c13.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: What is an Insect?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="34">
+            <li>A ladybird is an insect. Like all insects, it has three main body parts, six legs and two antennae.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class2/c13.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: What is an Insect?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="35">
+            <li>Let the children observe an aphid. Ask children: What animal is this? How many main body parts does it have?
+                How many legs does it have? How many antennae does it have? Is it an insect?</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class2/c14.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: What is an Insect?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="36">
+            <li>An aphid is an insect. Like all insects, it has three main body parts, six legs and two antennae.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class2/c14.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: What is an Insect?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="37">
+            <li>Let the children observe a praying mantis. Ask children: What animal is this? How many main body parts does
+                it have? How many legs does it have? How many antennae does it have? Is it an insect?</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class2/c15.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: What is an Insect?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="38">
+            <li>A praying mantis is an insect. Like all insects, it has three main body parts, six legs and two antennae.
+            </li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class2/c15.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: What is an Insect?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="39">
+            <li>Click to play the video. Have the children observe the powerful front legs of a praying mantis to better
+                understand how a praying mantis uses them to catch prey with lightning-fast movements.</li>
         </ol>
         <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-            <source src="{{ asset('assets/images/micet/n2/habit1/class2/v1.mp4') }}" type="video/mp4">
+            <source src="{{ asset('assets/images/micet/k1/insects/class2/v1.mp4') }}" type="video/mp4">
         </video>
     </div>
 
 
-    {{-- panel 4 --}}
+    {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: Candy’s Fish</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: What is an Insect?</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Display the drawing of a fish. Have the children know that they are going to
-                learn to draw a fish.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="40">
+            <li>Let the children observe a grasshopper. Ask children: What animal is this? How many main body parts does it
+                have? How many legs does it have? How many antennae does it have? Is it an insect?</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class2/c2.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/k1/insects/class2/c16.png') }}" class="w-[25vw]" />
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: Candy’s Fish</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: What is an Insect?</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Guide the children to complete the corresponding activity 2 in the Thematic
-                Activity Book. Have the children refer to the example provided to draw a fish.
-                Demonstrate how to draw a fish on the whiteboard, then walk around to assist
-                children in drawing. Encourage the children to draw in the fish scales, fins, etc
-                and colour it with their favourite colours.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="41">
+            <li>A grasshopper is an insect. Like all insects, it has three main body parts, six legs and two antennae.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class2/c3.png') }}" class="w-[40vw]" />
+        <img src="{{ asset('assets/images/micet/k1/insects/class2/c16.png') }}" class="w-[25vw]" />
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: Candy’s Fish</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: What is an Insect?</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="5">
-            <li>Display the picture. Have the children explain the differences between the
-                two fish. (one big and one small)</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="42">
+            <li>Let the children observe the long hind legs of the grasshopper. Ask children: What does the grasshopper use
+                its long hind legs for?</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class2/c4.png') }}" class="h-[20vw]" />
+        <img src="{{ asset('assets/images/micet/k1/insects/class2/c16.png') }}" class="w-[25vw]" />
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: Candy’s Fish</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: What is an Insect?</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="6">
-            <li>Guide the children to complete the corresponding activity 2 in the Thematic
-                Activity Book. Have the children count the number of fishes that Candy
-                caught and differentiate the number of big and small fishes.</li>
-            <li>Have the children state if there are more big fishes or more small fishes.</li>
-            <li>Have the children colour the big fishes.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="43">
+            <li>Click to play the video. Have children observe and understand how the grasshopper can jump far with its
+                powerful long hind legs.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class2/c5.png') }}" class="w-[25vw]" />
+        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/k1/insects/class2/v2.mp4') }}" type="video/mp4">
+        </video>
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: What is an Insect?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="44">
+            <li>Let the children observe a stick insect. Ask children: What animal is this? How many main body parts does it
+                have? How many legs does it have? How many antennae does it have? Is it an insect?</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class2/c17.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: What is an Insect?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="45">
+            <li>A stick insect is an insect. Like all insects, it has three main body parts, six legs and two antennae.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class2/c17.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: What is an Insect?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="46">
+            <li>Ask the children: Does the stick insect look like a twig. What is the advantage of this? Explain that this
+                is a way in which the stick insect protects itself from its enemies, as it is hard to spot it in its
+                surroundings.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class2/c18.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: What is an Insect?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="47">
+            <li>Let the children observe a spider. Ask children: What animal is this? How many main body parts does it have?
+                How many legs does it have? How many antennae does it have? Is it an insect?</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class2/c19.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: What is an Insect?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="48">
+            <li>Unlike all insects, a spider has only two main body parts.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class2/c19.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: What is an Insect?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="49">
+            <li>Unlike all insects, a spider has eight legs and two pedipalps.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class2/c19.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: What is an Insect?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="50">
+            <li>Therefore, spiders are not insects.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class2/c19.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: What is an Insect?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="51">
+            <li>Let the children observe a centipede. Ask children: What animal is this? How many main body parts does it
+                have? How many legs does it have? How many antennae does it have? Is it an insect?</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class2/c20.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: What is an Insect?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="52">
+            <li>Centipedes are not insects as they have more than six legs.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class2/c20.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: What is an Insect?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="51">
+            <li>Guide children to complete the corresponding activities in the Thematic
+                Activity Book.</li>
+        </ol>
     </div>
 
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col items-center h-full">
-        <h1 class="panel-title stroke">Classroom Activity 2: Candy’s Fish</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: What is an Insect?</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have the children display their works and explain the
-                    characteristics of their fish.</li>
+                <li>
+                    Conclude the lesson and help the children identify the main characteristics of insects.
+                    <ul class="pl-[1vw]">
+                        <li>-All insects have three main body parts: head, thorax, and abdomen.</li>
+                        <li>-All insects have six legs.</li>
+                        <li>-All insects have two antennae on their head.</li>
+                    </ul>
+                </li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to differentiate sizes and count correctly.</li>
-                <li>Able to imitate the movements of a fish swimming.</li>
-                <li>Able to draw a fish by referring to the example.</li>
+                <li>Able to recognise, name and state the characteristics of some insects.</li>
+                <li>Able to describe the common characteristics of insects.</li>
+                <li>Able to name the key body parts of insects.</li>
             </ul>
         </div>
     </div>
@@ -181,13 +750,14 @@
 
     {{-- panel 37 --}}
     <div class="phonics-panel flex flex-col items-center h-full">
-        <h1 class="panel-title stroke">Classroom Activity 2: Candy’s Fish</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: What is an Insect?</h1>
 
         <div class="text-start flex flex-col">
             <h3 class="ptitle">Extension</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Encourage the children to draw different types of fishes.</li>
+                <li>Have the children label the key body parts of different insects ( head, thorax, abdomen, legs and
+                    antennae).</li>
             </ul>
         </div>
     </div>
@@ -245,8 +815,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/habit1/index') }}";
-            const doneURL = "{{ url('/micet/n2/habit1/index') }}";
+            const returnURL = "{{ url('/micet/k1/insects/index') }}";
+            const doneURL = "{{ url('/micet/k1/insects/index') }}";
 
             // Track current position
             let currentSlide = 0;

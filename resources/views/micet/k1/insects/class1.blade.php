@@ -48,7 +48,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 1: Candy Cat’s Fishing Adventure</h1>
+        <h1 class="panel-title stroke">Classroom Activity 1: A Happy Yellow Duckling</h1>
         <div class="flex items-center">
             <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
             <img src="{{ asset('assets/images/micet/n1/animals/class1/b1.png') }}" class="h-[8vw]" />
@@ -58,15 +58,18 @@
         <h3 class="title">Objectives:</h3>
 
         <ul class="list-disc panel-ul w-[40vw]">
-            <li>To understand the importance of putting effort in the things we do.</li>
-            <li>To enhance expression and inferential skills.</li>
+            <li>Learn more about insects</li>
+            <li>Differentiate between useful and harmful insects</li>
+            <li>Compare things by their notable characteristics</li>
+            <li>Cultivate a helping attitude</li>
+            <li>Expand basic vocabulary and improve verbal expression</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Candy Cat’s Fishing Adventure</h1>
+        <h1 class="panel-title stroke">Classroom Activity 1: A Happy Yellow Duckling</h1>
 
         <div>
             <h3 class="title">Preparations</h3>
@@ -80,7 +83,7 @@
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Candy Cat’s Fishing Adventure</h1>
+        <h1 class="panel-title stroke">Classroom Activity 1: A Happy Yellow Duckling</h1>
 
         <div>
             <h3 class="title">Lesson Development</h3>
@@ -95,23 +98,24 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Candy Cat’s Fishing Adventure</h1>
+        <h1 class="panel-title stroke">A Happy Yellow Duckling</h1>
 
-        <h3 class="p-title">Theme: Good Habits 1</h3>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class1/c1.png') }}" class="w-[30vw]" />
+        <h3 class="p-title">Theme: The Word Of Insects</h3>
+        <img src="{{ asset('assets/images/micet/k1/insects/class1/c1.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">It is a sunny day, Mummy Cat decides to take Candy Cat to the river to <br>
-            teach herto fish. Candy is happy that she is going to learn a new skill.</h3>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class1/c2.png') }}" class="w-[25vw]" />
+        <h3 class="p-title">Yellow Duckling likes to help people. One day, Yellow Duckling decides <br>
+            to visit sick Grandma Bear and bring her a basket of duck eggs. <br>
+            She invites Candy to join her.</h3>
+        <img src="{{ asset('assets/images/micet/k1/insects/class1/c2.png') }}" class="w-[30vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                What equipment is needed for fishing?<br>
-                <span class="text-[#f7b94a]">Guide the children in identifying the equipment needed for fishing.</span>
+                Have you visited any sick people before? Were they happy to see you?<br>
+                <span class="text-[#f7b94a]">Introduce the concept of helping others.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -120,15 +124,14 @@
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">On the way, Candy meets Robbie Rooster and Rosie Rabbit. Candy <br>
-            invites them to go fishing but they say they have to finish their work first.</h3>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class1/c3.png') }}" class="w-[25vw]" />
+        <h3 class="p-title">On the way, they see many beautiful butterflies in the vegetable plot. <br>
+            The butterflies are busy pollinating the flowers.</h3>
+        <img src="{{ asset('assets/images/micet/k1/insects/class1/c3.png') }}" class="w-[30vw]" />
 
         <div class="flex items-center justify-around w-full">
             <h3 class="p-title text-left">
-                Would you go fishing with Candy if she invites you?<br>
-                <span class="text-[#f7b94a]">Encourage the children to decide and explain the reasons for their
-                    choice.</span>
+                Why do butterflies pollinate flowers? Which other insects pollinate ?<br>
+                <span class="text-[#f7b94a]">Help children to be aware of pollination and the ways of pollination.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -137,17 +140,15 @@
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">At the river, Candy leamns to fish from her mother. Not long after, Mary <br>
-            Mantis comes by. Candy puts down the fishing rod and dances with <br>
-            Mary Mantis.</h3>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class1/c4.png') }}" class="w-[25vw]" />
+        <h3 class="p-title">Soon, they come to a paddy field. They see grasshoppers eating the <br>
+            grains. Luckily, the rooster is quick in catching the greedy pests.</h3>
+        <img src="{{ asset('assets/images/micet/k1/insects/class1/c4.png') }}" class="w-[30vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                Do you think what Candy did is right?<br>
-                <span class="text-[#f7b94a]">Guide the children in understanding that they will not do things well if they
-                    <br>
-                    do it half-heartedly.</span>
+                What are pests? Are bees pests or are they useful insects?<br>
+                <span class="text-[#f7b94a]">Help children to understand the concept of "useful inse cts" and
+                    "pests".</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -156,14 +157,18 @@
 
     {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Just as Candy is about to sit down after dancing, a dragonfly flies <br>
-            around it. Candy then plays with the dragonfly.</h3>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class1/c5.png') }}" class="w-[25vw]" />
+        <h3 class="p-title">As they pass by the cotton field, they see many aphids eating the <br>
+            cotton. However, the seven-spot ladybugs scurry over in time and eat <br>
+            the aphids.</h3>
+        <img src="{{ asset('assets/images/micet/k1/insects/class1/c5.png') }}" class="w-[27vw]" />
 
         <div class="flex items-center justify-around w-full">
             <h3 class="p-title text-left">
-                What is special about dragonflies?<br>
-                <span class="text-[#f7b94a]">Explain the characteristics of dragonflies to the children.</span>
+                In what way is the seven-spot ladybug special? Why is it called a <br>
+                seven-spot ladybug?
+                <br>
+                <span class="text-[#f7b94a]">Help children to observe the number of dots on seven-spot ladybug's
+                    back.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -172,15 +177,17 @@
 
     {{-- panel 9 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Mummy Cat has already caught two fishes when Candy returns. Candy <br>
-            wants to catch a big fish like her mother.</h3>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class1/c6.png') }}" class="w-[30vw]" />
+        <h3 class="p-title">When they reach Grandpa Goat's house, they find out that the <br>
+            cabbages are being attacked by the aphids. Yellow Duckling <br>
+            immediately thinks of asking the seven-spot ladybugs for help!</h3>
+        <img src="{{ asset('assets/images/micet/k1/insects/class1/c6.png') }}" class="w-[25vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                Why could Mummy Cat catch two fishes while Candy had none?<br>
-                <span class="text-[#f7b94a]">Explain and teach the children the importance of putting effort
-                    in the things we do.</span>
+                Why did Yellow Duckling ask seven-spot ladybug for help? Have you <br>
+                helped others?<br>
+                <span class="text-[#f7b94a]">Help children to reflect whether they are helpful . Encourage them to <br>
+                    develop a helpful attitude.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -189,16 +196,16 @@
 
     {{-- panel 10 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Just then, a beautiful butterfly flies by. Candy puts down the fishing rod <br>
-            again and starts to chase the butterfly. Candy accidentally falls into the <br>
-            river while running.</h3>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class1/c7.png') }}" class="w-[25vw]" />
+        <h3 class="p-title">Yellow Duckling and Candy then see a praying mantis beside the river. <br>
+            It seems very capable as it is able to catch the houseflies and <br>
+            mosquitoes that are flying rather fast.</h3>
+        <img src="{{ asset('assets/images/micet/k1/insects/class1/c7.png') }}" class="w-[30vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                Why did Candy fall into the river?<br>
-                <span class="text-[#f7b94a]">Explain to the children the dangers of not been observant
-                    when running.</span>
+                Have you seen a praying mantis before? Are praying mantis useful <br>
+                insects or pests?<br>
+                <span class="text-[#f7b94a]">Encourage children to deduce and explain their views.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -207,15 +214,16 @@
 
     {{-- panel 11 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Fortunately, Mama Duck rushes over in time and saves Candy. Mummy <br>
-            Cat tells Candy that she has to leam to concentrate and do one thing at <br>
-            a time and not do things half-heartedly.</h3>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class1/c8.png') }}" class="w-[30vw]" />
+        <h3 class="p-title">As they are passing by the rabbit's house, they hear rabbit crying. The <br>
+            detestable ten-spot ladybugs are eating the carrots. Yellow Duckling <br>
+            thinks of a way to get rid of the pests. The rabbit is very grateful.</h3>
+        <img src="{{ asset('assets/images/micet/k1/insects/class1/c8.png') }}" class="w-[30vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                Do you think Candy will concentrate on fishing on the next trip?<br>
-                <span class="text-[#f7b94a]">Guide the children in predicting the ending of the story.</span>
+                What is difference between the ten-spot ladybug and the seven-spot <br>
+                ladybug? Do you know of any other ladybug species?<br>
+                <span class="text-[#f7b94a]">Help children to be aware of the different types of ladybugs.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -224,16 +232,16 @@
 
     {{-- panel 12 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Candy decides to concentrate on catching a fish. She does not play <br>
-            with the dragonfly or butterfly when they fly by again. Finally, Candy <br>
-            manages to catch a big fish!</h3>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class1/c9.png') }}" class="w-[25vw]" />
+        <h3 class="p-title">Yellow Duckling and Candy finally reach Grandma Bear's home. They <br>
+            give Grandma Bear the gifts and tell her about their adventure. <br>
+            Grandma Bear praises them.</h3>
+        <img src="{{ asset('assets/images/micet/k1/insects/class1/c9.png') }}" class="w-[25vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                Why do you think Candy is able to catch a fish in the end?<br>
-                <span class="text-[#f7b94a]">Guide the children in understanding that they have concentrate and <br>
-                    put in effort in orderto leam a skill.</span>
+                What insects did Yellow Duckling see on her way? Which are useful <br>
+                insects? Which are pests?<br>
+                <span class="text-[#f7b94a]">Help children to re call the events in the story.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -242,21 +250,20 @@
 
     {{-- panel 13 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Candy Cat’s Fishing Adventure</h1>
+        <h1 class="panel-title stroke">Classroom Activity 1: A Happy Yellow Duckling</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have the children explain why Candy is able to catch a fish
-                    in the end.</li>
+                <li>Let children talk about the insects they know and say if the insects are useful insects or pests.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to determine if Candy's behaviour is correct.</li>
-                <li>Able to explain why Candy is able to catch a fish in the end.</li>
+                <li>Able to name and identify the characteristics of some insects in the story.</li>
+                <li>Able to distinguish between useful insects and pests.</li>
             </ul>
         </div>
     </div>
@@ -316,8 +323,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/habit1/index') }}";
-            const doneURL = "{{ url('/micet/n2/habit1/index') }}";
+            const returnURL = "{{ url('/micet/k1/insects/index') }}";
+            const doneURL = "{{ url('/micet/k1/insects/index') }}";
 
             // Track current position
             let currentSlide = 0;
