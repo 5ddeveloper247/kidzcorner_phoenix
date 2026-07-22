@@ -44,9 +44,7 @@
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[50vw]">
-                <li>Teacher to show the electronic word cards (next slide onwards). First show the picture and ask children
-                    what it is. Then show the word and help children to recognise and pronounce the word. Tell children that
-                    these words appear in Activity 1's story. Let children try to identify them during story telling.</li>
+                <li>Teacher to show the electronic word cards (next slide onwards). First show the picture and ask children what it is. Then show the word and help children to recognise and pronounce the word. Tell children that these words appear in Activity 1's story. Let children try to identify them during story telling.</li>
             </ol>
         </div>
     </div>
@@ -54,73 +52,73 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex justify-center h-full items-center">
-        <img src="{{ asset('assets/images/micet/k1/clothes/cards/c1.png') }}" class="h-[25vw]" />
+        <img src="{{ asset('assets/images/micet/k1/insects/cards/c1.png') }}" class="h-[25vw]" />
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex justify-center h-full items-center">
-        <h1 class="cardtitle">T-shirt</h1>
+        <h1 class="cardtitle">useful insect</h1>
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex justify-center h-full items-center">
-        <img src="{{ asset('assets/images/micet/k1/clothes/cards/c2.png') }}" class="h-[25vw]" />
+        <img src="{{ asset('assets/images/micet/k1/insects/cards/c2.png') }}" class="h-[25vw]" />
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex justify-center h-full items-center">
-        <h1 class="cardtitle">Shirt</h1>
+        <h1 class="cardtitle">pest</h1>
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex justify-center h-full items-center">
-        <img src="{{ asset('assets/images/micet/k1/clothes/cards/c3.png') }}" class="h-[25vw]" />
+        <img src="{{ asset('assets/images/micet/k1/insects/cards/c3.png') }}" class="h-[25vw]" />
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex justify-center h-full items-center">
-        <h1 class="cardtitle">shorts</h1>
+        <h1 class="cardtitle">ladybug</h1>
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex justify-center h-full items-center">
-        <img src="{{ asset('assets/images/micet/k1/clothes/cards/c4.png') }}" class="h-[25vw]" />
+        <img src="{{ asset('assets/images/micet/k1/insects/cards/c4.png') }}" class="h-[25vw]" />
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex justify-center h-full items-center">
-        <h1 class="cardtitle">short skirt</h1>
+        <h1 class="cardtitle">aphid</h1>
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex justify-center h-full items-center">
-        <img src="{{ asset('assets/images/micet/k1/clothes/cards/c5.png') }}" class="h-[25vw]" />
+        <img src="{{ asset('assets/images/micet/k1/insects/cards/c5.png') }}" class="h-[25vw]" />
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex justify-center h-full items-center">
-        <h1 class="cardtitle">long skirt</h1>
+        <h1 class="cardtitle">butterfly</h1>
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex justify-center h-full items-center">
-        <img src="{{ asset('assets/images/micet/k1/clothes/cards/c6.png') }}" class="h-[25vw]" />
+        <img src="{{ asset('assets/images/micet/k1/insects/cards/c6.png') }}" class="h-[25vw]" />
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex justify-center h-full items-center">
-        <h1 class="cardtitle">pyjama</h1>
+        <h1 class="cardtitle">grasshoper</h1>
     </div>
 
 
@@ -131,7 +129,7 @@
             <li>Click on the picture below to open the Software Magnetic Board. Guide the
                 children to match the words with the pictures.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/k1/clothes/cards/c7.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/k1/insects/cards/c7.png') }}" class="w-[30vw]" />
     </div>
 
 
@@ -189,8 +187,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/k1/clothes/index') }}";
-            const doneURL = "{{ url('/micet/k1/clothes/index') }}";
+            const returnURL = "{{ url('/micet/k1/insects/index') }}";
+            const doneURL = "{{ url('/micet/k1/insects/index') }}";
 
             // Track current position
             let currentSlide = 0;

@@ -38,7 +38,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Get Ready for Fishing</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Useful Insects</h1>
         <div class="flex ">
             <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
             <img src="{{ asset('assets/images/micet/n1/mybody/class2/c1.png') }}" class="h-[12vw]" />
@@ -48,121 +48,213 @@
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul">
-            <li>To know the uses of a fishing rod and a fishing basket.</li>
-            <li>To make a fishing rod and a fishing basket.</li>
-            <li>To develop fine motor skills through practising tying knots on strings.</li>
+            <li>Identify some common useful insects</li>
+            <li>Understand that useful insects are helpful to us and need to be protected</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Get Ready for Fishing</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Useful Insects</h1>
 
         <div>
             <h3 class="ptitle">Preparations</h3>
 
             <ul class="list-disc panel-ul">
                 <li>Thematic Activity Book</li>
-                <li>Letter to parents (next slide).</li>
-                <li>A fishing rod and a fishing basket made beforehand.</li>
-                <li>One 20- 30 cm coloured yarn or thin string per child.</li>
-                <li>One small magnet per child.</li>
-                <li>Crayons.</li>
             </ul>
         </div>
     </div>
 
 
-    {{-- panel 2 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Get Ready for Fishing</h1>
-
-        <img src="{{ asset('assets/images/micet/n2/habit1/class6/c1.png') }}" class="w-[40vw]" />
-    </div>
-
-
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Get Ready for Fishing</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Useful Insects</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[50vw]">
-                <li>Display the prior made fishing rod and fishing basket. Have the children state
-                    their names and uses. Guide the children in explaining that these are the
-                    equipment needed for fishing.</li>
-                <li>Inform the children that they will learn to make fishing rods and fishing baskets.
-                    Have the children decide by voting which craft to make first, the fishing rods
-                    or fishing baskets. Guide the children in making the items.</li>
+                <li>Ask children: What insect is this? Is it a useful insect or a pest? Guide children to know bees are
+                    useful as they help to pollinate plants due to which the plants can bear fruits. Bees also make honey.
+                </li>
             </ol>
         </div>
+        <img src="{{ asset('assets/images/micet/k1/insects/class6/c1.png') }}" class="w-[25vw]" />
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Get Ready for Fishing</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Useful Insects</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="3">
-            <li>Have the children look at the fishing rod and name the parts that is needed to
-                make it (rod, fishing line and hook). Have the children take out their own rod
-                (wooden or plastic) and tie the fishing line (a string) onto one end, then tie the
-                hook (small magnet) on the other end of the line. Assist the children in tying
-                when necessary.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="2">
+            <li>Explain that bees are very hardworking insects. They always fly around to extract nectar from flowers. When
+                bees visit flowers of a plant, pollen gets stuck on their legs and body. When the bees fly to flowers of
+                other plants, they move the pollen along, depositing it on the flowers. They thus pollinate the flowers and
+                enable the flowers to become fruits. Without pollination, plants cannot bear fruits and we will not be able
+                to eat delicious fruits.</li>
         </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class6/c2.png') }}" class="h-[12vw]" />
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Get Ready for Fishing</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Useful Insects</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="3">
+            <li>Explain that bees fly around and extract nectar from flowers. When they come back to the beehive they use
+                this nectar to make honey. Bees build honeycombs to store their honey and we get the honey from the
+                honeycombs.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class6/c3.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 6: Useful Insects</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="4">
-            <li>Gather the boxes that the children brought. Guide the children in naming the
-                shapes of the boxes.</li>
-            <li>Have the children decorate their baskets by drawing beautiful patterns.</li>
+            <li>Ask children : What insect is this? Is it a useful insect or a pest? Guide children to know butterflies are
+                useful insects as they help to pollinate plants.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class6/c4.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 6: Useful Insects</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="5">
+            <li>Click to play the video. Let children observe how butterflies pollinate plants ( they fly around and move
+                pollen from flower to flower, thus pollinating the plants and enabling the plants to bear fruits that we can
+                eat).</li>
+        </ol>
+        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/k1/insects/class6/v1.mp4') }}" type="video/mp4">
+        </video>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 6: Useful Insects</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="6">
+            <li>Ask children : What insect is this? Is it a useful insect or a pest?</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class6/c5.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 6: Useful Insects</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="7">
+            <li>Guide children to know that praying mantis are useful insects as they hunt and eat pests such as flies and
+                mosquitoes.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class6/c6.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 6: Useful Insects</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="8">
+            <li>Ask children : What insect is this? Is it a useful insect or a pest? Guide children to know that most
+                ladybirds (also commonly known as ladybugs) are useful insects as they feed largely on pests such as aphids
+                that destroy crops and fruit trees.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class6/c7.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 6: Useful Insects</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="9">
+            <li>Have children recall the story of "A Happy Yellow Duckling" and say which plants were helped by seven-spot
+                ladybugs to get rid of the aphids.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class6/c8.png') }}" class="h-[20vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 6: Useful Insects</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="10">
+            <li>Inform children that seven-spot ladybugs are excellent gardeners as they hunt and eat pests such as aphids
+                and fruit flies that destroy the crops and fruit trees .</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class6/c9.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 6: Useful Insects</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="11">
+            <li>Ask children to name other useful insects that they know. Let them talk about how these insects are useful
+                to us.</li>
         </ol>
     </div>
 
 
     {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col h-full items-center justify-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Get Ready for Fishing</h1>
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 6: Useful Insects</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="6">
-            <li>Guide the children to complete the corresponding activity in the Thematic
-                Activity Book. Have the children colour the fish, cut it out and keep it for the
-                next classroom activity "Let's go fishing".</li>
-            <img src="{{ asset('assets/images/micet/n2/habit1/class6/c2.png') }}" class="w-[30vw]" />
+        <ol class="list-decimal panel-ul w-[50vw]" start="12">
+            <li>Ask children to express how the useful insects can be protected and how to enhance their use to us. Inform
+                children that learning to recognise useful insects, large-scale breeding of useful insects, and placing
+                useful insects onto pest infected plants to destroy pests are some effective ways to protect and enhance
+                their usefulness.</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 6: Useful Insects</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="13">
+            <li>Guide children to complete the corresponding activities in the Thematic
+                Activity Book.</li>
         </ol>
     </div>
 
 
     {{-- panel 28 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Get Ready for Fishing</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Useful Insects</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have the children display their fishing rods, fishing baskets
-                    and fishes. Encourage the children to appreciate each
-                    others' work.</li>
+                <li>Let children name some useful insects and talk about how they are useful to us. Let them share ways to
+                    protect these insects.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to state the names and uses of a fishing rod and a fishing basket.</li>
-                <li>Able to make a fishing rod and a fishing basket.</li>
+                <li>Able to name some common useful insects and talk about how they are useful to us.</li>
+                <li>Able to discuss ways to protect the useful insects.</li>
             </ul>
         </div>
     </div>
-
-
 
 
 
@@ -218,8 +310,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/habit1/index') }}";
-            const doneURL = "{{ url('/micet/n2/habit1/index') }}";
+            const returnURL = "{{ url('/micet/k1/insects/index') }}";
+            const doneURL = "{{ url('/micet/k1/insects/index') }}";
 
             // Track current position
             let currentSlide = 0;

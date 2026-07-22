@@ -38,32 +38,30 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: Let’s Make a Headgear</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Ants Marching Rhyme</h1>
         <img src="{{ asset('assets/images/micet/n1/mybody/c8.1.png') }}" class="h-[8vw]" />
 
         <h3 class="ptitle">Objectives:</h3>
 
-        <ul class="list-disc panel-ul w-[45vw]">
-            <li>To make a story character headgear through colouring,
-                cutting and pasting.</li>
-            <li>To develop fine motor skills.</li>
+        <ul class="list-disc panel-ul">
+            <li>Learn to differentiate left and right</li>
+            <li>Learn to recite a rhyme and march to the rhythm</li>
+            <li>Develop cooperative skills</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: Let’s Make a Headgear</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Ants Marching Rhyme</h1>
 
         <div>
             <h3 class="ptitle">Preparations</h3>
 
             <ul class="list-disc panel-ul">
                 <li>Thematic Activity Book</li>
-                <li>Crayons and glue.</li>
-                <li>Strips of cardboard (3 x 30 cm) /vanguard sheet (one per
-                    child).</li>
-                <li>One headgear (made prior to this activity).</li>
+                <li>Prepare before hand with the children some ants' headgears with antennae</li>
+                <li>Make arrangement beforehand to carry out this activity in an open space</li>
             </ul>
         </div>
     </div>
@@ -71,20 +69,18 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: Let’s Make a Headgear</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Ants Marching Rhyme</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[45vw]">
-                <li>The teacher wears the headgear which was made prior to this activity. Have
-                    the children explain which story character this headgear represents, what the
-                    character did in the story and what is special about it. Have the children
-                    name the other characters in the story (Candy Cat, Mummy Cat, Mama Duck,
-                    Mary Mantis, butterfly and dragonfly), their characteristics, which is their
-                    favourite character and the reasons.</li>
-                <li>Have the children know that they will select their favourite character in the
-                    story to make a headgear.</li>
+                <li>Revise what children have learnt in Activity 2 ( the common characteristics of insects and key body
+                    parts of an insect).</li>
+                <li>Organise the children in groups of three and each child in the group to act as one part of an ant: head,
+                    thorax and abdomen. Let the child acting as the "head" wear the ant's headgear with the antennae and
+                    stand in front. Let the second and third child queue behind the first child and place their hands on the
+                    shoulders of the child in front of them.</li>
             </ol>
         </div>
     </div>
@@ -92,59 +88,119 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: Let’s Make a Headgear</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Ants Marching Rhyme</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Have the children choose their favourite story character in the Thematic
-                Activity Book activity 8. Organise the children into groups of six, each
-                member of the group selects one of the 6 characters. If there is more than one
-                child who selects the same character in a group, have them resolve the
-                conflict through negotiation.</li>
+            <li>Inform children that an ant has six legs and its left and right legs are synchronized while moving, just
+                like a marching action.</li>
+            <li>Let the children stretch their left legs, then their right legs when given the verbal cue. Repeat for a few
+                times to ensure that the children are able to differentiate left from right.</li>
         </ol>
 
-        <img src="{{ asset('assets/images/micet/n2/habit1/class8/c1.png') }}" class="h-[15vw]" />
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 8: Let’s Make a Headgear</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Ants Marching Rhyme</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Have the children colour their characters and paste them onto the cardboard
-                strips. Then, have them form the strips into circles, adjust the two ends to fit
-                their heads and glue the ends together to complete the headgears. Teacher
-                assists the children in making the headgears when necessary.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="5">
+            <li>(For whole class) Give the command "left, right, left, right ... " and get each group to march at the same
+                spot. When the marching actions of the children are consistent, let the child acting as the head lead
+                his/her group to march forward. When children are familiar with the actions, change the pace of the command
+                (sometimes fast, sometimes slow) to add a fun element to the activity.</li>
+            <li>(For individual group) Let the children play in individual groups . The "abdomen" of each group will give
+                the command and "head" will lead the group to move forward. Remind the three children in each group to
+                exchange their positions, taking turns to be the head, thorax or the abdomen.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class8/c2.png') }}" class="w-[25vw]" />
     </div>
 
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 8: Ants Marching Rhyme</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="7">
+            <li>Teach children to recite the "Ants Marching Rhyme". After that let them recite the rhyme with rhythm and
+                march to the rhythm. Observe which group's coordination is the best.</li>
+        </ol>
+        <h4 class="text-white text-start text-[2vw]">
+            Walk to the left, walk to the left, <br>
+            The busy ants are working. <br>
+            Walk to the right, walk to the right, <br>
+            Know which way you are heading.
+        </h4>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 8: Ants Marching Rhyme</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="8">
+            <li>When children's actions and pace are consistent, modify the rhyme to increase the difficulty level of the
+                activity. For example: "left, right, left, left, right, lefl" or "left, left, right, left, left, right".
+            </li>
+        </ol>
+        <h4 class="text-white text-start text-[2vw]">
+            Walk _______, walk _______, <br>
+            The busy ants are working. <br>
+            Walk _______, walk _______, <br>
+            Know which way you are heading.
+        </h4>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col justify-start h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 8: Ants Marching Rhyme</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="8">
+            <li>Guide children to complete the corresponding activities in the Thematic
+                Activity Book.</li>
+        </ol>
+    </div>
 
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 8: Let’s Make a Headgear</h1>
+        <h1 class="panel-title stroke">Classroom Activity 8: Ants Marching Rhyme</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have the children wear and display their story character
-                    headgears.</li>
+                <li>Have the children talk about their thoughts and feelings about this activity.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
-            <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to name the characters and their characteristics in the
-                    story.</li>
-                <li>Able to make a story character headgear.</li>
+            <ul class="list-disc panel-ul w-[4F5vw]">
+                <li>Able to differentiate left from right.</li>
+                <li>Able to cooperate with friends to recite the rhyme and march to the rhythm.</li>
             </ul>
         </div>
     </div>
 
 
-   
+    {{-- panel 7 --}}
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
+        <h1 class="panel-title stroke">Classroom Activity 8: Ants Marching Rhyme</h1>
+
+        <div class="text-start flex flex-col">
+            <h3 class="ptitle">Extension</h3>
+
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Invite children to queue in two rows to play a game. Let all the children march at the same spot and
+                    when the marching actions are consistent, give commands to direct their actions. (For example: March two
+                    steps to the left, march three steps backwards, march four steps to the right, march one step forward.)
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+
 
 
 
@@ -199,8 +255,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/habit1/index') }}";
-            const doneURL = "{{ url('/micet/n2/habit1/index') }}";
+            const returnURL = "{{ url('/micet/k1/insects/index') }}";
+            const doneURL = "{{ url('/micet/k1/insects/index') }}";
 
             // Track current position
             let currentSlide = 0;

@@ -38,36 +38,31 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 7: Let’s Go Fishing</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: Spotted Ladybugs</h1>
         <img src="{{ asset('assets/images/micet/n1/mybody/class7/c1.png') }}" class="h-[8vw]" />
 
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul w-[45vw]">
-            <li>To understand the basic knowledge and process of fishing
-                and experience the fun in fishing.</li>
-            <li>To develop eye-hand coordination skills.</li>
-            <li>To understand the importance of putting in effort to learn
-                new things.</li>
+            <li>Classroom Activity 7: Spotted Ladybugs</li>
+            <li>Practise simple addition</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: Let’s Go Fishing</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: Spotted Ladybugs</h1>
 
         <div>
             <h3 class="ptitle">Preparations</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
                 <li>Thematic Activity Book</li>
-                <li>Fishing rods, fishing baskets and fishes from Activity 6.</li>
-                <li>Fasten a paper clip near the mouth of each fish.</li>
-                <li>Put a few big card boxes or hula hoops on the floor, or draw
-                    a few circles on the floor to form "fish ponds", place the
-                    fishes in different fish ponds.</li>
-                <li>Signs with fish pond names (e.g. Happy Fish Pond, etc).</li>
+                <li>Scissors</li>
+                <li>Print out a set of ladybug pictures for each child, as shown in lesson development</li>
+                <li>Colour pencils</li>
+                <li>Coloured blocks/or coloured manipulatives</li>
             </ul>
         </div>
     </div>
@@ -75,81 +70,80 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 7: Let’s Go Fishing</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: Spotted Ladybugs</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[50vw]">
-                <li>Ask the children if they have ever gone fishing. Have the children who have
-                    gone fishing share their experiences. Encourage the children to demonstrate
-                    using the fishing rods from Activity 6.</li>
-                <li>Have the children explain how to catch a fish and ask why Candy initially did
-                    not manage to catch any fish but at the end she did.</li>
+                <li>Let the children recall the story "A Happy Yellow Duckling" and say which two types of ladybugs were
+                    mentioned in the story. Ask them: Which type of ladybugs helped to destroy the aphids infesting the
+                    cotton plant? Which type of ladybugs ate the rabbit's carrots? Guide children to know that most types of
+                    ladybugs eat pests such as aphids and are considered as useful insects, while a few types of ladybugs
+                    eat plants and are considered as pests.</li>
+                <li>Let the children think and say how the seven-spot ladybug and the ten-spot ladybug got their names. Help
+                    the children understand that most ladybugs are named according to the number of spots on their hardened
+                    forewings, e.g. seven-spot ladybugs have seven spots on their forewings. </li>
             </ol>
         </div>
     </div>
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 7: Let’s Go Fishing</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: Spotted Ladybugs</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="3">
-            <li>Demonstrate how to fish: toss the fishing line into the pond and move the
-                fishing rod to pull the fishing line until one catches a fish (when a paper clip is
-                attached to the magnet).</li>
-            <li>Explain to the children that there are a few fish ponds available. Each fish
-                pond has a name. Read the names of the ponds. Have the children select a
-                pond and fish in groups using their fishing rods and baskets. Encourage the
-                children to organise themselves in groups. Remind them that there should not
-                be too many children in each group, as it will affect the number of fishes that
-                they will catch.</li>
+            <li>Distribute the pictures. Ask children to colour the set of pictures and cut out the ladybug cards along the
+                dotted lines. (Or use the Thematic Activity Book)</li>
+            <li>Invite children to play a game with the ten picture cards.</li>
         </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class7/c1.png') }}" class="h-[20vw]" />
     </div>
+
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 7: Let’s Go Fishing</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: Spotted Ladybugs</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="5">
-            <li>Remind the children to concentrate and be patient. Have the children place
-                any fish that they catch into their baskets.</li>
-            <li>Have the children count the number of fishes they have caught. Each group,
-                selects its best fisherman. This person will compete with the selected member
-                of the other groups to see who can catch the most fish.</li>
+            <li>Based on the math level of the children, call out a number (sum). Ask children to find two ladybug cards
+                with dots that add up to that number. Write all the number bonds for that number on the white board. For
+                example, number bonds for the number 8 are : 1+7=8, 2+6=8, 3+5=8, 4+4=8. If needed, stack blocks to explain
+                the concept of number bonds.</li>
         </ol>
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 7: Let’s Go Fishing</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: Spotted Ladybugs</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="7">
-            <li>Guide children to complete the corresponding activities in the Thematic
-                Activity Book.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="6">
+            <li>Distribute coloured blocks/manipulatives to repeat the game. (Note: Askchildren to stack blocks of two
+                different colours to form the number bonds for the given number. For example, number bonds for the number 8
+                are : 1+7=8, 2+6=8, 3+5=8, 4+4=8.)</li>
+            <li>Finally, ask children to read aloud the number bonds recorded on the whiteboard. For example, 1+7=8 will be
+                read as one plus seven equals eight.</li>
         </ol>
     </div>
 
 
     {{-- panel 12 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 7: Let’s Go Fishing</h1>
+        <h1 class="panel-title stroke">Classroom Activity 7: Spotted Ladybugs</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have the child who caught the most fish to share his/her
-                    knowledge and experiences on fishing.</li>
+                <li>Call out a number and let the children say the number bonds for that number using the cards/blocks.
+                    (They may also refer to the records on the whiteboard.)</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to participate actively in the fishing activity.</li>
-                <li>Able to concentrate when fishing.</li>
-                <li>Able to count the number of fishes caught.</li>
+                <li>Able to do simple addition to get all the number bonds for a number.</li>
             </ul>
         </div>
     </div>
@@ -210,8 +204,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/habit1/index') }}";
-            const doneURL = "{{ url('/micet/n2/habit1/index') }}";
+            const returnURL = "{{ url('/micet/k1/insects/index') }}";
+            const doneURL = "{{ url('/micet/k1/insects/index') }}";
 
             // Track current position
             let currentSlide = 0;

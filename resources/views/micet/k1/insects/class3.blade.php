@@ -62,7 +62,7 @@
         <div>
             <h3 class="ptitle mt-[5vw]">Preparations</h3>
 
-            <ul class="list-disc panel-ul w-[45vw]">
+            <ul class="list-disc panel-ul">
                 <li>Thematic Activity Book</li>
             </ul>
         </div>
@@ -79,7 +79,7 @@
                 <li>Ask the children: What insect is this?</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class3/c1.png') }}" class="h-[12vw]" />
+        <img src="{{ asset('assets/images/micet/k1/insects/class3/c1.png') }}" class="w-[25vw]" />
     </div>
 
 
@@ -87,22 +87,22 @@
     <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
         <h1 class="panel-title stroke">Classroom Activity 3: How Many Pair Of Wings?</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Display the first 2 fishing rods (exclude the shortest fishing rod). Have the
-                children state which rod is longer and which is shorter.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="2">
+            <li>Ask the children: What part of the bee are the arrows pointing at? What are they for? Guide children to say
+                the appropriate words "wings" and "fly".</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class3/c2.png') }}" class="h-[20vw]" />
+        <img src="{{ asset('assets/images/micet/k1/insects/class3/c1.png') }}" class="w-[25vw]" />
     </div>
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col space-y-[2vw] items-center h-full">
         <h1 class="panel-title stroke">Classroom Activity 3: How Many Pair Of Wings?</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Display the shorter two of the three fishing rods. Have the children state which
-                rod is longer and which is shorter.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="3">
+            <li>Ask children: How many wings does a bee have? Tell children that two makes a pair; a bee has two wings so a
+                bee has a pair of wings. Guide children in understanding the concept of a "pair" (1 pair = 2)</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class3/c2.png') }}" class="h-[20vw]" />
+        <img src="{{ asset('assets/images/micet/k1/insects/class3/c1.png') }}" class="w-[25vw]" />
 
     </div>
 
@@ -110,16 +110,22 @@
     <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
         <h1 class="panel-title stroke">Classroom Activity 3: How Many Pair Of Wings?</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="5">
-            <li>Display the three fishing rods. Have the children observe that when the middle
-                rod is compared with the first rod, it is shorter; but when it is compared with the
-                last rod, it is longer. Guide the children in understanding relativity of length,
-                that is, they can only tell whether an object is longer or shorter by comparison.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="4">
+            <li>Click on the video and have the children observe how a bee uses its pair of wings to fly.</li>
         </ol>
-        <div>
-            <img src="{{ asset('assets/images/micet/n2/habit1/class3/c3.png') }}" class="h-[6vw]" />
-            <img src="{{ asset('assets/images/micet/n2/habit1/class3/c2.png') }}" class="h-[11vw]" />
-        </div>
+        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/k1/insects/class3/v1.mp4') }}" type="video/mp4">
+        </video>
+    </div>
+
+    {{-- panel 7 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: How Many Pair Of Wings?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="5">
+            <li>Ask the children: What insect is this?</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class3/c2.png') }}" class="w-[25vw]" />
     </div>
 
     {{-- panel 7 --}}
@@ -127,35 +133,184 @@
         <h1 class="panel-title stroke">Classroom Activity 3: How Many Pair Of Wings?</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="6">
-            <li>Ask the children: "Which is the longest fishing rod?"; "Which is the shortest
-                fishing rod?". Guide the children in understanding the use of superlatives in
-                comparing more than two objects.</li>
+            <li>Ask the children: How many wings does a butterfly have?</li>
         </ol>
-        <div>
-            <img src="{{ asset('assets/images/micet/n2/habit1/class3/c3.png') }}" class="h-[6vw]" />
-            <img src="{{ asset('assets/images/micet/n2/habit1/class3/c2.png') }}" class="h-[11vw]" />
-        </div>
+        <img src="{{ asset('assets/images/micet/k1/insects/class3/c2.png') }}" class="w-[25vw]" />
     </div>
 
-    {{-- panel 8 --}}
-    <div class="phonics-panel flex flex-col items-center h-full">
+    {{-- panel 7 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
         <h1 class="panel-title stroke">Classroom Activity 3: How Many Pair Of Wings?</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="7">
-            <li>Click on the picture below to open the Software Magnetic Board. Randomly
-                select 2 of the 3 fishing rods and have the children state which rod is longer
-                and which rod is shorter. Have the children arrange the three rods in order of
-                their length, then have the children state which rod is the longest and which
-                rod is the shortest.</li>
+            <li>Ask the children: How many wings does a butterfly have?( four). How many pairs of wings are there if there
+                are four wings? Assist the children in understanding that a butterfly has four wings, so a butterfly has two
+                pairs of wings. Guide children in understanding the concept of "two pairs". (2 pairs = 4)</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class3/c4.png') }}" class="w-[20vw]" />
+        <img src="{{ asset('assets/images/micet/k1/insects/class3/c2.png') }}" class="w-[25vw]" />
     </div>
 
-    {{-- panel 8 --}}
-    <div class="phonics-panel flex flex-col items-center h-full">
+    {{-- panel 7 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
         <h1 class="panel-title stroke">Classroom Activity 3: How Many Pair Of Wings?</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="8">
+            <li>Ask the children: What insect is this?</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class3/c3.png') }}" class="w-[25vw]" />
+    </div>
+
+    {{-- panel 7 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: How Many Pair Of Wings?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="9">
+            <li>Ask the children: How many wings does an ant have?</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class3/c3.png') }}" class="w-[25vw]" />
+    </div>
+
+    {{-- panel 7 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: How Many Pair Of Wings?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="10">
+            <li>Guide the children to understand that ants have no wings.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class3/c3.png') }}" class="w-[25vw]" />
+    </div>
+
+    {{-- panel 7 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: How Many Pair Of Wings?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="11">
+            <li>Guide children to understand :
+                <ul class="list-disc">
+                    <li>Not all insects have wings.</li>
+                    <li>Different insects have different number of wings.</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+
+    {{-- panel 7 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: How Many Pair Of Wings?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="12">
+            <li>Ask the children: What insect is this?</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class3/c4.png') }}" class="w-[25vw]" />
+    </div>
+
+    {{-- panel 7 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: How Many Pair Of Wings?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="13">
+            <li>Ask the children: How many pairs of wings does a beetle have?</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class3/c4.png') }}" class="w-[25vw]" />
+    </div>
+
+    {{-- panel 7 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: How Many Pair Of Wings?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="14">
+            <li>Guide children to understand that most beetles have two pairs of wings:
+                <ul class="list-disc">
+                    <li>a pair of hardened forewings, known as elytra, which are not used for flight but used to protect its
+                        hind wings and abdomen.</li>
+                    <li>a pair of soft and delicate hind wings which are only visible during flight.</li>
+                </ul>
+            </li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class3/c5.png') }}" class="w-[20vw]" />
+    </div>
+
+    {{-- panel 7 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: How Many Pair Of Wings?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="15">
+            <li>Ask the children: What insect is this?</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class3/c6.png') }}" class="w-[25vw]" />
+    </div>
+
+    {{-- panel 7 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: How Many Pair Of Wings?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="16">
+            <li>Ask the children: How many pairs of wings does a ladybird ( also commonly referred to as ladybug) have?</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class3/c6.png') }}" class="w-[25vw]" />
+    </div>
+
+    {{-- panel 7 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: How Many Pair Of Wings?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="17">
+            <li>Guide children to understand that ladybirds are a type of beetle. They have
+                two pairs of wings:
+                <ul class="list-disc">
+                    <li> -a pair of hardened forewings, known as elytra, which are not used for
+                        flight but used to protect its hind wings and abdomen.</li>
+                    <li> -a pair of soft and delicate hind wings which are only visible during flight.</li>
+                </ul>
+            </li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class3/c7.png') }}" class="h-[15vw]" />
+    </div>
+
+    {{-- panel 7 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: How Many Pair Of Wings?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="18">
+            <li>Ask questions to let the children have a better understanding of the concept of "pairs".
+                <ul class="list-disc">
+                    <li>1 pair equals to how many wings?</li>
+                    <li>2 pairs equal to how many wings?</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+
+    {{-- panel 7 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: How Many Pair Of Wings?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="19">
+            <li>Ask the children: If there are three butterflies here, how many wings are there here? How many pairs of
+                wings are there here?</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class3/c8.png') }}" class="h-[15vw]" />
+    </div>
+
+    {{-- panel 7 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: How Many Pair Of Wings?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="20">
+            <li>Ask the children: If there are two butterflies and two bees here, how many wings are there here? How many
+                pairs of wings are there here?</li>
+        </ol>
+        <div>
+            <img src="{{ asset('assets/images/micet/k1/insects/class3/c9.png') }}" class="h-[10vw]" />
+            <img src="{{ asset('assets/images/micet/k1/insects/class3/c10.png') }}" class="h-[10vw]" />
+        </div>
+    </div>
+
+    {{-- panel 7 --}}
+    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: How Many Pair Of Wings?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="21">
             <li>Guide children to complete the corresponding activities in the Thematic
                 Activity Book.</li>
         </ol>
@@ -170,35 +325,20 @@
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have the children compare the lengths of objects found in
-                    the classroom.</li>
+                <li>Organise children into two groups and have a competition. Based on counting ability of the children, ask
+                    them questions similar to those in points 19 and 20 and encourage children to answer them.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to differentiate long and short.</li>
-                <li>Able to compare the lengths of two or three objects.</li>
-                <li>Able to arrange objects according to length.</li>
+                <li>Know that not all insects have wings.</li>
+                <li>Know that different insects have different number of wings.</li>
+                <li>Able to count in pairs.</li>
             </ul>
         </div>
     </div>
 
-
-    {{-- panel 19 --}}
-    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 3: How Many Pair Of Wings?</h1>
-
-        <div class="text-start flex flex-col">
-            <h3 class="ptitle">Extension</h3>
-
-            <ul class="list-decimal panel-ul w-[45vw]">
-                <li>Have the children compare the lengths of things found at
-                    home and then invite them to share their findings with their
-                    classmates.</li>
-            </ul>
-        </div>
-    </div>
 
 
 
@@ -255,8 +395,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/habit1/index') }}";
-            const doneURL = "{{ url('/micet/n2/habit1/index') }}";
+            const returnURL = "{{ url('/micet/k1/insects/index') }}";
+            const doneURL = "{{ url('/micet/k1/insects/index') }}";
 
             // Track current position
             let currentSlide = 0;

@@ -41,12 +41,12 @@
         <h1 class="panel-title stroke">Table 1 : Theme Goals</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]">
-            <li>Understand the importance of concentrating and putting effort into the things we do.</li>
-            <li>Know some methods that animals use to hunt for food.</li>
-            <li>Learn to compare the lengths of three objects.</li>
-            <li>Learn to compare the differences among animals.</li>
-            <li>Make a fishing rod, a fishing basket, and an animal headgear.</li>
-            <li>Learn the basics of fishing and experience the joy of fishing through role playing.</li>
+            <li>Learn about insects.</li>
+            <li>Differentiate between useful insects and pests.</li>
+            <li>Understand the body parts of insects.</li>
+            <li>Understand the concept of a "pair" and practise counting in pairs.</li>
+            <li>Cooperate with friends to design and create an insect.</li>
+            <li>Develop a helping attitude.</li>
         </ol>
     </div>
 
@@ -54,7 +54,7 @@
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Table 2 : MI Learning Web</h1>
-        <img src="{{ asset('assets/images/micet/n1/mybody/tables/t1.png') }}" class="w-[28vw]" />
+        <img src="{{ asset('assets/images/micet/k1/insects/tables/t1.png') }}" class="w-[28vw]" />
 
     </div>
 
@@ -62,7 +62,7 @@
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Table 2 : MI Activities</h1>
-        <img src="{{ asset('assets/images/micet/n1/mybody/tables/t2.png') }}" class="h-[20vw]" />
+        <img src="{{ asset('assets/images/micet/k1/insects/tables/t2.png') }}" class="h-[20vw]" />
 
     </div>
 

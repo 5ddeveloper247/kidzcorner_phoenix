@@ -38,7 +38,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Beautiful Butterflies</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: Insects’ Sense Organs</h1>
         <div class="flex ">
             <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
             <img src="{{ asset('assets/images/micet/n1/mybody/class2/c1.png') }}" class="h-[12vw]" />
@@ -47,19 +47,15 @@
 
         <h3 class="ptitle">Objectives:</h3>
 
-        <ul class="list-disc panel-ul w-[45vw]">
-            <li>To learn to sing the song "Beautiful butterflies".</li>
-            <li>To recognise and state the characteristics of a butterfly, and
-                imitate the way it flies.</li>
-            <li>To recognise and state the characteristics of a dragonfly,
-                and imitate the way it catches its food.</li>
+        <ul class="list-disc panel-ul">
+            <li>Identify three sense organs of insects</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 4: Beautiful Butterflies</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: Insects’ Sense Organs</h1>
 
         <div>
             <h3 class="ptitle">Preparations</h3>
@@ -73,16 +69,16 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Beautiful Butterflies</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: Insects’ Sense Organs</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[45vw]">
-                <li>Have the children recall the story. Ask them to identify who Candy was
-                    chasing when she fell into the river. (a butterfly)</li>
-                <li>Ask the children if they have ever seen a butterfly and have them describe
-                    what a butterfly looks like.</li>
+                <li>Ask children: What are our sense organs? (eyes, ears, nose, tongue and skin) What are their functions?
+                </li>
+                <li>Ask children: What sense organs do insects have? How do the sense organs help the insect? Stimulate
+                    children's interest in the sense organs of insects.</li>
             </ol>
         </div>
     </div>
@@ -90,244 +86,261 @@
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Beautiful Butterflies</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: Insects’ Sense Organs</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Have the children observe the physical characteristics of the butterfly and
-                describe it. Explain to the children that a butterfly has 4 wings (or 2 pairs of
-                wings).</li>
+            <li>Ask children: What sense organs do insects have? How do the sense organs help the insect? Stimulate
+                children's interest in the sense organs of insects.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class4/c1.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/k1/insects/class4/c1.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Beautiful Butterflies</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: Insects’ Sense Organs</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Have the children observe the physical characteristics of the butterfly and
-                describe it. Explain to the children that a butterfly has 4 wings (or 2 pairs of
-                wings).</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="4">
+            <li>Ask children: How many eyes do we have? How many eyes does an insect have?</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class4/c2.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/k1/insects/class4/c2.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Beautiful Butterflies</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: Insects’ Sense Organs</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Have the children observe the physical characteristics of the butterfly and
-                describe it. Explain to the children that a butterfly has 4 wings (or 2 pairs of
-                wings).</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="5">
+            <li>Explain that most insects have two large eyes known as compound eyes. Each compound eye is made up of many
+                tiny lenses.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class4/c3.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/k1/insects/class4/c3.png') }}" class="w-[25vw]" />
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Beautiful Butterflies</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: Insects’ Sense Organs</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Have the children observe the physical characteristics of the butterfly and
-                describe it. Explain to the children that a butterfly has 4 wings (or 2 pairs of
-                wings).</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="6">
+            <li>Compound eyes enable insects to have a wide angle vision. Thus, the eyes of insects are different from ours.
+            </li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class4/c4.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/k1/insects/class4/c3.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Beautiful Butterflies</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: Insects’ Sense Organs</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Have the children observe the physical characteristics of the butterfly and
-                describe it. Explain to the children that a butterfly has 4 wings (or 2 pairs of
-                wings).</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="7">
+            <li>Ask children: What part of an insect is this? What does it look like? Encourage children to use their
+                imagination and express their ideas. Guide children to say the term "mouth".</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class4/c5.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/k1/insects/class4/c4.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Beautiful Butterflies</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: Insects’ Sense Organs</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Click on the video. Have the children observe the butterflies to understand the
-                meaning of "gathering pollen", "gathering nectar". Explain to the children
-                that the nectar is the primary food for butterflies.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="8">
+            <li>Inform the children that:
+                <ul>
+                    <li> -Different insects have different mouths depending on what they eat.</li>
+                    <li> -Insects have biting mouth-parts for dealing with solid food and sucking mouth-parts for taking in
+                        liquids.</li>
+                </ul>
+            </li>
         </ol>
-        <video class="h-[18vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-            <source src="{{ asset('assets/images/micet/n2/habit1/class4/v1.mp4') }}" type="video/mp4">
-        </video>
     </div>
 
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Beautiful Butterflies</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: Insects’ Sense Organs</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Click on the video. Have the children observe the butterflies to understand the
-                meaning of "gathering pollen", "gathering nectar". Explain to the children
-                that the nectar is the primary food for butterflies.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="9">
+            <li>Ask children: Are these biting or sucking mouth parts? Why?</li>
+            <li>Explain that this is 'biting mouth-parts' of an insect. An insect uses biting mouth parts to cut and chew
+                the food before shoving the food into the mouth. Biting mouth parts are best seen among ants, wasps, beetles
+                and grasshoppers.</li>
         </ol>
-        <video class="h-[18vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-            <source src="{{ asset('assets/images/micet/n2/habit1/class4/v2.mp4') }}" type="video/mp4">
-        </video>
+        <img src="{{ asset('assets/images/micet/k1/insects/class4/c5.png') }}" class="w-[25vw]" />
     </div>
 
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Beautiful Butterflies</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: Insects’ Sense Organs</h1>
 
-        <ol class="list-decimal panel-ul" start="5">
-            <li>Play the song "Beautiful Butterflies". Have the children describe what the
-                <span class="flex items-end">butterflies in the song look like.
-                    <button class="w-[2.5vw]" id="soundButton">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button></span>
-            </li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="11">
+            <li>Look at the 'biting mouth parts' of an ant! </li>
         </ol>
-        <h4 class="text-white text-[2vw] text-start mt-[4vw]">
-            Beautiful butterflies, <br>
-            With bright and colourful pairs of wings. <br>
-            Gather pollen, gather nectar, <br>
-            Flutter, flutter never cease.
-        </h4>
-    </div>
-
-    {{-- panel 7 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Beautiful Butterflies</h1>
-
-        <ol class="list-decimal panel-ul" start="6">
-            <li>Have the children repeat the lyrics after the teacher and sing the song when
-                <span class="flex items-end"> they are familiar with the words. <button class="w-[2.5vw]" id="soundButton">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button></span>
-            </li>
-        </ol>
-        <h4 class="text-white text-[2vw] text-start mt-[4vw]">
-            Beautiful butterflies, <br>
-            With bright and colourful pairs of wings. <br>
-            Gather pollen, gather nectar, <br>
-            Flutter, flutter never cease.
-        </h4>
-    </div>
-
-    {{-- panel 7 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Beautiful Butterflies</h1>
-
-        <ol class="list-decimal panel-ul" start="7">
-            <li> Have the children sing the song and dance like the butterflies when gathering
-                <span class="flex items-end">pollen and gathering nectar among flowers.
-                    <button class="w-[2.5vw]" id="soundButton">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button></span>
-            </li>
-        </ol>
-        <h4 class="text-white text-[2vw] text-start mt-[4vw]">
-            Beautiful butterflies, <br>
-            With bright and colourful pairs of wings. <br>
-            Gather pollen, gather nectar, <br>
-            Flutter, flutter never cease.
-        </h4>
+        <img src="{{ asset('assets/images/micet/k1/insects/class4/c6.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Beautiful Butterflies</h1>
-
-        <ol class="list-decimal panel-ul" start="8">
-            <li> Display the picture of a dragonfly. Have the children name it and describe
-                <span class="flex items-end"> what its characteristics are.
-                    <button class="w-[2.5vw]" id="soundButton">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button></span>
-            </li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class4/c6.png') }}" class="w-[30vw]" />
-    </div>
-
-
-    {{-- panel 7 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Beautiful Butterflies</h1>
-
-        <ol class="list-decimal panel-ul" start="9">
-            <li> Ask the children how many wings a dragonfly has. Explain to them that a
-                dragonfly has 4 wings (2 pairs of wings). A dragonfly feeds on mainly
-                <span class="flex items-end">mosquitoes and some other insects.
-                    <button class="w-[2.5vw]" id="soundButton">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button></span>
-            </li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class4/c6.png') }}" class="w-[30vw]" />
-    </div>
-
-
-    {{-- panel 7 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Beautiful Butterflies</h1>
-
-        <ol class="list-decimal panel-ul" start="10">
-            <li>
-                <span class="flex items-end">
-                    Display the lyrics, teach the children to sing the song "Little Dragonflies".
-                    <button class="w-[2.5vw]" id="soundButton">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button></span>
-            </li>
-        </ol>
-        <h4 class="text-white text-[2vw] text-start mt-[4vw]">
-            Dragonflies with big eyes, <br>
-            Two pairs of wings light in flight. <br>
-            Flying east, flying west, <br>
-            Catching mosquitoes and flies.
-        </h4>
-    </div>
-
-
-    {{-- panel 7 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Beautiful Butterflies</h1>
-
-        <ol class="list-decimal panel-ul" start="9">
-            <li> Have the children sing the song and dance like dragonflies when catching
-                <span class="flex items-end"> mosquitoes and flies.
-                    <button class="w-[2.5vw]" id="soundButton">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button></span>
-            </li>
-        </ol>
-        <h4 class="text-white text-[2vw] text-start mt-[4vw]">
-            Dragonflies with big eyes, <br>
-            Two pairs of wings light in flight. <br>
-            Flying east, flying west, <br>
-            Catching mosquitoes and flies.
-        </h4>
-    </div>
-
-
-    {{-- panel 8 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Beautiful Butterflies</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: Insects’ Sense Organs</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="12">
+            <li>Ask children: Are these biting or sucking mouth parts? What does it look like? Encourage children to use
+                their imagination and express their ideas.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class4/c7.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 7 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Insects’ Sense Organs</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="13">
+            <li>Inform children that this is 'sucking mouth parts' of an insect and the elongated part is like a needle on a
+                syringe.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class4/c7.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 7 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Insects’ Sense Organs</h1>
+
+        <ol class="list-decimal panel-ul w-[48vw]" start="14">
+            <li>Display the syringe. Let the children describe the attached needle (e.g. it is long, sharp and painful if
+                pierced by it ). Guide children to understand that insects use their needle like sucking mouth parts to
+                pierce animals or plants and suck their liquids. Sucking mouth parts are best seen in mosquitoes.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class4/c8.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 7 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Insects’ Sense Organs</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="15">
+            <li>Look, a mosquito uses its needle like mouth parts to pierce through the skin and suck blood.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class4/c9.png') }}" class="h-[20vw]" />
+    </div>
+
+
+    {{-- panel 7 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Insects’ Sense Organs</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="16">
+            <li>Ask children: Are these biting or sucking mouth parts? What does it look like? Encourage children to use
+                their imagination and express their ideas.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class4/c10.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 7 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Insects’ Sense Organs</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="17">
+            <li>Inform children that this is 'sucking mouth parts' of an insect. The curled up part which looks like a
+                curled party blower is known as proboscis.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class4/c10.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 7 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Insects’ Sense Organs</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="18">
+            <li>Demonstrate and explain how a party blower works ( it straightens when blown out and curls up when it is not
+                in use). Guide children to understand that an insect with proboscis will uncurl it to suck nectar from
+                flowers. This kind of sucking mouth parts are best seen in butterflies.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class4/c11.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 7 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Insects’ Sense Organs</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="19">
+            <li>Click to play the video. Let the children observe how a butterfly uses its party blower like mouthparts and
+                sucks nectar.</li>
+        </ol>
+        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/k1/insects/class4/v1.mp4') }}" type="video/mp4">
+        </video>
+    </div>
+
+
+    {{-- panel 7 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Insects’ Sense Organs</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="20">
+            <li>Ask children: What part of an insect is this? What does it look like? Encourage children to use their
+                imagination and express their ideas.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class4/c12.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 7 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Insects’ Sense Organs</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="21">
+            <li>Ask children: What do we use to touch and hold things or food? (fingers) What do insects use to touch and
+                hold things or catch their prey? Guide children to say the term "claws".</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class4/c12.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 7 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Insects’ Sense Organs</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="22">
+            <li>Explain that insects have no fingers, but have pincer like claws at the end of their legs. The claws are
+                sensitive to touch. Insects use their claws to touch and hold things or food.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class4/c13.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 7 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Insects’ Sense Organs</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="23">
+            <li>23, Ask children to use the following sentence structure to describe the different sense organs of insects.
+                "The __________ of the ________ ( insect's name) is like a/the ___________.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class4/c5.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 7 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 4: Insects’ Sense Organs</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="6">
             <li>Guide children to complete the corresponding activities in the Thematic
-                Activity Book.</li>
+                Activity Book. </li>
         </ol>
     </div>
+
 
 
     {{-- panel 42 --}}
@@ -355,7 +368,7 @@
         </div>
     </div>
 
-    
+
 
     {{-- =============================================== --}}
     {{-- All Buttons --}}
@@ -408,8 +421,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/habit1/index') }}";
-            const doneURL = "{{ url('/micet/n2/habit1/index') }}";
+            const returnURL = "{{ url('/micet/k1/insects/index') }}";
+            const doneURL = "{{ url('/micet/k1/insects/index') }}";
 
             // Track current position
             let currentSlide = 0;

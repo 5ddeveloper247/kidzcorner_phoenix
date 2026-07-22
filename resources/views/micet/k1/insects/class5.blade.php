@@ -38,7 +38,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: What are the differences?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Scary Pests</h1>
         <div class="flex ">
             <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
             <img src="{{ asset('assets/images/micet/n1/mybody/class2/c1.png') }}" class="h-[12vw]" />
@@ -48,276 +48,218 @@
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul w-[45vw]">
-            <li>To understand the differences among cats, fishes, butterflies,
-                dragonflies, praying mantises and ducks.</li>
-            <li>To learn to distinguish the characteristics of different animals
-                according to the table.</li>
+            <li>Identify some common pests</li>
+            <li>Understand that pests are harmful to us and need to be controlled</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 5: What are the differences?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Scary Pests</h1>
 
         <div>
             <h3 class="ptitle">Preparations</h3>
 
             <ul class="list-disc panel-ul">
-                <li>Table written on a big piece of paper (refer below).</li>
+                <li>Thematic Activity Book</li>
             </ul>
-            <img src="{{ asset('assets/images/micet/n2/habit1/class5/c1.png') }}" class="h-[15vw]" />
         </div>
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: What are the differences?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Scary Pests</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[50vw]">
-                <li>Review the story with the children. Have the children recall the animals that
-                    appeared in the story (cat, fish, butterfly, praying mantis, dragonfly and duck).</li>
+                <li>Ask children: What insect is this? Is it useful or harmful to us? Guide children to know that houseflies
+                    are harmful insects because they spread germs that make us sick. Inform children that harmful insects
+                    are also called pests.</li>
             </ol>
         </div>
+        <img src="{{ asset('assets/images/micet/k1/insects/class5/c1.png') }}" class="w-[20vw]" />
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: What are the differences?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Scary Pests</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="2">
-            <li>Display the table chart on the whiteboard. Show the pictures of the animals
-                (next slide onwards). Have the children name them and describe their
-                characteristics.</li>
-            <li>After the children has described an animal, the teacher will then write or draw
-                in the appropriate column of the table.</li>
+            <li>Explain that houseflies are attracted to rubbish and feed on rotting food and decaying matter. Their bodies
+                trap many germs from the rubbish. When houseflies land on our food, the germs get transferred onto the food
+                and contaminate the food. When we eat such contaminated food, the germs get inside our body and make us
+                sick.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class5/c1.png') }}" class="h-[15vw]" />
+        <img src="{{ asset('assets/images/micet/k1/insects/class5/c2.png') }}" class="h-[17vw]" />
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: What are the differences?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Scary Pests</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="3">
+            <li>Ask children: What insect is this? Is it useful or harmful to us? Guide children to know that cockroaches
+                are pests because they spread germs that make us sick.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class5/c3.png') }}" class="w-[20vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 5: Scary Pests</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="4">
-            <li>Display the pictures of cats. Have the children name the animal and describe
-                their characteristics. For example, cats have fur on their bodies, whiskers on
-                their cheeks and a long tail; cats have 4 legs and live on land, they eat fish
-                and mice, they meow; etc.</li>
+            <li>Explain that cockroaches are attracted to filthy places. Their bodies trap germs. When cockroaches crawl
+                over our food, the germs get transferred onto the food and contaminate the food. When we eat such
+                contaminated food, the germs get inside our body and make us sick.</li>
         </ol>
-        <div class="flex gap-[1vw]">
-            <img src="{{ asset('assets/images/micet/n2/habit1/class5/c2.png') }}" class="w-[20vw]" />
-            <img src="{{ asset('assets/images/micet/n2/habit1/class5/c3.png') }}" class="w-[20vw]" />
-        </div>
-    </div>
-
-
-    {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: What are the differences?</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="5">
-            <li>Display the pictures of fishes. Have the children name the animal and
-                describe their characteristics. For example, fishes have scales on their bodies,
-                they have no legs but have fins which move left and right when they swim; fish
-                can only live in the water, they eat worms; etc.</li>
-        </ol>
-        <div class="flex gap-[1vw]">
-            <img src="{{ asset('assets/images/micet/n2/habit1/class5/c4.png') }}" class="w-[20vw]" />
-            <img src="{{ asset('assets/images/micet/n2/habit1/class5/c5.png') }}" class="w-[20vw]" />
-        </div>
+        <img src="{{ asset('assets/images/micet/k1/insects/class5/c4.png') }}" class="w-[25vw]" />
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: What are the differences?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Scary Pests</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="5">
+            <li>Ask children: What insect is this? Is it useful or harmful to us? Guide children to know that mosquitoes are
+                pests because they spread germs that make us sick.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/insects/class5/c5.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 5: Scary Pests</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="6">
-            <li>Display the pictures of ducks. Have the children name the animal and
-                describe their characteristics. For example, ducks have feathers on their
-                bodies, they have a beak and 2 legs; they have webbed feet which helps
-                them paddle in the water. Ducks eat fish, they quack; etc.</li>
+            <li>Explain that mosquitoes suck blood from different people. When a mosquito bites and sucks blood from a sick
+                person, it takes in the germs and carries the germs and spreads the disease to the next person it bites.
+            </li>
         </ol>
-        <div class="flex gap-[1vw]">
-            <img src="{{ asset('assets/images/micet/n2/habit1/class5/c6.png') }}" class="w-[20vw]" />
-            <img src="{{ asset('assets/images/micet/n2/habit1/class5/c7.png') }}" class="w-[20vw]" />
-        </div>
+        <img src="{{ asset('assets/images/micet/k1/insects/class5/c6.png') }}" class="h-[20vw]" />
     </div>
+
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: What are the differences?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Scary Pests</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="7">
-            <li>Click on the video to observe the duck paddling with its web feet and
-                dunking its head into the waterto catch fish.</li>
+            <li>Ask children: What insect is this? Is it useful or harmful to us? Guide children to know that aphids are
+                pests because they destroy crops.</li>
         </ol>
-        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-            <source src="{{ asset('assets/images/micet/n2/habit1/class5/v1.mp4') }}" type="video/mp4">
-        </video>
+        <img src="{{ asset('assets/images/micet/k1/insects/class5/c7.png') }}" class="h-[20vw]" />
     </div>
-
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: What are the differences?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Scary Pests</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="8">
-            <li>Ducks have 2 wings (a pair of wings) which help them fly, they flap their wings
-                to take off in flight.</li>
+            <li>Explain that aphids damage plants by sucking liquid from the leaves and stems of a plant. They also spread
+                diseases to plants.</li>
         </ol>
-        <div>
-            <img src="{{ asset('assets/images/micet/n2/habit1/class5/c8.png') }}" class="h-[10vw]" />
-            <p class="panel-ul">A wild duck takes off in flight by flapping its wings, lifts off and accelerates.</p>
-        </div>
+        <img src="{{ asset('assets/images/micet/k1/insects/class5/c8.png') }}" class="h-[20vw]" />
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: What are the differences?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Scary Pests</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="9">
-            <li>Click on the video to observe that ducks can live on land, in the water and in
-                the air.</li>
+            <li>Ask children: What insect is this? Is it useful or harmful to us? Guide children to know that termites are
+                pests as they cause serious damage to trees and buildings.</li>
         </ol>
-        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-            <source src="{{ asset('assets/images/micet/n2/habit1/class5/v2.mp4') }}" type="video/mp4">
-        </video>
+        <img src="{{ asset('assets/images/micet/k1/insects/class5/c9.png') }}" class="h-[20vw]" />
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: What are the differences?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Scary Pests</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="10">
-            <li>Display the pictures of butterflies. Have the children name the animal and
-                describe their characteristics. For example, butterflies have 4 wings (2 pairs of
-                wings), they flutter their wings when they fly.</li>
+            <li>Explain that termites feed on wood, so they eat and destroy wood from trees and building structures such as
+                wooden houses, bridges, boats, etc.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class5/c9.png') }}" class="h-[20vw]" />
+        <img src="{{ asset('assets/images/micet/k1/insects/class5/c10.png') }}" class="h-[20vw]" />
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: What are the differences?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Scary Pests</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="11">
-            <li>Butterflies have 6 legs and they feed mainly on nectar; etc.</li>
+            <li>Explain that termites also feed on paper, textiles, carpets and fibrous materials and therefore can destroy
+                many things around us.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class5/c10.png') }}" class="h-[20vw]" />
+        <img src="{{ asset('assets/images/micet/k1/insects/class5/c11.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: What are the differences?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Scary Pests</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="12">
-            <li>Display the picture of a dragonfly. Have the children name the animal and
-                describe its characteristics. For example, dragonflies have 4 wings (2 pairs of
-                wings), they flutter their wings when they fly.</li>
+            <li>Ask children to name other pests that they know and talk about how these pests are harmful to us.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class5/c11.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: What are the differences?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Scary Pests</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="13">
-            <li>Dragonflies have 6 legs and they feed mainly on insects such as mosquitoes,
-                etc.</li>
+            <li>Ask children to think of different ways to control pests. Help the children know that spraying of
+                insecticides, using the natural enemies of pests and cultivating good hygiene habits are some effective ways
+                to control pests.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class5/c12.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: What are the differences?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Scary Pests</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="14">
-            <li>Display the picture of a praying mantis. Have the children name the animal
-                and describe its characteristics. For example, praying mantises have 6 legs .</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class5/c13.png') }}" class="w-[30vw]" />
-    </div>
-
-
-    {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: What are the differences?</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="15">
-            <li>Praying mantis feeds on insects such as the houseflies; etc.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class5/c14.png') }}" class="w-[30vw]" />
-    </div>
-
-
-    {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: What are the differences?</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="16">
-            <li>Click on the video to observe a praying mantis.</li>
-        </ol>
-        <video class="h-[18vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-            <source src="{{ asset('assets/images/micet/n2/habit1/class5/v3.mp4') }}" type="video/mp4">
-        </video>
-    </div>
-
-
-    {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: What are the differences?</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="17">
-            <li>Upon completion, have the children look at the table and explain the
-                differences between the cat and the fish. For example, cats have soft fur on
-                their bodies, while fish have scales on their bodies; cats have four legs but
-                fishes have no legs; cats live on land and fishes live in the water; etc.</li>
-            <li>Choose another two animals to compare. Have the children look at the table
-                and explain the differences between the two.</li>
-            <li>Repeat the activity and allow the children to familiarise themselves in reading
-                the table, discovering and describing the differences among the animals.</li>
+            <li>Guide children to complete the corresponding activities in the Thematic
+                Activity Book.</li>
         </ol>
     </div>
 
 
     {{-- panel 23 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 5: What are the differences?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Scary Pests</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have the children choose an animal from the table, then
-                    compare that animal with themselves and describe the
-                    differences.</li>
+                <li>Let children describe some pests and talk about how they are harmful to us. Let them share with the
+                    class the methods to control pests.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to name the animals and describe their characteristics
-                    based on what they have seen from the pictures.</li>
-                <li>Able to describe the differences between cats, fishes,
-                    butterflies, dragonflies, praying mantises and ducks.</li>
+                <li>Able to name some common pests and talk about how pests are harmful to us.</li>
+                <li>Able to discuss ways to control pests.</li>
             </ul>
         </div>
     </div>
@@ -378,8 +320,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/habit1/index') }}";
-            const doneURL = "{{ url('/micet/n2/habit1/index') }}";
+            const returnURL = "{{ url('/micet/k1/insects/index') }}";
+            const doneURL = "{{ url('/micet/k1/insects/index') }}";
 
             // Track current position
             let currentSlide = 0;

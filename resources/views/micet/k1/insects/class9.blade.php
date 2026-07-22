@@ -38,42 +38,56 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 9: Tell a Story</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: Design An Insect</h1>
         <img src="{{ asset('assets/images/micet/n1/mybody/c9.1.png') }}" class="h-[8vw]" />
 
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul w-[45vw]">
-            <li>To understand the sequence of the story "Candy Cat's
-                Fishing Adventure".</li>
-            <li>To learn to retell the story "Candy Cat's Fishing Adventure".</li>
+            <li>Enhance understanding of insects</li>
+            <li>Cooperate with classmates to create an insect based on the main characteristics of insects</li>
+            <li>Develop imagination and creativity</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[3vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Tell a Story</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: Design An Insect</h1>
 
         <div>
             <h3 class="ptitle">Preparations</h3>
 
-            <ol class="list-disc panel-ul">
+            <ol class="list-disc panel-ul w-[45vw]">
                 <li>Thematic Activity Book</li>
+                <li>Cardboards</li>
+                <li>Recycled materials like gift boxes, straws, beverage bottles, wrapping papers, thin wires, knitting
+                    wool, disposable paper plates</li>
+                <li>Scissors, glue</li>
+                <li>Colour pencils, papers</li>
             </ol>
         </div>
     </div>
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Tell a Story</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: Design An Insect</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[45vw]">
                 <li>Have the children cut out all 6 story cards from the Thematic Activity Book,
-                    activity 9.</li>
+                    activity 9.
+                    <ol type="a">
+                        <li>What insects do you know?</li>
+                        <li>What are useful insects? What are pests?</li>
+                        <li>How many legs do insects have? How many pairs of antennae do insects have? How many main body
+                            parts do insects have?</li>
+                        <li>Do insects have wings?</li>
+                    </ol>
+                </li>
+                <li>Inform children that they are going to work in groups to create an insect.</li>
             </ol>
         </div>
     </div>
@@ -81,98 +95,88 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 9: Tell a Story</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: Design An Insect</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="2">
-            <li>Have the children recall the story "Candy Cat's Fishing Adventure" and pick
-                up the card which shows the beginning of the story. Invite a few children to
-                retell the beginning of the story using their own words. </li>
-            <li>Have the children recall the story and pick up the card that shows the ending
-                of the story. Invite a few children to retell the ending of the story using their
-                own words.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="3">
+            <li>Organise children into groups of three as in Activity 8. Let the children know that they will work together
+                to create an insect based on the main characteristics of insects.</li>
+            <li>First, let the children take turns to discuss their ideas about the insect they want to create. Then, have
+                them integrate everyone's ideas and draw out the insect. (It can be based on a real insect or one from their
+                imagination, as long as it has the main characteristics of insects.) Lastly, let the children choose
+                materials to make props based on their design.</li>
+            <li>Teacher can walk around the class to give suggestions and assist the various groups to complete their design
+                making. E.g. Use cardboard attached with strings to tie to their body to form the outer shell or hardened
+                forewings of the insect; use straws or strings to tie on their head to form the antennae of insects.</li>
         </ol>
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 9: Tell a Story</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: Design An Insect</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="4">
-            <li>Have the children know that every story is made up of a beginning, a middle
-                (which may consists of several events) and an ending.</li>
-            <li>Have the children sequence the story cards in the order of the events.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="6">
+            <li>When the children have finished making their props, inform the children that they will use the props that
+                they have created to role-play the insect they have designed.</li>
+            <li>Ask each group to think of how they will perform the role of the insect they have designed. Guide children
+                to use the following sentences to introduce the insect they have designed.</li>
+
+            <h4 class="text-white text-[1.4vw] text-start">
+                We are_______________( name of the insect). <br>
+                We have three main body parts: head, thorax and abdomen. <br>
+                We have six legs and a pair of antenna. <br>
+                We have __________ pair/pairs of wing/wings. <br>
+                We like to eat______________. <br>
+                We are useful insects/pests as we ___________________.
+
+            </h4>
         </ol>
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Tell a Story</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: Design An Insect</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="6">
-            <li>Next, invite a few children retell the story in sequence as the teacher guides
-                them along.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="8">
+            <li>Lastly, encourage each group to practise their performance so that they are able to perform confidently
+                during Activity 10.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class9/c1.png') }}" class="w-[35vw]" />
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Tell a Story</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: Design An Insect</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="7">
-            <li>Organise the children into 6 groups. Have the children in each group take
-                turns to retell the story in sequence to their group members.</li>
-            <li>Upon completion, group members help the storyteller determine if the
-                sequence of the story is correct by providing feedback.</li>
-            <li>The teacher circulates among the groups to provide guidance.</li>
-        </ol>
-    </div>
-
-
-    {{-- panel 3 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 9: Tell a Story</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="10">
-            <li>Have the children draw the scenes into the blank story cards on the last
-                activity page of the Thematic Activity Book, if they show interest in modifying
-                the story or adding in more scenes. Have the children cut out and combine
-                the new story cards with the original story cards to create a new story</li>
-            <li>Each group will then choose a representative with the best new story to
-                narrate to the class.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="9">
+            <li>Guide children to complete the corresponding activities in the Thematic
+                Activity Book.</li>
         </ol>
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 9: Tell a Story</h1>
+        <h1 class="panel-title stroke">Classroom Activity 9: Design An Insect</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have the children judge who the best storyteller is and
-                    explain the reasons.</li>
-                <li>Display the children's version of the story (original story
-                    cards plus new story cards that children drew) for all to view
-                    and share.</li>
+                <li>Ask children create a sound for the insect that they have made and use the sound during their
+                    performance.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to retell the story in sequence.</li>
-                <li>Able to use imagination in modifying the story.</li>
+                <li>Able to cooperate with group members to complete all the tasks.</li>
+                <li>Able to use imagination and creativity to design and make an insect.</li>
+                <li>Able to use the props created to role-play the insect that they have created with their friends.</li>
             </ul>
         </div>
     </div>
-
-
-
 
 
 
@@ -229,8 +233,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/habit1/index') }}";
-            const doneURL = "{{ url('/micet/n2/habit1/index') }}";
+            const returnURL = "{{ url('/micet/k1/insects/index') }}";
+            const doneURL = "{{ url('/micet/k1/insects/index') }}";
 
             // Track current position
             let currentSlide = 0;
