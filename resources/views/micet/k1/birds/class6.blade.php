@@ -38,7 +38,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Get Ready for Fishing</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Can It Fly?</h1>
         <div class="flex ">
             <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
             <img src="{{ asset('assets/images/micet/n1/mybody/class2/c1.png') }}" class="h-[12vw]" />
@@ -48,116 +48,372 @@
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul">
-            <li>To know the uses of a fishing rod and a fishing basket.</li>
-            <li>To make a fishing rod and a fishing basket.</li>
-            <li>To develop fine motor skills through practising tying knots on strings.</li>
+            <li>Understand that not all animals that can fly are birds</li>
+            <li>Understand that not all birds can fly</li>
+            <li>Imitate bird movements such as flying, swimming and moving on land</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Get Ready for Fishing</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Can It Fly?</h1>
 
         <div>
             <h3 class="ptitle">Preparations</h3>
 
             <ul class="list-disc panel-ul">
                 <li>Thematic Activity Book</li>
-                <li>Letter to parents (next slide).</li>
-                <li>A fishing rod and a fishing basket made beforehand.</li>
-                <li>One 20- 30 cm coloured yarn or thin string per child.</li>
-                <li>One small magnet per child.</li>
-                <li>Crayons.</li>
             </ul>
         </div>
     </div>
 
 
-    {{-- panel 2 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Get Ready for Fishing</h1>
-
-        <img src="{{ asset('assets/images/micet/n2/habit1/class6/c1.png') }}" class="w-[40vw]" />
-    </div>
-
-
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Get Ready for Fishing</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Can It Fly?</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[50vw]">
-                <li>Display the prior made fishing rod and fishing basket. Have the children state
-                    their names and uses. Guide the children in explaining that these are the
-                    equipment needed for fishing.</li>
-                <li>Inform the children that they will learn to make fishing rods and fishing baskets.
-                    Have the children decide by voting which craft to make first, the fishing rods
-                    or fishing baskets. Guide the children in making the items.</li>
+                <li>Ask the children: What are birds? Are bees and butterflies birds? Why? Guide children to state the main
+                    characteristics of birds (e.g. they have feathers, a pair of wings, a beak and two legs).</li>
+                <li>Ask the children: Are all animals that can fly birds? Guide the children to understand that many animals
+                    that fly are not birds because they don't have the basic characteristics of birds. Encourage the
+                    children to name some animals that can fly but are not birds.</li>
+
             </ol>
+
+            <p class="panel-ul w-[50vw]">[Note: There are only four types of animals that flap their wings to fly: some
+                birds and
+                insects, bats (the only mammals that can fly), and pterosaurs (flying reptiles that are already extinct)].
+            </p>
         </div>
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Get Ready for Fishing</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Can It Fly?</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="3">
-            <li>Have the children look at the fishing rod and name the parts that is needed to
-                make it (rod, fishing line and hook). Have the children take out their own rod
-                (wooden or plastic) and tie the fishing line (a string) onto one end, then tie the
-                hook (small magnet) on the other end of the line. Assist the children in tying
-                when necessary.</li>
+            <li>Ask the children: Can all birds fly? Guide children to understand that most birds can fly as they have a
+                very light skeleton. Also, the shape of their body and feathers are suitable for flying.</li>
         </ol>
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Get Ready for Fishing</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Can It Fly?</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="4">
-            <li>Gather the boxes that the children brought. Guide the children in naming the
-                shapes of the boxes.</li>
-            <li>Have the children decorate their baskets by drawing beautiful patterns.</li>
+            <li>Ask the children: Do all birds fly in the same way? Guide children to understand that birds fly in different
+                ways.</li>
         </ol>
     </div>
 
 
     {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col h-full items-center justify-center">
-        <h1 class="panel-title stroke">Classroom Activity 6: Get Ready for Fishing</h1>
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 6: Can It Fly?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="5">
+            <li>Click to play the video. Have the children observe and discuss how this bird flies. Guide children to
+                understand that this bird flaps its wings up and down to fly and most birds fly this way.</li>
+        </ol>
+        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/k1/birds/class6/v1.mp4') }}" type="video/mp4">
+        </video>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 6: Can It Fly?</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="6">
-            <li>Guide the children to complete the corresponding activity in the Thematic
-                Activity Book. Have the children colour the fish, cut it out and keep it for the
-                next classroom activity "Let's go fishing".</li>
-            <img src="{{ asset('assets/images/micet/n2/habit1/class6/c2.png') }}" class="w-[30vw]" />
+            <li>Most birds flap their wings to fly. Invite children to imitate the action of flapping.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/birds/class6/c1.png') }}" class="w-[35vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 6: Can It Fly?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="7">
+            <li>Click to play the video. Have the children observe and discuss how this bird flies. Guide children to
+                understand that this bird is gliding; its wings are widely spread, and do not flap (like a kite).</li>
+        </ol>
+        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/k1/birds/class6/v2.mp4') }}" type="video/mp4">
+        </video>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 6: Can It Fly?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="8">
+            <li>Inform children that large wings are required for gliding so only birds with large wings can glide. Invite
+                children to imitate the action of gliding.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/birds/class6/c2.png') }}" class="h-[20vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 6: Can It Fly?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="9">
+            <li>Click to play the video. Let the children observe and discuss how this bird flies. Guide children to know
+                that this bird is hovering, where it flaps its wings rapidly (like a helicopter).</li>
+        </ol>
+        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/k1/birds/class6/v3.mp4') }}" type="video/mp4">
+        </video>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 6: Can It Fly?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="10">
+            <li>Inform children that the hummingbird is the only bird that can hover and fly backwards. It is also the
+                smallest bird in the world. Invite the children to imitate the action of hovering.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/birds/class6/c3.png') }}" class="h-[20vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 6: Can It Fly?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="11">
+            <li>Guide children to understand that all birds take off and land by flapping their wings.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/birds/class6/c4.png') }}" class="h-[13vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 6: Can It Fly?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="12">
+            <li>Click to play the video. Let the children observe and discuss how these birds take flight. Guide children to
+                understand that all birds flap their wings to take off. Invite the children to imitate the action of taking
+                off.</li>
+        </ol>
+        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/k1/birds/class6/v4.mp4') }}" type="video/mp4">
+        </video>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 6: Can It Fly?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="13">
+            <li>Click to play the video. Let the children observe and discuss how these birds land. Guide children to
+                understand that all birds flap their wings to land. Invite the children to imitate the action of landing.
+            </li>
+        </ol>
+        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/k1/birds/class6/v5.mp4') }}" type="video/mp4">
+        </video>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 6: Can It Fly?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="14">
+            <li>Inform children that besides flying, some birds can also swim. Have children name some birds that can fly
+                and swim.</li>
         </ol>
     </div>
 
 
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 6: Can It Fly?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="15">
+            <li>Let the children observe and describe the feet of the birds that can swim. Guide the children to understand
+                that birds that can swim have webbed feet. The webbing between the toes act like paddles and help them to
+                swim more easily.</li>
+        </ol>
+        <div class="flex flex-col items-center">
+            <img src="{{ asset('assets/images/micet/k1/birds/class6/c5.png') }}" class="h-[10vw]" />
+            <img src="{{ asset('assets/images/micet/k1/birds/class6/c6.png') }}" class="h-[10vw]" />
+        </div>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 6: Can It Fly?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="16">
+            <li>Click to play the video. Let the children observe and discuss how this bird uses its webbed feet to paddle.
+                Invite the children to imitate the action of paddling.</li>
+        </ol>
+        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/k1/birds/class6/v6.mp4') }}" type="video/mp4">
+        </video>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 6: Can It Fly?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="17">
+            <li>Guide the children to understand that there are some birds that cannot fly. Let the children give some
+                examples of birds which cannot fly.</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 6: Can It Fly?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="18">
+            <li>Let the children discuss: What bird is this? Can it fly? (Peacocks can fly but are weak fliers as their
+                wings are too small and bodies are big and heavy.)</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/birds/class6/c7.png') }}" class="h-[20vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 6: Can It Fly?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="19">
+            <li>Let the children discuss: What bird is this? Can it fly? (Penguins cannot fly as their wings are too small
+                and bodies are too big.)</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/birds/class6/c8.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 6: Can It Fly?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="20">
+            <li>Guide children to understand that although penguins cannot fly, they are excellent swimmers. Besides using
+                its pair of webbed feet as paddles, a penguin also use its wings as an additional pair of paddles, when
+                swimming. This makes it different from the other birds that can swim.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/birds/class6/c8.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 6: Can It Fly?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="21">
+            <li>Click to play the video. Let the children observe how a penguin uses its wings and webbed feet as paddles
+                when swimming. Have the children imitate the paddling actions of a penguin.</li>
+        </ol>
+        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/k1/birds/class6/v7.mp4') }}" type="video/mp4">
+        </video>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 6: Can It Fly?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="22">
+            <li>Let the children discuss: What bird is this? Can it fly? (Kiwi birds cannot fly as they have evolved to
+                become flightless birds.)</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/birds/class6/c9.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 6: Can It Fly?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="23">
+            <li>Let the children discuss: What bird is this? Can it fly? (Ostriches cannot fly as they are too huge for
+                their wings to carry their weight during flight.)</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/birds/class6/c10.png') }}" class="h-[20vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 6: Can It Fly?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="24">
+            <li>Guide children to understand that although an ostrich cannot fly, it is a fast runner. An ostrich can run
+                faster than the cars on the road. It is the fastest two legged animal.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/birds/class6/c11.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 6: Can It Fly?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="25">
+            <li>Let the children listen to the instructions given and imitate the actions of different birds. (e.g. a dove
+                flaps its wings to fly; an eagle spreads its wings to glide; a hummingbird hovers in mid-air; a sparrow hops
+                to move on land; a peacock walks slowly while its fan feathers spread out like a fan, a penguin or duck's
+                swaying walk.)</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 6: Can It Fly?</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="26">
+            <li>Guide children to complete the corresponding activities in the Thematic
+                Activity Book.</li>
+        </ol>
+    </div>
+
+
+
     {{-- panel 28 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 6: Get Ready for Fishing</h1>
+        <h1 class="panel-title stroke">Classroom Activity 6: Can It Fly?</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have the children display their fishing rods, fishing baskets
-                    and fishes. Encourage the children to appreciate each
-                    others' work.</li>
+                <li>Let each child name a bird he/she likes most and imitate its actions.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to state the names and uses of a fishing rod and a fishing basket.</li>
-                <li>Able to make a fishing rod and a fishing basket.</li>
+                <li>Know that not all animals that can fly are birds.</li>
+                <li>Know that not all birds can fly.</li>
+                <li>Able to imitate bird movements such as flying, swimming and moving on land.</li>
             </ul>
         </div>
     </div>
@@ -218,8 +474,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/habit1/index') }}";
-            const doneURL = "{{ url('/micet/n2/habit1/index') }}";
+            const returnURL = "{{ url('/micet/k1/birds/index') }}";
+            const doneURL = "{{ url('/micet/k1/birds/index') }}";
 
             // Track current position
             let currentSlide = 0;

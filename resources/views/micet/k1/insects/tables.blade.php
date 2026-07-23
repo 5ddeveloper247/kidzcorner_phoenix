@@ -122,8 +122,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/habit1/index') }}";
-            const doneURL = "{{ url('/micet/n2/habit1/index') }}";
+            const returnURL = "{{ url('/micet/k1/insects/index') }}";
+            const doneURL = "{{ url('/micet/k1/insects/index') }}";
 
             // Track current position
             let currentSlide = 0;
