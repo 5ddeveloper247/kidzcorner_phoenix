@@ -38,15 +38,15 @@ $showMascot = true;
 
 {{-- panel 1 --}}
 <div class="phonics-panel flex flex-col justify-between h-full items-center">
-    <h1 class="panel-title stroke">Computer Activities: Home For All</h1>
-    <img src="{{ asset('assets/images/micet/k1/home/activity/c1.png') }}" class="h-[8vw]" />
-    <img src="{{ asset('assets/images/micet/k1/home/activity/c2.png') }}" class="w-[25vw]" />
+    <h1 class="panel-title stroke">Computer Activities: Fairy Tail Land</h1>
+    <img src="{{ asset('assets/images/micet/k2/home/activity/c1.png') }}" class="h-[8vw]" />
+    <img src="{{ asset('assets/images/micet/k2/home/activity/c2.png') }}" class="w-[25vw]" />
 </div>
 
 
 {{-- panel 2 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center">
-    <h1 class="panel-title stroke">Computer Activities: Home For All</h1>
+    <h1 class="panel-title stroke">Computer Activities: Fairy Tail Land</h1>
 
     <div class="text-start">
         <h3 class="ptitle">Tuning-in</h3>
@@ -55,20 +55,18 @@ $showMascot = true;
             <li>
                 Prior to the lesson, ask children the following questions to stimulate their interest.
                 <ol class="list-[lower-alpha] pl-[2vw]">
-                    <li>What kind of house do you live in?</li>
-                    <li>What are the rooms you can find in your house? What are their uses?</li>
-                    <li>What buildings can you find near your house?</li>
+                    <li>. How would you feel if someone makes noise beside you when you are resting?</li>
+                    <li>What are the different types of houses that you know of?</li>
+                    <li>Would you feel lonely if you were living by yourself?</li>
                 </ol>
             </li>
 
             <li>
-                Invite a few children to answer the above questions. In addition, ask the
-                children the following questions and help them to find the answers in the
-                courseware.
+                In addition, ask the following questions and guide the children in finding the answers in the courseware.
                 <ol class="list-[lower-alpha] pl-[2vw]">
-                    <li> Do you know what the little tortoise's house looks like?</li>
-                    <li>What does Sue's house look like?</li>
-                    <li>How many rooms are there in Sue's house?</li>
+                    <li> . Why did Mr Giant move house?</li>
+                    <li>Name the types of houses Mr Giant tried living in?</li>
+                    <li>Where did Mr Giant live eventually?</li>
                 </ol>
             </li>
         </ol>
@@ -78,20 +76,19 @@ $showMascot = true;
 
 {{-- panel 3 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center">
-    <h1 class="panel-title stroke">Computer Activities: Home For All</h1>
+    <h1 class="panel-title stroke">Computer Activities: Fairy Tail Land</h1>
 
     <div class="text-start space-y-[1vw]">
-        <h3 class="ptitle">Activity 1: Story - Home For All</h3>
+        <h3 class="ptitle">Activity 1: Story - Ticky Tocky</h3>
 
         <div class="flex justify-center items-start gap-[3vw]">
-            <img src="{{ asset('assets/images/micet/k1/home/activity/c3.png') }}" class="w-[25vw]" />
+            <img src="{{ asset('assets/images/micet/k2/home/activity/c3.png') }}" class="w-[20vw]" />
             <div>
                 <h3 class="ptitle">Objectives</h3>
-                <ul class="list-disc panel-ul w-[25vw]">
-                    <li>Know the names and uses of different
-                        household items</li>
-                    <li>Attain a comprehensive understanding
-                        of the concept of "home"</li>
+                <ul class="list-disc panel-ul w-[20vw]">
+                    <li>To learn how to be considerate towards others.</li>
+                    <li>Learn about the characteristics of the different living environments around the world.</li>
+                    <li>Build on vocabulary and learn simple sentence structures.</li>
                 </ul>
             </div>
         </div>
@@ -102,159 +99,107 @@ $showMascot = true;
 
 {{-- panel 4 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Computer Activities: Home For All</h1>
+    <h1 class="panel-title stroke">Computer Activities: Fairy Tail Land</h1>
 
     <div class="text-start">
         <h3 class="ptitle">Story</h3>
 
-        <p class="panel-ul">The story begins with the home of the tortoise and snail - their shell is their
-            home. It then leads into the different living environments of animals and of
-            man. Sue introduces us to her home, through which the children will acquire
-            an understanding of the design and uses of the different rooms in a house,
-            for example, the bedroom and bathroom.</p>
+        <p class="panel-ul">The Fairy Tale Land that Mr Giant had been living in was becoming
+            increasingly noisy. He could not bear the noise anymore and decided to
+            move out. He moved from a tree house to a boat house, then to the North
+            Pole, but he stayed for only a short while at each place. He moved back to
+            the Fairy Tale Land eventually as he missed his friends. His friends wanted to
+            make amends for their inconsiderate ways. All of them came up with ideas
+            to resolve the issue.</p>
     </div>
 </div>
 
 {{-- panel 3 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center">
-    <h1 class="panel-title stroke">Computer Activities: Home For All</h1>
+    <h1 class="panel-title stroke">Computer Activities: Fairy Tail Land</h1>
 
-    <div class="text-start space-y-[1vw]">
-        <h3 class="ptitle">Activity 2: Let’s Arrange Numbers</h3>
+    <div class="text-start space-y-[0.4vw]">
+        <h3 class="ptitle">Activity 2: Story - Spick and Span</h3>
 
         <div class="flex justify-center items-start gap-[3vw]">
-            <img src="{{ asset('assets/images/micet/k1/home/activity/c4.png') }}" class="w-[25vw]" />
+            <img src="{{ asset('assets/images/micet/k2/home/activity/c4.png') }}" class="w-[20vw]" />
             <div>
                 <h3 class="ptitle">Objectives</h3>
                 <ul class="panel-ul w-[30vw]">
-                    <li>Practise arranging 1 to 10 in sequence</li>
-                    <li>Practise hand-eye coordination</li>
+                    <li>Develop a sense of responsibility and concept of time.</li>
+                    <li>Understand the cause and effect of things.</li>
                 </ul>
-                <h3 class="ptitle">Porcess</h3>
-                <ul class="panel-ul w-[27vw]">
-                    <li>Arrange the houses according to their
-                        number in ascending order.</li>
-                </ul>
+
+                <h3 class="ptitle">Process</h3>
+                <div class="panel-ul w-[30vw] space-y-[0.5vw]">
+                    <p>
+                        Children help Mr Giant keep house by completing tasks according to the instructions given.
+                    </p>
+                    <p>
+                        <strong>Level one:</strong> Simpler tasks are required to be completed in the bedroom, kitchen and living room.
+                    </p>
+                    <p>
+                        <strong>Level two:</strong> More demanding tasks are required to be completed in the garden, bedroom, kitchen and living room.
+                    </p>
+                </div>
             </div>
         </div>
     </div>
 </div>
 
 
-{{-- Panel 4 --}}
+{{-- panel 3 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center">
-    <h1 class="panel-title stroke">Computer Activities: Home For All</h1>
+    <h1 class="panel-title stroke">Computer Activities: Fairy Tail Land</h1>
 
-    <div class="text-start space-y-[1vw]">
-        <h3 class="ptitle">Activity 3: Matching Game</h3>
+    <div class="text-start space-y-[0.1vw]">
+        <h3 class="ptitle">Activity 3: Story - Home Sweet Home</h3>
 
-        <div class="flex justify-center items-start gap-[3vw]">
-            <img src="{{ asset('assets/images/micet/k1/home/activity/c5.png') }}" class="w-[25vw]" />
+        <div class="flex justify-center items-start gap-[2vw]">
+            <img src="{{ asset('assets/images/micet/k2/home/activity/c5.png') }}" class="w-[20vw]" />
             <div>
                 <h3 class="ptitle">Objectives</h3>
                 <ul class="panel-ul w-[30vw]">
-                    <li>Develop memory retention</li>
-                    <li>Practise matching names of family members</li>
+                    <li>Classify articles according to their sizes and types.</li>
+                    <li>Experience the joy in helping others.</li>
                 </ul>
-                <h3 class="ptitle">Porcess</h3>
-                <ul class="panel-ul w-[27vw]">
-                    <li>There are eight cards which show the different
-                        members of a family. The cards will be turned
-                        over after the children have viewed them. The
-                        children would then have to try and remember
-                        the position of each card and match the cards
-                        accordingly. For example, cards of father
-                        with mother, uncle with auntie.</li>
-                </ul>
+
+                <h3 class="ptitle">Process</h3>
+                <div class="panel-ul w-[30vw]">
+                    <p>
+                        Children classify the various building materials according to the instructions given and help Mr Giant build a house.
+                    </p>
+                    <p>
+                        <strong>Level one:</strong>Place various building materials into boxes labelled "tools", "bricks" and "planks".
+                    </p>
+                    <p>
+                        <strong>Level two:</strong>Place various building materials into boxes labelled "big bricks", "small bricks", "long planks", "short planks", "building tools" and "painting tools".
+                    </p>
+                </div>
             </div>
         </div>
     </div>
 </div>
-
-
-{{-- Panel 4 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center">
-    <h1 class="panel-title stroke">Computer Activities: Home For All</h1>
-
-    <div class="text-start space-y-[1vw]">
-        <h3 class="ptitle">Activity 4: Puzzle Game</h3>
-
-        <div class="flex justify-center items-start gap-[3vw]">
-            <img src="{{ asset('assets/images/micet/k1/home/activity/c6.png') }}" class="w-[25vw]" />
-            <div>
-                <h3 class="ptitle">Objectives</h3>
-                <ul class="panel-ul w-[25vw]">
-                    <li>Differentiate between the basic shapes</li>
-                    <li>Learn how shapes can be combined</li>
-                </ul>
-                <h3 class="ptitle">Porcess</h3>
-                <ul class="panel-ul w-[25vw]">
-                    <li>Children are to form a house using the
-                        different shapes available. They will do
-                        this by looking at the pattern of the
-                        house at the top right hand corner of
-                        the screen.</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-
-{{-- Panel 4 --}}
-<div class="phonics-panel flex flex-col justify-start h-full items-center">
-    <h1 class="panel-title stroke">Computer Activities: Home For All</h1>
-
-    <div class="text-start space-y-[1vw]">
-        <h3 class="ptitle">Activity 5: Puzzle Game</h3>
-
-        <div class="flex justify-center items-start gap-[3vw]">
-            <img src="{{ asset('assets/images/micet/k1/home/activity/c7.png') }}" class="w-[25vw]" />
-            <div>
-                <h3 class="ptitle">Objectives</h3>
-                <ul class="panel-ul w-[25vw]">
-                    <li>Understand the individual rooms in a house
-                        and the furniture in them</li>
-                    <li>Learn new vocabulary related to the home</li>
-                </ul>
-                <h3 class="ptitle">Porcess</h3>
-                <ul class="panel-ul w-[25vw]">
-                    <li>Children will place the furniture (at the
-                        bottom of the screen) in the
-                        appropriate rooms. If the answer is
-                        correct, the corresponding vocabulary
-                        will be shown.</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>
-
 
 
 {{-- panel 4 --}}
 <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-    <h1 class="panel-title stroke">Computer Activities: Home For All</h1>
+    <h1 class="panel-title stroke">Computer Activities: Fairy Tail Land</h1>
 
     <div class="text-start flex flex-col justify-between h-full">
         <h3 class="ptitle">Clousre</h3>
 
         <ul class="list-disc panel-ul w-[45vw]">
-            <li>Before the end of the lesson, invite
-                a few children to answer the questions
-                posed at the beginning of the lesson.</li>
-            <li>
-                Invite children to name the different types of houses, rooms and the furniture in them.
-            </li>
+            <li>Have the children review the types of houses that Mr Giant had lived in.</li>
+            <li>Talk about the type of house that one wishes to live in.</li>
         </ul>
 
         <h3 class="ptitle">Evaluation</h3>
 
         <ul class="list-disc panel-ul w-[45vw]">
-            <li>Be able to complete the various activities in the courseware.</li>
-            <li>Be able to sing the songs in the courseware.</li>
-            <li>Attain a comprehensive understanding of the concept of "home".</li>
+            <li>Able to complete the various activities in the courseware.</li>
+            <li>Able to answer the questions posed at the beginning of the lesson.</li>
+            <li>Able to describe one's favourite house.</li>
 
         </ul>
     </div>
@@ -314,8 +259,8 @@ $showMascot = true;
         const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
         // URLs for navigation
-        const returnURL = "{{ url('/micet/k1/home/index') }}";
-        const doneURL = "{{ url('/micet/k1/home/index') }}";
+        const returnURL = "{{ url('/micet/k2/home/index') }}";
+        const doneURL = "{{ url('/micet/k2/home/index') }}";
 
         // Track current position
         let currentSlide = 0;
