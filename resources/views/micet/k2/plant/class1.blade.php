@@ -48,24 +48,23 @@ $showMascot = true;
 
 {{-- panel 1 --}}
 <div class="phonics-panel flex flex-col justify-between h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 1: Little Seeds Find Their Mummy</h1>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class1/c1.png') }}" class="h-[7vw]" />
+    <h1 class="panel-title stroke">Classroom Activity 1: Where Do Fruits Come From?</h1>
+    <img src="{{ asset('assets/images/micet/k2/plant/class1/c1.png') }}" class="h-[7vw]" />
 
 
     <h3 class="title">Objectives:</h3>
 
     <ul class="list-disc panel-ul w-[40vw]">
-        <li>Understand what seeds are</li>
-        <li>Recognise and identify some common fruits</li>
-        <li>Learn to describe the colour, shape, taste and other</li>
-        <li>characteristics of fruits</li>
+        <li>To understand the entire growth process of fruit.</li>
+        <li>To know some phrases related to fruit.</li>
+        <li>To develop observation and exploration skills in nature.</li>
     </ul>
 </div>
 
 
 {{-- panel 2 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-    <h1 class="panel-title stroke">Classroom Activity 1: Little Seeds Find Their Mummy</h1>
+    <h1 class="panel-title stroke">Classroom Activity 1: Where Do Fruits Come From?</h1>
 
     <div>
         <h3 class="title">Preparations</h3>
@@ -79,14 +78,13 @@ $showMascot = true;
 
 {{-- panel 2 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-    <h1 class="panel-title stroke">Classroom Activity 1: Little Seeds Find Their Mummy</h1>
+    <h1 class="panel-title stroke">Classroom Activity 1: Where Do Fruits Come From?</h1>
 
     <div>
         <h3 class="title">Lesson Development</h3>
 
         <ol class="list-decimal panel-ul w-[45vw]">
-            <li>Tell the story using suggested questions and activities to reinforce the
-                teaching points of the story.</li>
+            <li>Tell the story using suggested questions and activities to reinforce the teaching points of the story.</li>
         </ol>
     </div>
 </div>
@@ -94,121 +92,120 @@ $showMascot = true;
 
 {{-- panel 4 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-    <h1 class="panel-title stroke">Little Seeds Find Their Mummy</h1>
+    <h1 class="panel-title stroke">Where do fruits come from?</h1>
 
-    <h3 class="p-title">Theme: Fruits</h3>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class1/c2.png') }}" class="w-[30vw]" />
+    <h3 class="p-title">Theme: The World of Plants</h3>
+    <img src="{{ asset('assets/images/micet/k2/plant/class1/c2.png') }}" class="w-[30vw]" />
 </div>
 
 
 {{-- panel 5 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center">
-    <h3 class="p-title">One day, two little white round seeds, Tinny and Whinny, pop out of a
-        rubbish bin in the park. They do not know who their mother is. So, they
-        ask Susie Swallow to help them to find their mother.</h3>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class1/c3.png') }}" class="w-[25vw]" />
+    <h3 class="p-title">Bobo likes to eat fruit. He wants to find out where fruit comes from. He
+        goes to the library to look for books on apples. He finds out that apples
+        grow on trees. He decides to go to the orchard to look at apple trees.</h3>
+    <img src="{{ asset('assets/images/micet/k2/plant/class1/c3.png') }}" class="w-[25vw]" />
 
     <div class="flex items-center justify-between">
         <h3 class="p-title text-left">
-            Can you name some things with seeds that you will find in school?<br>
-            <span class="text-[#f7b94a]">Cultivate children's interest in nature and help them expand their <br>
-                knowledge through observation.</span>
+            Other than asking your parents orteachers, what will you do when you face
+            a problem you cannot understand?<br>
+            <span class="text-[#f7b94a]">Develop the children's abilities to reflect independently and to possess the
+                drive to explore.</span>
         </h3>
-        <img src="{{ asset('assets/images/micet/k1/fruits/class1/b2.png') }}" class="w-[5vw]" />
+        <img src="{{ asset('assets/images/micet/k2/plant/class1/b2.png') }}" class="w-[5vw]" />
     </div>
 </div>
 
 
 {{-- panel 6 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center">
-    <h3 class="p-title">Susie Swallow takes them to an orchard. The Little Seeds think that Mrs.
-        Banana is their mother, but she tells them that banana seeds are small
-        like sesame seeds, and not like them at all.</h3>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class1/c4.png') }}" class="w-[25vw]" />
+    <h3 class="p-title">Bobo reaches the orchard and finds an apple tree. Wow! It is so tall! But
+        the apple tree tells Bobo it grows from a small seed.</h3>
+    <img src="{{ asset('assets/images/micet/k2/plant/class1/c4.png') }}" class="w-[25vw]" />
 
     <div class="flex items-center justify-around w-[45vw]">
         <h3 class="p-title text-left">
-            Do you know what banana seeds look like? How are they different
-            from apple seeds?<br>
-            <span class="text-[#f7b94a]">Guide the children to do a comparison study, and help them to
-                express their findings.</span>
+            What do the apple seeds look like? Cut an apple to find out.<br>
+            <span class="text-[#f7b94a]">Extend the children's knowledge of apple seeds.</span>
         </h3>
-        <img src="{{ asset('assets/images/micet/k1/fruits/class1/b1.png') }}" class="w-[8vw]" />
+        <img src="{{ asset('assets/images/micet/k2/plant/class1/b3.png') }}" class="w-[8vw]" />
     </div>
 </div>
 
 
 {{-- panel 7 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center">
-    <h3 class="p-title">Just then, a fruit fairy appears. She gives five treasure boxes to the Little
-        Seeds to help them find their mother. "Do not worry. Have patience
-        and you will find your mummy", says the fairy.</h3>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class1/c5.png') }}" class="w-[25vw]" />
+    <h3 class="p-title">How does a small seed grow into a big tree? The apple tree says that it
+        is different from humans. It only needs sunlight, air, water and minerals
+        to grow.</h3>
+    <img src="{{ asset('assets/images/micet/k2/plant/class1/c5.png') }}" class="w-[25vw]" />
 
     <div class="flex items-center justify-between ">
         <h3 class="p-title text-left">
-            Why does the fruit fairy not tell the Little Seeds who their mother is? <br>
-            <span class="text-[#f7b94a]">Teach the children to be independent by helping them understand the <br>
-                importance of overcoming an obstacle by themselves.</span>
+            What are the differences between the apple tree's food and your food? <br>
+            <span class="text-[#f7b94a]">Help the children understand that plants are able to produce their own food.</span>
         </h3>
-        <img src="{{ asset('assets/images/micet/k1/fruits/class1/b3.png') }}" class="w-[5vw]" />
+        <img src="{{ asset('assets/images/micet/k2/plant/class1/b3.png') }}" class="w-[5vw]" />
     </div>
 </div>
 
 
 {{-- panel 8 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center">
-    <h3 class="p-title">"Your mummy is round", says the first treasure box. So, the Little Seeds
-        find a watermelon. But their mother is not a watermelon because
-        watermelons have black and flat seeds.</h3>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class1/c6.png') }}" class="w-[25vw]" />
+    <h3 class="p-title">The apple tree grows by eating this food. But how old is the tree? Just
+        look at the tree trunk! The tree trunk has a ring on it for every year it
+        grows. The rings are called "growth rings".</h3>
+    <img src="{{ asset('assets/images/micet/k2/plant/class1/c6.png') }}" class="w-[25vw]" />
 
     <div class="flex items-center justify-between w-[45vw]">
         <h3 class="p-title text-left">
-            Can you name some othertypes of melon other than the watermelon? Do 
-            they have special features?<br>
-            <span class="text-[#f7b94a]">Help the children to identify othertypes of melons by their names, shape,
-                colour and other characte ristics.</span>
+            Do you know how to calculate your age?<br>
+            <span class="text-[#f7b94a]">Help the children understand their birth month and year.</span>
         </h3>
-        <img src="{{ asset('assets/images/micet/k1/fruits/class1/b2.png') }}" class="w-[5vw]" />
+    </div>
+    <div class="flex">
+        <img src="{{ asset('assets/images/micet/k2/plant/class1/b2.png') }}" class="h-[5vw]" />
+        <img src="{{ asset('assets/images/micet/k2/plant/class1/b1.png') }}" class="h-[4.8vw]" />
     </div>
 </div>
 
 
 {{-- panel 9 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center">
-    <h3 class="p-title">"Your mummy grows on trees", says the second treasure box. So, the
-        Little Seeds find an orange. But their mother is not an orange because
-        oranges have small white seeds.</h3>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class1/c7.png') }}" class="w-[25vw]" />
+    <h3 class="p-title">After the seed grows into a big tree, it blooms. Then how do fruits grow?
+        Just then, a bee flies by and explains that the bees help apple flowers
+        transport pollen.</h3>
+    <img src="{{ asset('assets/images/micet/k2/plant/class1/c7.png') }}" class="w-[25vw]" />
 
     <div class="flex items-center justify-between w-[45vw]">
         <h3 class="p-title text-left">
-            Do you know what is special about the orange skin? What other fruits are
-            similar to the orange?<br>
-            <span class="text-[#f7b94a]">Develop the children's observation skill. Help them understand the
-                characte ristics of citrus fruit. </span>
+            Have you seen pollen before? Explain how the bee transports pollen.<br>
+            <span class="text-[#f7b94a]">Train the children's verbal expression and observation skills.. </span>
         </h3>
-        <img src="{{ asset('assets/images/micet/k1/fruits/class1/b2.png') }}" class="w-[5vw]" />
+        <div class="flex">
+            <img src="{{ asset('assets/images/micet/k2/plant/class1/b3.png') }}" class="h-[5vw]" />
+            <img src="{{ asset('assets/images/micet/k2/plant/class1/b4.png') }}" class="h-[4.8vw]" />
+        </div>
     </div>
 </div>
 
 
 {{-- panel 10 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center">
-    <h3 class="p-title">"Your mummy is red", says the third treasure box. So, the Little Seeds
-        find an apple. But their mother is not an apple because apples have
-        brown seeds.</h3>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class1/c8.png') }}" class="w-[25vw]" />
+    <h3 class="p-title">After apple flowers receive the pollen, the petals wither and drop off.
+        Then the tree bears small fruits. After a period of time, the small fruits
+        tum into big red apples.</h3>
+    <img src="{{ asset('assets/images/micet/k2/plant/class1/c8.png') }}" class="w-[25vw]" />
 
     <div class="flex items-center justify-between w-[45vw]">
         <h3 class="p-title text-left">
-            Do you like to eat apples? Do you know what nutrients apples have?<br>
-            <span class="text-[#f7b94a]">Encourage the children to eat more fruits as they are a good sourceof vitamins.</span>
+            Have you noticed flowers on a tree turned into fruits?<br>
+            <span class="text-[#f7b94a]">Develop the children's curiosity and observation skills.</span>
         </h3>
         <div class="flex">
-            <img src="{{ asset('assets/images/micet/k1/fruits/class1/b2.png') }}" class="h-[5vw]" />
-            <img src="{{ asset('assets/images/micet/k1/fruits/class1/b3.png') }}" class="h-[4.8vw]" />
+            <img src="{{ asset('assets/images/micet/k2/plant/class1/b3.png') }}" class="h-[5vw]" />
+            <img src="{{ asset('assets/images/micet/k2/plant/class1/b2.png') }}" class="h-[4.8vw]" />
         </div>
     </div>
 </div>
@@ -216,20 +213,19 @@ $showMascot = true;
 
 {{-- panel 11 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center">
-    <h3 class="p-title">"Your mummy is small", says the fourth treasure box. So, the Little
-        Seeds find a rambutan. But their mother is not a rambutan because
-        rambutans have big white seeds.</h3>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class1/c9.png') }}" class="w-[25vw]" />
+    <h3 class="p-title">The apple tree tells Bobo that many other fruits also grow from small
+        seeds, slowly sprouting from the ground into a tree, then blooming
+        and bearing fruit, just like the apple tree.</h3>
+    <img src="{{ asset('assets/images/micet/k2/plant/class1/c9.png') }}" class="w-[25vw]" />
 
     <div class="flex items-center justify-between w-[45vw]">
         <h3 class="p-title text-left">
-            What do you think a rambutan looks like?<br>
-            <span class="text-[#f7b94a]">Encourage the children to use their imagination/ observation and
-                express their thoughts.</span>
+            Can you explain where apples come from?<br>
+            <span class="text-[#f7b94a]">Help the children name the apples' growth process in sequence.</span>
         </h3>
         <div class="flex">
-            <img src="{{ asset('assets/images/micet/k1/fruits/class1/b2.png') }}" class="h-[5vw]" />
-            <img src="{{ asset('assets/images/micet/k1/fruits/class1/b3.png') }}" class="h-[4.8vw]" />
+            <img src="{{ asset('assets/images/micet/k2/plant/class1/b3.png') }}" class="h-[5vw]" />
+            <img src="{{ asset('assets/images/micet/k2/plant/class1/b4.png') }}" class="h-[4.8vw]" />
         </div>
     </div>
 </div>
@@ -237,20 +233,20 @@ $showMascot = true;
 
 {{-- panel 11 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center">
-    <h3 class="p-title">"Your mummy has smooth skin", says the fifth treasure box. So, the
-        Little Seeds find a cherry. This time, they find their mother. The fruit fairy
-        appears and congratulates them.</h3>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class1/c9.png') }}" class="w-[25vw]" />
+    <h3 class="p-title">The apple tree gives Bobo a small lovely seed. Bobo takes the seed
+        and goes home happily. He plans to grow an apple tree in his garden.</h3>
+    <img src="{{ asset('assets/images/micet/k2/plant/class1/c9.png') }}" class="w-[25vw]" />
 
     <div class="flex items-center justify-between w-[55vw]">
         <h3 class="p-title text-left">
-            Can you recall how the Little Seeds found their mother? What other
-            fruits did they meet before they eventually found their mother?<br>
-            <span class="text-[#f7b94a]">Deepen the children's understanding of the story and help them to
-                develop logical thinking skills.</span>
+            Do you want to grow a fruit tree? How do you want to grow it?<br>
+            <span class="text-[#f7b94a]">If possible, try to plant a seed with the children.</span>
         </h3>
 
-        <img src="{{ asset('assets/images/micet/k1/fruits/class1/b1.png') }}" class="w-[8vw]" />
+        <div class="flex">
+            <img src="{{ asset('assets/images/micet/k2/plant/class1/b3.png') }}" class="h-[5vw]" />
+            <img src="{{ asset('assets/images/micet/k2/plant/class1/b2.png') }}" class="h-[4.8vw]" />
+        </div>
 
     </div>
 </div>
@@ -258,22 +254,20 @@ $showMascot = true;
 
 {{-- panel 13 --}}
 <div class="phonics-panel flex flex-col items-center h-full space-y-[1vw]">
-    <h1 class="panel-title stroke">Classroom Activity 1: Little Seeds Find Their Mummy</h1>
+    <h1 class="panel-title stroke">Classroom Activity 1: Where Do Fruits Come From?</h1>
 
     <div class="text-start flex flex-col justify-between h-full">
         <h3 class="ptitle">Clousre</h3>
 
         <ul class="list-disc panel-ul w-[45vw]">
-            <li>Let the children talk about their favourite fruits.
-                Encourage them to describe each fruit's shape, colour,
-                taste and other characteristics.</li>
+            <li>Invite the children to talk about the growth process of a fruit tree again.</li>
         </ul>
 
         <h3 class="ptitle">Evaluation</h3>
 
         <ul class="list-disc panel-ul w-[45vw]">
-            <li>Able to recognise common fruits.</li>
-            <li>Able to identify the characteristics of different fruits through comparison.</li>
+            <li>Able to explain the entire growth process of a fruit tree.  </li>
+            <li>Able to answer some questions in the story.</li>
         </ul>
     </div>
 </div>
@@ -333,8 +327,8 @@ $showMascot = true;
         const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
         // URLs for navigation
-        const returnURL = "{{ url('/micet/k1/fruits/index') }}";
-        const doneURL = "{{ url('/micet/k1/fruits/index') }}";
+        const returnURL = "{{ url('/micet/k2/plant/index') }}";
+        const doneURL = "{{ url('/micet/k2/plant/index') }}";
 
         // Track current position
         let currentSlide = 0;

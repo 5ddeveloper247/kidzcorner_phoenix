@@ -41,12 +41,12 @@
         <h1 class="panel-title stroke">Table 1 : Theme Goals</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]">
-            <li>Know the different rooms in a house and understand their uses</li>
-            <li>Understand the surrounding environment and facilities around one's neighbourhood</li>
-            <li>Understand the functions of different parts of a house</li>
-            <li>Know different types of household items and their uses and then sort them based on different criteria</li>
-            <li>Use imagination to design a house and an ideal residential estate with friends</li>
-            <li>Understand what an address is and know its uses; Learn to state and write one's home address</li>
+            <li>Learn how to get along with others and be considerate. Show understanding and sympathy for each other.</li>
+            <li>Learn about the characteristics of various living environments.</li>
+            <li>Learn to cherish the environment and not litter.</li>
+            <li>Learn about some building materials and tools.</li>
+            <li>Learn to sing "Mr Giant" song and edit the song.</li>
+            <li>Distinguish between the types of noises and learn that noise is a form of pollution which is harmful to the body.</li>
         </ol>
     </div>
 
@@ -54,7 +54,7 @@
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Table 2 : MI Learning Web</h1>
-        <img src="{{ asset('assets/images/micet/k1/home/tables/t1.png') }}" class="w-[28vw]" />
+        <img src="{{ asset('assets/images/micet/k2/home/tables/t1.png') }}" class="w-[28vw]" />
 
     </div>
 
@@ -62,7 +62,7 @@
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
         <h1 class="panel-title stroke">Table 2 : MI Activities</h1>
-        <img src="{{ asset('assets/images/micet/k1/home/tables/t2.png') }}" class="h-[20vw]" />
+        <img src="{{ asset('assets/images/micet/k2/home/tables/t2.png') }}" class="h-[20vw]" />
 
     </div>
 
@@ -122,8 +122,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/k1/home/index') }}";
-            const doneURL = "{{ url('/micet/k1/home/index') }}";
+            const returnURL = "{{ url('/micet/k2/home/index') }}";
+            const doneURL = "{{ url('/micet/k2/home/index') }}";
 
             // Track current position
             let currentSlide = 0;
