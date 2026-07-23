@@ -48,7 +48,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 1: Candy Cat’s Fishing Adventure</h1>
+        <h1 class="panel-title stroke">Classroom Activity 1: Daisy Duckling’s Learning Adventure</h1>
         <div class="flex items-center">
             <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
             <img src="{{ asset('assets/images/micet/n1/animals/class1/b1.png') }}" class="h-[8vw]" />
@@ -58,15 +58,16 @@
         <h3 class="title">Objectives:</h3>
 
         <ul class="list-disc panel-ul w-[40vw]">
-            <li>To understand the importance of putting effort in the things we do.</li>
-            <li>To enhance expression and inferential skills.</li>
+            <li>Learn the names, characteristics and habits of some birds</li>
+            <li>Understand that different birds have different capabilities</li>
+            <li>Discover one's own capability</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Candy Cat’s Fishing Adventure</h1>
+        <h1 class="panel-title stroke">Classroom Activity 1: Daisy Duckling’s Learning Adventure</h1>
 
         <div>
             <h3 class="title">Preparations</h3>
@@ -80,7 +81,7 @@
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Candy Cat’s Fishing Adventure</h1>
+        <h1 class="panel-title stroke">Classroom Activity 1: Daisy Duckling’s Learning Adventure</h1>
 
         <div>
             <h3 class="title">Lesson Development</h3>
@@ -95,23 +96,25 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
-        <h1 class="panel-title stroke">Candy Cat’s Fishing Adventure</h1>
+        <h1 class="panel-title stroke">Daisy Duckling’s Learning Adventure</h1>
 
-        <h3 class="p-title">Theme: Good Habits 1</h3>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class1/c1.png') }}" class="w-[30vw]" />
+        <h3 class="p-title">Theme: The Word Of Birds</h3>
+        <img src="{{ asset('assets/images/micet/k1/birds/class1/c1.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">It is a sunny day, Mummy Cat decides to take Candy Cat to the river to <br>
-            teach herto fish. Candy is happy that she is going to learn a new skill.</h3>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class1/c2.png') }}" class="w-[25vw]" />
+        <h3 class="p-title">Daisy Duckling has grown up. She wants to learn some useful skills. She meets <br>
+            Rosie Rabbit. She wants to learn how to hop from Rosie. Rosie tells her since she <br>
+            has feathers and wings, she should learn skills from her own kind, the birds.</h3>
+        <img src="{{ asset('assets/images/micet/k1/birds/class1/c2.png') }}" class="w-[25vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                What equipment is needed for fishing?<br>
-                <span class="text-[#f7b94a]">Guide the children in identifying the equipment needed for fishing.</span>
+                What animal groups do rabbits and ducks belong to?<br>
+                <span class="text-[#f7b94a]">Guide the children to differentiate the animals that lay eggs and <br>
+                    those that give birth to their young alive.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -120,15 +123,17 @@
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">On the way, Candy meets Robbie Rooster and Rosie Rabbit. Candy <br>
-            invites them to go fishing but they say they have to finish their work first.</h3>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class1/c3.png') }}" class="w-[25vw]" />
+        <h3 class="p-title">Daisy Duckling goes to the forest and sees butterflies flying from flower to <br>
+            flower, gathering nectar. She decides to learn to fly from the butterflies. <br>
+            However, the butterflies say that although they have wings, they are not birds.</h3>
+        <img src="{{ asset('assets/images/micet/k1/birds/class1/c3.png') }}" class="w-[25vw]" />
 
         <div class="flex items-center justify-around w-full">
             <h3 class="p-title text-left">
-                Would you go fishing with Candy if she invites you?<br>
-                <span class="text-[#f7b94a]">Encourage the children to decide and explain the reasons for their
-                    choice.</span>
+                What animal group do butterflies belong to? What are the differences <br>
+                between butterflies and birds?<br>
+                <span class="text-[#f7b94a]">Guide the children to understand the differences between insects <br>
+                    and birds.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -137,17 +142,16 @@
 
     {{-- panel 7 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">At the river, Candy leamns to fish from her mother. Not long after, Mary <br>
-            Mantis comes by. Candy puts down the fishing rod and dances with <br>
-            Mary Mantis.</h3>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class1/c4.png') }}" class="w-[25vw]" />
+        <h3 class="p-title">Just then, Percy Peacock comes by. He spreads out his feathers and dances. <br>
+            Wow! It is beautiful! Daisy Duckling wants to learn how to dance from Percy but <br>
+            Percy says Daisy does not have big feathers on her tail to dance.</h3>
+        <img src="{{ asset('assets/images/micet/k1/birds/class1/c4.png') }}" class="w-[25vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                Do you think what Candy did is right?<br>
-                <span class="text-[#f7b94a]">Guide the children in understanding that they will not do things well if they
-                    <br>
-                    do it half-heartedly.</span>
+                Have you seen a peacock spread its tail? When does a peacock <br>
+                spread its tail?<br>
+                <span class="text-[#f7b94a]">Guide the children to understand why peacocks spread their tails.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -156,14 +160,17 @@
 
     {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Just as Candy is about to sit down after dancing, a dragonfly flies <br>
-            around it. Candy then plays with the dragonfly.</h3>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class1/c5.png') }}" class="w-[25vw]" />
+        <h3 class="p-title">Daisy Duckling comes to a tree and sees Willie Woodpecker checking if the <br>
+            tree is ill. It hopes to learn medical skills from Willie. However, Daisy does not <br>
+            have a pointed hard beak to peck trees and catch worms.</h3>
+        <img src="{{ asset('assets/images/micet/k1/birds/class1/c5.png') }}" class="w-[25vw]" />
 
         <div class="flex items-center justify-around w-full">
             <h3 class="p-title text-left">
-                What is special about dragonflies?<br>
-                <span class="text-[#f7b94a]">Explain the characteristics of dragonflies to the children.</span>
+                What does a woodpecker's beak look like? What does a duckling's <br>
+                beak look like?<br>
+                <span class="text-[#f7b94a]">Guide the children to compare the similarities and differences <br>
+                    between the two beaks.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -172,15 +179,17 @@
 
     {{-- panel 9 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Mummy Cat has already caught two fishes when Candy returns. Candy <br>
-            wants to catch a big fish like her mother.</h3>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class1/c6.png') }}" class="w-[30vw]" />
+        <h3 class="p-title">Listen! Who are singing by imitating Daisy Duckling? They are the talkative <br>
+            parrots. Daisy wants to learn how to talk from the parrots, but she does not <br>
+            have a nimble tongue like the parrots. Thus, she cannot talk.</h3>
+        <img src="{{ asset('assets/images/micet/k1/birds/class1/c6.png') }}" class="w-[30vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                Why could Mummy Cat catch two fishes while Candy had none?<br>
-                <span class="text-[#f7b94a]">Explain and teach the children the importance of putting effort
-                    in the things we do.</span>
+                Can you imitate the way in which a parrot mimics human speech?<br>
+                <span class="text-[#f7b94a]">Encourage the children to imitate voices of different characters in the story
+                    <br>
+                    to further develop their language expression skills.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -189,16 +198,15 @@
 
     {{-- panel 10 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Just then, a beautiful butterfly flies by. Candy puts down the fishing rod <br>
-            again and starts to chase the butterfly. Candy accidentally falls into the <br>
-            river while running.</h3>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class1/c7.png') }}" class="w-[25vw]" />
+        <h3 class="p-title">Oliver Ostrich is coming from afar. He is running very fast. Since Daisy Duckling <br>
+            cannot fly, so she wants to learn how to run from Oliver. However, Daisy does <br>
+            not have long legs like Oliver, so she cannot run as fast.</h3>
+        <img src="{{ asset('assets/images/micet/k1/birds/class1/c7.png') }}" class="w-[25vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                Why did Candy fall into the river?<br>
-                <span class="text-[#f7b94a]">Explain to the children the dangers of not been observant
-                    when running.</span>
+                Do you know why ostriches cannot fly?<br>
+                <span class="text-[#f7b94a]">Encourage the children to infer and express their views confidently.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
@@ -207,56 +215,39 @@
 
     {{-- panel 11 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Fortunately, Mama Duck rushes over in time and saves Candy. Mummy <br>
-            Cat tells Candy that she has to leam to concentrate and do one thing at <br>
-            a time and not do things half-heartedly.</h3>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class1/c8.png') }}" class="w-[30vw]" />
+        <h3 class="p-title">The sky is getting dark and it is time to go home. Although Daisy Duckling did <br>
+            not leam any skills, she now understands that every animal has its own unique <br>
+            ability. She decides to tell her mother and wants to leamn new skills from her.</h3>
+        <img src="{{ asset('assets/images/micet/k1/birds/class1/c8.png') }}" class="w-[30vw]" />
 
         <div class="flex items-center justify-between w-full">
             <h3 class="p-title text-left">
-                Do you think Candy will concentrate on fishing on the next trip?<br>
-                <span class="text-[#f7b94a]">Guide the children in predicting the ending of the story.</span>
+                What skills can Daisy Duckling leam from her mother?<br>
+                <span class="text-[#f7b94a]">Guide the children to name some characteristics of ducks.</span>
             </h3>
             <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
         </div>
     </div>
 
-
-    {{-- panel 12 --}}
-    <div class="phonics-panel flex flex-col justify-start h-full items-center">
-        <h3 class="p-title">Candy decides to concentrate on catching a fish. She does not play <br>
-            with the dragonfly or butterfly when they fly by again. Finally, Candy <br>
-            manages to catch a big fish!</h3>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class1/c9.png') }}" class="w-[25vw]" />
-
-        <div class="flex items-center justify-between w-full">
-            <h3 class="p-title text-left">
-                Why do you think Candy is able to catch a fish in the end?<br>
-                <span class="text-[#f7b94a]">Guide the children in understanding that they have concentrate and <br>
-                    put in effort in orderto leam a skill.</span>
-            </h3>
-            <img src="{{ asset('assets/images/micet/n1/colours/class1/b1.png') }}" class="w-[5vw]" />
-        </div>
-    </div>
 
 
     {{-- panel 13 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[1vw]">
-        <h1 class="panel-title stroke">Classroom Activity 1: Candy Cat’s Fishing Adventure</h1>
+        <h1 class="panel-title stroke">Classroom Activity 1: Daisy Duckling’s Learning Adventure</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have the children explain why Candy is able to catch a fish
-                    in the end.</li>
+                <li>Have the children state the capabilities of birds they know.</li>
+                <li>Have the children state their own capabilities.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to determine if Candy's behaviour is correct.</li>
-                <li>Able to explain why Candy is able to catch a fish in the end.</li>
+                <li>Able to state the names, characteristics and habits of the different animals in the story.</li>
+                <li>Able to state one's own capability( at least one).</li>
             </ul>
         </div>
     </div>
@@ -316,8 +307,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/habit1/index') }}";
-            const doneURL = "{{ url('/micet/n2/habit1/index') }}";
+            const returnURL = "{{ url('/micet/k1/birds/index') }}";
+            const doneURL = "{{ url('/micet/k1/birds/index') }}";
 
             // Track current position
             let currentSlide = 0;

@@ -38,7 +38,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Beautiful Butterflies</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: Feed The Birds</h1>
         <div class="flex ">
             <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
             <img src="{{ asset('assets/images/micet/n1/mybody/class2/c1.png') }}" class="h-[12vw]" />
@@ -48,24 +48,30 @@
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul w-[45vw]">
-            <li>To learn to sing the song "Beautiful butterflies".</li>
-            <li>To recognise and state the characteristics of a butterfly, and
-                imitate the way it flies.</li>
-            <li>To recognise and state the characteristics of a dragonfly,
-                and imitate the way it catches its food.</li>
+            <li>Identify different birds</li>
+            <li>Record the number and types of birds that come to the bird feeder</li>
+            <li>Draw a bird that one likes most</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
-    <div class="phonics-panel flex flex-col h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 4: Beautiful Butterflies</h1>
+    <div class="phonics-panel flex flex-col h-full items-center space-y-[3vw]">
+        <h1 class="panel-title stroke">Classroom Activity 4: Feed The Birds</h1>
 
         <div>
             <h3 class="ptitle">Preparations</h3>
 
-            <ul class="list-disc panel-ul">
+            <ul class="list-disc panel-ul w-[45vw]">
                 <li>Thematic Activity Book</li>
+                <li>Before the start of the activity, place a bird feeder outside the classroom window or on a tree. (The
+                    bird feeder can either be store bought or self-made. To make a birdfeeder take a toilet paper roll,
+                    spread peanut butter onto it and coat with bird seed. You may hang the roll with the help of a string.)
+                </li>
+                <li>Print out the observation record (Refer to sample record in lesson development). Make one copy for each
+                    child.</li>
+                <li>Drawing papers</li>
+                <li>Colour pencils</li>
             </ul>
         </div>
     </div>
@@ -73,16 +79,13 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Beautiful Butterflies</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: Feed The Birds</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[45vw]">
-                <li>Have the children recall the story. Ask them to identify who Candy was
-                    chasing when she fell into the river. (a butterfly)</li>
-                <li>Ask the children if they have ever seen a butterfly and have them describe
-                    what a butterfly looks like.</li>
+                <li>Invite the children to name some common birds (e.g. sparrow, pigeon, swallow, magpie, etc).</li>
             </ol>
         </div>
     </div>
@@ -90,242 +93,94 @@
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Beautiful Butterflies</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: Feed The Birds</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Have the children observe the physical characteristics of the butterfly and
-                describe it. Explain to the children that a butterfly has 4 wings (or 2 pairs of
-                wings).</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="2">
+            <li>Let the children name some foods that birds eat (e.g. seeds, fruits, insects, fish, etc).</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class4/c1.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Beautiful Butterflies</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: Feed The Birds</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Have the children observe the physical characteristics of the butterfly and
-                describe it. Explain to the children that a butterfly has 4 wings (or 2 pairs of
-                wings).</li>
+            <li>Click to play the video. Let the children express what the video is about. Guide the children to identify
+                the bird feeder ( a device placed outdoors to provide bird food for birds)</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class4/c2.png') }}" class="w-[30vw]" />
+        <video class="h-[18vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/k1/birds/class4/v1.mp4') }}" type="video/mp4">
+        </video>
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Beautiful Butterflies</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: Feed The Birds</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Have the children observe the physical characteristics of the butterfly and
-                describe it. Explain to the children that a butterfly has 4 wings (or 2 pairs of
-                wings).</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="4">
+            <li>Invite children to observe the bird feeder placed outside the classroom window or on a tree beforehand. Ask
+                children to describe how the bird feeder looks like.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class4/c3.png') }}" class="w-[25vw]" />
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Beautiful Butterflies</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: Feed The Birds</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Have the children observe the physical characteristics of the butterfly and
-                describe it. Explain to the children that a butterfly has 4 wings (or 2 pairs of
-                wings).</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="5">
+            <li>Distribute the observation record (or use the Thematic Activity Book). Tell children that they are going to
+                observe and record the number and types of birds that come to the bird feeder everyday.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class4/c4.png') }}" class="w-[30vw]" />
+        <img src="{{ asset('assets/images/micet/k1/birds/class4/c1.png') }}" class="h-[20vw]" />
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Beautiful Butterflies</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: Feed The Birds</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Have the children observe the physical characteristics of the butterfly and
-                describe it. Explain to the children that a butterfly has 4 wings (or 2 pairs of
-                wings).</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="6">
+            <li>Paste pictures of some common birds with their names near the bird feeder as a reference to help the
+                children identify the different birds.</li>
+            <li>If needed, you may extend the observation period.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class4/c5.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Beautiful Butterflies</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: Feed The Birds</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Click on the video. Have the children observe the butterflies to understand the
-                meaning of "gathering pollen", "gathering nectar". Explain to the children
-                that the nectar is the primary food for butterflies.</li>
+        <ol class="list-decimal panel-ul w-[48vw]" start="8">
+            <li>Upon completion of each day's record, let the children compare and discuss their observations and draw
+                conclusions with their classmates. (e.g. Are there more or less birds today as compared to the day before.
+                How many more/less? Are there any new types of birds today? What are their characteristics?)</li>
+            <li>Upon completion of the observation period, have children take turns to show and report their conclusions.
+                Encourage children to take note of the following things-
+                <ul class="list-disc">
+                    <li>In this period of time, what is the total number of birds that came to the bird feeder.</li>
+                    <li>Which day has the least number of birds coming to the feeder?</li>
+                    <li>Which day has the most number of birds coming to the feeder?</li>
+                    <li>What are the types of birds that came? How does each bird eat from the feeder?</li>
+                </ul>
+            </li>
         </ol>
-        <video class="h-[18vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-            <source src="{{ asset('assets/images/micet/n2/habit1/class4/v1.mp4') }}" type="video/mp4">
-        </video>
+
     </div>
 
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Beautiful Butterflies</h1>
+        <h1 class="panel-title stroke">Classroom Activity 4: Feed The Birds</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Click on the video. Have the children observe the butterflies to understand the
-                meaning of "gathering pollen", "gathering nectar". Explain to the children
-                that the nectar is the primary food for butterflies.</li>
-        </ol>
-        <video class="h-[18vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-            <source src="{{ asset('assets/images/micet/n2/habit1/class4/v2.mp4') }}" type="video/mp4">
-        </video>
-    </div>
-
-
-    {{-- panel 7 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Beautiful Butterflies</h1>
-
-        <ol class="list-decimal panel-ul" start="5">
-            <li>Play the song "Beautiful Butterflies". Have the children describe what the
-                <span class="flex items-end">butterflies in the song look like.
-                    <button class="w-[2.5vw]" id="soundButton">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button></span>
+        <ol class="list-decimal panel-ul w-[45vw]" start="10">
+            <li>Based on the observations during this period of time, invite children to conclude what time (morning, noon
+                or evening) usually a type of bird comes to the bird feeder.</li>
+            <li>Let the children choose and draw a bird that they like most from the birds that came to the bird feeder.
             </li>
-        </ol>
-        <h4 class="text-white text-[2vw] text-start mt-[4vw]">
-            Beautiful butterflies, <br>
-            With bright and colourful pairs of wings. <br>
-            Gather pollen, gather nectar, <br>
-            Flutter, flutter never cease.
-        </h4>
-    </div>
-
-    {{-- panel 7 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Beautiful Butterflies</h1>
-
-        <ol class="list-decimal panel-ul" start="6">
-            <li>Have the children repeat the lyrics after the teacher and sing the song when
-                <span class="flex items-end"> they are familiar with the words. <button class="w-[2.5vw]" id="soundButton">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button></span>
-            </li>
-        </ol>
-        <h4 class="text-white text-[2vw] text-start mt-[4vw]">
-            Beautiful butterflies, <br>
-            With bright and colourful pairs of wings. <br>
-            Gather pollen, gather nectar, <br>
-            Flutter, flutter never cease.
-        </h4>
-    </div>
-
-    {{-- panel 7 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Beautiful Butterflies</h1>
-
-        <ol class="list-decimal panel-ul" start="7">
-            <li> Have the children sing the song and dance like the butterflies when gathering
-                <span class="flex items-end">pollen and gathering nectar among flowers.
-                    <button class="w-[2.5vw]" id="soundButton">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button></span>
-            </li>
-        </ol>
-        <h4 class="text-white text-[2vw] text-start mt-[4vw]">
-            Beautiful butterflies, <br>
-            With bright and colourful pairs of wings. <br>
-            Gather pollen, gather nectar, <br>
-            Flutter, flutter never cease.
-        </h4>
-    </div>
-
-
-    {{-- panel 7 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Beautiful Butterflies</h1>
-
-        <ol class="list-decimal panel-ul" start="8">
-            <li> Display the picture of a dragonfly. Have the children name it and describe
-                <span class="flex items-end"> what its characteristics are.
-                    <button class="w-[2.5vw]" id="soundButton">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button></span>
-            </li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class4/c6.png') }}" class="w-[30vw]" />
-    </div>
-
-
-    {{-- panel 7 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Beautiful Butterflies</h1>
-
-        <ol class="list-decimal panel-ul" start="9">
-            <li> Ask the children how many wings a dragonfly has. Explain to them that a
-                dragonfly has 4 wings (2 pairs of wings). A dragonfly feeds on mainly
-                <span class="flex items-end">mosquitoes and some other insects.
-                    <button class="w-[2.5vw]" id="soundButton">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button></span>
-            </li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class4/c6.png') }}" class="w-[30vw]" />
-    </div>
-
-
-    {{-- panel 7 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Beautiful Butterflies</h1>
-
-        <ol class="list-decimal panel-ul" start="10">
-            <li>
-                <span class="flex items-end">
-                    Display the lyrics, teach the children to sing the song "Little Dragonflies".
-                    <button class="w-[2.5vw]" id="soundButton">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button></span>
-            </li>
-        </ol>
-        <h4 class="text-white text-[2vw] text-start mt-[4vw]">
-            Dragonflies with big eyes, <br>
-            Two pairs of wings light in flight. <br>
-            Flying east, flying west, <br>
-            Catching mosquitoes and flies.
-        </h4>
-    </div>
-
-
-    {{-- panel 7 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Beautiful Butterflies</h1>
-
-        <ol class="list-decimal panel-ul" start="9">
-            <li> Have the children sing the song and dance like dragonflies when catching
-                <span class="flex items-end"> mosquitoes and flies.
-                    <button class="w-[2.5vw]" id="soundButton">
-                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
-                    </button></span>
-            </li>
-        </ol>
-        <h4 class="text-white text-[2vw] text-start mt-[4vw]">
-            Dragonflies with big eyes, <br>
-            Two pairs of wings light in flight. <br>
-            Flying east, flying west, <br>
-            Catching mosquitoes and flies.
-        </h4>
-    </div>
-
-
-    {{-- panel 8 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 4: Beautiful Butterflies</h1>
-
-        <ol class="list-decimal panel-ul w-[45vw]" start="12">
-            <li>Guide children to complete the corresponding activities in the Thematic
-                Activity Book.</li>
         </ol>
     </div>
 
@@ -338,24 +193,20 @@
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have the children group themselves into two groups,
-                    namely, a butterfly group and a dragonfly group to sing and
-                    dance according to the songs.</li>
+                <li>Let the children display their drawings and explain what they like about their chosen bird.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to sing the song "Beautiful Butterflies".</li>
-                <li>Able to identify some characteristics of butterflies and
-                    imitate them flying.</li>
-                <li>Able to identify some characteristics of dragonflies and
-                    imitate them hunting for food.</li>
+                <li>Able to complete the observation record independently.</li>
+                <li>Able to identify most of the birds that came to the bird feeder.</li>
+                <li>Able to choose and draw a bird they like and state reason for preference.</li>
             </ul>
         </div>
     </div>
 
-    
+
 
     {{-- =============================================== --}}
     {{-- All Buttons --}}
@@ -408,8 +259,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/habit1/index') }}";
-            const doneURL = "{{ url('/micet/n2/habit1/index') }}";
+            const returnURL = "{{ url('/micet/k1/birds/index') }}";
+            const doneURL = "{{ url('/micet/k1/birds/index') }}";
 
             // Track current position
             let currentSlide = 0;

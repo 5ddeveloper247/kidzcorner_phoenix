@@ -38,7 +38,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Who’s fishing rod is longer?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Beautiful Feathers</h1>
         <div class="flex ">
             <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
             <img src="{{ asset('assets/images/micet/n1/mybody/class2/c1.png') }}" class="h-[12vw]" />
@@ -48,24 +48,21 @@
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul">
-            <li>To understand the concept of length.</li>
-            <li>To learn to compare the lengths of two or three objects.</li>
+            <li>Deepen understanding about birds' feathers</li>
+            <li>Learn to differentiate between male and female birds</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start space-y-[2vw] h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 3: Who’s fishing rod is longer?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Beautiful Feathers</h1>
 
         <div>
             <h3 class="ptitle mt-[5vw]">Preparations</h3>
 
-            <ul class="list-disc panel-ul w-[45vw]">
+            <ul class="list-disc panel-ul">
                 <li>Thematic Activity Book</li>
-                <li>Two pencils of different lengths.</li>
-                <li>Three different lengths of fishing rods made in advance.</li>
-                <li>Crayons</li>
             </ul>
         </div>
     </div>
@@ -73,100 +70,181 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
-        <h1 class="panel-title stroke">Classroom Activity 3: Who’s fishing rod is longer?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Beautiful Feathers</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
             <ol class="list-decimal panel-ul w-[45vw]">
-                <li>Display the two pencils of different lengths. Have the children state which
-                    pencil is longer and which is shorter. Guide the children in understanding the
-                    concept of length.</li>
-                <li>Have the children look for things in the classroom that are long and short.</li>
+                <li>Have the children recall the main characteristics of birds. Let them know that birds are the only type
+                    of animals with feathers.</li>
             </ol>
-        </div>
-        <div class="flex">
-            <div class=" flex flex-col justify-between">
-                <h2 class="text-white text-[2vw]">long</h2>
-                <h2 class="text-white text-[2vw]">short</h2>
-            </div>
-            <img src="{{ asset('assets/images/micet/n2/habit1/class3/c1.png') }}" class="h-[12vw]" />
         </div>
     </div>
 
 
     {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
-        <h1 class="panel-title stroke">Classroom Activity 3: Who’s fishing rod is longer?</h1>
+    <div class="phonics-panel flex flex-col items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: Beautiful Feathers</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Display the first 2 fishing rods (exclude the shortest fishing rod). Have the
-                children state which rod is longer and which is shorter.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="2">
+            <li>Ask the children: Why are feathers of most birds beautiful? Encourage the children to discuss and give their
+                own explanations. Accept all logical answers. Help the children understand that:
+
+                <ul class="list-disc">
+                    <li>Bird feathers are of different colours and sizes.</li>
+                    <li>Birds usually use their beautiful feathers to attract the attention of birds of the same kind.</li>
+                    <li>When birds migrate in groups, the colours of their feathers, just like military uniforms, help them
+                        to distinguish the members of their flock from the enemies.</li>
+                </ul>
+            </li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class3/c2.png') }}" class="h-[20vw]" />
+        <img src="{{ asset('assets/images/micet/k1/birds/class3/c1.png') }}" class="h-[10vw]" />
     </div>
 
-    {{-- panel 5 --}}
-    <div class="phonics-panel flex flex-col space-y-[2vw] items-center h-full">
-        <h1 class="panel-title stroke">Classroom Activity 3: Who’s fishing rod is longer?</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Display the shorter two of the three fishing rods. Have the children state which
-                rod is longer and which is shorter.</li>
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: Beautiful Feathers</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="2">
+            <li>Ask the children: Why are feathers of most birds beautiful? Encourage the children to discuss and give their
+                own explanations. Accept all logical answers. Help the children understand that:
+
+                <ul class="list-disc">
+                    <li>Bird feathers are of different colours and sizes.</li>
+                    <li>Birds usually use their beautiful feathers to attract the attention of birds of the same kind.</li>
+                    <li>When birds migrate in groups, the colours of their feathers, just like military uniforms, help them
+                        to distinguish the members of their flock from the enemies.</li>
+                </ul>
+            </li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class3/c2.png') }}" class="h-[20vw]" />
+        <img src="{{ asset('assets/images/micet/k1/birds/class3/c2.png') }}" class="h-[10vw]" />
+    </div>
+
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: Beautiful Feathers</h1>
+
+        <ol class="list-decimal panel-ul" start="3">
+            <li>Inform children that the feathers of male and female birds of the same type are usually different. Have them
+                guess the gender of these birds and give reasons. Guide children to understand that the feathers of male
+                birds are usually brighter and more colourful, whereas feathers of female birds are usually dull. Encourage
+                children to discuss why . Explain to the children that the brightly- coloured feathers of the males help
+                them to attract the females, while the dull- coloured feathers of the female usually blend in with the
+                environment. This enables the female birds to hide themselves (camouflage) from the enemies during periods
+                when they incubate their eggs and take care of their young ones.</li>
+        </ol>
+        <div class="w-fit h-fit">
+            <img src="{{ asset('assets/images/micet/k1/birds/class3/c3.png') }}" class="h-[10vw]" />
+            <div class="w-full flex justify-between items-center">
+                <p class="ptitle">rooster</p>
+                <p class="ptitle">hen</p>
+            </div>
+        </div>
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: Beautiful Feathers</h1>
+
+        <ol class="list-decimal panel-ul" start="3">
+            <li>Inform children that the feathers of male and female birds of the same type are usually different. Have them
+                guess the gender of these birds and give reasons. Guide children to understand that the feathers of male
+                birds are usually brighter and more colourful, whereas feathers of female birds are usually dull. Encourage
+                children to discuss why . Explain to the children that the brightly- coloured feathers of the males help
+                them to attract the females, while the dull- coloured feathers of the female usually blend in with the
+                environment. This enables the female birds to hide themselves (camouflage) from the enemies during periods
+                when they incubate their eggs and take care of their young ones.</li>
+        </ol>
+        <div class="w-fit h-fit">
+            <img src="{{ asset('assets/images/micet/k1/birds/class3/c4.png') }}" class="h-[10vw]" />
+            <div class="w-full flex justify-between items-center">
+                <p class="ptitle">female pheasant</p>
+                <p class="ptitle">male pheasant</p>
+            </div>
+        </div>
 
     </div>
 
     {{-- panel 6 --}}
-    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
-        <h1 class="panel-title stroke">Classroom Activity 3: Who’s fishing rod is longer?</h1>
+    <div class="phonics-panel flex flex-col items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: Beautiful Feathers</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="5">
-            <li>Display the three fishing rods. Have the children observe that when the middle
-                rod is compared with the first rod, it is shorter; but when it is compared with the
-                last rod, it is longer. Guide the children in understanding relativity of length,
-                that is, they can only tell whether an object is longer or shorter by comparison.</li>
+        <ol class="list-decimal panel-ul" start="3">
+            <li>Inform children that the feathers of male and female birds of the same type are usually different. Have them
+                guess the gender of these birds and give reasons. Guide children to understand that the feathers of male
+                birds are usually brighter and more colourful, whereas feathers of female birds are usually dull. Encourage
+                children to discuss why . Explain to the children that the brightly- coloured feathers of the males help
+                them to attract the females, while the dull- coloured feathers of the female usually blend in with the
+                environment. This enables the female birds to hide themselves (camouflage) from the enemies during periods
+                when they incubate their eggs and take care of their young ones.</li>
         </ol>
-        <div>
-            <img src="{{ asset('assets/images/micet/n2/habit1/class3/c3.png') }}" class="h-[6vw]" />
-            <img src="{{ asset('assets/images/micet/n2/habit1/class3/c2.png') }}" class="h-[11vw]" />
-        </div>
+        <img src="{{ asset('assets/images/micet/k1/birds/class3/c5.png') }}" class="h-[11vw]" />
+    </div>
+
+    {{-- panel 6 --}}
+    <div class="phonics-panel flex flex-col items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: Beautiful Feathers</h1>
+
+        <ol class="list-decimal panel-ul" start="3">
+            <li>Inform children that the feathers of male and female birds of the same type are usually different. Have them
+                guess the gender of these birds and give reasons. Guide children to understand that the feathers of male
+                birds are usually brighter and more colourful, whereas feathers of female birds are usually dull. Encourage
+                children to discuss why . Explain to the children that the brightly- coloured feathers of the males help
+                them to attract the females, while the dull- coloured feathers of the female usually blend in with the
+                environment. This enables the female birds to hide themselves (camouflage) from the enemies during periods
+                when they incubate their eggs and take care of their young ones.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/birds/class3/c6.png') }}" class="h-[11vw]" />
+    </div>
+
+    {{-- panel 6 --}}
+    <div class="phonics-panel flex flex-col items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: Beautiful Feathers</h1>
+
+        <ol class="list-decimal panel-ul" start="3">
+            <li>Inform children that the feathers of male and female birds of the same type are usually different. Have them
+                guess the gender of these birds and give reasons. Guide children to understand that the feathers of male
+                birds are usually brighter and more colourful, whereas feathers of female birds are usually dull. Encourage
+                children to discuss why . Explain to the children that the brightly- coloured feathers of the males help
+                them to attract the females, while the dull- coloured feathers of the female usually blend in with the
+                environment. This enables the female birds to hide themselves (camouflage) from the enemies during periods
+                when they incubate their eggs and take care of their young ones.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/birds/class3/c7.png') }}" class="h-[11vw]" />
     </div>
 
     {{-- panel 7 --}}
-    <div class="phonics-panel flex flex-col space-y-[1vw] items-center h-full">
-        <h1 class="panel-title stroke">Classroom Activity 3: Who’s fishing rod is longer?</h1>
+    <div class="phonics-panel flex flex-col items-center h-full">
+        <h1 class="panel-title stroke">Classroom Activity 3: Beautiful Feathers</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="6">
-            <li>Ask the children: "Which is the longest fishing rod?"; "Which is the shortest
-                fishing rod?". Guide the children in understanding the use of superlatives in
-                comparing more than two objects.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="4">
+            <li>Ask the children: Are all birds' feathers brightly-coloured? Have the children share their knowledge.</li>
         </ol>
-        <div>
-            <img src="{{ asset('assets/images/micet/n2/habit1/class3/c3.png') }}" class="h-[6vw]" />
-            <img src="{{ asset('assets/images/micet/n2/habit1/class3/c2.png') }}" class="h-[11vw]" />
-        </div>
     </div>
 
     {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col items-center h-full">
-        <h1 class="panel-title stroke">Classroom Activity 3: Who’s fishing rod is longer?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Beautiful Feathers</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="7">
-            <li>Click on the picture below to open the Software Magnetic Board. Randomly
-                select 2 of the 3 fishing rods and have the children state which rod is longer
-                and which rod is shorter. Have the children arrange the three rods in order of
-                their length, then have the children state which rod is the longest and which
-                rod is the shortest.</li>
+        <ol class="list-decimal panel-ul w-[45vw]" start="5">
+            <li>Let the children observe the pictures of a duck and a Tawny frogmouth. Invite them to describe the colours
+                of the birds' feathers and explain why the feathers are dull in colour. Guide the children to say the term
+                'protective colours'. Inform the children that like insects and other animals, birds also use their
+                protective colours to protect themselves from their enemies. The dull coloured feathers of these birds
+                usually blend in the surrounding, enabling them to hide (camouflage) themselves from their enemies.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class3/c4.png') }}" class="w-[20vw]" />
+        <img src="{{ asset('assets/images/micet/k1/birds/class3/c8.png') }}" class="h-[10vw]" />
     </div>
 
     {{-- panel 8 --}}
     <div class="phonics-panel flex flex-col items-center h-full">
-        <h1 class="panel-title stroke">Classroom Activity 3: Who’s fishing rod is longer?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Beautiful Feathers</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="8">
+        <ol class="list-decimal panel-ul w-[45vw]" start="11">
             <li>Guide children to complete the corresponding activities in the Thematic
                 Activity Book.</li>
         </ol>
@@ -175,38 +253,23 @@
 
     {{-- panel 10 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 3: Who’s fishing rod is longer?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 3: Beautiful Feathers</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have the children compare the lengths of objects found in
-                    the classroom.</li>
+                <li>Invite children to explain the purpose of the colours of birds' feathers. (to attract the attention of
+                    birds of the same type, to distinguish flock members from enemies, to protect themselves from enemies)
+                </li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to differentiate long and short.</li>
-                <li>Able to compare the lengths of two or three objects.</li>
-                <li>Able to arrange objects according to length.</li>
-            </ul>
-        </div>
-    </div>
-
-
-    {{-- panel 19 --}}
-    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 3: Who’s fishing rod is longer?</h1>
-
-        <div class="text-start flex flex-col">
-            <h3 class="ptitle">Extension</h3>
-
-            <ul class="list-decimal panel-ul w-[45vw]">
-                <li>Have the children compare the lengths of things found at
-                    home and then invite them to share their findings with their
-                    classmates.</li>
+                <li>Know that birds are the only type of animals with feathers.</li>
+                <li>Able to state the purpose of the colours of the birds' feathers.</li>
+                <li>Able to differentiate between male and female birds.</li>
             </ul>
         </div>
     </div>
@@ -266,8 +329,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/habit1/index') }}";
-            const doneURL = "{{ url('/micet/n2/habit1/index') }}";
+            const returnURL = "{{ url('/micet/k1/birds/index') }}";
+            const doneURL = "{{ url('/micet/k1/birds/index') }}";
 
             // Track current position
             let currentSlide = 0;

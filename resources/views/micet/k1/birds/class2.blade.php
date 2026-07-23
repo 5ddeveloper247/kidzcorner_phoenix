@@ -38,7 +38,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: Candy’s Fish</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: What are Birds?</h1>
         <div class="flex ">
             <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
             <img src="{{ asset('assets/images/micet/n1/mybody/class2/c1.png') }}" class="h-[12vw]" />
@@ -48,24 +48,25 @@
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul">
-            <li>To learn to draw a fish.</li>
-            <li>To differentiate sizes.</li>
-            <li>To learn to count up to 7.</li>
-            <li>To imitate the movements of a fish swimming.</li>
+            <li>Identify some birds</li>
+            <li>Learn the main characteristics of birds</li>
+            <li>Learn to name the different body parts of a bird</li>
+            <li>Learn to differentiate between birds and other animals</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
-    <div class="phonics-panel flex flex-col items-center space-y-[3vw] h-full">
-        <h1 class="panel-title stroke">Classroom Activity 2: Candy’s Fish</h1>
+    <div class="phonics-panel flex flex-col items-center space-y-[5vw] h-full">
+        <h1 class="panel-title stroke">Classroom Activity 2: What are Birds?</h1>
 
         <div>
             <h3 class="ptitle">Preparations</h3>
 
             <ul class="list-disc panel-ul">
                 <li>Thematic Activity Book</li>
-                <li>Crayons.</li>
+                <li>Drawing papers</li>
+                <li>Colour pencils</li>
             </ul>
         </div>
     </div>
@@ -73,124 +74,299 @@
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: Candy’s Fish</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: What are Birds?</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
             <ol class="list-decimal panel-ul w-[45vw]">
-                <li>Display the picture of a fish. Have the children name it and describe where it
-                    lives.</li>
+                <li>Ask the children: What is this animal? What are its characteristics?</li>
             </ol>
         </div>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class2/c1.png') }}" class="w-[30vw]" />
+        <div>
+            <img src="{{ asset('assets/images/micet/k1/birds/class2/c1.png') }}" class="w-[27vw]" />
+            <p class="ptitle">pigeon</p>
+        </div>
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: Candy’s Fish</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: What are Birds?</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="2">
-            <li>Click on the video. Have the children observe and describe how a fish swims
-                in the water. Guide the children in imitating the movements of the fish by
-                swinging their arms left and right.</li>
+            <li>Ask the children: What is this animal? What are its characteristics?</li>
         </ol>
-        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-            <source src="{{ asset('assets/images/micet/n2/habit1/class2/v1.mp4') }}" type="video/mp4">
-        </video>
+        <div>
+            <img src="{{ asset('assets/images/micet/k1/birds/class2/c2.png') }}" class="h-[20vw]" />
+            <p class="ptitle">eagle</p>
+        </div>
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: Candy’s Fish</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: What are Birds?</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Display the drawing of a fish. Have the children know that they are going to
-                learn to draw a fish.</li>
+            <li>Ask the children: What is this animal? What are its characteristics?</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class2/c2.png') }}" class="w-[30vw]" />
+        <div>
+            <img src="{{ asset('assets/images/micet/k1/birds/class2/c3.png') }}" class="w-[30vw]" />
+            <p class="ptitle">stork</p>
+        </div>
     </div>
 
 
-    {{-- panel 5 --}}
+    {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: Candy’s Fish</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: What are Birds?</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Guide the children to complete the corresponding activity 2 in the Thematic
-                Activity Book. Have the children refer to the example provided to draw a fish.
-                Demonstrate how to draw a fish on the whiteboard, then walk around to assist
-                children in drawing. Encourage the children to draw in the fish scales, fins, etc
-                and colour it with their favourite colours.</li>
+            <li>Ask the children: What is this animal? What are its characteristics?</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class2/c3.png') }}" class="w-[40vw]" />
+        <div>
+            <img src="{{ asset('assets/images/micet/k1/birds/class2/c4.png') }}" class="w-[30vw]" />
+            <p class="ptitle">blackbird</p>
+        </div>
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: Candy’s Fish</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: What are Birds?</h1>
 
         <ol class="list-decimal panel-ul w-[45vw]" start="5">
-            <li>Display the picture. Have the children explain the differences between the
-                two fish. (one big and one small)</li>
+            <li>Inform the children that all these are birds. The main characteristics of birds are that they have feathers,
+                wings, beak and legs.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class2/c4.png') }}" class="h-[20vw]" />
+        <img src="{{ asset('assets/images/micet/k1/birds/class2/c5.png') }}" class="w-[30vw]" />
     </div>
 
 
     {{-- panel 5 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 2: Candy’s Fish</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: What are Birds?</h1>
 
-        <ol class="list-decimal panel-ul w-[45vw]" start="6">
-            <li>Guide the children to complete the corresponding activity 2 in the Thematic
-                Activity Book. Have the children count the number of fishes that Candy
-                caught and differentiate the number of big and small fishes.</li>
-            <li>Have the children state if there are more big fishes or more small fishes.</li>
-            <li>Have the children colour the big fishes.</li>
+        <ol class="list-decimal panel-ul w-[48vw]" start="6">
+            <li>Ask the question and guide children to observe and discuss:
+                <ul class="list-dsic">
+                    <li>Do all birds have feathers? - (Yes, birds are the only animals with feathers.)</li>
+                </ul>
+            </li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class2/c5.png') }}" class="w-[25vw]" />
+        <img src="{{ asset('assets/images/micet/k1/birds/class2/c5.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: What are Birds?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="7">
+            <li>Ask the question and guide children to observe and discuss:
+                <ul class="list-dsic">
+                    <li>Do all birds have wings? - (Yes, all birds have a pair of wings.)</li>
+                </ul>
+            </li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/birds/class2/c5.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: What are Birds?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="8">
+            <li>Ask the question and guide children to observe and discuss:
+                <ul class="list-dsic">
+                    <li>Do all birds have beaks? -(Yes, all birds have a beak.)</li>
+                </ul>
+            </li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/birds/class2/c5.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: What are Birds?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="9">
+            <li>Ask the question and guide children to observe and discuss:
+                <ul class="list-dsic">
+                    <li>Do all birds have legs? - (Yes, all birds have two legs.)</li>
+                </ul>
+            </li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/birds/class2/c5.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: What are Birds?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="10">
+            <li>Guide children to name the different body parts of a bird.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/birds/class2/c6.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: What are Birds?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="11">
+            <li>Ask children to name the birds that they know.</li>
+            <li>Invite children who keep birds at home to share their experiences.</li>
+            <li>Ask children: How do you differentiate between birds and other animals? How would you know if an animal is a
+                bird? Guide the children to name the main characteristics of birds: Birds have feathers, a pair of wings,
+                two legs and a beak.</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: What are Birds?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="14">
+            <li>Ask the children: What animal is this? Is it a bird? Encourage the children to determine and justify their
+                answer based on the main characteristics of birds. (butterflies are not birds as they do not have feathers
+                and beaks. Inform children that butterflies have three main body parts, six legs and a pair of antennae , so
+                butterflies are insects.)</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/birds/class2/c7.png') }}" class="w-[20vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: What are Birds?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="15">
+            <li>Inform children that based on the main characteristics of birds, they can differentiate between birds and
+                other animals.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/birds/class2/c5.png') }}" class="w-[30vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: What are Birds?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="16">
+            <li>Guide children to understand that all birds have the same main characteristics, however, every type of bird
+                has its unique characteristics too. Birds vary in: body size and shape; colours and pattern of their
+                feathers, shapes and sizes of their beak and feet; food that they eat; places that they stay; colour, size
+                and number of eggs that they lay; ways in which they look after their young; their communication style; etc.
+            </li>
+        </ol>
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: What are Birds?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="17">
+            <li>Ask the children: Are these birds? Why are they birds? Guide children to point out the main characteristics
+                of birds.</li>
+        </ol>
+        <div class="flex items-center gap-[1vw]">
+            <div>
+                <img src="{{ asset('assets/images/micet/k1/birds/class2/c8.png') }}" class="h-[17vw]" />
+                <p class="ptitle">ostrich</p>
+            </div>
+            <div>
+                <img src="{{ asset('assets/images/micet/k1/birds/class2/c9.png') }}" class="w-[20vw]" />
+                <p class="ptitle">ostrich</p>
+            </div>
+        </div>
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: What are Birds?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="18">
+            <li>Guide children to understand that the ostrich is the biggest bird in the world, whereas the hummingbird is
+                the smallest.</li>
+        </ol>
+        <div class="flex items-center gap-[1vw]">
+            <div>
+                <img src="{{ asset('assets/images/micet/k1/birds/class2/c8.png') }}" class="h-[17vw]" />
+                <p class="ptitle">ostrich</p>
+            </div>
+            <div>
+                <img src="{{ asset('assets/images/micet/k1/birds/class2/c9.png') }}" class="w-[20vw]" />
+                <p class="ptitle">ostrich</p>
+            </div>
+        </div>
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: What are Birds?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="19">
+            <li>Explain to the children that most scientists believe that birds evolved from dinosaurs and the oldest bird
+                is Archaeopteryx. This is the fossil of Archaeopteryx that was discovered in Germany. Ask children: Can you
+                find its beak, wings and feet.</li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/birds/class2/c10.png') }}" class="w-[25vw]" />
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: What are Birds?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="20">
+            <li>Distribute drawing papers and let the children draw a bird. Remind them to include the main characteristics
+                of birds in their drawing. (or use Thematic Activity Book)</li>
+        </ol>
+    </div>
+
+
+    {{-- panel 5 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 2: What are Birds?</h1>
+
+        <ol class="list-decimal panel-ul w-[45vw]" start="21">
+            <li>Guide children to complete the corresponding activities in the Thematic
+                Activity Book.</li>
+        </ol>
     </div>
 
 
     {{-- panel 6 --}}
     <div class="phonics-panel flex flex-col items-center h-full">
-        <h1 class="panel-title stroke">Classroom Activity 2: Candy’s Fish</h1>
+        <h1 class="panel-title stroke">Classroom Activity 2: What are Birds?</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have the children display their works and explain the
-                    characteristics of their fish.</li>
+                <li>Have the children display their drawings and point out different body parts of a bird.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to differentiate sizes and count correctly.</li>
-                <li>Able to imitate the movements of a fish swimming.</li>
-                <li>Able to draw a fish by referring to the example.</li>
+                <li>Able to draw and state the main characteristics of birds.</li>
+                <li>Able to point and name the different body parts of a bird.</li>
+                <li>Able to determine if an animal is a bird.</li>
             </ul>
         </div>
     </div>
 
-
-    {{-- panel 37 --}}
-    <div class="phonics-panel flex flex-col items-center h-full">
-        <h1 class="panel-title stroke">Classroom Activity 2: Candy’s Fish</h1>
-
-        <div class="text-start flex flex-col">
-            <h3 class="ptitle">Extension</h3>
-
-            <ul class="list-disc panel-ul w-[45vw]">
-                <li>Encourage the children to draw different types of fishes.</li>
-            </ul>
-        </div>
-    </div>
 
 
 
@@ -245,8 +421,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/habit1/index') }}";
-            const doneURL = "{{ url('/micet/n2/habit1/index') }}";
+            const returnURL = "{{ url('/micet/k1/birds/index') }}";
+            const doneURL = "{{ url('/micet/k1/birds/index') }}";
 
             // Track current position
             let currentSlide = 0;

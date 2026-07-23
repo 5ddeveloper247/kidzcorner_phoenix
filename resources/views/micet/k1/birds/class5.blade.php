@@ -38,7 +38,7 @@
 
     {{-- panel 1 --}}
     <div class="phonics-panel flex flex-col justify-between h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: What are the differences?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Bird Calls and Dance</h1>
         <div class="flex ">
             <img src="{{ asset('assets/images/micet/n1/mybody/class1/c1.png') }}" class="h-[12vw]" />
             <img src="{{ asset('assets/images/micet/n1/mybody/class2/c1.png') }}" class="h-[12vw]" />
@@ -48,39 +48,50 @@
         <h3 class="ptitle">Objectives:</h3>
 
         <ul class="list-disc panel-ul w-[45vw]">
-            <li>To understand the differences among cats, fishes, butterflies,
-                dragonflies, praying mantises and ducks.</li>
-            <li>To learn to distinguish the characteristics of different animals
-                according to the table.</li>
+            <li>Understand the functions of bird calls</li>
+            <li>Learn to distinguish and imitate some bird calls</li>
+            <li>Find musical instruments that can be used to imitate some bird calls and play the musical instruments</li>
+            <li>Understand the function of a bird's dance movements</li>
         </ul>
     </div>
 
 
     {{-- panel 2 --}}
     <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-        <h1 class="panel-title stroke">Classroom Activity 5: What are the differences?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Bird Calls and Dance</h1>
 
         <div>
             <h3 class="ptitle">Preparations</h3>
 
-            <ul class="list-disc panel-ul">
-                <li>Table written on a big piece of paper (refer below).</li>
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Thematic Activity Book</li>
+                <li>Musical instruments that can be used to imitate birds' calls (e.g. triangle, small hand drum
+                    (tambourine), cabasa, maracas, tone block, whistle)</li>
             </ul>
-            <img src="{{ asset('assets/images/micet/n2/habit1/class5/c1.png') }}" class="h-[15vw]" />
         </div>
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: What are the differences?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Bird Calls and Dance</h1>
 
         <div class="text-start">
             <h3 class="ptitle">Lesson Development</h3>
 
-            <ol class="list-decimal panel-ul w-[50vw]">
-                <li>Review the story with the children. Have the children recall the animals that
-                    appeared in the story (cat, fish, butterfly, praying mantis, dragonfly and duck).</li>
+            <ol class="list-decimal panel-ul w-[47vw]">
+                <li>Ask the children: How do we interact with each other ? (through language and gestures) How do birds
+                    interact with each other? Do birds have their own language?</li>
+                <li>Guide children to understand that:
+                    <ul class="list-disc">
+                        <li>Bird calls are a form of language. Every type of bird has its own unique calls and actions, and
+                            they rely on them to interact with their own flock.</li>
+                        <li>Bird calls come into use when they gather in groups, find food, migrate, feed their young and
+                            fend off enemies. Male birds also attract female birds using calls.</li>
+                        <li>Some birds are good in imitating sounds. They can imitate sounds of other birds, animals and
+                            even human voices (e.g. parrots, mynah).</li>
+                    </ul>
+                </li>
             </ol>
         </div>
     </div>
@@ -88,241 +99,282 @@
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: What are the differences?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Bird Calls and Dance</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="2">
-            <li>Display the table chart on the whiteboard. Show the pictures of the animals
-                (next slide onwards). Have the children name them and describe their
-                characteristics.</li>
-            <li>After the children has described an animal, the teacher will then write or draw
-                in the appropriate column of the table.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="3">
+            <li>Ask the children if their families keep birds at home. Invite those who keep birds at home to share the
+                reasons why their families do so. Help the children understand that most people keep birds because of their
+                lovely songs.</li>
+            <li>Ask children to describe and imitate some bird calls they have heard before.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class5/c1.png') }}" class="h-[15vw]" />
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: What are the differences?</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="4">
-            <li>Display the pictures of cats. Have the children name the animal and describe
-                their characteristics. For example, cats have fur on their bodies, whiskers on
-                their cheeks and a long tail; cats have 4 legs and live on land, they eat fish
-                and mice, they meow; etc.</li>
-        </ol>
-        <div class="flex gap-[1vw]">
-            <img src="{{ asset('assets/images/micet/n2/habit1/class5/c2.png') }}" class="w-[20vw]" />
-            <img src="{{ asset('assets/images/micet/n2/habit1/class5/c3.png') }}" class="w-[20vw]" />
-        </div>
-    </div>
-
-
-    {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: What are the differences?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Bird Calls and Dance</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="5">
-            <li>Display the pictures of fishes. Have the children name the animal and
-                describe their characteristics. For example, fishes have scales on their bodies,
-                they have no legs but have fins which move left and right when they swim; fish
-                can only live in the water, they eat worms; etc.</li>
+            <li>Play the audio of different birds' calls (starts from the next slide). Help children to get familiar with
+                the names of the birds and their unique calls.</li>
         </ol>
-        <div class="flex gap-[1vw]">
-            <img src="{{ asset('assets/images/micet/n2/habit1/class5/c4.png') }}" class="w-[20vw]" />
-            <img src="{{ asset('assets/images/micet/n2/habit1/class5/c5.png') }}" class="w-[20vw]" />
-        </div>
+        <img src="{{ asset('assets/images/micet/k1/birds/class5/c1.png') }}" class="w-[35vw]" />
     </div>
 
 
     {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: What are the differences?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Bird Calls and Dance</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="6">
-            <li>Display the pictures of ducks. Have the children name the animal and
-                describe their characteristics. For example, ducks have feathers on their
-                bodies, they have a beak and 2 legs; they have webbed feet which helps
-                them paddle in the water. Ducks eat fish, they quack; etc.</li>
+            <li><span class="flex items-end">a) <button class="w-[2.5vw]" id="soundButton">
+                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                    </button>Have the children name the bird which makes this sound, then invite them </span> to find the
+                picture of the bird.
+                Have the children know that it is the quacking of the ducks. Encourage the children to imitate the sound.
+
+            </li>
         </ol>
-        <div class="flex gap-[1vw]">
-            <img src="{{ asset('assets/images/micet/n2/habit1/class5/c6.png') }}" class="w-[20vw]" />
-            <img src="{{ asset('assets/images/micet/n2/habit1/class5/c7.png') }}" class="w-[20vw]" />
-        </div>
+        <img src="{{ asset('assets/images/micet/k1/birds/class5/c1.png') }}" class="w-[35vw]" />
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 5: Bird Calls and Dance</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="6">
+            <li><span class="flex items-end">b) <button class="w-[2.5vw]" id="soundButton">
+                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                    </button>Have the children name the bird which makes this sound, then invite them </span> to find the
+                picture of the bird.
+                Have the children know that it is the quacking of the parrots. Encourage the children to imitate the sound.
+
+            </li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/birds/class5/c1.png') }}" class="w-[35vw]" />
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 5: Bird Calls and Dance</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="6">
+            <li><span class="flex items-end">c) <button class="w-[2.5vw]" id="soundButton">
+                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                    </button>Have the children name the bird which makes this sound, then invite them </span> to find the
+                picture of the bird.
+                Have the children know that it is the quacking of the pigeons. Encourage the children to imitate the sound.
+
+            </li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/birds/class5/c1.png') }}" class="w-[35vw]" />
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 5: Bird Calls and Dance</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="6">
+            <li><span class="flex items-end">d) <button class="w-[2.5vw]" id="soundButton">
+                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                    </button>Have the children name the bird which makes this sound, then invite them </span> to find the
+                picture of the bird.
+                Have the children know that it is the quacking of the owl. Encourage the children to imitate the sound.
+
+            </li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/birds/class5/c1.png') }}" class="w-[35vw]" />
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 5: Bird Calls and Dance</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="6">
+            <li><span class="flex items-end">e) <button class="w-[2.5vw]" id="soundButton">
+                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                    </button>Have the children name the bird which makes this sound, then invite them </span> to find the
+                picture of the bird.
+                Have the children know that it is the quacking of the crow. Encourage the children to imitate the sound.
+
+            </li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/birds/class5/c1.png') }}" class="w-[35vw]" />
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 5: Bird Calls and Dance</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="6">
+            <li><span class="flex items-end">f) <button class="w-[2.5vw]" id="soundButton">
+                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                    </button>Have the children name the bird which makes this sound, then invite them </span> to find the
+                picture of the bird.
+                Have the children know that it is the quacking of the rooster. Encourage the children to imitate the sound.
+
+            </li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/birds/class5/c1.png') }}" class="w-[35vw]" />
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 5: Bird Calls and Dance</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="6">
+            <li><span class="flex items-end">g) <button class="w-[2.5vw]" id="soundButton">
+                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                    </button>Have the children name the bird which makes this sound, then invite them </span> to find the
+                picture of the bird.
+                Have the children know that it is the quacking of the seagulls. Encourage the children to imitate the sound.
+
+            </li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/birds/class5/c1.png') }}" class="w-[35vw]" />
+    </div>
+
+
+    {{-- panel 3 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 5: Bird Calls and Dance</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="6">
+            <li><span class="flex items-end">h) <button class="w-[2.5vw]" id="soundButton">
+                        <img src="{{ asset('assets/images/phonicsl1/global/btns/sound-btn.png') }}" />
+                    </button>Have the children name the bird which makes this sound, then invite them </span> to find the
+                picture of the bird.
+                Have the children know that it is the quacking of the eagle. Encourage the children to imitate the sound.
+
+            </li>
+        </ol>
+        <img src="{{ asset('assets/images/micet/k1/birds/class5/c1.png') }}" class="w-[35vw]" />
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: What are the differences?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Bird Calls and Dance</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="7">
-            <li>Click on the video to observe the duck paddling with its web feet and
-                dunking its head into the waterto catch fish.</li>
+            <li>Encourage the children to use musical instruments to imitate bird calls (e.g. use maracas to imitate crows'
+                caws). Invite all the children using different musical instruments to perform together a "Birds' song".
+                Encourage children to exchange their instruments and perform more "Birds' songs".</li>
         </ol>
-        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-            <source src="{{ asset('assets/images/micet/n2/habit1/class5/v1.mp4') }}" type="video/mp4">
-        </video>
     </div>
 
 
-
-    {{-- panel 4 --}}
+    {{-- panel 3 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: What are the differences?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Bird Calls and Dance</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="8">
-            <li>Ducks have 2 wings (a pair of wings) which help them fly, they flap their wings
-                to take off in flight.</li>
+            <li>Guide the children to understand that birds not only use their calls to attract the opposite sex but they
+                also use dance movements to attract a mate.</li>
         </ol>
-        <div>
-            <img src="{{ asset('assets/images/micet/n2/habit1/class5/c8.png') }}" class="h-[10vw]" />
-            <p class="panel-ul">A wild duck takes off in flight by flapping its wings, lifts off and accelerates.</p>
+        <div class="text-center">
+            <img src="{{ asset('assets/images/micet/k1/birds/class5/c2.png') }}" class="h-[12vw]" />
+            <p class="ptitle">cranes</p>
         </div>
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: What are the differences?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Bird Calls and Dance</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="9">
-            <li>Click on the video to observe that ducks can live on land, in the water and in
-                the air.</li>
+            <li>Guide the children to understand that birds not only use their calls to attract the opposite sex but they
+                also use dance movements to attract a mate too.</li>
         </ol>
-        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-            <source src="{{ asset('assets/images/micet/n2/habit1/class5/v2.mp4') }}" type="video/mp4">
-        </video>
+        <div class="text-center">
+            <img src="{{ asset('assets/images/micet/k1/birds/class5/c3.png') }}" class="w-[35vw]" />
+            <p class="ptitle">snow geese</p>
+        </div>
     </div>
+
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: What are the differences?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Bird Calls and Dance</h1>
 
         <ol class="list-decimal panel-ul w-[50vw]" start="10">
-            <li>Display the pictures of butterflies. Have the children name the animal and
-                describe their characteristics. For example, butterflies have 4 wings (2 pairs of
-                wings), they flutter their wings when they fly.</li>
+            <li>Click on the video for the children to observe the use of dance movements to attract a mate.</li>
         </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class5/c9.png') }}" class="h-[20vw]" />
-    </div>
-
-
-    {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: What are the differences?</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="11">
-            <li>Butterflies have 6 legs and they feed mainly on nectar; etc.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class5/c10.png') }}" class="h-[20vw]" />
-    </div>
-
-
-    {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: What are the differences?</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="12">
-            <li>Display the picture of a dragonfly. Have the children name the animal and
-                describe its characteristics. For example, dragonflies have 4 wings (2 pairs of
-                wings), they flutter their wings when they fly.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class5/c11.png') }}" class="w-[30vw]" />
-    </div>
-
-
-    {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: What are the differences?</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="13">
-            <li>Dragonflies have 6 legs and they feed mainly on insects such as mosquitoes,
-                etc.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class5/c12.png') }}" class="w-[30vw]" />
-    </div>
-
-
-    {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: What are the differences?</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="14">
-            <li>Display the picture of a praying mantis. Have the children name the animal
-                and describe its characteristics. For example, praying mantises have 6 legs .</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class5/c13.png') }}" class="w-[30vw]" />
-    </div>
-
-
-    {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: What are the differences?</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="15">
-            <li>Praying mantis feeds on insects such as the houseflies; etc.</li>
-        </ol>
-        <img src="{{ asset('assets/images/micet/n2/habit1/class5/c14.png') }}" class="w-[30vw]" />
-    </div>
-
-
-    {{-- panel 4 --}}
-    <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: What are the differences?</h1>
-
-        <ol class="list-decimal panel-ul w-[50vw]" start="16">
-            <li>Click on the video to observe a praying mantis.</li>
-        </ol>
-        <video class="h-[18vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
-            <source src="{{ asset('assets/images/micet/n2/habit1/class5/v3.mp4') }}" type="video/mp4">
+        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/k1/birds/class5/v1.mp4') }}" type="video/mp4">
         </video>
     </div>
 
 
     {{-- panel 4 --}}
     <div class="phonics-panel flex flex-col h-full items-center">
-        <h1 class="panel-title stroke">Classroom Activity 5: What are the differences?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Bird Calls and Dance</h1>
 
-        <ol class="list-decimal panel-ul w-[50vw]" start="17">
-            <li>Upon completion, have the children look at the table and explain the
-                differences between the cat and the fish. For example, cats have soft fur on
-                their bodies, while fish have scales on their bodies; cats have four legs but
-                fishes have no legs; cats live on land and fishes live in the water; etc.</li>
-            <li>Choose another two animals to compare. Have the children look at the table
-                and explain the differences between the two.</li>
-            <li>Repeat the activity and allow the children to familiarise themselves in reading
-                the table, discovering and describing the differences among the animals.</li>
+        <ol class="list-decimal panel-ul w-[50vw]" start="11">
+            <li>Click on the video for the children to observe the use of dance movements to attract a mate.</li>
+        </ol>
+        <video class="h-[20vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+            <source src="{{ asset('assets/images/micet/k1/birds/class5/v2.mp4') }}" type="video/mp4">
+        </video>
+    </div>
+
+
+    {{-- panel 4 --}}
+    <div class="phonics-panel flex flex-col h-full items-center">
+        <h1 class="panel-title stroke">Classroom Activity 5: Bird Calls and Dance</h1>
+
+        <ol class="list-decimal panel-ul w-[50vw]" start="12">
+            <li>Guide children to complete the corresponding activities in the Thematic
+                Activity Book.</li>
         </ol>
     </div>
 
 
     {{-- panel 23 --}}
     <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-        <h1 class="panel-title stroke">Classroom Activity 5: What are the differences?</h1>
+        <h1 class="panel-title stroke">Classroom Activity 5: Bird Calls and Dance</h1>
 
         <div class="text-start flex flex-col justify-between h-full">
             <h3 class="ptitle">Clousre</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Have the children choose an animal from the table, then
-                    compare that animal with themselves and describe the
-                    differences.</li>
+                <li>Organise the children into groups. Each group will use bird calls to create their own type of language
+                    for interaction. Each group will explain and perform the "Birds' language" they created.</li>
             </ul>
 
             <h3 class="ptitle">Evaluation</h3>
 
             <ul class="list-disc panel-ul w-[45vw]">
-                <li>Able to name the animals and describe their characteristics
-                    based on what they have seen from the pictures.</li>
-                <li>Able to describe the differences between cats, fishes,
-                    butterflies, dragonflies, praying mantises and ducks.</li>
+                <li>Know that birds use their calls and actions to interact.</li>
+                <li>Able to distinguish and imitate some bird calls.</li>
+                <li>Able to find suitable musical instruments to imitate some bird calls.</li>
+                <li>Able to cooperate with group members to create their own bird language.</li>
             </ul>
         </div>
     </div>
 
 
+    {{-- panel 23 --}}
+    <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
+        <h1 class="panel-title stroke">Classroom Activity 5: Bird Calls and Dance</h1>
+
+        <div class="text-start flex flex-col h-full">
+            <h3 class="ptitle">Extension</h3>
+
+            <ul class="list-disc panel-ul w-[45vw]">
+                <li>Have the children imitate the dance movements of some birds (e.g. crane and snow geese) and then create
+                    a birds' dance. Encourage them to incorporate their 'Birds' dance' with the 'Birds' song'.</li>
+            </ul>
+        </div>
+    </div>
 
 
 
@@ -378,8 +430,8 @@
             const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
             // URLs for navigation
-            const returnURL = "{{ url('/micet/n2/habit1/index') }}";
-            const doneURL = "{{ url('/micet/n2/habit1/index') }}";
+            const returnURL = "{{ url('/micet/k1/birds/index') }}";
+            const doneURL = "{{ url('/micet/k1/birds/index') }}";
 
             // Track current position
             let currentSlide = 0;
