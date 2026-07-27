@@ -38,34 +38,31 @@ $showMascot = true;
 
 {{-- panel 1 --}}
 <div class="phonics-panel flex flex-col justify-between h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 5: Fruit Daily</h1>
+    <h1 class="panel-title stroke">Classroom Activity 5: How Old is the Tree?</h1>
     <div class="flex ">
-        <img src="{{ asset('assets/images/micet/k1/fruits/class5/c1.png') }}" class="h-[7vw]" />
+        <img src="{{ asset('assets/images/micet/k2/plant/class5/c1.png') }}" class="h-[7vw]" />
     </div>
 
 
     <h3 class="ptitle">Objectives:</h3>
 
     <ul class="list-disc panel-ul">
-        <li>Practise fine motor skills</li>
-        <li>Create a fruit dolly using modelling clay</li>
+        <li>To understand the concept of growth rings.</li>
+        <li>To learn counting and sequencing.</li>
     </ul>
 </div>
 
 
 {{-- panel 2 --}}
 <div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[5vw]">
-    <h1 class="panel-title stroke">Classroom Activity 5: Fruit Daily</h1>
+    <h1 class="panel-title stroke">Classroom Activity 5: How Old is the Tree?</h1>
 
     <div>
         <h3 class="ptitle">Preparations</h3>
 
         <ul class="list-disc panel-ul w-[45vw]">
             <li>Thematic Activity Book</li>
-            <li>Modelling clay of various colours</li>
-            <li>Watercolours and brushes</li>
-            <li>Different fruit seeds (those brought by children in Activity 3)</li>
-            <li>Prepare some fruit dollies as samples</li>
+            <li>Coloured Pencils.</li>
         </ul>
     </div>
 </div>
@@ -73,125 +70,92 @@ $showMascot = true;
 
 {{-- panel 3 --}}
 <div class="phonics-panel flex flex-col h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 5: Fruit Daily</h1>
+    <h1 class="panel-title stroke">Classroom Activity 5: How Old is the Tree?</h1>
 
     <div class="text-start">
         <h3 class="ptitle">Lesson Development</h3>
 
         <ol class="list-decimal panel-ul w-[50vw]">
-            <li>Show the children some fruit dolly pictures to stir their interest.</li>
+            <li>Have children recall the story and explain the method of determining the age of a tree.</li>
+            <li>Ask the children if they have seen growth rings, where they have seen them and what they look like.</li>
         </ol>
     </div>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class5/c2.png') }}" class="w-[25vw]" />
-</div>
-
-
-{{-- panel 3 --}}
-<div class="phonics-panel flex flex-col h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 5: Fruit Daily</h1>
 
     <div class="text-start">
-        <ol class="list-decimal panel-ul w-[50vw]" start="2">
-            <li>Show the children some fruit dolly pictures to stir their interest.</li>
-        </ol>
+        <h3 class="ptitle">Reference</h3>
+        <p class="text-white">Growth rings are rings formed yearly in tree trunks.
+            One can see the rings on trees that have been sawed.
+            Each ring consists of two parts different in colour
+            and texture. This is because from spring to summer,
+            the weather is most suitable for tree growth, resulting
+            in a looser texture and a lighter colour portion of the
+            ring; during autumn, tree growth is slower, resulting
+            in a denser texture and a darker colour portion of the
+            ring. Thus, a ring, consisting of the lighter and darker
+            colour portions, is the sign of one year of growth for the
+            tree. People named it "growth ring".</p>
     </div>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class5/c3.png') }}" class="w-[25vw]" />
 </div>
 
 
 {{-- panel 3 --}}
 <div class="phonics-panel flex flex-col h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 5: Fruit Daily</h1>
+    <h1 class="panel-title stroke">Classroom Activity 5: How Old is the Tree?</h1>
 
     <div class="text-start">
         <ol class="list-decimal panel-ul w-[50vw]" start="3">
-            <li>Show the children some fruit dolly pictures to stir their interest.</li>
+            <li>Let the children point out the growth rings.</li>
         </ol>
     </div>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class5/c4.png') }}" class="w-[25vw] h-[23vw]" />
+    <img src="{{ asset('assets/images/micet/k2/plant/class5/c2.png') }}" class="w-[25vw]" />
 </div>
 
 
 {{-- panel 3 --}}
 <div class="phonics-panel flex flex-col h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 5: Fruit Daily</h1>
+    <h1 class="panel-title stroke">Classroom Activity 5: How Old is the Tree?</h1>
 
     <div class="text-start">
         <ol class="list-decimal panel-ul w-[50vw]" start="4">
-            <li>Show the children some fruit dolly pictures to stir their interest.</li>
+            <li>Let the children point out the growth rings.</li>
         </ol>
     </div>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class5/c5.png') }}" class="w-[25vw]" />
+    <img src="{{ asset('assets/images/micet/k2/plant/class5/c3.png') }}" class="w-[25vw]" />
 </div>
 
 
 {{-- panel 3 --}}
 <div class="phonics-panel flex flex-col h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 5: Fruit Daily</h1>
+    <h1 class="panel-title stroke">Classroom Activity 5: How Old is the Tree?</h1>
 
     <div class="text-start">
         <ol class="list-decimal panel-ul w-[50vw]" start="5">
-            <li>Show the children some fruit dolly pictures to stir their interest.</li>
+            <li>Let the children point out the growth rings.</li>
         </ol>
     </div>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class5/c6.png') }}" class="w-[25vw]" />
+    <img src="{{ asset('assets/images/micet/k2/plant/class5/c4.png') }}" class="w-[25vw]" />
 </div>
-
 
 
 {{-- panel 3 --}}
 <div class="phonics-panel flex flex-col h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 5: Fruit Daily</h1>
+    <h1 class="panel-title stroke">Classroom Activity 5: How Old is the Tree?</h1>
 
     <div class="text-start">
         <ol class="list-decimal panel-ul w-[50vw]" start="6">
-            <li>Show the children some fruit dolly pictures to stir their interest.</li>
+            <li>Ask the children how to determine the age of this tree.</li>
+            <li>Invite one child to count the growth rings; then, ask the other children to confirm whether the child has counted correctly. Then count the growth rings together with the children.</li>
         </ol>
     </div>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class5/c7.png') }}" class="w-[25vw] h-[23vw]" />
-</div>
-
-
-{{-- panel 3 --}}
-<div class="phonics-panel flex flex-col h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 5: Fruit Daily</h1>
-
-    <div class="text-start">
-        <ol class="list-decimal panel-ul w-[50vw]" start="7">
-            <li>Show the children some fruit dolly pictures to stir their interest.</li>
-        </ol>
-    </div>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class5/c8.png') }}" class="w-[25vw]" />
-</div>
-
-
-{{-- panel 3 --}}
-<div class="phonics-panel flex flex-col h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 5: Fruit Daily</h1>
-
-    <div class="text-start">
-        <ol class="list-decimal panel-ul w-[50vw]" start="8">
-            <li>Display some fruit dolly samples. Let the children
-                talk about the design and the material used for each
-                fruit dolly. Ask the children to try making their own
-                fruit dollies. Encourage them to experiment with
-                different shapes for their fruit dollies. Guide
-                them to mould the clay into the shape of their
-                favourite fruit. They can use the seeds of the
-                fruits they have brought, clay or water colours
-                to create the faces of the dollies.</li>
-            <li>When the task is completed, the children can name their
-                fruit dollies.</li>
-        </ol>
-    </div>
+    <img src="{{ asset('assets/images/micet/k2/plant/class5/c5.png') }}" class="w-[25vw]" />
 </div>
 
 
 {{-- panel 22 --}}
 <div class="phonics-panel flex flex-col h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 5: Fruit Daily</h1>
+    <h1 class="panel-title stroke">Classroom Activity 5: How Old is the Tree?</h1>
 
-    <ol class="list-decimal panel-ul w-[50vw]" start="10">
+    <ol class="list-decimal panel-ul w-[50vw]" start="8">
         <li>Guide children to complete the corresponding activities in the Thematic
             Activity Book.</li>
     </ol>
@@ -200,23 +164,21 @@ $showMascot = true;
 
 {{-- panel 23 --}}
 <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-    <h1 class="panel-title stroke">Classroom Activity 5: Fruit Daily</h1>
+    <h1 class="panel-title stroke">Classroom Activity 5: How Old is the Tree?</h1>
 
     <div class="text-start flex flex-col justify-between h-full">
         <h3 class="ptitle">Clousre</h3>
 
         <ul class="list-disc panel-ul w-[45vw]">
-            <li>Invite the children to showcase their artwork.
-                Let each child share how he/she made his/her
-                dolly and the name of the dolly.</li>
-            <li>Display the children's work and encourage them 
-                to admire each other's dollies.</li>
+            <li>Invite the children to discuss where trees' growth rings can be seen (e.g. trees that have been chopped or in products carved from wood).</li>
         </ul>
 
         <h3 class="ptitle">Evaluation</h3>
 
         <ul class="list-disc panel-ul w-[45vw]">
-            <li>Able to make a fruit dolly.</li>
+            <li>Able to explain the relationship between growth rings and the age of trees.</li>
+            <li>Able to count the growth rings to determine the age of the trees correctly.</li>
+            <li>Able to arrange the trees in sequence according to age.</li>
         </ul>
     </div>
 </div>
@@ -224,16 +186,14 @@ $showMascot = true;
 
 {{-- panel 19 --}}
 <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-    <h1 class="panel-title stroke">Classroom Activity 5: Fruit Daily</h1>
+    <h1 class="panel-title stroke">Classroom Activity 5: How Old is the Tree?</h1>
 
     <div class="text-start flex flex-col">
         <h3 class="ptitle">Extension</h3>
 
         <ul class="list-disc panel-ul w-[45vw]">
-            <li>Encourage the children to mould a fruit dolly family
-                 consisting of a father, mother, brother and sister,
-                  etc. They can then dramatise a simple story about
-                   their dolly family.</li>
+            <li>Ask the children to observe trees that have been sawed and guess the age of the trees.</li>
+            <li>Ask the children to draw growth rings.</li>
         </ul>
     </div>
 </div>
@@ -290,8 +250,8 @@ $showMascot = true;
         const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
         // URLs for navigation
-        const returnURL = "{{ url('/micet/k1/fruits/index') }}";
-        const doneURL = "{{ url('/micet/k1/fruits/index') }}";
+        const returnURL = "{{ url('/micet/k2/plant/index') }}";
+        const doneURL = "{{ url('/micet/k2/plant/index') }}";
 
         // Track current position
         let currentSlide = 0;

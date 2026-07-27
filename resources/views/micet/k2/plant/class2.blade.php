@@ -38,364 +38,330 @@ $showMascot = true;
 
 {{-- panel 1 --}}
 <div class="phonics-panel flex flex-col justify-between h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 2: Fruit Patterning</h1>
+    <h1 class="panel-title stroke">Classroom Activity 2: Grow a Plant</h1>
     <div class="flex ">
-        <img src="{{ asset('assets/images/micet/k1/fruits/class1/c1.png') }}" class="h-[7vw]" />
+        <img src="{{ asset('assets/images/micet/k2/plant/class2/c1.png') }}" class="h-[7vw]" />
     </div>
 
 
     <h3 class="ptitle">Objectives:</h3>
 
     <ul class="list-disc panel-ul">
-        <li>Identify some common fruits</li>
-        <li>Develop observational skills</li>
-        <li>Learn to create simple patterns</li>
+        <li>To observe the growth process of a seed.</li>
+        <li>To understand the uses of water and sunlight in the growth <br>
+            of plants through experiments.</li>
+        <li>To develop a sense of responsibility and perseverance <br>
+            through watering seeds and recording the observations.</li>
     </ul>
 </div>
 
 
 {{-- panel 2 --}}
-<div class="phonics-panel flex flex-col items-center space-y-[5vw] h-full">
-    <h1 class="panel-title stroke">Classroom Activity 2: Fruit Patterning</h1>
+<div class="phonics-panel flex flex-col items-center space-y-[5vw] h-full w-[45vw]">
+    <h1 class="panel-title stroke">Classroom Activity 2: Grow a Plant</h1>
 
     <div>
         <h3 class="ptitle">Preparations</h3>
 
         <ul class="list-disc panel-ul">
             <li>Thematic Activity Book</li>
-            <li>Plain paper-A4 size</li>
+            <li>
+                Some seeds which grow in a short period of time.
+                Four pots filled with soil (can use mineral water<br>
+                bottles as pots) per group.</li>
+            <li>Watering cans (can use mineral water bottles).</li>
         </ul>
         <ul class="list-disc panel-ul">For Optional Activity:
-            <li>3 to 5 different types of fruits (washed), one fruit per child</li>
+            <li>3 to 5 different types of plant (washed), one fruit per child</li>
         </ul>
     </div>
 </div>
 
 
 {{-- panel 3 --}}
-<div class="phonics-panel flex flex-col h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 2: Fruit Patterning</h1>
+<div class="phonics-panel flex flex-col justify-start h-full items-center">
+    <h1 class="panel-title stroke">Classroom Activity 8: A Seed Grows Up</h1>
 
     <div class="text-start">
         <h3 class="ptitle">Lesson Development</h3>
 
         <ol class="list-decimal panel-ul w-[45vw]">
-            <li>Ask the children to name the fruit.</li>
+            <li>Tell the children that there are many factors involved in the growth process of human beings. For example, we need to eat various types of food to replenish nutrients. </li>
+            <li>Display the picture of the seed. Ask the children to discuss how seeds grow (total 8 slides).</li>
         </ol>
-    </div>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class2/c2.png') }}" class="h-[20vw]" />
-</div>
-
-
-{{-- panel 3 --}}
-<div class="phonics-panel flex flex-col h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 2: Fruit Patterning</h1>
-
-    <div class="text-start">
-        <ol class="list-decimal panel-ul w-[45vw]" start="2">
-            <li>Ask the children to name the fruit.</li>
-        </ol>
-    </div>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class2/c3.png') }}" class="h-[20vw]" />
-</div>
-
-
-{{-- panel 3 --}}
-<div class="phonics-panel flex flex-col h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 2: Fruit Patterning</h1>
-
-    <div class="text-start">
-        <ol class="list-decimal panel-ul w-[45vw]" start="3">
-            <li>Ask the children to name the fruit.</li>
-        </ol>
-    </div>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class2/c4.png') }}" class="h-[20vw]" />
-</div>
-
-
-{{-- panel 3 --}}
-<div class="phonics-panel flex flex-col h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 2: Fruit Patterning</h1>
-
-    <div class="text-start">
-        <ol class="list-decimal panel-ul w-[45vw]" start="4">
-            <li>Ask the children to name the fruit.</li>
-        </ol>
-    </div>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class2/c5.png') }}" class="h-[20vw]" />
-</div>
-
-
-{{-- panel 3 --}}
-<div class="phonics-panel flex flex-col h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 2: Fruit Patterning</h1>
-
-    <div class="text-start">
-        <ol class="list-decimal panel-ul w-[45vw]" start="5">
-            <li>Ask the children to name the fruit.</li>
-        </ol>
-    </div>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class2/c6.png') }}" class="h-[20vw]" />
-</div>
-
-
-{{-- panel 3 --}}
-<div class="phonics-panel flex flex-col h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 2: Fruit Patterning</h1>
-
-    <div class="text-start">
-        <ol class="list-decimal panel-ul w-[45vw]" start="6">
-            <li>Ask the children to name the fruit.</li>
-        </ol>
-    </div>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class2/c7.png') }}" class="h-[20vw]" />
-</div>
-
-
-{{-- panel 3 --}}
-<div class="phonics-panel flex flex-col h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 2: Fruit Patterning</h1>
-
-    <div class="text-start">
-        <ol class="list-decimal panel-ul w-[45vw]" start="7">
-            <li>Ask the children to name the fruit.</li>
-        </ol>
-    </div>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class2/c8.png') }}" class="h-[20vw]" />
-</div>
-
-
-{{-- panel 3 --}}
-<div class="phonics-panel flex flex-col h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 2: Fruit Patterning</h1>
-
-    <div class="text-start">
-        <ol class="list-decimal panel-ul w-[45vw]" start="8">
-            <li>Ask the children to name the fruit.</li>
-        </ol>
-    </div>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class2/c9.png') }}" class="h-[20vw]" />
-</div>
-
-
-{{-- panel 3 --}}
-<div class="phonics-panel flex flex-col h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 2: Fruit Patterning</h1>
-
-    <div class="text-start">
-        <ol class="list-decimal panel-ul w-[45vw]" start="9">
-            <li>Ask the children to name the fruit.</li>
-        </ol>
-    </div>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class2/c10.png') }}" class="h-[20vw]" />
-</div>
-
-
-{{-- panel 3 --}}
-<div class="phonics-panel flex flex-col h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 2: Fruit Patterning</h1>
-
-    <div class="text-start">
-        <ol class="list-decimal panel-ul w-[45vw]" start="10">
-            <li>Ask the children to name the fruit.</li>
-        </ol>
-    </div>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class2/c11.png') }}" class="h-[20vw]" />
-</div>
-
-
-{{-- panel 3 --}}
-<div class="phonics-panel flex flex-col h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 2: Fruit Patterning</h1>
-
-    <div class="text-start">
-        <ol class="list-decimal panel-ul w-[45vw]" start="11">
-            <li>Ask the children to name the fruit.</li>
-        </ol>
-    </div>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class2/c12.png') }}" class="h-[20vw]" />
-</div>
-
-
-{{-- panel 3 --}}
-<div class="phonics-panel flex flex-col h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 2: Fruit Patterning</h1>
-
-    <div class="text-start">
-        <ol class="list-decimal panel-ul w-[45vw]" start="12">
-            <li>Ask the children to name the fruit.</li>
-        </ol>
-    </div>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class2/c13.png') }}" class="h-[20vw]" />
-</div>
-
-
-{{-- panel 3 --}}
-<div class="phonics-panel flex flex-col h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 2: Fruit Patterning</h1>
-
-    <div class="text-start">
-        <ol class="list-decimal panel-ul w-[45vw]" start="13">
-            <li>Ask the children to name the fruit.</li>
-        </ol>
-    </div>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class2/c14.png') }}" class="h-[20vw]" />
-</div>
-
-
-{{-- panel 3 --}}
-<div class="phonics-panel flex flex-col h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 2: Fruit Patterning</h1>
-
-    <div class="text-start">
-        <ol class="list-decimal panel-ul w-[45vw]" start="14">
-            <li>Ask the children to name the fruit.</li>
-        </ol>
-    </div>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class2/c15.png') }}" class="h-[20vw]" />
-</div>
-
-
-{{-- panel 3 --}}
-<div class="phonics-panel flex flex-col h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 2: Fruit Patterning</h1>
-
-    <div class="text-start">
-        <ol class="list-decimal panel-ul w-[45vw]" start="15">
-            <li>Ask the children to name the fruit.</li>
-        </ol>
-    </div>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class2/c16.png') }}" class="h-[20vw]" />
-</div>
-
-
-{{-- panel 3 --}}
-<div class="phonics-panel flex flex-col h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 2: Fruit Patterning</h1>
-
-    <div class="text-start">
-        <ol class="list-decimal panel-ul w-[45vw]" start="16">
-            <li>Ask the children to name the fruit.</li>
-        </ol>
-    </div>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class2/c17.png') }}" class="h-[20vw]" />
-</div>
-
-
-{{-- panel 3 --}}
-<div class="phonics-panel flex flex-col h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 2: Fruit Patterning</h1>
-
-    <div class="text-start">
-        <ol class="list-decimal panel-ul w-[45vw]" start="17">
-            <li>Ask the children to name the fruit.</li>
-        </ol>
-    </div>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class2/c18.png') }}" class="h-[20vw]" />
-</div>
-
-
-
-{{-- panel 3 --}}
-<div class="phonics-panel flex flex-col h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 2: Fruit Patterning</h1>
-
-    <div class="text-start">
-        <ol class="list-decimal panel-ul w-[45vw]" start="18">
-            <li>Ask the children to name the fruit.</li>
-        </ol>
-    </div>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class2/c19.png') }}" class="h-[20vw]" />
-</div>
-
-
-{{-- panel 3 --}}
-<div class="phonics-panel flex flex-col h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 2: Fruit Patterning</h1>
-
-    <div class="text-start">
-        <ol class="list-decimal panel-ul" start="19">
-            <li>Click on the picture below to open the Soflware Magnetic Board.
-                Arrange the fruits in a simple sequence, such as: apple, orange.
-                Then repeat the sequence a second time. Ask the children to observe
-                carefully, and say which fruit should come next.</li>
-            <li>
-                Together with the children, complete the sequencing of fruits.
-                (gradually introduce more challenging patterns with three/ four/ five fruits)
-            </li>
-        </ol>
-    </div>
-    <img src="{{ asset('assets/images/micet/k1/fruits/class2/c20.png') }}" class="h-[17vw]" />
-</div>
-
-
-{{-- panel 3 --}}
-<div class="phonics-panel flex flex-col h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 2: Fruit Patterning</h1>
-
-    <div class="text-start">
-        <ol class="list-decimal panel-ul w-[45vw]" start="21">
-            <li>(Optional activity) Distribute some fruits to the children.
-                Invite a few children with different fruits to come forward
-                and arrange them in a sequence.</li>
-
-            <li>Ask the invited children to name the fruits that they have in
-                hand in order of the sequence. Ask the children to guess which
-                fruit should come next in the sequence. Ask those who have the
-                correct fruit to come forward and join in to continue with the
-                sequencing activity.</li>
-        </ol>
+        <div class="flex justify-center w-[45vw] mt-[2vw]">
+            <img src="{{ asset('assets/images/micet/k2/plant/class2/c2.png') }}" class="w-[8vw]" />
+        </div>
     </div>
 </div>
 
 
+{{-- panel 4 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
+    <h1 class="panel-title stroke">Classroom Activity 8: A Seed Grows Up</h1>
+
+    <ol class="list-decimal panel-ul w-[45vw]" start="3">
+        <li>Display the picture of the seed. Ask the children to discuss how seeds grow (total 8 slides).</li>
+    </ol>
+    <div class="flex justify-center">
+        <img src="{{ asset('assets/images/micet/k2/plant/class2/c2.png') }}" class="h-[6vw]" />
+        <img src="{{ asset('assets/images/micet/k2/plant/class2/c3.png') }}" class="w-[6vw]" />
+    </div>
+</div>
+
+
+{{-- panel 4 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
+    <h1 class="panel-title stroke">Classroom Activity 8: A Seed Grows Up</h1>
+
+    <ol class="list-decimal panel-ul w-[45vw]" start="4">
+        <li>Show this photo of seed growth. Let the children discuss how the seed will grow (over 8 slides).</li>
+    </ol>
+    <div class="flex justify-center w-[45vw] mt-[2vw]">
+        <img src="{{ asset('assets/images/micet/k2/plant/class2/c2.png') }}" class="h-[6vw]" />
+        <img src="{{ asset('assets/images/micet/k2/plant/class2/c3.png') }}" class="w-[6vw]" />
+        <img src="{{ asset('assets/images/micet/k2/plant/class2/c4.png') }}" class="w-[6vw]" />
+    </div>
+</div>
+
+
+{{-- panel 4 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
+    <h1 class="panel-title stroke">Classroom Activity 8: A Seed Grows Up</h1>
+
+    <ol class="list-decimal panel-ul w-[45vw]" start="5">
+        <li>Display the picture of the seed. Ask the children to discuss how seeds grow (total 8 slides).</li>
+    </ol>
+    <div class="flex justify-center w-[45vw] mt-[2vw]">
+        <img src="{{ asset('assets/images/micet/k2/plant/class2/c2.png') }}" class="h-[6vw]" />
+        <img src="{{ asset('assets/images/micet/k2/plant/class2/c3.png') }}" class="w-[6vw]" />
+        <img src="{{ asset('assets/images/micet/k2/plant/class2/c4.png') }}" class="w-[6vw]" />
+        <img src="{{ asset('assets/images/micet/k2/plant/class2/c5.png') }}" class="w-[6vw]" />
+    </div>
+</div>
+
+
+{{-- panel 4 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
+    <h1 class="panel-title stroke">Classroom Activity 8: A Seed Grows Up</h1>
+
+    <ol class="list-decimal panel-ul w-[45vw]" start="6">
+        <li>Show this photo of seed growth. Let the children discuss how the seed will grow (over 8 slides).</li>
+    </ol>
+    <div class="flex justify-center w-[45vw] mt-[2vw]">
+        <img src="{{ asset('assets/images/micet/k2/plant/class2/c2.png') }}" class="h-[6vw]" />
+        <img src="{{ asset('assets/images/micet/k2/plant/class2/c3.png') }}" class="w-[6vw]" />
+        <img src="{{ asset('assets/images/micet/k2/plant/class2/c4.png') }}" class="w-[6vw]" />
+        <img src="{{ asset('assets/images/micet/k2/plant/class2/c5.png') }}" class="w-[6vw]" />
+        <img src="{{ asset('assets/images/micet/k2/plant/class2/c6.png') }}" class="w-[6vw]" />
+    </div>
+</div>
+
+
+{{-- panel 4 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+    <h1 class="panel-title stroke">Classroom Activity 8: A Seed Grows Up</h1>
+
+    <ol class="list-decimal panel-ul" start="7">
+        <li>Show this photo of seed growth. Let the children discuss how the seed will <br>
+            grow (over 8 slides).</li>
+    </ol>
+    <div class="flex justify-center mt-[2vw]">
+        <img src="{{ asset('assets/images/micet/k2/plant/class2/c2.png') }}" class="h-[6vw]" />
+        <img src="{{ asset('assets/images/micet/k2/plant/class2/c3.png') }}" class="h-[15vw]" />
+        <img src="{{ asset('assets/images/micet/k2/plant/class2/c4.png') }}" class="w-[6vw]" />
+        <img src="{{ asset('assets/images/micet/k2/plant/class2/c5.png') }}" class="w-[6vw]" />
+        <img src="{{ asset('assets/images/micet/k2/plant/class2/c6.png') }}" class="w-[6vw]" />
+        <img src="{{ asset('assets/images/micet/k2/plant/class2/c7.png') }}" class="w-[6vw]" />
+    </div>
+</div>
+
+
+{{-- panel 4 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+    <h1 class="panel-title stroke">Classroom Activity 8: A Seed Grows Up</h1>
+
+    <ol class="list-decimal panel-ul w-[45vw]" start="8">
+        <li>Show this photo of seed growth. Let the children discuss how the seed will grow (over 8 slides).</li>
+    </ol>
+    <div class="flex justify-center w-[45vw] mt-[2vw]">
+        <img src="{{ asset('assets/images/micet/k2/plant/class2/c2.png') }}" class="h-[6vw]" />
+        <img src="{{ asset('assets/images/micet/k2/plant/class2/c3.png') }}" class="h-[15vw]" />
+        <img src="{{ asset('assets/images/micet/k2/plant/class2/c4.png') }}" class="w-[6vw]" />
+        <img src="{{ asset('assets/images/micet/k2/plant/class2/c5.png') }}" class="w-[6vw]" />
+        <img src="{{ asset('assets/images/micet/k2/plant/class2/c6.png') }}" class="w-[6vw]" />
+        <img src="{{ asset('assets/images/micet/k2/plant/class2/c7.png') }}" class="w-[6vw]" />
+        <img src="{{ asset('assets/images/micet/k2/plant/class2/c8.png') }}" class="w-[6vw]" />
+    </div>
+</div>
+
+
+{{-- panel 4 --}}
+<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[1vw]">
+    <h1 class="panel-title stroke">Classroom Activity 8: A Seed Grows Up</h1>
+
+    <ol class="list-decimal panel-ul w-[45vw]" start="9">
+        <li>Show this photo of seed growth. Let the children discuss how the seed will grow (over 8 slides).</li>
+    </ol>
+    <div class="flex justify-center w-[45vw] mt-[2vw]">
+        <img src="{{ asset('assets/images/micet/k2/plant/class2/c2.png') }}" class="h-[6vw]" />
+        <img src="{{ asset('assets/images/micet/k2/plant/class2/c3.png') }}" class="h-[15vw]" />
+        <img src="{{ asset('assets/images/micet/k2/plant/class2/c4.png') }}" class="w-[6vw]" />
+        <img src="{{ asset('assets/images/micet/k2/plant/class2/c5.png') }}" class="w-[6vw]" />
+        <img src="{{ asset('assets/images/micet/k2/plant/class2/c6.png') }}" class="w-[6vw]" />
+        <img src="{{ asset('assets/images/micet/k2/plant/class2/c7.png') }}" class="w-[6vw]" />
+        <img src="{{ asset('assets/images/micet/k2/plant/class2/c8.png') }}" class="w-[6vw]" />
+        <img src="{{ asset('assets/images/micet/k2/plant/class2/c9.png') }}" class="h-[16.5vw]" />
+    </div>
+</div>
 
 
 
 {{-- panel 4 --}}
-<div class="phonics-panel flex flex-col h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 2: Fruit Patterning</h1>
+<div class="phonics-panel flex flex-col justify-start h-full items-center space-y-[2vw]">
+    <h1 class="panel-title stroke">Classroom Activity 8: A Seed Grows Up</h1>
 
-    <ol class="list-decimal panel-ul w-[45vw]" start="23">
-        <li>(Optional activity) After completing the sequencing activity,
-            have the children wash their hands and the fruits as well.</li>
-        <li>
-            Invite the children to taste the fruits they have.
-        </li>
+    <ol class="list-decimal panel-ul w-[45vw]" start="10">
+        <li>Click on the video. Show the children how a seed grows into a plant.</li>
     </ol>
+    <video class="h-[18vw] cursor-pointer" loop playsinline onclick="this.paused ? this.play() : this.pause();">
+        <source src="{{ asset('assets/images/micet/k2/plant/class2/v1.mp4') }}" type="video/mp4">
+    </video>
 </div>
 
 
-{{-- panel 5 --}}
-<div class="phonics-panel flex flex-col h-full items-center">
-    <h1 class="panel-title stroke">Classroom Activity 2: Fruit Patterning</h1>
 
-    <ol class="list-decimal panel-ul w-[45vw]" start="25">
-        <li>Distribute plain papers to the children. Encourage
-            them to draw a simple fruit pattern. If using the
-            Thematic Activity book, guide children to complete
-            the corresponding activities in the book.</li>
-    </ol>
+{{-- panel 3 --}}
+<div class="phonics-panel flex flex-col h-full items-center">
+    <h1 class="panel-title stroke">Classroom Activity 2: Grow a Plant</h1>
+
+    <div class="text-start">
+        <ol class="list-decimal panel-ul w-[45vw]" start="11">
+            <li>The children discuss the factors needed for seeds to grow. Help the children understand the factors required for plants to grow; e.g. sunlight, soil and water.</li>
+        </ol>
+    </div>
+    <div class="flex">
+        <img src="{{ asset('assets/images/micet/k2/plant/class2/c10.png') }}" class="w-[12vw] h-[10vw]" />
+        <div class="flex flex-col">
+            <img src="{{ asset('assets/images/micet/k2/plant/class2/c11.png') }}" class="w-[15vw] h-[10vw]" />
+            <img src="{{ asset('assets/images/micet/k2/plant/class2/c12.png') }}" class="w-[15vw] h-[10vw]" />
+        </div>
+    </div>
 </div>
+
+
+{{-- panel 3 --}}
+<div class="phonics-panel flex flex-col h-full items-center">
+    <h1 class="panel-title stroke">Classroom Activity 2: Grow a Plant</h1>
+
+    <div class="text-start">
+        <ol class="list-decimal panel-ul w-full" start="12">
+            <li>Organise the children into groups and distribute four pots per group. Paste the four different labels from the Thematic Activity Book on the respective pots: with sunlight - with water; with sunlight - no water; no sunlight - with water; no sunlight - no water.</li>
+            <li>Help the children plant the seeds in the small pots. Place the two pots labelled "with sunlight" in places where there is sunlight. Place the other two pots in a dark corner of the classroom where sunlight cannot reach. Water the seeds in the two pots labelled "with water" everyday. Do not water the other two pots..</li>
+        </ol>
+    </div>
+    <img src="{{ asset('assets/images/micet/k2/plant/class2/c13.png') }}" class="h-[12vw]" />
+</div>
+
+
+{{-- panel 3 --}}
+<div class="phonics-panel flex flex-col h-full items-center">
+    <h1 class="panel-title stroke">Classroom Activity 2: Grow a Plant</h1>
+
+    <div class="text-start">
+        <ol class="list-decimal panel-ul w-[45vw]" start="14">
+            <li>Have the children open the Thematic Activity Book "Experiment Record Table". Encourage the children to predict first before the experiment. Record their predictions on this table..</li>
+        </ol>
+        <div class="text-center">
+            <h2 class="ptitle">Before The Experiment: My Prediction</h2>
+            <p class="text-white text-xl">In which pot will you first see germination and green leaves? Tick ( /) the boxes.</p>
+        </div>
+    </div>
+    <img src="{{ asset('assets/images/micet/k2/plant/class2/c14.png') }}" class="h-[15vw]" />
+</div>
+
+
+{{-- panel 3 --}}
+<div class="phonics-panel flex flex-col h-full items-center">
+    <h1 class="panel-title stroke">Classroom Activity 2: Grow a Plant</h1>
+
+    <div class="text-start">
+        <ol class="list-decimal panel-ul w-[45vw]" start="15">
+            <li>Encourage the children to predict first before the experiment, when it w sprout and when it will grow green leaves. Record their predictions on the table.</li>
+        </ol>
+        <div class="text-center ">
+            <h2 class="ptitle">Before The Experiment: My Prediction</h2>
+        </div>
+    </div>
+    <img src="{{ asset('assets/images/micet/k2/plant/class2/c15.png') }}" class="h-[15vw]" />
+</div>
+
+
+{{-- panel 3 --}}
+<div class="phonics-panel flex flex-col h-full items-center">
+    <h1 class="panel-title stroke">Classroom Activity 2: Grow a Plant</h1>
+
+    <div class="text-start">
+        <ol class="list-decimal panel-ul w-[45vw]" start="16">
+            <li>Tell the children that from that day onward, they will have to look at the seeds daily to see if there are any changes. If there is a change, the students will have to record their observations and the date in the table.</li>
+            <li>Encourage the children to continue observing and recording their observations until the plant grows leaves.</li>
+        </ol>
+    </div>
+    <img src="{{ asset('assets/images/micet/k2/plant/class2/c16.png') }}" class="h-[15vw]" />
+</div>
+
+
+{{-- panel 3 --}}
+<div class="phonics-panel flex flex-col h-full items-center">
+    <h1 class="panel-title stroke">Classroom Activity 2: Grow a Plant</h1>
+
+    <div class="text-start">
+        <ol class="list-decimal panel-ul w-[45vw]" start="18">
+            <li>After the experiment, guide the children to complete this table based on their observations.</li>
+        </ol>
+        <div class="text-center">
+            <h2 class="ptitle">After The Experiment: Actual Results</h2>
+        </div>
+    </div>
+    <img src="{{ asset('assets/images/micet/k2/plant/class2/c17.png') }}" class="h-[20vw]" />
+</div>
+
+
+{{-- panel 3 --}}
+<div class="phonics-panel flex flex-col h-full items-center">
+    <h1 class="panel-title stroke">Classroom Activity 2: Grow a Plant</h1>
+
+    <div class="text-start">
+        <ol class="list-decimal panel-ul w-[45vw]" start="19">
+            <li>After the experiment, guide the children to complete this table based on their observations.</li>
+        </ol>
+        <div class="text-center ">
+            <h2 class="ptitle">After The Experiment: Actual Results</h2>
+        </div>
+    </div>
+    <img src="{{ asset('assets/images/micet/k2/plant/class2/c18.png') }}" class="h-[20vw]" />
+</div>
+
 
 
 {{-- panel 36 --}}
 <div class="phonics-panel flex flex-col items-center h-full">
-    <h1 class="panel-title stroke">Classroom Activity 2: Fruit Patterning</h1>
+    <h1 class="panel-title stroke">Classroom Activity 2: Grow a Plant</h1>
 
     <div class="text-start flex flex-col justify-between h-full">
         <h3 class="ptitle">Clousre</h3>
 
         <ul class="list-disc panel-ul w-[45vw]">
-            <li>Let the children display their fruit patterns.</li>
+            <li>Invite the children to tell if their estimate before the experiment and the result of the experiment are identical.</li>
+            <li>Help the children reach a conclusion that plants need sunlight and water to grow.</li>
         </ul>
 
         <h3 class="ptitle">Evaluation</h3>
 
         <ul class="list-disc panel-ul w-[45vw]">
-            <li>Able to name some common fruits.</li>
-            <li>Able to arrange fruits according to a pattern.</li>
-            <li>Able to draw a simple fruit pattern.</li>
+            <li>Able to carry out the proper prediction.</li>
+            <li>Able to discover the roles of water and sunlight in the growth of plants.</li>
+            <li>Able to record observations on the table.</li>
         </ul>
     </div>
 </div>
@@ -403,13 +369,14 @@ $showMascot = true;
 
 {{-- panel 19 --}}
 <div class="phonics-panel flex flex-col items-center h-full space-y-[2vw]">
-    <h1 class="panel-title stroke">Classroom Activity 2: Fruit Patterning</h1>
+    <h1 class="panel-title stroke">Classroom Activity 2: Grow a Plant</h1>
 
     <div class="text-start flex flex-col">
         <h3 class="ptitle">Extension</h3>
 
         <ul class="list-disc panel-ul w-[45vw]">
-            <li>Ask the children to collect fruit seeds from home and bring to school.</li>
+            <li>Invite the children to plant different seeds at home and to observe their changes in growth in order to help them understand that some seeds grow faster than others.</li>
+            <li>Encourage the children to plant other seeds at home (or in class) to carry out more thorough observations; e.g. measure the height of the seedlings.</li>
         </ul>
     </div>
 </div>
@@ -467,8 +434,8 @@ $showMascot = true;
         const soundButtons = document.querySelectorAll("[id^='soundButton']");
 
         // URLs for navigation
-        const returnURL = "{{ url('/micet/k1/fruits/index') }}";
-        const doneURL = "{{ url('/micet/k1/fruits/index') }}";
+        const returnURL = "{{ url('/micet/k2/plant/index') }}";
+        const doneURL = "{{ url('/micet/k2/plant/index') }}";
 
         // Track current position
         let currentSlide = 0;
